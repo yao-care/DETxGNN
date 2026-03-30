@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Drug Repurposing Predictions
+title: Vorhersagen zur Arzneimittel-Umwidmung
 nav_order: 1
 description: "AI-powered drug repurposing predictions for Germany. Evidence-based analysis of approved medicines for potential new therapeutic indications."
 permalink: /
 ---
 
-# Drug Repurposing Predictions — Germany
+# Vorhersagen zur Arzneimittel-Umwidmung — Deutschland
 
-This project uses the TxGNN knowledge graph to predict potential new therapeutic uses for medicines approved in Germany.
+Dieses Projekt verwendet den TxGNN-Wissensgraphen, um potenzielle neue therapeutische Anwendungen für in Deutschland zugelassene Arzneimittel vorherzusagen.
 
-**Disclaimer**: This content is for research purposes only and does not constitute medical advice. All drug repurposing predictions require clinical validation before application.
+**Haftungsausschluss**: Dieser Inhalt dient ausschließlich Forschungszwecken und stellt keine medizinische Beratung dar. Alle Vorhersagen zur Arzneimittel-Umwidmung erfordern eine klinische Validierung vor der Anwendung.
