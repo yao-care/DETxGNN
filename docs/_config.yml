@@ -1,5 +1,6 @@
 title: DETxGNN - Drug Repurposing
 description: Germany BfArM-approved Drug Repurposing predictions powered by TxGNN
+lang: de
 remote_theme: just-the-docs/just-the-docs
 url: https://detxgnn.yao.care
 baseurl: ""
