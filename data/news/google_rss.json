@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-03-31T10:55:18.581261+00:00",
+  "fetched_at": "2026-03-31T11:52:29.009495+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -44,12 +44,12 @@
       }
     },
     {
-      "id": "aff1344db425",
-      "title": "Warum viele Medikamente für Ältere oft problematischer sind - main-spitze.de",
+      "id": "91df2900928c",
+      "title": "Warum viele Medikamente für Ältere oft problematischer sind - Main-Spitze",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMzJPMTRXcFh2NVlRU3Mwd1phWWtRcVJnRVBMdDZOdlBVczRVc2hHYkZobTVkRVRuU0pyelRYQ2c2cHB1bm5jd2hSYUdxTWlmUktORVkxMHl1clNUU01BMmJQcVFvX0pPS080S0o2NTlFYjhPSHVJWFQyS09OX2pENlFrMW1xM2tucVhqMG05eWlKZktONjJId1R1VEZCcXBYVnZMeW1VeEtrT0RUa0tkMlh6SVpvZGc?oc=5",
       "published": "2026-03-29T13:00:00+00:00",
       "source": {
-        "name": "main-spitze.de",
+        "name": "Main-Spitze",
         "url": "https://www.main-spitze.de"
       }
     },
@@ -74,23 +74,13 @@
       }
     },
     {
-      "id": "aa5c6020a2e2",
-      "title": "Arzneimittel - Klinische Prüfung - brd.nrw.de",
+      "id": "382c5f47fad5",
+      "title": "Arzneimittel - Klinische Prüfung - Bezirksregierung Düsseldorf",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQanJqVmFoa1RDaGJaamxwcFU0MUpaZ0RkV2V5SnZRSW9VdzBWdHMwelVRdnlfWUc5WlN6TXFNc0hRNXY1YmRWQ2czQ0N3UG94Zlh6OXAzQlRtVUVTb2RkckNNWjh0TzBrWl9ESENaeGN6LVo4VERrdkdiQ19jT0dnZWx4RnJ3cUtTRFloY3p2OG1NQjFKRkptajhfWXFqeHo1TEx0OEJ4S1JYRVQyc2JBTmt4a2FNNmpFWjhJVg?oc=5",
       "published": "2026-03-19T01:38:59+00:00",
       "source": {
-        "name": "brd.nrw.de",
+        "name": "Bezirksregierung Düsseldorf",
         "url": "https://www.brd.nrw.de"
-      }
-    },
-    {
-      "id": "17d1e98dc012",
-      "title": "Kommissionsvorschläge sind kurzsichtig und kontraproduktiv / Kein differenzierter ... - Presseportal",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5jaUw2UmFxV3c4cWxKTEIzdDJ3M2Y3VG8yaWM2c2l1MW1CeFNXZF9JMHpSa2RGN3lrRFZtYzVQUWI1UEVqN0FxZG8zNEFMTVNjSkUzUVFSbw?oc=5",
-      "published": "2026-03-30T14:50:58+00:00",
-      "source": {
-        "name": "Presseportal",
-        "url": "https://www.presseportal.de"
       }
     },
     {
@@ -101,6 +91,16 @@
       "source": {
         "name": "Deutsches Ärzteblatt",
         "url": "https://www.aerzteblatt.de"
+      }
+    },
+    {
+      "id": "17d1e98dc012",
+      "title": "Kommissionsvorschläge sind kurzsichtig und kontraproduktiv / Kein differenzierter ... - Presseportal",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5jaUw2UmFxV3c4cWxKTEIzdDJ3M2Y3VG8yaWM2c2l1MW1CeFNXZF9JMHpSa2RGN3lrRFZtYzVQUWI1UEVqN0FxZG8zNEFMTVNjSkUzUVFSbw?oc=5",
+      "published": "2026-03-30T14:50:58+00:00",
+      "source": {
+        "name": "Presseportal",
+        "url": "https://www.presseportal.de"
       }
     },
     {
@@ -184,20 +184,20 @@
       }
     },
     {
-      "id": "9d7220d41a49",
-      "title": "Sparpläne vorgelegt: Kassen sehen »Potenzial« - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBfOE5TbWpiRW82S2JBQTVHRXBmOXFPeVJoZWFsS0RLWDVQTGVnYlV3N01EckdlbmJPUG9FM3AtQXpRYTVIOFZIY01ZVF94YVNuRVVpZHJpTWZHNk5teVRCMlc3U0VxN0dhTm9vZDRBQzFVb0N5RXBVcQ?oc=5",
-      "published": "2026-03-30T14:24:09+00:00",
+      "id": "5371885eb692",
+      "title": "»Gerade in der Apotheke wird Gesundheit gelebt« - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWGI5Ni1Wb1RMSGlZbElwcDdtVjF5TzJBTVpUd0xoblBOUHl5UG8tcXlNY1FPTHBPbU5tT2J2S2VTRkFlZlVxejM2S3V6Ty14bHlXVmEtRmRPUnNoeEd0U3pWZlQ5SlZjNGF3bnhWWGF0M2h5MHVSaFZRZjBZZy1KOEZva1l2N1dzbkF0Q2dvRUc1SVN3OVVF?oc=5",
+      "published": "2026-03-19T07:00:00+00:00",
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
-      "id": "5371885eb692",
-      "title": "»Gerade in der Apotheke wird Gesundheit gelebt« - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWGI5Ni1Wb1RMSGlZbElwcDdtVjF5TzJBTVpUd0xoblBOUHl5UG8tcXlNY1FPTHBPbU5tT2J2S2VTRkFlZlVxejM2S3V6Ty14bHlXVmEtRmRPUnNoeEd0U3pWZlQ5SlZjNGF3bnhWWGF0M2h5MHVSaFZRZjBZZy1KOEZva1l2N1dzbkF0Q2dvRUc1SVN3OVVF?oc=5",
-      "published": "2026-03-19T07:00:00+00:00",
+      "id": "9d7220d41a49",
+      "title": "Sparpläne vorgelegt: Kassen sehen »Potenzial« - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBfOE5TbWpiRW82S2JBQTVHRXBmOXFPeVJoZWFsS0RLWDVQTGVnYlV3N01EckdlbmJPUG9FM3AtQXpRYTVIOFZIY01ZVF94YVNuRVVpZHJpTWZHNk5teVRCMlc3U0VxN0dhTm9vZDRBQzFVb0N5RXBVcQ?oc=5",
+      "published": "2026-03-30T14:24:09+00:00",
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
@@ -304,22 +304,22 @@
       }
     },
     {
-      "id": "f0ec5752b922",
-      "title": "Hendrik Streeck hinterfragt teure Medikamente für alte Menschen - Spiegel",
+      "id": "794aa9d3eca4",
+      "title": "Hendrik Streeck hinterfragt teure Medikamente für alte Menschen - spiegel.de",
       "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPdklWd0VveEdNaGZxM3F3RmFVdXFOQi10dUZONzlqUjBCS1EyMERpajY5dm9UajBXQnNaaG1Kc2NYUl8tOHpBZFBTQjl4X2NUdXNmckMxdDllNEVmMnZkNVRvU2Y1d3R6WUswWVFLek9rWUhOb01pSjkwbFB1SVdWaTQyc25VWi1aUGxWUGpETWU1b0plSW5qQXNZNzNmbzRPUUg0dGRVOHpEQnI4SWpkZ2diak1XSWNmNFhzSXVUd1BDYktCSkxIVmt2ekpXdGJ3ZDdYRXdWa1FwNDVo?oc=5",
       "published": "2025-11-12T08:00:00+00:00",
       "source": {
-        "name": "Spiegel",
+        "name": "spiegel.de",
         "url": "https://www.spiegel.de"
       }
     },
     {
-      "id": "9ac277a9a44f",
-      "title": "Pharma-Paket: EU erzielt Einigung zur Reform des 20 Jahre alten Arzneimittelrechts - Euractiv DE",
+      "id": "a55e36291359",
+      "title": "Pharma-Paket: EU erzielt Einigung zur Reform des 20 Jahre alten Arzneimittelrechts - euractiv.de",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUU5BWUFPZS1sa0Npd09DQVNBdzQ2REk1M1FGLU1SRURYQ2FaNWU4UjBlNDBzdmQ1dzdlbWZ3bExCRF8tS2dKWHI1SklScng1SkQzQW9nT2ZScjUxQmhfd0RjRVA0M2FhYjVXNzlVbTZLVmZGelZDUWthLWViYUdjUW80V1RWQWlKeUJXSTdEd3hfbVRDczFVdl9RTndnbGRXYXBoZGFxd2ZLamc?oc=5",
       "published": "2025-12-11T08:00:00+00:00",
       "source": {
-        "name": "Euractiv DE",
+        "name": "euractiv.de",
         "url": "https://euractiv.de"
       }
     },
@@ -364,12 +364,12 @@
       }
     },
     {
-      "id": "ecdb8701e403",
-      "title": "Über Partner dm-med - zm-online",
+      "id": "f9f283a2ec97",
+      "title": "Über Partner dm-med - zm-online.de",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNOUFGdG1OWWJsanBTR3hkcEZMRkp1V3o3VW54N3kzd3RUTXRLR3FLcXJSbkRrRC1JSDZIUmFtMWpwdGxraXFhdVRKR0xpak9yak1OMVU5Ymg1bmpNaTVDTlFlWTRjQUt1MjdTYm5nRkV0a0RVUjJkWGwwaWxSM3JZQVhMbGNhdVZfMTZHZDFubGs2dUxHYXBqb3FB?oc=5",
       "published": "2025-12-17T08:00:00+00:00",
       "source": {
-        "name": "zm-online",
+        "name": "zm-online.de",
         "url": "https://www.zm-online.de"
       }
     },
@@ -494,12 +494,12 @@
       }
     },
     {
-      "id": "a9af8ae96aae",
-      "title": "US-EU Handelsabkommen getrübt: Trump kündigt neue Arzneimittelzölle an - Euractiv DE",
+      "id": "b816bec8da73",
+      "title": "US-EU Handelsabkommen getrübt: Trump kündigt neue Arzneimittelzölle an - euractiv.de",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQY1gtaENlRHd3bGNiWTY0V0x3d0NrQnhsN3BuanJRRzdfWldWRXJfTGdheXBJcHNpOHljMTB3bkV1WHAyNGtNdzJiZ0dreVE0eGJrcFBnVVpWWUtJQ2d6SnRMUUh0U3R3S3VWTFRUeG9YbFNaZm5rczNmRWtxa2dnMEFTOHc5d1FMTkNpYWtVdW9JUGdZVTlpc2pjS0lLOTQ?oc=5",
       "published": "2025-09-26T07:00:00+00:00",
       "source": {
-        "name": "Euractiv DE",
+        "name": "euractiv.de",
         "url": "https://euractiv.de"
       }
     },
@@ -934,12 +934,12 @@
       }
     },
     {
-      "id": "451d426abe36",
-      "title": "Gesundheit: Lauterbach plant Arzneimittel ohne Apotheker vor Ort - handelsblatt.com",
+      "id": "fc2e64098f26",
+      "title": "Gesundheit: Lauterbach plant Arzneimittel ohne Apotheker vor Ort - Handelsblatt",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQWxPaFhLaGt1QmRaOHAwVHpBRm8yaU9jZkZ1UmwtNmkzeS1kWGFBeVhNUC1iSks0UDFjYlhyS0U5V1lkTXRhbEZsWlcyZXVTeEhmR1dsZ0xQcDlkWTRCcTJzN1NYSDNOUFRBaFJoTVNLc3dPMFAwX0JXRWt6c3Z6dXltZ3RLS1Jnb05QOW1tdUIzUmdnWGdfcDdMdWhJZnRBWmNUdXlHQ0FTQnpydE80eHAwUjRKazZ1WHVnYVc1SlBEc2c0Q1E?oc=5",
       "published": "2024-07-02T07:00:00+00:00",
       "source": {
-        "name": "handelsblatt.com",
+        "name": "Handelsblatt",
         "url": "https://www.handelsblatt.com"
       }
     },
@@ -954,12 +954,12 @@
       }
     },
     {
-      "id": "ef93adbf0628",
-      "title": "Medikamente: Ärzte und Apotheker warnen vor Medikamentenmangel im Herbst - Spiegel",
+      "id": "1bb8c724d7f7",
+      "title": "Medikamente: Ärzte und Apotheker warnen vor Medikamentenmangel im Herbst - spiegel.de",
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQdHRaWUt3eTRMOUhHTW05RFh3VUNHMTR0TVFqNWpNbElfVWlUbWh4cS12SHpKZG5qRlJvdm5sdXpOVkJoQWZQTlhVOThLSUNsd2pLeDJKT1lvTHduODY5LU9MZ2NsUnJYdDY3eU1KQWxpdzV5QzZfam5EVTZrYXlrR3pTZmVZeDR2VW14bGlBUWNSVWVkSENaTWl4Rk1PUkRhRklFaEluMUxYeHdTZEtGQnhqeTY0YjluWkVMWnFXbDQ0YjlibFhCeE9aeWotMGVWVDNuSlR1bldBRnhDVGc?oc=5",
       "published": "2024-09-20T07:00:00+00:00",
       "source": {
-        "name": "Spiegel",
+        "name": "spiegel.de",
         "url": "https://www.spiegel.de"
       }
     },
