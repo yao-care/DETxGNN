@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-02T22:33:41.195708+00:00",
+  "fetched_at": "2026-04-02T23:37:28.887510+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -54,13 +54,13 @@
       }
     },
     {
-      "id": "c1e3f7d9f5a1",
-      "title": "Kassenleistung ab sofort: Neue Hoffnung für Long-Covid-Patienten - RP Online",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPS3ZTTVJhLWxzbUMwbXBScF9nWF9MRmVKWkRYdEtGTlRPa0ViNXV3R1dTb0piNjVFbGx2bFk1Z3ViT2lDQl9HTVh6MVhOVjJvMGFRQ1YwcVE3Y1Jtd3FVQkhnaWR2MXRkQnNWNjNFYmQ5N01zTVFSbVVzemgxSVA2SXlFWUZ2eUpMcUFBOFpQZ2hmS1ozV0hxSlV3eDRLd19DWWhaZXd6TQ?oc=5",
-      "published": "2026-04-02T15:19:00+00:00",
+      "id": "2d81b49771b4",
+      "title": "Auf die Nachricht haben Long-COVID-Betroffene gewartet: 4 Medikamente werden zur Kassenleistung - BRIGITTE.de",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTTBLRUZlWVRuMDFwRV82WGNrT2dYWURrU2tBUFJtYjI3aDk0Tm5TOVE2QVBjeGVFZm9ybnBsM3JjQW90Vkpxb1IyTlBuQXVVcEx1WVhMQ0YtY2VFUVQ0Tkp6T2VOem9NZ2ZYX3pxYWxyeGM2a0swM21QcXBmbjNXTnlZaUFEaThRVlJRX1otLUhkYXNSdFBEWHhnZGpuNzIwcU1acUxTV3JYblBiYWJwcS1rSXRCZw?oc=5",
+      "published": "2026-04-02T12:46:00+00:00",
       "source": {
-        "name": "RP Online",
-        "url": "https://rp-online.de"
+        "name": "BRIGITTE.de",
+        "url": "https://www.brigitte.de"
       }
     },
     {
@@ -74,6 +74,16 @@
       }
     },
     {
+      "id": "17358783761d",
+      "title": "Die Sparideen für den Arzneimittelbereich - deutsche-apotheker-zeitung.de",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYzgyREN4clM2c2NJQnZYb2ZuM2E1X2RxS2FLQk9ucGxMS0VIdzNQZXdFZXNiOUFZRWtrd0xFN2lGU1FoNDBocXYwV2hIbENnT21EY3FLa1R2Z1NCY2xvMTlyS2xMMGZtYmdoTWNTVzN5UGVlcHNleVVfekhjSU5fQkFreUtqWUZ3ZW9Oa1YxeFAwRHh0bTc4OXRpbDRsYlJpU2FmNTdMQkV0OHpa?oc=5",
+      "published": "2026-03-30T07:00:00+00:00",
+      "source": {
+        "name": "deutsche-apotheker-zeitung.de",
+        "url": "https://www.deutsche-apotheker-zeitung.de"
+      }
+    },
+    {
       "id": "cb779a855cf6",
       "title": "World Health Day 2026: NOVENTI stellt Rezept-Report vor - lifePR",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOWHNDYkRQZVdpSGxZZ2xBa3Q3aHE1MjdFMXF4eThoVjdzVnZ4ODB1YzlxNlRFcW1CSDJXR2ljNl9CblMxZXNJMzFtb1Jnc3BnazhpRFE5ZFF1enQ0dklOZFBtZWt3TTNqM09zVmdqaFdvNzBaX1Q4OXBuV0RqWVV3RnZyTjh4dTFOM18yeEQ0NFlZLURFZ2lRdnZKbWozSkZWSXJmZDNEVDJYYjI5Q3ItTlJ4anpEMEpmSHhoUQ?oc=5",
@@ -81,16 +91,6 @@
       "source": {
         "name": "lifePR",
         "url": "https://www.lifepr.de"
-      }
-    },
-    {
-      "id": "3b222e2ffbff",
-      "title": "Die Sparideen für den Arzneimittelbereich - Deutsche Apotheker Zeitung, DAZ",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYzgyREN4clM2c2NJQnZYb2ZuM2E1X2RxS2FLQk9ucGxMS0VIdzNQZXdFZXNiOUFZRWtrd0xFN2lGU1FoNDBocXYwV2hIbENnT21EY3FLa1R2Z1NCY2xvMTlyS2xMMGZtYmdoTWNTVzN5UGVlcHNleVVfekhjSU5fQkFreUtqWUZ3ZW9Oa1YxeFAwRHh0bTc4OXRpbDRsYlJpU2FmNTdMQkV0OHpa?oc=5",
-      "published": "2026-03-30T07:00:00+00:00",
-      "source": {
-        "name": "Deutsche Apotheker Zeitung, DAZ",
-        "url": "https://www.deutsche-apotheker-zeitung.de"
       }
     },
     {
@@ -104,13 +104,13 @@
       }
     },
     {
-      "id": "2d81b49771b4",
-      "title": "Auf die Nachricht haben Long-COVID-Betroffene gewartet: 4 Medikamente werden zur Kassenleistung - BRIGITTE.de",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTTBLRUZlWVRuMDFwRV82WGNrT2dYWURrU2tBUFJtYjI3aDk0Tm5TOVE2QVBjeGVFZm9ybnBsM3JjQW90Vkpxb1IyTlBuQXVVcEx1WVhMQ0YtY2VFUVQ0Tkp6T2VOem9NZ2ZYX3pxYWxyeGM2a0swM21QcXBmbjNXTnlZaUFEaThRVlJRX1otLUhkYXNSdFBEWHhnZGpuNzIwcU1acUxTV3JYblBiYWJwcS1rSXRCZw?oc=5",
-      "published": "2026-04-02T12:46:00+00:00",
+      "id": "c1e3f7d9f5a1",
+      "title": "Kassenleistung ab sofort: Neue Hoffnung für Long-Covid-Patienten - RP Online",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPS3ZTTVJhLWxzbUMwbXBScF9nWF9MRmVKWkRYdEtGTlRPa0ViNXV3R1dTb0piNjVFbGx2bFk1Z3ViT2lDQl9HTVh6MVhOVjJvMGFRQ1YwcVE3Y1Jtd3FVQkhnaWR2MXRkQnNWNjNFYmQ5N01zTVFSbVVzemgxSVA2SXlFWUZ2eUpMcUFBOFpQZ2hmS1ozV0hxSlV3eDRLd19DWWhaZXd6TQ?oc=5",
+      "published": "2026-04-02T15:19:00+00:00",
       "source": {
-        "name": "BRIGITTE.de",
-        "url": "https://www.brigitte.de"
+        "name": "RP Online",
+        "url": "https://rp-online.de"
       }
     },
     {
@@ -254,16 +254,6 @@
       }
     },
     {
-      "id": "ef29235e3f7b",
-      "title": "Arzneimittelpreise: Medikamente in Deutschland günstiger als USA trotz Trump-Deals - Gesundheit - SZ.de - SZ.de",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdnBJZGx2V2VkNEJfQy1NTDk2NFJXOE5MY3k2VE1yNmxuZzNiWWNlalNjN0MzTjJzSUwxTDRPRTlJai1XeXVUODNhaGlrRXJhaVpJdVQ0eV9mNHc1QWZkaXhtUTVfdjZNWEU2eWptcVk1WkNUZHJNRUpNQzM2TXduRFpPS0tTbjhtajdRWmtMbTM2N1owQ1I1Y2g1MmJiUzNpdnc?oc=5",
-      "published": "2026-03-18T07:00:00+00:00",
-      "source": {
-        "name": "SZ.de",
-        "url": "https://www.sueddeutsche.de"
-      }
-    },
-    {
       "id": "a2e1c1586ee7",
       "title": "Karies durch Asthma-Inhalatoren? - Apotheke Adhoc",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUjNRQjNuRU5HR1pNR1FSd05HR19JekoydEFmNDdRUUs4SVlUandYeWFuWEYtMVR4SmE2WWU3bFhFWHl2YWJ3eEZ2c29kdy1vQnYxMzhXWTdac2NOUXFKMjJ4U0dpUkt5cV96WTJpalVWZENUVk5jMUpaZGJnWGlYb3VBcnRRQlppQ0FGOXh0RE01anJvaEE?oc=5",
@@ -271,6 +261,16 @@
       "source": {
         "name": "Apotheke Adhoc",
         "url": "https://www.apotheke-adhoc.de"
+      }
+    },
+    {
+      "id": "ef29235e3f7b",
+      "title": "Arzneimittelpreise: Medikamente in Deutschland günstiger als USA trotz Trump-Deals - Gesundheit - SZ.de - SZ.de",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdnBJZGx2V2VkNEJfQy1NTDk2NFJXOE5MY3k2VE1yNmxuZzNiWWNlalNjN0MzTjJzSUwxTDRPRTlJai1XeXVUODNhaGlrRXJhaVpJdVQ0eV9mNHc1QWZkaXhtUTVfdjZNWEU2eWptcVk1WkNUZHJNRUpNQzM2TXduRFpPS0tTbjhtajdRWmtMbTM2N1owQ1I1Y2g1MmJiUzNpdnc?oc=5",
+      "published": "2026-03-18T07:00:00+00:00",
+      "source": {
+        "name": "SZ.de",
+        "url": "https://www.sueddeutsche.de"
       }
     },
     {
@@ -304,12 +304,22 @@
       }
     },
     {
-      "id": "229e6bd55972",
-      "title": "GKV-Arzneimittelausgaben um 4,6 Prozent gestiegen – News - aerzteblatt.de",
+      "id": "aedc58765355",
+      "title": "Zwei Jahre Cannabisgesetz : Medizinalcannabis statt Social Clubs - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQc0tKNXNmN3JSRXk1cnZTNm50VUFRS28waGNWYTdDQW05MG9OczVxeUhkRmhrWHE4ZGtHUGFRM2I0U185dE0zejF0c1hQclhMU2I3TWZjcElTM25iakdkQkpvWklTcl93RkxiOFRGNTAxVHZmWTFOZDcwUjU5cDA4aEdLNFJfZHFWc2s0?oc=5",
+      "published": "2026-04-01T12:27:04+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "5f667293c0fe",
+      "title": "GKV-Arzneimittelausgaben um 4,6 Prozent gestiegen – News - Deutsches Ärzteblatt",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOckNKQUx5VG4ybXZiWEVraWVMZlpRYmdMU0cwWllHWUVoV3BGWUpEWUp1eWMwell2NkIwamxiU2VmaVF5RndDRE1LdjA5U3JfVG1NaWtBcmRCWXlIdVNlSmtUQlVBRjZleUEwajNhV0FzcFFZUW1vSXNBbG5WeW1UWTlBOFl1QWpma05vQnY5bXI2dU0teFJsZEhPUGFDWC0tRFVuT3RZaUx0RmtrYnFBdUplTWVpbnB0?oc=5",
       "published": "2026-03-12T07:00:00+00:00",
       "source": {
-        "name": "aerzteblatt.de",
+        "name": "Deutsches Ärzteblatt",
         "url": "https://www.aerzteblatt.de"
       }
     },
@@ -324,12 +334,12 @@
       }
     },
     {
-      "id": "0492b7e301a9",
-      "title": "Intimgesundheit der Frau: Arzneimittel der Selbstmedikation richtig anwenden - monitor-versorgungsforschung.de",
+      "id": "7314c1d76222",
+      "title": "Intimgesundheit der Frau: Arzneimittel der Selbstmedikation richtig anwenden - Monitor Versorgungsforschung",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZy01dWVucjhyQ1RpaWpxTUF4YWlpcmNTU2NxWkdORVVfd2UtaXA0UkJvVTlKNEp6SE1aYUhPMmxhME5YYkVtbDJGSVcxQTUtWTg5TkM5VkR3TFktU1lXOGxTSlk0cWNUUmtjY1d1aFpndENHdk9aVk9HTi16VjFzbzBtYWhOb0FQdDNYMnNkV3pkX1Nwbk42V0Y2N2ZZX2FMOHdfV2Nna3gyNWlCblVmZFZCZ29pR0gxbzA0eUpINE5NcXc?oc=5",
       "published": "2026-03-09T07:00:00+00:00",
       "source": {
-        "name": "monitor-versorgungsforschung.de",
+        "name": "Monitor Versorgungsforschung",
         "url": "https://www.monitor-versorgungsforschung.de"
       }
     },
@@ -424,13 +434,23 @@
       }
     },
     {
-      "id": "75842289567b",
-      "title": "Gesundheitsgerechtigkeit: mehr Frauen in klinischen Studien - aok.de",
+      "id": "fea129db0574",
+      "title": "Gesundheitsgerechtigkeit: mehr Frauen in klinischen Studien - AOK",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNY2tzS3R0OUZhUHBuT1RzNDlKa09vakp2aEE0cjB1VmFUd0EwVzJUU0kwZU56VlhaUGQ5dHdQZGlYeGFnX0ZTUzNmV1JFYUdIVlNTa2NONE5QbzBXbkdUVll4X2ZIbnF3Q2JvWjlVWm5YUEpsNWM2NnNnM3Y0dmR6MEdhTEVEa1dreTR0NjFqWjNteTllUHpHSzJIUDAtUUkxUURjZ1hiNnEwbU9jVHFpNE9TQXVQXzJz?oc=5",
       "published": "2026-02-05T08:00:00+00:00",
       "source": {
-        "name": "aok.de",
+        "name": "AOK",
         "url": "https://www.aok.de"
+      }
+    },
+    {
+      "id": "2c68d12d416c",
+      "title": "Long Covid: Für diese vier Medikamente zahlen nun die Krankenkassen - MSN",
+      "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPWUN6cThObS04UEx4OVI1bFhCRGRPc2VoQmJUUDRMNm5LZWRUOE9MeF9KUURWdzJ1dUxmczc5WEpDbWpoeVFHalcxQjVLZWtaZWdfQjhJazdCRFpsbFNFR0RITWNjY20zNS1NamlBSUdwZHFqb2JRaXI4QnMxb0tqR3plVUZIUm1QbTZ5WkpOeFJvc0NlWHJQZ0lwTGtBUklZUHBVTDVoRE1MLXZYTjZab21zeXF2N0p5aGhsaFlSc09PYm9XQ0RobzlLSDhhOFJXUlVhN2lTRXo1em9kVi1HcTdmWEdMNjFhVzJTNnFjeVdaTmVneXQySGlTMWN5V29aanhZOE5sQjdGVmV1cFh1UjBVVmY?oc=5",
+      "published": "2026-04-02T12:46:56+00:00",
+      "source": {
+        "name": "MSN",
+        "url": "https://www.msn.com"
       }
     },
     {
@@ -444,16 +464,6 @@
       }
     },
     {
-      "id": "b27e1a791272",
-      "title": "Long Covid: Für diese vier Medikamente zahlen nun die Krankenkassen - msn.com",
-      "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPWUN6cThObS04UEx4OVI1bFhCRGRPc2VoQmJUUDRMNm5LZWRUOE9MeF9KUURWdzJ1dUxmczc5WEpDbWpoeVFHalcxQjVLZWtaZWdfQjhJazdCRFpsbFNFR0RITWNjY20zNS1NamlBSUdwZHFqb2JRaXI4QnMxb0tqR3plVUZIUm1QbTZ5WkpOeFJvc0NlWHJQZ0lwTGtBUklZUHBVTDVoRE1MLXZYTjZab21zeXF2N0p5aGhsaFlSc09PYm9XQ0RobzlLSDhhOFJXUlVhN2lTRXo1em9kVi1HcTdmWEdMNjFhVzJTNnFjeVdaTmVneXQySGlTMWN5V29aanhZOE5sQjdGVmV1cFh1UjBVVmY?oc=5",
-      "published": "2026-04-02T12:46:56+00:00",
-      "source": {
-        "name": "msn.com",
-        "url": "https://www.msn.com"
-      }
-    },
-    {
       "id": "88f3ad8f8f16",
       "title": "Tipps vom Apotheker - Fehlende Arzneimittel - Warum sich Eltern bevorraten sollten - Gesundheit - SZ.de - SZ.de",
       "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOWFhLVUdkZzBFTm93WVhvZHdBSkk4ZWlPUWJQRlZFWjlSV3Npei12Wnc4YWhXZW9fMkFOLUs2TjNEanlIUENkRlJ1bmdDQWJKbFhVeEpaMmF2dEp3SjVZbjBHZlNDVUV2Z1NpekF5c3lEaUxsX3VPcDNwRHBGaVFFYXBRZ3dERXpIZWp2TzVralRSb1FEVmdfZjNJTmxMdW9WT25iZGh6QVBfQmV2UGRSby1hcWNOOWl4b2NIajFWRmZZNmhvemN2OVVSZ3dwYnlYTVBfYV9oVGlYM3B5TjJtQTZZUHkwb3cteVd1UzU5M3RaT2hiN2tjczYtOA?oc=5",
@@ -464,22 +474,22 @@
       }
     },
     {
-      "id": "794aa9d3eca4",
-      "title": "Hendrik Streeck hinterfragt teure Medikamente für alte Menschen - spiegel.de",
+      "id": "f0ec5752b922",
+      "title": "Hendrik Streeck hinterfragt teure Medikamente für alte Menschen - Spiegel",
       "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPdklWd0VveEdNaGZxM3F3RmFVdXFOQi10dUZONzlqUjBCS1EyMERpajY5dm9UajBXQnNaaG1Kc2NYUl8tOHpBZFBTQjl4X2NUdXNmckMxdDllNEVmMnZkNVRvU2Y1d3R6WUswWVFLek9rWUhOb01pSjkwbFB1SVdWaTQyc25VWi1aUGxWUGpETWU1b0plSW5qQXNZNzNmbzRPUUg0dGRVOHpEQnI4SWpkZ2diak1XSWNmNFhzSXVUd1BDYktCSkxIVmt2ekpXdGJ3ZDdYRXdWa1FwNDVo?oc=5",
       "published": "2025-11-12T08:00:00+00:00",
       "source": {
-        "name": "spiegel.de",
+        "name": "Spiegel",
         "url": "https://www.spiegel.de"
       }
     },
     {
-      "id": "9ac277a9a44f",
-      "title": "Pharma-Paket: EU erzielt Einigung zur Reform des 20 Jahre alten Arzneimittelrechts - Euractiv DE",
+      "id": "a55e36291359",
+      "title": "Pharma-Paket: EU erzielt Einigung zur Reform des 20 Jahre alten Arzneimittelrechts - euractiv.de",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUU5BWUFPZS1sa0Npd09DQVNBdzQ2REk1M1FGLU1SRURYQ2FaNWU4UjBlNDBzdmQ1dzdlbWZ3bExCRF8tS2dKWHI1SklScng1SkQzQW9nT2ZScjUxQmhfd0RjRVA0M2FhYjVXNzlVbTZLVmZGelZDUWthLWViYUdjUW80V1RWQWlKeUJXSTdEd3hfbVRDczFVdl9RTndnbGRXYXBoZGFxd2ZLamc?oc=5",
       "published": "2025-12-11T08:00:00+00:00",
       "source": {
-        "name": "Euractiv DE",
+        "name": "euractiv.de",
         "url": "https://euractiv.de"
       }
     },
@@ -514,12 +524,12 @@
       }
     },
     {
-      "id": "681aea5ce84c",
-      "title": "dm: Drogeriekette startet Online-Apotheke und erntet Kritik aus der Gesundheitsbranche - spiegel.de",
+      "id": "0ad5ee073819",
+      "title": "dm: Drogeriekette startet Online-Apotheke und erntet Kritik aus der Gesundheitsbranche - Spiegel",
       "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQb3YweDJTbVRaQ3JueVhtVG1VN3dxM3dLa1ZfN3ExNDdDNllob2V1Y3FqVUtZdzNjSjF2QU0wRlhQMElUMk1OY3Vob0ZTNjBWNUQwVmxPT1IxUjlDLU5rN3pjQ3BhbWtxcjI0dWJfNHc3LWplZFZiTWNoNUxjdWtlUWE1aDFxX3doZF9ZRzJ5NU5NTVhTZy1EWFJjLXlLd3lMS1MwQ09RRHVNci1HaUVBbXVGM2UxQkFLeWdRaDRLN2h6bmRSWGprSFZFZWFjYVZvcG53UG1HdjFGVjdzVS1yeXctRUVQTkFyV2UxSklocEpSQ3RHekxmdGlub1UzeTA?oc=5",
       "published": "2025-12-12T08:00:00+00:00",
       "source": {
-        "name": "spiegel.de",
+        "name": "Spiegel",
         "url": "https://www.spiegel.de"
       }
     },
@@ -644,12 +654,12 @@
       }
     },
     {
-      "id": "e7f8099382ff",
-      "title": "Apotheken schlagen Alarm: Medikamenten-Engpässe drohen - ZDFheute",
+      "id": "87ba5b85c58a",
+      "title": "Apotheken schlagen Alarm: Medikamenten-Engpässe drohen - zdfheute.de",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPX1BYUUNyUEFvd2tlZmtVUUZiR2xwR29INjIyY0lzOEJNbFJ5c1VfQWRKaTNaQnZzOE9obk9kTEpBWTRlUjFIeXRrSG0wOHRXck5vQVNKRUVhUVA3cnhBajI1TnJWOUxmYmJmVndyYXFVNzBTbWtCalJjMlh4ck5hRTFzT2d6WnJ3ai1hY3dVcFVkdFRoVzh1QzhRN0ZGR2YxYjUzREtEZWxtZw?oc=5",
       "published": "2025-09-14T07:00:00+00:00",
       "source": {
-        "name": "ZDFheute",
+        "name": "zdfheute.de",
         "url": "https://www.zdfheute.de"
       }
     },
@@ -724,12 +734,12 @@
       }
     },
     {
-      "id": "cbaf02507f64",
-      "title": "Sachverständige legen Maßnahmenpaket zur Dämpfung der Arzneimittelausgaben vor – News - aerzteblatt.de",
+      "id": "be9520e17ad8",
+      "title": "Sachverständige legen Maßnahmenpaket zur Dämpfung der Arzneimittelausgaben vor – News - Deutsches Ärzteblatt",
       "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQUUxhaGFvN0JOZGRLWVF3M1d2U2hiQ0xSM3VnazBMUGR4ZG9kTEtVZlJ1U1Q2bUNPWTFhT25pMEZWSzlPQVl1RGNXMURla1pyYW9EeTFlUzJfZUFoRDJxUk9WTzNKMTZKTXY3QXV4VzdlOS0tS25HZktjYlJYaFNTV0pDSkcyZ0VxU3hNaGJ2MTZjellfbE1PTE5GdzdxNmYxQ2g4clhUaTZnU1JvS3UtdXN5TExZajBqeURyU2ZGOHBvczQtdVh4V25zbkduMjk1RG9kSHU4aUJGa3l0dHlBWHln?oc=5",
       "published": "2025-05-22T07:00:00+00:00",
       "source": {
-        "name": "aerzteblatt.de",
+        "name": "Deutsches Ärzteblatt",
         "url": "https://www.aerzteblatt.de"
       }
     },
@@ -834,8 +844,8 @@
       }
     },
     {
-      "id": "24b8557e82ac",
-      "title": "»Planwirtschaft ist nicht das Richtige für die Gesundheitsversorgung« - Pharmazeutische Zeitung",
+      "id": "1e7c25c4fdbb",
+      "title": "»Plan­wirt­schaft ist nicht das Rich­ti­ge für die Ge­sund­heits­ver­sor­gung« - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcG1ZWXgwNk5DU0ZDbktUVWxzd01qd3VPY3ZDOTVlZFZYY0J3c1FOeXdqV1Y4SkthZFdkalVlUEZtQlhPZmJhc25wQ0w4TjBoSkRENGZtSjEzN2x5NlFzTGZ4eEVzdUtVdjl1RkFSMENLczQwMjBjTzFRSVNiaGNHVDlfT3hvMHJYXzF2NVBlb2RnLWNrLVR5RFlteExqeTQtYTFXTVBneVU1REhPUF84Yjhqd2gwZw?oc=5",
       "published": "2025-06-25T07:00:00+00:00",
       "source": {
@@ -904,12 +914,12 @@
       }
     },
     {
-      "id": "28ed25a75410",
-      "title": "EU-Gesundheitsminister drängen auf unabhängige Arzneimittelproduktion – News - aerzteblatt.de",
+      "id": "af289b274407",
+      "title": "EU-Gesundheitsminister drängen auf unabhängige Arzneimittelproduktion – News - Deutsches Ärzteblatt",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPZVd0ak5vc1MzMkdFUnN2QWVUWHp1aVl5TVBDdkVTTmFSX1k4LXJlNlVBOXJnenJ3V1NRQzVYQ25Od0I3Z3l1TGlTU1hBdHVtQjdDaXI3VzVKakwxSkNCN3dEMEZBNldDb3ppa3dMNTE3NnNOT1hWcElBanJUSVFZTXNMeFJuVDlROTQzS3RNWHJreFZIdk11cWR0NmxmdlkyVmlLcmRXUEU3d3JadW9XZE5fbFY1M0tLMWxBYXo4d1l5T1BMVTBNbnJ3VEhSWkFKQkpNdQ?oc=5",
       "published": "2025-03-26T07:00:00+00:00",
       "source": {
-        "name": "aerzteblatt.de",
+        "name": "Deutsches Ärzteblatt",
         "url": "https://www.aerzteblatt.de"
       }
     },
@@ -991,16 +1001,6 @@
       "source": {
         "name": "AerzteZeitung.de",
         "url": "https://www.aerztezeitung.de"
-      }
-    },
-    {
-      "id": "682b9c2b82bf",
-      "title": "Lieferengpässe bei Medikamenten: Was sind die Ursachen? - NDR.de",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVkVHUWMyelM4VlFodEd2U1l2eURlN0JsWS1Kd2V5QWtWR2xobnRYdlA2el9YRG5CeVlUUTBNR0g5dThJaVBCQVdEZ3dkVWhsV2tyV0RyVFJXRkNtUC1DX2RIOXJTTG5GMWFQUzRlQjFpOU9fZ290dWJJeEJTMmJGZFo2eWRLM0VFMmo0c3VVT0V4YTN4NU5sUnMtTTAxTEhsaGhVUmxSeFFuOUhvQkVia1JVeHVIQ3lTaVE?oc=5",
-      "published": "2024-11-07T08:00:00+00:00",
-      "source": {
-        "name": "NDR.de",
-        "url": "https://www.ndr.de"
       }
     }
   ]
