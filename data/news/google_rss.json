@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-04-02T19:53:47.353966+00:00",
+  "fetched_at": "2026-04-02T20:37:50.989326+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
     {
-      "id": "ae62ccad7f5d",
-      "title": "Statistisches Bundesamt: Gesundheitsausgaben haben sich verdreifacht - pharmazeutische-zeitung.de",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxONXg5R0tIYVN3MlVOdkNGbWd2TFNVVXVNWmJGNlFKcTRIc1dSNl9QQjFYRnFkTmNwYjNnR0k3M2VNNFhiSVdBTmNDWlN5SG1GS2RhWndidWR1RmpYRGkxOThqaEtzMGcwTXZXem1wT3JkVFl2bTdWdzBlN1dlZUlsdmsyM2xZc2ZtVDU4UXB6TlUwdzNFelZ3TXVSQllpbmo4NC00RFo4c0dYZFk4RFlFS2xSeGRwWHA1UWdMSWI2OWt0YzBmdGwtSDlLdFk4VGNHelJR?oc=5",
-      "published": "2026-04-02T09:02:08+00:00",
+      "id": "df0cac20e0f8",
+      "title": "vfa zum Kommissionsbericht: Sparmaßnahmen für Pharmaindustrie im Faktencheck - pharmazeutische-zeitung.de",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaGl6UGU2SlFIcnhfcTBza2E0aTZxOEEwd2xOWmxUT3hwYzYzSDRsSGJZa3g0U3BwTWpQdm01enFWcUVYeFhtR0d2SkJDQmVURmpFa0x0LXpYRTEzd1dtbmxyVWE2NVpZcE1DamxIT2kybUxscTV0QnZtTmVNRW1uLUxOeUw2cUlUZFRQUmdCYXZ4UEF4TFJuY092eU4tZw?oc=5",
+      "published": "2026-04-02T13:30:00+00:00",
       "source": {
         "name": "pharmazeutische-zeitung.de",
         "url": "https://www.pharmazeutische-zeitung.de"
@@ -54,6 +54,16 @@
       }
     },
     {
+      "id": "c1e3f7d9f5a1",
+      "title": "Kassenleistung ab sofort: Neue Hoffnung für Long-Covid-Patienten - RP Online",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPS3ZTTVJhLWxzbUMwbXBScF9nWF9MRmVKWkRYdEtGTlRPa0ViNXV3R1dTb0piNjVFbGx2bFk1Z3ViT2lDQl9HTVh6MVhOVjJvMGFRQ1YwcVE3Y1Jtd3FVQkhnaWR2MXRkQnNWNjNFYmQ5N01zTVFSbVVzemgxSVA2SXlFWUZ2eUpMcUFBOFpQZ2hmS1ozV0hxSlV3eDRLd19DWWhaZXd6TQ?oc=5",
+      "published": "2026-04-02T15:19:00+00:00",
+      "source": {
+        "name": "RP Online",
+        "url": "https://rp-online.de"
+      }
+    },
+    {
       "id": "820d440bb3e6",
       "title": "Demenz durch Medikamente? Das ist über den Zusammenhang bekannt - T-Online",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNRjQzLV94OG5IaVhQMktxY01GZ25YWlAtQlpnUHRfVzVmbFFlcmpFck80ZGQ1NFVRRGNVMTZ2c3ZmV2YtZkgtcmNYNmhxaTZ1R1JSNU9JYzQzV05XQW51NUljNGRqaFJRNWdRQ2hoaThJSGt1SVdpbW1td2laRU1LRzVSaTcxcE1Xb0JoYWppUkdmU2dNazJDTGZNYTJBYmFmVzhteV9kaTEyQjBFc0tONGxaUFBJZHN0T2ppRDZ2V1BXRVI4a29tVEhR?oc=5",
@@ -71,6 +81,16 @@
       "source": {
         "name": "lifePR",
         "url": "https://www.lifepr.de"
+      }
+    },
+    {
+      "id": "ae62ccad7f5d",
+      "title": "Statistisches Bundesamt: Gesundheitsausgaben haben sich verdreifacht - pharmazeutische-zeitung.de",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxONXg5R0tIYVN3MlVOdkNGbWd2TFNVVXVNWmJGNlFKcTRIc1dSNl9QQjFYRnFkTmNwYjNnR0k3M2VNNFhiSVdBTmNDWlN5SG1GS2RhWndidWR1RmpYRGkxOThqaEtzMGcwTXZXem1wT3JkVFl2bTdWdzBlN1dlZUlsdmsyM2xZc2ZtVDU4UXB6TlUwdzNFelZ3TXVSQllpbmo4NC00RFo4c0dYZFk4RFlFS2xSeGRwWHA1UWdMSWI2OWt0YzBmdGwtSDlLdFk4VGNHelJR?oc=5",
+      "published": "2026-04-02T09:02:08+00:00",
+      "source": {
+        "name": "pharmazeutische-zeitung.de",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -154,26 +174,6 @@
       }
     },
     {
-      "id": "87eb4058f23a",
-      "title": "Erschöpfung, Atemnot, Gedächtnislücken: Kassen erstatten erstmals Long-Covid-Mittel - T-Online",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQUjFQMkRhaVo3Ynl2YjVKWWJYUjFDY3RjZDZ4TjNSaUFqRFRTYWVEWmZiR21IUHMwNnIxLTF0QUlZeVJsSi0yb0dtelIwRDlMYW5nOVpfYTlRSjJncjAxZmpHX204RU91OXRtTDVsSGhZY19jRS10MVlFTkl4dmZMZG1PVFJvOUM5TV9hS05BYlpmRjBMU1o3UUREZzRfM2R5SnFjY0pfVnlHV0YwS3lLZHBrTzBFOWhNTUd4QVhsYUtmbUV5Rm1wRi1qVXVYSVgz?oc=5",
-      "published": "2026-04-02T16:01:15+00:00",
-      "source": {
-        "name": "T-Online",
-        "url": "https://www.t-online.de"
-      }
-    },
-    {
-      "id": "faaf3ad1c84c",
-      "title": "»Sparpolitik bei Arzneimitteln ist ein Irrweg« - pharmazeutische-zeitung.de",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZ3BYbThQLUVqMndzcmZ2RzJRTW5vb1o4dGhibU52alc0SUtlbFkxMkhCS1puYnNnelNOcnVtSl9iejVRNU1sNGxvZ0lZZVZkaWNnRGhWVWsxT1JobThfRzFVdnh6Q25Idzl3aGZZaThYdHBRYTUzNHRpX2VNZ0dGWHBjd3VEbDdERlhjOHhubnhHLXB2OWc?oc=5",
-      "published": "2026-03-30T15:15:00+00:00",
-      "source": {
-        "name": "pharmazeutische-zeitung.de",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "375eece6738c",
       "title": "Kabinett beschließt neuen AMTS-Aktionsplan - Apotheke Adhoc",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQ3ZSWUN2OGhyRng4dGJpYTVFQVU1SkRESkNXZVRQYnBySFhONThncml5cTg3TDMtVWdZbGhPcHpoLUtfNUpHbjQwYnB5UU1zblJWMVp0NHBWQ1AzUlIybVZOSV9KUlhDYjJvMmcteXNEYy1RXzRpSGhHZFMzX3hqY202RjBJQVN6Tm03U3draW5nVHprbXpFc1BFNV9MNDB5T2tj?oc=5",
@@ -184,10 +184,10 @@
       }
     },
     {
-      "id": "00cbdb1e159e",
-      "title": "Lernplattform: Wie Arzneimittel grüner werden - pharmazeutische-zeitung.de",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWE11T3J1Wm5ObEJwNFVjVHlUZi14b3VkOEJwalJ2dm5TeFZzX0syVHRRU3M2MWV6S3hQVFFQSk1JTVNtZnNnckdtaE9uTTk1bmtNTm9oNXVjaUJNa21qWGwwWkJNeXdzWVczUTY2VnpvTUc2aTRUZ1I5QWkwSVdpeUN2NlM?oc=5",
-      "published": "2026-03-30T06:00:00+00:00",
+      "id": "faaf3ad1c84c",
+      "title": "»Sparpolitik bei Arzneimitteln ist ein Irrweg« - pharmazeutische-zeitung.de",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZ3BYbThQLUVqMndzcmZ2RzJRTW5vb1o4dGhibU52alc0SUtlbFkxMkhCS1puYnNnelNOcnVtSl9iejVRNU1sNGxvZ0lZZVZkaWNnRGhWVWsxT1JobThfRzFVdnh6Q25Idzl3aGZZaThYdHBRYTUzNHRpX2VNZ0dGWHBjd3VEbDdERlhjOHhubnhHLXB2OWc?oc=5",
+      "published": "2026-03-30T15:15:00+00:00",
       "source": {
         "name": "pharmazeutische-zeitung.de",
         "url": "https://www.pharmazeutische-zeitung.de"
@@ -211,16 +211,6 @@
       "source": {
         "name": "Apotheke Adhoc",
         "url": "https://www.apotheke-adhoc.de"
-      }
-    },
-    {
-      "id": "45b31f7bde9c",
-      "title": "Blüten aus der GKV-Erstattung? Cannabis-Apotheker warnen - Deutsche Apotheker Zeitung, DAZ",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRUw0Z1hLZ1lzLVk4d05hV3JDZnBLTE8xVGVVTWVFTU01YUE0QmpaMGxTRXJmandnUF9sSk5GSnROZkF1bW94RzFtdWxjOEFvRFNSVHZOZVU0NVA1Rmw5TzItZm9QSzBSNGp0RnM0YWVrdnpWM0pYUXdoWE9BcGdpMVJtNEhKc2dCY2ZNQjFhenJ3a3F5WXNZVVozTGZRODgzQ0ZYQjJrbjVGenpGZFBtTGprVGtpdVF4enNqQVVuYw?oc=5",
-      "published": "2026-04-01T01:00:00+00:00",
-      "source": {
-        "name": "Deutsche Apotheker Zeitung, DAZ",
-        "url": "https://www.deutsche-apotheker-zeitung.de"
       }
     },
     {
@@ -304,16 +294,6 @@
       }
     },
     {
-      "id": "596bc1b927d3",
-      "title": "Zwei Jahre Cannabisgesetz : Medizinalcannabis statt Social Clubs - pharmazeutische-zeitung.de",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQc0tKNXNmN3JSRXk1cnZTNm50VUFRS28waGNWYTdDQW05MG9OczVxeUhkRmhrWHE4ZGtHUGFRM2I0U185dE0zejF0c1hQclhMU2I3TWZjcElTM25iakdkQkpvWklTcl93RkxiOFRGNTAxVHZmWTFOZDcwUjU5cDA4aEdLNFJfZHFWc2s0?oc=5",
-      "published": "2026-04-01T12:27:04+00:00",
-      "source": {
-        "name": "pharmazeutische-zeitung.de",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "5f667293c0fe",
       "title": "GKV-Arzneimittelausgaben um 4,6 Prozent gestiegen – News - Deutsches Ärzteblatt",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOckNKQUx5VG4ybXZiWEVraWVMZlpRYmdMU0cwWllHWUVoV3BGWUpEWUp1eWMwell2NkIwamxiU2VmaVF5RndDRE1LdjA5U3JfVG1NaWtBcmRCWXlIdVNlSmtUQlVBRjZleUEwajNhV0FzcFFZUW1vSXNBbG5WeW1UWTlBOFl1QWpma05vQnY5bXI2dU0teFJsZEhPUGFDWC0tRFVuT3RZaUx0RmtrYnFBdUplTWVpbnB0?oc=5",
@@ -374,16 +354,6 @@
       }
     },
     {
-      "id": "2c68d12d416c",
-      "title": "Long Covid: Für diese vier Medikamente zahlen nun die Krankenkassen - MSN",
-      "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPWUN6cThObS04UEx4OVI1bFhCRGRPc2VoQmJUUDRMNm5LZWRUOE9MeF9KUURWdzJ1dUxmczc5WEpDbWpoeVFHalcxQjVLZWtaZWdfQjhJazdCRFpsbFNFR0RITWNjY20zNS1NamlBSUdwZHFqb2JRaXI4QnMxb0tqR3plVUZIUm1QbTZ5WkpOeFJvc0NlWHJQZ0lwTGtBUklZUHBVTDVoRE1MLXZYTjZab21zeXF2N0p5aGhsaFlSc09PYm9XQ0RobzlLSDhhOFJXUlVhN2lTRXo1em9kVi1HcTdmWEdMNjFhVzJTNnFjeVdaTmVneXQySGlTMWN5V29aanhZOE5sQjdGVmV1cFh1UjBVVmY?oc=5",
-      "published": "2026-04-02T12:46:56+00:00",
-      "source": {
-        "name": "MSN",
-        "url": "https://www.msn.com"
-      }
-    },
-    {
       "id": "46a8ed7f5729",
       "title": "Wahlkampf Baden-Württemberg: Rülke: »Gute Gesundheit geht nur mit öffentlichen Apotheken« - pharmazeutische-zeitung.de",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbDY3aENWRUZGTC15UlN4YlFuU0JEdUkxREFqNzQtN282NElEbHZWRlRveVpDTzFUTml2c1ZYNTFUWnliQl81SC1VdVctWUk2UGJ6UWI4cW82Z1IydG5iN2FUR21ST3gweUJNOW94VGxkemJuRC1tY2NvZERfVndyekRMbFc0TjVIdGJYUGVGVzJnOFRRNS1RamtZb1F5b2VseUNPRUowYmVKUQ?oc=5",
@@ -391,6 +361,16 @@
       "source": {
         "name": "pharmazeutische-zeitung.de",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "2c68d12d416c",
+      "title": "Long Covid: Für diese vier Medikamente zahlen nun die Krankenkassen - MSN",
+      "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPWUN6cThObS04UEx4OVI1bFhCRGRPc2VoQmJUUDRMNm5LZWRUOE9MeF9KUURWdzJ1dUxmczc5WEpDbWpoeVFHalcxQjVLZWtaZWdfQjhJazdCRFpsbFNFR0RITWNjY20zNS1NamlBSUdwZHFqb2JRaXI4QnMxb0tqR3plVUZIUm1QbTZ5WkpOeFJvc0NlWHJQZ0lwTGtBUklZUHBVTDVoRE1MLXZYTjZab21zeXF2N0p5aGhsaFlSc09PYm9XQ0RobzlLSDhhOFJXUlVhN2lTRXo1em9kVi1HcTdmWEdMNjFhVzJTNnFjeVdaTmVneXQySGlTMWN5V29aanhZOE5sQjdGVmV1cFh1UjBVVmY?oc=5",
+      "published": "2026-04-02T12:46:56+00:00",
+      "source": {
+        "name": "MSN",
+        "url": "https://www.msn.com"
       }
     },
     {
@@ -414,12 +394,12 @@
       }
     },
     {
-      "id": "f0ec5752b922",
-      "title": "Hendrik Streeck hinterfragt teure Medikamente für alte Menschen - Spiegel",
+      "id": "794aa9d3eca4",
+      "title": "Hendrik Streeck hinterfragt teure Medikamente für alte Menschen - spiegel.de",
       "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPdklWd0VveEdNaGZxM3F3RmFVdXFOQi10dUZONzlqUjBCS1EyMERpajY5dm9UajBXQnNaaG1Kc2NYUl8tOHpBZFBTQjl4X2NUdXNmckMxdDllNEVmMnZkNVRvU2Y1d3R6WUswWVFLek9rWUhOb01pSjkwbFB1SVdWaTQyc25VWi1aUGxWUGpETWU1b0plSW5qQXNZNzNmbzRPUUg0dGRVOHpEQnI4SWpkZ2diak1XSWNmNFhzSXVUd1BDYktCSkxIVmt2ekpXdGJ3ZDdYRXdWa1FwNDVo?oc=5",
       "published": "2025-11-12T08:00:00+00:00",
       "source": {
-        "name": "Spiegel",
+        "name": "spiegel.de",
         "url": "https://www.spiegel.de"
       }
     },
@@ -434,12 +414,12 @@
       }
     },
     {
-      "id": "4aff0ec52c27",
-      "title": "Medikamente bestellen: Achtung vor Fälschungen! - MDR",
+      "id": "115e5ab0d71f",
+      "title": "Medikamente bestellen: Achtung vor Fälschungen! - mdr.de",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNaHRyelNNd3JkOG40QWxjZU05alVXVVFJSlREYUZzWjBFMkJscUNjWm9tUzFfQVkxWEszVzdQQ2lVUzgtQ1FHMW5McXlYVURBQi14Szk2LVBOb0V3OXB3UHFJVjJaTzBxMDV3dnVWN09makhvVFRrb2Zia3VEQUlQTUtKZ3I3Z9IBiwFBVV95cUxObFEtQ1RaVnV0MGxHc2tLSjZNdVVWSVgyaEJ2VFA5cFhVMTB0V0ZfNTBzcHBudkZyWUU0T0FETkZNRlBfcEZ4OFdGOXg5eldrWjh5UDJBT3drcmY3UVRaMm1GdTJYQnR5eWRFV2ZydzZ2WTFkLXNPVy1mVWpxRTRIXzFxcFBtQTMxbWNz?oc=5",
       "published": "2025-11-28T08:00:00+00:00",
       "source": {
-        "name": "MDR",
+        "name": "mdr.de",
         "url": "https://www.mdr.de"
       }
     },
@@ -694,16 +674,6 @@
       }
     },
     {
-      "id": "c88e545fecbc",
-      "title": "Ukraine: Von der Europäischen Union finanzierte Kliniken für die primäre Gesundheitsversorgung verändern das Leben von Patienten - who.int",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNbDQ0OTlwYWJLOTJYdnhPLWpjTGJhZ0R6Q1lzblVyc0hNZUZsUUxXZWRBYmt0VVo0dGpEY3pKUlFCY0NtUk02MDQ0VmhzQk01TlZJcHZMamt5OGFvdWkzVFpjOVBhWVd4S1Y5bFJMRGdVM25TSFVJUWdqb0ZRSlJhcDdYSktVckIxVTY2UkhXd04zZTA4c1VvYnRwcC1JaVdBNDl3UmpISUQwV1NhZHNUT0hXZ2pSWHlwMEpFcERHZ0JuSXRqT0s1OTdrWG1QeE5ETVBTVzRzb3I4QTNNZzlFWGZvcVR2NzV4?oc=5",
-      "published": "2025-07-04T07:00:00+00:00",
-      "source": {
-        "name": "who.int",
-        "url": "https://www.who.int"
-      }
-    },
-    {
       "id": "a49b27dbba7d",
       "title": "Experten fordern Nachbesserungen an Arzneimittelreform - Deutscher Bundestag",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZUJSUDN2Q0FUQ0c3ZEE0REJpWnFleG5sZXBYQUJBdk9LZjJsc19OOFpkUWtxZkxEMm1MU0hGdF9IWEgzRXZibHYxN2daZHRkUV9ia0l3TkszT01SeVVCV1U1bjNneXFBQWZpR0pVa1ljMEpXdkRfNWtJOGxNaG1uZUwzcEo5VWlIX2tYOFJoWlJCTm8?oc=5",
@@ -711,6 +681,16 @@
       "source": {
         "name": "Deutscher Bundestag",
         "url": "https://www.bundestag.de"
+      }
+    },
+    {
+      "id": "c88e545fecbc",
+      "title": "Ukraine: Von der Europäischen Union finanzierte Kliniken für die primäre Gesundheitsversorgung verändern das Leben von Patienten - who.int",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNbDQ0OTlwYWJLOTJYdnhPLWpjTGJhZ0R6Q1lzblVyc0hNZUZsUUxXZWRBYmt0VVo0dGpEY3pKUlFCY0NtUk02MDQ0VmhzQk01TlZJcHZMamt5OGFvdWkzVFpjOVBhWVd4S1Y5bFJMRGdVM25TSFVJUWdqb0ZRSlJhcDdYSktVckIxVTY2UkhXd04zZTA4c1VvYnRwcC1JaVdBNDl3UmpISUQwV1NhZHNUT0hXZ2pSWHlwMEpFcERHZ0JuSXRqT0s1OTdrWG1QeE5ETVBTVzRzb3I4QTNNZzlFWGZvcVR2NzV4?oc=5",
+      "published": "2025-07-04T07:00:00+00:00",
+      "source": {
+        "name": "who.int",
+        "url": "https://www.who.int"
       }
     },
     {
@@ -914,16 +894,6 @@
       }
     },
     {
-      "id": "2c4dfa0818af",
-      "title": "Medikamente ohne Zusatznutzen: Werden Arzneimittelpreise zum Geheimnis? - tagesschau.de",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYWJENElFYXhtTWZMMVJoOU5iMHQwMV9HMVN1Y2NuMm9FVzlJODNKVG5ydWZXeEJTUTBPVHRmaDZaR1huMy1VUVdtUWg5TGtqWmxJV0p5RVFIZ0xqQnppeklhMHhFRmNKdTl3Y0daTzFSXzRXUkpTRlRmUXptZkdMMmZTX18zbjlJQW1xMDNyR0dIN2NYUDI1OTIweGNDcWdSa0JZZkNn?oc=5",
-      "published": "2024-06-13T07:00:00+00:00",
-      "source": {
-        "name": "tagesschau.de",
-        "url": "https://www.tagesschau.de"
-      }
-    },
-    {
       "id": "9719d5e93acd",
       "title": "„Arzneimittel sollen den Patienten helfen und nicht schaden.“ - Bundesministerium für Gesundheit (BMG)",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0wNnlZUXNlT1p3ZzRJZHdlTkdSMVhfOGNzMUFXaVRVckIydGJWWDg3Rkw2bnhENnVQS1gxRzRvMU5SZm1FWVFZYlhLRFJFTzVtZzdXeW1LUzlRUXMz?oc=5",
@@ -931,6 +901,16 @@
       "source": {
         "name": "Bundesministerium für Gesundheit (BMG)",
         "url": "https://www.bundesgesundheitsministerium.de"
+      }
+    },
+    {
+      "id": "2c4dfa0818af",
+      "title": "Medikamente ohne Zusatznutzen: Werden Arzneimittelpreise zum Geheimnis? - tagesschau.de",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYWJENElFYXhtTWZMMVJoOU5iMHQwMV9HMVN1Y2NuMm9FVzlJODNKVG5ydWZXeEJTUTBPVHRmaDZaR1huMy1VUVdtUWg5TGtqWmxJV0p5RVFIZ0xqQnppeklhMHhFRmNKdTl3Y0daTzFSXzRXUkpTRlRmUXptZkdMMmZTX18zbjlJQW1xMDNyR0dIN2NYUDI1OTIweGNDcWdSa0JZZkNn?oc=5",
+      "published": "2024-06-13T07:00:00+00:00",
+      "source": {
+        "name": "tagesschau.de",
+        "url": "https://www.tagesschau.de"
       }
     },
     {
@@ -1001,6 +981,26 @@
       "source": {
         "name": "quarks.de",
         "url": "https://www.quarks.de"
+      }
+    },
+    {
+      "id": "137bb38a59ff",
+      "title": "Therapie braucht Alternativen: Zur Diskussion um Arzneimittelbewertungen - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVk0tUXpCMTV0SXhjcWdJS3VvV290UHZWX2QtajVKc2F3bE5hQm9vVEZGZGVvUlZRXzE1QUcteUxZb3p1d1d4alVINmR6R3hsYzZnSUdXQ210Sk1UZ09UdDlERU54Qm5ybVBMNXJpb0NNNW1OZ0ozSU1rZmZ0Q0lzZHpkNkZxdVhTamFleHNtMGRLZTBILUJNSjFmSFhhaWdmOUZLZ0IzVG96Zw?oc=5",
+      "published": "2025-02-21T21:01:59+00:00",
+      "source": {
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "fc2e64098f26",
+      "title": "Gesundheit: Lauterbach plant Arzneimittel ohne Apotheker vor Ort - Handelsblatt",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQWxPaFhLaGt1QmRaOHAwVHpBRm8yaU9jZkZ1UmwtNmkzeS1kWGFBeVhNUC1iSks0UDFjYlhyS0U5V1lkTXRhbEZsWlcyZXVTeEhmR1dsZ0xQcDlkWTRCcTJzN1NYSDNOUFRBaFJoTVNLc3dPMFAwX0JXRWt6c3Z6dXltZ3RLS1Jnb05QOW1tdUIzUmdnWGdfcDdMdWhJZnRBWmNUdXlHQ0FTQnpydE80eHAwUjRKazZ1WHVnYVc1SlBEc2c0Q1E?oc=5",
+      "published": "2024-07-02T07:00:00+00:00",
+      "source": {
+        "name": "Handelsblatt",
+        "url": "https://www.handelsblatt.com"
       }
     }
   ]
