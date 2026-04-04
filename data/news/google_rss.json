@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-04T19:32:34.489920+00:00",
+  "fetched_at": "2026-04-04T20:35:01.365878+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -84,12 +84,12 @@
       }
     },
     {
-      "id": "66f585378a59",
-      "title": "Demenz durch Medikamente? Das ist über den Zusammenhang bekannt - t-online.de",
+      "id": "820d440bb3e6",
+      "title": "Demenz durch Medikamente? Das ist über den Zusammenhang bekannt - T-Online",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNRjQzLV94OG5IaVhQMktxY01GZ25YWlAtQlpnUHRfVzVmbFFlcmpFck80ZGQ1NFVRRGNVMTZ2c3ZmV2YtZkgtcmNYNmhxaTZ1R1JSNU9JYzQzV05XQW51NUljNGRqaFJRNWdRQ2hoaThJSGt1SVdpbW1td2laRU1LRzVSaTcxcE1Xb0JoYWppUkdmU2dNazJDTGZNYTJBYmFmVzhteV9kaTEyQjBFc0tONGxaUFBJZHN0T2ppRDZ2V1BXRVI4a29tVEhR?oc=5",
       "published": "2026-04-02T06:27:56+00:00",
       "source": {
-        "name": "t-online.de",
+        "name": "T-Online",
         "url": "https://www.t-online.de"
       }
     },
@@ -211,6 +211,16 @@
       "source": {
         "name": "Deutschlandfunk",
         "url": "https://www.deutschlandfunk.de"
+      }
+    },
+    {
+      "id": "87eb4058f23a",
+      "title": "Erschöpfung, Atemnot, Gedächtnislücken: Kassen erstatten erstmals Long-Covid-Mittel - T-Online",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQUjFQMkRhaVo3Ynl2YjVKWWJYUjFDY3RjZDZ4TjNSaUFqRFRTYWVEWmZiR21IUHMwNnIxLTF0QUlZeVJsSi0yb0dtelIwRDlMYW5nOVpfYTlRSjJncjAxZmpHX204RU91OXRtTDVsSGhZY19jRS10MVlFTkl4dmZMZG1PVFJvOUM5TV9hS05BYlpmRjBMU1o3UUREZzRfM2R5SnFjY0pfVnlHV0YwS3lLZHBrTzBFOWhNTUd4QVhsYUtmbUV5Rm1wRi1qVXVYSVgz?oc=5",
+      "published": "2026-04-02T16:01:15+00:00",
+      "source": {
+        "name": "T-Online",
+        "url": "https://www.t-online.de"
       }
     },
     {
@@ -464,12 +474,12 @@
       }
     },
     {
-      "id": "3a14976978c5",
-      "title": "Diese gängigen Medikamente schädigen die Darmflora - t-online.de",
+      "id": "6f2e1c6123c6",
+      "title": "Diese gängigen Medikamente schädigen die Darmflora - T-Online",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOWURqUTI0OEhCYkhRa1ViRUpDcEstNXhvRDVKdGY0ZnNMYW9TcVlybF9XVkoyTElaX1hvckVZb2pOaVpPU3YxTWxXT21qWENIS21IaWFPdk00Ymh3Q0gzRVJqTndZR1dpVDZWZ0ZWam5vMTdHcWN5NEdtSlRJeV9FTjhVQVRoVTBnakswdkE4M2J6NWV6ZVU4WEZJT3gtTHpWZTdQOV9Tb05lcEdYX3NQZXhqZFlZQWtXRzM4dWJoLV9ObTdpdExmZWpFZ2NYaVlWU3NUTGZKODJaZw?oc=5",
       "published": "2026-03-31T04:17:42+00:00",
       "source": {
-        "name": "t-online.de",
+        "name": "T-Online",
         "url": "https://www.t-online.de"
       }
     },
@@ -991,16 +1001,6 @@
       "source": {
         "name": "Apotheke Adhoc",
         "url": "https://www.apotheke-adhoc.de"
-      }
-    },
-    {
-      "id": "388b7c58a675",
-      "title": "RKI-Bericht: Diese Arzneimittel können bei Hitze Probleme verursachen - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONHdLdFVoNHFnYl9vZVJjdVBoVDhzZFVMTEhULTBpcURWdXljRjlsX25RODlzbXRSNTR5QUNzZEhUcGRCMi14ZUpaRXM5ZlY4VU9HRkR5YnVxZXdKQmlhdktqMzJWTnQxRHZlLURTMUwzLXEtTVkxb2doVURybXhWMUNfbWNfZXg2SFFaUDVDR0VRSlg0dEdMa0psTkd6bmNLbDJfZzF4UQ?oc=5",
-      "published": "2023-09-06T07:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
       }
     }
   ]
