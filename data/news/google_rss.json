@@ -1,8 +1,18 @@
 {
-  "fetched_at": "2026-04-05T02:41:55.550685+00:00",
+  "fetched_at": "2026-04-05T05:14:20.785629+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
+    {
+      "id": "8dffa81bff58",
+      "title": "Gesundheit: Statistik: Apotheken in Rheinland-Pfalz werden weniger - DIE ZEIT",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUjJRZGNXc0tXR3NDbHFkQTBJekp3cnI4dWEwWld4R0ZxWE9IZmF6UmRBQTFjZkk2TFVrYU01VzBuQlRYME9lQUdLalpfZ0lzb0RaSDFwOWRMODBWZTVmU0NjdlNHSXpVTkZEbC1obVVGcDRkVWYxQTIwc3lINzdYcDZnMUZ1OXdGa2F1ZHZTRWRPYVU?oc=5",
+      "published": "2026-04-05T02:30:06+00:00",
+      "source": {
+        "name": "DIE ZEIT",
+        "url": "https://www.zeit.de"
+      }
+    },
     {
       "id": "3d31cce4a3ab",
       "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
@@ -21,16 +31,6 @@
       "source": {
         "name": "World Health Organization (WHO)",
         "url": "https://www.who.int"
-      }
-    },
-    {
-      "id": "b1980ca6ac63",
-      "title": "Gesundheit: Statistik: Apotheken in Rheinland-Pfalz werden weniger - stern.de",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQYWptUndEYzF6ZVN5UzVBYUVkeEQzZlhrQllPZ2UwV3JNZUpUQlczNENKNnBIcFlfZXl2QVZBWDNOZ2plZlZpallUb1Y4Q0tVY3ZsU2t1RHk5SkVrRkhZal9IT25PcXNCckUxYzljVlpLMzEtZXdvdmVTM2NUTjlhSElaNVctUHhmSzhidHdKS3A4dkg2WUpWMldvWUxUWXZWQjNuc3pnX0dLcnpBSjE0QTJ5MlVJMDRhc0hkSEdSTzZ1YjlxdXJIMzRscEFMUV9Qc2RPdGNJb0tnY3ZqQm1LSmR3?oc=5",
-      "published": "2026-04-05T02:30:06+00:00",
-      "source": {
-        "name": "stern.de",
-        "url": "https://www.stern.de"
       }
     },
     {
@@ -94,13 +94,23 @@
       }
     },
     {
-      "id": "7c0b557fb36b",
-      "title": "Gesundheitsgefahr durch gefälschte Arzneimittel - Gesundheit.gv.at",
+      "id": "92415fe3cfdd",
+      "title": "Gesundheitsgefahr durch gefälschte Arzneimittel - gesundheit.gv.at",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYlhNa1drQ3UydVU1Ti1QZWxOelZ2UDNkQTBsczZ4SzVIZGhQS3psTVQ5Zmw2Ujh2RGpDYzZ5TDdIbG5mYkFjRl9CX3JkS0FHQ2dlSGVZMlpRTmpva0xOX3hoTWhTM3VoZlB6bjJYbjRRcGp2NERXZmhoaEtyeGJhUDlSU0k0cURLRzNIc1FR?oc=5",
       "published": "2026-03-09T07:18:47+00:00",
       "source": {
-        "name": "Gesundheit.gv.at",
+        "name": "gesundheit.gv.at",
         "url": "https://www.gesundheit.gv.at"
+      }
+    },
+    {
+      "id": "c1e3f7d9f5a1",
+      "title": "Kassenleistung ab sofort: Neue Hoffnung für Long-Covid-Patienten - RP Online",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPS3ZTTVJhLWxzbUMwbXBScF9nWF9MRmVKWkRYdEtGTlRPa0ViNXV3R1dTb0piNjVFbGx2bFk1Z3ViT2lDQl9HTVh6MVhOVjJvMGFRQ1YwcVE3Y1Jtd3FVQkhnaWR2MXRkQnNWNjNFYmQ5N01zTVFSbVVzemgxSVA2SXlFWUZ2eUpMcUFBOFpQZ2hmS1ozV0hxSlV3eDRLd19DWWhaZXd6TQ?oc=5",
+      "published": "2026-04-02T15:19:00+00:00",
+      "source": {
+        "name": "RP Online",
+        "url": "https://rp-online.de"
       }
     },
     {
@@ -124,16 +134,6 @@
       }
     },
     {
-      "id": "360318014180",
-      "title": "Notdienst heute in Hamburg: Kontakte für Apotheken-Notdienst am Wochenende - News.de",
-      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPMnJLRjc2Q0VSd0ZIQVNValE0NEVPWnprdHhJeW9BN2V2T0U4VEtveW9BSmctN1FVQnBzaEJJODBzcnlkWUR4TFk0b25XMG9IbUh3czc1OVpaTHpQTm9xZUJCR0trYjhCNzA0WDZ2SHVVQ05Lck9JYjJWVHYyc25BRHBXb29WaDBzbnYtTE9BZUQ3Tk16MVNXSGV5TW1ubnRaLVhOcXBueldSVzVORHZaWEpkZnM0WU4zVVFFdHl5VFRuVkI0cW5XajFJOGNETkVXSHhpa013eGZIWDg1eGU0b0ZXQkhiN0pKZWNBNFdRWEZ0ZG9UZWNXUVVFRm1pNGdx0gGGAkFVX3lxTE9Xb3I0S2szeHFqZE5CeWpPc3BaX3B6eVhrbHhSSXUtWnZfSFVBalRWcm1LdW93b21fekdiaHVtY2x1eE84LWhScE9XeVBZSjNaZTVkdm1YdWNlOUNrS1RCTWhoaE5RVloteUMzZWJRRDRGemtCT21BaFkwT211bmJ4TXpyajdyQmhhcFpDTncydjBHMHo0dmJ4X0xrSmFKZDRGVjVsa2g2ZmRVNXJQajk5YVR0bDJKZFQzNVBXN09ta1JZQy1ibU5TeWNDUEU1RjkyRkZKX3poc19MT0Q0ME1MZHJNQ2hGQWd2RFdvbDhFX3NUT1hmOTJpOWJMNGNXa1ZHaW45c0E?oc=5",
-      "published": "2026-04-05T02:19:59+00:00",
-      "source": {
-        "name": "News.de",
-        "url": "https://www.news.de"
-      }
-    },
-    {
       "id": "3c75a0c795e8",
       "title": "Mit Abnehmspritze Kilos loswerden - was ist dran an Ozempic & Co.? - NDR.de",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaGFzLTFfUHozOUJiWWtWdlRPUm5mZ0VkMGMxLVVGcmxmMzlONHZRV21qZmFHYUo3d2gzV3VDVm9OUHp6Qk4wQjlZTHU3V3RnckthWTZSbVpVMGE1VWxiMFMtVVJCSWdWb3hibzlscllodzVwWmpDMS1ZOXNxYkFfQVJzdlRzeGRQOWdtcW55UVRNSE16QmhJZXhVYmRmYl9iUmJBN1g2cG8?oc=5",
@@ -141,6 +141,16 @@
       "source": {
         "name": "NDR.de",
         "url": "https://www.ndr.de"
+      }
+    },
+    {
+      "id": "360318014180",
+      "title": "Notdienst heute in Hamburg: Kontakte für Apotheken-Notdienst am Wochenende - News.de",
+      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPMnJLRjc2Q0VSd0ZIQVNValE0NEVPWnprdHhJeW9BN2V2T0U4VEtveW9BSmctN1FVQnBzaEJJODBzcnlkWUR4TFk0b25XMG9IbUh3czc1OVpaTHpQTm9xZUJCR0trYjhCNzA0WDZ2SHVVQ05Lck9JYjJWVHYyc25BRHBXb29WaDBzbnYtTE9BZUQ3Tk16MVNXSGV5TW1ubnRaLVhOcXBueldSVzVORHZaWEpkZnM0WU4zVVFFdHl5VFRuVkI0cW5XajFJOGNETkVXSHhpa013eGZIWDg1eGU0b0ZXQkhiN0pKZWNBNFdRWEZ0ZG9UZWNXUVVFRm1pNGdx0gGGAkFVX3lxTE9Xb3I0S2szeHFqZE5CeWpPc3BaX3B6eVhrbHhSSXUtWnZfSFVBalRWcm1LdW93b21fekdiaHVtY2x1eE84LWhScE9XeVBZSjNaZTVkdm1YdWNlOUNrS1RCTWhoaE5RVloteUMzZWJRRDRGemtCT21BaFkwT211bmJ4TXpyajdyQmhhcFpDTncydjBHMHo0dmJ4X0xrSmFKZDRGVjVsa2g2ZmRVNXJQajk5YVR0bDJKZFQzNVBXN09ta1JZQy1ibU5TeWNDUEU1RjkyRkZKX3poc19MT0Q0ME1MZHJNQ2hGQWd2RFdvbDhFX3NUT1hmOTJpOWJMNGNXa1ZHaW45c0E?oc=5",
+      "published": "2026-04-05T02:19:59+00:00",
+      "source": {
+        "name": "News.de",
+        "url": "https://www.news.de"
       }
     },
     {
@@ -174,16 +184,6 @@
       }
     },
     {
-      "id": "ef29235e3f7b",
-      "title": "Arzneimittelpreise: Medikamente in Deutschland günstiger als USA trotz Trump-Deals - Gesundheit - SZ.de - SZ.de",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdnBJZGx2V2VkNEJfQy1NTDk2NFJXOE5MY3k2VE1yNmxuZzNiWWNlalNjN0MzTjJzSUwxTDRPRTlJai1XeXVUODNhaGlrRXJhaVpJdVQ0eV9mNHc1QWZkaXhtUTVfdjZNWEU2eWptcVk1WkNUZHJNRUpNQzM2TXduRFpPS0tTbjhtajdRWmtMbTM2N1owQ1I1Y2g1MmJiUzNpdnc?oc=5",
-      "published": "2026-03-18T07:00:00+00:00",
-      "source": {
-        "name": "SZ.de",
-        "url": "https://www.sueddeutsche.de"
-      }
-    },
-    {
       "id": "409ee45ef2a8",
       "title": "»Spar­po­li­tik bei Arz­nei­mit­teln ist ein Irr­weg« - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZ3BYbThQLUVqMndzcmZ2RzJRTW5vb1o4dGhibU52alc0SUtlbFkxMkhCS1puYnNnelNOcnVtSl9iejVRNU1sNGxvZ0lZZVZkaWNnRGhWVWsxT1JobThfRzFVdnh6Q25Idzl3aGZZaThYdHBRYTUzNHRpX2VNZ0dGWHBjd3VEbDdERlhjOHhubnhHLXB2OWc?oc=5",
@@ -204,6 +204,16 @@
       }
     },
     {
+      "id": "ef29235e3f7b",
+      "title": "Arzneimittelpreise: Medikamente in Deutschland günstiger als USA trotz Trump-Deals - Gesundheit - SZ.de - SZ.de",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdnBJZGx2V2VkNEJfQy1NTDk2NFJXOE5MY3k2VE1yNmxuZzNiWWNlalNjN0MzTjJzSUwxTDRPRTlJai1XeXVUODNhaGlrRXJhaVpJdVQ0eV9mNHc1QWZkaXhtUTVfdjZNWEU2eWptcVk1WkNUZHJNRUpNQzM2TXduRFpPS0tTbjhtajdRWmtMbTM2N1owQ1I1Y2g1MmJiUzNpdnc?oc=5",
+      "published": "2026-03-18T07:00:00+00:00",
+      "source": {
+        "name": "SZ.de",
+        "url": "https://www.sueddeutsche.de"
+      }
+    },
+    {
       "id": "3e31ec88736e",
       "title": "BGH warnt vor Potenzmittel-Plattform - Apotheke Adhoc",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPOGJQT29rcDZNWGpBWTJKNmFvNEJLbXBxSkY1cWtDWnpOamZXVjBCdzJsb1JVUnJ5RHd0LVNCRzdFdFZyV3lhX2dOd1RyeTRTRGsxbE80Smt0eGlySS1OWHJfTk5mMElKcm1GWmJnODJpb2RJbjZ4NW9BUEVaRHVWMFUwdnhEYUJPT1Rmdmo3QlJUUEtmOUlR?oc=5",
@@ -221,16 +231,6 @@
       "source": {
         "name": "Deutschlandfunk",
         "url": "https://www.deutschlandfunk.de"
-      }
-    },
-    {
-      "id": "a2e1c1586ee7",
-      "title": "Karies durch Asthma-Inhalatoren? - Apotheke Adhoc",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUjNRQjNuRU5HR1pNR1FSd05HR19JekoydEFmNDdRUUs4SVlUandYeWFuWEYtMVR4SmE2WWU3bFhFWHl2YWJ3eEZ2c29kdy1vQnYxMzhXWTdac2NOUXFKMjJ4U0dpUkt5cV96WTJpalVWZENUVk5jMUpaZGJnWGlYb3VBcnRRQlppQ0FGOXh0RE01anJvaEE?oc=5",
-      "published": "2026-04-01T13:10:00+00:00",
-      "source": {
-        "name": "Apotheke Adhoc",
-        "url": "https://www.apotheke-adhoc.de"
       }
     },
     {
@@ -261,16 +261,6 @@
       "source": {
         "name": "Apotheke Adhoc",
         "url": "https://www.apotheke-adhoc.de"
-      }
-    },
-    {
-      "id": "f6e8979eda2e",
-      "title": "Neue Zahlen: Deutsche Gesundheitsausgaben haben sich in 30 Jahren verdreifacht - Berliner Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPTnZWRmRzUWsxQnUySDkxWE9wLW8xTWtqMXQyeWNxLU1qdGYtZ3dadjlMQnFDbnVldzltMF8tb3hyV3ZUNVlyd3pseHZuclhTbW85d1RxSEVMSTBraTFDeGQxb3l1bHptRGJSZUxubHBEa1diWVpuM1pqYThSU3dHUVlBUFd2YXozVWRUWmQ4cDliY1ZOZ0lCUzVMOUtZUDZmdVRIbDVMVkY1RzVlZEhudFlwYjR3TS1UdU11a3AtT2gyTFBhQmlNaEhwTkNsbDkyVFdSSlhlbTc3bjVW?oc=5",
-      "published": "2026-04-02T13:43:24+00:00",
-      "source": {
-        "name": "Berliner Zeitung",
-        "url": "https://www.berliner-zeitung.de"
       }
     },
     {
@@ -404,22 +394,22 @@
       }
     },
     {
-      "id": "83118135b838",
-      "title": "Rezeptfreie Medikamente aus der Drogerie könnten das Apothekensterben verschärfen - SWR",
+      "id": "ec67e5f12663",
+      "title": "Rezeptfreie Medikamente aus der Drogerie könnten das Apothekensterben verschärfen - swr.de",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUlBVMkRsMVdkYXV3YXFVd3k4Z1pMSGdoVTNOTXo0UV8wR1RBbmVCZVltV3ZBdGZndnM3V1NVMlVZOFhmUEJwNXlPbDRfcU5jV2FZcUNDd2txVnFwdjNNb3JWWkRncExiSDI0WnEtdUdEbEtGcVdqOGFJRzc0T3ZkY0N4aHE4V21aZmROazk4eG9mUUJXY2RqVXZCYTZLcU5NSnVDaHBYMXhzUQ?oc=5",
       "published": "2025-11-02T07:00:00+00:00",
       "source": {
-        "name": "SWR",
+        "name": "swr.de",
         "url": "https://www.swr.de"
       }
     },
     {
-      "id": "6d8a3110aa4e",
-      "title": "2026-01-07 - IGeL Monitor",
+      "id": "8672c90e9741",
+      "title": "2026-01-07 - igel-monitor.de",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5fSHl1Q29uMldsUS0xcDFyR0lZXzJYckxkbWdBaFZtdjZ0Ri01dXFGRjM1Vmk1Q2JEZkhmUDJfODZQejRaX1VHOHZqeTNtS0tnSlM0T3ZrSy1GVFN3VzZ0Sg?oc=5",
       "published": "2026-01-07T08:00:00+00:00",
       "source": {
-        "name": "IGeL Monitor",
+        "name": "igel-monitor.de",
         "url": "https://www.igel-monitor.de"
       }
     },
@@ -464,16 +454,6 @@
       }
     },
     {
-      "id": "6f2e1c6123c6",
-      "title": "Diese gängigen Medikamente schädigen die Darmflora - T-Online",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOWURqUTI0OEhCYkhRa1ViRUpDcEstNXhvRDVKdGY0ZnNMYW9TcVlybF9XVkoyTElaX1hvckVZb2pOaVpPU3YxTWxXT21qWENIS21IaWFPdk00Ymh3Q0gzRVJqTndZR1dpVDZWZ0ZWam5vMTdHcWN5NEdtSlRJeV9FTjhVQVRoVTBnakswdkE4M2J6NWV6ZVU4WEZJT3gtTHpWZTdQOV9Tb05lcEdYX3NQZXhqZFlZQWtXRzM4dWJoLV9ObTdpdExmZWpFZ2NYaVlWU3NUTGZKODJaZw?oc=5",
-      "published": "2026-03-31T04:17:42+00:00",
-      "source": {
-        "name": "T-Online",
-        "url": "https://www.t-online.de"
-      }
-    },
-    {
       "id": "5772ec5cdac9",
       "title": "GKV in der Krise : Warken erwägt höhere Zuzahlungen für Arzneimittel - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdWlXOXMzZ2lzMTIwYlBfSUlPNFBUOEpGRkgzckx4QUQ4dVE2NVhRTzlZNTdPYm9halZadmVzQ0s3Z0VKUUNhUUFIOTFQQkhEQWttNGJ3SE9PQklubDU5WE8wZFQ1aFN2TnhEWUhBY3pzTU85dDRUWU1qVEF6dkxHN1NRYVl3M2tuTFdfUW5hQ1owSllpSjFYVHVTY1cwcHR5?oc=5",
@@ -494,12 +474,12 @@
       }
     },
     {
-      "id": "70a579a62ec1",
-      "title": "Tablette oder Kapsel: Warum es viele Formen gibt und wie Medikamente leichter einzunehmen sind - ZDFheute",
+      "id": "a233d20f7c3e",
+      "title": "Tablette oder Kapsel: Warum es viele Formen gibt und wie Medikamente leichter einzunehmen sind - zdfheute.de",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOcEVGcUpndVJUdk5BZzN2alFpQXUzNkpIbThMS0RvSlBTMXRGT3Q3eXdsLWg5OFNGYk1NcXpHMVIzVWliMDhPblhVMlhKSUl6SW93RjJPTldzOUFiZFh2OVAzUU1sTHhIV0UtZjBTVmpDRHNKN09QcmQ5V3FLbHppb0E0ZzdzaGJWT0dB?oc=5",
       "published": "2025-10-08T07:00:00+00:00",
       "source": {
-        "name": "ZDFheute",
+        "name": "zdfheute.de",
         "url": "https://www.zdfheute.de"
       }
     },
@@ -564,12 +544,12 @@
       }
     },
     {
-      "id": "c3d242e1530f",
-      "title": "Pharma-Brief Spezial 3/2025: Arzneimittel als Umweltproblem - BUKO Pharma-Kampagne",
+      "id": "ee3232479104",
+      "title": "Pharma-Brief Spezial 3/2025: Arzneimittel als Umweltproblem - bukopharma.de",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUDdWTFg4MmVyMTJlZDZWcUtYOGREV1BOcUNuQ3NZY29fVzdzSjc3Z1o3T3hXUzVva00tTUdINnlpa2NSc2dNVVcxazFpZFpzODYtVjV2bVRtd3k3Uk0zVXotMldEalRmRFJVZV9CTkxMUHlNVUsxZ2xqTjlaaWJpMElqMlQ2b2kwRlIyMjVxVk5OaFNOTWNGSg?oc=5",
       "published": "2025-09-08T07:00:00+00:00",
       "source": {
-        "name": "BUKO Pharma-Kampagne",
+        "name": "bukopharma.de",
         "url": "https://bukopharma.de"
       }
     },
@@ -684,12 +664,12 @@
       }
     },
     {
-      "id": "6aa97d8845a8",
-      "title": "Experten fordern Nachbesserungen an Arzneimittelreform - bundestag.de",
+      "id": "a49b27dbba7d",
+      "title": "Experten fordern Nachbesserungen an Arzneimittelreform - Deutscher Bundestag",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZUJSUDN2Q0FUQ0c3ZEE0REJpWnFleG5sZXBYQUJBdk9LZjJsc19OOFpkUWtxZkxEMm1MU0hGdF9IWEgzRXZibHYxN2daZHRkUV9ia0l3TkszT01SeVVCV1U1bjNneXFBQWZpR0pVa1ljMEpXdkRfNWtJOGxNaG1uZUwzcEo5VWlIX2tYOFJoWlJCTm8?oc=5",
       "published": "2023-06-05T12:01:31+00:00",
       "source": {
-        "name": "bundestag.de",
+        "name": "Deutscher Bundestag",
         "url": "https://www.bundestag.de"
       }
     },
@@ -944,16 +924,6 @@
       }
     },
     {
-      "id": "453560f3e3a1",
-      "title": "Arzneimittelpreise: Sachverständige schlagen Alarm - Apotheke Adhoc",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUVdRckNrNEQ0VURLaU42MXc2UVpac1F6MDVZaUNkaXlwLTc1anBkeVFyVHVxLVNKbmVMUGtLM0tiRjBweGdJenZaUzNQOW9ZM0hMZk5nWElXUU1QeDdkTEVMX3p4LXJBOC1NVjJHSkp3cTE4TmJ0bExFTkV0RWU5ZjFDY3hYc0tzbUk4R3NYUE5aVmV5QTdEODhKVnlFZWFXaFpESktiajJNUQ?oc=5",
-      "published": "2025-05-22T07:00:00+00:00",
-      "source": {
-        "name": "Apotheke Adhoc",
-        "url": "https://www.apotheke-adhoc.de"
-      }
-    },
-    {
       "id": "2c4dfa0818af",
       "title": "Medikamente ohne Zusatznutzen: Werden Arzneimittelpreise zum Geheimnis? - tagesschau.de",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYWJENElFYXhtTWZMMVJoOU5iMHQwMV9HMVN1Y2NuMm9FVzlJODNKVG5ydWZXeEJTUTBPVHRmaDZaR1huMy1VUVdtUWg5TGtqWmxJV0p5RVFIZ0xqQnppeklhMHhFRmNKdTl3Y0daTzFSXzRXUkpTRlRmUXptZkdMMmZTX18zbjlJQW1xMDNyR0dIN2NYUDI1OTIweGNDcWdSa0JZZkNn?oc=5",
@@ -961,6 +931,16 @@
       "source": {
         "name": "tagesschau.de",
         "url": "https://www.tagesschau.de"
+      }
+    },
+    {
+      "id": "453560f3e3a1",
+      "title": "Arzneimittelpreise: Sachverständige schlagen Alarm - Apotheke Adhoc",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUVdRckNrNEQ0VURLaU42MXc2UVpac1F6MDVZaUNkaXlwLTc1anBkeVFyVHVxLVNKbmVMUGtLM0tiRjBweGdJenZaUzNQOW9ZM0hMZk5nWElXUU1QeDdkTEVMX3p4LXJBOC1NVjJHSkp3cTE4TmJ0bExFTkV0RWU5ZjFDY3hYc0tzbUk4R3NYUE5aVmV5QTdEODhKVnlFZWFXaFpESktiajJNUQ?oc=5",
+      "published": "2025-05-22T07:00:00+00:00",
+      "source": {
+        "name": "Apotheke Adhoc",
+        "url": "https://www.apotheke-adhoc.de"
       }
     },
     {
@@ -1001,6 +981,26 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "3ad94926f708",
+      "title": "EU-Kommission lässt Arzneimittel gegen Alzheimer zu - Gesundheit - SZ.de - SZ.de",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBhcTZZOEpfWjNQNUozZTNyaEM3VHFPX3R1bDVCTTkxQ2kweEY2d0poZThIbFVXalBGYVh0MzNjS0U2U3c5UFlWeHRPa1NFeWxBZVl3SWVUWTVMbWlTOFlHdmJsdWM2ZDYxUEZGS0lCNktEZlMzNW5PRDkxWQ?oc=5",
+      "published": "2025-04-15T07:00:00+00:00",
+      "source": {
+        "name": "SZ.de",
+        "url": "https://www.sueddeutsche.de"
+      }
+    },
+    {
+      "id": "274464d3c582",
+      "title": "Keine Lieferengpässe mehr bei Arzneimitteln - SPD-Bundestagsfraktion",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE56NlVudVdvNjgzWVVhVVZ1cWRLNmRFTkhjNE50YmNYMnBGN0FIdmFyc2U3aVc1c0R0STJkamFubXdJNFZtVmpwTk5PVzBRY2VsOVljRDctbUVEQlhfWEJ1ZldFX0VELUNlakczUXN0THU5QjA1SmdYdFFOMUJubm8?oc=5",
+      "published": "2023-06-23T07:00:00+00:00",
+      "source": {
+        "name": "SPD-Bundestagsfraktion",
+        "url": "https://www.spdfraktion.de"
       }
     }
   ]
