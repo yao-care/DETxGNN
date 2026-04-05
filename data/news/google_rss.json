@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-05T18:49:10.029673+00:00",
+  "fetched_at": "2026-04-05T19:35:37.035510+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -74,22 +74,12 @@
       }
     },
     {
-      "id": "704590060a5d",
-      "title": "Das ist neu ab April für Frauen in den Wechseljahren - FITBOOK",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9pdEZUa0NHRW5mR3FBdUZKQjBOS2FaVlkyU0VOeUVpSmplQWR4RzhhLUlzeTVsSEN5cWl1cmlpcHBEdEppY2E4RzhtZDJsNEZ0UXpRMUwxUWY5Zlo4Tm1JWWxrbjZ1cTE1?oc=5",
-      "published": "2026-04-02T12:09:00+00:00",
-      "source": {
-        "name": "FITBOOK",
-        "url": "https://www.fitbook.de"
-      }
-    },
-    {
-      "id": "66f585378a59",
-      "title": "Demenz durch Medikamente? Das ist über den Zusammenhang bekannt - t-online.de",
+      "id": "820d440bb3e6",
+      "title": "Demenz durch Medikamente? Das ist über den Zusammenhang bekannt - T-Online",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNRjQzLV94OG5IaVhQMktxY01GZ25YWlAtQlpnUHRfVzVmbFFlcmpFck80ZGQ1NFVRRGNVMTZ2c3ZmV2YtZkgtcmNYNmhxaTZ1R1JSNU9JYzQzV05XQW51NUljNGRqaFJRNWdRQ2hoaThJSGt1SVdpbW1td2laRU1LRzVSaTcxcE1Xb0JoYWppUkdmU2dNazJDTGZNYTJBYmFmVzhteV9kaTEyQjBFc0tONGxaUFBJZHN0T2ppRDZ2V1BXRVI4a29tVEhR?oc=5",
       "published": "2026-04-02T06:27:56+00:00",
       "source": {
-        "name": "t-online.de",
+        "name": "T-Online",
         "url": "https://www.t-online.de"
       }
     },
@@ -101,6 +91,16 @@
       "source": {
         "name": "Gesundheit.gv.at",
         "url": "https://www.gesundheit.gv.at"
+      }
+    },
+    {
+      "id": "704590060a5d",
+      "title": "Das ist neu ab April für Frauen in den Wechseljahren - FITBOOK",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9pdEZUa0NHRW5mR3FBdUZKQjBOS2FaVlkyU0VOeUVpSmplQWR4RzhhLUlzeTVsSEN5cWl1cmlpcHBEdEppY2E4RzhtZDJsNEZ0UXpRMUwxUWY5Zlo4Tm1JWWxrbjZ1cTE1?oc=5",
+      "published": "2026-04-02T12:09:00+00:00",
+      "source": {
+        "name": "FITBOOK",
+        "url": "https://www.fitbook.de"
       }
     },
     {
@@ -234,12 +234,12 @@
       }
     },
     {
-      "id": "63e795b5794d",
-      "title": "Schmerzmittel bis Herzmedikament: Studie deckt Herzrisiken bekannter Arzneimittel auf - t-online.de",
+      "id": "162b86d2babb",
+      "title": "Schmerzmittel bis Herzmedikament: Studie deckt Herzrisiken bekannter Arzneimittel auf - T-Online",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQOTUycWFza29aLXVaYWh1cDlGN0NTX3NsbUVXWVpManp4Rnk1a3dQYTB3c3pfSkU0MVBBSEM2NXhZaHBSYUVNa2RSMDJCcm9JanctZWtUZXQ5TlpOZmNsMWprM3BPU1ZPVmFmMGU2aW1QZmlRclpEYkNwZWVyaTRnRW5uMEFvdEwzS0FNOVNCWWtiLWlqdkRMT2x4LTF0amZrSXhOcEJPRGFIU3ZMbE9reW9OeWw1YVVtQU5iMmNOaFpkWTZ3RS1V?oc=5",
       "published": "2026-03-26T07:00:00+00:00",
       "source": {
-        "name": "t-online.de",
+        "name": "T-Online",
         "url": "https://www.t-online.de"
       }
     },
@@ -364,12 +364,12 @@
       }
     },
     {
-      "id": "a1b71974fbb7",
-      "title": "Medikamente ohne Zuzahlung können ungesunde Nebenwirkungen haben - MDR",
+      "id": "7c46a2615514",
+      "title": "Medikamente ohne Zuzahlung können ungesunde Nebenwirkungen haben - mdr.de",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOa1BRZ1RkZDlsQTQtUVVvek1KQlI2S2I5eUVpaHh0cGxseUJubDAxX01JeC1qRmczWTNSYWdhSnNMa3FGY2M3ZlcxVFo5UXpVMUt5RUw2T3VJMXZmdTlKOTYtaGtzY1EzZFpSVVM2UWY3YXpjM3lMOU8wMlJRbnlJY1FuTXcyMURpdHBsaVFvSDBmSm9NaGwtR3BWUEQ0c2FsTmpuZ3VnX2RkM05weXYtZkRxY2VZV3ZBWUp0OFk4RVd5MUFjZExvLXJKUjBXdWMzQzVud1RR0gHbAUFVX3lxTFBXMkc0bFF2ODRqc29qSzBLYVNTb2c5ZHNscC0zc2tuLUstNnJQU3dfZ2dlaWlLUjRjTkl3eVVsNnZjbXhzTXE0ZU14eG9WWmpQNkoyMkhoYmlfVzhaRi1OWnZock1Md19RTTcwMkFiMFE3SE14WVZxRkNneEdJWkFpZS0wcVNYWGdGUEZsb2FsOG1YdnlJZWlTRW53LVVKTGFhRkI2d2RnXzhEOVhrQzdWZVFYaHN3NWZWbUtaNS1MblcwQUhma1dhUzAxdkFmNmhaLVctTTdVYTB2SQ?oc=5",
       "published": "2026-02-12T08:00:00+00:00",
       "source": {
-        "name": "MDR",
+        "name": "mdr.de",
         "url": "https://www.mdr.de"
       }
     },
@@ -384,12 +384,12 @@
       }
     },
     {
-      "id": "b179e927347d",
-      "title": "Steigende Arzneimittelkosten: Gesundheitsministerin Warken will Zugang zu neuen Medikamenten für alle erhalten - MDR",
+      "id": "33b28f858598",
+      "title": "Steigende Arzneimittelkosten: Gesundheitsministerin Warken will Zugang zu neuen Medikamenten für alle erhalten - mdr.de",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPenF3ckVCSXl3ZmNka21FSTVtdkdoeGRZaEQ4Nnc4ZktKZk16U0ZUd19vYWRsZDdQUDZZLVFCd2k2anZScnRpSnJtXzRCbEozRm9fMEpkcVhjZ3dwT21zQVZPX2MybWdSUHBNeTZ3TmtESDFOWFNfM0lPV1Z4M3BmUTNkLTRfVGgxRUh4OWNOblh5ZGdCaUs5WXZmR2VVaVV5d1VHR1BHUFhubGtCWlFyZWk3VnhWZjdpWE9jNE5B0gHDAUFVX3lxTE1YNm5BVEExN05VeGlPeW5Hazh0ZTVFV0ZGUjNpWERheHAxSUZ3TTJGUXBZQ0F1cGdtRGQ4Zy1kbzhhNkRCd2Y4TTllaWd6ZVdTUkgxTmoyR1ZLSHhoNERNa1M0VExFOHluRzhTRWI3VjJkaGlZWTZUUXZ4bFEtVUFMaVAxMWFnYVVwa3J1TklTTjI3WnF4dkJZRFExVEFBb0NfMDVaTnBhZmU0NXFoR0FVcEhXV0dEeW1PeEl0SzdYSFNFVQ?oc=5",
       "published": "2025-12-09T08:00:00+00:00",
       "source": {
-        "name": "MDR",
+        "name": "mdr.de",
         "url": "https://www.mdr.de"
       }
     },
@@ -424,12 +424,12 @@
       }
     },
     {
-      "id": "4aff0ec52c27",
-      "title": "Medikamente bestellen: Achtung vor Fälschungen! - MDR",
+      "id": "115e5ab0d71f",
+      "title": "Medikamente bestellen: Achtung vor Fälschungen! - mdr.de",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNaHRyelNNd3JkOG40QWxjZU05alVXVVFJSlREYUZzWjBFMkJscUNjWm9tUzFfQVkxWEszVzdQQ2lVUzgtQ1FHMW5McXlYVURBQi14Szk2LVBOb0V3OXB3UHFJVjJaTzBxMDV3dnVWN09makhvVFRrb2Zia3VEQUlQTUtKZ3I3Z9IBiwFBVV95cUxObFEtQ1RaVnV0MGxHc2tLSjZNdVVWSVgyaEJ2VFA5cFhVMTB0V0ZfNTBzcHBudkZyWUU0T0FETkZNRlBfcEZ4OFdGOXg5eldrWjh5UDJBT3drcmY3UVRaMm1GdTJYQnR5eWRFV2ZydzZ2WTFkLXNPVy1mVWpxRTRIXzFxcFBtQTMxbWNz?oc=5",
       "published": "2025-11-28T08:00:00+00:00",
       "source": {
-        "name": "MDR",
+        "name": "mdr.de",
         "url": "https://www.mdr.de"
       }
     },
@@ -604,12 +604,12 @@
       }
     },
     {
-      "id": "b816bec8da73",
-      "title": "US-EU Handelsabkommen getrübt: Trump kündigt neue Arzneimittelzölle an - euractiv.de",
+      "id": "a9af8ae96aae",
+      "title": "US-EU Handelsabkommen getrübt: Trump kündigt neue Arzneimittelzölle an - Euractiv DE",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQY1gtaENlRHd3bGNiWTY0V0x3d0NrQnhsN3BuanJRRzdfWldWRXJfTGdheXBJcHNpOHljMTB3bkV1WHAyNGtNdzJiZ0dreVE0eGJrcFBnVVpWWUtJQ2d6SnRMUUh0U3R3S3VWTFRUeG9YbFNaZm5rczNmRWtxa2dnMEFTOHc5d1FMTkNpYWtVdW9JUGdZVTlpc2pjS0lLOTQ?oc=5",
       "published": "2025-09-26T07:00:00+00:00",
       "source": {
-        "name": "euractiv.de",
+        "name": "Euractiv DE",
         "url": "https://euractiv.de"
       }
     },
@@ -714,12 +714,12 @@
       }
     },
     {
-      "id": "66cb0c435804",
-      "title": "Maßnahmen der EU zur Verbesserung der öffentlichen Gesundheit - European Parliament",
+      "id": "df17b028a28d",
+      "title": "Maßnahmen der EU zur Verbesserung der öffentlichen Gesundheit - europarl.europa.eu",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVzhCNzVfWlJpeVRpVnRlZDB1VDB6WVBfYzJsbk1qSVVTMEo0OWVjWEhFQTdyWHV4Ym1GemQtUHBkU3ZxVmI1R0lPVzE3SVN0Qzd2OW5JSVRKUjkyX3dadEVIb2pGdzRxOU01QVRQMXEzaTJ3VjVPTTN3MmN4TVdlUlZKTTdUZGM1R3hwT19HWVRKckhyeWVKYmxYSjJMSWZSZVhWSWc5dnBXcjBQdlk2TG5WcV9hOGpXX29fWm1tdTFVcmJPU1Jr?oc=5",
       "published": "2023-10-17T07:00:00+00:00",
       "source": {
-        "name": "European Parliament",
+        "name": "europarl.europa.eu",
         "url": "https://www.europarl.europa.eu"
       }
     },
@@ -984,22 +984,22 @@
       }
     },
     {
-      "id": "9a7cf6fefe0a",
-      "title": "Medikamentenengpässe in der EU: Ursachen und Lösungen - European Parliament",
+      "id": "830d47906aa2",
+      "title": "Medikamentenengpässe in der EU: Ursachen und Lösungen - europarl.europa.eu",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPYVU2bEI4OTZoWTh5VkZMV1N4ZmtzZDNGOENnbXE0NTJBdkhVQWdwWlhEVE1kWDRDRFYyVFRlV1BUS0pDaGJ2cEhXMDBYdGlOb2FzZVFlcHJ6cjU2SldEWmplRHpoOFBwUUdxallZck1neDlzX3BRNS1GNTd4LTRvbmZoMUhWQ09DLU9Zbm5VV2hFMEpEVUgydWlud1VwRFBrakR0LXd4QzZENENHLTA4UFBQblhTaU55enc?oc=5",
       "published": "2022-10-03T07:00:00+00:00",
       "source": {
-        "name": "European Parliament",
+        "name": "europarl.europa.eu",
         "url": "https://www.europarl.europa.eu"
       }
     },
     {
-      "id": "a851579f0cf5",
-      "title": "Gesundheitsgefahr durch illegale Stoffe - Verbraucherzentrale.de",
+      "id": "19b06b5ee691",
+      "title": "Gesundheitsgefahr durch illegale Stoffe - verbraucherzentrale.de",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQY0I4azR5X3RTSl84RmlzMzAyNHMyR2tBVXBUNDRySVBtaUdYSnppVFZtT0FFVXhZWThGX3gzX0U3WGNoOHlyeVg2QUlSelFtUTNpTVI3Q1p1SzhrSmxyczVocVVfLS1fX1NyajBkZU1jWDV6NV95dVlMQm9hSGhFVk9vdXh6QnNqcUVkRTBkWlVFRXFvd2Q2Q20wRWItSVBuaXdtVzYzQThlU2pEaWRfeFMtWnJVaWtIR2ZtRmt6Zi10Y3lw?oc=5",
       "published": "2025-04-22T07:00:00+00:00",
       "source": {
-        "name": "Verbraucherzentrale.de",
+        "name": "verbraucherzentrale.de",
         "url": "https://www.verbraucherzentrale.de"
       }
     }
