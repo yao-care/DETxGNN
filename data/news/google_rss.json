@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-07T21:43:13.222795+00:00",
+  "fetched_at": "2026-04-07T22:40:11.983548+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -114,12 +114,12 @@
       }
     },
     {
-      "id": "3c75a0c795e8",
-      "title": "Mit Abnehmspritze Kilos loswerden - was ist dran an Ozempic & Co.? - NDR.de",
+      "id": "406329664310",
+      "title": "Mit Abnehmspritze Kilos loswerden - was ist dran an Ozempic & Co.? - ndr.de",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaGFzLTFfUHozOUJiWWtWdlRPUm5mZ0VkMGMxLVVGcmxmMzlONHZRV21qZmFHYUo3d2gzV3VDVm9OUHp6Qk4wQjlZTHU3V3RnckthWTZSbVpVMGE1VWxiMFMtVVJCSWdWb3hibzlscllodzVwWmpDMS1ZOXNxYkFfQVJzdlRzeGRQOWdtcW55UVRNSE16QmhJZXhVYmRmYl9iUmJBN1g2cG8?oc=5",
       "published": "2026-03-11T07:00:00+00:00",
       "source": {
-        "name": "NDR.de",
+        "name": "ndr.de",
         "url": "https://www.ndr.de"
       }
     },
@@ -374,12 +374,12 @@
       }
     },
     {
-      "id": "bf62f73194e1",
-      "title": "Arzneimittel für Alte rationieren? Das ist moralisch nicht vertretbar - apotheken-umschau.de",
+      "id": "903e6bc57c89",
+      "title": "Arzneimittel für Alte rationieren? Das ist moralisch nicht vertretbar - Apotheken Umschau",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxONEk1aHRrVFVfOW5SdERuczRLUzliakRuUEhHb2szTnp2V0lxZHdJcVlKaWYxeVlVMEVRc0c4S1RidXZpdW9zZU40dDNTejRhc2RvWjE2eFdPRFpCTEI2THJ0M0VFNjczdk9iOV9uM1dzbWtlMGF4X2R2SmdSNEJkVHlndDRpVWQ3NG5VX21qTE5hSHVGYkh3alZEVHpMcGFrQmRQRnl6Tmpaa2pEcTZxNzBlQ1JqOWY1blN0YnJ1c2VGR1lrOG0tRVVn?oc=5",
       "published": "2025-11-14T08:00:00+00:00",
       "source": {
-        "name": "apotheken-umschau.de",
+        "name": "Apotheken Umschau",
         "url": "https://www.apotheken-umschau.de"
       }
     },
@@ -434,12 +434,12 @@
       }
     },
     {
-      "id": "1a22b3664c22",
-      "title": "Neue Arzneimittel bezahlbar halten - vdek.com",
+      "id": "a67a6ea59e0c",
+      "title": "Neue Arzneimittel bezahlbar halten - Verband der Ersatzkassen (vdek)",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObzE3cHpIZEo2Q0VEc0xrTzlCRHFTbW1GZ1dpbXhiSk55cmZpVFZaN3dtSkhvc2dqYkx0ekRicVhHTHhWTzFsSFVKZlVJZG1EUXBxZGZCU0kycm5yaVczSThMRHA3YkRHN3dPYXl3UTNEU1RWamFXdDBrZ2tTWWhqNjBjQk43VGNhdEFhMXF6Nmx6WHdkXzhwY25kTzVCMmp5?oc=5",
       "published": "2025-06-17T07:00:00+00:00",
       "source": {
-        "name": "vdek.com",
+        "name": "Verband der Ersatzkassen (vdek)",
         "url": "https://www.vdek.com"
       }
     },
@@ -474,12 +474,12 @@
       }
     },
     {
-      "id": "3cb98810f08a",
-      "title": "Wundermittel oder Wahnsinn? Der riskante Hype um Methylenblau - NDR.de",
+      "id": "202c6a476262",
+      "title": "Wundermittel oder Wahnsinn? Der riskante Hype um Methylenblau - ndr.de",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZjdVekdjMzQzUFRaQlJaZW5GM3l0bmZFay1iTWxoVXpOLWFfTkVQejhNU1FwSTR6Q1RETXRFYm56enYwNm8tZXBXZlRmb0JKalI4REI2dEVNcUh6NHhMMDBlTkNkOXRaTU1hS2ZXNWZhVnk3TUthaFpuTFh2c3NtVUNmcUtYc290bFI1MERTaDFjaXNNcDFpczNjX004TUV4MjBjdWFhM2F1dXF4bktZQWtvS0hGUHM?oc=5",
       "published": "2025-09-16T07:00:00+00:00",
       "source": {
-        "name": "NDR.de",
+        "name": "ndr.de",
         "url": "https://www.ndr.de"
       }
     },
@@ -494,16 +494,6 @@
       }
     },
     {
-      "id": "2e456f10aad8",
-      "title": "SVR-Gutachten: Hohe Arzneimittelpreise bedrohen Gesundheitssystem - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdkVLanl4Z0F3bXFfWGJrcUZEZUNhdnhoeExVTWxYWTN3aXV2YUxmWDE3MXZRU0M1cHZNQl81MmRERmMzMWhzRnlRM3VCVzRHdnBFSHAxRmRDYjRVdkw2MmhNMTNQdlZaQ0lsaURKd1ZhTW41WTJzbmI0cDNDanNOSDRELUZja3Z3WDIwYVlfaGw1enVEdWdFbWN4Y3BiZw?oc=5",
-      "published": "2025-05-22T07:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "47bd2cbba260",
       "title": "Arzneimittelmarkt in Deutschland: Analyse der Arzneimittelausgaben - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQlhtenAxN1hGNE9LX3hMemlaSDRGcy1XN2xpVEt3cTlhcDl2akpxZWo4bjY1N0RNVGRlRG5pSnBFUVA0V1l4WWc3QmxNc2ExRVIxU3RZQldOcVZpbVJEak9tZFFQNFJQUUdJcmluYzY2YzV3M01qdjkxY3pvTVBGUWstMHJJVGtjR0JQcWhiTDNjejA?oc=5",
@@ -511,6 +501,16 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "2e456f10aad8",
+      "title": "SVR-Gutachten: Hohe Arzneimittelpreise bedrohen Gesundheitssystem - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdkVLanl4Z0F3bXFfWGJrcUZEZUNhdnhoeExVTWxYWTN3aXV2YUxmWDE3MXZRU0M1cHZNQl81MmRERmMzMWhzRnlRM3VCVzRHdnBFSHAxRmRDYjRVdkw2MmhNMTNQdlZaQ0lsaURKd1ZhTW41WTJzbmI0cDNDanNOSDRELUZja3Z3WDIwYVlfaGw1enVEdWdFbWN4Y3BiZw?oc=5",
+      "published": "2025-05-22T07:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -554,12 +554,12 @@
       }
     },
     {
-      "id": "7faf6d4c55f6",
-      "title": "Arzneimittelausgaben wirksam begrenzen - vdek.com",
+      "id": "c8d53270fead",
+      "title": "Arzneimittelausgaben wirksam begrenzen - Verband der Ersatzkassen (vdek)",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQX2NMM0pWLWZrYS1wRS1DYndYQTRJZ09yaFdaSTNUZzVYV3A1TmFwMXJuNFlmTkd1eGRoempFZnNxTy1oU01fQTNmVlRjR2dUeDAzSU53SjI0S0pzQ0ZZZnlFOW0wSkdoYkQ0d3I1NnY2OUpDcnh5WW5jYjd3amhid1lsN0p0ZXpsQWc?oc=5",
       "published": "2025-06-17T07:00:00+00:00",
       "source": {
-        "name": "vdek.com",
+        "name": "Verband der Ersatzkassen (vdek)",
         "url": "https://www.vdek.com"
       }
     },
@@ -644,12 +644,12 @@
       }
     },
     {
-      "id": "357ef6007b67",
-      "title": "Medikamente bei Hitze: Diese Medikamente können im Sommer Nebenwirkungen verursachen - Öko-Test",
+      "id": "e2c28315b1fb",
+      "title": "Medikamente bei Hitze: Diese Medikamente können im Sommer Nebenwirkungen verursachen - oekotest.de",
       "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxONnA4aXcyN3Qxbllyc2ozV3dOcXZkTXlieFVkbE5yVVpjN2RCaEdBQnQxVVJJZTJJVVEzYWxZQkEza2NwQVJBeGlEZGpTT1lhQjhvTThDZ2xqQ1pLaDVRTlN4dzJMVm5xN1BGUmdQV1B1UGpUNV9aVDIwMHp1S1NXV2tQTktNdGtoazRlTnk1YTVPRGtLc0szbUZWWDFQWXJuM3prLUlZWFZFdmlxQVBSWnpzcEU5VkdlRFNGSTg5UlRHMzlUSUQ5LWZWS2dETWpWVmF3eTY1YVdMZklW?oc=5",
       "published": "2025-07-21T07:00:00+00:00",
       "source": {
-        "name": "Öko-Test",
+        "name": "oekotest.de",
         "url": "https://www.oekotest.de"
       }
     },
@@ -704,22 +704,22 @@
       }
     },
     {
-      "id": "5be41b7b0996",
-      "title": "Arzneimittel: Schluss mit Medikamentenknappheit? Wirkstoff-Recycling made in Erlangen - BR",
+      "id": "f866fd85d68c",
+      "title": "Arzneimittel: Schluss mit Medikamentenknappheit? Wirkstoff-Recycling made in Erlangen - br.de",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQV0lKcEVrYndVSlcxbWtWSEJPWEZ5azZSMkF4dktiOUxQYmdzcnpjeDV1ZGJUMTNMa0M2dWNCelE0SGNYb0NBLWFLcGJDa1h1YVlKSGpnZUk4X3N3WmRvVTcxYjVIOHVTZHIxZDA2ZkMzVzY3LU9velNZYkFfbU1HWGF5YnBpNDF5a0NXNHBmLWtsbGZ0MEZn?oc=5",
       "published": "2024-05-07T07:00:00+00:00",
       "source": {
-        "name": "BR",
+        "name": "br.de",
         "url": "https://www.br.de"
       }
     },
     {
-      "id": "682b9c2b82bf",
-      "title": "Lieferengpässe bei Medikamenten: Was sind die Ursachen? - NDR.de",
+      "id": "cf4c985b008d",
+      "title": "Lieferengpässe bei Medikamenten: Was sind die Ursachen? - ndr.de",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVkVHUWMyelM4VlFodEd2U1l2eURlN0JsWS1Kd2V5QWtWR2xobnRYdlA2el9YRG5CeVlUUTBNR0g5dThJaVBCQVdEZ3dkVWhsV2tyV0RyVFJXRkNtUC1DX2RIOXJTTG5GMWFQUzRlQjFpOU9fZ290dWJJeEJTMmJGZFo2eWRLM0VFMmo0c3VVT0V4YTN4NU5sUnMtTTAxTEhsaGhVUmxSeFFuOUhvQkVia1JVeHVIQ3lTaVE?oc=5",
       "published": "2024-11-07T08:00:00+00:00",
       "source": {
-        "name": "NDR.de",
+        "name": "ndr.de",
         "url": "https://www.ndr.de"
       }
     },
@@ -944,8 +944,8 @@
       }
     },
     {
-      "id": "df11e250fbe2",
-      "title": "Medikamente - Der Beauftragte der Bundesregierung für Sucht - Der Beauftragte der Bundesregierung für Sucht- und Drogenfragen",
+      "id": "f34e0f5b6c70",
+      "title": "Medikamente - Der Beauftragte der Bundesregierung für Sucht- und Drogenfragen",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYU9RSXlCcXJ3VzJBOUNfMnY3ZjZZNDhoTnR2X3dTOTNhSEJUbHpnYmcxR0JKc01FalBYd3BZQ0k5MnFfcGd1SENxRS1OLVBackpBcU9YUHp5bTBBSGpkRldFQUI1U2lhZTZtTldxRXZwN2Nra3Q5dFQ5cV9Kb2YtRlQ3LTdTT3BRQ1BiekNVeHE?oc=5",
       "published": "2025-04-07T11:53:36+00:00",
       "source": {
