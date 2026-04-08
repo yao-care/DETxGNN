@@ -1,33 +1,23 @@
 {
-  "fetched_at": "2026-04-08T07:24:12.005950+00:00",
+  "fetched_at": "2026-04-08T09:04:13.457421+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
     {
-      "id": "808547091de1",
-      "title": "Klinische Studien mit Kindern: Warum sie unverzichtbar sind - novartis.com",
+      "id": "a5637a2ccdc4",
+      "title": "Klinische Studien mit Kindern: Warum sie unverzichtbar sind - Novartis",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWW9LSXhsRWJpVWVmOS1qaUVMby00UWZ5dzVmMXdickpVUEctWmlEVkRpRWNTVjlSX012RjJQclRyUWNBWEFxcGJvU1M4VGNzbzV5R2U2cUlvQThpcWRoVTVFVERaR1pRTkp0Y0FMQXBHbVN1OHNjNktjNHJOaERuQlVhMkxyVUFZbWNoYU1IVERtcUE5WklZc2tVSlZtOUF0cEpn?oc=5",
       "published": "2026-04-07T12:44:00+00:00",
       "source": {
-        "name": "novartis.com",
+        "name": "Novartis",
         "url": "https://www.novartis.com"
-      }
-    },
-    {
-      "id": "1bac70a741cb",
-      "title": "ASS, Ibu, Paracetamol: Welche Schmerzmittel sind für Kinder geeignet? - T-Online",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNZE81Z0VOdUFfVGZITXh3N0Zucy1FVExLNzNOZ3pmY1JBUG15WnliQmpNcTdObXRxN19HZ1VPQUxEMXVkLUhQZ1FabGRpdkV5dTdnTHRiTVV1M2VTMWNnTDFJR2I2SDNJbWE3WGIxYVkwX2FSSmdhdUlFY3F2dVBjdTVzSm1hV2tmbHhMQkI0YURmdXV1bXBpTmI4em1ZcTJEVGVmUzlSb2RoaFl5Y2hCOTFXTkZoeDZYNmJzR3MzWTVDMkkxUU5TWkVmWjVzRnU4WWhXTVh3?oc=5",
-      "published": "2026-04-08T05:54:00+00:00",
-      "source": {
-        "name": "T-Online",
-        "url": "https://www.t-online.de"
       }
     },
     {
       "id": "3d31cce4a3ab",
       "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
-      "published": "2026-03-31T20:25:29+00:00",
+      "published": "2026-03-31T07:00:00+00:00",
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
@@ -114,12 +104,12 @@
       }
     },
     {
-      "id": "67c4d9241e91",
-      "title": "Arzneimittelpreise: Medikamente in Deutschland günstiger als USA trotz Trump-Deals - Gesundheit - SZ.de - sueddeutsche.de",
+      "id": "ef29235e3f7b",
+      "title": "Arzneimittelpreise: Medikamente in Deutschland günstiger als USA trotz Trump-Deals - Gesundheit - SZ.de - SZ.de",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdnBJZGx2V2VkNEJfQy1NTDk2NFJXOE5MY3k2VE1yNmxuZzNiWWNlalNjN0MzTjJzSUwxTDRPRTlJai1XeXVUODNhaGlrRXJhaVpJdVQ0eV9mNHc1QWZkaXhtUTVfdjZNWEU2eWptcVk1WkNUZHJNRUpNQzM2TXduRFpPS0tTbjhtajdRWmtMbTM2N1owQ1I1Y2g1MmJiUzNpdnc?oc=5",
       "published": "2026-03-18T07:00:00+00:00",
       "source": {
-        "name": "sueddeutsche.de",
+        "name": "SZ.de",
         "url": "https://www.sueddeutsche.de"
       }
     },
@@ -134,10 +124,10 @@
       }
     },
     {
-      "id": "d48f67267c3e",
-      "title": "Welt-Apotheker-Tag: Apothekerkompetenzen weltweit stärker nutzen - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSW5yX3VlaFpkTmYtSjJkd2RQR3FZN1M4a0huVEwzMFZYYkY2ODR6OURhLWQ5d0c5QTZkdjZGMXlURnpCM2J6Wm5VSl9za0NLMVdXd1NSLWNvdnZlZ2JYdEphcVdCVkhiMFg4N0s1Z2thTE9PUHNtOGcxRF9IRHNwaUViVktxYm03cGdHUzUyT3RVZ25uQmdB?oc=5",
-      "published": "2026-04-07T13:30:00+00:00",
+      "id": "8c7ff2b14fda",
+      "title": "Statistisches Bundesamt: Gesundheitsausgaben haben sich verdreifacht - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxONXg5R0tIYVN3MlVOdkNGbWd2TFNVVXVNWmJGNlFKcTRIc1dSNl9QQjFYRnFkTmNwYjNnR0k3M2VNNFhiSVdBTmNDWlN5SG1GS2RhWndidWR1RmpYRGkxOThqaEtzMGcwTXZXem1wT3JkVFl2bTdWdzBlN1dlZUlsdmsyM2xZc2ZtVDU4UXB6TlUwdzNFelZ3TXVSQllpbmo4NC00RFo4c0dYZFk4RFlFS2xSeGRwWHA1UWdMSWI2OWt0YzBmdGwtSDlLdFk4VGNHelJR?oc=5",
+      "published": "2026-04-02T09:02:08+00:00",
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
@@ -154,10 +144,10 @@
       }
     },
     {
-      "id": "8c7ff2b14fda",
-      "title": "Statistisches Bundesamt: Gesundheitsausgaben haben sich verdreifacht - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxONXg5R0tIYVN3MlVOdkNGbWd2TFNVVXVNWmJGNlFKcTRIc1dSNl9QQjFYRnFkTmNwYjNnR0k3M2VNNFhiSVdBTmNDWlN5SG1GS2RhWndidWR1RmpYRGkxOThqaEtzMGcwTXZXem1wT3JkVFl2bTdWdzBlN1dlZUlsdmsyM2xZc2ZtVDU4UXB6TlUwdzNFelZ3TXVSQllpbmo4NC00RFo4c0dYZFk4RFlFS2xSeGRwWHA1UWdMSWI2OWt0YzBmdGwtSDlLdFk4VGNHelJR?oc=5",
-      "published": "2026-04-02T09:02:08+00:00",
+      "id": "ac813ff32638",
+      "title": "vfa zum Kommissionsbericht: Sparmaßnahmen für Pharmaindustrie im Faktencheck - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaGl6UGU2SlFIcnhfcTBza2E0aTZxOEEwd2xOWmxUT3hwYzYzSDRsSGJZa3g0U3BwTWpQdm01enFWcUVYeFhtR0d2SkJDQmVURmpFa0x0LXpYRTEzd1dtbmxyVWE2NVpZcE1DamxIT2kybUxscTV0QnZtTmVNRW1uLUxOeUw2cUlUZFRQUmdCYXZ4UEF4TFJuY092eU4tZw?oc=5",
+      "published": "2026-04-02T13:30:00+00:00",
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
@@ -174,13 +164,23 @@
       }
     },
     {
-      "id": "ac813ff32638",
-      "title": "vfa zum Kommissionsbericht: Sparmaßnahmen für Pharmaindustrie im Faktencheck - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaGl6UGU2SlFIcnhfcTBza2E0aTZxOEEwd2xOWmxUT3hwYzYzSDRsSGJZa3g0U3BwTWpQdm01enFWcUVYeFhtR0d2SkJDQmVURmpFa0x0LXpYRTEzd1dtbmxyVWE2NVpZcE1DamxIT2kybUxscTV0QnZtTmVNRW1uLUxOeUw2cUlUZFRQUmdCYXZ4UEF4TFJuY092eU4tZw?oc=5",
-      "published": "2026-04-02T13:30:00+00:00",
+      "id": "d48f67267c3e",
+      "title": "Welt-Apotheker-Tag: Apothekerkompetenzen weltweit stärker nutzen - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSW5yX3VlaFpkTmYtSjJkd2RQR3FZN1M4a0huVEwzMFZYYkY2ODR6OURhLWQ5d0c5QTZkdjZGMXlURnpCM2J6Wm5VSl9za0NLMVdXd1NSLWNvdnZlZ2JYdEphcVdCVkhiMFg4N0s1Z2thTE9PUHNtOGcxRF9IRHNwaUViVktxYm03cGdHUzUyT3RVZ25uQmdB?oc=5",
+      "published": "2026-04-07T13:30:00+00:00",
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "3b61c485a1c9",
+      "title": "Gesundheit - Gesetzliche Krankenkassen fordern Maßnahmen gegen steigende Arzneimittelpreise - Deutschlandfunk",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPX2ZXSGh3TS1SUVdMakVnd0tYT040NWVQRFJQX3ZVY1VONVQ4U2lZX0xVcEZ4dXZYOURsbDJCWmM4MXVMYWJwbjE1M09oVmxVTF9UODQ4MmUtRlhVdGpuZzV1bjZOY0U4SEk5VjNEM25vU1M4a2lBNmpfa1ZzTWE2ODlBQTBfemV0M0kxMEsyTWFuYnpvd3ZVT0pFeW9aRTJhRFdHX3UtNVpONmdXNUkwMDFydmh0YXpMTVVR?oc=5",
+      "published": "2026-03-15T07:00:00+00:00",
+      "source": {
+        "name": "Deutschlandfunk",
+        "url": "https://www.deutschlandfunk.de"
       }
     },
     {
@@ -204,22 +204,12 @@
       }
     },
     {
-      "id": "3b61c485a1c9",
-      "title": "Gesundheit - Gesetzliche Krankenkassen fordern Maßnahmen gegen steigende Arzneimittelpreise - Deutschlandfunk",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPX2ZXSGh3TS1SUVdMakVnd0tYT040NWVQRFJQX3ZVY1VONVQ4U2lZX0xVcEZ4dXZYOURsbDJCWmM4MXVMYWJwbjE1M09oVmxVTF9UODQ4MmUtRlhVdGpuZzV1bjZOY0U4SEk5VjNEM25vU1M4a2lBNmpfa1ZzTWE2ODlBQTBfemV0M0kxMEsyTWFuYnpvd3ZVT0pFeW9aRTJhRFdHX3UtNVpONmdXNUkwMDFydmh0YXpMTVVR?oc=5",
-      "published": "2026-03-15T07:00:00+00:00",
-      "source": {
-        "name": "Deutschlandfunk",
-        "url": "https://www.deutschlandfunk.de"
-      }
-    },
-    {
-      "id": "92415fe3cfdd",
-      "title": "Gesundheitsgefahr durch gefälschte Arzneimittel - gesundheit.gv.at",
+      "id": "7c0b557fb36b",
+      "title": "Gesundheitsgefahr durch gefälschte Arzneimittel - Gesundheit.gv.at",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYlhNa1drQ3UydVU1Ti1QZWxOelZ2UDNkQTBsczZ4SzVIZGhQS3psTVQ5Zmw2Ujh2RGpDYzZ5TDdIbG5mYkFjRl9CX3JkS0FHQ2dlSGVZMlpRTmpva0xOX3hoTWhTM3VoZlB6bjJYbjRRcGp2NERXZmhoaEtyeGJhUDlSU0k0cURLRzNIc1FR?oc=5",
       "published": "2026-03-09T07:00:00+00:00",
       "source": {
-        "name": "gesundheit.gv.at",
+        "name": "Gesundheit.gv.at",
         "url": "https://www.gesundheit.gv.at"
       }
     },
@@ -231,16 +221,6 @@
       "source": {
         "name": "News.de",
         "url": "https://www.news.de"
-      }
-    },
-    {
-      "id": "42e8cdb71cb8",
-      "title": "Schluss mit Hitzewallungen: Inzwischen wurde ein zweites hormonfreies Medikament zugelassen - BRIGITTE.de",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNUjc0N3FCWmItaFdUVlY2ME5kYmQzYm1vd2dlS1JOWUdBNDRVSExYN3BkMWptVmhpSzkzSlVaMkFPY091dDhUV29kS1V6Si02S00wTS05SnNkMjZUMWthVTVpWlY1eGV2SzFRMUlXR1dVbXc0RUE3SkpEQUNKSEQzcU1PT05JVldFdVJvcnh6amZuV3ZyUExSTTJlQlZTSTBoSHlUZ0piOFZvUW5zRzh5T2lxY3ZyWHI3SlNGbDI0UjdjWDdNaVM5aHVoOFgyTnlC?oc=5",
-      "published": "2026-04-07T08:55:00+00:00",
-      "source": {
-        "name": "BRIGITTE.de",
-        "url": "https://www.brigitte.de"
       }
     },
     {
@@ -274,22 +254,32 @@
       }
     },
     {
-      "id": "0492b7e301a9",
-      "title": "Intimgesundheit der Frau: Arzneimittel der Selbstmedikation richtig anwenden - monitor-versorgungsforschung.de",
+      "id": "42e8cdb71cb8",
+      "title": "Schluss mit Hitzewallungen: Inzwischen wurde ein zweites hormonfreies Medikament zugelassen - BRIGITTE.de",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNUjc0N3FCWmItaFdUVlY2ME5kYmQzYm1vd2dlS1JOWUdBNDRVSExYN3BkMWptVmhpSzkzSlVaMkFPY091dDhUV29kS1V6Si02S00wTS05SnNkMjZUMWthVTVpWlY1eGV2SzFRMUlXR1dVbXc0RUE3SkpEQUNKSEQzcU1PT05JVldFdVJvcnh6amZuV3ZyUExSTTJlQlZTSTBoSHlUZ0piOFZvUW5zRzh5T2lxY3ZyWHI3SlNGbDI0UjdjWDdNaVM5aHVoOFgyTnlC?oc=5",
+      "published": "2026-04-07T08:55:00+00:00",
+      "source": {
+        "name": "BRIGITTE.de",
+        "url": "https://www.brigitte.de"
+      }
+    },
+    {
+      "id": "7314c1d76222",
+      "title": "Intimgesundheit der Frau: Arzneimittel der Selbstmedikation richtig anwenden - Monitor Versorgungsforschung",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZy01dWVucjhyQ1RpaWpxTUF4YWlpcmNTU2NxWkdORVVfd2UtaXA0UkJvVTlKNEp6SE1aYUhPMmxhME5YYkVtbDJGSVcxQTUtWTg5TkM5VkR3TFktU1lXOGxTSlk0cWNUUmtjY1d1aFpndENHdk9aVk9HTi16VjFzbzBtYWhOb0FQdDNYMnNkV3pkX1Nwbk42V0Y2N2ZZX2FMOHdfV2Nna3gyNWlCblVmZFZCZ29pR0gxbzA0eUpINE5NcXc?oc=5",
       "published": "2026-03-09T07:00:00+00:00",
       "source": {
-        "name": "monitor-versorgungsforschung.de",
+        "name": "Monitor Versorgungsforschung",
         "url": "https://www.monitor-versorgungsforschung.de"
       }
     },
     {
-      "id": "c6b79cfa383c",
-      "title": "Arzneimittel - Drohender Engpass bei Antibiotika - Sonderregeln - Gesundheit - SZ.de - sueddeutsche.de",
+      "id": "2ab7955d0c6d",
+      "title": "Arzneimittel - Drohender Engpass bei Antibiotika - Sonderregeln - Gesundheit - SZ.de - SZ.de",
       "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNZXYxUjRkRWpobExwZXBseVN2WkJ6NjBwTndtTURXR3RSR01ENHZOaGtVYXdOanprT2paaHFmVEc0RWxzVzZDb0NrYk1Ba0thRGlhZ3RxVWpqeGUyR0owYzIzVHFTVTFWMmdfdUxfVnYzN0R5MUc5TFN4R2dSNWJ3V0ZMZUt3YkhlZXhDTXUxa1dBUUVSQjB5b2JyVU5xUUo5SVVwLUpkc2Z5NUV6NVFvak4zLXBrTng2OUs1OEdiQnlDR1N2QngtdGFmbW9vSnl2U1lKaDhqa3FyMVllSmxXRG13?oc=5",
       "published": "2026-01-24T08:00:00+00:00",
       "source": {
-        "name": "sueddeutsche.de",
+        "name": "SZ.de",
         "url": "https://www.sueddeutsche.de"
       }
     },
@@ -334,12 +324,12 @@
       }
     },
     {
-      "id": "3cf9d8fa68c4",
-      "title": "Tipps vom Apotheker - Fehlende Arzneimittel - Warum sich Eltern bevorraten sollten - Gesundheit - SZ.de - sueddeutsche.de",
+      "id": "88f3ad8f8f16",
+      "title": "Tipps vom Apotheker - Fehlende Arzneimittel - Warum sich Eltern bevorraten sollten - Gesundheit - SZ.de - SZ.de",
       "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOWFhLVUdkZzBFTm93WVhvZHdBSkk4ZWlPUWJQRlZFWjlSV3Npei12Wnc4YWhXZW9fMkFOLUs2TjNEanlIUENkRlJ1bmdDQWJKbFhVeEpaMmF2dEp3SjVZbjBHZlNDVUV2Z1NpekF5c3lEaUxsX3VPcDNwRHBGaVFFYXBRZ3dERXpIZWp2TzVralRSb1FEVmdfZjNJTmxMdW9WT25iZGh6QVBfQmV2UGRSby1hcWNOOWl4b2NIajFWRmZZNmhvemN2OVVSZ3dwYnlYTVBfYV9oVGlYM3B5TjJtQTZZUHkwb3cteVd1UzU5M3RaT2hiN2tjczYtOA?oc=5",
       "published": "2025-11-30T08:00:00+00:00",
       "source": {
-        "name": "sueddeutsche.de",
+        "name": "SZ.de",
         "url": "https://www.sueddeutsche.de"
       }
     },
@@ -374,12 +364,12 @@
       }
     },
     {
-      "id": "3a858db0c236",
-      "title": "2025: Höchster Stand von Aufnahmen neuer Medikamente in die Spezialitätenliste - bag.admin.ch",
+      "id": "0b1d3630c461",
+      "title": "2025: Höchster Stand von Aufnahmen neuer Medikamente in die Spezialitätenliste - Bundesamt für Gesundheit BAG",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1HMEFNZWpPYzRReWJNTkhGRk11RnNpblJQVjNEdE1ISllXWlNUWk4yZFpWclRTOUl0M3ZJTXhSNmpMdEtuVkVWVnV3aEJXdWxld0l3dUVkdGszYnVuNEFxbldsSXNJamc?oc=5",
       "published": "2026-01-30T08:00:00+00:00",
       "source": {
-        "name": "bag.admin.ch",
+        "name": "Bundesamt für Gesundheit BAG",
         "url": "https://www.bag.admin.ch"
       }
     },
@@ -514,16 +504,6 @@
       }
     },
     {
-      "id": "2e456f10aad8",
-      "title": "SVR-Gutachten: Hohe Arzneimittelpreise bedrohen Gesundheitssystem - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdkVLanl4Z0F3bXFfWGJrcUZEZUNhdnhoeExVTWxYWTN3aXV2YUxmWDE3MXZRU0M1cHZNQl81MmRERmMzMWhzRnlRM3VCVzRHdnBFSHAxRmRDYjRVdkw2MmhNMTNQdlZaQ0lsaURKd1ZhTW41WTJzbmI0cDNDanNOSDRELUZja3Z3WDIwYVlfaGw1enVEdWdFbWN4Y3BiZw?oc=5",
-      "published": "2025-05-22T07:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "47bd2cbba260",
       "title": "Arzneimittelmarkt in Deutschland: Analyse der Arzneimittelausgaben - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQlhtenAxN1hGNE9LX3hMemlaSDRGcy1XN2xpVEt3cTlhcDl2akpxZWo4bjY1N0RNVGRlRG5pSnBFUVA0V1l4WWc3QmxNc2ExRVIxU3RZQldOcVZpbVJEak9tZFFQNFJQUUdJcmluYzY2YzV3M01qdjkxY3pvTVBGUWstMHJJVGtjR0JQcWhiTDNjejA?oc=5",
@@ -531,6 +511,16 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "2e456f10aad8",
+      "title": "SVR-Gutachten: Hohe Arzneimittelpreise bedrohen Gesundheitssystem - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdkVLanl4Z0F3bXFfWGJrcUZEZUNhdnhoeExVTWxYWTN3aXV2YUxmWDE3MXZRU0M1cHZNQl81MmRERmMzMWhzRnlRM3VCVzRHdnBFSHAxRmRDYjRVdkw2MmhNMTNQdlZaQ0lsaURKd1ZhTW41WTJzbmI0cDNDanNOSDRELUZja3Z3WDIwYVlfaGw1enVEdWdFbWN4Y3BiZw?oc=5",
+      "published": "2025-05-22T07:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -564,12 +554,12 @@
       }
     },
     {
-      "id": "413c3adb9ce2",
-      "title": "Neue Arzneimittel bezahlbar halten - monitor-versorgungsforschung.de",
+      "id": "bd7f031aa416",
+      "title": "Neue Arzneimittel bezahlbar halten - Monitor Versorgungsforschung",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSmJSYnFDUUhDUndnRXJpQTNZYlFQbTZBeEtOalM5Ty1xUU5MNHBQczlObUJqVUozYjJqWVc4NUlKOUVoR1hPTG1fTFhfRjJfWUZIeDlIWnlNejJOczdrbWhBeVBfZFdlNDhMQTFuenI4MDN3Y284c3o2TGU4Si1tckNzX0VZQmVTV2dmbQ?oc=5",
       "published": "2025-05-27T07:00:00+00:00",
       "source": {
-        "name": "monitor-versorgungsforschung.de",
+        "name": "Monitor Versorgungsforschung",
         "url": "https://www.monitor-versorgungsforschung.de"
       }
     },
@@ -624,12 +614,12 @@
       }
     },
     {
-      "id": "4f30d4616ddc",
-      "title": "Wie läuft die Zulassung von Arzneimitteln ab? - stiftung-gesundheitswissen.de",
+      "id": "4ad5466d18bb",
+      "title": "Wie läuft die Zulassung von Arzneimitteln ab? - Stiftung Gesundheitswissen",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQc0lKcG51SV96LVpuemVlZ3p2LU1Ubjg1Q2M0VjJMa3pfRGNWM3VKemVDZG9mWm1uY0NlbkZmVDc4QWVad0VIYVAzOGxrY3ZvX1ZnSHB5QXZFYU4tNTAxa0g3N1BxbTljY3hTSVZQZE1GUFNsVF9LNUNfdk5aZGFucjBPWnZ5TGtZazdZQ3NQeEZFMXpBem9Tenh2NUtrWGlp?oc=5",
       "published": "2025-03-24T13:27:32+00:00",
       "source": {
-        "name": "stiftung-gesundheitswissen.de",
+        "name": "Stiftung Gesundheitswissen",
         "url": "https://www.stiftung-gesundheitswissen.de"
       }
     },
@@ -674,12 +664,12 @@
       }
     },
     {
-      "id": "bbe0f5ba5864",
-      "title": "Paxlovid: Was bringt das Covid-19-Medikament? - stiftung-gesundheitswissen.de",
+      "id": "fc3f996ba3f6",
+      "title": "Paxlovid: Was bringt das Covid-19-Medikament? - Stiftung Gesundheitswissen",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0zLU9lb0QwZ1lVQXdxaGIzVVVWVXYyWHdqSXVET2lzUzl1WVF2ZEtrX0tyel94eGpYX0I4dmdpMGhjU3k0SnZHdkNtYjNGV0ZadjdYejFyUjcxZW9MZnBCZUtRWkt2cWI0YzVv?oc=5",
       "published": "2025-07-01T22:03:44+00:00",
       "source": {
-        "name": "stiftung-gesundheitswissen.de",
+        "name": "Stiftung Gesundheitswissen",
         "url": "https://www.stiftung-gesundheitswissen.de"
       }
     },
@@ -754,16 +744,6 @@
       }
     },
     {
-      "id": "4814b9ce8847",
-      "title": "Erstattungsbetrag: Preisfestlegung für neue Medikamente - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUHN6Rk0zYW0xanpneTJrREhFdnJPVXFKckJsaHFBTWpYUElxdGN2ZUtydnkteHFHRHl2dERmeEVUMF8xUEh4Z3M4VEhJY0dfNDFpc0Vnc283akhUeTRkZEdSUzZxMjlmTmxBMmdMV2pKWi04UDZENVpvdjJPMXJxZEJ5SS13ZkZlSzVWODd0YjRPTjliYmttdXNUVkR6emgwU09xSQ?oc=5",
-      "published": "2025-02-22T04:19:00+00:00",
-      "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
-      }
-    },
-    {
       "id": "9719d5e93acd",
       "title": "„Arzneimittel sollen den Patienten helfen und nicht schaden.“ - Bundesministerium für Gesundheit (BMG)",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0wNnlZUXNlT1p3ZzRJZHdlTkdSMVhfOGNzMUFXaVRVckIydGJWWDg3Rkw2bnhENnVQS1gxRzRvMU5SZm1FWVFZYlhLRFJFTzVtZzdXeW1LUzlRUXMz?oc=5",
@@ -771,6 +751,16 @@
       "source": {
         "name": "Bundesministerium für Gesundheit (BMG)",
         "url": "https://www.bundesgesundheitsministerium.de"
+      }
+    },
+    {
+      "id": "4814b9ce8847",
+      "title": "Erstattungsbetrag: Preisfestlegung für neue Medikamente - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUHN6Rk0zYW0xanpneTJrREhFdnJPVXFKckJsaHFBTWpYUElxdGN2ZUtydnkteHFHRHl2dERmeEVUMF8xUEh4Z3M4VEhJY0dfNDFpc0Vnc283akhUeTRkZEdSUzZxMjlmTmxBMmdMV2pKWi04UDZENVpvdjJPMXJxZEJ5SS13ZkZlSzVWODd0YjRPTjliYmttdXNUVkR6emgwU09xSQ?oc=5",
+      "published": "2025-02-22T04:19:00+00:00",
+      "source": {
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
       }
     },
     {
@@ -784,16 +774,6 @@
       }
     },
     {
-      "id": "682b9c2b82bf",
-      "title": "Lieferengpässe bei Medikamenten: Was sind die Ursachen? - NDR.de",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVkVHUWMyelM4VlFodEd2U1l2eURlN0JsWS1Kd2V5QWtWR2xobnRYdlA2el9YRG5CeVlUUTBNR0g5dThJaVBCQVdEZ3dkVWhsV2tyV0RyVFJXRkNtUC1DX2RIOXJTTG5GMWFQUzRlQjFpOU9fZ290dWJJeEJTMmJGZFo2eWRLM0VFMmo0c3VVT0V4YTN4NU5sUnMtTTAxTEhsaGhVUmxSeFFuOUhvQkVia1JVeHVIQ3lTaVE?oc=5",
-      "published": "2024-11-07T08:00:00+00:00",
-      "source": {
-        "name": "NDR.de",
-        "url": "https://www.ndr.de"
-      }
-    },
-    {
       "id": "e165db49bd1e",
       "title": "Gesundheitsunion: Arzneimittel müssen leichter zugänglich und bezahlbar sein - European Parliament",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNNWpzcFFkaHNFUFhibEtnVGktREZqYTBLVGhrdUw2eGxPdU93Q3cyR2xTWGtsT3VEV3RWMGsxQkVONXROc1FITnNvZHF4dDBwN1JpOWl5UllsTl9ZSWZ2dmxZTXVkeWFVdi1QMDI0aURoTFczUjFTLS1qQVVpVzgtNDVhT2RhbGktRzlseW9Wb0tnd29xWUJwZm5UNjRfRWxEOWcyOWxoLTk4NjFKV19QRDJJYUtRUTI0ckdWY1phMEpzM3Q5U0JJY2xibVdLcTlSb1o5eDN3T0VvUQ?oc=5",
@@ -801,6 +781,16 @@
       "source": {
         "name": "European Parliament",
         "url": "https://www.europarl.europa.eu"
+      }
+    },
+    {
+      "id": "682b9c2b82bf",
+      "title": "Lieferengpässe bei Medikamenten: Was sind die Ursachen? - NDR.de",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVkVHUWMyelM4VlFodEd2U1l2eURlN0JsWS1Kd2V5QWtWR2xobnRYdlA2el9YRG5CeVlUUTBNR0g5dThJaVBCQVdEZ3dkVWhsV2tyV0RyVFJXRkNtUC1DX2RIOXJTTG5GMWFQUzRlQjFpOU9fZ290dWJJeEJTMmJGZFo2eWRLM0VFMmo0c3VVT0V4YTN4NU5sUnMtTTAxTEhsaGhVUmxSeFFuOUhvQkVia1JVeHVIQ3lTaVE?oc=5",
+      "published": "2024-11-07T08:00:00+00:00",
+      "source": {
+        "name": "NDR.de",
+        "url": "https://www.ndr.de"
       }
     },
     {
@@ -914,12 +904,12 @@
       }
     },
     {
-      "id": "6ccc3c8da323",
-      "title": "EU-Kommission lässt Arzneimittel gegen Alzheimer zu - Gesundheit - SZ.de - sueddeutsche.de",
+      "id": "3ad94926f708",
+      "title": "EU-Kommission lässt Arzneimittel gegen Alzheimer zu - Gesundheit - SZ.de - SZ.de",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBhcTZZOEpfWjNQNUozZTNyaEM3VHFPX3R1bDVCTTkxQ2kweEY2d0poZThIbFVXalBGYVh0MzNjS0U2U3c5UFlWeHRPa1NFeWxBZVl3SWVUWTVMbWlTOFlHdmJsdWM2ZDYxUEZGS0lCNktEZlMzNW5PRDkxWQ?oc=5",
       "published": "2025-04-15T07:00:00+00:00",
       "source": {
-        "name": "sueddeutsche.de",
+        "name": "SZ.de",
         "url": "https://www.sueddeutsche.de"
       }
     },
@@ -954,16 +944,6 @@
       }
     },
     {
-      "id": "19b06b5ee691",
-      "title": "Gesundheitsgefahr durch illegale Stoffe - verbraucherzentrale.de",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQY0I4azR5X3RTSl84RmlzMzAyNHMyR2tBVXBUNDRySVBtaUdYSnppVFZtT0FFVXhZWThGX3gzX0U3WGNoOHlyeVg2QUlSelFtUTNpTVI3Q1p1SzhrSmxyczVocVVfLS1fX1NyajBkZU1jWDV6NV95dVlMQm9hSGhFVk9vdXh6QnNqcUVkRTBkWlVFRXFvd2Q2Q20wRWItSVBuaXdtVzYzQThlU2pEaWRfeFMtWnJVaWtIR2ZtRmt6Zi10Y3lw?oc=5",
-      "published": "2025-04-22T07:00:00+00:00",
-      "source": {
-        "name": "verbraucherzentrale.de",
-        "url": "https://www.verbraucherzentrale.de"
-      }
-    },
-    {
       "id": "cbf5bfab836c",
       "title": "Gesundheit: Apotheker warnen vor Medikamentenmangel in der Erkältungssaison - DIE ZEIT",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMkcwTzBhbEs3YzVGUEhuMEZVdmZIQTVBV3ozand0aTNhNkpsazlJaGR2Q1VnMHhiWUd2ZEJKWjY0RjFYYnZsTzhmR2UxNVdQVnc3UXpOSUExNlRtZmVPZDBneHVILW1vVlVTS0ZTaFotNUFEMzREZmowYXJ3S0VzMWVZc0pPb3ByQ3ZWRXFpU0RmOEQ3b3dlV2Z3?oc=5",
@@ -971,6 +951,16 @@
       "source": {
         "name": "DIE ZEIT",
         "url": "https://www.zeit.de"
+      }
+    },
+    {
+      "id": "a851579f0cf5",
+      "title": "Gesundheitsgefahr durch illegale Stoffe - Verbraucherzentrale.de",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQY0I4azR5X3RTSl84RmlzMzAyNHMyR2tBVXBUNDRySVBtaUdYSnppVFZtT0FFVXhZWThGX3gzX0U3WGNoOHlyeVg2QUlSelFtUTNpTVI3Q1p1SzhrSmxyczVocVVfLS1fX1NyajBkZU1jWDV6NV95dVlMQm9hSGhFVk9vdXh6QnNqcUVkRTBkWlVFRXFvd2Q2Q20wRWItSVBuaXdtVzYzQThlU2pEaWRfeFMtWnJVaWtIR2ZtRmt6Zi10Y3lw?oc=5",
+      "published": "2025-04-22T07:00:00+00:00",
+      "source": {
+        "name": "Verbraucherzentrale.de",
+        "url": "https://www.verbraucherzentrale.de"
       }
     },
     {
@@ -1001,6 +991,16 @@
       "source": {
         "name": "tagesschau.de",
         "url": "https://www.tagesschau.de"
+      }
+    },
+    {
+      "id": "df11e250fbe2",
+      "title": "Medikamente - Der Beauftragte der Bundesregierung für Sucht - Der Beauftragte der Bundesregierung für Sucht- und Drogenfragen",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYU9RSXlCcXJ3VzJBOUNfMnY3ZjZZNDhoTnR2X3dTOTNhSEJUbHpnYmcxR0JKc01FalBYd3BZQ0k5MnFfcGd1SENxRS1OLVBackpBcU9YUHp5bTBBSGpkRldFQUI1U2lhZTZtTldxRXZwN2Nra3Q5dFQ5cV9Kb2YtRlQ3LTdTT3BRQ1BiekNVeHE?oc=5",
+      "published": "2025-04-07T11:53:36+00:00",
+      "source": {
+        "name": "Der Beauftragte der Bundesregierung für Sucht- und Drogenfragen",
+        "url": "https://www.bundesdrogenbeauftragter.de"
       }
     }
   ]
