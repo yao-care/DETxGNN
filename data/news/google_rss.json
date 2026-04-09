@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-09T22:42:50.557279+00:00",
+  "fetched_at": "2026-04-09T23:38:47.532071+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -44,16 +44,6 @@
       }
     },
     {
-      "id": "fb29792e76cd",
-      "title": "DiGA: Vorteil für Kassen-Apps - Apotheke Adhoc",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOemxLLTZJUDhnMXk2S2RMVkNrcTR6V1hKQ2tkUXcxRFJTelZyNWhBVVAwVW9GejBXekhzVjhVb3ZWRVpONXc0SlpPNmE4TU4wR3hoRzlSdklobEdGQTdCWlR2YXkzN18wdEZsbWRWcFRSSUYwZTFXeDF5SnJFSEN6eE5HaUJwVjAwVmtPZmZOZXA?oc=5",
-      "published": "2026-04-09T11:15:00+00:00",
-      "source": {
-        "name": "Apotheke Adhoc",
-        "url": "https://www.apotheke-adhoc.de"
-      }
-    },
-    {
       "id": "e918614d850f",
       "title": "Vom Wissen zum Handeln: Verbesserung der Bezahlbarkeit von Arzneimitteln in den Ländern des Westbalkans - World Health Organization (WHO)",
       "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOZlNmcEdYcXZxdDBYazhiVjRCWHVtbms0ZG5JUWlXb0lJWXVFYjV1ak1MR05oZW5FbHFMTGpyNjJxS1ZuQWk4Nl9Wc2NHdHE3YnhrQzc1VHJNbm1QRFdMVF9WVGw2NHdVeDBHajRYX1hfZkFEMTU2Z09kcU04T1c1V3dKZ09nUUlMc3dnLVdvQ3RTYUZqSDA3d1djVXpxbU9fSFUtSGlHbHNOdFJRb29RQlpTRHEzd2pCQzd5Y3VRNmcza2dzTVVlYUp5Y1U5b01kMGpQUzZvNGctWE0tSmJRSEk5TQ?oc=5",
@@ -64,6 +54,16 @@
       }
     },
     {
+      "id": "fb29792e76cd",
+      "title": "DiGA: Vorteil für Kassen-Apps - Apotheke Adhoc",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOemxLLTZJUDhnMXk2S2RMVkNrcTR6V1hKQ2tkUXcxRFJTelZyNWhBVVAwVW9GejBXekhzVjhVb3ZWRVpONXc0SlpPNmE4TU4wR3hoRzlSdklobEdGQTdCWlR2YXkzN18wdEZsbWRWcFRSSUYwZTFXeDF5SnJFSEN6eE5HaUJwVjAwVmtPZmZOZXA?oc=5",
+      "published": "2026-04-09T11:15:00+00:00",
+      "source": {
+        "name": "Apotheke Adhoc",
+        "url": "https://www.apotheke-adhoc.de"
+      }
+    },
+    {
       "id": "86d52d291420",
       "title": "Schlucken auf eigenes Risiko: Die dunkle Seite der Vitaminpillen - STERN.de",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcG9oQ0R5NHVDQUlyVlI2SnJwSHVnaS0zS0F0MVRnY1d3TzNTMmJWSDJ0WXpYUldCREQyZ1o0NFF0c2Rzd3BIa1R4LWJvWGl6bWJKNHVaLXV1b1FqX2xGQzJUeDdEMlV0N1FYNXlod255d0R2MnQ0dy1jckNhVzF1ZGkxc0FlNE1qNXgxQ0d5cl9FOTU3czM2ZjN5bHQwUVU0ZE9ZYlRRS1dBMEhjcTlTVW9TZkg?oc=5",
@@ -71,16 +71,6 @@
       "source": {
         "name": "STERN.de",
         "url": "https://www.stern.de"
-      }
-    },
-    {
-      "id": "5d57863ff44b",
-      "title": "DocMorris Versandapotheke: Warum sie in Deutschland, Österreich und der Schweiz boomt - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZzc0XzJxbGlYV3ZpcGkyQlUyT2lDZ2pjdVZ5T1NQNG9RNTQ5N1ROS3VtTjEzeFp0a3ZWcHB1dXNtTm84Z1FuWUpONy0tWGlTM2ktQ29CUHV0TkdOY1dKX0M2ODE5clVtZjB5d3pjQWM0QXU2R3pFZkRsdkRtdkJweDdSNkVXVDYzdXZhelRaTEFFTjhQdW5zZVpLZk9Ha2Jua0NEZ1pTMTAxOWtza1RqcERnaGdNdGdNMVFfYkp6RmFLZw?oc=5",
-      "published": "2026-04-09T10:41:06+00:00",
-      "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -104,6 +94,16 @@
       }
     },
     {
+      "id": "5d57863ff44b",
+      "title": "DocMorris Versandapotheke: Warum sie in Deutschland, Österreich und der Schweiz boomt - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZzc0XzJxbGlYV3ZpcGkyQlUyT2lDZ2pjdVZ5T1NQNG9RNTQ5N1ROS3VtTjEzeFp0a3ZWcHB1dXNtTm84Z1FuWUpONy0tWGlTM2ktQ29CUHV0TkdOY1dKX0M2ODE5clVtZjB5d3pjQWM0QXU2R3pFZkRsdkRtdkJweDdSNkVXVDYzdXZhelRaTEFFTjhQdW5zZVpLZk9Ha2Jua0NEZ1pTMTAxOWtza1RqcERnaGdNdGdNMVFfYkp6RmFLZw?oc=5",
+      "published": "2026-04-09T10:41:06+00:00",
+      "source": {
+        "name": "AD HOC NEWS",
+        "url": "https://www.ad-hoc-news.de"
+      }
+    },
+    {
       "id": "b69b57064071",
       "title": "DAK-Gesundheit will Kassenfinanzen durch mehr Wettbewerb bei Arzneimitteln stärken – News - Deutsches Ärzteblatt",
       "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNSFVfMENtRmFjWDdSNjR1YWRjZzBlLTRIY3d4WEZKOXRVYlNmeFA1UmVaM1MtTjVjaXUyRVhmYTJ3NU5fQmZfdktXRXRkN054Rmh5d3FuNXRodHZDd1ZkcFE3YWxLWXFiQlF0MzRXcjd5d2pWcVpxTDdpdVdmZUVhSlU0S0pZWXFENTBwNnZIb3dTWkQ4eG9lQWstRjBjOEZQYThlLTFVbXJQVXp4ajBuSTNWb1M4TkxZMjAzX3ZwZGVwaGREbkNhSTUyVkJrVGlwM2pwYXdlX1pPVGRLWkcwV1dBeEVZdw?oc=5",
@@ -114,13 +114,13 @@
       }
     },
     {
-      "id": "bb848ab9260e",
-      "title": "Starkes Wachstum, zu hohe Kosten - Deutsche Apotheker Zeitung, DAZ",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxORVpPMEVWLWdoRWxCVWQ0Sy1DRmIyZXNncmdRSGRicUd6LTdTNjZjN1ZFV0tHTmFhc2QtSkMwMVUtMWVDazJrT3VUN1U1WnZmeGJHRmpseHNBMHRZcDdHT0FFRFRZUjNhZ3dXNTdCNjd4R3Y5RFNFczFvdWpEdkZaODlrRFd6Qm55Z1lyZGZuRmZBM29XdkFLV2NrcmxYUQ?oc=5",
-      "published": "2026-04-09T00:00:00+00:00",
+      "id": "ee89613a67ab",
+      "title": "Corona-Spätfolgen besser behandeln: Hoffnung bei Long-Covid – Krankenkassen reagieren bei Medikamenten - News.de",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQczViMDNqSlN3R0VTVERIZnhrSTU0YVJtYl95T0NnZW9ULTRGQUZLbGN5b3VyMy1BR1ptRFoyd1FYVENCazI4U3lUSkQyc3NoV2R4VGIxWDdMOEo5TEFzLUJOMGpmY0pFcXZhRkNPUFpyN2JhT1RqUVFLYUJ0RHB3MlhUZExjSFlmYTI2bENfd3lVd0V1LUIyN09CcWxsaGszN1NhYlpXSmpmWGhEU1VER29yNTg3QVl0T01QdFFVdkVGY1FRYzhQMS11ajVEUU5rTHFxX2pnQzNkWVlfX0tnNnVZNlozb0xTMUF2eURnTXTSAfYBQVVfeXFMUGpndEZvVXA0QTgxbHZWQVU5NS04N3F4Nzduc2NOVG5Fd0lyeUI4UGdFMlpyQlhUd1pQbjhnWHVCeDFmQUZ2UnVWM1VKdkZxT3pEVmk0UDV5Z0NXeWh3Z1hLM2U5NFo5NDVEWEpqZ3JJUTI2bk5RUUwwMjJOTW9ZVlNySTdFbU9PZ2dFMkxFbWZoOFhPbkxibkN2TEdrNkkwY3NUQU5lNEZNM1ZGbEs2bUJ4cGtnTlYySTR0Qkw0eTkydjdkczMwdzNtSnp1dnJhZGZBdl81V2NIbHVPRXJWZ01udE9GTXMwQ0xqTERLeGxRY1ZoYTZ3?oc=5",
+      "published": "2026-04-07T06:15:02+00:00",
       "source": {
-        "name": "Deutsche Apotheker Zeitung, DAZ",
-        "url": "https://www.deutsche-apotheker-zeitung.de"
+        "name": "News.de",
+        "url": "https://www.news.de"
       }
     },
     {
@@ -204,13 +204,13 @@
       }
     },
     {
-      "id": "ee89613a67ab",
-      "title": "Corona-Spätfolgen besser behandeln: Hoffnung bei Long-Covid – Krankenkassen reagieren bei Medikamenten - News.de",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQczViMDNqSlN3R0VTVERIZnhrSTU0YVJtYl95T0NnZW9ULTRGQUZLbGN5b3VyMy1BR1ptRFoyd1FYVENCazI4U3lUSkQyc3NoV2R4VGIxWDdMOEo5TEFzLUJOMGpmY0pFcXZhRkNPUFpyN2JhT1RqUVFLYUJ0RHB3MlhUZExjSFlmYTI2bENfd3lVd0V1LUIyN09CcWxsaGszN1NhYlpXSmpmWGhEU1VER29yNTg3QVl0T01QdFFVdkVGY1FRYzhQMS11ajVEUU5rTHFxX2pnQzNkWVlfX0tnNnVZNlozb0xTMUF2eURnTXTSAfYBQVVfeXFMUGpndEZvVXA0QTgxbHZWQVU5NS04N3F4Nzduc2NOVG5Fd0lyeUI4UGdFMlpyQlhUd1pQbjhnWHVCeDFmQUZ2UnVWM1VKdkZxT3pEVmk0UDV5Z0NXeWh3Z1hLM2U5NFo5NDVEWEpqZ3JJUTI2bk5RUUwwMjJOTW9ZVlNySTdFbU9PZ2dFMkxFbWZoOFhPbkxibkN2TEdrNkkwY3NUQU5lNEZNM1ZGbEs2bUJ4cGtnTlYySTR0Qkw0eTkydjdkczMwdzNtSnp1dnJhZGZBdl81V2NIbHVPRXJWZ01udE9GTXMwQ0xqTERLeGxRY1ZoYTZ3?oc=5",
-      "published": "2026-04-07T06:15:02+00:00",
+      "id": "bb848ab9260e",
+      "title": "Starkes Wachstum, zu hohe Kosten - Deutsche Apotheker Zeitung, DAZ",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxORVpPMEVWLWdoRWxCVWQ0Sy1DRmIyZXNncmdRSGRicUd6LTdTNjZjN1ZFV0tHTmFhc2QtSkMwMVUtMWVDazJrT3VUN1U1WnZmeGJHRmpseHNBMHRZcDdHT0FFRFRZUjNhZ3dXNTdCNjd4R3Y5RFNFczFvdWpEdkZaODlrRFd6Qm55Z1lyZGZuRmZBM29XdkFLV2NrcmxYUQ?oc=5",
+      "published": "2026-04-09T00:00:00+00:00",
       "source": {
-        "name": "News.de",
-        "url": "https://www.news.de"
+        "name": "Deutsche Apotheker Zeitung, DAZ",
+        "url": "https://www.deutsche-apotheker-zeitung.de"
       }
     },
     {
@@ -544,16 +544,6 @@
       }
     },
     {
-      "id": "2e456f10aad8",
-      "title": "SVR-Gutachten: Hohe Arzneimittelpreise bedrohen Gesundheitssystem - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdkVLanl4Z0F3bXFfWGJrcUZEZUNhdnhoeExVTWxYWTN3aXV2YUxmWDE3MXZRU0M1cHZNQl81MmRERmMzMWhzRnlRM3VCVzRHdnBFSHAxRmRDYjRVdkw2MmhNMTNQdlZaQ0lsaURKd1ZhTW41WTJzbmI0cDNDanNOSDRELUZja3Z3WDIwYVlfaGw1enVEdWdFbWN4Y3BiZw?oc=5",
-      "published": "2025-05-22T07:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "47bd2cbba260",
       "title": "Arzneimittelmarkt in Deutschland: Analyse der Arzneimittelausgaben - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQlhtenAxN1hGNE9LX3hMemlaSDRGcy1XN2xpVEt3cTlhcDl2akpxZWo4bjY1N0RNVGRlRG5pSnBFUVA0V1l4WWc3QmxNc2ExRVIxU3RZQldOcVZpbVJEak9tZFFQNFJQUUdJcmluYzY2YzV3M01qdjkxY3pvTVBGUWstMHJJVGtjR0JQcWhiTDNjejA?oc=5",
@@ -561,6 +551,16 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "2e456f10aad8",
+      "title": "SVR-Gutachten: Hohe Arzneimittelpreise bedrohen Gesundheitssystem - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdkVLanl4Z0F3bXFfWGJrcUZEZUNhdnhoeExVTWxYWTN3aXV2YUxmWDE3MXZRU0M1cHZNQl81MmRERmMzMWhzRnlRM3VCVzRHdnBFSHAxRmRDYjRVdkw2MmhNMTNQdlZaQ0lsaURKd1ZhTW41WTJzbmI0cDNDanNOSDRELUZja3Z3WDIwYVlfaGw1enVEdWdFbWN4Y3BiZw?oc=5",
+      "published": "2025-05-22T07:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
