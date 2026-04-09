@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-09T19:10:56.201349+00:00",
+  "fetched_at": "2026-04-09T20:54:24.408910+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -214,16 +214,6 @@
       }
     },
     {
-      "id": "85e27b1d87a1",
-      "title": "Psychische Gesundheit: Was DiGAs bringen und wo es die App auf Rezept gibt - Deutsche Wirtschaftsnachrichten",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNDc1eU1tMFJKMm9OX0xGR2ZXeTNkRUdnbVpjMWkyQ0E4ZFdWUVZBWkpycW14blhkbFp4Rnl3Tzc5MEp6amthV210b3ZIWkxWS2lFalBneG1ONVFBNVZRY2NpX2hPdllJWDdycnh1dHNZcVdoRkxuVzNLQ1BMZlNvSDk0enRzSXVCR1g1ZWtrY3J0ZE1kY1ZwY0ZiZWNPa1YzNUotOFBhUU1ON2trcjdyU2JzZmZuWFJVb3A3QTAyQ0NVQQ?oc=5",
-      "published": "2026-04-09T10:12:00+00:00",
-      "source": {
-        "name": "Deutsche Wirtschaftsnachrichten",
-        "url": "https://deutsche-wirtschafts-nachrichten.de"
-      }
-    },
-    {
       "id": "51fb3cd1c181",
       "title": "Medikamente für Senioren: Studie warnt vor riskanten Wirkstoffen - Berliner Morgenpost",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZ29BeW1jeXNBMHJfUWNHT1RfQWNhcG9TUzJwbE11cl9XN1VvWElYUmJORUxoclg3R08xa3VsaXhSMlBnSlE2ZkhOdWF2Z0lVempDdE9XMnBZcEVQUm5KVDBaM0I0ZWpxdzBYbkxYOWtjOGN1ZGxCUkh5TDUzeUxJc0F1dm55XzdHMEwyNUZheFRiaFdKUGtUR1JmYXRGelY0UlM3OFh4SkExRGFTVWZFamxqYXFQOHRCZjFTQThnbjRWU1JMcEM0?oc=5",
@@ -291,16 +281,6 @@
       "source": {
         "name": "NDR.de",
         "url": "https://www.ndr.de"
-      }
-    },
-    {
-      "id": "e5b73398d8dc",
-      "title": "Zahl der Antibiotika-Verordnungen im Norden nimmt ab - Proplanta",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNd3Y0dzlrTDZCTnhxNERfYnlSWlQ1UjF3OWNvUEEzSkdmcGJnLWF1VjRHdzdzU3dvdXdPWTM3LTJLQnNzSWF6ZEswVFF4RHIyMzhLYTBVVWJTVVlWcFBCdS1Yejg3NDc1dmhjMDl1ck9SQ2hfZU1nbzY5cldNS0t3RWxCVXBUanhzbW95dDBwVkdNWVVzZEt6aDUxU1ZRcFhMbkxTcW9sMkdkZFFrWFdmWWg3V3poOUFjWGIxcEVXODNqTTY4SFN2SE9R?oc=5",
-      "published": "2026-04-09T06:34:00+00:00",
-      "source": {
-        "name": "Proplanta",
-        "url": "https://www.proplanta.de"
       }
     },
     {
@@ -484,16 +464,6 @@
       }
     },
     {
-      "id": "36800a8074e5",
-      "title": "Intimgesundheit der Frau: Arzneimittel der Selbstmedikation richtig anwenden - Presseportal",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBYWlNEMVdKV0JFOGp6aTR3NHotVFlWc1pUajJ6WVc0SVVLNmo5c2otX0tmbnF3QmhvNFlQS2FJNkwzejFfeXU2a1U1d2ZPSzgwMHdVSThrbw?oc=5",
-      "published": "2026-03-06T08:00:00+00:00",
-      "source": {
-        "name": "Presseportal",
-        "url": "https://www.presseportal.de"
-      }
-    },
-    {
       "id": "0b1d3630c461",
       "title": "2025: Höchster Stand von Aufnahmen neuer Medikamente in die Spezialitätenliste - Bundesamt für Gesundheit BAG",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1HMEFNZWpPYzRReWJNTkhGRk11RnNpblJQVjNEdE1ISllXWlNUWk4yZFpWclRTOUl0M3ZJTXhSNmpMdEtuVkVWVnV3aEJXdWxld0l3dUVkdGszYnVuNEFxbldsSXNJamc?oc=5",
@@ -634,6 +604,16 @@
       }
     },
     {
+      "id": "47bd2cbba260",
+      "title": "Arzneimittelmarkt in Deutschland: Analyse der Arzneimittelausgaben - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQlhtenAxN1hGNE9LX3hMemlaSDRGcy1XN2xpVEt3cTlhcDl2akpxZWo4bjY1N0RNVGRlRG5pSnBFUVA0V1l4WWc3QmxNc2ExRVIxU3RZQldOcVZpbVJEak9tZFFQNFJQUUdJcmluYzY2YzV3M01qdjkxY3pvTVBGUWstMHJJVGtjR0JQcWhiTDNjejA?oc=5",
+      "published": "2025-05-23T19:10:43+00:00",
+      "source": {
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
+      }
+    },
+    {
       "id": "d81d8b7bbf28",
       "title": "Hauptstadtkongress: Innovationsförderung oder Kostendämpfung bei Arzneimitteln? - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVENCTXVqOGR0YTV4bGljYkJLSnNCbWtVUE1rU0xlV2daRHhkUHljbDFVOVV0YXJ0N2JndVlMaXNaZHlnSkh4aUVfWnk0c2doQVM2MW9pb3RMcEh0bEZwVFJwUFE4YUFXYjI2eU5xVHQxdFNFUGRTZTNaNzRNdHY1OFVITGJjTVIwd0ZtYjlDRHlIRmN6cGstZjg5TmRmMWFldmtPWndBNkRvUm8?oc=5",
@@ -651,16 +631,6 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
-      "id": "47bd2cbba260",
-      "title": "Arzneimittelmarkt in Deutschland: Analyse der Arzneimittelausgaben - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQlhtenAxN1hGNE9LX3hMemlaSDRGcy1XN2xpVEt3cTlhcDl2akpxZWo4bjY1N0RNVGRlRG5pSnBFUVA0V1l4WWc3QmxNc2ExRVIxU3RZQldOcVZpbVJEak9tZFFQNFJQUUdJcmluYzY2YzV3M01qdjkxY3pvTVBGUWstMHJJVGtjR0JQcWhiTDNjejA?oc=5",
-      "published": "2025-05-23T19:10:43+00:00",
-      "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
       }
     },
     {
@@ -924,16 +894,6 @@
       }
     },
     {
-      "id": "c7c845c34186",
-      "title": "Hype um Natron: Wie es bei Sodbrennen, Mundgeruch und sogar Krebserkrankungen helfen kann. - NDR.de",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNLWVfSFFlN3p4c1ZVcUR6NE5ldmNJcTRTWFlvNUFmOW1UY0JEeW8yMWhOdmhYOHc4bTY1aWUxdGltUUhGMTR1UGNGV0lqTE91STV5d3gzOEYzN2p6am5Vc2RDZl81MkVzQmp4ekNKdmdmSFFoblBNWFB0MDhPZlBhVVlfMnJBMHVyZ1hOb0REaW1mdE5zd0NPQ1JDdlItSmZnbHpzb2s5ODRQR0lkdUdDYTRaMVBFbVdLN1dIU2c1UmE?oc=5",
-      "published": "2025-05-06T07:00:00+00:00",
-      "source": {
-        "name": "NDR.de",
-        "url": "https://www.ndr.de"
-      }
-    },
-    {
       "id": "388b7c58a675",
       "title": "RKI-Bericht: Diese Arzneimittel können bei Hitze Probleme verursachen - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONHdLdFVoNHFnYl9vZVJjdVBoVDhzZFVMTEhULTBpcURWdXljRjlsX25RODlzbXRSNTR5QUNzZEhUcGRCMi14ZUpaRXM5ZlY4VU9HRkR5YnVxZXdKQmlhdktqMzJWTnQxRHZlLURTMUwzLXEtTVkxb2doVURybXhWMUNfbWNfZXg2SFFaUDVDR0VRSlg0dEdMa0psTkd6bmNLbDJfZzF4UQ?oc=5",
@@ -941,6 +901,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "c7c845c34186",
+      "title": "Hype um Natron: Wie es bei Sodbrennen, Mundgeruch und sogar Krebserkrankungen helfen kann. - NDR.de",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNLWVfSFFlN3p4c1ZVcUR6NE5ldmNJcTRTWFlvNUFmOW1UY0JEeW8yMWhOdmhYOHc4bTY1aWUxdGltUUhGMTR1UGNGV0lqTE91STV5d3gzOEYzN2p6am5Vc2RDZl81MkVzQmp4ekNKdmdmSFFoblBNWFB0MDhPZlBhVVlfMnJBMHVyZ1hOb0REaW1mdE5zd0NPQ1JDdlItSmZnbHpzb2s5ODRQR0lkdUdDYTRaMVBFbVdLN1dIU2c1UmE?oc=5",
+      "published": "2025-05-06T07:00:00+00:00",
+      "source": {
+        "name": "NDR.de",
+        "url": "https://www.ndr.de"
       }
     },
     {
@@ -1001,6 +971,36 @@
       "source": {
         "name": "quarks.de",
         "url": "https://www.quarks.de"
+      }
+    },
+    {
+      "id": "1a7af255a8af",
+      "title": "EU-Gesundheits­ausschuss stimmt für Pharmapaket – News - Deutsches Ärzteblatt",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObjV2U0lxY0MzSkphMXRIcndTOW5QODMwYWlKczlFUWFqRm1jLVdIME9KT01PWUhodDNIeEpjVXlxZU83NUNpX3k5TWQzejh1UlRNaTl6UW1jeFBzYWFfTTFTbzdQaHdOVTF6QkRXSG0wZkVTaUZENUVCdzVpNUNQUkt1SHBHM3dYOU5qd29kdEpLaDY2b0VqeHJjZS1Mc3BtU01wLUZydUgzZy1IU3hQeXRraFFPbEU?oc=5",
+      "published": "2024-03-19T07:00:00+00:00",
+      "source": {
+        "name": "Deutsches Ärzteblatt",
+        "url": "https://www.aerzteblatt.de"
+      }
+    },
+    {
+      "id": "fc2e64098f26",
+      "title": "Gesundheit: Lauterbach plant Arzneimittel ohne Apotheker vor Ort - Handelsblatt",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQWxPaFhLaGt1QmRaOHAwVHpBRm8yaU9jZkZ1UmwtNmkzeS1kWGFBeVhNUC1iSks0UDFjYlhyS0U5V1lkTXRhbEZsWlcyZXVTeEhmR1dsZ0xQcDlkWTRCcTJzN1NYSDNOUFRBaFJoTVNLc3dPMFAwX0JXRWt6c3Z6dXltZ3RLS1Jnb05QOW1tdUIzUmdnWGdfcDdMdWhJZnRBWmNUdXlHQ0FTQnpydE80eHAwUjRKazZ1WHVnYVc1SlBEc2c0Q1E?oc=5",
+      "published": "2024-07-02T07:00:00+00:00",
+      "source": {
+        "name": "Handelsblatt",
+        "url": "https://www.handelsblatt.com"
+      }
+    },
+    {
+      "id": "ef93adbf0628",
+      "title": "Medikamente: Ärzte und Apotheker warnen vor Medikamentenmangel im Herbst - Spiegel",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQdHRaWUt3eTRMOUhHTW05RFh3VUNHMTR0TVFqNWpNbElfVWlUbWh4cS12SHpKZG5qRlJvdm5sdXpOVkJoQWZQTlhVOThLSUNsd2pLeDJKT1lvTHduODY5LU9MZ2NsUnJYdDY3eU1KQWxpdzV5QzZfam5EVTZrYXlrR3pTZmVZeDR2VW14bGlBUWNSVWVkSENaTWl4Rk1PUkRhRklFaEluMUxYeHdTZEtGQnhqeTY0YjluWkVMWnFXbDQ0YjlibFhCeE9aeWotMGVWVDNuSlR1bldBRnhDVGc?oc=5",
+      "published": "2024-09-20T07:00:00+00:00",
+      "source": {
+        "name": "Spiegel",
+        "url": "https://www.spiegel.de"
       }
     }
   ]
