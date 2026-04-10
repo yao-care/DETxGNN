@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-10T11:54:50.947658+00:00",
+  "fetched_at": "2026-04-10T13:16:15.760025+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -134,16 +134,6 @@
       }
     },
     {
-      "id": "c0cdb0d28ac4",
-      "title": "PZ Briefing: Die Top-News vom 7.4.2026 - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0xS2VxT0JIOE9sbVJsYU56ZXQ4dVljejVSaXBLdGpCRTNxcF9uckxKTHFmejBiekhyMDlvbko2VThUc1hnRDVOeldCNkJzeE9mRnd0c2VYR1RweVc4N3RaUmxSYnhiMXhGV21IUHU2ZjNObWs0QTRkLWlB?oc=5",
-      "published": "2026-04-07T14:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "7d43a91aa77a",
       "title": "Onkologische Arzneimittel: Analyse der Marktsituation - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMi1WQVZnaGJPSm9GcVAzRWlGSHRDRVg2MXhXMTJUenNuQUpRcElfbjBDZVp3Y3Z1UUNzNm5PSUY0eVdXMWcyQ3J0WkUxSjVSY0xxWFJ5X0lJc3Y1VExsallLS24xQUxyUVMyTDdsWUtnTThIZjc2TWZsdGpWMlMxUDVfXzVmeXZNdlhwZGNWb0VXbFZnVEVYOFVHSmxtUjBFVEU2alRzVlpCMlJ4?oc=5",
@@ -154,20 +144,10 @@
       }
     },
     {
-      "id": "b9464baea20f",
-      "title": "Gesundheit - Auch SoVD fordert Maßnahmen gegen steigende Arzneimittelpreise - Deutschlandfunk",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNmF3c1ZhS2dyTG9MdkxYcjU4OHB6ZU8yNExEbkpFYVpBZWRfeDFWN3BHOS0wdVNheXF5Tzh0bGoxeTZONGw1R001LVNCWlI0UTNsNHo2cGFjbEw0V3B4dmZIbUVxYnhfb25tRDF6SXhvVUtZN0ZkaVFTZnZMYUg1MEZ2X0YwQ1hvWG54eTNVb09sNXlxUzd3cHVmdWJJbEJiNlI1ZjdB?oc=5",
-      "published": "2026-03-18T07:00:00+00:00",
-      "source": {
-        "name": "Deutschlandfunk",
-        "url": "https://www.deutschlandfunk.de"
-      }
-    },
-    {
-      "id": "fb29792e76cd",
-      "title": "DiGA: Vorteil für Kassen-Apps - Apotheke Adhoc",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOemxLLTZJUDhnMXk2S2RMVkNrcTR6V1hKQ2tkUXcxRFJTelZyNWhBVVAwVW9GejBXekhzVjhVb3ZWRVpONXc0SlpPNmE4TU4wR3hoRzlSdklobEdGQTdCWlR2YXkzN18wdEZsbWRWcFRSSUYwZTFXeDF5SnJFSEN6eE5HaUJwVjAwVmtPZmZOZXA?oc=5",
-      "published": "2026-04-09T11:15:00+00:00",
+      "id": "e5d5b9c322ac",
+      "title": "Warken im Gesundheitsausschuss - Apotheke Adhoc",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVTdpcFFVcTZZbEFfRG0tUXpFUVFiak1USl93S1MwLXM0dzh2S3h1Nk9vUnJOLVdLdVJvU1M1MHMzaFFvY0pZdjlROU1jYnp5ZE02NTJuODBZcDhpT1l0VXBud2FNa2dJME5Dd0tFMDZFamdZeFRuY1VibXcyYmNqN0NSZDJ6RDVpV21XdU15RG84QQ?oc=5",
+      "published": "2026-04-07T06:10:00+00:00",
       "source": {
         "name": "Apotheke Adhoc",
         "url": "https://www.apotheke-adhoc.de"
@@ -184,6 +164,16 @@
       }
     },
     {
+      "id": "b9464baea20f",
+      "title": "Gesundheit - Auch SoVD fordert Maßnahmen gegen steigende Arzneimittelpreise - Deutschlandfunk",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNmF3c1ZhS2dyTG9MdkxYcjU4OHB6ZU8yNExEbkpFYVpBZWRfeDFWN3BHOS0wdVNheXF5Tzh0bGoxeTZONGw1R001LVNCWlI0UTNsNHo2cGFjbEw0V3B4dmZIbUVxYnhfb25tRDF6SXhvVUtZN0ZkaVFTZnZMYUg1MEZ2X0YwQ1hvWG54eTNVb09sNXlxUzd3cHVmdWJJbEJiNlI1ZjdB?oc=5",
+      "published": "2026-03-18T07:00:00+00:00",
+      "source": {
+        "name": "Deutschlandfunk",
+        "url": "https://www.deutschlandfunk.de"
+      }
+    },
+    {
       "id": "801bd4739bfe",
       "title": "Gesundheit - Beipackzettel von Medikamenten sollen digital werden - Ausdrucke in Apotheken sollen Option sein - Deutschlandfunk",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOclZxcXdzdDlfTXNBVkNkV1g0a1RMa05OWGcyX0RXaW5YMmpyUElhUnBJQU9QM3BzUG9iSFZnaWE0ek1iLTFQeE1wbkVhaDdrT3pVMERnT3l3VGhoOUtuS0EtT3pwazNMMGZmcmI1Z2puUHg1WWc5MzBXdHJma0l0dWNlNEhQdFdBUXF5X0V3OVRQWVA1RXFJNXJtbTVGMjNYQVlSWjNrdEttY0pQMXF0dWlwdGNUVWpFcF83a3RyX0oxSWpLaFVmc2NoVEhGNXc?oc=5",
@@ -191,6 +181,16 @@
       "source": {
         "name": "Deutschlandfunk",
         "url": "https://www.deutschlandfunk.de"
+      }
+    },
+    {
+      "id": "fb29792e76cd",
+      "title": "DiGA: Vorteil für Kassen-Apps - Apotheke Adhoc",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOemxLLTZJUDhnMXk2S2RMVkNrcTR6V1hKQ2tkUXcxRFJTelZyNWhBVVAwVW9GejBXekhzVjhVb3ZWRVpONXc0SlpPNmE4TU4wR3hoRzlSdklobEdGQTdCWlR2YXkzN18wdEZsbWRWcFRSSUYwZTFXeDF5SnJFSEN6eE5HaUJwVjAwVmtPZmZOZXA?oc=5",
+      "published": "2026-04-09T11:15:00+00:00",
+      "source": {
+        "name": "Apotheke Adhoc",
+        "url": "https://www.apotheke-adhoc.de"
       }
     },
     {
@@ -244,16 +244,6 @@
       }
     },
     {
-      "id": "86d52d291420",
-      "title": "Schlucken auf eigenes Risiko: Die dunkle Seite der Vitaminpillen - STERN.de",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcG9oQ0R5NHVDQUlyVlI2SnJwSHVnaS0zS0F0MVRnY1d3TzNTMmJWSDJ0WXpYUldCREQyZ1o0NFF0c2Rzd3BIa1R4LWJvWGl6bWJKNHVaLXV1b1FqX2xGQzJUeDdEMlV0N1FYNXlod255d0R2MnQ0dy1jckNhVzF1ZGkxc0FlNE1qNXgxQ0d5cl9FOTU3czM2ZjN5bHQwUVU0ZE9ZYlRRS1dBMEhjcTlTVW9TZkg?oc=5",
-      "published": "2026-04-09T13:09:00+00:00",
-      "source": {
-        "name": "STERN.de",
-        "url": "https://www.stern.de"
-      }
-    },
-    {
       "id": "3b61c485a1c9",
       "title": "Gesundheit - Gesetzliche Krankenkassen fordern Maßnahmen gegen steigende Arzneimittelpreise - Deutschlandfunk",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPX2ZXSGh3TS1SUVdMakVnd0tYT040NWVQRFJQX3ZVY1VONVQ4U2lZX0xVcEZ4dXZYOURsbDJCWmM4MXVMYWJwbjE1M09oVmxVTF9UODQ4MmUtRlhVdGpuZzV1bjZOY0U4SEk5VjNEM25vU1M4a2lBNmpfa1ZzTWE2ODlBQTBfemV0M0kxMEsyTWFuYnpvd3ZVT0pFeW9aRTJhRFdHX3UtNVpONmdXNUkwMDFydmh0YXpMTVVR?oc=5",
@@ -301,6 +291,16 @@
       "source": {
         "name": "MDR",
         "url": "https://www.mdr.de"
+      }
+    },
+    {
+      "id": "86d52d291420",
+      "title": "Schlucken auf eigenes Risiko: Die dunkle Seite der Vitaminpillen - STERN.de",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcG9oQ0R5NHVDQUlyVlI2SnJwSHVnaS0zS0F0MVRnY1d3TzNTMmJWSDJ0WXpYUldCREQyZ1o0NFF0c2Rzd3BIa1R4LWJvWGl6bWJKNHVaLXV1b1FqX2xGQzJUeDdEMlV0N1FYNXlod255d0R2MnQ0dy1jckNhVzF1ZGkxc0FlNE1qNXgxQ0d5cl9FOTU3czM2ZjN5bHQwUVU0ZE9ZYlRRS1dBMEhjcTlTVW9TZkg?oc=5",
+      "published": "2026-04-09T13:09:00+00:00",
+      "source": {
+        "name": "STERN.de",
+        "url": "https://www.stern.de"
       }
     },
     {
@@ -384,16 +384,6 @@
       }
     },
     {
-      "id": "0e7073a90306",
-      "title": "Notdienst heute in Offenbach am Main: Ärzte und Notapotheken am Freitag - News.de",
-      "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOd0VpMUVBbjhJTWdJb3BZd2hfM2otYURkblM0LWV6WlBwZXRXaDcxYkZ3YjNKd0Q1T2huVlZkNklWdWRsY2FaMlRtYUZBUHJpNi1FX1RZRHlSbVN3bXB1TGlMRWlzZ25pRFd2Nm92RTI2TUNldEJzdkNhTlQ3T0pPVjZSUTg0ZzVxamlpcDVmX1BrWW5ydldTdG1VcnBDWTJ6OFg3OXJEdFlVU0pPLTdmUHNQSWZmbHVlaVJSX3VmQlB0aWp5NHhpZm05T1hScC1TVDR5cm41NG94c1pFWDZNVXl0cWJXUFYxOUZTeFY1bnZjVU9VT3EyR0xFd0VQUFZZNGZhUnZpZ0VrNGRqYUJnbXlpLVB6TjDSAZwCQVVfeXFMUFdnODVUT2dtamRwVGpDQjdFRGRMRG5WWjFDcTh3WU44WkwtaXhrejcxamR4NWxjQ0tMMU13amI4OGc5aGdKTEdHNFBUVTN4WkVEeF9QUXZsUEtaclVWanFGdU9BSFdBTUU2QmhaSGFKSUxWUVhMam9oRVN4ZVVBUURYUzc2MjBHVTkxZkI0V1hpdkpGbWYtLXF5ZEtYY2FsNDhyaWI4bjBJb1BXYThreUZyaVRwNVVDS2lBbWY2T2pPZi1vM0ZiS1dRZ2lZdTNab243QWxpc0E2MHl1eGpURFRNbUlKUTVlU09VXzV0UUJUTXNWUGp0ZG5MbEJYcE5fczFMMzZxZDQyU3NZMk5VaVNxTDNwVU50Y3VuWDE?oc=5",
-      "published": "2026-04-10T03:03:00+00:00",
-      "source": {
-        "name": "News.de",
-        "url": "https://www.news.de"
-      }
-    },
-    {
       "id": "5d57863ff44b",
       "title": "DocMorris Versandapotheke: Warum sie in Deutschland, Österreich und der Schweiz boomt - AD HOC NEWS",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZzc0XzJxbGlYV3ZpcGkyQlUyT2lDZ2pjdVZ5T1NQNG9RNTQ5N1ROS3VtTjEzeFp0a3ZWcHB1dXNtTm84Z1FuWUpONy0tWGlTM2ktQ29CUHV0TkdOY1dKX0M2ODE5clVtZjB5d3pjQWM0QXU2R3pFZkRsdkRtdkJweDdSNkVXVDYzdXZhelRaTEFFTjhQdW5zZVpLZk9Ha2Jua0NEZ1pTMTAxOWtza1RqcERnaGdNdGdNMVFfYkp6RmFLZw?oc=5",
@@ -401,6 +391,16 @@
       "source": {
         "name": "AD HOC NEWS",
         "url": "https://www.ad-hoc-news.de"
+      }
+    },
+    {
+      "id": "0e7073a90306",
+      "title": "Notdienst heute in Offenbach am Main: Ärzte und Notapotheken am Freitag - News.de",
+      "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOd0VpMUVBbjhJTWdJb3BZd2hfM2otYURkblM0LWV6WlBwZXRXaDcxYkZ3YjNKd0Q1T2huVlZkNklWdWRsY2FaMlRtYUZBUHJpNi1FX1RZRHlSbVN3bXB1TGlMRWlzZ25pRFd2Nm92RTI2TUNldEJzdkNhTlQ3T0pPVjZSUTg0ZzVxamlpcDVmX1BrWW5ydldTdG1VcnBDWTJ6OFg3OXJEdFlVU0pPLTdmUHNQSWZmbHVlaVJSX3VmQlB0aWp5NHhpZm05T1hScC1TVDR5cm41NG94c1pFWDZNVXl0cWJXUFYxOUZTeFY1bnZjVU9VT3EyR0xFd0VQUFZZNGZhUnZpZ0VrNGRqYUJnbXlpLVB6TjDSAZwCQVVfeXFMUFdnODVUT2dtamRwVGpDQjdFRGRMRG5WWjFDcTh3WU44WkwtaXhrejcxamR4NWxjQ0tMMU13amI4OGc5aGdKTEdHNFBUVTN4WkVEeF9QUXZsUEtaclVWanFGdU9BSFdBTUU2QmhaSGFKSUxWUVhMam9oRVN4ZVVBUURYUzc2MjBHVTkxZkI0V1hpdkpGbWYtLXF5ZEtYY2FsNDhyaWI4bjBJb1BXYThreUZyaVRwNVVDS2lBbWY2T2pPZi1vM0ZiS1dRZ2lZdTNab243QWxpc0E2MHl1eGpURFRNbUlKUTVlU09VXzV0UUJUTXNWUGp0ZG5MbEJYcE5fczFMMzZxZDQyU3NZMk5VaVNxTDNwVU50Y3VuWDE?oc=5",
+      "published": "2026-04-10T03:03:00+00:00",
+      "source": {
+        "name": "News.de",
+        "url": "https://www.news.de"
       }
     },
     {
@@ -441,16 +441,6 @@
       "source": {
         "name": "DIE ZEIT",
         "url": "https://www.zeit.de"
-      }
-    },
-    {
-      "id": "85e27b1d87a1",
-      "title": "Psychische Gesundheit: Was DiGAs bringen und wo es die App auf Rezept gibt - Deutsche Wirtschaftsnachrichten",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNDc1eU1tMFJKMm9OX0xGR2ZXeTNkRUdnbVpjMWkyQ0E4ZFdWUVZBWkpycW14blhkbFp4Rnl3Tzc5MEp6amthV210b3ZIWkxWS2lFalBneG1ONVFBNVZRY2NpX2hPdllJWDdycnh1dHNZcVdoRkxuVzNLQ1BMZlNvSDk0enRzSXVCR1g1ZWtrY3J0ZE1kY1ZwY0ZiZWNPa1YzNUotOFBhUU1ON2trcjdyU2JzZmZuWFJVb3A3QTAyQ0NVQQ?oc=5",
-      "published": "2026-04-09T10:12:00+00:00",
-      "source": {
-        "name": "Deutsche Wirtschaftsnachrichten",
-        "url": "https://deutsche-wirtschafts-nachrichten.de"
       }
     },
     {
@@ -1001,6 +991,16 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "d791ea43095f",
+      "title": "Neues Arzneimittelgesetz ermöglicht Pharmaindustrie Preisgeheimhaltung - Euractiv DE",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZnVmdmw0ZVJMcG85MENBY1pNZ3FiS0I5SGZzRGo5b2xXVUxmQkttR01peUxPblZockhmWHNybnphdmR5cHRkOUlSMEVSYUZvNjN0Uk51blpOV0RsWDd0SHFieTV6M2ZQSzVBX2NUR2l4QktmWmJqT1lJRE5WS18xeEs5MEFWQjNiTTJPV285TXBSVjJpVVpfakFkbHJjUQ?oc=5",
+      "published": "2024-07-04T07:00:00+00:00",
+      "source": {
+        "name": "Euractiv DE",
+        "url": "https://euractiv.de"
       }
     }
   ]
