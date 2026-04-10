@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-10T19:49:04.590182+00:00",
+  "fetched_at": "2026-04-10T20:40:52.436508+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -41,6 +41,16 @@
       "source": {
         "name": "ZDFheute",
         "url": "https://www.zdfheute.de"
+      }
+    },
+    {
+      "id": "9ac651eb6fdf",
+      "title": "Kliniken und Pharma-Industrie warnen vor Engpässen aufgrund des Iran-Kriegs - Apotheken Umschau",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxONDlXc1R4T1BPTUxib2U4a0pQZTh4VVhKTi1WeVhWdnk2Z042cGFoUWJTYmtHT2ZxczdPajlvTXhWV3RWLUU0eVFSNjhjcGhuVkMwcHdhNl9BbTVnbXFiTzdOTVJ5dEtiMHF3enNzVkR3OVZlQUM5VVJTYlN1a2VkSDNVeVU4dURBTkVlbEN5aFY5aEFEcUFLeHJNYUE3LVNWdlNZSWprS0JQNnRzMWJheDh2QjJZZUVwcFl1eXdsMm10dHJCRnQ3dnF3?oc=5",
+      "published": "2026-04-10T14:53:58+00:00",
+      "source": {
+        "name": "Apotheken Umschau",
+        "url": "https://www.apotheken-umschau.de"
       }
     },
     {
@@ -178,16 +188,6 @@
       "title": "»Spar­po­li­tik bei Arz­nei­mit­teln ist ein Irr­weg« - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZ3BYbThQLUVqMndzcmZ2RzJRTW5vb1o4dGhibU52alc0SUtlbFkxMkhCS1puYnNnelNOcnVtSl9iejVRNU1sNGxvZ0lZZVZkaWNnRGhWVWsxT1JobThfRzFVdnh6Q25Idzl3aGZZaThYdHBRYTUzNHRpX2VNZ0dGWHBjd3VEbDdERlhjOHhubnhHLXB2OWc?oc=5",
       "published": "2026-03-30T15:15:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
-      "id": "a5e8bf1aa4a7",
-      "title": "»Apps auf Rezept«: Finanzkommission will DiGA-Preisfreiheit streichen - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNy1MUXBQbUZmYkNuemRNSjZ6M3hkc0E0ZVVINWNDTmQ4RU1OaFNHSU1SRlB0Mm1HU3dGTUxlcncyMGJGMUFEREVyRVJRamtoY21jU3RMbHBaWjZkdHZpbjcxeWRPVGUwTGVyREpvRHNHVFUxRVh5V0lESXdGdnJzbUE2OUIwMTEtS19XNjR3QU9rZmZBa1ZFTG5jSURvZw?oc=5",
-      "published": "2026-04-09T14:00:00+00:00",
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
@@ -514,16 +514,6 @@
       }
     },
     {
-      "id": "9bd35d29de3c",
-      "title": "Diese Medikamente verändern die Darmflora – noch Jahre nach der Einnahme - FITBOOK",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1rcUl1akZhc3g5dXFPRUxxeloySC1BZnAyb1Jabl9QZ29LQ25RTTJaZTJsRlFvNXpRclp1ejZYbVplQ0hJX1lFd0RHbWpoWnJtSWlzLTVVemtmOFJQVnhDN3ZVUkRDdw?oc=5",
-      "published": "2025-10-14T07:00:00+00:00",
-      "source": {
-        "name": "FITBOOK",
-        "url": "https://www.fitbook.de"
-      }
-    },
-    {
       "id": "5772ec5cdac9",
       "title": "GKV in der Krise : Warken erwägt höhere Zuzahlungen für Arzneimittel - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdWlXOXMzZ2lzMTIwYlBfSUlPNFBUOEpGRkgzckx4QUQ4dVE2NVhRTzlZNTdPYm9halZadmVzQ0s3Z0VKUUNhUUFIOTFQQkhEQWttNGJ3SE9PQklubDU5WE8wZFQ1aFN2TnhEWUhBY3pzTU85dDRUWU1qVEF6dkxHN1NRYVl3M2tuTFdfUW5hQ1owSllpSjFYVHVTY1cwcHR5?oc=5",
@@ -531,6 +521,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "9bd35d29de3c",
+      "title": "Diese Medikamente verändern die Darmflora – noch Jahre nach der Einnahme - FITBOOK",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1rcUl1akZhc3g5dXFPRUxxeloySC1BZnAyb1Jabl9QZ29LQ25RTTJaZTJsRlFvNXpRclp1ejZYbVplQ0hJX1lFd0RHbWpoWnJtSWlzLTVVemtmOFJQVnhDN3ZVUkRDdw?oc=5",
+      "published": "2025-10-14T07:00:00+00:00",
+      "source": {
+        "name": "FITBOOK",
+        "url": "https://www.fitbook.de"
       }
     },
     {
