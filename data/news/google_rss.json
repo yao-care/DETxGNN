@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-11T08:48:35.230865+00:00",
+  "fetched_at": "2026-04-11T09:42:23.050444+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -94,16 +94,6 @@
       }
     },
     {
-      "id": "77e91a0724c4",
-      "title": "Wundauflagen: Keine Erstattung ohne Nutzennachweis - Apotheke Adhoc",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMFo3NFJYTWZNNTktSVZnNVU1MFoxdmpQVHVrUWRxdnM1dGk2XzA1Y1RSeUNPalJhcllNNTBuMU5Kb1lmRVJVSENXb25xWUhUWDJwZHh5Wm9JV2RpU1F2eU5lcFM2aU9NZHhKcG5GM05sajl2T3hneHRfSHFwSEZ1eElZTjhHLVJnQ1RQVmhQV0Q3dm5rSzRka1NWN2tCbVJIam96WWlmd0hWa29JY1BmeQ?oc=5",
-      "published": "2026-04-10T09:28:00+00:00",
-      "source": {
-        "name": "Apotheke Adhoc",
-        "url": "https://www.apotheke-adhoc.de"
-      }
-    },
-    {
       "id": "b69b57064071",
       "title": "DAK-Gesundheit will Kassenfinanzen durch mehr Wettbewerb bei Arzneimitteln stärken – News - Deutsches Ärzteblatt",
       "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNSFVfMENtRmFjWDdSNjR1YWRjZzBlLTRIY3d4WEZKOXRVYlNmeFA1UmVaM1MtTjVjaXUyRVhmYTJ3NU5fQmZfdktXRXRkN054Rmh5d3FuNXRodHZDd1ZkcFE3YWxLWXFiQlF0MzRXcjd5d2pWcVpxTDdpdVdmZUVhSlU0S0pZWXFENTBwNnZIb3dTWkQ4eG9lQWstRjBjOEZQYThlLTFVbXJQVXp4ajBuSTNWb1M4TkxZMjAzX3ZwZGVwaGREbkNhSTUyVkJrVGlwM2pwYXdlX1pPVGRLWkcwV1dBeEVZdw?oc=5",
@@ -111,6 +101,16 @@
       "source": {
         "name": "Deutsches Ärzteblatt",
         "url": "https://www.aerzteblatt.de"
+      }
+    },
+    {
+      "id": "77e91a0724c4",
+      "title": "Wundauflagen: Keine Erstattung ohne Nutzennachweis - Apotheke Adhoc",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMFo3NFJYTWZNNTktSVZnNVU1MFoxdmpQVHVrUWRxdnM1dGk2XzA1Y1RSeUNPalJhcllNNTBuMU5Kb1lmRVJVSENXb25xWUhUWDJwZHh5Wm9JV2RpU1F2eU5lcFM2aU9NZHhKcG5GM05sajl2T3hneHRfSHFwSEZ1eElZTjhHLVJnQ1RQVmhQV0Q3dm5rSzRka1NWN2tCbVJIam96WWlmd0hWa29JY1BmeQ?oc=5",
+      "published": "2026-04-10T09:28:00+00:00",
+      "source": {
+        "name": "Apotheke Adhoc",
+        "url": "https://www.apotheke-adhoc.de"
       }
     },
     {
