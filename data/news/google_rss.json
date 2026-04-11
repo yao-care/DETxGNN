@@ -1,18 +1,8 @@
 {
-  "fetched_at": "2026-04-11T20:36:47.591036+00:00",
+  "fetched_at": "2026-04-11T21:35:31.477312+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
-    {
-      "id": "5c4948bd5d25",
-      "title": "Iran-Krieg: Warum jetzt bei uns Medikamente knapp werden könnten - Berliner Morgenpost",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSXNXeWVtd190cmpzYVAzcExxY1RXaEE4WnlrMGdBdElnUzdPSEdCUHFNdWJ3SU5yY1I3ZjV2TThhU0xYNThZa1Z2X2Q2MDliZ19hZlhVSnlTNG1kMV9GQlBhTkZ1M3RGOEctMWZDZFRHNnhTbzk3OGdVYmFDVTl6TlBfd3VvNVB0ZzhuWnJGazc1RVBRRjBySU9CdFlaeFhXRzNHQVA3VWN2Y2RuUV9qZ09kY2lwbmZOTEdHdQ?oc=5",
-      "published": "2026-04-11T09:56:58+00:00",
-      "source": {
-        "name": "Berliner Morgenpost",
-        "url": "https://www.morgenpost.de"
-      }
-    },
     {
       "id": "3d31cce4a3ab",
       "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
@@ -21,6 +11,16 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "5c4948bd5d25",
+      "title": "Iran-Krieg: Warum jetzt bei uns Medikamente knapp werden könnten - Berliner Morgenpost",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSXNXeWVtd190cmpzYVAzcExxY1RXaEE4WnlrMGdBdElnUzdPSEdCUHFNdWJ3SU5yY1I3ZjV2TThhU0xYNThZa1Z2X2Q2MDliZ19hZlhVSnlTNG1kMV9GQlBhTkZ1M3RGOEctMWZDZFRHNnhTbzk3OGdVYmFDVTl6TlBfd3VvNVB0ZzhuWnJGazc1RVBRRjBySU9CdFlaeFhXRzNHQVA3VWN2Y2RuUV9qZ09kY2lwbmZOTEdHdQ?oc=5",
+      "published": "2026-04-11T09:56:58+00:00",
+      "source": {
+        "name": "Berliner Morgenpost",
+        "url": "https://www.morgenpost.de"
       }
     },
     {
@@ -104,16 +104,6 @@
       }
     },
     {
-      "id": "0ef530bc44f2",
-      "title": "Ärztin warnt : Diese frühen Parkinson-Symptome sollte niemand ignorieren - News.de",
-      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxObmZQQXZfaHNSZ2dQQzh5bTB1YnNnVm85MGZaa3d6UjNubDJ2V0VKZ0EwRUhSWU1kY2Zob1picDdOQmREU2lnOUZUZVc1QnRJOERjNFNMVDlsQl92d1BSY1JsOXRFUFhoYUpmMHRPd3o0QjJlb1o5VEJsSWdEeXR1UGtLYVFYYS1wVjNjUnlUMDZDa29NMEFFRmJZWUZ0bW9QQ1IzODN3eWdvZXo2WUtwSGpSVVZYLTNMQS0zR3Z2ekZQVzBTNjR2dnJESzZYX2F4cXJjVjE5N2V3bkdkamJNZnd5TExIdWYxQ0hETC01cEd0YXpFWlY0T0tUSHNQOWvSAYQCQVVfeXFMUHVaQkk3UGY0TUU1TksxZFk5TkEwQl80elVYTEZCbHRsMDJDMi1uNEhaN2JfZzhmQTEyRTQxbUxCVkdGazdfOFB5VkpycGwyT0x3dW5CalhMRXN5ZVBUX2xRUVZVeXE4S21nSFYwdVpvdzYwTGZCV2hFY3JqUFpxUFJhdHlaNloxbXI2Q04zRHp4OEdEbVhkNnJWVTg5ZmVldzdlcEJjYmctb2R4V2RMbS1BaDV5ZkZ6cmRxWjd3UGN1ZWkzaGVKZ3dWemVMZ3pKSDNYMWh6UUJ3WkZxc0hkMmJ4T3JRWXVrVmVSZVllQm1HMUVRQVlZMm1CNjdYanpJV0Q2Z1U?oc=5",
-      "published": "2026-04-11T03:01:01+00:00",
-      "source": {
-        "name": "News.de",
-        "url": "https://www.news.de"
-      }
-    },
-    {
       "id": "77e91a0724c4",
       "title": "Wundauflagen: Keine Erstattung ohne Nutzennachweis - Apotheke Adhoc",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMFo3NFJYTWZNNTktSVZnNVU1MFoxdmpQVHVrUWRxdnM1dGk2XzA1Y1RSeUNPalJhcllNNTBuMU5Kb1lmRVJVSENXb25xWUhUWDJwZHh5Wm9JV2RpU1F2eU5lcFM2aU9NZHhKcG5GM05sajl2T3hneHRfSHFwSEZ1eElZTjhHLVJnQ1RQVmhQV0Q3dm5rSzRka1NWN2tCbVJIam96WWlmd0hWa29JY1BmeQ?oc=5",
@@ -121,6 +111,16 @@
       "source": {
         "name": "Apotheke Adhoc",
         "url": "https://www.apotheke-adhoc.de"
+      }
+    },
+    {
+      "id": "0ef530bc44f2",
+      "title": "Ärztin warnt : Diese frühen Parkinson-Symptome sollte niemand ignorieren - News.de",
+      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxObmZQQXZfaHNSZ2dQQzh5bTB1YnNnVm85MGZaa3d6UjNubDJ2V0VKZ0EwRUhSWU1kY2Zob1picDdOQmREU2lnOUZUZVc1QnRJOERjNFNMVDlsQl92d1BSY1JsOXRFUFhoYUpmMHRPd3o0QjJlb1o5VEJsSWdEeXR1UGtLYVFYYS1wVjNjUnlUMDZDa29NMEFFRmJZWUZ0bW9QQ1IzODN3eWdvZXo2WUtwSGpSVVZYLTNMQS0zR3Z2ekZQVzBTNjR2dnJESzZYX2F4cXJjVjE5N2V3bkdkamJNZnd5TExIdWYxQ0hETC01cEd0YXpFWlY0T0tUSHNQOWvSAYQCQVVfeXFMUHVaQkk3UGY0TUU1TksxZFk5TkEwQl80elVYTEZCbHRsMDJDMi1uNEhaN2JfZzhmQTEyRTQxbUxCVkdGazdfOFB5VkpycGwyT0x3dW5CalhMRXN5ZVBUX2xRUVZVeXE4S21nSFYwdVpvdzYwTGZCV2hFY3JqUFpxUFJhdHlaNloxbXI2Q04zRHp4OEdEbVhkNnJWVTg5ZmVldzdlcEJjYmctb2R4V2RMbS1BaDV5ZkZ6cmRxWjd3UGN1ZWkzaGVKZ3dWemVMZ3pKSDNYMWh6UUJ3WkZxc0hkMmJ4T3JRWXVrVmVSZVllQm1HMUVRQVlZMm1CNjdYanpJV0Q2Z1U?oc=5",
+      "published": "2026-04-11T03:01:01+00:00",
+      "source": {
+        "name": "News.de",
+        "url": "https://www.news.de"
       }
     },
     {
@@ -544,12 +544,12 @@
       }
     },
     {
-      "id": "53e4142b46a4",
-      "title": "Deutsche Apotheker warnen vor Medikamentenmangel - DW.com",
+      "id": "a1af07e8188c",
+      "title": "Deutsche Apotheker warnen vor Medikamentenmangel - dw.com",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWU1xaGhwXzk2bTZMYV9pdEdESnBqWVZvSnAwXzllTkVsdXYyZTlYSzdEYjktY2FySDA2THNEWUlQend3WWp5cG9uZFo1aTJMcFFINW1ZWEg3NlVDQ2UzdkRmZldhV1JRemg4U3poczloOF9QOEhha1prQnlGZ0U5T0laMXN2ZVBY0gGIAUFVX3lxTE01Wk9oR0RESDZiM1BvOU5qZmtUYk1aNUFxWlpzU3EteXRvRDQ1anBlcG52RXJ5QWdEWjB2SHJCblZSaktVZktvRTBkYUxtYzNfQVE4YXRHajc1Nk9UQllNTkt0Vi1wVjdQTTAzSElvTDRMWXZ5TEpkLUZxRTI2QUZkMVdyRGM4YUg?oc=5",
       "published": "2025-09-14T07:00:00+00:00",
       "source": {
-        "name": "DW.com",
+        "name": "dw.com",
         "url": "https://www.dw.com"
       }
     },
@@ -714,16 +714,6 @@
       }
     },
     {
-      "id": "2724049932c7",
-      "title": "AMNOG-Report 2025: Arzneimittelausgaben steigen trotz aller Maßnahmen - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWWtSYlcwVm1LRC1SVjQzZURHTXVrYWJmN1Z3RHppaGk2b1psTEUyYlQtcmMtWTBaSDNmbDZ5T1RXTHROLTF5eVRxVHBpNlhLRThXY1dqNWdJanRDMDlmQUpSSFlfejhlRFNoZXMtMC1YWkVJV3poVjIxUUszeGdrSUpMNXZ4a0FFejFtcDEyUnRYUE9UYnU3bEl0Sk9yejg?oc=5",
-      "published": "2025-05-13T07:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "010655367a70",
       "title": "Festbeträge für Arzneimittel schnell erklärt | vfa - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaUlYWU1RcVV5LUJyN3gzdWNOUEJXMWl2SkNYMTg3bm45OEU2VS1rQTR2UXpURHRMTHNaYjRDVmJmallrRTlfamFWUHZFQnJ6V2I5SmszZy1vVmY3SEdTY1d4RUxtYktyMnFuWFA1V2dYTGxad2JHTzJud2N2dHNnUnltVjF2T0hJUGhiU2VaQ0p1U1FaMVdZ?oc=5",
@@ -731,6 +721,16 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "2724049932c7",
+      "title": "AMNOG-Report 2025: Arzneimittelausgaben steigen trotz aller Maßnahmen - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWWtSYlcwVm1LRC1SVjQzZURHTXVrYWJmN1Z3RHppaGk2b1psTEUyYlQtcmMtWTBaSDNmbDZ5T1RXTHROLTF5eVRxVHBpNlhLRThXY1dqNWdJanRDMDlmQUpSSFlfejhlRFNoZXMtMC1YWkVJV3poVjIxUUszeGdrSUpMNXZ4a0FFejFtcDEyUnRYUE9UYnU3bEl0Sk9yejg?oc=5",
+      "published": "2025-05-13T07:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
