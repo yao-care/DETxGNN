@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-12T08:52:33.953807+00:00",
+  "fetched_at": "2026-04-12T09:48:19.887803+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -54,16 +54,6 @@
       }
     },
     {
-      "id": "b5dcd836ae13",
-      "title": "Iran-Krieg: Helium ist wichtig für Pharma und Medizin – doch das Gas wird knapp - Hamburger Abendblatt",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYW5BNHBqTTFMbVdGd3FIaFlFdExkaHhwSF96bFB5WThVU0EyRWpXMjhEZ3V0a3RSajNWSVViTExrNHhaOGVJRkUwU0hZczhxZFR1cmxxckpUMUozTGRRcUx5V21DSWhCWk84OWRESFlyWEJfOTY0SWk2QXRmb1J5U1BzSW5OTFdIN29weGNuRjZudjVEV2dXVWxZb3JiZFkxUFJBT3k0dUJFUUtFZlNvSXNtNEpTWHFQbzRQdg?oc=5",
-      "published": "2026-04-11T09:56:58+00:00",
-      "source": {
-        "name": "Hamburger Abendblatt",
-        "url": "https://www.abendblatt.de"
-      }
-    },
-    {
       "id": "7c0b557fb36b",
       "title": "Gesundheitsgefahr durch gefälschte Arzneimittel - Gesundheit.gv.at",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYlhNa1drQ3UydVU1Ti1QZWxOelZ2UDNkQTBsczZ4SzVIZGhQS3psTVQ5Zmw2Ujh2RGpDYzZ5TDdIbG5mYkFjRl9CX3JkS0FHQ2dlSGVZMlpRTmpva0xOX3hoTWhTM3VoZlB6bjJYbjRRcGp2NERXZmhoaEtyeGJhUDlSU0k0cURLRzNIc1FR?oc=5",
@@ -71,6 +61,16 @@
       "source": {
         "name": "Gesundheit.gv.at",
         "url": "https://www.gesundheit.gv.at"
+      }
+    },
+    {
+      "id": "b5dcd836ae13",
+      "title": "Iran-Krieg: Helium ist wichtig für Pharma und Medizin – doch das Gas wird knapp - Hamburger Abendblatt",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYW5BNHBqTTFMbVdGd3FIaFlFdExkaHhwSF96bFB5WThVU0EyRWpXMjhEZ3V0a3RSajNWSVViTExrNHhaOGVJRkUwU0hZczhxZFR1cmxxckpUMUozTGRRcUx5V21DSWhCWk84OWRESFlyWEJfOTY0SWk2QXRmb1J5U1BzSW5OTFdIN29weGNuRjZudjVEV2dXVWxZb3JiZFkxUFJBT3k0dUJFUUtFZlNvSXNtNEpTWHFQbzRQdg?oc=5",
+      "published": "2026-04-11T09:56:58+00:00",
+      "source": {
+        "name": "Hamburger Abendblatt",
+        "url": "https://www.abendblatt.de"
       }
     },
     {
@@ -304,16 +304,6 @@
       }
     },
     {
-      "id": "57fc6c026dba",
-      "title": "Notdienst heute in Erlangen: Kontakte für Apotheken-Notdienst und Bereitschaftsärzte am Wochenende - News.de",
-      "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxOdlc4VTB5QTduMWJJYUduMktnczJTa1NTTnlJdl9hQWtPNXJNMVB2Z0ZNNGo0NlM4Mmp1SlcybUlfdGhacVNZS3BkTGZXM2tOZE12Um1FNW54ZVJmaXptQ29lMnYxTWY3WTlOX2xMM2lrZDF3TG83RVZsTWwycmNtNWlQRkh5OVZjM2NBZ0ZXV3lVNFVjblBDNzlDdmVkT3NkalpxdFFxWmZ2ZnRIUk12a2N0SklyV0s5V0UzaExubDBiNTdsZ1hWdlJVQ2toYnBVZ2haZnN3a2EtaHB1QmNOeVpRRjNYeGJKTUZ5LXlFNXlCT3FSdXk3dFdMaERrUE9mQlZtRkxkLXVtbE9UUmRKODVUbV9YelVLR0HSAZ8CQVVfeXFMTkpDUDMxZTZFSllVNTE3dWROaDl1QnpmMjFuaGdkUmRTeGR4d1BhR0MxQ3loSll4VjVBSkFBeFMwRDRwXzhTNlZGQndvZy1HMTBCREp5OHd5YUFQM0dnOXhGb002VnpnenJvMXh1SEczTFJjVUNKMWdoaHdjRkJqR3lDNEdoTUU0anVvLTBfZ1J1Qmtjcl9GRXJfeTBZVkduTno2aHhkeF9acEIxMk5GaWx5TWY0ZmEwbDZiQ0c2MktXSzBBUm82UFdyZjR6RTFEc0tDMDJ5Mk9xcmdLejA1RmRUV3B0dEVuWFRuLWNkZ2Fxc3RzcnlONFpKRjVFbmpNZE1mYjg0QUNEVDYzRE8wSzF2Y1dEaDVmNjV0bUJXeXM?oc=5",
-      "published": "2026-04-12T04:12:47+00:00",
-      "source": {
-        "name": "News.de",
-        "url": "https://www.news.de"
-      }
-    },
-    {
       "id": "b179e927347d",
       "title": "Steigende Arzneimittelkosten: Gesundheitsministerin Warken will Zugang zu neuen Medikamenten für alle erhalten - MDR",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPenF3ckVCSXl3ZmNka21FSTVtdkdoeGRZaEQ4Nnc4ZktKZk16U0ZUd19vYWRsZDdQUDZZLVFCd2k2anZScnRpSnJtXzRCbEozRm9fMEpkcVhjZ3dwT21zQVZPX2MybWdSUHBNeTZ3TmtESDFOWFNfM0lPV1Z4M3BmUTNkLTRfVGgxRUh4OWNOblh5ZGdCaUs5WXZmR2VVaVV5d1VHR1BHUFhubGtCWlFyZWk3VnhWZjdpWE9jNE5B0gHDAUFVX3lxTE1YNm5BVEExN05VeGlPeW5Hazh0ZTVFV0ZGUjNpWERheHAxSUZ3TTJGUXBZQ0F1cGdtRGQ4Zy1kbzhhNkRCd2Y4TTllaWd6ZVdTUkgxTmoyR1ZLSHhoNERNa1M0VExFOHluRzhTRWI3VjJkaGlZWTZUUXZ4bFEtVUFMaVAxMWFnYVVwa3J1TklTTjI3WnF4dkJZRFExVEFBb0NfMDVaTnBhZmU0NXFoR0FVcEhXV0dEeW1PeEl0SzdYSFNFVQ?oc=5",
@@ -321,6 +311,16 @@
       "source": {
         "name": "MDR",
         "url": "https://www.mdr.de"
+      }
+    },
+    {
+      "id": "57fc6c026dba",
+      "title": "Notdienst heute in Erlangen: Kontakte für Apotheken-Notdienst und Bereitschaftsärzte am Wochenende - News.de",
+      "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxOdlc4VTB5QTduMWJJYUduMktnczJTa1NTTnlJdl9hQWtPNXJNMVB2Z0ZNNGo0NlM4Mmp1SlcybUlfdGhacVNZS3BkTGZXM2tOZE12Um1FNW54ZVJmaXptQ29lMnYxTWY3WTlOX2xMM2lrZDF3TG83RVZsTWwycmNtNWlQRkh5OVZjM2NBZ0ZXV3lVNFVjblBDNzlDdmVkT3NkalpxdFFxWmZ2ZnRIUk12a2N0SklyV0s5V0UzaExubDBiNTdsZ1hWdlJVQ2toYnBVZ2haZnN3a2EtaHB1QmNOeVpRRjNYeGJKTUZ5LXlFNXlCT3FSdXk3dFdMaERrUE9mQlZtRkxkLXVtbE9UUmRKODVUbV9YelVLR0HSAZ8CQVVfeXFMTkpDUDMxZTZFSllVNTE3dWROaDl1QnpmMjFuaGdkUmRTeGR4d1BhR0MxQ3loSll4VjVBSkFBeFMwRDRwXzhTNlZGQndvZy1HMTBCREp5OHd5YUFQM0dnOXhGb002VnpnenJvMXh1SEczTFJjVUNKMWdoaHdjRkJqR3lDNEdoTUU0anVvLTBfZ1J1Qmtjcl9GRXJfeTBZVkduTno2aHhkeF9acEIxMk5GaWx5TWY0ZmEwbDZiQ0c2MktXSzBBUm82UFdyZjR6RTFEc0tDMDJ5Mk9xcmdLejA1RmRUV3B0dEVuWFRuLWNkZ2Fxc3RzcnlONFpKRjVFbmpNZE1mYjg0QUNEVDYzRE8wSzF2Y1dEaDVmNjV0bUJXeXM?oc=5",
+      "published": "2026-04-12T04:12:47+00:00",
+      "source": {
+        "name": "News.de",
+        "url": "https://www.news.de"
       }
     },
     {
@@ -754,12 +754,12 @@
       }
     },
     {
-      "id": "02fec1bb0a37",
-      "title": "Hoyer: SVR-Gutachten zu Arzneimittelpreisen ist wegweisend - aok.de",
+      "id": "a9bd0fe38982",
+      "title": "Hoyer: SVR-Gutachten zu Arzneimittelpreisen ist wegweisend - AOK",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5ySERsUWk1YThEZGJRazJTZnBRWGF1VWtGY0lNMzNQLXRzZWRLRnpEZXV5WFI4MjN2cy1rVzI1NzA4U1ZHRFVyMFdxaDE2TlF6bkx1ekEwTlJkWlRtbGxCalpLZVZwblZtWUw2OU10Yw?oc=5",
       "published": "2025-05-22T07:00:00+00:00",
       "source": {
-        "name": "aok.de",
+        "name": "AOK",
         "url": "https://www.aok.de"
       }
     },
@@ -804,12 +804,12 @@
       }
     },
     {
-      "id": "ad1452a52b30",
-      "title": "Sachverständigenrat empfiehlt striktere Preisbildung für neue Medikamente - AerzteZeitung.de",
+      "id": "62f259fc4366",
+      "title": "Sachverständigenrat empfiehlt striktere Preisbildung für neue Medikamente - Ärzte Zeitung",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQbFpMUlFqcjc2bHhaUE9selBEQUNHV1p2QXVsb0NhX0dDWGNnWmJSSWFHR1FGNkMtVEFpX1RBcUxFRXNSOHdQa0pyT0trUm5HRkRXaHdWX18xNnJqUEhNM250dlJ4T1dsb3VvVnFIa21ZbzRGSzNCdm94Mm1ndHhVWWF0T2tveHhtNFM0bjdLTEZlNjNLOVNoRTFWWTJ6aVY5bzBXZVNqZXhYUTUzd0xQSE5KVjBfeXJ6ZExDOTFn?oc=5",
       "published": "2025-05-22T07:00:00+00:00",
       "source": {
-        "name": "AerzteZeitung.de",
+        "name": "Ärzte Zeitung",
         "url": "https://www.aerztezeitung.de"
       }
     },
