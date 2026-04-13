@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-13T21:52:38.647577+00:00",
+  "fetched_at": "2026-04-13T22:45:54.384763+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -84,12 +84,12 @@
       }
     },
     {
-      "id": "984ab5b75d87",
-      "title": "Gesundheitsgefahr durch gefälschte Arzneimittel - Gesundheitsportal",
+      "id": "7c0b557fb36b",
+      "title": "Gesundheitsgefahr durch gefälschte Arzneimittel - Gesundheit.gv.at",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYlhNa1drQ3UydVU1Ti1QZWxOelZ2UDNkQTBsczZ4SzVIZGhQS3psTVQ5Zmw2Ujh2RGpDYzZ5TDdIbG5mYkFjRl9CX3JkS0FHQ2dlSGVZMlpRTmpva0xOX3hoTWhTM3VoZlB6bjJYbjRRcGp2NERXZmhoaEtyeGJhUDlSU0k0cURLRzNIc1FR?oc=5",
       "published": "2026-03-09T07:00:00+00:00",
       "source": {
-        "name": "Gesundheitsportal",
+        "name": "Gesundheit.gv.at",
         "url": "https://www.gesundheit.gv.at"
       }
     },
@@ -134,16 +134,6 @@
       }
     },
     {
-      "id": "b582b540c6d8",
-      "title": "Zwei Millionen Downloads: mediteo erreicht Meilenstein in der digitalen Medikationsbegleitung - openPR.de",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNNzVLcmluc3FKNUpfbXhTSnpxSVcyTGZyc2tlVXJ3MHVHdVZCemRZSnBiQmJSSWVPeldDdlc0WnN3aVFnQlFfakgzR0FRZ1RHWXpJeXNfWDhtZnZZTW9Vd0RWeVY1bTZ0V1p2QkZudzNlWW1YMFlMWXctYmwycmlBLUN1VncxY0J0VGl3YmdGVngtZ3NGX054U1ZGTjgxcHpySTZZN1hqR1FIck9OR0tLU19ldHAzbzBManVmRHNJNFZLMjBxd0ViSHVDb3c?oc=5",
-      "published": "2026-04-13T08:54:00+00:00",
-      "source": {
-        "name": "openPR.de",
-        "url": "https://www.openpr.de"
-      }
-    },
-    {
       "id": "2721457d2f52",
       "title": "Marktbericht: dm steigt in den Gesundheitsmarkt ein - tagesschau.de",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNd0RWVjQ1MFJ3RDJCdFRnZ3Z1RUU4YThkS1F2bnowNnZBQWk1QlIxdWNtMFN6a19KWWlhTnFyVUNRSGNLanRyR01ZM0lxSG1HRFBqQ3l3QXBMR1F6UU43X29oLTZEODQ1TktKWmhOVVR4YW10YWY1Qm5JZlZoLU8tMlhDYw?oc=5",
@@ -151,6 +141,16 @@
       "source": {
         "name": "tagesschau.de",
         "url": "https://www.tagesschau.de"
+      }
+    },
+    {
+      "id": "b582b540c6d8",
+      "title": "Zwei Millionen Downloads: mediteo erreicht Meilenstein in der digitalen Medikationsbegleitung - openPR.de",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNNzVLcmluc3FKNUpfbXhTSnpxSVcyTGZyc2tlVXJ3MHVHdVZCemRZSnBiQmJSSWVPeldDdlc0WnN3aVFnQlFfakgzR0FRZ1RHWXpJeXNfWDhtZnZZTW9Vd0RWeVY1bTZ0V1p2QkZudzNlWW1YMFlMWXctYmwycmlBLUN1VncxY0J0VGl3YmdGVngtZ3NGX054U1ZGTjgxcHpySTZZN1hqR1FIck9OR0tLU19ldHAzbzBManVmRHNJNFZLMjBxd0ViSHVDb3c?oc=5",
+      "published": "2026-04-13T08:54:00+00:00",
+      "source": {
+        "name": "openPR.de",
+        "url": "https://www.openpr.de"
       }
     },
     {
@@ -254,16 +254,6 @@
       }
     },
     {
-      "id": "d41a7d712f98",
-      "title": "Notdienstreform: Ärzte sollen in Praxen Akutmedikamente abgeben dürfen - Hasepost",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOanhVN0tUajUxQ3pmQmtfZU5waU1aY3ByMG5kY0FuaWpZTkRGM0F6S2dUQVdYeW1NWVdBWFV2SUdjeUowaEdiMUc3TGNBbTluUThGSWFVRmdhU0otSDhrTENmSXh3NTBPWHViZk9KUGZRS193RDJLUUx5NUgtZlNaYWhmVGNTVm9QN1EtSFp6UWNtNUFuSGsyblc3ZnNNYnMt?oc=5",
-      "published": "2026-04-13T02:09:03+00:00",
-      "source": {
-        "name": "Hasepost",
-        "url": "https://hasepost.de"
-      }
-    },
-    {
       "id": "31d3ca676d9a",
       "title": "Medikamenteneinnahme: Das ist zu beachten - BARMER",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPckl0VXNEVndBN3FKUlI2RTRFLTlTR1ppNHJlMUNXSkJwLUFhczlsMWUxOGhBUV84eXFnSHhVdFBrU1c2eWcydmNLTzBrOGRrOE9VTW1DYkdvYmJTSml5Vng3RmM4Qy11NzhNZkdYOFhNNFh5SFBKWkRIUl9WZHViaWdUMzNUbGdWU2QtZ09JdldBUDIzLWc?oc=5",
@@ -274,16 +264,6 @@
       }
     },
     {
-      "id": "fcc12f4d2c22",
-      "title": "Geheimsache Krebs: Ein Wunder-Medikament und seine Schattenseiten - profil.at",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRXdfRkFWbU9IR0Z5NEZPclNyTktxLVlDQWI3YTRXTDdwbHREWXh3WGZvRElPZ1dVQ0pPN24tUDEyN0NaLWxzcnNzU0x4dG9SZ3NselJXTGhGOE00U3pEQUJ3R1d2eUZTVGd2T0VYS1RHSzhFRHlVWmVIR1JQdkNnUTRtYVQ2OVNxQ3lOMmxSMFVXVjNzaFFYTzN2NHZGMVl6clBKOTAtYVFmVHNHeVE?oc=5",
-      "published": "2026-04-13T04:39:01+00:00",
-      "source": {
-        "name": "profil.at",
-        "url": "https://www.profil.at"
-      }
-    },
-    {
       "id": "842e7f613a7b",
       "title": "Gesundheitsvorsorge - Arzneimittel-Überwachung - schleswig-holstein.de",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOeE80cXNlV3RkMlM5WUhkbVM5amVOZy0zdm9LMlN6dS1IRlVjMDJzcW9GWF9SMmdUUVd5dDJ0THpRejN5emROc180bmNuQjlGVWUwdE9mSFdHMUJyLVRfcTJoSHBRWDlFZ2tvSFlCNGtMTnpIV2dLQk5uMzY4YWY1U0N6cVdmdmdaVEoyTnlXc2x3bFNJT3NfckhVa1ZfZExJLVZRaXZEaW1abVVVQWVXTWg4MTg4WEU2bDFBaw?oc=5",
@@ -291,6 +271,16 @@
       "source": {
         "name": "schleswig-holstein.de",
         "url": "https://www.schleswig-holstein.de"
+      }
+    },
+    {
+      "id": "d41a7d712f98",
+      "title": "Notdienstreform: Ärzte sollen in Praxen Akutmedikamente abgeben dürfen - Hasepost",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOanhVN0tUajUxQ3pmQmtfZU5waU1aY3ByMG5kY0FuaWpZTkRGM0F6S2dUQVdYeW1NWVdBWFV2SUdjeUowaEdiMUc3TGNBbTluUThGSWFVRmdhU0otSDhrTENmSXh3NTBPWHViZk9KUGZRS193RDJLUUx5NUgtZlNaYWhmVGNTVm9QN1EtSFp6UWNtNUFuSGsyblc3ZnNNYnMt?oc=5",
+      "published": "2026-04-13T02:09:03+00:00",
+      "source": {
+        "name": "Hasepost",
+        "url": "https://hasepost.de"
       }
     },
     {
@@ -454,16 +444,6 @@
       }
     },
     {
-      "id": "a99104aa325d",
-      "title": "Mediziner enfrenta gigante farmacêutico: Arzneimittel-Potenzierung entfacht Konflikt - DIÁRIO DO ESTADO",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZXRrcmlaUnUwN2xlRG5nMU1PbE1TRnZxX0x1NDU2US1YVk44a3M2LTdIcnRtNGJfcWtxMFRkZFlFN0tEUmZEWEVhTUxTcGRkeFpwNG9vOVpFU1RtanN4enR5dUJJWkwtUVJCeGZoSnBORzRmOEdfLWZ6dDE1SHllb2hrdWswSDJpdWM4Y21SXzVWMWktaDRmMlcweDRYaG15alhIU3ZHZERpeDdueUUtb2tGYjk2TjhiZWMxQUN0dks?oc=5",
-      "published": "2026-04-13T09:02:30+00:00",
-      "source": {
-        "name": "DIÁRIO DO ESTADO",
-        "url": "https://diariodoestadogo.com.br"
-      }
-    },
-    {
       "id": "7bc3d2d9e674",
       "title": "Diskussionsrunde : Teure Orphan Drugs setzen GKV unter Druck - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMm9GbF9MdlR1T05IVU9La29FSnJzYmpWYTNqNW05eHVvMW1OVTdOX3FMaHhPT2JuUExjdkV6Zlg1NUh6WHEzS3RkQmhFLUVKWllJa2IxdDBacXl5SDZsbzc1YXY3TnIzYUpjalNfaDl6dnE2YUV0eGt1cWd0OTBiVVNYYzIzMEUybmdDRjZGQ3ZKZw?oc=5",
@@ -471,6 +451,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "a99104aa325d",
+      "title": "Mediziner enfrenta gigante farmacêutico: Arzneimittel-Potenzierung entfacht Konflikt - DIÁRIO DO ESTADO",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZXRrcmlaUnUwN2xlRG5nMU1PbE1TRnZxX0x1NDU2US1YVk44a3M2LTdIcnRtNGJfcWtxMFRkZFlFN0tEUmZEWEVhTUxTcGRkeFpwNG9vOVpFU1RtanN4enR5dUJJWkwtUVJCeGZoSnBORzRmOEdfLWZ6dDE1SHllb2hrdWswSDJpdWM4Y21SXzVWMWktaDRmMlcweDRYaG15alhIU3ZHZERpeDdueUUtb2tGYjk2TjhiZWMxQUN0dks?oc=5",
+      "published": "2026-04-13T09:02:30+00:00",
+      "source": {
+        "name": "DIÁRIO DO ESTADO",
+        "url": "https://diariodoestadogo.com.br"
       }
     },
     {
@@ -834,16 +824,6 @@
       }
     },
     {
-      "id": "2c4dfa0818af",
-      "title": "Medikamente ohne Zusatznutzen: Werden Arzneimittelpreise zum Geheimnis? - tagesschau.de",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYWJENElFYXhtTWZMMVJoOU5iMHQwMV9HMVN1Y2NuMm9FVzlJODNKVG5ydWZXeEJTUTBPVHRmaDZaR1huMy1VUVdtUWg5TGtqWmxJV0p5RVFIZ0xqQnppeklhMHhFRmNKdTl3Y0daTzFSXzRXUkpTRlRmUXptZkdMMmZTX18zbjlJQW1xMDNyR0dIN2NYUDI1OTIweGNDcWdSa0JZZkNn?oc=5",
-      "published": "2024-06-13T07:00:00+00:00",
-      "source": {
-        "name": "tagesschau.de",
-        "url": "https://www.tagesschau.de"
-      }
-    },
-    {
       "id": "e165db49bd1e",
       "title": "Gesundheitsunion: Arzneimittel müssen leichter zugänglich und bezahlbar sein - European Parliament",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNNWpzcFFkaHNFUFhibEtnVGktREZqYTBLVGhrdUw2eGxPdU93Q3cyR2xTWGtsT3VEV3RWMGsxQkVONXROc1FITnNvZHF4dDBwN1JpOWl5UllsTl9ZSWZ2dmxZTXVkeWFVdi1QMDI0aURoTFczUjFTLS1qQVVpVzgtNDVhT2RhbGktRzlseW9Wb0tnd29xWUJwZm5UNjRfRWxEOWcyOWxoLTk4NjFKV19QRDJJYUtRUTI0ckdWY1phMEpzM3Q5U0JJY2xibVdLcTlSb1o5eDN3T0VvUQ?oc=5",
@@ -851,6 +831,16 @@
       "source": {
         "name": "European Parliament",
         "url": "https://www.europarl.europa.eu"
+      }
+    },
+    {
+      "id": "2c4dfa0818af",
+      "title": "Medikamente ohne Zusatznutzen: Werden Arzneimittelpreise zum Geheimnis? - tagesschau.de",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYWJENElFYXhtTWZMMVJoOU5iMHQwMV9HMVN1Y2NuMm9FVzlJODNKVG5ydWZXeEJTUTBPVHRmaDZaR1huMy1VUVdtUWg5TGtqWmxJV0p5RVFIZ0xqQnppeklhMHhFRmNKdTl3Y0daTzFSXzRXUkpTRlRmUXptZkdMMmZTX18zbjlJQW1xMDNyR0dIN2NYUDI1OTIweGNDcWdSa0JZZkNn?oc=5",
+      "published": "2024-06-13T07:00:00+00:00",
+      "source": {
+        "name": "tagesschau.de",
+        "url": "https://www.tagesschau.de"
       }
     },
     {
@@ -1001,6 +991,16 @@
       "source": {
         "name": "tagesschau.de",
         "url": "https://www.tagesschau.de"
+      }
+    },
+    {
+      "id": "cbf5bfab836c",
+      "title": "Gesundheit: Apotheker warnen vor Medikamentenmangel in der Erkältungssaison - DIE ZEIT",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMkcwTzBhbEs3YzVGUEhuMEZVdmZIQTVBV3ozand0aTNhNkpsazlJaGR2Q1VnMHhiWUd2ZEJKWjY0RjFYYnZsTzhmR2UxNVdQVnc3UXpOSUExNlRtZmVPZDBneHVILW1vVlVTS0ZTaFotNUFEMzREZmowYXJ3S0VzMWVZc0pPb3ByQ3ZWRXFpU0RmOEQ3b3dlV2Z3?oc=5",
+      "published": "2024-09-20T07:00:00+00:00",
+      "source": {
+        "name": "DIE ZEIT",
+        "url": "https://www.zeit.de"
       }
     }
   ]
