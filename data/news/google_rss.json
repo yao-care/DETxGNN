@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-14T19:19:41.795595+00:00",
+  "fetched_at": "2026-04-14T20:57:09.113949+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -54,16 +54,6 @@
       }
     },
     {
-      "id": "1403ba1442fa",
-      "title": "Darum solltest du am besten nie Medikamente im Internet bestellen - Watson",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbUVaSmpJaVRmRG54VloyamwwNHBvb09mSllSTFQxejNCYkM4dmtoVEh0dk5qR0NOOVRlOERLWlhNNnVsVTh6RTRnTUlzbWdwNHBLTjVTTmctMHZITHpuM3RybTN2TU41LTFlSjFlalcxS3hndVowV0NUQVVsUjVrNXhOem92NFZsQ2hlZnRsV1VlRW4wYUJLVGRHY2stUDhWQnl0OTVHRVgweHNCaS12V3Z2MVhUb2hZUVE?oc=5",
-      "published": "2026-04-14T17:35:18+00:00",
-      "source": {
-        "name": "Watson",
-        "url": "https://www.watson.ch"
-      }
-    },
-    {
       "id": "7960bf3ef0f7",
       "title": "Krebsmedikament: Meistverkauftes Krebsmittel wird offenbar viel zu teuer verkauft - DIE ZEIT",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZUdKR1hQcHVBS3JEX3dma19JcW5GTmlCcmxGRmpKbHFwZzduVkpReEh1RnFiOUM2amRvRGl4Z0tDellhTUc1bzU1cl82T3J0N1hnYnVDZF9ERlpxU3JobkphRmRjVk55cjRUZ0tkTlFTZmRSYm0tQVpYSzBtb2xNclVkelpWaTJ5UXQ4TVNoUVFoeVd5RkpqanJqMWpmdw?oc=5",
@@ -71,6 +61,16 @@
       "source": {
         "name": "DIE ZEIT",
         "url": "https://www.zeit.de"
+      }
+    },
+    {
+      "id": "1403ba1442fa",
+      "title": "Darum solltest du am besten nie Medikamente im Internet bestellen - Watson",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbUVaSmpJaVRmRG54VloyamwwNHBvb09mSllSTFQxejNCYkM4dmtoVEh0dk5qR0NOOVRlOERLWlhNNnVsVTh6RTRnTUlzbWdwNHBLTjVTTmctMHZITHpuM3RybTN2TU41LTFlSjFlalcxS3hndVowV0NUQVVsUjVrNXhOem92NFZsQ2hlZnRsV1VlRW4wYUJLVGRHY2stUDhWQnl0OTVHRVgweHNCaS12V3Z2MVhUb2hZUVE?oc=5",
+      "published": "2026-04-14T15:15:49+00:00",
+      "source": {
+        "name": "Watson",
+        "url": "https://www.watson.ch"
       }
     },
     {
@@ -144,13 +144,13 @@
       }
     },
     {
-      "id": "b69b57064071",
-      "title": "DAK-Gesundheit will Kassenfinanzen durch mehr Wettbewerb bei Arzneimitteln stärken – News - Deutsches Ärzteblatt",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNSFVfMENtRmFjWDdSNjR1YWRjZzBlLTRIY3d4WEZKOXRVYlNmeFA1UmVaM1MtTjVjaXUyRVhmYTJ3NU5fQmZfdktXRXRkN054Rmh5d3FuNXRodHZDd1ZkcFE3YWxLWXFiQlF0MzRXcjd5d2pWcVpxTDdpdVdmZUVhSlU0S0pZWXFENTBwNnZIb3dTWkQ4eG9lQWstRjBjOEZQYThlLTFVbXJQVXp4ajBuSTNWb1M4TkxZMjAzX3ZwZGVwaGREbkNhSTUyVkJrVGlwM2pwYXdlX1pPVGRLWkcwV1dBeEVZdw?oc=5",
-      "published": "2026-03-16T07:00:00+00:00",
+      "id": "7c0b557fb36b",
+      "title": "Gesundheitsgefahr durch gefälschte Arzneimittel - Gesundheit.gv.at",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYlhNa1drQ3UydVU1Ti1QZWxOelZ2UDNkQTBsczZ4SzVIZGhQS3psTVQ5Zmw2Ujh2RGpDYzZ5TDdIbG5mYkFjRl9CX3JkS0FHQ2dlSGVZMlpRTmpva0xOX3hoTWhTM3VoZlB6bjJYbjRRcGp2NERXZmhoaEtyeGJhUDlSU0k0cURLRzNIc1FR?oc=5",
+      "published": "2026-03-09T07:00:00+00:00",
       "source": {
-        "name": "Deutsches Ärzteblatt",
-        "url": "https://www.aerzteblatt.de"
+        "name": "Gesundheit.gv.at",
+        "url": "https://www.gesundheit.gv.at"
       }
     },
     {
@@ -204,13 +204,23 @@
       }
     },
     {
-      "id": "7c0b557fb36b",
-      "title": "Gesundheitsgefahr durch gefälschte Arzneimittel - Gesundheit.gv.at",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYlhNa1drQ3UydVU1Ti1QZWxOelZ2UDNkQTBsczZ4SzVIZGhQS3psTVQ5Zmw2Ujh2RGpDYzZ5TDdIbG5mYkFjRl9CX3JkS0FHQ2dlSGVZMlpRTmpva0xOX3hoTWhTM3VoZlB6bjJYbjRRcGp2NERXZmhoaEtyeGJhUDlSU0k0cURLRzNIc1FR?oc=5",
-      "published": "2026-03-09T07:00:00+00:00",
+      "id": "b69b57064071",
+      "title": "DAK-Gesundheit will Kassenfinanzen durch mehr Wettbewerb bei Arzneimitteln stärken – News - Deutsches Ärzteblatt",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNSFVfMENtRmFjWDdSNjR1YWRjZzBlLTRIY3d4WEZKOXRVYlNmeFA1UmVaM1MtTjVjaXUyRVhmYTJ3NU5fQmZfdktXRXRkN054Rmh5d3FuNXRodHZDd1ZkcFE3YWxLWXFiQlF0MzRXcjd5d2pWcVpxTDdpdVdmZUVhSlU0S0pZWXFENTBwNnZIb3dTWkQ4eG9lQWstRjBjOEZQYThlLTFVbXJQVXp4ajBuSTNWb1M4TkxZMjAzX3ZwZGVwaGREbkNhSTUyVkJrVGlwM2pwYXdlX1pPVGRLWkcwV1dBeEVZdw?oc=5",
+      "published": "2026-03-16T07:00:00+00:00",
       "source": {
-        "name": "Gesundheit.gv.at",
-        "url": "https://www.gesundheit.gv.at"
+        "name": "Deutsches Ärzteblatt",
+        "url": "https://www.aerzteblatt.de"
+      }
+    },
+    {
+      "id": "8498c03392a5",
+      "title": "Zuzahlungen gesetzlich Versicherter deutlich gestiegen - STERN.de",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVEc4OHNGUDlnejhVdENjZHJtamtxMHp2VzcwOHozdVM2cEdmc05CQktHYkNRd2phaWJPX2szaHJ6MWdqM09UeHNneURQVWlrZml5Q3FtaXMxOG9wSDhrdVpiQUJRN29yczJDWjBNSGtURGJlYUdlYTVJNTk4NVFMYUxva3V5RWFYZ21RYTZLekZtQzI2bTdZdnVR?oc=5",
+      "published": "2026-04-13T13:53:00+00:00",
+      "source": {
+        "name": "STERN.de",
+        "url": "https://www.stern.de"
       }
     },
     {
@@ -224,6 +234,16 @@
       }
     },
     {
+      "id": "b9464baea20f",
+      "title": "Gesundheit - Auch SoVD fordert Maßnahmen gegen steigende Arzneimittelpreise - Deutschlandfunk",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNmF3c1ZhS2dyTG9MdkxYcjU4OHB6ZU8yNExEbkpFYVpBZWRfeDFWN3BHOS0wdVNheXF5Tzh0bGoxeTZONGw1R001LVNCWlI0UTNsNHo2cGFjbEw0V3B4dmZIbUVxYnhfb25tRDF6SXhvVUtZN0ZkaVFTZnZMYUg1MEZ2X0YwQ1hvWG54eTNVb09sNXlxUzd3cHVmdWJJbEJiNlI1ZjdB?oc=5",
+      "published": "2026-03-18T07:00:00+00:00",
+      "source": {
+        "name": "Deutschlandfunk",
+        "url": "https://www.deutschlandfunk.de"
+      }
+    },
+    {
       "id": "40e4bca4ef7b",
       "title": "Notdienst heute in Wolfsburg: Welche Apotheken und Ärzte haben am Dienstag Bereitschaft? - News.de",
       "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQV0xBMlZzQlF1VGRoaU5DZmJPYmQxUHotYTFlT25taE9fczhYTEs2QlNScnVVU183R0x2Vk91NEs1TVNpMmlCLUFkNnRpaHIwcGVmYm5jUkFKS0FjTkdJOFBMNlVjdkZqN1Zwc2Y5Yjc0Y1JROGh1dFdyRzZzQUtHTGMzdzhQeHBaV1lkUjcwVXpfV0xveTdBbWNELVhLQ240T1M1ZnYxd0NHQXZjMVJzNVBUaUxkb2Z6WURlbjQzT1Y1RkZsamxsSHc4N1VkTGdtSVQ5TDhIMXZ0MmVtSUs3LVlEdU82bmRSQzZpYVhlTnlvTXI4SHl4UjZON3M0aGJXdldjVS1UTElfSzJX0gGSAkFVX3lxTFB3Wkx1d0VfdUx6V2pDYUVFQ2FDaG5xd2Rmbml3bDJKX19tSW1RaTc3T2hsa2d1U0FkNjJIa1M5anNjS3p0QmJOM3pWQXkyMU9qRXVNYnNNcVpnM21TbkF3YnppdzBrbG9JZXlEdUZOMGZLNkJfbjd2UFc5VXRNbW8wQ3ZiM3pkWnpJZnRjc2F5MnpEME0yQWVibEt1aGtheFRxU0xaUF96bkgxaEx5TkE1X3gxRGFPaTczM3VYY2d1WVRCS25NTUdzZDI1alJHekpHalhEWHVtc0VxajJldXpqY1VzNEdFcXM0U0xTOG90QnEtNDNWRkJsQmFuSjBEZ3RnRldXOTQybEtiblZ3cS1QQVE?oc=5",
@@ -231,16 +251,6 @@
       "source": {
         "name": "News.de",
         "url": "https://www.news.de"
-      }
-    },
-    {
-      "id": "8498c03392a5",
-      "title": "Zuzahlungen gesetzlich Versicherter deutlich gestiegen - STERN.de",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVEc4OHNGUDlnejhVdENjZHJtamtxMHp2VzcwOHozdVM2cEdmc05CQktHYkNRd2phaWJPX2szaHJ6MWdqM09UeHNneURQVWlrZml5Q3FtaXMxOG9wSDhrdVpiQUJRN29yczJDWjBNSGtURGJlYUdlYTVJNTk4NVFMYUxva3V5RWFYZ21RYTZLekZtQzI2bTdZdnVR?oc=5",
-      "published": "2026-04-13T13:53:00+00:00",
-      "source": {
-        "name": "STERN.de",
-        "url": "https://www.stern.de"
       }
     },
     {
@@ -264,13 +274,13 @@
       }
     },
     {
-      "id": "b9464baea20f",
-      "title": "Gesundheit - Auch SoVD fordert Maßnahmen gegen steigende Arzneimittelpreise - Deutschlandfunk",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNmF3c1ZhS2dyTG9MdkxYcjU4OHB6ZU8yNExEbkpFYVpBZWRfeDFWN3BHOS0wdVNheXF5Tzh0bGoxeTZONGw1R001LVNCWlI0UTNsNHo2cGFjbEw0V3B4dmZIbUVxYnhfb25tRDF6SXhvVUtZN0ZkaVFTZnZMYUg1MEZ2X0YwQ1hvWG54eTNVb09sNXlxUzd3cHVmdWJJbEJiNlI1ZjdB?oc=5",
-      "published": "2026-03-18T07:00:00+00:00",
+      "id": "1b69397f563d",
+      "title": "(S+) David gegen Goliath: Ein Krebsmediziner legt sich mit einem globalen Pharmariesen an - Spiegel",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQQW9lWjA4WUZSWkpyeTVOU3RKQzBuS1NNWFFlZklpQWJpMGxRTVc1WDdvWjJoWTNPS2xDTm5FUktEbm5ZcWV2YXkwRkwzampLSHE2amhsdDAxYUI3amItNlp0eGh6a01OaWd3SzlxZzNabGQ2Q1o3TFRLd3h4MjB1Ukw5X20xaGxBMWtyR2Y2aGVtNVJMSVdGRkVRSDU0TVl6UEdWbjNMNEM3RHBjcVIxcURqR0VuYkpOakxLb290RjJEampmcVBWZ09lR1RBNTEwbVd6dGJ1Yjk5bVB0b1JfS2MwMnVRcUtD?oc=5",
+      "published": "2026-04-13T08:44:00+00:00",
       "source": {
-        "name": "Deutschlandfunk",
-        "url": "https://www.deutschlandfunk.de"
+        "name": "Spiegel",
+        "url": "https://www.spiegel.de"
       }
     },
     {
@@ -284,16 +294,6 @@
       }
     },
     {
-      "id": "d41a7d712f98",
-      "title": "Notdienstreform: Ärzte sollen in Praxen Akutmedikamente abgeben dürfen - Hasepost",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOanhVN0tUajUxQ3pmQmtfZU5waU1aY3ByMG5kY0FuaWpZTkRGM0F6S2dUQVdYeW1NWVdBWFV2SUdjeUowaEdiMUc3TGNBbTluUThGSWFVRmdhU0otSDhrTENmSXh3NTBPWHViZk9KUGZRS193RDJLUUx5NUgtZlNaYWhmVGNTVm9QN1EtSFp6UWNtNUFuSGsyblc3ZnNNYnMt?oc=5",
-      "published": "2026-04-13T02:09:03+00:00",
-      "source": {
-        "name": "Hasepost",
-        "url": "https://hasepost.de"
-      }
-    },
-    {
       "id": "ebf464ca6904",
       "title": "Gesundheit - GKV-Chef: \"Mehr gegen steigende Arzneimittelpreise tun\" - Deutschlandfunk",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdXlzU1VBOUhWa05wcTVDNnBBdHRkeDl5TnZ1S1A3T0swT2pKTjZlaU1pempxQVJkMXMySXBtd2xpaUk5WWN4Q1VyakdMbnN2eF9mRncxakUwN21WbGFQMWpuR2VoOG1tUDYtWERUbS1LSVpOdUNaTE1SWmhDSkVUdTlubVNEWGNtUXNaYk5tcTJibTRDZTJv?oc=5",
@@ -301,6 +301,16 @@
       "source": {
         "name": "Deutschlandfunk",
         "url": "https://www.deutschlandfunk.de"
+      }
+    },
+    {
+      "id": "d41a7d712f98",
+      "title": "Notdienstreform: Ärzte sollen in Praxen Akutmedikamente abgeben dürfen - Hasepost",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOanhVN0tUajUxQ3pmQmtfZU5waU1aY3ByMG5kY0FuaWpZTkRGM0F6S2dUQVdYeW1NWVdBWFV2SUdjeUowaEdiMUc3TGNBbTluUThGSWFVRmdhU0otSDhrTENmSXh3NTBPWHViZk9KUGZRS193RDJLUUx5NUgtZlNaYWhmVGNTVm9QN1EtSFp6UWNtNUFuSGsyblc3ZnNNYnMt?oc=5",
+      "published": "2026-04-13T02:09:03+00:00",
+      "source": {
+        "name": "Hasepost",
+        "url": "https://hasepost.de"
       }
     },
     {
@@ -321,6 +331,16 @@
       "source": {
         "name": "NDR.de",
         "url": "https://www.ndr.de"
+      }
+    },
+    {
+      "id": "fcc12f4d2c22",
+      "title": "Geheimsache Krebs: Ein Wunder-Medikament und seine Schattenseiten - profil.at",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRXdfRkFWbU9IR0Z5NEZPclNyTktxLVlDQWI3YTRXTDdwbHREWXh3WGZvRElPZ1dVQ0pPN24tUDEyN0NaLWxzcnNzU0x4dG9SZ3NselJXTGhGOE00U3pEQUJ3R1d2eUZTVGd2T0VYS1RHSzhFRHlVWmVIR1JQdkNnUTRtYVQ2OVNxQ3lOMmxSMFVXVjNzaFFYTzN2NHZGMVl6clBKOTAtYVFmVHNHeVE?oc=5",
+      "published": "2026-04-13T04:39:01+00:00",
+      "source": {
+        "name": "profil.at",
+        "url": "https://www.profil.at"
       }
     },
     {
@@ -714,16 +734,6 @@
       }
     },
     {
-      "id": "1fa19880efe2",
-      "title": "Arzneimittelengpässe: Rechnungshof sieht Risiko für Medikamentenengpässe in der EU - DIE ZEIT",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNejgweWNVRGltRU1FaUMtRF92NTF6czFQUGltbGp3TG9DM09seC1BSlM2eHgwaXNQaGl6R0hvWm9FdzRsbEZNVW4wUV9GM3p2eGtWeUUxQzBCbFNibE5MaFM2YTh3OG5UeHFwdV9oOHgzbUdUS2FYOUJyVmtaZzlLR2VkOV9mRklPSFlXZ2llR3Z6RG5Ra19uR2dpWEM?oc=5",
-      "published": "2025-09-17T07:00:00+00:00",
-      "source": {
-        "name": "DIE ZEIT",
-        "url": "https://www.zeit.de"
-      }
-    },
-    {
       "id": "eabdf461cf2c",
       "title": "Krankheiten in Entwicklungsländern: Von AIDS bis Malaria - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNajlZV3pZZ21RVEpqY3NRbmEzdnVfOVNfS2ppem8yaGN5dHRyTG4xZzhHZ3JHdXhNREZQM2g4V0xEbE5XWXRKMWl4aERONXh5YVd4R1BuVkg3VlVFQzJqcEhWakVwd1pnN3BCNW5GX2ZxVUtIRWJyU3BDYTlaMkpVYjRwZTZJS1RmTTZvZ1FaZ2FiU2hkZ29TczJwdUtpOVA2X0oydkRRamhadmhxN00yT0ZHZVdxS1ZiT09lMGEzS3RFUjdnV0VfT0JtampJaUYyMk44WUEtaGp3SmNsM3pFdGRtWFBnQTZZR29uRHc0a2NXUkhG?oc=5",
@@ -731,6 +741,16 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "1fa19880efe2",
+      "title": "Arzneimittelengpässe: Rechnungshof sieht Risiko für Medikamentenengpässe in der EU - DIE ZEIT",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNejgweWNVRGltRU1FaUMtRF92NTF6czFQUGltbGp3TG9DM09seC1BSlM2eHgwaXNQaGl6R0hvWm9FdzRsbEZNVW4wUV9GM3p2eGtWeUUxQzBCbFNibE5MaFM2YTh3OG5UeHFwdV9oOHgzbUdUS2FYOUJyVmtaZzlLR2VkOV9mRklPSFlXZ2llR3Z6RG5Ra19uR2dpWEM?oc=5",
+      "published": "2025-09-17T07:00:00+00:00",
+      "source": {
+        "name": "DIE ZEIT",
+        "url": "https://www.zeit.de"
       }
     },
     {
@@ -974,16 +994,6 @@
       }
     },
     {
-      "id": "3ad94926f708",
-      "title": "EU-Kommission lässt Arzneimittel gegen Alzheimer zu - Gesundheit - SZ.de - SZ.de",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBhcTZZOEpfWjNQNUozZTNyaEM3VHFPX3R1bDVCTTkxQ2kweEY2d0poZThIbFVXalBGYVh0MzNjS0U2U3c5UFlWeHRPa1NFeWxBZVl3SWVUWTVMbWlTOFlHdmJsdWM2ZDYxUEZGS0lCNktEZlMzNW5PRDkxWQ?oc=5",
-      "published": "2025-04-15T07:00:00+00:00",
-      "source": {
-        "name": "SZ.de",
-        "url": "https://www.sueddeutsche.de"
-      }
-    },
-    {
       "id": "4dc2e2d2b7a9",
       "title": "Arzneimitteltherapiesicherheit: Medikationsmanagement noch sicherer gestalten - Deutsches Ärzteblatt",
       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPRjhzV3J1RDVZemFpejZPRm54SWVyZ0JpeGE2NkJHNzg2aFNSbXdoeG8xM1N1SXVZOWZzUFExSE5TWWNrMWlnNERta2I1R25zNjRYajd4UnplckhYNGpzUWlJX29DZkFtcHY3MVlWS0ZyVk5IbWh5QTNrcGtId3ZZUW9iVHB2NWpzbTlEQWZ6ZmUtbUllZFBrTGZrVkVRbVpqdG1pMnB1dEVlcDJCYnlndG9ZNld4VWNoZ0dRV3I1bzV1RkRiRjhDcWJPRk9SNnV5YTV1dmdpM0cwNWpHUFNPag?oc=5",
@@ -991,16 +1001,6 @@
       "source": {
         "name": "Deutsches Ärzteblatt",
         "url": "https://www.aerzteblatt.de"
-      }
-    },
-    {
-      "id": "cbf5bfab836c",
-      "title": "Gesundheit: Apotheker warnen vor Medikamentenmangel in der Erkältungssaison - DIE ZEIT",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMkcwTzBhbEs3YzVGUEhuMEZVdmZIQTVBV3ozand0aTNhNkpsazlJaGR2Q1VnMHhiWUd2ZEJKWjY0RjFYYnZsTzhmR2UxNVdQVnc3UXpOSUExNlRtZmVPZDBneHVILW1vVlVTS0ZTaFotNUFEMzREZmowYXJ3S0VzMWVZc0pPb3ByQ3ZWRXFpU0RmOEQ3b3dlV2Z3?oc=5",
-      "published": "2024-09-20T07:00:00+00:00",
-      "source": {
-        "name": "DIE ZEIT",
-        "url": "https://www.zeit.de"
       }
     }
   ]
