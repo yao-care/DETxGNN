@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-14T07:50:26.439917+00:00",
+  "fetched_at": "2026-04-14T09:21:00.271800+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -84,16 +84,6 @@
       }
     },
     {
-      "id": "57a9991ed292",
-      "title": "Preis: Erhöhung der Zuzahlung nur mit „Augenmaß“ - Apotheke Adhoc",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWTVnaWNodXBYRGF2bFoycU5tUUliODREaFIzNEMtanlldFlUTlFYTDlNelRndzJtVmR0LXZVd0lSUWFubmRYMTZTZ3QzaGNJU1ZhVjU5ai0td1AwbWI5QVJyaFloQ2FSTmpQT05xaU80LUdURmtBMFZJbkVZZmdrVWRGN2lUUHl6bVBTM2R0bFAxb055WVMtR0FUeWRlUzFWNU9tdHp4Qlg?oc=5",
-      "published": "2026-04-13T11:43:00+00:00",
-      "source": {
-        "name": "Apotheke Adhoc",
-        "url": "https://www.apotheke-adhoc.de"
-      }
-    },
-    {
       "id": "b69b57064071",
       "title": "DAK-Gesundheit will Kassenfinanzen durch mehr Wettbewerb bei Arzneimitteln stärken – News - Deutsches Ärzteblatt",
       "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNSFVfMENtRmFjWDdSNjR1YWRjZzBlLTRIY3d4WEZKOXRVYlNmeFA1UmVaM1MtTjVjaXUyRVhmYTJ3NU5fQmZfdktXRXRkN054Rmh5d3FuNXRodHZDd1ZkcFE3YWxLWXFiQlF0MzRXcjd5d2pWcVpxTDdpdVdmZUVhSlU0S0pZWXFENTBwNnZIb3dTWkQ4eG9lQWstRjBjOEZQYThlLTFVbXJQVXp4ajBuSTNWb1M4TkxZMjAzX3ZwZGVwaGREbkNhSTUyVkJrVGlwM2pwYXdlX1pPVGRLWkcwV1dBeEVZdw?oc=5",
@@ -101,6 +91,16 @@
       "source": {
         "name": "Deutsches Ärzteblatt",
         "url": "https://www.aerzteblatt.de"
+      }
+    },
+    {
+      "id": "57a9991ed292",
+      "title": "Preis: Erhöhung der Zuzahlung nur mit „Augenmaß“ - Apotheke Adhoc",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWTVnaWNodXBYRGF2bFoycU5tUUliODREaFIzNEMtanlldFlUTlFYTDlNelRndzJtVmR0LXZVd0lSUWFubmRYMTZTZ3QzaGNJU1ZhVjU5ai0td1AwbWI5QVJyaFloQ2FSTmpQT05xaU80LUdURmtBMFZJbkVZZmdrVWRGN2lUUHl6bVBTM2R0bFAxb055WVMtR0FUeWRlUzFWNU9tdHp4Qlg?oc=5",
+      "published": "2026-04-13T11:43:00+00:00",
+      "source": {
+        "name": "Apotheke Adhoc",
+        "url": "https://www.apotheke-adhoc.de"
       }
     },
     {
@@ -124,16 +124,6 @@
       }
     },
     {
-      "id": "3682497b03cb",
-      "title": "Nach Kommissionsvorstoß: Kosten sparen durch Homöopathie? - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOTWlKLU9oNXNxMF9tWXpFLWNrdzFXblVCaVM3aWVyZ2MxSkF4eDNRa2hhY3RLMVJPcUM1cHlXRFpvODVoNVNXektHcGhQd2tjeVlQXzY0aUxhU21xUURhNVlCVHVuYnRaTE1MWU9SN18tcmdFNVR4MkRaT0JtejFIU3B5SnZwdw?oc=5",
-      "published": "2026-04-13T16:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "d700b213e8a9",
       "title": "Apotheken-Chef: „Wir sehen eine gefährliche Schließungswelle“ - Hamburger Abendblatt",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdWRxNEROaHpWdmhLR2JGeklqc192YS1CVEZyaVV6dTQ0S0ZmWHhlYlFMcHZFYXNxaWNVUng2OFBwR0J2QmdRWlg1XzM5UlBVNWpYRmxEaHh0MzB4LWhnVUJtVEFIamkyXzlhMnZ4ZTJyb1ExYmVZcVdKNUVPQjUyeW5ZZzhSb0dVWmx5TnhadHBPbG5rRGNfVFZrSExDTGVQa0pHUjB5RUM0MUllSFBTVTVucnFwNDBVVmZIbnRn?oc=5",
@@ -144,16 +134,6 @@
       }
     },
     {
-      "id": "8498c03392a5",
-      "title": "Zuzahlungen gesetzlich Versicherter deutlich gestiegen - STERN.de",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVEc4OHNGUDlnejhVdENjZHJtamtxMHp2VzcwOHozdVM2cEdmc05CQktHYkNRd2phaWJPX2szaHJ6MWdqM09UeHNneURQVWlrZml5Q3FtaXMxOG9wSDhrdVpiQUJRN29yczJDWjBNSGtURGJlYUdlYTVJNTk4NVFMYUxva3V5RWFYZ21RYTZLekZtQzI2bTdZdnVR?oc=5",
-      "published": "2026-04-13T13:53:00+00:00",
-      "source": {
-        "name": "STERN.de",
-        "url": "https://www.stern.de"
-      }
-    },
-    {
       "id": "2721457d2f52",
       "title": "Marktbericht: dm steigt in den Gesundheitsmarkt ein - tagesschau.de",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNd0RWVjQ1MFJ3RDJCdFRnZ3Z1RUU4YThkS1F2bnowNnZBQWk1QlIxdWNtMFN6a19KWWlhTnFyVUNRSGNLanRyR01ZM0lxSG1HRFBqQ3l3QXBMR1F6UU43X29oLTZEODQ1TktKWmhOVVR4YW10YWY1Qm5JZlZoLU8tMlhDYw?oc=5",
@@ -161,6 +141,26 @@
       "source": {
         "name": "tagesschau.de",
         "url": "https://www.tagesschau.de"
+      }
+    },
+    {
+      "id": "3682497b03cb",
+      "title": "Nach Kommissionsvorstoß: Kosten sparen durch Homöopathie? - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOTWlKLU9oNXNxMF9tWXpFLWNrdzFXblVCaVM3aWVyZ2MxSkF4eDNRa2hhY3RLMVJPcUM1cHlXRFpvODVoNVNXektHcGhQd2tjeVlQXzY0aUxhU21xUURhNVlCVHVuYnRaTE1MWU9SN18tcmdFNVR4MkRaT0JtejFIU3B5SnZwdw?oc=5",
+      "published": "2026-04-13T16:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "8498c03392a5",
+      "title": "Zuzahlungen gesetzlich Versicherter deutlich gestiegen - STERN.de",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVEc4OHNGUDlnejhVdENjZHJtamtxMHp2VzcwOHozdVM2cEdmc05CQktHYkNRd2phaWJPX2szaHJ6MWdqM09UeHNneURQVWlrZml5Q3FtaXMxOG9wSDhrdVpiQUJRN29yczJDWjBNSGtURGJlYUdlYTVJNTk4NVFMYUxva3V5RWFYZ21RYTZLekZtQzI2bTdZdnVR?oc=5",
+      "published": "2026-04-13T13:53:00+00:00",
+      "source": {
+        "name": "STERN.de",
+        "url": "https://www.stern.de"
       }
     },
     {
@@ -194,26 +194,6 @@
       }
     },
     {
-      "id": "481fee35c5f6",
-      "title": "Notdienst heute im Berchtesgadener Land: Kontakte für Apotheken-Notdienst und Bereitschaftsärzte am 14.04.2026 - News.de",
-      "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNVHNMMnY3dmhNY0p1Zm84cENZTXkwcDFjN2ZnVmtSOUttYml6UW5IblM1Qjd6Z3NtbTZfTHlCaG5TOWlDR0lBYktKT19nRmkzSFNaNVBxVnFGWEV2cFluMnlRTGlFQXlpNnJMaHhzUXN2Rk5rMkl5S2JnRkE2NmhvV2Y4NHgxNTVld2RtSmZFRVZDTWdlSUR6T0gtSUowajc4ZHp3bVk2YVJmcDJJRFZuNk9kbDNlelJ3bHIxLWV6eUp4b0JfR210c3BnUDJuM0J0enUyQVFObWpXWHNXeTFiS3pCVElORi1JbGlPNTZSd0tNVE5zaXZNZ2p2OW5xLXNvR1hoc19CaTE1TTdSMW9xWmU4YnlsVDlJMktz0gGgAkFVX3lxTE9nSFVTcDNrOExORFNQNmQtd2dpQWFtMDRsdUZvUU1BQzBmM1pXSTlycTZ3eExOeHhnelFQdHRqMXFCd0QtQUx4T2pyaWpDeGxCUHJKZUEtWlJURTk2RjY0a2VvTVZLY2dra0pyUXJybEUyTURSTl9qQkNFU1MxQi04MUNHaEtHOTd1d24wVjZxOUdJbUNjREhLWG9uR2l0ZWhaZGtwMzNwZ3A5Q2ZWUElrazYycW1zU1dkZUl2aFk4NXdnVEVVUFpFVmVtUWl0ekFqRmh6cFJhUTBsdVJoc1poRHhIVDVPUlBKa01BZzdweUlIbm5NNFVfbWw2RG44el9NN2pWOFZoMW9zWktFOEVQSUZsY2VsUjdYVjl1MURieg?oc=5",
-      "published": "2026-04-14T04:14:24+00:00",
-      "source": {
-        "name": "News.de",
-        "url": "https://www.news.de"
-      }
-    },
-    {
-      "id": "614b55b8056b",
-      "title": "Notdienst heute in Augsburg: Die Notapotheken und Bereitschaftsärzte am 14.04.2026 - News.de",
-      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPY2pndEN3dGtmWHJnME1RdzZkR0ZGRE8xLU9pcFRFNThpRG9nLWN3TW5UdkZXbnVoLVpZc2NHdXpEQ2pBRXZMZkIyZ3F4eTN2MkFEWTdNRTdtLUJ4ZWxSc0tta21sSTl4MGRfSklhQkY1cm5HTF8xb2YzVi1pRlB1MlJzaTdocjhBcnh1VGtReEpDeDk2Ui1nSWs3R0JxS2pEOThOTVZVZGNMTjRkSUs1OTN0ZHI5WWZDbDlqRllSd0lyYUh6d2FIbk5BREJwc1JOUTZFcUZweFJROHVkQlhOMGRGNGtmallfb1lzbl9ISGJoZm04V3YwSmEwLW4tVGZFMVpWcEVLZ3hWXzTSAZACQVVfeXFMTWlsLUx6ai1vWENEOWdvTUItZEtkWVloSGFlWlM3YkhJTjFDQkN0dkJ2Qlk3RGZkZmZsd2V4bUtjR1gtN3NNSGJHemRrbE1PeFp4MjlESU1qd2J4NWlFM2U5WFh3TS01WE1HRzk1Z2lYVElCZkE2M3pGRXRPc0N4NzdrV2RCNE14QmY4VDJ1SW80SE9yZERrTU9QdFdzbV9xU0xJS2tzcnRJSXU3MzZhV0FXYk1VYkZTbnBwMnFBMlJHQ1YybEt2RHFSemYtMlZ6LVhqcXZHZ0hLbEVpbWgyemNUMkk0aU5id1JYMkFfX0F1MlA4Mm9sZGpFZjJ5Wmdld1U0OEdzT0QzaGVZNkJXZHc?oc=5",
-      "published": "2026-04-14T04:48:12+00:00",
-      "source": {
-        "name": "News.de",
-        "url": "https://www.news.de"
-      }
-    },
-    {
       "id": "4ab020d2a1ad",
       "title": "Vorline = Vor-Ort-Apotheke online - Apotheke Adhoc",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQS1Y1eXdfVzlCLVl4YmVudDhOc3R2eDdReGl4bTU5RmNSWHNRYmI2ZHd0SFhRREVlOFllLThFaVhCMUU5akRpcUZvMlJkWEk0bkRCcjdaOEZfYXpzOU01cURDMVJva0traDhQQmpSSnBFTlJIWlNYdnpVMUFXY2xBTkQya1NxdGVycGMyaDVzbzFVLUVG?oc=5",
@@ -221,6 +201,16 @@
       "source": {
         "name": "Apotheke Adhoc",
         "url": "https://www.apotheke-adhoc.de"
+      }
+    },
+    {
+      "id": "481fee35c5f6",
+      "title": "Notdienst heute im Berchtesgadener Land: Kontakte für Apotheken-Notdienst und Bereitschaftsärzte am 14.04.2026 - News.de",
+      "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNVHNMMnY3dmhNY0p1Zm84cENZTXkwcDFjN2ZnVmtSOUttYml6UW5IblM1Qjd6Z3NtbTZfTHlCaG5TOWlDR0lBYktKT19nRmkzSFNaNVBxVnFGWEV2cFluMnlRTGlFQXlpNnJMaHhzUXN2Rk5rMkl5S2JnRkE2NmhvV2Y4NHgxNTVld2RtSmZFRVZDTWdlSUR6T0gtSUowajc4ZHp3bVk2YVJmcDJJRFZuNk9kbDNlelJ3bHIxLWV6eUp4b0JfR210c3BnUDJuM0J0enUyQVFObWpXWHNXeTFiS3pCVElORi1JbGlPNTZSd0tNVE5zaXZNZ2p2OW5xLXNvR1hoc19CaTE1TTdSMW9xWmU4YnlsVDlJMktz0gGgAkFVX3lxTE9nSFVTcDNrOExORFNQNmQtd2dpQWFtMDRsdUZvUU1BQzBmM1pXSTlycTZ3eExOeHhnelFQdHRqMXFCd0QtQUx4T2pyaWpDeGxCUHJKZUEtWlJURTk2RjY0a2VvTVZLY2dra0pyUXJybEUyTURSTl9qQkNFU1MxQi04MUNHaEtHOTd1d24wVjZxOUdJbUNjREhLWG9uR2l0ZWhaZGtwMzNwZ3A5Q2ZWUElrazYycW1zU1dkZUl2aFk4NXdnVEVVUFpFVmVtUWl0ekFqRmh6cFJhUTBsdVJoc1poRHhIVDVPUlBKa01BZzdweUlIbm5NNFVfbWw2RG44el9NN2pWOFZoMW9zWktFOEVQSUZsY2VsUjdYVjl1MURieg?oc=5",
+      "published": "2026-04-14T04:14:24+00:00",
+      "source": {
+        "name": "News.de",
+        "url": "https://www.news.de"
       }
     },
     {
@@ -244,6 +234,16 @@
       }
     },
     {
+      "id": "614b55b8056b",
+      "title": "Notdienst heute in Augsburg: Die Notapotheken und Bereitschaftsärzte am 14.04.2026 - News.de",
+      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPY2pndEN3dGtmWHJnME1RdzZkR0ZGRE8xLU9pcFRFNThpRG9nLWN3TW5UdkZXbnVoLVpZc2NHdXpEQ2pBRXZMZkIyZ3F4eTN2MkFEWTdNRTdtLUJ4ZWxSc0tta21sSTl4MGRfSklhQkY1cm5HTF8xb2YzVi1pRlB1MlJzaTdocjhBcnh1VGtReEpDeDk2Ui1nSWs3R0JxS2pEOThOTVZVZGNMTjRkSUs1OTN0ZHI5WWZDbDlqRllSd0lyYUh6d2FIbk5BREJwc1JOUTZFcUZweFJROHVkQlhOMGRGNGtmallfb1lzbl9ISGJoZm04V3YwSmEwLW4tVGZFMVpWcEVLZ3hWXzTSAZACQVVfeXFMTWlsLUx6ai1vWENEOWdvTUItZEtkWVloSGFlWlM3YkhJTjFDQkN0dkJ2Qlk3RGZkZmZsd2V4bUtjR1gtN3NNSGJHemRrbE1PeFp4MjlESU1qd2J4NWlFM2U5WFh3TS01WE1HRzk1Z2lYVElCZkE2M3pGRXRPc0N4NzdrV2RCNE14QmY4VDJ1SW80SE9yZERrTU9QdFdzbV9xU0xJS2tzcnRJSXU3MzZhV0FXYk1VYkZTbnBwMnFBMlJHQ1YybEt2RHFSemYtMlZ6LVhqcXZHZ0hLbEVpbWgyemNUMkk0aU5id1JYMkFfX0F1MlA4Mm9sZGpFZjJ5Wmdld1U0OEdzT0QzaGVZNkJXZHc?oc=5",
+      "published": "2026-04-14T04:48:12+00:00",
+      "source": {
+        "name": "News.de",
+        "url": "https://www.news.de"
+      }
+    },
+    {
       "id": "6b3456d0ea79",
       "title": "Erstmals Medikament gegen Fettleber zugelassen - tagesschau.de",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPQnhCQmdtRXhCd0ZKc1FDYzViaTZEblZ5TjJNWDBvZ3ptX2g0OENQemNDUk1sWGh5T1FrOEtvaGtSSDItcXlieVd0cDVfdDF0a2U3clFWSGlvd21wUWtwVzI4UEZIZ1BBUlVJSC16SExXaWFDTlF6YlNjMk96a2pEYnpVRm1rQQ?oc=5",
@@ -264,16 +264,6 @@
       }
     },
     {
-      "id": "121e22c15b0e",
-      "title": "Notdienst heute im Landkreis Kronach: Bereitschaftsärzte und -apotheken am 14.04.2026 - News.de",
-      "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPWUZyM09GbnFTSmlRUDR1Q0ltUGV0TS1ucGthcEhhOEFmelJBTEZTY3VWTUtXSW1uVGRROEVvN1MtWFZ1WnNKMkNkSjhhbWdyTmR5aGtHY2dtZUUwdDdWOUFhSHJrZ1pxQXliMUhMd285cG04cUYyVzFLUXVlT0JQN2FqVEZOU3RZU09CWlBPWDdhSXRmNmdodnhwT3NHa3pDWlhodDY2UWo2NWEwYlBQQ0RDNndXWGdwZ3ltYVVsUjN1T2trbHRCeTV1X3JRZWZfbWJ4d05BMEhtb0dkOXV6QjVuc2dfeTFYalRpczMyTUtZTEpLLUloenJnS2JBamdaUXZMVkNvdWhFTk5sSHdERU9NOVR4cknSAZwCQVVfeXFMTjI1ZXlkZ0tCLUN3UWx5SFA5U2RreWJ1QV92WTYxYWZ1LW0xVC1XbnhrWDFaWTN5VDg2QTA1M2JZV0RJTmQ0QnQyUnlPYnBTbEVKSlBET0FyeHQtWXVidE9OdzRiNG45UGR6dXBIWGpmamRIRm1NY3lFa0p6QlMwVFd4MTJWd2lHX2VBYlBTVVZ5R0RDRmdfeHprUkRSQU5PNWJ3TUdjWTZhc0xwajBQZE1zS2V4ZUhsaG10cjFQRWRuVHlyQmZCd3Z4RVI1Q1I2R0NFSjVXZjBtMEZYVFowN2xHcTJWUzVjZEpRT01SdTNCal84eGRLTC1ROEx1NzdOMDdvUkJ6Q1RDR1I3ZGowdWNyQ0Z5MmVISWdTSkY?oc=5",
-      "published": "2026-04-14T04:35:19+00:00",
-      "source": {
-        "name": "News.de",
-        "url": "https://www.news.de"
-      }
-    },
-    {
       "id": "842e7f613a7b",
       "title": "Gesundheitsvorsorge - Arzneimittel-Überwachung - schleswig-holstein.de",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOeE80cXNlV3RkMlM5WUhkbVM5amVOZy0zdm9LMlN6dS1IRlVjMDJzcW9GWF9SMmdUUVd5dDJ0THpRejN5emROc180bmNuQjlGVWUwdE9mSFdHMUJyLVRfcTJoSHBRWDlFZ2tvSFlCNGtMTnpIV2dLQk5uMzY4YWY1U0N6cVdmdmdaVEoyTnlXc2x3bFNJT3NfckhVa1ZfZExJLVZRaXZEaW1abVVVQWVXTWg4MTg4WEU2bDFBaw?oc=5",
@@ -284,10 +274,10 @@
       }
     },
     {
-      "id": "e1dc4bbd489c",
-      "title": "Ärztin warnt : Diese frühen Parkinson-Symptome sollten Sie nicht ignorieren - News.de",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOWUhHMm9kXzBYaW96TVhZM2xUOC1BZU1zcElzRUF4WXJQaGtQRmtaOEp3UjVyU3hYLWNpd1YzX3FTcXhBcjdTdGlBQjJHR2VRODZRTEthYXpGd05wdWxZTHQ2WmNQdGh4STF5WVV1cWhPS212UUpINHNaYzlFWUU3MmlnS0FtMnF4WFk1dDRKaGRucC1jRlA1eTBJOTVfZzFPWDVfM3JDNmhFdldRQUNFZjBOWFIyRmZiODIxSVZtZUR4NWVXRXNMNkc5a0ZIY1g1OThkVzVHMHpBUndxZk9rZ2ZRRGRzcGhxdzNSWtIB8gFBVV95cUxPTzlXQUJCUC03Vm5teS1HdV9DYUI3N0o3ZV9wMEozS1pBYTdxSDNCU2pyMXdnbF93MWhlZXRSTmc3bVNNZlNCTHhZVUcwUVBiOXNab3VVWDNBTXpkU3FKRUFYX0UxYTZwdFV0aXRzR2xKcWdSYnZOc2xzNGU2eE5ZdkJ6Z2lkdEcwdjRrdmRMQl9qbFpDd3F3UndTTHY3b2JKajRzdXFfTktNSTR6SS1oaXkzNlZBcEhCR2NPeHM0WkFDVThZaHJHdndkYzhfMENUb01VTTlSY3g2T3otcElGZ3ZoV3UzSFRhc0JucFJtZHJ2QQ?oc=5",
-      "published": "2026-04-13T11:11:00+00:00",
+      "id": "121e22c15b0e",
+      "title": "Notdienst heute im Landkreis Kronach: Bereitschaftsärzte und -apotheken am 14.04.2026 - News.de",
+      "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPWUZyM09GbnFTSmlRUDR1Q0ltUGV0TS1ucGthcEhhOEFmelJBTEZTY3VWTUtXSW1uVGRROEVvN1MtWFZ1WnNKMkNkSjhhbWdyTmR5aGtHY2dtZUUwdDdWOUFhSHJrZ1pxQXliMUhMd285cG04cUYyVzFLUXVlT0JQN2FqVEZOU3RZU09CWlBPWDdhSXRmNmdodnhwT3NHa3pDWlhodDY2UWo2NWEwYlBQQ0RDNndXWGdwZ3ltYVVsUjN1T2trbHRCeTV1X3JRZWZfbWJ4d05BMEhtb0dkOXV6QjVuc2dfeTFYalRpczMyTUtZTEpLLUloenJnS2JBamdaUXZMVkNvdWhFTk5sSHdERU9NOVR4cknSAZwCQVVfeXFMTjI1ZXlkZ0tCLUN3UWx5SFA5U2RreWJ1QV92WTYxYWZ1LW0xVC1XbnhrWDFaWTN5VDg2QTA1M2JZV0RJTmQ0QnQyUnlPYnBTbEVKSlBET0FyeHQtWXVidE9OdzRiNG45UGR6dXBIWGpmamRIRm1NY3lFa0p6QlMwVFd4MTJWd2lHX2VBYlBTVVZ5R0RDRmdfeHprUkRSQU5PNWJ3TUdjWTZhc0xwajBQZE1zS2V4ZUhsaG10cjFQRWRuVHlyQmZCd3Z4RVI1Q1I2R0NFSjVXZjBtMEZYVFowN2xHcTJWUzVjZEpRT01SdTNCal84eGRLTC1ROEx1NzdOMDdvUkJ6Q1RDR1I3ZGowdWNyQ0Z5MmVISWdTSkY?oc=5",
+      "published": "2026-04-14T04:35:19+00:00",
       "source": {
         "name": "News.de",
         "url": "https://www.news.de"
@@ -324,6 +314,16 @@
       }
     },
     {
+      "id": "e1dc4bbd489c",
+      "title": "Ärztin warnt : Diese frühen Parkinson-Symptome sollten Sie nicht ignorieren - News.de",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOWUhHMm9kXzBYaW96TVhZM2xUOC1BZU1zcElzRUF4WXJQaGtQRmtaOEp3UjVyU3hYLWNpd1YzX3FTcXhBcjdTdGlBQjJHR2VRODZRTEthYXpGd05wdWxZTHQ2WmNQdGh4STF5WVV1cWhPS212UUpINHNaYzlFWUU3MmlnS0FtMnF4WFk1dDRKaGRucC1jRlA1eTBJOTVfZzFPWDVfM3JDNmhFdldRQUNFZjBOWFIyRmZiODIxSVZtZUR4NWVXRXNMNkc5a0ZIY1g1OThkVzVHMHpBUndxZk9rZ2ZRRGRzcGhxdzNSWtIB8gFBVV95cUxPTzlXQUJCUC03Vm5teS1HdV9DYUI3N0o3ZV9wMEozS1pBYTdxSDNCU2pyMXdnbF93MWhlZXRSTmc3bVNNZlNCTHhZVUcwUVBiOXNab3VVWDNBTXpkU3FKRUFYX0UxYTZwdFV0aXRzR2xKcWdSYnZOc2xzNGU2eE5ZdkJ6Z2lkdEcwdjRrdmRMQl9qbFpDd3F3UndTTHY3b2JKajRzdXFfTktNSTR6SS1oaXkzNlZBcEhCR2NPeHM0WkFDVThZaHJHdndkYzhfMENUb01VTTlSY3g2T3otcElGZ3ZoV3UzSFRhc0JucFJtZHJ2QQ?oc=5",
+      "published": "2026-04-13T11:11:00+00:00",
+      "source": {
+        "name": "News.de",
+        "url": "https://www.news.de"
+      }
+    },
+    {
       "id": "2ab7955d0c6d",
       "title": "Arzneimittel - Drohender Engpass bei Antibiotika - Sonderregeln - Gesundheit - SZ.de - SZ.de",
       "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNZXYxUjRkRWpobExwZXBseVN2WkJ6NjBwTndtTURXR3RSR01ENHZOaGtVYXdOanprT2paaHFmVEc0RWxzVzZDb0NrYk1Ba0thRGlhZ3RxVWpqeGUyR0owYzIzVHFTVTFWMmdfdUxfVnYzN0R5MUc5TFN4R2dSNWJ3V0ZMZUt3YkhlZXhDTXUxa1dBUUVSQjB5b2JyVU5xUUo5SVVwLUpkc2Z5NUV6NVFvak4zLXBrTng2OUs1OEdiQnlDR1N2QngtdGFmbW9vSnl2U1lKaDhqa3FyMVllSmxXRG13?oc=5",
@@ -351,6 +351,16 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "fcc12f4d2c22",
+      "title": "Geheimsache Krebs: Ein Wunder-Medikament und seine Schattenseiten - profil.at",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRXdfRkFWbU9IR0Z5NEZPclNyTktxLVlDQWI3YTRXTDdwbHREWXh3WGZvRElPZ1dVQ0pPN24tUDEyN0NaLWxzcnNzU0x4dG9SZ3NselJXTGhGOE00U3pEQUJ3R1d2eUZTVGd2T0VYS1RHSzhFRHlVWmVIR1JQdkNnUTRtYVQ2OVNxQ3lOMmxSMFVXVjNzaFFYTzN2NHZGMVl6clBKOTAtYVFmVHNHeVE?oc=5",
+      "published": "2026-04-13T04:39:01+00:00",
+      "source": {
+        "name": "profil.at",
+        "url": "https://www.profil.at"
       }
     },
     {
@@ -391,16 +401,6 @@
       "source": {
         "name": "Verband der Ersatzkassen (vdek)",
         "url": "https://www.vdek.com"
-      }
-    },
-    {
-      "id": "fcc12f4d2c22",
-      "title": "Geheimsache Krebs: Ein Wunder-Medikament und seine Schattenseiten - profil.at",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRXdfRkFWbU9IR0Z5NEZPclNyTktxLVlDQWI3YTRXTDdwbHREWXh3WGZvRElPZ1dVQ0pPN24tUDEyN0NaLWxzcnNzU0x4dG9SZ3NselJXTGhGOE00U3pEQUJ3R1d2eUZTVGd2T0VYS1RHSzhFRHlVWmVIR1JQdkNnUTRtYVQ2OVNxQ3lOMmxSMFVXVjNzaFFYTzN2NHZGMVl6clBKOTAtYVFmVHNHeVE?oc=5",
-      "published": "2026-04-13T04:39:01+00:00",
-      "source": {
-        "name": "profil.at",
-        "url": "https://www.profil.at"
       }
     },
     {
@@ -564,16 +564,6 @@
       }
     },
     {
-      "id": "a99104aa325d",
-      "title": "Mediziner enfrenta gigante farmacêutico: Arzneimittel-Potenzierung entfacht Konflikt - DIÁRIO DO ESTADO",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZXRrcmlaUnUwN2xlRG5nMU1PbE1TRnZxX0x1NDU2US1YVk44a3M2LTdIcnRtNGJfcWtxMFRkZFlFN0tEUmZEWEVhTUxTcGRkeFpwNG9vOVpFU1RtanN4enR5dUJJWkwtUVJCeGZoSnBORzRmOEdfLWZ6dDE1SHllb2hrdWswSDJpdWM4Y21SXzVWMWktaDRmMlcweDRYaG15alhIU3ZHZERpeDdueUUtb2tGYjk2TjhiZWMxQUN0dks?oc=5",
-      "published": "2026-04-13T09:02:30+00:00",
-      "source": {
-        "name": "DIÁRIO DO ESTADO",
-        "url": "https://diariodoestadogo.com.br"
-      }
-    },
-    {
       "id": "a010b4883485",
       "title": "»Es wird immer schwie­ri­ger, eine Apo­the­ke am Leben zu hal­ten« - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdUwwS3RtTmZyMll1Wjc4ZGxLVnRFTWE5VUhPSmZCMWc3dGFsWGtJekpmTEc2b0VQYnFOZ3dKaGtLVzJYRG1CdUJ4eXZHV0RQN2lxdXpkUFgybG5lRW5SRE1rQU10RFA1QzhERmgyWTk0Mk5GZUVVUkxSTTRVUjBhRVZjR2FaaXlTMnJMeUNuSlExYkFDU1YwQ3E1MDJJT0ZfemI0WnJwRmU?oc=5",
@@ -601,6 +591,16 @@
       "source": {
         "name": "Öko-Test",
         "url": "https://www.oekotest.de"
+      }
+    },
+    {
+      "id": "a99104aa325d",
+      "title": "Mediziner enfrenta gigante farmacêutico: Arzneimittel-Potenzierung entfacht Konflikt - DIÁRIO DO ESTADO",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZXRrcmlaUnUwN2xlRG5nMU1PbE1TRnZxX0x1NDU2US1YVk44a3M2LTdIcnRtNGJfcWtxMFRkZFlFN0tEUmZEWEVhTUxTcGRkeFpwNG9vOVpFU1RtanN4enR5dUJJWkwtUVJCeGZoSnBORzRmOEdfLWZ6dDE1SHllb2hrdWswSDJpdWM4Y21SXzVWMWktaDRmMlcweDRYaG15alhIU3ZHZERpeDdueUUtb2tGYjk2TjhiZWMxQUN0dks?oc=5",
+      "published": "2026-04-13T09:02:30+00:00",
+      "source": {
+        "name": "DIÁRIO DO ESTADO",
+        "url": "https://diariodoestadogo.com.br"
       }
     },
     {
@@ -654,12 +654,12 @@
       }
     },
     {
-      "id": "a851579f0cf5",
-      "title": "Gesundheitsgefahr durch illegale Stoffe - Verbraucherzentrale.de",
+      "id": "19b06b5ee691",
+      "title": "Gesundheitsgefahr durch illegale Stoffe - verbraucherzentrale.de",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQY0I4azR5X3RTSl84RmlzMzAyNHMyR2tBVXBUNDRySVBtaUdYSnppVFZtT0FFVXhZWThGX3gzX0U3WGNoOHlyeVg2QUlSelFtUTNpTVI3Q1p1SzhrSmxyczVocVVfLS1fX1NyajBkZU1jWDV6NV95dVlMQm9hSGhFVk9vdXh6QnNqcUVkRTBkWlVFRXFvd2Q2Q20wRWItSVBuaXdtVzYzQThlU2pEaWRfeFMtWnJVaWtIR2ZtRmt6Zi10Y3lw?oc=5",
       "published": "2025-04-22T07:00:00+00:00",
       "source": {
-        "name": "Verbraucherzentrale.de",
+        "name": "verbraucherzentrale.de",
         "url": "https://www.verbraucherzentrale.de"
       }
     },
@@ -744,12 +744,12 @@
       }
     },
     {
-      "id": "5d8728b84548",
-      "title": "Medikamente aus dem Internet - Vor- und Nachteile der Online-Apotheken - Verbraucherzentrale.de",
+      "id": "42e707cf4944",
+      "title": "Medikamente aus dem Internet - Vor- und Nachteile der Online-Apotheken - verbraucherzentrale.de",
       "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOa296Nkladzd4VHNpS0pVU3BwY0o4VlBCNktaV2N1N1cxNjdMbDJhaHRvWmxXUkVoSEkzbHBjbWVKMWJDZHR2cHBMZGFGTVlZUWdHZlZEaWU2U2Q4cndGX3ZfdTlhcDQxY3RDNmhkM1c0UVJVdHZrOTBxYUxYNF9FU0tjRDF4b09IYWwyM2wxaS1SQzE2cU9sYjNEbC04OWJfRWZuZmxyLWQyWklaNzVzOVZla05jaU5PQTBzbDNLa0I4TUg2N0d3bHFuYzBQbmVuaUpNcnNDYl9IdW9y?oc=5",
       "published": "2024-02-05T08:00:00+00:00",
       "source": {
-        "name": "Verbraucherzentrale.de",
+        "name": "verbraucherzentrale.de",
         "url": "https://www.verbraucherzentrale.de"
       }
     },
