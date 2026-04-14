@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-14T09:21:00.271800+00:00",
+  "fetched_at": "2026-04-14T11:05:01.944482+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -154,23 +154,13 @@
       }
     },
     {
-      "id": "8498c03392a5",
-      "title": "Zuzahlungen gesetzlich Versicherter deutlich gestiegen - STERN.de",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVEc4OHNGUDlnejhVdENjZHJtamtxMHp2VzcwOHozdVM2cEdmc05CQktHYkNRd2phaWJPX2szaHJ6MWdqM09UeHNneURQVWlrZml5Q3FtaXMxOG9wSDhrdVpiQUJRN29yczJDWjBNSGtURGJlYUdlYTVJNTk4NVFMYUxva3V5RWFYZ21RYTZLekZtQzI2bTdZdnVR?oc=5",
-      "published": "2026-04-13T13:53:00+00:00",
+      "id": "3c75a0c795e8",
+      "title": "Mit Abnehmspritze Kilos loswerden - was ist dran an Ozempic & Co.? - NDR.de",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaGFzLTFfUHozOUJiWWtWdlRPUm5mZ0VkMGMxLVVGcmxmMzlONHZRV21qZmFHYUo3d2gzV3VDVm9OUHp6Qk4wQjlZTHU3V3RnckthWTZSbVpVMGE1VWxiMFMtVVJCSWdWb3hibzlscllodzVwWmpDMS1ZOXNxYkFfQVJzdlRzeGRQOWdtcW55UVRNSE16QmhJZXhVYmRmYl9iUmJBN1g2cG8?oc=5",
+      "published": "2026-03-11T07:00:00+00:00",
       "source": {
-        "name": "STERN.de",
-        "url": "https://www.stern.de"
-      }
-    },
-    {
-      "id": "aaa1e6bb8a8e",
-      "title": "Schmerzmittel-Warnung: Welche Nebenwirkungen können bei Paracetamol und Ibuprofen auftreten? - News.de",
-      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOX202N1FzY2lHaThzSmN6emQxamEyLTRfNVB5bHZ2X25XTTQwY1NFUV9uZHVkbFdUcGlxNjcxYTRmOEduT0R2dmRlWEt4b0xOeXNsQk80ZmR0ajFSem5IZ1lsODRKck9ySWY1YXZPYUZEZjNYZEdVdnlKbFZ3ZXBoeVRqMnZJNWo4NlMzV2FEaTdUZEQwdWdSbTUzOTQwWUNLWmJFdnpXLVNVTHJ2SVl2YmlhVWVVY2Z5czVocENvRDZyMW85QUJfUVg1djRXaUx4MDZ1SDhNWVFJNmVfQ2V2Tm5GR0RZQV9hQ09HT2F4TmQtZDdQSUNYVzZva9IBgAJBVV95cUxNR3dzd2taNGdLQURGWTJFZ3RvaXluNE41eVY3SUJlMUVoRHlTNXg1V0NnRzF2RWVtcDlGeXJScFJSdTljQWF2MXBMMlBvd2FHazgzbi0wWklVM2RlejluZ0ZMTWdqSGdGOUR5a1lVcmxZTlY1czEwZUprSDFwNXVrX2w4ZEpXZUhzc0wzTnoyb0s2NG1haHJtaXF4M2Y5T29QTlo2NVRFZEM2TnRGQlN5SjBGSWlxODhyS3ZIZjJwcGJMSS1xb1o3Ui1yUmZ3SU51OUE4SmJxMVRUS051VWdSclp4NVlnLTZVcUdKUzhyWlk4YVFyYkpVVlMxMTJRODUz?oc=5",
-      "published": "2026-04-14T05:23:00+00:00",
-      "source": {
-        "name": "News.de",
-        "url": "https://www.news.de"
+        "name": "NDR.de",
+        "url": "https://www.ndr.de"
       }
     },
     {
@@ -181,6 +171,16 @@
       "source": {
         "name": "ZDFheute",
         "url": "https://www.zdfheute.de"
+      }
+    },
+    {
+      "id": "aaa1e6bb8a8e",
+      "title": "Schmerzmittel-Warnung: Welche Nebenwirkungen können bei Paracetamol und Ibuprofen auftreten? - News.de",
+      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOX202N1FzY2lHaThzSmN6emQxamEyLTRfNVB5bHZ2X25XTTQwY1NFUV9uZHVkbFdUcGlxNjcxYTRmOEduT0R2dmRlWEt4b0xOeXNsQk80ZmR0ajFSem5IZ1lsODRKck9ySWY1YXZPYUZEZjNYZEdVdnlKbFZ3ZXBoeVRqMnZJNWo4NlMzV2FEaTdUZEQwdWdSbTUzOTQwWUNLWmJFdnpXLVNVTHJ2SVl2YmlhVWVVY2Z5czVocENvRDZyMW85QUJfUVg1djRXaUx4MDZ1SDhNWVFJNmVfQ2V2Tm5GR0RZQV9hQ09HT2F4TmQtZDdQSUNYVzZva9IBgAJBVV95cUxNR3dzd2taNGdLQURGWTJFZ3RvaXluNE41eVY3SUJlMUVoRHlTNXg1V0NnRzF2RWVtcDlGeXJScFJSdTljQWF2MXBMMlBvd2FHazgzbi0wWklVM2RlejluZ0ZMTWdqSGdGOUR5a1lVcmxZTlY1czEwZUprSDFwNXVrX2w4ZEpXZUhzc0wzTnoyb0s2NG1haHJtaXF4M2Y5T29QTlo2NVRFZEM2TnRGQlN5SjBGSWlxODhyS3ZIZjJwcGJMSS1xb1o3Ui1yUmZ3SU51OUE4SmJxMVRUS051VWdSclp4NVlnLTZVcUdKUzhyWlk4YVFyYkpVVlMxMTJRODUz?oc=5",
+      "published": "2026-04-14T05:23:00+00:00",
+      "source": {
+        "name": "News.de",
+        "url": "https://www.news.de"
       }
     },
     {
@@ -204,26 +204,6 @@
       }
     },
     {
-      "id": "481fee35c5f6",
-      "title": "Notdienst heute im Berchtesgadener Land: Kontakte für Apotheken-Notdienst und Bereitschaftsärzte am 14.04.2026 - News.de",
-      "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNVHNMMnY3dmhNY0p1Zm84cENZTXkwcDFjN2ZnVmtSOUttYml6UW5IblM1Qjd6Z3NtbTZfTHlCaG5TOWlDR0lBYktKT19nRmkzSFNaNVBxVnFGWEV2cFluMnlRTGlFQXlpNnJMaHhzUXN2Rk5rMkl5S2JnRkE2NmhvV2Y4NHgxNTVld2RtSmZFRVZDTWdlSUR6T0gtSUowajc4ZHp3bVk2YVJmcDJJRFZuNk9kbDNlelJ3bHIxLWV6eUp4b0JfR210c3BnUDJuM0J0enUyQVFObWpXWHNXeTFiS3pCVElORi1JbGlPNTZSd0tNVE5zaXZNZ2p2OW5xLXNvR1hoc19CaTE1TTdSMW9xWmU4YnlsVDlJMktz0gGgAkFVX3lxTE9nSFVTcDNrOExORFNQNmQtd2dpQWFtMDRsdUZvUU1BQzBmM1pXSTlycTZ3eExOeHhnelFQdHRqMXFCd0QtQUx4T2pyaWpDeGxCUHJKZUEtWlJURTk2RjY0a2VvTVZLY2dra0pyUXJybEUyTURSTl9qQkNFU1MxQi04MUNHaEtHOTd1d24wVjZxOUdJbUNjREhLWG9uR2l0ZWhaZGtwMzNwZ3A5Q2ZWUElrazYycW1zU1dkZUl2aFk4NXdnVEVVUFpFVmVtUWl0ekFqRmh6cFJhUTBsdVJoc1poRHhIVDVPUlBKa01BZzdweUlIbm5NNFVfbWw2RG44el9NN2pWOFZoMW9zWktFOEVQSUZsY2VsUjdYVjl1MURieg?oc=5",
-      "published": "2026-04-14T04:14:24+00:00",
-      "source": {
-        "name": "News.de",
-        "url": "https://www.news.de"
-      }
-    },
-    {
-      "id": "3c75a0c795e8",
-      "title": "Mit Abnehmspritze Kilos loswerden - was ist dran an Ozempic & Co.? - NDR.de",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaGFzLTFfUHozOUJiWWtWdlRPUm5mZ0VkMGMxLVVGcmxmMzlONHZRV21qZmFHYUo3d2gzV3VDVm9OUHp6Qk4wQjlZTHU3V3RnckthWTZSbVpVMGE1VWxiMFMtVVJCSWdWb3hibzlscllodzVwWmpDMS1ZOXNxYkFfQVJzdlRzeGRQOWdtcW55UVRNSE16QmhJZXhVYmRmYl9iUmJBN1g2cG8?oc=5",
-      "published": "2026-03-11T07:00:00+00:00",
-      "source": {
-        "name": "NDR.de",
-        "url": "https://www.ndr.de"
-      }
-    },
-    {
       "id": "cebeb99a59c4",
       "title": "Medikamente auf Reisen: Das darf ins Handgepäck - ADAC",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZmdDVl81RGdjdDZRNXNXSlRFTVhOSVpSQUlwUTlUelB6bnNFcVFRV09lQ2czNTdja0RsNHJVck00Y2hFVHZUM3kyaTRWOVZXWHQ0M182TVJrcGNGcUxtS1pFaU8wczRRRFRycTVmZnFmWE1lQ2g1eVVNekNQd3pSWWFHMnc1anVBY3plbTNB?oc=5",
@@ -231,16 +211,6 @@
       "source": {
         "name": "ADAC",
         "url": "https://www.adac.de"
-      }
-    },
-    {
-      "id": "614b55b8056b",
-      "title": "Notdienst heute in Augsburg: Die Notapotheken und Bereitschaftsärzte am 14.04.2026 - News.de",
-      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPY2pndEN3dGtmWHJnME1RdzZkR0ZGRE8xLU9pcFRFNThpRG9nLWN3TW5UdkZXbnVoLVpZc2NHdXpEQ2pBRXZMZkIyZ3F4eTN2MkFEWTdNRTdtLUJ4ZWxSc0tta21sSTl4MGRfSklhQkY1cm5HTF8xb2YzVi1pRlB1MlJzaTdocjhBcnh1VGtReEpDeDk2Ui1nSWs3R0JxS2pEOThOTVZVZGNMTjRkSUs1OTN0ZHI5WWZDbDlqRllSd0lyYUh6d2FIbk5BREJwc1JOUTZFcUZweFJROHVkQlhOMGRGNGtmallfb1lzbl9ISGJoZm04V3YwSmEwLW4tVGZFMVpWcEVLZ3hWXzTSAZACQVVfeXFMTWlsLUx6ai1vWENEOWdvTUItZEtkWVloSGFlWlM3YkhJTjFDQkN0dkJ2Qlk3RGZkZmZsd2V4bUtjR1gtN3NNSGJHemRrbE1PeFp4MjlESU1qd2J4NWlFM2U5WFh3TS01WE1HRzk1Z2lYVElCZkE2M3pGRXRPc0N4NzdrV2RCNE14QmY4VDJ1SW80SE9yZERrTU9QdFdzbV9xU0xJS2tzcnRJSXU3MzZhV0FXYk1VYkZTbnBwMnFBMlJHQ1YybEt2RHFSemYtMlZ6LVhqcXZHZ0hLbEVpbWgyemNUMkk0aU5id1JYMkFfX0F1MlA4Mm9sZGpFZjJ5Wmdld1U0OEdzT0QzaGVZNkJXZHc?oc=5",
-      "published": "2026-04-14T04:48:12+00:00",
-      "source": {
-        "name": "News.de",
-        "url": "https://www.news.de"
       }
     },
     {
@@ -254,6 +224,36 @@
       }
     },
     {
+      "id": "40e4bca4ef7b",
+      "title": "Notdienst heute in Wolfsburg: Welche Apotheken und Ärzte haben am Dienstag Bereitschaft? - News.de",
+      "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQV0xBMlZzQlF1VGRoaU5DZmJPYmQxUHotYTFlT25taE9fczhYTEs2QlNScnVVU183R0x2Vk91NEs1TVNpMmlCLUFkNnRpaHIwcGVmYm5jUkFKS0FjTkdJOFBMNlVjdkZqN1Zwc2Y5Yjc0Y1JROGh1dFdyRzZzQUtHTGMzdzhQeHBaV1lkUjcwVXpfV0xveTdBbWNELVhLQ240T1M1ZnYxd0NHQXZjMVJzNVBUaUxkb2Z6WURlbjQzT1Y1RkZsamxsSHc4N1VkTGdtSVQ5TDhIMXZ0MmVtSUs3LVlEdU82bmRSQzZpYVhlTnlvTXI4SHl4UjZON3M0aGJXdldjVS1UTElfSzJX0gGSAkFVX3lxTFB3Wkx1d0VfdUx6V2pDYUVFQ2FDaG5xd2Rmbml3bDJKX19tSW1RaTc3T2hsa2d1U0FkNjJIa1M5anNjS3p0QmJOM3pWQXkyMU9qRXVNYnNNcVpnM21TbkF3YnppdzBrbG9JZXlEdUZOMGZLNkJfbjd2UFc5VXRNbW8wQ3ZiM3pkWnpJZnRjc2F5MnpEME0yQWVibEt1aGtheFRxU0xaUF96bkgxaEx5TkE1X3gxRGFPaTczM3VYY2d1WVRCS25NTUdzZDI1alJHekpHalhEWHVtc0VxajJldXpqY1VzNEdFcXM0U0xTOG90QnEtNDNWRkJsQmFuSjBEZ3RnRldXOTQybEtiblZ3cS1QQVE?oc=5",
+      "published": "2026-04-14T02:21:00+00:00",
+      "source": {
+        "name": "News.de",
+        "url": "https://www.news.de"
+      }
+    },
+    {
+      "id": "8498c03392a5",
+      "title": "Zuzahlungen gesetzlich Versicherter deutlich gestiegen - STERN.de",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVEc4OHNGUDlnejhVdENjZHJtamtxMHp2VzcwOHozdVM2cEdmc05CQktHYkNRd2phaWJPX2szaHJ6MWdqM09UeHNneURQVWlrZml5Q3FtaXMxOG9wSDhrdVpiQUJRN29yczJDWjBNSGtURGJlYUdlYTVJNTk4NVFMYUxva3V5RWFYZ21RYTZLekZtQzI2bTdZdnVR?oc=5",
+      "published": "2026-04-13T13:53:00+00:00",
+      "source": {
+        "name": "STERN.de",
+        "url": "https://www.stern.de"
+      }
+    },
+    {
+      "id": "481fee35c5f6",
+      "title": "Notdienst heute im Berchtesgadener Land: Kontakte für Apotheken-Notdienst und Bereitschaftsärzte am 14.04.2026 - News.de",
+      "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNVHNMMnY3dmhNY0p1Zm84cENZTXkwcDFjN2ZnVmtSOUttYml6UW5IblM1Qjd6Z3NtbTZfTHlCaG5TOWlDR0lBYktKT19nRmkzSFNaNVBxVnFGWEV2cFluMnlRTGlFQXlpNnJMaHhzUXN2Rk5rMkl5S2JnRkE2NmhvV2Y4NHgxNTVld2RtSmZFRVZDTWdlSUR6T0gtSUowajc4ZHp3bVk2YVJmcDJJRFZuNk9kbDNlelJ3bHIxLWV6eUp4b0JfR210c3BnUDJuM0J0enUyQVFObWpXWHNXeTFiS3pCVElORi1JbGlPNTZSd0tNVE5zaXZNZ2p2OW5xLXNvR1hoc19CaTE1TTdSMW9xWmU4YnlsVDlJMktz0gGgAkFVX3lxTE9nSFVTcDNrOExORFNQNmQtd2dpQWFtMDRsdUZvUU1BQzBmM1pXSTlycTZ3eExOeHhnelFQdHRqMXFCd0QtQUx4T2pyaWpDeGxCUHJKZUEtWlJURTk2RjY0a2VvTVZLY2dra0pyUXJybEUyTURSTl9qQkNFU1MxQi04MUNHaEtHOTd1d24wVjZxOUdJbUNjREhLWG9uR2l0ZWhaZGtwMzNwZ3A5Q2ZWUElrazYycW1zU1dkZUl2aFk4NXdnVEVVUFpFVmVtUWl0ekFqRmh6cFJhUTBsdVJoc1poRHhIVDVPUlBKa01BZzdweUlIbm5NNFVfbWw2RG44el9NN2pWOFZoMW9zWktFOEVQSUZsY2VsUjdYVjl1MURieg?oc=5",
+      "published": "2026-04-14T04:14:24+00:00",
+      "source": {
+        "name": "News.de",
+        "url": "https://www.news.de"
+      }
+    },
+    {
       "id": "b9464baea20f",
       "title": "Gesundheit - Auch SoVD fordert Maßnahmen gegen steigende Arzneimittelpreise - Deutschlandfunk",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNmF3c1ZhS2dyTG9MdkxYcjU4OHB6ZU8yNExEbkpFYVpBZWRfeDFWN3BHOS0wdVNheXF5Tzh0bGoxeTZONGw1R001LVNCWlI0UTNsNHo2cGFjbEw0V3B4dmZIbUVxYnhfb25tRDF6SXhvVUtZN0ZkaVFTZnZMYUg1MEZ2X0YwQ1hvWG54eTNVb09sNXlxUzd3cHVmdWJJbEJiNlI1ZjdB?oc=5",
@@ -264,6 +264,16 @@
       }
     },
     {
+      "id": "614b55b8056b",
+      "title": "Notdienst heute in Augsburg: Die Notapotheken und Bereitschaftsärzte am 14.04.2026 - News.de",
+      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPY2pndEN3dGtmWHJnME1RdzZkR0ZGRE8xLU9pcFRFNThpRG9nLWN3TW5UdkZXbnVoLVpZc2NHdXpEQ2pBRXZMZkIyZ3F4eTN2MkFEWTdNRTdtLUJ4ZWxSc0tta21sSTl4MGRfSklhQkY1cm5HTF8xb2YzVi1pRlB1MlJzaTdocjhBcnh1VGtReEpDeDk2Ui1nSWs3R0JxS2pEOThOTVZVZGNMTjRkSUs1OTN0ZHI5WWZDbDlqRllSd0lyYUh6d2FIbk5BREJwc1JOUTZFcUZweFJROHVkQlhOMGRGNGtmallfb1lzbl9ISGJoZm04V3YwSmEwLW4tVGZFMVpWcEVLZ3hWXzTSAZACQVVfeXFMTWlsLUx6ai1vWENEOWdvTUItZEtkWVloSGFlWlM3YkhJTjFDQkN0dkJ2Qlk3RGZkZmZsd2V4bUtjR1gtN3NNSGJHemRrbE1PeFp4MjlESU1qd2J4NWlFM2U5WFh3TS01WE1HRzk1Z2lYVElCZkE2M3pGRXRPc0N4NzdrV2RCNE14QmY4VDJ1SW80SE9yZERrTU9QdFdzbV9xU0xJS2tzcnRJSXU3MzZhV0FXYk1VYkZTbnBwMnFBMlJHQ1YybEt2RHFSemYtMlZ6LVhqcXZHZ0hLbEVpbWgyemNUMkk0aU5id1JYMkFfX0F1MlA4Mm9sZGpFZjJ5Wmdld1U0OEdzT0QzaGVZNkJXZHc?oc=5",
+      "published": "2026-04-14T04:48:12+00:00",
+      "source": {
+        "name": "News.de",
+        "url": "https://www.news.de"
+      }
+    },
+    {
       "id": "842e7f613a7b",
       "title": "Gesundheitsvorsorge - Arzneimittel-Überwachung - schleswig-holstein.de",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOeE80cXNlV3RkMlM5WUhkbVM5amVOZy0zdm9LMlN6dS1IRlVjMDJzcW9GWF9SMmdUUVd5dDJ0THpRejN5emROc180bmNuQjlGVWUwdE9mSFdHMUJyLVRfcTJoSHBRWDlFZ2tvSFlCNGtMTnpIV2dLQk5uMzY4YWY1U0N6cVdmdmdaVEoyTnlXc2x3bFNJT3NfckhVa1ZfZExJLVZRaXZEaW1abVVVQWVXTWg4MTg4WEU2bDFBaw?oc=5",
@@ -271,16 +281,6 @@
       "source": {
         "name": "schleswig-holstein.de",
         "url": "https://www.schleswig-holstein.de"
-      }
-    },
-    {
-      "id": "121e22c15b0e",
-      "title": "Notdienst heute im Landkreis Kronach: Bereitschaftsärzte und -apotheken am 14.04.2026 - News.de",
-      "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPWUZyM09GbnFTSmlRUDR1Q0ltUGV0TS1ucGthcEhhOEFmelJBTEZTY3VWTUtXSW1uVGRROEVvN1MtWFZ1WnNKMkNkSjhhbWdyTmR5aGtHY2dtZUUwdDdWOUFhSHJrZ1pxQXliMUhMd285cG04cUYyVzFLUXVlT0JQN2FqVEZOU3RZU09CWlBPWDdhSXRmNmdodnhwT3NHa3pDWlhodDY2UWo2NWEwYlBQQ0RDNndXWGdwZ3ltYVVsUjN1T2trbHRCeTV1X3JRZWZfbWJ4d05BMEhtb0dkOXV6QjVuc2dfeTFYalRpczMyTUtZTEpLLUloenJnS2JBamdaUXZMVkNvdWhFTk5sSHdERU9NOVR4cknSAZwCQVVfeXFMTjI1ZXlkZ0tCLUN3UWx5SFA5U2RreWJ1QV92WTYxYWZ1LW0xVC1XbnhrWDFaWTN5VDg2QTA1M2JZV0RJTmQ0QnQyUnlPYnBTbEVKSlBET0FyeHQtWXVidE9OdzRiNG45UGR6dXBIWGpmamRIRm1NY3lFa0p6QlMwVFd4MTJWd2lHX2VBYlBTVVZ5R0RDRmdfeHprUkRSQU5PNWJ3TUdjWTZhc0xwajBQZE1zS2V4ZUhsaG10cjFQRWRuVHlyQmZCd3Z4RVI1Q1I2R0NFSjVXZjBtMEZYVFowN2xHcTJWUzVjZEpRT01SdTNCal84eGRLTC1ROEx1NzdOMDdvUkJ6Q1RDR1I3ZGowdWNyQ0Z5MmVISWdTSkY?oc=5",
-      "published": "2026-04-14T04:35:19+00:00",
-      "source": {
-        "name": "News.de",
-        "url": "https://www.news.de"
       }
     },
     {
@@ -314,10 +314,10 @@
       }
     },
     {
-      "id": "e1dc4bbd489c",
-      "title": "Ärztin warnt : Diese frühen Parkinson-Symptome sollten Sie nicht ignorieren - News.de",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOWUhHMm9kXzBYaW96TVhZM2xUOC1BZU1zcElzRUF4WXJQaGtQRmtaOEp3UjVyU3hYLWNpd1YzX3FTcXhBcjdTdGlBQjJHR2VRODZRTEthYXpGd05wdWxZTHQ2WmNQdGh4STF5WVV1cWhPS212UUpINHNaYzlFWUU3MmlnS0FtMnF4WFk1dDRKaGRucC1jRlA1eTBJOTVfZzFPWDVfM3JDNmhFdldRQUNFZjBOWFIyRmZiODIxSVZtZUR4NWVXRXNMNkc5a0ZIY1g1OThkVzVHMHpBUndxZk9rZ2ZRRGRzcGhxdzNSWtIB8gFBVV95cUxPTzlXQUJCUC03Vm5teS1HdV9DYUI3N0o3ZV9wMEozS1pBYTdxSDNCU2pyMXdnbF93MWhlZXRSTmc3bVNNZlNCTHhZVUcwUVBiOXNab3VVWDNBTXpkU3FKRUFYX0UxYTZwdFV0aXRzR2xKcWdSYnZOc2xzNGU2eE5ZdkJ6Z2lkdEcwdjRrdmRMQl9qbFpDd3F3UndTTHY3b2JKajRzdXFfTktNSTR6SS1oaXkzNlZBcEhCR2NPeHM0WkFDVThZaHJHdndkYzhfMENUb01VTTlSY3g2T3otcElGZ3ZoV3UzSFRhc0JucFJtZHJ2QQ?oc=5",
-      "published": "2026-04-13T11:11:00+00:00",
+      "id": "121e22c15b0e",
+      "title": "Notdienst heute im Landkreis Kronach: Bereitschaftsärzte und -apotheken am 14.04.2026 - News.de",
+      "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPWUZyM09GbnFTSmlRUDR1Q0ltUGV0TS1ucGthcEhhOEFmelJBTEZTY3VWTUtXSW1uVGRROEVvN1MtWFZ1WnNKMkNkSjhhbWdyTmR5aGtHY2dtZUUwdDdWOUFhSHJrZ1pxQXliMUhMd285cG04cUYyVzFLUXVlT0JQN2FqVEZOU3RZU09CWlBPWDdhSXRmNmdodnhwT3NHa3pDWlhodDY2UWo2NWEwYlBQQ0RDNndXWGdwZ3ltYVVsUjN1T2trbHRCeTV1X3JRZWZfbWJ4d05BMEhtb0dkOXV6QjVuc2dfeTFYalRpczMyTUtZTEpLLUloenJnS2JBamdaUXZMVkNvdWhFTk5sSHdERU9NOVR4cknSAZwCQVVfeXFMTjI1ZXlkZ0tCLUN3UWx5SFA5U2RreWJ1QV92WTYxYWZ1LW0xVC1XbnhrWDFaWTN5VDg2QTA1M2JZV0RJTmQ0QnQyUnlPYnBTbEVKSlBET0FyeHQtWXVidE9OdzRiNG45UGR6dXBIWGpmamRIRm1NY3lFa0p6QlMwVFd4MTJWd2lHX2VBYlBTVVZ5R0RDRmdfeHprUkRSQU5PNWJ3TUdjWTZhc0xwajBQZE1zS2V4ZUhsaG10cjFQRWRuVHlyQmZCd3Z4RVI1Q1I2R0NFSjVXZjBtMEZYVFowN2xHcTJWUzVjZEpRT01SdTNCal84eGRLTC1ROEx1NzdOMDdvUkJ6Q1RDR1I3ZGowdWNyQ0Z5MmVISWdTSkY?oc=5",
+      "published": "2026-04-14T04:35:19+00:00",
       "source": {
         "name": "News.de",
         "url": "https://www.news.de"
@@ -371,6 +371,16 @@
       "source": {
         "name": "SWR",
         "url": "https://www.swr.de"
+      }
+    },
+    {
+      "id": "e1dc4bbd489c",
+      "title": "Ärztin warnt : Diese frühen Parkinson-Symptome sollten Sie nicht ignorieren - News.de",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOWUhHMm9kXzBYaW96TVhZM2xUOC1BZU1zcElzRUF4WXJQaGtQRmtaOEp3UjVyU3hYLWNpd1YzX3FTcXhBcjdTdGlBQjJHR2VRODZRTEthYXpGd05wdWxZTHQ2WmNQdGh4STF5WVV1cWhPS212UUpINHNaYzlFWUU3MmlnS0FtMnF4WFk1dDRKaGRucC1jRlA1eTBJOTVfZzFPWDVfM3JDNmhFdldRQUNFZjBOWFIyRmZiODIxSVZtZUR4NWVXRXNMNkc5a0ZIY1g1OThkVzVHMHpBUndxZk9rZ2ZRRGRzcGhxdzNSWtIB8gFBVV95cUxPTzlXQUJCUC03Vm5teS1HdV9DYUI3N0o3ZV9wMEozS1pBYTdxSDNCU2pyMXdnbF93MWhlZXRSTmc3bVNNZlNCTHhZVUcwUVBiOXNab3VVWDNBTXpkU3FKRUFYX0UxYTZwdFV0aXRzR2xKcWdSYnZOc2xzNGU2eE5ZdkJ6Z2lkdEcwdjRrdmRMQl9qbFpDd3F3UndTTHY3b2JKajRzdXFfTktNSTR6SS1oaXkzNlZBcEhCR2NPeHM0WkFDVThZaHJHdndkYzhfMENUb01VTTlSY3g2T3otcElGZ3ZoV3UzSFRhc0JucFJtZHJ2QQ?oc=5",
+      "published": "2026-04-13T11:11:00+00:00",
+      "source": {
+        "name": "News.de",
+        "url": "https://www.news.de"
       }
     },
     {
@@ -484,16 +494,6 @@
       }
     },
     {
-      "id": "2e456f10aad8",
-      "title": "SVR-Gutachten: Hohe Arzneimittelpreise bedrohen Gesundheitssystem - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdkVLanl4Z0F3bXFfWGJrcUZEZUNhdnhoeExVTWxYWTN3aXV2YUxmWDE3MXZRU0M1cHZNQl81MmRERmMzMWhzRnlRM3VCVzRHdnBFSHAxRmRDYjRVdkw2MmhNMTNQdlZaQ0lsaURKd1ZhTW41WTJzbmI0cDNDanNOSDRELUZja3Z3WDIwYVlfaGw1enVEdWdFbWN4Y3BiZw?oc=5",
-      "published": "2025-05-22T07:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "d704aebd5f1e",
       "title": "WHO stuft Semaglutid und Pembrolizumab als „unentbehrlich“ ein - Deutsche Apotheker Zeitung, DAZ",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOUFJCeFhmaFdoVWdibmt1NF9CY0g4MDJjMkJwWExsMnpzclhpRDZnTHRMbW5LakVnUWNyTkEzYUM0MW02a0d4eHp1a3JwT2pnVWV2TFo1Yy1hd2dpUWhNYkZyMjV2Y3NZMWV1djVSYS1HMXpmd2RUZjdGUmpqWHRzUm1SYTI5MGIwMUhsLXJ2dE9hUmNhakZfeVJwc085blNzZVBxSzVvZVM2Nlh2Vl9mUGpLejJBWnFsSUdaR0xZR1RtRng0?oc=5",
@@ -501,6 +501,16 @@
       "source": {
         "name": "Deutsche Apotheker Zeitung, DAZ",
         "url": "https://www.deutsche-apotheker-zeitung.de"
+      }
+    },
+    {
+      "id": "2e456f10aad8",
+      "title": "SVR-Gutachten: Hohe Arzneimittelpreise bedrohen Gesundheitssystem - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdkVLanl4Z0F3bXFfWGJrcUZEZUNhdnhoeExVTWxYWTN3aXV2YUxmWDE3MXZRU0M1cHZNQl81MmRERmMzMWhzRnlRM3VCVzRHdnBFSHAxRmRDYjRVdkw2MmhNMTNQdlZaQ0lsaURKd1ZhTW41WTJzbmI0cDNDanNOSDRELUZja3Z3WDIwYVlfaGw1enVEdWdFbWN4Y3BiZw?oc=5",
+      "published": "2025-05-22T07:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -991,16 +1001,6 @@
       "source": {
         "name": "gesundheit.de",
         "url": "https://www.gesundheit.de"
-      }
-    },
-    {
-      "id": "6cbda0656ed3",
-      "title": "Antibiotika-Mangel: Bayern erlaubt Einfuhr in Deutschland nicht zugelassener »geeigneter Arzneimittel - Spiegel",
-      "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOZlhqOFZIMlEtN055bGQ1VDRmYkN3M0p4ZzNyMEZKN203dTctdDdwTGltSkRMRzZUa09saFFfTlpXMUtweTRSZDU4WTlBUzBOTmJJdU5oOXktay1mRXFNdXFXSjFWaDJSS1BEZ0UtaWk1Tks4Z2Q4MDdsdHcwV1pGWV9CMTRJenFza2NTRUF0cUtKQjZQWFBfQVp4aUQ0SFEyZ2QyVW5QUVpHNUJHOVZaWG5LVFdONnQ4Y24tZmRtYnI4alJ5ajR4Nkktd0YzaURSOFhFUWZMejhXUUF3MmNPVnNVTjdpTVZLTXZja3laZmdYX3VUSF9WSnhIalRIQkJPZzF2OWRBTTc0VTRQLURmRA?oc=5",
-      "published": "2023-04-29T07:00:00+00:00",
-      "source": {
-        "name": "Spiegel",
-        "url": "https://www.spiegel.de"
       }
     }
   ]
