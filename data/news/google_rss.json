@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-15T09:22:28.139870+00:00",
+  "fetched_at": "2026-04-15T11:01:14.291864+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -54,16 +54,6 @@
       }
     },
     {
-      "id": "8aa4e7c0576c",
-      "title": "Warkens Milliarden-Sparpaket: Mehr Zuzahlung für Medikamente geplant - Apotheken Umschau",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUHFRRVRadFctTi1XOThDRkYtdkxoQ3Vsb2xLMVZOMWJDc2RfbjFsOG9iY005SzdWdTlaVlJmQ09KRWdBSy1MbTM1Z1VpN1lGSHU4NDYtbEVxOWYweUFlZXFodXF5R0E1bmpsc1RlbDJUM19kQ2RCTXZHTWYwaHdicHNYUEhrVTFBZThlZ2t5OVIzRmdmdnhLcEtraWVFX0gtcnZWMWdTTUtZeUFQMEdka2hZWEpMT0ZMSzZJdlVqX1NwVHBzNlFOSg?oc=5",
-      "published": "2026-04-14T17:45:12+00:00",
-      "source": {
-        "name": "Apotheken Umschau",
-        "url": "https://www.apotheken-umschau.de"
-      }
-    },
-    {
       "id": "7960bf3ef0f7",
       "title": "Krebsmedikament: Meistverkauftes Krebsmittel wird offenbar viel zu teuer verkauft - DIE ZEIT",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZUdKR1hQcHVBS3JEX3dma19JcW5GTmlCcmxGRmpKbHFwZzduVkpReEh1RnFiOUM2amRvRGl4Z0tDellhTUc1bzU1cl82T3J0N1hnYnVDZF9ERlpxU3JobkphRmRjVk55cjRUZ0tkTlFTZmRSYm0tQVpYSzBtb2xNclVkelpWaTJ5UXQ4TVNoUVFoeVd5RkpqanJqMWpmdw?oc=5",
@@ -74,13 +64,23 @@
       }
     },
     {
-      "id": "71769366d467",
-      "title": "Auf Versorgungssicherheit achten! - gesundheit adhoc",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4yMW93NXJkY1pKYktZMWpWWFRRRzkxNHZoYlBJRHR4OVQyakpwNnB2bDNxQ1huT0otY09HY2JIUWhNc3ZzWmNGN1NKcVlRdXV4Z1ZiVDJacWxuQTVuOWMyWjIzLVFyS2c3QTJ5bDRxSkNvOTQ?oc=5",
-      "published": "2026-04-14T13:45:05+00:00",
+      "id": "8aa4e7c0576c",
+      "title": "Warkens Milliarden-Sparpaket: Mehr Zuzahlung für Medikamente geplant - Apotheken Umschau",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUHFRRVRadFctTi1XOThDRkYtdkxoQ3Vsb2xLMVZOMWJDc2RfbjFsOG9iY005SzdWdTlaVlJmQ09KRWdBSy1MbTM1Z1VpN1lGSHU4NDYtbEVxOWYweUFlZXFodXF5R0E1bmpsc1RlbDJUM19kQ2RCTXZHTWYwaHdicHNYUEhrVTFBZThlZ2t5OVIzRmdmdnhLcEtraWVFX0gtcnZWMWdTTUtZeUFQMEdka2hZWEpMT0ZMSzZJdlVqX1NwVHBzNlFOSg?oc=5",
+      "published": "2026-04-14T17:45:12+00:00",
       "source": {
-        "name": "gesundheit adhoc",
-        "url": "https://www.gesundheit-adhoc.de"
+        "name": "Apotheken Umschau",
+        "url": "https://www.apotheken-umschau.de"
+      }
+    },
+    {
+      "id": "721f9d57230b",
+      "title": "Warken-Aussage: Homöopathie-Verband wehrt sich - Apotheke Adhoc",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOXpDRVFldkc4a0hxS0NoZmU4UER6YjRPTHF6THlvbGtmUjNNVGs2NThvLTBSYnZJN19hOG5vZEREdnpjSTZwRDFxNlVxZ2dPbEZ4TmZTTmp2TmRjc1QzblR0R09MV3pRamRBQUtjRHd6eGZ3VG40b1dUSWNSdW5NT1h1Q1VReXFFOG1MdWp5WEg3OFRYcXFxWlRhV1dKODhMdWtKSnNmVQ?oc=5",
+      "published": "2026-04-15T10:24:00+00:00",
+      "source": {
+        "name": "Apotheke Adhoc",
+        "url": "https://www.apotheke-adhoc.de"
       }
     },
     {
@@ -104,13 +104,13 @@
       }
     },
     {
-      "id": "9e778df21718",
-      "title": "Blockierte Straße von Hormus: Werden in Berlin jetzt die Medikamente knapp? - Berliner Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQNG9waUlCZTREUHlRa3lmWFJhZVd2SkptZEV3RnAyMXpUWmNDanBjbWJ4X3F0WW1relRPRV90N2YzQzRnRzlSdjJSd0MxZkpTaTdScWJIUEJmMGQzekJFQ0kwd1JWaVdoRFVjeFN3dUxXSFg5Sng4c2xFZG5fSzZHSl9abm5vanBGNHBJU2VTenZvYnZZcGUzV3NHMG9TcC1LNzdPOS1DMzJIWFZMNUMyTDlkbzJUb3c3WUkxOURCRFU2di1Nbk0tbmJrWkljR0RM?oc=5",
-      "published": "2026-04-14T17:50:53+00:00",
+      "id": "71769366d467",
+      "title": "Auf Versorgungssicherheit achten! - gesundheit adhoc",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4yMW93NXJkY1pKYktZMWpWWFRRRzkxNHZoYlBJRHR4OVQyakpwNnB2bDNxQ1huT0otY09HY2JIUWhNc3ZzWmNGN1NKcVlRdXV4Z1ZiVDJacWxuQTVuOWMyWjIzLVFyS2c3QTJ5bDRxSkNvOTQ?oc=5",
+      "published": "2026-04-14T13:45:05+00:00",
       "source": {
-        "name": "Berliner Zeitung",
-        "url": "https://www.berliner-zeitung.de"
+        "name": "gesundheit adhoc",
+        "url": "https://www.gesundheit-adhoc.de"
       }
     },
     {
@@ -134,16 +134,6 @@
       }
     },
     {
-      "id": "57a9991ed292",
-      "title": "Preis: Erhöhung der Zuzahlung nur mit „Augenmaß“ - Apotheke Adhoc",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWTVnaWNodXBYRGF2bFoycU5tUUliODREaFIzNEMtanlldFlUTlFYTDlNelRndzJtVmR0LXZVd0lSUWFubmRYMTZTZ3QzaGNJU1ZhVjU5ai0td1AwbWI5QVJyaFloQ2FSTmpQT05xaU80LUdURmtBMFZJbkVZZmdrVWRGN2lUUHl6bVBTM2R0bFAxb055WVMtR0FUeWRlUzFWNU9tdHp4Qlg?oc=5",
-      "published": "2026-04-13T11:43:00+00:00",
-      "source": {
-        "name": "Apotheke Adhoc",
-        "url": "https://www.apotheke-adhoc.de"
-      }
-    },
-    {
       "id": "d700b213e8a9",
       "title": "Apotheken-Chef: „Wir sehen eine gefährliche Schließungswelle“ - Hamburger Abendblatt",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdWRxNEROaHpWdmhLR2JGeklqc192YS1CVEZyaVV6dTQ0S0ZmWHhlYlFMcHZFYXNxaWNVUng2OFBwR0J2QmdRWlg1XzM5UlBVNWpYRmxEaHh0MzB4LWhnVUJtVEFIamkyXzlhMnZ4ZTJyb1ExYmVZcVdKNUVPQjUyeW5ZZzhSb0dVWmx5TnhadHBPbG5rRGNfVFZrSExDTGVQa0pHUjB5RUM0MUllSFBTVTVucnFwNDBVVmZIbnRn?oc=5",
@@ -151,16 +141,6 @@
       "source": {
         "name": "Hamburger Abendblatt",
         "url": "https://www.abendblatt.de"
-      }
-    },
-    {
-      "id": "594763871047",
-      "title": "Neue Daten zu verschreibungsfreien Arzneimitteln: Gesamtumsatz wächst, insbesondere ... - Presseportal",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5MTkxSLUpNWm5VUnozU20zazVaYUQxekoyVDdpRzBWQTc3NDVCb2J4aEt3ZzlfT2xlMm5wb1FjYkxic0htbmM0S254cUt5bWViempaNlR5aw?oc=5",
-      "published": "2026-04-14T09:23:52+00:00",
-      "source": {
-        "name": "Presseportal",
-        "url": "https://www.presseportal.de"
       }
     },
     {
@@ -174,6 +154,16 @@
       }
     },
     {
+      "id": "b69b57064071",
+      "title": "DAK-Gesundheit will Kassenfinanzen durch mehr Wettbewerb bei Arzneimitteln stärken – News - Deutsches Ärzteblatt",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNSFVfMENtRmFjWDdSNjR1YWRjZzBlLTRIY3d4WEZKOXRVYlNmeFA1UmVaM1MtTjVjaXUyRVhmYTJ3NU5fQmZfdktXRXRkN054Rmh5d3FuNXRodHZDd1ZkcFE3YWxLWXFiQlF0MzRXcjd5d2pWcVpxTDdpdVdmZUVhSlU0S0pZWXFENTBwNnZIb3dTWkQ4eG9lQWstRjBjOEZQYThlLTFVbXJQVXp4ajBuSTNWb1M4TkxZMjAzX3ZwZGVwaGREbkNhSTUyVkJrVGlwM2pwYXdlX1pPVGRLWkcwV1dBeEVZdw?oc=5",
+      "published": "2026-03-16T07:00:00+00:00",
+      "source": {
+        "name": "Deutsches Ärzteblatt",
+        "url": "https://www.aerzteblatt.de"
+      }
+    },
+    {
       "id": "8c7ff2b14fda",
       "title": "Statistisches Bundesamt: Gesundheitsausgaben haben sich verdreifacht - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxONXg5R0tIYVN3MlVOdkNGbWd2TFNVVXVNWmJGNlFKcTRIc1dSNl9QQjFYRnFkTmNwYjNnR0k3M2VNNFhiSVdBTmNDWlN5SG1GS2RhWndidWR1RmpYRGkxOThqaEtzMGcwTXZXem1wT3JkVFl2bTdWdzBlN1dlZUlsdmsyM2xZc2ZtVDU4UXB6TlUwdzNFelZ3TXVSQllpbmo4NC00RFo4c0dYZFk4RFlFS2xSeGRwWHA1UWdMSWI2OWt0YzBmdGwtSDlLdFk4VGNHelJR?oc=5",
@@ -181,6 +171,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "57a9991ed292",
+      "title": "Preis: Erhöhung der Zuzahlung nur mit „Augenmaß“ - Apotheke Adhoc",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWTVnaWNodXBYRGF2bFoycU5tUUliODREaFIzNEMtanlldFlUTlFYTDlNelRndzJtVmR0LXZVd0lSUWFubmRYMTZTZ3QzaGNJU1ZhVjU5ai0td1AwbWI5QVJyaFloQ2FSTmpQT05xaU80LUdURmtBMFZJbkVZZmdrVWRGN2lUUHl6bVBTM2R0bFAxb055WVMtR0FUeWRlUzFWNU9tdHp4Qlg?oc=5",
+      "published": "2026-04-13T11:43:00+00:00",
+      "source": {
+        "name": "Apotheke Adhoc",
+        "url": "https://www.apotheke-adhoc.de"
       }
     },
     {
@@ -201,16 +201,6 @@
       "source": {
         "name": "Apotheke Adhoc",
         "url": "https://www.apotheke-adhoc.de"
-      }
-    },
-    {
-      "id": "b69b57064071",
-      "title": "DAK-Gesundheit will Kassenfinanzen durch mehr Wettbewerb bei Arzneimitteln stärken – News - Deutsches Ärzteblatt",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNSFVfMENtRmFjWDdSNjR1YWRjZzBlLTRIY3d4WEZKOXRVYlNmeFA1UmVaM1MtTjVjaXUyRVhmYTJ3NU5fQmZfdktXRXRkN054Rmh5d3FuNXRodHZDd1ZkcFE3YWxLWXFiQlF0MzRXcjd5d2pWcVpxTDdpdVdmZUVhSlU0S0pZWXFENTBwNnZIb3dTWkQ4eG9lQWstRjBjOEZQYThlLTFVbXJQVXp4ajBuSTNWb1M4TkxZMjAzX3ZwZGVwaGREbkNhSTUyVkJrVGlwM2pwYXdlX1pPVGRLWkcwV1dBeEVZdw?oc=5",
-      "published": "2026-03-16T07:00:00+00:00",
-      "source": {
-        "name": "Deutsches Ärzteblatt",
-        "url": "https://www.aerzteblatt.de"
       }
     },
     {
@@ -584,16 +574,6 @@
       }
     },
     {
-      "id": "0447c2c7ef81",
-      "title": "Vorhofflimmern: Schlaganfall durch Medikamente oder Kathetereingriff verhindern - NDR.de",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQM0NpRnFwS3BNMWRQWkNzb01OM1MwejQyMXNnLUJ0RFlMLURkcjhLeVhUcjdkMUhuUWxqdmQ5Tm8wbm9INGdldWc2NDhJeXBodENEUWF3SWhEZ3ptTEVHOFFUd3ZfNHUyczdCYXBBWk9lVVV4Qm5CSlVMVUtqLWo5T1dKUS1aUERlM3NzbnRBSThiZFF2OFhteVJrZF9TbHp1YjJUQnZNV2d1TFMxY2NndGY1MmVnODRfSFFPSDVRUQ?oc=5",
-      "published": "2025-10-17T07:00:00+00:00",
-      "source": {
-        "name": "NDR.de",
-        "url": "https://www.ndr.de"
-      }
-    },
-    {
       "id": "66cb0c435804",
       "title": "Maßnahmen der EU zur Verbesserung der öffentlichen Gesundheit - European Parliament",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVzhCNzVfWlJpeVRpVnRlZDB1VDB6WVBfYzJsbk1qSVVTMEo0OWVjWEhFQTdyWHV4Ym1GemQtUHBkU3ZxVmI1R0lPVzE3SVN0Qzd2OW5JSVRKUjkyX3dadEVIb2pGdzRxOU01QVRQMXEzaTJ3VjVPTTN3MmN4TVdlUlZKTTdUZGM1R3hwT19HWVRKckhyeWVKYmxYSjJMSWZSZVhWSWc5dnBXcjBQdlk2TG5WcV9hOGpXX29fWm1tdTFVcmJPU1Jr?oc=5",
@@ -601,6 +581,16 @@
       "source": {
         "name": "European Parliament",
         "url": "https://www.europarl.europa.eu"
+      }
+    },
+    {
+      "id": "0447c2c7ef81",
+      "title": "Vorhofflimmern: Schlaganfall durch Medikamente oder Kathetereingriff verhindern - NDR.de",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQM0NpRnFwS3BNMWRQWkNzb01OM1MwejQyMXNnLUJ0RFlMLURkcjhLeVhUcjdkMUhuUWxqdmQ5Tm8wbm9INGdldWc2NDhJeXBodENEUWF3SWhEZ3ptTEVHOFFUd3ZfNHUyczdCYXBBWk9lVVV4Qm5CSlVMVUtqLWo5T1dKUS1aUERlM3NzbnRBSThiZFF2OFhteVJrZF9TbHp1YjJUQnZNV2d1TFMxY2NndGY1MmVnODRfSFFPSDVRUQ?oc=5",
+      "published": "2025-10-17T07:00:00+00:00",
+      "source": {
+        "name": "NDR.de",
+        "url": "https://www.ndr.de"
       }
     },
     {
@@ -644,16 +634,6 @@
       }
     },
     {
-      "id": "eabdf461cf2c",
-      "title": "Krankheiten in Entwicklungsländern: Von AIDS bis Malaria - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNajlZV3pZZ21RVEpqY3NRbmEzdnVfOVNfS2ppem8yaGN5dHRyTG4xZzhHZ3JHdXhNREZQM2g4V0xEbE5XWXRKMWl4aERONXh5YVd4R1BuVkg3VlVFQzJqcEhWakVwd1pnN3BCNW5GX2ZxVUtIRWJyU3BDYTlaMkpVYjRwZTZJS1RmTTZvZ1FaZ2FiU2hkZ29TczJwdUtpOVA2X0oydkRRamhadmhxN00yT0ZHZVdxS1ZiT09lMGEzS3RFUjdnV0VfT0JtampJaUYyMk44WUEtaGp3SmNsM3pFdGRtWFBnQTZZR29uRHc0a2NXUkhG?oc=5",
-      "published": "2025-02-22T11:53:28+00:00",
-      "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
-      }
-    },
-    {
       "id": "7ec5dd3b2de7",
       "title": "Der besseren Zugänglichkeit neuartiger Arzneimittel einen Schritt näher - World Health Organization (WHO)",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWFdDMjNkUmRfZGZEcmtCREJrU0FKZVhObWw5ZGxuZVBJMVo5alUyc1Z6ZjI5YjJYVzhrOTFYbVJJamdJYUZiY1haT1hjUGpWSWhrb0Exd1B2U0htVkVFUnpmQTRpdVV4R1hZcUFnakg4dUdGTUxYQUgtYlhJWHFJUC1MUXpLVmNPN25PSG9MUWl6TnpNenJGRGxZQWd2RXlvbnlDRUdsOHVqZjJJ?oc=5",
@@ -661,6 +641,16 @@
       "source": {
         "name": "World Health Organization (WHO)",
         "url": "https://www.who.int"
+      }
+    },
+    {
+      "id": "eabdf461cf2c",
+      "title": "Krankheiten in Entwicklungsländern: Von AIDS bis Malaria - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNajlZV3pZZ21RVEpqY3NRbmEzdnVfOVNfS2ppem8yaGN5dHRyTG4xZzhHZ3JHdXhNREZQM2g4V0xEbE5XWXRKMWl4aERONXh5YVd4R1BuVkg3VlVFQzJqcEhWakVwd1pnN3BCNW5GX2ZxVUtIRWJyU3BDYTlaMkpVYjRwZTZJS1RmTTZvZ1FaZ2FiU2hkZ29TczJwdUtpOVA2X0oydkRRamhadmhxN00yT0ZHZVdxS1ZiT09lMGEzS3RFUjdnV0VfT0JtampJaUYyMk44WUEtaGp3SmNsM3pFdGRtWFBnQTZZR29uRHc0a2NXUkhG?oc=5",
+      "published": "2025-02-22T11:53:28+00:00",
+      "source": {
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
       }
     },
     {
@@ -954,16 +944,6 @@
       }
     },
     {
-      "id": "cbf5bfab836c",
-      "title": "Gesundheit: Apotheker warnen vor Medikamentenmangel in der Erkältungssaison - DIE ZEIT",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMkcwTzBhbEs3YzVGUEhuMEZVdmZIQTVBV3ozand0aTNhNkpsazlJaGR2Q1VnMHhiWUd2ZEJKWjY0RjFYYnZsTzhmR2UxNVdQVnc3UXpOSUExNlRtZmVPZDBneHVILW1vVlVTS0ZTaFotNUFEMzREZmowYXJ3S0VzMWVZc0pPb3ByQ3ZWRXFpU0RmOEQ3b3dlV2Z3?oc=5",
-      "published": "2024-09-20T07:00:00+00:00",
-      "source": {
-        "name": "DIE ZEIT",
-        "url": "https://www.zeit.de"
-      }
-    },
-    {
       "id": "76cff402af57",
       "title": "Darum ist der Medikamentenmangel so schwer zu lösen - quarks.de",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQU0tLSmtjWGNpazVzOXJNcGIxRVM3SWNpYkZYNnRsV3Z3RllCRmRIYks3UmZVUEZKUC13ZWFiMlF4UzhITEV5TWRVcVZLUHhBTWt5UFVVQ0dBYjVndnRSNThZb0YwelMyWUFXQ01aOG1FNnliZ0tCVDZGX2tuVnV4aHd1ZVFxeWV1aXg0SlcxZWdXMGlWV1ZzaERmTkJMblg1ckJv?oc=5",
@@ -971,6 +951,16 @@
       "source": {
         "name": "quarks.de",
         "url": "https://www.quarks.de"
+      }
+    },
+    {
+      "id": "cbf5bfab836c",
+      "title": "Gesundheit: Apotheker warnen vor Medikamentenmangel in der Erkältungssaison - DIE ZEIT",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMkcwTzBhbEs3YzVGUEhuMEZVdmZIQTVBV3ozand0aTNhNkpsazlJaGR2Q1VnMHhiWUd2ZEJKWjY0RjFYYnZsTzhmR2UxNVdQVnc3UXpOSUExNlRtZmVPZDBneHVILW1vVlVTS0ZTaFotNUFEMzREZmowYXJ3S0VzMWVZc0pPb3ByQ3ZWRXFpU0RmOEQ3b3dlV2Z3?oc=5",
+      "published": "2024-09-20T07:00:00+00:00",
+      "source": {
+        "name": "DIE ZEIT",
+        "url": "https://www.zeit.de"
       }
     },
     {
@@ -1001,6 +991,16 @@
       "source": {
         "name": "Euractiv DE",
         "url": "https://euractiv.de"
+      }
+    },
+    {
+      "id": "82e54bb7a02b",
+      "title": "Webinar Gesundheitswirtschaft in Angola | Event | Angola | Arzneimittel, Diagnostika - Germany Trade & Invest (GTAI)",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9EZ19UTzZUV3U3cFVMXzZ2cDZCX1ZzNjVIeThlT0hIWmFXOG0tc0YwQUoxOENDVkNSTllTaVhSRnBKU25iT2J5aG9Qb1UzS1RLaFBSOWFrdFRFc1VzVk1scnJOeW4yc195NkkzZnJLSFcwRnVXZkpwN0Zn?oc=5",
+      "published": "2025-02-26T08:00:00+00:00",
+      "source": {
+        "name": "Germany Trade & Invest (GTAI)",
+        "url": "https://www.gtai.de"
       }
     }
   ]
