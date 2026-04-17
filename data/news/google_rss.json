@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-17T17:51:17.681121+00:00",
+  "fetched_at": "2026-04-17T19:04:31.805286+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -14,26 +14,6 @@
       }
     },
     {
-      "id": "0da7dc1c7e9a",
-      "title": "Wie viel darf Gesundheit kosten? Streit um Medikamentenpreise eskaliert - WirtschaftsWoche",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMEkzamFzeFFHZEk3NjFIbFJmYjZvajlGOVMtcHo3aUZsWFlvdkcyMzFTODZXZFM1dWhNWU1lT3FVVDk4dlduRjBqV2paSEFVbkE2YWktMVJIanA4U3J2QW1rMnFtOUljc0pXb2hEbVNSWkxYdGlkRHRMRGE3aGpSYjlrU0FzN0RjN1dhWkJWZldkUmVpbm9xbXpSZmR3b0xGR2ZXQmdvVVZ4bWh5bmVNbkdOOU1rNEdiZElEc0NEeDE3LXpqVkE?oc=5",
-      "published": "2026-04-16T07:00:00+00:00",
-      "source": {
-        "name": "WirtschaftsWoche",
-        "url": "https://www.wiwo.de"
-      }
-    },
-    {
-      "id": "b613c8182864",
-      "title": "AOK: Evidenz-Regeln für teure Arzneimittel - Apotheke Adhoc",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVU1UVVFNOEhNMWU1c1hISHVkSW5GSlFXNFNOYXVxaHNLTkRxME9OeEtsNk5nNjF5VUt5VGFTZ3RiejE4Y3J0YVprTmRZQWtVcXlfc0tfQXhoLTFjZXRLR1ZvMGV2d1ByTlFJU3hNM1BkUTU1YXV1aEMxNFY2eWduc2JmdHdxZkk1TGhudjZ0VFFxRk9wWWV4S0traTdiWlZkV0E?oc=5",
-      "published": "2026-04-17T12:12:00+00:00",
-      "source": {
-        "name": "Apotheke Adhoc",
-        "url": "https://www.apotheke-adhoc.de"
-      }
-    },
-    {
       "id": "3611ed690371",
       "title": "(S+) Wie teure Krebsmedikamente das Gesundheitssystem sprengen könnten - Spiegel",
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNOUFWLTYwSFp0U194b0duNHVfbTVjbzFKVUV0WG1MS1FkQ2hYdmg2OGp1dnlEQTk4SjVNUEpkWWpRaTVFZFFmcjFiNC02WXNvSEhIbmdUNDk4emxWQ2VnWWtHMUotcWhXUnVsMExGRWNvdllPcUd3dVRZTWR2ZUEteWZTeFEyS1M5ZzZqZUxDSUI2RTRqMnU4MVF4SEthWm1vZEd1YjZWYjZoLUIwRTlaZTVtRXZoZERXWC1DUGhLelpNZ0M2RXFQeDU4XzBfQ3ZWUFJUdDBVcDh2aExzVmc?oc=5",
@@ -41,6 +21,16 @@
       "source": {
         "name": "Spiegel",
         "url": "https://www.spiegel.de"
+      }
+    },
+    {
+      "id": "0da7dc1c7e9a",
+      "title": "Wie viel darf Gesundheit kosten? Streit um Medikamentenpreise eskaliert - WirtschaftsWoche",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMEkzamFzeFFHZEk3NjFIbFJmYjZvajlGOVMtcHo3aUZsWFlvdkcyMzFTODZXZFM1dWhNWU1lT3FVVDk4dlduRjBqV2paSEFVbkE2YWktMVJIanA4U3J2QW1rMnFtOUljc0pXb2hEbVNSWkxYdGlkRHRMRGE3aGpSYjlrU0FzN0RjN1dhWkJWZldkUmVpbm9xbXpSZmR3b0xGR2ZXQmdvVVZ4bWh5bmVNbkdOOU1rNEdiZElEc0NEeDE3LXpqVkE?oc=5",
+      "published": "2026-04-16T07:00:00+00:00",
+      "source": {
+        "name": "WirtschaftsWoche",
+        "url": "https://www.wiwo.de"
       }
     },
     {
@@ -94,16 +84,6 @@
       }
     },
     {
-      "id": "6c74727cf3c9",
-      "title": "Sind Tampons schlecht für die Vaginalflora? – Wann man auf sie verzichten sollte - Öko-Test",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOYl9wMnFrNFpNLXpOVXZ1R05RcWRQNm9Yb2poeDR4ZDNHRlFRVzFUbTFVc09HelVRVFItVG5VWkZtV2ZEMU96SnB4WVdlajM5djBYLTN0UjRuanlNT0hwb1I5NDRaY29kTTM3U1dYSFloSHcza1dRNVdGMVRjcXZOM3NkaUNSN0VLeTlUbTNNSFNGWXJqZkpKQUo4QldEb18yOVEyT2hCR3g3dVRXVFN1SzFkdWdrWWhCYVU4M2txcHNrNnhPQ21KaHI4Y3BLdWFaTDVNS1JB?oc=5",
-      "published": "2026-04-17T05:31:17+00:00",
-      "source": {
-        "name": "Öko-Test",
-        "url": "https://www.oekotest.de"
-      }
-    },
-    {
       "id": "0a43b4a0bde8",
       "title": "Festbetrags-Beschluss zu Depot-Antipsychotika legt strukturelle Schwächen des Arzneimittelmarktes offen - gesundheit adhoc",
       "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxObEY1ZFVZZ2thajg1N3ZteUNFQXRhLTZkMzVoeVl3S0Z2Tk1JMjZDc1daNE1tUlFYQUdTRE5kXzBSZnZUWTJ2VWFYYWZKQ3R5THcxVElGNEJJaFJhRTRqaVJkb0oycDVoTDZ1eldVc1BBalpqTVhQMmxnQnhIWkhLaVYwUWo3UVRBeFFQaHV4TTNjQnlPV00wQVd6eHRjbEZ2QVBVbnMxOGp5MEpkY0xRM3J1azNETjlMbHhoMGFjbi04aUFhamI3VVRwU01SR2kwZmlB?oc=5",
@@ -124,13 +104,23 @@
       }
     },
     {
-      "id": "989c0bd21bc2",
-      "title": "Viele nehmen es „vorsorglich“ – schützt tägliches Aspirin wirklich vor Demenz? - FITBOOK",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUnlVZm03MFpvZndjRmY5QkhrbENaaUdNYkJpV2VpUXAza2FsSjNkcmgwRWczTm5yMHpTR0R2YkVIOEJPQWh2UDlma1Q5NVBaM3pGTGRYbUZfcE0zUFBta1ZkYUJ1WUFPR2hTM3pOdi1ya1BuajdPcGtjZ09wV0NwRFlvSEFIMk16dU9CcHpKVDY1Vmd6bnFyRnFLVGhBYVp5QTgtNkNFOHE3bFdoT1E?oc=5",
-      "published": "2026-04-17T15:09:00+00:00",
+      "id": "6c74727cf3c9",
+      "title": "Sind Tampons schlecht für die Vaginalflora? – Wann man auf sie verzichten sollte - Öko-Test",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOYl9wMnFrNFpNLXpOVXZ1R05RcWRQNm9Yb2poeDR4ZDNHRlFRVzFUbTFVc09HelVRVFItVG5VWkZtV2ZEMU96SnB4WVdlajM5djBYLTN0UjRuanlNT0hwb1I5NDRaY29kTTM3U1dYSFloSHcza1dRNVdGMVRjcXZOM3NkaUNSN0VLeTlUbTNNSFNGWXJqZkpKQUo4QldEb18yOVEyT2hCR3g3dVRXVFN1SzFkdWdrWWhCYVU4M2txcHNrNnhPQ21KaHI4Y3BLdWFaTDVNS1JB?oc=5",
+      "published": "2026-04-17T05:31:17+00:00",
       "source": {
-        "name": "FITBOOK",
-        "url": "https://www.fitbook.de"
+        "name": "Öko-Test",
+        "url": "https://www.oekotest.de"
+      }
+    },
+    {
+      "id": "3946e52c2427",
+      "title": "Gürpinar: Höhere Zuzahlung geht an Lebensrealität vorbei - apotheke adhoc",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSTdUVGdEd2Y1VGhrLUREVzRrQTkycnYyemozM1Brc0llRzl2NlhXUllUdWphb3lidjlCanU0a0ZLMnMxZUExR1ZxT3FvTHUycm9sNTNMcWduT0MzcHgwZURENU5jVHV2QXR6T2VCSGdCWkxVaUhlVW9QdXlQWk9BN0Rqdi1NbExsb0tiOVRoM24xT0sxRGhCTFRETWVLOFd2SHhoZlg0N0JTcDg3N0JzT0dMTDRTSDQ?oc=5",
+      "published": "2026-04-14T16:16:00+00:00",
+      "source": {
+        "name": "apotheke adhoc",
+        "url": "https://www.apotheke-adhoc.de"
       }
     },
     {
@@ -141,6 +131,16 @@
       "source": {
         "name": "News.de",
         "url": "https://www.news.de"
+      }
+    },
+    {
+      "id": "989c0bd21bc2",
+      "title": "Viele nehmen es „vorsorglich“ – schützt tägliches Aspirin wirklich vor Demenz? - FITBOOK",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUnlVZm03MFpvZndjRmY5QkhrbENaaUdNYkJpV2VpUXAza2FsSjNkcmgwRWczTm5yMHpTR0R2YkVIOEJPQWh2UDlma1Q5NVBaM3pGTGRYbUZfcE0zUFBta1ZkYUJ1WUFPR2hTM3pOdi1ya1BuajdPcGtjZ09wV0NwRFlvSEFIMk16dU9CcHpKVDY1Vmd6bnFyRnFLVGhBYVp5QTgtNkNFOHE3bFdoT1E?oc=5",
+      "published": "2026-04-17T15:09:00+00:00",
+      "source": {
+        "name": "FITBOOK",
+        "url": "https://www.fitbook.de"
       }
     },
     {
@@ -164,6 +164,16 @@
       }
     },
     {
+      "id": "9e778df21718",
+      "title": "Blockierte Straße von Hormus: Werden in Berlin jetzt die Medikamente knapp? - Berliner Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQNG9waUlCZTREUHlRa3lmWFJhZVd2SkptZEV3RnAyMXpUWmNDanBjbWJ4X3F0WW1relRPRV90N2YzQzRnRzlSdjJSd0MxZkpTaTdScWJIUEJmMGQzekJFQ0kwd1JWaVdoRFVjeFN3dUxXSFg5Sng4c2xFZG5fSzZHSl9abm5vanBGNHBJU2VTenZvYnZZcGUzV3NHMG9TcC1LNzdPOS1DMzJIWFZMNUMyTDlkbzJUb3c3WUkxOURCRFU2di1Nbk0tbmJrWkljR0RM?oc=5",
+      "published": "2026-04-14T17:50:53+00:00",
+      "source": {
+        "name": "Berliner Zeitung",
+        "url": "https://www.berliner-zeitung.de"
+      }
+    },
+    {
       "id": "f3df140de00e",
       "title": "Alzheimer-Medikament: Neue Studie dämpft Hoffnung auf monoklonale Antikörper - Spiegel",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQLXZERnNGSVpHVHBPV29iTS0xZUV6NjVaNWRwUlZRNUR3NTU0VTc3aHRQbEhpSGxEUUI1RS1YUnN4bEZHWThDSmpfUkttb3A0NGNsSEpzLWlsSk5PMl8yTFFZc3FHSmVNb1B4OWVzT0hCSTVpbnRoTTZtRjhyTU5FLTFaeXpRbzJ3N0J4bEJKUXc0MTZpeDlHQWUxOV9aN2NWNnExVmx4STRSeTJSSXUya1V3S3QzWmtLd05MOEZYbm50QXc5bWFqbzZfbVpYSl9sTkpRYktn?oc=5",
@@ -171,16 +181,6 @@
       "source": {
         "name": "Spiegel",
         "url": "https://www.spiegel.de"
-      }
-    },
-    {
-      "id": "d410b06dc463",
-      "title": "Gürpinar: Höhere Zuzahlung geht an Lebensrealität vorbei - Apotheke Adhoc",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSTdUVGdEd2Y1VGhrLUREVzRrQTkycnYyemozM1Brc0llRzl2NlhXUllUdWphb3lidjlCanU0a0ZLMnMxZUExR1ZxT3FvTHUycm9sNTNMcWduT0MzcHgwZURENU5jVHV2QXR6T2VCSGdCWkxVaUhlVW9QdXlQWk9BN0Rqdi1NbExsb0tiOVRoM24xT0sxRGhCTFRETWVLOFd2SHhoZlg0N0JTcDg3N0JzT0dMTDRTSDQ?oc=5",
-      "published": "2026-04-14T16:16:00+00:00",
-      "source": {
-        "name": "Apotheke Adhoc",
-        "url": "https://www.apotheke-adhoc.de"
       }
     },
     {
@@ -204,26 +204,6 @@
       }
     },
     {
-      "id": "1fb581787114",
-      "title": "Medikamenten-Flut bei Senioren zwingt zum digitalen Umdenken - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOek02clc5X3VBRTV1LUNWV3otTTRnOTJHNjNjTFEzZ1dLd0tEenBDcUZreEl6akpwbUlJZUFCMlN2dExkQkJjUDV4Q3UyOVg5b0FDRU5IN1ljZThvSDNPaVg5cExVZkNBcnEwYkVTUjNvV1B0M0hBSUxoQU15OHZCbWtaZkZ5N1ZxWm8yaWJCX3RvdU42YkxwTUdtUi1KbERNRjBsamlNVmVvN19BVGVrWDQ5RTFTSXFORFdn?oc=5",
-      "published": "2026-04-16T20:11:37+00:00",
-      "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
-      "id": "9e778df21718",
-      "title": "Blockierte Straße von Hormus: Werden in Berlin jetzt die Medikamente knapp? - Berliner Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQNG9waUlCZTREUHlRa3lmWFJhZVd2SkptZEV3RnAyMXpUWmNDanBjbWJ4X3F0WW1relRPRV90N2YzQzRnRzlSdjJSd0MxZkpTaTdScWJIUEJmMGQzekJFQ0kwd1JWaVdoRFVjeFN3dUxXSFg5Sng4c2xFZG5fSzZHSl9abm5vanBGNHBJU2VTenZvYnZZcGUzV3NHMG9TcC1LNzdPOS1DMzJIWFZMNUMyTDlkbzJUb3c3WUkxOURCRFU2di1Nbk0tbmJrWkljR0RM?oc=5",
-      "published": "2026-04-14T17:50:53+00:00",
-      "source": {
-        "name": "Berliner Zeitung",
-        "url": "https://www.berliner-zeitung.de"
-      }
-    },
-    {
       "id": "409ee45ef2a8",
       "title": "»Spar­po­li­tik bei Arz­nei­mit­teln ist ein Irr­weg« - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZ3BYbThQLUVqMndzcmZ2RzJRTW5vb1o4dGhibU52alc0SUtlbFkxMkhCS1puYnNnelNOcnVtSl9iejVRNU1sNGxvZ0lZZVZkaWNnRGhWVWsxT1JobThfRzFVdnh6Q25Idzl3aGZZaThYdHBRYTUzNHRpX2VNZ0dGWHBjd3VEbDdERlhjOHhubnhHLXB2OWc?oc=5",
@@ -231,6 +211,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "1fb581787114",
+      "title": "Medikamenten-Flut bei Senioren zwingt zum digitalen Umdenken - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOek02clc5X3VBRTV1LUNWV3otTTRnOTJHNjNjTFEzZ1dLd0tEenBDcUZreEl6akpwbUlJZUFCMlN2dExkQkJjUDV4Q3UyOVg5b0FDRU5IN1ljZThvSDNPaVg5cExVZkNBcnEwYkVTUjNvV1B0M0hBSUxoQU15OHZCbWtaZkZ5N1ZxWm8yaWJCX3RvdU42YkxwTUdtUi1KbERNRjBsamlNVmVvN19BVGVrWDQ5RTFTSXFORFdn?oc=5",
+      "published": "2026-04-16T20:11:37+00:00",
+      "source": {
+        "name": "AD HOC NEWS",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -264,12 +254,22 @@
       }
     },
     {
-      "id": "721f9d57230b",
-      "title": "Warken-Aussage: Homöopathie-Verband wehrt sich - Apotheke Adhoc",
+      "id": "25244c5c644e",
+      "title": "AOK zum Pharmadialog: Bürokratieabbau beim AMNOG darf nicht zulasten der Evidenz gehen - Presseportal",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4zVDFic3FlUzFzbnFhX2Zrb2J5ZXZ3OE12VFRxY1lDSi13ek5rZkVVekthdDZUSk43SXZWeXAzdjJMdGk0MFV4TWl3V2N4SjlSQlNVcUN3?oc=5",
+      "published": "2026-04-16T11:27:21+00:00",
+      "source": {
+        "name": "Presseportal",
+        "url": "https://www.presseportal.de"
+      }
+    },
+    {
+      "id": "f138995af495",
+      "title": "Warken-Aussage: Homöopathie-Verband wehrt sich - apotheke adhoc",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOXpDRVFldkc4a0hxS0NoZmU4UER6YjRPTHF6THlvbGtmUjNNVGs2NThvLTBSYnZJN19hOG5vZEREdnpjSTZwRDFxNlVxZ2dPbEZ4TmZTTmp2TmRjc1QzblR0R09MV3pRamRBQUtjRHd6eGZ3VG40b1dUSWNSdW5NT1h1Q1VReXFFOG1MdWp5WEg3OFRYcXFxWlRhV1dKODhMdWtKSnNmVQ?oc=5",
       "published": "2026-04-15T10:24:00+00:00",
       "source": {
-        "name": "Apotheke Adhoc",
+        "name": "apotheke adhoc",
         "url": "https://www.apotheke-adhoc.de"
       }
     },
@@ -284,16 +284,6 @@
       }
     },
     {
-      "id": "23a2458121ac",
-      "title": "Studie beweist: Neues Medikament reduziert Folge-Schlaganfälle deutlich - Oberösterreichische Nachrichten",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPOFFKZE9QYlZZOW9fVE9xVEFSQjBJbExmZnl1azV1bGV6aEQxcndJQmhVRk4tLVI3MjhrWERlRVBQLWFTbTh5eGVRRm1rc3BjaWxicXpHQmVFckM3VUxUd0M2MklrT00wU1U1ZzNKamJvYTdzVGlWLWZ2NVk2b05XLUhYbm4tUHRyTGo0VFp4U3pGdURRdFNTVEsxSlpfVkI5MTJpclFjWDRncnpoa0xxV2NBaEhhdnBrTDdvZ2ZsZ2l0VDB0dDdjQUhaVE1YWVRB?oc=5",
-      "published": "2026-04-17T04:38:00+00:00",
-      "source": {
-        "name": "Oberösterreichische Nachrichten",
-        "url": "https://www.nachrichten.at"
-      }
-    },
-    {
       "id": "ebf464ca6904",
       "title": "Gesundheit - GKV-Chef: \"Mehr gegen steigende Arzneimittelpreise tun\" - Deutschlandfunk",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdXlzU1VBOUhWa05wcTVDNnBBdHRkeDl5TnZ1S1A3T0swT2pKTjZlaU1pempxQVJkMXMySXBtd2xpaUk5WWN4Q1VyakdMbnN2eF9mRncxakUwN21WbGFQMWpuR2VoOG1tUDYtWERUbS1LSVpOdUNaTE1SWmhDSkVUdTlubVNEWGNtUXNaYk5tcTJibTRDZTJv?oc=5",
@@ -301,6 +291,16 @@
       "source": {
         "name": "Deutschlandfunk",
         "url": "https://www.deutschlandfunk.de"
+      }
+    },
+    {
+      "id": "23a2458121ac",
+      "title": "Studie beweist: Neues Medikament reduziert Folge-Schlaganfälle deutlich - Oberösterreichische Nachrichten",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPOFFKZE9QYlZZOW9fVE9xVEFSQjBJbExmZnl1azV1bGV6aEQxcndJQmhVRk4tLVI3MjhrWERlRVBQLWFTbTh5eGVRRm1rc3BjaWxicXpHQmVFckM3VUxUd0M2MklrT00wU1U1ZzNKamJvYTdzVGlWLWZ2NVk2b05XLUhYbm4tUHRyTGo0VFp4U3pGdURRdFNTVEsxSlpfVkI5MTJpclFjWDRncnpoa0xxV2NBaEhhdnBrTDdvZ2ZsZ2l0VDB0dDdjQUhaVE1YWVRB?oc=5",
+      "published": "2026-04-17T04:38:00+00:00",
+      "source": {
+        "name": "Oberösterreichische Nachrichten",
+        "url": "https://www.nachrichten.at"
       }
     },
     {
@@ -414,12 +414,12 @@
       }
     },
     {
-      "id": "f182199b0b3c",
-      "title": "BMG: Das ändert sich 2026 in Gesundheit und Pflege - Apotheke Adhoc",
+      "id": "390260a443a0",
+      "title": "BMG: Das ändert sich 2026 in Gesundheit und Pflege - apotheke adhoc",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZ0ppb0pMckdBbHpFN2huV1FoR1l1RW5PSFNUNV9qYWotRnBIYWxOcm5mdEhpQmY4WnItc3lQM2RJaHc4VVRnMEJ1MjRVSmdGVkNvdVF2YkRUbGJjSWR2R2s1d0RrbWN6aWZHeHVBdGRkQkN3dzhNMjdOaVhCNHUtWHk3eC03ZFdPdDlxak5QWEJsNk1NeE1QbllIWWg0ZU9SeTZ4dWRMak82bUdG?oc=5",
       "published": "2025-12-19T08:00:00+00:00",
       "source": {
-        "name": "Apotheke Adhoc",
+        "name": "apotheke adhoc",
         "url": "https://www.apotheke-adhoc.de"
       }
     },
