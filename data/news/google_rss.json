@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-18T17:38:12.421642+00:00",
+  "fetched_at": "2026-04-18T18:54:50.425466+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -64,6 +64,16 @@
       }
     },
     {
+      "id": "8b914f8f43a5",
+      "title": "Gesundheitsministerin Warken macht Ernst – so sieht ihre Streichliste aus - Augsburger Allgemeine",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPLW04M2QyVVpYN2VRWEJFenBEa3dNVWNPdkFLUlJuOWJpZUVoVkRmRnNXNGdidzlRcjJ4MTBaeHc2aGgxYmt1cUFqQkxDbUNTeDFjekxJLTNoTk9iZWNkeDJJWjJRMFFlaGJ1YkFIYkFuMDFxVEpIc1dXLVNuZm9VTWlDWGx3LW11V0Nkaks0bFNJcExELUFRU19UTjZWY2VkN2M5SHlBN1d0R0FMWTRfLTZqTGhJelpUREZHYjFPN2x6enFMbzJpVDhUNUZpMld4a2Q5ZjNYVEsyQQ?oc=5",
+      "published": "2026-04-14T14:10:22+00:00",
+      "source": {
+        "name": "Augsburger Allgemeine",
+        "url": "https://www.augsburger-allgemeine.de"
+      }
+    },
+    {
       "id": "0a43b4a0bde8",
       "title": "Festbetrags-Beschluss zu Depot-Antipsychotika legt strukturelle Schwächen des Arzneimittelmarktes offen - gesundheit adhoc",
       "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxObEY1ZFVZZ2thajg1N3ZteUNFQXRhLTZkMzVoeVl3S0Z2Tk1JMjZDc1daNE1tUlFYQUdTRE5kXzBSZnZUWTJ2VWFYYWZKQ3R5THcxVElGNEJJaFJhRTRqaVJkb0oycDVoTDZ1eldVc1BBalpqTVhQMmxnQnhIWkhLaVYwUWo3UVRBeFFQaHV4TTNjQnlPV00wQVd6eHRjbEZ2QVBVbnMxOGp5MEpkY0xRM3J1azNETjlMbHhoMGFjbi04aUFhamI3VVRwU01SR2kwZmlB?oc=5",
@@ -81,16 +91,6 @@
       "source": {
         "name": "DIE ZEIT",
         "url": "https://www.zeit.de"
-      }
-    },
-    {
-      "id": "8b914f8f43a5",
-      "title": "Gesundheitsministerin Warken macht Ernst – so sieht ihre Streichliste aus - Augsburger Allgemeine",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPLW04M2QyVVpYN2VRWEJFenBEa3dNVWNPdkFLUlJuOWJpZUVoVkRmRnNXNGdidzlRcjJ4MTBaeHc2aGgxYmt1cUFqQkxDbUNTeDFjekxJLTNoTk9iZWNkeDJJWjJRMFFlaGJ1YkFIYkFuMDFxVEpIc1dXLVNuZm9VTWlDWGx3LW11V0Nkaks0bFNJcExELUFRU19UTjZWY2VkN2M5SHlBN1d0R0FMWTRfLTZqTGhJelpUREZHYjFPN2x6enFMbzJpVDhUNUZpMld4a2Q5ZjNYVEsyQQ?oc=5",
-      "published": "2026-04-14T14:10:22+00:00",
-      "source": {
-        "name": "Augsburger Allgemeine",
-        "url": "https://www.augsburger-allgemeine.de"
       }
     },
     {
@@ -114,23 +114,13 @@
       }
     },
     {
-      "id": "94e415b428a0",
+      "id": "d756007909fa",
       "title": "Shop Apotheke: Digitaler Boom treibt Wachstum trotz Konkurrenzdruck - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbS1PQkdrakF2engwazhiM192bTFDa3otZTg5U3BNSWctY2p3MjB0OWxQZ2x2cUlNXy05MDFEdGw5cE45Z2F5RlpjSElvLVNuMnRGOHgwUnJVMlFFeHlpTzdJbmltZUd2ai10X19pMDVzd2lXcFg4SW0yM0J4VkJHZWxjSzMxQUF5eEc0OVlXajF3eXRDZ3hHUk83U3ZuZ3BDanJINmhSUG9WeVcxRU5iUDhnRjl3cEtSUFg2ZWlOMkVwYUk?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQUZvbmZJVVI0Q3JhM2VGYTJ3dldxMnVTQ3N4dDRndk9LUXZYNDZIdHRMZDFQRmRUalpyRVVlek82SUFaRzRlckQ0NEE4alhkd1RvSkF4bmdOSDhpckFrSDV6M0tGTGpRLUtyS2dhcmRrVUlZLWcwUVlEY25BOVZ5eWhLeDFtUlBlcGZfd2N6dnFxOTl0aGw2c2ZzUTBMQnRSXy1hU1o4V3J4cjc0YXlFaTRqWHFoUGJjdGlHYw?oc=5",
       "published": "2026-04-18T06:02:56+00:00",
       "source": {
         "name": "AD HOC NEWS",
         "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
-      "id": "e9611368ed28",
-      "title": "Das Gesundheitsministerium fordert eine Preisstabilisierung bei Medikamenten. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9sOTBtdFRpTUtGd3RoZ1VGc1A5Y0dzTHJJM1V5RGFyckhab2ZOUWxPV2V3Q1NubTVfdUhSQVBhbEFmdV8tNmJDWjlUcEJhUzhBaXA0Qmx3UFdoVHIxd1YzX0lRbHpFMGlHdWNn?oc=5",
-      "published": "2026-04-15T08:10:25+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -151,6 +141,16 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "e9611368ed28",
+      "title": "Das Gesundheitsministerium fordert eine Preisstabilisierung bei Medikamenten. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9sOTBtdFRpTUtGd3RoZ1VGc1A5Y0dzTHJJM1V5RGFyckhab2ZOUWxPV2V3Q1NubTVfdUhSQVBhbEFmdV8tNmJDWjlUcEJhUzhBaXA0Qmx3UFdoVHIxd1YzX0lRbHpFMGlHdWNn?oc=5",
+      "published": "2026-04-15T08:10:25+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -884,12 +884,12 @@
       }
     },
     {
-      "id": "62f259fc4366",
-      "title": "Sachverständigenrat empfiehlt striktere Preisbildung für neue Medikamente - Ärzte Zeitung",
+      "id": "ad1452a52b30",
+      "title": "Sachverständigenrat empfiehlt striktere Preisbildung für neue Medikamente - AerzteZeitung.de",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQbFpMUlFqcjc2bHhaUE9selBEQUNHV1p2QXVsb0NhX0dDWGNnWmJSSWFHR1FGNkMtVEFpX1RBcUxFRXNSOHdQa0pyT0trUm5HRkRXaHdWX18xNnJqUEhNM250dlJ4T1dsb3VvVnFIa21ZbzRGSzNCdm94Mm1ndHhVWWF0T2tveHhtNFM0bjdLTEZlNjNLOVNoRTFWWTJ6aVY5bzBXZVNqZXhYUTUzd0xQSE5KVjBfeXJ6ZExDOTFn?oc=5",
       "published": "2025-05-22T07:00:00+00:00",
       "source": {
-        "name": "Ärzte Zeitung",
+        "name": "AerzteZeitung.de",
         "url": "https://www.aerztezeitung.de"
       }
     },
