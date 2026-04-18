@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-18T13:06:50.169745+00:00",
+  "fetched_at": "2026-04-18T14:41:56.341936+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -104,16 +104,6 @@
       }
     },
     {
-      "id": "94e415b428a0",
-      "title": "Shop Apotheke: Digitaler Boom treibt Wachstum trotz Konkurrenzdruck - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbS1PQkdrakF2engwazhiM192bTFDa3otZTg5U3BNSWctY2p3MjB0OWxQZ2x2cUlNXy05MDFEdGw5cE45Z2F5RlpjSElvLVNuMnRGOHgwUnJVMlFFeHlpTzdJbmltZUd2ai10X19pMDVzd2lXcFg4SW0yM0J4VkJHZWxjSzMxQUF5eEc0OVlXajF3eXRDZ3hHUk83U3ZuZ3BDanJINmhSUG9WeVcxRU5iUDhnRjl3cEtSUFg2ZWlOMkVwYUk?oc=5",
-      "published": "2026-04-18T06:02:56+00:00",
-      "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "3db4405fe9b2",
       "title": "Neue Gesundheitsreform: Medikamente werden teurer - so viel soll man künftig zuzahlen - News.de",
       "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPQUtUYUlrVmJQd3l3TzBiSGNseEhQOEtMMFF1YmhPVEVIWmo5RGVQTXdiQmc5allkWDF4UHcwbWNqT3hZeHRHWTgwUmg5bXRNVnpEQlJBanRQRERJclRibDVjVlRTMWVVR2ZiLW5UblNnRzR3azRtS1A0YVFnamVaeUhjNWhjTXhUbmxFSjFYMjhhdV94RlhyMWlIak1KWXdoUW5JVUwzWnVqQ2xpUVZDeXhFX3V1NmRVUUwxaFRtZTNTQlJpaWRHdVRNcTB0SzJkZDZ0bEpvS0w0RGhHZTJTckZ0MUh5ZXJBQTl5dVNkMTEtVGpZMHQweWJmclhyRklIMmfSAYcCQVVfeXFMTXRFZ3N5TUVLNTQyN2JlNzJKd2ZmNWtPUVRuSDNWQlhQb0tfeDFuZ3dYWnphNlNnQTJzRjkxYWt4WWFhQV9yQ3h1VnFJWF9PcVdIZGhBZ2loY3pZeW1GOUtGN3h3RmV4XzhrTlhWdTc3eThHLWJBSWVxSnZQTU5UcnduckxWQTlrbmlVaGNycTZFbWFEZnNacFQ0WkN0anhodkxEQzBZZERyS2F4dkpPbzJoa1BGOHFFb3NvMkVzQnJVOFlSOURXSkNiVEphN2pXdE9VaTVseFZyRFBOTGx2MnAyVWhOVkpGRVJYT0NVd2xUYVo2cmMteFpyc0lnTml3MFhyelowMWM?oc=5",
@@ -124,6 +114,16 @@
       }
     },
     {
+      "id": "94e415b428a0",
+      "title": "Shop Apotheke: Digitaler Boom treibt Wachstum trotz Konkurrenzdruck - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbS1PQkdrakF2engwazhiM192bTFDa3otZTg5U3BNSWctY2p3MjB0OWxQZ2x2cUlNXy05MDFEdGw5cE45Z2F5RlpjSElvLVNuMnRGOHgwUnJVMlFFeHlpTzdJbmltZUd2ai10X19pMDVzd2lXcFg4SW0yM0J4VkJHZWxjSzMxQUF5eEc0OVlXajF3eXRDZ3hHUk83U3ZuZ3BDanJINmhSUG9WeVcxRU5iUDhnRjl3cEtSUFg2ZWlOMkVwYUk?oc=5",
+      "published": "2026-04-18T06:02:56+00:00",
+      "source": {
+        "name": "AD HOC NEWS",
+        "url": "https://www.ad-hoc-news.de"
+      }
+    },
+    {
       "id": "35bcdb302c71",
       "title": "Long Covid: Erstattung von Medikamenten durch Krankenkassen möglich - Gesundheit - SZ.de - SZ.de",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZmlncDRlS21NN0xwd0RXUDRBbXlVUkNsRHhvQXktZElkQklXM3dzRlI0ZnU5X091cXY5cGtxclBaR2Y5TUxzZXgxYlVMODNhNDFFX05SS094Zml0dHIzRktJQ2lDcjFVVmg1dGxQdjFlUFlGSi1wUS1neXZYXzdKVTU3ME9zdTRLcHRSVVcwdVlUY2kyd05BQk8tZk1Mdw?oc=5",
@@ -131,16 +131,6 @@
       "source": {
         "name": "SZ.de",
         "url": "https://www.sueddeutsche.de"
-      }
-    },
-    {
-      "id": "66f5c10d7b11",
-      "title": "Warnung: Verschreibungspflichtiges Arzneimittel in Nahrungsergänzungsmittel bei Amazon gefunden - Wochenblatt Reporter",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQcjM2bWJBc1hXNmpRV0QwRks2aEdpODdFNDZ2YVpQZFExeFpkekdDOVBPUWhjS21xNDFKbGVvM1UwNjlpZFNCdndoaDhockctcWw1OW1jTTg3NTc3Q1h6Ui10eG16ejdsMlM3MVljOFpvYk1hMFpCMjBXMUJySUNMNkViQnFEWmNWVjNwc2tLZmJGZmo4REphTlRrT3BtWFJjZ1RZVnJncUNLOUVCYm9FaTlYQ3BUamYzSG40SzIyUVVQcE5hWEsyOWxmNEJsR3lQNzdfTTcxRnJoY2xhR2kxT3lCNXo?oc=5",
-      "published": "2026-04-17T15:23:19+00:00",
-      "source": {
-        "name": "Wochenblatt Reporter",
-        "url": "https://www.wochenblatt-reporter.de"
       }
     },
     {
@@ -194,6 +184,16 @@
       }
     },
     {
+      "id": "71769366d467",
+      "title": "Auf Versorgungssicherheit achten! - gesundheit adhoc",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4yMW93NXJkY1pKYktZMWpWWFRRRzkxNHZoYlBJRHR4OVQyakpwNnB2bDNxQ1huT0otY09HY2JIUWhNc3ZzWmNGN1NKcVlRdXV4Z1ZiVDJacWxuQTVuOWMyWjIzLVFyS2c3QTJ5bDRxSkNvOTQ?oc=5",
+      "published": "2026-04-14T13:45:05+00:00",
+      "source": {
+        "name": "gesundheit adhoc",
+        "url": "https://www.gesundheit-adhoc.de"
+      }
+    },
+    {
       "id": "ac813ff32638",
       "title": "vfa zum Kommissionsbericht: Sparmaßnahmen für Pharmaindustrie im Faktencheck - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaGl6UGU2SlFIcnhfcTBza2E0aTZxOEEwd2xOWmxUT3hwYzYzSDRsSGJZa3g0U3BwTWpQdm01enFWcUVYeFhtR0d2SkJDQmVURmpFa0x0LXpYRTEzd1dtbmxyVWE2NVpZcE1DamxIT2kybUxscTV0QnZtTmVNRW1uLUxOeUw2cUlUZFRQUmdCYXZ4UEF4TFJuY092eU4tZw?oc=5",
@@ -204,13 +204,13 @@
       }
     },
     {
-      "id": "989c0bd21bc2",
-      "title": "Viele nehmen es „vorsorglich“ – schützt tägliches Aspirin wirklich vor Demenz? - FITBOOK",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUnlVZm03MFpvZndjRmY5QkhrbENaaUdNYkJpV2VpUXAza2FsSjNkcmgwRWczTm5yMHpTR0R2YkVIOEJPQWh2UDlma1Q5NVBaM3pGTGRYbUZfcE0zUFBta1ZkYUJ1WUFPR2hTM3pOdi1ya1BuajdPcGtjZ09wV0NwRFlvSEFIMk16dU9CcHpKVDY1Vmd6bnFyRnFLVGhBYVp5QTgtNkNFOHE3bFdoT1E?oc=5",
-      "published": "2026-04-17T15:09:00+00:00",
+      "id": "66f5c10d7b11",
+      "title": "Warnung: Verschreibungspflichtiges Arzneimittel in Nahrungsergänzungsmittel bei Amazon gefunden - Wochenblatt Reporter",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQcjM2bWJBc1hXNmpRV0QwRks2aEdpODdFNDZ2YVpQZFExeFpkekdDOVBPUWhjS21xNDFKbGVvM1UwNjlpZFNCdndoaDhockctcWw1OW1jTTg3NTc3Q1h6Ui10eG16ejdsMlM3MVljOFpvYk1hMFpCMjBXMUJySUNMNkViQnFEWmNWVjNwc2tLZmJGZmo4REphTlRrT3BtWFJjZ1RZVnJncUNLOUVCYm9FaTlYQ3BUamYzSG40SzIyUVVQcE5hWEsyOWxmNEJsR3lQNzdfTTcxRnJoY2xhR2kxT3lCNXo?oc=5",
+      "published": "2026-04-17T15:23:19+00:00",
       "source": {
-        "name": "FITBOOK",
-        "url": "https://www.fitbook.de"
+        "name": "Wochenblatt Reporter",
+        "url": "https://www.wochenblatt-reporter.de"
       }
     },
     {
@@ -231,6 +231,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "cb708895bbe1",
+      "title": "Viele nehmen es „vorsorglich“ – schützt tägliches Aspirin wirklich vor Demenz? - fitbook.de",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUnlVZm03MFpvZndjRmY5QkhrbENaaUdNYkJpV2VpUXAza2FsSjNkcmgwRWczTm5yMHpTR0R2YkVIOEJPQWh2UDlma1Q5NVBaM3pGTGRYbUZfcE0zUFBta1ZkYUJ1WUFPR2hTM3pOdi1ya1BuajdPcGtjZ09wV0NwRFlvSEFIMk16dU9CcHpKVDY1Vmd6bnFyRnFLVGhBYVp5QTgtNkNFOHE3bFdoT1E?oc=5",
+      "published": "2026-04-17T15:09:00+00:00",
+      "source": {
+        "name": "fitbook.de",
+        "url": "https://www.fitbook.de"
       }
     },
     {
@@ -271,6 +281,16 @@
       "source": {
         "name": "News.de",
         "url": "https://www.news.de"
+      }
+    },
+    {
+      "id": "0f61aeb59262",
+      "title": "Warum viele Medikamente für Ältere oft problematischer sind - Allgemeine Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNLTFDN0g5b0RWMlJsTnBCR0dOT0NqZUJXaEU5YmI3NUhDb3hVVTktVVhiMlJDQldtdmlmT2tqSmU2T0t0eHU3Nk1uby1vM2F5UGhEM2hBVFJxYkVaVjJ4dlNRQWVwLWc3WmhLMnZmWDNTcTlFbW01bmdwZjcyU19EOFVHbnR6OEtWYmhFVHp4R3BtOF9haDRLYU5oRDBFYVB3SDRfYWNlMkU2eVhTb3RzZmVzV1k0dGJTNXBXeHJEbW0?oc=5",
+      "published": "2026-03-29T07:00:00+00:00",
+      "source": {
+        "name": "Allgemeine Zeitung",
+        "url": "https://www.allgemeine-zeitung.de"
       }
     },
     {
@@ -324,6 +344,16 @@
       }
     },
     {
+      "id": "801bd4739bfe",
+      "title": "Gesundheit - Beipackzettel von Medikamenten sollen digital werden - Ausdrucke in Apotheken sollen Option sein - Deutschlandfunk",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOclZxcXdzdDlfTXNBVkNkV1g0a1RMa05OWGcyX0RXaW5YMmpyUElhUnBJQU9QM3BzUG9iSFZnaWE0ek1iLTFQeE1wbkVhaDdrT3pVMERnT3l3VGhoOUtuS0EtT3pwazNMMGZmcmI1Z2puUHg1WWc5MzBXdHJma0l0dWNlNEhQdFdBUXF5X0V3OVRQWVA1RXFJNXJtbTVGMjNYQVlSWjNrdEttY0pQMXF0dWlwdGNUVWpFcF83a3RyX0oxSWpLaFVmc2NoVEhGNXc?oc=5",
+      "published": "2026-03-12T07:00:00+00:00",
+      "source": {
+        "name": "Deutschlandfunk",
+        "url": "https://www.deutschlandfunk.de"
+      }
+    },
+    {
       "id": "3c75a0c795e8",
       "title": "Mit Abnehmspritze Kilos loswerden - was ist dran an Ozempic & Co.? - NDR.de",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaGFzLTFfUHozOUJiWWtWdlRPUm5mZ0VkMGMxLVVGcmxmMzlONHZRV21qZmFHYUo3d2gzV3VDVm9OUHp6Qk4wQjlZTHU3V3RnckthWTZSbVpVMGE1VWxiMFMtVVJCSWdWb3hibzlscllodzVwWmpDMS1ZOXNxYkFfQVJzdlRzeGRQOWdtcW55UVRNSE16QmhJZXhVYmRmYl9iUmJBN1g2cG8?oc=5",
@@ -331,16 +361,6 @@
       "source": {
         "name": "NDR.de",
         "url": "https://www.ndr.de"
-      }
-    },
-    {
-      "id": "aa2725e49dc5",
-      "title": "Gesundheit - Beipackzettel von Medikamenten sollen digital werden - Ausdrucke in Apotheken sollen Option sein - Deutschlandfunk",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQLUs3RDdxeXNOZWhraEpVQU1WVzR3eVJvQXZoeWtTTWFzZnpad1RjMjlSZ2lMTHJyYk1JdHh3MGk4ODViX3lXajE2bUhPanhCWkRIUjNOaXBHQ1p6aW93OWlHZFAySS1RYWIycXg0VE9yZ19QQVlDZ21NZE1FTHgtSXk0a2hSdjlBQ3hxVTY5UXFXWVlQY1dOSTQ4ajV0bHJ6ZnhCSWU4U3RqT0hGcnZwZ2pnSENsT08tWFg5RTQ2ZzVGcFFLU2hBMklFVHdrS3c?oc=5",
-      "published": "2026-03-11T07:00:00+00:00",
-      "source": {
-        "name": "Deutschlandfunk",
-        "url": "https://www.deutschlandfunk.de"
       }
     },
     {
@@ -564,26 +584,6 @@
       }
     },
     {
-      "id": "ad4d264c01bd",
-      "title": "Hendrik Streeck wirft Frage nach teuren Medikamenten für sehr Alte auf - STERN.de",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNN1JrNFg0ZXh4dVBQLTJfdU9ORHBmWC1vTGlDT1Y1RkFJZm80QkhtY3JqUEtadDFHcE5GVWFQRVc5V3VYVzZtVWFwdS0xTFl4c2FKT2VDY1owOHc4b1pxeVZLUnJVWWp6WXZLd012YnlZXzRHdm1vNWN0MFNGVzRteUZNekFFR1dDTklBei04cTA0M1RvM2YwWWxPVk05aW1wWHBFX0wwTV9zTGgxcVU4SHBRUkRyMzRR?oc=5",
-      "published": "2025-11-13T08:00:00+00:00",
-      "source": {
-        "name": "STERN.de",
-        "url": "https://www.stern.de"
-      }
-    },
-    {
-      "id": "69ccd661e38b",
-      "title": "Seltenes Medikament aus Forscherblut rettet Babys vor Botulismus - Euronews",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMVRTeGgxUlNwWWVESVV2M0Z5VXk3eHM2R2ZIUEVfVVhvSjBPQ0dKZ3JiR3U0b0lVMHlnMEpYLU1lZU9xbXh4bzhGNFNxRXdRRndZWkZzdU4xWVdhYWFfWjdEZDFldWV3dGNzRzRaSGZjbGY3al9HN19kaW5BWWJtSVBaZ3h1ZExSYzUyUGhRYl81bk0xNzRhSGZGTXQyb3J0R29xUE1RalpPNEdlcnh0VEotNDFubXZuVEdVOXpXNS1WXzBLMzlzZk55OTlib2t1MXc?oc=5",
-      "published": "2025-12-10T08:00:00+00:00",
-      "source": {
-        "name": "Euronews",
-        "url": "https://de.euronews.com"
-      }
-    },
-    {
       "id": "e04f12e1e08a",
       "title": "Chronische Krankheiten: EU genehmigt erstes Medikament gegen chronische Lungenkrankheit - DIE ZEIT",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5fdjU5RzVXWjctdzZGZks3YnE4Yl82RmlVcGk5OWFzUnJKQ3J0b3FQWk05TGtZaXRTc3VkeU5WLW5zUFJqYVhlckpPcE5OdVRkWUFhOWhiRFJJZjY1WXp6ak1UN0hXWEdVVlU4Ny1YUkFkLWcwMXBJ?oc=5",
@@ -804,16 +804,6 @@
       }
     },
     {
-      "id": "02fec1bb0a37",
-      "title": "Hoyer: SVR-Gutachten zu Arzneimittelpreisen ist wegweisend - aok.de",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5ySERsUWk1YThEZGJRazJTZnBRWGF1VWtGY0lNMzNQLXRzZWRLRnpEZXV5WFI4MjN2cy1rVzI1NzA4U1ZHRFVyMFdxaDE2TlF6bkx1ekEwTlJkWlRtbGxCalpLZVZwblZtWUw2OU10Yw?oc=5",
-      "published": "2025-05-22T07:00:00+00:00",
-      "source": {
-        "name": "aok.de",
-        "url": "https://www.aok.de"
-      }
-    },
-    {
       "id": "1b8b596140fe",
       "title": "Usbekistan will Bezahlbarkeit von Medikamenten auf der Ebene der primären Gesundheitsversorgung verbessern - World Health Organization (WHO)",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZHcxc3ZFWkhLcWVKS3RfWW5xSUZBUFVCQkdxb1pGZGlqai1UWjE1S2s3cG5KMEJCdjFPQ0hQZnc4X0o4bVVSTHhKZURfeWRXb01vNkkzUG5CcGQ0YlZXZjZSQXBfdHVBc0l1S0MzdHBBejJUMVJTQURsS0ZQdG9HVkczVFZXdjNKZWgzZmhGdnpVdl9oZHUzRjRYOXRWLUFWTC1ZR2tBVy04NWtrM2lpYVlKNEw1eUl4TWpqT0JGZUxpdnBRbmJIUk5peENtS1VJRG1sdzR6bw?oc=5",
@@ -831,6 +821,16 @@
       "source": {
         "name": "World Health Organization (WHO)",
         "url": "https://www.who.int"
+      }
+    },
+    {
+      "id": "02fec1bb0a37",
+      "title": "Hoyer: SVR-Gutachten zu Arzneimittelpreisen ist wegweisend - aok.de",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5ySERsUWk1YThEZGJRazJTZnBRWGF1VWtGY0lNMzNQLXRzZWRLRnpEZXV5WFI4MjN2cy1rVzI1NzA4U1ZHRFVyMFdxaDE2TlF6bkx1ekEwTlJkWlRtbGxCalpLZVZwblZtWUw2OU10Yw?oc=5",
+      "published": "2025-05-22T07:00:00+00:00",
+      "source": {
+        "name": "aok.de",
+        "url": "https://www.aok.de"
       }
     },
     {
@@ -854,16 +854,6 @@
       }
     },
     {
-      "id": "1fa19880efe2",
-      "title": "Arzneimittelengpässe: Rechnungshof sieht Risiko für Medikamentenengpässe in der EU - DIE ZEIT",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNejgweWNVRGltRU1FaUMtRF92NTF6czFQUGltbGp3TG9DM09seC1BSlM2eHgwaXNQaGl6R0hvWm9FdzRsbEZNVW4wUV9GM3p2eGtWeUUxQzBCbFNibE5MaFM2YTh3OG5UeHFwdV9oOHgzbUdUS2FYOUJyVmtaZzlLR2VkOV9mRklPSFlXZ2llR3Z6RG5Ra19uR2dpWEM?oc=5",
-      "published": "2025-09-17T07:00:00+00:00",
-      "source": {
-        "name": "DIE ZEIT",
-        "url": "https://www.zeit.de"
-      }
-    },
-    {
       "id": "0a5887a9c879",
       "title": "»Ge­sund­heit ist eine geo­stra­te­gi­sche Waffe« - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVlZwd1JlZ25lNWJGZHUwaEkwV25iYkdEbjRERW9FX291X2xxc1FVMDliUzJudVdIZWhOeDRhREowTjNkR2p1TE8xQzFwMXVGTE5DYzNRQ1YyWUQtTlJENUlybVE0dUFBdDhDYURhS1owaU5OdzFmLURjMll2SWdfX0tvcnlPV2ZONUpqWkFfV0E4QQ?oc=5",
@@ -871,6 +861,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "1fa19880efe2",
+      "title": "Arzneimittelengpässe: Rechnungshof sieht Risiko für Medikamentenengpässe in der EU - DIE ZEIT",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNejgweWNVRGltRU1FaUMtRF92NTF6czFQUGltbGp3TG9DM09seC1BSlM2eHgwaXNQaGl6R0hvWm9FdzRsbEZNVW4wUV9GM3p2eGtWeUUxQzBCbFNibE5MaFM2YTh3OG5UeHFwdV9oOHgzbUdUS2FYOUJyVmtaZzlLR2VkOV9mRklPSFlXZ2llR3Z6RG5Ra19uR2dpWEM?oc=5",
+      "published": "2025-09-17T07:00:00+00:00",
+      "source": {
+        "name": "DIE ZEIT",
+        "url": "https://www.zeit.de"
       }
     },
     {
@@ -904,16 +904,6 @@
       }
     },
     {
-      "id": "5f3730439637",
-      "title": "Lettland will im Einklang mit WHO-Empfehlungen den Zugang der Bevölkerung zu Arzneimitteln verbessern - World Health Organization (WHO)",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPZ0k1d1FLSG9YQWVIaVZLYzc3NlUzdURKM2FHc2tZR25lQlVMWFZxcndHM3hNbmRSMTRNZ1JWc2Y2WFpURWs2cDE1Mk5fdXpVb0pLbFFZc0RGSzNXajY2NC1sVlVlcXVkZ2RUeW9keW02UlYxMGFlU3FTVVo5a3RhV09KLTF3Qy01bnpxTGd1MHhOYW5fTURPLTVNa1cwZmM5by1zNmczdUZBVUZ0Ymtrd1hBVi04VS02V08zRkJucTVMSXZUR2Jtd3hZMVF1WkpXdnc?oc=5",
-      "published": "2024-01-31T08:00:00+00:00",
-      "source": {
-        "name": "World Health Organization (WHO)",
-        "url": "https://www.who.int"
-      }
-    },
-    {
       "id": "af289b274407",
       "title": "EU-Gesundheitsminister drängen auf unabhängige Arzneimittelproduktion – News - Deutsches Ärzteblatt",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPZVd0ak5vc1MzMkdFUnN2QWVUWHp1aVl5TVBDdkVTTmFSX1k4LXJlNlVBOXJnenJ3V1NRQzVYQ25Od0I3Z3l1TGlTU1hBdHVtQjdDaXI3VzVKakwxSkNCN3dEMEZBNldDb3ppa3dMNTE3NnNOT1hWcElBanJUSVFZTXNMeFJuVDlROTQzS3RNWHJreFZIdk11cWR0NmxmdlkyVmlLcmRXUEU3d3JadW9XZE5fbFY1M0tLMWxBYXo4d1l5T1BMVTBNbnJ3VEhSWkFKQkpNdQ?oc=5",
@@ -931,6 +921,16 @@
       "source": {
         "name": "Ärzte Zeitung",
         "url": "https://www.aerztezeitung.de"
+      }
+    },
+    {
+      "id": "5f3730439637",
+      "title": "Lettland will im Einklang mit WHO-Empfehlungen den Zugang der Bevölkerung zu Arzneimitteln verbessern - World Health Organization (WHO)",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPZ0k1d1FLSG9YQWVIaVZLYzc3NlUzdURKM2FHc2tZR25lQlVMWFZxcndHM3hNbmRSMTRNZ1JWc2Y2WFpURWs2cDE1Mk5fdXpVb0pLbFFZc0RGSzNXajY2NC1sVlVlcXVkZ2RUeW9keW02UlYxMGFlU3FTVVo5a3RhV09KLTF3Qy01bnpxTGd1MHhOYW5fTURPLTVNa1cwZmM5by1zNmczdUZBVUZ0Ymtrd1hBVi04VS02V08zRkJucTVMSXZUR2Jtd3hZMVF1WkpXdnc?oc=5",
+      "published": "2024-01-31T08:00:00+00:00",
+      "source": {
+        "name": "World Health Organization (WHO)",
+        "url": "https://www.who.int"
       }
     },
     {
@@ -984,6 +984,16 @@
       }
     },
     {
+      "id": "9ac572ee2675",
+      "title": "Gesundes Wachstum für mehr Gesundheit. - Deutsche Apotheker Zeitung, DAZ",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWkY1ZHgzY05yb0N4cFZFbktPajhsRFExWkdZNzJSYi1PWTNkOG5GSnFFd1k5LTc3UUowOWxoRVlQSEVETFBDaXprekJWT01MaXJhZWN6bXdhdmhONHdiVmxPTjJ5dU13cEstZ05STHdSY0lOUG1YSmVqSThGR0dzM2s5b3dIMnZEMFBzY19rbmxCNHJyQ29aSkd3WXNUaU0xcGw0enFOVQ?oc=5",
+      "published": "2025-08-19T07:00:00+00:00",
+      "source": {
+        "name": "Deutsche Apotheker Zeitung, DAZ",
+        "url": "https://www.deutsche-apotheker-zeitung.de"
+      }
+    },
+    {
       "id": "2c4dfa0818af",
       "title": "Medikamente ohne Zusatznutzen: Werden Arzneimittelpreise zum Geheimnis? - tagesschau.de",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYWJENElFYXhtTWZMMVJoOU5iMHQwMV9HMVN1Y2NuMm9FVzlJODNKVG5ydWZXeEJTUTBPVHRmaDZaR1huMy1VUVdtUWg5TGtqWmxJV0p5RVFIZ0xqQnppeklhMHhFRmNKdTl3Y0daTzFSXzRXUkpTRlRmUXptZkdMMmZTX18zbjlJQW1xMDNyR0dIN2NYUDI1OTIweGNDcWdSa0JZZkNn?oc=5",
@@ -991,16 +1001,6 @@
       "source": {
         "name": "tagesschau.de",
         "url": "https://www.tagesschau.de"
-      }
-    },
-    {
-      "id": "596851a83822",
-      "title": "Lauterbach: Forschung und Medizinproduktion in Deutschland stärken - Bundesgesundheitsministerium",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNM2xXeHVzTDRrM2pNQW5zM212VXktYjZqaUpLOF9qbjRXUzlVbjRwQVlrenNVTFdzQTZ4WEFUM1hsMERnb24zXy12aVlWR3hBN0dCbC1GaFVMdzh3OEpqNlRQVHotTWJpWlJQQXJhNHZ1ZFM3UmRyMFNGc2hoTXoyZXVtOWR1cUZ6X3RzdTdBR3J4NF9Xd1d4Sk9YTFZXNGxWSkpYNHV6S3FnbHFFWHVjeHJmRGVkcUhzeXc2S3p1VExNdk5ScWc4YzFrN081dWJTTXBqSTZlb0w?oc=5",
-      "published": "2023-12-01T08:00:00+00:00",
-      "source": {
-        "name": "Bundesgesundheitsministerium",
-        "url": "https://www.bundesgesundheitsministerium.de"
       }
     }
   ]
