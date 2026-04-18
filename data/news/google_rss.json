@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-18T16:43:22.980329+00:00",
+  "fetched_at": "2026-04-18T17:38:12.421642+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -224,16 +224,6 @@
       }
     },
     {
-      "id": "cb708895bbe1",
-      "title": "Viele nehmen es „vorsorglich“ – schützt tägliches Aspirin wirklich vor Demenz? - fitbook.de",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUnlVZm03MFpvZndjRmY5QkhrbENaaUdNYkJpV2VpUXAza2FsSjNkcmgwRWczTm5yMHpTR0R2YkVIOEJPQWh2UDlma1Q5NVBaM3pGTGRYbUZfcE0zUFBta1ZkYUJ1WUFPR2hTM3pOdi1ya1BuajdPcGtjZ09wV0NwRFlvSEFIMk16dU9CcHpKVDY1Vmd6bnFyRnFLVGhBYVp5QTgtNkNFOHE3bFdoT1E?oc=5",
-      "published": "2026-04-17T15:09:00+00:00",
-      "source": {
-        "name": "fitbook.de",
-        "url": "https://www.fitbook.de"
-      }
-    },
-    {
       "id": "7c0b557fb36b",
       "title": "Gesundheitsgefahr durch gefälschte Arzneimittel - Gesundheit.gv.at",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYlhNa1drQ3UydVU1Ti1QZWxOelZ2UDNkQTBsczZ4SzVIZGhQS3psTVQ5Zmw2Ujh2RGpDYzZ5TDdIbG5mYkFjRl9CX3JkS0FHQ2dlSGVZMlpRTmpva0xOX3hoTWhTM3VoZlB6bjJYbjRRcGp2NERXZmhoaEtyeGJhUDlSU0k0cURLRzNIc1FR?oc=5",
@@ -241,6 +231,16 @@
       "source": {
         "name": "Gesundheit.gv.at",
         "url": "https://www.gesundheit.gv.at"
+      }
+    },
+    {
+      "id": "cb708895bbe1",
+      "title": "Viele nehmen es „vorsorglich“ – schützt tägliches Aspirin wirklich vor Demenz? - fitbook.de",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUnlVZm03MFpvZndjRmY5QkhrbENaaUdNYkJpV2VpUXAza2FsSjNkcmgwRWczTm5yMHpTR0R2YkVIOEJPQWh2UDlma1Q5NVBaM3pGTGRYbUZfcE0zUFBta1ZkYUJ1WUFPR2hTM3pOdi1ya1BuajdPcGtjZ09wV0NwRFlvSEFIMk16dU9CcHpKVDY1Vmd6bnFyRnFLVGhBYVp5QTgtNkNFOHE3bFdoT1E?oc=5",
+      "published": "2026-04-17T15:09:00+00:00",
+      "source": {
+        "name": "fitbook.de",
+        "url": "https://www.fitbook.de"
       }
     },
     {
@@ -274,16 +274,6 @@
       }
     },
     {
-      "id": "721f9d57230b",
-      "title": "Warken-Aussage: Homöopathie-Verband wehrt sich - Apotheke Adhoc",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOXpDRVFldkc4a0hxS0NoZmU4UER6YjRPTHF6THlvbGtmUjNNVGs2NThvLTBSYnZJN19hOG5vZEREdnpjSTZwRDFxNlVxZ2dPbEZ4TmZTTmp2TmRjc1QzblR0R09MV3pRamRBQUtjRHd6eGZ3VG40b1dUSWNSdW5NT1h1Q1VReXFFOG1MdWp5WEg3OFRYcXFxWlRhV1dKODhMdWtKSnNmVQ?oc=5",
-      "published": "2026-04-15T10:24:00+00:00",
-      "source": {
-        "name": "Apotheke Adhoc",
-        "url": "https://www.apotheke-adhoc.de"
-      }
-    },
-    {
       "id": "b69b57064071",
       "title": "DAK-Gesundheit will Kassenfinanzen durch mehr Wettbewerb bei Arzneimitteln stärken – News - Deutsches Ärzteblatt",
       "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNSFVfMENtRmFjWDdSNjR1YWRjZzBlLTRIY3d4WEZKOXRVYlNmeFA1UmVaM1MtTjVjaXUyRVhmYTJ3NU5fQmZfdktXRXRkN054Rmh5d3FuNXRodHZDd1ZkcFE3YWxLWXFiQlF0MzRXcjd5d2pWcVpxTDdpdVdmZUVhSlU0S0pZWXFENTBwNnZIb3dTWkQ4eG9lQWstRjBjOEZQYThlLTFVbXJQVXp4ajBuSTNWb1M4TkxZMjAzX3ZwZGVwaGREbkNhSTUyVkJrVGlwM2pwYXdlX1pPVGRLWkcwV1dBeEVZdw?oc=5",
@@ -291,6 +281,16 @@
       "source": {
         "name": "Deutsches Ärzteblatt",
         "url": "https://www.aerzteblatt.de"
+      }
+    },
+    {
+      "id": "721f9d57230b",
+      "title": "Warken-Aussage: Homöopathie-Verband wehrt sich - Apotheke Adhoc",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOXpDRVFldkc4a0hxS0NoZmU4UER6YjRPTHF6THlvbGtmUjNNVGs2NThvLTBSYnZJN19hOG5vZEREdnpjSTZwRDFxNlVxZ2dPbEZ4TmZTTmp2TmRjc1QzblR0R09MV3pRamRBQUtjRHd6eGZ3VG40b1dUSWNSdW5NT1h1Q1VReXFFOG1MdWp5WEg3OFRYcXFxWlRhV1dKODhMdWtKSnNmVQ?oc=5",
+      "published": "2026-04-15T10:24:00+00:00",
+      "source": {
+        "name": "Apotheke Adhoc",
+        "url": "https://www.apotheke-adhoc.de"
       }
     },
     {
@@ -341,6 +341,16 @@
       "source": {
         "name": "ADAC",
         "url": "https://www.adac.de"
+      }
+    },
+    {
+      "id": "23a2458121ac",
+      "title": "Studie beweist: Neues Medikament reduziert Folge-Schlaganfälle deutlich - Oberösterreichische Nachrichten",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPOFFKZE9QYlZZOW9fVE9xVEFSQjBJbExmZnl1azV1bGV6aEQxcndJQmhVRk4tLVI3MjhrWERlRVBQLWFTbTh5eGVRRm1rc3BjaWxicXpHQmVFckM3VUxUd0M2MklrT00wU1U1ZzNKamJvYTdzVGlWLWZ2NVk2b05XLUhYbm4tUHRyTGo0VFp4U3pGdURRdFNTVEsxSlpfVkI5MTJpclFjWDRncnpoa0xxV2NBaEhhdnBrTDdvZ2ZsZ2l0VDB0dDdjQUhaVE1YWVRB?oc=5",
+      "published": "2026-04-17T04:38:00+00:00",
+      "source": {
+        "name": "Oberösterreichische Nachrichten",
+        "url": "https://www.nachrichten.at"
       }
     },
     {
@@ -431,16 +441,6 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
-      "id": "23a2458121ac",
-      "title": "Studie beweist: Neues Medikament reduziert Folge-Schlaganfälle deutlich - Oberösterreichische Nachrichten",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPOFFKZE9QYlZZOW9fVE9xVEFSQjBJbExmZnl1azV1bGV6aEQxcndJQmhVRk4tLVI3MjhrWERlRVBQLWFTbTh5eGVRRm1rc3BjaWxicXpHQmVFckM3VUxUd0M2MklrT00wU1U1ZzNKamJvYTdzVGlWLWZ2NVk2b05XLUhYbm4tUHRyTGo0VFp4U3pGdURRdFNTVEsxSlpfVkI5MTJpclFjWDRncnpoa0xxV2NBaEhhdnBrTDdvZ2ZsZ2l0VDB0dDdjQUhaVE1YWVRB?oc=5",
-      "published": "2026-04-17T04:38:00+00:00",
-      "source": {
-        "name": "Oberösterreichische Nachrichten",
-        "url": "https://www.nachrichten.at"
       }
     },
     {
