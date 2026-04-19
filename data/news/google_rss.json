@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-19T16:43:20.519082+00:00",
+  "fetched_at": "2026-04-19T17:37:21.979799+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -44,16 +44,6 @@
       }
     },
     {
-      "id": "fc332461e405",
-      "title": "Leiter der Arzneimittelbehörde inspiziert den Arbeitsfortschritt im Nationalen Drogenkontrolllabor - وكالة سبأ",
-      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1vQkluNE12TTdWeE1BSkRGajlXSGdVUGo5N0RYbm55dUN4Mmt4eXRIR0FtWnZoeVRuUlJqS0hjOXdxMDJqVE1vSDVn?oc=5",
-      "published": "2026-04-19T14:16:07+00:00",
-      "source": {
-        "name": "وكالة سبأ",
-        "url": "https://saba.ye"
-      }
-    },
-    {
       "id": "0b65423b3489",
       "title": "Alzheimer-Medikament: Neue Studie dämpft Hoffnung auf monoklonale Antikörper - Spiegel",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQLXZERnNGSVpHVHBPV29iTS0xZUV6NjVaNWRwUlZRNUR3NTU0VTc3aHRQbEhpSGxEUUI1RS1YUnN4bEZHWThDSmpfUkttb3A0NGNsSEpzLWlsSk5PMl8yTFFZc3FHSmVNb1B4OWVzT0hCSTVpbnRoTTZtRjhyTU5FLTFaeXpRbzJ3N0J4bEJKUXc0MTZpeDlHQWUxOV9aN2NWNnExVmx4STRSeTJSSXUya1V3S3QzWmtLd05MOEZYbm50QXc5bWFqbzZfbVpYSl9sTkpRYktn?oc=5",
@@ -61,6 +51,16 @@
       "source": {
         "name": "Spiegel",
         "url": "https://www.spiegel.de"
+      }
+    },
+    {
+      "id": "fc332461e405",
+      "title": "Leiter der Arzneimittelbehörde inspiziert den Arbeitsfortschritt im Nationalen Drogenkontrolllabor - وكالة سبأ",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1vQkluNE12TTdWeE1BSkRGajlXSGdVUGo5N0RYbm55dUN4Mmt4eXRIR0FtWnZoeVRuUlJqS0hjOXdxMDJqVE1vSDVn?oc=5",
+      "published": "2026-04-19T14:16:07+00:00",
+      "source": {
+        "name": "وكالة سبأ",
+        "url": "https://saba.ye"
       }
     },
     {
@@ -384,20 +384,20 @@
       }
     },
     {
-      "id": "2792876682cc",
-      "title": "Medikamenten-Flut bei Senioren zwingt zum digitalen Umdenken - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOek02clc5X3VBRTV1LUNWV3otTTRnOTJHNjNjTFEzZ1dLd0tEenBDcUZreEl6akpwbUlJZUFCMlN2dExkQkJjUDV4Q3UyOVg5b0FDRU5IN1ljZThvSDNPaVg5cExVZkNBcnEwYkVTUjNvV1B0M0hBSUxoQU15OHZCbWtaZkZ5N1ZxWm8yaWJCX3RvdU42YkxwTUdtUi1KbERNRjBsamlNVmVvN19BVGVrWDQ5RTFTSXFORFdn?oc=5",
-      "published": "2026-04-16T20:11:37+00:00",
+      "id": "816e3a440a11",
+      "title": "McKesson Corp Aktie (US58155Q1031): Kommt es jetzt auf stabile Margen in der Arzneimittelversorgung - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQb0NCNE5NYTZqb3hWaFU4a0tLcFlpZks2NndFY0dJOTg1SVh5V2FpTFRLd01JUjlxbmFnNnFZSTYyOVFoRTBSM1A4Tms2WHRJcjZWYlRDOXhvNGhJQk01Skx0VGlPT2R4MnhsMEFRVkhsd2pkOHZwRUFLNWY4R3dtM01KNWI2bVBNWGE3MjBscjEwOTkwSkpoVk16YWc0LUs2aWJtcXl4VE00RWtFZnhxUUZpYnhjbl84YzNhdkhtRWk?oc=5",
+      "published": "2026-04-18T13:18:11+00:00",
       "source": {
         "name": "AD HOC NEWS",
         "url": "https://www.ad-hoc-news.de"
       }
     },
     {
-      "id": "816e3a440a11",
-      "title": "McKesson Corp Aktie (US58155Q1031): Kommt es jetzt auf stabile Margen in der Arzneimittelversorgung - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQb0NCNE5NYTZqb3hWaFU4a0tLcFlpZks2NndFY0dJOTg1SVh5V2FpTFRLd01JUjlxbmFnNnFZSTYyOVFoRTBSM1A4Tms2WHRJcjZWYlRDOXhvNGhJQk01Skx0VGlPT2R4MnhsMEFRVkhsd2pkOHZwRUFLNWY4R3dtM01KNWI2bVBNWGE3MjBscjEwOTkwSkpoVk16YWc0LUs2aWJtcXl4VE00RWtFZnhxUUZpYnhjbl84YzNhdkhtRWk?oc=5",
-      "published": "2026-04-18T13:18:11+00:00",
+      "id": "2792876682cc",
+      "title": "Medikamenten-Flut bei Senioren zwingt zum digitalen Umdenken - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOek02clc5X3VBRTV1LUNWV3otTTRnOTJHNjNjTFEzZ1dLd0tEenBDcUZreEl6akpwbUlJZUFCMlN2dExkQkJjUDV4Q3UyOVg5b0FDRU5IN1ljZThvSDNPaVg5cExVZkNBcnEwYkVTUjNvV1B0M0hBSUxoQU15OHZCbWtaZkZ5N1ZxWm8yaWJCX3RvdU42YkxwTUdtUi1KbERNRjBsamlNVmVvN19BVGVrWDQ5RTFTSXFORFdn?oc=5",
+      "published": "2026-04-16T20:11:37+00:00",
       "source": {
         "name": "AD HOC NEWS",
         "url": "https://www.ad-hoc-news.de"
