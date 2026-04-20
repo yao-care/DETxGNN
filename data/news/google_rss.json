@@ -1,18 +1,8 @@
 {
-  "fetched_at": "2026-04-20T12:06:08.852824+00:00",
+  "fetched_at": "2026-04-20T14:52:49.034375+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
-    {
-      "id": "468a57d618d3",
-      "title": "Millionen Deutsche abhängig von Medikamenten – und kaum jemand merkt es - T-Online",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPZGVQYWpla0hEN0k0bG9FOFFKdm44QjYtZlF1UkgyODNyM1luSEdtWUJuN25wZEh6cEo3cFJzaGJpVkI1dnByMUJDclJOYmZaZlI0YTdJZDNHdmwtVVlNOERFNFp4Q1dhbEJXQkNHc1ktWWpydU1Vb1pnRENBc0lIYmNWbWxPS2tGUXpIOFh2OUd5V2oycXRIN05KTGU4clBjZTZuWFBPblNEc1o3b0VPeVVManlCdzl2S28yWExDYmVtcHh2QlhyQ2pWcFgzOXJSZnpzQg?oc=5",
-      "published": "2026-04-20T11:22:25+00:00",
-      "source": {
-        "name": "T-Online",
-        "url": "https://www.t-online.de"
-      }
-    },
     {
       "id": "62868ec42423",
       "title": "Innovationsrückstand bei Arzneimitteln: Warum Europa den Anschluss verliert - vfa. Die forschenden Pharma-Unternehmen",
@@ -21,6 +11,16 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "468a57d618d3",
+      "title": "Millionen Deutsche abhängig von Medikamenten – und kaum jemand merkt es - T-Online",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPZGVQYWpla0hEN0k0bG9FOFFKdm44QjYtZlF1UkgyODNyM1luSEdtWUJuN25wZEh6cEo3cFJzaGJpVkI1dnByMUJDclJOYmZaZlI0YTdJZDNHdmwtVVlNOERFNFp4Q1dhbEJXQkNHc1ktWWpydU1Vb1pnRENBc0lIYmNWbWxPS2tGUXpIOFh2OUd5V2oycXRIN05KTGU4clBjZTZuWFBPblNEc1o3b0VPeVVManlCdzl2S28yWExDYmVtcHh2QlhyQ2pWcFgzOXJSZnpzQg?oc=5",
+      "published": "2026-04-20T11:22:25+00:00",
+      "source": {
+        "name": "T-Online",
+        "url": "https://www.t-online.de"
       }
     },
     {
@@ -44,16 +44,6 @@
       }
     },
     {
-      "id": "6facec4199ec",
-      "title": "Medikamentencheck in der Apotheke: Wer Anspruch darauf hat - Wormser Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYU8wNFkzT2ROMEZsNXByblhuNUJLN2pqMHNCdmxlM29FTGlWbTB4Q0ZWa1lEc3pIdjJObnZPcWloWHI4S3JheXMtRVNPS2E3NXMyVFNQVUxYVFpYMWdtRVZ2eUMxVmR4TDN2NHMxM1lLUm94RzBYMFJieHA1YmRES2JEVF9iVFpuNWhBT29kRzdtc0JwclEyS0EtX3JfTThGMlJkbXA0VDFZVXJrZl83SlRKSWprMXc?oc=5",
-      "published": "2026-04-19T18:00:00+00:00",
-      "source": {
-        "name": "Wormser Zeitung",
-        "url": "https://www.wormser-zeitung.de"
-      }
-    },
-    {
       "id": "2a4cd6eb6d1d",
       "title": "Arzneimittelengpässe in Europa – so reagiert die EU - European Parliament",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYUFLam5JQVMtSlNuNWlqSTJrRUNDN215RDlRU2hOMEE0Rkp3cHBodVhSbXRsSUhvTTRhMTVLWEE5QmM0dXJRNGlPSkwyZ2doMHhlaEpHbW5DZl8tazhQc3lPcEN4SmtLaEdGMk9IZjF5MGZvNEd3a2tXSnJXT1ItanFsV2gtRGpMYjlUbHV2OURrMkM5OXA3emh5OERlMlpXc1J1UlNVYUp1UlBUd1gzREtLUkZRZw?oc=5",
@@ -61,6 +51,16 @@
       "source": {
         "name": "European Parliament",
         "url": "https://www.europarl.europa.eu"
+      }
+    },
+    {
+      "id": "6facec4199ec",
+      "title": "Medikamentencheck in der Apotheke: Wer Anspruch darauf hat - Wormser Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYU8wNFkzT2ROMEZsNXByblhuNUJLN2pqMHNCdmxlM29FTGlWbTB4Q0ZWa1lEc3pIdjJObnZPcWloWHI4S3JheXMtRVNPS2E3NXMyVFNQVUxYVFpYMWdtRVZ2eUMxVmR4TDN2NHMxM1lLUm94RzBYMFJieHA1YmRES2JEVF9iVFpuNWhBT29kRzdtc0JwclEyS0EtX3JfTThGMlJkbXA0VDFZVXJrZl83SlRKSWprMXc?oc=5",
+      "published": "2026-04-19T18:00:00+00:00",
+      "source": {
+        "name": "Wormser Zeitung",
+        "url": "https://www.wormser-zeitung.de"
       }
     },
     {
@@ -214,16 +214,6 @@
       }
     },
     {
-      "id": "fc332461e405",
-      "title": "Leiter der Arzneimittelbehörde inspiziert den Arbeitsfortschritt im Nationalen Drogenkontrolllabor - وكالة سبأ",
-      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1vQkluNE12TTdWeE1BSkRGajlXSGdVUGo5N0RYbm55dUN4Mmt4eXRIR0FtWnZoeVRuUlJqS0hjOXdxMDJqVE1vSDVn?oc=5",
-      "published": "2026-04-19T14:16:07+00:00",
-      "source": {
-        "name": "وكالة سبأ",
-        "url": "https://saba.ye"
-      }
-    },
-    {
       "id": "39655c0e5aa9",
       "title": "Gesundheit - Techniker Krankenkasse fordert geringere Medikamentenpreise - Deutschlandfunk",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOX3NDaWYzNk9TdlEwcHJfWDNzMFpsdFN5aUNwNHJTZjhocklJMURaWDlKdWdDR21aNHpwcDU5UGd6d285RXE0QUlvekdsd3VqMTdGazRKbFdRV0VLbVoxbzBNbXVJeElpcFJKTmxpTzAwcFhJZG5PSlhoQW1sTlUxaGNDTUttWmEwdEVMOHpMQWNYWmFmUkhRa2UzVzR2VVFP?oc=5",
@@ -271,6 +261,16 @@
       "source": {
         "name": "Spiegel",
         "url": "https://www.spiegel.de"
+      }
+    },
+    {
+      "id": "fc332461e405",
+      "title": "Leiter der Arzneimittelbehörde inspiziert den Arbeitsfortschritt im Nationalen Drogenkontrolllabor - وكالة سبأ",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1vQkluNE12TTdWeE1BSkRGajlXSGdVUGo5N0RYbm55dUN4Mmt4eXRIR0FtWnZoeVRuUlJqS0hjOXdxMDJqVE1vSDVn?oc=5",
+      "published": "2026-04-19T14:16:07+00:00",
+      "source": {
+        "name": "وكالة سبأ",
+        "url": "https://saba.ye"
       }
     },
     {
@@ -331,6 +331,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "76a8cbacde21",
+      "title": "Viele nehmen es „vorsorglich“ – schützt tägliches Aspirin wirklich vor Demenz? - FITBOOK",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUnlVZm03MFpvZndjRmY5QkhrbENaaUdNYkJpV2VpUXAza2FsSjNkcmgwRWczTm5yMHpTR0R2YkVIOEJPQWh2UDlma1Q5NVBaM3pGTGRYbUZfcE0zUFBta1ZkYUJ1WUFPR2hTM3pOdi1ya1BuajdPcGtjZ09wV0NwRFlvSEFIMk16dU9CcHpKVDY1Vmd6bnFyRnFLVGhBYVp5QTgtNkNFOHE3bFdoT1E?oc=5",
+      "published": "2026-04-17T15:09:00+00:00",
+      "source": {
+        "name": "FITBOOK",
+        "url": "https://www.fitbook.de"
       }
     },
     {
@@ -904,12 +914,12 @@
       }
     },
     {
-      "id": "2937d141a96c",
-      "title": "Arzneimittel: Wer zahlt was? - Barmer",
+      "id": "1ff3efb35a5b",
+      "title": "Arzneimittel: Wer zahlt was? - BARMER",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNV2JoRWk0Wk1NdnNUQlRVQmgzX3dOT1p0WGlaTEZ4N0RmOXJZakFIV2M0ME5LMlN1ck5HNHh6SHFrOUlPNnpXeDdSM1V2aWlZamJ3dmZLRnlNcW40Tmg2ZkR5VVg5OUJLMXBMRW1BbVFLU2RVUU1SWEMzRUg1VmVkRExiUG92S0VWOEhyUl9PSUdsc3ZMZkdOQ2tEWjZ0dw?oc=5",
       "published": "2025-02-05T08:00:00+00:00",
       "source": {
-        "name": "Barmer",
+        "name": "BARMER",
         "url": "https://www.barmer.de"
       }
     },
@@ -991,16 +1001,6 @@
       "source": {
         "name": "World Health Organization (WHO)",
         "url": "https://www.who.int"
-      }
-    },
-    {
-      "id": "95553e5f0104",
-      "title": "Gesundheit: Arzneimittel-Experten: Viagra weiter nicht ohne Rezept - DIE ZEIT",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQU1lmNkktQnJXOUxNVk4tZFcwZUgwUmY5TmpzSWpCN2tKZ1lzN1pET01VRGhqWTZkR0xzZDJSRzBDdTVjdkpQVmMzdGE3dVRJNjdnZU83ZHluUVI1LVQ3Qm9NVGVLWDEwMmdGY0RRX21WellXXzRGUEhDbkc0Sk5kMm5zU3lFWjk4dW5uLTVyUU9pb0k?oc=5",
-      "published": "2023-07-11T07:00:00+00:00",
-      "source": {
-        "name": "DIE ZEIT",
-        "url": "https://www.zeit.de"
       }
     }
   ]
