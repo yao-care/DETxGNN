@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-22T07:52:01.517940+00:00",
+  "fetched_at": "2026-04-22T09:23:13.039641+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -44,6 +44,16 @@
       }
     },
     {
+      "id": "ccb310d629ed",
+      "title": "Arzneimittel: «Wir verzichten zunehmend auf solide Forschung» - Infosperber",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcEVfS1ZfY1hubkFDUG15MS05M0NQODduMHd0Zl9WUFVORWRzeVdMRTZuX0xsYjRWWHFuMFRUVlB5bFlVdG0zb19YTURRczJ5Y1Z5WFhhVkVTa0h1aUl6cWZJczFZTEl2SWhtSUg1VmNWTXpOaUlnVzZQRDhISWVzX2wxdlFJS282UF9mY1BuUnNDZ1VZYmhjMDMyOVE5R2NoMUZtLTFQZUs?oc=5",
+      "published": "2026-04-19T08:35:00+00:00",
+      "source": {
+        "name": "Infosperber",
+        "url": "https://www.infosperber.ch"
+      }
+    },
+    {
       "id": "468a57d618d3",
       "title": "Millionen Deutsche abhängig von Medikamenten – und kaum jemand merkt es - T-Online",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPZGVQYWpla0hEN0k0bG9FOFFKdm44QjYtZlF1UkgyODNyM1luSEdtWUJuN25wZEh6cEo3cFJzaGJpVkI1dnByMUJDclJOYmZaZlI0YTdJZDNHdmwtVVlNOERFNFp4Q1dhbEJXQkNHc1ktWWpydU1Vb1pnRENBc0lIYmNWbWxPS2tGUXpIOFh2OUd5V2oycXRIN05KTGU4clBjZTZuWFBPblNEc1o3b0VPeVVManlCdzl2S28yWExDYmVtcHh2QlhyQ2pWcFgzOXJSZnpzQg?oc=5",
@@ -51,16 +61,6 @@
       "source": {
         "name": "T-Online",
         "url": "https://www.t-online.de"
-      }
-    },
-    {
-      "id": "5b57c229e863",
-      "title": "BMG-Sparpläne: Hanflobby sieht Kostenanstieg durch Erstattungs-Aus für Cannabisblüten - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQQVJGbnlaR296cGxtQWZjLXF2Y2NtR2R5MW9Dd2tBM2ZoOHU1X2xQMjBPSTVwS2t0MkJzTmwzUzRTR1ZXcndEVmt0bGVBUm4tZjg3X25FdXV4cVp6eWhmandyRDFTeDZEd0pKdXFxVi1lNE1EYUJ5b0dFV0ZWVmJRaHBPN2ZneUViZlV4MjZvUHdrV3plTXNNQlhUZ0pQZV9rV2djNVR6aXFzMFRyOTV3UjZlTEpXOVFZaUxj?oc=5",
-      "published": "2026-04-21T09:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -74,23 +74,13 @@
       }
     },
     {
-      "id": "ccb310d629ed",
-      "title": "Arzneimittel: «Wir verzichten zunehmend auf solide Forschung» - Infosperber",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcEVfS1ZfY1hubkFDUG15MS05M0NQODduMHd0Zl9WUFVORWRzeVdMRTZuX0xsYjRWWHFuMFRUVlB5bFlVdG0zb19YTURRczJ5Y1Z5WFhhVkVTa0h1aUl6cWZJczFZTEl2SWhtSUg1VmNWTXpOaUlnVzZQRDhISWVzX2wxdlFJS282UF9mY1BuUnNDZ1VZYmhjMDMyOVE5R2NoMUZtLTFQZUs?oc=5",
-      "published": "2026-04-19T08:35:00+00:00",
+      "id": "5b57c229e863",
+      "title": "BMG-Sparpläne: Hanflobby sieht Kostenanstieg durch Erstattungs-Aus für Cannabisblüten - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQQVJGbnlaR296cGxtQWZjLXF2Y2NtR2R5MW9Dd2tBM2ZoOHU1X2xQMjBPSTVwS2t0MkJzTmwzUzRTR1ZXcndEVmt0bGVBUm4tZjg3X25FdXV4cVp6eWhmandyRDFTeDZEd0pKdXFxVi1lNE1EYUJ5b0dFV0ZWVmJRaHBPN2ZneUViZlV4MjZvUHdrV3plTXNNQlhUZ0pQZV9rV2djNVR6aXFzMFRyOTV3UjZlTEpXOVFZaUxj?oc=5",
+      "published": "2026-04-21T09:00:00+00:00",
       "source": {
-        "name": "Infosperber",
-        "url": "https://www.infosperber.ch"
-      }
-    },
-    {
-      "id": "188e6d18b00f",
-      "title": "Wie entsorgt man abgelaufene Medikamente? - Blick",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNaDBNek5UTGxiekt0clFVMW9JcVU1VjdpaG84OVFPQUdrZENNYkNCZnFuQUxxeGp4RFpDVzUxVmVFcUZVUzVUS1VhM19GSzN5TU5uNEpXQk5wbm5peU5ET1ZWbzhsaU9aWHZoYmVWNFVmcmpWX2JHaC0wbTgxZV9Oa3N6cjh2MzFoQmpFZnM0M2gwcThVMnB2M19MaVFZc25MaFRlY2tCTVlMWHNJMGxpa2ZvU3VKOTlfR21Zcl8yNGVUYWY0Tm1tVkVqNlJqdkd5Vk5V?oc=5",
-      "published": "2026-04-21T14:27:27+00:00",
-      "source": {
-        "name": "Blick",
-        "url": "https://www.blick.ch"
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -111,6 +101,16 @@
       "source": {
         "name": "World Health Organization (WHO)",
         "url": "https://www.who.int"
+      }
+    },
+    {
+      "id": "188e6d18b00f",
+      "title": "Wie entsorgt man abgelaufene Medikamente? - Blick",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNaDBNek5UTGxiekt0clFVMW9JcVU1VjdpaG84OVFPQUdrZENNYkNCZnFuQUxxeGp4RFpDVzUxVmVFcUZVUzVUS1VhM19GSzN5TU5uNEpXQk5wbm5peU5ET1ZWbzhsaU9aWHZoYmVWNFVmcmpWX2JHaC0wbTgxZV9Oa3N6cjh2MzFoQmpFZnM0M2gwcThVMnB2M19MaVFZc25MaFRlY2tCTVlMWHNJMGxpa2ZvU3VKOTlfR21Zcl8yNGVUYWY0Tm1tVkVqNlJqdkd5Vk5V?oc=5",
+      "published": "2026-04-21T14:27:27+00:00",
+      "source": {
+        "name": "Blick",
+        "url": "https://www.blick.ch"
       }
     },
     {
@@ -754,16 +754,6 @@
       }
     },
     {
-      "id": "d6dec58f56c3",
-      "title": "Deutschland im Vergleich : Sehr guter Zugang zu Arzneimitteln - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVzVEa1dHa2JpMkQ1MFIxRDMwUGJJdlJuSFdMbVg1a3NubkFONG8wb1NQTGE4bU1nM2V6bEpyQzRpVjBaOHp5ZV9PRlY0cGxPd3ZBY2R4RzNjZ0JJN0xrTzFic2VHUThuNlZvc2hrLXdDdjZrdWh6bm1sSDZMMDJENXBKRllMak1Z?oc=5",
-      "published": "2025-05-28T07:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "9cec1633456c",
       "title": "EU-Gesundheitsminister drängen auf unabhängige Arzneimittelproduktion – News - Deutsches Ärzteblatt",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPZVd0ak5vc1MzMkdFUnN2QWVUWHp1aVl5TVBDdkVTTmFSX1k4LXJlNlVBOXJnenJ3V1NRQzVYQ25Od0I3Z3l1TGlTU1hBdHVtQjdDaXI3VzVKakwxSkNCN3dEMEZBNldDb3ppa3dMNTE3NnNOT1hWcElBanJUSVFZTXNMeFJuVDlROTQzS3RNWHJreFZIdk11cWR0NmxmdlkyVmlLcmRXUEU3d3JadW9XZE5fbFY1M0tLMWxBYXo4d1l5T1BMVTBNbnJ3VEhSWkFKQkpNdQ?oc=5",
@@ -771,6 +761,16 @@
       "source": {
         "name": "Deutsches Ärzteblatt",
         "url": "https://www.aerzteblatt.de"
+      }
+    },
+    {
+      "id": "d6dec58f56c3",
+      "title": "Deutschland im Vergleich : Sehr guter Zugang zu Arzneimitteln - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVzVEa1dHa2JpMkQ1MFIxRDMwUGJJdlJuSFdMbVg1a3NubkFONG8wb1NQTGE4bU1nM2V6bEpyQzRpVjBaOHp5ZV9PRlY0cGxPd3ZBY2R4RzNjZ0JJN0xrTzFic2VHUThuNlZvc2hrLXdDdjZrdWh6bm1sSDZMMDJENXBKRllMak1Z?oc=5",
+      "published": "2025-05-28T07:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -954,12 +954,12 @@
       }
     },
     {
-      "id": "8b567b81ec81",
-      "title": "Nutzen- und Risikobewertung neuer Arzneimittel: Die Sicht des BfArM - AerzteZeitung.de",
+      "id": "5803d9093799",
+      "title": "Nutzen- und Risikobewertung neuer Arzneimittel: Die Sicht des BfArM - Ärzte Zeitung",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxORFdEUFE1cjJuX045WHFKOG9LVTY4a25FOUdrODc0OTZmSWRKQ3VQbG4xeEIzWjI3Z2ctNmNmNElsYjZabk0xeGVnTTNIanp5VTc0T1JoNm1YWGVGQXBGbXFiRU10SURaZkZGUlhXaDJDd2RLOHJhS0RHeHlmVUVxaVQ1Ykk5S0NiQVRYdHdzVXhrZkdjalVmTTZHZjg0Z0VpRng4ZFV5SnpRcTl3Z1lienV5MXlkeFdzckxRWA?oc=5",
       "published": "2024-10-14T07:00:00+00:00",
       "source": {
-        "name": "AerzteZeitung.de",
+        "name": "Ärzte Zeitung",
         "url": "https://www.aerztezeitung.de"
       }
     },
