@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-22T02:45:19.188902+00:00",
+  "fetched_at": "2026-04-22T05:28:03.919608+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -34,16 +34,6 @@
       }
     },
     {
-      "id": "5b57c229e863",
-      "title": "BMG-Sparpläne: Hanflobby sieht Kostenanstieg durch Erstattungs-Aus für Cannabisblüten - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQQVJGbnlaR296cGxtQWZjLXF2Y2NtR2R5MW9Dd2tBM2ZoOHU1X2xQMjBPSTVwS2t0MkJzTmwzUzRTR1ZXcndEVmt0bGVBUm4tZjg3X25FdXV4cVp6eWhmandyRDFTeDZEd0pKdXFxVi1lNE1EYUJ5b0dFV0ZWVmJRaHBPN2ZneUViZlV4MjZvUHdrV3plTXNNQlhUZ0pQZV9rV2djNVR6aXFzMFRyOTV3UjZlTEpXOVFZaUxj?oc=5",
-      "published": "2026-04-21T09:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "2a4cd6eb6d1d",
       "title": "Arzneimittelengpässe in Europa – so reagiert die EU - European Parliament",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYUFLam5JQVMtSlNuNWlqSTJrRUNDN215RDlRU2hOMEE0Rkp3cHBodVhSbXRsSUhvTTRhMTVLWEE5QmM0dXJRNGlPSkwyZ2doMHhlaEpHbW5DZl8tazhQc3lPcEN4SmtLaEdGMk9IZjF5MGZvNEd3a2tXSnJXT1ItanFsV2gtRGpMYjlUbHV2OURrMkM5OXA3emh5OERlMlpXc1J1UlNVYUp1UlBUd1gzREtLUkZRZw?oc=5",
@@ -51,6 +41,16 @@
       "source": {
         "name": "European Parliament",
         "url": "https://www.europarl.europa.eu"
+      }
+    },
+    {
+      "id": "5b57c229e863",
+      "title": "BMG-Sparpläne: Hanflobby sieht Kostenanstieg durch Erstattungs-Aus für Cannabisblüten - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQQVJGbnlaR296cGxtQWZjLXF2Y2NtR2R5MW9Dd2tBM2ZoOHU1X2xQMjBPSTVwS2t0MkJzTmwzUzRTR1ZXcndEVmt0bGVBUm4tZjg3X25FdXV4cVp6eWhmandyRDFTeDZEd0pKdXFxVi1lNE1EYUJ5b0dFV0ZWVmJRaHBPN2ZneUViZlV4MjZvUHdrV3plTXNNQlhUZ0pQZV9rV2djNVR6aXFzMFRyOTV3UjZlTEpXOVFZaUxj?oc=5",
+      "published": "2026-04-21T09:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -74,16 +74,6 @@
       }
     },
     {
-      "id": "188e6d18b00f",
-      "title": "Wie entsorgt man abgelaufene Medikamente? - Blick",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNaDBNek5UTGxiekt0clFVMW9JcVU1VjdpaG84OVFPQUdrZENNYkNCZnFuQUxxeGp4RFpDVzUxVmVFcUZVUzVUS1VhM19GSzN5TU5uNEpXQk5wbm5peU5ET1ZWbzhsaU9aWHZoYmVWNFVmcmpWX2JHaC0wbTgxZV9Oa3N6cjh2MzFoQmpFZnM0M2gwcThVMnB2M19MaVFZc25MaFRlY2tCTVlMWHNJMGxpa2ZvU3VKOTlfR21Zcl8yNGVUYWY0Tm1tVkVqNlJqdkd5Vk5V?oc=5",
-      "published": "2026-04-21T14:27:27+00:00",
-      "source": {
-        "name": "Blick",
-        "url": "https://www.blick.ch"
-      }
-    },
-    {
       "id": "ccb310d629ed",
       "title": "Arzneimittel: «Wir verzichten zunehmend auf solide Forschung» - Infosperber",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcEVfS1ZfY1hubkFDUG15MS05M0NQODduMHd0Zl9WUFVORWRzeVdMRTZuX0xsYjRWWHFuMFRUVlB5bFlVdG0zb19YTURRczJ5Y1Z5WFhhVkVTa0h1aUl6cWZJczFZTEl2SWhtSUg1VmNWTXpOaUlnVzZQRDhISWVzX2wxdlFJS282UF9mY1BuUnNDZ1VZYmhjMDMyOVE5R2NoMUZtLTFQZUs?oc=5",
@@ -101,6 +91,16 @@
       "source": {
         "name": "World Health Organization (WHO)",
         "url": "https://www.who.int"
+      }
+    },
+    {
+      "id": "188e6d18b00f",
+      "title": "Wie entsorgt man abgelaufene Medikamente? - Blick",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNaDBNek5UTGxiekt0clFVMW9JcVU1VjdpaG84OVFPQUdrZENNYkNCZnFuQUxxeGp4RFpDVzUxVmVFcUZVUzVUS1VhM19GSzN5TU5uNEpXQk5wbm5peU5ET1ZWbzhsaU9aWHZoYmVWNFVmcmpWX2JHaC0wbTgxZV9Oa3N6cjh2MzFoQmpFZnM0M2gwcThVMnB2M19MaVFZc25MaFRlY2tCTVlMWHNJMGxpa2ZvU3VKOTlfR21Zcl8yNGVUYWY0Tm1tVkVqNlJqdkd5Vk5V?oc=5",
+      "published": "2026-04-21T14:27:27+00:00",
+      "source": {
+        "name": "Blick",
+        "url": "https://www.blick.ch"
       }
     },
     {
@@ -164,13 +164,13 @@
       }
     },
     {
-      "id": "df16850da4b3",
-      "title": "Notdienst heute in Bremerhaven: Kontakte für Apotheken-Notdienst und Bereitschaftsärzte am 22.04.2026 - News.de",
-      "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQbWJycHFoUUNmU0puSG1UZjhoZmdUSTNZaW51dVZaQzVfQjZEVTVmeHRMdkc3Z1FQbFBwREdyLUJrbzdfY1FDM1lXbmtub1IzYkRFeWVXcHJtdVhfdkxjRnU3SzJvdVNheU5OdHNfWHVmMThzajlZbEdXeFF3aDJoUEt5YjY0U3Y3aGFHTVhGZDZod1g3WTJRYlJtbzA2SjE2cDlaS3ZfQU84NmlyQmpWYzJwZUVEQWdERDlSXzc3WXRaVGhvYmI0LVFSQ3N2Z09ndC1ZOHRXbVdOanczdWVGMTlDZXY0RFMyLXNiY1p3RU9xb01YT3JSMEZ3VDRKRFFnbW1Ea1RRalNpcFhfakhz0gGUAkFVX3lxTFBNRFJ1RzRjTmhOcHlVM1pLTTFDVFU4VXpiSkRSb3hUNWhjVDRRTGNmcE95RVdLVVUzdTM0cExhUXhwN1JSckVCY3VZb2tlQzlVSUxYZUtzYlZMd3d0Yk1vSGIzUUZiSEZIUzd2blQ5SVl2ejRUMWtkUTVsd1VueVd0OGZmRHRWbXhwNjAyck4xTnRDNzFGN3kzTV8zaE5ZdnR6dk4xNnotRUdhY0NFSTB0eWhzTkp4ZFhFaGRqMG9DcEZZTkxsZjZnUXQwS2txQ0gwS3A4UDlmbExicWdxNUJ6SmRmVjU5UlRqc2Ixejd0WkRkRjRGRVppOVdwdEVLSTFwYmtoZWpVVjkzb3RFUkdIc3B0Qg?oc=5",
-      "published": "2026-04-22T02:23:12+00:00",
+      "id": "075a40db361f",
+      "title": "Medikamente auf Reisen: Das darf ins Handgepäck - ADAC",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZmdDVl81RGdjdDZRNXNXSlRFTVhOSVpSQUlwUTlUelB6bnNFcVFRV09lQ2czNTdja0RsNHJVck00Y2hFVHZUM3kyaTRWOVZXWHQ0M182TVJrcGNGcUxtS1pFaU8wczRRRFRycTVmZnFmWE1lQ2g1eVVNekNQd3pSWWFHMnc1anVBY3plbTNB?oc=5",
+      "published": "2026-01-20T08:00:00+00:00",
       "source": {
-        "name": "News.de",
-        "url": "https://www.news.de"
+        "name": "ADAC",
+        "url": "https://www.adac.de"
       }
     },
     {
@@ -194,13 +194,13 @@
       }
     },
     {
-      "id": "075a40db361f",
-      "title": "Medikamente auf Reisen: Das darf ins Handgepäck - ADAC",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZmdDVl81RGdjdDZRNXNXSlRFTVhOSVpSQUlwUTlUelB6bnNFcVFRV09lQ2czNTdja0RsNHJVck00Y2hFVHZUM3kyaTRWOVZXWHQ0M182TVJrcGNGcUxtS1pFaU8wczRRRFRycTVmZnFmWE1lQ2g1eVVNekNQd3pSWWFHMnc1anVBY3plbTNB?oc=5",
-      "published": "2026-01-20T08:00:00+00:00",
+      "id": "df16850da4b3",
+      "title": "Notdienst heute in Bremerhaven: Kontakte für Apotheken-Notdienst und Bereitschaftsärzte am 22.04.2026 - News.de",
+      "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQbWJycHFoUUNmU0puSG1UZjhoZmdUSTNZaW51dVZaQzVfQjZEVTVmeHRMdkc3Z1FQbFBwREdyLUJrbzdfY1FDM1lXbmtub1IzYkRFeWVXcHJtdVhfdkxjRnU3SzJvdVNheU5OdHNfWHVmMThzajlZbEdXeFF3aDJoUEt5YjY0U3Y3aGFHTVhGZDZod1g3WTJRYlJtbzA2SjE2cDlaS3ZfQU84NmlyQmpWYzJwZUVEQWdERDlSXzc3WXRaVGhvYmI0LVFSQ3N2Z09ndC1ZOHRXbVdOanczdWVGMTlDZXY0RFMyLXNiY1p3RU9xb01YT3JSMEZ3VDRKRFFnbW1Ea1RRalNpcFhfakhz0gGUAkFVX3lxTFBNRFJ1RzRjTmhOcHlVM1pLTTFDVFU4VXpiSkRSb3hUNWhjVDRRTGNmcE95RVdLVVUzdTM0cExhUXhwN1JSckVCY3VZb2tlQzlVSUxYZUtzYlZMd3d0Yk1vSGIzUUZiSEZIUzd2blQ5SVl2ejRUMWtkUTVsd1VueVd0OGZmRHRWbXhwNjAyck4xTnRDNzFGN3kzTV8zaE5ZdnR6dk4xNnotRUdhY0NFSTB0eWhzTkp4ZFhFaGRqMG9DcEZZTkxsZjZnUXQwS2txQ0gwS3A4UDlmbExicWdxNUJ6SmRmVjU5UlRqc2Ixejd0WkRkRjRGRVppOVdwdEVLSTFwYmtoZWpVVjkzb3RFUkdIc3B0Qg?oc=5",
+      "published": "2026-04-22T02:23:12+00:00",
       "source": {
-        "name": "ADAC",
-        "url": "https://www.adac.de"
+        "name": "News.de",
+        "url": "https://www.news.de"
       }
     },
     {
@@ -241,16 +241,6 @@
       "source": {
         "name": "Deutschlandfunk",
         "url": "https://www.deutschlandfunk.de"
-      }
-    },
-    {
-      "id": "4f9e7b5d8fa0",
-      "title": "Unerwünschte Effekte: Diese Nebenwirkungen treten bei Antidepressiva besonders oft auf - News.de",
-      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOZWhQRVRFMl9OTDlVdVVqd1RZY2NrdFNPVTFwazd2UEhYdmV1SUlWNEo1VHdRdGE1T0w0ZFNlQTFQTENmQlB1UFpSbFBlSlJwaWlaOVR2NnhEeXF5Y1dnTDh3MUdpVXJmb2o5UzBPSWd4WGJpbkNRN1FCMG5JY1VjQ3E3RlpxWlUtRG5qSkNIOWhpZ0JnV2ZCd1hvczc3cGIwakhDTTNJdGYzX2IwZ1BITjFjMG44X0xhUlNEczZQU004LWxyM21KeU1GUEVWWUUySWZlLXFVLWVDTVFQcXhMU0xzU05ZSWJESzVsbDZQdXZaUE8tUnMwUVdNQk5HV3fSAYQCQVVfeXFMT3VsNTNVNkV4cmwwOXYzS3RNUnRKVm5XWEo1LXRBcmpoRndWWXNpTHp5OXF2QlhEbUFwWXFBYzNOdVZUMUh3OHVMdkdaUzd4QWtXdUdOaF9ScVljWF92cXBYd0JaOTdpTUJGR3dYem94MjlabnU0SlJWZTZFTV9nR0tUYTJ6cEtnUF93MU5tZEZNbFhkQzNkaG5xZnBkOS1BdnBYVVRpR043dGNPTlFNVXdURmpuaUJOd0cwbFhFNGc1NWYwQ2hOTXgtUVROZlJ1YXRxMlNoaFZBa05XT0RmNHprV3J0MG5VeDdwOTRTaTFrVkNyNzRDX0RSU21UNkdvYkxjVm4?oc=5",
-      "published": "2026-04-21T05:45:00+00:00",
-      "source": {
-        "name": "News.de",
-        "url": "https://www.news.de"
       }
     },
     {
@@ -351,6 +341,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "4f9e7b5d8fa0",
+      "title": "Unerwünschte Effekte: Diese Nebenwirkungen treten bei Antidepressiva besonders oft auf - News.de",
+      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOZWhQRVRFMl9OTDlVdVVqd1RZY2NrdFNPVTFwazd2UEhYdmV1SUlWNEo1VHdRdGE1T0w0ZFNlQTFQTENmQlB1UFpSbFBlSlJwaWlaOVR2NnhEeXF5Y1dnTDh3MUdpVXJmb2o5UzBPSWd4WGJpbkNRN1FCMG5JY1VjQ3E3RlpxWlUtRG5qSkNIOWhpZ0JnV2ZCd1hvczc3cGIwakhDTTNJdGYzX2IwZ1BITjFjMG44X0xhUlNEczZQU004LWxyM21KeU1GUEVWWUUySWZlLXFVLWVDTVFQcXhMU0xzU05ZSWJESzVsbDZQdXZaUE8tUnMwUVdNQk5HV3fSAYQCQVVfeXFMT3VsNTNVNkV4cmwwOXYzS3RNUnRKVm5XWEo1LXRBcmpoRndWWXNpTHp5OXF2QlhEbUFwWXFBYzNOdVZUMUh3OHVMdkdaUzd4QWtXdUdOaF9ScVljWF92cXBYd0JaOTdpTUJGR3dYem94MjlabnU0SlJWZTZFTV9nR0tUYTJ6cEtnUF93MU5tZEZNbFhkQzNkaG5xZnBkOS1BdnBYVVRpR043dGNPTlFNVXdURmpuaUJOd0cwbFhFNGc1NWYwQ2hOTXgtUVROZlJ1YXRxMlNoaFZBa05XT0RmNHprV3J0MG5VeDdwOTRTaTFrVkNyNzRDX0RSU21UNkdvYkxjVm4?oc=5",
+      "published": "2026-04-21T05:45:00+00:00",
+      "source": {
+        "name": "News.de",
+        "url": "https://www.news.de"
       }
     },
     {
@@ -884,12 +884,12 @@
       }
     },
     {
-      "id": "5803d9093799",
-      "title": "Nutzen- und Risikobewertung neuer Arzneimittel: Die Sicht des BfArM - Ärzte Zeitung",
+      "id": "8b567b81ec81",
+      "title": "Nutzen- und Risikobewertung neuer Arzneimittel: Die Sicht des BfArM - AerzteZeitung.de",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxORFdEUFE1cjJuX045WHFKOG9LVTY4a25FOUdrODc0OTZmSWRKQ3VQbG4xeEIzWjI3Z2ctNmNmNElsYjZabk0xeGVnTTNIanp5VTc0T1JoNm1YWGVGQXBGbXFiRU10SURaZkZGUlhXaDJDd2RLOHJhS0RHeHlmVUVxaVQ1Ykk5S0NiQVRYdHdzVXhrZkdjalVmTTZHZjg0Z0VpRng4ZFV5SnpRcTl3Z1lienV5MXlkeFdzckxRWA?oc=5",
       "published": "2024-10-14T07:00:00+00:00",
       "source": {
-        "name": "Ärzte Zeitung",
+        "name": "AerzteZeitung.de",
         "url": "https://www.aerztezeitung.de"
       }
     },
