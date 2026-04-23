@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-23T21:49:45.030993+00:00",
+  "fetched_at": "2026-04-23T22:49:39.733518+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -44,12 +44,12 @@
       }
     },
     {
-      "id": "fe58b4165f42",
-      "title": "DHU: Homöopathie spart Kosten - Apotheke Adhoc",
+      "id": "3b844f85cbff",
+      "title": "DHU: Homöopathie spart Kosten - apotheke adhoc",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWENpbkJrSW9FZXJCeXA4ZzJqRHBMSFJnUVE3ZG1jUUV3QTlCLUxLZTlJemRUY1J3MzQ0amtkaWtTWG5WTzNKZmdkcXJOOHh1VG9jbUx0WlRzSkNDanp6Y0hULXpINGx3aGRpSG5uZmRxUTdMS3hmbXJFODVESWFHdGFoRTR3cXMzRGZnaHNB?oc=5",
       "published": "2026-04-21T11:35:00+00:00",
       "source": {
-        "name": "Apotheke Adhoc",
+        "name": "apotheke adhoc",
         "url": "https://www.apotheke-adhoc.de"
       }
     },
@@ -114,16 +114,6 @@
       }
     },
     {
-      "id": "d105ca5d16d4",
-      "title": "Wie ME/CFS drei Leben in die Krise stürzt - FAZ",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOa3hSQWZBTnpRWjJtUE9sdkN4WGFrSEJZVDI0Qjk0LUlwekRjRXYzZURPUnJWS0o4RWpSMnpHZGxhQUJzNTEycWxiby1vbjF1aEF3S1hoSlhCQXF2YjF3SlFEWGx6SjV3WkJVNFpDRGk0emFrVGVMXzAtSjVZdTk4SVBLaHRPYjNaekR0YmVtX1F2bmVIQ2JUSFRDakdSMTVSc2x2S1pMRDFpSjQwSmc?oc=5",
-      "published": "2026-04-23T14:55:57+00:00",
-      "source": {
-        "name": "FAZ",
-        "url": "https://www.faz.net"
-      }
-    },
-    {
       "id": "09aa5c741fc7",
       "title": "In den USA: Abnehmspritze jetzt bei Amazon verfügbar - Lieferung direkt nach Hause - News.de",
       "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPV0FZeWRRWVQ3aXB5Y3R1MjJGNHJpc1dFWWZxYThfT3JqYWc0RDlqR1Y1UWhtckhSbnNQS2l3SjlnRVBsTnlIUVFPQVcwZXJvSG9JWkZ2VDlwSUFHblVGSXhoanhzMUlOdTlMbkhWcjZHVnZGSm1Td2NqME5RbWU0Y01raVdfbDRVeTN6MHpfQW04ejV6N1BVRFY1Sk1JYkxZMkVnUjN3UVdXYWE0R2hPU0gyUkIyWGFOOWxTa0JZaEVYVndpT0dtQmdqR1pVS3NFMFZTVFkwX2FiTDhGc0hHd0xWVzZ4X2FjV1V1R0RzbFFLMDRBQklSdVBHeUpSRlc2dFBN0gGIAkFVX3lxTE54SFhDWWFmNFNMSmxIdjFCeU9aanc3amhwV2o5ejdvOVA1UmxCeTBjZE50U3c0VDdXVDdsZmlLVkk2eDFDU0F4UTlYWHo0emFyQzdXaEZ4UlAySDRpMnc1Y05jcU5hUklEM050V1NHT0ZVbVA0TkpuRGhWeXZfcUNPNHprRVI3Z1NEQVNFZnlOYkQ1MlBzcmd2VVg1ZDU0UTBDSGxaQjN5bUgyR1FyRmlDdEN6UHFkWjRlcVN2dThuZ3E0MzdKQU1vNkFvMGZoRG1fXzd6TTB4TzVJcGIxN3dKX09JMzNjcGYzbElqbUNGNFBEaEtDQlh2M2lfM0E2VjhRU1hycEowRg?oc=5",
@@ -131,6 +121,16 @@
       "source": {
         "name": "News.de",
         "url": "https://www.news.de"
+      }
+    },
+    {
+      "id": "d105ca5d16d4",
+      "title": "Wie ME/CFS drei Leben in die Krise stürzt - FAZ",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOa3hSQWZBTnpRWjJtUE9sdkN4WGFrSEJZVDI0Qjk0LUlwekRjRXYzZURPUnJWS0o4RWpSMnpHZGxhQUJzNTEycWxiby1vbjF1aEF3S1hoSlhCQXF2YjF3SlFEWGx6SjV3WkJVNFpDRGk0emFrVGVMXzAtSjVZdTk4SVBLaHRPYjNaekR0YmVtX1F2bmVIQ2JUSFRDakdSMTVSc2x2S1pMRDFpSjQwSmc?oc=5",
+      "published": "2026-04-23T14:55:57+00:00",
+      "source": {
+        "name": "FAZ",
+        "url": "https://www.faz.net"
       }
     },
     {
@@ -164,12 +164,12 @@
       }
     },
     {
-      "id": "4ead6b503020",
-      "title": "15 Euro: „Wir sagen Nein“ - Apotheke Adhoc",
+      "id": "cc0afe02a6f8",
+      "title": "15 Euro: „Wir sagen Nein“ - apotheke adhoc",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTHp5M1J6aGFzN3Itek5oT3dxMklhaEEtQnBiVXNrM3JTN0pPdnA4aWFYRVdCOUtBZWFoTF9aQmpJU1VHZWR4bGdUUmRTZ3YtRFlVT2xyYUdPOWVXMHhrek5OZTY3dUdHa3JaYk5ubzhGU00yMzVuSFJUZ3F2blFRdGhjTEc0WTFQRTlFYVZxQWVUZw?oc=5",
       "published": "2026-04-20T13:32:00+00:00",
       "source": {
-        "name": "Apotheke Adhoc",
+        "name": "apotheke adhoc",
         "url": "https://www.apotheke-adhoc.de"
       }
     },
@@ -194,12 +194,12 @@
       }
     },
     {
-      "id": "2ae51a0d1035",
-      "title": "Abgeordnetenhaus: Apotheker machen Druck beim Fixum - Apotheke Adhoc",
+      "id": "afbcde89462f",
+      "title": "Abgeordnetenhaus: Apotheker machen Druck beim Fixum - apotheke adhoc",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOS3Y3MXJvcXlvbklBM0ZMWTgwOHhyTmJuQjl2OHRZM25uNURrRVo4cVNHNi1JRElEc0Y4S0JDd3NHenVaVHFETFhWM0Uza1FNRDNEWE5VamVJLVdUejZhcjQ4dC1YWjJwSDRfYlVfOXYtdTdCc2JZZUtyNG8zT1ZpeFp0cVZORGxBelVuS1ktR3M0ZjRSVnU3Yi1RMFdEanJReXpRT2RRSXE3bUR0?oc=5",
       "published": "2026-04-21T09:33:00+00:00",
       "source": {
-        "name": "Apotheke Adhoc",
+        "name": "apotheke adhoc",
         "url": "https://www.apotheke-adhoc.de"
       }
     },
@@ -284,16 +284,6 @@
       }
     },
     {
-      "id": "332b96cdf08e",
-      "title": "Notdienst heute im Landkreis Uelzen: Kontakte für Apotheken-Notdienst am 23.04.2026 - News.de",
-      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPQnVwOHBIakptYkd0S1ctNmR4YmhmUERCZzJkcmtrbmcwTjJZLXlkS0djbkNYODc4Q3g0bmlYcmJiR2s3MmlaU3E2SHVtNDExYWtPM04xT0pKb1dHa3FTQWpCd1pwVU1Qd1RTc29kNWFWTm8xdjRqa3k1U2VTcXJOUUdIUTVHTDgwX2IzY3FkYXVra3Frc2xzSkwzOTRtT045UDcxN2NWWHY0UFh4dUtQd2ptbjR6SFdsOTFDUFE5ZHdOV09aYXFIcTZYOWhoSDdRX0dkN1lHYWJKUDJkeVdnTVJPVzg0NjNNTUphY194RS1oX0RfZHA2ZmFpRm5hUdIBgwJBVV95cUxQaFU3TlFzSmxLcFNkVmJzeV9uTnJxUmxJZmk1aEk2NDNDQzJtZmlZZmRib3VnSGI1dlRROVhZREZUaWFrcTIwYTdwcEY0dGZ0WkwycU44czB5NmJYQkw5U1Z6ZlhwdHNaZGZRX3UzeEZkRm9DN0t1Q3c4VzgxYUJvWEpMUWZ1U1NUWFZ6LWtXX3ZNREFCUHk0dlp3aVBqNHQxUXl1dEF1dUY2ZFFyZGNhSVozT3RhNDRrNmNoZTg1bXMtVkFYVUtQVjlfQTdnaVFSNUxGeEV0YTduZVl6ejF2NmhWWG1uT2ZTMU10WGxOd2xLeHJSNjVSQnZHb0JhVVA2WmJZ?oc=5",
-      "published": "2026-04-23T02:21:29+00:00",
-      "source": {
-        "name": "News.de",
-        "url": "https://www.news.de"
-      }
-    },
-    {
       "id": "dec0851971fe",
       "title": "Techniker Krankenkasse: Medikamente in Deutschland zu teuer - tagesschau.de",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdXNDX01rQlduTU1adEVtenhsVUFTblJQTXBTalNfenp1c2I3X1UtcEZDem5BSFE5UlNhZ0R3M1lFRF9NLW9MSWFOY0lkNzR1VmRaSE1TQ2JWMGVMVi1YckpESmdDQWNvSHJWd2hmcHVHa3N1bEVqcWRpUU00OC1VdG1RSk5RcFI1?oc=5",
@@ -311,6 +301,16 @@
       "source": {
         "name": "ADAC",
         "url": "https://www.adac.de"
+      }
+    },
+    {
+      "id": "332b96cdf08e",
+      "title": "Notdienst heute im Landkreis Uelzen: Kontakte für Apotheken-Notdienst am 23.04.2026 - News.de",
+      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPQnVwOHBIakptYkd0S1ctNmR4YmhmUERCZzJkcmtrbmcwTjJZLXlkS0djbkNYODc4Q3g0bmlYcmJiR2s3MmlaU3E2SHVtNDExYWtPM04xT0pKb1dHa3FTQWpCd1pwVU1Qd1RTc29kNWFWTm8xdjRqa3k1U2VTcXJOUUdIUTVHTDgwX2IzY3FkYXVra3Frc2xzSkwzOTRtT045UDcxN2NWWHY0UFh4dUtQd2ptbjR6SFdsOTFDUFE5ZHdOV09aYXFIcTZYOWhoSDdRX0dkN1lHYWJKUDJkeVdnTVJPVzg0NjNNTUphY194RS1oX0RfZHA2ZmFpRm5hUdIBgwJBVV95cUxQaFU3TlFzSmxLcFNkVmJzeV9uTnJxUmxJZmk1aEk2NDNDQzJtZmlZZmRib3VnSGI1dlRROVhZREZUaWFrcTIwYTdwcEY0dGZ0WkwycU44czB5NmJYQkw5U1Z6ZlhwdHNaZGZRX3UzeEZkRm9DN0t1Q3c4VzgxYUJvWEpMUWZ1U1NUWFZ6LWtXX3ZNREFCUHk0dlp3aVBqNHQxUXl1dEF1dUY2ZFFyZGNhSVozT3RhNDRrNmNoZTg1bXMtVkFYVUtQVjlfQTdnaVFSNUxGeEV0YTduZVl6ejF2NmhWWG1uT2ZTMU10WGxOd2xLeHJSNjVSQnZHb0JhVVA2WmJZ?oc=5",
+      "published": "2026-04-23T02:21:29+00:00",
+      "source": {
+        "name": "News.de",
+        "url": "https://www.news.de"
       }
     },
     {
