@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-23T19:14:03.245359+00:00",
+  "fetched_at": "2026-04-23T20:55:30.313919+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -21,6 +21,16 @@
       "source": {
         "name": "AerzteZeitung.de",
         "url": "https://www.aerztezeitung.de"
+      }
+    },
+    {
+      "id": "d105ca5d16d4",
+      "title": "Wie ME/CFS drei Leben in die Krise stürzt - FAZ",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOa3hSQWZBTnpRWjJtUE9sdkN4WGFrSEJZVDI0Qjk0LUlwekRjRXYzZURPUnJWS0o4RWpSMnpHZGxhQUJzNTEycWxiby1vbjF1aEF3S1hoSlhCQXF2YjF3SlFEWGx6SjV3WkJVNFpDRGk0emFrVGVMXzAtSjVZdTk4SVBLaHRPYjNaekR0YmVtX1F2bmVIQ2JUSFRDakdSMTVSc2x2S1pMRDFpSjQwSmc?oc=5",
+      "published": "2026-04-23T14:55:57+00:00",
+      "source": {
+        "name": "FAZ",
+        "url": "https://www.faz.net"
       }
     },
     {
@@ -74,6 +84,16 @@
       }
     },
     {
+      "id": "468a57d618d3",
+      "title": "Millionen Deutsche abhängig von Medikamenten – und kaum jemand merkt es - T-Online",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPZGVQYWpla0hEN0k0bG9FOFFKdm44QjYtZlF1UkgyODNyM1luSEdtWUJuN25wZEh6cEo3cFJzaGJpVkI1dnByMUJDclJOYmZaZlI0YTdJZDNHdmwtVVlNOERFNFp4Q1dhbEJXQkNHc1ktWWpydU1Vb1pnRENBc0lIYmNWbWxPS2tGUXpIOFh2OUd5V2oycXRIN05KTGU4clBjZTZuWFBPblNEc1o3b0VPeVVManlCdzl2S28yWExDYmVtcHh2QlhyQ2pWcFgzOXJSZnpzQg?oc=5",
+      "published": "2026-04-20T11:22:25+00:00",
+      "source": {
+        "name": "T-Online",
+        "url": "https://www.t-online.de"
+      }
+    },
+    {
       "id": "38b8b0aa9188",
       "title": "Vom Wissen zum Handeln: Verbesserung der Bezahlbarkeit von Arzneimitteln in den Ländern des Westbalkans - World Health Organization (WHO)",
       "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOZlNmcEdYcXZxdDBYazhiVjRCWHVtbms0ZG5JUWlXb0lJWXVFYjV1ak1MR05oZW5FbHFMTGpyNjJxS1ZuQWk4Nl9Wc2NHdHE3YnhrQzc1VHJNbm1QRFdMVF9WVGw2NHdVeDBHajRYX1hfZkFEMTU2Z09kcU04T1c1V3dKZ09nUUlMc3dnLVdvQ3RTYUZqSDA3d1djVXpxbU9fSFUtSGlHbHNOdFJRb29RQlpTRHEzd2pCQzd5Y3VRNmcza2dzTVVlYUp5Y1U5b01kMGpQUzZvNGctWE0tSmJRSEk5TQ?oc=5",
@@ -101,26 +121,6 @@
       "source": {
         "name": "ZDFheute",
         "url": "https://www.zdfheute.de"
-      }
-    },
-    {
-      "id": "d105ca5d16d4",
-      "title": "Wie ME/CFS drei Leben in die Krise stürzt - FAZ",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOa3hSQWZBTnpRWjJtUE9sdkN4WGFrSEJZVDI0Qjk0LUlwekRjRXYzZURPUnJWS0o4RWpSMnpHZGxhQUJzNTEycWxiby1vbjF1aEF3S1hoSlhCQXF2YjF3SlFEWGx6SjV3WkJVNFpDRGk0emFrVGVMXzAtSjVZdTk4SVBLaHRPYjNaekR0YmVtX1F2bmVIQ2JUSFRDakdSMTVSc2x2S1pMRDFpSjQwSmc?oc=5",
-      "published": "2026-04-23T14:55:57+00:00",
-      "source": {
-        "name": "FAZ",
-        "url": "https://www.faz.net"
-      }
-    },
-    {
-      "id": "235014c0714b",
-      "title": "Keine Kürzung bei der Hautkrebs-Vorsorge – jetzt Appell unterzeichnen - Campact",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcm5JekFQYUsyS21fbW16b043b0dkcENyQ3ZadlpmRzYyNjRjN1BuZjB6dGdFbzd2cGhRLUsyUWdDekcwa0hKRkl4YmZzWEJtS0M2UGNXdkRaWW5KQ3BONHlHb0UzOXpVOU5rTDlDSzhkM0tBU2tncTM4TWtBUE9iemh2dUJNSVZDZE9QaDdPems0Sjc0dXozNW12MFE?oc=5",
-      "published": "2026-04-21T07:00:00+00:00",
-      "source": {
-        "name": "Campact",
-        "url": "https://www.campact.de"
       }
     },
     {
@@ -254,16 +254,6 @@
       }
     },
     {
-      "id": "d686ebc30fb4",
-      "title": "Notdienst heute im Landkreis Lüneburg: Welche Apotheken haben am Donnerstag Bereitschaft? - News.de",
-      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQcnFINmQ4OXlacjk4Y2Zvb2lEM3I3OE9sMWNfU2JMWnhXemdsZk1fS3djRkNVb1ZhbkdFMzU5SVVBRzhxZUx3S3pOYWFuTmVzV1ZVUTFzZkRXUXBBNzQwRE80clFpVHlULTVxZUFSSU9ra1d6Y0VTNHNta01nc1lJYkhBYzhHbVRHWDZTSnlLYksxUmZNUG1XT3p3MFdhdlByd2pTcERreW5WMEl2RFJ0azJYbnFqX1dvTVN3V3NRblhLMFk1a01MQXBOZS01dDkta1Ric2ZfU1Z0Q0JvbmpYZHJRVGt5Rl9NX2VqM3FwXzczWjJ0UUFrNTMtX0M0eERSeVHSAYcCQVVfeXFMTjhQaGFxa2J0Q05kVGdNdmxFZ29LbUswYXpiMWpBMUtwUEtDa1g4TmhTUFBHTGZ1OXotT2ZDTS1XNlI3cmg1dUpkajFCb2E0Sk5xVG5hblFlYVd4ZTB1Q1RBX3hJcnJKbGpFLWlzMGhLdFRab1p5Q3FyLVJMdXlndWtlTjlkcjJlTEkxY0JuWHQzOFF4WDhxMkZjYXl1TmpXZ2FFV3NlcW1pcHIyMVVmenRsYlpPZzlQajU2dUlCamp2YmE0Y2o1emZZSzVTazJaTmE0UDU1ZkZtdE9VTDZqSi1ZcnowYi1BTFEwd1dKSGxtMnRUdG01bkdpV3BFcWZDblZVaHlQQjQ?oc=5",
-      "published": "2026-04-23T02:21:02+00:00",
-      "source": {
-        "name": "News.de",
-        "url": "https://www.news.de"
-      }
-    },
-    {
       "id": "95d55d1267a1",
       "title": "Mit Abnehmspritze Kilos loswerden - was ist dran an Ozempic & Co.? - NDR.de",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaGFzLTFfUHozOUJiWWtWdlRPUm5mZ0VkMGMxLVVGcmxmMzlONHZRV21qZmFHYUo3d2gzV3VDVm9OUHp6Qk4wQjlZTHU3V3RnckthWTZSbVpVMGE1VWxiMFMtVVJCSWdWb3hibzlscllodzVwWmpDMS1ZOXNxYkFfQVJzdlRzeGRQOWdtcW55UVRNSE16QmhJZXhVYmRmYl9iUmJBN1g2cG8?oc=5",
@@ -271,6 +261,16 @@
       "source": {
         "name": "NDR.de",
         "url": "https://www.ndr.de"
+      }
+    },
+    {
+      "id": "d686ebc30fb4",
+      "title": "Notdienst heute im Landkreis Lüneburg: Welche Apotheken haben am Donnerstag Bereitschaft? - News.de",
+      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQcnFINmQ4OXlacjk4Y2Zvb2lEM3I3OE9sMWNfU2JMWnhXemdsZk1fS3djRkNVb1ZhbkdFMzU5SVVBRzhxZUx3S3pOYWFuTmVzV1ZVUTFzZkRXUXBBNzQwRE80clFpVHlULTVxZUFSSU9ra1d6Y0VTNHNta01nc1lJYkhBYzhHbVRHWDZTSnlLYksxUmZNUG1XT3p3MFdhdlByd2pTcERreW5WMEl2RFJ0azJYbnFqX1dvTVN3V3NRblhLMFk1a01MQXBOZS01dDkta1Ric2ZfU1Z0Q0JvbmpYZHJRVGt5Rl9NX2VqM3FwXzczWjJ0UUFrNTMtX0M0eERSeVHSAYcCQVVfeXFMTjhQaGFxa2J0Q05kVGdNdmxFZ29LbUswYXpiMWpBMUtwUEtDa1g4TmhTUFBHTGZ1OXotT2ZDTS1XNlI3cmg1dUpkajFCb2E0Sk5xVG5hblFlYVd4ZTB1Q1RBX3hJcnJKbGpFLWlzMGhLdFRab1p5Q3FyLVJMdXlndWtlTjlkcjJlTEkxY0JuWHQzOFF4WDhxMkZjYXl1TmpXZ2FFV3NlcW1pcHIyMVVmenRsYlpPZzlQajU2dUlCamp2YmE0Y2o1emZZSzVTazJaTmE0UDU1ZkZtdE9VTDZqSi1ZcnowYi1BTFEwd1dKSGxtMnRUdG01bkdpV3BFcWZDblZVaHlQQjQ?oc=5",
+      "published": "2026-04-23T02:21:02+00:00",
+      "source": {
+        "name": "News.de",
+        "url": "https://www.news.de"
       }
     },
     {
@@ -564,16 +564,6 @@
       }
     },
     {
-      "id": "6eaac0e35900",
-      "title": "Ukraine: Von der Europäischen Union finanzierte Kliniken für die primäre Gesundheitsversorgung verändern das Leben von Patienten - World Health Organization (WHO)",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNbDQ0OTlwYWJLOTJYdnhPLWpjTGJhZ0R6Q1lzblVyc0hNZUZsUUxXZWRBYmt0VVo0dGpEY3pKUlFCY0NtUk02MDQ0VmhzQk01TlZJcHZMamt5OGFvdWkzVFpjOVBhWVd4S1Y5bFJMRGdVM25TSFVJUWdqb0ZRSlJhcDdYSktVckIxVTY2UkhXd04zZTA4c1VvYnRwcC1JaVdBNDl3UmpISUQwV1NhZHNUT0hXZ2pSWHlwMEpFcERHZ0JuSXRqT0s1OTdrWG1QeE5ETVBTVzRzb3I4QTNNZzlFWGZvcVR2NzV4?oc=5",
-      "published": "2025-07-04T07:00:00+00:00",
-      "source": {
-        "name": "World Health Organization (WHO)",
-        "url": "https://www.who.int"
-      }
-    },
-    {
       "id": "62359a83d4ac",
       "title": "Arzneimittelmarkt in Deutschland: Analyse der Arzneimittelausgaben - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQlhtenAxN1hGNE9LX3hMemlaSDRGcy1XN2xpVEt3cTlhcDl2akpxZWo4bjY1N0RNVGRlRG5pSnBFUVA0V1l4WWc3QmxNc2ExRVIxU3RZQldOcVZpbVJEak9tZFFQNFJQUUdJcmluYzY2YzV3M01qdjkxY3pvTVBGUWstMHJJVGtjR0JQcWhiTDNjejA?oc=5",
@@ -581,6 +571,16 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "6eaac0e35900",
+      "title": "Ukraine: Von der Europäischen Union finanzierte Kliniken für die primäre Gesundheitsversorgung verändern das Leben von Patienten - World Health Organization (WHO)",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNbDQ0OTlwYWJLOTJYdnhPLWpjTGJhZ0R6Q1lzblVyc0hNZUZsUUxXZWRBYmt0VVo0dGpEY3pKUlFCY0NtUk02MDQ0VmhzQk01TlZJcHZMamt5OGFvdWkzVFpjOVBhWVd4S1Y5bFJMRGdVM25TSFVJUWdqb0ZRSlJhcDdYSktVckIxVTY2UkhXd04zZTA4c1VvYnRwcC1JaVdBNDl3UmpISUQwV1NhZHNUT0hXZ2pSWHlwMEpFcERHZ0JuSXRqT0s1OTdrWG1QeE5ETVBTVzRzb3I4QTNNZzlFWGZvcVR2NzV4?oc=5",
+      "published": "2025-07-04T07:00:00+00:00",
+      "source": {
+        "name": "World Health Organization (WHO)",
+        "url": "https://www.who.int"
       }
     },
     {
