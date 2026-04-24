@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-24T02:49:48.654135+00:00",
+  "fetched_at": "2026-04-24T05:37:46.896165+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -21,6 +21,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "d105ca5d16d4",
+      "title": "Wie ME/CFS drei Leben in die Krise stürzt - FAZ",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOa3hSQWZBTnpRWjJtUE9sdkN4WGFrSEJZVDI0Qjk0LUlwekRjRXYzZURPUnJWS0o4RWpSMnpHZGxhQUJzNTEycWxiby1vbjF1aEF3S1hoSlhCQXF2YjF3SlFEWGx6SjV3WkJVNFpDRGk0emFrVGVMXzAtSjVZdTk4SVBLaHRPYjNaekR0YmVtX1F2bmVIQ2JUSFRDakdSMTVSc2x2S1pMRDFpSjQwSmc?oc=5",
+      "published": "2026-04-23T14:55:57+00:00",
+      "source": {
+        "name": "FAZ",
+        "url": "https://www.faz.net"
       }
     },
     {
@@ -74,16 +84,6 @@
       }
     },
     {
-      "id": "468a57d618d3",
-      "title": "Millionen Deutsche abhängig von Medikamenten – und kaum jemand merkt es - T-Online",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPZGVQYWpla0hEN0k0bG9FOFFKdm44QjYtZlF1UkgyODNyM1luSEdtWUJuN25wZEh6cEo3cFJzaGJpVkI1dnByMUJDclJOYmZaZlI0YTdJZDNHdmwtVVlNOERFNFp4Q1dhbEJXQkNHc1ktWWpydU1Vb1pnRENBc0lIYmNWbWxPS2tGUXpIOFh2OUd5V2oycXRIN05KTGU4clBjZTZuWFBPblNEc1o3b0VPeVVManlCdzl2S28yWExDYmVtcHh2QlhyQ2pWcFgzOXJSZnpzQg?oc=5",
-      "published": "2026-04-20T11:22:25+00:00",
-      "source": {
-        "name": "T-Online",
-        "url": "https://www.t-online.de"
-      }
-    },
-    {
       "id": "38b8b0aa9188",
       "title": "Vom Wissen zum Handeln: Verbesserung der Bezahlbarkeit von Arzneimitteln in den Ländern des Westbalkans - World Health Organization (WHO)",
       "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOZlNmcEdYcXZxdDBYazhiVjRCWHVtbms0ZG5JUWlXb0lJWXVFYjV1ak1MR05oZW5FbHFMTGpyNjJxS1ZuQWk4Nl9Wc2NHdHE3YnhrQzc1VHJNbm1QRFdMVF9WVGw2NHdVeDBHajRYX1hfZkFEMTU2Z09kcU04T1c1V3dKZ09nUUlMc3dnLVdvQ3RTYUZqSDA3d1djVXpxbU9fSFUtSGlHbHNOdFJRb29RQlpTRHEzd2pCQzd5Y3VRNmcza2dzTVVlYUp5Y1U5b01kMGpQUzZvNGctWE0tSmJRSEk5TQ?oc=5",
@@ -94,33 +94,23 @@
       }
     },
     {
-      "id": "3b4b68150711",
-      "title": "Das Gesundheitsministerium warnt davor, dass das injizierbare Medikament YEZTUGO in Vietnam nicht zugelassen ist. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbmp2RC0zaDEwTGxoeGl6TUN2bWlST0NHcTFhYzhKc29iQ1dvX2VmV01ZT0ktV1FfU042aXgxM1RPaTh4NThETzh0aXg2eFJzd2lVc2Y5Y2hTY0ZNYWlxcmZ0NzdXTWdVcDBiZmNGQzlRTGVHOXJLa1c0bnFZQVVYZVltSnhidkNPU3I0UjBnNnFNdHYtblJ6aA?oc=5",
-      "published": "2026-04-20T02:44:45+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
-      "id": "d105ca5d16d4",
-      "title": "Wie ME/CFS drei Leben in die Krise stürzt - FAZ",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOa3hSQWZBTnpRWjJtUE9sdkN4WGFrSEJZVDI0Qjk0LUlwekRjRXYzZURPUnJWS0o4RWpSMnpHZGxhQUJzNTEycWxiby1vbjF1aEF3S1hoSlhCQXF2YjF3SlFEWGx6SjV3WkJVNFpDRGk0emFrVGVMXzAtSjVZdTk4SVBLaHRPYjNaekR0YmVtX1F2bmVIQ2JUSFRDakdSMTVSc2x2S1pMRDFpSjQwSmc?oc=5",
-      "published": "2026-04-23T14:55:57+00:00",
-      "source": {
-        "name": "FAZ",
-        "url": "https://www.faz.net"
-      }
-    },
-    {
-      "id": "36aeb3b1de82",
-      "title": "Notdienst heute in Mönchengladbach: Diese Notapotheken haben am 24.04.2026 geöffnet - News.de",
-      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQRnJfVGxSQXBXTWNJUmExSGdKZlgwVVo3S3Vadm5yLU83cnlYM0hVV01Bb1EwZ3EzazNkZldkQUVyNHJhMkw0OG5hak1lN0lFeUlIdmxYZndiUldZd2puMk1QTTBtV0FjbUpTSldIYU5DRWhIQmZtVERWRHByTWlHVUgxWEJZM2xlQm9hM2lCUkU1a2czMVZhY2QtZFYwRFNYVEhjSmstdGlYaENVNTdraWhHUXo0ZVl5UmdHTlByV0NNcjNCVGcya3R5cWFBZUU1WnN6NHhjTW9sSTR3ZEdDWVVCb01zUmNqQjdDUTBNRHU3YVhDa3ZrRWpXTUZmUdIBgwJBVV95cUxQVWtiYktNSDRtNEhwNGNEQ3pkRjFKdU1kU3JkQ1B2eWNiZWNEVVdhUlNPREpSQ0VzX2JMWWg4Sy03YnBKTmRBcXNVaWNCSUZTVHFMcEhXdTNPRjRwZlgzblJWOHV3T1VoX1AtaXhlUjVuSU04WDdWRzZHVGZDZ1RELWpQOHpmTjVNZ2hZdGd6Si03ak5TNlpzcmJkOUh2STJDYTk1MVpoVGQ1eUhCU0tSV19reXRGSmFvcVZ4Rmp0Q1VoS1h1emlCaXZHM0FfeDJURU14Z2RpNW41NGphYTE3WEppR0E3amxuZ1cyMmFhRnVvaGwtaDlFM08tc0luS0VRQVZR?oc=5",
-      "published": "2026-04-24T02:23:18+00:00",
+      "id": "8f38db81d8df",
+      "title": "Notdienst heute im Landkreis Waldshut: Kontakte für Apotheken-Notdienst am 24.04.2026 - News.de",
+      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPVTJtRGxtOFVfVjQtTUplSEo2SzRsd1daYmxmZDFQcE9JTUtmbmlfeU5qaldaaVJkZWktcUJobzJIa0I2cjZqVzF3cnJwNGpGSkhnYWhSazNQNXVUejRwVWplUXRLZmFrNUdqU0dzajZ5WTRIUUs5Qk8xMUFOQ25VU1pWWktGUmlSV3BnQ2RkVUlUa3ZFN0hZMGczSzU1ajg1cnFIR3c2YUoyNl9JMGRjN2FseWdraXZhRGs5NFNTNVl2ekVuMVNZNjQ1VFJvY3dLMlk0eDhuRzlKSlVzUC02VmpJN0JrQV9HQl9LbXIxaTZwU2p2VmdYZ1kxejlKUjhL0gGGAkFVX3lxTE1fMDdxdFNkZFZMTF9CNmo1a0gxTnNLZm1aV08tOERxUmxtYVJTS2pTblJMdVZBQkVPTi1La2FSSnlLVm81cW9EVUQtMGY2YzBBX0dXZU5RWVhVMFlORGV4ZTYyc2lOd2FmS1M1dFBmaUQ4U3NKM3J6c24xR1NoelJaLUNTT01jbHBpODhVbC1WS1FTazk1ZldkTExrWG8ySTFoZXF4dUZYSEFSWnhyUXJBVFZGck12bm1nZTJkT1VSYWNXVlYzOXU0SHhuTzZ5S3NBZUlLWnpUMllyZWx2SE5QQWE2Z2tZOU5ZeU9jX1VKZG5MRjBzTlJjUVFTMnJQTzJfSEtyU1E?oc=5",
+      "published": "2026-04-24T02:43:22+00:00",
       "source": {
         "name": "News.de",
         "url": "https://www.news.de"
+      }
+    },
+    {
+      "id": "0e5d8c3f5c45",
+      "title": "Überdosiert und zusätzliche Wirkstoffe: Die Gefahr von online bestellten Arzneimitteln - Zofinger Tagblatt",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWEx1QVlRWG5NWEg5R05FcTFmS2NmZ0o5S1NvY0xXaE5PVjM3bF9lV1VObUl3LW9oN1gyemxMLTZWbWhWZm9RbEJfWWRfb0VLMzYtdmVHOVdlb3hZd2JwOEVyWTgwSk9qR3BFOU9Hczk0UGZYcmw0YU1PS3VnTnVsWThvZnBJVjB6b0lCc09hZEZxandPQkx5VGtQWEpLazJ1amc?oc=5",
+      "published": "2026-04-24T03:00:00+00:00",
+      "source": {
+        "name": "Zofinger Tagblatt",
+        "url": "https://www.zofingertagblatt.ch"
       }
     },
     {
@@ -144,20 +134,20 @@
       }
     },
     {
-      "id": "cc0afe02a6f8",
-      "title": "15 Euro: „Wir sagen Nein“ - apotheke adhoc",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTHp5M1J6aGFzN3Itek5oT3dxMklhaEEtQnBiVXNrM3JTN0pPdnA4aWFYRVdCOUtBZWFoTF9aQmpJU1VHZWR4bGdUUmRTZ3YtRFlVT2xyYUdPOWVXMHhrek5OZTY3dUdHa3JaYk5ubzhGU00yMzVuSFJUZ3F2blFRdGhjTEc0WTFQRTlFYVZxQWVUZw?oc=5",
-      "published": "2026-04-20T13:32:00+00:00",
+      "id": "afbcde89462f",
+      "title": "Abgeordnetenhaus: Apotheker machen Druck beim Fixum - apotheke adhoc",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOS3Y3MXJvcXlvbklBM0ZMWTgwOHhyTmJuQjl2OHRZM25uNURrRVo4cVNHNi1JRElEc0Y4S0JDd3NHenVaVHFETFhWM0Uza1FNRDNEWE5VamVJLVdUejZhcjQ4dC1YWjJwSDRfYlVfOXYtdTdCc2JZZUtyNG8zT1ZpeFp0cVZORGxBelVuS1ktR3M0ZjRSVnU3Yi1RMFdEanJReXpRT2RRSXE3bUR0?oc=5",
+      "published": "2026-04-21T09:33:00+00:00",
       "source": {
         "name": "apotheke adhoc",
         "url": "https://www.apotheke-adhoc.de"
       }
     },
     {
-      "id": "09aa5c741fc7",
-      "title": "In den USA: Abnehmspritze jetzt bei Amazon verfügbar - Lieferung direkt nach Hause - News.de",
-      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPV0FZeWRRWVQ3aXB5Y3R1MjJGNHJpc1dFWWZxYThfT3JqYWc0RDlqR1Y1UWhtckhSbnNQS2l3SjlnRVBsTnlIUVFPQVcwZXJvSG9JWkZ2VDlwSUFHblVGSXhoanhzMUlOdTlMbkhWcjZHVnZGSm1Td2NqME5RbWU0Y01raVdfbDRVeTN6MHpfQW04ejV6N1BVRFY1Sk1JYkxZMkVnUjN3UVdXYWE0R2hPU0gyUkIyWGFOOWxTa0JZaEVYVndpT0dtQmdqR1pVS3NFMFZTVFkwX2FiTDhGc0hHd0xWVzZ4X2FjV1V1R0RzbFFLMDRBQklSdVBHeUpSRlc2dFBN0gGIAkFVX3lxTE54SFhDWWFmNFNMSmxIdjFCeU9aanc3amhwV2o5ejdvOVA1UmxCeTBjZE50U3c0VDdXVDdsZmlLVkk2eDFDU0F4UTlYWHo0emFyQzdXaEZ4UlAySDRpMnc1Y05jcU5hUklEM050V1NHT0ZVbVA0TkpuRGhWeXZfcUNPNHprRVI3Z1NEQVNFZnlOYkQ1MlBzcmd2VVg1ZDU0UTBDSGxaQjN5bUgyR1FyRmlDdEN6UHFkWjRlcVN2dThuZ3E0MzdKQU1vNkFvMGZoRG1fXzd6TTB4TzVJcGIxN3dKX09JMzNjcGYzbElqbUNGNFBEaEtDQlh2M2lfM0E2VjhRU1hycEowRg?oc=5",
-      "published": "2026-04-22T10:49:02+00:00",
+      "id": "ed97f28cd79e",
+      "title": "Notdienst heute in Freiburg im Breisgau: Kontakte für Apotheken-Notdienst am 24.04.2026 - News.de",
+      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPbkQxcjg1Zl9TakEzYVEwT214STNObmM1Z1l2UE5wS3doaHY3WWhDLVlPdUZhRXhfWFJmcnVtTUdDM3ZEaGZvUzF3dlRYYTRYRTVMZXNhMkZYVUFYZEpRWXJmLVZlOEc1NVdKQzVPaUUyR216TUdTbDdZTXMyX1RlXzJiS1FTODQ5MEUzMTIzbUlrYlZhRmgwbVlaTmlnM0MzaFk5ZEZtMWl5Uy1xRUlzODFTM2hYcFhMYUlUdWY0SGtUZHloWDJUYmRSZ0pGUU5XN0JlWmc5SjkwREx6ZDQxNklYdjUzSGFtbDFTaG1LTUJ1aDVxci0zWUNUSWVQVWpobkRZ0gGIAkFVX3lxTFBRSlhHNVE4UXJHSzFlM0ZvZGxXTXFZRktNeWp4bjBHYnBaNVQydlBNU1BLdXo4THVDMFViVUhKNk1zY0FWZjl5X0d0dnFyVHRrTDJFN1gyMmtMVVBwMnBMaUF4Y1B2Q29pRXZWX0dSb1RYVVlKRElnTmtfc0twSzlvNUZIakpqc0FVMXVsTHFxMU5xelZjalhVbVlNamFKZDNTMkFvT0Y5QUZOT2o5bXhQaTV3UVNBQ0o1d2pvSnVoLWFjWEJhQUNSZFZ0Z0dSVmdyc2ZJUmJOQ2NlbDZPQWw5UjB5dEo1RzdCc21aTUNBX2xtSm9SMzVJVE1qb01obW1NZGtuVzR5Mg?oc=5",
+      "published": "2026-04-24T02:41:36+00:00",
       "source": {
         "name": "News.de",
         "url": "https://www.news.de"
@@ -184,53 +174,23 @@
       }
     },
     {
-      "id": "afbcde89462f",
-      "title": "Abgeordnetenhaus: Apotheker machen Druck beim Fixum - apotheke adhoc",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOS3Y3MXJvcXlvbklBM0ZMWTgwOHhyTmJuQjl2OHRZM25uNURrRVo4cVNHNi1JRElEc0Y4S0JDd3NHenVaVHFETFhWM0Uza1FNRDNEWE5VamVJLVdUejZhcjQ4dC1YWjJwSDRfYlVfOXYtdTdCc2JZZUtyNG8zT1ZpeFp0cVZORGxBelVuS1ktR3M0ZjRSVnU3Yi1RMFdEanJReXpRT2RRSXE3bUR0?oc=5",
-      "published": "2026-04-21T09:33:00+00:00",
-      "source": {
-        "name": "apotheke adhoc",
-        "url": "https://www.apotheke-adhoc.de"
-      }
-    },
-    {
-      "id": "e77d7d5a0517",
-      "title": "Notdienst heute in Mülheim an der Ruhr: Notapotheken am 24.04.2026 - News.de",
-      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPNU5oUUF3U1lNLXNqREpPajJFUWM4RmYxV3FiZ0FIbXRncE10VGd2eUhhbHVBX1hjTklkSkZGMEFCVURabEI4eEJyWHJIOVlFZVRTOS1lR3JqLWdKYWNZVkMtR0FEWUliRW1CZnAtaHlnbTh1U2dQRGVXNkVFS1BVdGpia1RyX2JCcGVhQlB6bXBZR1RMaWRKRnlfOXFfZ21XbGZ2NlhRM2NvSlQ1Q21nNEYzb2lmVWRHRk50cGVleGJmTXc4SVhKcTViRjNPeHRLY29Cam5PeEt3ODBMWE9JOTctS2tZdFgweGJPVU16TnVzWUxFVkdTOHJIQkJUcXlSdFNn0gGIAkFVX3lxTE1jRldxUW1ZdHNDQ3lET3hVYUNSWEhfRzFFcmtRNm82OHdYNGx0NHZWdjRTVVlGQndBakFBZlVabTNzazZLY20zTlFZelFrS01ZVlZCUF9jN0xnX1Z0VDJ1TklYZ1NjNDBuX0hLSHlkU0NSR2Y3TlVJeHM0M1liZzZPTjhnVzk0TldnTUEwNFdHZzdMNGlYMkdRQ3JaR2k2YUhWY25GbTF6Qnk5TkszcWlESlRIb2dXczBDdnl2QUthcnp6cEZtUGp2X0h2eVRNaVE2ZlJLaTUxWXJVa1hBOVVpM2tEb2tsUVFBQXpEOElnRjNndXBuLTlDd1FZbHRmZ1hsNkxTay1ucg?oc=5",
-      "published": "2026-04-24T02:23:20+00:00",
+      "id": "10d46c89da48",
+      "title": "Notdienst heute in Würzburg: Welche Apotheken haben am Freitag Bereitschaft? - News.de",
+      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPdGlpeHRQQWJYYWxLaGJwTFlvd05tR3U3UUw3LTVxTzZyTjA2NlE3Y0lFSEtTT3FENmZXVWt2VXBnN09KV2dsZWo5Mk4yQUFaRDVjMlk5RjhnandLNUF5OGRzZzBHcjNESGx1eWtaQm9Ga1NUQ1IyMzg5WmZZNXRKSFFGamdCRnUyZ2J0NDlCNGNpdHRScUJEb0doRnlOSVJRYnI1UWZoejJ1dEJ3LVBWNkZMa0NJcnpfeDVSY1dLU2FXQWo4aGNJYmRUN1ZxZU9kVmxfTDZBYkNGbkFWUW1uYkxMN1BxeVQtc0k4SVBETWVSWnlD0gH6AUFVX3lxTE1JMzlSWEVoNWxrRzBzMDNHbE96SC1CMGExeGF1N2NQUlJEeTdqNzlGeG9CdkZhcEo1UlVpUWJ5enFlREFtWFB1cUZGbklTZ2RqVFhjTmRLcGxjaFlsUEw5cWljR1ZwcmhjYzBKREpmRkU4N0QyZTlJNHdHU3p3TGpGeWc4VlR4X2xja043U0RJRDZqc2duOW1vT3NRMUEydG5fZVB6SDJ6RHRxcmlIT0xSZDZsaEZxbmVidzVCQVRuU2g2TEFDYmNSaDRIZmVuTnJPT2FMWG5vZXpTV090TDdhcEx2a0ZCREVUUkJTVzg0cVlRZFQ2RTZRLUE?oc=5",
+      "published": "2026-04-24T02:53:42+00:00",
       "source": {
         "name": "News.de",
         "url": "https://www.news.de"
       }
     },
     {
-      "id": "a98afc8b2c9c",
-      "title": "Notdienst heute in Krefeld: Diese Notapotheken haben am 24.04.2026 geöffnet - News.de",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOazM1R29peXNHVkZJQjNaWTA1YkpJTmtfcXNQSmdIQmFycnZmVzB4YjJBNTgyeXo2VDYtYmRLcjZGOW8wRTU5WE8yUWJlaURCNU9rOG8yRkRkMW5qQkxUY0tqRVVXUkNhWDc2aktUMXFoZ2w3UGdiV3M5V3Z4QWhrM2pNVm9BUzZUYjJpdE5GelJDSVhhbThQS3dMLWJ4Um1ta0VsZ0tCSVg5TkZaWmtMUXBvd2FfdDVBai1CZ0l1bXB4TVpwYlVGN0o3OVZRbVJpOGVhNktkR2tmMVVaQVpGajdpTFJVVTBRRjlkNWtDNDlad9IB9wFBVV95cUxNTU9sei1pRWxtVzFTVDQ1THYtdURMbDBWTmdGemxkUV9aOVdpdFBrMjZHVkJWY3NHQ0NHLTdxbGY0U0ZfT0N4M1dyTUtRU2EzeXdKRE43bjBFZF9hd2F6M0hfVEh1alV2cnZHT0VWWHFtRnRZVlctTHk1N3NkckktZ3dCYUNkZVNiSGVmaWljZWtPQWRqOWdiQUl3WGFrVDJOZGFDRklrNkxQZkp5eFlDS2Nnd2RPTUFqeGtMcUc4S1c3M0UwYVRtWlVTdU1sQnh2UnFCVzBybUpONnBLX3k5enAxbEk4Z01UaEw1LXZBdEtKWXFDa1ZF?oc=5",
-      "published": "2026-04-24T02:23:16+00:00",
+      "id": "09aa5c741fc7",
+      "title": "In den USA: Abnehmspritze jetzt bei Amazon verfügbar - Lieferung direkt nach Hause - News.de",
+      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPV0FZeWRRWVQ3aXB5Y3R1MjJGNHJpc1dFWWZxYThfT3JqYWc0RDlqR1Y1UWhtckhSbnNQS2l3SjlnRVBsTnlIUVFPQVcwZXJvSG9JWkZ2VDlwSUFHblVGSXhoanhzMUlOdTlMbkhWcjZHVnZGSm1Td2NqME5RbWU0Y01raVdfbDRVeTN6MHpfQW04ejV6N1BVRFY1Sk1JYkxZMkVnUjN3UVdXYWE0R2hPU0gyUkIyWGFOOWxTa0JZaEVYVndpT0dtQmdqR1pVS3NFMFZTVFkwX2FiTDhGc0hHd0xWVzZ4X2FjV1V1R0RzbFFLMDRBQklSdVBHeUpSRlc2dFBN0gGIAkFVX3lxTE54SFhDWWFmNFNMSmxIdjFCeU9aanc3amhwV2o5ejdvOVA1UmxCeTBjZE50U3c0VDdXVDdsZmlLVkk2eDFDU0F4UTlYWHo0emFyQzdXaEZ4UlAySDRpMnc1Y05jcU5hUklEM050V1NHT0ZVbVA0TkpuRGhWeXZfcUNPNHprRVI3Z1NEQVNFZnlOYkQ1MlBzcmd2VVg1ZDU0UTBDSGxaQjN5bUgyR1FyRmlDdEN6UHFkWjRlcVN2dThuZ3E0MzdKQU1vNkFvMGZoRG1fXzd6TTB4TzVJcGIxN3dKX09JMzNjcGYzbElqbUNGNFBEaEtDQlh2M2lfM0E2VjhRU1hycEowRg?oc=5",
+      "published": "2026-04-22T10:49:02+00:00",
       "source": {
         "name": "News.de",
         "url": "https://www.news.de"
-      }
-    },
-    {
-      "id": "9b07978f41a2",
-      "title": "Politischer Abend: Präventionslücke am Beispiel chronischer Nierenerkrankungen - Presseportal",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9vUnlyRTROSlktV1JQN0lkczFKbmhTTFBUZVMzOFdYRHBVUjRNT3p6enRiWk9XNGc2YWhaYW8wcE9ad0tTUmo5aEc1ZU01TmdiOTBNUHRUUQ?oc=5",
-      "published": "2026-04-20T09:00:53+00:00",
-      "source": {
-        "name": "Presseportal",
-        "url": "https://www.presseportal.de"
-      }
-    },
-    {
-      "id": "188e6d18b00f",
-      "title": "Wie entsorgt man abgelaufene Medikamente? - Blick",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNaDBNek5UTGxiekt0clFVMW9JcVU1VjdpaG84OVFPQUdrZENNYkNCZnFuQUxxeGp4RFpDVzUxVmVFcUZVUzVUS1VhM19GSzN5TU5uNEpXQk5wbm5peU5ET1ZWbzhsaU9aWHZoYmVWNFVmcmpWX2JHaC0wbTgxZV9Oa3N6cjh2MzFoQmpFZnM0M2gwcThVMnB2M19MaVFZc25MaFRlY2tCTVlMWHNJMGxpa2ZvU3VKOTlfR21Zcl8yNGVUYWY0Tm1tVkVqNlJqdkd5Vk5V?oc=5",
-      "published": "2026-04-21T14:27:27+00:00",
-      "source": {
-        "name": "Blick",
-        "url": "https://www.blick.ch"
       }
     },
     {
@@ -241,16 +201,6 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
-      "id": "3b457a7e57ce",
-      "title": "Notdienst heute in Düsseldorf: Kontakte für Apotheken-Notdienst am 24.04.2026 - News.de",
-      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQQkZYNGtHdzJoZkl4UF9KbDRZckVCTHp4d1IwRlN4TV8xTEgtOEVvQnJkREdKZnBLX3ZWSF83dTUxTWVtanZ1Y0NZemYwU0xUb3Z6ZWRURHNRbDNZQ012Si1rRjdzYWlRQWNoX1lzT2FYNVh3VFZ4QVdpLVVDV1p0QVFmZWlYYVF3Qkstbk9HNm1IS01vN3gyVEY2bW1VUVRvNlFxMS1kRDB2aWlOMlljM2I1WjUwZG1qSVp6TDRXZFB6ZzZXNEg3YzJtZjVEUlZYY0dnZzRJdVo0R3VTOVJLbEtURDRveUozbFpoS2V6MXBMTVJPVmxN0gH8AUFVX3lxTE1lWmdVVG9PTE5CcER2dTB5Wkh5b2FEdEV5bm91NGlkUkR1ZElHbzg1R0lDNnVPQVdJajEyMzhocTZmbmVPRElhaDBFVkFOZnNSeXdNaW45RVlyOVU4bmxYOERTTzE2VHNHbU82S0ctRmZEckhPSXVEN2JlTWZwREVwcGUwWU1TZXlMMWVLbFp2b1pVV0NaVVlIc3A5VEg3NDdYUUR0b21saFhCNG9tMEV1VWdqZVRmZVgxZkVvQnQybGFlQnFXYlJiTV9ESm1nQUZyaGxDWFdLTDh5UnR1aV9sT1ZiMFpQWEpUTWk5b20wOFVZUUtYQmxBUDhCMw?oc=5",
-      "published": "2026-04-24T02:23:09+00:00",
-      "source": {
-        "name": "News.de",
-        "url": "https://www.news.de"
       }
     },
     {
@@ -431,16 +381,6 @@
       "source": {
         "name": "SZ.de",
         "url": "https://www.sueddeutsche.de"
-      }
-    },
-    {
-      "id": "d686ebc30fb4",
-      "title": "Notdienst heute im Landkreis Lüneburg: Welche Apotheken haben am Donnerstag Bereitschaft? - News.de",
-      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQcnFINmQ4OXlacjk4Y2Zvb2lEM3I3OE9sMWNfU2JMWnhXemdsZk1fS3djRkNVb1ZhbkdFMzU5SVVBRzhxZUx3S3pOYWFuTmVzV1ZVUTFzZkRXUXBBNzQwRE80clFpVHlULTVxZUFSSU9ra1d6Y0VTNHNta01nc1lJYkhBYzhHbVRHWDZTSnlLYksxUmZNUG1XT3p3MFdhdlByd2pTcERreW5WMEl2RFJ0azJYbnFqX1dvTVN3V3NRblhLMFk1a01MQXBOZS01dDkta1Ric2ZfU1Z0Q0JvbmpYZHJRVGt5Rl9NX2VqM3FwXzczWjJ0UUFrNTMtX0M0eERSeVHSAYcCQVVfeXFMTjhQaGFxa2J0Q05kVGdNdmxFZ29LbUswYXpiMWpBMUtwUEtDa1g4TmhTUFBHTGZ1OXotT2ZDTS1XNlI3cmg1dUpkajFCb2E0Sk5xVG5hblFlYVd4ZTB1Q1RBX3hJcnJKbGpFLWlzMGhLdFRab1p5Q3FyLVJMdXlndWtlTjlkcjJlTEkxY0JuWHQzOFF4WDhxMkZjYXl1TmpXZ2FFV3NlcW1pcHIyMVVmenRsYlpPZzlQajU2dUlCamp2YmE0Y2o1emZZSzVTazJaTmE0UDU1ZkZtdE9VTDZqSi1ZcnowYi1BTFEwd1dKSGxtMnRUdG01bkdpV3BFcWZDblZVaHlQQjQ?oc=5",
-      "published": "2026-04-23T02:21:02+00:00",
-      "source": {
-        "name": "News.de",
-        "url": "https://www.news.de"
       }
     },
     {
@@ -824,20 +764,20 @@
       }
     },
     {
-      "id": "0d877deab3c8",
-      "title": "Usbekistan will Bezahlbarkeit von Medikamenten auf der Ebene der primären Gesundheitsversorgung verbessern - World Health Organization (WHO)",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZHcxc3ZFWkhLcWVKS3RfWW5xSUZBUFVCQkdxb1pGZGlqai1UWjE1S2s3cG5KMEJCdjFPQ0hQZnc4X0o4bVVSTHhKZURfeWRXb01vNkkzUG5CcGQ0YlZXZjZSQXBfdHVBc0l1S0MzdHBBejJUMVJTQURsS0ZQdG9HVkczVFZXdjNKZWgzZmhGdnpVdl9oZHUzRjRYOXRWLUFWTC1ZR2tBVy04NWtrM2lpYVlKNEw1eUl4TWpqT0JGZUxpdnBRbmJIUk5peENtS1VJRG1sdzR6bw?oc=5",
-      "published": "2024-11-26T08:00:00+00:00",
+      "id": "4ddd3b0b9cdd",
+      "title": "Der besseren Zugänglichkeit neuartiger Arzneimittel einen Schritt näher - World Health Organization (WHO)",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWFdDMjNkUmRfZGZEcmtCREJrU0FKZVhObWw5ZGxuZVBJMVo5alUyc1Z6ZjI5YjJYVzhrOTFYbVJJamdJYUZiY1haT1hjUGpWSWhrb0Exd1B2U0htVkVFUnpmQTRpdVV4R1hZcUFnakg4dUdGTUxYQUgtYlhJWHFJUC1MUXpLVmNPN25PSG9MUWl6TnpNenJGRGxZQWd2RXlvbnlDRUdsOHVqZjJJ?oc=5",
+      "published": "2024-04-15T07:00:00+00:00",
       "source": {
         "name": "World Health Organization (WHO)",
         "url": "https://www.who.int"
       }
     },
     {
-      "id": "4ddd3b0b9cdd",
-      "title": "Der besseren Zugänglichkeit neuartiger Arzneimittel einen Schritt näher - World Health Organization (WHO)",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWFdDMjNkUmRfZGZEcmtCREJrU0FKZVhObWw5ZGxuZVBJMVo5alUyc1Z6ZjI5YjJYVzhrOTFYbVJJamdJYUZiY1haT1hjUGpWSWhrb0Exd1B2U0htVkVFUnpmQTRpdVV4R1hZcUFnakg4dUdGTUxYQUgtYlhJWHFJUC1MUXpLVmNPN25PSG9MUWl6TnpNenJGRGxZQWd2RXlvbnlDRUdsOHVqZjJJ?oc=5",
-      "published": "2024-04-15T07:00:00+00:00",
+      "id": "0d877deab3c8",
+      "title": "Usbekistan will Bezahlbarkeit von Medikamenten auf der Ebene der primären Gesundheitsversorgung verbessern - World Health Organization (WHO)",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZHcxc3ZFWkhLcWVKS3RfWW5xSUZBUFVCQkdxb1pGZGlqai1UWjE1S2s3cG5KMEJCdjFPQ0hQZnc4X0o4bVVSTHhKZURfeWRXb01vNkkzUG5CcGQ0YlZXZjZSQXBfdHVBc0l1S0MzdHBBejJUMVJTQURsS0ZQdG9HVkczVFZXdjNKZWgzZmhGdnpVdl9oZHUzRjRYOXRWLUFWTC1ZR2tBVy04NWtrM2lpYVlKNEw1eUl4TWpqT0JGZUxpdnBRbmJIUk5peENtS1VJRG1sdzR6bw?oc=5",
+      "published": "2024-11-26T08:00:00+00:00",
       "source": {
         "name": "World Health Organization (WHO)",
         "url": "https://www.who.int"
@@ -914,16 +854,6 @@
       }
     },
     {
-      "id": "1f4bc771b399",
-      "title": "Medikamente bei Hitze: Diese Medikamente können im Sommer Nebenwirkungen verursachen - Öko-Test",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxONnA4aXcyN3Qxbllyc2ozV3dOcXZkTXlieFVkbE5yVVpjN2RCaEdBQnQxVVJJZTJJVVEzYWxZQkEza2NwQVJBeGlEZGpTT1lhQjhvTThDZ2xqQ1pLaDVRTlN4dzJMVm5xN1BGUmdQV1B1UGpUNV9aVDIwMHp1S1NXV2tQTktNdGtoazRlTnk1YTVPRGtLc0szbUZWWDFQWXJuM3prLUlZWFZFdmlxQVBSWnpzcEU5VkdlRFNGSTg5UlRHMzlUSUQ5LWZWS2dETWpWVmF3eTY1YVdMZklW?oc=5",
-      "published": "2025-07-21T07:00:00+00:00",
-      "source": {
-        "name": "Öko-Test",
-        "url": "https://www.oekotest.de"
-      }
-    },
-    {
       "id": "7170512b3ffa",
       "title": "Festbeträge für Arzneimittel schnell erklärt | vfa - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaUlYWU1RcVV5LUJyN3gzdWNOUEJXMWl2SkNYMTg3bm45OEU2VS1rQTR2UXpURHRMTHNaYjRDVmJmallrRTlfamFWUHZFQnJ6V2I5SmszZy1vVmY3SEdTY1d4RUxtYktyMnFuWFA1V2dYTGxad2JHTzJud2N2dHNnUnltVjF2T0hJUGhiU2VaQ0p1U1FaMVdZ?oc=5",
@@ -931,6 +861,16 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "1f4bc771b399",
+      "title": "Medikamente bei Hitze: Diese Medikamente können im Sommer Nebenwirkungen verursachen - Öko-Test",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxONnA4aXcyN3Qxbllyc2ozV3dOcXZkTXlieFVkbE5yVVpjN2RCaEdBQnQxVVJJZTJJVVEzYWxZQkEza2NwQVJBeGlEZGpTT1lhQjhvTThDZ2xqQ1pLaDVRTlN4dzJMVm5xN1BGUmdQV1B1UGpUNV9aVDIwMHp1S1NXV2tQTktNdGtoazRlTnk1YTVPRGtLc0szbUZWWDFQWXJuM3prLUlZWFZFdmlxQVBSWnpzcEU5VkdlRFNGSTg5UlRHMzlUSUQ5LWZWS2dETWpWVmF3eTY1YVdMZklW?oc=5",
+      "published": "2025-07-21T07:00:00+00:00",
+      "source": {
+        "name": "Öko-Test",
+        "url": "https://www.oekotest.de"
       }
     },
     {
@@ -1001,6 +941,66 @@
       "source": {
         "name": "NDR.de",
         "url": "https://www.ndr.de"
+      }
+    },
+    {
+      "id": "8a5dc46a4efd",
+      "title": "Erstattungsbetrag: Preisfestlegung für neue Medikamente - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUHN6Rk0zYW0xanpneTJrREhFdnJPVXFKckJsaHFBTWpYUElxdGN2ZUtydnkteHFHRHl2dERmeEVUMF8xUEh4Z3M4VEhJY0dfNDFpc0Vnc283akhUeTRkZEdSUzZxMjlmTmxBMmdMV2pKWi04UDZENVpvdjJPMXJxZEJ5SS13ZkZlSzVWODd0YjRPTjliYmttdXNUVkR6emgwU09xSQ?oc=5",
+      "published": "2025-02-22T04:19:00+00:00",
+      "source": {
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "8721a520a60c",
+      "title": "Medienbericht: Wieder mehr Arzneimittel für Kinder verfügbar - tagesschau.de",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeWQ5alVCT3VhLUo3RkJZLXZKZnEwd3dfT0Y5MzFUSlE0ajhQREI1MGtWeDR1ZGtMa1RjYmdoV1c2b3ZwVzZiVG03cXpWaTFfYVdPbHQyTmlMVWhDS3RXMTZOZFNKMWZGa1oyd05vV3g1X1ZCQ0xvR1A2M01mWFBMMDAxaU8zUkxNaXE3WVIxejBMUDJmZnBv?oc=5",
+      "published": "2024-02-26T08:00:00+00:00",
+      "source": {
+        "name": "tagesschau.de",
+        "url": "https://www.tagesschau.de"
+      }
+    },
+    {
+      "id": "0328b41cd92a",
+      "title": "RKI-Bericht: Diese Arzneimittel können bei Hitze Probleme verursachen - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONHdLdFVoNHFnYl9vZVJjdVBoVDhzZFVMTEhULTBpcURWdXljRjlsX25RODlzbXRSNTR5QUNzZEhUcGRCMi14ZUpaRXM5ZlY4VU9HRkR5YnVxZXdKQmlhdktqMzJWTnQxRHZlLURTMUwzLXEtTVkxb2doVURybXhWMUNfbWNfZXg2SFFaUDVDR0VRSlg0dEdMa0psTkd6bmNLbDJfZzF4UQ?oc=5",
+      "published": "2023-09-06T07:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "475d33e0d9cb",
+      "title": "Drogerie-Chef im Interview : dm will Rx-Arzneimittel abgeben - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdnMxbVRNSWE1RlZjdzdFb1BCR3JCcmhVRUoxNko2cXF5WXpYNkQtV3V5eUd2WWQtaTViRVJjdkVGVW9XUkxfVWNjTWduZjVWTGhrMTJIN1l2MlA1blVsLWgyNDhJR2Q2b3ZDRXhJU1V4bVVENFYwekV2ODlHNjRmSF9ubTc?oc=5",
+      "published": "2024-02-27T08:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "81e5e38e1b6e",
+      "title": "Orphan Drugs: Bedeutung und derzeitiger Status - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQOUk1Zll0b1RxVE5yZEJabTVLOFpncEczU0NXeEcxM3lGc2NuSG1yT3VhVFNvMlp4eDlIM2I2SVRZYlh4VUVMM3ctQmJzdzNDNFMzTnhnQ1lST2dDRE9lbDNqcTBIeXBVemFuMDRUb0ZzN19ORkVOOTd0QVRPT2xrdWhrZ2M3dw?oc=5",
+      "published": "2025-05-19T07:00:00+00:00",
+      "source": {
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "9eed22f1e003",
+      "title": "Arzneimittelpreise: Sachverständige schlagen Alarm - apotheke adhoc",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUVdRckNrNEQ0VURLaU42MXc2UVpac1F6MDVZaUNkaXlwLTc1anBkeVFyVHVxLVNKbmVMUGtLM0tiRjBweGdJenZaUzNQOW9ZM0hMZk5nWElXUU1QeDdkTEVMX3p4LXJBOC1NVjJHSkp3cTE4TmJ0bExFTkV0RWU5ZjFDY3hYc0tzbUk4R3NYUE5aVmV5QTdEODhKVnlFZWFXaFpESktiajJNUQ?oc=5",
+      "published": "2025-05-22T07:00:00+00:00",
+      "source": {
+        "name": "apotheke adhoc",
+        "url": "https://www.apotheke-adhoc.de"
       }
     }
   ]
