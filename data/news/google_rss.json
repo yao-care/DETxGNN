@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-25T14:43:32.838584+00:00",
+  "fetched_at": "2026-04-25T15:41:03.854773+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -44,13 +44,23 @@
       }
     },
     {
-      "id": "3b844f85cbff",
-      "title": "DHU: Homöopathie spart Kosten - apotheke adhoc",
+      "id": "fe58b4165f42",
+      "title": "DHU: Homöopathie spart Kosten - Apotheke Adhoc",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWENpbkJrSW9FZXJCeXA4ZzJqRHBMSFJnUVE3ZG1jUUV3QTlCLUxLZTlJemRUY1J3MzQ0amtkaWtTWG5WTzNKZmdkcXJOOHh1VG9jbUx0WlRzSkNDanp6Y0hULXpINGx3aGRpSG5uZmRxUTdMS3hmbXJFODVESWFHdGFoRTR3cXMzRGZnaHNB?oc=5",
       "published": "2026-04-21T11:35:00+00:00",
       "source": {
-        "name": "apotheke adhoc",
+        "name": "Apotheke Adhoc",
         "url": "https://www.apotheke-adhoc.de"
+      }
+    },
+    {
+      "id": "d105ca5d16d4",
+      "title": "Wie ME/CFS drei Leben in die Krise stürzt - FAZ",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOa3hSQWZBTnpRWjJtUE9sdkN4WGFrSEJZVDI0Qjk0LUlwekRjRXYzZURPUnJWS0o4RWpSMnpHZGxhQUJzNTEycWxiby1vbjF1aEF3S1hoSlhCQXF2YjF3SlFEWGx6SjV3WkJVNFpDRGk0emFrVGVMXzAtSjVZdTk4SVBLaHRPYjNaekR0YmVtX1F2bmVIQ2JUSFRDakdSMTVSc2x2S1pMRDFpSjQwSmc?oc=5",
+      "published": "2026-04-23T14:55:57+00:00",
+      "source": {
+        "name": "FAZ",
+        "url": "https://www.faz.net"
       }
     },
     {
@@ -124,6 +134,16 @@
       }
     },
     {
+      "id": "488f143c196a",
+      "title": "Risiken für das ungeborene Kind Auch das Absetzen von Medikamenten kann gefährlich sein - Tagesspiegel",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSy1uRlpSeUxNMTBuYnFaUmRxcTZCMHZtRnVBektDdWk4dXl0MVFmcWdmaGFHMzVVOUtMRndGejlBLTVITi1SNjhVTG9oeUIyVWxhbENhU1ZmNjJHdlpRRXg3TG5YWElJS2NhQk5fSkVvX2xuY2V3TVBhY3BWakxOODBRNlFTUC1SSno5VVRoS2xiTHZmOHNpazdVVThsMHRMTGx5NVhGTVNmb3ozbnFF?oc=5",
+      "published": "2026-04-03T07:00:00+00:00",
+      "source": {
+        "name": "Tagesspiegel",
+        "url": "https://www.tagesspiegel.de"
+      }
+    },
+    {
       "id": "b9ca65e5a941",
       "title": "Marktbericht: dm steigt in den Gesundheitsmarkt ein - tagesschau.de",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNd0RWVjQ1MFJ3RDJCdFRnZ3Z1RUU4YThkS1F2bnowNnZBQWk1QlIxdWNtMFN6a19KWWlhTnFyVUNRSGNLanRyR01ZM0lxSG1HRFBqQ3l3QXBMR1F6UU43X29oLTZEODQ1TktKWmhOVVR4YW10YWY1Qm5JZlZoLU8tMlhDYw?oc=5",
@@ -181,6 +201,16 @@
       "source": {
         "name": "Deutschlandfunk",
         "url": "https://www.deutschlandfunk.de"
+      }
+    },
+    {
+      "id": "20a64d917dfc",
+      "title": "Medikamente für Senioren: Studie warnt vor riskanten Wirkstoffen - Berliner Morgenpost",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZ29BeW1jeXNBMHJfUWNHT1RfQWNhcG9TUzJwbE11cl9XN1VvWElYUmJORUxoclg3R08xa3VsaXhSMlBnSlE2ZkhOdWF2Z0lVempDdE9XMnBZcEVQUm5KVDBaM0I0ZWpxdzBYbkxYOWtjOGN1ZGxCUkh5TDUzeUxJc0F1dm55XzdHMEwyNUZheFRiaFdKUGtUR1JmYXRGelY0UlM3OFh4SkExRGFTVWZFamxqYXFQOHRCZjFTQThnbjRWU1JMcEM0?oc=5",
+      "published": "2026-03-22T07:00:00+00:00",
+      "source": {
+        "name": "Berliner Morgenpost",
+        "url": "https://www.morgenpost.de"
       }
     },
     {
@@ -294,13 +324,13 @@
       }
     },
     {
-      "id": "4bd6265511f7",
-      "title": "Medikamenten-Triage: NRW-Gesundheitsminister Laumann rüffelt Parteifreund Streeck - Spiegel",
-      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQaW85VFdoR2RfSWpxeHFWWmJsNHNYWk1CRXNVb1FZNUNRNnB2cGVEcjJ3QkxOUkZtY1RxR0xBUGo5Y2lQdnZYTWRsZU9aMm84dl9INHdJMHFMMUtQZXdRM2l2Z3Brc2hNUDRrY0JtZHBybFpjR2FhQmpQN2tjV1d3cDQ1al9fOXpFTHlJWXpQNUhmMHlVblROV184bi1FZkljVmRMX3FldUFxdjBDSzZERVVwQkJtcm9KcUFWYjR6RUZRb0VScXRTdkxoZzNTMXdvR01mYTNlcDd6ZmZFbXZ6dENyWXJUV2xuLVBvU2stVjBGeWp2X3Q5WXVRb3BOY25pZi1R?oc=5",
-      "published": "2025-11-14T08:00:00+00:00",
+      "id": "0a42eb3d3715",
+      "title": "Deutscher Apothekerverband kündigt Hilfstaxe wegen unfairer Arbeitspreise - ABDA",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQM0F4VGlUeDl3M1dLdVNIYUZnd3VEXy00MUJ2M0ZyMV9wOE9QQWh2Q2ZoNkVhR0NNZEdDaXRfb1pxQzUzYnFzV0VKVjlLMFBEeHd6TUc4Y3p2SjFCSlkzOTRhTVJmUWZUWVJaQXoxRjQwVnNKNnp2THBfVGN0RDJ6Q09NM0dtb3lLSGFXMVc3cDZNc0pJWUlZNUdKY3BpMnllcG1FbmRvTzZQWnBIaGRqOFQ5X1BNUW16TWRQSUdtVDVrdUtkdi1KYWRKVDVOU2liRDFNUVpHTHBVdw?oc=5",
+      "published": "2026-02-20T08:00:00+00:00",
       "source": {
-        "name": "Spiegel",
-        "url": "https://www.spiegel.de"
+        "name": "ABDA",
+        "url": "https://www.abda.de"
       }
     },
     {
@@ -331,16 +361,6 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
-      "id": "7223dff6ff9e",
-      "title": "Spanien kämpft mit Medikamentenmangel durch Abhängigkeit von China - Euronews.com",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdjhQS01ta3Y4VGFuVFEzZDhuanczU2hVNWJvM1BlMzlNTEJIeGNreGM5cHVWVy1rTUtlODE3alItNUdFOWlOUURwT0hsMjFSZEVQai1sTTBIWHhWaGpSWkZubGo1WFNhQjFVa05MQzNzNW1UbXpzYlZodGc0WjFmYW9FSTUwZzlTRGdkbFlZamZJVTQ3bnBtZHVwNE01QnFINmxIRFhpVmxDMmlKNEU4SGJR?oc=5",
-      "published": "2025-11-03T08:00:00+00:00",
-      "source": {
-        "name": "Euronews.com",
-        "url": "https://de.euronews.com"
       }
     },
     {
@@ -414,16 +434,6 @@
       }
     },
     {
-      "id": "5e8af6f947c1",
-      "title": "Gesundheit: Medikament gegen Wochenbettdepression in der EU zugelassen - DIE ZEIT",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcVJrX1Z5dGF0Z0I2TURaOHJvZXhNdGdOYmUxWkYxeGpvOE5SeW53dXhzTGNOTE1YZEFtRkt4SDNhRzZGbGZRNXpERFBmV1dfcXMxNjNHNl9NS3hXb1J5OE9rNFcwUEJ2am9oOEQxN21MNVVSdlh0OVFpLVBJakNHVUZTYUdvV1NRT2N0d3ZXYUFzcUtoOVMxUmxB?oc=5",
-      "published": "2025-09-17T07:00:00+00:00",
-      "source": {
-        "name": "DIE ZEIT",
-        "url": "https://www.zeit.de"
-      }
-    },
-    {
       "id": "1d219f057597",
       "title": "Sachverständige legen Maßnahmenpaket zur Dämpfung der Arzneimittelausgaben vor – News - Deutsches Ärzteblatt",
       "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQUUxhaGFvN0JOZGRLWVF3M1d2U2hiQ0xSM3VnazBMUGR4ZG9kTEtVZlJ1U1Q2bUNPWTFhT25pMEZWSzlPQVl1RGNXMURla1pyYW9EeTFlUzJfZUFoRDJxUk9WTzNKMTZKTXY3QXV4VzdlOS0tS25HZktjYlJYaFNTV0pDSkcyZ0VxU3hNaGJ2MTZjellfbE1PTE5GdzdxNmYxQ2g4clhUaTZnU1JvS3UtdXN5TExZajBqeURyU2ZGOHBvczQtdVh4V25zbkduMjk1RG9kSHU4aUJGa3l0dHlBWHln?oc=5",
@@ -431,6 +441,16 @@
       "source": {
         "name": "Deutsches Ärzteblatt",
         "url": "https://www.aerzteblatt.de"
+      }
+    },
+    {
+      "id": "5e8af6f947c1",
+      "title": "Gesundheit: Medikament gegen Wochenbettdepression in der EU zugelassen - DIE ZEIT",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcVJrX1Z5dGF0Z0I2TURaOHJvZXhNdGdOYmUxWkYxeGpvOE5SeW53dXhzTGNOTE1YZEFtRkt4SDNhRzZGbGZRNXpERFBmV1dfcXMxNjNHNl9NS3hXb1J5OE9rNFcwUEJ2am9oOEQxN21MNVVSdlh0OVFpLVBJakNHVUZTYUdvV1NRT2N0d3ZXYUFzcUtoOVMxUmxB?oc=5",
+      "published": "2025-09-17T07:00:00+00:00",
+      "source": {
+        "name": "DIE ZEIT",
+        "url": "https://www.zeit.de"
       }
     },
     {
@@ -484,16 +504,6 @@
       }
     },
     {
-      "id": "f40fcf048bf5",
-      "title": "Experten fordern Nachbesserungen an Arzneimittelreform - Deutscher Bundestag",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZUJSUDN2Q0FUQ0c3ZEE0REJpWnFleG5sZXBYQUJBdk9LZjJsc19OOFpkUWtxZkxEMm1MU0hGdF9IWEgzRXZibHYxN2daZHRkUV9ia0l3TkszT01SeVVCV1U1bjNneXFBQWZpR0pVa1ljMEpXdkRfNWtJOGxNaG1uZUwzcEo5VWlIX2tYOFJoWlJCTm8?oc=5",
-      "published": "2023-06-05T12:01:31+00:00",
-      "source": {
-        "name": "Deutscher Bundestag",
-        "url": "https://www.bundestag.de"
-      }
-    },
-    {
       "id": "965e1762ff04",
       "title": "GKV in der Krise : Warken erwägt höhere Zuzahlungen für Arzneimittel - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdWlXOXMzZ2lzMTIwYlBfSUlPNFBUOEpGRkgzckx4QUQ4dVE2NVhRTzlZNTdPYm9halZadmVzQ0s3Z0VKUUNhUUFIOTFQQkhEQWttNGJ3SE9PQklubDU5WE8wZFQ1aFN2TnhEWUhBY3pzTU85dDRUWU1qVEF6dkxHN1NRYVl3M2tuTFdfUW5hQ1owSllpSjFYVHVTY1cwcHR5?oc=5",
@@ -501,6 +511,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "f40fcf048bf5",
+      "title": "Experten fordern Nachbesserungen an Arzneimittelreform - Deutscher Bundestag",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZUJSUDN2Q0FUQ0c3ZEE0REJpWnFleG5sZXBYQUJBdk9LZjJsc19OOFpkUWtxZkxEMm1MU0hGdF9IWEgzRXZibHYxN2daZHRkUV9ia0l3TkszT01SeVVCV1U1bjNneXFBQWZpR0pVa1ljMEpXdkRfNWtJOGxNaG1uZUwzcEo5VWlIX2tYOFJoWlJCTm8?oc=5",
+      "published": "2023-06-05T12:01:31+00:00",
+      "source": {
+        "name": "Deutscher Bundestag",
+        "url": "https://www.bundestag.de"
       }
     },
     {
@@ -574,16 +594,6 @@
       }
     },
     {
-      "id": "4ddd3b0b9cdd",
-      "title": "Der besseren Zugänglichkeit neuartiger Arzneimittel einen Schritt näher - World Health Organization (WHO)",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWFdDMjNkUmRfZGZEcmtCREJrU0FKZVhObWw5ZGxuZVBJMVo5alUyc1Z6ZjI5YjJYVzhrOTFYbVJJamdJYUZiY1haT1hjUGpWSWhrb0Exd1B2U0htVkVFUnpmQTRpdVV4R1hZcUFnakg4dUdGTUxYQUgtYlhJWHFJUC1MUXpLVmNPN25PSG9MUWl6TnpNenJGRGxZQWd2RXlvbnlDRUdsOHVqZjJJ?oc=5",
-      "published": "2024-04-15T07:00:00+00:00",
-      "source": {
-        "name": "World Health Organization (WHO)",
-        "url": "https://www.who.int"
-      }
-    },
-    {
       "id": "fcb8dc0cbdca",
       "title": "Arzneimittelausgaben wirksam begrenzen - Verband der Ersatzkassen (vdek)",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQX2NMM0pWLWZrYS1wRS1DYndYQTRJZ09yaFdaSTNUZzVYV3A1TmFwMXJuNFlmTkd1eGRoempFZnNxTy1oU01fQTNmVlRjR2dUeDAzSU53SjI0S0pzQ0ZZZnlFOW0wSkdoYkQ0d3I1NnY2OUpDcnh5WW5jYjd3amhid1lsN0p0ZXpsQWc?oc=5",
@@ -594,6 +604,16 @@
       }
     },
     {
+      "id": "4ddd3b0b9cdd",
+      "title": "Der besseren Zugänglichkeit neuartiger Arzneimittel einen Schritt näher - World Health Organization (WHO)",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWFdDMjNkUmRfZGZEcmtCREJrU0FKZVhObWw5ZGxuZVBJMVo5alUyc1Z6ZjI5YjJYVzhrOTFYbVJJamdJYUZiY1haT1hjUGpWSWhrb0Exd1B2U0htVkVFUnpmQTRpdVV4R1hZcUFnakg4dUdGTUxYQUgtYlhJWHFJUC1MUXpLVmNPN25PSG9MUWl6TnpNenJGRGxZQWd2RXlvbnlDRUdsOHVqZjJJ?oc=5",
+      "published": "2024-04-15T07:00:00+00:00",
+      "source": {
+        "name": "World Health Organization (WHO)",
+        "url": "https://www.who.int"
+      }
+    },
+    {
       "id": "ae2537380646",
       "title": "Geheimpreise für Arzneimittel: Fluch oder Segen? - dak.de",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPV0NGM3h0a0tWaVl3SGczYUxBeDg1bXZZVm4weWgxeUFCMXFEbmlzaHRybjJ5SUhmNVU3WVBKZWFGWjdhSHE0NHdsbWNWRHJTMVFIVEZpM3R1enpzVmloT2VVQVB0UjFCQU1OcTdWcUZVdkZrdUJaUXdqVm5CTnlSY3ZCYlQ0bk5xTFpSN3pyZ2djWjRCQ2VjQkprbmdVZ1pRTWdHSG0zOG1iQ2drMlI0?oc=5",
@@ -601,6 +621,16 @@
       "source": {
         "name": "dak.de",
         "url": "https://www.dak.de"
+      }
+    },
+    {
+      "id": "214578c6f08a",
+      "title": "Krankheiten in Entwicklungsländern: Von AIDS bis Malaria - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNajlZV3pZZ21RVEpqY3NRbmEzdnVfOVNfS2ppem8yaGN5dHRyTG4xZzhHZ3JHdXhNREZQM2g4V0xEbE5XWXRKMWl4aERONXh5YVd4R1BuVkg3VlVFQzJqcEhWakVwd1pnN3BCNW5GX2ZxVUtIRWJyU3BDYTlaMkpVYjRwZTZJS1RmTTZvZ1FaZ2FiU2hkZ29TczJwdUtpOVA2X0oydkRRamhadmhxN00yT0ZHZVdxS1ZiT09lMGEzS3RFUjdnV0VfT0JtampJaUYyMk44WUEtaGp3SmNsM3pFdGRtWFBnQTZZR29uRHc0a2NXUkhG?oc=5",
+      "published": "2025-02-22T11:53:28+00:00",
+      "source": {
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
       }
     },
     {
@@ -644,16 +674,6 @@
       }
     },
     {
-      "id": "bfaa55a07020",
-      "title": "Lettland will im Einklang mit WHO-Empfehlungen den Zugang der Bevölkerung zu Arzneimitteln verbessern - World Health Organization (WHO)",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPZ0k1d1FLSG9YQWVIaVZLYzc3NlUzdURKM2FHc2tZR25lQlVMWFZxcndHM3hNbmRSMTRNZ1JWc2Y2WFpURWs2cDE1Mk5fdXpVb0pLbFFZc0RGSzNXajY2NC1sVlVlcXVkZ2RUeW9keW02UlYxMGFlU3FTVVo5a3RhV09KLTF3Qy01bnpxTGd1MHhOYW5fTURPLTVNa1cwZmM5by1zNmczdUZBVUZ0Ymtrd1hBVi04VS02V08zRkJucTVMSXZUR2Jtd3hZMVF1WkpXdnc?oc=5",
-      "published": "2024-01-31T08:00:00+00:00",
-      "source": {
-        "name": "World Health Organization (WHO)",
-        "url": "https://www.who.int"
-      }
-    },
-    {
       "id": "d6dec58f56c3",
       "title": "Deutschland im Vergleich : Sehr guter Zugang zu Arzneimitteln - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVzVEa1dHa2JpMkQ1MFIxRDMwUGJJdlJuSFdMbVg1a3NubkFONG8wb1NQTGE4bU1nM2V6bEpyQzRpVjBaOHp5ZV9PRlY0cGxPd3ZBY2R4RzNjZ0JJN0xrTzFic2VHUThuNlZvc2hrLXdDdjZrdWh6bm1sSDZMMDJENXBKRllMak1Z?oc=5",
@@ -661,6 +681,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "bfaa55a07020",
+      "title": "Lettland will im Einklang mit WHO-Empfehlungen den Zugang der Bevölkerung zu Arzneimitteln verbessern - World Health Organization (WHO)",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPZ0k1d1FLSG9YQWVIaVZLYzc3NlUzdURKM2FHc2tZR25lQlVMWFZxcndHM3hNbmRSMTRNZ1JWc2Y2WFpURWs2cDE1Mk5fdXpVb0pLbFFZc0RGSzNXajY2NC1sVlVlcXVkZ2RUeW9keW02UlYxMGFlU3FTVVo5a3RhV09KLTF3Qy01bnpxTGd1MHhOYW5fTURPLTVNa1cwZmM5by1zNmczdUZBVUZ0Ymtrd1hBVi04VS02V08zRkJucTVMSXZUR2Jtd3hZMVF1WkpXdnc?oc=5",
+      "published": "2024-01-31T08:00:00+00:00",
+      "source": {
+        "name": "World Health Organization (WHO)",
+        "url": "https://www.who.int"
       }
     },
     {
@@ -754,6 +784,16 @@
       }
     },
     {
+      "id": "0ea34b07dc87",
+      "title": "Welchen Einfluss Hitze auf Arzneimittel hat – und wann sie die Wirkung verlieren - Geo.de",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWWFYdVJoSWc3WmxPNUtNNkozbG5GZld5dmQ3NjlPX1phZHFidHEzc1h5TXhEVUVJb3V2MlZ4MVNrcXlja2xTWk53ZFZlc1pTSXhubzRPaVBBMVljU1ViS3l3NlJnUzNnVzFyOUVvYWVjd2N6UDdXaUJyRnVoTkQydDJJd2ltMzBSQ2RIc25BZEpJQXdwQWZ0SVVkTGRGNGlQV3RoNldfSmw4d2w3?oc=5",
+      "published": "2025-07-15T07:00:00+00:00",
+      "source": {
+        "name": "Geo.de",
+        "url": "https://www.geo.de"
+      }
+    },
+    {
       "id": "475d33e0d9cb",
       "title": "Drogerie-Chef im Interview : dm will Rx-Arzneimittel abgeben - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdnMxbVRNSWE1RlZjdzdFb1BCR3JCcmhVRUoxNko2cXF5WXpYNkQtV3V5eUd2WWQtaTViRVJjdkVGVW9XUkxfVWNjTWduZjVWTGhrMTJIN1l2MlA1blVsLWgyNDhJR2Q2b3ZDRXhJU1V4bVVENFYwekV2ODlHNjRmSF9ubTc?oc=5",
@@ -834,13 +874,13 @@
       }
     },
     {
-      "id": "125bae0091f0",
-      "title": "Plattform von WHO/Europa für den Zugang zu neuartigen Arzneimitteln erzielt Konsens - World Health Organization (WHO)",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPU20tenJJWUhxU2NsOVc5d0Q4b2xFUk8zMmFwNDI1Ul9KVERoSXRXQ0lNRnh6TkJPS2RDT2NTeEZtQXc2bEh1Q2JBR3JlTk5lejAzY2puemk1dEpaa0pmNVozS19XX3lKU2NHWnJSSGhWWmQ3X0pQWHFaUFJJNVRmX3BXYlBZc3JZV1lSZEU4R1RWU0Jib1gyTVRYV2xyaDdOY0tOU3VPYVdBSmNPZ0QzNm9oN0FCQQ?oc=5",
-      "published": "2024-07-10T07:00:00+00:00",
+      "id": "0d988c81e779",
+      "title": "Webinar Gesundheitswirtschaft in Angola | Event | Angola | Arzneimittel, Diagnostika - Germany Trade & Invest (GTAI)",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9EZ19UTzZUV3U3cFVMXzZ2cDZCX1ZzNjVIeThlT0hIWmFXOG0tc0YwQUoxOENDVkNSTllTaVhSRnBKU25iT2J5aG9Qb1UzS1RLaFBSOWFrdFRFc1VzVk1scnJOeW4yc195NkkzZnJLSFcwRnVXZkpwN0Zn?oc=5",
+      "published": "2025-02-26T08:00:00+00:00",
       "source": {
-        "name": "World Health Organization (WHO)",
-        "url": "https://www.who.int"
+        "name": "Germany Trade & Invest (GTAI)",
+        "url": "https://www.gtai.de"
       }
     },
     {
@@ -854,23 +894,13 @@
       }
     },
     {
-      "id": "0d988c81e779",
-      "title": "Webinar Gesundheitswirtschaft in Angola | Event | Angola | Arzneimittel, Diagnostika - Germany Trade & Invest (GTAI)",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9EZ19UTzZUV3U3cFVMXzZ2cDZCX1ZzNjVIeThlT0hIWmFXOG0tc0YwQUoxOENDVkNSTllTaVhSRnBKU25iT2J5aG9Qb1UzS1RLaFBSOWFrdFRFc1VzVk1scnJOeW4yc195NkkzZnJLSFcwRnVXZkpwN0Zn?oc=5",
-      "published": "2025-02-26T08:00:00+00:00",
+      "id": "125bae0091f0",
+      "title": "Plattform von WHO/Europa für den Zugang zu neuartigen Arzneimitteln erzielt Konsens - World Health Organization (WHO)",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPU20tenJJWUhxU2NsOVc5d0Q4b2xFUk8zMmFwNDI1Ul9KVERoSXRXQ0lNRnh6TkJPS2RDT2NTeEZtQXc2bEh1Q2JBR3JlTk5lejAzY2puemk1dEpaa0pmNVozS19XX3lKU2NHWnJSSGhWWmQ3X0pQWHFaUFJJNVRmX3BXYlBZc3JZV1lSZEU4R1RWU0Jib1gyTVRYV2xyaDdOY0tOU3VPYVdBSmNPZ0QzNm9oN0FCQQ?oc=5",
+      "published": "2024-07-10T07:00:00+00:00",
       "source": {
-        "name": "Germany Trade & Invest (GTAI)",
-        "url": "https://www.gtai.de"
-      }
-    },
-    {
-      "id": "506e5339aae2",
-      "title": "Klimakrise als Gesundheitsrisiko: Bei diesen Medikamenten drohen gefährliche Nebenwirkungen durch Hitze - Spiegel",
-      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPTzVQQ1pya2RVTzRsSHpESEhzN1dkYVdzZmRaOE1OQUxyQ1Jmenc5NWl6NjV4MTBkWmlNbUs2X0Nldjh4RHROVWpaSGc4M3k2RVhOTUNraTE2ck9tNDZmMHFmbXFzOVpSemtyYmd3UlVhalZHaE5WZXF0Vjl5RFBjMzc5cmhtR1BLMkd0ZlFfU0FVdWpYQ0wtVHZFWWk0VkFPYkh4ZHpSdFVuZU5VN1NhWUdsdXpoWjB3LUNVd0pmQ2NWMGNJT20tcFlOeWJaeU05d2xnczA5aHBUWXV4ekUxY0tFT1hid1h1bFVvVkNPcnhxZFA2V294Tw?oc=5",
-      "published": "2023-09-06T07:00:00+00:00",
-      "source": {
-        "name": "Spiegel",
-        "url": "https://www.spiegel.de"
+        "name": "World Health Organization (WHO)",
+        "url": "https://www.who.int"
       }
     },
     {
@@ -881,6 +911,16 @@
       "source": {
         "name": "RKI - Startseite",
         "url": "https://www.rki.de"
+      }
+    },
+    {
+      "id": "506e5339aae2",
+      "title": "Klimakrise als Gesundheitsrisiko: Bei diesen Medikamenten drohen gefährliche Nebenwirkungen durch Hitze - Spiegel",
+      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPTzVQQ1pya2RVTzRsSHpESEhzN1dkYVdzZmRaOE1OQUxyQ1Jmenc5NWl6NjV4MTBkWmlNbUs2X0Nldjh4RHROVWpaSGc4M3k2RVhOTUNraTE2ck9tNDZmMHFmbXFzOVpSemtyYmd3UlVhalZHaE5WZXF0Vjl5RFBjMzc5cmhtR1BLMkd0ZlFfU0FVdWpYQ0wtVHZFWWk0VkFPYkh4ZHpSdFVuZU5VN1NhWUdsdXpoWjB3LUNVd0pmQ2NWMGNJT20tcFlOeWJaeU05d2xnczA5aHBUWXV4ekUxY0tFT1hid1h1bFVvVkNPcnhxZFA2V294Tw?oc=5",
+      "published": "2023-09-06T07:00:00+00:00",
+      "source": {
+        "name": "Spiegel",
+        "url": "https://www.spiegel.de"
       }
     },
     {
@@ -901,6 +941,16 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "9d116bc2b472",
+      "title": "Sachverständigenrat empfiehlt striktere Preisbildung für neue Medikamente - AerzteZeitung.de",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQbFpMUlFqcjc2bHhaUE9selBEQUNHV1p2QXVsb0NhX0dDWGNnWmJSSWFHR1FGNkMtVEFpX1RBcUxFRXNSOHdQa0pyT0trUm5HRkRXaHdWX18xNnJqUEhNM250dlJ4T1dsb3VvVnFIa21ZbzRGSzNCdm94Mm1ndHhVWWF0T2tveHhtNFM0bjdLTEZlNjNLOVNoRTFWWTJ6aVY5bzBXZVNqZXhYUTUzd0xQSE5KVjBfeXJ6ZExDOTFn?oc=5",
+      "published": "2025-05-22T07:00:00+00:00",
+      "source": {
+        "name": "AerzteZeitung.de",
+        "url": "https://www.aerztezeitung.de"
       }
     },
     {
@@ -951,56 +1001,6 @@
       "source": {
         "name": "SPD-Bundestagsfraktion",
         "url": "https://www.spdfraktion.de"
-      }
-    },
-    {
-      "id": "9597c9bdf95c",
-      "title": "Antibiotika-Mangel: Bayern erlaubt Einfuhr in Deutschland nicht zugelassener »geeigneter Arzneimittel - Spiegel",
-      "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOZlhqOFZIMlEtN055bGQ1VDRmYkN3M0p4ZzNyMEZKN203dTctdDdwTGltSkRMRzZUa09saFFfTlpXMUtweTRSZDU4WTlBUzBOTmJJdU5oOXktay1mRXFNdXFXSjFWaDJSS1BEZ0UtaWk1Tks4Z2Q4MDdsdHcwV1pGWV9CMTRJenFza2NTRUF0cUtKQjZQWFBfQVp4aUQ0SFEyZ2QyVW5QUVpHNUJHOVZaWG5LVFdONnQ4Y24tZmRtYnI4alJ5ajR4Nkktd0YzaURSOFhFUWZMejhXUUF3MmNPVnNVTjdpTVZLTXZja3laZmdYX3VUSF9WSnhIalRIQkJPZzF2OWRBTTc0VTRQLURmRA?oc=5",
-      "published": "2023-04-29T07:00:00+00:00",
-      "source": {
-        "name": "Spiegel",
-        "url": "https://www.spiegel.de"
-      }
-    },
-    {
-      "id": "ed6cdf4575bf",
-      "title": "Gefahreneinstufung von Ethanol: Herstellung wichtiger Arzneimittel gefährdet - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaVduSUlfZ01VUlQyeXRIUDBnUy1ZU1RIdnNjc0ZlX2N4NkpzcW5MNmRsQXgtTW9EanJGVy1GczJVZG9fVVM1Mmp0QUEzeG1rcHU0Xy1seTZQR2lndGladHp6NVRYd0VGVUs2TldmZmF6a21uSjV3M1BqS1VKRHF6bmNUU0NaanZVekViQTFQbzhnQ01NZHhv?oc=5",
-      "published": "2024-11-18T08:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
-      "id": "f7dabbfb9b9a",
-      "title": "Medikamente und Arzneimittel - gesundheit.de",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0xTXlXTzBFOVlLQnhUN2M3TWFpQmcxWGdVaUdSZlU2OWhLdTROTmNnNVRjQW5YMEFxajRHRW9LOVdBakZJTmFnRWdlcWhVcVVyU21CVjZQY2pRZlBWVHhDU20xSldNZw?oc=5",
-      "published": "2023-07-17T08:29:24+00:00",
-      "source": {
-        "name": "gesundheit.de",
-        "url": "https://www.gesundheit.de"
-      }
-    },
-    {
-      "id": "eff46c208c92",
-      "title": "Umstrittene Neuordnung des Arzneimittelmarktes - Deutscher Bundestag",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQcjFIeUY4NWZEMlJNN3JqbGdoLTNWSEVOQ1R3cDg4eUFhbVFPOV8xSlNFeXBfV3VjQ1IyWUp0empfczZJWGZZZ09WWG53TXpwSlBYMldvQlZxUkZ0QkZKTGtsa3RWVkhfVndTaUI2em05emRxbGNLTnZIYTBObC0wVGFuYlNEYkp2X0NScFU1N3U?oc=5",
-      "published": "2020-10-23T17:38:01+00:00",
-      "source": {
-        "name": "Deutscher Bundestag",
-        "url": "https://www.bundestag.de"
-      }
-    },
-    {
-      "id": "4387fe5ce1d9",
-      "title": "Medikamentenmangel: Wenn Billigproduktion die Gesundheit gefährdet - FAZ",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUXJYQUhWZlRNa203TGdlRUVpRTJLODBwS0dKaWZfNndmSTNfZkI0OUNQdUV5T3Nrb1N4SWoyRERrSmxBOFVyWFotQ1l3R09Ea3hzbFBVa1dvWTJPTlNzckpTYUttdlFmbFNId2RlMUdLUHYtMjF1eXgzRWxTdnJmVGgzTnQ2Rkd4cWZ3bHI2al9jOGxaWlg5d3pzRkhZTmVRZWJjR0s2UFNWVG53WllpR0ZyUE1hQmxueFB6czQyX1ZFZmlBamFXUy1R?oc=5",
-      "published": "2024-02-24T08:00:00+00:00",
-      "source": {
-        "name": "FAZ",
-        "url": "https://www.faz.net"
       }
     }
   ]
