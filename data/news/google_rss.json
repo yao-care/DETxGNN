@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-25T07:20:49.435673+00:00",
+  "fetched_at": "2026-04-25T08:55:54.664526+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -914,16 +914,6 @@
       }
     },
     {
-      "id": "a168f85a390f",
-      "title": "Diese Faktoren definieren die Ausgaben für Medikamente | vfa - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOd0RjUE5PbEdmR1NtVmdGRXlfdjRoVzQ5RE5jRXZpQUtIRVZUR0dqV05iNnQ0d2laS1RiR2ZqM3B4V1BhNUVUX0k0OVhSZDU4MTkzc1h0M2xGb2xBOVNlSUxEWUVBeUJUMnZDeVpOZ2pNNV95OUtwbXVRQ1hwa3dRNVhxZWp1bVgwd2hMSi02MmdCTU81Mmc2VkpoeWY2eV9UanItcC1xZ2w?oc=5",
-      "published": "2025-02-22T22:42:30+00:00",
-      "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
-      }
-    },
-    {
       "id": "506e5339aae2",
       "title": "Klimakrise als Gesundheitsrisiko: Bei diesen Medikamenten drohen gefährliche Nebenwirkungen durch Hitze - Spiegel",
       "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPTzVQQ1pya2RVTzRsSHpESEhzN1dkYVdzZmRaOE1OQUxyQ1Jmenc5NWl6NjV4MTBkWmlNbUs2X0Nldjh4RHROVWpaSGc4M3k2RVhOTUNraTE2ck9tNDZmMHFmbXFzOVpSemtyYmd3UlVhalZHaE5WZXF0Vjl5RFBjMzc5cmhtR1BLMkd0ZlFfU0FVdWpYQ0wtVHZFWWk0VkFPYkh4ZHpSdFVuZU5VN1NhWUdsdXpoWjB3LUNVd0pmQ2NWMGNJT20tcFlOeWJaeU05d2xnczA5aHBUWXV4ekUxY0tFT1hid1h1bFVvVkNPcnhxZFA2V294Tw?oc=5",
@@ -931,6 +921,16 @@
       "source": {
         "name": "Spiegel",
         "url": "https://www.spiegel.de"
+      }
+    },
+    {
+      "id": "a168f85a390f",
+      "title": "Diese Faktoren definieren die Ausgaben für Medikamente | vfa - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOd0RjUE5PbEdmR1NtVmdGRXlfdjRoVzQ5RE5jRXZpQUtIRVZUR0dqV05iNnQ0d2laS1RiR2ZqM3B4V1BhNUVUX0k0OVhSZDU4MTkzc1h0M2xGb2xBOVNlSUxEWUVBeUJUMnZDeVpOZ2pNNV95OUtwbXVRQ1hwa3dRNVhxZWp1bVgwd2hMSi02MmdCTU81Mmc2VkpoeWY2eV9UanItcC1xZ2w?oc=5",
+      "published": "2025-02-22T22:42:30+00:00",
+      "source": {
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
       }
     },
     {
