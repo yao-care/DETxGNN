@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-25T10:48:39.396574+00:00",
+  "fetched_at": "2026-04-25T11:40:08.015966+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -11,16 +11,6 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
-      }
-    },
-    {
-      "id": "2aa053163d77",
-      "title": "Krisenfall: Schwaches Gesundheitssystem, schwacher Staat - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQR0JucXpoc0ZtZjFpUHphX3JmWF84RDd1ZXhfc1Z1MW9oVEtYRUdOTzZ1NVhBdnZMVE8wRTBQQ01hZzRicDBrRXdaRlhCcnFLRjdZblNoYmxMSGhXOEYtNjJ3aHVYZm93MjRHSEhvNDEwUXp6YmZhUjl2eTNLNlJ4T2Z5ejc4UDgzUHdKU0dOQjRJUDBp?oc=5",
-      "published": "2026-04-22T16:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -74,16 +64,6 @@
       }
     },
     {
-      "id": "fc41c3ec6110",
-      "title": "Homöoopathie-Sparhammer: „Wertvolles Heilmittel“ weg – Expertin findet Aus „sinnvoll“ - FOCUS online",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMjVXRWJkemFzbThjd09qVExRV0htTFdBazFBRDNfYkxpakZIN1ZkUl9yUnBsd0JvSTZMNnZwaFdfQ1E2ZDBPMXlySUhUV0Q5a0tVRXdBRHg1dUxlNi1ic0x2a0h3Nzd2bmNOa3M2RndEai1HblJrd01JX2Y2NlZmT3F2SHRyVjl6R21vYXFmSmFlUUtNSFdOcFF0dmJFbXctUHY1ZGpFY1NvMlZvYk9rRVp3V1pFbVhjUXBoWHF3Q2RPYXVQbS1FVzZuMGRPenZHTThsYTJZMFl0NDNXSWpINk1yQnRQN1d0bURpN1JGNA?oc=5",
-      "published": "2026-04-24T10:59:00+00:00",
-      "source": {
-        "name": "FOCUS online",
-        "url": "https://www.focus.de"
-      }
-    },
-    {
       "id": "38b8b0aa9188",
       "title": "Vom Wissen zum Handeln: Verbesserung der Bezahlbarkeit von Arzneimitteln in den Ländern des Westbalkans - World Health Organization (WHO)",
       "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOZlNmcEdYcXZxdDBYazhiVjRCWHVtbms0ZG5JUWlXb0lJWXVFYjV1ak1MR05oZW5FbHFMTGpyNjJxS1ZuQWk4Nl9Wc2NHdHE3YnhrQzc1VHJNbm1QRFdMVF9WVGw2NHdVeDBHajRYX1hfZkFEMTU2Z09kcU04T1c1V3dKZ09nUUlMc3dnLVdvQ3RTYUZqSDA3d1djVXpxbU9fSFUtSGlHbHNOdFJRb29RQlpTRHEzd2pCQzd5Y3VRNmcza2dzTVVlYUp5Y1U5b01kMGpQUzZvNGctWE0tSmJRSEk5TQ?oc=5",
@@ -91,6 +71,16 @@
       "source": {
         "name": "World Health Organization (WHO)",
         "url": "https://www.who.int"
+      }
+    },
+    {
+      "id": "7fc3712adfcc",
+      "title": "Dispensierrecht: Kabinett beschließt Notfallreform - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQLXA1SzBDLTZWMmVMLXVGeUl0X2J6N2hHSUllaloxUlpHTGFOZFpuV1NqMXVpN2NoTi1DQmZpU050TFZMbXdxQ1ZjUU8tNm01OVJvTzAwOFB5TkhFcS15OGg1NE8wQzAwdnc1aFVwMl9hTFkyNTl4SnhHQTNiUTVaZXhja0ZiTDF1?oc=5",
+      "published": "2026-04-22T11:10:33+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -144,10 +134,30 @@
       }
     },
     {
-      "id": "7fc3712adfcc",
-      "title": "Dispensierrecht: Kabinett beschließt Notfallreform - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQLXA1SzBDLTZWMmVMLXVGeUl0X2J6N2hHSUllaloxUlpHTGFOZFpuV1NqMXVpN2NoTi1DQmZpU050TFZMbXdxQ1ZjUU8tNm01OVJvTzAwOFB5TkhFcS15OGg1NE8wQzAwdnc1aFVwMl9hTFkyNTl4SnhHQTNiUTVaZXhja0ZiTDF1?oc=5",
-      "published": "2026-04-22T11:10:33+00:00",
+      "id": "075a40db361f",
+      "title": "Medikamente auf Reisen: Das darf ins Handgepäck - ADAC",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZmdDVl81RGdjdDZRNXNXSlRFTVhOSVpSQUlwUTlUelB6bnNFcVFRV09lQ2czNTdja0RsNHJVck00Y2hFVHZUM3kyaTRWOVZXWHQ0M182TVJrcGNGcUxtS1pFaU8wczRRRFRycTVmZnFmWE1lQ2g1eVVNekNQd3pSWWFHMnc1anVBY3plbTNB?oc=5",
+      "published": "2026-01-20T08:00:00+00:00",
+      "source": {
+        "name": "ADAC",
+        "url": "https://www.adac.de"
+      }
+    },
+    {
+      "id": "7583d9ed9de3",
+      "title": "Medikamenteneinnahme: Das ist zu beachten - Barmer",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPckl0VXNEVndBN3FKUlI2RTRFLTlTR1ppNHJlMUNXSkJwLUFhczlsMWUxOGhBUV84eXFnSHhVdFBrU1c2eWcydmNLTzBrOGRrOE9VTW1DYkdvYmJTSml5Vng3RmM4Qy11NzhNZkdYOFhNNFh5SFBKWkRIUl9WZHViaWdUMzNUbGdWU2QtZ09JdldBUDIzLWc?oc=5",
+      "published": "2026-03-02T08:00:00+00:00",
+      "source": {
+        "name": "Barmer",
+        "url": "https://www.barmer.de"
+      }
+    },
+    {
+      "id": "d9edf968b2d7",
+      "title": "»Spar­po­li­tik bei Arz­nei­mit­teln ist ein Irr­weg« - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZ3BYbThQLUVqMndzcmZ2RzJRTW5vb1o4dGhibU52alc0SUtlbFkxMkhCS1puYnNnelNOcnVtSl9iejVRNU1sNGxvZ0lZZVZkaWNnRGhWVWsxT1JobThfRzFVdnh6Q25Idzl3aGZZaThYdHBRYTUzNHRpX2VNZ0dGWHBjd3VEbDdERlhjOHhubnhHLXB2OWc?oc=5",
+      "published": "2026-03-30T07:00:00+00:00",
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
@@ -174,16 +184,6 @@
       }
     },
     {
-      "id": "d9edf968b2d7",
-      "title": "»Spar­po­li­tik bei Arz­nei­mit­teln ist ein Irr­weg« - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZ3BYbThQLUVqMndzcmZ2RzJRTW5vb1o4dGhibU52alc0SUtlbFkxMkhCS1puYnNnelNOcnVtSl9iejVRNU1sNGxvZ0lZZVZkaWNnRGhWVWsxT1JobThfRzFVdnh6Q25Idzl3aGZZaThYdHBRYTUzNHRpX2VNZ0dGWHBjd3VEbDdERlhjOHhubnhHLXB2OWc?oc=5",
-      "published": "2026-03-30T07:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "a3424172eac0",
       "title": "Statistisches Bundesamt: Gesundheitsausgaben haben sich verdreifacht - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxONXg5R0tIYVN3MlVOdkNGbWd2TFNVVXVNWmJGNlFKcTRIc1dSNl9QQjFYRnFkTmNwYjNnR0k3M2VNNFhiSVdBTmNDWlN5SG1GS2RhWndidWR1RmpYRGkxOThqaEtzMGcwTXZXem1wT3JkVFl2bTdWdzBlN1dlZUlsdmsyM2xZc2ZtVDU4UXB6TlUwdzNFelZ3TXVSQllpbmo4NC00RFo4c0dYZFk4RFlFS2xSeGRwWHA1UWdMSWI2OWt0YzBmdGwtSDlLdFk4VGNHelJR?oc=5",
@@ -201,26 +201,6 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
-      "id": "075a40db361f",
-      "title": "Medikamente auf Reisen: Das darf ins Handgepäck - ADAC",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZmdDVl81RGdjdDZRNXNXSlRFTVhOSVpSQUlwUTlUelB6bnNFcVFRV09lQ2czNTdja0RsNHJVck00Y2hFVHZUM3kyaTRWOVZXWHQ0M182TVJrcGNGcUxtS1pFaU8wczRRRFRycTVmZnFmWE1lQ2g1eVVNekNQd3pSWWFHMnc1anVBY3plbTNB?oc=5",
-      "published": "2026-01-20T08:00:00+00:00",
-      "source": {
-        "name": "ADAC",
-        "url": "https://www.adac.de"
-      }
-    },
-    {
-      "id": "7583d9ed9de3",
-      "title": "Medikamenteneinnahme: Das ist zu beachten - Barmer",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPckl0VXNEVndBN3FKUlI2RTRFLTlTR1ppNHJlMUNXSkJwLUFhczlsMWUxOGhBUV84eXFnSHhVdFBrU1c2eWcydmNLTzBrOGRrOE9VTW1DYkdvYmJTSml5Vng3RmM4Qy11NzhNZkdYOFhNNFh5SFBKWkRIUl9WZHViaWdUMzNUbGdWU2QtZ09JdldBUDIzLWc?oc=5",
-      "published": "2026-03-02T08:00:00+00:00",
-      "source": {
-        "name": "Barmer",
-        "url": "https://www.barmer.de"
       }
     },
     {
@@ -304,16 +284,6 @@
       }
     },
     {
-      "id": "5c28c1dc0073",
-      "title": "Warum viele Medikamente für Ältere oft problematischer sind - Main-Spitze",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMzJPMTRXcFh2NVlRU3Mwd1phWWtRcVJnRVBMdDZOdlBVczRVc2hHYkZobTVkRVRuU0pyelRYQ2c2cHB1bm5jd2hSYUdxTWlmUktORVkxMHl1clNUU01BMmJQcVFvX0pPS080S0o2NTlFYjhPSHVJWFQyS09OX2pENlFrMW1xM2tucVhqMG05eWlKZktONjJId1R1VEZCcXBYVnZMeW1VeEtrT0RUa0tkMlh6SVpvZGc?oc=5",
-      "published": "2026-03-29T07:00:00+00:00",
-      "source": {
-        "name": "Main-Spitze",
-        "url": "https://www.main-spitze.de"
-      }
-    },
-    {
       "id": "d9e76077153d",
       "title": "Medikamente ohne Zuzahlung können ungesunde Nebenwirkungen haben - MDR",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOa1BRZ1RkZDlsQTQtUVVvek1KQlI2S2I5eUVpaHh0cGxseUJubDAxX01JeC1qRmczWTNSYWdhSnNMa3FGY2M3ZlcxVFo5UXpVMUt5RUw2T3VJMXZmdTlKOTYtaGtzY1EzZFpSVVM2UWY3YXpjM3lMOU8wMlJRbnlJY1FuTXcyMURpdHBsaVFvSDBmSm9NaGwtR3BWUEQ0c2FsTmpuZ3VnX2RkM05weXYtZkRxY2VZV3ZBWUp0OFk4RVd5MUFjZExvLXJKUjBXdWMzQzVud1RR0gHbAUFVX3lxTFBXMkc0bFF2ODRqc29qSzBLYVNTb2c5ZHNscC0zc2tuLUstNnJQU3dfZ2dlaWlLUjRjTkl3eVVsNnZjbXhzTXE0ZU14eG9WWmpQNkoyMkhoYmlfVzhaRi1OWnZock1Md19RTTcwMkFiMFE3SE14WVZxRkNneEdJWkFpZS0wcVNYWGdGUEZsb2FsOG1YdnlJZWlTRW53LVVKTGFhRkI2d2RnXzhEOVhrQzdWZVFYaHN3NWZWbUtaNS1MblcwQUhma1dhUzAxdkFmNmhaLVctTTdVYTB2SQ?oc=5",
@@ -321,6 +291,16 @@
       "source": {
         "name": "MDR",
         "url": "https://www.mdr.de"
+      }
+    },
+    {
+      "id": "5c28c1dc0073",
+      "title": "Warum viele Medikamente für Ältere oft problematischer sind - Main-Spitze",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMzJPMTRXcFh2NVlRU3Mwd1phWWtRcVJnRVBMdDZOdlBVczRVc2hHYkZobTVkRVRuU0pyelRYQ2c2cHB1bm5jd2hSYUdxTWlmUktORVkxMHl1clNUU01BMmJQcVFvX0pPS080S0o2NTlFYjhPSHVJWFQyS09OX2pENlFrMW1xM2tucVhqMG05eWlKZktONjJId1R1VEZCcXBYVnZMeW1VeEtrT0RUa0tkMlh6SVpvZGc?oc=5",
+      "published": "2026-03-29T07:00:00+00:00",
+      "source": {
+        "name": "Main-Spitze",
+        "url": "https://www.main-spitze.de"
       }
     },
     {
@@ -994,13 +974,33 @@
       }
     },
     {
-      "id": "5803d9093799",
-      "title": "Nutzen- und Risikobewertung neuer Arzneimittel: Die Sicht des BfArM - Ärzte Zeitung",
+      "id": "8b567b81ec81",
+      "title": "Nutzen- und Risikobewertung neuer Arzneimittel: Die Sicht des BfArM - AerzteZeitung.de",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxORFdEUFE1cjJuX045WHFKOG9LVTY4a25FOUdrODc0OTZmSWRKQ3VQbG4xeEIzWjI3Z2ctNmNmNElsYjZabk0xeGVnTTNIanp5VTc0T1JoNm1YWGVGQXBGbXFiRU10SURaZkZGUlhXaDJDd2RLOHJhS0RHeHlmVUVxaVQ1Ykk5S0NiQVRYdHdzVXhrZkdjalVmTTZHZjg0Z0VpRng4ZFV5SnpRcTl3Z1lienV5MXlkeFdzckxRWA?oc=5",
       "published": "2024-10-14T07:00:00+00:00",
       "source": {
-        "name": "Ärzte Zeitung",
+        "name": "AerzteZeitung.de",
         "url": "https://www.aerztezeitung.de"
+      }
+    },
+    {
+      "id": "49dab382e5c3",
+      "title": "Gesundheit: Lauterbach plant Arzneimittel ohne Apotheker vor Ort - Handelsblatt",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQWxPaFhLaGt1QmRaOHAwVHpBRm8yaU9jZkZ1UmwtNmkzeS1kWGFBeVhNUC1iSks0UDFjYlhyS0U5V1lkTXRhbEZsWlcyZXVTeEhmR1dsZ0xQcDlkWTRCcTJzN1NYSDNOUFRBaFJoTVNLc3dPMFAwX0JXRWt6c3Z6dXltZ3RLS1Jnb05QOW1tdUIzUmdnWGdfcDdMdWhJZnRBWmNUdXlHQ0FTQnpydE80eHAwUjRKazZ1WHVnYVc1SlBEc2c0Q1E?oc=5",
+      "published": "2024-07-02T07:00:00+00:00",
+      "source": {
+        "name": "Handelsblatt",
+        "url": "https://www.handelsblatt.com"
+      }
+    },
+    {
+      "id": "f2d1bf3e36f1",
+      "title": "Darum ist der Medikamentenmangel so schwer zu lösen - quarks.de",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQU0tLSmtjWGNpazVzOXJNcGIxRVM3SWNpYkZYNnRsV3Z3RllCRmRIYks3UmZVUEZKUC13ZWFiMlF4UzhITEV5TWRVcVZLUHhBTWt5UFVVQ0dBYjVndnRSNThZb0YwelMyWUFXQ01aOG1FNnliZ0tCVDZGX2tuVnV4aHd1ZVFxeWV1aXg0SlcxZWdXMGlWV1ZzaERmTkJMblg1ckJv?oc=5",
+      "published": "2023-10-30T07:00:00+00:00",
+      "source": {
+        "name": "quarks.de",
+        "url": "https://www.quarks.de"
       }
     }
   ]
