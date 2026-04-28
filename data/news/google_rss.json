@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-28T18:19:28.755245+00:00",
+  "fetched_at": "2026-04-28T20:18:05.638943+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -11,16 +11,6 @@
       "source": {
         "name": "Berliner Morgenpost",
         "url": "https://www.morgenpost.de"
-      }
-    },
-    {
-      "id": "9ad0652613cd",
-      "title": "»Ko­ali­ti­on steht kurz vor einem Wort­bruch« - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZFVlUGR2SnNOOThNTVM2bXVOcGdROXhQOHpVWDhuYXl4a0tJT2ZhVk8tdG9IUjd3RndYSTVpelhqRHhmNEZ2VDVXSGEzWEViSG5hemVOckM4XzRQaDVpZE5XbzNkZTByVnZINzZCQjhjQlotR3N4MEgtcTBvRVo5T2V3SG5PbkNpcmZiT0VBbGk?oc=5",
-      "published": "2026-04-28T15:05:08+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -44,16 +34,6 @@
       }
     },
     {
-      "id": "0fc69d71e501",
-      "title": "Was passiert, wenn Sie jeden Tag Ibuprofen-Tabletten einnehmen - T-Online",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNNEJYTnVucDF2RGxDcmV1bFJoWUhIQWZWOEc5dy1uZzhPbkEzNV9MdVp2QlpDZHZQUVBDc3M0bVVBNFo4YUdJLU9iNFF1ajh0dHZiQjNPX0RpT3JmLWV4Q2phcFB2UHNaN045MG5ndExFVS1sVllRbWNJMi1xSVJiUmF6NjJHRVpyT3BzSVJON09lcTlWRm1YdnVLNzFUUnVkenNKMWlJaHFJVjFqVXNHbGFOa2owYTBRcmxvTUZjcEVmR3NyZjFhNHRlc1Z1QTVxQU9oWFIwN2h0a0w4Y0R4VzhwT2h6ZGpuU0tsZDNYbnBudw?oc=5",
-      "published": "2026-04-28T07:14:00+00:00",
-      "source": {
-        "name": "T-Online",
-        "url": "https://www.t-online.de"
-      }
-    },
-    {
       "id": "59bb5dcca642",
       "title": "Warkens Sparpaket: Was auf Patienten zukommen könnte - tagesschau.de",
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNlFtUzBoSExVX1dJLTVGZHRsRkVvdkxWVHRIVlVJN1hHME0zdnZxM1RDQmc0SHotR2c2ZWdpWG9vbzJxTFZqbWJ5MWl4d0hEb1VNQ2UyakloQzBURGhYQWdDN3d5NzMwQmF0Z2tYR2QzeXJGcEttSUU2X3U0d081MzR3?oc=5",
@@ -64,13 +44,13 @@
       }
     },
     {
-      "id": "8c8a6e592551",
-      "title": "Krankenkasse: Warkens Pläne – Pharma-Chef warnt vor leeren Regalen in Apotheken - Hamburger Abendblatt",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNRHBlOS1SYlh3ZkhCUy14WmlWZDJCZXBvb1hjSHlPUm84ekpBOGE2a0hhUXZKOFV6MlZFTVhIcS1aMmpVS1NCb3I5TjY2RkVjY3Y1eThEOU05ZmRpQjkxT2NKZnJ2N0NBVlNXMHNvUFhhdXBPNVdnaXFtWDN3aUxEYmdnV3F5U1lQeFZoUm5zMmYzaTJ6UWxIV1dxOEo1WjhCNnpiM2JFUm83eU5WVGZXWVc5SHNWMHVxbGJFcThnWi0wbUQ3RjM2Y3BKdHE?oc=5",
-      "published": "2026-04-27T19:00:00+00:00",
+      "id": "0fc69d71e501",
+      "title": "Was passiert, wenn Sie jeden Tag Ibuprofen-Tabletten einnehmen - T-Online",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNNEJYTnVucDF2RGxDcmV1bFJoWUhIQWZWOEc5dy1uZzhPbkEzNV9MdVp2QlpDZHZQUVBDc3M0bVVBNFo4YUdJLU9iNFF1ajh0dHZiQjNPX0RpT3JmLWV4Q2phcFB2UHNaN045MG5ndExFVS1sVllRbWNJMi1xSVJiUmF6NjJHRVpyT3BzSVJON09lcTlWRm1YdnVLNzFUUnVkenNKMWlJaHFJVjFqVXNHbGFOa2owYTBRcmxvTUZjcEVmR3NyZjFhNHRlc1Z1QTVxQU9oWFIwN2h0a0w4Y0R4VzhwT2h6ZGpuU0tsZDNYbnBudw?oc=5",
+      "published": "2026-04-28T07:14:00+00:00",
       "source": {
-        "name": "Hamburger Abendblatt",
-        "url": "https://www.abendblatt.de"
+        "name": "T-Online",
+        "url": "https://www.t-online.de"
       }
     },
     {
@@ -84,13 +64,23 @@
       }
     },
     {
-      "id": "763d968d6501",
-      "title": "Roche-Pharma-Chef kritisiert Reform von Warken scharf - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNLU9sR1Q5OHdMeHliZzhuSThFZmkzSVhmV252T3Y2LVV3VUk4aVhTOW5HN2RhM3FxTnYtRlNfNmZxTDFFX2xjNFlKTjNYNHNRY0dOMmZFbERKeEU2MjJZczdZcHVZdklTcWNHTndwc3YzUnZIOEE0TVhlVTFHdExmS1NCQ2hoT3JTRUdnRXg5Q3hHeGpWeGZZNXNDbG5CVkhRR2cybTJnZFViS1k1S1BHQ0pR?oc=5",
-      "published": "2026-04-28T04:21:43+00:00",
+      "id": "8c8a6e592551",
+      "title": "Krankenkasse: Warkens Pläne – Pharma-Chef warnt vor leeren Regalen in Apotheken - Hamburger Abendblatt",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNRHBlOS1SYlh3ZkhCUy14WmlWZDJCZXBvb1hjSHlPUm84ekpBOGE2a0hhUXZKOFV6MlZFTVhIcS1aMmpVS1NCb3I5TjY2RkVjY3Y1eThEOU05ZmRpQjkxT2NKZnJ2N0NBVlNXMHNvUFhhdXBPNVdnaXFtWDN3aUxEYmdnV3F5U1lQeFZoUm5zMmYzaTJ6UWxIV1dxOEo1WjhCNnpiM2JFUm83eU5WVGZXWVc5SHNWMHVxbGJFcThnWi0wbUQ3RjM2Y3BKdHE?oc=5",
+      "published": "2026-04-27T19:00:00+00:00",
       "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
+        "name": "Hamburger Abendblatt",
+        "url": "https://www.abendblatt.de"
+      }
+    },
+    {
+      "id": "2aa053163d77",
+      "title": "Krisenfall: Schwaches Gesundheitssystem, schwacher Staat - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQR0JucXpoc0ZtZjFpUHphX3JmWF84RDd1ZXhfc1Z1MW9oVEtYRUdOTzZ1NVhBdnZMVE8wRTBQQ01hZzRicDBrRXdaRlhCcnFLRjdZblNoYmxMSGhXOEYtNjJ3aHVYZm93MjRHSEhvNDEwUXp6YmZhUjl2eTNLNlJ4T2Z5ejc4UDgzUHdKU0dOQjRJUDBp?oc=5",
+      "published": "2026-04-22T16:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -101,6 +91,16 @@
       "source": {
         "name": "World Health Organization (WHO)",
         "url": "https://www.who.int"
+      }
+    },
+    {
+      "id": "763d968d6501",
+      "title": "Roche-Pharma-Chef kritisiert Reform von Warken scharf - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNLU9sR1Q5OHdMeHliZzhuSThFZmkzSVhmV252T3Y2LVV3VUk4aVhTOW5HN2RhM3FxTnYtRlNfNmZxTDFFX2xjNFlKTjNYNHNRY0dOMmZFbERKeEU2MjJZczdZcHVZdklTcWNHTndwc3YzUnZIOEE0TVhlVTFHdExmS1NCQ2hoT3JTRUdnRXg5Q3hHeGpWeGZZNXNDbG5CVkhRR2cybTJnZFViS1k1S1BHQ0pR?oc=5",
+      "published": "2026-04-28T04:21:43+00:00",
+      "source": {
+        "name": "AD HOC NEWS",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -144,16 +144,6 @@
       }
     },
     {
-      "id": "2aa053163d77",
-      "title": "Krisenfall: Schwaches Gesundheitssystem, schwacher Staat - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQR0JucXpoc0ZtZjFpUHphX3JmWF84RDd1ZXhfc1Z1MW9oVEtYRUdOTzZ1NVhBdnZMVE8wRTBQQ01hZzRicDBrRXdaRlhCcnFLRjdZblNoYmxMSGhXOEYtNjJ3aHVYZm93MjRHSEhvNDEwUXp6YmZhUjl2eTNLNlJ4T2Z5ejc4UDgzUHdKU0dOQjRJUDBp?oc=5",
-      "published": "2026-04-22T16:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "9fa13ce5acf5",
       "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
@@ -161,6 +151,16 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "a3424172eac0",
+      "title": "Statistisches Bundesamt: Gesundheitsausgaben haben sich verdreifacht - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxONXg5R0tIYVN3MlVOdkNGbWd2TFNVVXVNWmJGNlFKcTRIc1dSNl9QQjFYRnFkTmNwYjNnR0k3M2VNNFhiSVdBTmNDWlN5SG1GS2RhWndidWR1RmpYRGkxOThqaEtzMGcwTXZXem1wT3JkVFl2bTdWdzBlN1dlZUlsdmsyM2xZc2ZtVDU4UXB6TlUwdzNFelZ3TXVSQllpbmo4NC00RFo4c0dYZFk4RFlFS2xSeGRwWHA1UWdMSWI2OWt0YzBmdGwtSDlLdFk4VGNHelJR?oc=5",
+      "published": "2026-04-02T07:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -181,16 +181,6 @@
       "source": {
         "name": "tagesschau.de",
         "url": "https://www.tagesschau.de"
-      }
-    },
-    {
-      "id": "a3424172eac0",
-      "title": "Statistisches Bundesamt: Gesundheitsausgaben haben sich verdreifacht - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxONXg5R0tIYVN3MlVOdkNGbWd2TFNVVXVNWmJGNlFKcTRIc1dSNl9QQjFYRnFkTmNwYjNnR0k3M2VNNFhiSVdBTmNDWlN5SG1GS2RhWndidWR1RmpYRGkxOThqaEtzMGcwTXZXem1wT3JkVFl2bTdWdzBlN1dlZUlsdmsyM2xZc2ZtVDU4UXB6TlUwdzNFelZ3TXVSQllpbmo4NC00RFo4c0dYZFk4RFlFS2xSeGRwWHA1UWdMSWI2OWt0YzBmdGwtSDlLdFk4VGNHelJR?oc=5",
-      "published": "2026-04-02T07:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -614,12 +604,12 @@
       }
     },
     {
-      "id": "ae2537380646",
-      "title": "Geheimpreise für Arzneimittel: Fluch oder Segen? - dak.de",
+      "id": "4fae3d8f673d",
+      "title": "Geheimpreise für Arzneimittel: Fluch oder Segen? - DAK",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPV0NGM3h0a0tWaVl3SGczYUxBeDg1bXZZVm4weWgxeUFCMXFEbmlzaHRybjJ5SUhmNVU3WVBKZWFGWjdhSHE0NHdsbWNWRHJTMVFIVEZpM3R1enpzVmloT2VVQVB0UjFCQU1OcTdWcUZVdkZrdUJaUXdqVm5CTnlSY3ZCYlQ0bk5xTFpSN3pyZ2djWjRCQ2VjQkprbmdVZ1pRTWdHSG0zOG1iQ2drMlI0?oc=5",
       "published": "2024-03-20T07:00:00+00:00",
       "source": {
-        "name": "dak.de",
+        "name": "DAK",
         "url": "https://www.dak.de"
       }
     },
@@ -1001,6 +991,16 @@
       "source": {
         "name": "FAZ",
         "url": "https://www.faz.net"
+      }
+    },
+    {
+      "id": "1325d2c7dc2c",
+      "title": "Neuer Bericht der WHO legt konkrete Schritte dar, um die Gesundheitsversorgung in der Ukraine leichter zugänglich zu machen - World Health Organization (WHO)",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPb3V1S1VQejV2eEtTaXRpS3gyMHVITGQ5YVZiUC10MXlGQTNNNUQ0bFBLYTJkY2ZBUHlkVktKbkl6dUtaS2kwMHE1c0pSZEVfVm5GQmpDbExha1oxV1g1RnhrVlo4bm5OM2pQTVFzbURIdnBTeERJbGVCdVNkSG5ZLXVIcUYwek9MWkNpcEZUX2NxTHNPYkFtQlBzY3NpaG4yQXBzeXo4SndsR253SFhXTk1jSnZUX1JocXQ4ekxfb0NXcHNvOWZsS1FoVVVlNlNpSGdRUmNCZGdTVG5hSU1mWA?oc=5",
+      "published": "2023-06-15T07:00:00+00:00",
+      "source": {
+        "name": "World Health Organization (WHO)",
+        "url": "https://www.who.int"
       }
     }
   ]
