@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-28T06:30:51.736599+00:00",
+  "fetched_at": "2026-04-28T09:23:53.460168+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -17,7 +17,7 @@
       "id": "0fc69d71e501",
       "title": "Was passiert, wenn Sie jeden Tag Ibuprofen-Tabletten einnehmen - T-Online",
       "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNNEJYTnVucDF2RGxDcmV1bFJoWUhIQWZWOEc5dy1uZzhPbkEzNV9MdVp2QlpDZHZQUVBDc3M0bVVBNFo4YUdJLU9iNFF1ajh0dHZiQjNPX0RpT3JmLWV4Q2phcFB2UHNaN045MG5ndExFVS1sVllRbWNJMi1xSVJiUmF6NjJHRVpyT3BzSVJON09lcTlWRm1YdnVLNzFUUnVkenNKMWlJaHFJVjFqVXNHbGFOa2owYTBRcmxvTUZjcEVmR3NyZjFhNHRlc1Z1QTVxQU9oWFIwN2h0a0w4Y0R4VzhwT2h6ZGpuU0tsZDNYbnBudw?oc=5",
-      "published": "2026-04-28T04:56:00+00:00",
+      "published": "2026-04-28T07:14:00+00:00",
       "source": {
         "name": "T-Online",
         "url": "https://www.t-online.de"
@@ -51,16 +51,6 @@
       "source": {
         "name": "Spiegel",
         "url": "https://www.spiegel.de"
-      }
-    },
-    {
-      "id": "763d968d6501",
-      "title": "Roche-Pharma-Chef kritisiert Reform von Warken scharf - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNLU9sR1Q5OHdMeHliZzhuSThFZmkzSVhmV252T3Y2LVV3VUk4aVhTOW5HN2RhM3FxTnYtRlNfNmZxTDFFX2xjNFlKTjNYNHNRY0dOMmZFbERKeEU2MjJZczdZcHVZdklTcWNHTndwc3YzUnZIOEE0TVhlVTFHdExmS1NCQ2hoT3JTRUdnRXg5Q3hHeGpWeGZZNXNDbG5CVkhRR2cybTJnZFViS1k1S1BHQ0pR?oc=5",
-      "published": "2026-04-28T04:21:43+00:00",
-      "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -574,12 +564,12 @@
       }
     },
     {
-      "id": "692ed6663b43",
-      "title": "Deutsche Apotheker warnen vor Medikamentenmangel - DW.com",
+      "id": "e0194a7c0b5d",
+      "title": "Deutsche Apotheker warnen vor Medikamentenmangel - dw.com",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWU1xaGhwXzk2bTZMYV9pdEdESnBqWVZvSnAwXzllTkVsdXYyZTlYSzdEYjktY2FySDA2THNEWUlQend3WWp5cG9uZFo1aTJMcFFINW1ZWEg3NlVDQ2UzdkRmZldhV1JRemg4U3poczloOF9QOEhha1prQnlGZ0U5T0laMXN2ZVBY0gGIAUFVX3lxTE01Wk9oR0RESDZiM1BvOU5qZmtUYk1aNUFxWlpzU3EteXRvRDQ1anBlcG52RXJ5QWdEWjB2SHJCblZSaktVZktvRTBkYUxtYzNfQVE4YXRHajc1Nk9UQllNTkt0Vi1wVjdQTTAzSElvTDRMWXZ5TEpkLUZxRTI2QUZkMVdyRGM4YUg?oc=5",
       "published": "2025-09-14T07:00:00+00:00",
       "source": {
-        "name": "DW.com",
+        "name": "dw.com",
         "url": "https://www.dw.com"
       }
     },
@@ -604,16 +594,6 @@
       }
     },
     {
-      "id": "57b0829df279",
-      "title": "»Plan­wirt­schaft ist nicht das Rich­ti­ge für die Ge­sund­heits­ver­sor­gung« - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcG1ZWXgwNk5DU0ZDbktUVWxzd01qd3VPY3ZDOTVlZFZYY0J3c1FOeXdqV1Y4SkthZFdkalVlUEZtQlhPZmJhc25wQ0w4TjBoSkRENGZtSjEzN2x5NlFzTGZ4eEVzdUtVdjl1RkFSMENLczQwMjBjTzFRSVNiaGNHVDlfT3hvMHJYXzF2NVBlb2RnLWNrLVR5RFlteExqeTQtYTFXTVBneVU1REhPUF84Yjhqd2gwZw?oc=5",
-      "published": "2025-06-25T07:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "0d877deab3c8",
       "title": "Usbekistan will Bezahlbarkeit von Medikamenten auf der Ebene der primären Gesundheitsversorgung verbessern - World Health Organization (WHO)",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZHcxc3ZFWkhLcWVKS3RfWW5xSUZBUFVCQkdxb1pGZGlqai1UWjE1S2s3cG5KMEJCdjFPQ0hQZnc4X0o4bVVSTHhKZURfeWRXb01vNkkzUG5CcGQ0YlZXZjZSQXBfdHVBc0l1S0MzdHBBejJUMVJTQURsS0ZQdG9HVkczVFZXdjNKZWgzZmhGdnpVdl9oZHUzRjRYOXRWLUFWTC1ZR2tBVy04NWtrM2lpYVlKNEw1eUl4TWpqT0JGZUxpdnBRbmJIUk5peENtS1VJRG1sdzR6bw?oc=5",
@@ -621,6 +601,16 @@
       "source": {
         "name": "World Health Organization (WHO)",
         "url": "https://www.who.int"
+      }
+    },
+    {
+      "id": "57b0829df279",
+      "title": "»Plan­wirt­schaft ist nicht das Rich­ti­ge für die Ge­sund­heits­ver­sor­gung« - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcG1ZWXgwNk5DU0ZDbktUVWxzd01qd3VPY3ZDOTVlZFZYY0J3c1FOeXdqV1Y4SkthZFdkalVlUEZtQlhPZmJhc25wQ0w4TjBoSkRENGZtSjEzN2x5NlFzTGZ4eEVzdUtVdjl1RkFSMENLczQwMjBjTzFRSVNiaGNHVDlfT3hvMHJYXzF2NVBlb2RnLWNrLVR5RFlteExqeTQtYTFXTVBneVU1REhPUF84Yjhqd2gwZw?oc=5",
+      "published": "2025-06-25T07:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -874,16 +864,6 @@
       }
     },
     {
-      "id": "81e5e38e1b6e",
-      "title": "Orphan Drugs: Bedeutung und derzeitiger Status - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQOUk1Zll0b1RxVE5yZEJabTVLOFpncEczU0NXeEcxM3lGc2NuSG1yT3VhVFNvMlp4eDlIM2I2SVRZYlh4VUVMM3ctQmJzdzNDNFMzTnhnQ1lST2dDRE9lbDNqcTBIeXBVemFuMDRUb0ZzN19ORkVOOTd0QVRPT2xrdWhrZ2M3dw?oc=5",
-      "published": "2025-05-19T07:00:00+00:00",
-      "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
-      }
-    },
-    {
       "id": "49dab382e5c3",
       "title": "Gesundheit: Lauterbach plant Arzneimittel ohne Apotheker vor Ort - Handelsblatt",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQWxPaFhLaGt1QmRaOHAwVHpBRm8yaU9jZkZ1UmwtNmkzeS1kWGFBeVhNUC1iSks0UDFjYlhyS0U5V1lkTXRhbEZsWlcyZXVTeEhmR1dsZ0xQcDlkWTRCcTJzN1NYSDNOUFRBaFJoTVNLc3dPMFAwX0JXRWt6c3Z6dXltZ3RLS1Jnb05QOW1tdUIzUmdnWGdfcDdMdWhJZnRBWmNUdXlHQ0FTQnpydE80eHAwUjRKazZ1WHVnYVc1SlBEc2c0Q1E?oc=5",
@@ -891,6 +871,16 @@
       "source": {
         "name": "Handelsblatt",
         "url": "https://www.handelsblatt.com"
+      }
+    },
+    {
+      "id": "81e5e38e1b6e",
+      "title": "Orphan Drugs: Bedeutung und derzeitiger Status - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQOUk1Zll0b1RxVE5yZEJabTVLOFpncEczU0NXeEcxM3lGc2NuSG1yT3VhVFNvMlp4eDlIM2I2SVRZYlh4VUVMM3ctQmJzdzNDNFMzTnhnQ1lST2dDRE9lbDNqcTBIeXBVemFuMDRUb0ZzN19ORkVOOTd0QVRPT2xrdWhrZ2M3dw?oc=5",
+      "published": "2025-05-19T07:00:00+00:00",
+      "source": {
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
       }
     },
     {
@@ -984,6 +974,16 @@
       }
     },
     {
+      "id": "0da439d9d530",
+      "title": "Keine Lieferengpässe mehr bei Arzneimitteln - SPD-Bundestagsfraktion",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE56NlVudVdvNjgzWVVhVVZ1cWRLNmRFTkhjNE50YmNYMnBGN0FIdmFyc2U3aVc1c0R0STJkamFubXdJNFZtVmpwTk5PVzBRY2VsOVljRDctbUVEQlhfWEJ1ZldFX0VELUNlakczUXN0THU5QjA1SmdYdFFOMUJubm8?oc=5",
+      "published": "2023-06-23T07:00:00+00:00",
+      "source": {
+        "name": "SPD-Bundestagsfraktion",
+        "url": "https://www.spdfraktion.de"
+      }
+    },
+    {
       "id": "4e72b8ad6af8",
       "title": "Sachverständigenrat empfiehlt striktere Preisbildung für neue Medikamente - Ärzte Zeitung",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQbFpMUlFqcjc2bHhaUE9selBEQUNHV1p2QXVsb0NhX0dDWGNnWmJSSWFHR1FGNkMtVEFpX1RBcUxFRXNSOHdQa0pyT0trUm5HRkRXaHdWX18xNnJqUEhNM250dlJ4T1dsb3VvVnFIa21ZbzRGSzNCdm94Mm1ndHhVWWF0T2tveHhtNFM0bjdLTEZlNjNLOVNoRTFWWTJ6aVY5bzBXZVNqZXhYUTUzd0xQSE5KVjBfeXJ6ZExDOTFn?oc=5",
@@ -994,13 +994,13 @@
       }
     },
     {
-      "id": "0da439d9d530",
-      "title": "Keine Lieferengpässe mehr bei Arzneimitteln - SPD-Bundestagsfraktion",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE56NlVudVdvNjgzWVVhVVZ1cWRLNmRFTkhjNE50YmNYMnBGN0FIdmFyc2U3aVc1c0R0STJkamFubXdJNFZtVmpwTk5PVzBRY2VsOVljRDctbUVEQlhfWEJ1ZldFX0VELUNlakczUXN0THU5QjA1SmdYdFFOMUJubm8?oc=5",
-      "published": "2023-06-23T07:00:00+00:00",
+      "id": "033da05ee4f2",
+      "title": "Mehr Service, längere Öffnungszeiten und Medikamente ohne Rezept – das soll sich in Apotheken ändern! - RTL.de",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOQVRtX2N6dWg3bzRHVEUxT0VZcEcwekstUDZaWjZJTWJkLXVUN0lGSFpmaDZoTzRJRTJHSW9yV0kxQWd1c0k5M3JMSFRVUlRUcFhxVUc1ZEN4eFF0aG1iNTEwUmEyZVdhOS1sVk1qclREWU1WYlV0TW1zRUxQUXVmZVNzY2kyWkpOVlpHZkRKLUY5VEdvOG5McjhqRzkzajQ5N2dJT0VpNVVEQmFzb1V5czNVU0ZqVTk0ZkJhX0FR?oc=5",
+      "published": "2025-10-17T07:00:00+00:00",
       "source": {
-        "name": "SPD-Bundestagsfraktion",
-        "url": "https://www.spdfraktion.de"
+        "name": "RTL.de",
+        "url": "https://www.rtl.de"
       }
     }
   ]
