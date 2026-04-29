@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-29T11:39:14.124509+00:00",
+  "fetched_at": "2026-04-29T14:02:21.429110+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -24,13 +24,13 @@
       }
     },
     {
-      "id": "9ad0652613cd",
-      "title": "»Ko­ali­ti­on steht kurz vor einem Wort­bruch« - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZFVlUGR2SnNOOThNTVM2bXVOcGdROXhQOHpVWDhuYXl4a0tJT2ZhVk8tdG9IUjd3RndYSTVpelhqRHhmNEZ2VDVXSGEzWEViSG5hemVOckM4XzRQaDVpZE5XbzNkZTByVnZINzZCQjhjQlotR3N4MEgtcTBvRVo5T2V3SG5PbkNpcmZiT0VBbGk?oc=5",
-      "published": "2026-04-28T15:05:08+00:00",
+      "id": "a41a7a214460",
+      "title": "3 Medikamente erhöhen das Demenzrisiko – 5 schützen - FOCUS online",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQYWVpV2o1a0s4NHJlVW9jSkl0TUIyMEZ0d0g0WXFEc0NqNTlzT0NiTTcwc3VmR3FKMU1nd2NPc01pRGUtNmZRNi1YS1VWOG83bnM5ZjhJQXBDcFk0WWFFejltaEhLcURudFZLeWpteEd3SkVDbmZJZDZOemZCRlRidHJZa1FMSmthMV8xUTBBZnI1OHZyaGF1cURUZHFYXzJSYjVueGFfdC1Sd3NHY29xbW5BNm9WUWM5SHBZWVpJMHhnUFZRLXJRdDJNNy1iS3M?oc=5",
+      "published": "2026-04-29T12:52:00+00:00",
       "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
+        "name": "FOCUS online",
+        "url": "https://www.focus.de"
       }
     },
     {
@@ -44,6 +44,26 @@
       }
     },
     {
+      "id": "9ad0652613cd",
+      "title": "»Ko­ali­ti­on steht kurz vor einem Wort­bruch« - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZFVlUGR2SnNOOThNTVM2bXVOcGdROXhQOHpVWDhuYXl4a0tJT2ZhVk8tdG9IUjd3RndYSTVpelhqRHhmNEZ2VDVXSGEzWEViSG5hemVOckM4XzRQaDVpZE5XbzNkZTByVnZINzZCQjhjQlotR3N4MEgtcTBvRVo5T2V3SG5PbkNpcmZiT0VBbGk?oc=5",
+      "published": "2026-04-28T15:05:08+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "e830147c6bbe",
+      "title": "Reformagenda droht Fehlstart: GKV-Spargesetz fördert De-Industrialisierung - gesundheit adhoc",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdWVMaXVBb2lRZXpGR0tib1JjWTMwaTZoQ0RQOXRick1IeXZ3a1VqeGUwaExzOHIwV2xjOEV3Uml2OE0zTHRUNW90c21xaTlCNzdaMDRwcTk4UjZwUFQ2V1NuTjhvRExGaUhpOVlIQ3JUbFNvV0otQW5TOFFMRWZQVkswa3FJVkkyUDYtS1hPNUZUMEZNcS1lYlY0aG9wbnBfb2R2TWJtREkyTTg?oc=5",
+      "published": "2026-04-29T11:13:52+00:00",
+      "source": {
+        "name": "gesundheit adhoc",
+        "url": "https://www.gesundheit-adhoc.de"
+      }
+    },
+    {
       "id": "11cdd0be15c8",
       "title": "Wie viel darf Gesundheit kosten? Streit um Medikamentenpreise eskaliert - WirtschaftsWoche",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMEkzamFzeFFHZEk3NjFIbFJmYjZvajlGOVMtcHo3aUZsWFlvdkcyMzFTODZXZFM1dWhNWU1lT3FVVDk4dlduRjBqV2paSEFVbkE2YWktMVJIanA4U3J2QW1rMnFtOUljc0pXb2hEbVNSWkxYdGlkRHRMRGE3aGpSYjlrU0FzN0RjN1dhWkJWZldkUmVpbm9xbXpSZmR3b0xGR2ZXQmdvVVZ4bWh5bmVNbkdOOU1rNEdiZElEc0NEeDE3LXpqVkE?oc=5",
@@ -54,16 +74,6 @@
       }
     },
     {
-      "id": "8c8a6e592551",
-      "title": "Krankenkasse: Warkens Pläne – Pharma-Chef warnt vor leeren Regalen in Apotheken - Hamburger Abendblatt",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNRHBlOS1SYlh3ZkhCUy14WmlWZDJCZXBvb1hjSHlPUm84ekpBOGE2a0hhUXZKOFV6MlZFTVhIcS1aMmpVS1NCb3I5TjY2RkVjY3Y1eThEOU05ZmRpQjkxT2NKZnJ2N0NBVlNXMHNvUFhhdXBPNVdnaXFtWDN3aUxEYmdnV3F5U1lQeFZoUm5zMmYzaTJ6UWxIV1dxOEo1WjhCNnpiM2JFUm83eU5WVGZXWVc5SHNWMHVxbGJFcThnWi0wbUQ3RjM2Y3BKdHE?oc=5",
-      "published": "2026-04-27T19:00:00+00:00",
-      "source": {
-        "name": "Hamburger Abendblatt",
-        "url": "https://www.abendblatt.de"
-      }
-    },
-    {
       "id": "62868ec42423",
       "title": "Innovationsrückstand bei Arzneimitteln: Warum Europa den Anschluss verliert - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNaE1rVXhPMVZ1ODdvLVRya0Zra2otTzFhMDFtT3U4RjFqQ3B4dS01Ry1EU25fdC11RXZGdXZWNWlrckd4OF9QN0hNOG9ndkJ6NDVNNENSQlhoODVwSVptN2NKdkxtVDJiWHQwVmQzdG9wN3g0Mm10WDZadnliTWFLb29OVUlEUE84VHZsdE1lZmQ0bU8wNnc?oc=5",
@@ -71,6 +81,16 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "8c8a6e592551",
+      "title": "Krankenkasse: Warkens Pläne – Pharma-Chef warnt vor leeren Regalen in Apotheken - Hamburger Abendblatt",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNRHBlOS1SYlh3ZkhCUy14WmlWZDJCZXBvb1hjSHlPUm84ekpBOGE2a0hhUXZKOFV6MlZFTVhIcS1aMmpVS1NCb3I5TjY2RkVjY3Y1eThEOU05ZmRpQjkxT2NKZnJ2N0NBVlNXMHNvUFhhdXBPNVdnaXFtWDN3aUxEYmdnV3F5U1lQeFZoUm5zMmYzaTJ6UWxIV1dxOEo1WjhCNnpiM2JFUm83eU5WVGZXWVc5SHNWMHVxbGJFcThnWi0wbUQ3RjM2Y3BKdHE?oc=5",
+      "published": "2026-04-27T19:00:00+00:00",
+      "source": {
+        "name": "Hamburger Abendblatt",
+        "url": "https://www.abendblatt.de"
       }
     },
     {
@@ -104,13 +124,13 @@
       }
     },
     {
-      "id": "0fc69d71e501",
-      "title": "Was passiert, wenn Sie jeden Tag Ibuprofen-Tabletten einnehmen - T-Online",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNNEJYTnVucDF2RGxDcmV1bFJoWUhIQWZWOEc5dy1uZzhPbkEzNV9MdVp2QlpDZHZQUVBDc3M0bVVBNFo4YUdJLU9iNFF1ajh0dHZiQjNPX0RpT3JmLWV4Q2phcFB2UHNaN045MG5ndExFVS1sVllRbWNJMi1xSVJiUmF6NjJHRVpyT3BzSVJON09lcTlWRm1YdnVLNzFUUnVkenNKMWlJaHFJVjFqVXNHbGFOa2owYTBRcmxvTUZjcEVmR3NyZjFhNHRlc1Z1QTVxQU9oWFIwN2h0a0w4Y0R4VzhwT2h6ZGpuU0tsZDNYbnBudw?oc=5",
-      "published": "2026-04-28T07:14:00+00:00",
+      "id": "1f9d03a55fed",
+      "title": "Barbara Duhm ist neue Geschäftsführerin von InfectoPharm Österreich - PressNetwork",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQnA2YnYwWWtJUUFDaUY2VXhBRGJKbzBrS1l4S3g2a3hxaTNFYkNLUFMzWEdmQndzN2JjdEhWcnRPZWxRVnNDNGpIcHNfV1o0dnZMX2dSMk54TkhVQ3FEUzNueGh6Y1FmQ3FnbXhFcWNjWjFCNTNJdVZsdzRMVnB0UWlndS15QzdmVFRwVEQxTXVkeWFOdGFzSmpxcw?oc=5",
+      "published": "2026-04-29T11:29:25+00:00",
       "source": {
-        "name": "T-Online",
-        "url": "https://www.t-online.de"
+        "name": "PressNetwork",
+        "url": "https://pressnetwork.de"
       }
     },
     {
@@ -184,16 +204,6 @@
       }
     },
     {
-      "id": "95d55d1267a1",
-      "title": "Mit Abnehmspritze Kilos loswerden - was ist dran an Ozempic & Co.? - NDR.de",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaGFzLTFfUHozOUJiWWtWdlRPUm5mZ0VkMGMxLVVGcmxmMzlONHZRV21qZmFHYUo3d2gzV3VDVm9OUHp6Qk4wQjlZTHU3V3RnckthWTZSbVpVMGE1VWxiMFMtVVJCSWdWb3hibzlscllodzVwWmpDMS1ZOXNxYkFfQVJzdlRzeGRQOWdtcW55UVRNSE16QmhJZXhVYmRmYl9iUmJBN1g2cG8?oc=5",
-      "published": "2026-03-11T07:00:00+00:00",
-      "source": {
-        "name": "NDR.de",
-        "url": "https://www.ndr.de"
-      }
-    },
-    {
       "id": "a3424172eac0",
       "title": "Statistisches Bundesamt: Gesundheitsausgaben haben sich verdreifacht - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxONXg5R0tIYVN3MlVOdkNGbWd2TFNVVXVNWmJGNlFKcTRIc1dSNl9QQjFYRnFkTmNwYjNnR0k3M2VNNFhiSVdBTmNDWlN5SG1GS2RhWndidWR1RmpYRGkxOThqaEtzMGcwTXZXem1wT3JkVFl2bTdWdzBlN1dlZUlsdmsyM2xZc2ZtVDU4UXB6TlUwdzNFelZ3TXVSQllpbmo4NC00RFo4c0dYZFk4RFlFS2xSeGRwWHA1UWdMSWI2OWt0YzBmdGwtSDlLdFk4VGNHelJR?oc=5",
@@ -201,6 +211,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "95d55d1267a1",
+      "title": "Mit Abnehmspritze Kilos loswerden - was ist dran an Ozempic & Co.? - NDR.de",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaGFzLTFfUHozOUJiWWtWdlRPUm5mZ0VkMGMxLVVGcmxmMzlONHZRV21qZmFHYUo3d2gzV3VDVm9OUHp6Qk4wQjlZTHU3V3RnckthWTZSbVpVMGE1VWxiMFMtVVJCSWdWb3hibzlscllodzVwWmpDMS1ZOXNxYkFfQVJzdlRzeGRQOWdtcW55UVRNSE16QmhJZXhVYmRmYl9iUmJBN1g2cG8?oc=5",
+      "published": "2026-03-11T07:00:00+00:00",
+      "source": {
+        "name": "NDR.de",
+        "url": "https://www.ndr.de"
       }
     },
     {
@@ -978,26 +998,6 @@
       "title": "Drogerie-Chef im Interview : dm will Rx-Arzneimittel abgeben - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdnMxbVRNSWE1RlZjdzdFb1BCR3JCcmhVRUoxNko2cXF5WXpYNkQtV3V5eUd2WWQtaTViRVJjdkVGVW9XUkxfVWNjTWduZjVWTGhrMTJIN1l2MlA1blVsLWgyNDhJR2Q2b3ZDRXhJU1V4bVVENFYwekV2ODlHNjRmSF9ubTc?oc=5",
       "published": "2024-02-27T08:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
-      "id": "ae18c58057b5",
-      "title": "Arzneimittelpreise: Sachverständige schlagen Alarm - Apotheke Adhoc",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUVdRckNrNEQ0VURLaU42MXc2UVpac1F6MDVZaUNkaXlwLTc1anBkeVFyVHVxLVNKbmVMUGtLM0tiRjBweGdJenZaUzNQOW9ZM0hMZk5nWElXUU1QeDdkTEVMX3p4LXJBOC1NVjJHSkp3cTE4TmJ0bExFTkV0RWU5ZjFDY3hYc0tzbUk4R3NYUE5aVmV5QTdEODhKVnlFZWFXaFpESktiajJNUQ?oc=5",
-      "published": "2025-05-22T07:00:00+00:00",
-      "source": {
-        "name": "Apotheke Adhoc",
-        "url": "https://www.apotheke-adhoc.de"
-      }
-    },
-    {
-      "id": "0328b41cd92a",
-      "title": "RKI-Bericht: Diese Arzneimittel können bei Hitze Probleme verursachen - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONHdLdFVoNHFnYl9vZVJjdVBoVDhzZFVMTEhULTBpcURWdXljRjlsX25RODlzbXRSNTR5QUNzZEhUcGRCMi14ZUpaRXM5ZlY4VU9HRkR5YnVxZXdKQmlhdktqMzJWTnQxRHZlLURTMUwzLXEtTVkxb2doVURybXhWMUNfbWNfZXg2SFFaUDVDR0VRSlg0dEdMa0psTkd6bmNLbDJfZzF4UQ?oc=5",
-      "published": "2023-09-06T07:00:00+00:00",
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
