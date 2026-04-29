@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-29T09:10:28.942227+00:00",
+  "fetched_at": "2026-04-29T11:39:14.124509+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -134,13 +134,13 @@
       }
     },
     {
-      "id": "d61e9760c7cc",
-      "title": "Medikamentencheck in der Apotheke: Wer Anspruch darauf hat - Main-Spitze",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZ0hKS1Z4TDF0c1N6bUN0REo0ZURjb0MwZnMxbzc2M1hLcHNNQ3ZBLW9xdWhqTzFQcEdpc29ZalJjV2tPbWlPdk9iUFVGYV9RYkpRYUtEZ09sNGJlR0VSSEM3dXUxM3BZdTBCcVBSRlE1ZFJ0Nk5kRktJMFZ5bWxSVVE4bVdMal80d2JQV09XUGduUmZLZ2xpc3dXUkVXR2s3ZHcwaTRHd2RrUEw2clpNLXhB?oc=5",
-      "published": "2026-04-19T18:00:00+00:00",
+      "id": "aaa9b3b6486a",
+      "title": "Long Covid: Erstattung von Medikamenten durch Krankenkassen möglich - Gesundheit - SZ.de - SZ.de",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZmlncDRlS21NN0xwd0RXUDRBbXlVUkNsRHhvQXktZElkQklXM3dzRlI0ZnU5X091cXY5cGtxclBaR2Y5TUxzZXgxYlVMODNhNDFFX05SS094Zml0dHIzRktJQ2lDcjFVVmg1dGxQdjFlUFlGSi1wUS1neXZYXzdKVTU3ME9zdTRLcHRSVVcwdVlUY2kyd05BQk8tZk1Mdw?oc=5",
+      "published": "2026-04-02T07:00:00+00:00",
       "source": {
-        "name": "Main-Spitze",
-        "url": "https://www.main-spitze.de"
+        "name": "SZ.de",
+        "url": "https://www.sueddeutsche.de"
       }
     },
     {
@@ -324,16 +324,6 @@
       }
     },
     {
-      "id": "a811176bfd40",
-      "title": "Das ist neu ab April für Frauen in den Wechseljahren - FITBOOK",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9pdEZUa0NHRW5mR3FBdUZKQjBOS2FaVlkyU0VOeUVpSmplQWR4RzhhLUlzeTVsSEN5cWl1cmlpcHBEdEppY2E4RzhtZDJsNEZ0UXpRMUwxUWY5Zlo4Tm1JWWxrbjZ1cTE1?oc=5",
-      "published": "2026-04-02T07:00:00+00:00",
-      "source": {
-        "name": "FITBOOK",
-        "url": "https://www.fitbook.de"
-      }
-    },
-    {
       "id": "79bf53373e2d",
       "title": "Arzneimittel - Drohender Engpass bei Antibiotika - Sonderregeln - Gesundheit - SZ.de - SZ.de",
       "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNZXYxUjRkRWpobExwZXBseVN2WkJ6NjBwTndtTURXR3RSR01ENHZOaGtVYXdOanprT2paaHFmVEc0RWxzVzZDb0NrYk1Ba0thRGlhZ3RxVWpqeGUyR0owYzIzVHFTVTFWMmdfdUxfVnYzN0R5MUc5TFN4R2dSNWJ3V0ZMZUt3YkhlZXhDTXUxa1dBUUVSQjB5b2JyVU5xUUo5SVVwLUpkc2Z5NUV6NVFvak4zLXBrTng2OUs1OEdiQnlDR1N2QngtdGFmbW9vSnl2U1lKaDhqa3FyMVllSmxXRG13?oc=5",
@@ -494,6 +484,16 @@
       }
     },
     {
+      "id": "4bd6265511f7",
+      "title": "Medikamenten-Triage: NRW-Gesundheitsminister Laumann rüffelt Parteifreund Streeck - Spiegel",
+      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQaW85VFdoR2RfSWpxeHFWWmJsNHNYWk1CRXNVb1FZNUNRNnB2cGVEcjJ3QkxOUkZtY1RxR0xBUGo5Y2lQdnZYTWRsZU9aMm84dl9INHdJMHFMMUtQZXdRM2l2Z3Brc2hNUDRrY0JtZHBybFpjR2FhQmpQN2tjV1d3cDQ1al9fOXpFTHlJWXpQNUhmMHlVblROV184bi1FZkljVmRMX3FldUFxdjBDSzZERVVwQkJtcm9KcUFWYjR6RUZRb0VScXRTdkxoZzNTMXdvR01mYTNlcDd6ZmZFbXZ6dENyWXJUV2xuLVBvU2stVjBGeWp2X3Q5WXVRb3BOY25pZi1R?oc=5",
+      "published": "2025-11-14T08:00:00+00:00",
+      "source": {
+        "name": "Spiegel",
+        "url": "https://www.spiegel.de"
+      }
+    },
+    {
       "id": "c186b4db6c10",
       "title": "Teure Medikamente für 100-Jährige? Streecks Aussagen zu sehr alten Menschen stoßen auf Zuspruch und scharfe Kritik - Tagesspiegel",
       "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQclVaUzUxWl9ZNUVvOVZHTXhQdEtRQ205NGJtNU9TQTZTQWUxMVJPNzFsMHFZbXVIa2NfQ1JRSjJicV9YSGQ1dFVXcWFJa2ZZR1o5ZmNwcjA3TmxjRFRhb3ptX25MZzEwdWszclJpNThyUHc5VDFSX2NiTk8tc0tBOUJWcFV5RHhvMGYwa1FlbldHYVVpbHl3cUZ1N0ZseU1rSjFlb2N6WjJoeFQ4QXNhLU9oeTBYTkpDMzZ3NmFyQko1M2dKRzJtbWlfMVJyN2VaemdDMTQ1a19UcTlFOGI3NHRXeXo5STZ2Mi1vREpIWDg3VGlYbXl3?oc=5",
@@ -531,6 +531,16 @@
       "source": {
         "name": "SWR",
         "url": "https://www.swr.de"
+      }
+    },
+    {
+      "id": "7223dff6ff9e",
+      "title": "Spanien kämpft mit Medikamentenmangel durch Abhängigkeit von China - Euronews.com",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdjhQS01ta3Y4VGFuVFEzZDhuanczU2hVNWJvM1BlMzlNTEJIeGNreGM5cHVWVy1rTUtlODE3alItNUdFOWlOUURwT0hsMjFSZEVQai1sTTBIWHhWaGpSWkZubGo1WFNhQjFVa05MQzNzNW1UbXpzYlZodGc0WjFmYW9FSTUwZzlTRGdkbFlZamZJVTQ3bnBtZHVwNE01QnFINmxIRFhpVmxDMmlKNEU4SGJR?oc=5",
+      "published": "2025-11-03T08:00:00+00:00",
+      "source": {
+        "name": "Euronews.com",
+        "url": "https://de.euronews.com"
       }
     },
     {
@@ -704,12 +714,22 @@
       }
     },
     {
-      "id": "e0194a7c0b5d",
-      "title": "Deutsche Apotheker warnen vor Medikamentenmangel - dw.com",
+      "id": "20260b40d0ff",
+      "title": "Gesundheitswesen: Ärzte verordnen so viele Medikamente wie noch nie - WELT",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNZGJwRUJienRtWnBUR01rQ19BQ3J6OURtb0NDR1dKTTcyb3V5N0lkMEJ5emRkV1lZWUN2SUhQWWQxekFpN0FRMUwzaFp6MFhXeUhtY2FlUkFKWUZQSGhDRTRwTkMwWk4yck5oUUdmcXdGa2syUi1kdXRWZ2Y1RUY5U0h3THk3ai1XQnIzcGFrcUZYd192dUR6N0dSQWVJNkhUeFNsRmtlaGd5U0QzakQ2WEN1NnAta1JpbFZXVFQxSFJnaU5oN25RR1VqTlFfYlR0WmtuTlBnYnQyLVVr?oc=5",
+      "published": "2025-10-20T07:00:00+00:00",
+      "source": {
+        "name": "WELT",
+        "url": "https://www.welt.de"
+      }
+    },
+    {
+      "id": "692ed6663b43",
+      "title": "Deutsche Apotheker warnen vor Medikamentenmangel - DW.com",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWU1xaGhwXzk2bTZMYV9pdEdESnBqWVZvSnAwXzllTkVsdXYyZTlYSzdEYjktY2FySDA2THNEWUlQend3WWp5cG9uZFo1aTJMcFFINW1ZWEg3NlVDQ2UzdkRmZldhV1JRemg4U3poczloOF9QOEhha1prQnlGZ0U5T0laMXN2ZVBY0gGIAUFVX3lxTE01Wk9oR0RESDZiM1BvOU5qZmtUYk1aNUFxWlpzU3EteXRvRDQ1anBlcG52RXJ5QWdEWjB2SHJCblZSaktVZktvRTBkYUxtYzNfQVE4YXRHajc1Nk9UQllNTkt0Vi1wVjdQTTAzSElvTDRMWXZ5TEpkLUZxRTI2QUZkMVdyRGM4YUg?oc=5",
       "published": "2025-09-14T07:00:00+00:00",
       "source": {
-        "name": "dw.com",
+        "name": "DW.com",
         "url": "https://www.dw.com"
       }
     },
@@ -761,16 +781,6 @@
       "source": {
         "name": "European Parliament",
         "url": "https://www.europarl.europa.eu"
-      }
-    },
-    {
-      "id": "e94d02fc9fb6",
-      "title": "Risiko - Medikamente wirken bei Älteren oft anders - was beachten? - Gesundheit - SZ.de - SZ.de",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQRGYzaTAxbm00M2R3MHhqTmxNeFY4c2FLUE1VVkdTY3d1UFI3M3NmajA4SFBMMXhsanRES3RMWGY3ellzamlBQkNFemVEYktTYmZUcWdOdm9RRHRnd1ltYlFEdlBPZ3JCaEo0ZEJHOTZjN0Fsc2R0a19IakF2SWFpV3FBWUNxVnphSUZBS1BOWFVLYkRhaElmZUdXdVNSTVVwbnhydHNXNHpwUTV0RWFNdF9ZUHlJTExsSTJ2SS05WTR0NTB4NlBQbHphZjNuc2x0aUNuX2cxU3k1dHZGRzVBSndIMUY2dw?oc=5",
-      "published": "2025-08-28T07:00:00+00:00",
-      "source": {
-        "name": "SZ.de",
-        "url": "https://www.sueddeutsche.de"
       }
     },
     {
@@ -874,6 +884,16 @@
       }
     },
     {
+      "id": "51719b801f7f",
+      "title": "Gutachten empfiehlt Anpassungen im Gesundheitssystem bei innovativer Arznei - STERN.de",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNOHBxLW1fdGdDYTNFMlYzY2hJd0pyMjIzeERfaEp3dHVQQk1URXJpd3RKNW1fSE1LaHgwSXU3TFNsRjNrVGdqX2pWUS1PaWVpUmw5Y2ZMMUtkTTlaVXVKTXFiMFZLN3RVSFBCdUp2aVZINUVSWWhQQm1tejFXQ0k2NXdnM2dXVmdWY2E1d3dTY0llN2lUZmQyczNvWWxJaG1SWkpkMTFaZE1fd0FURVB0UG9uMGV6UQ?oc=5",
+      "published": "2025-05-22T07:00:00+00:00",
+      "source": {
+        "name": "STERN.de",
+        "url": "https://www.stern.de"
+      }
+    },
+    {
       "id": "c3ee553af665",
       "title": "Medikamente ohne Zusatznutzen: Werden Arzneimittelpreise zum Geheimnis? - tagesschau.de",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYWJENElFYXhtTWZMMVJoOU5iMHQwMV9HMVN1Y2NuMm9FVzlJODNKVG5ydWZXeEJTUTBPVHRmaDZaR1huMy1VUVdtUWg5TGtqWmxJV0p5RVFIZ0xqQnppeklhMHhFRmNKdTl3Y0daTzFSXzRXUkpTRlRmUXptZkdMMmZTX18zbjlJQW1xMDNyR0dIN2NYUDI1OTIweGNDcWdSa0JZZkNn?oc=5",
@@ -921,16 +941,6 @@
       "source": {
         "name": "ADAC",
         "url": "https://www.adac.de"
-      }
-    },
-    {
-      "id": "5a62215c5ec5",
-      "title": "Bessere Kontrolle für die Krebstherapie: Medikamente mit eingebautem Ausschalter - MDR",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcTdqZU1ubGxxR003TllYa25TQTBudjFfZkZiY2p6WjZLeFhPczhNQndBcWdlNTU4SGtSc005VjlQR3FzUmVXdnZSN0FfNHkzYVVuUkIxQzhPSGhsU1FINFlLSjBWaXFUa0VfbFEtc0tUZTMyT1Rrd3dFbDVfaDdnekwyUDQwSHJxN1VlYVF5OFBkUVgyaGJ1QdIBngFBVV95cUxPRld5VFJnMVlGTlFaMHRGNDZvRGdhS1dFUzd5LU9EdFpXdThVcUVXSEdXeDJCRldERmI1VU5Ca0VLLWQzbHVHWkJXdC1tdjk0WDlWdXZSQUVNcll6cUlSaFRuWnlLX2FWOVEzUHlrU3g2cXBob2FGV2ExWlhnOWZsblJJbUE1cDhoNmxtbGN3alI2Uno0VlV6cjZ2bWVRQQ?oc=5",
-      "published": "2025-09-29T07:00:00+00:00",
-      "source": {
-        "name": "MDR",
-        "url": "https://www.mdr.de"
       }
     },
     {
@@ -991,16 +1001,6 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
-      "id": "8b567b81ec81",
-      "title": "Nutzen- und Risikobewertung neuer Arzneimittel: Die Sicht des BfArM - AerzteZeitung.de",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxORFdEUFE1cjJuX045WHFKOG9LVTY4a25FOUdrODc0OTZmSWRKQ3VQbG4xeEIzWjI3Z2ctNmNmNElsYjZabk0xeGVnTTNIanp5VTc0T1JoNm1YWGVGQXBGbXFiRU10SURaZkZGUlhXaDJDd2RLOHJhS0RHeHlmVUVxaVQ1Ykk5S0NiQVRYdHdzVXhrZkdjalVmTTZHZjg0Z0VpRng4ZFV5SnpRcTl3Z1lienV5MXlkeFdzckxRWA?oc=5",
-      "published": "2024-10-14T07:00:00+00:00",
-      "source": {
-        "name": "AerzteZeitung.de",
-        "url": "https://www.aerztezeitung.de"
       }
     }
   ]
