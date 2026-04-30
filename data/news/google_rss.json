@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-30T16:20:51.185720+00:00",
+  "fetched_at": "2026-04-30T18:10:34.301253+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -21,6 +21,16 @@
       "source": {
         "name": "Berliner Morgenpost",
         "url": "https://www.morgenpost.de"
+      }
+    },
+    {
+      "id": "f509133d718d",
+      "title": "(Pertuzumab) von Henlius und Organon, das erste in Europa zugelassene Biosimilar zu PERJETA (Pertuzumab) - Business Wire",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8yT3RrWEptV2FUTllLcXB2cWlKTjVlMkNDUEFCc2NYa2Jab3BvMGJuVnFQUTRoWkY4QlZaSnNvMUFBZjc1Ql9xSjlhRzJMLUNRbzJMQjhQOGw2c1BnbGYzajRWYUlHN1k?oc=5",
+      "published": "2026-04-30T17:30:00+00:00",
+      "source": {
+        "name": "Business Wire",
+        "url": "https://www.businesswire.com"
       }
     },
     {
@@ -54,12 +64,12 @@
       }
     },
     {
-      "id": "8c270d10238f",
-      "title": "Long Covid: Krankenkassen zahlen vier Off-Label-Medikamente - Apotheken Umschau",
+      "id": "5f3b79e834c1",
+      "title": "Long Covid: Krankenkassen zahlen vier Off-Label-Medikamente - apotheken-umschau.de",
       "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQSHFHNmFCMFRVWWo4RDd6VkFETnd6S3FRM0Mzd2VUQldhTElvcWFaSldTcnNsWDgzVTI2X3d0bWY3QkJ2dmZWRUdTdG5mY3MzbXdLSGlMZ2lfcnVweU1DSjlnTkl0OHNpbE5Xa2JZX0ppZnNucWVabUFOVVhmbEJDTkJOUGo5Mk9tekhMUkNpY2laak1jNnBHVGV4eVF3T2gyQ0dVRUZKZlh6Ql9kaUZ5MFM2OVVVaXkzY1JMSjF6UDF1ajZFcU9PWDNFb3VmcDN3ZDdEa1p1MFhiQ21OSzFjOG9DLTE5YzI5dU1qbWJJcUNjYzRYOHdkZWFpZXFWaVhnZ2hrVVZJQ214bWJ4Rmp4d2o2UEVac2I5M1E?oc=5",
       "published": "2026-04-29T03:04:42+00:00",
       "source": {
-        "name": "Apotheken Umschau",
+        "name": "apotheken-umschau.de",
         "url": "https://www.apotheken-umschau.de"
       }
     },
@@ -174,16 +184,6 @@
       }
     },
     {
-      "id": "239a867ac061",
-      "title": "Gesundheitssystem: Auf Krieg und Krisen nicht gut vorbereitet - Pharma Fakten",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWjNwN3pyQ2F5eEJqTGEtU3VuVTZVLXBTTXlLaE5OV3VfamJkeWR3Ty1FMlYyZG9VNVhsMHRhWjJkNFNteU5Gb2FheGQ5OFZyNWdqc3Q0S3R6M2NuVUJNQVJGY1E3QjFHaC1uaWQ0akpKejFQQjctZGI1YzVkTFVRd1Utc2tsNTJpc2RhUWd1d0FYNFRRTGc?oc=5",
-      "published": "2026-03-10T07:00:00+00:00",
-      "source": {
-        "name": "Pharma Fakten",
-        "url": "https://pharma-fakten.de"
-      }
-    },
-    {
       "id": "9f7c377ed6d2",
       "title": "MFN-Modell USA: Wie US-Arzneimittelpolitik Innovationen in Europa ausbremst - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWkw5ZTd1QUxfTlBDNjVEc0paTWpvTFpfTE9lOFM3YnhiWnBBREVhRzlMQnRmWDdkREJzVlg3UnZCN2RsTC1aTkhtN19oX2dEYmVLdXk4MXFBUnVGakk3YzVfbjZVQ0E0MUtPN2JZZ08wQ05yaTFLNER1dVYzZEo5UldOVldfQ0lCbGNRWEJZbUg0R3JBaGp6Mm1DTGd2eTYzWE9GV1hvenRGWHhOZXBxMHJMY09GUQ?oc=5",
@@ -201,6 +201,16 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "239a867ac061",
+      "title": "Gesundheitssystem: Auf Krieg und Krisen nicht gut vorbereitet - Pharma Fakten",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWjNwN3pyQ2F5eEJqTGEtU3VuVTZVLXBTTXlLaE5OV3VfamJkeWR3Ty1FMlYyZG9VNVhsMHRhWjJkNFNteU5Gb2FheGQ5OFZyNWdqc3Q0S3R6M2NuVUJNQVJGY1E3QjFHaC1uaWQ0akpKejFQQjctZGI1YzVkTFVRd1Utc2tsNTJpc2RhUWd1d0FYNFRRTGc?oc=5",
+      "published": "2026-03-10T07:00:00+00:00",
+      "source": {
+        "name": "Pharma Fakten",
+        "url": "https://pharma-fakten.de"
       }
     },
     {
@@ -991,16 +1001,6 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
-      }
-    },
-    {
-      "id": "f24df8949146",
-      "title": "EU-Kommission lässt Arzneimittel gegen Alzheimer zu - Gesundheit - SZ.de - SZ.de",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBhcTZZOEpfWjNQNUozZTNyaEM3VHFPX3R1bDVCTTkxQ2kweEY2d0poZThIbFVXalBGYVh0MzNjS0U2U3c5UFlWeHRPa1NFeWxBZVl3SWVUWTVMbWlTOFlHdmJsdWM2ZDYxUEZGS0lCNktEZlMzNW5PRDkxWQ?oc=5",
-      "published": "2025-04-15T07:00:00+00:00",
-      "source": {
-        "name": "SZ.de",
-        "url": "https://www.sueddeutsche.de"
       }
     }
   ]
