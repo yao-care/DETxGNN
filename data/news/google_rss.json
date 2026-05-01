@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-01T13:22:55.502013+00:00",
+  "fetched_at": "2026-05-01T14:57:35.199661+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -14,16 +14,6 @@
       }
     },
     {
-      "id": "491353a8a494",
-      "title": "Künstliche Plazenta hilft, Risiken von Medikamenten zu verstehen - SRF",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORENTMTRnWUd3bk1FdGtsdnpuWW1LWnQ0LVJXUmI2R2RMLTdCQUdFaGNVRFloTVR6aHl1TExaZHVhcnZzbGJ6aG9jWlpuSXpQdmgzNnhHeEtPUTRuQzdhRlR1dlJUYjBSXzdOSS03NXA0MUtGS3dNcHNiQ3pVckNaWHJQZ0I1YjdpbC1aTy1HdWV5Y0dJdG1ONl95RllIaUM3NWZBejRMc000SnczM0wwS3ZBaUNVOU5HRVhZTHlGajFjRmNRRjJFcw?oc=5",
-      "published": "2026-04-30T13:58:23+00:00",
-      "source": {
-        "name": "SRF",
-        "url": "https://www.srf.ch"
-      }
-    },
-    {
       "id": "9ad0652613cd",
       "title": "»Ko­ali­ti­on steht kurz vor einem Wort­bruch« - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZFVlUGR2SnNOOThNTVM2bXVOcGdROXhQOHpVWDhuYXl4a0tJT2ZhVk8tdG9IUjd3RndYSTVpelhqRHhmNEZ2VDVXSGEzWEViSG5hemVOckM4XzRQaDVpZE5XbzNkZTByVnZINzZCQjhjQlotR3N4MEgtcTBvRVo5T2V3SG5PbkNpcmZiT0VBbGk?oc=5",
@@ -31,6 +21,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "491353a8a494",
+      "title": "Künstliche Plazenta hilft, Risiken von Medikamenten zu verstehen - SRF",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORENTMTRnWUd3bk1FdGtsdnpuWW1LWnQ0LVJXUmI2R2RMLTdCQUdFaGNVRFloTVR6aHl1TExaZHVhcnZzbGJ6aG9jWlpuSXpQdmgzNnhHeEtPUTRuQzdhRlR1dlJUYjBSXzdOSS03NXA0MUtGS3dNcHNiQ3pVckNaWHJQZ0I1YjdpbC1aTy1HdWV5Y0dJdG1ONl95RllIaUM3NWZBejRMc000SnczM0wwS3ZBaUNVOU5HRVhZTHlGajFjRmNRRjJFcw?oc=5",
+      "published": "2026-04-30T13:58:23+00:00",
+      "source": {
+        "name": "SRF",
+        "url": "https://www.srf.ch"
       }
     },
     {
@@ -64,16 +64,6 @@
       }
     },
     {
-      "id": "f509133d718d",
-      "title": "(Pertuzumab) von Henlius und Organon, das erste in Europa zugelassene Biosimilar zu PERJETA (Pertuzumab) - Business Wire",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8yT3RrWEptV2FUTllLcXB2cWlKTjVlMkNDUEFCc2NYa2Jab3BvMGJuVnFQUTRoWkY4QlZaSnNvMUFBZjc1Ql9xSjlhRzJMLUNRbzJMQjhQOGw2c1BnbGYzajRWYUlHN1k?oc=5",
-      "published": "2026-04-30T17:30:00+00:00",
-      "source": {
-        "name": "Business Wire",
-        "url": "https://www.businesswire.com"
-      }
-    },
-    {
       "id": "11cdd0be15c8",
       "title": "Wie viel darf Gesundheit kosten? Streit um Medikamentenpreise eskaliert - WirtschaftsWoche",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMEkzamFzeFFHZEk3NjFIbFJmYjZvajlGOVMtcHo3aUZsWFlvdkcyMzFTODZXZFM1dWhNWU1lT3FVVDk4dlduRjBqV2paSEFVbkE2YWktMVJIanA4U3J2QW1rMnFtOUljc0pXb2hEbVNSWkxYdGlkRHRMRGE3aGpSYjlrU0FzN0RjN1dhWkJWZldkUmVpbm9xbXpSZmR3b0xGR2ZXQmdvVVZ4bWh5bmVNbkdOOU1rNEdiZElEc0NEeDE3LXpqVkE?oc=5",
@@ -91,6 +81,16 @@
       "source": {
         "name": "Gesundheit.gv.at",
         "url": "https://www.gesundheit.gv.at"
+      }
+    },
+    {
+      "id": "f509133d718d",
+      "title": "(Pertuzumab) von Henlius und Organon, das erste in Europa zugelassene Biosimilar zu PERJETA (Pertuzumab) - Business Wire",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8yT3RrWEptV2FUTllLcXB2cWlKTjVlMkNDUEFCc2NYa2Jab3BvMGJuVnFQUTRoWkY4QlZaSnNvMUFBZjc1Ql9xSjlhRzJMLUNRbzJMQjhQOGw2c1BnbGYzajRWYUlHN1k?oc=5",
+      "published": "2026-04-30T17:30:00+00:00",
+      "source": {
+        "name": "Business Wire",
+        "url": "https://www.businesswire.com"
       }
     },
     {
@@ -124,16 +124,6 @@
       }
     },
     {
-      "id": "a41a7a214460",
-      "title": "3 Medikamente erhöhen das Demenzrisiko – 5 schützen - FOCUS online",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQYWVpV2o1a0s4NHJlVW9jSkl0TUIyMEZ0d0g0WXFEc0NqNTlzT0NiTTcwc3VmR3FKMU1nd2NPc01pRGUtNmZRNi1YS1VWOG83bnM5ZjhJQXBDcFk0WWFFejltaEhLcURudFZLeWpteEd3SkVDbmZJZDZOemZCRlRidHJZa1FMSmthMV8xUTBBZnI1OHZyaGF1cURUZHFYXzJSYjVueGFfdC1Sd3NHY29xbW5BNm9WUWM5SHBZWVpJMHhnUFZRLXJRdDJNNy1iS3M?oc=5",
-      "published": "2026-04-29T13:33:00+00:00",
-      "source": {
-        "name": "FOCUS online",
-        "url": "https://www.focus.de"
-      }
-    },
-    {
       "id": "5cfa2762dc20",
       "title": "Gesundheit - GKV-Chef: \"Mehr gegen steigende Arzneimittelpreise tun\" - Deutschlandfunk",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdXlzU1VBOUhWa05wcTVDNnBBdHRkeDl5TnZ1S1A3T0swT2pKTjZlaU1pempxQVJkMXMySXBtd2xpaUk5WWN4Q1VyakdMbnN2eF9mRncxakUwN21WbGFQMWpuR2VoOG1tUDYtWERUbS1LSVpOdUNaTE1SWmhDSkVUdTlubVNEWGNtUXNaYk5tcTJibTRDZTJv?oc=5",
@@ -141,6 +131,16 @@
       "source": {
         "name": "Deutschlandfunk",
         "url": "https://www.deutschlandfunk.de"
+      }
+    },
+    {
+      "id": "a41a7a214460",
+      "title": "3 Medikamente erhöhen das Demenzrisiko – 5 schützen - FOCUS online",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQYWVpV2o1a0s4NHJlVW9jSkl0TUIyMEZ0d0g0WXFEc0NqNTlzT0NiTTcwc3VmR3FKMU1nd2NPc01pRGUtNmZRNi1YS1VWOG83bnM5ZjhJQXBDcFk0WWFFejltaEhLcURudFZLeWpteEd3SkVDbmZJZDZOemZCRlRidHJZa1FMSmthMV8xUTBBZnI1OHZyaGF1cURUZHFYXzJSYjVueGFfdC1Sd3NHY29xbW5BNm9WUWM5SHBZWVpJMHhnUFZRLXJRdDJNNy1iS3M?oc=5",
+      "published": "2026-04-29T13:33:00+00:00",
+      "source": {
+        "name": "FOCUS online",
+        "url": "https://www.focus.de"
       }
     },
     {
