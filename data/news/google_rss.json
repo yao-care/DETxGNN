@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-01T16:02:31.582535+00:00",
+  "fetched_at": "2026-05-01T17:59:17.315349+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -54,16 +54,6 @@
       }
     },
     {
-      "id": "fdc9ee285a18",
-      "title": "Ataluren: Elf Jahre auf dem Markt – ohne erkennbaren Nutzen - Infosperber",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTVlaeS1kU3VzcS1TZUU4RzFFY1hOa0tybWk5OHctT2JTdnd6VXY0a01ZckRCaHI3ZGk3RDBKcS1QbUZoeTFZaFFKNEFHTWJ1TmloeUNha2l3bnRsdi1sdTRvZEdaTk9oeEtMT09lQmpmamR0R2ZkYU10ejlDQlF3SzVuMG9MQllCWGdYN29MR1dtMGVMZ05LNE9BTQ?oc=5",
-      "published": "2026-05-01T08:32:54+00:00",
-      "source": {
-        "name": "Infosperber",
-        "url": "https://www.infosperber.ch"
-      }
-    },
-    {
       "id": "8c270d10238f",
       "title": "Long Covid: Krankenkassen zahlen vier Off-Label-Medikamente - Apotheken Umschau",
       "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQSHFHNmFCMFRVWWo4RDd6VkFETnd6S3FRM0Mzd2VUQldhTElvcWFaSldTcnNsWDgzVTI2X3d0bWY3QkJ2dmZWRUdTdG5mY3MzbXdLSGlMZ2lfcnVweU1DSjlnTkl0OHNpbE5Xa2JZX0ppZnNucWVabUFOVVhmbEJDTkJOUGo5Mk9tekhMUkNpY2laak1jNnBHVGV4eVF3T2gyQ0dVRUZKZlh6Ql9kaUZ5MFM2OVVVaXkzY1JMSjF6UDF1ajZFcU9PWDNFb3VmcDN3ZDdEa1p1MFhiQ21OSzFjOG9DLTE5YzI5dU1qbWJJcUNjYzRYOHdkZWFpZXFWaVhnZ2hrVVZJQ214bWJ4Rmp4d2o2UEVac2I5M1E?oc=5",
@@ -81,6 +71,16 @@
       "source": {
         "name": "tagesschau.de",
         "url": "https://www.tagesschau.de"
+      }
+    },
+    {
+      "id": "fdc9ee285a18",
+      "title": "Ataluren: Elf Jahre auf dem Markt – ohne erkennbaren Nutzen - Infosperber",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTVlaeS1kU3VzcS1TZUU4RzFFY1hOa0tybWk5OHctT2JTdnd6VXY0a01ZckRCaHI3ZGk3RDBKcS1QbUZoeTFZaFFKNEFHTWJ1TmloeUNha2l3bnRsdi1sdTRvZEdaTk9oeEtMT09lQmpmamR0R2ZkYU10ejlDQlF3SzVuMG9MQllCWGdYN29MR1dtMGVMZ05LNE9BTQ?oc=5",
+      "published": "2026-05-01T08:32:54+00:00",
+      "source": {
+        "name": "Infosperber",
+        "url": "https://www.infosperber.ch"
       }
     },
     {
@@ -114,16 +114,6 @@
       }
     },
     {
-      "id": "f509133d718d",
-      "title": "(Pertuzumab) von Henlius und Organon, das erste in Europa zugelassene Biosimilar zu PERJETA (Pertuzumab) - Business Wire",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8yT3RrWEptV2FUTllLcXB2cWlKTjVlMkNDUEFCc2NYa2Jab3BvMGJuVnFQUTRoWkY4QlZaSnNvMUFBZjc1Ql9xSjlhRzJMLUNRbzJMQjhQOGw2c1BnbGYzajRWYUlHN1k?oc=5",
-      "published": "2026-04-30T17:30:00+00:00",
-      "source": {
-        "name": "Business Wire",
-        "url": "https://www.businesswire.com"
-      }
-    },
-    {
       "id": "5cfa2762dc20",
       "title": "Gesundheit - GKV-Chef: \"Mehr gegen steigende Arzneimittelpreise tun\" - Deutschlandfunk",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdXlzU1VBOUhWa05wcTVDNnBBdHRkeDl5TnZ1S1A3T0swT2pKTjZlaU1pempxQVJkMXMySXBtd2xpaUk5WWN4Q1VyakdMbnN2eF9mRncxakUwN21WbGFQMWpuR2VoOG1tUDYtWERUbS1LSVpOdUNaTE1SWmhDSkVUdTlubVNEWGNtUXNaYk5tcTJibTRDZTJv?oc=5",
@@ -151,6 +141,16 @@
       "source": {
         "name": "schleswig-holstein.de",
         "url": "https://www.schleswig-holstein.de"
+      }
+    },
+    {
+      "id": "f509133d718d",
+      "title": "(Pertuzumab) von Henlius und Organon, das erste in Europa zugelassene Biosimilar zu PERJETA (Pertuzumab) - Business Wire",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8yT3RrWEptV2FUTllLcXB2cWlKTjVlMkNDUEFCc2NYa2Jab3BvMGJuVnFQUTRoWkY4QlZaSnNvMUFBZjc1Ql9xSjlhRzJMLUNRbzJMQjhQOGw2c1BnbGYzajRWYUlHN1k?oc=5",
+      "published": "2026-04-30T17:30:00+00:00",
+      "source": {
+        "name": "Business Wire",
+        "url": "https://www.businesswire.com"
       }
     },
     {
@@ -384,16 +384,6 @@
       }
     },
     {
-      "id": "65b427350ec9",
-      "title": "SVR-Gutachten: Hohe Arzneimittelpreise bedrohen Gesundheitssystem - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdkVLanl4Z0F3bXFfWGJrcUZEZUNhdnhoeExVTWxYWTN3aXV2YUxmWDE3MXZRU0M1cHZNQl81MmRERmMzMWhzRnlRM3VCVzRHdnBFSHAxRmRDYjRVdkw2MmhNMTNQdlZaQ0lsaURKd1ZhTW41WTJzbmI0cDNDanNOSDRELUZja3Z3WDIwYVlfaGw1enVEdWdFbWN4Y3BiZw?oc=5",
-      "published": "2025-05-22T07:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "501e9f551bd5",
       "title": "Chronische Krankheiten: EU genehmigt erstes Medikament gegen chronische Lungenkrankheit - DIE ZEIT",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5fdjU5RzVXWjctdzZGZks3YnE4Yl82RmlVcGk5OWFzUnJKQ3J0b3FQWk05TGtZaXRTc3VkeU5WLW5zUFJqYVhlckpPcE5OdVRkWUFhOWhiRFJJZjY1WXp6ak1UN0hXWEdVVlU4Ny1YUkFkLWcwMXBJ?oc=5",
@@ -401,6 +391,16 @@
       "source": {
         "name": "DIE ZEIT",
         "url": "https://www.zeit.de"
+      }
+    },
+    {
+      "id": "65b427350ec9",
+      "title": "SVR-Gutachten: Hohe Arzneimittelpreise bedrohen Gesundheitssystem - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdkVLanl4Z0F3bXFfWGJrcUZEZUNhdnhoeExVTWxYWTN3aXV2YUxmWDE3MXZRU0M1cHZNQl81MmRERmMzMWhzRnlRM3VCVzRHdnBFSHAxRmRDYjRVdkw2MmhNMTNQdlZaQ0lsaURKd1ZhTW41WTJzbmI0cDNDanNOSDRELUZja3Z3WDIwYVlfaGw1enVEdWdFbWN4Y3BiZw?oc=5",
+      "published": "2025-05-22T07:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -764,12 +764,12 @@
       }
     },
     {
-      "id": "a66df4942e20",
-      "title": "Neuer Gesetzesentwurf für mehr Medikamente \"Made in Europa\" - Euronews",
+      "id": "3543cf3a3f0b",
+      "title": "Neuer Gesetzesentwurf für mehr Medikamente \"Made in Europa\" - Euronews.com",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNHFTMVA5aGlRbEpVcWtnSVhzY0R1S3d5UjVRUTBrUjdCakpYQlZBX1BRTmlBNDJpOFVkWk5LWHhEdDMzZ3A2c2Y3b0dBWExtcXNUVFVyaGx6U3V6cDFLN3p2dVNEMDRSZkdUVzhhQzFsUEpoNDFqTDN1anFmNE1BU25Gd3BHRlUtMTA1TElTQ01CdjhhYms3d005cl9yREpHOXZDOFVDT1JTZmNxVTR3OXozUUdJRnQ0U2d1d3Jn?oc=5",
       "published": "2025-03-12T07:00:00+00:00",
       "source": {
-        "name": "Euronews",
+        "name": "Euronews.com",
         "url": "https://de.euronews.com"
       }
     },
