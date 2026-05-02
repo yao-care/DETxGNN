@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-02T22:44:43.241061+00:00",
+  "fetched_at": "2026-05-02T23:47:18.020632+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -174,36 +174,6 @@
       }
     },
     {
-      "id": "9f7c377ed6d2",
-      "title": "MFN-Modell USA: Wie US-Arzneimittelpolitik Innovationen in Europa ausbremst - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWkw5ZTd1QUxfTlBDNjVEc0paTWpvTFpfTE9lOFM3YnhiWnBBREVhRzlMQnRmWDdkREJzVlg3UnZCN2RsTC1aTkhtN19oX2dEYmVLdXk4MXFBUnVGakk3YzVfbjZVQ0E0MUtPN2JZZ08wQ05yaTFLNER1dVYzZEo5UldOVldfQ0lCbGNRWEJZbUg0R3JBaGp6Mm1DTGd2eTYzWE9GV1hvenRGWHhOZXBxMHJMY09GUQ?oc=5",
-      "published": "2026-04-16T07:55:20+00:00",
-      "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
-      }
-    },
-    {
-      "id": "d60d4f4ff5ae",
-      "title": "Gesundheit - Auch SoVD fordert Maßnahmen gegen steigende Arzneimittelpreise - Deutschlandfunk",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNmF3c1ZhS2dyTG9MdkxYcjU4OHB6ZU8yNExEbkpFYVpBZWRfeDFWN3BHOS0wdVNheXF5Tzh0bGoxeTZONGw1R001LVNCWlI0UTNsNHo2cGFjbEw0V3B4dmZIbUVxYnhfb25tRDF6SXhvVUtZN0ZkaVFTZnZMYUg1MEZ2X0YwQ1hvWG54eTNVb09sNXlxUzd3cHVmdWJJbEJiNlI1ZjdB?oc=5",
-      "published": "2026-03-18T07:00:00+00:00",
-      "source": {
-        "name": "Deutschlandfunk",
-        "url": "https://www.deutschlandfunk.de"
-      }
-    },
-    {
-      "id": "9fa13ce5acf5",
-      "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
-      "published": "2026-03-31T07:00:00+00:00",
-      "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
-      }
-    },
-    {
       "id": "075a40db361f",
       "title": "Medikamente auf Reisen: Das darf ins Handgepäck - ADAC",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZmdDVl81RGdjdDZRNXNXSlRFTVhOSVpSQUlwUTlUelB6bnNFcVFRV09lQ2czNTdja0RsNHJVck00Y2hFVHZUM3kyaTRWOVZXWHQ0M182TVJrcGNGcUxtS1pFaU8wczRRRFRycTVmZnFmWE1lQ2g1eVVNekNQd3pSWWFHMnc1anVBY3plbTNB?oc=5",
@@ -214,13 +184,23 @@
       }
     },
     {
-      "id": "fe754c8279f2",
-      "title": "Medikamenteneinnahme: Das ist zu beachten - BARMER",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPckl0VXNEVndBN3FKUlI2RTRFLTlTR1ppNHJlMUNXSkJwLUFhczlsMWUxOGhBUV84eXFnSHhVdFBrU1c2eWcydmNLTzBrOGRrOE9VTW1DYkdvYmJTSml5Vng3RmM4Qy11NzhNZkdYOFhNNFh5SFBKWkRIUl9WZHViaWdUMzNUbGdWU2QtZ09JdldBUDIzLWc?oc=5",
-      "published": "2026-03-02T08:00:00+00:00",
+      "id": "9f7c377ed6d2",
+      "title": "MFN-Modell USA: Wie US-Arzneimittelpolitik Innovationen in Europa ausbremst - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWkw5ZTd1QUxfTlBDNjVEc0paTWpvTFpfTE9lOFM3YnhiWnBBREVhRzlMQnRmWDdkREJzVlg3UnZCN2RsTC1aTkhtN19oX2dEYmVLdXk4MXFBUnVGakk3YzVfbjZVQ0E0MUtPN2JZZ08wQ05yaTFLNER1dVYzZEo5UldOVldfQ0lCbGNRWEJZbUg0R3JBaGp6Mm1DTGd2eTYzWE9GV1hvenRGWHhOZXBxMHJMY09GUQ?oc=5",
+      "published": "2026-04-16T07:55:20+00:00",
       "source": {
-        "name": "BARMER",
-        "url": "https://www.barmer.de"
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "9fa13ce5acf5",
+      "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
+      "published": "2026-03-31T07:00:00+00:00",
+      "source": {
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
       }
     },
     {
@@ -261,16 +241,6 @@
       "source": {
         "name": "tagesschau.de",
         "url": "https://www.tagesschau.de"
-      }
-    },
-    {
-      "id": "702f22299d27",
-      "title": "Zuzahlung bei Medikamenten soll teurer werden – „sehen wir sehr kritisch“ - Stimme",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWGJ2VGJ3OURFTGVyU2xkMHRIN0x4ajVwRWc4bUJ5X3ViVTg5SjdEQlZKamtSNW9HbkJzS05jbENIamk5MzBCRVFxSE5ya3JFOTlZeG1DVTZad1NDbUVNdmxMSHJiMm5DQUd3WHFMcHdQeDJSVUlnQjRoM2ctMGpoTXhpVGVYdmVMbmFrbHlib0IzQjJ5QTNOOUw5dGloMEhDX1dBYWkxZ2RxTnRxOUVMOW1teWIzQ0NfWWRURVdYZEtER3BVZGdnd0lWRQ?oc=5",
-      "published": "2026-04-16T07:00:00+00:00",
-      "source": {
-        "name": "Stimme",
-        "url": "https://www.stimme.de"
       }
     },
     {
@@ -384,6 +354,16 @@
       }
     },
     {
+      "id": "fbb88a5ab152",
+      "title": "Packungsbeilage von Medikamenten: Warum Sie die Packungsbeilage (meistens) nicht lesen sollten - DIE ZEIT",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQay03YWNuOTBzNkk5WGl2ek1KQzJZdnZGLXM0M0xhZ0pHZFhBTFpGOHcwcXVxdXNvRlRxQmlLS0h4b21wMU5Lc0JaQVBfcGF0VmtzRVdMM1VMVUVObFBNRXVKeXJWZXlua0RXVW9iSjFsMmNrMWpTVm41LXRjbVZka1FVMDYxZnByc2p4Z1c4RkxXbjVYTWd2aDNOQjBXQllyM3J1c2ZR?oc=5",
+      "published": "2026-02-21T08:00:00+00:00",
+      "source": {
+        "name": "DIE ZEIT",
+        "url": "https://www.zeit.de"
+      }
+    },
+    {
       "id": "432315fa2251",
       "title": "Erstmals Medikament gegen Fettleber zugelassen - tagesschau.de",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPQnhCQmdtRXhCd0ZKc1FDYzViaTZEblZ5TjJNWDBvZ3ptX2g0OENQemNDUk1sWGh5T1FrOEtvaGtSSDItcXlieVd0cDVfdDF0a2U3clFWSGlvd21wUWtwVzI4UEZIZ1BBUlVJSC16SExXaWFDTlF6YlNjMk96a2pEYnpVRm1rQQ?oc=5",
@@ -391,16 +371,6 @@
       "source": {
         "name": "tagesschau.de",
         "url": "https://www.tagesschau.de"
-      }
-    },
-    {
-      "id": "fad88aff2400",
-      "title": "Arzneimittelausgaben steigen auf Rekordhoch Sieben Prozent der Medikamente verursachen mehr als die Hälfte der Kosten - Tagesspiegel",
-      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNeVh1VDdIZEd5TXZoV2hGdlRCOXNMcFBvMjMyYTRMeTF1TnVaVEg1dXY2SWtZNUhocnFnM2staDhwZnptemFfVGUxbFpIQ3JwNnhCSEREbmEwcmNRNHdSbENtemYwdmJHNVREYWQ2S2VQZVlNNVFGYlJhbGFfeWVySUFiY3lhQXNmZWxUQndTTXFHdGdRVHlQaVN5U1lSWlNLWUo3SDFOcjdyT3d5c0h4c0FMdWxra2hrekpJZDNGeDQ2c3NqVFdTSnJTNHZ3Mm1KeWkzLUZNMHJRTjROVEE5OUNrWW1yaTdLWkJvNG1oQ3dPU0MzTldsZXFNblVlQVE?oc=5",
-      "published": "2025-12-09T08:00:00+00:00",
-      "source": {
-        "name": "Tagesspiegel",
-        "url": "https://www.tagesspiegel.de"
       }
     },
     {
@@ -424,10 +394,10 @@
       }
     },
     {
-      "id": "5e20874b6bf2",
-      "title": "Antidepressiva: Oft sind Medikamente unverzichtbar - SZ.de",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTk5wcjMzVHJ6TTBrUl9pUkM3Q0xWNm1obEx0by00VWtXWEpNNXpMRWtSUkl2NlpjTnZGV09qODJUb3RSR1V3aUR5T0E5X2dfRlhZQjNGaDA0dEwxbjRGVmY4WnFzWWVQOW1PbEJOalU3a1hNUmtlSEh1OWVRaEdJQ2JFbkM4QTdNeXBj?oc=5",
-      "published": "2026-01-05T08:00:00+00:00",
+      "id": "6f776f589828",
+      "title": "Lecanemab: Negative Nutzenbewertung für Alzheimer-Medikament - SZ.de",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNb052NUl6RVRlNXNjWTVWbV81SmZ4dG5rYjduV0NMRzhUaC0wRkNhS0pnMHo0YU1ydkhOSmxYNmNTUUNCb3hRV1Qwd1hpal9qYmFQMzBieEhidVpuNXdLb1hteU81ZnczbEptTGJCektKRGZJTEE2UDhoN2ZLVVRDN2NQUkM2NlgwaEh2SllSdXE0YkRmeEdxbVNsaDA?oc=5",
+      "published": "2025-12-01T08:00:00+00:00",
       "source": {
         "name": "SZ.de",
         "url": "https://www.sueddeutsche.de"
@@ -441,16 +411,6 @@
       "source": {
         "name": "MDR",
         "url": "https://www.mdr.de"
-      }
-    },
-    {
-      "id": "6fe0d49a7eaa",
-      "title": "Gibt es bald ein Medikament gegen Jetlag? - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPNVRHM3pIOWJBOFhBX0MwWjRlNVRWVWU2aTVfRVVRc0VrN1ZmY19XakRmNVhHX1JEd0liZkZtVVBJbG40OTZTUWtMWXFYdzFER1Q5UHBzam9CQjZJZzhzbUQxdkFDY0ZrN1NwYmlQNlMyTV9CUnMwRmZ5bWdTb0ozU1Jn?oc=5",
-      "published": "2026-02-02T08:00:00+00:00",
-      "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
       }
     },
     {
@@ -544,23 +504,13 @@
       }
     },
     {
-      "id": "e52d354a8a34",
-      "title": "US-EU Handelsabkommen getrübt: Trump kündigt neue Arzneimittelzölle an - Euractiv DE",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQY1gtaENlRHd3bGNiWTY0V0x3d0NrQnhsN3BuanJRRzdfWldWRXJfTGdheXBJcHNpOHljMTB3bkV1WHAyNGtNdzJiZ0dreVE0eGJrcFBnVVpWWUtJQ2d6SnRMUUh0U3R3S3VWTFRUeG9YbFNaZm5rczNmRWtxa2dnMEFTOHc5d1FMTkNpYWtVdW9JUGdZVTlpc2pjS0lLOTQ?oc=5",
-      "published": "2025-09-26T07:00:00+00:00",
+      "id": "a82bcf633e21",
+      "title": "Europäische Kommission: EU modernisiert Zulassungsprozesse für Medikamente - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQM2xIaW8xSWxvSkxrazhwNTlGVE5UU2ZQbldESkNhSmpFb2VuX1lKWlJZODdxY1RXakFlampSZnd4SzVtUVBlWGtJM25fV05RR0t5MWh0R3kxSVVpT21lcHJZekd0emQ3SVhqRWJOc1gxNTJwODBVUkRwWk5VR21LSkVHMHRqX0xPNEJzMFhnSHhyenlhbXpGOVdoQW5rNEk?oc=5",
+      "published": "2025-09-23T07:00:00+00:00",
       "source": {
-        "name": "Euractiv DE",
-        "url": "https://euractiv.de"
-      }
-    },
-    {
-      "id": "f40fcf048bf5",
-      "title": "Experten fordern Nachbesserungen an Arzneimittelreform - Deutscher Bundestag",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZUJSUDN2Q0FUQ0c3ZEE0REJpWnFleG5sZXBYQUJBdk9LZjJsc19OOFpkUWtxZkxEMm1MU0hGdF9IWEgzRXZibHYxN2daZHRkUV9ia0l3TkszT01SeVVCV1U1bjNneXFBQWZpR0pVa1ljMEpXdkRfNWtJOGxNaG1uZUwzcEo5VWlIX2tYOFJoWlJCTm8?oc=5",
-      "published": "2023-06-05T12:01:31+00:00",
-      "source": {
-        "name": "Deutscher Bundestag",
-        "url": "https://www.bundestag.de"
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -571,6 +521,16 @@
       "source": {
         "name": "World Health Organization (WHO)",
         "url": "https://www.who.int"
+      }
+    },
+    {
+      "id": "f40fcf048bf5",
+      "title": "Experten fordern Nachbesserungen an Arzneimittelreform - Deutscher Bundestag",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZUJSUDN2Q0FUQ0c3ZEE0REJpWnFleG5sZXBYQUJBdk9LZjJsc19OOFpkUWtxZkxEMm1MU0hGdF9IWEgzRXZibHYxN2daZHRkUV9ia0l3TkszT01SeVVCV1U1bjNneXFBQWZpR0pVa1ljMEpXdkRfNWtJOGxNaG1uZUwzcEo5VWlIX2tYOFJoWlJCTm8?oc=5",
+      "published": "2023-06-05T12:01:31+00:00",
+      "source": {
+        "name": "Deutscher Bundestag",
+        "url": "https://www.bundestag.de"
       }
     },
     {
@@ -724,16 +684,6 @@
       }
     },
     {
-      "id": "41481cdefabb",
-      "title": "Bei welchen Medikamenten mit Engpässen zu rechnen ist - WEB.DE",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPYjEyNTBxUmtRckJVeFhacW9SeWhiYjVaNjRleVBvc0RXcU9RTUlTZlRoZTU0eUo3TFE0djZYRjFSanBXTlhwRHVPUE9MckdxN015SC1iUXI4RXdFRXVULURoeThoUjF1bG8tQTlVZnlBMmx1R2NpNzhmeEF6eUY4TA?oc=5",
-      "published": "2025-09-19T07:00:00+00:00",
-      "source": {
-        "name": "WEB.DE",
-        "url": "https://web.de"
-      }
-    },
-    {
       "id": "9cec1633456c",
       "title": "EU-Gesundheitsminister drängen auf unabhängige Arzneimittelproduktion – News - Deutsches Ärzteblatt",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPZVd0ak5vc1MzMkdFUnN2QWVUWHp1aVl5TVBDdkVTTmFSX1k4LXJlNlVBOXJnenJ3V1NRQzVYQ25Od0I3Z3l1TGlTU1hBdHVtQjdDaXI3VzVKakwxSkNCN3dEMEZBNldDb3ppa3dMNTE3NnNOT1hWcElBanJUSVFZTXNMeFJuVDlROTQzS3RNWHJreFZIdk11cWR0NmxmdlkyVmlLcmRXUEU3d3JadW9XZE5fbFY1M0tLMWxBYXo4d1l5T1BMVTBNbnJ3VEhSWkFKQkpNdQ?oc=5",
@@ -811,6 +761,16 @@
       "source": {
         "name": "World Health Organization (WHO)",
         "url": "https://www.who.int"
+      }
+    },
+    {
+      "id": "ecab1274af9e",
+      "title": "Gesundheitsökonom plädiert für doppelte Zuzahlung - Deutsche Apotheker Zeitung, DAZ",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUnl3OHV6MjBEZ3dfRE8wcW9IeWJNUEQ4U0lOOTJ3cFRqdXpkMVl1Z0hKQUZhZTlaSjZreFpOcFcyYXdfQ2RKTXhuRjlIM2lTYjMzbzduaU1oS1FvdzlCa24wREk1RTBzd0VIelhSdXVYMmJlN0E2SXJfN0I3eEVtanU2eUU2OHlHVnlBblIwNl9JVktTOFA0bmJtN0FiR0xaYnNtN0QxLVdaRzUyaEhTaHJqajRGUHZsRVE?oc=5",
+      "published": "2025-08-22T07:00:00+00:00",
+      "source": {
+        "name": "Deutsche Apotheker Zeitung, DAZ",
+        "url": "https://www.deutsche-apotheker-zeitung.de"
       }
     },
     {
@@ -914,16 +874,6 @@
       }
     },
     {
-      "id": "6d71c1e0c27e",
-      "title": "EU-Behörde lehnt Empfehlung von Alzheimer-Medikament ab - tagesschau.de",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE11WkJiWnZiTmJQd2F1Vnc2eXpPNWhIcGdwbkhLYXc0Zml2VjFHWGdXb09WX01rVk9GYlNpR2pJXzVUcVJkVUFwUjdwUmlNZFZIcWtRR29vS1MydjR2QURvdWRmRThWU0RDT1lLanlMZ2Q2T05tQ0R6LU1PQWladw?oc=5",
-      "published": "2024-07-26T14:35:04+00:00",
-      "source": {
-        "name": "tagesschau.de",
-        "url": "https://www.tagesschau.de"
-      }
-    },
-    {
       "id": "0d988c81e779",
       "title": "Webinar Gesundheitswirtschaft in Angola | Event | Angola | Arzneimittel, Diagnostika - Germany Trade & Invest (GTAI)",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9EZ19UTzZUV3U3cFVMXzZ2cDZCX1ZzNjVIeThlT0hIWmFXOG0tc0YwQUoxOENDVkNSTllTaVhSRnBKU25iT2J5aG9Qb1UzS1RLaFBSOWFrdFRFc1VzVk1scnJOeW4yc195NkkzZnJLSFcwRnVXZkpwN0Zn?oc=5",
@@ -934,13 +884,13 @@
       }
     },
     {
-      "id": "49dab382e5c3",
-      "title": "Gesundheit: Lauterbach plant Arzneimittel ohne Apotheker vor Ort - Handelsblatt",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQWxPaFhLaGt1QmRaOHAwVHpBRm8yaU9jZkZ1UmwtNmkzeS1kWGFBeVhNUC1iSks0UDFjYlhyS0U5V1lkTXRhbEZsWlcyZXVTeEhmR1dsZ0xQcDlkWTRCcTJzN1NYSDNOUFRBaFJoTVNLc3dPMFAwX0JXRWt6c3Z6dXltZ3RLS1Jnb05QOW1tdUIzUmdnWGdfcDdMdWhJZnRBWmNUdXlHQ0FTQnpydE80eHAwUjRKazZ1WHVnYVc1SlBEc2c0Q1E?oc=5",
-      "published": "2024-07-02T07:00:00+00:00",
+      "id": "6d71c1e0c27e",
+      "title": "EU-Behörde lehnt Empfehlung von Alzheimer-Medikament ab - tagesschau.de",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE11WkJiWnZiTmJQd2F1Vnc2eXpPNWhIcGdwbkhLYXc0Zml2VjFHWGdXb09WX01rVk9GYlNpR2pJXzVUcVJkVUFwUjdwUmlNZFZIcWtRR29vS1MydjR2QURvdWRmRThWU0RDT1lLanlMZ2Q2T05tQ0R6LU1PQWladw?oc=5",
+      "published": "2024-07-26T14:35:04+00:00",
       "source": {
-        "name": "Handelsblatt",
-        "url": "https://www.handelsblatt.com"
+        "name": "tagesschau.de",
+        "url": "https://www.tagesschau.de"
       }
     },
     {
@@ -951,6 +901,16 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "49dab382e5c3",
+      "title": "Gesundheit: Lauterbach plant Arzneimittel ohne Apotheker vor Ort - Handelsblatt",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQWxPaFhLaGt1QmRaOHAwVHpBRm8yaU9jZkZ1UmwtNmkzeS1kWGFBeVhNUC1iSks0UDFjYlhyS0U5V1lkTXRhbEZsWlcyZXVTeEhmR1dsZ0xQcDlkWTRCcTJzN1NYSDNOUFRBaFJoTVNLc3dPMFAwX0JXRWt6c3Z6dXltZ3RLS1Jnb05QOW1tdUIzUmdnWGdfcDdMdWhJZnRBWmNUdXlHQ0FTQnpydE80eHAwUjRKazZ1WHVnYVc1SlBEc2c0Q1E?oc=5",
+      "published": "2024-07-02T07:00:00+00:00",
+      "source": {
+        "name": "Handelsblatt",
+        "url": "https://www.handelsblatt.com"
       }
     },
     {
@@ -984,16 +944,6 @@
       }
     },
     {
-      "id": "af3d1e140e59",
-      "title": "Marktzugangsmonitoring - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTTVFWm55SWZJU29hXzVsZVpoV3dLbUN4eEQxakU1RkJyZ0JlblRERGdtM0JwN1VEUlo5eV9ZQXRWNEtqQ3ZtZUIzeVAzUFZlVVItcHZUM2NxRzlhaktXalBUOHpDZjBXZ1BSbG9Rb2UyalFMT1BPQWo2X0NEOG9LWG9FWEpjT19IU3FKenBuOXdydWt3?oc=5",
-      "published": "2024-04-09T07:00:00+00:00",
-      "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
-      }
-    },
-    {
       "id": "7609fd990b6d",
       "title": "Arzneimittelfälschungen aufdecken mit dem Minilab - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPdVc1d1RaOEZLMkJxU3hCbDladmFsYjFjWUN1MFIyX2ZVcTNjOGtVT2FBNTNhYjBoajlnc2ZaRGJaZnBBRklqdGhLYXpzVUl4ZTJ0NnVzV1BOcVl3TWhRTW51Qk9hel9aRjhrU0ltbW9DOTc0c3pkRFlyeFRfVEtXQ1JGWlQwNEFXaVFUQjExa0NVSWhXLTJVV3YxYTZsZVJVUExtTjNGeHFGZWZrMGQxdlRHd0I0RHE5V2IwTldMLXBLT0t3MEE?oc=5",
@@ -1001,6 +951,56 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "f24df8949146",
+      "title": "EU-Kommission lässt Arzneimittel gegen Alzheimer zu - Gesundheit - SZ.de - SZ.de",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBhcTZZOEpfWjNQNUozZTNyaEM3VHFPX3R1bDVCTTkxQ2kweEY2d0poZThIbFVXalBGYVh0MzNjS0U2U3c5UFlWeHRPa1NFeWxBZVl3SWVUWTVMbWlTOFlHdmJsdWM2ZDYxUEZGS0lCNktEZlMzNW5PRDkxWQ?oc=5",
+      "published": "2025-04-15T07:00:00+00:00",
+      "source": {
+        "name": "SZ.de",
+        "url": "https://www.sueddeutsche.de"
+      }
+    },
+    {
+      "id": "81e5e38e1b6e",
+      "title": "Orphan Drugs: Bedeutung und derzeitiger Status - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQOUk1Zll0b1RxVE5yZEJabTVLOFpncEczU0NXeEcxM3lGc2NuSG1yT3VhVFNvMlp4eDlIM2I2SVRZYlh4VUVMM3ctQmJzdzNDNFMzTnhnQ1lST2dDRE9lbDNqcTBIeXBVemFuMDRUb0ZzN19ORkVOOTd0QVRPT2xrdWhrZ2M3dw?oc=5",
+      "published": "2025-05-19T07:00:00+00:00",
+      "source": {
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "506e5339aae2",
+      "title": "Klimakrise als Gesundheitsrisiko: Bei diesen Medikamenten drohen gefährliche Nebenwirkungen durch Hitze - Spiegel",
+      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPTzVQQ1pya2RVTzRsSHpESEhzN1dkYVdzZmRaOE1OQUxyQ1Jmenc5NWl6NjV4MTBkWmlNbUs2X0Nldjh4RHROVWpaSGc4M3k2RVhOTUNraTE2ck9tNDZmMHFmbXFzOVpSemtyYmd3UlVhalZHaE5WZXF0Vjl5RFBjMzc5cmhtR1BLMkd0ZlFfU0FVdWpYQ0wtVHZFWWk0VkFPYkh4ZHpSdFVuZU5VN1NhWUdsdXpoWjB3LUNVd0pmQ2NWMGNJT20tcFlOeWJaeU05d2xnczA5aHBUWXV4ekUxY0tFT1hid1h1bFVvVkNPcnhxZFA2V294Tw?oc=5",
+      "published": "2023-09-06T07:00:00+00:00",
+      "source": {
+        "name": "Spiegel",
+        "url": "https://www.spiegel.de"
+      }
+    },
+    {
+      "id": "2f7e4564cb12",
+      "title": "Gesundheit: Apotheker warnen vor Medikamentenmangel in der Erkältungssaison - DIE ZEIT",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMkcwTzBhbEs3YzVGUEhuMEZVdmZIQTVBV3ozand0aTNhNkpsazlJaGR2Q1VnMHhiWUd2ZEJKWjY0RjFYYnZsTzhmR2UxNVdQVnc3UXpOSUExNlRtZmVPZDBneHVILW1vVlVTS0ZTaFotNUFEMzREZmowYXJ3S0VzMWVZc0pPb3ByQ3ZWRXFpU0RmOEQ3b3dlV2Z3?oc=5",
+      "published": "2024-09-20T07:00:00+00:00",
+      "source": {
+        "name": "DIE ZEIT",
+        "url": "https://www.zeit.de"
+      }
+    },
+    {
+      "id": "ac5c90e84889",
+      "title": "Wem Gepante-Medikamente bei Migräne helfen können - tagesschau.de",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9pRlh5dWttZmx4UWVPYUNkblYwQmY3UlJORXllaF8xQmJfZnpSN1lPRTlyUkpUWE81YlRMelA4WXVjVE91MlAyOEp4TDJOb1QwYVROV1pPY0tWOTBPelZvaG9hakpKOVlwRHBmZDhOYlZaWEVyZ1U0bnZtZ1o?oc=5",
+      "published": "2025-01-05T08:00:00+00:00",
+      "source": {
+        "name": "tagesschau.de",
+        "url": "https://www.tagesschau.de"
       }
     }
   ]
