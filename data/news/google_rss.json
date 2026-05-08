@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T05:58:47.523935+00:00",
+  "fetched_at": "2026-05-08T07:52:43.654891+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -11,6 +11,16 @@
       "source": {
         "name": "Taylor Wessing",
         "url": "https://www.taylorwessing.com"
+      }
+    },
+    {
+      "id": "e8dc0daf81f8",
+      "title": "Long Covid besser behandeln: Der lange Weg zur kurzen Liste - taz.de",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5iRkZnZ1ROcHNIV3M0NWZ3NXNqNEhKRlN1MTdUXzNnTVgtbVh5elR1SktBbUUyYkJoVFA2Zk9sc2xaLWtmSnB5SU5aZ3JoTTNoRFVfSER1YXN3SENoeVJ6Y2V3?oc=5",
+      "published": "2026-05-08T07:37:28+00:00",
+      "source": {
+        "name": "taz.de",
+        "url": "https://taz.de"
       }
     },
     {
@@ -64,16 +74,6 @@
       }
     },
     {
-      "id": "51e8c4b74840",
-      "title": "Gesundheitsgefahr durch gefälschte Arzneimittel - Gesundheit.gv.at",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYlhNa1drQ3UydVU1Ti1QZWxOelZ2UDNkQTBsczZ4SzVIZGhQS3psTVQ5Zmw2Ujh2RGpDYzZ5TDdIbG5mYkFjRl9CX3JkS0FHQ2dlSGVZMlpRTmpva0xOX3hoTWhTM3VoZlB6bjJYbjRRcGp2NERXZmhoaEtyeGJhUDlSU0k0cURLRzNIc1FR?oc=5",
-      "published": "2026-03-09T07:00:00+00:00",
-      "source": {
-        "name": "Gesundheit.gv.at",
-        "url": "https://www.gesundheit.gv.at"
-      }
-    },
-    {
       "id": "5a604bdf4632",
       "title": "Petition gegen Erstattungs-Aus: »Medizinisches Cannabis ist Apothekenarbeit« - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUE5LcG1xemdjbGVpRlhiYTVDRXdlTFF4a0x0ZDVORFpXTWZhRDE5VEdjc081M1lJRU9kRU9hZWFzY3dxa19nNmZxbUpLZkQycFFuVVNjMWctQWdMYnZOb1hsREZhLUdYb2hvZGVaS2MxT19aOHhkamNra3FodFdzYm9JVkJmQjRDa2lfVlpHOERhakU?oc=5",
@@ -84,13 +84,13 @@
       }
     },
     {
-      "id": "8ef03f8330e6",
-      "title": "Notdienst heute in Hamm: Kontakte für Apotheken-Notdienst am 08.05.2026 - News.de",
-      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNbjgtODI3LXNRWnl0c2FxSjloZjVTVHdObldaa2psaUxSNHhjVm1RVkpJdVRqRmluZ2pPRXNHdHhqTmZIS2laUWlnQjFqaTdTOFQxSWUyZWJTcldIUUV3RVFVQWhQRUlyNGN5LVVZTmJZaWZjVnFONXJXUUpzSkJxTUpxOW14aEw3TWJkb0F0UUtmV3NDOXlLMHdvcXp1TzY3OVdwRGtZQnp0MnJtc2dnUFBReVJqMzhiemlUbkVuZU5YcVlKLVB6YTFwX2EteFJGVEt6Vm1ySVF6SGwxSnd4VjVVQTZTX1U2NWppb2FR0gHzAUFVX3lxTE0zallhcXktNWt4cGt6VkVySGhqajFRcklhNkVWQWp2dWJkdDhmbm03QnhYajRPU2prbjBGZUJYSHdMYXVxOVZDMGxTd25xOUU4S2FRSkxFUVJuWWpQd3Q5VDR1ZmZNMENweEdlNUhWcWMxYWxudGxSV2lCQVh1M1Fjck9FVE5mT016WEdnM054Vng3ZU91cDVNS1FtcUNSTXZaM1lOTk5ZUVIwcmZLQnVpemk0WjBIUjhfUWpSMlQwb2U0NzlRTld5enhpVHVkWmFjUEd4TmI3eFJEdEZQdVZQZ3dJdG1yNkV2X0tqVzlDOWtnUQ?oc=5",
-      "published": "2026-05-08T02:27:00+00:00",
+      "id": "51e8c4b74840",
+      "title": "Gesundheitsgefahr durch gefälschte Arzneimittel - Gesundheit.gv.at",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYlhNa1drQ3UydVU1Ti1QZWxOelZ2UDNkQTBsczZ4SzVIZGhQS3psTVQ5Zmw2Ujh2RGpDYzZ5TDdIbG5mYkFjRl9CX3JkS0FHQ2dlSGVZMlpRTmpva0xOX3hoTWhTM3VoZlB6bjJYbjRRcGp2NERXZmhoaEtyeGJhUDlSU0k0cURLRzNIc1FR?oc=5",
+      "published": "2026-03-09T07:00:00+00:00",
       "source": {
-        "name": "News.de",
-        "url": "https://www.news.de"
+        "name": "Gesundheit.gv.at",
+        "url": "https://www.gesundheit.gv.at"
       }
     },
     {
@@ -244,16 +244,6 @@
       }
     },
     {
-      "id": "9092d9c10e26",
-      "title": "Iran: Drogerie statt Pharmazie, Apotheker gekündigt - apotheke adhoc",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQLVlhNXN1Z3pHcVR2ZWdzNGxzc09KeTBKdC0tY0RXQ1F1X1JUNjkwYTFGQ04xSEM3MVRPT1VGYXdXa2taNUZQQm1CMlZ5ZlM3WktoeWpoRzM1eVNVSGJOcjB4YmM0SHRHOGd6VmFlQ3FOc3BtZDZabWRtM050UmRyNnZOM2tnQTdUNDN1NHY5eUtQNVFzMmxpbTZRZ0U?oc=5",
-      "published": "2026-05-07T07:00:00+00:00",
-      "source": {
-        "name": "apotheke adhoc",
-        "url": "https://www.apotheke-adhoc.de"
-      }
-    },
-    {
       "id": "3843ee8c2190",
       "title": "Gesundheit - Beipackzettel von Medikamenten sollen digital werden - Ausdrucke in Apotheken sollen Option sein - Deutschlandfunk",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOclZxcXdzdDlfTXNBVkNkV1g0a1RMa05OWGcyX0RXaW5YMmpyUElhUnBJQU9QM3BzUG9iSFZnaWE0ek1iLTFQeE1wbkVhaDdrT3pVMERnT3l3VGhoOUtuS0EtT3pwazNMMGZmcmI1Z2puUHg1WWc5MzBXdHJma0l0dWNlNEhQdFdBUXF5X0V3OVRQWVA1RXFJNXJtbTVGMjNYQVlSWjNrdEttY0pQMXF0dWlwdGNUVWpFcF83a3RyX0oxSWpLaFVmc2NoVEhGNXc?oc=5",
@@ -261,6 +251,16 @@
       "source": {
         "name": "Deutschlandfunk",
         "url": "https://www.deutschlandfunk.de"
+      }
+    },
+    {
+      "id": "9092d9c10e26",
+      "title": "Iran: Drogerie statt Pharmazie, Apotheker gekündigt - apotheke adhoc",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQLVlhNXN1Z3pHcVR2ZWdzNGxzc09KeTBKdC0tY0RXQ1F1X1JUNjkwYTFGQ04xSEM3MVRPT1VGYXdXa2taNUZQQm1CMlZ5ZlM3WktoeWpoRzM1eVNVSGJOcjB4YmM0SHRHOGd6VmFlQ3FOc3BtZDZabWRtM050UmRyNnZOM2tnQTdUNDN1NHY5eUtQNVFzMmxpbTZRZ0U?oc=5",
+      "published": "2026-05-07T07:00:00+00:00",
+      "source": {
+        "name": "apotheke adhoc",
+        "url": "https://www.apotheke-adhoc.de"
       }
     },
     {
@@ -281,16 +281,6 @@
       "source": {
         "name": "Spiegel",
         "url": "https://www.spiegel.de"
-      }
-    },
-    {
-      "id": "be652f5ee822",
-      "title": "Notdienst heute im Landkreis Ludwigsburg: Kontakte für Apotheken-Notdienst am 08.05.2026 - News.de",
-      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPdVNhQkx0WjFXVi1lZVlSdHZMMHgxcUVwN19GMVZPR25PQlBuS3dKSVVYd3AtZktMX3NiZ2Y4b293aFU2cU1HOThzb3gzMENramRmSnFRaHBsODhRSkVpTklCYWozdUN5dzZlNHZ2S2xQbUZmc2xhX1NaRTVLVU5yai0yVURQODZrT3BQZkF6WElZMEJ4ejA2eGNhNTNxWHRCSmtFZWQ3RzM3YzZuLURkSFREbVR4V0tKSXVFZHhxQ0o2MXNid1lzRTFhOElSQXMtU0F4V3Q2cFQtc1pUbnZPWHFRYVB3dGFka1NJZmZ6NzVvZVVlempOaDJVa1hCcGVzUWpEUtIBigJBVV95cUxOLWhFNEttR3JRWWxqS3ZGVUJqWUdtTVpyOGg2UG9MV2piS25fRUNYYkxjeldRM3MyaUp0d1FpSndKU21nVTl2RHVvVUc1aE1Ia0xCNFlKUDZFYkVmbjd4Y2t2RUJPWHhGRDBkbjlWVHBrRmtzaVJRYnEwaHBwRFZ5UkZ6bW03REhveDB3aW5YUTZCQ2g0ZlF6Si1KWTdZLS1mLThXSjFNNS1YV1l3ZWhfSHJyS2hfcFFHblQyZDU2YllxSXBBazNsd0pHZ2VEUGdFaExkQmc1SEs2NHhqRXg0SFFnV1M2aEZCaWg3TTl3c0ZDRFJNR01nMXhMSVJFZjFzRGI1NnZ0S3F2dw?oc=5",
-      "published": "2026-05-08T02:39:43+00:00",
-      "source": {
-        "name": "News.de",
-        "url": "https://www.news.de"
       }
     },
     {
@@ -374,6 +364,16 @@
       }
     },
     {
+      "id": "be652f5ee822",
+      "title": "Notdienst heute im Landkreis Ludwigsburg: Kontakte für Apotheken-Notdienst am 08.05.2026 - News.de",
+      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPdVNhQkx0WjFXVi1lZVlSdHZMMHgxcUVwN19GMVZPR25PQlBuS3dKSVVYd3AtZktMX3NiZ2Y4b293aFU2cU1HOThzb3gzMENramRmSnFRaHBsODhRSkVpTklCYWozdUN5dzZlNHZ2S2xQbUZmc2xhX1NaRTVLVU5yai0yVURQODZrT3BQZkF6WElZMEJ4ejA2eGNhNTNxWHRCSmtFZWQ3RzM3YzZuLURkSFREbVR4V0tKSXVFZHhxQ0o2MXNid1lzRTFhOElSQXMtU0F4V3Q2cFQtc1pUbnZPWHFRYVB3dGFka1NJZmZ6NzVvZVVlempOaDJVa1hCcGVzUWpEUtIBigJBVV95cUxOLWhFNEttR3JRWWxqS3ZGVUJqWUdtTVpyOGg2UG9MV2piS25fRUNYYkxjeldRM3MyaUp0d1FpSndKU21nVTl2RHVvVUc1aE1Ia0xCNFlKUDZFYkVmbjd4Y2t2RUJPWHhGRDBkbjlWVHBrRmtzaVJRYnEwaHBwRFZ5UkZ6bW03REhveDB3aW5YUTZCQ2g0ZlF6Si1KWTdZLS1mLThXSjFNNS1YV1l3ZWhfSHJyS2hfcFFHblQyZDU2YllxSXBBazNsd0pHZ2VEUGdFaExkQmc1SEs2NHhqRXg0SFFnV1M2aEZCaWg3TTl3c0ZDRFJNR01nMXhMSVJFZjFzRGI1NnZ0S3F2dw?oc=5",
+      "published": "2026-05-08T02:39:43+00:00",
+      "source": {
+        "name": "News.de",
+        "url": "https://www.news.de"
+      }
+    },
+    {
       "id": "8f7a16a55972",
       "title": "Arzneimittelpreise: Medikamente in Deutschland günstiger als USA trotz Trump-Deals - SZ.de",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdnBJZGx2V2VkNEJfQy1NTDk2NFJXOE5MY3k2VE1yNmxuZzNiWWNlalNjN0MzTjJzSUwxTDRPRTlJai1XeXVUODNhaGlrRXJhaVpJdVQ0eV9mNHc1QWZkaXhtUTVfdjZNWEU2eWptcVk1WkNUZHJNRUpNQzM2TXduRFpPS0tTbjhtajdRWmtMbTM2N1owQ1I1Y2g1MmJiUzNpdnc?oc=5",
@@ -411,6 +411,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "8ef03f8330e6",
+      "title": "Notdienst heute in Hamm: Kontakte für Apotheken-Notdienst am 08.05.2026 - News.de",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNbjgtODI3LXNRWnl0c2FxSjloZjVTVHdObldaa2psaUxSNHhjVm1RVkpJdVRqRmluZ2pPRXNHdHhqTmZIS2laUWlnQjFqaTdTOFQxSWUyZWJTcldIUUV3RVFVQWhQRUlyNGN5LVVZTmJZaWZjVnFONXJXUUpzSkJxTUpxOW14aEw3TWJkb0F0UUtmV3NDOXlLMHdvcXp1TzY3OVdwRGtZQnp0MnJtc2dnUFBReVJqMzhiemlUbkVuZU5YcVlKLVB6YTFwX2EteFJGVEt6Vm1ySVF6SGwxSnd4VjVVQTZTX1U2NWppb2FR0gHzAUFVX3lxTE0zallhcXktNWt4cGt6VkVySGhqajFRcklhNkVWQWp2dWJkdDhmbm03QnhYajRPU2prbjBGZUJYSHdMYXVxOVZDMGxTd25xOUU4S2FRSkxFUVJuWWpQd3Q5VDR1ZmZNMENweEdlNUhWcWMxYWxudGxSV2lCQVh1M1Fjck9FVE5mT016WEdnM054Vng3ZU91cDVNS1FtcUNSTXZaM1lOTk5ZUVIwcmZLQnVpemk0WjBIUjhfUWpSMlQwb2U0NzlRTld5enhpVHVkWmFjUEd4TmI3eFJEdEZQdVZQZ3dJdG1yNkV2X0tqVzlDOWtnUQ?oc=5",
+      "published": "2026-05-08T02:27:00+00:00",
+      "source": {
+        "name": "News.de",
+        "url": "https://www.news.de"
       }
     },
     {
@@ -944,16 +954,6 @@
       }
     },
     {
-      "id": "f2d1bf3e36f1",
-      "title": "Darum ist der Medikamentenmangel so schwer zu lösen - quarks.de",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQU0tLSmtjWGNpazVzOXJNcGIxRVM3SWNpYkZYNnRsV3Z3RllCRmRIYks3UmZVUEZKUC13ZWFiMlF4UzhITEV5TWRVcVZLUHhBTWt5UFVVQ0dBYjVndnRSNThZb0YwelMyWUFXQ01aOG1FNnliZ0tCVDZGX2tuVnV4aHd1ZVFxeWV1aXg0SlcxZWdXMGlWV1ZzaERmTkJMblg1ckJv?oc=5",
-      "published": "2023-10-30T07:00:00+00:00",
-      "source": {
-        "name": "quarks.de",
-        "url": "https://www.quarks.de"
-      }
-    },
-    {
       "id": "0d988c81e779",
       "title": "Webinar Gesundheitswirtschaft in Angola | Event | Angola | Arzneimittel, Diagnostika - Germany Trade & Invest (GTAI)",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9EZ19UTzZUV3U3cFVMXzZ2cDZCX1ZzNjVIeThlT0hIWmFXOG0tc0YwQUoxOENDVkNSTllTaVhSRnBKU25iT2J5aG9Qb1UzS1RLaFBSOWFrdFRFc1VzVk1scnJOeW4yc195NkkzZnJLSFcwRnVXZkpwN0Zn?oc=5",
@@ -961,6 +961,16 @@
       "source": {
         "name": "Germany Trade & Invest (GTAI)",
         "url": "https://www.gtai.de"
+      }
+    },
+    {
+      "id": "f2d1bf3e36f1",
+      "title": "Darum ist der Medikamentenmangel so schwer zu lösen - quarks.de",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQU0tLSmtjWGNpazVzOXJNcGIxRVM3SWNpYkZYNnRsV3Z3RllCRmRIYks3UmZVUEZKUC13ZWFiMlF4UzhITEV5TWRVcVZLUHhBTWt5UFVVQ0dBYjVndnRSNThZb0YwelMyWUFXQ01aOG1FNnliZ0tCVDZGX2tuVnV4aHd1ZVFxeWV1aXg0SlcxZWdXMGlWV1ZzaERmTkJMblg1ckJv?oc=5",
+      "published": "2023-10-30T07:00:00+00:00",
+      "source": {
+        "name": "quarks.de",
+        "url": "https://www.quarks.de"
       }
     },
     {
@@ -991,16 +1001,6 @@
       "source": {
         "name": "SZ.de",
         "url": "https://www.sueddeutsche.de"
-      }
-    },
-    {
-      "id": "2f7e4564cb12",
-      "title": "Gesundheit: Apotheker warnen vor Medikamentenmangel in der Erkältungssaison - DIE ZEIT",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMkcwTzBhbEs3YzVGUEhuMEZVdmZIQTVBV3ozand0aTNhNkpsazlJaGR2Q1VnMHhiWUd2ZEJKWjY0RjFYYnZsTzhmR2UxNVdQVnc3UXpOSUExNlRtZmVPZDBneHVILW1vVlVTS0ZTaFotNUFEMzREZmowYXJ3S0VzMWVZc0pPb3ByQ3ZWRXFpU0RmOEQ3b3dlV2Z3?oc=5",
-      "published": "2024-09-20T07:00:00+00:00",
-      "source": {
-        "name": "DIE ZEIT",
-        "url": "https://www.zeit.de"
       }
     }
   ]
