@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-10T22:51:17.938594+00:00",
+  "fetched_at": "2026-05-10T23:54:11.843363+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -434,16 +434,6 @@
       }
     },
     {
-      "id": "52bf2293b7ff",
-      "title": "Iran: Drogerie statt Pharmazie, Apotheker gekündigt - Apotheke Adhoc",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQLVlhNXN1Z3pHcVR2ZWdzNGxzc09KeTBKdC0tY0RXQ1F1X1JUNjkwYTFGQ04xSEM3MVRPT1VGYXdXa2taNUZQQm1CMlZ5ZlM3WktoeWpoRzM1eVNVSGJOcjB4YmM0SHRHOGd6VmFlQ3FOc3BtZDZabWRtM050UmRyNnZOM2tnQTdUNDN1NHY5eUtQNVFzMmxpbTZRZ0U?oc=5",
-      "published": "2026-05-07T07:00:00+00:00",
-      "source": {
-        "name": "Apotheke Adhoc",
-        "url": "https://www.apotheke-adhoc.de"
-      }
-    },
-    {
       "id": "0b65423b3489",
       "title": "Alzheimer-Medikament: Neue Studie dämpft Hoffnung auf monoklonale Antikörper - Spiegel",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQLXZERnNGSVpHVHBPV29iTS0xZUV6NjVaNWRwUlZRNUR3NTU0VTc3aHRQbEhpSGxEUUI1RS1YUnN4bEZHWThDSmpfUkttb3A0NGNsSEpzLWlsSk5PMl8yTFFZc3FHSmVNb1B4OWVzT0hCSTVpbnRoTTZtRjhyTU5FLTFaeXpRbzJ3N0J4bEJKUXc0MTZpeDlHQWUxOV9aN2NWNnExVmx4STRSeTJSSXUya1V3S3QzWmtLd05MOEZYbm50QXc5bWFqbzZfbVpYSl9sTkpRYktn?oc=5",
@@ -451,6 +441,16 @@
       "source": {
         "name": "Spiegel",
         "url": "https://www.spiegel.de"
+      }
+    },
+    {
+      "id": "52bf2293b7ff",
+      "title": "Iran: Drogerie statt Pharmazie, Apotheker gekündigt - Apotheke Adhoc",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQLVlhNXN1Z3pHcVR2ZWdzNGxzc09KeTBKdC0tY0RXQ1F1X1JUNjkwYTFGQ04xSEM3MVRPT1VGYXdXa2taNUZQQm1CMlZ5ZlM3WktoeWpoRzM1eVNVSGJOcjB4YmM0SHRHOGd6VmFlQ3FOc3BtZDZabWRtM050UmRyNnZOM2tnQTdUNDN1NHY5eUtQNVFzMmxpbTZRZ0U?oc=5",
+      "published": "2026-05-07T07:00:00+00:00",
+      "source": {
+        "name": "Apotheke Adhoc",
+        "url": "https://www.apotheke-adhoc.de"
       }
     },
     {
@@ -734,16 +734,6 @@
       }
     },
     {
-      "id": "d9ad6417cd80",
-      "title": "AMNOG-Report 2025: Arzneimittelausgaben steigen trotz aller Maßnahmen - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWWtSYlcwVm1LRC1SVjQzZURHTXVrYWJmN1Z3RHppaGk2b1psTEUyYlQtcmMtWTBaSDNmbDZ5T1RXTHROLTF5eVRxVHBpNlhLRThXY1dqNWdJanRDMDlmQUpSSFlfejhlRFNoZXMtMC1YWkVJV3poVjIxUUszeGdrSUpMNXZ4a0FFejFtcDEyUnRYUE9UYnU3bEl0Sk9yejg?oc=5",
-      "published": "2025-05-13T07:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "62d3f46a88a8",
       "title": "Maßnahmen der EU zur Verbesserung der öffentlichen Gesundheit - European Parliament",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVzhCNzVfWlJpeVRpVnRlZDB1VDB6WVBfYzJsbk1qSVVTMEo0OWVjWEhFQTdyWHV4Ym1GemQtUHBkU3ZxVmI1R0lPVzE3SVN0Qzd2OW5JSVRKUjkyX3dadEVIb2pGdzRxOU01QVRQMXEzaTJ3VjVPTTN3MmN4TVdlUlZKTTdUZGM1R3hwT19HWVRKckhyeWVKYmxYSjJMSWZSZVhWSWc5dnBXcjBQdlk2TG5WcV9hOGpXX29fWm1tdTFVcmJPU1Jr?oc=5",
@@ -751,6 +741,16 @@
       "source": {
         "name": "European Parliament",
         "url": "https://www.europarl.europa.eu"
+      }
+    },
+    {
+      "id": "d9ad6417cd80",
+      "title": "AMNOG-Report 2025: Arzneimittelausgaben steigen trotz aller Maßnahmen - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWWtSYlcwVm1LRC1SVjQzZURHTXVrYWJmN1Z3RHppaGk2b1psTEUyYlQtcmMtWTBaSDNmbDZ5T1RXTHROLTF5eVRxVHBpNlhLRThXY1dqNWdJanRDMDlmQUpSSFlfejhlRFNoZXMtMC1YWkVJV3poVjIxUUszeGdrSUpMNXZ4a0FFejFtcDEyUnRYUE9UYnU3bEl0Sk9yejg?oc=5",
+      "published": "2025-05-13T07:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
