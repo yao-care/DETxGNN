@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-15T12:55:03.853384+00:00",
+  "fetched_at": "2026-05-15T15:16:58.799138+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -34,13 +34,13 @@
       }
     },
     {
-      "id": "11924ae99546",
-      "title": "Pharma Deutschland und die Dental-Industrie fordern Korrektur bei PFAS-Regeln zum Schutz der Patientenversorgung - Presseportal",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5XNi1fQUVJSEdjd2Zlel8yTi14MUJPNjNhVG56MzB3WnU1S1hHMkk1Vko0bWdvZG9RdGpHaGZQTlhyOWdsV0tvQWpDSUNzQUl6MEFOa2lRZw?oc=5",
-      "published": "2026-05-15T08:00:12+00:00",
+      "id": "b13c8155e55d",
+      "title": "Kinder mit starkem Übergewicht: Neue Leitlinie empfiehlt Einsatz moderner Medikamente - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcWR0VTNuakdTNGtzUGhhb3NyTl9hdXRYb0FCVTE0Y2FqWDlIY1BiT3d3eklHc2tqaDc5dXBDVHhzUUdqUGRrSkliS2xEM1JqdlRPMnlJQmF2czFpVTVFbEVnaTBhQTZScUN4MU1rT1Vkc1EyRGN2UlNTenBLSFhGNC16NXJ6eko2b0lMR3JpTzB5b1MtbDJ1R3Y1cGdJRVlId2dQanB2RlgtM1MtbjFDRkM0TEwwUnRhZVFSMzVn?oc=5",
+      "published": "2026-05-15T09:21:54+00:00",
       "source": {
-        "name": "Presseportal",
-        "url": "https://www.presseportal.de"
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
       }
     },
     {
@@ -51,6 +51,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "11924ae99546",
+      "title": "Pharma Deutschland und die Dental-Industrie fordern Korrektur bei PFAS-Regeln zum Schutz der Patientenversorgung - Presseportal",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5XNi1fQUVJSEdjd2Zlel8yTi14MUJPNjNhVG56MzB3WnU1S1hHMkk1Vko0bWdvZG9RdGpHaGZQTlhyOWdsV0tvQWpDSUNzQUl6MEFOa2lRZw?oc=5",
+      "published": "2026-05-15T08:00:12+00:00",
+      "source": {
+        "name": "Presseportal",
+        "url": "https://www.presseportal.de"
       }
     },
     {
@@ -154,16 +164,6 @@
       }
     },
     {
-      "id": "c5f6cfe9b696",
-      "title": "Gesundheitsreform: Kein Sparpaket für Patienten - Neue Gladbecker Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTkdDc09idEFheUFsSGxfT21nSUdUZ003LXlDYU5SY05vaVBVZlJyX1dvQnlsV1M4SkxjRmRfcy1VeGZvTFFiZ2gtUUlzcVFEMFBwcDhsb0tyeHcyOUxVNllQeHdnQVhhd2k5RmdjQTJFTVJKa0M2Vy04TTE2MmZuMndlVFZCemFZSUdz?oc=5",
-      "published": "2026-05-13T07:35:23+00:00",
-      "source": {
-        "name": "Neue Gladbecker Zeitung",
-        "url": "https://neue-gladbecker-zeitung.de"
-      }
-    },
-    {
       "id": "37a30516db7c",
       "title": "Gesundheit: So will die EU Engpässe bei Fiebersaft & Co. verhindern - STERN.de",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRG1KeGtSWjZEOFNES1dsNWVYTWFKbnc3eHdJYTZKY1EyODE1M3c3aUNtbTkzNHcwal92ZkRKZHAwclpHTi1uZnVTN2t4S0lQTGxqRHV3SWhzRUtkTDBuSlFsX3FEbVRDdmhMSUxqZG1UMEcza1FuZjY4c08zNVk2TE9MNHh3QmlMMEs4N2s0RzFUNk13dkc4ZXNjMUxnZ1NXdVBWcGFLTG5Wbl9lcHAyMFppVXYzQktpQjRj?oc=5",
@@ -197,20 +197,20 @@
       "id": "1bb0c7e4fde8",
       "title": "Rezept einlösen zwischen Brot und Butter: Supermarkt-Riese startet Pilotprojekt - T-Online",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTlNEeTN4bVFTbTlLZlRINHFLeFYxQXcyV2d3ZVlaT0YtMEw5WUc5QWpSMTB1Wk9vdURCMW9ENnpIc3QtV1JSUWNrbDBORjF3Q3VvMElScjZ1OFZpMUlnRlBsdE14RGxiN2pINGU3VURnUEVmSExxVXVCLXpFNW5IQTVhNTJKMlFZRkNSeE5MY09PN0RMOW5odDVvMzdJOERoTE9MSG9hSHJLUk9rQkpkLUZabFR5V0hvbC13dGhRRFJDWW1wMXhLVQ?oc=5",
-      "published": "2026-05-13T06:07:24+00:00",
+      "published": "2026-05-13T07:00:00+00:00",
       "source": {
         "name": "T-Online",
         "url": "https://www.t-online.de"
       }
     },
     {
-      "id": "9f09dc2dc02d",
-      "title": "Keytruda kostet Österreich am meisten. Sein genauer Preis beschäftigt Gerichte - Der Standard",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQQjU1amQ3RkxoQXlmM0ZHNVZyYkJsc3hJdXdBeDFnQW5nNkp5d2pzU1QzTXBDRUtxMFRuZFhaTVBWNWlMVjhGYnYyRF9ZUFRDbjh0Vnp1Y0VtXzBtYUFCczhiYm82SXR6WnhtV1cyZXVxYUg1N05iQTRhTGg2cEgyM0hPMlhyMFlwM21DRnloSS1rWHZ0UElSeGduMVNSZTVhRUVYbnVucHFlS1dyMmlqZmhybkVWR3VUOTRXSVhyWEdCNFd1?oc=5",
-      "published": "2026-05-15T09:30:00+00:00",
+      "id": "c5f6cfe9b696",
+      "title": "Gesundheitsreform: Kein Sparpaket für Patienten - Neue Gladbecker Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTkdDc09idEFheUFsSGxfT21nSUdUZ003LXlDYU5SY05vaVBVZlJyX1dvQnlsV1M4SkxjRmRfcy1VeGZvTFFiZ2gtUUlzcVFEMFBwcDhsb0tyeHcyOUxVNllQeHdnQVhhd2k5RmdjQTJFTVJKa0M2Vy04TTE2MmZuMndlVFZCemFZSUdz?oc=5",
+      "published": "2026-05-13T07:35:23+00:00",
       "source": {
-        "name": "Der Standard",
-        "url": "https://www.derstandard.at"
+        "name": "Neue Gladbecker Zeitung",
+        "url": "https://neue-gladbecker-zeitung.de"
       }
     },
     {
@@ -224,16 +224,6 @@
       }
     },
     {
-      "id": "1d9a64ea7e37",
-      "title": "Tunesien: Siphat nimmt die Produktion flüssiger Arzneimittel wieder auf – ein Schritt hin zu mehr Autonomie im Gesundheitswesen. - Agenzia Nova",
-      "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOaWlKQUl0T1Z2Q0Juc2RuZ2dsV0JRa2dMdFhQalkxcHNjZjV4RTQyTXBua0hSZTAwU2ltUXR5M3lub2JRdFN3aV9EajBXX3hTdkw2S21CTEdEa1d3WDU5R2xjVGxGZndocnNRVFh4TE54YzRYM3BIU2x6ckIzYXFsT0laa1FQX05mcU1ySG5Oc3hCZzZNbTFUS0RlckdpdGVieTVpVHZrLXFrV2hmRUNJZlVyUkRhNmlEU2ZueC1WSzRtZGpPb1YwcE1OVGRFU3VoX08tWjR6eTRsNlczQmN6S0owVHI0am1KVXd2aTFHZVkyRm5DZ2ZXREplQnM4ZElkWnlvbFBDcjI?oc=5",
-      "published": "2026-05-13T16:05:21+00:00",
-      "source": {
-        "name": "Agenzia Nova",
-        "url": "https://www.agenzianova.com"
-      }
-    },
-    {
       "id": "b75b1fd5e543",
       "title": "Gesundheitsökonom Kugler: \"Wir bezahlen nur wirklich nützliche Medikamente\" - MDR",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWDlDNjhEYjgwOHl4R3NZUWFqaEo4Qkd4OUZISDllZG9TcVJubHF1MnUwRVRPY2pZLWZFdlQzdktxelU5SktXdlBaSkIxcFJjN2dJUXJTYklvSFpOckcxSjdvRkxRM0RjRy0yUEtIRWVPWF9JZmNMc1d1NXFMWHFVajJ0LWY1cDh6Ql9aYmFUQnE4LVlGNUFIZW5IR0E5TU5nak5ESlB0d2hSU2U0UWJQeWRfZllHVkcyeGdMVi1uRlFFU25OV0dv0gHMAUFVX3lxTFBDRE5KS196aXdmbVJSaHplMGJBOEhyTVFtX2tXSzh1eGNJczdXZXhzaUZXcDMzOFZIaHFnOHVoRlM5eEVmN2dndGJxTVBwR05FUlZZLUdNMWFIT2xOVG8xcG44bjN3d05fVm1NNHpQbjZmRWduZ1dfT1d2U1FlMnJFNHk0dHY3VnNGTW5RNlBQTUFMdmtPUFBhMXdWSDlGUDFMSzUzSlBPMmFDVXVQTWYwVnNFOXk4S2t6SHZlU0ZhRjB5cDY3MjktTlcyNw?oc=5",
@@ -244,10 +234,30 @@
       }
     },
     {
+      "id": "1d9a64ea7e37",
+      "title": "Tunesien: Siphat nimmt die Produktion flüssiger Arzneimittel wieder auf – ein Schritt hin zu mehr Autonomie im Gesundheitswesen. - Agenzia Nova",
+      "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOaWlKQUl0T1Z2Q0Juc2RuZ2dsV0JRa2dMdFhQalkxcHNjZjV4RTQyTXBua0hSZTAwU2ltUXR5M3lub2JRdFN3aV9EajBXX3hTdkw2S21CTEdEa1d3WDU5R2xjVGxGZndocnNRVFh4TE54YzRYM3BIU2x6ckIzYXFsT0laa1FQX05mcU1ySG5Oc3hCZzZNbTFUS0RlckdpdGVieTVpVHZrLXFrV2hmRUNJZlVyUkRhNmlEU2ZueC1WSzRtZGpPb1YwcE1OVGRFU3VoX08tWjR6eTRsNlczQmN6S0owVHI0am1KVXd2aTFHZVkyRm5DZ2ZXREplQnM4ZElkWnlvbFBDcjI?oc=5",
+      "published": "2026-05-13T16:05:21+00:00",
+      "source": {
+        "name": "Agenzia Nova",
+        "url": "https://www.agenzianova.com"
+      }
+    },
+    {
       "id": "589684016df5",
       "title": "BStabG: Eingriffe bei Arzneimittelpreisen gefährden Versorgung - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeUNoTTU4eDVHeGxhbnMxaEROTFJyVEt6bXZSVHQ4TndNMXNfRDJ6aWF4cU9PQTlJc09uZEVUV2NMal82emdObUhlTkU5X3dNWHlFWDFiWWc0WVJyUDJYUFNndVhsUFI1WW8yelkxTnpGdk50TmFPTnFWNmxJcE1tZ1IxRnpqVU5EeWdqb0pwMmg2M0FFQi1UZDh6aGdHaXhCeHhjbWNEeXMzS19S?oc=5",
       "published": "2026-04-21T08:30:28+00:00",
+      "source": {
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "9fa13ce5acf5",
+      "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
+      "published": "2026-03-31T07:00:00+00:00",
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
@@ -264,16 +274,6 @@
       }
     },
     {
-      "id": "9fa13ce5acf5",
-      "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
-      "published": "2026-03-31T07:00:00+00:00",
-      "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
-      }
-    },
-    {
       "id": "bfd217c58780",
       "title": "Abnehmen: 80 Prozent des Gewichtsverlusts gehalten – Forscher arbeiten an Tablette gegen Jojo-Effekt - WELT",
       "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQUWN6aXF6bTYwM00yMTVwcWZ2QWE2eVNPbVQ2bTY5Tmk3THIzS3RYa0dyakhUaWFnQUlpQTRoZnpuYS1wSmRsQTJPOFJSQy1DdEp1TkNDYl9tVUZjV1Q5bEZzRGRxVXZsdVdUNUM5U1NfbkNkLUVPT2hHQjBZQWdLbGhwVEthZDlmdE43bDNpS2loMjQwdGtYR1pxMk03RnhIM0Fkb05XVFhNUVNVNm5CTTU5cU9qRFlBYm5aUEN1Q1pqbjI5UmNLMG5kdkZHWDF0WXBOZFo3NDZGc3hSNDMzN25rdGdEVVd4YmpZSjNxOXFpV0ExRUFoeg?oc=5",
@@ -281,16 +281,6 @@
       "source": {
         "name": "WELT",
         "url": "https://www.welt.de"
-      }
-    },
-    {
-      "id": "79e456429737",
-      "title": "EU beschließt Critical Medicines Act: Mehr Souveränität bei Arzneimitteln - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNnpIMkJCZGF2UVNod3N3UEwxM2JuUGNyUnVhWnVxazZJdnN1RWdINzZzd1JEY0FOUS14NDllNTZZNjBnUk5hYkhPVEdhMUpZSlRYRFJ4WncxblgxcFpCV2pkTHBydFBJZ19uSUwwbXBsSzVGR254WXp1d3I1OTZ0bzdJeU5VU1VXMGQxWHFxX0FJTXl1WEVyTjhOeXg4OU52RXBxc0F2dEE3YVJDSGFJ?oc=5",
-      "published": "2026-05-14T08:48:33+00:00",
-      "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -304,6 +294,16 @@
       }
     },
     {
+      "id": "79e456429737",
+      "title": "EU beschließt Critical Medicines Act: Mehr Souveränität bei Arzneimitteln - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNnpIMkJCZGF2UVNod3N3UEwxM2JuUGNyUnVhWnVxazZJdnN1RWdINzZzd1JEY0FOUS14NDllNTZZNjBnUk5hYkhPVEdhMUpZSlRYRFJ4WncxblgxcFpCV2pkTHBydFBJZ19uSUwwbXBsSzVGR254WXp1d3I1OTZ0bzdJeU5VU1VXMGQxWHFxX0FJTXl1WEVyTjhOeXg4OU52RXBxc0F2dEE3YVJDSGFJ?oc=5",
+      "published": "2026-05-14T08:48:33+00:00",
+      "source": {
+        "name": "AD HOC NEWS",
+        "url": "https://www.ad-hoc-news.de"
+      }
+    },
+    {
       "id": "9f7c377ed6d2",
       "title": "MFN-Modell USA: Wie US-Arzneimittelpolitik Innovationen in Europa ausbremst - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWkw5ZTd1QUxfTlBDNjVEc0paTWpvTFpfTE9lOFM3YnhiWnBBREVhRzlMQnRmWDdkREJzVlg3UnZCN2RsTC1aTkhtN19oX2dEYmVLdXk4MXFBUnVGakk3YzVfbjZVQ0E0MUtPN2JZZ08wQ05yaTFLNER1dVYzZEo5UldOVldfQ0lCbGNRWEJZbUg0R3JBaGp6Mm1DTGd2eTYzWE9GV1hvenRGWHhOZXBxMHJMY09GUQ?oc=5",
@@ -314,16 +314,6 @@
       }
     },
     {
-      "id": "11cdd0be15c8",
-      "title": "Wie viel darf Gesundheit kosten? Streit um Medikamentenpreise eskaliert - WirtschaftsWoche",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMEkzamFzeFFHZEk3NjFIbFJmYjZvajlGOVMtcHo3aUZsWFlvdkcyMzFTODZXZFM1dWhNWU1lT3FVVDk4dlduRjBqV2paSEFVbkE2YWktMVJIanA4U3J2QW1rMnFtOUljc0pXb2hEbVNSWkxYdGlkRHRMRGE3aGpSYjlrU0FzN0RjN1dhWkJWZldkUmVpbm9xbXpSZmR3b0xGR2ZXQmdvVVZ4bWh5bmVNbkdOOU1rNEdiZElEc0NEeDE3LXpqVkE?oc=5",
-      "published": "2026-04-16T07:00:00+00:00",
-      "source": {
-        "name": "WirtschaftsWoche",
-        "url": "https://www.wiwo.de"
-      }
-    },
-    {
       "id": "51e8c4b74840",
       "title": "Gesundheitsgefahr durch gefälschte Arzneimittel - Gesundheit.gv.at",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYlhNa1drQ3UydVU1Ti1QZWxOelZ2UDNkQTBsczZ4SzVIZGhQS3psTVQ5Zmw2Ujh2RGpDYzZ5TDdIbG5mYkFjRl9CX3JkS0FHQ2dlSGVZMlpRTmpva0xOX3hoTWhTM3VoZlB6bjJYbjRRcGp2NERXZmhoaEtyeGJhUDlSU0k0cURLRzNIc1FR?oc=5",
@@ -331,6 +321,16 @@
       "source": {
         "name": "Gesundheit.gv.at",
         "url": "https://www.gesundheit.gv.at"
+      }
+    },
+    {
+      "id": "11cdd0be15c8",
+      "title": "Wie viel darf Gesundheit kosten? Streit um Medikamentenpreise eskaliert - WirtschaftsWoche",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMEkzamFzeFFHZEk3NjFIbFJmYjZvajlGOVMtcHo3aUZsWFlvdkcyMzFTODZXZFM1dWhNWU1lT3FVVDk4dlduRjBqV2paSEFVbkE2YWktMVJIanA4U3J2QW1rMnFtOUljc0pXb2hEbVNSWkxYdGlkRHRMRGE3aGpSYjlrU0FzN0RjN1dhWkJWZldkUmVpbm9xbXpSZmR3b0xGR2ZXQmdvVVZ4bWh5bmVNbkdOOU1rNEdiZElEc0NEeDE3LXpqVkE?oc=5",
+      "published": "2026-04-16T07:00:00+00:00",
+      "source": {
+        "name": "WirtschaftsWoche",
+        "url": "https://www.wiwo.de"
       }
     },
     {
@@ -354,16 +354,6 @@
       }
     },
     {
-      "id": "be6b795bb807",
-      "title": "Medikamentenabgabe in Ordinationen gefordert - wien.ORF.at",
-      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1RSWh5YWxEN0gtcW1CcUZlX05VTThtSDVWamtqUEg2YjhlamJKSkUtMG4tTkxBRVcyVXFDQ1Qxb0hqWmxmQnZRZi1BRTA?oc=5",
-      "published": "2026-05-13T11:06:40+00:00",
-      "source": {
-        "name": "wien.ORF.at",
-        "url": "https://wien.orf.at"
-      }
-    },
-    {
       "id": "d60d4f4ff5ae",
       "title": "Gesundheit - Auch SoVD fordert Maßnahmen gegen steigende Arzneimittelpreise - Deutschlandfunk",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNmF3c1ZhS2dyTG9MdkxYcjU4OHB6ZU8yNExEbkpFYVpBZWRfeDFWN3BHOS0wdVNheXF5Tzh0bGoxeTZONGw1R001LVNCWlI0UTNsNHo2cGFjbEw0V3B4dmZIbUVxYnhfb25tRDF6SXhvVUtZN0ZkaVFTZnZMYUg1MEZ2X0YwQ1hvWG54eTNVb09sNXlxUzd3cHVmdWJJbEJiNlI1ZjdB?oc=5",
@@ -371,6 +361,16 @@
       "source": {
         "name": "Deutschlandfunk",
         "url": "https://www.deutschlandfunk.de"
+      }
+    },
+    {
+      "id": "be6b795bb807",
+      "title": "Medikamentenabgabe in Ordinationen gefordert - wien.ORF.at",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1RSWh5YWxEN0gtcW1CcUZlX05VTThtSDVWamtqUEg2YjhlamJKSkUtMG4tTkxBRVcyVXFDQ1Qxb0hqWmxmQnZRZi1BRTA?oc=5",
+      "published": "2026-05-13T11:06:40+00:00",
+      "source": {
+        "name": "wien.ORF.at",
+        "url": "https://wien.orf.at"
       }
     },
     {
@@ -394,16 +394,6 @@
       }
     },
     {
-      "id": "2d1785d23a70",
-      "title": "Gesundheitsreform: Milliarden-Last für Pharmaindustrie und Patienten - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVm5ONm5YLTNmRGxObDZkcUdmR0JuVmdVd0hlVE8zR2dKaWdlcUltZ0tQdGZCTkJvUTNvSk44dm43SDdSU0tTN19UNDM0UnJTMV9YbHJPRk0teHQyU2VDNFloUGhoaVowZkVZbkRxQUprRUVVSWtEeFFRd0h1MTBBZjYyc2VEOVFfLVpPYno0eFM1Q1liOFV3NVNZMllsQXhwbTV2eDAtOHZ2eHkzQ0tldDE2NHp4QzJX?oc=5",
-      "published": "2026-05-14T08:59:36+00:00",
-      "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "075a40db361f",
       "title": "Medikamente auf Reisen: Das darf ins Handgepäck - ADAC",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZmdDVl81RGdjdDZRNXNXSlRFTVhOSVpSQUlwUTlUelB6bnNFcVFRV09lQ2czNTdja0RsNHJVck00Y2hFVHZUM3kyaTRWOVZXWHQ0M182TVJrcGNGcUxtS1pFaU8wczRRRFRycTVmZnFmWE1lQ2g1eVVNekNQd3pSWWFHMnc1anVBY3plbTNB?oc=5",
@@ -421,6 +411,16 @@
       "source": {
         "name": "NDR.de",
         "url": "https://www.ndr.de"
+      }
+    },
+    {
+      "id": "2d1785d23a70",
+      "title": "Gesundheitsreform: Milliarden-Last für Pharmaindustrie und Patienten - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVm5ONm5YLTNmRGxObDZkcUdmR0JuVmdVd0hlVE8zR2dKaWdlcUltZ0tQdGZCTkJvUTNvSk44dm43SDdSU0tTN19UNDM0UnJTMV9YbHJPRk0teHQyU2VDNFloUGhoaVowZkVZbkRxQUprRUVVSWtEeFFRd0h1MTBBZjYyc2VEOVFfLVpPYno0eFM1Q1liOFV3NVNZMllsQXhwbTV2eDAtOHZ2eHkzQ0tldDE2NHp4QzJX?oc=5",
+      "published": "2026-05-14T08:59:36+00:00",
+      "source": {
+        "name": "AD HOC NEWS",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
