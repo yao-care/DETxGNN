@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-16T21:52:02.220499+00:00",
+  "fetched_at": "2026-05-16T22:49:03.040484+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -44,12 +44,12 @@
       }
     },
     {
-      "id": "bfd217c58780",
-      "title": "Abnehmen: 80 Prozent des Gewichtsverlusts gehalten – Forscher arbeiten an Tablette gegen Jojo-Effekt - WELT",
+      "id": "1dd78b304e14",
+      "title": "Abnehmen: 80 Prozent des Gewichtsverlusts gehalten – Forscher arbeiten an Tablette gegen Jojo-Effekt - welt.de",
       "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQUWN6aXF6bTYwM00yMTVwcWZ2QWE2eVNPbVQ2bTY5Tmk3THIzS3RYa0dyakhUaWFnQUlpQTRoZnpuYS1wSmRsQTJPOFJSQy1DdEp1TkNDYl9tVUZjV1Q5bEZzRGRxVXZsdVdUNUM5U1NfbkNkLUVPT2hHQjBZQWdLbGhwVEthZDlmdE43bDNpS2loMjQwdGtYR1pxMk03RnhIM0Fkb05XVFhNUVNVNm5CTTU5cU9qRFlBYm5aUEN1Q1pqbjI5UmNLMG5kdkZHWDF0WXBOZFo3NDZGc3hSNDMzN25rdGdEVVd4YmpZSjNxOXFpV0ExRUFoeg?oc=5",
       "published": "2026-05-16T17:34:42+00:00",
       "source": {
-        "name": "WELT",
+        "name": "welt.de",
         "url": "https://www.welt.de"
       }
     },
@@ -84,16 +84,6 @@
       }
     },
     {
-      "id": "d4d11cad929b",
-      "title": "Kinderarzneimittel: GKV-Spargesetz – ein verheerendes Signal - gesundheit adhoc",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQRklDOXgzbW1hTVFLX2ZRTE8wZDJibFh2cDVZZ3haR0ZBUmQyUFJKVUx3VnFZUnAtbHozR25wT1kzQzdycEw4eVJ5czBsTFNReUh4ckxCTGYxY1gtY2VzUWRFUTJDeE1OZ3NPUkh0NnpqYjNNeVFpT2V1NUl6UWYyWlItSFplSVZOZHZXNVdybUp3WjFx?oc=5",
-      "published": "2026-05-13T07:27:07+00:00",
-      "source": {
-        "name": "gesundheit adhoc",
-        "url": "https://www.gesundheit-adhoc.de"
-      }
-    },
-    {
       "id": "9fa13ce5acf5",
       "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
@@ -101,6 +91,16 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "d4d11cad929b",
+      "title": "Kinderarzneimittel: GKV-Spargesetz – ein verheerendes Signal - gesundheit adhoc",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQRklDOXgzbW1hTVFLX2ZRTE8wZDJibFh2cDVZZ3haR0ZBUmQyUFJKVUx3VnFZUnAtbHozR25wT1kzQzdycEw4eVJ5czBsTFNReUh4ckxCTGYxY1gtY2VzUWRFUTJDeE1OZ3NPUkh0NnpqYjNNeVFpT2V1NUl6UWYyWlItSFplSVZOZHZXNVdybUp3WjFx?oc=5",
+      "published": "2026-05-13T07:27:07+00:00",
+      "source": {
+        "name": "gesundheit adhoc",
+        "url": "https://www.gesundheit-adhoc.de"
       }
     },
     {
@@ -114,12 +114,12 @@
       }
     },
     {
-      "id": "b091d0b157e3",
-      "title": "Warken streicht Temperaturkontrollen für EU-Versandapotheken - Apotheken Umschau",
+      "id": "dca8e2d38b04",
+      "title": "Warken streicht Temperaturkontrollen für EU-Versandapotheken - apotheken-umschau.de",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdG13cDZJZ3VkQ1JrbUZ2WFFfOWRXbWtoTXNkVEQ3ZTNyaXJGYzlVSzBTSklqWHdWeWlfcnk1UjNDakxFRUQ4Wm5UaVpqZzhQTU1SdGxIVkhXTnc0WXNaZEpWanFtUmxDY3Y0YU95eXo1VTNKcHo0M3ZMU0ZyTGJJSklvVFpFcDQ0RnY2NF9uNi1rUnZNQ0QxYnh0cTlGWlN3MEdzRXhDNEpocnNKcVVPWnIxWjN6RkViYml1UWRZQzRpaHREckFfaQ?oc=5",
       "published": "2026-05-13T14:33:38+00:00",
       "source": {
-        "name": "Apotheken Umschau",
+        "name": "apotheken-umschau.de",
         "url": "https://www.apotheken-umschau.de"
       }
     },
@@ -344,16 +344,6 @@
       }
     },
     {
-      "id": "c5452dcd8c6b",
-      "title": "Medikamentenabgabe durch Ärzt:innen: „Ein gefährlicher Irrweg“ - TARA24",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNbE16SXRSWXlXcDZVbkdSUVFuRkFoVVRzTUJQLWlhVmxEMVV0bkJHeTNKNjNfRHgtdlZlS1U4M25KcW5PQkRPWWpWN2s4Um8xVEt4b180VUZSRkFZeHFNQVpoZ3ZsVEJtV3F5RmJXWGQxSjFNQVRKdnhyX0hEUDB4NlVpLTIzSzdteDhHMEg3ZDV6TWVybnc?oc=5",
-      "published": "2026-05-15T09:00:00+00:00",
-      "source": {
-        "name": "TARA24",
-        "url": "https://www.tara24.at"
-      }
-    },
-    {
       "id": "95d55d1267a1",
       "title": "Mit Abnehmspritze Kilos loswerden - was ist dran an Ozempic & Co.? - NDR.de",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaGFzLTFfUHozOUJiWWtWdlRPUm5mZ0VkMGMxLVVGcmxmMzlONHZRV21qZmFHYUo3d2gzV3VDVm9OUHp6Qk4wQjlZTHU3V3RnckthWTZSbVpVMGE1VWxiMFMtVVJCSWdWb3hibzlscllodzVwWmpDMS1ZOXNxYkFfQVJzdlRzeGRQOWdtcW55UVRNSE16QmhJZXhVYmRmYl9iUmJBN1g2cG8?oc=5",
@@ -361,6 +351,16 @@
       "source": {
         "name": "NDR.de",
         "url": "https://www.ndr.de"
+      }
+    },
+    {
+      "id": "c5452dcd8c6b",
+      "title": "Medikamentenabgabe durch Ärzt:innen: „Ein gefährlicher Irrweg“ - TARA24",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNbE16SXRSWXlXcDZVbkdSUVFuRkFoVVRzTUJQLWlhVmxEMVV0bkJHeTNKNjNfRHgtdlZlS1U4M25KcW5PQkRPWWpWN2s4Um8xVEt4b180VUZSRkFZeHFNQVpoZ3ZsVEJtV3F5RmJXWGQxSjFNQVRKdnhyX0hEUDB4NlVpLTIzSzdteDhHMEg3ZDV6TWVybnc?oc=5",
+      "published": "2026-05-15T09:00:00+00:00",
+      "source": {
+        "name": "TARA24",
+        "url": "https://www.tara24.at"
       }
     },
     {
