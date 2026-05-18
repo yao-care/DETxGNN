@@ -1,16 +1,26 @@
 {
-  "fetched_at": "2026-05-18T03:53:15.674666+00:00",
+  "fetched_at": "2026-05-18T08:06:01.386890+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
     {
-      "id": "02e9917bea66",
-      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - DW.com",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGxHSlhmSS0tbUNKdG15NEVzRzYzYllEUnAzUEU3ak53czRHVWlKdTZrRGFDMk1MUThPUjdPTnBGVENqd3d2Q1VSdWhJVXppWDF4NWh0aEJJaXJlVTlnV0VoZVFkRHNSM3p6NVZXNjNwWHk5YkxSUWR2RGZKcmp3Y2U5REY0U3dRZFJLeHFtQk9wb2Y3RUVOaVBlMlJhZ29Rck000gGjAUFVX3lxTE1rTW00WXFBajZxbTJOS1NLckhVbXFBSzh1NE96QTEydTN1YjZnaFFNcV8xblZGM29hdTZQUHc4V3YzQ1pwcTlaVVBhZDVqMExLMTlYVzZ6TmM4ZUdsUm5TLXpPNmk1R3V4UktvaV93cWttNFpVX0VEZlZnUllSQkhyUlZmeTBJcU0zUEVSZTgxdzFWUnFNRk9CYVljN0Jhd0ZXUFk?oc=5",
-      "published": "2026-05-12T07:44:46+00:00",
+      "id": "c1c4d4aa1b78",
+      "title": "Longevity-Infusionen: Das sagen die Daten wirklich - Telepolis",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQb2dOMXhITDY3dHlIM1dBZjFzcVdTZkd0QnRIR0tYbkZUSUtfaWYycXRfcDZEd29ZemxfNVRlcTdGMjM2d0JhSnMyT1pFckZCLTl0bTFKNFdGbjk2Yld1UTJIeG1JbEVqX0ZEeC0wUks5Uk5BTXBhbFU2VEJvemlIaVpVZm9zWm9HTVFob2YwNVgzOFlYejFtWGtMaC0?oc=5",
+      "published": "2026-05-18T06:00:00+00:00",
       "source": {
-        "name": "DW.com",
-        "url": "https://www.dw.com"
+        "name": "Telepolis",
+        "url": "https://www.telepolis.de"
+      }
+    },
+    {
+      "id": "449031ae3a45",
+      "title": "Abnehmspritze ist nur ein Lifestyle-Medikament - Rechtslupe",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMXJXMnRjdGV2YkgyeERoOFJ3bV9tMmNnWnFJTWZNeDI4R1hnOTdjeE9Ga0Robl9ndGI1b2xueHF0N0QyVDB2MktQX2JYZlMxT1d6SndTcGp0dkpxQTJiVjBRclNjVVphZ1cxdkR5elN0eTVvVWlTc2M3ZmFaeThCZ08xalhteDB5dGpNeDFyLVpuS1JXdVF3?oc=5",
+      "published": "2026-05-18T04:09:00+00:00",
+      "source": {
+        "name": "Rechtslupe",
+        "url": "https://www.rechtslupe.de"
       }
     },
     {
@@ -24,13 +34,13 @@
       }
     },
     {
-      "id": "7041169fca78",
-      "title": "Viele Werbungen für traditionelle Medizin sind irreführend; das Gesundheitsministerium hat unangekündigte Kontrollen und strenge Strafen angeordnet. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNRERiTGw2OEprclNiZDZrSTNYc2h1dXFDWnJkaFpGTDJxMzNmc0ZBNVpLRHZ5bWtFZUJ4aTVPeFpvYlVYUEpFeXRERHFCemg0YXprc2ExRjc3TEJUVzk5SzRMRVpEcFhDWUxfY3N6S193WklobHdtci1aeEpxX1doc2hWVHpjRWplbDgzTG9NRXEySHlvNHJxOHF3RWFrT1VOZlBYWE82OXFYZEVMck5SaEczUTlwSjZxOHAzSVZaLTkzYmhZandoVg?oc=5",
-      "published": "2026-05-18T02:20:08+00:00",
+      "id": "669ae3b57e37",
+      "title": "Bundesinstitut: Warnung vor Risiken bei hochdosierten Vitamin-Infusionen - Öko-Test",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMUlFRDBFeDVQSDBkNzc1OVdFcURMUndWcmxiVnJsWTlySktvX2xpZ1NRRGF6VUEwVG5zWGFRM2g0UTE4NHp0ZzlNWm5DTGFIMG0xa3hqOXFTYmJwYkVTR3FuemhtU0NHT1ZabzMzSnBaSVJvbDJHTXJrY004MklvNTJYc0hkN3pHSi1sWlc5bU5iSGhlSDZ6bWhOODN5NmxLa3RKV2lBTXh6TWVhZWMxYW5DYUlsUkxkWkdpUUFtV3dLZ1BsaWVJMFA4SC0?oc=5",
+      "published": "2026-05-15T22:20:45+00:00",
       "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
+        "name": "Öko-Test",
+        "url": "https://www.oekotest.de"
       }
     },
     {
@@ -44,26 +54,6 @@
       }
     },
     {
-      "id": "ae3d250cee54",
-      "title": "Todesfälle mit Tavneos: Swissmedic wartet ab - Watson",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWHNPLXpycS1URHYwNXkxYXppM2pnV2pPc2ZBRVR6cmxxZkZhU2ZjYUdRYXBqNUJpa3FwcWVnTkRfcV9IVlZ4WmFZV3hHNGxXUmdoU1MtRTFWdjBNTUZXNnY4WnBpYkVQV2lZRUJuang4dGlwejZwU1l3RE5FT2JQRHhDQ1o3OTNJS1BTZXgtRkpjVzJ1WWxfazdOVXdaWWxQQVpxOHJ6Z1BWQVhT?oc=5",
-      "published": "2026-05-17T14:18:55+00:00",
-      "source": {
-        "name": "Watson",
-        "url": "https://www.watson.ch"
-      }
-    },
-    {
-      "id": "669ae3b57e37",
-      "title": "Bundesinstitut: Warnung vor Risiken bei hochdosierten Vitamin-Infusionen - Öko-Test",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMUlFRDBFeDVQSDBkNzc1OVdFcURMUndWcmxiVnJsWTlySktvX2xpZ1NRRGF6VUEwVG5zWGFRM2g0UTE4NHp0ZzlNWm5DTGFIMG0xa3hqOXFTYmJwYkVTR3FuemhtU0NHT1ZabzMzSnBaSVJvbDJHTXJrY004MklvNTJYc0hkN3pHSi1sWlc5bU5iSGhlSDZ6bWhOODN5NmxLa3RKV2lBTXh6TWVhZWMxYW5DYUlsUkxkWkdpUUFtV3dLZ1BsaWVJMFA4SC0?oc=5",
-      "published": "2026-05-15T22:20:45+00:00",
-      "source": {
-        "name": "Öko-Test",
-        "url": "https://www.oekotest.de"
-      }
-    },
-    {
       "id": "2a4cd6eb6d1d",
       "title": "Arzneimittelengpässe in Europa – so reagiert die EU - European Parliament",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYUFLam5JQVMtSlNuNWlqSTJrRUNDN215RDlRU2hOMEE0Rkp3cHBodVhSbXRsSUhvTTRhMTVLWEE5QmM0dXJRNGlPSkwyZ2doMHhlaEpHbW5DZl8tazhQc3lPcEN4SmtLaEdGMk9IZjF5MGZvNEd3a2tXSnJXT1ItanFsV2gtRGpMYjlUbHV2OURrMkM5OXA3emh5OERlMlpXc1J1UlNVYUp1UlBUd1gzREtLUkZRZw?oc=5",
@@ -74,6 +64,16 @@
       }
     },
     {
+      "id": "7041169fca78",
+      "title": "Viele Werbungen für traditionelle Medizin sind irreführend; das Gesundheitsministerium hat unangekündigte Kontrollen und strenge Strafen angeordnet. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNRERiTGw2OEprclNiZDZrSTNYc2h1dXFDWnJkaFpGTDJxMzNmc0ZBNVpLRHZ5bWtFZUJ4aTVPeFpvYlVYUEpFeXRERHFCemg0YXprc2ExRjc3TEJUVzk5SzRMRVpEcFhDWUxfY3N6S193WklobHdtci1aeEpxX1doc2hWVHpjRWplbDgzTG9NRXEySHlvNHJxOHF3RWFrT1VOZlBYWE82OXFYZEVMck5SaEczUTlwSjZxOHAzSVZaLTkzYmhZandoVg?oc=5",
+      "published": "2026-05-18T02:20:08+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
       "id": "9fa13ce5acf5",
       "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
@@ -81,6 +81,16 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "ae3d250cee54",
+      "title": "Todesfälle mit Tavneos: Swissmedic wartet ab - Watson",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWHNPLXpycS1URHYwNXkxYXppM2pnV2pPc2ZBRVR6cmxxZkZhU2ZjYUdRYXBqNUJpa3FwcWVnTkRfcV9IVlZ4WmFZV3hHNGxXUmdoU1MtRTFWdjBNTUZXNnY4WnBpYkVQV2lZRUJuang4dGlwejZwU1l3RE5FT2JQRHhDQ1o3OTNJS1BTZXgtRkpjVzJ1WWxfazdOVXdaWWxQQVpxOHJ6Z1BWQVhT?oc=5",
+      "published": "2026-05-17T14:18:55+00:00",
+      "source": {
+        "name": "Watson",
+        "url": "https://www.watson.ch"
       }
     },
     {
@@ -104,6 +114,16 @@
       }
     },
     {
+      "id": "51e8c4b74840",
+      "title": "Gesundheitsgefahr durch gefälschte Arzneimittel - Gesundheit.gv.at",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYlhNa1drQ3UydVU1Ti1QZWxOelZ2UDNkQTBsczZ4SzVIZGhQS3psTVQ5Zmw2Ujh2RGpDYzZ5TDdIbG5mYkFjRl9CX3JkS0FHQ2dlSGVZMlpRTmpva0xOX3hoTWhTM3VoZlB6bjJYbjRRcGp2NERXZmhoaEtyeGJhUDlSU0k0cURLRzNIc1FR?oc=5",
+      "published": "2026-03-09T07:00:00+00:00",
+      "source": {
+        "name": "Gesundheit.gv.at",
+        "url": "https://www.gesundheit.gv.at"
+      }
+    },
+    {
       "id": "b2b6e1493e4d",
       "title": "Resistenzen gegen Antibiotika: Wo bleiben die neuen Medikamente? - MDR",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORjI0bDN0TTBYQkZGME1XMDlhTkY0VDNSRzVPdFItU1otREtfN1hDQXJScFJVQkVkMmZwRGhhODUxSVBCc1ZOSVoxcUl0ektfWkdwd2RoODJiNDdfaFVnU0RFTzNoWk5VUjNOZDdOczVkNUIxZGs2dHNVRGVqQmJXT2VPcF9ieTE5WXF0YjllRkxHQXRPdmhPSWR0a2JwTGdrbmVFckpXYUZ6NjFNcFg1Q3lTSS03YnhWWFHSAb8BQVVfeXFMT1Nva3ZtX0UxdUJyeGE4T1NCeTZ6N2JhOTZ5dC1NNmZPOG5NVHNIX0VsMlFMS2ticW5wZGdEZEFHV3JsTDdDLVhrZ1RqZVZVM3pmYklJeVNfVUdFbm5pN0M4R1RGdzR1Q0VGMm9iUlBMTDN6Qm5KQUVKVURGaEM3LWNHQXJGZUJoU3pVbEZGcUR3a1ZmV005WmlZWHpnZm94bVI1d2FDcmhhQ2FkQkJtVWVyNFRXZUg2SkNacTVfZGM?oc=5",
@@ -121,16 +141,6 @@
       "source": {
         "name": "Berliner Morgenpost",
         "url": "https://www.morgenpost.de"
-      }
-    },
-    {
-      "id": "51e8c4b74840",
-      "title": "Gesundheitsgefahr durch gefälschte Arzneimittel - Gesundheit.gv.at",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYlhNa1drQ3UydVU1Ti1QZWxOelZ2UDNkQTBsczZ4SzVIZGhQS3psTVQ5Zmw2Ujh2RGpDYzZ5TDdIbG5mYkFjRl9CX3JkS0FHQ2dlSGVZMlpRTmpva0xOX3hoTWhTM3VoZlB6bjJYbjRRcGp2NERXZmhoaEtyeGJhUDlSU0k0cURLRzNIc1FR?oc=5",
-      "published": "2026-03-09T07:00:00+00:00",
-      "source": {
-        "name": "Gesundheit.gv.at",
-        "url": "https://www.gesundheit.gv.at"
       }
     },
     {
@@ -171,16 +181,6 @@
       "source": {
         "name": "Deutschlandfunk",
         "url": "https://www.deutschlandfunk.de"
-      }
-    },
-    {
-      "id": "b7122957dd4f",
-      "title": "Erhöht die Einnahme bestimmter Medikamente das Demenzrisiko? - WEB.DE",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVjdlQTV3dVlNMW9DdDhJc0c4VGQ0azhVZ0hFOHFRQ1Y3Yl9URW8waFcxQlk5NUJpQ1p4clk2d2ZTVVI5ckw2NV9BMEdaNmRDZy1LVWhpVEwyQ1FGSUJNXzFiZ3J1WWh2TTNDSU1UeS1yZU9CTEVzTEJ2ek03eGg2VFFZM3hGSDZ0M3FPb0Mxc1JEeHFBNjQwWXJBWXo?oc=5",
-      "published": "2026-05-13T14:25:54+00:00",
-      "source": {
-        "name": "WEB.DE",
-        "url": "https://web.de"
       }
     },
     {
@@ -241,6 +241,16 @@
       "source": {
         "name": "schleswig-holstein.de",
         "url": "https://www.schleswig-holstein.de"
+      }
+    },
+    {
+      "id": "b7122957dd4f",
+      "title": "Erhöht die Einnahme bestimmter Medikamente das Demenzrisiko? - WEB.DE",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVjdlQTV3dVlNMW9DdDhJc0c4VGQ0azhVZ0hFOHFRQ1Y3Yl9URW8waFcxQlk5NUJpQ1p4clk2d2ZTVVI5ckw2NV9BMEdaNmRDZy1LVWhpVEwyQ1FGSUJNXzFiZ3J1WWh2TTNDSU1UeS1yZU9CTEVzTEJ2ek03eGg2VFFZM3hGSDZ0M3FPb0Mxc1JEeHFBNjQwWXJBWXo?oc=5",
+      "published": "2026-05-13T14:25:54+00:00",
+      "source": {
+        "name": "WEB.DE",
+        "url": "https://web.de"
       }
     },
     {
@@ -321,16 +331,6 @@
       "source": {
         "name": "Deutschlandfunk",
         "url": "https://www.deutschlandfunk.de"
-      }
-    },
-    {
-      "id": "c5452dcd8c6b",
-      "title": "Medikamentenabgabe durch Ärzt:innen: „Ein gefährlicher Irrweg“ - TARA24",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNbE16SXRSWXlXcDZVbkdSUVFuRkFoVVRzTUJQLWlhVmxEMVV0bkJHeTNKNjNfRHgtdlZlS1U4M25KcW5PQkRPWWpWN2s4Um8xVEt4b180VUZSRkFZeHFNQVpoZ3ZsVEJtV3F5RmJXWGQxSjFNQVRKdnhyX0hEUDB4NlVpLTIzSzdteDhHMEg3ZDV6TWVybnc?oc=5",
-      "published": "2026-05-15T09:00:00+00:00",
-      "source": {
-        "name": "TARA24",
-        "url": "https://www.tara24.at"
       }
     },
     {
@@ -424,16 +424,6 @@
       }
     },
     {
-      "id": "f992ed6033b4",
-      "title": "Kassen zur Notfallreform: Arzneimittel am Abgabeautomaten - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQnRNallHTEprd203OEY3V3k3aVlYV18yMzVLNHltVUhFNFNIQUtoVnYwNjU0V0ZTUG93TkIyd0NQdnN5Uzg5LW1aQVBxZHQzNzJpeUNGalVxZGlTcUZ0dlgxSk5HR3ZtTElzVEVGc2FKMTNlcHlCbGRtY3pnOEZyMmx4Nms?oc=5",
-      "published": "2025-12-10T08:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "77eea59f7b33",
       "title": "Steigende Arzneimittelkosten: Gesundheitsministerin Warken will Zugang zu neuen Medikamenten für alle erhalten - MDR",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPenF3ckVCSXl3ZmNka21FSTVtdkdoeGRZaEQ4Nnc4ZktKZk16U0ZUd19vYWRsZDdQUDZZLVFCd2k2anZScnRpSnJtXzRCbEozRm9fMEpkcVhjZ3dwT21zQVZPX2MybWdSUHBNeTZ3TmtESDFOWFNfM0lPV1Z4M3BmUTNkLTRfVGgxRUh4OWNOblh5ZGdCaUs5WXZmR2VVaVV5d1VHR1BHUFhubGtCWlFyZWk3VnhWZjdpWE9jNE5B0gHDAUFVX3lxTE1YNm5BVEExN05VeGlPeW5Hazh0ZTVFV0ZGUjNpWERheHAxSUZ3TTJGUXBZQ0F1cGdtRGQ4Zy1kbzhhNkRCd2Y4TTllaWd6ZVdTUkgxTmoyR1ZLSHhoNERNa1M0VExFOHluRzhTRWI3VjJkaGlZWTZUUXZ4bFEtVUFMaVAxMWFnYVVwa3J1TklTTjI3WnF4dkJZRFExVEFBb0NfMDVaTnBhZmU0NXFoR0FVcEhXV0dEeW1PeEl0SzdYSFNFVQ?oc=5",
@@ -454,13 +444,13 @@
       }
     },
     {
-      "id": "db3a9c57aaeb",
-      "title": "Medikamente zur Behandlung einer Corona-Infektion - Barmer",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZEw1bGFzVTJjZWdyQUxUUGk4NEdzRnV6dHRZaXBRVk11VHFtN1l6bDRCY2h1Mkx5OWxNSWV5X1J4SlFJTWMwVUVRMGNRZE9kaDh6Z0FfaU5OS1NRaUtoTjRfem82bVpKSmQ4a1lRTUFjV1p0dUVhOUdIWDdXU0I1WnVYWUoxVThMSVpjZmRjLVJNSHM?oc=5",
-      "published": "2026-03-02T08:00:00+00:00",
+      "id": "aaa9b3b6486a",
+      "title": "Long Covid: Erstattung von Medikamenten durch Krankenkassen möglich - Gesundheit - SZ.de - SZ.de",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZmlncDRlS21NN0xwd0RXUDRBbXlVUkNsRHhvQXktZElkQklXM3dzRlI0ZnU5X091cXY5cGtxclBaR2Y5TUxzZXgxYlVMODNhNDFFX05SS094Zml0dHIzRktJQ2lDcjFVVmg1dGxQdjFlUFlGSi1wUS1neXZYXzdKVTU3ME9zdTRLcHRSVVcwdVlUY2kyd05BQk8tZk1Mdw?oc=5",
+      "published": "2026-04-02T07:00:00+00:00",
       "source": {
-        "name": "Barmer",
-        "url": "https://www.barmer.de"
+        "name": "SZ.de",
+        "url": "https://www.sueddeutsche.de"
       }
     },
     {
@@ -494,16 +484,6 @@
       }
     },
     {
-      "id": "79e456429737",
-      "title": "EU beschließt Critical Medicines Act: Mehr Souveränität bei Arzneimitteln - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNnpIMkJCZGF2UVNod3N3UEwxM2JuUGNyUnVhWnVxazZJdnN1RWdINzZzd1JEY0FOUS14NDllNTZZNjBnUk5hYkhPVEdhMUpZSlRYRFJ4WncxblgxcFpCV2pkTHBydFBJZ19uSUwwbXBsSzVGR254WXp1d3I1OTZ0bzdJeU5VU1VXMGQxWHFxX0FJTXl1WEVyTjhOeXg4OU52RXBxc0F2dEE3YVJDSGFJ?oc=5",
-      "published": "2026-05-14T08:48:33+00:00",
-      "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "9c2a09675375",
       "title": "Arzneimittelinnovationen: Fortschritte für die Gesellschaft - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQUtYa2J4aWR6MWk4MDJZVWpwSHV6ZDdfY3BLdXk5aHNrNTFNc2YtcHktdGVfVWh2b0RiVklwT0d0UnNYbGFtTFQxalhaODJXallwMmJtMTB3UU1vaEVHUmJNUk9NamdRZGZjREhPSHV4T1BRNWdtMnpORDZmdm5YNUVUM1QyZUpCRWROV1lTSDc?oc=5",
@@ -534,26 +514,6 @@
       }
     },
     {
-      "id": "465db55d0e17",
-      "title": "Das Gesundheitsministerium hat landesweit eine Charge von 0,9%igen Natriumchlorid-Augentropfen zurückgerufen. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWTBLQ3o3dXJxTnI3QWdRcWNrZlpiVGRxNVZSUXM3NDIzb29nZDg1Wmg2aWh2T1ZnNm9aTmRhY0NjaUMwYkZNM3lERUozLVFwT2paR0ZnNjMxMVFFS05pQkFKamlNUlpVSFRWNVZFYzBtVjVUNFpaOFBUZ29aY1VuRmt0MWpzOW96QXNaOVVR?oc=5",
-      "published": "2026-05-15T05:52:00+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
-      "id": "fad88aff2400",
-      "title": "Arzneimittelausgaben steigen auf Rekordhoch Sieben Prozent der Medikamente verursachen mehr als die Hälfte der Kosten - Tagesspiegel",
-      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNeVh1VDdIZEd5TXZoV2hGdlRCOXNMcFBvMjMyYTRMeTF1TnVaVEg1dXY2SWtZNUhocnFnM2staDhwZnptemFfVGUxbFpIQ3JwNnhCSEREbmEwcmNRNHdSbENtemYwdmJHNVREYWQ2S2VQZVlNNVFGYlJhbGFfeWVySUFiY3lhQXNmZWxUQndTTXFHdGdRVHlQaVN5U1lSWlNLWUo3SDFOcjdyT3d5c0h4c0FMdWxra2hrekpJZDNGeDQ2c3NqVFdTSnJTNHZ3Mm1KeWkzLUZNMHJRTjROVEE5OUNrWW1yaTdLWkJvNG1oQ3dPU0MzTldsZXFNblVlQVE?oc=5",
-      "published": "2025-12-09T08:00:00+00:00",
-      "source": {
-        "name": "Tagesspiegel",
-        "url": "https://www.tagesspiegel.de"
-      }
-    },
-    {
       "id": "a3424172eac0",
       "title": "Statistisches Bundesamt: Gesundheitsausgaben haben sich verdreifacht - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxONXg5R0tIYVN3MlVOdkNGbWd2TFNVVXVNWmJGNlFKcTRIc1dSNl9QQjFYRnFkTmNwYjNnR0k3M2VNNFhiSVdBTmNDWlN5SG1GS2RhWndidWR1RmpYRGkxOThqaEtzMGcwTXZXem1wT3JkVFl2bTdWdzBlN1dlZUlsdmsyM2xZc2ZtVDU4UXB6TlUwdzNFelZ3TXVSQllpbmo4NC00RFo4c0dYZFk4RFlFS2xSeGRwWHA1UWdMSWI2OWt0YzBmdGwtSDlLdFk4VGNHelJR?oc=5",
@@ -571,16 +531,6 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
-      "id": "8e4ef3c2ecf0",
-      "title": "dm: Drogeriekette startet Online-Apotheke und erntet Kritik aus der Gesundheitsbranche - Spiegel",
-      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQb3YweDJTbVRaQ3JueVhtVG1VN3dxM3dLa1ZfN3ExNDdDNllob2V1Y3FqVUtZdzNjSjF2QU0wRlhQMElUMk1OY3Vob0ZTNjBWNUQwVmxPT1IxUjlDLU5rN3pjQ3BhbWtxcjI0dWJfNHc3LWplZFZiTWNoNUxjdWtlUWE1aDFxX3doZF9ZRzJ5NU5NTVhTZy1EWFJjLXlLd3lMS1MwQ09RRHVNci1HaUVBbXVGM2UxQkFLeWdRaDRLN2h6bmRSWGprSFZFZWFjYVZvcG53UG1HdjFGVjdzVS1yeXctRUVQTkFyV2UxSklocEpSQ3RHekxmdGlub1UzeTA?oc=5",
-      "published": "2025-12-12T08:00:00+00:00",
-      "source": {
-        "name": "Spiegel",
-        "url": "https://www.spiegel.de"
       }
     },
     {
@@ -634,6 +584,16 @@
       }
     },
     {
+      "id": "0878866789da",
+      "title": "Neue Arzneimittel bezahlbar halten - Verband der Ersatzkassen (vdek)",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObzE3cHpIZEo2Q0VEc0xrTzlCRHFTbW1GZ1dpbXhiSk55cmZpVFZaN3dtSkhvc2dqYkx0ekRicVhHTHhWTzFsSFVKZlVJZG1EUXBxZGZCU0kycm5yaVczSThMRHA3YkRHN3dPYXl3UTNEU1RWamFXdDBrZ2tTWWhqNjBjQk43VGNhdEFhMXF6Nmx6WHdkXzhwY25kTzVCMmp5?oc=5",
+      "published": "2025-06-17T07:00:00+00:00",
+      "source": {
+        "name": "Verband der Ersatzkassen (vdek)",
+        "url": "https://www.vdek.com"
+      }
+    },
+    {
       "id": "445f92c7e54b",
       "title": "Wundermittel oder Wahnsinn? Der riskante Hype um Methylenblau - NDR.de",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZjdVekdjMzQzUFRaQlJaZW5GM3l0bmZFay1iTWxoVXpOLWFfTkVQejhNU1FwSTR6Q1RETXRFYm56enYwNm8tZXBXZlRmb0JKalI4REI2dEVNcUh6NHhMMDBlTkNkOXRaTU1hS2ZXNWZhVnk3TUthaFpuTFh2c3NtVUNmcUtYc290bFI1MERTaDFjaXNNcDFpczNjX004TUV4MjBjdWFhM2F1dXF4bktZQWtvS0hGUHM?oc=5",
@@ -654,16 +614,6 @@
       }
     },
     {
-      "id": "7bbbb27073dd",
-      "title": "Medikamente bestellen: Achtung vor Fälschungen! - MDR",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNaHRyelNNd3JkOG40QWxjZU05alVXVVFJSlREYUZzWjBFMkJscUNjWm9tUzFfQVkxWEszVzdQQ2lVUzgtQ1FHMW5McXlYVURBQi14Szk2LVBOb0V3OXB3UHFJVjJaTzBxMDV3dnVWN09makhvVFRrb2Zia3VEQUlQTUtKZ3I3Z9IBiwFBVV95cUxObFEtQ1RaVnV0MGxHc2tLSjZNdVVWSVgyaEJ2VFA5cFhVMTB0V0ZfNTBzcHBudkZyWUU0T0FETkZNRlBfcEZ4OFdGOXg5eldrWjh5UDJBT3drcmY3UVRaMm1GdTJYQnR5eWRFV2ZydzZ2WTFkLXNPVy1mVWpxRTRIXzFxcFBtQTMxbWNz?oc=5",
-      "published": "2025-11-28T08:00:00+00:00",
-      "source": {
-        "name": "MDR",
-        "url": "https://www.mdr.de"
-      }
-    },
-    {
       "id": "965e1762ff04",
       "title": "GKV in der Krise : Warken erwägt höhere Zuzahlungen für Arzneimittel - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdWlXOXMzZ2lzMTIwYlBfSUlPNFBUOEpGRkgzckx4QUQ4dVE2NVhRTzlZNTdPYm9halZadmVzQ0s3Z0VKUUNhUUFIOTFQQkhEQWttNGJ3SE9PQklubDU5WE8wZFQ1aFN2TnhEWUhBY3pzTU85dDRUWU1qVEF6dkxHN1NRYVl3M2tuTFdfUW5hQ1owSllpSjFYVHVTY1cwcHR5?oc=5",
@@ -674,6 +624,16 @@
       }
     },
     {
+      "id": "7bbbb27073dd",
+      "title": "Medikamente bestellen: Achtung vor Fälschungen! - MDR",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNaHRyelNNd3JkOG40QWxjZU05alVXVVFJSlREYUZzWjBFMkJscUNjWm9tUzFfQVkxWEszVzdQQ2lVUzgtQ1FHMW5McXlYVURBQi14Szk2LVBOb0V3OXB3UHFJVjJaTzBxMDV3dnVWN09makhvVFRrb2Zia3VEQUlQTUtKZ3I3Z9IBiwFBVV95cUxObFEtQ1RaVnV0MGxHc2tLSjZNdVVWSVgyaEJ2VFA5cFhVMTB0V0ZfNTBzcHBudkZyWUU0T0FETkZNRlBfcEZ4OFdGOXg5eldrWjh5UDJBT3drcmY3UVRaMm1GdTJYQnR5eWRFV2ZydzZ2WTFkLXNPVy1mVWpxRTRIXzFxcFBtQTMxbWNz?oc=5",
+      "published": "2025-11-28T08:00:00+00:00",
+      "source": {
+        "name": "MDR",
+        "url": "https://www.mdr.de"
+      }
+    },
+    {
       "id": "6eaac0e35900",
       "title": "Ukraine: Von der Europäischen Union finanzierte Kliniken für die primäre Gesundheitsversorgung verändern das Leben von Patienten - World Health Organization (WHO)",
       "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNbDQ0OTlwYWJLOTJYdnhPLWpjTGJhZ0R6Q1lzblVyc0hNZUZsUUxXZWRBYmt0VVo0dGpEY3pKUlFCY0NtUk02MDQ0VmhzQk01TlZJcHZMamt5OGFvdWkzVFpjOVBhWVd4S1Y5bFJMRGdVM25TSFVJUWdqb0ZRSlJhcDdYSktVckIxVTY2UkhXd04zZTA4c1VvYnRwcC1JaVdBNDl3UmpISUQwV1NhZHNUT0hXZ2pSWHlwMEpFcERHZ0JuSXRqT0s1OTdrWG1QeE5ETVBTVzRzb3I4QTNNZzlFWGZvcVR2NzV4?oc=5",
@@ -681,6 +641,16 @@
       "source": {
         "name": "World Health Organization (WHO)",
         "url": "https://www.who.int"
+      }
+    },
+    {
+      "id": "f202f5e12fce",
+      "title": "Intimgesundheit der Frau: Arzneimittel der Selbstmedikation richtig anwenden - Braunschweiger Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQX3pRNEFOMlpYWXpGWV9PdXhXaXFBaEp1UkVoQlZ6UXU2RTV4OTIyY0JlOUpTZU5xYU9VZThWRDZGbm94TzVyeFEySnlEbXNza29XY2xyNHRxclFRNzkyMmJ3N1FnZWg2OC1SMUU1Rm93VXhaOVNyMEJTWkJvWU9sV00xUURmYWo3V2duellaWDlLcjBZeDRHbVYzT1ZJbkpHYlIzeFIxWGw4VTBHX2hVbDJFNHo1SnFfVjhfaGU2UlV1SjZmTjlBQThabTdTZk5UaF9nNmVIX2NkWXpMWkFleC1YQ3BlMDRjUDlsWGJHdGk?oc=5",
+      "published": "2026-03-06T08:00:00+00:00",
+      "source": {
+        "name": "Braunschweiger Zeitung",
+        "url": "https://www.braunschweiger-zeitung.de"
       }
     },
     {
@@ -701,26 +671,6 @@
       "source": {
         "name": "DIE ZEIT",
         "url": "https://www.zeit.de"
-      }
-    },
-    {
-      "id": "20a64d917dfc",
-      "title": "Medikamente für Senioren: Studie warnt vor riskanten Wirkstoffen - Berliner Morgenpost",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZ29BeW1jeXNBMHJfUWNHT1RfQWNhcG9TUzJwbE11cl9XN1VvWElYUmJORUxoclg3R08xa3VsaXhSMlBnSlE2ZkhOdWF2Z0lVempDdE9XMnBZcEVQUm5KVDBaM0I0ZWpxdzBYbkxYOWtjOGN1ZGxCUkh5TDUzeUxJc0F1dm55XzdHMEwyNUZheFRiaFdKUGtUR1JmYXRGelY0UlM3OFh4SkExRGFTVWZFamxqYXFQOHRCZjFTQThnbjRWU1JMcEM0?oc=5",
-      "published": "2026-03-22T07:00:00+00:00",
-      "source": {
-        "name": "Berliner Morgenpost",
-        "url": "https://www.morgenpost.de"
-      }
-    },
-    {
-      "id": "2721c67b19bd",
-      "title": "Ingwer ist Arzneipflanze des Jahres 2026 - MDR",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNWmllNTJUX1ZkTkRDSTFrTFpFcXNpTVhuRHZlc21HRUEyVzJBYWdWRGhyaXhQYzdsR3UwMF8yaUM2eDhjNkItcnNjU3V6MTZPYzhRQ0hzTWdoMzAtaF9sUjFjYkZBa2xBUGlJb2ZWU1NJX0JaNHViUk5JV2d1WGlxUEJNczdERThObG1xMkdn0gGTAUFVX3lxTE1YOW5xUDNDRXJRejQ5cFhRQUEyV0lXcGRYTEJienIwRkNzLXRKU09kbmZweWtHdzlyM09TX1R4VFNVVEFzRmptaU5aSWdzRDZfYkFjWmpwQjlXTnk5Vnd6eXZTc0lBTzZZSjVINmNzR3lseFYwVVZISlZXdHZNdHpja1FNUU93alVrakxCSHozbE5udw?oc=5",
-      "published": "2026-01-07T08:00:00+00:00",
-      "source": {
-        "name": "MDR",
-        "url": "https://www.mdr.de"
       }
     },
     {
@@ -754,16 +704,6 @@
       }
     },
     {
-      "id": "9021b9a77bd9",
-      "title": "ADHS-Medikamente: Studie belegt geringeres Risiko für Suizid und Kriminalität - Gesundheit - SZ.de - SZ.de",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNb1h2WGhoLUZHQzYwaDdsc0N3RHNpcnF1T04xQmJHQk5kY210RG5JcHlZWVpndDl1REhHWUJVaDBERVo3SGJpdnJUUGstTlNwd21RMGdvTnVnNU16bTkycUJ5N19pSm5VV3NDOE9wd3VTRkEyT2NRWUdYYjdTMlh4QXVSMlFMX296SlNaOEhfN1gtaFhmZDVMaQ?oc=5",
-      "published": "2025-08-20T07:00:00+00:00",
-      "source": {
-        "name": "SZ.de",
-        "url": "https://www.sueddeutsche.de"
-      }
-    },
-    {
       "id": "fcb8dc0cbdca",
       "title": "Arzneimittelausgaben wirksam begrenzen - Verband der Ersatzkassen (vdek)",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQX2NMM0pWLWZrYS1wRS1DYndYQTRJZ09yaFdaSTNUZzVYV3A1TmFwMXJuNFlmTkd1eGRoempFZnNxTy1oU01fQTNmVlRjR2dUeDAzSU53SjI0S0pzQ0ZZZnlFOW0wSkdoYkQ0d3I1NnY2OUpDcnh5WW5jYjd3amhid1lsN0p0ZXpsQWc?oc=5",
@@ -784,16 +724,6 @@
       }
     },
     {
-      "id": "bab34e097226",
-      "title": "Medikament vs. Betäubungsmittel: Pilsinger fordert BTM-Pflicht für Ketamin - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQTk8zanNhb2tVeFIyNzg2Rms5bWJBSUMxbHk1U1g4N0JWRFZQb3hLU3RRUFlKWGZ3bkdKNjVkWkpadUlaSFFLOUxpZnl4TXBRZTFvcGNQeVFXcktWMG10Q0l1RVdNaHVoeHdzcGR2ZFFyUnM1NHZPYXJoOEVKN05fbXVJRDJFVW5URzhidTk5WGF5c2s?oc=5",
-      "published": "2025-08-11T07:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "62359a83d4ac",
       "title": "Arzneimittelmarkt in Deutschland: Analyse der Arzneimittelausgaben - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQlhtenAxN1hGNE9LX3hMemlaSDRGcy1XN2xpVEt3cTlhcDl2akpxZWo4bjY1N0RNVGRlRG5pSnBFUVA0V1l4WWc3QmxNc2ExRVIxU3RZQldOcVZpbVJEak9tZFFQNFJQUUdJcmluYzY2YzV3M01qdjkxY3pvTVBGUWstMHJJVGtjR0JQcWhiTDNjejA?oc=5",
@@ -808,6 +738,16 @@
       "title": "SVR-Gutachten: Hohe Arzneimittelpreise bedrohen Gesundheitssystem - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdkVLanl4Z0F3bXFfWGJrcUZEZUNhdnhoeExVTWxYWTN3aXV2YUxmWDE3MXZRU0M1cHZNQl81MmRERmMzMWhzRnlRM3VCVzRHdnBFSHAxRmRDYjRVdkw2MmhNMTNQdlZaQ0lsaURKd1ZhTW41WTJzbmI0cDNDanNOSDRELUZja3Z3WDIwYVlfaGw1enVEdWdFbWN4Y3BiZw?oc=5",
       "published": "2025-05-22T07:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "03fb761d2d52",
+      "title": "»Apo­the­ken sind unser Ge­sund­heits­ki­osk« - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVGF3NUNNQlJBY2pVMkFVQ2ZQcnpFZ2NsM0NsMGIxb21fVjNMRVNmdVZWclBVTjVJNTY0MDRNTDVnR1lVdnNSN1FRNUZ6Ukl6VFhmQkRvajd5Rmt4YzAxYm5OTC1LN0d1aEU3c0xRRUFhR3I5UWNuYXAwTk5rcy1Ha2s2N3pFSms4eHNCNg?oc=5",
+      "published": "2025-06-26T07:00:00+00:00",
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
@@ -884,6 +824,16 @@
       }
     },
     {
+      "id": "e4f7e8c57817",
+      "title": "Wie läuft die Zulassung von Arzneimitteln ab? - Stiftung Gesundheitswissen",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQc0lKcG51SV96LVpuemVlZ3p2LU1Ubjg1Q2M0VjJMa3pfRGNWM3VKemVDZG9mWm1uY0NlbkZmVDc4QWVad0VIYVAzOGxrY3ZvX1ZnSHB5QXZFYU4tNTAxa0g3N1BxbTljY3hTSVZQZE1GUFNsVF9LNUNfdk5aZGFucjBPWnZ5TGtZazdZQ3NQeEZFMXpBem9Tenh2NUtrWGlp?oc=5",
+      "published": "2025-03-24T13:27:32+00:00",
+      "source": {
+        "name": "Stiftung Gesundheitswissen",
+        "url": "https://www.stiftung-gesundheitswissen.de"
+      }
+    },
+    {
       "id": "7170512b3ffa",
       "title": "Festbeträge für Arzneimittel schnell erklärt | vfa - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaUlYWU1RcVV5LUJyN3gzdWNOUEJXMWl2SkNYMTg3bm45OEU2VS1rQTR2UXpURHRMTHNaYjRDVmJmallrRTlfamFWUHZFQnJ6V2I5SmszZy1vVmY3SEdTY1d4RUxtYktyMnFuWFA1V2dYTGxad2JHTzJud2N2dHNnUnltVjF2T0hJUGhiU2VaQ0p1U1FaMVdZ?oc=5",
@@ -904,16 +854,6 @@
       }
     },
     {
-      "id": "ae18c58057b5",
-      "title": "Arzneimittelpreise: Sachverständige schlagen Alarm - Apotheke Adhoc",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUVdRckNrNEQ0VURLaU42MXc2UVpac1F6MDVZaUNkaXlwLTc1anBkeVFyVHVxLVNKbmVMUGtLM0tiRjBweGdJenZaUzNQOW9ZM0hMZk5nWElXUU1QeDdkTEVMX3p4LXJBOC1NVjJHSkp3cTE4TmJ0bExFTkV0RWU5ZjFDY3hYc0tzbUk4R3NYUE5aVmV5QTdEODhKVnlFZWFXaFpESktiajJNUQ?oc=5",
-      "published": "2025-05-22T07:00:00+00:00",
-      "source": {
-        "name": "Apotheke Adhoc",
-        "url": "https://www.apotheke-adhoc.de"
-      }
-    },
-    {
       "id": "8a5dc46a4efd",
       "title": "Erstattungsbetrag: Preisfestlegung für neue Medikamente - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUHN6Rk0zYW0xanpneTJrREhFdnJPVXFKckJsaHFBTWpYUElxdGN2ZUtydnkteHFHRHl2dERmeEVUMF8xUEh4Z3M4VEhJY0dfNDFpc0Vnc283akhUeTRkZEdSUzZxMjlmTmxBMmdMV2pKWi04UDZENVpvdjJPMXJxZEJ5SS13ZkZlSzVWODd0YjRPTjliYmttdXNUVkR6emgwU09xSQ?oc=5",
@@ -931,6 +871,16 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "ae18c58057b5",
+      "title": "Arzneimittelpreise: Sachverständige schlagen Alarm - Apotheke Adhoc",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUVdRckNrNEQ0VURLaU42MXc2UVpac1F6MDVZaUNkaXlwLTc1anBkeVFyVHVxLVNKbmVMUGtLM0tiRjBweGdJenZaUzNQOW9ZM0hMZk5nWElXUU1QeDdkTEVMX3p4LXJBOC1NVjJHSkp3cTE4TmJ0bExFTkV0RWU5ZjFDY3hYc0tzbUk4R3NYUE5aVmV5QTdEODhKVnlFZWFXaFpESktiajJNUQ?oc=5",
+      "published": "2025-05-22T07:00:00+00:00",
+      "source": {
+        "name": "Apotheke Adhoc",
+        "url": "https://www.apotheke-adhoc.de"
       }
     },
     {
@@ -994,10 +944,60 @@
       }
     },
     {
+      "id": "0328b41cd92a",
+      "title": "RKI-Bericht: Diese Arzneimittel können bei Hitze Probleme verursachen - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONHdLdFVoNHFnYl9vZVJjdVBoVDhzZFVMTEhULTBpcURWdXljRjlsX25RODlzbXRSNTR5QUNzZEhUcGRCMi14ZUpaRXM5ZlY4VU9HRkR5YnVxZXdKQmlhdktqMzJWTnQxRHZlLURTMUwzLXEtTVkxb2doVURybXhWMUNfbWNfZXg2SFFaUDVDR0VRSlg0dEdMa0psTkd6bmNLbDJfZzF4UQ?oc=5",
+      "published": "2023-09-06T07:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "a168f85a390f",
+      "title": "Diese Faktoren definieren die Ausgaben für Medikamente | vfa - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOd0RjUE5PbEdmR1NtVmdGRXlfdjRoVzQ5RE5jRXZpQUtIRVZUR0dqV05iNnQ0d2laS1RiR2ZqM3B4V1BhNUVUX0k0OVhSZDU4MTkzc1h0M2xGb2xBOVNlSUxEWUVBeUJUMnZDeVpOZ2pNNV95OUtwbXVRQ1hwa3dRNVhxZWp1bVgwd2hMSi02MmdCTU81Mmc2VkpoeWY2eV9UanItcC1xZ2w?oc=5",
+      "published": "2025-02-22T22:42:30+00:00",
+      "source": {
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "d9ad6417cd80",
+      "title": "AMNOG-Report 2025: Arzneimittelausgaben steigen trotz aller Maßnahmen - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWWtSYlcwVm1LRC1SVjQzZURHTXVrYWJmN1Z3RHppaGk2b1psTEUyYlQtcmMtWTBaSDNmbDZ5T1RXTHROLTF5eVRxVHBpNlhLRThXY1dqNWdJanRDMDlmQUpSSFlfejhlRFNoZXMtMC1YWkVJV3poVjIxUUszeGdrSUpMNXZ4a0FFejFtcDEyUnRYUE9UYnU3bEl0Sk9yejg?oc=5",
+      "published": "2025-05-13T07:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
       "id": "81e5e38e1b6e",
       "title": "Orphan Drugs: Bedeutung und derzeitiger Status - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQOUk1Zll0b1RxVE5yZEJabTVLOFpncEczU0NXeEcxM3lGc2NuSG1yT3VhVFNvMlp4eDlIM2I2SVRZYlh4VUVMM3ctQmJzdzNDNFMzTnhnQ1lST2dDRE9lbDNqcTBIeXBVemFuMDRUb0ZzN19ORkVOOTd0QVRPT2xrdWhrZ2M3dw?oc=5",
       "published": "2025-05-19T07:00:00+00:00",
+      "source": {
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "ac26e9967846",
+      "title": "Die vfa-Kurzbewertung zum TK-Report: „Arzneimittel-Fokus: Die Amyloid-Antikörper“ - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTDhLeVRwWml0TGJEdGZTSjFQRnlTQXY1VFFuNDVhTC1GS3pOZUdQOU1RRW50cDZlZENfeWFRQTZzTjBfdlNiaExQR29NSUNJRUptMzBvY1NLcWFuUzZYdG9zQklSUFlVeWVMcXBfX2xzU2FHNEhhQV84SXhkVlJncXBBYkxadUFSS0dyQmw2LWsydkZa?oc=5",
+      "published": "2025-04-03T07:00:00+00:00",
+      "source": {
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "aec09bbc5653",
+      "title": "Zusammenspiel von Patentschutz und Unterlagenschutz - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQ1hycFVEWnAtdlZhdXNoV3JIb1JqTHdwc25mS3pBWGlEN2ZERG9HV1g4MUcyQWxvRUdkWmlSVjRGSk92THVMc0kzTXpub3ZSUHplOWVBSXlpN18zWmRsdm9TMHNiYWphamxQcmV5Ym9BSVh2bGE4Z3pvbmN0eWxyWjN3cUZhQjBzdExVRmY1ZVdOX05jdkRnR05mcmxzeldpNElua0h4QlJwMlpka2xpNQ?oc=5",
+      "published": "2023-04-19T07:00:00+00:00",
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
