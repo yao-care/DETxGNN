@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-20T16:53:34.435030+00:00",
+  "fetched_at": "2026-05-20T19:26:51.221922+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -11,16 +11,6 @@
       "source": {
         "name": "Euronews.com",
         "url": "https://de.euronews.com"
-      }
-    },
-    {
-      "id": "d88cdf7668b7",
-      "title": "46 Arzneimittel-Innovationen 2025 - TARA24",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPS3V3Wmk5VzhVcDNqb2VDOVNfc0VRNFJraDFXUDhvZWd6WkF0bjZSNmF4ZE5hSU5Jb014eXUtbllhUk53WHVudHVsU2FqWWVkZE9hcnd1aU8wUkU4Z0pWMTVsUm9GTS1OLXhMREFCZFpLdkVjM0NMTTNSYkcza0NSdHVzbDFhdw?oc=5",
-      "published": "2026-05-20T06:00:00+00:00",
-      "source": {
-        "name": "TARA24",
-        "url": "https://www.tara24.at"
       }
     },
     {
@@ -144,6 +134,16 @@
       }
     },
     {
+      "id": "9a4faafae25b",
+      "title": "2025 zweithöchste Zahl neu zugelassener Arzneimittel der letzten 10 Jahre - OTS.at",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNMG96SHVnLTdpclBabHhuTXlIQW1ETFZ0Z1oxeXcyVXIwODh5aVR6NjVua3oteWlqZkxSLUI1TDB1YWVEZ0lnbDhTck52a3pSLXhjanRWb2R3bDZOVmUtM2M3d1AzejNNUUV2ekJyMTU4YnlTdzRXVkp2OExFWU5SVDlOTFVIYXY0dXpBa0otZ1hWWTRMdGtBMElUSThzSVcyUTJyVFJnSVk4Ml8wcnlFc0hCVmRvUG5TV3V5ZERRaUtad1JENFo1TWlVbw?oc=5",
+      "published": "2026-05-19T10:04:03+00:00",
+      "source": {
+        "name": "OTS.at",
+        "url": "https://www.ots.at"
+      }
+    },
+    {
       "id": "51e8c4b74840",
       "title": "Gesundheitsgefahr durch gefälschte Arzneimittel - Gesundheit.gv.at",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYlhNa1drQ3UydVU1Ti1QZWxOelZ2UDNkQTBsczZ4SzVIZGhQS3psTVQ5Zmw2Ujh2RGpDYzZ5TDdIbG5mYkFjRl9CX3JkS0FHQ2dlSGVZMlpRTmpva0xOX3hoTWhTM3VoZlB6bjJYbjRRcGp2NERXZmhoaEtyeGJhUDlSU0k0cURLRzNIc1FR?oc=5",
@@ -184,16 +184,6 @@
       }
     },
     {
-      "id": "589684016df5",
-      "title": "BStabG: Eingriffe bei Arzneimittelpreisen gefährden Versorgung - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeUNoTTU4eDVHeGxhbnMxaEROTFJyVEt6bXZSVHQ4TndNMXNfRDJ6aWF4cU9PQTlJc09uZEVUV2NMal82emdObUhlTkU5X3dNWHlFWDFiWWc0WVJyUDJYUFNndVhsUFI1WW8yelkxTnpGdk50TmFPTnFWNmxJcE1tZ1IxRnpqVU5EeWdqb0pwMmg2M0FFQi1UZDh6aGdHaXhCeHhjbWNEeXMzS19S?oc=5",
-      "published": "2026-04-29T07:00:00+00:00",
-      "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
-      }
-    },
-    {
       "id": "11cdd0be15c8",
       "title": "Wie viel darf Gesundheit kosten? Streit um Medikamentenpreise eskaliert - WirtschaftsWoche",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMEkzamFzeFFHZEk3NjFIbFJmYjZvajlGOVMtcHo3aUZsWFlvdkcyMzFTODZXZFM1dWhNWU1lT3FVVDk4dlduRjBqV2paSEFVbkE2YWktMVJIanA4U3J2QW1rMnFtOUljc0pXb2hEbVNSWkxYdGlkRHRMRGE3aGpSYjlrU0FzN0RjN1dhWkJWZldkUmVpbm9xbXpSZmR3b0xGR2ZXQmdvVVZ4bWh5bmVNbkdOOU1rNEdiZElEc0NEeDE3LXpqVkE?oc=5",
@@ -201,6 +191,16 @@
       "source": {
         "name": "WirtschaftsWoche",
         "url": "https://www.wiwo.de"
+      }
+    },
+    {
+      "id": "589684016df5",
+      "title": "BStabG: Eingriffe bei Arzneimittelpreisen gefährden Versorgung - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeUNoTTU4eDVHeGxhbnMxaEROTFJyVEt6bXZSVHQ4TndNMXNfRDJ6aWF4cU9PQTlJc09uZEVUV2NMal82emdObUhlTkU5X3dNWHlFWDFiWWc0WVJyUDJYUFNndVhsUFI1WW8yelkxTnpGdk50TmFPTnFWNmxJcE1tZ1IxRnpqVU5EeWdqb0pwMmg2M0FFQi1UZDh6aGdHaXhCeHhjbWNEeXMzS19S?oc=5",
+      "published": "2026-04-29T07:00:00+00:00",
+      "source": {
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
       }
     },
     {
@@ -274,16 +274,6 @@
       }
     },
     {
-      "id": "139cc32cd025",
-      "title": "Klinische Studie zu Migräne-Arznei weckt Hoffnungen - Wormser Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQdE1TMWhLYTVfaFMyQUtQaWZjdk5zaVV1QV9PTERVMl9zWDBLX1djS2ZXZFY0RXc4Tm5MUndxa2ZZc1NSV2hXWU1jUVYzcG55NnBWQVYwQVl6MmtJMEdmWkxuTThheUZMRVlQal9ZNEV3SjJNc3hoYmE1RVJPTVkyOTdvaklmSE9DMHd5cTEtNE9RV1BlbEptYmJ4M0dKNzdYaV84M1VEek9KSDk3LWd2YUN5Zm1VSzFRbzloazZGN1N5WEZHOTNjVTAwek9JZkZKQjJqWFVOUQ?oc=5",
-      "published": "2026-05-19T10:23:00+00:00",
-      "source": {
-        "name": "Wormser Zeitung",
-        "url": "https://www.wormser-zeitung.de"
-      }
-    },
-    {
       "id": "2f1bc259e240",
       "title": "Warnung: Allergie-Arzneimittel gefährdet Gesundheit - Deutsches Ärzteblatt",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSEtiYVpFcFJEblM4V2Z0TXJ1eWpoWDJmamN2d3lkOEFEUEhoZTYxV0lTV25KQ2RTYkYxb1ZsMGVqU1VYRjJJQTFRTEhRRFVuQWtPVk9jbDlvTHRpY0VucU9Za3dQcVJuSEZoUHFSck02THRMdzdYN1pQbjlBNUxEYndOTVd5WUltUUJFX2l3X3FIdk1DcV83SmhtS0ZHMFFycC15YWU2Yl9oUEhENmYwSTByYVMwS1RFMlQ0eW5KVQ?oc=5",
@@ -291,6 +281,16 @@
       "source": {
         "name": "Deutsches Ärzteblatt",
         "url": "https://www.aerzteblatt.de"
+      }
+    },
+    {
+      "id": "139cc32cd025",
+      "title": "Klinische Studie zu Migräne-Arznei weckt Hoffnungen - Wormser Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQdE1TMWhLYTVfaFMyQUtQaWZjdk5zaVV1QV9PTERVMl9zWDBLX1djS2ZXZFY0RXc4Tm5MUndxa2ZZc1NSV2hXWU1jUVYzcG55NnBWQVYwQVl6MmtJMEdmWkxuTThheUZMRVlQal9ZNEV3SjJNc3hoYmE1RVJPTVkyOTdvaklmSE9DMHd5cTEtNE9RV1BlbEptYmJ4M0dKNzdYaV84M1VEek9KSDk3LWd2YUN5Zm1VSzFRbzloazZGN1N5WEZHOTNjVTAwek9JZkZKQjJqWFVOUQ?oc=5",
+      "published": "2026-05-19T10:23:00+00:00",
+      "source": {
+        "name": "Wormser Zeitung",
+        "url": "https://www.wormser-zeitung.de"
       }
     },
     {
@@ -594,16 +594,6 @@
       }
     },
     {
-      "id": "fb092a1ba8aa",
-      "title": "Kobayashi Pharmaceutical-Aktie (JP3301100008): Rückrufbelastungen und Neuausrichtung im Gesundheits - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObFVGVXp6enlFNGdCSmF4Y1hDdERhTENSUUktSVNGa1J4aDBTem4xUkdMVVVXMzl2Q3pvWmRrMGtreEFra01ydkRKMXc5cGZfRlhJNlFvZjRzZVQwR0tnTnVfMFl2aTl2Z1hNMndtNnQwRkk1NmdiZWxBRmljWG1KN1FTbVBZQm5aUUh2SmFkMmUybTd0SzFYc3Zfc1lPMEFOWlNSRTEyN0hMREl0ZEtYSXl4WThQWGpBZHdKQTJzSk9nVC1S?oc=5",
-      "published": "2026-05-18T10:52:53+00:00",
-      "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "d46f6ce1c2b9",
       "title": "Ibuprofen, Aspirin und Co.: Schmerzmittel der Gruppe NSAR können Nebenwirkungen haben - NDR.de",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUmwyTW8wT3dfaXgyZ1VyaXFYUG1lWXY5VUZXZkkwWjd4STI2dWVSY1d3bVhub1NxRE9sNGt2bW83blh3T2hPRzlWcnVvUElQSmw4WE9KOHhscFdsSEE4TmF2cnhXaTktUWRfc3NQMnpoWmZDUXF5WWt6czNsbWdLQTRtVVJ3Mzdtb250RGVhbldmNUpVOTNDOTFhOWpldzV0MUlpVFdMRmpfOGM3WW5HbmRYaVJFT1ZzYUxn?oc=5",
@@ -611,6 +601,16 @@
       "source": {
         "name": "NDR.de",
         "url": "https://www.ndr.de"
+      }
+    },
+    {
+      "id": "fb092a1ba8aa",
+      "title": "Kobayashi Pharmaceutical-Aktie (JP3301100008): Rückrufbelastungen und Neuausrichtung im Gesundheits - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObFVGVXp6enlFNGdCSmF4Y1hDdERhTENSUUktSVNGa1J4aDBTem4xUkdMVVVXMzl2Q3pvWmRrMGtreEFra01ydkRKMXc5cGZfRlhJNlFvZjRzZVQwR0tnTnVfMFl2aTl2Z1hNMndtNnQwRkk1NmdiZWxBRmljWG1KN1FTbVBZQm5aUUh2SmFkMmUybTd0SzFYc3Zfc1lPMEFOWlNSRTEyN0hMREl0ZEtYSXl4WThQWGpBZHdKQTJzSk9nVC1S?oc=5",
+      "published": "2026-05-18T10:52:53+00:00",
+      "source": {
+        "name": "AD HOC NEWS",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -894,16 +894,6 @@
       }
     },
     {
-      "id": "8d6c279774fa",
-      "title": "Arzneimittelpreise im Fokus: Innovation statt Pauschale - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPY2NjMlpJU1NlMTBseFY5Z2h1aGMtdFo4YklYRDJEcEw1UnlLMlJ5WlQwSUdYVGg0clI0bm5NSUV5bmNoa1FzTi1oUUtBSFU4bElXODRQQ1JXZ1hQb09lMnBhNlI0TjRFWERYUUNVOFBXNHU3RzNpbGhSRE9CZFhaTnpFRC1mZTZ4YVpuTkJiVmtfd0FHUU9B?oc=5",
-      "published": "2025-05-21T07:00:00+00:00",
-      "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
-      }
-    },
-    {
       "id": "a50a245fca6f",
       "title": "»Ge­sund­heit ist eine geo­stra­te­gi­sche Waffe« - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVlZwd1JlZ25lNWJGZHUwaEkwV25iYkdEbjRERW9FX291X2xxc1FVMDliUzJudVdIZWhOeDRhREowTjNkR2p1TE8xQzFwMXVGTE5DYzNRQ1YyWUQtTlJENUlybVE0dUFBdDhDYURhS1owaU5OdzFmLURjMll2SWdfX0tvcnlPV2ZONUpqWkFfV0E4QQ?oc=5",
@@ -921,6 +911,16 @@
       "source": {
         "name": "Stiftung Gesundheitswissen",
         "url": "https://www.stiftung-gesundheitswissen.de"
+      }
+    },
+    {
+      "id": "8d6c279774fa",
+      "title": "Arzneimittelpreise im Fokus: Innovation statt Pauschale - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPY2NjMlpJU1NlMTBseFY5Z2h1aGMtdFo4YklYRDJEcEw1UnlLMlJ5WlQwSUdYVGg0clI0bm5NSUV5bmNoa1FzTi1oUUtBSFU4bElXODRQQ1JXZ1hQb09lMnBhNlI0TjRFWERYUUNVOFBXNHU3RzNpbGhSRE9CZFhaTnpFRC1mZTZ4YVpuTkJiVmtfd0FHUU9B?oc=5",
+      "published": "2025-05-21T07:00:00+00:00",
+      "source": {
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
       }
     },
     {
@@ -954,8 +954,8 @@
       }
     },
     {
-      "id": "7170512b3ffa",
-      "title": "Festbeträge für Arzneimittel schnell erklärt | vfa - vfa. Die forschenden Pharma-Unternehmen",
+      "id": "7c4b20211771",
+      "title": "Festbeträge für Arzneimittel schnell erklärt - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaUlYWU1RcVV5LUJyN3gzdWNOUEJXMWl2SkNYMTg3bm45OEU2VS1rQTR2UXpURHRMTHNaYjRDVmJmallrRTlfamFWUHZFQnJ6V2I5SmszZy1vVmY3SEdTY1d4RUxtYktyMnFuWFA1V2dYTGxad2JHTzJud2N2dHNnUnltVjF2T0hJUGhiU2VaQ0p1U1FaMVdZ?oc=5",
       "published": "2024-04-17T07:00:00+00:00",
       "source": {
