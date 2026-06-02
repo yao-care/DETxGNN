@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-01T22:11:30.656078+00:00",
+  "fetched_at": "2026-06-02T00:14:58.484748+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -14,16 +14,6 @@
       }
     },
     {
-      "id": "9653a6a250c2",
-      "title": "Gesundheit auf Reisen: Urlaub im Ausland: Was bei Impfungen und Medikamenten zu beachten ist - kreiszeitung-wochenblatt.de",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPaXRHMV9HaE91YmhEVDRFYVNsdGpfMGU1LWNYcTdsZ0l3Tk5ZNXpPeldOamZQWHJGZUU3cEF0OWI0Yk5JVld6WkVjX2V4TTByVmJ4U3Y4d2JWeXFFRDdqaVFmbEZlZ2pURVFIRlpCVng1ZW9nWTV4WXFSV3lvbmcyQ0VZWVlHS2cwbFJQUVR0Wm1Sa0lfM0V4cmk0ZnFyUC16Yng3VHVxMGEyWmg1aTBucUExaFNWM0JqQnhJOGFraTFKZllJM1pyRzliZEpucXpER0E?oc=5",
-      "published": "2026-06-01T06:30:01+00:00",
-      "source": {
-        "name": "kreiszeitung-wochenblatt.de",
-        "url": "https://www.kreiszeitung-wochenblatt.de"
-      }
-    },
-    {
       "id": "359a638ace75",
       "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesministerium für Gesundheit (BMG)",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNlp2UC15ODdWb214VmdueWZNQ2pWMFRyd1NZNWNVbS1iTGRTZFNNeTl1WlJJZTZPdGVZUC1DVnVZWEF0N0pla3lSMVEyVl9fLXZHU2s3Q1lVMUVvZ0JIUGVXQllJNlI4TUJIVlFBaU9jeTF3NHVhWXhRdXZGczZRdWY0bnp6UlZnNExna0d2OFRiNVZzYkFuSHFRYjBQd3NQVXNZNVYtZWlkVngxa2JHZTdfVXdzUzFL?oc=5",
@@ -31,6 +21,16 @@
       "source": {
         "name": "Bundesministerium für Gesundheit (BMG)",
         "url": "https://www.bundesgesundheitsministerium.de"
+      }
+    },
+    {
+      "id": "9653a6a250c2",
+      "title": "Gesundheit auf Reisen: Urlaub im Ausland: Was bei Impfungen und Medikamenten zu beachten ist - kreiszeitung-wochenblatt.de",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPaXRHMV9HaE91YmhEVDRFYVNsdGpfMGU1LWNYcTdsZ0l3Tk5ZNXpPeldOamZQWHJGZUU3cEF0OWI0Yk5JVld6WkVjX2V4TTByVmJ4U3Y4d2JWeXFFRDdqaVFmbEZlZ2pURVFIRlpCVng1ZW9nWTV4WXFSV3lvbmcyQ0VZWVlHS2cwbFJQUVR0Wm1Sa0lfM0V4cmk0ZnFyUC16Yng3VHVxMGEyWmg1aTBucUExaFNWM0JqQnhJOGFraTFKZllJM1pyRzliZEpucXpER0E?oc=5",
+      "published": "2026-06-01T06:30:01+00:00",
+      "source": {
+        "name": "kreiszeitung-wochenblatt.de",
+        "url": "https://www.kreiszeitung-wochenblatt.de"
       }
     },
     {
@@ -224,16 +224,6 @@
       }
     },
     {
-      "id": "691854318d31",
-      "title": "Frauen leisten mehr für ihre Gesundheit, fühlen sich aber schlechter versorgt - Presseportal",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5jWk5EOWlhd1U1RENkZ0N6a2RyMXpPbjF6eEJDUGxnWWs1eWpYaXZrdHVKM0paYkRiaTFWcjdSX1VIQ3N6VVN2b3JjNHM2Zm5FWVlydldJOA?oc=5",
-      "published": "2026-05-28T12:10:07+00:00",
-      "source": {
-        "name": "Presseportal",
-        "url": "https://www.presseportal.de"
-      }
-    },
-    {
       "id": "3843ee8c2190",
       "title": "Gesundheit - Beipackzettel von Medikamenten sollen digital werden - Ausdrucke in Apotheken sollen Option sein - Deutschlandfunk",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOclZxcXdzdDlfTXNBVkNkV1g0a1RMa05OWGcyX0RXaW5YMmpyUElhUnBJQU9QM3BzUG9iSFZnaWE0ek1iLTFQeE1wbkVhaDdrT3pVMERnT3l3VGhoOUtuS0EtT3pwazNMMGZmcmI1Z2puUHg1WWc5MzBXdHJma0l0dWNlNEhQdFdBUXF5X0V3OVRQWVA1RXFJNXJtbTVGMjNYQVlSWjNrdEttY0pQMXF0dWlwdGNUVWpFcF83a3RyX0oxSWpLaFVmc2NoVEhGNXc?oc=5",
@@ -241,6 +231,16 @@
       "source": {
         "name": "Deutschlandfunk",
         "url": "https://www.deutschlandfunk.de"
+      }
+    },
+    {
+      "id": "691854318d31",
+      "title": "Frauen leisten mehr für ihre Gesundheit, fühlen sich aber schlechter versorgt - Presseportal",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5jWk5EOWlhd1U1RENkZ0N6a2RyMXpPbjF6eEJDUGxnWWs1eWpYaXZrdHVKM0paYkRiaTFWcjdSX1VIQ3N6VVN2b3JjNHM2Zm5FWVlydldJOA?oc=5",
+      "published": "2026-05-28T12:10:07+00:00",
+      "source": {
+        "name": "Presseportal",
+        "url": "https://www.presseportal.de"
       }
     },
     {
@@ -364,16 +364,6 @@
       }
     },
     {
-      "id": "62ffe309dfbc",
-      "title": "CDU fordert mehr Arzneimittelsicherheit im Saarland - Homburg1",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQTA5SUJvdG5DNkRiaFpmSDFGSnhRc0h6ay1QRTc3NFQwLXRiZExJb1lYWmNmLUVVMnhRWmo3VEZwTk1HbUREX2pqem42QzJtR1NzRnJFclQyNUYtLVhRalNIazkwaTZGTkstelA5a0JIcFN1azMwcXE3bG5xZm55RFVtWHl0OWFC?oc=5",
-      "published": "2026-05-30T00:30:44+00:00",
-      "source": {
-        "name": "Homburg1",
-        "url": "https://homburg1.de"
-      }
-    },
-    {
       "id": "566dd4d9d4e6",
       "title": "Gesundheit: Medikamente mit Wechselwirkung? Vor diesen Fehlern schützt die ePA - Berliner Morgenpost",
       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPQnJXQjdvZFhaOHdKUjFfTHRXcU9oTF9vc21mN2U2bmNqOXF3M2o3RWIxU2R1bkx5eGRIYWJIWnF5Ty1yM0pMcW1DcG5LR2JiYlRPdFBXbUdFYmhaeVh5enZDdmY2YWlFdkQtNjVRalZKdzV0alNFbGlLWmM1c1BpcTlXcC01blFGM0dMVV83ZlpQN19kVGx3WVVKNTlXS0t0R1U2dmY0R1MwdGNzOC12MUJzcEh2M2lWendsZFphd1JxanR6elNEalAwSlRBSlczTk5jLVpvYjVQN0kyaGd3Ug?oc=5",
@@ -381,6 +371,16 @@
       "source": {
         "name": "Berliner Morgenpost",
         "url": "https://www.morgenpost.de"
+      }
+    },
+    {
+      "id": "62ffe309dfbc",
+      "title": "CDU fordert mehr Arzneimittelsicherheit im Saarland - Homburg1",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQTA5SUJvdG5DNkRiaFpmSDFGSnhRc0h6ay1QRTc3NFQwLXRiZExJb1lYWmNmLUVVMnhRWmo3VEZwTk1HbUREX2pqem42QzJtR1NzRnJFclQyNUYtLVhRalNIazkwaTZGTkstelA5a0JIcFN1azMwcXE3bG5xZm55RFVtWHl0OWFC?oc=5",
+      "published": "2026-05-30T00:30:44+00:00",
+      "source": {
+        "name": "Homburg1",
+        "url": "https://homburg1.de"
       }
     },
     {
@@ -464,16 +464,6 @@
       }
     },
     {
-      "id": "00634a6aa606",
-      "title": "Zunehmender Tabakkonsum bei Jugendlichen und verfestigte Abhängigkeit im Erwachsenenalter - Presseportal",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5pdklLN09FNFlBeUttcVpqYVZYT0hLNzdYV1pySDAxOFl6cW9GaTNLV0Qtbll1MGFGTkxWTFhBWjI4bUhmVUppa2hyTXY1OUQyYXRpLWxkOA?oc=5",
-      "published": "2026-05-29T12:05:32+00:00",
-      "source": {
-        "name": "Presseportal",
-        "url": "https://www.presseportal.de"
-      }
-    },
-    {
       "id": "248d2692ff4f",
       "title": "Polypharmazie: Was Sie beachten sollten, wenn Sie täglich viele Medikamente einnehmen - ZDFheute",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVmNURjJpcFYzQlZoek5jY1lkLUpjeUtlSDVHVlB3QWxTS0ZET1ljNEVBZG9VMDNTNGNFdDlmTkt1bEtiSHJQMHJwTlRVaGswbmo2VTB5dVJrY0lMNjFGVVdXNURLVmNJTll2YTdJSW90MW5IRzBMVFpoRWx1b0I4ekt3UF9MSjJXWHRzV2dVQ0hBOHZmZUtRNUd2Y04wV2ZUejc0NHZ3OUZLTXBoTjVKdzdsS1V2aTdhTU5HVnotak9QQQ?oc=5",
@@ -481,6 +471,16 @@
       "source": {
         "name": "ZDFheute",
         "url": "https://www.zdfheute.de"
+      }
+    },
+    {
+      "id": "00634a6aa606",
+      "title": "Zunehmender Tabakkonsum bei Jugendlichen und verfestigte Abhängigkeit im Erwachsenenalter - Presseportal",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5pdklLN09FNFlBeUttcVpqYVZYT0hLNzdYV1pySDAxOFl6cW9GaTNLV0Qtbll1MGFGTkxWTFhBWjI4bUhmVUppa2hyTXY1OUQyYXRpLWxkOA?oc=5",
+      "published": "2026-05-29T12:05:32+00:00",
+      "source": {
+        "name": "Presseportal",
+        "url": "https://www.presseportal.de"
       }
     },
     {
