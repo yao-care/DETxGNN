@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-02T21:48:51.767659+00:00",
+  "fetched_at": "2026-06-02T23:47:00.293425+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -64,12 +64,12 @@
       }
     },
     {
-      "id": "8db31424e5bb",
-      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - dw.com",
+      "id": "33612beccf51",
+      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - DW",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGxHSlhmSS0tbUNKdG15NEVzRzYzYllEUnAzUEU3ak53czRHVWlKdTZrRGFDMk1MUThPUjdPTnBGVENqd3d2Q1VSdWhJVXppWDF4NWh0aEJJaXJlVTlnV0VoZVFkRHNSM3p6NVZXNjNwWHk5YkxSUWR2RGZKcmp3Y2U5REY0U3dRZFJLeHFtQk9wb2Y3RUVOaVBlMlJhZ29Rck000gGjAUFVX3lxTE1rTW00WXFBajZxbTJOS1NLckhVbXFBSzh1NE96QTEydTN1YjZnaFFNcV8xblZGM29hdTZQUHc4V3YzQ1pwcTlaVVBhZDVqMExLMTlYVzZ6TmM4ZUdsUm5TLXpPNmk1R3V4UktvaV93cWttNFpVX0VEZlZnUllSQkhyUlZmeTBJcU0zUEVSZTgxdzFWUnFNRk9CYVljN0Jhd0ZXUFk?oc=5",
       "published": "2026-05-12T07:00:00+00:00",
       "source": {
-        "name": "dw.com",
+        "name": "DW",
         "url": "https://www.dw.com"
       }
     },
@@ -94,16 +94,6 @@
       }
     },
     {
-      "id": "7ed3f3afe48d",
-      "title": "Medikation einfach im Blick - Medi+ jetzt auch für alle Atupri Grundversicherten - Presseportal.ch",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAzczJCTDZIcUFkVHIyV3o1bXFWbF8wMmphU3NBTWVHYWNRY2FySDM1b1lkX1BMSkNuaWtuem93VlBkamlzWDMtNllGdUNVUnhiek10aHF4QVVhRGNzZTZ4aUlPcw?oc=5",
-      "published": "2026-06-02T07:00:12+00:00",
-      "source": {
-        "name": "Presseportal.ch",
-        "url": "https://www.presseportal.ch"
-      }
-    },
-    {
       "id": "5cfa2762dc20",
       "title": "Gesundheit - GKV-Chef: \"Mehr gegen steigende Arzneimittelpreise tun\" - Deutschlandfunk",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdXlzU1VBOUhWa05wcTVDNnBBdHRkeDl5TnZ1S1A3T0swT2pKTjZlaU1pempxQVJkMXMySXBtd2xpaUk5WWN4Q1VyakdMbnN2eF9mRncxakUwN21WbGFQMWpuR2VoOG1tUDYtWERUbS1LSVpOdUNaTE1SWmhDSkVUdTlubVNEWGNtUXNaYk5tcTJibTRDZTJv?oc=5",
@@ -111,6 +101,16 @@
       "source": {
         "name": "Deutschlandfunk",
         "url": "https://www.deutschlandfunk.de"
+      }
+    },
+    {
+      "id": "7ed3f3afe48d",
+      "title": "Medikation einfach im Blick - Medi+ jetzt auch für alle Atupri Grundversicherten - Presseportal.ch",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAzczJCTDZIcUFkVHIyV3o1bXFWbF8wMmphU3NBTWVHYWNRY2FySDM1b1lkX1BMSkNuaWtuem93VlBkamlzWDMtNllGdUNVUnhiek10aHF4QVVhRGNzZTZ4aUlPcw?oc=5",
+      "published": "2026-06-02T07:00:12+00:00",
+      "source": {
+        "name": "Presseportal.ch",
+        "url": "https://www.presseportal.ch"
       }
     },
     {
@@ -224,26 +224,6 @@
       }
     },
     {
-      "id": "eff30738baed",
-      "title": "Magnesiumpräparate im Test: Viele sind überdosiert – und haben kritische Zusatzstoffe - Öko-Test",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNRHZZYWx0d3hyODU3VUFqa2NTOFp6TkVMQVpQYnRRcXNVMmN0UU9aaG5UV0xBeDAtQW9adVUxdnFGN0VRakpNbm9YYnJsV0JBcXBiajdLaTBCQUxxOXViN2VaWkgzQVpKM3hiWW5neEM4TGZDZ2dsRTlrSG1HU1FNOG9LNjhRZDFmNWlqOVJjaFgzdm1nNHdZLTZPMWNad3JmR2lkcXlrd0F0R1VqRDNfSDUzcWszYTdPLXdhNS1iMGdMWWF6UkJHWWszb3JFZHhHNGlCVjBDS0tNV281bHc?oc=5",
-      "published": "2026-05-27T07:00:00+00:00",
-      "source": {
-        "name": "Öko-Test",
-        "url": "https://www.oekotest.de"
-      }
-    },
-    {
-      "id": "36bba281c2c7",
-      "title": "Lebensgefahr: Kindersirup wegen Glassplitter-Gefahr zurückgerufen - Kurier",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSlMzVG5BV1VqZExiZHV1VEhibDdMLU5OSmtELTBWVVhSTmIxa2o4OHhybkJJVV9MbzdGQTJPR3dFRVh4RWNYMnAxc21ud2RNYkVvRm1CSmlIOERMN2Y3c1psOXJXUHdCTENhSURZTFhkZGJGTVotODdTcmxwZmdTOVF4MElqRmtfWER6Q3JUOA?oc=5",
-      "published": "2026-06-02T09:46:00+00:00",
-      "source": {
-        "name": "Kurier",
-        "url": "https://kurier.at"
-      }
-    },
-    {
       "id": "3843ee8c2190",
       "title": "Gesundheit - Beipackzettel von Medikamenten sollen digital werden - Ausdrucke in Apotheken sollen Option sein - Deutschlandfunk",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOclZxcXdzdDlfTXNBVkNkV1g0a1RMa05OWGcyX0RXaW5YMmpyUElhUnBJQU9QM3BzUG9iSFZnaWE0ek1iLTFQeE1wbkVhaDdrT3pVMERnT3l3VGhoOUtuS0EtT3pwazNMMGZmcmI1Z2puUHg1WWc5MzBXdHJma0l0dWNlNEhQdFdBUXF5X0V3OVRQWVA1RXFJNXJtbTVGMjNYQVlSWjNrdEttY0pQMXF0dWlwdGNUVWpFcF83a3RyX0oxSWpLaFVmc2NoVEhGNXc?oc=5",
@@ -251,6 +231,16 @@
       "source": {
         "name": "Deutschlandfunk",
         "url": "https://www.deutschlandfunk.de"
+      }
+    },
+    {
+      "id": "eff30738baed",
+      "title": "Magnesiumpräparate im Test: Viele sind überdosiert – und haben kritische Zusatzstoffe - Öko-Test",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNRHZZYWx0d3hyODU3VUFqa2NTOFp6TkVMQVpQYnRRcXNVMmN0UU9aaG5UV0xBeDAtQW9adVUxdnFGN0VRakpNbm9YYnJsV0JBcXBiajdLaTBCQUxxOXViN2VaWkgzQVpKM3hiWW5neEM4TGZDZ2dsRTlrSG1HU1FNOG9LNjhRZDFmNWlqOVJjaFgzdm1nNHdZLTZPMWNad3JmR2lkcXlrd0F0R1VqRDNfSDUzcWszYTdPLXdhNS1iMGdMWWF6UkJHWWszb3JFZHhHNGlCVjBDS0tNV281bHc?oc=5",
+      "published": "2026-05-27T07:00:00+00:00",
+      "source": {
+        "name": "Öko-Test",
+        "url": "https://www.oekotest.de"
       }
     },
     {
@@ -274,6 +264,16 @@
       }
     },
     {
+      "id": "36bba281c2c7",
+      "title": "Lebensgefahr: Kindersirup wegen Glassplitter-Gefahr zurückgerufen - Kurier",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSlMzVG5BV1VqZExiZHV1VEhibDdMLU5OSmtELTBWVVhSTmIxa2o4OHhybkJJVV9MbzdGQTJPR3dFRVh4RWNYMnAxc21ud2RNYkVvRm1CSmlIOERMN2Y3c1psOXJXUHdCTENhSURZTFhkZGJGTVotODdTcmxwZmdTOVF4MElqRmtfWER6Q3JUOA?oc=5",
+      "published": "2026-06-02T09:46:00+00:00",
+      "source": {
+        "name": "Kurier",
+        "url": "https://kurier.at"
+      }
+    },
+    {
       "id": "39655c0e5aa9",
       "title": "Gesundheit - Techniker Krankenkasse fordert geringere Medikamentenpreise - Deutschlandfunk",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOX3NDaWYzNk9TdlEwcHJfWDNzMFpsdFN5aUNwNHJTZjhocklJMURaWDlKdWdDR21aNHpwcDU5UGd6d285RXE0QUlvekdsd3VqMTdGazRKbFdRV0VLbVoxbzBNbXVJeElpcFJKTmxpTzAwcFhJZG5PSlhoQW1sTlUxaGNDTUttWmEwdEVMOHpMQWNYWmFmUkhRa2UzVzR2VVFP?oc=5",
@@ -284,9 +284,9 @@
       }
     },
     {
-      "id": "f14cd81cc672",
+      "id": "5d8c89f1b6f0",
       "title": "Gesundheitsökonom Kugler: \"Wir bezahlen nur wirklich nützliche Medikamente\" - MDR.de",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWDlDNjhEYjgwOHl4R3NZUWFqaEo4Qkd4OUZISDllZG9TcVJubHF1MnUwRVRPY2pZLWZFdlQzdktxelU5SktXdlBaSkIxcFJjN2dJUXJTYklvSFpOckcxSjdvRkxRM0RjRy0yUEtIRWVPWF9JZmNMc1d1NXFMWHFVajJ0LWY1cDh6Ql9aYmFUQnE4LVlGNUFIZW5IR0E5TU5nak5ESlB0d2hSU2U0UWJQeWRfZllHVkcyeGdMVi1uRlFFU25OV0dv0gHMAUFVX3lxTFBDRE5KS196aXdmbVJSaHplMGJBOEhyTVFtX2tXSzh1eGNJczdXZXhzaUZXcDMzOFZIaHFnOHVoRlM5eEVmN2dndGJxTVBwR05FUlZZLUdNMWFIT2xOVG8xcG44bjN3d05fVm1NNHpQbjZmRWduZ1dfT1d2U1FlMnJFNHk0dHY3VnNGTW5RNlBQTUFMdmtPUFBhMXdWSDlGUDFMSzUzSlBPMmFDVXVQTWYwVnNFOXk4S2t6SHZlU0ZhRjB5cDY3MjktTlcyNw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWDlDNjhEYjgwOHl4R3NZUWFqaEo4Qkd4OUZISDllZG9TcVJubHF1MnUwRVRPY2pZLWZFdlQzdktxelU5SktXdlBaSkIxcFJjN2dJUXJTYklvSFpOckcxSjdvRkxRM0RjRy0yUEtIRWVPWF9JZmNMc1d1NXFMWHFVajJ0LWY1cDh6Ql9aYmFUQnE4LVlGNUFIZW5IR0E5TU5nak5ESlB0d2hSU2U0UWJQeWRfZllHVkcyeGdMVi1uRlFFU25OV0dv?oc=5",
       "published": "2026-04-26T07:00:00+00:00",
       "source": {
         "name": "MDR.de",
@@ -454,16 +454,6 @@
       }
     },
     {
-      "id": "e1556f7ef1de",
-      "title": "Polypharmazie: Sechs Medikamente pro Patient verursachen jede vierte Krankenhauseinweisung - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUzRkeGhfT0hHdzRNVHBvZ2hvd2w2eHpUdTI1ZWR1OGFXMjlQRzVjbTlKalpyV3lJemFQUTJTWGVHT2xwUmFHM0NHMDJpSVprbDVWY1JMUTVxOEt4TExUMjhZM0pSOHgzeGk3NGRQaUFmTkRUb2MydUhIZmhwdHhOZTNCVE1Wc09YckVOYmJzMVFaQXAwR0d1bEk0VjFWclJCczdpNTVhSzRhLU1yRU9wU2hmWlBkdUU?oc=5",
-      "published": "2026-06-02T04:19:47+00:00",
-      "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "965e1762ff04",
       "title": "GKV in der Krise : Warken erwägt höhere Zuzahlungen für Arzneimittel - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdWlXOXMzZ2lzMTIwYlBfSUlPNFBUOEpGRkgzckx4QUQ4dVE2NVhRTzlZNTdPYm9halZadmVzQ0s3Z0VKUUNhUUFIOTFQQkhEQWttNGJ3SE9PQklubDU5WE8wZFQ1aFN2TnhEWUhBY3pzTU85dDRUWU1qVEF6dkxHN1NRYVl3M2tuTFdfUW5hQ1owSllpSjFYVHVTY1cwcHR5?oc=5",
@@ -481,6 +471,16 @@
       "source": {
         "name": "Tagesspiegel",
         "url": "https://www.tagesspiegel.de"
+      }
+    },
+    {
+      "id": "e1556f7ef1de",
+      "title": "Polypharmazie: Sechs Medikamente pro Patient verursachen jede vierte Krankenhauseinweisung - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUzRkeGhfT0hHdzRNVHBvZ2hvd2w2eHpUdTI1ZWR1OGFXMjlQRzVjbTlKalpyV3lJemFQUTJTWGVHT2xwUmFHM0NHMDJpSVprbDVWY1JMUTVxOEt4TExUMjhZM0pSOHgzeGk3NGRQaUFmTkRUb2MydUhIZmhwdHhOZTNCVE1Wc09YckVOYmJzMVFaQXAwR0d1bEk0VjFWclJCczdpNTVhSzRhLU1yRU9wU2hmWlBkdUU?oc=5",
+      "published": "2026-06-02T04:19:47+00:00",
+      "source": {
+        "name": "AD HOC NEWS",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
