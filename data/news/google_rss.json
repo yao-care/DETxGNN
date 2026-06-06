@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-06T14:42:21.567512+00:00",
+  "fetched_at": "2026-06-06T16:06:45.357202+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -34,16 +34,6 @@
       }
     },
     {
-      "id": "b75dab613f5c",
-      "title": "Ebola-Ausbruch: Wann kommen Impfstoffe und Medikamente? - RND.de",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVEoxNGZ0d2xCeV9mR3M1SWJzOTdDZDVlRVUwY2FhcnEyc1Q2MDJyQV95QU1DRkRldVNYYWtYdlU5T0ctd0NtZEFreTZHcHY4TDkxdEJjdDNzVlA2Nnl4VWFQczVna0xaZTR3aFhsV0JJWnBiNWs5QXRLZE9MMV9nZ2tDaVF1NHVxOW41LU1UZnVodTFsU25iUGd3X0llSGdDeTVtcmdRNnpkbUJsQ0tpZkF2UTRxcnRIX2xxWnpzSjlYTkZ6M1F3?oc=5",
-      "published": "2026-06-03T16:19:36+00:00",
-      "source": {
-        "name": "RND.de",
-        "url": "https://www.rnd.de"
-      }
-    },
-    {
       "id": "402bda3e2d0a",
       "title": "Gesundheit 2030 entscheidet sich heute - Presseportal",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9YYXRHY0YtUkxlZEo1VVE5MUU4SEZNYXBJaXU1UGt1WGlGNzdNS01nc1JmU3U5RXF5RTBBbk5lSUxiQnFCMjFLYlZZTGF1WjY3c1Jld1NGRQ?oc=5",
@@ -54,13 +44,13 @@
       }
     },
     {
-      "id": "a90452b79917",
-      "title": "Medizinische Nachrichten vom 5. Juni: Vorschlag zur Erhöhung des Erstattungssatzes für traditionelle Medizin durch die Krankenkassen. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQjVtTnRtdnpvNWV1cC1xdzdOaUtzQ0V2Y0dsY0xSUFFTbTNtakJHcmFNcjQyUWJyMFlfZU1KYmpjbzRWVU5ER2hmbWpLVVJieW5zR1NMN24tdlZMWU5CQXY2cjJyV1J2amlPQlVJY2ZIcHlLZTlOOE15aXJJMXUzQURwZ3N6VmFvMlAzMHhhNE5pMExUbUs0V3VWUWU4N0d5NEhzU3dxT21xdjhHVWNxcDdhN3dkcVlX?oc=5",
-      "published": "2026-06-06T07:33:43+00:00",
+      "id": "b75dab613f5c",
+      "title": "Ebola-Ausbruch: Wann kommen Impfstoffe und Medikamente? - RND.de",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVEoxNGZ0d2xCeV9mR3M1SWJzOTdDZDVlRVUwY2FhcnEyc1Q2MDJyQV95QU1DRkRldVNYYWtYdlU5T0ctd0NtZEFreTZHcHY4TDkxdEJjdDNzVlA2Nnl4VWFQczVna0xaZTR3aFhsV0JJWnBiNWs5QXRLZE9MMV9nZ2tDaVF1NHVxOW41LU1UZnVodTFsU25iUGd3X0llSGdDeTVtcmdRNnpkbUJsQ0tpZkF2UTRxcnRIX2xxWnpzSjlYTkZ6M1F3?oc=5",
+      "published": "2026-06-03T16:19:36+00:00",
       "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
+        "name": "RND.de",
+        "url": "https://www.rnd.de"
       }
     },
     {
@@ -71,6 +61,16 @@
       "source": {
         "name": "RP Online",
         "url": "https://rp-online.de"
+      }
+    },
+    {
+      "id": "a90452b79917",
+      "title": "Medizinische Nachrichten vom 5. Juni: Vorschlag zur Erhöhung des Erstattungssatzes für traditionelle Medizin durch die Krankenkassen. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQjVtTnRtdnpvNWV1cC1xdzdOaUtzQ0V2Y0dsY0xSUFFTbTNtakJHcmFNcjQyUWJyMFlfZU1KYmpjbzRWVU5ER2hmbWpLVVJieW5zR1NMN24tdlZMWU5CQXY2cjJyV1J2amlPQlVJY2ZIcHlLZTlOOE15aXJJMXUzQURwZ3N6VmFvMlAzMHhhNE5pMExUbUs0V3VWUWU4N0d5NEhzU3dxT21xdjhHVWNxcDdhN3dkcVlX?oc=5",
+      "published": "2026-06-06T07:33:43+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -134,16 +134,6 @@
       }
     },
     {
-      "id": "3b56a020b60b",
-      "title": "GKV-Spitzenverband: Stoff-Ahnis bittet Pharma zur Kasse - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOLTBUWG5VYVBIdzg0RmZFUlgyTDZBeGJ0SVZUMXhsd2s2RW5tR1hNelhhQlctMVF5WkVFUWp2VF8ybGJJRXNyZUZqcE1wbEJjb0pOSWNnVTNsSGN2dHIwXzZDZTlWNW51NVRGMGVQdC1IdjkwRm4wS09QaGl5aGZqeUJLWF8tdWxPeEE?oc=5",
-      "published": "2026-06-04T10:30:08+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "075a40db361f",
       "title": "Medikamente auf Reisen: Das darf ins Handgepäck - ADAC",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZmdDVl81RGdjdDZRNXNXSlRFTVhOSVpSQUlwUTlUelB6bnNFcVFRV09lQ2czNTdja0RsNHJVck00Y2hFVHZUM3kyaTRWOVZXWHQ0M182TVJrcGNGcUxtS1pFaU8wczRRRFRycTVmZnFmWE1lQ2g1eVVNekNQd3pSWWFHMnc1anVBY3plbTNB?oc=5",
@@ -151,56 +141,6 @@
       "source": {
         "name": "ADAC",
         "url": "https://www.adac.de"
-      }
-    },
-    {
-      "id": "1ff4f2d77cf8",
-      "title": "Premierminister: Wir werden die Arzneimittel- und Treibstoffverteilungssysteme zum Wohle der Arbeitnehmer drastisch reformieren. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMW1CSGZyTENObUFKT0VXNXU0R1JhV3hub203LU5acE9iRGlGRjNzYUR4dmZoZUYycUUxb0lLVkN2ZHYzdmFvSjdzQXpCd2lBVE1JZVd1N3ZjVjczeTRQVHJtUHViZl9sdFBnVDVJVEhYVm00T1ZCMnBzT094NTF5S01jTEtsQzdFOWYzTXBpWUJXUE1aRzZTNVAyandDX2dQYVJzOGt5VDNOM1poLTdIQmVLRUo?oc=5",
-      "published": "2026-06-05T12:33:07+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
-      "id": "56ead2a92356",
-      "title": "Reimann: Nötigung durch die Pharma-Industrie vor der ersten Lesung des GKV-Spargesetzes ist inakzeptabel - Presseportal",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9vVHRhekg0STVMdllQRTlrOTgybmR5dWQ1Q3F1S3RvcEtZMGc5WUVKM2RYR0V2MWl5OVFtbVBTa2xDXzk1V01iOXJFRGxzOFgzckE4LW13?oc=5",
-      "published": "2026-06-05T12:49:28+00:00",
-      "source": {
-        "name": "Presseportal",
-        "url": "https://www.presseportal.de"
-      }
-    },
-    {
-      "id": "20f9979eafe7",
-      "title": "Eckpunktepapier: Nachhaltigkeit schafft Versorgungssicherheit - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQcnlLS0w4VUx0ZDVGdGtIMEc3SzRscXgzTjk5NHJ1eDVZU29xSXNWMUhGQ2RYSHlsSzROVVQwRkh6TXA4eUwtOWliRUViNW5VdVZ4cmgyUHRtbExlS0NjMHcyUGtpejZIVUk3OS1NUTRTeXdJX1g3Q1dEM1U5UmgwVDZsV2hkMUU2ZWVwTW9DTGEtZ21jZEE?oc=5",
-      "published": "2026-06-03T12:55:32+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
-      "id": "94db24dd319c",
-      "title": "Das Gesundheitsministerium äußert sich zur Frage der Krankenversicherungsdeckung für teure Krebsmedikamente. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVzFnWWNua2JlYTBJeXpfeC1nRzViQnRmSjFrS3FOU1VMMi1CZ1Y2VWNiY0NlOV95NlN2N2RaaGxGRWJoWFpwSXVRSHgxMms5NWpleGVSN1hXc3RhVE1IMmhOZndQR0lTMHh4LW5TeGF5dFg4Z1BRTlNVaFEtREJCUGUwUERua2V3MmZnbnptMDhkYXI2eTFWVw?oc=5",
-      "published": "2026-06-04T17:13:43+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
-      "id": "ac1bf453b133",
-      "title": "Supplements: Apothekenteams ordnen Nahrungsergänzung ein - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZmhjd2k5Nm5uajhfbmttSG9lb05oLWdRR3k3Ri1sdEZzdDJTcE1WeDJHTVFYRmpLZzVYUWpYZC0zTWFBaUF3WlVmdER3QTRVb0E5VnQxRjlwOG9QVTFzeUdSOTI2dUxaYWtpX091Q3dpTk1oODBNM1hIOVpIdTV2R1oySkZucVBhdDRHd2dPenhpUmZ2UUE?oc=5",
-      "published": "2026-06-04T09:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -224,6 +164,56 @@
       }
     },
     {
+      "id": "20f9979eafe7",
+      "title": "Eckpunktepapier: Nachhaltigkeit schafft Versorgungssicherheit - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQcnlLS0w4VUx0ZDVGdGtIMEc3SzRscXgzTjk5NHJ1eDVZU29xSXNWMUhGQ2RYSHlsSzROVVQwRkh6TXA4eUwtOWliRUViNW5VdVZ4cmgyUHRtbExlS0NjMHcyUGtpejZIVUk3OS1NUTRTeXdJX1g3Q1dEM1U5UmgwVDZsV2hkMUU2ZWVwTW9DTGEtZ21jZEE?oc=5",
+      "published": "2026-06-03T12:55:32+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "94db24dd319c",
+      "title": "Das Gesundheitsministerium äußert sich zur Frage der Krankenversicherungsdeckung für teure Krebsmedikamente. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVzFnWWNua2JlYTBJeXpfeC1nRzViQnRmSjFrS3FOU1VMMi1CZ1Y2VWNiY0NlOV95NlN2N2RaaGxGRWJoWFpwSXVRSHgxMms5NWpleGVSN1hXc3RhVE1IMmhOZndQR0lTMHh4LW5TeGF5dFg4Z1BRTlNVaFEtREJCUGUwUERua2V3MmZnbnptMDhkYXI2eTFWVw?oc=5",
+      "published": "2026-06-04T17:13:43+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
+      "id": "56ead2a92356",
+      "title": "Reimann: Nötigung durch die Pharma-Industrie vor der ersten Lesung des GKV-Spargesetzes ist inakzeptabel - Presseportal",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9vVHRhekg0STVMdllQRTlrOTgybmR5dWQ1Q3F1S3RvcEtZMGc5WUVKM2RYR0V2MWl5OVFtbVBTa2xDXzk1V01iOXJFRGxzOFgzckE4LW13?oc=5",
+      "published": "2026-06-05T12:49:28+00:00",
+      "source": {
+        "name": "Presseportal",
+        "url": "https://www.presseportal.de"
+      }
+    },
+    {
+      "id": "ac1bf453b133",
+      "title": "Supplements: Apothekenteams ordnen Nahrungsergänzung ein - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZmhjd2k5Nm5uajhfbmttSG9lb05oLWdRR3k3Ri1sdEZzdDJTcE1WeDJHTVFYRmpLZzVYUWpYZC0zTWFBaUF3WlVmdER3QTRVb0E5VnQxRjlwOG9QVTFzeUdSOTI2dUxaYWtpX091Q3dpTk1oODBNM1hIOVpIdTV2R1oySkZucVBhdDRHd2dPenhpUmZ2UUE?oc=5",
+      "published": "2026-06-04T09:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "1fe059859008",
+      "title": "Minister Dao Hong Lan beantwortet auf dem 14. Kongress des vietnamesischen Gewerkschaftsbundes eine Reihe von Petitionen zu den Themen Gesundheit, Lebensmittelsicherheit und gefälschte Medikamente. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMEJaNDVrTndSNEFEdGgzeWxwaTFmOEdncHZGcUh5R0Z2aGZ1VF9Id3k0b1JoNi1ndnBTZWdZbVJ3ZTEyX2Q2c0pheERORTQ5UndWTXRMTXJEMVkzRWhybWNHWFJyeEYteHZpbFFfTUpLQUtYa3JUMFhsaER4azdvdW8tbzR5RUJQZ2VFcXFJT3ZrcHBTWmFLOUJCWHEtLWNFbVRrODN0aERmcEF2clpONHlxYnNsSmJwRHR4cE5uUmJCOUdSLUE?oc=5",
+      "published": "2026-06-05T03:30:42+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
       "id": "51e8c4b74840",
       "title": "Gesundheitsgefahr durch gefälschte Arzneimittel - Gesundheit.gv.at",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYlhNa1drQ3UydVU1Ti1QZWxOelZ2UDNkQTBsczZ4SzVIZGhQS3psTVQ5Zmw2Ujh2RGpDYzZ5TDdIbG5mYkFjRl9CX3JkS0FHQ2dlSGVZMlpRTmpva0xOX3hoTWhTM3VoZlB6bjJYbjRRcGp2NERXZmhoaEtyeGJhUDlSU0k0cURLRzNIc1FR?oc=5",
@@ -231,16 +221,6 @@
       "source": {
         "name": "Gesundheit.gv.at",
         "url": "https://www.gesundheit.gv.at"
-      }
-    },
-    {
-      "id": "0d7a9751f437",
-      "title": "GKV-Spitzenverband warnt vor Schonprogramm für Pharmaindustrie - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRTB6Y0YyQXBlaWNoS2xzaUF6eFRuWXNHdW9qZGdWd0tJYU9tV05ua2xRY2MzdTM2VkRmNHZJbHUyN3c0a0o5ZEpoSGhwRkdVcHRxMGhBY0ZpSmlQUTMyX2ozMzlMcnpFY3lKdnF3UThWWUNtVV9oZFJsZXZuUVhNb0dxbVVuMFZmYS1DV3dLTGVJUndOSkRmNlRXOEJsNmc?oc=5",
-      "published": "2026-06-04T04:53:44+00:00",
-      "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -271,6 +251,26 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "530b31cf9620",
+      "title": "Krebsmedikamente – ein teures „Ticket“ zum Überleben. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5XcnVBR1VkQUowR0RQdEZnZFZUOXFDQzFfOExPcmNZT3FXWV9MLXZla2hfNUs4WFRlZkE0dk0zRWJuVzFtSDVMZUM4RWdqeFBiMHRkUlBXZ2syOWtwUlYyekVMNnh4YkNoZ1E?oc=5",
+      "published": "2026-06-04T02:11:58+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
+      "id": "0d7a9751f437",
+      "title": "GKV-Spitzenverband warnt vor Schonprogramm für Pharmaindustrie - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRTB6Y0YyQXBlaWNoS2xzaUF6eFRuWXNHdW9qZGdWd0tJYU9tV05ua2xRY2MzdTM2VkRmNHZJbHUyN3c0a0o5ZEpoSGhwRkdVcHRxMGhBY0ZpSmlQUTMyX2ozMzlMcnpFY3lKdnF3UThWWUNtVV9oZFJsZXZuUVhNb0dxbVVuMFZmYS1DV3dLTGVJUndOSkRmNlRXOEJsNmc?oc=5",
+      "published": "2026-06-04T04:53:44+00:00",
+      "source": {
+        "name": "AD HOC NEWS",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -364,16 +364,6 @@
       }
     },
     {
-      "id": "3cd432f850c4",
-      "title": "Nahrungsergänzung: Jeder zweite Bürger hält sie fälschlicherweise für Medikamente - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSDZJU3JqTmJpYlRlOUY5UnVELUZDYl9wemVmQWNQeVotbkFMTzZIQmlVZDJFZjVSWm1ZYWE5MmlBNmx1S0lCZDRLaUtZYWhRY3BfZndiRGk5SkEtclZSNDZCRDNRM0N4T2F1Y0JnMlJuNS1NZE9fNDYwamZzeW9Lb0NyYTcxQlVjZF82Z0cxY0x0Z1BUdHVlRjhMbVZZMmRPZUtWTURIeWtHQzhKc1NmT2FkY2cyRDFqLWxGMDNKRQ?oc=5",
-      "published": "2026-06-04T19:21:39+00:00",
-      "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "11cdd0be15c8",
       "title": "Wie viel darf Gesundheit kosten? Streit um Medikamentenpreise eskaliert - WirtschaftsWoche",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMEkzamFzeFFHZEk3NjFIbFJmYjZvajlGOVMtcHo3aUZsWFlvdkcyMzFTODZXZFM1dWhNWU1lT3FVVDk4dlduRjBqV2paSEFVbkE2YWktMVJIanA4U3J2QW1rMnFtOUljc0pXb2hEbVNSWkxYdGlkRHRMRGE3aGpSYjlrU0FzN0RjN1dhWkJWZldkUmVpbm9xbXpSZmR3b0xGR2ZXQmdvVVZ4bWh5bmVNbkdOOU1rNEdiZElEc0NEeDE3LXpqVkE?oc=5",
@@ -391,6 +381,16 @@
       "source": {
         "name": "DIE ZEIT",
         "url": "https://www.zeit.de"
+      }
+    },
+    {
+      "id": "3cd432f850c4",
+      "title": "Nahrungsergänzung: Jeder zweite Bürger hält sie fälschlicherweise für Medikamente - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSDZJU3JqTmJpYlRlOUY5UnVELUZDYl9wemVmQWNQeVotbkFMTzZIQmlVZDJFZjVSWm1ZYWE5MmlBNmx1S0lCZDRLaUtZYWhRY3BfZndiRGk5SkEtclZSNDZCRDNRM0N4T2F1Y0JnMlJuNS1NZE9fNDYwamZzeW9Lb0NyYTcxQlVjZF82Z0cxY0x0Z1BUdHVlRjhMbVZZMmRPZUtWTURIeWtHQzhKc1NmT2FkY2cyRDFqLWxGMDNKRQ?oc=5",
+      "published": "2026-06-04T19:21:39+00:00",
+      "source": {
+        "name": "AD HOC NEWS",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -434,16 +434,6 @@
       }
     },
     {
-      "id": "abb80ebb1407",
-      "title": "Apotheken ab 2027: Impfungen, Blutentnahmen und Schnelltests erlaubt - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMXZfbVFhS01XNTU3RW1OcHR5U2M0MlNHS0VucFcwUE9ScUwxN1cwa0s4NVVLRTNsMEg0eEJQMzNON1ZHTml1TmlselJ3bUhzZ1U4eGxpXzMxaUVVdHZZOExmYTdXNGhOcjE1cVpEVzRNdTl2RWR1bkJ5UWk2SXVTQkRDaEdaN3d2OTZ5YndhN0tkNXJGdkEybld3cjk0VjZZd0U2MTQyRndvQThPN2JlNjg0RTN2dw?oc=5",
-      "published": "2026-06-05T05:02:05+00:00",
-      "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "4f1eeceab428",
       "title": "(S+) Wie teure Krebsmedikamente das Gesundheitssystem sprengen könnten - Spiegel",
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNOUFWLTYwSFp0U194b0duNHVfbTVjbzFKVUV0WG1MS1FkQ2hYdmg2OGp1dnlEQTk4SjVNUEpkWWpRaTVFZFFmcjFiNC02WXNvSEhIbmdUNDk4emxWQ2VnWWtHMUotcWhXUnVsMExGRWNvdllPcUd3dVRZTWR2ZUEteWZTeFEyS1M5ZzZqZUxDSUI2RTRqMnU4MVF4SEthWm1vZEd1YjZWYjZoLUIwRTlaZTVtRXZoZERXWC1DUGhLelpNZ0M2RXFQeDU4XzBfQ3ZWUFJUdDBVcDh2aExzVmc?oc=5",
@@ -461,6 +451,16 @@
       "source": {
         "name": "DIE ZEIT",
         "url": "https://www.zeit.de"
+      }
+    },
+    {
+      "id": "abb80ebb1407",
+      "title": "Apotheken ab 2027: Impfungen, Blutentnahmen und Schnelltests erlaubt - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMXZfbVFhS01XNTU3RW1OcHR5U2M0MlNHS0VucFcwUE9ScUwxN1cwa0s4NVVLRTNsMEg0eEJQMzNON1ZHTml1TmlselJ3bUhzZ1U4eGxpXzMxaUVVdHZZOExmYTdXNGhOcjE1cVpEVzRNdTl2RWR1bkJ5UWk2SXVTQkRDaEdaN3d2OTZ5YndhN0tkNXJGdkEybld3cjk0VjZZd0U2MTQyRndvQThPN2JlNjg0RTN2dw?oc=5",
+      "published": "2026-06-05T05:02:05+00:00",
+      "source": {
+        "name": "AD HOC NEWS",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -484,16 +484,6 @@
       }
     },
     {
-      "id": "6fef6c85cc7d",
-      "title": "Krebs und Ernährung: GLP-1-Medikamente senken Brustkrebs um 35% - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQTU1fampyWUE3SlpLc1NlYnhiWVF4SWVJcUMtcjNqa3BXV3RDMWp6ZVRaYWxJQVI3ZG9PV1FmcTdEang2OUN4SmhlQUtIVGdPQXlpY2NUWlFnSnE1ZF96RTllelNTWHBXUi0yMEtvWldNMk01elY2YUtVcEJ0dnJUdjNFNEdocWhwZkZXbkc2aFVoLUVlUmFNOWg3b0FlWHRfRVlGUHJFMkZxVUxfY29IZVQ0TURRWUlsZkE0?oc=5",
-      "published": "2026-06-04T15:05:45+00:00",
-      "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "85a03dbbfe05",
       "title": "Wahlkampf Baden-Württemberg: Rülke: »Gute Gesundheit geht nur mit öffentlichen Apotheken« - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbDY3aENWRUZGTC15UlN4YlFuU0JEdUkxREFqNzQtN282NElEbHZWRlRveVpDTzFUTml2c1ZYNTFUWnliQl81SC1VdVctWUk2UGJ6UWI4cW82Z1IydG5iN2FUR21ST3gweUJNOW94VGxkemJuRC1tY2NvZERfVndyekRMbFc0TjVIdGJYUGVGVzJnOFRRNS1RamtZb1F5b2VseUNPRUowYmVKUQ?oc=5",
@@ -511,6 +501,16 @@
       "source": {
         "name": "Fortune Business Insights",
         "url": "https://www.fortunebusinessinsights.com"
+      }
+    },
+    {
+      "id": "6fef6c85cc7d",
+      "title": "Krebs und Ernährung: GLP-1-Medikamente senken Brustkrebs um 35% - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQTU1fampyWUE3SlpLc1NlYnhiWVF4SWVJcUMtcjNqa3BXV3RDMWp6ZVRaYWxJQVI3ZG9PV1FmcTdEang2OUN4SmhlQUtIVGdPQXlpY2NUWlFnSnE1ZF96RTllelNTWHBXUi0yMEtvWldNMk01elY2YUtVcEJ0dnJUdjNFNEdocWhwZkZXbkc2aFVoLUVlUmFNOWg3b0FlWHRfRVlGUHJFMkZxVUxfY29IZVQ0TURRWUlsZkE0?oc=5",
+      "published": "2026-06-04T15:05:45+00:00",
+      "source": {
+        "name": "AD HOC NEWS",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
