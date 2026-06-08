@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-08T20:21:31.731080+00:00",
+  "fetched_at": "2026-06-08T22:28:33.585755+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -144,13 +144,13 @@
       }
     },
     {
-      "id": "38f92ce38a99",
-      "title": "Frankreich erstattet als erstes EU-Land Abnehmmittel - Euronews.com",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUGZUNmNqaW5tTWV1VXhXekNIaHZ6aWNkdmpQRXhmaUNZcXdJdG1LT0xpWU9mWmQ3OU9Zc2NMR2xfcXBNcnh6bWdhZHYyQ1FfaC1QNVBzOEdkS1o3RnVDZHh6X25nVHRnYmljNmRfTTRJa0VNODJjZjJSMzRMTDhVblo5bUtlR1BDamQxMnQ3VjRlY1p0UDY1WVduUHd6VnJPTlpYeGI1MWJKN2ZwV2Nqd0Q1cDRLZ1VlYmc?oc=5",
-      "published": "2026-05-28T07:00:00+00:00",
+      "id": "1ff4f2d77cf8",
+      "title": "Premierminister: Wir werden die Arzneimittel- und Treibstoffverteilungssysteme zum Wohle der Arbeitnehmer drastisch reformieren. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMW1CSGZyTENObUFKT0VXNXU0R1JhV3hub203LU5acE9iRGlGRjNzYUR4dmZoZUYycUUxb0lLVkN2ZHYzdmFvSjdzQXpCd2lBVE1JZVd1N3ZjVjczeTRQVHJtUHViZl9sdFBnVDVJVEhYVm00T1ZCMnBzT094NTF5S01jTEtsQzdFOWYzTXBpWUJXUE1aRzZTNVAyandDX2dQYVJzOGt5VDNOM1poLTdIQmVLRUo?oc=5",
+      "published": "2026-06-05T12:33:07+00:00",
       "source": {
-        "name": "Euronews.com",
-        "url": "https://de.euronews.com"
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -164,13 +164,13 @@
       }
     },
     {
-      "id": "1ff4f2d77cf8",
-      "title": "Premierminister: Wir werden die Arzneimittel- und Treibstoffverteilungssysteme zum Wohle der Arbeitnehmer drastisch reformieren. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMW1CSGZyTENObUFKT0VXNXU0R1JhV3hub203LU5acE9iRGlGRjNzYUR4dmZoZUYycUUxb0lLVkN2ZHYzdmFvSjdzQXpCd2lBVE1JZVd1N3ZjVjczeTRQVHJtUHViZl9sdFBnVDVJVEhYVm00T1ZCMnBzT094NTF5S01jTEtsQzdFOWYzTXBpWUJXUE1aRzZTNVAyandDX2dQYVJzOGt5VDNOM1poLTdIQmVLRUo?oc=5",
-      "published": "2026-06-05T12:33:07+00:00",
+      "id": "d9edf968b2d7",
+      "title": "»Spar­po­li­tik bei Arz­nei­mit­teln ist ein Irr­weg« - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZ3BYbThQLUVqMndzcmZ2RzJRTW5vb1o4dGhibU52alc0SUtlbFkxMkhCS1puYnNnelNOcnVtSl9iejVRNU1sNGxvZ0lZZVZkaWNnRGhWVWsxT1JobThfRzFVdnh6Q25Idzl3aGZZaThYdHBRYTUzNHRpX2VNZ0dGWHBjd3VEbDdERlhjOHhubnhHLXB2OWc?oc=5",
+      "published": "2026-03-30T07:00:00+00:00",
       "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -201,16 +201,6 @@
       "source": {
         "name": "tagesschau.de",
         "url": "https://www.tagesschau.de"
-      }
-    },
-    {
-      "id": "d9edf968b2d7",
-      "title": "»Spar­po­li­tik bei Arz­nei­mit­teln ist ein Irr­weg« - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZ3BYbThQLUVqMndzcmZ2RzJRTW5vb1o4dGhibU52alc0SUtlbFkxMkhCS1puYnNnelNOcnVtSl9iejVRNU1sNGxvZ0lZZVZkaWNnRGhWVWsxT1JobThfRzFVdnh6Q25Idzl3aGZZaThYdHBRYTUzNHRpX2VNZ0dGWHBjd3VEbDdERlhjOHhubnhHLXB2OWc?oc=5",
-      "published": "2026-03-30T07:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -444,16 +434,6 @@
       }
     },
     {
-      "id": "b027289bf54f",
-      "title": "EU-Generalanwalt: Versandverbot nein, aber ... - apotheke adhoc",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaGRRUFJ5MDV6WGZaTE84UlB3SU83OElpQ2dBVXJTMFRLWWFlSmN0alJ0eS1ZdF9zN09MZUhESFJDd2J1TVNQeHZRQ1ZLMVNtMC1OSm9DV01oVXhWVzRtOENHbUpnRE10akgwUnRyRmkzckZ1UFhIb05aM1ZLcVN1WkFKRUVRd3VaaWpZVUdraVRVdUtER2tIc1FjTWFqS3VIY0IzeERfWnJ4UQ?oc=5",
-      "published": "2026-01-13T08:00:00+00:00",
-      "source": {
-        "name": "apotheke adhoc",
-        "url": "https://www.apotheke-adhoc.de"
-      }
-    },
-    {
       "id": "e5c9f6b52b1b",
       "title": "Weil Gesundheit alles verändert - Handelsblatt Live",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9VQXU3d2J3REtJeXBaWlQ0UTVlRWJDR2U3cTBJRFNaVlBYenpnNmp1QXZJLXB1WFQxY1dOQjJhMGRwVVZTNEE2eWVMZVd0bVZTSzEyOHY2R0NVd2dKVllzVEM3NDRoNEZKUkthRDdSTHA?oc=5",
@@ -481,6 +461,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "b027289bf54f",
+      "title": "EU-Generalanwalt: Versandverbot nein, aber ... - apotheke adhoc",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaGRRUFJ5MDV6WGZaTE84UlB3SU83OElpQ2dBVXJTMFRLWWFlSmN0alJ0eS1ZdF9zN09MZUhESFJDd2J1TVNQeHZRQ1ZLMVNtMC1OSm9DV01oVXhWVzRtOENHbUpnRE10akgwUnRyRmkzckZ1UFhIb05aM1ZLcVN1WkFKRUVRd3VaaWpZVUdraVRVdUtER2tIc1FjTWFqS3VIY0IzeERfWnJ4UQ?oc=5",
+      "published": "2026-01-13T08:00:00+00:00",
+      "source": {
+        "name": "apotheke adhoc",
+        "url": "https://www.apotheke-adhoc.de"
       }
     },
     {
@@ -704,12 +694,12 @@
       }
     },
     {
-      "id": "8d1fc40266cd",
-      "title": "2025: Höchster Stand von Aufnahmen neuer Medikamente in die Spezialitätenliste - Bundesamt für Gesundheit BAG",
+      "id": "92f3ae2b28a0",
+      "title": "2025: Höchster Stand von Aufnahmen neuer Medikamente in die Spezialitätenliste - bag.admin.ch",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1HMEFNZWpPYzRReWJNTkhGRk11RnNpblJQVjNEdE1ISllXWlNUWk4yZFpWclRTOUl0M3ZJTXhSNmpMdEtuVkVWVnV3aEJXdWxld0l3dUVkdGszYnVuNEFxbldsSXNJamc?oc=5",
       "published": "2026-01-30T08:00:00+00:00",
       "source": {
-        "name": "Bundesamt für Gesundheit BAG",
+        "name": "bag.admin.ch",
         "url": "https://www.bag.admin.ch"
       }
     },
@@ -784,6 +774,16 @@
       }
     },
     {
+      "id": "1d9a64ea7e37",
+      "title": "Tunesien: Siphat nimmt die Produktion flüssiger Arzneimittel wieder auf – ein Schritt hin zu mehr Autonomie im Gesundheitswesen. - Agenzia Nova",
+      "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOaWlKQUl0T1Z2Q0Juc2RuZ2dsV0JRa2dMdFhQalkxcHNjZjV4RTQyTXBua0hSZTAwU2ltUXR5M3lub2JRdFN3aV9EajBXX3hTdkw2S21CTEdEa1d3WDU5R2xjVGxGZndocnNRVFh4TE54YzRYM3BIU2x6ckIzYXFsT0laa1FQX05mcU1ySG5Oc3hCZzZNbTFUS0RlckdpdGVieTVpVHZrLXFrV2hmRUNJZlVyUkRhNmlEU2ZueC1WSzRtZGpPb1YwcE1OVGRFU3VoX08tWjR6eTRsNlczQmN6S0owVHI0am1KVXd2aTFHZVkyRm5DZ2ZXREplQnM4ZElkWnlvbFBDcjI?oc=5",
+      "published": "2026-05-13T07:00:00+00:00",
+      "source": {
+        "name": "Agenzia Nova",
+        "url": "https://www.agenzianova.com"
+      }
+    },
+    {
       "id": "c764291ed284",
       "title": "Gefälschte Medikamente: Ein weltweites Problem - DW",
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNSzZjM0cwcm1ldnUzc0xrOER4cEk0a05ucnhNX1llWk1YeU9zVnlTeTVFM1lWWmhBR1RrZEJCODVQdlIwNWw3Zmg2N004NVpqa29HT2FBZ1BfUWN5T2hGQlkxc2ZvQWdWVThrdk9sUk80UWc5MXlzaGQ1NXZTYUxtUUNoWmVzR2F5YjRDejhGbU5ZeDBHOGstVGNXLUVEVm9LejJ1RmpUd0Q3T25xb3pxM3hzQVYwaDljcWNycHBPNjZyS3daSVJOU3U1ZU5tWWFMbnfSAdIBQVVfeXFMUDFiX1VoOC1ZdmxVR3o2Q3VRMTNhUUNEaVRHdFZneDJrblJSckE1Zk9icjFaWXZTMGlJMFhHTC13bjIwMjhwWS1mZTRrdU1WcXFyS1ZEQndLRXFtRUZELUJQeFlMRHZ0aUFYbFNjd3NYOUFUZmxHZ0hZMEFNc2xXTVlPN1NVc3RYY3dxd2F6V20xMGdMa215eG9majhKX25kbjRaSXdOR1NoT1JFQnBXM1VmaGdjMWt0Z2IxNDBvOTRiSUlBM250LWJtTTBOZjdJeGtB?oc=5",
@@ -801,16 +801,6 @@
       "source": {
         "name": "vdek - Verband der Ersatzkassen",
         "url": "https://www.vdek.com"
-      }
-    },
-    {
-      "id": "1d9a64ea7e37",
-      "title": "Tunesien: Siphat nimmt die Produktion flüssiger Arzneimittel wieder auf – ein Schritt hin zu mehr Autonomie im Gesundheitswesen. - Agenzia Nova",
-      "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOaWlKQUl0T1Z2Q0Juc2RuZ2dsV0JRa2dMdFhQalkxcHNjZjV4RTQyTXBua0hSZTAwU2ltUXR5M3lub2JRdFN3aV9EajBXX3hTdkw2S21CTEdEa1d3WDU5R2xjVGxGZndocnNRVFh4TE54YzRYM3BIU2x6ckIzYXFsT0laa1FQX05mcU1ySG5Oc3hCZzZNbTFUS0RlckdpdGVieTVpVHZrLXFrV2hmRUNJZlVyUkRhNmlEU2ZueC1WSzRtZGpPb1YwcE1OVGRFU3VoX08tWjR6eTRsNlczQmN6S0owVHI0am1KVXd2aTFHZVkyRm5DZ2ZXREplQnM4ZElkWnlvbFBDcjI?oc=5",
-      "published": "2026-05-13T07:00:00+00:00",
-      "source": {
-        "name": "Agenzia Nova",
-        "url": "https://www.agenzianova.com"
       }
     },
     {
@@ -904,16 +894,6 @@
       }
     },
     {
-      "id": "1f4bc771b399",
-      "title": "Medikamente bei Hitze: Diese Medikamente können im Sommer Nebenwirkungen verursachen - Öko-Test",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxONnA4aXcyN3Qxbllyc2ozV3dOcXZkTXlieFVkbE5yVVpjN2RCaEdBQnQxVVJJZTJJVVEzYWxZQkEza2NwQVJBeGlEZGpTT1lhQjhvTThDZ2xqQ1pLaDVRTlN4dzJMVm5xN1BGUmdQV1B1UGpUNV9aVDIwMHp1S1NXV2tQTktNdGtoazRlTnk1YTVPRGtLc0szbUZWWDFQWXJuM3prLUlZWFZFdmlxQVBSWnpzcEU5VkdlRFNGSTg5UlRHMzlUSUQ5LWZWS2dETWpWVmF3eTY1YVdMZklW?oc=5",
-      "published": "2025-07-21T07:00:00+00:00",
-      "source": {
-        "name": "Öko-Test",
-        "url": "https://www.oekotest.de"
-      }
-    },
-    {
       "id": "57b0829df279",
       "title": "»Plan­wirt­schaft ist nicht das Rich­ti­ge für die Ge­sund­heits­ver­sor­gung« - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcG1ZWXgwNk5DU0ZDbktUVWxzd01qd3VPY3ZDOTVlZFZYY0J3c1FOeXdqV1Y4SkthZFdkalVlUEZtQlhPZmJhc25wQ0w4TjBoSkRENGZtSjEzN2x5NlFzTGZ4eEVzdUtVdjl1RkFSMENLczQwMjBjTzFRSVNiaGNHVDlfT3hvMHJYXzF2NVBlb2RnLWNrLVR5RFlteExqeTQtYTFXTVBneVU1REhPUF84Yjhqd2gwZw?oc=5",
@@ -921,6 +901,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "1f4bc771b399",
+      "title": "Medikamente bei Hitze: Diese Medikamente können im Sommer Nebenwirkungen verursachen - Öko-Test",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxONnA4aXcyN3Qxbllyc2ozV3dOcXZkTXlieFVkbE5yVVpjN2RCaEdBQnQxVVJJZTJJVVEzYWxZQkEza2NwQVJBeGlEZGpTT1lhQjhvTThDZ2xqQ1pLaDVRTlN4dzJMVm5xN1BGUmdQV1B1UGpUNV9aVDIwMHp1S1NXV2tQTktNdGtoazRlTnk1YTVPRGtLc0szbUZWWDFQWXJuM3prLUlZWFZFdmlxQVBSWnpzcEU5VkdlRFNGSTg5UlRHMzlUSUQ5LWZWS2dETWpWVmF3eTY1YVdMZklW?oc=5",
+      "published": "2025-07-21T07:00:00+00:00",
+      "source": {
+        "name": "Öko-Test",
+        "url": "https://www.oekotest.de"
       }
     },
     {
@@ -1001,6 +991,16 @@
       "source": {
         "name": "World Health Organization (WHO)",
         "url": "https://www.who.int"
+      }
+    },
+    {
+      "id": "36ba94ffc7ea",
+      "title": "Neue EU-Abwasserrichtlinie: Diabetes-Medikament Metformin vor dem Aus? - tagesschau.de",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9VSWQzMjBDYlBsWS1OYXlsa0swTUdiUXFCYUZhQ2drUjVmMk9Eci14eUFmUTA0bmYzTmUtTHJoQXpEaWhTeGREcldERHNMMVFscERHUnlLTXR0TUxWLWdmUEZuZW9HM2Frdl9uSVZGOGFuamhjdi1CZFVR?oc=5",
+      "published": "2025-06-05T07:00:00+00:00",
+      "source": {
+        "name": "tagesschau.de",
+        "url": "https://www.tagesschau.de"
       }
     }
   ]
