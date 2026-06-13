@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-13T19:38:58.868650+00:00",
+  "fetched_at": "2026-06-13T21:18:13.763934+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -7,7 +7,7 @@
       "id": "2568d666e0b6",
       "title": "Prostatakrebs: „Wir glauben, dass solche Therapien langfristig zu Heilungen führen können“ - WELT",
       "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQRF9BN2xJc21BTDVFU2Z4bzFWSWFpSUlXMVVtRFRCME5mYnV5N1lPckdQcDN2eW9LTXI2WUtGUmF3Q0Nyb2xoSXhvaUtmNmVZWG96R25FTTZ5Z0tuU2lVVzhxY3hDOU1wX0p1djNCekRnV0FCVmxLbTJMUEd1RF9VVzlnSVA2cnA0X01NaXh1UkN5MUU0TDNTWXMydXRVeFRwaU1ld09uT2QwM1k2N3paejl6RWVYNV9CdV9KVXJoRDBBSVlzWW0zRFpDa0ZhdktUZnZIWnVsMFdMWkpDS0FDMHhZMUQxYnRZdmNZXw?oc=5",
-      "published": "2026-06-13T18:46:10+00:00",
+      "published": "2026-06-13T20:08:27+00:00",
       "source": {
         "name": "WELT",
         "url": "https://www.welt.de"
@@ -34,6 +34,16 @@
       }
     },
     {
+      "id": "39508e48e731",
+      "title": "Apothekenreform: Welche Änderungen für Apotheken und Medikamente künftig gelten - WirtschaftsWoche",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOb1JjcV9fRVUteG1WOHhDQVVoODdDZHMxUjVLNk81WThLbHF5VXVrclk2TEtjbzk2WnJaYlhNWWo4SVVFTlMwc0RzU1JZZXJZdHpYcENMc2loZjB4TldRVElkU0w0ZlFNYi1hR3U3TjBLMTBGNmM1UURCSUhwS2lIYWo0NkhWZkpLZWlHdjFFSWYyUi1aYkgzVloxWUwyM2d3c3dDdHkzQ285MFU3TUpjOG84M20wYUViUDJkQXlVZ1hNQmpRRzl6OHBDN1U5Y0QyYlE?oc=5",
+      "published": "2026-06-12T09:55:35+00:00",
+      "source": {
+        "name": "WirtschaftsWoche",
+        "url": "https://www.wiwo.de"
+      }
+    },
+    {
       "id": "805ae4498d74",
       "title": "Impfung, Blutabnahme, Beratung: Apotheken bekommen neue Macht – Ärzte warnen - T-Online",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVDN5REJqQjhZWDV5NU9tRE9tWDQ2X0c3TXYxQVRMX3FtMlFPSE9HSDZYeWNFTXhGWGhRM1dUY2d3X0RucGczV21RTkhkeE1ESFVIM2M5a19wajJNZWpDLU5qTlo3a01jOXlUam1HZzN0aWVVakxsMGRhcV9aWE5ya0tLNmtLQlhSdFhqRXFTeThFcXZSWE90UUgwZVZnelJBemhQVUNHbmQ4YXAtUnZQOUtqaHVVZ3VBWGJzcHZn?oc=5",
@@ -54,12 +64,12 @@
       }
     },
     {
-      "id": "5024252cd1dc",
-      "title": "Die Abnehmpille kommt – was Sie jetzt wissen müssen - Geo.de",
+      "id": "d4a16446bc06",
+      "title": "Die Abnehmpille kommt – was Sie jetzt wissen müssen - geo.de",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUkNQbmxNWGZyQ2FtTU1Wdk4wS1dhZmJ5ZXBqRldlcFZqdU0wRWE2d2lMQmR3WDYzOHdFYlpIS1g4ZEk1aHhjTVh1Uzh1SEJ4MDFtUzdPcXVjaktkVWRZZlcxYkxrdEpqaUZ2ZkVRU083TmFsdk8xa1dYQW1mOFRQOE5TNlJlQjh2LVA1OVZ5NkhTSm8wZURuUC1keEZjNGg1a3c?oc=5",
       "published": "2026-06-12T13:55:00+00:00",
       "source": {
-        "name": "Geo.de",
+        "name": "geo.de",
         "url": "https://www.geo.de"
       }
     },
@@ -164,23 +174,13 @@
       }
     },
     {
-      "id": "5cfa2762dc20",
-      "title": "Gesundheit - GKV-Chef: \"Mehr gegen steigende Arzneimittelpreise tun\" - Deutschlandfunk",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdXlzU1VBOUhWa05wcTVDNnBBdHRkeDl5TnZ1S1A3T0swT2pKTjZlaU1pempxQVJkMXMySXBtd2xpaUk5WWN4Q1VyakdMbnN2eF9mRncxakUwN21WbGFQMWpuR2VoOG1tUDYtWERUbS1LSVpOdUNaTE1SWmhDSkVUdTlubVNEWGNtUXNaYk5tcTJibTRDZTJv?oc=5",
-      "published": "2026-03-15T07:00:00+00:00",
+      "id": "c219923c3276",
+      "title": "Offene Fragen zu Antidepressiva - Gute Pillen – Schlechte Pillen - das Magazin - Steady",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZl9YRGF2UUNyQkl3elVGU1VIUExzUkJrVXVtTGg2TlRMSWw3dTFyMlRQeUdlR0hpalZvZDZYOTFIUERaWS1Pb3VEdWM2cWtaMThnc0NDejktbzZPZjdJSF9oSjFWRjVXOXQtMFl1OGJwdS1XdE5lWkhNU2FVcXhCV3JhZEE0QzJpbG02eUNyV0UycnZGWUZR?oc=5",
+      "published": "2026-06-13T20:51:14+00:00",
       "source": {
-        "name": "Deutschlandfunk",
-        "url": "https://www.deutschlandfunk.de"
-      }
-    },
-    {
-      "id": "e55e30521cda",
-      "title": "Vorschläge der FinanzKommission Gesundheit für eine Reform der GKV - Taylor Wessing",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQVJuN0Fwenp0QU9hM01mSTRlR1ZxUzBfaExuWkRPSVIxQTBmb21HMGJ3Umd1b2Q5NjlpTkZWdnlsWU5RdG4tYmV2YWlldnhEREpzVmdLaURVbVpCR2pFRDY5Z1d6VW53bGtvaGgwTkRMeFMzeWI5WDJNd2ZXdTl4WkJTRURfbEstNXlJaXdzNGlwQTF5dHJ2Mjg1bFlJTW1SajFpM3VpMEtDdXZuNWplY3NnTQ?oc=5",
-      "published": "2026-05-04T09:31:59+00:00",
-      "source": {
-        "name": "Taylor Wessing",
-        "url": "https://www.taylorwessing.com"
+        "name": "Steady",
+        "url": "https://steady.page"
       }
     },
     {
@@ -201,6 +201,26 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "5cfa2762dc20",
+      "title": "Gesundheit - GKV-Chef: \"Mehr gegen steigende Arzneimittelpreise tun\" - Deutschlandfunk",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdXlzU1VBOUhWa05wcTVDNnBBdHRkeDl5TnZ1S1A3T0swT2pKTjZlaU1pempxQVJkMXMySXBtd2xpaUk5WWN4Q1VyakdMbnN2eF9mRncxakUwN21WbGFQMWpuR2VoOG1tUDYtWERUbS1LSVpOdUNaTE1SWmhDSkVUdTlubVNEWGNtUXNaYk5tcTJibTRDZTJv?oc=5",
+      "published": "2026-03-15T07:00:00+00:00",
+      "source": {
+        "name": "Deutschlandfunk",
+        "url": "https://www.deutschlandfunk.de"
+      }
+    },
+    {
+      "id": "e55e30521cda",
+      "title": "Vorschläge der FinanzKommission Gesundheit für eine Reform der GKV - Taylor Wessing",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQVJuN0Fwenp0QU9hM01mSTRlR1ZxUzBfaExuWkRPSVIxQTBmb21HMGJ3Umd1b2Q5NjlpTkZWdnlsWU5RdG4tYmV2YWlldnhEREpzVmdLaURVbVpCR2pFRDY5Z1d6VW53bGtvaGgwTkRMeFMzeWI5WDJNd2ZXdTl4WkJTRURfbEstNXlJaXdzNGlwQTF5dHJ2Mjg1bFlJTW1SajFpM3VpMEtDdXZuNWplY3NnTQ?oc=5",
+      "published": "2026-05-04T09:31:59+00:00",
+      "source": {
+        "name": "Taylor Wessing",
+        "url": "https://www.taylorwessing.com"
       }
     },
     {
@@ -934,16 +954,6 @@
       }
     },
     {
-      "id": "6eaac0e35900",
-      "title": "Ukraine: Von der Europäischen Union finanzierte Kliniken für die primäre Gesundheitsversorgung verändern das Leben von Patienten - World Health Organization (WHO)",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNbDQ0OTlwYWJLOTJYdnhPLWpjTGJhZ0R6Q1lzblVyc0hNZUZsUUxXZWRBYmt0VVo0dGpEY3pKUlFCY0NtUk02MDQ0VmhzQk01TlZJcHZMamt5OGFvdWkzVFpjOVBhWVd4S1Y5bFJMRGdVM25TSFVJUWdqb0ZRSlJhcDdYSktVckIxVTY2UkhXd04zZTA4c1VvYnRwcC1JaVdBNDl3UmpISUQwV1NhZHNUT0hXZ2pSWHlwMEpFcERHZ0JuSXRqT0s1OTdrWG1QeE5ETVBTVzRzb3I4QTNNZzlFWGZvcVR2NzV4?oc=5",
-      "published": "2025-07-04T07:00:00+00:00",
-      "source": {
-        "name": "World Health Organization (WHO)",
-        "url": "https://www.who.int"
-      }
-    },
-    {
       "id": "781b7b5013b5",
       "title": "Hendrik Streeck wirft Frage nach teuren Medikamenten für sehr Alte auf - STERN.de",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNN1JrNFg0ZXh4dVBQLTJfdU9ORHBmWC1vTGlDT1Y1RkFJZm80QkhtY3JqUEtadDFHcE5GVWFQRVc5V3VYVzZtVWFwdS0xTFl4c2FKT2VDY1owOHc4b1pxeVZLUnJVWWp6WXZLd012YnlZXzRHdm1vNWN0MFNGVzRteUZNekFFR1dDTklBei04cTA0M1RvM2YwWWxPVk05aW1wWHBFX0wwTV9zTGgxcVU4SHBRUkRyMzRR?oc=5",
@@ -951,6 +961,16 @@
       "source": {
         "name": "STERN.de",
         "url": "https://www.stern.de"
+      }
+    },
+    {
+      "id": "6eaac0e35900",
+      "title": "Ukraine: Von der Europäischen Union finanzierte Kliniken für die primäre Gesundheitsversorgung verändern das Leben von Patienten - World Health Organization (WHO)",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNbDQ0OTlwYWJLOTJYdnhPLWpjTGJhZ0R6Q1lzblVyc0hNZUZsUUxXZWRBYmt0VVo0dGpEY3pKUlFCY0NtUk02MDQ0VmhzQk01TlZJcHZMamt5OGFvdWkzVFpjOVBhWVd4S1Y5bFJMRGdVM25TSFVJUWdqb0ZRSlJhcDdYSktVckIxVTY2UkhXd04zZTA4c1VvYnRwcC1JaVdBNDl3UmpISUQwV1NhZHNUT0hXZ2pSWHlwMEpFcERHZ0JuSXRqT0s1OTdrWG1QeE5ETVBTVzRzb3I4QTNNZzlFWGZvcVR2NzV4?oc=5",
+      "published": "2025-07-04T07:00:00+00:00",
+      "source": {
+        "name": "World Health Organization (WHO)",
+        "url": "https://www.who.int"
       }
     },
     {
@@ -981,26 +1001,6 @@
       "source": {
         "name": "European Parliament",
         "url": "https://www.europarl.europa.eu"
-      }
-    },
-    {
-      "id": "c764291ed284",
-      "title": "Gefälschte Medikamente: Ein weltweites Problem - DW",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNSzZjM0cwcm1ldnUzc0xrOER4cEk0a05ucnhNX1llWk1YeU9zVnlTeTVFM1lWWmhBR1RrZEJCODVQdlIwNWw3Zmg2N004NVpqa29HT2FBZ1BfUWN5T2hGQlkxc2ZvQWdWVThrdk9sUk80UWc5MXlzaGQ1NXZTYUxtUUNoWmVzR2F5YjRDejhGbU5ZeDBHOGstVGNXLUVEVm9LejJ1RmpUd0Q3T25xb3pxM3hzQVYwaDljcWNycHBPNjZyS3daSVJOU3U1ZU5tWWFMbnfSAdIBQVVfeXFMUDFiX1VoOC1ZdmxVR3o2Q3VRMTNhUUNEaVRHdFZneDJrblJSckE1Zk9icjFaWXZTMGlJMFhHTC13bjIwMjhwWS1mZTRrdU1WcXFyS1ZEQndLRXFtRUZELUJQeFlMRHZ0aUFYbFNjd3NYOUFUZmxHZ0hZMEFNc2xXTVlPN1NVc3RYY3dxd2F6V20xMGdMa215eG9majhKX25kbjRaSXdOR1NoT1JFQnBXM1VmaGdjMWt0Z2IxNDBvOTRiSUlBM250LWJtTTBOZjdJeGtB?oc=5",
-      "published": "2025-08-04T07:00:00+00:00",
-      "source": {
-        "name": "DW",
-        "url": "https://www.dw.com"
-      }
-    },
-    {
-      "id": "4cef3d18379d",
-      "title": "Postpartale Depression: EU-Kommission lässt erstes Medikament gegen Wochenbettdepression zu - DIE ZEIT",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTGhkZHhVbEhybF8tcmgwLXYwSnBDSWhnRnFkMW42cGJTR2R2ck1EZ0VxS0cxYWV0MTlpYUhYT3NGX1AzcmRZZXpBWS1NNjRpc1JFSXJsS2xNZGF5QUxHMnRwSU9CMUR6el9qekFCdEU0bW9Gb3Vza09KTUtfWVZfclY0Wm9DSDZfOVlTMERMMA?oc=5",
-      "published": "2025-09-17T07:00:00+00:00",
-      "source": {
-        "name": "DIE ZEIT",
-        "url": "https://www.zeit.de"
       }
     }
   ]
