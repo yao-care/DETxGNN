@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-15T23:46:47.602946+00:00",
+  "fetched_at": "2026-06-16T04:23:05.320046+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -14,20 +14,10 @@
       }
     },
     {
-      "id": "f46409ab979a",
-      "title": "Arzneimittelwerbung: Das wird sich ändern - Deutsche Apotheker Zeitung, DAZ",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQemlpVWQ1VkF6UHNzS1VDVzVsVFhFR09PQ3U0QkJSamx6anVQYTNVZUoyQmQwdm9ibVlocnZqRVUzWkV5YW42bkVKZDF3NDZ2dy14U0FPRGZ2LVpDQllIeFBpU3NDR3BudGNvRzNLSHJfUTlkampDVFN2YmNQdmE3R1YyWkx3dVpoNGRuRHc0SHVhc1hSakh0U1FnNjBEWndDVHR6dW9ha29LaW8?oc=5",
-      "published": "2026-06-15T05:00:00+00:00",
-      "source": {
-        "name": "Deutsche Apotheker Zeitung, DAZ",
-        "url": "https://www.deutsche-apotheker-zeitung.de"
-      }
-    },
-    {
       "id": "2568d666e0b6",
       "title": "Prostatakrebs: „Wir glauben, dass solche Therapien langfristig zu Heilungen führen können“ - WELT",
       "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQRF9BN2xJc21BTDVFU2Z4bzFWSWFpSUlXMVVtRFRCME5mYnV5N1lPckdQcDN2eW9LTXI2WUtGUmF3Q0Nyb2xoSXhvaUtmNmVZWG96R25FTTZ5Z0tuU2lVVzhxY3hDOU1wX0p1djNCekRnV0FCVmxLbTJMUEd1RF9VVzlnSVA2cnA0X01NaXh1UkN5MUU0TDNTWXMydXRVeFRwaU1ld09uT2QwM1k2N3paejl6RWVYNV9CdV9KVXJoRDBBSVlzWW0zRFpDa0ZhdktUZnZIWnVsMFdMWkpDS0FDMHhZMUQxYnRZdmNZXw?oc=5",
-      "published": "2026-06-15T22:16:57+00:00",
+      "published": "2026-06-16T04:19:28+00:00",
       "source": {
         "name": "WELT",
         "url": "https://www.welt.de"
@@ -54,23 +44,13 @@
       }
     },
     {
-      "id": "472653d8dff2",
-      "title": "vdek: Ausgabenexplosion konsequent begrenzen. Keine weiteren Abstriche beim GKV-Spargesetz - gesundheit adhoc",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNd2tDcTQ0NGpCUmZSMjN3QzhjUXZjSTBYVlp1U1JlQmhQenk0RmVTX2lwWTBHQzdDSFI4M2ZESVBUcTBwY0U2TE9rUUQwUFF4R2djamVGM2U2MGRoVlIzbGc1QzctZzloSnMwV09hMlFHYTZXYzJ5Q2tHZXZ2OGJvcmdyUXVSTFZxWHJDT1Jjb1d3SVloNTl1aUh5WXk3bFlhR2ZNbGtBSVExdW8wMVotS2JhNWNHN2JFc2FJY05R?oc=5",
-      "published": "2026-06-15T14:05:59+00:00",
+      "id": "f46409ab979a",
+      "title": "Arzneimittelwerbung: Das wird sich ändern - Deutsche Apotheker Zeitung, DAZ",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQemlpVWQ1VkF6UHNzS1VDVzVsVFhFR09PQ3U0QkJSamx6anVQYTNVZUoyQmQwdm9ibVlocnZqRVUzWkV5YW42bkVKZDF3NDZ2dy14U0FPRGZ2LVpDQllIeFBpU3NDR3BudGNvRzNLSHJfUTlkampDVFN2YmNQdmE3R1YyWkx3dVpoNGRuRHc0SHVhc1hSakh0U1FnNjBEWndDVHR6dW9ha29LaW8?oc=5",
+      "published": "2026-06-15T05:00:00+00:00",
       "source": {
-        "name": "gesundheit adhoc",
-        "url": "https://www.gesundheit-adhoc.de"
-      }
-    },
-    {
-      "id": "3e768c68ba08",
-      "title": "Neue Regelungen zur kostenlosen Medikamentenversorgung von Patienten treten am 10. Juli in Kraft. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOamJZMXMzeTJpRmhVVUtyNXh0TnZucU9kSzh0eEdDTUMyUGlKV2J6YkE5Tzhhc3dVam5RUlIyRmxXQ194T2VXZkR4c1ZqTlZrSVB1SkRLSEZZTnljX0tkYnNFQ1BiNGEwa3FhRWppNTY4NHFEZTVMYmdjR0VRRDVUQ2FoTVUtOGNyOEJVeW8zZw?oc=5",
-      "published": "2026-06-15T14:07:49+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
+        "name": "Deutsche Apotheker Zeitung, DAZ",
+        "url": "https://www.deutsche-apotheker-zeitung.de"
       }
     },
     {
@@ -81,6 +61,16 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "3e768c68ba08",
+      "title": "Neue Regelungen zur kostenlosen Medikamentenversorgung von Patienten treten am 10. Juli in Kraft. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOamJZMXMzeTJpRmhVVUtyNXh0TnZucU9kSzh0eEdDTUMyUGlKV2J6YkE5Tzhhc3dVam5RUlIyRmxXQ194T2VXZkR4c1ZqTlZrSVB1SkRLSEZZTnljX0tkYnNFQ1BiNGEwa3FhRWppNTY4NHFEZTVMYmdjR0VRRDVUQ2FoTVUtOGNyOEJVeW8zZw?oc=5",
+      "published": "2026-06-15T14:07:49+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -154,63 +144,13 @@
       }
     },
     {
-      "id": "5024252cd1dc",
-      "title": "Die Abnehmpille kommt – was Sie jetzt wissen müssen - Geo.de",
+      "id": "d4a16446bc06",
+      "title": "Die Abnehmpille kommt – was Sie jetzt wissen müssen - geo.de",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUkNQbmxNWGZyQ2FtTU1Wdk4wS1dhZmJ5ZXBqRldlcFZqdU0wRWE2d2lMQmR3WDYzOHdFYlpIS1g4ZEk1aHhjTVh1Uzh1SEJ4MDFtUzdPcXVjaktkVWRZZlcxYkxrdEpqaUZ2ZkVRU083TmFsdk8xa1dYQW1mOFRQOE5TNlJlQjh2LVA1OVZ5NkhTSm8wZURuUC1keEZjNGg1a3c?oc=5",
       "published": "2026-06-12T13:55:00+00:00",
       "source": {
-        "name": "Geo.de",
+        "name": "geo.de",
         "url": "https://www.geo.de"
-      }
-    },
-    {
-      "id": "1d292dd926ab",
-      "title": "Kammer Sachsen-Anhalt: Apotheken als Vorreiter der digitalen Entwicklung - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPampIajdUWlNVLTQ3Wk9Dd2VtM3Vld3RESVZtenlDUGJHM3BaTkN0TWE5b3ZmQzVfZWdYOEdwaVhRaTFBQVExRG5mcGpwTFJBenlUVDlYQzlLaFBZZ01mNHNFM0Z4X1BLN1NVcFA3LTlXR0dxYlZKTWtES05ENkt0S0swSDBfRU9YWlppWmZkT3RYbE94R0pqb1IwSTA?oc=5",
-      "published": "2026-06-15T12:32:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
-      "id": "990a3fed1501",
-      "title": "Das Gesundheitsministerium setzt Regelungen zum kostenlosen Medikamentenunterstützungsprogramm um. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcU5aT3RMdkY3UmpjcDRaUkFhVmJPM1RKbzBKWUFmU055ZmFZNWU4ckpIZTllRG4xYjdURXAyNnVEd2FuQ0MwdTVuS3NNSDhFQ0x0d21xc3ZEWFc4R1pYNGt6QXRWeWJiekZ4VVpLXzBJTXpoNG5hWE8tWW11MEZhMWhGU0ExMS05YzRfWUdnUGFBZkVGSEhRNXN6NA?oc=5",
-      "published": "2026-06-15T07:46:14+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
-      "id": "9f7c377ed6d2",
-      "title": "MFN-Modell USA: Wie US-Arzneimittelpolitik Innovationen in Europa ausbremst - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWkw5ZTd1QUxfTlBDNjVEc0paTWpvTFpfTE9lOFM3YnhiWnBBREVhRzlMQnRmWDdkREJzVlg3UnZCN2RsTC1aTkhtN19oX2dEYmVLdXk4MXFBUnVGakk3YzVfbjZVQ0E0MUtPN2JZZ08wQ05yaTFLNER1dVYzZEo5UldOVldfQ0lCbGNRWEJZbUg0R3JBaGp6Mm1DTGd2eTYzWE9GV1hvenRGWHhOZXBxMHJMY09GUQ?oc=5",
-      "published": "2026-04-16T07:55:26+00:00",
-      "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
-      }
-    },
-    {
-      "id": "98c15fde0f7b",
-      "title": "Gesundheitsministerium: Kostenlose Begleitmedikamente müssen transparent verwaltet und nur gemäß ärztlicher Verordnung zur Behandlung eingesetzt werden. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTjRrck56YmZ6ZUFwOVY5aGJuTVdjSC1ILVgtTkRrc0JDUzluMWR5b3JkdGMtSHgtYTNfdVFPT1VSakl4LVlxMGF5TE04RTNyMXk3bFFKckdWbEI0cTBkVlF1dHE2SnpYanE2NW1RWXVGTHNOenpJWlloWXlZSS0zWjVMd2dtdDFUVVEzY3o2SWpicDRSbXFXaXJOalV4OC1HLVpnVnFFWmotUQ?oc=5",
-      "published": "2026-06-15T08:45:14+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
-      "id": "25ed4694c8fe",
-      "title": "„Eine Therapie, die nicht zur Diagnose passt“ - Deutsche Apotheker Zeitung, DAZ",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOE5CbFN4TGFzLWluTkVZTnlKQ3R1OGI3eGZnN3BmYWhKLVpMU3NKNER0OHJEVzdQMlZ5dnp3RVNUdzFfUXpacXVqQmpfb3JScmZaTG9uMnhiTUFXdjB3VXl2QnctMlZJQjJBZXcyNjVXd3RvanQxcmxvUmJ0MnVraGEtQ3JFZWt5R3hPYVJxTERRS1V3bzlVdzZjSHBaWDRxWlVuM1pxc2kwTU13?oc=5",
-      "published": "2026-06-11T04:30:00+00:00",
-      "source": {
-        "name": "Deutsche Apotheker Zeitung, DAZ",
-        "url": "https://www.deutsche-apotheker-zeitung.de"
       }
     },
     {
@@ -234,10 +174,40 @@
       }
     },
     {
-      "id": "c396d738729a",
-      "title": "Höre heute mit dem Rauchen auf – sei morgen gesünder. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBEV2NmSDJTSjJrbzJ2VllsQWlXTDhya25yek0yU0w2MnNmclhxVkJzcW9jRHJxYTJORkUxcVF0Nl82aDJuTWVBRTU0eGMyT09zUEZLaTBmNVJ5TWxGZEVINGhQam56c29oalVqcUF4YS0?oc=5",
-      "published": "2026-06-15T13:18:45+00:00",
+      "id": "1d292dd926ab",
+      "title": "Kammer Sachsen-Anhalt: Apotheken als Vorreiter der digitalen Entwicklung - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPampIajdUWlNVLTQ3Wk9Dd2VtM3Vld3RESVZtenlDUGJHM3BaTkN0TWE5b3ZmQzVfZWdYOEdwaVhRaTFBQVExRG5mcGpwTFJBenlUVDlYQzlLaFBZZ01mNHNFM0Z4X1BLN1NVcFA3LTlXR0dxYlZKTWtES05ENkt0S0swSDBfRU9YWlppWmZkT3RYbE94R0pqb1IwSTA?oc=5",
+      "published": "2026-06-15T12:32:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "9f7c377ed6d2",
+      "title": "MFN-Modell USA: Wie US-Arzneimittelpolitik Innovationen in Europa ausbremst - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWkw5ZTd1QUxfTlBDNjVEc0paTWpvTFpfTE9lOFM3YnhiWnBBREVhRzlMQnRmWDdkREJzVlg3UnZCN2RsTC1aTkhtN19oX2dEYmVLdXk4MXFBUnVGakk3YzVfbjZVQ0E0MUtPN2JZZ08wQ05yaTFLNER1dVYzZEo5UldOVldfQ0lCbGNRWEJZbUg0R3JBaGp6Mm1DTGd2eTYzWE9GV1hvenRGWHhOZXBxMHJMY09GUQ?oc=5",
+      "published": "2026-04-16T07:55:26+00:00",
+      "source": {
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "25ed4694c8fe",
+      "title": "„Eine Therapie, die nicht zur Diagnose passt“ - Deutsche Apotheker Zeitung, DAZ",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOE5CbFN4TGFzLWluTkVZTnlKQ3R1OGI3eGZnN3BmYWhKLVpMU3NKNER0OHJEVzdQMlZ5dnp3RVNUdzFfUXpacXVqQmpfb3JScmZaTG9uMnhiTUFXdjB3VXl2QnctMlZJQjJBZXcyNjVXd3RvanQxcmxvUmJ0MnVraGEtQ3JFZWt5R3hPYVJxTERRS1V3bzlVdzZjSHBaWDRxWlVuM1pxc2kwTU13?oc=5",
+      "published": "2026-06-11T04:30:00+00:00",
+      "source": {
+        "name": "Deutsche Apotheker Zeitung, DAZ",
+        "url": "https://www.deutsche-apotheker-zeitung.de"
+      }
+    },
+    {
+      "id": "990a3fed1501",
+      "title": "Das Gesundheitsministerium setzt Regelungen zum kostenlosen Medikamentenunterstützungsprogramm um. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcU5aT3RMdkY3UmpjcDRaUkFhVmJPM1RKbzBKWUFmU055ZmFZNWU4ckpIZTllRG4xYjdURXAyNnVEd2FuQ0MwdTVuS3NNSDhFQ0x0d21xc3ZEWFc4R1pYNGt6QXRWeWJiekZ4VVpLXzBJTXpoNG5hWE8tWW11MEZhMWhGU0ExMS05YzRfWUdnUGFBZkVGSEhRNXN6NA?oc=5",
+      "published": "2026-06-15T07:46:14+00:00",
       "source": {
         "name": "Vietnam.vn",
         "url": "https://www.vietnam.vn"
@@ -264,6 +234,16 @@
       }
     },
     {
+      "id": "3843ee8c2190",
+      "title": "Gesundheit - Beipackzettel von Medikamenten sollen digital werden - Ausdrucke in Apotheken sollen Option sein - Deutschlandfunk",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOclZxcXdzdDlfTXNBVkNkV1g0a1RMa05OWGcyX0RXaW5YMmpyUElhUnBJQU9QM3BzUG9iSFZnaWE0ek1iLTFQeE1wbkVhaDdrT3pVMERnT3l3VGhoOUtuS0EtT3pwazNMMGZmcmI1Z2puUHg1WWc5MzBXdHJma0l0dWNlNEhQdFdBUXF5X0V3OVRQWVA1RXFJNXJtbTVGMjNYQVlSWjNrdEttY0pQMXF0dWlwdGNUVWpFcF83a3RyX0oxSWpLaFVmc2NoVEhGNXc?oc=5",
+      "published": "2026-03-12T07:00:00+00:00",
+      "source": {
+        "name": "Deutschlandfunk",
+        "url": "https://www.deutschlandfunk.de"
+      }
+    },
+    {
       "id": "77affb477e9d",
       "title": "Medikamente ohne Rezept: Was sich jetzt in Apotheken für alle Kundinnen und Kunden ändert - Express",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQOXo1WGNxc05TbGJrNEZIMFg0a0ZQaER5UHhLbnBBMnhoR2FTbldSWEVCaWxDSlFvMXVtUG42VGZ3azdSOFUzcDA3Wk1EcWtiYXd1NUx4Ykh3SmtxaHo2UEJsOFVrdFkyYnJoclM0NlpXSkl3NzJqX1d2d0dwQkJ6LTdrVi1pV2xscTBIN2dfckpyU3haWG56UlRPN05ybUFOMTZvUVZMOU0zdmNXX3VGTWkwU3luMWNFZHdwOQ?oc=5",
@@ -274,13 +254,13 @@
       }
     },
     {
-      "id": "3843ee8c2190",
-      "title": "Gesundheit - Beipackzettel von Medikamenten sollen digital werden - Ausdrucke in Apotheken sollen Option sein - Deutschlandfunk",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOclZxcXdzdDlfTXNBVkNkV1g0a1RMa05OWGcyX0RXaW5YMmpyUElhUnBJQU9QM3BzUG9iSFZnaWE0ek1iLTFQeE1wbkVhaDdrT3pVMERnT3l3VGhoOUtuS0EtT3pwazNMMGZmcmI1Z2puUHg1WWc5MzBXdHJma0l0dWNlNEhQdFdBUXF5X0V3OVRQWVA1RXFJNXJtbTVGMjNYQVlSWjNrdEttY0pQMXF0dWlwdGNUVWpFcF83a3RyX0oxSWpLaFVmc2NoVEhGNXc?oc=5",
-      "published": "2026-03-12T07:00:00+00:00",
+      "id": "98c15fde0f7b",
+      "title": "Gesundheitsministerium: Kostenlose Begleitmedikamente müssen transparent verwaltet und nur gemäß ärztlicher Verordnung zur Behandlung eingesetzt werden. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTjRrck56YmZ6ZUFwOVY5aGJuTVdjSC1ILVgtTkRrc0JDUzluMWR5b3JkdGMtSHgtYTNfdVFPT1VSakl4LVlxMGF5TE04RTNyMXk3bFFKckdWbEI0cTBkVlF1dHE2SnpYanE2NW1RWXVGTHNOenpJWlloWXlZSS0zWjVMd2dtdDFUVVEzY3o2SWpicDRSbXFXaXJOalV4OC1HLVpnVnFFWmotUQ?oc=5",
+      "published": "2026-06-15T08:45:14+00:00",
       "source": {
-        "name": "Deutschlandfunk",
-        "url": "https://www.deutschlandfunk.de"
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -304,6 +284,16 @@
       }
     },
     {
+      "id": "e55e30521cda",
+      "title": "Vorschläge der FinanzKommission Gesundheit für eine Reform der GKV - Taylor Wessing",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQVJuN0Fwenp0QU9hM01mSTRlR1ZxUzBfaExuWkRPSVIxQTBmb21HMGJ3Umd1b2Q5NjlpTkZWdnlsWU5RdG4tYmV2YWlldnhEREpzVmdLaURVbVpCR2pFRDY5Z1d6VW53bGtvaGgwTkRMeFMzeWI5WDJNd2ZXdTl4WkJTRURfbEstNXlJaXdzNGlwQTF5dHJ2Mjg1bFlJTW1SajFpM3VpMEtDdXZuNWplY3NnTQ?oc=5",
+      "published": "2026-05-04T09:31:59+00:00",
+      "source": {
+        "name": "Taylor Wessing",
+        "url": "https://www.taylorwessing.com"
+      }
+    },
+    {
       "id": "432315fa2251",
       "title": "Erstmals Medikament gegen Fettleber zugelassen - tagesschau.de",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPQnhCQmdtRXhCd0ZKc1FDYzViaTZEblZ5TjJNWDBvZ3ptX2g0OENQemNDUk1sWGh5T1FrOEtvaGtSSDItcXlieVd0cDVfdDF0a2U3clFWSGlvd21wUWtwVzI4UEZIZ1BBUlVJSC16SExXaWFDTlF6YlNjMk96a2pEYnpVRm1rQQ?oc=5",
@@ -324,13 +314,13 @@
       }
     },
     {
-      "id": "e55e30521cda",
-      "title": "Vorschläge der FinanzKommission Gesundheit für eine Reform der GKV - Taylor Wessing",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQVJuN0Fwenp0QU9hM01mSTRlR1ZxUzBfaExuWkRPSVIxQTBmb21HMGJ3Umd1b2Q5NjlpTkZWdnlsWU5RdG4tYmV2YWlldnhEREpzVmdLaURVbVpCR2pFRDY5Z1d6VW53bGtvaGgwTkRMeFMzeWI5WDJNd2ZXdTl4WkJTRURfbEstNXlJaXdzNGlwQTF5dHJ2Mjg1bFlJTW1SajFpM3VpMEtDdXZuNWplY3NnTQ?oc=5",
-      "published": "2026-05-04T09:31:59+00:00",
+      "id": "c396d738729a",
+      "title": "Höre heute mit dem Rauchen auf – sei morgen gesünder. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBEV2NmSDJTSjJrbzJ2VllsQWlXTDhya25yek0yU0w2MnNmclhxVkJzcW9jRHJxYTJORkUxcVF0Nl82aDJuTWVBRTU0eGMyT09zUEZLaTBmNVJ5TWxGZEVINGhQam56c29oalVqcUF4YS0?oc=5",
+      "published": "2026-06-15T13:18:45+00:00",
       "source": {
-        "name": "Taylor Wessing",
-        "url": "https://www.taylorwessing.com"
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -354,16 +344,6 @@
       }
     },
     {
-      "id": "f7a3ebb98eb8",
-      "title": "Zwei weitere Krebsmedikamente wurden in Vietnam eingeführt. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPTFltYktOMW9sNFZxOFIybjhVREp0THNNWGdVekNXWlJQQVEzZEQ2VzVlX0VpSDNtenY2NThVX0VYMm9ub1NxSk0zOWpHdmp5ZkhxaG1jZFJiZUZtOWFlTnFsc1BrX2NDSy1oT3J4U3RHbm1xNWJHYS1vSThycFRuWA?oc=5",
-      "published": "2026-06-15T13:05:14+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "d60d4f4ff5ae",
       "title": "Gesundheit - Auch SoVD fordert Maßnahmen gegen steigende Arzneimittelpreise - Deutschlandfunk",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNmF3c1ZhS2dyTG9MdkxYcjU4OHB6ZU8yNExEbkpFYVpBZWRfeDFWN3BHOS0wdVNheXF5Tzh0bGoxeTZONGw1R001LVNCWlI0UTNsNHo2cGFjbEw0V3B4dmZIbUVxYnhfb25tRDF6SXhvVUtZN0ZkaVFTZnZMYUg1MEZ2X0YwQ1hvWG54eTNVb09sNXlxUzd3cHVmdWJJbEJiNlI1ZjdB?oc=5",
@@ -371,16 +351,6 @@
       "source": {
         "name": "Deutschlandfunk",
         "url": "https://www.deutschlandfunk.de"
-      }
-    },
-    {
-      "id": "5d8c89f1b6f0",
-      "title": "Gesundheitsökonom Kugler: \"Wir bezahlen nur wirklich nützliche Medikamente\" - MDR.de",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWDlDNjhEYjgwOHl4R3NZUWFqaEo4Qkd4OUZISDllZG9TcVJubHF1MnUwRVRPY2pZLWZFdlQzdktxelU5SktXdlBaSkIxcFJjN2dJUXJTYklvSFpOckcxSjdvRkxRM0RjRy0yUEtIRWVPWF9JZmNMc1d1NXFMWHFVajJ0LWY1cDh6Ql9aYmFUQnE4LVlGNUFIZW5IR0E5TU5nak5ESlB0d2hSU2U0UWJQeWRfZllHVkcyeGdMVi1uRlFFU25OV0dv?oc=5",
-      "published": "2026-04-26T07:00:00+00:00",
-      "source": {
-        "name": "MDR.de",
-        "url": "https://www.mdr.de"
       }
     },
     {
@@ -394,6 +364,16 @@
       }
     },
     {
+      "id": "5d8c89f1b6f0",
+      "title": "Gesundheitsökonom Kugler: \"Wir bezahlen nur wirklich nützliche Medikamente\" - MDR.de",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWDlDNjhEYjgwOHl4R3NZUWFqaEo4Qkd4OUZISDllZG9TcVJubHF1MnUwRVRPY2pZLWZFdlQzdktxelU5SktXdlBaSkIxcFJjN2dJUXJTYklvSFpOckcxSjdvRkxRM0RjRy0yUEtIRWVPWF9JZmNMc1d1NXFMWHFVajJ0LWY1cDh6Ql9aYmFUQnE4LVlGNUFIZW5IR0E5TU5nak5ESlB0d2hSU2U0UWJQeWRfZllHVkcyeGdMVi1uRlFFU25OV0dv?oc=5",
+      "published": "2026-04-26T07:00:00+00:00",
+      "source": {
+        "name": "MDR.de",
+        "url": "https://www.mdr.de"
+      }
+    },
+    {
       "id": "589684016df5",
       "title": "BStabG: Eingriffe bei Arzneimittelpreisen gefährden Versorgung - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeUNoTTU4eDVHeGxhbnMxaEROTFJyVEt6bXZSVHQ4TndNMXNfRDJ6aWF4cU9PQTlJc09uZEVUV2NMal82emdObUhlTkU5X3dNWHlFWDFiWWc0WVJyUDJYUFNndVhsUFI1WW8yelkxTnpGdk50TmFPTnFWNmxJcE1tZ1IxRnpqVU5EeWdqb0pwMmg2M0FFQi1UZDh6aGdHaXhCeHhjbWNEeXMzS19S?oc=5",
@@ -401,6 +381,26 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "f7a3ebb98eb8",
+      "title": "Zwei weitere Krebsmedikamente wurden in Vietnam eingeführt. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPTFltYktOMW9sNFZxOFIybjhVREp0THNNWGdVekNXWlJQQVEzZEQ2VzVlX0VpSDNtenY2NThVX0VYMm9ub1NxSk0zOWpHdmp5ZkhxaG1jZFJiZUZtOWFlTnFsc1BrX2NDSy1oT3J4U3RHbm1xNWJHYS1vSThycFRuWA?oc=5",
+      "published": "2026-06-15T13:05:14+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
+      "id": "0791514ec89d",
+      "title": "Steigende Arzneimittelkosten: Gesundheitsministerin Warken will Zugang zu neuen Medikamenten für alle erhalten - MDR.de",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPenF3ckVCSXl3ZmNka21FSTVtdkdoeGRZaEQ4Nnc4ZktKZk16U0ZUd19vYWRsZDdQUDZZLVFCd2k2anZScnRpSnJtXzRCbEozRm9fMEpkcVhjZ3dwT21zQVZPX2MybWdSUHBNeTZ3TmtESDFOWFNfM0lPV1Z4M3BmUTNkLTRfVGgxRUh4OWNOblh5ZGdCaUs5WXZmR2VVaVV5d1VHR1BHUFhubGtCWlFyZWk3VnhWZjdpWE9jNE5B?oc=5",
+      "published": "2025-12-09T08:00:00+00:00",
+      "source": {
+        "name": "MDR.de",
+        "url": "https://www.mdr.de"
       }
     },
     {
@@ -421,16 +421,6 @@
       "source": {
         "name": "DIE ZEIT",
         "url": "https://www.zeit.de"
-      }
-    },
-    {
-      "id": "0791514ec89d",
-      "title": "Steigende Arzneimittelkosten: Gesundheitsministerin Warken will Zugang zu neuen Medikamenten für alle erhalten - MDR.de",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPenF3ckVCSXl3ZmNka21FSTVtdkdoeGRZaEQ4Nnc4ZktKZk16U0ZUd19vYWRsZDdQUDZZLVFCd2k2anZScnRpSnJtXzRCbEozRm9fMEpkcVhjZ3dwT21zQVZPX2MybWdSUHBNeTZ3TmtESDFOWFNfM0lPV1Z4M3BmUTNkLTRfVGgxRUh4OWNOblh5ZGdCaUs5WXZmR2VVaVV5d1VHR1BHUFhubGtCWlFyZWk3VnhWZjdpWE9jNE5B?oc=5",
-      "published": "2025-12-09T08:00:00+00:00",
-      "source": {
-        "name": "MDR.de",
-        "url": "https://www.mdr.de"
       }
     },
     {
@@ -664,16 +654,6 @@
       }
     },
     {
-      "id": "9c95d8f4f77d",
-      "title": "Schmerzmittel bis Herzmedikament: Studie deckt Herzrisiken bekannter Arzneimittel auf - T-Online",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQOTUycWFza29aLXVaYWh1cDlGN0NTX3NsbUVXWVpManp4Rnk1a3dQYTB3c3pfSkU0MVBBSEM2NXhZaHBSYUVNa2RSMDJCcm9JanctZWtUZXQ5TlpOZmNsMWprM3BPU1ZPVmFmMGU2aW1QZmlRclpEYkNwZWVyaTRnRW5uMEFvdEwzS0FNOVNCWWtiLWlqdkRMT2x4LTF0amZrSXhOcEJPRGFIU3ZMbE9reW9OeWw1YVVtQU5iMmNOaFpkWTZ3RS1V?oc=5",
-      "published": "2026-03-26T07:00:00+00:00",
-      "source": {
-        "name": "T-Online",
-        "url": "https://www.t-online.de"
-      }
-    },
-    {
       "id": "42f984299fe2",
       "title": "Apotheken schlagen Alarm: Medikamenten-Engpässe drohen - ZDFheute",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPX1BYUUNyUEFvd2tlZmtVUUZiR2xwR29INjIyY0lzOEJNbFJ5c1VfQWRKaTNaQnZzOE9obk9kTEpBWTRlUjFIeXRrSG0wOHRXck5vQVNKRUVhUVA3cnhBajI1TnJWOUxmYmJmVndyYXFVNzBTbWtCalJjMlh4ck5hRTFzT2d6WnJ3ai1hY3dVcFVkdFRoVzh1QzhRN0ZGR2YxYjUzREtEZWxtZw?oc=5",
@@ -691,6 +671,16 @@
       "source": {
         "name": "Allgemeine Zeitung",
         "url": "https://www.allgemeine-zeitung.de"
+      }
+    },
+    {
+      "id": "9c95d8f4f77d",
+      "title": "Schmerzmittel bis Herzmedikament: Studie deckt Herzrisiken bekannter Arzneimittel auf - T-Online",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQOTUycWFza29aLXVaYWh1cDlGN0NTX3NsbUVXWVpManp4Rnk1a3dQYTB3c3pfSkU0MVBBSEM2NXhZaHBSYUVNa2RSMDJCcm9JanctZWtUZXQ5TlpOZmNsMWprM3BPU1ZPVmFmMGU2aW1QZmlRclpEYkNwZWVyaTRnRW5uMEFvdEwzS0FNOVNCWWtiLWlqdkRMT2x4LTF0amZrSXhOcEJPRGFIU3ZMbE9reW9OeWw1YVVtQU5iMmNOaFpkWTZ3RS1V?oc=5",
+      "published": "2026-03-26T07:00:00+00:00",
+      "source": {
+        "name": "T-Online",
+        "url": "https://www.t-online.de"
       }
     },
     {
@@ -724,16 +714,6 @@
       }
     },
     {
-      "id": "5e8af6f947c1",
-      "title": "Gesundheit: Medikament gegen Wochenbettdepression in der EU zugelassen - DIE ZEIT",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcVJrX1Z5dGF0Z0I2TURaOHJvZXhNdGdOYmUxWkYxeGpvOE5SeW53dXhzTGNOTE1YZEFtRkt4SDNhRzZGbGZRNXpERFBmV1dfcXMxNjNHNl9NS3hXb1J5OE9rNFcwUEJ2am9oOEQxN21MNVVSdlh0OVFpLVBJakNHVUZTYUdvV1NRT2N0d3ZXYUFzcUtoOVMxUmxB?oc=5",
-      "published": "2025-09-17T07:00:00+00:00",
-      "source": {
-        "name": "DIE ZEIT",
-        "url": "https://www.zeit.de"
-      }
-    },
-    {
       "id": "20a64d917dfc",
       "title": "Medikamente für Senioren: Studie warnt vor riskanten Wirkstoffen - Berliner Morgenpost",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZ29BeW1jeXNBMHJfUWNHT1RfQWNhcG9TUzJwbE11cl9XN1VvWElYUmJORUxoclg3R08xa3VsaXhSMlBnSlE2ZkhOdWF2Z0lVempDdE9XMnBZcEVQUm5KVDBaM0I0ZWpxdzBYbkxYOWtjOGN1ZGxCUkh5TDUzeUxJc0F1dm55XzdHMEwyNUZheFRiaFdKUGtUR1JmYXRGelY0UlM3OFh4SkExRGFTVWZFamxqYXFQOHRCZjFTQThnbjRWU1JMcEM0?oc=5",
@@ -741,6 +721,16 @@
       "source": {
         "name": "Berliner Morgenpost",
         "url": "https://www.morgenpost.de"
+      }
+    },
+    {
+      "id": "5e8af6f947c1",
+      "title": "Gesundheit: Medikament gegen Wochenbettdepression in der EU zugelassen - DIE ZEIT",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcVJrX1Z5dGF0Z0I2TURaOHJvZXhNdGdOYmUxWkYxeGpvOE5SeW53dXhzTGNOTE1YZEFtRkt4SDNhRzZGbGZRNXpERFBmV1dfcXMxNjNHNl9NS3hXb1J5OE9rNFcwUEJ2am9oOEQxN21MNVVSdlh0OVFpLVBJakNHVUZTYUdvV1NRT2N0d3ZXYUFzcUtoOVMxUmxB?oc=5",
+      "published": "2025-09-17T07:00:00+00:00",
+      "source": {
+        "name": "DIE ZEIT",
+        "url": "https://www.zeit.de"
       }
     },
     {
@@ -1001,6 +991,16 @@
       "source": {
         "name": "SWR",
         "url": "https://www.swr.de"
+      }
+    },
+    {
+      "id": "5dee3dcf6cfb",
+      "title": "Schmerzmittel mit sehr häufigen Nebenwirkungen: Diclofenac kann Erbrechen und Durchfall auslösen - NDR.de",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONW5WWkRJVVJXbkd3U1AtaVNma2ZPS05YTkhVU1lwNi1FYTRPYzBVUUY4THdqalNvajBKV3dMWFlUQ3l3elE5UVVQMnRMTGN2RHNfUEM1SlZjaUl5SU1KaDYzcEw5MGxnSENDa00ybzdWeWs5OFo0dFRjcUtCSllzTmZuRnctcFZ6SXdhdGUzTmVhNElpUW1wZE1pajlZd1EzaVZvWEdkMFJ0SjJJ?oc=5",
+      "published": "2025-09-23T07:00:00+00:00",
+      "source": {
+        "name": "NDR.de",
+        "url": "https://www.ndr.de"
       }
     }
   ]
