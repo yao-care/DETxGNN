@@ -1,8 +1,18 @@
 {
-  "fetched_at": "2026-06-18T04:10:16.302582+00:00",
+  "fetched_at": "2026-06-18T09:15:32.689735+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
+    {
+      "id": "a8ab1fb57671",
+      "title": "Welche Medikamente im Sommer gefährlich werden können - STERN.de",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZWREZkpJQWZQeGFaaTE4Y3NHcjVGM3JRbWRXUmRVNGRkanpVNnV2a0JTdkxMZ19rYmhUekhKQmR3Z2s0WU93NFhHb1RFbDVKRVlsZnRzZUF2ZUh4UnlveVdwZlpqSzlFeXVpWjczOE1tZlpPaU5fS0xhUjJ1NWdjYVU1RU5iQXJYdkZJd0FjNFdBbVMyMDJaYjJYcWVyN08yelVINXVGd21nZw?oc=5",
+      "published": "2026-06-18T06:34:00+00:00",
+      "source": {
+        "name": "STERN.de",
+        "url": "https://www.stern.de"
+      }
+    },
     {
       "id": "ba96bb5c2c8b",
       "title": "EU-Gesundheitskommissar prüft Folgen von Trumps Preisdruck auf Medikamente - Euronews",
@@ -44,16 +54,6 @@
       }
     },
     {
-      "id": "f46409ab979a",
-      "title": "Arzneimittelwerbung: Das wird sich ändern - Deutsche Apotheker Zeitung, DAZ",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQemlpVWQ1VkF6UHNzS1VDVzVsVFhFR09PQ3U0QkJSamx6anVQYTNVZUoyQmQwdm9ibVlocnZqRVUzWkV5YW42bkVKZDF3NDZ2dy14U0FPRGZ2LVpDQllIeFBpU3NDR3BudGNvRzNLSHJfUTlkampDVFN2YmNQdmE3R1YyWkx3dVpoNGRuRHc0SHVhc1hSakh0U1FnNjBEWndDVHR6dW9ha29LaW8?oc=5",
-      "published": "2026-06-15T05:00:00+00:00",
-      "source": {
-        "name": "Deutsche Apotheker Zeitung, DAZ",
-        "url": "https://www.deutsche-apotheker-zeitung.de"
-      }
-    },
-    {
       "id": "9ace6c5aad6d",
       "title": "Säureblocker gegen Sodbrennen: Warum viele Betroffene sie zu häufig und zu lange einnehmen - ZDFheute",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMHdLN2JFN2pySU45TXExN0JlT2NVSjMtazJDWlVLd29LUjdoeWJwdjVna0kzM3NpN2Z1MjBzWjlmN2t6MlppZVFzamk4R0NNaFQ2aTRhc0tPUHpzSTdwREhYaXBTY3RvMG5vaXJ1cDh4bnZmSWdFVTdFdDEwV1pEYWdULUFjQ0RsaXlUSWNKYXBkMkxiM1VtYlNMcWlWYnc0ZzVJbEtIbw?oc=5",
@@ -64,13 +64,13 @@
       }
     },
     {
-      "id": "9aeb510c4c53",
-      "title": "Geplantes GKV-Spargesetz - Spart Deutschland am falschen Ende? - Presseportal",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9lVnpnN01iZVpYRHU2czYxaXpwMEtaWjVmS2dmbS1aLWtwVE5ELURMaVlHdzJYMk44bzJfenpjQ2wwcjhicVJpYnVOeUdfbjh4SWEwWFJ0bw?oc=5",
-      "published": "2026-06-17T09:47:25+00:00",
+      "id": "9ca3cbedf580",
+      "title": "Durchbruch bei einer der tödlichsten Krebsarten? - WEB.DE",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdV9uRDhvYnhpa0MtSHJHWTIxaGZWaVVjelBFTWFsa3c1T3pCRWtHUlVZZWlaVHF4eFEybHpRZXQ4ZVRDYUhxSm5GWmlMb0FUMGNFM2MtNkl5RllBX3pHaVN6OHJ4ZjVRWnE0cXZNdWoxaWFkd2hZdDhuR0lOWXNCX0Ewd0M?oc=5",
+      "published": "2026-06-17T11:40:24+00:00",
       "source": {
-        "name": "Presseportal",
-        "url": "https://www.presseportal.de"
+        "name": "WEB.DE",
+        "url": "https://web.de"
       }
     },
     {
@@ -94,23 +94,13 @@
       }
     },
     {
-      "id": "5495b6915139",
-      "title": "Nah­rungs­er­gän­zungs­mit­tel be­stel­len? In­ter­net­sei­te prü­fen - Die Rheinpfalz",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPTll0cldMeWVoVzlZYnBXMklPZ2N6OHhSTmFMelZNUGlGX05GVzVtVGV2ZFQyaWgxb1VwRVNJR1Fha0s5U2h3RWl2MEx1aEEyUEJQYWNSZ2FrYUJ1U1dZS0U4VXJCWkxFSmlxX1NRRFl0M18zbDUya1Bsb2U2TVoweV9YZm5oVFBVS2NqSTVYMlE2QWlLcVdDaUdzZUR4b0xQUkM4WDhzSUtMUjJIWGpja3Z1XzJmSUpfdXNKTVRRN1V1LV83MVFhNFdKTWJMWFNYaEtUSG1n?oc=5",
-      "published": "2026-06-15T14:15:00+00:00",
+      "id": "9aeb510c4c53",
+      "title": "Geplantes GKV-Spargesetz - Spart Deutschland am falschen Ende? - Presseportal",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9lVnpnN01iZVpYRHU2czYxaXpwMEtaWjVmS2dmbS1aLWtwVE5ELURMaVlHdzJYMk44bzJfenpjQ2wwcjhicVJpYnVOeUdfbjh4SWEwWFJ0bw?oc=5",
+      "published": "2026-06-17T09:47:25+00:00",
       "source": {
-        "name": "Die Rheinpfalz",
-        "url": "https://www.rheinpfalz.de"
-      }
-    },
-    {
-      "id": "8c8fbbdcf085",
-      "title": "Vizeminister Vu Manh Ha: Die Politik im Bereich der traditionellen Medizin muss sowohl eine strenge Kontrolle gewährleisten als auch Anreize für deren Entwicklung schaffen. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxORTNMa2VlTktuTkhHTUFrcjMyVkl3cF9pckFQVFZSQXdZSVBXcTBSaV9vY2dqSDNra3NpRHlxQUs4TEd6bXBsMmFwSzhjekdIdmxwbW55MHFaYmdiS0kzLVBNVzRadzVCektubDBuNVJtS3lQTlNTX1EtVUFwNVhzWlVlV0NaSlhwNEl5Y1dtU2NRbC04RndXR2R5T1hCVzg3dGVpSXRtMHFTQVpiMGI3ODFYdzRmcGdNdFpYcGU4RTd3eENaVFBld3ltaUU?oc=5",
-      "published": "2026-06-17T15:36:48+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
+        "name": "Presseportal",
+        "url": "https://www.presseportal.de"
       }
     },
     {
@@ -121,6 +111,26 @@
       "source": {
         "name": "Gesundheit.gv.at",
         "url": "https://www.gesundheit.gv.at"
+      }
+    },
+    {
+      "id": "6ddf1528ad72",
+      "title": "Dr. Weigl warnt: Diese Medikamente solltest du meiden - FIT FOR FUN",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbGxvMnItb1hlQUxOSnBCMGZxTmhMbEZsMUJrWU5hOGV0R1BqVHY5VHZna1JkbnY3WEZKc2ZRV1lKeFUyak1iV2FLdkVkTTJhSjc5U0ZYUS1GM0s3ZGN2U0I3UDN0NVZVaW56VENrdmNjRzJPVEI2T3diQ1p5R0RnNmhyZ2RUMmVNa25WeHNhWkdMSGI3aDBLUkVIX0tjQThyNWVJSnpqaUY1aG1PdWVpNGhUTUxzV1BWXzlpTG53clYxN1BPS1hzdg?oc=5",
+      "published": "2026-06-16T11:00:00+00:00",
+      "source": {
+        "name": "FIT FOR FUN",
+        "url": "https://www.fitforfun.de"
+      }
+    },
+    {
+      "id": "805ae4498d74",
+      "title": "Impfung, Blutabnahme, Beratung: Apotheken bekommen neue Macht – Ärzte warnen - T-Online",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVDN5REJqQjhZWDV5NU9tRE9tWDQ2X0c3TXYxQVRMX3FtMlFPSE9HSDZYeWNFTXhGWGhRM1dUY2d3X0RucGczV21RTkhkeE1ESFVIM2M5a19wajJNZWpDLU5qTlo3a01jOXlUam1HZzN0aWVVakxsMGRhcV9aWE5ya0tLNmtLQlhSdFhqRXFTeThFcXZSWE90UUgwZVZnelJBemhQVUNHbmQ4YXAtUnZQOUtqaHVVZ3VBWGJzcHZn?oc=5",
+      "published": "2026-06-12T11:02:14+00:00",
+      "source": {
+        "name": "T-Online",
+        "url": "https://www.t-online.de"
       }
     },
     {
@@ -144,6 +154,16 @@
       }
     },
     {
+      "id": "2bff10f0a217",
+      "title": "Es wird erwartet, dass die Krankenversicherung 30 Medikamente zur Krebsbehandlung abdeckt, von denen einige 50 bis 60 Millionen VND pro Ampulle kosten. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOX1pHQnBUcTBCaUJFdjV5alFDRGJ1UEw3dFZwUTRoSkNtSUZuVFFkUTU5ZVFJVGNySFZvWmZWai1SOEVMQlpqdlVZZVVfckxZbFl5MjhlVFJMWkp3TkFUZ083anB1eDQzVjdRNDc0QUZHRDJvbGFIOTJBa0NLWFJyN1FQNGVocS1uZUZaUEtWUnFqQ3ZERzFSWnRoUDczWXZvRDYwaTZFMlpsSnRXdUNvLQ?oc=5",
+      "published": "2026-06-18T04:48:53+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
       "id": "b72b17004edd",
       "title": "\"Europa als führende Kraft des Gesundheitswesens etablieren\" - DIE ZEIT",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWUFSVWl5WkNqWlhQaFBsaW01cEtydmdyejBaWTZhTE1wbHNXVWJpd2FiVENidldkRGRBTm5sT1NrNm5FME4xWVlTN0Y0N3AyLVY2RDVscWRHN0tLY3Q2d2EtY2YtdHBpOXVSRkhfNHB1MUd3TWVlYTh0RUpsWEpLWkdhUDdPc2Z6UlBEWXl0S01nV0lDYXJGZTF5YUQxNHZsaXJhNQ?oc=5",
@@ -164,13 +184,23 @@
       }
     },
     {
-      "id": "5cfa2762dc20",
-      "title": "Gesundheit - GKV-Chef: \"Mehr gegen steigende Arzneimittelpreise tun\" - Deutschlandfunk",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdXlzU1VBOUhWa05wcTVDNnBBdHRkeDl5TnZ1S1A3T0swT2pKTjZlaU1pempxQVJkMXMySXBtd2xpaUk5WWN4Q1VyakdMbnN2eF9mRncxakUwN21WbGFQMWpuR2VoOG1tUDYtWERUbS1LSVpOdUNaTE1SWmhDSkVUdTlubVNEWGNtUXNaYk5tcTJibTRDZTJv?oc=5",
-      "published": "2026-03-15T07:00:00+00:00",
+      "id": "9fa13ce5acf5",
+      "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
+      "published": "2026-03-31T20:25:43+00:00",
       "source": {
-        "name": "Deutschlandfunk",
-        "url": "https://www.deutschlandfunk.de"
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "8c8fbbdcf085",
+      "title": "Vizeminister Vu Manh Ha: Die Politik im Bereich der traditionellen Medizin muss sowohl eine strenge Kontrolle gewährleisten als auch Anreize für deren Entwicklung schaffen. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxORTNMa2VlTktuTkhHTUFrcjMyVkl3cF9pckFQVFZSQXdZSVBXcTBSaV9vY2dqSDNra3NpRHlxQUs4TEd6bXBsMmFwSzhjekdIdmxwbW55MHFaYmdiS0kzLVBNVzRadzVCektubDBuNVJtS3lQTlNTX1EtVUFwNVhzWlVlV0NaSlhwNEl5Y1dtU2NRbC04RndXR2R5T1hCVzg3dGVpSXRtMHFTQVpiMGI3ODFYdzRmcGdNdFpYcGU4RTd3eENaVFBld3ltaUU?oc=5",
+      "published": "2026-06-17T15:36:48+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -194,16 +224,6 @@
       }
     },
     {
-      "id": "9fa13ce5acf5",
-      "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
-      "published": "2026-03-31T20:25:43+00:00",
-      "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
-      }
-    },
-    {
       "id": "95d55d1267a1",
       "title": "Mit Abnehmspritze Kilos loswerden - was ist dran an Ozempic & Co.? - NDR.de",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaGFzLTFfUHozOUJiWWtWdlRPUm5mZ0VkMGMxLVVGcmxmMzlONHZRV21qZmFHYUo3d2gzV3VDVm9OUHp6Qk4wQjlZTHU3V3RnckthWTZSbVpVMGE1VWxiMFMtVVJCSWdWb3hibzlscllodzVwWmpDMS1ZOXNxYkFfQVJzdlRzeGRQOWdtcW55UVRNSE16QmhJZXhVYmRmYl9iUmJBN1g2cG8?oc=5",
@@ -214,13 +234,13 @@
       }
     },
     {
-      "id": "620561f86c84",
-      "title": "Neues Medikament: Hoffnung bei einer der tödlichsten Krebsarten? - GMX",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOeDFOODdmdnUwc0NIdEh5TTF4NW9kRTRhVWREbHpMdVVkOHZfQld6YjhBQ2E0ckpBSW5jWEhwc1piNGY4dURncy1acUIybTdaTDB4b3o4SXJmblFOb1NsOVV2ZGFpVXlzZFFESVM1UnB5Y2FMS1BqT1RpbXhCOGlaZWxzT3Z6TDY1YXltekRNN0hEZXNLcHBJ?oc=5",
-      "published": "2026-06-17T11:40:24+00:00",
+      "id": "472e52be8f7f",
+      "title": "Gesundheit - GKV-Chef: \"Mehr gegen steigende Arzneimittelpreise tun\" - Deutschlandfunk",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSy1mOE1PaUxhRGtHYkpqbDBKLVgtZ3cyd04xWkxtS2x0aWVSMUlQdVZVSjdqQXY5TUZEWWZxZEE4Zjc5LVBXS2lxYmEyaHVTQUpPWVBhMTVBZFl2eE02NUpDOXhmUFV6V1AwejFKb0NnVWs3OThpT3lQVlVzNW9kRG9zUlRKTzNwZlVEUmZFZi04dVVGUU5F?oc=5",
+      "published": "2026-03-16T07:00:00+00:00",
       "source": {
-        "name": "GMX",
-        "url": "https://www.gmx.net"
+        "name": "Deutschlandfunk",
+        "url": "https://www.deutschlandfunk.de"
       }
     },
     {
@@ -444,16 +464,6 @@
       }
     },
     {
-      "id": "1f4441bb42a2",
-      "title": "Medizinprodukte: US-Arzneibehörde will Auflagen für neue Medikamente lockern - DIE ZEIT",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMDQ4aUF0OUVjbTB5LXZPc1JjcGo2U2RMUHdCNlpmQXV3RHFQeHJfRHlGcUZxVDRjZEVZV21TRmRTalZTdU9WN1RWeFREc212am9oREtTNjNBU0o5dW51RHM3US1WOXdFbWtnZ1RwM2diM21uTkVRN25HTVc1ZjNiM2Vhc0FjYXlBd1FadUM2RGd0UkEyalBmUWNpcmxMNTV3dUswMGlQSQ?oc=5",
-      "published": "2026-02-19T08:00:00+00:00",
-      "source": {
-        "name": "DIE ZEIT",
-        "url": "https://www.zeit.de"
-      }
-    },
-    {
       "id": "5b3c21a9706f",
       "title": "Hendrik Streeck hinterfragt teure Medikamente für alte Menschen - Spiegel",
       "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPdklWd0VveEdNaGZxM3F3RmFVdXFOQi10dUZONzlqUjBCS1EyMERpajY5dm9UajBXQnNaaG1Kc2NYUl8tOHpBZFBTQjl4X2NUdXNmckMxdDllNEVmMnZkNVRvU2Y1d3R6WUswWVFLek9rWUhOb01pSjkwbFB1SVdWaTQyc25VWi1aUGxWUGpETWU1b0plSW5qQXNZNzNmbzRPUUg0dGRVOHpEQnI4SWpkZ2diak1XSWNmNFhzSXVUd1BDYktCSkxIVmt2ekpXdGJ3ZDdYRXdWa1FwNDVo?oc=5",
@@ -494,6 +504,16 @@
       }
     },
     {
+      "id": "1f4441bb42a2",
+      "title": "Medizinprodukte: US-Arzneibehörde will Auflagen für neue Medikamente lockern - DIE ZEIT",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMDQ4aUF0OUVjbTB5LXZPc1JjcGo2U2RMUHdCNlpmQXV3RHFQeHJfRHlGcUZxVDRjZEVZV21TRmRTalZTdU9WN1RWeFREc212am9oREtTNjNBU0o5dW51RHM3US1WOXdFbWtnZ1RwM2diM21uTkVRN25HTVc1ZjNiM2Vhc0FjYXlBd1FadUM2RGd0UkEyalBmUWNpcmxMNTV3dUswMGlQSQ?oc=5",
+      "published": "2026-02-19T08:00:00+00:00",
+      "source": {
+        "name": "DIE ZEIT",
+        "url": "https://www.zeit.de"
+      }
+    },
+    {
       "id": "73821728fb6f",
       "title": "Rezeptfreie Medikamente aus der Drogerie könnten das Apothekensterben verschärfen - SWR",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUlBVMkRsMVdkYXV3YXFVd3k4Z1pMSGdoVTNOTXo0UV8wR1RBbmVCZVltV3ZBdGZndnM3V1NVMlVZOFhmUEJwNXlPbDRfcU5jV2FZcUNDd2txVnFwdjNNb3JWWkRncExiSDI0WnEtdUdEbEtGcVdqOGFJRzc0T3ZkY0N4aHE4V21aZmROazk4eG9mUUJXY2RqVXZCYTZLcU5NSnVDaHBYMXhzUQ?oc=5",
@@ -501,16 +521,6 @@
       "source": {
         "name": "SWR",
         "url": "https://www.swr.de"
-      }
-    },
-    {
-      "id": "a43852bf5366",
-      "title": "vfa zum Kommissionsbericht: Sparmaßnahmen für Pharmaindustrie im Faktencheck - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaGl6UGU2SlFIcnhfcTBza2E0aTZxOEEwd2xOWmxUT3hwYzYzSDRsSGJZa3g0U3BwTWpQdm01enFWcUVYeFhtR0d2SkJDQmVURmpFa0x0LXpYRTEzd1dtbmxyVWE2NVpZcE1DamxIT2kybUxscTV0QnZtTmVNRW1uLUxOeUw2cUlUZFRQUmdCYXZ4UEF4TFJuY092eU4tZw?oc=5",
-      "published": "2026-04-02T07:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -528,6 +538,16 @@
       "title": "Kassen zur Notfallreform: Arzneimittel am Abgabeautomaten - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQnRNallHTEprd203OEY3V3k3aVlYV18yMzVLNHltVUhFNFNIQUtoVnYwNjU0V0ZTUG93TkIyd0NQdnN5Uzg5LW1aQVBxZHQzNzJpeUNGalVxZGlTcUZ0dlgxSk5HR3ZtTElzVEVGc2FKMTNlcHlCbGRtY3pnOEZyMmx4Nms?oc=5",
       "published": "2025-12-10T08:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "a43852bf5366",
+      "title": "vfa zum Kommissionsbericht: Sparmaßnahmen für Pharmaindustrie im Faktencheck - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaGl6UGU2SlFIcnhfcTBza2E0aTZxOEEwd2xOWmxUT3hwYzYzSDRsSGJZa3g0U3BwTWpQdm01enFWcUVYeFhtR0d2SkJDQmVURmpFa0x0LXpYRTEzd1dtbmxyVWE2NVpZcE1DamxIT2kybUxscTV0QnZtTmVNRW1uLUxOeUw2cUlUZFRQUmdCYXZ4UEF4TFJuY092eU4tZw?oc=5",
+      "published": "2026-04-02T07:00:00+00:00",
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
@@ -824,16 +844,6 @@
       }
     },
     {
-      "id": "f90c66274bbc",
-      "title": "Psychische Gesundheit: Cannabis-Medikament Exilby ersetzt Opioide ab September - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeWh0dl9Ga2Ewa0R6VWFrek90cGN1MUhmVXY2amF0OUo4MTJvUFd0NFh0R1BQQkVLZWZHNlUwSHljZUJ0bGlYSFlHX1hnMkhwYUswTFBwNHBGbEVLR3pWaU9mcmJ2X2xYb3loUjdWMmdDcVlnTXFIU1o3dTV0bzl5Mk1YVE9lQ1NiNG1vYXRXdVBSUFhJV2dreE02dTRUX0Q4NVVYYVhrM3p5WHE1WkNrQ3RrSWU4Q0E?oc=5",
-      "published": "2026-06-14T08:55:12+00:00",
-      "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "501e9f551bd5",
       "title": "Chronische Krankheiten: EU genehmigt erstes Medikament gegen chronische Lungenkrankheit - DIE ZEIT",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5fdjU5RzVXWjctdzZGZks3YnE4Yl82RmlVcGk5OWFzUnJKQ3J0b3FQWk05TGtZaXRTc3VkeU5WLW5zUFJqYVhlckpPcE5OdVRkWUFhOWhiRFJJZjY1WXp6ak1UN0hXWEdVVlU4Ny1YUkFkLWcwMXBJ?oc=5",
@@ -854,10 +864,10 @@
       }
     },
     {
-      "id": "01f55651af63",
-      "title": "Chronische Krankheiten: Gewichtsverlust schlägt Metformin um 21% - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNXNXQlpoc0x6WWVPS3dueFZsLTVNVFVQUG1aVVpfRWhjaml2NlVSZVRrS0Z4MVZZdjhVdUVNd0pFU09xaEFYTUU4ZHRIVlVLNTNIb2RJbUdBVWx0X2ZQbWJzRTQ4TlNEa21udjZrd2FtLXRzMDJpdUJ5TUxzR2tuZ0w1TFFESXd0NDZXTnB6eU5kYlR3bFFDZi1YdUV1WjV5ejZ5TVhtTHROM09zOG11eVFjRWlqejFIOHl2OA?oc=5",
-      "published": "2026-06-17T21:26:48+00:00",
+      "id": "f90c66274bbc",
+      "title": "Psychische Gesundheit: Cannabis-Medikament Exilby ersetzt Opioide ab September - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeWh0dl9Ga2Ewa0R6VWFrek90cGN1MUhmVXY2amF0OUo4MTJvUFd0NFh0R1BQQkVLZWZHNlUwSHljZUJ0bGlYSFlHX1hnMkhwYUswTFBwNHBGbEVLR3pWaU9mcmJ2X2xYb3loUjdWMmdDcVlnTXFIU1o3dTV0bzl5Mk1YVE9lQ1NiNG1vYXRXdVBSUFhJV2dreE02dTRUX0Q4NVVYYVhrM3p5WHE1WkNrQ3RrSWU4Q0E?oc=5",
+      "published": "2026-06-14T08:55:12+00:00",
       "source": {
         "name": "AD HOC NEWS",
         "url": "https://www.ad-hoc-news.de"
@@ -911,6 +921,16 @@
       "source": {
         "name": "STERN.de",
         "url": "https://www.stern.de"
+      }
+    },
+    {
+      "id": "01f55651af63",
+      "title": "Chronische Krankheiten: Gewichtsverlust schlägt Metformin um 21% - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNXNXQlpoc0x6WWVPS3dueFZsLTVNVFVQUG1aVVpfRWhjaml2NlVSZVRrS0Z4MVZZdjhVdUVNd0pFU09xaEFYTUU4ZHRIVlVLNTNIb2RJbUdBVWx0X2ZQbWJzRTQ4TlNEa21udjZrd2FtLXRzMDJpdUJ5TUxzR2tuZ0w1TFFESXd0NDZXTnB6eU5kYlR3bFFDZi1YdUV1WjV5ejZ5TVhtTHROM09zOG11eVFjRWlqejFIOHl2OA?oc=5",
+      "published": "2026-06-17T21:26:48+00:00",
+      "source": {
+        "name": "AD HOC NEWS",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -974,16 +994,6 @@
       }
     },
     {
-      "id": "16067f96d1e0",
-      "title": "Seniorenmedikation: ADKA stellt neuen Standard für Therapiesicherheit vor - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRlc0RkdnS01kX2VOb3J5V3h1TVF5WE55TDF0SXdMNHBOVmJqZlN1bTJGdFI1NThfeE1YWG1kNmhSalhpM2RSd2hXc0wzSjVqdmFweVVxRVhDZDNnVlEwbnJQZ2dBRXh0bVVmODR0NUZ3QlJIT2NjZUJsYWVqVE5ZZmxjRk4zdXFrNlMwWkhxM1hMOXFvVjJtTFhtQmxqMkItak9GcmctV0c3MWdzcC1uWjVZSkUzSGtzVzFjV19Naw?oc=5",
-      "published": "2026-06-16T23:05:34+00:00",
-      "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "4a4fbdbc11e4",
       "title": "Neues Einsatzfeld für bekanntes Medikament soll Risiko für Herzinfarkt um 36 Prozent senken - Spiegel",
       "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQdWVrczhuTVN3RnA5Z29zNG5uTnJXb0ZrakozeTNYUkZRaHlOZng0UGc0cnE5NlUxMjktajBucUVOaXJyMThUZ2wzTFlvcklfT0gxRTVyOTNTNFBLTUhyVEd2TzZ5OW9oNlJUQng3a1BYa0kyVk56WUQ4SWZXSm83LXJ4dVduaElOTk8wUWc5MGlLaHFvcE4tODh3UDJzTEpkRkh3bUZxQzRzb092SGZRc3NCMHk3VFRUdzZKWVVEdTgwaktlcC1ERUJjNmZvSG52X1lRSWZ0RTh5bEpw?oc=5",
@@ -991,16 +1001,6 @@
       "source": {
         "name": "Spiegel",
         "url": "https://www.spiegel.de"
-      }
-    },
-    {
-      "id": "fd482ec47b32",
-      "title": "ADHS-Medikamente: Studie belegt geringeres Risiko für Suizid und Kriminalität - SZ.de",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNb1h2WGhoLUZHQzYwaDdsc0N3RHNpcnF1T04xQmJHQk5kY210RG5JcHlZWVpndDl1REhHWUJVaDBERVo3SGJpdnJUUGstTlNwd21RMGdvTnVnNU16bTkycUJ5N19pSm5VV3NDOE9wd3VTRkEyT2NRWUdYYjdTMlh4QXVSMlFMX296SlNaOEhfN1gtaFhmZDVMaQ?oc=5",
-      "published": "2025-08-20T07:00:00+00:00",
-      "source": {
-        "name": "SZ.de",
-        "url": "https://www.sueddeutsche.de"
       }
     }
   ]
