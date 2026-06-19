@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-19T20:27:02.057489+00:00",
+  "fetched_at": "2026-06-19T22:04:51.087635+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -11,6 +11,16 @@
       "source": {
         "name": "geo.de",
         "url": "https://www.geo.de"
+      }
+    },
+    {
+      "id": "b09d2a35170a",
+      "title": "6-R-Regel in der Pflege: Was dahintersteckt und warum sie so wichtig ist - Allgäuer Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOX1dTN0hYRlhkVDN0cVduUzlkQ1FIN29RUnJ3QnctQlE3LXc0d1dvQVp4NWY2X2IxMENtZEZORzg3TW9CSWhKZVh5bUZUcU5tTEtzVDdQNkY4TWRaSTlBOVkxVGhhUHZ6VlRLQjYwdU9NS3QybkRYT2gzWmlwV3hpMmMtNkJqeGk2U3VYUkE2SnFnWFJ3aFk1RERHOGVBamVwUktPQkdNVDNIbzhyZUNuRHB2Q191anlaa2FBNFJHRy0?oc=5",
+      "published": "2026-06-19T04:20:37+00:00",
+      "source": {
+        "name": "Allgäuer Zeitung",
+        "url": "https://www.allgaeuer-zeitung.de"
       }
     },
     {
@@ -41,16 +51,6 @@
       "source": {
         "name": "Euronews.com",
         "url": "https://de.euronews.com"
-      }
-    },
-    {
-      "id": "9296c3f2aa6b",
-      "title": "6-R-Regel in der Pflege: Was dahintersteckt und warum sie so wichtig ist - Allgäuer Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQT2k3a1FLeHUxdDAxRzB5RzhPTndTQlNrNFR2UG14dTQ3M1Fjel93ZlVpUHFRU19aQlE5WnJyM0xFQlRlVV91NzM4TVB1VGE2QVhoeHNheExNY2NrOF9hNHo5Z3hndkdOVmVvcVRiSE80ZWdVMEpnUGVrcUhkZXdkOHBUczdZVXl1eDV1YVFBVkttdnVsUkZNbWw4eF81bGtGcWZkQ1IzMm1UQlBoRnBjaTRUMV9DbzRlR19FeF93?oc=5",
-      "published": "2026-06-18T14:27:38+00:00",
-      "source": {
-        "name": "Allgäuer Zeitung",
-        "url": "https://www.allgaeuer-zeitung.de"
       }
     },
     {
@@ -134,16 +134,6 @@
       }
     },
     {
-      "id": "869fee855e1f",
-      "title": "Das Rückerstattungsverfahren, wenn Patienten mit Krankenversicherung Medikamente selbst kaufen müssen. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNa1VFS3pZU0VRRFN4UEFxZlNpend5dy1qRUVWY2c2RnprTTlkT2xtMDcwWlM0bDUxRnlMVm5seHJIYnB4cGVTenpqTkhsRDlPWkE4ZURkWVNpZ1ZWem9uS2YtdzZLeTNuM3otakx2My1QTFZ3MmJGNFE0bms4UFlyTDBPbnVsWmIxMWpwX3BSeFdobjA?oc=5",
-      "published": "2026-06-19T05:39:36+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "f52589adc53b",
       "title": "Gesundheitsrisiken durch Hitze - Presseportal",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5yUEtJS0pMRjNCYWFuT1Z1bzYxVFFyWUJIYjlxSmNGNmN2cVhKNmxva2VtTWxEMjlvbDZvaUh4WEl2R0JlQ1BDcnV1QkVSY2FXUC10MjBmVQ?oc=5",
@@ -151,6 +141,16 @@
       "source": {
         "name": "Presseportal",
         "url": "https://www.presseportal.de"
+      }
+    },
+    {
+      "id": "869fee855e1f",
+      "title": "Das Rückerstattungsverfahren, wenn Patienten mit Krankenversicherung Medikamente selbst kaufen müssen. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNa1VFS3pZU0VRRFN4UEFxZlNpend5dy1qRUVWY2c2RnprTTlkT2xtMDcwWlM0bDUxRnlMVm5seHJIYnB4cGVTenpqTkhsRDlPWkE4ZURkWVNpZ1ZWem9uS2YtdzZLeTNuM3otakx2My1QTFZ3MmJGNFE0bms4UFlyTDBPbnVsWmIxMWpwX3BSeFdobjA?oc=5",
+      "published": "2026-06-19T05:39:36+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -304,12 +304,12 @@
       }
     },
     {
-      "id": "8db31424e5bb",
-      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - dw.com",
+      "id": "02e9917bea66",
+      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - DW.com",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGxHSlhmSS0tbUNKdG15NEVzRzYzYllEUnAzUEU3ak53czRHVWlKdTZrRGFDMk1MUThPUjdPTnBGVENqd3d2Q1VSdWhJVXppWDF4NWh0aEJJaXJlVTlnV0VoZVFkRHNSM3p6NVZXNjNwWHk5YkxSUWR2RGZKcmp3Y2U5REY0U3dRZFJLeHFtQk9wb2Y3RUVOaVBlMlJhZ29Rck000gGjAUFVX3lxTE1rTW00WXFBajZxbTJOS1NLckhVbXFBSzh1NE96QTEydTN1YjZnaFFNcV8xblZGM29hdTZQUHc4V3YzQ1pwcTlaVVBhZDVqMExLMTlYVzZ6TmM4ZUdsUm5TLXpPNmk1R3V4UktvaV93cWttNFpVX0VEZlZnUllSQkhyUlZmeTBJcU0zUEVSZTgxdzFWUnFNRk9CYVljN0Jhd0ZXUFk?oc=5",
       "published": "2026-05-12T07:00:00+00:00",
       "source": {
-        "name": "dw.com",
+        "name": "DW.com",
         "url": "https://www.dw.com"
       }
     },
@@ -551,16 +551,6 @@
       "source": {
         "name": "Berliner Morgenpost",
         "url": "https://www.morgenpost.de"
-      }
-    },
-    {
-      "id": "fb0979f27ad0",
-      "title": "Medikamentencheck in der Apotheke: Wer Anspruch darauf hat - Allgemeine Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQX3Q2MW5GYTN6ZFRhNl94b2o4XzVuQllBLThSdmFXUE1FbHRzQzZfUEpqdEZJYlZhX2huQW1lZ3B1MkxPdW1Mdmp1ZXFER21KNmN0UE1OSXpPWk1YbUtnQ0xyd3g5dW5TN3hBQmpKZ0x6NlJJd29fNlBaal84dHg0MzFmbGRtYlBWbXY1R3ByVWhrQ3pfRnQtOTdBX2d2NmZQX1NaM1VkWW1tUTlBTTljblUyTlZlMnBFYzV3?oc=5",
-      "published": "2026-04-19T07:00:00+00:00",
-      "source": {
-        "name": "Allgemeine Zeitung",
-        "url": "https://www.allgemeine-zeitung.de"
       }
     },
     {
@@ -904,12 +894,12 @@
       }
     },
     {
-      "id": "e0194a7c0b5d",
-      "title": "Deutsche Apotheker warnen vor Medikamentenmangel - dw.com",
+      "id": "692ed6663b43",
+      "title": "Deutsche Apotheker warnen vor Medikamentenmangel - DW.com",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWU1xaGhwXzk2bTZMYV9pdEdESnBqWVZvSnAwXzllTkVsdXYyZTlYSzdEYjktY2FySDA2THNEWUlQend3WWp5cG9uZFo1aTJMcFFINW1ZWEg3NlVDQ2UzdkRmZldhV1JRemg4U3poczloOF9QOEhha1prQnlGZ0U5T0laMXN2ZVBY0gGIAUFVX3lxTE01Wk9oR0RESDZiM1BvOU5qZmtUYk1aNUFxWlpzU3EteXRvRDQ1anBlcG52RXJ5QWdEWjB2SHJCblZSaktVZktvRTBkYUxtYzNfQVE4YXRHajc1Nk9UQllNTkt0Vi1wVjdQTTAzSElvTDRMWXZ5TEpkLUZxRTI2QUZkMVdyRGM4YUg?oc=5",
       "published": "2025-09-14T07:00:00+00:00",
       "source": {
-        "name": "dw.com",
+        "name": "DW.com",
         "url": "https://www.dw.com"
       }
     },
@@ -934,16 +924,6 @@
       }
     },
     {
-      "id": "8d6c279774fa",
-      "title": "Arzneimittelpreise im Fokus: Innovation statt Pauschale - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPY2NjMlpJU1NlMTBseFY5Z2h1aGMtdFo4YklYRDJEcEw1UnlLMlJ5WlQwSUdYVGg0clI0bm5NSUV5bmNoa1FzTi1oUUtBSFU4bElXODRQQ1JXZ1hQb09lMnBhNlI0TjRFWERYUUNVOFBXNHU3RzNpbGhSRE9CZFhaTnpFRC1mZTZ4YVpuTkJiVmtfd0FHUU9B?oc=5",
-      "published": "2025-05-21T07:00:00+00:00",
-      "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
-      }
-    },
-    {
       "id": "0d877deab3c8",
       "title": "Usbekistan will Bezahlbarkeit von Medikamenten auf der Ebene der primären Gesundheitsversorgung verbessern - World Health Organization (WHO)",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZHcxc3ZFWkhLcWVKS3RfWW5xSUZBUFVCQkdxb1pGZGlqai1UWjE1S2s3cG5KMEJCdjFPQ0hQZnc4X0o4bVVSTHhKZURfeWRXb01vNkkzUG5CcGQ0YlZXZjZSQXBfdHVBc0l1S0MzdHBBejJUMVJTQURsS0ZQdG9HVkczVFZXdjNKZWgzZmhGdnpVdl9oZHUzRjRYOXRWLUFWTC1ZR2tBVy04NWtrM2lpYVlKNEw1eUl4TWpqT0JGZUxpdnBRbmJIUk5peENtS1VJRG1sdzR6bw?oc=5",
@@ -951,6 +931,16 @@
       "source": {
         "name": "World Health Organization (WHO)",
         "url": "https://www.who.int"
+      }
+    },
+    {
+      "id": "8d6c279774fa",
+      "title": "Arzneimittelpreise im Fokus: Innovation statt Pauschale - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPY2NjMlpJU1NlMTBseFY5Z2h1aGMtdFo4YklYRDJEcEw1UnlLMlJ5WlQwSUdYVGg0clI0bm5NSUV5bmNoa1FzTi1oUUtBSFU4bElXODRQQ1JXZ1hQb09lMnBhNlI0TjRFWERYUUNVOFBXNHU3RzNpbGhSRE9CZFhaTnpFRC1mZTZ4YVpuTkJiVmtfd0FHUU9B?oc=5",
+      "published": "2025-05-21T07:00:00+00:00",
+      "source": {
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
       }
     },
     {
@@ -1001,6 +991,16 @@
       "source": {
         "name": "STERN.de",
         "url": "https://www.stern.de"
+      }
+    },
+    {
+      "id": "62d3f46a88a8",
+      "title": "Maßnahmen der EU zur Verbesserung der öffentlichen Gesundheit - European Parliament",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVzhCNzVfWlJpeVRpVnRlZDB1VDB6WVBfYzJsbk1qSVVTMEo0OWVjWEhFQTdyWHV4Ym1GemQtUHBkU3ZxVmI1R0lPVzE3SVN0Qzd2OW5JSVRKUjkyX3dadEVIb2pGdzRxOU01QVRQMXEzaTJ3VjVPTTN3MmN4TVdlUlZKTTdUZGM1R3hwT19HWVRKckhyeWVKYmxYSjJMSWZSZVhWSWc5dnBXcjBQdlk2TG5WcV9hOGpXX29fWm1tdTFVcmJPU1Jr?oc=5",
+      "published": "2023-10-17T07:00:00+00:00",
+      "source": {
+        "name": "European Parliament",
+        "url": "https://www.europarl.europa.eu"
       }
     }
   ]
