@@ -1,15 +1,15 @@
 {
-  "fetched_at": "2026-06-19T18:56:29.005163+00:00",
+  "fetched_at": "2026-06-19T20:27:02.057489+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
     {
-      "id": "7a99adaec5c0",
-      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - Geo.de",
+      "id": "47afc2884d76",
+      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - geo.de",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
       "published": "2026-06-19T10:10:00+00:00",
       "source": {
-        "name": "Geo.de",
+        "name": "geo.de",
         "url": "https://www.geo.de"
       }
     },
@@ -74,16 +74,6 @@
       }
     },
     {
-      "id": "32e4baec50d7",
-      "title": "Gesundheit: Bundesrat will Arzneimittelversorgung stärken | blue News - blue News",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVW0tTkhybjBYdUJibnFQSkc3bldlN0dxQWFYbFdJN2tSQ09FaWc1WGg1MFJkRGthZFlDRzIyRTVYVTlDQ1Q5dXNCdXF2Zi1xaFFiaW9pY1ZxeExjM240NjNKVUNFemZjR1pmRUQza1lDUHhzQTBRNy1lanV5cHFYQnZNc2xhVnNsQzNUdTRaYTZJNU55bXhhSDFZUUdndk0?oc=5",
-      "published": "2026-06-19T08:56:00+00:00",
-      "source": {
-        "name": "blue News",
-        "url": "https://www.bluewin.ch"
-      }
-    },
-    {
       "id": "9ace6c5aad6d",
       "title": "Säureblocker gegen Sodbrennen: Warum viele Betroffene sie zu häufig und zu lange einnehmen - ZDFheute",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMHdLN2JFN2pySU45TXExN0JlT2NVSjMtazJDWlVLd29LUjdoeWJwdjVna0kzM3NpN2Z1MjBzWjlmN2t6MlppZVFzamk4R0NNaFQ2aTRhc0tPUHpzSTdwREhYaXBTY3RvMG5vaXJ1cDh4bnZmSWdFVTdFdDEwV1pEYWdULUFjQ0RsaXlUSWNKYXBkMkxiM1VtYlNMcWlWYnc0ZzVJbEtIbw?oc=5",
@@ -94,22 +84,32 @@
       }
     },
     {
-      "id": "561fd5ff019b",
-      "title": "Welche Medikamente im Sommer gefährlich werden können - stern.de",
+      "id": "32e4baec50d7",
+      "title": "Gesundheit: Bundesrat will Arzneimittelversorgung stärken | blue News - blue News",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVW0tTkhybjBYdUJibnFQSkc3bldlN0dxQWFYbFdJN2tSQ09FaWc1WGg1MFJkRGthZFlDRzIyRTVYVTlDQ1Q5dXNCdXF2Zi1xaFFiaW9pY1ZxeExjM240NjNKVUNFemZjR1pmRUQza1lDUHhzQTBRNy1lanV5cHFYQnZNc2xhVnNsQzNUdTRaYTZJNU55bXhhSDFZUUdndk0?oc=5",
+      "published": "2026-06-19T08:56:00+00:00",
+      "source": {
+        "name": "blue News",
+        "url": "https://www.bluewin.ch"
+      }
+    },
+    {
+      "id": "a8ab1fb57671",
+      "title": "Welche Medikamente im Sommer gefährlich werden können - STERN.de",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZWREZkpJQWZQeGFaaTE4Y3NHcjVGM3JRbWRXUmRVNGRkanpVNnV2a0JTdkxMZ19rYmhUekhKQmR3Z2s0WU93NFhHb1RFbDVKRVlsZnRzZUF2ZUh4UnlveVdwZlpqSzlFeXVpWjczOE1tZlpPaU5fS0xhUjJ1NWdjYVU1RU5iQXJYdkZJd0FjNFdBbVMyMDJaYjJYcWVyN08yelVINXVGd21nZw?oc=5",
       "published": "2026-06-18T06:34:00+00:00",
       "source": {
-        "name": "stern.de",
+        "name": "STERN.de",
         "url": "https://www.stern.de"
       }
     },
     {
-      "id": "359a638ace75",
-      "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesministerium für Gesundheit (BMG)",
+      "id": "56adc93fd6fa",
+      "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesgesundheitsministerium",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNlp2UC15ODdWb214VmdueWZNQ2pWMFRyd1NZNWNVbS1iTGRTZFNNeTl1WlJJZTZPdGVZUC1DVnVZWEF0N0pla3lSMVEyVl9fLXZHU2s3Q1lVMUVvZ0JIUGVXQllJNlI4TUJIVlFBaU9jeTF3NHVhWXhRdXZGczZRdWY0bnp6UlZnNExna0d2OFRiNVZzYkFuSHFRYjBQd3NQVXNZNVYtZWlkVngxa2JHZTdfVXdzUzFL?oc=5",
       "published": "2026-05-22T07:00:00+00:00",
       "source": {
-        "name": "Bundesministerium für Gesundheit (BMG)",
+        "name": "Bundesgesundheitsministerium",
         "url": "https://www.bundesgesundheitsministerium.de"
       }
     },
@@ -124,12 +124,12 @@
       }
     },
     {
-      "id": "753db5137932",
-      "title": "Manchmal hilft bei einer Lungenfibrose nur eine Transplantation - Geo.de",
+      "id": "2705dedff621",
+      "title": "Manchmal hilft bei einer Lungenfibrose nur eine Transplantation - geo.de",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTFpsQUNaNkxJMWxfNGhlSFM4ZFRDdTlpYmNzVTRGM2w2ekN1NTk5aXRuRFM3Z1FIeHFFcmUyMFVieWxSSy10UGdSM2NxOEotTU15TmRhZUVVeGZ1bnVwSGg5aXRuOFZLV1FuQVdLeE1CU0J6V00yWmdqYUlIOFdYQjdQZHA4aGczeVJaQ3Y4VU1PbTZISVd3NGZLZmdvOEhmS01uS2lVLVY?oc=5",
       "published": "2026-06-19T08:26:00+00:00",
       "source": {
-        "name": "Geo.de",
+        "name": "geo.de",
         "url": "https://www.geo.de"
       }
     },
@@ -184,12 +184,12 @@
       }
     },
     {
-      "id": "eec2cdb1152b",
-      "title": "Praxen, Kliniken, Arzneimittel: Ärzte warnen vor „Rasenmäher“ im Gesundheitssystem - stern.de",
+      "id": "2de8fdf554d2",
+      "title": "Praxen, Kliniken, Arzneimittel: Ärzte warnen vor „Rasenmäher“ im Gesundheitssystem - STERN.de",
       "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNaTZheDB3U21uVWJSY3ZES25Pb1pRR1RvdXgzdVJha0F0TWhDeGcwenVFWHRKV0dGYmp0RzlsX1F0UG1uSUw3VDZqTkNiZkxURUxWSjA3b1ZqdWs1c1FrVkZUYjhlQ3dzNVpJWnI1RHVfbVFTMGVjcVZvN1ExX3cyNTVGaFByS2l1OEZQUHZZLUlZM095U2t5X3lEdUJIWnJTaXQ5ZTZ2ZkMwRDh0bFVuRWYtM3VkVFZ1ZWw5OXcyS0xMQlMzMG9VMTFHTGxNX0xVSDRCeFZZNHZpa0xqaWdpV3k2LXdVV0h2am5aanVMZ25NN1k0?oc=5",
       "published": "2026-06-05T07:00:00+00:00",
       "source": {
-        "name": "stern.de",
+        "name": "STERN.de",
         "url": "https://www.stern.de"
       }
     },
@@ -304,12 +304,12 @@
       }
     },
     {
-      "id": "02e9917bea66",
-      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - DW.com",
+      "id": "8db31424e5bb",
+      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - dw.com",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGxHSlhmSS0tbUNKdG15NEVzRzYzYllEUnAzUEU3ak53czRHVWlKdTZrRGFDMk1MUThPUjdPTnBGVENqd3d2Q1VSdWhJVXppWDF4NWh0aEJJaXJlVTlnV0VoZVFkRHNSM3p6NVZXNjNwWHk5YkxSUWR2RGZKcmp3Y2U5REY0U3dRZFJLeHFtQk9wb2Y3RUVOaVBlMlJhZ29Rck000gGjAUFVX3lxTE1rTW00WXFBajZxbTJOS1NLckhVbXFBSzh1NE96QTEydTN1YjZnaFFNcV8xblZGM29hdTZQUHc4V3YzQ1pwcTlaVVBhZDVqMExLMTlYVzZ6TmM4ZUdsUm5TLXpPNmk1R3V4UktvaV93cWttNFpVX0VEZlZnUllSQkhyUlZmeTBJcU0zUEVSZTgxdzFWUnFNRk9CYVljN0Jhd0ZXUFk?oc=5",
       "published": "2026-05-12T07:00:00+00:00",
       "source": {
-        "name": "DW.com",
+        "name": "dw.com",
         "url": "https://www.dw.com"
       }
     },
@@ -744,12 +744,12 @@
       }
     },
     {
-      "id": "27daef187974",
-      "title": "Medikamente im DM-Drogeriemarkt – Apotheken laufen Sturm - stern.de",
+      "id": "e7fc237accfb",
+      "title": "Medikamente im DM-Drogeriemarkt – Apotheken laufen Sturm - STERN.de",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMG5SMnM4aXU5czJ1S2dnUzdMeFBmb3IxQVBKWGVvcVB0eUJQUjkxRU00RHEtQlRjVU1EM0Z2WF95SG85WDJPSjVNcjRTWFM1OHVXNm5pdVAxZGtDcHJTSXFpSDAtdUstM0JISWRKcEI5OXRXZ2hXSzQ3cFJqb0g5N0ZRajJtY21JUmRNNmZweXg1bEpuOXc0Rk9CNENaMHNOYTc4OGtjZw?oc=5",
       "published": "2025-12-16T08:00:00+00:00",
       "source": {
-        "name": "stern.de",
+        "name": "STERN.de",
         "url": "https://www.stern.de"
       }
     },
@@ -904,12 +904,12 @@
       }
     },
     {
-      "id": "692ed6663b43",
-      "title": "Deutsche Apotheker warnen vor Medikamentenmangel - DW.com",
+      "id": "e0194a7c0b5d",
+      "title": "Deutsche Apotheker warnen vor Medikamentenmangel - dw.com",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWU1xaGhwXzk2bTZMYV9pdEdESnBqWVZvSnAwXzllTkVsdXYyZTlYSzdEYjktY2FySDA2THNEWUlQend3WWp5cG9uZFo1aTJMcFFINW1ZWEg3NlVDQ2UzdkRmZldhV1JRemg4U3poczloOF9QOEhha1prQnlGZ0U5T0laMXN2ZVBY0gGIAUFVX3lxTE01Wk9oR0RESDZiM1BvOU5qZmtUYk1aNUFxWlpzU3EteXRvRDQ1anBlcG52RXJ5QWdEWjB2SHJCblZSaktVZktvRTBkYUxtYzNfQVE4YXRHajc1Nk9UQllNTkt0Vi1wVjdQTTAzSElvTDRMWXZ5TEpkLUZxRTI2QUZkMVdyRGM4YUg?oc=5",
       "published": "2025-09-14T07:00:00+00:00",
       "source": {
-        "name": "DW.com",
+        "name": "dw.com",
         "url": "https://www.dw.com"
       }
     },
@@ -994,12 +994,12 @@
       }
     },
     {
-      "id": "61b5dc4b4910",
-      "title": "Hendrik Streeck wirft Frage nach teuren Medikamenten für sehr Alte auf - stern.de",
+      "id": "781b7b5013b5",
+      "title": "Hendrik Streeck wirft Frage nach teuren Medikamenten für sehr Alte auf - STERN.de",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNN1JrNFg0ZXh4dVBQLTJfdU9ORHBmWC1vTGlDT1Y1RkFJZm80QkhtY3JqUEtadDFHcE5GVWFQRVc5V3VYVzZtVWFwdS0xTFl4c2FKT2VDY1owOHc4b1pxeVZLUnJVWWp6WXZLd012YnlZXzRHdm1vNWN0MFNGVzRteUZNekFFR1dDTklBei04cTA0M1RvM2YwWWxPVk05aW1wWHBFX0wwTV9zTGgxcVU4SHBRUkRyMzRR?oc=5",
       "published": "2025-11-13T08:00:00+00:00",
       "source": {
-        "name": "stern.de",
+        "name": "STERN.de",
         "url": "https://www.stern.de"
       }
     }
