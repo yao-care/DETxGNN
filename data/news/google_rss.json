@@ -1,15 +1,15 @@
 {
-  "fetched_at": "2026-06-19T22:04:51.087635+00:00",
+  "fetched_at": "2026-06-20T00:09:48.079908+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
     {
-      "id": "47afc2884d76",
-      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - geo.de",
+      "id": "7a99adaec5c0",
+      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - Geo.de",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
       "published": "2026-06-19T10:10:00+00:00",
       "source": {
-        "name": "geo.de",
+        "name": "Geo.de",
         "url": "https://www.geo.de"
       }
     },
@@ -24,16 +24,6 @@
       }
     },
     {
-      "id": "2e512481fa12",
-      "title": "Sommerhitze: Achtung, manche Medikamente wirken anders - noz.de",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdDV0ZWUxM1ZiLWliTDNvZVE0dFNMX2lYX2NSeUpwcE5TVHdJRFh2SjlmRGxKYTI0dGRVenN0MXk1ZUVjQmhoRWo0eWJKOHVLX2o2dWxMallOd0ltRDFnc1h1dTJ3MFR0LTl3OWFVNnM4SVRIeUVoV1VibEt3eG42bmRZeU40QzBWOU1EQTZLQlU3cGRDZ01ZLWVZWjlYOWFGTkt5eFhEX2cyNm9uWDU1M1BCQTNjNS11OUF1WQ?oc=5",
-      "published": "2026-06-19T04:32:00+00:00",
-      "source": {
-        "name": "noz.de",
-        "url": "https://www.noz.de"
-      }
-    },
-    {
       "id": "9f7c377ed6d2",
       "title": "MFN-Modell USA: Wie US-Arzneimittelpolitik Innovationen in Europa ausbremst - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWkw5ZTd1QUxfTlBDNjVEc0paTWpvTFpfTE9lOFM3YnhiWnBBREVhRzlMQnRmWDdkREJzVlg3UnZCN2RsTC1aTkhtN19oX2dEYmVLdXk4MXFBUnVGakk3YzVfbjZVQ0E0MUtPN2JZZ08wQ05yaTFLNER1dVYzZEo5UldOVldfQ0lCbGNRWEJZbUg0R3JBaGp6Mm1DTGd2eTYzWE9GV1hvenRGWHhOZXBxMHJMY09GUQ?oc=5",
@@ -44,13 +34,23 @@
       }
     },
     {
-      "id": "49bf6869d90c",
-      "title": "EU-Gesundheitskommissar prüft Folgen von Trumps Preisdruck auf Medikamente - Euronews.com",
+      "id": "ba96bb5c2c8b",
+      "title": "EU-Gesundheitskommissar prüft Folgen von Trumps Preisdruck auf Medikamente - Euronews",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSzM5cWFmcTJfV010WWVadkdEVXRGblFEUTlhaUhoOThvaHV5eTJuWFVJbUtyMW9xNTJkYzNIR2Z6YWp0ZE1IWmNPb3pNcU5YY1phcUlQSU5IWWtvV0MzNDlqdHJZRU40alRPU29CWFVnUDBjLXE3UHhtV2pManQ4TzhzVEU3OHNDM2JJZm9ZbzBUbkVCRFRZYU1jMTl2UVdGRnhubmZZYWswcmZqbXAtbW5QcnRBTktIaHFFWg?oc=5",
       "published": "2026-06-16T17:46:07+00:00",
       "source": {
-        "name": "Euronews.com",
+        "name": "Euronews",
         "url": "https://de.euronews.com"
+      }
+    },
+    {
+      "id": "2e512481fa12",
+      "title": "Sommerhitze: Achtung, manche Medikamente wirken anders - noz.de",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdDV0ZWUxM1ZiLWliTDNvZVE0dFNMX2lYX2NSeUpwcE5TVHdJRFh2SjlmRGxKYTI0dGRVenN0MXk1ZUVjQmhoRWo0eWJKOHVLX2o2dWxMallOd0ltRDFnc1h1dTJ3MFR0LTl3OWFVNnM4SVRIeUVoV1VibEt3eG42bmRZeU40QzBWOU1EQTZLQlU3cGRDZ01ZLWVZWjlYOWFGTkt5eFhEX2cyNm9uWDU1M1BCQTNjNS11OUF1WQ?oc=5",
+      "published": "2026-06-19T04:32:00+00:00",
+      "source": {
+        "name": "noz.de",
+        "url": "https://www.noz.de"
       }
     },
     {
@@ -64,16 +64,6 @@
       }
     },
     {
-      "id": "885f57a55794",
-      "title": "Cholesterin senken mit Statinen: Ärztin räumt mit Angst vor Nebenwirkungen auf - Berliner Morgenpost",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNRVVxUmwyWjh6RVc1RmpCaElOX1VSRGVFbXhPMjkwTmk2UE82UURzaXFkTWFYN3lYSDlHQVN2YUs0cS0tX3BRdlhZY2VVUUdINjZCQzE1Wk8yTmRlMENaZnNrQk5lanFtWXF3YWh6X28xdlRFVm4xYVd1eVN0WjVJRzNubVhyVXpoT3IyazNXOW55TnM1VC1EaDFpUXh2MU9MZFpqcGtDZjdLRGg5akppcktkUk1INldCX1djVEc5Z09EcHA5SXYwOS1Fck0yVXFLN1poNEVlc1BKSjM1b1dRZFNmT3oxUQ?oc=5",
-      "published": "2026-06-19T06:25:00+00:00",
-      "source": {
-        "name": "Berliner Morgenpost",
-        "url": "https://www.morgenpost.de"
-      }
-    },
-    {
       "id": "9ace6c5aad6d",
       "title": "Säureblocker gegen Sodbrennen: Warum viele Betroffene sie zu häufig und zu lange einnehmen - ZDFheute",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMHdLN2JFN2pySU45TXExN0JlT2NVSjMtazJDWlVLd29LUjdoeWJwdjVna0kzM3NpN2Z1MjBzWjlmN2t6MlppZVFzamk4R0NNaFQ2aTRhc0tPUHpzSTdwREhYaXBTY3RvMG5vaXJ1cDh4bnZmSWdFVTdFdDEwV1pEYWdULUFjQ0RsaXlUSWNKYXBkMkxiM1VtYlNMcWlWYnc0ZzVJbEtIbw?oc=5",
@@ -81,6 +71,16 @@
       "source": {
         "name": "ZDFheute",
         "url": "https://www.zdfheute.de"
+      }
+    },
+    {
+      "id": "885f57a55794",
+      "title": "Cholesterin senken mit Statinen: Ärztin räumt mit Angst vor Nebenwirkungen auf - Berliner Morgenpost",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNRVVxUmwyWjh6RVc1RmpCaElOX1VSRGVFbXhPMjkwTmk2UE82UURzaXFkTWFYN3lYSDlHQVN2YUs0cS0tX3BRdlhZY2VVUUdINjZCQzE1Wk8yTmRlMENaZnNrQk5lanFtWXF3YWh6X28xdlRFVm4xYVd1eVN0WjVJRzNubVhyVXpoT3IyazNXOW55TnM1VC1EaDFpUXh2MU9MZFpqcGtDZjdLRGg5akppcktkUk1INldCX1djVEc5Z09EcHA5SXYwOS1Fck0yVXFLN1poNEVlc1BKSjM1b1dRZFNmT3oxUQ?oc=5",
+      "published": "2026-06-19T06:25:00+00:00",
+      "source": {
+        "name": "Berliner Morgenpost",
+        "url": "https://www.morgenpost.de"
       }
     },
     {
@@ -94,22 +94,12 @@
       }
     },
     {
-      "id": "a8ab1fb57671",
-      "title": "Welche Medikamente im Sommer gefährlich werden können - STERN.de",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZWREZkpJQWZQeGFaaTE4Y3NHcjVGM3JRbWRXUmRVNGRkanpVNnV2a0JTdkxMZ19rYmhUekhKQmR3Z2s0WU93NFhHb1RFbDVKRVlsZnRzZUF2ZUh4UnlveVdwZlpqSzlFeXVpWjczOE1tZlpPaU5fS0xhUjJ1NWdjYVU1RU5iQXJYdkZJd0FjNFdBbVMyMDJaYjJYcWVyN08yelVINXVGd21nZw?oc=5",
-      "published": "2026-06-18T06:34:00+00:00",
-      "source": {
-        "name": "STERN.de",
-        "url": "https://www.stern.de"
-      }
-    },
-    {
-      "id": "56adc93fd6fa",
-      "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesgesundheitsministerium",
+      "id": "359a638ace75",
+      "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesministerium für Gesundheit (BMG)",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNlp2UC15ODdWb214VmdueWZNQ2pWMFRyd1NZNWNVbS1iTGRTZFNNeTl1WlJJZTZPdGVZUC1DVnVZWEF0N0pla3lSMVEyVl9fLXZHU2s3Q1lVMUVvZ0JIUGVXQllJNlI4TUJIVlFBaU9jeTF3NHVhWXhRdXZGczZRdWY0bnp6UlZnNExna0d2OFRiNVZzYkFuSHFRYjBQd3NQVXNZNVYtZWlkVngxa2JHZTdfVXdzUzFL?oc=5",
       "published": "2026-05-22T07:00:00+00:00",
       "source": {
-        "name": "Bundesgesundheitsministerium",
+        "name": "Bundesministerium für Gesundheit (BMG)",
         "url": "https://www.bundesgesundheitsministerium.de"
       }
     },
@@ -124,16 +114,6 @@
       }
     },
     {
-      "id": "2705dedff621",
-      "title": "Manchmal hilft bei einer Lungenfibrose nur eine Transplantation - geo.de",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTFpsQUNaNkxJMWxfNGhlSFM4ZFRDdTlpYmNzVTRGM2w2ekN1NTk5aXRuRFM3Z1FIeHFFcmUyMFVieWxSSy10UGdSM2NxOEotTU15TmRhZUVVeGZ1bnVwSGg5aXRuOFZLV1FuQVdLeE1CU0J6V00yWmdqYUlIOFdYQjdQZHA4aGczeVJaQ3Y4VU1PbTZISVd3NGZLZmdvOEhmS01uS2lVLVY?oc=5",
-      "published": "2026-06-19T08:26:00+00:00",
-      "source": {
-        "name": "geo.de",
-        "url": "https://www.geo.de"
-      }
-    },
-    {
       "id": "f52589adc53b",
       "title": "Gesundheitsrisiken durch Hitze - Presseportal",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5yUEtJS0pMRjNCYWFuT1Z1bzYxVFFyWUJIYjlxSmNGNmN2cVhKNmxva2VtTWxEMjlvbDZvaUh4WEl2R0JlQ1BDcnV1QkVSY2FXUC10MjBmVQ?oc=5",
@@ -144,13 +124,13 @@
       }
     },
     {
-      "id": "869fee855e1f",
-      "title": "Das Rückerstattungsverfahren, wenn Patienten mit Krankenversicherung Medikamente selbst kaufen müssen. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNa1VFS3pZU0VRRFN4UEFxZlNpend5dy1qRUVWY2c2RnprTTlkT2xtMDcwWlM0bDUxRnlMVm5seHJIYnB4cGVTenpqTkhsRDlPWkE4ZURkWVNpZ1ZWem9uS2YtdzZLeTNuM3otakx2My1QTFZ3MmJGNFE0bms4UFlyTDBPbnVsWmIxMWpwX3BSeFdobjA?oc=5",
-      "published": "2026-06-19T05:39:36+00:00",
+      "id": "753db5137932",
+      "title": "Manchmal hilft bei einer Lungenfibrose nur eine Transplantation - Geo.de",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTFpsQUNaNkxJMWxfNGhlSFM4ZFRDdTlpYmNzVTRGM2w2ekN1NTk5aXRuRFM3Z1FIeHFFcmUyMFVieWxSSy10UGdSM2NxOEotTU15TmRhZUVVeGZ1bnVwSGg5aXRuOFZLV1FuQVdLeE1CU0J6V00yWmdqYUlIOFdYQjdQZHA4aGczeVJaQ3Y4VU1PbTZISVd3NGZLZmdvOEhmS01uS2lVLVY?oc=5",
+      "published": "2026-06-19T08:26:00+00:00",
       "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
+        "name": "Geo.de",
+        "url": "https://www.geo.de"
       }
     },
     {
@@ -174,16 +154,6 @@
       }
     },
     {
-      "id": "9aeb510c4c53",
-      "title": "Geplantes GKV-Spargesetz - Spart Deutschland am falschen Ende? - Presseportal",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9lVnpnN01iZVpYRHU2czYxaXpwMEtaWjVmS2dmbS1aLWtwVE5ELURMaVlHdzJYMk44bzJfenpjQ2wwcjhicVJpYnVOeUdfbjh4SWEwWFJ0bw?oc=5",
-      "published": "2026-06-17T09:47:25+00:00",
-      "source": {
-        "name": "Presseportal",
-        "url": "https://www.presseportal.de"
-      }
-    },
-    {
       "id": "2de8fdf554d2",
       "title": "Praxen, Kliniken, Arzneimittel: Ärzte warnen vor „Rasenmäher“ im Gesundheitssystem - STERN.de",
       "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNaTZheDB3U21uVWJSY3ZES25Pb1pRR1RvdXgzdVJha0F0TWhDeGcwenVFWHRKV0dGYmp0RzlsX1F0UG1uSUw3VDZqTkNiZkxURUxWSjA3b1ZqdWs1c1FrVkZUYjhlQ3dzNVpJWnI1RHVfbVFTMGVjcVZvN1ExX3cyNTVGaFByS2l1OEZQUHZZLUlZM095U2t5X3lEdUJIWnJTaXQ5ZTZ2ZkMwRDh0bFVuRWYtM3VkVFZ1ZWw5OXcyS0xMQlMzMG9VMTFHTGxNX0xVSDRCeFZZNHZpa0xqaWdpV3k2LXdVV0h2am5aanVMZ25NN1k0?oc=5",
@@ -191,6 +161,26 @@
       "source": {
         "name": "STERN.de",
         "url": "https://www.stern.de"
+      }
+    },
+    {
+      "id": "075a40db361f",
+      "title": "Medikamente auf Reisen: Das darf ins Handgepäck - ADAC",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZmdDVl81RGdjdDZRNXNXSlRFTVhOSVpSQUlwUTlUelB6bnNFcVFRV09lQ2czNTdja0RsNHJVck00Y2hFVHZUM3kyaTRWOVZXWHQ0M182TVJrcGNGcUxtS1pFaU8wczRRRFRycTVmZnFmWE1lQ2g1eVVNekNQd3pSWWFHMnc1anVBY3plbTNB?oc=5",
+      "published": "2026-05-01T07:00:00+00:00",
+      "source": {
+        "name": "ADAC",
+        "url": "https://www.adac.de"
+      }
+    },
+    {
+      "id": "9aeb510c4c53",
+      "title": "Geplantes GKV-Spargesetz - Spart Deutschland am falschen Ende? - Presseportal",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9lVnpnN01iZVpYRHU2czYxaXpwMEtaWjVmS2dmbS1aLWtwVE5ELURMaVlHdzJYMk44bzJfenpjQ2wwcjhicVJpYnVOeUdfbjh4SWEwWFJ0bw?oc=5",
+      "published": "2026-06-17T09:47:25+00:00",
+      "source": {
+        "name": "Presseportal",
+        "url": "https://www.presseportal.de"
       }
     },
     {
@@ -211,16 +201,6 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
-      "id": "075a40db361f",
-      "title": "Medikamente auf Reisen: Das darf ins Handgepäck - ADAC",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZmdDVl81RGdjdDZRNXNXSlRFTVhOSVpSQUlwUTlUelB6bnNFcVFRV09lQ2czNTdja0RsNHJVck00Y2hFVHZUM3kyaTRWOVZXWHQ0M182TVJrcGNGcUxtS1pFaU8wczRRRFRycTVmZnFmWE1lQ2g1eVVNekNQd3pSWWFHMnc1anVBY3plbTNB?oc=5",
-      "published": "2026-05-01T07:00:00+00:00",
-      "source": {
-        "name": "ADAC",
-        "url": "https://www.adac.de"
       }
     },
     {
@@ -554,6 +534,16 @@
       }
     },
     {
+      "id": "fb0979f27ad0",
+      "title": "Medikamentencheck in der Apotheke: Wer Anspruch darauf hat - Allgemeine Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQX3Q2MW5GYTN6ZFRhNl94b2o4XzVuQllBLThSdmFXUE1FbHRzQzZfUEpqdEZJYlZhX2huQW1lZ3B1MkxPdW1Mdmp1ZXFER21KNmN0UE1OSXpPWk1YbUtnQ0xyd3g5dW5TN3hBQmpKZ0x6NlJJd29fNlBaal84dHg0MzFmbGRtYlBWbXY1R3ByVWhrQ3pfRnQtOTdBX2d2NmZQX1NaM1VkWW1tUTlBTTljblUyTlZlMnBFYzV3?oc=5",
+      "published": "2026-04-19T07:00:00+00:00",
+      "source": {
+        "name": "Allgemeine Zeitung",
+        "url": "https://www.allgemeine-zeitung.de"
+      }
+    },
+    {
       "id": "59d03ee6896b",
       "title": "Medikamente ohne Zuzahlung können ungesunde Nebenwirkungen haben - MDR.de",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOa1BRZ1RkZDlsQTQtUVVvek1KQlI2S2I5eUVpaHh0cGxseUJubDAxX01JeC1qRmczWTNSYWdhSnNMa3FGY2M3ZlcxVFo5UXpVMUt5RUw2T3VJMXZmdTlKOTYtaGtzY1EzZFpSVVM2UWY3YXpjM3lMOU8wMlJRbnlJY1FuTXcyMURpdHBsaVFvSDBmSm9NaGwtR3BWUEQ0c2FsTmpuZ3VnX2RkM05weXYtZkRxY2VZV3ZBWUp0OFk4RVd5MUFjZExvLXJKUjBXdWMzQzVud1RR?oc=5",
@@ -561,6 +551,16 @@
       "source": {
         "name": "MDR.de",
         "url": "https://www.mdr.de"
+      }
+    },
+    {
+      "id": "a8ab1fb57671",
+      "title": "Welche Medikamente im Sommer gefährlich werden können - STERN.de",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZWREZkpJQWZQeGFaaTE4Y3NHcjVGM3JRbWRXUmRVNGRkanpVNnV2a0JTdkxMZ19rYmhUekhKQmR3Z2s0WU93NFhHb1RFbDVKRVlsZnRzZUF2ZUh4UnlveVdwZlpqSzlFeXVpWjczOE1tZlpPaU5fS0xhUjJ1NWdjYVU1RU5iQXJYdkZJd0FjNFdBbVMyMDJaYjJYcWVyN08yelVINXVGd21nZw?oc=5",
+      "published": "2026-06-18T06:36:24+00:00",
+      "source": {
+        "name": "STERN.de",
+        "url": "https://www.stern.de"
       }
     },
     {
@@ -924,16 +924,6 @@
       }
     },
     {
-      "id": "0d877deab3c8",
-      "title": "Usbekistan will Bezahlbarkeit von Medikamenten auf der Ebene der primären Gesundheitsversorgung verbessern - World Health Organization (WHO)",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZHcxc3ZFWkhLcWVKS3RfWW5xSUZBUFVCQkdxb1pGZGlqai1UWjE1S2s3cG5KMEJCdjFPQ0hQZnc4X0o4bVVSTHhKZURfeWRXb01vNkkzUG5CcGQ0YlZXZjZSQXBfdHVBc0l1S0MzdHBBejJUMVJTQURsS0ZQdG9HVkczVFZXdjNKZWgzZmhGdnpVdl9oZHUzRjRYOXRWLUFWTC1ZR2tBVy04NWtrM2lpYVlKNEw1eUl4TWpqT0JGZUxpdnBRbmJIUk5peENtS1VJRG1sdzR6bw?oc=5",
-      "published": "2024-11-26T08:00:00+00:00",
-      "source": {
-        "name": "World Health Organization (WHO)",
-        "url": "https://www.who.int"
-      }
-    },
-    {
       "id": "8d6c279774fa",
       "title": "Arzneimittelpreise im Fokus: Innovation statt Pauschale - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPY2NjMlpJU1NlMTBseFY5Z2h1aGMtdFo4YklYRDJEcEw1UnlLMlJ5WlQwSUdYVGg0clI0bm5NSUV5bmNoa1FzTi1oUUtBSFU4bElXODRQQ1JXZ1hQb09lMnBhNlI0TjRFWERYUUNVOFBXNHU3RzNpbGhSRE9CZFhaTnpFRC1mZTZ4YVpuTkJiVmtfd0FHUU9B?oc=5",
@@ -941,6 +931,16 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "0d877deab3c8",
+      "title": "Usbekistan will Bezahlbarkeit von Medikamenten auf der Ebene der primären Gesundheitsversorgung verbessern - World Health Organization (WHO)",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZHcxc3ZFWkhLcWVKS3RfWW5xSUZBUFVCQkdxb1pGZGlqai1UWjE1S2s3cG5KMEJCdjFPQ0hQZnc4X0o4bVVSTHhKZURfeWRXb01vNkkzUG5CcGQ0YlZXZjZSQXBfdHVBc0l1S0MzdHBBejJUMVJTQURsS0ZQdG9HVkczVFZXdjNKZWgzZmhGdnpVdl9oZHUzRjRYOXRWLUFWTC1ZR2tBVy04NWtrM2lpYVlKNEw1eUl4TWpqT0JGZUxpdnBRbmJIUk5peENtS1VJRG1sdzR6bw?oc=5",
+      "published": "2024-11-26T08:00:00+00:00",
+      "source": {
+        "name": "World Health Organization (WHO)",
+        "url": "https://www.who.int"
       }
     },
     {
