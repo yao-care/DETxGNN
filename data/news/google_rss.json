@@ -1,26 +1,26 @@
 {
-  "fetched_at": "2026-06-20T00:09:48.079908+00:00",
+  "fetched_at": "2026-06-20T05:15:58.752347+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
     {
-      "id": "7a99adaec5c0",
-      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - Geo.de",
+      "id": "47afc2884d76",
+      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - geo.de",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
       "published": "2026-06-19T10:10:00+00:00",
       "source": {
-        "name": "Geo.de",
+        "name": "geo.de",
         "url": "https://www.geo.de"
       }
     },
     {
-      "id": "b09d2a35170a",
-      "title": "6-R-Regel in der Pflege: Was dahintersteckt und warum sie so wichtig ist - Allgäuer Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOX1dTN0hYRlhkVDN0cVduUzlkQ1FIN29RUnJ3QnctQlE3LXc0d1dvQVp4NWY2X2IxMENtZEZORzg3TW9CSWhKZVh5bUZUcU5tTEtzVDdQNkY4TWRaSTlBOVkxVGhhUHZ6VlRLQjYwdU9NS3QybkRYT2gzWmlwV3hpMmMtNkJqeGk2U3VYUkE2SnFnWFJ3aFk1RERHOGVBamVwUktPQkdNVDNIbzhyZUNuRHB2Q191anlaa2FBNFJHRy0?oc=5",
-      "published": "2026-06-19T04:20:37+00:00",
+      "id": "73ddecbcd6fd",
+      "title": "Apothekerin gibt Tipps für heiße Tage: So schützen Sie sich und lagern Medikamente richtig - Marler Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVEpXRUpYazlyZUR4T3pKcVB1UDBnNkgxV2hJdmszWHhOMk1TQWdrTG5UMHJKVlNodHp6eHVGekk1YmxodUtNOG1jWkhhc2E5dkU4NExWOTJWblU1aUlhaUhpMDBHbjdXdXo2dkl5ZVZwc2JBTEJZZk1CSk5QZk5GeVlTbE1iLUhYd2V0SmZrbjZNZjBtWnB3Tkx2OTdjM2ZlcUpnMThUR0d6TzR2R19FOUNacXk5b0pLdFVZ?oc=5",
+      "published": "2026-06-20T03:00:00+00:00",
       "source": {
-        "name": "Allgäuer Zeitung",
-        "url": "https://www.allgaeuer-zeitung.de"
+        "name": "Marler Zeitung",
+        "url": "https://www.marler-zeitung.de"
       }
     },
     {
@@ -44,13 +44,13 @@
       }
     },
     {
-      "id": "2e512481fa12",
-      "title": "Sommerhitze: Achtung, manche Medikamente wirken anders - noz.de",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdDV0ZWUxM1ZiLWliTDNvZVE0dFNMX2lYX2NSeUpwcE5TVHdJRFh2SjlmRGxKYTI0dGRVenN0MXk1ZUVjQmhoRWo0eWJKOHVLX2o2dWxMallOd0ltRDFnc1h1dTJ3MFR0LTl3OWFVNnM4SVRIeUVoV1VibEt3eG42bmRZeU40QzBWOU1EQTZLQlU3cGRDZ01ZLWVZWjlYOWFGTkt5eFhEX2cyNm9uWDU1M1BCQTNjNS11OUF1WQ?oc=5",
-      "published": "2026-06-19T04:32:00+00:00",
+      "id": "9296c3f2aa6b",
+      "title": "6-R-Regel in der Pflege: Was dahintersteckt und warum sie so wichtig ist - Allgäuer Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQT2k3a1FLeHUxdDAxRzB5RzhPTndTQlNrNFR2UG14dTQ3M1Fjel93ZlVpUHFRU19aQlE5WnJyM0xFQlRlVV91NzM4TVB1VGE2QVhoeHNheExNY2NrOF9hNHo5Z3hndkdOVmVvcVRiSE80ZWdVMEpnUGVrcUhkZXdkOHBUczdZVXl1eDV1YVFBVkttdnVsUkZNbWw4eF81bGtGcWZkQ1IzMm1UQlBoRnBjaTRUMV9DbzRlR19FeF93?oc=5",
+      "published": "2026-06-18T14:27:38+00:00",
       "source": {
-        "name": "noz.de",
-        "url": "https://www.noz.de"
+        "name": "Allgäuer Zeitung",
+        "url": "https://www.allgaeuer-zeitung.de"
       }
     },
     {
@@ -64,6 +64,16 @@
       }
     },
     {
+      "id": "ba81ff52779e",
+      "title": "7 Bedingungen, unter denen die Krankenversicherung die Kosten für selbst gekaufte Medikamente übernimmt. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMzNtaUJHeTBEY1NVbXkzcWhrLTNkNy01LW02VE1JMFpsRGJQX1IyZUphdmlNbXNXSUNqcUZORzFzQ1VkS0lVREtXLTh1X1BTZmx2b1gxTm1ldENHckdDQXlORDJKR0lhaHlnY0dGa1hGNDBqaDQyY1ZWdTBSb2NuS1I2c0N2ZGx1OVQyakMtdmc?oc=5",
+      "published": "2026-06-20T00:25:53+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
       "id": "9ace6c5aad6d",
       "title": "Säureblocker gegen Sodbrennen: Warum viele Betroffene sie zu häufig und zu lange einnehmen - ZDFheute",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMHdLN2JFN2pySU45TXExN0JlT2NVSjMtazJDWlVLd29LUjdoeWJwdjVna0kzM3NpN2Z1MjBzWjlmN2t6MlppZVFzamk4R0NNaFQ2aTRhc0tPUHpzSTdwREhYaXBTY3RvMG5vaXJ1cDh4bnZmSWdFVTdFdDEwV1pEYWdULUFjQ0RsaXlUSWNKYXBkMkxiM1VtYlNMcWlWYnc0ZzVJbEtIbw?oc=5",
@@ -74,23 +84,13 @@
       }
     },
     {
-      "id": "885f57a55794",
-      "title": "Cholesterin senken mit Statinen: Ärztin räumt mit Angst vor Nebenwirkungen auf - Berliner Morgenpost",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNRVVxUmwyWjh6RVc1RmpCaElOX1VSRGVFbXhPMjkwTmk2UE82UURzaXFkTWFYN3lYSDlHQVN2YUs0cS0tX3BRdlhZY2VVUUdINjZCQzE1Wk8yTmRlMENaZnNrQk5lanFtWXF3YWh6X28xdlRFVm4xYVd1eVN0WjVJRzNubVhyVXpoT3IyazNXOW55TnM1VC1EaDFpUXh2MU9MZFpqcGtDZjdLRGg5akppcktkUk1INldCX1djVEc5Z09EcHA5SXYwOS1Fck0yVXFLN1poNEVlc1BKSjM1b1dRZFNmT3oxUQ?oc=5",
-      "published": "2026-06-19T06:25:00+00:00",
+      "id": "2e512481fa12",
+      "title": "Sommerhitze: Achtung, manche Medikamente wirken anders - noz.de",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdDV0ZWUxM1ZiLWliTDNvZVE0dFNMX2lYX2NSeUpwcE5TVHdJRFh2SjlmRGxKYTI0dGRVenN0MXk1ZUVjQmhoRWo0eWJKOHVLX2o2dWxMallOd0ltRDFnc1h1dTJ3MFR0LTl3OWFVNnM4SVRIeUVoV1VibEt3eG42bmRZeU40QzBWOU1EQTZLQlU3cGRDZ01ZLWVZWjlYOWFGTkt5eFhEX2cyNm9uWDU1M1BCQTNjNS11OUF1WQ?oc=5",
+      "published": "2026-06-19T04:32:00+00:00",
       "source": {
-        "name": "Berliner Morgenpost",
-        "url": "https://www.morgenpost.de"
-      }
-    },
-    {
-      "id": "32e4baec50d7",
-      "title": "Gesundheit: Bundesrat will Arzneimittelversorgung stärken | blue News - blue News",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVW0tTkhybjBYdUJibnFQSkc3bldlN0dxQWFYbFdJN2tSQ09FaWc1WGg1MFJkRGthZFlDRzIyRTVYVTlDQ1Q5dXNCdXF2Zi1xaFFiaW9pY1ZxeExjM240NjNKVUNFemZjR1pmRUQza1lDUHhzQTBRNy1lanV5cHFYQnZNc2xhVnNsQzNUdTRaYTZJNU55bXhhSDFZUUdndk0?oc=5",
-      "published": "2026-06-19T08:56:00+00:00",
-      "source": {
-        "name": "blue News",
-        "url": "https://www.bluewin.ch"
+        "name": "noz.de",
+        "url": "https://www.noz.de"
       }
     },
     {
@@ -104,13 +104,23 @@
       }
     },
     {
-      "id": "4b1158ee3097",
-      "title": "Homöopathie-Debatte: Was sich für Versicherte bald ändern könnte - Wochenblatt Reporter",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPN3VwS3o5TEtONDZFOEJ0TjdKLVlqRU1MeHRFcHJpWGJ3bVdJdHItOTNXbXNMbGpvc3ozYzE0V2hBNXlodHg1RjVGMGUtLVJBcGpXYkZhMjJQV0hEU3hOTEREaUlvVndBd3JhZzdTaUg2OTRiUm9SaHRwcTVONkdXeHJERDdrd29pTjB5c1VOYUR0U3lISTZ4Y3hIcVc5ZF8wS1ZCcGttbTZKVGJOWHlaeUJZdEQ4TDBBekVRN3ZvYw?oc=5",
-      "published": "2026-06-19T12:23:33+00:00",
+      "id": "32e4baec50d7",
+      "title": "Gesundheit: Bundesrat will Arzneimittelversorgung stärken | blue News - blue News",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVW0tTkhybjBYdUJibnFQSkc3bldlN0dxQWFYbFdJN2tSQ09FaWc1WGg1MFJkRGthZFlDRzIyRTVYVTlDQ1Q5dXNCdXF2Zi1xaFFiaW9pY1ZxeExjM240NjNKVUNFemZjR1pmRUQza1lDUHhzQTBRNy1lanV5cHFYQnZNc2xhVnNsQzNUdTRaYTZJNU55bXhhSDFZUUdndk0?oc=5",
+      "published": "2026-06-19T08:56:00+00:00",
       "source": {
-        "name": "Wochenblatt Reporter",
-        "url": "https://www.wochenblatt-reporter.de"
+        "name": "blue News",
+        "url": "https://www.bluewin.ch"
+      }
+    },
+    {
+      "id": "885f57a55794",
+      "title": "Cholesterin senken mit Statinen: Ärztin räumt mit Angst vor Nebenwirkungen auf - Berliner Morgenpost",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNRVVxUmwyWjh6RVc1RmpCaElOX1VSRGVFbXhPMjkwTmk2UE82UURzaXFkTWFYN3lYSDlHQVN2YUs0cS0tX3BRdlhZY2VVUUdINjZCQzE1Wk8yTmRlMENaZnNrQk5lanFtWXF3YWh6X28xdlRFVm4xYVd1eVN0WjVJRzNubVhyVXpoT3IyazNXOW55TnM1VC1EaDFpUXh2MU9MZFpqcGtDZjdLRGg5akppcktkUk1INldCX1djVEc5Z09EcHA5SXYwOS1Fck0yVXFLN1poNEVlc1BKSjM1b1dRZFNmT3oxUQ?oc=5",
+      "published": "2026-06-19T06:25:00+00:00",
+      "source": {
+        "name": "Berliner Morgenpost",
+        "url": "https://www.morgenpost.de"
       }
     },
     {
@@ -124,13 +134,13 @@
       }
     },
     {
-      "id": "753db5137932",
-      "title": "Manchmal hilft bei einer Lungenfibrose nur eine Transplantation - Geo.de",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTFpsQUNaNkxJMWxfNGhlSFM4ZFRDdTlpYmNzVTRGM2w2ekN1NTk5aXRuRFM3Z1FIeHFFcmUyMFVieWxSSy10UGdSM2NxOEotTU15TmRhZUVVeGZ1bnVwSGg5aXRuOFZLV1FuQVdLeE1CU0J6V00yWmdqYUlIOFdYQjdQZHA4aGczeVJaQ3Y4VU1PbTZISVd3NGZLZmdvOEhmS01uS2lVLVY?oc=5",
-      "published": "2026-06-19T08:26:00+00:00",
+      "id": "4b1158ee3097",
+      "title": "Homöopathie-Debatte: Was sich für Versicherte bald ändern könnte - Wochenblatt Reporter",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPN3VwS3o5TEtONDZFOEJ0TjdKLVlqRU1MeHRFcHJpWGJ3bVdJdHItOTNXbXNMbGpvc3ozYzE0V2hBNXlodHg1RjVGMGUtLVJBcGpXYkZhMjJQV0hEU3hOTEREaUlvVndBd3JhZzdTaUg2OTRiUm9SaHRwcTVONkdXeHJERDdrd29pTjB5c1VOYUR0U3lISTZ4Y3hIcVc5ZF8wS1ZCcGttbTZKVGJOWHlaeUJZdEQ4TDBBekVRN3ZvYw?oc=5",
+      "published": "2026-06-19T12:23:33+00:00",
       "source": {
-        "name": "Geo.de",
-        "url": "https://www.geo.de"
+        "name": "Wochenblatt Reporter",
+        "url": "https://www.wochenblatt-reporter.de"
       }
     },
     {
@@ -164,13 +174,13 @@
       }
     },
     {
-      "id": "075a40db361f",
-      "title": "Medikamente auf Reisen: Das darf ins Handgepäck - ADAC",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZmdDVl81RGdjdDZRNXNXSlRFTVhOSVpSQUlwUTlUelB6bnNFcVFRV09lQ2czNTdja0RsNHJVck00Y2hFVHZUM3kyaTRWOVZXWHQ0M182TVJrcGNGcUxtS1pFaU8wczRRRFRycTVmZnFmWE1lQ2g1eVVNekNQd3pSWWFHMnc1anVBY3plbTNB?oc=5",
-      "published": "2026-05-01T07:00:00+00:00",
+      "id": "2705dedff621",
+      "title": "Manchmal hilft bei einer Lungenfibrose nur eine Transplantation - geo.de",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTFpsQUNaNkxJMWxfNGhlSFM4ZFRDdTlpYmNzVTRGM2w2ekN1NTk5aXRuRFM3Z1FIeHFFcmUyMFVieWxSSy10UGdSM2NxOEotTU15TmRhZUVVeGZ1bnVwSGg5aXRuOFZLV1FuQVdLeE1CU0J6V00yWmdqYUlIOFdYQjdQZHA4aGczeVJaQ3Y4VU1PbTZISVd3NGZLZmdvOEhmS01uS2lVLVY?oc=5",
+      "published": "2026-06-19T08:26:00+00:00",
       "source": {
-        "name": "ADAC",
-        "url": "https://www.adac.de"
+        "name": "geo.de",
+        "url": "https://www.geo.de"
       }
     },
     {
@@ -181,6 +191,16 @@
       "source": {
         "name": "Presseportal",
         "url": "https://www.presseportal.de"
+      }
+    },
+    {
+      "id": "1c3dadd31214",
+      "title": "Aufbau eines modernen, menschenfreundlichen Gesundheitssystems. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE10WU8wemxZWnpsMEc4ZlJtX0VWMlhJYm5SNE40TXZycEhnQzNmaS1xRnFqcmRfdE85WUJSNU9YV0htT3ZhaWZ6b3U0bTRTdGNTNnNHVWhmZXdhellZaVJXQzExdi03SHVKcTNBWGNDTVktXzQ?oc=5",
+      "published": "2026-06-20T00:55:23+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -201,6 +221,26 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "075a40db361f",
+      "title": "Medikamente auf Reisen: Das darf ins Handgepäck - ADAC",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZmdDVl81RGdjdDZRNXNXSlRFTVhOSVpSQUlwUTlUelB6bnNFcVFRV09lQ2czNTdja0RsNHJVck00Y2hFVHZUM3kyaTRWOVZXWHQ0M182TVJrcGNGcUxtS1pFaU8wczRRRFRycTVmZnFmWE1lQ2g1eVVNekNQd3pSWWFHMnc1anVBY3plbTNB?oc=5",
+      "published": "2026-05-01T07:00:00+00:00",
+      "source": {
+        "name": "ADAC",
+        "url": "https://www.adac.de"
+      }
+    },
+    {
+      "id": "869fee855e1f",
+      "title": "Das Rückerstattungsverfahren, wenn Patienten mit Krankenversicherung Medikamente selbst kaufen müssen. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNa1VFS3pZU0VRRFN4UEFxZlNpend5dy1qRUVWY2c2RnprTTlkT2xtMDcwWlM0bDUxRnlMVm5seHJIYnB4cGVTenpqTkhsRDlPWkE4ZURkWVNpZ1ZWem9uS2YtdzZLeTNuM3otakx2My1QTFZ3MmJGNFE0bms4UFlyTDBPbnVsWmIxMWpwX3BSeFdobjA?oc=5",
+      "published": "2026-06-19T05:39:36+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -374,16 +414,6 @@
       }
     },
     {
-      "id": "11cdd0be15c8",
-      "title": "Wie viel darf Gesundheit kosten? Streit um Medikamentenpreise eskaliert - WirtschaftsWoche",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMEkzamFzeFFHZEk3NjFIbFJmYjZvajlGOVMtcHo3aUZsWFlvdkcyMzFTODZXZFM1dWhNWU1lT3FVVDk4dlduRjBqV2paSEFVbkE2YWktMVJIanA4U3J2QW1rMnFtOUljc0pXb2hEbVNSWkxYdGlkRHRMRGE3aGpSYjlrU0FzN0RjN1dhWkJWZldkUmVpbm9xbXpSZmR3b0xGR2ZXQmdvVVZ4bWh5bmVNbkdOOU1rNEdiZElEc0NEeDE3LXpqVkE?oc=5",
-      "published": "2026-04-16T07:00:00+00:00",
-      "source": {
-        "name": "WirtschaftsWoche",
-        "url": "https://www.wiwo.de"
-      }
-    },
-    {
       "id": "566dd4d9d4e6",
       "title": "Gesundheit: Medikamente mit Wechselwirkung? Vor diesen Fehlern schützt die ePA - Berliner Morgenpost",
       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPQnJXQjdvZFhaOHdKUjFfTHRXcU9oTF9vc21mN2U2bmNqOXF3M2o3RWIxU2R1bkx5eGRIYWJIWnF5Ty1yM0pMcW1DcG5LR2JiYlRPdFBXbUdFYmhaeVh5enZDdmY2YWlFdkQtNjVRalZKdzV0alNFbGlLWmM1c1BpcTlXcC01blFGM0dMVV83ZlpQN19kVGx3WVVKNTlXS0t0R1U2dmY0R1MwdGNzOC12MUJzcEh2M2lWendsZFphd1JxanR6elNEalAwSlRBSlczTk5jLVpvYjVQN0kyaGd3Ug?oc=5",
@@ -391,6 +421,16 @@
       "source": {
         "name": "Berliner Morgenpost",
         "url": "https://www.morgenpost.de"
+      }
+    },
+    {
+      "id": "11cdd0be15c8",
+      "title": "Wie viel darf Gesundheit kosten? Streit um Medikamentenpreise eskaliert - WirtschaftsWoche",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMEkzamFzeFFHZEk3NjFIbFJmYjZvajlGOVMtcHo3aUZsWFlvdkcyMzFTODZXZFM1dWhNWU1lT3FVVDk4dlduRjBqV2paSEFVbkE2YWktMVJIanA4U3J2QW1rMnFtOUljc0pXb2hEbVNSWkxYdGlkRHRMRGE3aGpSYjlrU0FzN0RjN1dhWkJWZldkUmVpbm9xbXpSZmR3b0xGR2ZXQmdvVVZ4bWh5bmVNbkdOOU1rNEdiZElEc0NEeDE3LXpqVkE?oc=5",
+      "published": "2026-04-16T07:00:00+00:00",
+      "source": {
+        "name": "WirtschaftsWoche",
+        "url": "https://www.wiwo.de"
       }
     },
     {
@@ -544,16 +584,6 @@
       }
     },
     {
-      "id": "59d03ee6896b",
-      "title": "Medikamente ohne Zuzahlung können ungesunde Nebenwirkungen haben - MDR.de",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOa1BRZ1RkZDlsQTQtUVVvek1KQlI2S2I5eUVpaHh0cGxseUJubDAxX01JeC1qRmczWTNSYWdhSnNMa3FGY2M3ZlcxVFo5UXpVMUt5RUw2T3VJMXZmdTlKOTYtaGtzY1EzZFpSVVM2UWY3YXpjM3lMOU8wMlJRbnlJY1FuTXcyMURpdHBsaVFvSDBmSm9NaGwtR3BWUEQ0c2FsTmpuZ3VnX2RkM05weXYtZkRxY2VZV3ZBWUp0OFk4RVd5MUFjZExvLXJKUjBXdWMzQzVud1RR?oc=5",
-      "published": "2026-02-12T08:00:00+00:00",
-      "source": {
-        "name": "MDR.de",
-        "url": "https://www.mdr.de"
-      }
-    },
-    {
       "id": "a8ab1fb57671",
       "title": "Welche Medikamente im Sommer gefährlich werden können - STERN.de",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZWREZkpJQWZQeGFaaTE4Y3NHcjVGM3JRbWRXUmRVNGRkanpVNnV2a0JTdkxMZ19rYmhUekhKQmR3Z2s0WU93NFhHb1RFbDVKRVlsZnRzZUF2ZUh4UnlveVdwZlpqSzlFeXVpWjczOE1tZlpPaU5fS0xhUjJ1NWdjYVU1RU5iQXJYdkZJd0FjNFdBbVMyMDJaYjJYcWVyN08yelVINXVGd21nZw?oc=5",
@@ -564,6 +594,16 @@
       }
     },
     {
+      "id": "59d03ee6896b",
+      "title": "Medikamente ohne Zuzahlung können ungesunde Nebenwirkungen haben - MDR.de",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOa1BRZ1RkZDlsQTQtUVVvek1KQlI2S2I5eUVpaHh0cGxseUJubDAxX01JeC1qRmczWTNSYWdhSnNMa3FGY2M3ZlcxVFo5UXpVMUt5RUw2T3VJMXZmdTlKOTYtaGtzY1EzZFpSVVM2UWY3YXpjM3lMOU8wMlJRbnlJY1FuTXcyMURpdHBsaVFvSDBmSm9NaGwtR3BWUEQ0c2FsTmpuZ3VnX2RkM05weXYtZkRxY2VZV3ZBWUp0OFk4RVd5MUFjZExvLXJKUjBXdWMzQzVud1RR?oc=5",
+      "published": "2026-02-12T08:00:00+00:00",
+      "source": {
+        "name": "MDR.de",
+        "url": "https://www.mdr.de"
+      }
+    },
+    {
       "id": "39655c0e5aa9",
       "title": "Gesundheit - Techniker Krankenkasse fordert geringere Medikamentenpreise - Deutschlandfunk",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOX3NDaWYzNk9TdlEwcHJfWDNzMFpsdFN5aUNwNHJTZjhocklJMURaWDlKdWdDR21aNHpwcDU5UGd6d285RXE0QUlvekdsd3VqMTdGazRKbFdRV0VLbVoxbzBNbXVJeElpcFJKTmxpTzAwcFhJZG5PSlhoQW1sTlUxaGNDTUttWmEwdEVMOHpMQWNYWmFmUkhRa2UzVzR2VVFP?oc=5",
@@ -571,6 +611,16 @@
       "source": {
         "name": "Deutschlandfunk",
         "url": "https://www.deutschlandfunk.de"
+      }
+    },
+    {
+      "id": "6d190bfe55b8",
+      "title": "Nach Kommissionsvorstoß: Kosten sparen durch Homöopathie? - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOTWlKLU9oNXNxMF9tWXpFLWNrdzFXblVCaVM3aWVyZ2MxSkF4eDNRa2hhY3RLMVJPcUM1cHlXRFpvODVoNVNXektHcGhQd2tjeVlQXzY0aUxhU21xUURhNVlCVHVuYnRaTE1MWU9SN18tcmdFNVR4MkRaT0JtejFIU3B5SnZwdw?oc=5",
+      "published": "2026-04-13T07:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -694,16 +744,6 @@
       }
     },
     {
-      "id": "2dad305b24cb",
-      "title": "Rezeptfreie Medikamente: Wenn der Online-Kauf problematisch wird - Verbraucherzentrale NRW",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQbVo4UUtZTzFlZVNZOXp6c2NQeUVhU3FZUUZvTFAwSjdGcTduTlRzcFhVYXZLUDg0S0xkVnUxSGwxVzAxTjluLUhRQ3JDQjU2Y0VYU0pTUkQwYXFNdVNnSHV4bzZaU0pLM3JGQW5aQlpvYjdIQ3dZVFdHS3hBS2RHWEZDemg3VjBCM1FlOFZjSG1MNmwxd0RhdWpNdlcxUXRHTjNEcjU2eWMtakZId3Q2a2wwMlNCNlZFV3hJYmxjWlh4WlV5dHRvWWg2dFRHdThMU2ZVcy1sdDdKdw?oc=5",
-      "published": "2025-11-19T11:36:11+00:00",
-      "source": {
-        "name": "Verbraucherzentrale NRW",
-        "url": "https://www.verbraucherzentrale.nrw"
-      }
-    },
-    {
       "id": "f992ed6033b4",
       "title": "Kassen zur Notfallreform: Arzneimittel am Abgabeautomaten - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQnRNallHTEprd203OEY3V3k3aVlYV18yMzVLNHltVUhFNFNIQUtoVnYwNjU0V0ZTUG93TkIyd0NQdnN5Uzg5LW1aQVBxZHQzNzJpeUNGalVxZGlTcUZ0dlgxSk5HR3ZtTElzVEVGc2FKMTNlcHlCbGRtY3pnOEZyMmx4Nms?oc=5",
@@ -774,16 +814,6 @@
       }
     },
     {
-      "id": "d46f6ce1c2b9",
-      "title": "Ibuprofen, Aspirin und Co.: Schmerzmittel der Gruppe NSAR können Nebenwirkungen haben - NDR.de",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUmwyTW8wT3dfaXgyZ1VyaXFYUG1lWXY5VUZXZkkwWjd4STI2dWVSY1d3bVhub1NxRE9sNGt2bW83blh3T2hPRzlWcnVvUElQSmw4WE9KOHhscFdsSEE4TmF2cnhXaTktUWRfc3NQMnpoWmZDUXF5WWt6czNsbWdLQTRtVVJ3Mzdtb250RGVhbldmNUpVOTNDOTFhOWpldzV0MUlpVFdMRmpfOGM3WW5HbmRYaVJFT1ZzYUxn?oc=5",
-      "published": "2025-09-23T07:00:00+00:00",
-      "source": {
-        "name": "NDR.de",
-        "url": "https://www.ndr.de"
-      }
-    },
-    {
       "id": "091a002ed2d2",
       "title": "Arzneimittelengpässe: Rechnungshof sieht Risiko für Medikamentenengpässe in der EU - DIE ZEIT",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNejgweWNVRGltRU1FaUMtRF92NTF6czFQUGltbGp3TG9DM09seC1BSlM2eHgwaXNQaGl6R0hvWm9FdzRsbEZNVW4wUV9GM3p2eGtWeUUxQzBCbFNibE5MaFM2YTh3OG5UeHFwdV9oOHgzbUdUS2FYOUJyVmtaZzlLR2VkOV9mRklPSFlXZ2llR3Z6RG5Ra19uR2dpWEM?oc=5",
@@ -801,6 +831,16 @@
       "source": {
         "name": "Berliner Morgenpost",
         "url": "https://www.morgenpost.de"
+      }
+    },
+    {
+      "id": "d46f6ce1c2b9",
+      "title": "Ibuprofen, Aspirin und Co.: Schmerzmittel der Gruppe NSAR können Nebenwirkungen haben - NDR.de",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUmwyTW8wT3dfaXgyZ1VyaXFYUG1lWXY5VUZXZkkwWjd4STI2dWVSY1d3bVhub1NxRE9sNGt2bW83blh3T2hPRzlWcnVvUElQSmw4WE9KOHhscFdsSEE4TmF2cnhXaTktUWRfc3NQMnpoWmZDUXF5WWt6czNsbWdLQTRtVVJ3Mzdtb250RGVhbldmNUpVOTNDOTFhOWpldzV0MUlpVFdMRmpfOGM3WW5HbmRYaVJFT1ZzYUxn?oc=5",
+      "published": "2025-09-23T07:00:00+00:00",
+      "source": {
+        "name": "NDR.de",
+        "url": "https://www.ndr.de"
       }
     },
     {
@@ -961,46 +1001,6 @@
       "source": {
         "name": "Deutsches Ärzteblatt",
         "url": "https://www.aerzteblatt.de"
-      }
-    },
-    {
-      "id": "2a575cd89995",
-      "title": "Neues Akne-Medikament: Erst abgelehnt, dann doch zugelassen: Das kann das neue Akne-Mittel - DIE ZEIT",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUU1URm04UDFMaUdPcUh5amsxRDFjcEpYRnRldlk0d0NjSDVYb3pnRHpBdnRPREdiajltdzhYN3NrWXY5XzV5YTk0YkFvY3RsZlgwR0VTTk50aXVtWFJOUlZEbWhmMXF6WWtmVF8tLXJvaS1SSlMxMEhKOTRLV2xSRGtzYnhSQWpsWmNNTFhBYw?oc=5",
-      "published": "2025-09-15T07:00:00+00:00",
-      "source": {
-        "name": "DIE ZEIT",
-        "url": "https://www.zeit.de"
-      }
-    },
-    {
-      "id": "41481cdefabb",
-      "title": "Bei welchen Medikamenten mit Engpässen zu rechnen ist - WEB.DE",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPYjEyNTBxUmtRckJVeFhacW9SeWhiYjVaNjRleVBvc0RXcU9RTUlTZlRoZTU0eUo3TFE0djZYRjFSanBXTlhwRHVPUE9MckdxN015SC1iUXI4RXdFRXVULURoeThoUjF1bG8tQTlVZnlBMmx1R2NpNzhmeEF6eUY4TA?oc=5",
-      "published": "2025-09-19T07:00:00+00:00",
-      "source": {
-        "name": "WEB.DE",
-        "url": "https://web.de"
-      }
-    },
-    {
-      "id": "781b7b5013b5",
-      "title": "Hendrik Streeck wirft Frage nach teuren Medikamenten für sehr Alte auf - STERN.de",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNN1JrNFg0ZXh4dVBQLTJfdU9ORHBmWC1vTGlDT1Y1RkFJZm80QkhtY3JqUEtadDFHcE5GVWFQRVc5V3VYVzZtVWFwdS0xTFl4c2FKT2VDY1owOHc4b1pxeVZLUnJVWWp6WXZLd012YnlZXzRHdm1vNWN0MFNGVzRteUZNekFFR1dDTklBei04cTA0M1RvM2YwWWxPVk05aW1wWHBFX0wwTV9zTGgxcVU4SHBRUkRyMzRR?oc=5",
-      "published": "2025-11-13T08:00:00+00:00",
-      "source": {
-        "name": "STERN.de",
-        "url": "https://www.stern.de"
-      }
-    },
-    {
-      "id": "62d3f46a88a8",
-      "title": "Maßnahmen der EU zur Verbesserung der öffentlichen Gesundheit - European Parliament",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVzhCNzVfWlJpeVRpVnRlZDB1VDB6WVBfYzJsbk1qSVVTMEo0OWVjWEhFQTdyWHV4Ym1GemQtUHBkU3ZxVmI1R0lPVzE3SVN0Qzd2OW5JSVRKUjkyX3dadEVIb2pGdzRxOU01QVRQMXEzaTJ3VjVPTTN3MmN4TVdlUlZKTTdUZGM1R3hwT19HWVRKckhyeWVKYmxYSjJMSWZSZVhWSWc5dnBXcjBQdlk2TG5WcV9hOGpXX29fWm1tdTFVcmJPU1Jr?oc=5",
-      "published": "2023-10-17T07:00:00+00:00",
-      "source": {
-        "name": "European Parliament",
-        "url": "https://www.europarl.europa.eu"
       }
     }
   ]
