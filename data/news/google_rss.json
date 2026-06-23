@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-23T00:07:58.068572+00:00",
+  "fetched_at": "2026-06-23T05:02:47.318777+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -14,13 +14,13 @@
       }
     },
     {
-      "id": "14f3b2f757dc",
-      "title": "Wachsende Sorgen um die Gesundheitsversorgung in Deutschland - Presseportal",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1RNVh3QVA3aERMNGVsZ3lOT2hrYnVZMWRTSUpPSzYxVGwzVEM5bUZHdTVfQ0l4QW9BTlNqUGxLbkxhVTFwNlRkRm56eUFuTkctX0w0Zjl6VQ?oc=5",
-      "published": "2026-06-22T10:26:44+00:00",
+      "id": "c5d8b7d25cb7",
+      "title": "Wie schütze ich mich gut vor Hitze? Tipps und Warnsignale - RiffReporter",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQa0dCOUVKTlFyRkxNeGVUOWJOX2Iyc19EVkx3aldKemFRVU5WOFBxWWJ4VWhzUkN0ZkJNdDFLcEtER0tCai1Sb2FpVmEyTFBqVnNZSmw1Wi1YR05jOWxSZnhkVGVkdnFHcnBRMHFaaFg1Z2JFa3RpOWd3WWxLa29rMGRTU2hDM2RWTTEtY3lfaG9tdHNlOGo5Vg?oc=5",
+      "published": "2026-06-19T13:40:46+00:00",
       "source": {
-        "name": "Presseportal",
-        "url": "https://www.presseportal.de"
+        "name": "RiffReporter",
+        "url": "https://www.riffreporter.de"
       }
     },
     {
@@ -31,6 +31,16 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "14f3b2f757dc",
+      "title": "Wachsende Sorgen um die Gesundheitsversorgung in Deutschland - Presseportal",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1RNVh3QVA3aERMNGVsZ3lOT2hrYnVZMWRTSUpPSzYxVGwzVEM5bUZHdTVfQ0l4QW9BTlNqUGxLbkxhVTFwNlRkRm56eUFuTkctX0w0Zjl6VQ?oc=5",
+      "published": "2026-06-22T10:26:44+00:00",
+      "source": {
+        "name": "Presseportal",
+        "url": "https://www.presseportal.de"
       }
     },
     {
@@ -54,26 +64,6 @@
       }
     },
     {
-      "id": "a7bc498f2f6e",
-      "title": "»Qua­li­tät gibt es nicht zum Null­ta­rif« - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSkFHY0NGbWhOVUNvNnpYcDRXYXJwdTVRRUVuMG80dTN3U3NZS3ZhbTR6eDFwNFJMcXl5SGtVRnR0d254d1VBV0pDQjBDbU9lT1ltNWZqUmdRV2Z6Szlkb05oZUE2aHktU0l4NnQ5c3JWRk5uOWhlaVg0WjljOUcwSGZzdkdTMVFGZ3JEWg?oc=5",
-      "published": "2026-06-18T15:30:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
-      "id": "7538a2b541cd",
-      "title": "Medikamente bei Hitze richtig nutzen: Wann Vorsicht nötig ist - Wochenblatt Reporter",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOOGtEbHhZSXVBN3BJWWJ4VVpIU1NmQ09ZakhoY0dRT0p5TV90ZHpORjBFWTA4S21zUjlFcGpfUnlZcnhySndIV0JvMnFvbXBvN25aLUszY2xXRVN6aGtEY1NuUlV6dVpHd216MmNpVEIxVy0zZkk5VkdodVpwQWw0dUFuX2VaYVFuZjhfV0tBeWdiQVNkd1ViQ2dkQWhFTlhWbkxlSTlpY2Z2a2RhYVVsWi1fMmtBLXM?oc=5",
-      "published": "2026-06-22T06:36:10+00:00",
-      "source": {
-        "name": "Wochenblatt Reporter",
-        "url": "https://www.wochenblatt-reporter.de"
-      }
-    },
-    {
       "id": "2a4cd6eb6d1d",
       "title": "Arzneimittelengpässe in Europa – so reagiert die EU - European Parliament",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYUFLam5JQVMtSlNuNWlqSTJrRUNDN215RDlRU2hOMEE0Rkp3cHBodVhSbXRsSUhvTTRhMTVLWEE5QmM0dXJRNGlPSkwyZ2doMHhlaEpHbW5DZl8tazhQc3lPcEN4SmtLaEdGMk9IZjF5MGZvNEd3a2tXSnJXT1ItanFsV2gtRGpMYjlUbHV2OURrMkM5OXA3emh5OERlMlpXc1J1UlNVYUp1UlBUd1gzREtLUkZRZw?oc=5",
@@ -81,6 +71,16 @@
       "source": {
         "name": "European Parliament",
         "url": "https://www.europarl.europa.eu"
+      }
+    },
+    {
+      "id": "a7bc498f2f6e",
+      "title": "»Qua­li­tät gibt es nicht zum Null­ta­rif« - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSkFHY0NGbWhOVUNvNnpYcDRXYXJwdTVRRUVuMG80dTN3U3NZS3ZhbTR6eDFwNFJMcXl5SGtVRnR0d254d1VBV0pDQjBDbU9lT1ltNWZqUmdRV2Z6Szlkb05oZUE2aHktU0l4NnQ5c3JWRk5uOWhlaVg0WjljOUcwSGZzdkdTMVFGZ3JEWg?oc=5",
+      "published": "2026-06-18T15:30:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -94,6 +94,16 @@
       }
     },
     {
+      "id": "128a2d5f2147",
+      "title": "Die WHO bewertet die Umsetzung der Empfehlungen durch das nationale Arzneimittel- und Impfstoffmanagementsystem Vietnams. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOUXBXVXBlQllIUXA3TGdCMkhhbnlpVEw4aDZSMTJPdFIwU1JIdzB4bFlXUHF3ZDhhRGhpRWhKdDFVWXRCWEVCYUVjQThNYTJCeE9xTEpIcDFIQkhHYktHMTIyOG83NFpPa3puN0VWdkp5enVtZUFkd2hxM0QwcENiQmlhdzZGUXdTUFRYdGRnaDc5bVFQVkZoampOUmRxU20zZFg2a19jVHVQTFEyUHJBU1ZueER2OXdPOFdXVlVUSHZ5Mndfa2xSN2NqNVo0ejdo?oc=5",
+      "published": "2026-06-22T09:41:33+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
       "id": "a8ab1fb57671",
       "title": "Welche Medikamente im Sommer gefährlich werden können - STERN.de",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZWREZkpJQWZQeGFaaTE4Y3NHcjVGM3JRbWRXUmRVNGRkanpVNnV2a0JTdkxMZ19rYmhUekhKQmR3Z2s0WU93NFhHb1RFbDVKRVlsZnRzZUF2ZUh4UnlveVdwZlpqSzlFeXVpWjczOE1tZlpPaU5fS0xhUjJ1NWdjYVU1RU5iQXJYdkZJd0FjNFdBbVMyMDJaYjJYcWVyN08yelVINXVGd21nZw?oc=5",
@@ -101,16 +111,6 @@
       "source": {
         "name": "STERN.de",
         "url": "https://www.stern.de"
-      }
-    },
-    {
-      "id": "ba96bb5c2c8b",
-      "title": "EU-Gesundheitskommissar prüft Folgen von Trumps Preisdruck auf Medikamente - Euronews",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSzM5cWFmcTJfV010WWVadkdEVXRGblFEUTlhaUhoOThvaHV5eTJuWFVJbUtyMW9xNTJkYzNIR2Z6YWp0ZE1IWmNPb3pNcU5YY1phcUlQSU5IWWtvV0MzNDlqdHJZRU40alRPU29CWFVnUDBjLXE3UHhtV2pManQ4TzhzVEU3OHNDM2JJZm9ZbzBUbkVCRFRZYU1jMTl2UVdGRnhubmZZYWswcmZqbXAtbW5QcnRBTktIaHFFWg?oc=5",
-      "published": "2026-06-16T17:46:07+00:00",
-      "source": {
-        "name": "Euronews",
-        "url": "https://de.euronews.com"
       }
     },
     {
@@ -134,13 +134,13 @@
       }
     },
     {
-      "id": "128a2d5f2147",
-      "title": "Die WHO bewertet die Umsetzung der Empfehlungen durch das nationale Arzneimittel- und Impfstoffmanagementsystem Vietnams. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOUXBXVXBlQllIUXA3TGdCMkhhbnlpVEw4aDZSMTJPdFIwU1JIdzB4bFlXUHF3ZDhhRGhpRWhKdDFVWXRCWEVCYUVjQThNYTJCeE9xTEpIcDFIQkhHYktHMTIyOG83NFpPa3puN0VWdkp5enVtZUFkd2hxM0QwcENiQmlhdzZGUXdTUFRYdGRnaDc5bVFQVkZoampOUmRxU20zZFg2a19jVHVQTFEyUHJBU1ZueER2OXdPOFdXVlVUSHZ5Mndfa2xSN2NqNVo0ejdo?oc=5",
-      "published": "2026-06-22T09:41:33+00:00",
+      "id": "edcf559b1a0c",
+      "title": "EU-Gesundheitskommissar prüft Folgen von Trumps Arzneipreispolitik - Euronews",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSzM5cWFmcTJfV010WWVadkdEVXRGblFEUTlhaUhoOThvaHV5eTJuWFVJbUtyMW9xNTJkYzNIR2Z6YWp0ZE1IWmNPb3pNcU5YY1phcUlQSU5IWWtvV0MzNDlqdHJZRU40alRPU29CWFVnUDBjLXE3UHhtV2pManQ4TzhzVEU3OHNDM2JJZm9ZbzBUbkVCRFRZYU1jMTl2UVdGRnhubmZZYWswcmZqbXAtbW5QcnRBTktIaHFFWg?oc=5",
+      "published": "2026-06-16T17:46:07+00:00",
       "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
+        "name": "Euronews",
+        "url": "https://de.euronews.com"
       }
     },
     {
@@ -164,6 +164,16 @@
       }
     },
     {
+      "id": "7538a2b541cd",
+      "title": "Medikamente bei Hitze richtig nutzen: Wann Vorsicht nötig ist - Wochenblatt Reporter",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOOGtEbHhZSXVBN3BJWWJ4VVpIU1NmQ09ZakhoY0dRT0p5TV90ZHpORjBFWTA4S21zUjlFcGpfUnlZcnhySndIV0JvMnFvbXBvN25aLUszY2xXRVN6aGtEY1NuUlV6dVpHd216MmNpVEIxVy0zZkk5VkdodVpwQWw0dUFuX2VaYVFuZjhfV0tBeWdiQVNkd1ViQ2dkQWhFTlhWbkxlSTlpY2Z2a2RhYVVsWi1fMmtBLXM?oc=5",
+      "published": "2026-06-22T06:36:10+00:00",
+      "source": {
+        "name": "Wochenblatt Reporter",
+        "url": "https://www.wochenblatt-reporter.de"
+      }
+    },
+    {
       "id": "5cfa2762dc20",
       "title": "Gesundheit - GKV-Chef: \"Mehr gegen steigende Arzneimittelpreise tun\" - Deutschlandfunk",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdXlzU1VBOUhWa05wcTVDNnBBdHRkeDl5TnZ1S1A3T0swT2pKTjZlaU1pempxQVJkMXMySXBtd2xpaUk5WWN4Q1VyakdMbnN2eF9mRncxakUwN21WbGFQMWpuR2VoOG1tUDYtWERUbS1LSVpOdUNaTE1SWmhDSkVUdTlubVNEWGNtUXNaYk5tcTJibTRDZTJv?oc=5",
@@ -171,16 +181,6 @@
       "source": {
         "name": "Deutschlandfunk",
         "url": "https://www.deutschlandfunk.de"
-      }
-    },
-    {
-      "id": "b72b17004edd",
-      "title": "\"Europa als führende Kraft des Gesundheitswesens etablieren\" - DIE ZEIT",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWUFSVWl5WkNqWlhQaFBsaW01cEtydmdyejBaWTZhTE1wbHNXVWJpd2FiVENidldkRGRBTm5sT1NrNm5FME4xWVlTN0Y0N3AyLVY2RDVscWRHN0tLY3Q2d2EtY2YtdHBpOXVSRkhfNHB1MUd3TWVlYTh0RUpsWEpLWkdhUDdPc2Z6UlBEWXl0S01nV0lDYXJGZTF5YUQxNHZsaXJhNQ?oc=5",
-      "published": "2026-03-18T07:00:00+00:00",
-      "source": {
-        "name": "DIE ZEIT",
-        "url": "https://www.zeit.de"
       }
     },
     {
@@ -204,6 +204,16 @@
       }
     },
     {
+      "id": "b72b17004edd",
+      "title": "\"Europa als führende Kraft des Gesundheitswesens etablieren\" - DIE ZEIT",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWUFSVWl5WkNqWlhQaFBsaW01cEtydmdyejBaWTZhTE1wbHNXVWJpd2FiVENidldkRGRBTm5sT1NrNm5FME4xWVlTN0Y0N3AyLVY2RDVscWRHN0tLY3Q2d2EtY2YtdHBpOXVSRkhfNHB1MUd3TWVlYTh0RUpsWEpLWkdhUDdPc2Z6UlBEWXl0S01nV0lDYXJGZTF5YUQxNHZsaXJhNQ?oc=5",
+      "published": "2026-03-18T07:00:00+00:00",
+      "source": {
+        "name": "DIE ZEIT",
+        "url": "https://www.zeit.de"
+      }
+    },
+    {
       "id": "b9ca65e5a941",
       "title": "Marktbericht: dm steigt in den Gesundheitsmarkt ein - tagesschau.de",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNd0RWVjQ1MFJ3RDJCdFRnZ3Z1RUU4YThkS1F2bnowNnZBQWk1QlIxdWNtMFN6a19KWWlhTnFyVUNRSGNLanRyR01ZM0lxSG1HRFBqQ3l3QXBMR1F6UU43X29oLTZEODQ1TktKWmhOVVR4YW10YWY1Qm5JZlZoLU8tMlhDYw?oc=5",
@@ -214,12 +224,22 @@
       }
     },
     {
-      "id": "8db31424e5bb",
-      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - dw.com",
+      "id": "51d9137003bd",
+      "title": "Hüten Sie sich vor gefälschten Medikamenten in den Bergregionen von Tuyen Quang. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZ1loSFM0dklMNGpTTGNvZEJ6TUxXMmt6N0lmXzA2d25GUTJKSkxuYVhYM2RIcWxaY1BETXNxU2lJOG9mWjlTYkQ3dEJSQTZER0xYOHpVSjY0UktEblVFbmlkSFl6bHBTd2JqTERERDlZX2Q4bU1pQk5tV2pVclRfczJBVUNYSFo1RFNB?oc=5",
+      "published": "2026-06-23T04:09:04+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
+      "id": "02e9917bea66",
+      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - DW.com",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGxHSlhmSS0tbUNKdG15NEVzRzYzYllEUnAzUEU3ak53czRHVWlKdTZrRGFDMk1MUThPUjdPTnBGVENqd3d2Q1VSdWhJVXppWDF4NWh0aEJJaXJlVTlnV0VoZVFkRHNSM3p6NVZXNjNwWHk5YkxSUWR2RGZKcmp3Y2U5REY0U3dRZFJLeHFtQk9wb2Y3RUVOaVBlMlJhZ29Rck000gGjAUFVX3lxTE1rTW00WXFBajZxbTJOS1NLckhVbXFBSzh1NE96QTEydTN1YjZnaFFNcV8xblZGM29hdTZQUHc4V3YzQ1pwcTlaVVBhZDVqMExLMTlYVzZ6TmM4ZUdsUm5TLXpPNmk1R3V4UktvaV93cWttNFpVX0VEZlZnUllSQkhyUlZmeTBJcU0zUEVSZTgxdzFWUnFNRk9CYVljN0Jhd0ZXUFk?oc=5",
       "published": "2026-05-12T07:00:00+00:00",
       "source": {
-        "name": "dw.com",
+        "name": "DW.com",
         "url": "https://www.dw.com"
       }
     },
@@ -234,16 +254,6 @@
       }
     },
     {
-      "id": "ea06832cd895",
-      "title": "Das Gesundheitsministerium gibt Hinweise zum Rückerstattungsverfahren, wenn Patienten mit Krankenversicherung Medikamente selbst kaufen müssen. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNN21TNEVjbEdhR3JfOGY0NDBUaXFvamFvbl9UcTM1UUMtTE5tNWFtRlltbDJLY1BILWdTYTdGZkY2aUVJNEZwS2kwM0VTUE52QnhERTN5U1VKTjA5V1oyVHFtazJzNjNKeW5iSXI3VEpzNlEwczVDSjgwWnduaGJIVFFDaTRvWVZrbGxiWk5GYVh5OFFTRTVRYUpfcGZ4OW8?oc=5",
-      "published": "2026-06-22T03:07:47+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "3843ee8c2190",
       "title": "Gesundheit - Beipackzettel von Medikamenten sollen digital werden - Ausdrucke in Apotheken sollen Option sein - Deutschlandfunk",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOclZxcXdzdDlfTXNBVkNkV1g0a1RMa05OWGcyX0RXaW5YMmpyUElhUnBJQU9QM3BzUG9iSFZnaWE0ek1iLTFQeE1wbkVhaDdrT3pVMERnT3l3VGhoOUtuS0EtT3pwazNMMGZmcmI1Z2puUHg1WWc5MzBXdHJma0l0dWNlNEhQdFdBUXF5X0V3OVRQWVA1RXFJNXJtbTVGMjNYQVlSWjNrdEttY0pQMXF0dWlwdGNUVWpFcF83a3RyX0oxSWpLaFVmc2NoVEhGNXc?oc=5",
@@ -251,16 +261,6 @@
       "source": {
         "name": "Deutschlandfunk",
         "url": "https://www.deutschlandfunk.de"
-      }
-    },
-    {
-      "id": "4c513ec7ba3b",
-      "title": "Das Gesundheitsministerium hat darum gebeten, dass es im Sommer zu keinen Medikamentenengpässen kommt. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPM0NJaTh1ZnFCMHN0NHJYTlNqTkpMcUw0OUt5eFNzczk1dGJWVW1kX2lPbHVBMVJrRlhTNW9faHM3b2kwZnpiRU5GRkxoRUdRSFlTbHBaRGd6M0VRUmpFUWFmeVA3WkhRZlJhTkNiN1hxdmFDdVJ1VHNMMEdTRWEzUnBIaUMxelUxWHhnWA?oc=5",
-      "published": "2026-06-21T00:44:37+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -284,6 +284,16 @@
       }
     },
     {
+      "id": "4c513ec7ba3b",
+      "title": "Das Gesundheitsministerium hat darum gebeten, dass es im Sommer zu keinen Medikamentenengpässen kommt. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPM0NJaTh1ZnFCMHN0NHJYTlNqTkpMcUw0OUt5eFNzczk1dGJWVW1kX2lPbHVBMVJrRlhTNW9faHM3b2kwZnpiRU5GRkxoRUdRSFlTbHBaRGd6M0VRUmpFUWFmeVA3WkhRZlJhTkNiN1hxdmFDdVJ1VHNMMEdTRWEzUnBIaUMxelUxWHhnWA?oc=5",
+      "published": "2026-06-21T00:44:37+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
       "id": "432315fa2251",
       "title": "Erstmals Medikament gegen Fettleber zugelassen - tagesschau.de",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPQnhCQmdtRXhCd0ZKc1FDYzViaTZEblZ5TjJNWDBvZ3ptX2g0OENQemNDUk1sWGh5T1FrOEtvaGtSSDItcXlieVd0cDVfdDF0a2U3clFWSGlvd21wUWtwVzI4UEZIZ1BBUlVJSC16SExXaWFDTlF6YlNjMk96a2pEYnpVRm1rQQ?oc=5",
@@ -291,6 +301,16 @@
       "source": {
         "name": "tagesschau.de",
         "url": "https://www.tagesschau.de"
+      }
+    },
+    {
+      "id": "4f930e0f3811",
+      "title": "FDA genehmigt erstes Generikum zur einmaligen Anwendung für die Behandlung und Vorbeugung von Grippe. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWVh1OXFabjNEZVY2T2dzalg5VGRzT192ZW5pSmdLeEREYXNKVWlHMVZfVDBMcmMyMkN3QU95Z1J3YmhwaG5pS3dFQUJUZUlwemNhNEJLbmN1SlZPb0o1RzlsSTZOX2dMelRRWFhjVXAyRnk1OXh0TkUtYmxWREQwaWZka0piLWFLOHVwbTRMRU9qSHAwZllFR1B3OHdDNkV3eGRN?oc=5",
+      "published": "2026-06-23T03:52:49+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -344,26 +364,6 @@
       }
     },
     {
-      "id": "172d986897fc",
-      "title": "Arzneimittel: Nutzen für Gesundheit, Lebensqualität und Wirtschaft - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPc1pKSzRyQWdIYmtZQlZKZE5ZYkRDWjFJRzUySHJWYkJGQU9nSExYb21pSnJBd29vZllZcWNFMU9fcTkyMFZWN3NTbVkxcXpRbFhXZFdCT3BPd2N4ZlVVNHctcVNVaWNiUmFlSDZ4TnIxX2VOYk03Zk5JZ0RSSWxiY21mRGVETjVH?oc=5",
-      "published": "2025-09-26T07:00:00+00:00",
-      "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
-      }
-    },
-    {
-      "id": "885f57a55794",
-      "title": "Cholesterin senken mit Statinen: Ärztin räumt mit Angst vor Nebenwirkungen auf - Berliner Morgenpost",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNRVVxUmwyWjh6RVc1RmpCaElOX1VSRGVFbXhPMjkwTmk2UE82UURzaXFkTWFYN3lYSDlHQVN2YUs0cS0tX3BRdlhZY2VVUUdINjZCQzE1Wk8yTmRlMENaZnNrQk5lanFtWXF3YWh6X28xdlRFVm4xYVd1eVN0WjVJRzNubVhyVXpoT3IyazNXOW55TnM1VC1EaDFpUXh2MU9MZFpqcGtDZjdLRGg5akppcktkUk1INldCX1djVEc5Z09EcHA5SXYwOS1Fck0yVXFLN1poNEVlc1BKSjM1b1dRZFNmT3oxUQ?oc=5",
-      "published": "2026-06-19T06:25:00+00:00",
-      "source": {
-        "name": "Berliner Morgenpost",
-        "url": "https://www.morgenpost.de"
-      }
-    },
-    {
       "id": "d60d4f4ff5ae",
       "title": "Gesundheit - Auch SoVD fordert Maßnahmen gegen steigende Arzneimittelpreise - Deutschlandfunk",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNmF3c1ZhS2dyTG9MdkxYcjU4OHB6ZU8yNExEbkpFYVpBZWRfeDFWN3BHOS0wdVNheXF5Tzh0bGoxeTZONGw1R001LVNCWlI0UTNsNHo2cGFjbEw0V3B4dmZIbUVxYnhfb25tRDF6SXhvVUtZN0ZkaVFTZnZMYUg1MEZ2X0YwQ1hvWG54eTNVb09sNXlxUzd3cHVmdWJJbEJiNlI1ZjdB?oc=5",
@@ -384,13 +384,13 @@
       }
     },
     {
-      "id": "f52589adc53b",
-      "title": "Gesundheitsrisiken durch Hitze - Presseportal",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5yUEtJS0pMRjNCYWFuT1Z1bzYxVFFyWUJIYjlxSmNGNmN2cVhKNmxva2VtTWxEMjlvbDZvaUh4WEl2R0JlQ1BDcnV1QkVSY2FXUC10MjBmVQ?oc=5",
-      "published": "2026-06-17T10:13:48+00:00",
+      "id": "885f57a55794",
+      "title": "Cholesterin senken mit Statinen: Ärztin räumt mit Angst vor Nebenwirkungen auf - Berliner Morgenpost",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNRVVxUmwyWjh6RVc1RmpCaElOX1VSRGVFbXhPMjkwTmk2UE82UURzaXFkTWFYN3lYSDlHQVN2YUs0cS0tX3BRdlhZY2VVUUdINjZCQzE1Wk8yTmRlMENaZnNrQk5lanFtWXF3YWh6X28xdlRFVm4xYVd1eVN0WjVJRzNubVhyVXpoT3IyazNXOW55TnM1VC1EaDFpUXh2MU9MZFpqcGtDZjdLRGg5akppcktkUk1INldCX1djVEc5Z09EcHA5SXYwOS1Fck0yVXFLN1poNEVlc1BKSjM1b1dRZFNmT3oxUQ?oc=5",
+      "published": "2026-06-19T06:25:00+00:00",
       "source": {
-        "name": "Presseportal",
-        "url": "https://www.presseportal.de"
+        "name": "Berliner Morgenpost",
+        "url": "https://www.morgenpost.de"
       }
     },
     {
@@ -414,6 +414,16 @@
       }
     },
     {
+      "id": "f52589adc53b",
+      "title": "Gesundheitsrisiken durch Hitze - Presseportal",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5yUEtJS0pMRjNCYWFuT1Z1bzYxVFFyWUJIYjlxSmNGNmN2cVhKNmxva2VtTWxEMjlvbDZvaUh4WEl2R0JlQ1BDcnV1QkVSY2FXUC10MjBmVQ?oc=5",
+      "published": "2026-06-17T10:13:48+00:00",
+      "source": {
+        "name": "Presseportal",
+        "url": "https://www.presseportal.de"
+      }
+    },
+    {
       "id": "5d8c89f1b6f0",
       "title": "Gesundheitsökonom Kugler: \"Wir bezahlen nur wirklich nützliche Medikamente\" - MDR.de",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWDlDNjhEYjgwOHl4R3NZUWFqaEo4Qkd4OUZISDllZG9TcVJubHF1MnUwRVRPY2pZLWZFdlQzdktxelU5SktXdlBaSkIxcFJjN2dJUXJTYklvSFpOckcxSjdvRkxRM0RjRy0yUEtIRWVPWF9JZmNMc1d1NXFMWHFVajJ0LWY1cDh6Ql9aYmFUQnE4LVlGNUFIZW5IR0E5TU5nak5ESlB0d2hSU2U0UWJQeWRfZllHVkcyeGdMVi1uRlFFU25OV0dv?oc=5",
@@ -434,16 +444,6 @@
       }
     },
     {
-      "id": "5b5cfb9b7306",
-      "title": "Vorsorglich Medikamente einlagern, um auf Krankheitsausbrüche und anhaltende Hitzewellen reagieren zu können. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRjZCa0FocERpM0NyY1FMTy1BZmZUcHVBTzA0clFDWGgwOUxzYm9DLUJvR05UM2owUUUzQVJCNHVnMUF5X0tSYWh2Q2VjUlM3aXAtX1FEb08tb2RlcjhKS0NrSU9ub0ZJdWVBbXJFMmNVYjRXRnNqR0VkRUN5TDBQdUdrNFRsbTNJM3VxQmtrcw?oc=5",
-      "published": "2026-06-21T11:17:00+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "09e9d0a2ff53",
       "title": "Krebsmedikament: Meistverkauftes Krebsmittel wird offenbar viel zu teuer verkauft - DIE ZEIT",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZUdKR1hQcHVBS3JEX3dma19JcW5GTmlCcmxGRmpKbHFwZzduVkpReEh1RnFiOUM2amRvRGl4Z0tDellhTUc1bzU1cl82T3J0N1hnYnVDZF9ERlpxU3JobkphRmRjVk55cjRUZ0tkTlFTZmRSYm0tQVpYSzBtb2xNclVkelpWaTJ5UXQ4TVNoUVFoeVd5RkpqanJqMWpmdw?oc=5",
@@ -454,13 +454,13 @@
       }
     },
     {
-      "id": "32e4baec50d7",
-      "title": "Gesundheit: Bundesrat will Arzneimittelversorgung stärken | blue News - blue News",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVW0tTkhybjBYdUJibnFQSkc3bldlN0dxQWFYbFdJN2tSQ09FaWc1WGg1MFJkRGthZFlDRzIyRTVYVTlDQ1Q5dXNCdXF2Zi1xaFFiaW9pY1ZxeExjM240NjNKVUNFemZjR1pmRUQza1lDUHhzQTBRNy1lanV5cHFYQnZNc2xhVnNsQzNUdTRaYTZJNU55bXhhSDFZUUdndk0?oc=5",
-      "published": "2026-06-19T08:56:00+00:00",
+      "id": "5b5cfb9b7306",
+      "title": "Vorsorglich Medikamente einlagern, um auf Krankheitsausbrüche und anhaltende Hitzewellen reagieren zu können. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRjZCa0FocERpM0NyY1FMTy1BZmZUcHVBTzA0clFDWGgwOUxzYm9DLUJvR05UM2owUUUzQVJCNHVnMUF5X0tSYWh2Q2VjUlM3aXAtX1FEb08tb2RlcjhKS0NrSU9ub0ZJdWVBbXJFMmNVYjRXRnNqR0VkRUN5TDBQdUdrNFRsbTNJM3VxQmtrcw?oc=5",
+      "published": "2026-06-21T11:17:00+00:00",
       "source": {
-        "name": "blue News",
-        "url": "https://www.bluewin.ch"
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -484,13 +484,23 @@
       }
     },
     {
-      "id": "4910d001ce31",
-      "title": "Praxen, Kliniken, Arzneimittel: Ärzte warnen vor „Rasenmäher“ im Gesundheitssystem - Volksstimme",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWnlFWFoteFprT1pkTlNXdUlyZE03TEhYSDNXUW51MkV6VEJnc2hwMm5UMlRoWWUzS3FZX09xN0JkRHctRU5lLTY2bFo2YkROZ29LUW5CYWxzWmR2eUZGZzNWRHlJV0RXOVkwSW5DQzFUekp4YWhaN3h4MzVvdGdVbjU4Ylp4SHVIVkpDY3lvOVJtMUFiaU5N?oc=5",
-      "published": "2026-06-05T07:00:00+00:00",
+      "id": "32e4baec50d7",
+      "title": "Gesundheit: Bundesrat will Arzneimittelversorgung stärken | blue News - blue News",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVW0tTkhybjBYdUJibnFQSkc3bldlN0dxQWFYbFdJN2tSQ09FaWc1WGg1MFJkRGthZFlDRzIyRTVYVTlDQ1Q5dXNCdXF2Zi1xaFFiaW9pY1ZxeExjM240NjNKVUNFemZjR1pmRUQza1lDUHhzQTBRNy1lanV5cHFYQnZNc2xhVnNsQzNUdTRaYTZJNU55bXhhSDFZUUdndk0?oc=5",
+      "published": "2026-06-19T08:56:00+00:00",
       "source": {
-        "name": "Volksstimme",
-        "url": "https://www.volksstimme.de"
+        "name": "blue News",
+        "url": "https://www.bluewin.ch"
+      }
+    },
+    {
+      "id": "ea06832cd895",
+      "title": "Das Gesundheitsministerium gibt Hinweise zum Rückerstattungsverfahren, wenn Patienten mit Krankenversicherung Medikamente selbst kaufen müssen. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNN21TNEVjbEdhR3JfOGY0NDBUaXFvamFvbl9UcTM1UUMtTE5tNWFtRlltbDJLY1BILWdTYTdGZkY2aUVJNEZwS2kwM0VTUE52QnhERTN5U1VKTjA5V1oyVHFtazJzNjNKeW5iSXI3VEpzNlEwczVDSjgwWnduaGJIVFFDaTRvWVZrbGxiWk5GYVh5OFFTRTVRYUpfcGZ4OW8?oc=5",
+      "published": "2026-06-22T03:07:47+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -504,13 +514,23 @@
       }
     },
     {
-      "id": "f92665691e36",
-      "title": "Gesundheit: So will die EU Engpässe bei Fiebersaft & Co. verhindern - Tagesspiegel",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcDl1WkpGU2VsQWhwUXd1WWxXSUhVN2Y3R2hTdl9GTHNxcDl2NFhUejhMXzhtOVUteVRjYmlZZDVNa0lETm9QSWNsWXB2c09CcTBqV3M2Wk5Fc0FVRlRaaDFzN1lDVTRFdl9IeXZvU2h3VjhJVGFUQ29lNmdqOUFld1dsd3ZNaVF5OFRETVFqckdoWk1udUFSQWdzMVdLQWxJd3A0eXdiVzhJR3pmY1FOeVQ0aUFxZ3BGdlpGazFn?oc=5",
-      "published": "2026-05-12T07:00:00+00:00",
+      "id": "4910d001ce31",
+      "title": "Praxen, Kliniken, Arzneimittel: Ärzte warnen vor „Rasenmäher“ im Gesundheitssystem - Volksstimme",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWnlFWFoteFprT1pkTlNXdUlyZE03TEhYSDNXUW51MkV6VEJnc2hwMm5UMlRoWWUzS3FZX09xN0JkRHctRU5lLTY2bFo2YkROZ29LUW5CYWxzWmR2eUZGZzNWRHlJV0RXOVkwSW5DQzFUekp4YWhaN3h4MzVvdGdVbjU4Ylp4SHVIVkpDY3lvOVJtMUFiaU5N?oc=5",
+      "published": "2026-06-05T07:00:00+00:00",
       "source": {
-        "name": "Tagesspiegel",
-        "url": "https://www.tagesspiegel.de"
+        "name": "Volksstimme",
+        "url": "https://www.volksstimme.de"
+      }
+    },
+    {
+      "id": "06da2e132638",
+      "title": "Aktuelle Meldungen - Per App mehr Schutz für ungeborene Kinder - Saarland.de",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQSlB2RHNPd3RCZDFZaXIwbGFmMXhRQW9DTWNBNEY1Mk5WV0pxY2h4X2t0QmEtaHJ1Z3pVV0p3ZXNpSmEtVl9XdTY1MUdlbU90M2trWXduX3VjQk9MbmVpa2hsalBTa21yWkZzZFJkdklqLXllZjNzVE1DUmoyTVZydTc2Z0RSQXlVbnNpdXNSN2VlVWZ6WEM4bEN6cXFWVjJSbEFuaGJIUXZNWUIyM09ackpiV1h0cC1GM05DalBndWNUa1VJc1NhbWd3VlFWbnc1ZUg2YTZlWlR3RVdQQW9lRjhqQ2c5Zl9MQkJrTElWTFk?oc=5",
+      "published": "2025-12-04T08:00:00+00:00",
+      "source": {
+        "name": "Saarland.de",
+        "url": "https://www.saarland.de"
       }
     },
     {
@@ -524,13 +544,13 @@
       }
     },
     {
-      "id": "ba81ff52779e",
-      "title": "7 Bedingungen, unter denen die Krankenversicherung die Kosten für selbst gekaufte Medikamente übernimmt. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMzNtaUJHeTBEY1NVbXkzcWhrLTNkNy01LW02VE1JMFpsRGJQX1IyZUphdmlNbXNXSUNqcUZORzFzQ1VkS0lVREtXLTh1X1BTZmx2b1gxTm1ldENHckdDQXlORDJKR0lhaHlnY0dGa1hGNDBqaDQyY1ZWdTBSb2NuS1I2c0N2ZGx1OVQyakMtdmc?oc=5",
-      "published": "2026-06-20T00:25:53+00:00",
+      "id": "f92665691e36",
+      "title": "Gesundheit: So will die EU Engpässe bei Fiebersaft & Co. verhindern - Tagesspiegel",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcDl1WkpGU2VsQWhwUXd1WWxXSUhVN2Y3R2hTdl9GTHNxcDl2NFhUejhMXzhtOVUteVRjYmlZZDVNa0lETm9QSWNsWXB2c09CcTBqV3M2Wk5Fc0FVRlRaaDFzN1lDVTRFdl9IeXZvU2h3VjhJVGFUQ29lNmdqOUFld1dsd3ZNaVF5OFRETVFqckdoWk1udUFSQWdzMVdLQWxJd3A0eXdiVzhJR3pmY1FOeVQ0aUFxZ3BGdlpGazFn?oc=5",
+      "published": "2026-05-12T07:00:00+00:00",
       "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
+        "name": "Tagesspiegel",
+        "url": "https://www.tagesspiegel.de"
       }
     },
     {
@@ -551,6 +571,16 @@
       "source": {
         "name": "Deutschlandfunk",
         "url": "https://www.deutschlandfunk.de"
+      }
+    },
+    {
+      "id": "ba81ff52779e",
+      "title": "7 Bedingungen, unter denen die Krankenversicherung die Kosten für selbst gekaufte Medikamente übernimmt. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMzNtaUJHeTBEY1NVbXkzcWhrLTNkNy01LW02VE1JMFpsRGJQX1IyZUphdmlNbXNXSUNqcUZORzFzQ1VkS0lVREtXLTh1X1BTZmx2b1gxTm1ldENHckdDQXlORDJKR0lhaHlnY0dGa1hGNDBqaDQyY1ZWdTBSb2NuS1I2c0N2ZGx1OVQyakMtdmc?oc=5",
+      "published": "2026-06-20T00:25:53+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -584,16 +614,6 @@
       }
     },
     {
-      "id": "1f4441bb42a2",
-      "title": "Medizinprodukte: US-Arzneibehörde will Auflagen für neue Medikamente lockern - DIE ZEIT",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMDQ4aUF0OUVjbTB5LXZPc1JjcGo2U2RMUHdCNlpmQXV3RHFQeHJfRHlGcUZxVDRjZEVZV21TRmRTalZTdU9WN1RWeFREc212am9oREtTNjNBU0o5dW51RHM3US1WOXdFbWtnZ1RwM2diM21uTkVRN25HTVc1ZjNiM2Vhc0FjYXlBd1FadUM2RGd0UkEyalBmUWNpcmxMNTV3dUswMGlQSQ?oc=5",
-      "published": "2026-02-19T08:00:00+00:00",
-      "source": {
-        "name": "DIE ZEIT",
-        "url": "https://www.zeit.de"
-      }
-    },
-    {
       "id": "85a03dbbfe05",
       "title": "Wahlkampf Baden-Württemberg: Rülke: »Gute Gesundheit geht nur mit öffentlichen Apotheken« - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbDY3aENWRUZGTC15UlN4YlFuU0JEdUkxREFqNzQtN282NElEbHZWRlRveVpDTzFUTml2c1ZYNTFUWnliQl81SC1VdVctWUk2UGJ6UWI4cW82Z1IydG5iN2FUR21ST3gweUJNOW94VGxkemJuRC1tY2NvZERfVndyekRMbFc0TjVIdGJYUGVGVzJnOFRRNS1RamtZb1F5b2VseUNPRUowYmVKUQ?oc=5",
@@ -611,6 +631,16 @@
       "source": {
         "name": "Spiegel",
         "url": "https://www.spiegel.de"
+      }
+    },
+    {
+      "id": "1f4441bb42a2",
+      "title": "Medizinprodukte: US-Arzneibehörde will Auflagen für neue Medikamente lockern - DIE ZEIT",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMDQ4aUF0OUVjbTB5LXZPc1JjcGo2U2RMUHdCNlpmQXV3RHFQeHJfRHlGcUZxVDRjZEVZV21TRmRTalZTdU9WN1RWeFREc212am9oREtTNjNBU0o5dW51RHM3US1WOXdFbWtnZ1RwM2diM21uTkVRN25HTVc1ZjNiM2Vhc0FjYXlBd1FadUM2RGd0UkEyalBmUWNpcmxMNTV3dUswMGlQSQ?oc=5",
+      "published": "2026-02-19T08:00:00+00:00",
+      "source": {
+        "name": "DIE ZEIT",
+        "url": "https://www.zeit.de"
       }
     },
     {
@@ -654,16 +684,6 @@
       }
     },
     {
-      "id": "0b9c3545fb7e",
-      "title": "Das Gesundheitsministerium hat darum gebeten, die Versorgung mit Medikamenten sicherzustellen und Engpässe während des Sommers zu vermeiden. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNTFXcHl6U0xlZnpjRDI0WjVVUEpvS3hnS2h0dVI2R0VUMjRRUVRwdDZYVjlEbWpnV01QT3F0UEh3dzIxd3pkZDh1TGxyZlhxRVV5Z1pwNDRwSkRCbkctU3BCakZ0OWRwVzhHWXhRblZoZ2Z5TEdXU2g4ci1TYjlrX0J3d3gzSmt6Q1ZVWWxMS2xsRFdyVk9LOUs5MmxidDdLV0hJTWZn?oc=5",
-      "published": "2026-06-20T10:37:10+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "bcef033d2bcc",
       "title": "Gesundheitsvorsorge - Arzneimittel-Überwachung - schleswig-holstein.de",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOeE80cXNlV3RkMlM5WUhkbVM5amVOZy0zdm9LMlN6dS1IRlVjMDJzcW9GWF9SMmdUUVd5dDJ0THpRejN5emROc180bmNuQjlGVWUwdE9mSFdHMUJyLVRfcTJoSHBRWDlFZ2tvSFlCNGtMTnpIV2dLQk5uMzY4YWY1U0N6cVdmdmdaVEoyTnlXc2x3bFNJT3NfckhVa1ZfZExJLVZRaXZEaW1abVVVQWVXTWg4MTg4WEU2bDFBaw?oc=5",
@@ -691,6 +711,16 @@
       "source": {
         "name": "Verbraucherzentrale NRW",
         "url": "https://www.verbraucherzentrale.nrw"
+      }
+    },
+    {
+      "id": "0b9c3545fb7e",
+      "title": "Das Gesundheitsministerium hat darum gebeten, die Versorgung mit Medikamenten sicherzustellen und Engpässe während des Sommers zu vermeiden. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNTFXcHl6U0xlZnpjRDI0WjVVUEpvS3hnS2h0dVI2R0VUMjRRUVRwdDZYVjlEbWpnV01QT3F0UEh3dzIxd3pkZDh1TGxyZlhxRVV5Z1pwNDRwSkRCbkctU3BCakZ0OWRwVzhHWXhRblZoZ2Z5TEdXU2g4ci1TYjlrX0J3d3gzSmt6Q1ZVWWxMS2xsRFdyVk9LOUs5MmxidDdLV0hJTWZn?oc=5",
+      "published": "2026-06-20T10:37:10+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -724,16 +754,6 @@
       }
     },
     {
-      "id": "2f2708fe72cc",
-      "title": "Die Versorgung mit Medikamenten zur Bekämpfung von Epidemien und anhaltenden Hitzewellen proaktiv sicherstellen. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUUlfNTIxNWs2bWRxeUotS0dUaklkYnU5Nm00cldtTnNFQkNlUDZGSURvU1dOVkN3WFg4QlFvVk96TjNqVlRlMm42VldHQWRsdzhtQWNBLXIyTHJsSU02bkRFUXBTc0REdXdpYmcwZ1ZxTk5NR2xRaUlTcC1fWmNid2c0WDhJUUZjYkFZOGtYanpVR1B4YlYyZkRwNkJUMEk?oc=5",
-      "published": "2026-06-21T14:59:46+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "9c95d8f4f77d",
       "title": "Schmerzmittel bis Herzmedikament: Studie deckt Herzrisiken bekannter Arzneimittel auf - T-Online",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQOTUycWFza29aLXVaYWh1cDlGN0NTX3NsbUVXWVpManp4Rnk1a3dQYTB3c3pfSkU0MVBBSEM2NXhZaHBSYUVNa2RSMDJCcm9JanctZWtUZXQ5TlpOZmNsMWprM3BPU1ZPVmFmMGU2aW1QZmlRclpEYkNwZWVyaTRnRW5uMEFvdEwzS0FNOVNCWWtiLWlqdkRMT2x4LTF0amZrSXhOcEJPRGFIU3ZMbE9reW9OeWw1YVVtQU5iMmNOaFpkWTZ3RS1V?oc=5",
@@ -741,6 +761,16 @@
       "source": {
         "name": "T-Online",
         "url": "https://www.t-online.de"
+      }
+    },
+    {
+      "id": "2f2708fe72cc",
+      "title": "Die Versorgung mit Medikamenten zur Bekämpfung von Epidemien und anhaltenden Hitzewellen proaktiv sicherstellen. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUUlfNTIxNWs2bWRxeUotS0dUaklkYnU5Nm00cldtTnNFQkNlUDZGSURvU1dOVkN3WFg4QlFvVk96TjNqVlRlMm42VldHQWRsdzhtQWNBLXIyTHJsSU02bkRFUXBTc0REdXdpYmcwZ1ZxTk5NR2xRaUlTcC1fWmNid2c0WDhJUUZjYkFZOGtYanpVR1B4YlYyZkRwNkJUMEk?oc=5",
+      "published": "2026-06-21T14:59:46+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -784,16 +814,6 @@
       }
     },
     {
-      "id": "8f7a16a55972",
-      "title": "Arzneimittelpreise: Medikamente in Deutschland günstiger als USA trotz Trump-Deals - SZ.de",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdnBJZGx2V2VkNEJfQy1NTDk2NFJXOE5MY3k2VE1yNmxuZzNiWWNlalNjN0MzTjJzSUwxTDRPRTlJai1XeXVUODNhaGlrRXJhaVpJdVQ0eV9mNHc1QWZkaXhtUTVfdjZNWEU2eWptcVk1WkNUZHJNRUpNQzM2TXduRFpPS0tTbjhtajdRWmtMbTM2N1owQ1I1Y2g1MmJiUzNpdnc?oc=5",
-      "published": "2026-03-18T07:00:00+00:00",
-      "source": {
-        "name": "SZ.de",
-        "url": "https://www.sueddeutsche.de"
-      }
-    },
-    {
       "id": "fad88aff2400",
       "title": "Arzneimittelausgaben steigen auf Rekordhoch Sieben Prozent der Medikamente verursachen mehr als die Hälfte der Kosten - Tagesspiegel",
       "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNeVh1VDdIZEd5TXZoV2hGdlRCOXNMcFBvMjMyYTRMeTF1TnVaVEg1dXY2SWtZNUhocnFnM2staDhwZnptemFfVGUxbFpIQ3JwNnhCSEREbmEwcmNRNHdSbENtemYwdmJHNVREYWQ2S2VQZVlNNVFGYlJhbGFfeWVySUFiY3lhQXNmZWxUQndTTXFHdGdRVHlQaVN5U1lSWlNLWUo3SDFOcjdyT3d5c0h4c0FMdWxra2hrekpJZDNGeDQ2c3NqVFdTSnJTNHZ3Mm1KeWkzLUZNMHJRTjROVEE5OUNrWW1yaTdLWkJvNG1oQ3dPU0MzTldsZXFNblVlQVE?oc=5",
@@ -801,16 +821,6 @@
       "source": {
         "name": "Tagesspiegel",
         "url": "https://www.tagesspiegel.de"
-      }
-    },
-    {
-      "id": "570047baea79",
-      "title": "Aufnahme von Krebsmedikamenten der neuen Generation in die Krankenversicherung: Mehr Überlebenschancen für arme Patienten. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOam9UT3p6elBaYlM5UGMzZk1JVlFlNVpiODZvdXh4anYwOUNaVzNDeUN4d0xDUllMeXpXa291Z3NZcGpNMFJEZ0lmdEwyZV9tUWtoX0JSRzdsUGZGQVU2N0I5eDJ6NnZrdEVUUWRhUlRuQ0R6M1hRbldUUGUwRkVfeW82V1FmQjQtWExESFNmN21DS05SUFlpcDBRbW02dFJ0eHc?oc=5",
-      "published": "2026-06-22T03:38:21+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -864,16 +874,6 @@
       }
     },
     {
-      "id": "2f0394c48ff1",
-      "title": "Diskussionsrunde : Teure Orphan Drugs setzen GKV unter Druck - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMm9GbF9MdlR1T05IVU9La29FSnJzYmpWYTNqNW05eHVvMW1OVTdOX3FMaHhPT2JuUExjdkV6Zlg1NUh6WHEzS3RkQmhFLUVKWllJa2IxdDBacXl5SDZsbzc1YXY3TnIzYUpjalNfaDl6dnE2YUV0eGt1cWd0OTBiVVNYYzIzMEUybmdDRjZGQ3ZKZw?oc=5",
-      "published": "2025-11-06T08:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "8c241dbc3ada",
       "title": "Pflanzliche Arzneimittel – im Licht der Wissenschaft - GESUNDHEITHEUTE - SRF",
       "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQUHVQVzFrZzVhLUljRzk2bktXazYwVEkwS2c1c09Ud1BkR0NSVDVETzJCcjlXU1E2TEVRelJuc3UyYUlzY19zSEU4U2Ntd1VneFZOcDhpT3FOc3Y2VGNtclN2bS14VTJ1RXdTbFJYYXlYS0RLejRRVkdqeVhxX1VpYjMzNmdNZmY4TS1EaTdpWk1SVEowc1NFeFhxLWtDdVNWbEh5RU9pX2hwc0lwbTRzUDVrSzFwMXQ1NjliU044bnJUdXgwNk9iWWdTMUhYdVMwRzgyeXB1NERiMWZvTE93NXJFdXVLNU54Nzg4NA?oc=5",
@@ -881,6 +881,16 @@
       "source": {
         "name": "SRF",
         "url": "https://www.srf.ch"
+      }
+    },
+    {
+      "id": "2f0394c48ff1",
+      "title": "Diskussionsrunde : Teure Orphan Drugs setzen GKV unter Druck - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMm9GbF9MdlR1T05IVU9La29FSnJzYmpWYTNqNW05eHVvMW1OVTdOX3FMaHhPT2JuUExjdkV6Zlg1NUh6WHEzS3RkQmhFLUVKWllJa2IxdDBacXl5SDZsbzc1YXY3TnIzYUpjalNfaDl6dnE2YUV0eGt1cWd0OTBiVVNYYzIzMEUybmdDRjZGQ3ZKZw?oc=5",
+      "published": "2025-11-06T08:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -904,6 +914,16 @@
       }
     },
     {
+      "id": "6f776f589828",
+      "title": "Lecanemab: Negative Nutzenbewertung für Alzheimer-Medikament - SZ.de",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNb052NUl6RVRlNXNjWTVWbV81SmZ4dG5rYjduV0NMRzhUaC0wRkNhS0pnMHo0YU1ydkhOSmxYNmNTUUNCb3hRV1Qwd1hpal9qYmFQMzBieEhidVpuNXdLb1hteU81ZnczbEptTGJCektKRGZJTEE2UDhoN2ZLVVRDN2NQUkM2NlgwaEh2SllSdXE0YkRmeEdxbVNsaDA?oc=5",
+      "published": "2025-12-01T08:00:00+00:00",
+      "source": {
+        "name": "SZ.de",
+        "url": "https://www.sueddeutsche.de"
+      }
+    },
+    {
       "id": "4902bdd05a5f",
       "title": "Nina Warken: Gesundheitsministerin verwechselt die Straße von Hormus mit dem Suezkanal - Spiegel",
       "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNb3Jka0djc3pwVEVEOWIxSnlzUzRGc3U0czNzTV9BejJGbk9kb3d5a2VJTlVoU3BockEzckl6eGJCdVI2bnR1MzZ3c3ZmTEJtdEFTMG8tc0owUEphVEVEa0pxWk5mSFd0UVIzX1paZkE2d3ZHVTBacjZDR1hIai1sZUticXdoOWgyR19oOGo4Q0hvVGdEb04yUTA1YUczUWM3Y2Y0dUFUZ2Jma2N2Z2hiTHR4cnZ4S1FTNG1sYkoxR0YxbVUxbVR0dzNNYnJqVWZWSlRnSV9QV2lGdGdrai15UXlObHBmb0lxV2ZSWEl5T1hLYzJaOG9PVlR2Uy0?oc=5",
@@ -921,16 +941,6 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
-      "id": "6f776f589828",
-      "title": "Lecanemab: Negative Nutzenbewertung für Alzheimer-Medikament - SZ.de",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNb052NUl6RVRlNXNjWTVWbV81SmZ4dG5rYjduV0NMRzhUaC0wRkNhS0pnMHo0YU1ydkhOSmxYNmNTUUNCb3hRV1Qwd1hpal9qYmFQMzBieEhidVpuNXdLb1hteU81ZnczbEptTGJCektKRGZJTEE2UDhoN2ZLVVRDN2NQUkM2NlgwaEh2SllSdXE0YkRmeEdxbVNsaDA?oc=5",
-      "published": "2025-12-01T08:00:00+00:00",
-      "source": {
-        "name": "SZ.de",
-        "url": "https://www.sueddeutsche.de"
       }
     },
     {
@@ -984,23 +994,13 @@
       }
     },
     {
-      "id": "e0194a7c0b5d",
-      "title": "Deutsche Apotheker warnen vor Medikamentenmangel - dw.com",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWU1xaGhwXzk2bTZMYV9pdEdESnBqWVZvSnAwXzllTkVsdXYyZTlYSzdEYjktY2FySDA2THNEWUlQend3WWp5cG9uZFo1aTJMcFFINW1ZWEg3NlVDQ2UzdkRmZldhV1JRemg4U3poczloOF9QOEhha1prQnlGZ0U5T0laMXN2ZVBY0gGIAUFVX3lxTE01Wk9oR0RESDZiM1BvOU5qZmtUYk1aNUFxWlpzU3EteXRvRDQ1anBlcG52RXJ5QWdEWjB2SHJCblZSaktVZktvRTBkYUxtYzNfQVE4YXRHajc1Nk9UQllNTkt0Vi1wVjdQTTAzSElvTDRMWXZ5TEpkLUZxRTI2QUZkMVdyRGM4YUg?oc=5",
-      "published": "2025-09-14T07:00:00+00:00",
+      "id": "570047baea79",
+      "title": "Aufnahme von Krebsmedikamenten der neuen Generation in die Krankenversicherung: Mehr Überlebenschancen für arme Patienten. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOam9UT3p6elBaYlM5UGMzZk1JVlFlNVpiODZvdXh4anYwOUNaVzNDeUN4d0xDUllMeXpXa291Z3NZcGpNMFJEZ0lmdEwyZV9tUWtoX0JSRzdsUGZGQVU2N0I5eDJ6NnZrdEVUUWRhUlRuQ0R6M1hRbldUUGUwRkVfeW82V1FmQjQtWExESFNmN21DS05SUFlpcDBRbW02dFJ0eHc?oc=5",
+      "published": "2026-06-22T03:38:21+00:00",
       "source": {
-        "name": "dw.com",
-        "url": "https://www.dw.com"
-      }
-    },
-    {
-      "id": "501e9f551bd5",
-      "title": "Chronische Krankheiten: EU genehmigt erstes Medikament gegen chronische Lungenkrankheit - DIE ZEIT",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5fdjU5RzVXWjctdzZGZks3YnE4Yl82RmlVcGk5OWFzUnJKQ3J0b3FQWk05TGtZaXRTc3VkeU5WLW5zUFJqYVhlckpPcE5OdVRkWUFhOWhiRFJJZjY1WXp6ak1UN0hXWEdVVlU4Ny1YUkFkLWcwMXBJ?oc=5",
-      "published": "2025-11-18T08:00:00+00:00",
-      "source": {
-        "name": "DIE ZEIT",
-        "url": "https://www.zeit.de"
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     }
   ]
