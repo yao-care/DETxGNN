@@ -1,26 +1,26 @@
 {
-  "fetched_at": "2026-06-25T10:43:42.351759+00:00",
+  "fetched_at": "2026-06-25T13:20:33.107975+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
     {
-      "id": "646c9f22b6f1",
-      "title": "6-R-Regel in der Pflege: Was dahintersteckt und warum sie so wichtig ist - Allgäuer Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZjMyMjJDNzhJOHJrY3o3amR4dmlXcXdpdWVGVzFsMVNiWVRMMGhTUGpYd1RVVXRPSGVQeWg4ckI3Mlhuc1dqclZjcTNaZ0NWd0pTV3JXRWxsem1zOWk2SkFLT0xRQjNMR2lNd0ROVlFjZ0VVVkVuNlVmcUZxQ29BM2VycjdBcm41aXItREd3Q0J4aTQzRmpIWU5ZN0hURXNoV1ZVS2xYY2hEM1pZRU1KSlRvQXFMMnNoZ3pic19ONjg?oc=5",
-      "published": "2026-06-25T06:09:15+00:00",
+      "id": "2935038df74e",
+      "title": "Kofferpacken und was in die Reiseapotheke gehört - Neue Gladbecker Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWG9tT0lfdG5LbEROMlNuT3BRSmF5Q2FhWWdKN1FldWJTSEprczUwQ0VXNTJJX0JlN2pfVHZOQVZrV0pGcUdON3dJYVNiV1Q4bjFDcTEzVEhoMTNqd1NEeC1JdHVwVXNEQVlqZnB3ZnlXcF9yenRIR3lXZlVNd3FtWE1zV29oVVk1ZVU3c3V3?oc=5",
+      "published": "2026-06-25T12:57:20+00:00",
       "source": {
-        "name": "Allgäuer Zeitung",
-        "url": "https://www.allgaeuer-zeitung.de"
+        "name": "Neue Gladbecker Zeitung",
+        "url": "https://neue-gladbecker-zeitung.de"
       }
     },
     {
-      "id": "d291b5fb8a08",
-      "title": "Apotheken als unverzichtbaren Teil zukunftsfähiger Primärversorgung stärken - Presseportal",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5RcU52M2o0c3hWckhMcEpOa1djRVBVVTRrNVBzaVFKSnpTbTFqVU5uYWY3SVN3NnJtNTY5OUNnc2JsMGZhRy0yQnFzRzZNdDV2bG5lVnNBaw?oc=5",
-      "published": "2026-06-24T12:59:44+00:00",
+      "id": "ed0a93f0e7f9",
+      "title": "Rabattierte Arzneimittel der DAK-Gesundheit - DAK-Gesundheit",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZkprdmplYl93MXlRcmJEUHRTNGpXR0pmLW95MWtLY181NEc1LXRrc2dJb0dpN2g4NU5YblVqZVhEMlpOeWp3cDZ4ekplTnJVa1lZZXFlTGFKaGJQT1lzbEF5dzBkaFZzbzFHZV90TE04dzlBb3ZhZzNtcnMtMk9kSGFzcFRZTGRYaWFZR2QwaUNlU2tOLW5wV3pETQ?oc=5",
+      "published": "2026-05-29T07:00:00+00:00",
       "source": {
-        "name": "Presseportal",
-        "url": "https://www.presseportal.de"
+        "name": "DAK-Gesundheit",
+        "url": "https://www.dak.de"
       }
     },
     {
@@ -34,6 +34,16 @@
       }
     },
     {
+      "id": "d291b5fb8a08",
+      "title": "Apotheken als unverzichtbaren Teil zukunftsfähiger Primärversorgung stärken - Presseportal",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5RcU52M2o0c3hWckhMcEpOa1djRVBVVTRrNVBzaVFKSnpTbTFqVU5uYWY3SVN3NnJtNTY5OUNnc2JsMGZhRy0yQnFzRzZNdDV2bG5lVnNBaw?oc=5",
+      "published": "2026-06-24T12:59:44+00:00",
+      "source": {
+        "name": "Presseportal",
+        "url": "https://www.presseportal.de"
+      }
+    },
+    {
       "id": "1b7f202bd0c0",
       "title": "Die WHO würdigt Vietnams Bemühungen zur Verbesserung seiner Kapazitäten im Bereich des Arzneimittel- und Impfstoffmanagements ausdrücklich. - Vietnam.vn",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOblNkT0k3OG5VSS0xNTh2UWg5VUhzajBVQWRMY1huM0JaM3g1Z1kwQVRvQV9QNFdOdjhHaFJ0WkRqaTFQODQ5Um9VWWFfUHJhaDd6S3RjaHg4a2VvQ29MSm5jam9qRjU0b2Q5Z09MR2E5ajQzQ0gxcGg0RzF5VFQxamJZbHRzT1lua0RHa0NKWWljRUtCU0JBYnpha3ptUG1IVks1TQ?oc=5",
@@ -41,16 +51,6 @@
       "source": {
         "name": "Vietnam.vn",
         "url": "https://www.vietnam.vn"
-      }
-    },
-    {
-      "id": "fdc3dabc5006",
-      "title": "Hitzewelle: Gefährliche Überdosis bei Fentanyl - Apotheke Adhoc",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSlZRVEpjVFlDd0RfQWl0RDl6UnFlSDBOUlo1elhmV3U4eERYdEJJV2VlV2VIWXVDbV9VY2pWMFJldk9WWUs2X1dQakIyVjg5Wmg3YWJhQjdSeUpDNktjZDR5VmJRbzJkSFAyVy1QMzFmejlrcmpTcC1reGRHams0a0lCeEJWSmRPVWZTRmdSTHR4X3NibDVTbWdHNnZhWERabUZvekQ3MEpXZ19aUmlxQjEwMA?oc=5",
-      "published": "2026-06-24T06:00:09+00:00",
-      "source": {
-        "name": "Apotheke Adhoc",
-        "url": "https://www.apotheke-adhoc.de"
       }
     },
     {
@@ -91,6 +91,16 @@
       "source": {
         "name": "Bundesministerium für Gesundheit (BMG)",
         "url": "https://www.bundesgesundheitsministerium.de"
+      }
+    },
+    {
+      "id": "7a99adaec5c0",
+      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - Geo.de",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
+      "published": "2026-06-19T10:10:00+00:00",
+      "source": {
+        "name": "Geo.de",
+        "url": "https://www.geo.de"
       }
     },
     {
@@ -144,16 +154,6 @@
       }
     },
     {
-      "id": "51e8c4b74840",
-      "title": "Gesundheitsgefahr durch gefälschte Arzneimittel - Gesundheit.gv.at",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYlhNa1drQ3UydVU1Ti1QZWxOelZ2UDNkQTBsczZ4SzVIZGhQS3psTVQ5Zmw2Ujh2RGpDYzZ5TDdIbG5mYkFjRl9CX3JkS0FHQ2dlSGVZMlpRTmpva0xOX3hoTWhTM3VoZlB6bjJYbjRRcGp2NERXZmhoaEtyeGJhUDlSU0k0cURLRzNIc1FR?oc=5",
-      "published": "2026-03-09T07:00:00+00:00",
-      "source": {
-        "name": "Gesundheit.gv.at",
-        "url": "https://www.gesundheit.gv.at"
-      }
-    },
-    {
       "id": "9f7c377ed6d2",
       "title": "MFN-Modell USA: Wie US-Arzneimittelpolitik Innovationen in Europa ausbremst - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWkw5ZTd1QUxfTlBDNjVEc0paTWpvTFpfTE9lOFM3YnhiWnBBREVhRzlMQnRmWDdkREJzVlg3UnZCN2RsTC1aTkhtN19oX2dEYmVLdXk4MXFBUnVGakk3YzVfbjZVQ0E0MUtPN2JZZ08wQ05yaTFLNER1dVYzZEo5UldOVldfQ0lCbGNRWEJZbUg0R3JBaGp6Mm1DTGd2eTYzWE9GV1hvenRGWHhOZXBxMHJMY09GUQ?oc=5",
@@ -194,13 +194,13 @@
       }
     },
     {
-      "id": "2b8934f1160a",
-      "title": "Apothekenreform: Das ändert sich für Patienten - PressNetwork.de",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1iZzVzTUUwYWpxMm5rSVROTXAtU3VWR2NjUGhlQzFESmlXWFVubTdKSlhmTHdLd1JGNS13Q3hvZVZFZE1oUFdGOVN1VDF1VXRSQzZiOXF4SUZaRlloa0RzWndENWVQb2pLbUJZU3J3OWVXSi1GWTZ5bjZjRmw?oc=5",
-      "published": "2026-06-23T07:45:33+00:00",
+      "id": "51e8c4b74840",
+      "title": "Gesundheitsgefahr durch gefälschte Arzneimittel - Gesundheit.gv.at",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYlhNa1drQ3UydVU1Ti1QZWxOelZ2UDNkQTBsczZ4SzVIZGhQS3psTVQ5Zmw2Ujh2RGpDYzZ5TDdIbG5mYkFjRl9CX3JkS0FHQ2dlSGVZMlpRTmpva0xOX3hoTWhTM3VoZlB6bjJYbjRRcGp2NERXZmhoaEtyeGJhUDlSU0k0cURLRzNIc1FR?oc=5",
+      "published": "2026-03-09T07:00:00+00:00",
       "source": {
-        "name": "PressNetwork.de",
-        "url": "https://pressnetwork.de"
+        "name": "Gesundheit.gv.at",
+        "url": "https://www.gesundheit.gv.at"
       }
     },
     {
@@ -214,13 +214,13 @@
       }
     },
     {
-      "id": "7b69e052f6bb",
-      "title": "Diabetes bei Frauen: Insulinbedarf steigt in zweiter Zyklushälfte um 15% - Ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSVgzbUVXaDlNZ2NYOHpXUHVrTnFFOU5lVWVla1VuRFhmYWZBeV94cF9RVjZ1RWx4QU9TLWxUZ3czYkNuVWtuTGJfdlVndjZTd3RqY0t1ZlFUbGFUc1k0UjAxUDB6U0JYWTh3UEMtbkJOb0tJWlVVTk9hOEZDMGs2SlYwLWFuWUg3bkRmUW90aWthTlptd2poZ3Q2ZmxCT0pQVnA2aDhTT0t4MWhoWmZkWnUzZENfMTRaeC0tRQ?oc=5",
-      "published": "2026-06-24T16:09:55+00:00",
+      "id": "2b8934f1160a",
+      "title": "Apothekenreform: Das ändert sich für Patienten - PressNetwork.de",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1iZzVzTUUwYWpxMm5rSVROTXAtU3VWR2NjUGhlQzFESmlXWFVubTdKSlhmTHdLd1JGNS13Q3hvZVZFZE1oUFdGOVN1VDF1VXRSQzZiOXF4SUZaRlloa0RzWndENWVQb2pLbUJZU3J3OWVXSi1GWTZ5bjZjRmw?oc=5",
+      "published": "2026-06-23T07:45:33+00:00",
       "source": {
-        "name": "Ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
+        "name": "PressNetwork.de",
+        "url": "https://pressnetwork.de"
       }
     },
     {
@@ -234,13 +234,23 @@
       }
     },
     {
-      "id": "02e9917bea66",
-      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - DW.com",
+      "id": "8db31424e5bb",
+      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - dw.com",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGxHSlhmSS0tbUNKdG15NEVzRzYzYllEUnAzUEU3ak53czRHVWlKdTZrRGFDMk1MUThPUjdPTnBGVENqd3d2Q1VSdWhJVXppWDF4NWh0aEJJaXJlVTlnV0VoZVFkRHNSM3p6NVZXNjNwWHk5YkxSUWR2RGZKcmp3Y2U5REY0U3dRZFJLeHFtQk9wb2Y3RUVOaVBlMlJhZ29Rck000gGjAUFVX3lxTE1rTW00WXFBajZxbTJOS1NLckhVbXFBSzh1NE96QTEydTN1YjZnaFFNcV8xblZGM29hdTZQUHc4V3YzQ1pwcTlaVVBhZDVqMExLMTlYVzZ6TmM4ZUdsUm5TLXpPNmk1R3V4UktvaV93cWttNFpVX0VEZlZnUllSQkhyUlZmeTBJcU0zUEVSZTgxdzFWUnFNRk9CYVljN0Jhd0ZXUFk?oc=5",
       "published": "2026-05-12T07:00:00+00:00",
       "source": {
-        "name": "DW.com",
+        "name": "dw.com",
         "url": "https://www.dw.com"
+      }
+    },
+    {
+      "id": "f71a91a6c39f",
+      "title": "Engpässe bei Arzneimitteln: Geopolitik erschwert Europas Streben nach Unabhängigkeit - Euractiv",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQ2lScFVHU3ZELWZOdzJOUGU2YUQ3c2ZpbWhIYWFiVUNoRFZHTm5JM1BfUWVnanhicnRvanhQdGx4UHVuTnZ5dG4ySEY4eVE3dUxGaXVLSm5sM1liQzRtc19GVVE3RkNnUGhhTkhZTXAtMkhWZ3JqOVREWlhfRnBSX1FPRXlaaUE5d2d6cFVEakt5NDJaUkgzXzA3TUpqUUJTbzhRQXFpbmZCTGMwdlRDSXR3cHNjZw?oc=5",
+      "published": "2026-05-14T14:42:11+00:00",
+      "source": {
+        "name": "Euractiv",
+        "url": "https://euractiv.com"
       }
     },
     {
@@ -264,6 +274,16 @@
       }
     },
     {
+      "id": "7b69e052f6bb",
+      "title": "Diabetes bei Frauen: Insulinbedarf steigt in zweiter Zyklushälfte um 15% - Ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSVgzbUVXaDlNZ2NYOHpXUHVrTnFFOU5lVWVla1VuRFhmYWZBeV94cF9RVjZ1RWx4QU9TLWxUZ3czYkNuVWtuTGJfdlVndjZTd3RqY0t1ZlFUbGFUc1k0UjAxUDB6U0JYWTh3UEMtbkJOb0tJWlVVTk9hOEZDMGs2SlYwLWFuWUg3bkRmUW90aWthTlptd2poZ3Q2ZmxCT0pQVnA2aDhTT0t4MWhoWmZkWnUzZENfMTRaeC0tRQ?oc=5",
+      "published": "2026-06-24T16:09:55+00:00",
+      "source": {
+        "name": "Ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
+      }
+    },
+    {
       "id": "9f9b35e4948f",
       "title": "Gesundheit: So will die EU Engpässe bei Fiebersaft & Co. verhindern - WirtschaftsWoche",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNOUY3SndFdHc5MWdPYWkzRjVIbzFjcG9Kcmd6NEdmbEN4ejBkU01hd2ZvdGpjT1hYcjIwOHQzY0F4TjZBWDJ3Z0UtbkdvbExoWWhJTFZlZjZzNG00RnhoU0VPNXlxeFFhQzZpbWhBbnlhMUl2Y0JXanhFREpBSzNMNFU4OFNnNDMtWWc5dmFpUTRhRS1WV1pMSlNIOUh6NER6U0U2OUZ6YVdHV0ZBUTFHWlkxajg3QQ?oc=5",
@@ -271,16 +291,6 @@
       "source": {
         "name": "WirtschaftsWoche",
         "url": "https://www.wiwo.de"
-      }
-    },
-    {
-      "id": "f71a91a6c39f",
-      "title": "Engpässe bei Arzneimitteln: Geopolitik erschwert Europas Streben nach Unabhängigkeit - Euractiv",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQ2lScFVHU3ZELWZOdzJOUGU2YUQ3c2ZpbWhIYWFiVUNoRFZHTm5JM1BfUWVnanhicnRvanhQdGx4UHVuTnZ5dG4ySEY4eVE3dUxGaXVLSm5sM1liQzRtc19GVVE3RkNnUGhhTkhZTXAtMkhWZ3JqOVREWlhfRnBSX1FPRXlaaUE5d2d6cFVEakt5NDJaUkgzXzA3TUpqUUJTbzhRQXFpbmZCTGMwdlRDSXR3cHNjZw?oc=5",
-      "published": "2026-05-14T14:42:11+00:00",
-      "source": {
-        "name": "Euractiv",
-        "url": "https://euractiv.com"
       }
     },
     {
@@ -304,16 +314,6 @@
       }
     },
     {
-      "id": "5fd73dc2932c",
-      "title": "Menschen und Arzneimittel: Hitze gefährdet alle - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1SOVJuZkZFZTdsNFlWTmNONVQxN2ZFbnh0M045WmxqeGV6cHZ4Z1c4Z2xnYjkwUXNUcTJvWkptS0NHUUxocGIwZm04ejc3TFM2ZU5hNmtlZUtjQ2VTMWwtcEtRX0YxSXdCcE5UY252Z2dHWURtVGxn?oc=5",
-      "published": "2026-05-27T07:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "3843ee8c2190",
       "title": "Gesundheit - Beipackzettel von Medikamenten sollen digital werden - Ausdrucke in Apotheken sollen Option sein - Deutschlandfunk",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOclZxcXdzdDlfTXNBVkNkV1g0a1RMa05OWGcyX0RXaW5YMmpyUElhUnBJQU9QM3BzUG9iSFZnaWE0ek1iLTFQeE1wbkVhaDdrT3pVMERnT3l3VGhoOUtuS0EtT3pwazNMMGZmcmI1Z2puUHg1WWc5MzBXdHJma0l0dWNlNEhQdFdBUXF5X0V3OVRQWVA1RXFJNXJtbTVGMjNYQVlSWjNrdEttY0pQMXF0dWlwdGNUVWpFcF83a3RyX0oxSWpLaFVmc2NoVEhGNXc?oc=5",
@@ -321,6 +321,16 @@
       "source": {
         "name": "Deutschlandfunk",
         "url": "https://www.deutschlandfunk.de"
+      }
+    },
+    {
+      "id": "5fd73dc2932c",
+      "title": "Menschen und Arzneimittel: Hitze gefährdet alle - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1SOVJuZkZFZTdsNFlWTmNONVQxN2ZFbnh0M045WmxqeGV6cHZ4Z1c4Z2xnYjkwUXNUcTJvWkptS0NHUUxocGIwZm04ejc3TFM2ZU5hNmtlZUtjQ2VTMWwtcEtRX0YxSXdCcE5UY252Z2dHWURtVGxn?oc=5",
+      "published": "2026-05-27T07:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -344,16 +354,6 @@
       }
     },
     {
-      "id": "08bd0c0b5848",
-      "title": "Frankreich erstattet als erstes EU-Land Abnehmmittel - Euronews",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUGZUNmNqaW5tTWV1VXhXekNIaHZ6aWNkdmpQRXhmaUNZcXdJdG1LT0xpWU9mWmQ3OU9Zc2NMR2xfcXBNcnh6bWdhZHYyQ1FfaC1QNVBzOEdkS1o3RnVDZHh6X25nVHRnYmljNmRfTTRJa0VNODJjZjJSMzRMTDhVblo5bUtlR1BDamQxMnQ3VjRlY1p0UDY1WVduUHd6VnJPTlpYeGI1MWJKN2ZwV2Nqd0Q1cDRLZ1VlYmc?oc=5",
-      "published": "2026-05-28T07:00:00+00:00",
-      "source": {
-        "name": "Euronews",
-        "url": "https://de.euronews.com"
-      }
-    },
-    {
       "id": "d60d4f4ff5ae",
       "title": "Gesundheit - Auch SoVD fordert Maßnahmen gegen steigende Arzneimittelpreise - Deutschlandfunk",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNmF3c1ZhS2dyTG9MdkxYcjU4OHB6ZU8yNExEbkpFYVpBZWRfeDFWN3BHOS0wdVNheXF5Tzh0bGoxeTZONGw1R001LVNCWlI0UTNsNHo2cGFjbEw0V3B4dmZIbUVxYnhfb25tRDF6SXhvVUtZN0ZkaVFTZnZMYUg1MEZ2X0YwQ1hvWG54eTNVb09sNXlxUzd3cHVmdWJJbEJiNlI1ZjdB?oc=5",
@@ -361,6 +361,16 @@
       "source": {
         "name": "Deutschlandfunk",
         "url": "https://www.deutschlandfunk.de"
+      }
+    },
+    {
+      "id": "08bd0c0b5848",
+      "title": "Frankreich erstattet als erstes EU-Land Abnehmmittel - Euronews",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUGZUNmNqaW5tTWV1VXhXekNIaHZ6aWNkdmpQRXhmaUNZcXdJdG1LT0xpWU9mWmQ3OU9Zc2NMR2xfcXBNcnh6bWdhZHYyQ1FfaC1QNVBzOEdkS1o3RnVDZHh6X25nVHRnYmljNmRfTTRJa0VNODJjZjJSMzRMTDhVblo5bUtlR1BDamQxMnQ3VjRlY1p0UDY1WVduUHd6VnJPTlpYeGI1MWJKN2ZwV2Nqd0Q1cDRLZ1VlYmc?oc=5",
+      "published": "2026-05-28T07:00:00+00:00",
+      "source": {
+        "name": "Euronews",
+        "url": "https://de.euronews.com"
       }
     },
     {
@@ -564,12 +574,12 @@
       }
     },
     {
-      "id": "03505c881614",
-      "title": "EU-Generalanwalt: Versandverbot nein, aber ... - Apotheke Adhoc",
+      "id": "b027289bf54f",
+      "title": "EU-Generalanwalt: Versandverbot nein, aber ... - apotheke adhoc",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaGRRUFJ5MDV6WGZaTE84UlB3SU83OElpQ2dBVXJTMFRLWWFlSmN0alJ0eS1ZdF9zN09MZUhESFJDd2J1TVNQeHZRQ1ZLMVNtMC1OSm9DV01oVXhWVzRtOENHbUpnRE10akgwUnRyRmkzckZ1UFhIb05aM1ZLcVN1WkFKRUVRd3VaaWpZVUdraVRVdUtER2tIc1FjTWFqS3VIY0IzeERfWnJ4UQ?oc=5",
       "published": "2026-01-13T08:00:00+00:00",
       "source": {
-        "name": "Apotheke Adhoc",
+        "name": "apotheke adhoc",
         "url": "https://www.apotheke-adhoc.de"
       }
     },
@@ -954,12 +964,12 @@
       }
     },
     {
-      "id": "692ed6663b43",
-      "title": "Deutsche Apotheker warnen vor Medikamentenmangel - DW.com",
+      "id": "e0194a7c0b5d",
+      "title": "Deutsche Apotheker warnen vor Medikamentenmangel - dw.com",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWU1xaGhwXzk2bTZMYV9pdEdESnBqWVZvSnAwXzllTkVsdXYyZTlYSzdEYjktY2FySDA2THNEWUlQend3WWp5cG9uZFo1aTJMcFFINW1ZWEg3NlVDQ2UzdkRmZldhV1JRemg4U3poczloOF9QOEhha1prQnlGZ0U5T0laMXN2ZVBY0gGIAUFVX3lxTE01Wk9oR0RESDZiM1BvOU5qZmtUYk1aNUFxWlpzU3EteXRvRDQ1anBlcG52RXJ5QWdEWjB2SHJCblZSaktVZktvRTBkYUxtYzNfQVE4YXRHajc1Nk9UQllNTkt0Vi1wVjdQTTAzSElvTDRMWXZ5TEpkLUZxRTI2QUZkMVdyRGM4YUg?oc=5",
       "published": "2025-09-14T07:00:00+00:00",
       "source": {
-        "name": "DW.com",
+        "name": "dw.com",
         "url": "https://www.dw.com"
       }
     },
@@ -991,16 +1001,6 @@
       "source": {
         "name": "World Health Organization (WHO)",
         "url": "https://www.who.int"
-      }
-    },
-    {
-      "id": "9cec1633456c",
-      "title": "EU-Gesundheitsminister drängen auf unabhängige Arzneimittelproduktion – News - Deutsches Ärzteblatt",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPZVd0ak5vc1MzMkdFUnN2QWVUWHp1aVl5TVBDdkVTTmFSX1k4LXJlNlVBOXJnenJ3V1NRQzVYQ25Od0I3Z3l1TGlTU1hBdHVtQjdDaXI3VzVKakwxSkNCN3dEMEZBNldDb3ppa3dMNTE3NnNOT1hWcElBanJUSVFZTXNMeFJuVDlROTQzS3RNWHJreFZIdk11cWR0NmxmdlkyVmlLcmRXUEU3d3JadW9XZE5fbFY1M0tLMWxBYXo4d1l5T1BMVTBNbnJ3VEhSWkFKQkpNdQ?oc=5",
-      "published": "2025-03-26T07:00:00+00:00",
-      "source": {
-        "name": "Deutsches Ärzteblatt",
-        "url": "https://www.aerzteblatt.de"
       }
     }
   ]
