@@ -1,36 +1,26 @@
 {
-  "fetched_at": "2026-06-26T03:54:11.987366+00:00",
+  "fetched_at": "2026-06-26T07:55:33.217681+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
     {
-      "id": "dcc2c20fc748",
-      "title": "Martins Apotheke: Wo Gesundheit persönlich bleibt - Onetz",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbEJPX2dVd2tmMjIybkFuMUszTHdyRzNscF9kM0c5dW96cXltdF9MbUZMZVpHVzU0eVhSMmV6ZDhpc1hzSXJPYjF5NWRwTVVBRi1pakV6bnI4S1dPX3N5U3FsR21tRktoUW5CV1JtS3FiYUdVNWt5Q0g1TGFEWThSVTh1cU1EaHlmTURxaFJCRUxhT0Zwcy1RODdka21obDhwYy1RYy1wdXVyREFBUVE?oc=5",
-      "published": "2026-06-25T22:01:00+00:00",
+      "id": "47adbc0dabb1",
+      "title": "Blutdrucksenker im Vergleich: Diese Mittel haben die wenigsten Nebenwirkungen - T-Online",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNX2pOcGpEZE85aVhzQkdsZWlhSXNsUWNlM3M5WDduLTRZX1JQX25fM3V3WE44YkJrT29Zbjh3WHdod3JwNGpRQm1Ia0EzUWR2Q1MzaHZEUVpWemtuYlZmUWJUNzdZTEoweUt0UFVycm1kcF9pejZPWXRNVjhGWFByR0FEay01OUp6dS1MbDlUZ3F3M3dONVRmejd5YnN3cGpkOHBhTTdsQ3g2VllxdFFvcUNUX2lXeUNsc3NzaEluMlc0UWVPVUY1OXhR?oc=5",
+      "published": "2026-06-26T07:34:27+00:00",
       "source": {
-        "name": "Onetz",
-        "url": "https://www.onetz.de"
+        "name": "T-Online",
+        "url": "https://www.t-online.de"
       }
     },
     {
-      "id": "56adc93fd6fa",
-      "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesgesundheitsministerium",
+      "id": "359a638ace75",
+      "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesministerium für Gesundheit (BMG)",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNlp2UC15ODdWb214VmdueWZNQ2pWMFRyd1NZNWNVbS1iTGRTZFNNeTl1WlJJZTZPdGVZUC1DVnVZWEF0N0pla3lSMVEyVl9fLXZHU2s3Q1lVMUVvZ0JIUGVXQllJNlI4TUJIVlFBaU9jeTF3NHVhWXhRdXZGczZRdWY0bnp6UlZnNExna0d2OFRiNVZzYkFuSHFRYjBQd3NQVXNZNVYtZWlkVngxa2JHZTdfVXdzUzFL?oc=5",
       "published": "2026-05-22T07:00:00+00:00",
       "source": {
-        "name": "Bundesgesundheitsministerium",
+        "name": "Bundesministerium für Gesundheit (BMG)",
         "url": "https://www.bundesgesundheitsministerium.de"
-      }
-    },
-    {
-      "id": "2935038df74e",
-      "title": "Kofferpacken und was in die Reiseapotheke gehört - Neue Gladbecker Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWG9tT0lfdG5LbEROMlNuT3BRSmF5Q2FhWWdKN1FldWJTSEprczUwQ0VXNTJJX0JlN2pfVHZOQVZrV0pGcUdON3dJYVNiV1Q4bjFDcTEzVEhoMTNqd1NEeC1JdHVwVXNEQVlqZnB3ZnlXcF9yenRIR3lXZlVNd3FtWE1zV29oVVk1ZVU3c3V3?oc=5",
-      "published": "2026-06-25T12:58:34+00:00",
-      "source": {
-        "name": "Neue Gladbecker Zeitung",
-        "url": "https://neue-gladbecker-zeitung.de"
       }
     },
     {
@@ -51,6 +41,26 @@
       "source": {
         "name": "Allgäuer Zeitung",
         "url": "https://www.allgaeuer-zeitung.de"
+      }
+    },
+    {
+      "id": "dcc2c20fc748",
+      "title": "Martins Apotheke: Wo Gesundheit persönlich bleibt - Onetz",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbEJPX2dVd2tmMjIybkFuMUszTHdyRzNscF9kM0c5dW96cXltdF9MbUZMZVpHVzU0eVhSMmV6ZDhpc1hzSXJPYjF5NWRwTVVBRi1pakV6bnI4S1dPX3N5U3FsR21tRktoUW5CV1JtS3FiYUdVNWt5Q0g1TGFEWThSVTh1cU1EaHlmTURxaFJCRUxhT0Zwcy1RODdka21obDhwYy1RYy1wdXVyREFBUVE?oc=5",
+      "published": "2026-06-25T22:01:00+00:00",
+      "source": {
+        "name": "Onetz",
+        "url": "https://www.onetz.de"
+      }
+    },
+    {
+      "id": "2935038df74e",
+      "title": "Kofferpacken und was in die Reiseapotheke gehört - Neue Gladbecker Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWG9tT0lfdG5LbEROMlNuT3BRSmF5Q2FhWWdKN1FldWJTSEprczUwQ0VXNTJJX0JlN2pfVHZOQVZrV0pGcUdON3dJYVNiV1Q4bjFDcTEzVEhoMTNqd1NEeC1JdHVwVXNEQVlqZnB3ZnlXcF9yenRIR3lXZlVNd3FtWE1zV29oVVk1ZVU3c3V3?oc=5",
+      "published": "2026-06-25T12:58:34+00:00",
+      "source": {
+        "name": "Neue Gladbecker Zeitung",
+        "url": "https://neue-gladbecker-zeitung.de"
       }
     },
     {
@@ -114,6 +124,16 @@
       }
     },
     {
+      "id": "19f233cadfd8",
+      "title": "Tag der Apotheker: Bevölkerung für mehr Gesundheitsleistungen in der Apotheke - OTS.at",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQTzFVenNKYnRfdHhVV3ZxY3FmY19FNUFoU0FIOFhwaDBVWVF6RGxYTkZkQ1Z4ZHRNblUydERsVlAyWG1DVUNMZ2o0NFNITGFiVjRxRlhjSjRKbGVqMVN2S1VoZnRUWGVrUVlIRUVBVHJodk1NMUpULXB4X3dKQUhxdjdDTENmNWJGTTNRSzcxTjNjMXNDYkdFQVhnc0djMHh4TmxsVHBaUW1YRzdac2FuWlhFV2lmQmlGc2V6Q1dzR2ZLTmV4RWtRMlpoWjFFR2I5?oc=5",
+      "published": "2026-06-26T07:00:35+00:00",
+      "source": {
+        "name": "OTS.at",
+        "url": "https://www.ots.at"
+      }
+    },
+    {
       "id": "5cfa2762dc20",
       "title": "Gesundheit - GKV-Chef: \"Mehr gegen steigende Arzneimittelpreise tun\" - Deutschlandfunk",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdXlzU1VBOUhWa05wcTVDNnBBdHRkeDl5TnZ1S1A3T0swT2pKTjZlaU1pempxQVJkMXMySXBtd2xpaUk5WWN4Q1VyakdMbnN2eF9mRncxakUwN21WbGFQMWpuR2VoOG1tUDYtWERUbS1LSVpOdUNaTE1SWmhDSkVUdTlubVNEWGNtUXNaYk5tcTJibTRDZTJv?oc=5",
@@ -154,26 +174,6 @@
       }
     },
     {
-      "id": "95d55d1267a1",
-      "title": "Mit Abnehmspritze Kilos loswerden - was ist dran an Ozempic & Co.? - NDR.de",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaGFzLTFfUHozOUJiWWtWdlRPUm5mZ0VkMGMxLVVGcmxmMzlONHZRV21qZmFHYUo3d2gzV3VDVm9OUHp6Qk4wQjlZTHU3V3RnckthWTZSbVpVMGE1VWxiMFMtVVJCSWdWb3hibzlscllodzVwWmpDMS1ZOXNxYkFfQVJzdlRzeGRQOWdtcW55UVRNSE16QmhJZXhVYmRmYl9iUmJBN1g2cG8?oc=5",
-      "published": "2026-03-11T07:00:00+00:00",
-      "source": {
-        "name": "NDR.de",
-        "url": "https://www.ndr.de"
-      }
-    },
-    {
-      "id": "edcf559b1a0c",
-      "title": "EU-Gesundheitskommissar prüft Folgen von Trumps Arzneipreispolitik - Euronews",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSzM5cWFmcTJfV010WWVadkdEVXRGblFEUTlhaUhoOThvaHV5eTJuWFVJbUtyMW9xNTJkYzNIR2Z6YWp0ZE1IWmNPb3pNcU5YY1phcUlQSU5IWWtvV0MzNDlqdHJZRU40alRPU29CWFVnUDBjLXE3UHhtV2pManQ4TzhzVEU3OHNDM2JJZm9ZbzBUbkVCRFRZYU1jMTl2UVdGRnhubmZZYWswcmZqbXAtbW5QcnRBTktIaHFFWg?oc=5",
-      "published": "2026-06-16T07:00:00+00:00",
-      "source": {
-        "name": "Euronews",
-        "url": "https://de.euronews.com"
-      }
-    },
-    {
       "id": "9fa13ce5acf5",
       "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
@@ -204,13 +204,23 @@
       }
     },
     {
-      "id": "02e9917bea66",
-      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - DW.com",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGxHSlhmSS0tbUNKdG15NEVzRzYzYllEUnAzUEU3ak53czRHVWlKdTZrRGFDMk1MUThPUjdPTnBGVENqd3d2Q1VSdWhJVXppWDF4NWh0aEJJaXJlVTlnV0VoZVFkRHNSM3p6NVZXNjNwWHk5YkxSUWR2RGZKcmp3Y2U5REY0U3dRZFJLeHFtQk9wb2Y3RUVOaVBlMlJhZ29Rck000gGjAUFVX3lxTE1rTW00WXFBajZxbTJOS1NLckhVbXFBSzh1NE96QTEydTN1YjZnaFFNcV8xblZGM29hdTZQUHc4V3YzQ1pwcTlaVVBhZDVqMExLMTlYVzZ6TmM4ZUdsUm5TLXpPNmk1R3V4UktvaV93cWttNFpVX0VEZlZnUllSQkhyUlZmeTBJcU0zUEVSZTgxdzFWUnFNRk9CYVljN0Jhd0ZXUFk?oc=5",
-      "published": "2026-05-12T07:00:00+00:00",
+      "id": "95d55d1267a1",
+      "title": "Mit Abnehmspritze Kilos loswerden - was ist dran an Ozempic & Co.? - NDR.de",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaGFzLTFfUHozOUJiWWtWdlRPUm5mZ0VkMGMxLVVGcmxmMzlONHZRV21qZmFHYUo3d2gzV3VDVm9OUHp6Qk4wQjlZTHU3V3RnckthWTZSbVpVMGE1VWxiMFMtVVJCSWdWb3hibzlscllodzVwWmpDMS1ZOXNxYkFfQVJzdlRzeGRQOWdtcW55UVRNSE16QmhJZXhVYmRmYl9iUmJBN1g2cG8?oc=5",
+      "published": "2026-03-11T07:00:00+00:00",
       "source": {
-        "name": "DW.com",
-        "url": "https://www.dw.com"
+        "name": "NDR.de",
+        "url": "https://www.ndr.de"
+      }
+    },
+    {
+      "id": "edcf559b1a0c",
+      "title": "EU-Gesundheitskommissar prüft Folgen von Trumps Arzneipreispolitik - Euronews",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSzM5cWFmcTJfV010WWVadkdEVXRGblFEUTlhaUhoOThvaHV5eTJuWFVJbUtyMW9xNTJkYzNIR2Z6YWp0ZE1IWmNPb3pNcU5YY1phcUlQSU5IWWtvV0MzNDlqdHJZRU40alRPU29CWFVnUDBjLXE3UHhtV2pManQ4TzhzVEU3OHNDM2JJZm9ZbzBUbkVCRFRZYU1jMTl2UVdGRnhubmZZYWswcmZqbXAtbW5QcnRBTktIaHFFWg?oc=5",
+      "published": "2026-06-16T07:00:00+00:00",
+      "source": {
+        "name": "Euronews",
+        "url": "https://de.euronews.com"
       }
     },
     {
@@ -251,6 +261,16 @@
       "source": {
         "name": "Taylor Wessing",
         "url": "https://www.taylorwessing.com"
+      }
+    },
+    {
+      "id": "02e9917bea66",
+      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - DW.com",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGxHSlhmSS0tbUNKdG15NEVzRzYzYllEUnAzUEU3ak53czRHVWlKdTZrRGFDMk1MUThPUjdPTnBGVENqd3d2Q1VSdWhJVXppWDF4NWh0aEJJaXJlVTlnV0VoZVFkRHNSM3p6NVZXNjNwWHk5YkxSUWR2RGZKcmp3Y2U5REY0U3dRZFJLeHFtQk9wb2Y3RUVOaVBlMlJhZ29Rck000gGjAUFVX3lxTE1rTW00WXFBajZxbTJOS1NLckhVbXFBSzh1NE96QTEydTN1YjZnaFFNcV8xblZGM29hdTZQUHc4V3YzQ1pwcTlaVVBhZDVqMExLMTlYVzZ6TmM4ZUdsUm5TLXpPNmk1R3V4UktvaV93cWttNFpVX0VEZlZnUllSQkhyUlZmeTBJcU0zUEVSZTgxdzFWUnFNRk9CYVljN0Jhd0ZXUFk?oc=5",
+      "published": "2026-05-12T07:00:00+00:00",
+      "source": {
+        "name": "DW.com",
+        "url": "https://www.dw.com"
       }
     },
     {
@@ -314,26 +334,6 @@
       }
     },
     {
-      "id": "7a99adaec5c0",
-      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - Geo.de",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
-      "published": "2026-06-19T10:10:00+00:00",
-      "source": {
-        "name": "Geo.de",
-        "url": "https://www.geo.de"
-      }
-    },
-    {
-      "id": "172d986897fc",
-      "title": "Arzneimittel: Nutzen für Gesundheit, Lebensqualität und Wirtschaft - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPc1pKSzRyQWdIYmtZQlZKZE5ZYkRDWjFJRzUySHJWYkJGQU9nSExYb21pSnJBd29vZllZcWNFMU9fcTkyMFZWN3NTbVkxcXpRbFhXZFdCT3BPd2N4ZlVVNHctcVNVaWNiUmFlSDZ4TnIxX2VOYk03Zk5JZ0RSSWxiY21mRGVETjVH?oc=5",
-      "published": "2025-09-26T07:00:00+00:00",
-      "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
-      }
-    },
-    {
       "id": "d60d4f4ff5ae",
       "title": "Gesundheit - Auch SoVD fordert Maßnahmen gegen steigende Arzneimittelpreise - Deutschlandfunk",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNmF3c1ZhS2dyTG9MdkxYcjU4OHB6ZU8yNExEbkpFYVpBZWRfeDFWN3BHOS0wdVNheXF5Tzh0bGoxeTZONGw1R001LVNCWlI0UTNsNHo2cGFjbEw0V3B4dmZIbUVxYnhfb25tRDF6SXhvVUtZN0ZkaVFTZnZMYUg1MEZ2X0YwQ1hvWG54eTNVb09sNXlxUzd3cHVmdWJJbEJiNlI1ZjdB?oc=5",
@@ -341,6 +341,16 @@
       "source": {
         "name": "Deutschlandfunk",
         "url": "https://www.deutschlandfunk.de"
+      }
+    },
+    {
+      "id": "47afc2884d76",
+      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - geo.de",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
+      "published": "2026-06-19T10:10:00+00:00",
+      "source": {
+        "name": "geo.de",
+        "url": "https://www.geo.de"
       }
     },
     {
@@ -364,13 +374,13 @@
       }
     },
     {
-      "id": "5fd73dc2932c",
-      "title": "Menschen und Arzneimittel: Hitze gefährdet alle - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1SOVJuZkZFZTdsNFlWTmNONVQxN2ZFbnh0M045WmxqeGV6cHZ4Z1c4Z2xnYjkwUXNUcTJvWkptS0NHUUxocGIwZm04ejc3TFM2ZU5hNmtlZUtjQ2VTMWwtcEtRX0YxSXdCcE5UY252Z2dHWURtVGxn?oc=5",
-      "published": "2026-05-27T07:00:00+00:00",
+      "id": "09e9d0a2ff53",
+      "title": "Krebsmedikament: Meistverkauftes Krebsmittel wird offenbar viel zu teuer verkauft - DIE ZEIT",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZUdKR1hQcHVBS3JEX3dma19JcW5GTmlCcmxGRmpKbHFwZzduVkpReEh1RnFiOUM2amRvRGl4Z0tDellhTUc1bzU1cl82T3J0N1hnYnVDZF9ERlpxU3JobkphRmRjVk55cjRUZ0tkTlFTZmRSYm0tQVpYSzBtb2xNclVkelpWaTJ5UXQ4TVNoUVFoeVd5RkpqanJqMWpmdw?oc=5",
+      "published": "2026-04-13T07:00:00+00:00",
       "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
+        "name": "DIE ZEIT",
+        "url": "https://www.zeit.de"
       }
     },
     {
@@ -384,13 +394,13 @@
       }
     },
     {
-      "id": "09e9d0a2ff53",
-      "title": "Krebsmedikament: Meistverkauftes Krebsmittel wird offenbar viel zu teuer verkauft - DIE ZEIT",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZUdKR1hQcHVBS3JEX3dma19JcW5GTmlCcmxGRmpKbHFwZzduVkpReEh1RnFiOUM2amRvRGl4Z0tDellhTUc1bzU1cl82T3J0N1hnYnVDZF9ERlpxU3JobkphRmRjVk55cjRUZ0tkTlFTZmRSYm0tQVpYSzBtb2xNclVkelpWaTJ5UXQ4TVNoUVFoeVd5RkpqanJqMWpmdw?oc=5",
-      "published": "2026-04-13T07:00:00+00:00",
+      "id": "5fd73dc2932c",
+      "title": "Menschen und Arzneimittel: Hitze gefährdet alle - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1SOVJuZkZFZTdsNFlWTmNONVQxN2ZFbnh0M045WmxqeGV6cHZ4Z1c4Z2xnYjkwUXNUcTJvWkptS0NHUUxocGIwZm04ejc3TFM2ZU5hNmtlZUtjQ2VTMWwtcEtRX0YxSXdCcE5UY252Z2dHWURtVGxn?oc=5",
+      "published": "2026-05-27T07:00:00+00:00",
       "source": {
-        "name": "DIE ZEIT",
-        "url": "https://www.zeit.de"
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -421,6 +431,16 @@
       "source": {
         "name": "Deutschlandfunk",
         "url": "https://www.deutschlandfunk.de"
+      }
+    },
+    {
+      "id": "5e89a99ee6f5",
+      "title": "250.000 Klinikeinweisungen wegen Medikationsfehlern – neuer Aktionsplan soll gegensteuern - Apotheken Umschau",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPODV4RkNsdjdBZWlGUVduQkFvcDVTRFpNMC1QYXgyeXB1WXZFMjUtR1dRelBuLXNjbDIwUHhIbWhCQ2kwbzhlTDFkLTRpX19jd3V3TTBHblBVRjJkUWUxNGQza09rbWVkZWxBeVB5R0QyTWhob1ZmRFFNMlczcjNpeWVab0RsSi1USmE2Tmw0a0pSN2haQUc5Z3lyamhXTVVmZFdVRVpXMUVicXdBbElidFBSajI5T2ZUS0NBV1dCMU0zN0Nh?oc=5",
+      "published": "2026-02-09T08:00:00+00:00",
+      "source": {
+        "name": "Apotheken Umschau",
+        "url": "https://www.apotheken-umschau.de"
       }
     },
     {
@@ -514,20 +534,20 @@
       }
     },
     {
-      "id": "85a03dbbfe05",
-      "title": "Wahlkampf Baden-Württemberg: Rülke: »Gute Gesundheit geht nur mit öffentlichen Apotheken« - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbDY3aENWRUZGTC15UlN4YlFuU0JEdUkxREFqNzQtN282NElEbHZWRlRveVpDTzFUTml2c1ZYNTFUWnliQl81SC1VdVctWUk2UGJ6UWI4cW82Z1IydG5iN2FUR21ST3gweUJNOW94VGxkemJuRC1tY2NvZERfVndyekRMbFc0TjVIdGJYUGVGVzJnOFRRNS1RamtZb1F5b2VseUNPRUowYmVKUQ?oc=5",
-      "published": "2026-02-03T08:00:00+00:00",
+      "id": "8308fd9ff3ea",
+      "title": "»Ge­ra­de in der Apo­the­ke wird Ge­sund­heit ge­lebt« - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWGI5Ni1Wb1RMSGlZbElwcDdtVjF5TzJBTVpUd0xoblBOUHl5UG8tcXlNY1FPTHBPbU5tT2J2S2VTRkFlZlVxejM2S3V6Ty14bHlXVmEtRmRPUnNoeEd0U3pWZlQ5SlZjNGF3bnhWWGF0M2h5MHVSaFZRZjBZZy1KOEZva1l2N1dzbkF0Q2dvRUc1SVN3OVVF?oc=5",
+      "published": "2026-03-19T07:00:00+00:00",
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
-      "id": "8308fd9ff3ea",
-      "title": "»Ge­ra­de in der Apo­the­ke wird Ge­sund­heit ge­lebt« - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWGI5Ni1Wb1RMSGlZbElwcDdtVjF5TzJBTVpUd0xoblBOUHl5UG8tcXlNY1FPTHBPbU5tT2J2S2VTRkFlZlVxejM2S3V6Ty14bHlXVmEtRmRPUnNoeEd0U3pWZlQ5SlZjNGF3bnhWWGF0M2h5MHVSaFZRZjBZZy1KOEZva1l2N1dzbkF0Q2dvRUc1SVN3OVVF?oc=5",
-      "published": "2026-03-19T07:00:00+00:00",
+      "id": "85a03dbbfe05",
+      "title": "Wahlkampf Baden-Württemberg: Rülke: »Gute Gesundheit geht nur mit öffentlichen Apotheken« - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbDY3aENWRUZGTC15UlN4YlFuU0JEdUkxREFqNzQtN282NElEbHZWRlRveVpDTzFUTml2c1ZYNTFUWnliQl81SC1VdVctWUk2UGJ6UWI4cW82Z1IydG5iN2FUR21ST3gweUJNOW94VGxkemJuRC1tY2NvZERfVndyekRMbFc0TjVIdGJYUGVGVzJnOFRRNS1RamtZb1F5b2VseUNPRUowYmVKUQ?oc=5",
+      "published": "2026-02-03T08:00:00+00:00",
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
@@ -554,16 +574,6 @@
       }
     },
     {
-      "id": "4f1eeceab428",
-      "title": "(S+) Wie teure Krebsmedikamente das Gesundheitssystem sprengen könnten - Spiegel",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNOUFWLTYwSFp0U194b0duNHVfbTVjbzFKVUV0WG1MS1FkQ2hYdmg2OGp1dnlEQTk4SjVNUEpkWWpRaTVFZFFmcjFiNC02WXNvSEhIbmdUNDk4emxWQ2VnWWtHMUotcWhXUnVsMExGRWNvdllPcUd3dVRZTWR2ZUEteWZTeFEyS1M5ZzZqZUxDSUI2RTRqMnU4MVF4SEthWm1vZEd1YjZWYjZoLUIwRTlaZTVtRXZoZERXWC1DUGhLelpNZ0M2RXFQeDU4XzBfQ3ZWUFJUdDBVcDh2aExzVmc?oc=5",
-      "published": "2026-04-13T07:00:00+00:00",
-      "source": {
-        "name": "Spiegel",
-        "url": "https://www.spiegel.de"
-      }
-    },
-    {
       "id": "1f4441bb42a2",
       "title": "Medizinprodukte: US-Arzneibehörde will Auflagen für neue Medikamente lockern - DIE ZEIT",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMDQ4aUF0OUVjbTB5LXZPc1JjcGo2U2RMUHdCNlpmQXV3RHFQeHJfRHlGcUZxVDRjZEVZV21TRmRTalZTdU9WN1RWeFREc212am9oREtTNjNBU0o5dW51RHM3US1WOXdFbWtnZ1RwM2diM21uTkVRN25HTVc1ZjNiM2Vhc0FjYXlBd1FadUM2RGd0UkEyalBmUWNpcmxMNTV3dUswMGlQSQ?oc=5",
@@ -571,6 +581,16 @@
       "source": {
         "name": "DIE ZEIT",
         "url": "https://www.zeit.de"
+      }
+    },
+    {
+      "id": "4f1eeceab428",
+      "title": "(S+) Wie teure Krebsmedikamente das Gesundheitssystem sprengen könnten - Spiegel",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNOUFWLTYwSFp0U194b0duNHVfbTVjbzFKVUV0WG1MS1FkQ2hYdmg2OGp1dnlEQTk4SjVNUEpkWWpRaTVFZFFmcjFiNC02WXNvSEhIbmdUNDk4emxWQ2VnWWtHMUotcWhXUnVsMExGRWNvdllPcUd3dVRZTWR2ZUEteWZTeFEyS1M5ZzZqZUxDSUI2RTRqMnU4MVF4SEthWm1vZEd1YjZWYjZoLUIwRTlaZTVtRXZoZERXWC1DUGhLelpNZ0M2RXFQeDU4XzBfQ3ZWUFJUdDBVcDh2aExzVmc?oc=5",
+      "published": "2026-04-13T07:00:00+00:00",
+      "source": {
+        "name": "Spiegel",
+        "url": "https://www.spiegel.de"
       }
     },
     {
@@ -981,26 +1001,6 @@
       "source": {
         "name": "SZ.de",
         "url": "https://www.sueddeutsche.de"
-      }
-    },
-    {
-      "id": "723f070990ea",
-      "title": "Antibabypille: Erhöht Essanfälle und emotionales Essen messbar - Ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUDJvaGFqRFRhTGw4c0hxcXFUYTZteTFLa2hjOFFuV2VYekhaODU4OFhSSEZNeGpXVUZHSXd5UmhsSDg5S09EMlZUR090cVBtTDY2bWdQMXFvcmJVY0Y5VW1Zbzl2OVJLakNYX0tBUGRpNWt2R2ZEaVkyU1RxelNacTZ1UTNBWEx0RUMzLWRjRlhCR1htT21mRzlocWFSb2FEelB4dDh3Q0lYRHZFS1F3Q3Fn?oc=5",
-      "published": "2026-06-23T19:12:39+00:00",
-      "source": {
-        "name": "Ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
-      "id": "6eaac0e35900",
-      "title": "Ukraine: Von der Europäischen Union finanzierte Kliniken für die primäre Gesundheitsversorgung verändern das Leben von Patienten - World Health Organization (WHO)",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNbDQ0OTlwYWJLOTJYdnhPLWpjTGJhZ0R6Q1lzblVyc0hNZUZsUUxXZWRBYmt0VVo0dGpEY3pKUlFCY0NtUk02MDQ0VmhzQk01TlZJcHZMamt5OGFvdWkzVFpjOVBhWVd4S1Y5bFJMRGdVM25TSFVJUWdqb0ZRSlJhcDdYSktVckIxVTY2UkhXd04zZTA4c1VvYnRwcC1JaVdBNDl3UmpISUQwV1NhZHNUT0hXZ2pSWHlwMEpFcERHZ0JuSXRqT0s1OTdrWG1QeE5ETVBTVzRzb3I4QTNNZzlFWGZvcVR2NzV4?oc=5",
-      "published": "2025-07-04T07:00:00+00:00",
-      "source": {
-        "name": "World Health Organization (WHO)",
-        "url": "https://www.who.int"
       }
     }
   ]
