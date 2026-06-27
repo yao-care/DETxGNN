@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-27T14:43:12.190454+00:00",
+  "fetched_at": "2026-06-27T16:06:12.484567+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -24,16 +24,6 @@
       }
     },
     {
-      "id": "6af01eeaba54",
-      "title": "6-R-Regel in der Pflege: Was dahintersteckt und warum sie so wichtig ist - Allgäuer Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQS08wZEpmX0JlRkdDbzFDUEtNTkRnOWpaTHQyNE9sa0NjX0lIMGNnSFNfTXc5dkZ4Zlp6Z3k3WjhPLWdSTWp0Zy1QdnBERmczeXR1ZWEyRUhjUmdreDBBY3JMOTU1SUJHdjBUZkV3M200SWM3N0ppSnJKR09LM1U5SFVXNXVNM1ZTOGR6VEh6WFRUbGl6WExWZ19TS2h5SlAtcEJRZjZUM3V1N24xRDlWc0dOdWNTNjktaXNOU1htQkY?oc=5",
-      "published": "2026-06-27T03:27:23+00:00",
-      "source": {
-        "name": "Allgäuer Zeitung",
-        "url": "https://www.allgaeuer-zeitung.de"
-      }
-    },
-    {
       "id": "b3c4e3eb9137",
       "title": "So legen Sie aponet.de als bevorzugte Nachrichtenquelle bei Google fest - aponet.de",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbHNDWnh1WjFuWkRjdVBlLXFXdWd3RHpZNHhqOFpqdDVtdmd6ODhjbllRaEhDRWJPZjRfWWQxbF9kb0VkZTA0aC1RYWladHdIMlNsSU1zRjd1MzhiVTFZTHRILUZlQmpqdGZhV2FvNDEybWNZaFNaaVBPLVZyM1ZaS19PS1lERDNLNy1jY1FUOTJJNUFwQjdpaGg5ZGtrVnhESnRDYllveFBKZw?oc=5",
@@ -41,16 +31,6 @@
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
-      }
-    },
-    {
-      "id": "31ccb4e1f93f",
-      "title": "Hitzewelle: Gefährliche Überdosis bei Fentanyl - apotheke adhoc",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSlZRVEpjVFlDd0RfQWl0RDl6UnFlSDBOUlo1elhmV3U4eERYdEJJV2VlV2VIWXVDbV9VY2pWMFJldk9WWUs2X1dQakIyVjg5Wmg3YWJhQjdSeUpDNktjZDR5VmJRbzJkSFAyVy1QMzFmejlrcmpTcC1reGRHams0a0lCeEJWSmRPVWZTRmdSTHR4X3NibDVTbWdHNnZhWERabUZvekQ3MEpXZ19aUmlxQjEwMA?oc=5",
-      "published": "2026-06-24T06:00:09+00:00",
-      "source": {
-        "name": "apotheke adhoc",
-        "url": "https://www.apotheke-adhoc.de"
       }
     },
     {
@@ -134,6 +114,16 @@
       }
     },
     {
+      "id": "e23f6db5bf67",
+      "title": "Hecken schimpft auf Klingbeil - apotheke adhoc",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOeVJZd0hfSWFWZ055eTFmT01mSWtHVG4wTWFOY2pxeTRsOG1BdV9yWlk0UGpKVmQ5RWhnd2hmREdBMEZ3SXBSSlhfbUtCTE45ZXZEX1k3UlBHNkQyNDl5Y3RMX2k2amRZaUpMbXNCa2hYaHAzaERnbGpWWm1Zc1c3cjdVT1JycmpaUjNKVDV6MXE?oc=5",
+      "published": "2026-06-24T12:26:05+00:00",
+      "source": {
+        "name": "apotheke adhoc",
+        "url": "https://www.apotheke-adhoc.de"
+      }
+    },
+    {
       "id": "2a4cd6eb6d1d",
       "title": "Arzneimittelengpässe in Europa – so reagiert die EU - European Parliament",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYUFLam5JQVMtSlNuNWlqSTJrRUNDN215RDlRU2hOMEE0Rkp3cHBodVhSbXRsSUhvTTRhMTVLWEE5QmM0dXJRNGlPSkwyZ2doMHhlaEpHbW5DZl8tazhQc3lPcEN4SmtLaEdGMk9IZjF5MGZvNEd3a2tXSnJXT1ItanFsV2gtRGpMYjlUbHV2OURrMkM5OXA3emh5OERlMlpXc1J1UlNVYUp1UlBUd1gzREtLUkZRZw?oc=5",
@@ -164,6 +154,26 @@
       }
     },
     {
+      "id": "38b8b0aa9188",
+      "title": "Vom Wissen zum Handeln: Verbesserung der Bezahlbarkeit von Arzneimitteln in den Ländern des Westbalkans - World Health Organization (WHO)",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOZlNmcEdYcXZxdDBYazhiVjRCWHVtbms0ZG5JUWlXb0lJWXVFYjV1ak1MR05oZW5FbHFMTGpyNjJxS1ZuQWk4Nl9Wc2NHdHE3YnhrQzc1VHJNbm1QRFdMVF9WVGw2NHdVeDBHajRYX1hfZkFEMTU2Z09kcU04T1c1V3dKZ09nUUlMc3dnLVdvQ3RTYUZqSDA3d1djVXpxbU9fSFUtSGlHbHNOdFJRb29RQlpTRHEzd2pCQzd5Y3VRNmcza2dzTVVlYUp5Y1U5b01kMGpQUzZvNGctWE0tSmJRSEk5TQ?oc=5",
+      "published": "2026-03-30T07:00:00+00:00",
+      "source": {
+        "name": "World Health Organization (WHO)",
+        "url": "https://www.who.int"
+      }
+    },
+    {
+      "id": "51e8c4b74840",
+      "title": "Gesundheitsgefahr durch gefälschte Arzneimittel - Gesundheit.gv.at",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYlhNa1drQ3UydVU1Ti1QZWxOelZ2UDNkQTBsczZ4SzVIZGhQS3psTVQ5Zmw2Ujh2RGpDYzZ5TDdIbG5mYkFjRl9CX3JkS0FHQ2dlSGVZMlpRTmpva0xOX3hoTWhTM3VoZlB6bjJYbjRRcGp2NERXZmhoaEtyeGJhUDlSU0k0cURLRzNIc1FR?oc=5",
+      "published": "2026-03-09T07:00:00+00:00",
+      "source": {
+        "name": "Gesundheit.gv.at",
+        "url": "https://www.gesundheit.gv.at"
+      }
+    },
+    {
       "id": "9f7c377ed6d2",
       "title": "MFN-Modell USA: Wie US-Arzneimittelpolitik Innovationen in Europa ausbremst - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWkw5ZTd1QUxfTlBDNjVEc0paTWpvTFpfTE9lOFM3YnhiWnBBREVhRzlMQnRmWDdkREJzVlg3UnZCN2RsTC1aTkhtN19oX2dEYmVLdXk4MXFBUnVGakk3YzVfbjZVQ0E0MUtPN2JZZ08wQ05yaTFLNER1dVYzZEo5UldOVldfQ0lCbGNRWEJZbUg0R3JBaGp6Mm1DTGd2eTYzWE9GV1hvenRGWHhOZXBxMHJMY09GUQ?oc=5",
@@ -184,16 +194,6 @@
       }
     },
     {
-      "id": "e23f6db5bf67",
-      "title": "Hecken schimpft auf Klingbeil - apotheke adhoc",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOeVJZd0hfSWFWZ055eTFmT01mSWtHVG4wTWFOY2pxeTRsOG1BdV9yWlk0UGpKVmQ5RWhnd2hmREdBMEZ3SXBSSlhfbUtCTE45ZXZEX1k3UlBHNkQyNDl5Y3RMX2k2amRZaUpMbXNCa2hYaHAzaERnbGpWWm1Zc1c3cjdVT1JycmpaUjNKVDV6MXE?oc=5",
-      "published": "2026-06-24T12:26:05+00:00",
-      "source": {
-        "name": "apotheke adhoc",
-        "url": "https://www.apotheke-adhoc.de"
-      }
-    },
-    {
       "id": "9fa13ce5acf5",
       "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
@@ -204,23 +204,13 @@
       }
     },
     {
-      "id": "38b8b0aa9188",
-      "title": "Vom Wissen zum Handeln: Verbesserung der Bezahlbarkeit von Arzneimitteln in den Ländern des Westbalkans - World Health Organization (WHO)",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOZlNmcEdYcXZxdDBYazhiVjRCWHVtbms0ZG5JUWlXb0lJWXVFYjV1ak1MR05oZW5FbHFMTGpyNjJxS1ZuQWk4Nl9Wc2NHdHE3YnhrQzc1VHJNbm1QRFdMVF9WVGw2NHdVeDBHajRYX1hfZkFEMTU2Z09kcU04T1c1V3dKZ09nUUlMc3dnLVdvQ3RTYUZqSDA3d1djVXpxbU9fSFUtSGlHbHNOdFJRb29RQlpTRHEzd2pCQzd5Y3VRNmcza2dzTVVlYUp5Y1U5b01kMGpQUzZvNGctWE0tSmJRSEk5TQ?oc=5",
-      "published": "2026-03-30T07:00:00+00:00",
+      "id": "99b3bf10374e",
+      "title": "136 % Umsatzwachstum, 9 Mio. AUD Cash - small-microcap.eu",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNMzMyWDdPNjdqX3RWc2hQVUJJRmJkb2ZEZVJieWM3VDYzM3IzWTFodWlreGwxN3J4REMtaVZMWThZQnA2TlZBZ3JWZ0UzNjkzckpCSlowSVpVX0h5NmNfRjUzX1FoMUJfVWVMS0dBX1VsVk5panVjakZ3bk9tUVd2Sl9mNnA5dDFubW5zeFl4MkxyaElyM0lqUEhEN0ZUblk1OHMwMThXclh4THJQNTNua2lyU2pGWk9qWUJ1SHFXTHBkSkZrd25EUjdoczdYVGx3NFlrSUhoMUVKSW1KdTBFenR2ZUtQNWQt?oc=5",
+      "published": "2026-06-25T07:00:22+00:00",
       "source": {
-        "name": "World Health Organization (WHO)",
-        "url": "https://www.who.int"
-      }
-    },
-    {
-      "id": "51e8c4b74840",
-      "title": "Gesundheitsgefahr durch gefälschte Arzneimittel - Gesundheit.gv.at",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYlhNa1drQ3UydVU1Ti1QZWxOelZ2UDNkQTBsczZ4SzVIZGhQS3psTVQ5Zmw2Ujh2RGpDYzZ5TDdIbG5mYkFjRl9CX3JkS0FHQ2dlSGVZMlpRTmpva0xOX3hoTWhTM3VoZlB6bjJYbjRRcGp2NERXZmhoaEtyeGJhUDlSU0k0cURLRzNIc1FR?oc=5",
-      "published": "2026-03-09T07:00:00+00:00",
-      "source": {
-        "name": "Gesundheit.gv.at",
-        "url": "https://www.gesundheit.gv.at"
+        "name": "small-microcap.eu",
+        "url": "https://small-microcap.eu"
       }
     },
     {
@@ -341,16 +331,6 @@
       "source": {
         "name": "DIE ZEIT",
         "url": "https://www.zeit.de"
-      }
-    },
-    {
-      "id": "99b3bf10374e",
-      "title": "136 % Umsatzwachstum, 9 Mio. AUD Cash - small-microcap.eu",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNMzMyWDdPNjdqX3RWc2hQVUJJRmJkb2ZEZVJieWM3VDYzM3IzWTFodWlreGwxN3J4REMtaVZMWThZQnA2TlZBZ3JWZ0UzNjkzckpCSlowSVpVX0h5NmNfRjUzX1FoMUJfVWVMS0dBX1VsVk5panVjakZ3bk9tUVd2Sl9mNnA5dDFubW5zeFl4MkxyaElyM0lqUEhEN0ZUblk1OHMwMThXclh4THJQNTNua2lyU2pGWk9qWUJ1SHFXTHBkSkZrd25EUjdoczdYVGx3NFlrSUhoMUVKSW1KdTBFenR2ZUtQNWQt?oc=5",
-      "published": "2026-06-25T07:00:22+00:00",
-      "source": {
-        "name": "small-microcap.eu",
-        "url": "https://small-microcap.eu"
       }
     },
     {
@@ -1001,6 +981,26 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "8d6c279774fa",
+      "title": "Arzneimittelpreise im Fokus: Innovation statt Pauschale - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPY2NjMlpJU1NlMTBseFY5Z2h1aGMtdFo4YklYRDJEcEw1UnlLMlJ5WlQwSUdYVGg0clI0bm5NSUV5bmNoa1FzTi1oUUtBSFU4bElXODRQQ1JXZ1hQb09lMnBhNlI0TjRFWERYUUNVOFBXNHU3RzNpbGhSRE9CZFhaTnpFRC1mZTZ4YVpuTkJiVmtfd0FHUU9B?oc=5",
+      "published": "2025-05-21T07:00:00+00:00",
+      "source": {
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "0d877deab3c8",
+      "title": "Usbekistan will Bezahlbarkeit von Medikamenten auf der Ebene der primären Gesundheitsversorgung verbessern - World Health Organization (WHO)",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZHcxc3ZFWkhLcWVKS3RfWW5xSUZBUFVCQkdxb1pGZGlqai1UWjE1S2s3cG5KMEJCdjFPQ0hQZnc4X0o4bVVSTHhKZURfeWRXb01vNkkzUG5CcGQ0YlZXZjZSQXBfdHVBc0l1S0MzdHBBejJUMVJTQURsS0ZQdG9HVkczVFZXdjNKZWgzZmhGdnpVdl9oZHUzRjRYOXRWLUFWTC1ZR2tBVy04NWtrM2lpYVlKNEw1eUl4TWpqT0JGZUxpdnBRbmJIUk5peENtS1VJRG1sdzR6bw?oc=5",
+      "published": "2024-11-26T08:00:00+00:00",
+      "source": {
+        "name": "World Health Organization (WHO)",
+        "url": "https://www.who.int"
       }
     }
   ]
