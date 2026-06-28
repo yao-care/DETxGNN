@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-28T21:03:09.291933+00:00",
+  "fetched_at": "2026-06-28T23:04:00.947910+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -54,16 +54,6 @@
       }
     },
     {
-      "id": "5b37cb52bb5d",
-      "title": "Achtung, diese Medikamente wirken bei Hitze anders - WEB.DE",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSkxPeHhBZi12TThJUUFnazZSbGFBaUtxRDlMRzVSblhmai1LV1BNVmNEbGlmeklDM1hEa2RJS0JUVm9GSWZZQUJUSUwwRjVqOTMzdVVRQ0JLcGd3WW9uUmZvbDV6ZGZ2dGxMMmFuM1hGVkVoSTkwWkN1bU1Jd2dmam5xUnNIdXBvMHhHX1VlT2o?oc=5",
-      "published": "2026-06-24T02:01:02+00:00",
-      "source": {
-        "name": "WEB.DE",
-        "url": "https://web.de"
-      }
-    },
-    {
       "id": "2a4cd6eb6d1d",
       "title": "Arzneimittelengpässe in Europa – so reagiert die EU - European Parliament",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYUFLam5JQVMtSlNuNWlqSTJrRUNDN215RDlRU2hOMEE0Rkp3cHBodVhSbXRsSUhvTTRhMTVLWEE5QmM0dXJRNGlPSkwyZ2doMHhlaEpHbW5DZl8tazhQc3lPcEN4SmtLaEdGMk9IZjF5MGZvNEd3a2tXSnJXT1ItanFsV2gtRGpMYjlUbHV2OURrMkM5OXA3emh5OERlMlpXc1J1UlNVYUp1UlBUd1gzREtLUkZRZw?oc=5",
@@ -71,6 +61,16 @@
       "source": {
         "name": "European Parliament",
         "url": "https://www.europarl.europa.eu"
+      }
+    },
+    {
+      "id": "5b37cb52bb5d",
+      "title": "Achtung, diese Medikamente wirken bei Hitze anders - WEB.DE",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSkxPeHhBZi12TThJUUFnazZSbGFBaUtxRDlMRzVSblhmai1LV1BNVmNEbGlmeklDM1hEa2RJS0JUVm9GSWZZQUJUSUwwRjVqOTMzdVVRQ0JLcGd3WW9uUmZvbDV6ZGZ2dGxMMmFuM1hGVkVoSTkwWkN1bU1Jd2dmam5xUnNIdXBvMHhHX1VlT2o?oc=5",
+      "published": "2026-06-24T02:01:02+00:00",
+      "source": {
+        "name": "WEB.DE",
+        "url": "https://web.de"
       }
     },
     {
@@ -264,16 +264,6 @@
       }
     },
     {
-      "id": "dcc2c20fc748",
-      "title": "Martins Apotheke: Wo Gesundheit persönlich bleibt - Onetz",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbEJPX2dVd2tmMjIybkFuMUszTHdyRzNscF9kM0c5dW96cXltdF9MbUZMZVpHVzU0eVhSMmV6ZDhpc1hzSXJPYjF5NWRwTVVBRi1pakV6bnI4S1dPX3N5U3FsR21tRktoUW5CV1JtS3FiYUdVNWt5Q0g1TGFEWThSVTh1cU1EaHlmTURxaFJCRUxhT0Zwcy1RODdka21obDhwYy1RYy1wdXVyREFBUVE?oc=5",
-      "published": "2026-06-25T22:01:00+00:00",
-      "source": {
-        "name": "Onetz",
-        "url": "https://www.onetz.de"
-      }
-    },
-    {
       "id": "9f9b35e4948f",
       "title": "Gesundheit: So will die EU Engpässe bei Fiebersaft & Co. verhindern - WirtschaftsWoche",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNOUY3SndFdHc5MWdPYWkzRjVIbzFjcG9Kcmd6NEdmbEN4ejBkU01hd2ZvdGpjT1hYcjIwOHQzY0F4TjZBWDJ3Z0UtbkdvbExoWWhJTFZlZjZzNG00RnhoU0VPNXlxeFFhQzZpbWhBbnlhMUl2Y0JXanhFREpBSzNMNFU4OFNnNDMtWWc5dmFpUTRhRS1WV1pMSlNIOUh6NER6U0U2OUZ6YVdHV0ZBUTFHWlkxajg3QQ?oc=5",
@@ -281,6 +271,16 @@
       "source": {
         "name": "WirtschaftsWoche",
         "url": "https://www.wiwo.de"
+      }
+    },
+    {
+      "id": "dcc2c20fc748",
+      "title": "Martins Apotheke: Wo Gesundheit persönlich bleibt - Onetz",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbEJPX2dVd2tmMjIybkFuMUszTHdyRzNscF9kM0c5dW96cXltdF9MbUZMZVpHVzU0eVhSMmV6ZDhpc1hzSXJPYjF5NWRwTVVBRi1pakV6bnI4S1dPX3N5U3FsR21tRktoUW5CV1JtS3FiYUdVNWt5Q0g1TGFEWThSVTh1cU1EaHlmTURxaFJCRUxhT0Zwcy1RODdka21obDhwYy1RYy1wdXVyREFBUVE?oc=5",
+      "published": "2026-06-25T22:01:00+00:00",
+      "source": {
+        "name": "Onetz",
+        "url": "https://www.onetz.de"
       }
     },
     {
@@ -304,16 +304,6 @@
       }
     },
     {
-      "id": "f3294abf95d7",
-      "title": "Mehr bezahlen, früher sterben - Jungle.World",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQmxpNmM3TEc0MEVJeEw4bC1mYmtybzFHN05lSElZVmREZGdLODFURzl5WXJZNk5vZjVaTm52NFlUeHVWWXIta0M5dTZINGE1NGp2RkNJTVAyQ1hyUUp0M28yeDZUSzFPN19UMF96Mm4zWUtYMDVINlF4U29wRmc2T3FDTGI0Ym83RXA0bkQwbnhJS0VvQzln?oc=5",
-      "published": "2026-06-23T08:04:16+00:00",
-      "source": {
-        "name": "Jungle.World",
-        "url": "https://jungle.world"
-      }
-    },
-    {
       "id": "d9edf968b2d7",
       "title": "»Spar­po­li­tik bei Arz­nei­mit­teln ist ein Irr­weg« - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZ3BYbThQLUVqMndzcmZ2RzJRTW5vb1o4dGhibU52alc0SUtlbFkxMkhCS1puYnNnelNOcnVtSl9iejVRNU1sNGxvZ0lZZVZkaWNnRGhWVWsxT1JobThfRzFVdnh6Q25Idzl3aGZZaThYdHBRYTUzNHRpX2VNZ0dGWHBjd3VEbDdERlhjOHhubnhHLXB2OWc?oc=5",
@@ -321,6 +311,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "f3294abf95d7",
+      "title": "Mehr bezahlen, früher sterben - Jungle.World",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQmxpNmM3TEc0MEVJeEw4bC1mYmtybzFHN05lSElZVmREZGdLODFURzl5WXJZNk5vZjVaTm52NFlUeHVWWXIta0M5dTZINGE1NGp2RkNJTVAyQ1hyUUp0M28yeDZUSzFPN19UMF96Mm4zWUtYMDVINlF4U29wRmc2T3FDTGI0Ym83RXA0bkQwbnhJS0VvQzln?oc=5",
+      "published": "2026-06-23T08:04:16+00:00",
+      "source": {
+        "name": "Jungle.World",
+        "url": "https://jungle.world"
       }
     },
     {
@@ -444,16 +444,6 @@
       }
     },
     {
-      "id": "9aeb9db8c31f",
-      "title": "Apothekerin und Arzt erklären: Psychopharmaka und Hitze: So gehen Sie gut mit dem Risiko um - RP Online",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOV2RJMkFuSGk2cTh4Ykx4alhJR0wwZzUzWW0yelhYYjc3aXNXN0F5aUFDTXVTWTBlZXcyb2ZQOGdQdWRDMFlGMlZhUV9lS3lhTFd2NlR4NERKVDBFZW1fVkFpNWx1ZU5DVXk0OS1OM3gweVNLcHVwR2F0d2xjaV9DSWlaczF6UnhYWWNZZ1ZFZ195OTRvbm9udlNfNllxYlgzVThkRkNuTTZ0eGVfSTljUQ?oc=5",
-      "published": "2026-06-26T12:10:00+00:00",
-      "source": {
-        "name": "RP Online",
-        "url": "https://rp-online.de"
-      }
-    },
-    {
       "id": "5b3c21a9706f",
       "title": "Hendrik Streeck hinterfragt teure Medikamente für alte Menschen - Spiegel",
       "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPdklWd0VveEdNaGZxM3F3RmFVdXFOQi10dUZONzlqUjBCS1EyMERpajY5dm9UajBXQnNaaG1Kc2NYUl8tOHpBZFBTQjl4X2NUdXNmckMxdDllNEVmMnZkNVRvU2Y1d3R6WUswWVFLek9rWUhOb01pSjkwbFB1SVdWaTQyc25VWi1aUGxWUGpETWU1b0plSW5qQXNZNzNmbzRPUUg0dGRVOHpEQnI4SWpkZ2diak1XSWNmNFhzSXVUd1BDYktCSkxIVmt2ekpXdGJ3ZDdYRXdWa1FwNDVo?oc=5",
@@ -461,6 +451,16 @@
       "source": {
         "name": "Spiegel",
         "url": "https://www.spiegel.de"
+      }
+    },
+    {
+      "id": "9aeb9db8c31f",
+      "title": "Apothekerin und Arzt erklären: Psychopharmaka und Hitze: So gehen Sie gut mit dem Risiko um - RP Online",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOV2RJMkFuSGk2cTh4Ykx4alhJR0wwZzUzWW0yelhYYjc3aXNXN0F5aUFDTXVTWTBlZXcyb2ZQOGdQdWRDMFlGMlZhUV9lS3lhTFd2NlR4NERKVDBFZW1fVkFpNWx1ZU5DVXk0OS1OM3gweVNLcHVwR2F0d2xjaV9DSWlaczF6UnhYWWNZZ1ZFZ195OTRvbm9udlNfNllxYlgzVThkRkNuTTZ0eGVfSTljUQ?oc=5",
+      "published": "2026-06-26T12:10:00+00:00",
+      "source": {
+        "name": "RP Online",
+        "url": "https://rp-online.de"
       }
     },
     {
@@ -724,16 +724,6 @@
       }
     },
     {
-      "id": "091a002ed2d2",
-      "title": "Arzneimittelengpässe: Rechnungshof sieht Risiko für Medikamentenengpässe in der EU - DIE ZEIT",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNejgweWNVRGltRU1FaUMtRF92NTF6czFQUGltbGp3TG9DM09seC1BSlM2eHgwaXNQaGl6R0hvWm9FdzRsbEZNVW4wUV9GM3p2eGtWeUUxQzBCbFNibE5MaFM2YTh3OG5UeHFwdV9oOHgzbUdUS2FYOUJyVmtaZzlLR2VkOV9mRklPSFlXZ2llR3Z6RG5Ra19uR2dpWEM?oc=5",
-      "published": "2025-09-17T07:00:00+00:00",
-      "source": {
-        "name": "DIE ZEIT",
-        "url": "https://www.zeit.de"
-      }
-    },
-    {
       "id": "08bd0c0b5848",
       "title": "Frankreich erstattet als erstes EU-Land Abnehmmittel - Euronews",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUGZUNmNqaW5tTWV1VXhXekNIaHZ6aWNkdmpQRXhmaUNZcXdJdG1LT0xpWU9mWmQ3OU9Zc2NMR2xfcXBNcnh6bWdhZHYyQ1FfaC1QNVBzOEdkS1o3RnVDZHh6X25nVHRnYmljNmRfTTRJa0VNODJjZjJSMzRMTDhVblo5bUtlR1BDamQxMnQ3VjRlY1p0UDY1WVduUHd6VnJPTlpYeGI1MWJKN2ZwV2Nqd0Q1cDRLZ1VlYmc?oc=5",
@@ -741,6 +731,16 @@
       "source": {
         "name": "Euronews",
         "url": "https://de.euronews.com"
+      }
+    },
+    {
+      "id": "091a002ed2d2",
+      "title": "Arzneimittelengpässe: Rechnungshof sieht Risiko für Medikamentenengpässe in der EU - DIE ZEIT",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNejgweWNVRGltRU1FaUMtRF92NTF6czFQUGltbGp3TG9DM09seC1BSlM2eHgwaXNQaGl6R0hvWm9FdzRsbEZNVW4wUV9GM3p2eGtWeUUxQzBCbFNibE5MaFM2YTh3OG5UeHFwdV9oOHgzbUdUS2FYOUJyVmtaZzlLR2VkOV9mRklPSFlXZ2llR3Z6RG5Ra19uR2dpWEM?oc=5",
+      "published": "2025-09-17T07:00:00+00:00",
+      "source": {
+        "name": "DIE ZEIT",
+        "url": "https://www.zeit.de"
       }
     },
     {
