@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-28T15:18:55.922028+00:00",
+  "fetched_at": "2026-06-28T17:14:16.671982+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -64,16 +64,6 @@
       }
     },
     {
-      "id": "94ad753ac7cb",
-      "title": "Prostatakrebs: Neuartige Therapie aktiviert körpereigene Killer-T-Zellen – Forscher beeindruckt - WELT",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPMnBYTWZDVW1KRk95cjlvVUhJRTA1SHVnNjBHUHlWUFc4UU1EMWcxYUdMOVlVeWxXVC1Rd09HbmNrNXBNbHBYTm9JLThSS1BjRTRmV1JkOFI4bVliZTZJNTdiVk9Fbl8wU3FrRjBRTWFQQk9QWVc5a3RlNEVmbU9PMUpyVU85TndKc1hvQ24xNFBrbVRRWDFMdWh3TDI4NHJBX3EwTFRPcXJFQlIySHVuUERNeUNKV2dzTndSSXhId3hPRkNMNFJ0OXc4MHM0emFfa2M0Rktka1pXbDNFMU1Db1BocWtrbTdDRXptcXhqdEo0VVU?oc=5",
-      "published": "2026-06-25T07:00:00+00:00",
-      "source": {
-        "name": "WELT",
-        "url": "https://www.welt.de"
-      }
-    },
-    {
       "id": "2a4cd6eb6d1d",
       "title": "Arzneimittelengpässe in Europa – so reagiert die EU - European Parliament",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYUFLam5JQVMtSlNuNWlqSTJrRUNDN215RDlRU2hOMEE0Rkp3cHBodVhSbXRsSUhvTTRhMTVLWEE5QmM0dXJRNGlPSkwyZ2doMHhlaEpHbW5DZl8tazhQc3lPcEN4SmtLaEdGMk9IZjF5MGZvNEd3a2tXSnJXT1ItanFsV2gtRGpMYjlUbHV2OURrMkM5OXA3emh5OERlMlpXc1J1UlNVYUp1UlBUd1gzREtLUkZRZw?oc=5",
@@ -81,6 +71,16 @@
       "source": {
         "name": "European Parliament",
         "url": "https://www.europarl.europa.eu"
+      }
+    },
+    {
+      "id": "94ad753ac7cb",
+      "title": "Prostatakrebs: Neuartige Therapie aktiviert körpereigene Killer-T-Zellen – Forscher beeindruckt - WELT",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPMnBYTWZDVW1KRk95cjlvVUhJRTA1SHVnNjBHUHlWUFc4UU1EMWcxYUdMOVlVeWxXVC1Rd09HbmNrNXBNbHBYTm9JLThSS1BjRTRmV1JkOFI4bVliZTZJNTdiVk9Fbl8wU3FrRjBRTWFQQk9QWVc5a3RlNEVmbU9PMUpyVU85TndKc1hvQ24xNFBrbVRRWDFMdWh3TDI4NHJBX3EwTFRPcXJFQlIySHVuUERNeUNKV2dzTndSSXhId3hPRkNMNFJ0OXc4MHM0emFfa2M0Rktka1pXbDNFMU1Db1BocWtrbTdDRXptcXhqdEo0VVU?oc=5",
+      "published": "2026-06-25T07:00:00+00:00",
+      "source": {
+        "name": "WELT",
+        "url": "https://www.welt.de"
       }
     },
     {
@@ -111,16 +111,6 @@
       "source": {
         "name": "World Health Organization (WHO)",
         "url": "https://www.who.int"
-      }
-    },
-    {
-      "id": "ae01424b6ad2",
-      "title": "Kritische Arzneimittel wieder stärker in Europa produzieren - baden-wuerttemberg.de",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSjMzcWVqRjE1TVZWbUdQLWFEMnBYcGN3WEFDaWQzVGN5YUNRWTk1dXdzYm53bGRCOEVMbnpPZWZEQ3dQdzFzNXJ0OVJac1owMFJERW1hc2Mzbk5yNkluNGhWazY5STVzdWR3Yjd5dlR3WEkySEdEOWotSndjWDZhQ09qUHVJbzZOa2hCeDA5blZ5cENQV08tWWVZSHVzNURfa1ZwNWxJNFNaYTVnRUVmRnhPMDF3WmlkcldXMFJmdlVjWEZzeGRTSUQzN2hpWjdl?oc=5",
-      "published": "2026-01-20T08:00:00+00:00",
-      "source": {
-        "name": "baden-wuerttemberg.de",
-        "url": "https://www.baden-wuerttemberg.de"
       }
     },
     {
@@ -174,6 +164,16 @@
       }
     },
     {
+      "id": "95d55d1267a1",
+      "title": "Mit Abnehmspritze Kilos loswerden - was ist dran an Ozempic & Co.? - NDR.de",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaGFzLTFfUHozOUJiWWtWdlRPUm5mZ0VkMGMxLVVGcmxmMzlONHZRV21qZmFHYUo3d2gzV3VDVm9OUHp6Qk4wQjlZTHU3V3RnckthWTZSbVpVMGE1VWxiMFMtVVJCSWdWb3hibzlscllodzVwWmpDMS1ZOXNxYkFfQVJzdlRzeGRQOWdtcW55UVRNSE16QmhJZXhVYmRmYl9iUmJBN1g2cG8?oc=5",
+      "published": "2026-03-11T07:00:00+00:00",
+      "source": {
+        "name": "NDR.de",
+        "url": "https://www.ndr.de"
+      }
+    },
+    {
       "id": "ddd77156d7c0",
       "title": "Fünf Pillen oder mehr: Viele Senioren scheitern bei der richtigen Anwendung - T-Online",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOemRlVWV6XzBQZ0lMN0k5dGlsTk5NUy1BTWh6TWZlWnI1SXB0Y2xTZGlfYjRFSUhVMnVSR3k0ZFo1SGZQendpNTVmdnM0RWt3eUlBcjFkNE1lNjlNSVpFci1EeFpBQnFET3pRQ3YxbGZNZmdsMUVoMXFLZW94a3JEWU9HNlFqdmRHa1lsb1pfZnRMMjdmbG1RQ2xYTWx0RWdENEtXYjBQbkpTTEtBaUNNWWdwUTNRV1Z6aExyTkxYd3BQQ2EyRnZiUlZ2dktDUQ?oc=5",
@@ -204,22 +204,12 @@
       }
     },
     {
-      "id": "95d55d1267a1",
-      "title": "Mit Abnehmspritze Kilos loswerden - was ist dran an Ozempic & Co.? - NDR.de",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaGFzLTFfUHozOUJiWWtWdlRPUm5mZ0VkMGMxLVVGcmxmMzlONHZRV21qZmFHYUo3d2gzV3VDVm9OUHp6Qk4wQjlZTHU3V3RnckthWTZSbVpVMGE1VWxiMFMtVVJCSWdWb3hibzlscllodzVwWmpDMS1ZOXNxYkFfQVJzdlRzeGRQOWdtcW55UVRNSE16QmhJZXhVYmRmYl9iUmJBN1g2cG8?oc=5",
-      "published": "2026-03-11T07:00:00+00:00",
-      "source": {
-        "name": "NDR.de",
-        "url": "https://www.ndr.de"
-      }
-    },
-    {
-      "id": "02e9917bea66",
-      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - DW.com",
+      "id": "8db31424e5bb",
+      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - dw.com",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGxHSlhmSS0tbUNKdG15NEVzRzYzYllEUnAzUEU3ak53czRHVWlKdTZrRGFDMk1MUThPUjdPTnBGVENqd3d2Q1VSdWhJVXppWDF4NWh0aEJJaXJlVTlnV0VoZVFkRHNSM3p6NVZXNjNwWHk5YkxSUWR2RGZKcmp3Y2U5REY0U3dRZFJLeHFtQk9wb2Y3RUVOaVBlMlJhZ29Rck000gGjAUFVX3lxTE1rTW00WXFBajZxbTJOS1NLckhVbXFBSzh1NE96QTEydTN1YjZnaFFNcV8xblZGM29hdTZQUHc4V3YzQ1pwcTlaVVBhZDVqMExLMTlYVzZ6TmM4ZUdsUm5TLXpPNmk1R3V4UktvaV93cWttNFpVX0VEZlZnUllSQkhyUlZmeTBJcU0zUEVSZTgxdzFWUnFNRk9CYVljN0Jhd0ZXUFk?oc=5",
       "published": "2026-05-12T07:00:00+00:00",
       "source": {
-        "name": "DW.com",
+        "name": "dw.com",
         "url": "https://www.dw.com"
       }
     },
@@ -241,16 +231,6 @@
       "source": {
         "name": "Taylor Wessing",
         "url": "https://www.taylorwessing.com"
-      }
-    },
-    {
-      "id": "7a99adaec5c0",
-      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - Geo.de",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
-      "published": "2026-06-19T07:00:00+00:00",
-      "source": {
-        "name": "Geo.de",
-        "url": "https://www.geo.de"
       }
     },
     {
@@ -344,6 +324,16 @@
       }
     },
     {
+      "id": "172d986897fc",
+      "title": "Arzneimittel: Nutzen für Gesundheit, Lebensqualität und Wirtschaft - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPc1pKSzRyQWdIYmtZQlZKZE5ZYkRDWjFJRzUySHJWYkJGQU9nSExYb21pSnJBd29vZllZcWNFMU9fcTkyMFZWN3NTbVkxcXpRbFhXZFdCT3BPd2N4ZlVVNHctcVNVaWNiUmFlSDZ4TnIxX2VOYk03Zk5JZ0RSSWxiY21mRGVETjVH?oc=5",
+      "published": "2025-09-26T07:00:00+00:00",
+      "source": {
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
+      }
+    },
+    {
       "id": "589684016df5",
       "title": "BStabG: Eingriffe bei Arzneimittelpreisen gefährden Versorgung - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeUNoTTU4eDVHeGxhbnMxaEROTFJyVEt6bXZSVHQ4TndNMXNfRDJ6aWF4cU9PQTlJc09uZEVUV2NMal82emdObUhlTkU5X3dNWHlFWDFiWWc0WVJyUDJYUFNndVhsUFI1WW8yelkxTnpGdk50TmFPTnFWNmxJcE1tZ1IxRnpqVU5EeWdqb0pwMmg2M0FFQi1UZDh6aGdHaXhCeHhjbWNEeXMzS19S?oc=5",
@@ -354,13 +344,13 @@
       }
     },
     {
-      "id": "e23f6db5bf67",
-      "title": "Hecken schimpft auf Klingbeil - apotheke adhoc",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOeVJZd0hfSWFWZ055eTFmT01mSWtHVG4wTWFOY2pxeTRsOG1BdV9yWlk0UGpKVmQ5RWhnd2hmREdBMEZ3SXBSSlhfbUtCTE45ZXZEX1k3UlBHNkQyNDl5Y3RMX2k2amRZaUpMbXNCa2hYaHAzaERnbGpWWm1Zc1c3cjdVT1JycmpaUjNKVDV6MXE?oc=5",
-      "published": "2026-06-24T12:26:05+00:00",
+      "id": "7a99adaec5c0",
+      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - Geo.de",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
+      "published": "2026-06-19T07:00:00+00:00",
       "source": {
-        "name": "apotheke adhoc",
-        "url": "https://www.apotheke-adhoc.de"
+        "name": "Geo.de",
+        "url": "https://www.geo.de"
       }
     },
     {
@@ -454,16 +444,6 @@
       }
     },
     {
-      "id": "0193dcc0a806",
-      "title": "Medikamenten-Chaos: 43% der Senioren nehmen fünf Pillen täglich - Ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRkhQZUFIRGs4cnFlUGZCZDJVaF9OT2hzRWdVNUR3ZHZObjRiaE9LaW55aFNNVEZBX1dEXzM4NXJ1ZDJzRHpWTDg0YlYybXBDNm1uWERfeWFCMTUtalJiYWFkQThSWXhkN1FhN20zUnpKUmV5MWxCRllwYnpvYjFsODhOTm5OZzVOa2JFcUNPajRldGNCNFJUOHozZFo3cWJDMDRVSWctZ0RSQmwwVjFuUXMwNWZ0aGcwc0VkMw?oc=5",
-      "published": "2026-06-28T13:25:21+00:00",
-      "source": {
-        "name": "Ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "9aeb9db8c31f",
       "title": "Apothekerin und Arzt erklären: Psychopharmaka und Hitze: So gehen Sie gut mit dem Risiko um - RP Online",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOV2RJMkFuSGk2cTh4Ykx4alhJR0wwZzUzWW0yelhYYjc3aXNXN0F5aUFDTXVTWTBlZXcyb2ZQOGdQdWRDMFlGMlZhUV9lS3lhTFd2NlR4NERKVDBFZW1fVkFpNWx1ZU5DVXk0OS1OM3gweVNLcHVwR2F0d2xjaV9DSWlaczF6UnhYWWNZZ1ZFZ195OTRvbm9udlNfNllxYlgzVThkRkNuTTZ0eGVfSTljUQ?oc=5",
@@ -531,6 +511,16 @@
       "source": {
         "name": "SWR",
         "url": "https://www.swr.de"
+      }
+    },
+    {
+      "id": "0193dcc0a806",
+      "title": "Medikamenten-Chaos: 43% der Senioren nehmen fünf Pillen täglich - Ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRkhQZUFIRGs4cnFlUGZCZDJVaF9OT2hzRWdVNUR3ZHZObjRiaE9LaW55aFNNVEZBX1dEXzM4NXJ1ZDJzRHpWTDg0YlYybXBDNm1uWERfeWFCMTUtalJiYWFkQThSWXhkN1FhN20zUnpKUmV5MWxCRllwYnpvYjFsODhOTm5OZzVOa2JFcUNPajRldGNCNFJUOHozZFo3cWJDMDRVSWctZ0RSQmwwVjFuUXMwNWZ0aGcwc0VkMw?oc=5",
+      "published": "2026-06-28T13:25:21+00:00",
+      "source": {
+        "name": "Ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -661,26 +651,6 @@
       "source": {
         "name": "Euractiv",
         "url": "https://euractiv.com"
-      }
-    },
-    {
-      "id": "99b3bf10374e",
-      "title": "136 % Umsatzwachstum, 9 Mio. AUD Cash - small-microcap.eu",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNMzMyWDdPNjdqX3RWc2hQVUJJRmJkb2ZEZVJieWM3VDYzM3IzWTFodWlreGwxN3J4REMtaVZMWThZQnA2TlZBZ3JWZ0UzNjkzckpCSlowSVpVX0h5NmNfRjUzX1FoMUJfVWVMS0dBX1VsVk5panVjakZ3bk9tUVd2Sl9mNnA5dDFubW5zeFl4MkxyaElyM0lqUEhEN0ZUblk1OHMwMThXclh4THJQNTNua2lyU2pGWk9qWUJ1SHFXTHBkSkZrd25EUjdoczdYVGx3NFlrSUhoMUVKSW1KdTBFenR2ZUtQNWQt?oc=5",
-      "published": "2026-06-25T07:00:22+00:00",
-      "source": {
-        "name": "small-microcap.eu",
-        "url": "https://small-microcap.eu"
-      }
-    },
-    {
-      "id": "19f233cadfd8",
-      "title": "Tag der Apotheker: Bevölkerung für mehr Gesundheitsleistungen in der Apotheke - OTS.at",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQTzFVenNKYnRfdHhVV3ZxY3FmY19FNUFoU0FIOFhwaDBVWVF6RGxYTkZkQ1Z4ZHRNblUydERsVlAyWG1DVUNMZ2o0NFNITGFiVjRxRlhjSjRKbGVqMVN2S1VoZnRUWGVrUVlIRUVBVHJodk1NMUpULXB4X3dKQUhxdjdDTENmNWJGTTNRSzcxTjNjMXNDYkdFQVhnc0djMHh4TmxsVHBaUW1YRzdac2FuWlhFV2lmQmlGc2V6Q1dzR2ZLTmV4RWtRMlpoWjFFR2I5?oc=5",
-      "published": "2026-06-26T07:00:35+00:00",
-      "source": {
-        "name": "OTS.at",
-        "url": "https://www.ots.at"
       }
     },
     {
@@ -864,12 +834,12 @@
       }
     },
     {
-      "id": "692ed6663b43",
-      "title": "Deutsche Apotheker warnen vor Medikamentenmangel - DW.com",
+      "id": "e0194a7c0b5d",
+      "title": "Deutsche Apotheker warnen vor Medikamentenmangel - dw.com",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWU1xaGhwXzk2bTZMYV9pdEdESnBqWVZvSnAwXzllTkVsdXYyZTlYSzdEYjktY2FySDA2THNEWUlQend3WWp5cG9uZFo1aTJMcFFINW1ZWEg3NlVDQ2UzdkRmZldhV1JRemg4U3poczloOF9QOEhha1prQnlGZ0U5T0laMXN2ZVBY0gGIAUFVX3lxTE01Wk9oR0RESDZiM1BvOU5qZmtUYk1aNUFxWlpzU3EteXRvRDQ1anBlcG52RXJ5QWdEWjB2SHJCblZSaktVZktvRTBkYUxtYzNfQVE4YXRHajc1Nk9UQllNTkt0Vi1wVjdQTTAzSElvTDRMWXZ5TEpkLUZxRTI2QUZkMVdyRGM4YUg?oc=5",
       "published": "2025-09-14T07:00:00+00:00",
       "source": {
-        "name": "DW.com",
+        "name": "dw.com",
         "url": "https://www.dw.com"
       }
     },
@@ -994,13 +964,43 @@
       }
     },
     {
-      "id": "0dba016a69d0",
-      "title": "Gefälschte Medikamente: Ein weltweites Problem - DW.com",
+      "id": "6ab4ca82bbba",
+      "title": "Gefälschte Medikamente: Ein weltweites Problem - dw.com",
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNSzZjM0cwcm1ldnUzc0xrOER4cEk0a05ucnhNX1llWk1YeU9zVnlTeTVFM1lWWmhBR1RrZEJCODVQdlIwNWw3Zmg2N004NVpqa29HT2FBZ1BfUWN5T2hGQlkxc2ZvQWdWVThrdk9sUk80UWc5MXlzaGQ1NXZTYUxtUUNoWmVzR2F5YjRDejhGbU5ZeDBHOGstVGNXLUVEVm9LejJ1RmpUd0Q3T25xb3pxM3hzQVYwaDljcWNycHBPNjZyS3daSVJOU3U1ZU5tWWFMbnfSAdIBQVVfeXFMUDFiX1VoOC1ZdmxVR3o2Q3VRMTNhUUNEaVRHdFZneDJrblJSckE1Zk9icjFaWXZTMGlJMFhHTC13bjIwMjhwWS1mZTRrdU1WcXFyS1ZEQndLRXFtRUZELUJQeFlMRHZ0aUFYbFNjd3NYOUFUZmxHZ0hZMEFNc2xXTVlPN1NVc3RYY3dxd2F6V20xMGdMa215eG9majhKX25kbjRaSXdOR1NoT1JFQnBXM1VmaGdjMWt0Z2IxNDBvOTRiSUlBM250LWJtTTBOZjdJeGtB?oc=5",
       "published": "2025-08-04T07:00:00+00:00",
       "source": {
-        "name": "DW.com",
+        "name": "dw.com",
         "url": "https://www.dw.com"
+      }
+    },
+    {
+      "id": "482dc54fbdc8",
+      "title": "Cannabis-Arznei hilft bei chronischen Rückenschmerzen - SWR",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSVM0VE8ydF9XWk15YVZXYjN4RklOc1hEUEdLV2k0LXRPdDJzckN3T0N1S21vN0RrNWZpeVhpb21ZYzJhQjlvVGgxNVZ0Y1lpeUk1bHdQUzlXaTJIVW5SVHhyWjJBRk9MaXhyS1JFODh0ZHY5Rlg0U2ljdVFPOVBjR01Bd2RGUGZrUmtGWUhEamFvVU0yamJBZ0ZzUkJxSFpFYUZfcHFmX1lLWDk0LWRkbXNvU2t5bGI5MS10a19CTVFKWVJxMF9QbQ?oc=5",
+      "published": "2025-09-30T07:00:00+00:00",
+      "source": {
+        "name": "SWR",
+        "url": "https://www.swr.de"
+      }
+    },
+    {
+      "id": "5dee3dcf6cfb",
+      "title": "Schmerzmittel mit sehr häufigen Nebenwirkungen: Diclofenac kann Erbrechen und Durchfall auslösen - NDR.de",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONW5WWkRJVVJXbkd3U1AtaVNma2ZPS05YTkhVU1lwNi1FYTRPYzBVUUY4THdqalNvajBKV3dMWFlUQ3l3elE5UVVQMnRMTGN2RHNfUEM1SlZjaUl5SU1KaDYzcEw5MGxnSENDa00ybzdWeWs5OFo0dFRjcUtCSllzTmZuRnctcFZ6SXdhdGUzTmVhNElpUW1wZE1pajlZd1EzaVZvWEdkMFJ0SjJJ?oc=5",
+      "published": "2025-09-23T07:00:00+00:00",
+      "source": {
+        "name": "NDR.de",
+        "url": "https://www.ndr.de"
+      }
+    },
+    {
+      "id": "ac4b8d3188aa",
+      "title": "Wenn der Medikamenten-Vorrat aufgebraucht ist: Darf mein Arzt mir ein Rezept verweigern? - Tagesspiegel",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNYUtBQ1E5OHkxVlVlblhtWTJENkI1aE9QbjRyeXphQVlDaEJJblVndzVmWVlFeko3VXpLYWRTeDJaVlVKRm9lWER6MGNWcUk4WmU1LU9ZQXg5Nmpndk1ZLV9Tc0tDQkdoMGI2OVlwRWN2bGZncGVMQjMyUGpvSlNkN0l0T0NDUy04YU5Ba3JtZ1NVTWtSREhGWkJpTzVLcm5iaWxIYmVLeElVVmlyR0dXdnNHNDB1NENBYlVZVjc3NWR5RTJCTVp5b0hSZHlOTlRqUXpCNkpn?oc=5",
+      "published": "2025-12-01T08:00:00+00:00",
+      "source": {
+        "name": "Tagesspiegel",
+        "url": "https://www.tagesspiegel.de"
       }
     }
   ]
