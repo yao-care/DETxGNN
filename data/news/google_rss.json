@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-29T22:59:44.390316+00:00",
+  "fetched_at": "2026-06-30T00:15:00.448404+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -64,16 +64,6 @@
       }
     },
     {
-      "id": "94ad753ac7cb",
-      "title": "Prostatakrebs: Neuartige Therapie aktiviert körpereigene Killer-T-Zellen – Forscher beeindruckt - WELT",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPMnBYTWZDVW1KRk95cjlvVUhJRTA1SHVnNjBHUHlWUFc4UU1EMWcxYUdMOVlVeWxXVC1Rd09HbmNrNXBNbHBYTm9JLThSS1BjRTRmV1JkOFI4bVliZTZJNTdiVk9Fbl8wU3FrRjBRTWFQQk9QWVc5a3RlNEVmbU9PMUpyVU85TndKc1hvQ24xNFBrbVRRWDFMdWh3TDI4NHJBX3EwTFRPcXJFQlIySHVuUERNeUNKV2dzTndSSXhId3hPRkNMNFJ0OXc4MHM0emFfa2M0Rktka1pXbDNFMU1Db1BocWtrbTdDRXptcXhqdEo0VVU?oc=5",
-      "published": "2026-06-25T07:00:00+00:00",
-      "source": {
-        "name": "WELT",
-        "url": "https://www.welt.de"
-      }
-    },
-    {
       "id": "0bc7c014a500",
       "title": "Umfrage: Jeder Zweite hat gewünschte Arzneimittel nicht erhalten - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTy1pV2pHcVhZLXNFb05nT00xaVNrWkpUa0diY1ZtVkIzVDJ0T3dJdGMwWWRvMmtaUXZ5RDU3S1JaMzJGTldiVGY5ekNTTVBucXpsd1otZUV3a0QtdUxvc2gyZkY5cEsxVzE1cHBrUjZIQURsRkdlbVRCZ1MzTU5qSTZZZ3BTaGlUS2ZkVjBjZmFQclBGbGYzbDV1RGhaY2ZkM0Fhd2dn?oc=5",
@@ -124,6 +114,16 @@
       }
     },
     {
+      "id": "61312f4f8713",
+      "title": "Hitzewelle: Welche Medikamente bei Rekordtemperaturen zum Risiko werden können - Tages-Anzeiger",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNktkQlhKcmVuNVV1Z01YcFVQMmVjX1lVRHVWc2NEUzNCSFFoc092SkpHZUUzSG9DMVREMHh1Vm51OG9aZ3ZMa2RPci00RHdHZ3Itb0NCdHF1OFhjS2lFeUpVUlN6VjBraUwtUGVCYUdsaVNIYzFWYWl2aXJtbW9USzJ3bU91Rk9VU1M5b3FKSHNZci1wZVpod2pPdVZIYUk?oc=5",
+      "published": "2026-06-29T12:39:23+00:00",
+      "source": {
+        "name": "Tages-Anzeiger",
+        "url": "https://www.tagesanzeiger.ch"
+      }
+    },
+    {
       "id": "736900562b55",
       "title": "Die Abnehmspritzen, die alles verändern könnten - RND.de",
       "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQVGlHcG00QVd6alJhUDVNclNXM0txR3N2eUl2ODJZVEcxUHhYY3gwbHQtWU9ab0l4cE1JWmU2eEp2czhrdVlDS0UwS2IzalFQeXo3aWpGZndzMVFRT2YyazU1djlBcWE5M3ZOc2pBR2hCMk9oQUVlR0VNVVpQbEtUeWZHbUFvVUFrMVkxM3VyN0ZtMGdvMDYxa2U2cGJnbFRpN25hQ0lRQ0RXcTNTTEJLNVpjaTlmMEhaekI3NUFDc2NNeGI0V25YZXZYekFJN3pvc2xmSTR2aXBIaVNLRExB?oc=5",
@@ -141,16 +141,6 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
-      }
-    },
-    {
-      "id": "61312f4f8713",
-      "title": "Hitzewelle: Welche Medikamente bei Rekordtemperaturen zum Risiko werden können - Tages-Anzeiger",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNktkQlhKcmVuNVV1Z01YcFVQMmVjX1lVRHVWc2NEUzNCSFFoc092SkpHZUUzSG9DMVREMHh1Vm51OG9aZ3ZMa2RPci00RHdHZ3Itb0NCdHF1OFhjS2lFeUpVUlN6VjBraUwtUGVCYUdsaVNIYzFWYWl2aXJtbW9USzJ3bU91Rk9VU1M5b3FKSHNZci1wZVpod2pPdVZIYUk?oc=5",
-      "published": "2026-06-29T12:39:23+00:00",
-      "source": {
-        "name": "Tages-Anzeiger",
-        "url": "https://www.tagesanzeiger.ch"
       }
     },
     {
@@ -341,16 +331,6 @@
       "source": {
         "name": "NDR.de",
         "url": "https://www.ndr.de"
-      }
-    },
-    {
-      "id": "47030ae7af07",
-      "title": "Fast eine Million Flaschen mit Herz-Kreislauf- und Nierenmedikamenten wurden wegen des Fundes von Fremdkörpern zurückgerufen. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRnY4OTdLWTlMOGo0WGt1ampZR1ZZM1R1OFRuMmZxYTZBbW1ONzd4RHlYWmpCMkVBb2Z1Z2JkMFZMOTV2V200MXRWSDFsYVFZd1F4TDNZZlFJM0JUMlpmUE5FcElVTGpZcG5uenZBZ0dOaG9DNnVCa0lHdGpuMWJZbWFxUk5TbGlhWXBkNGUxQXlaMHc3RTNOdEx0Sy1WYlR2c2c?oc=5",
-      "published": "2026-06-29T05:36:36+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -584,16 +564,6 @@
       }
     },
     {
-      "id": "85a03dbbfe05",
-      "title": "Wahlkampf Baden-Württemberg: Rülke: »Gute Gesundheit geht nur mit öffentlichen Apotheken« - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbDY3aENWRUZGTC15UlN4YlFuU0JEdUkxREFqNzQtN282NElEbHZWRlRveVpDTzFUTml2c1ZYNTFUWnliQl81SC1VdVctWUk2UGJ6UWI4cW82Z1IydG5iN2FUR21ST3gweUJNOW94VGxkemJuRC1tY2NvZERfVndyekRMbFc0TjVIdGJYUGVGVzJnOFRRNS1RamtZb1F5b2VseUNPRUowYmVKUQ?oc=5",
-      "published": "2026-02-03T08:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "8f7a16a55972",
       "title": "Arzneimittelpreise: Medikamente in Deutschland günstiger als USA trotz Trump-Deals - SZ.de",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdnBJZGx2V2VkNEJfQy1NTDk2NFJXOE5MY3k2VE1yNmxuZzNiWWNlalNjN0MzTjJzSUwxTDRPRTlJai1XeXVUODNhaGlrRXJhaVpJdVQ0eV9mNHc1QWZkaXhtUTVfdjZNWEU2eWptcVk1WkNUZHJNRUpNQzM2TXduRFpPS0tTbjhtajdRWmtMbTM2N1owQ1I1Y2g1MmJiUzNpdnc?oc=5",
@@ -601,6 +571,16 @@
       "source": {
         "name": "SZ.de",
         "url": "https://www.sueddeutsche.de"
+      }
+    },
+    {
+      "id": "85a03dbbfe05",
+      "title": "Wahlkampf Baden-Württemberg: Rülke: »Gute Gesundheit geht nur mit öffentlichen Apotheken« - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbDY3aENWRUZGTC15UlN4YlFuU0JEdUkxREFqNzQtN282NElEbHZWRlRveVpDTzFUTml2c1ZYNTFUWnliQl81SC1VdVctWUk2UGJ6UWI4cW82Z1IydG5iN2FUR21ST3gweUJNOW94VGxkemJuRC1tY2NvZERfVndyekRMbFc0TjVIdGJYUGVGVzJnOFRRNS1RamtZb1F5b2VseUNPRUowYmVKUQ?oc=5",
+      "published": "2026-02-03T08:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -754,16 +734,6 @@
       }
     },
     {
-      "id": "73821728fb6f",
-      "title": "Rezeptfreie Medikamente aus der Drogerie könnten das Apothekensterben verschärfen - SWR",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUlBVMkRsMVdkYXV3YXFVd3k4Z1pMSGdoVTNOTXo0UV8wR1RBbmVCZVltV3ZBdGZndnM3V1NVMlVZOFhmUEJwNXlPbDRfcU5jV2FZcUNDd2txVnFwdjNNb3JWWkRncExiSDI0WnEtdUdEbEtGcVdqOGFJRzc0T3ZkY0N4aHE4V21aZmROazk4eG9mUUJXY2RqVXZCYTZLcU5NSnVDaHBYMXhzUQ?oc=5",
-      "published": "2025-11-02T07:00:00+00:00",
-      "source": {
-        "name": "SWR",
-        "url": "https://www.swr.de"
-      }
-    },
-    {
       "id": "bcef033d2bcc",
       "title": "Gesundheitsvorsorge - Arzneimittel-Überwachung - schleswig-holstein.de",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOeE80cXNlV3RkMlM5WUhkbVM5amVOZy0zdm9LMlN6dS1IRlVjMDJzcW9GWF9SMmdUUVd5dDJ0THpRejN5emROc180bmNuQjlGVWUwdE9mSFdHMUJyLVRfcTJoSHBRWDlFZ2tvSFlCNGtMTnpIV2dLQk5uMzY4YWY1U0N6cVdmdmdaVEoyTnlXc2x3bFNJT3NfckhVa1ZfZExJLVZRaXZEaW1abVVVQWVXTWg4MTg4WEU2bDFBaw?oc=5",
@@ -781,6 +751,16 @@
       "source": {
         "name": "Springer Nature Link",
         "url": "https://link.springer.com"
+      }
+    },
+    {
+      "id": "73821728fb6f",
+      "title": "Rezeptfreie Medikamente aus der Drogerie könnten das Apothekensterben verschärfen - SWR",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUlBVMkRsMVdkYXV3YXFVd3k4Z1pMSGdoVTNOTXo0UV8wR1RBbmVCZVltV3ZBdGZndnM3V1NVMlVZOFhmUEJwNXlPbDRfcU5jV2FZcUNDd2txVnFwdjNNb3JWWkRncExiSDI0WnEtdUdEbEtGcVdqOGFJRzc0T3ZkY0N4aHE4V21aZmROazk4eG9mUUJXY2RqVXZCYTZLcU5NSnVDaHBYMXhzUQ?oc=5",
+      "published": "2025-11-02T07:00:00+00:00",
+      "source": {
+        "name": "SWR",
+        "url": "https://www.swr.de"
       }
     },
     {
@@ -1001,6 +981,26 @@
       "source": {
         "name": "DIE ZEIT",
         "url": "https://www.zeit.de"
+      }
+    },
+    {
+      "id": "c186b4db6c10",
+      "title": "Teure Medikamente für 100-Jährige? Streecks Aussagen zu sehr alten Menschen stoßen auf Zuspruch und scharfe Kritik - Tagesspiegel",
+      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQclVaUzUxWl9ZNUVvOVZHTXhQdEtRQ205NGJtNU9TQTZTQWUxMVJPNzFsMHFZbXVIa2NfQ1JRSjJicV9YSGQ1dFVXcWFJa2ZZR1o5ZmNwcjA3TmxjRFRhb3ptX25MZzEwdWszclJpNThyUHc5VDFSX2NiTk8tc0tBOUJWcFV5RHhvMGYwa1FlbldHYVVpbHl3cUZ1N0ZseU1rSjFlb2N6WjJoeFQ4QXNhLU9oeTBYTkpDMzZ3NmFyQko1M2dKRzJtbWlfMVJyN2VaemdDMTQ1a19UcTlFOGI3NHRXeXo5STZ2Mi1vREpIWDg3VGlYbXl3?oc=5",
+      "published": "2025-11-13T08:00:00+00:00",
+      "source": {
+        "name": "Tagesspiegel",
+        "url": "https://www.tagesspiegel.de"
+      }
+    },
+    {
+      "id": "0878866789da",
+      "title": "Neue Arzneimittel bezahlbar halten - Verband der Ersatzkassen (vdek)",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObzE3cHpIZEo2Q0VEc0xrTzlCRHFTbW1GZ1dpbXhiSk55cmZpVFZaN3dtSkhvc2dqYkx0ekRicVhHTHhWTzFsSFVKZlVJZG1EUXBxZGZCU0kycm5yaVczSThMRHA3YkRHN3dPYXl3UTNEU1RWamFXdDBrZ2tTWWhqNjBjQk43VGNhdEFhMXF6Nmx6WHdkXzhwY25kTzVCMmp5?oc=5",
+      "published": "2025-06-17T07:00:00+00:00",
+      "source": {
+        "name": "Verband der Ersatzkassen (vdek)",
+        "url": "https://www.vdek.com"
       }
     }
   ]
