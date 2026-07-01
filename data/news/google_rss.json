@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-01T17:58:00.796875+00:00",
+  "fetched_at": "2026-07-01T20:05:34.635243+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -84,6 +84,16 @@
       }
     },
     {
+      "id": "b3c4e3eb9137",
+      "title": "So legen Sie aponet.de als bevorzugte Nachrichtenquelle bei Google fest - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbHNDWnh1WjFuWkRjdVBlLXFXdWd3RHpZNHhqOFpqdDVtdmd6ODhjbllRaEhDRWJPZjRfWWQxbF9kb0VkZTA0aC1RYWladHdIMlNsSU1zRjd1MzhiVTFZTHRILUZlQmpqdGZhV2FvNDEybWNZaFNaaVBPLVZyM1ZaS19PS1lERDNLNy1jY1FUOTJJNUFwQjdpaGg5ZGtrVnhESnRDYllveFBKZw?oc=5",
+      "published": "2026-06-26T08:14:17+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
+      }
+    },
+    {
       "id": "ae01424b6ad2",
       "title": "Kritische Arzneimittel wieder stärker in Europa produzieren - baden-wuerttemberg.de",
       "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSjMzcWVqRjE1TVZWbUdQLWFEMnBYcGN3WEFDaWQzVGN5YUNRWTk1dXdzYm53bGRCOEVMbnpPZWZEQ3dQdzFzNXJ0OVJac1owMFJERW1hc2Mzbk5yNkluNGhWazY5STVzdWR3Yjd5dlR3WEkySEdEOWotSndjWDZhQ09qUHVJbzZOa2hCeDA5blZ5cENQV08tWWVZSHVzNURfa1ZwNWxJNFNaYTVnRUVmRnhPMDF3WmlkcldXMFJmdlVjWEZzeGRTSUQzN2hpWjdl?oc=5",
@@ -164,16 +174,6 @@
       }
     },
     {
-      "id": "f71a91a6c39f",
-      "title": "Engpässe bei Arzneimitteln: Geopolitik erschwert Europas Streben nach Unabhängigkeit - Euractiv",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQ2lScFVHU3ZELWZOdzJOUGU2YUQ3c2ZpbWhIYWFiVUNoRFZHTm5JM1BfUWVnanhicnRvanhQdGx4UHVuTnZ5dG4ySEY4eVE3dUxGaXVLSm5sM1liQzRtc19GVVE3RkNnUGhhTkhZTXAtMkhWZ3JqOVREWlhfRnBSX1FPRXlaaUE5d2d6cFVEakt5NDJaUkgzXzA3TUpqUUJTbzhRQXFpbmZCTGMwdlRDSXR3cHNjZw?oc=5",
-      "published": "2026-05-14T14:42:11+00:00",
-      "source": {
-        "name": "Euractiv",
-        "url": "https://euractiv.com"
-      }
-    },
-    {
       "id": "9fa13ce5acf5",
       "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
@@ -201,6 +201,16 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "f71a91a6c39f",
+      "title": "Engpässe bei Arzneimitteln: Geopolitik erschwert Europas Streben nach Unabhängigkeit - Euractiv",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQ2lScFVHU3ZELWZOdzJOUGU2YUQ3c2ZpbWhIYWFiVUNoRFZHTm5JM1BfUWVnanhicnRvanhQdGx4UHVuTnZ5dG4ySEY4eVE3dUxGaXVLSm5sM1liQzRtc19GVVE3RkNnUGhhTkhZTXAtMkhWZ3JqOVREWlhfRnBSX1FPRXlaaUE5d2d6cFVEakt5NDJaUkgzXzA3TUpqUUJTbzhRQXFpbmZCTGMwdlRDSXR3cHNjZw?oc=5",
+      "published": "2026-05-14T14:42:11+00:00",
+      "source": {
+        "name": "Euractiv",
+        "url": "https://euractiv.com"
       }
     },
     {
@@ -514,6 +524,16 @@
       }
     },
     {
+      "id": "0de051160715",
+      "title": "PFAS in Arzneimitteln sind oft ersetzbar - Ökonews",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9MaFhuOGQ5WjJRVGluLU1FVTNXNnVtb2tQM2pyZzNFZl9pcUY4NGlyS01TdVQzTmVrRmo0azN5dXBVNVAyZXJXMUVZeXkwMFNUclc3bnpORGtPQlNXWnlEd2l2c3BPaEswM3hPU1o4V1ZrRlFuVExiUnJIdERwUQ?oc=5",
+      "published": "2026-06-29T22:23:48+00:00",
+      "source": {
+        "name": "Ökonews",
+        "url": "https://oekonews.at"
+      }
+    },
+    {
       "id": "c1eec9546c3c",
       "title": "Arzneimittel als Zukunftsinvestition - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNek45Q0xRLXZlc1ZnTDBKcHk2cUFnMkllakFtcDJzXzU2bVh5WnBMYVhBWTNoMll4Y0FmVTlfeF9kYlIxQ25OUHdJX3VpSEVCNnBJaWIzZFljQmlEeVp2Q2R3cFRXWERWd3BORmh6OF9TeWNick9Ua0dZdWMtdDlLR3FGV3o?oc=5",
@@ -544,16 +564,6 @@
       }
     },
     {
-      "id": "4910d001ce31",
-      "title": "Praxen, Kliniken, Arzneimittel: Ärzte warnen vor „Rasenmäher“ im Gesundheitssystem - Volksstimme",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWnlFWFoteFprT1pkTlNXdUlyZE03TEhYSDNXUW51MkV6VEJnc2hwMm5UMlRoWWUzS3FZX09xN0JkRHctRU5lLTY2bFo2YkROZ29LUW5CYWxzWmR2eUZGZzNWRHlJV0RXOVkwSW5DQzFUekp4YWhaN3h4MzVvdGdVbjU4Ylp4SHVIVkpDY3lvOVJtMUFiaU5N?oc=5",
-      "published": "2026-06-05T07:00:00+00:00",
-      "source": {
-        "name": "Volksstimme",
-        "url": "https://www.volksstimme.de"
-      }
-    },
-    {
       "id": "a43852bf5366",
       "title": "vfa zum Kommissionsbericht: Sparmaßnahmen für Pharmaindustrie im Faktencheck - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaGl6UGU2SlFIcnhfcTBza2E0aTZxOEEwd2xOWmxUT3hwYzYzSDRsSGJZa3g0U3BwTWpQdm01enFWcUVYeFhtR0d2SkJDQmVURmpFa0x0LXpYRTEzd1dtbmxyVWE2NVpZcE1DamxIT2kybUxscTV0QnZtTmVNRW1uLUxOeUw2cUlUZFRQUmdCYXZ4UEF4TFJuY092eU4tZw?oc=5",
@@ -571,6 +581,16 @@
       "source": {
         "name": "schleswig-holstein.de",
         "url": "https://www.schleswig-holstein.de"
+      }
+    },
+    {
+      "id": "4910d001ce31",
+      "title": "Praxen, Kliniken, Arzneimittel: Ärzte warnen vor „Rasenmäher“ im Gesundheitssystem - Volksstimme",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWnlFWFoteFprT1pkTlNXdUlyZE03TEhYSDNXUW51MkV6VEJnc2hwMm5UMlRoWWUzS3FZX09xN0JkRHctRU5lLTY2bFo2YkROZ29LUW5CYWxzWmR2eUZGZzNWRHlJV0RXOVkwSW5DQzFUekp4YWhaN3h4MzVvdGdVbjU4Ylp4SHVIVkpDY3lvOVJtMUFiaU5N?oc=5",
+      "published": "2026-06-05T07:00:00+00:00",
+      "source": {
+        "name": "Volksstimme",
+        "url": "https://www.volksstimme.de"
       }
     },
     {
@@ -604,32 +624,12 @@
       }
     },
     {
-      "id": "42f984299fe2",
-      "title": "Apotheken schlagen Alarm: Medikamenten-Engpässe drohen - ZDFheute",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPX1BYUUNyUEFvd2tlZmtVUUZiR2xwR29INjIyY0lzOEJNbFJ5c1VfQWRKaTNaQnZzOE9obk9kTEpBWTRlUjFIeXRrSG0wOHRXck5vQVNKRUVhUVA3cnhBajI1TnJWOUxmYmJmVndyYXFVNzBTbWtCalJjMlh4ck5hRTFzT2d6WnJ3ai1hY3dVcFVkdFRoVzh1QzhRN0ZGR2YxYjUzREtEZWxtZw?oc=5",
-      "published": "2025-09-14T07:00:00+00:00",
-      "source": {
-        "name": "ZDFheute",
-        "url": "https://www.zdfheute.de"
-      }
-    },
-    {
-      "id": "054c2beef78c",
-      "title": "Marktgröße, Marktanteil für natürliche Gesundheitsmedikamente | Prognose [2034] - Fortune Business Insights",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcm9jWnMyZy1ubkhPQXFmQ1dzUmtCU0V4X0dTMlEzZnpVeEVnVmxNU0VweEJsR2hNakhlN0JxRk9kMVVhVFZFNWhpXzhtR2g3cTdRQVM5d1lON25zT1FXV3hJNlJ1dDY5R2JUUld0UGRadUs4aFM5elJ6Z0RqX3BFS1ZEcERJUUh0MldhbVRybzN6anhOZnRHMw?oc=5",
-      "published": "2026-06-01T07:00:00+00:00",
-      "source": {
-        "name": "Fortune Business Insights",
-        "url": "https://www.fortunebusinessinsights.com"
-      }
-    },
-    {
-      "id": "08bd0c0b5848",
-      "title": "Frankreich erstattet als erstes EU-Land Abnehmmittel - Euronews",
+      "id": "38f92ce38a99",
+      "title": "Frankreich erstattet als erstes EU-Land Abnehmmittel - Euronews.com",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUGZUNmNqaW5tTWV1VXhXekNIaHZ6aWNkdmpQRXhmaUNZcXdJdG1LT0xpWU9mWmQ3OU9Zc2NMR2xfcXBNcnh6bWdhZHYyQ1FfaC1QNVBzOEdkS1o3RnVDZHh6X25nVHRnYmljNmRfTTRJa0VNODJjZjJSMzRMTDhVblo5bUtlR1BDamQxMnQ3VjRlY1p0UDY1WVduUHd6VnJPTlpYeGI1MWJKN2ZwV2Nqd0Q1cDRLZ1VlYmc?oc=5",
       "published": "2026-05-28T07:00:00+00:00",
       "source": {
-        "name": "Euronews",
+        "name": "Euronews.com",
         "url": "https://de.euronews.com"
       }
     },
@@ -654,6 +654,16 @@
       }
     },
     {
+      "id": "054c2beef78c",
+      "title": "Marktgröße, Marktanteil für natürliche Gesundheitsmedikamente | Prognose [2034] - Fortune Business Insights",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcm9jWnMyZy1ubkhPQXFmQ1dzUmtCU0V4X0dTMlEzZnpVeEVnVmxNU0VweEJsR2hNakhlN0JxRk9kMVVhVFZFNWhpXzhtR2g3cTdRQVM5d1lON25zT1FXV3hJNlJ1dDY5R2JUUld0UGRadUs4aFM5elJ6Z0RqX3BFS1ZEcERJUUh0MldhbVRybzN6anhOZnRHMw?oc=5",
+      "published": "2026-06-01T07:00:00+00:00",
+      "source": {
+        "name": "Fortune Business Insights",
+        "url": "https://www.fortunebusinessinsights.com"
+      }
+    },
+    {
       "id": "59d03ee6896b",
       "title": "Medikamente ohne Zuzahlung können ungesunde Nebenwirkungen haben - MDR.de",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOa1BRZ1RkZDlsQTQtUVVvek1KQlI2S2I5eUVpaHh0cGxseUJubDAxX01JeC1qRmczWTNSYWdhSnNMa3FGY2M3ZlcxVFo5UXpVMUt5RUw2T3VJMXZmdTlKOTYtaGtzY1EzZFpSVVM2UWY3YXpjM3lMOU8wMlJRbnlJY1FuTXcyMURpdHBsaVFvSDBmSm9NaGwtR3BWUEQ0c2FsTmpuZ3VnX2RkM05weXYtZkRxY2VZV3ZBWUp0OFk4RVd5MUFjZExvLXJKUjBXdWMzQzVud1RR?oc=5",
@@ -671,6 +681,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "42f984299fe2",
+      "title": "Apotheken schlagen Alarm: Medikamenten-Engpässe drohen - ZDFheute",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPX1BYUUNyUEFvd2tlZmtVUUZiR2xwR29INjIyY0lzOEJNbFJ5c1VfQWRKaTNaQnZzOE9obk9kTEpBWTRlUjFIeXRrSG0wOHRXck5vQVNKRUVhUVA3cnhBajI1TnJWOUxmYmJmVndyYXFVNzBTbWtCalJjMlh4ck5hRTFzT2d6WnJ3ai1hY3dVcFVkdFRoVzh1QzhRN0ZGR2YxYjUzREtEZWxtZw?oc=5",
+      "published": "2025-09-14T07:00:00+00:00",
+      "source": {
+        "name": "ZDFheute",
+        "url": "https://www.zdfheute.de"
       }
     },
     {
@@ -714,16 +734,6 @@
       }
     },
     {
-      "id": "091a002ed2d2",
-      "title": "Arzneimittelengpässe: Rechnungshof sieht Risiko für Medikamentenengpässe in der EU - DIE ZEIT",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNejgweWNVRGltRU1FaUMtRF92NTF6czFQUGltbGp3TG9DM09seC1BSlM2eHgwaXNQaGl6R0hvWm9FdzRsbEZNVW4wUV9GM3p2eGtWeUUxQzBCbFNibE5MaFM2YTh3OG5UeHFwdV9oOHgzbUdUS2FYOUJyVmtaZzlLR2VkOV9mRklPSFlXZ2llR3Z6RG5Ra19uR2dpWEM?oc=5",
-      "published": "2025-09-17T07:00:00+00:00",
-      "source": {
-        "name": "DIE ZEIT",
-        "url": "https://www.zeit.de"
-      }
-    },
-    {
       "id": "d46f6ce1c2b9",
       "title": "Ibuprofen, Aspirin und Co.: Schmerzmittel der Gruppe NSAR können Nebenwirkungen haben - NDR.de",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUmwyTW8wT3dfaXgyZ1VyaXFYUG1lWXY5VUZXZkkwWjd4STI2dWVSY1d3bVhub1NxRE9sNGt2bW83blh3T2hPRzlWcnVvUElQSmw4WE9KOHhscFdsSEE4TmF2cnhXaTktUWRfc3NQMnpoWmZDUXF5WWt6czNsbWdLQTRtVVJ3Mzdtb250RGVhbldmNUpVOTNDOTFhOWpldzV0MUlpVFdMRmpfOGM3WW5HbmRYaVJFT1ZzYUxn?oc=5",
@@ -731,6 +741,16 @@
       "source": {
         "name": "NDR.de",
         "url": "https://www.ndr.de"
+      }
+    },
+    {
+      "id": "091a002ed2d2",
+      "title": "Arzneimittelengpässe: Rechnungshof sieht Risiko für Medikamentenengpässe in der EU - DIE ZEIT",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNejgweWNVRGltRU1FaUMtRF92NTF6czFQUGltbGp3TG9DM09seC1BSlM2eHgwaXNQaGl6R0hvWm9FdzRsbEZNVW4wUV9GM3p2eGtWeUUxQzBCbFNibE5MaFM2YTh3OG5UeHFwdV9oOHgzbUdUS2FYOUJyVmtaZzlLR2VkOV9mRklPSFlXZ2llR3Z6RG5Ra19uR2dpWEM?oc=5",
+      "published": "2025-09-17T07:00:00+00:00",
+      "source": {
+        "name": "DIE ZEIT",
+        "url": "https://www.zeit.de"
       }
     },
     {
@@ -751,6 +771,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "61312f4f8713",
+      "title": "Hitzewelle: Welche Medikamente bei Rekordtemperaturen zum Risiko werden können - Tages-Anzeiger",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNktkQlhKcmVuNVV1Z01YcFVQMmVjX1lVRHVWc2NEUzNCSFFoc092SkpHZUUzSG9DMVREMHh1Vm51OG9aZ3ZMa2RPci00RHdHZ3Itb0NCdHF1OFhjS2lFeUpVUlN6VjBraUwtUGVCYUdsaVNIYzFWYWl2aXJtbW9USzJ3bU91Rk9VU1M5b3FKSHNZci1wZVpod2pPdVZIYUk?oc=5",
+      "published": "2026-06-29T12:39:23+00:00",
+      "source": {
+        "name": "Tages-Anzeiger",
+        "url": "https://www.tagesanzeiger.ch"
       }
     },
     {
@@ -884,22 +914,22 @@
       }
     },
     {
-      "id": "ae0d47394c9c",
-      "title": "Spanien kämpft mit Medikamentenmangel durch Abhängigkeit von China - Euronews",
+      "id": "7223dff6ff9e",
+      "title": "Spanien kämpft mit Medikamentenmangel durch Abhängigkeit von China - Euronews.com",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdjhQS01ta3Y4VGFuVFEzZDhuanczU2hVNWJvM1BlMzlNTEJIeGNreGM5cHVWVy1rTUtlODE3alItNUdFOWlOUURwT0hsMjFSZEVQai1sTTBIWHhWaGpSWkZubGo1WFNhQjFVa05MQzNzNW1UbXpzYlZodGc0WjFmYW9FSTUwZzlTRGdkbFlZamZJVTQ3bnBtZHVwNE01QnFINmxIRFhpVmxDMmlKNEU4SGJR?oc=5",
       "published": "2025-11-03T08:00:00+00:00",
       "source": {
-        "name": "Euronews",
+        "name": "Euronews.com",
         "url": "https://de.euronews.com"
       }
     },
     {
-      "id": "115a3607cd53",
-      "title": "Anti-Fettleibigkeits-Medikamente fördern auch Herzgesundheit, so eine Studie - Euronews",
+      "id": "26946ba6ced4",
+      "title": "Anti-Fettleibigkeits-Medikamente fördern auch Herzgesundheit, so eine Studie - Euronews.com",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQbnJLT18wMjNUQWJvZkdpdDNzMmJUcmJ3UlIwNkpnTHo3Sk9ING51YkkyLTlqVXBKQmNvNzdFTDJFcUY4OTVRRC1Oa2V0TXVuaXp3Q09zRTVEOGJBMHU4NFFJcXFMSkdHUDhMLWVPaEFOVjctQjVEaFZNcDQ4bzR2LVBZMi1vbVp6eGU0TGRqU2R0N1ZDdi1CMkt2R3dPYTREY2p1R3JQNDAzbjlNNUlaeTNxaWhCeE9xU2ZLUDN3?oc=5",
       "published": "2025-10-28T07:00:00+00:00",
       "source": {
-        "name": "Euronews",
+        "name": "Euronews.com",
         "url": "https://de.euronews.com"
       }
     },
@@ -971,36 +1001,6 @@
       "source": {
         "name": "Tagesspiegel",
         "url": "https://www.tagesspiegel.de"
-      }
-    },
-    {
-      "id": "7019660b6aac",
-      "title": "Medikamenten-Chaos: 43% der Senioren nehmen fünf Pillen täglich - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRkhQZUFIRGs4cnFlUGZCZDJVaF9OT2hzRWdVNUR3ZHZObjRiaE9LaW55aFNNVEZBX1dEXzM4NXJ1ZDJzRHpWTDg0YlYybXBDNm1uWERfeWFCMTUtalJiYWFkQThSWXhkN1FhN20zUnpKUmV5MWxCRllwYnpvYjFsODhOTm5OZzVOa2JFcUNPajRldGNCNFJUOHozZFo3cWJDMDRVSWctZ0RSQmwwVjFuUXMwNWZ0aGcwc0VkMw?oc=5",
-      "published": "2026-06-28T13:25:21+00:00",
-      "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
-      "id": "fd482ec47b32",
-      "title": "ADHS-Medikamente: Studie belegt geringeres Risiko für Suizid und Kriminalität - SZ.de",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNb1h2WGhoLUZHQzYwaDdsc0N3RHNpcnF1T04xQmJHQk5kY210RG5JcHlZWVpndDl1REhHWUJVaDBERVo3SGJpdnJUUGstTlNwd21RMGdvTnVnNU16bTkycUJ5N19pSm5VV3NDOE9wd3VTRkEyT2NRWUdYYjdTMlh4QXVSMlFMX296SlNaOEhfN1gtaFhmZDVMaQ?oc=5",
-      "published": "2025-08-20T07:00:00+00:00",
-      "source": {
-        "name": "SZ.de",
-        "url": "https://www.sueddeutsche.de"
-      }
-    },
-    {
-      "id": "1f4bc771b399",
-      "title": "Medikamente bei Hitze: Diese Medikamente können im Sommer Nebenwirkungen verursachen - Öko-Test",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxONnA4aXcyN3Qxbllyc2ozV3dOcXZkTXlieFVkbE5yVVpjN2RCaEdBQnQxVVJJZTJJVVEzYWxZQkEza2NwQVJBeGlEZGpTT1lhQjhvTThDZ2xqQ1pLaDVRTlN4dzJMVm5xN1BGUmdQV1B1UGpUNV9aVDIwMHp1S1NXV2tQTktNdGtoazRlTnk1YTVPRGtLc0szbUZWWDFQWXJuM3prLUlZWFZFdmlxQVBSWnpzcEU5VkdlRFNGSTg5UlRHMzlUSUQ5LWZWS2dETWpWVmF3eTY1YVdMZklW?oc=5",
-      "published": "2025-07-21T07:00:00+00:00",
-      "source": {
-        "name": "Öko-Test",
-        "url": "https://www.oekotest.de"
       }
     }
   ]
