@@ -1,8 +1,18 @@
 {
-  "fetched_at": "2026-07-01T22:18:22.162546+00:00",
+  "fetched_at": "2026-07-02T00:09:38.050863+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
+    {
+      "id": "3cdebc2a6d0b",
+      "title": "Dr. Riedl warnt vor Medikamenten-Betrug mit TV-Ärzten: „Kann zum Tod führen“ - Berliner Morgenpost",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPT0NhQXpsTWFRclBmbXpKTnB3VXFNUWVkQ2RmNTN3aWNwUGxCOW1xcUNpY1ByeVBTOXlNTHNoU1JRVWpwWVFEM2pld3pXQkVTZEdUWldFbFIwTDVTcktpTXRlbG81UktXS2k1N0pFV1FJU1NXZlZEdWhPc09xT0d4NVYwVzN4SFBSNzNPRmhSVFRZanZ6V0dST3ZzeVJydW0tN0lvVDM5UnVyMHd1OG9zX3pKWUh3S3VnVGRiVnAxcWR5dC1mc01NVkJHZktKUUVBZ0N0cWg5YUJMbWZlcFk3b0Zfcnh5UkJ5SGdPall3?oc=5",
+      "published": "2026-07-01T07:56:50+00:00",
+      "source": {
+        "name": "Berliner Morgenpost",
+        "url": "https://www.morgenpost.de"
+      }
+    },
     {
       "id": "963c12681658",
       "title": "Gutachten: PFAS in Arzneimitteln sind oft ersetzbar - Öko-Test",
@@ -11,16 +21,6 @@
       "source": {
         "name": "Öko-Test",
         "url": "https://www.oekotest.de"
-      }
-    },
-    {
-      "id": "4f09dc1e0d45",
-      "title": "Dr. Riedl über Medikamenten-Betrug mit Promi-Ärzten: „Kann zum Tod führen“ - Berliner Morgenpost",
-      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOV3dHckR6U2QtQXNtTXpWN0JvZVpKR1kxRDBqRXJQZDdYdnpXTzlYVDRENzAzN19JaWhpZHhLbDRnbEg5LTBBaTREM2ZxYmVsNWpDNnRTUFBod2YzU1N2R09pZzVOSEFWODZTTDNTZzhkLWhfdExCVDZnbnd4M1JDcUx6aGM2azBjNmFvUjNJMWJFbE1yMjZmdUk1OW1UVVpmRzR5cEJfQzdJVzE2MkM1VGxMZGh6WElCX2RrRUlNVTk0SE8tN2w2dVVqUGt4S1F6Wm1YVlNweDRHV0RHS3BxelJYeE9kTmhKdEtvb2xn?oc=5",
-      "published": "2026-06-28T16:00:00+00:00",
-      "source": {
-        "name": "Berliner Morgenpost",
-        "url": "https://www.morgenpost.de"
       }
     },
     {
@@ -134,13 +134,23 @@
       }
     },
     {
-      "id": "8db31424e5bb",
-      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - dw.com",
+      "id": "02e9917bea66",
+      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - DW.com",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGxHSlhmSS0tbUNKdG15NEVzRzYzYllEUnAzUEU3ak53czRHVWlKdTZrRGFDMk1MUThPUjdPTnBGVENqd3d2Q1VSdWhJVXppWDF4NWh0aEJJaXJlVTlnV0VoZVFkRHNSM3p6NVZXNjNwWHk5YkxSUWR2RGZKcmp3Y2U5REY0U3dRZFJLeHFtQk9wb2Y3RUVOaVBlMlJhZ29Rck000gGjAUFVX3lxTE1rTW00WXFBajZxbTJOS1NLckhVbXFBSzh1NE96QTEydTN1YjZnaFFNcV8xblZGM29hdTZQUHc4V3YzQ1pwcTlaVVBhZDVqMExLMTlYVzZ6TmM4ZUdsUm5TLXpPNmk1R3V4UktvaV93cWttNFpVX0VEZlZnUllSQkhyUlZmeTBJcU0zUEVSZTgxdzFWUnFNRk9CYVljN0Jhd0ZXUFk?oc=5",
       "published": "2026-05-12T07:00:00+00:00",
       "source": {
-        "name": "dw.com",
+        "name": "DW.com",
         "url": "https://www.dw.com"
+      }
+    },
+    {
+      "id": "472e52be8f7f",
+      "title": "Gesundheit - GKV-Chef: \"Mehr gegen steigende Arzneimittelpreise tun\" - Deutschlandfunk",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSy1mOE1PaUxhRGtHYkpqbDBKLVgtZ3cyd04xWkxtS2x0aWVSMUlQdVZVSjdqQXY5TUZEWWZxZEE4Zjc5LVBXS2lxYmEyaHVTQUpPWVBhMTVBZFl2eE02NUpDOXhmUFV6V1AwejFKb0NnVWs3OThpT3lQVlVzNW9kRG9zUlRKTzNwZlVEUmZFZi04dVVGUU5F?oc=5",
+      "published": "2026-03-16T07:00:00+00:00",
+      "source": {
+        "name": "Deutschlandfunk",
+        "url": "https://www.deutschlandfunk.de"
       }
     },
     {
@@ -154,13 +164,13 @@
       }
     },
     {
-      "id": "b9ca65e5a941",
-      "title": "Marktbericht: dm steigt in den Gesundheitsmarkt ein - tagesschau.de",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNd0RWVjQ1MFJ3RDJCdFRnZ3Z1RUU4YThkS1F2bnowNnZBQWk1QlIxdWNtMFN6a19KWWlhTnFyVUNRSGNLanRyR01ZM0lxSG1HRFBqQ3l3QXBMR1F6UU43X29oLTZEODQ1TktKWmhOVVR4YW10YWY1Qm5JZlZoLU8tMlhDYw?oc=5",
-      "published": "2025-12-15T08:00:00+00:00",
+      "id": "9fa13ce5acf5",
+      "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
+      "published": "2026-03-31T20:25:43+00:00",
       "source": {
-        "name": "tagesschau.de",
-        "url": "https://www.tagesschau.de"
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
       }
     },
     {
@@ -171,16 +181,6 @@
       "source": {
         "name": "T-Online",
         "url": "https://www.t-online.de"
-      }
-    },
-    {
-      "id": "9fa13ce5acf5",
-      "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
-      "published": "2026-03-31T20:25:43+00:00",
-      "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
       }
     },
     {
@@ -204,13 +204,13 @@
       }
     },
     {
-      "id": "472e52be8f7f",
-      "title": "Gesundheit - GKV-Chef: \"Mehr gegen steigende Arzneimittelpreise tun\" - Deutschlandfunk",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSy1mOE1PaUxhRGtHYkpqbDBKLVgtZ3cyd04xWkxtS2x0aWVSMUlQdVZVSjdqQXY5TUZEWWZxZEE4Zjc5LVBXS2lxYmEyaHVTQUpPWVBhMTVBZFl2eE02NUpDOXhmUFV6V1AwejFKb0NnVWs3OThpT3lQVlVzNW9kRG9zUlRKTzNwZlVEUmZFZi04dVVGUU5F?oc=5",
-      "published": "2026-03-16T07:00:00+00:00",
+      "id": "b9ca65e5a941",
+      "title": "Marktbericht: dm steigt in den Gesundheitsmarkt ein - tagesschau.de",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNd0RWVjQ1MFJ3RDJCdFRnZ3Z1RUU4YThkS1F2bnowNnZBQWk1QlIxdWNtMFN6a19KWWlhTnFyVUNRSGNLanRyR01ZM0lxSG1HRFBqQ3l3QXBMR1F6UU43X29oLTZEODQ1TktKWmhOVVR4YW10YWY1Qm5JZlZoLU8tMlhDYw?oc=5",
+      "published": "2025-12-15T08:00:00+00:00",
       "source": {
-        "name": "Deutschlandfunk",
-        "url": "https://www.deutschlandfunk.de"
+        "name": "tagesschau.de",
+        "url": "https://www.tagesschau.de"
       }
     },
     {
@@ -274,16 +274,6 @@
       }
     },
     {
-      "id": "7a99adaec5c0",
-      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - Geo.de",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
-      "published": "2026-06-19T07:00:00+00:00",
-      "source": {
-        "name": "Geo.de",
-        "url": "https://www.geo.de"
-      }
-    },
-    {
       "id": "432315fa2251",
       "title": "Erstmals Medikament gegen Fettleber zugelassen - tagesschau.de",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPQnhCQmdtRXhCd0ZKc1FDYzViaTZEblZ5TjJNWDBvZ3ptX2g0OENQemNDUk1sWGh5T1FrOEtvaGtSSDItcXlieVd0cDVfdDF0a2U3clFWSGlvd21wUWtwVzI4UEZIZ1BBUlVJSC16SExXaWFDTlF6YlNjMk96a2pEYnpVRm1rQQ?oc=5",
@@ -324,20 +314,20 @@
       }
     },
     {
-      "id": "589684016df5",
-      "title": "BStabG: Eingriffe bei Arzneimittelpreisen gefährden Versorgung - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeUNoTTU4eDVHeGxhbnMxaEROTFJyVEt6bXZSVHQ4TndNMXNfRDJ6aWF4cU9PQTlJc09uZEVUV2NMal82emdObUhlTkU5X3dNWHlFWDFiWWc0WVJyUDJYUFNndVhsUFI1WW8yelkxTnpGdk50TmFPTnFWNmxJcE1tZ1IxRnpqVU5EeWdqb0pwMmg2M0FFQi1UZDh6aGdHaXhCeHhjbWNEeXMzS19S?oc=5",
-      "published": "2026-04-21T07:37:26+00:00",
+      "id": "172d986897fc",
+      "title": "Arzneimittel: Nutzen für Gesundheit, Lebensqualität und Wirtschaft - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPc1pKSzRyQWdIYmtZQlZKZE5ZYkRDWjFJRzUySHJWYkJGQU9nSExYb21pSnJBd29vZllZcWNFMU9fcTkyMFZWN3NTbVkxcXpRbFhXZFdCT3BPd2N4ZlVVNHctcVNVaWNiUmFlSDZ4TnIxX2VOYk03Zk5JZ0RSSWxiY21mRGVETjVH?oc=5",
+      "published": "2025-09-26T07:00:00+00:00",
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
       }
     },
     {
-      "id": "172d986897fc",
-      "title": "Arzneimittel: Nutzen für Gesundheit, Lebensqualität und Wirtschaft - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPc1pKSzRyQWdIYmtZQlZKZE5ZYkRDWjFJRzUySHJWYkJGQU9nSExYb21pSnJBd29vZllZcWNFMU9fcTkyMFZWN3NTbVkxcXpRbFhXZFdCT3BPd2N4ZlVVNHctcVNVaWNiUmFlSDZ4TnIxX2VOYk03Zk5JZ0RSSWxiY21mRGVETjVH?oc=5",
-      "published": "2025-09-26T07:00:00+00:00",
+      "id": "589684016df5",
+      "title": "BStabG: Eingriffe bei Arzneimittelpreisen gefährden Versorgung - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeUNoTTU4eDVHeGxhbnMxaEROTFJyVEt6bXZSVHQ4TndNMXNfRDJ6aWF4cU9PQTlJc09uZEVUV2NMal82emdObUhlTkU5X3dNWHlFWDFiWWc0WVJyUDJYUFNndVhsUFI1WW8yelkxTnpGdk50TmFPTnFWNmxJcE1tZ1IxRnpqVU5EeWdqb0pwMmg2M0FFQi1UZDh6aGdHaXhCeHhjbWNEeXMzS19S?oc=5",
+      "published": "2026-04-21T07:37:26+00:00",
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
@@ -381,6 +371,16 @@
       "source": {
         "name": "Deutschlandfunk",
         "url": "https://www.deutschlandfunk.de"
+      }
+    },
+    {
+      "id": "7a99adaec5c0",
+      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - Geo.de",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
+      "published": "2026-06-19T07:00:00+00:00",
+      "source": {
+        "name": "Geo.de",
+        "url": "https://www.geo.de"
       }
     },
     {
@@ -534,16 +534,6 @@
       }
     },
     {
-      "id": "0de051160715",
-      "title": "PFAS in Arzneimitteln sind oft ersetzbar - Ökonews",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9MaFhuOGQ5WjJRVGluLU1FVTNXNnVtb2tQM2pyZzNFZl9pcUY4NGlyS01TdVQzTmVrRmo0azN5dXBVNVAyZXJXMUVZeXkwMFNUclc3bnpORGtPQlNXWnlEd2l2c3BPaEswM3hPU1o4V1ZrRlFuVExiUnJIdERwUQ?oc=5",
-      "published": "2026-06-29T22:23:48+00:00",
-      "source": {
-        "name": "Ökonews",
-        "url": "https://oekonews.at"
-      }
-    },
-    {
       "id": "c1eec9546c3c",
       "title": "Arzneimittel als Zukunftsinvestition - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNek45Q0xRLXZlc1ZnTDBKcHk2cUFnMkllakFtcDJzXzU2bVh5WnBMYVhBWTNoMll4Y0FmVTlfeF9kYlIxQ25OUHdJX3VpSEVCNnBJaWIzZFljQmlEeVp2Q2R3cFRXWERWd3BORmh6OF9TeWNick9Ua0dZdWMtdDlLR3FGV3o?oc=5",
@@ -551,6 +541,16 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "0de051160715",
+      "title": "PFAS in Arzneimitteln sind oft ersetzbar - Ökonews",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9MaFhuOGQ5WjJRVGluLU1FVTNXNnVtb2tQM2pyZzNFZl9pcUY4NGlyS01TdVQzTmVrRmo0azN5dXBVNVAyZXJXMUVZeXkwMFNUclc3bnpORGtPQlNXWnlEd2l2c3BPaEswM3hPU1o4V1ZrRlFuVExiUnJIdERwUQ?oc=5",
+      "published": "2026-06-29T22:23:48+00:00",
+      "source": {
+        "name": "Ökonews",
+        "url": "https://oekonews.at"
       }
     },
     {
@@ -584,16 +584,6 @@
       }
     },
     {
-      "id": "4910d001ce31",
-      "title": "Praxen, Kliniken, Arzneimittel: Ärzte warnen vor „Rasenmäher“ im Gesundheitssystem - Volksstimme",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWnlFWFoteFprT1pkTlNXdUlyZE03TEhYSDNXUW51MkV6VEJnc2hwMm5UMlRoWWUzS3FZX09xN0JkRHctRU5lLTY2bFo2YkROZ29LUW5CYWxzWmR2eUZGZzNWRHlJV0RXOVkwSW5DQzFUekp4YWhaN3h4MzVvdGdVbjU4Ylp4SHVIVkpDY3lvOVJtMUFiaU5N?oc=5",
-      "published": "2026-06-05T07:00:00+00:00",
-      "source": {
-        "name": "Volksstimme",
-        "url": "https://www.volksstimme.de"
-      }
-    },
-    {
       "id": "bcef033d2bcc",
       "title": "Gesundheitsvorsorge - Arzneimittel-Überwachung - schleswig-holstein.de",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOeE80cXNlV3RkMlM5WUhkbVM5amVOZy0zdm9LMlN6dS1IRlVjMDJzcW9GWF9SMmdUUVd5dDJ0THpRejN5emROc180bmNuQjlGVWUwdE9mSFdHMUJyLVRfcTJoSHBRWDlFZ2tvSFlCNGtMTnpIV2dLQk5uMzY4YWY1U0N6cVdmdmdaVEoyTnlXc2x3bFNJT3NfckhVa1ZfZExJLVZRaXZEaW1abVVVQWVXTWg4MTg4WEU2bDFBaw?oc=5",
@@ -601,6 +591,16 @@
       "source": {
         "name": "schleswig-holstein.de",
         "url": "https://www.schleswig-holstein.de"
+      }
+    },
+    {
+      "id": "4910d001ce31",
+      "title": "Praxen, Kliniken, Arzneimittel: Ärzte warnen vor „Rasenmäher“ im Gesundheitssystem - Volksstimme",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWnlFWFoteFprT1pkTlNXdUlyZE03TEhYSDNXUW51MkV6VEJnc2hwMm5UMlRoWWUzS3FZX09xN0JkRHctRU5lLTY2bFo2YkROZ29LUW5CYWxzWmR2eUZGZzNWRHlJV0RXOVkwSW5DQzFUekp4YWhaN3h4MzVvdGdVbjU4Ylp4SHVIVkpDY3lvOVJtMUFiaU5N?oc=5",
+      "published": "2026-06-05T07:00:00+00:00",
+      "source": {
+        "name": "Volksstimme",
+        "url": "https://www.volksstimme.de"
       }
     },
     {
@@ -644,22 +644,12 @@
       }
     },
     {
-      "id": "054c2beef78c",
-      "title": "Marktgröße, Marktanteil für natürliche Gesundheitsmedikamente | Prognose [2034] - Fortune Business Insights",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcm9jWnMyZy1ubkhPQXFmQ1dzUmtCU0V4X0dTMlEzZnpVeEVnVmxNU0VweEJsR2hNakhlN0JxRk9kMVVhVFZFNWhpXzhtR2g3cTdRQVM5d1lON25zT1FXV3hJNlJ1dDY5R2JUUld0UGRadUs4aFM5elJ6Z0RqX3BFS1ZEcERJUUh0MldhbVRybzN6anhOZnRHMw?oc=5",
-      "published": "2026-06-01T07:00:00+00:00",
-      "source": {
-        "name": "Fortune Business Insights",
-        "url": "https://www.fortunebusinessinsights.com"
-      }
-    },
-    {
-      "id": "38f92ce38a99",
-      "title": "Frankreich erstattet als erstes EU-Land Abnehmmittel - Euronews.com",
+      "id": "08bd0c0b5848",
+      "title": "Frankreich erstattet als erstes EU-Land Abnehmmittel - Euronews",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUGZUNmNqaW5tTWV1VXhXekNIaHZ6aWNkdmpQRXhmaUNZcXdJdG1LT0xpWU9mWmQ3OU9Zc2NMR2xfcXBNcnh6bWdhZHYyQ1FfaC1QNVBzOEdkS1o3RnVDZHh6X25nVHRnYmljNmRfTTRJa0VNODJjZjJSMzRMTDhVblo5bUtlR1BDamQxMnQ3VjRlY1p0UDY1WVduUHd6VnJPTlpYeGI1MWJKN2ZwV2Nqd0Q1cDRLZ1VlYmc?oc=5",
       "published": "2026-05-28T07:00:00+00:00",
       "source": {
-        "name": "Euronews.com",
+        "name": "Euronews",
         "url": "https://de.euronews.com"
       }
     },
@@ -681,6 +671,16 @@
       "source": {
         "name": "SZ.de",
         "url": "https://www.sueddeutsche.de"
+      }
+    },
+    {
+      "id": "054c2beef78c",
+      "title": "Marktgröße, Marktanteil für natürliche Gesundheitsmedikamente | Prognose [2034] - Fortune Business Insights",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcm9jWnMyZy1ubkhPQXFmQ1dzUmtCU0V4X0dTMlEzZnpVeEVnVmxNU0VweEJsR2hNakhlN0JxRk9kMVVhVFZFNWhpXzhtR2g3cTdRQVM5d1lON25zT1FXV3hJNlJ1dDY5R2JUUld0UGRadUs4aFM5elJ6Z0RqX3BFS1ZEcERJUUh0MldhbVRybzN6anhOZnRHMw?oc=5",
+      "published": "2026-06-01T07:00:00+00:00",
+      "source": {
+        "name": "Fortune Business Insights",
+        "url": "https://www.fortunebusinessinsights.com"
       }
     },
     {
@@ -734,6 +734,16 @@
       }
     },
     {
+      "id": "6f776f589828",
+      "title": "Lecanemab: Negative Nutzenbewertung für Alzheimer-Medikament - SZ.de",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNb052NUl6RVRlNXNjWTVWbV81SmZ4dG5rYjduV0NMRzhUaC0wRkNhS0pnMHo0YU1ydkhOSmxYNmNTUUNCb3hRV1Qwd1hpal9qYmFQMzBieEhidVpuNXdLb1hteU81ZnczbEptTGJCektKRGZJTEE2UDhoN2ZLVVRDN2NQUkM2NlgwaEh2SllSdXE0YkRmeEdxbVNsaDA?oc=5",
+      "published": "2025-12-01T08:00:00+00:00",
+      "source": {
+        "name": "SZ.de",
+        "url": "https://www.sueddeutsche.de"
+      }
+    },
+    {
       "id": "4bd6265511f7",
       "title": "Medikamenten-Triage: NRW-Gesundheitsminister Laumann rüffelt Parteifreund Streeck - Spiegel",
       "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQaW85VFdoR2RfSWpxeHFWWmJsNHNYWk1CRXNVb1FZNUNRNnB2cGVEcjJ3QkxOUkZtY1RxR0xBUGo5Y2lQdnZYTWRsZU9aMm84dl9INHdJMHFMMUtQZXdRM2l2Z3Brc2hNUDRrY0JtZHBybFpjR2FhQmpQN2tjV1d3cDQ1al9fOXpFTHlJWXpQNUhmMHlVblROV184bi1FZkljVmRMX3FldUFxdjBDSzZERVVwQkJtcm9KcUFWYjR6RUZRb0VScXRTdkxoZzNTMXdvR01mYTNlcDd6ZmZFbXZ6dENyWXJUV2xuLVBvU2stVjBGeWp2X3Q5WXVRb3BOY25pZi1R?oc=5",
@@ -761,16 +771,6 @@
       "source": {
         "name": "DIE ZEIT",
         "url": "https://www.zeit.de"
-      }
-    },
-    {
-      "id": "6f776f589828",
-      "title": "Lecanemab: Negative Nutzenbewertung für Alzheimer-Medikament - SZ.de",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNb052NUl6RVRlNXNjWTVWbV81SmZ4dG5rYjduV0NMRzhUaC0wRkNhS0pnMHo0YU1ydkhOSmxYNmNTUUNCb3hRV1Qwd1hpal9qYmFQMzBieEhidVpuNXdLb1hteU81ZnczbEptTGJCektKRGZJTEE2UDhoN2ZLVVRDN2NQUkM2NlgwaEh2SllSdXE0YkRmeEdxbVNsaDA?oc=5",
-      "published": "2025-12-01T08:00:00+00:00",
-      "source": {
-        "name": "SZ.de",
-        "url": "https://www.sueddeutsche.de"
       }
     },
     {
@@ -804,12 +804,12 @@
       }
     },
     {
-      "id": "e0194a7c0b5d",
-      "title": "Deutsche Apotheker warnen vor Medikamentenmangel - dw.com",
+      "id": "692ed6663b43",
+      "title": "Deutsche Apotheker warnen vor Medikamentenmangel - DW.com",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWU1xaGhwXzk2bTZMYV9pdEdESnBqWVZvSnAwXzllTkVsdXYyZTlYSzdEYjktY2FySDA2THNEWUlQend3WWp5cG9uZFo1aTJMcFFINW1ZWEg3NlVDQ2UzdkRmZldhV1JRemg4U3poczloOF9QOEhha1prQnlGZ0U5T0laMXN2ZVBY0gGIAUFVX3lxTE01Wk9oR0RESDZiM1BvOU5qZmtUYk1aNUFxWlpzU3EteXRvRDQ1anBlcG52RXJ5QWdEWjB2SHJCblZSaktVZktvRTBkYUxtYzNfQVE4YXRHajc1Nk9UQllNTkt0Vi1wVjdQTTAzSElvTDRMWXZ5TEpkLUZxRTI2QUZkMVdyRGM4YUg?oc=5",
       "published": "2025-09-14T07:00:00+00:00",
       "source": {
-        "name": "dw.com",
+        "name": "DW.com",
         "url": "https://www.dw.com"
       }
     },
@@ -904,16 +904,6 @@
       }
     },
     {
-      "id": "f7d7c9b1159f",
-      "title": "Tablette oder Kapsel: Warum es viele Formen gibt und wie Medikamente leichter einzunehmen sind - ZDFheute",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOcEVGcUpndVJUdk5BZzN2alFpQXUzNkpIbThMS0RvSlBTMXRGT3Q3eXdsLWg5OFNGYk1NcXpHMVIzVWliMDhPblhVMlhKSUl6SW93RjJPTldzOUFiZFh2OVAzUU1sTHhIV0UtZjBTVmpDRHNKN09QcmQ5V3FLbHppb0E0ZzdzaGJWT0dB?oc=5",
-      "published": "2025-10-08T07:00:00+00:00",
-      "source": {
-        "name": "ZDFheute",
-        "url": "https://www.zdfheute.de"
-      }
-    },
-    {
       "id": "dbab4bead913",
       "title": "AstraZeneca erwägt Medikamenten-Stopp in Deutschland: Konzernchef kritisiert Sparpläne der Regierung scharf - Business Insider Deutschland",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPb1F4ZlVIUm83b0gtQTg0MU5WeHR1eUNPcmJBaFV4aGgwbjg2VlNUQ2F1RmVKeC1fTFFGbWIwYmFackw0Skg0Z1RMMDhfbEFnU2lMTURULVZHbVVoY1AxdkxINi1wQkFubExyeE1GLVZ3SVNiUnBXVTFUWXFTZlpTM0JzZnhqUF9lNU1pbjZ1bkxNZ1pQLUt1bC15eTJ0X0NUNWdQLWlRandzRkNtNURCRlptUjFybk93RXc?oc=5",
@@ -924,22 +914,32 @@
       }
     },
     {
-      "id": "7223dff6ff9e",
-      "title": "Spanien kämpft mit Medikamentenmangel durch Abhängigkeit von China - Euronews.com",
+      "id": "01ff5efaad6f",
+      "title": "Neue Versandregeln könnten Medikamente bald deutlich teurer machen - Watson.de",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTWdJN3drNlBIbVFGbGpjVGxXbDN6V2ZPaXVZcXBLakFOWndIRVhlNXJWT2t4bktnd2RyN3ZIWHF2Y1ZmTFpyNnFhb2ZHQkFaNmtDRXBFMWR2cS1QVXRNYzhKVmVBVUN5MmhDcXdVZmUxeS1tbmwxamhUdURjVTZ1cWEwY2JjWDRPQUs0eFdkY3JkNkpnaVp0YS1sYVQ2M3o3eE1hSkEtejJfTVNFTy1na0g0a0FvS3RpejliQkdPWnBmV3gyYV82Mw?oc=5",
+      "published": "2026-03-15T07:00:00+00:00",
+      "source": {
+        "name": "Watson.de",
+        "url": "https://www.watson.de"
+      }
+    },
+    {
+      "id": "ae0d47394c9c",
+      "title": "Spanien kämpft mit Medikamentenmangel durch Abhängigkeit von China - Euronews",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdjhQS01ta3Y4VGFuVFEzZDhuanczU2hVNWJvM1BlMzlNTEJIeGNreGM5cHVWVy1rTUtlODE3alItNUdFOWlOUURwT0hsMjFSZEVQai1sTTBIWHhWaGpSWkZubGo1WFNhQjFVa05MQzNzNW1UbXpzYlZodGc0WjFmYW9FSTUwZzlTRGdkbFlZamZJVTQ3bnBtZHVwNE01QnFINmxIRFhpVmxDMmlKNEU4SGJR?oc=5",
       "published": "2025-11-03T08:00:00+00:00",
       "source": {
-        "name": "Euronews.com",
+        "name": "Euronews",
         "url": "https://de.euronews.com"
       }
     },
     {
-      "id": "26946ba6ced4",
-      "title": "Anti-Fettleibigkeits-Medikamente fördern auch Herzgesundheit, so eine Studie - Euronews.com",
+      "id": "115a3607cd53",
+      "title": "Anti-Fettleibigkeits-Medikamente fördern auch Herzgesundheit, so eine Studie - Euronews",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQbnJLT18wMjNUQWJvZkdpdDNzMmJUcmJ3UlIwNkpnTHo3Sk9ING51YkkyLTlqVXBKQmNvNzdFTDJFcUY4OTVRRC1Oa2V0TXVuaXp3Q09zRTVEOGJBMHU4NFFJcXFMSkdHUDhMLWVPaEFOVjctQjVEaFZNcDQ4bzR2LVBZMi1vbVp6eGU0TGRqU2R0N1ZDdi1CMkt2R3dPYTREY2p1R3JQNDAzbjlNNUlaeTNxaWhCeE9xU2ZLUDN3?oc=5",
       "published": "2025-10-28T07:00:00+00:00",
       "source": {
-        "name": "Euronews.com",
+        "name": "Euronews",
         "url": "https://de.euronews.com"
       }
     },
@@ -954,23 +954,13 @@
       }
     },
     {
-      "id": "6ab4ca82bbba",
-      "title": "Gefälschte Medikamente: Ein weltweites Problem - dw.com",
+      "id": "0dba016a69d0",
+      "title": "Gefälschte Medikamente: Ein weltweites Problem - DW.com",
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNSzZjM0cwcm1ldnUzc0xrOER4cEk0a05ucnhNX1llWk1YeU9zVnlTeTVFM1lWWmhBR1RrZEJCODVQdlIwNWw3Zmg2N004NVpqa29HT2FBZ1BfUWN5T2hGQlkxc2ZvQWdWVThrdk9sUk80UWc5MXlzaGQ1NXZTYUxtUUNoWmVzR2F5YjRDejhGbU5ZeDBHOGstVGNXLUVEVm9LejJ1RmpUd0Q3T25xb3pxM3hzQVYwaDljcWNycHBPNjZyS3daSVJOU3U1ZU5tWWFMbnfSAdIBQVVfeXFMUDFiX1VoOC1ZdmxVR3o2Q3VRMTNhUUNEaVRHdFZneDJrblJSckE1Zk9icjFaWXZTMGlJMFhHTC13bjIwMjhwWS1mZTRrdU1WcXFyS1ZEQndLRXFtRUZELUJQeFlMRHZ0aUFYbFNjd3NYOUFUZmxHZ0hZMEFNc2xXTVlPN1NVc3RYY3dxd2F6V20xMGdMa215eG9majhKX25kbjRaSXdOR1NoT1JFQnBXM1VmaGdjMWt0Z2IxNDBvOTRiSUlBM250LWJtTTBOZjdJeGtB?oc=5",
       "published": "2025-08-04T07:00:00+00:00",
       "source": {
-        "name": "dw.com",
+        "name": "DW.com",
         "url": "https://www.dw.com"
-      }
-    },
-    {
-      "id": "01ff5efaad6f",
-      "title": "Neue Versandregeln könnten Medikamente bald deutlich teurer machen - Watson.de",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTWdJN3drNlBIbVFGbGpjVGxXbDN6V2ZPaXVZcXBLakFOWndIRVhlNXJWT2t4bktnd2RyN3ZIWHF2Y1ZmTFpyNnFhb2ZHQkFaNmtDRXBFMWR2cS1QVXRNYzhKVmVBVUN5MmhDcXdVZmUxeS1tbmwxamhUdURjVTZ1cWEwY2JjWDRPQUs0eFdkY3JkNkpnaVp0YS1sYVQ2M3o3eE1hSkEtejJfTVNFTy1na0g0a0FvS3RpejliQkdPWnBmV3gyYV82Mw?oc=5",
-      "published": "2026-03-15T07:00:00+00:00",
-      "source": {
-        "name": "Watson.de",
-        "url": "https://www.watson.de"
       }
     },
     {
@@ -1001,6 +991,16 @@
       "source": {
         "name": "NDR.de",
         "url": "https://www.ndr.de"
+      }
+    },
+    {
+      "id": "ac4b8d3188aa",
+      "title": "Wenn der Medikamenten-Vorrat aufgebraucht ist: Darf mein Arzt mir ein Rezept verweigern? - Tagesspiegel",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNYUtBQ1E5OHkxVlVlblhtWTJENkI1aE9QbjRyeXphQVlDaEJJblVndzVmWVlFeko3VXpLYWRTeDJaVlVKRm9lWER6MGNWcUk4WmU1LU9ZQXg5Nmpndk1ZLV9Tc0tDQkdoMGI2OVlwRWN2bGZncGVMQjMyUGpvSlNkN0l0T0NDUy04YU5Ba3JtZ1NVTWtSREhGWkJpTzVLcm5iaWxIYmVLeElVVmlyR0dXdnNHNDB1NENBYlVZVjc3NWR5RTJCTVp5b0hSZHlOTlRqUXpCNkpn?oc=5",
+      "published": "2025-12-01T08:00:00+00:00",
+      "source": {
+        "name": "Tagesspiegel",
+        "url": "https://www.tagesspiegel.de"
       }
     }
   ]
