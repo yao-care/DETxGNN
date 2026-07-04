@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-03T22:05:14.311027+00:00",
+  "fetched_at": "2026-07-04T00:05:43.734222+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -124,16 +124,6 @@
       }
     },
     {
-      "id": "e0cb12d2fa2a",
-      "title": "Entwarnung für Antidepressiva in der Schwangerschaft - Deutsche Apotheker Zeitung, DAZ",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRlBfRkRrYUhVR1dmRldsaENkV2RLU1JXLTUyVnlZNXFueHVqckRHbnZHOERVdm51MHNfaHFLaTNVWmRjWnMxQXJ3UVpxYzBOXy04cW9UVFlJS1lHOU40NEJ2ZlF2XzdVS2FvWmNrLVZPS2laVVdIN2hyQXdqUVBISHNvNm9QY2RyUmxXdFo0LUI5a2xEQkxrR1podF8ybTh5enl1TW5TcGYzWUVmX0E?oc=5",
-      "published": "2026-07-03T00:00:00+00:00",
-      "source": {
-        "name": "Deutsche Apotheker Zeitung, DAZ",
-        "url": "https://www.deutsche-apotheker-zeitung.de"
-      }
-    },
-    {
       "id": "bb553491699c",
       "title": "Abschaffung der Mehrwertsteuer auf Arzneimittel - openPetition",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQR2ZyOGpub3o3YjR6WktVOXowVW5aMmNRcUZnRHQteUNLdVdiWFpMSHpndXJ0ajFhSmNTQXk1LVptMF9BUHlMeGRSb2dJalBRVjkxbGE4eWhObTFsT1gzVUtGblkxNDhVMlR2b2JYb1NWSGJqd2k1bGwxODhLVFh3aVdwY3pNNV81VDk0ZkxEbmVlSXdZY2c?oc=5",
@@ -184,16 +174,6 @@
       }
     },
     {
-      "id": "6c666e76b6e5",
-      "title": "Merck & Co. setzt auf stabile Pharma-Erlöse. Langfristige Forschung prägt das Bild - Ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNRUhBN3oteEdRYWZpVHFXcWkzQXpuRWJwNlc4aHBDN2FBSmlUWEQxSDFrUUNPb3ZfeGI5bGhWWUZtUTZYSklBNXo4dnVfYi1PbVJoSTIyM012cHF5TzNXUWJZS3UwTm1YTjVTZTlJcXMwY0I4RGlUTGItUnFWV1FaOXRoWHJZN0x4eG9IVEJTSE8wc0lvR0doYy1JdTM1TVFmS1E1ZWhEQVhnN2lockVOelN6R3dmV1JiZ1BjVVZ5eHNuV1YxYWc?oc=5",
-      "published": "2026-07-03T18:57:48+00:00",
-      "source": {
-        "name": "Ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "0bc7c014a500",
       "title": "Umfrage: Jeder Zweite hat gewünschte Arzneimittel nicht erhalten - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTy1pV2pHcVhZLXNFb05nT00xaVNrWkpUa0diY1ZtVkIzVDJ0T3dJdGMwWWRvMmtaUXZ5RDU3S1JaMzJGTldiVGY5ekNTTVBucXpsd1otZUV3a0QtdUxvc2gyZkY5cEsxVzE1cHBrUjZIQURsRkdlbVRCZ1MzTU5qSTZZZ3BTaGlUS2ZkVjBjZmFQclBGbGYzbDV1RGhaY2ZkM0Fhd2dn?oc=5",
@@ -201,6 +181,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "6c666e76b6e5",
+      "title": "Merck & Co. setzt auf stabile Pharma-Erlöse. Langfristige Forschung prägt das Bild - Ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNRUhBN3oteEdRYWZpVHFXcWkzQXpuRWJwNlc4aHBDN2FBSmlUWEQxSDFrUUNPb3ZfeGI5bGhWWUZtUTZYSklBNXo4dnVfYi1PbVJoSTIyM012cHF5TzNXUWJZS3UwTm1YTjVTZTlJcXMwY0I4RGlUTGItUnFWV1FaOXRoWHJZN0x4eG9IVEJTSE8wc0lvR0doYy1JdTM1TVFmS1E1ZWhEQVhnN2lockVOelN6R3dmV1JiZ1BjVVZ5eHNuV1YxYWc?oc=5",
+      "published": "2026-07-03T18:57:48+00:00",
+      "source": {
+        "name": "Ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -374,16 +364,6 @@
       }
     },
     {
-      "id": "963aab855fa5",
-      "title": "Novo Nordisk setzt auf Wachstum mit Diabetes- und Adipositas-Therapien. Der Gesundheitskonzern bleib - Ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdmdGV3hCZXJvZWF4dGJ5bUw0YlZxVnBhbFR3bXlwc3pIRUNPWGV1aHp5VDNtdDBLWDVuMDNmcDNmS2VYSWg5dHQ5VnZ6WDFSS3RPYllCdEFYUEdocnFJeF84XzVpb0xYMjUtQmprYmJoY0ZEYlFtdTZPU24zeTJrUnllQW1qaHpmVWc3X0JaODlyWjRMWWtVQjZuTHQ5S1hoeFRSWnkzQ3M2THBGSnJXUXhHS2pmU0NGMUhraGx2dGtLU2NoZVJZ?oc=5",
-      "published": "2026-07-03T16:36:19+00:00",
-      "source": {
-        "name": "Ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "d04f77528724",
       "title": "Arzneimittel: Apothekerverband registriert deutlich gestiegene Ausgaben für Arzneien - DIE ZEIT",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQnNYX0ZIOXRaeWxnUDA2UTMwRG5DVmhTUmNKWlNTRTJQLVNWbDAzaXpIY2FEQ0dzaTRFYzNPSE9zUEVfU2F1WkZoZmt3NWhMMkI2VkhwbU9maWFPdnBnRXdKOU8taHRHakljeUstTHlNRUxGbVNQQ3dQckcwSlhIZnZYLVFmblBWeVhVWC1NTmE3ZjhaY0x5Z092VC1Rd2tZa20wUlBxU2tpMlRrWkpnNFJYb3Jpdw?oc=5",
@@ -414,6 +394,16 @@
       }
     },
     {
+      "id": "963aab855fa5",
+      "title": "Novo Nordisk setzt auf Wachstum mit Diabetes- und Adipositas-Therapien. Der Gesundheitskonzern bleib - Ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdmdGV3hCZXJvZWF4dGJ5bUw0YlZxVnBhbFR3bXlwc3pIRUNPWGV1aHp5VDNtdDBLWDVuMDNmcDNmS2VYSWg5dHQ5VnZ6WDFSS3RPYllCdEFYUEdocnFJeF84XzVpb0xYMjUtQmprYmJoY0ZEYlFtdTZPU24zeTJrUnllQW1qaHpmVWc3X0JaODlyWjRMWWtVQjZuTHQ5S1hoeFRSWnkzQ3M2THBGSnJXUXhHS2pmU0NGMUhraGx2dGtLU2NoZVJZ?oc=5",
+      "published": "2026-07-03T16:36:19+00:00",
+      "source": {
+        "name": "Ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
+      }
+    },
+    {
       "id": "7a99adaec5c0",
       "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - Geo.de",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
@@ -431,6 +421,16 @@
       "source": {
         "name": "Berliner Morgenpost",
         "url": "https://www.morgenpost.de"
+      }
+    },
+    {
+      "id": "5d8c89f1b6f0",
+      "title": "Gesundheitsökonom Kugler: \"Wir bezahlen nur wirklich nützliche Medikamente\" - MDR.de",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWDlDNjhEYjgwOHl4R3NZUWFqaEo4Qkd4OUZISDllZG9TcVJubHF1MnUwRVRPY2pZLWZFdlQzdktxelU5SktXdlBaSkIxcFJjN2dJUXJTYklvSFpOckcxSjdvRkxRM0RjRy0yUEtIRWVPWF9JZmNMc1d1NXFMWHFVajJ0LWY1cDh6Ql9aYmFUQnE4LVlGNUFIZW5IR0E5TU5nak5ESlB0d2hSU2U0UWJQeWRfZllHVkcyeGdMVi1uRlFFU25OV0dv?oc=5",
+      "published": "2026-04-26T07:00:00+00:00",
+      "source": {
+        "name": "MDR.de",
+        "url": "https://www.mdr.de"
       }
     },
     {
@@ -461,16 +461,6 @@
       "source": {
         "name": "DIE ZEIT",
         "url": "https://www.zeit.de"
-      }
-    },
-    {
-      "id": "5d8c89f1b6f0",
-      "title": "Gesundheitsökonom Kugler: \"Wir bezahlen nur wirklich nützliche Medikamente\" - MDR.de",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWDlDNjhEYjgwOHl4R3NZUWFqaEo4Qkd4OUZISDllZG9TcVJubHF1MnUwRVRPY2pZLWZFdlQzdktxelU5SktXdlBaSkIxcFJjN2dJUXJTYklvSFpOckcxSjdvRkxRM0RjRy0yUEtIRWVPWF9JZmNMc1d1NXFMWHFVajJ0LWY1cDh6Ql9aYmFUQnE4LVlGNUFIZW5IR0E5TU5nak5ESlB0d2hSU2U0UWJQeWRfZllHVkcyeGdMVi1uRlFFU25OV0dv?oc=5",
-      "published": "2026-04-26T07:00:00+00:00",
-      "source": {
-        "name": "MDR.de",
-        "url": "https://www.mdr.de"
       }
     },
     {
@@ -514,16 +504,6 @@
       }
     },
     {
-      "id": "8facb188a23e",
-      "title": "Erfassung von Medikationsfehlern in Deutschland – ein Workshopbericht - Springer Nature Link",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5fWTFuNXg0ZS1CUjEteG1YbXJrLUI2TXRBR0djZ0VqUWZLRjdYUTJ0WFQ1Qy1DYzJRbHB1UXlvbzZTWWlKckRjcmZGRVp4MFJvdk5Wa1ZoWlVsXzF0WElONTFFbm9zUTZlQ1Q5TA?oc=5",
-      "published": "2025-12-17T08:00:00+00:00",
-      "source": {
-        "name": "Springer Nature Link",
-        "url": "https://link.springer.com"
-      }
-    },
-    {
       "id": "1f4441bb42a2",
       "title": "Medizinprodukte: US-Arzneibehörde will Auflagen für neue Medikamente lockern - DIE ZEIT",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMDQ4aUF0OUVjbTB5LXZPc1JjcGo2U2RMUHdCNlpmQXV3RHFQeHJfRHlGcUZxVDRjZEVZV21TRmRTalZTdU9WN1RWeFREc212am9oREtTNjNBU0o5dW51RHM3US1WOXdFbWtnZ1RwM2diM21uTkVRN25HTVc1ZjNiM2Vhc0FjYXlBd1FadUM2RGd0UkEyalBmUWNpcmxMNTV3dUswMGlQSQ?oc=5",
@@ -531,6 +511,16 @@
       "source": {
         "name": "DIE ZEIT",
         "url": "https://www.zeit.de"
+      }
+    },
+    {
+      "id": "8facb188a23e",
+      "title": "Erfassung von Medikationsfehlern in Deutschland – ein Workshopbericht - Springer Nature Link",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5fWTFuNXg0ZS1CUjEteG1YbXJrLUI2TXRBR0djZ0VqUWZLRjdYUTJ0WFQ1Qy1DYzJRbHB1UXlvbzZTWWlKckRjcmZGRVp4MFJvdk5Wa1ZoWlVsXzF0WElONTFFbm9zUTZlQ1Q5TA?oc=5",
+      "published": "2025-12-17T08:00:00+00:00",
+      "source": {
+        "name": "Springer Nature Link",
+        "url": "https://link.springer.com"
       }
     },
     {
@@ -814,6 +804,16 @@
       }
     },
     {
+      "id": "a1246c849d26",
+      "title": "Diese Medikamente können Alzheimer vorbeugen - Euronews",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZHd6NGpWcXV5WTFGMzRvX2tlV2dyb0hISS1yMmhxY2RXeXhUa1pCS3RpLTVHNGpOam56S2cxd05wc1Q3UWU3QUN4bVpRYmo1TkNDNS1fVkVwbHNHeWpMQ1paWjU2cG1Ha1NpQXJzWTFTRG9sbU1pSkNLNWdpLU5UaDV3UWlfaUNyNjhtUndXZw?oc=5",
+      "published": "2026-02-08T08:00:00+00:00",
+      "source": {
+        "name": "Euronews",
+        "url": "https://de.euronews.com"
+      }
+    },
+    {
       "id": "d46f6ce1c2b9",
       "title": "Ibuprofen, Aspirin und Co.: Schmerzmittel der Gruppe NSAR können Nebenwirkungen haben - NDR.de",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUmwyTW8wT3dfaXgyZ1VyaXFYUG1lWXY5VUZXZkkwWjd4STI2dWVSY1d3bVhub1NxRE9sNGt2bW83blh3T2hPRzlWcnVvUElQSmw4WE9KOHhscFdsSEE4TmF2cnhXaTktUWRfc3NQMnpoWmZDUXF5WWt6czNsbWdLQTRtVVJ3Mzdtb250RGVhbldmNUpVOTNDOTFhOWpldzV0MUlpVFdMRmpfOGM3WW5HbmRYaVJFT1ZzYUxn?oc=5",
@@ -834,16 +834,6 @@
       }
     },
     {
-      "id": "1c60bceac9ea",
-      "title": "Walgreens Boots Alliance setzt auf Apothekennetz. Der Gesundheitskonzern justiert sein Geschäftsmodell - Ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPWENab0ZKVUdoMXRFMzJSMk9QOXUyaVQ5RFd0TjFjTGFsQ3FRZ3pOOUVSYmMwdWJ2T2dCaDNyei1zVkFjcVQybFY4Q1M1WG9UeGZNSlM0MHI0V2FOdUNnRXE5NElYbkhOdTNPd3BDWFRVSjFVV1lnZFFsd2w4UzRXc0Jja2xMYXhvNmd4ems2TUlCOUkzcFJMS1hFOXdBZ0lOVjNuMk9iWHo1REdwYXVES2xZbHFzOGQwUFZYVHFfM1dmeHYtZTdkb2Jn?oc=5",
-      "published": "2026-07-02T11:41:06+00:00",
-      "source": {
-        "name": "Ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "a82bcf633e21",
       "title": "Europäische Kommission: EU modernisiert Zulassungsprozesse für Medikamente - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQM2xIaW8xSWxvSkxrazhwNTlGVE5UU2ZQbldESkNhSmpFb2VuX1lKWlJZODdxY1RXakFlampSZnd4SzVtUVBlWGtJM25fV05RR0t5MWh0R3kxSVVpT21lcHJZekd0emQ3SVhqRWJOc1gxNTJwODBVUkRwWk5VR21LSkVHMHRqX0xPNEJzMFhnSHhyenlhbXpGOVdoQW5rNEk?oc=5",
@@ -854,6 +844,16 @@
       }
     },
     {
+      "id": "1c60bceac9ea",
+      "title": "Walgreens Boots Alliance setzt auf Apothekennetz. Der Gesundheitskonzern justiert sein Geschäftsmodell - Ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPWENab0ZKVUdoMXRFMzJSMk9QOXUyaVQ5RFd0TjFjTGFsQ3FRZ3pOOUVSYmMwdWJ2T2dCaDNyei1zVkFjcVQybFY4Q1M1WG9UeGZNSlM0MHI0V2FOdUNnRXE5NElYbkhOdTNPd3BDWFRVSjFVV1lnZFFsd2w4UzRXc0Jja2xMYXhvNmd4ems2TUlCOUkzcFJMS1hFOXdBZ0lOVjNuMk9iWHo1REdwYXVES2xZbHFzOGQwUFZYVHFfM1dmeHYtZTdkb2Jn?oc=5",
+      "published": "2026-07-02T11:41:06+00:00",
+      "source": {
+        "name": "Ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
+      }
+    },
+    {
       "id": "692ed6663b43",
       "title": "Deutsche Apotheker warnen vor Medikamentenmangel - DW.com",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWU1xaGhwXzk2bTZMYV9pdEdESnBqWVZvSnAwXzllTkVsdXYyZTlYSzdEYjktY2FySDA2THNEWUlQend3WWp5cG9uZFo1aTJMcFFINW1ZWEg3NlVDQ2UzdkRmZldhV1JRemg4U3poczloOF9QOEhha1prQnlGZ0U5T0laMXN2ZVBY0gGIAUFVX3lxTE01Wk9oR0RESDZiM1BvOU5qZmtUYk1aNUFxWlpzU3EteXRvRDQ1anBlcG52RXJ5QWdEWjB2SHJCblZSaktVZktvRTBkYUxtYzNfQVE4YXRHajc1Nk9UQllNTkt0Vi1wVjdQTTAzSElvTDRMWXZ5TEpkLUZxRTI2QUZkMVdyRGM4YUg?oc=5",
@@ -861,16 +861,6 @@
       "source": {
         "name": "DW.com",
         "url": "https://www.dw.com"
-      }
-    },
-    {
-      "id": "74d100fffa90",
-      "title": "Demenz-Prävention: Mediterrane Ernährung senkt Risiko um 29% - Ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOR0dYb3dRN0JMNkFNZDA4MTFydEN2ZFdjT3BEVXVPOGlCS1k2aGs2LUswUlhUTGdscWVQRVF4ZzlKVDVZUWlBUHVzbTR3OXZWLTJmazQwZGlIZldDVjI0V0JjRTJrWDlyYU42YUFpXzZUMTV0YU9TMkFVQWtHN0tRODJleG5XMnlRMkU5Z0hNcXpBbTVyY1I3NDVPMEVuM2pWb3k3SUhYcG9VOEpSS0RtREU5djUzazBK?oc=5",
-      "published": "2026-07-03T06:04:01+00:00",
-      "source": {
-        "name": "Ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -941,6 +931,16 @@
       "source": {
         "name": "Presseportal",
         "url": "https://www.presseportal.de"
+      }
+    },
+    {
+      "id": "74d100fffa90",
+      "title": "Demenz-Prävention: Mediterrane Ernährung senkt Risiko um 29% - Ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOR0dYb3dRN0JMNkFNZDA4MTFydEN2ZFdjT3BEVXVPOGlCS1k2aGs2LUswUlhUTGdscWVQRVF4ZzlKVDVZUWlBUHVzbTR3OXZWLTJmazQwZGlIZldDVjI0V0JjRTJrWDlyYU42YUFpXzZUMTV0YU9TMkFVQWtHN0tRODJleG5XMnlRMkU5Z0hNcXpBbTVyY1I3NDVPMEVuM2pWb3k3SUhYcG9VOEpSS0RtREU5djUzazBK?oc=5",
+      "published": "2026-07-03T06:04:01+00:00",
+      "source": {
+        "name": "Ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
