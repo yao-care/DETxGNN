@@ -1,8 +1,18 @@
 {
-  "fetched_at": "2026-07-05T10:15:12.521777+00:00",
+  "fetched_at": "2026-07-05T12:17:32.190659+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
+    {
+      "id": "f24895134c0e",
+      "title": "Wenn Medikamente gefährlich werden - vor allem bei Hitze im Sommer - brisant.de",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPaHdjaXN6c1JpaHBMWVRFUHZISXBFLTZ3TGxyNmxNMzhhc2lxMUVGOFpub3RPeDVvZUg0dnd0OXFGV2NBRm0xS1N4c1c3OGdfTUxmaW55d2VET3FZaXVmRnlWRnppVTB2Z3kxakFKRVNTZXdjeU5jZE1BU1JsbXgyMl9JTDhTOWxjbkI1UHBPVGVNdFB6RzZVbml0TnB1aW51NXgzWkZuOVNzTTNHTVpHNHZIRURzbUJwSDVFSXBiMWhtSzZhUk9JUFFCVXNCZjZjaERqMzBpcw?oc=5",
+      "published": "2026-07-05T10:33:45+00:00",
+      "source": {
+        "name": "brisant.de",
+        "url": "https://www.brisant.de"
+      }
+    },
     {
       "id": "9f7c377ed6d2",
       "title": "MFN-Modell USA: Wie US-Arzneimittelpolitik Innovationen in Europa ausbremst - vfa. Die forschenden Pharma-Unternehmen",
@@ -174,6 +184,16 @@
       }
     },
     {
+      "id": "2be6d0f9568c",
+      "title": "EBOS Group mit stabilem Geschäftsmodell. Gesundheitsversorger im asiatisch-pazifischen Raum im Foku - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWERBQ2pCQ3Y1N0RranZybGx5VmJwUmhOcVNvZWlkNnRrTy0wcklNVjRGNDdqc2t1ZHh2Zm8tN3hPMU1zTk45dEVlTUZvR1dIcXdxX1ZZX2J1Y3BTWXJCeURRSkRNQlFleHFGN0xIQ1FHWUR5TjliV3NqSm1KdUlmWWNBRzB0a09vLUNWY0dGSEcxLXVpcWtyaTI2RktJeVM0ck5aeGI5ZVRGcWJxVXpXMjNqRU80WU8xVzVkbU4tOGE?oc=5",
+      "published": "2026-07-05T05:06:12+00:00",
+      "source": {
+        "name": "AD HOC NEWS",
+        "url": "https://www.ad-hoc-news.de"
+      }
+    },
+    {
       "id": "17a20fcec448",
       "title": "Panvel Farmácias setzt auf Wachstum. Der brasilianische Gesundheitsanbieter stärkt sein Filialnetz - AD HOC NEWS",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaGNCY1FYaVRibk1zRGRYNzZSakNfQ1c3QmtmYkxONTdrQWxNSU9CX3NQY0NvQzNuNkJUYkh1WnRDWDl3OW96ZDhZUzlGWVBrNHk5Wk1tZjdDcVBrY2lQeTJTUm4wMWloenBQZDBBX0dqZ2E0bWlVNlZteEo2bE9zcVpvUnFNbnZ1TjhwMm9uLWtqMndoR0JIVkQyaTJXTjJNRXduelR2OHBZaFJfc0E5b0w3Yw?oc=5",
@@ -274,16 +294,6 @@
       }
     },
     {
-      "id": "4ca2f5472729",
-      "title": "Welcia setzt auf Wachstum im japanischen Arzneimittelhandel. Drogeriekette stärkt ihr Filialnetz - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMFM0dm5NcER5aGpSazZ5MTJVbHRPSkt1NEQyM0FfZHVSSnNjYW5vUTdITHZzeW1HZG8wQnhrRldHTENwWnBubnVwS2VtZ1lDbnBfX3RzQ2c0TUhiWFZEVzllUHRJRGZlQ0FweFUyRTNRRWFhOVlNdDQ4RG4zdmhvd0U3UzI1MjRyQ2NMbGNQalBDWXloZmtWbU1QWXVnRHVwTTk0SFhMS1hnblF3S05ZZDhkOVNDTEtpREZRMlF5R2Y5RzdvZUhQV01zMzY?oc=5",
-      "published": "2026-07-04T13:20:33+00:00",
-      "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "1bb1a7cdbb92",
       "title": "Arzneimittelüberwachung - schleswig-holstein.de",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRnFVbGVSc1N0RXg0Tmw5WnF1VDNTU3liRXRGQloyYlF1bDhkZl9RS0J6ZmdTenB1WjVvdjZJSElYQm9JbTlVYnNnMlI4SjhZZjAyb1hTVTVjczhoQVUwSFI4OU9aU0NOemk3eG9MT2ZtVXVoTXJzdGI3NmVnMm53Mll2bDB6OVRvQTkwbmFEQVRZVF9YM1Jja0lWY3VRSVBENDBYZlFkWFVTQ0hTWUM4eWtrODVLTko1R2owWW5jWGhVRkllNWhJSUlEaXNzZw?oc=5",
@@ -374,6 +384,16 @@
       }
     },
     {
+      "id": "4ca2f5472729",
+      "title": "Welcia setzt auf Wachstum im japanischen Arzneimittelhandel. Drogeriekette stärkt ihr Filialnetz - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMFM0dm5NcER5aGpSazZ5MTJVbHRPSkt1NEQyM0FfZHVSSnNjYW5vUTdITHZzeW1HZG8wQnhrRldHTENwWnBubnVwS2VtZ1lDbnBfX3RzQ2c0TUhiWFZEVzllUHRJRGZlQ0FweFUyRTNRRWFhOVlNdDQ4RG4zdmhvd0U3UzI1MjRyQ2NMbGNQalBDWXloZmtWbU1QWXVnRHVwTTk0SFhMS1hnblF3S05ZZDhkOVNDTEtpREZRMlF5R2Y5RzdvZUhQV01zMzY?oc=5",
+      "published": "2026-07-04T13:20:33+00:00",
+      "source": {
+        "name": "AD HOC NEWS",
+        "url": "https://www.ad-hoc-news.de"
+      }
+    },
+    {
       "id": "4827c0f2d4e4",
       "title": "Gesundheit - Gesetzliche Krankenkassen fordern Maßnahmen gegen steigende Arzneimittelpreise - Deutschlandfunk",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPX2ZXSGh3TS1SUVdMakVnd0tYT040NWVQRFJQX3ZVY1VONVQ4U2lZX0xVcEZ4dXZYOURsbDJCWmM4MXVMYWJwbjE1M09oVmxVTF9UODQ4MmUtRlhVdGpuZzV1bjZOY0U4SEk5VjNEM25vU1M4a2lBNmpfa1ZzTWE2ODlBQTBfemV0M0kxMEsyTWFuYnpvd3ZVT0pFeW9aRTJhRFdHX3UtNVpONmdXNUkwMDFydmh0YXpMTVVR?oc=5",
@@ -451,16 +471,6 @@
       "source": {
         "name": "Spiegel",
         "url": "https://www.spiegel.de"
-      }
-    },
-    {
-      "id": "b6f8a06fd285",
-      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - GEO.de",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
-      "published": "2026-06-19T07:00:00+00:00",
-      "source": {
-        "name": "GEO.de",
-        "url": "https://www.geo.de"
       }
     },
     {
@@ -561,6 +571,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "7a99adaec5c0",
+      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - Geo.de",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
+      "published": "2026-06-19T07:00:00+00:00",
+      "source": {
+        "name": "Geo.de",
+        "url": "https://www.geo.de"
       }
     },
     {
@@ -981,26 +1001,6 @@
       "source": {
         "name": "Euronews",
         "url": "https://de.euronews.com"
-      }
-    },
-    {
-      "id": "aa8173e46bce",
-      "title": "Novo Nordisk setzt auf Wachstum mit Diabetes- und Adipositas-Therapien. Der Gesundheitskonzern bleib - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdmdGV3hCZXJvZWF4dGJ5bUw0YlZxVnBhbFR3bXlwc3pIRUNPWGV1aHp5VDNtdDBLWDVuMDNmcDNmS2VYSWg5dHQ5VnZ6WDFSS3RPYllCdEFYUEdocnFJeF84XzVpb0xYMjUtQmprYmJoY0ZEYlFtdTZPU24zeTJrUnllQW1qaHpmVWc3X0JaODlyWjRMWWtVQjZuTHQ5S1hoeFRSWnkzQ3M2THBGSnJXUXhHS2pmU0NGMUhraGx2dGtLU2NoZVJZ?oc=5",
-      "published": "2026-07-03T16:36:19+00:00",
-      "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
-      "id": "01ff5efaad6f",
-      "title": "Neue Versandregeln könnten Medikamente bald deutlich teurer machen - Watson.de",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTWdJN3drNlBIbVFGbGpjVGxXbDN6V2ZPaXVZcXBLakFOWndIRVhlNXJWT2t4bktnd2RyN3ZIWHF2Y1ZmTFpyNnFhb2ZHQkFaNmtDRXBFMWR2cS1QVXRNYzhKVmVBVUN5MmhDcXdVZmUxeS1tbmwxamhUdURjVTZ1cWEwY2JjWDRPQUs0eFdkY3JkNkpnaVp0YS1sYVQ2M3o3eE1hSkEtejJfTVNFTy1na0g0a0FvS3RpejliQkdPWnBmV3gyYV82Mw?oc=5",
-      "published": "2026-03-15T07:00:00+00:00",
-      "source": {
-        "name": "Watson.de",
-        "url": "https://www.watson.de"
       }
     }
   ]
