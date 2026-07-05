@@ -1,18 +1,8 @@
 {
-  "fetched_at": "2026-07-05T07:27:44.609013+00:00",
+  "fetched_at": "2026-07-05T10:15:12.521777+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
-    {
-      "id": "d70fea42325c",
-      "title": "Krebs: „Wir glauben, dass solche Therapien langfristig zu Heilungen führen können“ - WELT",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPS3p2OWo5TjI1NHZKS1BqcTdXaWkyRzRJcGlxSXhIanBzY1lzMWowNzdHNlVYQkswNFZLQzFXZ1RNN2RKWm1Jc3c2Qi12b0FoVU0tN19BdWlFSlZTeGtHZlJ5UTBMUFNxcmFTN0xQaHQxTzBwaTdXLVVLY2J1YzBzc29EWTB0Wm0zcFNGOGVfRkRveUljNWRhVVNtLXNIQW44R19Lbm8zcEx6SUpRX2JqU2p4ZXktVmMtaF8yMF9lcU1XM3dzZWJNYS1YQmxJdEJsNDlJaGNIU3pHNmowaVZYVjN3?oc=5",
-      "published": "2026-07-05T05:27:09+00:00",
-      "source": {
-        "name": "WELT",
-        "url": "https://www.welt.de"
-      }
-    },
     {
       "id": "9f7c377ed6d2",
       "title": "MFN-Modell USA: Wie US-Arzneimittelpolitik Innovationen in Europa ausbremst - vfa. Die forschenden Pharma-Unternehmen",
@@ -44,6 +34,16 @@
       }
     },
     {
+      "id": "359a638ace75",
+      "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesministerium für Gesundheit (BMG)",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNlp2UC15ODdWb214VmdueWZNQ2pWMFRyd1NZNWNVbS1iTGRTZFNNeTl1WlJJZTZPdGVZUC1DVnVZWEF0N0pla3lSMVEyVl9fLXZHU2s3Q1lVMUVvZ0JIUGVXQllJNlI4TUJIVlFBaU9jeTF3NHVhWXhRdXZGczZRdWY0bnp6UlZnNExna0d2OFRiNVZzYkFuSHFRYjBQd3NQVXNZNVYtZWlkVngxa2JHZTdfVXdzUzFL?oc=5",
+      "published": "2026-05-22T07:00:00+00:00",
+      "source": {
+        "name": "Bundesministerium für Gesundheit (BMG)",
+        "url": "https://www.bundesgesundheitsministerium.de"
+      }
+    },
+    {
       "id": "5a1cba6f6d13",
       "title": "Walgreens Boots Alliance blickt nach vorne. Pharmakette setzt auf Transformation - AD HOC NEWS",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQd1VjMXFwZ3BpS3p5WmROa1lTR2dxQkFTLXJWSXFBQlhzZFlrdm5mQTZDMkwtTDlLWS1jSVlrOUF0Sm9QV2MyMVNfX1gxNWlTODgtOEx3LThmcjFTaHFMa0tfT09VdTRFbTFxeFI2YngzVW5mTExReXJtZkV2eVBGel9CeDJDQWFlQzNWdlB1SlhPNFpiMzJzUFNOY1JQYXNpRHZieTFnLVZVUmFzWGVVdnRBbHRXc3NUdS1vbEQ2RHc?oc=5",
@@ -54,13 +54,13 @@
       }
     },
     {
-      "id": "359a638ace75",
-      "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesministerium für Gesundheit (BMG)",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNlp2UC15ODdWb214VmdueWZNQ2pWMFRyd1NZNWNVbS1iTGRTZFNNeTl1WlJJZTZPdGVZUC1DVnVZWEF0N0pla3lSMVEyVl9fLXZHU2s3Q1lVMUVvZ0JIUGVXQllJNlI4TUJIVlFBaU9jeTF3NHVhWXhRdXZGczZRdWY0bnp6UlZnNExna0d2OFRiNVZzYkFuSHFRYjBQd3NQVXNZNVYtZWlkVngxa2JHZTdfVXdzUzFL?oc=5",
-      "published": "2026-05-22T07:00:00+00:00",
+      "id": "d70fea42325c",
+      "title": "Krebs: „Wir glauben, dass solche Therapien langfristig zu Heilungen führen können“ - WELT",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPS3p2OWo5TjI1NHZKS1BqcTdXaWkyRzRJcGlxSXhIanBzY1lzMWowNzdHNlVYQkswNFZLQzFXZ1RNN2RKWm1Jc3c2Qi12b0FoVU0tN19BdWlFSlZTeGtHZlJ5UTBMUFNxcmFTN0xQaHQxTzBwaTdXLVVLY2J1YzBzc29EWTB0Wm0zcFNGOGVfRkRveUljNWRhVVNtLXNIQW44R19Lbm8zcEx6SUpRX2JqU2p4ZXktVmMtaF8yMF9lcU1XM3dzZWJNYS1YQmxJdEJsNDlJaGNIU3pHNmowaVZYVjN3?oc=5",
+      "published": "2026-07-03T07:00:00+00:00",
       "source": {
-        "name": "Bundesministerium für Gesundheit (BMG)",
-        "url": "https://www.bundesgesundheitsministerium.de"
+        "name": "WELT",
+        "url": "https://www.welt.de"
       }
     },
     {
@@ -154,6 +154,16 @@
       }
     },
     {
+      "id": "95d55d1267a1",
+      "title": "Mit Abnehmspritze Kilos loswerden - was ist dran an Ozempic & Co.? - NDR.de",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaGFzLTFfUHozOUJiWWtWdlRPUm5mZ0VkMGMxLVVGcmxmMzlONHZRV21qZmFHYUo3d2gzV3VDVm9OUHp6Qk4wQjlZTHU3V3RnckthWTZSbVpVMGE1VWxiMFMtVVJCSWdWb3hibzlscllodzVwWmpDMS1ZOXNxYkFfQVJzdlRzeGRQOWdtcW55UVRNSE16QmhJZXhVYmRmYl9iUmJBN1g2cG8?oc=5",
+      "published": "2026-03-11T07:00:00+00:00",
+      "source": {
+        "name": "NDR.de",
+        "url": "https://www.ndr.de"
+      }
+    },
+    {
       "id": "9fa13ce5acf5",
       "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
@@ -174,16 +184,6 @@
       }
     },
     {
-      "id": "0bc7c014a500",
-      "title": "Umfrage: Jeder Zweite hat gewünschte Arzneimittel nicht erhalten - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTy1pV2pHcVhZLXNFb05nT00xaVNrWkpUa0diY1ZtVkIzVDJ0T3dJdGMwWWRvMmtaUXZ5RDU3S1JaMzJGTldiVGY5ekNTTVBucXpsd1otZUV3a0QtdUxvc2gyZkY5cEsxVzE1cHBrUjZIQURsRkdlbVRCZ1MzTU5qSTZZZ3BTaGlUS2ZkVjBjZmFQclBGbGYzbDV1RGhaY2ZkM0Fhd2dn?oc=5",
-      "published": "2026-06-22T07:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "f71a91a6c39f",
       "title": "Engpässe bei Arzneimitteln: Geopolitik erschwert Europas Streben nach Unabhängigkeit - Euractiv",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQ2lScFVHU3ZELWZOdzJOUGU2YUQ3c2ZpbWhIYWFiVUNoRFZHTm5JM1BfUWVnanhicnRvanhQdGx4UHVuTnZ5dG4ySEY4eVE3dUxGaXVLSm5sM1liQzRtc19GVVE3RkNnUGhhTkhZTXAtMkhWZ3JqOVREWlhfRnBSX1FPRXlaaUE5d2d6cFVEakt5NDJaUkgzXzA3TUpqUUJTbzhRQXFpbmZCTGMwdlRDSXR3cHNjZw?oc=5",
@@ -191,36 +191,6 @@
       "source": {
         "name": "Euractiv",
         "url": "https://euractiv.com"
-      }
-    },
-    {
-      "id": "faedc9b85abf",
-      "title": "Onkologische Arzneimittel: Analyse der Marktsituation - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQNnExTHV1THdfWUcxWkNWR1RRbGtDZGxFMmF5QnhsNlFJREdUUElYTThIUnFDaDNvM2hJM2pydmJ5cWs5dG9CZTRNRV9aWjlXWjcwam53elhVakdKUVBBaEw1WVFaRnR3S2ItMURLUlh1bF85d21PSmN1aUZITTYxZjJ2cDkwZDJHQnZmZ2huY2hOb0tQZkxXYjZLdWVGSENPbHE4NEx5elItSlRPaXlRenJWcVBQUGUxMmxjX2ZjR1M3NC1KMTlHOEFmTVdnVXVXRmt6LUNkcTdWYndSbUNKVlRpYw?oc=5",
-      "published": "2026-06-02T19:23:09+00:00",
-      "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
-      }
-    },
-    {
-      "id": "95d55d1267a1",
-      "title": "Mit Abnehmspritze Kilos loswerden - was ist dran an Ozempic & Co.? - NDR.de",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaGFzLTFfUHozOUJiWWtWdlRPUm5mZ0VkMGMxLVVGcmxmMzlONHZRV21qZmFHYUo3d2gzV3VDVm9OUHp6Qk4wQjlZTHU3V3RnckthWTZSbVpVMGE1VWxiMFMtVVJCSWdWb3hibzlscllodzVwWmpDMS1ZOXNxYkFfQVJzdlRzeGRQOWdtcW55UVRNSE16QmhJZXhVYmRmYl9iUmJBN1g2cG8?oc=5",
-      "published": "2026-03-11T07:00:00+00:00",
-      "source": {
-        "name": "NDR.de",
-        "url": "https://www.ndr.de"
-      }
-    },
-    {
-      "id": "4ca2f5472729",
-      "title": "Welcia setzt auf Wachstum im japanischen Arzneimittelhandel. Drogeriekette stärkt ihr Filialnetz - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMFM0dm5NcER5aGpSazZ5MTJVbHRPSkt1NEQyM0FfZHVSSnNjYW5vUTdITHZzeW1HZG8wQnhrRldHTENwWnBubnVwS2VtZ1lDbnBfX3RzQ2c0TUhiWFZEVzllUHRJRGZlQ0FweFUyRTNRRWFhOVlNdDQ4RG4zdmhvd0U3UzI1MjRyQ2NMbGNQalBDWXloZmtWbU1QWXVnRHVwTTk0SFhMS1hnblF3S05ZZDhkOVNDTEtpREZRMlF5R2Y5RzdvZUhQV01zMzY?oc=5",
-      "published": "2026-07-04T13:20:33+00:00",
-      "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -264,16 +234,6 @@
       }
     },
     {
-      "id": "3afb898694b2",
-      "title": "Demenz: Bis zu 50 Prozent aller Fälle sind vermeidbar - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQb3Z3dktyeUFxNVpqeDMxMnR4U0dqM1B1aHFyUk5MX0F6Wjc4eGl6TFlYLW1mYnBJMmlON21ERGI0SEU5RVZSdVdOd1JjQ1lzaXNkV0U5MHlRZmtCZnJGTkVfNnBHWEIyU0pkcnBwdC1UQ1A0M2UtVzltSFNkUXhxSkRCOGpfa1JaVmk1andZVWVacTkwYlA1bUlVT3ZaUVVGeXBmaA?oc=5",
-      "published": "2026-07-05T01:40:03+00:00",
-      "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "9f9b35e4948f",
       "title": "Gesundheit: So will die EU Engpässe bei Fiebersaft & Co. verhindern - WirtschaftsWoche",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNOUY3SndFdHc5MWdPYWkzRjVIbzFjcG9Kcmd6NEdmbEN4ejBkU01hd2ZvdGpjT1hYcjIwOHQzY0F4TjZBWDJ3Z0UtbkdvbExoWWhJTFZlZjZzNG00RnhoU0VPNXlxeFFhQzZpbWhBbnlhMUl2Y0JXanhFREpBSzNMNFU4OFNnNDMtWWc5dmFpUTRhRS1WV1pMSlNIOUh6NER6U0U2OUZ6YVdHV0ZBUTFHWlkxajg3QQ?oc=5",
@@ -314,6 +274,16 @@
       }
     },
     {
+      "id": "4ca2f5472729",
+      "title": "Welcia setzt auf Wachstum im japanischen Arzneimittelhandel. Drogeriekette stärkt ihr Filialnetz - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMFM0dm5NcER5aGpSazZ5MTJVbHRPSkt1NEQyM0FfZHVSSnNjYW5vUTdITHZzeW1HZG8wQnhrRldHTENwWnBubnVwS2VtZ1lDbnBfX3RzQ2c0TUhiWFZEVzllUHRJRGZlQ0FweFUyRTNRRWFhOVlNdDQ4RG4zdmhvd0U3UzI1MjRyQ2NMbGNQalBDWXloZmtWbU1QWXVnRHVwTTk0SFhMS1hnblF3S05ZZDhkOVNDTEtpREZRMlF5R2Y5RzdvZUhQV01zMzY?oc=5",
+      "published": "2026-07-04T13:20:33+00:00",
+      "source": {
+        "name": "AD HOC NEWS",
+        "url": "https://www.ad-hoc-news.de"
+      }
+    },
+    {
       "id": "1bb1a7cdbb92",
       "title": "Arzneimittelüberwachung - schleswig-holstein.de",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRnFVbGVSc1N0RXg0Tmw5WnF1VDNTU3liRXRGQloyYlF1bDhkZl9RS0J6ZmdTenB1WjVvdjZJSElYQm9JbTlVYnNnMlI4SjhZZjAyb1hTVTVjczhoQVUwSFI4OU9aU0NOemk3eG9MT2ZtVXVoTXJzdGI3NmVnMm53Mll2bDB6OVRvQTkwbmFEQVRZVF9YM1Jja0lWY3VRSVBENDBYZlFkWFVTQ0hTWUM4eWtrODVLTko1R2owWW5jWGhVRkllNWhJSUlEaXNzZw?oc=5",
@@ -321,6 +291,26 @@
       "source": {
         "name": "schleswig-holstein.de",
         "url": "https://www.schleswig-holstein.de"
+      }
+    },
+    {
+      "id": "3afb898694b2",
+      "title": "Demenz: Bis zu 50 Prozent aller Fälle sind vermeidbar - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQb3Z3dktyeUFxNVpqeDMxMnR4U0dqM1B1aHFyUk5MX0F6Wjc4eGl6TFlYLW1mYnBJMmlON21ERGI0SEU5RVZSdVdOd1JjQ1lzaXNkV0U5MHlRZmtCZnJGTkVfNnBHWEIyU0pkcnBwdC1UQ1A0M2UtVzltSFNkUXhxSkRCOGpfa1JaVmk1andZVWVacTkwYlA1bUlVT3ZaUVVGeXBmaA?oc=5",
+      "published": "2026-07-05T01:40:03+00:00",
+      "source": {
+        "name": "AD HOC NEWS",
+        "url": "https://www.ad-hoc-news.de"
+      }
+    },
+    {
+      "id": "6e56e1c99277",
+      "title": "Onkologische Arzneimittel: Analyse der Marktsituation - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMi1WQVZnaGJPSm9GcVAzRWlGSHRDRVg2MXhXMTJUenNuQUpRcElfbjBDZVp3Y3Z1UUNzNm5PSUY0eVdXMWcyQ3J0WkUxSjVSY0xxWFJ5X0lJc3Y1VExsallLS24xQUxyUVMyTDdsWUtnTThIZjc2TWZsdGpWMlMxUDVfXzVmeXZNdlhwZGNWb0VXbFZnVEVYOFVHSmxtUjBFVEU2alRzVlpCMlJ4?oc=5",
+      "published": "2026-03-25T12:43:53+00:00",
+      "source": {
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
       }
     },
     {
@@ -351,6 +341,16 @@
       "source": {
         "name": "Deutschlandfunk",
         "url": "https://www.deutschlandfunk.de"
+      }
+    },
+    {
+      "id": "edcf559b1a0c",
+      "title": "EU-Gesundheitskommissar prüft Folgen von Trumps Arzneipreispolitik - Euronews",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSzM5cWFmcTJfV010WWVadkdEVXRGblFEUTlhaUhoOThvaHV5eTJuWFVJbUtyMW9xNTJkYzNIR2Z6YWp0ZE1IWmNPb3pNcU5YY1phcUlQSU5IWWtvV0MzNDlqdHJZRU40alRPU29CWFVnUDBjLXE3UHhtV2pManQ4TzhzVEU3OHNDM2JJZm9ZbzBUbkVCRFRZYU1jMTl2UVdGRnhubmZZYWswcmZqbXAtbW5QcnRBTktIaHFFWg?oc=5",
+      "published": "2026-06-16T07:00:00+00:00",
+      "source": {
+        "name": "Euronews",
+        "url": "https://de.euronews.com"
       }
     },
     {
@@ -454,23 +454,13 @@
       }
     },
     {
-      "id": "47afc2884d76",
-      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - geo.de",
+      "id": "b6f8a06fd285",
+      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - GEO.de",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
       "published": "2026-06-19T07:00:00+00:00",
       "source": {
-        "name": "geo.de",
+        "name": "GEO.de",
         "url": "https://www.geo.de"
-      }
-    },
-    {
-      "id": "5de715e07a67",
-      "title": "Um den Patienten den Zugang zu Medikamenten zu erleichtern, sind in Long Chau nun 12 innovative Medikamente erhältlich. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRzIxTEE0MF9naHNPRlJOSlpQS0JicU5sY0UzYU9OMHRzSy1peGZqTzhUQ2I3dlV4S3p4RXhwNGdYVEpkRlF0WTRlWUR2X2xMY1BsUUF6TXZqQWxtM2VFXzlxMERXdzBXYXJOV2k1a0dJTm5ENklRVVZ2NlFvNFZhSXRvSWNnRjB2YnpVRGkzcEhITHYyRjRDM3JTckhXRy14aThIelcwYmlXd0hVdDFDUnBn?oc=5",
-      "published": "2026-07-04T05:50:41+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -481,6 +471,16 @@
       "source": {
         "name": "Berliner Morgenpost",
         "url": "https://www.morgenpost.de"
+      }
+    },
+    {
+      "id": "5de715e07a67",
+      "title": "Um den Patienten den Zugang zu Medikamenten zu erleichtern, sind in Long Chau nun 12 innovative Medikamente erhältlich. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRzIxTEE0MF9naHNPRlJOSlpQS0JicU5sY0UzYU9OMHRzSy1peGZqTzhUQ2I3dlV4S3p4RXhwNGdYVEpkRlF0WTRlWUR2X2xMY1BsUUF6TXZqQWxtM2VFXzlxMERXdzBXYXJOV2k1a0dJTm5ENklRVVZ2NlFvNFZhSXRvSWNnRjB2YnpVRGkzcEhITHYyRjRDM3JTckhXRy14aThIelcwYmlXd0hVdDFDUnBn?oc=5",
+      "published": "2026-07-04T05:50:41+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -604,16 +604,6 @@
       }
     },
     {
-      "id": "bb586737a822",
-      "title": "Cosmos Pharm setzt auf Wachstum im japanischen Gesundheitsmarkt. Fokus auf Apothekennetz und effizie - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQRXVfQnJ4YkZvUUJHazBMcU84MmFySDVpck1rWlByRzIwalBYR2VubTZ5Z1BFa0JEV01PZ19vVlUtbDgxRDdyR2pEUEY5SEl5Y0NIVDRJOWFhWTlEdDlKQjNyeHN5N2Y3alJsLXhOOWIxZE5weVFNdll6SklKcVVBQk52M3Vqby1CeTFNR0hqbzNwR3FTNGFMeFlFOTNBY0IyWUdaWTZHQzVfUkNuRGwydGpla1VlZi15aDVDblFBeE1lbWJkelIzYVRNU1o?oc=5",
-      "published": "2026-07-04T05:22:51+00:00",
-      "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "8f7a16a55972",
       "title": "Arzneimittelpreise: Medikamente in Deutschland günstiger als USA trotz Trump-Deals - SZ.de",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdnBJZGx2V2VkNEJfQy1NTDk2NFJXOE5MY3k2VE1yNmxuZzNiWWNlalNjN0MzTjJzSUwxTDRPRTlJai1XeXVUODNhaGlrRXJhaVpJdVQ0eV9mNHc1QWZkaXhtUTVfdjZNWEU2eWptcVk1WkNUZHJNRUpNQzM2TXduRFpPS0tTbjhtajdRWmtMbTM2N1owQ1I1Y2g1MmJiUzNpdnc?oc=5",
@@ -641,6 +631,16 @@
       "source": {
         "name": "schleswig-holstein.de",
         "url": "https://www.schleswig-holstein.de"
+      }
+    },
+    {
+      "id": "bb586737a822",
+      "title": "Cosmos Pharm setzt auf Wachstum im japanischen Gesundheitsmarkt. Fokus auf Apothekennetz und effizie - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQRXVfQnJ4YkZvUUJHazBMcU84MmFySDVpck1rWlByRzIwalBYR2VubTZ5Z1BFa0JEV01PZ19vVlUtbDgxRDdyR2pEUEY5SEl5Y0NIVDRJOWFhWTlEdDlKQjNyeHN5N2Y3alJsLXhOOWIxZE5weVFNdll6SklKcVVBQk52M3Vqby1CeTFNR0hqbzNwR3FTNGFMeFlFOTNBY0IyWUdaWTZHQzVfUkNuRGwydGpla1VlZi15aDVDblFBeE1lbWJkelIzYVRNU1o?oc=5",
+      "published": "2026-07-04T05:22:51+00:00",
+      "source": {
+        "name": "AD HOC NEWS",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -864,16 +864,6 @@
       }
     },
     {
-      "id": "8cfc3dce6c94",
-      "title": "Johnson & Johnson setzt auf stabile Gesundheitsumsätze. Der US-Konzern bleibt ein Schwergewicht im - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNdVJ6dlZIdXExbHhiN05DaWpDalpnekFGeVhrNWpSSXVXZEJxeXllTzFvSGU4Z09ZSWVjMHdUb1VjbXRIbHplWHJQY1BObXZ6d1RBX1FXV3RIY1ZnREtHQTJqR3NxV0dLMkkxZkhabXM4UjVuSFVXM1ZSdmZKbHlRTmZNZFhMTlNjTW9acElraWtJVGg4N3p2SEJKVnRYa2JaUzRBYUhOSnlJRk9pWm1RZ3NUSW9WVzdDUl9HeQ?oc=5",
-      "published": "2026-07-03T12:20:27+00:00",
-      "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "445f92c7e54b",
       "title": "Wundermittel oder Wahnsinn? Der riskante Hype um Methylenblau - NDR.de",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZjdVekdjMzQzUFRaQlJaZW5GM3l0bmZFay1iTWxoVXpOLWFfTkVQejhNU1FwSTR6Q1RETXRFYm56enYwNm8tZXBXZlRmb0JKalI4REI2dEVNcUh6NHhMMDBlTkNkOXRaTU1hS2ZXNWZhVnk3TUthaFpuTFh2c3NtVUNmcUtYc290bFI1MERTaDFjaXNNcDFpczNjX004TUV4MjBjdWFhM2F1dXF4bktZQWtvS0hGUHM?oc=5",
@@ -891,6 +881,16 @@
       "source": {
         "name": "Tagesspiegel",
         "url": "https://www.tagesspiegel.de"
+      }
+    },
+    {
+      "id": "8cfc3dce6c94",
+      "title": "Johnson & Johnson setzt auf stabile Gesundheitsumsätze. Der US-Konzern bleibt ein Schwergewicht im - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNdVJ6dlZIdXExbHhiN05DaWpDalpnekFGeVhrNWpSSXVXZEJxeXllTzFvSGU4Z09ZSWVjMHdUb1VjbXRIbHplWHJQY1BObXZ6d1RBX1FXV3RIY1ZnREtHQTJqR3NxV0dLMkkxZkhabXM4UjVuSFVXM1ZSdmZKbHlRTmZNZFhMTlNjTW9acElraWtJVGg4N3p2SEJKVnRYa2JaUzRBYUhOSnlJRk9pWm1RZ3NUSW9WVzdDUl9HeQ?oc=5",
+      "published": "2026-07-03T12:20:27+00:00",
+      "source": {
+        "name": "AD HOC NEWS",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
