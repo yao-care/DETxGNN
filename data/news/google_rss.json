@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-06T19:59:52.871887+00:00",
+  "fetched_at": "2026-07-06T21:43:54.966399+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -34,16 +34,6 @@
       }
     },
     {
-      "id": "302166f50d6d",
-      "title": "Pharma-Lobby: Gnadenloser Kampf gegen die Gesundheitsreform - WirtschaftsWoche",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQb3NSejFqVWdpTVNCdDFPZGVQREdYZWh5SjI5dmlfQWZXNU5LQ2dKck9xaTRJTVFSUEp5SDFUUFdNbi1HbGJyOHBxdE44Q0MyQm1NZWxYb1ZSeklMck5uRXI0OVliajd3MjNWY1VPYVFQU05XUHRYZmwyZnB4aGhjWHJjTUtWcjR5WUc0bzJydjRiMW5PTUhnQUd4dGlNd3J3YzJVMjh3VWVNUTctQU81QndRdTYwdw?oc=5",
-      "published": "2026-07-06T18:26:18+00:00",
-      "source": {
-        "name": "WirtschaftsWoche",
-        "url": "https://www.wiwo.de"
-      }
-    },
-    {
       "id": "f24895134c0e",
       "title": "Wenn Medikamente gefährlich werden - vor allem bei Hitze im Sommer - brisant.de",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPaHdjaXN6c1JpaHBMWVRFUHZISXBFLTZ3TGxyNmxNMzhhc2lxMUVGOFpub3RPeDVvZUg0dnd0OXFGV2NBRm0xS1N4c1c3OGdfTUxmaW55d2VET3FZaXVmRnlWRnppVTB2Z3kxakFKRVNTZXdjeU5jZE1BU1JsbXgyMl9JTDhTOWxjbkI1UHBPVGVNdFB6RzZVbml0TnB1aW51NXgzWkZuOVNzTTNHTVpHNHZIRURzbUJwSDVFSXBiMWhtSzZhUk9JUFFCVXNCZjZjaERqMzBpcw?oc=5",
@@ -51,6 +41,16 @@
       "source": {
         "name": "brisant.de",
         "url": "https://www.brisant.de"
+      }
+    },
+    {
+      "id": "302166f50d6d",
+      "title": "Pharma-Lobby: Gnadenloser Kampf gegen die Gesundheitsreform - WirtschaftsWoche",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQb3NSejFqVWdpTVNCdDFPZGVQREdYZWh5SjI5dmlfQWZXNU5LQ2dKck9xaTRJTVFSUEp5SDFUUFdNbi1HbGJyOHBxdE44Q0MyQm1NZWxYb1ZSeklMck5uRXI0OVliajd3MjNWY1VPYVFQU05XUHRYZmwyZnB4aGhjWHJjTUtWcjR5WUc0bzJydjRiMW5PTUhnQUd4dGlNd3J3YzJVMjh3VWVNUTctQU81QndRdTYwdw?oc=5",
+      "published": "2026-07-06T18:26:18+00:00",
+      "source": {
+        "name": "WirtschaftsWoche",
+        "url": "https://www.wiwo.de"
       }
     },
     {
@@ -164,13 +164,23 @@
       }
     },
     {
-      "id": "dbeab7190637",
-      "title": "Walgreens Boots Alliance setzt auf Apothekennetz. Der Gesundheitsdienstleister arbeitet an einer sta - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNaXR2eWVLYkxHZF95U3hMV3NDazlwQm02UWo3ZDFSVGNXbjFOMm1sSHVlSmdBNjhlVXYyZEFrSENTWHNJNFBzaVk4SElSbDFJUzYyUjF1TUpWVU43VlJPbVR6UHZaZ0N2b0xvUU1OalJnbEFmQnI2cE0tV0xQNDBsN3hVNmJJQjNnMXJKUkRadExJQ3h5TWFRTTltWnFaNUFncVBEdE5NZG4tbDk0OGpabw?oc=5",
-      "published": "2026-07-06T12:21:07+00:00",
+      "id": "95d55d1267a1",
+      "title": "Mit Abnehmspritze Kilos loswerden - was ist dran an Ozempic & Co.? - NDR.de",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaGFzLTFfUHozOUJiWWtWdlRPUm5mZ0VkMGMxLVVGcmxmMzlONHZRV21qZmFHYUo3d2gzV3VDVm9OUHp6Qk4wQjlZTHU3V3RnckthWTZSbVpVMGE1VWxiMFMtVVJCSWdWb3hibzlscllodzVwWmpDMS1ZOXNxYkFfQVJzdlRzeGRQOWdtcW55UVRNSE16QmhJZXhVYmRmYl9iUmJBN1g2cG8?oc=5",
+      "published": "2026-03-11T07:00:00+00:00",
       "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
+        "name": "NDR.de",
+        "url": "https://www.ndr.de"
+      }
+    },
+    {
+      "id": "b72b17004edd",
+      "title": "\"Europa als führende Kraft des Gesundheitswesens etablieren\" - DIE ZEIT",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWUFSVWl5WkNqWlhQaFBsaW01cEtydmdyejBaWTZhTE1wbHNXVWJpd2FiVENidldkRGRBTm5sT1NrNm5FME4xWVlTN0Y0N3AyLVY2RDVscWRHN0tLY3Q2d2EtY2YtdHBpOXVSRkhfNHB1MUd3TWVlYTh0RUpsWEpLWkdhUDdPc2Z6UlBEWXl0S01nV0lDYXJGZTF5YUQxNHZsaXJhNQ?oc=5",
+      "published": "2026-03-18T07:00:00+00:00",
+      "source": {
+        "name": "DIE ZEIT",
+        "url": "https://www.zeit.de"
       }
     },
     {
@@ -204,26 +214,6 @@
       }
     },
     {
-      "id": "95d55d1267a1",
-      "title": "Mit Abnehmspritze Kilos loswerden - was ist dran an Ozempic & Co.? - NDR.de",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaGFzLTFfUHozOUJiWWtWdlRPUm5mZ0VkMGMxLVVGcmxmMzlONHZRV21qZmFHYUo3d2gzV3VDVm9OUHp6Qk4wQjlZTHU3V3RnckthWTZSbVpVMGE1VWxiMFMtVVJCSWdWb3hibzlscllodzVwWmpDMS1ZOXNxYkFfQVJzdlRzeGRQOWdtcW55UVRNSE16QmhJZXhVYmRmYl9iUmJBN1g2cG8?oc=5",
-      "published": "2026-03-11T07:00:00+00:00",
-      "source": {
-        "name": "NDR.de",
-        "url": "https://www.ndr.de"
-      }
-    },
-    {
-      "id": "b72b17004edd",
-      "title": "\"Europa als führende Kraft des Gesundheitswesens etablieren\" - DIE ZEIT",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWUFSVWl5WkNqWlhQaFBsaW01cEtydmdyejBaWTZhTE1wbHNXVWJpd2FiVENidldkRGRBTm5sT1NrNm5FME4xWVlTN0Y0N3AyLVY2RDVscWRHN0tLY3Q2d2EtY2YtdHBpOXVSRkhfNHB1MUd3TWVlYTh0RUpsWEpLWkdhUDdPc2Z6UlBEWXl0S01nV0lDYXJGZTF5YUQxNHZsaXJhNQ?oc=5",
-      "published": "2026-03-18T07:00:00+00:00",
-      "source": {
-        "name": "DIE ZEIT",
-        "url": "https://www.zeit.de"
-      }
-    },
-    {
       "id": "3843ee8c2190",
       "title": "Gesundheit - Beipackzettel von Medikamenten sollen digital werden - Ausdrucke in Apotheken sollen Option sein - Deutschlandfunk",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOclZxcXdzdDlfTXNBVkNkV1g0a1RMa05OWGcyX0RXaW5YMmpyUElhUnBJQU9QM3BzUG9iSFZnaWE0ek1iLTFQeE1wbkVhaDdrT3pVMERnT3l3VGhoOUtuS0EtT3pwazNMMGZmcmI1Z2puUHg1WWc5MzBXdHJma0l0dWNlNEhQdFdBUXF5X0V3OVRQWVA1RXFJNXJtbTVGMjNYQVlSWjNrdEttY0pQMXF0dWlwdGNUVWpFcF83a3RyX0oxSWpLaFVmc2NoVEhGNXc?oc=5",
@@ -244,20 +234,10 @@
       }
     },
     {
-      "id": "06954e03d289",
-      "title": "Merck & Co. setzt auf stabile Pharmapipeline. Langfristiger Fokus auf verschreibungspflichtige Medik - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPV1VtVFh6VW5QbDhhZ0ZUY21HTEVhMnVEeDdCTmxVWmZKTGlEVjNHNzRRMkJmTEl0TnRQb1FMTmxLZVNnVVlidTdUWDA2ZnlfWDdfLWMyYnFSbDlwVnR3MjhfWUl4SWpIVmx2SnpWMHVndkNzU0ZodUNSMzhYdEhjUFBZOWo5TGpTOXhwRTh3VVRRZUQ3WUJvcG1PNlN3UjQwQXMzLW9UbXYxaGU5R3lOQ0plSzJvM2ZsbWh2OU11UWtCUGhqMlpj?oc=5",
-      "published": "2026-07-06T16:09:48+00:00",
-      "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
-      "id": "e10a3c5eac11",
-      "title": "Walgreens Boots Alliance im Fokus. US9314271019 bleibt ein zentraler Gesundheitswert - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVlg3SzkyNGxySV9pQk12aUU3SnFFSTd3dWNjY2I5akJZaEhnWTBkb2kxM3lETnpXQkpEZ0EyTFVjTGdpVm9yVXRjb1psd2dMdWU3WTg4ZXE4Y0VKcEpROUx1YVlOREtvMEU5Szl5ZlprTzItbHVLTllqVHVNMEdvRm8tdXluOTVjeFJsY2VHTUZPYkRERWxKb1A2TEUxbkFDYlhodjRSQWM5QVFNN3FtRXdZUTBnX1NDTFprejlqUHVOeWt6?oc=5",
-      "published": "2026-07-06T06:10:32+00:00",
+      "id": "dbeab7190637",
+      "title": "Walgreens Boots Alliance setzt auf Apothekennetz. Der Gesundheitsdienstleister arbeitet an einer sta - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNaXR2eWVLYkxHZF95U3hMV3NDazlwQm02UWo3ZDFSVGNXbjFOMm1sSHVlSmdBNjhlVXYyZEFrSENTWHNJNFBzaVk4SElSbDFJUzYyUjF1TUpWVU43VlJPbVR6UHZaZ0N2b0xvUU1OalJnbEFmQnI2cE0tV0xQNDBsN3hVNmJJQjNnMXJKUkRadExJQ3h5TWFRTTltWnFaNUFncVBEdE5NZG4tbDk0OGpabw?oc=5",
+      "published": "2026-07-06T12:21:07+00:00",
       "source": {
         "name": "AD HOC NEWS",
         "url": "https://www.ad-hoc-news.de"
@@ -291,6 +271,26 @@
       "source": {
         "name": "tagesschau.de",
         "url": "https://www.tagesschau.de"
+      }
+    },
+    {
+      "id": "06954e03d289",
+      "title": "Merck & Co. setzt auf stabile Pharmapipeline. Langfristiger Fokus auf verschreibungspflichtige Medik - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPV1VtVFh6VW5QbDhhZ0ZUY21HTEVhMnVEeDdCTmxVWmZKTGlEVjNHNzRRMkJmTEl0TnRQb1FMTmxLZVNnVVlidTdUWDA2ZnlfWDdfLWMyYnFSbDlwVnR3MjhfWUl4SWpIVmx2SnpWMHVndkNzU0ZodUNSMzhYdEhjUFBZOWo5TGpTOXhwRTh3VVRRZUQ3WUJvcG1PNlN3UjQwQXMzLW9UbXYxaGU5R3lOQ0plSzJvM2ZsbWh2OU11UWtCUGhqMlpj?oc=5",
+      "published": "2026-07-06T16:09:48+00:00",
+      "source": {
+        "name": "AD HOC NEWS",
+        "url": "https://www.ad-hoc-news.de"
+      }
+    },
+    {
+      "id": "e10a3c5eac11",
+      "title": "Walgreens Boots Alliance im Fokus. US9314271019 bleibt ein zentraler Gesundheitswert - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVlg3SzkyNGxySV9pQk12aUU3SnFFSTd3dWNjY2I5akJZaEhnWTBkb2kxM3lETnpXQkpEZ0EyTFVjTGdpVm9yVXRjb1psd2dMdWU3WTg4ZXE4Y0VKcEpROUx1YVlOREtvMEU5Szl5ZlprTzItbHVLTllqVHVNMEdvRm8tdXluOTVjeFJsY2VHTUZPYkRERWxKb1A2TEUxbkFDYlhodjRSQWM5QVFNN3FtRXdZUTBnX1NDTFprejlqUHVOeWt6?oc=5",
+      "published": "2026-07-06T06:10:32+00:00",
+      "source": {
+        "name": "AD HOC NEWS",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -394,23 +394,13 @@
       }
     },
     {
-      "id": "edcf559b1a0c",
-      "title": "EU-Gesundheitskommissar prüft Folgen von Trumps Arzneipreispolitik - Euronews",
+      "id": "08f761ee3a89",
+      "title": "EU-Gesundheitskommissar prüft Folgen von Trumps Arzneipreispolitik - Euronews.com",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSzM5cWFmcTJfV010WWVadkdEVXRGblFEUTlhaUhoOThvaHV5eTJuWFVJbUtyMW9xNTJkYzNIR2Z6YWp0ZE1IWmNPb3pNcU5YY1phcUlQSU5IWWtvV0MzNDlqdHJZRU40alRPU29CWFVnUDBjLXE3UHhtV2pManQ4TzhzVEU3OHNDM2JJZm9ZbzBUbkVCRFRZYU1jMTl2UVdGRnhubmZZYWswcmZqbXAtbW5QcnRBTktIaHFFWg?oc=5",
       "published": "2026-06-16T07:00:00+00:00",
       "source": {
-        "name": "Euronews",
+        "name": "Euronews.com",
         "url": "https://de.euronews.com"
-      }
-    },
-    {
-      "id": "39655c0e5aa9",
-      "title": "Gesundheit - Techniker Krankenkasse fordert geringere Medikamentenpreise - Deutschlandfunk",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOX3NDaWYzNk9TdlEwcHJfWDNzMFpsdFN5aUNwNHJTZjhocklJMURaWDlKdWdDR21aNHpwcDU5UGd6d285RXE0QUlvekdsd3VqMTdGazRKbFdRV0VLbVoxbzBNbXVJeElpcFJKTmxpTzAwcFhJZG5PSlhoQW1sTlUxaGNDTUttWmEwdEVMOHpMQWNYWmFmUkhRa2UzVzR2VVFP?oc=5",
-      "published": "2026-01-15T08:00:00+00:00",
-      "source": {
-        "name": "Deutschlandfunk",
-        "url": "https://www.deutschlandfunk.de"
       }
     },
     {
@@ -421,16 +411,6 @@
       "source": {
         "name": "Deutschlandfunk",
         "url": "https://www.deutschlandfunk.de"
-      }
-    },
-    {
-      "id": "de64fb743128",
-      "title": "Johnson & Johnson im Fokus. Gesundheitsriese bleibt Stabilitätsanker - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQbXJGWmpEWXl2R2haVHFmX3kwN2p3RmRMNWliZ1ZKMkxseWd5N2VmYTM1bGh5THM2djlGU3didE15MC1QUF9MTk5wdUJkWXFpZHdrclROM0NQc0FUT0xleGotQndfaElMaFZWMmdFSm9GSm9MV2F3OEJZeXRfUnVrV1ViQnliY1pDWjgwQ3A3bWlGbjlXTlZoZDg2OGJhNFBnbVMwODNXemlGMzhDWS0wa0I5UTA0Mkd4NUZvdGpxbG9janlHTERXVQ?oc=5",
-      "published": "2026-07-06T06:41:05+00:00",
-      "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -474,6 +454,16 @@
       }
     },
     {
+      "id": "39655c0e5aa9",
+      "title": "Gesundheit - Techniker Krankenkasse fordert geringere Medikamentenpreise - Deutschlandfunk",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOX3NDaWYzNk9TdlEwcHJfWDNzMFpsdFN5aUNwNHJTZjhocklJMURaWDlKdWdDR21aNHpwcDU5UGd6d285RXE0QUlvekdsd3VqMTdGazRKbFdRV0VLbVoxbzBNbXVJeElpcFJKTmxpTzAwcFhJZG5PSlhoQW1sTlUxaGNDTUttWmEwdEVMOHpMQWNYWmFmUkhRa2UzVzR2VVFP?oc=5",
+      "published": "2026-01-15T08:00:00+00:00",
+      "source": {
+        "name": "Deutschlandfunk",
+        "url": "https://www.deutschlandfunk.de"
+      }
+    },
+    {
       "id": "5fd73dc2932c",
       "title": "Menschen und Arzneimittel: Hitze gefährdet alle - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1SOVJuZkZFZTdsNFlWTmNONVQxN2ZFbnh0M045WmxqeGV6cHZ4Z1c4Z2xnYjkwUXNUcTJvWkptS0NHUUxocGIwZm04ejc3TFM2ZU5hNmtlZUtjQ2VTMWwtcEtRX0YxSXdCcE5UY252Z2dHWURtVGxn?oc=5",
@@ -481,6 +471,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "de64fb743128",
+      "title": "Johnson & Johnson im Fokus. Gesundheitsriese bleibt Stabilitätsanker - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQbXJGWmpEWXl2R2haVHFmX3kwN2p3RmRMNWliZ1ZKMkxseWd5N2VmYTM1bGh5THM2djlGU3didE15MC1QUF9MTk5wdUJkWXFpZHdrclROM0NQc0FUT0xleGotQndfaElMaFZWMmdFSm9GSm9MV2F3OEJZeXRfUnVrV1ViQnliY1pDWjgwQ3A3bWlGbjlXTlZoZDg2OGJhNFBnbVMwODNXemlGMzhDWS0wa0I5UTA0Mkd4NUZvdGpxbG9janlHTERXVQ?oc=5",
+      "published": "2026-07-06T06:41:05+00:00",
+      "source": {
+        "name": "AD HOC NEWS",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -584,16 +584,6 @@
       }
     },
     {
-      "id": "8dce1ff85348",
-      "title": "Erstattung: Gericht sieht Abnehmspritze als Lifestyle-Medikament - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdThMaUs3T0FfWmlEYnNHWkw3VHVTX3R4MUptMEUySkkwZk1OY19nU0xZcF9KT0IweUNoTzhzV2RkUUJhRl9Jdk8zTTgxeHlTbmV6a1R3NUx2ZDc1c0RMSVcyLU9NazE5aURIaW1FTzZhUTQ3U2JmQkhydXRHUEZXR1pGX0ZUODFRaWh0S3RDdzIxQ2hOMkZMc0VaZWdsTVlw?oc=5",
-      "published": "2026-05-11T07:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "a43852bf5366",
       "title": "vfa zum Kommissionsbericht: Sparmaßnahmen für Pharmaindustrie im Faktencheck - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaGl6UGU2SlFIcnhfcTBza2E0aTZxOEEwd2xOWmxUT3hwYzYzSDRsSGJZa3g0U3BwTWpQdm01enFWcUVYeFhtR0d2SkJDQmVURmpFa0x0LXpYRTEzd1dtbmxyVWE2NVpZcE1DamxIT2kybUxscTV0QnZtTmVNRW1uLUxOeUw2cUlUZFRQUmdCYXZ4UEF4TFJuY092eU4tZw?oc=5",
@@ -604,13 +594,13 @@
       }
     },
     {
-      "id": "bcef033d2bcc",
-      "title": "Gesundheitsvorsorge - Arzneimittel-Überwachung - schleswig-holstein.de",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOeE80cXNlV3RkMlM5WUhkbVM5amVOZy0zdm9LMlN6dS1IRlVjMDJzcW9GWF9SMmdUUVd5dDJ0THpRejN5emROc180bmNuQjlGVWUwdE9mSFdHMUJyLVRfcTJoSHBRWDlFZ2tvSFlCNGtMTnpIV2dLQk5uMzY4YWY1U0N6cVdmdmdaVEoyTnlXc2x3bFNJT3NfckhVa1ZfZExJLVZRaXZEaW1abVVVQWVXTWg4MTg4WEU2bDFBaw?oc=5",
-      "published": "2025-08-29T07:00:00+00:00",
+      "id": "8dce1ff85348",
+      "title": "Erstattung: Gericht sieht Abnehmspritze als Lifestyle-Medikament - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdThMaUs3T0FfWmlEYnNHWkw3VHVTX3R4MUptMEUySkkwZk1OY19nU0xZcF9KT0IweUNoTzhzV2RkUUJhRl9Jdk8zTTgxeHlTbmV6a1R3NUx2ZDc1c0RMSVcyLU9NazE5aURIaW1FTzZhUTQ3U2JmQkhydXRHUEZXR1pGX0ZUODFRaWh0S3RDdzIxQ2hOMkZMc0VaZWdsTVlw?oc=5",
+      "published": "2026-05-11T07:00:00+00:00",
       "source": {
-        "name": "schleswig-holstein.de",
-        "url": "https://www.schleswig-holstein.de"
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -634,6 +624,16 @@
       }
     },
     {
+      "id": "7a99adaec5c0",
+      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - Geo.de",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
+      "published": "2026-06-19T07:00:00+00:00",
+      "source": {
+        "name": "Geo.de",
+        "url": "https://www.geo.de"
+      }
+    },
+    {
       "id": "e5c9f6b52b1b",
       "title": "Weil Gesundheit alles verändert - Handelsblatt Live",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9VQXU3d2J3REtJeXBaWlQ0UTVlRWJDR2U3cTBJRFNaVlBYenpnNmp1QXZJLXB1WFQxY1dOQjJhMGRwVVZTNEE2eWVMZVd0bVZTSzEyOHY2R0NVd2dKVllzVEM3NDRoNEZKUkthRDdSTHA?oc=5",
@@ -651,6 +651,26 @@
       "source": {
         "name": "SZ.de",
         "url": "https://www.sueddeutsche.de"
+      }
+    },
+    {
+      "id": "bcef033d2bcc",
+      "title": "Gesundheitsvorsorge - Arzneimittel-Überwachung - schleswig-holstein.de",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOeE80cXNlV3RkMlM5WUhkbVM5amVOZy0zdm9LMlN6dS1IRlVjMDJzcW9GWF9SMmdUUVd5dDJ0THpRejN5emROc180bmNuQjlGVWUwdE9mSFdHMUJyLVRfcTJoSHBRWDlFZ2tvSFlCNGtMTnpIV2dLQk5uMzY4YWY1U0N6cVdmdmdaVEoyTnlXc2x3bFNJT3NfckhVa1ZfZExJLVZRaXZEaW1abVVVQWVXTWg4MTg4WEU2bDFBaw?oc=5",
+      "published": "2025-08-29T07:00:00+00:00",
+      "source": {
+        "name": "schleswig-holstein.de",
+        "url": "https://www.schleswig-holstein.de"
+      }
+    },
+    {
+      "id": "85a03dbbfe05",
+      "title": "Wahlkampf Baden-Württemberg: Rülke: »Gute Gesundheit geht nur mit öffentlichen Apotheken« - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbDY3aENWRUZGTC15UlN4YlFuU0JEdUkxREFqNzQtN282NElEbHZWRlRveVpDTzFUTml2c1ZYNTFUWnliQl81SC1VdVctWUk2UGJ6UWI4cW82Z1IydG5iN2FUR21ST3gweUJNOW94VGxkemJuRC1tY2NvZERfVndyekRMbFc0TjVIdGJYUGVGVzJnOFRRNS1RamtZb1F5b2VseUNPRUowYmVKUQ?oc=5",
+      "published": "2026-02-03T08:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -674,26 +694,6 @@
       }
     },
     {
-      "id": "85a03dbbfe05",
-      "title": "Wahlkampf Baden-Württemberg: Rülke: »Gute Gesundheit geht nur mit öffentlichen Apotheken« - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbDY3aENWRUZGTC15UlN4YlFuU0JEdUkxREFqNzQtN282NElEbHZWRlRveVpDTzFUTml2c1ZYNTFUWnliQl81SC1VdVctWUk2UGJ6UWI4cW82Z1IydG5iN2FUR21ST3gweUJNOW94VGxkemJuRC1tY2NvZERfVndyekRMbFc0TjVIdGJYUGVGVzJnOFRRNS1RamtZb1F5b2VseUNPRUowYmVKUQ?oc=5",
-      "published": "2026-02-03T08:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
-      "id": "e6d4fd732f31",
-      "title": "Cigna Group stärkt ihre Rolle im US-Gesundheitsmarkt. Fokus auf Versicherung und Service - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdk41R21SSE12QUVxVXJlcWFoYmsxTGkyMVJIeVV1dzNzYlliYTRKSERUcDVlb3EzbUZQWmpyTFZIUW5KS2YwYVdfZk5sLUExV2hnU2FRV0stZHYyQllkd0xwMVhSNmJfSWxvTjBqU0hOcHNJYUgwdzF0TkEwT1p2SWtKWi1rTWx6bnhaZzh0MUJvUEQzQk5TNDE1UEFTV2hGd3U4NE5WWHdKZVdkYjJScktyc2lwUEhzRVdSUUdGZw?oc=5",
-      "published": "2026-07-02T09:11:41+00:00",
-      "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "73821728fb6f",
       "title": "Rezeptfreie Medikamente aus der Drogerie könnten das Apothekensterben verschärfen - SWR",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUlBVMkRsMVdkYXV3YXFVd3k4Z1pMSGdoVTNOTXo0UV8wR1RBbmVCZVltV3ZBdGZndnM3V1NVMlVZOFhmUEJwNXlPbDRfcU5jV2FZcUNDd2txVnFwdjNNb3JWWkRncExiSDI0WnEtdUdEbEtGcVdqOGFJRzc0T3ZkY0N4aHE4V21aZmROazk4eG9mUUJXY2RqVXZCYTZLcU5NSnVDaHBYMXhzUQ?oc=5",
@@ -701,6 +701,16 @@
       "source": {
         "name": "SWR",
         "url": "https://www.swr.de"
+      }
+    },
+    {
+      "id": "e7fc237accfb",
+      "title": "Medikamente im DM-Drogeriemarkt – Apotheken laufen Sturm - STERN.de",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMG5SMnM4aXU5czJ1S2dnUzdMeFBmb3IxQVBKWGVvcVB0eUJQUjkxRU00RHEtQlRjVU1EM0Z2WF95SG85WDJPSjVNcjRTWFM1OHVXNm5pdVAxZGtDcHJTSXFpSDAtdUstM0JISWRKcEI5OXRXZ2hXSzQ3cFJqb0g5N0ZRajJtY21JUmRNNmZweXg1bEpuOXc0Rk9CNENaMHNOYTc4OGtjZw?oc=5",
+      "published": "2025-12-16T08:00:00+00:00",
+      "source": {
+        "name": "STERN.de",
+        "url": "https://www.stern.de"
       }
     },
     {
@@ -714,13 +724,13 @@
       }
     },
     {
-      "id": "e7fc237accfb",
-      "title": "Medikamente im DM-Drogeriemarkt – Apotheken laufen Sturm - STERN.de",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMG5SMnM4aXU5czJ1S2dnUzdMeFBmb3IxQVBKWGVvcVB0eUJQUjkxRU00RHEtQlRjVU1EM0Z2WF95SG85WDJPSjVNcjRTWFM1OHVXNm5pdVAxZGtDcHJTSXFpSDAtdUstM0JISWRKcEI5OXRXZ2hXSzQ3cFJqb0g5N0ZRajJtY21JUmRNNmZweXg1bEpuOXc0Rk9CNENaMHNOYTc4OGtjZw?oc=5",
-      "published": "2025-12-16T08:00:00+00:00",
+      "id": "e6d4fd732f31",
+      "title": "Cigna Group stärkt ihre Rolle im US-Gesundheitsmarkt. Fokus auf Versicherung und Service - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdk41R21SSE12QUVxVXJlcWFoYmsxTGkyMVJIeVV1dzNzYlliYTRKSERUcDVlb3EzbUZQWmpyTFZIUW5KS2YwYVdfZk5sLUExV2hnU2FRV0stZHYyQllkd0xwMVhSNmJfSWxvTjBqU0hOcHNJYUgwdzF0TkEwT1p2SWtKWi1rTWx6bnhaZzh0MUJvUEQzQk5TNDE1UEFTV2hGd3U4NE5WWHdKZVdkYjJScktyc2lwUEhzRVdSUUdGZw?oc=5",
+      "published": "2026-07-02T09:11:41+00:00",
       "source": {
-        "name": "STERN.de",
-        "url": "https://www.stern.de"
+        "name": "AD HOC NEWS",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -774,16 +784,6 @@
       }
     },
     {
-      "id": "47afc2884d76",
-      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - geo.de",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
-      "published": "2026-06-19T07:00:00+00:00",
-      "source": {
-        "name": "geo.de",
-        "url": "https://www.geo.de"
-      }
-    },
-    {
       "id": "d5c5b2664af2",
       "title": "Elsner: „Tabaksteuer rauf, Mehrwertsteuer für Arzneimittel runter“ - gesundheit adhoc",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNY2RTS1F1NUhmVDdYalQ1TlF1b0hFWmJqclp2RmMxZlFFZnI0MjI4bTNFWHZ0VDc2bXNvbUlSenNrZWMyMi1mRDZGaVQ3c2w3SkZybE5PZVRVYlJDd0l0UFpiTG40Snp5SDlybVVnZXFGdXFNUGphblMxSnI2d09UTmpPemNQYmtKbHVhenRIdVVxYmo0ZUNHZVF2UXQ?oc=5",
@@ -834,23 +834,13 @@
       }
     },
     {
-      "id": "a1246c849d26",
-      "title": "Diese Medikamente können Alzheimer vorbeugen - Euronews",
+      "id": "d226bb3cd766",
+      "title": "Diese Medikamente können Alzheimer vorbeugen - Euronews.com",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZHd6NGpWcXV5WTFGMzRvX2tlV2dyb0hISS1yMmhxY2RXeXhUa1pCS3RpLTVHNGpOam56S2cxd05wc1Q3UWU3QUN4bVpRYmo1TkNDNS1fVkVwbHNHeWpMQ1paWjU2cG1Ha1NpQXJzWTFTRG9sbU1pSkNLNWdpLU5UaDV3UWlfaUNyNjhtUndXZw?oc=5",
       "published": "2026-02-08T08:00:00+00:00",
       "source": {
-        "name": "Euronews",
+        "name": "Euronews.com",
         "url": "https://de.euronews.com"
-      }
-    },
-    {
-      "id": "83c249b21029",
-      "title": "Sanofi im Fokus. Forschungsstärke und globaler Gesundheitsmarkt - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQLVpoVGNiUWs4NmtUQzJ0b1NSZnk1bFVRV1QydnpheWtaOFNDUlJFTTlEVVFJZldSNTdiWHdob09OT1hSeXVUQzZaZXFQRnRITlJVdUd1Rkp2WDBxbU5rc2tyd2x2VkhJRnZVUlJBb0Q2MjdCRVFLaFRENEhMR1dhZDFoRGFmOF83OXdYaktvRHJsWHE1VTI2cEFQbVRlamxBcVc0UUtnSVB5U2tUbmdLWl9abTVUelRnckg1S2V1aw?oc=5",
-      "published": "2026-07-05T06:34:27+00:00",
-      "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -861,6 +851,16 @@
       "source": {
         "name": "NDR.de",
         "url": "https://www.ndr.de"
+      }
+    },
+    {
+      "id": "83c249b21029",
+      "title": "Sanofi im Fokus. Forschungsstärke und globaler Gesundheitsmarkt - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQLVpoVGNiUWs4NmtUQzJ0b1NSZnk1bFVRV1QydnpheWtaOFNDUlJFTTlEVVFJZldSNTdiWHdob09OT1hSeXVUQzZaZXFQRnRITlJVdUd1Rkp2WDBxbU5rc2tyd2x2VkhJRnZVUlJBb0Q2MjdCRVFLaFRENEhMR1dhZDFoRGFmOF83OXdYaktvRHJsWHE1VTI2cEFQbVRlamxBcVc0UUtnSVB5U2tUbmdLWl9abTVUelRnckg1S2V1aw?oc=5",
+      "published": "2026-07-05T06:34:27+00:00",
+      "source": {
+        "name": "AD HOC NEWS",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -924,16 +924,6 @@
       }
     },
     {
-      "id": "965e1762ff04",
-      "title": "GKV in der Krise : Warken erwägt höhere Zuzahlungen für Arzneimittel - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdWlXOXMzZ2lzMTIwYlBfSUlPNFBUOEpGRkgzckx4QUQ4dVE2NVhRTzlZNTdPYm9halZadmVzQ0s3Z0VKUUNhUUFIOTFQQkhEQWttNGJ3SE9PQklubDU5WE8wZFQ1aFN2TnhEWUhBY3pzTU85dDRUWU1qVEF6dkxHN1NRYVl3M2tuTFdfUW5hQ1owSllpSjFYVHVTY1cwcHR5?oc=5",
-      "published": "2025-10-09T07:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "781b7b5013b5",
       "title": "Hendrik Streeck wirft Frage nach teuren Medikamenten für sehr Alte auf - STERN.de",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNN1JrNFg0ZXh4dVBQLTJfdU9ORHBmWC1vTGlDT1Y1RkFJZm80QkhtY3JqUEtadDFHcE5GVWFQRVc5V3VYVzZtVWFwdS0xTFl4c2FKT2VDY1owOHc4b1pxeVZLUnJVWWp6WXZLd012YnlZXzRHdm1vNWN0MFNGVzRteUZNekFFR1dDTklBei04cTA0M1RvM2YwWWxPVk05aW1wWHBFX0wwTV9zTGgxcVU4SHBRUkRyMzRR?oc=5",
@@ -944,13 +934,13 @@
       }
     },
     {
-      "id": "d40b701c7e8e",
-      "title": "Merck & Co. setzt auf stabile Pharma-Erlöse. Langfristige Forschung prägt das Bild - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNRUhBN3oteEdRYWZpVHFXcWkzQXpuRWJwNlc4aHBDN2FBSmlUWEQxSDFrUUNPb3ZfeGI5bGhWWUZtUTZYSklBNXo4dnVfYi1PbVJoSTIyM012cHF5TzNXUWJZS3UwTm1YTjVTZTlJcXMwY0I4RGlUTGItUnFWV1FaOXRoWHJZN0x4eG9IVEJTSE8wc0lvR0doYy1JdTM1TVFmS1E1ZWhEQVhnN2lockVOelN6R3dmV1JiZ1BjVVZ5eHNuV1YxYWc?oc=5",
-      "published": "2026-07-03T18:57:48+00:00",
+      "id": "965e1762ff04",
+      "title": "GKV in der Krise : Warken erwägt höhere Zuzahlungen für Arzneimittel - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdWlXOXMzZ2lzMTIwYlBfSUlPNFBUOEpGRkgzckx4QUQ4dVE2NVhRTzlZNTdPYm9halZadmVzQ0s3Z0VKUUNhUUFIOTFQQkhEQWttNGJ3SE9PQklubDU5WE8wZFQ1aFN2TnhEWUhBY3pzTU85dDRUWU1qVEF6dkxHN1NRYVl3M2tuTFdfUW5hQ1owSllpSjFYVHVTY1cwcHR5?oc=5",
+      "published": "2025-10-09T07:00:00+00:00",
       "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -961,6 +951,16 @@
       "source": {
         "name": "Tagesspiegel",
         "url": "https://www.tagesspiegel.de"
+      }
+    },
+    {
+      "id": "d40b701c7e8e",
+      "title": "Merck & Co. setzt auf stabile Pharma-Erlöse. Langfristige Forschung prägt das Bild - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNRUhBN3oteEdRYWZpVHFXcWkzQXpuRWJwNlc4aHBDN2FBSmlUWEQxSDFrUUNPb3ZfeGI5bGhWWUZtUTZYSklBNXo4dnVfYi1PbVJoSTIyM012cHF5TzNXUWJZS3UwTm1YTjVTZTlJcXMwY0I4RGlUTGItUnFWV1FaOXRoWHJZN0x4eG9IVEJTSE8wc0lvR0doYy1JdTM1TVFmS1E1ZWhEQVhnN2lockVOelN6R3dmV1JiZ1BjVVZ5eHNuV1YxYWc?oc=5",
+      "published": "2026-07-03T18:57:48+00:00",
+      "source": {
+        "name": "AD HOC NEWS",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
