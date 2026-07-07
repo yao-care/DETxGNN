@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-07T21:35:26.576458+00:00",
+  "fetched_at": "2026-07-07T23:03:24.510235+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -164,16 +164,6 @@
       }
     },
     {
-      "id": "e7be2df5c947",
-      "title": "Was sich hinter der Abnehmpille verbirgt - GMX",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9tVkplVzJxa2RrcnRmUDdyR1NGTER6dmRSa21sT015WVkyNFFoVjMwOXgyT2dTQlYzMTIybEZHVmxOMDFBY1RVc0xnZUI5UlU1bEMwS1lOUDNnMmM4TFpseXdQbjhtWmhwNlZTcnBZZWotbGF3VzNOVQ?oc=5",
-      "published": "2026-07-07T14:30:47+00:00",
-      "source": {
-        "name": "GMX",
-        "url": "https://www.gmx.net"
-      }
-    },
-    {
       "id": "963c12681658",
       "title": "Gutachten: PFAS in Arzneimitteln sind oft ersetzbar - Öko-Test",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcmFwTWtsWWNqb3BaNFc3UFNBT0VDcmRFbC1falEyOVlfNGlwT0FTVklPc2lKRWpFeTRVbmVrT2FkbW95SHFNeGZxdHQ1RzdicGxuNmQzTDNXb2FETWlVd3lIbU43Z2tFdThxYVJEb3RKdXJqT3NSYXQ5ZzRuNlZVRUw2RlNEZkRhRlVfLUpBWGx5cnBPRkJXNThjTk5wcjIyUFJqR0o0NFBRcEkwWUE1RQ?oc=5",
@@ -221,6 +211,16 @@
       "source": {
         "name": "DW.com",
         "url": "https://www.dw.com"
+      }
+    },
+    {
+      "id": "e7be2df5c947",
+      "title": "Was sich hinter der Abnehmpille verbirgt - GMX",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9tVkplVzJxa2RrcnRmUDdyR1NGTER6dmRSa21sT015WVkyNFFoVjMwOXgyT2dTQlYzMTIybEZHVmxOMDFBY1RVc0xnZUI5UlU1bEMwS1lOUDNnMmM4TFpseXdQbjhtWmhwNlZTcnBZZWotbGF3VzNOVQ?oc=5",
+      "published": "2026-07-07T14:30:47+00:00",
+      "source": {
+        "name": "GMX",
+        "url": "https://www.gmx.net"
       }
     },
     {
@@ -364,16 +364,6 @@
       }
     },
     {
-      "id": "b1da6c2869dc",
-      "title": "Redcare Pharmacy setzt auf digitales Apothekengeschäft. Die Online-Apotheke fokussiert Wachstum im - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQTdFTjBQWXJ1VWxZQTg4eTd6ZlB3TEs2b0JFSGRFX3lwQ0ExWVh1TnJMZi0zVEpiU3lUVFhLbXZnd1dITmtfUEVBOWh4YzlOd2lfSC1KcFRjd3k3Wko2MERha0hHTGJPREZSa1dOcDhsdGZfQUpKMGNCb1JuQzlyTVpMbVZqYVcxSVRFSk9WNEIycjdpSkVNcjRranpzVGhYSHRPZUNKUThjWVlPRDg2VXRKeUl3TG42c2c?oc=5",
-      "published": "2026-07-07T09:40:29+00:00",
-      "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "d04f77528724",
       "title": "Arzneimittel: Apothekerverband registriert deutlich gestiegene Ausgaben für Arzneien - DIE ZEIT",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQnNYX0ZIOXRaeWxnUDA2UTMwRG5DVmhTUmNKWlNTRTJQLVNWbDAzaXpIY2FEQ0dzaTRFYzNPSE9zUEVfU2F1WkZoZmt3NWhMMkI2VkhwbU9maWFPdnBnRXdKOU8taHRHakljeUstTHlNRUxGbVNQQ3dQckcwSlhIZnZYLVFmblBWeVhVWC1NTmE3ZjhaY0x5Z092VC1Rd2tZa20wUlBxU2tpMlRrWkpnNFJYb3Jpdw?oc=5",
@@ -401,6 +391,16 @@
       "source": {
         "name": "Deutschlandfunk",
         "url": "https://www.deutschlandfunk.de"
+      }
+    },
+    {
+      "id": "b1da6c2869dc",
+      "title": "Redcare Pharmacy setzt auf digitales Apothekengeschäft. Die Online-Apotheke fokussiert Wachstum im - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQTdFTjBQWXJ1VWxZQTg4eTd6ZlB3TEs2b0JFSGRFX3lwQ0ExWVh1TnJMZi0zVEpiU3lUVFhLbXZnd1dITmtfUEVBOWh4YzlOd2lfSC1KcFRjd3k3Wko2MERha0hHTGJPREZSa1dOcDhsdGZfQUpKMGNCb1JuQzlyTVpMbVZqYVcxSVRFSk9WNEIycjdpSkVNcjRranpzVGhYSHRPZUNKUThjWVlPRDg2VXRKeUl3TG42c2c?oc=5",
+      "published": "2026-07-07T09:40:29+00:00",
+      "source": {
+        "name": "AD HOC NEWS",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -664,16 +664,6 @@
       }
     },
     {
-      "id": "8d5c421af2dc",
-      "title": "Merck & Co. setzt auf stabile Medikamentenumsätze. Der US-Pharmakonzern bleibt ein Schwergewicht im - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNR25vQVo4eHlxbmkxT1ZqS1lDNnYyN2J4Tlg5Q29RWWphWl9IRWpxSVN1M3BUTGZuSjBORExqRmdaUUQwSDZrd0Nwa19NaTFRWkxxdGkwMW1SdC1TQ21zc25ITUV0aTM4RHpiQjRxaFVVVjYxYXB6LUJmZ19TVEpsYklobmh3ajFxU3hfajZ1MG4wS2o1UDM5dmNOOUd4N3RITDNKcC03aUJJdnZ6Q2FhS281dU4?oc=5",
-      "published": "2026-07-06T10:01:35+00:00",
-      "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "27daef187974",
       "title": "Medikamente im DM-Drogeriemarkt – Apotheken laufen Sturm - stern.de",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMG5SMnM4aXU5czJ1S2dnUzdMeFBmb3IxQVBKWGVvcVB0eUJQUjkxRU00RHEtQlRjVU1EM0Z2WF95SG85WDJPSjVNcjRTWFM1OHVXNm5pdVAxZGtDcHJTSXFpSDAtdUstM0JISWRKcEI5OXRXZ2hXSzQ3cFJqb0g5N0ZRajJtY21JUmRNNmZweXg1bEpuOXc0Rk9CNENaMHNOYTc4OGtjZw?oc=5",
@@ -681,6 +671,16 @@
       "source": {
         "name": "stern.de",
         "url": "https://www.stern.de"
+      }
+    },
+    {
+      "id": "8d5c421af2dc",
+      "title": "Merck & Co. setzt auf stabile Medikamentenumsätze. Der US-Pharmakonzern bleibt ein Schwergewicht im - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNR25vQVo4eHlxbmkxT1ZqS1lDNnYyN2J4Tlg5Q29RWWphWl9IRWpxSVN1M3BUTGZuSjBORExqRmdaUUQwSDZrd0Nwa19NaTFRWkxxdGkwMW1SdC1TQ21zc25ITUV0aTM4RHpiQjRxaFVVVjYxYXB6LUJmZ19TVEpsYklobmh3ajFxU3hfajZ1MG4wS2o1UDM5dmNOOUd4N3RITDNKcC03aUJJdnZ6Q2FhS281dU4?oc=5",
+      "published": "2026-07-06T10:01:35+00:00",
+      "source": {
+        "name": "AD HOC NEWS",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -694,16 +694,6 @@
       }
     },
     {
-      "id": "e10a3c5eac11",
-      "title": "Walgreens Boots Alliance im Fokus. US9314271019 bleibt ein zentraler Gesundheitswert - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVlg3SzkyNGxySV9pQk12aUU3SnFFSTd3dWNjY2I5akJZaEhnWTBkb2kxM3lETnpXQkpEZ0EyTFVjTGdpVm9yVXRjb1psd2dMdWU3WTg4ZXE4Y0VKcEpROUx1YVlOREtvMEU5Szl5ZlprTzItbHVLTllqVHVNMEdvRm8tdXluOTVjeFJsY2VHTUZPYkRERWxKb1A2TEUxbkFDYlhodjRSQWM5QVFNN3FtRXdZUTBnX1NDTFprejlqUHVOeWt6?oc=5",
-      "published": "2026-07-06T06:10:32+00:00",
-      "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "59d03ee6896b",
       "title": "Medikamente ohne Zuzahlung können ungesunde Nebenwirkungen haben - MDR.de",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOa1BRZ1RkZDlsQTQtUVVvek1KQlI2S2I5eUVpaHh0cGxseUJubDAxX01JeC1qRmczWTNSYWdhSnNMa3FGY2M3ZlcxVFo5UXpVMUt5RUw2T3VJMXZmdTlKOTYtaGtzY1EzZFpSVVM2UWY3YXpjM3lMOU8wMlJRbnlJY1FuTXcyMURpdHBsaVFvSDBmSm9NaGwtR3BWUEQ0c2FsTmpuZ3VnX2RkM05weXYtZkRxY2VZV3ZBWUp0OFk4RVd5MUFjZExvLXJKUjBXdWMzQzVud1RR?oc=5",
@@ -711,6 +701,16 @@
       "source": {
         "name": "MDR.de",
         "url": "https://www.mdr.de"
+      }
+    },
+    {
+      "id": "e10a3c5eac11",
+      "title": "Walgreens Boots Alliance im Fokus. US9314271019 bleibt ein zentraler Gesundheitswert - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVlg3SzkyNGxySV9pQk12aUU3SnFFSTd3dWNjY2I5akJZaEhnWTBkb2kxM3lETnpXQkpEZ0EyTFVjTGdpVm9yVXRjb1psd2dMdWU3WTg4ZXE4Y0VKcEpROUx1YVlOREtvMEU5Szl5ZlprTzItbHVLTllqVHVNMEdvRm8tdXluOTVjeFJsY2VHTUZPYkRERWxKb1A2TEUxbkFDYlhodjRSQWM5QVFNN3FtRXdZUTBnX1NDTFprejlqUHVOeWt6?oc=5",
+      "published": "2026-07-06T06:10:32+00:00",
+      "source": {
+        "name": "AD HOC NEWS",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -744,26 +744,6 @@
       }
     },
     {
-      "id": "3fc715d76d03",
-      "title": "Novo Nordisk A/ S setzt auf Wachstum. Pharma-Spezialist bleibt im Fokus der Anleger - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZE5SdjhaaGhZU2ktdTBGcDBCWEg1X1JEU3J6NWFrbWkyaXBNUHF4em5hQVRHWkJZVk45Y2k1NWlsc0p3WTZsMHpGS1V5ZEpxSHVvbWtSZXhUSGZKOXM5dHViYTlCOFd2bUlTN3c0SzdaM0E1TVItOTZIeVdValdfNmlOUXVYNmpCM3JaWWhpT1BlUmNzSDBJdDVKR2t0THoyVXc0cWhTUnloRXdkLUhjRGNJLUNNRlNSOUlXb1JXNGpNMHptcjVMQXRRZ2Q?oc=5",
-      "published": "2026-07-07T06:05:20+00:00",
-      "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
-      "id": "dbeab7190637",
-      "title": "Walgreens Boots Alliance setzt auf Apothekennetz. Der Gesundheitsdienstleister arbeitet an einer sta - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNaXR2eWVLYkxHZF95U3hMV3NDazlwQm02UWo3ZDFSVGNXbjFOMm1sSHVlSmdBNjhlVXYyZEFrSENTWHNJNFBzaVk4SElSbDFJUzYyUjF1TUpWVU43VlJPbVR6UHZaZ0N2b0xvUU1OalJnbEFmQnI2cE0tV0xQNDBsN3hVNmJJQjNnMXJKUkRadExJQ3h5TWFRTTltWnFaNUFncVBEdE5NZG4tbDk0OGpabw?oc=5",
-      "published": "2026-07-06T12:21:07+00:00",
-      "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "a74eabe9a107",
       "title": "Chaos beim Medikamentenplan? Apothekerin gibt Patienten wichtigen Rat - Berliner Morgenpost",
       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPdzBBc19hQkIzamE0TDVNM2h5VnFnZmJVLV9sOTQtbE1WTV9DTzJpbEFzN3Z6QTZWT2hXOUxxbXdETHM3N2Nya2RrMi15ai1UcGZaMDBuNlJtbGtPN1NpMzlQcmNyVGlEZzBmV3Z4N2ZfLXU3bExILXdNSExFRkxEOWdLeTNMS3hsZFFxcnh4MDl4OGZ6aFFOSHZqNkVDSmdKd0hNVGpDNzNUdXQtb0trTkVOZ0w2cFVwZE03SjF6eVJndENWYU5sQkt1WmM?oc=5",
@@ -781,6 +761,26 @@
       "source": {
         "name": "gesundheit adhoc",
         "url": "https://www.gesundheit-adhoc.de"
+      }
+    },
+    {
+      "id": "dbeab7190637",
+      "title": "Walgreens Boots Alliance setzt auf Apothekennetz. Der Gesundheitsdienstleister arbeitet an einer sta - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNaXR2eWVLYkxHZF95U3hMV3NDazlwQm02UWo3ZDFSVGNXbjFOMm1sSHVlSmdBNjhlVXYyZEFrSENTWHNJNFBzaVk4SElSbDFJUzYyUjF1TUpWVU43VlJPbVR6UHZaZ0N2b0xvUU1OalJnbEFmQnI2cE0tV0xQNDBsN3hVNmJJQjNnMXJKUkRadExJQ3h5TWFRTTltWnFaNUFncVBEdE5NZG4tbDk0OGpabw?oc=5",
+      "published": "2026-07-06T12:21:07+00:00",
+      "source": {
+        "name": "AD HOC NEWS",
+        "url": "https://www.ad-hoc-news.de"
+      }
+    },
+    {
+      "id": "3fc715d76d03",
+      "title": "Novo Nordisk A/ S setzt auf Wachstum. Pharma-Spezialist bleibt im Fokus der Anleger - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZE5SdjhaaGhZU2ktdTBGcDBCWEg1X1JEU3J6NWFrbWkyaXBNUHF4em5hQVRHWkJZVk45Y2k1NWlsc0p3WTZsMHpGS1V5ZEpxSHVvbWtSZXhUSGZKOXM5dHViYTlCOFd2bUlTN3c0SzdaM0E1TVItOTZIeVdValdfNmlOUXVYNmpCM3JaWWhpT1BlUmNzSDBJdDVKR2t0THoyVXc0cWhTUnloRXdkLUhjRGNJLUNNRlNSOUlXb1JXNGpNMHptcjVMQXRRZ2Q?oc=5",
+      "published": "2026-07-07T06:05:20+00:00",
+      "source": {
+        "name": "AD HOC NEWS",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
