@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-08T20:21:51.794074+00:00",
+  "fetched_at": "2026-07-08T22:07:39.556809+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -17,7 +17,7 @@
       "id": "d70fea42325c",
       "title": "Krebs: „Wir glauben, dass solche Therapien langfristig zu Heilungen führen können“ - WELT",
       "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPS3p2OWo5TjI1NHZKS1BqcTdXaWkyRzRJcGlxSXhIanBzY1lzMWowNzdHNlVYQkswNFZLQzFXZ1RNN2RKWm1Jc3c2Qi12b0FoVU0tN19BdWlFSlZTeGtHZlJ5UTBMUFNxcmFTN0xQaHQxTzBwaTdXLVVLY2J1YzBzc29EWTB0Wm0zcFNGOGVfRkRveUljNWRhVVNtLXNIQW44R19Lbm8zcEx6SUpRX2JqU2p4ZXktVmMtaF8yMF9lcU1XM3dzZWJNYS1YQmxJdEJsNDlJaGNIU3pHNmowaVZYVjN3?oc=5",
-      "published": "2026-07-08T18:10:19+00:00",
+      "published": "2026-07-08T21:08:31+00:00",
       "source": {
         "name": "WELT",
         "url": "https://www.welt.de"
@@ -84,16 +84,6 @@
       }
     },
     {
-      "id": "161738a7b396",
-      "title": "Kirchheimer Kardiologe: Warum Statine ein zentraler Baustein für Herzgesundheit bleiben - Nürtinger Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOR1dhYUZyLWJ2Vnh6allyREFoUy1qNFdMVm5wN2dYU080Yl9abVZ3aGppZ05vNXRoVncwUGJyMDBFN0RZd3hMRS1BMlVrZnBaanVhQ1B5TDJSWDBaMkllSmRVU1ljWXFfZHQtU0JNWUJGb21pUV8xOGt4NVZfd3hCN3VoYVI4bF9SRTNJSHlLZnVzMmFzOTd2aVQyM0lhbDRnRUF6cEtCLXhYMVVRbGkzS29kSTZHdDhTcDdMR0pyNUp3LVNfbklIbmU5UHM5RFhzUDhHXzdrOW5VLXdKdUhIRV8wdUpBWGR4MDRJSzBacVB2SW5MN2ZaOQ?oc=5",
-      "published": "2026-07-07T22:00:00+00:00",
-      "source": {
-        "name": "Nürtinger Zeitung",
-        "url": "https://www.ntz.de"
-      }
-    },
-    {
       "id": "ff5629d3db22",
       "title": "Besins Healthcare übernimmt UniD Manufacturing - Braunschweiger Zeitung",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNl9vWVJSaTVKOHRTR19CQ2xXMWxIRVNMTkVHNGZUejJsUEJTSWp2NWU5VlB1aXJWTWNjVEpqeFVLOXdHY2MyMmdwMnhNcnhwUmk1Z2ZPcnR1SHZkQWlwZElZNTk5ajFvNDZleVo0WHJvQVpfc09IRnBBQ20xbVNPTHl0ZWVHREcxdmNOX0xmZ3Fqb0RoLWI0ekRPajFMNXdLV0h2Mk01YkU0SF80bFRGT0JyNEtXeERuckRlai1ZWk1fODF1cHRxbWtWcw?oc=5",
@@ -104,13 +94,13 @@
       }
     },
     {
-      "id": "f03a166d1704",
-      "title": "Indivior setzt auf Medikamente gegen Suchterkrankungen. Langfristiger Ansatz im Gesundheitsmarkt - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMGNtMW43UTNQVjF5MXh4OXRnSnM0QjhQRi1XaVRjSl9HdFprS2VUcWpWblVyTUs2RXVBOE10TXJWT0p1SUtRQmJNTFZuUS1WTzduR2VGMDJaUmNLcWtwd09LRmFjSlhDR2xuMzFMR2VjMEtlUDJ1TC1lVWhndDIycy1ONUphS1VpUS1jRWlqSW9DNG1Ecm9HLVpURy1TRlFpZ3dWYnRWWDl0YldxQjVXNUswekpmdHN0aFhUd0RZZHBFM0FQQkE?oc=5",
-      "published": "2026-07-08T15:05:44+00:00",
+      "id": "161738a7b396",
+      "title": "Kirchheimer Kardiologe: Warum Statine ein zentraler Baustein für Herzgesundheit bleiben - Nürtinger Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOR1dhYUZyLWJ2Vnh6allyREFoUy1qNFdMVm5wN2dYU080Yl9abVZ3aGppZ05vNXRoVncwUGJyMDBFN0RZd3hMRS1BMlVrZnBaanVhQ1B5TDJSWDBaMkllSmRVU1ljWXFfZHQtU0JNWUJGb21pUV8xOGt4NVZfd3hCN3VoYVI4bF9SRTNJSHlLZnVzMmFzOTd2aVQyM0lhbDRnRUF6cEtCLXhYMVVRbGkzS29kSTZHdDhTcDdMR0pyNUp3LVNfbklIbmU5UHM5RFhzUDhHXzdrOW5VLXdKdUhIRV8wdUpBWGR4MDRJSzBacVB2SW5MN2ZaOQ?oc=5",
+      "published": "2026-07-07T22:00:00+00:00",
       "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
+        "name": "Nürtinger Zeitung",
+        "url": "https://www.ntz.de"
       }
     },
     {
@@ -134,6 +124,16 @@
       }
     },
     {
+      "id": "2983d458a956",
+      "title": "Novartis AG rückt in den Fokus. Anleger blicken auf Pharma-Schwergewicht mit stabilem Profil - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUF8yX2RTdHktNHhVclI3a2JaYjBzUm4zOWx1N0Y2TTVfWWo3bmhsVkJzbmI3MTdXUEpRekJHQm5mR0pid0R0Q0tTaDZqdXYyR2QtV1NoUkFuVW04VTRQanJPVkNHV09KRHZEaWwtejM3NkRCdnd4dHI4bHB1NWN6RnJBTk00dERZRGRRSm9CUHdpWk1SSWFKQ2Zjc0pnZ0JydWxTcUhaRENsR1c1QXZ6UTZPZVBSMVdvUVhuN3k1NWY1TE1LUjROTDVSZw?oc=5",
+      "published": "2026-07-08T06:35:12+00:00",
+      "source": {
+        "name": "AD HOC NEWS",
+        "url": "https://www.ad-hoc-news.de"
+      }
+    },
+    {
       "id": "302166f50d6d",
       "title": "Pharma-Lobby: Gnadenloser Kampf gegen die Gesundheitsreform - WirtschaftsWoche",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQb3NSejFqVWdpTVNCdDFPZGVQREdYZWh5SjI5dmlfQWZXNU5LQ2dKck9xaTRJTVFSUEp5SDFUUFdNbi1HbGJyOHBxdE44Q0MyQm1NZWxYb1ZSeklMck5uRXI0OVliajd3MjNWY1VPYVFQU05XUHRYZmwyZnB4aGhjWHJjTUtWcjR5WUc0bzJydjRiMW5PTUhnQUd4dGlNd3J3YzJVMjh3VWVNUTctQU81QndRdTYwdw?oc=5",
@@ -154,6 +154,16 @@
       }
     },
     {
+      "id": "47afc2884d76",
+      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - geo.de",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
+      "published": "2026-06-19T07:00:00+00:00",
+      "source": {
+        "name": "geo.de",
+        "url": "https://www.geo.de"
+      }
+    },
+    {
       "id": "9fa13ce5acf5",
       "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
@@ -161,16 +171,6 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
-      }
-    },
-    {
-      "id": "2983d458a956",
-      "title": "Novartis AG rückt in den Fokus. Anleger blicken auf Pharma-Schwergewicht mit stabilem Profil - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUF8yX2RTdHktNHhVclI3a2JaYjBzUm4zOWx1N0Y2TTVfWWo3bmhsVkJzbmI3MTdXUEpRekJHQm5mR0pid0R0Q0tTaDZqdXYyR2QtV1NoUkFuVW04VTRQanJPVkNHV09KRHZEaWwtejM3NkRCdnd4dHI4bHB1NWN6RnJBTk00dERZRGRRSm9CUHdpWk1SSWFKQ2Zjc0pnZ0JydWxTcUhaRENsR1c1QXZ6UTZPZVBSMVdvUVhuN3k1NWY1TE1LUjROTDVSZw?oc=5",
-      "published": "2026-07-08T06:35:12+00:00",
-      "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -191,16 +191,6 @@
       "source": {
         "name": "AD HOC NEWS",
         "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
-      "id": "47afc2884d76",
-      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - geo.de",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
-      "published": "2026-06-19T07:00:00+00:00",
-      "source": {
-        "name": "geo.de",
-        "url": "https://www.geo.de"
       }
     },
     {
@@ -274,16 +264,6 @@
       }
     },
     {
-      "id": "9f9b35e4948f",
-      "title": "Gesundheit: So will die EU Engpässe bei Fiebersaft & Co. verhindern - WirtschaftsWoche",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNOUY3SndFdHc5MWdPYWkzRjVIbzFjcG9Kcmd6NEdmbEN4ejBkU01hd2ZvdGpjT1hYcjIwOHQzY0F4TjZBWDJ3Z0UtbkdvbExoWWhJTFZlZjZzNG00RnhoU0VPNXlxeFFhQzZpbWhBbnlhMUl2Y0JXanhFREpBSzNMNFU4OFNnNDMtWWc5dmFpUTRhRS1WV1pMSlNIOUh6NER6U0U2OUZ6YVdHV0ZBUTFHWlkxajg3QQ?oc=5",
-      "published": "2026-05-12T07:00:00+00:00",
-      "source": {
-        "name": "WirtschaftsWoche",
-        "url": "https://www.wiwo.de"
-      }
-    },
-    {
       "id": "8d5c421af2dc",
       "title": "Merck & Co. setzt auf stabile Medikamentenumsätze. Der US-Pharmakonzern bleibt ein Schwergewicht im - AD HOC NEWS",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNR25vQVo4eHlxbmkxT1ZqS1lDNnYyN2J4Tlg5Q29RWWphWl9IRWpxSVN1M3BUTGZuSjBORExqRmdaUUQwSDZrd0Nwa19NaTFRWkxxdGkwMW1SdC1TQ21zc25ITUV0aTM4RHpiQjRxaFVVVjYxYXB6LUJmZ19TVEpsYklobmh3ajFxU3hfajZ1MG4wS2o1UDM5dmNOOUd4N3RITDNKcC03aUJJdnZ6Q2FhS281dU4?oc=5",
@@ -294,13 +274,13 @@
       }
     },
     {
-      "id": "e10a3c5eac11",
-      "title": "Walgreens Boots Alliance im Fokus. US9314271019 bleibt ein zentraler Gesundheitswert - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVlg3SzkyNGxySV9pQk12aUU3SnFFSTd3dWNjY2I5akJZaEhnWTBkb2kxM3lETnpXQkpEZ0EyTFVjTGdpVm9yVXRjb1psd2dMdWU3WTg4ZXE4Y0VKcEpROUx1YVlOREtvMEU5Szl5ZlprTzItbHVLTllqVHVNMEdvRm8tdXluOTVjeFJsY2VHTUZPYkRERWxKb1A2TEUxbkFDYlhodjRSQWM5QVFNN3FtRXdZUTBnX1NDTFprejlqUHVOeWt6?oc=5",
-      "published": "2026-07-06T06:10:32+00:00",
+      "id": "9f9b35e4948f",
+      "title": "Gesundheit: So will die EU Engpässe bei Fiebersaft & Co. verhindern - WirtschaftsWoche",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNOUY3SndFdHc5MWdPYWkzRjVIbzFjcG9Kcmd6NEdmbEN4ejBkU01hd2ZvdGpjT1hYcjIwOHQzY0F4TjZBWDJ3Z0UtbkdvbExoWWhJTFZlZjZzNG00RnhoU0VPNXlxeFFhQzZpbWhBbnlhMUl2Y0JXanhFREpBSzNMNFU4OFNnNDMtWWc5dmFpUTRhRS1WV1pMSlNIOUh6NER6U0U2OUZ6YVdHV0ZBUTFHWlkxajg3QQ?oc=5",
+      "published": "2026-05-12T07:00:00+00:00",
       "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
+        "name": "WirtschaftsWoche",
+        "url": "https://www.wiwo.de"
       }
     },
     {
@@ -394,16 +374,6 @@
       }
     },
     {
-      "id": "06954e03d289",
-      "title": "Merck & Co. setzt auf stabile Pharmapipeline. Langfristiger Fokus auf verschreibungspflichtige Medik - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPV1VtVFh6VW5QbDhhZ0ZUY21HTEVhMnVEeDdCTmxVWmZKTGlEVjNHNzRRMkJmTEl0TnRQb1FMTmxLZVNnVVlidTdUWDA2ZnlfWDdfLWMyYnFSbDlwVnR3MjhfWUl4SWpIVmx2SnpWMHVndkNzU0ZodUNSMzhYdEhjUFBZOWo5TGpTOXhwRTh3VVRRZUQ3WUJvcG1PNlN3UjQwQXMzLW9UbXYxaGU5R3lOQ0plSzJvM2ZsbWh2OU11UWtCUGhqMlpj?oc=5",
-      "published": "2026-07-06T16:09:48+00:00",
-      "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "566dd4d9d4e6",
       "title": "Gesundheit: Medikamente mit Wechselwirkung? Vor diesen Fehlern schützt die ePA - Berliner Morgenpost",
       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPQnJXQjdvZFhaOHdKUjFfTHRXcU9oTF9vc21mN2U2bmNqOXF3M2o3RWIxU2R1bkx5eGRIYWJIWnF5Ty1yM0pMcW1DcG5LR2JiYlRPdFBXbUdFYmhaeVh5enZDdmY2YWlFdkQtNjVRalZKdzV0alNFbGlLWmM1c1BpcTlXcC01blFGM0dMVV83ZlpQN19kVGx3WVVKNTlXS0t0R1U2dmY0R1MwdGNzOC12MUJzcEh2M2lWendsZFphd1JxanR6elNEalAwSlRBSlczTk5jLVpvYjVQN0kyaGd3Ug?oc=5",
@@ -414,10 +384,10 @@
       }
     },
     {
-      "id": "83c249b21029",
-      "title": "Sanofi im Fokus. Forschungsstärke und globaler Gesundheitsmarkt - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQLVpoVGNiUWs4NmtUQzJ0b1NSZnk1bFVRV1QydnpheWtaOFNDUlJFTTlEVVFJZldSNTdiWHdob09OT1hSeXVUQzZaZXFQRnRITlJVdUd1Rkp2WDBxbU5rc2tyd2x2VkhJRnZVUlJBb0Q2MjdCRVFLaFRENEhMR1dhZDFoRGFmOF83OXdYaktvRHJsWHE1VTI2cEFQbVRlamxBcVc0UUtnSVB5U2tUbmdLWl9abTVUelRnckg1S2V1aw?oc=5",
-      "published": "2026-07-05T06:34:27+00:00",
+      "id": "06954e03d289",
+      "title": "Merck & Co. setzt auf stabile Pharmapipeline. Langfristiger Fokus auf verschreibungspflichtige Medik - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPV1VtVFh6VW5QbDhhZ0ZUY21HTEVhMnVEeDdCTmxVWmZKTGlEVjNHNzRRMkJmTEl0TnRQb1FMTmxLZVNnVVlidTdUWDA2ZnlfWDdfLWMyYnFSbDlwVnR3MjhfWUl4SWpIVmx2SnpWMHVndkNzU0ZodUNSMzhYdEhjUFBZOWo5TGpTOXhwRTh3VVRRZUQ3WUJvcG1PNlN3UjQwQXMzLW9UbXYxaGU5R3lOQ0plSzJvM2ZsbWh2OU11UWtCUGhqMlpj?oc=5",
+      "published": "2026-07-06T16:09:48+00:00",
       "source": {
         "name": "AD HOC NEWS",
         "url": "https://www.ad-hoc-news.de"
@@ -434,13 +404,13 @@
       }
     },
     {
-      "id": "5d8c89f1b6f0",
-      "title": "Gesundheitsökonom Kugler: \"Wir bezahlen nur wirklich nützliche Medikamente\" - MDR.de",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWDlDNjhEYjgwOHl4R3NZUWFqaEo4Qkd4OUZISDllZG9TcVJubHF1MnUwRVRPY2pZLWZFdlQzdktxelU5SktXdlBaSkIxcFJjN2dJUXJTYklvSFpOckcxSjdvRkxRM0RjRy0yUEtIRWVPWF9JZmNMc1d1NXFMWHFVajJ0LWY1cDh6Ql9aYmFUQnE4LVlGNUFIZW5IR0E5TU5nak5ESlB0d2hSU2U0UWJQeWRfZllHVkcyeGdMVi1uRlFFU25OV0dv?oc=5",
-      "published": "2026-04-26T07:00:00+00:00",
+      "id": "83c249b21029",
+      "title": "Sanofi im Fokus. Forschungsstärke und globaler Gesundheitsmarkt - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQLVpoVGNiUWs4NmtUQzJ0b1NSZnk1bFVRV1QydnpheWtaOFNDUlJFTTlEVVFJZldSNTdiWHdob09OT1hSeXVUQzZaZXFQRnRITlJVdUd1Rkp2WDBxbU5rc2tyd2x2VkhJRnZVUlJBb0Q2MjdCRVFLaFRENEhMR1dhZDFoRGFmOF83OXdYaktvRHJsWHE1VTI2cEFQbVRlamxBcVc0UUtnSVB5U2tUbmdLWl9abTVUelRnckg1S2V1aw?oc=5",
+      "published": "2026-07-05T06:34:27+00:00",
       "source": {
-        "name": "MDR.de",
-        "url": "https://www.mdr.de"
+        "name": "AD HOC NEWS",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -501,6 +471,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "5d8c89f1b6f0",
+      "title": "Gesundheitsökonom Kugler: \"Wir bezahlen nur wirklich nützliche Medikamente\" - MDR.de",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWDlDNjhEYjgwOHl4R3NZUWFqaEo4Qkd4OUZISDllZG9TcVJubHF1MnUwRVRPY2pZLWZFdlQzdktxelU5SktXdlBaSkIxcFJjN2dJUXJTYklvSFpOckcxSjdvRkxRM0RjRy0yUEtIRWVPWF9JZmNMc1d1NXFMWHFVajJ0LWY1cDh6Ql9aYmFUQnE4LVlGNUFIZW5IR0E5TU5nak5ESlB0d2hSU2U0UWJQeWRfZllHVkcyeGdMVi1uRlFFU25OV0dv?oc=5",
+      "published": "2026-04-26T07:00:00+00:00",
+      "source": {
+        "name": "MDR.de",
+        "url": "https://www.mdr.de"
       }
     },
     {
@@ -954,16 +934,6 @@
       }
     },
     {
-      "id": "80745f9d4753",
-      "title": "Gesundheitsmarkt: dm plant OTC-Angebot in Österreich - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNdHVYSEZDOFBVSGROT2l4Qi1pSEVXOXdjMGpMZmNWNTBrdjFjb004OG1xWmJtbHlSNlhMQlhUMExsSjQyMktoS1dFWVhlN1ZpWXhLR2lROW1wNVNqZXp1RkllcjBvNnIzZ2RZT3BTNVROX3lrWGgzUi1qY1RYR294M0IxUFN1ak5BaXc?oc=5",
-      "published": "2025-11-17T08:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "692ed6663b43",
       "title": "Deutsche Apotheker warnen vor Medikamentenmangel - DW.com",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWU1xaGhwXzk2bTZMYV9pdEdESnBqWVZvSnAwXzllTkVsdXYyZTlYSzdEYjktY2FySDA2THNEWUlQend3WWp5cG9uZFo1aTJMcFFINW1ZWEg3NlVDQ2UzdkRmZldhV1JRemg4U3poczloOF9QOEhha1prQnlGZ0U5T0laMXN2ZVBY0gGIAUFVX3lxTE01Wk9oR0RESDZiM1BvOU5qZmtUYk1aNUFxWlpzU3EteXRvRDQ1anBlcG52RXJ5QWdEWjB2SHJCblZSaktVZktvRTBkYUxtYzNfQVE4YXRHajc1Nk9UQllNTkt0Vi1wVjdQTTAzSElvTDRMWXZ5TEpkLUZxRTI2QUZkMVdyRGM4YUg?oc=5",
@@ -1001,6 +971,36 @@
       "source": {
         "name": "European Parliament",
         "url": "https://www.europarl.europa.eu"
+      }
+    },
+    {
+      "id": "501e9f551bd5",
+      "title": "Chronische Krankheiten: EU genehmigt erstes Medikament gegen chronische Lungenkrankheit - DIE ZEIT",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5fdjU5RzVXWjctdzZGZks3YnE4Yl82RmlVcGk5OWFzUnJKQ3J0b3FQWk05TGtZaXRTc3VkeU5WLW5zUFJqYVhlckpPcE5OdVRkWUFhOWhiRFJJZjY1WXp6ak1UN0hXWEdVVlU4Ny1YUkFkLWcwMXBJ?oc=5",
+      "published": "2025-11-18T08:00:00+00:00",
+      "source": {
+        "name": "DIE ZEIT",
+        "url": "https://www.zeit.de"
+      }
+    },
+    {
+      "id": "0d877deab3c8",
+      "title": "Usbekistan will Bezahlbarkeit von Medikamenten auf der Ebene der primären Gesundheitsversorgung verbessern - World Health Organization (WHO)",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZHcxc3ZFWkhLcWVKS3RfWW5xSUZBUFVCQkdxb1pGZGlqai1UWjE1S2s3cG5KMEJCdjFPQ0hQZnc4X0o4bVVSTHhKZURfeWRXb01vNkkzUG5CcGQ0YlZXZjZSQXBfdHVBc0l1S0MzdHBBejJUMVJTQURsS0ZQdG9HVkczVFZXdjNKZWgzZmhGdnpVdl9oZHUzRjRYOXRWLUFWTC1ZR2tBVy04NWtrM2lpYVlKNEw1eUl4TWpqT0JGZUxpdnBRbmJIUk5peENtS1VJRG1sdzR6bw?oc=5",
+      "published": "2024-11-26T08:00:00+00:00",
+      "source": {
+        "name": "World Health Organization (WHO)",
+        "url": "https://www.who.int"
+      }
+    },
+    {
+      "id": "9cec1633456c",
+      "title": "EU-Gesundheitsminister drängen auf unabhängige Arzneimittelproduktion – News - Deutsches Ärzteblatt",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPZVd0ak5vc1MzMkdFUnN2QWVUWHp1aVl5TVBDdkVTTmFSX1k4LXJlNlVBOXJnenJ3V1NRQzVYQ25Od0I3Z3l1TGlTU1hBdHVtQjdDaXI3VzVKakwxSkNCN3dEMEZBNldDb3ppa3dMNTE3NnNOT1hWcElBanJUSVFZTXNMeFJuVDlROTQzS3RNWHJreFZIdk11cWR0NmxmdlkyVmlLcmRXUEU3d3JadW9XZE5fbFY1M0tLMWxBYXo4d1l5T1BMVTBNbnJ3VEhSWkFKQkpNdQ?oc=5",
+      "published": "2025-03-26T07:00:00+00:00",
+      "source": {
+        "name": "Deutsches Ärzteblatt",
+        "url": "https://www.aerzteblatt.de"
       }
     }
   ]
