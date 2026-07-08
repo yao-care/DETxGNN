@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-08T08:31:07.480738+00:00",
+  "fetched_at": "2026-07-08T11:06:02.595888+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -7,7 +7,7 @@
       "id": "d70fea42325c",
       "title": "Krebs: „Wir glauben, dass solche Therapien langfristig zu Heilungen führen können“ - WELT",
       "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPS3p2OWo5TjI1NHZKS1BqcTdXaWkyRzRJcGlxSXhIanBzY1lzMWowNzdHNlVYQkswNFZLQzFXZ1RNN2RKWm1Jc3c2Qi12b0FoVU0tN19BdWlFSlZTeGtHZlJ5UTBMUFNxcmFTN0xQaHQxTzBwaTdXLVVLY2J1YzBzc29EWTB0Wm0zcFNGOGVfRkRveUljNWRhVVNtLXNIQW44R19Lbm8zcEx6SUpRX2JqU2p4ZXktVmMtaF8yMF9lcU1XM3dzZWJNYS1YQmxJdEJsNDlJaGNIU3pHNmowaVZYVjN3?oc=5",
-      "published": "2026-07-08T06:02:56+00:00",
+      "published": "2026-07-08T09:04:36+00:00",
       "source": {
         "name": "WELT",
         "url": "https://www.welt.de"
@@ -64,13 +64,13 @@
       }
     },
     {
-      "id": "823ae5e575ee",
-      "title": "6-R-Regel in der Pflege: Was dahintersteckt und warum sie so wichtig ist - Allgäuer Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWG90TDNVaUVHNXl4Rzc3bHZJMnlNcDFNWXNReXBCaHB1NlR1RzR2Q2l1eTBRNVpUWGpVTHk3Smw0UWR6c1RWaE9QblZZM2pvdl83ajQ4UnA0OTZHSy14Q09FSlJ1a1ZMc1VfYjFVMWt1Z3dPNkFGdjU1TzRJckRONVdLYVQwWVFSd3lOcnU5OHZ4dzVXejY0ajhSRkRwMlFmbmZLc2RYdnV0WWNpa2ZTbjM4b0F6ejJtWVBzZFNhUWF2Zw?oc=5",
-      "published": "2026-07-07T03:26:56+00:00",
+      "id": "ff5629d3db22",
+      "title": "Besins Healthcare übernimmt UniD Manufacturing - Braunschweiger Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNl9vWVJSaTVKOHRTR19CQ2xXMWxIRVNMTkVHNGZUejJsUEJTSWp2NWU5VlB1aXJWTWNjVEpqeFVLOXdHY2MyMmdwMnhNcnhwUmk1Z2ZPcnR1SHZkQWlwZElZNTk5ajFvNDZleVo0WHJvQVpfc09IRnBBQ20xbVNPTHl0ZWVHREcxdmNOX0xmZ3Fqb0RoLWI0ekRPajFMNXdLV0h2Mk01YkU0SF80bFRGT0JyNEtXeERuckRlai1ZWk1fODF1cHRxbWtWcw?oc=5",
+      "published": "2026-07-08T09:02:00+00:00",
       "source": {
-        "name": "Allgäuer Zeitung",
-        "url": "https://www.allgaeuer-zeitung.de"
+        "name": "Braunschweiger Zeitung",
+        "url": "https://www.braunschweiger-zeitung.de"
       }
     },
     {
@@ -164,12 +164,12 @@
       }
     },
     {
-      "id": "47afc2884d76",
-      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - geo.de",
+      "id": "7a99adaec5c0",
+      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - Geo.de",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
       "published": "2026-06-19T07:00:00+00:00",
       "source": {
-        "name": "geo.de",
+        "name": "Geo.de",
         "url": "https://www.geo.de"
       }
     },
@@ -284,16 +284,6 @@
       }
     },
     {
-      "id": "b1da6c2869dc",
-      "title": "Redcare Pharmacy setzt auf digitales Apothekengeschäft. Die Online-Apotheke fokussiert Wachstum im - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQTdFTjBQWXJ1VWxZQTg4eTd6ZlB3TEs2b0JFSGRFX3lwQ0ExWVh1TnJMZi0zVEpiU3lUVFhLbXZnd1dITmtfUEVBOWh4YzlOd2lfSC1KcFRjd3k3Wko2MERha0hHTGJPREZSa1dOcDhsdGZfQUpKMGNCb1JuQzlyTVpMbVZqYVcxSVRFSk9WNEIycjdpSkVNcjRranpzVGhYSHRPZUNKUThjWVlPRDg2VXRKeUl3TG42c2c?oc=5",
-      "published": "2026-07-07T09:40:29+00:00",
-      "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "b72b17004edd",
       "title": "\"Europa als führende Kraft des Gesundheitswesens etablieren\" - DIE ZEIT",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWUFSVWl5WkNqWlhQaFBsaW01cEtydmdyejBaWTZhTE1wbHNXVWJpd2FiVENidldkRGRBTm5sT1NrNm5FME4xWVlTN0Y0N3AyLVY2RDVscWRHN0tLY3Q2d2EtY2YtdHBpOXVSRkhfNHB1MUd3TWVlYTh0RUpsWEpLWkdhUDdPc2Z6UlBEWXl0S01nV0lDYXJGZTF5YUQxNHZsaXJhNQ?oc=5",
@@ -334,6 +324,16 @@
       }
     },
     {
+      "id": "b1da6c2869dc",
+      "title": "Redcare Pharmacy setzt auf digitales Apothekengeschäft. Die Online-Apotheke fokussiert Wachstum im - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQTdFTjBQWXJ1VWxZQTg4eTd6ZlB3TEs2b0JFSGRFX3lwQ0ExWVh1TnJMZi0zVEpiU3lUVFhLbXZnd1dITmtfUEVBOWh4YzlOd2lfSC1KcFRjd3k3Wko2MERha0hHTGJPREZSa1dOcDhsdGZfQUpKMGNCb1JuQzlyTVpMbVZqYVcxSVRFSk9WNEIycjdpSkVNcjRranpzVGhYSHRPZUNKUThjWVlPRDg2VXRKeUl3TG42c2c?oc=5",
+      "published": "2026-07-07T09:40:29+00:00",
+      "source": {
+        "name": "AD HOC NEWS",
+        "url": "https://www.ad-hoc-news.de"
+      }
+    },
+    {
       "id": "589684016df5",
       "title": "BStabG: Eingriffe bei Arzneimittelpreisen gefährden Versorgung - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeUNoTTU4eDVHeGxhbnMxaEROTFJyVEt6bXZSVHQ4TndNMXNfRDJ6aWF4cU9PQTlJc09uZEVUV2NMal82emdObUhlTkU5X3dNWHlFWDFiWWc0WVJyUDJYUFNndVhsUFI1WW8yelkxTnpGdk50TmFPTnFWNmxJcE1tZ1IxRnpqVU5EeWdqb0pwMmg2M0FFQi1UZDh6aGdHaXhCeHhjbWNEeXMzS19S?oc=5",
@@ -344,16 +344,6 @@
       }
     },
     {
-      "id": "de64fb743128",
-      "title": "Johnson & Johnson im Fokus. Gesundheitsriese bleibt Stabilitätsanker - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQbXJGWmpEWXl2R2haVHFmX3kwN2p3RmRMNWliZ1ZKMkxseWd5N2VmYTM1bGh5THM2djlGU3didE15MC1QUF9MTk5wdUJkWXFpZHdrclROM0NQc0FUT0xleGotQndfaElMaFZWMmdFSm9GSm9MV2F3OEJZeXRfUnVrV1ViQnliY1pDWjgwQ3A3bWlGbjlXTlZoZDg2OGJhNFBnbVMwODNXemlGMzhDWS0wa0I5UTA0Mkd4NUZvdGpxbG9janlHTERXVQ?oc=5",
-      "published": "2026-07-06T06:41:05+00:00",
-      "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "5fd73dc2932c",
       "title": "Menschen und Arzneimittel: Hitze gefährdet alle - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1SOVJuZkZFZTdsNFlWTmNONVQxN2ZFbnh0M045WmxqeGV6cHZ4Z1c4Z2xnYjkwUXNUcTJvWkptS0NHUUxocGIwZm04ejc3TFM2ZU5hNmtlZUtjQ2VTMWwtcEtRX0YxSXdCcE5UY252Z2dHWURtVGxn?oc=5",
@@ -361,6 +351,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "de64fb743128",
+      "title": "Johnson & Johnson im Fokus. Gesundheitsriese bleibt Stabilitätsanker - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQbXJGWmpEWXl2R2haVHFmX3kwN2p3RmRMNWliZ1ZKMkxseWd5N2VmYTM1bGh5THM2djlGU3didE15MC1QUF9MTk5wdUJkWXFpZHdrclROM0NQc0FUT0xleGotQndfaElMaFZWMmdFSm9GSm9MV2F3OEJZeXRfUnVrV1ViQnliY1pDWjgwQ3A3bWlGbjlXTlZoZDg2OGJhNFBnbVMwODNXemlGMzhDWS0wa0I5UTA0Mkd4NUZvdGpxbG9janlHTERXVQ?oc=5",
+      "published": "2026-07-06T06:41:05+00:00",
+      "source": {
+        "name": "AD HOC NEWS",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -421,6 +421,16 @@
       "source": {
         "name": "Deutschlandfunk",
         "url": "https://www.deutschlandfunk.de"
+      }
+    },
+    {
+      "id": "90bfc754ab77",
+      "title": "Merck & Co. zeigt Stärke. US-Pharmariese bleibt ein Anker im Gesundheitssektor - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTE9tNTFBMDhaNllNUy1BSjJ4MkJiSDBweE82Rm1UdnQwWG1fMWZpbGp2S0llb19CeWRselBOSHFlSFR3Q2hyWXh4THBwS2VBVDkzWmZ4ZG8wb3BMQkdFQ3VqYUl0V3FjdlFhXzRkdWRmekFpWUFOVkd4ei1wWHVRMEh0QUVDRnd6UVdqcHhKWWhzT0pZUXRqTUdPZHRWb1NGV3hjLTE5Z2k4Mll4ZXl3dnNmQjdIWjdqTjQzVQ?oc=5",
+      "published": "2026-07-05T06:21:10+00:00",
+      "source": {
+        "name": "AD HOC NEWS",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -634,16 +644,6 @@
       }
     },
     {
-      "id": "39655c0e5aa9",
-      "title": "Gesundheit - Techniker Krankenkasse fordert geringere Medikamentenpreise - Deutschlandfunk",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOX3NDaWYzNk9TdlEwcHJfWDNzMFpsdFN5aUNwNHJTZjhocklJMURaWDlKdWdDR21aNHpwcDU5UGd6d285RXE0QUlvekdsd3VqMTdGazRKbFdRV0VLbVoxbzBNbXVJeElpcFJKTmxpTzAwcFhJZG5PSlhoQW1sTlUxaGNDTUttWmEwdEVMOHpMQWNYWmFmUkhRa2UzVzR2VVFP?oc=5",
-      "published": "2026-01-15T08:00:00+00:00",
-      "source": {
-        "name": "Deutschlandfunk",
-        "url": "https://www.deutschlandfunk.de"
-      }
-    },
-    {
       "id": "01ff5efaad6f",
       "title": "Neue Versandregeln könnten Medikamente bald deutlich teurer machen - Watson.de",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTWdJN3drNlBIbVFGbGpjVGxXbDN6V2ZPaXVZcXBLakFOWndIRVhlNXJWT2t4bktnd2RyN3ZIWHF2Y1ZmTFpyNnFhb2ZHQkFaNmtDRXBFMWR2cS1QVXRNYzhKVmVBVUN5MmhDcXdVZmUxeS1tbmwxamhUdURjVTZ1cWEwY2JjWDRPQUs0eFdkY3JkNkpnaVp0YS1sYVQ2M3o3eE1hSkEtejJfTVNFTy1na0g0a0FvS3RpejliQkdPWnBmV3gyYV82Mw?oc=5",
@@ -651,6 +651,16 @@
       "source": {
         "name": "Watson.de",
         "url": "https://www.watson.de"
+      }
+    },
+    {
+      "id": "39655c0e5aa9",
+      "title": "Gesundheit - Techniker Krankenkasse fordert geringere Medikamentenpreise - Deutschlandfunk",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOX3NDaWYzNk9TdlEwcHJfWDNzMFpsdFN5aUNwNHJTZjhocklJMURaWDlKdWdDR21aNHpwcDU5UGd6d285RXE0QUlvekdsd3VqMTdGazRKbFdRV0VLbVoxbzBNbXVJeElpcFJKTmxpTzAwcFhJZG5PSlhoQW1sTlUxaGNDTUttWmEwdEVMOHpMQWNYWmFmUkhRa2UzVzR2VVFP?oc=5",
+      "published": "2026-01-15T08:00:00+00:00",
+      "source": {
+        "name": "Deutschlandfunk",
+        "url": "https://www.deutschlandfunk.de"
       }
     },
     {
@@ -991,16 +1001,6 @@
       "source": {
         "name": "World Health Organization (WHO)",
         "url": "https://www.who.int"
-      }
-    },
-    {
-      "id": "501e9f551bd5",
-      "title": "Chronische Krankheiten: EU genehmigt erstes Medikament gegen chronische Lungenkrankheit - DIE ZEIT",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5fdjU5RzVXWjctdzZGZks3YnE4Yl82RmlVcGk5OWFzUnJKQ3J0b3FQWk05TGtZaXRTc3VkeU5WLW5zUFJqYVhlckpPcE5OdVRkWUFhOWhiRFJJZjY1WXp6ak1UN0hXWEdVVlU4Ny1YUkFkLWcwMXBJ?oc=5",
-      "published": "2025-11-18T08:00:00+00:00",
-      "source": {
-        "name": "DIE ZEIT",
-        "url": "https://www.zeit.de"
       }
     }
   ]
