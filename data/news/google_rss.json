@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-11T19:05:29.562835+00:00",
+  "fetched_at": "2026-07-11T20:50:21.387663+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -84,16 +84,6 @@
       }
     },
     {
-      "id": "a48a34dcb337",
-      "title": "Opioide: Israel führt weltweit beim Pro-Kopf-Konsum - Jüdische Allgemeine",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1MZVF2WFVHNi01ZVZ4STRQeWMxTW9FN1lFYS1jdy0tRXhzcGRCazhCMWdWLWVpcHZzcEVNYUpqNE40OVgzYU1TazBoOXBEdkZtVEE3R3ZST0Y4WHJXcHNzWVdFdGx6aUJ6eWNIN3pEeFg0SnU0RWc?oc=5",
-      "published": "2026-07-05T07:00:00+00:00",
-      "source": {
-        "name": "Jüdische Allgemeine",
-        "url": "https://www.juedische-allgemeine.de"
-      }
-    },
-    {
       "id": "ba2cd861c019",
       "title": "Long Covid: Mit Allergiemittel und Gichtmedikament gegen die Fatigue? - Bild der Wissenschaft",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQV0oxQU95ZGdBWFV5a2lia3QwUVR1ZGFULV95ZThRRXI5SFpEZGozUU80RGxVRjZkLVowbmVLdmJXZ3g4cTQ3cFRGaV9lSkpFUEJONC1ndzVIWFN3QWhtcFlFU1F1WGkwMzFRczdJMlB0MGw5SmFJdmhDVl90S0VQNXhmWUl0STlpb0xVVzhROWNHQ3NTSU5xQ2lJU3Y5Q1h4?oc=5",
@@ -124,6 +114,16 @@
       }
     },
     {
+      "id": "a48a34dcb337",
+      "title": "Opioide: Israel führt weltweit beim Pro-Kopf-Konsum - Jüdische Allgemeine",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1MZVF2WFVHNi01ZVZ4STRQeWMxTW9FN1lFYS1jdy0tRXhzcGRCazhCMWdWLWVpcHZzcEVNYUpqNE40OVgzYU1TazBoOXBEdkZtVEE3R3ZST0Y4WHJXcHNzWVdFdGx6aUJ6eWNIN3pEeFg0SnU0RWc?oc=5",
+      "published": "2026-07-05T07:00:00+00:00",
+      "source": {
+        "name": "Jüdische Allgemeine",
+        "url": "https://www.juedische-allgemeine.de"
+      }
+    },
+    {
       "id": "5d56aefbd276",
       "title": "Patienten und die Generikabranche fordern die EU auf, auf Trumps Drohungen bezüglich der Arzneimittelpreise zu reagieren - Euractiv",
       "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOSm0tcngyMXZvMXBmQW9MbjlzWEp1d0JKLVdvV2g4NDkyQ2FxMzhhQTFHUEtyX25Tb0VTdGVPUkt0WXJEeV9QNl84MTZ3MTU0QjgtN3VWeFc3dDVuMWNjb3ZIQ2JyemdRVXJhSHFCQ21yazg4RGU5djlTSkEzdVlsdWNnOUxvWXRyRjVVNUg5N1pRSW1aX2FlOWQ4S0pYXzNkYlJmSE9GNWRmcmNBMWIwOXc0aFJybUJYLU9xUlVVLWplN3ZkNmNvQnQ3ME55TGpVcng0TkxPd2M4MDdBc3hXNVBHNA?oc=5",
@@ -151,6 +151,16 @@
       "source": {
         "name": "Presseportal",
         "url": "https://www.presseportal.de"
+      }
+    },
+    {
+      "id": "c1e5895d082a",
+      "title": "Förderung der Rolle der traditionellen Medizin bei der Pflege und Verbesserung der Gesundheit der Bevölkerung. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQY01VbnBMM0s4ZTNIeE1fMFhrXzZHdUxUc0FFNm00NUVEQ05pZFIwY29nMHNrZ3RjTlZfZG9oNW9Mbk1hbnZfMVVSa01mdWlfSEo2dVdvZHMzVXk2Vms0WWUySEJtSlZlZEp3MjNuWkIzWnkzVlFWSnNqSF9iWmlaQlFaWVpTTGxGb0JmOEVfN0wwSWRSM1VCNUh0cHJiN09uVzRpakxRSQ?oc=5",
+      "published": "2026-07-10T09:15:27+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -294,16 +304,6 @@
       }
     },
     {
-      "id": "02e9917bea66",
-      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - DW.com",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGxHSlhmSS0tbUNKdG15NEVzRzYzYllEUnAzUEU3ak53czRHVWlKdTZrRGFDMk1MUThPUjdPTnBGVENqd3d2Q1VSdWhJVXppWDF4NWh0aEJJaXJlVTlnV0VoZVFkRHNSM3p6NVZXNjNwWHk5YkxSUWR2RGZKcmp3Y2U5REY0U3dRZFJLeHFtQk9wb2Y3RUVOaVBlMlJhZ29Rck000gGjAUFVX3lxTE1rTW00WXFBajZxbTJOS1NLckhVbXFBSzh1NE96QTEydTN1YjZnaFFNcV8xblZGM29hdTZQUHc4V3YzQ1pwcTlaVVBhZDVqMExLMTlYVzZ6TmM4ZUdsUm5TLXpPNmk1R3V4UktvaV93cWttNFpVX0VEZlZnUllSQkhyUlZmeTBJcU0zUEVSZTgxdzFWUnFNRk9CYVljN0Jhd0ZXUFk?oc=5",
-      "published": "2026-05-12T07:00:00+00:00",
-      "source": {
-        "name": "DW.com",
-        "url": "https://www.dw.com"
-      }
-    },
-    {
       "id": "f71a91a6c39f",
       "title": "Engpässe bei Arzneimitteln: Geopolitik erschwert Europas Streben nach Unabhängigkeit - Euractiv",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQ2lScFVHU3ZELWZOdzJOUGU2YUQ3c2ZpbWhIYWFiVUNoRFZHTm5JM1BfUWVnanhicnRvanhQdGx4UHVuTnZ5dG4ySEY4eVE3dUxGaXVLSm5sM1liQzRtc19GVVE3RkNnUGhhTkhZTXAtMkhWZ3JqOVREWlhfRnBSX1FPRXlaaUE5d2d6cFVEakt5NDJaUkgzXzA3TUpqUUJTbzhRQXFpbmZCTGMwdlRDSXR3cHNjZw?oc=5",
@@ -314,13 +314,13 @@
       }
     },
     {
-      "id": "3f283fa9b184",
-      "title": "Pfizer Ltd im indischen Pharmamarkt. Solider Gesundheitswert mit internationalem Hintergrund - ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNajM5d2szdDg3dk9uNXpKSjVJNlE4WUlUd2tKaGJkU25NR25SXzVtdk9sWms5R1NPZ0QxdWpQRGlFb1BHOXNSem4yYlMtSms1MTVCMWxFQ3RtcDRFcVVidTZUeUQyTmoxTkpsSE55YW5uV1A2TmpQbkthOUFNeTBzQ3IwMnBqaWNYM3lqcEV4RkpLUmhHNHpWdk1Mb1RfTGkyUW1ZQ0JiOVFOdlNBQTRrY2NVSVB6bG5VMmIzTktlVQ?oc=5",
-      "published": "2026-07-09T11:26:24+00:00",
+      "id": "8db31424e5bb",
+      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - dw.com",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGxHSlhmSS0tbUNKdG15NEVzRzYzYllEUnAzUEU3ak53czRHVWlKdTZrRGFDMk1MUThPUjdPTnBGVENqd3d2Q1VSdWhJVXppWDF4NWh0aEJJaXJlVTlnV0VoZVFkRHNSM3p6NVZXNjNwWHk5YkxSUWR2RGZKcmp3Y2U5REY0U3dRZFJLeHFtQk9wb2Y3RUVOaVBlMlJhZ29Rck000gGjAUFVX3lxTE1rTW00WXFBajZxbTJOS1NLckhVbXFBSzh1NE96QTEydTN1YjZnaFFNcV8xblZGM29hdTZQUHc4V3YzQ1pwcTlaVVBhZDVqMExLMTlYVzZ6TmM4ZUdsUm5TLXpPNmk1R3V4UktvaV93cWttNFpVX0VEZlZnUllSQkhyUlZmeTBJcU0zUEVSZTgxdzFWUnFNRk9CYVljN0Jhd0ZXUFk?oc=5",
+      "published": "2026-05-12T07:00:00+00:00",
       "source": {
-        "name": "ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
+        "name": "dw.com",
+        "url": "https://www.dw.com"
       }
     },
     {
@@ -344,16 +344,6 @@
       }
     },
     {
-      "id": "18a4c8e4e28d",
-      "title": "Die Redcare-Pharmacy-Aktie bleibt vom Wachstum im Online-Apothekenmarkt gestützt - ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRVo3ZHlKNDV1REU1WWFhTWxxbFU3QWtUYnlIeUhVR0dqM191eE5jRUk1QjhiVkUxbEIxakVwUjdFMy1RSFJXS1FCNlN5UEE2UjRXbkpzZy1FYXN6T09qMjdvaEVVYnJQT01xNVIxeVRZbUdYclBqWk4wTm1JbmRycGliQ05hQnpRNlRZTl8wTF96N2tmczNqQlZRdk4xZzJUT1dhSzRSenM1cnc5eVp4OWlZRjB0TEVXdjFRTjdpemVPdWNOSVhaazN3?oc=5",
-      "published": "2026-07-10T16:52:04+00:00",
-      "source": {
-        "name": "ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "5cfa2762dc20",
       "title": "Gesundheit - GKV-Chef: \"Mehr gegen steigende Arzneimittelpreise tun\" - Deutschlandfunk",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdXlzU1VBOUhWa05wcTVDNnBBdHRkeDl5TnZ1S1A3T0swT2pKTjZlaU1pempxQVJkMXMySXBtd2xpaUk5WWN4Q1VyakdMbnN2eF9mRncxakUwN21WbGFQMWpuR2VoOG1tUDYtWERUbS1LSVpOdUNaTE1SWmhDSkVUdTlubVNEWGNtUXNaYk5tcTJibTRDZTJv?oc=5",
@@ -361,6 +351,16 @@
       "source": {
         "name": "Deutschlandfunk",
         "url": "https://www.deutschlandfunk.de"
+      }
+    },
+    {
+      "id": "18a4c8e4e28d",
+      "title": "Die Redcare-Pharmacy-Aktie bleibt vom Wachstum im Online-Apothekenmarkt gestützt - ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRVo3ZHlKNDV1REU1WWFhTWxxbFU3QWtUYnlIeUhVR0dqM191eE5jRUk1QjhiVkUxbEIxakVwUjdFMy1RSFJXS1FCNlN5UEE2UjRXbkpzZy1FYXN6T09qMjdvaEVVYnJQT01xNVIxeVRZbUdYclBqWk4wTm1JbmRycGliQ05hQnpRNlRZTl8wTF96N2tmczNqQlZRdk4xZzJUT1dhSzRSenM1cnc5eVp4OWlZRjB0TEVXdjFRTjdpemVPdWNOSVhaazN3?oc=5",
+      "published": "2026-07-10T16:52:04+00:00",
+      "source": {
+        "name": "ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
