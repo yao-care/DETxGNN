@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-11T11:53:33.950749+00:00",
+  "fetched_at": "2026-07-11T13:22:21.810566+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -14,16 +14,6 @@
       }
     },
     {
-      "id": "a54a884d55a6",
-      "title": "Noch in diesem Jahr: Rossmann will Medikamente liefern - WEB.DE",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZzVIdE80VXRILUdTZTlsLTQwMHlHX1FMSjhsUGppeGJjNERCQkdLeDJwNnp6UUZTWWNmTW0xaUVZaGhHS1ZXSWV2TUZLbzNLdVVuei11TDZ4VVlQNU1CQUVuRTM0RHV3S3pYcnM3UThsNDhsaWFicE5ET0Noek1mcTFWbw?oc=5",
-      "published": "2026-07-10T15:00:36+00:00",
-      "source": {
-        "name": "WEB.DE",
-        "url": "https://web.de"
-      }
-    },
-    {
       "id": "073f7e8a3a3f",
       "title": "Warum der Erwerb von Arzneimitteln im Ausland riskant sein kann - Deutsche Apotheker Zeitung, DAZ",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOYUM0VkhBTzlsUmJGMWQwWEJHaE9VR2hpRkQ0Z1hPWkhpSklMd3RocWlBa0ltVXQyQzZLZlBaakRzM2pUWkVhcl9Nak9YQVI1QW9DVVBZY3J6SVMyZGRTSGJvcUJOaVJTMzdtdGEwN0lGVW5GRDF3aTFNSmFWX1lsZ3k3eXc5dTlpUnlZbTNuT2dOTXN4bnpiU0Q0SUhVUERzZUN5cWMteGZkUmM0bFFfLUpLNXJmVzVEUkVNZUlCeWd1R2ludkwzRQ?oc=5",
@@ -31,16 +21,6 @@
       "source": {
         "name": "Deutsche Apotheker Zeitung, DAZ",
         "url": "https://www.deutsche-apotheker-zeitung.de"
-      }
-    },
-    {
-      "id": "f277ec9160cd",
-      "title": "Ebola: Wem sollten Arzneimittel gehören? - Brot für die Welt",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbk1naTRCdGV5VGdtajJpYVJSMTVlNlVFeVRGZkVuMHBtbWZiLUxrMUFmSWVTOC1JZWxQNnJINzFHajZVdlI3b0FwZzdtRVpQSEJxSkJ1eHkwd1MzdlhHUERGTFFmQVBCOGowTHZGWjhOTVI5UmtvU01qT1pGS2l5bExfX00?oc=5",
-      "published": "2026-07-07T10:03:18+00:00",
-      "source": {
-        "name": "Brot für die Welt",
-        "url": "https://www.brot-fuer-die-welt.de"
       }
     },
     {
@@ -54,6 +34,16 @@
       }
     },
     {
+      "id": "f277ec9160cd",
+      "title": "Ebola: Wem sollten Arzneimittel gehören? - Brot für die Welt",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbk1naTRCdGV5VGdtajJpYVJSMTVlNlVFeVRGZkVuMHBtbWZiLUxrMUFmSWVTOC1JZWxQNnJINzFHajZVdlI3b0FwZzdtRVpQSEJxSkJ1eHkwd1MzdlhHUERGTFFmQVBCOGowTHZGWjhOTVI5UmtvU01qT1pGS2l5bExfX00?oc=5",
+      "published": "2026-07-07T10:03:18+00:00",
+      "source": {
+        "name": "Brot für die Welt",
+        "url": "https://www.brot-fuer-die-welt.de"
+      }
+    },
+    {
       "id": "55782c10a3fe",
       "title": "Wer jetzt schon Medikamente ohne Rezept bekommt - T-Online",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMnZ4VVctdUJJVnFyTmtpQU00ci1wTG5qOEZXLXVWalltWFBlSVgtNllTV3Y4S080LWt2ZHZOSXg4Q1ZnUXl1MFUwM3M5YWoxdTdWeVNCSXZZTmhLRHUtYUllSDlqQjhJV1VfcXdhUUMyd18wXy02U05aVmdvbWV6QURibFhWZjBkSUVRUjdPd29CSUczdVZ2ckt5dUotNVh6SEVGVG1BVEZVSVpYVEZIcnlXMkFacFAxTHNBdnZxdFpqQQ?oc=5",
@@ -61,6 +51,16 @@
       "source": {
         "name": "T-Online",
         "url": "https://www.t-online.de"
+      }
+    },
+    {
+      "id": "a54a884d55a6",
+      "title": "Noch in diesem Jahr: Rossmann will Medikamente liefern - WEB.DE",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZzVIdE80VXRILUdTZTlsLTQwMHlHX1FMSjhsUGppeGJjNERCQkdLeDJwNnp6UUZTWWNmTW0xaUVZaGhHS1ZXSWV2TUZLbzNLdVVuei11TDZ4VVlQNU1CQUVuRTM0RHV3S3pYcnM3UThsNDhsaWFicE5ET0Noek1mcTFWbw?oc=5",
+      "published": "2026-07-10T15:00:36+00:00",
+      "source": {
+        "name": "WEB.DE",
+        "url": "https://web.de"
       }
     },
     {
@@ -114,6 +114,16 @@
       }
     },
     {
+      "id": "560b820c2a6d",
+      "title": "Keine Schwellung: Helfen Heuschnupfentabletten gegen Mückenstiche? - Öko-Test",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONUwzMWlLaUJ6dTlPMHNtUV9HbEg3a2xmeXpsMExzMEJBRXhCenM0RF9Welp1d1ZUeHIxZWMxelVmT01ZUm1QYUdPX1dYcmNkYzFNNTE3M1JWV0k1QWJQYTZJWVFPdG4tbjZ6RGt3NXNiSXpINXJqUjFpY2pMc1NTam5Hdjg4QnhRYTl3RklzZUJ1bEptcHo5RkUwaDd5ck1FdXdMNk5ON0ozT09jeXY1ZHUxaENWdWZWN2FhT1lxM1dCajEx?oc=5",
+      "published": "2026-07-09T10:12:58+00:00",
+      "source": {
+        "name": "Öko-Test",
+        "url": "https://www.oekotest.de"
+      }
+    },
+    {
       "id": "39d5be2b8d46",
       "title": "Was sich auch ändert: Weniger Prävention, aber höhere Zuzahlungen - AerzteZeitung.de",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPcHctRy1qYm9NYjFsN1FJQlQxNVRSZ3RncXpFMUQ0Z19UbnUwMjl2TjJYNDNobzM2TW5EdDF2OVYwQTlBWkVUdy1zakwzV3hmQUZGX0RFdXRDMmJ5QWFFNlBGR1M2eGZYSGRiaFBDX3FJcWtYY01vU3dxWjJrSzRCaEdRU2lUUnJLWGwzcGVNXzI1a2FHT0luMjlOZDkyUnZGd2swaDEteVhXbmtfY3FmSjNkRTJfN3Z0a0E?oc=5",
@@ -164,16 +174,6 @@
       }
     },
     {
-      "id": "9fa13ce5acf5",
-      "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
-      "published": "2026-03-31T20:25:43+00:00",
-      "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
-      }
-    },
-    {
       "id": "fd18462a4826",
       "title": "Einfach Gewicht verlieren? So funktioniert die Abnehmpille - WEB.DE",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZkpQRzRFN19UelZBSU85VlVjRkdBX0dSUGZCNDhmNU14SFRNYU9jSnBFOTc5VmtVSTdvR3ZGcDVaN0JhQVdmNDlqRWlDUFdLUzJrdHo0NVk5b0F5MFVHXzBTU3ppNTRaSGNsQWRhc0R1Zld1b1JNU2psdU9qQmNkMHp0ajlsWGhyOHUxOVVxMA?oc=5",
@@ -191,6 +191,16 @@
       "source": {
         "name": "Presseportal",
         "url": "https://www.presseportal.de"
+      }
+    },
+    {
+      "id": "9fa13ce5acf5",
+      "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
+      "published": "2026-03-31T20:25:43+00:00",
+      "source": {
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
       }
     },
     {
@@ -231,6 +241,16 @@
       "source": {
         "name": "ad-hoc-news.de",
         "url": "https://www.ad-hoc-news.de"
+      }
+    },
+    {
+      "id": "075a40db361f",
+      "title": "Medikamente auf Reisen: Das darf ins Handgepäck - ADAC",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZmdDVl81RGdjdDZRNXNXSlRFTVhOSVpSQUlwUTlUelB6bnNFcVFRV09lQ2czNTdja0RsNHJVck00Y2hFVHZUM3kyaTRWOVZXWHQ0M182TVJrcGNGcUxtS1pFaU8wczRRRFRycTVmZnFmWE1lQ2g1eVVNekNQd3pSWWFHMnc1anVBY3plbTNB?oc=5",
+      "published": "2026-05-01T07:00:00+00:00",
+      "source": {
+        "name": "ADAC",
+        "url": "https://www.adac.de"
       }
     },
     {
@@ -284,16 +304,6 @@
       }
     },
     {
-      "id": "521a662a3a50",
-      "title": "Die Roche-Aktie bleibt vom Pharmageschäft und Diagnostik-Erlösen gestützt - ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVy1nRnN6VkpQT1JSa0ZuSENBVzhhTzVKWkxFZ3JHWWVlLTJlZzhiSldDQ0RzREdZM0hiVl85Si1DWjdGVU9aS1RwYTl2b1ZTenFtNUF0cUVsS3p5eWM5dWNlYjVUWm9ieFZkVGFqVXN6dmxvY1JEdFhKcGJBYmZZZmJDR0swblpEcVpMSWFJcS01a3hNRlpGWGhzY3ZLRHo3RlRfSGxsSWpVQUh0TS1xMGNPcVNBV0o5UlNreHFKZDhwZlk?oc=5",
-      "published": "2026-07-10T19:11:11+00:00",
-      "source": {
-        "name": "ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "02e9917bea66",
       "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - DW.com",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGxHSlhmSS0tbUNKdG15NEVzRzYzYllEUnAzUEU3ak53czRHVWlKdTZrRGFDMk1MUThPUjdPTnBGVENqd3d2Q1VSdWhJVXppWDF4NWh0aEJJaXJlVTlnV0VoZVFkRHNSM3p6NVZXNjNwWHk5YkxSUWR2RGZKcmp3Y2U5REY0U3dRZFJLeHFtQk9wb2Y3RUVOaVBlMlJhZ29Rck000gGjAUFVX3lxTE1rTW00WXFBajZxbTJOS1NLckhVbXFBSzh1NE96QTEydTN1YjZnaFFNcV8xblZGM29hdTZQUHc4V3YzQ1pwcTlaVVBhZDVqMExLMTlYVzZ6TmM4ZUdsUm5TLXpPNmk1R3V4UktvaV93cWttNFpVX0VEZlZnUllSQkhyUlZmeTBJcU0zUEVSZTgxdzFWUnFNRk9CYVljN0Jhd0ZXUFk?oc=5",
@@ -318,6 +328,16 @@
       "title": "Pfizer Ltd im indischen Pharmamarkt. Solider Gesundheitswert mit internationalem Hintergrund - ad-hoc-news.de",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNajM5d2szdDg3dk9uNXpKSjVJNlE4WUlUd2tKaGJkU25NR25SXzVtdk9sWms5R1NPZ0QxdWpQRGlFb1BHOXNSem4yYlMtSms1MTVCMWxFQ3RtcDRFcVVidTZUeUQyTmoxTkpsSE55YW5uV1A2TmpQbkthOUFNeTBzQ3IwMnBqaWNYM3lqcEV4RkpLUmhHNHpWdk1Mb1RfTGkyUW1ZQ0JiOVFOdlNBQTRrY2NVSVB6bG5VMmIzTktlVQ?oc=5",
       "published": "2026-07-09T11:26:24+00:00",
+      "source": {
+        "name": "ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
+      }
+    },
+    {
+      "id": "521a662a3a50",
+      "title": "Die Roche-Aktie bleibt vom Pharmageschäft und Diagnostik-Erlösen gestützt - ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVy1nRnN6VkpQT1JSa0ZuSENBVzhhTzVKWkxFZ3JHWWVlLTJlZzhiSldDQ0RzREdZM0hiVl85Si1DWjdGVU9aS1RwYTl2b1ZTenFtNUF0cUVsS3p5eWM5dWNlYjVUWm9ieFZkVGFqVXN6dmxvY1JEdFhKcGJBYmZZZmJDR0swblpEcVpMSWFJcS01a3hNRlpGWGhzY3ZLRHo3RlRfSGxsSWpVQUh0TS1xMGNPcVNBV0o5UlNreHFKZDhwZlk?oc=5",
+      "published": "2026-07-10T19:11:11+00:00",
       "source": {
         "name": "ad-hoc-news.de",
         "url": "https://www.ad-hoc-news.de"
@@ -704,12 +724,12 @@
       }
     },
     {
-      "id": "b027289bf54f",
-      "title": "EU-Generalanwalt: Versandverbot nein, aber ... - apotheke adhoc",
+      "id": "03505c881614",
+      "title": "EU-Generalanwalt: Versandverbot nein, aber ... - Apotheke Adhoc",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaGRRUFJ5MDV6WGZaTE84UlB3SU83OElpQ2dBVXJTMFRLWWFlSmN0alJ0eS1ZdF9zN09MZUhESFJDd2J1TVNQeHZRQ1ZLMVNtMC1OSm9DV01oVXhWVzRtOENHbUpnRE10akgwUnRyRmkzckZ1UFhIb05aM1ZLcVN1WkFKRUVRd3VaaWpZVUdraVRVdUtER2tIc1FjTWFqS3VIY0IzeERfWnJ4UQ?oc=5",
       "published": "2026-01-13T08:00:00+00:00",
       "source": {
-        "name": "apotheke adhoc",
+        "name": "Apotheke Adhoc",
         "url": "https://www.apotheke-adhoc.de"
       }
     },
@@ -981,26 +1001,6 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
-      "id": "965e1762ff04",
-      "title": "GKV in der Krise : Warken erwägt höhere Zuzahlungen für Arzneimittel - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdWlXOXMzZ2lzMTIwYlBfSUlPNFBUOEpGRkgzckx4QUQ4dVE2NVhRTzlZNTdPYm9halZadmVzQ0s3Z0VKUUNhUUFIOTFQQkhEQWttNGJ3SE9PQklubDU5WE8wZFQ1aFN2TnhEWUhBY3pzTU85dDRUWU1qVEF6dkxHN1NRYVl3M2tuTFdfUW5hQ1owSllpSjFYVHVTY1cwcHR5?oc=5",
-      "published": "2025-10-09T07:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
-      "id": "815d7c3030a9",
-      "title": "Erkältungen und Infekte nehmen zu: Droht wieder ein Medikamentenengpass? - Tagesspiegel",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOb3BrN2sybjFrd2xZYTlUZENWRE9fZEJyVHZJWGZHZHA3SG10dXNKSm5LVF9zR2h4VzVkdHM5OVFnbGo5MkpPWmEyV2JPWVVXWUtsR0Z1RVEyY1hFa0tqTzJzWFN0R0xJMXdSOUJYbG9wT0tVVkxsVnZINDFZMmpyUGg0NlVQSnRnYlh4ejF2Z19NMmJEZlVNVzIyVHNUTWNGM0tENk93TE1EMWd6Zm51Q1lMUHpobzkyT3B3N21yVUY?oc=5",
-      "published": "2025-09-19T07:00:00+00:00",
-      "source": {
-        "name": "Tagesspiegel",
-        "url": "https://www.tagesspiegel.de"
       }
     }
   ]
