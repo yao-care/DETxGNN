@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-12T20:51:40.912214+00:00",
+  "fetched_at": "2026-07-12T21:52:48.843640+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -111,6 +111,16 @@
       "source": {
         "name": "Jüdische Allgemeine",
         "url": "https://www.juedische-allgemeine.de"
+      }
+    },
+    {
+      "id": "a5b9c1b01e21",
+      "title": "Macht mein Medikament dick? Welche Wirkstoffe eine Gewichtszunahme auslösen können - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPejZRa1ppV2Z6VHBzV3ByVUJhTmNuTXRGdkEzVzItRWJCbFRxZGwzUlV1NHQ3a242dXhTbWFZaGotTjB5ZGdqN1B3QU91MnZmVHVyeDlDUE15cjNWallMUHVhWmhiT1BQYTJtTzM5elBRamNfT3QxMGZRYk9sUkNqT2ltTTFhakVEM0RNWEoyR09JazU1NHc5M2FMQlF3Tm9ZRU96a0pFS2tiRC1NUXoxcGtUR2x6RkE0YW84?oc=5",
+      "published": "2026-07-11T07:00:00+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
       }
     },
     {
@@ -344,16 +354,6 @@
       }
     },
     {
-      "id": "e79d99c768d2",
-      "title": "Doppeltes Risiko - Diese Medikamente machen Sie bei Hitze anfälliger - Kronen Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5FUTV2NHpBN0U4dDlOOE9rY2FwMnZERmR3QUtfakhLVXZWWFBCYno3SU9lY0QySDRMTjhxdDl2U2IzUQ?oc=5",
-      "published": "2026-07-12T13:13:00+00:00",
-      "source": {
-        "name": "Kronen Zeitung",
-        "url": "https://www.krone.at"
-      }
-    },
-    {
       "id": "b72b17004edd",
       "title": "\"Europa als führende Kraft des Gesundheitswesens etablieren\" - DIE ZEIT",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWUFSVWl5WkNqWlhQaFBsaW01cEtydmdyejBaWTZhTE1wbHNXVWJpd2FiVENidldkRGRBTm5sT1NrNm5FME4xWVlTN0Y0N3AyLVY2RDVscWRHN0tLY3Q2d2EtY2YtdHBpOXVSRkhfNHB1MUd3TWVlYTh0RUpsWEpLWkdhUDdPc2Z6UlBEWXl0S01nV0lDYXJGZTF5YUQxNHZsaXJhNQ?oc=5",
@@ -374,16 +374,6 @@
       }
     },
     {
-      "id": "a72d783267f7",
-      "title": "Indivior setzt auf Medikamente gegen Suchterkrankungen. Langfristiger Ansatz im Gesundheitsmarkt - ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMGNtMW43UTNQVjF5MXh4OXRnSnM0QjhQRi1XaVRjSl9HdFprS2VUcWpWblVyTUs2RXVBOE10TXJWT0p1SUtRQmJNTFZuUS1WTzduR2VGMDJaUmNLcWtwd09LRmFjSlhDR2xuMzFMR2VjMEtlUDJ1TC1lVWhndDIycy1ONUphS1VpUS1jRWlqSW9DNG1Ecm9HLVpURy1TRlFpZ3dWYnRWWDl0YldxQjVXNUswekpmdHN0aFhUd0RZZHBFM0FQQkE?oc=5",
-      "published": "2026-07-08T15:05:44+00:00",
-      "source": {
-        "name": "ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "95d55d1267a1",
       "title": "Mit Abnehmspritze Kilos loswerden - was ist dran an Ozempic & Co.? - NDR.de",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaGFzLTFfUHozOUJiWWtWdlRPUm5mZ0VkMGMxLVVGcmxmMzlONHZRV21qZmFHYUo3d2gzV3VDVm9OUHp6Qk4wQjlZTHU3V3RnckthWTZSbVpVMGE1VWxiMFMtVVJCSWdWb3hibzlscllodzVwWmpDMS1ZOXNxYkFfQVJzdlRzeGRQOWdtcW55UVRNSE16QmhJZXhVYmRmYl9iUmJBN1g2cG8?oc=5",
@@ -401,6 +391,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "a72d783267f7",
+      "title": "Indivior setzt auf Medikamente gegen Suchterkrankungen. Langfristiger Ansatz im Gesundheitsmarkt - ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMGNtMW43UTNQVjF5MXh4OXRnSnM0QjhQRi1XaVRjSl9HdFprS2VUcWpWblVyTUs2RXVBOE10TXJWT0p1SUtRQmJNTFZuUS1WTzduR2VGMDJaUmNLcWtwd09LRmFjSlhDR2xuMzFMR2VjMEtlUDJ1TC1lVWhndDIycy1ONUphS1VpUS1jRWlqSW9DNG1Ecm9HLVpURy1TRlFpZ3dWYnRWWDl0YldxQjVXNUswekpmdHN0aFhUd0RZZHBFM0FQQkE?oc=5",
+      "published": "2026-07-08T15:05:44+00:00",
+      "source": {
+        "name": "ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
