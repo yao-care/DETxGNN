@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-12T03:24:29.646815+00:00",
+  "fetched_at": "2026-07-12T06:34:01.114187+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -34,16 +34,6 @@
       }
     },
     {
-      "id": "55782c10a3fe",
-      "title": "Wer jetzt schon Medikamente ohne Rezept bekommt - T-Online",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMnZ4VVctdUJJVnFyTmtpQU00ci1wTG5qOEZXLXVWalltWFBlSVgtNllTV3Y4S080LWt2ZHZOSXg4Q1ZnUXl1MFUwM3M5YWoxdTdWeVNCSXZZTmhLRHUtYUllSDlqQjhJV1VfcXdhUUMyd18wXy02U05aVmdvbWV6QURibFhWZjBkSUVRUjdPd29CSUczdVZ2ckt5dUotNVh6SEVGVG1BVEZVSVpYVEZIcnlXMkFacFAxTHNBdnZxdFpqQQ?oc=5",
-      "published": "2026-07-09T13:08:30+00:00",
-      "source": {
-        "name": "T-Online",
-        "url": "https://www.t-online.de"
-      }
-    },
-    {
       "id": "f277ec9160cd",
       "title": "Ebola: Wem sollten Arzneimittel gehören? - Brot für die Welt",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbk1naTRCdGV5VGdtajJpYVJSMTVlNlVFeVRGZkVuMHBtbWZiLUxrMUFmSWVTOC1JZWxQNnJINzFHajZVdlI3b0FwZzdtRVpQSEJxSkJ1eHkwd1MzdlhHUERGTFFmQVBCOGowTHZGWjhOTVI5UmtvU01qT1pGS2l5bExfX00?oc=5",
@@ -54,6 +44,16 @@
       }
     },
     {
+      "id": "55782c10a3fe",
+      "title": "Wer jetzt schon Medikamente ohne Rezept bekommt - T-Online",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMnZ4VVctdUJJVnFyTmtpQU00ci1wTG5qOEZXLXVWalltWFBlSVgtNllTV3Y4S080LWt2ZHZOSXg4Q1ZnUXl1MFUwM3M5YWoxdTdWeVNCSXZZTmhLRHUtYUllSDlqQjhJV1VfcXdhUUMyd18wXy02U05aVmdvbWV6QURibFhWZjBkSUVRUjdPd29CSUczdVZ2ckt5dUotNVh6SEVGVG1BVEZVSVpYVEZIcnlXMkFacFAxTHNBdnZxdFpqQQ?oc=5",
+      "published": "2026-07-09T13:08:30+00:00",
+      "source": {
+        "name": "T-Online",
+        "url": "https://www.t-online.de"
+      }
+    },
+    {
       "id": "ca3fbb8f0e20",
       "title": "SPD macht Arzneimittelversorgung zur Sicherheitsfrage - gesundheit adhoc",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaUx0Nm5DX2dXSFptbnJSOFlNVzVxaHpReWZiSVVVb0JMSnFzR3dVOHdiYzVEOGRaczRySGhxSVI3TlJOa3BJdzRyejl3bEhObFE0WWxKTVJ4NFd4MVJ2eW43RFF5dUFrNFNlTnZnZWZaVXRoMk14VlZPVi0yREtsa2ZIOURjQUpvNVZSMlV5cw?oc=5",
@@ -61,6 +61,16 @@
       "source": {
         "name": "gesundheit adhoc",
         "url": "https://www.gesundheit-adhoc.de"
+      }
+    },
+    {
+      "id": "fd737b63d383",
+      "title": "Medikamente im Urlaub: So schützen Sie sich vor Fälschungen - Lippische Landes-Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbFVmWjFzNklsOVpqcTZZdXpJa1ZtbXY2NVA2cjNJQVI2NVR1UHI1NmJTQXZfd19WNnFqQlVnVGIwRW9xV1F2Mkd3NVo3M29qZ1o5ZGxVOG56cktiYXg2LTlqa2Q5VmpNY2JkMEx5Z1Nqb29aM1ZoTUw0T2xESEdBR3NSN1I5Mi03a1VvYTFUaFpodXJJSkxDbDZhZGJPb0lOU0Z0MUhVblE0RkJHal9mR3dR?oc=5",
+      "published": "2026-07-08T13:29:58+00:00",
+      "source": {
+        "name": "Lippische Landes-Zeitung",
+        "url": "https://www.lz.de"
       }
     },
     {
@@ -91,16 +101,6 @@
       "source": {
         "name": "Bild der Wissenschaft",
         "url": "https://wissenschaft.de"
-      }
-    },
-    {
-      "id": "e89bb6a1a7a1",
-      "title": "Medikamente im Urlaub: So schützen Sie sich vor Fälschungen - Mindener Tageblatt",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVmFuWXBXcV9mM2x0cUItRFVsbl9ONUdXMVcwemo1cWVtaV8yeHktdFZaMW5BSURRRmxTMjA0OGx3eUZvVGQzOUpNSmpTODRvUFU0VXF0SkRyaVV0eWFIanJ2NHJoQWFEeDMtSVp3SUVfYnJPTHBXM3RvRzE2aEEyejdtR0dQaUltczRkRk1nVnFjM2ViMnM0aWdJNV8ycWZHYUllZGVWM0hGelpWZ2hzanp3?oc=5",
-      "published": "2026-07-08T13:29:58+00:00",
-      "source": {
-        "name": "Mindener Tageblatt",
-        "url": "https://www.mt.de"
       }
     },
     {
@@ -154,13 +154,13 @@
       }
     },
     {
-      "id": "c1e5895d082a",
-      "title": "Förderung der Rolle der traditionellen Medizin bei der Pflege und Verbesserung der Gesundheit der Bevölkerung. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQY01VbnBMM0s4ZTNIeE1fMFhrXzZHdUxUc0FFNm00NUVEQ05pZFIwY29nMHNrZ3RjTlZfZG9oNW9Mbk1hbnZfMVVSa01mdWlfSEo2dVdvZHMzVXk2Vms0WWUySEJtSlZlZEp3MjNuWkIzWnkzVlFWSnNqSF9iWmlaQlFaWVpTTGxGb0JmOEVfN0wwSWRSM1VCNUh0cHJiN09uVzRpakxRSQ?oc=5",
-      "published": "2026-07-10T09:15:27+00:00",
+      "id": "f0508d01606c",
+      "title": "Apothekenreform: Bundesrat billigt digitale Neuerungen für E-Rezepte - ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcmRkcG9QcG5pbmd0SXdld3lqenV2TmtnN1ZsbnBOQzZrQlJIV3dPbHNwQU8zSlI4dHhKMy1LaHUtaXV1T1gtTGxZcDVueVhNb09MZDliNnFEM05lTVdFbFpUOVR5eU9LajRwMkt2eGtGMUdBUHpRd0pwYlRHYmJ0eUkwR0ROZTk3RHhocHBOU2VRWWNXZWZCVVBJTklveEtaNWJzQzNuV0ZOY2llMFNKOEotclZkY2ZP?oc=5",
+      "published": "2026-07-11T23:31:08+00:00",
       "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
+        "name": "ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -171,16 +171,6 @@
       "source": {
         "name": "Bundesministerium für Gesundheit (BMG)",
         "url": "https://www.bundesgesundheitsministerium.de"
-      }
-    },
-    {
-      "id": "f0508d01606c",
-      "title": "Apothekenreform: Bundesrat billigt digitale Neuerungen für E-Rezepte - ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcmRkcG9QcG5pbmd0SXdld3lqenV2TmtnN1ZsbnBOQzZrQlJIV3dPbHNwQU8zSlI4dHhKMy1LaHUtaXV1T1gtTGxZcDVueVhNb09MZDliNnFEM05lTVdFbFpUOVR5eU9LajRwMkt2eGtGMUdBUHpRd0pwYlRHYmJ0eUkwR0ROZTk3RHhocHBOU2VRWWNXZWZCVVBJTklveEtaNWJzQzNuV0ZOY2llMFNKOEotclZkY2ZP?oc=5",
-      "published": "2026-07-11T23:31:08+00:00",
-      "source": {
-        "name": "ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -274,16 +264,6 @@
       }
     },
     {
-      "id": "51e8c4b74840",
-      "title": "Gesundheitsgefahr durch gefälschte Arzneimittel - Gesundheit.gv.at",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYlhNa1drQ3UydVU1Ti1QZWxOelZ2UDNkQTBsczZ4SzVIZGhQS3psTVQ5Zmw2Ujh2RGpDYzZ5TDdIbG5mYkFjRl9CX3JkS0FHQ2dlSGVZMlpRTmpva0xOX3hoTWhTM3VoZlB6bjJYbjRRcGp2NERXZmhoaEtyeGJhUDlSU0k0cURLRzNIc1FR?oc=5",
-      "published": "2026-03-09T07:00:00+00:00",
-      "source": {
-        "name": "Gesundheit.gv.at",
-        "url": "https://www.gesundheit.gv.at"
-      }
-    },
-    {
       "id": "9f9b35e4948f",
       "title": "Gesundheit: So will die EU Engpässe bei Fiebersaft & Co. verhindern - WirtschaftsWoche",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNOUY3SndFdHc5MWdPYWkzRjVIbzFjcG9Kcmd6NEdmbEN4ejBkU01hd2ZvdGpjT1hYcjIwOHQzY0F4TjZBWDJ3Z0UtbkdvbExoWWhJTFZlZjZzNG00RnhoU0VPNXlxeFFhQzZpbWhBbnlhMUl2Y0JXanhFREpBSzNMNFU4OFNnNDMtWWc5dmFpUTRhRS1WV1pMSlNIOUh6NER6U0U2OUZ6YVdHV0ZBUTFHWlkxajg3QQ?oc=5",
@@ -291,6 +271,16 @@
       "source": {
         "name": "WirtschaftsWoche",
         "url": "https://www.wiwo.de"
+      }
+    },
+    {
+      "id": "51e8c4b74840",
+      "title": "Gesundheitsgefahr durch gefälschte Arzneimittel - Gesundheit.gv.at",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYlhNa1drQ3UydVU1Ti1QZWxOelZ2UDNkQTBsczZ4SzVIZGhQS3psTVQ5Zmw2Ujh2RGpDYzZ5TDdIbG5mYkFjRl9CX3JkS0FHQ2dlSGVZMlpRTmpva0xOX3hoTWhTM3VoZlB6bjJYbjRRcGp2NERXZmhoaEtyeGJhUDlSU0k0cURLRzNIc1FR?oc=5",
+      "published": "2026-03-09T07:00:00+00:00",
+      "source": {
+        "name": "Gesundheit.gv.at",
+        "url": "https://www.gesundheit.gv.at"
       }
     },
     {
@@ -344,12 +334,12 @@
       }
     },
     {
-      "id": "47afc2884d76",
-      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - geo.de",
+      "id": "b6f8a06fd285",
+      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - GEO.de",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
       "published": "2026-06-19T07:00:00+00:00",
       "source": {
-        "name": "geo.de",
+        "name": "GEO.de",
         "url": "https://www.geo.de"
       }
     },
@@ -358,16 +348,6 @@
       "title": "Die Redcare-Pharmacy-Aktie bleibt vom Wachstum im Online-Apothekenmarkt gestützt - ad-hoc-news.de",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRVo3ZHlKNDV1REU1WWFhTWxxbFU3QWtUYnlIeUhVR0dqM191eE5jRUk1QjhiVkUxbEIxakVwUjdFMy1RSFJXS1FCNlN5UEE2UjRXbkpzZy1FYXN6T09qMjdvaEVVYnJQT01xNVIxeVRZbUdYclBqWk4wTm1JbmRycGliQ05hQnpRNlRZTl8wTF96N2tmczNqQlZRdk4xZzJUT1dhSzRSenM1cnc5eVp4OWlZRjB0TEVXdjFRTjdpemVPdWNOSVhaazN3?oc=5",
       "published": "2026-07-10T16:52:04+00:00",
-      "source": {
-        "name": "ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
-      "id": "a72d783267f7",
-      "title": "Indivior setzt auf Medikamente gegen Suchterkrankungen. Langfristiger Ansatz im Gesundheitsmarkt - ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMGNtMW43UTNQVjF5MXh4OXRnSnM0QjhQRi1XaVRjSl9HdFprS2VUcWpWblVyTUs2RXVBOE10TXJWT0p1SUtRQmJNTFZuUS1WTzduR2VGMDJaUmNLcWtwd09LRmFjSlhDR2xuMzFMR2VjMEtlUDJ1TC1lVWhndDIycy1ONUphS1VpUS1jRWlqSW9DNG1Ecm9HLVpURy1TRlFpZ3dWYnRWWDl0YldxQjVXNUswekpmdHN0aFhUd0RZZHBFM0FQQkE?oc=5",
-      "published": "2026-07-08T15:05:44+00:00",
       "source": {
         "name": "ad-hoc-news.de",
         "url": "https://www.ad-hoc-news.de"
@@ -544,20 +524,20 @@
       }
     },
     {
-      "id": "8308fd9ff3ea",
-      "title": "»Ge­ra­de in der Apo­the­ke wird Ge­sund­heit ge­lebt« - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWGI5Ni1Wb1RMSGlZbElwcDdtVjF5TzJBTVpUd0xoblBOUHl5UG8tcXlNY1FPTHBPbU5tT2J2S2VTRkFlZlVxejM2S3V6Ty14bHlXVmEtRmRPUnNoeEd0U3pWZlQ5SlZjNGF3bnhWWGF0M2h5MHVSaFZRZjBZZy1KOEZva1l2N1dzbkF0Q2dvRUc1SVN3OVVF?oc=5",
-      "published": "2026-03-19T07:00:00+00:00",
+      "id": "a43852bf5366",
+      "title": "vfa zum Kommissionsbericht: Sparmaßnahmen für Pharmaindustrie im Faktencheck - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaGl6UGU2SlFIcnhfcTBza2E0aTZxOEEwd2xOWmxUT3hwYzYzSDRsSGJZa3g0U3BwTWpQdm01enFWcUVYeFhtR0d2SkJDQmVURmpFa0x0LXpYRTEzd1dtbmxyVWE2NVpZcE1DamxIT2kybUxscTV0QnZtTmVNRW1uLUxOeUw2cUlUZFRQUmdCYXZ4UEF4TFJuY092eU4tZw?oc=5",
+      "published": "2026-04-02T07:00:00+00:00",
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
-      "id": "a43852bf5366",
-      "title": "vfa zum Kommissionsbericht: Sparmaßnahmen für Pharmaindustrie im Faktencheck - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaGl6UGU2SlFIcnhfcTBza2E0aTZxOEEwd2xOWmxUT3hwYzYzSDRsSGJZa3g0U3BwTWpQdm01enFWcUVYeFhtR0d2SkJDQmVURmpFa0x0LXpYRTEzd1dtbmxyVWE2NVpZcE1DamxIT2kybUxscTV0QnZtTmVNRW1uLUxOeUw2cUlUZFRQUmdCYXZ4UEF4TFJuY092eU4tZw?oc=5",
-      "published": "2026-04-02T07:00:00+00:00",
+      "id": "8308fd9ff3ea",
+      "title": "»Ge­ra­de in der Apo­the­ke wird Ge­sund­heit ge­lebt« - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWGI5Ni1Wb1RMSGlZbElwcDdtVjF5TzJBTVpUd0xoblBOUHl5UG8tcXlNY1FPTHBPbU5tT2J2S2VTRkFlZlVxejM2S3V6Ty14bHlXVmEtRmRPUnNoeEd0U3pWZlQ5SlZjNGF3bnhWWGF0M2h5MHVSaFZRZjBZZy1KOEZva1l2N1dzbkF0Q2dvRUc1SVN3OVVF?oc=5",
+      "published": "2026-03-19T07:00:00+00:00",
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
@@ -734,16 +714,6 @@
       }
     },
     {
-      "id": "b027289bf54f",
-      "title": "EU-Generalanwalt: Versandverbot nein, aber ... - apotheke adhoc",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaGRRUFJ5MDV6WGZaTE84UlB3SU83OElpQ2dBVXJTMFRLWWFlSmN0alJ0eS1ZdF9zN09MZUhESFJDd2J1TVNQeHZRQ1ZLMVNtMC1OSm9DV01oVXhWVzRtOENHbUpnRE10akgwUnRyRmkzckZ1UFhIb05aM1ZLcVN1WkFKRUVRd3VaaWpZVUdraVRVdUtER2tIc1FjTWFqS3VIY0IzeERfWnJ4UQ?oc=5",
-      "published": "2026-01-13T08:00:00+00:00",
-      "source": {
-        "name": "apotheke adhoc",
-        "url": "https://www.apotheke-adhoc.de"
-      }
-    },
-    {
       "id": "770d335601a9",
       "title": "Aktuelle Meldungen - Per App mehr Schutz für ungeborene Kinder - saarland.de",
       "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQSlB2RHNPd3RCZDFZaXIwbGFmMXhRQW9DTWNBNEY1Mk5WV0pxY2h4X2t0QmEtaHJ1Z3pVV0p3ZXNpSmEtVl9XdTY1MUdlbU90M2trWXduX3VjQk9MbmVpa2hsalBTa21yWkZzZFJkdklqLXllZjNzVE1DUmoyTVZydTc2Z0RSQXlVbnNpdXNSN2VlVWZ6WEM4bEN6cXFWVjJSbEFuaGJIUXZNWUIyM09ackpiV1h0cC1GM05DalBndWNUa1VJc1NhbWd3VlFWbnc1ZUg2YTZlWlR3RVdQQW9lRjhqQ2c5Zl9MQkJrTElWTFk?oc=5",
@@ -771,6 +741,16 @@
       "source": {
         "name": "MDR.de",
         "url": "https://www.mdr.de"
+      }
+    },
+    {
+      "id": "b027289bf54f",
+      "title": "EU-Generalanwalt: Versandverbot nein, aber ... - apotheke adhoc",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaGRRUFJ5MDV6WGZaTE84UlB3SU83OElpQ2dBVXJTMFRLWWFlSmN0alJ0eS1ZdF9zN09MZUhESFJDd2J1TVNQeHZRQ1ZLMVNtMC1OSm9DV01oVXhWVzRtOENHbUpnRE10akgwUnRyRmkzckZ1UFhIb05aM1ZLcVN1WkFKRUVRd3VaaWpZVUdraVRVdUtER2tIc1FjTWFqS3VIY0IzeERfWnJ4UQ?oc=5",
+      "published": "2026-01-13T08:00:00+00:00",
+      "source": {
+        "name": "apotheke adhoc",
+        "url": "https://www.apotheke-adhoc.de"
       }
     },
     {
@@ -1001,6 +981,26 @@
       "source": {
         "name": "Tagesspiegel",
         "url": "https://www.tagesspiegel.de"
+      }
+    },
+    {
+      "id": "692ed6663b43",
+      "title": "Deutsche Apotheker warnen vor Medikamentenmangel - DW.com",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWU1xaGhwXzk2bTZMYV9pdEdESnBqWVZvSnAwXzllTkVsdXYyZTlYSzdEYjktY2FySDA2THNEWUlQend3WWp5cG9uZFo1aTJMcFFINW1ZWEg3NlVDQ2UzdkRmZldhV1JRemg4U3poczloOF9QOEhha1prQnlGZ0U5T0laMXN2ZVBY0gGIAUFVX3lxTE01Wk9oR0RESDZiM1BvOU5qZmtUYk1aNUFxWlpzU3EteXRvRDQ1anBlcG52RXJ5QWdEWjB2SHJCblZSaktVZktvRTBkYUxtYzNfQVE4YXRHajc1Nk9UQllNTkt0Vi1wVjdQTTAzSElvTDRMWXZ5TEpkLUZxRTI2QUZkMVdyRGM4YUg?oc=5",
+      "published": "2025-09-14T07:00:00+00:00",
+      "source": {
+        "name": "DW.com",
+        "url": "https://www.dw.com"
+      }
+    },
+    {
+      "id": "0878866789da",
+      "title": "Neue Arzneimittel bezahlbar halten - Verband der Ersatzkassen (vdek)",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObzE3cHpIZEo2Q0VEc0xrTzlCRHFTbW1GZ1dpbXhiSk55cmZpVFZaN3dtSkhvc2dqYkx0ekRicVhHTHhWTzFsSFVKZlVJZG1EUXBxZGZCU0kycm5yaVczSThMRHA3YkRHN3dPYXl3UTNEU1RWamFXdDBrZ2tTWWhqNjBjQk43VGNhdEFhMXF6Nmx6WHdkXzhwY25kTzVCMmp5?oc=5",
+      "published": "2025-06-17T07:00:00+00:00",
+      "source": {
+        "name": "Verband der Ersatzkassen (vdek)",
+        "url": "https://www.vdek.com"
       }
     }
   ]
