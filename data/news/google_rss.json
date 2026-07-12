@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-12T22:50:59.251857+00:00",
+  "fetched_at": "2026-07-12T23:56:03.528720+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -94,16 +94,6 @@
       }
     },
     {
-      "id": "04f1bd932739",
-      "title": "6-R-Regel in der Pflege: Was dahintersteckt und warum sie so wichtig ist - Allgäuer Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVWRBMkNKRXBlbDFfZDRSVkZmaG1iTXBQNHJJYmN2QnZZSlJfOEQ0dldSQmp6VDNlUWprTURxb2lUQWZ5UnpPSjFpMW9ydGt5U3lUdHVfR2Z1M1FDU3RQM0R2TjZmUUxjT3RQcWZiZkF6WE9HUkIzbXNPU0l2V3FRWmhPRGpyM1F6SDFQTy1ObXlSUGk3Vm5NX05pN1NaSjg5TlhtRmRPc0lWT3lTSzRTNmFpTDZvNnRlcmYyYmFrSTFQQQ?oc=5",
-      "published": "2026-07-10T08:13:55+00:00",
-      "source": {
-        "name": "Allgäuer Zeitung",
-        "url": "https://www.allgaeuer-zeitung.de"
-      }
-    },
-    {
       "id": "a48a34dcb337",
       "title": "Opioide: Israel führt weltweit beim Pro-Kopf-Konsum - Jüdische Allgemeine",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1MZVF2WFVHNi01ZVZ4STRQeWMxTW9FN1lFYS1jdy0tRXhzcGRCazhCMWdWLWVpcHZzcEVNYUpqNE40OVgzYU1TazBoOXBEdkZtVEE3R3ZST0Y4WHJXcHNzWVdFdGx6aUJ6eWNIN3pEeFg0SnU0RWc?oc=5",
@@ -114,13 +104,13 @@
       }
     },
     {
-      "id": "a5b9c1b01e21",
-      "title": "Macht mein Medikament dick? Welche Wirkstoffe eine Gewichtszunahme auslösen können - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPejZRa1ppV2Z6VHBzV3ByVUJhTmNuTXRGdkEzVzItRWJCbFRxZGwzUlV1NHQ3a242dXhTbWFZaGotTjB5ZGdqN1B3QU91MnZmVHVyeDlDUE15cjNWallMUHVhWmhiT1BQYTJtTzM5elBRamNfT3QxMGZRYk9sUkNqT2ltTTFhakVEM0RNWEoyR09JazU1NHc5M2FMQlF3Tm9ZRU96a0pFS2tiRC1NUXoxcGtUR2x6RkE0YW84?oc=5",
-      "published": "2026-07-11T07:00:00+00:00",
+      "id": "04f1bd932739",
+      "title": "6-R-Regel in der Pflege: Was dahintersteckt und warum sie so wichtig ist - Allgäuer Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVWRBMkNKRXBlbDFfZDRSVkZmaG1iTXBQNHJJYmN2QnZZSlJfOEQ0dldSQmp6VDNlUWprTURxb2lUQWZ5UnpPSjFpMW9ydGt5U3lUdHVfR2Z1M1FDU3RQM0R2TjZmUUxjT3RQcWZiZkF6WE9HUkIzbXNPU0l2V3FRWmhPRGpyM1F6SDFQTy1ObXlSUGk3Vm5NX05pN1NaSjg5TlhtRmRPc0lWT3lTSzRTNmFpTDZvNnRlcmYyYmFrSTFQQQ?oc=5",
+      "published": "2026-07-10T08:13:55+00:00",
       "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
+        "name": "Allgäuer Zeitung",
+        "url": "https://www.allgaeuer-zeitung.de"
       }
     },
     {
@@ -134,6 +124,16 @@
       }
     },
     {
+      "id": "a5b9c1b01e21",
+      "title": "Macht mein Medikament dick? Welche Wirkstoffe eine Gewichtszunahme auslösen können - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPejZRa1ppV2Z6VHBzV3ByVUJhTmNuTXRGdkEzVzItRWJCbFRxZGwzUlV1NHQ3a242dXhTbWFZaGotTjB5ZGdqN1B3QU91MnZmVHVyeDlDUE15cjNWallMUHVhWmhiT1BQYTJtTzM5elBRamNfT3QxMGZRYk9sUkNqT2ltTTFhakVEM0RNWEoyR09JazU1NHc5M2FMQlF3Tm9ZRU96a0pFS2tiRC1NUXoxcGtUR2x6RkE0YW84?oc=5",
+      "published": "2026-07-11T07:00:00+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
+      }
+    },
+    {
       "id": "39d5be2b8d46",
       "title": "Was sich auch ändert: Weniger Prävention, aber höhere Zuzahlungen - AerzteZeitung.de",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPcHctRy1qYm9NYjFsN1FJQlQxNVRSZ3RncXpFMUQ0Z19UbnUwMjl2TjJYNDNobzM2TW5EdDF2OVYwQTlBWkVUdy1zakwzV3hmQUZGX0RFdXRDMmJ5QWFFNlBGR1M2eGZYSGRiaFBDX3FJcWtYY01vU3dxWjJrSzRCaEdRU2lUUnJLWGwzcGVNXzI1a2FHT0luMjlOZDkyUnZGd2swaDEteVhXbmtfY3FmSjNkRTJfN3Z0a0E?oc=5",
@@ -144,16 +144,6 @@
       }
     },
     {
-      "id": "e745ec820c99",
-      "title": "Bundestag beschließt Standortdestabilisierungsgesetz - Presseportal",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5iQlRUUHBUOG5vMGUzMU01SkJ1aDh3ZTlaeFRHdWJOb1FuYWVlYm9LOUgza0dxYkxCSjJfZUJsTzJlWEtaRl9nN0otTUlQLXJsck5Ibm1QVQ?oc=5",
-      "published": "2026-07-10T10:04:43+00:00",
-      "source": {
-        "name": "Presseportal",
-        "url": "https://www.presseportal.de"
-      }
-    },
-    {
       "id": "359a638ace75",
       "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesministerium für Gesundheit (BMG)",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNlp2UC15ODdWb214VmdueWZNQ2pWMFRyd1NZNWNVbS1iTGRTZFNNeTl1WlJJZTZPdGVZUC1DVnVZWEF0N0pla3lSMVEyVl9fLXZHU2s3Q1lVMUVvZ0JIUGVXQllJNlI4TUJIVlFBaU9jeTF3NHVhWXhRdXZGczZRdWY0bnp6UlZnNExna0d2OFRiNVZzYkFuSHFRYjBQd3NQVXNZNVYtZWlkVngxa2JHZTdfVXdzUzFL?oc=5",
@@ -161,6 +151,16 @@
       "source": {
         "name": "Bundesministerium für Gesundheit (BMG)",
         "url": "https://www.bundesgesundheitsministerium.de"
+      }
+    },
+    {
+      "id": "e745ec820c99",
+      "title": "Bundestag beschließt Standortdestabilisierungsgesetz - Presseportal",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5iQlRUUHBUOG5vMGUzMU01SkJ1aDh3ZTlaeFRHdWJOb1FuYWVlYm9LOUgza0dxYkxCSjJfZUJsTzJlWEtaRl9nN0otTUlQLXJsck5Ibm1QVQ?oc=5",
+      "published": "2026-07-10T10:04:43+00:00",
+      "source": {
+        "name": "Presseportal",
+        "url": "https://www.presseportal.de"
       }
     },
     {
@@ -184,13 +184,13 @@
       }
     },
     {
-      "id": "d84d643c6d8b",
-      "title": "Bundestag und Bundesrat: Neue Chancen, aber auch Risiken für die Arzneimittelversorgung - Presseportal",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1fZEpET2FXdFpHaEY0YkZuakwxbXQ2bUtpcXdZdGN6NjBCU3dXZGVCbzZxdjdGUFdkTFdsX1hXZGF6d3gzTjVUUEpxdDlhQ2c5ZktNa0RB?oc=5",
-      "published": "2026-07-10T09:44:35+00:00",
+      "id": "9f7c377ed6d2",
+      "title": "MFN-Modell USA: Wie US-Arzneimittelpolitik Innovationen in Europa ausbremst - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWkw5ZTd1QUxfTlBDNjVEc0paTWpvTFpfTE9lOFM3YnhiWnBBREVhRzlMQnRmWDdkREJzVlg3UnZCN2RsTC1aTkhtN19oX2dEYmVLdXk4MXFBUnVGakk3YzVfbjZVQ0E0MUtPN2JZZ08wQ05yaTFLNER1dVYzZEo5UldOVldfQ0lCbGNRWEJZbUg0R3JBaGp6Mm1DTGd2eTYzWE9GV1hvenRGWHhOZXBxMHJMY09GUQ?oc=5",
+      "published": "2026-04-16T07:55:26+00:00",
       "source": {
-        "name": "Presseportal",
-        "url": "https://www.presseportal.de"
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
       }
     },
     {
@@ -204,16 +204,6 @@
       }
     },
     {
-      "id": "9f7c377ed6d2",
-      "title": "MFN-Modell USA: Wie US-Arzneimittelpolitik Innovationen in Europa ausbremst - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWkw5ZTd1QUxfTlBDNjVEc0paTWpvTFpfTE9lOFM3YnhiWnBBREVhRzlMQnRmWDdkREJzVlg3UnZCN2RsTC1aTkhtN19oX2dEYmVLdXk4MXFBUnVGakk3YzVfbjZVQ0E0MUtPN2JZZ08wQ05yaTFLNER1dVYzZEo5UldOVldfQ0lCbGNRWEJZbUg0R3JBaGp6Mm1DTGd2eTYzWE9GV1hvenRGWHhOZXBxMHJMY09GUQ?oc=5",
-      "published": "2026-04-16T07:55:26+00:00",
-      "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
-      }
-    },
-    {
       "id": "1efe96552b89",
       "title": "Die Merck-Co.-Aktie bleibt vom breiten Pharmaportfolio und soliden Krebsmedikamenten gestützt - ad-hoc-news.de",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNd0NQOEJUc0hCQ3o2UWtIVmRscHNnRVRUdFRZWm13N2x6aHhFejRnT3B5VU5FX3dZekRXcm5LdUxScjJJRnZiRjFlT1ZmQUE3STBWbkROVXpaU0pBc2VITXlac2tlcXBFX1dfMkdkVXRzSHNpWDdpb05MdkhmVXZ3RUlRY3FkaGNnSXFUNlFfWjFTbkM3VUoxWTVCVFRaSXo4MjFidWU1TWU1aUs1NHZNd2hEUnZFQ2dxWDZDRTdSdThnZw?oc=5",
@@ -221,6 +211,16 @@
       "source": {
         "name": "ad-hoc-news.de",
         "url": "https://www.ad-hoc-news.de"
+      }
+    },
+    {
+      "id": "d84d643c6d8b",
+      "title": "Bundestag und Bundesrat: Neue Chancen, aber auch Risiken für die Arzneimittelversorgung - Presseportal",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1fZEpET2FXdFpHaEY0YkZuakwxbXQ2bUtpcXdZdGN6NjBCU3dXZGVCbzZxdjdGUFdkTFdsX1hXZGF6d3gzTjVUUEpxdDlhQ2c5ZktNa0RB?oc=5",
+      "published": "2026-07-10T09:44:35+00:00",
+      "source": {
+        "name": "Presseportal",
+        "url": "https://www.presseportal.de"
       }
     },
     {
@@ -334,12 +334,12 @@
       }
     },
     {
-      "id": "47afc2884d76",
-      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - geo.de",
+      "id": "7a99adaec5c0",
+      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - Geo.de",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
       "published": "2026-06-19T07:00:00+00:00",
       "source": {
-        "name": "geo.de",
+        "name": "Geo.de",
         "url": "https://www.geo.de"
       }
     },
@@ -361,6 +361,16 @@
       "source": {
         "name": "DIE ZEIT",
         "url": "https://www.zeit.de"
+      }
+    },
+    {
+      "id": "a72d783267f7",
+      "title": "Indivior setzt auf Medikamente gegen Suchterkrankungen. Langfristiger Ansatz im Gesundheitsmarkt - ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMGNtMW43UTNQVjF5MXh4OXRnSnM0QjhQRi1XaVRjSl9HdFprS2VUcWpWblVyTUs2RXVBOE10TXJWT0p1SUtRQmJNTFZuUS1WTzduR2VGMDJaUmNLcWtwd09LRmFjSlhDR2xuMzFMR2VjMEtlUDJ1TC1lVWhndDIycy1ONUphS1VpUS1jRWlqSW9DNG1Ecm9HLVpURy1TRlFpZ3dWYnRWWDl0YldxQjVXNUswekpmdHN0aFhUd0RZZHBFM0FQQkE?oc=5",
+      "published": "2026-07-08T15:05:44+00:00",
+      "source": {
+        "name": "ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -391,16 +401,6 @@
       "source": {
         "name": "NDR.de",
         "url": "https://www.ndr.de"
-      }
-    },
-    {
-      "id": "a72d783267f7",
-      "title": "Indivior setzt auf Medikamente gegen Suchterkrankungen. Langfristiger Ansatz im Gesundheitsmarkt - ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMGNtMW43UTNQVjF5MXh4OXRnSnM0QjhQRi1XaVRjSl9HdFprS2VUcWpWblVyTUs2RXVBOE10TXJWT0p1SUtRQmJNTFZuUS1WTzduR2VGMDJaUmNLcWtwd09LRmFjSlhDR2xuMzFMR2VjMEtlUDJ1TC1lVWhndDIycy1ONUphS1VpUS1jRWlqSW9DNG1Ecm9HLVpURy1TRlFpZ3dWYnRWWDl0YldxQjVXNUswekpmdHN0aFhUd0RZZHBFM0FQQkE?oc=5",
-      "published": "2026-07-08T15:05:44+00:00",
-      "source": {
-        "name": "ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -494,16 +494,6 @@
       }
     },
     {
-      "id": "c5e8dfb6e8ee",
-      "title": "Gesundheitswirtschaft: Sparplan ist für Warken »kurzfristige Operation am Herzen« - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPM2ZHWEhpckd3UktDNnQwSDMtZ09XX21zQk16ckN2dG12bWFSWGNDdXNfc0xpNlJqS3ZfajRSMFRzTlRPYVNxVHNlZlJnWjI4VGcwYjhnOGhwZG9md3k2eDVHUGJfazhIU1NGVUQ1MjFYLUF1VmpVQlUyQjJnUjdqSUNZUTdGWnd4Yi1LZnpWaG1iaW5GZHBTM3p1bk1yZHNnSFJKQmpUOA?oc=5",
-      "published": "2026-05-19T07:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "521a662a3a50",
       "title": "Die Roche-Aktie bleibt vom Pharmageschäft und Diagnostik-Erlösen gestützt - ad-hoc-news.de",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVy1nRnN6VkpQT1JSa0ZuSENBVzhhTzVKWkxFZ3JHWWVlLTJlZzhiSldDQ0RzREdZM0hiVl85Si1DWjdGVU9aS1RwYTl2b1ZTenFtNUF0cUVsS3p5eWM5dWNlYjVUWm9ieFZkVGFqVXN6dmxvY1JEdFhKcGJBYmZZZmJDR0swblpEcVpMSWFJcS01a3hNRlpGWGhzY3ZLRHo3RlRfSGxsSWpVQUh0TS1xMGNPcVNBV0o5UlNreHFKZDhwZlk?oc=5",
@@ -511,6 +501,16 @@
       "source": {
         "name": "ad-hoc-news.de",
         "url": "https://www.ad-hoc-news.de"
+      }
+    },
+    {
+      "id": "c5e8dfb6e8ee",
+      "title": "Gesundheitswirtschaft: Sparplan ist für Warken »kurzfristige Operation am Herzen« - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPM2ZHWEhpckd3UktDNnQwSDMtZ09XX21zQk16ckN2dG12bWFSWGNDdXNfc0xpNlJqS3ZfajRSMFRzTlRPYVNxVHNlZlJnWjI4VGcwYjhnOGhwZG9md3k2eDVHUGJfazhIU1NGVUQ1MjFYLUF1VmpVQlUyQjJnUjdqSUNZUTdGWnd4Yi1LZnpWaG1iaW5GZHBTM3p1bk1yZHNnSFJKQmpUOA?oc=5",
+      "published": "2026-05-19T07:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -604,16 +604,6 @@
       }
     },
     {
-      "id": "ae01424b6ad2",
-      "title": "Kritische Arzneimittel wieder stärker in Europa produzieren - baden-wuerttemberg.de",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSjMzcWVqRjE1TVZWbUdQLWFEMnBYcGN3WEFDaWQzVGN5YUNRWTk1dXdzYm53bGRCOEVMbnpPZWZEQ3dQdzFzNXJ0OVJac1owMFJERW1hc2Mzbk5yNkluNGhWazY5STVzdWR3Yjd5dlR3WEkySEdEOWotSndjWDZhQ09qUHVJbzZOa2hCeDA5blZ5cENQV08tWWVZSHVzNURfa1ZwNWxJNFNaYTVnRUVmRnhPMDF3WmlkcldXMFJmdlVjWEZzeGRTSUQzN2hpWjdl?oc=5",
-      "published": "2026-01-20T08:00:00+00:00",
-      "source": {
-        "name": "baden-wuerttemberg.de",
-        "url": "https://www.baden-wuerttemberg.de"
-      }
-    },
-    {
       "id": "d04f77528724",
       "title": "Arzneimittel: Apothekerverband registriert deutlich gestiegene Ausgaben für Arzneien - DIE ZEIT",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQnNYX0ZIOXRaeWxnUDA2UTMwRG5DVmhTUmNKWlNTRTJQLVNWbDAzaXpIY2FEQ0dzaTRFYzNPSE9zUEVfU2F1WkZoZmt3NWhMMkI2VkhwbU9maWFPdnBnRXdKOU8taHRHakljeUstTHlNRUxGbVNQQ3dQckcwSlhIZnZYLVFmblBWeVhVWC1NTmE3ZjhaY0x5Z092VC1Rd2tZa20wUlBxU2tpMlRrWkpnNFJYb3Jpdw?oc=5",
@@ -621,6 +611,16 @@
       "source": {
         "name": "DIE ZEIT",
         "url": "https://www.zeit.de"
+      }
+    },
+    {
+      "id": "ae01424b6ad2",
+      "title": "Kritische Arzneimittel wieder stärker in Europa produzieren - baden-wuerttemberg.de",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSjMzcWVqRjE1TVZWbUdQLWFEMnBYcGN3WEFDaWQzVGN5YUNRWTk1dXdzYm53bGRCOEVMbnpPZWZEQ3dQdzFzNXJ0OVJac1owMFJERW1hc2Mzbk5yNkluNGhWazY5STVzdWR3Yjd5dlR3WEkySEdEOWotSndjWDZhQ09qUHVJbzZOa2hCeDA5blZ5cENQV08tWWVZSHVzNURfa1ZwNWxJNFNaYTVnRUVmRnhPMDF3WmlkcldXMFJmdlVjWEZzeGRTSUQzN2hpWjdl?oc=5",
+      "published": "2026-01-20T08:00:00+00:00",
+      "source": {
+        "name": "baden-wuerttemberg.de",
+        "url": "https://www.baden-wuerttemberg.de"
       }
     },
     {
