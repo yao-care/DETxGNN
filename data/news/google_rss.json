@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-12T17:59:39.160810+00:00",
+  "fetched_at": "2026-07-12T19:17:59.615077+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -484,16 +484,6 @@
       }
     },
     {
-      "id": "521a662a3a50",
-      "title": "Die Roche-Aktie bleibt vom Pharmageschäft und Diagnostik-Erlösen gestützt - ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVy1nRnN6VkpQT1JSa0ZuSENBVzhhTzVKWkxFZ3JHWWVlLTJlZzhiSldDQ0RzREdZM0hiVl85Si1DWjdGVU9aS1RwYTl2b1ZTenFtNUF0cUVsS3p5eWM5dWNlYjVUWm9ieFZkVGFqVXN6dmxvY1JEdFhKcGJBYmZZZmJDR0swblpEcVpMSWFJcS01a3hNRlpGWGhzY3ZLRHo3RlRfSGxsSWpVQUh0TS1xMGNPcVNBV0o5UlNreHFKZDhwZlk?oc=5",
-      "published": "2026-07-10T19:11:11+00:00",
-      "source": {
-        "name": "ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "c5e8dfb6e8ee",
       "title": "Gesundheitswirtschaft: Sparplan ist für Warken »kurzfristige Operation am Herzen« - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPM2ZHWEhpckd3UktDNnQwSDMtZ09XX21zQk16ckN2dG12bWFSWGNDdXNfc0xpNlJqS3ZfajRSMFRzTlRPYVNxVHNlZlJnWjI4VGcwYjhnOGhwZG9md3k2eDVHUGJfazhIU1NGVUQ1MjFYLUF1VmpVQlUyQjJnUjdqSUNZUTdGWnd4Yi1LZnpWaG1iaW5GZHBTM3p1bk1yZHNnSFJKQmpUOA?oc=5",
@@ -501,6 +491,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "521a662a3a50",
+      "title": "Die Roche-Aktie bleibt vom Pharmageschäft und Diagnostik-Erlösen gestützt - ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVy1nRnN6VkpQT1JSa0ZuSENBVzhhTzVKWkxFZ3JHWWVlLTJlZzhiSldDQ0RzREdZM0hiVl85Si1DWjdGVU9aS1RwYTl2b1ZTenFtNUF0cUVsS3p5eWM5dWNlYjVUWm9ieFZkVGFqVXN6dmxvY1JEdFhKcGJBYmZZZmJDR0swblpEcVpMSWFJcS01a3hNRlpGWGhzY3ZLRHo3RlRfSGxsSWpVQUh0TS1xMGNPcVNBV0o5UlNreHFKZDhwZlk?oc=5",
+      "published": "2026-07-10T19:11:11+00:00",
+      "source": {
+        "name": "ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
