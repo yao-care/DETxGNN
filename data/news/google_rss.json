@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-13T16:35:24.022352+00:00",
+  "fetched_at": "2026-07-13T18:44:18.448990+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -11,16 +11,6 @@
       "source": {
         "name": "WELT",
         "url": "https://www.welt.de"
-      }
-    },
-    {
-      "id": "6c55eca08911",
-      "title": "Hitze-Taskforce: Apotheken in Phase 2 - Apotheke Adhoc",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOR3ZZTkdNOTFhTVNVZGl4T1kyVTJiQkFMbFZhNWRWWkY1eWlPLXpBc01rRDRJR2duTUd0SkRjbGJOUlRvZlp0TjRXZzFUdmNobjhCN2ROdWxkX0xad2ZsWk1pWF9XU09NZnR2YnRBYUNtVFREaWo5YkMycWs1cmFCTVFLdFY0QzU1cUV1S1pmOWxMMzdBR0ExMEVR?oc=5",
-      "published": "2026-07-13T11:38:31+00:00",
-      "source": {
-        "name": "Apotheke Adhoc",
-        "url": "https://www.apotheke-adhoc.de"
       }
     },
     {
@@ -124,10 +114,10 @@
       }
     },
     {
-      "id": "1b66477e5161",
-      "title": "Die Tsuruha-Aktie bleibt vom japanischen Apothekenwachstum gestützt - ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbXdyTTJSUXNVS0dLcXpiOHgwTGJZZHZ6RE4tMU94T1BDb2V4eFl6QWE1RzVPX3I1R1d4dm5qTFozVnJBSVVXM0RzLUVUMmU0QnFvSEtHd1RQemh0MVY0bk1FdW9UMTlydEFxQ1kyN2xGQ1diOTNaY2lsOVpuTkNaV1QyOWxoZGU4N1dESkwxU2Z2RVFCUV9LWHRoak5xOVltemp4TkFXMzFQcmNRYlRHTS14bFVaS1FtYVAySjY0bFhFRjdJX1E?oc=5",
-      "published": "2026-07-13T16:09:37+00:00",
+      "id": "6fbc11f85c44",
+      "title": "Die Walgreens-Boots-Alliance-Aktie bleibt vom Gesundheits- und Apothekengeschäft gestützt - ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdS1OaXVFSGJTdjZOUXhnN0w3RV9fektlZk14SWItVERVY0FqS1BGay1IMkJyd3RfTW5YNjREOUU5TFpLLTYxLWJQRW5SX3Rvb2tBSGRxTWd2YVp0c0lROG1iWXY0Wm8yUzJPeHN0ZEZaQ1hSLWhQZzEtRTJGa01lMmZVZnVPeXpvZlk0RlVFMXFrcEdPbURTTmVBb3hSVFhFVVYyZmF4aVY4aUNaWmItTlpONVlmMzZ4OEFEUw?oc=5",
+      "published": "2026-07-13T12:30:45+00:00",
       "source": {
         "name": "ad-hoc-news.de",
         "url": "https://www.ad-hoc-news.de"
@@ -184,6 +174,16 @@
       }
     },
     {
+      "id": "1b66477e5161",
+      "title": "Die Tsuruha-Aktie bleibt vom japanischen Apothekenwachstum gestützt - ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbXdyTTJSUXNVS0dLcXpiOHgwTGJZZHZ6RE4tMU94T1BDb2V4eFl6QWE1RzVPX3I1R1d4dm5qTFozVnJBSVVXM0RzLUVUMmU0QnFvSEtHd1RQemh0MVY0bk1FdW9UMTlydEFxQ1kyN2xGQ1diOTNaY2lsOVpuTkNaV1QyOWxoZGU4N1dESkwxU2Z2RVFCUV9LWHRoak5xOVltemp4TkFXMzFQcmNRYlRHTS14bFVaS1FtYVAySjY0bFhFRjdJX1E?oc=5",
+      "published": "2026-07-13T16:09:37+00:00",
+      "source": {
+        "name": "ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
+      }
+    },
+    {
       "id": "fd18462a4826",
       "title": "Einfach Gewicht verlieren? So funktioniert die Abnehmpille - WEB.DE",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZkpQRzRFN19UelZBSU85VlVjRkdBX0dSUGZCNDhmNU14SFRNYU9jSnBFOTc5VmtVSTdvR3ZGcDVaN0JhQVdmNDlqRWlDUFdLUzJrdHo0NVk5b0F5MFVHXzBTU3ppNTRaSGNsQWRhc0R1Zld1b1JNU2psdU9qQmNkMHp0ajlsWGhyOHUxOVVxMA?oc=5",
@@ -194,10 +194,10 @@
       }
     },
     {
-      "id": "6fbc11f85c44",
-      "title": "Die Walgreens-Boots-Alliance-Aktie bleibt vom Gesundheits- und Apothekengeschäft gestützt - ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdS1OaXVFSGJTdjZOUXhnN0w3RV9fektlZk14SWItVERVY0FqS1BGay1IMkJyd3RfTW5YNjREOUU5TFpLLTYxLWJQRW5SX3Rvb2tBSGRxTWd2YVp0c0lROG1iWXY0Wm8yUzJPeHN0ZEZaQ1hSLWhQZzEtRTJGa01lMmZVZnVPeXpvZlk0RlVFMXFrcEdPbURTTmVBb3hSVFhFVVYyZmF4aVY4aUNaWmItTlpONVlmMzZ4OEFEUw?oc=5",
-      "published": "2026-07-13T12:30:45+00:00",
+      "id": "4c30d9006427",
+      "title": "Die Merck-Co.-Aktie bleibt vom starken Pharmageschäft gestützt - ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVjkxWVRLV0ZCRVVZQ3p5SWZwZV82WDlBcmtPNTV4NXcxVnE4ZGhNMVFOelhwMl9yb2xmeVlTVnRWcE0wMUQ4MmtOeHluNk9hTmNDUVB5cGgwNXlFMmVRbko4YVZpWS13V01nZG1ZMkpXUVpnZTAzVEVZbzMxc1A3SkN2b1Y1ZTBRYUFfaWZQT21kS3g3UUJnNlpNRGhPWllmdDhEQ1FNOHRVdTlfdFVhOXo5czlvWXlKd0J1TUJUdw?oc=5",
+      "published": "2026-07-13T17:56:19+00:00",
       "source": {
         "name": "ad-hoc-news.de",
         "url": "https://www.ad-hoc-news.de"
@@ -221,6 +221,16 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "106c3aa45350",
+      "title": "Die Roche-Holding-Aktie bleibt vom starken Pharmageschäft gestützt - ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQkhPSF9pd0h0b19OM2Z3a1NlWHlCcDBGb0hPRmh3RWpRTWxvS0NiaUJIWkhfTWtINnA5dHlUMzltb2x0cGxlRTVFYXpDbmdiNEtzbmlCMjFKdzdJaXBCdHFiNmhDbWJSb3dXOHZwZ29QSGxybmFfcFcwcmh3TkdPQU44b1hFTXBrYXpIUmpQSE9jZGFod0FMQWJlMW9UMzVFR2owMWtoR1dVaUlPNE9lZExNYTZxbmlTTy1rOVhhWGRQQjN6cVE?oc=5",
+      "published": "2026-07-13T17:42:07+00:00",
+      "source": {
+        "name": "ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -254,16 +264,6 @@
       }
     },
     {
-      "id": "1efe96552b89",
-      "title": "Die Merck-Co.-Aktie bleibt vom breiten Pharmaportfolio und soliden Krebsmedikamenten gestützt - ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNd0NQOEJUc0hCQ3o2UWtIVmRscHNnRVRUdFRZWm13N2x6aHhFejRnT3B5VU5FX3dZekRXcm5LdUxScjJJRnZiRjFlT1ZmQUE3STBWbkROVXpaU0pBc2VITXlac2tlcXBFX1dfMkdkVXRzSHNpWDdpb05MdkhmVXZ3RUlRY3FkaGNnSXFUNlFfWjFTbkM3VUoxWTVCVFRaSXo4MjFidWU1TWU1aUs1NHZNd2hEUnZFQ2dxWDZDRTdSdThnZw?oc=5",
-      "published": "2026-07-12T05:52:45+00:00",
-      "source": {
-        "name": "ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "38b8b0aa9188",
       "title": "Vom Wissen zum Handeln: Verbesserung der Bezahlbarkeit von Arzneimitteln in den Ländern des Westbalkans - World Health Organization (WHO)",
       "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOZlNmcEdYcXZxdDBYazhiVjRCWHVtbms0ZG5JUWlXb0lJWXVFYjV1ak1MR05oZW5FbHFMTGpyNjJxS1ZuQWk4Nl9Wc2NHdHE3YnhrQzc1VHJNbm1QRFdMVF9WVGw2NHdVeDBHajRYX1hfZkFEMTU2Z09kcU04T1c1V3dKZ09nUUlMc3dnLVdvQ3RTYUZqSDA3d1djVXpxbU9fSFUtSGlHbHNOdFJRb29RQlpTRHEzd2pCQzd5Y3VRNmcza2dzTVVlYUp5Y1U5b01kMGpQUzZvNGctWE0tSmJRSEk5TQ?oc=5",
@@ -271,6 +271,16 @@
       "source": {
         "name": "World Health Organization (WHO)",
         "url": "https://www.who.int"
+      }
+    },
+    {
+      "id": "1efe96552b89",
+      "title": "Die Merck-Co.-Aktie bleibt vom breiten Pharmaportfolio und soliden Krebsmedikamenten gestützt - ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNd0NQOEJUc0hCQ3o2UWtIVmRscHNnRVRUdFRZWm13N2x6aHhFejRnT3B5VU5FX3dZekRXcm5LdUxScjJJRnZiRjFlT1ZmQUE3STBWbkROVXpaU0pBc2VITXlac2tlcXBFX1dfMkdkVXRzSHNpWDdpb05MdkhmVXZ3RUlRY3FkaGNnSXFUNlFfWjFTbkM3VUoxWTVCVFRaSXo4MjFidWU1TWU1aUs1NHZNd2hEUnZFQ2dxWDZDRTdSdThnZw?oc=5",
+      "published": "2026-07-12T05:52:45+00:00",
+      "source": {
+        "name": "ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -291,16 +301,6 @@
       "source": {
         "name": "Gesundheit.gv.at",
         "url": "https://www.gesundheit.gv.at"
-      }
-    },
-    {
-      "id": "087891737758",
-      "title": "Engpässe bei Arzneimitteln: Geopolitik erschwert Europas Streben nach Unabhängigkeit - euractiv.com",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQ2lScFVHU3ZELWZOdzJOUGU2YUQ3c2ZpbWhIYWFiVUNoRFZHTm5JM1BfUWVnanhicnRvanhQdGx4UHVuTnZ5dG4ySEY4eVE3dUxGaXVLSm5sM1liQzRtc19GVVE3RkNnUGhhTkhZTXAtMkhWZ3JqOVREWlhfRnBSX1FPRXlaaUE5d2d6cFVEakt5NDJaUkgzXzA3TUpqUUJTbzhRQXFpbmZCTGMwdlRDSXR3cHNjZw?oc=5",
-      "published": "2026-05-14T14:42:11+00:00",
-      "source": {
-        "name": "euractiv.com",
-        "url": "https://euractiv.com"
       }
     },
     {
@@ -334,16 +334,6 @@
       }
     },
     {
-      "id": "08f761ee3a89",
-      "title": "EU-Gesundheitskommissar prüft Folgen von Trumps Arzneipreispolitik - Euronews.com",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSzM5cWFmcTJfV010WWVadkdEVXRGblFEUTlhaUhoOThvaHV5eTJuWFVJbUtyMW9xNTJkYzNIR2Z6YWp0ZE1IWmNPb3pNcU5YY1phcUlQSU5IWWtvV0MzNDlqdHJZRU40alRPU29CWFVnUDBjLXE3UHhtV2pManQ4TzhzVEU3OHNDM2JJZm9ZbzBUbkVCRFRZYU1jMTl2UVdGRnhubmZZYWswcmZqbXAtbW5QcnRBTktIaHFFWg?oc=5",
-      "published": "2026-06-16T07:00:00+00:00",
-      "source": {
-        "name": "Euronews.com",
-        "url": "https://de.euronews.com"
-      }
-    },
-    {
       "id": "5cfa2762dc20",
       "title": "Gesundheit - GKV-Chef: \"Mehr gegen steigende Arzneimittelpreise tun\" - Deutschlandfunk",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdXlzU1VBOUhWa05wcTVDNnBBdHRkeDl5TnZ1S1A3T0swT2pKTjZlaU1pempxQVJkMXMySXBtd2xpaUk5WWN4Q1VyakdMbnN2eF9mRncxakUwN21WbGFQMWpuR2VoOG1tUDYtWERUbS1LSVpOdUNaTE1SWmhDSkVUdTlubVNEWGNtUXNaYk5tcTJibTRDZTJv?oc=5",
@@ -354,12 +344,22 @@
       }
     },
     {
-      "id": "7a99adaec5c0",
-      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - Geo.de",
+      "id": "08f761ee3a89",
+      "title": "EU-Gesundheitskommissar prüft Folgen von Trumps Arzneipreispolitik - Euronews.com",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSzM5cWFmcTJfV010WWVadkdEVXRGblFEUTlhaUhoOThvaHV5eTJuWFVJbUtyMW9xNTJkYzNIR2Z6YWp0ZE1IWmNPb3pNcU5YY1phcUlQSU5IWWtvV0MzNDlqdHJZRU40alRPU29CWFVnUDBjLXE3UHhtV2pManQ4TzhzVEU3OHNDM2JJZm9ZbzBUbkVCRFRZYU1jMTl2UVdGRnhubmZZYWswcmZqbXAtbW5QcnRBTktIaHFFWg?oc=5",
+      "published": "2026-06-16T07:00:00+00:00",
+      "source": {
+        "name": "Euronews.com",
+        "url": "https://de.euronews.com"
+      }
+    },
+    {
+      "id": "47afc2884d76",
+      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - geo.de",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
       "published": "2026-06-19T07:00:00+00:00",
       "source": {
-        "name": "Geo.de",
+        "name": "geo.de",
         "url": "https://www.geo.de"
       }
     },
@@ -544,16 +544,6 @@
       }
     },
     {
-      "id": "8308fd9ff3ea",
-      "title": "»Ge­ra­de in der Apo­the­ke wird Ge­sund­heit ge­lebt« - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWGI5Ni1Wb1RMSGlZbElwcDdtVjF5TzJBTVpUd0xoblBOUHl5UG8tcXlNY1FPTHBPbU5tT2J2S2VTRkFlZlVxejM2S3V6Ty14bHlXVmEtRmRPUnNoeEd0U3pWZlQ5SlZjNGF3bnhWWGF0M2h5MHVSaFZRZjBZZy1KOEZva1l2N1dzbkF0Q2dvRUc1SVN3OVVF?oc=5",
-      "published": "2026-03-19T07:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "5d8c89f1b6f0",
       "title": "Gesundheitsökonom Kugler: \"Wir bezahlen nur wirklich nützliche Medikamente\" - MDR.de",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWDlDNjhEYjgwOHl4R3NZUWFqaEo4Qkd4OUZISDllZG9TcVJubHF1MnUwRVRPY2pZLWZFdlQzdktxelU5SktXdlBaSkIxcFJjN2dJUXJTYklvSFpOckcxSjdvRkxRM0RjRy0yUEtIRWVPWF9JZmNMc1d1NXFMWHFVajJ0LWY1cDh6Ql9aYmFUQnE4LVlGNUFIZW5IR0E5TU5nak5ESlB0d2hSU2U0UWJQeWRfZllHVkcyeGdMVi1uRlFFU25OV0dv?oc=5",
@@ -561,6 +551,16 @@
       "source": {
         "name": "MDR.de",
         "url": "https://www.mdr.de"
+      }
+    },
+    {
+      "id": "8308fd9ff3ea",
+      "title": "»Ge­ra­de in der Apo­the­ke wird Ge­sund­heit ge­lebt« - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWGI5Ni1Wb1RMSGlZbElwcDdtVjF5TzJBTVpUd0xoblBOUHl5UG8tcXlNY1FPTHBPbU5tT2J2S2VTRkFlZlVxejM2S3V6Ty14bHlXVmEtRmRPUnNoeEd0U3pWZlQ5SlZjNGF3bnhWWGF0M2h5MHVSaFZRZjBZZy1KOEZva1l2N1dzbkF0Q2dvRUc1SVN3OVVF?oc=5",
+      "published": "2026-03-19T07:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -764,16 +764,6 @@
       }
     },
     {
-      "id": "0791514ec89d",
-      "title": "Steigende Arzneimittelkosten: Gesundheitsministerin Warken will Zugang zu neuen Medikamenten für alle erhalten - MDR.de",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPenF3ckVCSXl3ZmNka21FSTVtdkdoeGRZaEQ4Nnc4ZktKZk16U0ZUd19vYWRsZDdQUDZZLVFCd2k2anZScnRpSnJtXzRCbEozRm9fMEpkcVhjZ3dwT21zQVZPX2MybWdSUHBNeTZ3TmtESDFOWFNfM0lPV1Z4M3BmUTNkLTRfVGgxRUh4OWNOblh5ZGdCaUs5WXZmR2VVaVV5d1VHR1BHUFhubGtCWlFyZWk3VnhWZjdpWE9jNE5B?oc=5",
-      "published": "2025-12-09T08:00:00+00:00",
-      "source": {
-        "name": "MDR.de",
-        "url": "https://www.mdr.de"
-      }
-    },
-    {
       "id": "cb9e82b5a596",
       "title": "Pharma-Brief Spezial 3/2025: Arzneimittel als Umweltproblem - BUKO Pharma-Kampagne",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUDdWTFg4MmVyMTJlZDZWcUtYOGREV1BOcUNuQ3NZY29fVzdzSjc3Z1o3T3hXUzVva00tTUdINnlpa2NSc2dNVVcxazFpZFpzODYtVjV2bVRtd3k3Uk0zVXotMldEalRmRFJVZV9CTkxMUHlNVUsxZ2xqTjlaaWJpMElqMlQ2b2kwRlIyMjVxVk5OaFNOTWNGSg?oc=5",
@@ -781,6 +771,16 @@
       "source": {
         "name": "BUKO Pharma-Kampagne",
         "url": "https://bukopharma.de"
+      }
+    },
+    {
+      "id": "0791514ec89d",
+      "title": "Steigende Arzneimittelkosten: Gesundheitsministerin Warken will Zugang zu neuen Medikamenten für alle erhalten - MDR.de",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPenF3ckVCSXl3ZmNka21FSTVtdkdoeGRZaEQ4Nnc4ZktKZk16U0ZUd19vYWRsZDdQUDZZLVFCd2k2anZScnRpSnJtXzRCbEozRm9fMEpkcVhjZ3dwT21zQVZPX2MybWdSUHBNeTZ3TmtESDFOWFNfM0lPV1Z4M3BmUTNkLTRfVGgxRUh4OWNOblh5ZGdCaUs5WXZmR2VVaVV5d1VHR1BHUFhubGtCWlFyZWk3VnhWZjdpWE9jNE5B?oc=5",
+      "published": "2025-12-09T08:00:00+00:00",
+      "source": {
+        "name": "MDR.de",
+        "url": "https://www.mdr.de"
       }
     },
     {
