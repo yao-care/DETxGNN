@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-14T20:12:56.707380+00:00",
+  "fetched_at": "2026-07-14T21:58:44.549050+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -104,6 +104,16 @@
       }
     },
     {
+      "id": "2d23a7952c52",
+      "title": "Hitze-Taskforce: Apotheken in Phase 2 - apotheke adhoc",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOR3ZZTkdNOTFhTVNVZGl4T1kyVTJiQkFMbFZhNWRWWkY1eWlPLXpBc01rRDRJR2duTUd0SkRjbGJOUlRvZlp0TjRXZzFUdmNobjhCN2ROdWxkX0xad2ZsWk1pWF9XU09NZnR2YnRBYUNtVFREaWo5YkMycWs1cmFCTVFLdFY0QzU1cUV1S1pmOWxMMzdBR0ExMEVR?oc=5",
+      "published": "2026-07-13T11:38:31+00:00",
+      "source": {
+        "name": "apotheke adhoc",
+        "url": "https://www.apotheke-adhoc.de"
+      }
+    },
+    {
       "id": "e89bb6a1a7a1",
       "title": "Medikamente im Urlaub: So schützen Sie sich vor Fälschungen - Mindener Tageblatt",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVmFuWXBXcV9mM2x0cUItRFVsbl9ONUdXMVcwemo1cWVtaV8yeHktdFZaMW5BSURRRmxTMjA0OGx3eUZvVGQzOUpNSmpTODRvUFU0VXF0SkRyaVV0eWFIanJ2NHJoQWFEeDMtSVp3SUVfYnJPTHBXM3RvRzE2aEEyejdtR0dQaUltczRkRk1nVnFjM2ViMnM0aWdJNV8ycWZHYUllZGVWM0hGelpWZ2hzanp3?oc=5",
@@ -111,16 +121,6 @@
       "source": {
         "name": "Mindener Tageblatt",
         "url": "https://www.mt.de"
-      }
-    },
-    {
-      "id": "6c55eca08911",
-      "title": "Hitze-Taskforce: Apotheken in Phase 2 - Apotheke Adhoc",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOR3ZZTkdNOTFhTVNVZGl4T1kyVTJiQkFMbFZhNWRWWkY1eWlPLXpBc01rRDRJR2duTUd0SkRjbGJOUlRvZlp0TjRXZzFUdmNobjhCN2ROdWxkX0xad2ZsWk1pWF9XU09NZnR2YnRBYUNtVFREaWo5YkMycWs1cmFCTVFLdFY0QzU1cUV1S1pmOWxMMzdBR0ExMEVR?oc=5",
-      "published": "2026-07-13T11:38:31+00:00",
-      "source": {
-        "name": "Apotheke Adhoc",
-        "url": "https://www.apotheke-adhoc.de"
       }
     },
     {
@@ -144,16 +144,6 @@
       }
     },
     {
-      "id": "4ee210acb1fd",
-      "title": "Mit Herzblut leistet sie Hilfe in abgelegenen Regionen Nepals - Westfalen-Blatt",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPa1JTLVlFblN1S3d1bjQyLXhpZlI0a2NtYzhDOUppNEJ1Q2Z3MW1mNFljZm9yTF9LR1NuaWRCanZ2QVVtRmlfV043bFBMTndOTTduN3FVS1A0ejBBX2ZxVW1pcmtkSVd4UF9ydDJ1RkplT2h6ZzU5bXZGWjJjMEhQNDloOWNjUFp5QzJnYU4tRVE5UVE4MkZxMnl0b1h6eWZmOWpqaXZsZ1o0SU5IQ191OXpDSQ?oc=5",
-      "published": "2026-07-13T15:00:00+00:00",
-      "source": {
-        "name": "Westfalen-Blatt",
-        "url": "https://www.westfalen-blatt.de"
-      }
-    },
-    {
       "id": "359a638ace75",
       "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesministerium für Gesundheit (BMG)",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNlp2UC15ODdWb214VmdueWZNQ2pWMFRyd1NZNWNVbS1iTGRTZFNNeTl1WlJJZTZPdGVZUC1DVnVZWEF0N0pla3lSMVEyVl9fLXZHU2s3Q1lVMUVvZ0JIUGVXQllJNlI4TUJIVlFBaU9jeTF3NHVhWXhRdXZGczZRdWY0bnp6UlZnNExna0d2OFRiNVZzYkFuSHFRYjBQd3NQVXNZNVYtZWlkVngxa2JHZTdfVXdzUzFL?oc=5",
@@ -161,6 +151,16 @@
       "source": {
         "name": "Bundesministerium für Gesundheit (BMG)",
         "url": "https://www.bundesgesundheitsministerium.de"
+      }
+    },
+    {
+      "id": "4ee210acb1fd",
+      "title": "Mit Herzblut leistet sie Hilfe in abgelegenen Regionen Nepals - Westfalen-Blatt",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPa1JTLVlFblN1S3d1bjQyLXhpZlI0a2NtYzhDOUppNEJ1Q2Z3MW1mNFljZm9yTF9LR1NuaWRCanZ2QVVtRmlfV043bFBMTndOTTduN3FVS1A0ejBBX2ZxVW1pcmtkSVd4UF9ydDJ1RkplT2h6ZzU5bXZGWjJjMEhQNDloOWNjUFp5QzJnYU4tRVE5UVE4MkZxMnl0b1h6eWZmOWpqaXZsZ1o0SU5IQ191OXpDSQ?oc=5",
+      "published": "2026-07-13T15:00:00+00:00",
+      "source": {
+        "name": "Westfalen-Blatt",
+        "url": "https://www.westfalen-blatt.de"
       }
     },
     {
@@ -224,16 +224,6 @@
       }
     },
     {
-      "id": "4daa7b1dd67b",
-      "title": "Achtung! : Diese Medikamente wirken bei Sommerhitze anders - Kleine Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNV3p0WEZCRzNoZDViQUtZRUh3R05iOTRjU3pyUDZDcmk1SHd1QW5XUWkybGhQZGhlVWpfb1VaTkVzdF8xcEdDZ2lOQzJJakZucnlfZklZVnRjanloRVUyN3NoY0NLQlZmV0VBUEhlNG5wQlhsRDAyMnhLTmRudVBkRmJQTUJfcnFISmxoaXBzYnphc2d6blRQVA?oc=5",
-      "published": "2026-07-14T05:30:00+00:00",
-      "source": {
-        "name": "Kleine Zeitung",
-        "url": "https://www.kleinezeitung.at"
-      }
-    },
-    {
       "id": "c5d8b7d25cb7",
       "title": "Wie schütze ich mich gut vor Hitze? Tipps und Warnsignale - RiffReporter",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQa0dCOUVKTlFyRkxNeGVUOWJOX2Iyc19EVkx3aldKemFRVU5WOFBxWWJ4VWhzUkN0ZkJNdDFLcEtER0tCai1Sb2FpVmEyTFBqVnNZSmw1Wi1YR05jOWxSZnhkVGVkdnFHcnBRMHFaaFg1Z2JFa3RpOWd3WWxLa29rMGRTU2hDM2RWTTEtY3lfaG9tdHNlOGo5Vg?oc=5",
@@ -241,6 +231,16 @@
       "source": {
         "name": "RiffReporter",
         "url": "https://www.riffreporter.de"
+      }
+    },
+    {
+      "id": "4daa7b1dd67b",
+      "title": "Achtung! : Diese Medikamente wirken bei Sommerhitze anders - Kleine Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNV3p0WEZCRzNoZDViQUtZRUh3R05iOTRjU3pyUDZDcmk1SHd1QW5XUWkybGhQZGhlVWpfb1VaTkVzdF8xcEdDZ2lOQzJJakZucnlfZklZVnRjanloRVUyN3NoY0NLQlZmV0VBUEhlNG5wQlhsRDAyMnhLTmRudVBkRmJQTUJfcnFISmxoaXBzYnphc2d6blRQVA?oc=5",
+      "published": "2026-07-14T05:30:00+00:00",
+      "source": {
+        "name": "Kleine Zeitung",
+        "url": "https://www.kleinezeitung.at"
       }
     },
     {
@@ -264,16 +264,6 @@
       }
     },
     {
-      "id": "9f644ba755a0",
-      "title": "Die Kobayashi-Pharma-Aktie bleibt vom Gesundheitsbedarf in Japan gestützt - Ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNbER2M2txc3oyLUxhdXAxeGhVX3dKYmtiM0lRY09IM0lvbU8xMndxRlpRWlBKQldGdWhTTG5jcXF4b3Y1dnM3dWV4WnEyRG82LVZaVXhJM0s3TlowbFFoUmpXVVBJVEVKcGxSWDMtZDhGWnhfcU9GcmVGSzgyVFdldEhydUJnTTlINlhYbllQTU54NDRLa2NUa21BbWdKLUYtdm1PLW5OQmZJVG4yWlVWYnBHQVRaVDZPcXlNcUMtU1JPWkhVOU5VMHlQRVdUZw?oc=5",
-      "published": "2026-07-12T05:38:41+00:00",
-      "source": {
-        "name": "Ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "8db31424e5bb",
       "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - dw.com",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGxHSlhmSS0tbUNKdG15NEVzRzYzYllEUnAzUEU3ak53czRHVWlKdTZrRGFDMk1MUThPUjdPTnBGVENqd3d2Q1VSdWhJVXppWDF4NWh0aEJJaXJlVTlnV0VoZVFkRHNSM3p6NVZXNjNwWHk5YkxSUWR2RGZKcmp3Y2U5REY0U3dRZFJLeHFtQk9wb2Y3RUVOaVBlMlJhZ29Rck000gGjAUFVX3lxTE1rTW00WXFBajZxbTJOS1NLckhVbXFBSzh1NE96QTEydTN1YjZnaFFNcV8xblZGM29hdTZQUHc4V3YzQ1pwcTlaVVBhZDVqMExLMTlYVzZ6TmM4ZUdsUm5TLXpPNmk1R3V4UktvaV93cWttNFpVX0VEZlZnUllSQkhyUlZmeTBJcU0zUEVSZTgxdzFWUnFNRk9CYVljN0Jhd0ZXUFk?oc=5",
@@ -294,16 +284,6 @@
       }
     },
     {
-      "id": "526106abf6b1",
-      "title": "Die Merck-Co.-Aktie bleibt vom breiten Pharmaportfolio und soliden Krebsmedikamenten gestützt - Ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNd0NQOEJUc0hCQ3o2UWtIVmRscHNnRVRUdFRZWm13N2x6aHhFejRnT3B5VU5FX3dZekRXcm5LdUxScjJJRnZiRjFlT1ZmQUE3STBWbkROVXpaU0pBc2VITXlac2tlcXBFX1dfMkdkVXRzSHNpWDdpb05MdkhmVXZ3RUlRY3FkaGNnSXFUNlFfWjFTbkM3VUoxWTVCVFRaSXo4MjFidWU1TWU1aUs1NHZNd2hEUnZFQ2dxWDZDRTdSdThnZw?oc=5",
-      "published": "2026-07-12T05:52:45+00:00",
-      "source": {
-        "name": "Ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "51e8c4b74840",
       "title": "Gesundheitsgefahr durch gefälschte Arzneimittel - Gesundheit.gv.at",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYlhNa1drQ3UydVU1Ti1QZWxOelZ2UDNkQTBsczZ4SzVIZGhQS3psTVQ5Zmw2Ujh2RGpDYzZ5TDdIbG5mYkFjRl9CX3JkS0FHQ2dlSGVZMlpRTmpva0xOX3hoTWhTM3VoZlB6bjJYbjRRcGp2NERXZmhoaEtyeGJhUDlSU0k0cURLRzNIc1FR?oc=5",
@@ -311,6 +291,16 @@
       "source": {
         "name": "Gesundheit.gv.at",
         "url": "https://www.gesundheit.gv.at"
+      }
+    },
+    {
+      "id": "526106abf6b1",
+      "title": "Die Merck-Co.-Aktie bleibt vom breiten Pharmaportfolio und soliden Krebsmedikamenten gestützt - Ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNd0NQOEJUc0hCQ3o2UWtIVmRscHNnRVRUdFRZWm13N2x6aHhFejRnT3B5VU5FX3dZekRXcm5LdUxScjJJRnZiRjFlT1ZmQUE3STBWbkROVXpaU0pBc2VITXlac2tlcXBFX1dfMkdkVXRzSHNpWDdpb05MdkhmVXZ3RUlRY3FkaGNnSXFUNlFfWjFTbkM3VUoxWTVCVFRaSXo4MjFidWU1TWU1aUs1NHZNd2hEUnZFQ2dxWDZDRTdSdThnZw?oc=5",
+      "published": "2026-07-12T05:52:45+00:00",
+      "source": {
+        "name": "Ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -341,16 +331,6 @@
       "source": {
         "name": "Taylor Wessing",
         "url": "https://www.taylorwessing.com"
-      }
-    },
-    {
-      "id": "b7d3a708dc4d",
-      "title": "Die Kobayashi-Pharma-Aktie bleibt vom stabilen Gesundheitsmarkt gestützt - Ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMW52NWx6RjRKa2txTWdGRUFPbGZGM3dNM1dOTHVKZ2ozZlpObGdFRnNCSFhvVlp3Wms0WUhocmFDRFRzZ3BLOWwwRU9JZDRZVmVTZUNWU0pmSV9DemhOVUVlNHRNbU9QTnBLYVBURndvcXJKaFFycHFTM1EzRFdVbGQ4cVNNY3hlVmlHNzhRVnhOYy1iY284RER0Rm9laUE2ZEFjclRSVlJXWTlqSmFHUUFCR3o4anRqM3dOOGtiSl9rdmxLMVdnLW5tTXQ?oc=5",
-      "published": "2026-07-11T15:27:56+00:00",
-      "source": {
-        "name": "Ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -414,16 +394,6 @@
       }
     },
     {
-      "id": "7a99adaec5c0",
-      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - Geo.de",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
-      "published": "2026-06-19T07:00:00+00:00",
-      "source": {
-        "name": "Geo.de",
-        "url": "https://www.geo.de"
-      }
-    },
-    {
       "id": "d9edf968b2d7",
       "title": "»Spar­po­li­tik bei Arz­nei­mit­teln ist ein Irr­weg« - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZ3BYbThQLUVqMndzcmZ2RzJRTW5vb1o4dGhibU52alc0SUtlbFkxMkhCS1puYnNnelNOcnVtSl9iejVRNU1sNGxvZ0lZZVZkaWNnRGhWVWsxT1JobThfRzFVdnh6Q25Idzl3aGZZaThYdHBRYTUzNHRpX2VNZ0dGWHBjd3VEbDdERlhjOHhubnhHLXB2OWc?oc=5",
@@ -431,6 +401,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "b6f8a06fd285",
+      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - GEO.de",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
+      "published": "2026-06-19T07:00:00+00:00",
+      "source": {
+        "name": "GEO.de",
+        "url": "https://www.geo.de"
       }
     },
     {
@@ -854,12 +834,12 @@
       }
     },
     {
-      "id": "03505c881614",
-      "title": "EU-Generalanwalt: Versandverbot nein, aber ... - Apotheke Adhoc",
+      "id": "b027289bf54f",
+      "title": "EU-Generalanwalt: Versandverbot nein, aber ... - apotheke adhoc",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaGRRUFJ5MDV6WGZaTE84UlB3SU83OElpQ2dBVXJTMFRLWWFlSmN0alJ0eS1ZdF9zN09MZUhESFJDd2J1TVNQeHZRQ1ZLMVNtMC1OSm9DV01oVXhWVzRtOENHbUpnRE10akgwUnRyRmkzckZ1UFhIb05aM1ZLcVN1WkFKRUVRd3VaaWpZVUdraVRVdUtER2tIc1FjTWFqS3VIY0IzeERfWnJ4UQ?oc=5",
       "published": "2026-01-13T08:00:00+00:00",
       "source": {
-        "name": "Apotheke Adhoc",
+        "name": "apotheke adhoc",
         "url": "https://www.apotheke-adhoc.de"
       }
     },
@@ -994,6 +974,16 @@
       }
     },
     {
+      "id": "445f92c7e54b",
+      "title": "Wundermittel oder Wahnsinn? Der riskante Hype um Methylenblau - NDR.de",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZjdVekdjMzQzUFRaQlJaZW5GM3l0bmZFay1iTWxoVXpOLWFfTkVQejhNU1FwSTR6Q1RETXRFYm56enYwNm8tZXBXZlRmb0JKalI4REI2dEVNcUh6NHhMMDBlTkNkOXRaTU1hS2ZXNWZhVnk3TUthaFpuTFh2c3NtVUNmcUtYc290bFI1MERTaDFjaXNNcDFpczNjX004TUV4MjBjdWFhM2F1dXF4bktZQWtvS0hGUHM?oc=5",
+      "published": "2025-09-16T07:00:00+00:00",
+      "source": {
+        "name": "NDR.de",
+        "url": "https://www.ndr.de"
+      }
+    },
+    {
       "id": "89f414cfa87f",
       "title": "Interview: EU soll Wissenschaft weiter hochhalten, sagt Chefin der EU-Arzneimittelbehörde - euractiv.com",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOazVtUTV3QlM1dk9yT3JVd0VoSUUyR2kyOUFscXZfemlFSTNVOG9oeW9KS3lEbV96d1dVQ1RYR3prTU5qTzR3MGdGR1pJNHBOVkNfbTdOTks5dVBEOVNKclVycERJWFpKMFJfal9FeG9jZ2ozYkhHQV9uUlN4X2laZEFQV0EyUE1FcGlzanB4anUteWwxdjgybkdCZVllTG1sVWQ4alh1TkpFOGtDaEtickRJaDVPb1RQdnpkdnFzaTU?oc=5",
@@ -1001,6 +991,16 @@
       "source": {
         "name": "euractiv.com",
         "url": "https://euractiv.com"
+      }
+    },
+    {
+      "id": "a82bcf633e21",
+      "title": "Europäische Kommission: EU modernisiert Zulassungsprozesse für Medikamente - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQM2xIaW8xSWxvSkxrazhwNTlGVE5UU2ZQbldESkNhSmpFb2VuX1lKWlJZODdxY1RXakFlampSZnd4SzVtUVBlWGtJM25fV05RR0t5MWh0R3kxSVVpT21lcHJZekd0emQ3SVhqRWJOc1gxNTJwODBVUkRwWk5VR21LSkVHMHRqX0xPNEJzMFhnSHhyenlhbXpGOVdoQW5rNEk?oc=5",
+      "published": "2025-09-23T07:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     }
   ]
