@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-14T21:58:44.549050+00:00",
+  "fetched_at": "2026-07-14T23:04:22.988610+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -314,16 +314,6 @@
       }
     },
     {
-      "id": "bb553491699c",
-      "title": "Abschaffung der Mehrwertsteuer auf Arzneimittel - openPetition",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQR2ZyOGpub3o3YjR6WktVOXowVW5aMmNRcUZnRHQteUNLdVdiWFpMSHpndXJ0ajFhSmNTQXk1LVptMF9BUHlMeGRSb2dJalBRVjkxbGE4eWhObTFsT1gzVUtGblkxNDhVMlR2b2JYb1NWSGJqd2k1bGwxODhLVFh3aVdwY3pNNV81VDk0ZkxEbmVlSXdZY2c?oc=5",
-      "published": "2026-04-27T15:29:32+00:00",
-      "source": {
-        "name": "openPetition",
-        "url": "https://www.openpetition.de"
-      }
-    },
-    {
       "id": "e55e30521cda",
       "title": "Vorschläge der FinanzKommission Gesundheit für eine Reform der GKV - Taylor Wessing",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQVJuN0Fwenp0QU9hM01mSTRlR1ZxUzBfaExuWkRPSVIxQTBmb21HMGJ3Umd1b2Q5NjlpTkZWdnlsWU5RdG4tYmV2YWlldnhEREpzVmdLaURVbVpCR2pFRDY5Z1d6VW53bGtvaGgwTkRMeFMzeWI5WDJNd2ZXdTl4WkJTRURfbEstNXlJaXdzNGlwQTF5dHJ2Mjg1bFlJTW1SajFpM3VpMEtDdXZuNWplY3NnTQ?oc=5",
@@ -331,6 +321,16 @@
       "source": {
         "name": "Taylor Wessing",
         "url": "https://www.taylorwessing.com"
+      }
+    },
+    {
+      "id": "bb553491699c",
+      "title": "Abschaffung der Mehrwertsteuer auf Arzneimittel - openPetition",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQR2ZyOGpub3o3YjR6WktVOXowVW5aMmNRcUZnRHQteUNLdVdiWFpMSHpndXJ0ajFhSmNTQXk1LVptMF9BUHlMeGRSb2dJalBRVjkxbGE4eWhObTFsT1gzVUtGblkxNDhVMlR2b2JYb1NWSGJqd2k1bGwxODhLVFh3aVdwY3pNNV81VDk0ZkxEbmVlSXdZY2c?oc=5",
+      "published": "2026-04-27T15:29:32+00:00",
+      "source": {
+        "name": "openPetition",
+        "url": "https://www.openpetition.de"
       }
     },
     {
@@ -354,16 +354,6 @@
       }
     },
     {
-      "id": "3aad43cf4c69",
-      "title": "Die Merck-Co.-Aktie bleibt vom starken Pharmageschäft gestützt - Ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVjkxWVRLV0ZCRVVZQ3p5SWZwZV82WDlBcmtPNTV4NXcxVnE4ZGhNMVFOelhwMl9yb2xmeVlTVnRWcE0wMUQ4MmtOeHluNk9hTmNDUVB5cGgwNXlFMmVRbko4YVZpWS13V01nZG1ZMkpXUVpnZTAzVEVZbzMxc1A3SkN2b1Y1ZTBRYUFfaWZQT21kS3g3UUJnNlpNRGhPWllmdDhEQ1FNOHRVdTlfdFVhOXo5czlvWXlKd0J1TUJUdw?oc=5",
-      "published": "2026-07-13T17:56:19+00:00",
-      "source": {
-        "name": "Ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "b72b17004edd",
       "title": "\"Europa als führende Kraft des Gesundheitswesens etablieren\" - DIE ZEIT",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWUFSVWl5WkNqWlhQaFBsaW01cEtydmdyejBaWTZhTE1wbHNXVWJpd2FiVENidldkRGRBTm5sT1NrNm5FME4xWVlTN0Y0N3AyLVY2RDVscWRHN0tLY3Q2d2EtY2YtdHBpOXVSRkhfNHB1MUd3TWVlYTh0RUpsWEpLWkdhUDdPc2Z6UlBEWXl0S01nV0lDYXJGZTF5YUQxNHZsaXJhNQ?oc=5",
@@ -374,13 +364,13 @@
       }
     },
     {
-      "id": "edcf559b1a0c",
-      "title": "EU-Gesundheitskommissar prüft Folgen von Trumps Arzneipreispolitik - Euronews",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSzM5cWFmcTJfV010WWVadkdEVXRGblFEUTlhaUhoOThvaHV5eTJuWFVJbUtyMW9xNTJkYzNIR2Z6YWp0ZE1IWmNPb3pNcU5YY1phcUlQSU5IWWtvV0MzNDlqdHJZRU40alRPU29CWFVnUDBjLXE3UHhtV2pManQ4TzhzVEU3OHNDM2JJZm9ZbzBUbkVCRFRZYU1jMTl2UVdGRnhubmZZYWswcmZqbXAtbW5QcnRBTktIaHFFWg?oc=5",
-      "published": "2026-06-16T07:00:00+00:00",
+      "id": "3aad43cf4c69",
+      "title": "Die Merck-Co.-Aktie bleibt vom starken Pharmageschäft gestützt - Ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVjkxWVRLV0ZCRVVZQ3p5SWZwZV82WDlBcmtPNTV4NXcxVnE4ZGhNMVFOelhwMl9yb2xmeVlTVnRWcE0wMUQ4MmtOeHluNk9hTmNDUVB5cGgwNXlFMmVRbko4YVZpWS13V01nZG1ZMkpXUVpnZTAzVEVZbzMxc1A3SkN2b1Y1ZTBRYUFfaWZQT21kS3g3UUJnNlpNRGhPWllmdDhEQ1FNOHRVdTlfdFVhOXo5czlvWXlKd0J1TUJUdw?oc=5",
+      "published": "2026-07-13T17:56:19+00:00",
       "source": {
-        "name": "Euronews",
-        "url": "https://de.euronews.com"
+        "name": "Ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -391,6 +381,16 @@
       "source": {
         "name": "Deutschlandfunk",
         "url": "https://www.deutschlandfunk.de"
+      }
+    },
+    {
+      "id": "edcf559b1a0c",
+      "title": "EU-Gesundheitskommissar prüft Folgen von Trumps Arzneipreispolitik - Euronews",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSzM5cWFmcTJfV010WWVadkdEVXRGblFEUTlhaUhoOThvaHV5eTJuWFVJbUtyMW9xNTJkYzNIR2Z6YWp0ZE1IWmNPb3pNcU5YY1phcUlQSU5IWWtvV0MzNDlqdHJZRU40alRPU29CWFVnUDBjLXE3UHhtV2pManQ4TzhzVEU3OHNDM2JJZm9ZbzBUbkVCRFRZYU1jMTl2UVdGRnhubmZZYWswcmZqbXAtbW5QcnRBTktIaHFFWg?oc=5",
+      "published": "2026-06-16T07:00:00+00:00",
+      "source": {
+        "name": "Euronews",
+        "url": "https://de.euronews.com"
       }
     },
     {
@@ -824,16 +824,6 @@
       }
     },
     {
-      "id": "73821728fb6f",
-      "title": "Rezeptfreie Medikamente aus der Drogerie könnten das Apothekensterben verschärfen - SWR",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUlBVMkRsMVdkYXV3YXFVd3k4Z1pMSGdoVTNOTXo0UV8wR1RBbmVCZVltV3ZBdGZndnM3V1NVMlVZOFhmUEJwNXlPbDRfcU5jV2FZcUNDd2txVnFwdjNNb3JWWkRncExiSDI0WnEtdUdEbEtGcVdqOGFJRzc0T3ZkY0N4aHE4V21aZmROazk4eG9mUUJXY2RqVXZCYTZLcU5NSnVDaHBYMXhzUQ?oc=5",
-      "published": "2025-11-02T07:00:00+00:00",
-      "source": {
-        "name": "SWR",
-        "url": "https://www.swr.de"
-      }
-    },
-    {
       "id": "b027289bf54f",
       "title": "EU-Generalanwalt: Versandverbot nein, aber ... - apotheke adhoc",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaGRRUFJ5MDV6WGZaTE84UlB3SU83OElpQ2dBVXJTMFRLWWFlSmN0alJ0eS1ZdF9zN09MZUhESFJDd2J1TVNQeHZRQ1ZLMVNtMC1OSm9DV01oVXhWVzRtOENHbUpnRE10akgwUnRyRmkzckZ1UFhIb05aM1ZLcVN1WkFKRUVRd3VaaWpZVUdraVRVdUtER2tIc1FjTWFqS3VIY0IzeERfWnJ4UQ?oc=5",
@@ -841,6 +831,16 @@
       "source": {
         "name": "apotheke adhoc",
         "url": "https://www.apotheke-adhoc.de"
+      }
+    },
+    {
+      "id": "73821728fb6f",
+      "title": "Rezeptfreie Medikamente aus der Drogerie könnten das Apothekensterben verschärfen - SWR",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUlBVMkRsMVdkYXV3YXFVd3k4Z1pMSGdoVTNOTXo0UV8wR1RBbmVCZVltV3ZBdGZndnM3V1NVMlVZOFhmUEJwNXlPbDRfcU5jV2FZcUNDd2txVnFwdjNNb3JWWkRncExiSDI0WnEtdUdEbEtGcVdqOGFJRzc0T3ZkY0N4aHE4V21aZmROazk4eG9mUUJXY2RqVXZCYTZLcU5NSnVDaHBYMXhzUQ?oc=5",
+      "published": "2025-11-02T07:00:00+00:00",
+      "source": {
+        "name": "SWR",
+        "url": "https://www.swr.de"
       }
     },
     {
