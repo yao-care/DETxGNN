@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-14T10:47:56.161540+00:00",
+  "fetched_at": "2026-07-14T12:14:27.623392+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -11,6 +11,16 @@
       "source": {
         "name": "Allgäuer Zeitung",
         "url": "https://www.allgaeuer-zeitung.de"
+      }
+    },
+    {
+      "id": "e7193a632a17",
+      "title": "Medikamente im Urlaub kühlen: Abnehmspritzen & Co. sicher transportieren - Onmeda",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNX21VQzVwbm1wUDc2SlJOV0drUjhzcWFwMU9XVmgzY1FQTTVvNHgwcDEzOU1hTGh5cGJkTUNtX2RfblhmSXZ2cVBXR2gyVkFHVDZsOG1iUU9RRDlfVnQxUUZ1aHRsaGtXZ3lndW40dXJsbWN0ZVhabWNpbzZXQTk0aWpNamVncU1iNHZB?oc=5",
+      "published": "2026-07-14T11:46:35+00:00",
+      "source": {
+        "name": "Onmeda",
+        "url": "https://www.onmeda.de"
       }
     },
     {
@@ -144,6 +154,16 @@
       }
     },
     {
+      "id": "9fa13ce5acf5",
+      "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
+      "published": "2026-03-31T20:25:43+00:00",
+      "source": {
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
+      }
+    },
+    {
       "id": "e745ec820c99",
       "title": "Bundestag beschließt Standortdestabilisierungsgesetz - Presseportal",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5iQlRUUHBUOG5vMGUzMU01SkJ1aDh3ZTlaeFRHdWJOb1FuYWVlYm9LOUgza0dxYkxCSjJfZUJsTzJlWEtaRl9nN0otTUlQLXJsck5Ibm1QVQ?oc=5",
@@ -154,13 +174,13 @@
       }
     },
     {
-      "id": "9fa13ce5acf5",
-      "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
-      "published": "2026-03-31T20:25:43+00:00",
+      "id": "5e1e391b3310",
+      "title": "Arzneimittelsicherheit: Resilienz bei Gesundheit und Regierung - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMW1pUE5xODlSb1Nid1d5eFhmOTBocnNWZVYtUHh3RjhEdWw1UHFBLW9KY01UX1p2TEJGUkxfVktfcG8yRFk0ZTNIV09ucV84Z1hqby1OaExLS0NxRUMtaFU0a1ZvX1hZdWlydVBDYnVJTHMtT3JpTFk5RlNEcmVRT3gtaGVCVzczTWJwWlpR?oc=5",
+      "published": "2026-07-10T07:00:00+00:00",
       "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -184,6 +204,16 @@
       }
     },
     {
+      "id": "5b37cb52bb5d",
+      "title": "Achtung, diese Medikamente wirken bei Hitze anders - WEB.DE",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSkxPeHhBZi12TThJUUFnazZSbGFBaUtxRDlMRzVSblhmai1LV1BNVmNEbGlmeklDM1hEa2RJS0JUVm9GSWZZQUJUSUwwRjVqOTMzdVVRQ0JLcGd3WW9uUmZvbDV6ZGZ2dGxMMmFuM1hGVkVoSTkwWkN1bU1Jd2dmam5xUnNIdXBvMHhHX1VlT2o?oc=5",
+      "published": "2026-06-24T07:00:00+00:00",
+      "source": {
+        "name": "WEB.DE",
+        "url": "https://web.de"
+      }
+    },
+    {
       "id": "d84d643c6d8b",
       "title": "Bundestag und Bundesrat: Neue Chancen, aber auch Risiken für die Arzneimittelversorgung - Presseportal",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1fZEpET2FXdFpHaEY0YkZuakwxbXQ2bUtpcXdZdGN6NjBCU3dXZGVCbzZxdjdGUFdkTFdsX1hXZGF6d3gzTjVUUEpxdDlhQ2c5ZktNa0RB?oc=5",
@@ -201,16 +231,6 @@
       "source": {
         "name": "RiffReporter",
         "url": "https://www.riffreporter.de"
-      }
-    },
-    {
-      "id": "5b37cb52bb5d",
-      "title": "Achtung, diese Medikamente wirken bei Hitze anders - WEB.DE",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSkxPeHhBZi12TThJUUFnazZSbGFBaUtxRDlMRzVSblhmai1LV1BNVmNEbGlmeklDM1hEa2RJS0JUVm9GSWZZQUJUSUwwRjVqOTMzdVVRQ0JLcGd3WW9uUmZvbDV6ZGZ2dGxMMmFuM1hGVkVoSTkwWkN1bU1Jd2dmam5xUnNIdXBvMHhHX1VlT2o?oc=5",
-      "published": "2026-06-24T07:00:00+00:00",
-      "source": {
-        "name": "WEB.DE",
-        "url": "https://web.de"
       }
     },
     {
@@ -258,16 +278,6 @@
       "title": "Die Merck-Co.-Aktie bleibt vom breiten Pharmaportfolio und soliden Krebsmedikamenten gestützt - Ad Hoc News",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNd0NQOEJUc0hCQ3o2UWtIVmRscHNnRVRUdFRZWm13N2x6aHhFejRnT3B5VU5FX3dZekRXcm5LdUxScjJJRnZiRjFlT1ZmQUE3STBWbkROVXpaU0pBc2VITXlac2tlcXBFX1dfMkdkVXRzSHNpWDdpb05MdkhmVXZ3RUlRY3FkaGNnSXFUNlFfWjFTbkM3VUoxWTVCVFRaSXo4MjFidWU1TWU1aUs1NHZNd2hEUnZFQ2dxWDZDRTdSdThnZw?oc=5",
       "published": "2026-07-12T05:52:45+00:00",
-      "source": {
-        "name": "Ad Hoc News",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
-      "id": "6cb0863c49ed",
-      "title": "Die Walgreens-Boots-Alliance-Aktie bleibt vom Gesundheits- und Apothekengeschäft gestützt - Ad Hoc News",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdS1OaXVFSGJTdjZOUXhnN0w3RV9fektlZk14SWItVERVY0FqS1BGay1IMkJyd3RfTW5YNjREOUU5TFpLLTYxLWJQRW5SX3Rvb2tBSGRxTWd2YVp0c0lROG1iWXY0Wm8yUzJPeHN0ZEZaQ1hSLWhQZzEtRTJGa01lMmZVZnVPeXpvZlk0RlVFMXFrcEdPbURTTmVBb3hSVFhFVVYyZmF4aVY4aUNaWmItTlpONVlmMzZ4OEFEUw?oc=5",
-      "published": "2026-07-13T12:30:45+00:00",
       "source": {
         "name": "Ad Hoc News",
         "url": "https://www.ad-hoc-news.de"
@@ -324,16 +334,6 @@
       }
     },
     {
-      "id": "e55e30521cda",
-      "title": "Vorschläge der FinanzKommission Gesundheit für eine Reform der GKV - Taylor Wessing",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQVJuN0Fwenp0QU9hM01mSTRlR1ZxUzBfaExuWkRPSVIxQTBmb21HMGJ3Umd1b2Q5NjlpTkZWdnlsWU5RdG4tYmV2YWlldnhEREpzVmdLaURVbVpCR2pFRDY5Z1d6VW53bGtvaGgwTkRMeFMzeWI5WDJNd2ZXdTl4WkJTRURfbEstNXlJaXdzNGlwQTF5dHJ2Mjg1bFlJTW1SajFpM3VpMEtDdXZuNWplY3NnTQ?oc=5",
-      "published": "2026-05-04T09:31:59+00:00",
-      "source": {
-        "name": "Taylor Wessing",
-        "url": "https://www.taylorwessing.com"
-      }
-    },
-    {
       "id": "bb553491699c",
       "title": "Abschaffung der Mehrwertsteuer auf Arzneimittel - openPetition",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQR2ZyOGpub3o3YjR6WktVOXowVW5aMmNRcUZnRHQteUNLdVdiWFpMSHpndXJ0ajFhSmNTQXk1LVptMF9BUHlMeGRSb2dJalBRVjkxbGE4eWhObTFsT1gzVUtGblkxNDhVMlR2b2JYb1NWSGJqd2k1bGwxODhLVFh3aVdwY3pNNV81VDk0ZkxEbmVlSXdZY2c?oc=5",
@@ -344,6 +344,16 @@
       }
     },
     {
+      "id": "e55e30521cda",
+      "title": "Vorschläge der FinanzKommission Gesundheit für eine Reform der GKV - Taylor Wessing",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQVJuN0Fwenp0QU9hM01mSTRlR1ZxUzBfaExuWkRPSVIxQTBmb21HMGJ3Umd1b2Q5NjlpTkZWdnlsWU5RdG4tYmV2YWlldnhEREpzVmdLaURVbVpCR2pFRDY5Z1d6VW53bGtvaGgwTkRMeFMzeWI5WDJNd2ZXdTl4WkJTRURfbEstNXlJaXdzNGlwQTF5dHJ2Mjg1bFlJTW1SajFpM3VpMEtDdXZuNWplY3NnTQ?oc=5",
+      "published": "2026-05-04T09:31:59+00:00",
+      "source": {
+        "name": "Taylor Wessing",
+        "url": "https://www.taylorwessing.com"
+      }
+    },
+    {
       "id": "5cfa2762dc20",
       "title": "Gesundheit - GKV-Chef: \"Mehr gegen steigende Arzneimittelpreise tun\" - Deutschlandfunk",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdXlzU1VBOUhWa05wcTVDNnBBdHRkeDl5TnZ1S1A3T0swT2pKTjZlaU1pempxQVJkMXMySXBtd2xpaUk5WWN4Q1VyakdMbnN2eF9mRncxakUwN21WbGFQMWpuR2VoOG1tUDYtWERUbS1LSVpOdUNaTE1SWmhDSkVUdTlubVNEWGNtUXNaYk5tcTJibTRDZTJv?oc=5",
@@ -351,6 +361,16 @@
       "source": {
         "name": "Deutschlandfunk",
         "url": "https://www.deutschlandfunk.de"
+      }
+    },
+    {
+      "id": "6cb0863c49ed",
+      "title": "Die Walgreens-Boots-Alliance-Aktie bleibt vom Gesundheits- und Apothekengeschäft gestützt - Ad Hoc News",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdS1OaXVFSGJTdjZOUXhnN0w3RV9fektlZk14SWItVERVY0FqS1BGay1IMkJyd3RfTW5YNjREOUU5TFpLLTYxLWJQRW5SX3Rvb2tBSGRxTWd2YVp0c0lROG1iWXY0Wm8yUzJPeHN0ZEZaQ1hSLWhQZzEtRTJGa01lMmZVZnVPeXpvZlk0RlVFMXFrcEdPbURTTmVBb3hSVFhFVVYyZmF4aVY4aUNaWmItTlpONVlmMzZ4OEFEUw?oc=5",
+      "published": "2026-07-13T12:30:45+00:00",
+      "source": {
+        "name": "Ad Hoc News",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -424,16 +444,6 @@
       }
     },
     {
-      "id": "8dce1ff85348",
-      "title": "Erstattung: Gericht sieht Abnehmspritze als Lifestyle-Medikament - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdThMaUs3T0FfWmlEYnNHWkw3VHVTX3R4MUptMEUySkkwZk1OY19nU0xZcF9KT0IweUNoTzhzV2RkUUJhRl9Jdk8zTTgxeHlTbmV6a1R3NUx2ZDc1c0RMSVcyLU9NazE5aURIaW1FTzZhUTQ3U2JmQkhydXRHUEZXR1pGX0ZUODFRaWh0S3RDdzIxQ2hOMkZMc0VaZWdsTVlw?oc=5",
-      "published": "2026-05-11T07:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "6e56e1c99277",
       "title": "Onkologische Arzneimittel: Analyse der Marktsituation - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMi1WQVZnaGJPSm9GcVAzRWlGSHRDRVg2MXhXMTJUenNuQUpRcElfbjBDZVp3Y3Z1UUNzNm5PSUY0eVdXMWcyQ3J0WkUxSjVSY0xxWFJ5X0lJc3Y1VExsallLS24xQUxyUVMyTDdsWUtnTThIZjc2TWZsdGpWMlMxUDVfXzVmeXZNdlhwZGNWb0VXbFZnVEVYOFVHSmxtUjBFVEU2alRzVlpCMlJ4?oc=5",
@@ -441,6 +451,16 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "8dce1ff85348",
+      "title": "Erstattung: Gericht sieht Abnehmspritze als Lifestyle-Medikament - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdThMaUs3T0FfWmlEYnNHWkw3VHVTX3R4MUptMEUySkkwZk1OY19nU0xZcF9KT0IweUNoTzhzV2RkUUJhRl9Jdk8zTTgxeHlTbmV6a1R3NUx2ZDc1c0RMSVcyLU9NazE5aURIaW1FTzZhUTQ3U2JmQkhydXRHUEZXR1pGX0ZUODFRaWh0S3RDdzIxQ2hOMkZMc0VaZWdsTVlw?oc=5",
+      "published": "2026-05-11T07:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -981,26 +1001,6 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
-      "id": "965e1762ff04",
-      "title": "GKV in der Krise : Warken erwägt höhere Zuzahlungen für Arzneimittel - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdWlXOXMzZ2lzMTIwYlBfSUlPNFBUOEpGRkgzckx4QUQ4dVE2NVhRTzlZNTdPYm9halZadmVzQ0s3Z0VKUUNhUUFIOTFQQkhEQWttNGJ3SE9PQklubDU5WE8wZFQ1aFN2TnhEWUhBY3pzTU85dDRUWU1qVEF6dkxHN1NRYVl3M2tuTFdfUW5hQ1owSllpSjFYVHVTY1cwcHR5?oc=5",
-      "published": "2025-10-09T07:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
-      "id": "815d7c3030a9",
-      "title": "Erkältungen und Infekte nehmen zu: Droht wieder ein Medikamentenengpass? - Tagesspiegel",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOb3BrN2sybjFrd2xZYTlUZENWRE9fZEJyVHZJWGZHZHA3SG10dXNKSm5LVF9zR2h4VzVkdHM5OVFnbGo5MkpPWmEyV2JPWVVXWUtsR0Z1RVEyY1hFa0tqTzJzWFN0R0xJMXdSOUJYbG9wT0tVVkxsVnZINDFZMmpyUGg0NlVQSnRnYlh4ejF2Z19NMmJEZlVNVzIyVHNUTWNGM0tENk93TE1EMWd6Zm51Q1lMUHpobzkyT3B3N21yVUY?oc=5",
-      "published": "2025-09-19T07:00:00+00:00",
-      "source": {
-        "name": "Tagesspiegel",
-        "url": "https://www.tagesspiegel.de"
       }
     }
   ]
