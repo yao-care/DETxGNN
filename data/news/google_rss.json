@@ -1,8 +1,18 @@
 {
-  "fetched_at": "2026-07-15T08:13:03.255591+00:00",
+  "fetched_at": "2026-07-15T10:51:24.757878+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
+    {
+      "id": "3ef13dd3adfa",
+      "title": "Sind Medikamente ohne Rezept harmlos? Apothekerin klärt häufigen Irrtum auf - Berliner Morgenpost",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPejlNTnE0eDJxWXluVTU3YVlXUFJqUTQ4X01RV3ZmTnc5eW9pU3c3WUxqemhNM2xkQnFNNWlibWtHS0N5bjNjZzhNTmVodXBiUloza29jY3VpRGNwRm1HTGNYNGtacEFtOEZlMjQtanNhRmN6NHhYWkxuSG9vOFNmTXRaODlLclhNRGNaUkdxWmFqY0FqcXItSmdWYWtwZU1sdVdhVWZXaW1DbE1jWmRLUktyOUVwSURyb2o3TUZveWl1NzFwNFlGRnd1QQ?oc=5",
+      "published": "2026-07-15T05:00:00+00:00",
+      "source": {
+        "name": "Berliner Morgenpost",
+        "url": "https://www.morgenpost.de"
+      }
+    },
     {
       "id": "a91bce131989",
       "title": "Nachhaltigkeit: Arzneimittel als wichtiger Hebel - Pharmazeutische Zeitung",
@@ -11,16 +21,6 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
-      "id": "d9cb7465e8c6",
-      "title": "Ärzte vs. Apotheker – Der Verteilungskampf um die Gesundheit eskaliert - WELT",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNRWwtS2t0RWtxOWhiY3Bpcl9oaG9YUGFZeXRJZ3ZXcFMzRU9EbTBISDdZa1pYQXZCZjZ3Z19Kd18wei11cWluU3lDQ3RSVURjN05wdVU1WTBDWGFrV0lCbnJmR3FieGVDNUlMXzhyMDV2UkhCZy00M2t1Tk5rT1lrY0VFZ0tUREZTVkhkdmYxaDZLQXgzRTlRZEJveDJQZVdYWHNNM1I1U3FQZktfWElRZDV0VlBQN0gzX2NvVURQWDNUSnA0M1JNZk9pQWNwQQ?oc=5",
-      "published": "2026-07-13T05:25:41+00:00",
-      "source": {
-        "name": "WELT",
-        "url": "https://www.welt.de"
       }
     },
     {
@@ -34,13 +34,13 @@
       }
     },
     {
-      "id": "adbc9bcd0157",
-      "title": "6-R-Regel in der Pflege: Was dahintersteckt und warum sie so wichtig ist - Allgäuer Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQcHRJNmJrNzV2TF9MQzB3Rk11cTlaOF8yZnpnUE1RV1hnTmplUEdHX1JMSXNUYzg0dzV3VUlrRHZMbFZFU091STBoeExVb2FUNEYwWlEtSjlhT1l4SHY1VGQwdnB0QzZ6MUthVE9JQ0daR1A3Vm5qTGRRaGVjZ2UxS1ExUmVPSDVwbHQ4Z2x2bTk4NUszYnhaQnpZRDc3aVQ5OXJPaXpOalYxQUNtYWc1TlhnWUZ3ekxNUC1VakVLWnEyUQ?oc=5",
-      "published": "2026-07-14T03:26:20+00:00",
+      "id": "181226fa8350",
+      "title": "PFAS in Medikamenten müssen nicht sein - Infosperber",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZDAtcVRiX2l5V2tBOGE5Q0pkOEY3LUM1bjJEeTJCQ0dJOXZvMUo1S3J2eFRNY1lUMXRoYXBLWUp2cGdEUkZEcWtSd19pY2I4Q0UtV1ZHaDV1U0RWSFNyYi0zVERZam03RVlPOXVvRzJFbTZiVkJuQVRXREY4aHhSZVlSZzB4UW1FNzduRk92MA?oc=5",
+      "published": "2026-07-15T08:43:49+00:00",
       "source": {
-        "name": "Allgäuer Zeitung",
-        "url": "https://www.allgaeuer-zeitung.de"
+        "name": "Infosperber",
+        "url": "https://www.infosperber.ch"
       }
     },
     {
@@ -51,6 +51,16 @@
       "source": {
         "name": "ADAC",
         "url": "https://www.adac.de"
+      }
+    },
+    {
+      "id": "adbc9bcd0157",
+      "title": "6-R-Regel in der Pflege: Was dahintersteckt und warum sie so wichtig ist - Allgäuer Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQcHRJNmJrNzV2TF9MQzB3Rk11cTlaOF8yZnpnUE1RV1hnTmplUEdHX1JMSXNUYzg0dzV3VUlrRHZMbFZFU091STBoeExVb2FUNEYwWlEtSjlhT1l4SHY1VGQwdnB0QzZ6MUthVE9JQ0daR1A3Vm5qTGRRaGVjZ2UxS1ExUmVPSDVwbHQ4Z2x2bTk4NUszYnhaQnpZRDc3aVQ5OXJPaXpOalYxQUNtYWc1TlhnWUZ3ekxNUC1VakVLWnEyUQ?oc=5",
+      "published": "2026-07-14T03:26:20+00:00",
+      "source": {
+        "name": "Allgäuer Zeitung",
+        "url": "https://www.allgaeuer-zeitung.de"
       }
     },
     {
@@ -104,16 +114,6 @@
       }
     },
     {
-      "id": "9bd4490684c7",
-      "title": "Rossmann sucht Spezialisten: Drogeriekette stößt in neue Bereiche vor - T-Online",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTnlvZE9PZC1VV1JMX0x1OHFCN1d6YVpreXNQVW1sc1RTVFpvT1hUNUZEcFFaQlR4ck9UTWxTRVFfRGlhX044T0JTblAtbzdxb1NJX1c4VjAwNHZ5MUcySTRURjN1U0I1Rm5wN2huOVI5REI1NVpMQTAwb01xLUl4STNnaF9reE9ITktiSks2ZVMtc2wxX2tZNkZXeGRGTVNyZFJzNWs3aGpYdHpjYnphTTcyR2t1aGpneWUya0FOa0g1Q1cwRUdXZWpR?oc=5",
-      "published": "2026-07-14T13:55:56+00:00",
-      "source": {
-        "name": "T-Online",
-        "url": "https://www.t-online.de"
-      }
-    },
-    {
       "id": "2a4cd6eb6d1d",
       "title": "Arzneimittelengpässe in Europa – so reagiert die EU - European Parliament",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYUFLam5JQVMtSlNuNWlqSTJrRUNDN215RDlRU2hOMEE0Rkp3cHBodVhSbXRsSUhvTTRhMTVLWEE5QmM0dXJRNGlPSkwyZ2doMHhlaEpHbW5DZl8tazhQc3lPcEN4SmtLaEdGMk9IZjF5MGZvNEd3a2tXSnJXT1ItanFsV2gtRGpMYjlUbHV2OURrMkM5OXA3emh5OERlMlpXc1J1UlNVYUp1UlBUd1gzREtLUkZRZw?oc=5",
@@ -134,6 +134,16 @@
       }
     },
     {
+      "id": "9bd4490684c7",
+      "title": "Rossmann sucht Spezialisten: Drogeriekette stößt in neue Bereiche vor - T-Online",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTnlvZE9PZC1VV1JMX0x1OHFCN1d6YVpreXNQVW1sc1RTVFpvT1hUNUZEcFFaQlR4ck9UTWxTRVFfRGlhX044T0JTblAtbzdxb1NJX1c4VjAwNHZ5MUcySTRURjN1U0I1Rm5wN2huOVI5REI1NVpMQTAwb01xLUl4STNnaF9reE9ITktiSks2ZVMtc2wxX2tZNkZXeGRGTVNyZFJzNWs3aGpYdHpjYnphTTcyR2t1aGpneWUya0FOa0g1Q1cwRUdXZWpR?oc=5",
+      "published": "2026-07-14T13:55:56+00:00",
+      "source": {
+        "name": "T-Online",
+        "url": "https://www.t-online.de"
+      }
+    },
+    {
       "id": "2d23a7952c52",
       "title": "Hitze-Taskforce: Apotheken in Phase 2 - apotheke adhoc",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOR3ZZTkdNOTFhTVNVZGl4T1kyVTJiQkFMbFZhNWRWWkY1eWlPLXpBc01rRDRJR2duTUd0SkRjbGJOUlRvZlp0TjRXZzFUdmNobjhCN2ROdWxkX0xad2ZsWk1pWF9XU09NZnR2YnRBYUNtVFREaWo5YkMycWs1cmFCTVFLdFY0QzU1cUV1S1pmOWxMMzdBR0ExMEVR?oc=5",
@@ -141,16 +151,6 @@
       "source": {
         "name": "apotheke adhoc",
         "url": "https://www.apotheke-adhoc.de"
-      }
-    },
-    {
-      "id": "f2a938310768",
-      "title": "Modernisierung des pharmazeutischen Vertriebssystems, um sicherzustellen, dass die Menschen Zugang zu sicheren, zeitnahen und erschwinglichen Medikamenten haben. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOYy1TbEVjV0dpUE9EOW5aUENiakYwN0JNRE80M0xUbDZuZDNUTW5aZkRxdFh0RnNwYi1BX1Nkb1htd2I5c2ZiVzZaeHFNeWlOMGo3U0d4T1NGVDRvNzNPaFo3UVpkTi1sR2lhWHAtZU83bUtMUVpad09vdkd0S1lSRnZUZzRPZ0FEeTN2VlNSa3dUZUpSWC0xRWV6SVpXSm1lRExVTTZKZ2ZZOGVGeVdvNDFmTWVHOWtjWEE?oc=5",
-      "published": "2026-07-15T04:27:47+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -164,43 +164,13 @@
       }
     },
     {
-      "id": "9f7c377ed6d2",
-      "title": "MFN-Modell USA: Wie US-Arzneimittelpolitik Innovationen in Europa ausbremst - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWkw5ZTd1QUxfTlBDNjVEc0paTWpvTFpfTE9lOFM3YnhiWnBBREVhRzlMQnRmWDdkREJzVlg3UnZCN2RsTC1aTkhtN19oX2dEYmVLdXk4MXFBUnVGakk3YzVfbjZVQ0E0MUtPN2JZZ08wQ05yaTFLNER1dVYzZEo5UldOVldfQ0lCbGNRWEJZbUg0R3JBaGp6Mm1DTGd2eTYzWE9GV1hvenRGWHhOZXBxMHJMY09GUQ?oc=5",
-      "published": "2026-04-16T07:55:26+00:00",
+      "id": "f2a938310768",
+      "title": "Modernisierung des pharmazeutischen Vertriebssystems, um sicherzustellen, dass die Menschen Zugang zu sicheren, zeitnahen und erschwinglichen Medikamenten haben. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOYy1TbEVjV0dpUE9EOW5aUENiakYwN0JNRE80M0xUbDZuZDNUTW5aZkRxdFh0RnNwYi1BX1Nkb1htd2I5c2ZiVzZaeHFNeWlOMGo3U0d4T1NGVDRvNzNPaFo3UVpkTi1sR2lhWHAtZU83bUtMUVpad09vdkd0S1lSRnZUZzRPZ0FEeTN2VlNSa3dUZUpSWC0xRWV6SVpXSm1lRExVTTZKZ2ZZOGVGeVdvNDFmTWVHOWtjWEE?oc=5",
+      "published": "2026-07-15T04:27:47+00:00",
       "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
-      }
-    },
-    {
-      "id": "5e1e391b3310",
-      "title": "Arzneimittelsicherheit: Resilienz bei Gesundheit und Regierung - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMW1pUE5xODlSb1Nid1d5eFhmOTBocnNWZVYtUHh3RjhEdWw1UHFBLW9KY01UX1p2TEJGUkxfVktfcG8yRFk0ZTNIV09ucV84Z1hqby1OaExLS0NxRUMtaFU0a1ZvX1hZdWlydVBDYnVJTHMtT3JpTFk5RlNEcmVRT3gtaGVCVzczTWJwWlpR?oc=5",
-      "published": "2026-07-10T07:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
-      "id": "05b502538d0d",
-      "title": "Starker Gewichtsverlust durch Abnehmspritzen, aber kaum bessere Lebensqualität - T-Online",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPVjVMSk9IUWF1bWlHN0RaQV9YdmRKbWtxcmhrbF9UT0xkdDVLOG40Y2lUZ1pzbUd5d1AzeGR5UzdDS0NfQVYyZXZYQXRNdjZ3bVZYNU5ZVlQ2c09NUzR1ZXc4bW1idWs5cFA4MUR0aGJqakQtTl9XMS05YkpIRGJ4M2FnYzE4Q3RwdDlISmx6b2NQNWtabm9mZ01WdTR0TnRrbUZfbHNDZm40dkxKRnExY0dfN2FZV1ZjY1M5cEE4LTd0VGlqWFE?oc=5",
-      "published": "2026-07-14T13:57:45+00:00",
-      "source": {
-        "name": "T-Online",
-        "url": "https://www.t-online.de"
-      }
-    },
-    {
-      "id": "e89bb6a1a7a1",
-      "title": "Medikamente im Urlaub: So schützen Sie sich vor Fälschungen - Mindener Tageblatt",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVmFuWXBXcV9mM2x0cUItRFVsbl9ONUdXMVcwemo1cWVtaV8yeHktdFZaMW5BSURRRmxTMjA0OGx3eUZvVGQzOUpNSmpTODRvUFU0VXF0SkRyaVV0eWFIanJ2NHJoQWFEeDMtSVp3SUVfYnJPTHBXM3RvRzE2aEEyejdtR0dQaUltczRkRk1nVnFjM2ViMnM0aWdJNV8ycWZHYUllZGVWM0hGelpWZ2hzanp3?oc=5",
-      "published": "2026-07-08T13:29:58+00:00",
-      "source": {
-        "name": "Mindener Tageblatt",
-        "url": "https://www.mt.de"
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -211,6 +181,16 @@
       "source": {
         "name": "World Health Organization (WHO)",
         "url": "https://www.who.int"
+      }
+    },
+    {
+      "id": "9f7c377ed6d2",
+      "title": "MFN-Modell USA: Wie US-Arzneimittelpolitik Innovationen in Europa ausbremst - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWkw5ZTd1QUxfTlBDNjVEc0paTWpvTFpfTE9lOFM3YnhiWnBBREVhRzlMQnRmWDdkREJzVlg3UnZCN2RsTC1aTkhtN19oX2dEYmVLdXk4MXFBUnVGakk3YzVfbjZVQ0E0MUtPN2JZZ08wQ05yaTFLNER1dVYzZEo5UldOVldfQ0lCbGNRWEJZbUg0R3JBaGp6Mm1DTGd2eTYzWE9GV1hvenRGWHhOZXBxMHJMY09GUQ?oc=5",
+      "published": "2026-04-16T07:55:26+00:00",
+      "source": {
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
       }
     },
     {
@@ -231,6 +211,26 @@
       "source": {
         "name": "euractiv.com",
         "url": "https://euractiv.com"
+      }
+    },
+    {
+      "id": "e89bb6a1a7a1",
+      "title": "Medikamente im Urlaub: So schützen Sie sich vor Fälschungen - Mindener Tageblatt",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVmFuWXBXcV9mM2x0cUItRFVsbl9ONUdXMVcwemo1cWVtaV8yeHktdFZaMW5BSURRRmxTMjA0OGx3eUZvVGQzOUpNSmpTODRvUFU0VXF0SkRyaVV0eWFIanJ2NHJoQWFEeDMtSVp3SUVfYnJPTHBXM3RvRzE2aEEyejdtR0dQaUltczRkRk1nVnFjM2ViMnM0aWdJNV8ycWZHYUllZGVWM0hGelpWZ2hzanp3?oc=5",
+      "published": "2026-07-08T13:29:58+00:00",
+      "source": {
+        "name": "Mindener Tageblatt",
+        "url": "https://www.mt.de"
+      }
+    },
+    {
+      "id": "05b502538d0d",
+      "title": "Starker Gewichtsverlust durch Abnehmspritzen, aber kaum bessere Lebensqualität - T-Online",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPVjVMSk9IUWF1bWlHN0RaQV9YdmRKbWtxcmhrbF9UT0xkdDVLOG40Y2lUZ1pzbUd5d1AzeGR5UzdDS0NfQVYyZXZYQXRNdjZ3bVZYNU5ZVlQ2c09NUzR1ZXc4bW1idWs5cFA4MUR0aGJqakQtTl9XMS05YkpIRGJ4M2FnYzE4Q3RwdDlISmx6b2NQNWtabm9mZ01WdTR0TnRrbUZfbHNDZm40dkxKRnExY0dfN2FZV1ZjY1M5cEE4LTd0VGlqWFE?oc=5",
+      "published": "2026-07-14T13:57:45+00:00",
+      "source": {
+        "name": "T-Online",
+        "url": "https://www.t-online.de"
       }
     },
     {
@@ -261,36 +261,6 @@
       "source": {
         "name": "Westfalen-Blatt",
         "url": "https://www.westfalen-blatt.de"
-      }
-    },
-    {
-      "id": "9f9b35e4948f",
-      "title": "Gesundheit: So will die EU Engpässe bei Fiebersaft & Co. verhindern - WirtschaftsWoche",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNOUY3SndFdHc5MWdPYWkzRjVIbzFjcG9Kcmd6NEdmbEN4ejBkU01hd2ZvdGpjT1hYcjIwOHQzY0F4TjZBWDJ3Z0UtbkdvbExoWWhJTFZlZjZzNG00RnhoU0VPNXlxeFFhQzZpbWhBbnlhMUl2Y0JXanhFREpBSzNMNFU4OFNnNDMtWWc5dmFpUTRhRS1WV1pMSlNIOUh6NER6U0U2OUZ6YVdHV0ZBUTFHWlkxajg3QQ?oc=5",
-      "published": "2026-05-12T07:00:00+00:00",
-      "source": {
-        "name": "WirtschaftsWoche",
-        "url": "https://www.wiwo.de"
-      }
-    },
-    {
-      "id": "594fea213576",
-      "title": "Shared Decision Making: Über 90% der Patienten fordern Mitsprache - Ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOOTNUOXZzZ0xWZmdVNlI0UEtkY3lxckRRZWVMYm5WMmpBQy1nZ1NKM0xVSWZuUXhxQlc4Uy14MVVIbkZhZ3E0UzVCNm5WbDFkWVJlQjZtd1ZZTnRpeHVvWlJubl9CWjkteE41QW1HN3hfQlo0aVhvZVB6WDVwVUlLUDNqYWttVUcwM3JFV1hsVEY4UEZ3UEFIVENNYWNvTTdyRGRNN0lldE9ZZ19keGZLVXU2VV9ZQ0toNzMzVS1n?oc=5",
-      "published": "2026-07-15T01:10:15+00:00",
-      "source": {
-        "name": "Ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
-      "id": "0ee9459fb424",
-      "title": "Medikamentenplan: 60% der Senioren nehmen drei Präparate täglich - Ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNU2FvaFZzYlJzVFM4WUhvUnBsc3lhblRlYlRMV3pBbGNwMUVWQlVzdnAtRWlMYkJIWmZCMVA1T0F3a3hzMUxZMGF6NjVaRmJNTTdQeC1EOG10NzFRUWt1UzZIYjg2TWh1RUthOXBJcU05RU9ZYU9wRngwUzdyVWVKdGdkVGpjNUNyRWRDLUdoSW9DQkRIeUM5NGJBakFvdl9YVVhUSUNTcHZLVG5IakJYOUx1U2VrbGJBQXZSZ1pR?oc=5",
-      "published": "2026-07-15T01:18:15+00:00",
-      "source": {
-        "name": "Ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -354,6 +324,26 @@
       }
     },
     {
+      "id": "594fea213576",
+      "title": "Shared Decision Making: Über 90% der Patienten fordern Mitsprache - Ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOOTNUOXZzZ0xWZmdVNlI0UEtkY3lxckRRZWVMYm5WMmpBQy1nZ1NKM0xVSWZuUXhxQlc4Uy14MVVIbkZhZ3E0UzVCNm5WbDFkWVJlQjZtd1ZZTnRpeHVvWlJubl9CWjkteE41QW1HN3hfQlo0aVhvZVB6WDVwVUlLUDNqYWttVUcwM3JFV1hsVEY4UEZ3UEFIVENNYWNvTTdyRGRNN0lldE9ZZ19keGZLVXU2VV9ZQ0toNzMzVS1n?oc=5",
+      "published": "2026-07-15T01:10:15+00:00",
+      "source": {
+        "name": "Ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
+      }
+    },
+    {
+      "id": "0ee9459fb424",
+      "title": "Medikamentenplan: 60% der Senioren nehmen drei Präparate täglich - Ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNU2FvaFZzYlJzVFM4WUhvUnBsc3lhblRlYlRMV3pBbGNwMUVWQlVzdnAtRWlMYkJIWmZCMVA1T0F3a3hzMUxZMGF6NjVaRmJNTTdQeC1EOG10NzFRUWt1UzZIYjg2TWh1RUthOXBJcU05RU9ZYU9wRngwUzdyVWVKdGdkVGpjNUNyRWRDLUdoSW9DQkRIeUM5NGJBakFvdl9YVVhUSUNTcHZLVG5IakJYOUx1U2VrbGJBQXZSZ1pR?oc=5",
+      "published": "2026-07-15T01:18:15+00:00",
+      "source": {
+        "name": "Ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
+      }
+    },
+    {
       "id": "d9edf968b2d7",
       "title": "»Spar­po­li­tik bei Arz­nei­mit­teln ist ein Irr­weg« - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZ3BYbThQLUVqMndzcmZ2RzJRTW5vb1o4dGhibU52alc0SUtlbFkxMkhCS1puYnNnelNOcnVtSl9iejVRNU1sNGxvZ0lZZVZkaWNnRGhWVWsxT1JobThfRzFVdnh6Q25Idzl3aGZZaThYdHBRYTUzNHRpX2VNZ0dGWHBjd3VEbDdERlhjOHhubnhHLXB2OWc?oc=5",
@@ -361,6 +351,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "f92665691e36",
+      "title": "Gesundheit: So will die EU Engpässe bei Fiebersaft & Co. verhindern - Tagesspiegel",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcDl1WkpGU2VsQWhwUXd1WWxXSUhVN2Y3R2hTdl9GTHNxcDl2NFhUejhMXzhtOVUteVRjYmlZZDVNa0lETm9QSWNsWXB2c09CcTBqV3M2Wk5Fc0FVRlRaaDFzN1lDVTRFdl9IeXZvU2h3VjhJVGFUQ29lNmdqOUFld1dsd3ZNaVF5OFRETVFqckdoWk1udUFSQWdzMVdLQWxJd3A0eXdiVzhJR3pmY1FOeVQ0aUFxZ3BGdlpGazFn?oc=5",
+      "published": "2026-05-12T07:00:00+00:00",
+      "source": {
+        "name": "Tagesspiegel",
+        "url": "https://www.tagesspiegel.de"
       }
     },
     {
@@ -401,16 +401,6 @@
       "source": {
         "name": "WEB.DE",
         "url": "https://web.de"
-      }
-    },
-    {
-      "id": "d078b6b114ce",
-      "title": "Die Merck-&-Co.-Aktie bleibt vom Pharmageschäft und Impfstoffumsätzen gestützt - Ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPU3BfUHFoYVdhaWZvR1dwbzZvQ3I1c1ZPNDhaTTIySHhOT1dWMDc4VEV5Tk04Tk83U3VXSWdnazdsZHhfMl93bHdRZzJrYnNRRkdncHF0cU1vNmhUZVlucmZVWFB2YUpFcms5UG1FU1ZuU1dFMEI3ZlVZY0RidWptVFVEV1ppdmNTRU9RUkh3Y2dIc2FueFRFYlRmMVM1Y1lXOXhxdlRYalBKLWZncHduVnpB?oc=5",
-      "published": "2026-07-15T06:01:43+00:00",
-      "source": {
-        "name": "Ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -471,6 +461,16 @@
       "source": {
         "name": "Deutschlandfunk",
         "url": "https://www.deutschlandfunk.de"
+      }
+    },
+    {
+      "id": "d078b6b114ce",
+      "title": "Die Merck-&-Co.-Aktie bleibt vom Pharmageschäft und Impfstoffumsätzen gestützt - Ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPU3BfUHFoYVdhaWZvR1dwbzZvQ3I1c1ZPNDhaTTIySHhOT1dWMDc4VEV5Tk04Tk83U3VXSWdnazdsZHhfMl93bHdRZzJrYnNRRkdncHF0cU1vNmhUZVlucmZVWFB2YUpFcms5UG1FU1ZuU1dFMEI3ZlVZY0RidWptVFVEV1ppdmNTRU9RUkh3Y2dIc2FueFRFYlRmMVM1Y1lXOXhxdlRYalBKLWZncHduVnpB?oc=5",
+      "published": "2026-07-15T06:01:43+00:00",
+      "source": {
+        "name": "Ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -644,12 +644,12 @@
       }
     },
     {
-      "id": "b6f8a06fd285",
-      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - GEO.de",
+      "id": "7a99adaec5c0",
+      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - Geo.de",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
       "published": "2026-06-19T07:00:00+00:00",
       "source": {
-        "name": "GEO.de",
+        "name": "Geo.de",
         "url": "https://www.geo.de"
       }
     },
@@ -774,16 +774,6 @@
       }
     },
     {
-      "id": "526106abf6b1",
-      "title": "Die Merck-Co.-Aktie bleibt vom breiten Pharmaportfolio und soliden Krebsmedikamenten gestützt - Ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNd0NQOEJUc0hCQ3o2UWtIVmRscHNnRVRUdFRZWm13N2x6aHhFejRnT3B5VU5FX3dZekRXcm5LdUxScjJJRnZiRjFlT1ZmQUE3STBWbkROVXpaU0pBc2VITXlac2tlcXBFX1dfMkdkVXRzSHNpWDdpb05MdkhmVXZ3RUlRY3FkaGNnSXFUNlFfWjFTbkM3VUoxWTVCVFRaSXo4MjFidWU1TWU1aUs1NHZNd2hEUnZFQ2dxWDZDRTdSdThnZw?oc=5",
-      "published": "2026-07-12T05:52:45+00:00",
-      "source": {
-        "name": "Ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "42f984299fe2",
       "title": "Apotheken schlagen Alarm: Medikamenten-Engpässe drohen - ZDFheute",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPX1BYUUNyUEFvd2tlZmtVUUZiR2xwR29INjIyY0lzOEJNbFJ5c1VfQWRKaTNaQnZzOE9obk9kTEpBWTRlUjFIeXRrSG0wOHRXck5vQVNKRUVhUVA3cnhBajI1TnJWOUxmYmJmVndyYXFVNzBTbWtCalJjMlh4ck5hRTFzT2d6WnJ3ai1hY3dVcFVkdFRoVzh1QzhRN0ZGR2YxYjUzREtEZWxtZw?oc=5",
@@ -791,6 +781,16 @@
       "source": {
         "name": "ZDFheute",
         "url": "https://www.zdfheute.de"
+      }
+    },
+    {
+      "id": "526106abf6b1",
+      "title": "Die Merck-Co.-Aktie bleibt vom breiten Pharmaportfolio und soliden Krebsmedikamenten gestützt - Ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNd0NQOEJUc0hCQ3o2UWtIVmRscHNnRVRUdFRZWm13N2x6aHhFejRnT3B5VU5FX3dZekRXcm5LdUxScjJJRnZiRjFlT1ZmQUE3STBWbkROVXpaU0pBc2VITXlac2tlcXBFX1dfMkdkVXRzSHNpWDdpb05MdkhmVXZ3RUlRY3FkaGNnSXFUNlFfWjFTbkM3VUoxWTVCVFRaSXo4MjFidWU1TWU1aUs1NHZNd2hEUnZFQ2dxWDZDRTdSdThnZw?oc=5",
+      "published": "2026-07-12T05:52:45+00:00",
+      "source": {
+        "name": "Ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -864,16 +864,6 @@
       }
     },
     {
-      "id": "a865d7eb2850",
-      "title": "Die Walgreens-Boots-Alliance-Aktie bleibt vom Gesundheits- und Apothekengeschäft gestützt - Ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdS1OaXVFSGJTdjZOUXhnN0w3RV9fektlZk14SWItVERVY0FqS1BGay1IMkJyd3RfTW5YNjREOUU5TFpLLTYxLWJQRW5SX3Rvb2tBSGRxTWd2YVp0c0lROG1iWXY0Wm8yUzJPeHN0ZEZaQ1hSLWhQZzEtRTJGa01lMmZVZnVPeXpvZlk0RlVFMXFrcEdPbURTTmVBb3hSVFhFVVYyZmF4aVY4aUNaWmItTlpONVlmMzZ4OEFEUw?oc=5",
-      "published": "2026-07-13T12:30:45+00:00",
-      "source": {
-        "name": "Ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "a01cd9fac5b9",
       "title": "Lecanemab: Negative Nutzenbewertung für Alzheimer-Medikament - Gesundheit - SZ.de - SZ.de",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNb052NUl6RVRlNXNjWTVWbV81SmZ4dG5rYjduV0NMRzhUaC0wRkNhS0pnMHo0YU1ydkhOSmxYNmNTUUNCb3hRV1Qwd1hpal9qYmFQMzBieEhidVpuNXdLb1hteU81ZnczbEptTGJCektKRGZJTEE2UDhoN2ZLVVRDN2NQUkM2NlgwaEh2SllSdXE0YkRmeEdxbVNsaDA?oc=5",
@@ -881,6 +871,16 @@
       "source": {
         "name": "SZ.de",
         "url": "https://www.sueddeutsche.de"
+      }
+    },
+    {
+      "id": "a865d7eb2850",
+      "title": "Die Walgreens-Boots-Alliance-Aktie bleibt vom Gesundheits- und Apothekengeschäft gestützt - Ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdS1OaXVFSGJTdjZOUXhnN0w3RV9fektlZk14SWItVERVY0FqS1BGay1IMkJyd3RfTW5YNjREOUU5TFpLLTYxLWJQRW5SX3Rvb2tBSGRxTWd2YVp0c0lROG1iWXY0Wm8yUzJPeHN0ZEZaQ1hSLWhQZzEtRTJGa01lMmZVZnVPeXpvZlk0RlVFMXFrcEdPbURTTmVBb3hSVFhFVVYyZmF4aVY4aUNaWmItTlpONVlmMzZ4OEFEUw?oc=5",
+      "published": "2026-07-13T12:30:45+00:00",
+      "source": {
+        "name": "Ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
