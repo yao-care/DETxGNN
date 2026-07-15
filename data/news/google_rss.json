@@ -1,18 +1,8 @@
 {
-  "fetched_at": "2026-07-14T23:04:22.988610+00:00",
+  "fetched_at": "2026-07-15T02:35:39.366107+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
-    {
-      "id": "adbc9bcd0157",
-      "title": "6-R-Regel in der Pflege: Was dahintersteckt und warum sie so wichtig ist - Allgäuer Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQcHRJNmJrNzV2TF9MQzB3Rk11cTlaOF8yZnpnUE1RV1hnTmplUEdHX1JMSXNUYzg0dzV3VUlrRHZMbFZFU091STBoeExVb2FUNEYwWlEtSjlhT1l4SHY1VGQwdnB0QzZ6MUthVE9JQ0daR1A3Vm5qTGRRaGVjZ2UxS1ExUmVPSDVwbHQ4Z2x2bTk4NUszYnhaQnpZRDc3aVQ5OXJPaXpOalYxQUNtYWc1TlhnWUZ3ekxNUC1VakVLWnEyUQ?oc=5",
-      "published": "2026-07-14T03:26:20+00:00",
-      "source": {
-        "name": "Allgäuer Zeitung",
-        "url": "https://www.allgaeuer-zeitung.de"
-      }
-    },
     {
       "id": "a91bce131989",
       "title": "Nachhaltigkeit: Arzneimittel als wichtiger Hebel - Pharmazeutische Zeitung",
@@ -44,13 +34,13 @@
       }
     },
     {
-      "id": "9bd4490684c7",
-      "title": "Rossmann sucht Spezialisten: Drogeriekette stößt in neue Bereiche vor - T-Online",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTnlvZE9PZC1VV1JMX0x1OHFCN1d6YVpreXNQVW1sc1RTVFpvT1hUNUZEcFFaQlR4ck9UTWxTRVFfRGlhX044T0JTblAtbzdxb1NJX1c4VjAwNHZ5MUcySTRURjN1U0I1Rm5wN2huOVI5REI1NVpMQTAwb01xLUl4STNnaF9reE9ITktiSks2ZVMtc2wxX2tZNkZXeGRGTVNyZFJzNWs3aGpYdHpjYnphTTcyR2t1aGpneWUya0FOa0g1Q1cwRUdXZWpR?oc=5",
-      "published": "2026-07-14T13:55:56+00:00",
+      "id": "adbc9bcd0157",
+      "title": "6-R-Regel in der Pflege: Was dahintersteckt und warum sie so wichtig ist - Allgäuer Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQcHRJNmJrNzV2TF9MQzB3Rk11cTlaOF8yZnpnUE1RV1hnTmplUEdHX1JMSXNUYzg0dzV3VUlrRHZMbFZFU091STBoeExVb2FUNEYwWlEtSjlhT1l4SHY1VGQwdnB0QzZ6MUthVE9JQ0daR1A3Vm5qTGRRaGVjZ2UxS1ExUmVPSDVwbHQ4Z2x2bTk4NUszYnhaQnpZRDc3aVQ5OXJPaXpOalYxQUNtYWc1TlhnWUZ3ekxNUC1VakVLWnEyUQ?oc=5",
+      "published": "2026-07-14T03:26:20+00:00",
       "source": {
-        "name": "T-Online",
-        "url": "https://www.t-online.de"
+        "name": "Allgäuer Zeitung",
+        "url": "https://www.allgaeuer-zeitung.de"
       }
     },
     {
@@ -61,6 +51,16 @@
       "source": {
         "name": "ADAC",
         "url": "https://www.adac.de"
+      }
+    },
+    {
+      "id": "9bd4490684c7",
+      "title": "Rossmann sucht Spezialisten: Drogeriekette stößt in neue Bereiche vor - T-Online",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTnlvZE9PZC1VV1JMX0x1OHFCN1d6YVpreXNQVW1sc1RTVFpvT1hUNUZEcFFaQlR4ck9UTWxTRVFfRGlhX044T0JTblAtbzdxb1NJX1c4VjAwNHZ5MUcySTRURjN1U0I1Rm5wN2huOVI5REI1NVpMQTAwb01xLUl4STNnaF9reE9ITktiSks2ZVMtc2wxX2tZNkZXeGRGTVNyZFJzNWs3aGpYdHpjYnphTTcyR2t1aGpneWUya0FOa0g1Q1cwRUdXZWpR?oc=5",
+      "published": "2026-07-14T13:55:56+00:00",
+      "source": {
+        "name": "T-Online",
+        "url": "https://www.t-online.de"
       }
     },
     {
@@ -104,6 +104,16 @@
       }
     },
     {
+      "id": "f277ec9160cd",
+      "title": "Ebola: Wem sollten Arzneimittel gehören? - Brot für die Welt",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbk1naTRCdGV5VGdtajJpYVJSMTVlNlVFeVRGZkVuMHBtbWZiLUxrMUFmSWVTOC1JZWxQNnJINzFHajZVdlI3b0FwZzdtRVpQSEJxSkJ1eHkwd1MzdlhHUERGTFFmQVBCOGowTHZGWjhOTVI5UmtvU01qT1pGS2l5bExfX00?oc=5",
+      "published": "2026-07-07T10:03:18+00:00",
+      "source": {
+        "name": "Brot für die Welt",
+        "url": "https://www.brot-fuer-die-welt.de"
+      }
+    },
+    {
       "id": "2d23a7952c52",
       "title": "Hitze-Taskforce: Apotheken in Phase 2 - apotheke adhoc",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOR3ZZTkdNOTFhTVNVZGl4T1kyVTJiQkFMbFZhNWRWWkY1eWlPLXpBc01rRDRJR2duTUd0SkRjbGJOUlRvZlp0TjRXZzFUdmNobjhCN2ROdWxkX0xad2ZsWk1pWF9XU09NZnR2YnRBYUNtVFREaWo5YkMycWs1cmFCTVFLdFY0QzU1cUV1S1pmOWxMMzdBR0ExMEVR?oc=5",
@@ -124,13 +134,13 @@
       }
     },
     {
-      "id": "f277ec9160cd",
-      "title": "Ebola: Wem sollten Arzneimittel gehören? - Brot für die Welt",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbk1naTRCdGV5VGdtajJpYVJSMTVlNlVFeVRGZkVuMHBtbWZiLUxrMUFmSWVTOC1JZWxQNnJINzFHajZVdlI3b0FwZzdtRVpQSEJxSkJ1eHkwd1MzdlhHUERGTFFmQVBCOGowTHZGWjhOTVI5UmtvU01qT1pGS2l5bExfX00?oc=5",
-      "published": "2026-07-07T10:03:18+00:00",
+      "id": "0ee9459fb424",
+      "title": "Medikamentenplan: 60% der Senioren nehmen drei Präparate täglich - Ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNU2FvaFZzYlJzVFM4WUhvUnBsc3lhblRlYlRMV3pBbGNwMUVWQlVzdnAtRWlMYkJIWmZCMVA1T0F3a3hzMUxZMGF6NjVaRmJNTTdQeC1EOG10NzFRUWt1UzZIYjg2TWh1RUthOXBJcU05RU9ZYU9wRngwUzdyVWVKdGdkVGpjNUNyRWRDLUdoSW9DQkRIeUM5NGJBakFvdl9YVVhUSUNTcHZLVG5IakJYOUx1U2VrbGJBQXZSZ1pR?oc=5",
+      "published": "2026-07-15T01:18:15+00:00",
       "source": {
-        "name": "Brot für die Welt",
-        "url": "https://www.brot-fuer-die-welt.de"
+        "name": "Ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -151,16 +161,6 @@
       "source": {
         "name": "Bundesministerium für Gesundheit (BMG)",
         "url": "https://www.bundesgesundheitsministerium.de"
-      }
-    },
-    {
-      "id": "4ee210acb1fd",
-      "title": "Mit Herzblut leistet sie Hilfe in abgelegenen Regionen Nepals - Westfalen-Blatt",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPa1JTLVlFblN1S3d1bjQyLXhpZlI0a2NtYzhDOUppNEJ1Q2Z3MW1mNFljZm9yTF9LR1NuaWRCanZ2QVVtRmlfV043bFBMTndOTTduN3FVS1A0ejBBX2ZxVW1pcmtkSVd4UF9ydDJ1RkplT2h6ZzU5bXZGWjJjMEhQNDloOWNjUFp5QzJnYU4tRVE5UVE4MkZxMnl0b1h6eWZmOWpqaXZsZ1o0SU5IQ191OXpDSQ?oc=5",
-      "published": "2026-07-13T15:00:00+00:00",
-      "source": {
-        "name": "Westfalen-Blatt",
-        "url": "https://www.westfalen-blatt.de"
       }
     },
     {
@@ -204,16 +204,6 @@
       }
     },
     {
-      "id": "5b37cb52bb5d",
-      "title": "Achtung, diese Medikamente wirken bei Hitze anders - WEB.DE",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSkxPeHhBZi12TThJUUFnazZSbGFBaUtxRDlMRzVSblhmai1LV1BNVmNEbGlmeklDM1hEa2RJS0JUVm9GSWZZQUJUSUwwRjVqOTMzdVVRQ0JLcGd3WW9uUmZvbDV6ZGZ2dGxMMmFuM1hGVkVoSTkwWkN1bU1Jd2dmam5xUnNIdXBvMHhHX1VlT2o?oc=5",
-      "published": "2026-06-24T07:00:00+00:00",
-      "source": {
-        "name": "WEB.DE",
-        "url": "https://web.de"
-      }
-    },
-    {
       "id": "d84d643c6d8b",
       "title": "Bundestag und Bundesrat: Neue Chancen, aber auch Risiken für die Arzneimittelversorgung - Presseportal",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1fZEpET2FXdFpHaEY0YkZuakwxbXQ2bUtpcXdZdGN6NjBCU3dXZGVCbzZxdjdGUFdkTFdsX1hXZGF6d3gzTjVUUEpxdDlhQ2c5ZktNa0RB?oc=5",
@@ -234,16 +224,6 @@
       }
     },
     {
-      "id": "4daa7b1dd67b",
-      "title": "Achtung! : Diese Medikamente wirken bei Sommerhitze anders - Kleine Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNV3p0WEZCRzNoZDViQUtZRUh3R05iOTRjU3pyUDZDcmk1SHd1QW5XUWkybGhQZGhlVWpfb1VaTkVzdF8xcEdDZ2lOQzJJakZucnlfZklZVnRjanloRVUyN3NoY0NLQlZmV0VBUEhlNG5wQlhsRDAyMnhLTmRudVBkRmJQTUJfcnFISmxoaXBzYnphc2d6blRQVA?oc=5",
-      "published": "2026-07-14T05:30:00+00:00",
-      "source": {
-        "name": "Kleine Zeitung",
-        "url": "https://www.kleinezeitung.at"
-      }
-    },
-    {
       "id": "2a4cd6eb6d1d",
       "title": "Arzneimittelengpässe in Europa – so reagiert die EU - European Parliament",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYUFLam5JQVMtSlNuNWlqSTJrRUNDN215RDlRU2hOMEE0Rkp3cHBodVhSbXRsSUhvTTRhMTVLWEE5QmM0dXJRNGlPSkwyZ2doMHhlaEpHbW5DZl8tazhQc3lPcEN4SmtLaEdGMk9IZjF5MGZvNEd3a2tXSnJXT1ItanFsV2gtRGpMYjlUbHV2OURrMkM5OXA3emh5OERlMlpXc1J1UlNVYUp1UlBUd1gzREtLUkZRZw?oc=5",
@@ -251,6 +231,26 @@
       "source": {
         "name": "European Parliament",
         "url": "https://www.europarl.europa.eu"
+      }
+    },
+    {
+      "id": "5b37cb52bb5d",
+      "title": "Achtung, diese Medikamente wirken bei Hitze anders - WEB.DE",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSkxPeHhBZi12TThJUUFnazZSbGFBaUtxRDlMRzVSblhmai1LV1BNVmNEbGlmeklDM1hEa2RJS0JUVm9GSWZZQUJUSUwwRjVqOTMzdVVRQ0JLcGd3WW9uUmZvbDV6ZGZ2dGxMMmFuM1hGVkVoSTkwWkN1bU1Jd2dmam5xUnNIdXBvMHhHX1VlT2o?oc=5",
+      "published": "2026-06-19T07:00:00+00:00",
+      "source": {
+        "name": "WEB.DE",
+        "url": "https://web.de"
+      }
+    },
+    {
+      "id": "4daa7b1dd67b",
+      "title": "Achtung! : Diese Medikamente wirken bei Sommerhitze anders - Kleine Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNV3p0WEZCRzNoZDViQUtZRUh3R05iOTRjU3pyUDZDcmk1SHd1QW5XUWkybGhQZGhlVWpfb1VaTkVzdF8xcEdDZ2lOQzJJakZucnlfZklZVnRjanloRVUyN3NoY0NLQlZmV0VBUEhlNG5wQlhsRDAyMnhLTmRudVBkRmJQTUJfcnFISmxoaXBzYnphc2d6blRQVA?oc=5",
+      "published": "2026-07-14T05:30:00+00:00",
+      "source": {
+        "name": "Kleine Zeitung",
+        "url": "https://www.kleinezeitung.at"
       }
     },
     {
@@ -264,12 +264,12 @@
       }
     },
     {
-      "id": "8db31424e5bb",
-      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - dw.com",
+      "id": "02e9917bea66",
+      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - DW.com",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGxHSlhmSS0tbUNKdG15NEVzRzYzYllEUnAzUEU3ak53czRHVWlKdTZrRGFDMk1MUThPUjdPTnBGVENqd3d2Q1VSdWhJVXppWDF4NWh0aEJJaXJlVTlnV0VoZVFkRHNSM3p6NVZXNjNwWHk5YkxSUWR2RGZKcmp3Y2U5REY0U3dRZFJLeHFtQk9wb2Y3RUVOaVBlMlJhZ29Rck000gGjAUFVX3lxTE1rTW00WXFBajZxbTJOS1NLckhVbXFBSzh1NE96QTEydTN1YjZnaFFNcV8xblZGM29hdTZQUHc4V3YzQ1pwcTlaVVBhZDVqMExLMTlYVzZ6TmM4ZUdsUm5TLXpPNmk1R3V4UktvaV93cWttNFpVX0VEZlZnUllSQkhyUlZmeTBJcU0zUEVSZTgxdzFWUnFNRk9CYVljN0Jhd0ZXUFk?oc=5",
       "published": "2026-05-12T07:00:00+00:00",
       "source": {
-        "name": "dw.com",
+        "name": "DW.com",
         "url": "https://www.dw.com"
       }
     },
@@ -311,6 +311,16 @@
       "source": {
         "name": "DIE ZEIT",
         "url": "https://www.zeit.de"
+      }
+    },
+    {
+      "id": "b6f8a06fd285",
+      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - GEO.de",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
+      "published": "2026-06-19T07:00:00+00:00",
+      "source": {
+        "name": "GEO.de",
+        "url": "https://www.geo.de"
       }
     },
     {
@@ -384,16 +394,6 @@
       }
     },
     {
-      "id": "edcf559b1a0c",
-      "title": "EU-Gesundheitskommissar prüft Folgen von Trumps Arzneipreispolitik - Euronews",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSzM5cWFmcTJfV010WWVadkdEVXRGblFEUTlhaUhoOThvaHV5eTJuWFVJbUtyMW9xNTJkYzNIR2Z6YWp0ZE1IWmNPb3pNcU5YY1phcUlQSU5IWWtvV0MzNDlqdHJZRU40alRPU29CWFVnUDBjLXE3UHhtV2pManQ4TzhzVEU3OHNDM2JJZm9ZbzBUbkVCRFRZYU1jMTl2UVdGRnhubmZZYWswcmZqbXAtbW5QcnRBTktIaHFFWg?oc=5",
-      "published": "2026-06-16T07:00:00+00:00",
-      "source": {
-        "name": "Euronews",
-        "url": "https://de.euronews.com"
-      }
-    },
-    {
       "id": "d9edf968b2d7",
       "title": "»Spar­po­li­tik bei Arz­nei­mit­teln ist ein Irr­weg« - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZ3BYbThQLUVqMndzcmZ2RzJRTW5vb1o4dGhibU52alc0SUtlbFkxMkhCS1puYnNnelNOcnVtSl9iejVRNU1sNGxvZ0lZZVZkaWNnRGhWVWsxT1JobThfRzFVdnh6Q25Idzl3aGZZaThYdHBRYTUzNHRpX2VNZ0dGWHBjd3VEbDdERlhjOHhubnhHLXB2OWc?oc=5",
@@ -404,13 +404,13 @@
       }
     },
     {
-      "id": "b6f8a06fd285",
-      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - GEO.de",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
-      "published": "2026-06-19T07:00:00+00:00",
+      "id": "edcf559b1a0c",
+      "title": "EU-Gesundheitskommissar prüft Folgen von Trumps Arzneipreispolitik - Euronews",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSzM5cWFmcTJfV010WWVadkdEVXRGblFEUTlhaUhoOThvaHV5eTJuWFVJbUtyMW9xNTJkYzNIR2Z6YWp0ZE1IWmNPb3pNcU5YY1phcUlQSU5IWWtvV0MzNDlqdHJZRU40alRPU29CWFVnUDBjLXE3UHhtV2pManQ4TzhzVEU3OHNDM2JJZm9ZbzBUbkVCRFRZYU1jMTl2UVdGRnhubmZZYWswcmZqbXAtbW5QcnRBTktIaHFFWg?oc=5",
+      "published": "2026-06-16T07:00:00+00:00",
       "source": {
-        "name": "GEO.de",
-        "url": "https://www.geo.de"
+        "name": "Euronews",
+        "url": "https://de.euronews.com"
       }
     },
     {
@@ -624,16 +624,6 @@
       }
     },
     {
-      "id": "ae01424b6ad2",
-      "title": "Kritische Arzneimittel wieder stärker in Europa produzieren - baden-wuerttemberg.de",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSjMzcWVqRjE1TVZWbUdQLWFEMnBYcGN3WEFDaWQzVGN5YUNRWTk1dXdzYm53bGRCOEVMbnpPZWZEQ3dQdzFzNXJ0OVJac1owMFJERW1hc2Mzbk5yNkluNGhWazY5STVzdWR3Yjd5dlR3WEkySEdEOWotSndjWDZhQ09qUHVJbzZOa2hCeDA5blZ5cENQV08tWWVZSHVzNURfa1ZwNWxJNFNaYTVnRUVmRnhPMDF3WmlkcldXMFJmdlVjWEZzeGRTSUQzN2hpWjdl?oc=5",
-      "published": "2026-01-20T08:00:00+00:00",
-      "source": {
-        "name": "baden-wuerttemberg.de",
-        "url": "https://www.baden-wuerttemberg.de"
-      }
-    },
-    {
       "id": "4c9b3fd0b1e9",
       "title": "„EU-paradox“: Europaparlament thematisiert massiven Zielkonflikt bei der Versorgungssicherheit mit Arzneimitteln - gesundheit adhoc",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZHJPOWNHTVFaV3p4emxVQ0ktLWszTTN6TUdwT3BvTWJYa0VPZWF1bUJOT1ptQUNrNHVRSmFNazhCOWlCOTVhMzJOUGlhR3dhaGE4OUsxTWVWdGMzbDMydGNMM3Z3QkFBWmtPcEVCQW9LeXJUSEszbzRXTndYMWM1OURVQnVQMG9WVnpPTGk5blhxM3ozZWUwX1pnSzZ2VDZzOEFVSGYwVDBMNXQ2a2RtWmllNXBoZjFTZHJHZUdMcUo1czdWZ3lmaDN5TVViTU1ZU1Baa051MFd1UQ?oc=5",
@@ -641,6 +631,16 @@
       "source": {
         "name": "gesundheit adhoc",
         "url": "https://www.gesundheit-adhoc.de"
+      }
+    },
+    {
+      "id": "ae01424b6ad2",
+      "title": "Kritische Arzneimittel wieder stärker in Europa produzieren - baden-wuerttemberg.de",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSjMzcWVqRjE1TVZWbUdQLWFEMnBYcGN3WEFDaWQzVGN5YUNRWTk1dXdzYm53bGRCOEVMbnpPZWZEQ3dQdzFzNXJ0OVJac1owMFJERW1hc2Mzbk5yNkluNGhWazY5STVzdWR3Yjd5dlR3WEkySEdEOWotSndjWDZhQ09qUHVJbzZOa2hCeDA5blZ5cENQV08tWWVZSHVzNURfa1ZwNWxJNFNaYTVnRUVmRnhPMDF3WmlkcldXMFJmdlVjWEZzeGRTSUQzN2hpWjdl?oc=5",
+      "published": "2026-01-20T08:00:00+00:00",
+      "source": {
+        "name": "baden-wuerttemberg.de",
+        "url": "https://www.baden-wuerttemberg.de"
       }
     },
     {
@@ -934,16 +934,6 @@
       }
     },
     {
-      "id": "8e4ef3c2ecf0",
-      "title": "dm: Drogeriekette startet Online-Apotheke und erntet Kritik aus der Gesundheitsbranche - Spiegel",
-      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQb3YweDJTbVRaQ3JueVhtVG1VN3dxM3dLa1ZfN3ExNDdDNllob2V1Y3FqVUtZdzNjSjF2QU0wRlhQMElUMk1OY3Vob0ZTNjBWNUQwVmxPT1IxUjlDLU5rN3pjQ3BhbWtxcjI0dWJfNHc3LWplZFZiTWNoNUxjdWtlUWE1aDFxX3doZF9ZRzJ5NU5NTVhTZy1EWFJjLXlLd3lMS1MwQ09RRHVNci1HaUVBbXVGM2UxQkFLeWdRaDRLN2h6bmRSWGprSFZFZWFjYVZvcG53UG1HdjFGVjdzVS1yeXctRUVQTkFyV2UxSklocEpSQ3RHekxmdGlub1UzeTA?oc=5",
-      "published": "2025-12-12T08:00:00+00:00",
-      "source": {
-        "name": "Spiegel",
-        "url": "https://www.spiegel.de"
-      }
-    },
-    {
       "id": "3440290c6435",
       "title": "SVR-Gutachten: Das Ende der Planbarkeit - Pharma Fakten",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1BaVFzZDBFRjM5VWpVUkwwVXFBSzRTUWpTMG92cTNXYnpnRUdqTE93aWxMZXcwRExHdzBMNEtfZ3dXcDE3Q3NEcG1tNGVGMXcydnNJQVFPSG1sYWhPSmd5QTdwOWNWUFpuZzUxUE8zQXprUXFUaGNHZA?oc=5",
@@ -951,6 +941,16 @@
       "source": {
         "name": "Pharma Fakten",
         "url": "https://pharma-fakten.de"
+      }
+    },
+    {
+      "id": "8e4ef3c2ecf0",
+      "title": "dm: Drogeriekette startet Online-Apotheke und erntet Kritik aus der Gesundheitsbranche - Spiegel",
+      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQb3YweDJTbVRaQ3JueVhtVG1VN3dxM3dLa1ZfN3ExNDdDNllob2V1Y3FqVUtZdzNjSjF2QU0wRlhQMElUMk1OY3Vob0ZTNjBWNUQwVmxPT1IxUjlDLU5rN3pjQ3BhbWtxcjI0dWJfNHc3LWplZFZiTWNoNUxjdWtlUWE1aDFxX3doZF9ZRzJ5NU5NTVhTZy1EWFJjLXlLd3lMS1MwQ09RRHVNci1HaUVBbXVGM2UxQkFLeWdRaDRLN2h6bmRSWGprSFZFZWFjYVZvcG53UG1HdjFGVjdzVS1yeXctRUVQTkFyV2UxSklocEpSQ3RHekxmdGlub1UzeTA?oc=5",
+      "published": "2025-12-12T08:00:00+00:00",
+      "source": {
+        "name": "Spiegel",
+        "url": "https://www.spiegel.de"
       }
     },
     {
