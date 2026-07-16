@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-16T13:54:55.295334+00:00",
+  "fetched_at": "2026-07-16T15:39:41.318791+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -144,16 +144,6 @@
       }
     },
     {
-      "id": "9bd4490684c7",
-      "title": "Rossmann sucht Spezialisten: Drogeriekette stößt in neue Bereiche vor - T-Online",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTnlvZE9PZC1VV1JMX0x1OHFCN1d6YVpreXNQVW1sc1RTVFpvT1hUNUZEcFFaQlR4ck9UTWxTRVFfRGlhX044T0JTblAtbzdxb1NJX1c4VjAwNHZ5MUcySTRURjN1U0I1Rm5wN2huOVI5REI1NVpMQTAwb01xLUl4STNnaF9reE9ITktiSks2ZVMtc2wxX2tZNkZXeGRGTVNyZFJzNWs3aGpYdHpjYnphTTcyR2t1aGpneWUya0FOa0g1Q1cwRUdXZWpR?oc=5",
-      "published": "2026-07-14T13:55:56+00:00",
-      "source": {
-        "name": "T-Online",
-        "url": "https://www.t-online.de"
-      }
-    },
-    {
       "id": "359a638ace75",
       "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesministerium für Gesundheit (BMG)",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNlp2UC15ODdWb214VmdueWZNQ2pWMFRyd1NZNWNVbS1iTGRTZFNNeTl1WlJJZTZPdGVZUC1DVnVZWEF0N0pla3lSMVEyVl9fLXZHU2s3Q1lVMUVvZ0JIUGVXQllJNlI4TUJIVlFBaU9jeTF3NHVhWXhRdXZGczZRdWY0bnp6UlZnNExna0d2OFRiNVZzYkFuSHFRYjBQd3NQVXNZNVYtZWlkVngxa2JHZTdfVXdzUzFL?oc=5",
@@ -161,6 +151,16 @@
       "source": {
         "name": "Bundesministerium für Gesundheit (BMG)",
         "url": "https://www.bundesgesundheitsministerium.de"
+      }
+    },
+    {
+      "id": "9bd4490684c7",
+      "title": "Rossmann sucht Spezialisten: Drogeriekette stößt in neue Bereiche vor - T-Online",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTnlvZE9PZC1VV1JMX0x1OHFCN1d6YVpreXNQVW1sc1RTVFpvT1hUNUZEcFFaQlR4ck9UTWxTRVFfRGlhX044T0JTblAtbzdxb1NJX1c4VjAwNHZ5MUcySTRURjN1U0I1Rm5wN2huOVI5REI1NVpMQTAwb01xLUl4STNnaF9reE9ITktiSks2ZVMtc2wxX2tZNkZXeGRGTVNyZFJzNWs3aGpYdHpjYnphTTcyR2t1aGpneWUya0FOa0g1Q1cwRUdXZWpR?oc=5",
+      "published": "2026-07-14T13:55:56+00:00",
+      "source": {
+        "name": "T-Online",
+        "url": "https://www.t-online.de"
       }
     },
     {
@@ -254,16 +254,6 @@
       }
     },
     {
-      "id": "185c43662060",
-      "title": "Diabetes-Medikamente: Alzheimer-Risiko sinkt um bis zu 43 Prozent - Ad Hoc News",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYTEzblhLZzR5YXlpalpNWEoxdkNFaDBFWTVBOWprdW82OWR6dk5MaEFLcWVvcjNxOHJBaEltMG1YaHEzbGVuajlSNDM1VlloOTBXU21SY1gtME5Da0NBSElLOTdNNV81bVJUUXI3LVE3QXN2S2Z2c2VOMWh1X3V5SzQtWFJxMTkzQTNZbU14ZXgxMkQ3c2xTQmpmOXhmdHJDWHd6eEZZaFJJZmJkYlYya2lMYw?oc=5",
-      "published": "2026-07-15T21:05:08+00:00",
-      "source": {
-        "name": "Ad Hoc News",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "02e9917bea66",
       "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - DW.com",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGxHSlhmSS0tbUNKdG15NEVzRzYzYllEUnAzUEU3ak53czRHVWlKdTZrRGFDMk1MUThPUjdPTnBGVENqd3d2Q1VSdWhJVXppWDF4NWh0aEJJaXJlVTlnV0VoZVFkRHNSM3p6NVZXNjNwWHk5YkxSUWR2RGZKcmp3Y2U5REY0U3dRZFJLeHFtQk9wb2Y3RUVOaVBlMlJhZ29Rck000gGjAUFVX3lxTE1rTW00WXFBajZxbTJOS1NLckhVbXFBSzh1NE96QTEydTN1YjZnaFFNcV8xblZGM29hdTZQUHc4V3YzQ1pwcTlaVVBhZDVqMExLMTlYVzZ6TmM4ZUdsUm5TLXpPNmk1R3V4UktvaV93cWttNFpVX0VEZlZnUllSQkhyUlZmeTBJcU0zUEVSZTgxdzFWUnFNRk9CYVljN0Jhd0ZXUFk?oc=5",
@@ -271,6 +261,16 @@
       "source": {
         "name": "DW.com",
         "url": "https://www.dw.com"
+      }
+    },
+    {
+      "id": "087891737758",
+      "title": "Engpässe bei Arzneimitteln: Geopolitik erschwert Europas Streben nach Unabhängigkeit - euractiv.com",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQ2lScFVHU3ZELWZOdzJOUGU2YUQ3c2ZpbWhIYWFiVUNoRFZHTm5JM1BfUWVnanhicnRvanhQdGx4UHVuTnZ5dG4ySEY4eVE3dUxGaXVLSm5sM1liQzRtc19GVVE3RkNnUGhhTkhZTXAtMkhWZ3JqOVREWlhfRnBSX1FPRXlaaUE5d2d6cFVEakt5NDJaUkgzXzA3TUpqUUJTbzhRQXFpbmZCTGMwdlRDSXR3cHNjZw?oc=5",
+      "published": "2026-05-14T14:42:11+00:00",
+      "source": {
+        "name": "euractiv.com",
+        "url": "https://euractiv.com"
       }
     },
     {
@@ -284,13 +284,13 @@
       }
     },
     {
-      "id": "087891737758",
-      "title": "Engpässe bei Arzneimitteln: Geopolitik erschwert Europas Streben nach Unabhängigkeit - euractiv.com",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQ2lScFVHU3ZELWZOdzJOUGU2YUQ3c2ZpbWhIYWFiVUNoRFZHTm5JM1BfUWVnanhicnRvanhQdGx4UHVuTnZ5dG4ySEY4eVE3dUxGaXVLSm5sM1liQzRtc19GVVE3RkNnUGhhTkhZTXAtMkhWZ3JqOVREWlhfRnBSX1FPRXlaaUE5d2d6cFVEakt5NDJaUkgzXzA3TUpqUUJTbzhRQXFpbmZCTGMwdlRDSXR3cHNjZw?oc=5",
-      "published": "2026-05-14T14:42:11+00:00",
+      "id": "185c43662060",
+      "title": "Diabetes-Medikamente: Alzheimer-Risiko sinkt um bis zu 43 Prozent - Ad Hoc News",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYTEzblhLZzR5YXlpalpNWEoxdkNFaDBFWTVBOWprdW82OWR6dk5MaEFLcWVvcjNxOHJBaEltMG1YaHEzbGVuajlSNDM1VlloOTBXU21SY1gtME5Da0NBSElLOTdNNV81bVJUUXI3LVE3QXN2S2Z2c2VOMWh1X3V5SzQtWFJxMTkzQTNZbU14ZXgxMkQ3c2xTQmpmOXhmdHJDWHd6eEZZaFJJZmJkYlYya2lMYw?oc=5",
+      "published": "2026-07-15T21:05:08+00:00",
       "source": {
-        "name": "euractiv.com",
-        "url": "https://euractiv.com"
+        "name": "Ad Hoc News",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -384,6 +384,16 @@
       }
     },
     {
+      "id": "2cfa215873a6",
+      "title": "Shared Decision Making: Über 90% der Patienten fordern Mitsprache - Ad Hoc News",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOOTNUOXZzZ0xWZmdVNlI0UEtkY3lxckRRZWVMYm5WMmpBQy1nZ1NKM0xVSWZuUXhxQlc4Uy14MVVIbkZhZ3E0UzVCNm5WbDFkWVJlQjZtd1ZZTnRpeHVvWlJubl9CWjkteE41QW1HN3hfQlo0aVhvZVB6WDVwVUlLUDNqYWttVUcwM3JFV1hsVEY4UEZ3UEFIVENNYWNvTTdyRGRNN0lldE9ZZ19keGZLVXU2VV9ZQ0toNzMzVS1n?oc=5",
+      "published": "2026-07-15T01:10:15+00:00",
+      "source": {
+        "name": "Ad Hoc News",
+        "url": "https://www.ad-hoc-news.de"
+      }
+    },
+    {
       "id": "d57615c7f578",
       "title": "Medikamentenplan: 60% der Senioren nehmen drei Präparate täglich - Ad Hoc News",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNU2FvaFZzYlJzVFM4WUhvUnBsc3lhblRlYlRMV3pBbGNwMUVWQlVzdnAtRWlMYkJIWmZCMVA1T0F3a3hzMUxZMGF6NjVaRmJNTTdQeC1EOG10NzFRUWt1UzZIYjg2TWh1RUthOXBJcU05RU9ZYU9wRngwUzdyVWVKdGdkVGpjNUNyRWRDLUdoSW9DQkRIeUM5NGJBakFvdl9YVVhUSUNTcHZLVG5IakJYOUx1U2VrbGJBQXZSZ1pR?oc=5",
@@ -414,16 +424,6 @@
       }
     },
     {
-      "id": "7a99adaec5c0",
-      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - Geo.de",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
-      "published": "2026-06-19T07:00:00+00:00",
-      "source": {
-        "name": "Geo.de",
-        "url": "https://www.geo.de"
-      }
-    },
-    {
       "id": "8dce1ff85348",
       "title": "Erstattung: Gericht sieht Abnehmspritze als Lifestyle-Medikament - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdThMaUs3T0FfWmlEYnNHWkw3VHVTX3R4MUptMEUySkkwZk1OY19nU0xZcF9KT0IweUNoTzhzV2RkUUJhRl9Jdk8zTTgxeHlTbmV6a1R3NUx2ZDc1c0RMSVcyLU9NazE5aURIaW1FTzZhUTQ3U2JmQkhydXRHUEZXR1pGX0ZUODFRaWh0S3RDdzIxQ2hOMkZMc0VaZWdsTVlw?oc=5",
@@ -431,6 +431,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "7a99adaec5c0",
+      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - Geo.de",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
+      "published": "2026-06-19T07:00:00+00:00",
+      "source": {
+        "name": "Geo.de",
+        "url": "https://www.geo.de"
       }
     },
     {
@@ -991,16 +1001,6 @@
       "source": {
         "name": "euractiv.com",
         "url": "https://euractiv.com"
-      }
-    },
-    {
-      "id": "a82bcf633e21",
-      "title": "Europäische Kommission: EU modernisiert Zulassungsprozesse für Medikamente - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQM2xIaW8xSWxvSkxrazhwNTlGVE5UU2ZQbldESkNhSmpFb2VuX1lKWlJZODdxY1RXakFlampSZnd4SzVtUVBlWGtJM25fV05RR0t5MWh0R3kxSVVpT21lcHJZekd0emQ3SVhqRWJOc1gxNTJwODBVUkRwWk5VR21LSkVHMHRqX0xPNEJzMFhnSHhyenlhbXpGOVdoQW5rNEk?oc=5",
-      "published": "2025-09-23T07:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
       }
     }
   ]
