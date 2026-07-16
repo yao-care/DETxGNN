@@ -1,16 +1,16 @@
 {
-  "fetched_at": "2026-07-16T17:18:18.921605+00:00",
+  "fetched_at": "2026-07-16T19:13:20.014194+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
     {
-      "id": "d8ee5b6f18b2",
-      "title": "6-R-Regel in der Pflege: Was dahintersteckt und warum sie so wichtig ist - Allgäuer Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQTBZZk9xVDR1WkZJZmFhb2ZGY2djYnpIaWJ2XzU1UGhBTzZTWGpPdWVURVhSZ04tLTRLZk5HQ2d0QmluZzJ1akZfOEt3Z0wxdFpmbDJIZjRTT0UwWTRPWTg4NHF0QUdqdF9zc2RQUFVOR3p4c2ozRmZHbkdRdDJ3YVNVTFNuTWJuanA1U1lYbUdOM0g2N0FSWHd0YTRvWXgza0RRc2hYU0RMUldOWm9oOTB5MFhKYzhWX0s4eTFWLTBJUQ?oc=5",
-      "published": "2026-07-16T08:58:19+00:00",
+      "id": "9f7c377ed6d2",
+      "title": "MFN-Modell USA: Wie US-Arzneimittelpolitik Innovationen in Europa ausbremst - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWkw5ZTd1QUxfTlBDNjVEc0paTWpvTFpfTE9lOFM3YnhiWnBBREVhRzlMQnRmWDdkREJzVlg3UnZCN2RsTC1aTkhtN19oX2dEYmVLdXk4MXFBUnVGakk3YzVfbjZVQ0E0MUtPN2JZZ08wQ05yaTFLNER1dVYzZEo5UldOVldfQ0lCbGNRWEJZbUg0R3JBaGp6Mm1DTGd2eTYzWE9GV1hvenRGWHhOZXBxMHJMY09GUQ?oc=5",
+      "published": "2026-07-09T09:36:54+00:00",
       "source": {
-        "name": "Allgäuer Zeitung",
-        "url": "https://www.allgaeuer-zeitung.de"
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
       }
     },
     {
@@ -21,16 +21,6 @@
       "source": {
         "name": "n-tv.de",
         "url": "https://www.n-tv.de"
-      }
-    },
-    {
-      "id": "9f7c377ed6d2",
-      "title": "MFN-Modell USA: Wie US-Arzneimittelpolitik Innovationen in Europa ausbremst - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWkw5ZTd1QUxfTlBDNjVEc0paTWpvTFpfTE9lOFM3YnhiWnBBREVhRzlMQnRmWDdkREJzVlg3UnZCN2RsTC1aTkhtN19oX2dEYmVLdXk4MXFBUnVGakk3YzVfbjZVQ0E0MUtPN2JZZ08wQ05yaTFLNER1dVYzZEo5UldOVldfQ0lCbGNRWEJZbUg0R3JBaGp6Mm1DTGd2eTYzWE9GV1hvenRGWHhOZXBxMHJMY09GUQ?oc=5",
-      "published": "2026-07-09T09:36:54+00:00",
-      "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
       }
     },
     {
@@ -51,6 +41,16 @@
       "source": {
         "name": "ADAC",
         "url": "https://www.adac.de"
+      }
+    },
+    {
+      "id": "adbc9bcd0157",
+      "title": "6-R-Regel in der Pflege: Was dahintersteckt und warum sie so wichtig ist - Allgäuer Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQcHRJNmJrNzV2TF9MQzB3Rk11cTlaOF8yZnpnUE1RV1hnTmplUEdHX1JMSXNUYzg0dzV3VUlrRHZMbFZFU091STBoeExVb2FUNEYwWlEtSjlhT1l4SHY1VGQwdnB0QzZ6MUthVE9JQ0daR1A3Vm5qTGRRaGVjZ2UxS1ExUmVPSDVwbHQ4Z2x2bTk4NUszYnhaQnpZRDc3aVQ5OXJPaXpOalYxQUNtYWc1TlhnWUZ3ekxNUC1VakVLWnEyUQ?oc=5",
+      "published": "2026-07-14T03:26:20+00:00",
+      "source": {
+        "name": "Allgäuer Zeitung",
+        "url": "https://www.allgaeuer-zeitung.de"
       }
     },
     {
@@ -94,16 +94,6 @@
       }
     },
     {
-      "id": "a54a884d55a6",
-      "title": "Noch in diesem Jahr: Rossmann will Medikamente liefern - WEB.DE",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZzVIdE80VXRILUdTZTlsLTQwMHlHX1FMSjhsUGppeGJjNERCQkdLeDJwNnp6UUZTWWNmTW0xaUVZaGhHS1ZXSWV2TUZLbzNLdVVuei11TDZ4VVlQNU1CQUVuRTM0RHV3S3pYcnM3UThsNDhsaWFicE5ET0Noek1mcTFWbw?oc=5",
-      "published": "2026-07-10T15:00:36+00:00",
-      "source": {
-        "name": "WEB.DE",
-        "url": "https://web.de"
-      }
-    },
-    {
       "id": "f277ec9160cd",
       "title": "Ebola: Wem sollten Arzneimittel gehören? - Brot für die Welt",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbk1naTRCdGV5VGdtajJpYVJSMTVlNlVFeVRGZkVuMHBtbWZiLUxrMUFmSWVTOC1JZWxQNnJINzFHajZVdlI3b0FwZzdtRVpQSEJxSkJ1eHkwd1MzdlhHUERGTFFmQVBCOGowTHZGWjhOTVI5UmtvU01qT1pGS2l5bExfX00?oc=5",
@@ -111,6 +101,16 @@
       "source": {
         "name": "Brot für die Welt",
         "url": "https://www.brot-fuer-die-welt.de"
+      }
+    },
+    {
+      "id": "a54a884d55a6",
+      "title": "Noch in diesem Jahr: Rossmann will Medikamente liefern - WEB.DE",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZzVIdE80VXRILUdTZTlsLTQwMHlHX1FMSjhsUGppeGJjNERCQkdLeDJwNnp6UUZTWWNmTW0xaUVZaGhHS1ZXSWV2TUZLbzNLdVVuei11TDZ4VVlQNU1CQUVuRTM0RHV3S3pYcnM3UThsNDhsaWFicE5ET0Noek1mcTFWbw?oc=5",
+      "published": "2026-07-10T15:00:36+00:00",
+      "source": {
+        "name": "WEB.DE",
+        "url": "https://web.de"
       }
     },
     {
@@ -234,16 +234,6 @@
       }
     },
     {
-      "id": "5b37cb52bb5d",
-      "title": "Achtung, diese Medikamente wirken bei Hitze anders - WEB.DE",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSkxPeHhBZi12TThJUUFnazZSbGFBaUtxRDlMRzVSblhmai1LV1BNVmNEbGlmeklDM1hEa2RJS0JUVm9GSWZZQUJUSUwwRjVqOTMzdVVRQ0JLcGd3WW9uUmZvbDV6ZGZ2dGxMMmFuM1hGVkVoSTkwWkN1bU1Jd2dmam5xUnNIdXBvMHhHX1VlT2o?oc=5",
-      "published": "2026-06-19T07:00:00+00:00",
-      "source": {
-        "name": "WEB.DE",
-        "url": "https://web.de"
-      }
-    },
-    {
       "id": "38b8b0aa9188",
       "title": "Vom Wissen zum Handeln: Verbesserung der Bezahlbarkeit von Arzneimitteln in den Ländern des Westbalkans - World Health Organization (WHO)",
       "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOZlNmcEdYcXZxdDBYazhiVjRCWHVtbms0ZG5JUWlXb0lJWXVFYjV1ak1MR05oZW5FbHFMTGpyNjJxS1ZuQWk4Nl9Wc2NHdHE3YnhrQzc1VHJNbm1QRFdMVF9WVGw2NHdVeDBHajRYX1hfZkFEMTU2Z09kcU04T1c1V3dKZ09nUUlMc3dnLVdvQ3RTYUZqSDA3d1djVXpxbU9fSFUtSGlHbHNOdFJRb29RQlpTRHEzd2pCQzd5Y3VRNmcza2dzTVVlYUp5Y1U5b01kMGpQUzZvNGctWE0tSmJRSEk5TQ?oc=5",
@@ -254,12 +244,22 @@
       }
     },
     {
-      "id": "02e9917bea66",
-      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - DW.com",
+      "id": "5b37cb52bb5d",
+      "title": "Achtung, diese Medikamente wirken bei Hitze anders - WEB.DE",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSkxPeHhBZi12TThJUUFnazZSbGFBaUtxRDlMRzVSblhmai1LV1BNVmNEbGlmeklDM1hEa2RJS0JUVm9GSWZZQUJUSUwwRjVqOTMzdVVRQ0JLcGd3WW9uUmZvbDV6ZGZ2dGxMMmFuM1hGVkVoSTkwWkN1bU1Jd2dmam5xUnNIdXBvMHhHX1VlT2o?oc=5",
+      "published": "2026-06-19T07:00:00+00:00",
+      "source": {
+        "name": "WEB.DE",
+        "url": "https://web.de"
+      }
+    },
+    {
+      "id": "8db31424e5bb",
+      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - dw.com",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGxHSlhmSS0tbUNKdG15NEVzRzYzYllEUnAzUEU3ak53czRHVWlKdTZrRGFDMk1MUThPUjdPTnBGVENqd3d2Q1VSdWhJVXppWDF4NWh0aEJJaXJlVTlnV0VoZVFkRHNSM3p6NVZXNjNwWHk5YkxSUWR2RGZKcmp3Y2U5REY0U3dRZFJLeHFtQk9wb2Y3RUVOaVBlMlJhZ29Rck000gGjAUFVX3lxTE1rTW00WXFBajZxbTJOS1NLckhVbXFBSzh1NE96QTEydTN1YjZnaFFNcV8xblZGM29hdTZQUHc4V3YzQ1pwcTlaVVBhZDVqMExLMTlYVzZ6TmM4ZUdsUm5TLXpPNmk1R3V4UktvaV93cWttNFpVX0VEZlZnUllSQkhyUlZmeTBJcU0zUEVSZTgxdzFWUnFNRk9CYVljN0Jhd0ZXUFk?oc=5",
       "published": "2026-05-12T07:00:00+00:00",
       "source": {
-        "name": "DW.com",
+        "name": "dw.com",
         "url": "https://www.dw.com"
       }
     },
@@ -314,16 +314,6 @@
       }
     },
     {
-      "id": "185c43662060",
-      "title": "Diabetes-Medikamente: Alzheimer-Risiko sinkt um bis zu 43 Prozent - Ad Hoc News",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYTEzblhLZzR5YXlpalpNWEoxdkNFaDBFWTVBOWprdW82OWR6dk5MaEFLcWVvcjNxOHJBaEltMG1YaHEzbGVuajlSNDM1VlloOTBXU21SY1gtME5Da0NBSElLOTdNNV81bVJUUXI3LVE3QXN2S2Z2c2VOMWh1X3V5SzQtWFJxMTkzQTNZbU14ZXgxMkQ3c2xTQmpmOXhmdHJDWHd6eEZZaFJJZmJkYlYya2lMYw?oc=5",
-      "published": "2026-07-15T21:05:08+00:00",
-      "source": {
-        "name": "Ad Hoc News",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "f92665691e36",
       "title": "Gesundheit: So will die EU Engpässe bei Fiebersaft & Co. verhindern - Tagesspiegel",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcDl1WkpGU2VsQWhwUXd1WWxXSUhVN2Y3R2hTdl9GTHNxcDl2NFhUejhMXzhtOVUteVRjYmlZZDVNa0lETm9QSWNsWXB2c09CcTBqV3M2Wk5Fc0FVRlRaaDFzN1lDVTRFdl9IeXZvU2h3VjhJVGFUQ29lNmdqOUFld1dsd3ZNaVF5OFRETVFqckdoWk1udUFSQWdzMVdLQWxJd3A0eXdiVzhJR3pmY1FOeVQ0aUFxZ3BGdlpGazFn?oc=5",
@@ -341,6 +331,16 @@
       "source": {
         "name": "DIE ZEIT",
         "url": "https://www.zeit.de"
+      }
+    },
+    {
+      "id": "185c43662060",
+      "title": "Diabetes-Medikamente: Alzheimer-Risiko sinkt um bis zu 43 Prozent - Ad Hoc News",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYTEzblhLZzR5YXlpalpNWEoxdkNFaDBFWTVBOWprdW82OWR6dk5MaEFLcWVvcjNxOHJBaEltMG1YaHEzbGVuajlSNDM1VlloOTBXU21SY1gtME5Da0NBSElLOTdNNV81bVJUUXI3LVE3QXN2S2Z2c2VOMWh1X3V5SzQtWFJxMTkzQTNZbU14ZXgxMkQ3c2xTQmpmOXhmdHJDWHd6eEZZaFJJZmJkYlYya2lMYw?oc=5",
+      "published": "2026-07-15T21:05:08+00:00",
+      "source": {
+        "name": "Ad Hoc News",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
