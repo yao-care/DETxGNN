@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-17T07:17:33.887815+00:00",
+  "fetched_at": "2026-07-17T09:58:34.397047+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -14,13 +14,23 @@
       }
     },
     {
-      "id": "8b73ad117349",
-      "title": "dm und Lidl sägen an Institution: Wofür brauchen wir eigentlich noch Apotheken? - n-tv.de",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZS11bTJQeGhPYlo5SnExQnJJbENjMVc0YXNkaTZvUF9yZ05vU05vbFNwWkNqNFlORXJHTThaNkV1Qk1PVnY5QnkxUFdZeEZyTlhfNGFOWlEyVW53UWZ1d1hZTjBnNHdTM1d3VExkUnFXWEw4THQzb1VEVkF6OHdXYUhwSUZnakpjbEhkMkJ0bjVaV2M?oc=5",
-      "published": "2026-07-16T13:22:07+00:00",
+      "id": "ca0d2f573d69",
+      "title": "Medizinische Cannabisblüten: Was die zuständigen Behörden von einer Vortrocknung unter GACP halten - Krautinvest",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORHNuZHczN3RVbkZieGhrZDFuMHhBZ1FUOS1JMndvWEItd0lEaVVWRUw0blhBOUs1WTExckFNU2FEbHQzdXB1YkV0WWxwUXNDY0JKNFFnSGk5TEIxeGNCQUVoZS13bkl5MzVzTFBFQ3hjWmRTcEZxOUNLeHoyUDhBel9RQThwRi1pX0M5alBUSW84Z0R6RkhraTdOdHZ2WkllUGYxMUJPLXBqWUlfNDZJTXU4V0RJdDBLNzBBMGprZWg1UQ?oc=5",
+      "published": "2026-07-17T08:00:38+00:00",
       "source": {
-        "name": "n-tv.de",
-        "url": "https://www.n-tv.de"
+        "name": "Krautinvest",
+        "url": "https://krautinvest.de"
+      }
+    },
+    {
+      "id": "014ad20f5cc8",
+      "title": "Psychedelika: Angermayer schafft Milliardendeal mit Eli Lilly - transkript.de",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSm45aGoyWkU1TkRLNXUzUEg1ajkxNjcxQVhmOVJiWWdRVWk1elZIeTBwZUNsSG4xUU1qQVdFMHBER0Vsd1QtN1lOY2wwVUJGOHpIWGFnZ0l6U2dsMS1weW9UTlAyMW1wMjN3RzRfN2hqc2NZa1gtZWpGaWVSQmVzRkJva0phaE1OZExWVHBSUHBqQlZqd1BzeGhUYjE?oc=5",
+      "published": "2026-07-17T07:20:18+00:00",
+      "source": {
+        "name": "transkript.de",
+        "url": "https://transkript.de"
       }
     },
     {
@@ -34,12 +44,22 @@
       }
     },
     {
-      "id": "6888ded94d27",
-      "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - bundesgesundheitsministerium.de",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT3NRWE1tbWNRMllaUC1GUGtRV3YxaWhZZ21nQThUT3NGbS1DbkFfRzdSd3RvUUVsTkVJdUpYRFp0ekFHV1JtTEJZZ0I5dWJvajgzZzdZZDk5S3FROHRoeVJzS3VBRTBuTldDWW52dG5kLWxpUTlMZmpLdUZZekxaOEJQYTlUbTdLRTBsR1k4TlE1ajIxYTFiZ041eFppZktLWjJZYVQyRlNOVEd1RGdIVmpBRDMteG1xdHdyUmVn?oc=5",
+      "id": "8b73ad117349",
+      "title": "dm und Lidl sägen an Institution: Wofür brauchen wir eigentlich noch Apotheken? - n-tv.de",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZS11bTJQeGhPYlo5SnExQnJJbENjMVc0YXNkaTZvUF9yZ05vU05vbFNwWkNqNFlORXJHTThaNkV1Qk1PVnY5QnkxUFdZeEZyTlhfNGFOWlEyVW53UWZ1d1hZTjBnNHdTM1d3VExkUnFXWEw4THQzb1VEVkF6OHdXYUhwSUZnakpjbEhkMkJ0bjVaV2M?oc=5",
+      "published": "2026-07-16T13:22:07+00:00",
+      "source": {
+        "name": "n-tv.de",
+        "url": "https://www.n-tv.de"
+      }
+    },
+    {
+      "id": "359a638ace75",
+      "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesministerium für Gesundheit (BMG)",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNlp2UC15ODdWb214VmdueWZNQ2pWMFRyd1NZNWNVbS1iTGRTZFNNeTl1WlJJZTZPdGVZUC1DVnVZWEF0N0pla3lSMVEyVl9fLXZHU2s3Q1lVMUVvZ0JIUGVXQllJNlI4TUJIVlFBaU9jeTF3NHVhWXhRdXZGczZRdWY0bnp6UlZnNExna0d2OFRiNVZzYkFuSHFRYjBQd3NQVXNZNVYtZWlkVngxa2JHZTdfVXdzUzFL?oc=5",
       "published": "2026-05-22T07:00:00+00:00",
       "source": {
-        "name": "bundesgesundheitsministerium.de",
+        "name": "Bundesministerium für Gesundheit (BMG)",
         "url": "https://www.bundesgesundheitsministerium.de"
       }
     },
@@ -64,16 +84,6 @@
       }
     },
     {
-      "id": "a91bce131989",
-      "title": "Nachhaltigkeit: Arzneimittel als wichtiger Hebel - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPUzd6V2JNTmp0Ry1iT3dJSURwNzBORGtyeldrUFdEVEhvNFNUZUh6VmtXZnYycFZCdDlzdEJWbzNlbnZha05majRVU3VqX1U2QkVlVFZTSE5FRkc5TDZoR1BRNmd6TzYwSjdOY3kyRS1HN3p1RTI4OWdrS09HVkgyc3lIZ0s1dw?oc=5",
-      "published": "2026-07-10T11:30:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "f7c833495bd1",
       "title": "Me­di­ka­men­te im Ur­laub: So schüt­zen Sie sich vor Fäl­schun­gen - Die Rheinpfalz",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQbVlsX3VLeWJGQmtrMVQ1dFdSRGpQZEN1NFl2T0NvelNQbFBQMFgwUEI0UGtQdU5OZHNCRG5TTU1NZFlPYlFuX1pkOGllRkYtT1RPeGRlZXIwa0p4OTc5NlRHVWpCY05FQ1FvZEU2MlUxR3BsRmctVDliQVNLMEY3V1d5bHB0UG9oVVNFTmtGT204eDNjLXJ5R2dNZ3Q2eUlNZ2RId1lDUTIwdG52X2ZINUtsNThxNEtTci1BNGlzODcyemtfVzVLUUJtZGZIY3FaRGNZVlB4OGZRdw?oc=5",
@@ -81,6 +91,16 @@
       "source": {
         "name": "Die Rheinpfalz",
         "url": "https://www.rheinpfalz.de"
+      }
+    },
+    {
+      "id": "a91bce131989",
+      "title": "Nachhaltigkeit: Arzneimittel als wichtiger Hebel - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPUzd6V2JNTmp0Ry1iT3dJSURwNzBORGtyeldrUFdEVEhvNFNUZUh6VmtXZnYycFZCdDlzdEJWbzNlbnZha05majRVU3VqX1U2QkVlVFZTSE5FRkc5TDZoR1BRNmd6TzYwSjdOY3kyRS1HN3p1RTI4OWdrS09HVkgyc3lIZ0s1dw?oc=5",
+      "published": "2026-07-10T11:30:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -164,26 +184,6 @@
       }
     },
     {
-      "id": "5cfa2762dc20",
-      "title": "Gesundheit - GKV-Chef: \"Mehr gegen steigende Arzneimittelpreise tun\" - Deutschlandfunk",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdXlzU1VBOUhWa05wcTVDNnBBdHRkeDl5TnZ1S1A3T0swT2pKTjZlaU1pempxQVJkMXMySXBtd2xpaUk5WWN4Q1VyakdMbnN2eF9mRncxakUwN21WbGFQMWpuR2VoOG1tUDYtWERUbS1LSVpOdUNaTE1SWmhDSkVUdTlubVNEWGNtUXNaYk5tcTJibTRDZTJv?oc=5",
-      "published": "2026-03-15T07:00:00+00:00",
-      "source": {
-        "name": "Deutschlandfunk",
-        "url": "https://www.deutschlandfunk.de"
-      }
-    },
-    {
-      "id": "2f34179105c8",
-      "title": "„Lässt Demenzrisiko steigen“: Ärztin warnt vor diesem Cholesterin-Wert - Berliner Morgenpost",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOLW9UVDJmdXpRQmp1Wks2U3BvMEdFckEzSFJwVHdkTkJpckRuVnA2a093VV90UVMzOGRBQWp2ZnF3QjZvX2lITzZsdUZ4c1JESEVCN0VqOXRFSl9TYzBCTzJ2MThFbFBzemdUMmcxODBlZHozdnR0Mk56U3BMMFl2cE5NNk5IQlQ5NW5CSTN2SGprOE5kMFpqLXBCOEtWWFM5bEJCWHdXbkltLTBsaFlITGpubDl6cFRCWTYtVVhLRWx6eklROUZUNDBobm5KYmswWEdhQVc5clg?oc=5",
-      "published": "2026-07-14T11:53:09+00:00",
-      "source": {
-        "name": "Berliner Morgenpost",
-        "url": "https://www.morgenpost.de"
-      }
-    },
-    {
       "id": "9fa13ce5acf5",
       "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
@@ -191,6 +191,16 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "5cfa2762dc20",
+      "title": "Gesundheit - GKV-Chef: \"Mehr gegen steigende Arzneimittelpreise tun\" - Deutschlandfunk",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdXlzU1VBOUhWa05wcTVDNnBBdHRkeDl5TnZ1S1A3T0swT2pKTjZlaU1pempxQVJkMXMySXBtd2xpaUk5WWN4Q1VyakdMbnN2eF9mRncxakUwN21WbGFQMWpuR2VoOG1tUDYtWERUbS1LSVpOdUNaTE1SWmhDSkVUdTlubVNEWGNtUXNaYk5tcTJibTRDZTJv?oc=5",
+      "published": "2026-03-15T07:00:00+00:00",
+      "source": {
+        "name": "Deutschlandfunk",
+        "url": "https://www.deutschlandfunk.de"
       }
     },
     {
@@ -204,13 +214,13 @@
       }
     },
     {
-      "id": "31465553598c",
-      "title": "Demenzrisiko: WHO zeigt, wie 45% durch Lebensstil vermeidbar sind - ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQLTlKck1YNEFCUkVtb0V0UG5mMXpIV1ZHSEVrTnA0VXdERVJieVI0SmpUcUxEUjZDa2p1OUxTNUJyZnNkLUR4NzlkZm1NUmcteTZZZzRqYzNtNTM4SDhtTm9KX0pZeC1HRUM1Qmc1RWFBQ3RzMmplU1M5RWtMdnh6V2pfc3Q2TE1UME1oWW5DWjRsb3Vla0pkSjBQYjJGcmgtUG5FUkkyajUxaTkwcksyaFVFd1FyN3Q1N05r?oc=5",
-      "published": "2026-07-17T02:32:08+00:00",
+      "id": "2f34179105c8",
+      "title": "„Lässt Demenzrisiko steigen“: Ärztin warnt vor diesem Cholesterin-Wert - Berliner Morgenpost",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOLW9UVDJmdXpRQmp1Wks2U3BvMEdFckEzSFJwVHdkTkJpckRuVnA2a093VV90UVMzOGRBQWp2ZnF3QjZvX2lITzZsdUZ4c1JESEVCN0VqOXRFSl9TYzBCTzJ2MThFbFBzemdUMmcxODBlZHozdnR0Mk56U3BMMFl2cE5NNk5IQlQ5NW5CSTN2SGprOE5kMFpqLXBCOEtWWFM5bEJCWHdXbkltLTBsaFlITGpubDl6cFRCWTYtVVhLRWx6eklROUZUNDBobm5KYmswWEdhQVc5clg?oc=5",
+      "published": "2026-07-14T11:53:09+00:00",
       "source": {
-        "name": "ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
+        "name": "Berliner Morgenpost",
+        "url": "https://www.morgenpost.de"
       }
     },
     {
@@ -264,16 +274,6 @@
       }
     },
     {
-      "id": "181226fa8350",
-      "title": "PFAS in Medikamenten müssen nicht sein - Infosperber",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZDAtcVRiX2l5V2tBOGE5Q0pkOEY3LUM1bjJEeTJCQ0dJOXZvMUo1S3J2eFRNY1lUMXRoYXBLWUp2cGdEUkZEcWtSd19pY2I4Q0UtV1ZHaDV1U0RWSFNyYi0zVERZam03RVlPOXVvRzJFbTZiVkJuQVRXREY4aHhSZVlSZzB4UW1FNzduRk92MA?oc=5",
-      "published": "2026-07-15T08:43:49+00:00",
-      "source": {
-        "name": "Infosperber",
-        "url": "https://www.infosperber.ch"
-      }
-    },
-    {
       "id": "3843ee8c2190",
       "title": "Gesundheit - Beipackzettel von Medikamenten sollen digital werden - Ausdrucke in Apotheken sollen Option sein - Deutschlandfunk",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOclZxcXdzdDlfTXNBVkNkV1g0a1RMa05OWGcyX0RXaW5YMmpyUElhUnBJQU9QM3BzUG9iSFZnaWE0ek1iLTFQeE1wbkVhaDdrT3pVMERnT3l3VGhoOUtuS0EtT3pwazNMMGZmcmI1Z2puUHg1WWc5MzBXdHJma0l0dWNlNEhQdFdBUXF5X0V3OVRQWVA1RXFJNXJtbTVGMjNYQVlSWjNrdEttY0pQMXF0dWlwdGNUVWpFcF83a3RyX0oxSWpLaFVmc2NoVEhGNXc?oc=5",
@@ -301,6 +301,16 @@
       "source": {
         "name": "tagesschau.de",
         "url": "https://www.tagesschau.de"
+      }
+    },
+    {
+      "id": "31465553598c",
+      "title": "Demenzrisiko: WHO zeigt, wie 45% durch Lebensstil vermeidbar sind - ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQLTlKck1YNEFCUkVtb0V0UG5mMXpIV1ZHSEVrTnA0VXdERVJieVI0SmpUcUxEUjZDa2p1OUxTNUJyZnNkLUR4NzlkZm1NUmcteTZZZzRqYzNtNTM4SDhtTm9KX0pZeC1HRUM1Qmc1RWFBQ3RzMmplU1M5RWtMdnh6V2pfc3Q2TE1UME1oWW5DWjRsb3Vla0pkSjBQYjJGcmgtUG5FUkkyajUxaTkwcksyaFVFd1FyN3Q1N05r?oc=5",
+      "published": "2026-07-17T02:32:08+00:00",
+      "source": {
+        "name": "ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -471,16 +481,6 @@
       "source": {
         "name": "WiWo",
         "url": "https://www.wiwo.de"
-      }
-    },
-    {
-      "id": "09b230e29d31",
-      "title": "Alternative zu Antibiotika? Uni Halle koordiniert Verbundprojekt zur Phagentherapie - Du bist Halle",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNzB4OXd3b0taT0RkcGpqNndjc1dQX1MtSzNyUTFGYl9USnRncjdoNzFyUWVYd2p4ck03WG1pakJiRkJiSng4N0tMUGt2X2w2cXUtZEVWNFhsQnFJM1NPTm5YY3dKYXdEcll1ejE3U2E2UTY1X01qSUEtY0tuRHNjTFRPbEYtNi0wd191MmdBNEZ2SEJoeDRhaHhlbnN4Y29FY29EdnpIdVhuZw?oc=5",
-      "published": "2026-07-15T00:00:38+00:00",
-      "source": {
-        "name": "Du bist Halle",
-        "url": "https://dubisthalle.de"
       }
     },
     {
@@ -794,12 +794,12 @@
       }
     },
     {
-      "id": "b6f8a06fd285",
-      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - GEO.de",
+      "id": "7a99adaec5c0",
+      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - Geo.de",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
       "published": "2026-06-19T07:00:00+00:00",
       "source": {
-        "name": "GEO.de",
+        "name": "Geo.de",
         "url": "https://www.geo.de"
       }
     },
@@ -934,16 +934,6 @@
       }
     },
     {
-      "id": "0e1905d4a3b3",
-      "title": "Shared Decision Making: Über 90% der Patienten fordern Mitsprache - ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOOTNUOXZzZ0xWZmdVNlI0UEtkY3lxckRRZWVMYm5WMmpBQy1nZ1NKM0xVSWZuUXhxQlc4Uy14MVVIbkZhZ3E0UzVCNm5WbDFkWVJlQjZtd1ZZTnRpeHVvWlJubl9CWjkteE41QW1HN3hfQlo0aVhvZVB6WDVwVUlLUDNqYWttVUcwM3JFV1hsVEY4UEZ3UEFIVENNYWNvTTdyRGRNN0lldE9ZZ19keGZLVXU2VV9ZQ0toNzMzVS1n?oc=5",
-      "published": "2026-07-15T01:10:15+00:00",
-      "source": {
-        "name": "ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "815d7c3030a9",
       "title": "Erkältungen und Infekte nehmen zu: Droht wieder ein Medikamentenengpass? - Tagesspiegel",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOb3BrN2sybjFrd2xZYTlUZENWRE9fZEJyVHZJWGZHZHA3SG10dXNKSm5LVF9zR2h4VzVkdHM5OVFnbGo5MkpPWmEyV2JPWVVXWUtsR0Z1RVEyY1hFa0tqTzJzWFN0R0xJMXdSOUJYbG9wT0tVVkxsVnZINDFZMmpyUGg0NlVQSnRnYlh4ejF2Z19NMmJEZlVNVzIyVHNUTWNGM0tENk93TE1EMWd6Zm51Q1lMUHpobzkyT3B3N21yVUY?oc=5",
@@ -951,6 +941,16 @@
       "source": {
         "name": "Tagesspiegel",
         "url": "https://www.tagesspiegel.de"
+      }
+    },
+    {
+      "id": "0e1905d4a3b3",
+      "title": "Shared Decision Making: Über 90% der Patienten fordern Mitsprache - ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOOTNUOXZzZ0xWZmdVNlI0UEtkY3lxckRRZWVMYm5WMmpBQy1nZ1NKM0xVSWZuUXhxQlc4Uy14MVVIbkZhZ3E0UzVCNm5WbDFkWVJlQjZtd1ZZTnRpeHVvWlJubl9CWjkteE41QW1HN3hfQlo0aVhvZVB6WDVwVUlLUDNqYWttVUcwM3JFV1hsVEY4UEZ3UEFIVENNYWNvTTdyRGRNN0lldE9ZZ19keGZLVXU2VV9ZQ0toNzMzVS1n?oc=5",
+      "published": "2026-07-15T01:10:15+00:00",
+      "source": {
+        "name": "ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -994,13 +994,13 @@
       }
     },
     {
-      "id": "60a76794ad38",
-      "title": "Diabetes-Medikamente: Alzheimer-Risiko sinkt um bis zu 43 Prozent - ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYTEzblhLZzR5YXlpalpNWEoxdkNFaDBFWTVBOWprdW82OWR6dk5MaEFLcWVvcjNxOHJBaEltMG1YaHEzbGVuajlSNDM1VlloOTBXU21SY1gtME5Da0NBSElLOTdNNV81bVJUUXI3LVE3QXN2S2Z2c2VOMWh1X3V5SzQtWFJxMTkzQTNZbU14ZXgxMkQ3c2xTQmpmOXhmdHJDWHd6eEZZaFJJZmJkYlYya2lMYw?oc=5",
-      "published": "2026-07-15T21:05:08+00:00",
+      "id": "dbab4bead913",
+      "title": "AstraZeneca erwägt Medikamenten-Stopp in Deutschland: Konzernchef kritisiert Sparpläne der Regierung scharf - Business Insider Deutschland",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPb1F4ZlVIUm83b0gtQTg0MU5WeHR1eUNPcmJBaFV4aGgwbjg2VlNUQ2F1RmVKeC1fTFFGbWIwYmFackw0Skg0Z1RMMDhfbEFnU2lMTURULVZHbVVoY1AxdkxINi1wQkFubExyeE1GLVZ3SVNiUnBXVTFUWXFTZlpTM0JzZnhqUF9lNU1pbjZ1bkxNZ1pQLUt1bC15eTJ0X0NUNWdQLWlRandzRkNtNURCRlptUjFybk93RXc?oc=5",
+      "published": "2026-04-21T07:00:00+00:00",
       "source": {
-        "name": "ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
+        "name": "Business Insider Deutschland",
+        "url": "https://www.businessinsider.de"
       }
     }
   ]
