@@ -1,8 +1,18 @@
 {
-  "fetched_at": "2026-07-18T06:06:11.805696+00:00",
+  "fetched_at": "2026-07-18T08:48:50.501841+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
+    {
+      "id": "64cfe633b8e0",
+      "title": "6-R-Regel in der Pflege: Was dahintersteckt und warum sie so wichtig ist - Allgäuer Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUndZSEI1eXZGak11Rng1cTl0UkQxdW1GaldNRDg2eFJ0U2pOUTNNMXV5c0k4N2VDN2ppSXREZ2JyV3lHTVZmejcyTU1HQlE0dUc5T01tcW5kQzNLb0tFYl9ZbFRMSDhRQzhrV3VTVDBlVnRxTDFnMVpXc1F2YTZocHBGMVIzbUhONEJCLUM1aGlkZmlsR2E4WDRoX1h0UUcwQ3c1TTl3S21jMG5USGlXbVdERjlDWHU0LUQ3dUJpUUc3dw?oc=5",
+      "published": "2026-07-18T03:26:52+00:00",
+      "source": {
+        "name": "Allgäuer Zeitung",
+        "url": "https://www.allgaeuer-zeitung.de"
+      }
+    },
     {
       "id": "9f7c377ed6d2",
       "title": "MFN-Modell USA: Wie US-Arzneimittelpolitik Innovationen in Europa ausbremst - vfa. Die forschenden Pharma-Unternehmen",
@@ -34,16 +44,6 @@
       }
     },
     {
-      "id": "926a1f681898",
-      "title": "„Wegovy“ als Pille: So wirkt das neue Mittel gegen Adipositas - RND.de",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQYVZma2Mwem41UjRwLXdyMnQxUmd4ZVBMZGVjV2lQdWlBSmViTmJDbkk5eUJGZ1BNdlV2dGJCUFhBcGR3aTF0Y3FqMkRvSHBhV1NDUjNCdk45dlF2YUh2bVNfVkU3R0R3MzVIQ3NQaEJPQ1QteG1RVUFrQTFKOU9VdFNBQlh1QUVpU1dBVEI3eEFCMjFNZHVsbHlRWDFHNkFtUk56Tm44UElDOFhsaHBNWmxON3N5Z2RMVWlxYWZRTkZSbnV2aXJR?oc=5",
-      "published": "2026-07-17T13:58:51+00:00",
-      "source": {
-        "name": "RND.de",
-        "url": "https://www.rnd.de"
-      }
-    },
-    {
       "id": "b7c47ca36b58",
       "title": "dm und Lidl sägen an Institution: Wofür brauchen wir eigentlich noch Apotheken? - n-tv.de",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMWxYS1Z1RFNzTURxMWpzNW5rNlN0eHpfVEtlU2dwRGNXX0szckhoMVl0NTROLWx0X3J5RlZDMzd1djF1NW5KMVRtc2kydXNva005eXVveGk5SGptRlppYzlTdzVCX0FIVGFEOTF6anNEV0hzcmRjamM4bVVhVVJFTm1PX3M5Wnl3Z3IwUzN2V3p4NFMyV0JZ?oc=5",
@@ -51,16 +51,6 @@
       "source": {
         "name": "n-tv.de",
         "url": "https://www.n-tv.de"
-      }
-    },
-    {
-      "id": "adbc9bcd0157",
-      "title": "6-R-Regel in der Pflege: Was dahintersteckt und warum sie so wichtig ist - Allgäuer Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQcHRJNmJrNzV2TF9MQzB3Rk11cTlaOF8yZnpnUE1RV1hnTmplUEdHX1JMSXNUYzg0dzV3VUlrRHZMbFZFU091STBoeExVb2FUNEYwWlEtSjlhT1l4SHY1VGQwdnB0QzZ6MUthVE9JQ0daR1A3Vm5qTGRRaGVjZ2UxS1ExUmVPSDVwbHQ4Z2x2bTk4NUszYnhaQnpZRDc3aVQ5OXJPaXpOalYxQUNtYWc1TlhnWUZ3ekxNUC1VakVLWnEyUQ?oc=5",
-      "published": "2026-07-14T03:26:20+00:00",
-      "source": {
-        "name": "Allgäuer Zeitung",
-        "url": "https://www.allgaeuer-zeitung.de"
       }
     },
     {
@@ -74,13 +64,13 @@
       }
     },
     {
-      "id": "10652a08cd24",
-      "title": "(S+) Wegovy: EU lässt neue Abnehmtablette zu – über Nutzen und Risiken - Spiegel",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOdk10WXpWbHVEUzBJM3o1V2k2RWNqT1ViR0o0VXU5MlRFN3Vzd3RYUG5iclM2QUZuQjFSclZ6b0o4SmRWaFVxazdXX3RYWFZSclVuUTZVWHRXZ1RxblE3OTVRdWQ3eDRZVGVaX1ZhbVZfdTFyQ19tYTJlN1Z0cUFTRzlja1hRWnlMcVpKS3dxUFRGOWtJbk9SSVNueUpja3hQWk1nTWVJSXF5eGNUbzg5b2JDYnF4alBaakhUWW1JdlhybndENDh1R0tGeGJLVWtQaTFXOFhDbzdIOGk4UGRJTDh2eWJpbkJU?oc=5",
-      "published": "2026-07-17T13:10:00+00:00",
+      "id": "926a1f681898",
+      "title": "„Wegovy“ als Pille: So wirkt das neue Mittel gegen Adipositas - RND.de",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQYVZma2Mwem41UjRwLXdyMnQxUmd4ZVBMZGVjV2lQdWlBSmViTmJDbkk5eUJGZ1BNdlV2dGJCUFhBcGR3aTF0Y3FqMkRvSHBhV1NDUjNCdk45dlF2YUh2bVNfVkU3R0R3MzVIQ3NQaEJPQ1QteG1RVUFrQTFKOU9VdFNBQlh1QUVpU1dBVEI3eEFCMjFNZHVsbHlRWDFHNkFtUk56Tm44UElDOFhsaHBNWmxON3N5Z2RMVWlxYWZRTkZSbnV2aXJR?oc=5",
+      "published": "2026-07-17T13:58:51+00:00",
       "source": {
-        "name": "Spiegel",
-        "url": "https://www.spiegel.de"
+        "name": "RND.de",
+        "url": "https://www.rnd.de"
       }
     },
     {
@@ -134,6 +124,16 @@
       }
     },
     {
+      "id": "10652a08cd24",
+      "title": "(S+) Wegovy: EU lässt neue Abnehmtablette zu – über Nutzen und Risiken - Spiegel",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOdk10WXpWbHVEUzBJM3o1V2k2RWNqT1ViR0o0VXU5MlRFN3Vzd3RYUG5iclM2QUZuQjFSclZ6b0o4SmRWaFVxazdXX3RYWFZSclVuUTZVWHRXZ1RxblE3OTVRdWQ3eDRZVGVaX1ZhbVZfdTFyQ19tYTJlN1Z0cUFTRzlja1hRWnlMcVpKS3dxUFRGOWtJbk9SSVNueUpja3hQWk1nTWVJSXF5eGNUbzg5b2JDYnF4alBaakhUWW1JdlhybndENDh1R0tGeGJLVWtQaTFXOFhDbzdIOGk4UGRJTDh2eWJpbkJU?oc=5",
+      "published": "2026-07-17T13:10:00+00:00",
+      "source": {
+        "name": "Spiegel",
+        "url": "https://www.spiegel.de"
+      }
+    },
+    {
       "id": "8877bd184e20",
       "title": "Darmmikrobiom-Selbsttest: Warum Experten davon abraten – und einen Arztbesuch empfehlen - oekotest.de",
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPSEk0bnBpVDZ0d1ljamJmVkxkeHlzLWdhQ0FyekRxUXA5M1hhY2x2QS0wSFlMd2ZlOThUaFpYSDdBeEtET0JXRHoxVmptZzZkUFRlZDl0SW1VcnZsdFB1bjVpQVRpdllCMTZ0Z2tKRzNiZWJwTW1HaFBlVFBISTNiVkNjeVZCX1JqZ2xNTUxzbHJlV1Vmb1g1S2t4S1VNdGd6OVdGNHV4cW52M3BpM1RBVFllel9hcm5IQWV1NWlLUTltOVZIN2tjWkJYdkgxSER2S0lrcWw3SWw4LTJrT3c?oc=5",
@@ -141,16 +141,6 @@
       "source": {
         "name": "oekotest.de",
         "url": "https://www.oekotest.de"
-      }
-    },
-    {
-      "id": "ca0d2f573d69",
-      "title": "Medizinische Cannabisblüten: Was die zuständigen Behörden von einer Vortrocknung unter GACP halten - Krautinvest",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORHNuZHczN3RVbkZieGhrZDFuMHhBZ1FUOS1JMndvWEItd0lEaVVWRUw0blhBOUs1WTExckFNU2FEbHQzdXB1YkV0WWxwUXNDY0JKNFFnSGk5TEIxeGNCQUVoZS13bkl5MzVzTFBFQ3hjWmRTcEZxOUNLeHoyUDhBel9RQThwRi1pX0M5alBUSW84Z0R6RkhraTdOdHZ2WkllUGYxMUJPLXBqWUlfNDZJTXU4V0RJdDBLNzBBMGprZWg1UQ?oc=5",
-      "published": "2026-07-17T08:00:38+00:00",
-      "source": {
-        "name": "Krautinvest",
-        "url": "https://krautinvest.de"
       }
     },
     {
@@ -184,6 +174,16 @@
       }
     },
     {
+      "id": "ca0d2f573d69",
+      "title": "Medizinische Cannabisblüten: Was die zuständigen Behörden von einer Vortrocknung unter GACP halten - Krautinvest",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORHNuZHczN3RVbkZieGhrZDFuMHhBZ1FUOS1JMndvWEItd0lEaVVWRUw0blhBOUs1WTExckFNU2FEbHQzdXB1YkV0WWxwUXNDY0JKNFFnSGk5TEIxeGNCQUVoZS13bkl5MzVzTFBFQ3hjWmRTcEZxOUNLeHoyUDhBel9RQThwRi1pX0M5alBUSW84Z0R6RkhraTdOdHZ2WkllUGYxMUJPLXBqWUlfNDZJTXU4V0RJdDBLNzBBMGprZWg1UQ?oc=5",
+      "published": "2026-07-17T08:00:38+00:00",
+      "source": {
+        "name": "Krautinvest",
+        "url": "https://krautinvest.de"
+      }
+    },
+    {
       "id": "ca3fbb8f0e20",
       "title": "SPD macht Arzneimittelversorgung zur Sicherheitsfrage - gesundheit adhoc",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaUx0Nm5DX2dXSFptbnJSOFlNVzVxaHpReWZiSVVVb0JMSnFzR3dVOHdiYzVEOGRaczRySGhxSVI3TlJOa3BJdzRyejl3bEhObFE0WWxKTVJ4NFd4MVJ2eW43RFF5dUFrNFNlTnZnZWZaVXRoMk14VlZPVi0yREtsa2ZIOURjQUpvNVZSMlV5cw?oc=5",
@@ -204,23 +204,13 @@
       }
     },
     {
-      "id": "8db31424e5bb",
-      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - dw.com",
+      "id": "02e9917bea66",
+      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - DW.com",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGxHSlhmSS0tbUNKdG15NEVzRzYzYllEUnAzUEU3ak53czRHVWlKdTZrRGFDMk1MUThPUjdPTnBGVENqd3d2Q1VSdWhJVXppWDF4NWh0aEJJaXJlVTlnV0VoZVFkRHNSM3p6NVZXNjNwWHk5YkxSUWR2RGZKcmp3Y2U5REY0U3dRZFJLeHFtQk9wb2Y3RUVOaVBlMlJhZ29Rck000gGjAUFVX3lxTE1rTW00WXFBajZxbTJOS1NLckhVbXFBSzh1NE96QTEydTN1YjZnaFFNcV8xblZGM29hdTZQUHc4V3YzQ1pwcTlaVVBhZDVqMExLMTlYVzZ6TmM4ZUdsUm5TLXpPNmk1R3V4UktvaV93cWttNFpVX0VEZlZnUllSQkhyUlZmeTBJcU0zUEVSZTgxdzFWUnFNRk9CYVljN0Jhd0ZXUFk?oc=5",
       "published": "2026-05-12T07:00:00+00:00",
       "source": {
-        "name": "dw.com",
+        "name": "DW.com",
         "url": "https://www.dw.com"
-      }
-    },
-    {
-      "id": "014ad20f5cc8",
-      "title": "Psychedelika: Angermayer schafft Milliardendeal mit Eli Lilly - transkript.de",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSm45aGoyWkU1TkRLNXUzUEg1ajkxNjcxQVhmOVJiWWdRVWk1elZIeTBwZUNsSG4xUU1qQVdFMHBER0Vsd1QtN1lOY2wwVUJGOHpIWGFnZ0l6U2dsMS1weW9UTlAyMW1wMjN3RzRfN2hqc2NZa1gtZWpGaWVSQmVzRkJva0phaE1OZExWVHBSUHBqQlZqd1BzeGhUYjE?oc=5",
-      "published": "2026-07-17T07:22:12+00:00",
-      "source": {
-        "name": "transkript.de",
-        "url": "https://transkript.de"
       }
     },
     {
@@ -244,16 +234,6 @@
       }
     },
     {
-      "id": "a54a884d55a6",
-      "title": "Noch in diesem Jahr: Rossmann will Medikamente liefern - WEB.DE",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZzVIdE80VXRILUdTZTlsLTQwMHlHX1FMSjhsUGppeGJjNERCQkdLeDJwNnp6UUZTWWNmTW0xaUVZaGhHS1ZXSWV2TUZLbzNLdVVuei11TDZ4VVlQNU1CQUVuRTM0RHV3S3pYcnM3UThsNDhsaWFicE5ET0Noek1mcTFWbw?oc=5",
-      "published": "2026-07-10T15:00:36+00:00",
-      "source": {
-        "name": "WEB.DE",
-        "url": "https://web.de"
-      }
-    },
-    {
       "id": "087891737758",
       "title": "Engpässe bei Arzneimitteln: Geopolitik erschwert Europas Streben nach Unabhängigkeit - euractiv.com",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQ2lScFVHU3ZELWZOdzJOUGU2YUQ3c2ZpbWhIYWFiVUNoRFZHTm5JM1BfUWVnanhicnRvanhQdGx4UHVuTnZ5dG4ySEY4eVE3dUxGaXVLSm5sM1liQzRtc19GVVE3RkNnUGhhTkhZTXAtMkhWZ3JqOVREWlhfRnBSX1FPRXlaaUE5d2d6cFVEakt5NDJaUkgzXzA3TUpqUUJTbzhRQXFpbmZCTGMwdlRDSXR3cHNjZw?oc=5",
@@ -261,6 +241,16 @@
       "source": {
         "name": "euractiv.com",
         "url": "https://euractiv.com"
+      }
+    },
+    {
+      "id": "a54a884d55a6",
+      "title": "Noch in diesem Jahr: Rossmann will Medikamente liefern - WEB.DE",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZzVIdE80VXRILUdTZTlsLTQwMHlHX1FMSjhsUGppeGJjNERCQkdLeDJwNnp6UUZTWWNmTW0xaUVZaGhHS1ZXSWV2TUZLbzNLdVVuei11TDZ4VVlQNU1CQUVuRTM0RHV3S3pYcnM3UThsNDhsaWFicE5ET0Noek1mcTFWbw?oc=5",
+      "published": "2026-07-10T15:00:36+00:00",
+      "source": {
+        "name": "WEB.DE",
+        "url": "https://web.de"
       }
     },
     {
@@ -334,6 +324,16 @@
       }
     },
     {
+      "id": "014ad20f5cc8",
+      "title": "Psychedelika: Angermayer schafft Milliardendeal mit Eli Lilly - transkript.de",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSm45aGoyWkU1TkRLNXUzUEg1ajkxNjcxQVhmOVJiWWdRVWk1elZIeTBwZUNsSG4xUU1qQVdFMHBER0Vsd1QtN1lOY2wwVUJGOHpIWGFnZ0l6U2dsMS1weW9UTlAyMW1wMjN3RzRfN2hqc2NZa1gtZWpGaWVSQmVzRkJva0phaE1OZExWVHBSUHBqQlZqd1BzeGhUYjE?oc=5",
+      "published": "2026-07-17T07:22:12+00:00",
+      "source": {
+        "name": "transkript.de",
+        "url": "https://transkript.de"
+      }
+    },
+    {
       "id": "618351e249d1",
       "title": "Haushaltspläne: Mehr Geld für Produktion kritischer Arzneimittel, keine Mittel für Gesundheit und Pflege - Deutsches Ärzteblatt",
       "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNa19XTmtzLWdGTUNhcTkyNVVMZnhDVnlNVkxETGwwVDZ1X3dFVExwZEpDZU0wREhkUk91WEgwV0lJSXEwNTJydG1TbjVRV0FVRy1rUDhwYWtBeVdkYVJuSXo2SmhPUHJ1cWRZYWc3YW5pN21mc18wZUp4Y2FSZG53QnJQZk1RZ2FFeXBxN2VkUDRFYy16ZjgxQkNSc3ppZ1ZPWGdNdG9SanVveHNHc2ZUQU5qV2JDQXpINnVVd2x5eXplUnBDZjJCdGJLRk9QemRtaEpvYlNrTjM0anBWaDRDbHBYY1d2NUtZY1N2Zmx1SWU?oc=5",
@@ -344,16 +344,6 @@
       }
     },
     {
-      "id": "5b37cb52bb5d",
-      "title": "Achtung, diese Medikamente wirken bei Hitze anders - WEB.DE",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSkxPeHhBZi12TThJUUFnazZSbGFBaUtxRDlMRzVSblhmai1LV1BNVmNEbGlmeklDM1hEa2RJS0JUVm9GSWZZQUJUSUwwRjVqOTMzdVVRQ0JLcGd3WW9uUmZvbDV6ZGZ2dGxMMmFuM1hGVkVoSTkwWkN1bU1Jd2dmam5xUnNIdXBvMHhHX1VlT2o?oc=5",
-      "published": "2026-06-24T07:00:00+00:00",
-      "source": {
-        "name": "WEB.DE",
-        "url": "https://web.de"
-      }
-    },
-    {
       "id": "d9edf968b2d7",
       "title": "»Spar­po­li­tik bei Arz­nei­mit­teln ist ein Irr­weg« - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZ3BYbThQLUVqMndzcmZ2RzJRTW5vb1o4dGhibU52alc0SUtlbFkxMkhCS1puYnNnelNOcnVtSl9iejVRNU1sNGxvZ0lZZVZkaWNnRGhWVWsxT1JobThfRzFVdnh6Q25Idzl3aGZZaThYdHBRYTUzNHRpX2VNZ0dGWHBjd3VEbDdERlhjOHhubnhHLXB2OWc?oc=5",
@@ -361,6 +351,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "5b37cb52bb5d",
+      "title": "Achtung, diese Medikamente wirken bei Hitze anders - WEB.DE",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSkxPeHhBZi12TThJUUFnazZSbGFBaUtxRDlMRzVSblhmai1LV1BNVmNEbGlmeklDM1hEa2RJS0JUVm9GSWZZQUJUSUwwRjVqOTMzdVVRQ0JLcGd3WW9uUmZvbDV6ZGZ2dGxMMmFuM1hGVkVoSTkwWkN1bU1Jd2dmam5xUnNIdXBvMHhHX1VlT2o?oc=5",
+      "published": "2026-06-24T07:00:00+00:00",
+      "source": {
+        "name": "WEB.DE",
+        "url": "https://web.de"
       }
     },
     {
@@ -444,16 +444,6 @@
       }
     },
     {
-      "id": "4827c0f2d4e4",
-      "title": "Gesundheit - Gesetzliche Krankenkassen fordern Maßnahmen gegen steigende Arzneimittelpreise - Deutschlandfunk",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPX2ZXSGh3TS1SUVdMakVnd0tYT040NWVQRFJQX3ZVY1VONVQ4U2lZX0xVcEZ4dXZYOURsbDJCWmM4MXVMYWJwbjE1M09oVmxVTF9UODQ4MmUtRlhVdGpuZzV1bjZOY0U4SEk5VjNEM25vU1M4a2lBNmpfa1ZzTWE2ODlBQTBfemV0M0kxMEsyTWFuYnpvd3ZVT0pFeW9aRTJhRFdHX3UtNVpONmdXNUkwMDFydmh0YXpMTVVR?oc=5",
-      "published": "2026-03-15T07:00:00+00:00",
-      "source": {
-        "name": "Deutschlandfunk",
-        "url": "https://www.deutschlandfunk.de"
-      }
-    },
-    {
       "id": "705974bba917",
       "title": "Amazon dominiert den Markt mit Gesundheitsprodukten - Deutsche Apotheker Zeitung, DAZ",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbHlZQTZWYmlGbVU5cjNqYjFlak5yVlpqT2xSenpLbFN2bDBBbE5wbTVpNDNtTmVFeUNfVlpqaHJBbUNIVVVxcVl4WThULXJaTEp3YjVQbmRfZkc5MEdCXzRKMV92aGc3UGQ4dWNVa05BM1lqcUVKZ1Z6X25rdGRNcUpha0V2a2p0N3A4LXZEdVpHTURXTVVhU1FkTkt2dUVKcWdkOTRRX25pN0JLbTQ5UXVMUjBlRmhH?oc=5",
@@ -461,6 +451,16 @@
       "source": {
         "name": "Deutsche Apotheker Zeitung, DAZ",
         "url": "https://www.deutsche-apotheker-zeitung.de"
+      }
+    },
+    {
+      "id": "4827c0f2d4e4",
+      "title": "Gesundheit - Gesetzliche Krankenkassen fordern Maßnahmen gegen steigende Arzneimittelpreise - Deutschlandfunk",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPX2ZXSGh3TS1SUVdMakVnd0tYT040NWVQRFJQX3ZVY1VONVQ4U2lZX0xVcEZ4dXZYOURsbDJCWmM4MXVMYWJwbjE1M09oVmxVTF9UODQ4MmUtRlhVdGpuZzV1bjZOY0U4SEk5VjNEM25vU1M4a2lBNmpfa1ZzTWE2ODlBQTBfemV0M0kxMEsyTWFuYnpvd3ZVT0pFeW9aRTJhRFdHX3UtNVpONmdXNUkwMDFydmh0YXpMTVVR?oc=5",
+      "published": "2026-03-15T07:00:00+00:00",
+      "source": {
+        "name": "Deutschlandfunk",
+        "url": "https://www.deutschlandfunk.de"
       }
     },
     {
@@ -824,16 +824,6 @@
       }
     },
     {
-      "id": "7a99adaec5c0",
-      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - Geo.de",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
-      "published": "2026-06-19T07:00:00+00:00",
-      "source": {
-        "name": "Geo.de",
-        "url": "https://www.geo.de"
-      }
-    },
-    {
       "id": "4d8966297de5",
       "title": "Newel Health und Gerresheimer starten strategische Zusammenarbeit zur Unterstützung von Pharmaunternehmen im Zeitalter integrierter digitaler Therapien - PR Newswire",
       "link": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxQSkFkNzV6ME5mWDBONy13Ny16cmFiVFQ5V1k0aWdVXzJBeVZNZDlVbG5EeUR1eHpCNG1GVGdzRk1ZNTlHdUFtV1JxaV9UbHpDY1FnY2loWUdCVFpNSWtfQXVOZTNZNC1pTDIyb2NxcWQ2b3l0S0Z3dW9ZeFBzSnhHMDN2UXdOREtneVdObkV3UTBBMXY0ZU1UV3JoVnNIQlk0azRyWlZMRm5DYTNydXl1VUl1ZkRYVE5hdkFWQ1pNbjdHcWVNRVdUNDBVMW9UaW9tTE1FdlA3QXJuZlZtcGxzTnJZYUN5MEdoZ1ItUGFaVW1rU3lkUDB2YzFEbmlWZlMyS0dCLW9BU1QzelNPanJTRjk3RTBVTTI5TVBhVjZZYXotLVotQk9rVXFERTdRMFltLXNrb1hzVjhwLW8?oc=5",
@@ -841,6 +831,16 @@
       "source": {
         "name": "PR Newswire",
         "url": "https://www.prnewswire.com"
+      }
+    },
+    {
+      "id": "47afc2884d76",
+      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - geo.de",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
+      "published": "2026-06-19T07:00:00+00:00",
+      "source": {
+        "name": "geo.de",
+        "url": "https://www.geo.de"
       }
     },
     {
@@ -914,6 +914,16 @@
       }
     },
     {
+      "id": "c186b4db6c10",
+      "title": "Teure Medikamente für 100-Jährige? Streecks Aussagen zu sehr alten Menschen stoßen auf Zuspruch und scharfe Kritik - Tagesspiegel",
+      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQclVaUzUxWl9ZNUVvOVZHTXhQdEtRQ205NGJtNU9TQTZTQWUxMVJPNzFsMHFZbXVIa2NfQ1JRSjJicV9YSGQ1dFVXcWFJa2ZZR1o5ZmNwcjA3TmxjRFRhb3ptX25MZzEwdWszclJpNThyUHc5VDFSX2NiTk8tc0tBOUJWcFV5RHhvMGYwa1FlbldHYVVpbHl3cUZ1N0ZseU1rSjFlb2N6WjJoeFQ4QXNhLU9oeTBYTkpDMzZ3NmFyQko1M2dKRzJtbWlfMVJyN2VaemdDMTQ1a19UcTlFOGI3NHRXeXo5STZ2Mi1vREpIWDg3VGlYbXl3?oc=5",
+      "published": "2025-11-13T08:00:00+00:00",
+      "source": {
+        "name": "Tagesspiegel",
+        "url": "https://www.tagesspiegel.de"
+      }
+    },
+    {
       "id": "a82bcf633e21",
       "title": "Europäische Kommission: EU modernisiert Zulassungsprozesse für Medikamente - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQM2xIaW8xSWxvSkxrazhwNTlGVE5UU2ZQbldESkNhSmpFb2VuX1lKWlJZODdxY1RXakFlampSZnd4SzVtUVBlWGtJM25fV05RR0t5MWh0R3kxSVVpT21lcHJZekd0emQ3SVhqRWJOc1gxNTJwODBVUkRwWk5VR21LSkVHMHRqX0xPNEJzMFhnSHhyenlhbXpGOVdoQW5rNEk?oc=5",
@@ -928,16 +938,6 @@
       "title": "Erkältungen und Infekte nehmen zu: Droht wieder ein Medikamentenengpass? - Tagesspiegel",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOb3BrN2sybjFrd2xZYTlUZENWRE9fZEJyVHZJWGZHZHA3SG10dXNKSm5LVF9zR2h4VzVkdHM5OVFnbGo5MkpPWmEyV2JPWVVXWUtsR0Z1RVEyY1hFa0tqTzJzWFN0R0xJMXdSOUJYbG9wT0tVVkxsVnZINDFZMmpyUGg0NlVQSnRnYlh4ejF2Z19NMmJEZlVNVzIyVHNUTWNGM0tENk93TE1EMWd6Zm51Q1lMUHpobzkyT3B3N21yVUY?oc=5",
       "published": "2025-09-19T07:00:00+00:00",
-      "source": {
-        "name": "Tagesspiegel",
-        "url": "https://www.tagesspiegel.de"
-      }
-    },
-    {
-      "id": "c186b4db6c10",
-      "title": "Teure Medikamente für 100-Jährige? Streecks Aussagen zu sehr alten Menschen stoßen auf Zuspruch und scharfe Kritik - Tagesspiegel",
-      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQclVaUzUxWl9ZNUVvOVZHTXhQdEtRQ205NGJtNU9TQTZTQWUxMVJPNzFsMHFZbXVIa2NfQ1JRSjJicV9YSGQ1dFVXcWFJa2ZZR1o5ZmNwcjA3TmxjRFRhb3ptX25MZzEwdWszclJpNThyUHc5VDFSX2NiTk8tc0tBOUJWcFV5RHhvMGYwa1FlbldHYVVpbHl3cUZ1N0ZseU1rSjFlb2N6WjJoeFQ4QXNhLU9oeTBYTkpDMzZ3NmFyQko1M2dKRzJtbWlfMVJyN2VaemdDMTQ1a19UcTlFOGI3NHRXeXo5STZ2Mi1vREpIWDg3VGlYbXl3?oc=5",
-      "published": "2025-11-13T08:00:00+00:00",
       "source": {
         "name": "Tagesspiegel",
         "url": "https://www.tagesspiegel.de"
@@ -984,20 +984,20 @@
       }
     },
     {
-      "id": "0e1905d4a3b3",
-      "title": "Shared Decision Making: Über 90% der Patienten fordern Mitsprache - ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOOTNUOXZzZ0xWZmdVNlI0UEtkY3lxckRRZWVMYm5WMmpBQy1nZ1NKM0xVSWZuUXhxQlc4Uy14MVVIbkZhZ3E0UzVCNm5WbDFkWVJlQjZtd1ZZTnRpeHVvWlJubl9CWjkteE41QW1HN3hfQlo0aVhvZVB6WDVwVUlLUDNqYWttVUcwM3JFV1hsVEY4UEZ3UEFIVENNYWNvTTdyRGRNN0lldE9ZZ19keGZLVXU2VV9ZQ0toNzMzVS1n?oc=5",
-      "published": "2026-07-15T01:10:15+00:00",
+      "id": "60a76794ad38",
+      "title": "Diabetes-Medikamente: Alzheimer-Risiko sinkt um bis zu 43 Prozent - ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYTEzblhLZzR5YXlpalpNWEoxdkNFaDBFWTVBOWprdW82OWR6dk5MaEFLcWVvcjNxOHJBaEltMG1YaHEzbGVuajlSNDM1VlloOTBXU21SY1gtME5Da0NBSElLOTdNNV81bVJUUXI3LVE3QXN2S2Z2c2VOMWh1X3V5SzQtWFJxMTkzQTNZbU14ZXgxMkQ3c2xTQmpmOXhmdHJDWHd6eEZZaFJJZmJkYlYya2lMYw?oc=5",
+      "published": "2026-07-15T21:05:08+00:00",
       "source": {
         "name": "ad-hoc-news.de",
         "url": "https://www.ad-hoc-news.de"
       }
     },
     {
-      "id": "60a76794ad38",
-      "title": "Diabetes-Medikamente: Alzheimer-Risiko sinkt um bis zu 43 Prozent - ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYTEzblhLZzR5YXlpalpNWEoxdkNFaDBFWTVBOWprdW82OWR6dk5MaEFLcWVvcjNxOHJBaEltMG1YaHEzbGVuajlSNDM1VlloOTBXU21SY1gtME5Da0NBSElLOTdNNV81bVJUUXI3LVE3QXN2S2Z2c2VOMWh1X3V5SzQtWFJxMTkzQTNZbU14ZXgxMkQ3c2xTQmpmOXhmdHJDWHd6eEZZaFJJZmJkYlYya2lMYw?oc=5",
-      "published": "2026-07-15T21:05:08+00:00",
+      "id": "7ce5c61b0576",
+      "title": "Medikamentenplan: 60% der Senioren nehmen drei Präparate täglich - ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNU2FvaFZzYlJzVFM4WUhvUnBsc3lhblRlYlRMV3pBbGNwMUVWQlVzdnAtRWlMYkJIWmZCMVA1T0F3a3hzMUxZMGF6NjVaRmJNTTdQeC1EOG10NzFRUWt1UzZIYjg2TWh1RUthOXBJcU05RU9ZYU9wRngwUzdyVWVKdGdkVGpjNUNyRWRDLUdoSW9DQkRIeUM5NGJBakFvdl9YVVhUSUNTcHZLVG5IakJYOUx1U2VrbGJBQXZSZ1pR?oc=5",
+      "published": "2026-07-15T01:18:15+00:00",
       "source": {
         "name": "ad-hoc-news.de",
         "url": "https://www.ad-hoc-news.de"
