@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-18T11:53:07.385081+00:00",
+  "fetched_at": "2026-07-18T13:18:26.462019+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -124,16 +124,6 @@
       }
     },
     {
-      "id": "926a1f681898",
-      "title": "„Wegovy“ als Pille: So wirkt das neue Mittel gegen Adipositas - RND.de",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQYVZma2Mwem41UjRwLXdyMnQxUmd4ZVBMZGVjV2lQdWlBSmViTmJDbkk5eUJGZ1BNdlV2dGJCUFhBcGR3aTF0Y3FqMkRvSHBhV1NDUjNCdk45dlF2YUh2bVNfVkU3R0R3MzVIQ3NQaEJPQ1QteG1RVUFrQTFKOU9VdFNBQlh1QUVpU1dBVEI3eEFCMjFNZHVsbHlRWDFHNkFtUk56Tm44UElDOFhsaHBNWmxON3N5Z2RMVWlxYWZRTkZSbnV2aXJR?oc=5",
-      "published": "2026-07-17T13:58:51+00:00",
-      "source": {
-        "name": "RND.de",
-        "url": "https://www.rnd.de"
-      }
-    },
-    {
       "id": "51e8c4b74840",
       "title": "Gesundheitsgefahr durch gefälschte Arzneimittel - Gesundheit.gv.at",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYlhNa1drQ3UydVU1Ti1QZWxOelZ2UDNkQTBsczZ4SzVIZGhQS3psTVQ5Zmw2Ujh2RGpDYzZ5TDdIbG5mYkFjRl9CX3JkS0FHQ2dlSGVZMlpRTmpva0xOX3hoTWhTM3VoZlB6bjJYbjRRcGp2NERXZmhoaEtyeGJhUDlSU0k0cURLRzNIc1FR?oc=5",
@@ -154,13 +144,13 @@
       }
     },
     {
-      "id": "10652a08cd24",
-      "title": "(S+) Wegovy: EU lässt neue Abnehmtablette zu – über Nutzen und Risiken - Spiegel",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOdk10WXpWbHVEUzBJM3o1V2k2RWNqT1ViR0o0VXU5MlRFN3Vzd3RYUG5iclM2QUZuQjFSclZ6b0o4SmRWaFVxazdXX3RYWFZSclVuUTZVWHRXZ1RxblE3OTVRdWQ3eDRZVGVaX1ZhbVZfdTFyQ19tYTJlN1Z0cUFTRzlja1hRWnlMcVpKS3dxUFRGOWtJbk9SSVNueUpja3hQWk1nTWVJSXF5eGNUbzg5b2JDYnF4alBaakhUWW1JdlhybndENDh1R0tGeGJLVWtQaTFXOFhDbzdIOGk4UGRJTDh2eWJpbkJU?oc=5",
-      "published": "2026-07-17T13:10:00+00:00",
+      "id": "926a1f681898",
+      "title": "„Wegovy“ als Pille: So wirkt das neue Mittel gegen Adipositas - RND.de",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQYVZma2Mwem41UjRwLXdyMnQxUmd4ZVBMZGVjV2lQdWlBSmViTmJDbkk5eUJGZ1BNdlV2dGJCUFhBcGR3aTF0Y3FqMkRvSHBhV1NDUjNCdk45dlF2YUh2bVNfVkU3R0R3MzVIQ3NQaEJPQ1QteG1RVUFrQTFKOU9VdFNBQlh1QUVpU1dBVEI3eEFCMjFNZHVsbHlRWDFHNkFtUk56Tm44UElDOFhsaHBNWmxON3N5Z2RMVWlxYWZRTkZSbnV2aXJR?oc=5",
+      "published": "2026-07-17T13:58:51+00:00",
       "source": {
-        "name": "Spiegel",
-        "url": "https://www.spiegel.de"
+        "name": "RND.de",
+        "url": "https://www.rnd.de"
       }
     },
     {
@@ -194,6 +184,16 @@
       }
     },
     {
+      "id": "02e9917bea66",
+      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - DW.com",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGxHSlhmSS0tbUNKdG15NEVzRzYzYllEUnAzUEU3ak53czRHVWlKdTZrRGFDMk1MUThPUjdPTnBGVENqd3d2Q1VSdWhJVXppWDF4NWh0aEJJaXJlVTlnV0VoZVFkRHNSM3p6NVZXNjNwWHk5YkxSUWR2RGZKcmp3Y2U5REY0U3dRZFJLeHFtQk9wb2Y3RUVOaVBlMlJhZ29Rck000gGjAUFVX3lxTE1rTW00WXFBajZxbTJOS1NLckhVbXFBSzh1NE96QTEydTN1YjZnaFFNcV8xblZGM29hdTZQUHc4V3YzQ1pwcTlaVVBhZDVqMExLMTlYVzZ6TmM4ZUdsUm5TLXpPNmk1R3V4UktvaV93cWttNFpVX0VEZlZnUllSQkhyUlZmeTBJcU0zUEVSZTgxdzFWUnFNRk9CYVljN0Jhd0ZXUFk?oc=5",
+      "published": "2026-05-12T07:00:00+00:00",
+      "source": {
+        "name": "DW.com",
+        "url": "https://www.dw.com"
+      }
+    },
+    {
       "id": "9fa13ce5acf5",
       "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
@@ -201,16 +201,6 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
-      }
-    },
-    {
-      "id": "8db31424e5bb",
-      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - dw.com",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGxHSlhmSS0tbUNKdG15NEVzRzYzYllEUnAzUEU3ak53czRHVWlKdTZrRGFDMk1MUThPUjdPTnBGVENqd3d2Q1VSdWhJVXppWDF4NWh0aEJJaXJlVTlnV0VoZVFkRHNSM3p6NVZXNjNwWHk5YkxSUWR2RGZKcmp3Y2U5REY0U3dRZFJLeHFtQk9wb2Y3RUVOaVBlMlJhZ29Rck000gGjAUFVX3lxTE1rTW00WXFBajZxbTJOS1NLckhVbXFBSzh1NE96QTEydTN1YjZnaFFNcV8xblZGM29hdTZQUHc4V3YzQ1pwcTlaVVBhZDVqMExLMTlYVzZ6TmM4ZUdsUm5TLXpPNmk1R3V4UktvaV93cWttNFpVX0VEZlZnUllSQkhyUlZmeTBJcU0zUEVSZTgxdzFWUnFNRk9CYVljN0Jhd0ZXUFk?oc=5",
-      "published": "2026-05-12T07:00:00+00:00",
-      "source": {
-        "name": "dw.com",
-        "url": "https://www.dw.com"
       }
     },
     {
@@ -224,6 +214,16 @@
       }
     },
     {
+      "id": "10652a08cd24",
+      "title": "(S+) Wegovy: EU lässt neue Abnehmtablette zu – über Nutzen und Risiken - Spiegel",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOdk10WXpWbHVEUzBJM3o1V2k2RWNqT1ViR0o0VXU5MlRFN3Vzd3RYUG5iclM2QUZuQjFSclZ6b0o4SmRWaFVxazdXX3RYWFZSclVuUTZVWHRXZ1RxblE3OTVRdWQ3eDRZVGVaX1ZhbVZfdTFyQ19tYTJlN1Z0cUFTRzlja1hRWnlMcVpKS3dxUFRGOWtJbk9SSVNueUpja3hQWk1nTWVJSXF5eGNUbzg5b2JDYnF4alBaakhUWW1JdlhybndENDh1R0tGeGJLVWtQaTFXOFhDbzdIOGk4UGRJTDh2eWJpbkJU?oc=5",
+      "published": "2026-07-17T13:10:00+00:00",
+      "source": {
+        "name": "Spiegel",
+        "url": "https://www.spiegel.de"
+      }
+    },
+    {
       "id": "087891737758",
       "title": "Engpässe bei Arzneimitteln: Geopolitik erschwert Europas Streben nach Unabhängigkeit - euractiv.com",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQ2lScFVHU3ZELWZOdzJOUGU2YUQ3c2ZpbWhIYWFiVUNoRFZHTm5JM1BfUWVnanhicnRvanhQdGx4UHVuTnZ5dG4ySEY4eVE3dUxGaXVLSm5sM1liQzRtc19GVVE3RkNnUGhhTkhZTXAtMkhWZ3JqOVREWlhfRnBSX1FPRXlaaUE5d2d6cFVEakt5NDJaUkgzXzA3TUpqUUJTbzhRQXFpbmZCTGMwdlRDSXR3cHNjZw?oc=5",
@@ -231,16 +231,6 @@
       "source": {
         "name": "euractiv.com",
         "url": "https://euractiv.com"
-      }
-    },
-    {
-      "id": "86799bd3d9d6",
-      "title": "Alterung: Neue Proteomik zeigt Schübe um 34., 60. und 78. Jahr - ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWWJENUNBTHNZT214M3FnMmtEbGU2MUhWUnRmZFg0VFpXVHY5eXpVY01UTWxXYndkMmZPb0Y4VU9uS3dEeVJ2NkFURDR1eVA5SzVTU001blU3R0g0Y1czRDc5REZ3cXFTOVhELVRDanlQX0xnOTRMd0IybW54ZWwwbzJQMzNHMFpGeDMtdHNGeXN3OXlTUDlTVzBUVlo3ZkJGYXBRQ2pZa0oycjA?oc=5",
-      "published": "2026-07-18T10:39:25+00:00",
-      "source": {
-        "name": "ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -291,6 +281,16 @@
       "source": {
         "name": "DIE ZEIT",
         "url": "https://www.zeit.de"
+      }
+    },
+    {
+      "id": "86799bd3d9d6",
+      "title": "Alterung: Neue Proteomik zeigt Schübe um 34., 60. und 78. Jahr - ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWWJENUNBTHNZT214M3FnMmtEbGU2MUhWUnRmZFg0VFpXVHY5eXpVY01UTWxXYndkMmZPb0Y4VU9uS3dEeVJ2NkFURDR1eVA5SzVTU001blU3R0g0Y1czRDc5REZ3cXFTOVhELVRDanlQX0xnOTRMd0IybW54ZWwwbzJQMzNHMFpGeDMtdHNGeXN3OXlTUDlTVzBUVlo3ZkJGYXBRQ2pZa0oycjA?oc=5",
+      "published": "2026-07-18T10:39:25+00:00",
+      "source": {
+        "name": "ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -574,12 +574,12 @@
       }
     },
     {
-      "id": "b027289bf54f",
-      "title": "EU-Generalanwalt: Versandverbot nein, aber ... - apotheke adhoc",
+      "id": "03505c881614",
+      "title": "EU-Generalanwalt: Versandverbot nein, aber ... - Apotheke Adhoc",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaGRRUFJ5MDV6WGZaTE84UlB3SU83OElpQ2dBVXJTMFRLWWFlSmN0alJ0eS1ZdF9zN09MZUhESFJDd2J1TVNQeHZRQ1ZLMVNtMC1OSm9DV01oVXhWVzRtOENHbUpnRE10akgwUnRyRmkzckZ1UFhIb05aM1ZLcVN1WkFKRUVRd3VaaWpZVUdraVRVdUtER2tIc1FjTWFqS3VIY0IzeERfWnJ4UQ?oc=5",
       "published": "2026-01-13T08:00:00+00:00",
       "source": {
-        "name": "apotheke adhoc",
+        "name": "Apotheke Adhoc",
         "url": "https://www.apotheke-adhoc.de"
       }
     },
@@ -664,12 +664,12 @@
       }
     },
     {
-      "id": "08f761ee3a89",
-      "title": "EU-Gesundheitskommissar prüft Folgen von Trumps Arzneipreispolitik - Euronews.com",
+      "id": "edcf559b1a0c",
+      "title": "EU-Gesundheitskommissar prüft Folgen von Trumps Arzneipreispolitik - Euronews",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSzM5cWFmcTJfV010WWVadkdEVXRGblFEUTlhaUhoOThvaHV5eTJuWFVJbUtyMW9xNTJkYzNIR2Z6YWp0ZE1IWmNPb3pNcU5YY1phcUlQSU5IWWtvV0MzNDlqdHJZRU40alRPU29CWFVnUDBjLXE3UHhtV2pManQ4TzhzVEU3OHNDM2JJZm9ZbzBUbkVCRFRZYU1jMTl2UVdGRnhubmZZYWswcmZqbXAtbW5QcnRBTktIaHFFWg?oc=5",
       "published": "2026-06-16T07:00:00+00:00",
       "source": {
-        "name": "Euronews.com",
+        "name": "Euronews",
         "url": "https://de.euronews.com"
       }
     },
@@ -774,16 +774,6 @@
       }
     },
     {
-      "id": "31465553598c",
-      "title": "Demenzrisiko: WHO zeigt, wie 45% durch Lebensstil vermeidbar sind - ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQLTlKck1YNEFCUkVtb0V0UG5mMXpIV1ZHSEVrTnA0VXdERVJieVI0SmpUcUxEUjZDa2p1OUxTNUJyZnNkLUR4NzlkZm1NUmcteTZZZzRqYzNtNTM4SDhtTm9KX0pZeC1HRUM1Qmc1RWFBQ3RzMmplU1M5RWtMdnh6V2pfc3Q2TE1UME1oWW5DWjRsb3Vla0pkSjBQYjJGcmgtUG5FUkkyajUxaTkwcksyaFVFd1FyN3Q1N05r?oc=5",
-      "published": "2026-07-17T02:32:08+00:00",
-      "source": {
-        "name": "ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "a74eabe9a107",
       "title": "Chaos beim Medikamentenplan? Apothekerin gibt Patienten wichtigen Rat - Berliner Morgenpost",
       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPdzBBc19hQkIzamE0TDVNM2h5VnFnZmJVLV9sOTQtbE1WTV9DTzJpbEFzN3Z6QTZWT2hXOUxxbXdETHM3N2Nya2RrMi15ai1UcGZaMDBuNlJtbGtPN1NpMzlQcmNyVGlEZzBmV3Z4N2ZfLXU3bExILXdNSExFRkxEOWdLeTNMS3hsZFFxcnh4MDl4OGZ6aFFOSHZqNkVDSmdKd0hNVGpDNzNUdXQtb0trTkVOZ0w2cFVwZE03SjF6eVJndENWYU5sQkt1WmM?oc=5",
@@ -791,6 +781,16 @@
       "source": {
         "name": "Berliner Morgenpost",
         "url": "https://www.morgenpost.de"
+      }
+    },
+    {
+      "id": "31465553598c",
+      "title": "Demenzrisiko: WHO zeigt, wie 45% durch Lebensstil vermeidbar sind - ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQLTlKck1YNEFCUkVtb0V0UG5mMXpIV1ZHSEVrTnA0VXdERVJieVI0SmpUcUxEUjZDa2p1OUxTNUJyZnNkLUR4NzlkZm1NUmcteTZZZzRqYzNtNTM4SDhtTm9KX0pZeC1HRUM1Qmc1RWFBQ3RzMmplU1M5RWtMdnh6V2pfc3Q2TE1UME1oWW5DWjRsb3Vla0pkSjBQYjJGcmgtUG5FUkkyajUxaTkwcksyaFVFd1FyN3Q1N05r?oc=5",
+      "published": "2026-07-17T02:32:08+00:00",
+      "source": {
+        "name": "ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -864,12 +864,12 @@
       }
     },
     {
-      "id": "d226bb3cd766",
-      "title": "Diese Medikamente können Alzheimer vorbeugen - Euronews.com",
+      "id": "a1246c849d26",
+      "title": "Diese Medikamente können Alzheimer vorbeugen - Euronews",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZHd6NGpWcXV5WTFGMzRvX2tlV2dyb0hISS1yMmhxY2RXeXhUa1pCS3RpLTVHNGpOam56S2cxd05wc1Q3UWU3QUN4bVpRYmo1TkNDNS1fVkVwbHNHeWpMQ1paWjU2cG1Ha1NpQXJzWTFTRG9sbU1pSkNLNWdpLU5UaDV3UWlfaUNyNjhtUndXZw?oc=5",
       "published": "2026-02-08T08:00:00+00:00",
       "source": {
-        "name": "Euronews.com",
+        "name": "Euronews",
         "url": "https://de.euronews.com"
       }
     },
