@@ -1,8 +1,18 @@
 {
-  "fetched_at": "2026-07-20T13:07:20.106899+00:00",
+  "fetched_at": "2026-07-20T15:51:21.057435+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
+    {
+      "id": "39aeeb5800f5",
+      "title": "»In die­sen Mo­men­ten hilft keine Ver­sand­apo­the­ke« - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWVlmOEhjQUhhaEZzYWJlVm5jcUkxMnIwcEFPYm1abE5qR2VVbHgwWEpvWThGMHFGUzZkY21mbzM5UlVEdG1IM1ZfTTJyTmdUc19SalZwUTNiWXVmOHM5OVlOU2FQUEhQcURZSEplZ0tBdnh3SkthVFlYVjBUMS1SaVFSRDdYbU5jLXpGLTRzVG5Fem51UEZtOQ?oc=5",
+      "published": "2026-07-20T10:30:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
     {
       "id": "9f7c377ed6d2",
       "title": "MFN-Modell USA: Wie US-Arzneimittelpolitik Innovationen in Europa ausbremst - vfa. Die forschenden Pharma-Unternehmen",
@@ -21,6 +31,16 @@
       "source": {
         "name": "NDR.de",
         "url": "https://www.ndr.de"
+      }
+    },
+    {
+      "id": "64cfe633b8e0",
+      "title": "6-R-Regel in der Pflege: Was dahintersteckt und warum sie so wichtig ist - Allgäuer Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUndZSEI1eXZGak11Rng1cTl0UkQxdW1GaldNRDg2eFJ0U2pOUTNNMXV5c0k4N2VDN2ppSXREZ2JyV3lHTVZmejcyTU1HQlE0dUc5T01tcW5kQzNLb0tFYl9ZbFRMSDhRQzhrV3VTVDBlVnRxTDFnMVpXc1F2YTZocHBGMVIzbUhONEJCLUM1aGlkZmlsR2E4WDRoX1h0UUcwQ3c1TTl3S21jMG5USGlXbVdERjlDWHU0LUQ3dUJpUUc3dw?oc=5",
+      "published": "2026-07-18T03:26:52+00:00",
+      "source": {
+        "name": "Allgäuer Zeitung",
+        "url": "https://www.allgaeuer-zeitung.de"
       }
     },
     {
@@ -61,16 +81,6 @@
       "source": {
         "name": "European Parliament",
         "url": "https://www.europarl.europa.eu"
-      }
-    },
-    {
-      "id": "a91bce131989",
-      "title": "Nachhaltigkeit: Arzneimittel als wichtiger Hebel - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPUzd6V2JNTmp0Ry1iT3dJSURwNzBORGtyeldrUFdEVEhvNFNUZUh6VmtXZnYycFZCdDlzdEJWbzNlbnZha05majRVU3VqX1U2QkVlVFZTSE5FRkc5TDZoR1BRNmd6TzYwSjdOY3kyRS1HN3p1RTI4OWdrS09HVkgyc3lIZ0s1dw?oc=5",
-      "published": "2026-07-10T07:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -144,16 +154,6 @@
       }
     },
     {
-      "id": "64f4568e8fdd",
-      "title": "Arzneimittel: Hitze und Sonne können ihre Wirkung verändern - prisma.de",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQUJRWnFhbDJyR2YyMnRodVhsM0pjZk41SHd0dTFNZUJ4S1UwY2FxV0U1Q25vZk1YQWVKblY5a240MWRsUnI0cnBMTzlzZ0NyNjNZWkRBNWdnRFNZTkJTVm9Nam9jMjUwSHBnbDNSNUt1Y2p1SThnaU5COHBDU1lMSFFsaFhTTG1xdmdvQ1RCbmtfTHNPbkF1dlVteFFNMGptaVYyZTdWN2lBV3VXMEZN?oc=5",
-      "published": "2026-07-13T00:00:00+00:00",
-      "source": {
-        "name": "prisma.de",
-        "url": "https://www.prisma.de"
-      }
-    },
-    {
       "id": "bb553491699c",
       "title": "Abschaffung der Mehrwertsteuer auf Arzneimittel - openPetition",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQR2ZyOGpub3o3YjR6WktVOXowVW5aMmNRcUZnRHQteUNLdVdiWFpMSHpndXJ0ajFhSmNTQXk1LVptMF9BUHlMeGRSb2dJalBRVjkxbGE4eWhObTFsT1gzVUtGblkxNDhVMlR2b2JYb1NWSGJqd2k1bGwxODhLVFh3aVdwY3pNNV81VDk0ZkxEbmVlSXdZY2c?oc=5",
@@ -164,23 +164,43 @@
       }
     },
     {
-      "id": "8db31424e5bb",
-      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - dw.com",
+      "id": "64f4568e8fdd",
+      "title": "Arzneimittel: Hitze und Sonne können ihre Wirkung verändern - prisma.de",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQUJRWnFhbDJyR2YyMnRodVhsM0pjZk41SHd0dTFNZUJ4S1UwY2FxV0U1Q25vZk1YQWVKblY5a240MWRsUnI0cnBMTzlzZ0NyNjNZWkRBNWdnRFNZTkJTVm9Nam9jMjUwSHBnbDNSNUt1Y2p1SThnaU5COHBDU1lMSFFsaFhTTG1xdmdvQ1RCbmtfTHNPbkF1dlVteFFNMGptaVYyZTdWN2lBV3VXMEZN?oc=5",
+      "published": "2026-07-13T00:00:00+00:00",
+      "source": {
+        "name": "prisma.de",
+        "url": "https://www.prisma.de"
+      }
+    },
+    {
+      "id": "02e9917bea66",
+      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - DW.com",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGxHSlhmSS0tbUNKdG15NEVzRzYzYllEUnAzUEU3ak53czRHVWlKdTZrRGFDMk1MUThPUjdPTnBGVENqd3d2Q1VSdWhJVXppWDF4NWh0aEJJaXJlVTlnV0VoZVFkRHNSM3p6NVZXNjNwWHk5YkxSUWR2RGZKcmp3Y2U5REY0U3dRZFJLeHFtQk9wb2Y3RUVOaVBlMlJhZ29Rck000gGjAUFVX3lxTE1rTW00WXFBajZxbTJOS1NLckhVbXFBSzh1NE96QTEydTN1YjZnaFFNcV8xblZGM29hdTZQUHc4V3YzQ1pwcTlaVVBhZDVqMExLMTlYVzZ6TmM4ZUdsUm5TLXpPNmk1R3V4UktvaV93cWttNFpVX0VEZlZnUllSQkhyUlZmeTBJcU0zUEVSZTgxdzFWUnFNRk9CYVljN0Jhd0ZXUFk?oc=5",
       "published": "2026-05-12T07:00:00+00:00",
       "source": {
-        "name": "dw.com",
+        "name": "DW.com",
         "url": "https://www.dw.com"
       }
     },
     {
-      "id": "10652a08cd24",
-      "title": "(S+) Wegovy: EU lässt neue Abnehmtablette zu – über Nutzen und Risiken - Spiegel",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOdk10WXpWbHVEUzBJM3o1V2k2RWNqT1ViR0o0VXU5MlRFN3Vzd3RYUG5iclM2QUZuQjFSclZ6b0o4SmRWaFVxazdXX3RYWFZSclVuUTZVWHRXZ1RxblE3OTVRdWQ3eDRZVGVaX1ZhbVZfdTFyQ19tYTJlN1Z0cUFTRzlja1hRWnlMcVpKS3dxUFRGOWtJbk9SSVNueUpja3hQWk1nTWVJSXF5eGNUbzg5b2JDYnF4alBaakhUWW1JdlhybndENDh1R0tGeGJLVWtQaTFXOFhDbzdIOGk4UGRJTDh2eWJpbkJU?oc=5",
-      "published": "2026-07-17T13:10:00+00:00",
+      "id": "9fa13ce5acf5",
+      "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
+      "published": "2026-03-31T20:25:43+00:00",
       "source": {
-        "name": "Spiegel",
-        "url": "https://www.spiegel.de"
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "a91bce131989",
+      "title": "Nachhaltigkeit: Arzneimittel als wichtiger Hebel - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPUzd6V2JNTmp0Ry1iT3dJSURwNzBORGtyeldrUFdEVEhvNFNUZUh6VmtXZnYycFZCdDlzdEJWbzNlbnZha05majRVU3VqX1U2QkVlVFZTSE5FRkc5TDZoR1BRNmd6TzYwSjdOY3kyRS1HN3p1RTI4OWdrS09HVkgyc3lIZ0s1dw?oc=5",
+      "published": "2026-07-10T07:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -194,13 +214,13 @@
       }
     },
     {
-      "id": "9fa13ce5acf5",
-      "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
-      "published": "2026-03-31T20:25:43+00:00",
+      "id": "10652a08cd24",
+      "title": "(S+) Wegovy: EU lässt neue Abnehmtablette zu – über Nutzen und Risiken - Spiegel",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOdk10WXpWbHVEUzBJM3o1V2k2RWNqT1ViR0o0VXU5MlRFN3Vzd3RYUG5iclM2QUZuQjFSclZ6b0o4SmRWaFVxazdXX3RYWFZSclVuUTZVWHRXZ1RxblE3OTVRdWQ3eDRZVGVaX1ZhbVZfdTFyQ19tYTJlN1Z0cUFTRzlja1hRWnlMcVpKS3dxUFRGOWtJbk9SSVNueUpja3hQWk1nTWVJSXF5eGNUbzg5b2JDYnF4alBaakhUWW1JdlhybndENDh1R0tGeGJLVWtQaTFXOFhDbzdIOGk4UGRJTDh2eWJpbkJU?oc=5",
+      "published": "2026-07-17T13:10:00+00:00",
       "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
+        "name": "Spiegel",
+        "url": "https://www.spiegel.de"
       }
     },
     {
@@ -324,16 +344,6 @@
       }
     },
     {
-      "id": "5b37cb52bb5d",
-      "title": "Achtung, diese Medikamente wirken bei Hitze anders - WEB.DE",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSkxPeHhBZi12TThJUUFnazZSbGFBaUtxRDlMRzVSblhmai1LV1BNVmNEbGlmeklDM1hEa2RJS0JUVm9GSWZZQUJUSUwwRjVqOTMzdVVRQ0JLcGd3WW9uUmZvbDV6ZGZ2dGxMMmFuM1hGVkVoSTkwWkN1bU1Jd2dmam5xUnNIdXBvMHhHX1VlT2o?oc=5",
-      "published": "2026-06-24T07:00:00+00:00",
-      "source": {
-        "name": "WEB.DE",
-        "url": "https://web.de"
-      }
-    },
-    {
       "id": "1bb1a7cdbb92",
       "title": "Arzneimittelüberwachung - schleswig-holstein.de",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRnFVbGVSc1N0RXg0Tmw5WnF1VDNTU3liRXRGQloyYlF1bDhkZl9RS0J6ZmdTenB1WjVvdjZJSElYQm9JbTlVYnNnMlI4SjhZZjAyb1hTVTVjczhoQVUwSFI4OU9aU0NOemk3eG9MT2ZtVXVoTXJzdGI3NmVnMm53Mll2bDB6OVRvQTkwbmFEQVRZVF9YM1Jja0lWY3VRSVBENDBYZlFkWFVTQ0hTWUM4eWtrODVLTko1R2owWW5jWGhVRkllNWhJSUlEaXNzZw?oc=5",
@@ -364,16 +374,6 @@
       }
     },
     {
-      "id": "014ad20f5cc8",
-      "title": "Psychedelika: Angermayer schafft Milliardendeal mit Eli Lilly - transkript.de",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSm45aGoyWkU1TkRLNXUzUEg1ajkxNjcxQVhmOVJiWWdRVWk1elZIeTBwZUNsSG4xUU1qQVdFMHBER0Vsd1QtN1lOY2wwVUJGOHpIWGFnZ0l6U2dsMS1weW9UTlAyMW1wMjN3RzRfN2hqc2NZa1gtZWpGaWVSQmVzRkJva0phaE1OZExWVHBSUHBqQlZqd1BzeGhUYjE?oc=5",
-      "published": "2026-07-17T07:22:12+00:00",
-      "source": {
-        "name": "transkript.de",
-        "url": "https://transkript.de"
-      }
-    },
-    {
       "id": "d04f77528724",
       "title": "Arzneimittel: Apothekerverband registriert deutlich gestiegene Ausgaben für Arzneien - DIE ZEIT",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQnNYX0ZIOXRaeWxnUDA2UTMwRG5DVmhTUmNKWlNTRTJQLVNWbDAzaXpIY2FEQ0dzaTRFYzNPSE9zUEVfU2F1WkZoZmt3NWhMMkI2VkhwbU9maWFPdnBnRXdKOU8taHRHakljeUstTHlNRUxGbVNQQ3dQckcwSlhIZnZYLVFmblBWeVhVWC1NTmE3ZjhaY0x5Z092VC1Rd2tZa20wUlBxU2tpMlRrWkpnNFJYb3Jpdw?oc=5",
@@ -381,6 +381,16 @@
       "source": {
         "name": "DIE ZEIT",
         "url": "https://www.zeit.de"
+      }
+    },
+    {
+      "id": "014ad20f5cc8",
+      "title": "Psychedelika: Angermayer schafft Milliardendeal mit Eli Lilly - transkript.de",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSm45aGoyWkU1TkRLNXUzUEg1ajkxNjcxQVhmOVJiWWdRVWk1elZIeTBwZUNsSG4xUU1qQVdFMHBER0Vsd1QtN1lOY2wwVUJGOHpIWGFnZ0l6U2dsMS1weW9UTlAyMW1wMjN3RzRfN2hqc2NZa1gtZWpGaWVSQmVzRkJva0phaE1OZExWVHBSUHBqQlZqd1BzeGhUYjE?oc=5",
+      "published": "2026-07-17T07:22:12+00:00",
+      "source": {
+        "name": "transkript.de",
+        "url": "https://transkript.de"
       }
     },
     {
@@ -534,16 +544,6 @@
       }
     },
     {
-      "id": "d0d11cc2f30e",
-      "title": "Hoher Cholesterinspiegel: Warum Ernährung oft weniger bringt als gedacht - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMUEycnphclJDZ1NreXBKZnprSEIyekFjMEswTGxzUTJYb3dySnVVWlJZMzhRbS1tdlMwVG1yZ2FQS3BkcF9YUk5vekNFYldzR2RvWnBPR0xXa254OFlMUjN1NTlNa1VjOVl6R3UxYU5WbWFnenJCZUJHU1ROdTM3RXNrLXI1NGUwdU1Fcm9wbTZYRzhTMFR4MXRMVE5zYjQ1Y0E4bmpDTktmNlJE?oc=5",
-      "published": "2026-07-16T07:00:00+00:00",
-      "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
-      }
-    },
-    {
       "id": "43391a6b49a7",
       "title": "Longevity-Trend | Wie gefährlich sind Drip-Spa-Infusionen? - WDR",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQVJfdGdlV1hMbHZtblVuLXZCMGQtTmhvNjF0a2tVRnkxUUtJVk51aWNJb3FpM3BlcVZiSzFYbnRMc1ZyZ1hxM1dxYkhLVm1wZGwwcTBXZEhQUGJNT2dnNWVNMWoycWo5Nk9JeTF1cUdSRThwNm5nZ0JJSnhhc2tGVlBSMVRGR2wzU2VKbGoxRnfSAY8BQVVfeXFMUHh5ektFRTdFX0J0bUF0b1owcDBkdGNLbDBQcXhjdEMzSS00Q0ZFN1U0LVZzRklSRU5TclluXzN2bXlLV2d5ZHc2NEVWMU1hRlRqb3E2QWY0S1d6QUstMnZ1S3J4TmlmQ2hETVFOYUlTbUNITWtPZlJjVXFsZmt0dkJxY0ZlbDFCQkd5aUpCYms?oc=5",
@@ -551,6 +551,16 @@
       "source": {
         "name": "WDR",
         "url": "https://www1.wdr.de"
+      }
+    },
+    {
+      "id": "d0d11cc2f30e",
+      "title": "Hoher Cholesterinspiegel: Warum Ernährung oft weniger bringt als gedacht - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMUEycnphclJDZ1NreXBKZnprSEIyekFjMEswTGxzUTJYb3dySnVVWlJZMzhRbS1tdlMwVG1yZ2FQS3BkcF9YUk5vekNFYldzR2RvWnBPR0xXa254OFlMUjN1NTlNa1VjOVl6R3UxYU5WbWFnenJCZUJHU1ROdTM3RXNrLXI1NGUwdU1Fcm9wbTZYRzhTMFR4MXRMVE5zYjQ1Y0E4bmpDTktmNlJE?oc=5",
+      "published": "2026-07-16T07:00:00+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
       }
     },
     {
@@ -581,6 +591,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "82e89bf7d869",
+      "title": "Sommerhitze: Achtung, manche Medikamente wirken anders - Lippische Landes-Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONzl4d0d1dXJiR0E4SXNkcmdFYXVyaXI1dGQta0JQWnRRQ1lTUjZPUlRuRjRWQUZ5VHNvRnFOc3BVMmRERGdNRGNfNXA4TkhtZlgtMzNhWGNDQTZHZEpQcENFbjV4bEI4VzFENkV0TnNWUkY4djI4ZHJRdFFkNU9iQVdPdnNIWnkzdnNXWFAyeFFrZDZFNVdDeHMwZFFRX1lsY0IzNkpsVQ?oc=5",
+      "published": "2026-06-19T04:32:04+00:00",
+      "source": {
+        "name": "Lippische Landes-Zeitung",
+        "url": "https://www.lz.de"
       }
     },
     {
@@ -724,16 +744,6 @@
       }
     },
     {
-      "id": "923644c6a14e",
-      "title": "Diese Abnehmmedikamente sind am wirksamsten - MSN",
-      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPZ0NsZ3FKUUQ5WUk2bHROSTczUnVzcnFjbjlFUkxiRFNpOUJ1ZUF4VzktOWR3b0wyVnFhSlJpTmxSVU5LUjR2aS1MeFRzX0VHN01DNDhQbFJzVks3ZG9wckF3R3FnVmczd0FXbm1OczZNMlA1UE1fSGJDS2hHb25MUW8ybktYTnM3Qk0zSUFISDU4TXQ5bVBuNHdVUy1uSkl0bkRNeEV4Ti1SQnB2cHNfY0ZtYV9DOHZqUlV6bTQxMjVNRl9kenhSNTlRUEZyY0x4Tmw2Yk50RVdVRHF3eUZxUWg0WmtKOUdiMzRpd1l3?oc=5",
-      "published": "2026-07-20T01:45:08+00:00",
-      "source": {
-        "name": "MSN",
-        "url": "https://www.msn.com"
-      }
-    },
-    {
       "id": "fad88aff2400",
       "title": "Arzneimittelausgaben steigen auf Rekordhoch Sieben Prozent der Medikamente verursachen mehr als die Hälfte der Kosten - Tagesspiegel",
       "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNeVh1VDdIZEd5TXZoV2hGdlRCOXNMcFBvMjMyYTRMeTF1TnVaVEg1dXY2SWtZNUhocnFnM2staDhwZnptemFfVGUxbFpIQ3JwNnhCSEREbmEwcmNRNHdSbENtemYwdmJHNVREYWQ2S2VQZVlNNVFGYlJhbGFfeWVySUFiY3lhQXNmZWxUQndTTXFHdGdRVHlQaVN5U1lSWlNLWUo3SDFOcjdyT3d5c0h4c0FMdWxra2hrekpJZDNGeDQ2c3NqVFdTSnJTNHZ3Mm1KeWkzLUZNMHJRTjROVEE5OUNrWW1yaTdLWkJvNG1oQ3dPU0MzTldsZXFNblVlQVE?oc=5",
@@ -751,16 +761,6 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
-      "id": "4bd6265511f7",
-      "title": "Medikamenten-Triage: NRW-Gesundheitsminister Laumann rüffelt Parteifreund Streeck - Spiegel",
-      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQaW85VFdoR2RfSWpxeHFWWmJsNHNYWk1CRXNVb1FZNUNRNnB2cGVEcjJ3QkxOUkZtY1RxR0xBUGo5Y2lQdnZYTWRsZU9aMm84dl9INHdJMHFMMUtQZXdRM2l2Z3Brc2hNUDRrY0JtZHBybFpjR2FhQmpQN2tjV1d3cDQ1al9fOXpFTHlJWXpQNUhmMHlVblROV184bi1FZkljVmRMX3FldUFxdjBDSzZERVVwQkJtcm9KcUFWYjR6RUZRb0VScXRTdkxoZzNTMXdvR01mYTNlcDd6ZmZFbXZ6dENyWXJUV2xuLVBvU2stVjBGeWp2X3Q5WXVRb3BOY25pZi1R?oc=5",
-      "published": "2025-11-14T08:00:00+00:00",
-      "source": {
-        "name": "Spiegel",
-        "url": "https://www.spiegel.de"
       }
     },
     {
@@ -791,6 +791,16 @@
       "source": {
         "name": "ZDFheute",
         "url": "https://www.zdfheute.de"
+      }
+    },
+    {
+      "id": "923644c6a14e",
+      "title": "Diese Abnehmmedikamente sind am wirksamsten - MSN",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPZ0NsZ3FKUUQ5WUk2bHROSTczUnVzcnFjbjlFUkxiRFNpOUJ1ZUF4VzktOWR3b0wyVnFhSlJpTmxSVU5LUjR2aS1MeFRzX0VHN01DNDhQbFJzVks3ZG9wckF3R3FnVmczd0FXbm1OczZNMlA1UE1fSGJDS2hHb25MUW8ybktYTnM3Qk0zSUFISDU4TXQ5bVBuNHdVUy1uSkl0bkRNeEV4Ti1SQnB2cHNfY0ZtYV9DOHZqUlV6bTQxMjVNRl9kenhSNTlRUEZyY0x4Tmw2Yk50RVdVRHF3eUZxUWg0WmtKOUdiMzRpd1l3?oc=5",
+      "published": "2026-07-20T01:45:08+00:00",
+      "source": {
+        "name": "MSN",
+        "url": "https://www.msn.com"
       }
     },
     {
@@ -864,16 +874,6 @@
       }
     },
     {
-      "id": "7a99adaec5c0",
-      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - Geo.de",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
-      "published": "2026-06-19T07:00:00+00:00",
-      "source": {
-        "name": "Geo.de",
-        "url": "https://www.geo.de"
-      }
-    },
-    {
       "id": "8d1fc40266cd",
       "title": "2025: Höchster Stand von Aufnahmen neuer Medikamente in die Spezialitätenliste - Bundesamt für Gesundheit BAG",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1HMEFNZWpPYzRReWJNTkhGRk11RnNpblJQVjNEdE1ISllXWlNUWk4yZFpWclRTOUl0M3ZJTXhSNmpMdEtuVkVWVnV3aEJXdWxld0l3dUVkdGszYnVuNEFxbldsSXNJamc?oc=5",
@@ -881,6 +881,16 @@
       "source": {
         "name": "Bundesamt für Gesundheit BAG",
         "url": "https://www.bag.admin.ch"
+      }
+    },
+    {
+      "id": "7a99adaec5c0",
+      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - Geo.de",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
+      "published": "2026-06-19T07:00:00+00:00",
+      "source": {
+        "name": "Geo.de",
+        "url": "https://www.geo.de"
       }
     },
     {
@@ -984,23 +994,13 @@
       }
     },
     {
-      "id": "e0194a7c0b5d",
-      "title": "Deutsche Apotheker warnen vor Medikamentenmangel - dw.com",
+      "id": "692ed6663b43",
+      "title": "Deutsche Apotheker warnen vor Medikamentenmangel - DW.com",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWU1xaGhwXzk2bTZMYV9pdEdESnBqWVZvSnAwXzllTkVsdXYyZTlYSzdEYjktY2FySDA2THNEWUlQend3WWp5cG9uZFo1aTJMcFFINW1ZWEg3NlVDQ2UzdkRmZldhV1JRemg4U3poczloOF9QOEhha1prQnlGZ0U5T0laMXN2ZVBY0gGIAUFVX3lxTE01Wk9oR0RESDZiM1BvOU5qZmtUYk1aNUFxWlpzU3EteXRvRDQ1anBlcG52RXJ5QWdEWjB2SHJCblZSaktVZktvRTBkYUxtYzNfQVE4YXRHajc1Nk9UQllNTkt0Vi1wVjdQTTAzSElvTDRMWXZ5TEpkLUZxRTI2QUZkMVdyRGM4YUg?oc=5",
       "published": "2025-09-14T07:00:00+00:00",
       "source": {
-        "name": "dw.com",
+        "name": "DW.com",
         "url": "https://www.dw.com"
-      }
-    },
-    {
-      "id": "41481cdefabb",
-      "title": "Bei welchen Medikamenten mit Engpässen zu rechnen ist - WEB.DE",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPYjEyNTBxUmtRckJVeFhacW9SeWhiYjVaNjRleVBvc0RXcU9RTUlTZlRoZTU0eUo3TFE0djZYRjFSanBXTlhwRHVPUE9MckdxN015SC1iUXI4RXdFRXVULURoeThoUjF1bG8tQTlVZnlBMmx1R2NpNzhmeEF6eUY4TA?oc=5",
-      "published": "2025-09-19T07:00:00+00:00",
-      "source": {
-        "name": "WEB.DE",
-        "url": "https://web.de"
       }
     }
   ]
