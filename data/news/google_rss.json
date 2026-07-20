@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-19T23:59:04.369883+00:00",
+  "fetched_at": "2026-07-20T03:54:28.561681+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -144,16 +144,6 @@
       }
     },
     {
-      "id": "5cfa2762dc20",
-      "title": "Gesundheit - GKV-Chef: \"Mehr gegen steigende Arzneimittelpreise tun\" - Deutschlandfunk",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdXlzU1VBOUhWa05wcTVDNnBBdHRkeDl5TnZ1S1A3T0swT2pKTjZlaU1pempxQVJkMXMySXBtd2xpaUk5WWN4Q1VyakdMbnN2eF9mRncxakUwN21WbGFQMWpuR2VoOG1tUDYtWERUbS1LSVpOdUNaTE1SWmhDSkVUdTlubVNEWGNtUXNaYk5tcTJibTRDZTJv?oc=5",
-      "published": "2026-03-15T07:00:00+00:00",
-      "source": {
-        "name": "Deutschlandfunk",
-        "url": "https://www.deutschlandfunk.de"
-      }
-    },
-    {
       "id": "bb553491699c",
       "title": "Abschaffung der Mehrwertsteuer auf Arzneimittel - openPetition",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQR2ZyOGpub3o3YjR6WktVOXowVW5aMmNRcUZnRHQteUNLdVdiWFpMSHpndXJ0ajFhSmNTQXk1LVptMF9BUHlMeGRSb2dJalBRVjkxbGE4eWhObTFsT1gzVUtGblkxNDhVMlR2b2JYb1NWSGJqd2k1bGwxODhLVFh3aVdwY3pNNV81VDk0ZkxEbmVlSXdZY2c?oc=5",
@@ -164,8 +154,18 @@
       }
     },
     {
-      "id": "a1a346023cba",
-      "title": "Wegovy-Pille: EU lässt neue Abnehmtablette zu – wie sie wirkt und welche Risiken es gibt - Spiegel",
+      "id": "02e9917bea66",
+      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - DW.com",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGxHSlhmSS0tbUNKdG15NEVzRzYzYllEUnAzUEU3ak53czRHVWlKdTZrRGFDMk1MUThPUjdPTnBGVENqd3d2Q1VSdWhJVXppWDF4NWh0aEJJaXJlVTlnV0VoZVFkRHNSM3p6NVZXNjNwWHk5YkxSUWR2RGZKcmp3Y2U5REY0U3dRZFJLeHFtQk9wb2Y3RUVOaVBlMlJhZ29Rck000gGjAUFVX3lxTE1rTW00WXFBajZxbTJOS1NLckhVbXFBSzh1NE96QTEydTN1YjZnaFFNcV8xblZGM29hdTZQUHc4V3YzQ1pwcTlaVVBhZDVqMExLMTlYVzZ6TmM4ZUdsUm5TLXpPNmk1R3V4UktvaV93cWttNFpVX0VEZlZnUllSQkhyUlZmeTBJcU0zUEVSZTgxdzFWUnFNRk9CYVljN0Jhd0ZXUFk?oc=5",
+      "published": "2026-05-12T07:00:00+00:00",
+      "source": {
+        "name": "DW.com",
+        "url": "https://www.dw.com"
+      }
+    },
+    {
+      "id": "10652a08cd24",
+      "title": "(S+) Wegovy: EU lässt neue Abnehmtablette zu – über Nutzen und Risiken - Spiegel",
       "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOdk10WXpWbHVEUzBJM3o1V2k2RWNqT1ViR0o0VXU5MlRFN3Vzd3RYUG5iclM2QUZuQjFSclZ6b0o4SmRWaFVxazdXX3RYWFZSclVuUTZVWHRXZ1RxblE3OTVRdWQ3eDRZVGVaX1ZhbVZfdTFyQ19tYTJlN1Z0cUFTRzlja1hRWnlMcVpKS3dxUFRGOWtJbk9SSVNueUpja3hQWk1nTWVJSXF5eGNUbzg5b2JDYnF4alBaakhUWW1JdlhybndENDh1R0tGeGJLVWtQaTFXOFhDbzdIOGk4UGRJTDh2eWJpbkJU?oc=5",
       "published": "2026-07-17T13:10:00+00:00",
       "source": {
@@ -174,13 +174,13 @@
       }
     },
     {
-      "id": "02e9917bea66",
-      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - DW.com",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGxHSlhmSS0tbUNKdG15NEVzRzYzYllEUnAzUEU3ak53czRHVWlKdTZrRGFDMk1MUThPUjdPTnBGVENqd3d2Q1VSdWhJVXppWDF4NWh0aEJJaXJlVTlnV0VoZVFkRHNSM3p6NVZXNjNwWHk5YkxSUWR2RGZKcmp3Y2U5REY0U3dRZFJLeHFtQk9wb2Y3RUVOaVBlMlJhZ29Rck000gGjAUFVX3lxTE1rTW00WXFBajZxbTJOS1NLckhVbXFBSzh1NE96QTEydTN1YjZnaFFNcV8xblZGM29hdTZQUHc4V3YzQ1pwcTlaVVBhZDVqMExLMTlYVzZ6TmM4ZUdsUm5TLXpPNmk1R3V4UktvaV93cWttNFpVX0VEZlZnUllSQkhyUlZmeTBJcU0zUEVSZTgxdzFWUnFNRk9CYVljN0Jhd0ZXUFk?oc=5",
-      "published": "2026-05-12T07:00:00+00:00",
+      "id": "472e52be8f7f",
+      "title": "Gesundheit - GKV-Chef: \"Mehr gegen steigende Arzneimittelpreise tun\" - Deutschlandfunk",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSy1mOE1PaUxhRGtHYkpqbDBKLVgtZ3cyd04xWkxtS2x0aWVSMUlQdVZVSjdqQXY5TUZEWWZxZEE4Zjc5LVBXS2lxYmEyaHVTQUpPWVBhMTVBZFl2eE02NUpDOXhmUFV6V1AwejFKb0NnVWs3OThpT3lQVlVzNW9kRG9zUlRKTzNwZlVEUmZFZi04dVVGUU5F?oc=5",
+      "published": "2026-03-16T07:00:00+00:00",
       "source": {
-        "name": "DW.com",
-        "url": "https://www.dw.com"
+        "name": "Deutschlandfunk",
+        "url": "https://www.deutschlandfunk.de"
       }
     },
     {
@@ -204,16 +204,6 @@
       }
     },
     {
-      "id": "ca0d2f573d69",
-      "title": "Medizinische Cannabisblüten: Was die zuständigen Behörden von einer Vortrocknung unter GACP halten - Krautinvest",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORHNuZHczN3RVbkZieGhrZDFuMHhBZ1FUOS1JMndvWEItd0lEaVVWRUw0blhBOUs1WTExckFNU2FEbHQzdXB1YkV0WWxwUXNDY0JKNFFnSGk5TEIxeGNCQUVoZS13bkl5MzVzTFBFQ3hjWmRTcEZxOUNLeHoyUDhBel9RQThwRi1pX0M5alBUSW84Z0R6RkhraTdOdHZ2WkllUGYxMUJPLXBqWUlfNDZJTXU4V0RJdDBLNzBBMGprZWg1UQ?oc=5",
-      "published": "2026-07-17T08:00:38+00:00",
-      "source": {
-        "name": "Krautinvest",
-        "url": "https://krautinvest.de"
-      }
-    },
-    {
       "id": "087891737758",
       "title": "Engpässe bei Arzneimitteln: Geopolitik erschwert Europas Streben nach Unabhängigkeit - euractiv.com",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQ2lScFVHU3ZELWZOdzJOUGU2YUQ3c2ZpbWhIYWFiVUNoRFZHTm5JM1BfUWVnanhicnRvanhQdGx4UHVuTnZ5dG4ySEY4eVE3dUxGaXVLSm5sM1liQzRtc19GVVE3RkNnUGhhTkhZTXAtMkhWZ3JqOVREWlhfRnBSX1FPRXlaaUE5d2d6cFVEakt5NDJaUkgzXzA3TUpqUUJTbzhRQXFpbmZCTGMwdlRDSXR3cHNjZw?oc=5",
@@ -234,16 +224,6 @@
       }
     },
     {
-      "id": "a54a884d55a6",
-      "title": "Noch in diesem Jahr: Rossmann will Medikamente liefern - WEB.DE",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZzVIdE80VXRILUdTZTlsLTQwMHlHX1FMSjhsUGppeGJjNERCQkdLeDJwNnp6UUZTWWNmTW0xaUVZaGhHS1ZXSWV2TUZLbzNLdVVuei11TDZ4VVlQNU1CQUVuRTM0RHV3S3pYcnM3UThsNDhsaWFicE5ET0Noek1mcTFWbw?oc=5",
-      "published": "2026-07-10T07:00:00+00:00",
-      "source": {
-        "name": "WEB.DE",
-        "url": "https://web.de"
-      }
-    },
-    {
       "id": "3843ee8c2190",
       "title": "Gesundheit - Beipackzettel von Medikamenten sollen digital werden - Ausdrucke in Apotheken sollen Option sein - Deutschlandfunk",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOclZxcXdzdDlfTXNBVkNkV1g0a1RMa05OWGcyX0RXaW5YMmpyUElhUnBJQU9QM3BzUG9iSFZnaWE0ek1iLTFQeE1wbkVhaDdrT3pVMERnT3l3VGhoOUtuS0EtT3pwazNMMGZmcmI1Z2puUHg1WWc5MzBXdHJma0l0dWNlNEhQdFdBUXF5X0V3OVRQWVA1RXFJNXJtbTVGMjNYQVlSWjNrdEttY0pQMXF0dWlwdGNUVWpFcF83a3RyX0oxSWpLaFVmc2NoVEhGNXc?oc=5",
@@ -251,6 +231,16 @@
       "source": {
         "name": "Deutschlandfunk",
         "url": "https://www.deutschlandfunk.de"
+      }
+    },
+    {
+      "id": "a54a884d55a6",
+      "title": "Noch in diesem Jahr: Rossmann will Medikamente liefern - WEB.DE",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZzVIdE80VXRILUdTZTlsLTQwMHlHX1FMSjhsUGppeGJjNERCQkdLeDJwNnp6UUZTWWNmTW0xaUVZaGhHS1ZXSWV2TUZLbzNLdVVuei11TDZ4VVlQNU1CQUVuRTM0RHV3S3pYcnM3UThsNDhsaWFicE5ET0Noek1mcTFWbw?oc=5",
+      "published": "2026-07-10T07:00:00+00:00",
+      "source": {
+        "name": "WEB.DE",
+        "url": "https://web.de"
       }
     },
     {
@@ -274,16 +264,6 @@
       }
     },
     {
-      "id": "054c2beef78c",
-      "title": "Marktgröße, Marktanteil für natürliche Gesundheitsmedikamente | Prognose [2034] - Fortune Business Insights",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcm9jWnMyZy1ubkhPQXFmQ1dzUmtCU0V4X0dTMlEzZnpVeEVnVmxNU0VweEJsR2hNakhlN0JxRk9kMVVhVFZFNWhpXzhtR2g3cTdRQVM5d1lON25zT1FXV3hJNlJ1dDY5R2JUUld0UGRadUs4aFM5elJ6Z0RqX3BFS1ZEcERJUUh0MldhbVRybzN6anhOZnRHMw?oc=5",
-      "published": "2026-06-29T07:00:00+00:00",
-      "source": {
-        "name": "Fortune Business Insights",
-        "url": "https://www.fortunebusinessinsights.com"
-      }
-    },
-    {
       "id": "b9ca65e5a941",
       "title": "Marktbericht: dm steigt in den Gesundheitsmarkt ein - tagesschau.de",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNd0RWVjQ1MFJ3RDJCdFRnZ3Z1RUU4YThkS1F2bnowNnZBQWk1QlIxdWNtMFN6a19KWWlhTnFyVUNRSGNLanRyR01ZM0lxSG1HRFBqQ3l3QXBMR1F6UU43X29oLTZEODQ1TktKWmhOVVR4YW10YWY1Qm5JZlZoLU8tMlhDYw?oc=5",
@@ -291,6 +271,16 @@
       "source": {
         "name": "tagesschau.de",
         "url": "https://www.tagesschau.de"
+      }
+    },
+    {
+      "id": "054c2beef78c",
+      "title": "Marktgröße, Marktanteil für natürliche Gesundheitsmedikamente | Prognose [2034] - Fortune Business Insights",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcm9jWnMyZy1ubkhPQXFmQ1dzUmtCU0V4X0dTMlEzZnpVeEVnVmxNU0VweEJsR2hNakhlN0JxRk9kMVVhVFZFNWhpXzhtR2g3cTdRQVM5d1lON25zT1FXV3hJNlJ1dDY5R2JUUld0UGRadUs4aFM5elJ6Z0RqX3BFS1ZEcERJUUh0MldhbVRybzN6anhOZnRHMw?oc=5",
+      "published": "2026-06-29T07:00:00+00:00",
+      "source": {
+        "name": "Fortune Business Insights",
+        "url": "https://www.fortunebusinessinsights.com"
       }
     },
     {
@@ -334,6 +324,16 @@
       }
     },
     {
+      "id": "5b37cb52bb5d",
+      "title": "Achtung, diese Medikamente wirken bei Hitze anders - WEB.DE",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSkxPeHhBZi12TThJUUFnazZSbGFBaUtxRDlMRzVSblhmai1LV1BNVmNEbGlmeklDM1hEa2RJS0JUVm9GSWZZQUJUSUwwRjVqOTMzdVVRQ0JLcGd3WW9uUmZvbDV6ZGZ2dGxMMmFuM1hGVkVoSTkwWkN1bU1Jd2dmam5xUnNIdXBvMHhHX1VlT2o?oc=5",
+      "published": "2026-06-24T07:00:00+00:00",
+      "source": {
+        "name": "WEB.DE",
+        "url": "https://web.de"
+      }
+    },
+    {
       "id": "014ad20f5cc8",
       "title": "Psychedelika: Angermayer schafft Milliardendeal mit Eli Lilly - transkript.de",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSm45aGoyWkU1TkRLNXUzUEg1ajkxNjcxQVhmOVJiWWdRVWk1elZIeTBwZUNsSG4xUU1qQVdFMHBER0Vsd1QtN1lOY2wwVUJGOHpIWGFnZ0l6U2dsMS1weW9UTlAyMW1wMjN3RzRfN2hqc2NZa1gtZWpGaWVSQmVzRkJva0phaE1OZExWVHBSUHBqQlZqd1BzeGhUYjE?oc=5",
@@ -371,16 +371,6 @@
       "source": {
         "name": "Deutschlandfunk",
         "url": "https://www.deutschlandfunk.de"
-      }
-    },
-    {
-      "id": "5b37cb52bb5d",
-      "title": "Achtung, diese Medikamente wirken bei Hitze anders - WEB.DE",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSkxPeHhBZi12TThJUUFnazZSbGFBaUtxRDlMRzVSblhmai1LV1BNVmNEbGlmeklDM1hEa2RJS0JUVm9GSWZZQUJUSUwwRjVqOTMzdVVRQ0JLcGd3WW9uUmZvbDV6ZGZ2dGxMMmFuM1hGVkVoSTkwWkN1bU1Jd2dmam5xUnNIdXBvMHhHX1VlT2o?oc=5",
-      "published": "2026-06-24T07:00:00+00:00",
-      "source": {
-        "name": "WEB.DE",
-        "url": "https://web.de"
       }
     },
     {
@@ -464,16 +454,6 @@
       }
     },
     {
-      "id": "d0d11cc2f30e",
-      "title": "Hoher Cholesterinspiegel: Warum Ernährung oft weniger bringt als gedacht - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMUEycnphclJDZ1NreXBKZnprSEIyekFjMEswTGxzUTJYb3dySnVVWlJZMzhRbS1tdlMwVG1yZ2FQS3BkcF9YUk5vekNFYldzR2RvWnBPR0xXa254OFlMUjN1NTlNa1VjOVl6R3UxYU5WbWFnenJCZUJHU1ROdTM3RXNrLXI1NGUwdU1Fcm9wbTZYRzhTMFR4MXRMVE5zYjQ1Y0E4bmpDTktmNlJE?oc=5",
-      "published": "2026-07-16T07:00:00+00:00",
-      "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
-      }
-    },
-    {
       "id": "20a64d917dfc",
       "title": "Medikamente für Senioren: Studie warnt vor riskanten Wirkstoffen - Berliner Morgenpost",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZ29BeW1jeXNBMHJfUWNHT1RfQWNhcG9TUzJwbE11cl9XN1VvWElYUmJORUxoclg3R08xa3VsaXhSMlBnSlE2ZkhOdWF2Z0lVempDdE9XMnBZcEVQUm5KVDBaM0I0ZWpxdzBYbkxYOWtjOGN1ZGxCUkh5TDUzeUxJc0F1dm55XzdHMEwyNUZheFRiaFdKUGtUR1JmYXRGelY0UlM3OFh4SkExRGFTVWZFamxqYXFQOHRCZjFTQThnbjRWU1JMcEM0?oc=5",
@@ -501,6 +481,26 @@
       "source": {
         "name": "Spiegel",
         "url": "https://www.spiegel.de"
+      }
+    },
+    {
+      "id": "d0d11cc2f30e",
+      "title": "Hoher Cholesterinspiegel: Warum Ernährung oft weniger bringt als gedacht - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMUEycnphclJDZ1NreXBKZnprSEIyekFjMEswTGxzUTJYb3dySnVVWlJZMzhRbS1tdlMwVG1yZ2FQS3BkcF9YUk5vekNFYldzR2RvWnBPR0xXa254OFlMUjN1NTlNa1VjOVl6R3UxYU5WbWFnenJCZUJHU1ROdTM3RXNrLXI1NGUwdU1Fcm9wbTZYRzhTMFR4MXRMVE5zYjQ1Y0E4bmpDTktmNlJE?oc=5",
+      "published": "2026-07-16T07:00:00+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
+      }
+    },
+    {
+      "id": "923644c6a14e",
+      "title": "Diese Abnehmmedikamente sind am wirksamsten - MSN",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPZ0NsZ3FKUUQ5WUk2bHROSTczUnVzcnFjbjlFUkxiRFNpOUJ1ZUF4VzktOWR3b0wyVnFhSlJpTmxSVU5LUjR2aS1MeFRzX0VHN01DNDhQbFJzVks3ZG9wckF3R3FnVmczd0FXbm1OczZNMlA1UE1fSGJDS2hHb25MUW8ybktYTnM3Qk0zSUFISDU4TXQ5bVBuNHdVUy1uSkl0bkRNeEV4Ti1SQnB2cHNfY0ZtYV9DOHZqUlV6bTQxMjVNRl9kenhSNTlRUEZyY0x4Tmw2Yk50RVdVRHF3eUZxUWg0WmtKOUdiMzRpd1l3?oc=5",
+      "published": "2026-07-20T01:45:08+00:00",
+      "source": {
+        "name": "MSN",
+        "url": "https://www.msn.com"
       }
     },
     {
@@ -594,16 +594,6 @@
       }
     },
     {
-      "id": "5b55e1ba56e3",
-      "title": "Gesundheit: Zahl der Apotheken auf niedrigstem Stand seit fast 50 Jahren - WirtschaftsWoche",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOeHJGQWl1Uy1VZmpEb0ItN0xnZzZBQkFRQjU1WDBEdjBrcHZOaVZyc2V6SXJCSE5zNW1tUlZPLWtvVVpTZmF0eExibVdZYS0xcExpU0pPV1dIVDhhdGk1RXNBT0E0cGlZZkJjUGw3ZElOU1pRRndSZGlYeG8yYUZRYW1kQ1dOMDVHS21qRzFsUHBoUVJPRHdFNlRfM1ZEQjYwSDZRWmNhNEFIT2JWcWZRbVhrUUVBMFFCMXdkMUVyY2tDejNIUGt5eXJBS0s?oc=5",
-      "published": "2026-05-05T07:00:00+00:00",
-      "source": {
-        "name": "WirtschaftsWoche",
-        "url": "https://www.wiwo.de"
-      }
-    },
-    {
       "id": "5b3c21a9706f",
       "title": "Hendrik Streeck hinterfragt teure Medikamente für alte Menschen - Spiegel",
       "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPdklWd0VveEdNaGZxM3F3RmFVdXFOQi10dUZONzlqUjBCS1EyMERpajY5dm9UajBXQnNaaG1Kc2NYUl8tOHpBZFBTQjl4X2NUdXNmckMxdDllNEVmMnZkNVRvU2Y1d3R6WUswWVFLek9rWUhOb01pSjkwbFB1SVdWaTQyc25VWi1aUGxWUGpETWU1b0plSW5qQXNZNzNmbzRPUUg0dGRVOHpEQnI4SWpkZ2diak1XSWNmNFhzSXVUd1BDYktCSkxIVmt2ekpXdGJ3ZDdYRXdWa1FwNDVo?oc=5",
@@ -614,12 +604,22 @@
       }
     },
     {
-      "id": "08f761ee3a89",
-      "title": "EU-Gesundheitskommissar prüft Folgen von Trumps Arzneipreispolitik - Euronews.com",
+      "id": "5b55e1ba56e3",
+      "title": "Gesundheit: Zahl der Apotheken auf niedrigstem Stand seit fast 50 Jahren - WirtschaftsWoche",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOeHJGQWl1Uy1VZmpEb0ItN0xnZzZBQkFRQjU1WDBEdjBrcHZOaVZyc2V6SXJCSE5zNW1tUlZPLWtvVVpTZmF0eExibVdZYS0xcExpU0pPV1dIVDhhdGk1RXNBT0E0cGlZZkJjUGw3ZElOU1pRRndSZGlYeG8yYUZRYW1kQ1dOMDVHS21qRzFsUHBoUVJPRHdFNlRfM1ZEQjYwSDZRWmNhNEFIT2JWcWZRbVhrUUVBMFFCMXdkMUVyY2tDejNIUGt5eXJBS0s?oc=5",
+      "published": "2026-05-05T07:00:00+00:00",
+      "source": {
+        "name": "WirtschaftsWoche",
+        "url": "https://www.wiwo.de"
+      }
+    },
+    {
+      "id": "edcf559b1a0c",
+      "title": "EU-Gesundheitskommissar prüft Folgen von Trumps Arzneipreispolitik - Euronews",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSzM5cWFmcTJfV010WWVadkdEVXRGblFEUTlhaUhoOThvaHV5eTJuWFVJbUtyMW9xNTJkYzNIR2Z6YWp0ZE1IWmNPb3pNcU5YY1phcUlQSU5IWWtvV0MzNDlqdHJZRU40alRPU29CWFVnUDBjLXE3UHhtV2pManQ4TzhzVEU3OHNDM2JJZm9ZbzBUbkVCRFRZYU1jMTl2UVdGRnhubmZZYWswcmZqbXAtbW5QcnRBTktIaHFFWg?oc=5",
       "published": "2026-06-16T07:00:00+00:00",
       "source": {
-        "name": "Euronews.com",
+        "name": "Euronews",
         "url": "https://de.euronews.com"
       }
     },
@@ -694,16 +694,6 @@
       }
     },
     {
-      "id": "8f7a16a55972",
-      "title": "Arzneimittelpreise: Medikamente in Deutschland günstiger als USA trotz Trump-Deals - SZ.de",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdnBJZGx2V2VkNEJfQy1NTDk2NFJXOE5MY3k2VE1yNmxuZzNiWWNlalNjN0MzTjJzSUwxTDRPRTlJai1XeXVUODNhaGlrRXJhaVpJdVQ0eV9mNHc1QWZkaXhtUTVfdjZNWEU2eWptcVk1WkNUZHJNRUpNQzM2TXduRFpPS0tTbjhtajdRWmtMbTM2N1owQ1I1Y2g1MmJiUzNpdnc?oc=5",
-      "published": "2026-03-18T07:00:00+00:00",
-      "source": {
-        "name": "SZ.de",
-        "url": "https://www.sueddeutsche.de"
-      }
-    },
-    {
       "id": "59d03ee6896b",
       "title": "Medikamente ohne Zuzahlung können ungesunde Nebenwirkungen haben - MDR.de",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOa1BRZ1RkZDlsQTQtUVVvek1KQlI2S2I5eUVpaHh0cGxseUJubDAxX01JeC1qRmczWTNSYWdhSnNMa3FGY2M3ZlcxVFo5UXpVMUt5RUw2T3VJMXZmdTlKOTYtaGtzY1EzZFpSVVM2UWY3YXpjM3lMOU8wMlJRbnlJY1FuTXcyMURpdHBsaVFvSDBmSm9NaGwtR3BWUEQ0c2FsTmpuZ3VnX2RkM05weXYtZkRxY2VZV3ZBWUp0OFk4RVd5MUFjZExvLXJKUjBXdWMzQzVud1RR?oc=5",
@@ -711,6 +701,16 @@
       "source": {
         "name": "MDR.de",
         "url": "https://www.mdr.de"
+      }
+    },
+    {
+      "id": "8f7a16a55972",
+      "title": "Arzneimittelpreise: Medikamente in Deutschland günstiger als USA trotz Trump-Deals - SZ.de",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdnBJZGx2V2VkNEJfQy1NTDk2NFJXOE5MY3k2VE1yNmxuZzNiWWNlalNjN0MzTjJzSUwxTDRPRTlJai1XeXVUODNhaGlrRXJhaVpJdVQ0eV9mNHc1QWZkaXhtUTVfdjZNWEU2eWptcVk1WkNUZHJNRUpNQzM2TXduRFpPS0tTbjhtajdRWmtMbTM2N1owQ1I1Y2g1MmJiUzNpdnc?oc=5",
+      "published": "2026-03-18T07:00:00+00:00",
+      "source": {
+        "name": "SZ.de",
+        "url": "https://www.sueddeutsche.de"
       }
     },
     {
@@ -804,16 +804,6 @@
       }
     },
     {
-      "id": "31465553598c",
-      "title": "Demenzrisiko: WHO zeigt, wie 45% durch Lebensstil vermeidbar sind - ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQLTlKck1YNEFCUkVtb0V0UG5mMXpIV1ZHSEVrTnA0VXdERVJieVI0SmpUcUxEUjZDa2p1OUxTNUJyZnNkLUR4NzlkZm1NUmcteTZZZzRqYzNtNTM4SDhtTm9KX0pZeC1HRUM1Qmc1RWFBQ3RzMmplU1M5RWtMdnh6V2pfc3Q2TE1UME1oWW5DWjRsb3Vla0pkSjBQYjJGcmgtUG5FUkkyajUxaTkwcksyaFVFd1FyN3Q1N05r?oc=5",
-      "published": "2026-07-17T02:32:08+00:00",
-      "source": {
-        "name": "ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "80745f9d4753",
       "title": "Gesundheitsmarkt: dm plant OTC-Angebot in Österreich - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNdHVYSEZDOFBVSGROT2l4Qi1pSEVXOXdjMGpMZmNWNTBrdjFjb004OG1xWmJtbHlSNlhMQlhUMExsSjQyMktoS1dFWVhlN1ZpWXhLR2lROW1wNVNqZXp1RkllcjBvNnIzZ2RZT3BTNVROX3lrWGgzUi1qY1RYR294M0IxUFN1ak5BaXc?oc=5",
@@ -834,12 +824,22 @@
       }
     },
     {
-      "id": "d226bb3cd766",
-      "title": "Diese Medikamente können Alzheimer vorbeugen - Euronews.com",
+      "id": "31465553598c",
+      "title": "Demenzrisiko: WHO zeigt, wie 45% durch Lebensstil vermeidbar sind - ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQLTlKck1YNEFCUkVtb0V0UG5mMXpIV1ZHSEVrTnA0VXdERVJieVI0SmpUcUxEUjZDa2p1OUxTNUJyZnNkLUR4NzlkZm1NUmcteTZZZzRqYzNtNTM4SDhtTm9KX0pZeC1HRUM1Qmc1RWFBQ3RzMmplU1M5RWtMdnh6V2pfc3Q2TE1UME1oWW5DWjRsb3Vla0pkSjBQYjJGcmgtUG5FUkkyajUxaTkwcksyaFVFd1FyN3Q1N05r?oc=5",
+      "published": "2026-07-17T02:32:08+00:00",
+      "source": {
+        "name": "ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
+      }
+    },
+    {
+      "id": "a1246c849d26",
+      "title": "Diese Medikamente können Alzheimer vorbeugen - Euronews",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZHd6NGpWcXV5WTFGMzRvX2tlV2dyb0hISS1yMmhxY2RXeXhUa1pCS3RpLTVHNGpOam56S2cxd05wc1Q3UWU3QUN4bVpRYmo1TkNDNS1fVkVwbHNHeWpMQ1paWjU2cG1Ha1NpQXJzWTFTRG9sbU1pSkNLNWdpLU5UaDV3UWlfaUNyNjhtUndXZw?oc=5",
       "published": "2026-02-08T08:00:00+00:00",
       "source": {
-        "name": "Euronews.com",
+        "name": "Euronews",
         "url": "https://de.euronews.com"
       }
     },
@@ -854,16 +854,6 @@
       }
     },
     {
-      "id": "7a99adaec5c0",
-      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - Geo.de",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
-      "published": "2026-06-19T07:00:00+00:00",
-      "source": {
-        "name": "Geo.de",
-        "url": "https://www.geo.de"
-      }
-    },
-    {
       "id": "8d1fc40266cd",
       "title": "2025: Höchster Stand von Aufnahmen neuer Medikamente in die Spezialitätenliste - Bundesamt für Gesundheit BAG",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1HMEFNZWpPYzRReWJNTkhGRk11RnNpblJQVjNEdE1ISllXWlNUWk4yZFpWclRTOUl0M3ZJTXhSNmpMdEtuVkVWVnV3aEJXdWxld0l3dUVkdGszYnVuNEFxbldsSXNJamc?oc=5",
@@ -874,13 +864,23 @@
       }
     },
     {
-      "id": "b5466f5de3a9",
-      "title": "Ca Mau: Das Thanh Vu Allgemeine Krankenhaus führt verschiedene Aktivitäten durch, um Gesundheitschecks und Beratungen für die Bevölkerung anzubieten. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbDVmdkdFZlJjM3hGM2tqZVlVVWJHSkRCNy1GNjhDak8xZkZsQXJWOVB4VG4zZC0zeS1IdUNCZDV5Skd5dGhVS0c4N19DcE9xQU1vZEUyZngyZERZcnBIbmpCQXlHak4zR3V1WE5BcWxYWndQYV91QnF3blFPMDE0T19Kc29wSkhZYVZlOElrRWRfQU1oRlJlWTZiZVE0c0YzN1RDTVg4akpFR0VES3R5N0l3QWd6TTJtZW1mag?oc=5",
-      "published": "2026-07-19T11:51:59+00:00",
+      "id": "47afc2884d76",
+      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - geo.de",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
+      "published": "2026-06-19T07:00:00+00:00",
       "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
+        "name": "geo.de",
+        "url": "https://www.geo.de"
+      }
+    },
+    {
+      "id": "01ff5efaad6f",
+      "title": "Neue Versandregeln könnten Medikamente bald deutlich teurer machen - Watson.de",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTWdJN3drNlBIbVFGbGpjVGxXbDN6V2ZPaXVZcXBLakFOWndIRVhlNXJWT2t4bktnd2RyN3ZIWHF2Y1ZmTFpyNnFhb2ZHQkFaNmtDRXBFMWR2cS1QVXRNYzhKVmVBVUN5MmhDcXdVZmUxeS1tbmwxamhUdURjVTZ1cWEwY2JjWDRPQUs0eFdkY3JkNkpnaVp0YS1sYVQ2M3o3eE1hSkEtejJfTVNFTy1na0g0a0FvS3RpejliQkdPWnBmV3gyYV82Mw?oc=5",
+      "published": "2026-03-15T07:00:00+00:00",
+      "source": {
+        "name": "Watson.de",
+        "url": "https://www.watson.de"
       }
     },
     {
@@ -904,13 +904,13 @@
       }
     },
     {
-      "id": "c186b4db6c10",
-      "title": "Teure Medikamente für 100-Jährige? Streecks Aussagen zu sehr alten Menschen stoßen auf Zuspruch und scharfe Kritik - Tagesspiegel",
-      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQclVaUzUxWl9ZNUVvOVZHTXhQdEtRQ205NGJtNU9TQTZTQWUxMVJPNzFsMHFZbXVIa2NfQ1JRSjJicV9YSGQ1dFVXcWFJa2ZZR1o5ZmNwcjA3TmxjRFRhb3ptX25MZzEwdWszclJpNThyUHc5VDFSX2NiTk8tc0tBOUJWcFV5RHhvMGYwa1FlbldHYVVpbHl3cUZ1N0ZseU1rSjFlb2N6WjJoeFQ4QXNhLU9oeTBYTkpDMzZ3NmFyQko1M2dKRzJtbWlfMVJyN2VaemdDMTQ1a19UcTlFOGI3NHRXeXo5STZ2Mi1vREpIWDg3VGlYbXl3?oc=5",
-      "published": "2025-11-13T08:00:00+00:00",
+      "id": "86799bd3d9d6",
+      "title": "Alterung: Neue Proteomik zeigt Schübe um 34., 60. und 78. Jahr - ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWWJENUNBTHNZT214M3FnMmtEbGU2MUhWUnRmZFg0VFpXVHY5eXpVY01UTWxXYndkMmZPb0Y4VU9uS3dEeVJ2NkFURDR1eVA5SzVTU001blU3R0g0Y1czRDc5REZ3cXFTOVhELVRDanlQX0xnOTRMd0IybW54ZWwwbzJQMzNHMFpGeDMtdHNGeXN3OXlTUDlTVzBUVlo3ZkJGYXBRQ2pZa0oycjA?oc=5",
+      "published": "2026-07-18T10:39:25+00:00",
       "source": {
-        "name": "Tagesspiegel",
-        "url": "https://www.tagesspiegel.de"
+        "name": "ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -944,16 +944,6 @@
       }
     },
     {
-      "id": "01ff5efaad6f",
-      "title": "Neue Versandregeln könnten Medikamente bald deutlich teurer machen - Watson.de",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTWdJN3drNlBIbVFGbGpjVGxXbDN6V2ZPaXVZcXBLakFOWndIRVhlNXJWT2t4bktnd2RyN3ZIWHF2Y1ZmTFpyNnFhb2ZHQkFaNmtDRXBFMWR2cS1QVXRNYzhKVmVBVUN5MmhDcXdVZmUxeS1tbmwxamhUdURjVTZ1cWEwY2JjWDRPQUs0eFdkY3JkNkpnaVp0YS1sYVQ2M3o3eE1hSkEtejJfTVNFTy1na0g0a0FvS3RpejliQkdPWnBmV3gyYV82Mw?oc=5",
-      "published": "2026-03-15T07:00:00+00:00",
-      "source": {
-        "name": "Watson.de",
-        "url": "https://www.watson.de"
-      }
-    },
-    {
       "id": "445f92c7e54b",
       "title": "Wundermittel oder Wahnsinn? Der riskante Hype um Methylenblau - NDR.de",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZjdVekdjMzQzUFRaQlJaZW5GM3l0bmZFay1iTWxoVXpOLWFfTkVQejhNU1FwSTR6Q1RETXRFYm56enYwNm8tZXBXZlRmb0JKalI4REI2dEVNcUh6NHhMMDBlTkNkOXRaTU1hS2ZXNWZhVnk3TUthaFpuTFh2c3NtVUNmcUtYc290bFI1MERTaDFjaXNNcDFpczNjX004TUV4MjBjdWFhM2F1dXF4bktZQWtvS0hGUHM?oc=5",
@@ -964,6 +954,16 @@
       }
     },
     {
+      "id": "c186b4db6c10",
+      "title": "Teure Medikamente für 100-Jährige? Streecks Aussagen zu sehr alten Menschen stoßen auf Zuspruch und scharfe Kritik - Tagesspiegel",
+      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQclVaUzUxWl9ZNUVvOVZHTXhQdEtRQ205NGJtNU9TQTZTQWUxMVJPNzFsMHFZbXVIa2NfQ1JRSjJicV9YSGQ1dFVXcWFJa2ZZR1o5ZmNwcjA3TmxjRFRhb3ptX25MZzEwdWszclJpNThyUHc5VDFSX2NiTk8tc0tBOUJWcFV5RHhvMGYwa1FlbldHYVVpbHl3cUZ1N0ZseU1rSjFlb2N6WjJoeFQ4QXNhLU9oeTBYTkpDMzZ3NmFyQko1M2dKRzJtbWlfMVJyN2VaemdDMTQ1a19UcTlFOGI3NHRXeXo5STZ2Mi1vREpIWDg3VGlYbXl3?oc=5",
+      "published": "2025-11-13T08:00:00+00:00",
+      "source": {
+        "name": "Tagesspiegel",
+        "url": "https://www.tagesspiegel.de"
+      }
+    },
+    {
       "id": "dbab4bead913",
       "title": "AstraZeneca erwägt Medikamenten-Stopp in Deutschland: Konzernchef kritisiert Sparpläne der Regierung scharf - Business Insider Deutschland",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPb1F4ZlVIUm83b0gtQTg0MU5WeHR1eUNPcmJBaFV4aGgwbjg2VlNUQ2F1RmVKeC1fTFFGbWIwYmFackw0Skg0Z1RMMDhfbEFnU2lMTURULVZHbVVoY1AxdkxINi1wQkFubExyeE1GLVZ3SVNiUnBXVTFUWXFTZlpTM0JzZnhqUF9lNU1pbjZ1bkxNZ1pQLUt1bC15eTJ0X0NUNWdQLWlRandzRkNtNURCRlptUjFybk93RXc?oc=5",
@@ -971,6 +971,16 @@
       "source": {
         "name": "Business Insider Deutschland",
         "url": "https://www.businessinsider.de"
+      }
+    },
+    {
+      "id": "b5466f5de3a9",
+      "title": "Ca Mau: Das Thanh Vu Allgemeine Krankenhaus führt verschiedene Aktivitäten durch, um Gesundheitschecks und Beratungen für die Bevölkerung anzubieten. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbDVmdkdFZlJjM3hGM2tqZVlVVWJHSkRCNy1GNjhDak8xZkZsQXJWOVB4VG4zZC0zeS1IdUNCZDV5Skd5dGhVS0c4N19DcE9xQU1vZEUyZngyZERZcnBIbmpCQXlHak4zR3V1WE5BcWxYWndQYV91QnF3blFPMDE0T19Kc29wSkhZYVZlOElrRWRfQU1oRlJlWTZiZVE0c0YzN1RDTVg4akpFR0VES3R5N0l3QWd6TTJtZW1mag?oc=5",
+      "published": "2026-07-19T11:51:59+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -991,16 +1001,6 @@
       "source": {
         "name": "WEB.DE",
         "url": "https://web.de"
-      }
-    },
-    {
-      "id": "7223dff6ff9e",
-      "title": "Spanien kämpft mit Medikamentenmangel durch Abhängigkeit von China - Euronews.com",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdjhQS01ta3Y4VGFuVFEzZDhuanczU2hVNWJvM1BlMzlNTEJIeGNreGM5cHVWVy1rTUtlODE3alItNUdFOWlOUURwT0hsMjFSZEVQai1sTTBIWHhWaGpSWkZubGo1WFNhQjFVa05MQzNzNW1UbXpzYlZodGc0WjFmYW9FSTUwZzlTRGdkbFlZamZJVTQ3bnBtZHVwNE01QnFINmxIRFhpVmxDMmlKNEU4SGJR?oc=5",
-      "published": "2025-11-03T08:00:00+00:00",
-      "source": {
-        "name": "Euronews.com",
-        "url": "https://de.euronews.com"
       }
     }
   ]
