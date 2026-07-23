@@ -1,8 +1,18 @@
 {
-  "fetched_at": "2026-07-23T14:03:51.102610+00:00",
+  "fetched_at": "2026-07-23T16:27:30.023535+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
+    {
+      "id": "661c923c4588",
+      "title": "Neue Abnehmpille mit Semaglutid: Was sie kann, für wen sie geeignet ist und wann sie zum Risiko wird - NDR.de",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOS1Rkd2duVTZnX283SmJtX0lkSWVOeDJvX3ViWVZFOGlOU251TU9Tck1sb2w3Y21iZlhQSjNNVE5jeWE3Nm5uS3JLZU1oNTVTamRMejNtbXJEUEpzV3JaQ2U1cXJDSTFPc3BlUTYzZGFuM3ZCWEZoRkNfSi0yRkpFaUZidXdBUV94UmNqSjRMUmpzQXJVWHNDeUo5S1FlX29IUGNnVUotcHFMNFU?oc=5",
+      "published": "2026-07-23T13:36:36+00:00",
+      "source": {
+        "name": "NDR.de",
+        "url": "https://www.ndr.de"
+      }
+    },
     {
       "id": "ec04455a13f7",
       "title": "Ozempic und Wegovy bei Brustkrebs: Studie deutet auf bessere Überlebenschancen hin - Frankfurter Rundschau",
@@ -61,16 +71,6 @@
       "source": {
         "name": "T-Online",
         "url": "https://www.t-online.de"
-      }
-    },
-    {
-      "id": "198b0da65ee5",
-      "title": "HIV-Schutz mit Tabletten: Wie sicher ist PrEP im Alltag? - NDR.de",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTWhsNWk1Tkc5MzNycUQ5RzhaaXhPTGlCcHJ1Yl9wajZ0VkV3akIxR255SUd6clB5aU5fZmNlUGZIcTVNanZlTmctSDJqUFB5Zk5XempaWnhrbDBlVWZuOE9xWDRSREhKRm5sa0lrbGVnVjl0TE5NNWtTY25CUzRmdG5jQlBZc1pFakFyT0hITHU5NmpfaUE?oc=5",
-      "published": "2026-07-18T14:08:00+00:00",
-      "source": {
-        "name": "NDR.de",
-        "url": "https://www.ndr.de"
       }
     },
     {
@@ -164,6 +164,16 @@
       }
     },
     {
+      "id": "4e6d48112005",
+      "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesministerium für Gesundheit (BMG)",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT3NRWE1tbWNRMllaUC1GUGtRV3YxaWhZZ21nQThUT3NGbS1DbkFfRzdSd3RvUUVsTkVJdUpYRFp0ekFHV1JtTEJZZ0I5dWJvajgzZzdZZDk5S3FROHRoeVJzS3VBRTBuTldDWW52dG5kLWxpUTlMZmpLdUZZekxaOEJQYTlUbTdLRTBsR1k4TlE1ajIxYTFiZ041eFppZktLWjJZYVQyRlNOVEd1RGdIVmpBRDMteG1xdHdyUmVn?oc=5",
+      "published": "2026-05-22T07:00:00+00:00",
+      "source": {
+        "name": "Bundesministerium für Gesundheit (BMG)",
+        "url": "https://www.bundesgesundheitsministerium.de"
+      }
+    },
+    {
       "id": "e4d74f6ebf64",
       "title": "Patienten und die Generikabranche fordern die EU auf, auf Trumps Drohungen bezüglich der Arzneimittelpreise zu reagieren - euractiv.com",
       "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOSm0tcngyMXZvMXBmQW9MbjlzWEp1d0JKLVdvV2g4NDkyQ2FxMzhhQTFHUEtyX25Tb0VTdGVPUkt0WXJEeV9QNl84MTZ3MTU0QjgtN3VWeFc3dDVuMWNjb3ZIQ2JyemdRVXJhSHFCQ21yazg4RGU5djlTSkEzdVlsdWNnOUxvWXRyRjVVNUg5N1pRSW1aX2FlOWQ4S0pYXzNkYlJmSE9GNWRmcmNBMWIwOXc0aFJybUJYLU9xUlVVLWplN3ZkNmNvQnQ3ME55TGpVcng0TkxPd2M4MDdBc3hXNVBHNA?oc=5",
@@ -174,10 +184,10 @@
       }
     },
     {
-      "id": "91b6369391ff",
-      "title": "Abnehmpille mit Semaglutid: Was sie kann, für wen sie geeignet ist und wann sie zum Risiko wird - NDR.de",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNYXpUUkZYTWxZM0NPZWd2U19qdlBtV2NmTGdSVDMzWURlMzQweWxBYnBzZ1NEZ1p2TmlHWkVEUHZFN3ZITkJFRGlzaDZsRm5DekVDczhQWDBmcloxWE13cWRGN05TNjhveFh2MWJHcU1TNHVBMVJ2SFNZd2c2SmV4QTlzVHBNR3h5YWljaXkwYlZzYWNmRk5CM3V2SGNrN0U2Q2hCZVl5eDBJUHB1dFlsSGRn?oc=5",
-      "published": "2026-07-21T11:12:00+00:00",
+      "id": "198b0da65ee5",
+      "title": "HIV-Schutz mit Tabletten: Wie sicher ist PrEP im Alltag? - NDR.de",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTWhsNWk1Tkc5MzNycUQ5RzhaaXhPTGlCcHJ1Yl9wajZ0VkV3akIxR255SUd6clB5aU5fZmNlUGZIcTVNanZlTmctSDJqUFB5Zk5XempaWnhrbDBlVWZuOE9xWDRSREhKRm5sa0lrbGVnVjl0TE5NNWtTY25CUzRmdG5jQlBZc1pFakFyT0hITHU5NmpfaUE?oc=5",
+      "published": "2026-07-18T14:08:00+00:00",
       "source": {
         "name": "NDR.de",
         "url": "https://www.ndr.de"
@@ -194,36 +204,6 @@
       }
     },
     {
-      "id": "757ada6e5c57",
-      "title": "\"Zentrales Ziel verloren\": Warum Patienten nicht von jeder Krebstherapie profitieren - T-Online",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOd2NyWHo0ZEU1aENlTGFpaHdXUmN6bXl5dEJqQVNuV0Foa0U0Zk9hVTRnY09pa3NVQjRrQ0wxbFkyZFpGdFlxcmctQTY3TG5tMDlMZU43cXB5Q2tlUmdfYnVPei1tTUpYakNwdUE2b2tQNzFHYmRhMF9XWnBBQWI3WXlJdmc0SGRMb1JDR2F6ajVSNXFXdFZ1d0pZblVUZ1hwQ3lNSmZGYjBQOGlLekhDVHJfYW1taE40UHJheExOeGdjX25CSnFmanlOWXdmWlk1a0p3?oc=5",
-      "published": "2026-07-21T09:59:15+00:00",
-      "source": {
-        "name": "T-Online",
-        "url": "https://www.t-online.de"
-      }
-    },
-    {
-      "id": "4e6d48112005",
-      "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesministerium für Gesundheit (BMG)",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT3NRWE1tbWNRMllaUC1GUGtRV3YxaWhZZ21nQThUT3NGbS1DbkFfRzdSd3RvUUVsTkVJdUpYRFp0ekFHV1JtTEJZZ0I5dWJvajgzZzdZZDk5S3FROHRoeVJzS3VBRTBuTldDWW52dG5kLWxpUTlMZmpLdUZZekxaOEJQYTlUbTdLRTBsR1k4TlE1ajIxYTFiZ041eFppZktLWjJZYVQyRlNOVEd1RGdIVmpBRDMteG1xdHdyUmVn?oc=5",
-      "published": "2026-05-22T07:00:00+00:00",
-      "source": {
-        "name": "Bundesministerium für Gesundheit (BMG)",
-        "url": "https://www.bundesgesundheitsministerium.de"
-      }
-    },
-    {
-      "id": "b4139007cd6d",
-      "title": "Medikamente: Antibiotika werden global nicht optimal eingesetzt - STERN.de",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPR05uQjRnX2dtUzgxaUJYTmNFOWNuRkY5ZFZXcFN6X1J6ZGxRaTlla3EzUHpOcEVqMENqd0NSLVliLTBtcGlJT2YyeUNIMEs0NHViNllHZnNpclZ5SUdYRFRocVJ0czgyeG1mNkc5M3JYNjFUOW0ycTZsRGFfend3bnFfbldPNTVvQlZqLWN2cFhaWFpJZ2FWU1Rud0ZSTFdJTmw4c2cwejRjRlZtcTBJV1VTa2w?oc=5",
-      "published": "2026-07-21T22:30:04+00:00",
-      "source": {
-        "name": "STERN.de",
-        "url": "https://www.stern.de"
-      }
-    },
-    {
       "id": "a54a884d55a6",
       "title": "Noch in diesem Jahr: Rossmann will Medikamente liefern - WEB.DE",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZzVIdE80VXRILUdTZTlsLTQwMHlHX1FMSjhsUGppeGJjNERCQkdLeDJwNnp6UUZTWWNmTW0xaUVZaGhHS1ZXSWV2TUZLbzNLdVVuei11TDZ4VVlQNU1CQUVuRTM0RHV3S3pYcnM3UThsNDhsaWFicE5ET0Noek1mcTFWbw?oc=5",
@@ -234,16 +214,6 @@
       }
     },
     {
-      "id": "5ad77f93d2aa",
-      "title": "Bristol-Myers Squibb: Was Käufer in Deutschland wissen sollten - Ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVUpRdEdpUVpONlB5YUxZLVRkb3NSZlRaTk5VTVFQcGpCeFh6X1hVVFJWRTh6enBJV3I1R1BWVXlfMzlaUkpfZVphYjBDX3RXV1AyUHlLdENuR3JCRTZVNTRxV3QzbjY4YWxIRjNtRmw0akV5eVRYVWlJWE95R0liaXZVMHZBanRIanRxMFlBRU4xSWdfcVlVVlB0LTZEQ0liRTVsS1hFYnFUejlna3lDTWJjdTZJeTBzeTdUb0FR?oc=5",
-      "published": "2026-07-22T16:22:03+00:00",
-      "source": {
-        "name": "Ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "9fa13ce5acf5",
       "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
@@ -251,6 +221,16 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "757ada6e5c57",
+      "title": "\"Zentrales Ziel verloren\": Warum Patienten nicht von jeder Krebstherapie profitieren - T-Online",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOd2NyWHo0ZEU1aENlTGFpaHdXUmN6bXl5dEJqQVNuV0Foa0U0Zk9hVTRnY09pa3NVQjRrQ0wxbFkyZFpGdFlxcmctQTY3TG5tMDlMZU43cXB5Q2tlUmdfYnVPei1tTUpYakNwdUE2b2tQNzFHYmRhMF9XWnBBQWI3WXlJdmc0SGRMb1JDR2F6ajVSNXFXdFZ1d0pZblVUZ1hwQ3lNSmZGYjBQOGlLekhDVHJfYW1taE40UHJheExOeGdjX25CSnFmanlOWXdmWlk1a0p3?oc=5",
+      "published": "2026-07-21T09:59:15+00:00",
+      "source": {
+        "name": "T-Online",
+        "url": "https://www.t-online.de"
       }
     },
     {
@@ -314,12 +294,12 @@
       }
     },
     {
-      "id": "8db31424e5bb",
-      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - dw.com",
+      "id": "02e9917bea66",
+      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - DW.com",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGxHSlhmSS0tbUNKdG15NEVzRzYzYllEUnAzUEU3ak53czRHVWlKdTZrRGFDMk1MUThPUjdPTnBGVENqd3d2Q1VSdWhJVXppWDF4NWh0aEJJaXJlVTlnV0VoZVFkRHNSM3p6NVZXNjNwWHk5YkxSUWR2RGZKcmp3Y2U5REY0U3dRZFJLeHFtQk9wb2Y3RUVOaVBlMlJhZ29Rck000gGjAUFVX3lxTE1rTW00WXFBajZxbTJOS1NLckhVbXFBSzh1NE96QTEydTN1YjZnaFFNcV8xblZGM29hdTZQUHc4V3YzQ1pwcTlaVVBhZDVqMExLMTlYVzZ6TmM4ZUdsUm5TLXpPNmk1R3V4UktvaV93cWttNFpVX0VEZlZnUllSQkhyUlZmeTBJcU0zUEVSZTgxdzFWUnFNRk9CYVljN0Jhd0ZXUFk?oc=5",
       "published": "2026-05-12T07:00:00+00:00",
       "source": {
-        "name": "dw.com",
+        "name": "DW.com",
         "url": "https://www.dw.com"
       }
     },
@@ -444,16 +424,6 @@
       }
     },
     {
-      "id": "5b37cb52bb5d",
-      "title": "Achtung, diese Medikamente wirken bei Hitze anders - WEB.DE",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSkxPeHhBZi12TThJUUFnazZSbGFBaUtxRDlMRzVSblhmai1LV1BNVmNEbGlmeklDM1hEa2RJS0JUVm9GSWZZQUJUSUwwRjVqOTMzdVVRQ0JLcGd3WW9uUmZvbDV6ZGZ2dGxMMmFuM1hGVkVoSTkwWkN1bU1Jd2dmam5xUnNIdXBvMHhHX1VlT2o?oc=5",
-      "published": "2026-06-24T07:00:00+00:00",
-      "source": {
-        "name": "WEB.DE",
-        "url": "https://web.de"
-      }
-    },
-    {
       "id": "5fd73dc2932c",
       "title": "Menschen und Arzneimittel: Hitze gefährdet alle - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1SOVJuZkZFZTdsNFlWTmNONVQxN2ZFbnh0M045WmxqeGV6cHZ4Z1c4Z2xnYjkwUXNUcTJvWkptS0NHUUxocGIwZm04ejc3TFM2ZU5hNmtlZUtjQ2VTMWwtcEtRX0YxSXdCcE5UY252Z2dHWURtVGxn?oc=5",
@@ -471,6 +441,16 @@
       "source": {
         "name": "Berliner Morgenpost",
         "url": "https://www.morgenpost.de"
+      }
+    },
+    {
+      "id": "5b37cb52bb5d",
+      "title": "Achtung, diese Medikamente wirken bei Hitze anders - WEB.DE",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSkxPeHhBZi12TThJUUFnazZSbGFBaUtxRDlMRzVSblhmai1LV1BNVmNEbGlmeklDM1hEa2RJS0JUVm9GSWZZQUJUSUwwRjVqOTMzdVVRQ0JLcGd3WW9uUmZvbDV6ZGZ2dGxMMmFuM1hGVkVoSTkwWkN1bU1Jd2dmam5xUnNIdXBvMHhHX1VlT2o?oc=5",
+      "published": "2026-06-24T07:00:00+00:00",
+      "source": {
+        "name": "WEB.DE",
+        "url": "https://web.de"
       }
     },
     {
@@ -1001,6 +981,26 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "815d7c3030a9",
+      "title": "Erkältungen und Infekte nehmen zu: Droht wieder ein Medikamentenengpass? - Tagesspiegel",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOb3BrN2sybjFrd2xZYTlUZENWRE9fZEJyVHZJWGZHZHA3SG10dXNKSm5LVF9zR2h4VzVkdHM5OVFnbGo5MkpPWmEyV2JPWVVXWUtsR0Z1RVEyY1hFa0tqTzJzWFN0R0xJMXdSOUJYbG9wT0tVVkxsVnZINDFZMmpyUGg0NlVQSnRnYlh4ejF2Z19NMmJEZlVNVzIyVHNUTWNGM0tENk93TE1EMWd6Zm51Q1lMUHpobzkyT3B3N21yVUY?oc=5",
+      "published": "2025-09-19T07:00:00+00:00",
+      "source": {
+        "name": "Tagesspiegel",
+        "url": "https://www.tagesspiegel.de"
+      }
+    },
+    {
+      "id": "3440290c6435",
+      "title": "SVR-Gutachten: Das Ende der Planbarkeit - Pharma Fakten",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1BaVFzZDBFRjM5VWpVUkwwVXFBSzRTUWpTMG92cTNXYnpnRUdqTE93aWxMZXcwRExHdzBMNEtfZ3dXcDE3Q3NEcG1tNGVGMXcydnNJQVFPSG1sYWhPSmd5QTdwOWNWUFpuZzUxUE8zQXprUXFUaGNHZA?oc=5",
+      "published": "2025-05-23T07:00:00+00:00",
+      "source": {
+        "name": "Pharma Fakten",
+        "url": "https://pharma-fakten.de"
       }
     }
   ]
