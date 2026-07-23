@@ -1,8 +1,18 @@
 {
-  "fetched_at": "2026-07-23T16:27:30.023535+00:00",
+  "fetched_at": "2026-07-23T18:13:26.971592+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
+    {
+      "id": "ee3915939bdf",
+      "title": "Dringende behördliche Warnung: Honig-Produkte enthalten nicht zugelassene Arzneimittel - CHIP",
+      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQY1ZlaW4wQ0tMa1hhaFJNWW51ZHhiMEVrRUNpMDhHS0R4eVJtU0RjV1JSTU1KRnpQTlBSeG8xMGI0ajdUU05ZMlB6dUJTc0k0X3llbzFrUzJUaHhfalVtRjBmemNQZ1NvYVhGdENsQ1kyOTJtMFNSSVdHX3VmTk1kWGNkVDdrRzZaaXlLUTVkb0FNRWMxdDMwM2plZWV6dGFHeWJjeWdxT1h0YUJ0d1g4V29Dekl1TjhUZFRrTmE3SHhwUEZ1Y1EwVExKeThUOHhfR3VNUGV2ajFNbXpYZ3NCa0xQODJfdkZ5a1dQUE9CR3ZIX0VCZTRHX3RkN0huNFVzX1Eyeno4WnpNYUk?oc=5",
+      "published": "2026-07-23T12:01:00+00:00",
+      "source": {
+        "name": "CHIP",
+        "url": "https://www.chip.de"
+      }
+    },
     {
       "id": "661c923c4588",
       "title": "Neue Abnehmpille mit Semaglutid: Was sie kann, für wen sie geeignet ist und wann sie zum Risiko wird - NDR.de",
@@ -17,7 +27,7 @@
       "id": "ec04455a13f7",
       "title": "Ozempic und Wegovy bei Brustkrebs: Studie deutet auf bessere Überlebenschancen hin - Frankfurter Rundschau",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOc045eGJJYWdkWGJaZ2g3QVo0aXNtU3JCSVVnYktOWkpWRXN0WkdQR01temd3ek5vTmRUUldneTZfRDZuSTI5YTQzRkE5N0wtb3FkTzhXRV8yOXlGekV5TnprRUtndE5YVVFuQzVza3ZkRGxxWnpsdXdhVWVfZHRTTkJTMzdSUE5EdFg4MFV3R3ZEMnNuSXdrWUFFd3A4LVUyRnFvVjdmWWxRUGZfNElua0RVU1k5MjlzNG9jZmNaY0FCQQ?oc=5",
-      "published": "2026-07-23T13:29:30+00:00",
+      "published": "2026-07-23T13:29:00+00:00",
       "source": {
         "name": "Frankfurter Rundschau",
         "url": "https://www.fr.de"
@@ -144,26 +154,6 @@
       }
     },
     {
-      "id": "f7c833495bd1",
-      "title": "Me­di­ka­men­te im Ur­laub: So schüt­zen Sie sich vor Fäl­schun­gen - Die Rheinpfalz",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQbVlsX3VLeWJGQmtrMVQ1dFdSRGpQZEN1NFl2T0NvelNQbFBQMFgwUEI0UGtQdU5OZHNCRG5TTU1NZFlPYlFuX1pkOGllRkYtT1RPeGRlZXIwa0p4OTc5NlRHVWpCY05FQ1FvZEU2MlUxR3BsRmctVDliQVNLMEY3V1d5bHB0UG9oVVNFTmtGT204eDNjLXJ5R2dNZ3Q2eUlNZ2RId1lDUTIwdG52X2ZINUtsNThxNEtTci1BNGlzODcyemtfVzVLUUJtZGZIY3FaRGNZVlB4OGZRdw?oc=5",
-      "published": "2026-07-08T13:31:00+00:00",
-      "source": {
-        "name": "Die Rheinpfalz",
-        "url": "https://www.rheinpfalz.de"
-      }
-    },
-    {
-      "id": "3458fe1a7fed",
-      "title": "Definition der Rolle der Krankenhausapotheke - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1sUnNBSTF6dXYzTzcxRW0yY3d3S2hyNnRjenNKblpyaWJjMXpLLTI2TldnNWc1S01YdFdMQVNTR0E5aU1LQVJ3VTh2djB1RVVRYWNkb19HSWt1bXY0WHZDLXJOSFZ5LWJYUTMxTg?oc=5",
-      "published": "2026-07-23T02:30:16+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "4e6d48112005",
       "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesministerium für Gesundheit (BMG)",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT3NRWE1tbWNRMllaUC1GUGtRV3YxaWhZZ21nQThUT3NGbS1DbkFfRzdSd3RvUUVsTkVJdUpYRFp0ekFHV1JtTEJZZ0I5dWJvajgzZzdZZDk5S3FROHRoeVJzS3VBRTBuTldDWW52dG5kLWxpUTlMZmpLdUZZekxaOEJQYTlUbTdLRTBsR1k4TlE1ajIxYTFiZ041eFppZktLWjJZYVQyRlNOVEd1RGdIVmpBRDMteG1xdHdyUmVn?oc=5",
@@ -204,6 +194,26 @@
       }
     },
     {
+      "id": "757ada6e5c57",
+      "title": "\"Zentrales Ziel verloren\": Warum Patienten nicht von jeder Krebstherapie profitieren - T-Online",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOd2NyWHo0ZEU1aENlTGFpaHdXUmN6bXl5dEJqQVNuV0Foa0U0Zk9hVTRnY09pa3NVQjRrQ0wxbFkyZFpGdFlxcmctQTY3TG5tMDlMZU43cXB5Q2tlUmdfYnVPei1tTUpYakNwdUE2b2tQNzFHYmRhMF9XWnBBQWI3WXlJdmc0SGRMb1JDR2F6ajVSNXFXdFZ1d0pZblVUZ1hwQ3lNSmZGYjBQOGlLekhDVHJfYW1taE40UHJheExOeGdjX25CSnFmanlOWXdmWlk1a0p3?oc=5",
+      "published": "2026-07-21T09:59:15+00:00",
+      "source": {
+        "name": "T-Online",
+        "url": "https://www.t-online.de"
+      }
+    },
+    {
+      "id": "3458fe1a7fed",
+      "title": "Definition der Rolle der Krankenhausapotheke - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1sUnNBSTF6dXYzTzcxRW0yY3d3S2hyNnRjenNKblpyaWJjMXpLLTI2TldnNWc1S01YdFdMQVNTR0E5aU1LQVJ3VTh2djB1RVVRYWNkb19HSWt1bXY0WHZDLXJOSFZ5LWJYUTMxTg?oc=5",
+      "published": "2026-07-23T02:30:16+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
       "id": "a54a884d55a6",
       "title": "Noch in diesem Jahr: Rossmann will Medikamente liefern - WEB.DE",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZzVIdE80VXRILUdTZTlsLTQwMHlHX1FMSjhsUGppeGJjNERCQkdLeDJwNnp6UUZTWWNmTW0xaUVZaGhHS1ZXSWV2TUZLbzNLdVVuei11TDZ4VVlQNU1CQUVuRTM0RHV3S3pYcnM3UThsNDhsaWFicE5ET0Noek1mcTFWbw?oc=5",
@@ -224,16 +234,6 @@
       }
     },
     {
-      "id": "757ada6e5c57",
-      "title": "\"Zentrales Ziel verloren\": Warum Patienten nicht von jeder Krebstherapie profitieren - T-Online",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOd2NyWHo0ZEU1aENlTGFpaHdXUmN6bXl5dEJqQVNuV0Foa0U0Zk9hVTRnY09pa3NVQjRrQ0wxbFkyZFpGdFlxcmctQTY3TG5tMDlMZU43cXB5Q2tlUmdfYnVPei1tTUpYakNwdUE2b2tQNzFHYmRhMF9XWnBBQWI3WXlJdmc0SGRMb1JDR2F6ajVSNXFXdFZ1d0pZblVUZ1hwQ3lNSmZGYjBQOGlLekhDVHJfYW1taE40UHJheExOeGdjX25CSnFmanlOWXdmWlk1a0p3?oc=5",
-      "published": "2026-07-21T09:59:15+00:00",
-      "source": {
-        "name": "T-Online",
-        "url": "https://www.t-online.de"
-      }
-    },
-    {
       "id": "ca3fbb8f0e20",
       "title": "SPD macht Arzneimittelversorgung zur Sicherheitsfrage - gesundheit adhoc",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaUx0Nm5DX2dXSFptbnJSOFlNVzVxaHpReWZiSVVVb0JMSnFzR3dVOHdiYzVEOGRaczRySGhxSVI3TlJOa3BJdzRyejl3bEhObFE0WWxKTVJ4NFd4MVJ2eW43RFF5dUFrNFNlTnZnZWZaVXRoMk14VlZPVi0yREtsa2ZIOURjQUpvNVZSMlV5cw?oc=5",
@@ -241,6 +241,16 @@
       "source": {
         "name": "gesundheit adhoc",
         "url": "https://www.gesundheit-adhoc.de"
+      }
+    },
+    {
+      "id": "e89bb6a1a7a1",
+      "title": "Medikamente im Urlaub: So schützen Sie sich vor Fälschungen - Mindener Tageblatt",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVmFuWXBXcV9mM2x0cUItRFVsbl9ONUdXMVcwemo1cWVtaV8yeHktdFZaMW5BSURRRmxTMjA0OGx3eUZvVGQzOUpNSmpTODRvUFU0VXF0SkRyaVV0eWFIanJ2NHJoQWFEeDMtSVp3SUVfYnJPTHBXM3RvRzE2aEEyejdtR0dQaUltczRkRk1nVnFjM2ViMnM0aWdJNV8ycWZHYUllZGVWM0hGelpWZ2hzanp3?oc=5",
+      "published": "2026-07-08T13:29:58+00:00",
+      "source": {
+        "name": "Mindener Tageblatt",
+        "url": "https://www.mt.de"
       }
     },
     {
@@ -294,12 +304,12 @@
       }
     },
     {
-      "id": "02e9917bea66",
-      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - DW.com",
+      "id": "8db31424e5bb",
+      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - dw.com",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGxHSlhmSS0tbUNKdG15NEVzRzYzYllEUnAzUEU3ak53czRHVWlKdTZrRGFDMk1MUThPUjdPTnBGVENqd3d2Q1VSdWhJVXppWDF4NWh0aEJJaXJlVTlnV0VoZVFkRHNSM3p6NVZXNjNwWHk5YkxSUWR2RGZKcmp3Y2U5REY0U3dRZFJLeHFtQk9wb2Y3RUVOaVBlMlJhZ29Rck000gGjAUFVX3lxTE1rTW00WXFBajZxbTJOS1NLckhVbXFBSzh1NE96QTEydTN1YjZnaFFNcV8xblZGM29hdTZQUHc4V3YzQ1pwcTlaVVBhZDVqMExLMTlYVzZ6TmM4ZUdsUm5TLXpPNmk1R3V4UktvaV93cWttNFpVX0VEZlZnUllSQkhyUlZmeTBJcU0zUEVSZTgxdzFWUnFNRk9CYVljN0Jhd0ZXUFk?oc=5",
       "published": "2026-05-12T07:00:00+00:00",
       "source": {
-        "name": "DW.com",
+        "name": "dw.com",
         "url": "https://www.dw.com"
       }
     },
@@ -351,6 +361,16 @@
       "source": {
         "name": "Tagesspiegel",
         "url": "https://www.tagesspiegel.de"
+      }
+    },
+    {
+      "id": "be7b09aa679c",
+      "title": "Nahrungsergänzung: 415 Millionen Packungen trotz fehlender Belege - Ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNTZadlZUM0tCLTk2c0NMUE05UFlkWTQ1UV8xWmhCR19GU2puNTlYRi1td2ZHc0RfVkI1UEE4bElaXzRWX1EzTGZScjhoV19SdDUyWkNobXJEanlVWkNURzA2WnYzTUx0eEtIblQyRVdzOFlmTkZ5SUltSnJvNWNEZUUzUXN2YU91X0p1bU1xUzdyaUlnYWpVVXh1VlRVMHhyS3lmZDlHUDkta0NSaTVIQXZ4d2U?oc=5",
+      "published": "2026-07-21T09:09:15+00:00",
+      "source": {
+        "name": "Ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -981,26 +1001,6 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
-      "id": "815d7c3030a9",
-      "title": "Erkältungen und Infekte nehmen zu: Droht wieder ein Medikamentenengpass? - Tagesspiegel",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOb3BrN2sybjFrd2xZYTlUZENWRE9fZEJyVHZJWGZHZHA3SG10dXNKSm5LVF9zR2h4VzVkdHM5OVFnbGo5MkpPWmEyV2JPWVVXWUtsR0Z1RVEyY1hFa0tqTzJzWFN0R0xJMXdSOUJYbG9wT0tVVkxsVnZINDFZMmpyUGg0NlVQSnRnYlh4ejF2Z19NMmJEZlVNVzIyVHNUTWNGM0tENk93TE1EMWd6Zm51Q1lMUHpobzkyT3B3N21yVUY?oc=5",
-      "published": "2025-09-19T07:00:00+00:00",
-      "source": {
-        "name": "Tagesspiegel",
-        "url": "https://www.tagesspiegel.de"
-      }
-    },
-    {
-      "id": "3440290c6435",
-      "title": "SVR-Gutachten: Das Ende der Planbarkeit - Pharma Fakten",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1BaVFzZDBFRjM5VWpVUkwwVXFBSzRTUWpTMG92cTNXYnpnRUdqTE93aWxMZXcwRExHdzBMNEtfZ3dXcDE3Q3NEcG1tNGVGMXcydnNJQVFPSG1sYWhPSmd5QTdwOWNWUFpuZzUxUE8zQXprUXFUaGNHZA?oc=5",
-      "published": "2025-05-23T07:00:00+00:00",
-      "source": {
-        "name": "Pharma Fakten",
-        "url": "https://pharma-fakten.de"
       }
     }
   ]
