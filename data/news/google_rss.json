@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-23T22:05:10.067991+00:00",
+  "fetched_at": "2026-07-24T00:01:40.618753+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -164,16 +164,6 @@
       }
     },
     {
-      "id": "f42206726e6b",
-      "title": "Gilead Sciences: Medizinprodukte und Therapien kurz erklärt - Ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQnFBTk9KbHZqWmltcHFISktjdEE5SE9FOF9namk1VERqRzFwRHphN1lTa0VvckpXOEI4MnJfeElvRFdUWWhoNlV4T2tSUnJtUXA1dEk2Qk9PN25rVEhoQW04M0o0cXpaM1dpbmszamltRkJiZDVnSjdWaE9fenFVd0pRQjhFbUVfN3dDbDg0OENmQXpkd0dRa0ZPOXk4TllBTnVNMUtOZWZnSEhXcUk2YkE2UGJxTVFUSFE?oc=5",
-      "published": "2026-07-23T13:19:18+00:00",
-      "source": {
-        "name": "Ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "2a4cd6eb6d1d",
       "title": "Arzneimittelengpässe in Europa – so reagiert die EU - European Parliament",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYUFLam5JQVMtSlNuNWlqSTJrRUNDN215RDlRU2hOMEE0Rkp3cHBodVhSbXRsSUhvTTRhMTVLWEE5QmM0dXJRNGlPSkwyZ2doMHhlaEpHbW5DZl8tazhQc3lPcEN4SmtLaEdGMk9IZjF5MGZvNEd3a2tXSnJXT1ItanFsV2gtRGpMYjlUbHV2OURrMkM5OXA3emh5OERlMlpXc1J1UlNVYUp1UlBUd1gzREtLUkZRZw?oc=5",
@@ -181,6 +171,16 @@
       "source": {
         "name": "European Parliament",
         "url": "https://www.europarl.europa.eu"
+      }
+    },
+    {
+      "id": "f42206726e6b",
+      "title": "Gilead Sciences: Medizinprodukte und Therapien kurz erklärt - Ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQnFBTk9KbHZqWmltcHFISktjdEE5SE9FOF9namk1VERqRzFwRHphN1lTa0VvckpXOEI4MnJfeElvRFdUWWhoNlV4T2tSUnJtUXA1dEk2Qk9PN25rVEhoQW04M0o0cXpaM1dpbmszamltRkJiZDVnSjdWaE9fenFVd0pRQjhFbUVfN3dDbDg0OENmQXpkd0dRa0ZPOXk4TllBTnVNMUtOZWZnSEhXcUk2YkE2UGJxTVFUSFE?oc=5",
+      "published": "2026-07-23T13:19:18+00:00",
+      "source": {
+        "name": "Ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -211,6 +211,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "f7c833495bd1",
+      "title": "Me­di­ka­men­te im Ur­laub: So schüt­zen Sie sich vor Fäl­schun­gen - Die Rheinpfalz",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQbVlsX3VLeWJGQmtrMVQ1dFdSRGpQZEN1NFl2T0NvelNQbFBQMFgwUEI0UGtQdU5OZHNCRG5TTU1NZFlPYlFuX1pkOGllRkYtT1RPeGRlZXIwa0p4OTc5NlRHVWpCY05FQ1FvZEU2MlUxR3BsRmctVDliQVNLMEY3V1d5bHB0UG9oVVNFTmtGT204eDNjLXJ5R2dNZ3Q2eUlNZ2RId1lDUTIwdG52X2ZINUtsNThxNEtTci1BNGlzODcyemtfVzVLUUJtZGZIY3FaRGNZVlB4OGZRdw?oc=5",
+      "published": "2026-07-08T13:31:00+00:00",
+      "source": {
+        "name": "Die Rheinpfalz",
+        "url": "https://www.rheinpfalz.de"
       }
     },
     {
@@ -344,16 +354,6 @@
       }
     },
     {
-      "id": "e89bb6a1a7a1",
-      "title": "Medikamente im Urlaub: So schützen Sie sich vor Fälschungen - Mindener Tageblatt",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVmFuWXBXcV9mM2x0cUItRFVsbl9ONUdXMVcwemo1cWVtaV8yeHktdFZaMW5BSURRRmxTMjA0OGx3eUZvVGQzOUpNSmpTODRvUFU0VXF0SkRyaVV0eWFIanJ2NHJoQWFEeDMtSVp3SUVfYnJPTHBXM3RvRzE2aEEyejdtR0dQaUltczRkRk1nVnFjM2ViMnM0aWdJNV8ycWZHYUllZGVWM0hGelpWZ2hzanp3?oc=5",
-      "published": "2026-07-08T13:29:58+00:00",
-      "source": {
-        "name": "Mindener Tageblatt",
-        "url": "https://www.mt.de"
-      }
-    },
-    {
       "id": "e55e30521cda",
       "title": "Vorschläge der FinanzKommission Gesundheit für eine Reform der GKV - Taylor Wessing",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQVJuN0Fwenp0QU9hM01mSTRlR1ZxUzBfaExuWkRPSVIxQTBmb21HMGJ3Umd1b2Q5NjlpTkZWdnlsWU5RdG4tYmV2YWlldnhEREpzVmdLaURVbVpCR2pFRDY5Z1d6VW53bGtvaGgwTkRMeFMzeWI5WDJNd2ZXdTl4WkJTRURfbEstNXlJaXdzNGlwQTF5dHJ2Mjg1bFlJTW1SajFpM3VpMEtDdXZuNWplY3NnTQ?oc=5",
@@ -411,16 +411,6 @@
       "source": {
         "name": "Tagesspiegel",
         "url": "https://www.tagesspiegel.de"
-      }
-    },
-    {
-      "id": "3458fe1a7fed",
-      "title": "Definition der Rolle der Krankenhausapotheke - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1sUnNBSTF6dXYzTzcxRW0yY3d3S2hyNnRjenNKblpyaWJjMXpLLTI2TldnNWc1S01YdFdMQVNTR0E5aU1LQVJ3VTh2djB1RVVRYWNkb19HSWt1bXY0WHZDLXJOSFZ5LWJYUTMxTg?oc=5",
-      "published": "2026-07-23T02:30:16+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -494,6 +484,16 @@
       }
     },
     {
+      "id": "3458fe1a7fed",
+      "title": "Definition der Rolle der Krankenhausapotheke - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1sUnNBSTF6dXYzTzcxRW0yY3d3S2hyNnRjenNKblpyaWJjMXpLLTI2TldnNWc1S01YdFdMQVNTR0E5aU1LQVJ3VTh2djB1RVVRYWNkb19HSWt1bXY0WHZDLXJOSFZ5LWJYUTMxTg?oc=5",
+      "published": "2026-07-23T02:30:16+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
       "id": "1bb1a7cdbb92",
       "title": "Arzneimittelüberwachung - schleswig-holstein.de",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRnFVbGVSc1N0RXg0Tmw5WnF1VDNTU3liRXRGQloyYlF1bDhkZl9RS0J6ZmdTenB1WjVvdjZJSElYQm9JbTlVYnNnMlI4SjhZZjAyb1hTVTVjczhoQVUwSFI4OU9aU0NOemk3eG9MT2ZtVXVoTXJzdGI3NmVnMm53Mll2bDB6OVRvQTkwbmFEQVRZVF9YM1Jja0lWY3VRSVBENDBYZlFkWFVTQ0hTWUM4eWtrODVLTko1R2owWW5jWGhVRkllNWhJSUlEaXNzZw?oc=5",
@@ -504,13 +504,13 @@
       }
     },
     {
-      "id": "0791514ec89d",
-      "title": "Steigende Arzneimittelkosten: Gesundheitsministerin Warken will Zugang zu neuen Medikamenten für alle erhalten - MDR.de",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPenF3ckVCSXl3ZmNka21FSTVtdkdoeGRZaEQ4Nnc4ZktKZk16U0ZUd19vYWRsZDdQUDZZLVFCd2k2anZScnRpSnJtXzRCbEozRm9fMEpkcVhjZ3dwT21zQVZPX2MybWdSUHBNeTZ3TmtESDFOWFNfM0lPV1Z4M3BmUTNkLTRfVGgxRUh4OWNOblh5ZGdCaUs5WXZmR2VVaVV5d1VHR1BHUFhubGtCWlFyZWk3VnhWZjdpWE9jNE5B?oc=5",
-      "published": "2025-12-09T08:00:00+00:00",
+      "id": "9d83d0e91268",
+      "title": "Gutachten: PFAS in Arzneimitteln sind oft ersetzbar - oekotest.de",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcmFwTWtsWWNqb3BaNFc3UFNBT0VDcmRFbC1falEyOVlfNGlwT0FTVklPc2lKRWpFeTRVbmVrT2FkbW95SHFNeGZxdHQ1RzdicGxuNmQzTDNXb2FETWlVd3lIbU43Z2tFdThxYVJEb3RKdXJqT3NSYXQ5ZzRuNlZVRUw2RlNEZkRhRlVfLUpBWGx5cnBPRkJXNThjTk5wcjIyUFJqR0o0NFBRcEkwWUE1RQ?oc=5",
+      "published": "2026-06-29T07:00:00+00:00",
       "source": {
-        "name": "MDR.de",
-        "url": "https://www.mdr.de"
+        "name": "oekotest.de",
+        "url": "https://www.oekotest.de"
       }
     },
     {
@@ -521,6 +521,16 @@
       "source": {
         "name": "Deutschlandfunk",
         "url": "https://www.deutschlandfunk.de"
+      }
+    },
+    {
+      "id": "0791514ec89d",
+      "title": "Steigende Arzneimittelkosten: Gesundheitsministerin Warken will Zugang zu neuen Medikamenten für alle erhalten - MDR.de",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPenF3ckVCSXl3ZmNka21FSTVtdkdoeGRZaEQ4Nnc4ZktKZk16U0ZUd19vYWRsZDdQUDZZLVFCd2k2anZScnRpSnJtXzRCbEozRm9fMEpkcVhjZ3dwT21zQVZPX2MybWdSUHBNeTZ3TmtESDFOWFNfM0lPV1Z4M3BmUTNkLTRfVGgxRUh4OWNOblh5ZGdCaUs5WXZmR2VVaVV5d1VHR1BHUFhubGtCWlFyZWk3VnhWZjdpWE9jNE5B?oc=5",
+      "published": "2025-12-09T08:00:00+00:00",
+      "source": {
+        "name": "MDR.de",
+        "url": "https://www.mdr.de"
       }
     },
     {
@@ -654,16 +664,6 @@
       }
     },
     {
-      "id": "a43852bf5366",
-      "title": "vfa zum Kommissionsbericht: Sparmaßnahmen für Pharmaindustrie im Faktencheck - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaGl6UGU2SlFIcnhfcTBza2E0aTZxOEEwd2xOWmxUT3hwYzYzSDRsSGJZa3g0U3BwTWpQdm01enFWcUVYeFhtR0d2SkJDQmVURmpFa0x0LXpYRTEzd1dtbmxyVWE2NVpZcE1DamxIT2kybUxscTV0QnZtTmVNRW1uLUxOeUw2cUlUZFRQUmdCYXZ4UEF4TFJuY092eU4tZw?oc=5",
-      "published": "2026-04-02T07:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "43391a6b49a7",
       "title": "Longevity-Trend | Wie gefährlich sind Drip-Spa-Infusionen? - WDR",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQVJfdGdlV1hMbHZtblVuLXZCMGQtTmhvNjF0a2tVRnkxUUtJVk51aWNJb3FpM3BlcVZiSzFYbnRMc1ZyZ1hxM1dxYkhLVm1wZGwwcTBXZEhQUGJNT2dnNWVNMWoycWo5Nk9JeTF1cUdSRThwNm5nZ0JJSnhhc2tGVlBSMVRGR2wzU2VKbGoxRnfSAY8BQVVfeXFMUHh5ektFRTdFX0J0bUF0b1owcDBkdGNLbDBQcXhjdEMzSS00Q0ZFN1U0LVZzRklSRU5TclluXzN2bXlLV2d5ZHc2NEVWMU1hRlRqb3E2QWY0S1d6QUstMnZ1S3J4TmlmQ2hETVFOYUlTbUNITWtPZlJjVXFsZmt0dkJxY0ZlbDFCQkd5aUpCYms?oc=5",
@@ -684,6 +684,16 @@
       }
     },
     {
+      "id": "c5e8dfb6e8ee",
+      "title": "Gesundheitswirtschaft: Sparplan ist für Warken »kurzfristige Operation am Herzen« - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPM2ZHWEhpckd3UktDNnQwSDMtZ09XX21zQk16ckN2dG12bWFSWGNDdXNfc0xpNlJqS3ZfajRSMFRzTlRPYVNxVHNlZlJnWjI4VGcwYjhnOGhwZG9md3k2eDVHUGJfazhIU1NGVUQ1MjFYLUF1VmpVQlUyQjJnUjdqSUNZUTdGWnd4Yi1LZnpWaG1iaW5GZHBTM3p1bk1yZHNnSFJKQmpUOA?oc=5",
+      "published": "2026-05-19T07:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
       "id": "b027289bf54f",
       "title": "EU-Generalanwalt: Versandverbot nein, aber ... - apotheke adhoc",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaGRRUFJ5MDV6WGZaTE84UlB3SU83OElpQ2dBVXJTMFRLWWFlSmN0alJ0eS1ZdF9zN09MZUhESFJDd2J1TVNQeHZRQ1ZLMVNtMC1OSm9DV01oVXhWVzRtOENHbUpnRE10akgwUnRyRmkzckZ1UFhIb05aM1ZLcVN1WkFKRUVRd3VaaWpZVUdraVRVdUtER2tIc1FjTWFqS3VIY0IzeERfWnJ4UQ?oc=5",
@@ -694,10 +704,10 @@
       }
     },
     {
-      "id": "c5e8dfb6e8ee",
-      "title": "Gesundheitswirtschaft: Sparplan ist für Warken »kurzfristige Operation am Herzen« - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPM2ZHWEhpckd3UktDNnQwSDMtZ09XX21zQk16ckN2dG12bWFSWGNDdXNfc0xpNlJqS3ZfajRSMFRzTlRPYVNxVHNlZlJnWjI4VGcwYjhnOGhwZG9md3k2eDVHUGJfazhIU1NGVUQ1MjFYLUF1VmpVQlUyQjJnUjdqSUNZUTdGWnd4Yi1LZnpWaG1iaW5GZHBTM3p1bk1yZHNnSFJKQmpUOA?oc=5",
-      "published": "2026-05-19T07:00:00+00:00",
+      "id": "a43852bf5366",
+      "title": "vfa zum Kommissionsbericht: Sparmaßnahmen für Pharmaindustrie im Faktencheck - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaGl6UGU2SlFIcnhfcTBza2E0aTZxOEEwd2xOWmxUT3hwYzYzSDRsSGJZa3g0U3BwTWpQdm01enFWcUVYeFhtR0d2SkJDQmVURmpFa0x0LXpYRTEzd1dtbmxyVWE2NVpZcE1DamxIT2kybUxscTV0QnZtTmVNRW1uLUxOeUw2cUlUZFRQUmdCYXZ4UEF4TFJuY092eU4tZw?oc=5",
+      "published": "2026-04-02T07:00:00+00:00",
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
@@ -734,13 +744,13 @@
       }
     },
     {
-      "id": "bcef033d2bcc",
-      "title": "Gesundheitsvorsorge - Arzneimittel-Überwachung - schleswig-holstein.de",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOeE80cXNlV3RkMlM5WUhkbVM5amVOZy0zdm9LMlN6dS1IRlVjMDJzcW9GWF9SMmdUUVd5dDJ0THpRejN5emROc180bmNuQjlGVWUwdE9mSFdHMUJyLVRfcTJoSHBRWDlFZ2tvSFlCNGtMTnpIV2dLQk5uMzY4YWY1U0N6cVdmdmdaVEoyTnlXc2x3bFNJT3NfckhVa1ZfZExJLVZRaXZEaW1abVVVQWVXTWg4MTg4WEU2bDFBaw?oc=5",
-      "published": "2025-08-29T07:00:00+00:00",
+      "id": "8c6176b8d248",
+      "title": "Gesundheit: Zahl der Apotheken auf niedrigstem Stand seit fast 50 Jahren - WiWo",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOeHJGQWl1Uy1VZmpEb0ItN0xnZzZBQkFRQjU1WDBEdjBrcHZOaVZyc2V6SXJCSE5zNW1tUlZPLWtvVVpTZmF0eExibVdZYS0xcExpU0pPV1dIVDhhdGk1RXNBT0E0cGlZZkJjUGw3ZElOU1pRRndSZGlYeG8yYUZRYW1kQ1dOMDVHS21qRzFsUHBoUVJPRHdFNlRfM1ZEQjYwSDZRWmNhNEFIT2JWcWZRbVhrUUVBMFFCMXdkMUVyY2tDejNIUGt5eXJBS0s?oc=5",
+      "published": "2026-05-05T07:00:00+00:00",
       "source": {
-        "name": "schleswig-holstein.de",
-        "url": "https://www.schleswig-holstein.de"
+        "name": "WiWo",
+        "url": "https://www.wiwo.de"
       }
     },
     {
@@ -751,6 +761,26 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "bcef033d2bcc",
+      "title": "Gesundheitsvorsorge - Arzneimittel-Überwachung - schleswig-holstein.de",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOeE80cXNlV3RkMlM5WUhkbVM5amVOZy0zdm9LMlN6dS1IRlVjMDJzcW9GWF9SMmdUUVd5dDJ0THpRejN5emROc180bmNuQjlGVWUwdE9mSFdHMUJyLVRfcTJoSHBRWDlFZ2tvSFlCNGtMTnpIV2dLQk5uMzY4YWY1U0N6cVdmdmdaVEoyTnlXc2x3bFNJT3NfckhVa1ZfZExJLVZRaXZEaW1abVVVQWVXTWg4MTg4WEU2bDFBaw?oc=5",
+      "published": "2025-08-29T07:00:00+00:00",
+      "source": {
+        "name": "schleswig-holstein.de",
+        "url": "https://www.schleswig-holstein.de"
+      }
+    },
+    {
+      "id": "5d8c89f1b6f0",
+      "title": "Gesundheitsökonom Kugler: \"Wir bezahlen nur wirklich nützliche Medikamente\" - MDR.de",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWDlDNjhEYjgwOHl4R3NZUWFqaEo4Qkd4OUZISDllZG9TcVJubHF1MnUwRVRPY2pZLWZFdlQzdktxelU5SktXdlBaSkIxcFJjN2dJUXJTYklvSFpOckcxSjdvRkxRM0RjRy0yUEtIRWVPWF9JZmNMc1d1NXFMWHFVajJ0LWY1cDh6Ql9aYmFUQnE4LVlGNUFIZW5IR0E5TU5nak5ESlB0d2hSU2U0UWJQeWRfZllHVkcyeGdMVi1uRlFFU25OV0dv?oc=5",
+      "published": "2026-04-26T07:00:00+00:00",
+      "source": {
+        "name": "MDR.de",
+        "url": "https://www.mdr.de"
       }
     },
     {
@@ -771,26 +801,6 @@
       "source": {
         "name": "WEB.DE",
         "url": "https://web.de"
-      }
-    },
-    {
-      "id": "5d8c89f1b6f0",
-      "title": "Gesundheitsökonom Kugler: \"Wir bezahlen nur wirklich nützliche Medikamente\" - MDR.de",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWDlDNjhEYjgwOHl4R3NZUWFqaEo4Qkd4OUZISDllZG9TcVJubHF1MnUwRVRPY2pZLWZFdlQzdktxelU5SktXdlBaSkIxcFJjN2dJUXJTYklvSFpOckcxSjdvRkxRM0RjRy0yUEtIRWVPWF9JZmNMc1d1NXFMWHFVajJ0LWY1cDh6Ql9aYmFUQnE4LVlGNUFIZW5IR0E5TU5nak5ESlB0d2hSU2U0UWJQeWRfZllHVkcyeGdMVi1uRlFFU25OV0dv?oc=5",
-      "published": "2026-04-26T07:00:00+00:00",
-      "source": {
-        "name": "MDR.de",
-        "url": "https://www.mdr.de"
-      }
-    },
-    {
-      "id": "8c6176b8d248",
-      "title": "Gesundheit: Zahl der Apotheken auf niedrigstem Stand seit fast 50 Jahren - WiWo",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOeHJGQWl1Uy1VZmpEb0ItN0xnZzZBQkFRQjU1WDBEdjBrcHZOaVZyc2V6SXJCSE5zNW1tUlZPLWtvVVpTZmF0eExibVdZYS0xcExpU0pPV1dIVDhhdGk1RXNBT0E0cGlZZkJjUGw3ZElOU1pRRndSZGlYeG8yYUZRYW1kQ1dOMDVHS21qRzFsUHBoUVJPRHdFNlRfM1ZEQjYwSDZRWmNhNEFIT2JWcWZRbVhrUUVBMFFCMXdkMUVyY2tDejNIUGt5eXJBS0s?oc=5",
-      "published": "2026-05-05T07:00:00+00:00",
-      "source": {
-        "name": "WiWo",
-        "url": "https://www.wiwo.de"
       }
     },
     {
@@ -944,16 +954,6 @@
       }
     },
     {
-      "id": "80745f9d4753",
-      "title": "Gesundheitsmarkt: dm plant OTC-Angebot in Österreich - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNdHVYSEZDOFBVSGROT2l4Qi1pSEVXOXdjMGpMZmNWNTBrdjFjb004OG1xWmJtbHlSNlhMQlhUMExsSjQyMktoS1dFWVhlN1ZpWXhLR2lROW1wNVNqZXp1RkllcjBvNnIzZ2RZT3BTNVROX3lrWGgzUi1qY1RYR294M0IxUFN1ak5BaXc?oc=5",
-      "published": "2025-11-17T08:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "47afc2884d76",
       "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - geo.de",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
@@ -961,6 +961,16 @@
       "source": {
         "name": "geo.de",
         "url": "https://www.geo.de"
+      }
+    },
+    {
+      "id": "80745f9d4753",
+      "title": "Gesundheitsmarkt: dm plant OTC-Angebot in Österreich - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNdHVYSEZDOFBVSGROT2l4Qi1pSEVXOXdjMGpMZmNWNTBrdjFjb004OG1xWmJtbHlSNlhMQlhUMExsSjQyMktoS1dFWVhlN1ZpWXhLR2lROW1wNVNqZXp1RkllcjBvNnIzZ2RZT3BTNVROX3lrWGgzUi1qY1RYR294M0IxUFN1ak5BaXc?oc=5",
+      "published": "2025-11-17T08:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -991,16 +1001,6 @@
       "source": {
         "name": "NDR.de",
         "url": "https://www.ndr.de"
-      }
-    },
-    {
-      "id": "3ef1faabcc13",
-      "title": "Pflanzliche Arzneimittel – im Licht der Wissenschaft - SRF",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQUHVQVzFrZzVhLUljRzk2bktXazYwVEkwS2c1c09Ud1BkR0NSVDVETzJCcjlXU1E2TEVRelJuc3UyYUlzY19zSEU4U2Ntd1VneFZOcDhpT3FOc3Y2VGNtclN2bS14VTJ1RXdTbFJYYXlYS0RLejRRVkdqeVhxX1VpYjMzNmdNZmY4TS1EaTdpWk1SVEowc1NFeFhxLWtDdVNWbEh5RU9pX2hwc0lwbTRzUDVrSzFwMXQ1NjliU044bnJUdXgwNk9iWWdTMUhYdVMwRzgyeXB1NERiMWZvTE93NXJFdXVLNU54Nzg4NA?oc=5",
-      "published": "2026-05-30T07:00:00+00:00",
-      "source": {
-        "name": "SRF",
-        "url": "https://www.srf.ch"
       }
     }
   ]
