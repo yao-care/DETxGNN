@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-24T10:19:34.220898+00:00",
+  "fetched_at": "2026-07-24T12:19:34.415782+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -24,16 +24,6 @@
       }
     },
     {
-      "id": "ee3915939bdf",
-      "title": "Dringende behördliche Warnung: Honig-Produkte enthalten nicht zugelassene Arzneimittel - CHIP",
-      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQY1ZlaW4wQ0tMa1hhaFJNWW51ZHhiMEVrRUNpMDhHS0R4eVJtU0RjV1JSTU1KRnpQTlBSeG8xMGI0ajdUU05ZMlB6dUJTc0k0X3llbzFrUzJUaHhfalVtRjBmemNQZ1NvYVhGdENsQ1kyOTJtMFNSSVdHX3VmTk1kWGNkVDdrRzZaaXlLUTVkb0FNRWMxdDMwM2plZWV6dGFHeWJjeWdxT1h0YUJ0d1g4V29Dekl1TjhUZFRrTmE3SHhwUEZ1Y1EwVExKeThUOHhfR3VNUGV2ajFNbXpYZ3NCa0xQODJfdkZ5a1dQUE9CR3ZIX0VCZTRHX3RkN0huNFVzX1Eyeno4WnpNYUk?oc=5",
-      "published": "2026-07-23T12:01:00+00:00",
-      "source": {
-        "name": "CHIP",
-        "url": "https://www.chip.de"
-      }
-    },
-    {
       "id": "10b1aec602d9",
       "title": "Medikamente mögen keine Hitze - Ihre-Vorsorge.de",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORjNQbHBlSERZOEZTSDAxdGVWUndXLVFTRmtPQ1J0djlReV9xQkdqUGFjdklRSjlsc2dxSnBBSnpzTEl6ZW53LXFGOWlXSVAxWnZ4NWk3UGw2OTRiNjlMSGN2VFg3XzlsczhsdEdDX0dfSjY1aDlvSXE5cXQ3Q3hDOF9zRW9xWEEweXc?oc=5",
@@ -44,13 +34,13 @@
       }
     },
     {
-      "id": "661c923c4588",
-      "title": "Neue Abnehmpille mit Semaglutid: Was sie kann, für wen sie geeignet ist und wann sie zum Risiko wird - NDR.de",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOS1Rkd2duVTZnX283SmJtX0lkSWVOeDJvX3ViWVZFOGlOU251TU9Tck1sb2w3Y21iZlhQSjNNVE5jeWE3Nm5uS3JLZU1oNTVTamRMejNtbXJEUEpzV3JaQ2U1cXJDSTFPc3BlUTYzZGFuM3ZCWEZoRkNfSi0yRkpFaUZidXdBUV94UmNqSjRMUmpzQXJVWHNDeUo5S1FlX29IUGNnVUotcHFMNFU?oc=5",
-      "published": "2026-07-23T13:36:36+00:00",
+      "id": "ee3915939bdf",
+      "title": "Dringende behördliche Warnung: Honig-Produkte enthalten nicht zugelassene Arzneimittel - CHIP",
+      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQY1ZlaW4wQ0tMa1hhaFJNWW51ZHhiMEVrRUNpMDhHS0R4eVJtU0RjV1JSTU1KRnpQTlBSeG8xMGI0ajdUU05ZMlB6dUJTc0k0X3llbzFrUzJUaHhfalVtRjBmemNQZ1NvYVhGdENsQ1kyOTJtMFNSSVdHX3VmTk1kWGNkVDdrRzZaaXlLUTVkb0FNRWMxdDMwM2plZWV6dGFHeWJjeWdxT1h0YUJ0d1g4V29Dekl1TjhUZFRrTmE3SHhwUEZ1Y1EwVExKeThUOHhfR3VNUGV2ajFNbXpYZ3NCa0xQODJfdkZ5a1dQUE9CR3ZIX0VCZTRHX3RkN0huNFVzX1Eyeno4WnpNYUk?oc=5",
+      "published": "2026-07-23T12:01:00+00:00",
       "source": {
-        "name": "NDR.de",
-        "url": "https://www.ndr.de"
+        "name": "CHIP",
+        "url": "https://www.chip.de"
       }
     },
     {
@@ -64,6 +54,16 @@
       }
     },
     {
+      "id": "661c923c4588",
+      "title": "Neue Abnehmpille mit Semaglutid: Was sie kann, für wen sie geeignet ist und wann sie zum Risiko wird - NDR.de",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOS1Rkd2duVTZnX283SmJtX0lkSWVOeDJvX3ViWVZFOGlOU251TU9Tck1sb2w3Y21iZlhQSjNNVE5jeWE3Nm5uS3JLZU1oNTVTamRMejNtbXJEUEpzV3JaQ2U1cXJDSTFPc3BlUTYzZGFuM3ZCWEZoRkNfSi0yRkpFaUZidXdBUV94UmNqSjRMUmpzQXJVWHNDeUo5S1FlX29IUGNnVUotcHFMNFU?oc=5",
+      "published": "2026-07-23T13:36:36+00:00",
+      "source": {
+        "name": "NDR.de",
+        "url": "https://www.ndr.de"
+      }
+    },
+    {
       "id": "7352e2c5b205",
       "title": "So treibt Big Pharma unsere Prämien hoch - Beobachter",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPcUk3X3c3NWZxR21tX2dDQ0pCczV2dnl6VHJaWjllRWViYVlHUXF3aXNYeWNzaURyOE9hLVE5WmNwa1FHZDFELS1WMEFKNkhzX2dJR1VvMXozYy1TdTlJMVRxSmFiZ19YM2t6aGJyNGRBenJnR1Z6YXdDckxqNkUtU3ZnUE5ReTdXaVlMOWNqSQ?oc=5",
@@ -71,26 +71,6 @@
       "source": {
         "name": "Beobachter",
         "url": "https://www.beobachter.ch"
-      }
-    },
-    {
-      "id": "ec04455a13f7",
-      "title": "Ozempic und Wegovy bei Brustkrebs: Studie deutet auf bessere Überlebenschancen hin - Frankfurter Rundschau",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOc045eGJJYWdkWGJaZ2g3QVo0aXNtU3JCSVVnYktOWkpWRXN0WkdQR01temd3ek5vTmRUUldneTZfRDZuSTI5YTQzRkE5N0wtb3FkTzhXRV8yOXlGekV5TnprRUtndE5YVVFuQzVza3ZkRGxxWnpsdXdhVWVfZHRTTkJTMzdSUE5EdFg4MFV3R3ZEMnNuSXdrWUFFd3A4LVUyRnFvVjdmWWxRUGZfNElua0RVU1k5MjlzNG9jZmNaY0FCQQ?oc=5",
-      "published": "2026-07-23T13:29:30+00:00",
-      "source": {
-        "name": "Frankfurter Rundschau",
-        "url": "https://www.fr.de"
-      }
-    },
-    {
-      "id": "9a219e04df61",
-      "title": "Studie: GLP-1-Abnehmmedikamente erhöhen leicht, aber real das Risiko für Haarausfall - Euronews.com",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQm5JS2dzelBGRTgwN0pwQ1dJc1N3cHBEd05TRjRHNlNyMEpVUkhFMF9fOS1Qck9aYlRndUptbV9HNlNQcWRWWGdnZmtHM0U3U3AyMWVmTE9LV2xfNF9HX2dJQUNnYnJkcF9EbF96eUJqVnNOd25SODZrZ3Y5bl9BeF96MVpUUVZ4NHdKSmotSWdNZkNZeXNYTjYwOE9mZWl4dzF2dk1SRjlFb1VfaDVUTDQ1Wjl5MXNKbkVNQ3A0R2FvUmxYbWZR?oc=5",
-      "published": "2026-07-23T12:17:21+00:00",
-      "source": {
-        "name": "Euronews.com",
-        "url": "https://de.euronews.com"
       }
     },
     {
@@ -114,6 +94,16 @@
       }
     },
     {
+      "id": "ec04455a13f7",
+      "title": "Ozempic und Wegovy bei Brustkrebs: Studie deutet auf bessere Überlebenschancen hin - Frankfurter Rundschau",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOc045eGJJYWdkWGJaZ2g3QVo0aXNtU3JCSVVnYktOWkpWRXN0WkdQR01temd3ek5vTmRUUldneTZfRDZuSTI5YTQzRkE5N0wtb3FkTzhXRV8yOXlGekV5TnprRUtndE5YVVFuQzVza3ZkRGxxWnpsdXdhVWVfZHRTTkJTMzdSUE5EdFg4MFV3R3ZEMnNuSXdrWUFFd3A4LVUyRnFvVjdmWWxRUGZfNElua0RVU1k5MjlzNG9jZmNaY0FCQQ?oc=5",
+      "published": "2026-07-23T13:29:30+00:00",
+      "source": {
+        "name": "Frankfurter Rundschau",
+        "url": "https://www.fr.de"
+      }
+    },
+    {
       "id": "8666593cd1fe",
       "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesgesundheitsministerium",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT3NRWE1tbWNRMllaUC1GUGtRV3YxaWhZZ21nQThUT3NGbS1DbkFfRzdSd3RvUUVsTkVJdUpYRFp0ekFHV1JtTEJZZ0I5dWJvajgzZzdZZDk5S3FROHRoeVJzS3VBRTBuTldDWW52dG5kLWxpUTlMZmpLdUZZekxaOEJQYTlUbTdLRTBsR1k4TlE1ajIxYTFiZ041eFppZktLWjJZYVQyRlNOVEd1RGdIVmpBRDMteG1xdHdyUmVn?oc=5",
@@ -121,6 +111,16 @@
       "source": {
         "name": "Bundesgesundheitsministerium",
         "url": "https://www.bundesgesundheitsministerium.de"
+      }
+    },
+    {
+      "id": "f2aaee034d08",
+      "title": "Studie: GLP-1-Abnehmmedikamente erhöhen leicht, aber real das Risiko für Haarausfall - Euronews",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQm5JS2dzelBGRTgwN0pwQ1dJc1N3cHBEd05TRjRHNlNyMEpVUkhFMF9fOS1Qck9aYlRndUptbV9HNlNQcWRWWGdnZmtHM0U3U3AyMWVmTE9LV2xfNF9HX2dJQUNnYnJkcF9EbF96eUJqVnNOd25SODZrZ3Y5bl9BeF96MVpUUVZ4NHdKSmotSWdNZkNZeXNYTjYwOE9mZWl4dzF2dk1SRjlFb1VfaDVUTDQ1Wjl5MXNKbkVNQ3A0R2FvUmxYbWZR?oc=5",
+      "published": "2026-07-23T12:17:21+00:00",
+      "source": {
+        "name": "Euronews",
+        "url": "https://de.euronews.com"
       }
     },
     {
@@ -144,13 +144,23 @@
       }
     },
     {
-      "id": "51917339f8d3",
-      "title": "Ärzte ohne Grenzen kritisieren Lenacapavir-Preis - Deutsche Apotheker Zeitung, DAZ",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNeFoyYlZqNE9PNlpOQ3JucjZBSjl1RnJyb1FTVm9oWE1ZVklkM2p3SzBOTUprZTl3ZEJ0U0VRTXhIY2o5YWtTZk9iU1NDd0c2cmUzN3ZZanRoUVB4VU56d1BrWEM3WUJPTmhQQ2ZieG1qV3JIaTEyMlUtN1VUSmp5a1JkT1A2bEdOWkhzSFZFSXNfNDQ2MENhSk9GU014bFNBa2NjWDQ1S2pyd1hOdURfQVdqZkhIdw?oc=5",
-      "published": "2026-07-21T22:00:00+00:00",
+      "id": "ec24c4231732",
+      "title": "Nutzenbewertung von Arzneimitteln: IWiG erweitert den Blick auf die Bewertung neuer Therapien - PresseBox",
+      "link": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxNUVVJT0hoakpaN3BCUHFqSUdNODByNjhHeHU3VUJCaFVFU2tOY3o0cURmZDRBWGdwNjVjb1ZsOWR3WjcyUGU4VU5IS0VfcDNRSWlsQ2ZSbWV3Q0dqNmlzY1J0dEFiTGxxR0N2dkxSSjV2cVNsazkzWGEwXy14ekRmQUVmMldFeDVIbGp6TVNhWmFlZllWaGVNNktzVWVRRzlQZUFUVHJQcVlIeFFjd20zMGZnWFVOVGxIZHQyUU1pQlN1RS1Fc0U5U0hIR2dSRU1ESlc3NnlGamdPd1JydV9SYXh4Znc3eEtYd3hvV3NFYnpvVmJRTVBZMDBBVmJ0dXV0LUpTNjJtZlZOU18tNnZXTEM1R1hPZ08tMEJWOS1HeFhOeGhmbzBXY1IzUlJGYU5VeWtjbk42LWZxTC00MktlUkFR?oc=5",
+      "published": "2026-07-22T13:26:00+00:00",
       "source": {
-        "name": "Deutsche Apotheker Zeitung, DAZ",
-        "url": "https://www.deutsche-apotheker-zeitung.de"
+        "name": "PresseBox",
+        "url": "https://www.pressebox.de"
+      }
+    },
+    {
+      "id": "7aa8c1156c22",
+      "title": "Apotheker im Kreis Heinsberg empfehlen: Warum die Reiseapotheke wichtiger denn je ist - RP Online",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOclNzOHhfbnRmRldSM0pPc0FSRFp0SkxlcFBjM3VLS0NlZDRDSkZLRGt4WkNqSlhJRXJoODBROWFVdTlsSGUzSU5XZTBMd2J3Q2xuYmpKZUZESnBUbkRaRHNmU2tYbFFGTnVOUFFCbzRUUVZDSVIxQV8tdUUxMXdkbzFIZ25UanN1a0dKakZZRlZYenUxSGVaXzkxa3JUa3FhNWxua2dXOWVtSVBDdVQ3YVoybXJGay1PUWo2N2tOd0FfUQ?oc=5",
+      "published": "2026-07-24T03:10:00+00:00",
+      "source": {
+        "name": "RP Online",
+        "url": "https://rp-online.de"
       }
     },
     {
@@ -164,23 +174,13 @@
       }
     },
     {
-      "id": "2a4cd6eb6d1d",
-      "title": "Arzneimittelengpässe in Europa – so reagiert die EU - European Parliament",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYUFLam5JQVMtSlNuNWlqSTJrRUNDN215RDlRU2hOMEE0Rkp3cHBodVhSbXRsSUhvTTRhMTVLWEE5QmM0dXJRNGlPSkwyZ2doMHhlaEpHbW5DZl8tazhQc3lPcEN4SmtLaEdGMk9IZjF5MGZvNEd3a2tXSnJXT1ItanFsV2gtRGpMYjlUbHV2OURrMkM5OXA3emh5OERlMlpXc1J1UlNVYUp1UlBUd1gzREtLUkZRZw?oc=5",
-      "published": "2026-03-31T07:00:00+00:00",
+      "id": "51917339f8d3",
+      "title": "Ärzte ohne Grenzen kritisieren Lenacapavir-Preis - Deutsche Apotheker Zeitung, DAZ",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNeFoyYlZqNE9PNlpOQ3JucjZBSjl1RnJyb1FTVm9oWE1ZVklkM2p3SzBOTUprZTl3ZEJ0U0VRTXhIY2o5YWtTZk9iU1NDd0c2cmUzN3ZZanRoUVB4VU56d1BrWEM3WUJPTmhQQ2ZieG1qV3JIaTEyMlUtN1VUSmp5a1JkT1A2bEdOWkhzSFZFSXNfNDQ2MENhSk9GU014bFNBa2NjWDQ1S2pyd1hOdURfQVdqZkhIdw?oc=5",
+      "published": "2026-07-21T22:00:00+00:00",
       "source": {
-        "name": "European Parliament",
-        "url": "https://www.europarl.europa.eu"
-      }
-    },
-    {
-      "id": "f7c833495bd1",
-      "title": "Me­di­ka­men­te im Ur­laub: So schüt­zen Sie sich vor Fäl­schun­gen - Die Rheinpfalz",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQbVlsX3VLeWJGQmtrMVQ1dFdSRGpQZEN1NFl2T0NvelNQbFBQMFgwUEI0UGtQdU5OZHNCRG5TTU1NZFlPYlFuX1pkOGllRkYtT1RPeGRlZXIwa0p4OTc5NlRHVWpCY05FQ1FvZEU2MlUxR3BsRmctVDliQVNLMEY3V1d5bHB0UG9oVVNFTmtGT204eDNjLXJ5R2dNZ3Q2eUlNZ2RId1lDUTIwdG52X2ZINUtsNThxNEtTci1BNGlzODcyemtfVzVLUUJtZGZIY3FaRGNZVlB4OGZRdw?oc=5",
-      "published": "2026-07-08T13:31:00+00:00",
-      "source": {
-        "name": "Die Rheinpfalz",
-        "url": "https://www.rheinpfalz.de"
+        "name": "Deutsche Apotheker Zeitung, DAZ",
+        "url": "https://www.deutsche-apotheker-zeitung.de"
       }
     },
     {
@@ -201,6 +201,26 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "2a4cd6eb6d1d",
+      "title": "Arzneimittelengpässe in Europa – so reagiert die EU - European Parliament",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYUFLam5JQVMtSlNuNWlqSTJrRUNDN215RDlRU2hOMEE0Rkp3cHBodVhSbXRsSUhvTTRhMTVLWEE5QmM0dXJRNGlPSkwyZ2doMHhlaEpHbW5DZl8tazhQc3lPcEN4SmtLaEdGMk9IZjF5MGZvNEd3a2tXSnJXT1ItanFsV2gtRGpMYjlUbHV2OURrMkM5OXA3emh5OERlMlpXc1J1UlNVYUp1UlBUd1gzREtLUkZRZw?oc=5",
+      "published": "2026-03-31T07:00:00+00:00",
+      "source": {
+        "name": "European Parliament",
+        "url": "https://www.europarl.europa.eu"
+      }
+    },
+    {
+      "id": "f7c833495bd1",
+      "title": "Me­di­ka­men­te im Ur­laub: So schüt­zen Sie sich vor Fäl­schun­gen - Die Rheinpfalz",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQbVlsX3VLeWJGQmtrMVQ1dFdSRGpQZEN1NFl2T0NvelNQbFBQMFgwUEI0UGtQdU5OZHNCRG5TTU1NZFlPYlFuX1pkOGllRkYtT1RPeGRlZXIwa0p4OTc5NlRHVWpCY05FQ1FvZEU2MlUxR3BsRmctVDliQVNLMEY3V1d5bHB0UG9oVVNFTmtGT204eDNjLXJ5R2dNZ3Q2eUlNZ2RId1lDUTIwdG52X2ZINUtsNThxNEtTci1BNGlzODcyemtfVzVLUUJtZGZIY3FaRGNZVlB4OGZRdw?oc=5",
+      "published": "2026-07-08T13:31:00+00:00",
+      "source": {
+        "name": "Die Rheinpfalz",
+        "url": "https://www.rheinpfalz.de"
       }
     },
     {
@@ -274,12 +294,12 @@
       }
     },
     {
-      "id": "02e9917bea66",
-      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - DW.com",
+      "id": "8db31424e5bb",
+      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - dw.com",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGxHSlhmSS0tbUNKdG15NEVzRzYzYllEUnAzUEU3ak53czRHVWlKdTZrRGFDMk1MUThPUjdPTnBGVENqd3d2Q1VSdWhJVXppWDF4NWh0aEJJaXJlVTlnV0VoZVFkRHNSM3p6NVZXNjNwWHk5YkxSUWR2RGZKcmp3Y2U5REY0U3dRZFJLeHFtQk9wb2Y3RUVOaVBlMlJhZ29Rck000gGjAUFVX3lxTE1rTW00WXFBajZxbTJOS1NLckhVbXFBSzh1NE96QTEydTN1YjZnaFFNcV8xblZGM29hdTZQUHc4V3YzQ1pwcTlaVVBhZDVqMExLMTlYVzZ6TmM4ZUdsUm5TLXpPNmk1R3V4UktvaV93cWttNFpVX0VEZlZnUllSQkhyUlZmeTBJcU0zUEVSZTgxdzFWUnFNRk9CYVljN0Jhd0ZXUFk?oc=5",
       "published": "2026-05-12T07:00:00+00:00",
       "source": {
-        "name": "DW.com",
+        "name": "dw.com",
         "url": "https://www.dw.com"
       }
     },
@@ -304,16 +324,6 @@
       }
     },
     {
-      "id": "f42206726e6b",
-      "title": "Gilead Sciences: Medizinprodukte und Therapien kurz erklärt - Ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQnFBTk9KbHZqWmltcHFISktjdEE5SE9FOF9namk1VERqRzFwRHphN1lTa0VvckpXOEI4MnJfeElvRFdUWWhoNlV4T2tSUnJtUXA1dEk2Qk9PN25rVEhoQW04M0o0cXpaM1dpbmszamltRkJiZDVnSjdWaE9fenFVd0pRQjhFbUVfN3dDbDg0OENmQXpkd0dRa0ZPOXk4TllBTnVNMUtOZWZnSEhXcUk2YkE2UGJxTVFUSFE?oc=5",
-      "published": "2026-07-23T13:19:18+00:00",
-      "source": {
-        "name": "Ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "ca3fbb8f0e20",
       "title": "SPD macht Arzneimittelversorgung zur Sicherheitsfrage - gesundheit adhoc",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaUx0Nm5DX2dXSFptbnJSOFlNVzVxaHpReWZiSVVVb0JMSnFzR3dVOHdiYzVEOGRaczRySGhxSVI3TlJOa3BJdzRyejl3bEhObFE0WWxKTVJ4NFd4MVJ2eW43RFF5dUFrNFNlTnZnZWZaVXRoMk14VlZPVi0yREtsa2ZIOURjQUpvNVZSMlV5cw?oc=5",
@@ -331,16 +341,6 @@
       "source": {
         "name": "euractiv.com",
         "url": "https://euractiv.com"
-      }
-    },
-    {
-      "id": "b4139007cd6d",
-      "title": "Medikamente: Antibiotika werden global nicht optimal eingesetzt - STERN.de",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPR05uQjRnX2dtUzgxaUJYTmNFOWNuRkY5ZFZXcFN6X1J6ZGxRaTlla3EzUHpOcEVqMENqd0NSLVliLTBtcGlJT2YyeUNIMEs0NHViNllHZnNpclZ5SUdYRFRocVJ0czgyeG1mNkc5M3JYNjFUOW0ycTZsRGFfend3bnFfbldPNTVvQlZqLWN2cFhaWFpJZ2FWU1Rud0ZSTFdJTmw4c2cwejRjRlZtcTBJV1VTa2w?oc=5",
-      "published": "2026-07-21T22:30:04+00:00",
-      "source": {
-        "name": "STERN.de",
-        "url": "https://www.stern.de"
       }
     },
     {
@@ -374,16 +374,6 @@
       }
     },
     {
-      "id": "152313a154f2",
-      "title": "Roche Holding AG als Gesundheitskonzern verstehen - Ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQkM2RGVHU0w4RHhJbTJxVnRRaERvekllV3dSLVo4YlBfSWdVaEJ0eW5PdV9qOUo1b0MxWFlMY1FwSHQtRG4xa2s1NV94dDQtTVAzbVItSkdZa0xMeXBxOEU1dU5uZy1VS2hWRmh5MlFrQllIcW1ZcnhzU1hPUkhYMGFkV0tvUjNQZFREc0tCZXloRjFoMmJqX255SHJHTEhQLTJLVC1VVzI3QTRP?oc=5",
-      "published": "2026-07-23T15:35:37+00:00",
-      "source": {
-        "name": "Ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "b9ca65e5a941",
       "title": "Marktbericht: dm steigt in den Gesundheitsmarkt ein - tagesschau.de",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNd0RWVjQ1MFJ3RDJCdFRnZ3Z1RUU4YThkS1F2bnowNnZBQWk1QlIxdWNtMFN6a19KWWlhTnFyVUNRSGNLanRyR01ZM0lxSG1HRFBqQ3l3QXBMR1F6UU43X29oLTZEODQ1TktKWmhOVVR4YW10YWY1Qm5JZlZoLU8tMlhDYw?oc=5",
@@ -404,6 +394,16 @@
       }
     },
     {
+      "id": "b4139007cd6d",
+      "title": "Medikamente: Antibiotika werden global nicht optimal eingesetzt - STERN.de",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPR05uQjRnX2dtUzgxaUJYTmNFOWNuRkY5ZFZXcFN6X1J6ZGxRaTlla3EzUHpOcEVqMENqd0NSLVliLTBtcGlJT2YyeUNIMEs0NHViNllHZnNpclZ5SUdYRFRocVJ0czgyeG1mNkc5M3JYNjFUOW0ycTZsRGFfend3bnFfbldPNTVvQlZqLWN2cFhaWFpJZ2FWU1Rud0ZSTFdJTmw4c2cwejRjRlZtcTBJV1VTa2w?oc=5",
+      "published": "2026-07-21T22:30:04+00:00",
+      "source": {
+        "name": "STERN.de",
+        "url": "https://www.stern.de"
+      }
+    },
+    {
       "id": "f92665691e36",
       "title": "Gesundheit: So will die EU Engpässe bei Fiebersaft & Co. verhindern - Tagesspiegel",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcDl1WkpGU2VsQWhwUXd1WWxXSUhVN2Y3R2hTdl9GTHNxcDl2NFhUejhMXzhtOVUteVRjYmlZZDVNa0lETm9QSWNsWXB2c09CcTBqV3M2Wk5Fc0FVRlRaaDFzN1lDVTRFdl9IeXZvU2h3VjhJVGFUQ29lNmdqOUFld1dsd3ZNaVF5OFRETVFqckdoWk1udUFSQWdzMVdLQWxJd3A0eXdiVzhJR3pmY1FOeVQ0aUFxZ3BGdlpGazFn?oc=5",
@@ -414,6 +414,16 @@
       }
     },
     {
+      "id": "f42206726e6b",
+      "title": "Gilead Sciences: Medizinprodukte und Therapien kurz erklärt - Ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQnFBTk9KbHZqWmltcHFISktjdEE5SE9FOF9namk1VERqRzFwRHphN1lTa0VvckpXOEI4MnJfeElvRFdUWWhoNlV4T2tSUnJtUXA1dEk2Qk9PN25rVEhoQW04M0o0cXpaM1dpbmszamltRkJiZDVnSjdWaE9fenFVd0pRQjhFbUVfN3dDbDg0OENmQXpkd0dRa0ZPOXk4TllBTnVNMUtOZWZnSEhXcUk2YkE2UGJxTVFUSFE?oc=5",
+      "published": "2026-07-23T13:19:18+00:00",
+      "source": {
+        "name": "Ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
+      }
+    },
+    {
       "id": "d9edf968b2d7",
       "title": "»Spar­po­li­tik bei Arz­nei­mit­teln ist ein Irr­weg« - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZ3BYbThQLUVqMndzcmZ2RzJRTW5vb1o4dGhibU52alc0SUtlbFkxMkhCS1puYnNnelNOcnVtSl9iejVRNU1sNGxvZ0lZZVZkaWNnRGhWVWsxT1JobThfRzFVdnh6Q25Idzl3aGZZaThYdHBRYTUzNHRpX2VNZ0dGWHBjd3VEbDdERlhjOHhubnhHLXB2OWc?oc=5",
@@ -421,6 +431,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "152313a154f2",
+      "title": "Roche Holding AG als Gesundheitskonzern verstehen - Ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQkM2RGVHU0w4RHhJbTJxVnRRaERvekllV3dSLVo4YlBfSWdVaEJ0eW5PdV9qOUo1b0MxWFlMY1FwSHQtRG4xa2s1NV94dDQtTVAzbVItSkdZa0xMeXBxOEU1dU5uZy1VS2hWRmh5MlFrQllIcW1ZcnhzU1hPUkhYMGFkV0tvUjNQZFREc0tCZXloRjFoMmJqX255SHJHTEhQLTJLVC1VVzI3QTRP?oc=5",
+      "published": "2026-07-23T15:35:37+00:00",
+      "source": {
+        "name": "Ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -714,12 +734,12 @@
       }
     },
     {
-      "id": "08f761ee3a89",
-      "title": "EU-Gesundheitskommissar prüft Folgen von Trumps Arzneipreispolitik - Euronews.com",
+      "id": "edcf559b1a0c",
+      "title": "EU-Gesundheitskommissar prüft Folgen von Trumps Arzneipreispolitik - Euronews",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSzM5cWFmcTJfV010WWVadkdEVXRGblFEUTlhaUhoOThvaHV5eTJuWFVJbUtyMW9xNTJkYzNIR2Z6YWp0ZE1IWmNPb3pNcU5YY1phcUlQSU5IWWtvV0MzNDlqdHJZRU40alRPU29CWFVnUDBjLXE3UHhtV2pManQ4TzhzVEU3OHNDM2JJZm9ZbzBUbkVCRFRZYU1jMTl2UVdGRnhubmZZYWswcmZqbXAtbW5QcnRBTktIaHFFWg?oc=5",
       "published": "2026-06-16T07:00:00+00:00",
       "source": {
-        "name": "Euronews.com",
+        "name": "Euronews",
         "url": "https://de.euronews.com"
       }
     },
@@ -934,12 +954,12 @@
       }
     },
     {
-      "id": "7a99adaec5c0",
-      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - Geo.de",
+      "id": "47afc2884d76",
+      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - geo.de",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
       "published": "2026-06-19T07:00:00+00:00",
       "source": {
-        "name": "Geo.de",
+        "name": "geo.de",
         "url": "https://www.geo.de"
       }
     },
@@ -981,26 +1001,6 @@
       "source": {
         "name": "NDR.de",
         "url": "https://www.ndr.de"
-      }
-    },
-    {
-      "id": "3ef1faabcc13",
-      "title": "Pflanzliche Arzneimittel – im Licht der Wissenschaft - SRF",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQUHVQVzFrZzVhLUljRzk2bktXazYwVEkwS2c1c09Ud1BkR0NSVDVETzJCcjlXU1E2TEVRelJuc3UyYUlzY19zSEU4U2Ntd1VneFZOcDhpT3FOc3Y2VGNtclN2bS14VTJ1RXdTbFJYYXlYS0RLejRRVkdqeVhxX1VpYjMzNmdNZmY4TS1EaTdpWk1SVEowc1NFeFhxLWtDdVNWbEh5RU9pX2hwc0lwbTRzUDVrSzFwMXQ1NjliU044bnJUdXgwNk9iWWdTMUhYdVMwRzgyeXB1NERiMWZvTE93NXJFdXVLNU54Nzg4NA?oc=5",
-      "published": "2026-05-30T07:00:00+00:00",
-      "source": {
-        "name": "SRF",
-        "url": "https://www.srf.ch"
-      }
-    },
-    {
-      "id": "815d7c3030a9",
-      "title": "Erkältungen und Infekte nehmen zu: Droht wieder ein Medikamentenengpass? - Tagesspiegel",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOb3BrN2sybjFrd2xZYTlUZENWRE9fZEJyVHZJWGZHZHA3SG10dXNKSm5LVF9zR2h4VzVkdHM5OVFnbGo5MkpPWmEyV2JPWVVXWUtsR0Z1RVEyY1hFa0tqTzJzWFN0R0xJMXdSOUJYbG9wT0tVVkxsVnZINDFZMmpyUGg0NlVQSnRnYlh4ejF2Z19NMmJEZlVNVzIyVHNUTWNGM0tENk93TE1EMWd6Zm51Q1lMUHpobzkyT3B3N21yVUY?oc=5",
-      "published": "2025-09-19T07:00:00+00:00",
-      "source": {
-        "name": "Tagesspiegel",
-        "url": "https://www.tagesspiegel.de"
       }
     }
   ]
