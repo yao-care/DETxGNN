@@ -116,7 +116,7 @@ Arzneimitteln gegen seltene Krankheiten vorherzusagen.“
 
 | Position | Wert |
 |------|-------|
-| Arzneimittelberichte | 555 |
+| Arzneimittelberichte | {{ site.drugs.size }} |
 | Zulassungsbehörde | BfArM |
 | Bereitgestellte Websites | 30 Länder / Regionen |
 

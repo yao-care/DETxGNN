@@ -1,5 +1,5 @@
-title: DETxGNN - Drug Repurposing
-description: Germany BfArM-approved Drug Repurposing predictions powered by TxGNN
+title: DETxGNN - Arzneimittel-Umwidmung
+description: Vorhersagen zur Umwidmung der in Deutschland von BfArM zugelassenen Arzneimittel, basierend auf TxGNN
 lang: de
 remote_theme: just-the-docs/just-the-docs
 url: https://detxgnn.yao.care
