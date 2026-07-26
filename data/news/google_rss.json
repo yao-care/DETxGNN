@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-26T12:03:50.435610+00:00",
+  "fetched_at": "2026-07-26T14:37:37.749211+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -11,16 +11,6 @@
       "source": {
         "name": "MDR.de",
         "url": "https://www.mdr.de"
-      }
-    },
-    {
-      "id": "b035d95a8231",
-      "title": "Die neue Abnehmpille: Was sie kann, für wen sie geeignet ist und wann sie zum Risiko wird - NDR.de",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTFNSV250UGdHRkZnLXphc3FNY0E2TmVqeDJzMXZ5eWR1YWszWFQ5eG9NcjNYcXJQN1F0M05ja0NjLVc2QUVnSTlESkNfbkhzN3BJWmg4SUpzNHlsazRWVVc1LUxLLXd6V21fM2l0ekRGZWloQmdPRWdndTNseXJCRU13Q0dNRXFVN0dhSDVLbEdRNzh6aUFsNDZublY4S3lVbTE3YVFhcw?oc=5",
-      "published": "2026-07-26T09:57:34+00:00",
-      "source": {
-        "name": "NDR.de",
-        "url": "https://www.ndr.de"
       }
     },
     {
@@ -44,16 +34,6 @@
       }
     },
     {
-      "id": "a2ee90b2b29a",
-      "title": "Kortison-Creme und Augentropfen: Diese drei Medikamente gibt es bald ohne Rezept - T-Online",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbUpjVGFQVTdYMFBlTEJWclBrUF9SWWQzczVfb19jSUlNNjVjRVc0bEZvdlhieDFhdTdjbGRoOWVEVC1vcWt3MmtFSjNlZzkxeHdXM1pBbDhQaExURHViaUdyQVBHVVRXLUlnX2l3SVp1VjJnQXBEYmdGZ1ZEa1htT0tLRHExUzZKMDhrclJEZl9kdjk1b2ppWUVnUHVULWltQVVjdnVEakxNcjJtbUFfTXEzUHZZeGs?oc=5",
-      "published": "2026-07-22T11:28:00+00:00",
-      "source": {
-        "name": "T-Online",
-        "url": "https://www.t-online.de"
-      }
-    },
-    {
       "id": "7e6a6d84a5be",
       "title": "6-R-Regel in der Pflege: Was dahintersteckt und warum sie so wichtig ist - Allgäuer Zeitung",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOY1pZRFRabDN5MVpxUGtXUTdZeDhKTEVtRm84Nk8yZnFLelp5U3JRTjRrT0VzX0duRl9iNDlTaFNfaVNycWVqcklhTzFqUlc0dE8tMm5HVDFRSzdNVnlETzhtOHlVRXdWZmx6TklfWG9uT2kza1c3MldrVTgxazJtaE1xVFBhSzU2WmMxR2JhOEItaE9saG53ampIYng2Mks2LS1UTDgxNEQwd1BlcHZQSUtqOEhCUGV0OEhYM19UajlLQQ?oc=5",
@@ -61,6 +41,16 @@
       "source": {
         "name": "Allgäuer Zeitung",
         "url": "https://www.allgaeuer-zeitung.de"
+      }
+    },
+    {
+      "id": "a2ee90b2b29a",
+      "title": "Kortison-Creme und Augentropfen: Diese drei Medikamente gibt es bald ohne Rezept - T-Online",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbUpjVGFQVTdYMFBlTEJWclBrUF9SWWQzczVfb19jSUlNNjVjRVc0bEZvdlhieDFhdTdjbGRoOWVEVC1vcWt3MmtFSjNlZzkxeHdXM1pBbDhQaExURHViaUdyQVBHVVRXLUlnX2l3SVp1VjJnQXBEYmdGZ1ZEa1htT0tLRHExUzZKMDhrclJEZl9kdjk1b2ppWUVnUHVULWltQVVjdnVEakxNcjJtbUFfTXEzUHZZeGs?oc=5",
+      "published": "2026-07-22T11:28:00+00:00",
+      "source": {
+        "name": "T-Online",
+        "url": "https://www.t-online.de"
       }
     },
     {
@@ -84,6 +74,16 @@
       }
     },
     {
+      "id": "b035d95a8231",
+      "title": "Die neue Abnehmpille: Was sie kann, für wen sie geeignet ist und wann sie zum Risiko wird - NDR.de",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTFNSV250UGdHRkZnLXphc3FNY0E2TmVqeDJzMXZ5eWR1YWszWFQ5eG9NcjNYcXJQN1F0M05ja0NjLVc2QUVnSTlESkNfbkhzN3BJWmg4SUpzNHlsazRWVVc1LUxLLXd6V21fM2l0ekRGZWloQmdPRWdndTNseXJCRU13Q0dNRXFVN0dhSDVLbEdRNzh6aUFsNDZublY4S3lVbTE3YVFhcw?oc=5",
+      "published": "2026-07-25T07:00:00+00:00",
+      "source": {
+        "name": "NDR.de",
+        "url": "https://www.ndr.de"
+      }
+    },
+    {
       "id": "bb2eb53e7c32",
       "title": "»Ärzte ohne Gren­zen« for­dert Zu­gang zu HIV-Me­di­ka­ment - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMTBLLVdfQnNXUnc4OUhpLU95RkJTWWtUU2lxblN4NnBsU0NsYzVpQ3VXM1dYdVBxbTNyM096cFdNNmNUSTMwQXFhNVREeWlwQkJ2UFpKaUh0bFFaZmJVczF5d1NSNmR5bFZHd2doeHk5SnFOWXlFVkVBU0VWbVB5QWRXdE1uV3RBbm1fajF3eVhtdzRtRU5CSDFXUmVhYkZx?oc=5",
@@ -104,16 +104,6 @@
       }
     },
     {
-      "id": "9a219e04df61",
-      "title": "Studie: GLP-1-Abnehmmedikamente erhöhen leicht, aber real das Risiko für Haarausfall - Euronews.com",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQm5JS2dzelBGRTgwN0pwQ1dJc1N3cHBEd05TRjRHNlNyMEpVUkhFMF9fOS1Qck9aYlRndUptbV9HNlNQcWRWWGdnZmtHM0U3U3AyMWVmTE9LV2xfNF9HX2dJQUNnYnJkcF9EbF96eUJqVnNOd25SODZrZ3Y5bl9BeF96MVpUUVZ4NHdKSmotSWdNZkNZeXNYTjYwOE9mZWl4dzF2dk1SRjlFb1VfaDVUTDQ1Wjl5MXNKbkVNQ3A0R2FvUmxYbWZR?oc=5",
-      "published": "2026-07-23T12:17:21+00:00",
-      "source": {
-        "name": "Euronews.com",
-        "url": "https://de.euronews.com"
-      }
-    },
-    {
       "id": "ec04455a13f7",
       "title": "Ozempic und Wegovy bei Brustkrebs: Studie deutet auf bessere Überlebenschancen hin - Frankfurter Rundschau",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOc045eGJJYWdkWGJaZ2g3QVo0aXNtU3JCSVVnYktOWkpWRXN0WkdQR01temd3ek5vTmRUUldneTZfRDZuSTI5YTQzRkE5N0wtb3FkTzhXRV8yOXlGekV5TnprRUtndE5YVVFuQzVza3ZkRGxxWnpsdXdhVWVfZHRTTkJTMzdSUE5EdFg4MFV3R3ZEMnNuSXdrWUFFd3A4LVUyRnFvVjdmWWxRUGZfNElua0RVU1k5MjlzNG9jZmNaY0FCQQ?oc=5",
@@ -121,6 +111,16 @@
       "source": {
         "name": "Frankfurter Rundschau",
         "url": "https://www.fr.de"
+      }
+    },
+    {
+      "id": "9a219e04df61",
+      "title": "Studie: GLP-1-Abnehmmedikamente erhöhen leicht, aber real das Risiko für Haarausfall - Euronews.com",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQm5JS2dzelBGRTgwN0pwQ1dJc1N3cHBEd05TRjRHNlNyMEpVUkhFMF9fOS1Qck9aYlRndUptbV9HNlNQcWRWWGdnZmtHM0U3U3AyMWVmTE9LV2xfNF9HX2dJQUNnYnJkcF9EbF96eUJqVnNOd25SODZrZ3Y5bl9BeF96MVpUUVZ4NHdKSmotSWdNZkNZeXNYTjYwOE9mZWl4dzF2dk1SRjlFb1VfaDVUTDQ1Wjl5MXNKbkVNQ3A0R2FvUmxYbWZR?oc=5",
+      "published": "2026-07-23T12:17:21+00:00",
+      "source": {
+        "name": "Euronews.com",
+        "url": "https://de.euronews.com"
       }
     },
     {
@@ -234,12 +234,12 @@
       }
     },
     {
-      "id": "8db31424e5bb",
-      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - dw.com",
+      "id": "02e9917bea66",
+      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - DW.com",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGxHSlhmSS0tbUNKdG15NEVzRzYzYllEUnAzUEU3ak53czRHVWlKdTZrRGFDMk1MUThPUjdPTnBGVENqd3d2Q1VSdWhJVXppWDF4NWh0aEJJaXJlVTlnV0VoZVFkRHNSM3p6NVZXNjNwWHk5YkxSUWR2RGZKcmp3Y2U5REY0U3dRZFJLeHFtQk9wb2Y3RUVOaVBlMlJhZ29Rck000gGjAUFVX3lxTE1rTW00WXFBajZxbTJOS1NLckhVbXFBSzh1NE96QTEydTN1YjZnaFFNcV8xblZGM29hdTZQUHc4V3YzQ1pwcTlaVVBhZDVqMExLMTlYVzZ6TmM4ZUdsUm5TLXpPNmk1R3V4UktvaV93cWttNFpVX0VEZlZnUllSQkhyUlZmeTBJcU0zUEVSZTgxdzFWUnFNRk9CYVljN0Jhd0ZXUFk?oc=5",
       "published": "2026-05-12T07:00:00+00:00",
       "source": {
-        "name": "dw.com",
+        "name": "DW.com",
         "url": "https://www.dw.com"
       }
     },
@@ -294,6 +294,16 @@
       }
     },
     {
+      "id": "ca3fbb8f0e20",
+      "title": "SPD macht Arzneimittelversorgung zur Sicherheitsfrage - gesundheit adhoc",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaUx0Nm5DX2dXSFptbnJSOFlNVzVxaHpReWZiSVVVb0JMSnFzR3dVOHdiYzVEOGRaczRySGhxSVI3TlJOa3BJdzRyejl3bEhObFE0WWxKTVJ4NFd4MVJ2eW43RFF5dUFrNFNlTnZnZWZaVXRoMk14VlZPVi0yREtsa2ZIOURjQUpvNVZSMlV5cw?oc=5",
+      "published": "2026-07-09T10:41:12+00:00",
+      "source": {
+        "name": "gesundheit adhoc",
+        "url": "https://www.gesundheit-adhoc.de"
+      }
+    },
+    {
       "id": "e55e30521cda",
       "title": "Vorschläge der FinanzKommission Gesundheit für eine Reform der GKV - Taylor Wessing",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQVJuN0Fwenp0QU9hM01mSTRlR1ZxUzBfaExuWkRPSVIxQTBmb21HMGJ3Umd1b2Q5NjlpTkZWdnlsWU5RdG4tYmV2YWlldnhEREpzVmdLaURVbVpCR2pFRDY5Z1d6VW53bGtvaGgwTkRMeFMzeWI5WDJNd2ZXdTl4WkJTRURfbEstNXlJaXdzNGlwQTF5dHJ2Mjg1bFlJTW1SajFpM3VpMEtDdXZuNWplY3NnTQ?oc=5",
@@ -341,16 +351,6 @@
       "source": {
         "name": "Tagesspiegel",
         "url": "https://www.tagesspiegel.de"
-      }
-    },
-    {
-      "id": "ca3fbb8f0e20",
-      "title": "SPD macht Arzneimittelversorgung zur Sicherheitsfrage - gesundheit adhoc",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaUx0Nm5DX2dXSFptbnJSOFlNVzVxaHpReWZiSVVVb0JMSnFzR3dVOHdiYzVEOGRaczRySGhxSVI3TlJOa3BJdzRyejl3bEhObFE0WWxKTVJ4NFd4MVJ2eW43RFF5dUFrNFNlTnZnZWZaVXRoMk14VlZPVi0yREtsa2ZIOURjQUpvNVZSMlV5cw?oc=5",
-      "published": "2026-07-09T10:41:12+00:00",
-      "source": {
-        "name": "gesundheit adhoc",
-        "url": "https://www.gesundheit-adhoc.de"
       }
     },
     {
@@ -461,6 +461,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "4827c0f2d4e4",
+      "title": "Gesundheit - Gesetzliche Krankenkassen fordern Maßnahmen gegen steigende Arzneimittelpreise - Deutschlandfunk",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPX2ZXSGh3TS1SUVdMakVnd0tYT040NWVQRFJQX3ZVY1VONVQ4U2lZX0xVcEZ4dXZYOURsbDJCWmM4MXVMYWJwbjE1M09oVmxVTF9UODQ4MmUtRlhVdGpuZzV1bjZOY0U4SEk5VjNEM25vU1M4a2lBNmpfa1ZzTWE2ODlBQTBfemV0M0kxMEsyTWFuYnpvd3ZVT0pFeW9aRTJhRFdHX3UtNVpONmdXNUkwMDFydmh0YXpMTVVR?oc=5",
+      "published": "2026-03-15T07:00:00+00:00",
+      "source": {
+        "name": "Deutschlandfunk",
+        "url": "https://www.deutschlandfunk.de"
       }
     },
     {
@@ -594,16 +604,6 @@
       }
     },
     {
-      "id": "6765e9478857",
-      "title": "Bristol-Myers Squibb: Was Käufer in Deutschland wissen sollten - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVUpRdEdpUVpONlB5YUxZLVRkb3NSZlRaTk5VTVFQcGpCeFh6X1hVVFJWRTh6enBJV3I1R1BWVXlfMzlaUkpfZVphYjBDX3RXV1AyUHlLdENuR3JCRTZVNTRxV3QzbjY4YWxIRjNtRmw0akV5eVRYVWlJWE95R0liaXZVMHZBanRIanRxMFlBRU4xSWdfcVlVVlB0LTZEQ0liRTVsS1hFYnFUejlna3lDTWJjdTZJeTBzeTdUb0FR?oc=5",
-      "published": "2026-07-22T16:22:03+00:00",
-      "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "4f1eeceab428",
       "title": "(S+) Wie teure Krebsmedikamente das Gesundheitssystem sprengen könnten - Spiegel",
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNOUFWLTYwSFp0U194b0duNHVfbTVjbzFKVUV0WG1MS1FkQ2hYdmg2OGp1dnlEQTk4SjVNUEpkWWpRaTVFZFFmcjFiNC02WXNvSEhIbmdUNDk4emxWQ2VnWWtHMUotcWhXUnVsMExGRWNvdllPcUd3dVRZTWR2ZUEteWZTeFEyS1M5ZzZqZUxDSUI2RTRqMnU4MVF4SEthWm1vZEd1YjZWYjZoLUIwRTlaZTVtRXZoZERXWC1DUGhLelpNZ0M2RXFQeDU4XzBfQ3ZWUFJUdDBVcDh2aExzVmc?oc=5",
@@ -611,6 +611,16 @@
       "source": {
         "name": "Spiegel",
         "url": "https://www.spiegel.de"
+      }
+    },
+    {
+      "id": "6765e9478857",
+      "title": "Bristol-Myers Squibb: Was Käufer in Deutschland wissen sollten - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVUpRdEdpUVpONlB5YUxZLVRkb3NSZlRaTk5VTVFQcGpCeFh6X1hVVFJWRTh6enBJV3I1R1BWVXlfMzlaUkpfZVphYjBDX3RXV1AyUHlLdENuR3JCRTZVNTRxV3QzbjY4YWxIRjNtRmw0akV5eVRYVWlJWE95R0liaXZVMHZBanRIanRxMFlBRU4xSWdfcVlVVlB0LTZEQ0liRTVsS1hFYnFUejlna3lDTWJjdTZJeTBzeTdUb0FR?oc=5",
+      "published": "2026-07-22T16:22:03+00:00",
+      "source": {
+        "name": "AD HOC NEWS",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -664,26 +674,6 @@
       }
     },
     {
-      "id": "974c6d951133",
-      "title": "Gesundheit - Gesetzliche Krankenkassen fordern Maßnahmen gegen steigende Arzneimittelpreise - Deutschlandfunk",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZmh3d3ZoMXR2NXlDc1dzQ1pINGpyWEFxM3VHTERqdW0wTldXM2xUMVBkLW9sTnNiUmM5XzhFLUMwTzdXSzVXQllNZHp3YTUtb09saDlHaDRTNjhROVE3dXdULTFYV1UzdVV5ckppanVYTFpwWVROMXBKLUhvN2ZYSzlWTXhvQTlkVy0xdkFyZFR5S1plYzRtOEtkeVltR1p5OEhVa3hLMkFlSXEtZ1NDTFdVZkZuNUJCNU5Z?oc=5",
-      "published": "2026-03-15T07:00:00+00:00",
-      "source": {
-        "name": "Deutschlandfunk",
-        "url": "https://www.deutschlandfunk.de"
-      }
-    },
-    {
-      "id": "144fa47d39d3",
-      "title": "DocMorris Versandapotheke-App - DocMorris setzt auf digitale Rezeptlösung - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQREIzanBVZklkdG1OUGEzV0RHY3A4bGZRUFI2eHpVUFdTWTd4bUZlWGI5RTFhSmIwZHo2c3dYTUhGLWxlMXNiRG1MVnl1eldyN1B2Tm1lYXVERVlPcVFSbFhJUnVtVGVlLWpfQ1l1SW5EWlQzUDE1SUF0YmpIaWRUX1RzS3AyVWo3SXJCTXBwX21CeFNZMHpVS1p3R2ZCN2htd19YU3h3cmxDVzdqSThVREdQU090UlZtVWdzRXlXR3ptMzJLYXQ0eldRQVUzMG8?oc=5",
-      "published": "2026-07-26T11:51:10+00:00",
-      "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "b027289bf54f",
       "title": "EU-Generalanwalt: Versandverbot nein, aber ... - apotheke adhoc",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaGRRUFJ5MDV6WGZaTE84UlB3SU83OElpQ2dBVXJTMFRLWWFlSmN0alJ0eS1ZdF9zN09MZUhESFJDd2J1TVNQeHZRQ1ZLMVNtMC1OSm9DV01oVXhWVzRtOENHbUpnRE10akgwUnRyRmkzckZ1UFhIb05aM1ZLcVN1WkFKRUVRd3VaaWpZVUdraVRVdUtER2tIc1FjTWFqS3VIY0IzeERfWnJ4UQ?oc=5",
@@ -714,6 +704,16 @@
       }
     },
     {
+      "id": "144fa47d39d3",
+      "title": "DocMorris Versandapotheke-App - DocMorris setzt auf digitale Rezeptlösung - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQREIzanBVZklkdG1OUGEzV0RHY3A4bGZRUFI2eHpVUFdTWTd4bUZlWGI5RTFhSmIwZHo2c3dYTUhGLWxlMXNiRG1MVnl1eldyN1B2Tm1lYXVERVlPcVFSbFhJUnVtVGVlLWpfQ1l1SW5EWlQzUDE1SUF0YmpIaWRUX1RzS3AyVWo3SXJCTXBwX21CeFNZMHpVS1p3R2ZCN2htd19YU3h3cmxDVzdqSThVREdQU090UlZtVWdzRXlXR3ptMzJLYXQ0eldRQVUzMG8?oc=5",
+      "published": "2026-07-26T11:51:10+00:00",
+      "source": {
+        "name": "AD HOC NEWS",
+        "url": "https://www.ad-hoc-news.de"
+      }
+    },
+    {
       "id": "73821728fb6f",
       "title": "Rezeptfreie Medikamente aus der Drogerie könnten das Apothekensterben verschärfen - SWR",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUlBVMkRsMVdkYXV3YXFVd3k4Z1pMSGdoVTNOTXo0UV8wR1RBbmVCZVltV3ZBdGZndnM3V1NVMlVZOFhmUEJwNXlPbDRfcU5jV2FZcUNDd2txVnFwdjNNb3JWWkRncExiSDI0WnEtdUdEbEtGcVdqOGFJRzc0T3ZkY0N4aHE4V21aZmROazk4eG9mUUJXY2RqVXZCYTZLcU5NSnVDaHBYMXhzUQ?oc=5",
@@ -731,26 +731,6 @@
       "source": {
         "name": "Euronews.com",
         "url": "https://de.euronews.com"
-      }
-    },
-    {
-      "id": "7d876f76990e",
-      "title": "Arzneimittel-Ratschlag durch ChatGPT landet vor Gericht - Deutsche Apotheker Zeitung, DAZ",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOb2R6cDZTSjF3cDJfUW1NOERXRnRaN0hhbWJrU2hLMjMtZ0V1VjhyOHdJNllIaFlfZlM3TDhZNGVzYVkzNlFkSk5rR0NGMnJSQVlaOGdCa1o3Ty1HRjgxTy11M2NaSHE4SFBVM1FhNjZDb0VUNmVHcERnWXRqMXRxRkZUc0NjMEdKaFdabVU3UUpubE5rU1czTWtpVVpIQUZiMUJKUHlkcE1Jcks3bl9CSWg1Qm1UVnhLN2xhdDhn?oc=5",
-      "published": "2026-05-19T07:00:00+00:00",
-      "source": {
-        "name": "Deutsche Apotheker Zeitung, DAZ",
-        "url": "https://www.deutsche-apotheker-zeitung.de"
-      }
-    },
-    {
-      "id": "39b77f0d4b33",
-      "title": "Produktkauf auf Amazon: Was GSK plc als Anbieter ausmacht - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaDF5bXJQLWlVMjRoQ0FpSWRPcGEybHkwTk1HZnlOT3M2ZUtSTWE2SVVFenZjR3IxVVlxQmtzQnh3eDAtOVNsMldXTkJuSjhWd1MtWkhjbHRETmlfcktMRUY5TkZHb2oycDd0SEx3UWI1ZXAtekJxd2d3cEk0UDVmUU9nOVo1R3QwdWFuZjN0ZV90ZGhaU2hsM1dfdk5zbTd4Y0JzcFd0VDhKNkJmZnU2NmxqR09pZw?oc=5",
-      "published": "2026-07-25T17:33:10+00:00",
-      "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -874,6 +854,16 @@
       }
     },
     {
+      "id": "39b77f0d4b33",
+      "title": "Produktkauf auf Amazon: Was GSK plc als Anbieter ausmacht - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaDF5bXJQLWlVMjRoQ0FpSWRPcGEybHkwTk1HZnlOT3M2ZUtSTWE2SVVFenZjR3IxVVlxQmtzQnh3eDAtOVNsMldXTkJuSjhWd1MtWkhjbHRETmlfcktMRUY5TkZHb2oycDd0SEx3UWI1ZXAtekJxd2d3cEk0UDVmUU9nOVo1R3QwdWFuZjN0ZV90ZGhaU2hsM1dfdk5zbTd4Y0JzcFd0VDhKNkJmZnU2NmxqR09pZw?oc=5",
+      "published": "2026-07-25T17:33:10+00:00",
+      "source": {
+        "name": "AD HOC NEWS",
+        "url": "https://www.ad-hoc-news.de"
+      }
+    },
+    {
       "id": "43391a6b49a7",
       "title": "Longevity-Trend | Wie gefährlich sind Drip-Spa-Infusionen? - WDR",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQVJfdGdlV1hMbHZtblVuLXZCMGQtTmhvNjF0a2tVRnkxUUtJVk51aWNJb3FpM3BlcVZiSzFYbnRMc1ZyZ1hxM1dxYkhLVm1wZGwwcTBXZEhQUGJNT2dnNWVNMWoycWo5Nk9JeTF1cUdSRThwNm5nZ0JJSnhhc2tGVlBSMVRGR2wzU2VKbGoxRnfSAY8BQVVfeXFMUHh5ektFRTdFX0J0bUF0b1owcDBkdGNLbDBQcXhjdEMzSS00Q0ZFN1U0LVZzRklSRU5TclluXzN2bXlLV2d5ZHc2NEVWMU1hRlRqb3E2QWY0S1d6QUstMnZ1S3J4TmlmQ2hETVFOYUlTbUNITWtPZlJjVXFsZmt0dkJxY0ZlbDFCQkd5aUpCYms?oc=5",
@@ -881,6 +871,16 @@
       "source": {
         "name": "WDR",
         "url": "https://www1.wdr.de"
+      }
+    },
+    {
+      "id": "3305378bbe46",
+      "title": "Biogen Inc.: Was hinter dem Biotechnologie-Unternehmen steckt - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMndQVWpRZ0dNNFhtWDBlZ1IwNW9GTHpjeDVFQ0V6MVlNeWhXcS1IT281UE11SF94bll6TE5feXNuZzdTZkJfOXlnQnFYZTJKaURzRFdKSmYzQjk3NEF2R21rNDRVUzkyTnl3YkQ4SGZiYmxiVmNOYmdCYkFPcm1GM3NLZk1PdC1VMzZhQk9qS3lMeUk4bGpQZXVpbHZFRVI1aE11YThMbVh4TF9MRHE2QjRadkJZTGQtd2c?oc=5",
+      "published": "2026-07-24T16:56:23+00:00",
+      "source": {
+        "name": "AD HOC NEWS",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
