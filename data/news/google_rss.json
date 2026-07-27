@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-07-27T15:42:17.870108+00:00",
+  "fetched_at": "2026-07-27T17:43:02.530792+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
     {
-      "id": "5897c171d3b5",
-      "title": "Apotheken in Hessen: Neue Aufgaben im Gesundheitssystem - FAZ",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOSkZiRkE5Z045UjhLN3pQN3hNcl8zNG5LeTJMVVQ1azYtVERSdExpR3gxWkdndmhNM2hLZ2dINnRGNnQxM1F5dEJOM2JnUlo4Wi1adERibkxBNS1ScDRWOGM4dW9DQzlHdmc5MGxDT1JXLXR2QzZORXVXRjhiZ1d2ZnZKajVYZGRSSVVxeDhNVXJ4T1dyNnhnVzRCUTNra1g3RWZ6Sm9IdVVlRXFqa2YwQlVVS0hRdEtId2dv?oc=5",
+      "id": "a50000bb12f5",
+      "title": "Gesundheitsreform: Wieso Ärzte mit Apotheken streiten - FAZ",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNld4eXB2WW5seEFqWHc5UlcyVzhnZW1SU3BvSjFsNTJDZGNhYW9PMDgxSmFLbjZlV0p2aXM5WUpyUEFJZUJfbHdody0tMG9vOWlsa0MzcUh6Q3llSFZSeEs4eVF5OURzNEwwMWtFR3RlNHlBbzRPckJNaUxGT0RDNHNZcnh4TzNwbHB2eG5kV1c3aUtqOGFKWTZLcUtidE5HNTJlN1dCd3EwQVBwV0NmWWRwUkxoTDRSb2c?oc=5",
       "published": "2026-07-27T14:58:36+00:00",
       "source": {
         "name": "FAZ",
@@ -84,13 +84,23 @@
       }
     },
     {
-      "id": "f2aaee034d08",
-      "title": "Studie: GLP-1-Abnehmmedikamente erhöhen leicht, aber real das Risiko für Haarausfall - Euronews",
+      "id": "9a219e04df61",
+      "title": "Studie: GLP-1-Abnehmmedikamente erhöhen leicht, aber real das Risiko für Haarausfall - Euronews.com",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQm5JS2dzelBGRTgwN0pwQ1dJc1N3cHBEd05TRjRHNlNyMEpVUkhFMF9fOS1Qck9aYlRndUptbV9HNlNQcWRWWGdnZmtHM0U3U3AyMWVmTE9LV2xfNF9HX2dJQUNnYnJkcF9EbF96eUJqVnNOd25SODZrZ3Y5bl9BeF96MVpUUVZ4NHdKSmotSWdNZkNZeXNYTjYwOE9mZWl4dzF2dk1SRjlFb1VfaDVUTDQ1Wjl5MXNKbkVNQ3A0R2FvUmxYbWZR?oc=5",
       "published": "2026-07-23T12:17:21+00:00",
       "source": {
-        "name": "Euronews",
+        "name": "Euronews.com",
         "url": "https://de.euronews.com"
+      }
+    },
+    {
+      "id": "26d72d00279e",
+      "title": "Antibiotika werden laut Studie oft falsch eingesetzt - Spiegel",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNLTRsT3UzVFhGWGszU3RuTVBoR2RjWjZULWFEVWNsSkEtcXZGUGxrZVhqTVFwdFJqM2JpdjJiZnBLSlVmanRNa3hXbURKMVY4dVI3MHNfdFdacVJIRGNHSTN3Slg2a3hFaWw3SFNkWENOYUZReExGZlMzZmVCU2lBRkg2WlRqZTB2WVA2b1BPajIzXzdSeDZGQXFSUVB6QjZWUHVzNVNRdEgtczd0VDl5UkpWUXZlZXBoN1pfU1hWUE1oV0pUU19qc2dBdkJkb1d4?oc=5",
+      "published": "2026-07-22T15:18:00+00:00",
+      "source": {
+        "name": "Spiegel",
+        "url": "https://www.spiegel.de"
       }
     },
     {
@@ -104,12 +114,12 @@
       }
     },
     {
-      "id": "6888ded94d27",
-      "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - bundesgesundheitsministerium.de",
+      "id": "8666593cd1fe",
+      "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesgesundheitsministerium",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT3NRWE1tbWNRMllaUC1GUGtRV3YxaWhZZ21nQThUT3NGbS1DbkFfRzdSd3RvUUVsTkVJdUpYRFp0ekFHV1JtTEJZZ0I5dWJvajgzZzdZZDk5S3FROHRoeVJzS3VBRTBuTldDWW52dG5kLWxpUTlMZmpLdUZZekxaOEJQYTlUbTdLRTBsR1k4TlE1ajIxYTFiZ041eFppZktLWjJZYVQyRlNOVEd1RGdIVmpBRDMteG1xdHdyUmVn?oc=5",
       "published": "2026-05-22T07:00:00+00:00",
       "source": {
-        "name": "bundesgesundheitsministerium.de",
+        "name": "Bundesgesundheitsministerium",
         "url": "https://www.bundesgesundheitsministerium.de"
       }
     },
@@ -204,16 +214,6 @@
       }
     },
     {
-      "id": "5f8acf618318",
-      "title": "Bayer AG: Was der Chemie- und Pharmakonzern bietet - Ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQa2xoNFZXNnRWU2Fya1NpdVVNLXhxaE1rVWYySVpFcHVsX01GVXJUWm9Rbi0wRlNNTVJSbnFsRmtOcWhoSFNSNFU0U29zSXpoOXk4T2hSNnBpd2pRc0VDTzZLZ0ktZG5CYkw1Rl8yYVF1RU90aUxXVGNUU2Nsc0dNNWhZUkRNWmJiOVliTnBab1ItWVFTcDljNU1Bb0E3VDVLWVlRc3poQ3FyYjA?oc=5",
-      "published": "2026-07-26T18:33:29+00:00",
-      "source": {
-        "name": "Ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "e4d74f6ebf64",
       "title": "Patienten und die Generikabranche fordern die EU auf, auf Trumps Drohungen bezüglich der Arzneimittelpreise zu reagieren - euractiv.com",
       "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOSm0tcngyMXZvMXBmQW9MbjlzWEp1d0JKLVdvV2g4NDkyQ2FxMzhhQTFHUEtyX25Tb0VTdGVPUkt0WXJEeV9QNl84MTZ3MTU0QjgtN3VWeFc3dDVuMWNjb3ZIQ2JyemdRVXJhSHFCQ21yazg4RGU5djlTSkEzdVlsdWNnOUxvWXRyRjVVNUg5N1pRSW1aX2FlOWQ4S0pYXzNkYlJmSE9GNWRmcmNBMWIwOXc0aFJybUJYLU9xUlVVLWplN3ZkNmNvQnQ3ME55TGpVcng0TkxPd2M4MDdBc3hXNVBHNA?oc=5",
@@ -234,6 +234,16 @@
       }
     },
     {
+      "id": "5f8acf618318",
+      "title": "Bayer AG: Was der Chemie- und Pharmakonzern bietet - Ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQa2xoNFZXNnRWU2Fya1NpdVVNLXhxaE1rVWYySVpFcHVsX01GVXJUWm9Rbi0wRlNNTVJSbnFsRmtOcWhoSFNSNFU0U29zSXpoOXk4T2hSNnBpd2pRc0VDTzZLZ0ktZG5CYkw1Rl8yYVF1RU90aUxXVGNUU2Nsc0dNNWhZUkRNWmJiOVliTnBab1ItWVFTcDljNU1Bb0E3VDVLWVlRc3poQ3FyYjA?oc=5",
+      "published": "2026-07-26T18:33:29+00:00",
+      "source": {
+        "name": "Ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
+      }
+    },
+    {
       "id": "3ebb0c2080d6",
       "title": "Betriebsfähigkeit: Lageso mahnt Apotheken zu Temperaturkontrollen - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSEM4X295eTdhRHlSR0k5S0MwMm1pSnZhamI1OWFaMGJnaURSLU5fdnB4aVJBNHRVd1RmMzdkM3ZUTk84ekFWUDhtT1pURUVMeFlnV3pRNTFfb0N2eFd6MHpPX1pQa0x4RnRneURZenNEQ0k0NDQxVWdEcW9XdkcwVTdFX3dvcU1zWEZCaFVsbjQ0V2cwVjRUbg?oc=5",
@@ -244,13 +254,13 @@
       }
     },
     {
-      "id": "1567890ae7d8",
-      "title": "Indivior PLC: Was Käufer in Deutschland wissen sollten - Ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVG5fUzNtNm1BNEFfYXQ1TkRqdXNXVTFuRjJyeWVTbHdzNlNzNWZvSktyRkJvbXJkcFY4cEZZTjUwLW1uNDZrU0VwUVp0cmlNR2c4YzdPVjdheFQ3dFo4d0kwZnVIV2VTRjc0QV9vcWk5bk52S2hWeUJJWlZ5U2FydzFRNWdjZXpVYVRpZHRtcGNUdkpJUUczU1BfZkI0cVhvdGtZYXowSUR5WUdrQmRrV2NpUQ?oc=5",
-      "published": "2026-07-26T19:28:54+00:00",
+      "id": "2a4cd6eb6d1d",
+      "title": "Arzneimittelengpässe in Europa – so reagiert die EU - European Parliament",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYUFLam5JQVMtSlNuNWlqSTJrRUNDN215RDlRU2hOMEE0Rkp3cHBodVhSbXRsSUhvTTRhMTVLWEE5QmM0dXJRNGlPSkwyZ2doMHhlaEpHbW5DZl8tazhQc3lPcEN4SmtLaEdGMk9IZjF5MGZvNEd3a2tXSnJXT1ItanFsV2gtRGpMYjlUbHV2OURrMkM5OXA3emh5OERlMlpXc1J1UlNVYUp1UlBUd1gzREtLUkZRZw?oc=5",
+      "published": "2026-03-31T07:00:00+00:00",
       "source": {
-        "name": "Ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
+        "name": "European Parliament",
+        "url": "https://www.europarl.europa.eu"
       }
     },
     {
@@ -264,13 +274,13 @@
       }
     },
     {
-      "id": "2a4cd6eb6d1d",
-      "title": "Arzneimittelengpässe in Europa – so reagiert die EU - European Parliament",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYUFLam5JQVMtSlNuNWlqSTJrRUNDN215RDlRU2hOMEE0Rkp3cHBodVhSbXRsSUhvTTRhMTVLWEE5QmM0dXJRNGlPSkwyZ2doMHhlaEpHbW5DZl8tazhQc3lPcEN4SmtLaEdGMk9IZjF5MGZvNEd3a2tXSnJXT1ItanFsV2gtRGpMYjlUbHV2OURrMkM5OXA3emh5OERlMlpXc1J1UlNVYUp1UlBUd1gzREtLUkZRZw?oc=5",
-      "published": "2026-03-31T07:00:00+00:00",
+      "id": "1567890ae7d8",
+      "title": "Indivior PLC: Was Käufer in Deutschland wissen sollten - Ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVG5fUzNtNm1BNEFfYXQ1TkRqdXNXVTFuRjJyeWVTbHdzNlNzNWZvSktyRkJvbXJkcFY4cEZZTjUwLW1uNDZrU0VwUVp0cmlNR2c4YzdPVjdheFQ3dFo4d0kwZnVIV2VTRjc0QV9vcWk5bk52S2hWeUJJWlZ5U2FydzFRNWdjZXpVYVRpZHRtcGNUdkpJUUczU1BfZkI0cVhvdGtZYXowSUR5WUdrQmRrV2NpUQ?oc=5",
+      "published": "2026-07-26T19:28:54+00:00",
       "source": {
-        "name": "European Parliament",
-        "url": "https://www.europarl.europa.eu"
+        "name": "Ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -474,16 +484,6 @@
       }
     },
     {
-      "id": "c0692e5af0b2",
-      "title": "Cholesterin-Therapie: Neue Präparate senken LDL um bis zu 50% - Ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbm05dnVBOEtBYjJwVDhKdXVRcGdaUVQzcUVMZWhHUFVTaWNEZEdTYnRKSmNuUWZHU0NXMjJKbl9XUmk4VzJ6RUtTWFFKNDdQVXFUTzZibDM3ZUR0TFUtakdXai1nSjJxYWQ1VXhkZVVkNEJVV2tNWFZGVkZEc0JiZjVGRFJUbGRhSE52ajhLa1dqVWhaNEJGRjdEeE51S1ItbVpNOEktUHFHcXVDVW8wRmtEaGpTOUxv?oc=5",
-      "published": "2026-07-27T00:39:12+00:00",
-      "source": {
-        "name": "Ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "8dce1ff85348",
       "title": "Erstattung: Gericht sieht Abnehmspritze als Lifestyle-Medikament - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdThMaUs3T0FfWmlEYnNHWkw3VHVTX3R4MUptMEUySkkwZk1OY19nU0xZcF9KT0IweUNoTzhzV2RkUUJhRl9Jdk8zTTgxeHlTbmV6a1R3NUx2ZDc1c0RMSVcyLU9NazE5aURIaW1FTzZhUTQ3U2JmQkhydXRHUEZXR1pGX0ZUODFRaWh0S3RDdzIxQ2hOMkZMc0VaZWdsTVlw?oc=5",
@@ -491,6 +491,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "c0692e5af0b2",
+      "title": "Cholesterin-Therapie: Neue Präparate senken LDL um bis zu 50% - Ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbm05dnVBOEtBYjJwVDhKdXVRcGdaUVQzcUVMZWhHUFVTaWNEZEdTYnRKSmNuUWZHU0NXMjJKbl9XUmk4VzJ6RUtTWFFKNDdQVXFUTzZibDM3ZUR0TFUtakdXai1nSjJxYWQ1VXhkZVVkNEJVV2tNWFZGVkZEc0JiZjVGRFJUbGRhSE52ajhLa1dqVWhaNEJGRjdEeE51S1ItbVpNOEktUHFHcXVDVW8wRmtEaGpTOUxv?oc=5",
+      "published": "2026-07-27T00:39:12+00:00",
+      "source": {
+        "name": "Ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -524,12 +534,12 @@
       }
     },
     {
-      "id": "edcf559b1a0c",
-      "title": "EU-Gesundheitskommissar prüft Folgen von Trumps Arzneipreispolitik - Euronews",
+      "id": "08f761ee3a89",
+      "title": "EU-Gesundheitskommissar prüft Folgen von Trumps Arzneipreispolitik - Euronews.com",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSzM5cWFmcTJfV010WWVadkdEVXRGblFEUTlhaUhoOThvaHV5eTJuWFVJbUtyMW9xNTJkYzNIR2Z6YWp0ZE1IWmNPb3pNcU5YY1phcUlQSU5IWWtvV0MzNDlqdHJZRU40alRPU29CWFVnUDBjLXE3UHhtV2pManQ4TzhzVEU3OHNDM2JJZm9ZbzBUbkVCRFRZYU1jMTl2UVdGRnhubmZZYWswcmZqbXAtbW5QcnRBTktIaHFFWg?oc=5",
       "published": "2026-06-16T07:00:00+00:00",
       "source": {
-        "name": "Euronews",
+        "name": "Euronews.com",
         "url": "https://de.euronews.com"
       }
     },
@@ -624,16 +634,6 @@
       }
     },
     {
-      "id": "e6be3515be16",
-      "title": "DocMorris Versandapotheke-App - DocMorris setzt auf digitale Rezeptlösung - Ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQREIzanBVZklkdG1OUGEzV0RHY3A4bGZRUFI2eHpVUFdTWTd4bUZlWGI5RTFhSmIwZHo2c3dYTUhGLWxlMXNiRG1MVnl1eldyN1B2Tm1lYXVERVlPcVFSbFhJUnVtVGVlLWpfQ1l1SW5EWlQzUDE1SUF0YmpIaWRUX1RzS3AyVWo3SXJCTXBwX21CeFNZMHpVS1p3R2ZCN2htd19YU3h3cmxDVzdqSThVREdQU090UlZtVWdzRXlXR3ptMzJLYXQ0eldRQVUzMG8?oc=5",
-      "published": "2026-07-26T11:51:10+00:00",
-      "source": {
-        "name": "Ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "8f7a16a55972",
       "title": "Arzneimittelpreise: Medikamente in Deutschland günstiger als USA trotz Trump-Deals - SZ.de",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdnBJZGx2V2VkNEJfQy1NTDk2NFJXOE5MY3k2VE1yNmxuZzNiWWNlalNjN0MzTjJzSUwxTDRPRTlJai1XeXVUODNhaGlrRXJhaVpJdVQ0eV9mNHc1QWZkaXhtUTVfdjZNWEU2eWptcVk1WkNUZHJNRUpNQzM2TXduRFpPS0tTbjhtajdRWmtMbTM2N1owQ1I1Y2g1MmJiUzNpdnc?oc=5",
@@ -641,6 +641,16 @@
       "source": {
         "name": "SZ.de",
         "url": "https://www.sueddeutsche.de"
+      }
+    },
+    {
+      "id": "e6be3515be16",
+      "title": "DocMorris Versandapotheke-App - DocMorris setzt auf digitale Rezeptlösung - Ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQREIzanBVZklkdG1OUGEzV0RHY3A4bGZRUFI2eHpVUFdTWTd4bUZlWGI5RTFhSmIwZHo2c3dYTUhGLWxlMXNiRG1MVnl1eldyN1B2Tm1lYXVERVlPcVFSbFhJUnVtVGVlLWpfQ1l1SW5EWlQzUDE1SUF0YmpIaWRUX1RzS3AyVWo3SXJCTXBwX21CeFNZMHpVS1p3R2ZCN2htd19YU3h3cmxDVzdqSThVREdQU090UlZtVWdzRXlXR3ptMzJLYXQ0eldRQVUzMG8?oc=5",
+      "published": "2026-07-26T11:51:10+00:00",
+      "source": {
+        "name": "Ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -724,12 +734,12 @@
       }
     },
     {
-      "id": "a1246c849d26",
-      "title": "Diese Medikamente können Alzheimer vorbeugen - Euronews",
+      "id": "d226bb3cd766",
+      "title": "Diese Medikamente können Alzheimer vorbeugen - Euronews.com",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZHd6NGpWcXV5WTFGMzRvX2tlV2dyb0hISS1yMmhxY2RXeXhUa1pCS3RpLTVHNGpOam56S2cxd05wc1Q3UWU3QUN4bVpRYmo1TkNDNS1fVkVwbHNHeWpMQ1paWjU2cG1Ha1NpQXJzWTFTRG9sbU1pSkNLNWdpLU5UaDV3UWlfaUNyNjhtUndXZw?oc=5",
       "published": "2026-02-08T08:00:00+00:00",
       "source": {
-        "name": "Euronews",
+        "name": "Euronews.com",
         "url": "https://de.euronews.com"
       }
     },
@@ -991,16 +1001,6 @@
       "source": {
         "name": "DIE ZEIT",
         "url": "https://www.zeit.de"
-      }
-    },
-    {
-      "id": "8e4ef3c2ecf0",
-      "title": "dm: Drogeriekette startet Online-Apotheke und erntet Kritik aus der Gesundheitsbranche - Spiegel",
-      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQb3YweDJTbVRaQ3JueVhtVG1VN3dxM3dLa1ZfN3ExNDdDNllob2V1Y3FqVUtZdzNjSjF2QU0wRlhQMElUMk1OY3Vob0ZTNjBWNUQwVmxPT1IxUjlDLU5rN3pjQ3BhbWtxcjI0dWJfNHc3LWplZFZiTWNoNUxjdWtlUWE1aDFxX3doZF9ZRzJ5NU5NTVhTZy1EWFJjLXlLd3lMS1MwQ09RRHVNci1HaUVBbXVGM2UxQkFLeWdRaDRLN2h6bmRSWGprSFZFZWFjYVZvcG53UG1HdjFGVjdzVS1yeXctRUVQTkFyV2UxSklocEpSQ3RHekxmdGlub1UzeTA?oc=5",
-      "published": "2025-12-12T08:00:00+00:00",
-      "source": {
-        "name": "Spiegel",
-        "url": "https://www.spiegel.de"
       }
     }
   ]
