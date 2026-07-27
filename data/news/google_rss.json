@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-27T21:11:41.986301+00:00",
+  "fetched_at": "2026-07-27T23:02:45.412427+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -34,16 +34,6 @@
       }
     },
     {
-      "id": "a2ee90b2b29a",
-      "title": "Kortison-Creme und Augentropfen: Diese drei Medikamente gibt es bald ohne Rezept - T-Online",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbUpjVGFQVTdYMFBlTEJWclBrUF9SWWQzczVfb19jSUlNNjVjRVc0bEZvdlhieDFhdTdjbGRoOWVEVC1vcWt3MmtFSjNlZzkxeHdXM1pBbDhQaExURHViaUdyQVBHVVRXLUlnX2l3SVp1VjJnQXBEYmdGZ1ZEa1htT0tLRHExUzZKMDhrclJEZl9kdjk1b2ppWUVnUHVULWltQVVjdnVEakxNcjJtbUFfTXEzUHZZeGs?oc=5",
-      "published": "2026-07-22T11:28:00+00:00",
-      "source": {
-        "name": "T-Online",
-        "url": "https://www.t-online.de"
-      }
-    },
-    {
       "id": "02ab9e005ec4",
       "title": "DocMorris: Rabattschlacht könnte Online-Apotheken in Ruin treiben - Business Insider Deutschland",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPVVZMakY3X2YtYU14Z1lid2hKZ2s2cnByNXFtb2J1T0l0ODhiRTVvb1plUk1XZUktUGs3YnZjQzU4Q1JWMHhtZVVtd2h4SkFyUEJSenJSYUJPWEREOXNOel95UUhUSEZ5akhXNnl0QjZERkZvaWpkdVA1TnVLLVJic1NGMmFFUG1yVzdhdEFmTDFDOWw4RUgtejM1dTlfRDdGUVE?oc=5",
@@ -51,6 +41,16 @@
       "source": {
         "name": "Business Insider Deutschland",
         "url": "https://www.businessinsider.de"
+      }
+    },
+    {
+      "id": "a2ee90b2b29a",
+      "title": "Kortison-Creme und Augentropfen: Diese drei Medikamente gibt es bald ohne Rezept - T-Online",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbUpjVGFQVTdYMFBlTEJWclBrUF9SWWQzczVfb19jSUlNNjVjRVc0bEZvdlhieDFhdTdjbGRoOWVEVC1vcWt3MmtFSjNlZzkxeHdXM1pBbDhQaExURHViaUdyQVBHVVRXLUlnX2l3SVp1VjJnQXBEYmdGZ1ZEa1htT0tLRHExUzZKMDhrclJEZl9kdjk1b2ppWUVnUHVULWltQVVjdnVEakxNcjJtbUFfTXEzUHZZeGs?oc=5",
+      "published": "2026-07-22T11:28:00+00:00",
+      "source": {
+        "name": "T-Online",
+        "url": "https://www.t-online.de"
       }
     },
     {
@@ -224,6 +224,16 @@
       }
     },
     {
+      "id": "f51868c23ac9",
+      "title": "Medikamente gratis auf Telegram: Zürcher Behörden warnen vor Risiken - bz Basel",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRlBGU3hMc1pYRGhGSldVTjBGYXV4MnV3MFpMaHNSQWVtSEJ6X3VKTDk1ZC0xWXltNWp2Q0wxb1JYb2ozMlYxMXBiX0RWNkoycGxGTUpqRGtWLW9lVGRlZ1REY0cyQlQ2OWNXTVB5N2xiRGlic2duNVJGTkJYWUpraFliQzVyOVFQTFlCYUV6QzRYS2pDNjNIMUpFTDlZdjVROFNJRDNkeHRHWlZWWmFpcXEyRXBFWmJleEE?oc=5",
+      "published": "2026-07-25T03:00:00+00:00",
+      "source": {
+        "name": "bz Basel",
+        "url": "https://www.bzbasel.ch"
+      }
+    },
+    {
       "id": "13490491a1ce",
       "title": "Pharma Deutschland gratuliert Carsten Linnemann zum Amt des Bundesgesundheitsministers - Presseportal",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1WR2hjUGdNOExqT054d0laQjd6ZmJKSFpEbFZaYWY4cFpKTXhyT0JGM2c1UlE4MW12S2h0NkVGZGxmdFdJa0ZtNTduOTl0clBYUVB2V2RmNA?oc=5",
@@ -244,23 +254,13 @@
       }
     },
     {
-      "id": "02e9917bea66",
-      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - DW.com",
+      "id": "8db31424e5bb",
+      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - dw.com",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGxHSlhmSS0tbUNKdG15NEVzRzYzYllEUnAzUEU3ak53czRHVWlKdTZrRGFDMk1MUThPUjdPTnBGVENqd3d2Q1VSdWhJVXppWDF4NWh0aEJJaXJlVTlnV0VoZVFkRHNSM3p6NVZXNjNwWHk5YkxSUWR2RGZKcmp3Y2U5REY0U3dRZFJLeHFtQk9wb2Y3RUVOaVBlMlJhZ29Rck000gGjAUFVX3lxTE1rTW00WXFBajZxbTJOS1NLckhVbXFBSzh1NE96QTEydTN1YjZnaFFNcV8xblZGM29hdTZQUHc4V3YzQ1pwcTlaVVBhZDVqMExLMTlYVzZ6TmM4ZUdsUm5TLXpPNmk1R3V4UktvaV93cWttNFpVX0VEZlZnUllSQkhyUlZmeTBJcU0zUEVSZTgxdzFWUnFNRk9CYVljN0Jhd0ZXUFk?oc=5",
       "published": "2026-05-12T07:00:00+00:00",
       "source": {
-        "name": "DW.com",
+        "name": "dw.com",
         "url": "https://www.dw.com"
-      }
-    },
-    {
-      "id": "054c2beef78c",
-      "title": "Marktgröße, Marktanteil für natürliche Gesundheitsmedikamente | Prognose [2034] - Fortune Business Insights",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcm9jWnMyZy1ubkhPQXFmQ1dzUmtCU0V4X0dTMlEzZnpVeEVnVmxNU0VweEJsR2hNakhlN0JxRk9kMVVhVFZFNWhpXzhtR2g3cTdRQVM5d1lON25zT1FXV3hJNlJ1dDY5R2JUUld0UGRadUs4aFM5elJ6Z0RqX3BFS1ZEcERJUUh0MldhbVRybzN6anhOZnRHMw?oc=5",
-      "published": "2026-06-29T07:00:00+00:00",
-      "source": {
-        "name": "Fortune Business Insights",
-        "url": "https://www.fortunebusinessinsights.com"
       }
     },
     {
@@ -334,13 +334,13 @@
       }
     },
     {
-      "id": "aaeed612b526",
-      "title": "Medikamente gratis auf Telegram: Zürcher Behörden warnen vor Risiken - Zofinger Tagblatt",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUnJ5SUlhWWZCZXp0bUdqcE1ETWUzaVNTVDExb2NheW1aTjhCUDVySTdDZUxMc1lUZS1NWVJBSWtSZ0l3bDU0S1ZMSUFOa19KNGRsQ2R2S3huVW9vX01Kb0s1TXgza0NSQWtRT3h3TlM1UHFJSW9faVhDVWlEelR6bDVyVVE2NDEyTDR6SXptdGJnR1Vtd2lhdTI4WnhCX2dhQkhydFBrcmFVX1JMdkZIdzQ0QXd3QXV2LWItazFtR0lIMHl4bGc?oc=5",
-      "published": "2026-07-25T03:00:00+00:00",
+      "id": "81077dbd66f3",
+      "title": "Som­mer­hit­ze: Ach­tung, man­che Me­di­ka­men­te wir­ken an­ders - Die Rheinpfalz",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPbHo1djh4VGtKUlVGSHlsQTQ1VWZWam9pODV1Ui03dGFscFI0ZTFZcmd6b1lxa0NtbmZjUHNrV1Fya25CajFFd2p2ZDlncGhZQ183cG9YbWJ4U1dPZnlzUHB5SjJXOG1Wb0F1djQwb29Vb29wQWtyVUVfN2xPZno1UnpPMmhRMlI2ZVR2d1g5MVlWRDdDMkRHc0RrOWJoT0g4VTRGSFh4b2stM2JuLVpCd2c5b2pFMy1LNS1DSjJpSEFHOEhD?oc=5",
+      "published": "2026-06-19T07:00:00+00:00",
       "source": {
-        "name": "Zofinger Tagblatt",
-        "url": "https://www.zofingertagblatt.ch"
+        "name": "Die Rheinpfalz",
+        "url": "https://www.rheinpfalz.de"
       }
     },
     {
@@ -434,16 +434,6 @@
       }
     },
     {
-      "id": "82e89bf7d869",
-      "title": "Sommerhitze: Achtung, manche Medikamente wirken anders - Lippische Landes-Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONzl4d0d1dXJiR0E4SXNkcmdFYXVyaXI1dGQta0JQWnRRQ1lTUjZPUlRuRjRWQUZ5VHNvRnFOc3BVMmRERGdNRGNfNXA4TkhtZlgtMzNhWGNDQTZHZEpQcENFbjV4bEI4VzFENkV0TnNWUkY4djI4ZHJRdFFkNU9iQVdPdnNIWnkzdnNXWFAyeFFrZDZFNVdDeHMwZFFRX1lsY0IzNkpsVQ?oc=5",
-      "published": "2026-06-19T04:32:04+00:00",
-      "source": {
-        "name": "Lippische Landes-Zeitung",
-        "url": "https://www.lz.de"
-      }
-    },
-    {
       "id": "c5e8dfb6e8ee",
       "title": "Gesundheitswirtschaft: Sparplan ist für Warken »kurzfristige Operation am Herzen« - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPM2ZHWEhpckd3UktDNnQwSDMtZ09XX21zQk16ckN2dG12bWFSWGNDdXNfc0xpNlJqS3ZfajRSMFRzTlRPYVNxVHNlZlJnWjI4VGcwYjhnOGhwZG9md3k2eDVHUGJfazhIU1NGVUQ1MjFYLUF1VmpVQlUyQjJnUjdqSUNZUTdGWnd4Yi1LZnpWaG1iaW5GZHBTM3p1bk1yZHNnSFJKQmpUOA?oc=5",
@@ -504,16 +494,6 @@
       }
     },
     {
-      "id": "c0692e5af0b2",
-      "title": "Cholesterin-Therapie: Neue Präparate senken LDL um bis zu 50% - Ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbm05dnVBOEtBYjJwVDhKdXVRcGdaUVQzcUVMZWhHUFVTaWNEZEdTYnRKSmNuUWZHU0NXMjJKbl9XUmk4VzJ6RUtTWFFKNDdQVXFUTzZibDM3ZUR0TFUtakdXai1nSjJxYWQ1VXhkZVVkNEJVV2tNWFZGVkZEc0JiZjVGRFJUbGRhSE52ajhLa1dqVWhaNEJGRjdEeE51S1ItbVpNOEktUHFHcXVDVW8wRmtEaGpTOUxv?oc=5",
-      "published": "2026-07-27T00:39:12+00:00",
-      "source": {
-        "name": "Ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "a43852bf5366",
       "title": "vfa zum Kommissionsbericht: Sparmaßnahmen für Pharmaindustrie im Faktencheck - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaGl6UGU2SlFIcnhfcTBza2E0aTZxOEEwd2xOWmxUT3hwYzYzSDRsSGJZa3g0U3BwTWpQdm01enFWcUVYeFhtR0d2SkJDQmVURmpFa0x0LXpYRTEzd1dtbmxyVWE2NVpZcE1DamxIT2kybUxscTV0QnZtTmVNRW1uLUxOeUw2cUlUZFRQUmdCYXZ4UEF4TFJuY092eU4tZw?oc=5",
@@ -571,6 +551,16 @@
       "source": {
         "name": "Deutschlandfunk",
         "url": "https://www.deutschlandfunk.de"
+      }
+    },
+    {
+      "id": "c0692e5af0b2",
+      "title": "Cholesterin-Therapie: Neue Präparate senken LDL um bis zu 50% - Ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbm05dnVBOEtBYjJwVDhKdXVRcGdaUVQzcUVMZWhHUFVTaWNEZEdTYnRKSmNuUWZHU0NXMjJKbl9XUmk4VzJ6RUtTWFFKNDdQVXFUTzZibDM3ZUR0TFUtakdXai1nSjJxYWQ1VXhkZVVkNEJVV2tNWFZGVkZEc0JiZjVGRFJUbGRhSE52ajhLa1dqVWhaNEJGRjdEeE51S1ItbVpNOEktUHFHcXVDVW8wRmtEaGpTOUxv?oc=5",
+      "published": "2026-07-27T00:39:12+00:00",
+      "source": {
+        "name": "Ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -1001,6 +991,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "445f92c7e54b",
+      "title": "Wundermittel oder Wahnsinn? Der riskante Hype um Methylenblau - NDR.de",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZjdVekdjMzQzUFRaQlJaZW5GM3l0bmZFay1iTWxoVXpOLWFfTkVQejhNU1FwSTR6Q1RETXRFYm56enYwNm8tZXBXZlRmb0JKalI4REI2dEVNcUh6NHhMMDBlTkNkOXRaTU1hS2ZXNWZhVnk3TUthaFpuTFh2c3NtVUNmcUtYc290bFI1MERTaDFjaXNNcDFpczNjX004TUV4MjBjdWFhM2F1dXF4bktZQWtvS0hGUHM?oc=5",
+      "published": "2025-09-16T07:00:00+00:00",
+      "source": {
+        "name": "NDR.de",
+        "url": "https://www.ndr.de"
       }
     }
   ]
