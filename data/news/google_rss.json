@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-28T20:15:32.810993+00:00",
+  "fetched_at": "2026-07-28T22:04:54.128446+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -44,16 +44,6 @@
       }
     },
     {
-      "id": "a50000bb12f5",
-      "title": "Gesundheitsreform: Wieso Ärzte mit Apotheken streiten - FAZ",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNld4eXB2WW5seEFqWHc5UlcyVzhnZW1SU3BvSjFsNTJDZGNhYW9PMDgxSmFLbjZlV0p2aXM5WUpyUEFJZUJfbHdody0tMG9vOWlsa0MzcUh6Q3llSFZSeEs4eVF5OURzNEwwMWtFR3RlNHlBbzRPckJNaUxGT0RDNHNZcnh4TzNwbHB2eG5kV1c3aUtqOGFKWTZLcUtidE5HNTJlN1dCd3EwQVBwV0NmWWRwUkxoTDRSb2c?oc=5",
-      "published": "2026-07-27T14:58:36+00:00",
-      "source": {
-        "name": "FAZ",
-        "url": "https://www.faz.net"
-      }
-    },
-    {
       "id": "9fa13ce5acf5",
       "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
@@ -61,6 +51,16 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "a50000bb12f5",
+      "title": "Gesundheitsreform: Wieso Ärzte mit Apotheken streiten - FAZ",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNld4eXB2WW5seEFqWHc5UlcyVzhnZW1SU3BvSjFsNTJDZGNhYW9PMDgxSmFLbjZlV0p2aXM5WUpyUEFJZUJfbHdody0tMG9vOWlsa0MzcUh6Q3llSFZSeEs4eVF5OURzNEwwMWtFR3RlNHlBbzRPckJNaUxGT0RDNHNZcnh4TzNwbHB2eG5kV1c3aUtqOGFKWTZLcUtidE5HNTJlN1dCd3EwQVBwV0NmWWRwUkxoTDRSb2c?oc=5",
+      "published": "2026-07-27T14:58:36+00:00",
+      "source": {
+        "name": "FAZ",
+        "url": "https://www.faz.net"
       }
     },
     {
@@ -94,16 +94,6 @@
       }
     },
     {
-      "id": "0323fd1d47f5",
-      "title": "Das Gesetz stuft Abnehmmedikamente als Lifestyle-Arzneimittel ein und viele Befragte denken ähnlich - PressNetwork.de",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOX3V4ZFNjWkl3RmtDcTRlUzhsVnVRMzhETTd6WTVTc2FqV2hjaGt0NktYY2FfNlRoNlNJR3Ztb0xKTVdaTi0wY0lRWUVac210Y3RZM0F1akEzMDE1Q1VNM1pxZktPSTlXd21SYUtrb2o1TkRRSEFDcDUzUF9MWkFRN3dLSU9SVnpkR3RCSDdXQldhWmhPV2NnbE5IMXpnclhGajB4UmcxMTBpaW1STF95cGVRcjBJQXJvZy1kTWpnWDhGX0E?oc=5",
-      "published": "2026-07-28T10:45:49+00:00",
-      "source": {
-        "name": "PressNetwork.de",
-        "url": "https://pressnetwork.de"
-      }
-    },
-    {
       "id": "02ab9e005ec4",
       "title": "DocMorris: Rabattschlacht könnte Online-Apotheken in Ruin treiben - Business Insider Deutschland",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPVVZMakY3X2YtYU14Z1lid2hKZ2s2cnByNXFtb2J1T0l0ODhiRTVvb1plUk1XZUktUGs3YnZjQzU4Q1JWMHhtZVVtd2h4SkFyUEJSenJSYUJPWEREOXNOel95UUhUSEZ5akhXNnl0QjZERkZvaWpkdVA1TnVLLVJic1NGMmFFUG1yVzdhdEFmTDFDOWw4RUgtejM1dTlfRDdGUVE?oc=5",
@@ -111,6 +101,16 @@
       "source": {
         "name": "Business Insider Deutschland",
         "url": "https://www.businessinsider.de"
+      }
+    },
+    {
+      "id": "0323fd1d47f5",
+      "title": "Das Gesetz stuft Abnehmmedikamente als Lifestyle-Arzneimittel ein und viele Befragte denken ähnlich - PressNetwork.de",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOX3V4ZFNjWkl3RmtDcTRlUzhsVnVRMzhETTd6WTVTc2FqV2hjaGt0NktYY2FfNlRoNlNJR3Ztb0xKTVdaTi0wY0lRWUVac210Y3RZM0F1akEzMDE1Q1VNM1pxZktPSTlXd21SYUtrb2o1TkRRSEFDcDUzUF9MWkFRN3dLSU9SVnpkR3RCSDdXQldhWmhPV2NnbE5IMXpnclhGajB4UmcxMTBpaW1STF95cGVRcjBJQXJvZy1kTWpnWDhGX0E?oc=5",
+      "published": "2026-07-28T10:45:49+00:00",
+      "source": {
+        "name": "PressNetwork.de",
+        "url": "https://pressnetwork.de"
       }
     },
     {
@@ -151,16 +151,6 @@
       "source": {
         "name": "Gesundheit.gv.at",
         "url": "https://www.gesundheit.gv.at"
-      }
-    },
-    {
-      "id": "9a219e04df61",
-      "title": "Studie: GLP-1-Abnehmmedikamente erhöhen leicht, aber real das Risiko für Haarausfall - Euronews.com",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQm5JS2dzelBGRTgwN0pwQ1dJc1N3cHBEd05TRjRHNlNyMEpVUkhFMF9fOS1Qck9aYlRndUptbV9HNlNQcWRWWGdnZmtHM0U3U3AyMWVmTE9LV2xfNF9HX2dJQUNnYnJkcF9EbF96eUJqVnNOd25SODZrZ3Y5bl9BeF96MVpUUVZ4NHdKSmotSWdNZkNZeXNYTjYwOE9mZWl4dzF2dk1SRjlFb1VfaDVUTDQ1Wjl5MXNKbkVNQ3A0R2FvUmxYbWZR?oc=5",
-      "published": "2026-07-23T12:17:21+00:00",
-      "source": {
-        "name": "Euronews.com",
-        "url": "https://de.euronews.com"
       }
     },
     {
@@ -221,6 +211,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "9a219e04df61",
+      "title": "Studie: GLP-1-Abnehmmedikamente erhöhen leicht, aber real das Risiko für Haarausfall - Euronews.com",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQm5JS2dzelBGRTgwN0pwQ1dJc1N3cHBEd05TRjRHNlNyMEpVUkhFMF9fOS1Qck9aYlRndUptbV9HNlNQcWRWWGdnZmtHM0U3U3AyMWVmTE9LV2xfNF9HX2dJQUNnYnJkcF9EbF96eUJqVnNOd25SODZrZ3Y5bl9BeF96MVpUUVZ4NHdKSmotSWdNZkNZeXNYTjYwOE9mZWl4dzF2dk1SRjlFb1VfaDVUTDQ1Wjl5MXNKbkVNQ3A0R2FvUmxYbWZR?oc=5",
+      "published": "2026-07-23T12:17:21+00:00",
+      "source": {
+        "name": "Euronews.com",
+        "url": "https://de.euronews.com"
       }
     },
     {
@@ -324,16 +324,6 @@
       }
     },
     {
-      "id": "e4d74f6ebf64",
-      "title": "Patienten und die Generikabranche fordern die EU auf, auf Trumps Drohungen bezüglich der Arzneimittelpreise zu reagieren - euractiv.com",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOSm0tcngyMXZvMXBmQW9MbjlzWEp1d0JKLVdvV2g4NDkyQ2FxMzhhQTFHUEtyX25Tb0VTdGVPUkt0WXJEeV9QNl84MTZ3MTU0QjgtN3VWeFc3dDVuMWNjb3ZIQ2JyemdRVXJhSHFCQ21yazg4RGU5djlTSkEzdVlsdWNnOUxvWXRyRjVVNUg5N1pRSW1aX2FlOWQ4S0pYXzNkYlJmSE9GNWRmcmNBMWIwOXc0aFJybUJYLU9xUlVVLWplN3ZkNmNvQnQ3ME55TGpVcng0TkxPd2M4MDdBc3hXNVBHNA?oc=5",
-      "published": "2026-07-03T07:19:40+00:00",
-      "source": {
-        "name": "euractiv.com",
-        "url": "https://euractiv.com"
-      }
-    },
-    {
       "id": "d9edf968b2d7",
       "title": "»Spar­po­li­tik bei Arz­nei­mit­teln ist ein Irr­weg« - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZ3BYbThQLUVqMndzcmZ2RzJRTW5vb1o4dGhibU52alc0SUtlbFkxMkhCS1puYnNnelNOcnVtSl9iejVRNU1sNGxvZ0lZZVZkaWNnRGhWVWsxT1JobThfRzFVdnh6Q25Idzl3aGZZaThYdHBRYTUzNHRpX2VNZ0dGWHBjd3VEbDdERlhjOHhubnhHLXB2OWc?oc=5",
@@ -341,6 +331,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "e4d74f6ebf64",
+      "title": "Patienten und die Generikabranche fordern die EU auf, auf Trumps Drohungen bezüglich der Arzneimittelpreise zu reagieren - euractiv.com",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOSm0tcngyMXZvMXBmQW9MbjlzWEp1d0JKLVdvV2g4NDkyQ2FxMzhhQTFHUEtyX25Tb0VTdGVPUkt0WXJEeV9QNl84MTZ3MTU0QjgtN3VWeFc3dDVuMWNjb3ZIQ2JyemdRVXJhSHFCQ21yazg4RGU5djlTSkEzdVlsdWNnOUxvWXRyRjVVNUg5N1pRSW1aX2FlOWQ4S0pYXzNkYlJmSE9GNWRmcmNBMWIwOXc0aFJybUJYLU9xUlVVLWplN3ZkNmNvQnQ3ME55TGpVcng0TkxPd2M4MDdBc3hXNVBHNA?oc=5",
+      "published": "2026-07-03T07:19:40+00:00",
+      "source": {
+        "name": "euractiv.com",
+        "url": "https://euractiv.com"
       }
     },
     {
@@ -361,16 +361,6 @@
       "source": {
         "name": "euractiv.com",
         "url": "https://euractiv.com"
-      }
-    },
-    {
-      "id": "31c1603bbcb4",
-      "title": "Medikamente gratis auf Telegram: Zürcher Behörden warnen vor Risiken - Aargauer Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNWgzSHFkNHdGZGZtaFlXRjVSYi1hdlY2ODVtMHFINHdLQ1N3c1RabUV0elprSFBvR203UVc2QjFTOU1tR0VNX2E3QTFzZ1VpaTB6QnpEQl85cEVmejVVdkZGQzR0VkhHeUN1MjZNaXlEOHpVS2phT1YxWHhLWGVBSy1hOGN1RzNHRnhvSWpCSGswcndaLU9lRVAzRHdtS182SW4wNGlmYnVxcW5DRkJ5LUpralRheGRoeWtvZzR5LVRRa09Y?oc=5",
-      "published": "2026-07-25T03:00:00+00:00",
-      "source": {
-        "name": "Aargauer Zeitung",
-        "url": "https://www.aargauerzeitung.ch"
       }
     },
     {
@@ -724,16 +714,6 @@
       }
     },
     {
-      "id": "7d876f76990e",
-      "title": "Arzneimittel-Ratschlag durch ChatGPT landet vor Gericht - Deutsche Apotheker Zeitung, DAZ",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOb2R6cDZTSjF3cDJfUW1NOERXRnRaN0hhbWJrU2hLMjMtZ0V1VjhyOHdJNllIaFlfZlM3TDhZNGVzYVkzNlFkSk5rR0NGMnJSQVlaOGdCa1o3Ty1HRjgxTy11M2NaSHE4SFBVM1FhNjZDb0VUNmVHcERnWXRqMXRxRkZUc0NjMEdKaFdabVU3UUpubE5rU1czTWtpVVpIQUZiMUJKUHlkcE1Jcks3bl9CSWg1Qm1UVnhLN2xhdDhn?oc=5",
-      "published": "2026-05-19T07:00:00+00:00",
-      "source": {
-        "name": "Deutsche Apotheker Zeitung, DAZ",
-        "url": "https://www.deutsche-apotheker-zeitung.de"
-      }
-    },
-    {
       "id": "e5c9f6b52b1b",
       "title": "Weil Gesundheit alles verändert - Handelsblatt Live",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9VQXU3d2J3REtJeXBaWlQ0UTVlRWJDR2U3cTBJRFNaVlBYenpnNmp1QXZJLXB1WFQxY1dOQjJhMGRwVVZTNEE2eWVMZVd0bVZTSzEyOHY2R0NVd2dKVllzVEM3NDRoNEZKUkthRDdSTHA?oc=5",
@@ -764,16 +744,6 @@
       }
     },
     {
-      "id": "5d8c89f1b6f0",
-      "title": "Gesundheitsökonom Kugler: \"Wir bezahlen nur wirklich nützliche Medikamente\" - MDR.de",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWDlDNjhEYjgwOHl4R3NZUWFqaEo4Qkd4OUZISDllZG9TcVJubHF1MnUwRVRPY2pZLWZFdlQzdktxelU5SktXdlBaSkIxcFJjN2dJUXJTYklvSFpOckcxSjdvRkxRM0RjRy0yUEtIRWVPWF9JZmNMc1d1NXFMWHFVajJ0LWY1cDh6Ql9aYmFUQnE4LVlGNUFIZW5IR0E5TU5nak5ESlB0d2hSU2U0UWJQeWRfZllHVkcyeGdMVi1uRlFFU25OV0dv?oc=5",
-      "published": "2026-04-26T07:00:00+00:00",
-      "source": {
-        "name": "MDR.de",
-        "url": "https://www.mdr.de"
-      }
-    },
-    {
       "id": "5b3c21a9706f",
       "title": "Hendrik Streeck hinterfragt teure Medikamente für alte Menschen - Spiegel",
       "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPdklWd0VveEdNaGZxM3F3RmFVdXFOQi10dUZONzlqUjBCS1EyMERpajY5dm9UajBXQnNaaG1Kc2NYUl8tOHpBZFBTQjl4X2NUdXNmckMxdDllNEVmMnZkNVRvU2Y1d3R6WUswWVFLek9rWUhOb01pSjkwbFB1SVdWaTQyc25VWi1aUGxWUGpETWU1b0plSW5qQXNZNzNmbzRPUUg0dGRVOHpEQnI4SWpkZ2diak1XSWNmNFhzSXVUd1BDYktCSkxIVmt2ekpXdGJ3ZDdYRXdWa1FwNDVo?oc=5",
@@ -781,6 +751,16 @@
       "source": {
         "name": "Spiegel",
         "url": "https://www.spiegel.de"
+      }
+    },
+    {
+      "id": "5d8c89f1b6f0",
+      "title": "Gesundheitsökonom Kugler: \"Wir bezahlen nur wirklich nützliche Medikamente\" - MDR.de",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWDlDNjhEYjgwOHl4R3NZUWFqaEo4Qkd4OUZISDllZG9TcVJubHF1MnUwRVRPY2pZLWZFdlQzdktxelU5SktXdlBaSkIxcFJjN2dJUXJTYklvSFpOckcxSjdvRkxRM0RjRy0yUEtIRWVPWF9JZmNMc1d1NXFMWHFVajJ0LWY1cDh6Ql9aYmFUQnE4LVlGNUFIZW5IR0E5TU5nak5ESlB0d2hSU2U0UWJQeWRfZllHVkcyeGdMVi1uRlFFU25OV0dv?oc=5",
+      "published": "2026-04-26T07:00:00+00:00",
+      "source": {
+        "name": "MDR.de",
+        "url": "https://www.mdr.de"
       }
     },
     {
@@ -841,6 +821,16 @@
       "source": {
         "name": "Tagesspiegel",
         "url": "https://www.tagesspiegel.de"
+      }
+    },
+    {
+      "id": "7d876f76990e",
+      "title": "Arzneimittel-Ratschlag durch ChatGPT landet vor Gericht - Deutsche Apotheker Zeitung, DAZ",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOb2R6cDZTSjF3cDJfUW1NOERXRnRaN0hhbWJrU2hLMjMtZ0V1VjhyOHdJNllIaFlfZlM3TDhZNGVzYVkzNlFkSk5rR0NGMnJSQVlaOGdCa1o3Ty1HRjgxTy11M2NaSHE4SFBVM1FhNjZDb0VUNmVHcERnWXRqMXRxRkZUc0NjMEdKaFdabVU3UUpubE5rU1czTWtpVVpIQUZiMUJKUHlkcE1Jcks3bl9CSWg1Qm1UVnhLN2xhdDhn?oc=5",
+      "published": "2026-05-19T07:00:00+00:00",
+      "source": {
+        "name": "Deutsche Apotheker Zeitung, DAZ",
+        "url": "https://www.deutsche-apotheker-zeitung.de"
       }
     },
     {
@@ -1001,6 +991,16 @@
       "source": {
         "name": "Tagesspiegel",
         "url": "https://www.tagesspiegel.de"
+      }
+    },
+    {
+      "id": "dbab4bead913",
+      "title": "AstraZeneca erwägt Medikamenten-Stopp in Deutschland: Konzernchef kritisiert Sparpläne der Regierung scharf - Business Insider Deutschland",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPb1F4ZlVIUm83b0gtQTg0MU5WeHR1eUNPcmJBaFV4aGgwbjg2VlNUQ2F1RmVKeC1fTFFGbWIwYmFackw0Skg0Z1RMMDhfbEFnU2lMTURULVZHbVVoY1AxdkxINi1wQkFubExyeE1GLVZ3SVNiUnBXVTFUWXFTZlpTM0JzZnhqUF9lNU1pbjZ1bkxNZ1pQLUt1bC15eTJ0X0NUNWdQLWlRandzRkNtNURCRlptUjFybk93RXc?oc=5",
+      "published": "2026-04-21T07:00:00+00:00",
+      "source": {
+        "name": "Business Insider Deutschland",
+        "url": "https://www.businessinsider.de"
       }
     }
   ]
