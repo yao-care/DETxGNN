@@ -1,8 +1,18 @@
 {
-  "fetched_at": "2026-07-28T02:38:22.062912+00:00",
+  "fetched_at": "2026-07-28T05:46:56.987170+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
+    {
+      "id": "61e0c0f749b1",
+      "title": "Wie man seriöse Onlineapotheken erkennt - Lippische Landes-Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNOVFjVndVT0x5UHVzNXFhZU9aLUFKNGhsOE1zV2cyLVRBWnNwc1pIaWt3UjdPd3plT2R1M0pEZ25scjUzVHpFaTRwN3Zld3FHWng3eFRkbFdKNXFwOEJRZGQ4WjJobV9yYUE1WWFtcWFsMVZjclpKTjlVbTctYldkZTFSXzlvSlRxMk9aN2ZKa1p0dXdwTExN?oc=5",
+      "published": "2026-07-28T03:12:05+00:00",
+      "source": {
+        "name": "Lippische Landes-Zeitung",
+        "url": "https://www.lz.de"
+      }
+    },
     {
       "id": "1c099be23d11",
       "title": "Medikament online bestellen: Was (nicht) gespart werden kann - MDR.de",
@@ -34,6 +44,16 @@
       }
     },
     {
+      "id": "38fb5c95ac45",
+      "title": "Wie man seriöse Onlineapotheken erkennt - Wiesbadener Kurier",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxON2d3QTd3TERZNnhRSjdhVHNQdjVIaTBOWlFlRExNU2ZLN1ZDejZiZDJnblBRcmpydUhBZFhiaGdGczFzNVlVcEY1QzRLLWJuZkRmalpPVEtCZzhHVDVLOGVnRkl3ZEQ5S0Y0bTMzaEFSeDZWSnFuWWVvcmxpQUw3SVY0aHpySG1YaW1XV041dnNpTFFGeUlRY0w4ZVUycTcwdWZZNm5RZw?oc=5",
+      "published": "2026-07-27T18:12:00+00:00",
+      "source": {
+        "name": "Wiesbadener Kurier",
+        "url": "https://www.wiesbadener-tagblatt.de"
+      }
+    },
+    {
       "id": "02ab9e005ec4",
       "title": "DocMorris: Rabattschlacht könnte Online-Apotheken in Ruin treiben - Business Insider Deutschland",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPVVZMakY3X2YtYU14Z1lid2hKZ2s2cnByNXFtb2J1T0l0ODhiRTVvb1plUk1XZUktUGs3YnZjQzU4Q1JWMHhtZVVtd2h4SkFyUEJSenJSYUJPWEREOXNOel95UUhUSEZ5akhXNnl0QjZERkZvaWpkdVA1TnVLLVJic1NGMmFFUG1yVzdhdEFmTDFDOWw4RUgtejM1dTlfRDdGUVE?oc=5",
@@ -41,16 +61,6 @@
       "source": {
         "name": "Business Insider Deutschland",
         "url": "https://www.businessinsider.de"
-      }
-    },
-    {
-      "id": "a2ee90b2b29a",
-      "title": "Kortison-Creme und Augentropfen: Diese drei Medikamente gibt es bald ohne Rezept - T-Online",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbUpjVGFQVTdYMFBlTEJWclBrUF9SWWQzczVfb19jSUlNNjVjRVc0bEZvdlhieDFhdTdjbGRoOWVEVC1vcWt3MmtFSjNlZzkxeHdXM1pBbDhQaExURHViaUdyQVBHVVRXLUlnX2l3SVp1VjJnQXBEYmdGZ1ZEa1htT0tLRHExUzZKMDhrclJEZl9kdjk1b2ppWUVnUHVULWltQVVjdnVEakxNcjJtbUFfTXEzUHZZeGs?oc=5",
-      "published": "2026-07-22T11:28:00+00:00",
-      "source": {
-        "name": "T-Online",
-        "url": "https://www.t-online.de"
       }
     },
     {
@@ -71,6 +81,16 @@
       "source": {
         "name": "ADAC",
         "url": "https://www.adac.de"
+      }
+    },
+    {
+      "id": "a2ee90b2b29a",
+      "title": "Kortison-Creme und Augentropfen: Diese drei Medikamente gibt es bald ohne Rezept - T-Online",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbUpjVGFQVTdYMFBlTEJWclBrUF9SWWQzczVfb19jSUlNNjVjRVc0bEZvdlhieDFhdTdjbGRoOWVEVC1vcWt3MmtFSjNlZzkxeHdXM1pBbDhQaExURHViaUdyQVBHVVRXLUlnX2l3SVp1VjJnQXBEYmdGZ1ZEa1htT0tLRHExUzZKMDhrclJEZl9kdjk1b2ppWUVnUHVULWltQVVjdnVEakxNcjJtbUFfTXEzUHZZeGs?oc=5",
+      "published": "2026-07-22T11:28:00+00:00",
+      "source": {
+        "name": "T-Online",
+        "url": "https://www.t-online.de"
       }
     },
     {
@@ -124,6 +144,16 @@
       }
     },
     {
+      "id": "31c1603bbcb4",
+      "title": "Medikamente gratis auf Telegram: Zürcher Behörden warnen vor Risiken - Aargauer Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNWgzSHFkNHdGZGZtaFlXRjVSYi1hdlY2ODVtMHFINHdLQ1N3c1RabUV0elprSFBvR203UVc2QjFTOU1tR0VNX2E3QTFzZ1VpaTB6QnpEQl85cEVmejVVdkZGQzR0VkhHeUN1MjZNaXlEOHpVS2phT1YxWHhLWGVBSy1hOGN1RzNHRnhvSWpCSGswcndaLU9lRVAzRHdtS182SW4wNGlmYnVxcW5DRkJ5LUpralRheGRoeWtvZzR5LVRRa09Y?oc=5",
+      "published": "2026-07-25T03:00:00+00:00",
+      "source": {
+        "name": "Aargauer Zeitung",
+        "url": "https://www.aargauerzeitung.ch"
+      }
+    },
+    {
       "id": "a54a884d55a6",
       "title": "Noch in diesem Jahr: Rossmann will Medikamente liefern - WEB.DE",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZzVIdE80VXRILUdTZTlsLTQwMHlHX1FMSjhsUGppeGJjNERCQkdLeDJwNnp6UUZTWWNmTW0xaUVZaGhHS1ZXSWV2TUZLbzNLdVVuei11TDZ4VVlQNU1CQUVuRTM0RHV3S3pYcnM3UThsNDhsaWFicE5ET0Noek1mcTFWbw?oc=5",
@@ -131,26 +161,6 @@
       "source": {
         "name": "WEB.DE",
         "url": "https://web.de"
-      }
-    },
-    {
-      "id": "a48a34dcb337",
-      "title": "Opioide: Israel führt weltweit beim Pro-Kopf-Konsum - Jüdische Allgemeine",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1MZVF2WFVHNi01ZVZ4STRQeWMxTW9FN1lFYS1jdy0tRXhzcGRCazhCMWdWLWVpcHZzcEVNYUpqNE40OVgzYU1TazBoOXBEdkZtVEE3R3ZST0Y4WHJXcHNzWVdFdGx6aUJ6eWNIN3pEeFg0SnU0RWc?oc=5",
-      "published": "2026-07-05T07:00:00+00:00",
-      "source": {
-        "name": "Jüdische Allgemeine",
-        "url": "https://www.juedische-allgemeine.de"
-      }
-    },
-    {
-      "id": "ca3fbb8f0e20",
-      "title": "SPD macht Arzneimittelversorgung zur Sicherheitsfrage - gesundheit adhoc",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaUx0Nm5DX2dXSFptbnJSOFlNVzVxaHpReWZiSVVVb0JMSnFzR3dVOHdiYzVEOGRaczRySGhxSVI3TlJOa3BJdzRyejl3bEhObFE0WWxKTVJ4NFd4MVJ2eW43RFF5dUFrNFNlTnZnZWZaVXRoMk14VlZPVi0yREtsa2ZIOURjQUpvNVZSMlV5cw?oc=5",
-      "published": "2026-07-09T10:41:12+00:00",
-      "source": {
-        "name": "gesundheit adhoc",
-        "url": "https://www.gesundheit-adhoc.de"
       }
     },
     {
@@ -191,6 +201,26 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "a48a34dcb337",
+      "title": "Opioide: Israel führt weltweit beim Pro-Kopf-Konsum - Jüdische Allgemeine",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1MZVF2WFVHNi01ZVZ4STRQeWMxTW9FN1lFYS1jdy0tRXhzcGRCazhCMWdWLWVpcHZzcEVNYUpqNE40OVgzYU1TazBoOXBEdkZtVEE3R3ZST0Y4WHJXcHNzWVdFdGx6aUJ6eWNIN3pEeFg0SnU0RWc?oc=5",
+      "published": "2026-07-05T07:00:00+00:00",
+      "source": {
+        "name": "Jüdische Allgemeine",
+        "url": "https://www.juedische-allgemeine.de"
+      }
+    },
+    {
+      "id": "ca3fbb8f0e20",
+      "title": "SPD macht Arzneimittelversorgung zur Sicherheitsfrage - gesundheit adhoc",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaUx0Nm5DX2dXSFptbnJSOFlNVzVxaHpReWZiSVVVb0JMSnFzR3dVOHdiYzVEOGRaczRySGhxSVI3TlJOa3BJdzRyejl3bEhObFE0WWxKTVJ4NFd4MVJ2eW43RFF5dUFrNFNlTnZnZWZaVXRoMk14VlZPVi0yREtsa2ZIOURjQUpvNVZSMlV5cw?oc=5",
+      "published": "2026-07-09T10:41:12+00:00",
+      "source": {
+        "name": "gesundheit adhoc",
+        "url": "https://www.gesundheit-adhoc.de"
       }
     },
     {
@@ -244,12 +274,12 @@
       }
     },
     {
-      "id": "8db31424e5bb",
-      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - dw.com",
+      "id": "02e9917bea66",
+      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - DW.com",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGxHSlhmSS0tbUNKdG15NEVzRzYzYllEUnAzUEU3ak53czRHVWlKdTZrRGFDMk1MUThPUjdPTnBGVENqd3d2Q1VSdWhJVXppWDF4NWh0aEJJaXJlVTlnV0VoZVFkRHNSM3p6NVZXNjNwWHk5YkxSUWR2RGZKcmp3Y2U5REY0U3dRZFJLeHFtQk9wb2Y3RUVOaVBlMlJhZ29Rck000gGjAUFVX3lxTE1rTW00WXFBajZxbTJOS1NLckhVbXFBSzh1NE96QTEydTN1YjZnaFFNcV8xblZGM29hdTZQUHc4V3YzQ1pwcTlaVVBhZDVqMExLMTlYVzZ6TmM4ZUdsUm5TLXpPNmk1R3V4UktvaV93cWttNFpVX0VEZlZnUllSQkhyUlZmeTBJcU0zUEVSZTgxdzFWUnFNRk9CYVljN0Jhd0ZXUFk?oc=5",
       "published": "2026-05-12T07:00:00+00:00",
       "source": {
-        "name": "dw.com",
+        "name": "DW.com",
         "url": "https://www.dw.com"
       }
     },
@@ -281,6 +311,16 @@
       "source": {
         "name": "Gesundheit.gv.at",
         "url": "https://www.gesundheit.gv.at"
+      }
+    },
+    {
+      "id": "054c2beef78c",
+      "title": "Marktgröße, Marktanteil für natürliche Gesundheitsmedikamente | Prognose [2034] - Fortune Business Insights",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcm9jWnMyZy1ubkhPQXFmQ1dzUmtCU0V4X0dTMlEzZnpVeEVnVmxNU0VweEJsR2hNakhlN0JxRk9kMVVhVFZFNWhpXzhtR2g3cTdRQVM5d1lON25zT1FXV3hJNlJ1dDY5R2JUUld0UGRadUs4aFM5elJ6Z0RqX3BFS1ZEcERJUUh0MldhbVRybzN6anhOZnRHMw?oc=5",
+      "published": "2026-06-29T07:00:00+00:00",
+      "source": {
+        "name": "Fortune Business Insights",
+        "url": "https://www.fortunebusinessinsights.com"
       }
     },
     {
@@ -474,6 +514,16 @@
       }
     },
     {
+      "id": "f8ba907ebb33",
+      "title": "Medikamente, Homöopathie, Zahnersatz – Welche Einschnitte für Versicherte geplant sind - Deutschlandfunk",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQRXIwZjE5QUZxZHRHeWpWQ21fcjBtN2lxN29JQUtOWC1OWHVFbW53MTMwZTZPLVJyX19xbGQ0YVRWVXpyUEZWMVVHYWE5bWpURDJINmxLQlZBZnZPOHExYS1TSkE4YlQ1Sk05R2lKYUlXU1A5V0Q5M19iTG54XzRJX0Rsc3hkR0dNMEd5OE1UbHJ1VXNzb2NLaTlHeDdzazNUN2xlTkZkWGw3c21IWUFDc0ZMc0VUeUt6bmpPNmZ0ZnB4QQ?oc=5",
+      "published": "2026-05-16T07:00:00+00:00",
+      "source": {
+        "name": "Deutschlandfunk",
+        "url": "https://www.deutschlandfunk.de"
+      }
+    },
+    {
       "id": "20a64d917dfc",
       "title": "Medikamente für Senioren: Studie warnt vor riskanten Wirkstoffen - Berliner Morgenpost",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZ29BeW1jeXNBMHJfUWNHT1RfQWNhcG9TUzJwbE11cl9XN1VvWElYUmJORUxoclg3R08xa3VsaXhSMlBnSlE2ZkhOdWF2Z0lVempDdE9XMnBZcEVQUm5KVDBaM0I0ZWpxdzBYbkxYOWtjOGN1ZGxCUkh5TDUzeUxJc0F1dm55XzdHMEwyNUZheFRiaFdKUGtUR1JmYXRGelY0UlM3OFh4SkExRGFTVWZFamxqYXFQOHRCZjFTQThnbjRWU1JMcEM0?oc=5",
@@ -561,16 +611,6 @@
       "source": {
         "name": "Geo.de",
         "url": "https://www.geo.de"
-      }
-    },
-    {
-      "id": "4d8966297de5",
-      "title": "Newel Health und Gerresheimer starten strategische Zusammenarbeit zur Unterstützung von Pharmaunternehmen im Zeitalter integrierter digitaler Therapien - PR Newswire",
-      "link": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxQSkFkNzV6ME5mWDBONy13Ny16cmFiVFQ5V1k0aWdVXzJBeVZNZDlVbG5EeUR1eHpCNG1GVGdzRk1ZNTlHdUFtV1JxaV9UbHpDY1FnY2loWUdCVFpNSWtfQXVOZTNZNC1pTDIyb2NxcWQ2b3l0S0Z3dW9ZeFBzSnhHMDN2UXdOREtneVdObkV3UTBBMXY0ZU1UV3JoVnNIQlk0azRyWlZMRm5DYTNydXl1VUl1ZkRYVE5hdkFWQ1pNbjdHcWVNRVdUNDBVMW9UaW9tTE1FdlA3QXJuZlZtcGxzTnJZYUN5MEdoZ1ItUGFaVW1rU3lkUDB2YzFEbmlWZlMyS0dCLW9BU1QzelNPanJTRjk3RTBVTTI5TVBhVjZZYXotLVotQk9rVXFERTdRMFltLXNrb1hzVjhwLW8?oc=5",
-      "published": "2026-05-27T07:00:00+00:00",
-      "source": {
-        "name": "PR Newswire",
-        "url": "https://www.prnewswire.com"
       }
     },
     {
@@ -694,13 +734,13 @@
       }
     },
     {
-      "id": "8d1fc40266cd",
-      "title": "2025: Höchster Stand von Aufnahmen neuer Medikamente in die Spezialitätenliste - Bundesamt für Gesundheit BAG",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1HMEFNZWpPYzRReWJNTkhGRk11RnNpblJQVjNEdE1ISllXWlNUWk4yZFpWclRTOUl0M3ZJTXhSNmpMdEtuVkVWVnV3aEJXdWxld0l3dUVkdGszYnVuNEFxbldsSXNJamc?oc=5",
-      "published": "2026-01-30T08:00:00+00:00",
+      "id": "b9ca65e5a941",
+      "title": "Marktbericht: dm steigt in den Gesundheitsmarkt ein - tagesschau.de",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNd0RWVjQ1MFJ3RDJCdFRnZ3Z1RUU4YThkS1F2bnowNnZBQWk1QlIxdWNtMFN6a19KWWlhTnFyVUNRSGNLanRyR01ZM0lxSG1HRFBqQ3l3QXBMR1F6UU43X29oLTZEODQ1TktKWmhOVVR4YW10YWY1Qm5JZlZoLU8tMlhDYw?oc=5",
+      "published": "2025-12-15T08:00:00+00:00",
       "source": {
-        "name": "Bundesamt für Gesundheit BAG",
-        "url": "https://www.bag.admin.ch"
+        "name": "tagesschau.de",
+        "url": "https://www.tagesschau.de"
       }
     },
     {
@@ -714,13 +754,13 @@
       }
     },
     {
-      "id": "b9ca65e5a941",
-      "title": "Marktbericht: dm steigt in den Gesundheitsmarkt ein - tagesschau.de",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNd0RWVjQ1MFJ3RDJCdFRnZ3Z1RUU4YThkS1F2bnowNnZBQWk1QlIxdWNtMFN6a19KWWlhTnFyVUNRSGNLanRyR01ZM0lxSG1HRFBqQ3l3QXBMR1F6UU43X29oLTZEODQ1TktKWmhOVVR4YW10YWY1Qm5JZlZoLU8tMlhDYw?oc=5",
-      "published": "2025-12-15T08:00:00+00:00",
+      "id": "8d1fc40266cd",
+      "title": "2025: Höchster Stand von Aufnahmen neuer Medikamente in die Spezialitätenliste - Bundesamt für Gesundheit BAG",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1HMEFNZWpPYzRReWJNTkhGRk11RnNpblJQVjNEdE1ISllXWlNUWk4yZFpWclRTOUl0M3ZJTXhSNmpMdEtuVkVWVnV3aEJXdWxld0l3dUVkdGszYnVuNEFxbldsSXNJamc?oc=5",
+      "published": "2026-01-30T08:00:00+00:00",
       "source": {
-        "name": "tagesschau.de",
-        "url": "https://www.tagesschau.de"
+        "name": "Bundesamt für Gesundheit BAG",
+        "url": "https://www.bag.admin.ch"
       }
     },
     {
@@ -958,46 +998,6 @@
       "title": "Ibuprofen, Aspirin und Co.: Schmerzmittel der Gruppe NSAR können Nebenwirkungen haben - NDR.de",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUmwyTW8wT3dfaXgyZ1VyaXFYUG1lWXY5VUZXZkkwWjd4STI2dWVSY1d3bVhub1NxRE9sNGt2bW83blh3T2hPRzlWcnVvUElQSmw4WE9KOHhscFdsSEE4TmF2cnhXaTktUWRfc3NQMnpoWmZDUXF5WWt6czNsbWdLQTRtVVJ3Mzdtb250RGVhbldmNUpVOTNDOTFhOWpldzV0MUlpVFdMRmpfOGM3WW5HbmRYaVJFT1ZzYUxn?oc=5",
       "published": "2025-09-23T07:00:00+00:00",
-      "source": {
-        "name": "NDR.de",
-        "url": "https://www.ndr.de"
-      }
-    },
-    {
-      "id": "3440290c6435",
-      "title": "SVR-Gutachten: Das Ende der Planbarkeit - Pharma Fakten",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1BaVFzZDBFRjM5VWpVUkwwVXFBSzRTUWpTMG92cTNXYnpnRUdqTE93aWxMZXcwRExHdzBMNEtfZ3dXcDE3Q3NEcG1tNGVGMXcydnNJQVFPSG1sYWhPSmd5QTdwOWNWUFpuZzUxUE8zQXprUXFUaGNHZA?oc=5",
-      "published": "2025-05-23T07:00:00+00:00",
-      "source": {
-        "name": "Pharma Fakten",
-        "url": "https://pharma-fakten.de"
-      }
-    },
-    {
-      "id": "815d7c3030a9",
-      "title": "Erkältungen und Infekte nehmen zu: Droht wieder ein Medikamentenengpass? - Tagesspiegel",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOb3BrN2sybjFrd2xZYTlUZENWRE9fZEJyVHZJWGZHZHA3SG10dXNKSm5LVF9zR2h4VzVkdHM5OVFnbGo5MkpPWmEyV2JPWVVXWUtsR0Z1RVEyY1hFa0tqTzJzWFN0R0xJMXdSOUJYbG9wT0tVVkxsVnZINDFZMmpyUGg0NlVQSnRnYlh4ejF2Z19NMmJEZlVNVzIyVHNUTWNGM0tENk93TE1EMWd6Zm51Q1lMUHpobzkyT3B3N21yVUY?oc=5",
-      "published": "2025-09-19T07:00:00+00:00",
-      "source": {
-        "name": "Tagesspiegel",
-        "url": "https://www.tagesspiegel.de"
-      }
-    },
-    {
-      "id": "a82bcf633e21",
-      "title": "Europäische Kommission: EU modernisiert Zulassungsprozesse für Medikamente - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQM2xIaW8xSWxvSkxrazhwNTlGVE5UU2ZQbldESkNhSmpFb2VuX1lKWlJZODdxY1RXakFlampSZnd4SzVtUVBlWGtJM25fV05RR0t5MWh0R3kxSVVpT21lcHJZekd0emQ3SVhqRWJOc1gxNTJwODBVUkRwWk5VR21LSkVHMHRqX0xPNEJzMFhnSHhyenlhbXpGOVdoQW5rNEk?oc=5",
-      "published": "2025-09-23T07:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
-      "id": "445f92c7e54b",
-      "title": "Wundermittel oder Wahnsinn? Der riskante Hype um Methylenblau - NDR.de",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZjdVekdjMzQzUFRaQlJaZW5GM3l0bmZFay1iTWxoVXpOLWFfTkVQejhNU1FwSTR6Q1RETXRFYm56enYwNm8tZXBXZlRmb0JKalI4REI2dEVNcUh6NHhMMDBlTkNkOXRaTU1hS2ZXNWZhVnk3TUthaFpuTFh2c3NtVUNmcUtYc290bFI1MERTaDFjaXNNcDFpczNjX004TUV4MjBjdWFhM2F1dXF4bktZQWtvS0hGUHM?oc=5",
-      "published": "2025-09-16T07:00:00+00:00",
       "source": {
         "name": "NDR.de",
         "url": "https://www.ndr.de"
