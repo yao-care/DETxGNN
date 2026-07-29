@@ -1,8 +1,18 @@
 {
-  "fetched_at": "2026-07-29T15:09:15.087690+00:00",
+  "fetched_at": "2026-07-29T17:16:06.087324+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
+    {
+      "id": "1c099be23d11",
+      "title": "Medikament online bestellen: Was (nicht) gespart werden kann - MDR.de",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBUeEgtM1U3TnUxTHVBMGs2QjhyTGY1U1AtMklWMEwwZFFwa0NvS2dweFdqRlF3aHQ4RkI1Yk1BOVRJTWFXVW1RSEhUbW9aWlZLTlZKQ2JTUURvUkxKdDBxcWZCMFF2RHM0WmtXcjM1bUM?oc=5",
+      "published": "2026-07-24T03:00:00+00:00",
+      "source": {
+        "name": "MDR.de",
+        "url": "https://www.mdr.de"
+      }
+    },
     {
       "id": "73c33f6db9c9",
       "title": "Durchbruch bei Alzheimer? NHS nimmt Verhandlungen über bahnbrechendes Medikament wieder auf - TZ",
@@ -14,13 +24,13 @@
       }
     },
     {
-      "id": "1c099be23d11",
-      "title": "Medikament online bestellen: Was (nicht) gespart werden kann - MDR.de",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBUeEgtM1U3TnUxTHVBMGs2QjhyTGY1U1AtMklWMEwwZFFwa0NvS2dweFdqRlF3aHQ4RkI1Yk1BOVRJTWFXVW1RSEhUbW9aWlZLTlZKQ2JTUURvUkxKdDBxcWZCMFF2RHM0WmtXcjM1bUM?oc=5",
-      "published": "2026-07-24T03:00:00+00:00",
+      "id": "61e0c0f749b1",
+      "title": "Wie man seriöse Onlineapotheken erkennt - Lippische Landes-Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNOVFjVndVT0x5UHVzNXFhZU9aLUFKNGhsOE1zV2cyLVRBWnNwc1pIaWt3UjdPd3plT2R1M0pEZ25scjUzVHpFaTRwN3Zld3FHWng3eFRkbFdKNXFwOEJRZGQ4WjJobV9yYUE1WWFtcWFsMVZjclpKTjlVbTctYldkZTFSXzlvSlRxMk9aN2ZKa1p0dXdwTExN?oc=5",
+      "published": "2026-07-28T03:12:05+00:00",
       "source": {
-        "name": "MDR.de",
-        "url": "https://www.mdr.de"
+        "name": "Lippische Landes-Zeitung",
+        "url": "https://www.lz.de"
       }
     },
     {
@@ -44,16 +54,6 @@
       }
     },
     {
-      "id": "75eaf3b0b780",
-      "title": "Wie man seriöse Onlineapotheken erkennt - Mindener Tageblatt",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNYzZ1V3FTMlRiMTJqMzF4ck9oaW1Jc2xhalFxQjUtZXBpOG5mSWVKd1VNbk9wcnczNjZHOWhLVkpUelltSVRqa29CdW00TWpickd2Ty1zSnBXbmU1cGpqN0VYYy1zWnVPR3FxMjdqRGZwUndxeTdRN0RpMUEtYU1iTUJTbEhIT052ZnZvOUZaMnJhRldVanVz?oc=5",
-      "published": "2026-07-28T03:12:05+00:00",
-      "source": {
-        "name": "Mindener Tageblatt",
-        "url": "https://www.mt.de"
-      }
-    },
-    {
       "id": "e37c6e8e01d3",
       "title": "So leicht können Pharmafirmen Arzneimittelbehörden täuschen - Infosperber",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRVJtZ0txb21NT2VxMTdlOFF3eWJhQmpCX0VsRmQyZTh4SGp2STVscVZoRWNEWEs1Q1l5MnFvM0wzSUpsLUJYZjlBQThTbWxGQjNXUHBIM1UySy1UT21NMFVSYTE5RDA1aFBiOE10Y1R4elpoa3pRV2t2Q1o2QWFWWlRPQjFnVkVBS29GWjh3bkRJY1lTS0hHS2stak0zQVFpTGtn?oc=5",
@@ -64,12 +64,12 @@
       }
     },
     {
-      "id": "f37fbd984da5",
-      "title": "Wichtige Neuerungen in Europa: EMA empfiehlt neue Medikamente zur Zulassung - t-online.de",
+      "id": "18222ba7d8e8",
+      "title": "Wichtige Neuerungen in Europa: EMA empfiehlt neue Medikamente zur Zulassung - T-Online",
       "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRzJiTElBbDhDajVaT09zSWtNM3JIaUN5VnJpYVhETWdPQWlWVXJjQjR3aUNjRTg2X3N6OXhwV19lZVJzcGtGdmVxNXZ3c2JkcDZ5VEVzcUlINjVUeU9QeVc5aUV5UzVrOFIyUmpJVkt4RUtxUXhKR1NNQkhRZ1pjWmdlR0ZlQ1loOTBnLU5WbXo3Z2hnT2oxd19pSldENUFmZjR6N1J4RF8xMUlyTXZLVVZIZ3I3dC1vLWFRZ1BKOFlOZE94Tnh5azlrMlZpck13?oc=5",
       "published": "2026-07-28T10:40:47+00:00",
       "source": {
-        "name": "t-online.de",
+        "name": "T-Online",
         "url": "https://www.t-online.de"
       }
     },
@@ -94,12 +94,12 @@
       }
     },
     {
-      "id": "8169883f7b64",
-      "title": "So treibt Big Pharma unsere Prämien hoch - beobachter.ch",
+      "id": "026627ee18cc",
+      "title": "So treibt Big Pharma unsere Prämien hoch - Beobachter",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOR1YtSnRtRDVMaGRoMXNJb0VYTEFRZm9xRDhxcGZmU2g4RTA1M05lOVc3UDJVQzNaT2JOeEFZTW96RDVOUjhSQ3NHQXU2N2FhcmYwbVV6eWMwNWQyMEV0VVlUUVZiYlltdnliaEZYNGxOU3V5Z0N5SFVwMzZ0QnpVLThvX1pDcF8xV0lTVg?oc=5",
       "published": "2026-07-28T09:45:00+00:00",
       "source": {
-        "name": "beobachter.ch",
+        "name": "Beobachter",
         "url": "https://www.beobachter.ch"
       }
     },
@@ -184,23 +184,13 @@
       }
     },
     {
-      "id": "c9962685b616",
-      "title": "Kortison-Creme und Augentropfen: Diese drei Medikamente gibt es bald ohne Rezept - t-online.de",
+      "id": "a2ee90b2b29a",
+      "title": "Kortison-Creme und Augentropfen: Diese drei Medikamente gibt es bald ohne Rezept - T-Online",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbUpjVGFQVTdYMFBlTEJWclBrUF9SWWQzczVfb19jSUlNNjVjRVc0bEZvdlhieDFhdTdjbGRoOWVEVC1vcWt3MmtFSjNlZzkxeHdXM1pBbDhQaExURHViaUdyQVBHVVRXLUlnX2l3SVp1VjJnQXBEYmdGZ1ZEa1htT0tLRHExUzZKMDhrclJEZl9kdjk1b2ppWUVnUHVULWltQVVjdnVEakxNcjJtbUFfTXEzUHZZeGs?oc=5",
       "published": "2026-07-22T11:28:00+00:00",
       "source": {
-        "name": "t-online.de",
+        "name": "T-Online",
         "url": "https://www.t-online.de"
-      }
-    },
-    {
-      "id": "0323fd1d47f5",
-      "title": "Das Gesetz stuft Abnehmmedikamente als Lifestyle-Arzneimittel ein und viele Befragte denken ähnlich - PressNetwork.de",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOX3V4ZFNjWkl3RmtDcTRlUzhsVnVRMzhETTd6WTVTc2FqV2hjaGt0NktYY2FfNlRoNlNJR3Ztb0xKTVdaTi0wY0lRWUVac210Y3RZM0F1akEzMDE1Q1VNM1pxZktPSTlXd21SYUtrb2o1TkRRSEFDcDUzUF9MWkFRN3dLSU9SVnpkR3RCSDdXQldhWmhPV2NnbE5IMXpnclhGajB4UmcxMTBpaW1STF95cGVRcjBJQXJvZy1kTWpnWDhGX0E?oc=5",
-      "published": "2026-07-28T10:45:49+00:00",
-      "source": {
-        "name": "PressNetwork.de",
-        "url": "https://pressnetwork.de"
       }
     },
     {
@@ -211,6 +201,16 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "0323fd1d47f5",
+      "title": "Das Gesetz stuft Abnehmmedikamente als Lifestyle-Arzneimittel ein und viele Befragte denken ähnlich - PressNetwork.de",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOX3V4ZFNjWkl3RmtDcTRlUzhsVnVRMzhETTd6WTVTc2FqV2hjaGt0NktYY2FfNlRoNlNJR3Ztb0xKTVdaTi0wY0lRWUVac210Y3RZM0F1akEzMDE1Q1VNM1pxZktPSTlXd21SYUtrb2o1TkRRSEFDcDUzUF9MWkFRN3dLSU9SVnpkR3RCSDdXQldhWmhPV2NnbE5IMXpnclhGajB4UmcxMTBpaW1STF95cGVRcjBJQXJvZy1kTWpnWDhGX0E?oc=5",
+      "published": "2026-07-28T10:45:49+00:00",
+      "source": {
+        "name": "PressNetwork.de",
+        "url": "https://pressnetwork.de"
       }
     },
     {
@@ -244,12 +244,12 @@
       }
     },
     {
-      "id": "2a4cd6eb6d1d",
-      "title": "Arzneimittelengpässe in Europa – so reagiert die EU - European Parliament",
+      "id": "648abb27e764",
+      "title": "Arzneimittelengpässe in Europa – so reagiert die EU - europarl.europa.eu",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYUFLam5JQVMtSlNuNWlqSTJrRUNDN215RDlRU2hOMEE0Rkp3cHBodVhSbXRsSUhvTTRhMTVLWEE5QmM0dXJRNGlPSkwyZ2doMHhlaEpHbW5DZl8tazhQc3lPcEN4SmtLaEdGMk9IZjF5MGZvNEd3a2tXSnJXT1ItanFsV2gtRGpMYjlUbHV2OURrMkM5OXA3emh5OERlMlpXc1J1UlNVYUp1UlBUd1gzREtLUkZRZw?oc=5",
       "published": "2026-03-31T07:00:00+00:00",
       "source": {
-        "name": "European Parliament",
+        "name": "europarl.europa.eu",
         "url": "https://www.europarl.europa.eu"
       }
     },
@@ -264,12 +264,12 @@
       }
     },
     {
-      "id": "02e9917bea66",
-      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - DW.com",
+      "id": "8db31424e5bb",
+      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - dw.com",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGxHSlhmSS0tbUNKdG15NEVzRzYzYllEUnAzUEU3ak53czRHVWlKdTZrRGFDMk1MUThPUjdPTnBGVENqd3d2Q1VSdWhJVXppWDF4NWh0aEJJaXJlVTlnV0VoZVFkRHNSM3p6NVZXNjNwWHk5YkxSUWR2RGZKcmp3Y2U5REY0U3dRZFJLeHFtQk9wb2Y3RUVOaVBlMlJhZ29Rck000gGjAUFVX3lxTE1rTW00WXFBajZxbTJOS1NLckhVbXFBSzh1NE96QTEydTN1YjZnaFFNcV8xblZGM29hdTZQUHc4V3YzQ1pwcTlaVVBhZDVqMExLMTlYVzZ6TmM4ZUdsUm5TLXpPNmk1R3V4UktvaV93cWttNFpVX0VEZlZnUllSQkhyUlZmeTBJcU0zUEVSZTgxdzFWUnFNRk9CYVljN0Jhd0ZXUFk?oc=5",
       "published": "2026-05-12T07:00:00+00:00",
       "source": {
-        "name": "DW.com",
+        "name": "dw.com",
         "url": "https://www.dw.com"
       }
     },
@@ -351,6 +351,16 @@
       "source": {
         "name": "Deutschlandfunk",
         "url": "https://www.deutschlandfunk.de"
+      }
+    },
+    {
+      "id": "7cee44587079",
+      "title": "Klinische Studien mit Kindern: Warum sie unverzichtbar sind - Novartis",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWW9LSXhsRWJpVWVmOS1qaUVMby00UWZ5dzVmMXdickpVUEctWmlEVkRpRWNTVjlSX012RjJQclRyUWNBWEFxcGJvU1M4VGNzbzV5R2U2cUlvQThpcWRoVTVFVERaR1pRTkp0Y0FMQXBHbVN1OHNjNktjNHJOaERuQlVhMkxyVUFZbWNoYU1IVERtcUE5WklZc2tVSlZtOUF0cEpn?oc=5",
+      "published": "2026-04-07T12:44:00+00:00",
+      "source": {
+        "name": "Novartis",
+        "url": "https://www.novartis.com"
       }
     },
     {
@@ -614,12 +624,12 @@
       }
     },
     {
-      "id": "7a99adaec5c0",
-      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - Geo.de",
+      "id": "47afc2884d76",
+      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - geo.de",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
       "published": "2026-06-19T07:00:00+00:00",
       "source": {
-        "name": "Geo.de",
+        "name": "geo.de",
         "url": "https://www.geo.de"
       }
     },
@@ -634,23 +644,13 @@
       }
     },
     {
-      "id": "a8590fd76723",
-      "title": "Arzneimittelpreise: Medikamente in Deutschland günstiger als USA trotz Trump-Deals - sueddeutsche.de",
+      "id": "8f7a16a55972",
+      "title": "Arzneimittelpreise: Medikamente in Deutschland günstiger als USA trotz Trump-Deals - SZ.de",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdnBJZGx2V2VkNEJfQy1NTDk2NFJXOE5MY3k2VE1yNmxuZzNiWWNlalNjN0MzTjJzSUwxTDRPRTlJai1XeXVUODNhaGlrRXJhaVpJdVQ0eV9mNHc1QWZkaXhtUTVfdjZNWEU2eWptcVk1WkNUZHJNRUpNQzM2TXduRFpPS0tTbjhtajdRWmtMbTM2N1owQ1I1Y2g1MmJiUzNpdnc?oc=5",
       "published": "2026-03-18T07:00:00+00:00",
       "source": {
-        "name": "sueddeutsche.de",
+        "name": "SZ.de",
         "url": "https://www.sueddeutsche.de"
-      }
-    },
-    {
-      "id": "c0692e5af0b2",
-      "title": "Cholesterin-Therapie: Neue Präparate senken LDL um bis zu 50% - Ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbm05dnVBOEtBYjJwVDhKdXVRcGdaUVQzcUVMZWhHUFVTaWNEZEdTYnRKSmNuUWZHU0NXMjJKbl9XUmk4VzJ6RUtTWFFKNDdQVXFUTzZibDM3ZUR0TFUtakdXai1nSjJxYWQ1VXhkZVVkNEJVV2tNWFZGVkZEc0JiZjVGRFJUbGRhSE52ajhLa1dqVWhaNEJGRjdEeE51S1ItbVpNOEktUHFHcXVDVW8wRmtEaGpTOUxv?oc=5",
-      "published": "2026-07-27T00:39:12+00:00",
-      "source": {
-        "name": "Ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -661,6 +661,16 @@
       "source": {
         "name": "DIE ZEIT",
         "url": "https://www.zeit.de"
+      }
+    },
+    {
+      "id": "c0692e5af0b2",
+      "title": "Cholesterin-Therapie: Neue Präparate senken LDL um bis zu 50% - Ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbm05dnVBOEtBYjJwVDhKdXVRcGdaUVQzcUVMZWhHUFVTaWNEZEdTYnRKSmNuUWZHU0NXMjJKbl9XUmk4VzJ6RUtTWFFKNDdQVXFUTzZibDM3ZUR0TFUtakdXai1nSjJxYWQ1VXhkZVVkNEJVV2tNWFZGVkZEc0JiZjVGRFJUbGRhSE52ajhLa1dqVWhaNEJGRjdEeE51S1ItbVpNOEktUHFHcXVDVW8wRmtEaGpTOUxv?oc=5",
+      "published": "2026-07-27T00:39:12+00:00",
+      "source": {
+        "name": "Ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -734,12 +744,12 @@
       }
     },
     {
-      "id": "53357c2f4851",
-      "title": "Kritische Arzneimittel wieder stärker in Europa produzieren - Ministerium für Soziales, Arbeit und Gesundheit Baden-Württemberg",
+      "id": "9b538b3856d7",
+      "title": "Kritische Arzneimittel wieder stärker in Europa produzieren - sozialministerium.baden-wuerttemberg.de",
       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOUEt0ckdtYTRpT2d2ZGVBenNHcEJURVlwOHZpTElSbWMtWWRlNmI5bE10Q3NUclQ5N2lDVW9WODdDNldjbW5pZDNKZmxxanhoY21qdGI0dnpfQ1Znb3NIZmlGN1l2d2tPb3ZxWGhkbFk1VklKcTMxZTdZWWhNc3htTVcwWER3X3psRmdibDJwRnFqOXQ4X2VTb1h2eFVtc2syLVdnMkk4dExEaC1XUGtxVDNWdU1nMFE0TGlKVUZ6RmcxTGN6VUEzQmkwd2tSRXlzbGJMa2RXX1hmV2xPTzdITg?oc=5",
       "published": "2026-01-20T08:00:00+00:00",
       "source": {
-        "name": "Ministerium für Soziales, Arbeit und Gesundheit Baden-Württemberg",
+        "name": "sozialministerium.baden-wuerttemberg.de",
         "url": "https://sozialministerium.baden-wuerttemberg.de"
       }
     },
@@ -944,6 +954,16 @@
       }
     },
     {
+      "id": "d46f6ce1c2b9",
+      "title": "Ibuprofen, Aspirin und Co.: Schmerzmittel der Gruppe NSAR können Nebenwirkungen haben - NDR.de",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUmwyTW8wT3dfaXgyZ1VyaXFYUG1lWXY5VUZXZkkwWjd4STI2dWVSY1d3bVhub1NxRE9sNGt2bW83blh3T2hPRzlWcnVvUElQSmw4WE9KOHhscFdsSEE4TmF2cnhXaTktUWRfc3NQMnpoWmZDUXF5WWt6czNsbWdLQTRtVVJ3Mzdtb250RGVhbldmNUpVOTNDOTFhOWpldzV0MUlpVFdMRmpfOGM3WW5HbmRYaVJFT1ZzYUxn?oc=5",
+      "published": "2025-09-23T07:00:00+00:00",
+      "source": {
+        "name": "NDR.de",
+        "url": "https://www.ndr.de"
+      }
+    },
+    {
       "id": "2f0394c48ff1",
       "title": "Diskussionsrunde : Teure Orphan Drugs setzen GKV unter Druck - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMm9GbF9MdlR1T05IVU9La29FSnJzYmpWYTNqNW05eHVvMW1OVTdOX3FMaHhPT2JuUExjdkV6Zlg1NUh6WHEzS3RkQmhFLUVKWllJa2IxdDBacXl5SDZsbzc1YXY3TnIzYUpjalNfaDl6dnE2YUV0eGt1cWd0OTBiVVNYYzIzMEUybmdDRjZGQ3ZKZw?oc=5",
@@ -964,12 +984,12 @@
       }
     },
     {
-      "id": "2c377118d7b5",
-      "title": "Lecanemab: Negative Nutzenbewertung für Alzheimer-Medikament - sueddeutsche.de",
+      "id": "6f776f589828",
+      "title": "Lecanemab: Negative Nutzenbewertung für Alzheimer-Medikament - SZ.de",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNb052NUl6RVRlNXNjWTVWbV81SmZ4dG5rYjduV0NMRzhUaC0wRkNhS0pnMHo0YU1ydkhOSmxYNmNTUUNCb3hRV1Qwd1hpal9qYmFQMzBieEhidVpuNXdLb1hteU81ZnczbEptTGJCektKRGZJTEE2UDhoN2ZLVVRDN2NQUkM2NlgwaEh2SllSdXE0YkRmeEdxbVNsaDA?oc=5",
       "published": "2025-12-01T08:00:00+00:00",
       "source": {
-        "name": "sueddeutsche.de",
+        "name": "SZ.de",
         "url": "https://www.sueddeutsche.de"
       }
     },
@@ -981,26 +1001,6 @@
       "source": {
         "name": "Spiegel",
         "url": "https://www.spiegel.de"
-      }
-    },
-    {
-      "id": "445f92c7e54b",
-      "title": "Wundermittel oder Wahnsinn? Der riskante Hype um Methylenblau - NDR.de",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZjdVekdjMzQzUFRaQlJaZW5GM3l0bmZFay1iTWxoVXpOLWFfTkVQejhNU1FwSTR6Q1RETXRFYm56enYwNm8tZXBXZlRmb0JKalI4REI2dEVNcUh6NHhMMDBlTkNkOXRaTU1hS2ZXNWZhVnk3TUthaFpuTFh2c3NtVUNmcUtYc290bFI1MERTaDFjaXNNcDFpczNjX004TUV4MjBjdWFhM2F1dXF4bktZQWtvS0hGUHM?oc=5",
-      "published": "2025-09-16T07:00:00+00:00",
-      "source": {
-        "name": "NDR.de",
-        "url": "https://www.ndr.de"
-      }
-    },
-    {
-      "id": "80745f9d4753",
-      "title": "Gesundheitsmarkt: dm plant OTC-Angebot in Österreich - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNdHVYSEZDOFBVSGROT2l4Qi1pSEVXOXdjMGpMZmNWNTBrdjFjb004OG1xWmJtbHlSNlhMQlhUMExsSjQyMktoS1dFWVhlN1ZpWXhLR2lROW1wNVNqZXp1RkllcjBvNnIzZ2RZT3BTNVROX3lrWGgzUi1qY1RYR294M0IxUFN1ak5BaXc?oc=5",
-      "published": "2025-11-17T08:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
       }
     }
   ]
