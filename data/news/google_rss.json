@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-31T00:03:08.711641+00:00",
+  "fetched_at": "2026-07-31T04:23:13.623013+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -14,13 +14,13 @@
       }
     },
     {
-      "id": "48e2adfe7918",
-      "title": "ABDA freut sich auf Zusammenarbeit mit Gesundheitsminister Dr. Carsten Linnemann - verbaende.com",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdkFTRDNfM0hBNTJ1TU94TWtsUWtZTkNZYkxBc3FBTVZXendqZF9jN2c1Q2tiWnZOTWo1QnRjeWFpcURTOUN2TzZPNDVwS1JFNE1lTlI3RGJ2cW5HM3lDMmZlaURpNG5zSEVIWjdCOWdfdjlSU3dGdHNIX0plWUtzYXFsTGNXRmZxZTc5TGxLc1BVcDN1M0JIZjZXM1RKaXN6NS1mbUZOc1VRVnJsSVRpQXM2OWxxdzhUY1AtM0NSNk1HWFh6WjdRaV9FSzBVeXhY?oc=5",
-      "published": "2026-07-30T07:31:00+00:00",
+      "id": "45e908d743f1",
+      "title": "Insulin bis Psychopharmaka: Wie Hitze die Wirksamkeit von Medikamenten beeinflusst - kurier.at",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQalFURDBmeW1MT2Q2QnpEVE1INUxUQXVCZkJWSVlJdkJFeGxveC1iRFVPam1hTlhGbVRQdXhmZk85ZERfaDRDTmNzMl9hb3d5X2dkMkhoUmgwRUQzVlFoa2ttNkgyOVVpUWI4TDcyZmlKbXV3OWJkREZ4R2ZneGdnUDNQb29zOS0tOXRucDJxNXVSWlAxMDBqOU9MSHByS2hrQUxRUjEwSzhnc1Nnc1p5cTh3dGFVajU3MW1EYXBGakRheHk1aEVPZDNUX2xVQQ?oc=5",
+      "published": "2026-07-31T03:46:00+00:00",
       "source": {
-        "name": "verbaende.com",
-        "url": "https://www.verbaende.com"
+        "name": "kurier.at",
+        "url": "https://kurier.at"
       }
     },
     {
@@ -31,6 +31,16 @@
       "source": {
         "name": "Frankfurter Rundschau",
         "url": "https://www.fr.de"
+      }
+    },
+    {
+      "id": "48e2adfe7918",
+      "title": "ABDA freut sich auf Zusammenarbeit mit Gesundheitsminister Dr. Carsten Linnemann - verbaende.com",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdkFTRDNfM0hBNTJ1TU94TWtsUWtZTkNZYkxBc3FBTVZXendqZF9jN2c1Q2tiWnZOTWo1QnRjeWFpcURTOUN2TzZPNDVwS1JFNE1lTlI3RGJ2cW5HM3lDMmZlaURpNG5zSEVIWjdCOWdfdjlSU3dGdHNIX0plWUtzYXFsTGNXRmZxZTc5TGxLc1BVcDN1M0JIZjZXM1RKaXN6NS1mbUZOc1VRVnJsSVRpQXM2OWxxdzhUY1AtM0NSNk1HWFh6WjdRaV9FSzBVeXhY?oc=5",
+      "published": "2026-07-30T07:31:00+00:00",
+      "source": {
+        "name": "verbaende.com",
+        "url": "https://www.verbaende.com"
       }
     },
     {
@@ -64,23 +74,13 @@
       }
     },
     {
-      "id": "7a1f823c5921",
-      "title": "Wie man seriöse Onlineapotheken erkennt - Vodafone live",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQOTRSUmtnVWVqMUFhMWdyWWVSa1E5N3VXNnZlaU1aM3lWaFhVaE1WQ3RtR3Z6bHFHSDlsMWNCM3pvQy0wM19LazJabHZEWXpKUzV0Z1YwV1dvRTdIQzBCTmhfdTl0bk9NRHoycjhHb2huaEhjNEx6VXBiLXF6QzJfN2FxaExVS3RiS3pRRmRzY3ViOHBvcHFTeWV0VmlQLXdG?oc=5",
-      "published": "2026-07-27T03:15:00+00:00",
+      "id": "75eaf3b0b780",
+      "title": "Wie man seriöse Onlineapotheken erkennt - Mindener Tageblatt",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNYzZ1V3FTMlRiMTJqMzF4ck9oaW1Jc2xhalFxQjUtZXBpOG5mSWVKd1VNbk9wcnczNjZHOWhLVkpUelltSVRqa29CdW00TWpickd2Ty1zSnBXbmU1cGpqN0VYYy1zWnVPR3FxMjdqRGZwUndxeTdRN0RpMUEtYU1iTUJTbEhIT052ZnZvOUZaMnJhRldVanVz?oc=5",
+      "published": "2026-07-28T03:12:05+00:00",
       "source": {
-        "name": "Vodafone live",
-        "url": "https://live.vodafone.de"
-      }
-    },
-    {
-      "id": "7ad3c7e78067",
-      "title": "Stars schwören auf Anti-Pickel-Pillen – doch Experten warnen - RTL.de",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQQ3dfUnZnZ2plcFRqWWU3X2drekJzRDhWakhCakItN05rQzhnZmZNN1dZQmd6Z0lQM3VFQ1VDZnhBNDQyTlh2TnFYbzR2NGpPb0F1enY4ajNQTlR0YmNuYUFVanEzZU1Gc0NEREpwNUN2V3RTOG92Z1QyS0tMX25nQll2OTRzOW1FSzhyQkxnb0JNMnhxcE0xOE1Qa1VsUGMwaW9jZktIQk1Ra2V5OTk0a3FpaS1USEJ2T1pwUmJyRDNMXzN4RmNkQ21lN2dJUmRaM3g3aTZkZw?oc=5",
-      "published": "2026-07-30T04:57:54+00:00",
-      "source": {
-        "name": "RTL.de",
-        "url": "https://www.rtl.de"
+        "name": "Mindener Tageblatt",
+        "url": "https://www.mt.de"
       }
     },
     {
@@ -111,6 +111,16 @@
       "source": {
         "name": "ADAC",
         "url": "https://www.adac.de"
+      }
+    },
+    {
+      "id": "7ad3c7e78067",
+      "title": "Stars schwören auf Anti-Pickel-Pillen – doch Experten warnen - RTL.de",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQQ3dfUnZnZ2plcFRqWWU3X2drekJzRDhWakhCakItN05rQzhnZmZNN1dZQmd6Z0lQM3VFQ1VDZnhBNDQyTlh2TnFYbzR2NGpPb0F1enY4ajNQTlR0YmNuYUFVanEzZU1Gc0NEREpwNUN2V3RTOG92Z1QyS0tMX25nQll2OTRzOW1FSzhyQkxnb0JNMnhxcE0xOE1Qa1VsUGMwaW9jZktIQk1Ra2V5OTk0a3FpaS1USEJ2T1pwUmJyRDNMXzN4RmNkQ21lN2dJUmRaM3g3aTZkZw?oc=5",
+      "published": "2026-07-30T04:57:54+00:00",
+      "source": {
+        "name": "RTL.de",
+        "url": "https://www.rtl.de"
       }
     },
     {
@@ -154,16 +164,6 @@
       }
     },
     {
-      "id": "a48a34dcb337",
-      "title": "Opioide: Israel führt weltweit beim Pro-Kopf-Konsum - Jüdische Allgemeine",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1MZVF2WFVHNi01ZVZ4STRQeWMxTW9FN1lFYS1jdy0tRXhzcGRCazhCMWdWLWVpcHZzcEVNYUpqNE40OVgzYU1TazBoOXBEdkZtVEE3R3ZST0Y4WHJXcHNzWVdFdGx6aUJ6eWNIN3pEeFg0SnU0RWc?oc=5",
-      "published": "2026-07-05T07:00:00+00:00",
-      "source": {
-        "name": "Jüdische Allgemeine",
-        "url": "https://www.juedische-allgemeine.de"
-      }
-    },
-    {
       "id": "a0ac8b7680fd",
       "title": "Abnehmen ohne Stress mit Ozempic und Wegovy? Das müssen Sie über Abnehmspritzen wissen - T-Online",
       "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQRlNkcVVuQ3dHNU42M3ZNZ3UwS0ZDYUZGUExmazVFLUs5MlBSdDk2cmRWbkdNV2RpVTdkZGM4anF1VEtEZlVzR3ExNFBuZDEybzBwbzNZSFRYLTV1QS1iNmZhLUZlUFpkWG94WkdjSWFISnA0bndmNXBlUlF5eWU4V05QczNWc1BLT3NFbGpsbVlZQl84ZFo2Y1dVamlQT0tkeUdrdGI2OGN2S0poV2NOMmxxMW55WnFMbVZnTl9aaU44c0NNMlNuVUpqd1ZMcmVkZjdReG8wRGt6aHJBVzh6ZHZJTVNGRU5YMHVvdVBqQQ?oc=5",
@@ -184,6 +184,16 @@
       }
     },
     {
+      "id": "a48a34dcb337",
+      "title": "Opioide: Israel führt weltweit beim Pro-Kopf-Konsum - Jüdische Allgemeine",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1MZVF2WFVHNi01ZVZ4STRQeWMxTW9FN1lFYS1jdy0tRXhzcGRCazhCMWdWLWVpcHZzcEVNYUpqNE40OVgzYU1TazBoOXBEdkZtVEE3R3ZST0Y4WHJXcHNzWVdFdGx6aUJ6eWNIN3pEeFg0SnU0RWc?oc=5",
+      "published": "2026-07-05T07:00:00+00:00",
+      "source": {
+        "name": "Jüdische Allgemeine",
+        "url": "https://www.juedische-allgemeine.de"
+      }
+    },
+    {
       "id": "9f7c377ed6d2",
       "title": "MFN-Modell USA: Wie US-Arzneimittelpolitik Innovationen in Europa ausbremst - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWkw5ZTd1QUxfTlBDNjVEc0paTWpvTFpfTE9lOFM3YnhiWnBBREVhRzlMQnRmWDdkREJzVlg3UnZCN2RsTC1aTkhtN19oX2dEYmVLdXk4MXFBUnVGakk3YzVfbjZVQ0E0MUtPN2JZZ08wQ05yaTFLNER1dVYzZEo5UldOVldfQ0lCbGNRWEJZbUg0R3JBaGp6Mm1DTGd2eTYzWE9GV1hvenRGWHhOZXBxMHJMY09GUQ?oc=5",
@@ -191,6 +201,16 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "da2a14035471",
+      "title": "So leicht können Pharmafirmen Arzneimittelbehörden täuschen - infosperber.ch",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRVJtZ0txb21NT2VxMTdlOFF3eWJhQmpCX0VsRmQyZTh4SGp2STVscVZoRWNEWEs1Q1l5MnFvM0wzSUpsLUJYZjlBQThTbWxGQjNXUHBIM1UySy1UT21NMFVSYTE5RDA1aFBiOE10Y1R4elpoa3pRV2t2Q1o2QWFWWlRPQjFnVkVBS29GWjh3bkRJY1lTS0hHS2stak0zQVFpTGtn?oc=5",
+      "published": "2026-07-29T07:32:00+00:00",
+      "source": {
+        "name": "infosperber.ch",
+        "url": "https://www.infosperber.ch"
       }
     },
     {
@@ -274,16 +294,6 @@
       }
     },
     {
-      "id": "3ebb0c2080d6",
-      "title": "Betriebsfähigkeit: Lageso mahnt Apotheken zu Temperaturkontrollen - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSEM4X295eTdhRHlSR0k5S0MwMm1pSnZhamI1OWFaMGJnaURSLU5fdnB4aVJBNHRVd1RmMzdkM3ZUTk84ekFWUDhtT1pURUVMeFlnV3pRNTFfb0N2eFd6MHpPX1pQa0x4RnRneURZenNEQ0k0NDQxVWdEcW9XdkcwVTdFX3dvcU1zWEZCaFVsbjQ0V2cwVjRUbg?oc=5",
-      "published": "2026-07-02T07:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "e55e30521cda",
       "title": "Vorschläge der FinanzKommission Gesundheit für eine Reform der GKV - Taylor Wessing",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQVJuN0Fwenp0QU9hM01mSTRlR1ZxUzBfaExuWkRPSVIxQTBmb21HMGJ3Umd1b2Q5NjlpTkZWdnlsWU5RdG4tYmV2YWlldnhEREpzVmdLaURVbVpCR2pFRDY5Z1d6VW53bGtvaGgwTkRMeFMzeWI5WDJNd2ZXdTl4WkJTRURfbEstNXlJaXdzNGlwQTF5dHJ2Mjg1bFlJTW1SajFpM3VpMEtDdXZuNWplY3NnTQ?oc=5",
@@ -291,6 +301,16 @@
       "source": {
         "name": "Taylor Wessing",
         "url": "https://www.taylorwessing.com"
+      }
+    },
+    {
+      "id": "3ebb0c2080d6",
+      "title": "Betriebsfähigkeit: Lageso mahnt Apotheken zu Temperaturkontrollen - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSEM4X295eTdhRHlSR0k5S0MwMm1pSnZhamI1OWFaMGJnaURSLU5fdnB4aVJBNHRVd1RmMzdkM3ZUTk84ekFWUDhtT1pURUVMeFlnV3pRNTFfb0N2eFd6MHpPX1pQa0x4RnRneURZenNEQ0k0NDQxVWdEcW9XdkcwVTdFX3dvcU1zWEZCaFVsbjQ0V2cwVjRUbg?oc=5",
+      "published": "2026-07-02T07:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -304,22 +324,22 @@
       }
     },
     {
-      "id": "f92665691e36",
-      "title": "Gesundheit: So will die EU Engpässe bei Fiebersaft & Co. verhindern - Tagesspiegel",
+      "id": "877ce8f34648",
+      "title": "Gesundheit: So will die EU Engpässe bei Fiebersaft & Co. verhindern - tagesspiegel.de",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcDl1WkpGU2VsQWhwUXd1WWxXSUhVN2Y3R2hTdl9GTHNxcDl2NFhUejhMXzhtOVUteVRjYmlZZDVNa0lETm9QSWNsWXB2c09CcTBqV3M2Wk5Fc0FVRlRaaDFzN1lDVTRFdl9IeXZvU2h3VjhJVGFUQ29lNmdqOUFld1dsd3ZNaVF5OFRETVFqckdoWk1udUFSQWdzMVdLQWxJd3A0eXdiVzhJR3pmY1FOeVQ0aUFxZ3BGdlpGazFn?oc=5",
       "published": "2026-05-12T07:00:00+00:00",
       "source": {
-        "name": "Tagesspiegel",
+        "name": "tagesspiegel.de",
         "url": "https://www.tagesspiegel.de"
       }
     },
     {
-      "id": "9b7bd5ae591c",
-      "title": "Medikamente einnehmen bei Hitze: Arzt warnt vor Dosierungsfehler - morgenpost.de",
+      "id": "bfcde4df7e3d",
+      "title": "Medikamente einnehmen bei Hitze: Arzt warnt vor Dosierungsfehler - Berliner Morgenpost",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVF9uOHB3aV9IVTQxZ0Etc1d0bmRHVnNJU0tydDBNUFJFNENBZG1tckV5SnIwczhnWEd6TmJFaHRUMnNraGJqWnFPOG1OTUZtQWZCQmpUNDNsZlQ3NWNWY1dWQ3dHMjNKanJxRjNKSmpNc0VFV2VUOWhUc3pISEVVT2tRZUpyQkYwNGxuTVhsUTdEckFGLUtvaXp6MDJwVlNReVBiSUMzODhoWGEzUmgxWg?oc=5",
       "published": "2026-07-29T10:29:45+00:00",
       "source": {
-        "name": "morgenpost.de",
+        "name": "Berliner Morgenpost",
         "url": "https://www.morgenpost.de"
       }
     },
@@ -344,12 +364,12 @@
       }
     },
     {
-      "id": "44a936f3300e",
-      "title": "Abschaffung der Mehrwertsteuer auf Arzneimittel - openpetition.de",
+      "id": "bb553491699c",
+      "title": "Abschaffung der Mehrwertsteuer auf Arzneimittel - openPetition",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQR2ZyOGpub3o3YjR6WktVOXowVW5aMmNRcUZnRHQteUNLdVdiWFpMSHpndXJ0ajFhSmNTQXk1LVptMF9BUHlMeGRSb2dJalBRVjkxbGE4eWhObTFsT1gzVUtGblkxNDhVMlR2b2JYb1NWSGJqd2k1bGwxODhLVFh3aVdwY3pNNV81VDk0ZkxEbmVlSXdZY2c?oc=5",
       "published": "2026-04-27T15:29:32+00:00",
       "source": {
-        "name": "openpetition.de",
+        "name": "openPetition",
         "url": "https://www.openpetition.de"
       }
     },
@@ -434,12 +454,12 @@
       }
     },
     {
-      "id": "054c2beef78c",
-      "title": "Marktgröße, Marktanteil für natürliche Gesundheitsmedikamente | Prognose [2034] - Fortune Business Insights",
+      "id": "6a1bab83b637",
+      "title": "Marktgröße, Marktanteil für natürliche Gesundheitsmedikamente | Prognose [2034] - fortunebusinessinsights.com",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcm9jWnMyZy1ubkhPQXFmQ1dzUmtCU0V4X0dTMlEzZnpVeEVnVmxNU0VweEJsR2hNakhlN0JxRk9kMVVhVFZFNWhpXzhtR2g3cTdRQVM5d1lON25zT1FXV3hJNlJ1dDY5R2JUUld0UGRadUs4aFM5elJ6Z0RqX3BFS1ZEcERJUUh0MldhbVRybzN6anhOZnRHMw?oc=5",
       "published": "2026-06-29T07:00:00+00:00",
       "source": {
-        "name": "Fortune Business Insights",
+        "name": "fortunebusinessinsights.com",
         "url": "https://www.fortunebusinessinsights.com"
       }
     },
@@ -454,12 +474,12 @@
       }
     },
     {
-      "id": "600c09be124c",
-      "title": "Gesundheit: Medikamente mit Wechselwirkung? Vor diesen Fehlern schützt die ePA - morgenpost.de",
+      "id": "566dd4d9d4e6",
+      "title": "Gesundheit: Medikamente mit Wechselwirkung? Vor diesen Fehlern schützt die ePA - Berliner Morgenpost",
       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPQnJXQjdvZFhaOHdKUjFfTHRXcU9oTF9vc21mN2U2bmNqOXF3M2o3RWIxU2R1bkx5eGRIYWJIWnF5Ty1yM0pMcW1DcG5LR2JiYlRPdFBXbUdFYmhaeVh5enZDdmY2YWlFdkQtNjVRalZKdzV0alNFbGlLWmM1c1BpcTlXcC01blFGM0dMVV83ZlpQN19kVGx3WVVKNTlXS0t0R1U2dmY0R1MwdGNzOC12MUJzcEh2M2lWendsZFphd1JxanR6elNEalAwSlRBSlczTk5jLVpvYjVQN0kyaGd3Ug?oc=5",
       "published": "2026-04-28T07:00:00+00:00",
       "source": {
-        "name": "morgenpost.de",
+        "name": "Berliner Morgenpost",
         "url": "https://www.morgenpost.de"
       }
     },
@@ -484,16 +504,6 @@
       }
     },
     {
-      "id": "9d83d0e91268",
-      "title": "Gutachten: PFAS in Arzneimitteln sind oft ersetzbar - oekotest.de",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcmFwTWtsWWNqb3BaNFc3UFNBT0VDcmRFbC1falEyOVlfNGlwT0FTVklPc2lKRWpFeTRVbmVrT2FkbW95SHFNeGZxdHQ1RzdicGxuNmQzTDNXb2FETWlVd3lIbU43Z2tFdThxYVJEb3RKdXJqT3NSYXQ5ZzRuNlZVRUw2RlNEZkRhRlVfLUpBWGx5cnBPRkJXNThjTk5wcjIyUFJqR0o0NFBRcEkwWUE1RQ?oc=5",
-      "published": "2026-06-29T07:00:00+00:00",
-      "source": {
-        "name": "oekotest.de",
-        "url": "https://www.oekotest.de"
-      }
-    },
-    {
       "id": "82e89bf7d869",
       "title": "Sommerhitze: Achtung, manche Medikamente wirken anders - Lippische Landes-Zeitung",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONzl4d0d1dXJiR0E4SXNkcmdFYXVyaXI1dGQta0JQWnRRQ1lTUjZPUlRuRjRWQUZ5VHNvRnFOc3BVMmRERGdNRGNfNXA4TkhtZlgtMzNhWGNDQTZHZEpQcENFbjV4bEI4VzFENkV0TnNWUkY4djI4ZHJRdFFkNU9iQVdPdnNIWnkzdnNXWFAyeFFrZDZFNVdDeHMwZFFRX1lsY0IzNkpsVQ?oc=5",
@@ -504,16 +514,6 @@
       }
     },
     {
-      "id": "c5e8dfb6e8ee",
-      "title": "Gesundheitswirtschaft: Sparplan ist für Warken »kurzfristige Operation am Herzen« - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPM2ZHWEhpckd3UktDNnQwSDMtZ09XX21zQk16ckN2dG12bWFSWGNDdXNfc0xpNlJqS3ZfajRSMFRzTlRPYVNxVHNlZlJnWjI4VGcwYjhnOGhwZG9md3k2eDVHUGJfazhIU1NGVUQ1MjFYLUF1VmpVQlUyQjJnUjdqSUNZUTdGWnd4Yi1LZnpWaG1iaW5GZHBTM3p1bk1yZHNnSFJKQmpUOA?oc=5",
-      "published": "2026-05-19T07:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "2a88ab722e68",
       "title": "Wie viel darf Gesundheit kosten? Streit um Medikamentenpreise eskaliert - WiWo",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMEkzamFzeFFHZEk3NjFIbFJmYjZvajlGOVMtcHo3aUZsWFlvdkcyMzFTODZXZFM1dWhNWU1lT3FVVDk4dlduRjBqV2paSEFVbkE2YWktMVJIanA4U3J2QW1rMnFtOUljc0pXb2hEbVNSWkxYdGlkRHRMRGE3aGpSYjlrU0FzN0RjN1dhWkJWZldkUmVpbm9xbXpSZmR3b0xGR2ZXQmdvVVZ4bWh5bmVNbkdOOU1rNEdiZElEc0NEeDE3LXpqVkE?oc=5",
@@ -521,6 +521,16 @@
       "source": {
         "name": "WiWo",
         "url": "https://www.wiwo.de"
+      }
+    },
+    {
+      "id": "c5e8dfb6e8ee",
+      "title": "Gesundheitswirtschaft: Sparplan ist für Warken »kurzfristige Operation am Herzen« - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPM2ZHWEhpckd3UktDNnQwSDMtZ09XX21zQk16ckN2dG12bWFSWGNDdXNfc0xpNlJqS3ZfajRSMFRzTlRPYVNxVHNlZlJnWjI4VGcwYjhnOGhwZG9md3k2eDVHUGJfazhIU1NGVUQ1MjFYLUF1VmpVQlUyQjJnUjdqSUNZUTdGWnd4Yi1LZnpWaG1iaW5GZHBTM3p1bk1yZHNnSFJKQmpUOA?oc=5",
+      "published": "2026-05-19T07:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -554,13 +564,13 @@
       }
     },
     {
-      "id": "6b21d64ee70c",
-      "title": "Wirkung von Medikamenten: »Betablocker können dazu führen, dass der Körper schlechter abkühlt - DIE ZEIT",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRi1iRXIzdGYwdEFLUGw1UU84N183amNFQmFWUFJYU2U2OU5lNGtzLXBkMDZDdUFiRElFMklxQUFudTZRc1Z5VlQwY3pIc0NCZkkwTXVBSVJsUmljdGphUFR0S1VxUEdtSjdydl8wcjJmYmNaajh3S1FXSXdfUnRvckFYVnZHR0tuTWRybWdWT2xPY0RwRWVqVE1nSV9ybkhXaGc5WWNn?oc=5",
-      "published": "2026-06-19T07:00:00+00:00",
+      "id": "7d876f76990e",
+      "title": "Arzneimittel-Ratschlag durch ChatGPT landet vor Gericht - Deutsche Apotheker Zeitung, DAZ",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOb2R6cDZTSjF3cDJfUW1NOERXRnRaN0hhbWJrU2hLMjMtZ0V1VjhyOHdJNllIaFlfZlM3TDhZNGVzYVkzNlFkSk5rR0NGMnJSQVlaOGdCa1o3Ty1HRjgxTy11M2NaSHE4SFBVM1FhNjZDb0VUNmVHcERnWXRqMXRxRkZUc0NjMEdKaFdabVU3UUpubE5rU1czTWtpVVpIQUZiMUJKUHlkcE1Jcks3bl9CSWg1Qm1UVnhLN2xhdDhn?oc=5",
+      "published": "2026-05-19T07:00:00+00:00",
       "source": {
-        "name": "DIE ZEIT",
-        "url": "https://www.zeit.de"
+        "name": "Deutsche Apotheker Zeitung, DAZ",
+        "url": "https://www.deutsche-apotheker-zeitung.de"
       }
     },
     {
@@ -574,12 +584,12 @@
       }
     },
     {
-      "id": "b35e16b362c0",
-      "title": "Medikamente für Senioren: Studie warnt vor riskanten Wirkstoffen - morgenpost.de",
+      "id": "20a64d917dfc",
+      "title": "Medikamente für Senioren: Studie warnt vor riskanten Wirkstoffen - Berliner Morgenpost",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZ29BeW1jeXNBMHJfUWNHT1RfQWNhcG9TUzJwbE11cl9XN1VvWElYUmJORUxoclg3R08xa3VsaXhSMlBnSlE2ZkhOdWF2Z0lVempDdE9XMnBZcEVQUm5KVDBaM0I0ZWpxdzBYbkxYOWtjOGN1ZGxCUkh5TDUzeUxJc0F1dm55XzdHMEwyNUZheFRiaFdKUGtUR1JmYXRGelY0UlM3OFh4SkExRGFTVWZFamxqYXFQOHRCZjFTQThnbjRWU1JMcEM0?oc=5",
       "published": "2026-03-22T07:00:00+00:00",
       "source": {
-        "name": "morgenpost.de",
+        "name": "Berliner Morgenpost",
         "url": "https://www.morgenpost.de"
       }
     },
@@ -604,16 +614,6 @@
       }
     },
     {
-      "id": "2daba90d0e32",
-      "title": "Neue Medikamente: wo Europäer am längsten warten - Euronews",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQWtmTGxRc2lfV1RlQTNsMHV6ekdnQ3NFX1Bxd2txRGlPeTZDVk12NUpuN2lOalVTVmQ1QW0wcV9pXzJoVWZlcFJnbjB1UHVjTHU0V3lTZ0FTbU5HLXAtWHZDdERQcEwwQnV1ZTJ4VVBpODNlLWpXWWtUN0pray1LaFVSNExGQm5COThOZXhKbVotdWE4R05JaQ?oc=5",
-      "published": "2026-05-20T07:00:00+00:00",
-      "source": {
-        "name": "Euronews",
-        "url": "https://de.euronews.com"
-      }
-    },
-    {
       "id": "5d8c89f1b6f0",
       "title": "Gesundheitsökonom Kugler: \"Wir bezahlen nur wirklich nützliche Medikamente\" - MDR.de",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWDlDNjhEYjgwOHl4R3NZUWFqaEo4Qkd4OUZISDllZG9TcVJubHF1MnUwRVRPY2pZLWZFdlQzdktxelU5SktXdlBaSkIxcFJjN2dJUXJTYklvSFpOckcxSjdvRkxRM0RjRy0yUEtIRWVPWF9JZmNMc1d1NXFMWHFVajJ0LWY1cDh6Ql9aYmFUQnE4LVlGNUFIZW5IR0E5TU5nak5ESlB0d2hSU2U0UWJQeWRfZllHVkcyeGdMVi1uRlFFU25OV0dv?oc=5",
@@ -631,16 +631,6 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
-      "id": "7d876f76990e",
-      "title": "Arzneimittel-Ratschlag durch ChatGPT landet vor Gericht - Deutsche Apotheker Zeitung, DAZ",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOb2R6cDZTSjF3cDJfUW1NOERXRnRaN0hhbWJrU2hLMjMtZ0V1VjhyOHdJNllIaFlfZlM3TDhZNGVzYVkzNlFkSk5rR0NGMnJSQVlaOGdCa1o3Ty1HRjgxTy11M2NaSHE4SFBVM1FhNjZDb0VUNmVHcERnWXRqMXRxRkZUc0NjMEdKaFdabVU3UUpubE5rU1czTWtpVVpIQUZiMUJKUHlkcE1Jcks3bl9CSWg1Qm1UVnhLN2xhdDhn?oc=5",
-      "published": "2026-05-19T07:00:00+00:00",
-      "source": {
-        "name": "Deutsche Apotheker Zeitung, DAZ",
-        "url": "https://www.deutsche-apotheker-zeitung.de"
       }
     },
     {
@@ -674,12 +664,12 @@
       }
     },
     {
-      "id": "a8590fd76723",
-      "title": "Arzneimittelpreise: Medikamente in Deutschland günstiger als USA trotz Trump-Deals - sueddeutsche.de",
+      "id": "8f7a16a55972",
+      "title": "Arzneimittelpreise: Medikamente in Deutschland günstiger als USA trotz Trump-Deals - SZ.de",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdnBJZGx2V2VkNEJfQy1NTDk2NFJXOE5MY3k2VE1yNmxuZzNiWWNlalNjN0MzTjJzSUwxTDRPRTlJai1XeXVUODNhaGlrRXJhaVpJdVQ0eV9mNHc1QWZkaXhtUTVfdjZNWEU2eWptcVk1WkNUZHJNRUpNQzM2TXduRFpPS0tTbjhtajdRWmtMbTM2N1owQ1I1Y2g1MmJiUzNpdnc?oc=5",
       "published": "2026-03-18T07:00:00+00:00",
       "source": {
-        "name": "sueddeutsche.de",
+        "name": "SZ.de",
         "url": "https://www.sueddeutsche.de"
       }
     },
@@ -934,12 +924,12 @@
       }
     },
     {
-      "id": "fad88aff2400",
-      "title": "Arzneimittelausgaben steigen auf Rekordhoch Sieben Prozent der Medikamente verursachen mehr als die Hälfte der Kosten - Tagesspiegel",
+      "id": "abacee78c1f0",
+      "title": "Arzneimittelausgaben steigen auf Rekordhoch Sieben Prozent der Medikamente verursachen mehr als die Hälfte der Kosten - tagesspiegel.de",
       "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNeVh1VDdIZEd5TXZoV2hGdlRCOXNMcFBvMjMyYTRMeTF1TnVaVEg1dXY2SWtZNUhocnFnM2staDhwZnptemFfVGUxbFpIQ3JwNnhCSEREbmEwcmNRNHdSbENtemYwdmJHNVREYWQ2S2VQZVlNNVFGYlJhbGFfeWVySUFiY3lhQXNmZWxUQndTTXFHdGdRVHlQaVN5U1lSWlNLWUo3SDFOcjdyT3d5c0h4c0FMdWxra2hrekpJZDNGeDQ2c3NqVFdTSnJTNHZ3Mm1KeWkzLUZNMHJRTjROVEE5OUNrWW1yaTdLWkJvNG1oQ3dPU0MzTldsZXFNblVlQVE?oc=5",
       "published": "2025-12-09T08:00:00+00:00",
       "source": {
-        "name": "Tagesspiegel",
+        "name": "tagesspiegel.de",
         "url": "https://www.tagesspiegel.de"
       }
     },
@@ -964,12 +954,12 @@
       }
     },
     {
-      "id": "fc6f1b66d86b",
-      "title": "Chaos beim Medikamentenplan? Apothekerin gibt Patienten wichtigen Rat - morgenpost.de",
+      "id": "a74eabe9a107",
+      "title": "Chaos beim Medikamentenplan? Apothekerin gibt Patienten wichtigen Rat - Berliner Morgenpost",
       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPdzBBc19hQkIzamE0TDVNM2h5VnFnZmJVLV9sOTQtbE1WTV9DTzJpbEFzN3Z6QTZWT2hXOUxxbXdETHM3N2Nya2RrMi15ai1UcGZaMDBuNlJtbGtPN1NpMzlQcmNyVGlEZzBmV3Z4N2ZfLXU3bExILXdNSExFRkxEOWdLeTNMS3hsZFFxcnh4MDl4OGZ6aFFOSHZqNkVDSmdKd0hNVGpDNzNUdXQtb0trTkVOZ0w2cFVwZE03SjF6eVJndENWYU5sQkt1WmM?oc=5",
       "published": "2025-12-08T08:00:00+00:00",
       "source": {
-        "name": "morgenpost.de",
+        "name": "Berliner Morgenpost",
         "url": "https://www.morgenpost.de"
       }
     },
@@ -1001,6 +991,16 @@
       "source": {
         "name": "Deutsches Ärzteblatt",
         "url": "https://www.aerzteblatt.de"
+      }
+    },
+    {
+      "id": "8e4ef3c2ecf0",
+      "title": "dm: Drogeriekette startet Online-Apotheke und erntet Kritik aus der Gesundheitsbranche - Spiegel",
+      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQb3YweDJTbVRaQ3JueVhtVG1VN3dxM3dLa1ZfN3ExNDdDNllob2V1Y3FqVUtZdzNjSjF2QU0wRlhQMElUMk1OY3Vob0ZTNjBWNUQwVmxPT1IxUjlDLU5rN3pjQ3BhbWtxcjI0dWJfNHc3LWplZFZiTWNoNUxjdWtlUWE1aDFxX3doZF9ZRzJ5NU5NTVhTZy1EWFJjLXlLd3lMS1MwQ09RRHVNci1HaUVBbXVGM2UxQkFLeWdRaDRLN2h6bmRSWGprSFZFZWFjYVZvcG53UG1HdjFGVjdzVS1yeXctRUVQTkFyV2UxSklocEpSQ3RHekxmdGlub1UzeTA?oc=5",
+      "published": "2025-12-12T08:00:00+00:00",
+      "source": {
+        "name": "Spiegel",
+        "url": "https://www.spiegel.de"
       }
     }
   ]
