@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-02T17:00:44.071020+00:00",
+  "fetched_at": "2026-08-02T19:11:38.251755+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -14,6 +14,16 @@
       }
     },
     {
+      "id": "71836b7b68f7",
+      "title": "Medikament online bestellen: Was (nicht) gespart werden kann - mdr.de",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQzh1VE1KZllWYkVqdlVTdVZJY0xBcGdDZUR1NGhOOXNlS3VPcktlR00tbUJPdWlHNUhCajJ4RGthVUhQUnEwaXl2T2p6Um90NXdlMTdIblB0X0lPR0pfUTZ2LTBkRWgydWRPRllnYUJGV24xaktzY1MwQmJJM0JxUlFKMnJpLV9Qd1lz?oc=5",
+      "published": "2026-07-30T07:00:00+00:00",
+      "source": {
+        "name": "mdr.de",
+        "url": "https://www.mdr.de"
+      }
+    },
+    {
       "id": "7da310e2aa2f",
       "title": "Von Antidepressiva bis Ibuprofen Diese Medikamente können bei Hitze zum Problem werden - Tagesspiegel",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZjhWcVNRNld6RWZRdm1Ld0F6SUJOWDRkNFBLVkx3VWxDTEV5S21IT25Wa3gwWWE5RHZRNnp0UXFqejZkX3c5dWdWaUJYLWk2Wk1pbUh4eXBTNmRLcUpZeFNNQ0UtOGN4SHkwV3BiMExaY0NrbGhCXzNtS0MySXVmWFdGSHVwendLRHE1cmxGNEZXdXhFWEFINWQ5eW9oOUVoRXJTdDU4TmZGTU5HVVZFVVl3SGE2VXdBdXhYTHlHZFVOcTRFQUZJZFVUdGxoUGdLTkdmaHlR?oc=5",
@@ -21,16 +31,6 @@
       "source": {
         "name": "Tagesspiegel",
         "url": "https://www.tagesspiegel.de"
-      }
-    },
-    {
-      "id": "1d15f3b6b9c3",
-      "title": "Medikament online bestellen: Was (nicht) gespart werden kann - MDR.de",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQzh1VE1KZllWYkVqdlVTdVZJY0xBcGdDZUR1NGhOOXNlS3VPcktlR00tbUJPdWlHNUhCajJ4RGthVUhQUnEwaXl2T2p6Um90NXdlMTdIblB0X0lPR0pfUTZ2LTBkRWgydWRPRllnYUJGV24xaktzY1MwQmJJM0JxUlFKMnJpLV9Qd1lz?oc=5",
-      "published": "2026-07-30T07:00:00+00:00",
-      "source": {
-        "name": "MDR.de",
-        "url": "https://www.mdr.de"
       }
     },
     {
@@ -54,12 +54,12 @@
       }
     },
     {
-      "id": "50e574837ee5",
-      "title": "Medikamentenversand bei Hitze: Risiken für Arzneimittel - Apotheken Umschau",
+      "id": "b6760f575042",
+      "title": "Medikamentenversand bei Hitze: Risiken für Arzneimittel - apotheken-umschau.de",
       "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPREY3YjJLY0JhYUEzX3FnRFlGRDJ1Vm9JamNNVTNoR3NOX0tOMTIzWUMweTJ2ekYzbktzUTZha0djdWpuN09lNHVZUWw4bVJxYXhWeWtxWUVxM0tXS2xGcGtMd29yWmdTSlFpUkxpdmRvMV9ZaEJhT3czaTY3a2VhOUVJU2p0VWZWMU9PNHZDQWt2b0FpdFhOQlNESFdTV0l0M3R4SDFVMTBOTmZMVVo5ZV9KSmZremN6cTNzOXR0a3RjT2Y0MGZjQkNMUVdFY0xZejBFanY4aDRNOEdpZzdTMVowbkZHUVNtU1htclVWeE50OUwzaWlXSG44akg3S05Odlh2MUxlYXAxbkZVbDB4eWRhZF9YZw?oc=5",
       "published": "2026-07-31T03:26:11+00:00",
       "source": {
-        "name": "Apotheken Umschau",
+        "name": "apotheken-umschau.de",
         "url": "https://www.apotheken-umschau.de"
       }
     },
@@ -67,20 +67,10 @@
       "id": "0abca50a3c8a",
       "title": "Neue Abnehmpille Wegovy: Was sie kann, für wen sie geeignet ist und wann sie zum Risiko wird - NDR.de",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTS12bDBPVE5kWlktX2tWbzhmUE5sODR2UWxoM0RRam9kRnpDVkk4bk9NX2Jqd0pRYVg4SUlwTkE1eEs4aFJTR2c5RnhpcGE2cmlhZ2hGNGJTdU5iV2VjQVl2LWwxb0N5VWNWbE1xeXV1U0hHVGVpUUdWQVc3b01SUDN5ZXcwdUNqYkY3bEwwVmF6UGFtQlJEbWl3?oc=5",
-      "published": "2026-07-30T07:00:00+00:00",
+      "published": "2026-07-30T15:02:00+00:00",
       "source": {
         "name": "NDR.de",
         "url": "https://www.ndr.de"
-      }
-    },
-    {
-      "id": "9fb1b44899b8",
-      "title": "G-BA-Chefin offen für Abnehmspritze auf Kassenkosten - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUjFJU1haSU5reVRLWU16OXBqUURLOG14VTQ1UEpTREpBRG1wSjdnY3BVN2h6a1paTWc4TERQejRLR2xnazhaUW9Zb3M0eDFKeE9kNEwzNU1EamY1eksybjNHdkNqUTYwSDZDeWNGY2gxNVg3Y3Vxc2doQ3ZNempwM250YjVZZW5pTTRJN1AzYmJuMTNEb0JsT3Exc1VVdw?oc=5",
-      "published": "2026-08-02T16:01:14+00:00",
-      "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -94,6 +84,16 @@
       }
     },
     {
+      "id": "9fb1b44899b8",
+      "title": "G-BA-Chefin offen für Abnehmspritze auf Kassenkosten - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUjFJU1haSU5reVRLWU16OXBqUURLOG14VTQ1UEpTREpBRG1wSjdnY3BVN2h6a1paTWc4TERQejRLR2xnazhaUW9Zb3M0eDFKeE9kNEwzNU1EamY1eksybjNHdkNqUTYwSDZDeWNGY2gxNVg3Y3Vxc2doQ3ZNempwM250YjVZZW5pTTRJN1AzYmJuMTNEb0JsT3Exc1VVdw?oc=5",
+      "published": "2026-08-02T16:01:14+00:00",
+      "source": {
+        "name": "AD HOC NEWS",
+        "url": "https://www.ad-hoc-news.de"
+      }
+    },
+    {
       "id": "18222ba7d8e8",
       "title": "Wichtige Neuerungen in Europa: EMA empfiehlt neue Medikamente zur Zulassung - T-Online",
       "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRzJiTElBbDhDajVaT09zSWtNM3JIaUN5VnJpYVhETWdPQWlWVXJjQjR3aUNjRTg2X3N6OXhwV19lZVJzcGtGdmVxNXZ3c2JkcDZ5VEVzcUlINjVUeU9QeVc5aUV5UzVrOFIyUmpJVkt4RUtxUXhKR1NNQkhRZ1pjWmdlR0ZlQ1loOTBnLU5WbXo3Z2hnT2oxd19pSldENUFmZjR6N1J4RF8xMUlyTXZLVVZIZ3I3dC1vLWFRZ1BKOFlOZE94Tnh5azlrMlZpck13?oc=5",
@@ -104,12 +104,12 @@
       }
     },
     {
-      "id": "fcf99d323a26",
-      "title": "Medikamente mögen keine Hitze - ihre-vorsorge.de",
+      "id": "10b1aec602d9",
+      "title": "Medikamente mögen keine Hitze - Ihre-Vorsorge.de",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORjNQbHBlSERZOEZTSDAxdGVWUndXLVFTRmtPQ1J0djlReV9xQkdqUGFjdklRSjlsc2dxSnBBSnpzTEl6ZW53LXFGOWlXSVAxWnZ4NWk3UGw2OTRiNjlMSGN2VFg3XzlsczhsdEdDX0dfSjY1aDlvSXE5cXQ3Q3hDOF9zRW9xWEEweXc?oc=5",
       "published": "2026-07-21T09:32:42+00:00",
       "source": {
-        "name": "ihre-vorsorge.de",
+        "name": "Ihre-Vorsorge.de",
         "url": "https://www.ihre-vorsorge.de"
       }
     },
@@ -194,16 +194,6 @@
       }
     },
     {
-      "id": "d2ec06f79d6d",
-      "title": "Hitze kann Medikamente unwirksam machen: Worauf Patienten jetzt achten sollten - VOL.AT",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOHd2cGE0ZzJmOG5BYlJ2X0hKWFBwb2MyejdONWlYZ29WSEk3MkZ2eVJOU28yTWlFZVdmY3ZUa3dDdmZ4TDRvUGVITndIM3N1QnpTeEZsVlR1WVJHeWI1OERrUEVHeEN4SUJTbTREanR6MXhuSEFUVzh5aFhGdGZ5VV9PQlV0NmNZZ0Jiak12VFYwOVFPb3FPZzdmRjJSMTUzRVp4U1Y2LWM?oc=5",
-      "published": "2026-08-02T10:04:10+00:00",
-      "source": {
-        "name": "VOL.AT",
-        "url": "https://www.vol.at"
-      }
-    },
-    {
       "id": "05fb99638ff2",
       "title": "Insulin bis Psychopharmaka: Wie Hitze die Wirksamkeit von Medikamenten beeinflusst - Kurier",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQalFURDBmeW1MT2Q2QnpEVE1INUxUQXVCZkJWSVlJdkJFeGxveC1iRFVPam1hTlhGbVRQdXhmZk85ZERfaDRDTmNzMl9hb3d5X2dkMkhoUmgwRUQzVlFoa2ttNkgyOVVpUWI4TDcyZmlKbXV3OWJkREZ4R2ZneGdnUDNQb29zOS0tOXRucDJxNXVSWlAxMDBqOU9MSHByS2hrQUxRUjEwSzhnc1Nnc1p5cTh3dGFVajU3MW1EYXBGakRheHk1aEVPZDNUX2xVQQ?oc=5",
@@ -231,6 +221,16 @@
       "source": {
         "name": "RTL.de",
         "url": "https://www.rtl.de"
+      }
+    },
+    {
+      "id": "d2ec06f79d6d",
+      "title": "Hitze kann Medikamente unwirksam machen: Worauf Patienten jetzt achten sollten - VOL.AT",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOHd2cGE0ZzJmOG5BYlJ2X0hKWFBwb2MyejdONWlYZ29WSEk3MkZ2eVJOU28yTWlFZVdmY3ZUa3dDdmZ4TDRvUGVITndIM3N1QnpTeEZsVlR1WVJHeWI1OERrUEVHeEN4SUJTbTREanR6MXhuSEFUVzh5aFhGdGZ5VV9PQlV0NmNZZ0Jiak12VFYwOVFPb3FPZzdmRjJSMTUzRVp4U1Y2LWM?oc=5",
+      "published": "2026-08-02T10:04:10+00:00",
+      "source": {
+        "name": "VOL.AT",
+        "url": "https://www.vol.at"
       }
     },
     {
@@ -284,16 +284,6 @@
       }
     },
     {
-      "id": "9b861f2644d5",
-      "title": "Weniger Erstattung bremst Verbrauch von Statinen und Magensäureblockern - GrenzEcho",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQRlB6TGpZQmNaOFQ2emlCazZKQzU1V1hZQjBEZkFEMkV1d3RJQk1meV9tU0lwb1h4RHQwNGJOdElNblpJM3pGb3EyXzNIUmJEZFRrb2tmZjdWMzdzaDA2WFZYV1VlWE9lNi1FTkxmWEM3c054dEZPNVFTRE0tVEIwamdMbjZZV3NTcnVmeE1mbm1YTFFoZ1lDOHVUVjJVa0IzLWptb0g2OFpSVk1udG9va3dsZU5MQS14cGdzNklqQkY?oc=5",
-      "published": "2026-07-31T17:15:00+00:00",
-      "source": {
-        "name": "GrenzEcho",
-        "url": "https://www.grenzecho.net"
-      }
-    },
-    {
       "id": "075a40db361f",
       "title": "Medikamente auf Reisen: Das darf ins Handgepäck - ADAC",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZmdDVl81RGdjdDZRNXNXSlRFTVhOSVpSQUlwUTlUelB6bnNFcVFRV09lQ2czNTdja0RsNHJVck00Y2hFVHZUM3kyaTRWOVZXWHQ0M182TVJrcGNGcUxtS1pFaU8wczRRRFRycTVmZnFmWE1lQ2g1eVVNekNQd3pSWWFHMnc1anVBY3plbTNB?oc=5",
@@ -301,6 +291,16 @@
       "source": {
         "name": "ADAC",
         "url": "https://www.adac.de"
+      }
+    },
+    {
+      "id": "9b861f2644d5",
+      "title": "Weniger Erstattung bremst Verbrauch von Statinen und Magensäureblockern - GrenzEcho",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQRlB6TGpZQmNaOFQ2emlCazZKQzU1V1hZQjBEZkFEMkV1d3RJQk1meV9tU0lwb1h4RHQwNGJOdElNblpJM3pGb3EyXzNIUmJEZFRrb2tmZjdWMzdzaDA2WFZYV1VlWE9lNi1FTkxmWEM3c054dEZPNVFTRE0tVEIwamdMbjZZV3NTcnVmeE1mbm1YTFFoZ1lDOHVUVjJVa0IzLWptb0g2OFpSVk1udG9va3dsZU5MQS14cGdzNklqQkY?oc=5",
+      "published": "2026-07-31T17:15:00+00:00",
+      "source": {
+        "name": "GrenzEcho",
+        "url": "https://www.grenzecho.net"
       }
     },
     {
@@ -344,12 +344,12 @@
       }
     },
     {
-      "id": "91d9d479bbed",
-      "title": "Gesundheitsgefahr durch gefälschte Arzneimittel - gesundheit.gv.at",
+      "id": "51e8c4b74840",
+      "title": "Gesundheitsgefahr durch gefälschte Arzneimittel - Gesundheit.gv.at",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYlhNa1drQ3UydVU1Ti1QZWxOelZ2UDNkQTBsczZ4SzVIZGhQS3psTVQ5Zmw2Ujh2RGpDYzZ5TDdIbG5mYkFjRl9CX3JkS0FHQ2dlSGVZMlpRTmpva0xOX3hoTWhTM3VoZlB6bjJYbjRRcGp2NERXZmhoaEtyeGJhUDlSU0k0cURLRzNIc1FR?oc=5",
       "published": "2026-03-09T07:00:00+00:00",
       "source": {
-        "name": "gesundheit.gv.at",
+        "name": "Gesundheit.gv.at",
         "url": "https://www.gesundheit.gv.at"
       }
     },
@@ -464,12 +464,12 @@
       }
     },
     {
-      "id": "705974bba917",
-      "title": "Amazon dominiert den Markt mit Gesundheitsprodukten - Deutsche Apotheker Zeitung, DAZ",
+      "id": "bbe937af0188",
+      "title": "Amazon dominiert den Markt mit Gesundheitsprodukten - deutsche-apotheker-zeitung.de",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbHlZQTZWYmlGbVU5cjNqYjFlak5yVlpqT2xSenpLbFN2bDBBbE5wbTVpNDNtTmVFeUNfVlpqaHJBbUNIVVVxcVl4WThULXJaTEp3YjVQbmRfZkc5MEdCXzRKMV92aGc3UGQ4dWNVa05BM1lqcUVKZ1Z6X25rdGRNcUpha0V2a2p0N3A4LXZEdVpHTURXTVVhU1FkTkt2dUVKcWdkOTRRX25pN0JLbTQ5UXVMUjBlRmhH?oc=5",
       "published": "2026-05-11T07:00:00+00:00",
       "source": {
-        "name": "Deutsche Apotheker Zeitung, DAZ",
+        "name": "deutsche-apotheker-zeitung.de",
         "url": "https://www.deutsche-apotheker-zeitung.de"
       }
     },
@@ -544,12 +544,12 @@
       }
     },
     {
-      "id": "82e89bf7d869",
-      "title": "Sommerhitze: Achtung, manche Medikamente wirken anders - Lippische Landes-Zeitung",
+      "id": "e45d8f533282",
+      "title": "Sommerhitze: Achtung, manche Medikamente wirken anders - lz.de",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONzl4d0d1dXJiR0E4SXNkcmdFYXVyaXI1dGQta0JQWnRRQ1lTUjZPUlRuRjRWQUZ5VHNvRnFOc3BVMmRERGdNRGNfNXA4TkhtZlgtMzNhWGNDQTZHZEpQcENFbjV4bEI4VzFENkV0TnNWUkY4djI4ZHJRdFFkNU9iQVdPdnNIWnkzdnNXWFAyeFFrZDZFNVdDeHMwZFFRX1lsY0IzNkpsVQ?oc=5",
       "published": "2026-06-19T07:00:00+00:00",
       "source": {
-        "name": "Lippische Landes-Zeitung",
+        "name": "lz.de",
         "url": "https://www.lz.de"
       }
     },
@@ -594,12 +594,12 @@
       }
     },
     {
-      "id": "7d876f76990e",
-      "title": "Arzneimittel-Ratschlag durch ChatGPT landet vor Gericht - Deutsche Apotheker Zeitung, DAZ",
+      "id": "f6455bb857fc",
+      "title": "Arzneimittel-Ratschlag durch ChatGPT landet vor Gericht - deutsche-apotheker-zeitung.de",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOb2R6cDZTSjF3cDJfUW1NOERXRnRaN0hhbWJrU2hLMjMtZ0V1VjhyOHdJNllIaFlfZlM3TDhZNGVzYVkzNlFkSk5rR0NGMnJSQVlaOGdCa1o3Ty1HRjgxTy11M2NaSHE4SFBVM1FhNjZDb0VUNmVHcERnWXRqMXRxRkZUc0NjMEdKaFdabVU3UUpubE5rU1czTWtpVVpIQUZiMUJKUHlkcE1Jcks3bl9CSWg1Qm1UVnhLN2xhdDhn?oc=5",
       "published": "2026-05-19T07:00:00+00:00",
       "source": {
-        "name": "Deutsche Apotheker Zeitung, DAZ",
+        "name": "deutsche-apotheker-zeitung.de",
         "url": "https://www.deutsche-apotheker-zeitung.de"
       }
     },
@@ -624,16 +624,6 @@
       }
     },
     {
-      "id": "6b21d64ee70c",
-      "title": "Wirkung von Medikamenten: »Betablocker können dazu führen, dass der Körper schlechter abkühlt - DIE ZEIT",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRi1iRXIzdGYwdEFLUGw1UU84N183amNFQmFWUFJYU2U2OU5lNGtzLXBkMDZDdUFiRElFMklxQUFudTZRc1Z5VlQwY3pIc0NCZkkwTXVBSVJsUmljdGphUFR0S1VxUEdtSjdydl8wcjJmYmNaajh3S1FXSXdfUnRvckFYVnZHR0tuTWRybWdWT2xPY0RwRWVqVE1nSV9ybkhXaGc5WWNn?oc=5",
-      "published": "2026-06-19T07:00:00+00:00",
-      "source": {
-        "name": "DIE ZEIT",
-        "url": "https://www.zeit.de"
-      }
-    },
-    {
       "id": "a43852bf5366",
       "title": "vfa zum Kommissionsbericht: Sparmaßnahmen für Pharmaindustrie im Faktencheck - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaGl6UGU2SlFIcnhfcTBza2E0aTZxOEEwd2xOWmxUT3hwYzYzSDRsSGJZa3g0U3BwTWpQdm01enFWcUVYeFhtR0d2SkJDQmVURmpFa0x0LXpYRTEzd1dtbmxyVWE2NVpZcE1DamxIT2kybUxscTV0QnZtTmVNRW1uLUxOeUw2cUlUZFRQUmdCYXZ4UEF4TFJuY092eU4tZw?oc=5",
@@ -654,12 +644,12 @@
       }
     },
     {
-      "id": "5d8c89f1b6f0",
-      "title": "Gesundheitsökonom Kugler: \"Wir bezahlen nur wirklich nützliche Medikamente\" - MDR.de",
+      "id": "fd0abc78a0e7",
+      "title": "Gesundheitsökonom Kugler: \"Wir bezahlen nur wirklich nützliche Medikamente\" - mdr.de",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWDlDNjhEYjgwOHl4R3NZUWFqaEo4Qkd4OUZISDllZG9TcVJubHF1MnUwRVRPY2pZLWZFdlQzdktxelU5SktXdlBaSkIxcFJjN2dJUXJTYklvSFpOckcxSjdvRkxRM0RjRy0yUEtIRWVPWF9JZmNMc1d1NXFMWHFVajJ0LWY1cDh6Ql9aYmFUQnE4LVlGNUFIZW5IR0E5TU5nak5ESlB0d2hSU2U0UWJQeWRfZllHVkcyeGdMVi1uRlFFU25OV0dv?oc=5",
       "published": "2026-04-26T07:00:00+00:00",
       "source": {
-        "name": "MDR.de",
+        "name": "mdr.de",
         "url": "https://www.mdr.de"
       }
     },
@@ -674,12 +664,12 @@
       }
     },
     {
-      "id": "7a99adaec5c0",
-      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - Geo.de",
+      "id": "47afc2884d76",
+      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - geo.de",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
       "published": "2026-06-19T07:00:00+00:00",
       "source": {
-        "name": "Geo.de",
+        "name": "geo.de",
         "url": "https://www.geo.de"
       }
     },
@@ -734,22 +724,22 @@
       }
     },
     {
-      "id": "01ff5efaad6f",
-      "title": "Neue Versandregeln könnten Medikamente bald deutlich teurer machen - Watson.de",
+      "id": "cc684d8e21cf",
+      "title": "Neue Versandregeln könnten Medikamente bald deutlich teurer machen - watson.de",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTWdJN3drNlBIbVFGbGpjVGxXbDN6V2ZPaXVZcXBLakFOWndIRVhlNXJWT2t4bktnd2RyN3ZIWHF2Y1ZmTFpyNnFhb2ZHQkFaNmtDRXBFMWR2cS1QVXRNYzhKVmVBVUN5MmhDcXdVZmUxeS1tbmwxamhUdURjVTZ1cWEwY2JjWDRPQUs0eFdkY3JkNkpnaVp0YS1sYVQ2M3o3eE1hSkEtejJfTVNFTy1na0g0a0FvS3RpejliQkdPWnBmV3gyYV82Mw?oc=5",
       "published": "2026-03-15T07:00:00+00:00",
       "source": {
-        "name": "Watson.de",
+        "name": "watson.de",
         "url": "https://www.watson.de"
       }
     },
     {
-      "id": "59d03ee6896b",
-      "title": "Medikamente ohne Zuzahlung können ungesunde Nebenwirkungen haben - MDR.de",
+      "id": "7017bc3a42ba",
+      "title": "Medikamente ohne Zuzahlung können ungesunde Nebenwirkungen haben - mdr.de",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOa1BRZ1RkZDlsQTQtUVVvek1KQlI2S2I5eUVpaHh0cGxseUJubDAxX01JeC1qRmczWTNSYWdhSnNMa3FGY2M3ZlcxVFo5UXpVMUt5RUw2T3VJMXZmdTlKOTYtaGtzY1EzZFpSVVM2UWY3YXpjM3lMOU8wMlJRbnlJY1FuTXcyMURpdHBsaVFvSDBmSm9NaGwtR3BWUEQ0c2FsTmpuZ3VnX2RkM05weXYtZkRxY2VZV3ZBWUp0OFk4RVd5MUFjZExvLXJKUjBXdWMzQzVud1RR?oc=5",
       "published": "2026-02-12T08:00:00+00:00",
       "source": {
-        "name": "MDR.de",
+        "name": "mdr.de",
         "url": "https://www.mdr.de"
       }
     },
@@ -824,12 +814,12 @@
       }
     },
     {
-      "id": "0791514ec89d",
-      "title": "Steigende Arzneimittelkosten: Gesundheitsministerin Warken will Zugang zu neuen Medikamenten für alle erhalten - MDR.de",
+      "id": "f5ce1a42ac54",
+      "title": "Steigende Arzneimittelkosten: Gesundheitsministerin Warken will Zugang zu neuen Medikamenten für alle erhalten - mdr.de",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPenF3ckVCSXl3ZmNka21FSTVtdkdoeGRZaEQ4Nnc4ZktKZk16U0ZUd19vYWRsZDdQUDZZLVFCd2k2anZScnRpSnJtXzRCbEozRm9fMEpkcVhjZ3dwT21zQVZPX2MybWdSUHBNeTZ3TmtESDFOWFNfM0lPV1Z4M3BmUTNkLTRfVGgxRUh4OWNOblh5ZGdCaUs5WXZmR2VVaVV5d1VHR1BHUFhubGtCWlFyZWk3VnhWZjdpWE9jNE5B?oc=5",
       "published": "2025-12-09T08:00:00+00:00",
       "source": {
-        "name": "MDR.de",
+        "name": "mdr.de",
         "url": "https://www.mdr.de"
       }
     },
@@ -894,12 +884,12 @@
       }
     },
     {
-      "id": "73821728fb6f",
-      "title": "Rezeptfreie Medikamente aus der Drogerie könnten das Apothekensterben verschärfen - SWR",
+      "id": "45e0d3060aa0",
+      "title": "Rezeptfreie Medikamente aus der Drogerie könnten das Apothekensterben verschärfen - swr.de",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUlBVMkRsMVdkYXV3YXFVd3k4Z1pMSGdoVTNOTXo0UV8wR1RBbmVCZVltV3ZBdGZndnM3V1NVMlVZOFhmUEJwNXlPbDRfcU5jV2FZcUNDd2txVnFwdjNNb3JWWkRncExiSDI0WnEtdUdEbEtGcVdqOGFJRzc0T3ZkY0N4aHE4V21aZmROazk4eG9mUUJXY2RqVXZCYTZLcU5NSnVDaHBYMXhzUQ?oc=5",
       "published": "2025-11-02T07:00:00+00:00",
       "source": {
-        "name": "SWR",
+        "name": "swr.de",
         "url": "https://www.swr.de"
       }
     },
@@ -1001,6 +991,16 @@
       "source": {
         "name": "NDR.de",
         "url": "https://www.ndr.de"
+      }
+    },
+    {
+      "id": "2f0394c48ff1",
+      "title": "Diskussionsrunde : Teure Orphan Drugs setzen GKV unter Druck - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMm9GbF9MdlR1T05IVU9La29FSnJzYmpWYTNqNW05eHVvMW1OVTdOX3FMaHhPT2JuUExjdkV6Zlg1NUh6WHEzS3RkQmhFLUVKWllJa2IxdDBacXl5SDZsbzc1YXY3TnIzYUpjalNfaDl6dnE2YUV0eGt1cWd0OTBiVVNYYzIzMEUybmdDRjZGQ3ZKZw?oc=5",
+      "published": "2025-11-06T08:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     }
   ]
