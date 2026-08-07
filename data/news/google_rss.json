@@ -1,15 +1,15 @@
 {
-  "fetched_at": "2026-08-07T10:07:16.686227+00:00",
+  "fetched_at": "2026-08-07T11:46:27.818971+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
     {
-      "id": "3619357e2a44",
-      "title": "MFN-Modell USA: Wie US-Arzneimittelpolitik Innovationen in Europa ausbremst - vfa.de",
+      "id": "9f7c377ed6d2",
+      "title": "MFN-Modell USA: Wie US-Arzneimittelpolitik Innovationen in Europa ausbremst - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWkw5ZTd1QUxfTlBDNjVEc0paTWpvTFpfTE9lOFM3YnhiWnBBREVhRzlMQnRmWDdkREJzVlg3UnZCN2RsTC1aTkhtN19oX2dEYmVLdXk4MXFBUnVGakk3YzVfbjZVQ0E0MUtPN2JZZ08wQ05yaTFLNER1dVYzZEo5UldOVldfQ0lCbGNRWEJZbUg0R3JBaGp6Mm1DTGd2eTYzWE9GV1hvenRGWHhOZXBxMHJMY09GUQ?oc=5",
       "published": "2026-07-24T12:04:29+00:00",
       "source": {
-        "name": "vfa.de",
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
       }
     },
@@ -44,16 +44,6 @@
       }
     },
     {
-      "id": "9d058951bc8a",
-      "title": "Hitze kann Medikamente wirkungslos machen - WEB.DE",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNLUpfZ2ttai0tclk3MVBVR2VkR0JMRUIzY1MzOEt5X2tyWXNuQkdBRWlCbWFaWG9LZG5VNVRsQml3MS1rUlp6SDNQZERtRzJRUjJoTXJTSFZPNWJxNjNjeVpSVURiRDhBTWlRekY4QzMzSWgzYXcyOXV2VEZJTzY3U2xrenIxR2Jjd0RVM3Utc1M?oc=5",
-      "published": "2026-08-06T11:49:01+00:00",
-      "source": {
-        "name": "WEB.DE",
-        "url": "https://web.de"
-      }
-    },
-    {
       "id": "29f397942ed6",
       "title": "Online-Apotheken: Shopping mit Wechselwirkungen? - Presseportal",
       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9uWHRCTmxFRFhsTEpNcEoxTk1nUFBPZE5LMGFILXFMRXhYUWNmUTdXenJEdWRxUVRSN3RjNlc2NUp4TDlwX2J4ZlBtZi1PNm1VeWpMd2MyY1k?oc=5",
@@ -64,23 +54,23 @@
       }
     },
     {
-      "id": "467c2c350e23",
-      "title": "Die neue Abnehmpille: Wer von ihr profitiert und welche Risiken sie birgt - ndr.de",
+      "id": "e198bcd85fa9",
+      "title": "Die neue Abnehmpille: Wer von ihr profitiert und welche Risiken sie birgt - NDR.de",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTGNabm9fNF9IS0JmYndYUFpUZXJqYnJxOXlWWk9LVk5Uc3FQYUZzaFJkVFRLZXdPUnBqSUVfbTFETmJueXpTUU1xLUw0NEZJRVUtVnc0N0RlZzlkdERkSjd1UWIzWG05R09CM1Y4V1lqY2VWUmNrS1BXUkdnOG9PMzJaTkZTa3hMLW1sSzJOUGFsY20yd3pNUE12Nk4tYVctOVF3NTVXRVp3cjNm?oc=5",
       "published": "2026-08-05T07:00:00+00:00",
       "source": {
-        "name": "ndr.de",
+        "name": "NDR.de",
         "url": "https://www.ndr.de"
       }
     },
     {
-      "id": "c27bde30bc85",
-      "title": "So treibt Big Pharma unsere Prämien hoch - Beobachter",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZWlYa19WZ2w4XzhaajEzQ1dZcXFPd3U5ZlQ5bEhKcGFYZVI0c00tUjljWnJFOFFQd0VnbEQ2U2NleVhMZ0JpUEJCZ0JHMF9hbmxHZ3hNU0xxVHdlTnpOX3ZrbTRNUlFHa1NMTVdJeDlhTFQxT0NuSXVZaXFtNjB0bld6aU5UbEZW?oc=5",
-      "published": "2026-08-06T13:30:00+00:00",
+      "id": "9d058951bc8a",
+      "title": "Hitze kann Medikamente wirkungslos machen - WEB.DE",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNLUpfZ2ttai0tclk3MVBVR2VkR0JMRUIzY1MzOEt5X2tyWXNuQkdBRWlCbWFaWG9LZG5VNVRsQml3MS1rUlp6SDNQZERtRzJRUjJoTXJTSFZPNWJxNjNjeVpSVURiRDhBTWlRekY4QzMzSWgzYXcyOXV2VEZJTzY3U2xrenIxR2Jjd0RVM3Utc1M?oc=5",
+      "published": "2026-08-06T11:49:01+00:00",
       "source": {
-        "name": "Beobachter",
-        "url": "https://www.beobachter.ch"
+        "name": "WEB.DE",
+        "url": "https://web.de"
       }
     },
     {
@@ -91,6 +81,16 @@
       "source": {
         "name": "MDR.de",
         "url": "https://www.mdr.de"
+      }
+    },
+    {
+      "id": "c27bde30bc85",
+      "title": "So treibt Big Pharma unsere Prämien hoch - Beobachter",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZWlYa19WZ2w4XzhaajEzQ1dZcXFPd3U5ZlQ5bEhKcGFYZVI0c00tUjljWnJFOFFQd0VnbEQ2U2NleVhMZ0JpUEJCZ0JHMF9hbmxHZ3hNU0xxVHdlTnpOX3ZrbTRNUlFHa1NMTVdJeDlhTFQxT0NuSXVZaXFtNjB0bld6aU5UbEZW?oc=5",
+      "published": "2026-08-06T13:30:00+00:00",
+      "source": {
+        "name": "Beobachter",
+        "url": "https://www.beobachter.ch"
       }
     },
     {
@@ -114,22 +114,12 @@
       }
     },
     {
-      "id": "cb89f8784a09",
-      "title": "Rezept gegen unreine Haut, ohne Wartezimmer & neugierige Blicke - Main-Spitze",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNTWlHNDJxQW5SSGZmRDZ6eGV5TWxlTU1GMjdwTk9WdFBydGlXMEFEbU43V2UzTENmaEhBR0t4UVVNcVA0N3B1SkIxUTBKYVRMdXRTeXA1aEFrVy1Pa2xwcFhod0VILUVuVjZfMGtvcXc4VUNjeTIwRGV1M0l1cDF5cUtlOWpZYzRmZjRpRmMxdGlnYnlyUVJDZGtJekVRUjFxY1l6VTJWWGNlSXNtTzdpLTNDRWZfYTdhUjFEVUlpTEgxbmVucHNGWGZCcU4xR2Vab2hvTHJXdWpUay1LaDJjb1RNUlJ1LTNnMVNwNg?oc=5",
-      "published": "2026-08-06T16:20:51+00:00",
-      "source": {
-        "name": "Main-Spitze",
-        "url": "https://www.main-spitze.de"
-      }
-    },
-    {
-      "id": "50e574837ee5",
-      "title": "Medikamentenversand bei Hitze: Risiken für Arzneimittel - Apotheken Umschau",
+      "id": "b6760f575042",
+      "title": "Medikamentenversand bei Hitze: Risiken für Arzneimittel - apotheken-umschau.de",
       "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPREY3YjJLY0JhYUEzX3FnRFlGRDJ1Vm9JamNNVTNoR3NOX0tOMTIzWUMweTJ2ekYzbktzUTZha0djdWpuN09lNHVZUWw4bVJxYXhWeWtxWUVxM0tXS2xGcGtMd29yWmdTSlFpUkxpdmRvMV9ZaEJhT3czaTY3a2VhOUVJU2p0VWZWMU9PNHZDQWt2b0FpdFhOQlNESFdTV0l0M3R4SDFVMTBOTmZMVVo5ZV9KSmZremN6cTNzOXR0a3RjT2Y0MGZjQkNMUVdFY0xZejBFanY4aDRNOEdpZzdTMVowbkZHUVNtU1htclVWeE50OUwzaWlXSG44akg3S05Odlh2MUxlYXAxbkZVbDB4eWRhZF9YZw?oc=5",
       "published": "2026-07-31T03:26:11+00:00",
       "source": {
-        "name": "Apotheken Umschau",
+        "name": "apotheken-umschau.de",
         "url": "https://www.apotheken-umschau.de"
       }
     },
@@ -141,6 +131,16 @@
       "source": {
         "name": "hpd - Humanistischer Pressedienst",
         "url": "http://hpd.de"
+      }
+    },
+    {
+      "id": "cb89f8784a09",
+      "title": "Rezept gegen unreine Haut, ohne Wartezimmer & neugierige Blicke - Main-Spitze",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNTWlHNDJxQW5SSGZmRDZ6eGV5TWxlTU1GMjdwTk9WdFBydGlXMEFEbU43V2UzTENmaEhBR0t4UVVNcVA0N3B1SkIxUTBKYVRMdXRTeXA1aEFrVy1Pa2xwcFhod0VILUVuVjZfMGtvcXc4VUNjeTIwRGV1M0l1cDF5cUtlOWpZYzRmZjRpRmMxdGlnYnlyUVJDZGtJekVRUjFxY1l6VTJWWGNlSXNtTzdpLTNDRWZfYTdhUjFEVUlpTEgxbmVucHNGWGZCcU4xR2Vab2hvTHJXdWpUay1LaDJjb1RNUlJ1LTNnMVNwNg?oc=5",
+      "published": "2026-08-06T16:20:51+00:00",
+      "source": {
+        "name": "Main-Spitze",
+        "url": "https://www.main-spitze.de"
       }
     },
     {
@@ -184,12 +184,12 @@
       }
     },
     {
-      "id": "6a3a426544ab",
-      "title": "HIV-Schutz mit Tabletten: Wie sicher ist PrEP im Alltag? - ndr.de",
+      "id": "198b0da65ee5",
+      "title": "HIV-Schutz mit Tabletten: Wie sicher ist PrEP im Alltag? - NDR.de",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTWhsNWk1Tkc5MzNycUQ5RzhaaXhPTGlCcHJ1Yl9wajZ0VkV3akIxR255SUd6clB5aU5fZmNlUGZIcTVNanZlTmctSDJqUFB5Zk5XempaWnhrbDBlVWZuOE9xWDRSREhKRm5sa0lrbGVnVjl0TE5NNWtTY25CUzRmdG5jQlBZc1pFakFyT0hITHU5NmpfaUE?oc=5",
       "published": "2026-07-18T07:00:00+00:00",
       "source": {
-        "name": "ndr.de",
+        "name": "NDR.de",
         "url": "https://www.ndr.de"
       }
     },
@@ -204,12 +204,12 @@
       }
     },
     {
-      "id": "9b26578cda77",
-      "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa.de",
+      "id": "9fa13ce5acf5",
+      "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
       "published": "2026-03-31T20:25:43+00:00",
       "source": {
-        "name": "vfa.de",
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
       }
     },
@@ -294,12 +294,12 @@
       }
     },
     {
-      "id": "f7c833495bd1",
-      "title": "Me­di­ka­men­te im Ur­laub: So schüt­zen Sie sich vor Fäl­schun­gen - Die Rheinpfalz",
+      "id": "307b3ea4207e",
+      "title": "Me­di­ka­men­te im Ur­laub: So schüt­zen Sie sich vor Fäl­schun­gen - rheinpfalz.de",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQbVlsX3VLeWJGQmtrMVQ1dFdSRGpQZEN1NFl2T0NvelNQbFBQMFgwUEI0UGtQdU5OZHNCRG5TTU1NZFlPYlFuX1pkOGllRkYtT1RPeGRlZXIwa0p4OTc5NlRHVWpCY05FQ1FvZEU2MlUxR3BsRmctVDliQVNLMEY3V1d5bHB0UG9oVVNFTmtGT204eDNjLXJ5R2dNZ3Q2eUlNZ2RId1lDUTIwdG52X2ZINUtsNThxNEtTci1BNGlzODcyemtfVzVLUUJtZGZIY3FaRGNZVlB4OGZRdw?oc=5",
       "published": "2026-07-08T13:31:00+00:00",
       "source": {
-        "name": "Die Rheinpfalz",
+        "name": "rheinpfalz.de",
         "url": "https://www.rheinpfalz.de"
       }
     },
@@ -314,16 +314,6 @@
       }
     },
     {
-      "id": "ca3fbb8f0e20",
-      "title": "SPD macht Arzneimittelversorgung zur Sicherheitsfrage - gesundheit adhoc",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaUx0Nm5DX2dXSFptbnJSOFlNVzVxaHpReWZiSVVVb0JMSnFzR3dVOHdiYzVEOGRaczRySGhxSVI3TlJOa3BJdzRyejl3bEhObFE0WWxKTVJ4NFd4MVJ2eW43RFF5dUFrNFNlTnZnZWZaVXRoMk14VlZPVi0yREtsa2ZIOURjQUpvNVZSMlV5cw?oc=5",
-      "published": "2026-07-09T10:41:12+00:00",
-      "source": {
-        "name": "gesundheit adhoc",
-        "url": "https://www.gesundheit-adhoc.de"
-      }
-    },
-    {
       "id": "087891737758",
       "title": "Engpässe bei Arzneimitteln: Geopolitik erschwert Europas Streben nach Unabhängigkeit - euractiv.com",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQ2lScFVHU3ZELWZOdzJOUGU2YUQ3c2ZpbWhIYWFiVUNoRFZHTm5JM1BfUWVnanhicnRvanhQdGx4UHVuTnZ5dG4ySEY4eVE3dUxGaXVLSm5sM1liQzRtc19GVVE3RkNnUGhhTkhZTXAtMkhWZ3JqOVREWlhfRnBSX1FPRXlaaUE5d2d6cFVEakt5NDJaUkgzXzA3TUpqUUJTbzhRQXFpbmZCTGMwdlRDSXR3cHNjZw?oc=5",
@@ -334,13 +324,13 @@
       }
     },
     {
-      "id": "a54a884d55a6",
-      "title": "Noch in diesem Jahr: Rossmann will Medikamente liefern - WEB.DE",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZzVIdE80VXRILUdTZTlsLTQwMHlHX1FMSjhsUGppeGJjNERCQkdLeDJwNnp6UUZTWWNmTW0xaUVZaGhHS1ZXSWV2TUZLbzNLdVVuei11TDZ4VVlQNU1CQUVuRTM0RHV3S3pYcnM3UThsNDhsaWFicE5ET0Noek1mcTFWbw?oc=5",
-      "published": "2026-07-10T07:00:00+00:00",
+      "id": "ca3fbb8f0e20",
+      "title": "SPD macht Arzneimittelversorgung zur Sicherheitsfrage - gesundheit adhoc",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaUx0Nm5DX2dXSFptbnJSOFlNVzVxaHpReWZiSVVVb0JMSnFzR3dVOHdiYzVEOGRaczRySGhxSVI3TlJOa3BJdzRyejl3bEhObFE0WWxKTVJ4NFd4MVJ2eW43RFF5dUFrNFNlTnZnZWZaVXRoMk14VlZPVi0yREtsa2ZIOURjQUpvNVZSMlV5cw?oc=5",
+      "published": "2026-07-09T10:41:12+00:00",
       "source": {
-        "name": "WEB.DE",
-        "url": "https://web.de"
+        "name": "gesundheit adhoc",
+        "url": "https://www.gesundheit-adhoc.de"
       }
     },
     {
@@ -364,13 +354,13 @@
       }
     },
     {
-      "id": "e89bb6a1a7a1",
-      "title": "Medikamente im Urlaub: So schützen Sie sich vor Fälschungen - Mindener Tageblatt",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVmFuWXBXcV9mM2x0cUItRFVsbl9ONUdXMVcwemo1cWVtaV8yeHktdFZaMW5BSURRRmxTMjA0OGx3eUZvVGQzOUpNSmpTODRvUFU0VXF0SkRyaVV0eWFIanJ2NHJoQWFEeDMtSVp3SUVfYnJPTHBXM3RvRzE2aEEyejdtR0dQaUltczRkRk1nVnFjM2ViMnM0aWdJNV8ycWZHYUllZGVWM0hGelpWZ2hzanp3?oc=5",
-      "published": "2026-07-08T13:29:58+00:00",
+      "id": "a54a884d55a6",
+      "title": "Noch in diesem Jahr: Rossmann will Medikamente liefern - WEB.DE",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZzVIdE80VXRILUdTZTlsLTQwMHlHX1FMSjhsUGppeGJjNERCQkdLeDJwNnp6UUZTWWNmTW0xaUVZaGhHS1ZXSWV2TUZLbzNLdVVuei11TDZ4VVlQNU1CQUVuRTM0RHV3S3pYcnM3UThsNDhsaWFicE5ET0Noek1mcTFWbw?oc=5",
+      "published": "2026-07-10T07:00:00+00:00",
       "source": {
-        "name": "Mindener Tageblatt",
-        "url": "https://www.mt.de"
+        "name": "WEB.DE",
+        "url": "https://web.de"
       }
     },
     {
@@ -381,6 +371,16 @@
       "source": {
         "name": "Gesundheit.gv.at",
         "url": "https://www.gesundheit.gv.at"
+      }
+    },
+    {
+      "id": "ac0d6ecd1d51",
+      "title": "Medikamente im Urlaub: So schützen Sie sich vor Fälschungen - mt.de",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVmFuWXBXcV9mM2x0cUItRFVsbl9ONUdXMVcwemo1cWVtaV8yeHktdFZaMW5BSURRRmxTMjA0OGx3eUZvVGQzOUpNSmpTODRvUFU0VXF0SkRyaVV0eWFIanJ2NHJoQWFEeDMtSVp3SUVfYnJPTHBXM3RvRzE2aEEyejdtR0dQaUltczRkRk1nVnFjM2ViMnM0aWdJNV8ycWZHYUllZGVWM0hGelpWZ2hzanp3?oc=5",
+      "published": "2026-07-08T13:29:58+00:00",
+      "source": {
+        "name": "mt.de",
+        "url": "https://www.mt.de"
       }
     },
     {
@@ -424,12 +424,12 @@
       }
     },
     {
-      "id": "64e121321fd7",
-      "title": "Klinische Studien mit Kindern: Warum sie unverzichtbar sind - novartis.com",
+      "id": "7cee44587079",
+      "title": "Klinische Studien mit Kindern: Warum sie unverzichtbar sind - Novartis",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWW9LSXhsRWJpVWVmOS1qaUVMby00UWZ5dzVmMXdickpVUEctWmlEVkRpRWNTVjlSX012RjJQclRyUWNBWEFxcGJvU1M4VGNzbzV5R2U2cUlvQThpcWRoVTVFVERaR1pRTkp0Y0FMQXBHbVN1OHNjNktjNHJOaERuQlVhMkxyVUFZbWNoYU1IVERtcUE5WklZc2tVSlZtOUF0cEpn?oc=5",
       "published": "2026-04-07T12:44:00+00:00",
       "source": {
-        "name": "novartis.com",
+        "name": "Novartis",
         "url": "https://www.novartis.com"
       }
     },
@@ -504,12 +504,12 @@
       }
     },
     {
-      "id": "e45d8f533282",
-      "title": "Sommerhitze: Achtung, manche Medikamente wirken anders - lz.de",
+      "id": "82e89bf7d869",
+      "title": "Sommerhitze: Achtung, manche Medikamente wirken anders - Lippische Landes-Zeitung",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONzl4d0d1dXJiR0E4SXNkcmdFYXVyaXI1dGQta0JQWnRRQ1lTUjZPUlRuRjRWQUZ5VHNvRnFOc3BVMmRERGdNRGNfNXA4TkhtZlgtMzNhWGNDQTZHZEpQcENFbjV4bEI4VzFENkV0TnNWUkY4djI4ZHJRdFFkNU9iQVdPdnNIWnkzdnNXWFAyeFFrZDZFNVdDeHMwZFFRX1lsY0IzNkpsVQ?oc=5",
       "published": "2026-06-19T07:00:00+00:00",
       "source": {
-        "name": "lz.de",
+        "name": "Lippische Landes-Zeitung",
         "url": "https://www.lz.de"
       }
     },
@@ -534,12 +534,12 @@
       }
     },
     {
-      "id": "a16bae0571e1",
-      "title": "Onkologische Arzneimittel: Analyse der Marktsituation - vfa.de",
+      "id": "6e56e1c99277",
+      "title": "Onkologische Arzneimittel: Analyse der Marktsituation - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMi1WQVZnaGJPSm9GcVAzRWlGSHRDRVg2MXhXMTJUenNuQUpRcElfbjBDZVp3Y3Z1UUNzNm5PSUY0eVdXMWcyQ3J0WkUxSjVSY0xxWFJ5X0lJc3Y1VExsallLS24xQUxyUVMyTDdsWUtnTThIZjc2TWZsdGpWMlMxUDVfXzVmeXZNdlhwZGNWb0VXbFZnVEVYOFVHSmxtUjBFVEU2alRzVlpCMlJ4?oc=5",
       "published": "2026-03-25T12:43:53+00:00",
       "source": {
-        "name": "vfa.de",
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
       }
     },
@@ -784,12 +784,12 @@
       }
     },
     {
-      "id": "0d857974f2b7",
-      "title": "Arzneimittel: Nutzen für Gesundheit, Lebensqualität und Wirtschaft - vfa.de",
+      "id": "ccc37dea8549",
+      "title": "Arzneimittel: Nutzen für Gesundheit, Lebensqualität und Wirtschaft - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUUlobHJUaWg5MGJ5NW1VNVRFZ1pWdHZCbzRHX0s1eTNEUXc3V05tckRCaG96ZEFGZ3dCMVVmdUN4MXdKRmZwQVFtR29rQmxCQkRybko4ZUczdWJURnI3TF9VLVhBZEdrUk51aXp4aE14YkJ6M3JpdlBteWFoSllaR3ZBemJ4NW9TSEtCNms2SkM0b2lyYkhFdkZtUFpTTUs0OWlsb05HZnlKWThCUGUwbWRB?oc=5",
       "published": "2025-09-26T07:00:00+00:00",
       "source": {
-        "name": "vfa.de",
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
       }
     },
@@ -874,16 +874,6 @@
       }
     },
     {
-      "id": "bcef033d2bcc",
-      "title": "Gesundheitsvorsorge - Arzneimittel-Überwachung - schleswig-holstein.de",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOeE80cXNlV3RkMlM5WUhkbVM5amVOZy0zdm9LMlN6dS1IRlVjMDJzcW9GWF9SMmdUUVd5dDJ0THpRejN5emROc180bmNuQjlGVWUwdE9mSFdHMUJyLVRfcTJoSHBRWDlFZ2tvSFlCNGtMTnpIV2dLQk5uMzY4YWY1U0N6cVdmdmdaVEoyTnlXc2x3bFNJT3NfckhVa1ZfZExJLVZRaXZEaW1abVVVQWVXTWg4MTg4WEU2bDFBaw?oc=5",
-      "published": "2025-08-29T07:00:00+00:00",
-      "source": {
-        "name": "schleswig-holstein.de",
-        "url": "https://www.schleswig-holstein.de"
-      }
-    },
-    {
       "id": "b027289bf54f",
       "title": "EU-Generalanwalt: Versandverbot nein, aber ... - apotheke adhoc",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaGRRUFJ5MDV6WGZaTE84UlB3SU83OElpQ2dBVXJTMFRLWWFlSmN0alJ0eS1ZdF9zN09MZUhESFJDd2J1TVNQeHZRQ1ZLMVNtMC1OSm9DV01oVXhWVzRtOENHbUpnRE10akgwUnRyRmkzckZ1UFhIb05aM1ZLcVN1WkFKRUVRd3VaaWpZVUdraVRVdUtER2tIc1FjTWFqS3VIY0IzeERfWnJ4UQ?oc=5",
@@ -891,6 +881,16 @@
       "source": {
         "name": "apotheke adhoc",
         "url": "https://www.apotheke-adhoc.de"
+      }
+    },
+    {
+      "id": "bcef033d2bcc",
+      "title": "Gesundheitsvorsorge - Arzneimittel-Überwachung - schleswig-holstein.de",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOeE80cXNlV3RkMlM5WUhkbVM5amVOZy0zdm9LMlN6dS1IRlVjMDJzcW9GWF9SMmdUUVd5dDJ0THpRejN5emROc180bmNuQjlGVWUwdE9mSFdHMUJyLVRfcTJoSHBRWDlFZ2tvSFlCNGtMTnpIV2dLQk5uMzY4YWY1U0N6cVdmdmdaVEoyTnlXc2x3bFNJT3NfckhVa1ZfZExJLVZRaXZEaW1abVVVQWVXTWg4MTg4WEU2bDFBaw?oc=5",
+      "published": "2025-08-29T07:00:00+00:00",
+      "source": {
+        "name": "schleswig-holstein.de",
+        "url": "https://www.schleswig-holstein.de"
       }
     },
     {
@@ -904,12 +904,12 @@
       }
     },
     {
-      "id": "9c28bbef6685",
-      "title": "Arzneimittel als Zukunftsinvestition - vfa.de",
+      "id": "c1eec9546c3c",
+      "title": "Arzneimittel als Zukunftsinvestition - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNek45Q0xRLXZlc1ZnTDBKcHk2cUFnMkllakFtcDJzXzU2bVh5WnBMYVhBWTNoMll4Y0FmVTlfeF9kYlIxQ25OUHdJX3VpSEVCNnBJaWIzZFljQmlEeVp2Q2R3cFRXWERWd3BORmh6OF9TeWNick9Ua0dZdWMtdDlLR3FGV3o?oc=5",
       "published": "2025-09-22T07:00:00+00:00",
       "source": {
-        "name": "vfa.de",
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
       }
     },
@@ -984,12 +984,12 @@
       }
     },
     {
-      "id": "3df13db287b9",
-      "title": "Ibuprofen, Aspirin und Co.: Schmerzmittel der Gruppe NSAR können Nebenwirkungen haben - ndr.de",
+      "id": "d46f6ce1c2b9",
+      "title": "Ibuprofen, Aspirin und Co.: Schmerzmittel der Gruppe NSAR können Nebenwirkungen haben - NDR.de",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUmwyTW8wT3dfaXgyZ1VyaXFYUG1lWXY5VUZXZkkwWjd4STI2dWVSY1d3bVhub1NxRE9sNGt2bW83blh3T2hPRzlWcnVvUElQSmw4WE9KOHhscFdsSEE4TmF2cnhXaTktUWRfc3NQMnpoWmZDUXF5WWt6czNsbWdLQTRtVVJ3Mzdtb250RGVhbldmNUpVOTNDOTFhOWpldzV0MUlpVFdMRmpfOGM3WW5HbmRYaVJFT1ZzYUxn?oc=5",
       "published": "2025-09-23T07:00:00+00:00",
       "source": {
-        "name": "ndr.de",
+        "name": "NDR.de",
         "url": "https://www.ndr.de"
       }
     },
