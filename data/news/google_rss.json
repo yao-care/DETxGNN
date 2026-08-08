@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-08T15:31:01.033096+00:00",
+  "fetched_at": "2026-08-08T16:34:28.972197+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -24,16 +24,6 @@
       }
     },
     {
-      "id": "f09134f3b440",
-      "title": "Abnehmtablette kommt nach Deutschland – doch diese Risiken kennen viele nicht - T-Online",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMXB5WUxjRXFRbXh2ck5PWEd3Tzk3VHc4X2dwRWZ3UGdnZFR5RklnTy1VOWl5SGRGMm05RE5wN2cyZEpIaUt6eVB6cXhpNFliWnhtcGFXR1hyVUlEQnZEaGtubVk0SlZHNUxISmZPbmJ2Tng5RXYtVVdndWdlcm1PTy1tUG95cXVibTE3ZjNwSGVqZHlhRUc5bHJHdEpYbl9fRUg0d05IeFBIeUtDQnRQX2NnQVVVYkND?oc=5",
-      "published": "2026-08-08T06:16:12+00:00",
-      "source": {
-        "name": "T-Online",
-        "url": "https://www.t-online.de"
-      }
-    },
-    {
       "id": "c459acd63d20",
       "title": "Hitze und Arzneimittel: DHL fühlt sich nicht zuständig - gesundheit adhoc",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWUh2SjhBemNBQ0ZTWkNwb1JPeXo1aXYyWVctc3Baemp3dVhkOWsyNW82S1hqaG03dFJzR0taVl9GNTUwaktxSV9NQUZqSXplckVKMzhqVU9jYUJCRXZIVWcydHpMVTh3YmFtOXI4a0ZUMUlremVMNWxMaERXZFduOG9obm1mVWJnNkR0czZOSzBqQQ?oc=5",
@@ -41,6 +31,16 @@
       "source": {
         "name": "gesundheit adhoc",
         "url": "https://www.gesundheit-adhoc.de"
+      }
+    },
+    {
+      "id": "f09134f3b440",
+      "title": "Abnehmtablette kommt nach Deutschland – doch diese Risiken kennen viele nicht - T-Online",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMXB5WUxjRXFRbXh2ck5PWEd3Tzk3VHc4X2dwRWZ3UGdnZFR5RklnTy1VOWl5SGRGMm05RE5wN2cyZEpIaUt6eVB6cXhpNFliWnhtcGFXR1hyVUlEQnZEaGtubVk0SlZHNUxISmZPbmJ2Tng5RXYtVVdndWdlcm1PTy1tUG95cXVibTE3ZjNwSGVqZHlhRUc5bHJHdEpYbl9fRUg0d05IeFBIeUtDQnRQX2NnQVVVYkND?oc=5",
+      "published": "2026-08-08T06:16:12+00:00",
+      "source": {
+        "name": "T-Online",
+        "url": "https://www.t-online.de"
       }
     },
     {
@@ -64,22 +64,22 @@
       }
     },
     {
-      "id": "47d8610c16f3",
-      "title": "Online-Apotheken: Shopping mit Wechselwirkungen? - presseportal.de",
+      "id": "29f397942ed6",
+      "title": "Online-Apotheken: Shopping mit Wechselwirkungen? - Presseportal",
       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9uWHRCTmxFRFhsTEpNcEoxTk1nUFBPZE5LMGFILXFMRXhYUWNmUTdXenJEdWRxUVRSN3RjNlc2NUp4TDlwX2J4ZlBtZi1PNm1VeWpMd2MyY1k?oc=5",
       "published": "2026-08-06T05:15:14+00:00",
       "source": {
-        "name": "presseportal.de",
+        "name": "Presseportal",
         "url": "https://www.presseportal.de"
       }
     },
     {
-      "id": "467c2c350e23",
-      "title": "Die neue Abnehmpille: Wer von ihr profitiert und welche Risiken sie birgt - ndr.de",
+      "id": "e198bcd85fa9",
+      "title": "Die neue Abnehmpille: Wer von ihr profitiert und welche Risiken sie birgt - NDR.de",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTGNabm9fNF9IS0JmYndYUFpUZXJqYnJxOXlWWk9LVk5Uc3FQYUZzaFJkVFRLZXdPUnBqSUVfbTFETmJueXpTUU1xLUw0NEZJRVUtVnc0N0RlZzlkdERkSjd1UWIzWG05R09CM1Y4V1lqY2VWUmNrS1BXUkdnOG9PMzJaTkZTa3hMLW1sSzJOUGFsY20yd3pNUE12Nk4tYVctOVF3NTVXRVp3cjNm?oc=5",
       "published": "2026-08-05T07:00:00+00:00",
       "source": {
-        "name": "ndr.de",
+        "name": "NDR.de",
         "url": "https://www.ndr.de"
       }
     },
@@ -94,22 +94,22 @@
       }
     },
     {
-      "id": "940b2f28b7bb",
-      "title": "Hitze kann Medikamente wirkungslos machen - web.de",
+      "id": "9d058951bc8a",
+      "title": "Hitze kann Medikamente wirkungslos machen - WEB.DE",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNLUpfZ2ttai0tclk3MVBVR2VkR0JMRUIzY1MzOEt5X2tyWXNuQkdBRWlCbWFaWG9LZG5VNVRsQml3MS1rUlp6SDNQZERtRzJRUjJoTXJTSFZPNWJxNjNjeVpSVURiRDhBTWlRekY4QzMzSWgzYXcyOXV2VEZJTzY3U2xrenIxR2Jjd0RVM3Utc1M?oc=5",
       "published": "2026-08-06T11:49:01+00:00",
       "source": {
-        "name": "web.de",
+        "name": "WEB.DE",
         "url": "https://web.de"
       }
     },
     {
-      "id": "e01f4b6ac873",
-      "title": "Patente und Profitorientierung blockieren Arzneimittel: Warum Millionen keinen Zugang haben - fr.de",
+      "id": "5431265615fd",
+      "title": "Patente und Profitorientierung blockieren Arzneimittel: Warum Millionen keinen Zugang haben - Frankfurter Rundschau",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPb0JSbmVWcVk1ajdydzIzRF9PM2hHQWFaYWNuSjhZbmZBbXplUGFBNklQVFptakVZdGN5UVA4VW9fS3VoRmluVzd5OHV1MXJMM3NudGpTdHR5MEI4dExjSmIzM0VoVUtCeHU2VnFfWGNTSVZYWFBsOEhValduakNSd1Z1TTZEM20zTFF0R3RLYy1NWHYza196cEkwM1ljMEtKdDdCdU1TN0J2LVU0Sk9UckdzRXpJNHVMdzZvaG9Ya2FxNEk?oc=5",
       "published": "2026-07-31T07:00:00+00:00",
       "source": {
-        "name": "fr.de",
+        "name": "Frankfurter Rundschau",
         "url": "https://www.fr.de"
       }
     },
@@ -154,12 +154,12 @@
       }
     },
     {
-      "id": "c1f5975f61ef",
-      "title": "Medikamente am Steuer: Diese Risiken sollten Sie kennen - ADAC",
+      "id": "02952c88ccfa",
+      "title": "Medikamente am Steuer: Diese Risiken sollten Sie kennen - adac.de",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbmpja0wzXzlUT1pGUElueXYxaHZfZ0RPOGpYTmFRN003aUVadXJFaEVxNGcyQXBVMFl5V0QxeDBPLTlvNXF6WHVBdmZxWU5qaWU5c1FlMVdKcnJ3eGFXWHdET3VzV0FVXzBUeV83dG9TTnIyVldUN2FfMExpMWdqek5jSG5VUTl0QmdTaw?oc=5",
       "published": "2026-07-03T07:00:00+00:00",
       "source": {
-        "name": "ADAC",
+        "name": "adac.de",
         "url": "https://www.adac.de"
       }
     },
@@ -174,12 +174,12 @@
       }
     },
     {
-      "id": "6a3a426544ab",
-      "title": "HIV-Schutz mit Tabletten: Wie sicher ist PrEP im Alltag? - ndr.de",
+      "id": "198b0da65ee5",
+      "title": "HIV-Schutz mit Tabletten: Wie sicher ist PrEP im Alltag? - NDR.de",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTWhsNWk1Tkc5MzNycUQ5RzhaaXhPTGlCcHJ1Yl9wajZ0VkV3akIxR255SUd6clB5aU5fZmNlUGZIcTVNanZlTmctSDJqUFB5Zk5XempaWnhrbDBlVWZuOE9xWDRSREhKRm5sa0lrbGVnVjl0TE5NNWtTY25CUzRmdG5jQlBZc1pFakFyT0hITHU5NmpfaUE?oc=5",
       "published": "2026-07-18T07:00:00+00:00",
       "source": {
-        "name": "ndr.de",
+        "name": "NDR.de",
         "url": "https://www.ndr.de"
       }
     },
@@ -224,22 +224,22 @@
       }
     },
     {
-      "id": "075a40db361f",
-      "title": "Medikamente auf Reisen: Das darf ins Handgepäck - ADAC",
+      "id": "ddc10607dcd9",
+      "title": "Medikamente auf Reisen: Das darf ins Handgepäck - adac.de",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZmdDVl81RGdjdDZRNXNXSlRFTVhOSVpSQUlwUTlUelB6bnNFcVFRV09lQ2czNTdja0RsNHJVck00Y2hFVHZUM3kyaTRWOVZXWHQ0M182TVJrcGNGcUxtS1pFaU8wczRRRFRycTVmZnFmWE1lQ2g1eVVNekNQd3pSWWFHMnc1anVBY3plbTNB?oc=5",
       "published": "2026-05-01T07:00:00+00:00",
       "source": {
-        "name": "ADAC",
+        "name": "adac.de",
         "url": "https://www.adac.de"
       }
     },
     {
-      "id": "8db31424e5bb",
-      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - dw.com",
+      "id": "02e9917bea66",
+      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - DW.com",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGxHSlhmSS0tbUNKdG15NEVzRzYzYllEUnAzUEU3ak53czRHVWlKdTZrRGFDMk1MUThPUjdPTnBGVENqd3d2Q1VSdWhJVXppWDF4NWh0aEJJaXJlVTlnV0VoZVFkRHNSM3p6NVZXNjNwWHk5YkxSUWR2RGZKcmp3Y2U5REY0U3dRZFJLeHFtQk9wb2Y3RUVOaVBlMlJhZ29Rck000gGjAUFVX3lxTE1rTW00WXFBajZxbTJOS1NLckhVbXFBSzh1NE96QTEydTN1YjZnaFFNcV8xblZGM29hdTZQUHc4V3YzQ1pwcTlaVVBhZDVqMExLMTlYVzZ6TmM4ZUdsUm5TLXpPNmk1R3V4UktvaV93cWttNFpVX0VEZlZnUllSQkhyUlZmeTBJcU0zUEVSZTgxdzFWUnFNRk9CYVljN0Jhd0ZXUFk?oc=5",
       "published": "2026-05-12T07:00:00+00:00",
       "source": {
-        "name": "dw.com",
+        "name": "DW.com",
         "url": "https://www.dw.com"
       }
     },
@@ -294,12 +294,12 @@
       }
     },
     {
-      "id": "44a936f3300e",
-      "title": "Abschaffung der Mehrwertsteuer auf Arzneimittel - openpetition.de",
+      "id": "bb553491699c",
+      "title": "Abschaffung der Mehrwertsteuer auf Arzneimittel - openPetition",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQR2ZyOGpub3o3YjR6WktVOXowVW5aMmNRcUZnRHQteUNLdVdiWFpMSHpndXJ0ajFhSmNTQXk1LVptMF9BUHlMeGRSb2dJalBRVjkxbGE4eWhObTFsT1gzVUtGblkxNDhVMlR2b2JYb1NWSGJqd2k1bGwxODhLVFh3aVdwY3pNNV81VDk0ZkxEbmVlSXdZY2c?oc=5",
       "published": "2026-04-27T15:29:32+00:00",
       "source": {
-        "name": "openpetition.de",
+        "name": "openPetition",
         "url": "https://www.openpetition.de"
       }
     },
@@ -344,12 +344,12 @@
       }
     },
     {
-      "id": "984c19132c59",
-      "title": "Der Herstellerabschlag im Reformstress - vdek.com",
+      "id": "12a6f84e648a",
+      "title": "Der Herstellerabschlag im Reformstress - Verband der Ersatzkassen (vdek)",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeXdkMXpjQVBJRzhyd1dCOVloSFpjc1cyNkczZjlHYl9QMlR4aFUwN1JLc3laQ0JWd0cwTWY4cmRnMGhDbE1vTzl3ODBNR2pQR0VLM0pJa2luTURVNGZOOXJlWlFGNG5ybFZkamI2WTlpOEZ1WjNTd19lcWJDdy1vU3V1RVI0TnRUSmNJVEphZkJYbnc?oc=5",
       "published": "2026-06-12T07:00:00+00:00",
       "source": {
-        "name": "vdek.com",
+        "name": "Verband der Ersatzkassen (vdek)",
         "url": "https://www.vdek.com"
       }
     },
@@ -384,12 +384,12 @@
       }
     },
     {
-      "id": "f4e345c01f5e",
-      "title": "Noch in diesem Jahr: Rossmann will Medikamente liefern - web.de",
+      "id": "a54a884d55a6",
+      "title": "Noch in diesem Jahr: Rossmann will Medikamente liefern - WEB.DE",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZzVIdE80VXRILUdTZTlsLTQwMHlHX1FMSjhsUGppeGJjNERCQkdLeDJwNnp6UUZTWWNmTW0xaUVZaGhHS1ZXSWV2TUZLbzNLdVVuei11TDZ4VVlQNU1CQUVuRTM0RHV3S3pYcnM3UThsNDhsaWFicE5ET0Noek1mcTFWbw?oc=5",
       "published": "2026-07-10T07:00:00+00:00",
       "source": {
-        "name": "web.de",
+        "name": "WEB.DE",
         "url": "https://web.de"
       }
     },
@@ -584,12 +584,12 @@
       }
     },
     {
-      "id": "7a99adaec5c0",
-      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - Geo.de",
+      "id": "47afc2884d76",
+      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - geo.de",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
       "published": "2026-06-19T07:00:00+00:00",
       "source": {
-        "name": "Geo.de",
+        "name": "geo.de",
         "url": "https://www.geo.de"
       }
     },
@@ -764,12 +764,12 @@
       }
     },
     {
-      "id": "770d335601a9",
-      "title": "Aktuelle Meldungen - Per App mehr Schutz für ungeborene Kinder - saarland.de",
+      "id": "06da2e132638",
+      "title": "Aktuelle Meldungen - Per App mehr Schutz für ungeborene Kinder - Saarland.de",
       "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQSlB2RHNPd3RCZDFZaXIwbGFmMXhRQW9DTWNBNEY1Mk5WV0pxY2h4X2t0QmEtaHJ1Z3pVV0p3ZXNpSmEtVl9XdTY1MUdlbU90M2trWXduX3VjQk9MbmVpa2hsalBTa21yWkZzZFJkdklqLXllZjNzVE1DUmoyTVZydTc2Z0RSQXlVbnNpdXNSN2VlVWZ6WEM4bEN6cXFWVjJSbEFuaGJIUXZNWUIyM09ackpiV1h0cC1GM05DalBndWNUa1VJc1NhbWd3VlFWbnc1ZUg2YTZlWlR3RVdQQW9lRjhqQ2c5Zl9MQkJrTElWTFk?oc=5",
       "published": "2025-12-04T08:00:00+00:00",
       "source": {
-        "name": "saarland.de",
+        "name": "Saarland.de",
         "url": "https://www.saarland.de"
       }
     },
@@ -784,12 +784,12 @@
       }
     },
     {
-      "id": "4bf4db7a6b88",
-      "title": "App \"MedAssist sicher für zwei\" - saarland.de",
+      "id": "b9ad4c3ee28b",
+      "title": "App \"MedAssist sicher für zwei\" - Saarland.de",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMllLZjQwdVNkTzE5YndaZHJjUmlUeGsta0QtUXllM3YzUEY0NnN2endjZTBmblJydVIzZUdwb2tTTGxIMUZkYlpHckVsV2YzNFh5X3BiZDBpT0tJMFRzajBNbjdXY3d1Zzl4SDNkb01lWEhSTmMxemVVNjdJRTJ4WGFZbGM5TGhiSlBTZjJMR2FfZlpRVFBtVi1jbGszcWEzRmF6Z3RmcHJ6N2s5VzVIVXBNZVNEVllwOURZVTJvNA?oc=5",
       "published": "2025-12-04T08:00:00+00:00",
       "source": {
-        "name": "saarland.de",
+        "name": "Saarland.de",
         "url": "https://www.saarland.de"
       }
     },
@@ -944,12 +944,12 @@
       }
     },
     {
-      "id": "3df13db287b9",
-      "title": "Ibuprofen, Aspirin und Co.: Schmerzmittel der Gruppe NSAR können Nebenwirkungen haben - ndr.de",
+      "id": "d46f6ce1c2b9",
+      "title": "Ibuprofen, Aspirin und Co.: Schmerzmittel der Gruppe NSAR können Nebenwirkungen haben - NDR.de",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUmwyTW8wT3dfaXgyZ1VyaXFYUG1lWXY5VUZXZkkwWjd4STI2dWVSY1d3bVhub1NxRE9sNGt2bW83blh3T2hPRzlWcnVvUElQSmw4WE9KOHhscFdsSEE4TmF2cnhXaTktUWRfc3NQMnpoWmZDUXF5WWt6czNsbWdLQTRtVVJ3Mzdtb250RGVhbldmNUpVOTNDOTFhOWpldzV0MUlpVFdMRmpfOGM3WW5HbmRYaVJFT1ZzYUxn?oc=5",
       "published": "2025-09-23T07:00:00+00:00",
       "source": {
-        "name": "ndr.de",
+        "name": "NDR.de",
         "url": "https://www.ndr.de"
       }
     },
@@ -994,12 +994,12 @@
       }
     },
     {
-      "id": "c4a8865d7816",
-      "title": "Wundermittel oder Wahnsinn? Der riskante Hype um Methylenblau - ndr.de",
+      "id": "445f92c7e54b",
+      "title": "Wundermittel oder Wahnsinn? Der riskante Hype um Methylenblau - NDR.de",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZjdVekdjMzQzUFRaQlJaZW5GM3l0bmZFay1iTWxoVXpOLWFfTkVQejhNU1FwSTR6Q1RETXRFYm56enYwNm8tZXBXZlRmb0JKalI4REI2dEVNcUh6NHhMMDBlTkNkOXRaTU1hS2ZXNWZhVnk3TUthaFpuTFh2c3NtVUNmcUtYc290bFI1MERTaDFjaXNNcDFpczNjX004TUV4MjBjdWFhM2F1dXF4bktZQWtvS0hGUHM?oc=5",
       "published": "2025-09-16T07:00:00+00:00",
       "source": {
-        "name": "ndr.de",
+        "name": "NDR.de",
         "url": "https://www.ndr.de"
       }
     }
