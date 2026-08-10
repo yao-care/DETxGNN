@@ -1,26 +1,26 @@
 {
-  "fetched_at": "2026-08-10T16:05:20.028417+00:00",
+  "fetched_at": "2026-08-10T17:51:59.837868+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
     {
-      "id": "9f7c377ed6d2",
-      "title": "MFN-Modell USA: Wie US-Arzneimittelpolitik Innovationen in Europa ausbremst - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWkw5ZTd1QUxfTlBDNjVEc0paTWpvTFpfTE9lOFM3YnhiWnBBREVhRzlMQnRmWDdkREJzVlg3UnZCN2RsTC1aTkhtN19oX2dEYmVLdXk4MXFBUnVGakk3YzVfbjZVQ0E0MUtPN2JZZ08wQ05yaTFLNER1dVYzZEo5UldOVldfQ0lCbGNRWEJZbUg0R3JBaGp6Mm1DTGd2eTYzWE9GV1hvenRGWHhOZXBxMHJMY09GUQ?oc=5",
-      "published": "2026-07-24T12:04:29+00:00",
+      "id": "191fbf0ddddb",
+      "title": "Das Gesundheitsministerium fordert eine strengere Kontrolle der traditionellen Medizin und der Arzneimittel, um gefälschte Produkte, minderwertige Medikamente und illegale Praktiken zu verhindern. - vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQQVZGR1lDQjVCQjdGbGJIOUN1b0JzX1piRVNQZU5FT1c5TktRaklORHdhWGp3MEFlSGdsQ2VhWXF3ZjB0b3B2bWpYamxuSFFocHBscjZTcHdzMm43Rlo3TmhYLTRQQzJtMV9EemlRUWROWkF0Q2U2WFZYSWVqZEdnSFFyRUN4Z3RndWFmMk1rbHRxLXZwWXpEUThIM2ZURVIzRzZuLWZEV2tDeVVwdE1tclA4SmxIeEdPVHZDV2N4MmwwVVpX?oc=5",
+      "published": "2026-08-10T16:20:25+00:00",
       "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
+        "name": "vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
-      "id": "dbb06c6a8aef",
-      "title": "Das Gesundheitsministerium hat die neuesten Vorschriften zur Registrierung von Arzneimitteln und Arzneimittelrohstoffen für den Verkehr erlassen. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOS2RsOFJuZHVmeGE5ZW5UNjkwVThObXZOWkpycFlLcFdrZ2MxYUQ5RDQ2dGpQU1FxY3oyc1J2NnpUYmNBTjdtaEU2bGt5NU1BaGp5OTFiWTdLcHJIWU5lZWU5dWFVZlYzNWdBWFJrNlo0OVo4aGwzbFY3THZpX2p5UHM4TkNUNmFzU1IwMFBqSUJNLXp2ZlFYRlg2ejhJbEVp?oc=5",
-      "published": "2026-08-10T03:38:12+00:00",
+      "id": "3619357e2a44",
+      "title": "MFN-Modell USA: Wie US-Arzneimittelpolitik Innovationen in Europa ausbremst - vfa.de",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWkw5ZTd1QUxfTlBDNjVEc0paTWpvTFpfTE9lOFM3YnhiWnBBREVhRzlMQnRmWDdkREJzVlg3UnZCN2RsTC1aTkhtN19oX2dEYmVLdXk4MXFBUnVGakk3YzVfbjZVQ0E0MUtPN2JZZ08wQ05yaTFLNER1dVYzZEo5UldOVldfQ0lCbGNRWEJZbUg0R3JBaGp6Mm1DTGd2eTYzWE9GV1hvenRGWHhOZXBxMHJMY09GUQ?oc=5",
+      "published": "2026-07-24T12:04:29+00:00",
       "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
+        "name": "vfa.de",
+        "url": "https://www.vfa.de"
       }
     },
     {
@@ -104,22 +104,12 @@
       }
     },
     {
-      "id": "9d058951bc8a",
-      "title": "Hitze kann Medikamente wirkungslos machen - WEB.DE",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNLUpfZ2ttai0tclk3MVBVR2VkR0JMRUIzY1MzOEt5X2tyWXNuQkdBRWlCbWFaWG9LZG5VNVRsQml3MS1rUlp6SDNQZERtRzJRUjJoTXJTSFZPNWJxNjNjeVpSVURiRDhBTWlRekY4QzMzSWgzYXcyOXV2VEZJTzY3U2xrenIxR2Jjd0RVM3Utc1M?oc=5",
-      "published": "2026-08-06T11:49:01+00:00",
-      "source": {
-        "name": "WEB.DE",
-        "url": "https://web.de"
-      }
-    },
-    {
-      "id": "2adb6a28ea4a",
-      "title": "Prämien: Die Pharma-Lobby hat die Schweiz im Griff - Beobachter",
+      "id": "452c00cb6c1c",
+      "title": "Prämien: Die Pharma-Lobby hat die Schweiz im Griff - beobachter.ch",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPeVFfUlJlMGVjWnNnZzlSbzhYZHAzOERyRXloakNSYW9Gby1LLXVfUGN4eVl1M24tMFdQYXAyaEw0WVBjN2l5TGFWNHhpZjRMdTJwbTNibTJ3bndicHdzSWFFMUVHdFB6YURrYVE4NU9TMktERU9OOTQtWkxVc3RTN0s3N20zWVc1a3JJ?oc=5",
       "published": "2026-08-09T10:09:58+00:00",
       "source": {
-        "name": "Beobachter",
+        "name": "beobachter.ch",
         "url": "https://www.beobachter.ch"
       }
     },
@@ -144,6 +134,16 @@
       }
     },
     {
+      "id": "4fa1a08d9282",
+      "title": "Das Gesundheitsministerium geht verstärkt gegen den Verkauf von Heilkräutern und traditionellen Arzneimitteln an Touristenzielen vor. - vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPa1BpQmpRbTJlekdWcGxlbWFZRUM4MXJnbFU4c2U4bEdUQ0k5cHFhbnRYMG96R3VUMWJLN1d0UmVhTUdadXhZMGJHWXVzQy1ZT0t4ekQ1clRzaExQZHdTZ08ya2xGeGZDbHF0OWd0VXkydnRuZWk1Tk5ISTFwWEYwekJVVjltellQc29QQi1Gdm92cGlnaU1pZGlmb21zcVMyQnpJMg?oc=5",
+      "published": "2026-08-10T16:20:25+00:00",
+      "source": {
+        "name": "vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
       "id": "38b8b0aa9188",
       "title": "Vom Wissen zum Handeln: Verbesserung der Bezahlbarkeit von Arzneimitteln in den Ländern des Westbalkans - World Health Organization (WHO)",
       "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOZlNmcEdYcXZxdDBYazhiVjRCWHVtbms0ZG5JUWlXb0lJWXVFYjV1ak1MR05oZW5FbHFMTGpyNjJxS1ZuQWk4Nl9Wc2NHdHE3YnhrQzc1VHJNbm1QRFdMVF9WVGw2NHdVeDBHajRYX1hfZkFEMTU2Z09kcU04T1c1V3dKZ09nUUlMc3dnLVdvQ3RTYUZqSDA3d1djVXpxbU9fSFUtSGlHbHNOdFJRb29RQlpTRHEzd2pCQzd5Y3VRNmcza2dzTVVlYUp5Y1U5b01kMGpQUzZvNGctWE0tSmJRSEk5TQ?oc=5",
@@ -151,6 +151,56 @@
       "source": {
         "name": "World Health Organization (WHO)",
         "url": "https://www.who.int"
+      }
+    },
+    {
+      "id": "9b26578cda77",
+      "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa.de",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
+      "published": "2026-03-31T20:25:43+00:00",
+      "source": {
+        "name": "vfa.de",
+        "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "6b3fed519642",
+      "title": "Arzneimittel bei Hitze: Wann Galenik an Grenzen stößt - gesundheit adhoc",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRjlkdmdmS1FfQUJYYktrQWZMeGRiZFVYRU9sa2kxRmN3aFg3R3pPLWhwX0ExOS04UU50RVZIME40djJIcmtSUEJiLTlPdnc2cDlGQXhaV2xwU0FQV3h1R2NOdVJjb2pKUmVBaXZrWVBJY0UydnhwUDBENExzV2dSM0lTLW9jd1J1c0lZUnh2eVM?oc=5",
+      "published": "2026-07-31T12:39:09+00:00",
+      "source": {
+        "name": "gesundheit adhoc",
+        "url": "https://www.gesundheit-adhoc.de"
+      }
+    },
+    {
+      "id": "c34b547a3f43",
+      "title": "Das Gesundheitsministerium hat die neuesten Vorschriften zur Registrierung von Arzneimitteln und Arzneimittelrohstoffen für den Verkehr erlassen. - vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOS2RsOFJuZHVmeGE5ZW5UNjkwVThObXZOWkpycFlLcFdrZ2MxYUQ5RDQ2dGpQU1FxY3oyc1J2NnpUYmNBTjdtaEU2bGt5NU1BaGp5OTFiWTdLcHJIWU5lZWU5dWFVZlYzNWdBWFJrNlo0OVo4aGwzbFY3THZpX2p5UHM4TkNUNmFzU1IwMFBqSUJNLXp2ZlFYRlg2ejhJbEVp?oc=5",
+      "published": "2026-08-10T03:38:12+00:00",
+      "source": {
+        "name": "vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
+      "id": "57f4eb4d74c0",
+      "title": "Das Management stärken und Betrug im Bereich der traditionellen Medizin und Pharmazie verhindern. - vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdGUteEFubGgyTzN5TG05Y0R6RDlaRVVyQWhucFZHdkRqbXNOVFJXNHVjMTBmaXpUc1hMUFdDZzZ2TUlDMk9tWkFfUE1yUk0wemQ2YjVONlIxVTJsX2c5ZzU5NXJFajVlZmNqVE9GVHlVZDVpdzBZOG9WU2tIOTNYSUhPanZMcEtJWDdUY21UNHFZLXJTWURYLUxB?oc=5",
+      "published": "2026-08-10T16:34:41+00:00",
+      "source": {
+        "name": "vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
+      "id": "86b855b12d91",
+      "title": "Das Gesundheitsministerium verstärkt die Kontrollen im Bereich der traditionellen Medizin und der pharmazeutischen Produkte und geht verstärkt gegen Produktfälschungen vor. - vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaXUzOWRvQ2ZEYVNyQmwzQl9TNDhGYllpZTcxZlhnZ1dOS2E1emtEVmpPcElCaWt1YkoyYzMyRWNqLUJYU0RvTnhPWTNNaFE4bEpJMERLNG9JV1lLcDJFN25BaC1JWVV6Zl9ReE5Ea3Azc3paODI2dDhQTklHaVZPRFAwRXpOMWdQNVpLbWhlZw?oc=5",
+      "published": "2026-08-10T15:55:50+00:00",
+      "source": {
+        "name": "vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -164,6 +214,16 @@
       }
     },
     {
+      "id": "940b2f28b7bb",
+      "title": "Hitze kann Medikamente wirkungslos machen - web.de",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNLUpfZ2ttai0tclk3MVBVR2VkR0JMRUIzY1MzOEt5X2tyWXNuQkdBRWlCbWFaWG9LZG5VNVRsQml3MS1rUlp6SDNQZERtRzJRUjJoTXJTSFZPNWJxNjNjeVpSVURiRDhBTWlRekY4QzMzSWgzYXcyOXV2VEZJTzY3U2xrenIxR2Jjd0RVM3Utc1M?oc=5",
+      "published": "2026-08-06T11:49:01+00:00",
+      "source": {
+        "name": "web.de",
+        "url": "https://web.de"
+      }
+    },
+    {
       "id": "a48a34dcb337",
       "title": "Opioide: Israel führt weltweit beim Pro-Kopf-Konsum - Jüdische Allgemeine",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1MZVF2WFVHNi01ZVZ4STRQeWMxTW9FN1lFYS1jdy0tRXhzcGRCazhCMWdWLWVpcHZzcEVNYUpqNE40OVgzYU1TazBoOXBEdkZtVEE3R3ZST0Y4WHJXcHNzWVdFdGx6aUJ6eWNIN3pEeFg0SnU0RWc?oc=5",
@@ -171,36 +231,6 @@
       "source": {
         "name": "Jüdische Allgemeine",
         "url": "https://www.juedische-allgemeine.de"
-      }
-    },
-    {
-      "id": "9fa13ce5acf5",
-      "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
-      "published": "2026-03-31T20:25:43+00:00",
-      "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
-      }
-    },
-    {
-      "id": "75eb10a82a59",
-      "title": "Das Gesundheitsministerium verstärkt die Kontrollen im Bereich der traditionellen Medizin und der pharmazeutischen Produkte und geht verstärkt gegen Produktfälschungen vor. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaXUzOWRvQ2ZEYVNyQmwzQl9TNDhGYllpZTcxZlhnZ1dOS2E1emtEVmpPcElCaWt1YkoyYzMyRWNqLUJYU0RvTnhPWTNNaFE4bEpJMERLNG9JV1lLcDJFN25BaC1JWVV6Zl9ReE5Ea3Azc3paODI2dDhQTklHaVZPRFAwRXpOMWdQNVpLbWhlZw?oc=5",
-      "published": "2026-08-10T15:55:50+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
-      "id": "6b3fed519642",
-      "title": "Arzneimittel bei Hitze: Wann Galenik an Grenzen stößt - gesundheit adhoc",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRjlkdmdmS1FfQUJYYktrQWZMeGRiZFVYRU9sa2kxRmN3aFg3R3pPLWhwX0ExOS04UU50RVZIME40djJIcmtSUEJiLTlPdnc2cDlGQXhaV2xwU0FQV3h1R2NOdVJjb2pKUmVBaXZrWVBJY0UydnhwUDBENExzV2dSM0lTLW9jd1J1c0lZUnh2eVM?oc=5",
-      "published": "2026-07-31T12:39:09+00:00",
-      "source": {
-        "name": "gesundheit adhoc",
-        "url": "https://www.gesundheit-adhoc.de"
       }
     },
     {
@@ -234,12 +264,12 @@
       }
     },
     {
-      "id": "3d8b2a87ab03",
-      "title": "Gesundheit - GKV-Chef: \"Mehr gegen steigende Arzneimittelpreise tun\" - deutschlandfunk.de",
+      "id": "5cfa2762dc20",
+      "title": "Gesundheit - GKV-Chef: \"Mehr gegen steigende Arzneimittelpreise tun\" - Deutschlandfunk",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdXlzU1VBOUhWa05wcTVDNnBBdHRkeDl5TnZ1S1A3T0swT2pKTjZlaU1pempxQVJkMXMySXBtd2xpaUk5WWN4Q1VyakdMbnN2eF9mRncxakUwN21WbGFQMWpuR2VoOG1tUDYtWERUbS1LSVpOdUNaTE1SWmhDSkVUdTlubVNEWGNtUXNaYk5tcTJibTRDZTJv?oc=5",
       "published": "2026-03-15T07:00:00+00:00",
       "source": {
-        "name": "deutschlandfunk.de",
+        "name": "Deutschlandfunk",
         "url": "https://www.deutschlandfunk.de"
       }
     },
@@ -284,12 +314,12 @@
       }
     },
     {
-      "id": "92c3211b6121",
-      "title": "Gesundheit - Beipackzettel von Medikamenten sollen digital werden - Ausdrucke in Apotheken sollen Option sein - deutschlandfunk.de",
+      "id": "3843ee8c2190",
+      "title": "Gesundheit - Beipackzettel von Medikamenten sollen digital werden - Ausdrucke in Apotheken sollen Option sein - Deutschlandfunk",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOclZxcXdzdDlfTXNBVkNkV1g0a1RMa05OWGcyX0RXaW5YMmpyUElhUnBJQU9QM3BzUG9iSFZnaWE0ek1iLTFQeE1wbkVhaDdrT3pVMERnT3l3VGhoOUtuS0EtT3pwazNMMGZmcmI1Z2puUHg1WWc5MzBXdHJma0l0dWNlNEhQdFdBUXF5X0V3OVRQWVA1RXFJNXJtbTVGMjNYQVlSWjNrdEttY0pQMXF0dWlwdGNUVWpFcF83a3RyX0oxSWpLaFVmc2NoVEhGNXc?oc=5",
       "published": "2026-03-12T07:00:00+00:00",
       "source": {
-        "name": "deutschlandfunk.de",
+        "name": "Deutschlandfunk",
         "url": "https://www.deutschlandfunk.de"
       }
     },
@@ -301,6 +331,16 @@
       "source": {
         "name": "openPetition",
         "url": "https://www.openpetition.de"
+      }
+    },
+    {
+      "id": "7cee44587079",
+      "title": "Klinische Studien mit Kindern: Warum sie unverzichtbar sind - Novartis",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWW9LSXhsRWJpVWVmOS1qaUVMby00UWZ5dzVmMXdickpVUEctWmlEVkRpRWNTVjlSX012RjJQclRyUWNBWEFxcGJvU1M4VGNzbzV5R2U2cUlvQThpcWRoVTVFVERaR1pRTkp0Y0FMQXBHbVN1OHNjNktjNHJOaERuQlVhMkxyVUFZbWNoYU1IVERtcUE5WklZc2tVSlZtOUF0cEpn?oc=5",
+      "published": "2026-04-07T12:44:00+00:00",
+      "source": {
+        "name": "Novartis",
+        "url": "https://www.novartis.com"
       }
     },
     {
@@ -334,16 +374,6 @@
       }
     },
     {
-      "id": "7cee44587079",
-      "title": "Klinische Studien mit Kindern: Warum sie unverzichtbar sind - Novartis",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWW9LSXhsRWJpVWVmOS1qaUVMby00UWZ5dzVmMXdickpVUEctWmlEVkRpRWNTVjlSX012RjJQclRyUWNBWEFxcGJvU1M4VGNzbzV5R2U2cUlvQThpcWRoVTVFVERaR1pRTkp0Y0FMQXBHbVN1OHNjNktjNHJOaERuQlVhMkxyVUFZbWNoYU1IVERtcUE5WklZc2tVSlZtOUF0cEpn?oc=5",
-      "published": "2026-04-07T12:44:00+00:00",
-      "source": {
-        "name": "Novartis",
-        "url": "https://www.novartis.com"
-      }
-    },
-    {
       "id": "f92665691e36",
       "title": "Gesundheit: So will die EU Engpässe bei Fiebersaft & Co. verhindern - Tagesspiegel",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcDl1WkpGU2VsQWhwUXd1WWxXSUhVN2Y3R2hTdl9GTHNxcDl2NFhUejhMXzhtOVUteVRjYmlZZDVNa0lETm9QSWNsWXB2c09CcTBqV3M2Wk5Fc0FVRlRaaDFzN1lDVTRFdl9IeXZvU2h3VjhJVGFUQ29lNmdqOUFld1dsd3ZNaVF5OFRETVFqckdoWk1udUFSQWdzMVdLQWxJd3A0eXdiVzhJR3pmY1FOeVQ0aUFxZ3BGdlpGazFn?oc=5",
@@ -364,12 +394,12 @@
       }
     },
     {
-      "id": "6e56e1c99277",
-      "title": "Onkologische Arzneimittel: Analyse der Marktsituation - vfa. Die forschenden Pharma-Unternehmen",
+      "id": "a16bae0571e1",
+      "title": "Onkologische Arzneimittel: Analyse der Marktsituation - vfa.de",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMi1WQVZnaGJPSm9GcVAzRWlGSHRDRVg2MXhXMTJUenNuQUpRcElfbjBDZVp3Y3Z1UUNzNm5PSUY0eVdXMWcyQ3J0WkUxSjVSY0xxWFJ5X0lJc3Y1VExsallLS24xQUxyUVMyTDdsWUtnTThIZjc2TWZsdGpWMlMxUDVfXzVmeXZNdlhwZGNWb0VXbFZnVEVYOFVHSmxtUjBFVEU2alRzVlpCMlJ4?oc=5",
       "published": "2026-03-25T12:43:53+00:00",
       "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "name": "vfa.de",
         "url": "https://www.vfa.de"
       }
     },
@@ -484,32 +514,32 @@
       }
     },
     {
-      "id": "ccc37dea8549",
-      "title": "Arzneimittel: Nutzen für Gesundheit, Lebensqualität und Wirtschaft - vfa. Die forschenden Pharma-Unternehmen",
+      "id": "0d857974f2b7",
+      "title": "Arzneimittel: Nutzen für Gesundheit, Lebensqualität und Wirtschaft - vfa.de",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUUlobHJUaWg5MGJ5NW1VNVRFZ1pWdHZCbzRHX0s1eTNEUXc3V05tckRCaG96ZEFGZ3dCMVVmdUN4MXdKRmZwQVFtR29rQmxCQkRybko4ZUczdWJURnI3TF9VLVhBZEdrUk51aXp4aE14YkJ6M3JpdlBteWFoSllaR3ZBemJ4NW9TSEtCNms2SkM0b2lyYkhFdkZtUFpTTUs0OWlsb05HZnlKWThCUGUwbWRB?oc=5",
       "published": "2025-09-26T07:00:00+00:00",
       "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "name": "vfa.de",
         "url": "https://www.vfa.de"
       }
     },
     {
-      "id": "95eca875d866",
-      "title": "Gesundheit - Techniker Krankenkasse fordert geringere Medikamentenpreise - deutschlandfunk.de",
+      "id": "39655c0e5aa9",
+      "title": "Gesundheit - Techniker Krankenkasse fordert geringere Medikamentenpreise - Deutschlandfunk",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOX3NDaWYzNk9TdlEwcHJfWDNzMFpsdFN5aUNwNHJTZjhocklJMURaWDlKdWdDR21aNHpwcDU5UGd6d285RXE0QUlvekdsd3VqMTdGazRKbFdRV0VLbVoxbzBNbXVJeElpcFJKTmxpTzAwcFhJZG5PSlhoQW1sTlUxaGNDTUttWmEwdEVMOHpMQWNYWmFmUkhRa2UzVzR2VVFP?oc=5",
       "published": "2026-01-15T08:00:00+00:00",
       "source": {
-        "name": "deutschlandfunk.de",
+        "name": "Deutschlandfunk",
         "url": "https://www.deutschlandfunk.de"
       }
     },
     {
-      "id": "b9ad4c3ee28b",
-      "title": "App \"MedAssist sicher für zwei\" - Saarland.de",
+      "id": "4bf4db7a6b88",
+      "title": "App \"MedAssist sicher für zwei\" - saarland.de",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMllLZjQwdVNkTzE5YndaZHJjUmlUeGsta0QtUXllM3YzUEY0NnN2endjZTBmblJydVIzZUdwb2tTTGxIMUZkYlpHckVsV2YzNFh5X3BiZDBpT0tJMFRzajBNbjdXY3d1Zzl4SDNkb01lWEhSTmMxemVVNjdJRTJ4WGFZbGM5TGhiSlBTZjJMR2FfZlpRVFBtVi1jbGszcWEzRmF6Z3RmcHJ6N2s5VzVIVXBNZVNEVllwOURZVTJvNA?oc=5",
       "published": "2025-12-04T08:00:00+00:00",
       "source": {
-        "name": "Saarland.de",
+        "name": "saarland.de",
         "url": "https://www.saarland.de"
       }
     },
@@ -694,13 +724,13 @@
       }
     },
     {
-      "id": "8c6176b8d248",
-      "title": "Gesundheit: Zahl der Apotheken auf niedrigstem Stand seit fast 50 Jahren - WiWo",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOeHJGQWl1Uy1VZmpEb0ItN0xnZzZBQkFRQjU1WDBEdjBrcHZOaVZyc2V6SXJCSE5zNW1tUlZPLWtvVVpTZmF0eExibVdZYS0xcExpU0pPV1dIVDhhdGk1RXNBT0E0cGlZZkJjUGw3ZElOU1pRRndSZGlYeG8yYUZRYW1kQ1dOMDVHS21qRzFsUHBoUVJPRHdFNlRfM1ZEQjYwSDZRWmNhNEFIT2JWcWZRbVhrUUVBMFFCMXdkMUVyY2tDejNIUGt5eXJBS0s?oc=5",
-      "published": "2026-05-05T07:00:00+00:00",
+      "id": "7d876f76990e",
+      "title": "Arzneimittel-Ratschlag durch ChatGPT landet vor Gericht - Deutsche Apotheker Zeitung, DAZ",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOb2R6cDZTSjF3cDJfUW1NOERXRnRaN0hhbWJrU2hLMjMtZ0V1VjhyOHdJNllIaFlfZlM3TDhZNGVzYVkzNlFkSk5rR0NGMnJSQVlaOGdCa1o3Ty1HRjgxTy11M2NaSHE4SFBVM1FhNjZDb0VUNmVHcERnWXRqMXRxRkZUc0NjMEdKaFdabVU3UUpubE5rU1czTWtpVVpIQUZiMUJKUHlkcE1Jcks3bl9CSWg1Qm1UVnhLN2xhdDhn?oc=5",
+      "published": "2026-05-19T07:00:00+00:00",
       "source": {
-        "name": "WiWo",
-        "url": "https://www.wiwo.de"
+        "name": "Deutsche Apotheker Zeitung, DAZ",
+        "url": "https://www.deutsche-apotheker-zeitung.de"
       }
     },
     {
@@ -711,6 +741,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "8c6176b8d248",
+      "title": "Gesundheit: Zahl der Apotheken auf niedrigstem Stand seit fast 50 Jahren - WiWo",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOeHJGQWl1Uy1VZmpEb0ItN0xnZzZBQkFRQjU1WDBEdjBrcHZOaVZyc2V6SXJCSE5zNW1tUlZPLWtvVVpTZmF0eExibVdZYS0xcExpU0pPV1dIVDhhdGk1RXNBT0E0cGlZZkJjUGw3ZElOU1pRRndSZGlYeG8yYUZRYW1kQ1dOMDVHS21qRzFsUHBoUVJPRHdFNlRfM1ZEQjYwSDZRWmNhNEFIT2JWcWZRbVhrUUVBMFFCMXdkMUVyY2tDejNIUGt5eXJBS0s?oc=5",
+      "published": "2026-05-05T07:00:00+00:00",
+      "source": {
+        "name": "WiWo",
+        "url": "https://www.wiwo.de"
       }
     },
     {
@@ -734,16 +774,6 @@
       }
     },
     {
-      "id": "7d876f76990e",
-      "title": "Arzneimittel-Ratschlag durch ChatGPT landet vor Gericht - Deutsche Apotheker Zeitung, DAZ",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOb2R6cDZTSjF3cDJfUW1NOERXRnRaN0hhbWJrU2hLMjMtZ0V1VjhyOHdJNllIaFlfZlM3TDhZNGVzYVkzNlFkSk5rR0NGMnJSQVlaOGdCa1o3Ty1HRjgxTy11M2NaSHE4SFBVM1FhNjZDb0VUNmVHcERnWXRqMXRxRkZUc0NjMEdKaFdabVU3UUpubE5rU1czTWtpVVpIQUZiMUJKUHlkcE1Jcks3bl9CSWg1Qm1UVnhLN2xhdDhn?oc=5",
-      "published": "2026-05-19T07:00:00+00:00",
-      "source": {
-        "name": "Deutsche Apotheker Zeitung, DAZ",
-        "url": "https://www.deutsche-apotheker-zeitung.de"
-      }
-    },
-    {
       "id": "f992ed6033b4",
       "title": "Kassen zur Notfallreform: Arzneimittel am Abgabeautomaten - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQnRNallHTEprd203OEY3V3k3aVlYV18yMzVLNHltVUhFNFNIQUtoVnYwNjU0V0ZTUG93TkIyd0NQdnN5Uzg5LW1aQVBxZHQzNzJpeUNGalVxZGlTcUZ0dlgxSk5HR3ZtTElzVEVGc2FKMTNlcHlCbGRtY3pnOEZyMmx4Nms?oc=5",
@@ -754,12 +784,12 @@
       }
     },
     {
-      "id": "a54a884d55a6",
-      "title": "Noch in diesem Jahr: Rossmann will Medikamente liefern - WEB.DE",
+      "id": "f4e345c01f5e",
+      "title": "Noch in diesem Jahr: Rossmann will Medikamente liefern - web.de",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZzVIdE80VXRILUdTZTlsLTQwMHlHX1FMSjhsUGppeGJjNERCQkdLeDJwNnp6UUZTWWNmTW0xaUVZaGhHS1ZXSWV2TUZLbzNLdVVuei11TDZ4VVlQNU1CQUVuRTM0RHV3S3pYcnM3UThsNDhsaWFicE5ET0Noek1mcTFWbw?oc=5",
       "published": "2026-07-10T07:00:00+00:00",
       "source": {
-        "name": "WEB.DE",
+        "name": "web.de",
         "url": "https://web.de"
       }
     },
@@ -794,12 +824,12 @@
       }
     },
     {
-      "id": "7a99adaec5c0",
-      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - Geo.de",
+      "id": "47afc2884d76",
+      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - geo.de",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
       "published": "2026-06-19T07:00:00+00:00",
       "source": {
-        "name": "Geo.de",
+        "name": "geo.de",
         "url": "https://www.geo.de"
       }
     },
@@ -824,12 +854,12 @@
       }
     },
     {
-      "id": "c1eec9546c3c",
-      "title": "Arzneimittel als Zukunftsinvestition - vfa. Die forschenden Pharma-Unternehmen",
+      "id": "9c28bbef6685",
+      "title": "Arzneimittel als Zukunftsinvestition - vfa.de",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNek45Q0xRLXZlc1ZnTDBKcHk2cUFnMkllakFtcDJzXzU2bVh5WnBMYVhBWTNoMll4Y0FmVTlfeF9kYlIxQ25OUHdJX3VpSEVCNnBJaWIzZFljQmlEeVp2Q2R3cFRXWERWd3BORmh6OF9TeWNick9Ua0dZdWMtdDlLR3FGV3o?oc=5",
       "published": "2025-09-22T07:00:00+00:00",
       "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "name": "vfa.de",
         "url": "https://www.vfa.de"
       }
     },
@@ -924,12 +954,12 @@
       }
     },
     {
-      "id": "f85c5e0fdb0a",
-      "title": "AstraZeneca erwägt Medikamenten-Stopp in Deutschland: Konzernchef kritisiert Sparpläne der Regierung scharf - businessinsider.de",
+      "id": "dbab4bead913",
+      "title": "AstraZeneca erwägt Medikamenten-Stopp in Deutschland: Konzernchef kritisiert Sparpläne der Regierung scharf - Business Insider Deutschland",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPb1F4ZlVIUm83b0gtQTg0MU5WeHR1eUNPcmJBaFV4aGgwbjg2VlNUQ2F1RmVKeC1fTFFGbWIwYmFackw0Skg0Z1RMMDhfbEFnU2lMTURULVZHbVVoY1AxdkxINi1wQkFubExyeE1GLVZ3SVNiUnBXVTFUWXFTZlpTM0JzZnhqUF9lNU1pbjZ1bkxNZ1pQLUt1bC15eTJ0X0NUNWdQLWlRandzRkNtNURCRlptUjFybk93RXc?oc=5",
       "published": "2026-04-21T07:00:00+00:00",
       "source": {
-        "name": "businessinsider.de",
+        "name": "Business Insider Deutschland",
         "url": "https://www.businessinsider.de"
       }
     },
@@ -971,36 +1001,6 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
-      "id": "8d1fc40266cd",
-      "title": "2025: Höchster Stand von Aufnahmen neuer Medikamente in die Spezialitätenliste - Bundesamt für Gesundheit BAG",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1HMEFNZWpPYzRReWJNTkhGRk11RnNpblJQVjNEdE1ISllXWlNUWk4yZFpWclRTOUl0M3ZJTXhSNmpMdEtuVkVWVnV3aEJXdWxld0l3dUVkdGszYnVuNEFxbldsSXNJamc?oc=5",
-      "published": "2026-01-30T08:00:00+00:00",
-      "source": {
-        "name": "Bundesamt für Gesundheit BAG",
-        "url": "https://www.bag.admin.ch"
-      }
-    },
-    {
-      "id": "091a002ed2d2",
-      "title": "Arzneimittelengpässe: Rechnungshof sieht Risiko für Medikamentenengpässe in der EU - DIE ZEIT",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNejgweWNVRGltRU1FaUMtRF92NTF6czFQUGltbGp3TG9DM09seC1BSlM2eHgwaXNQaGl6R0hvWm9FdzRsbEZNVW4wUV9GM3p2eGtWeUUxQzBCbFNibE5MaFM2YTh3OG5UeHFwdV9oOHgzbUdUS2FYOUJyVmtaZzlLR2VkOV9mRklPSFlXZ2llR3Z6RG5Ra19uR2dpWEM?oc=5",
-      "published": "2025-09-17T07:00:00+00:00",
-      "source": {
-        "name": "DIE ZEIT",
-        "url": "https://www.zeit.de"
-      }
-    },
-    {
-      "id": "445f92c7e54b",
-      "title": "Wundermittel oder Wahnsinn? Der riskante Hype um Methylenblau - NDR.de",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZjdVekdjMzQzUFRaQlJaZW5GM3l0bmZFay1iTWxoVXpOLWFfTkVQejhNU1FwSTR6Q1RETXRFYm56enYwNm8tZXBXZlRmb0JKalI4REI2dEVNcUh6NHhMMDBlTkNkOXRaTU1hS2ZXNWZhVnk3TUthaFpuTFh2c3NtVUNmcUtYc290bFI1MERTaDFjaXNNcDFpczNjX004TUV4MjBjdWFhM2F1dXF4bktZQWtvS0hGUHM?oc=5",
-      "published": "2025-09-16T07:00:00+00:00",
-      "source": {
-        "name": "NDR.de",
-        "url": "https://www.ndr.de"
       }
     }
   ]
