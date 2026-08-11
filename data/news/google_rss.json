@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-11T07:09:05.922153+00:00",
+  "fetched_at": "2026-08-11T08:57:51.657172+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -14,23 +14,33 @@
       }
     },
     {
-      "id": "b758b6d6f57c",
-      "title": "Todesfälle nach Abnehmspritzen Patientenberichte deuten auf schwere Nebenwirkungen hin - tagesspiegel.de",
+      "id": "8e8b0f9c0c20",
+      "title": "Todesfälle nach Abnehmspritzen Patientenberichte deuten auf schwere Nebenwirkungen hin - Tagesspiegel",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVlFWUE5GdDBTLTZSamp1eTdqcUU0b2plcXd5bzd1SnVhU3JXbXl3Q0tveE1TYmRIT2VINWtKbFFkdDFEakx1Qng3WmUzZVc0QXAzV0t3dXJLc2ZsNFltakt5MnpkdkhqeTFHMjY2R01NdGRJdURqWDBTV2k2RTJRdnFFQWtWdVBRdTRxSWNXbi1DVmhFSnRiUWM2WV9PbnFhWUp5bUhxZEdoVk5JWHF6anFxd0hsNzBrcFlCM2gzRjVMd282Q0QzNzZDZ2pDOW9FaUxXMzFn?oc=5",
       "published": "2026-08-11T04:57:00+00:00",
       "source": {
-        "name": "tagesspiegel.de",
+        "name": "Tagesspiegel",
         "url": "https://www.tagesspiegel.de"
       }
     },
     {
-      "id": "191fbf0ddddb",
-      "title": "Das Gesundheitsministerium fordert eine strengere Kontrolle der traditionellen Medizin und der Arzneimittel, um gefälschte Produkte, minderwertige Medikamente und illegale Praktiken zu verhindern. - vietnam.vn",
+      "id": "2a10e3a89b81",
+      "title": "Das Gesundheitsministerium fordert eine strengere Kontrolle der traditionellen Medizin und der Arzneimittel, um gefälschte Produkte, minderwertige Medikamente und illegale Praktiken zu verhindern. - Vietnam.vn",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQQVZGR1lDQjVCQjdGbGJIOUN1b0JzX1piRVNQZU5FT1c5TktRaklORHdhWGp3MEFlSGdsQ2VhWXF3ZjB0b3B2bWpYamxuSFFocHBscjZTcHdzMm43Rlo3TmhYLTRQQzJtMV9EemlRUWROWkF0Q2U2WFZYSWVqZEdnSFFyRUN4Z3RndWFmMk1rbHRxLXZwWXpEUThIM2ZURVIzRzZuLWZEV2tDeVVwdE1tclA4SmxIeEdPVHZDV2N4MmwwVVpX?oc=5",
       "published": "2026-08-10T16:20:25+00:00",
       "source": {
-        "name": "vietnam.vn",
+        "name": "Vietnam.vn",
         "url": "https://www.vietnam.vn"
+      }
+    },
+    {
+      "id": "238656b84d1e",
+      "title": "Abnehmen ohne Stress mit Ozempic und Mounjaro? Das müssen Sie über Abnehmspritzen wissen - T-Online",
+      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQdjZGMlJidzlSZkxHNEZmeU5jTU5GUWQtU1N4cmJlWlgtTEI4NDlOdlFtTlhEQW9FTG12OXpCd2hvZU9Lcm5TQzdlcmx0TkZSWU9rTnhnaU9Bd1YzMU5uSU0ycDVqa0FVYXBrWXBGZlU1OTVtWHgtTnRkMUg3dU5LQkdoUlZ0Y3VoMFhZUHJLM0tkcUVtaTRtakl6ZlhaVnlGWHBWVllBRWtscnhTSXljTUZ3a2VpaUFUc1VwZ3VtTmtoSG53MnN2V3VuWDMyNEtkUmFPeFNFbkljbnkwRXNMZzZwa05SeTJfZU5NajVKY0xlQV9U?oc=5",
+      "published": "2026-08-11T08:17:00+00:00",
+      "source": {
+        "name": "T-Online",
+        "url": "https://www.t-online.de"
       }
     },
     {
@@ -84,12 +94,12 @@
       }
     },
     {
-      "id": "29f397942ed6",
-      "title": "Online-Apotheken: Shopping mit Wechselwirkungen? - Presseportal",
+      "id": "47d8610c16f3",
+      "title": "Online-Apotheken: Shopping mit Wechselwirkungen? - presseportal.de",
       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9uWHRCTmxFRFhsTEpNcEoxTk1nUFBPZE5LMGFILXFMRXhYUWNmUTdXenJEdWRxUVRSN3RjNlc2NUp4TDlwX2J4ZlBtZi1PNm1VeWpMd2MyY1k?oc=5",
       "published": "2026-08-06T05:15:14+00:00",
       "source": {
-        "name": "Presseportal",
+        "name": "presseportal.de",
         "url": "https://www.presseportal.de"
       }
     },
@@ -104,12 +114,12 @@
       }
     },
     {
-      "id": "91d9d479bbed",
-      "title": "Gesundheitsgefahr durch gefälschte Arzneimittel - gesundheit.gv.at",
+      "id": "51e8c4b74840",
+      "title": "Gesundheitsgefahr durch gefälschte Arzneimittel - Gesundheit.gv.at",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYlhNa1drQ3UydVU1Ti1QZWxOelZ2UDNkQTBsczZ4SzVIZGhQS3psTVQ5Zmw2Ujh2RGpDYzZ5TDdIbG5mYkFjRl9CX3JkS0FHQ2dlSGVZMlpRTmpva0xOX3hoTWhTM3VoZlB6bjJYbjRRcGp2NERXZmhoaEtyeGJhUDlSU0k0cURLRzNIc1FR?oc=5",
       "published": "2026-03-09T07:00:00+00:00",
       "source": {
-        "name": "gesundheit.gv.at",
+        "name": "Gesundheit.gv.at",
         "url": "https://www.gesundheit.gv.at"
       }
     },
@@ -124,16 +134,6 @@
       }
     },
     {
-      "id": "e198bcd85fa9",
-      "title": "Die neue Abnehmpille: Wer von ihr profitiert und welche Risiken sie birgt - NDR.de",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTGNabm9fNF9IS0JmYndYUFpUZXJqYnJxOXlWWk9LVk5Uc3FQYUZzaFJkVFRLZXdPUnBqSUVfbTFETmJueXpTUU1xLUw0NEZJRVUtVnc0N0RlZzlkdERkSjd1UWIzWG05R09CM1Y4V1lqY2VWUmNrS1BXUkdnOG9PMzJaTkZTa3hMLW1sSzJOUGFsY20yd3pNUE12Nk4tYVctOVF3NTVXRVp3cjNm?oc=5",
-      "published": "2026-08-05T07:00:00+00:00",
-      "source": {
-        "name": "NDR.de",
-        "url": "https://www.ndr.de"
-      }
-    },
-    {
       "id": "38b8b0aa9188",
       "title": "Vom Wissen zum Handeln: Verbesserung der Bezahlbarkeit von Arzneimitteln in den Ländern des Westbalkans - World Health Organization (WHO)",
       "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOZlNmcEdYcXZxdDBYazhiVjRCWHVtbms0ZG5JUWlXb0lJWXVFYjV1ak1MR05oZW5FbHFMTGpyNjJxS1ZuQWk4Nl9Wc2NHdHE3YnhrQzc1VHJNbm1QRFdMVF9WVGw2NHdVeDBHajRYX1hfZkFEMTU2Z09kcU04T1c1V3dKZ09nUUlMc3dnLVdvQ3RTYUZqSDA3d1djVXpxbU9fSFUtSGlHbHNOdFJRb29RQlpTRHEzd2pCQzd5Y3VRNmcza2dzTVVlYUp5Y1U5b01kMGpQUzZvNGctWE0tSmJRSEk5TQ?oc=5",
@@ -144,12 +144,12 @@
       }
     },
     {
-      "id": "4fa1a08d9282",
-      "title": "Das Gesundheitsministerium geht verstärkt gegen den Verkauf von Heilkräutern und traditionellen Arzneimitteln an Touristenzielen vor. - vietnam.vn",
+      "id": "1398980e2dd5",
+      "title": "Das Gesundheitsministerium geht verstärkt gegen den Verkauf von Heilkräutern und traditionellen Arzneimitteln an Touristenzielen vor. - Vietnam.vn",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPa1BpQmpRbTJlekdWcGxlbWFZRUM4MXJnbFU4c2U4bEdUQ0k5cHFhbnRYMG96R3VUMWJLN1d0UmVhTUdadXhZMGJHWXVzQy1ZT0t4ekQ1clRzaExQZHdTZ08ya2xGeGZDbHF0OWd0VXkydnRuZWk1Tk5ISTFwWEYwekJVVjltellQc29QQi1Gdm92cGlnaU1pZGlmb21zcVMyQnpJMg?oc=5",
       "published": "2026-08-10T16:20:25+00:00",
       "source": {
-        "name": "vietnam.vn",
+        "name": "Vietnam.vn",
         "url": "https://www.vietnam.vn"
       }
     },
@@ -174,36 +174,6 @@
       }
     },
     {
-      "id": "c34b547a3f43",
-      "title": "Das Gesundheitsministerium hat die neuesten Vorschriften zur Registrierung von Arzneimitteln und Arzneimittelrohstoffen für den Verkehr erlassen. - vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOS2RsOFJuZHVmeGE5ZW5UNjkwVThObXZOWkpycFlLcFdrZ2MxYUQ5RDQ2dGpQU1FxY3oyc1J2NnpUYmNBTjdtaEU2bGt5NU1BaGp5OTFiWTdLcHJIWU5lZWU5dWFVZlYzNWdBWFJrNlo0OVo4aGwzbFY3THZpX2p5UHM4TkNUNmFzU1IwMFBqSUJNLXp2ZlFYRlg2ejhJbEVp?oc=5",
-      "published": "2026-08-10T03:38:12+00:00",
-      "source": {
-        "name": "vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
-      "id": "57f4eb4d74c0",
-      "title": "Das Management stärken und Betrug im Bereich der traditionellen Medizin und Pharmazie verhindern. - vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdGUteEFubGgyTzN5TG05Y0R6RDlaRVVyQWhucFZHdkRqbXNOVFJXNHVjMTBmaXpUc1hMUFdDZzZ2TUlDMk9tWkFfUE1yUk0wemQ2YjVONlIxVTJsX2c5ZzU5NXJFajVlZmNqVE9GVHlVZDVpdzBZOG9WU2tIOTNYSUhPanZMcEtJWDdUY21UNHFZLXJTWURYLUxB?oc=5",
-      "published": "2026-08-10T16:34:41+00:00",
-      "source": {
-        "name": "vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
-      "id": "86b855b12d91",
-      "title": "Das Gesundheitsministerium verstärkt die Kontrollen im Bereich der traditionellen Medizin und der pharmazeutischen Produkte und geht verstärkt gegen Produktfälschungen vor. - vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaXUzOWRvQ2ZEYVNyQmwzQl9TNDhGYllpZTcxZlhnZ1dOS2E1emtEVmpPcElCaWt1YkoyYzMyRWNqLUJYU0RvTnhPWTNNaFE4bEpJMERLNG9JV1lLcDJFN25BaC1JWVV6Zl9ReE5Ea3Azc3paODI2dDhQTklHaVZPRFAwRXpOMWdQNVpLbWhlZw?oc=5",
-      "published": "2026-08-10T15:55:50+00:00",
-      "source": {
-        "name": "vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "f09134f3b440",
       "title": "Abnehmtablette kommt nach Deutschland – doch diese Risiken kennen viele nicht - T-Online",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMXB5WUxjRXFRbXh2ck5PWEd3Tzk3VHc4X2dwRWZ3UGdnZFR5RklnTy1VOWl5SGRGMm05RE5wN2cyZEpIaUt6eVB6cXhpNFliWnhtcGFXR1hyVUlEQnZEaGtubVk0SlZHNUxISmZPbmJ2Tng5RXYtVVdndWdlcm1PTy1tUG95cXVibTE3ZjNwSGVqZHlhRUc5bHJHdEpYbl9fRUg0d05IeFBIeUtDQnRQX2NnQVVVYkND?oc=5",
@@ -211,6 +181,36 @@
       "source": {
         "name": "T-Online",
         "url": "https://www.t-online.de"
+      }
+    },
+    {
+      "id": "60e354bf1e53",
+      "title": "Das Management stärken und Betrug im Bereich der traditionellen Medizin und Pharmazie verhindern. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdGUteEFubGgyTzN5TG05Y0R6RDlaRVVyQWhucFZHdkRqbXNOVFJXNHVjMTBmaXpUc1hMUFdDZzZ2TUlDMk9tWkFfUE1yUk0wemQ2YjVONlIxVTJsX2c5ZzU5NXJFajVlZmNqVE9GVHlVZDVpdzBZOG9WU2tIOTNYSUhPanZMcEtJWDdUY21UNHFZLXJTWURYLUxB?oc=5",
+      "published": "2026-08-10T16:34:41+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
+      "id": "75eb10a82a59",
+      "title": "Das Gesundheitsministerium verstärkt die Kontrollen im Bereich der traditionellen Medizin und der pharmazeutischen Produkte und geht verstärkt gegen Produktfälschungen vor. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaXUzOWRvQ2ZEYVNyQmwzQl9TNDhGYllpZTcxZlhnZ1dOS2E1emtEVmpPcElCaWt1YkoyYzMyRWNqLUJYU0RvTnhPWTNNaFE4bEpJMERLNG9JV1lLcDJFN25BaC1JWVV6Zl9ReE5Ea3Azc3paODI2dDhQTklHaVZPRFAwRXpOMWdQNVpLbWhlZw?oc=5",
+      "published": "2026-08-10T15:55:50+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
+      "id": "e198bcd85fa9",
+      "title": "Die neue Abnehmpille: Wer von ihr profitiert und welche Risiken sie birgt - NDR.de",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTGNabm9fNF9IS0JmYndYUFpUZXJqYnJxOXlWWk9LVk5Uc3FQYUZzaFJkVFRLZXdPUnBqSUVfbTFETmJueXpTUU1xLUw0NEZJRVUtVnc0N0RlZzlkdERkSjd1UWIzWG05R09CM1Y4V1lqY2VWUmNrS1BXUkdnOG9PMzJaTkZTa3hMLW1sSzJOUGFsY20yd3pNUE12Nk4tYVctOVF3NTVXRVp3cjNm?oc=5",
+      "published": "2026-08-05T07:00:00+00:00",
+      "source": {
+        "name": "NDR.de",
+        "url": "https://www.ndr.de"
       }
     },
     {
@@ -264,12 +264,12 @@
       }
     },
     {
-      "id": "33612beccf51",
-      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - DW",
+      "id": "8db31424e5bb",
+      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - dw.com",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGxHSlhmSS0tbUNKdG15NEVzRzYzYllEUnAzUEU3ak53czRHVWlKdTZrRGFDMk1MUThPUjdPTnBGVENqd3d2Q1VSdWhJVXppWDF4NWh0aEJJaXJlVTlnV0VoZVFkRHNSM3p6NVZXNjNwWHk5YkxSUWR2RGZKcmp3Y2U5REY0U3dRZFJLeHFtQk9wb2Y3RUVOaVBlMlJhZ29Rck000gGjAUFVX3lxTE1rTW00WXFBajZxbTJOS1NLckhVbXFBSzh1NE96QTEydTN1YjZnaFFNcV8xblZGM29hdTZQUHc4V3YzQ1pwcTlaVVBhZDVqMExLMTlYVzZ6TmM4ZUdsUm5TLXpPNmk1R3V4UktvaV93cWttNFpVX0VEZlZnUllSQkhyUlZmeTBJcU0zUEVSZTgxdzFWUnFNRk9CYVljN0Jhd0ZXUFk?oc=5",
       "published": "2026-05-12T07:00:00+00:00",
       "source": {
-        "name": "DW",
+        "name": "dw.com",
         "url": "https://www.dw.com"
       }
     },
@@ -294,12 +294,12 @@
       }
     },
     {
-      "id": "e55e30521cda",
-      "title": "Vorschläge der FinanzKommission Gesundheit für eine Reform der GKV - Taylor Wessing",
+      "id": "e4a1f4d609dd",
+      "title": "Vorschläge der FinanzKommission Gesundheit für eine Reform der GKV - taylorwessing.com",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQVJuN0Fwenp0QU9hM01mSTRlR1ZxUzBfaExuWkRPSVIxQTBmb21HMGJ3Umd1b2Q5NjlpTkZWdnlsWU5RdG4tYmV2YWlldnhEREpzVmdLaURVbVpCR2pFRDY5Z1d6VW53bGtvaGgwTkRMeFMzeWI5WDJNd2ZXdTl4WkJTRURfbEstNXlJaXdzNGlwQTF5dHJ2Mjg1bFlJTW1SajFpM3VpMEtDdXZuNWplY3NnTQ?oc=5",
       "published": "2026-05-04T09:31:59+00:00",
       "source": {
-        "name": "Taylor Wessing",
+        "name": "taylorwessing.com",
         "url": "https://www.taylorwessing.com"
       }
     },
@@ -324,16 +324,6 @@
       }
     },
     {
-      "id": "41931bf7bd8b",
-      "title": "Anpassung der Medikation bei Hitzewellen: Praktische Tipps für Ärzte - AerzteZeitung.de",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPclZTWVhOY1FoLV9hX0VOaGF2bUhHbmJ1Qlc2Wk9xaDh4eHZHU0I2NEZ6N3g0aEVwNnQ0elZaOTRTckt1Qm93VTBIZEtIOGVfelBXQkgyUWJpSnJWV1JTYUhBSlIxd2V1aG5XM0g4b2RHY21leG51cmlLNWFpeTR1NHlNdzl1YmRmOE90ZVdDWDN5QlZyR1NCNGVXNU96d3VKczRIbkJWTHlTckV6ZTZIbVl3?oc=5",
-      "published": "2026-08-08T03:23:00+00:00",
-      "source": {
-        "name": "AerzteZeitung.de",
-        "url": "https://www.aerztezeitung.de"
-      }
-    },
-    {
       "id": "bb553491699c",
       "title": "Abschaffung der Mehrwertsteuer auf Arzneimittel - openPetition",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQR2ZyOGpub3o3YjR6WktVOXowVW5aMmNRcUZnRHQteUNLdVdiWFpMSHpndXJ0ajFhSmNTQXk1LVptMF9BUHlMeGRSb2dJalBRVjkxbGE4eWhObTFsT1gzVUtGblkxNDhVMlR2b2JYb1NWSGJqd2k1bGwxODhLVFh3aVdwY3pNNV81VDk0ZkxEbmVlSXdZY2c?oc=5",
@@ -341,6 +331,16 @@
       "source": {
         "name": "openPetition",
         "url": "https://www.openpetition.de"
+      }
+    },
+    {
+      "id": "41931bf7bd8b",
+      "title": "Anpassung der Medikation bei Hitzewellen: Praktische Tipps für Ärzte - AerzteZeitung.de",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPclZTWVhOY1FoLV9hX0VOaGF2bUhHbmJ1Qlc2Wk9xaDh4eHZHU0I2NEZ6N3g0aEVwNnQ0elZaOTRTckt1Qm93VTBIZEtIOGVfelBXQkgyUWJpSnJWV1JTYUhBSlIxd2V1aG5XM0g4b2RHY21leG51cmlLNWFpeTR1NHlNdzl1YmRmOE90ZVdDWDN5QlZyR1NCNGVXNU96d3VKczRIbkJWTHlTckV6ZTZIbVl3?oc=5",
+      "published": "2026-08-08T03:23:00+00:00",
+      "source": {
+        "name": "AerzteZeitung.de",
+        "url": "https://www.aerztezeitung.de"
       }
     },
     {
@@ -384,12 +384,12 @@
       }
     },
     {
-      "id": "877ce8f34648",
-      "title": "Gesundheit: So will die EU Engpässe bei Fiebersaft & Co. verhindern - tagesspiegel.de",
+      "id": "f92665691e36",
+      "title": "Gesundheit: So will die EU Engpässe bei Fiebersaft & Co. verhindern - Tagesspiegel",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcDl1WkpGU2VsQWhwUXd1WWxXSUhVN2Y3R2hTdl9GTHNxcDl2NFhUejhMXzhtOVUteVRjYmlZZDVNa0lETm9QSWNsWXB2c09CcTBqV3M2Wk5Fc0FVRlRaaDFzN1lDVTRFdl9IeXZvU2h3VjhJVGFUQ29lNmdqOUFld1dsd3ZNaVF5OFRETVFqckdoWk1udUFSQWdzMVdLQWxJd3A0eXdiVzhJR3pmY1FOeVQ0aUFxZ3BGdlpGazFn?oc=5",
       "published": "2026-05-12T07:00:00+00:00",
       "source": {
-        "name": "tagesspiegel.de",
+        "name": "Tagesspiegel",
         "url": "https://www.tagesspiegel.de"
       }
     },
@@ -684,12 +684,12 @@
       }
     },
     {
-      "id": "b027289bf54f",
-      "title": "EU-Generalanwalt: Versandverbot nein, aber ... - apotheke adhoc",
+      "id": "03505c881614",
+      "title": "EU-Generalanwalt: Versandverbot nein, aber ... - Apotheke Adhoc",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaGRRUFJ5MDV6WGZaTE84UlB3SU83OElpQ2dBVXJTMFRLWWFlSmN0alJ0eS1ZdF9zN09MZUhESFJDd2J1TVNQeHZRQ1ZLMVNtMC1OSm9DV01oVXhWVzRtOENHbUpnRE10akgwUnRyRmkzckZ1UFhIb05aM1ZLcVN1WkFKRUVRd3VaaWpZVUdraVRVdUtER2tIc1FjTWFqS3VIY0IzeERfWnJ4UQ?oc=5",
       "published": "2026-01-13T08:00:00+00:00",
       "source": {
-        "name": "apotheke adhoc",
+        "name": "Apotheke Adhoc",
         "url": "https://www.apotheke-adhoc.de"
       }
     },
@@ -704,12 +704,12 @@
       }
     },
     {
-      "id": "1362a25951f0",
-      "title": "Gesundheit aus dem Infusionsbeutel? Darum gibt es Warnungen vor Drip-Spa-Infusionen - WDR",
+      "id": "f17336b12f12",
+      "title": "Gesundheit aus dem Infusionsbeutel? Darum gibt es Warnungen vor Drip-Spa-Infusionen - wdr.de",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQVJfdGdlV1hMbHZtblVuLXZCMGQtTmhvNjF0a2tVRnkxUUtJVk51aWNJb3FpM3BlcVZiSzFYbnRMc1ZyZ1hxM1dxYkhLVm1wZGwwcTBXZEhQUGJNT2dnNWVNMWoycWo5Nk9JeTF1cUdSRThwNm5nZ0JJSnhhc2tGVlBSMVRGR2wzU2VKbGoxRnc?oc=5",
       "published": "2026-05-18T07:00:00+00:00",
       "source": {
-        "name": "WDR",
+        "name": "wdr.de",
         "url": "https://www1.wdr.de"
       }
     },
@@ -864,12 +864,12 @@
       }
     },
     {
-      "id": "abacee78c1f0",
-      "title": "Arzneimittelausgaben steigen auf Rekordhoch Sieben Prozent der Medikamente verursachen mehr als die Hälfte der Kosten - tagesspiegel.de",
+      "id": "fad88aff2400",
+      "title": "Arzneimittelausgaben steigen auf Rekordhoch Sieben Prozent der Medikamente verursachen mehr als die Hälfte der Kosten - Tagesspiegel",
       "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNeVh1VDdIZEd5TXZoV2hGdlRCOXNMcFBvMjMyYTRMeTF1TnVaVEg1dXY2SWtZNUhocnFnM2staDhwZnptemFfVGUxbFpIQ3JwNnhCSEREbmEwcmNRNHdSbENtemYwdmJHNVREYWQ2S2VQZVlNNVFGYlJhbGFfeWVySUFiY3lhQXNmZWxUQndTTXFHdGdRVHlQaVN5U1lSWlNLWUo3SDFOcjdyT3d5c0h4c0FMdWxra2hrekpJZDNGeDQ2c3NqVFdTSnJTNHZ3Mm1KeWkzLUZNMHJRTjROVEE5OUNrWW1yaTdLWkJvNG1oQ3dPU0MzTldsZXFNblVlQVE?oc=5",
       "published": "2025-12-09T08:00:00+00:00",
       "source": {
-        "name": "tagesspiegel.de",
+        "name": "Tagesspiegel",
         "url": "https://www.tagesspiegel.de"
       }
     },
@@ -954,6 +954,16 @@
       }
     },
     {
+      "id": "6e4f9451ac8b",
+      "title": "Hitze kann Medikamente wirkungslos machen - GMX",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWjhwZmVscnZKc0lzcV85WmhLQ1lXVVdhazVOZlN2RVk1QlYyNG9OTWo2bGptZWNmcEtnZXk3S1FSM1pTb0J6WnN1Vi1McGw4UmdtalFmTmhoYjNzblFTODRfOFJVVlNKQVZ4amhMcVVFVG5YQm1OU2N5dFJsRmQ3ZmMtdWhfQXUxb0xCcE1vc0xTdmthemc?oc=5",
+      "published": "2026-08-06T11:49:01+00:00",
+      "source": {
+        "name": "GMX",
+        "url": "https://www.gmx.ch"
+      }
+    },
+    {
       "id": "2f0394c48ff1",
       "title": "Diskussionsrunde : Teure Orphan Drugs setzen GKV unter Druck - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMm9GbF9MdlR1T05IVU9La29FSnJzYmpWYTNqNW05eHVvMW1OVTdOX3FMaHhPT2JuUExjdkV6Zlg1NUh6WHEzS3RkQmhFLUVKWllJa2IxdDBacXl5SDZsbzc1YXY3TnIzYUpjalNfaDl6dnE2YUV0eGt1cWd0OTBiVVNYYzIzMEUybmdDRjZGQ3ZKZw?oc=5",
@@ -991,16 +1001,6 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
-      "id": "8d1fc40266cd",
-      "title": "2025: Höchster Stand von Aufnahmen neuer Medikamente in die Spezialitätenliste - Bundesamt für Gesundheit BAG",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1HMEFNZWpPYzRReWJNTkhGRk11RnNpblJQVjNEdE1ISllXWlNUWk4yZFpWclRTOUl0M3ZJTXhSNmpMdEtuVkVWVnV3aEJXdWxld0l3dUVkdGszYnVuNEFxbldsSXNJamc?oc=5",
-      "published": "2026-01-30T08:00:00+00:00",
-      "source": {
-        "name": "Bundesamt für Gesundheit BAG",
-        "url": "https://www.bag.admin.ch"
       }
     }
   ]
