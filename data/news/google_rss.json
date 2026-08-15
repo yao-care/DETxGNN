@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-15T18:30:53.658773+00:00",
+  "fetched_at": "2026-08-15T19:22:09.265272+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -154,12 +154,12 @@
       }
     },
     {
-      "id": "a48a34dcb337",
-      "title": "Opioide: Israel führt weltweit beim Pro-Kopf-Konsum - Jüdische Allgemeine",
+      "id": "f87200eb9eb8",
+      "title": "Opioide: Israel führt weltweit beim Pro-Kopf-Konsum - juedische-allgemeine.de",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1MZVF2WFVHNi01ZVZ4STRQeWMxTW9FN1lFYS1jdy0tRXhzcGRCazhCMWdWLWVpcHZzcEVNYUpqNE40OVgzYU1TazBoOXBEdkZtVEE3R3ZST0Y4WHJXcHNzWVdFdGx6aUJ6eWNIN3pEeFg0SnU0RWc?oc=5",
       "published": "2026-07-05T07:00:00+00:00",
       "source": {
-        "name": "Jüdische Allgemeine",
+        "name": "juedische-allgemeine.de",
         "url": "https://www.juedische-allgemeine.de"
       }
     },
@@ -264,12 +264,12 @@
       }
     },
     {
-      "id": "02e9917bea66",
-      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - DW.com",
+      "id": "8db31424e5bb",
+      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - dw.com",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGxHSlhmSS0tbUNKdG15NEVzRzYzYllEUnAzUEU3ak53czRHVWlKdTZrRGFDMk1MUThPUjdPTnBGVENqd3d2Q1VSdWhJVXppWDF4NWh0aEJJaXJlVTlnV0VoZVFkRHNSM3p6NVZXNjNwWHk5YkxSUWR2RGZKcmp3Y2U5REY0U3dRZFJLeHFtQk9wb2Y3RUVOaVBlMlJhZ29Rck000gGjAUFVX3lxTE1rTW00WXFBajZxbTJOS1NLckhVbXFBSzh1NE96QTEydTN1YjZnaFFNcV8xblZGM29hdTZQUHc4V3YzQ1pwcTlaVVBhZDVqMExLMTlYVzZ6TmM4ZUdsUm5TLXpPNmk1R3V4UktvaV93cWttNFpVX0VEZlZnUllSQkhyUlZmeTBJcU0zUEVSZTgxdzFWUnFNRk9CYVljN0Jhd0ZXUFk?oc=5",
       "published": "2026-05-12T07:00:00+00:00",
       "source": {
-        "name": "DW.com",
+        "name": "dw.com",
         "url": "https://www.dw.com"
       }
     },
@@ -454,16 +454,6 @@
       }
     },
     {
-      "id": "e4aec8e322e1",
-      "title": "Studie: Darum haben Bauernhofkinder weniger Allergien - oekotest.de",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTld3dUczMmVmOHNIMTN4YkpQc1haSkRQSklMOHRfOE9pQXZvSVJwdUlRRlpKeWxXUm95aUxYNmphVkQ5S2VXM2lnSjR6UVJ0eFJieVg3T194RGU1c2V0aTA0eHFzZ1dVa3paT3h1MTBDYUZwYlVNVGswa3E3b3VpT2JmNkFaN3AtY0hJOGpLS1BaSVZqeEo5MXRNVFhVUWpEV0pkT0V2cEpueThjemJ1dG1Idw?oc=5",
-      "published": "2026-08-11T16:55:36+00:00",
-      "source": {
-        "name": "oekotest.de",
-        "url": "https://www.oekotest.de"
-      }
-    },
-    {
       "id": "e89bb6a1a7a1",
       "title": "Medikamente im Urlaub: So schützen Sie sich vor Fälschungen - Mindener Tageblatt",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVmFuWXBXcV9mM2x0cUItRFVsbl9ONUdXMVcwemo1cWVtaV8yeHktdFZaMW5BSURRRmxTMjA0OGx3eUZvVGQzOUpNSmpTODRvUFU0VXF0SkRyaVV0eWFIanJ2NHJoQWFEeDMtSVp3SUVfYnJPTHBXM3RvRzE2aEEyejdtR0dQaUltczRkRk1nVnFjM2ViMnM0aWdJNV8ycWZHYUllZGVWM0hGelpWZ2hzanp3?oc=5",
@@ -471,6 +461,16 @@
       "source": {
         "name": "Mindener Tageblatt",
         "url": "https://www.mt.de"
+      }
+    },
+    {
+      "id": "e4aec8e322e1",
+      "title": "Studie: Darum haben Bauernhofkinder weniger Allergien - oekotest.de",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTld3dUczMmVmOHNIMTN4YkpQc1haSkRQSklMOHRfOE9pQXZvSVJwdUlRRlpKeWxXUm95aUxYNmphVkQ5S2VXM2lnSjR6UVJ0eFJieVg3T194RGU1c2V0aTA0eHFzZ1dVa3paT3h1MTBDYUZwYlVNVGswa3E3b3VpT2JmNkFaN3AtY0hJOGpLS1BaSVZqeEo5MXRNVFhVUWpEV0pkT0V2cEpueThjemJ1dG1Idw?oc=5",
+      "published": "2026-08-11T16:55:36+00:00",
+      "source": {
+        "name": "oekotest.de",
+        "url": "https://www.oekotest.de"
       }
     },
     {
@@ -944,12 +944,12 @@
       }
     },
     {
-      "id": "a8590fd76723",
-      "title": "Arzneimittelpreise: Medikamente in Deutschland günstiger als USA trotz Trump-Deals - sueddeutsche.de",
+      "id": "8f7a16a55972",
+      "title": "Arzneimittelpreise: Medikamente in Deutschland günstiger als USA trotz Trump-Deals - SZ.de",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdnBJZGx2V2VkNEJfQy1NTDk2NFJXOE5MY3k2VE1yNmxuZzNiWWNlalNjN0MzTjJzSUwxTDRPRTlJai1XeXVUODNhaGlrRXJhaVpJdVQ0eV9mNHc1QWZkaXhtUTVfdjZNWEU2eWptcVk1WkNUZHJNRUpNQzM2TXduRFpPS0tTbjhtajdRWmtMbTM2N1owQ1I1Y2g1MmJiUzNpdnc?oc=5",
       "published": "2026-03-18T07:00:00+00:00",
       "source": {
-        "name": "sueddeutsche.de",
+        "name": "SZ.de",
         "url": "https://www.sueddeutsche.de"
       }
     },
