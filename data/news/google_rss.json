@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-17T01:19:26.156379+00:00",
+  "fetched_at": "2026-08-17T03:00:35.844712+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -74,16 +74,6 @@
       }
     },
     {
-      "id": "a5c086141ecb",
-      "title": "Prostatahyperplasie: Pollstimol um 38% günstiger ab August - ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQ2l4S0lJcVBpSzJSQ29RaVFnTUNMTFU1MWhtb0ZkWjBDdF9WV2Z2cVVxQlRUQzZudzVHNXdiX2Z4ZTh4cFRsWFdCVXhDNU5YTHN1SEdBak5rcGEzZnFfU0pmZWpfUWdKd3FmMjRpblVGdGxPdU9mbkNWMnRncFlqaFBqTkhvVG93VmsxclUwTkxsRnZqY0FLZm1JOUdSZTBhb29ZdTdyY2txTjY3dFp4Uk43MnY?oc=5",
-      "published": "2026-08-16T23:18:08+00:00",
-      "source": {
-        "name": "ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "2a4cd6eb6d1d",
       "title": "Arzneimittelengpässe in Europa – so reagiert die EU - European Parliament",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYUFLam5JQVMtSlNuNWlqSTJrRUNDN215RDlRU2hOMEE0Rkp3cHBodVhSbXRsSUhvTTRhMTVLWEE5QmM0dXJRNGlPSkwyZ2doMHhlaEpHbW5DZl8tazhQc3lPcEN4SmtLaEdGMk9IZjF5MGZvNEd3a2tXSnJXT1ItanFsV2gtRGpMYjlUbHV2OURrMkM5OXA3emh5OERlMlpXc1J1UlNVYUp1UlBUd1gzREtLUkZRZw?oc=5",
@@ -104,12 +94,22 @@
       }
     },
     {
-      "id": "5431265615fd",
-      "title": "Patente und Profitorientierung blockieren Arzneimittel: Warum Millionen keinen Zugang haben - Frankfurter Rundschau",
+      "id": "a5c086141ecb",
+      "title": "Prostatahyperplasie: Pollstimol um 38% günstiger ab August - ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQ2l4S0lJcVBpSzJSQ29RaVFnTUNMTFU1MWhtb0ZkWjBDdF9WV2Z2cVVxQlRUQzZudzVHNXdiX2Z4ZTh4cFRsWFdCVXhDNU5YTHN1SEdBak5rcGEzZnFfU0pmZWpfUWdKd3FmMjRpblVGdGxPdU9mbkNWMnRncFlqaFBqTkhvVG93VmsxclUwTkxsRnZqY0FLZm1JOUdSZTBhb29ZdTdyY2txTjY3dFp4Uk43MnY?oc=5",
+      "published": "2026-08-16T23:18:08+00:00",
+      "source": {
+        "name": "ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
+      }
+    },
+    {
+      "id": "e01f4b6ac873",
+      "title": "Patente und Profitorientierung blockieren Arzneimittel: Warum Millionen keinen Zugang haben - fr.de",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPb0JSbmVWcVk1ajdydzIzRF9PM2hHQWFaYWNuSjhZbmZBbXplUGFBNklQVFptakVZdGN5UVA4VW9fS3VoRmluVzd5OHV1MXJMM3NudGpTdHR5MEI4dExjSmIzM0VoVUtCeHU2VnFfWGNTSVZYWFBsOEhValduakNSd1Z1TTZEM20zTFF0R3RLYy1NWHYza196cEkwM1ljMEtKdDdCdU1TN0J2LVU0Sk9UckdzRXpJNHVMdzZvaG9Ya2FxNEk?oc=5",
       "published": "2026-07-31T07:00:00+00:00",
       "source": {
-        "name": "Frankfurter Rundschau",
+        "name": "fr.de",
         "url": "https://www.fr.de"
       }
     },
@@ -384,16 +384,6 @@
       }
     },
     {
-      "id": "2a10e3a89b81",
-      "title": "Das Gesundheitsministerium fordert eine strengere Kontrolle der traditionellen Medizin und der Arzneimittel, um gefälschte Produkte, minderwertige Medikamente und illegale Praktiken zu verhindern. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQQVZGR1lDQjVCQjdGbGJIOUN1b0JzX1piRVNQZU5FT1c5TktRaklORHdhWGp3MEFlSGdsQ2VhWXF3ZjB0b3B2bWpYamxuSFFocHBscjZTcHdzMm43Rlo3TmhYLTRQQzJtMV9EemlRUWROWkF0Q2U2WFZYSWVqZEdnSFFyRUN4Z3RndWFmMk1rbHRxLXZwWXpEUThIM2ZURVIzRzZuLWZEV2tDeVVwdE1tclA4SmxIeEdPVHZDV2N4MmwwVVpX?oc=5",
-      "published": "2026-08-10T16:20:25+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "12a6f84e648a",
       "title": "Der Herstellerabschlag im Reformstress - Verband der Ersatzkassen (vdek)",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeXdkMXpjQVBJRzhyd1dCOVloSFpjc1cyNkczZjlHYl9QMlR4aFUwN1JLc3laQ0JWd0cwTWY4cmRnMGhDbE1vTzl3ODBNR2pQR0VLM0pJa2luTURVNGZOOXJlWlFGNG5ybFZkamI2WTlpOEZ1WjNTd19lcWJDdy1vU3V1RVI0TnRUSmNJVEphZkJYbnc?oc=5",
@@ -401,6 +391,16 @@
       "source": {
         "name": "Verband der Ersatzkassen (vdek)",
         "url": "https://www.vdek.com"
+      }
+    },
+    {
+      "id": "2a10e3a89b81",
+      "title": "Das Gesundheitsministerium fordert eine strengere Kontrolle der traditionellen Medizin und der Arzneimittel, um gefälschte Produkte, minderwertige Medikamente und illegale Praktiken zu verhindern. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQQVZGR1lDQjVCQjdGbGJIOUN1b0JzX1piRVNQZU5FT1c5TktRaklORHdhWGp3MEFlSGdsQ2VhWXF3ZjB0b3B2bWpYamxuSFFocHBscjZTcHdzMm43Rlo3TmhYLTRQQzJtMV9EemlRUWROWkF0Q2U2WFZYSWVqZEdnSFFyRUN4Z3RndWFmMk1rbHRxLXZwWXpEUThIM2ZURVIzRzZuLWZEV2tDeVVwdE1tclA4SmxIeEdPVHZDV2N4MmwwVVpX?oc=5",
+      "published": "2026-08-10T16:20:25+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -434,26 +434,6 @@
       }
     },
     {
-      "id": "1398980e2dd5",
-      "title": "Das Gesundheitsministerium geht verstärkt gegen den Verkauf von Heilkräutern und traditionellen Arzneimitteln an Touristenzielen vor. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPa1BpQmpRbTJlekdWcGxlbWFZRUM4MXJnbFU4c2U4bEdUQ0k5cHFhbnRYMG96R3VUMWJLN1d0UmVhTUdadXhZMGJHWXVzQy1ZT0t4ekQ1clRzaExQZHdTZ08ya2xGeGZDbHF0OWd0VXkydnRuZWk1Tk5ISTFwWEYwekJVVjltellQc29QQi1Gdm92cGlnaU1pZGlmb21zcVMyQnpJMg?oc=5",
-      "published": "2026-08-10T16:20:25+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
-      "id": "1c4592d7f011",
-      "title": "Pharma-Verband fordert: Prävention und Selbstmedikation ausbauen - ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTTExR1N2T2hHV0FHbXl5Z0xBNU9pT3JaRmhSUURfQnRiRUM1Mjc3eTNnZlBxbTlvSHExVmNUU3RmZ2hsX18wNFBZOXBKY1FITGhrc3VKVnF2emx3SFZFTlVNT2MtTVFjdE9yakp6RnNscU4zUVhUcDRFbGFBZDhYc0JpbWJBXzJWM21XUUtET0dralBiVDN6T0NtX1Z5TjUxU3VpcnZfSk1TTUxEZ2VaVDNCdw?oc=5",
-      "published": "2026-08-16T02:00:54+00:00",
-      "source": {
-        "name": "ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "432315fa2251",
       "title": "Erstmals Medikament gegen Fettleber zugelassen - tagesschau.de",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPQnhCQmdtRXhCd0ZKc1FDYzViaTZEblZ5TjJNWDBvZ3ptX2g0OENQemNDUk1sWGh5T1FrOEtvaGtSSDItcXlieVd0cDVfdDF0a2U3clFWSGlvd21wUWtwVzI4UEZIZ1BBUlVJSC16SExXaWFDTlF6YlNjMk96a2pEYnpVRm1rQQ?oc=5",
@@ -461,6 +441,16 @@
       "source": {
         "name": "tagesschau.de",
         "url": "https://www.tagesschau.de"
+      }
+    },
+    {
+      "id": "1398980e2dd5",
+      "title": "Das Gesundheitsministerium geht verstärkt gegen den Verkauf von Heilkräutern und traditionellen Arzneimitteln an Touristenzielen vor. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPa1BpQmpRbTJlekdWcGxlbWFZRUM4MXJnbFU4c2U4bEdUQ0k5cHFhbnRYMG96R3VUMWJLN1d0UmVhTUdadXhZMGJHWXVzQy1ZT0t4ekQ1clRzaExQZHdTZ08ya2xGeGZDbHF0OWd0VXkydnRuZWk1Tk5ISTFwWEYwekJVVjltellQc29QQi1Gdm92cGlnaU1pZGlmb21zcVMyQnpJMg?oc=5",
+      "published": "2026-08-10T16:20:25+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -494,16 +484,6 @@
       }
     },
     {
-      "id": "5fd73dc2932c",
-      "title": "Menschen und Arzneimittel: Hitze gefährdet alle - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1SOVJuZkZFZTdsNFlWTmNONVQxN2ZFbnh0M045WmxqeGV6cHZ4Z1c4Z2xnYjkwUXNUcTJvWkptS0NHUUxocGIwZm04ejc3TFM2ZU5hNmtlZUtjQ2VTMWwtcEtRX0YxSXdCcE5UY252Z2dHWURtVGxn?oc=5",
-      "published": "2026-05-27T07:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "705974bba917",
       "title": "Amazon dominiert den Markt mit Gesundheitsprodukten - Deutsche Apotheker Zeitung, DAZ",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbHlZQTZWYmlGbVU5cjNqYjFlak5yVlpqT2xSenpLbFN2bDBBbE5wbTVpNDNtTmVFeUNfVlpqaHJBbUNIVVVxcVl4WThULXJaTEp3YjVQbmRfZkc5MEdCXzRKMV92aGc3UGQ4dWNVa05BM1lqcUVKZ1Z6X25rdGRNcUpha0V2a2p0N3A4LXZEdVpHTURXTVVhU1FkTkt2dUVKcWdkOTRRX25pN0JLbTQ5UXVMUjBlRmhH?oc=5",
@@ -531,6 +511,16 @@
       "source": {
         "name": "Berliner Morgenpost",
         "url": "https://www.morgenpost.de"
+      }
+    },
+    {
+      "id": "1c4592d7f011",
+      "title": "Pharma-Verband fordert: Prävention und Selbstmedikation ausbauen - ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTTExR1N2T2hHV0FHbXl5Z0xBNU9pT3JaRmhSUURfQnRiRUM1Mjc3eTNnZlBxbTlvSHExVmNUU3RmZ2hsX18wNFBZOXBKY1FITGhrc3VKVnF2emx3SFZFTlVNT2MtTVFjdE9yakp6RnNscU4zUVhUcDRFbGFBZDhYc0JpbWJBXzJWM21XUUtET0dralBiVDN6T0NtX1Z5TjUxU3VpcnZfSk1TTUxEZ2VaVDNCdw?oc=5",
+      "published": "2026-08-16T02:00:54+00:00",
+      "source": {
+        "name": "ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -564,13 +554,23 @@
       }
     },
     {
-      "id": "4bf4db7a6b88",
-      "title": "App \"MedAssist sicher für zwei\" - saarland.de",
+      "id": "b9ad4c3ee28b",
+      "title": "App \"MedAssist sicher für zwei\" - Saarland.de",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMllLZjQwdVNkTzE5YndaZHJjUmlUeGsta0QtUXllM3YzUEY0NnN2endjZTBmblJydVIzZUdwb2tTTGxIMUZkYlpHckVsV2YzNFh5X3BiZDBpT0tJMFRzajBNbjdXY3d1Zzl4SDNkb01lWEhSTmMxemVVNjdJRTJ4WGFZbGM5TGhiSlBTZjJMR2FfZlpRVFBtVi1jbGszcWEzRmF6Z3RmcHJ6N2s5VzVIVXBNZVNEVllwOURZVTJvNA?oc=5",
       "published": "2025-12-04T08:00:00+00:00",
       "source": {
-        "name": "saarland.de",
+        "name": "Saarland.de",
         "url": "https://www.saarland.de"
+      }
+    },
+    {
+      "id": "5fd73dc2932c",
+      "title": "Menschen und Arzneimittel: Hitze gefährdet alle - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1SOVJuZkZFZTdsNFlWTmNONVQxN2ZFbnh0M045WmxqeGV6cHZ4Z1c4Z2xnYjkwUXNUcTJvWkptS0NHUUxocGIwZm04ejc3TFM2ZU5hNmtlZUtjQ2VTMWwtcEtRX0YxSXdCcE5UY252Z2dHWURtVGxn?oc=5",
+      "published": "2026-05-27T07:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -694,12 +694,12 @@
       }
     },
     {
-      "id": "198b0da65ee5",
-      "title": "HIV-Schutz mit Tabletten: Wie sicher ist PrEP im Alltag? - NDR.de",
+      "id": "6a3a426544ab",
+      "title": "HIV-Schutz mit Tabletten: Wie sicher ist PrEP im Alltag? - ndr.de",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTWhsNWk1Tkc5MzNycUQ5RzhaaXhPTGlCcHJ1Yl9wajZ0VkV3akIxR255SUd6clB5aU5fZmNlUGZIcTVNanZlTmctSDJqUFB5Zk5XempaWnhrbDBlVWZuOE9xWDRSREhKRm5sa0lrbGVnVjl0TE5NNWtTY25CUzRmdG5jQlBZc1pFakFyT0hITHU5NmpfaUE?oc=5",
       "published": "2026-07-18T07:00:00+00:00",
       "source": {
-        "name": "NDR.de",
+        "name": "ndr.de",
         "url": "https://www.ndr.de"
       }
     },
