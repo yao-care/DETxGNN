@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-19T04:37:28.939937+00:00",
+  "fetched_at": "2026-08-19T05:31:15.415513+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -24,12 +24,12 @@
       }
     },
     {
-      "id": "689b660a4d7c",
-      "title": "USA: Sinkt die Adipositasrate wegen Ozempic-Effekt? - dw.com",
+      "id": "d39b017e6a34",
+      "title": "USA: Sinkt die Adipositasrate wegen Ozempic-Effekt? - DW.com",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUURWOEt0MlpIYlZaWlh4OFdRem1pSFJTMTVWWU9Bb2JGU2czcDdSS3ZocDVQREtZQXJJTzlGSjg4TGZDREY4MHZsS1FKOXZZbjBKaVJoT2lnWk82ckpLa0l4YlhERkVRNUlMMVFEVDdnSHlJTktpWWtfQkpJc3BaVUVrRmpHcXPSAYcBQVVfeXFMTlV1UjJxZTg0WGIyRUNpb2RqcGJKSTIxZU1WNmJ6MkRPM0Vzc2FiVDQ4dzAzUTdTTmppVnNKbU5PeThLN1RQQ0ZVSTNYN3RLYTZVMWRpQ0FabUIxeWdpSnJhdEh6SUF6NEhKOGozWnZRUDEwMWhSVlJMLXpRNjMtYTVwaGFjb0JR?oc=5",
       "published": "2026-08-18T08:52:00+00:00",
       "source": {
-        "name": "dw.com",
+        "name": "DW.com",
         "url": "https://www.dw.com"
       }
     },
@@ -44,23 +44,13 @@
       }
     },
     {
-      "id": "3b7d9e5db758",
-      "title": "Bei Hitze droht Gefahr: Viele Medikamente sind temperaturempfindlich - CHIP",
+      "id": "95f703f1f346",
+      "title": "Bei Hitze droht Gefahr: Viele Medikamente sind temperaturempfindlich - chip.de",
       "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQd2RSZWxtaElsUm5mUm93S08yc2NuOHNIS0FqODU1emxLTFhwZWpjRk80M3FuTm1hVElEbEJnZ0NtQmtud05ENW1VTEJrZHI5d2U3eWd6MW94czJ2OGUwMHU4bERheEY1LXBrbWJZMFBOYTZEQ1FpZUR4TWlxOXJOaERrdmVyYVRpWW5sNlYtWURtTUlUU3FqSl91QUhkNUttdndnWVJZOVJ1SUZfYUNTYVIzX1NLMjRyQmdmV2tQbC1mXzFNWWJYb19LeHQ4T2tkNVN0dkstcnZ0NllpTjZ4NElscVp5R1hm?oc=5",
       "published": "2026-08-16T09:51:00+00:00",
       "source": {
-        "name": "CHIP",
+        "name": "chip.de",
         "url": "https://www.chip.de"
-      }
-    },
-    {
-      "id": "000df3f2b1a9",
-      "title": "Gesundheitsnachrichten vom 19. August: Wie wirken sich Medikamente auf den Körper aus? | Warum verfolgen uns unvollendete Dinge? - vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOX1FLLUlYaVNHaGJmcDRneFJ4TmlqZHhIQUwtOFNXTG90WTJkZk1zZ1JRMGNybWtpZ09sOFdNX3FZSGc3YnkzN1VaQU1jZEE4bl9PaHdBTWlLVjZUZ3BvamlPd205TGp0dVlLTlhCT1VVWXdiSGRTSzJlUnRNb2dhTEJzUllqOGs5amxKSktqVjllSkNLRlY4djNTXzdkakNlOEh2Y0lWSEVSYjVYMmlydWtTS01JWEdhRmU4?oc=5",
-      "published": "2026-08-19T00:01:52+00:00",
-      "source": {
-        "name": "vietnam.vn",
-        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -71,6 +61,16 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "000df3f2b1a9",
+      "title": "Gesundheitsnachrichten vom 19. August: Wie wirken sich Medikamente auf den Körper aus? | Warum verfolgen uns unvollendete Dinge? - vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOX1FLLUlYaVNHaGJmcDRneFJ4TmlqZHhIQUwtOFNXTG90WTJkZk1zZ1JRMGNybWtpZ09sOFdNX3FZSGc3YnkzN1VaQU1jZEE4bl9PaHdBTWlLVjZUZ3BvamlPd205TGp0dVlLTlhCT1VVWXdiSGRTSzJlUnRNb2dhTEJzUllqOGs5amxKSktqVjllSkNLRlY4djNTXzdkakNlOEh2Y0lWSEVSYjVYMmlydWtTS01JWEdhRmU4?oc=5",
+      "published": "2026-08-19T00:01:52+00:00",
+      "source": {
+        "name": "vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -104,12 +104,12 @@
       }
     },
     {
-      "id": "5b3425ab81eb",
-      "title": "Diese Medikamente machen Sonne plötzlich zur Gefahr - mopo.de",
+      "id": "5dd8597bc592",
+      "title": "Diese Medikamente machen Sonne plötzlich zur Gefahr - MOPO",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQnVIdHh6MWZBZTYyNlBNNVJFWWxYSUdtQkJrRTdpdXpubUM3c3FyNjVNdVk0Q0ZBaFFjeW1hN3c0ajhucG9ZT3F4b3draFhMY3FyR29PWXBmQWY4VWdHelJ5aWFZUVNycXBzbE1PQW1tQzZKdGQxMFJDUXZwdlRnU3lETEdiSW1Vb2NnRl9oSWZzdjY1SlU2SGRtN0NtWjNyM25laDB0eHRXa09jZFZVankwSGtOalE?oc=5",
       "published": "2026-08-17T12:00:00+00:00",
       "source": {
-        "name": "mopo.de",
+        "name": "MOPO",
         "url": "https://www.mopo.de"
       }
     },
@@ -144,12 +144,12 @@
       }
     },
     {
-      "id": "20cda3a80103",
-      "title": "Bald gibt es die Abnehmpille auch bei uns. Ist sie besser als die Spritze? - STERN.de",
+      "id": "fa597d7b0558",
+      "title": "Bald gibt es die Abnehmpille auch bei uns. Ist sie besser als die Spritze? - stern.de",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNd3JZYnE4eXZtSW8xYk9sbDBTQzFkZmNfV09LTXBsS3BzeGd1NFBHR0lXT1B4UDNPNy1qamJ4R3JXaUxKeVNLY1RTVlNYUVBmOFBaS0Nkb29qRTFGcDAyV3JMaGVzQnM4WlhDN0plT004V2pGR09zQ19jUnNxaktLMlNYdWJ4X2FHRmVja0RCUWF2OFJ5d3lBck9EZC03aG81OFE?oc=5",
       "published": "2026-08-17T10:04:00+00:00",
       "source": {
-        "name": "STERN.de",
+        "name": "stern.de",
         "url": "https://www.stern.de"
       }
     },
@@ -164,22 +164,22 @@
       }
     },
     {
-      "id": "5431265615fd",
-      "title": "Patente und Profitorientierung blockieren Arzneimittel: Warum Millionen keinen Zugang haben - Frankfurter Rundschau",
+      "id": "e01f4b6ac873",
+      "title": "Patente und Profitorientierung blockieren Arzneimittel: Warum Millionen keinen Zugang haben - fr.de",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPb0JSbmVWcVk1ajdydzIzRF9PM2hHQWFaYWNuSjhZbmZBbXplUGFBNklQVFptakVZdGN5UVA4VW9fS3VoRmluVzd5OHV1MXJMM3NudGpTdHR5MEI4dExjSmIzM0VoVUtCeHU2VnFfWGNTSVZYWFBsOEhValduakNSd1Z1TTZEM20zTFF0R3RLYy1NWHYza196cEkwM1ljMEtKdDdCdU1TN0J2LVU0Sk9UckdzRXpJNHVMdzZvaG9Ya2FxNEk?oc=5",
       "published": "2026-07-31T07:00:00+00:00",
       "source": {
-        "name": "Frankfurter Rundschau",
+        "name": "fr.de",
         "url": "https://www.fr.de"
       }
     },
     {
-      "id": "bb553491699c",
-      "title": "Abschaffung der Mehrwertsteuer auf Arzneimittel - openPetition",
+      "id": "44a936f3300e",
+      "title": "Abschaffung der Mehrwertsteuer auf Arzneimittel - openpetition.de",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQR2ZyOGpub3o3YjR6WktVOXowVW5aMmNRcUZnRHQteUNLdVdiWFpMSHpndXJ0ajFhSmNTQXk1LVptMF9BUHlMeGRSb2dJalBRVjkxbGE4eWhObTFsT1gzVUtGblkxNDhVMlR2b2JYb1NWSGJqd2k1bGwxODhLVFh3aVdwY3pNNV81VDk0ZkxEbmVlSXdZY2c?oc=5",
       "published": "2026-04-27T15:29:32+00:00",
       "source": {
-        "name": "openPetition",
+        "name": "openpetition.de",
         "url": "https://www.openpetition.de"
       }
     },
@@ -234,12 +234,12 @@
       }
     },
     {
-      "id": "8db31424e5bb",
-      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - dw.com",
+      "id": "02e9917bea66",
+      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - DW.com",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGxHSlhmSS0tbUNKdG15NEVzRzYzYllEUnAzUEU3ak53czRHVWlKdTZrRGFDMk1MUThPUjdPTnBGVENqd3d2Q1VSdWhJVXppWDF4NWh0aEJJaXJlVTlnV0VoZVFkRHNSM3p6NVZXNjNwWHk5YkxSUWR2RGZKcmp3Y2U5REY0U3dRZFJLeHFtQk9wb2Y3RUVOaVBlMlJhZ29Rck000gGjAUFVX3lxTE1rTW00WXFBajZxbTJOS1NLckhVbXFBSzh1NE96QTEydTN1YjZnaFFNcV8xblZGM29hdTZQUHc4V3YzQ1pwcTlaVVBhZDVqMExLMTlYVzZ6TmM4ZUdsUm5TLXpPNmk1R3V4UktvaV93cWttNFpVX0VEZlZnUllSQkhyUlZmeTBJcU0zUEVSZTgxdzFWUnFNRk9CYVljN0Jhd0ZXUFk?oc=5",
       "published": "2026-05-12T07:00:00+00:00",
       "source": {
-        "name": "dw.com",
+        "name": "DW.com",
         "url": "https://www.dw.com"
       }
     },
@@ -364,12 +364,12 @@
       }
     },
     {
-      "id": "06250e7ce690",
-      "title": "Erwerbstätige bekommen so viele Medikamente verschrieben wie noch nie - Nordkurier",
+      "id": "601c3008c0e2",
+      "title": "Erwerbstätige bekommen so viele Medikamente verschrieben wie noch nie - nordkurier.de",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSi1EOW5qbXJJNmpVQS1HZ09OX0kzeUxfLWc3akJmQzhSWGs5M05rY2xDeV9VeWxrdXQ1ZEVGdzBXNUYyRENpOF9qSzRJMVFlTlJ0ZlEtWUlnMmNwQlZnZkkzdTlqa0h3TzUwLVJKbGczUkFfM2VuS09IMkotTzd5cW5Ybll3UVFnMVJyM2J3TVh4cUNGdWE5cmhBRjF6STYwZFlMQ3pUVEZ0V2QzZlFOcHZn?oc=5",
       "published": "2026-08-04T07:00:00+00:00",
       "source": {
-        "name": "Nordkurier",
+        "name": "nordkurier.de",
         "url": "https://www.nordkurier.de"
       }
     },
@@ -404,12 +404,12 @@
       }
     },
     {
-      "id": "b224df61319b",
-      "title": "Der Herstellerabschlag im Reformstress - Verband der Ersatzkassen e. V.",
+      "id": "12a6f84e648a",
+      "title": "Der Herstellerabschlag im Reformstress - Verband der Ersatzkassen (vdek)",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeXdkMXpjQVBJRzhyd1dCOVloSFpjc1cyNkczZjlHYl9QMlR4aFUwN1JLc3laQ0JWd0cwTWY4cmRnMGhDbE1vTzl3ODBNR2pQR0VLM0pJa2luTURVNGZOOXJlWlFGNG5ybFZkamI2WTlpOEZ1WjNTd19lcWJDdy1vU3V1RVI0TnRUSmNJVEphZkJYbnc?oc=5",
       "published": "2026-06-12T07:00:00+00:00",
       "source": {
-        "name": "Verband der Ersatzkassen e. V.",
+        "name": "Verband der Ersatzkassen (vdek)",
         "url": "https://www.vdek.com"
       }
     },
@@ -654,12 +654,12 @@
       }
     },
     {
-      "id": "08f761ee3a89",
-      "title": "EU-Gesundheitskommissar prüft Folgen von Trumps Arzneipreispolitik - Euronews.com",
+      "id": "0016601fa300",
+      "title": "EU-Gesundheitskommissar prüft Folgen von Trumps Arzneipreispolitik - de.euronews.com",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSzM5cWFmcTJfV010WWVadkdEVXRGblFEUTlhaUhoOThvaHV5eTJuWFVJbUtyMW9xNTJkYzNIR2Z6YWp0ZE1IWmNPb3pNcU5YY1phcUlQSU5IWWtvV0MzNDlqdHJZRU40alRPU29CWFVnUDBjLXE3UHhtV2pManQ4TzhzVEU3OHNDM2JJZm9ZbzBUbkVCRFRZYU1jMTl2UVdGRnhubmZZYWswcmZqbXAtbW5QcnRBTktIaHFFWg?oc=5",
       "published": "2026-06-16T07:00:00+00:00",
       "source": {
-        "name": "Euronews.com",
+        "name": "de.euronews.com",
         "url": "https://de.euronews.com"
       }
     },
@@ -671,16 +671,6 @@
       "source": {
         "name": "DIE ZEIT",
         "url": "https://www.zeit.de"
-      }
-    },
-    {
-      "id": "1cb95fe9e835",
-      "title": "Abnehmtablette: Was Sie zur Spritzen-Alternative wissen sollten - ZDFheute",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZW81SmZINDluajBQRXVmd3l0ZmVzbHJTZWNlLXJidHB5S244MDBfUlZ1ekgxYi1XLXFLVUE4YTZ1bVYwNHc1dV84ZHkweWZ4cU8wSjd6Y2ZQcV84dF9lenJuTG0waVd1ZVJyaXBuMHI2X3N0R2dkcmJ6R2dqLXBuREtUTkZNd0xXR21JZ2hkYUZlbnJhS0JzbEw4aFR6M1ZldVljdFM4RzFyNDk2MWNnLTI5T1doQQ?oc=5",
-      "published": "2026-08-13T09:56:00+00:00",
-      "source": {
-        "name": "ZDFheute",
-        "url": "https://www.zdfheute.de"
       }
     },
     {
@@ -724,12 +714,12 @@
       }
     },
     {
-      "id": "4f1eeceab428",
-      "title": "(S+) Wie teure Krebsmedikamente das Gesundheitssystem sprengen könnten - Spiegel",
+      "id": "af1d6e81815f",
+      "title": "(S+) Wie teure Krebsmedikamente das Gesundheitssystem sprengen könnten - spiegel.de",
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNOUFWLTYwSFp0U194b0duNHVfbTVjbzFKVUV0WG1MS1FkQ2hYdmg2OGp1dnlEQTk4SjVNUEpkWWpRaTVFZFFmcjFiNC02WXNvSEhIbmdUNDk4emxWQ2VnWWtHMUotcWhXUnVsMExGRWNvdllPcUd3dVRZTWR2ZUEteWZTeFEyS1M5ZzZqZUxDSUI2RTRqMnU4MVF4SEthWm1vZEd1YjZWYjZoLUIwRTlaZTVtRXZoZERXWC1DUGhLelpNZ0M2RXFQeDU4XzBfQ3ZWUFJUdDBVcDh2aExzVmc?oc=5",
       "published": "2026-04-13T07:00:00+00:00",
       "source": {
-        "name": "Spiegel",
+        "name": "spiegel.de",
         "url": "https://www.spiegel.de"
       }
     },
@@ -744,12 +734,12 @@
       }
     },
     {
-      "id": "e7fc237accfb",
-      "title": "Medikamente im DM-Drogeriemarkt – Apotheken laufen Sturm - STERN.de",
+      "id": "27daef187974",
+      "title": "Medikamente im DM-Drogeriemarkt – Apotheken laufen Sturm - stern.de",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMG5SMnM4aXU5czJ1S2dnUzdMeFBmb3IxQVBKWGVvcVB0eUJQUjkxRU00RHEtQlRjVU1EM0Z2WF95SG85WDJPSjVNcjRTWFM1OHVXNm5pdVAxZGtDcHJTSXFpSDAtdUstM0JISWRKcEI5OXRXZ2hXSzQ3cFJqb0g5N0ZRajJtY21JUmRNNmZweXg1bEpuOXc0Rk9CNENaMHNOYTc4OGtjZw?oc=5",
       "published": "2025-12-16T08:00:00+00:00",
       "source": {
-        "name": "STERN.de",
+        "name": "stern.de",
         "url": "https://www.stern.de"
       }
     },
@@ -854,12 +844,12 @@
       }
     },
     {
-      "id": "5b3c21a9706f",
-      "title": "Hendrik Streeck hinterfragt teure Medikamente für alte Menschen - Spiegel",
+      "id": "45f61385dc96",
+      "title": "Hendrik Streeck hinterfragt teure Medikamente für alte Menschen - spiegel.de",
       "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPdklWd0VveEdNaGZxM3F3RmFVdXFOQi10dUZONzlqUjBCS1EyMERpajY5dm9UajBXQnNaaG1Kc2NYUl8tOHpBZFBTQjl4X2NUdXNmckMxdDllNEVmMnZkNVRvU2Y1d3R6WUswWVFLek9rWUhOb01pSjkwbFB1SVdWaTQyc25VWi1aUGxWUGpETWU1b0plSW5qQXNZNzNmbzRPUUg0dGRVOHpEQnI4SWpkZ2diak1XSWNmNFhzSXVUd1BDYktCSkxIVmt2ekpXdGJ3ZDdYRXdWa1FwNDVo?oc=5",
       "published": "2025-11-12T08:00:00+00:00",
       "source": {
-        "name": "Spiegel",
+        "name": "spiegel.de",
         "url": "https://www.spiegel.de"
       }
     },
@@ -874,12 +864,12 @@
       }
     },
     {
-      "id": "aad02ccd03bb",
-      "title": "Neue Medikamente: wo Europäer am längsten warten - Euronews.com",
+      "id": "d5b5978477f1",
+      "title": "Neue Medikamente: wo Europäer am längsten warten - de.euronews.com",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQWtmTGxRc2lfV1RlQTNsMHV6ekdnQ3NFX1Bxd2txRGlPeTZDVk12NUpuN2lOalVTVmQ1QW0wcV9pXzJoVWZlcFJnbjB1UHVjTHU0V3lTZ0FTbU5HLXAtWHZDdERQcEwwQnV1ZTJ4VVBpODNlLWpXWWtUN0pray1LaFVSNExGQm5COThOZXhKbVotdWE4R05JaQ?oc=5",
       "published": "2026-05-20T07:00:00+00:00",
       "source": {
-        "name": "Euronews.com",
+        "name": "de.euronews.com",
         "url": "https://de.euronews.com"
       }
     },
@@ -894,12 +884,12 @@
       }
     },
     {
-      "id": "47afc2884d76",
-      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - geo.de",
+      "id": "7a99adaec5c0",
+      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - Geo.de",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
       "published": "2026-06-19T07:00:00+00:00",
       "source": {
-        "name": "geo.de",
+        "name": "Geo.de",
         "url": "https://www.geo.de"
       }
     },
@@ -1001,6 +991,16 @@
       "source": {
         "name": "Anwalt.de",
         "url": "https://www.anwalt.de"
+      }
+    },
+    {
+      "id": "a0875e22171f",
+      "title": "dm: Drogeriekette startet Online-Apotheke und erntet Kritik aus der Gesundheitsbranche - spiegel.de",
+      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQb3YweDJTbVRaQ3JueVhtVG1VN3dxM3dLa1ZfN3ExNDdDNllob2V1Y3FqVUtZdzNjSjF2QU0wRlhQMElUMk1OY3Vob0ZTNjBWNUQwVmxPT1IxUjlDLU5rN3pjQ3BhbWtxcjI0dWJfNHc3LWplZFZiTWNoNUxjdWtlUWE1aDFxX3doZF9ZRzJ5NU5NTVhTZy1EWFJjLXlLd3lMS1MwQ09RRHVNci1HaUVBbXVGM2UxQkFLeWdRaDRLN2h6bmRSWGprSFZFZWFjYVZvcG53UG1HdjFGVjdzVS1yeXctRUVQTkFyV2UxSklocEpSQ3RHekxmdGlub1UzeTA?oc=5",
+      "published": "2025-12-12T08:00:00+00:00",
+      "source": {
+        "name": "spiegel.de",
+        "url": "https://www.spiegel.de"
       }
     }
   ]
