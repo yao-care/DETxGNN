@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-19T19:26:25.589279+00:00",
+  "fetched_at": "2026-08-19T20:28:52.779776+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -24,12 +24,12 @@
       }
     },
     {
-      "id": "3b7d9e5db758",
-      "title": "Bei Hitze droht Gefahr: Viele Medikamente sind temperaturempfindlich - CHIP",
+      "id": "95f703f1f346",
+      "title": "Bei Hitze droht Gefahr: Viele Medikamente sind temperaturempfindlich - chip.de",
       "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQd2RSZWxtaElsUm5mUm93S08yc2NuOHNIS0FqODU1emxLTFhwZWpjRk80M3FuTm1hVElEbEJnZ0NtQmtud05ENW1VTEJrZHI5d2U3eWd6MW94czJ2OGUwMHU4bERheEY1LXBrbWJZMFBOYTZEQ1FpZUR4TWlxOXJOaERrdmVyYVRpWW5sNlYtWURtTUlUU3FqSl91QUhkNUttdndnWVJZOVJ1SUZfYUNTYVIzX1NLMjRyQmdmV2tQbC1mXzFNWWJYb19LeHQ4T2tkNVN0dkstcnZ0NllpTjZ4NElscVp5R1hm?oc=5",
       "published": "2026-08-16T09:51:00+00:00",
       "source": {
-        "name": "CHIP",
+        "name": "chip.de",
         "url": "https://www.chip.de"
       }
     },
@@ -54,12 +54,12 @@
       }
     },
     {
-      "id": "41c8c878323a",
-      "title": "Hautprobleme im Sommer: Wenn Medikamente die Haut lichtempfindlich machen - handelsblatt.com",
+      "id": "566fc4586e72",
+      "title": "Hautprobleme im Sommer: Wenn Medikamente die Haut lichtempfindlich machen - Handelsblatt",
       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNaFhjZ1V2ZXM2MFpPdUtoR2E2dWs1cVlMU25ucUJUVmZSSUFzMnNkbGJoYmFQeGg3aWRzbkhZSHNnUDRGZmtVbVFVWUNmcDJ4VThOZERvN3EtUl8zb3NnaTQxbUJibklPZm1BRUYtdXgwU1Ztd2hSekNXcGZfUFUxcGRIWjM4RVFyOXlFdGZ3aGYxSDV1QzA1NnVQM1dUQ2QteDZFN0JQd1IwR1NweWZjZnhXSmRmYmw0bEhmb29pSjhoaHVPYklxM1NfdjA?oc=5",
       "published": "2026-08-17T04:36:04+00:00",
       "source": {
-        "name": "handelsblatt.com",
+        "name": "Handelsblatt",
         "url": "https://www.handelsblatt.com"
       }
     },
@@ -144,13 +144,23 @@
       }
     },
     {
-      "id": "601c3008c0e2",
-      "title": "Erwerbstätige bekommen so viele Medikamente verschrieben wie noch nie - nordkurier.de",
+      "id": "06250e7ce690",
+      "title": "Erwerbstätige bekommen so viele Medikamente verschrieben wie noch nie - Nordkurier",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSi1EOW5qbXJJNmpVQS1HZ09OX0kzeUxfLWc3akJmQzhSWGs5M05rY2xDeV9VeWxrdXQ1ZEVGdzBXNUYyRENpOF9qSzRJMVFlTlJ0ZlEtWUlnMmNwQlZnZkkzdTlqa0h3TzUwLVJKbGczUkFfM2VuS09IMkotTzd5cW5Ybll3UVFnMVJyM2J3TVh4cUNGdWE5cmhBRjF6STYwZFlMQ3pUVEZ0V2QzZlFOcHZn?oc=5",
       "published": "2026-08-04T07:00:00+00:00",
       "source": {
-        "name": "nordkurier.de",
+        "name": "Nordkurier",
         "url": "https://www.nordkurier.de"
+      }
+    },
+    {
+      "id": "a5d0ba5dbcf2",
+      "title": "Skandal im Netz: Eine Medfluencerin und die erfundene Krankheit - Ärzte Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMVFhR0ZKWTctMnlyMjZkSnU3N29kTG9zTm5oQ2EtNEN2RDZhNlhfVlpMYndjdUFpSmFBSUF4T2ZXTWhieXBzWlNQZDNBOHg3cnlkYWU4MmVpZ2VUZWRLaURUeGhXWjNMQ1V3OVVwNjB3WjFjRWlzMnJpcXZHNWx3b3NreG55emtVNVQyX3VJS244Q01fbE5UZ2JSdWNqOXV2djdRQ3Jqalk3Q080S01lQzR3?oc=5",
+      "published": "2026-08-17T12:17:17+00:00",
+      "source": {
+        "name": "Ärzte Zeitung",
+        "url": "https://www.aerztezeitung.de"
       }
     },
     {
@@ -164,32 +174,22 @@
       }
     },
     {
-      "id": "5279c3747d04",
-      "title": "Sonnenbrand vermeiden: Diese Medikamente machen lichtempfindlich - wochenblatt-reporter.de",
+      "id": "a59024d7295e",
+      "title": "Sonnenbrand vermeiden: Diese Medikamente machen lichtempfindlich - Wochenblatt Reporter",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQazQ5RlVKb04xU05lYzA4RU1lRjBQODNveUI3TWlpOHB6bEhCVFR6U2FjY0VoUHZCSU9wd0ZIdlNlX1BFazllSVFjVmZkRTdOVXRDR2k2Q3ZyUWpTaDloSm5WT0pybUNhVFg3QTFObDVlMlRIaHRRMWtURWZucFN4UHVybUtVYWs4dFJFdUVCOXRZb2ptd3RJUjNfQktQd3VTek56U1RZdHZxWjZhaUxRall5ZWFGNi1xUFE?oc=5",
       "published": "2026-08-17T15:51:16+00:00",
       "source": {
-        "name": "wochenblatt-reporter.de",
+        "name": "Wochenblatt Reporter",
         "url": "https://www.wochenblatt-reporter.de"
       }
     },
     {
-      "id": "95d55d1267a1",
-      "title": "Mit Abnehmspritze Kilos loswerden - was ist dran an Ozempic & Co.? - NDR.de",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaGFzLTFfUHozOUJiWWtWdlRPUm5mZ0VkMGMxLVVGcmxmMzlONHZRV21qZmFHYUo3d2gzV3VDVm9OUHp6Qk4wQjlZTHU3V3RnckthWTZSbVpVMGE1VWxiMFMtVVJCSWdWb3hibzlscllodzVwWmpDMS1ZOXNxYkFfQVJzdlRzeGRQOWdtcW55UVRNSE16QmhJZXhVYmRmYl9iUmJBN1g2cG8?oc=5",
-      "published": "2026-07-15T07:00:00+00:00",
-      "source": {
-        "name": "NDR.de",
-        "url": "https://www.ndr.de"
-      }
-    },
-    {
-      "id": "456d3ec09be9",
-      "title": "Krebskranker bekommt nach 18 Jahren Behandlung mit falschem Medikament 640.000 Euro Entschädigung - CHIP",
+      "id": "394e5349bf89",
+      "title": "Krebskranker bekommt nach 18 Jahren Behandlung mit falschem Medikament 640.000 Euro Entschädigung - chip.de",
       "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOWU40akNNQ2p2WU9ESHFxWHdjM3RBaXA2bDlYZXlTakZxd2xzYWVHaG9Hd1lMOUxNeFNlY0J0S1FnNWl6RkxHdXFfMlBQYWwwSDBYamVlckJVOEhCdmZZcDlnUmFxMkdXbExSakJ5X1ktVXR3Z1NJNGc3ai04RHpyT2tudzZrUEFSb1RTZ2dld2ZnUGsyZG5ULXdJeFJqLVlaOHhwWDJwdWdkaC1LeUMzSDdwWUxOQVNtVkRJbDdQZmRxTGR4TFduSlJMa1lsV0U0c0h6NFlRZzlWQ1dwZnRtc3o0UndIS21DTi1GeW5mbzRxazVXMGtCUmdhd3hvbEdyN1I1a2pITnNldEYtQzRrSGR3?oc=5",
       "published": "2026-08-15T09:41:00+00:00",
       "source": {
-        "name": "CHIP",
+        "name": "chip.de",
         "url": "https://www.chip.de"
       }
     },
@@ -324,12 +324,12 @@
       }
     },
     {
-      "id": "ac0d6ecd1d51",
-      "title": "Medikamente im Urlaub: So schützen Sie sich vor Fälschungen - mt.de",
+      "id": "e89bb6a1a7a1",
+      "title": "Medikamente im Urlaub: So schützen Sie sich vor Fälschungen - Mindener Tageblatt",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVmFuWXBXcV9mM2x0cUItRFVsbl9ONUdXMVcwemo1cWVtaV8yeHktdFZaMW5BSURRRmxTMjA0OGx3eUZvVGQzOUpNSmpTODRvUFU0VXF0SkRyaVV0eWFIanJ2NHJoQWFEeDMtSVp3SUVfYnJPTHBXM3RvRzE2aEEyejdtR0dQaUltczRkRk1nVnFjM2ViMnM0aWdJNV8ycWZHYUllZGVWM0hGelpWZ2hzanp3?oc=5",
       "published": "2026-07-08T13:29:58+00:00",
       "source": {
-        "name": "mt.de",
+        "name": "Mindener Tageblatt",
         "url": "https://www.mt.de"
       }
     },
@@ -404,12 +404,12 @@
       }
     },
     {
-      "id": "198b0da65ee5",
-      "title": "HIV-Schutz mit Tabletten: Wie sicher ist PrEP im Alltag? - NDR.de",
+      "id": "6a3a426544ab",
+      "title": "HIV-Schutz mit Tabletten: Wie sicher ist PrEP im Alltag? - ndr.de",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTWhsNWk1Tkc5MzNycUQ5RzhaaXhPTGlCcHJ1Yl9wajZ0VkV3akIxR255SUd6clB5aU5fZmNlUGZIcTVNanZlTmctSDJqUFB5Zk5XempaWnhrbDBlVWZuOE9xWDRSREhKRm5sa0lrbGVnVjl0TE5NNWtTY25CUzRmdG5jQlBZc1pFakFyT0hITHU5NmpfaUE?oc=5",
       "published": "2026-07-18T07:00:00+00:00",
       "source": {
-        "name": "NDR.de",
+        "name": "ndr.de",
         "url": "https://www.ndr.de"
       }
     },
@@ -564,12 +564,12 @@
       }
     },
     {
-      "id": "47afc2884d76",
-      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - geo.de",
+      "id": "7a99adaec5c0",
+      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - Geo.de",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
       "published": "2026-06-19T07:00:00+00:00",
       "source": {
-        "name": "geo.de",
+        "name": "Geo.de",
         "url": "https://www.geo.de"
       }
     },
@@ -614,12 +614,12 @@
       }
     },
     {
-      "id": "4f1eeceab428",
-      "title": "(S+) Wie teure Krebsmedikamente das Gesundheitssystem sprengen könnten - Spiegel",
+      "id": "af1d6e81815f",
+      "title": "(S+) Wie teure Krebsmedikamente das Gesundheitssystem sprengen könnten - spiegel.de",
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNOUFWLTYwSFp0U194b0duNHVfbTVjbzFKVUV0WG1MS1FkQ2hYdmg2OGp1dnlEQTk4SjVNUEpkWWpRaTVFZFFmcjFiNC02WXNvSEhIbmdUNDk4emxWQ2VnWWtHMUotcWhXUnVsMExGRWNvdllPcUd3dVRZTWR2ZUEteWZTeFEyS1M5ZzZqZUxDSUI2RTRqMnU4MVF4SEthWm1vZEd1YjZWYjZoLUIwRTlaZTVtRXZoZERXWC1DUGhLelpNZ0M2RXFQeDU4XzBfQ3ZWUFJUdDBVcDh2aExzVmc?oc=5",
       "published": "2026-04-13T07:00:00+00:00",
       "source": {
-        "name": "Spiegel",
+        "name": "spiegel.de",
         "url": "https://www.spiegel.de"
       }
     },
@@ -704,12 +704,12 @@
       }
     },
     {
-      "id": "94dbd56bb433",
-      "title": "Medikamente, Zähne, Krankenhaus: Diese Mehrkosten könnten bald auf Patienten zukommen - CHIP",
+      "id": "987a36c62a31",
+      "title": "Medikamente, Zähne, Krankenhaus: Diese Mehrkosten könnten bald auf Patienten zukommen - chip.de",
       "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOcy1jSnhpbTFGMzQwRnV3X0c3cEw3OHl4MUpBd1poVXNwYllrTF9lRnJLVGkyS1F0TExBMzM0aG1tS2tCaGVRa2hYR05HV0R4cXJ6QmVPZ3hvX0ZvVVdLWGQzQWVLZ1pFRTdOZDY5TEY2Q3VtM0xoTjl5akRkVW5vQ1BXODVvbG1XaXF3WFRwSGRvejJzZXotSnNtLUZfaWhEbkRSTENaTk5id1JtUGlicXRWMW1raGJJX0lkbjRxYlNLZFpXTXIxZFJ4YjB4d2hLUzVhSl9jY09PLW1JZXZURnBJN0NEU0xqM3o0R2h0dGNjUU5QVFdEMmVDZEdPTXc?oc=5",
       "published": "2026-04-01T07:00:00+00:00",
       "source": {
-        "name": "CHIP",
+        "name": "chip.de",
         "url": "https://www.chip.de"
       }
     },
@@ -834,16 +834,6 @@
       }
     },
     {
-      "id": "481fde27de07",
-      "title": "Tipps vom Apotheker - Fehlende Arzneimittel - Warum sich Eltern bevorraten sollten - Gesundheit - sueddeutsche.de",
-      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOWFhLVUdkZzBFTm93WVhvZHdBSkk4ZWlPUWJQRlZFWjlSV3Npei12Wnc4YWhXZW9fMkFOLUs2TjNEanlIUENkRlJ1bmdDQWJKbFhVeEpaMmF2dEp3SjVZbjBHZlNDVUV2Z1NpekF5c3lEaUxsX3VPcDNwRHBGaVFFYXBRZ3dERXpIZWp2TzVralRSb1FEVmdfZjNJTmxMdW9WT25iZGh6QVBfQmV2UGRSby1hcWNOOWl4b2NIajFWRmZZNmhvemN2OVVSZ3dwYnlYTVBfYV9oVGlYM3B5TjJtQTZZUHkwb3cteVd1UzU5M3RaT2hiN2tjczYtOA?oc=5",
-      "published": "2025-11-30T08:00:00+00:00",
-      "source": {
-        "name": "sueddeutsche.de",
-        "url": "https://www.sueddeutsche.de"
-      }
-    },
-    {
       "id": "e7fc237accfb",
       "title": "Medikamente im DM-Drogeriemarkt – Apotheken laufen Sturm - STERN.de",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMG5SMnM4aXU5czJ1S2dnUzdMeFBmb3IxQVBKWGVvcVB0eUJQUjkxRU00RHEtQlRjVU1EM0Z2WF95SG85WDJPSjVNcjRTWFM1OHVXNm5pdVAxZGtDcHJTSXFpSDAtdUstM0JISWRKcEI5OXRXZ2hXSzQ3cFJqb0g5N0ZRajJtY21JUmRNNmZweXg1bEpuOXc0Rk9CNENaMHNOYTc4OGtjZw?oc=5",
@@ -884,12 +874,12 @@
       }
     },
     {
-      "id": "5b3c21a9706f",
-      "title": "Hendrik Streeck hinterfragt teure Medikamente für alte Menschen - Spiegel",
+      "id": "45f61385dc96",
+      "title": "Hendrik Streeck hinterfragt teure Medikamente für alte Menschen - spiegel.de",
       "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPdklWd0VveEdNaGZxM3F3RmFVdXFOQi10dUZONzlqUjBCS1EyMERpajY5dm9UajBXQnNaaG1Kc2NYUl8tOHpBZFBTQjl4X2NUdXNmckMxdDllNEVmMnZkNVRvU2Y1d3R6WUswWVFLek9rWUhOb01pSjkwbFB1SVdWaTQyc25VWi1aUGxWUGpETWU1b0plSW5qQXNZNzNmbzRPUUg0dGRVOHpEQnI4SWpkZ2diak1XSWNmNFhzSXVUd1BDYktCSkxIVmt2ekpXdGJ3ZDdYRXdWa1FwNDVo?oc=5",
       "published": "2025-11-12T08:00:00+00:00",
       "source": {
-        "name": "Spiegel",
+        "name": "spiegel.de",
         "url": "https://www.spiegel.de"
       }
     },
@@ -974,13 +964,13 @@
       }
     },
     {
-      "id": "8e4ef3c2ecf0",
-      "title": "dm: Drogeriekette startet Online-Apotheke und erntet Kritik aus der Gesundheitsbranche - Spiegel",
-      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQb3YweDJTbVRaQ3JueVhtVG1VN3dxM3dLa1ZfN3ExNDdDNllob2V1Y3FqVUtZdzNjSjF2QU0wRlhQMElUMk1OY3Vob0ZTNjBWNUQwVmxPT1IxUjlDLU5rN3pjQ3BhbWtxcjI0dWJfNHc3LWplZFZiTWNoNUxjdWtlUWE1aDFxX3doZF9ZRzJ5NU5NTVhTZy1EWFJjLXlLd3lMS1MwQ09RRHVNci1HaUVBbXVGM2UxQkFLeWdRaDRLN2h6bmRSWGprSFZFZWFjYVZvcG53UG1HdjFGVjdzVS1yeXctRUVQTkFyV2UxSklocEpSQ3RHekxmdGlub1UzeTA?oc=5",
-      "published": "2025-12-12T08:00:00+00:00",
+      "id": "08d257ba8207",
+      "title": "Hessisches Landesamt für Gesundheit u. Pflege / Zoll FFM - 1000 Pillen Zopiclon aus Indien - Freispruch statt Geldstrafe - Anwalt.de",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQZDlsbHlFWmE2ZHVlRGlObHE5ek82dWFyd2IxWDlObUdVTTlUZ0dVYWQwYjNpVzNlRHEwbTNxeHZlMUMzelpUWkRWQWhPaGhvSUNzRk82dkxHeG9FLS01a09DNFJHZW1oMXB4dnJvbjFhWkl0dzRvaGFtdkJUYk1XQS1wYnFLcnBEVWxlRUpXR1ZISGM5c1NkWGZ3Vk5jSUcxM255SjI5bllnMDFfeV8zNlZMeVJjZmw5eG4tRVJsOXVENktFelJtVnFsdFFGUjJ4eVF6clZtZC1jVHk1X1EwNWdhLXA0VmdyenNEcm9VUGtuZw?oc=5",
+      "published": "2026-01-12T08:00:00+00:00",
       "source": {
-        "name": "Spiegel",
-        "url": "https://www.spiegel.de"
+        "name": "Anwalt.de",
+        "url": "https://www.anwalt.de"
       }
     },
     {
@@ -1001,6 +991,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "a0875e22171f",
+      "title": "dm: Drogeriekette startet Online-Apotheke und erntet Kritik aus der Gesundheitsbranche - spiegel.de",
+      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQb3YweDJTbVRaQ3JueVhtVG1VN3dxM3dLa1ZfN3ExNDdDNllob2V1Y3FqVUtZdzNjSjF2QU0wRlhQMElUMk1OY3Vob0ZTNjBWNUQwVmxPT1IxUjlDLU5rN3pjQ3BhbWtxcjI0dWJfNHc3LWplZFZiTWNoNUxjdWtlUWE1aDFxX3doZF9ZRzJ5NU5NTVhTZy1EWFJjLXlLd3lMS1MwQ09RRHVNci1HaUVBbXVGM2UxQkFLeWdRaDRLN2h6bmRSWGprSFZFZWFjYVZvcG53UG1HdjFGVjdzVS1yeXctRUVQTkFyV2UxSklocEpSQ3RHekxmdGlub1UzeTA?oc=5",
+      "published": "2025-12-12T08:00:00+00:00",
+      "source": {
+        "name": "spiegel.de",
+        "url": "https://www.spiegel.de"
       }
     }
   ]
