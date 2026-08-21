@@ -1,8 +1,18 @@
 {
-  "fetched_at": "2026-08-21T01:21:33.462663+00:00",
+  "fetched_at": "2026-08-21T03:03:42.217050+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
+    {
+      "id": "917765098498",
+      "title": "Errichtung einer „Barriere“, um zu verhindern, dass gefälschte Medikamente auf den Markt gelangen. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPcGVRcDdlQVlwQXBkNkN2aVZPeVNsLTJBX3Z2UGJEMlFRMlI2N1FxYjJTTXNoeVZwSkJyM210R0RnOHlZbGcxVXFFVWZWV0pPU0hTSWdZSEF0a2ZtLVlKamxZenBmZU9tcTctUElMQll6WjBGeTJFb3liT1pQSW01Mw?oc=5",
+      "published": "2026-08-21T02:55:30+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
     {
       "id": "f27050958d37",
       "title": "35 Grad und Medikamente: Kostenlose Online-Veranstaltung informiert über Risiken - gesundheit adhoc",
@@ -54,16 +64,6 @@
       }
     },
     {
-      "id": "a0c803609fce",
-      "title": "Halbjahresbilanz der GKV entlarvt Panikmache: Krankenkassen erwirtschaften Milliarden-Überschuss - Presseportal",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB5ZEV4RUE3d09heHl1SUhPM0owd1hZeDRCS0FndEpPb1N4WFdMNUx0VXBuSVFBRVpwVWFMeGlxSXZRUnZWeVNQWHFfM1VweVhUNWVLRU04NA?oc=5",
-      "published": "2026-08-20T14:04:32+00:00",
-      "source": {
-        "name": "Presseportal",
-        "url": "https://www.presseportal.de"
-      }
-    },
-    {
       "id": "4e6d48112005",
       "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesministerium für Gesundheit (BMG)",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT3NRWE1tbWNRMllaUC1GUGtRV3YxaWhZZ21nQThUT3NGbS1DbkFfRzdSd3RvUUVsTkVJdUpYRFp0ekFHV1JtTEJZZ0I5dWJvajgzZzdZZDk5S3FROHRoeVJzS3VBRTBuTldDWW52dG5kLWxpUTlMZmpLdUZZekxaOEJQYTlUbTdLRTBsR1k4TlE1ajIxYTFiZ041eFppZktLWjJZYVQyRlNOVEd1RGdIVmpBRDMteG1xdHdyUmVn?oc=5",
@@ -74,6 +74,16 @@
       }
     },
     {
+      "id": "a0c803609fce",
+      "title": "Halbjahresbilanz der GKV entlarvt Panikmache: Krankenkassen erwirtschaften Milliarden-Überschuss - Presseportal",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB5ZEV4RUE3d09heHl1SUhPM0owd1hZeDRCS0FndEpPb1N4WFdMNUx0VXBuSVFBRVpwVWFMeGlxSXZRUnZWeVNQWHFfM1VweVhUNWVLRU04NA?oc=5",
+      "published": "2026-08-20T14:04:32+00:00",
+      "source": {
+        "name": "Presseportal",
+        "url": "https://www.presseportal.de"
+      }
+    },
+    {
       "id": "a2c6b187f94d",
       "title": "Fast jede vierte Apotheke ist weg: Wie Versender den Druck im Arzneimittelhandel erhöhen - Augsburger Allgemeine",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNmxHRnVrZVdQXzNQMmhOanhsbXlFSU53UnBGaFVkSmdFR28xWVhFa3Z5TTlaMGtnS3lxTzBkdmpNekFNMWU3U0RzZzBmYzBjQy1qaXhNalpsNEdKVl9STUI5SFBkdTk0Y3MyM3QwYjY1b0pSS2VfazM5YWxwS3pyYUJXUXVaZjVlU2lYdlhvVWNCNEpzWlQ1MUZDbENpUUdmQmhoXzhrWGRWS2h3UFVKUlp0a3U5c2hFYnQzRw?oc=5",
@@ -81,16 +91,6 @@
       "source": {
         "name": "Augsburger Allgemeine",
         "url": "https://www.augsburger-allgemeine.de"
-      }
-    },
-    {
-      "id": "a76fd6b08d08",
-      "title": "Warum die Entwicklung neuer Medikamente immer teurer wird - SWI swissinfo.ch",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZmQ0QU9CZVRqLUEzUVhFTC1GeFY0Szl6ZGVrYmk5Z1hCMjM5WVZqdkk5eW1lM0ZJOTFIdUc5UW1ieEkwUHpjVWxCVzl6M3JtNDVJUUdzcDlXZ0VseF9Ta08ybV9IWjJYeWhsZnZiNWJQeGx3NWZHY0pnMlNVZzQyckdvQWlsNW96dkFKdHBtQW9rMnNkbjNwWUk1VG1PRzMtQ1Uta3Y2eFpYblFjX2RXakFtTGxvYUpLd21GY3IyM3otdHRHaUJn?oc=5",
-      "published": "2026-08-20T08:36:05+00:00",
-      "source": {
-        "name": "SWI swissinfo.ch",
-        "url": "https://www.swissinfo.ch"
       }
     },
     {
@@ -111,6 +111,16 @@
       "source": {
         "name": "MOPO",
         "url": "https://www.mopo.de"
+      }
+    },
+    {
+      "id": "a76fd6b08d08",
+      "title": "Warum die Entwicklung neuer Medikamente immer teurer wird - SWI swissinfo.ch",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZmQ0QU9CZVRqLUEzUVhFTC1GeFY0Szl6ZGVrYmk5Z1hCMjM5WVZqdkk5eW1lM0ZJOTFIdUc5UW1ieEkwUHpjVWxCVzl6M3JtNDVJUUdzcDlXZ0VseF9Ta08ybV9IWjJYeWhsZnZiNWJQeGx3NWZHY0pnMlNVZzQyckdvQWlsNW96dkFKdHBtQW9rMnNkbjNwWUk1VG1PRzMtQ1Uta3Y2eFpYblFjX2RXakFtTGxvYUpLd21GY3IyM3otdHRHaUJn?oc=5",
+      "published": "2026-08-20T08:36:05+00:00",
+      "source": {
+        "name": "SWI swissinfo.ch",
+        "url": "https://www.swissinfo.ch"
       }
     },
     {
@@ -154,6 +164,36 @@
       }
     },
     {
+      "id": "e43d857c4393",
+      "title": "Das Gesundheitsministerium hat eine Untersuchung der Werbung für DK-Betics Gold angeordnet, da diese irreführend zu sein scheint und den Eindruck erweckt, es handele sich um ein Arzneimittel. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOVzdNc0IwSnBDMC1CLXRVTjNnRDQxc1VwOHBpYjVhQXhfX05vT29CR3pZbU51TEozMnl4VnpRby0wWUoyUVNyTjdPZjRxMkViTTkwVUM2azJUWWNmZWRTSGptTllLR3FoSFRYOWdGa0k1R1pxREhTaWVybVA2ZUdhYms4S3UyemZLbW00dEVqdHlRY3AwWU9ham5UUTQxbkEzanlTZnFaeUMtaW1fX0dPbFpqMzJCTzlabzZnUDdn?oc=5",
+      "published": "2026-08-21T02:55:27+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
+      "id": "9f7c377ed6d2",
+      "title": "MFN-Modell USA: Wie US-Arzneimittelpolitik Innovationen in Europa ausbremst - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWkw5ZTd1QUxfTlBDNjVEc0paTWpvTFpfTE9lOFM3YnhiWnBBREVhRzlMQnRmWDdkREJzVlg3UnZCN2RsTC1aTkhtN19oX2dEYmVLdXk4MXFBUnVGakk3YzVfbjZVQ0E0MUtPN2JZZ08wQ05yaTFLNER1dVYzZEo5UldOVldfQ0lCbGNRWEJZbUg0R3JBaGp6Mm1DTGd2eTYzWE9GV1hvenRGWHhOZXBxMHJMY09GUQ?oc=5",
+      "published": "2026-04-16T07:55:26+00:00",
+      "source": {
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "871e523fef7c",
+      "title": "Zuzahlungserlass: BMG fordert Durchgreifen gegen Versender - apotheke adhoc",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeE8wUkJsUjYtY0xya2wzM1F0NE1sanFzQTItcXQ1UkZuRFRBTmR3N1FidGlQLVFRYTRnUk5PMUFnTzRnTkI3WnJHdGlyeDI4T3FUSUxNQ09fcWh4VEw1c1VTZXQxYnJlejVEZm9IUVM3MDgtZHJSc2hwWWI2Ym1oTTJXdU1XNV9rQ0VDUkxYd1lHUU1hbjNJMlN1ejZxUkN5dHNsVm5ndGJtUQ?oc=5",
+      "published": "2026-07-31T07:00:00+00:00",
+      "source": {
+        "name": "apotheke adhoc",
+        "url": "https://www.apotheke-adhoc.de"
+      }
+    },
+    {
       "id": "ed5eb424a423",
       "title": "Stellvertretender Gesundheitsminister: Die Empfehlungen der WHO müssen in konkrete Aufgaben umgesetzt werden. - Vietnam.vn",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZHVlVUE3d3RGcC0xWWlKajlDcG5oQXpaa1dta3VmYUtELXJIMllMazZYNTB1dTZjaXFnZFlYSUo3ZjhuQ21lOFJXaC0zYVBJYlprSlIyTHFUZTA0ZGdDQXVIekV2WGhXN09YUHZJbnhvXzB5c2xxejdGUENuMmZvMzZWWHA5RmNiMzlpWTJMSkRQU0p1REQ3V3FPOA?oc=5",
@@ -184,23 +224,13 @@
       }
     },
     {
-      "id": "9f7c377ed6d2",
-      "title": "MFN-Modell USA: Wie US-Arzneimittelpolitik Innovationen in Europa ausbremst - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWkw5ZTd1QUxfTlBDNjVEc0paTWpvTFpfTE9lOFM3YnhiWnBBREVhRzlMQnRmWDdkREJzVlg3UnZCN2RsTC1aTkhtN19oX2dEYmVLdXk4MXFBUnVGakk3YzVfbjZVQ0E0MUtPN2JZZ08wQ05yaTFLNER1dVYzZEo5UldOVldfQ0lCbGNRWEJZbUg0R3JBaGp6Mm1DTGd2eTYzWE9GV1hvenRGWHhOZXBxMHJMY09GUQ?oc=5",
-      "published": "2026-04-16T07:55:26+00:00",
+      "id": "ae01424b6ad2",
+      "title": "Kritische Arzneimittel wieder stärker in Europa produzieren - baden-wuerttemberg.de",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSjMzcWVqRjE1TVZWbUdQLWFEMnBYcGN3WEFDaWQzVGN5YUNRWTk1dXdzYm53bGRCOEVMbnpPZWZEQ3dQdzFzNXJ0OVJac1owMFJERW1hc2Mzbk5yNkluNGhWazY5STVzdWR3Yjd5dlR3WEkySEdEOWotSndjWDZhQ09qUHVJbzZOa2hCeDA5blZ5cENQV08tWWVZSHVzNURfa1ZwNWxJNFNaYTVnRUVmRnhPMDF3WmlkcldXMFJmdlVjWEZzeGRTSUQzN2hpWjdl?oc=5",
+      "published": "2026-01-20T08:00:00+00:00",
       "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
-      }
-    },
-    {
-      "id": "871e523fef7c",
-      "title": "Zuzahlungserlass: BMG fordert Durchgreifen gegen Versender - apotheke adhoc",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeE8wUkJsUjYtY0xya2wzM1F0NE1sanFzQTItcXQ1UkZuRFRBTmR3N1FidGlQLVFRYTRnUk5PMUFnTzRnTkI3WnJHdGlyeDI4T3FUSUxNQ09fcWh4VEw1c1VTZXQxYnJlejVEZm9IUVM3MDgtZHJSc2hwWWI2Ym1oTTJXdU1XNV9rQ0VDUkxYd1lHUU1hbjNJMlN1ejZxUkN5dHNsVm5ndGJtUQ?oc=5",
-      "published": "2026-07-31T07:00:00+00:00",
-      "source": {
-        "name": "apotheke adhoc",
-        "url": "https://www.apotheke-adhoc.de"
+        "name": "baden-wuerttemberg.de",
+        "url": "https://www.baden-wuerttemberg.de"
       }
     },
     {
@@ -314,16 +344,6 @@
       }
     },
     {
-      "id": "f3bcc106fa10",
-      "title": "Verhinderung des Handels mit Heilkräutern unbekannter Herkunft. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbnBaSU1kZjdIOXpKOU9hYnBZLUxtLWg0LS02S1I1SkJ5UHZibVVwUnkwY3o4LTJhU0JyUktoZVNfSVNhWWh1SjdKS2tfTkFReFZrd1dKR0w5RzdBb29WVC1ITjFRdU1QT3E2ejZhMEJHeWJxdDdGZ1Vnc1hXb203dVFqWDRCSlZDVkRQWEZOOA?oc=5",
-      "published": "2026-08-20T03:01:47+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "b9ca65e5a941",
       "title": "Marktbericht: dm steigt in den Gesundheitsmarkt ein - tagesschau.de",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNd0RWVjQ1MFJ3RDJCdFRnZ3Z1RUU4YThkS1F2bnowNnZBQWk1QlIxdWNtMFN6a19KWWlhTnFyVUNRSGNLanRyR01ZM0lxSG1HRFBqQ3l3QXBMR1F6UU43X29oLTZEODQ1TktKWmhOVVR4YW10YWY1Qm5JZlZoLU8tMlhDYw?oc=5",
@@ -381,6 +401,16 @@
       "source": {
         "name": "Verband der Ersatzkassen (vdek)",
         "url": "https://www.vdek.com"
+      }
+    },
+    {
+      "id": "f3bcc106fa10",
+      "title": "Verhinderung des Handels mit Heilkräutern unbekannter Herkunft. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbnBaSU1kZjdIOXpKOU9hYnBZLUxtLWg0LS02S1I1SkJ5UHZibVVwUnkwY3o4LTJhU0JyUktoZVNfSVNhWWh1SjdKS2tfTkFReFZrd1dKR0w5RzdBb29WVC1ITjFRdU1QT3E2ejZhMEJHeWJxdDdGZ1Vnc1hXb203dVFqWDRCSlZDVkRQWEZOOA?oc=5",
+      "published": "2026-08-20T03:01:47+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -491,6 +521,16 @@
       "source": {
         "name": "Deutschlandfunk",
         "url": "https://www.deutschlandfunk.de"
+      }
+    },
+    {
+      "id": "705974bba917",
+      "title": "Amazon dominiert den Markt mit Gesundheitsprodukten - Deutsche Apotheker Zeitung, DAZ",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbHlZQTZWYmlGbVU5cjNqYjFlak5yVlpqT2xSenpLbFN2bDBBbE5wbTVpNDNtTmVFeUNfVlpqaHJBbUNIVVVxcVl4WThULXJaTEp3YjVQbmRfZkc5MEdCXzRKMV92aGc3UGQ4dWNVa05BM1lqcUVKZ1Z6X25rdGRNcUpha0V2a2p0N3A4LXZEdVpHTURXTVVhU1FkTkt2dUVKcWdkOTRRX25pN0JLbTQ5UXVMUjBlRmhH?oc=5",
+      "published": "2026-05-11T07:00:00+00:00",
+      "source": {
+        "name": "Deutsche Apotheker Zeitung, DAZ",
+        "url": "https://www.deutsche-apotheker-zeitung.de"
       }
     },
     {
@@ -704,6 +744,16 @@
       }
     },
     {
+      "id": "198b0da65ee5",
+      "title": "HIV-Schutz mit Tabletten: Wie sicher ist PrEP im Alltag? - NDR.de",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTWhsNWk1Tkc5MzNycUQ5RzhaaXhPTGlCcHJ1Yl9wajZ0VkV3akIxR255SUd6clB5aU5fZmNlUGZIcTVNanZlTmctSDJqUFB5Zk5XempaWnhrbDBlVWZuOE9xWDRSREhKRm5sa0lrbGVnVjl0TE5NNWtTY25CUzRmdG5jQlBZc1pFakFyT0hITHU5NmpfaUE?oc=5",
+      "published": "2026-07-18T07:00:00+00:00",
+      "source": {
+        "name": "NDR.de",
+        "url": "https://www.ndr.de"
+      }
+    },
+    {
       "id": "4f1eeceab428",
       "title": "(S+) Wie teure Krebsmedikamente das Gesundheitssystem sprengen könnten - Spiegel",
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNOUFWLTYwSFp0U194b0duNHVfbTVjbzFKVUV0WG1MS1FkQ2hYdmg2OGp1dnlEQTk4SjVNUEpkWWpRaTVFZFFmcjFiNC02WXNvSEhIbmdUNDk4emxWQ2VnWWtHMUotcWhXUnVsMExGRWNvdllPcUd3dVRZTWR2ZUEteWZTeFEyS1M5ZzZqZUxDSUI2RTRqMnU4MVF4SEthWm1vZEd1YjZWYjZoLUIwRTlaZTVtRXZoZERXWC1DUGhLelpNZ0M2RXFQeDU4XzBfQ3ZWUFJUdDBVcDh2aExzVmc?oc=5",
@@ -724,16 +774,6 @@
       }
     },
     {
-      "id": "e7fc237accfb",
-      "title": "Medikamente im DM-Drogeriemarkt – Apotheken laufen Sturm - STERN.de",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMG5SMnM4aXU5czJ1S2dnUzdMeFBmb3IxQVBKWGVvcVB0eUJQUjkxRU00RHEtQlRjVU1EM0Z2WF95SG85WDJPSjVNcjRTWFM1OHVXNm5pdVAxZGtDcHJTSXFpSDAtdUstM0JISWRKcEI5OXRXZ2hXSzQ3cFJqb0g5N0ZRajJtY21JUmRNNmZweXg1bEpuOXc0Rk9CNENaMHNOYTc4OGtjZw?oc=5",
-      "published": "2025-12-16T08:00:00+00:00",
-      "source": {
-        "name": "STERN.de",
-        "url": "https://www.stern.de"
-      }
-    },
-    {
       "id": "a54a884d55a6",
       "title": "Noch in diesem Jahr: Rossmann will Medikamente liefern - WEB.DE",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZzVIdE80VXRILUdTZTlsLTQwMHlHX1FMSjhsUGppeGJjNERCQkdLeDJwNnp6UUZTWWNmTW0xaUVZaGhHS1ZXSWV2TUZLbzNLdVVuei11TDZ4VVlQNU1CQUVuRTM0RHV3S3pYcnM3UThsNDhsaWFicE5ET0Noek1mcTFWbw?oc=5",
@@ -744,13 +784,13 @@
       }
     },
     {
-      "id": "198b0da65ee5",
-      "title": "HIV-Schutz mit Tabletten: Wie sicher ist PrEP im Alltag? - NDR.de",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTWhsNWk1Tkc5MzNycUQ5RzhaaXhPTGlCcHJ1Yl9wajZ0VkV3akIxR255SUd6clB5aU5fZmNlUGZIcTVNanZlTmctSDJqUFB5Zk5XempaWnhrbDBlVWZuOE9xWDRSREhKRm5sa0lrbGVnVjl0TE5NNWtTY25CUzRmdG5jQlBZc1pFakFyT0hITHU5NmpfaUE?oc=5",
-      "published": "2026-07-18T07:00:00+00:00",
+      "id": "e7fc237accfb",
+      "title": "Medikamente im DM-Drogeriemarkt – Apotheken laufen Sturm - STERN.de",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMG5SMnM4aXU5czJ1S2dnUzdMeFBmb3IxQVBKWGVvcVB0eUJQUjkxRU00RHEtQlRjVU1EM0Z2WF95SG85WDJPSjVNcjRTWFM1OHVXNm5pdVAxZGtDcHJTSXFpSDAtdUstM0JISWRKcEI5OXRXZ2hXSzQ3cFJqb0g5N0ZRajJtY21JUmRNNmZweXg1bEpuOXc0Rk9CNENaMHNOYTc4OGtjZw?oc=5",
+      "published": "2025-12-16T08:00:00+00:00",
       "source": {
-        "name": "NDR.de",
-        "url": "https://www.ndr.de"
+        "name": "STERN.de",
+        "url": "https://www.stern.de"
       }
     },
     {
@@ -771,16 +811,6 @@
       "source": {
         "name": "MDR.de",
         "url": "https://www.mdr.de"
-      }
-    },
-    {
-      "id": "7d876f76990e",
-      "title": "Arzneimittel-Ratschlag durch ChatGPT landet vor Gericht - Deutsche Apotheker Zeitung, DAZ",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOb2R6cDZTSjF3cDJfUW1NOERXRnRaN0hhbWJrU2hLMjMtZ0V1VjhyOHdJNllIaFlfZlM3TDhZNGVzYVkzNlFkSk5rR0NGMnJSQVlaOGdCa1o3Ty1HRjgxTy11M2NaSHE4SFBVM1FhNjZDb0VUNmVHcERnWXRqMXRxRkZUc0NjMEdKaFdabVU3UUpubE5rU1czTWtpVVpIQUZiMUJKUHlkcE1Jcks3bl9CSWg1Qm1UVnhLN2xhdDhn?oc=5",
-      "published": "2026-05-19T07:00:00+00:00",
-      "source": {
-        "name": "Deutsche Apotheker Zeitung, DAZ",
-        "url": "https://www.deutsche-apotheker-zeitung.de"
       }
     },
     {
@@ -854,12 +884,12 @@
       }
     },
     {
-      "id": "47afc2884d76",
-      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - geo.de",
+      "id": "7a99adaec5c0",
+      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - Geo.de",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
       "published": "2026-06-19T07:00:00+00:00",
       "source": {
-        "name": "geo.de",
+        "name": "Geo.de",
         "url": "https://www.geo.de"
       }
     },
@@ -924,6 +954,16 @@
       }
     },
     {
+      "id": "2dad305b24cb",
+      "title": "Rezeptfreie Medikamente: Wenn der Online-Kauf problematisch wird - Verbraucherzentrale NRW",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQbVo4UUtZTzFlZVNZOXp6c2NQeUVhU3FZUUZvTFAwSjdGcTduTlRzcFhVYXZLUDg0S0xkVnUxSGwxVzAxTjluLUhRQ3JDQjU2Y0VYU0pTUkQwYXFNdVNnSHV4bzZaU0pLM3JGQW5aQlpvYjdIQ3dZVFdHS3hBS2RHWEZDemg3VjBCM1FlOFZjSG1MNmwxd0RhdWpNdlcxUXRHTjNEcjU2eWMtakZId3Q2a2wwMlNCNlZFV3hJYmxjWlh4WlV5dHRvWWg2dFRHdThMU2ZVcy1sdDdKdw?oc=5",
+      "published": "2025-11-19T11:36:11+00:00",
+      "source": {
+        "name": "Verbraucherzentrale NRW",
+        "url": "https://www.verbraucherzentrale.nrw"
+      }
+    },
+    {
       "id": "c1eec9546c3c",
       "title": "Arzneimittel als Zukunftsinvestition - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNek45Q0xRLXZlc1ZnTDBKcHk2cUFnMkllakFtcDJzXzU2bVh5WnBMYVhBWTNoMll4Y0FmVTlfeF9kYlIxQ25OUHdJX3VpSEVCNnBJaWIzZFljQmlEeVp2Q2R3cFRXWERWd3BORmh6OF9TeWNick9Ua0dZdWMtdDlLR3FGV3o?oc=5",
@@ -961,46 +1001,6 @@
       "source": {
         "name": "gesundheit adhoc",
         "url": "https://www.gesundheit-adhoc.de"
-      }
-    },
-    {
-      "id": "80745f9d4753",
-      "title": "Gesundheitsmarkt: dm plant OTC-Angebot in Österreich - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNdHVYSEZDOFBVSGROT2l4Qi1pSEVXOXdjMGpMZmNWNTBrdjFjb004OG1xWmJtbHlSNlhMQlhUMExsSjQyMktoS1dFWVhlN1ZpWXhLR2lROW1wNVNqZXp1RkllcjBvNnIzZ2RZT3BTNVROX3lrWGgzUi1qY1RYR294M0IxUFN1ak5BaXc?oc=5",
-      "published": "2025-11-17T08:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
-      "id": "2f0394c48ff1",
-      "title": "Diskussionsrunde : Teure Orphan Drugs setzen GKV unter Druck - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMm9GbF9MdlR1T05IVU9La29FSnJzYmpWYTNqNW05eHVvMW1OVTdOX3FMaHhPT2JuUExjdkV6Zlg1NUh6WHEzS3RkQmhFLUVKWllJa2IxdDBacXl5SDZsbzc1YXY3TnIzYUpjalNfaDl6dnE2YUV0eGt1cWd0OTBiVVNYYzIzMEUybmdDRjZGQ3ZKZw?oc=5",
-      "published": "2025-11-06T08:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
-      "id": "8d1fc40266cd",
-      "title": "2025: Höchster Stand von Aufnahmen neuer Medikamente in die Spezialitätenliste - Bundesamt für Gesundheit BAG",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1HMEFNZWpPYzRReWJNTkhGRk11RnNpblJQVjNEdE1ISllXWlNUWk4yZFpWclRTOUl0M3ZJTXhSNmpMdEtuVkVWVnV3aEJXdWxld0l3dUVkdGszYnVuNEFxbldsSXNJamc?oc=5",
-      "published": "2026-01-30T08:00:00+00:00",
-      "source": {
-        "name": "Bundesamt für Gesundheit BAG",
-        "url": "https://www.bag.admin.ch"
-      }
-    },
-    {
-      "id": "b510bdfc6886",
-      "title": "»Tageschau«-Bericht: Zwei Millionen gefälschte Arzneimittel pro Jahr - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOd292Q191YU4tSkYwbERhdHVmRC10bkVuMVVxTVcxQThBN0dQRHhLbllKZkotMkpuZFlNc21BQ2plSGl0QXgzTE83MWJ1VnpVZjBfcW5OYkVwbkEyelJvWXo0MGs2Qlh4bG8wQWdyV0RZN0F4SnVSSDIza3RsRjl4TVdhejBDWUJvZy1LR1BDOXBlTTY2eVB2czVCdw?oc=5",
-      "published": "2025-09-22T07:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
       }
     }
   ]
