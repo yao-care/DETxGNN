@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-21T22:26:05.606653+00:00",
+  "fetched_at": "2026-08-21T23:24:37.501860+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -34,16 +34,6 @@
       }
     },
     {
-      "id": "0fb861264008",
-      "title": "Bald gibt es die Abnehmpille auch bei uns. Ist sie besser als die Spritze? - STERN.de",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVUlnbGpFM216Q1F2ZzVTbmJmSDhkWlMwaVlKS2xzNjdoNGlPeDNKSjBHYnpOX2VTeG0yVzAyUXM0MVUydHhWLWdBTlVTdWlSTmhQREhpc2tNTUQ1eW1ETmZ3Y0NSZlhvemJHdkZoSXQxN3NLWGpCWEU2blZlMWFEbDl3NjNVb2xRdGVpb0xRSUhzNFdZN2psdFpESHVNTDNHR2tKdG0tOERfUQ?oc=5",
-      "published": "2026-08-21T16:04:00+00:00",
-      "source": {
-        "name": "STERN.de",
-        "url": "https://www.stern.de"
-      }
-    },
-    {
       "id": "9fa13ce5acf5",
       "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
@@ -54,12 +44,22 @@
       }
     },
     {
-      "id": "689b660a4d7c",
-      "title": "USA: Sinkt die Adipositasrate wegen Ozempic-Effekt? - dw.com",
+      "id": "0fb861264008",
+      "title": "Bald gibt es die Abnehmpille auch bei uns. Ist sie besser als die Spritze? - STERN.de",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVUlnbGpFM216Q1F2ZzVTbmJmSDhkWlMwaVlKS2xzNjdoNGlPeDNKSjBHYnpOX2VTeG0yVzAyUXM0MVUydHhWLWdBTlVTdWlSTmhQREhpc2tNTUQ1eW1ETmZ3Y0NSZlhvemJHdkZoSXQxN3NLWGpCWEU2blZlMWFEbDl3NjNVb2xRdGVpb0xRSUhzNFdZN2psdFpESHVNTDNHR2tKdG0tOERfUQ?oc=5",
+      "published": "2026-08-21T16:04:00+00:00",
+      "source": {
+        "name": "STERN.de",
+        "url": "https://www.stern.de"
+      }
+    },
+    {
+      "id": "d39b017e6a34",
+      "title": "USA: Sinkt die Adipositasrate wegen Ozempic-Effekt? - DW.com",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUURWOEt0MlpIYlZaWlh4OFdRem1pSFJTMTVWWU9Bb2JGU2czcDdSS3ZocDVQREtZQXJJTzlGSjg4TGZDREY4MHZsS1FKOXZZbjBKaVJoT2lnWk82ckpLa0l4YlhERkVRNUlMMVFEVDdnSHlJTktpWWtfQkpJc3BaVUVrRmpHcXPSAYcBQVVfeXFMTlV1UjJxZTg0WGIyRUNpb2RqcGJKSTIxZU1WNmJ6MkRPM0Vzc2FiVDQ4dzAzUTdTTmppVnNKbU5PeThLN1RQQ0ZVSTNYN3RLYTZVMWRpQ0FabUIxeWdpSnJhdEh6SUF6NEhKOGozWnZRUDEwMWhSVlJMLXpRNjMtYTVwaGFjb0JR?oc=5",
       "published": "2026-08-18T08:52:00+00:00",
       "source": {
-        "name": "dw.com",
+        "name": "DW.com",
         "url": "https://www.dw.com"
       }
     },
@@ -264,12 +264,12 @@
       }
     },
     {
-      "id": "8db31424e5bb",
-      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - dw.com",
+      "id": "02e9917bea66",
+      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - DW.com",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGxHSlhmSS0tbUNKdG15NEVzRzYzYllEUnAzUEU3ak53czRHVWlKdTZrRGFDMk1MUThPUjdPTnBGVENqd3d2Q1VSdWhJVXppWDF4NWh0aEJJaXJlVTlnV0VoZVFkRHNSM3p6NVZXNjNwWHk5YkxSUWR2RGZKcmp3Y2U5REY0U3dRZFJLeHFtQk9wb2Y3RUVOaVBlMlJhZ29Rck000gGjAUFVX3lxTE1rTW00WXFBajZxbTJOS1NLckhVbXFBSzh1NE96QTEydTN1YjZnaFFNcV8xblZGM29hdTZQUHc4V3YzQ1pwcTlaVVBhZDVqMExLMTlYVzZ6TmM4ZUdsUm5TLXpPNmk1R3V4UktvaV93cWttNFpVX0VEZlZnUllSQkhyUlZmeTBJcU0zUEVSZTgxdzFWUnFNRk9CYVljN0Jhd0ZXUFk?oc=5",
       "published": "2026-05-12T07:00:00+00:00",
       "source": {
-        "name": "dw.com",
+        "name": "DW.com",
         "url": "https://www.dw.com"
       }
     },
@@ -424,16 +424,6 @@
       }
     },
     {
-      "id": "9348bc463871",
-      "title": "Thanh Hoa: Anordnung, den Handel und die Verwendung der traditionellen Medizin *Achyranthes-Wurzel* (Ngưu tất chích rượu) einzustellen - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdng3MF9oZjk3RVM4bWdhM3dqMXlOYzRRU29fNjVzYjNpWHkyRjNOLXFqRmN5MktRcnN5cXFMcW1BRHpUdEVfakNXNlhGSmItN09QbGtjVXd0QmZEaXU1dmlXNkQ3ZXlwZXhhY1E4UkdGRHFqZnhPQjBnNThGMzFJaEhPSWZtQ3JhS2tLQmFMTnA4UjczNEhOelR4OGZTR0hPNlJsVzZOOFc1dw?oc=5",
-      "published": "2026-08-21T05:06:20+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "12a6f84e648a",
       "title": "Der Herstellerabschlag im Reformstress - Verband der Ersatzkassen (vdek)",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeXdkMXpjQVBJRzhyd1dCOVloSFpjc1cyNkczZjlHYl9QMlR4aFUwN1JLc3laQ0JWd0cwTWY4cmRnMGhDbE1vTzl3ODBNR2pQR0VLM0pJa2luTURVNGZOOXJlWlFGNG5ybFZkamI2WTlpOEZ1WjNTd19lcWJDdy1vU3V1RVI0TnRUSmNJVEphZkJYbnc?oc=5",
@@ -451,6 +441,16 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "9348bc463871",
+      "title": "Thanh Hoa: Anordnung, den Handel und die Verwendung der traditionellen Medizin *Achyranthes-Wurzel* (Ngưu tất chích rượu) einzustellen - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdng3MF9oZjk3RVM4bWdhM3dqMXlOYzRRU29fNjVzYjNpWHkyRjNOLXFqRmN5MktRcnN5cXFMcW1BRHpUdEVfakNXNlhGSmItN09QbGtjVXd0QmZEaXU1dmlXNkQ3ZXlwZXhhY1E4UkdGRHFqZnhPQjBnNThGMzFJaEhPSWZtQ3JhS2tLQmFMTnA4UjczNEhOelR4OGZTR0hPNlJsVzZOOFc1dw?oc=5",
+      "published": "2026-08-21T05:06:20+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -884,12 +884,12 @@
       }
     },
     {
-      "id": "47afc2884d76",
-      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - geo.de",
+      "id": "7a99adaec5c0",
+      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - Geo.de",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
       "published": "2026-06-19T07:00:00+00:00",
       "source": {
-        "name": "geo.de",
+        "name": "Geo.de",
         "url": "https://www.geo.de"
       }
     },
