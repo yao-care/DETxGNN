@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-21T15:34:18.432951+00:00",
+  "fetched_at": "2026-08-21T16:35:20.943960+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -84,16 +84,6 @@
       }
     },
     {
-      "id": "5dd8597bc592",
-      "title": "Diese Medikamente machen Sonne plötzlich zur Gefahr - MOPO",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQnVIdHh6MWZBZTYyNlBNNVJFWWxYSUdtQkJrRTdpdXpubUM3c3FyNjVNdVk0Q0ZBaFFjeW1hN3c0ajhucG9ZT3F4b3draFhMY3FyR29PWXBmQWY4VWdHelJ5aWFZUVNycXBzbE1PQW1tQzZKdGQxMFJDUXZwdlRnU3lETEdiSW1Vb2NnRl9oSWZzdjY1SlU2SGRtN0NtWjNyM25laDB0eHRXa09jZFZVankwSGtOalE?oc=5",
-      "published": "2026-08-17T12:00:00+00:00",
-      "source": {
-        "name": "MOPO",
-        "url": "https://www.mopo.de"
-      }
-    },
-    {
       "id": "2a4cd6eb6d1d",
       "title": "Arzneimittelengpässe in Europa – so reagiert die EU - European Parliament",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYUFLam5JQVMtSlNuNWlqSTJrRUNDN215RDlRU2hOMEE0Rkp3cHBodVhSbXRsSUhvTTRhMTVLWEE5QmM0dXJRNGlPSkwyZ2doMHhlaEpHbW5DZl8tazhQc3lPcEN4SmtLaEdGMk9IZjF5MGZvNEd3a2tXSnJXT1ItanFsV2gtRGpMYjlUbHV2OURrMkM5OXA3emh5OERlMlpXc1J1UlNVYUp1UlBUd1gzREtLUkZRZw?oc=5",
@@ -101,6 +91,16 @@
       "source": {
         "name": "European Parliament",
         "url": "https://www.europarl.europa.eu"
+      }
+    },
+    {
+      "id": "5dd8597bc592",
+      "title": "Diese Medikamente machen Sonne plötzlich zur Gefahr - MOPO",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQnVIdHh6MWZBZTYyNlBNNVJFWWxYSUdtQkJrRTdpdXpubUM3c3FyNjVNdVk0Q0ZBaFFjeW1hN3c0ajhucG9ZT3F4b3draFhMY3FyR29PWXBmQWY4VWdHelJ5aWFZUVNycXBzbE1PQW1tQzZKdGQxMFJDUXZwdlRnU3lETEdiSW1Vb2NnRl9oSWZzdjY1SlU2SGRtN0NtWjNyM25laDB0eHRXa09jZFZVankwSGtOalE?oc=5",
+      "published": "2026-08-17T12:00:00+00:00",
+      "source": {
+        "name": "MOPO",
+        "url": "https://www.mopo.de"
       }
     },
     {
@@ -134,16 +134,6 @@
       }
     },
     {
-      "id": "34747eb5612d",
-      "title": "Stärkung des Managements von Arzneimitteln, Medikamenten und pharmazeutischen Rohstoffen. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORXVtZjBObVd1MVRXWU1HNHdsRWlSbDhUSXlJanlRc2R3clh3TFEyYmNZWG1vbnUyU0dsTVJ3VmV2aDN1VkxWQUpDbGF4akFIWklkbmtxTUhRZGJGakg3RWQxS3QyOWR5NUlyTnhtSDdvdDF1a2hsWVJfeEpocDNjbU5OMS14QWdVaWc?oc=5",
-      "published": "2026-08-21T09:24:27+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "1aa902285392",
       "title": "Mitführen von Betäubungsmitteln und medizinischem Cannabis auf Reisen - Kreis Coesfeld",
       "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQYlZ0bEtZbkh2d0hVYmxiWlo4blBNeG51czZEX3lmaEhJZ1VJaXh2TjgyWmVnR3AzX1ZIOVBRVHhpcnltN1p2U0hpak9WV01LUVRzQVBiNnRLR0hJckluVG5ma0JNV2lGLXE4dVhyckZUejNnTTNRbWdleEZPeHdLXzgwVUtycmtDOWd6R3dub1hUUlZqcjVDMXdaUDdOaEVYd3pxZFRHVXMtY2ZXN1R5SFpnSUpYYlVhS3F0NWV3V3B2WWhULUFCU2RkZkFIbUl1aEJacV9mOENxUzQ?oc=5",
@@ -161,6 +151,16 @@
       "source": {
         "name": "Frankfurter Rundschau",
         "url": "https://www.fr.de"
+      }
+    },
+    {
+      "id": "34747eb5612d",
+      "title": "Stärkung des Managements von Arzneimitteln, Medikamenten und pharmazeutischen Rohstoffen. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORXVtZjBObVd1MVRXWU1HNHdsRWlSbDhUSXlJanlRc2R3clh3TFEyYmNZWG1vbnUyU0dsTVJ3VmV2aDN1VkxWQUpDbGF4akFIWklkbmtxTUhRZGJGakg3RWQxS3QyOWR5NUlyTnhtSDdvdDF1a2hsWVJfeEpocDNjbU5OMS14QWdVaWc?oc=5",
+      "published": "2026-08-21T09:24:27+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -274,16 +274,6 @@
       }
     },
     {
-      "id": "9348bc463871",
-      "title": "Thanh Hoa: Anordnung, den Handel und die Verwendung der traditionellen Medizin *Achyranthes-Wurzel* (Ngưu tất chích rượu) einzustellen - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdng3MF9oZjk3RVM4bWdhM3dqMXlOYzRRU29fNjVzYjNpWHkyRjNOLXFqRmN5MktRcnN5cXFMcW1BRHpUdEVfakNXNlhGSmItN09QbGtjVXd0QmZEaXU1dmlXNkQ3ZXlwZXhhY1E4UkdGRHFqZnhPQjBnNThGMzFJaEhPSWZtQ3JhS2tLQmFMTnA4UjczNEhOelR4OGZTR0hPNlJsVzZOOFc1dw?oc=5",
-      "published": "2026-08-21T05:06:20+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "a91bce131989",
       "title": "Nachhaltigkeit: Arzneimittel als wichtiger Hebel - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPUzd6V2JNTmp0Ry1iT3dJSURwNzBORGtyeldrUFdEVEhvNFNUZUh6VmtXZnYycFZCdDlzdEJWbzNlbnZha05majRVU3VqX1U2QkVlVFZTSE5FRkc5TDZoR1BRNmd6TzYwSjdOY3kyRS1HN3p1RTI4OWdrS09HVkgyc3lIZ0s1dw?oc=5",
@@ -291,6 +281,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "9348bc463871",
+      "title": "Thanh Hoa: Anordnung, den Handel und die Verwendung der traditionellen Medizin *Achyranthes-Wurzel* (Ngưu tất chích rượu) einzustellen - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdng3MF9oZjk3RVM4bWdhM3dqMXlOYzRRU29fNjVzYjNpWHkyRjNOLXFqRmN5MktRcnN5cXFMcW1BRHpUdEVfakNXNlhGSmItN09QbGtjVXd0QmZEaXU1dmlXNkQ3ZXlwZXhhY1E4UkdGRHFqZnhPQjBnNThGMzFJaEhPSWZtQ3JhS2tLQmFMTnA4UjczNEhOelR4OGZTR0hPNlJsVzZOOFc1dw?oc=5",
+      "published": "2026-08-21T05:06:20+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -464,16 +464,6 @@
       }
     },
     {
-      "id": "f3bcc106fa10",
-      "title": "Verhinderung des Handels mit Heilkräutern unbekannter Herkunft. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbnBaSU1kZjdIOXpKOU9hYnBZLUxtLWg0LS02S1I1SkJ5UHZibVVwUnkwY3o4LTJhU0JyUktoZVNfSVNhWWh1SjdKS2tfTkFReFZrd1dKR0w5RzdBb29WVC1ITjFRdU1QT3E2ejZhMEJHeWJxdDdGZ1Vnc1hXb203dVFqWDRCSlZDVkRQWEZOOA?oc=5",
-      "published": "2026-08-20T03:01:47+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "618351e249d1",
       "title": "Haushaltspläne: Mehr Geld für Produktion kritischer Arzneimittel, keine Mittel für Gesundheit und Pflege - Deutsches Ärzteblatt",
       "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNa19XTmtzLWdGTUNhcTkyNVVMZnhDVnlNVkxETGwwVDZ1X3dFVExwZEpDZU0wREhkUk91WEgwV0lJSXEwNTJydG1TbjVRV0FVRy1rUDhwYWtBeVdkYVJuSXo2SmhPUHJ1cWRZYWc3YW5pN21mc18wZUp4Y2FSZG53QnJQZk1RZ2FFeXBxN2VkUDRFYy16ZjgxQkNSc3ppZ1ZPWGdNdG9SanVveHNHc2ZUQU5qV2JDQXpINnVVd2x5eXplUnBDZjJCdGJLRk9QemRtaEpvYlNrTjM0anBWaDRDbHBYY1d2NUtZY1N2Zmx1SWU?oc=5",
@@ -491,6 +481,16 @@
       "source": {
         "name": "Jüdische Allgemeine",
         "url": "https://www.juedische-allgemeine.de"
+      }
+    },
+    {
+      "id": "f3bcc106fa10",
+      "title": "Verhinderung des Handels mit Heilkräutern unbekannter Herkunft. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbnBaSU1kZjdIOXpKOU9hYnBZLUxtLWg0LS02S1I1SkJ5UHZibVVwUnkwY3o4LTJhU0JyUktoZVNfSVNhWWh1SjdKS2tfTkFReFZrd1dKR0w5RzdBb29WVC1ITjFRdU1QT3E2ejZhMEJHeWJxdDdGZ1Vnc1hXb203dVFqWDRCSlZDVkRQWEZOOA?oc=5",
+      "published": "2026-08-20T03:01:47+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -884,12 +884,12 @@
       }
     },
     {
-      "id": "7a99adaec5c0",
-      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - Geo.de",
+      "id": "47afc2884d76",
+      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - geo.de",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
       "published": "2026-06-19T07:00:00+00:00",
       "source": {
-        "name": "Geo.de",
+        "name": "geo.de",
         "url": "https://www.geo.de"
       }
     },
