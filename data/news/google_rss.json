@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-21T05:33:06.539399+00:00",
+  "fetched_at": "2026-08-21T06:49:22.947455+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -24,12 +24,12 @@
       }
     },
     {
-      "id": "d39b017e6a34",
-      "title": "USA: Sinkt die Adipositasrate wegen Ozempic-Effekt? - DW.com",
+      "id": "689b660a4d7c",
+      "title": "USA: Sinkt die Adipositasrate wegen Ozempic-Effekt? - dw.com",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUURWOEt0MlpIYlZaWlh4OFdRem1pSFJTMTVWWU9Bb2JGU2czcDdSS3ZocDVQREtZQXJJTzlGSjg4TGZDREY4MHZsS1FKOXZZbjBKaVJoT2lnWk82ckpLa0l4YlhERkVRNUlMMVFEVDdnSHlJTktpWWtfQkpJc3BaVUVrRmpHcXPSAYcBQVVfeXFMTlV1UjJxZTg0WGIyRUNpb2RqcGJKSTIxZU1WNmJ6MkRPM0Vzc2FiVDQ4dzAzUTdTTmppVnNKbU5PeThLN1RQQ0ZVSTNYN3RLYTZVMWRpQ0FabUIxeWdpSnJhdEh6SUF6NEhKOGozWnZRUDEwMWhSVlJMLXpRNjMtYTVwaGFjb0JR?oc=5",
       "published": "2026-08-18T08:52:00+00:00",
       "source": {
-        "name": "DW.com",
+        "name": "dw.com",
         "url": "https://www.dw.com"
       }
     },
@@ -154,13 +154,13 @@
       }
     },
     {
-      "id": "a76fd6b08d08",
-      "title": "Warum die Entwicklung neuer Medikamente immer teurer wird - SWI swissinfo.ch",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZmQ0QU9CZVRqLUEzUVhFTC1GeFY0Szl6ZGVrYmk5Z1hCMjM5WVZqdkk5eW1lM0ZJOTFIdUc5UW1ieEkwUHpjVWxCVzl6M3JtNDVJUUdzcDlXZ0VseF9Ta08ybV9IWjJYeWhsZnZiNWJQeGx3NWZHY0pnMlNVZzQyckdvQWlsNW96dkFKdHBtQW9rMnNkbjNwWUk1VG1PRzMtQ1Uta3Y2eFpYblFjX2RXakFtTGxvYUpLd21GY3IyM3otdHRHaUJn?oc=5",
-      "published": "2026-08-20T08:36:05+00:00",
+      "id": "1aa902285392",
+      "title": "Mitführen von Betäubungsmitteln und medizinischem Cannabis auf Reisen - Kreis Coesfeld",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQYlZ0bEtZbkh2d0hVYmxiWlo4blBNeG51czZEX3lmaEhJZ1VJaXh2TjgyWmVnR3AzX1ZIOVBRVHhpcnltN1p2U0hpak9WV01LUVRzQVBiNnRLR0hJckluVG5ma0JNV2lGLXE4dVhyckZUejNnTTNRbWdleEZPeHdLXzgwVUtycmtDOWd6R3dub1hUUlZqcjVDMXdaUDdOaEVYd3pxZFRHVXMtY2ZXN1R5SFpnSUpYYlVhS3F0NWV3V3B2WWhULUFCU2RkZkFIbUl1aEJacV9mOENxUzQ?oc=5",
+      "published": "2026-07-09T07:00:00+00:00",
       "source": {
-        "name": "SWI swissinfo.ch",
-        "url": "https://www.swissinfo.ch"
+        "name": "Kreis Coesfeld",
+        "url": "https://www.kreis-coesfeld.de"
       }
     },
     {
@@ -234,6 +234,16 @@
       }
     },
     {
+      "id": "a76fd6b08d08",
+      "title": "Warum die Entwicklung neuer Medikamente immer teurer wird - SWI swissinfo.ch",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZmQ0QU9CZVRqLUEzUVhFTC1GeFY0Szl6ZGVrYmk5Z1hCMjM5WVZqdkk5eW1lM0ZJOTFIdUc5UW1ieEkwUHpjVWxCVzl6M3JtNDVJUUdzcDlXZ0VseF9Ta08ybV9IWjJYeWhsZnZiNWJQeGx3NWZHY0pnMlNVZzQyckdvQWlsNW96dkFKdHBtQW9rMnNkbjNwWUk1VG1PRzMtQ1Uta3Y2eFpYblFjX2RXakFtTGxvYUpLd21GY3IyM3otdHRHaUJn?oc=5",
+      "published": "2026-08-20T08:36:05+00:00",
+      "source": {
+        "name": "SWI swissinfo.ch",
+        "url": "https://www.swissinfo.ch"
+      }
+    },
+    {
       "id": "20cda3a80103",
       "title": "Bald gibt es die Abnehmpille auch bei uns. Ist sie besser als die Spritze? - STERN.de",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNd3JZYnE4eXZtSW8xYk9sbDBTQzFkZmNfV09LTXBsS3BzeGd1NFBHR0lXT1B4UDNPNy1qamJ4R3JXaUxKeVNLY1RTVlNYUVBmOFBaS0Nkb29qRTFGcDAyV3JMaGVzQnM4WlhDN0plT004V2pGR09zQ19jUnNxaktLMlNYdWJ4X2FHRmVja0RCUWF2OFJ5d3lBck9EZC03aG81OFE?oc=5",
@@ -254,12 +264,12 @@
       }
     },
     {
-      "id": "02e9917bea66",
-      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - DW.com",
+      "id": "8db31424e5bb",
+      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - dw.com",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGxHSlhmSS0tbUNKdG15NEVzRzYzYllEUnAzUEU3ak53czRHVWlKdTZrRGFDMk1MUThPUjdPTnBGVENqd3d2Q1VSdWhJVXppWDF4NWh0aEJJaXJlVTlnV0VoZVFkRHNSM3p6NVZXNjNwWHk5YkxSUWR2RGZKcmp3Y2U5REY0U3dRZFJLeHFtQk9wb2Y3RUVOaVBlMlJhZ29Rck000gGjAUFVX3lxTE1rTW00WXFBajZxbTJOS1NLckhVbXFBSzh1NE96QTEydTN1YjZnaFFNcV8xblZGM29hdTZQUHc4V3YzQ1pwcTlaVVBhZDVqMExLMTlYVzZ6TmM4ZUdsUm5TLXpPNmk1R3V4UktvaV93cWttNFpVX0VEZlZnUllSQkhyUlZmeTBJcU0zUEVSZTgxdzFWUnFNRk9CYVljN0Jhd0ZXUFk?oc=5",
       "published": "2026-05-12T07:00:00+00:00",
       "source": {
-        "name": "DW.com",
+        "name": "dw.com",
         "url": "https://www.dw.com"
       }
     },
@@ -324,6 +334,16 @@
       }
     },
     {
+      "id": "3843ee8c2190",
+      "title": "Gesundheit - Beipackzettel von Medikamenten sollen digital werden - Ausdrucke in Apotheken sollen Option sein - Deutschlandfunk",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOclZxcXdzdDlfTXNBVkNkV1g0a1RMa05OWGcyX0RXaW5YMmpyUElhUnBJQU9QM3BzUG9iSFZnaWE0ek1iLTFQeE1wbkVhaDdrT3pVMERnT3l3VGhoOUtuS0EtT3pwazNMMGZmcmI1Z2puUHg1WWc5MzBXdHJma0l0dWNlNEhQdFdBUXF5X0V3OVRQWVA1RXFJNXJtbTVGMjNYQVlSWjNrdEttY0pQMXF0dWlwdGNUVWpFcF83a3RyX0oxSWpLaFVmc2NoVEhGNXc?oc=5",
+      "published": "2026-03-12T07:00:00+00:00",
+      "source": {
+        "name": "Deutschlandfunk",
+        "url": "https://www.deutschlandfunk.de"
+      }
+    },
+    {
       "id": "efbd015ebff1",
       "title": "Wenn Medikamente die Haut lichtempfindlich machen - Vodafone live",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdGRRYmg1bWo3RUV1dGxKcW5pcHBzQW8wbm4tUlhGLWNySGR3emhsQzRFX1h1ckNob2xWdTYweFd2Rl9hMUplM2doeTJma1RKaVZpLU5xQ0JFT0JJZ0pyNlVHU0xjb2E0YjcxbnllMk12LThUaUt2dTdtU0ZsTU9XMHZBakhIVF9XMXVKRjdnd0hjQUl6MlBlbzIxdzBkQ1dlbERzNEVadXB2UTB1?oc=5",
@@ -334,13 +354,13 @@
       }
     },
     {
-      "id": "3843ee8c2190",
-      "title": "Gesundheit - Beipackzettel von Medikamenten sollen digital werden - Ausdrucke in Apotheken sollen Option sein - Deutschlandfunk",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOclZxcXdzdDlfTXNBVkNkV1g0a1RMa05OWGcyX0RXaW5YMmpyUElhUnBJQU9QM3BzUG9iSFZnaWE0ek1iLTFQeE1wbkVhaDdrT3pVMERnT3l3VGhoOUtuS0EtT3pwazNMMGZmcmI1Z2puUHg1WWc5MzBXdHJma0l0dWNlNEhQdFdBUXF5X0V3OVRQWVA1RXFJNXJtbTVGMjNYQVlSWjNrdEttY0pQMXF0dWlwdGNUVWpFcF83a3RyX0oxSWpLaFVmc2NoVEhGNXc?oc=5",
-      "published": "2026-03-12T07:00:00+00:00",
+      "id": "e4d74f6ebf64",
+      "title": "Patienten und die Generikabranche fordern die EU auf, auf Trumps Drohungen bezüglich der Arzneimittelpreise zu reagieren - euractiv.com",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOSm0tcngyMXZvMXBmQW9MbjlzWEp1d0JKLVdvV2g4NDkyQ2FxMzhhQTFHUEtyX25Tb0VTdGVPUkt0WXJEeV9QNl84MTZ3MTU0QjgtN3VWeFc3dDVuMWNjb3ZIQ2JyemdRVXJhSHFCQ21yazg4RGU5djlTSkEzdVlsdWNnOUxvWXRyRjVVNUg5N1pRSW1aX2FlOWQ4S0pYXzNkYlJmSE9GNWRmcmNBMWIwOXc0aFJybUJYLU9xUlVVLWplN3ZkNmNvQnQ3ME55TGpVcng0TkxPd2M4MDdBc3hXNVBHNA?oc=5",
+      "published": "2026-07-03T07:19:40+00:00",
       "source": {
-        "name": "Deutschlandfunk",
-        "url": "https://www.deutschlandfunk.de"
+        "name": "euractiv.com",
+        "url": "https://euractiv.com"
       }
     },
     {
@@ -424,16 +444,6 @@
       }
     },
     {
-      "id": "618351e249d1",
-      "title": "Haushaltspläne: Mehr Geld für Produktion kritischer Arzneimittel, keine Mittel für Gesundheit und Pflege - Deutsches Ärzteblatt",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNa19XTmtzLWdGTUNhcTkyNVVMZnhDVnlNVkxETGwwVDZ1X3dFVExwZEpDZU0wREhkUk91WEgwV0lJSXEwNTJydG1TbjVRV0FVRy1rUDhwYWtBeVdkYVJuSXo2SmhPUHJ1cWRZYWc3YW5pN21mc18wZUp4Y2FSZG53QnJQZk1RZ2FFeXBxN2VkUDRFYy16ZjgxQkNSc3ppZ1ZPWGdNdG9SanVveHNHc2ZUQU5qV2JDQXpINnVVd2x5eXplUnBDZjJCdGJLRk9QemRtaEpvYlNrTjM0anBWaDRDbHBYY1d2NUtZY1N2Zmx1SWU?oc=5",
-      "published": "2025-11-11T08:00:00+00:00",
-      "source": {
-        "name": "Deutsches Ärzteblatt",
-        "url": "https://www.aerzteblatt.de"
-      }
-    },
-    {
       "id": "d04f77528724",
       "title": "Arzneimittel: Apothekerverband registriert deutlich gestiegene Ausgaben für Arzneien - DIE ZEIT",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQnNYX0ZIOXRaeWxnUDA2UTMwRG5DVmhTUmNKWlNTRTJQLVNWbDAzaXpIY2FEQ0dzaTRFYzNPSE9zUEVfU2F1WkZoZmt3NWhMMkI2VkhwbU9maWFPdnBnRXdKOU8taHRHakljeUstTHlNRUxGbVNQQ3dQckcwSlhIZnZYLVFmblBWeVhVWC1NTmE3ZjhaY0x5Z092VC1Rd2tZa20wUlBxU2tpMlRrWkpnNFJYb3Jpdw?oc=5",
@@ -444,6 +454,16 @@
       }
     },
     {
+      "id": "618351e249d1",
+      "title": "Haushaltspläne: Mehr Geld für Produktion kritischer Arzneimittel, keine Mittel für Gesundheit und Pflege - Deutsches Ärzteblatt",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNa19XTmtzLWdGTUNhcTkyNVVMZnhDVnlNVkxETGwwVDZ1X3dFVExwZEpDZU0wREhkUk91WEgwV0lJSXEwNTJydG1TbjVRV0FVRy1rUDhwYWtBeVdkYVJuSXo2SmhPUHJ1cWRZYWc3YW5pN21mc18wZUp4Y2FSZG53QnJQZk1RZ2FFeXBxN2VkUDRFYy16ZjgxQkNSc3ppZ1ZPWGdNdG9SanVveHNHc2ZUQU5qV2JDQXpINnVVd2x5eXplUnBDZjJCdGJLRk9QemRtaEpvYlNrTjM0anBWaDRDbHBYY1d2NUtZY1N2Zmx1SWU?oc=5",
+      "published": "2025-11-11T08:00:00+00:00",
+      "source": {
+        "name": "Deutsches Ärzteblatt",
+        "url": "https://www.aerzteblatt.de"
+      }
+    },
+    {
       "id": "a48a34dcb337",
       "title": "Opioide: Israel führt weltweit beim Pro-Kopf-Konsum - Jüdische Allgemeine",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1MZVF2WFVHNi01ZVZ4STRQeWMxTW9FN1lFYS1jdy0tRXhzcGRCazhCMWdWLWVpcHZzcEVNYUpqNE40OVgzYU1TazBoOXBEdkZtVEE3R3ZST0Y4WHJXcHNzWVdFdGx6aUJ6eWNIN3pEeFg0SnU0RWc?oc=5",
@@ -451,16 +471,6 @@
       "source": {
         "name": "Jüdische Allgemeine",
         "url": "https://www.juedische-allgemeine.de"
-      }
-    },
-    {
-      "id": "e4d74f6ebf64",
-      "title": "Patienten und die Generikabranche fordern die EU auf, auf Trumps Drohungen bezüglich der Arzneimittelpreise zu reagieren - euractiv.com",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOSm0tcngyMXZvMXBmQW9MbjlzWEp1d0JKLVdvV2g4NDkyQ2FxMzhhQTFHUEtyX25Tb0VTdGVPUkt0WXJEeV9QNl84MTZ3MTU0QjgtN3VWeFc3dDVuMWNjb3ZIQ2JyemdRVXJhSHFCQ21yazg4RGU5djlTSkEzdVlsdWNnOUxvWXRyRjVVNUg5N1pRSW1aX2FlOWQ4S0pYXzNkYlJmSE9GNWRmcmNBMWIwOXc0aFJybUJYLU9xUlVVLWplN3ZkNmNvQnQ3ME55TGpVcng0TkxPd2M4MDdBc3hXNVBHNA?oc=5",
-      "published": "2026-07-03T07:19:40+00:00",
-      "source": {
-        "name": "euractiv.com",
-        "url": "https://euractiv.com"
       }
     },
     {
@@ -524,26 +534,6 @@
       }
     },
     {
-      "id": "705974bba917",
-      "title": "Amazon dominiert den Markt mit Gesundheitsprodukten - Deutsche Apotheker Zeitung, DAZ",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbHlZQTZWYmlGbVU5cjNqYjFlak5yVlpqT2xSenpLbFN2bDBBbE5wbTVpNDNtTmVFeUNfVlpqaHJBbUNIVVVxcVl4WThULXJaTEp3YjVQbmRfZkc5MEdCXzRKMV92aGc3UGQ4dWNVa05BM1lqcUVKZ1Z6X25rdGRNcUpha0V2a2p0N3A4LXZEdVpHTURXTVVhU1FkTkt2dUVKcWdkOTRRX25pN0JLbTQ5UXVMUjBlRmhH?oc=5",
-      "published": "2026-05-11T07:00:00+00:00",
-      "source": {
-        "name": "Deutsche Apotheker Zeitung, DAZ",
-        "url": "https://www.deutsche-apotheker-zeitung.de"
-      }
-    },
-    {
-      "id": "829639537db1",
-      "title": "Studie: PFAS bei vielen Medikamenten verzichtbar - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOOXR2b0g0aUQyTEM1RHV3aWcwbWgzeXgwZ0NjRHEwZUZtSVp2djRlQjAyV21vQWRSTldVOFZkT0ZoejZlRlpCc3h4VlVDaldIOW1KZHB4RUVnTDh4V3RMTmx5aDV1QWFKdWxhRzk4S1hRUERxdFpoZUdPNHdpR29yOGFrd0lmUUR0VmxPa0lGX2w?oc=5",
-      "published": "2026-06-04T07:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "39655c0e5aa9",
       "title": "Gesundheit - Techniker Krankenkasse fordert geringere Medikamentenpreise - Deutschlandfunk",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOX3NDaWYzNk9TdlEwcHJfWDNzMFpsdFN5aUNwNHJTZjhocklJMURaWDlKdWdDR21aNHpwcDU5UGd6d285RXE0QUlvekdsd3VqMTdGazRKbFdRV0VLbVoxbzBNbXVJeElpcFJKTmxpTzAwcFhJZG5PSlhoQW1sTlUxaGNDTUttWmEwdEVMOHpMQWNYWmFmUkhRa2UzVzR2VVFP?oc=5",
@@ -574,6 +564,16 @@
       }
     },
     {
+      "id": "770d335601a9",
+      "title": "Aktuelle Meldungen - Per App mehr Schutz für ungeborene Kinder - saarland.de",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQSlB2RHNPd3RCZDFZaXIwbGFmMXhRQW9DTWNBNEY1Mk5WV0pxY2h4X2t0QmEtaHJ1Z3pVV0p3ZXNpSmEtVl9XdTY1MUdlbU90M2trWXduX3VjQk9MbmVpa2hsalBTa21yWkZzZFJkdklqLXllZjNzVE1DUmoyTVZydTc2Z0RSQXlVbnNpdXNSN2VlVWZ6WEM4bEN6cXFWVjJSbEFuaGJIUXZNWUIyM09ackpiV1h0cC1GM05DalBndWNUa1VJc1NhbWd3VlFWbnc1ZUg2YTZlWlR3RVdQQW9lRjhqQ2c5Zl9MQkJrTElWTFk?oc=5",
+      "published": "2025-12-04T08:00:00+00:00",
+      "source": {
+        "name": "saarland.de",
+        "url": "https://www.saarland.de"
+      }
+    },
+    {
       "id": "4bf4db7a6b88",
       "title": "App \"MedAssist sicher für zwei\" - saarland.de",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMllLZjQwdVNkTzE5YndaZHJjUmlUeGsta0QtUXllM3YzUEY0NnN2endjZTBmblJydVIzZUdwb2tTTGxIMUZkYlpHckVsV2YzNFh5X3BiZDBpT0tJMFRzajBNbjdXY3d1Zzl4SDNkb01lWEhSTmMxemVVNjdJRTJ4WGFZbGM5TGhiSlBTZjJMR2FfZlpRVFBtVi1jbGszcWEzRmF6Z3RmcHJ6N2s5VzVIVXBNZVNEVllwOURZVTJvNA?oc=5",
@@ -598,6 +598,16 @@
       "title": "»Ge­ra­de in der Apo­the­ke wird Ge­sund­heit ge­lebt« - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWGI5Ni1Wb1RMSGlZbElwcDdtVjF5TzJBTVpUd0xoblBOUHl5UG8tcXlNY1FPTHBPbU5tT2J2S2VTRkFlZlVxejM2S3V6Ty14bHlXVmEtRmRPUnNoeEd0U3pWZlQ5SlZjNGF3bnhWWGF0M2h5MHVSaFZRZjBZZy1KOEZva1l2N1dzbkF0Q2dvRUc1SVN3OVVF?oc=5",
       "published": "2026-03-19T07:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "829639537db1",
+      "title": "Studie: PFAS bei vielen Medikamenten verzichtbar - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOOXR2b0g0aUQyTEM1RHV3aWcwbWgzeXgwZ0NjRHEwZUZtSVp2djRlQjAyV21vQWRSTldVOFZkT0ZoejZlRlpCc3h4VlVDaldIOW1KZHB4RUVnTDh4V3RMTmx5aDV1QWFKdWxhRzk4S1hRUERxdFpoZUdPNHdpR29yOGFrd0lmUUR0VmxPa0lGX2w?oc=5",
+      "published": "2026-06-04T07:00:00+00:00",
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
@@ -704,16 +714,6 @@
       }
     },
     {
-      "id": "a59024d7295e",
-      "title": "Sonnenbrand vermeiden: Diese Medikamente machen lichtempfindlich - Wochenblatt Reporter",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQazQ5RlVKb04xU05lYzA4RU1lRjBQODNveUI3TWlpOHB6bEhCVFR6U2FjY0VoUHZCSU9wd0ZIdlNlX1BFazllSVFjVmZkRTdOVXRDR2k2Q3ZyUWpTaDloSm5WT0pybUNhVFg3QTFObDVlMlRIaHRRMWtURWZucFN4UHVybUtVYWs4dFJFdUVCOXRZb2ptd3RJUjNfQktQd3VTek56U1RZdHZxWjZhaUxRall5ZWFGNi1xUFE?oc=5",
-      "published": "2026-08-17T15:51:16+00:00",
-      "source": {
-        "name": "Wochenblatt Reporter",
-        "url": "https://www.wochenblatt-reporter.de"
-      }
-    },
-    {
       "id": "9d83d0e91268",
       "title": "Gutachten: PFAS in Arzneimitteln sind oft ersetzbar - oekotest.de",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcmFwTWtsWWNqb3BaNFc3UFNBT0VDcmRFbC1falEyOVlfNGlwT0FTVklPc2lKRWpFeTRVbmVrT2FkbW95SHFNeGZxdHQ1RzdicGxuNmQzTDNXb2FETWlVd3lIbU43Z2tFdThxYVJEb3RKdXJqT3NSYXQ5ZzRuNlZVRUw2RlNEZkRhRlVfLUpBWGx5cnBPRkJXNThjTk5wcjIyUFJqR0o0NFBRcEkwWUE1RQ?oc=5",
@@ -721,6 +721,16 @@
       "source": {
         "name": "oekotest.de",
         "url": "https://www.oekotest.de"
+      }
+    },
+    {
+      "id": "a59024d7295e",
+      "title": "Sonnenbrand vermeiden: Diese Medikamente machen lichtempfindlich - Wochenblatt Reporter",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQazQ5RlVKb04xU05lYzA4RU1lRjBQODNveUI3TWlpOHB6bEhCVFR6U2FjY0VoUHZCSU9wd0ZIdlNlX1BFazllSVFjVmZkRTdOVXRDR2k2Q3ZyUWpTaDloSm5WT0pybUNhVFg3QTFObDVlMlRIaHRRMWtURWZucFN4UHVybUtVYWs4dFJFdUVCOXRZb2ptd3RJUjNfQktQd3VTek56U1RZdHZxWjZhaUxRall5ZWFGNi1xUFE?oc=5",
+      "published": "2026-08-17T15:51:16+00:00",
+      "source": {
+        "name": "Wochenblatt Reporter",
+        "url": "https://www.wochenblatt-reporter.de"
       }
     },
     {
@@ -811,16 +821,6 @@
       "source": {
         "name": "MDR.de",
         "url": "https://www.mdr.de"
-      }
-    },
-    {
-      "id": "6ec9a640169a",
-      "title": "Intimgesundheit der Frau: Arzneimittel der Selbstmedikation richtig anwenden - Monitor Versorgungsforschung",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZy01dWVucjhyQ1RpaWpxTUF4YWlpcmNTU2NxWkdORVVfd2UtaXA0UkJvVTlKNEp6SE1aYUhPMmxhME5YYkVtbDJGSVcxQTUtWTg5TkM5VkR3TFktU1lXOGxTSlk0cWNUUmtjY1d1aFpndENHdk9aVk9HTi16VjFzbzBtYWhOb0FQdDNYMnNkV3pkX1Nwbk42V0Y2N2ZZX2FMOHdfV2Nna3gyNWlCblVmZFZCZ29pR0gxbzA0eUpINE5NcXc?oc=5",
-      "published": "2026-03-09T07:00:00+00:00",
-      "source": {
-        "name": "Monitor Versorgungsforschung",
-        "url": "https://www.monitor-versorgungsforschung.de"
       }
     },
     {
@@ -934,16 +934,6 @@
       }
     },
     {
-      "id": "cb9e82b5a596",
-      "title": "Pharma-Brief Spezial 3/2025: Arzneimittel als Umweltproblem - BUKO Pharma-Kampagne",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUDdWTFg4MmVyMTJlZDZWcUtYOGREV1BOcUNuQ3NZY29fVzdzSjc3Z1o3T3hXUzVva00tTUdINnlpa2NSc2dNVVcxazFpZFpzODYtVjV2bVRtd3k3Uk0zVXotMldEalRmRFJVZV9CTkxMUHlNVUsxZ2xqTjlaaWJpMElqMlQ2b2kwRlIyMjVxVk5OaFNOTWNGSg?oc=5",
-      "published": "2025-09-08T07:00:00+00:00",
-      "source": {
-        "name": "BUKO Pharma-Kampagne",
-        "url": "https://bukopharma.de"
-      }
-    },
-    {
       "id": "6d190bfe55b8",
       "title": "Nach Kommissionsvorstoß: Kosten sparen durch Homöopathie? - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOTWlKLU9oNXNxMF9tWXpFLWNrdzFXblVCaVM3aWVyZ2MxSkF4eDNRa2hhY3RLMVJPcUM1cHlXRFpvODVoNVNXektHcGhQd2tjeVlQXzY0aUxhU21xUURhNVlCVHVuYnRaTE1MWU9SN18tcmdFNVR4MkRaT0JtejFIU3B5SnZwdw?oc=5",
@@ -961,6 +951,16 @@
       "source": {
         "name": "Verbraucherzentrale NRW",
         "url": "https://www.verbraucherzentrale.nrw"
+      }
+    },
+    {
+      "id": "cb9e82b5a596",
+      "title": "Pharma-Brief Spezial 3/2025: Arzneimittel als Umweltproblem - BUKO Pharma-Kampagne",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUDdWTFg4MmVyMTJlZDZWcUtYOGREV1BOcUNuQ3NZY29fVzdzSjc3Z1o3T3hXUzVva00tTUdINnlpa2NSc2dNVVcxazFpZFpzODYtVjV2bVRtd3k3Uk0zVXotMldEalRmRFJVZV9CTkxMUHlNVUsxZ2xqTjlaaWJpMElqMlQ2b2kwRlIyMjVxVk5OaFNOTWNGSg?oc=5",
+      "published": "2025-09-08T07:00:00+00:00",
+      "source": {
+        "name": "BUKO Pharma-Kampagne",
+        "url": "https://bukopharma.de"
       }
     },
     {
