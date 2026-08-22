@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-22T11:21:16.962910+00:00",
+  "fetched_at": "2026-08-22T12:40:22.532528+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -14,12 +14,12 @@
       }
     },
     {
-      "id": "81d531e7026f",
-      "title": "Forscher entdecken möglichen neuen Weg zu wirksameren mRNA-Medikamenten - Euronews",
+      "id": "ea195cf8a0a4",
+      "title": "Forscher entdecken möglichen neuen Weg zu wirksameren mRNA-Medikamenten - Euronews.com",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNeGw3bVkyby0yMEVPc0VaRm1sVVAzYnVmcjMwS0NscG1DVkE1OVdXbXBjWFgyNHNGM0x1dXRlQkxmOGNheEVIQ1Jyem4xQWVYdlRUWkFqY0lhTWYxc3hNdEFOY0ZQSzk3YlMxTzVPWDduZWgxNmEwQk16dWxiOFM5cUJPOFc2VWZmWHhwQ25sWkduSlhQNWs5M2dSMS13eXhtQ1FqUFhITmUxdUlJTlN3Vm5VZUg3cmpy?oc=5",
       "published": "2026-08-22T06:32:45+00:00",
       "source": {
-        "name": "Euronews",
+        "name": "Euronews.com",
         "url": "https://de.euronews.com"
       }
     },
@@ -84,16 +84,6 @@
       }
     },
     {
-      "id": "39bf83209d0f",
-      "title": "Die Kontrolle über Heilkräuter und traditionelle Arzneimittel, von ihrem Ursprung bis zur Werbung, muss verschärft werden. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMlZOVFUzUDBrYWk1eF9CMXhJTnNRc29Db1gyc0JzLXlmSDRWMFliWnV2a2pFaUwtaFZlWmVTT3pLbnlEdFp2bjFZZUpYaklkVjB6M3pSYUlzX2U1Zng2Wk8yNVZuelh5VHJBMXNUREh4c29hV3dyTUpCSHFaS2s3VUowOVJBaWoydVFyLTYwNHY0d05TZWc?oc=5",
-      "published": "2026-08-21T09:44:34+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "1d15f3b6b9c3",
       "title": "Medikament online bestellen: Was (nicht) gespart werden kann - MDR.de",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQzh1VE1KZllWYkVqdlVTdVZJY0xBcGdDZUR1NGhOOXNlS3VPcktlR00tbUJPdWlHNUhCajJ4RGthVUhQUnEwaXl2T2p6Um90NXdlMTdIblB0X0lPR0pfUTZ2LTBkRWgydWRPRllnYUJGV24xaktzY1MwQmJJM0JxUlFKMnJpLV9Qd1lz?oc=5",
@@ -101,6 +91,16 @@
       "source": {
         "name": "MDR.de",
         "url": "https://www.mdr.de"
+      }
+    },
+    {
+      "id": "39bf83209d0f",
+      "title": "Die Kontrolle über Heilkräuter und traditionelle Arzneimittel, von ihrem Ursprung bis zur Werbung, muss verschärft werden. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMlZOVFUzUDBrYWk1eF9CMXhJTnNRc29Db1gyc0JzLXlmSDRWMFliWnV2a2pFaUwtaFZlWmVTT3pLbnlEdFp2bjFZZUpYaklkVjB6M3pSYUlzX2U1Zng2Wk8yNVZuelh5VHJBMXNUREh4c29hV3dyTUpCSHFaS2s3VUowOVJBaWoydVFyLTYwNHY0d05TZWc?oc=5",
+      "published": "2026-08-21T09:44:34+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -204,16 +204,6 @@
       }
     },
     {
-      "id": "5431265615fd",
-      "title": "Patente und Profitorientierung blockieren Arzneimittel: Warum Millionen keinen Zugang haben - Frankfurter Rundschau",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPb0JSbmVWcVk1ajdydzIzRF9PM2hHQWFaYWNuSjhZbmZBbXplUGFBNklQVFptakVZdGN5UVA4VW9fS3VoRmluVzd5OHV1MXJMM3NudGpTdHR5MEI4dExjSmIzM0VoVUtCeHU2VnFfWGNTSVZYWFBsOEhValduakNSd1Z1TTZEM20zTFF0R3RLYy1NWHYza196cEkwM1ljMEtKdDdCdU1TN0J2LVU0Sk9UckdzRXpJNHVMdzZvaG9Ya2FxNEk?oc=5",
-      "published": "2026-07-31T07:00:00+00:00",
-      "source": {
-        "name": "Frankfurter Rundschau",
-        "url": "https://www.fr.de"
-      }
-    },
-    {
       "id": "51e8c4b74840",
       "title": "Gesundheitsgefahr durch gefälschte Arzneimittel - Gesundheit.gv.at",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYlhNa1drQ3UydVU1Ti1QZWxOelZ2UDNkQTBsczZ4SzVIZGhQS3psTVQ5Zmw2Ujh2RGpDYzZ5TDdIbG5mYkFjRl9CX3JkS0FHQ2dlSGVZMlpRTmpva0xOX3hoTWhTM3VoZlB6bjJYbjRRcGp2NERXZmhoaEtyeGJhUDlSU0k0cURLRzNIc1FR?oc=5",
@@ -221,6 +211,16 @@
       "source": {
         "name": "Gesundheit.gv.at",
         "url": "https://www.gesundheit.gv.at"
+      }
+    },
+    {
+      "id": "5431265615fd",
+      "title": "Patente und Profitorientierung blockieren Arzneimittel: Warum Millionen keinen Zugang haben - Frankfurter Rundschau",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPb0JSbmVWcVk1ajdydzIzRF9PM2hHQWFaYWNuSjhZbmZBbXplUGFBNklQVFptakVZdGN5UVA4VW9fS3VoRmluVzd5OHV1MXJMM3NudGpTdHR5MEI4dExjSmIzM0VoVUtCeHU2VnFfWGNTSVZYWFBsOEhValduakNSd1Z1TTZEM20zTFF0R3RLYy1NWHYza196cEkwM1ljMEtKdDdCdU1TN0J2LVU0Sk9UckdzRXpJNHVMdzZvaG9Ya2FxNEk?oc=5",
+      "published": "2026-07-31T07:00:00+00:00",
+      "source": {
+        "name": "Frankfurter Rundschau",
+        "url": "https://www.fr.de"
       }
     },
     {
@@ -254,16 +254,6 @@
       }
     },
     {
-      "id": "ed5eb424a423",
-      "title": "Stellvertretender Gesundheitsminister: Die Empfehlungen der WHO müssen in konkrete Aufgaben umgesetzt werden. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZHVlVUE3d3RGcC0xWWlKajlDcG5oQXpaa1dta3VmYUtELXJIMllMazZYNTB1dTZjaXFnZFlYSUo3ZjhuQ21lOFJXaC0zYVBJYlprSlIyTHFUZTA0ZGdDQXVIekV2WGhXN09YUHZJbnhvXzB5c2xxejdGUENuMmZvMzZWWHA5RmNiMzlpWTJMSkRQU0p1REQ3V3FPOA?oc=5",
-      "published": "2026-08-18T14:24:55+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "d9cb7465e8c6",
       "title": "Ärzte vs. Apotheker – Der Verteilungskampf um die Gesundheit eskaliert - WELT",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNRWwtS2t0RWtxOWhiY3Bpcl9oaG9YUGFZeXRJZ3ZXcFMzRU9EbTBISDdZa1pYQXZCZjZ3Z19Kd18wei11cWluU3lDQ3RSVURjN05wdVU1WTBDWGFrV0lCbnJmR3FieGVDNUlMXzhyMDV2UkhCZy00M2t1Tk5rT1lrY0VFZ0tUREZTVkhkdmYxaDZLQXgzRTlRZEJveDJQZVdYWHNNM1I1U3FQZktfWElRZDV0VlBQN0gzX2NvVURQWDNUSnA0M1JNZk9pQWNwQQ?oc=5",
@@ -284,12 +274,12 @@
       }
     },
     {
-      "id": "02e9917bea66",
-      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - DW.com",
+      "id": "8db31424e5bb",
+      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - dw.com",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGxHSlhmSS0tbUNKdG15NEVzRzYzYllEUnAzUEU3ak53czRHVWlKdTZrRGFDMk1MUThPUjdPTnBGVENqd3d2Q1VSdWhJVXppWDF4NWh0aEJJaXJlVTlnV0VoZVFkRHNSM3p6NVZXNjNwWHk5YkxSUWR2RGZKcmp3Y2U5REY0U3dRZFJLeHFtQk9wb2Y3RUVOaVBlMlJhZ29Rck000gGjAUFVX3lxTE1rTW00WXFBajZxbTJOS1NLckhVbXFBSzh1NE96QTEydTN1YjZnaFFNcV8xblZGM29hdTZQUHc4V3YzQ1pwcTlaVVBhZDVqMExLMTlYVzZ6TmM4ZUdsUm5TLXpPNmk1R3V4UktvaV93cWttNFpVX0VEZlZnUllSQkhyUlZmeTBJcU0zUEVSZTgxdzFWUnFNRk9CYVljN0Jhd0ZXUFk?oc=5",
       "published": "2026-05-12T07:00:00+00:00",
       "source": {
-        "name": "DW.com",
+        "name": "dw.com",
         "url": "https://www.dw.com"
       }
     },
@@ -394,16 +384,6 @@
       }
     },
     {
-      "id": "e43d857c4393",
-      "title": "Das Gesundheitsministerium hat eine Untersuchung der Werbung für DK-Betics Gold angeordnet, da diese irreführend zu sein scheint und den Eindruck erweckt, es handele sich um ein Arzneimittel. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOVzdNc0IwSnBDMC1CLXRVTjNnRDQxc1VwOHBpYjVhQXhfX05vT29CR3pZbU51TEozMnl4VnpRby0wWUoyUVNyTjdPZjRxMkViTTkwVUM2azJUWWNmZWRTSGptTllLR3FoSFRYOWdGa0k1R1pxREhTaWVybVA2ZUdhYms4S3UyemZLbW00dEVqdHlRY3AwWU9ham5UUTQxbkEzanlTZnFaeUMtaW1fX0dPbFpqMzJCTzlabzZnUDdn?oc=5",
-      "published": "2026-08-21T02:55:27+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "10b1aec602d9",
       "title": "Medikamente mögen keine Hitze - Ihre-Vorsorge.de",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORjNQbHBlSERZOEZTSDAxdGVWUndXLVFTRmtPQ1J0djlReV9xQkdqUGFjdklRSjlsc2dxSnBBSnpzTEl6ZW53LXFGOWlXSVAxWnZ4NWk3UGw2OTRiNjlMSGN2VFg3XzlsczhsdEdDX0dfSjY1aDlvSXE5cXQ3Q3hDOF9zRW9xWEEweXc?oc=5",
@@ -421,6 +401,16 @@
       "source": {
         "name": "euractiv.com",
         "url": "https://euractiv.com"
+      }
+    },
+    {
+      "id": "e43d857c4393",
+      "title": "Das Gesundheitsministerium hat eine Untersuchung der Werbung für DK-Betics Gold angeordnet, da diese irreführend zu sein scheint und den Eindruck erweckt, es handele sich um ein Arzneimittel. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOVzdNc0IwSnBDMC1CLXRVTjNnRDQxc1VwOHBpYjVhQXhfX05vT29CR3pZbU51TEozMnl4VnpRby0wWUoyUVNyTjdPZjRxMkViTTkwVUM2azJUWWNmZWRTSGptTllLR3FoSFRYOWdGa0k1R1pxREhTaWVybVA2ZUdhYms4S3UyemZLbW00dEVqdHlRY3AwWU9ham5UUTQxbkEzanlTZnFaeUMtaW1fX0dPbFpqMzJCTzlabzZnUDdn?oc=5",
+      "published": "2026-08-21T02:55:27+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -524,6 +514,16 @@
       }
     },
     {
+      "id": "d60d4f4ff5ae",
+      "title": "Gesundheit - Auch SoVD fordert Maßnahmen gegen steigende Arzneimittelpreise - Deutschlandfunk",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNmF3c1ZhS2dyTG9MdkxYcjU4OHB6ZU8yNExEbkpFYVpBZWRfeDFWN3BHOS0wdVNheXF5Tzh0bGoxeTZONGw1R001LVNCWlI0UTNsNHo2cGFjbEw0V3B4dmZIbUVxYnhfb25tRDF6SXhvVUtZN0ZkaVFTZnZMYUg1MEZ2X0YwQ1hvWG54eTNVb09sNXlxUzd3cHVmdWJJbEJiNlI1ZjdB?oc=5",
+      "published": "2026-03-18T07:00:00+00:00",
+      "source": {
+        "name": "Deutschlandfunk",
+        "url": "https://www.deutschlandfunk.de"
+      }
+    },
+    {
       "id": "f3bcc106fa10",
       "title": "Verhinderung des Handels mit Heilkräutern unbekannter Herkunft. - Vietnam.vn",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbnBaSU1kZjdIOXpKOU9hYnBZLUxtLWg0LS02S1I1SkJ5UHZibVVwUnkwY3o4LTJhU0JyUktoZVNfSVNhWWh1SjdKS2tfTkFReFZrd1dKR0w5RzdBb29WVC1ITjFRdU1QT3E2ejZhMEJHeWJxdDdGZ1Vnc1hXb203dVFqWDRCSlZDVkRQWEZOOA?oc=5",
@@ -534,10 +534,10 @@
       }
     },
     {
-      "id": "d60d4f4ff5ae",
-      "title": "Gesundheit - Auch SoVD fordert Maßnahmen gegen steigende Arzneimittelpreise - Deutschlandfunk",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNmF3c1ZhS2dyTG9MdkxYcjU4OHB6ZU8yNExEbkpFYVpBZWRfeDFWN3BHOS0wdVNheXF5Tzh0bGoxeTZONGw1R001LVNCWlI0UTNsNHo2cGFjbEw0V3B4dmZIbUVxYnhfb25tRDF6SXhvVUtZN0ZkaVFTZnZMYUg1MEZ2X0YwQ1hvWG54eTNVb09sNXlxUzd3cHVmdWJJbEJiNlI1ZjdB?oc=5",
-      "published": "2026-03-18T07:00:00+00:00",
+      "id": "4827c0f2d4e4",
+      "title": "Gesundheit - Gesetzliche Krankenkassen fordern Maßnahmen gegen steigende Arzneimittelpreise - Deutschlandfunk",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPX2ZXSGh3TS1SUVdMakVnd0tYT040NWVQRFJQX3ZVY1VONVQ4U2lZX0xVcEZ4dXZYOURsbDJCWmM4MXVMYWJwbjE1M09oVmxVTF9UODQ4MmUtRlhVdGpuZzV1bjZOY0U4SEk5VjNEM25vU1M4a2lBNmpfa1ZzTWE2ODlBQTBfemV0M0kxMEsyTWFuYnpvd3ZVT0pFeW9aRTJhRFdHX3UtNVpONmdXNUkwMDFydmh0YXpMTVVR?oc=5",
+      "published": "2026-03-15T07:00:00+00:00",
       "source": {
         "name": "Deutschlandfunk",
         "url": "https://www.deutschlandfunk.de"
@@ -551,16 +551,6 @@
       "source": {
         "name": "Vodafone live",
         "url": "https://live.vodafone.de"
-      }
-    },
-    {
-      "id": "4827c0f2d4e4",
-      "title": "Gesundheit - Gesetzliche Krankenkassen fordern Maßnahmen gegen steigende Arzneimittelpreise - Deutschlandfunk",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPX2ZXSGh3TS1SUVdMakVnd0tYT040NWVQRFJQX3ZVY1VONVQ4U2lZX0xVcEZ4dXZYOURsbDJCWmM4MXVMYWJwbjE1M09oVmxVTF9UODQ4MmUtRlhVdGpuZzV1bjZOY0U4SEk5VjNEM25vU1M4a2lBNmpfa1ZzTWE2ODlBQTBfemV0M0kxMEsyTWFuYnpvd3ZVT0pFeW9aRTJhRFdHX3UtNVpONmdXNUkwMDFydmh0YXpMTVVR?oc=5",
-      "published": "2026-03-15T07:00:00+00:00",
-      "source": {
-        "name": "Deutschlandfunk",
-        "url": "https://www.deutschlandfunk.de"
       }
     },
     {
@@ -674,12 +664,12 @@
       }
     },
     {
-      "id": "edcf559b1a0c",
-      "title": "EU-Gesundheitskommissar prüft Folgen von Trumps Arzneipreispolitik - Euronews",
+      "id": "08f761ee3a89",
+      "title": "EU-Gesundheitskommissar prüft Folgen von Trumps Arzneipreispolitik - Euronews.com",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSzM5cWFmcTJfV010WWVadkdEVXRGblFEUTlhaUhoOThvaHV5eTJuWFVJbUtyMW9xNTJkYzNIR2Z6YWp0ZE1IWmNPb3pNcU5YY1phcUlQSU5IWWtvV0MzNDlqdHJZRU40alRPU29CWFVnUDBjLXE3UHhtV2pManQ4TzhzVEU3OHNDM2JJZm9ZbzBUbkVCRFRZYU1jMTl2UVdGRnhubmZZYWswcmZqbXAtbW5QcnRBTktIaHFFWg?oc=5",
       "published": "2026-06-16T07:00:00+00:00",
       "source": {
-        "name": "Euronews",
+        "name": "Euronews.com",
         "url": "https://de.euronews.com"
       }
     },
@@ -754,16 +744,6 @@
       }
     },
     {
-      "id": "a54a884d55a6",
-      "title": "Noch in diesem Jahr: Rossmann will Medikamente liefern - WEB.DE",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZzVIdE80VXRILUdTZTlsLTQwMHlHX1FMSjhsUGppeGJjNERCQkdLeDJwNnp6UUZTWWNmTW0xaUVZaGhHS1ZXSWV2TUZLbzNLdVVuei11TDZ4VVlQNU1CQUVuRTM0RHV3S3pYcnM3UThsNDhsaWFicE5ET0Noek1mcTFWbw?oc=5",
-      "published": "2026-07-10T07:00:00+00:00",
-      "source": {
-        "name": "WEB.DE",
-        "url": "https://web.de"
-      }
-    },
-    {
       "id": "3d2cb4e53bfe",
       "title": "Tipps vom Apotheker - Fehlende Arzneimittel - Warum sich Eltern bevorraten sollten - Gesundheit - SZ.de",
       "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOWFhLVUdkZzBFTm93WVhvZHdBSkk4ZWlPUWJQRlZFWjlSV3Npei12Wnc4YWhXZW9fMkFOLUs2TjNEanlIUENkRlJ1bmdDQWJKbFhVeEpaMmF2dEp3SjVZbjBHZlNDVUV2Z1NpekF5c3lEaUxsX3VPcDNwRHBGaVFFYXBRZ3dERXpIZWp2TzVralRSb1FEVmdfZjNJTmxMdW9WT25iZGh6QVBfQmV2UGRSby1hcWNOOWl4b2NIajFWRmZZNmhvemN2OVVSZ3dwYnlYTVBfYV9oVGlYM3B5TjJtQTZZUHkwb3cteVd1UzU5M3RaT2hiN2tjczYtOA?oc=5",
@@ -771,6 +751,16 @@
       "source": {
         "name": "SZ.de",
         "url": "https://www.sueddeutsche.de"
+      }
+    },
+    {
+      "id": "a54a884d55a6",
+      "title": "Noch in diesem Jahr: Rossmann will Medikamente liefern - WEB.DE",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZzVIdE80VXRILUdTZTlsLTQwMHlHX1FMSjhsUGppeGJjNERCQkdLeDJwNnp6UUZTWWNmTW0xaUVZaGhHS1ZXSWV2TUZLbzNLdVVuei11TDZ4VVlQNU1CQUVuRTM0RHV3S3pYcnM3UThsNDhsaWFicE5ET0Noek1mcTFWbw?oc=5",
+      "published": "2026-07-10T07:00:00+00:00",
+      "source": {
+        "name": "WEB.DE",
+        "url": "https://web.de"
       }
     },
     {
@@ -841,16 +831,6 @@
       "source": {
         "name": "WiWo",
         "url": "https://www.wiwo.de"
-      }
-    },
-    {
-      "id": "9348bc463871",
-      "title": "Thanh Hoa: Anordnung, den Handel und die Verwendung der traditionellen Medizin *Achyranthes-Wurzel* (Ngưu tất chích rượu) einzustellen - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdng3MF9oZjk3RVM4bWdhM3dqMXlOYzRRU29fNjVzYjNpWHkyRjNOLXFqRmN5MktRcnN5cXFMcW1BRHpUdEVfakNXNlhGSmItN09QbGtjVXd0QmZEaXU1dmlXNkQ3ZXlwZXhhY1E4UkdGRHFqZnhPQjBnNThGMzFJaEhPSWZtQ3JhS2tLQmFMTnA4UjczNEhOelR4OGZTR0hPNlJsVzZOOFc1dw?oc=5",
-      "published": "2026-08-21T05:06:20+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -1001,6 +981,26 @@
       "source": {
         "name": "gesundheit adhoc",
         "url": "https://www.gesundheit-adhoc.de"
+      }
+    },
+    {
+      "id": "80745f9d4753",
+      "title": "Gesundheitsmarkt: dm plant OTC-Angebot in Österreich - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNdHVYSEZDOFBVSGROT2l4Qi1pSEVXOXdjMGpMZmNWNTBrdjFjb004OG1xWmJtbHlSNlhMQlhUMExsSjQyMktoS1dFWVhlN1ZpWXhLR2lROW1wNVNqZXp1RkllcjBvNnIzZ2RZT3BTNVROX3lrWGgzUi1qY1RYR294M0IxUFN1ak5BaXc?oc=5",
+      "published": "2025-11-17T08:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "2f0394c48ff1",
+      "title": "Diskussionsrunde : Teure Orphan Drugs setzen GKV unter Druck - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMm9GbF9MdlR1T05IVU9La29FSnJzYmpWYTNqNW05eHVvMW1OVTdOX3FMaHhPT2JuUExjdkV6Zlg1NUh6WHEzS3RkQmhFLUVKWllJa2IxdDBacXl5SDZsbzc1YXY3TnIzYUpjalNfaDl6dnE2YUV0eGt1cWd0OTBiVVNYYzIzMEUybmdDRjZGQ3ZKZw?oc=5",
+      "published": "2025-11-06T08:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     }
   ]
