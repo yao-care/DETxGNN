@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-22T13:32:20.180541+00:00",
+  "fetched_at": "2026-08-22T14:21:57.278306+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -74,16 +74,6 @@
       }
     },
     {
-      "id": "540fe0d1ece6",
-      "title": "Bald gibt es die Abnehmpille auch bei uns. Ist sie besser als die Spritze? - stern.de",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVUlnbGpFM216Q1F2ZzVTbmJmSDhkWlMwaVlKS2xzNjdoNGlPeDNKSjBHYnpOX2VTeG0yVzAyUXM0MVUydHhWLWdBTlVTdWlSTmhQREhpc2tNTUQ1eW1ETmZ3Y0NSZlhvemJHdkZoSXQxN3NLWGpCWEU2blZlMWFEbDl3NjNVb2xRdGVpb0xRSUhzNFdZN2psdFpESHVNTDNHR2tKdG0tOERfUQ?oc=5",
-      "published": "2026-08-21T16:04:00+00:00",
-      "source": {
-        "name": "stern.de",
-        "url": "https://www.stern.de"
-      }
-    },
-    {
       "id": "1d15f3b6b9c3",
       "title": "Medikament online bestellen: Was (nicht) gespart werden kann - MDR.de",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQzh1VE1KZllWYkVqdlVTdVZJY0xBcGdDZUR1NGhOOXNlS3VPcktlR00tbUJPdWlHNUhCajJ4RGthVUhQUnEwaXl2T2p6Um90NXdlMTdIblB0X0lPR0pfUTZ2LTBkRWgydWRPRllnYUJGV24xaktzY1MwQmJJM0JxUlFKMnJpLV9Qd1lz?oc=5",
@@ -121,6 +111,16 @@
       "source": {
         "name": "European Parliament",
         "url": "https://www.europarl.europa.eu"
+      }
+    },
+    {
+      "id": "540fe0d1ece6",
+      "title": "Bald gibt es die Abnehmpille auch bei uns. Ist sie besser als die Spritze? - stern.de",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVUlnbGpFM216Q1F2ZzVTbmJmSDhkWlMwaVlKS2xzNjdoNGlPeDNKSjBHYnpOX2VTeG0yVzAyUXM0MVUydHhWLWdBTlVTdWlSTmhQREhpc2tNTUQ1eW1ETmZ3Y0NSZlhvemJHdkZoSXQxN3NLWGpCWEU2blZlMWFEbDl3NjNVb2xRdGVpb0xRSUhzNFdZN2psdFpESHVNTDNHR2tKdG0tOERfUQ?oc=5",
+      "published": "2026-08-21T16:04:00+00:00",
+      "source": {
+        "name": "stern.de",
+        "url": "https://www.stern.de"
       }
     },
     {
@@ -224,6 +224,16 @@
       }
     },
     {
+      "id": "50e574837ee5",
+      "title": "Medikamentenversand bei Hitze: Risiken für Arzneimittel - Apotheken Umschau",
+      "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPREY3YjJLY0JhYUEzX3FnRFlGRDJ1Vm9JamNNVTNoR3NOX0tOMTIzWUMweTJ2ekYzbktzUTZha0djdWpuN09lNHVZUWw4bVJxYXhWeWtxWUVxM0tXS2xGcGtMd29yWmdTSlFpUkxpdmRvMV9ZaEJhT3czaTY3a2VhOUVJU2p0VWZWMU9PNHZDQWt2b0FpdFhOQlNESFdTV0l0M3R4SDFVMTBOTmZMVVo5ZV9KSmZremN6cTNzOXR0a3RjT2Y0MGZjQkNMUVdFY0xZejBFanY4aDRNOEdpZzdTMVowbkZHUVNtU1htclVWeE50OUwzaWlXSG44akg3S05Odlh2MUxlYXAxbkZVbDB4eWRhZF9YZw?oc=5",
+      "published": "2026-07-31T07:00:00+00:00",
+      "source": {
+        "name": "Apotheken Umschau",
+        "url": "https://www.apotheken-umschau.de"
+      }
+    },
+    {
       "id": "bb553491699c",
       "title": "Abschaffung der Mehrwertsteuer auf Arzneimittel - openPetition",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQR2ZyOGpub3o3YjR6WktVOXowVW5aMmNRcUZnRHQteUNLdVdiWFpMSHpndXJ0ajFhSmNTQXk1LVptMF9BUHlMeGRSb2dJalBRVjkxbGE4eWhObTFsT1gzVUtGblkxNDhVMlR2b2JYb1NWSGJqd2k1bGwxODhLVFh3aVdwY3pNNV81VDk0ZkxEbmVlSXdZY2c?oc=5",
@@ -254,16 +264,6 @@
       }
     },
     {
-      "id": "02e9917bea66",
-      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - DW.com",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGxHSlhmSS0tbUNKdG15NEVzRzYzYllEUnAzUEU3ak53czRHVWlKdTZrRGFDMk1MUThPUjdPTnBGVENqd3d2Q1VSdWhJVXppWDF4NWh0aEJJaXJlVTlnV0VoZVFkRHNSM3p6NVZXNjNwWHk5YkxSUWR2RGZKcmp3Y2U5REY0U3dRZFJLeHFtQk9wb2Y3RUVOaVBlMlJhZ29Rck000gGjAUFVX3lxTE1rTW00WXFBajZxbTJOS1NLckhVbXFBSzh1NE96QTEydTN1YjZnaFFNcV8xblZGM29hdTZQUHc4V3YzQ1pwcTlaVVBhZDVqMExLMTlYVzZ6TmM4ZUdsUm5TLXpPNmk1R3V4UktvaV93cWttNFpVX0VEZlZnUllSQkhyUlZmeTBJcU0zUEVSZTgxdzFWUnFNRk9CYVljN0Jhd0ZXUFk?oc=5",
-      "published": "2026-05-12T07:00:00+00:00",
-      "source": {
-        "name": "DW.com",
-        "url": "https://www.dw.com"
-      }
-    },
-    {
       "id": "67e4e08a7431",
       "title": "Bundesverwaltungsgericht: Die feinen Unterschiede zwischen Fertig- und Rezepturarzneimitteln - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNeTl1Y01rWHNTMC14UVB3aVFNMmVGTkxHdHlpaHNSc3pmZE5SZjVTRlhhbjVCdC01T0wzMkRJbzBvU0pYY3o0eXlrNEJjaEFkZ3ZXa3BhV3pycGZMN1lOc1EzcFBUNkN0bVFuVWR2aUtHaThDb0hPR3NOMTVBVEZrNVdORXJmbzA0QUpMbFJDTTJ0bi16aDR3aFlQeFR4VUo3SDJXZEtHdGc3NWI3TElkV0dB?oc=5",
@@ -271,6 +271,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "02e9917bea66",
+      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - DW.com",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGxHSlhmSS0tbUNKdG15NEVzRzYzYllEUnAzUEU3ak53czRHVWlKdTZrRGFDMk1MUThPUjdPTnBGVENqd3d2Q1VSdWhJVXppWDF4NWh0aEJJaXJlVTlnV0VoZVFkRHNSM3p6NVZXNjNwWHk5YkxSUWR2RGZKcmp3Y2U5REY0U3dRZFJLeHFtQk9wb2Y3RUVOaVBlMlJhZ29Rck000gGjAUFVX3lxTE1rTW00WXFBajZxbTJOS1NLckhVbXFBSzh1NE96QTEydTN1YjZnaFFNcV8xblZGM29hdTZQUHc4V3YzQ1pwcTlaVVBhZDVqMExLMTlYVzZ6TmM4ZUdsUm5TLXpPNmk1R3V4UktvaV93cWttNFpVX0VEZlZnUllSQkhyUlZmeTBJcU0zUEVSZTgxdzFWUnFNRk9CYVljN0Jhd0ZXUFk?oc=5",
+      "published": "2026-05-12T07:00:00+00:00",
+      "source": {
+        "name": "DW.com",
+        "url": "https://www.dw.com"
       }
     },
     {
@@ -301,16 +311,6 @@
       "source": {
         "name": "ADAC",
         "url": "https://www.adac.de"
-      }
-    },
-    {
-      "id": "50e574837ee5",
-      "title": "Medikamentenversand bei Hitze: Risiken für Arzneimittel - Apotheken Umschau",
-      "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPREY3YjJLY0JhYUEzX3FnRFlGRDJ1Vm9JamNNVTNoR3NOX0tOMTIzWUMweTJ2ekYzbktzUTZha0djdWpuN09lNHVZUWw4bVJxYXhWeWtxWUVxM0tXS2xGcGtMd29yWmdTSlFpUkxpdmRvMV9ZaEJhT3czaTY3a2VhOUVJU2p0VWZWMU9PNHZDQWt2b0FpdFhOQlNESFdTV0l0M3R4SDFVMTBOTmZMVVo5ZV9KSmZremN6cTNzOXR0a3RjT2Y0MGZjQkNMUVdFY0xZejBFanY4aDRNOEdpZzdTMVowbkZHUVNtU1htclVWeE50OUwzaWlXSG44akg3S05Odlh2MUxlYXAxbkZVbDB4eWRhZF9YZw?oc=5",
-      "published": "2026-07-31T07:00:00+00:00",
-      "source": {
-        "name": "Apotheken Umschau",
-        "url": "https://www.apotheken-umschau.de"
       }
     },
     {
@@ -464,16 +464,6 @@
       }
     },
     {
-      "id": "618351e249d1",
-      "title": "Haushaltspläne: Mehr Geld für Produktion kritischer Arzneimittel, keine Mittel für Gesundheit und Pflege - Deutsches Ärzteblatt",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNa19XTmtzLWdGTUNhcTkyNVVMZnhDVnlNVkxETGwwVDZ1X3dFVExwZEpDZU0wREhkUk91WEgwV0lJSXEwNTJydG1TbjVRV0FVRy1rUDhwYWtBeVdkYVJuSXo2SmhPUHJ1cWRZYWc3YW5pN21mc18wZUp4Y2FSZG53QnJQZk1RZ2FFeXBxN2VkUDRFYy16ZjgxQkNSc3ppZ1ZPWGdNdG9SanVveHNHc2ZUQU5qV2JDQXpINnVVd2x5eXplUnBDZjJCdGJLRk9QemRtaEpvYlNrTjM0anBWaDRDbHBYY1d2NUtZY1N2Zmx1SWU?oc=5",
-      "published": "2025-11-11T08:00:00+00:00",
-      "source": {
-        "name": "Deutsches Ärzteblatt",
-        "url": "https://www.aerzteblatt.de"
-      }
-    },
-    {
       "id": "432315fa2251",
       "title": "Erstmals Medikament gegen Fettleber zugelassen - tagesschau.de",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPQnhCQmdtRXhCd0ZKc1FDYzViaTZEblZ5TjJNWDBvZ3ptX2g0OENQemNDUk1sWGh5T1FrOEtvaGtSSDItcXlieVd0cDVfdDF0a2U3clFWSGlvd21wUWtwVzI4UEZIZ1BBUlVJSC16SExXaWFDTlF6YlNjMk96a2pEYnpVRm1rQQ?oc=5",
@@ -481,6 +471,16 @@
       "source": {
         "name": "tagesschau.de",
         "url": "https://www.tagesschau.de"
+      }
+    },
+    {
+      "id": "618351e249d1",
+      "title": "Haushaltspläne: Mehr Geld für Produktion kritischer Arzneimittel, keine Mittel für Gesundheit und Pflege - Deutsches Ärzteblatt",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNa19XTmtzLWdGTUNhcTkyNVVMZnhDVnlNVkxETGwwVDZ1X3dFVExwZEpDZU0wREhkUk91WEgwV0lJSXEwNTJydG1TbjVRV0FVRy1rUDhwYWtBeVdkYVJuSXo2SmhPUHJ1cWRZYWc3YW5pN21mc18wZUp4Y2FSZG53QnJQZk1RZ2FFeXBxN2VkUDRFYy16ZjgxQkNSc3ppZ1ZPWGdNdG9SanVveHNHc2ZUQU5qV2JDQXpINnVVd2x5eXplUnBDZjJCdGJLRk9QemRtaEpvYlNrTjM0anBWaDRDbHBYY1d2NUtZY1N2Zmx1SWU?oc=5",
+      "published": "2025-11-11T08:00:00+00:00",
+      "source": {
+        "name": "Deutsches Ärzteblatt",
+        "url": "https://www.aerzteblatt.de"
       }
     },
     {
@@ -544,16 +544,6 @@
       }
     },
     {
-      "id": "efbd015ebff1",
-      "title": "Wenn Medikamente die Haut lichtempfindlich machen - Vodafone live",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdGRRYmg1bWo3RUV1dGxKcW5pcHBzQW8wbm4tUlhGLWNySGR3emhsQzRFX1h1ckNob2xWdTYweFd2Rl9hMUplM2doeTJma1RKaVZpLU5xQ0JFT0JJZ0pyNlVHU0xjb2E0YjcxbnllMk12LThUaUt2dTdtU0ZsTU9XMHZBakhIVF9XMXVKRjdnd0hjQUl6MlBlbzIxdzBkQ1dlbERzNEVadXB2UTB1?oc=5",
-      "published": "2026-08-16T04:39:00+00:00",
-      "source": {
-        "name": "Vodafone live",
-        "url": "https://live.vodafone.de"
-      }
-    },
-    {
       "id": "39655c0e5aa9",
       "title": "Gesundheit - Techniker Krankenkasse fordert geringere Medikamentenpreise - Deutschlandfunk",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOX3NDaWYzNk9TdlEwcHJfWDNzMFpsdFN5aUNwNHJTZjhocklJMURaWDlKdWdDR21aNHpwcDU5UGd6d285RXE0QUlvekdsd3VqMTdGazRKbFdRV0VLbVoxbzBNbXVJeElpcFJKTmxpTzAwcFhJZG5PSlhoQW1sTlUxaGNDTUttWmEwdEVMOHpMQWNYWmFmUkhRa2UzVzR2VVFP?oc=5",
@@ -561,6 +551,16 @@
       "source": {
         "name": "Deutschlandfunk",
         "url": "https://www.deutschlandfunk.de"
+      }
+    },
+    {
+      "id": "efbd015ebff1",
+      "title": "Wenn Medikamente die Haut lichtempfindlich machen - Vodafone live",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdGRRYmg1bWo3RUV1dGxKcW5pcHBzQW8wbm4tUlhGLWNySGR3emhsQzRFX1h1ckNob2xWdTYweFd2Rl9hMUplM2doeTJma1RKaVZpLU5xQ0JFT0JJZ0pyNlVHU0xjb2E0YjcxbnllMk12LThUaUt2dTdtU0ZsTU9XMHZBakhIVF9XMXVKRjdnd0hjQUl6MlBlbzIxdzBkQ1dlbERzNEVadXB2UTB1?oc=5",
+      "published": "2026-08-16T04:39:00+00:00",
+      "source": {
+        "name": "Vodafone live",
+        "url": "https://live.vodafone.de"
       }
     },
     {
@@ -644,6 +644,16 @@
       }
     },
     {
+      "id": "054c2beef78c",
+      "title": "Marktgröße, Marktanteil für natürliche Gesundheitsmedikamente | Prognose [2034] - Fortune Business Insights",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcm9jWnMyZy1ubkhPQXFmQ1dzUmtCU0V4X0dTMlEzZnpVeEVnVmxNU0VweEJsR2hNakhlN0JxRk9kMVVhVFZFNWhpXzhtR2g3cTdRQVM5d1lON25zT1FXV3hJNlJ1dDY5R2JUUld0UGRadUs4aFM5elJ6Z0RqX3BFS1ZEcERJUUh0MldhbVRybzN6anhOZnRHMw?oc=5",
+      "published": "2026-06-29T07:00:00+00:00",
+      "source": {
+        "name": "Fortune Business Insights",
+        "url": "https://www.fortunebusinessinsights.com"
+      }
+    },
+    {
       "id": "1f4441bb42a2",
       "title": "Medizinprodukte: US-Arzneibehörde will Auflagen für neue Medikamente lockern - DIE ZEIT",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMDQ4aUF0OUVjbTB5LXZPc1JjcGo2U2RMUHdCNlpmQXV3RHFQeHJfRHlGcUZxVDRjZEVZV21TRmRTalZTdU9WN1RWeFREc212am9oREtTNjNBU0o5dW51RHM3US1WOXdFbWtnZ1RwM2diM21uTkVRN25HTVc1ZjNiM2Vhc0FjYXlBd1FadUM2RGd0UkEyalBmUWNpcmxMNTV3dUswMGlQSQ?oc=5",
@@ -684,16 +694,6 @@
       }
     },
     {
-      "id": "5874c2ed91f1",
-      "title": "Pharma-Paket: EU erzielt Einigung zur Reform des 20 Jahre alten Arzneimittelrechts - euractiv.com",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYTZvc24ycS13bDZMeGVVbkUydlp4ZW1RN1NPVmhEVUpwMUpONWo0VXVmVlRXeTFYN2p5R0YxRnRBaTRSb2V3UmI4bXhIWUl2dUg0V2I4ekFPbEZPUVROUnJBdXpDMWN2bVpnUTNjeXFnVm51a1JnQ1RXXzJlVlUyc3UxNEFnQmd5dEtJWFVSZ2RQTkJZRU1oWkJ0Vk9uUThPSVZDeEdUdG9TRkRzVGhKUA?oc=5",
-      "published": "2025-12-11T08:00:00+00:00",
-      "source": {
-        "name": "euractiv.com",
-        "url": "https://euractiv.com"
-      }
-    },
-    {
       "id": "09e9d0a2ff53",
       "title": "Krebsmedikament: Meistverkauftes Krebsmittel wird offenbar viel zu teuer verkauft - DIE ZEIT",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZUdKR1hQcHVBS3JEX3dma19JcW5GTmlCcmxGRmpKbHFwZzduVkpReEh1RnFiOUM2amRvRGl4Z0tDellhTUc1bzU1cl82T3J0N1hnYnVDZF9ERlpxU3JobkphRmRjVk55cjRUZ0tkTlFTZmRSYm0tQVpYSzBtb2xNclVkelpWaTJ5UXQ4TVNoUVFoeVd5RkpqanJqMWpmdw?oc=5",
@@ -711,16 +711,6 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
-      "id": "601ed3b311ae",
-      "title": "Shop Apotheke von Redcare Pharmacy - Online-Apotheke mit über 250000 Produkten und E-Rezept-Service - Ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUXVOck84d0pXTGhFdUhNaTg0YmZIMHp1TzZQd2lWaUhyWGJLcnM3eHlFU1loNGJ5WWdpUXNyUmFUVUpKVEg2Rk8wZjZUdkhSbmw3X25DQUZneEo1N3FkajNXLWR2NGFfTVZKVUV4TzVrSmVNQkxlNy1EOGx1WmdxTkE5ck5KZWk2VVZYcFNGTTE1SlVCUTlVNzRoYUU3MmVPWVFaaEtNV2JQaDkxRU1zOUJrc25yREVXVXZpTmZBdkg?oc=5",
-      "published": "2026-08-21T20:05:18+00:00",
-      "source": {
-        "name": "Ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -774,6 +764,16 @@
       }
     },
     {
+      "id": "601ed3b311ae",
+      "title": "Shop Apotheke von Redcare Pharmacy - Online-Apotheke mit über 250000 Produkten und E-Rezept-Service - Ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUXVOck84d0pXTGhFdUhNaTg0YmZIMHp1TzZQd2lWaUhyWGJLcnM3eHlFU1loNGJ5WWdpUXNyUmFUVUpKVEg2Rk8wZjZUdkhSbmw3X25DQUZneEo1N3FkajNXLWR2NGFfTVZKVUV4TzVrSmVNQkxlNy1EOGx1WmdxTkE5ck5KZWk2VVZYcFNGTTE1SlVCUTlVNzRoYUU3MmVPWVFaaEtNV2JQaDkxRU1zOUJrc25yREVXVXZpTmZBdkg?oc=5",
+      "published": "2026-08-21T20:05:18+00:00",
+      "source": {
+        "name": "Ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
+      }
+    },
+    {
       "id": "a54a884d55a6",
       "title": "Noch in diesem Jahr: Rossmann will Medikamente liefern - WEB.DE",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZzVIdE80VXRILUdTZTlsLTQwMHlHX1FMSjhsUGppeGJjNERCQkdLeDJwNnp6UUZTWWNmTW0xaUVZaGhHS1ZXSWV2TUZLbzNLdVVuei11TDZ4VVlQNU1CQUVuRTM0RHV3S3pYcnM3UThsNDhsaWFicE5ET0Noek1mcTFWbw?oc=5",
@@ -824,16 +824,6 @@
       }
     },
     {
-      "id": "7d876f76990e",
-      "title": "Arzneimittel-Ratschlag durch ChatGPT landet vor Gericht - Deutsche Apotheker Zeitung, DAZ",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOb2R6cDZTSjF3cDJfUW1NOERXRnRaN0hhbWJrU2hLMjMtZ0V1VjhyOHdJNllIaFlfZlM3TDhZNGVzYVkzNlFkSk5rR0NGMnJSQVlaOGdCa1o3Ty1HRjgxTy11M2NaSHE4SFBVM1FhNjZDb0VUNmVHcERnWXRqMXRxRkZUc0NjMEdKaFdabVU3UUpubE5rU1czTWtpVVpIQUZiMUJKUHlkcE1Jcks3bl9CSWg1Qm1UVnhLN2xhdDhn?oc=5",
-      "published": "2026-05-19T07:00:00+00:00",
-      "source": {
-        "name": "Deutsche Apotheker Zeitung, DAZ",
-        "url": "https://www.deutsche-apotheker-zeitung.de"
-      }
-    },
-    {
       "id": "82e89bf7d869",
       "title": "Sommerhitze: Achtung, manche Medikamente wirken anders - Lippische Landes-Zeitung",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONzl4d0d1dXJiR0E4SXNkcmdFYXVyaXI1dGQta0JQWnRRQ1lTUjZPUlRuRjRWQUZ5VHNvRnFOc3BVMmRERGdNRGNfNXA4TkhtZlgtMzNhWGNDQTZHZEpQcENFbjV4bEI4VzFENkV0TnNWUkY4djI4ZHJRdFFkNU9iQVdPdnNIWnkzdnNXWFAyeFFrZDZFNVdDeHMwZFFRX1lsY0IzNkpsVQ?oc=5",
@@ -851,6 +841,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "7d876f76990e",
+      "title": "Arzneimittel-Ratschlag durch ChatGPT landet vor Gericht - Deutsche Apotheker Zeitung, DAZ",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOb2R6cDZTSjF3cDJfUW1NOERXRnRaN0hhbWJrU2hLMjMtZ0V1VjhyOHdJNllIaFlfZlM3TDhZNGVzYVkzNlFkSk5rR0NGMnJSQVlaOGdCa1o3Ty1HRjgxTy11M2NaSHE4SFBVM1FhNjZDb0VUNmVHcERnWXRqMXRxRkZUc0NjMEdKaFdabVU3UUpubE5rU1czTWtpVVpIQUZiMUJKUHlkcE1Jcks3bl9CSWg1Qm1UVnhLN2xhdDhn?oc=5",
+      "published": "2026-05-19T07:00:00+00:00",
+      "source": {
+        "name": "Deutsche Apotheker Zeitung, DAZ",
+        "url": "https://www.deutsche-apotheker-zeitung.de"
       }
     },
     {
@@ -894,16 +894,6 @@
       }
     },
     {
-      "id": "7a99adaec5c0",
-      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - Geo.de",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
-      "published": "2026-06-19T07:00:00+00:00",
-      "source": {
-        "name": "Geo.de",
-        "url": "https://www.geo.de"
-      }
-    },
-    {
       "id": "2aa053163d77",
       "title": "Krisenfall: Schwaches Gesundheitssystem, schwacher Staat - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQR0JucXpoc0ZtZjFpUHphX3JmWF84RDd1ZXhfc1Z1MW9oVEtYRUdOTzZ1NVhBdnZMVE8wRTBQQ01hZzRicDBrRXdaRlhCcnFLRjdZblNoYmxMSGhXOEYtNjJ3aHVYZm93MjRHSEhvNDEwUXp6YmZhUjl2eTNLNlJ4T2Z5ejc4UDgzUHdKU0dOQjRJUDBp?oc=5",
@@ -911,6 +901,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "7a99adaec5c0",
+      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - Geo.de",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
+      "published": "2026-06-19T07:00:00+00:00",
+      "source": {
+        "name": "Geo.de",
+        "url": "https://www.geo.de"
       }
     },
     {
