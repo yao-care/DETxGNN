@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-23T11:21:13.776442+00:00",
+  "fetched_at": "2026-08-23T12:41:21.290552+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -204,16 +204,6 @@
       }
     },
     {
-      "id": "4caa1104babd",
-      "title": "Hüten Sie sich vor der „Falle“ der Potenzmittel. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9fdmVyWHZsejViSHpTLW9GaXNQSnRYLUFQcVdHWFo1QWdVT0I0UjRsRUxFU2VrdmxZQmNMQ3dQNjFWWGZsMzNwTWtNeGRqeG9RRkxDT0hsRGtMSUJ5eXFnUGhNem9TdGVDOGFHc0pXNXhBaHNnYW9r?oc=5",
-      "published": "2026-08-23T10:45:04+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "917765098498",
       "title": "Errichtung einer „Barriere“, um zu verhindern, dass gefälschte Medikamente auf den Markt gelangen. - Vietnam.vn",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPcGVRcDdlQVlwQXBkNkN2aVZPeVNsLTJBX3Z2UGJEMlFRMlI2N1FxYjJTTXNoeVZwSkJyM210R0RnOHlZbGcxVXFFVWZWV0pPU0hTSWdZSEF0a2ZtLVlKamxZenBmZU9tcTctUElMQll6WjBGeTJFb3liT1pQSW01Mw?oc=5",
@@ -231,6 +221,16 @@
       "source": {
         "name": "CHIP",
         "url": "https://www.chip.de"
+      }
+    },
+    {
+      "id": "4caa1104babd",
+      "title": "Hüten Sie sich vor der „Falle“ der Potenzmittel. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9fdmVyWHZsejViSHpTLW9GaXNQSnRYLUFQcVdHWFo1QWdVT0I0UjRsRUxFU2VrdmxZQmNMQ3dQNjFWWGZsMzNwTWtNeGRqeG9RRkxDT0hsRGtMSUJ5eXFnUGhNem9TdGVDOGFHc0pXNXhBaHNnYW9r?oc=5",
+      "published": "2026-08-23T10:45:04+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -574,16 +574,6 @@
       }
     },
     {
-      "id": "f3bcc106fa10",
-      "title": "Verhinderung des Handels mit Heilkräutern unbekannter Herkunft. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbnBaSU1kZjdIOXpKOU9hYnBZLUxtLWg0LS02S1I1SkJ5UHZibVVwUnkwY3o4LTJhU0JyUktoZVNfSVNhWWh1SjdKS2tfTkFReFZrd1dKR0w5RzdBb29WVC1ITjFRdU1QT3E2ejZhMEJHeWJxdDdGZ1Vnc1hXb203dVFqWDRCSlZDVkRQWEZOOA?oc=5",
-      "published": "2026-08-20T03:01:47+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "8308fd9ff3ea",
       "title": "»Ge­ra­de in der Apo­the­ke wird Ge­sund­heit ge­lebt« - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWGI5Ni1Wb1RMSGlZbElwcDdtVjF5TzJBTVpUd0xoblBOUHl5UG8tcXlNY1FPTHBPbU5tT2J2S2VTRkFlZlVxejM2S3V6Ty14bHlXVmEtRmRPUnNoeEd0U3pWZlQ5SlZjNGF3bnhWWGF0M2h5MHVSaFZRZjBZZy1KOEZva1l2N1dzbkF0Q2dvRUc1SVN3OVVF?oc=5",
@@ -591,6 +581,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "f3bcc106fa10",
+      "title": "Verhinderung des Handels mit Heilkräutern unbekannter Herkunft. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbnBaSU1kZjdIOXpKOU9hYnBZLUxtLWg0LS02S1I1SkJ5UHZibVVwUnkwY3o4LTJhU0JyUktoZVNfSVNhWWh1SjdKS2tfTkFReFZrd1dKR0w5RzdBb29WVC1ITjFRdU1QT3E2ejZhMEJHeWJxdDdGZ1Vnc1hXb203dVFqWDRCSlZDVkRQWEZOOA?oc=5",
+      "published": "2026-08-20T03:01:47+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
