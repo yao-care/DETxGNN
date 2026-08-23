@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-22T23:21:22.310100+00:00",
+  "fetched_at": "2026-08-23T01:23:45.898752+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -14,12 +14,12 @@
       }
     },
     {
-      "id": "ea195cf8a0a4",
-      "title": "Forscher entdecken möglichen neuen Weg zu wirksameren mRNA-Medikamenten - Euronews.com",
+      "id": "81d531e7026f",
+      "title": "Forscher entdecken möglichen neuen Weg zu wirksameren mRNA-Medikamenten - Euronews",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNeGw3bVkyby0yMEVPc0VaRm1sVVAzYnVmcjMwS0NscG1DVkE1OVdXbXBjWFgyNHNGM0x1dXRlQkxmOGNheEVIQ1Jyem4xQWVYdlRUWkFqY0lhTWYxc3hNdEFOY0ZQSzk3YlMxTzVPWDduZWgxNmEwQk16dWxiOFM5cUJPOFc2VWZmWHhwQ25sWkduSlhQNWs5M2dSMS13eXhtQ1FqUFhITmUxdUlJTlN3Vm5VZUg3cmpy?oc=5",
       "published": "2026-08-22T06:32:45+00:00",
       "source": {
-        "name": "Euronews.com",
+        "name": "Euronews",
         "url": "https://de.euronews.com"
       }
     },
@@ -304,16 +304,6 @@
       }
     },
     {
-      "id": "4a68c105c0a9",
-      "title": "Vorsicht vor Paracetamol-Vergiftung. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4yTC1YTnNvTXE1bUNubVdLUGtIMUNtN1h6cXgySFVVSFExUG1aMHZMTWhROHFjVC1IQ0dHS3dPeUU5Y25ONXJuUVJxNHVoUWdSYmVvb3lJd1hrZ1MxemVOVXEwR2ZLQQ?oc=5",
-      "published": "2026-08-22T08:17:27+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "3843ee8c2190",
       "title": "Gesundheit - Beipackzettel von Medikamenten sollen digital werden - Ausdrucke in Apotheken sollen Option sein - Deutschlandfunk",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOclZxcXdzdDlfTXNBVkNkV1g0a1RMa05OWGcyX0RXaW5YMmpyUElhUnBJQU9QM3BzUG9iSFZnaWE0ek1iLTFQeE1wbkVhaDdrT3pVMERnT3l3VGhoOUtuS0EtT3pwazNMMGZmcmI1Z2puUHg1WWc5MzBXdHJma0l0dWNlNEhQdFdBUXF5X0V3OVRQWVA1RXFJNXJtbTVGMjNYQVlSWjNrdEttY0pQMXF0dWlwdGNUVWpFcF83a3RyX0oxSWpLaFVmc2NoVEhGNXc?oc=5",
@@ -371,6 +361,16 @@
       "source": {
         "name": "Ihre-Vorsorge.de",
         "url": "https://www.ihre-vorsorge.de"
+      }
+    },
+    {
+      "id": "4a68c105c0a9",
+      "title": "Vorsicht vor Paracetamol-Vergiftung. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4yTC1YTnNvTXE1bUNubVdLUGtIMUNtN1h6cXgySFVVSFExUG1aMHZMTWhROHFjVC1IQ0dHS3dPeUU5Y25ONXJuUVJxNHVoUWdSYmVvb3lJd1hrZ1MxemVOVXEwR2ZLQQ?oc=5",
+      "published": "2026-08-22T08:17:27+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -504,16 +504,6 @@
       }
     },
     {
-      "id": "f3bcc106fa10",
-      "title": "Verhinderung des Handels mit Heilkräutern unbekannter Herkunft. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbnBaSU1kZjdIOXpKOU9hYnBZLUxtLWg0LS02S1I1SkJ5UHZibVVwUnkwY3o4LTJhU0JyUktoZVNfSVNhWWh1SjdKS2tfTkFReFZrd1dKR0w5RzdBb29WVC1ITjFRdU1QT3E2ejZhMEJHeWJxdDdGZ1Vnc1hXb203dVFqWDRCSlZDVkRQWEZOOA?oc=5",
-      "published": "2026-08-20T03:01:47+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "39655c0e5aa9",
       "title": "Gesundheit - Techniker Krankenkasse fordert geringere Medikamentenpreise - Deutschlandfunk",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOX3NDaWYzNk9TdlEwcHJfWDNzMFpsdFN5aUNwNHJTZjhocklJMURaWDlKdWdDR21aNHpwcDU5UGd6d285RXE0QUlvekdsd3VqMTdGazRKbFdRV0VLbVoxbzBNbXVJeElpcFJKTmxpTzAwcFhJZG5PSlhoQW1sTlUxaGNDTUttWmEwdEVMOHpMQWNYWmFmUkhRa2UzVzR2VVFP?oc=5",
@@ -521,6 +511,16 @@
       "source": {
         "name": "Deutschlandfunk",
         "url": "https://www.deutschlandfunk.de"
+      }
+    },
+    {
+      "id": "f3bcc106fa10",
+      "title": "Verhinderung des Handels mit Heilkräutern unbekannter Herkunft. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbnBaSU1kZjdIOXpKOU9hYnBZLUxtLWg0LS02S1I1SkJ5UHZibVVwUnkwY3o4LTJhU0JyUktoZVNfSVNhWWh1SjdKS2tfTkFReFZrd1dKR0w5RzdBb29WVC1ITjFRdU1QT3E2ejZhMEJHeWJxdDdGZ1Vnc1hXb203dVFqWDRCSlZDVkRQWEZOOA?oc=5",
+      "published": "2026-08-20T03:01:47+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -644,12 +644,12 @@
       }
     },
     {
-      "id": "08f761ee3a89",
-      "title": "EU-Gesundheitskommissar prüft Folgen von Trumps Arzneipreispolitik - Euronews.com",
+      "id": "edcf559b1a0c",
+      "title": "EU-Gesundheitskommissar prüft Folgen von Trumps Arzneipreispolitik - Euronews",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSzM5cWFmcTJfV010WWVadkdEVXRGblFEUTlhaUhoOThvaHV5eTJuWFVJbUtyMW9xNTJkYzNIR2Z6YWp0ZE1IWmNPb3pNcU5YY1phcUlQSU5IWWtvV0MzNDlqdHJZRU40alRPU29CWFVnUDBjLXE3UHhtV2pManQ4TzhzVEU3OHNDM2JJZm9ZbzBUbkVCRFRZYU1jMTl2UVdGRnhubmZZYWswcmZqbXAtbW5QcnRBTktIaHFFWg?oc=5",
       "published": "2026-06-16T07:00:00+00:00",
       "source": {
-        "name": "Euronews.com",
+        "name": "Euronews",
         "url": "https://de.euronews.com"
       }
     },
@@ -704,16 +704,6 @@
       }
     },
     {
-      "id": "198b0da65ee5",
-      "title": "HIV-Schutz mit Tabletten: Wie sicher ist PrEP im Alltag? - NDR.de",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTWhsNWk1Tkc5MzNycUQ5RzhaaXhPTGlCcHJ1Yl9wajZ0VkV3akIxR255SUd6clB5aU5fZmNlUGZIcTVNanZlTmctSDJqUFB5Zk5XempaWnhrbDBlVWZuOE9xWDRSREhKRm5sa0lrbGVnVjl0TE5NNWtTY25CUzRmdG5jQlBZc1pFakFyT0hITHU5NmpfaUE?oc=5",
-      "published": "2026-07-18T07:00:00+00:00",
-      "source": {
-        "name": "NDR.de",
-        "url": "https://www.ndr.de"
-      }
-    },
-    {
       "id": "3d2cb4e53bfe",
       "title": "Tipps vom Apotheker - Fehlende Arzneimittel - Warum sich Eltern bevorraten sollten - Gesundheit - SZ.de",
       "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOWFhLVUdkZzBFTm93WVhvZHdBSkk4ZWlPUWJQRlZFWjlSV3Npei12Wnc4YWhXZW9fMkFOLUs2TjNEanlIUENkRlJ1bmdDQWJKbFhVeEpaMmF2dEp3SjVZbjBHZlNDVUV2Z1NpekF5c3lEaUxsX3VPcDNwRHBGaVFFYXBRZ3dERXpIZWp2TzVralRSb1FEVmdfZjNJTmxMdW9WT25iZGh6QVBfQmV2UGRSby1hcWNOOWl4b2NIajFWRmZZNmhvemN2OVVSZ3dwYnlYTVBfYV9oVGlYM3B5TjJtQTZZUHkwb3cteVd1UzU5M3RaT2hiN2tjczYtOA?oc=5",
@@ -721,6 +711,16 @@
       "source": {
         "name": "SZ.de",
         "url": "https://www.sueddeutsche.de"
+      }
+    },
+    {
+      "id": "198b0da65ee5",
+      "title": "HIV-Schutz mit Tabletten: Wie sicher ist PrEP im Alltag? - NDR.de",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTWhsNWk1Tkc5MzNycUQ5RzhaaXhPTGlCcHJ1Yl9wajZ0VkV3akIxR255SUd6clB5aU5fZmNlUGZIcTVNanZlTmctSDJqUFB5Zk5XempaWnhrbDBlVWZuOE9xWDRSREhKRm5sa0lrbGVnVjl0TE5NNWtTY25CUzRmdG5jQlBZc1pFakFyT0hITHU5NmpfaUE?oc=5",
+      "published": "2026-07-18T07:00:00+00:00",
+      "source": {
+        "name": "NDR.de",
+        "url": "https://www.ndr.de"
       }
     },
     {
@@ -954,16 +954,6 @@
       }
     },
     {
-      "id": "601ed3b311ae",
-      "title": "Shop Apotheke von Redcare Pharmacy - Online-Apotheke mit über 250000 Produkten und E-Rezept-Service - Ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUXVOck84d0pXTGhFdUhNaTg0YmZIMHp1TzZQd2lWaUhyWGJLcnM3eHlFU1loNGJ5WWdpUXNyUmFUVUpKVEg2Rk8wZjZUdkhSbmw3X25DQUZneEo1N3FkajNXLWR2NGFfTVZKVUV4TzVrSmVNQkxlNy1EOGx1WmdxTkE5ck5KZWk2VVZYcFNGTTE1SlVCUTlVNzRoYUU3MmVPWVFaaEtNV2JQaDkxRU1zOUJrc25yREVXVXZpTmZBdkg?oc=5",
-      "published": "2026-08-21T20:05:18+00:00",
-      "source": {
-        "name": "Ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "80745f9d4753",
       "title": "Gesundheitsmarkt: dm plant OTC-Angebot in Österreich - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNdHVYSEZDOFBVSGROT2l4Qi1pSEVXOXdjMGpMZmNWNTBrdjFjb004OG1xWmJtbHlSNlhMQlhUMExsSjQyMktoS1dFWVhlN1ZpWXhLR2lROW1wNVNqZXp1RkllcjBvNnIzZ2RZT3BTNVROX3lrWGgzUi1qY1RYR294M0IxUFN1ak5BaXc?oc=5",
@@ -1001,6 +991,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "8c241dbc3ada",
+      "title": "Pflanzliche Arzneimittel – im Licht der Wissenschaft - GESUNDHEITHEUTE - SRF",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQUHVQVzFrZzVhLUljRzk2bktXazYwVEkwS2c1c09Ud1BkR0NSVDVETzJCcjlXU1E2TEVRelJuc3UyYUlzY19zSEU4U2Ntd1VneFZOcDhpT3FOc3Y2VGNtclN2bS14VTJ1RXdTbFJYYXlYS0RLejRRVkdqeVhxX1VpYjMzNmdNZmY4TS1EaTdpWk1SVEowc1NFeFhxLWtDdVNWbEh5RU9pX2hwc0lwbTRzUDVrSzFwMXQ1NjliU044bnJUdXgwNk9iWWdTMUhYdVMwRzgyeXB1NERiMWZvTE93NXJFdXVLNU54Nzg4NA?oc=5",
+      "published": "2026-05-30T07:00:00+00:00",
+      "source": {
+        "name": "SRF",
+        "url": "https://www.srf.ch"
       }
     }
   ]
