@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-24T18:40:49.581902+00:00",
+  "fetched_at": "2026-08-24T19:30:04.718526+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -144,16 +144,6 @@
       }
     },
     {
-      "id": "71c2e69b9417",
-      "title": "EU lässt erstmals Abnehmpille zu - südtirol.ORF.at",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBKRXRpR3pHWk9zTHRtQ0tiYlVieGhZOWZsc0E3eS1QNGtNa0I2S3lsUTM2VjZUYXNfTU9HWnFmeFgyV082R1ZYRnc1d3Y0NHlMVHdF?oc=5",
-      "published": "2026-08-24T10:48:11+00:00",
-      "source": {
-        "name": "südtirol.ORF.at",
-        "url": "https://suedtirol.orf.at"
-      }
-    },
-    {
       "id": "bb553491699c",
       "title": "Abschaffung der Mehrwertsteuer auf Arzneimittel - openPetition",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQR2ZyOGpub3o3YjR6WktVOXowVW5aMmNRcUZnRHQteUNLdVdiWFpMSHpndXJ0ajFhSmNTQXk1LVptMF9BUHlMeGRSb2dJalBRVjkxbGE4eWhObTFsT1gzVUtGblkxNDhVMlR2b2JYb1NWSGJqd2k1bGwxODhLVFh3aVdwY3pNNV81VDk0ZkxEbmVlSXdZY2c?oc=5",
@@ -161,6 +151,16 @@
       "source": {
         "name": "openPetition",
         "url": "https://www.openpetition.de"
+      }
+    },
+    {
+      "id": "71c2e69b9417",
+      "title": "EU lässt erstmals Abnehmpille zu - südtirol.ORF.at",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBKRXRpR3pHWk9zTHRtQ0tiYlVieGhZOWZsc0E3eS1QNGtNa0I2S3lsUTM2VjZUYXNfTU9HWnFmeFgyV082R1ZYRnc1d3Y0NHlMVHdF?oc=5",
+      "published": "2026-08-24T10:48:11+00:00",
+      "source": {
+        "name": "südtirol.ORF.at",
+        "url": "https://suedtirol.orf.at"
       }
     },
     {
@@ -254,12 +254,12 @@
       }
     },
     {
-      "id": "02e9917bea66",
-      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - DW.com",
+      "id": "8db31424e5bb",
+      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - dw.com",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGxHSlhmSS0tbUNKdG15NEVzRzYzYllEUnAzUEU3ak53czRHVWlKdTZrRGFDMk1MUThPUjdPTnBGVENqd3d2Q1VSdWhJVXppWDF4NWh0aEJJaXJlVTlnV0VoZVFkRHNSM3p6NVZXNjNwWHk5YkxSUWR2RGZKcmp3Y2U5REY0U3dRZFJLeHFtQk9wb2Y3RUVOaVBlMlJhZ29Rck000gGjAUFVX3lxTE1rTW00WXFBajZxbTJOS1NLckhVbXFBSzh1NE96QTEydTN1YjZnaFFNcV8xblZGM29hdTZQUHc4V3YzQ1pwcTlaVVBhZDVqMExLMTlYVzZ6TmM4ZUdsUm5TLXpPNmk1R3V4UktvaV93cWttNFpVX0VEZlZnUllSQkhyUlZmeTBJcU0zUEVSZTgxdzFWUnFNRk9CYVljN0Jhd0ZXUFk?oc=5",
       "published": "2026-05-12T07:00:00+00:00",
       "source": {
-        "name": "DW.com",
+        "name": "dw.com",
         "url": "https://www.dw.com"
       }
     },
@@ -364,16 +364,6 @@
       }
     },
     {
-      "id": "77b7dff3461e",
-      "title": "USA: Weniger Adipositas wegen Ozempic-Effekt? - DW.com",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVFRMcFM1Ti1CT21Da0lRS3Nvb0gxRmp5UTQ0akFiQmNmdWVaM2g0MVlGbjc1LW1hVWlqVS1DWll0TDR4eEhEREpHT20wWDlBVEJMcndYSWVsSnQ4LUtvNjRuWWFzblhHSkpLSDZUQVpEREUyeU96QkRScmtnN1lRVjNReGRVakROTHZjMVcwR1hRZ1FpdTVQUHFhVUdBckx0cmdVYk93dWJwVkpBLUNtSUhR0gGyAUFVX3lxTE14UVQ5Q1FGV1ZaNlpNa2ZfR181ZnZFdno4R0Z6V1RFVW0zMk1LczI2cWdwVC1ETGRleFd5OVZIS004Qi1NMFJDRmlrams3d0dTN0Y1cXRkM3V3TG9kQ1FURmJ4Q1BTNXE2Zk1RVzNHV3VRMnlEVDJOZ29VNUJBd3UtSFpOb0pCZ2dLX3EwZnpBdHEyeGlzQ0xUVll3RDVJekQ5Y3B4OWxybjFZazhFNFIzekE?oc=5",
-      "published": "2026-08-18T09:03:45+00:00",
-      "source": {
-        "name": "DW.com",
-        "url": "https://www.dw.com"
-      }
-    },
-    {
       "id": "f92665691e36",
       "title": "Gesundheit: So will die EU Engpässe bei Fiebersaft & Co. verhindern - Tagesspiegel",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcDl1WkpGU2VsQWhwUXd1WWxXSUhVN2Y3R2hTdl9GTHNxcDl2NFhUejhMXzhtOVUteVRjYmlZZDVNa0lETm9QSWNsWXB2c09CcTBqV3M2Wk5Fc0FVRlRaaDFzN1lDVTRFdl9IeXZvU2h3VjhJVGFUQ29lNmdqOUFld1dsd3ZNaVF5OFRETVFqckdoWk1udUFSQWdzMVdLQWxJd3A0eXdiVzhJR3pmY1FOeVQ0aUFxZ3BGdlpGazFn?oc=5",
@@ -381,6 +371,16 @@
       "source": {
         "name": "Tagesspiegel",
         "url": "https://www.tagesspiegel.de"
+      }
+    },
+    {
+      "id": "87bcf34f4dfd",
+      "title": "USA: Weniger Adipositas wegen Ozempic-Effekt? - dw.com",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVFRMcFM1Ti1CT21Da0lRS3Nvb0gxRmp5UTQ0akFiQmNmdWVaM2g0MVlGbjc1LW1hVWlqVS1DWll0TDR4eEhEREpHT20wWDlBVEJMcndYSWVsSnQ4LUtvNjRuWWFzblhHSkpLSDZUQVpEREUyeU96QkRScmtnN1lRVjNReGRVakROTHZjMVcwR1hRZ1FpdTVQUHFhVUdBckx0cmdVYk93dWJwVkpBLUNtSUhR0gGyAUFVX3lxTE14UVQ5Q1FGV1ZaNlpNa2ZfR181ZnZFdno4R0Z6V1RFVW0zMk1LczI2cWdwVC1ETGRleFd5OVZIS004Qi1NMFJDRmlrams3d0dTN0Y1cXRkM3V3TG9kQ1FURmJ4Q1BTNXE2Zk1RVzNHV3VRMnlEVDJOZ29VNUJBd3UtSFpOb0pCZ2dLX3EwZnpBdHEyeGlzQ0xUVll3RDVJekQ5Y3B4OWxybjFZazhFNFIzekE?oc=5",
+      "published": "2026-08-18T09:03:45+00:00",
+      "source": {
+        "name": "dw.com",
+        "url": "https://www.dw.com"
       }
     },
     {
@@ -464,16 +464,6 @@
       }
     },
     {
-      "id": "a76fd6b08d08",
-      "title": "Warum die Entwicklung neuer Medikamente immer teurer wird - SWI swissinfo.ch",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZmQ0QU9CZVRqLUEzUVhFTC1GeFY0Szl6ZGVrYmk5Z1hCMjM5WVZqdkk5eW1lM0ZJOTFIdUc5UW1ieEkwUHpjVWxCVzl6M3JtNDVJUUdzcDlXZ0VseF9Ta08ybV9IWjJYeWhsZnZiNWJQeGx3NWZHY0pnMlNVZzQyckdvQWlsNW96dkFKdHBtQW9rMnNkbjNwWUk1VG1PRzMtQ1Uta3Y2eFpYblFjX2RXakFtTGxvYUpLd21GY3IyM3otdHRHaUJn?oc=5",
-      "published": "2026-08-20T08:36:05+00:00",
-      "source": {
-        "name": "SWI swissinfo.ch",
-        "url": "https://www.swissinfo.ch"
-      }
-    },
-    {
       "id": "e89bb6a1a7a1",
       "title": "Medikamente im Urlaub: So schützen Sie sich vor Fälschungen - Mindener Tageblatt",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVmFuWXBXcV9mM2x0cUItRFVsbl9ONUdXMVcwemo1cWVtaV8yeHktdFZaMW5BSURRRmxTMjA0OGx3eUZvVGQzOUpNSmpTODRvUFU0VXF0SkRyaVV0eWFIanJ2NHJoQWFEeDMtSVp3SUVfYnJPTHBXM3RvRzE2aEEyejdtR0dQaUltczRkRk1nVnFjM2ViMnM0aWdJNV8ycWZHYUllZGVWM0hGelpWZ2hzanp3?oc=5",
@@ -484,16 +474,6 @@
       }
     },
     {
-      "id": "1b34319e436e",
-      "title": "Kurkuma gegen Bluthochdruck: Wundermittel oder Risiko? Arzt klärt auf - Hamburger Abendblatt",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPXzVjTW9FNm05ekV5YWtlLTUxMUZINmVnd3JOMEY5a2h3TFNQa3dQTmhzV1UxNHdMUnVjRkRnVmY0SlRQMEZGLWx2V0xGZ2RSbmlKSV9qeUhpLWkwMUY5SVVKeTFSU1VtaER3T0V3ZGpDLUQ2cXJqTjc1Y19BNlltREhqNnlXMGpCckk4Q3NCMDFsT1JNVjFONVM3RmlleUZDY2tzbGI5Tzl4Z0p3a1pCTUpFUTBRWkNfVjgtR004YXZFQVU?oc=5",
-      "published": "2026-08-21T08:01:00+00:00",
-      "source": {
-        "name": "Hamburger Abendblatt",
-        "url": "https://www.abendblatt.de"
-      }
-    },
-    {
       "id": "566dd4d9d4e6",
       "title": "Gesundheit: Medikamente mit Wechselwirkung? Vor diesen Fehlern schützt die ePA - Berliner Morgenpost",
       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPQnJXQjdvZFhaOHdKUjFfTHRXcU9oTF9vc21mN2U2bmNqOXF3M2o3RWIxU2R1bkx5eGRIYWJIWnF5Ty1yM0pMcW1DcG5LR2JiYlRPdFBXbUdFYmhaeVh5enZDdmY2YWlFdkQtNjVRalZKdzV0alNFbGlLWmM1c1BpcTlXcC01blFGM0dMVV83ZlpQN19kVGx3WVVKNTlXS0t0R1U2dmY0R1MwdGNzOC12MUJzcEh2M2lWendsZFphd1JxanR6elNEalAwSlRBSlczTk5jLVpvYjVQN0kyaGd3Ug?oc=5",
@@ -501,6 +481,26 @@
       "source": {
         "name": "Berliner Morgenpost",
         "url": "https://www.morgenpost.de"
+      }
+    },
+    {
+      "id": "a76fd6b08d08",
+      "title": "Warum die Entwicklung neuer Medikamente immer teurer wird - SWI swissinfo.ch",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZmQ0QU9CZVRqLUEzUVhFTC1GeFY0Szl6ZGVrYmk5Z1hCMjM5WVZqdkk5eW1lM0ZJOTFIdUc5UW1ieEkwUHpjVWxCVzl6M3JtNDVJUUdzcDlXZ0VseF9Ta08ybV9IWjJYeWhsZnZiNWJQeGx3NWZHY0pnMlNVZzQyckdvQWlsNW96dkFKdHBtQW9rMnNkbjNwWUk1VG1PRzMtQ1Uta3Y2eFpYblFjX2RXakFtTGxvYUpLd21GY3IyM3otdHRHaUJn?oc=5",
+      "published": "2026-08-20T08:36:05+00:00",
+      "source": {
+        "name": "SWI swissinfo.ch",
+        "url": "https://www.swissinfo.ch"
+      }
+    },
+    {
+      "id": "1b34319e436e",
+      "title": "Kurkuma gegen Bluthochdruck: Wundermittel oder Risiko? Arzt klärt auf - Hamburger Abendblatt",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPXzVjTW9FNm05ekV5YWtlLTUxMUZINmVnd3JOMEY5a2h3TFNQa3dQTmhzV1UxNHdMUnVjRkRnVmY0SlRQMEZGLWx2V0xGZ2RSbmlKSV9qeUhpLWkwMUY5SVVKeTFSU1VtaER3T0V3ZGpDLUQ2cXJqTjc1Y19BNlltREhqNnlXMGpCckk4Q3NCMDFsT1JNVjFONVM3RmlleUZDY2tzbGI5Tzl4Z0p3a1pCTUpFUTBRWkNfVjgtR004YXZFQVU?oc=5",
+      "published": "2026-08-21T08:01:00+00:00",
+      "source": {
+        "name": "Hamburger Abendblatt",
+        "url": "https://www.abendblatt.de"
       }
     },
     {
@@ -814,12 +814,12 @@
       }
     },
     {
-      "id": "7a99adaec5c0",
-      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - Geo.de",
+      "id": "47afc2884d76",
+      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - geo.de",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
       "published": "2026-06-19T07:00:00+00:00",
       "source": {
-        "name": "Geo.de",
+        "name": "geo.de",
         "url": "https://www.geo.de"
       }
     },
