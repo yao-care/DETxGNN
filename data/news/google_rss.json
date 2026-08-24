@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-24T20:30:57.934466+00:00",
+  "fetched_at": "2026-08-24T21:31:43.882210+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -164,13 +164,13 @@
       }
     },
     {
-      "id": "71c2e69b9417",
-      "title": "EU lässt erstmals Abnehmpille zu - südtirol.ORF.at",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBKRXRpR3pHWk9zTHRtQ0tiYlVieGhZOWZsc0E3eS1QNGtNa0I2S3lsUTM2VjZUYXNfTU9HWnFmeFgyV082R1ZYRnc1d3Y0NHlMVHdF?oc=5",
-      "published": "2026-08-24T10:48:11+00:00",
+      "id": "0fb861264008",
+      "title": "Bald gibt es die Abnehmpille auch bei uns. Ist sie besser als die Spritze? - STERN.de",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVUlnbGpFM216Q1F2ZzVTbmJmSDhkWlMwaVlKS2xzNjdoNGlPeDNKSjBHYnpOX2VTeG0yVzAyUXM0MVUydHhWLWdBTlVTdWlSTmhQREhpc2tNTUQ1eW1ETmZ3Y0NSZlhvemJHdkZoSXQxN3NLWGpCWEU2blZlMWFEbDl3NjNVb2xRdGVpb0xRSUhzNFdZN2psdFpESHVNTDNHR2tKdG0tOERfUQ?oc=5",
+      "published": "2026-08-21T16:04:00+00:00",
       "source": {
-        "name": "südtirol.ORF.at",
-        "url": "https://suedtirol.orf.at"
+        "name": "STERN.de",
+        "url": "https://www.stern.de"
       }
     },
     {
@@ -204,13 +204,13 @@
       }
     },
     {
-      "id": "0fb861264008",
-      "title": "Bald gibt es die Abnehmpille auch bei uns. Ist sie besser als die Spritze? - STERN.de",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVUlnbGpFM216Q1F2ZzVTbmJmSDhkWlMwaVlKS2xzNjdoNGlPeDNKSjBHYnpOX2VTeG0yVzAyUXM0MVUydHhWLWdBTlVTdWlSTmhQREhpc2tNTUQ1eW1ETmZ3Y0NSZlhvemJHdkZoSXQxN3NLWGpCWEU2blZlMWFEbDl3NjNVb2xRdGVpb0xRSUhzNFdZN2psdFpESHVNTDNHR2tKdG0tOERfUQ?oc=5",
-      "published": "2026-08-21T16:04:00+00:00",
+      "id": "71c2e69b9417",
+      "title": "EU lässt erstmals Abnehmpille zu - südtirol.ORF.at",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBKRXRpR3pHWk9zTHRtQ0tiYlVieGhZOWZsc0E3eS1QNGtNa0I2S3lsUTM2VjZUYXNfTU9HWnFmeFgyV082R1ZYRnc1d3Y0NHlMVHdF?oc=5",
+      "published": "2026-08-24T10:48:11+00:00",
       "source": {
-        "name": "STERN.de",
-        "url": "https://www.stern.de"
+        "name": "südtirol.ORF.at",
+        "url": "https://suedtirol.orf.at"
       }
     },
     {
@@ -374,6 +374,16 @@
       }
     },
     {
+      "id": "77b7dff3461e",
+      "title": "USA: Weniger Adipositas wegen Ozempic-Effekt? - DW.com",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVFRMcFM1Ti1CT21Da0lRS3Nvb0gxRmp5UTQ0akFiQmNmdWVaM2g0MVlGbjc1LW1hVWlqVS1DWll0TDR4eEhEREpHT20wWDlBVEJMcndYSWVsSnQ4LUtvNjRuWWFzblhHSkpLSDZUQVpEREUyeU96QkRScmtnN1lRVjNReGRVakROTHZjMVcwR1hRZ1FpdTVQUHFhVUdBckx0cmdVYk93dWJwVkpBLUNtSUhR0gGyAUFVX3lxTE14UVQ5Q1FGV1ZaNlpNa2ZfR181ZnZFdno4R0Z6V1RFVW0zMk1LczI2cWdwVC1ETGRleFd5OVZIS004Qi1NMFJDRmlrams3d0dTN0Y1cXRkM3V3TG9kQ1FURmJ4Q1BTNXE2Zk1RVzNHV3VRMnlEVDJOZ29VNUJBd3UtSFpOb0pCZ2dLX3EwZnpBdHEyeGlzQ0xUVll3RDVJekQ5Y3B4OWxybjFZazhFNFIzekE?oc=5",
+      "published": "2026-08-18T09:03:45+00:00",
+      "source": {
+        "name": "DW.com",
+        "url": "https://www.dw.com"
+      }
+    },
+    {
       "id": "a48a34dcb337",
       "title": "Opioide: Israel führt weltweit beim Pro-Kopf-Konsum - Jüdische Allgemeine",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1MZVF2WFVHNi01ZVZ4STRQeWMxTW9FN1lFYS1jdy0tRXhzcGRCazhCMWdWLWVpcHZzcEVNYUpqNE40OVgzYU1TazBoOXBEdkZtVEE3R3ZST0Y4WHJXcHNzWVdFdGx6aUJ6eWNIN3pEeFg0SnU0RWc?oc=5",
@@ -484,16 +494,6 @@
       }
     },
     {
-      "id": "1b34319e436e",
-      "title": "Kurkuma gegen Bluthochdruck: Wundermittel oder Risiko? Arzt klärt auf - Hamburger Abendblatt",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPXzVjTW9FNm05ekV5YWtlLTUxMUZINmVnd3JOMEY5a2h3TFNQa3dQTmhzV1UxNHdMUnVjRkRnVmY0SlRQMEZGLWx2V0xGZ2RSbmlKSV9qeUhpLWkwMUY5SVVKeTFSU1VtaER3T0V3ZGpDLUQ2cXJqTjc1Y19BNlltREhqNnlXMGpCckk4Q3NCMDFsT1JNVjFONVM3RmlleUZDY2tzbGI5Tzl4Z0p3a1pCTUpFUTBRWkNfVjgtR004YXZFQVU?oc=5",
-      "published": "2026-08-21T08:01:00+00:00",
-      "source": {
-        "name": "Hamburger Abendblatt",
-        "url": "https://www.abendblatt.de"
-      }
-    },
-    {
       "id": "2a88ab722e68",
       "title": "Wie viel darf Gesundheit kosten? Streit um Medikamentenpreise eskaliert - WiWo",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMEkzamFzeFFHZEk3NjFIbFJmYjZvajlGOVMtcHo3aUZsWFlvdkcyMzFTODZXZFM1dWhNWU1lT3FVVDk4dlduRjBqV2paSEFVbkE2YWktMVJIanA4U3J2QW1rMnFtOUljc0pXb2hEbVNSWkxYdGlkRHRMRGE3aGpSYjlrU0FzN0RjN1dhWkJWZldkUmVpbm9xbXpSZmR3b0xGR2ZXQmdvVVZ4bWh5bmVNbkdOOU1rNEdiZElEc0NEeDE3LXpqVkE?oc=5",
@@ -501,6 +501,16 @@
       "source": {
         "name": "WiWo",
         "url": "https://www.wiwo.de"
+      }
+    },
+    {
+      "id": "1b34319e436e",
+      "title": "Kurkuma gegen Bluthochdruck: Wundermittel oder Risiko? Arzt klärt auf - Hamburger Abendblatt",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPXzVjTW9FNm05ekV5YWtlLTUxMUZINmVnd3JOMEY5a2h3TFNQa3dQTmhzV1UxNHdMUnVjRkRnVmY0SlRQMEZGLWx2V0xGZ2RSbmlKSV9qeUhpLWkwMUY5SVVKeTFSU1VtaER3T0V3ZGpDLUQ2cXJqTjc1Y19BNlltREhqNnlXMGpCckk4Q3NCMDFsT1JNVjFONVM3RmlleUZDY2tzbGI5Tzl4Z0p3a1pCTUpFUTBRWkNfVjgtR004YXZFQVU?oc=5",
+      "published": "2026-08-21T08:01:00+00:00",
+      "source": {
+        "name": "Hamburger Abendblatt",
+        "url": "https://www.abendblatt.de"
       }
     },
     {
@@ -824,16 +834,6 @@
       }
     },
     {
-      "id": "4a68c105c0a9",
-      "title": "Vorsicht vor Paracetamol-Vergiftung. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4yTC1YTnNvTXE1bUNubVdLUGtIMUNtN1h6cXgySFVVSFExUG1aMHZMTWhROHFjVC1IQ0dHS3dPeUU5Y25ONXJuUVJxNHVoUWdSYmVvb3lJd1hrZ1MxemVOVXEwR2ZLQQ?oc=5",
-      "published": "2026-08-22T08:17:27+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "2aa053163d77",
       "title": "Krisenfall: Schwaches Gesundheitssystem, schwacher Staat - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQR0JucXpoc0ZtZjFpUHphX3JmWF84RDd1ZXhfc1Z1MW9oVEtYRUdOTzZ1NVhBdnZMVE8wRTBQQ01hZzRicDBrRXdaRlhCcnFLRjdZblNoYmxMSGhXOEYtNjJ3aHVYZm93MjRHSEhvNDEwUXp6YmZhUjl2eTNLNlJ4T2Z5ejc4UDgzUHdKU0dOQjRJUDBp?oc=5",
@@ -841,6 +841,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "4a68c105c0a9",
+      "title": "Vorsicht vor Paracetamol-Vergiftung. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4yTC1YTnNvTXE1bUNubVdLUGtIMUNtN1h6cXgySFVVSFExUG1aMHZMTWhROHFjVC1IQ0dHS3dPeUU5Y25ONXJuUVJxNHVoUWdSYmVvb3lJd1hrZ1MxemVOVXEwR2ZLQQ?oc=5",
+      "published": "2026-08-22T08:17:27+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -991,16 +1001,6 @@
       "source": {
         "name": "Bundesamt für Gesundheit BAG",
         "url": "https://www.bag.admin.ch"
-      }
-    },
-    {
-      "id": "42f984299fe2",
-      "title": "Apotheken schlagen Alarm: Medikamenten-Engpässe drohen - ZDFheute",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPX1BYUUNyUEFvd2tlZmtVUUZiR2xwR29INjIyY0lzOEJNbFJ5c1VfQWRKaTNaQnZzOE9obk9kTEpBWTRlUjFIeXRrSG0wOHRXck5vQVNKRUVhUVA3cnhBajI1TnJWOUxmYmJmVndyYXFVNzBTbWtCalJjMlh4ck5hRTFzT2d6WnJ3ai1hY3dVcFVkdFRoVzh1QzhRN0ZGR2YxYjUzREtEZWxtZw?oc=5",
-      "published": "2025-09-14T07:00:00+00:00",
-      "source": {
-        "name": "ZDFheute",
-        "url": "https://www.zdfheute.de"
       }
     }
   ]
