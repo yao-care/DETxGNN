@@ -1,18 +1,8 @@
 {
-  "fetched_at": "2026-08-24T17:31:45.337038+00:00",
+  "fetched_at": "2026-08-24T18:40:49.581902+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
-    {
-      "id": "f7ef35514cca",
-      "title": "Nesselsucht nach Tabletten-Einnahme: Wie Sie bei Arzneimittel-Allergien vorgehen sollten - Ärzte Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYmM5SjMxcDZJejRwcDZDN1A2R3U3QUZVeTduTXVwbl84aGpPV29pTEtJLW9xVDJrNGM3bGxhSlg5TW84QzR0Uzl0ekEzd3pwNXQwMUNEUTBIWDQ5WDhVWE15bnJEUmE0VTJmMk54aTQzU0lfZW55bFRuMHp4Z21tUGxzd2VHNmtlSy1zaWxYRW9wNVlzekNyYlRMZlVaRDVVUHJ5TC1QWTh2SHEwYTZZUVFwXzhFTkx6UWNZVElMUQ?oc=5",
-      "published": "2026-08-24T03:00:00+00:00",
-      "source": {
-        "name": "Ärzte Zeitung",
-        "url": "https://www.aerztezeitung.de"
-      }
-    },
     {
       "id": "763faea86570",
       "title": "Krefelder Apotheker warnen vor Gefahr durch Abnehmpille und Vitamin D - Westdeutsche Zeitung",
@@ -51,6 +41,16 @@
       "source": {
         "name": "Augsburger Allgemeine",
         "url": "https://www.augsburger-allgemeine.de"
+      }
+    },
+    {
+      "id": "ce412de6a1cc",
+      "title": "Migräneprophylaxe: Wie wirksam und verträglich sind die empfohlenen Medikamente? - Ärzte Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUG9XRUtFVjk5NnRxa2lIS2k3ZjY0R3J4dW52clRqNVRZQ191LXpqOGxHWWxzTjNyT3pzQktiMU1WdVlaNmZSdk5ydW5UaDRpdUlfUlYyQzZwekJ0OE1Id1U3alB1eEVNYm9KcklnRXpEQzNzYWlfeXBXSHlscTB2azBPb3NMd2hUajRfNGNWcWlZUjVHR2dBdTlpU2ZISDJzZDNNZm5GVFBUcjNqdFlaT1g0S0poMGhPV1pzdEkwNnQwWDQzdUpTcQ?oc=5",
+      "published": "2026-08-24T03:00:00+00:00",
+      "source": {
+        "name": "Ärzte Zeitung",
+        "url": "https://www.aerztezeitung.de"
       }
     },
     {
@@ -104,16 +104,6 @@
       }
     },
     {
-      "id": "2ea158f4be81",
-      "title": "Impfung gegen Hautkrebs: Ein Meilenstein in der Krebsmedizin - DIE ZEIT",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSEZUUXdGNjBLVlN3b055cURENWxtRldFTEZpWGRqcnBuV2Q5YUF4QVhQOWZCZmp0MDlmT2dfaldnOHFwNW91NWhHZU90RVo4Zlc4LUNyNHVPbWJNUVdiNFhLM00yQXlUaEJSeTYzWW1tZjNKdklMakQ0ekxKT1V0b2M5MkNOZ3pZcFJ0TFNMWDZzNkxt?oc=5",
-      "published": "2026-08-20T14:16:04+00:00",
-      "source": {
-        "name": "DIE ZEIT",
-        "url": "https://www.zeit.de"
-      }
-    },
-    {
       "id": "2a4cd6eb6d1d",
       "title": "Arzneimittelengpässe in Europa – so reagiert die EU - European Parliament",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYUFLam5JQVMtSlNuNWlqSTJrRUNDN215RDlRU2hOMEE0Rkp3cHBodVhSbXRsSUhvTTRhMTVLWEE5QmM0dXJRNGlPSkwyZ2doMHhlaEpHbW5DZl8tazhQc3lPcEN4SmtLaEdGMk9IZjF5MGZvNEd3a2tXSnJXT1ItanFsV2gtRGpMYjlUbHV2OURrMkM5OXA3emh5OERlMlpXc1J1UlNVYUp1UlBUd1gzREtLUkZRZw?oc=5",
@@ -124,13 +114,13 @@
       }
     },
     {
-      "id": "71c2e69b9417",
-      "title": "EU lässt erstmals Abnehmpille zu - südtirol.ORF.at",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBKRXRpR3pHWk9zTHRtQ0tiYlVieGhZOWZsc0E3eS1QNGtNa0I2S3lsUTM2VjZUYXNfTU9HWnFmeFgyV082R1ZYRnc1d3Y0NHlMVHdF?oc=5",
-      "published": "2026-08-24T10:48:11+00:00",
+      "id": "2ea158f4be81",
+      "title": "Impfung gegen Hautkrebs: Ein Meilenstein in der Krebsmedizin - DIE ZEIT",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSEZUUXdGNjBLVlN3b055cURENWxtRldFTEZpWGRqcnBuV2Q5YUF4QVhQOWZCZmp0MDlmT2dfaldnOHFwNW91NWhHZU90RVo4Zlc4LUNyNHVPbWJNUVdiNFhLM00yQXlUaEJSeTYzWW1tZjNKdklMakQ0ekxKT1V0b2M5MkNOZ3pZcFJ0TFNMWDZzNkxt?oc=5",
+      "published": "2026-08-20T14:16:04+00:00",
       "source": {
-        "name": "südtirol.ORF.at",
-        "url": "https://suedtirol.orf.at"
+        "name": "DIE ZEIT",
+        "url": "https://www.zeit.de"
       }
     },
     {
@@ -154,6 +144,16 @@
       }
     },
     {
+      "id": "71c2e69b9417",
+      "title": "EU lässt erstmals Abnehmpille zu - südtirol.ORF.at",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBKRXRpR3pHWk9zTHRtQ0tiYlVieGhZOWZsc0E3eS1QNGtNa0I2S3lsUTM2VjZUYXNfTU9HWnFmeFgyV082R1ZYRnc1d3Y0NHlMVHdF?oc=5",
+      "published": "2026-08-24T10:48:11+00:00",
+      "source": {
+        "name": "südtirol.ORF.at",
+        "url": "https://suedtirol.orf.at"
+      }
+    },
+    {
       "id": "bb553491699c",
       "title": "Abschaffung der Mehrwertsteuer auf Arzneimittel - openPetition",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQR2ZyOGpub3o3YjR6WktVOXowVW5aMmNRcUZnRHQteUNLdVdiWFpMSHpndXJ0ajFhSmNTQXk1LVptMF9BUHlMeGRSb2dJalBRVjkxbGE4eWhObTFsT1gzVUtGblkxNDhVMlR2b2JYb1NWSGJqd2k1bGwxODhLVFh3aVdwY3pNNV81VDk0ZkxEbmVlSXdZY2c?oc=5",
@@ -174,13 +174,13 @@
       }
     },
     {
-      "id": "ce412de6a1cc",
-      "title": "Migräneprophylaxe: Wie wirksam und verträglich sind die empfohlenen Medikamente? - Ärzte Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUG9XRUtFVjk5NnRxa2lIS2k3ZjY0R3J4dW52clRqNVRZQ191LXpqOGxHWWxzTjNyT3pzQktiMU1WdVlaNmZSdk5ydW5UaDRpdUlfUlYyQzZwekJ0OE1Id1U3alB1eEVNYm9KcklnRXpEQzNzYWlfeXBXSHlscTB2azBPb3NMd2hUajRfNGNWcWlZUjVHR2dBdTlpU2ZISDJzZDNNZm5GVFBUcjNqdFlaT1g0S0poMGhPV1pzdEkwNnQwWDQzdUpTcQ?oc=5",
-      "published": "2026-08-24T03:00:00+00:00",
+      "id": "ae01424b6ad2",
+      "title": "Kritische Arzneimittel wieder stärker in Europa produzieren - baden-wuerttemberg.de",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSjMzcWVqRjE1TVZWbUdQLWFEMnBYcGN3WEFDaWQzVGN5YUNRWTk1dXdzYm53bGRCOEVMbnpPZWZEQ3dQdzFzNXJ0OVJac1owMFJERW1hc2Mzbk5yNkluNGhWazY5STVzdWR3Yjd5dlR3WEkySEdEOWotSndjWDZhQ09qUHVJbzZOa2hCeDA5blZ5cENQV08tWWVZSHVzNURfa1ZwNWxJNFNaYTVnRUVmRnhPMDF3WmlkcldXMFJmdlVjWEZzeGRTSUQzN2hpWjdl?oc=5",
+      "published": "2026-01-20T08:00:00+00:00",
       "source": {
-        "name": "Ärzte Zeitung",
-        "url": "https://www.aerztezeitung.de"
+        "name": "baden-wuerttemberg.de",
+        "url": "https://www.baden-wuerttemberg.de"
       }
     },
     {
@@ -211,16 +211,6 @@
       "source": {
         "name": "STERN.de",
         "url": "https://www.stern.de"
-      }
-    },
-    {
-      "id": "ae01424b6ad2",
-      "title": "Kritische Arzneimittel wieder stärker in Europa produzieren - baden-wuerttemberg.de",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSjMzcWVqRjE1TVZWbUdQLWFEMnBYcGN3WEFDaWQzVGN5YUNRWTk1dXdzYm53bGRCOEVMbnpPZWZEQ3dQdzFzNXJ0OVJac1owMFJERW1hc2Mzbk5yNkluNGhWazY5STVzdWR3Yjd5dlR3WEkySEdEOWotSndjWDZhQ09qUHVJbzZOa2hCeDA5blZ5cENQV08tWWVZSHVzNURfa1ZwNWxJNFNaYTVnRUVmRnhPMDF3WmlkcldXMFJmdlVjWEZzeGRTSUQzN2hpWjdl?oc=5",
-      "published": "2026-01-20T08:00:00+00:00",
-      "source": {
-        "name": "baden-wuerttemberg.de",
-        "url": "https://www.baden-wuerttemberg.de"
       }
     },
     {
@@ -264,12 +254,12 @@
       }
     },
     {
-      "id": "8db31424e5bb",
-      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - dw.com",
+      "id": "02e9917bea66",
+      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - DW.com",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGxHSlhmSS0tbUNKdG15NEVzRzYzYllEUnAzUEU3ak53czRHVWlKdTZrRGFDMk1MUThPUjdPTnBGVENqd3d2Q1VSdWhJVXppWDF4NWh0aEJJaXJlVTlnV0VoZVFkRHNSM3p6NVZXNjNwWHk5YkxSUWR2RGZKcmp3Y2U5REY0U3dRZFJLeHFtQk9wb2Y3RUVOaVBlMlJhZ29Rck000gGjAUFVX3lxTE1rTW00WXFBajZxbTJOS1NLckhVbXFBSzh1NE96QTEydTN1YjZnaFFNcV8xblZGM29hdTZQUHc4V3YzQ1pwcTlaVVBhZDVqMExLMTlYVzZ6TmM4ZUdsUm5TLXpPNmk1R3V4UktvaV93cWttNFpVX0VEZlZnUllSQkhyUlZmeTBJcU0zUEVSZTgxdzFWUnFNRk9CYVljN0Jhd0ZXUFk?oc=5",
       "published": "2026-05-12T07:00:00+00:00",
       "source": {
-        "name": "dw.com",
+        "name": "DW.com",
         "url": "https://www.dw.com"
       }
     },
@@ -334,16 +324,6 @@
       }
     },
     {
-      "id": "dc9ba8e38fd8",
-      "title": "Geschäft mit dem E-Rezept brummt: DocMorris erhöht Jahresprognose - Ärzte Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxORlJudWNPUkRhcUNDNTEwZC1RcDZRNE5aVTN6YTVMN3pRMUprQmt4cEZreFF5X204aHlwSkI3cFZVSkhNWHBmcm5vdTNuRHlwbTREU3E3eGEyOGs4VTVQMWdjcWdrbm1qYnlRRkJPV3dFNDBMQzlSZllNa2xsM3Z6dzd4a25ZcXVIZFNzSWlFdVNzcE10azkwRDNPV3BEb1RtVWwxRnc3aUljV0NVa0hkSzl5Y3Z6QQ?oc=5",
-      "published": "2026-08-19T12:54:19+00:00",
-      "source": {
-        "name": "Ärzte Zeitung",
-        "url": "https://www.aerztezeitung.de"
-      }
-    },
-    {
       "id": "b9ca65e5a941",
       "title": "Marktbericht: dm steigt in den Gesundheitsmarkt ein - tagesschau.de",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNd0RWVjQ1MFJ3RDJCdFRnZ3Z1RUU4YThkS1F2bnowNnZBQWk1QlIxdWNtMFN6a19KWWlhTnFyVUNRSGNLanRyR01ZM0lxSG1HRFBqQ3l3QXBMR1F6UU43X29oLTZEODQ1TktKWmhOVVR4YW10YWY1Qm5JZlZoLU8tMlhDYw?oc=5",
@@ -384,6 +364,16 @@
       }
     },
     {
+      "id": "77b7dff3461e",
+      "title": "USA: Weniger Adipositas wegen Ozempic-Effekt? - DW.com",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVFRMcFM1Ti1CT21Da0lRS3Nvb0gxRmp5UTQ0akFiQmNmdWVaM2g0MVlGbjc1LW1hVWlqVS1DWll0TDR4eEhEREpHT20wWDlBVEJMcndYSWVsSnQ4LUtvNjRuWWFzblhHSkpLSDZUQVpEREUyeU96QkRScmtnN1lRVjNReGRVakROTHZjMVcwR1hRZ1FpdTVQUHFhVUdBckx0cmdVYk93dWJwVkpBLUNtSUhR0gGyAUFVX3lxTE14UVQ5Q1FGV1ZaNlpNa2ZfR181ZnZFdno4R0Z6V1RFVW0zMk1LczI2cWdwVC1ETGRleFd5OVZIS004Qi1NMFJDRmlrams3d0dTN0Y1cXRkM3V3TG9kQ1FURmJ4Q1BTNXE2Zk1RVzNHV3VRMnlEVDJOZ29VNUJBd3UtSFpOb0pCZ2dLX3EwZnpBdHEyeGlzQ0xUVll3RDVJekQ5Y3B4OWxybjFZazhFNFIzekE?oc=5",
+      "published": "2026-08-18T09:03:45+00:00",
+      "source": {
+        "name": "DW.com",
+        "url": "https://www.dw.com"
+      }
+    },
+    {
       "id": "f92665691e36",
       "title": "Gesundheit: So will die EU Engpässe bei Fiebersaft & Co. verhindern - Tagesspiegel",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcDl1WkpGU2VsQWhwUXd1WWxXSUhVN2Y3R2hTdl9GTHNxcDl2NFhUejhMXzhtOVUteVRjYmlZZDVNa0lETm9QSWNsWXB2c09CcTBqV3M2Wk5Fc0FVRlRaaDFzN1lDVTRFdl9IeXZvU2h3VjhJVGFUQ29lNmdqOUFld1dsd3ZNaVF5OFRETVFqckdoWk1udUFSQWdzMVdLQWxJd3A0eXdiVzhJR3pmY1FOeVQ0aUFxZ3BGdlpGazFn?oc=5",
@@ -391,6 +381,16 @@
       "source": {
         "name": "Tagesspiegel",
         "url": "https://www.tagesspiegel.de"
+      }
+    },
+    {
+      "id": "a48a34dcb337",
+      "title": "Opioide: Israel führt weltweit beim Pro-Kopf-Konsum - Jüdische Allgemeine",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1MZVF2WFVHNi01ZVZ4STRQeWMxTW9FN1lFYS1jdy0tRXhzcGRCazhCMWdWLWVpcHZzcEVNYUpqNE40OVgzYU1TazBoOXBEdkZtVEE3R3ZST0Y4WHJXcHNzWVdFdGx6aUJ6eWNIN3pEeFg0SnU0RWc?oc=5",
+      "published": "2026-07-05T07:00:00+00:00",
+      "source": {
+        "name": "Jüdische Allgemeine",
+        "url": "https://www.juedische-allgemeine.de"
       }
     },
     {
@@ -434,16 +434,6 @@
       }
     },
     {
-      "id": "a48a34dcb337",
-      "title": "Opioide: Israel führt weltweit beim Pro-Kopf-Konsum - Jüdische Allgemeine",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1MZVF2WFVHNi01ZVZ4STRQeWMxTW9FN1lFYS1jdy0tRXhzcGRCazhCMWdWLWVpcHZzcEVNYUpqNE40OVgzYU1TazBoOXBEdkZtVEE3R3ZST0Y4WHJXcHNzWVdFdGx6aUJ6eWNIN3pEeFg0SnU0RWc?oc=5",
-      "published": "2026-07-05T07:00:00+00:00",
-      "source": {
-        "name": "Jüdische Allgemeine",
-        "url": "https://www.juedische-allgemeine.de"
-      }
-    },
-    {
       "id": "e4d74f6ebf64",
       "title": "Patienten und die Generikabranche fordern die EU auf, auf Trumps Drohungen bezüglich der Arzneimittelpreise zu reagieren - euractiv.com",
       "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOSm0tcngyMXZvMXBmQW9MbjlzWEp1d0JKLVdvV2g4NDkyQ2FxMzhhQTFHUEtyX25Tb0VTdGVPUkt0WXJEeV9QNl84MTZ3MTU0QjgtN3VWeFc3dDVuMWNjb3ZIQ2JyemdRVXJhSHFCQ21yazg4RGU5djlTSkEzdVlsdWNnOUxvWXRyRjVVNUg5N1pRSW1aX2FlOWQ4S0pYXzNkYlJmSE9GNWRmcmNBMWIwOXc0aFJybUJYLU9xUlVVLWplN3ZkNmNvQnQ3ME55TGpVcng0TkxPd2M4MDdBc3hXNVBHNA?oc=5",
@@ -484,16 +474,6 @@
       }
     },
     {
-      "id": "1b34319e436e",
-      "title": "Kurkuma gegen Bluthochdruck: Wundermittel oder Risiko? Arzt klärt auf - Hamburger Abendblatt",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPXzVjTW9FNm05ekV5YWtlLTUxMUZINmVnd3JOMEY5a2h3TFNQa3dQTmhzV1UxNHdMUnVjRkRnVmY0SlRQMEZGLWx2V0xGZ2RSbmlKSV9qeUhpLWkwMUY5SVVKeTFSU1VtaER3T0V3ZGpDLUQ2cXJqTjc1Y19BNlltREhqNnlXMGpCckk4Q3NCMDFsT1JNVjFONVM3RmlleUZDY2tzbGI5Tzl4Z0p3a1pCTUpFUTBRWkNfVjgtR004YXZFQVU?oc=5",
-      "published": "2026-08-21T08:01:00+00:00",
-      "source": {
-        "name": "Hamburger Abendblatt",
-        "url": "https://www.abendblatt.de"
-      }
-    },
-    {
       "id": "e89bb6a1a7a1",
       "title": "Medikamente im Urlaub: So schützen Sie sich vor Fälschungen - Mindener Tageblatt",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVmFuWXBXcV9mM2x0cUItRFVsbl9ONUdXMVcwemo1cWVtaV8yeHktdFZaMW5BSURRRmxTMjA0OGx3eUZvVGQzOUpNSmpTODRvUFU0VXF0SkRyaVV0eWFIanJ2NHJoQWFEeDMtSVp3SUVfYnJPTHBXM3RvRzE2aEEyejdtR0dQaUltczRkRk1nVnFjM2ViMnM0aWdJNV8ycWZHYUllZGVWM0hGelpWZ2hzanp3?oc=5",
@@ -501,6 +481,16 @@
       "source": {
         "name": "Mindener Tageblatt",
         "url": "https://www.mt.de"
+      }
+    },
+    {
+      "id": "1b34319e436e",
+      "title": "Kurkuma gegen Bluthochdruck: Wundermittel oder Risiko? Arzt klärt auf - Hamburger Abendblatt",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPXzVjTW9FNm05ekV5YWtlLTUxMUZINmVnd3JOMEY5a2h3TFNQa3dQTmhzV1UxNHdMUnVjRkRnVmY0SlRQMEZGLWx2V0xGZ2RSbmlKSV9qeUhpLWkwMUY5SVVKeTFSU1VtaER3T0V3ZGpDLUQ2cXJqTjc1Y19BNlltREhqNnlXMGpCckk4Q3NCMDFsT1JNVjFONVM3RmlleUZDY2tzbGI5Tzl4Z0p3a1pCTUpFUTBRWkNfVjgtR004YXZFQVU?oc=5",
+      "published": "2026-08-21T08:01:00+00:00",
+      "source": {
+        "name": "Hamburger Abendblatt",
+        "url": "https://www.abendblatt.de"
       }
     },
     {
@@ -564,6 +554,16 @@
       }
     },
     {
+      "id": "4bf4db7a6b88",
+      "title": "App \"MedAssist sicher für zwei\" - saarland.de",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMllLZjQwdVNkTzE5YndaZHJjUmlUeGsta0QtUXllM3YzUEY0NnN2endjZTBmblJydVIzZUdwb2tTTGxIMUZkYlpHckVsV2YzNFh5X3BiZDBpT0tJMFRzajBNbjdXY3d1Zzl4SDNkb01lWEhSTmMxemVVNjdJRTJ4WGFZbGM5TGhiSlBTZjJMR2FfZlpRVFBtVi1jbGszcWEzRmF6Z3RmcHJ6N2s5VzVIVXBNZVNEVllwOURZVTJvNA?oc=5",
+      "published": "2025-12-04T08:00:00+00:00",
+      "source": {
+        "name": "saarland.de",
+        "url": "https://www.saarland.de"
+      }
+    },
+    {
       "id": "8308fd9ff3ea",
       "title": "»Ge­ra­de in der Apo­the­ke wird Ge­sund­heit ge­lebt« - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWGI5Ni1Wb1RMSGlZbElwcDdtVjF5TzJBTVpUd0xoblBOUHl5UG8tcXlNY1FPTHBPbU5tT2J2S2VTRkFlZlVxejM2S3V6Ty14bHlXVmEtRmRPUnNoeEd0U3pWZlQ5SlZjNGF3bnhWWGF0M2h5MHVSaFZRZjBZZy1KOEZva1l2N1dzbkF0Q2dvRUc1SVN3OVVF?oc=5",
@@ -611,16 +611,6 @@
       "source": {
         "name": "Fortune Business Insights",
         "url": "https://www.fortunebusinessinsights.com"
-      }
-    },
-    {
-      "id": "8dce1ff85348",
-      "title": "Erstattung: Gericht sieht Abnehmspritze als Lifestyle-Medikament - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdThMaUs3T0FfWmlEYnNHWkw3VHVTX3R4MUptMEUySkkwZk1OY19nU0xZcF9KT0IweUNoTzhzV2RkUUJhRl9Jdk8zTTgxeHlTbmV6a1R3NUx2ZDc1c0RMSVcyLU9NazE5aURIaW1FTzZhUTQ3U2JmQkhydXRHUEZXR1pGX0ZUODFRaWh0S3RDdzIxQ2hOMkZMc0VaZWdsTVlw?oc=5",
-      "published": "2026-05-11T07:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -834,16 +824,6 @@
       }
     },
     {
-      "id": "4a68c105c0a9",
-      "title": "Vorsicht vor Paracetamol-Vergiftung. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4yTC1YTnNvTXE1bUNubVdLUGtIMUNtN1h6cXgySFVVSFExUG1aMHZMTWhROHFjVC1IQ0dHS3dPeUU5Y25ONXJuUVJxNHVoUWdSYmVvb3lJd1hrZ1MxemVOVXEwR2ZLQQ?oc=5",
-      "published": "2026-08-22T08:17:27+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "e5c9f6b52b1b",
       "title": "Weil Gesundheit alles verändert - Handelsblatt Live",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9VQXU3d2J3REtJeXBaWlQ0UTVlRWJDR2U3cTBJRFNaVlBYenpnNmp1QXZJLXB1WFQxY1dOQjJhMGRwVVZTNEE2eWVMZVd0bVZTSzEyOHY2R0NVd2dKVllzVEM3NDRoNEZKUkthRDdSTHA?oc=5",
@@ -851,6 +831,16 @@
       "source": {
         "name": "Handelsblatt Live",
         "url": "https://live.handelsblatt.com"
+      }
+    },
+    {
+      "id": "4a68c105c0a9",
+      "title": "Vorsicht vor Paracetamol-Vergiftung. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4yTC1YTnNvTXE1bUNubVdLUGtIMUNtN1h6cXgySFVVSFExUG1aMHZMTWhROHFjVC1IQ0dHS3dPeUU5Y25ONXJuUVJxNHVoUWdSYmVvb3lJd1hrZ1MxemVOVXEwR2ZLQQ?oc=5",
+      "published": "2026-08-22T08:17:27+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -1001,6 +991,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "8d1fc40266cd",
+      "title": "2025: Höchster Stand von Aufnahmen neuer Medikamente in die Spezialitätenliste - Bundesamt für Gesundheit BAG",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1HMEFNZWpPYzRReWJNTkhGRk11RnNpblJQVjNEdE1ISllXWlNUWk4yZFpWclRTOUl0M3ZJTXhSNmpMdEtuVkVWVnV3aEJXdWxld0l3dUVkdGszYnVuNEFxbldsSXNJamc?oc=5",
+      "published": "2026-01-30T08:00:00+00:00",
+      "source": {
+        "name": "Bundesamt für Gesundheit BAG",
+        "url": "https://www.bag.admin.ch"
       }
     }
   ]
