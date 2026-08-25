@@ -1,16 +1,16 @@
 {
-  "fetched_at": "2026-08-25T03:54:06.828924+00:00",
+  "fetched_at": "2026-08-25T04:39:42.330140+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
     {
-      "id": "640306648ddf",
-      "title": "Antibiotikaresistenz: Stehen wir vor einer Krise, wenn Medikamente versagen? - SWR",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbjAtNEVKOTNVVHJocVhPeXZZbXZTSDFIanBpa0VUZnN4MGhMcFJ3TnB0bmFGTjc2amd1WkN3bk1IYmdsb05rTnR2YkZoczRVeV9GV0E2c2pneFdZa3J5T1ZsZHcwMVVIR0ZJN2d0VUUyLVlmbS04QWhpbEYyZFR0ZjZzZDNtbk84blE5LTJYMS1wcS12?oc=5",
-      "published": "2026-08-23T04:00:00+00:00",
+      "id": "7596fb323e77",
+      "title": "Gesundheit im Kreis Heinsberg: Abnehmpille und Vitamin D – Apotheken warnen vor riskanten Internetkäufen - RP Online",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRVFDOVQ3bkFsbmV4em9nLXlvaFM3NndTUXN3blU4OFJoM09hb1JkYnhUb25hRVl0YS01WnhvWGdqMDVEVERKMzZYdmtid3lOZ3ljZ0xiNmpEcldBOFMxTlZjRDI5aUZsbmdhMXRROXY3YS1tZUQzbnBWbnpLSjBMaVBfX3M0OXpkcnBOaTRrUDA0d29lQlNnR29QVDQxNU54RXBLVFZhb0p3ZVFTM3ZtYlBzSVd3bW1QazNVOTNVSjFnZ0E?oc=5",
+      "published": "2026-08-25T03:10:00+00:00",
       "source": {
-        "name": "SWR",
-        "url": "https://www.swr.de"
+        "name": "RP Online",
+        "url": "https://rp-online.de"
       }
     },
     {
@@ -24,13 +24,13 @@
       }
     },
     {
-      "id": "95fb89102eb5",
-      "title": "Experten aus Hilden und Haan: Abnehmpille und Vitamin D – Apotheker warnen vor dubiosen Online-Trends - RP Online",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUDhzV0hweWt4alh4eGFlU3JRdW9XeGhrbXpWU25Lc01TSHFxWG1yaW1DZ01jNkNYanB3SWxXSFI1b3FKWlRjNU5TcHZzRGIzUy1OZERZelBMZ1YwbFhYMkhWVFpsSkxrUTJ5bFZ3S2VMYnUza3FfM0wzRFpBN2xyZlZac2ZhOS1aRlEtYW1NNXBQbGpvMUVwRGU4bERILVJ0bHBQeG5fTTZsVGRL?oc=5",
-      "published": "2026-08-24T15:45:00+00:00",
+      "id": "bd2c462b1eb8",
+      "title": "Vitamin-D-Mangel: Für wen ist das Risiko besonders hoch? - Augsburger Allgemeine",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWFdIdlhEWExZbzhXZW52SlVSLU9PcFVVUUJZeGo4MW5tWHJBVDZRS1JMQkNudGtFZXRoWnJQMVZHYjYwWUZsVnFFUkZqVW5iaXlyTGtZNmtZZnBzdWFTYkdZMi1XeUdJWVNELW1vTWtwbHZxNUM4RnJLYXVoVXlrb3VrUk5YTjFQeThPMTlZYmdYVk5UVDRnYmdkWU8wVDBrS0k0LWpkV2ZyQ2RmU0ZWUTRIem9QUQ?oc=5",
+      "published": "2026-08-25T04:26:59+00:00",
       "source": {
-        "name": "RP Online",
-        "url": "https://rp-online.de"
+        "name": "Augsburger Allgemeine",
+        "url": "https://www.augsburger-allgemeine.de"
       }
     },
     {
@@ -61,16 +61,6 @@
       "source": {
         "name": "Bundesministerium für Gesundheit (BMG)",
         "url": "https://www.bundesgesundheitsministerium.de"
-      }
-    },
-    {
-      "id": "f7ccb4e6ec95",
-      "title": "Fast jede vierte Apotheke ist weg: Wie Versender den Druck im Arzneimittelhandel erhöhen - Augsburger Allgemeine",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNOUpZWVlSRzVkakdIdjRsejNYcm9wbVNmQktZUkIxYlUtRWR0bDhjX2dnVmQ3VjV1dVFDZ2ctM1ZOOGh0bDNhQXBRWDlPR1U4T0RFVERTejJrU1kzTzFfSkV4TmJoUzc4dnhDdWRuRGxOcmRBNDBZM1hZVFZVVmdnUlFZVXhuVG5sQjhFdzB0UXk0VkZ6NmgzNVFHOW04bUNXYk8xYkMxWnBKUjdoTG1HZWJtb041VENIRmE0RS1wMA?oc=5",
-      "published": "2026-08-24T03:00:11+00:00",
-      "source": {
-        "name": "Augsburger Allgemeine",
-        "url": "https://www.augsburger-allgemeine.de"
       }
     },
     {
@@ -174,13 +164,13 @@
       }
     },
     {
-      "id": "ae01424b6ad2",
-      "title": "Kritische Arzneimittel wieder stärker in Europa produzieren - baden-wuerttemberg.de",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSjMzcWVqRjE1TVZWbUdQLWFEMnBYcGN3WEFDaWQzVGN5YUNRWTk1dXdzYm53bGRCOEVMbnpPZWZEQ3dQdzFzNXJ0OVJac1owMFJERW1hc2Mzbk5yNkluNGhWazY5STVzdWR3Yjd5dlR3WEkySEdEOWotSndjWDZhQ09qUHVJbzZOa2hCeDA5blZ5cENQV08tWWVZSHVzNURfa1ZwNWxJNFNaYTVnRUVmRnhPMDF3WmlkcldXMFJmdlVjWEZzeGRTSUQzN2hpWjdl?oc=5",
-      "published": "2026-01-20T08:00:00+00:00",
+      "id": "95fb89102eb5",
+      "title": "Experten aus Hilden und Haan: Abnehmpille und Vitamin D – Apotheker warnen vor dubiosen Online-Trends - RP Online",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUDhzV0hweWt4alh4eGFlU3JRdW9XeGhrbXpWU25Lc01TSHFxWG1yaW1DZ01jNkNYanB3SWxXSFI1b3FKWlRjNU5TcHZzRGIzUy1OZERZelBMZ1YwbFhYMkhWVFpsSkxrUTJ5bFZ3S2VMYnUza3FfM0wzRFpBN2xyZlZac2ZhOS1aRlEtYW1NNXBQbGpvMUVwRGU4bERILVJ0bHBQeG5fTTZsVGRL?oc=5",
+      "published": "2026-08-24T15:45:00+00:00",
       "source": {
-        "name": "baden-wuerttemberg.de",
-        "url": "https://www.baden-wuerttemberg.de"
+        "name": "RP Online",
+        "url": "https://rp-online.de"
       }
     },
     {
@@ -194,6 +184,16 @@
       }
     },
     {
+      "id": "f7ccb4e6ec95",
+      "title": "Fast jede vierte Apotheke ist weg: Wie Versender den Druck im Arzneimittelhandel erhöhen - Augsburger Allgemeine",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNOUpZWVlSRzVkakdIdjRsejNYcm9wbVNmQktZUkIxYlUtRWR0bDhjX2dnVmQ3VjV1dVFDZ2ctM1ZOOGh0bDNhQXBRWDlPR1U4T0RFVERTejJrU1kzTzFfSkV4TmJoUzc4dnhDdWRuRGxOcmRBNDBZM1hZVFZVVmdnUlFZVXhuVG5sQjhFdzB0UXk0VkZ6NmgzNVFHOW04bUNXYk8xYkMxWnBKUjdoTG1HZWJtb041VENIRmE0RS1wMA?oc=5",
+      "published": "2026-08-24T03:00:11+00:00",
+      "source": {
+        "name": "Augsburger Allgemeine",
+        "url": "https://www.augsburger-allgemeine.de"
+      }
+    },
+    {
       "id": "80d4b20c1223",
       "title": "Hyposensibilisierung: Praktische Tipps für schwierige Allergie-Fälle - Ärzte Zeitung",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNa0FBRk5LbFNUTER0NzB6Yy03d1liZ1I1TExEbVQyMzl1bTZRQ0Q0X3dKY2hsN0o0LUZtVDJUcS0tZ3BLVkJMRFVPcVZBb3Z2SnRfR2lSMGNCWFBOeXFOakk2OG1YRU5zeDVOZ2NsSUowV2xLRV9JeTd4dzE1ejBfUjhkNGxkbkh0UVdnVGFDR0ItcEpMdGVtQ0ZHYWJCb1lJdWMxejIzMFprTGEzTUVKT0k2aWctMHVqc05V?oc=5",
@@ -201,6 +201,16 @@
       "source": {
         "name": "Ärzte Zeitung",
         "url": "https://www.aerztezeitung.de"
+      }
+    },
+    {
+      "id": "ae01424b6ad2",
+      "title": "Kritische Arzneimittel wieder stärker in Europa produzieren - baden-wuerttemberg.de",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSjMzcWVqRjE1TVZWbUdQLWFEMnBYcGN3WEFDaWQzVGN5YUNRWTk1dXdzYm53bGRCOEVMbnpPZWZEQ3dQdzFzNXJ0OVJac1owMFJERW1hc2Mzbk5yNkluNGhWazY5STVzdWR3Yjd5dlR3WEkySEdEOWotSndjWDZhQ09qUHVJbzZOa2hCeDA5blZ5cENQV08tWWVZSHVzNURfa1ZwNWxJNFNaYTVnRUVmRnhPMDF3WmlkcldXMFJmdlVjWEZzeGRTSUQzN2hpWjdl?oc=5",
+      "published": "2026-01-20T08:00:00+00:00",
+      "source": {
+        "name": "baden-wuerttemberg.de",
+        "url": "https://www.baden-wuerttemberg.de"
       }
     },
     {
@@ -274,16 +284,6 @@
       }
     },
     {
-      "id": "71c2e69b9417",
-      "title": "EU lässt erstmals Abnehmpille zu - südtirol.ORF.at",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBKRXRpR3pHWk9zTHRtQ0tiYlVieGhZOWZsc0E3eS1QNGtNa0I2S3lsUTM2VjZUYXNfTU9HWnFmeFgyV082R1ZYRnc1d3Y0NHlMVHdF?oc=5",
-      "published": "2026-08-24T10:48:11+00:00",
-      "source": {
-        "name": "südtirol.ORF.at",
-        "url": "https://suedtirol.orf.at"
-      }
-    },
-    {
       "id": "a91bce131989",
       "title": "Nachhaltigkeit: Arzneimittel als wichtiger Hebel - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPUzd6V2JNTmp0Ry1iT3dJSURwNzBORGtyeldrUFdEVEhvNFNUZUh6VmtXZnYycFZCdDlzdEJWbzNlbnZha05majRVU3VqX1U2QkVlVFZTSE5FRkc5TDZoR1BRNmd6TzYwSjdOY3kyRS1HN3p1RTI4OWdrS09HVkgyc3lIZ0s1dw?oc=5",
@@ -291,6 +291,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "71c2e69b9417",
+      "title": "EU lässt erstmals Abnehmpille zu - südtirol.ORF.at",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBKRXRpR3pHWk9zTHRtQ0tiYlVieGhZOWZsc0E3eS1QNGtNa0I2S3lsUTM2VjZUYXNfTU9HWnFmeFgyV082R1ZYRnc1d3Y0NHlMVHdF?oc=5",
+      "published": "2026-08-24T10:48:11+00:00",
+      "source": {
+        "name": "südtirol.ORF.at",
+        "url": "https://suedtirol.orf.at"
       }
     },
     {
@@ -934,6 +944,16 @@
       }
     },
     {
+      "id": "4c9b3fd0b1e9",
+      "title": "„EU-paradox“: Europaparlament thematisiert massiven Zielkonflikt bei der Versorgungssicherheit mit Arzneimitteln - gesundheit adhoc",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZHJPOWNHTVFaV3p4emxVQ0ktLWszTTN6TUdwT3BvTWJYa0VPZWF1bUJOT1ptQUNrNHVRSmFNazhCOWlCOTVhMzJOUGlhR3dhaGE4OUsxTWVWdGMzbDMydGNMM3Z3QkFBWmtPcEVCQW9LeXJUSEszbzRXTndYMWM1OURVQnVQMG9WVnpPTGk5blhxM3ozZWUwX1pnSzZ2VDZzOEFVSGYwVDBMNXQ2a2RtWmllNXBoZjFTZHJHZUdMcUo1czdWZ3lmaDN5TVViTU1ZU1Baa051MFd1UQ?oc=5",
+      "published": "2026-03-26T07:00:00+00:00",
+      "source": {
+        "name": "gesundheit adhoc",
+        "url": "https://www.gesundheit-adhoc.de"
+      }
+    },
+    {
       "id": "7d876f76990e",
       "title": "Arzneimittel-Ratschlag durch ChatGPT landet vor Gericht - Deutsche Apotheker Zeitung, DAZ",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOb2R6cDZTSjF3cDJfUW1NOERXRnRaN0hhbWJrU2hLMjMtZ0V1VjhyOHdJNllIaFlfZlM3TDhZNGVzYVkzNlFkSk5rR0NGMnJSQVlaOGdCa1o3Ty1HRjgxTy11M2NaSHE4SFBVM1FhNjZDb0VUNmVHcERnWXRqMXRxRkZUc0NjMEdKaFdabVU3UUpubE5rU1czTWtpVVpIQUZiMUJKUHlkcE1Jcks3bl9CSWg1Qm1UVnhLN2xhdDhn?oc=5",
@@ -981,26 +1001,6 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
-      "id": "2f0394c48ff1",
-      "title": "Diskussionsrunde : Teure Orphan Drugs setzen GKV unter Druck - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMm9GbF9MdlR1T05IVU9La29FSnJzYmpWYTNqNW05eHVvMW1OVTdOX3FMaHhPT2JuUExjdkV6Zlg1NUh6WHEzS3RkQmhFLUVKWllJa2IxdDBacXl5SDZsbzc1YXY3TnIzYUpjalNfaDl6dnE2YUV0eGt1cWd0OTBiVVNYYzIzMEUybmdDRjZGQ3ZKZw?oc=5",
-      "published": "2025-11-06T08:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
-      "id": "dfaeda93fdf8",
-      "title": "Medikamente knapp: Apothekerin – „So reagieren wir bei Lieferengpässen“ - Berliner Morgenpost",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZEotOVIzVm9temVXWVU5Rmk1OHR5SzZNMDREVWJZeXlMZHRrWEhpRDZCSExxaktrc3hBSVBqOG9hZlMzbkZBTm1wWFBYMzF3ZXU3SjZkYzNucEg5LUozbFRmQ1BiLUU1aW9XVUtNLS1UVWgzNERrSkRiT05sSUVSSTE2MDYyck41OFRfUTFfaXp6LWdsRjF2NHBkdmwwS2ZwTGFmNTFhZ1I0VFFJeGZ1VlpBSlpkN2hUN3FrM2cyWkF0UGJaVndV?oc=5",
-      "published": "2025-11-27T08:00:00+00:00",
-      "source": {
-        "name": "Berliner Morgenpost",
-        "url": "https://www.morgenpost.de"
       }
     }
   ]
