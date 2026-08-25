@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-25T11:28:26.068192+00:00",
+  "fetched_at": "2026-08-25T12:49:39.618067+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -14,6 +14,16 @@
       }
     },
     {
+      "id": "640306648ddf",
+      "title": "Antibiotikaresistenz: Stehen wir vor einer Krise, wenn Medikamente versagen? - SWR",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbjAtNEVKOTNVVHJocVhPeXZZbXZTSDFIanBpa0VUZnN4MGhMcFJ3TnB0bmFGTjc2amd1WkN3bk1IYmdsb05rTnR2YkZoczRVeV9GV0E2c2pneFdZa3J5T1ZsZHcwMVVIR0ZJN2d0VUUyLVlmbS04QWhpbEYyZFR0ZjZzZDNtbk84blE5LTJYMS1wcS12?oc=5",
+      "published": "2026-08-23T04:00:00+00:00",
+      "source": {
+        "name": "SWR",
+        "url": "https://www.swr.de"
+      }
+    },
+    {
       "id": "fdfe76cade96",
       "title": "AOK-Chefin Reimann: Abnehmspritze würde Kassen Milliarden kosten - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSXlrWlZkRDZwM01reFU2YVFBVnVBLXE0NDFOOU92Um1Ob1k3RVcxZUo5Tk5tNmN5M19GRGx1UWI5R2dSUDVkS0pZY0ZfS1RiRlB6bUFCc2JvZ3gzeFlFeS1jN01yNnR2YXdqd1lsS2dhQjJLQ2ZOVzI0UXZ0TmZJZ0kwVHhKTllBOG5MT1g3eGZIQ1p2YUFv?oc=5",
@@ -24,13 +34,13 @@
       }
     },
     {
-      "id": "640306648ddf",
-      "title": "Antibiotikaresistenz: Stehen wir vor einer Krise, wenn Medikamente versagen? - SWR",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbjAtNEVKOTNVVHJocVhPeXZZbXZTSDFIanBpa0VUZnN4MGhMcFJ3TnB0bmFGTjc2amd1WkN3bk1IYmdsb05rTnR2YkZoczRVeV9GV0E2c2pneFdZa3J5T1ZsZHcwMVVIR0ZJN2d0VUUyLVlmbS04QWhpbEYyZFR0ZjZzZDNtbk84blE5LTJYMS1wcS12?oc=5",
-      "published": "2026-08-23T04:00:00+00:00",
+      "id": "0ce6ee6e673f",
+      "title": "Ein Jahr elektronische Patientenakte: Wie bewerten Sie die ePA aus Praxissicht? - Ärzte Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQRm00N05nQVNRUHpTaDF5d0Y0OVd5aVNhUHlPTFV4a0kxajQ2YzdkVW9zYXp5X2JwblZ1eVdoU2FudGVTNGhmekRFc1JKSzYwUXZicjZINlNVMDV4cFFPMDFZYnlhbGxiQXd0Sm4yTkNETGh1dVotYmM2NEN6NnNPdVZGWXFYYjV4MHQyUlJ5OXk2RlF4M01OLU5lVW5yRDFSNWpHOUs1OEkxVkZ4RU0zaUdSc2NzSEpoQVRqZVJEMFBJV0dUM3o0QQ?oc=5",
+      "published": "2026-08-25T12:27:47+00:00",
       "source": {
-        "name": "SWR",
-        "url": "https://www.swr.de"
+        "name": "Ärzte Zeitung",
+        "url": "https://www.aerztezeitung.de"
       }
     },
     {
@@ -54,13 +64,13 @@
       }
     },
     {
-      "id": "89f26a088656",
-      "title": "Vorsicht vor dubiosen Online-Angeboten: Apotheken in Nordrhein warnen bei Abnehmpille und Vitamin D - Presseportal",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9MYjIxUFo5UHJCZnJiWXZ0bkE2Y1hTSFJyUzZ1UzBhMGtOMzRBMTRxcVdPNTVtM0lMLUZiWmVSU3l1VFhnQkJzOE9zWmthWXlESGhfM3UyZw?oc=5",
-      "published": "2026-08-24T14:05:01+00:00",
+      "id": "4e6d48112005",
+      "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesministerium für Gesundheit (BMG)",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT3NRWE1tbWNRMllaUC1GUGtRV3YxaWhZZ21nQThUT3NGbS1DbkFfRzdSd3RvUUVsTkVJdUpYRFp0ekFHV1JtTEJZZ0I5dWJvajgzZzdZZDk5S3FROHRoeVJzS3VBRTBuTldDWW52dG5kLWxpUTlMZmpLdUZZekxaOEJQYTlUbTdLRTBsR1k4TlE1ajIxYTFiZ041eFppZktLWjJZYVQyRlNOVEd1RGdIVmpBRDMteG1xdHdyUmVn?oc=5",
+      "published": "2026-05-22T07:00:00+00:00",
       "source": {
-        "name": "Presseportal",
-        "url": "https://www.presseportal.de"
+        "name": "Bundesministerium für Gesundheit (BMG)",
+        "url": "https://www.bundesgesundheitsministerium.de"
       }
     },
     {
@@ -74,16 +84,6 @@
       }
     },
     {
-      "id": "4e6d48112005",
-      "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesministerium für Gesundheit (BMG)",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT3NRWE1tbWNRMllaUC1GUGtRV3YxaWhZZ21nQThUT3NGbS1DbkFfRzdSd3RvUUVsTkVJdUpYRFp0ekFHV1JtTEJZZ0I5dWJvajgzZzdZZDk5S3FROHRoeVJzS3VBRTBuTldDWW52dG5kLWxpUTlMZmpLdUZZekxaOEJQYTlUbTdLRTBsR1k4TlE1ajIxYTFiZ041eFppZktLWjJZYVQyRlNOVEd1RGdIVmpBRDMteG1xdHdyUmVn?oc=5",
-      "published": "2026-05-22T07:00:00+00:00",
-      "source": {
-        "name": "Bundesministerium für Gesundheit (BMG)",
-        "url": "https://www.bundesgesundheitsministerium.de"
-      }
-    },
-    {
       "id": "f7ccb4e6ec95",
       "title": "Fast jede vierte Apotheke ist weg: Wie Versender den Druck im Arzneimittelhandel erhöhen - Augsburger Allgemeine",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNOUpZWVlSRzVkakdIdjRsejNYcm9wbVNmQktZUkIxYlUtRWR0bDhjX2dnVmQ3VjV1dVFDZ2ctM1ZOOGh0bDNhQXBRWDlPR1U4T0RFVERTejJrU1kzTzFfSkV4TmJoUzc4dnhDdWRuRGxOcmRBNDBZM1hZVFZVVmdnUlFZVXhuVG5sQjhFdzB0UXk0VkZ6NmgzNVFHOW04bUNXYk8xYkMxWnBKUjdoTG1HZWJtb041VENIRmE0RS1wMA?oc=5",
@@ -94,13 +94,13 @@
       }
     },
     {
-      "id": "ce412de6a1cc",
-      "title": "Migräneprophylaxe: Wie wirksam und verträglich sind die empfohlenen Medikamente? - Ärzte Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUG9XRUtFVjk5NnRxa2lIS2k3ZjY0R3J4dW52clRqNVRZQ191LXpqOGxHWWxzTjNyT3pzQktiMU1WdVlaNmZSdk5ydW5UaDRpdUlfUlYyQzZwekJ0OE1Id1U3alB1eEVNYm9KcklnRXpEQzNzYWlfeXBXSHlscTB2azBPb3NMd2hUajRfNGNWcWlZUjVHR2dBdTlpU2ZISDJzZDNNZm5GVFBUcjNqdFlaT1g0S0poMGhPV1pzdEkwNnQwWDQzdUpTcQ?oc=5",
-      "published": "2026-08-24T03:00:00+00:00",
+      "id": "89f26a088656",
+      "title": "Vorsicht vor dubiosen Online-Angeboten: Apotheken in Nordrhein warnen bei Abnehmpille und Vitamin D - Presseportal",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9MYjIxUFo5UHJCZnJiWXZ0bkE2Y1hTSFJyUzZ1UzBhMGtOMzRBMTRxcVdPNTVtM0lMLUZiWmVSU3l1VFhnQkJzOE9zWmthWXlESGhfM3UyZw?oc=5",
+      "published": "2026-08-24T14:05:01+00:00",
       "source": {
-        "name": "Ärzte Zeitung",
-        "url": "https://www.aerztezeitung.de"
+        "name": "Presseportal",
+        "url": "https://www.presseportal.de"
       }
     },
     {
@@ -174,16 +174,6 @@
       }
     },
     {
-      "id": "1aa902285392",
-      "title": "Mitführen von Betäubungsmitteln und medizinischem Cannabis auf Reisen - Kreis Coesfeld",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQYlZ0bEtZbkh2d0hVYmxiWlo4blBNeG51czZEX3lmaEhJZ1VJaXh2TjgyWmVnR3AzX1ZIOVBRVHhpcnltN1p2U0hpak9WV01LUVRzQVBiNnRLR0hJckluVG5ma0JNV2lGLXE4dVhyckZUejNnTTNRbWdleEZPeHdLXzgwVUtycmtDOWd6R3dub1hUUlZqcjVDMXdaUDdOaEVYd3pxZFRHVXMtY2ZXN1R5SFpnSUpYYlVhS3F0NWV3V3B2WWhULUFCU2RkZkFIbUl1aEJacV9mOENxUzQ?oc=5",
-      "published": "2026-07-09T07:00:00+00:00",
-      "source": {
-        "name": "Kreis Coesfeld",
-        "url": "https://www.kreis-coesfeld.de"
-      }
-    },
-    {
       "id": "9f7c377ed6d2",
       "title": "MFN-Modell USA: Wie US-Arzneimittelpolitik Innovationen in Europa ausbremst - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWkw5ZTd1QUxfTlBDNjVEc0paTWpvTFpfTE9lOFM3YnhiWnBBREVhRzlMQnRmWDdkREJzVlg3UnZCN2RsTC1aTkhtN19oX2dEYmVLdXk4MXFBUnVGakk3YzVfbjZVQ0E0MUtPN2JZZ08wQ05yaTFLNER1dVYzZEo5UldOVldfQ0lCbGNRWEJZbUg0R3JBaGp6Mm1DTGd2eTYzWE9GV1hvenRGWHhOZXBxMHJMY09GUQ?oc=5",
@@ -201,6 +191,26 @@
       "source": {
         "name": "RP Online",
         "url": "https://rp-online.de"
+      }
+    },
+    {
+      "id": "ce412de6a1cc",
+      "title": "Migräneprophylaxe: Wie wirksam und verträglich sind die empfohlenen Medikamente? - Ärzte Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUG9XRUtFVjk5NnRxa2lIS2k3ZjY0R3J4dW52clRqNVRZQ191LXpqOGxHWWxzTjNyT3pzQktiMU1WdVlaNmZSdk5ydW5UaDRpdUlfUlYyQzZwekJ0OE1Id1U3alB1eEVNYm9KcklnRXpEQzNzYWlfeXBXSHlscTB2azBPb3NMd2hUajRfNGNWcWlZUjVHR2dBdTlpU2ZISDJzZDNNZm5GVFBUcjNqdFlaT1g0S0poMGhPV1pzdEkwNnQwWDQzdUpTcQ?oc=5",
+      "published": "2026-08-24T03:00:00+00:00",
+      "source": {
+        "name": "Ärzte Zeitung",
+        "url": "https://www.aerztezeitung.de"
+      }
+    },
+    {
+      "id": "1aa902285392",
+      "title": "Mitführen von Betäubungsmitteln und medizinischem Cannabis auf Reisen - Kreis Coesfeld",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQYlZ0bEtZbkh2d0hVYmxiWlo4blBNeG51czZEX3lmaEhJZ1VJaXh2TjgyWmVnR3AzX1ZIOVBRVHhpcnltN1p2U0hpak9WV01LUVRzQVBiNnRLR0hJckluVG5ma0JNV2lGLXE4dVhyckZUejNnTTNRbWdleEZPeHdLXzgwVUtycmtDOWd6R3dub1hUUlZqcjVDMXdaUDdOaEVYd3pxZFRHVXMtY2ZXN1R5SFpnSUpYYlVhS3F0NWV3V3B2WWhULUFCU2RkZkFIbUl1aEJacV9mOENxUzQ?oc=5",
+      "published": "2026-07-09T07:00:00+00:00",
+      "source": {
+        "name": "Kreis Coesfeld",
+        "url": "https://www.kreis-coesfeld.de"
       }
     },
     {
@@ -294,12 +304,12 @@
       }
     },
     {
-      "id": "8db31424e5bb",
-      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - dw.com",
+      "id": "02e9917bea66",
+      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - DW.com",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGxHSlhmSS0tbUNKdG15NEVzRzYzYllEUnAzUEU3ak53czRHVWlKdTZrRGFDMk1MUThPUjdPTnBGVENqd3d2Q1VSdWhJVXppWDF4NWh0aEJJaXJlVTlnV0VoZVFkRHNSM3p6NVZXNjNwWHk5YkxSUWR2RGZKcmp3Y2U5REY0U3dRZFJLeHFtQk9wb2Y3RUVOaVBlMlJhZ29Rck000gGjAUFVX3lxTE1rTW00WXFBajZxbTJOS1NLckhVbXFBSzh1NE96QTEydTN1YjZnaFFNcV8xblZGM29hdTZQUHc4V3YzQ1pwcTlaVVBhZDVqMExLMTlYVzZ6TmM4ZUdsUm5TLXpPNmk1R3V4UktvaV93cWttNFpVX0VEZlZnUllSQkhyUlZmeTBJcU0zUEVSZTgxdzFWUnFNRk9CYVljN0Jhd0ZXUFk?oc=5",
       "published": "2026-05-12T07:00:00+00:00",
       "source": {
-        "name": "dw.com",
+        "name": "DW.com",
         "url": "https://www.dw.com"
       }
     },
@@ -544,16 +554,6 @@
       }
     },
     {
-      "id": "1b34319e436e",
-      "title": "Kurkuma gegen Bluthochdruck: Wundermittel oder Risiko? Arzt klärt auf - Hamburger Abendblatt",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPXzVjTW9FNm05ekV5YWtlLTUxMUZINmVnd3JOMEY5a2h3TFNQa3dQTmhzV1UxNHdMUnVjRkRnVmY0SlRQMEZGLWx2V0xGZ2RSbmlKSV9qeUhpLWkwMUY5SVVKeTFSU1VtaER3T0V3ZGpDLUQ2cXJqTjc1Y19BNlltREhqNnlXMGpCckk4Q3NCMDFsT1JNVjFONVM3RmlleUZDY2tzbGI5Tzl4Z0p3a1pCTUpFUTBRWkNfVjgtR004YXZFQVU?oc=5",
-      "published": "2026-08-21T08:01:00+00:00",
-      "source": {
-        "name": "Hamburger Abendblatt",
-        "url": "https://www.abendblatt.de"
-      }
-    },
-    {
       "id": "0791514ec89d",
       "title": "Steigende Arzneimittelkosten: Gesundheitsministerin Warken will Zugang zu neuen Medikamenten für alle erhalten - MDR.de",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPenF3ckVCSXl3ZmNka21FSTVtdkdoeGRZaEQ4Nnc4ZktKZk16U0ZUd19vYWRsZDdQUDZZLVFCd2k2anZScnRpSnJtXzRCbEozRm9fMEpkcVhjZ3dwT21zQVZPX2MybWdSUHBNeTZ3TmtESDFOWFNfM0lPV1Z4M3BmUTNkLTRfVGgxRUh4OWNOblh5ZGdCaUs5WXZmR2VVaVV5d1VHR1BHUFhubGtCWlFyZWk3VnhWZjdpWE9jNE5B?oc=5",
@@ -634,12 +634,12 @@
       }
     },
     {
-      "id": "87bcf34f4dfd",
-      "title": "USA: Weniger Adipositas wegen Ozempic-Effekt? - dw.com",
+      "id": "77b7dff3461e",
+      "title": "USA: Weniger Adipositas wegen Ozempic-Effekt? - DW.com",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVFRMcFM1Ti1CT21Da0lRS3Nvb0gxRmp5UTQ0akFiQmNmdWVaM2g0MVlGbjc1LW1hVWlqVS1DWll0TDR4eEhEREpHT20wWDlBVEJMcndYSWVsSnQ4LUtvNjRuWWFzblhHSkpLSDZUQVpEREUyeU96QkRScmtnN1lRVjNReGRVakROTHZjMVcwR1hRZ1FpdTVQUHFhVUdBckx0cmdVYk93dWJwVkpBLUNtSUhR0gGyAUFVX3lxTE14UVQ5Q1FGV1ZaNlpNa2ZfR181ZnZFdno4R0Z6V1RFVW0zMk1LczI2cWdwVC1ETGRleFd5OVZIS004Qi1NMFJDRmlrams3d0dTN0Y1cXRkM3V3TG9kQ1FURmJ4Q1BTNXE2Zk1RVzNHV3VRMnlEVDJOZ29VNUJBd3UtSFpOb0pCZ2dLX3EwZnpBdHEyeGlzQ0xUVll3RDVJekQ5Y3B4OWxybjFZazhFNFIzekE?oc=5",
       "published": "2026-08-18T09:03:45+00:00",
       "source": {
-        "name": "dw.com",
+        "name": "DW.com",
         "url": "https://www.dw.com"
       }
     },
