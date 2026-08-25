@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-25T18:40:21.640099+00:00",
+  "fetched_at": "2026-08-25T19:32:27.903120+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -11,16 +11,6 @@
       "source": {
         "name": "euractiv.com",
         "url": "https://euractiv.com"
-      }
-    },
-    {
-      "id": "16e1581ec603",
-      "title": "Klingbeils Zuckersteuer: Am Ende bloß ein Mittel gegen Haushaltslöcher? - Ärzte Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPU0hwN3M0NjFTN2VvNmxJRENTWldIaEEtS0NxT1Z6MTdISVdQTG0ySHRGZU5reC00MVZlU1F1WllQaFNXemhLN2labVBlRTVyTlVkdVVoem9SdFlVbkNwclYzTmd4VjJ2ZWQ5V09TT0NvV3dESUJZSTVreE1iMl96a3pqZlpXRXFPbFZQdm5OY1FhUnhoeU9pQTNFTTFpa01TYzVVTkEzSnZqNy1KeFdZaUFCc01tUllwUlpCLQ?oc=5",
-      "published": "2026-08-25T18:18:28+00:00",
-      "source": {
-        "name": "Ärzte Zeitung",
-        "url": "https://www.aerztezeitung.de"
       }
     },
     {
@@ -44,6 +34,16 @@
       }
     },
     {
+      "id": "0ce6ee6e673f",
+      "title": "Ein Jahr elektronische Patientenakte: Wie bewerten Sie die ePA aus Praxissicht? - Ärzte Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQRm00N05nQVNRUHpTaDF5d0Y0OVd5aVNhUHlPTFV4a0kxajQ2YzdkVW9zYXp5X2JwblZ1eVdoU2FudGVTNGhmekRFc1JKSzYwUXZicjZINlNVMDV4cFFPMDFZYnlhbGxiQXd0Sm4yTkNETGh1dVotYmM2NEN6NnNPdVZGWXFYYjV4MHQyUlJ5OXk2RlF4M01OLU5lVW5yRDFSNWpHOUs1OEkxVkZ4RU0zaUdSc2NzSEpoQVRqZVJEMFBJV0dUM3o0QQ?oc=5",
+      "published": "2026-08-25T13:03:00+00:00",
+      "source": {
+        "name": "Ärzte Zeitung",
+        "url": "https://www.aerztezeitung.de"
+      }
+    },
+    {
       "id": "f58e17f68346",
       "title": "Kommt jetzt „Sport in Tablettenform“? - RaiNews",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdnR0Ykc2NWlPRTJaQWhpVjlGR3B2Mkh3bHkzaHBCam9yZ3NZWE14SHc2UzJsM2xFZFFQREczN0Vva29mUlplTEtvUzV5dlB4eWdZXzZKWjZSdXFQVFY1aXJXY2NDcUtDX3ZRNjNiU2xocGxIYVk3VE1wNGp6bXQzSjVzeFF1WG5ReFZOcHR0ZHp1UmNxY2dYNEhWUTk1OHU4bGtqVmtfTkUwWHYxNDd0MWZwNC1jeHd3X01pRXVzUGcydVkxbVZhVWJIWdIB0AFBVV95cUxQM2J4cUkwd3gzaGJNOXB3NF85dWFzby1oQVZNZlZPdVpqOUdJVjRlQk1XdE1veHdEQ2ExS0l4UVl0OXJodGRoRTFTcHN4VGFJT0MxMnljLWl1dnZVSWw0YVI4RG9wb1Fqcm5JZlFzUFVpRlZUZi13ZE9OYV92ekprNVJNeXRtTVlncms2alFtZzZiUVpFRFlBRUx3TVdqZGtVcDNhSVNuMFI4OW1wV29PcTBFal9OZWRYUnlwemhzWU5haDMtanRWa3pRTi02aXh5?oc=5",
@@ -64,26 +64,6 @@
       }
     },
     {
-      "id": "18e4cdf5076c",
-      "title": "Abnehmpille per Klick: Apotheker warnen vor dubiosen Online-Deals - Teltarif",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTjhaLWtuVEl1WWZrTjREcWZiMk9BUEVzbUtySkdMWlBqOXFNbWJHeHVlVXdZZ3dESWtSNTUta281TDVhYXFSSWxFamFPb0FHQTJiaEx2RmF5alltRklTNW81d25WNXA2YWQ4SXJZMHpBbzF6S3Q5VGtRcHd4aHMxYzVVTFk5dXFCM2VIWW82dGRBd2ZGRER4Qw?oc=5",
-      "published": "2026-08-25T14:00:00+00:00",
-      "source": {
-        "name": "Teltarif",
-        "url": "https://www.teltarif.de"
-      }
-    },
-    {
-      "id": "81d531e7026f",
-      "title": "Forscher entdecken möglichen neuen Weg zu wirksameren mRNA-Medikamenten - Euronews",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNeGw3bVkyby0yMEVPc0VaRm1sVVAzYnVmcjMwS0NscG1DVkE1OVdXbXBjWFgyNHNGM0x1dXRlQkxmOGNheEVIQ1Jyem4xQWVYdlRUWkFqY0lhTWYxc3hNdEFOY0ZQSzk3YlMxTzVPWDduZWgxNmEwQk16dWxiOFM5cUJPOFc2VWZmWHhwQ25sWkduSlhQNWs5M2dSMS13eXhtQ1FqUFhITmUxdUlJTlN3Vm5VZUg3cmpy?oc=5",
-      "published": "2026-08-24T05:02:45+00:00",
-      "source": {
-        "name": "Euronews",
-        "url": "https://de.euronews.com"
-      }
-    },
-    {
       "id": "4e6d48112005",
       "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesministerium für Gesundheit (BMG)",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT3NRWE1tbWNRMllaUC1GUGtRV3YxaWhZZ21nQThUT3NGbS1DbkFfRzdSd3RvUUVsTkVJdUpYRFp0ekFHV1JtTEJZZ0I5dWJvajgzZzdZZDk5S3FROHRoeVJzS3VBRTBuTldDWW52dG5kLWxpUTlMZmpLdUZZekxaOEJQYTlUbTdLRTBsR1k4TlE1ajIxYTFiZ041eFppZktLWjJZYVQyRlNOVEd1RGdIVmpBRDMteG1xdHdyUmVn?oc=5",
@@ -91,6 +71,26 @@
       "source": {
         "name": "Bundesministerium für Gesundheit (BMG)",
         "url": "https://www.bundesgesundheitsministerium.de"
+      }
+    },
+    {
+      "id": "ea195cf8a0a4",
+      "title": "Forscher entdecken möglichen neuen Weg zu wirksameren mRNA-Medikamenten - Euronews.com",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNeGw3bVkyby0yMEVPc0VaRm1sVVAzYnVmcjMwS0NscG1DVkE1OVdXbXBjWFgyNHNGM0x1dXRlQkxmOGNheEVIQ1Jyem4xQWVYdlRUWkFqY0lhTWYxc3hNdEFOY0ZQSzk3YlMxTzVPWDduZWgxNmEwQk16dWxiOFM5cUJPOFc2VWZmWHhwQ25sWkduSlhQNWs5M2dSMS13eXhtQ1FqUFhITmUxdUlJTlN3Vm5VZUg3cmpy?oc=5",
+      "published": "2026-08-24T05:02:45+00:00",
+      "source": {
+        "name": "Euronews.com",
+        "url": "https://de.euronews.com"
+      }
+    },
+    {
+      "id": "18e4cdf5076c",
+      "title": "Abnehmpille per Klick: Apotheker warnen vor dubiosen Online-Deals - Teltarif",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTjhaLWtuVEl1WWZrTjREcWZiMk9BUEVzbUtySkdMWlBqOXFNbWJHeHVlVXdZZ3dESWtSNTUta281TDVhYXFSSWxFamFPb0FHQTJiaEx2RmF5alltRklTNW81d25WNXA2YWQ4SXJZMHpBbzF6S3Q5VGtRcHd4aHMxYzVVTFk5dXFCM2VIWW82dGRBd2ZGRER4Qw?oc=5",
+      "published": "2026-08-25T14:00:00+00:00",
+      "source": {
+        "name": "Teltarif",
+        "url": "https://www.teltarif.de"
       }
     },
     {
@@ -174,16 +174,6 @@
       }
     },
     {
-      "id": "0ce6ee6e673f",
-      "title": "Ein Jahr elektronische Patientenakte: Wie bewerten Sie die ePA aus Praxissicht? - Ärzte Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQRm00N05nQVNRUHpTaDF5d0Y0OVd5aVNhUHlPTFV4a0kxajQ2YzdkVW9zYXp5X2JwblZ1eVdoU2FudGVTNGhmekRFc1JKSzYwUXZicjZINlNVMDV4cFFPMDFZYnlhbGxiQXd0Sm4yTkNETGh1dVotYmM2NEN6NnNPdVZGWXFYYjV4MHQyUlJ5OXk2RlF4M01OLU5lVW5yRDFSNWpHOUs1OEkxVkZ4RU0zaUdSc2NzSEpoQVRqZVJEMFBJV0dUM3o0QQ?oc=5",
-      "published": "2026-08-25T13:03:00+00:00",
-      "source": {
-        "name": "Ärzte Zeitung",
-        "url": "https://www.aerztezeitung.de"
-      }
-    },
-    {
       "id": "9f7c377ed6d2",
       "title": "MFN-Modell USA: Wie US-Arzneimittelpolitik Innovationen in Europa ausbremst - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWkw5ZTd1QUxfTlBDNjVEc0paTWpvTFpfTE9lOFM3YnhiWnBBREVhRzlMQnRmWDdkREJzVlg3UnZCN2RsTC1aTkhtN19oX2dEYmVLdXk4MXFBUnVGakk3YzVfbjZVQ0E0MUtPN2JZZ08wQ05yaTFLNER1dVYzZEo5UldOVldfQ0lCbGNRWEJZbUg0R3JBaGp6Mm1DTGd2eTYzWE9GV1hvenRGWHhOZXBxMHJMY09GUQ?oc=5",
@@ -234,16 +224,6 @@
       }
     },
     {
-      "id": "80d4b20c1223",
-      "title": "Hyposensibilisierung: Praktische Tipps für schwierige Allergie-Fälle - Ärzte Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNa0FBRk5LbFNUTER0NzB6Yy03d1liZ1I1TExEbVQyMzl1bTZRQ0Q0X3dKY2hsN0o0LUZtVDJUcS0tZ3BLVkJMRFVPcVZBb3Z2SnRfR2lSMGNCWFBOeXFOakk2OG1YRU5zeDVOZ2NsSUowV2xLRV9JeTd4dzE1ejBfUjhkNGxkbkh0UVdnVGFDR0ItcEpMdGVtQ0ZHYWJCb1lJdWMxejIzMFprTGEzTUVKT0k2aWctMHVqc05V?oc=5",
-      "published": "2026-08-24T03:00:00+00:00",
-      "source": {
-        "name": "Ärzte Zeitung",
-        "url": "https://www.aerztezeitung.de"
-      }
-    },
-    {
       "id": "51e8c4b74840",
       "title": "Gesundheitsgefahr durch gefälschte Arzneimittel - Gesundheit.gv.at",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYlhNa1drQ3UydVU1Ti1QZWxOelZ2UDNkQTBsczZ4SzVIZGhQS3psTVQ5Zmw2Ujh2RGpDYzZ5TDdIbG5mYkFjRl9CX3JkS0FHQ2dlSGVZMlpRTmpva0xOX3hoTWhTM3VoZlB6bjJYbjRRcGp2NERXZmhoaEtyeGJhUDlSU0k0cURLRzNIc1FR?oc=5",
@@ -251,6 +231,16 @@
       "source": {
         "name": "Gesundheit.gv.at",
         "url": "https://www.gesundheit.gv.at"
+      }
+    },
+    {
+      "id": "80d4b20c1223",
+      "title": "Hyposensibilisierung: Praktische Tipps für schwierige Allergie-Fälle - Ärzte Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNa0FBRk5LbFNUTER0NzB6Yy03d1liZ1I1TExEbVQyMzl1bTZRQ0Q0X3dKY2hsN0o0LUZtVDJUcS0tZ3BLVkJMRFVPcVZBb3Z2SnRfR2lSMGNCWFBOeXFOakk2OG1YRU5zeDVOZ2NsSUowV2xLRV9JeTd4dzE1ejBfUjhkNGxkbkh0UVdnVGFDR0ItcEpMdGVtQ0ZHYWJCb1lJdWMxejIzMFprTGEzTUVKT0k2aWctMHVqc05V?oc=5",
+      "published": "2026-08-24T03:00:00+00:00",
+      "source": {
+        "name": "Ärzte Zeitung",
+        "url": "https://www.aerztezeitung.de"
       }
     },
     {
@@ -264,16 +254,6 @@
       }
     },
     {
-      "id": "0fb861264008",
-      "title": "Bald gibt es die Abnehmpille auch bei uns. Ist sie besser als die Spritze? - STERN.de",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVUlnbGpFM216Q1F2ZzVTbmJmSDhkWlMwaVlKS2xzNjdoNGlPeDNKSjBHYnpOX2VTeG0yVzAyUXM0MVUydHhWLWdBTlVTdWlSTmhQREhpc2tNTUQ1eW1ETmZ3Y0NSZlhvemJHdkZoSXQxN3NLWGpCWEU2blZlMWFEbDl3NjNVb2xRdGVpb0xRSUhzNFdZN2psdFpESHVNTDNHR2tKdG0tOERfUQ?oc=5",
-      "published": "2026-08-21T16:04:00+00:00",
-      "source": {
-        "name": "STERN.de",
-        "url": "https://www.stern.de"
-      }
-    },
-    {
       "id": "53357c2f4851",
       "title": "Kritische Arzneimittel wieder stärker in Europa produzieren - Ministerium für Soziales, Arbeit und Gesundheit Baden-Württemberg",
       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOUEt0ckdtYTRpT2d2ZGVBenNHcEJURVlwOHZpTElSbWMtWWRlNmI5bE10Q3NUclQ5N2lDVW9WODdDNldjbW5pZDNKZmxxanhoY21qdGI0dnpfQ1Znb3NIZmlGN1l2d2tPb3ZxWGhkbFk1VklKcTMxZTdZWWhNc3htTVcwWER3X3psRmdibDJwRnFqOXQ4X2VTb1h2eFVtc2syLVdnMkk4dExEaC1XUGtxVDNWdU1nMFE0TGlKVUZ6RmcxTGN6VUEzQmkwd2tSRXlzbGJMa2RXX1hmV2xPTzdITg?oc=5",
@@ -281,6 +261,16 @@
       "source": {
         "name": "Ministerium für Soziales, Arbeit und Gesundheit Baden-Württemberg",
         "url": "https://sozialministerium.baden-wuerttemberg.de"
+      }
+    },
+    {
+      "id": "0fb861264008",
+      "title": "Bald gibt es die Abnehmpille auch bei uns. Ist sie besser als die Spritze? - STERN.de",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVUlnbGpFM216Q1F2ZzVTbmJmSDhkWlMwaVlKS2xzNjdoNGlPeDNKSjBHYnpOX2VTeG0yVzAyUXM0MVUydHhWLWdBTlVTdWlSTmhQREhpc2tNTUQ1eW1ETmZ3Y0NSZlhvemJHdkZoSXQxN3NLWGpCWEU2blZlMWFEbDl3NjNVb2xRdGVpb0xRSUhzNFdZN2psdFpESHVNTDNHR2tKdG0tOERfUQ?oc=5",
+      "published": "2026-08-21T16:04:00+00:00",
+      "source": {
+        "name": "STERN.de",
+        "url": "https://www.stern.de"
       }
     },
     {
@@ -684,16 +674,6 @@
       }
     },
     {
-      "id": "edcf559b1a0c",
-      "title": "EU-Gesundheitskommissar prüft Folgen von Trumps Arzneipreispolitik - Euronews",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSzM5cWFmcTJfV010WWVadkdEVXRGblFEUTlhaUhoOThvaHV5eTJuWFVJbUtyMW9xNTJkYzNIR2Z6YWp0ZE1IWmNPb3pNcU5YY1phcUlQSU5IWWtvV0MzNDlqdHJZRU40alRPU29CWFVnUDBjLXE3UHhtV2pManQ4TzhzVEU3OHNDM2JJZm9ZbzBUbkVCRFRZYU1jMTl2UVdGRnhubmZZYWswcmZqbXAtbW5QcnRBTktIaHFFWg?oc=5",
-      "published": "2026-06-16T07:00:00+00:00",
-      "source": {
-        "name": "Euronews",
-        "url": "https://de.euronews.com"
-      }
-    },
-    {
       "id": "1f4441bb42a2",
       "title": "Medizinprodukte: US-Arzneibehörde will Auflagen für neue Medikamente lockern - DIE ZEIT",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMDQ4aUF0OUVjbTB5LXZPc1JjcGo2U2RMUHdCNlpmQXV3RHFQeHJfRHlGcUZxVDRjZEVZV21TRmRTalZTdU9WN1RWeFREc212am9oREtTNjNBU0o5dW51RHM3US1WOXdFbWtnZ1RwM2diM21uTkVRN25HTVc1ZjNiM2Vhc0FjYXlBd1FadUM2RGd0UkEyalBmUWNpcmxMNTV3dUswMGlQSQ?oc=5",
@@ -701,6 +681,16 @@
       "source": {
         "name": "DIE ZEIT",
         "url": "https://www.zeit.de"
+      }
+    },
+    {
+      "id": "08f761ee3a89",
+      "title": "EU-Gesundheitskommissar prüft Folgen von Trumps Arzneipreispolitik - Euronews.com",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSzM5cWFmcTJfV010WWVadkdEVXRGblFEUTlhaUhoOThvaHV5eTJuWFVJbUtyMW9xNTJkYzNIR2Z6YWp0ZE1IWmNPb3pNcU5YY1phcUlQSU5IWWtvV0MzNDlqdHJZRU40alRPU29CWFVnUDBjLXE3UHhtV2pManQ4TzhzVEU3OHNDM2JJZm9ZbzBUbkVCRFRZYU1jMTl2UVdGRnhubmZZYWswcmZqbXAtbW5QcnRBTktIaHFFWg?oc=5",
+      "published": "2026-06-16T07:00:00+00:00",
+      "source": {
+        "name": "Euronews.com",
+        "url": "https://de.euronews.com"
       }
     },
     {
@@ -1001,6 +991,16 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "4d8966297de5",
+      "title": "Newel Health und Gerresheimer starten strategische Zusammenarbeit zur Unterstützung von Pharmaunternehmen im Zeitalter integrierter digitaler Therapien - PR Newswire",
+      "link": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxQSkFkNzV6ME5mWDBONy13Ny16cmFiVFQ5V1k0aWdVXzJBeVZNZDlVbG5EeUR1eHpCNG1GVGdzRk1ZNTlHdUFtV1JxaV9UbHpDY1FnY2loWUdCVFpNSWtfQXVOZTNZNC1pTDIyb2NxcWQ2b3l0S0Z3dW9ZeFBzSnhHMDN2UXdOREtneVdObkV3UTBBMXY0ZU1UV3JoVnNIQlk0azRyWlZMRm5DYTNydXl1VUl1ZkRYVE5hdkFWQ1pNbjdHcWVNRVdUNDBVMW9UaW9tTE1FdlA3QXJuZlZtcGxzTnJZYUN5MEdoZ1ItUGFaVW1rU3lkUDB2YzFEbmlWZlMyS0dCLW9BU1QzelNPanJTRjk3RTBVTTI5TVBhVjZZYXotLVotQk9rVXFERTdRMFltLXNrb1hzVjhwLW8?oc=5",
+      "published": "2026-05-27T07:00:00+00:00",
+      "source": {
+        "name": "PR Newswire",
+        "url": "https://www.prnewswire.com"
       }
     }
   ]
