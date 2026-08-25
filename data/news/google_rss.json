@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-25T16:38:14.156963+00:00",
+  "fetched_at": "2026-08-25T17:32:32.212916+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -34,16 +34,6 @@
       }
     },
     {
-      "id": "7596fb323e77",
-      "title": "Gesundheit im Kreis Heinsberg: Abnehmpille und Vitamin D – Apotheken warnen vor riskanten Internetkäufen - RP Online",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRVFDOVQ3bkFsbmV4em9nLXlvaFM3NndTUXN3blU4OFJoM09hb1JkYnhUb25hRVl0YS01WnhvWGdqMDVEVERKMzZYdmtid3lOZ3ljZ0xiNmpEcldBOFMxTlZjRDI5aUZsbmdhMXRROXY3YS1tZUQzbnBWbnpLSjBMaVBfX3M0OXpkcnBOaTRrUDA0d29lQlNnR29QVDQxNU54RXBLVFZhb0p3ZVFTM3ZtYlBzSVd3bW1QazNVOTNVSjFnZ0E?oc=5",
-      "published": "2026-08-25T03:10:00+00:00",
-      "source": {
-        "name": "RP Online",
-        "url": "https://rp-online.de"
-      }
-    },
-    {
       "id": "9fa13ce5acf5",
       "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
@@ -51,6 +41,16 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "7596fb323e77",
+      "title": "Gesundheit im Kreis Heinsberg: Abnehmpille und Vitamin D – Apotheken warnen vor riskanten Internetkäufen - RP Online",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRVFDOVQ3bkFsbmV4em9nLXlvaFM3NndTUXN3blU4OFJoM09hb1JkYnhUb25hRVl0YS01WnhvWGdqMDVEVERKMzZYdmtid3lOZ3ljZ0xiNmpEcldBOFMxTlZjRDI5aUZsbmdhMXRROXY3YS1tZUQzbnBWbnpLSjBMaVBfX3M0OXpkcnBOaTRrUDA0d29lQlNnR29QVDQxNU54RXBLVFZhb0p3ZVFTM3ZtYlBzSVd3bW1QazNVOTNVSjFnZ0E?oc=5",
+      "published": "2026-08-25T03:10:00+00:00",
+      "source": {
+        "name": "RP Online",
+        "url": "https://rp-online.de"
       }
     },
     {
@@ -74,16 +74,6 @@
       }
     },
     {
-      "id": "4e6d48112005",
-      "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesministerium für Gesundheit (BMG)",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT3NRWE1tbWNRMllaUC1GUGtRV3YxaWhZZ21nQThUT3NGbS1DbkFfRzdSd3RvUUVsTkVJdUpYRFp0ekFHV1JtTEJZZ0I5dWJvajgzZzdZZDk5S3FROHRoeVJzS3VBRTBuTldDWW52dG5kLWxpUTlMZmpLdUZZekxaOEJQYTlUbTdLRTBsR1k4TlE1ajIxYTFiZ041eFppZktLWjJZYVQyRlNOVEd1RGdIVmpBRDMteG1xdHdyUmVn?oc=5",
-      "published": "2026-05-22T07:00:00+00:00",
-      "source": {
-        "name": "Bundesministerium für Gesundheit (BMG)",
-        "url": "https://www.bundesgesundheitsministerium.de"
-      }
-    },
-    {
       "id": "ea195cf8a0a4",
       "title": "Forscher entdecken möglichen neuen Weg zu wirksameren mRNA-Medikamenten - Euronews.com",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNeGw3bVkyby0yMEVPc0VaRm1sVVAzYnVmcjMwS0NscG1DVkE1OVdXbXBjWFgyNHNGM0x1dXRlQkxmOGNheEVIQ1Jyem4xQWVYdlRUWkFqY0lhTWYxc3hNdEFOY0ZQSzk3YlMxTzVPWDduZWgxNmEwQk16dWxiOFM5cUJPOFc2VWZmWHhwQ25sWkduSlhQNWs5M2dSMS13eXhtQ1FqUFhITmUxdUlJTlN3Vm5VZUg3cmpy?oc=5",
@@ -91,6 +81,16 @@
       "source": {
         "name": "Euronews.com",
         "url": "https://de.euronews.com"
+      }
+    },
+    {
+      "id": "4e6d48112005",
+      "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesministerium für Gesundheit (BMG)",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT3NRWE1tbWNRMllaUC1GUGtRV3YxaWhZZ21nQThUT3NGbS1DbkFfRzdSd3RvUUVsTkVJdUpYRFp0ekFHV1JtTEJZZ0I5dWJvajgzZzdZZDk5S3FROHRoeVJzS3VBRTBuTldDWW52dG5kLWxpUTlMZmpLdUZZekxaOEJQYTlUbTdLRTBsR1k4TlE1ajIxYTFiZ041eFppZktLWjJZYVQyRlNOVEd1RGdIVmpBRDMteG1xdHdyUmVn?oc=5",
+      "published": "2026-05-22T07:00:00+00:00",
+      "source": {
+        "name": "Bundesministerium für Gesundheit (BMG)",
+        "url": "https://www.bundesgesundheitsministerium.de"
       }
     },
     {
@@ -244,16 +244,6 @@
       }
     },
     {
-      "id": "177ce06ec302",
-      "title": "Bewusstseinsstörungen: Auf welche Intoxikationsmerkmale Sie achten können - Ärzte Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNYktTRnl1cEdkbDFWOTZPMkplM2dNdTAyakt6V0JUUnFBTzA3Tm1jUlI4QUViZmF2T1I4TDBKN0xYUGZYY3I0aE4xV3ZTVURtUXg0Y1FqWUFZR3g5eFRoOW1uZlJzdkVxSG5GLWd0Qm9ZQlNCYkl0WUFYdjZZNVEzckxpU0dGd1pGR283ZVBaTG4ybFV1S2lRQV9mRFluUGdkQWt5X3Jjd25Iajk5c29hNVMxOFFoRVg1YkoxTk1Ic2k?oc=5",
-      "published": "2026-08-24T03:10:00+00:00",
-      "source": {
-        "name": "Ärzte Zeitung",
-        "url": "https://www.aerztezeitung.de"
-      }
-    },
-    {
       "id": "0fb861264008",
       "title": "Bald gibt es die Abnehmpille auch bei uns. Ist sie besser als die Spritze? - STERN.de",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVUlnbGpFM216Q1F2ZzVTbmJmSDhkWlMwaVlKS2xzNjdoNGlPeDNKSjBHYnpOX2VTeG0yVzAyUXM0MVUydHhWLWdBTlVTdWlSTmhQREhpc2tNTUQ1eW1ETmZ3Y0NSZlhvemJHdkZoSXQxN3NLWGpCWEU2blZlMWFEbDl3NjNVb2xRdGVpb0xRSUhzNFdZN2psdFpESHVNTDNHR2tKdG0tOERfUQ?oc=5",
@@ -261,6 +251,16 @@
       "source": {
         "name": "STERN.de",
         "url": "https://www.stern.de"
+      }
+    },
+    {
+      "id": "177ce06ec302",
+      "title": "Bewusstseinsstörungen: Auf welche Intoxikationsmerkmale Sie achten können - Ärzte Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNYktTRnl1cEdkbDFWOTZPMkplM2dNdTAyakt6V0JUUnFBTzA3Tm1jUlI4QUViZmF2T1I4TDBKN0xYUGZYY3I0aE4xV3ZTVURtUXg0Y1FqWUFZR3g5eFRoOW1uZlJzdkVxSG5GLWd0Qm9ZQlNCYkl0WUFYdjZZNVEzckxpU0dGd1pGR283ZVBaTG4ybFV1S2lRQV9mRFluUGdkQWt5X3Jjd25Iajk5c29hNVMxOFFoRVg1YkoxTk1Ic2k?oc=5",
+      "published": "2026-08-24T03:10:00+00:00",
+      "source": {
+        "name": "Ärzte Zeitung",
+        "url": "https://www.aerztezeitung.de"
       }
     },
     {
