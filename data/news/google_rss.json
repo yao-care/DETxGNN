@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-25T20:30:17.494294+00:00",
+  "fetched_at": "2026-08-25T21:30:02.359013+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -44,16 +44,6 @@
       }
     },
     {
-      "id": "7596fb323e77",
-      "title": "Gesundheit im Kreis Heinsberg: Abnehmpille und Vitamin D – Apotheken warnen vor riskanten Internetkäufen - RP Online",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRVFDOVQ3bkFsbmV4em9nLXlvaFM3NndTUXN3blU4OFJoM09hb1JkYnhUb25hRVl0YS01WnhvWGdqMDVEVERKMzZYdmtid3lOZ3ljZ0xiNmpEcldBOFMxTlZjRDI5aUZsbmdhMXRROXY3YS1tZUQzbnBWbnpLSjBMaVBfX3M0OXpkcnBOaTRrUDA0d29lQlNnR29QVDQxNU54RXBLVFZhb0p3ZVFTM3ZtYlBzSVd3bW1QazNVOTNVSjFnZ0E?oc=5",
-      "published": "2026-08-25T03:10:00+00:00",
-      "source": {
-        "name": "RP Online",
-        "url": "https://rp-online.de"
-      }
-    },
-    {
       "id": "4e6d48112005",
       "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesministerium für Gesundheit (BMG)",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT3NRWE1tbWNRMllaUC1GUGtRV3YxaWhZZ21nQThUT3NGbS1DbkFfRzdSd3RvUUVsTkVJdUpYRFp0ekFHV1JtTEJZZ0I5dWJvajgzZzdZZDk5S3FROHRoeVJzS3VBRTBuTldDWW52dG5kLWxpUTlMZmpLdUZZekxaOEJQYTlUbTdLRTBsR1k4TlE1ajIxYTFiZ041eFppZktLWjJZYVQyRlNOVEd1RGdIVmpBRDMteG1xdHdyUmVn?oc=5",
@@ -74,13 +64,13 @@
       }
     },
     {
-      "id": "18e4cdf5076c",
-      "title": "Abnehmpille per Klick: Apotheker warnen vor dubiosen Online-Deals - Teltarif",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTjhaLWtuVEl1WWZrTjREcWZiMk9BUEVzbUtySkdMWlBqOXFNbWJHeHVlVXdZZ3dESWtSNTUta281TDVhYXFSSWxFamFPb0FHQTJiaEx2RmF5alltRklTNW81d25WNXA2YWQ4SXJZMHpBbzF6S3Q5VGtRcHd4aHMxYzVVTFk5dXFCM2VIWW82dGRBd2ZGRER4Qw?oc=5",
-      "published": "2026-08-25T14:00:00+00:00",
+      "id": "7596fb323e77",
+      "title": "Gesundheit im Kreis Heinsberg: Abnehmpille und Vitamin D – Apotheken warnen vor riskanten Internetkäufen - RP Online",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRVFDOVQ3bkFsbmV4em9nLXlvaFM3NndTUXN3blU4OFJoM09hb1JkYnhUb25hRVl0YS01WnhvWGdqMDVEVERKMzZYdmtid3lOZ3ljZ0xiNmpEcldBOFMxTlZjRDI5aUZsbmdhMXRROXY3YS1tZUQzbnBWbnpLSjBMaVBfX3M0OXpkcnBOaTRrUDA0d29lQlNnR29QVDQxNU54RXBLVFZhb0p3ZVFTM3ZtYlBzSVd3bW1QazNVOTNVSjFnZ0E?oc=5",
+      "published": "2026-08-25T03:10:00+00:00",
       "source": {
-        "name": "Teltarif",
-        "url": "https://www.teltarif.de"
+        "name": "RP Online",
+        "url": "https://rp-online.de"
       }
     },
     {
@@ -91,6 +81,16 @@
       "source": {
         "name": "Augsburger Allgemeine",
         "url": "https://www.augsburger-allgemeine.de"
+      }
+    },
+    {
+      "id": "18e4cdf5076c",
+      "title": "Abnehmpille per Klick: Apotheker warnen vor dubiosen Online-Deals - Teltarif",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTjhaLWtuVEl1WWZrTjREcWZiMk9BUEVzbUtySkdMWlBqOXFNbWJHeHVlVXdZZ3dESWtSNTUta281TDVhYXFSSWxFamFPb0FHQTJiaEx2RmF5alltRklTNW81d25WNXA2YWQ4SXJZMHpBbzF6S3Q5VGtRcHd4aHMxYzVVTFk5dXFCM2VIWW82dGRBd2ZGRER4Qw?oc=5",
+      "published": "2026-08-25T14:00:00+00:00",
+      "source": {
+        "name": "Teltarif",
+        "url": "https://www.teltarif.de"
       }
     },
     {
@@ -214,16 +214,6 @@
       }
     },
     {
-      "id": "2ea158f4be81",
-      "title": "Impfung gegen Hautkrebs: Ein Meilenstein in der Krebsmedizin - DIE ZEIT",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSEZUUXdGNjBLVlN3b055cURENWxtRldFTEZpWGRqcnBuV2Q5YUF4QVhQOWZCZmp0MDlmT2dfaldnOHFwNW91NWhHZU90RVo4Zlc4LUNyNHVPbWJNUVdiNFhLM00yQXlUaEJSeTYzWW1tZjNKdklMakQ0ekxKT1V0b2M5MkNOZ3pZcFJ0TFNMWDZzNkxt?oc=5",
-      "published": "2026-08-20T14:16:04+00:00",
-      "source": {
-        "name": "DIE ZEIT",
-        "url": "https://www.zeit.de"
-      }
-    },
-    {
       "id": "80d4b20c1223",
       "title": "Hyposensibilisierung: Praktische Tipps für schwierige Allergie-Fälle - Ärzte Zeitung",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNa0FBRk5LbFNUTER0NzB6Yy03d1liZ1I1TExEbVQyMzl1bTZRQ0Q0X3dKY2hsN0o0LUZtVDJUcS0tZ3BLVkJMRFVPcVZBb3Z2SnRfR2lSMGNCWFBOeXFOakk2OG1YRU5zeDVOZ2NsSUowV2xLRV9JeTd4dzE1ejBfUjhkNGxkbkh0UVdnVGFDR0ItcEpMdGVtQ0ZHYWJCb1lJdWMxejIzMFprTGEzTUVKT0k2aWctMHVqc05V?oc=5",
@@ -231,6 +221,16 @@
       "source": {
         "name": "Ärzte Zeitung",
         "url": "https://www.aerztezeitung.de"
+      }
+    },
+    {
+      "id": "2ea158f4be81",
+      "title": "Impfung gegen Hautkrebs: Ein Meilenstein in der Krebsmedizin - DIE ZEIT",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSEZUUXdGNjBLVlN3b055cURENWxtRldFTEZpWGRqcnBuV2Q5YUF4QVhQOWZCZmp0MDlmT2dfaldnOHFwNW91NWhHZU90RVo4Zlc4LUNyNHVPbWJNUVdiNFhLM00yQXlUaEJSeTYzWW1tZjNKdklMakQ0ekxKT1V0b2M5MkNOZ3pZcFJ0TFNMWDZzNkxt?oc=5",
+      "published": "2026-08-20T14:16:04+00:00",
+      "source": {
+        "name": "DIE ZEIT",
+        "url": "https://www.zeit.de"
       }
     },
     {
@@ -284,16 +284,6 @@
       }
     },
     {
-      "id": "5431265615fd",
-      "title": "Patente und Profitorientierung blockieren Arzneimittel: Warum Millionen keinen Zugang haben - Frankfurter Rundschau",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPb0JSbmVWcVk1ajdydzIzRF9PM2hHQWFaYWNuSjhZbmZBbXplUGFBNklQVFptakVZdGN5UVA4VW9fS3VoRmluVzd5OHV1MXJMM3NudGpTdHR5MEI4dExjSmIzM0VoVUtCeHU2VnFfWGNTSVZYWFBsOEhValduakNSd1Z1TTZEM20zTFF0R3RLYy1NWHYza196cEkwM1ljMEtKdDdCdU1TN0J2LVU0Sk9UckdzRXpJNHVMdzZvaG9Ya2FxNEk?oc=5",
-      "published": "2026-07-31T07:00:00+00:00",
-      "source": {
-        "name": "Frankfurter Rundschau",
-        "url": "https://www.fr.de"
-      }
-    },
-    {
       "id": "02e9917bea66",
       "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - DW.com",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGxHSlhmSS0tbUNKdG15NEVzRzYzYllEUnAzUEU3ak53czRHVWlKdTZrRGFDMk1MUThPUjdPTnBGVENqd3d2Q1VSdWhJVXppWDF4NWh0aEJJaXJlVTlnV0VoZVFkRHNSM3p6NVZXNjNwWHk5YkxSUWR2RGZKcmp3Y2U5REY0U3dRZFJLeHFtQk9wb2Y3RUVOaVBlMlJhZ29Rck000gGjAUFVX3lxTE1rTW00WXFBajZxbTJOS1NLckhVbXFBSzh1NE96QTEydTN1YjZnaFFNcV8xblZGM29hdTZQUHc4V3YzQ1pwcTlaVVBhZDVqMExLMTlYVzZ6TmM4ZUdsUm5TLXpPNmk1R3V4UktvaV93cWttNFpVX0VEZlZnUllSQkhyUlZmeTBJcU0zUEVSZTgxdzFWUnFNRk9CYVljN0Jhd0ZXUFk?oc=5",
@@ -301,6 +291,16 @@
       "source": {
         "name": "DW.com",
         "url": "https://www.dw.com"
+      }
+    },
+    {
+      "id": "5431265615fd",
+      "title": "Patente und Profitorientierung blockieren Arzneimittel: Warum Millionen keinen Zugang haben - Frankfurter Rundschau",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPb0JSbmVWcVk1ajdydzIzRF9PM2hHQWFaYWNuSjhZbmZBbXplUGFBNklQVFptakVZdGN5UVA4VW9fS3VoRmluVzd5OHV1MXJMM3NudGpTdHR5MEI4dExjSmIzM0VoVUtCeHU2VnFfWGNTSVZYWFBsOEhValduakNSd1Z1TTZEM20zTFF0R3RLYy1NWHYza196cEkwM1ljMEtKdDdCdU1TN0J2LVU0Sk9UckdzRXpJNHVMdzZvaG9Ya2FxNEk?oc=5",
+      "published": "2026-07-31T07:00:00+00:00",
+      "source": {
+        "name": "Frankfurter Rundschau",
+        "url": "https://www.fr.de"
       }
     },
     {
