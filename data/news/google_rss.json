@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-26T03:05:50.627603+00:00",
+  "fetched_at": "2026-08-26T04:40:38.196430+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -11,6 +11,16 @@
       "source": {
         "name": "euractiv.com",
         "url": "https://euractiv.com"
+      }
+    },
+    {
+      "id": "101f01548376",
+      "title": "Vitamin D und Abnehmpille: Essener Apotheker warnen vor dubiosen Online-Angeboten - WAZ",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQb2VmTkExV1JFVzdjQkY5d0t1eXNFSGFOb0hhdXZtSXc3Z0swNTlSU3hUZklJMjR4UE9FSUhqaUFVWFpYOWRRZmNOb1FteVU3Wjk0cTdzSklqZVV5Vlg0R2xVT1BrcDhkTXhhanBlVzluNkFycVc0SWgzX3BWLVlReXg3cVlva2I2UjhwOTRGSlp3eGVsMnhielQ1RHphRVA5dDJ0X3NmZ3o0enpwbERjVXo1TGYzV3RPUVdMNmJVMEMxN1dLZXE2WjRMNjFjbHM2?oc=5",
+      "published": "2026-08-26T03:00:00+00:00",
+      "source": {
+        "name": "WAZ",
+        "url": "https://www.waz.de"
       }
     },
     {
@@ -64,16 +74,6 @@
       }
     },
     {
-      "id": "f58e17f68346",
-      "title": "Kommt jetzt „Sport in Tablettenform“? - RaiNews",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdnR0Ykc2NWlPRTJaQWhpVjlGR3B2Mkh3bHkzaHBCam9yZ3NZWE14SHc2UzJsM2xFZFFQREczN0Vva29mUlplTEtvUzV5dlB4eWdZXzZKWjZSdXFQVFY1aXJXY2NDcUtDX3ZRNjNiU2xocGxIYVk3VE1wNGp6bXQzSjVzeFF1WG5ReFZOcHR0ZHp1UmNxY2dYNEhWUTk1OHU4bGtqVmtfTkUwWHYxNDd0MWZwNC1jeHd3X01pRXVzUGcydVkxbVZhVWJIWdIB0AFBVV95cUxQM2J4cUkwd3gzaGJNOXB3NF85dWFzby1oQVZNZlZPdVpqOUdJVjRlQk1XdE1veHdEQ2ExS0l4UVl0OXJodGRoRTFTcHN4VGFJT0MxMnljLWl1dnZVSWw0YVI4RG9wb1Fqcm5JZlFzUFVpRlZUZi13ZE9OYV92ekprNVJNeXRtTVlncms2alFtZzZiUVpFRFlBRUx3TVdqZGtVcDNhSVNuMFI4OW1wV29PcTBFal9OZWRYUnlwemhzWU5haDMtanRWa3pRTi02aXh5?oc=5",
-      "published": "2026-08-25T07:12:00+00:00",
-      "source": {
-        "name": "RaiNews",
-        "url": "https://www.rainews.it"
-      }
-    },
-    {
       "id": "89f26a088656",
       "title": "Vorsicht vor dubiosen Online-Angeboten: Apotheken in Nordrhein warnen bei Abnehmpille und Vitamin D - Presseportal",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9MYjIxUFo5UHJCZnJiWXZ0bkE2Y1hTSFJyUzZ1UzBhMGtOMzRBMTRxcVdPNTVtM0lMLUZiWmVSU3l1VFhnQkJzOE9zWmthWXlESGhfM3UyZw?oc=5",
@@ -81,6 +81,16 @@
       "source": {
         "name": "Presseportal",
         "url": "https://www.presseportal.de"
+      }
+    },
+    {
+      "id": "f58e17f68346",
+      "title": "Kommt jetzt „Sport in Tablettenform“? - RaiNews",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdnR0Ykc2NWlPRTJaQWhpVjlGR3B2Mkh3bHkzaHBCam9yZ3NZWE14SHc2UzJsM2xFZFFQREczN0Vva29mUlplTEtvUzV5dlB4eWdZXzZKWjZSdXFQVFY1aXJXY2NDcUtDX3ZRNjNiU2xocGxIYVk3VE1wNGp6bXQzSjVzeFF1WG5ReFZOcHR0ZHp1UmNxY2dYNEhWUTk1OHU4bGtqVmtfTkUwWHYxNDd0MWZwNC1jeHd3X01pRXVzUGcydVkxbVZhVWJIWdIB0AFBVV95cUxQM2J4cUkwd3gzaGJNOXB3NF85dWFzby1oQVZNZlZPdVpqOUdJVjRlQk1XdE1veHdEQ2ExS0l4UVl0OXJodGRoRTFTcHN4VGFJT0MxMnljLWl1dnZVSWw0YVI4RG9wb1Fqcm5JZlFzUFVpRlZUZi13ZE9OYV92ekprNVJNeXRtTVlncms2alFtZzZiUVpFRFlBRUx3TVdqZGtVcDNhSVNuMFI4OW1wV29PcTBFal9OZWRYUnlwemhzWU5haDMtanRWa3pRTi02aXh5?oc=5",
+      "published": "2026-08-25T07:12:00+00:00",
+      "source": {
+        "name": "RaiNews",
+        "url": "https://www.rainews.it"
       }
     },
     {
@@ -244,16 +254,6 @@
       }
     },
     {
-      "id": "0fb861264008",
-      "title": "Bald gibt es die Abnehmpille auch bei uns. Ist sie besser als die Spritze? - STERN.de",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVUlnbGpFM216Q1F2ZzVTbmJmSDhkWlMwaVlKS2xzNjdoNGlPeDNKSjBHYnpOX2VTeG0yVzAyUXM0MVUydHhWLWdBTlVTdWlSTmhQREhpc2tNTUQ1eW1ETmZ3Y0NSZlhvemJHdkZoSXQxN3NLWGpCWEU2blZlMWFEbDl3NjNVb2xRdGVpb0xRSUhzNFdZN2psdFpESHVNTDNHR2tKdG0tOERfUQ?oc=5",
-      "published": "2026-08-21T16:04:00+00:00",
-      "source": {
-        "name": "STERN.de",
-        "url": "https://www.stern.de"
-      }
-    },
-    {
       "id": "d9cb7465e8c6",
       "title": "Ärzte vs. Apotheker – Der Verteilungskampf um die Gesundheit eskaliert - WELT",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNRWwtS2t0RWtxOWhiY3Bpcl9oaG9YUGFZeXRJZ3ZXcFMzRU9EbTBISDdZa1pYQXZCZjZ3Z19Kd18wei11cWluU3lDQ3RSVURjN05wdVU1WTBDWGFrV0lCbnJmR3FieGVDNUlMXzhyMDV2UkhCZy00M2t1Tk5rT1lrY0VFZ0tUREZTVkhkdmYxaDZLQXgzRTlRZEJveDJQZVdYWHNNM1I1U3FQZktfWElRZDV0VlBQN0gzX2NvVURQWDNUSnA0M1JNZk9pQWNwQQ?oc=5",
@@ -261,6 +261,16 @@
       "source": {
         "name": "WELT",
         "url": "https://www.welt.de"
+      }
+    },
+    {
+      "id": "0fb861264008",
+      "title": "Bald gibt es die Abnehmpille auch bei uns. Ist sie besser als die Spritze? - STERN.de",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVUlnbGpFM216Q1F2ZzVTbmJmSDhkWlMwaVlKS2xzNjdoNGlPeDNKSjBHYnpOX2VTeG0yVzAyUXM0MVUydHhWLWdBTlVTdWlSTmhQREhpc2tNTUQ1eW1ETmZ3Y0NSZlhvemJHdkZoSXQxN3NLWGpCWEU2blZlMWFEbDl3NjNVb2xRdGVpb0xRSUhzNFdZN2psdFpESHVNTDNHR2tKdG0tOERfUQ?oc=5",
+      "published": "2026-08-21T16:04:00+00:00",
+      "source": {
+        "name": "STERN.de",
+        "url": "https://www.stern.de"
       }
     },
     {
@@ -294,12 +304,12 @@
       }
     },
     {
-      "id": "8db31424e5bb",
-      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - dw.com",
+      "id": "02e9917bea66",
+      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - DW.com",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGxHSlhmSS0tbUNKdG15NEVzRzYzYllEUnAzUEU3ak53czRHVWlKdTZrRGFDMk1MUThPUjdPTnBGVENqd3d2Q1VSdWhJVXppWDF4NWh0aEJJaXJlVTlnV0VoZVFkRHNSM3p6NVZXNjNwWHk5YkxSUWR2RGZKcmp3Y2U5REY0U3dRZFJLeHFtQk9wb2Y3RUVOaVBlMlJhZ29Rck000gGjAUFVX3lxTE1rTW00WXFBajZxbTJOS1NLckhVbXFBSzh1NE96QTEydTN1YjZnaFFNcV8xblZGM29hdTZQUHc4V3YzQ1pwcTlaVVBhZDVqMExLMTlYVzZ6TmM4ZUdsUm5TLXpPNmk1R3V4UktvaV93cWttNFpVX0VEZlZnUllSQkhyUlZmeTBJcU0zUEVSZTgxdzFWUnFNRk9CYVljN0Jhd0ZXUFk?oc=5",
       "published": "2026-05-12T07:00:00+00:00",
       "source": {
-        "name": "dw.com",
+        "name": "DW.com",
         "url": "https://www.dw.com"
       }
     },
@@ -604,16 +614,6 @@
       }
     },
     {
-      "id": "a0c803609fce",
-      "title": "Halbjahresbilanz der GKV entlarvt Panikmache: Krankenkassen erwirtschaften Milliarden-Überschuss - Presseportal",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB5ZEV4RUE3d09heHl1SUhPM0owd1hZeDRCS0FndEpPb1N4WFdMNUx0VXBuSVFBRVpwVWFMeGlxSXZRUnZWeVNQWHFfM1VweVhUNWVLRU04NA?oc=5",
-      "published": "2026-08-20T14:04:32+00:00",
-      "source": {
-        "name": "Presseportal",
-        "url": "https://www.presseportal.de"
-      }
-    },
-    {
       "id": "054c2beef78c",
       "title": "Marktgröße, Marktanteil für natürliche Gesundheitsmedikamente | Prognose [2034] - Fortune Business Insights",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcm9jWnMyZy1ubkhPQXFmQ1dzUmtCU0V4X0dTMlEzZnpVeEVnVmxNU0VweEJsR2hNakhlN0JxRk9kMVVhVFZFNWhpXzhtR2g3cTdRQVM5d1lON25zT1FXV3hJNlJ1dDY5R2JUUld0UGRadUs4aFM5elJ6Z0RqX3BFS1ZEcERJUUh0MldhbVRybzN6anhOZnRHMw?oc=5",
@@ -624,12 +624,22 @@
       }
     },
     {
-      "id": "87bcf34f4dfd",
-      "title": "USA: Weniger Adipositas wegen Ozempic-Effekt? - dw.com",
+      "id": "a0c803609fce",
+      "title": "Halbjahresbilanz der GKV entlarvt Panikmache: Krankenkassen erwirtschaften Milliarden-Überschuss - Presseportal",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB5ZEV4RUE3d09heHl1SUhPM0owd1hZeDRCS0FndEpPb1N4WFdMNUx0VXBuSVFBRVpwVWFMeGlxSXZRUnZWeVNQWHFfM1VweVhUNWVLRU04NA?oc=5",
+      "published": "2026-08-20T14:04:32+00:00",
+      "source": {
+        "name": "Presseportal",
+        "url": "https://www.presseportal.de"
+      }
+    },
+    {
+      "id": "77b7dff3461e",
+      "title": "USA: Weniger Adipositas wegen Ozempic-Effekt? - DW.com",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVFRMcFM1Ti1CT21Da0lRS3Nvb0gxRmp5UTQ0akFiQmNmdWVaM2g0MVlGbjc1LW1hVWlqVS1DWll0TDR4eEhEREpHT20wWDlBVEJMcndYSWVsSnQ4LUtvNjRuWWFzblhHSkpLSDZUQVpEREUyeU96QkRScmtnN1lRVjNReGRVakROTHZjMVcwR1hRZ1FpdTVQUHFhVUdBckx0cmdVYk93dWJwVkpBLUNtSUhR0gGyAUFVX3lxTE14UVQ5Q1FGV1ZaNlpNa2ZfR181ZnZFdno4R0Z6V1RFVW0zMk1LczI2cWdwVC1ETGRleFd5OVZIS004Qi1NMFJDRmlrams3d0dTN0Y1cXRkM3V3TG9kQ1FURmJ4Q1BTNXE2Zk1RVzNHV3VRMnlEVDJOZ29VNUJBd3UtSFpOb0pCZ2dLX3EwZnpBdHEyeGlzQ0xUVll3RDVJekQ5Y3B4OWxybjFZazhFNFIzekE?oc=5",
       "published": "2026-08-18T09:03:45+00:00",
       "source": {
-        "name": "dw.com",
+        "name": "DW.com",
         "url": "https://www.dw.com"
       }
     },
@@ -644,16 +654,6 @@
       }
     },
     {
-      "id": "1f4441bb42a2",
-      "title": "Medizinprodukte: US-Arzneibehörde will Auflagen für neue Medikamente lockern - DIE ZEIT",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMDQ4aUF0OUVjbTB5LXZPc1JjcGo2U2RMUHdCNlpmQXV3RHFQeHJfRHlGcUZxVDRjZEVZV21TRmRTalZTdU9WN1RWeFREc212am9oREtTNjNBU0o5dW51RHM3US1WOXdFbWtnZ1RwM2diM21uTkVRN25HTVc1ZjNiM2Vhc0FjYXlBd1FadUM2RGd0UkEyalBmUWNpcmxMNTV3dUswMGlQSQ?oc=5",
-      "published": "2026-02-19T08:00:00+00:00",
-      "source": {
-        "name": "DIE ZEIT",
-        "url": "https://www.zeit.de"
-      }
-    },
-    {
       "id": "edcf559b1a0c",
       "title": "EU-Gesundheitskommissar prüft Folgen von Trumps Arzneipreispolitik - Euronews",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSzM5cWFmcTJfV010WWVadkdEVXRGblFEUTlhaUhoOThvaHV5eTJuWFVJbUtyMW9xNTJkYzNIR2Z6YWp0ZE1IWmNPb3pNcU5YY1phcUlQSU5IWWtvV0MzNDlqdHJZRU40alRPU29CWFVnUDBjLXE3UHhtV2pManQ4TzhzVEU3OHNDM2JJZm9ZbzBUbkVCRFRZYU1jMTl2UVdGRnhubmZZYWswcmZqbXAtbW5QcnRBTktIaHFFWg?oc=5",
@@ -664,13 +664,13 @@
       }
     },
     {
-      "id": "71c2e69b9417",
-      "title": "EU lässt erstmals Abnehmpille zu - südtirol.ORF.at",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBKRXRpR3pHWk9zTHRtQ0tiYlVieGhZOWZsc0E3eS1QNGtNa0I2S3lsUTM2VjZUYXNfTU9HWnFmeFgyV082R1ZYRnc1d3Y0NHlMVHdF?oc=5",
-      "published": "2026-08-24T10:48:11+00:00",
+      "id": "1f4441bb42a2",
+      "title": "Medizinprodukte: US-Arzneibehörde will Auflagen für neue Medikamente lockern - DIE ZEIT",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMDQ4aUF0OUVjbTB5LXZPc1JjcGo2U2RMUHdCNlpmQXV3RHFQeHJfRHlGcUZxVDRjZEVZV21TRmRTalZTdU9WN1RWeFREc212am9oREtTNjNBU0o5dW51RHM3US1WOXdFbWtnZ1RwM2diM21uTkVRN25HTVc1ZjNiM2Vhc0FjYXlBd1FadUM2RGd0UkEyalBmUWNpcmxMNTV3dUswMGlQSQ?oc=5",
+      "published": "2026-02-19T08:00:00+00:00",
       "source": {
-        "name": "südtirol.ORF.at",
-        "url": "https://suedtirol.orf.at"
+        "name": "DIE ZEIT",
+        "url": "https://www.zeit.de"
       }
     },
     {
@@ -681,6 +681,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "71c2e69b9417",
+      "title": "EU lässt erstmals Abnehmpille zu - südtirol.ORF.at",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBKRXRpR3pHWk9zTHRtQ0tiYlVieGhZOWZsc0E3eS1QNGtNa0I2S3lsUTM2VjZUYXNfTU9HWnFmeFgyV082R1ZYRnc1d3Y0NHlMVHdF?oc=5",
+      "published": "2026-08-24T10:48:11+00:00",
+      "source": {
+        "name": "südtirol.ORF.at",
+        "url": "https://suedtirol.orf.at"
       }
     },
     {
@@ -734,16 +744,6 @@
       }
     },
     {
-      "id": "20a64d917dfc",
-      "title": "Medikamente für Senioren: Studie warnt vor riskanten Wirkstoffen - Berliner Morgenpost",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZ29BeW1jeXNBMHJfUWNHT1RfQWNhcG9TUzJwbE11cl9XN1VvWElYUmJORUxoclg3R08xa3VsaXhSMlBnSlE2ZkhOdWF2Z0lVempDdE9XMnBZcEVQUm5KVDBaM0I0ZWpxdzBYbkxYOWtjOGN1ZGxCUkh5TDUzeUxJc0F1dm55XzdHMEwyNUZheFRiaFdKUGtUR1JmYXRGelY0UlM3OFh4SkExRGFTVWZFamxqYXFQOHRCZjFTQThnbjRWU1JMcEM0?oc=5",
-      "published": "2026-03-22T07:00:00+00:00",
-      "source": {
-        "name": "Berliner Morgenpost",
-        "url": "https://www.morgenpost.de"
-      }
-    },
-    {
       "id": "198b0da65ee5",
       "title": "HIV-Schutz mit Tabletten: Wie sicher ist PrEP im Alltag? - NDR.de",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTWhsNWk1Tkc5MzNycUQ5RzhaaXhPTGlCcHJ1Yl9wajZ0VkV3akIxR255SUd6clB5aU5fZmNlUGZIcTVNanZlTmctSDJqUFB5Zk5XempaWnhrbDBlVWZuOE9xWDRSREhKRm5sa0lrbGVnVjl0TE5NNWtTY25CUzRmdG5jQlBZc1pFakFyT0hITHU5NmpfaUE?oc=5",
@@ -751,6 +751,16 @@
       "source": {
         "name": "NDR.de",
         "url": "https://www.ndr.de"
+      }
+    },
+    {
+      "id": "20a64d917dfc",
+      "title": "Medikamente für Senioren: Studie warnt vor riskanten Wirkstoffen - Berliner Morgenpost",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZ29BeW1jeXNBMHJfUWNHT1RfQWNhcG9TUzJwbE11cl9XN1VvWElYUmJORUxoclg3R08xa3VsaXhSMlBnSlE2ZkhOdWF2Z0lVempDdE9XMnBZcEVQUm5KVDBaM0I0ZWpxdzBYbkxYOWtjOGN1ZGxCUkh5TDUzeUxJc0F1dm55XzdHMEwyNUZheFRiaFdKUGtUR1JmYXRGelY0UlM3OFh4SkExRGFTVWZFamxqYXFQOHRCZjFTQThnbjRWU1JMcEM0?oc=5",
+      "published": "2026-03-22T07:00:00+00:00",
+      "source": {
+        "name": "Berliner Morgenpost",
+        "url": "https://www.morgenpost.de"
       }
     },
     {
@@ -991,16 +1001,6 @@
       "source": {
         "name": "schleswig-holstein.de",
         "url": "https://www.schleswig-holstein.de"
-      }
-    },
-    {
-      "id": "80745f9d4753",
-      "title": "Gesundheitsmarkt: dm plant OTC-Angebot in Österreich - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNdHVYSEZDOFBVSGROT2l4Qi1pSEVXOXdjMGpMZmNWNTBrdjFjb004OG1xWmJtbHlSNlhMQlhUMExsSjQyMktoS1dFWVhlN1ZpWXhLR2lROW1wNVNqZXp1RkllcjBvNnIzZ2RZT3BTNVROX3lrWGgzUi1qY1RYR294M0IxUFN1ak5BaXc?oc=5",
-      "published": "2025-11-17T08:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
       }
     }
   ]
