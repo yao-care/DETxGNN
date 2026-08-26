@@ -1,18 +1,8 @@
 {
-  "fetched_at": "2026-08-26T14:45:19.457852+00:00",
+  "fetched_at": "2026-08-26T16:18:07.671676+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
-    {
-      "id": "ebd51f01a905",
-      "title": "„Die Medikamente von heute sind bereits veraltet“ - STERN.de",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOUZ0X2t6RU9xYWtvOUJqT19xbUx6NHZpbWhKUnZuQ2ROZ3hZVzNQWTVTcXR1UklsclN0bktUN3ZraVRPaFU4aHQyY3FCNk83YzVySzBvMmNCSFZkZEJXSFFobHhCVzR5bXYwSGNVQlRQYTByRFpodHp4YWdUaWtQLVg0eHA0eE1NZlAweFlPT2ltYnkxZGFiVHNMVnhMaEtveUpMMkMtLWlyTVRvc3c?oc=5",
-      "published": "2026-08-26T12:54:00+00:00",
-      "source": {
-        "name": "STERN.de",
-        "url": "https://www.stern.de"
-      }
-    },
     {
       "id": "fc421b40f31a",
       "title": "Schwedens Bestreben, eigene Antibiotika herzustellen, hat einen Haken - euractiv.com",
@@ -24,13 +14,13 @@
       }
     },
     {
-      "id": "29aa78d02717",
-      "title": "Landtagswahlen Sachsen-Anhalt: Schulze: »Die Apotheke vor Ort ist nicht zu ersetzen« - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOS1hidGh0bmo3MFFjcjBnWWI3M09JOEV2NGRrTjU2bzE4NU1zSml4dU83am9yUDUwdkFkalJnVWRDYVJDWmNNSXp4RHpLNFVSU1BQSzdtNGJ0ODMwYUYyRHR3NnZjTUFHaGtpNUZiaEw5cU5fMFJpU0VVdVRNbk9JYjR4Tll4Ui02X21iYnZWOVh4aU9sVkFMU3FZa0o5QQ?oc=5",
-      "published": "2026-08-26T07:00:00+00:00",
+      "id": "c1b4660d29a2",
+      "title": "Neues Medikament bei Rückenschmerzen: Diesen „Pluspunkt“ hat die Cannabis-Pille - Berliner Morgenpost",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxObHM2SlNrUmFuRExkYkxOelFMLU0tR3N0Zzl2YkVSU3liOURpeWhIQS1VcWFja1Z1SGZrMXdsVmE0cVZDMGVZcHlZQURBOFpSX1RaamQxcjkzLU5tWllEakQ1Q0ZMY0ppXzRTVUdUMmpmaDRpaE1nTHB4cm0zVGttYWRmbjFGZHZVeHk2WU1TX1lDOTZQRnJiQWFlV2pJNGNUSkpJSTF1M2JSeHlTYzU0cnpQc3pfWW5pYUJ3YmFHWjFQS3lMS0RBT2l0c1lEUTUySTh4T1lYZUU5UUpV?oc=5",
+      "published": "2026-08-26T14:21:00+00:00",
       "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
+        "name": "Berliner Morgenpost",
+        "url": "https://www.morgenpost.de"
       }
     },
     {
@@ -44,13 +34,23 @@
       }
     },
     {
-      "id": "c1b4660d29a2",
-      "title": "Neues Medikament bei Rückenschmerzen: Diesen „Pluspunkt“ hat die Cannabis-Pille - Berliner Morgenpost",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxObHM2SlNrUmFuRExkYkxOelFMLU0tR3N0Zzl2YkVSU3liOURpeWhIQS1VcWFja1Z1SGZrMXdsVmE0cVZDMGVZcHlZQURBOFpSX1RaamQxcjkzLU5tWllEakQ1Q0ZMY0ppXzRTVUdUMmpmaDRpaE1nTHB4cm0zVGttYWRmbjFGZHZVeHk2WU1TX1lDOTZQRnJiQWFlV2pJNGNUSkpJSTF1M2JSeHlTYzU0cnpQc3pfWW5pYUJ3YmFHWjFQS3lMS0RBT2l0c1lEUTUySTh4T1lYZUU5UUpV?oc=5",
-      "published": "2026-08-26T14:21:00+00:00",
+      "id": "29aa78d02717",
+      "title": "Landtagswahlen Sachsen-Anhalt: Schulze: »Die Apotheke vor Ort ist nicht zu ersetzen« - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOS1hidGh0bmo3MFFjcjBnWWI3M09JOEV2NGRrTjU2bzE4NU1zSml4dU83am9yUDUwdkFkalJnVWRDYVJDWmNNSXp4RHpLNFVSU1BQSzdtNGJ0ODMwYUYyRHR3NnZjTUFHaGtpNUZiaEw5cU5fMFJpU0VVdVRNbk9JYjR4Tll4Ui02X21iYnZWOVh4aU9sVkFMU3FZa0o5QQ?oc=5",
+      "published": "2026-08-26T07:00:00+00:00",
       "source": {
-        "name": "Berliner Morgenpost",
-        "url": "https://www.morgenpost.de"
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "cb463730aa5f",
+      "title": "Apotheken könnten stärker als Lotsen eingebunden werden - apotheke adhoc",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPTTJhX0kxcW1KSlIyNFlqeWFrSXlRVEpxTTJudVEwVHJPbzlPWTluSjh6Ql8xT2FRNW5GQjloNHFiQ0wxc3FkWEprb1ctSVpEWlBSZ3NPaGtsRlVlamNobVZVTDlFUmtCYmREMFBhXzFZUGJJZTFBajFKd2laa3VjTmZfYXFVbEs4b1Fqb3RnWXVQaE9ibXdPekQxeTgzZEJUNnpBMmJXVEZjcGJBWjQzRmRoMEVIaEctZ195SVhyZ3psNjBfV2dKZDU4Snc1Yy0wcm1XLUlR?oc=5",
+      "published": "2026-08-26T10:42:16+00:00",
+      "source": {
+        "name": "apotheke adhoc",
+        "url": "https://www.apotheke-adhoc.de"
       }
     },
     {
@@ -104,13 +104,13 @@
       }
     },
     {
-      "id": "206ee78f5913",
-      "title": "Ärztliche Hausapotheken: Versorgungsanker oder Gefahr fürs System? - MeinBezirk.at",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUGl0RnZDcm5iQVIwYmtpWnBwRDFZSG82WnpKTGZCWW1VblpzM3BVd3kzbXlnb3JsTVMyUzRleDczR0wyVldydm5Ha2k5Tk40eW9wcVliTmxRVGZQd2FLYXp2eG0wR1F4c2kwZzhkWUp6S3daUG9EQ0YxSGtvZmtpcFg0MWUxZ2VfeWQxcXJ3SmIyT2QyV1dQUS14b1k3VUxtc0E?oc=5",
-      "published": "2026-08-26T11:40:51+00:00",
+      "id": "58c3ca8c5151",
+      "title": "FABC, Brief an Ilie Bolojan und den Leiter der CNAS: Drei onkologische Medikamente fehlen, und acht weitere haben Versorgungsprobleme. - Informat.ro",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOa0dteEtnUkJsWHZ2ZjZNUFdhYmFIY2Q0UnRWb2s4ZlZZTXBtUGY3eVZPdUdRUmJNdWpYLUVjZW5HM09oM0sySWptM0ZNZ1dTd01RUUVVZ29yM1U2Y2lBTGx4ZUZDVXVkXy1OYzhuN05GU3AxX2xpUXJUU1VNT2VxTzNYSGlIOVdDSVQxdTdOZVMzYkhseEVrUVBrRlNtVzd4S28tNzNRX2ZLWDlMMExxdlZ1U1Q3dXc?oc=5",
+      "published": "2026-08-26T14:17:53+00:00",
       "source": {
-        "name": "MeinBezirk.at",
-        "url": "https://www.meinbezirk.at"
+        "name": "Informat.ro",
+        "url": "https://informat.ro"
       }
     },
     {
@@ -124,6 +124,16 @@
       }
     },
     {
+      "id": "206ee78f5913",
+      "title": "Ärztliche Hausapotheken: Versorgungsanker oder Gefahr fürs System? - MeinBezirk.at",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUGl0RnZDcm5iQVIwYmtpWnBwRDFZSG82WnpKTGZCWW1VblpzM3BVd3kzbXlnb3JsTVMyUzRleDczR0wyVldydm5Ha2k5Tk40eW9wcVliTmxRVGZQd2FLYXp2eG0wR1F4c2kwZzhkWUp6S3daUG9EQ0YxSGtvZmtpcFg0MWUxZ2VfeWQxcXJ3SmIyT2QyV1dQUS14b1k3VUxtc0E?oc=5",
+      "published": "2026-08-26T11:40:51+00:00",
+      "source": {
+        "name": "MeinBezirk.at",
+        "url": "https://www.meinbezirk.at"
+      }
+    },
+    {
       "id": "7596fb323e77",
       "title": "Gesundheit im Kreis Heinsberg: Abnehmpille und Vitamin D – Apotheken warnen vor riskanten Internetkäufen - RP Online",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRVFDOVQ3bkFsbmV4em9nLXlvaFM3NndTUXN3blU4OFJoM09hb1JkYnhUb25hRVl0YS01WnhvWGdqMDVEVERKMzZYdmtid3lOZ3ljZ0xiNmpEcldBOFMxTlZjRDI5aUZsbmdhMXRROXY3YS1tZUQzbnBWbnpLSjBMaVBfX3M0OXpkcnBOaTRrUDA0d29lQlNnR29QVDQxNU54RXBLVFZhb0p3ZVFTM3ZtYlBzSVd3bW1QazNVOTNVSjFnZ0E?oc=5",
@@ -131,26 +141,6 @@
       "source": {
         "name": "RP Online",
         "url": "https://rp-online.de"
-      }
-    },
-    {
-      "id": "f58e17f68346",
-      "title": "Kommt jetzt „Sport in Tablettenform“? - RaiNews",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdnR0Ykc2NWlPRTJaQWhpVjlGR3B2Mkh3bHkzaHBCam9yZ3NZWE14SHc2UzJsM2xFZFFQREczN0Vva29mUlplTEtvUzV5dlB4eWdZXzZKWjZSdXFQVFY1aXJXY2NDcUtDX3ZRNjNiU2xocGxIYVk3VE1wNGp6bXQzSjVzeFF1WG5ReFZOcHR0ZHp1UmNxY2dYNEhWUTk1OHU4bGtqVmtfTkUwWHYxNDd0MWZwNC1jeHd3X01pRXVzUGcydVkxbVZhVWJIWdIB0AFBVV95cUxQM2J4cUkwd3gzaGJNOXB3NF85dWFzby1oQVZNZlZPdVpqOUdJVjRlQk1XdE1veHdEQ2ExS0l4UVl0OXJodGRoRTFTcHN4VGFJT0MxMnljLWl1dnZVSWw0YVI4RG9wb1Fqcm5JZlFzUFVpRlZUZi13ZE9OYV92ekprNVJNeXRtTVlncms2alFtZzZiUVpFRFlBRUx3TVdqZGtVcDNhSVNuMFI4OW1wV29PcTBFal9OZWRYUnlwemhzWU5haDMtanRWa3pRTi02aXh5?oc=5",
-      "published": "2026-08-25T07:12:00+00:00",
-      "source": {
-        "name": "RaiNews",
-        "url": "https://www.rainews.it"
-      }
-    },
-    {
-      "id": "871e523fef7c",
-      "title": "Zuzahlungserlass: BMG fordert Durchgreifen gegen Versender - apotheke adhoc",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeE8wUkJsUjYtY0xya2wzM1F0NE1sanFzQTItcXQ1UkZuRFRBTmR3N1FidGlQLVFRYTRnUk5PMUFnTzRnTkI3WnJHdGlyeDI4T3FUSUxNQ09fcWh4VEw1c1VTZXQxYnJlejVEZm9IUVM3MDgtZHJSc2hwWWI2Ym1oTTJXdU1XNV9rQ0VDUkxYd1lHUU1hbjNJMlN1ejZxUkN5dHNsVm5ndGJtUQ?oc=5",
-      "published": "2026-07-31T07:00:00+00:00",
-      "source": {
-        "name": "apotheke adhoc",
-        "url": "https://www.apotheke-adhoc.de"
       }
     },
     {
@@ -194,6 +184,16 @@
       }
     },
     {
+      "id": "871e523fef7c",
+      "title": "Zuzahlungserlass: BMG fordert Durchgreifen gegen Versender - apotheke adhoc",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeE8wUkJsUjYtY0xya2wzM1F0NE1sanFzQTItcXQ1UkZuRFRBTmR3N1FidGlQLVFRYTRnUk5PMUFnTzRnTkI3WnJHdGlyeDI4T3FUSUxNQ09fcWh4VEw1c1VTZXQxYnJlejVEZm9IUVM3MDgtZHJSc2hwWWI2Ym1oTTJXdU1XNV9rQ0VDUkxYd1lHUU1hbjNJMlN1ejZxUkN5dHNsVm5ndGJtUQ?oc=5",
+      "published": "2026-07-31T07:00:00+00:00",
+      "source": {
+        "name": "apotheke adhoc",
+        "url": "https://www.apotheke-adhoc.de"
+      }
+    },
+    {
       "id": "8e6dfc62765a",
       "title": "Bewusstseinsstörungen: Auf welche Intoxikationsmerkmale Sie achten können - AerzteZeitung.de",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNYktTRnl1cEdkbDFWOTZPMkplM2dNdTAyakt6V0JUUnFBTzA3Tm1jUlI4QUViZmF2T1I4TDBKN0xYUGZYY3I0aE4xV3ZTVURtUXg0Y1FqWUFZR3g5eFRoOW1uZlJzdkVxSG5GLWd0Qm9ZQlNCYkl0WUFYdjZZNVEzckxpU0dGd1pGR283ZVBaTG4ybFV1S2lRQV9mRFluUGdkQWt5X3Jjd25Iajk5c29hNVMxOFFoRVg1YkoxTk1Ic2k?oc=5",
@@ -214,16 +214,6 @@
       }
     },
     {
-      "id": "5431265615fd",
-      "title": "Patente und Profitorientierung blockieren Arzneimittel: Warum Millionen keinen Zugang haben - Frankfurter Rundschau",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPb0JSbmVWcVk1ajdydzIzRF9PM2hHQWFaYWNuSjhZbmZBbXplUGFBNklQVFptakVZdGN5UVA4VW9fS3VoRmluVzd5OHV1MXJMM3NudGpTdHR5MEI4dExjSmIzM0VoVUtCeHU2VnFfWGNTSVZYWFBsOEhValduakNSd1Z1TTZEM20zTFF0R3RLYy1NWHYza196cEkwM1ljMEtKdDdCdU1TN0J2LVU0Sk9UckdzRXpJNHVMdzZvaG9Ya2FxNEk?oc=5",
-      "published": "2026-07-31T07:00:00+00:00",
-      "source": {
-        "name": "Frankfurter Rundschau",
-        "url": "https://www.fr.de"
-      }
-    },
-    {
       "id": "9fa13ce5acf5",
       "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
@@ -231,6 +221,16 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "5431265615fd",
+      "title": "Patente und Profitorientierung blockieren Arzneimittel: Warum Millionen keinen Zugang haben - Frankfurter Rundschau",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPb0JSbmVWcVk1ajdydzIzRF9PM2hHQWFaYWNuSjhZbmZBbXplUGFBNklQVFptakVZdGN5UVA4VW9fS3VoRmluVzd5OHV1MXJMM3NudGpTdHR5MEI4dExjSmIzM0VoVUtCeHU2VnFfWGNTSVZYWFBsOEhValduakNSd1Z1TTZEM20zTFF0R3RLYy1NWHYza196cEkwM1ljMEtKdDdCdU1TN0J2LVU0Sk9UckdzRXpJNHVMdzZvaG9Ya2FxNEk?oc=5",
+      "published": "2026-07-31T07:00:00+00:00",
+      "source": {
+        "name": "Frankfurter Rundschau",
+        "url": "https://www.fr.de"
       }
     },
     {
@@ -574,12 +574,12 @@
       }
     },
     {
-      "id": "47afc2884d76",
-      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - geo.de",
+      "id": "7a99adaec5c0",
+      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - Geo.de",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
       "published": "2026-06-19T07:00:00+00:00",
       "source": {
-        "name": "geo.de",
+        "name": "Geo.de",
         "url": "https://www.geo.de"
       }
     },
@@ -604,16 +604,6 @@
       }
     },
     {
-      "id": "5cfa2762dc20",
-      "title": "Gesundheit - GKV-Chef: \"Mehr gegen steigende Arzneimittelpreise tun\" - Deutschlandfunk",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdXlzU1VBOUhWa05wcTVDNnBBdHRkeDl5TnZ1S1A3T0swT2pKTjZlaU1pempxQVJkMXMySXBtd2xpaUk5WWN4Q1VyakdMbnN2eF9mRncxakUwN21WbGFQMWpuR2VoOG1tUDYtWERUbS1LSVpOdUNaTE1SWmhDSkVUdTlubVNEWGNtUXNaYk5tcTJibTRDZTJv?oc=5",
-      "published": "2026-03-15T07:00:00+00:00",
-      "source": {
-        "name": "Deutschlandfunk",
-        "url": "https://www.deutschlandfunk.de"
-      }
-    },
-    {
       "id": "43cdf9ca6b4a",
       "title": "„Die Pharmaindustrie verdient in Deutschland blendend“ - WiWo",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZHdseVUtc3dpNzJvYXNSc2FmWlpReTNlVFlrY1hyWEFjNUxVbWhWWjAzaXNINFV4NC1vdzIyY2YyME1MMnBHVGt2MmtrRTl3YWtMdDhlTE1uVTlOamRMRVA4Rk5IdHNKdnlQc21PTVFJa0ZBSlBtUFFmemdaUVNGOG1sY0dUdnRmTTlsYzR1cGFpRFR3cDdtR011LWFneWlScVhpTFY2X19rNF9Mc0dZb0VHd1IyZXkzQmM0U2EtUlgtckpLTERtdUZiaw?oc=5",
@@ -621,6 +611,16 @@
       "source": {
         "name": "WiWo",
         "url": "https://www.wiwo.de"
+      }
+    },
+    {
+      "id": "5cfa2762dc20",
+      "title": "Gesundheit - GKV-Chef: \"Mehr gegen steigende Arzneimittelpreise tun\" - Deutschlandfunk",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdXlzU1VBOUhWa05wcTVDNnBBdHRkeDl5TnZ1S1A3T0swT2pKTjZlaU1pempxQVJkMXMySXBtd2xpaUk5WWN4Q1VyakdMbnN2eF9mRncxakUwN21WbGFQMWpuR2VoOG1tUDYtWERUbS1LSVpOdUNaTE1SWmhDSkVUdTlubVNEWGNtUXNaYk5tcTJibTRDZTJv?oc=5",
+      "published": "2026-03-15T07:00:00+00:00",
+      "source": {
+        "name": "Deutschlandfunk",
+        "url": "https://www.deutschlandfunk.de"
       }
     },
     {
