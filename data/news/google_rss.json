@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-26T01:22:22.656449+00:00",
+  "fetched_at": "2026-08-26T03:05:50.627603+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -94,16 +94,6 @@
       }
     },
     {
-      "id": "7596fb323e77",
-      "title": "Gesundheit im Kreis Heinsberg: Abnehmpille und Vitamin D – Apotheken warnen vor riskanten Internetkäufen - RP Online",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRVFDOVQ3bkFsbmV4em9nLXlvaFM3NndTUXN3blU4OFJoM09hb1JkYnhUb25hRVl0YS01WnhvWGdqMDVEVERKMzZYdmtid3lOZ3ljZ0xiNmpEcldBOFMxTlZjRDI5aUZsbmdhMXRROXY3YS1tZUQzbnBWbnpLSjBMaVBfX3M0OXpkcnBOaTRrUDA0d29lQlNnR29QVDQxNU54RXBLVFZhb0p3ZVFTM3ZtYlBzSVd3bW1QazNVOTNVSjFnZ0E?oc=5",
-      "published": "2026-08-25T03:10:00+00:00",
-      "source": {
-        "name": "RP Online",
-        "url": "https://rp-online.de"
-      }
-    },
-    {
       "id": "38b8b0aa9188",
       "title": "Vom Wissen zum Handeln: Verbesserung der Bezahlbarkeit von Arzneimitteln in den Ländern des Westbalkans - World Health Organization (WHO)",
       "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOZlNmcEdYcXZxdDBYazhiVjRCWHVtbms0ZG5JUWlXb0lJWXVFYjV1ak1MR05oZW5FbHFMTGpyNjJxS1ZuQWk4Nl9Wc2NHdHE3YnhrQzc1VHJNbm1QRFdMVF9WVGw2NHdVeDBHajRYX1hfZkFEMTU2Z09kcU04T1c1V3dKZ09nUUlMc3dnLVdvQ3RTYUZqSDA3d1djVXpxbU9fSFUtSGlHbHNOdFJRb29RQlpTRHEzd2pCQzd5Y3VRNmcza2dzTVVlYUp5Y1U5b01kMGpQUzZvNGctWE0tSmJRSEk5TQ?oc=5",
@@ -124,12 +114,12 @@
       }
     },
     {
-      "id": "ce412de6a1cc",
-      "title": "Migräneprophylaxe: Wie wirksam und verträglich sind die empfohlenen Medikamente? - Ärzte Zeitung",
+      "id": "669cb125b1fb",
+      "title": "Migräneprophylaxe: Wie wirksam und verträglich sind die empfohlenen Medikamente? - AerzteZeitung.de",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUG9XRUtFVjk5NnRxa2lIS2k3ZjY0R3J4dW52clRqNVRZQ191LXpqOGxHWWxzTjNyT3pzQktiMU1WdVlaNmZSdk5ydW5UaDRpdUlfUlYyQzZwekJ0OE1Id1U3alB1eEVNYm9KcklnRXpEQzNzYWlfeXBXSHlscTB2azBPb3NMd2hUajRfNGNWcWlZUjVHR2dBdTlpU2ZISDJzZDNNZm5GVFBUcjNqdFlaT1g0S0poMGhPV1pzdEkwNnQwWDQzdUpTcQ?oc=5",
       "published": "2026-08-24T03:00:00+00:00",
       "source": {
-        "name": "Ärzte Zeitung",
+        "name": "AerzteZeitung.de",
         "url": "https://www.aerztezeitung.de"
       }
     },
@@ -151,6 +141,16 @@
       "source": {
         "name": "ADAC",
         "url": "https://www.adac.de"
+      }
+    },
+    {
+      "id": "7596fb323e77",
+      "title": "Gesundheit im Kreis Heinsberg: Abnehmpille und Vitamin D – Apotheken warnen vor riskanten Internetkäufen - RP Online",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRVFDOVQ3bkFsbmV4em9nLXlvaFM3NndTUXN3blU4OFJoM09hb1JkYnhUb25hRVl0YS01WnhvWGdqMDVEVERKMzZYdmtid3lOZ3ljZ0xiNmpEcldBOFMxTlZjRDI5aUZsbmdhMXRROXY3YS1tZUQzbnBWbnpLSjBMaVBfX3M0OXpkcnBOaTRrUDA0d29lQlNnR29QVDQxNU54RXBLVFZhb0p3ZVFTM3ZtYlBzSVd3bW1QazNVOTNVSjFnZ0E?oc=5",
+      "published": "2026-08-25T03:10:00+00:00",
+      "source": {
+        "name": "RP Online",
+        "url": "https://rp-online.de"
       }
     },
     {
@@ -234,12 +234,12 @@
       }
     },
     {
-      "id": "177ce06ec302",
-      "title": "Bewusstseinsstörungen: Auf welche Intoxikationsmerkmale Sie achten können - Ärzte Zeitung",
+      "id": "8e6dfc62765a",
+      "title": "Bewusstseinsstörungen: Auf welche Intoxikationsmerkmale Sie achten können - AerzteZeitung.de",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNYktTRnl1cEdkbDFWOTZPMkplM2dNdTAyakt6V0JUUnFBTzA3Tm1jUlI4QUViZmF2T1I4TDBKN0xYUGZYY3I0aE4xV3ZTVURtUXg0Y1FqWUFZR3g5eFRoOW1uZlJzdkVxSG5GLWd0Qm9ZQlNCYkl0WUFYdjZZNVEzckxpU0dGd1pGR283ZVBaTG4ybFV1S2lRQV9mRFluUGdkQWt5X3Jjd25Iajk5c29hNVMxOFFoRVg1YkoxTk1Ic2k?oc=5",
       "published": "2026-08-24T03:10:00+00:00",
       "source": {
-        "name": "Ärzte Zeitung",
+        "name": "AerzteZeitung.de",
         "url": "https://www.aerztezeitung.de"
       }
     },
@@ -274,16 +274,6 @@
       }
     },
     {
-      "id": "8db31424e5bb",
-      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - dw.com",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGxHSlhmSS0tbUNKdG15NEVzRzYzYllEUnAzUEU3ak53czRHVWlKdTZrRGFDMk1MUThPUjdPTnBGVENqd3d2Q1VSdWhJVXppWDF4NWh0aEJJaXJlVTlnV0VoZVFkRHNSM3p6NVZXNjNwWHk5YkxSUWR2RGZKcmp3Y2U5REY0U3dRZFJLeHFtQk9wb2Y3RUVOaVBlMlJhZ29Rck000gGjAUFVX3lxTE1rTW00WXFBajZxbTJOS1NLckhVbXFBSzh1NE96QTEydTN1YjZnaFFNcV8xblZGM29hdTZQUHc4V3YzQ1pwcTlaVVBhZDVqMExLMTlYVzZ6TmM4ZUdsUm5TLXpPNmk1R3V4UktvaV93cWttNFpVX0VEZlZnUllSQkhyUlZmeTBJcU0zUEVSZTgxdzFWUnFNRk9CYVljN0Jhd0ZXUFk?oc=5",
-      "published": "2026-05-12T07:00:00+00:00",
-      "source": {
-        "name": "dw.com",
-        "url": "https://www.dw.com"
-      }
-    },
-    {
       "id": "5431265615fd",
       "title": "Patente und Profitorientierung blockieren Arzneimittel: Warum Millionen keinen Zugang haben - Frankfurter Rundschau",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPb0JSbmVWcVk1ajdydzIzRF9PM2hHQWFaYWNuSjhZbmZBbXplUGFBNklQVFptakVZdGN5UVA4VW9fS3VoRmluVzd5OHV1MXJMM3NudGpTdHR5MEI4dExjSmIzM0VoVUtCeHU2VnFfWGNTSVZYWFBsOEhValduakNSd1Z1TTZEM20zTFF0R3RLYy1NWHYza196cEkwM1ljMEtKdDdCdU1TN0J2LVU0Sk9UckdzRXpJNHVMdzZvaG9Ya2FxNEk?oc=5",
@@ -304,6 +294,26 @@
       }
     },
     {
+      "id": "8db31424e5bb",
+      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - dw.com",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGxHSlhmSS0tbUNKdG15NEVzRzYzYllEUnAzUEU3ak53czRHVWlKdTZrRGFDMk1MUThPUjdPTnBGVENqd3d2Q1VSdWhJVXppWDF4NWh0aEJJaXJlVTlnV0VoZVFkRHNSM3p6NVZXNjNwWHk5YkxSUWR2RGZKcmp3Y2U5REY0U3dRZFJLeHFtQk9wb2Y3RUVOaVBlMlJhZ29Rck000gGjAUFVX3lxTE1rTW00WXFBajZxbTJOS1NLckhVbXFBSzh1NE96QTEydTN1YjZnaFFNcV8xblZGM29hdTZQUHc4V3YzQ1pwcTlaVVBhZDVqMExLMTlYVzZ6TmM4ZUdsUm5TLXpPNmk1R3V4UktvaV93cWttNFpVX0VEZlZnUllSQkhyUlZmeTBJcU0zUEVSZTgxdzFWUnFNRk9CYVljN0Jhd0ZXUFk?oc=5",
+      "published": "2026-05-12T07:00:00+00:00",
+      "source": {
+        "name": "dw.com",
+        "url": "https://www.dw.com"
+      }
+    },
+    {
+      "id": "e55e30521cda",
+      "title": "Vorschläge der FinanzKommission Gesundheit für eine Reform der GKV - Taylor Wessing",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQVJuN0Fwenp0QU9hM01mSTRlR1ZxUzBfaExuWkRPSVIxQTBmb21HMGJ3Umd1b2Q5NjlpTkZWdnlsWU5RdG4tYmV2YWlldnhEREpzVmdLaURVbVpCR2pFRDY5Z1d6VW53bGtvaGgwTkRMeFMzeWI5WDJNd2ZXdTl4WkJTRURfbEstNXlJaXdzNGlwQTF5dHJ2Mjg1bFlJTW1SajFpM3VpMEtDdXZuNWplY3NnTQ?oc=5",
+      "published": "2026-05-04T09:31:59+00:00",
+      "source": {
+        "name": "Taylor Wessing",
+        "url": "https://www.taylorwessing.com"
+      }
+    },
+    {
       "id": "50e574837ee5",
       "title": "Medikamentenversand bei Hitze: Risiken für Arzneimittel - Apotheken Umschau",
       "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPREY3YjJLY0JhYUEzX3FnRFlGRDJ1Vm9JamNNVTNoR3NOX0tOMTIzWUMweTJ2ekYzbktzUTZha0djdWpuN09lNHVZUWw4bVJxYXhWeWtxWUVxM0tXS2xGcGtMd29yWmdTSlFpUkxpdmRvMV9ZaEJhT3czaTY3a2VhOUVJU2p0VWZWMU9PNHZDQWt2b0FpdFhOQlNESFdTV0l0M3R4SDFVMTBOTmZMVVo5ZV9KSmZremN6cTNzOXR0a3RjT2Y0MGZjQkNMUVdFY0xZejBFanY4aDRNOEdpZzdTMVowbkZHUVNtU1htclVWeE50OUwzaWlXSG44akg3S05Odlh2MUxlYXAxbkZVbDB4eWRhZF9YZw?oc=5",
@@ -321,16 +331,6 @@
       "source": {
         "name": "ADAC",
         "url": "https://www.adac.de"
-      }
-    },
-    {
-      "id": "e55e30521cda",
-      "title": "Vorschläge der FinanzKommission Gesundheit für eine Reform der GKV - Taylor Wessing",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQVJuN0Fwenp0QU9hM01mSTRlR1ZxUzBfaExuWkRPSVIxQTBmb21HMGJ3Umd1b2Q5NjlpTkZWdnlsWU5RdG4tYmV2YWlldnhEREpzVmdLaURVbVpCR2pFRDY5Z1d6VW53bGtvaGgwTkRMeFMzeWI5WDJNd2ZXdTl4WkJTRURfbEstNXlJaXdzNGlwQTF5dHJ2Mjg1bFlJTW1SajFpM3VpMEtDdXZuNWplY3NnTQ?oc=5",
-      "published": "2026-05-04T09:31:59+00:00",
-      "source": {
-        "name": "Taylor Wessing",
-        "url": "https://www.taylorwessing.com"
       }
     },
     {
@@ -474,6 +474,16 @@
       }
     },
     {
+      "id": "618351e249d1",
+      "title": "Haushaltspläne: Mehr Geld für Produktion kritischer Arzneimittel, keine Mittel für Gesundheit und Pflege - Deutsches Ärzteblatt",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNa19XTmtzLWdGTUNhcTkyNVVMZnhDVnlNVkxETGwwVDZ1X3dFVExwZEpDZU0wREhkUk91WEgwV0lJSXEwNTJydG1TbjVRV0FVRy1rUDhwYWtBeVdkYVJuSXo2SmhPUHJ1cWRZYWc3YW5pN21mc18wZUp4Y2FSZG53QnJQZk1RZ2FFeXBxN2VkUDRFYy16ZjgxQkNSc3ppZ1ZPWGdNdG9SanVveHNHc2ZUQU5qV2JDQXpINnVVd2x5eXplUnBDZjJCdGJLRk9QemRtaEpvYlNrTjM0anBWaDRDbHBYY1d2NUtZY1N2Zmx1SWU?oc=5",
+      "published": "2025-11-11T08:00:00+00:00",
+      "source": {
+        "name": "Deutsches Ärzteblatt",
+        "url": "https://www.aerzteblatt.de"
+      }
+    },
+    {
       "id": "e89bb6a1a7a1",
       "title": "Medikamente im Urlaub: So schützen Sie sich vor Fälschungen - Mindener Tageblatt",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVmFuWXBXcV9mM2x0cUItRFVsbl9ONUdXMVcwemo1cWVtaV8yeHktdFZaMW5BSURRRmxTMjA0OGx3eUZvVGQzOUpNSmpTODRvUFU0VXF0SkRyaVV0eWFIanJ2NHJoQWFEeDMtSVp3SUVfYnJPTHBXM3RvRzE2aEEyejdtR0dQaUltczRkRk1nVnFjM2ViMnM0aWdJNV8ycWZHYUllZGVWM0hGelpWZ2hzanp3?oc=5",
@@ -544,16 +554,6 @@
       }
     },
     {
-      "id": "4bf4db7a6b88",
-      "title": "App \"MedAssist sicher für zwei\" - saarland.de",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMllLZjQwdVNkTzE5YndaZHJjUmlUeGsta0QtUXllM3YzUEY0NnN2endjZTBmblJydVIzZUdwb2tTTGxIMUZkYlpHckVsV2YzNFh5X3BiZDBpT0tJMFRzajBNbjdXY3d1Zzl4SDNkb01lWEhSTmMxemVVNjdJRTJ4WGFZbGM5TGhiSlBTZjJMR2FfZlpRVFBtVi1jbGszcWEzRmF6Z3RmcHJ6N2s5VzVIVXBNZVNEVllwOURZVTJvNA?oc=5",
-      "published": "2025-12-04T08:00:00+00:00",
-      "source": {
-        "name": "saarland.de",
-        "url": "https://www.saarland.de"
-      }
-    },
-    {
       "id": "8308fd9ff3ea",
       "title": "»Ge­ra­de in der Apo­the­ke wird Ge­sund­heit ge­lebt« - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWGI5Ni1Wb1RMSGlZbElwcDdtVjF5TzJBTVpUd0xoblBOUHl5UG8tcXlNY1FPTHBPbU5tT2J2S2VTRkFlZlVxejM2S3V6Ty14bHlXVmEtRmRPUnNoeEd0U3pWZlQ5SlZjNGF3bnhWWGF0M2h5MHVSaFZRZjBZZy1KOEZva1l2N1dzbkF0Q2dvRUc1SVN3OVVF?oc=5",
@@ -564,13 +564,13 @@
       }
     },
     {
-      "id": "a0c803609fce",
-      "title": "Halbjahresbilanz der GKV entlarvt Panikmache: Krankenkassen erwirtschaften Milliarden-Überschuss - Presseportal",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB5ZEV4RUE3d09heHl1SUhPM0owd1hZeDRCS0FndEpPb1N4WFdMNUx0VXBuSVFBRVpwVWFMeGlxSXZRUnZWeVNQWHFfM1VweVhUNWVLRU04NA?oc=5",
-      "published": "2026-08-20T14:04:32+00:00",
+      "id": "b9ad4c3ee28b",
+      "title": "App \"MedAssist sicher für zwei\" - Saarland.de",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMllLZjQwdVNkTzE5YndaZHJjUmlUeGsta0QtUXllM3YzUEY0NnN2endjZTBmblJydVIzZUdwb2tTTGxIMUZkYlpHckVsV2YzNFh5X3BiZDBpT0tJMFRzajBNbjdXY3d1Zzl4SDNkb01lWEhSTmMxemVVNjdJRTJ4WGFZbGM5TGhiSlBTZjJMR2FfZlpRVFBtVi1jbGszcWEzRmF6Z3RmcHJ6N2s5VzVIVXBNZVNEVllwOURZVTJvNA?oc=5",
+      "published": "2025-12-04T08:00:00+00:00",
       "source": {
-        "name": "Presseportal",
-        "url": "https://www.presseportal.de"
+        "name": "Saarland.de",
+        "url": "https://www.saarland.de"
       }
     },
     {
@@ -601,6 +601,16 @@
       "source": {
         "name": "gesundheit adhoc",
         "url": "https://www.gesundheit-adhoc.de"
+      }
+    },
+    {
+      "id": "a0c803609fce",
+      "title": "Halbjahresbilanz der GKV entlarvt Panikmache: Krankenkassen erwirtschaften Milliarden-Überschuss - Presseportal",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB5ZEV4RUE3d09heHl1SUhPM0owd1hZeDRCS0FndEpPb1N4WFdMNUx0VXBuSVFBRVpwVWFMeGlxSXZRUnZWeVNQWHFfM1VweVhUNWVLRU04NA?oc=5",
+      "published": "2026-08-20T14:04:32+00:00",
+      "source": {
+        "name": "Presseportal",
+        "url": "https://www.presseportal.de"
       }
     },
     {
@@ -744,16 +754,6 @@
       }
     },
     {
-      "id": "e7fc237accfb",
-      "title": "Medikamente im DM-Drogeriemarkt – Apotheken laufen Sturm - STERN.de",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMG5SMnM4aXU5czJ1S2dnUzdMeFBmb3IxQVBKWGVvcVB0eUJQUjkxRU00RHEtQlRjVU1EM0Z2WF95SG85WDJPSjVNcjRTWFM1OHVXNm5pdVAxZGtDcHJTSXFpSDAtdUstM0JISWRKcEI5OXRXZ2hXSzQ3cFJqb0g5N0ZRajJtY21JUmRNNmZweXg1bEpuOXc0Rk9CNENaMHNOYTc4OGtjZw?oc=5",
-      "published": "2025-12-16T08:00:00+00:00",
-      "source": {
-        "name": "STERN.de",
-        "url": "https://www.stern.de"
-      }
-    },
-    {
       "id": "a54a884d55a6",
       "title": "Noch in diesem Jahr: Rossmann will Medikamente liefern - WEB.DE",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZzVIdE80VXRILUdTZTlsLTQwMHlHX1FMSjhsUGppeGJjNERCQkdLeDJwNnp6UUZTWWNmTW0xaUVZaGhHS1ZXSWV2TUZLbzNLdVVuei11TDZ4VVlQNU1CQUVuRTM0RHV3S3pYcnM3UThsNDhsaWFicE5ET0Noek1mcTFWbw?oc=5",
@@ -761,6 +761,16 @@
       "source": {
         "name": "WEB.DE",
         "url": "https://web.de"
+      }
+    },
+    {
+      "id": "e7fc237accfb",
+      "title": "Medikamente im DM-Drogeriemarkt – Apotheken laufen Sturm - STERN.de",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMG5SMnM4aXU5czJ1S2dnUzdMeFBmb3IxQVBKWGVvcVB0eUJQUjkxRU00RHEtQlRjVU1EM0Z2WF95SG85WDJPSjVNcjRTWFM1OHVXNm5pdVAxZGtDcHJTSXFpSDAtdUstM0JISWRKcEI5OXRXZ2hXSzQ3cFJqb0g5N0ZRajJtY21JUmRNNmZweXg1bEpuOXc0Rk9CNENaMHNOYTc4OGtjZw?oc=5",
+      "published": "2025-12-16T08:00:00+00:00",
+      "source": {
+        "name": "STERN.de",
+        "url": "https://www.stern.de"
       }
     },
     {
@@ -934,6 +944,16 @@
       }
     },
     {
+      "id": "4c9b3fd0b1e9",
+      "title": "„EU-paradox“: Europaparlament thematisiert massiven Zielkonflikt bei der Versorgungssicherheit mit Arzneimitteln - gesundheit adhoc",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZHJPOWNHTVFaV3p4emxVQ0ktLWszTTN6TUdwT3BvTWJYa0VPZWF1bUJOT1ptQUNrNHVRSmFNazhCOWlCOTVhMzJOUGlhR3dhaGE4OUsxTWVWdGMzbDMydGNMM3Z3QkFBWmtPcEVCQW9LeXJUSEszbzRXTndYMWM1OURVQnVQMG9WVnpPTGk5blhxM3ozZWUwX1pnSzZ2VDZzOEFVSGYwVDBMNXQ2a2RtWmllNXBoZjFTZHJHZUdMcUo1czdWZ3lmaDN5TVViTU1ZU1Baa051MFd1UQ?oc=5",
+      "published": "2026-03-26T07:00:00+00:00",
+      "source": {
+        "name": "gesundheit adhoc",
+        "url": "https://www.gesundheit-adhoc.de"
+      }
+    },
+    {
       "id": "7d876f76990e",
       "title": "Arzneimittel-Ratschlag durch ChatGPT landet vor Gericht - Deutsche Apotheker Zeitung, DAZ",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOb2R6cDZTSjF3cDJfUW1NOERXRnRaN0hhbWJrU2hLMjMtZ0V1VjhyOHdJNllIaFlfZlM3TDhZNGVzYVkzNlFkSk5rR0NGMnJSQVlaOGdCa1o3Ty1HRjgxTy11M2NaSHE4SFBVM1FhNjZDb0VUNmVHcERnWXRqMXRxRkZUc0NjMEdKaFdabVU3UUpubE5rU1czTWtpVVpIQUZiMUJKUHlkcE1Jcks3bl9CSWg1Qm1UVnhLN2xhdDhn?oc=5",
@@ -944,13 +964,13 @@
       }
     },
     {
-      "id": "8f7a16a55972",
-      "title": "Arzneimittelpreise: Medikamente in Deutschland günstiger als USA trotz Trump-Deals - SZ.de",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdnBJZGx2V2VkNEJfQy1NTDk2NFJXOE5MY3k2VE1yNmxuZzNiWWNlalNjN0MzTjJzSUwxTDRPRTlJai1XeXVUODNhaGlrRXJhaVpJdVQ0eV9mNHc1QWZkaXhtUTVfdjZNWEU2eWptcVk1WkNUZHJNRUpNQzM2TXduRFpPS0tTbjhtajdRWmtMbTM2N1owQ1I1Y2g1MmJiUzNpdnc?oc=5",
-      "published": "2026-03-18T07:00:00+00:00",
+      "id": "4d8966297de5",
+      "title": "Newel Health und Gerresheimer starten strategische Zusammenarbeit zur Unterstützung von Pharmaunternehmen im Zeitalter integrierter digitaler Therapien - PR Newswire",
+      "link": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxQSkFkNzV6ME5mWDBONy13Ny16cmFiVFQ5V1k0aWdVXzJBeVZNZDlVbG5EeUR1eHpCNG1GVGdzRk1ZNTlHdUFtV1JxaV9UbHpDY1FnY2loWUdCVFpNSWtfQXVOZTNZNC1pTDIyb2NxcWQ2b3l0S0Z3dW9ZeFBzSnhHMDN2UXdOREtneVdObkV3UTBBMXY0ZU1UV3JoVnNIQlk0azRyWlZMRm5DYTNydXl1VUl1ZkRYVE5hdkFWQ1pNbjdHcWVNRVdUNDBVMW9UaW9tTE1FdlA3QXJuZlZtcGxzTnJZYUN5MEdoZ1ItUGFaVW1rU3lkUDB2YzFEbmlWZlMyS0dCLW9BU1QzelNPanJTRjk3RTBVTTI5TVBhVjZZYXotLVotQk9rVXFERTdRMFltLXNrb1hzVjhwLW8?oc=5",
+      "published": "2026-05-27T07:00:00+00:00",
       "source": {
-        "name": "SZ.de",
-        "url": "https://www.sueddeutsche.de"
+        "name": "PR Newswire",
+        "url": "https://www.prnewswire.com"
       }
     },
     {
@@ -961,16 +981,6 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
-      }
-    },
-    {
-      "id": "4d8966297de5",
-      "title": "Newel Health und Gerresheimer starten strategische Zusammenarbeit zur Unterstützung von Pharmaunternehmen im Zeitalter integrierter digitaler Therapien - PR Newswire",
-      "link": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxQSkFkNzV6ME5mWDBONy13Ny16cmFiVFQ5V1k0aWdVXzJBeVZNZDlVbG5EeUR1eHpCNG1GVGdzRk1ZNTlHdUFtV1JxaV9UbHpDY1FnY2loWUdCVFpNSWtfQXVOZTNZNC1pTDIyb2NxcWQ2b3l0S0Z3dW9ZeFBzSnhHMDN2UXdOREtneVdObkV3UTBBMXY0ZU1UV3JoVnNIQlk0azRyWlZMRm5DYTNydXl1VUl1ZkRYVE5hdkFWQ1pNbjdHcWVNRVdUNDBVMW9UaW9tTE1FdlA3QXJuZlZtcGxzTnJZYUN5MEdoZ1ItUGFaVW1rU3lkUDB2YzFEbmlWZlMyS0dCLW9BU1QzelNPanJTRjk3RTBVTTI5TVBhVjZZYXotLVotQk9rVXFERTdRMFltLXNrb1hzVjhwLW8?oc=5",
-      "published": "2026-05-27T07:00:00+00:00",
-      "source": {
-        "name": "PR Newswire",
-        "url": "https://www.prnewswire.com"
       }
     },
     {
@@ -988,16 +998,6 @@
       "title": "Gesundheitsmarkt: dm plant OTC-Angebot in Österreich - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNdHVYSEZDOFBVSGROT2l4Qi1pSEVXOXdjMGpMZmNWNTBrdjFjb004OG1xWmJtbHlSNlhMQlhUMExsSjQyMktoS1dFWVhlN1ZpWXhLR2lROW1wNVNqZXp1RkllcjBvNnIzZ2RZT3BTNVROX3lrWGgzUi1qY1RYR294M0IxUFN1ak5BaXc?oc=5",
       "published": "2025-11-17T08:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
-      "id": "2f0394c48ff1",
-      "title": "Diskussionsrunde : Teure Orphan Drugs setzen GKV unter Druck - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMm9GbF9MdlR1T05IVU9La29FSnJzYmpWYTNqNW05eHVvMW1OVTdOX3FMaHhPT2JuUExjdkV6Zlg1NUh6WHEzS3RkQmhFLUVKWllJa2IxdDBacXl5SDZsbzc1YXY3TnIzYUpjalNfaDl6dnE2YUV0eGt1cWd0OTBiVVNYYzIzMEUybmdDRjZGQ3ZKZw?oc=5",
-      "published": "2025-11-06T08:00:00+00:00",
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
