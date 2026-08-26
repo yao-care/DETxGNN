@@ -1,16 +1,16 @@
 {
-  "fetched_at": "2026-08-26T12:53:59.598654+00:00",
+  "fetched_at": "2026-08-26T13:55:53.532199+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
     {
-      "id": "29aa78d02717",
-      "title": "Landtagswahlen Sachsen-Anhalt: Schulze: »Die Apotheke vor Ort ist nicht zu ersetzen« - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOS1hidGh0bmo3MFFjcjBnWWI3M09JOEV2NGRrTjU2bzE4NU1zSml4dU83am9yUDUwdkFkalJnVWRDYVJDWmNNSXp4RHpLNFVSU1BQSzdtNGJ0ODMwYUYyRHR3NnZjTUFHaGtpNUZiaEw5cU5fMFJpU0VVdVRNbk9JYjR4Tll4Ui02X21iYnZWOVh4aU9sVkFMU3FZa0o5QQ?oc=5",
-      "published": "2026-08-26T07:00:00+00:00",
+      "id": "ebd51f01a905",
+      "title": "„Die Medikamente von heute sind bereits veraltet“ - STERN.de",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOUZ0X2t6RU9xYWtvOUJqT19xbUx6NHZpbWhKUnZuQ2ROZ3hZVzNQWTVTcXR1UklsclN0bktUN3ZraVRPaFU4aHQyY3FCNk83YzVySzBvMmNCSFZkZEJXSFFobHhCVzR5bXYwSGNVQlRQYTByRFpodHp4YWdUaWtQLVg0eHA0eE1NZlAweFlPT2ltYnkxZGFiVHNMVnhMaEtveUpMMkMtLWlyTVRvc3c?oc=5",
+      "published": "2026-08-26T12:54:00+00:00",
       "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
+        "name": "STERN.de",
+        "url": "https://www.stern.de"
       }
     },
     {
@@ -24,6 +24,16 @@
       }
     },
     {
+      "id": "29aa78d02717",
+      "title": "Landtagswahlen Sachsen-Anhalt: Schulze: »Die Apotheke vor Ort ist nicht zu ersetzen« - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOS1hidGh0bmo3MFFjcjBnWWI3M09JOEV2NGRrTjU2bzE4NU1zSml4dU83am9yUDUwdkFkalJnVWRDYVJDWmNNSXp4RHpLNFVSU1BQSzdtNGJ0ODMwYUYyRHR3NnZjTUFHaGtpNUZiaEw5cU5fMFJpU0VVdVRNbk9JYjR4Tll4Ui02X21iYnZWOVh4aU9sVkFMU3FZa0o5QQ?oc=5",
+      "published": "2026-08-26T07:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
       "id": "928ceb4617ed",
       "title": "Abnehmspritze: Ozempic verändert die ganze Welt - FAZ",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOYWZXY21RTVFEZHNveFo0Z3pRb3Z6STk4Rk14U0lTT3ZnYmxjaVFJcjVrVWpURjdMZzR4X3h6UVZERzZZSWNzSmVyblFPZXhBb0tSZTNVQWdhdWl6Y3JiYm44VHA3bE43c0pKb0hqMlRkNVZidUJXTVBkQklTZEg1YXhtYzZxZEN1dVlxQkVPS3VzSTNxajVKYnVuX1JqUW9IMHBtU1dnNHhjY1FCWV9fcWlBeWg3U3NvalE?oc=5",
@@ -31,16 +41,6 @@
       "source": {
         "name": "FAZ",
         "url": "https://www.faz.net"
-      }
-    },
-    {
-      "id": "640306648ddf",
-      "title": "Antibiotikaresistenz: Stehen wir vor einer Krise, wenn Medikamente versagen? - SWR",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbjAtNEVKOTNVVHJocVhPeXZZbXZTSDFIanBpa0VUZnN4MGhMcFJ3TnB0bmFGTjc2amd1WkN3bk1IYmdsb05rTnR2YkZoczRVeV9GV0E2c2pneFdZa3J5T1ZsZHcwMVVIR0ZJN2d0VUUyLVlmbS04QWhpbEYyZFR0ZjZzZDNtbk84blE5LTJYMS1wcS12?oc=5",
-      "published": "2026-08-23T04:00:00+00:00",
-      "source": {
-        "name": "SWR",
-        "url": "https://www.swr.de"
       }
     },
     {
@@ -124,16 +124,6 @@
       }
     },
     {
-      "id": "0fb861264008",
-      "title": "Bald gibt es die Abnehmpille auch bei uns. Ist sie besser als die Spritze? - STERN.de",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVUlnbGpFM216Q1F2ZzVTbmJmSDhkWlMwaVlKS2xzNjdoNGlPeDNKSjBHYnpOX2VTeG0yVzAyUXM0MVUydHhWLWdBTlVTdWlSTmhQREhpc2tNTUQ1eW1ETmZ3Y0NSZlhvemJHdkZoSXQxN3NLWGpCWEU2blZlMWFEbDl3NjNVb2xRdGVpb0xRSUhzNFdZN2psdFpESHVNTDNHR2tKdG0tOERfUQ?oc=5",
-      "published": "2026-08-21T16:04:00+00:00",
-      "source": {
-        "name": "STERN.de",
-        "url": "https://www.stern.de"
-      }
-    },
-    {
       "id": "1d15f3b6b9c3",
       "title": "Medikament online bestellen: Was (nicht) gespart werden kann - MDR.de",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQzh1VE1KZllWYkVqdlVTdVZJY0xBcGdDZUR1NGhOOXNlS3VPcktlR00tbUJPdWlHNUhCajJ4RGthVUhQUnEwaXl2T2p6Um90NXdlMTdIblB0X0lPR0pfUTZ2LTBkRWgydWRPRllnYUJGV24xaktzY1MwQmJJM0JxUlFKMnJpLV9Qd1lz?oc=5",
@@ -174,6 +164,16 @@
       }
     },
     {
+      "id": "9fa13ce5acf5",
+      "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
+      "published": "2026-03-31T20:25:43+00:00",
+      "source": {
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
+      }
+    },
+    {
       "id": "f7ccb4e6ec95",
       "title": "Fast jede vierte Apotheke ist weg: Wie Versender den Druck im Arzneimittelhandel erhöhen - Augsburger Allgemeine",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNOUpZWVlSRzVkakdIdjRsejNYcm9wbVNmQktZUkIxYlUtRWR0bDhjX2dnVmQ3VjV1dVFDZ2ctM1ZOOGh0bDNhQXBRWDlPR1U4T0RFVERTejJrU1kzTzFfSkV4TmJoUzc4dnhDdWRuRGxOcmRBNDBZM1hZVFZVVmdnUlFZVXhuVG5sQjhFdzB0UXk0VkZ6NmgzNVFHOW04bUNXYk8xYkMxWnBKUjdoTG1HZWJtb041VENIRmE0RS1wMA?oc=5",
@@ -201,16 +201,6 @@
       "source": {
         "name": "AerzteZeitung.de",
         "url": "https://www.aerztezeitung.de"
-      }
-    },
-    {
-      "id": "9fa13ce5acf5",
-      "title": "Gesundheitspolitik: FKG-Vorschläge greifen zu kurz - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjg5NnZRbzBkeGZJUTc4VXZzVzRvT0VDZnlNRmp4RndIZ2VuNUtycF9takkxRlJXLWk1MmxBcVlSMHd2QWotQ2pxSlZidHc3NDVUanVpNFF6SFI2c216Y2RvbHBxV051eV9HOTI0S1R0ZldsdFZfMlRZY2U4SUZVczJsa1Mxa2VLN1Utb2dNQ2tRTnZHNEo5bEQxSWM2UzRfRUJHQw?oc=5",
-      "published": "2026-03-31T20:25:43+00:00",
-      "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
       }
     },
     {
@@ -294,6 +284,16 @@
       }
     },
     {
+      "id": "2a4cd6eb6d1d",
+      "title": "Arzneimittelengpässe in Europa – so reagiert die EU - European Parliament",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYUFLam5JQVMtSlNuNWlqSTJrRUNDN215RDlRU2hOMEE0Rkp3cHBodVhSbXRsSUhvTTRhMTVLWEE5QmM0dXJRNGlPSkwyZ2doMHhlaEpHbW5DZl8tazhQc3lPcEN4SmtLaEdGMk9IZjF5MGZvNEd3a2tXSnJXT1ItanFsV2gtRGpMYjlUbHV2OURrMkM5OXA3emh5OERlMlpXc1J1UlNVYUp1UlBUd1gzREtLUkZRZw?oc=5",
+      "published": "2026-03-31T07:00:00+00:00",
+      "source": {
+        "name": "European Parliament",
+        "url": "https://www.europarl.europa.eu"
+      }
+    },
+    {
       "id": "e4d74f6ebf64",
       "title": "Patienten und die Generikabranche fordern die EU auf, auf Trumps Drohungen bezüglich der Arzneimittelpreise zu reagieren - euractiv.com",
       "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOSm0tcngyMXZvMXBmQW9MbjlzWEp1d0JKLVdvV2g4NDkyQ2FxMzhhQTFHUEtyX25Tb0VTdGVPUkt0WXJEeV9QNl84MTZ3MTU0QjgtN3VWeFc3dDVuMWNjb3ZIQ2JyemdRVXJhSHFCQ21yazg4RGU5djlTSkEzdVlsdWNnOUxvWXRyRjVVNUg5N1pRSW1aX2FlOWQ4S0pYXzNkYlJmSE9GNWRmcmNBMWIwOXc0aFJybUJYLU9xUlVVLWplN3ZkNmNvQnQ3ME55TGpVcng0TkxPd2M4MDdBc3hXNVBHNA?oc=5",
@@ -311,16 +311,6 @@
       "source": {
         "name": "Ihre-Vorsorge.de",
         "url": "https://www.ihre-vorsorge.de"
-      }
-    },
-    {
-      "id": "2a4cd6eb6d1d",
-      "title": "Arzneimittelengpässe in Europa – so reagiert die EU - European Parliament",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYUFLam5JQVMtSlNuNWlqSTJrRUNDN215RDlRU2hOMEE0Rkp3cHBodVhSbXRsSUhvTTRhMTVLWEE5QmM0dXJRNGlPSkwyZ2doMHhlaEpHbW5DZl8tazhQc3lPcEN4SmtLaEdGMk9IZjF5MGZvNEd3a2tXSnJXT1ItanFsV2gtRGpMYjlUbHV2OURrMkM5OXA3emh5OERlMlpXc1J1UlNVYUp1UlBUd1gzREtLUkZRZw?oc=5",
-      "published": "2026-03-31T07:00:00+00:00",
-      "source": {
-        "name": "European Parliament",
-        "url": "https://www.europarl.europa.eu"
       }
     },
     {
@@ -854,12 +844,12 @@
       }
     },
     {
-      "id": "4bf4db7a6b88",
-      "title": "App \"MedAssist sicher für zwei\" - saarland.de",
+      "id": "b9ad4c3ee28b",
+      "title": "App \"MedAssist sicher für zwei\" - Saarland.de",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMllLZjQwdVNkTzE5YndaZHJjUmlUeGsta0QtUXllM3YzUEY0NnN2endjZTBmblJydVIzZUdwb2tTTGxIMUZkYlpHckVsV2YzNFh5X3BiZDBpT0tJMFRzajBNbjdXY3d1Zzl4SDNkb01lWEhSTmMxemVVNjdJRTJ4WGFZbGM5TGhiSlBTZjJMR2FfZlpRVFBtVi1jbGszcWEzRmF6Z3RmcHJ6N2s5VzVIVXBNZVNEVllwOURZVTJvNA?oc=5",
       "published": "2025-12-04T08:00:00+00:00",
       "source": {
-        "name": "saarland.de",
+        "name": "Saarland.de",
         "url": "https://www.saarland.de"
       }
     },
@@ -1001,6 +991,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "08d257ba8207",
+      "title": "Hessisches Landesamt für Gesundheit u. Pflege / Zoll FFM - 1000 Pillen Zopiclon aus Indien - Freispruch statt Geldstrafe - Anwalt.de",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQZDlsbHlFWmE2ZHVlRGlObHE5ek82dWFyd2IxWDlObUdVTTlUZ0dVYWQwYjNpVzNlRHEwbTNxeHZlMUMzelpUWkRWQWhPaGhvSUNzRk82dkxHeG9FLS01a09DNFJHZW1oMXB4dnJvbjFhWkl0dzRvaGFtdkJUYk1XQS1wYnFLcnBEVWxlRUpXR1ZISGM5c1NkWGZ3Vk5jSUcxM255SjI5bllnMDFfeV8zNlZMeVJjZmw5eG4tRVJsOXVENktFelJtVnFsdFFGUjJ4eVF6clZtZC1jVHk1X1EwNWdhLXA0VmdyenNEcm9VUGtuZw?oc=5",
+      "published": "2026-01-12T08:00:00+00:00",
+      "source": {
+        "name": "Anwalt.de",
+        "url": "https://www.anwalt.de"
       }
     }
   ]
