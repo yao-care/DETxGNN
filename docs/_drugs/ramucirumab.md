@@ -2,7 +2,7 @@
 layout: default
 title: Ramucirumab
 parent: 僅模型預測 (L5)
-nav_order: 55
+nav_order: 87
 evidence_level: L5
 indication_count: 10
 ---

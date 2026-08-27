@@ -2,7 +2,7 @@
 layout: default
 title: Burosumab
 parent: 僅模型預測 (L5)
-nav_order: 39
+nav_order: 50
 evidence_level: L5
 indication_count: 0
 ---

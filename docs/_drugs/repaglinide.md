@@ -2,7 +2,7 @@
 layout: default
 title: Repaglinide
 parent: 僅模型預測 (L5)
-nav_order: 67
+nav_order: 99
 evidence_level: L5
 indication_count: 0
 ---
