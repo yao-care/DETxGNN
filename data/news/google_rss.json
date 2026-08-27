@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-26T22:49:49.003726+00:00",
+  "fetched_at": "2026-08-27T04:21:18.794914+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -14,16 +14,6 @@
       }
     },
     {
-      "id": "29aa78d02717",
-      "title": "Landtagswahlen Sachsen-Anhalt: Schulze: »Die Apotheke vor Ort ist nicht zu ersetzen« - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOS1hidGh0bmo3MFFjcjBnWWI3M09JOEV2NGRrTjU2bzE4NU1zSml4dU83am9yUDUwdkFkalJnVWRDYVJDWmNNSXp4RHpLNFVSU1BQSzdtNGJ0ODMwYUYyRHR3NnZjTUFHaGtpNUZiaEw5cU5fMFJpU0VVdVRNbk9JYjR4Tll4Ui02X21iYnZWOVh4aU9sVkFMU3FZa0o5QQ?oc=5",
-      "published": "2026-08-26T07:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "928ceb4617ed",
       "title": "Abnehmspritze: Ozempic verändert die ganze Welt - FAZ",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOYWZXY21RTVFEZHNveFo0Z3pRb3Z6STk4Rk14U0lTT3ZnYmxjaVFJcjVrVWpURjdMZzR4X3h6UVZERzZZSWNzSmVyblFPZXhBb0tSZTNVQWdhdWl6Y3JiYm44VHA3bE43c0pKb0hqMlRkNVZidUJXTVBkQklTZEg1YXhtYzZxZEN1dVlxQkVPS3VzSTNxajVKYnVuX1JqUW9IMHBtU1dnNHhjY1FCWV9fcWlBeWg3U3NvalE?oc=5",
@@ -31,16 +21,6 @@
       "source": {
         "name": "FAZ",
         "url": "https://www.faz.net"
-      }
-    },
-    {
-      "id": "c1b4660d29a2",
-      "title": "Neues Medikament bei Rückenschmerzen: Diesen „Pluspunkt“ hat die Cannabis-Pille - Berliner Morgenpost",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxObHM2SlNrUmFuRExkYkxOelFMLU0tR3N0Zzl2YkVSU3liOURpeWhIQS1VcWFja1Z1SGZrMXdsVmE0cVZDMGVZcHlZQURBOFpSX1RaamQxcjkzLU5tWllEakQ1Q0ZMY0ppXzRTVUdUMmpmaDRpaE1nTHB4cm0zVGttYWRmbjFGZHZVeHk2WU1TX1lDOTZQRnJiQWFlV2pJNGNUSkpJSTF1M2JSeHlTYzU0cnpQc3pfWW5pYUJ3YmFHWjFQS3lMS0RBT2l0c1lEUTUySTh4T1lYZUU5UUpV?oc=5",
-      "published": "2026-08-26T14:21:00+00:00",
-      "source": {
-        "name": "Berliner Morgenpost",
-        "url": "https://www.morgenpost.de"
       }
     },
     {
@@ -54,6 +34,26 @@
       }
     },
     {
+      "id": "29aa78d02717",
+      "title": "Landtagswahlen Sachsen-Anhalt: Schulze: »Die Apotheke vor Ort ist nicht zu ersetzen« - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOS1hidGh0bmo3MFFjcjBnWWI3M09JOEV2NGRrTjU2bzE4NU1zSml4dU83am9yUDUwdkFkalJnVWRDYVJDWmNNSXp4RHpLNFVSU1BQSzdtNGJ0ODMwYUYyRHR3NnZjTUFHaGtpNUZiaEw5cU5fMFJpU0VVdVRNbk9JYjR4Tll4Ui02X21iYnZWOVh4aU9sVkFMU3FZa0o5QQ?oc=5",
+      "published": "2026-08-26T07:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "c1b4660d29a2",
+      "title": "Neues Medikament bei Rückenschmerzen: Diesen „Pluspunkt“ hat die Cannabis-Pille - Berliner Morgenpost",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxObHM2SlNrUmFuRExkYkxOelFMLU0tR3N0Zzl2YkVSU3liOURpeWhIQS1VcWFja1Z1SGZrMXdsVmE0cVZDMGVZcHlZQURBOFpSX1RaamQxcjkzLU5tWllEakQ1Q0ZMY0ppXzRTVUdUMmpmaDRpaE1nTHB4cm0zVGttYWRmbjFGZHZVeHk2WU1TX1lDOTZQRnJiQWFlV2pJNGNUSkpJSTF1M2JSeHlTYzU0cnpQc3pfWW5pYUJ3YmFHWjFQS3lMS0RBT2l0c1lEUTUySTh4T1lYZUU5UUpV?oc=5",
+      "published": "2026-08-26T14:21:00+00:00",
+      "source": {
+        "name": "Berliner Morgenpost",
+        "url": "https://www.morgenpost.de"
+      }
+    },
+    {
       "id": "cb463730aa5f",
       "title": "Apotheken könnten stärker als Lotsen eingebunden werden - apotheke adhoc",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPTTJhX0kxcW1KSlIyNFlqeWFrSXlRVEpxTTJudVEwVHJPbzlPWTluSjh6Ql8xT2FRNW5GQjloNHFiQ0wxc3FkWEprb1ctSVpEWlBSZ3NPaGtsRlVlamNobVZVTDlFUmtCYmREMFBhXzFZUGJJZTFBajFKd2laa3VjTmZfYXFVbEs4b1Fqb3RnWXVQaE9ibXdPekQxeTgzZEJUNnpBMmJXVEZjcGJBWjQzRmRoMEVIaEctZ195SVhyZ3psNjBfV2dKZDU4Snc1Yy0wcm1XLUlR?oc=5",
@@ -61,16 +61,6 @@
       "source": {
         "name": "apotheke adhoc",
         "url": "https://www.apotheke-adhoc.de"
-      }
-    },
-    {
-      "id": "7258de72df30",
-      "title": "Vitamin-D-Mangel: Für wen ist das Risiko besonders hoch? - Augsburger Allgemeine",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOd2xCTGhuUV9kLUZTN1Uta2d1RUJFa2tFTDhBQ0dYdnB5U3FheG53LTdaSlAyZXBzWm02bnJwMHpCOURiZ2NCbHN3Vlo0Qi02TDlud2VGOGt6R3N4RzJ5X2RhSENsX0E2VHN3SXVSNFQ4czFCZW9taVB0dmFHU0V3X0tjYTNYRk5HdWJ3bzB6cVowYzhKT0xOWUVCR3hydmdHMHhBNVRTWEUxM2djbmVNd3VMMnMzZw?oc=5",
-      "published": "2026-08-26T11:19:49+00:00",
-      "source": {
-        "name": "Augsburger Allgemeine",
-        "url": "https://www.augsburger-allgemeine.de"
       }
     },
     {
@@ -84,13 +74,13 @@
       }
     },
     {
-      "id": "101f01548376",
-      "title": "Vitamin D und Abnehmpille: Essener Apotheker warnen vor dubiosen Online-Angeboten - WAZ",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQb2VmTkExV1JFVzdjQkY5d0t1eXNFSGFOb0hhdXZtSXc3Z0swNTlSU3hUZklJMjR4UE9FSUhqaUFVWFpYOWRRZmNOb1FteVU3Wjk0cTdzSklqZVV5Vlg0R2xVT1BrcDhkTXhhanBlVzluNkFycVc0SWgzX3BWLVlReXg3cVlva2I2UjhwOTRGSlp3eGVsMnhielQ1RHphRVA5dDJ0X3NmZ3o0enpwbERjVXo1TGYzV3RPUVdMNmJVMEMxN1dLZXE2WjRMNjFjbHM2?oc=5",
-      "published": "2026-08-26T03:00:00+00:00",
+      "id": "f7ccb4e6ec95",
+      "title": "Fast jede vierte Apotheke ist weg: Wie Versender den Druck im Arzneimittelhandel erhöhen - Augsburger Allgemeine",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNOUpZWVlSRzVkakdIdjRsejNYcm9wbVNmQktZUkIxYlUtRWR0bDhjX2dnVmQ3VjV1dVFDZ2ctM1ZOOGh0bDNhQXBRWDlPR1U4T0RFVERTejJrU1kzTzFfSkV4TmJoUzc4dnhDdWRuRGxOcmRBNDBZM1hZVFZVVmdnUlFZVXhuVG5sQjhFdzB0UXk0VkZ6NmgzNVFHOW04bUNXYk8xYkMxWnBKUjdoTG1HZWJtb041VENIRmE0RS1wMA?oc=5",
+      "published": "2026-08-24T03:00:11+00:00",
       "source": {
-        "name": "WAZ",
-        "url": "https://www.waz.de"
+        "name": "Augsburger Allgemeine",
+        "url": "https://www.augsburger-allgemeine.de"
       }
     },
     {
@@ -134,23 +124,13 @@
       }
     },
     {
-      "id": "58c3ca8c5151",
-      "title": "FABC, Brief an Ilie Bolojan und den Leiter der CNAS: Drei onkologische Medikamente fehlen, und acht weitere haben Versorgungsprobleme. - Informat.ro",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOa0dteEtnUkJsWHZ2ZjZNUFdhYmFIY2Q0UnRWb2s4ZlZZTXBtUGY3eVZPdUdRUmJNdWpYLUVjZW5HM09oM0sySWptM0ZNZ1dTd01RUUVVZ29yM1U2Y2lBTGx4ZUZDVXVkXy1OYzhuN05GU3AxX2xpUXJUU1VNT2VxTzNYSGlIOVdDSVQxdTdOZVMzYkhseEVrUVBrRlNtVzd4S28tNzNRX2ZLWDlMMExxdlZ1U1Q3dXc?oc=5",
-      "published": "2026-08-26T14:17:53+00:00",
+      "id": "101f01548376",
+      "title": "Vitamin D und Abnehmpille: Essener Apotheker warnen vor dubiosen Online-Angeboten - WAZ",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQb2VmTkExV1JFVzdjQkY5d0t1eXNFSGFOb0hhdXZtSXc3Z0swNTlSU3hUZklJMjR4UE9FSUhqaUFVWFpYOWRRZmNOb1FteVU3Wjk0cTdzSklqZVV5Vlg0R2xVT1BrcDhkTXhhanBlVzluNkFycVc0SWgzX3BWLVlReXg3cVlva2I2UjhwOTRGSlp3eGVsMnhielQ1RHphRVA5dDJ0X3NmZ3o0enpwbERjVXo1TGYzV3RPUVdMNmJVMEMxN1dLZXE2WjRMNjFjbHM2?oc=5",
+      "published": "2026-08-26T03:00:00+00:00",
       "source": {
-        "name": "Informat.ro",
-        "url": "https://informat.ro"
-      }
-    },
-    {
-      "id": "206ee78f5913",
-      "title": "Ärztliche Hausapotheken: Versorgungsanker oder Gefahr fürs System? - MeinBezirk.at",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUGl0RnZDcm5iQVIwYmtpWnBwRDFZSG82WnpKTGZCWW1VblpzM3BVd3kzbXlnb3JsTVMyUzRleDczR0wyVldydm5Ha2k5Tk40eW9wcVliTmxRVGZQd2FLYXp2eG0wR1F4c2kwZzhkWUp6S3daUG9EQ0YxSGtvZmtpcFg0MWUxZ2VfeWQxcXJ3SmIyT2QyV1dQUS14b1k3VUxtc0E?oc=5",
-      "published": "2026-08-26T11:40:51+00:00",
-      "source": {
-        "name": "MeinBezirk.at",
-        "url": "https://www.meinbezirk.at"
+        "name": "WAZ",
+        "url": "https://www.waz.de"
       }
     },
     {
@@ -164,10 +144,30 @@
       }
     },
     {
-      "id": "f7ccb4e6ec95",
-      "title": "Fast jede vierte Apotheke ist weg: Wie Versender den Druck im Arzneimittelhandel erhöhen - Augsburger Allgemeine",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNOUpZWVlSRzVkakdIdjRsejNYcm9wbVNmQktZUkIxYlUtRWR0bDhjX2dnVmQ3VjV1dVFDZ2ctM1ZOOGh0bDNhQXBRWDlPR1U4T0RFVERTejJrU1kzTzFfSkV4TmJoUzc4dnhDdWRuRGxOcmRBNDBZM1hZVFZVVmdnUlFZVXhuVG5sQjhFdzB0UXk0VkZ6NmgzNVFHOW04bUNXYk8xYkMxWnBKUjdoTG1HZWJtb041VENIRmE0RS1wMA?oc=5",
-      "published": "2026-08-24T03:00:11+00:00",
+      "id": "58c3ca8c5151",
+      "title": "FABC, Brief an Ilie Bolojan und den Leiter der CNAS: Drei onkologische Medikamente fehlen, und acht weitere haben Versorgungsprobleme. - Informat.ro",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOa0dteEtnUkJsWHZ2ZjZNUFdhYmFIY2Q0UnRWb2s4ZlZZTXBtUGY3eVZPdUdRUmJNdWpYLUVjZW5HM09oM0sySWptM0ZNZ1dTd01RUUVVZ29yM1U2Y2lBTGx4ZUZDVXVkXy1OYzhuN05GU3AxX2xpUXJUU1VNT2VxTzNYSGlIOVdDSVQxdTdOZVMzYkhseEVrUVBrRlNtVzd4S28tNzNRX2ZLWDlMMExxdlZ1U1Q3dXc?oc=5",
+      "published": "2026-08-26T14:17:53+00:00",
+      "source": {
+        "name": "Informat.ro",
+        "url": "https://informat.ro"
+      }
+    },
+    {
+      "id": "1d15f3b6b9c3",
+      "title": "Medikament online bestellen: Was (nicht) gespart werden kann - MDR.de",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQzh1VE1KZllWYkVqdlVTdVZJY0xBcGdDZUR1NGhOOXNlS3VPcktlR00tbUJPdWlHNUhCajJ4RGthVUhQUnEwaXl2T2p6Um90NXdlMTdIblB0X0lPR0pfUTZ2LTBkRWgydWRPRllnYUJGV24xaktzY1MwQmJJM0JxUlFKMnJpLV9Qd1lz?oc=5",
+      "published": "2026-07-30T07:00:00+00:00",
+      "source": {
+        "name": "MDR.de",
+        "url": "https://www.mdr.de"
+      }
+    },
+    {
+      "id": "7258de72df30",
+      "title": "Vitamin-D-Mangel: Für wen ist das Risiko besonders hoch? - Augsburger Allgemeine",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOd2xCTGhuUV9kLUZTN1Uta2d1RUJFa2tFTDhBQ0dYdnB5U3FheG53LTdaSlAyZXBzWm02bnJwMHpCOURiZ2NCbHN3Vlo0Qi02TDlud2VGOGt6R3N4RzJ5X2RhSENsX0E2VHN3SXVSNFQ4czFCZW9taVB0dmFHU0V3X0tjYTNYRk5HdWJ3bzB6cVowYzhKT0xOWUVCR3hydmdHMHhBNVRTWEUxM2djbmVNd3VMMnMzZw?oc=5",
+      "published": "2026-08-26T11:19:49+00:00",
       "source": {
         "name": "Augsburger Allgemeine",
         "url": "https://www.augsburger-allgemeine.de"
@@ -204,16 +204,6 @@
       }
     },
     {
-      "id": "1d15f3b6b9c3",
-      "title": "Medikament online bestellen: Was (nicht) gespart werden kann - MDR.de",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQzh1VE1KZllWYkVqdlVTdVZJY0xBcGdDZUR1NGhOOXNlS3VPcktlR00tbUJPdWlHNUhCajJ4RGthVUhQUnEwaXl2T2p6Um90NXdlMTdIblB0X0lPR0pfUTZ2LTBkRWgydWRPRllnYUJGV24xaktzY1MwQmJJM0JxUlFKMnJpLV9Qd1lz?oc=5",
-      "published": "2026-07-30T07:00:00+00:00",
-      "source": {
-        "name": "MDR.de",
-        "url": "https://www.mdr.de"
-      }
-    },
-    {
       "id": "3100f1c693a8",
       "title": "Ist die Abnehmpille besser als die Spritze? - STERN.de",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVUlnbGpFM216Q1F2ZzVTbmJmSDhkWlMwaVlKS2xzNjdoNGlPeDNKSjBHYnpOX2VTeG0yVzAyUXM0MVUydHhWLWdBTlVTdWlSTmhQREhpc2tNTUQ1eW1ETmZ3Y0NSZlhvemJHdkZoSXQxN3NLWGpCWEU2blZlMWFEbDl3NjNVb2xRdGVpb0xRSUhzNFdZN2psdFpESHVNTDNHR2tKdG0tOERfUQ?oc=5",
@@ -221,6 +211,16 @@
       "source": {
         "name": "STERN.de",
         "url": "https://www.stern.de"
+      }
+    },
+    {
+      "id": "206ee78f5913",
+      "title": "Ärztliche Hausapotheken: Versorgungsanker oder Gefahr fürs System? - MeinBezirk.at",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUGl0RnZDcm5iQVIwYmtpWnBwRDFZSG82WnpKTGZCWW1VblpzM3BVd3kzbXlnb3JsTVMyUzRleDczR0wyVldydm5Ha2k5Tk40eW9wcVliTmxRVGZQd2FLYXp2eG0wR1F4c2kwZzhkWUp6S3daUG9EQ0YxSGtvZmtpcFg0MWUxZ2VfeWQxcXJ3SmIyT2QyV1dQUS14b1k3VUxtc0E?oc=5",
+      "published": "2026-08-26T11:40:51+00:00",
+      "source": {
+        "name": "MeinBezirk.at",
+        "url": "https://www.meinbezirk.at"
       }
     },
     {
@@ -334,16 +334,6 @@
       }
     },
     {
-      "id": "e4d74f6ebf64",
-      "title": "Patienten und die Generikabranche fordern die EU auf, auf Trumps Drohungen bezüglich der Arzneimittelpreise zu reagieren - euractiv.com",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOSm0tcngyMXZvMXBmQW9MbjlzWEp1d0JKLVdvV2g4NDkyQ2FxMzhhQTFHUEtyX25Tb0VTdGVPUkt0WXJEeV9QNl84MTZ3MTU0QjgtN3VWeFc3dDVuMWNjb3ZIQ2JyemdRVXJhSHFCQ21yazg4RGU5djlTSkEzdVlsdWNnOUxvWXRyRjVVNUg5N1pRSW1aX2FlOWQ4S0pYXzNkYlJmSE9GNWRmcmNBMWIwOXc0aFJybUJYLU9xUlVVLWplN3ZkNmNvQnQ3ME55TGpVcng0TkxPd2M4MDdBc3hXNVBHNA?oc=5",
-      "published": "2026-07-03T07:19:40+00:00",
-      "source": {
-        "name": "euractiv.com",
-        "url": "https://euractiv.com"
-      }
-    },
-    {
       "id": "10b1aec602d9",
       "title": "Medikamente mögen keine Hitze - Ihre-Vorsorge.de",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORjNQbHBlSERZOEZTSDAxdGVWUndXLVFTRmtPQ1J0djlReV9xQkdqUGFjdklRSjlsc2dxSnBBSnpzTEl6ZW53LXFGOWlXSVAxWnZ4NWk3UGw2OTRiNjlMSGN2VFg3XzlsczhsdEdDX0dfSjY1aDlvSXE5cXQ3Q3hDOF9zRW9xWEEweXc?oc=5",
@@ -354,16 +344,6 @@
       }
     },
     {
-      "id": "67e4e08a7431",
-      "title": "Bundesverwaltungsgericht: Die feinen Unterschiede zwischen Fertig- und Rezepturarzneimitteln - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNeTl1Y01rWHNTMC14UVB3aVFNMmVGTkxHdHlpaHNSc3pmZE5SZjVTRlhhbjVCdC01T0wzMkRJbzBvU0pYY3o0eXlrNEJjaEFkZ3ZXa3BhV3pycGZMN1lOc1EzcFBUNkN0bVFuVWR2aUtHaThDb0hPR3NOMTVBVEZrNVdORXJmbzA0QUpMbFJDTTJ0bi16aDR3aFlQeFR4VUo3SDJXZEtHdGc3NWI3TElkV0dB?oc=5",
-      "published": "2026-07-28T07:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "38b8b0aa9188",
       "title": "Vom Wissen zum Handeln: Verbesserung der Bezahlbarkeit von Arzneimitteln in den Ländern des Westbalkans - World Health Organization (WHO)",
       "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOZlNmcEdYcXZxdDBYazhiVjRCWHVtbms0ZG5JUWlXb0lJWXVFYjV1ak1MR05oZW5FbHFMTGpyNjJxS1ZuQWk4Nl9Wc2NHdHE3YnhrQzc1VHJNbm1QRFdMVF9WVGw2NHdVeDBHajRYX1hfZkFEMTU2Z09kcU04T1c1V3dKZ09nUUlMc3dnLVdvQ3RTYUZqSDA3d1djVXpxbU9fSFUtSGlHbHNOdFJRb29RQlpTRHEzd2pCQzd5Y3VRNmcza2dzTVVlYUp5Y1U5b01kMGpQUzZvNGctWE0tSmJRSEk5TQ?oc=5",
@@ -371,6 +351,16 @@
       "source": {
         "name": "World Health Organization (WHO)",
         "url": "https://www.who.int"
+      }
+    },
+    {
+      "id": "e4d74f6ebf64",
+      "title": "Patienten und die Generikabranche fordern die EU auf, auf Trumps Drohungen bezüglich der Arzneimittelpreise zu reagieren - euractiv.com",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOSm0tcngyMXZvMXBmQW9MbjlzWEp1d0JKLVdvV2g4NDkyQ2FxMzhhQTFHUEtyX25Tb0VTdGVPUkt0WXJEeV9QNl84MTZ3MTU0QjgtN3VWeFc3dDVuMWNjb3ZIQ2JyemdRVXJhSHFCQ21yazg4RGU5djlTSkEzdVlsdWNnOUxvWXRyRjVVNUg5N1pRSW1aX2FlOWQ4S0pYXzNkYlJmSE9GNWRmcmNBMWIwOXc0aFJybUJYLU9xUlVVLWplN3ZkNmNvQnQ3ME55TGpVcng0TkxPd2M4MDdBc3hXNVBHNA?oc=5",
+      "published": "2026-07-03T07:19:40+00:00",
+      "source": {
+        "name": "euractiv.com",
+        "url": "https://euractiv.com"
       }
     },
     {
@@ -474,16 +464,6 @@
       }
     },
     {
-      "id": "5fd73dc2932c",
-      "title": "Menschen und Arzneimittel: Hitze gefährdet alle - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1SOVJuZkZFZTdsNFlWTmNONVQxN2ZFbnh0M045WmxqeGV6cHZ4Z1c4Z2xnYjkwUXNUcTJvWkptS0NHUUxocGIwZm04ejc3TFM2ZU5hNmtlZUtjQ2VTMWwtcEtRX0YxSXdCcE5UY252Z2dHWURtVGxn?oc=5",
-      "published": "2026-05-27T07:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "198b0da65ee5",
       "title": "HIV-Schutz mit Tabletten: Wie sicher ist PrEP im Alltag? - NDR.de",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTWhsNWk1Tkc5MzNycUQ5RzhaaXhPTGlCcHJ1Yl9wajZ0VkV3akIxR255SUd6clB5aU5fZmNlUGZIcTVNanZlTmctSDJqUFB5Zk5XempaWnhrbDBlVWZuOE9xWDRSREhKRm5sa0lrbGVnVjl0TE5NNWtTY25CUzRmdG5jQlBZc1pFakFyT0hITHU5NmpfaUE?oc=5",
@@ -491,6 +471,16 @@
       "source": {
         "name": "NDR.de",
         "url": "https://www.ndr.de"
+      }
+    },
+    {
+      "id": "5fd73dc2932c",
+      "title": "Menschen und Arzneimittel: Hitze gefährdet alle - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1SOVJuZkZFZTdsNFlWTmNONVQxN2ZFbnh0M045WmxqeGV6cHZ4Z1c4Z2xnYjkwUXNUcTJvWkptS0NHUUxocGIwZm04ejc3TFM2ZU5hNmtlZUtjQ2VTMWwtcEtRX0YxSXdCcE5UY252Z2dHWURtVGxn?oc=5",
+      "published": "2026-05-27T07:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -504,16 +494,6 @@
       }
     },
     {
-      "id": "a54a884d55a6",
-      "title": "Noch in diesem Jahr: Rossmann will Medikamente liefern - WEB.DE",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZzVIdE80VXRILUdTZTlsLTQwMHlHX1FMSjhsUGppeGJjNERCQkdLeDJwNnp6UUZTWWNmTW0xaUVZaGhHS1ZXSWV2TUZLbzNLdVVuei11TDZ4VVlQNU1CQUVuRTM0RHV3S3pYcnM3UThsNDhsaWFicE5ET0Noek1mcTFWbw?oc=5",
-      "published": "2026-07-10T07:00:00+00:00",
-      "source": {
-        "name": "WEB.DE",
-        "url": "https://web.de"
-      }
-    },
-    {
       "id": "08f761ee3a89",
       "title": "EU-Gesundheitskommissar prüft Folgen von Trumps Arzneipreispolitik - Euronews.com",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSzM5cWFmcTJfV010WWVadkdEVXRGblFEUTlhaUhoOThvaHV5eTJuWFVJbUtyMW9xNTJkYzNIR2Z6YWp0ZE1IWmNPb3pNcU5YY1phcUlQSU5IWWtvV0MzNDlqdHJZRU40alRPU29CWFVnUDBjLXE3UHhtV2pManQ4TzhzVEU3OHNDM2JJZm9ZbzBUbkVCRFRZYU1jMTl2UVdGRnhubmZZYWswcmZqbXAtbW5QcnRBTktIaHFFWg?oc=5",
@@ -521,6 +501,16 @@
       "source": {
         "name": "Euronews.com",
         "url": "https://de.euronews.com"
+      }
+    },
+    {
+      "id": "a54a884d55a6",
+      "title": "Noch in diesem Jahr: Rossmann will Medikamente liefern - WEB.DE",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZzVIdE80VXRILUdTZTlsLTQwMHlHX1FMSjhsUGppeGJjNERCQkdLeDJwNnp6UUZTWWNmTW0xaUVZaGhHS1ZXSWV2TUZLbzNLdVVuei11TDZ4VVlQNU1CQUVuRTM0RHV3S3pYcnM3UThsNDhsaWFicE5ET0Noek1mcTFWbw?oc=5",
+      "published": "2026-07-10T07:00:00+00:00",
+      "source": {
+        "name": "WEB.DE",
+        "url": "https://web.de"
       }
     },
     {
@@ -554,16 +544,6 @@
       }
     },
     {
-      "id": "b72b17004edd",
-      "title": "\"Europa als führende Kraft des Gesundheitswesens etablieren\" - DIE ZEIT",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWUFSVWl5WkNqWlhQaFBsaW01cEtydmdyejBaWTZhTE1wbHNXVWJpd2FiVENidldkRGRBTm5sT1NrNm5FME4xWVlTN0Y0N3AyLVY2RDVscWRHN0tLY3Q2d2EtY2YtdHBpOXVSRkhfNHB1MUd3TWVlYTh0RUpsWEpLWkdhUDdPc2Z6UlBEWXl0S01nV0lDYXJGZTF5YUQxNHZsaXJhNQ?oc=5",
-      "published": "2026-03-18T07:00:00+00:00",
-      "source": {
-        "name": "DIE ZEIT",
-        "url": "https://www.zeit.de"
-      }
-    },
-    {
       "id": "c5e8dfb6e8ee",
       "title": "Gesundheitswirtschaft: Sparplan ist für Warken »kurzfristige Operation am Herzen« - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPM2ZHWEhpckd3UktDNnQwSDMtZ09XX21zQk16ckN2dG12bWFSWGNDdXNfc0xpNlJqS3ZfajRSMFRzTlRPYVNxVHNlZlJnWjI4VGcwYjhnOGhwZG9md3k2eDVHUGJfazhIU1NGVUQ1MjFYLUF1VmpVQlUyQjJnUjdqSUNZUTdGWnd4Yi1LZnpWaG1iaW5GZHBTM3p1bk1yZHNnSFJKQmpUOA?oc=5",
@@ -584,13 +564,13 @@
       }
     },
     {
-      "id": "8dce1ff85348",
-      "title": "Erstattung: Gericht sieht Abnehmspritze als Lifestyle-Medikament - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdThMaUs3T0FfWmlEYnNHWkw3VHVTX3R4MUptMEUySkkwZk1OY19nU0xZcF9KT0IweUNoTzhzV2RkUUJhRl9Jdk8zTTgxeHlTbmV6a1R3NUx2ZDc1c0RMSVcyLU9NazE5aURIaW1FTzZhUTQ3U2JmQkhydXRHUEZXR1pGX0ZUODFRaWh0S3RDdzIxQ2hOMkZMc0VaZWdsTVlw?oc=5",
-      "published": "2026-05-11T07:00:00+00:00",
+      "id": "b72b17004edd",
+      "title": "\"Europa als führende Kraft des Gesundheitswesens etablieren\" - DIE ZEIT",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWUFSVWl5WkNqWlhQaFBsaW01cEtydmdyejBaWTZhTE1wbHNXVWJpd2FiVENidldkRGRBTm5sT1NrNm5FME4xWVlTN0Y0N3AyLVY2RDVscWRHN0tLY3Q2d2EtY2YtdHBpOXVSRkhfNHB1MUd3TWVlYTh0RUpsWEpLWkdhUDdPc2Z6UlBEWXl0S01nV0lDYXJGZTF5YUQxNHZsaXJhNQ?oc=5",
+      "published": "2026-03-18T07:00:00+00:00",
       "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
+        "name": "DIE ZEIT",
+        "url": "https://www.zeit.de"
       }
     },
     {
@@ -644,6 +624,16 @@
       }
     },
     {
+      "id": "aad02ccd03bb",
+      "title": "Neue Medikamente: wo Europäer am längsten warten - Euronews.com",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQWtmTGxRc2lfV1RlQTNsMHV6ekdnQ3NFX1Bxd2txRGlPeTZDVk12NUpuN2lOalVTVmQ1QW0wcV9pXzJoVWZlcFJnbjB1UHVjTHU0V3lTZ0FTbU5HLXAtWHZDdERQcEwwQnV1ZTJ4VVBpODNlLWpXWWtUN0pray1LaFVSNExGQm5COThOZXhKbVotdWE4R05JaQ?oc=5",
+      "published": "2026-05-20T07:00:00+00:00",
+      "source": {
+        "name": "Euronews.com",
+        "url": "https://de.euronews.com"
+      }
+    },
+    {
       "id": "7d876f76990e",
       "title": "Arzneimittel-Ratschlag durch ChatGPT landet vor Gericht - Deutsche Apotheker Zeitung, DAZ",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOb2R6cDZTSjF3cDJfUW1NOERXRnRaN0hhbWJrU2hLMjMtZ0V1VjhyOHdJNllIaFlfZlM3TDhZNGVzYVkzNlFkSk5rR0NGMnJSQVlaOGdCa1o3Ty1HRjgxTy11M2NaSHE4SFBVM1FhNjZDb0VUNmVHcERnWXRqMXRxRkZUc0NjMEdKaFdabVU3UUpubE5rU1czTWtpVVpIQUZiMUJKUHlkcE1Jcks3bl9CSWg1Qm1UVnhLN2xhdDhn?oc=5",
@@ -674,16 +664,6 @@
       }
     },
     {
-      "id": "4f1eeceab428",
-      "title": "(S+) Wie teure Krebsmedikamente das Gesundheitssystem sprengen könnten - Spiegel",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNOUFWLTYwSFp0U194b0duNHVfbTVjbzFKVUV0WG1MS1FkQ2hYdmg2OGp1dnlEQTk4SjVNUEpkWWpRaTVFZFFmcjFiNC02WXNvSEhIbmdUNDk4emxWQ2VnWWtHMUotcWhXUnVsMExGRWNvdllPcUd3dVRZTWR2ZUEteWZTeFEyS1M5ZzZqZUxDSUI2RTRqMnU4MVF4SEthWm1vZEd1YjZWYjZoLUIwRTlaZTVtRXZoZERXWC1DUGhLelpNZ0M2RXFQeDU4XzBfQ3ZWUFJUdDBVcDh2aExzVmc?oc=5",
-      "published": "2026-04-13T07:00:00+00:00",
-      "source": {
-        "name": "Spiegel",
-        "url": "https://www.spiegel.de"
-      }
-    },
-    {
       "id": "09e9d0a2ff53",
       "title": "Krebsmedikament: Meistverkauftes Krebsmittel wird offenbar viel zu teuer verkauft - DIE ZEIT",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZUdKR1hQcHVBS3JEX3dma19JcW5GTmlCcmxGRmpKbHFwZzduVkpReEh1RnFiOUM2amRvRGl4Z0tDellhTUc1bzU1cl82T3J0N1hnYnVDZF9ERlpxU3JobkphRmRjVk55cjRUZ0tkTlFTZmRSYm0tQVpYSzBtb2xNclVkelpWaTJ5UXQ4TVNoUVFoeVd5RkpqanJqMWpmdw?oc=5",
@@ -691,6 +671,16 @@
       "source": {
         "name": "DIE ZEIT",
         "url": "https://www.zeit.de"
+      }
+    },
+    {
+      "id": "4f1eeceab428",
+      "title": "(S+) Wie teure Krebsmedikamente das Gesundheitssystem sprengen könnten - Spiegel",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNOUFWLTYwSFp0U194b0duNHVfbTVjbzFKVUV0WG1MS1FkQ2hYdmg2OGp1dnlEQTk4SjVNUEpkWWpRaTVFZFFmcjFiNC02WXNvSEhIbmdUNDk4emxWQ2VnWWtHMUotcWhXUnVsMExGRWNvdllPcUd3dVRZTWR2ZUEteWZTeFEyS1M5ZzZqZUxDSUI2RTRqMnU4MVF4SEthWm1vZEd1YjZWYjZoLUIwRTlaZTVtRXZoZERXWC1DUGhLelpNZ0M2RXFQeDU4XzBfQ3ZWUFJUdDBVcDh2aExzVmc?oc=5",
+      "published": "2026-04-13T07:00:00+00:00",
+      "source": {
+        "name": "Spiegel",
+        "url": "https://www.spiegel.de"
       }
     },
     {
@@ -874,16 +864,6 @@
       }
     },
     {
-      "id": "1bb1a7cdbb92",
-      "title": "Arzneimittelüberwachung - schleswig-holstein.de",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRnFVbGVSc1N0RXg0Tmw5WnF1VDNTU3liRXRGQloyYlF1bDhkZl9RS0J6ZmdTenB1WjVvdjZJSElYQm9JbTlVYnNnMlI4SjhZZjAyb1hTVTVjczhoQVUwSFI4OU9aU0NOemk3eG9MT2ZtVXVoTXJzdGI3NmVnMm53Mll2bDB6OVRvQTkwbmFEQVRZVF9YM1Jja0lWY3VRSVBENDBYZlFkWFVTQ0hTWUM4eWtrODVLTko1R2owWW5jWGhVRkllNWhJSUlEaXNzZw?oc=5",
-      "published": "2025-08-29T07:00:00+00:00",
-      "source": {
-        "name": "schleswig-holstein.de",
-        "url": "https://www.schleswig-holstein.de"
-      }
-    },
-    {
       "id": "0791514ec89d",
       "title": "Steigende Arzneimittelkosten: Gesundheitsministerin Warken will Zugang zu neuen Medikamenten für alle erhalten - MDR.de",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPenF3ckVCSXl3ZmNka21FSTVtdkdoeGRZaEQ4Nnc4ZktKZk16U0ZUd19vYWRsZDdQUDZZLVFCd2k2anZScnRpSnJtXzRCbEozRm9fMEpkcVhjZ3dwT21zQVZPX2MybWdSUHBNeTZ3TmtESDFOWFNfM0lPV1Z4M3BmUTNkLTRfVGgxRUh4OWNOblh5ZGdCaUs5WXZmR2VVaVV5d1VHR1BHUFhubGtCWlFyZWk3VnhWZjdpWE9jNE5B?oc=5",
@@ -891,6 +871,16 @@
       "source": {
         "name": "MDR.de",
         "url": "https://www.mdr.de"
+      }
+    },
+    {
+      "id": "1bb1a7cdbb92",
+      "title": "Arzneimittelüberwachung - schleswig-holstein.de",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRnFVbGVSc1N0RXg0Tmw5WnF1VDNTU3liRXRGQloyYlF1bDhkZl9RS0J6ZmdTenB1WjVvdjZJSElYQm9JbTlVYnNnMlI4SjhZZjAyb1hTVTVjczhoQVUwSFI4OU9aU0NOemk3eG9MT2ZtVXVoTXJzdGI3NmVnMm53Mll2bDB6OVRvQTkwbmFEQVRZVF9YM1Jja0lWY3VRSVBENDBYZlFkWFVTQ0hTWUM4eWtrODVLTko1R2owWW5jWGhVRkllNWhJSUlEaXNzZw?oc=5",
+      "published": "2025-08-29T07:00:00+00:00",
+      "source": {
+        "name": "schleswig-holstein.de",
+        "url": "https://www.schleswig-holstein.de"
       }
     },
     {
@@ -1001,6 +991,16 @@
       "source": {
         "name": "SWR",
         "url": "https://www.swr.de"
+      }
+    },
+    {
+      "id": "c1eec9546c3c",
+      "title": "Arzneimittel als Zukunftsinvestition - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNek45Q0xRLXZlc1ZnTDBKcHk2cUFnMkllakFtcDJzXzU2bVh5WnBMYVhBWTNoMll4Y0FmVTlfeF9kYlIxQ25OUHdJX3VpSEVCNnBJaWIzZFljQmlEeVp2Q2R3cFRXWERWd3BORmh6OF9TeWNick9Ua0dZdWMtdDlLR3FGV3o?oc=5",
+      "published": "2025-09-22T07:00:00+00:00",
+      "source": {
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
       }
     }
   ]
