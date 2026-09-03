@@ -2,7 +2,7 @@
 layout: default
 title: Bupivacaine
 parent: 僅模型預測 (L5)
-nav_order: 46
+nav_order: 72
 evidence_level: L5
 indication_count: 4
 ---

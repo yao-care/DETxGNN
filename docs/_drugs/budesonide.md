@@ -2,7 +2,7 @@
 layout: default
 title: Budesonide
 parent: 僅模型預測 (L5)
-nav_order: 45
+nav_order: 71
 evidence_level: L5
 indication_count: 10
 ---

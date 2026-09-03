@@ -2,7 +2,7 @@
 layout: default
 title: Capecitabine
 parent: 僅模型預測 (L5)
-nav_order: 60
+nav_order: 86
 evidence_level: L5
 indication_count: 10
 ---

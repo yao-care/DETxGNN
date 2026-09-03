@@ -2,7 +2,7 @@
 layout: default
 title: Risankizumab
 parent: 僅模型預測 (L5)
-nav_order: 109
+nav_order: 346
 evidence_level: L5
 indication_count: 10
 ---

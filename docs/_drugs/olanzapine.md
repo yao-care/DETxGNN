@@ -2,7 +2,7 @@
 layout: default
 title: Olanzapine
 parent: 僅模型預測 (L5)
-nav_order: 80
+nav_order: 278
 evidence_level: L5
 indication_count: 3
 ---

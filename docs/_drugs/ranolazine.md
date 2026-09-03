@@ -2,7 +2,7 @@
 layout: default
 title: Ranolazine
 parent: 僅模型預測 (L5)
-nav_order: 89
+nav_order: 326
 evidence_level: L5
 indication_count: 1
 ---
