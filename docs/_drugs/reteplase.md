@@ -2,7 +2,7 @@
 layout: default
 title: Reteplase
 parent: 僅模型預測 (L5)
-nav_order: 101
+nav_order: 338
 evidence_level: L5
 indication_count: 10
 ---

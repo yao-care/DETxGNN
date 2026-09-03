@@ -2,7 +2,7 @@
 layout: default
 title: Relebactam Monohydrate
 parent: 僅模型預測 (L5)
-nav_order: 96
+nav_order: 333
 evidence_level: L5
 indication_count: 0
 ---

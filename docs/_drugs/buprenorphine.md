@@ -2,7 +2,7 @@
 layout: default
 title: Buprenorphine
 parent: 僅模型預測 (L5)
-nav_order: 47
+nav_order: 73
 evidence_level: L5
 indication_count: 6
 ---
