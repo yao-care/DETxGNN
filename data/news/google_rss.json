@@ -1,16 +1,26 @@
 {
-  "fetched_at": "2026-09-11T05:40:00.206751+00:00",
+  "fetched_at": "2026-09-11T10:46:33.844296+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
     {
-      "id": "5557dc338f11",
-      "title": "Als Hausarzt weiß ich: Diese Medikamente können Albträume auslösen – auch Ibuprofen - oekotest.de",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQNjROdGZhT0swOVRhVVNlV3pyb0RXOWZTdUE1TGZfM2Q5MlJUNVhoRF9qdTJKMHBFXzVfdElYS2JBM1FCVDVtT3A2c3JRSC13NjhSaG1YZEd3cUo4UVpuMDk5S2UxczdXblRuRU1JNkd5REhzWWZKcEJDbEhxMTRaZ1Q5N3pSVzRfaWFobVFOdUYyMkczMThMX0VQTkI2b2tHUU5RY2xXdmt1a2ZqcGVnQnJlVEZndUFTNzltRnNaNWtERDNOdWFWdE40M0JtMGxVQXpYb2RWWmRaa1Y4RFZFSzlB?oc=5",
-      "published": "2026-09-10T14:07:18+00:00",
+      "id": "87e29c702230",
+      "title": "Antibiotika ohne Indikation künftig verboten: neue Regeln - Visit Ukraine",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZG9XSE9yQW5DT1hwWUtMdzg5dzFQRlpXRG92V19IbFZYTk9kWkd2WlJ4aGZFanNqby1ZTmR3SWNmMGt5NUlLQThQQ3F4SGtqcmZDTFBhNUJuTE80QnZPRzhvSk9QS1Z3aFoxa3hfMTR1TzBzX19aTF9hOURpTnVicXRFWTZmajc3UzFqNjY5WHQtOWlzajBBcldUdEo1Zw?oc=5",
+      "published": "2026-09-11T08:12:40+00:00",
       "source": {
-        "name": "oekotest.de",
-        "url": "https://www.oekotest.de"
+        "name": "Visit Ukraine",
+        "url": "https://visitukraine.today"
+      }
+    },
+    {
+      "id": "e57f3b8cf99e",
+      "title": "3 Schmerzmittel-​Fehler - und wie man sie ver­mei­det - Die Rheinpfalz",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPS1RZYkNINkdVMUtadnVsU1Q0OGxwbmx6SFVzS2d5ZENXYUlPX0N1TlMwd2pKUC03UmF1bkNPWVUtTzYxa3daN2taWi1yQlNjajZqMm1vOWdkS0dic0pXRHBxZEs1U2Z2ZkhyMTc0V3Q0akJMVlRvVHRaVDM5NHNILUFQODlGUC11N0VXbmNYc0R5QkdQZ0tsRTZaYW9jTnNWaDlRb0VtbW9lcW5hT29TUUwxMm02bGg1WHhzWkVqYw?oc=5",
+      "published": "2026-09-11T10:23:00+00:00",
+      "source": {
+        "name": "Die Rheinpfalz",
+        "url": "https://www.rheinpfalz.de"
       }
     },
     {
@@ -24,22 +34,12 @@
       }
     },
     {
-      "id": "77e3f3f85799",
-      "title": "Demenz-Experte: Simple Routinen können das Risiko um die Hälfte senken - Berliner Morgenpost",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQTlSTXhXOWlEVkMzd3Y3a0lIWUtXb1hmVGxfM1VMMTUzVmdIVHVSREFhaG1QaEwwMGVXSWJ0ckx0ZGZCUk1GM0JOT0tJNHM5MXRMYkRoRjNucWhCNmVYdGQwZWRCMTBLTDBydUxGNmpqVGRzMFJfSC1nWVhuWnFJQWlBUHZGMEFXM010eldGckdBWF9kd1lybFlZQXozUlU5QnVHZWphR0ROY2JLN01SSHdEa0F1cU5QMUd2WXJQVkxUSjlR?oc=5",
-      "published": "2026-09-10T14:14:23+00:00",
-      "source": {
-        "name": "Berliner Morgenpost",
-        "url": "https://www.morgenpost.de"
-      }
-    },
-    {
-      "id": "5adbc43358a4",
-      "title": "Was Beipackzettel verschweigen - Bielefeld.JETZT",
+      "id": "005c665dfd62",
+      "title": "Was Beipackzettel verschweigen - bielefeld.jetzt",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9sOXFZZjVtWUJYeHRXSWZDYlkycEtHMUxwWFFoRHd5dXI4SE9fVWtpVEV0bGE2c3pqOWNfMUFJYUZkNTFPaWlGWUcwNS04TXBlQ2c?oc=5",
       "published": "2026-09-08T14:35:05+00:00",
       "source": {
-        "name": "Bielefeld.JETZT",
+        "name": "bielefeld.jetzt",
         "url": "https://www.bielefeld.jetzt"
       }
     },
@@ -54,13 +54,23 @@
       }
     },
     {
-      "id": "ac42c134848a",
-      "title": "Pharma Deutschland startet digitalen Reiseapotheken-Konfigurator - presseportal.de",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9qTWppdWxOVE9jMHBMaUJLNHVTVGRNTFZyQW9NdDBFOGdCelR3VlJzdHJic1ZNeTRwRG11bXdvWEJ0R285dWU5QXZ4ZGxMRC1iMlkyLTFEVQ?oc=5",
-      "published": "2026-09-10T09:05:02+00:00",
+      "id": "5557dc338f11",
+      "title": "Als Hausarzt weiß ich: Diese Medikamente können Albträume auslösen – auch Ibuprofen - oekotest.de",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQNjROdGZhT0swOVRhVVNlV3pyb0RXOWZTdUE1TGZfM2Q5MlJUNVhoRF9qdTJKMHBFXzVfdElYS2JBM1FCVDVtT3A2c3JRSC13NjhSaG1YZEd3cUo4UVpuMDk5S2UxczdXblRuRU1JNkd5REhzWWZKcEJDbEhxMTRaZ1Q5N3pSVzRfaWFobVFOdUYyMkczMThMX0VQTkI2b2tHUU5RY2xXdmt1a2ZqcGVnQnJlVEZndUFTNzltRnNaNWtERDNOdWFWdE40M0JtMGxVQXpYb2RWWmRaa1Y4RFZFSzlB?oc=5",
+      "published": "2026-09-10T14:07:18+00:00",
       "source": {
-        "name": "presseportal.de",
-        "url": "https://www.presseportal.de"
+        "name": "oekotest.de",
+        "url": "https://www.oekotest.de"
+      }
+    },
+    {
+      "id": "77e3f3f85799",
+      "title": "Demenz-Experte: Simple Routinen können das Risiko um die Hälfte senken - Berliner Morgenpost",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQTlSTXhXOWlEVkMzd3Y3a0lIWUtXb1hmVGxfM1VMMTUzVmdIVHVSREFhaG1QaEwwMGVXSWJ0ckx0ZGZCUk1GM0JOT0tJNHM5MXRMYkRoRjNucWhCNmVYdGQwZWRCMTBLTDBydUxGNmpqVGRzMFJfSC1nWVhuWnFJQWlBUHZGMEFXM010eldGckdBWF9kd1lybFlZQXozUlU5QnVHZWphR0ROY2JLN01SSHdEa0F1cU5QMUd2WXJQVkxUSjlR?oc=5",
+      "published": "2026-09-10T14:14:23+00:00",
+      "source": {
+        "name": "Berliner Morgenpost",
+        "url": "https://www.morgenpost.de"
       }
     },
     {
@@ -77,7 +87,7 @@
       "id": "888d7d553972",
       "title": "Gesundheit: Tabletten aus dem 3D-Drucker - Wie funktioniert das? - DIE ZEIT",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQUU0aE82REdQd1J5MTdaX2xoUVRCYllLMVRaWFY4YXVQR1FMdWp0YVBSUW1BSlFxN1pnb29TeEQyNUdKZWtCdWFoZEgtNTZEREh6QklCd1lrZHFKVXRyR0tEV3BTWWExOW1lMEFqUlBXaDVwS0FKYmFhOHZfdWg3R0EwZzdnTlVQY2x3Mlp3?oc=5",
-      "published": "2026-09-03T14:54:34+00:00",
+      "published": "2026-09-03T07:00:00+00:00",
       "source": {
         "name": "DIE ZEIT",
         "url": "https://www.zeit.de"
@@ -94,23 +104,13 @@
       }
     },
     {
-      "id": "fa510639372f",
-      "title": "Expopharm-Diskussionsrunde: Prävention als Chance - Braunschweiger Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOaHo1QTlOanN2bl9JWmRDQzNtd3ZiamNvWFE2NHBBYllVQmFSaGhKVThlVEZaYUJwQ3BIT3ludzlBTWpGbnRTS2lDUWs3bnBrVDN4dnB4WE0zYWY5ZUh4ZUZKQjZFd1luM1pmclgxdFdjRTVuaDhicmZJT1pCLTVlOUNxNk5hVXZhY3VZb25Ld2I0cmxrSDByMHlCcVpSbFhhUEJwV0lGeV96cHp0LVZSd09GR0dncGItYkQyalctRU9ULUI0d3BRUjBMTFhNQQ?oc=5",
-      "published": "2026-09-10T08:16:01+00:00",
+      "id": "9bc0d240a044",
+      "title": "Pharma Deutschland startet digitalen Reiseapotheken-Konfigurator - Presseportal",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9qTWppdWxOVE9jMHBMaUJLNHVTVGRNTFZyQW9NdDBFOGdCelR3VlJzdHJic1ZNeTRwRG11bXdvWEJ0R285dWU5QXZ4ZGxMRC1iMlkyLTFEVQ?oc=5",
+      "published": "2026-09-10T09:05:02+00:00",
       "source": {
-        "name": "Braunschweiger Zeitung",
-        "url": "https://www.braunschweiger-zeitung.de"
-      }
-    },
-    {
-      "id": "29fbac3081c1",
-      "title": "Desogestrel-Pillen: Behörden warnen 1,6 Millionen Französinnen vor Tumorrisiko - Euronews.com",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUGVTQUluUlpuS0dSWGxTd25iV3ROWEU3ZFZpelcwNmZPUlJSdDk1ZzkzVDVsN2I2MmEzc1haak05bWYyY2pkeXA3aVRVRld6NlhST1IzOTEwbkRrT0NNUndtdko1LTFGd1k4YlZ4MldjamZWdEJ2QTg2eHZFUkNSTVdYMHoyMmZnbm9WbXZtVUtNNWdsUGRueF9DdGduYW9ZLXdpSmM2WlpLdlFtbTZwSnRXTnUtRHZVeFl2U2p2VQ?oc=5",
-      "published": "2026-09-10T08:50:40+00:00",
-      "source": {
-        "name": "Euronews.com",
-        "url": "https://de.euronews.com"
+        "name": "Presseportal",
+        "url": "https://www.presseportal.de"
       }
     },
     {
@@ -134,16 +134,6 @@
       }
     },
     {
-      "id": "b19bf90d40ed",
-      "title": "Shop Apotheke von Redcare Pharmacy - digitale Online-Apotheke mit E-Rezept und über 250000 Produkte - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPeEt5ZHZUbVdUOGFFUzNCcXhxSFpkNmhUaVJXYU5DTnpYYjlRWTJlWnFkWW1ZU3pPdTZSQXFHMXJEdGxraFkyN2lSOUxPZHFTaVZmYlVTVFFEZFlvcWx4TWVHQmt0c3F4TWV3dXU2YXFGOGxSVWxhSWRmSXdqOGd4eGEwaHFMSXVtYUw3YkM4cmtIMXlTRGI4NHpKM29ORFllNVE2ekRWbHkwS0VQVjBfYzB0c0xfMWl5NHVua3BYWWlPRXFLc2ZJ?oc=5",
-      "published": "2026-09-10T11:00:02+00:00",
-      "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "c1f5975f61ef",
       "title": "Medikamente am Steuer: Diese Risiken sollten Sie kennen - ADAC",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbmpja0wzXzlUT1pGUElueXYxaHZfZ0RPOGpYTmFRN003aUVadXJFaEVxNGcyQXBVMFl5V0QxeDBPLTlvNXF6WHVBdmZxWU5qaWU5c1FlMVdKcnJ3eGFXWHdET3VzV0FVXzBUeV83dG9TTnIyVldUN2FfMExpMWdqek5jSG5VUTl0QmdTaw?oc=5",
@@ -164,6 +154,26 @@
       }
     },
     {
+      "id": "fa510639372f",
+      "title": "Expopharm-Diskussionsrunde: Prävention als Chance - Braunschweiger Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOaHo1QTlOanN2bl9JWmRDQzNtd3ZiamNvWFE2NHBBYllVQmFSaGhKVThlVEZaYUJwQ3BIT3ludzlBTWpGbnRTS2lDUWs3bnBrVDN4dnB4WE0zYWY5ZUh4ZUZKQjZFd1luM1pmclgxdFdjRTVuaDhicmZJT1pCLTVlOUNxNk5hVXZhY3VZb25Ld2I0cmxrSDByMHlCcVpSbFhhUEJwV0lGeV96cHp0LVZSd09GR0dncGItYkQyalctRU9ULUI0d3BRUjBMTFhNQQ?oc=5",
+      "published": "2026-09-10T08:16:01+00:00",
+      "source": {
+        "name": "Braunschweiger Zeitung",
+        "url": "https://www.braunschweiger-zeitung.de"
+      }
+    },
+    {
+      "id": "29fbac3081c1",
+      "title": "Desogestrel-Pillen: Behörden warnen 1,6 Millionen Französinnen vor Tumorrisiko - Euronews.com",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUGVTQUluUlpuS0dSWGxTd25iV3ROWEU3ZFZpelcwNmZPUlJSdDk1ZzkzVDVsN2I2MmEzc1haak05bWYyY2pkeXA3aVRVRld6NlhST1IzOTEwbkRrT0NNUndtdko1LTFGd1k4YlZ4MldjamZWdEJ2QTg2eHZFUkNSTVdYMHoyMmZnbm9WbXZtVUtNNWdsUGRueF9DdGduYW9ZLXdpSmM2WlpLdlFtbTZwSnRXTnUtRHZVeFl2U2p2VQ?oc=5",
+      "published": "2026-09-10T08:50:40+00:00",
+      "source": {
+        "name": "Euronews.com",
+        "url": "https://de.euronews.com"
+      }
+    },
+    {
       "id": "7dc34698252d",
       "title": "EU-PPA: Versorgungssicherheit verbindlich machen – Die Zeit drängt! - gesundheit adhoc",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYk1mNkI2UmNiaEU4ZTJfVk5wS1ZrSlVDd0FEMWhXbnJsZll6MlhnWE51LUZOY1RzZHNFWmM0aXJMdEpRVlVpY1lxeW90Z0RqakRxV0J5dDVlVW5WMEpKa3F5SHhXbGdKdWJ1VDRITi13STRJNzNjRTFRVXdwcmpYUE1uX0l4WEN6cjVNN3BpOFhfMVIxbnBpQjdFbXEydw?oc=5",
@@ -171,16 +181,6 @@
       "source": {
         "name": "gesundheit adhoc",
         "url": "https://www.gesundheit-adhoc.de"
-      }
-    },
-    {
-      "id": "51e8c4b74840",
-      "title": "Gesundheitsgefahr durch gefälschte Arzneimittel - Gesundheit.gv.at",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYlhNa1drQ3UydVU1Ti1QZWxOelZ2UDNkQTBsczZ4SzVIZGhQS3psTVQ5Zmw2Ujh2RGpDYzZ5TDdIbG5mYkFjRl9CX3JkS0FHQ2dlSGVZMlpRTmpva0xOX3hoTWhTM3VoZlB6bjJYbjRRcGp2NERXZmhoaEtyeGJhUDlSU0k0cURLRzNIc1FR?oc=5",
-      "published": "2026-03-09T07:00:00+00:00",
-      "source": {
-        "name": "Gesundheit.gv.at",
-        "url": "https://www.gesundheit.gv.at"
       }
     },
     {
@@ -194,13 +194,13 @@
       }
     },
     {
-      "id": "330b36b6cc6c",
-      "title": "Gesundheit - Mediziner fordern bei Adipositas Abnehm-Medikamente auf Kasse - NÖN.at - Niederösterreichische Nachrichten",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNVkUtclFNOXB3U3pRUUVnX19TeXFSS1FNUkdldXFrSDd6UVdGLXBkT1U3bFZXeFJnVjR5WDlyekJpWWtsR1hoRkIyN1BrcDhXTjZUU2Z2d1M0YVI0UTN0cTRhT2o2ZTZyVHdHeFRURWNkV3BueTQ3YmtTYVB6TFdjdGVPSzRtV2QtTHFEMU5aaHpLWm1ROTFQRFBNb29TV0JOU1MzakMyWF9fdjRFakg0aUsxbEdoWHZ1d0o3US05bXo4bE9YNE1oT2I1R0o?oc=5",
-      "published": "2026-09-09T10:17:00+00:00",
+      "id": "91d9d479bbed",
+      "title": "Gesundheitsgefahr durch gefälschte Arzneimittel - gesundheit.gv.at",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYlhNa1drQ3UydVU1Ti1QZWxOelZ2UDNkQTBsczZ4SzVIZGhQS3psTVQ5Zmw2Ujh2RGpDYzZ5TDdIbG5mYkFjRl9CX3JkS0FHQ2dlSGVZMlpRTmpva0xOX3hoTWhTM3VoZlB6bjJYbjRRcGp2NERXZmhoaEtyeGJhUDlSU0k0cURLRzNIc1FR?oc=5",
+      "published": "2026-03-09T07:00:00+00:00",
       "source": {
-        "name": "NÖN.at - Niederösterreichische Nachrichten",
-        "url": "https://www.noen.at"
+        "name": "gesundheit.gv.at",
+        "url": "https://www.gesundheit.gv.at"
       }
     },
     {
@@ -211,6 +211,16 @@
       "source": {
         "name": "Apotheke Adhoc",
         "url": "https://www.apotheke-adhoc.de"
+      }
+    },
+    {
+      "id": "330b36b6cc6c",
+      "title": "Gesundheit - Mediziner fordern bei Adipositas Abnehm-Medikamente auf Kasse - NÖN.at - Niederösterreichische Nachrichten",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNVkUtclFNOXB3U3pRUUVnX19TeXFSS1FNUkdldXFrSDd6UVdGLXBkT1U3bFZXeFJnVjR5WDlyekJpWWtsR1hoRkIyN1BrcDhXTjZUU2Z2d1M0YVI0UTN0cTRhT2o2ZTZyVHdHeFRURWNkV3BueTQ3YmtTYVB6TFdjdGVPSzRtV2QtTHFEMU5aaHpLWm1ROTFQRFBNb29TV0JOU1MzakMyWF9fdjRFakg0aUsxbEdoWHZ1d0o3US05bXo4bE9YNE1oT2I1R0o?oc=5",
+      "published": "2026-09-09T10:17:00+00:00",
+      "source": {
+        "name": "NÖN.at - Niederösterreichische Nachrichten",
+        "url": "https://www.noen.at"
       }
     },
     {
@@ -244,12 +254,12 @@
       }
     },
     {
-      "id": "02e9917bea66",
-      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - DW.com",
+      "id": "8db31424e5bb",
+      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - dw.com",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGxHSlhmSS0tbUNKdG15NEVzRzYzYllEUnAzUEU3ak53czRHVWlKdTZrRGFDMk1MUThPUjdPTnBGVENqd3d2Q1VSdWhJVXppWDF4NWh0aEJJaXJlVTlnV0VoZVFkRHNSM3p6NVZXNjNwWHk5YkxSUWR2RGZKcmp3Y2U5REY0U3dRZFJLeHFtQk9wb2Y3RUVOaVBlMlJhZ29Rck000gGjAUFVX3lxTE1rTW00WXFBajZxbTJOS1NLckhVbXFBSzh1NE96QTEydTN1YjZnaFFNcV8xblZGM29hdTZQUHc4V3YzQ1pwcTlaVVBhZDVqMExLMTlYVzZ6TmM4ZUdsUm5TLXpPNmk1R3V4UktvaV93cWttNFpVX0VEZlZnUllSQkhyUlZmeTBJcU0zUEVSZTgxdzFWUnFNRk9CYVljN0Jhd0ZXUFk?oc=5",
       "published": "2026-05-12T07:00:00+00:00",
       "source": {
-        "name": "DW.com",
+        "name": "dw.com",
         "url": "https://www.dw.com"
       }
     },
@@ -261,16 +271,6 @@
       "source": {
         "name": "ADAC",
         "url": "https://www.adac.de"
-      }
-    },
-    {
-      "id": "1860bdbbb94b",
-      "title": "Schutzschild gegen Multiple Sklerose: Deutsches Forschungsteam entdeckt körpereigenen Stoff - MDR.de",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPWHEyTjhLUjlKQUYxZU5TdEEwaFd0OENQN0gwSUQ3c2ZISXg0NTVWTnlmMVNPNUpvcGZnTk5KMWk3bFg1cjN2dHlTYjlVN3VucXphQ19MZjdveHBkanhvV0FnZzVJMG9scmZCa0RSZ2ZSWDFBbWFQczV5cllXc2tQWmp3ZW5BS1E4OUstRzhJc0lEQjh3U0tWRHMyeFo5U1k2Znc5amhhT3hrZWJ0M3pjWnk2QnE0VlNjaUd4MHR3Ym5NcUFPZnZiT3hiLWhXUFdVakE?oc=5",
-      "published": "2026-09-08T07:00:00+00:00",
-      "source": {
-        "name": "MDR.de",
-        "url": "https://www.mdr.de"
       }
     },
     {
@@ -304,6 +304,16 @@
       }
     },
     {
+      "id": "f8040ec5eed6",
+      "title": "„Effizientes Medikamentenmanagement in der Pflege“: Redcare Pharmacy und Hilfswerk Österreich beim European Forum Alpbach 2026 - OTS.at",
+      "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPMThLWHB3LVhyRGE0TnQ4RmxET08xWC1MRU5pcWgyY1hpZjh5QU84N0hLM0xjTUgzQ0V1TnlqRFJpaFdreHFyTWx0c2IwUGM2c2FoeE43X1V4SGJiS0hMd05lMEl2dXBjdFEyQ21rRUJaQWZWM25VUS0tTE5JNzRsajJ2aXdxZ001NTNWZUpPTlVaYWRhdHh1RTBwZWRVZmtWcjdOY3JCMTNPeHB3ZnBTVHR6ZDVHZmZsYTU5a1JFMm1NRFJvenc3bVRTb3cyWFpZNUlRZlNEdjlnVE84NF9UYVdaUVZ0eUQxQmllNmlOajFLNHpTckdRUWFuQktJX0JnMUI2RkVVNU1jaXJqcVE?oc=5",
+      "published": "2026-09-11T09:48:32+00:00",
+      "source": {
+        "name": "OTS.at",
+        "url": "https://www.ots.at"
+      }
+    },
+    {
       "id": "326545523c94",
       "title": "Fachleute uneins: Studie findet Auffälligkeit bei Paracetamol - T-Online",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOU0hGVnVWX2NWRDVTc3djZVp2aHNqYTd3ZjVVZkFiZEgxV3V6WGxpNklkdjZHMVI0UGVnSUtBMHpUZFRCdGs2dnI3M2FTNy11ZjJUNm82dkFnRnlnbVh3Z20tZ2xMZ0RvOTNTM1lDM0tOQTAyRDlfc25xbHFudmRicjFhRDR1V194UndjWTB3RldaXzRmRm1VNERXcVpVZ2k0MWRybDFsS08wTlV3cUZ4VGZycXdrcXBJNWJEdVlCS1VkWDM4dlRWcl9RV24yWE1JUjRyRQ?oc=5",
@@ -311,6 +321,16 @@
       "source": {
         "name": "T-Online",
         "url": "https://www.t-online.de"
+      }
+    },
+    {
+      "id": "3d6bfc209413",
+      "title": "Shop Apotheke von Redcare Pharmacy - digitale Online-Apotheke mit E-Rezept und über 250000 Produkte - ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPeEt5ZHZUbVdUOGFFUzNCcXhxSFpkNmhUaVJXYU5DTnpYYjlRWTJlWnFkWW1ZU3pPdTZSQXFHMXJEdGxraFkyN2lSOUxPZHFTaVZmYlVTVFFEZFlvcWx4TWVHQmt0c3F4TWV3dXU2YXFGOGxSVWxhSWRmSXdqOGd4eGEwaHFMSXVtYUw3YkM4cmtIMXlTRGI4NHpKM29ORFllNVE2ekRWbHkwS0VQVjBfYzB0c0xfMWl5NHVua3BYWWlPRXFLc2ZJ?oc=5",
+      "published": "2026-09-10T11:00:02+00:00",
+      "source": {
+        "name": "ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -334,16 +354,6 @@
       }
     },
     {
-      "id": "f92665691e36",
-      "title": "Gesundheit: So will die EU Engpässe bei Fiebersaft & Co. verhindern - Tagesspiegel",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcDl1WkpGU2VsQWhwUXd1WWxXSUhVN2Y3R2hTdl9GTHNxcDl2NFhUejhMXzhtOVUteVRjYmlZZDVNa0lETm9QSWNsWXB2c09CcTBqV3M2Wk5Fc0FVRlRaaDFzN1lDVTRFdl9IeXZvU2h3VjhJVGFUQ29lNmdqOUFld1dsd3ZNaVF5OFRETVFqckdoWk1udUFSQWdzMVdLQWxJd3A0eXdiVzhJR3pmY1FOeVQ0aUFxZ3BGdlpGazFn?oc=5",
-      "published": "2026-05-12T07:00:00+00:00",
-      "source": {
-        "name": "Tagesspiegel",
-        "url": "https://www.tagesspiegel.de"
-      }
-    },
-    {
       "id": "67e4e08a7431",
       "title": "Bundesverwaltungsgericht: Die feinen Unterschiede zwischen Fertig- und Rezepturarzneimitteln - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNeTl1Y01rWHNTMC14UVB3aVFNMmVGTkxHdHlpaHNSc3pmZE5SZjVTRlhhbjVCdC01T0wzMkRJbzBvU0pYY3o0eXlrNEJjaEFkZ3ZXa3BhV3pycGZMN1lOc1EzcFBUNkN0bVFuVWR2aUtHaThDb0hPR3NOMTVBVEZrNVdORXJmbzA0QUpMbFJDTTJ0bi16aDR3aFlQeFR4VUo3SDJXZEtHdGc3NWI3TElkV0dB?oc=5",
@@ -351,6 +361,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "f92665691e36",
+      "title": "Gesundheit: So will die EU Engpässe bei Fiebersaft & Co. verhindern - Tagesspiegel",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcDl1WkpGU2VsQWhwUXd1WWxXSUhVN2Y3R2hTdl9GTHNxcDl2NFhUejhMXzhtOVUteVRjYmlZZDVNa0lETm9QSWNsWXB2c09CcTBqV3M2Wk5Fc0FVRlRaaDFzN1lDVTRFdl9IeXZvU2h3VjhJVGFUQ29lNmdqOUFld1dsd3ZNaVF5OFRETVFqckdoWk1udUFSQWdzMVdLQWxJd3A0eXdiVzhJR3pmY1FOeVQ0aUFxZ3BGdlpGazFn?oc=5",
+      "published": "2026-05-12T07:00:00+00:00",
+      "source": {
+        "name": "Tagesspiegel",
+        "url": "https://www.tagesspiegel.de"
       }
     },
     {
@@ -384,16 +404,6 @@
       }
     },
     {
-      "id": "054c2beef78c",
-      "title": "Marktgröße, Marktanteil für natürliche Gesundheitsmedikamente | Prognose [2034] - Fortune Business Insights",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcm9jWnMyZy1ubkhPQXFmQ1dzUmtCU0V4X0dTMlEzZnpVeEVnVmxNU0VweEJsR2hNakhlN0JxRk9kMVVhVFZFNWhpXzhtR2g3cTdRQVM5d1lON25zT1FXV3hJNlJ1dDY5R2JUUld0UGRadUs4aFM5elJ6Z0RqX3BFS1ZEcERJUUh0MldhbVRybzN6anhOZnRHMw?oc=5",
-      "published": "2026-08-17T07:00:00+00:00",
-      "source": {
-        "name": "Fortune Business Insights",
-        "url": "https://www.fortunebusinessinsights.com"
-      }
-    },
-    {
       "id": "d9edf968b2d7",
       "title": "»Spar­po­li­tik bei Arz­nei­mit­teln ist ein Irr­weg« - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZ3BYbThQLUVqMndzcmZ2RzJRTW5vb1o4dGhibU52alc0SUtlbFkxMkhCS1puYnNnelNOcnVtSl9iejVRNU1sNGxvZ0lZZVZkaWNnRGhWVWsxT1JobThfRzFVdnh6Q25Idzl3aGZZaThYdHBRYTUzNHRpX2VNZ0dGWHBjd3VEbDdERlhjOHhubnhHLXB2OWc?oc=5",
@@ -401,6 +411,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "054c2beef78c",
+      "title": "Marktgröße, Marktanteil für natürliche Gesundheitsmedikamente | Prognose [2034] - Fortune Business Insights",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcm9jWnMyZy1ubkhPQXFmQ1dzUmtCU0V4X0dTMlEzZnpVeEVnVmxNU0VweEJsR2hNakhlN0JxRk9kMVVhVFZFNWhpXzhtR2g3cTdRQVM5d1lON25zT1FXV3hJNlJ1dDY5R2JUUld0UGRadUs4aFM5elJ6Z0RqX3BFS1ZEcERJUUh0MldhbVRybzN6anhOZnRHMw?oc=5",
+      "published": "2026-08-17T07:00:00+00:00",
+      "source": {
+        "name": "Fortune Business Insights",
+        "url": "https://www.fortunebusinessinsights.com"
       }
     },
     {
@@ -421,6 +441,16 @@
       "source": {
         "name": "Deutschlandfunk",
         "url": "https://www.deutschlandfunk.de"
+      }
+    },
+    {
+      "id": "b224df61319b",
+      "title": "Der Herstellerabschlag im Reformstress - Verband der Ersatzkassen e. V.",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeXdkMXpjQVBJRzhyd1dCOVloSFpjc1cyNkczZjlHYl9QMlR4aFUwN1JLc3laQ0JWd0cwTWY4cmRnMGhDbE1vTzl3ODBNR2pQR0VLM0pJa2luTURVNGZOOXJlWlFGNG5ybFZkamI2WTlpOEZ1WjNTd19lcWJDdy1vU3V1RVI0TnRUSmNJVEphZkJYbnc?oc=5",
+      "published": "2026-06-12T07:00:00+00:00",
+      "source": {
+        "name": "Verband der Ersatzkassen e. V.",
+        "url": "https://www.vdek.com"
       }
     },
     {
@@ -544,16 +574,6 @@
       }
     },
     {
-      "id": "770d335601a9",
-      "title": "Aktuelle Meldungen - Per App mehr Schutz für ungeborene Kinder - saarland.de",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQSlB2RHNPd3RCZDFZaXIwbGFmMXhRQW9DTWNBNEY1Mk5WV0pxY2h4X2t0QmEtaHJ1Z3pVV0p3ZXNpSmEtVl9XdTY1MUdlbU90M2trWXduX3VjQk9MbmVpa2hsalBTa21yWkZzZFJkdklqLXllZjNzVE1DUmoyTVZydTc2Z0RSQXlVbnNpdXNSN2VlVWZ6WEM4bEN6cXFWVjJSbEFuaGJIUXZNWUIyM09ackpiV1h0cC1GM05DalBndWNUa1VJc1NhbWd3VlFWbnc1ZUg2YTZlWlR3RVdQQW9lRjhqQ2c5Zl9MQkJrTElWTFk?oc=5",
-      "published": "2025-12-04T08:00:00+00:00",
-      "source": {
-        "name": "saarland.de",
-        "url": "https://www.saarland.de"
-      }
-    },
-    {
       "id": "08f761ee3a89",
       "title": "EU-Gesundheitskommissar prüft Folgen von Trumps Arzneipreispolitik - Euronews.com",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSzM5cWFmcTJfV010WWVadkdEVXRGblFEUTlhaUhoOThvaHV5eTJuWFVJbUtyMW9xNTJkYzNIR2Z6YWp0ZE1IWmNPb3pNcU5YY1phcUlQSU5IWWtvV0MzNDlqdHJZRU40alRPU29CWFVnUDBjLXE3UHhtV2pManQ4TzhzVEU3OHNDM2JJZm9ZbzBUbkVCRFRZYU1jMTl2UVdGRnhubmZZYWswcmZqbXAtbW5QcnRBTktIaHFFWg?oc=5",
@@ -561,6 +581,16 @@
       "source": {
         "name": "Euronews.com",
         "url": "https://de.euronews.com"
+      }
+    },
+    {
+      "id": "770d335601a9",
+      "title": "Aktuelle Meldungen - Per App mehr Schutz für ungeborene Kinder - saarland.de",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQSlB2RHNPd3RCZDFZaXIwbGFmMXhRQW9DTWNBNEY1Mk5WV0pxY2h4X2t0QmEtaHJ1Z3pVV0p3ZXNpSmEtVl9XdTY1MUdlbU90M2trWXduX3VjQk9MbmVpa2hsalBTa21yWkZzZFJkdklqLXllZjNzVE1DUmoyTVZydTc2Z0RSQXlVbnNpdXNSN2VlVWZ6WEM4bEN6cXFWVjJSbEFuaGJIUXZNWUIyM09ackpiV1h0cC1GM05DalBndWNUa1VJc1NhbWd3VlFWbnc1ZUg2YTZlWlR3RVdQQW9lRjhqQ2c5Zl9MQkJrTElWTFk?oc=5",
+      "published": "2025-12-04T08:00:00+00:00",
+      "source": {
+        "name": "saarland.de",
+        "url": "https://www.saarland.de"
       }
     },
     {
@@ -684,12 +714,12 @@
       }
     },
     {
-      "id": "481fde27de07",
-      "title": "Tipps vom Apotheker - Fehlende Arzneimittel - Warum sich Eltern bevorraten sollten - Gesundheit - sueddeutsche.de",
+      "id": "3d2cb4e53bfe",
+      "title": "Tipps vom Apotheker - Fehlende Arzneimittel - Warum sich Eltern bevorraten sollten - Gesundheit - SZ.de",
       "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOWFhLVUdkZzBFTm93WVhvZHdBSkk4ZWlPUWJQRlZFWjlSV3Npei12Wnc4YWhXZW9fMkFOLUs2TjNEanlIUENkRlJ1bmdDQWJKbFhVeEpaMmF2dEp3SjVZbjBHZlNDVUV2Z1NpekF5c3lEaUxsX3VPcDNwRHBGaVFFYXBRZ3dERXpIZWp2TzVralRSb1FEVmdfZjNJTmxMdW9WT25iZGh6QVBfQmV2UGRSby1hcWNOOWl4b2NIajFWRmZZNmhvemN2OVVSZ3dwYnlYTVBfYV9oVGlYM3B5TjJtQTZZUHkwb3cteVd1UzU5M3RaT2hiN2tjczYtOA?oc=5",
       "published": "2025-11-30T08:00:00+00:00",
       "source": {
-        "name": "sueddeutsche.de",
+        "name": "SZ.de",
         "url": "https://www.sueddeutsche.de"
       }
     },
@@ -794,16 +824,6 @@
       }
     },
     {
-      "id": "4fe2e91c95e5",
-      "title": "Verlängert Überleben deutlich: FDA lässt Medikament gegen Bauchspeicheldrüsenkrebs vorzeitig zu - Frankfurter Rundschau",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPV3ZEc1lPN1E0azlrWHB5dHZ6TW9RN1FyelNCRkl5azFBS1JKVno3OXNpWlpTSGNRcnNoUEZTOGktRzBISkU0YjNQeTlxVmg5OVQ0c285cW5lTWM0QzREZWZhc05qbFlrRkI5eUdMSUhJLTh4WGF3M0liczdqbnNWV3IxZFdBcnFfWjQ2Ty1Sb2tEcGc3eU9NNHNqa0NxcC1QbUJXTmJn?oc=5",
-      "published": "2026-08-27T07:00:00+00:00",
-      "source": {
-        "name": "Frankfurter Rundschau",
-        "url": "https://www.fr.de"
-      }
-    },
-    {
       "id": "2aa053163d77",
       "title": "Krisenfall: Schwaches Gesundheitssystem, schwacher Staat - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQR0JucXpoc0ZtZjFpUHphX3JmWF84RDd1ZXhfc1Z1MW9oVEtYRUdOTzZ1NVhBdnZMVE8wRTBQQ01hZzRicDBrRXdaRlhCcnFLRjdZblNoYmxMSGhXOEYtNjJ3aHVYZm93MjRHSEhvNDEwUXp6YmZhUjl2eTNLNlJ4T2Z5ejc4UDgzUHdKU0dOQjRJUDBp?oc=5",
@@ -831,16 +851,6 @@
       "source": {
         "name": "Kurier",
         "url": "https://kurier.at"
-      }
-    },
-    {
-      "id": "a5a7506854ab",
-      "title": "Die französische Nationale Arzneimittelagentur wird Briefe an etwa 1,6 Millionen Frauen schicken, um sie vor dem seltenen Risiko eines Meningeoms im Zusammenhang mit der langfristigen Anwendung des Verhütungsmittels Desogestrel zu warnen - Informat.ro",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQamVVQWFpWFNMSHg3Mmg3ZmNrMWQxNWc0cVlkRFdub1ZZdWVQZ2NfVnVPLUFSLUhueDkxS09HbDZBcGtEdnhhSks0LUFZRC1qYkwwWHZHbGlTWnhXczV4Z3kzQXRFS3NRMkVSVUgxZkx0VVQ1ODdhaTRkdGgtaTEySG5vYkhTeFdIR3cySlk1WllsQUR5X2E2N2NFaDdIcndCZm56dS1NMkk1QUpUdmlpc2luYVFVTTNYUGl1QUQ5VWFLamtBN1FBaHR5V1dVQTRHWDlN?oc=5",
-      "published": "2026-09-10T09:25:54+00:00",
-      "source": {
-        "name": "Informat.ro",
-        "url": "https://informat.ro"
       }
     },
     {
@@ -924,6 +934,16 @@
       }
     },
     {
+      "id": "a5a7506854ab",
+      "title": "Die französische Nationale Arzneimittelagentur wird Briefe an etwa 1,6 Millionen Frauen schicken, um sie vor dem seltenen Risiko eines Meningeoms im Zusammenhang mit der langfristigen Anwendung des Verhütungsmittels Desogestrel zu warnen - Informat.ro",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQamVVQWFpWFNMSHg3Mmg3ZmNrMWQxNWc0cVlkRFdub1ZZdWVQZ2NfVnVPLUFSLUhueDkxS09HbDZBcGtEdnhhSks0LUFZRC1qYkwwWHZHbGlTWnhXczV4Z3kzQXRFS3NRMkVSVUgxZkx0VVQ1ODdhaTRkdGgtaTEySG5vYkhTeFdIR3cySlk1WllsQUR5X2E2N2NFaDdIcndCZm56dS1NMkk1QUpUdmlpc2luYVFVTTNYUGl1QUQ5VWFLamtBN1FBaHR5V1dVQTRHWDlN?oc=5",
+      "published": "2026-09-10T09:25:54+00:00",
+      "source": {
+        "name": "Informat.ro",
+        "url": "https://informat.ro"
+      }
+    },
+    {
       "id": "dfaeda93fdf8",
       "title": "Medikamente knapp: Apothekerin – „So reagieren wir bei Lieferengpässen“ - Berliner Morgenpost",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZEotOVIzVm9temVXWVU5Rmk1OHR5SzZNMDREVWJZeXlMZHRrWEhpRDZCSExxaktrc3hBSVBqOG9hZlMzbkZBTm1wWFBYMzF3ZXU3SjZkYzNucEg5LUozbFRmQ1BiLUU1aW9XVUtNLS1UVWgzNERrSkRiT05sSUVSSTE2MDYyck41OFRfUTFfaXp6LWdsRjF2NHBkdmwwS2ZwTGFmNTFhZ1I0VFFJeGZ1VlpBSlpkN2hUN3FrM2cyWkF0UGJaVndV?oc=5",
@@ -934,12 +954,12 @@
       }
     },
     {
-      "id": "94dbd56bb433",
-      "title": "Medikamente, Zähne, Krankenhaus: Diese Mehrkosten könnten bald auf Patienten zukommen - CHIP",
+      "id": "987a36c62a31",
+      "title": "Medikamente, Zähne, Krankenhaus: Diese Mehrkosten könnten bald auf Patienten zukommen - chip.de",
       "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOcy1jSnhpbTFGMzQwRnV3X0c3cEw3OHl4MUpBd1poVXNwYllrTF9lRnJLVGkyS1F0TExBMzM0aG1tS2tCaGVRa2hYR05HV0R4cXJ6QmVPZ3hvX0ZvVVdLWGQzQWVLZ1pFRTdOZDY5TEY2Q3VtM0xoTjl5akRkVW5vQ1BXODVvbG1XaXF3WFRwSGRvejJzZXotSnNtLUZfaWhEbkRSTENaTk5id1JtUGlicXRWMW1raGJJX0lkbjRxYlNLZFpXTXIxZFJ4YjB4d2hLUzVhSl9jY09PLW1JZXZURnBJN0NEU0xqM3o0R2h0dGNjUU5QVFdEMmVDZEdPTXc?oc=5",
       "published": "2026-04-01T07:00:00+00:00",
       "source": {
-        "name": "CHIP",
+        "name": "chip.de",
         "url": "https://www.chip.de"
       }
     },
@@ -974,16 +994,6 @@
       }
     },
     {
-      "id": "d226bb3cd766",
-      "title": "Diese Medikamente können Alzheimer vorbeugen - Euronews.com",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZHd6NGpWcXV5WTFGMzRvX2tlV2dyb0hISS1yMmhxY2RXeXhUa1pCS3RpLTVHNGpOam56S2cxd05wc1Q3UWU3QUN4bVpRYmo1TkNDNS1fVkVwbHNHeWpMQ1paWjU2cG1Ha1NpQXJzWTFTRG9sbU1pSkNLNWdpLU5UaDV3UWlfaUNyNjhtUndXZw?oc=5",
-      "published": "2026-02-08T08:00:00+00:00",
-      "source": {
-        "name": "Euronews.com",
-        "url": "https://de.euronews.com"
-      }
-    },
-    {
       "id": "01ff5efaad6f",
       "title": "Neue Versandregeln könnten Medikamente bald deutlich teurer machen - Watson.de",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTWdJN3drNlBIbVFGbGpjVGxXbDN6V2ZPaXVZcXBLakFOWndIRVhlNXJWT2t4bktnd2RyN3ZIWHF2Y1ZmTFpyNnFhb2ZHQkFaNmtDRXBFMWR2cS1QVXRNYzhKVmVBVUN5MmhDcXdVZmUxeS1tbmwxamhUdURjVTZ1cWEwY2JjWDRPQUs0eFdkY3JkNkpnaVp0YS1sYVQ2M3o3eE1hSkEtejJfTVNFTy1na0g0a0FvS3RpejliQkdPWnBmV3gyYV82Mw?oc=5",
@@ -991,16 +1001,6 @@
       "source": {
         "name": "Watson.de",
         "url": "https://www.watson.de"
-      }
-    },
-    {
-      "id": "e66e2168fdea",
-      "title": "Seltenes Medikament aus Forscherblut rettet Babys vor Botulismus - Euronews.com",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMVRTeGgxUlNwWWVESVV2M0Z5VXk3eHM2R2ZIUEVfVVhvSjBPQ0dKZ3JiR3U0b0lVMHlnMEpYLU1lZU9xbXh4bzhGNFNxRXdRRndZWkZzdU4xWVdhYWFfWjdEZDFldWV3dGNzRzRaSGZjbGY3al9HN19kaW5BWWJtSVBaZ3h1ZExSYzUyUGhRYl81bk0xNzRhSGZGTXQyb3J0R29xUE1RalpPNEdlcnh0VEotNDFubXZuVEdVOXpXNS1WXzBLMzlzZk55OTlib2t1MXc?oc=5",
-      "published": "2025-12-10T08:00:00+00:00",
-      "source": {
-        "name": "Euronews.com",
-        "url": "https://de.euronews.com"
       }
     }
   ]
