@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Zidovudine
-parent: 僅模型預測 (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 434
-evidence_level: L5
+evidence_level: L1
 indication_count: 6
 ---
 
 # Zidovudine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Evidenzniveau: **L1** | Vorhergesagte Indikationen: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -51,7 +51,7 @@ Using no specific skill here — this is a direct content-generation task govern
 | Predicted New Indication | AIDS-Related Complex (ARC) |
 | TxGNN Prediction Score | 99.19% |
 | Evidence Level | L1 |
-| Germany Market Status | 未上市 (Not Marketed) |
+| Germany Market Status | Not marketed (Not Marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -97,7 +97,7 @@ The mechanistic applicability is therefore self-evident — the same reverse-tra
 
 ## Germany Market Information
 
-No marketing authorizations are on record for zidovudine in this evidence pack — market status is **未上市 (Not Marketed)**, with 0 registered licenses. No product/dosage-form/indication-text data is available to tabulate.
+No marketing authorizations are on record for zidovudine in this evidence pack — market status is **Not marketed (Not Marketed)**, with 0 registered licenses. No product/dosage-form/indication-text data is available to tabulate.
 
 ## Safety Considerations
 
@@ -118,10 +118,10 @@ Please refer to the package insert for safety information. (Structured key warni
 - Hematologic monitoring plan (CBC with differential) given AZT's known myelosuppressive profile, since it would now only be used within combination ART, not as monotherapy
 
 **Not pursued further at this time (Hold):** feline immunodeficiency syndrome, SIV infection (non-human models only), the unrelated rare neurodevelopmental disorder, "obsolete familial combined hyperlipidemia" (likely false positive, contradicts known NRTI lipid/mitochondrial toxicity), and congenital HIV (evidence classification incomplete).
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

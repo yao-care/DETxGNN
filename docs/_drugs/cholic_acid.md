@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Cholic Acid
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 101
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Cholic Acid
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -87,7 +87,7 @@ Currently no related clinical trials registered.
 
 ## Germany Market Information
 
-Currently no marketing authorizations recorded for cholic acid in Germany (`total_licenses: 0`, `market_status: 未上市`).
+Currently no marketing authorizations recorded for cholic acid in Germany (`total_licenses: 0`, `market_status: Not marketed`).
 
 ---
 
@@ -111,10 +111,10 @@ No clinical trials support cholic acid for HIV infectious disease, the mechanism
 - Resolve DG002 (mechanism of action data via DrugBank) — needed for mechanistic plausibility review
 - Independent pharmacological studies clarifying why the TxGNN model links cholic acid to HIV infectious disease, given the contradictory in-vitro signal (PMID 16610808)
 - Consider re-evaluating lower-ranked candidates in this pack (e.g., "vitamin deficiency disorder," rank 5) which show stronger, mechanistically coherent evidence (an active Cholbam patient registry, NCT03115086, and multiple case series on bile acid synthesis disorders) more consistent with cholic acid's known biology
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

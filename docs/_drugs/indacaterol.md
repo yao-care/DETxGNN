@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Indacaterol
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 202
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Indacaterol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -47,7 +47,7 @@ indication_count: 10
 | Predicted New Indication | Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD) |
 | TxGNN Prediction Score | 99.54% |
 | Evidence Level | L5 (model prediction only, no supporting clinical trials or literature) |
-| Germany Market Status | 未上市 (Not marketed) |
+| Germany Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -77,7 +77,7 @@ Currently no related literature available.
 
 ## Germany Market Information
 
-No marketing authorizations are currently on record for Indacaterol in Germany (total_licenses = 0; market status: 未上市). This drug-level gap (see DG001) also blocks formal safety/indication-label review.
+No marketing authorizations are currently on record for Indacaterol in Germany (total_licenses = 0; market status: Not marketed). This drug-level gap (see DG001) also blocks formal safety/indication-label review.
 
 ---
 
@@ -98,10 +98,10 @@ The top-ranked TxGNN prediction (NSIAD) has no clinical trial or literature supp
 - Resolve DG001 (BfArM label warnings/contraindications) via label PDF retrieval
 - Resolve DG002 (confirmed MOA) via DrugBank API
 - If a repurposing signal is still desired for this drug, note that **"bronchial disease"** (rank 7 in this pack) carries strong evidence (L1, 30+ trials, 20+ publications, decision stage S3, "Proceed with Guardrails") — however, the pack's own rationale flags this as confirmation of the drug's *existing* known pharmacology (COPD/asthma) rather than a novel repurposing candidate, so it should be evaluated separately from a true new-indication standpoint
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

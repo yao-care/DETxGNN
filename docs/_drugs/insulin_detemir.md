@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Insulin Detemir
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 205
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Insulin Detemir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -45,7 +45,7 @@ indication_count: 10
 | 預測新適應症 | 第一型糖尿病（Type 1 Diabetes Mellitus）——**註：此實為 Levemir® 既有上市適應症，非真正新用途** |
 | TxGNN 預測分數 | 99.77%（rank 3222） |
 | 證據等級 | L1（≥2 個已完成 Phase 3 RCT） |
-| 德國市場狀態 | ✗ 未上市 |
+| 德國市場狀態 | ✗ Not marketed |
 | 授權數量 | 0 |
 | 建議決策 | Proceed with Guardrails |
 
@@ -126,10 +126,10 @@ Insulin Detemir 目前**未於德國上市**（`total_licenses = 0`），資料�
 - Rank 4（thiamine-responsive dysfunction syndrome）與 Rank 7（pancreatic agenesis）屬機轉合理但無直接臨床證據之研究性問題（L4，Research Question），可作為未來個案研究方向，暫不投入資源。
 - Rank 2、3、5、6（autoimmune oophoritis、opsismodysplasia、focal/classic stiff person syndrome 譜系）證據等級 L5，無機轉或臨床支持，建議 Hold。
 - Rank 8、9、10（各類 lipodystrophy/lipoatrophy）存在**方向性疑慮**——這些極可能是胰島素注射部位脂肪代謝異常之已知不良反應，被 TxGNN 誤判為治療關聯，建議自候選清單移除或另行標記為安全性訊號，不宜按適應症流程處理。
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Brinzolamide
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 67
 evidence_level: L5
 indication_count: 1
@@ -10,12 +10,12 @@ indication_count: 1
 # Brinzolamide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -91,10 +91,10 @@ The Evidence Pack is structurally incomplete — there are no TxGNN predicted in
 3. **Resolve Data Gap DG001 (Package Insert)** — Retrieve the Taiwan TFDA package insert PDF to extract approved indications, warnings, and contraindications.
 4. **Confirm drug class eligibility** — Brinzolamide is a topically administered ophthalmic agent. Confirm whether the TxGNN model scope includes non-systemic drugs; if not, note this as a model boundary limitation.
 5. **Re-generate Evidence Pack** — Once the above gaps are resolved, regenerate the v5 Evidence Pack and re-submit for evaluation.
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

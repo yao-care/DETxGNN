@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tocilizumab
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 401
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Tocilizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -100,10 +100,10 @@ Two dedicated Phase II/III placebo-controlled RCTs of tocilizumab in ankylosing 
 - TFDA/BfArM package insert (warnings, contraindications) — currently a **Blocking** data gap (DG001), required before any S1 safety evaluation of tocilizumab for *any* indication
 - Structured mechanism-of-action data from DrugBank API — **High**-priority data gap (DG002)
 - If repurposing exploration continues for this drug, prioritize other candidates in this evidence pack with more favorable (or at least non-negative) evidence profiles, such as **rheumatoid vasculitis** (L4, flagged as "Research Question" rather than "Hold"), over further work on the AS hypothesis
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

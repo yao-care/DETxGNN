@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Vismodegib
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 428
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Vismodegib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -77,7 +77,7 @@ Currently no related literature available.
 
 ## Germany Market Information
 
-Vismodegib is **not currently marketed in Germany** (0 authorizations on record; `market_status: 未上市`). No BfArM licenses or approved indication texts are available in this evidence pack.
+Vismodegib is **not currently marketed in Germany** (0 authorizations on record; `market_status: Not marketed`). No BfArM licenses or approved indication texts are available in this evidence pack.
 
 ---
 
@@ -119,10 +119,10 @@ Although the TxGNN prediction score is very high (99.93%) and the mechanistic ra
 - Confirmation of vismodegib's actual German/EU regulatory status, since it is recorded as unmarketed with 0 authorizations here despite being an approved product (Erivedge®) elsewhere
 
 **Note for reviewers:** the same evidence pack contains a separate, much better-evidenced entry — "skin cancer" (rank 9, 23 clinical trials incl. multiple completed Phase 2 BCC trials, 20 publications) — which appears to correspond to vismodegib's already-known original indication (BCC) rather than a novel repurposing candidate. This should be excluded from repurposing consideration but confirms the drug/evidence linkage in this dataset is functioning correctly for indications with real coverage.
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

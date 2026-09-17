@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Anagrelide
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 29
 evidence_level: L5
 indication_count: 2
@@ -10,12 +10,12 @@ indication_count: 2
 # Anagrelide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -39,11 +39,11 @@ Anagrelide 是用於治療 essential thrombocythemia（ET，一種克隆性骨�
 
 | 項目 | 內容 |
 |------|------|
-| 原始適應症 | Essential thrombocythemia (ET)（國際核准適應症；台灣未上市，無本地仿單資料） |
+| 原始適應症 | Essential thrombocythemia (ET)（國際核准適應症；台灣Not marketed，無本地仿單資料） |
 | 預測新適應症 | Reactive Thrombocytosis（反應性血小板增多症） |
 | TxGNN 預測分數 | 99.83% |
 | 證據等級 | L4（僅回顧性文獻/機轉研究，無直接針對此適應症之臨床試驗） |
-| 台灣上市狀態 | 未上市 |
+| 台灣上市狀態 | Not marketed |
 | 許可證數量 | 0 |
 | 建議決策 | **Hold（暫緩）** |
 
@@ -74,7 +74,7 @@ Anagrelide 是用於治療 essential thrombocythemia（ET，一種克隆性骨�
 
 ## 台灣上市資訊
 
-Anagrelide 目前在台灣**未上市**，無許可證資料。
+Anagrelide 目前在台灣**Not marketed**，無許可證資料。
 
 ## 安全性考量
 
@@ -96,10 +96,10 @@ Anagrelide 目前在台灣**未上市**，無許可證資料。
 ---
 
 *附註：第二候選適應症「inverse Klippel-Trenaunay syndrome」（TxGNN 分數 99.59%）無任何文獻或試驗支持，證據等級 L5，機轉上與 anagrelide 之 PDE3 抑制作用無合理連結，建議直接排除，不進入後續評估。*
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

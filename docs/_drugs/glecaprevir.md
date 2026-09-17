@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Glecaprevir
-parent: 僅模型預測 (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 180
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Glecaprevir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -109,10 +109,10 @@ The top-ranked prediction (HIV infectious disease) lacks any mechanistic basis �
 - Verified mechanism-of-action and DDI data from DrugBank or manufacturer labeling
 - A re-scoped TxGNN query or manual mechanistic review to determine whether any of the 10 candidates reflect a genuine repurposing signal, versus viral-infection embedding conflation
 - If pursuing HIV/HCV coinfection management (not de novo HIV treatment) as an indication, reframe the candidate accordingly and re-evaluate evidence under that framing
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Epinephrine
-parent: 僅模型預測 (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 150
-evidence_level: L5
+evidence_level: L2
 indication_count: 4
 ---
 
 # Epinephrine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Evidenzniveau: **L2** | Vorhergesagte Indikationen: **4** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -122,10 +122,10 @@ Epinephrine's β2/α1-adrenergic bronchodilator and decongestant mechanism is ph
 - Clarification of which specific obstructive lung disease subtype (asthma vs. COPD vs. bronchiolitis) the repurposing claim should target, since trial evidence quality varies by subtype
 - Additional validation given that this is a well-known, decades-old drug — regulatory/market data appears absent from the source dataset and should be reconciled with real-world label information
 - Lower-confidence candidates from the same prediction set (e.g., food-dependent exercise-induced anaphylaxis, L3 evidence) may warrant separate, lower-priority follow-up, while "Rienhoff syndrome" (L5, zero evidence) should be treated as likely knowledge-graph noise pending manual review
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Inclisiran
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 201
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Inclisiran
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -45,7 +45,7 @@ indication_count: 10
 | Predicted New Indication | Potassium Deficiency Disease |
 | TxGNN Prediction Score | 99.93% |
 | Evidence Level | L5 |
-| Germany Market Status | 未上市 (Not marketed) |
+| Germany Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | **Hold** |
 
@@ -53,7 +53,7 @@ indication_count: 10
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action (MOA) data for Inclisiran is not available in this evidence pack — it is flagged as a **High-severity data gap** requiring a DrugBank API lookup. The original approved indication is also empty in this dataset, and the drug currently has **zero regulatory authorizations** in Germany (未上市).
+Detailed mechanism of action (MOA) data for Inclisiran is not available in this evidence pack — it is flagged as a **High-severity data gap** requiring a DrugBank API lookup. The original approved indication is also empty in this dataset, and the drug currently has **zero regulatory authorizations** in Germany (Not marketed).
 
 Because both the original indication and MOA are undocumented here, mechanistic plausibility cannot be assessed from first principles. The evidence pack's own rationale field for this specific candidate is explicit and unambiguous:
 
@@ -102,10 +102,10 @@ The top-ranked predicted indication (Potassium Deficiency Disease) has zero clin
 - Establish Inclisiran's actual approved indication(s), since this evidence pack has none on record
 - **Data-quality flag for this pack**: a separate candidate in the same dataset (rank 8, "aortic malformation," L2/S1) cites two Phase 3 trials (NCT06597019, NCT06597006) — but both trials actually study **pediatric familial hypercholesterolemia**, not aortic malformation. This suggests an indication-linkage mismatch in the evidence pipeline that should be corrected before that candidate (or any other in this pack) is cited as having "L2" support
 - If a genuinely evidence-backed repurposing direction is needed for Inclisiran, the familial-hypercholesterolemia-related trials noted above are a more promising starting point than the current top-ranked, zero-evidence prediction
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

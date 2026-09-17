@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Natalizumab
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 263
 evidence_level: L5
 indication_count: 5
@@ -10,12 +10,12 @@ indication_count: 5
 # Natalizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -102,10 +102,10 @@ The top-ranked prediction (bronchitis) has zero supporting clinical trials or li
 - Confirmed mechanism of action from DrugBank or primary literature (currently a High-severity data gap — DG002)
 - Any preclinical or mechanistic evidence specifically linking α4-integrin/VLA-4 blockade to airway inflammation resolution, before this candidate can move beyond Hold
 - Note: among the 5 predicted indications reviewed, **psoriasis** (rank 3) has richer literature (18 papers) but shows *directionally conflicting* signals (mostly drug-induced/aggravated psoriasis, one case series of improvement) — this may warrant a separate, dedicated safety-mechanism research question, but is not a basis to change the decision on bronchitis above.
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

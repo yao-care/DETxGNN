@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Glucagon
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 182
 evidence_level: L5
 indication_count: 1
@@ -10,12 +10,12 @@ indication_count: 1
 # Glucagon
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -49,7 +49,7 @@ indication_count: 1
 | Predicted New Indication | Irritable Bowel Syndrome |
 | TxGNN Prediction Score | 99.24% (rank 8077 among model-wide candidates) |
 | Evidence Level | L5 – model prediction only, no actual studies of glucagon in IBS |
-| Germany Market Status | ✗ Not Marketed (未上市) |
+| Germany Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | **Hold** |
 
@@ -107,7 +107,7 @@ The evidence pack's own repurposing rationale reaches the same conclusion: no me
 
 ## Germany Market Information
 
-No marketing authorization records are available for this drug in the current registry (market status: 未上市 / Not Marketed; 0 licenses on file).
+No marketing authorization records are available for this drug in the current registry (market status: Not marketed / Not Marketed; 0 licenses on file).
 
 ---
 
@@ -129,10 +129,10 @@ This candidate is very likely a **false-positive prediction caused by entity con
 - If a genuine preclinical rationale exists for glucagon (not GLP-1) in IBS, obtain actual glucagon-specific study data
 - Resolve blocking data gap DG001 (TFDA label warnings/contraindications) and high-priority gap DG002 (MOA via DrugBank) before any further safety evaluation
 - Given the drug is unmarketed in this registry, a market-access assessment would be required only if the mechanistic concern above is resolved
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

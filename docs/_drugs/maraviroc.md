@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Maraviroc
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 246
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Maraviroc
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -77,7 +77,7 @@ Currently no related literature available.
 
 ## Germany Market Information
 
-Maraviroc is **not currently marketed in Germany** under this evidence pack (`market_status: 未上市`, `total_licenses: 0`). No authorization records are available.
+Maraviroc is **not currently marketed in Germany** under this evidence pack (`market_status: Not marketed`, `total_licenses: 0`). No authorization records are available.
 
 ---
 
@@ -98,10 +98,10 @@ The top-ranked TxGNN prediction (multiple endocrine neoplasia) has no clinical t
 - Resolve DG001 (Blocking): obtain official TFDA/EMA prescribing information to complete S1 safety pre-assessment
 - Resolve DG002 (High): obtain confirmed MOA data from DrugBank/label to support or refute mechanistic linkage claims
 - If pursuing repurposing further, consider redirecting focus toward the pack's stronger secondary signals — particularly **HER2-positive breast carcinoma** (S1 stage, in vitro mechanistic evidence on CCL5-CCR5/ERK-mediated trastuzumab resistance) and, at lower priority, the cutaneous T-cell lymphoma and CMV infection hypotheses (L4, Research Question stage) — rather than the top-ranked but mechanistically unsupported multiple endocrine neoplasia prediction
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Topotecan
-parent: 僅模型預測 (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 406
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Topotecan
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -133,10 +133,10 @@ Evidence level is L3 — supporting data consist mainly of small pilot/Phase II 
 - Verification of the low-relevance ("grade C") trials to confirm whether topotecan is actually used in those regimens
 - Completion of "pending" literature classifications (study type/tier) to properly assess evidence strength
 - Clarification of topotecan's actual original/approved indication(s), since regulatory license data is currently absent
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

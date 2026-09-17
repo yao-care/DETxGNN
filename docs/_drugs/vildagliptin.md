@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Vildagliptin
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 427
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Vildagliptin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -47,7 +47,7 @@ indication_count: 10
 | Predicted New Indication | Focal Stiff Limb Syndrome |
 | TxGNN Prediction Score | 99.88% |
 | Evidence Level | L5 |
-| Germany Market Status | 未上市 (Not Marketed) |
+| Germany Market Status | Not marketed (Not Marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -77,7 +77,7 @@ Currently no related literature available.
 
 ## Germany Market Information
 
-Vildagliptin is currently **not marketed** in Germany (未上市) under this evidence pack, with 0 registered authorizations. No product/license records are available for this candidate.
+Vildagliptin is currently **not marketed** in Germany (Not marketed) under this evidence pack, with 0 registered authorizations. No product/license records are available for this candidate.
 
 ---
 
@@ -103,10 +103,10 @@ The top-ranked prediction (Focal Stiff Limb Syndrome) has Evidence Level L5 — 
 
 **Additional Note — Alternative Signal Worth Tracking:**
 Among this drug's 10 TxGNN-predicted indications, **Type 1 Diabetes Mellitus** (rank 10, score 99.37%) stands out as the only candidate with substantive evidence: Evidence Level **L2**, including a completed Phase 2 RCT directly testing rapamycin + vildagliptin for β-cell function recovery in long-standing T1D (NCT02803892; concordant RCT publication PMID 33124663), plus mechanistic RCT evidence on glucagon counter-regulation in T1D (PMID 22855332). This is mechanistically coherent (incretin-mediated β-cell preservation as adjunct, not insulin replacement) and is a more defensible candidate for a "Research Question" stage evaluation than the top-ranked stiff-limb-syndrome hit, though most of its 40+ listed trials are T2DM noise and would need individual re-grading before use.
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

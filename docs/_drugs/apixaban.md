@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Apixaban
-parent: 僅模型預測 (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 32
-evidence_level: L5
+evidence_level: L4
 indication_count: 1
 ---
 
 # Apixaban
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -104,10 +104,10 @@ Evidence level is L4 (mechanism/preclinical-tier only), there is no clinical tri
 - TFDA/BfArM label warnings and contraindications to resolve the Blocking gap DG001 before any S1 safety review
 - A dedicated apixaban (vs. warfarin or placebo) migraine outcome study, given the current signal is contradictory rather than merely absent
 - Re-evaluation of TxGNN prediction rationale given the discordance between predicted score (99.02%) and the direction of the human literature evidence
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

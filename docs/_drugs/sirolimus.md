@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Sirolimus
-parent: 僅模型預測 (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 367
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Sirolimus
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -118,10 +118,10 @@ A dedicated, completed Phase 2 trial (NCT02821507) directly tested sirolimus in 
 - Confirmed mechanism of action documentation from DrugBank (currently a High-severity data gap, DG002)
 - Published efficacy/safety outcomes from NCT02821507 once fully reported
 - Route and formulation compatibility assessment for oncology dosing versus the drug's existing immunosuppressant formulations
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

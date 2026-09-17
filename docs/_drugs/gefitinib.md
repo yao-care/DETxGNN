@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Gefitinib
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 177
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Gefitinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -113,10 +113,10 @@ None of the 10 predicted indications in this candidate set is supported by adequ
 - Resolve DG002: confirm formal MOA via DrugBank API rather than literature inference
 - If pursuing lung hilum carcinoma or pulmonary sulcus neoplasm, clarify with regulatory/clinical review whether these are already covered under the existing NSCLC label — a "new indication" claim may not be warranted
 - Re-screen or manually curate the TxGNN top-10 output before pharmacist review, given the high proportion of mechanistically implausible or label-mismatched candidates (rare genetic syndromes, benign tumors, and a barrier-defect skin disease paired with an EGFR inhibitor)
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

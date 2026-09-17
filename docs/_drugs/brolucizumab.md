@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Brolucizumab
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 70
 evidence_level: L5
 indication_count: 4
@@ -10,12 +10,12 @@ indication_count: 4
 # Brolucizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -47,7 +47,7 @@ A formal repurposing evaluation cannot be completed at this stage.
 | Predicted New Indication | None returned by TxGNN |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5 (prediction only — no predictions generated) |
-| Taiwan Market Status | Not marketed (未上市) |
+| Taiwan Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | **Hold** |
 
@@ -87,10 +87,10 @@ The Evidence Pack is structurally incomplete. No repurposing candidates have bee
 3. **Retrieve MOA data (DG002)** — Query the DrugBank API for BROLUCIZUMAB's mechanism of action.
 4. **Parse package insert for safety data (DG001)** — Download the TFDA package insert PDF and extract warnings and contraindications to unblock safety screening.
 5. **Resubmit Evidence Pack** — Once the above four items are resolved, regenerate the Evidence Pack (v5) and rerun this evaluation.
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

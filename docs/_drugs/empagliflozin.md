@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Empagliflozin
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 144
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Empagliflozin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -45,7 +45,7 @@ Empagliflozin is a well-known SGLT2 (sodium-glucose cotransporter-2) inhibitor w
 | Predicted New Indication | Classic Stiff Person Syndrome |
 | TxGNN Prediction Score | 99.06% |
 | Evidence Level | L5 (model prediction only, no supporting studies) |
-| Taiwan Market Status | ✗ 未上市 (Not Marketed) |
+| Taiwan Market Status | ✗ Not marketed (Not Marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -75,7 +75,7 @@ Currently no related literature available.
 
 ## Taiwan Market Information
 
-No Taiwan market authorization records are currently available for Empagliflozin in this evidence pack (`total_licenses = 0`, market status: 未上市 / Not Marketed).
+No Taiwan market authorization records are currently available for Empagliflozin in this evidence pack (`total_licenses = 0`, market status: Not marketed / Not Marketed).
 
 ---
 
@@ -111,10 +111,10 @@ The prediction rests solely on a TxGNN model score (Evidence Level L5) with zero
 - Establish original indication and Taiwan/international licensing status to support the "original vs. predicted indication" comparison
 - Conduct a targeted literature/preclinical search for any SGLT2i–GABAergic or SGLT2i–autoimmune neurological mechanism, given none currently exists
 - Given the clustering pattern across ranks 1–2, consider re-examining whether the underlying knowledge graph node structure is driving a shared false-positive signal across the stiff-person-syndrome spectrum before committing further evaluation resources
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

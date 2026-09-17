@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Risankizumab
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 346
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Risankizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -96,10 +96,10 @@ The Evidence Pack for RISANKIZUMAB (DB14762) is structurally incomplete — both
 - [ ] **Resolve DG001 (High):** Query DrugBank API for `DB14762` to retrieve the mechanism of action (p19/IL-23 subunit inhibition) and pharmacological categories
 - [ ] **Confirm pipeline inputs:** The `meta.inputs_received` field lists only `"drugbank"` — verify whether TFDA, clinical trial (ClinicalTrials.gov), and literature (PubMed) sources were queried and returned empty, or were never invoked
 - [ ] **Re-submit Evidence Pack** once the above items are resolved; this report should be regenerated at v5 or later
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

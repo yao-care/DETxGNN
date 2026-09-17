@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Pretomanid
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 319
 evidence_level: L5
 indication_count: 5
@@ -10,12 +10,12 @@ indication_count: 5
 # Pretomanid
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -102,10 +102,10 @@ The top-ranked prediction (candidiasis) has zero supporting clinical trials or l
 - If candidiasis is to be pursued further, generate or locate preclinical in vitro antifungal susceptibility data for pretomanid against *Candida* spp.
 - Given the leprosy resistance finding, deprioritize further leprosy investigation unless new experimental evidence emerges
 - No further action recommended on cardiovascular-related predictions (ranks 3–5) absent a plausible mechanistic hypothesis
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

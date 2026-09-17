@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Vilanterol
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 426
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Vilanterol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -47,7 +47,7 @@ indication_count: 10
 | Predicted New Indication | Obstructive Lung Disease (COPD / Asthma) |
 | TxGNN Prediction Score | 99.97% |
 | Evidence Level | L1 (≥2 completed Phase 3 RCTs) |
-| Taiwan Market Status | 未上市 (Not marketed) |
+| Taiwan Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -123,10 +123,10 @@ The link between Vilanterol and obstructive lung disease is supported by L1-leve
 - Reclassify this candidate internally as **data confirmation**, not new indication discovery, to avoid misrepresenting an already-approved global indication as a repurposing finding
 
 **Note on other predicted indications (ranks 2–10):** the remaining candidates in this evidence pack (hyperlucent lung, interstitial emphysema, compensatory emphysema, tracheal stenosis, tracheal calcification, laryngotracheitis, congenital lobar emphysema, bronchial neoplasm, respiratory malformation) are either pure TxGNN model scores with no supporting clinical trial or literature evidence (L5, Hold), or show evidence/topic mismatches where the underlying trials and papers are generic COPD/asthma studies unrelated to the specific predicted disease (likely ontology label mismatch). None of these are ready for further evaluation without additional targeted evidence.
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

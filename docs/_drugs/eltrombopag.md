@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Eltrombopag
-parent: 僅模型預測 (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 141
-evidence_level: L5
+evidence_level: L4
 indication_count: 1
 ---
 
 # Eltrombopag
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -119,10 +119,10 @@ The HIV infectious disease prediction is currently supported only by indirect, c
 - Cell-infection-model (not just in-vitro screen) validation of the HIV-1 proviral transcription modulation reported in PMID 32977702
 - A clearly scoped clinical study (or at minimum a retrospective cohort) evaluating antiviral/virologic outcomes in HIV patients, distinct from existing thrombocytopenia-support evidence
 - Regulatory pathway and market authorization assessment before any local development decision
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

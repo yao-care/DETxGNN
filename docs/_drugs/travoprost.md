@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Travoprost
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 413
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Travoprost
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -45,7 +45,7 @@ Travoprost 是一種前列腺素 F2α（PGF2α）類似物，臨床上用於降�
 | 預測新適應症 | Visceral Calciphylaxis（內臟鈣化防禦症） |
 | TxGNN 預測分數 | 99.9998% |
 | 證據等級 | L5（僅模型預測，無實際研究） |
-| 德國市場狀態 | 未上市 |
+| 德國市場狀態 | Not marketed |
 | 授權數量 | 0 |
 | 建議決策 | Hold |
 
@@ -75,7 +75,7 @@ Travoprost 是一種前列腺素 F2α（PGF2α）類似物，臨床上用於降�
 
 ## 德國市場資訊
 
-Travoprost 目前於德國**未上市**，無查驗登記或授權紀錄可供列示。
+Travoprost 目前於德國**Not marketed**，無查驗登記或授權紀錄可供列示。
 
 ---
 
@@ -92,17 +92,17 @@ Travoprost 目前於德國**未上市**，無查驗登記或授權紀錄可供�
 **決策：Hold**
 
 **理由：**
-本預測（Visceral Calciphylaxis）評為 L5，僅有 TxGNN 模型分數，無任何臨床試驗或文獻證據，且證據包自身的機轉分析已明確排除藥理學關聯。同時該藥於目標市場（德國）未上市，安全性資料（警語、禁忌、DDI）全數缺失，不具備進入下一階段評估的基礎。
+本預測（Visceral Calciphylaxis）評為 L5，僅有 TxGNN 模型分數，無任何臨床試驗或文獻證據，且證據包自身的機轉分析已明確排除藥理學關聯。同時該藥於目標市場（德國）Not marketed，安全性資料（警語、禁忌、DDI）全數缺失，不具備進入下一階段評估的基礎。
 
 **若要推進，需要補齊：**
 - TFDA／原廠仿單之警語與禁忌資料（DG001，Blocking）
 - DrugBank 或原廠資料確認正式 MOA（DG002，High）
 - 針對「FP 受體促效作用是否影響鈣磷代謝或血管鈣化」進行機轉層級的文獻／體外研究搜尋，以確認或排除此預測的生物學合理性
 - 若未來欲評估「vascular disease」方向，需重新以正確關鍵字檢索並排除誤標的青光眼試驗，取得真正相關的血管疾病證據
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

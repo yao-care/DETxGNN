@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Acetylsalicylic Acid
-parent: 僅模型預測 (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 17
-evidence_level: L5
+evidence_level: L3
 indication_count: 9
 ---
 
 # Acetylsalicylic Acid
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **9** 個
+Evidenzniveau: **L3** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 9
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -95,10 +95,10 @@ Evidence specific to migraine with brainstem aura is limited to observational/re
 - A prospective study or trial specifically enrolling migraine-with-brainstem-aura patients (current data is drawn from broader "migraine with aura" populations)
 - Clear diagnostic criteria/protocol to exclude stroke, arterial dissection, and other secondary causes before considering aspirin use in this subtype
 - Confirmation of aspirin's approved dosage forms and route compatibility for this indication (currently unassessed — "pending" in route_compatibility)
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

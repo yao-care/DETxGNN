@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Perampanel
-parent: 僅模型預測 (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 303
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Perampanel
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -92,7 +92,7 @@ None of the above directly evaluates visual/photosensitive reflex epilepsy as a 
 
 ## Germany Market Information
 
-Perampanel is currently **not marketed** in Germany (market status: 未上市). No marketing authorizations are on record in this evidence pack (total licenses: 0).
+Perampanel is currently **not marketed** in Germany (market status: Not marketed). No marketing authorizations are on record in this evidence pack (total licenses: 0).
 
 ---
 
@@ -114,10 +114,10 @@ Perampanel's AMPA-receptor antagonist mechanism is mechanistically plausible for
 - Official TFDA/BfArM label data — warnings, contraindications, DDI (blocking gap DG001)
 - Confirmed mechanism of action documentation from DrugBank (DG002)
 - Clarification of regulatory/market pathway before any development decision, given current unmarketed status in Germany
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

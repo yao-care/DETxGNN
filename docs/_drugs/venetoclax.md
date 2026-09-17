@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Venetoclax
-parent: 僅模型預測 (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 423
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Venetoclax
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -116,10 +116,10 @@ The mechanistic link (BCL-2 dependence in a poor-prognosis, unmutated-IGHV CLL s
 - Identify or commission studies specifically evaluating venetoclax efficacy stratified by IGHV mutation status (pregerminal vs. post-germinal center CLL/SLL)
 - Confirm venetoclax's actual German market/authorization status, since this evidence pack shows zero licenses
 - Note: within this same evidence pack, other TxGNN-predicted indications for venetoclax (e.g., myeloid leukemia/AML — L1 evidence, "Proceed with Guardrails"; CML — L2; follicular lymphoma — L2) carry substantially stronger clinical evidence and may warrant separate, higher-priority evaluation
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

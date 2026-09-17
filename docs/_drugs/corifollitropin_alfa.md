@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Corifollitropin Alfa
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 107
 evidence_level: L5
 indication_count: 8
@@ -10,12 +10,12 @@ indication_count: 8
 # Corifollitropin Alfa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **8** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 8
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -116,10 +116,10 @@ All predicted indications for corifollitropin alfa are supported only by TxGNN m
 - Resolve DG002 (High): obtain confirmed mechanism of action from DrugBank or primary literature
 - Conduct a targeted literature search specifically linking FSH receptor signaling to gastroduodenitis (or any top-ranked candidate) before advancing beyond S0
 - If no mechanistic or empirical support emerges, close out this candidate as knowledge-graph noise rather than a genuine repurposing signal
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

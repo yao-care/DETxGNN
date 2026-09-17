@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Clopidogrel
-parent: 僅模型預測 (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 105
-evidence_level: L5
+evidence_level: L3
 indication_count: 8
 ---
 
 # Clopidogrel
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+Evidenzniveau: **L3** | Vorhergesagte Indikationen: **8** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 8
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -130,10 +130,10 @@ Evidence directly supporting clopidogrel for the specific ICHD subtype "migraine
 - Obtain formal MOA documentation from DrugBank (DG002) to firm up the mechanistic rationale
 - Determine whether existing or planned trials (e.g., NCT05546320, NCT04946734/SPRING) report subgroup data specific to migraine-with-aura or brainstem-aura phenotypes
 - If pursuing this indication, prioritize the better-evidenced "Migraine Disorder" pathway (S2, Proceed with Guardrails) and treat the brainstem-aura subtype as a subgroup hypothesis requiring dedicated study design
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

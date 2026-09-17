@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Temoporfin
-parent: 僅模型預測 (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 384
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Temoporfin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -90,7 +90,7 @@ Currently no related clinical trials registered.
 
 ## Germany Market Information
 
-No marketing authorizations are currently listed in the available regulatory dataset (`total_licenses: 0`, `market_status: 未上市/Not Marketed`). This may reflect withdrawal, non-renewal, or absence of a local filing rather than a fundamental efficacy/safety failure — original centralized EU approval history should be verified separately before drawing conclusions.
+No marketing authorizations are currently listed in the available regulatory dataset (`total_licenses: 0`, `market_status: Not marketed/Not Marketed`). This may reflect withdrawal, non-renewal, or absence of a local filing rather than a fundamental efficacy/safety failure — original centralized EU approval history should be verified separately before drawing conclusions.
 
 ---
 
@@ -131,10 +131,10 @@ Tongue/tongue-base squamous neoplasm has the strongest and most consistent evide
 - Clarify the indication-naming mismatch: reframe "benign neoplasm of tongue" as "head & neck squamous epithelial neoplasm (tongue/tongue base)" to match the actual evidence base before advancing to protocol design
 - Verify current German/EU marketing/authorization status (why `total_licenses = 0`) — determine if this reflects withdrawal, lapsed registration, or a data collection gap
 - Given photosensitizer-class risk, prioritize confirmation of light-avoidance protocol and airway-monitoring requirements before any clinical guardrail design
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

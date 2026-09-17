@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Duloxetine
-parent: 僅模型預測 (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 130
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Duloxetine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -45,7 +45,7 @@ Duloxetine (DB00476) is a serotonin-norepinephrine reuptake inhibitor (SNRI) who
 | Predicted New Indication | Obsessive-Compulsive Disorder (OCD) |
 | TxGNN Prediction Score | 99.84% |
 | Evidence Level | L2 |
-| Germany Market Status | 未上市 (Not Marketed) |
+| Germany Market Status | Not marketed (Not Marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -92,7 +92,7 @@ It is worth noting that this is the strongest-evidence candidate among the 10 Tx
 
 ## Germany Market Information
 
-Currently not marketed in Germany per this evidence pack (`taiwan_regulatory.market_status`: 未上市, `total_licenses`: 0). No authorization records are available.
+Currently not marketed in Germany per this evidence pack (`taiwan_regulatory.market_status`: Not marketed, `total_licenses`: 0). No authorization records are available.
 
 ---
 
@@ -122,10 +122,10 @@ OCD is the only predicted indication with substantive supporting evidence — a 
 For transparency, the remaining 8 of 10 TxGNN-predicted indications in this evidence pack had no supporting clinical trials or literature and were scored L5/Hold, with the rationale text explicitly flagging several as likely **graph prediction noise** (no known mechanistic link to SNRI pharmacology): benign paroxysmal torticollis of infancy (rank 1, top TxGNN score but zero evidence), schizotypal/paranoid/schizoid/histrionic personality disorders, Ohdo syndrome and variants, ligneous conjunctivitis, and blepharophimosis-intellectual disability syndrome (Ohdo type).
 
 **Agoraphobia** (rank 2, L3, decision stage S1, recommendation "Research Question") showed early-stage support — one open-label study and one biomarker RCT context, though the disease-definition overlap between panic disorder and agoraphobia narrowly-defined needs clarification before further investment.
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

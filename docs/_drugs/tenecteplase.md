@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Tenecteplase
-parent: 僅模型預測 (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 387
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Tenecteplase
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -109,10 +109,10 @@ Coronary stenosis (adjunctive low-dose intracoronary tenecteplase during primary
 - Dose-response and bleeding-risk safety data specific to low-dose intracoronary administration
 - Drug-drug interaction data (currently not found)
 - Formal exclusion of ranks 1–3 (STEMI ECG subtypes — mechanistically non-novel, no direct evidence) and ranks 6–10 (no mechanistic plausibility, likely embedding noise) from further repurposing consideration
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

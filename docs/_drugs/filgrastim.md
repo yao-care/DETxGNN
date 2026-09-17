@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Filgrastim
-parent: 僅模型預測 (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 169
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Filgrastim
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -110,10 +110,10 @@ The mechanistic link between filgrastim and primary release disorder of platelet
 - Detailed mechanism of action data confirming/refuting a direct effect of G-CSF on megakaryocyte granule release (DG002)
 - Completion of relevance grading for the remaining "pending" clinical trials
 - Dedicated preclinical or clinical evidence directly linking filgrastim to platelet release disorder treatment, rather than inferred via general HSCT mobilization use
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

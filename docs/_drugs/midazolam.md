@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Midazolam
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 256
 evidence_level: L5
 indication_count: 1
@@ -10,12 +10,12 @@ indication_count: 1
 # Midazolam
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -45,7 +45,7 @@ Midazolam is a short-acting benzodiazepine; the original approved indication is 
 | Predicted New Indication | Insomnia (disease) |
 | TxGNN Prediction Score | 99.74% |
 | Evidence Level | L2 (multiple historical double-blind RCTs directly testing midazolam in insomnia; no modern Phase 2/3-registered trials for this indication specifically) |
-| Germany Market Status | 未上市 (Not marketed) |
+| Germany Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -98,7 +98,7 @@ Most trials in the raw evidence set use midazolam only as a sedation comparator 
 
 ## Germany Market Information
 
-Midazolam currently holds **no active marketing authorization** on file in this dataset (`market_status`: 未上市 / Not marketed; `total_licenses`: 0). No product/license records are available to summarize.
+Midazolam currently holds **no active marketing authorization** on file in this dataset (`market_status`: Not marketed / Not marketed; `total_licenses`: 0). No product/license records are available to summarize.
 
 ---
 
@@ -124,10 +124,10 @@ Please refer to the package insert for safety information.
 - Confirm DrugBank-sourced MOA and drug categories directly (DG002, High)
 - Clarify the drug's original/currently approved indication(s), if any, in the target market
 - If pursuing further, identify or commission clinical trials that test midazolam as a primary intervention for diagnosed insomnia (current trial evidence is indirect/comparator-based)
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

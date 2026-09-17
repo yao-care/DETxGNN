@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Capecitabine
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 86
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Capecitabine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -107,10 +107,10 @@ The Evidence Pack is structurally incomplete — no TxGNN predicted indications,
 - **Resolve DG001 (Blocking severity):** Download and parse the TFDA package insert PDF to populate key warnings and contraindications for the S1 safety screen
 - **Verify TFDA query result:** The query returned 0 authorizations for Capecitabine — confirm whether this reflects a genuine absence of TFDA approval or a data pipeline issue (e.g., brand name alias not searched)
 - **Re-check DDI source:** The DDI query returned `not_found`; confirm whether this is a database gap or a query parameter error
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

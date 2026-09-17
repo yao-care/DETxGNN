@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Acalabrutinib
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 16
 evidence_level: L5
 indication_count: 0
@@ -10,12 +10,12 @@ indication_count: 0
 # Acalabrutinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **0** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 0
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -45,7 +45,7 @@ Acalabrutinib (Calquence®) is a second-generation selective Bruton's tyrosine k
 | Predicted New Indication | — (No TxGNN predictions available) |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5 — Model prediction not available |
-| Taiwan Market Status | ✗ Not marketed (未上市) |
+| Taiwan Market Status | ✗ Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | **Hold** |
 
@@ -79,7 +79,7 @@ No TxGNN-predicted indications are available; therefore, no indication-specific 
 
 ## Taiwan Market Information
 
-Acalabrutinib currently holds **no TFDA authorizations** and is **not marketed in Taiwan (未上市)**.
+Acalabrutinib currently holds **no TFDA authorizations** and is **not marketed in Taiwan (Not marketed)**.
 
 > No Taiwan authorization records available.
 
@@ -124,10 +124,10 @@ No TxGNN-predicted indications have been generated for acalabrutinib. Additional
 3. **TFDA labelling (DG001 — Blocking)** — If acalabrutinib obtains TFDA authorization in the future, download and parse the package insert for local safety data
 4. **International label reference** — In the interim, integrate FDA/EMA prescribing information as a proxy for safety assessment
 5. **Taiwan market access assessment** — Evaluate whether named-patient import or clinical trial access pathways exist for potential repurposing studies
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tolvaptan
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 405
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Tolvaptan
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -59,7 +59,7 @@ Currently, the structured `original_moa` field is a data gap (DG002). However, t
 
 Critically, this is **not an exploratory repurposing hypothesis**. The rationale explicitly states this is "an already-established, mechanistically well-defined approved indication" — tolvaptan (as Jinarc/Samsca) is already approved in multiple markets (Japan, US, EU) specifically for slowing ADPKD progression, based on the TEMPO 3:4 and REPRISE trials cited in this evidence pack. The TxGNN signal here should be read as **validation of known pharmacology**, not discovery of a new use.
 
-Because Germany shows "未上市" (unmarketed) with zero licenses, this evidence pack suggests the German market either lacks a current tolvaptan/ADPKD authorization on file, or the record simply wasn't captured — this needs regulatory verification (see Next Steps) rather than being treated as a true regulatory gap.
+Because Germany shows "Not marketed" (unmarketed) with zero licenses, this evidence pack suggests the German market either lacks a current tolvaptan/ADPKD authorization on file, or the record simply wasn't captured — this needs regulatory verification (see Next Steps) rather than being treated as a true regulatory gap.
 
 ---
 
@@ -88,7 +88,7 @@ Currently no related clinical trials registered in the structured `clinical_tria
 
 ## Germany Market Information
 
-No marketing authorization records are present in this evidence pack (`taiwan_regulatory.market_status` = 未上市, `total_licenses` = 0). This should be verified independently — tolvaptan (Jinarc®) holds an EU-wide centralized marketing authorization for ADPKD, so the absence here likely reflects a data-collection gap rather than true non-availability in Germany.
+No marketing authorization records are present in this evidence pack (`taiwan_regulatory.market_status` = Not marketed, `total_licenses` = 0). This should be verified independently — tolvaptan (Jinarc®) holds an EU-wide centralized marketing authorization for ADPKD, so the absence here likely reflects a data-collection gap rather than true non-availability in Germany.
 
 ---
 
@@ -125,12 +125,12 @@ The ADPKD signal is backed by L1-grade evidence (two completed Phase 3 RCTs — 
 **To proceed, the following is needed:**
 - Retrieve official TFDA/German (BfArM) label PDF for hepatotoxicity warnings, contraindications, and DDI data (resolves DG001)
 - Confirm structured MOA via DrugBank API query (resolves DG002)
-- Independently verify current EU/German marketing authorization status for tolvaptan/Jinarc, given the discrepancy between "未上市" here and known EU-wide ADPKD approval
+- Independently verify current EU/German marketing authorization status for tolvaptan/Jinarc, given the discrepancy between "Not marketed" here and known EU-wide ADPKD approval
 - Clarify with stakeholders that this candidate is a **confirmatory signal** for an existing approved use, not a genuinely novel repurposing opportunity — this affects how it should be positioned internally
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Asfotase Alfa
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 36
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Asfotase Alfa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -47,7 +47,7 @@ indication_count: 10
 | Predicted New Indication | Mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies |
 | TxGNN Prediction Score | 99.95% |
 | Evidence Level | L5（僅模型預測，無實際研究） |
-| Germany Market Status | 未上市 |
+| Germany Market Status | Not marketed |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -77,7 +77,7 @@ Currently no related literature available
 
 ## Germany Market Information
 
-目前無查獲之藥證授權紀錄（`total_licenses = 0`，市場狀態為「未上市」）。
+目前無查獲之藥證授權紀錄（`total_licenses = 0`，市場狀態為「Not marketed」）。
 
 ---
 
@@ -99,10 +99,10 @@ Please refer to the package insert for safety information.
 - 查證 DrugBank 之 asfotase alfa 完整作用機轉（MOA）（DG002，High）
 - 針對排名較合理之候選（如胱胺酸儲積症、MPS I 系列等骨骼表型相關疾病）進行文獻／試驗檢索，確認是否有超出知識圖譜關聯的實際證據
 - 若無法補齊機轉合理性或實證支持，建議維持 Hold，不進入 S1 以後階段
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Benralizumab
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 50
 evidence_level: L5
 indication_count: 5
@@ -10,12 +10,12 @@ indication_count: 5
 # Benralizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -91,10 +91,10 @@ This candidate sits at decision stage S0 with evidence level L5 — a model pred
 ---
 
 **Additional note (context, not part of the primary evidence chain):** Among the other TxGNN-predicted indications for benralizumab in this evidence pack, **dermatitis** (rank 2, score 99.16%) has substantially more evidence — 6 clinical trials and 20 publications, reaching evidence level L2/decision stage S1. However, the evidence is net-negative: the pivotal Phase 2 HILLIER trial (NCT04605094) was **terminated for insufficient efficacy**, and a companion publication (PMID 37178404, "Lack of effect of benralizumab on signs and symptoms of moderate-to-severe atopic dermatitis") confirms that eosinophil depletion in skin lesions (PMID 40781582) did not translate into clinical benefit. This indication is also scored **Hold**, but for a different reason — mechanism confirmed, efficacy disproven — rather than for lack of data. If evaluating benralizumab repurposing broadly, this dermatitis outcome is more informative than the ITP signal above and may warrant a separate report.
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

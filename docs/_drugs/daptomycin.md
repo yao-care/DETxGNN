@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Daptomycin
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 110
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Daptomycin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -126,10 +126,10 @@ The top-ranked prediction (osteoarthritis) is not supported by mechanistically r
 - Resolve High-severity data gap DG002 (confirmed mechanism of action) to support mechanistic rationale review
 - **Recommend opening a separate research track for Rheumatoid Arthritis** (rank 2): commission or review additional preclinical replication of the CIA mouse model findings (PMID 39571268, 40923559) before considering any clinical-stage investment
 - If pursuing RA further, obtain dose-response and toxicity data specific to the anti-inflammatory (non-antibacterial) mechanism, since this would represent off-label, immunomodulatory use distinct from daptomycin's approved antibacterial indications
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

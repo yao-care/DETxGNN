@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Regorafenib
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 332
 evidence_level: L5
 indication_count: 8
@@ -10,12 +10,12 @@ indication_count: 8
 # Regorafenib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **8** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 8
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -112,10 +112,10 @@ The Evidence Pack for REGORAFENIB is critically incomplete — there are no pred
 - [ ] **Parse package insert** — Download and extract warnings, contraindications, and approved indications from the regulatory authority PDF (resolves DG001).
 - [ ] **Re-run Evidence Pack generation** — After filling DG001 and DG002, regenerate the Evidence Pack (v5 or later) and resubmit for report generation.
 - [ ] **Confirm target indication** — Once TxGNN predictions are available, select the top-ranked indication and retrieve linked clinical trials and literature via the evidence pipeline.
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

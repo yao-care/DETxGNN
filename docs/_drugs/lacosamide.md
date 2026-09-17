@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Lacosamide
-parent: 僅模型預測 (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 219
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Lacosamide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -47,7 +47,7 @@ Lacosamide is a third-generation antiepileptic drug (AED), used clinically for p
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 99.87% |
 | Evidence Level | L1 |
-| Germany Market Status | ✗ Not marketed (未上市) |
+| Germany Market Status | ✗ Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -137,10 +137,10 @@ Migraine disorder is supported by a completed, published Phase 3 head-to-head RC
 - Outcome/results retrieval for NCT06243692 (status currently "Unknown" — lacosamide vs. topiramate)
 - A germany-specific regulatory pathway assessment, given the drug currently has zero local marketing authorizations
 - A safety monitoring plan reflecting known AED-class risks (e.g., mood/behavioral effects, cardiac conduction), pending full label confirmation
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

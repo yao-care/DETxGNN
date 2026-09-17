@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Palonosetron
-parent: 僅模型預測 (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 291
-evidence_level: L5
+evidence_level: L4
 indication_count: 5
 ---
 
 # Palonosetron
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **5** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -47,7 +47,7 @@ indication_count: 5
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 99.74% |
 | Evidence Level | L4 |
-| Germany Market Status | ✗ Not marketed (未上市) |
+| Germany Market Status | ✗ Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | **Hold** |
 
@@ -105,10 +105,10 @@ Please refer to the package insert for safety information. Key warnings, contrai
 - Re-evaluation if new supportive clinical trial or literature evidence emerges
 
 **Note on other predicted indications:** The remaining four candidates for this drug (migraine with brainstem aura, migraine susceptibility, atrophoderma vermiculata, ulerythema ophryogenesis) are all rated L5 with no supporting clinical or literature evidence — the "migraine susceptibility" literature set consists of genetic/epilepsy studies unrelated to drug mechanism, and the two dermatologic predictions have no evidence at all. All are recommended **Hold** and are considered likely false positives from embedding-similarity scoring alone.
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

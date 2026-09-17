@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Posaconazole
-parent: 僅模型預測 (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 313
-evidence_level: L5
+evidence_level: L4
 indication_count: 1
 ---
 
 # Posaconazole
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -78,7 +78,7 @@ No RCT or dedicated clinical study directly evaluates posaconazole for pneumocys
 
 ## Germany Market Information
 
-Posaconazole currently has **no market authorization on record** in this evidence pack (`market_status`: 未上市 / Not Marketed; `total_licenses`: 0; `licenses`: none provided). No authorization table can be generated.
+Posaconazole currently has **no market authorization on record** in this evidence pack (`market_status`: Not marketed / Not Marketed; `total_licenses`: 0; `licenses`: none provided). No authorization table can be generated.
 
 ## Safety Considerations
 
@@ -96,10 +96,10 @@ The mechanistic link between posaconazole and pneumocystosis is biologically wea
 - Resolve DG002 (High): confirm formal mechanism-of-action data via DrugBank API to properly assess mechanistic plausibility
 - Identify or commission a study directly testing posaconazole in pneumocystosis (efficacy and safety), given no such trial currently exists
 - Clarify pharmacological rationale given *Pneumocystis jirovecii*'s atypical (cholesterol-based) membrane biology relative to posaconazole's ergosterol-targeting mechanism
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

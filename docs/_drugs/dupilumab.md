@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Dupilumab
-parent: 僅模型預測 (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 131
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Dupilumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -114,10 +114,10 @@ Evidence directly supporting dupilumab for bronchitis is currently limited to a 
 ---
 
 **Note:** Among the 10 candidate indications in this evidence pack, **dermatitis (atopic dermatitis)** — ranked #2 by TxGNN — shows substantially stronger evidence (Evidence Level L1, multiple completed Phase 3 RCTs, recommendation "Proceed with Guardrails") and is a globally recognized approved indication for dupilumab. If the goal is to prioritize the strongest repurposing/registration opportunity for this drug candidate, a separate evaluation report on the dermatitis indication is recommended.
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

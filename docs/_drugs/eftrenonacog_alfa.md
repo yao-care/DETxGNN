@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Eftrenonacog Alfa
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 138
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Eftrenonacog Alfa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -45,7 +45,7 @@ TxGNN 模型預測其可能對 **Pseudo-von Willebrand Disease** 有效，
 | 預測新適應症 | Pseudo-von Willebrand Disease |
 | TxGNN 預測分數 | 99.48%（排名第 6035） |
 | 證據等級 | L5（僅模型預測，無實際研究） |
-| 台灣上市狀態 | 未上市 |
+| 台灣上市狀態 | Not marketed |
 | 藥證數量 | 0 |
 | 建議決策 | Hold |
 
@@ -81,7 +81,7 @@ Eftrenonacog alfa 尚未於台灣取得藥證，無授權資訊可供揭露。
 
 請參考藥品仿單以取得完整安全性資訊。
 
-> 註：TFDA 仿單警語/禁忌資料目前為關鍵缺口（Blocking），在補齊前無法進行 S1 安全性初評。
+> 註：BfArM package insert warnings/contraindications資料目前為關鍵缺口（Blocking），在補齊前無法進行 S1 安全性初評。
 
 ## 結論與下一步
 
@@ -97,10 +97,10 @@ Eftrenonacog alfa 尚未於台灣取得藥證，無授權資訊可供揭露。
 - DrugBank 完整作用機轉（MOA）資料，以確認是否存在未被目前分析捕捉的間接機轉路徑
 - 至少一項體外或動物模型研究，驗證 Factor IX 補充是否對血小板-vWF 交互作用有任何影響
 - 待上述缺口補齊後，重新評估是否晉升至更高決策階段（S1 以上）
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

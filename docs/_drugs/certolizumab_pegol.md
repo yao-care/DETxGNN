@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Certolizumab Pegol
-parent: 僅模型預測 (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 97
-evidence_level: L5
+evidence_level: L4
 indication_count: 6
 ---
 
 # Certolizumab Pegol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -118,10 +118,10 @@ The evidence base is sparse (L4, no dedicated clinical trials) and internally co
 - A formally sourced mechanism-of-action record (currently a High-severity data gap)
 - A systematic review (not case-report-level) specifically distinguishing certolizumab-induced vasculitis from therapeutic use in RA-associated vasculitis, to resolve the directional conflict in current evidence
 - If pursued further, a defined pharmacovigilance/monitoring plan given the documented paradoxical vasculitis signal
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

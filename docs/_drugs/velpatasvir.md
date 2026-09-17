@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Velpatasvir
-parent: 僅模型預測 (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 422
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Velpatasvir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -45,7 +45,7 @@ indication_count: 10
 | Predicted New Indication | Hepatitis B Virus Infection |
 | TxGNN Prediction Score | 99.87% |
 | Evidence Level | L4 |
-| Taiwan Market Status | 未上市 (Not marketed) |
+| Taiwan Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -101,7 +101,7 @@ Notably, the one piece of literature that directly connects velpatasvir to HBV (
 
 ## Taiwan Market Information
 
-Velpatasvir currently holds **no marketing authorization in Taiwan** (未上市, 0 licenses on record). No product listing or approved indication text is available for review.
+Velpatasvir currently holds **no marketing authorization in Taiwan** (Not marketed, 0 licenses on record). No product listing or approved indication text is available for review.
 
 ---
 
@@ -126,10 +126,10 @@ Despite a high TxGNN prediction score, there is no mechanistic or empirical basi
 - If pursued at all, reframe the research question toward **HBV reactivation risk management** in HCV/HBV co-infected patients rather than HBV treatment efficacy
 
 *Note: Lower-ranked candidates in this evidence pack (hepatitis E, hepatitis A, HIV, and various zoonotic/rare-disease predictions) show even weaker or no supporting evidence and are not analyzed further in this report; all carry "Hold" recommendations.*
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

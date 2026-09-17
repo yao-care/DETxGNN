@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Alirocumab
-parent: 僅模型預測 (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 23
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Alirocumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -117,10 +117,10 @@ The predicted indication "Cholesterol Catabolic Process Disease" is mechanistica
 - Clarify the precise clinical/ICD mapping of "cholesterol catabolic process disease" against recognized diagnostic categories (e.g. FH, ASCVD dyslipidemia) to define an actionable indication scope
 - Assess whether the ODYSSEY OUTCOMES trial data (referenced only via literature in this pack) can be formally incorporated as a second completed Phase 3 trial in the evidence registry
 - Evaluate German/EU market entry pathway given current "not marketed" status
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

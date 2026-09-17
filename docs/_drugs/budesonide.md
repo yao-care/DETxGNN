@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Budesonide
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 71
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Budesonide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -88,10 +88,10 @@ No TxGNN repurposing predictions are present in this Evidence Pack. Even if pred
 - **Re-run extraction pipeline** on the already-retrieved DrugBank record and TFDA package insert PDF to populate MOA and safety fields — the source documents are confirmed available
 - **Load TxGNN prediction results** for Budesonide into the Evidence Pack (`predicted_indications` must be populated before any evaluation work begins)
 - **Re-verify Taiwan market status**: TFDA licensing query returned 0 results, but Budesonide has internationally marketed branded products (e.g., Rhinocort®, Pulmicort®, Entocort®); a re-query using alternative trade names or ATC code R03BA02 / A07EA06 may surface existing authorizations
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

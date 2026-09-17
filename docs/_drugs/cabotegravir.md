@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Cabotegravir
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 79
 evidence_level: L5
 indication_count: 5
@@ -10,12 +10,12 @@ indication_count: 5
 # Cabotegravir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -96,10 +96,10 @@ The Evidence Pack lacks the minimum required data to support any repurposing rec
 3. **Download and parse TFDA package insert PDF** — extract key warnings and contraindications to enable S1 safety screening
 4. **Re-query DDI database** — current result is `not_found`; verify whether this is due to drug name formatting (try "cabotegravir", "CAB", "GSK1265744") or a genuine absence of interaction data
 5. **Clarify scope** — if TxGNN returns no predictions after re-run, determine whether this candidate should be retired from the repurposing pipeline or flagged for manual literature review
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

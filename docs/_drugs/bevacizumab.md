@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Bevacizumab
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 51
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Bevacizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -47,7 +47,7 @@ This report documents the current data state and outlines the information requir
 | Predicted New Indication | None — TxGNN prediction output is absent |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5 (model prediction not yet completed) |
-| Market Status | Not marketed (未上市) |
+| Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | **Hold** — critical data gaps must be resolved first |
 
@@ -79,7 +79,7 @@ Currently no related literature is available for a TxGNN-predicted repurposing i
 
 | Item | Status |
 |------|--------|
-| Market Status | Not marketed (未上市) |
+| Market Status | Not marketed (Not marketed) |
 | Total Authorizations | 0 |
 | Licenses on Record | None |
 
@@ -125,10 +125,10 @@ The Evidence Pack for Bevacizumab (DB00112) is critically incomplete: the TxGNN 
 - **Re-run TxGNN pipeline** — confirm that Bevacizumab is included in the prediction run and that `predicted_indications` output is correctly written to the Evidence Pack
 - **Verify market scope** — confirm whether the target regulatory jurisdiction for this candidate is Taiwan (TFDA) or Germany (BfArM), as the Evidence Pack field names and the Chinese-language status text are currently inconsistent
 - **DDI retrieval** — retry DDI database query once the drug profile is more completely populated
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

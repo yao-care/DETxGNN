@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Etravirine
-parent: 僅模型預測 (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 159
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Etravirine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -133,10 +133,10 @@ The most credible predicted indication — congenital/perinatal HIV infection �
 - Confirmation of etravirine's original approved indication(s), which are currently unpopulated in this record
 - If pursuing the perinatal-transmission indication: a dedicated efficacy/safety study of etravirine specifically for prevention of vertical HIV transmission, since existing trials (PK studies, regimen-switch trials) do not directly test this endpoint
 - Clarification of German/EU market access pathway, given the drug is currently unmarketed
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

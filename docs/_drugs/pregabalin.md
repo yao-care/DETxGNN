@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Pregabalin
-parent: 僅模型預測 (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 318
-evidence_level: L5
+evidence_level: L4
 indication_count: 6
 ---
 
 # Pregabalin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -89,10 +89,10 @@ The mechanistic link between pregabalin's calcium-channel modulation and tendini
 - A tendinitis-specific preclinical or pilot clinical study to establish direct biological plausibility before any trial design
 
 **Additional note:** Among the six candidates in this evidence pack, **migraine disorder** (rank 5, TxGNN score 99.47%) has meaningfully stronger support — an L2 evidence level with multiple pediatric RCTs, a Cochrane systematic review, and preclinical imaging data showing pregabalin inhibits cortical spreading depression (the core pathology of migraine aura). A withdrawn Phase 3 adult trial (NCT00447369) indicates prior development interest but no completed confirmatory data. This candidate may warrant prioritization as a "Research Question" track ahead of tendinitis.
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

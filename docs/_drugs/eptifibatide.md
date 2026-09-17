@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Eptifibatide
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 151
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Eptifibatide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -50,7 +50,7 @@ The TxGNN model predicts it may also be effective for **hemoglobinopathy (sickle
 | Predicted New Indication | Hemoglobinopathy (sickle cell disease spectrum) |
 | TxGNN Prediction Score | 99.98% (rank 485 in model output) |
 | Evidence Level | **L2** (per pipeline scoring — see caveat below) |
-| Germany Market Status | ✗ Not Marketed (未上市) |
+| Germany Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | **Hold** |
 
@@ -89,7 +89,7 @@ Because this exact hypothesis has already been tested in humans (Phase 1 pharmac
 
 ## Germany Market Information
 
-Eptifibatide currently has **no marketing authorization on file** for this market (未上市 / Not Marketed, 0 licenses recorded). No product/dosage-form/indication data is available to tabulate.
+Eptifibatide currently has **no marketing authorization on file** for this market (Not marketed / Not Marketed, 0 licenses recorded). No product/dosage-form/indication data is available to tabulate.
 
 ---
 
@@ -132,10 +132,10 @@ Hemoglobinopathy/sickle cell disease is the only prediction in this pack support
 - Resolve DG002: obtain detailed mechanism of action data from DrugBank to strengthen the mechanistic-link analysis
 - Determine why NCT00834899 was terminated (recruitment, safety signal, or sponsor decision) before considering any renewed trial
 - If pursuing further research, prioritize hemoglobinopathy/sickle cell disease over the other 9 predictions, given it is the only one with real prior human data
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Phenylephrine
-parent: 僅模型預測 (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 305
-evidence_level: L5
+evidence_level: L2
 indication_count: 3
 ---
 
 # Phenylephrine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Evidenzniveau: **L2** | Vorhergesagte Indikationen: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -49,7 +49,7 @@ Phenylephrine is a topical α1-adrenergic agonist whose original indication reco
 | Predicted New Indication | Nasal Cavity Disease |
 | TxGNN Prediction Score | 99.97% |
 | Evidence Level | L2 |
-| Germany Market Status | ✗ Not marketed (未上市) |
+| Germany Market Status | ✗ Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -97,7 +97,7 @@ The supporting evidence is a mix of direct (Grade A: co-phenylcaine nasal spray 
 
 ## Germany Market Information
 
-No marketing authorization records are available in this evidence pack — `market_status` is **未上市 (Not marketed)** with **0 licenses** on file for this drug entity.
+No marketing authorization records are available in this evidence pack — `market_status` is **Not marketed (Not marketed)** with **0 licenses** on file for this drug entity.
 
 ---
 
@@ -119,10 +119,10 @@ Evidence level L2 is supported by one directly relevant Grade A trial/RCT (co-ph
 - Confirmed mechanism-of-action documentation from DrugBank (DG002, **High**)
 - Clarification of true original indication/license status, given the drug shows 0 current market authorizations
 - Verification of the actual study drug in NCT00562120, as public materials do not confirm phenylephrine was the intervention
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Arsenic Trioxide
-parent: 僅模型預測 (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 35
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Arsenic Trioxide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -48,7 +48,7 @@ indication_count: 10
 | Predicted New Indication | Myelodysplastic Syndrome (MDS) |
 | TxGNN Prediction Score | 99.91% |
 | Evidence Level | L2 |
-| Germany Market Status | ✗ Not marketed (未上市) |
+| Germany Market Status | ✗ Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -158,10 +158,10 @@ Among the 10 predicted indications, MDS is the only one supported by L2-level ev
 - Since the drug is unmarketed in Germany, confirm formulation/route availability before any regional development plan
 - For aplastic anemia and Ewing sarcoma (Research Question stage), commission targeted preclinical/clinical validation before advancing further
 - No near-term action recommended for the remaining 7 low-evidence (L4–L5) candidates
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

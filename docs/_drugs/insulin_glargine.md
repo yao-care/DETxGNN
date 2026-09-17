@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Insulin Glargine
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 206
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Insulin Glargine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -90,10 +90,10 @@ Please refer to the package insert for safety information.
 - TFDA/regulatory label warnings and contraindications (DG001, Blocking severity — currently a data gap)
 - A targeted literature/trial search specifically on insulin glargine and autoimmune oophoritis (or APS-related ovarian autoimmunity) to test the comorbidity-vs-causation hypothesis
 - Clarification of insulin glargine's original indication text and any regulatory licensing status, which are both currently empty in this evidence pack
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

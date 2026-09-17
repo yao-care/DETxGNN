@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Insulin Aspart
-parent: 僅模型預測 (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 203
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Insulin Aspart
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -97,7 +97,7 @@ Because this candidate largely reconfirms an already well-established clinical u
 
 ## Germany Market Information
 
-Insulin aspart currently has **no marketing authorization on record** in this jurisdiction (`market_status: 未上市`, `total_licenses: 0`). No license entries are available to summarize.
+Insulin aspart currently has **no marketing authorization on record** in this jurisdiction (`market_status: Not marketed`, `total_licenses: 0`). No license entries are available to summarize.
 
 ---
 
@@ -119,12 +119,12 @@ Efficacy evidence is strong and mature (L1, multiple completed Phase 3 RCTs plus
 **To proceed, the following is needed:**
 - Retrieve and parse official package insert (warnings, contraindications) to close DG001 (Blocking)
 - Obtain DrugBank/mechanism-of-action detail to close DG002 (High) and support formal mechanistic rationale
-- Confirm actual local regulatory/licensing status, given `market_status: 未上市` conflicts with insulin aspart's approval status in most other markets
+- Confirm actual local regulatory/licensing status, given `market_status: Not marketed` conflicts with insulin aspart's approval status in most other markets
 - Clarify with stakeholders whether this candidate should be tracked as "confirmatory validation" rather than a new repurposing opportunity, given original and predicted indications largely overlap
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Obinutuzumab
-parent: 僅模型預測 (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 275
-evidence_level: L5
+evidence_level: L1
 indication_count: 3
 ---
 
 # Obinutuzumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Evidenzniveau: **L1** | Vorhergesagte Indikationen: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -105,7 +105,7 @@ Critically, this is not a purely computational prediction — it is corroborated
 
 ## Germany Market Information
 
-No authorization records are available — `taiwan_regulatory.market_status` is "未上市" (Not Marketed) with 0 total licenses on file. Obinutuzumab currently has no registered product entry in this jurisdiction's regulatory database.
+No authorization records are available — `taiwan_regulatory.market_status` is "Not marketed" (Not Marketed) with 0 total licenses on file. Obinutuzumab currently has no registered product entry in this jurisdiction's regulatory database.
 
 ---
 
@@ -141,10 +141,10 @@ The predicted association between Obinutuzumab and follicular lymphoma is suppor
 - Obtain and parse the TFDA/local package insert for warnings, contraindications, and DDI data (currently marked as a blocking data gap, DG001)
 - Verify local market registration pathway status, since 0 authorizations are currently on file
 - Re-query the data source for the two CLL/SLL predictions (ranks 1–2) to resolve the apparent evidence-collection gap flagged above before any decision is made on those indications
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

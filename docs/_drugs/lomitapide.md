@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Lomitapide
-parent: 僅模型預測 (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 235
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Lomitapide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -123,10 +123,10 @@ Lomitapide has a substantial body of clinical trial and literature support for l
 - Confirm formal MOA documentation via DrugBank to close [DG002]
 - Assess regulatory pathway/rationale for absence of local marketing authorization despite international approval
 - Independently evaluate the 8 unscored platelet/thrombocytopenia-related predictions (ranks 1–8, 10), which currently have no clinical trial or literature support (L5) and require dedicated evidence retrieval before any decision can be made
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

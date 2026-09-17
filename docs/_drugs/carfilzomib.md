@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Carfilzomib
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 89
 evidence_level: L5
 indication_count: 5
@@ -10,12 +10,12 @@ indication_count: 5
 # Carfilzomib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -130,10 +130,10 @@ TFDA labeling data (warnings, contraindications, and drug interactions) is curre
 - Obtain TFDA package insert / label data to resolve DG001 and unblock S1 safety assessment.
 - Obtain confirmed MOA and original indication data from DrugBank to resolve DG002.
 - If pursuing this drug for melanoma-spectrum repurposing, prioritize the general **melanoma** prediction (rank 5, L4, "Research Question") over CMM7, since it is the only entity in this set with actual (preclinical) supporting evidence — and pursue in vivo/clinical validation given all current literature is Tier 3 (in vitro/computational).
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

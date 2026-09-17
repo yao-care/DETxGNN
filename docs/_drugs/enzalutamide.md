@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Enzalutamide
-parent: 僅模型預測 (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 149
-evidence_level: L5
+evidence_level: L4
 indication_count: 7
 ---
 
 # Enzalutamide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **7** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -51,7 +51,7 @@ Using the given Evidence Pack, I've noted this is a **multi-candidate** pack (`T
 | Predicted New Indication | Benign Reproductive System Neoplasm |
 | TxGNN Prediction Score | 99.53% (global model rank #5656) |
 | Evidence Level | L4 |
-| Germany Market Status | ✗ Not Marketed (未上市) |
+| Germany Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -139,10 +139,10 @@ Please refer to the package insert for safety information.
 - Confirmed mechanism-of-action documentation from DrugBank — resolves DG002
 - A direct preclinical or translational study evaluating AR blockade in benign (non-malignant) reproductive-tract neoplasm tissue, to move rank 5 beyond mechanistic extrapolation
 - Clarification of German/Taiwan regulatory and licensing status, given the drug is currently unmarketed with 0 authorizations on file
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

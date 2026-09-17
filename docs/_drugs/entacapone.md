@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Entacapone
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 147
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Entacapone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -49,7 +49,7 @@ but this direction is currently supported by **0 clinical trials** and **0 publi
 | Predicted New Indication | PLA2G6-associated neurodegeneration |
 | TxGNN Prediction Score | 99.76% |
 | Evidence Level | L5 |
-| Germany Market Status | 未上市 (Not marketed) |
+| Germany Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -101,10 +101,10 @@ This report is scoped to the rank-1 prediction as specified by the report format
 | 10 | Progressive supranuclear palsy–corticobasal syndrome | 99.04% | L4 | Atypical parkinsonism (tau-driven, not synuclein); 1 observational gait-analysis trial ([NCT02994719](https://clinicaltrials.gov/study/NCT02994719)) exists but is non-interventional. |
 
 All ten candidates remain at S0/S1 (Hold or Research Question) — none currently justify a "Go" or "Proceed with Guardrails" decision. If further investment is warranted, ranks 4, 7, and 10 are better starting points than rank 1, given their stronger mechanistic proximity to entacapone's established dopaminergic pathway.
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

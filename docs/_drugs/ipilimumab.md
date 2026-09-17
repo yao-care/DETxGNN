@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Ipilimumab
-parent: 僅模型預測 (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 211
-evidence_level: L5
+evidence_level: L2
 indication_count: 2
 ---
 
 # Ipilimumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Evidenzniveau: **L2** | Vorhergesagte Indikationen: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -92,7 +92,7 @@ Cutaneous and non-cutaneous melanoma (uveal, mucosal, acral) share a common cell
 
 ## Germany Market Information
 
-Ipilimumab is currently **not marketed** in Germany under this Evidence Pack (`market_status: 未上市`), with **0 authorizations** on record. No license entries were available to extract dosage form or approved indication text.
+Ipilimumab is currently **not marketed** in Germany under this Evidence Pack (`market_status: Not marketed`), with **0 authorizations** on record. No license entries were available to extract dosage form or approved indication text.
 
 ---
 
@@ -137,10 +137,10 @@ Ipilimumab's mechanism and broad melanoma trial base provide plausible support f
 - irAE-specific safety monitoring plan given absence of current safety/DDI data
 
 The Choroideremia signal requires no further action (Hold; no biological rationale, no supporting evidence).
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

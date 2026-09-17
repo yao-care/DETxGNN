@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Rasagiline Tartrate
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 328
 evidence_level: L5
 indication_count: 0
@@ -10,12 +10,12 @@ indication_count: 0
 # Rasagiline Tartrate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **0** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 0
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -100,10 +100,10 @@ The Evidence Pack is missing the three minimum requirements for evaluation: (1) 
 - **[High — DG002]** Retrieve mechanism of action and DrugBank ID from the DrugBank record (query confirmed 1 result exists) and populate `drugbank_id`, `original_moa`, and `original_indications` fields
 - **[Required]** Re-run the TxGNN prediction pipeline to populate `predicted_indications` — current output is empty, which may indicate a compound name matching issue (consider querying under "Rasagiline" without the salt suffix "tartrate")
 - **[Recommended]** Confirm compound identity: check whether RASAGILINE TARTRATE and Rasagiline mesylate (the more commonly marketed salt form) are the same candidate in this context, to avoid missing existing evidence
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

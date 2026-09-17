@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Pantoprazole
-parent: 僅模型預測 (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 293
-evidence_level: L5
+evidence_level: L1
 indication_count: 6
 ---
 
 # Pantoprazole
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Evidenzniveau: **L1** | Vorhergesagte Indikationen: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -115,10 +115,10 @@ The mechanistic and clinical trial/literature evidence for PPI efficacy in activ
 - Obtain structured DrugBank MOA data to formally document mechanism (DG002)
 - Confirm regulatory filing/licensing pathway, since 0 local authorizations currently exist despite global PPI approval status
 - Given the mechanistic overlap, evaluate whether the lower-ranked candidates (duodenal ulcer, L1; gastrojejunal ulcer, peptic ulcer perforation, L2) warrant a combined submission strategy rather than separate single-indication filings
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

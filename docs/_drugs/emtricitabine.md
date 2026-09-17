@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Emtricitabine
-parent: 僅模型預測 (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 145
-evidence_level: L5
+evidence_level: L4
 indication_count: 3
 ---
 
 # Emtricitabine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -106,10 +106,10 @@ The top-ranked prediction (FIV) rests on a single small animal cohort study and 
 - Confirmed DrugBank mechanism-of-action detail for emtricitabine
 - Additional preclinical or clinical data evaluating emtricitabine specifically (not other NRTIs) in FIV-infected cats
 - Consideration of the related rank-2 prediction (Simian Immunodeficiency Virus infection), which is supported by substantially more literature (20 publications, including direct macaque dosing studies) and a higher evidence grade (L3), as a potentially more defensible research direction — while noting SIV itself is an animal research model, not a licensed human indication
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

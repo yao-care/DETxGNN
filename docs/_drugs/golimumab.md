@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Golimumab
-parent: 僅模型預測 (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 184
-evidence_level: L5
+evidence_level: L4
 indication_count: 5
 ---
 
 # Golimumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **5** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -127,10 +127,10 @@ This evidence pack evaluated 5 candidate indications for golimumab. The other fo
 | 4 | Kummell disease | 99.61% | L5 | Hold | No clinical trials or literature; vertebral ischemic collapse has no mechanistic connection to golimumab. Likely knowledge-graph noise. |
 
 **Recommendation:** Prioritize separate, dedicated evaluation reports for **inflammatory spondylopathy** and **polyarticular JIA** (rank 3 and 5) — these represent the strongest, most actionable findings in this evidence pack and are far more decision-ready than the top-ranked rheumatoid vasculitis prediction. Ranks 2 and 4 can be deprioritized as low-confidence model output.
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Etanercept
-parent: 僅模型預測 (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 158
-evidence_level: L5
+evidence_level: L2
 indication_count: 6
 ---
 
 # Etanercept
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Evidenzniveau: **L2** | Vorhergesagte Indikationen: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -47,7 +47,7 @@ Currently **6 clinical trials** (mostly indirect) and **20 publications** are as
 | Predicted New Indication | Rheumatoid Vasculitis |
 | TxGNN Prediction Score | 99.71% |
 | Evidence Level | L2 |
-| Germany Market Status | 未上市 (Not marketed) |
+| Germany Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | **Hold** |
 
@@ -135,10 +135,10 @@ Although TxGNN assigns a high prediction score to rheumatoid vasculitis, the str
 - Obtain formal MOA documentation (DG002) to properly assess mechanistic plausibility
 - Clarify whether "rheumatoid vasculitis" (RA-associated small-vessel vasculitis) is mechanistically distinct enough from ANCA-associated vasculitis (WGET population) to justify reconsideration
 - If pursued further, a dedicated pharmacovigilance review of etanercept-induced vasculitis case reports is required before any prospective study design
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

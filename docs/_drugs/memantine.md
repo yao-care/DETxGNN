@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Memantine
-parent: 僅模型預測 (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 249
-evidence_level: L5
+evidence_level: L2
 indication_count: 4
 ---
 
 # Memantine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Evidenzniveau: **L2** | Vorhergesagte Indikationen: **4** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -92,7 +92,7 @@ Importantly, this is not a purely data-driven signal: it is corroborated by a co
 
 ## Germany Market Information
 
-Memantine is currently **not marketed** under this evidence pack's regulatory dataset (0 authorizations, `market_status: 未上市`), so no product license table is available.
+Memantine is currently **not marketed** under this evidence pack's regulatory dataset (0 authorizations, `market_status: Not marketed`), so no product license table is available.
 
 ---
 
@@ -125,10 +125,10 @@ Among the four TxGNN-predicted indications, migraine disorder has by far the str
 - A larger, adequately powered confirmatory Phase 3 RCT specifically for migraine prevention (current completed trial N=33)
 - Clarify local regulatory pathway, since memantine is currently unapproved/not marketed in this jurisdiction
 - Re-evaluate pulmonary hypertension and kyphoscoliotic heart disease only if new mechanistic or clinical evidence emerges
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

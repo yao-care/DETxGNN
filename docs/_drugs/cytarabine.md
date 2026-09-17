@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Cytarabine
-parent: 僅模型預測 (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 109
-evidence_level: L5
+evidence_level: L3
 indication_count: 9
 ---
 
 # Cytarabine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **9** 個
+Evidenzniveau: **L3** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 9
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -128,10 +128,10 @@ Evidence for cytarabine in small cell lung carcinoma is limited to historical (1
 - Resolve DG002: obtain detailed mechanism of action data from DrugBank
 - Identify whether any contemporary (post-2000) trials or real-world evidence support cytarabine's role in SCLC, given the field has moved to newer regimens
 - Confirm route compatibility, since `route_compatibility.status` is currently unresolved for this indication
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

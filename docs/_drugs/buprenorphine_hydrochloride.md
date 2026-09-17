@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Buprenorphine Hydrochloride
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 74
 evidence_level: L5
 indication_count: 0
@@ -10,12 +10,12 @@ indication_count: 0
 # Buprenorphine Hydrochloride
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **0** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 0
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -95,10 +95,10 @@ The Evidence Pack is critically incomplete on all evaluable dimensions — no Tx
 - **Mechanism of action**: Extract from the DrugBank result already retrieved (query ID 3, status: success) — populate `drug.original_moa`
 - **Safety data**: Parse key warnings and contraindications from the same package insert source — populate `safety.key_warnings` and `safety.contraindications`
 - **DDI data**: The DDI query returned not_found; consider querying a secondary source (e.g. DrugBank interaction API or FDA label) given that buprenorphine has clinically significant interactions with CNS depressants and CYP3A4 inhibitors
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lamivudine
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 220
 evidence_level: L5
 indication_count: 5
@@ -10,12 +10,12 @@ indication_count: 5
 # Lamivudine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -45,7 +45,7 @@ Lamivudine（3TC）為核苷類反轉錄酶抑制劑（NRTI），文獻與試驗
 | 預測新適應症 | Feline acquired immunodeficiency syndrome（貓科後天免疫缺乏症候群，非人類疾病） |
 | TxGNN 預測分數 | 99.93%（0.9992823） |
 | 證據等級 | L4（臨床前／機轉層級研究，且高度存疑） |
-| 台灣上市狀態 | 未上市 |
+| 台灣上市狀態 | Not marketed |
 | 核准許可證數量 | 0 |
 | 建議決策 | **Hold** |
 
@@ -99,7 +99,7 @@ Lamivudine（3TC）為核苷類反轉錄酶抑制劑（NRTI），文獻與試驗
 
 ## 台灣上市資訊
 
-本藥品於台灣（本地市場）**未上市，無核准許可證資料**（`total_licenses = 0`）。無法提供劑型、產品名稱或核准適應症文字，此為資料缺口（DG001，Blocking severity）需透過 TFDA 官網下載仿單解析補齊。
+本藥品於台灣（本地市場）**Not marketed，無核准許可證資料**（`total_licenses = 0`）。無法提供劑型、產品名稱或核准適應症文字，此為資料缺口（DG001，Blocking severity）需透過 BfArM website下載仿單解析補齊。
 
 ---
 
@@ -116,18 +116,18 @@ Lamivudine（3TC）為核苷類反轉錄酶抑制劑（NRTI），文獻與試驗
 **決策：Hold**
 
 **理由：**
-本候選前五名預測適應症皆存在證據品質問題——排名第一為非人類（貓科）疾病，不適用於人類藥物再利用管線；其餘四項分別為臨床前動物模型訊號、無證據支持之模型假說、機轉方向矛盾、及疾病標籤系統性錯配（HBV 試驗被誤標為 HCV）。同時本地欠缺 TFDA 安全性資料（Blocking severity），無法進入 S1 安全性初評。
+本候選前五名預測適應症皆存在證據品質問題——排名第一為非人類（貓科）疾病，不適用於人類藥物再利用管線；其餘四項分別為臨床前動物模型訊號、無證據支持之模型假說、機轉方向矛盾、及疾病標籤系統性錯配（HBV 試驗被誤標為 HCV）。同時本地欠缺 TFDA 安全性資料（Blocking severity），Cannot proceed to S1 safety screening。
 
 **若要繼續推進，需要：**
-- 補齊 TFDA 仿單警語／禁忌資料（DG001，透過 TFDA 官網 PDF 解析）
+- 補齊 TFDA 仿單警語／禁忌資料（DG001，透過 BfArM website PDF 解析）
 - 補齊 DrugBank 作用機轉（MOA）資料（DG002，透過 DrugBank API 查詢）
 - 修正知識圖譜中的物種錯配問題（feline/simian 疾病不應與人類適應症候選並列）
 - 修正 rank 5（慢性 C 型肝炎）之疾病標籤與證據錯配問題，重新以 HBV 相關試驗／文獻進行標註
 - 若欲評估人類 HIV／HBV 以外之新適應症，建議要求 TxGNN 團隊排除非人類物種節點後重新產生候選清單
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

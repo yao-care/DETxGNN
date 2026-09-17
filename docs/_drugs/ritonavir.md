@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ritonavir
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 349
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Ritonavir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -75,10 +75,10 @@ The Evidence Pack for Ritonavir is critically incomplete across all four evaluat
 - **Package insert safety data** — key warnings, contraindications, and drug interactions from TFDA or equivalent source (DG001: Blocking severity gap)
 - **Original indication confirmation** — verify approved indications from Taiwan TFDA or international regulatory sources (EMA/FDA)
 - **Drug interaction profile** — DDI query returned `not_found`; re-query with alternate sources (e.g., DrugBank DDI, clinical pharmacology databases)
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

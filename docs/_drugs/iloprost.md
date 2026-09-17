@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Iloprost
-parent: 僅模型預測 (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 196
-evidence_level: L5
+evidence_level: L1
 indication_count: 9
 ---
 
 # Iloprost
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **9** 個
+Evidenzniveau: **L1** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 9
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -110,10 +110,10 @@ A completed Phase 3 RCT directly enrolled HIV-associated PAH patients, and the m
 - HIV-antiretroviral drug–drug interaction data, given this population's near-universal concomitant ART use
 - A German market-entry/regulatory pathway assessment, since iloprost currently has zero marketing authorizations on file
 - Subgroup-level efficacy/safety data specific to the HIV-PAH arm of NCT00709956, rather than the pooled PAH population result
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

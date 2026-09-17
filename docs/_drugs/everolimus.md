@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Everolimus
-parent: 僅模型預測 (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 160
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Everolimus
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -41,11 +41,11 @@ Everolimus is an mTOR-pathway inhibitor with well-established oncology use (e.g.
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available from local regulatory licenses (drug status: 未上市 / not marketed in this jurisdiction). Everolimus is a globally established mTOR inhibitor used in oncology (e.g., advanced/non-clear cell renal cell carcinoma), as referenced in the literature evidence below. |
+| Original Indication | Not available from local regulatory licenses (drug status: Not marketed / not marketed in this jurisdiction). Everolimus is a globally established mTOR inhibitor used in oncology (e.g., advanced/non-clear cell renal cell carcinoma), as referenced in the literature evidence below. |
 | Predicted New Indication | Liposarcoma (dedifferentiated subtype) |
 | TxGNN Prediction Score | 99.88% |
 | Evidence Level | L2 |
-| Germany Market Status | 未上市 (Not Marketed) |
+| Germany Market Status | Not marketed (Not Marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold (data pack labels this "Research Question" stage — evidence exists but is confounded by combination therapy) |
 
@@ -142,7 +142,7 @@ However, evidentiary maturity differs greatly by candidate. The top-ranked lipos
 
 ## Germany Market Information
 
-Currently no marketing authorization records are available for everolimus in this jurisdiction (`taiwan_regulatory.market_status`: 未上市 / Not Marketed; `total_licenses`: 0). No license table can be produced from this evidence pack.
+Currently no marketing authorization records are available for everolimus in this jurisdiction (`taiwan_regulatory.market_status`: Not marketed / Not Marketed; `total_licenses`: 0). No license table can be produced from this evidence pack.
 
 ---
 
@@ -180,12 +180,12 @@ Please refer to the package insert for safety information. (Key warnings, contra
 - Resolve Data Gap DG001 (TFDA/label warnings and contraindications) — currently a blocking gap for any safety evaluation.
 - Resolve Data Gap DG002 (structured MOA from DrugBank) to formally validate the mechanistic rationale used above.
 - For liposarcoma: seek an everolimus-monotherapy or attribution-designed trial to de-confound the ribociclib combination signal.
-- For unclassified/non-clear-cell RCC: confirm local regulatory pathway feasibility (currently 未上市) before any guardrailed use, since no local license or safety label currently exists.
+- For unclassified/non-clear-cell RCC: confirm local regulatory pathway feasibility (currently Not marketed) before any guardrailed use, since no local license or safety label currently exists.
 - For rhabdomyosarcoma: monitor completion/results of NCT01216839 and NCT03245151 (already completed — pull full trial results/publication if not yet captured).
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

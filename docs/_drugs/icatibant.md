@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Icatibant
-parent: 僅模型預測 (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 191
-evidence_level: L5
+evidence_level: L1
 indication_count: 7
 ---
 
 # Icatibant
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+Evidenzniveau: **L1** | Vorhergesagte Indikationen: **7** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -99,7 +99,7 @@ By contrast, the model's lower-ranked predictions (ranks 2–7: serpinopathy, ps
 
 ## Germany Market Information
 
-Currently no marketing authorizations registered for icatibant in this market (`taiwan_regulatory.market_status` = 未上市 / Not Marketed; `total_licenses` = 0).
+Currently no marketing authorizations registered for icatibant in this market (`taiwan_regulatory.market_status` = Not marketed / Not Marketed; `total_licenses` = 0).
 
 ---
 
@@ -138,10 +138,10 @@ The strongest predicted indication (C1 inhibitor deficiency) is not a novel repu
 - Retrieve DrugBank MOA data to formally document the bradykinin B2-antagonist mechanism
 - Reframe the repurposing search: since rank-1 duplicates the known indication, prioritize deeper mining of off-label evidence (e.g., ACE-inhibitor-induced angioedema, acquired C1-INH deficiency — both already appearing in the literature set) as more genuine repurposing candidates than the six low-confidence graph predictions listed above
 - If market entry (not repurposing) is the actual goal, initiate standard registration dossier submission for the existing HAE indication
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

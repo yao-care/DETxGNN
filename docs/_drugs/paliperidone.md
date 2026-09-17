@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Paliperidone
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 289
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Paliperidone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -113,10 +113,10 @@ The top-ranked candidate (retinal dystrophy with or without extraocular anomalie
 - Resolve the Blocking data gap: obtain TFDA/BfArM label (warnings, contraindications) before any safety screening
 - Obtain confirmed MOA and original indication documentation for paliperidone (currently marked as data gaps)
 - If pursuing repurposing work on this drug, redirect evaluation toward **rank #10 (treatment-refractory schizophrenia)**, which is the only candidate with real supporting evidence (L2, 4 clinical trials including one completed Phase 4 study, 2 literature reviews) — note this represents an indication-extension within paliperidone's existing therapeutic class rather than a novel repurposing signal, and would still require head-to-head comparative data against clozapine (the current standard for treatment-refractory schizophrenia) before advancing past S2
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

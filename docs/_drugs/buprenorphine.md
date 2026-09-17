@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Buprenorphine
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 73
 evidence_level: L5
 indication_count: 6
@@ -10,12 +10,12 @@ indication_count: 6
 # Buprenorphine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -77,10 +77,10 @@ This Evidence Pack contains no TxGNN-predicted indications and no original indic
 - **Mechanism of action (MOA)** — flagged as Data Gap (DG002, High severity); query DrugBank API (DB00921) to populate `original_moa`
 - **Safety data** — `key_warnings` and `contraindications` are both flagged as Data Gap (DG001, Blocking severity); download and parse the TFDA package insert PDF to unblock S1 safety screening
 - **DDI data** — drug–drug interaction query returned `not_found`; consider querying additional sources (e.g., DrugBank interactions endpoint, Lexicomp)
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

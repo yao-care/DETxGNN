@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Raltegravir
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 323
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Raltegravir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -73,10 +73,10 @@ Three critical data layers are missing — TxGNN repurposing predictions, mechan
 - **Obtain package insert** (TFDA or EMA/BfArM source) to extract key warnings, contraindications, and drug–drug interactions — currently classified as a Blocking data gap
 - **Verify Germany market status** via BfArM database — RALTEGRAVIR (brand: Isentress, MSD) holds EMA marketing authorisation; the current zero-result may reflect a query scope issue rather than true non-registration
 - Once the above data is collected, re-generate this evidence pack (target version v5+) and re-run the full evaluation pipeline
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

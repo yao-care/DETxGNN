@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Gimeracil
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 178
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Gimeracil
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -45,7 +45,7 @@ Gimeracil 本身並非獨立的抗腫瘤藥物，而是 S-1 複方（tegafur + g
 | 預測新適應症 | 大腸腫瘤 Colonic Neoplasm |
 | TxGNN 預測分數 | 99.88% |
 | 證據等級 | L1（≥2 項已完成第三期 RCT） |
-| 德國/台灣市場狀態 | 未上市 |
+| 德國/台灣市場狀態 | Not marketed |
 | 核准許可證數量 | 0 |
 | 建議決策 | Proceed with Guardrails（附條件推進） |
 
@@ -121,7 +121,7 @@ Gimeracil 作為 S-1 複方（傳統細胞毒性化療、fluoropyrimidine 類藥
 
 **理由：**
 - 已有 2 項已完成的第三期隨機對照試驗（NCT00660894, n=1535；NCT01918852, n=161）支持 S-1（含 gimeracil）於大腸直腸癌之療效，證據等級達 L1。
-- 但此證據體係針對「S-1 複方整體」而非 gimeracil 單一成分，且 gimeracil 本身的正式 MOA 與台灣/德國仿單安全性資料（警語、禁忌症、DDI）目前皆為資料缺口，其中仿單警語/禁忌屬 Blocking 等級，尚無法進入 S1 安全性初評，因此不建議直接列為 Go。
+- 但此證據體係針對「S-1 複方整體」而非 gimeracil 單一成分，且 gimeracil 本身的正式 MOA 與台灣/德國仿單安全性資料（警語、禁忌症、DDI）目前皆為資料缺口，其中仿單警語/禁忌屬 Blocking 等級，尚Cannot proceed to S1 safety screening，因此不建議直接列為 Go。
 
 **若要繼續推進，需要補充：**
 - TFDA/BfArM 官方仿單 PDF，解析警語與禁忌症資訊（DG001，Blocking）
@@ -130,10 +130,10 @@ Gimeracil 作為 S-1 複方（傳統細胞毒性化療、fluoropyrimidine 類藥
 - 藥物交互作用（DDI）資料庫查詢結果補充
 
 *備註：TxGNN 對此藥物另預測 9 項候選適應症（如 cecum villous adenoma、malignant gastric granular cell tumor 等），但均無臨床試驗或文獻支持（證據等級 L5，僅為模型分數），建議標記為 Hold，暫不進一步推進。*
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Ledipasvir
-parent: 僅模型預測 (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 225
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Ledipasvir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -96,7 +96,7 @@ The one exception is a Phase 2 open-label pilot study (NCT03312023 / PMID 360455
 
 ## Germany Market Information
 
-Ledipasvir is currently **not marketed in Germany** (market status: "未上市" / Not marketed), and no marketing authorizations were found in the available regulatory dataset. No product listings, dosage forms, or approved indication texts are on file for this jurisdiction.
+Ledipasvir is currently **not marketed in Germany** (market status: "Not marketed" / Not marketed), and no marketing authorizations were found in the available regulatory dataset. No product listings, dosage forms, or approved indication texts are on file for this jurisdiction.
 
 ---
 
@@ -120,10 +120,10 @@ The mechanistic basis for using Ledipasvir against HBV is weak — Ledipasvir's 
 - Obtain TFDA/EMA package insert data (Data Gap DG001) to enable a formal S1 safety screen, particularly regarding HBV reactivation risk
 - Obtain confirmed mechanism-of-action documentation from DrugBank (Data Gap DG002) to formally assess mechanistic plausibility
 - If HBV monoinfection remains the target, a larger controlled trial with virologic cure endpoints (not just HBsAg decline) is needed before advancing past L3
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

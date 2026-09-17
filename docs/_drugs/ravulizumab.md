@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ravulizumab
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 330
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Ravulizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -97,10 +97,10 @@ The Evidence Pack for Ravulizumab is missing all three elements required for a r
 - **Download and parse TFDA package insert PDF** (DG001, Blocking severity) — extract approved indications, key warnings, and contraindications for the Taiwan label
 - **Clarify original indication** — confirm from DrugBank or EMA/FDA labeling what disease Ravulizumab is currently approved to treat; this anchors the repurposing narrative
 - **Re-submit Evidence Pack** once all four items above are resolved; a full L1–L5 evidence evaluation can then be generated
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

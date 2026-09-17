@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Tasimelteon
-parent: 僅模型預測 (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 379
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Tasimelteon
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -95,10 +95,10 @@ The insomnia prediction is supported by L1 evidence, including one completed Pha
 - Resolve DG002 (High): Confirm formal mechanism-of-action documentation via DrugBank API to validate the mechanistic rationale currently derived only from repurposing_rationale text.
 - Clarify degree of indication overlap with the existing Non-24-Hour Sleep-Wake Disorder approval, to determine whether this constitutes a genuine label extension or requires a distinct regulatory pathway.
 - Monitor completion of NCT06953869 (pediatric Phase 3, est. completion 2028-01) for confirmatory evidence.
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

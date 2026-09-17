@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Nilotinib
-parent: 僅模型預測 (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 269
-evidence_level: L5
+evidence_level: L4
 indication_count: 1
 ---
 
 # Nilotinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -113,10 +113,10 @@ The prediction rests on a single class-level mechanism review with no DFSP- or n
 - DrugBank-sourced mechanism of action data (DG002)
 - DFSP-specific clinical evidence (case series, trials, or off-label use reports for TKIs in DFSP)
 - Confirmation of Germany market/authorization status for nilotinib
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

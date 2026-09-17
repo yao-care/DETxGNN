@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Metreleptin
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 254
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Metreleptin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -45,7 +45,7 @@ Metreleptin（DrugBank ID: DB09046）為 leptin 受體促效劑，但本次 Evid
 | 預測新適應症 | Familial generalized lentiginosis（家族性泛發性雀斑樣痣） |
 | TxGNN 預測分數 | 99.71%（rank 3992） |
 | 證據等級 | L5（僅模型預測，無實際研究） |
-| 台灣上市狀態 | 未上市 |
+| 台灣上市狀態 | Not marketed |
 | 許可證數量 | 0 |
 | 建議決策 | Hold |
 
@@ -83,7 +83,7 @@ Metreleptin 目前未在台灣上市，無許可證資料。
 
 請參考仿單以獲取安全性資訊。
 
-（註：TFDA 仿單警語/禁忌資料為 **Blocking** 等級缺口 DG001，尚未取得；此為進入 S1 安全性初評前必須補齊之前提條件。）
+（註：BfArM package insert warnings/contraindications資料為 **Blocking** 等級缺口 DG001，尚未取得；此為進入 S1 安全性初評前必須補齊之前提條件。）
 
 ---
 
@@ -95,14 +95,14 @@ Metreleptin 目前未在台灣上市，無許可證資料。
 前十名預測適應症之證據等級皆為 L5（僅模型分數，無臨床試驗或文獻佐證），且藥物本身之原始適應症、作用機轉、台灣仿單安全性資料均缺失（含 1 項 Blocking 缺口），目前無法進行任何安全性初評，故建議 Hold。
 
 **若要推進，需要補齊：**
-- TFDA 仿單警語/禁忌資料（DG001，Blocking，需下載仿單 PDF 解析）
-- DrugBank MOA 詳細資料（DG002，需查詢 DrugBank API）
+- BfArM package insert warnings/contraindications資料（DG001，Blocking，需下載仿單 PDF 解析）
+- DrugBank MOA 詳細資料（DG002，需Query the DrugBank API）
 - Metreleptin 原始核准適應症之正式來源文字，以建立與預測適應症之機轉比對基礎
 - 針對排名前 1–3 候選適應症，執行 PubMed／ClinicalTrials.gov／ICTRP 補充檢索，確認是否存在目前資料庫未收錄之間接證據
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

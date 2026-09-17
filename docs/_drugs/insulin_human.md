@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Insulin Human
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 208
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Insulin Human
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -48,7 +48,7 @@ the evidence assessment itself flags it as a likely knowledge-graph comorbidity 
 | Predicted New Indication | Autoimmune Oophoritis |
 | TxGNN Prediction Score | 99.84% |
 | Evidence Level | L5 (model prediction only, no supporting studies) |
-| Germany Market Status | ✗ Not marketed (未上市) |
+| Germany Market Status | ✗ Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -78,7 +78,7 @@ Currently no related literature available.
 
 ## Germany Market Information
 
-No authorization records are available in this evidence pack. Market status is recorded as **未上市 (Not marketed)** with **0 total licenses**, so no product/dosage-form table can be generated.
+No authorization records are available in this evidence pack. Market status is recorded as **Not marketed (Not marketed)** with **0 total licenses**, so no product/dosage-form table can be generated.
 
 ---
 
@@ -100,10 +100,10 @@ The top-ranked prediction (autoimmune oophoritis) has no clinical, literature, o
 - Confirmed mechanism-of-action documentation for insulin human (DrugBank API query)
 - If autoimmune oophoritis is pursued further: dedicated mechanistic or preclinical studies evaluating insulin/insulin-signaling pathways in ovarian autoimmune tissue — none currently exist
 - Re-evaluate whether ranks 4 (thiamine-responsive dysfunction syndrome) and 9 (pancreatic agenesis) should instead be reclassified as "existing standard-of-care" rather than novel repurposing candidates, since insulin is already used clinically for secondary diabetes in both syndromes
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

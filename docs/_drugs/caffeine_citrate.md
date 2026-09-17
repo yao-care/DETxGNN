@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Caffeine Citrate
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 81
 evidence_level: L5
 indication_count: 0
@@ -10,12 +10,12 @@ indication_count: 0
 # Caffeine Citrate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **0** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 0
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -105,10 +105,10 @@ No TxGNN repurposing predictions have been generated for caffeine citrate, and t
 - **Extract safety data from TFDA package insert** — query ID 4 returned 1 result with `result_status: success`; key warnings and contraindications were not populated into the Evidence Pack
 - **Confirm DDI scope** — after a target indication is established, re-run the DDI query with condition-specific drug combinations
 - **Assess Taiwan registration pathway** — caffeine citrate has 0 TFDA licenses; if a repurposing indication is identified, a registration strategy will need to be developed from scratch
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

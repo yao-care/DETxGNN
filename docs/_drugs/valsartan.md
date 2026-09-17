@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Valsartan
-parent: 僅模型預測 (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 419
-evidence_level: L5
+evidence_level: L4
 indication_count: 7
 ---
 
 # Valsartan
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **7** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -47,7 +47,7 @@ indication_count: 7
 | Predicted New Indication | Malignant Hypertensive Renal Disease |
 | TxGNN Prediction Score | 99.97% |
 | Evidence Level | L4 |
-| Market Status | Not marketed (未上市) |
+| Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -105,10 +105,10 @@ The predicted indication is supported only by a TxGNN score with no clinical tri
 - Detailed mechanism of action documentation (DG002)
 - Direct preclinical or clinical evidence using valsartan itself (not endothelin antagonists) for hypertensive nephropathy or malignant hypertension
 - Consider a separate evaluation track for the "chronic pulmonary heart disease" candidate (rank 6), which has notably stronger evidence (L2, multiple completed Phase 3/4 RCTs of sacubitril/valsartan)
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

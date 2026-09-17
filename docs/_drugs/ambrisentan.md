@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Ambrisentan
-parent: 僅模型預測 (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 26
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Ambrisentan
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -136,10 +136,10 @@ CTD-PAH is supported by L1-level evidence — including subgroup analyses from a
 - Conduct a dedicated DDI database review, since the current query returned no results
 - Clarify local regulatory pathway/status, given the drug is currently unlicensed and unmarketed here (0 authorizations)
 - Consider parallel evaluation of PAH-associated congenital heart disease and PAH-associated HIV infection (ranks 2 and 4), which also scored L1/"Proceed with Guardrails" and may support a broader repurposing label strategy across PAH subtypes
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

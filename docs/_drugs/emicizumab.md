@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Emicizumab
-parent: 僅模型預測 (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 143
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Emicizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -47,7 +47,7 @@ Emicizumab is a bispecific antibody that mimics the cofactor function of activat
 | Predicted New Indication (highest-evidence candidate) | Acquired Coagulation Factor Deficiency (Acquired Hemophilia A) |
 | TxGNN Prediction Score | 99.90% (rank 1651) |
 | Evidence Level | L1 |
-| Taiwan Market Status | 未上市 (Not marketed) |
+| Taiwan Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -113,7 +113,7 @@ This mechanistic logic does **not** extend to the other 9 candidates in this pac
 
 ## Taiwan Market Information
 
-No TFDA license records are on file for emicizumab in this evidence pack — market status is **未上市 (not marketed)**, with 0 registered authorizations. No dosage form, product name, or approved-indication text is available.
+No TFDA license records are on file for emicizumab in this evidence pack — market status is **Not marketed (not marketed)**, with 0 registered authorizations. No dosage form, product name, or approved-indication text is available.
 
 ---
 
@@ -146,10 +146,10 @@ Three tier-1 prospective studies (a Phase 3 multicenter trial, the GTH-AHA-EMI P
 - Monitor Taiwan regulatory filing status for emicizumab, since it is currently unlicensed/not marketed
 - Deprioritize or formally close out the thrombotic thrombocytopenic purpura candidate given the identified mechanistic safety contraindication
 - Verify the "flood factor deficiency" disease label against source data before any further review
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

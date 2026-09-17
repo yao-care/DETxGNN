@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Cetrorelix
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 98
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Cetrorelix
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -47,7 +47,7 @@ indication_count: 10
 | Predicted New Indication | Hypertrichosis (disease) |
 | TxGNN Prediction Score | 99.98% (rank 545 among all candidates) |
 | Evidence Level | L5 |
-| Germany Market Status | ✗ Not Marketed (未上市) |
+| Germany Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -100,10 +100,10 @@ The top-ranked prediction (hypertrichosis) has no supporting clinical trial or l
 - Resolve DG001 (Blocking): retrieve and parse the official label/package insert for warnings and contraindications
 - Resolve DG002 (High): obtain DrugBank-confirmed mechanism of action to properly evaluate mechanistic plausibility
 - If pursuing repurposing further, redirect evaluation resources toward **central precocious puberty 1** (rank 10), which has a stronger mechanistic basis but currently lacks any clinical or literature evidence — a dedicated literature/trial search for this indication is recommended before further scoring
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

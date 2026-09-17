@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Teriflunomide
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 391
 evidence_level: L5
 indication_count: 1
@@ -10,12 +10,12 @@ indication_count: 1
 # Teriflunomide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -43,11 +43,11 @@ indication_count: 1
 
 | 項目 | 內容 |
 |------|------|
-| 原始適應症 | 無可用資料（本轄區未上市，無授權紀錄） |
+| 原始適應症 | 無可用資料（本轄區Not marketed，無授權紀錄） |
 | 預測新適應症 | Relapsing-Remitting Multiple Sclerosis |
 | TxGNN 預測分數 | 99.24% |
 | 證據等級 | L1（≥2 項已完成之第三期 RCT） |
-| 市場狀態 | ✗ 未上市 |
+| 市場狀態 | ✗ Not marketed |
 | 授權件數 | 0 |
 | 建議決策 | Hold |
 
@@ -57,7 +57,7 @@ indication_count: 1
 
 結構化的 MOA 欄位目前為資料缺口，但文獻證據（NEJM, 2020, PMID 32757523）明確指出：teriflunomide 是一種口服的嘧啶合成抑制劑（pyrimidine synthesis inhibitor），透過抑制粒線體酵素 dihydroorotate dehydrogenase（DHODH），降低 T 細胞與 B 細胞的活化與增殖。這個機轉與多發性硬化症的自體免疫發炎、去髓鞘病理機制高度相關，具備明確的生物學合理性。
 
-值得注意的是，RRMS 實際上已是 teriflunomide 在多數國際市場（如美國、歐盟，商品名 Aubagio）的**既有核准適應症**，而非全新的老藥新用推測。本轄區資料顯示該藥尚未上市、亦無授權紀錄，因此此預測更適合理解為「引進本地市場的候選適應症」，而非機轉層面的全新連結。大量已完成的頭對頭第三期試驗（如 TEMSO、TENERE、OPTIMUM、ASCLEPIOS、ULTIMATE 系列）進一步驗證了其在 RRMS 治療上的成熟地位。
+值得注意的是，RRMS 實際上已是 teriflunomide 在多數國際市場（如美國、歐盟，商品名 Aubagio）的**既有核准適應症**，而非全新的老藥新用推測。本轄區資料顯示該藥尚Not marketed、亦無授權紀錄，因此此預測更適合理解為「引進本地市場的候選適應症」，而非機轉層面的全新連結。大量已完成的頭對頭第三期試驗（如 TEMSO、TENERE、OPTIMUM、ASCLEPIOS、ULTIMATE 系列）進一步驗證了其在 RRMS 治療上的成熟地位。
 
 ---
 
@@ -118,14 +118,14 @@ indication_count: 1
 雖然 teriflunomide 對 RRMS 之療效證據極為充分（L1 等級，多項已完成第三期 RCT，且為國際多國既有核准適應症），但本轄區缺乏 TFDA 仿單警語與禁忌症資料，此為阻斷性缺口，導致無法完成必要的 S1 安全性初評，故暫緩推進至下一階段。
 
 **若要繼續推進，需要：**
-- 取得 TFDA 官網仿單 PDF 並完成警語/禁忌症解析（DG001，阻斷性）
+- 取得 BfArM website仿單 PDF 並完成警語/禁忌症解析（DG001，阻斷性）
 - 補齊 DrugBank 作用機轉（MOA）結構化資料（DG002）
 - 確認是否有藥商規劃於本轄區申請上市授權
 - 補充藥物交互作用（DDI）資料，目前查詢無結果（query_status: not_found）
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

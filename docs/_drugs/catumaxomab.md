@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Catumaxomab
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 93
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Catumaxomab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -119,10 +119,10 @@ This prediction has evidence level L5 (algorithmic prediction only) with zero su
 - Assessment of feasibility of reintroducing a discontinued biologic for a new, unrelated chronic indication
 
 *Note: The two lower-ranked predictions in this evidence pack — drug-induced osteoporosis (rank 2, L5) and diabetic retinopathy (rank 3, L5) — show similarly weak mechanistic rationale, no supporting trials/literature, and are also recommended Hold.*
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

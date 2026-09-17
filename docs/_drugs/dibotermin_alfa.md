@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Dibotermin Alfa
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 123
 evidence_level: L5
 indication_count: 9
@@ -10,12 +10,12 @@ indication_count: 9
 # Dibotermin Alfa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **9** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 9
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -109,10 +109,10 @@ The top-ranked candidate (esotropia) has no clinical, literature, or mechanistic
 - Independent, targeted literature search for BMP-2 and extraocular muscle/strabismus biology (current literature pull returned no relevant hits)
 - If breast cancer signal is pursued further, prioritize it as a **risk assessment** (does BMP-2 exposure worsen breast cancer outcomes) rather than a repurposing opportunity
 - Given the drug is not marketed in Germany and no clinical evidence exists for any candidate, no further action is recommended at this time beyond monitoring for new literature/trials
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

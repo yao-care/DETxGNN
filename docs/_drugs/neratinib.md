@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Neratinib
-parent: 僅模型預測 (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 266
-evidence_level: L5
+evidence_level: L3
 indication_count: 4
 ---
 
 # Neratinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Evidenzniveau: **L3** | Vorhergesagte Indikationen: **4** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -129,10 +129,10 @@ Efficacy evidence is biologically plausible and moderately substantial — it dr
 - TFDA/BfArM package insert (warnings, contraindications, DDI) to unblock S1 safety review
 - Confirmed structured MOA data from DrugBank (DG002)
 - Clarification of whether "progesterone-receptor positive breast cancer" should be treated as a distinct indication or merged with the existing HER2-positive breast cancer evidence base, given substantial population overlap in the cited trials
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

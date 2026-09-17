@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Regadenoson
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 331
 evidence_level: L5
 indication_count: 4
@@ -10,12 +10,12 @@ indication_count: 4
 # Regadenoson
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -40,7 +40,7 @@ The txgnn-pipeline skill covers pipeline management and doesn't alter the report
 | `predicted_indications` | **Empty** — no TxGNN output |
 | `original_indications` | Empty |
 | `original_moa` | [Data Gap] |
-| `taiwan_regulatory.market_status` | 未上市 (0 licenses) |
+| `taiwan_regulatory.market_status` | Not marketed (0 licenses) |
 | `safety` | All [Data Gap] |
 
 Since `predicted_indications` is empty, the standard "From X → Y" report cannot be completed. The report below reflects the actual state of the pack with a **Hold** decision.
@@ -110,10 +110,10 @@ making a repurposing evaluation impossible at this stage.
 2. **所有安全性欄位均為 [Data Gap]** — TFDA 警語/禁忌（DG001，Blocking）尚未填入。
 
 依照報告規則「有資料才列章節」，已省略：臨床試驗證據、文獻證據、台灣市場資訊（0 張許可證）、細胞毒性（非抗腫瘤藥物）等章節。建議補齊上述缺口後重新提交 Evidence Pack，再執行正式評估。
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

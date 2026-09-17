@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Miglustat
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 257
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Miglustat
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -96,7 +96,7 @@ This mechanistic plausibility is also reflected in the trial record: miglustat h
 
 ## Germany Market Information
 
-Miglustat is currently **not marketed** in this jurisdiction (`market_status: 未上市`) and no authorization records are present in this Evidence Pack (`total_licenses: 0`). No product/authorization table can be generated.
+Miglustat is currently **not marketed** in this jurisdiction (`market_status: Not marketed`) and no authorization records are present in this Evidence Pack (`total_licenses: 0`). No product/authorization table can be generated.
 
 ---
 
@@ -121,10 +121,10 @@ Although miglustat has a mechanistically sound rationale and an unusually rich t
 - Independent efficacy assessment reconciling the 2023 systematic review's "inconsistent" findings with the 2009 RCT's positive extension data
 - Root-cause review of why NCT03822013 and NCT02030015 were terminated (safety vs. enrollment vs. futility)
 - Regulatory pathway assessment given the drug is not currently marketed in this jurisdiction
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

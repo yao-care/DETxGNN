@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Fulvestrant
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 174
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Fulvestrant
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -115,10 +115,10 @@ The top-ranked prediction (HIV infectious disease) has no supporting clinical tr
 - TFDA/BfArM package insert warnings and contraindications (data gap DG001)
 - Direct mechanistic or preclinical evidence linking fulvestrant to HIV infection outcomes
 - Manual review of the rank-2 candidate ("multiple endocrine neoplasia"), whose linked trial evidence appears to be a disease-ontology mismatch with fulvestrant's actual breast cancer indication and may warrant separate evaluation
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

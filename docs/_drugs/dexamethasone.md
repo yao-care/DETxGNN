@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Dexamethasone
-parent: 僅模型預測 (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 122
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Dexamethasone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -122,10 +122,10 @@ Dexamethasone pulse therapy for alopecia areata is supported by an existing evid
 - Confirmed original indication list and formal drug classification (currently absent from the evidence pack)
 - Drug-drug interaction data (current DDI query status: not found)
 - Given the trial evidence is oncology-combination based and not AA-specific, no further AA-specific trial evidence is expected from ClinicalTrials.gov; reliance should remain on the published literature base above
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

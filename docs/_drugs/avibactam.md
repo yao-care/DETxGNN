@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Avibactam
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 42
 evidence_level: L5
 indication_count: 6
@@ -10,12 +10,12 @@ indication_count: 6
 # Avibactam
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -45,7 +45,7 @@ Avibactam 是非β-內醯胺類β-內醯胺酶抑制劑，本身無抗菌活性�
 | 預測新適應症 | Streptococcal pneumonia（肺炎鏈球菌感染） |
 | TxGNN 預測分數 | 99.70% |
 | 證據等級 | L5（僅模型預測，無實際研究） |
-| 德國市場狀態 | ✗ 未上市 |
+| 德國市場狀態 | ✗ Not marketed |
 | 授權筆數 | 0 |
 | 建議決策 | Hold |
 
@@ -75,7 +75,7 @@ Avibactam 是非β-內醯胺類β-內醯胺酶抑制劑，本身無抗菌活性�
 
 ## 德國市場資訊
 
-Avibactam 目前尚未在德國取得任何藥品許可證（授權筆數：0），市場狀態為「未上市」。因無登記資料，暫無法提供劑型、產品名稱或核准適應症文字。
+Avibactam 目前尚未在德國取得任何藥品許可證（授權筆數：0），市場狀態為「Not marketed」。因無登記資料，暫無法提供劑型、產品名稱或核准適應症文字。
 
 ---
 
@@ -94,17 +94,17 @@ Avibactam 目前尚未在德國取得任何藥品許可證（授權筆數：0）
 **理由：**
 - 六項預測適應症之證據等級均為 L5（僅模型預測，無臨床試驗或文獻佐證）。
 - 排名第一之預測（肺炎鏈球菌感染）機轉分析結論偏向不支持，其餘候選之機轉關聯性亦均薄弱或無關。
-- 存在 Blocking 等級資料缺口（TFDA 仿單警語/禁忌），依規範無法進入安全性初評（S1），亦無法評估藥物交互作用風險。
+- 存在 Blocking 等級資料缺口（BfArM package insert warnings/contraindications），依規範無法進入安全性初評（S1），亦無法評估藥物交互作用風險。
 
 **要繼續推進，需要補充：**
 - 取得 TFDA（或德國/歐盟對應機關）仿單警語與禁忌症資料（DG001，Blocking）
 - 透過 DrugBank API 補齊完整作用機轉（MOA）資料（DG002，High）
 - 針對排名靠前之候選適應症，檢索是否有臨床前（preclinical）或病例層級證據，以確認是否值得進一步investigate
 - 若持續無實證支持，建議所有 6 項候選維持 Hold，暫不進入下一階段評估
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

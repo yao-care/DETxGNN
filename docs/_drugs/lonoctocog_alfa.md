@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lonoctocog Alfa
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 237
 evidence_level: L5
 indication_count: 4
@@ -10,12 +10,12 @@ indication_count: 4
 # Lonoctocog Alfa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -45,7 +45,7 @@ indication_count: 4
 | Predicted New Indication | Pseudo-von Willebrand Disease |
 | TxGNN Prediction Score | 99.85% |
 | Evidence Level | L5 |
-| Taiwan Market Status | Not marketed (未上市) |
+| Taiwan Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -93,10 +93,10 @@ All four TxGNN-predicted indications are supported only by model score (Evidence
 - Confirmed mechanism of action from DrugBank/authoritative source (DG002)
 - Confirmed original indication and regulatory status (current dataset has empty `original_indications` and 0 Taiwan licenses)
 - Independent mechanistic review to confirm/refute the "false positive via vWF-FVIII complex" hypothesis before any further evidence collection is commissioned
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

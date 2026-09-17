@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Cerliponase Alfa
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 96
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Cerliponase Alfa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -77,7 +77,7 @@ Currently no related literature available.
 
 ## Germany Market Information
 
-Cerliponase alfa currently has no German market authorization on file (`market_status`: 未上市 / Not marketed; `total_licenses`: 0). No product table can be generated.
+Cerliponase alfa currently has no German market authorization on file (`market_status`: Not marketed / Not marketed; `total_licenses`: 0). No product table can be generated.
 
 ---
 
@@ -101,10 +101,10 @@ The top-ranked prediction (Scheie syndrome) and essentially all other top-10 can
 - TFDA/EMA-equivalent labeling, warnings, and contraindications (Blocking gap `DG001`)
 - If pursued further, independent mechanistic review of why TPP1 replacement could plausibly affect non-TPP1 lysosomal pathways, since no such rationale currently exists
 - Given the absence of any supporting trial or literature evidence across all 10 candidates, recommend deprioritizing this drug for active repurposing evaluation unless new evidence emerges
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 
