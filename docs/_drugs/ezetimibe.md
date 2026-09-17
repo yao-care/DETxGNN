@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Ezetimibe
-parent: 僅模型預測 (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 162
-evidence_level: L5
+evidence_level: L1
 indication_count: 4
 ---
 
 # Ezetimibe
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Evidenzniveau: **L1** | Vorhergesagte Indikationen: **4** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -60,7 +60,7 @@ Ezetimibe inhibits the intestinal Niemann-Pick C1-Like 1 (NPC1L1) transporter, r
 
 Hyperlipoproteinemia is a broad umbrella term encompassing elevated LDL-C/mixed lipid disorders — mechanistically and clinically this overlaps directly with ezetimibe's already-established use in hypercholesterolemia and mixed hyperlipidemia (as reflected in dozens of completed Phase 3 trials, including combinations with fenofibrate, statins, bempedoic acid, and obicetrapib).
 
-**Data-quality caveat:** The evidence pack's own `repurposing_rationale` explicitly flags an internal inconsistency: this dataset records `market_status = "未上市" (not marketed)` and an empty `original_indications` list, which contradicts the well-known fact that ezetimibe (Zetia®/Ezetrol®) is a globally approved lipid-lowering agent. The evidence pack itself concludes this is **not a genuine drug-repurposing candidate**, but rather a case of missing/incomplete regulatory source data (BfArM label not yet ingested — DG001, Blocking) combined with a missing MOA field (DG002, High). The clinical trial and literature evidence below is real and substantial, but it largely supports an **already-recognized indication** rather than a novel repositioning hypothesis. This must be resolved before any downstream decision is finalized.
+**Data-quality caveat:** The evidence pack's own `repurposing_rationale` explicitly flags an internal inconsistency: this dataset records `market_status = "Not marketed" (not marketed)` and an empty `original_indications` list, which contradicts the well-known fact that ezetimibe (Zetia®/Ezetrol®) is a globally approved lipid-lowering agent. The evidence pack itself concludes this is **not a genuine drug-repurposing candidate**, but rather a case of missing/incomplete regulatory source data (BfArM label not yet ingested — DG001, Blocking) combined with a missing MOA field (DG002, High). The clinical trial and literature evidence below is real and substantial, but it largely supports an **already-recognized indication** rather than a novel repositioning hypothesis. This must be resolved before any downstream decision is finalized.
 
 ---
 
@@ -120,12 +120,12 @@ The clinical trial and literature base for ezetimibe in LDL-C/hyperlipoproteinem
 **To proceed, the following is needed:**
 - Resolve DG001 (Blocking): retrieve and parse the actual BfArM/TFDA label PDF to confirm true market status, licenses, and approved indication text
 - Resolve DG002 (High): query DrugBank API for confirmed MOA to replace the current placeholder
-- Reconcile the `market_status = "未上市"` / empty `original_indications` fields against ezetimibe's known approved indications, to determine whether "Hyperlipoproteinemia" is a genuinely new label extension or an existing on-label use
+- Reconcile the `market_status = "Not marketed"` / empty `original_indications` fields against ezetimibe's known approved indications, to determine whether "Hyperlipoproteinemia" is a genuinely new label extension or an existing on-label use
 - Obtain safety/contraindication data (key warnings, DDI) once the label source is available
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

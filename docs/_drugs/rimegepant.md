@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Rimegepant
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 343
 evidence_level: L5
 indication_count: 6
@@ -10,12 +10,12 @@ indication_count: 6
 # Rimegepant
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -79,10 +79,10 @@ The Evidence Pack returned zero TxGNN predictions and is missing both original i
 - **Mechanism of action** — Query DrugBank API for MOA; RIMEGEPANT is a CGRP receptor antagonist — this should be confirmable from the public DrugBank record
 - **Safety data** — Download and parse the TFDA package insert PDF to extract key warnings and contraindications (Data Gap DG001, severity: Blocking)
 - **DDI profile** — Re-query the DDI database; the current query returned `not_found`, which may reflect a data source gap rather than an absence of interactions
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

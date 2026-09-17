@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Cabozantinib
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 80
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Cabozantinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -90,10 +90,10 @@ The Evidence Pack is structurally incomplete — the `predicted_indications` arr
 - **Safety label text** — parse TFDA 仿單 for key warnings and contraindications (remediation per DG001)
 - **DDI data** — re-query DDI database; current result is `not_found` with zero interactions, which may reflect a query failure rather than a true absence of interactions
 - **Regulatory cross-check** — although Taiwan shows 0 licenses, Cabozantinib holds approvals in other jurisdictions (EMA, FDA); a cross-jurisdictional lookup would enrich the regulatory context
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

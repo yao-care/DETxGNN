@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Methotrexate
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 252
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Methotrexate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -111,10 +111,10 @@ The TxGNN score for pulmonary blastoma is high, but there is no clinical trial o
 - Confirm German marketing/licensing status, since 0 authorizations are currently on record
 
 **Note:** This evidence pack also contains other candidate indications for methotrexate with substantially stronger evidence — notably **Hodgkin lymphoma** (Evidence Level L2, "Proceed with Guardrails," multiple historical Phase 2/3 regimens) and **rhabdomyosarcoma** (Evidence Level L2, "Research Question," Phase 2 trial evidence). These may warrant prioritized evaluation over the pulmonary blastoma signal assessed above.
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

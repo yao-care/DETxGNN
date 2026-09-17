@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Cangrelor
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 84
 evidence_level: L5
 indication_count: 0
@@ -10,12 +10,12 @@ indication_count: 0
 # Cangrelor
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **0** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 0
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -88,12 +88,12 @@ The Evidence Pack for Cangrelor is critically incomplete — no TxGNN prediction
 - **Re-run TxGNN scoring** for DB06441 to generate a ranked predicted indication list; the current `predicted_indications` array is empty, which may indicate a pipeline execution gap or that the drug was filtered before scoring.
 - **Retrieve MOA from DrugBank API** (remediation flagged as DG002, High severity) to enable mechanistic relevance analysis.
 - **Download and parse the package insert PDF** from the relevant regulatory authority (remediation flagged as DG001, Blocking severity) to populate warnings and contraindications before any safety screening (S1 gate) can begin.
-- **Confirm jurisdiction scope**: The Evidence Pack field is labelled `taiwan_regulatory` but the market status value (`未上市`) is in Traditional Chinese — clarify whether this evaluation targets Taiwan, Germany (BfArM), or both, to ensure the correct licence database is queried.
+- **Confirm jurisdiction scope**: The Evidence Pack field is labelled `taiwan_regulatory` but the market status value (`Not marketed`) is in Traditional Chinese — clarify whether this evaluation targets Taiwan, Germany (BfArM), or both, to ensure the correct licence database is queried.
 - Once predictions are available, re-generate this report to include clinical trial evidence, literature evidence, and a full safety assessment.
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

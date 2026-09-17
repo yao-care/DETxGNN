@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Teprotumumab
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 390
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Teprotumumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -45,7 +45,7 @@ Teprotumumab is an IGF-1R-blocking monoclonal antibody approved for **thyroid ey
 | Predicted New Indication | Monosomy X |
 | TxGNN Prediction Score | 99.79% |
 | Evidence Level | L5 |
-| Germany Market Status | 未上市 (Not marketed) |
+| Germany Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | **Hold** |
 
@@ -75,7 +75,7 @@ Currently no related literature available.
 
 ## Germany Market Information
 
-No marketing authorizations are currently registered for teprotumumab in Germany (market status: 未上市, 0 authorizations on file).
+No marketing authorizations are currently registered for teprotumumab in Germany (market status: Not marketed, 0 authorizations on file).
 
 ---
 
@@ -97,10 +97,10 @@ There is no clinical trial or literature evidence supporting this indication, an
 - Confirm formal MOA record from DrugBank (DG002) to replace the current rationale-derived summary
 - Independently verify whether the TxGNN association reflects a real biological signal (e.g., check embedding neighbors/explainability) versus comorbidity-driven graph clustering
 - If pursuing this candidate class at all, prioritize re-scoring/re-ranking against diseases with plausible IGF-1R-pathway involvement rather than the current chromosomal/vascular candidate set, none of which show mechanistic fit
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

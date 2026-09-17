@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Niraparib
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 271
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Niraparib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -43,7 +43,7 @@ Niraparib is a PARP1/2 inhibitor internationally approved for maintenance treatm
 | Predicted New Indication | Epiglottis Neoplasm |
 | TxGNN Prediction Score | 99.99% (model rank #289) |
 | Evidence Level | L5 |
-| Taiwan Market Status | Not Marketed (未上市) |
+| Taiwan Market Status | Not Marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -94,10 +94,10 @@ There is no clinical trial or literature evidence supporting niraparib use in ep
 - Independent validation that the "epiglottis neoplasm" TxGNN label reflects a clinically coherent disease entity rather than an ontology-mapping artifact
 
 **Additional note:** This evidence pack also contains a substantially stronger-supported prediction — **"cystic neoplasm"** (TxGNN rank #292, L2, *Proceed with Guardrails*) — corresponding to high-grade serous ovarian/endometrial carcinoma, backed by 3 clinical trials and 9 publications directly relevant to niraparib's established mechanism. This candidate may warrant a separate, dedicated evaluation report.
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

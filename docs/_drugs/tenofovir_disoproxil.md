@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tenofovir Disoproxil
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 389
 evidence_level: L5
 indication_count: 4
@@ -10,12 +10,12 @@ indication_count: 4
 # Tenofovir Disoproxil
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -114,10 +114,10 @@ The predicted indication label ("SIV infection") does not match the substance of
 - Resolve DG002: confirm mechanism of action via DrugBank to properly assess mechanistic plausibility
 - Clarify with the modeling/evidence pipeline whether "SIV infection" should be re-mapped to the already-approved human HIV PrEP indication, since current evidence does not support it as a distinct new indication
 - Note: lower-ranked predictions (feline AIDS — veterinary-only evidence; two neurological/metabolic disease predictions with zero supporting evidence, L5) should remain on **Hold** and are not recommended for further evaluation at this time
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

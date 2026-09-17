@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Omeprazole
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 281
 evidence_level: L5
 indication_count: 2
@@ -10,12 +10,12 @@ indication_count: 2
 # Omeprazole
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -101,10 +101,10 @@ While duodenogastric reflux shows plausible mechanistic rationale and moderate (
 - Complete a DDI database query (current status: not found)
 - Formally reconcile the conflicting evidence base — clinical studies suggesting symptomatic benefit vs. animal studies suggesting a long-term carcinogenesis risk under chronic acid suppression with DGR
 - Note: the secondary predicted indication (duodenal obstruction, rank 2) was already internally scored as L4/S0/**Hold** in this evidence pack, consistent with the overall conservative recommendation for this candidate
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

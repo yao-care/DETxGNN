@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Talimogene Laherparepvec
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 378
 evidence_level: L5
 indication_count: 7
@@ -10,12 +10,12 @@ indication_count: 7
 # Talimogene Laherparepvec
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **7** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -46,7 +46,7 @@ indication_count: 7
 | Predicted New Indication | CMM7 (Cutaneous Malignant Melanoma, susceptibility subtype 7) |
 | TxGNN Prediction Score | 99.20% |
 | Evidence Level | L5 (no clinical trials or literature identified; model prediction only) |
-| Taiwan Market Status | ✗ 未上市 (Not Marketed) |
+| Taiwan Market Status | ✗ Not marketed (Not Marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -89,7 +89,7 @@ All six candidates were already assessed as **Hold** in the evidence pack, prima
 
 ## Taiwan Market Information
 
-No marketing authorizations found. `taiwan_regulatory.market_status` = 未上市 (Not Marketed), `total_licenses` = 0, `licenses` = empty. Talimogene laherparepvec is not currently authorized for sale in this jurisdiction.
+No marketing authorizations found. `taiwan_regulatory.market_status` = Not marketed (Not Marketed), `total_licenses` = 0, `licenses` = empty. Talimogene laherparepvec is not currently authorized for sale in this jurisdiction.
 
 ---
 
@@ -126,10 +126,10 @@ The top-ranked candidate (CMM7) has no clinical trial or literature evidence and
 - Completion of `mechanistic_link` / `similarity_to_original` rationale for the CMM7 candidate (currently "pending")
 - Targeted literature/clinical trial search specific to CMM7 and melanoma susceptibility subtypes
 - Confirmation of Taiwan market/registration status before any further evaluation stage
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

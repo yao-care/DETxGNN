@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Givosiran
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 179
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Givosiran
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -100,10 +100,10 @@ The top-ranked prediction (Primitive Portal Vein Thrombosis) has no clinical tri
 - Independent mechanistic or preclinical evidence connecting ALAS1/heme biosynthesis inhibition to portal vein thrombosis pathology, if this candidate is to be pursued further
 
 **Separate note for the research team:** within this same batch, rank 9 (*porphyria due to ALA dehydratase deficiency*) has a materially stronger evidence profile — coherent shared-pathway mechanism, 8 literature citations including a Phase 3 post-hoc analysis (L3, Research Question stage) — and may warrant its own evaluation track rather than being deprioritized simply because of its lower raw TxGNN rank.
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

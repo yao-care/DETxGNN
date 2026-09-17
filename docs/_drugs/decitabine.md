@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Decitabine
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 114
 evidence_level: L5
 indication_count: 1
@@ -10,12 +10,12 @@ indication_count: 1
 # Decitabine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -45,7 +45,7 @@ Decitabine is a DNA hypomethylating agent originally developed for myelodysplast
 | Predicted New Indication | Refractory Cytopenia of Childhood |
 | TxGNN Prediction Score | 99.03% |
 | Evidence Level | L3 (single-center retrospective/observational study; no clinical trials registered) |
-| Germany Market Status | 未上市 (Not marketed) |
+| Germany Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -75,7 +75,7 @@ Currently no related clinical trials registered.
 
 ## Germany Market Information
 
-Decitabine is not currently marketed in Germany (未上市); no authorization records are available in this evidence pack.
+Decitabine is not currently marketed in Germany (Not marketed); no authorization records are available in this evidence pack.
 
 ---
 
@@ -109,10 +109,10 @@ Evidence supporting this indication is currently limited to a single retrospecti
 - DrugBank-confirmed mechanism of action (MOA)
 - Additional clinical trials or larger multi-center studies specifically in pediatric RCC/MDS
 - Confirmation of Germany/Taiwan regulatory and market status for decitabine
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

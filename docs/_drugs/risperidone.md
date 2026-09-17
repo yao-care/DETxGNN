@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Risperidone
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 348
 evidence_level: L5
 indication_count: 6
@@ -10,12 +10,12 @@ indication_count: 6
 # Risperidone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -112,10 +112,10 @@ The Evidence Pack for Risperidone (v4) is structurally incomplete — no TxGNN r
 3. **Resolve DG002** — Query DrugBank API for Risperidone's full mechanism of action, pharmacological class, and targets
 4. **Re-run DDI query** — Current status is `not_found`; verify query parameters and retry
 5. **Re-generate Evidence Pack** (v5+) once the above data is available, then re-submit for evaluation
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

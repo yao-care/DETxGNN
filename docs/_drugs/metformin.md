@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Metformin
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 251
 evidence_level: L5
 indication_count: 5
@@ -10,12 +10,12 @@ indication_count: 5
 # Metformin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -112,10 +112,10 @@ All five predicted indications rest solely on TxGNN model output (L5) with zero 
 - Confirm metformin's mechanism of action via DrugBank API — currently High priority gap (DG002)
 - Targeted literature and clinical trial searches for each of the five candidate indications (autoimmune neurology, skeletal dysplasia, thiamine metabolism disorders, lipodystrophy) to establish whether any move beyond L5
 - Independent mechanistic/pharmacological review before any candidate is considered for S1 entry
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Cobicistat
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 106
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Cobicistat
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -99,10 +99,10 @@ No clinical trials, literature, mechanism of action, or original indication data
 - TFDA/BfArM package insert warnings and contraindications (resolves blocking gap DG001)
 - Targeted literature/trial search on cobicistat in HIV/lentivirus-related repurposing contexts, to test the FIV/SIV mechanistic hypothesis
 - Clarification on why a feline-specific veterinary disease appears as the top-ranked prediction, and whether a human-relevant analog indication should be substituted
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Agomelatine
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 20
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Agomelatine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -111,7 +111,7 @@ Literature was queried per-indication; results overlap heavily between melanchol
 
 ## Germany Market Information
 
-Agomelatine is currently **not marketed** in Germany per available regulatory data (`market_status: 未上市`), with **0 authorizations** on record. No BfArM license details were retrievable for this evidence pack.
+Agomelatine is currently **not marketed** in Germany per available regulatory data (`market_status: Not marketed`), with **0 authorizations** on record. No BfArM license details were retrievable for this evidence pack.
 
 ---
 
@@ -136,10 +136,10 @@ Please refer to the package insert for safety information. No structured warning
 - Resolve DG002 (High): obtain a structured mechanism-of-action record from the DrugBank API to support mechanistic-link scoring.
 - For agoraphobia, neurotic disorder, and dysthymic disorder: seek agomelatine-specific (not class-level) clinical evidence — ideally a registered trial or a dedicated systematic review — before advancing past the "Research Question" stage.
 - Deprioritize further evidence-gathering on the five L5 rare-syndrome candidates unless a future model version surfaces a credible mechanistic rationale.
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

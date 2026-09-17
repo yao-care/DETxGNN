@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Vestronidase Alfa
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 425
 evidence_level: L5
 indication_count: 9
@@ -10,12 +10,12 @@ indication_count: 9
 # Vestronidase Alfa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **9** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 9
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -103,10 +103,10 @@ Please refer to the package insert for safety information.
 - Obtain confirmed MOA and original indication data from DrugBank to replace the current "[Data Gap]" record
 - Manually audit the literature associated with other candidates in this evidence pack (e.g., Sanfilippo syndrome) for possible disease-label mismatches before further use
 - If pursuing this candidate further, commission a targeted literature/preclinical search specifically for GUS/IDUA cross-reactivity or any case reports of vestronidase alfa use in MPS I patients
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

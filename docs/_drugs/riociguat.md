@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Riociguat
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 344
 evidence_level: L5
 indication_count: 0
@@ -10,12 +10,12 @@ indication_count: 0
 # Riociguat
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **0** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 0
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -90,10 +90,10 @@ There are currently no TxGNN-predicted indications and no structured drug-level 
 3. **Re-run TxGNN prediction pipeline** — Once drug-level metadata is populated, re-submit Riociguat to the TxGNN model to generate scored indication candidates.
 4. **Re-run DDI query** — The current DDI query returned `not_found`. After MOA and drug class are confirmed, re-query the DDI database with enriched drug profile parameters.
 5. **Generate updated Evidence Pack (v5)** — Only after steps 1–4 are complete should a full evaluation report be generated.
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

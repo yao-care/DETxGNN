@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Ofatumumab
-parent: 僅模型預測 (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 277
-evidence_level: L5
+evidence_level: L2
 indication_count: 8
 ---
 
 # Ofatumumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+Evidenzniveau: **L2** | Vorhergesagte Indikationen: **8** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 8
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -98,7 +98,7 @@ It is worth noting that TxGNN's rank #5453 prediction ("chronic lymphocytic leuk
 
 ## Germany Market Information
 
-Per the current regulatory dataset, ofatumumab has **no active marketing authorization in Germany** (`total_licenses = 0`, `market_status = 未上市`/Not Marketed, `licenses = []`). No product records are available to tabulate. This status should be verified directly against BfArM/EMA registries, since global regulatory history for this molecule is not captured by this dataset.
+Per the current regulatory dataset, ofatumumab has **no active marketing authorization in Germany** (`total_licenses = 0`, `market_status = Not marketed`/Not Marketed, `licenses = []`). No product records are available to tabulate. This status should be verified directly against BfArM/EMA registries, since global regulatory history for this molecule is not captured by this dataset.
 
 ---
 
@@ -135,10 +135,10 @@ Follicular lymphoma has a mechanistically coherent, moderately well-supported ev
 - Drug-drug interaction data (currently `not_found`)
 - Direct confirmation of current marketing authorization status with BfArM/EMA
 - If advancing, prioritize completion or replication of a Phase 3 RCT specifically in FL, since current best evidence is Phase 2 (e.g., CALGB 50904) supplemented by one terminated Phase 3 trial (NCT01077518)
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

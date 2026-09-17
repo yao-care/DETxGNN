@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Atosiban
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 39
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Atosiban
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -99,10 +99,10 @@ The top-ranked prediction (Primary Hereditary Glaucoma) has no supporting clinic
 - Detailed mechanism of action data from DrugBank (DG002)
 - Independent biological or preclinical evidence directly linking V1A receptor antagonism to intraocular pressure or aqueous humor regulation (none currently exists)
 - If exploring alternative candidates from this prediction set, note that "vascular disease" (rank 6) has the most literature support (L4) but requires resolving the agonist-vs-antagonist mechanistic contradiction before further investment
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

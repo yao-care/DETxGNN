@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Evolocumab
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 161
 evidence_level: L5
 indication_count: 6
@@ -10,12 +10,12 @@ indication_count: 6
 # Evolocumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -47,7 +47,7 @@ indication_count: 6
 | Predicted New Indication | Symptomatic form of hemophilia in female carriers |
 | TxGNN Prediction Score | 99.82% |
 | Evidence Level | L5 |
-| Taiwan Market Status | 未上市 (Not marketed) |
+| Taiwan Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -77,7 +77,7 @@ Currently no related literature available.
 
 ## Taiwan Market Information
 
-No TFDA-approved licenses are on file for evolocumab in this evidence pack (`total_licenses: 0`). The drug's market status is recorded as **未上市 (Not marketed)** in Taiwan as of the data cutoff (2026-09-03).
+No TFDA-approved licenses are on file for evolocumab in this evidence pack (`total_licenses: 0`). The drug's market status is recorded as **Not marketed (Not marketed)** in Taiwan as of the data cutoff (2026-09-03).
 
 ---
 
@@ -101,10 +101,10 @@ The top-ranked predicted indication (and all five other candidates in this pack)
 - Resolve DG002 (High): retrieve confirmed MOA and original indication(s) from DrugBank API
 - If pursued further, commission a targeted literature/preclinical search specifically testing PCSK9 inhibition in bleeding-disorder models, given the rationale text's explicit concern about opposing mechanism of action
 - Given all 6 ranked candidates in this pack share L5 evidence and Hold status with weak-to-negative mechanistic support, consider deprioritizing this candidate (DB09303) relative to other repurposing candidates with stronger biological rationale
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

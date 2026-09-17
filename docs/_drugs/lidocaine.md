@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lidocaine
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 232
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Lidocaine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -83,10 +83,10 @@ This prediction has Evidence Level L5 — a TxGNN score with no supporting clini
 - Retrieve full DrugBank MOA data to resolve DG002
 - Independent literature/mechanistic search specific to lidocaine and corneal/conjunctival epithelial repair, since none currently exists
 - Note: among this candidate's top-10 predicted indications, **atopic conjunctivitis (rank 5)** is the only one that reached decision stage S1 with a "Research Question" recommendation (L4, based on a plausible neuro-immune mechanism — nasal/topical anesthesia suppressing reflex-mediated allergic conjunctival responses). If pursuing further work on this drug, that candidate is a substantially stronger starting point than punctate epithelial keratoconjunctivitis.
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

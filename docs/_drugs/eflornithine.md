@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Eflornithine
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 136
 evidence_level: L5
 indication_count: 2
@@ -10,12 +10,12 @@ indication_count: 2
 # Eflornithine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -99,10 +99,10 @@ There is no clinical trial or literature evidence for eflornithine in esotropia,
 - TFDA-sourced package insert warnings and contraindications (currently a data gap; classified as Blocking for safety pre-screening)
 - Preclinical or mechanistic studies exploring any plausible link between polyamine metabolism and ocular motor pathways, if this candidate is to be pursued further
 - Ongoing monitoring for newly registered trials or publications on eflornithine in ophthalmic indications
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Rasburicase
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 329
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Rasburicase
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -105,10 +105,10 @@ The evidence pack for Rasburicase (DB00049) is critically incomplete — it lack
 - **[Critical]** Investigate why `predicted_indications` is empty — confirm whether the TxGNN knowledge graph contains the Rasburicase node (DB00049) and re-run the prediction pipeline; check for missing drug–disease edges in the KG
 - **[High]** Conduct G6PD-deficiency interaction review as a mandatory safety prerequisite for any potential new indication in populations at elevated G6PD-deficiency prevalence
 - **[Medium]** Confirm EU/US approval status and indication text from Fasturtec/Elitek SmPC as a reference anchor for the original indication field, which is currently empty
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

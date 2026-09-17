@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Telmisartan
-parent: 僅模型預測 (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 383
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Telmisartan
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -118,10 +118,10 @@ Note: Key warnings, contraindications, and DDI data could not be retrieved for t
 - Clarify telmisartan's specific role and dosing within the TRIDENT combination-pill trial (NCT02699645) versus the pill's other components
 - Assess the regulatory pathway/feasibility for obtaining German marketing authorization, given zero current licenses
 - If pursuing the secondary candidate (intracerebral hemorrhage, L3), similarly disentangle telmisartan's independent contribution from the combination therapy design
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

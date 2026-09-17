@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Pitolisant
-parent: 僅模型預測 (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 309
-evidence_level: L5
+evidence_level: L4
 indication_count: 3
 ---
 
 # Pitolisant
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -112,10 +112,10 @@ The predicted indication (insomnia) is mechanistically implausible given pitolis
 - Formal DrugBank MOA confirmation (currently a data gap, DG002)
 - TFDA/BfArM label warnings and contraindications (currently a blocking data gap, DG001) before any safety-relevant evaluation
 - If the KG node is confirmed as true insomnia (not a mislabeled hypersomnia-adjacent node), dedicated preclinical or clinical insomnia data would be required before this candidate could be reconsidered
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

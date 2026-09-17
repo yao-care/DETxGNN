@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Zonisamide
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 435
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Zonisamide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -99,10 +99,10 @@ The TxGNN score for Tourette syndrome is high, but it is unsupported by any clin
 - TFDA label warnings/contraindications to clear the S1 safety gate (DG001)
 - At minimum, preclinical or case-series evidence directly evaluating zonisamide in tic disorders
 - Consider re-prioritizing: this same evidence pack contains two candidates with substantially stronger evidence — **absence epilepsy** (rank 8, evidence level L1, "Proceed with Guardrails", supported by a completed Phase 3 RCT n=583 and multiple cohort studies) and **manic/mixed bipolar disorder** (rank 7, evidence level L2, "Research Question", supported by a placebo-controlled RCT). These may represent more actionable near-term repurposing opportunities than Tourette syndrome.
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

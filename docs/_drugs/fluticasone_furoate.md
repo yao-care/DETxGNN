@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Fluticasone Furoate
-parent: 僅模型預測 (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 171
-evidence_level: L5
+evidence_level: L3
 indication_count: 8
 ---
 
 # Fluticasone Furoate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+Evidenzniveau: **L3** | Vorhergesagte Indikationen: **8** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 8
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -111,10 +111,10 @@ Evidence for the atopic eczema prediction is class-level only (derived from flut
 - Furoate-specific (not propionate) clinical evidence in an eczema/dermatitis population
 - Formulation feasibility assessment — furoate currently exists only as nasal/inhaled products; a topical form would need to be developed
 - Consider evaluating the higher-evidence candidate identified elsewhere in this evidence pack: **bronchitis** (rank 2, L2, "Proceed with Guardrails"), which has direct furoate trial support (e.g., NCT02989935, RELVAR/fluticasone furoate-vilanterol in COPD/bronchitis)
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

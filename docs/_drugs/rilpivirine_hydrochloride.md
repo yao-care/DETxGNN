@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Rilpivirine Hydrochloride
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 341
 evidence_level: L5
 indication_count: 0
@@ -10,12 +10,12 @@ indication_count: 0
 # Rilpivirine Hydrochloride
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **0** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 0
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -45,7 +45,7 @@ Rilpivirine Hydrochloride is a non-nucleoside reverse transcriptase inhibitor (N
 | Predicted New Indication | No predictions generated |
 | TxGNN Prediction Score | — |
 | Evidence Level | L5 — No model output available |
-| Taiwan Market Status | Not marketed (未上市) |
+| Taiwan Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | **Hold** |
 
@@ -82,10 +82,10 @@ The Evidence Pack is missing all components required for a repurposing evaluatio
 - **Populate original_indications** — the field is empty despite DrugBank and package insert data being available; align with retrieved regulatory text
 - **Confirm Taiwan market status** — the drug is marketed globally under brand names (e.g., Edurant, Odefsey, Juluca); investigate whether it is registered in Taiwan under a combination product or different INN spelling
 - **Address DG001 (Blocking)** — TFDA package insert warnings/contraindications must be resolved before any safety tier assessment can begin
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

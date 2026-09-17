@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Linaclotide
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 233
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Linaclotide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -47,7 +47,7 @@ indication_count: 3
 | Predicted New Indication | Cauda Equina Syndrome |
 | TxGNN Prediction Score | 99.96% (rank 766) |
 | Evidence Level | L5 (model prediction only, no supporting studies) |
-| Germany Market Status | 未上市 (Not marketed) |
+| Germany Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | **Hold** |
 
@@ -77,7 +77,7 @@ Currently no related literature available.
 
 ## Germany Market Information
 
-Linaclotide is not marketed in Germany (`market_status: 未上市`), and no authorization records are present in the evidence pack (0 licenses).
+Linaclotide is not marketed in Germany (`market_status: Not marketed`), and no authorization records are present in the evidence pack (0 licenses).
 
 ---
 
@@ -107,10 +107,10 @@ The prediction has no supporting clinical trial or literature evidence (L5, mode
 - TFDA label warnings/contraindications (DG001 — Blocking) to enable S1 safety pre-assessment
 - Independent mechanistic or preclinical evidence directly linking GC-C agonism to cauda equina pathophysiology, if such a hypothesis is to be pursued further
 - Given the absence of any biological rationale, this candidate is not recommended for further development unless new primary evidence emerges
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

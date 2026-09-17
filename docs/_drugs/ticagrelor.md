@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Ticagrelor
-parent: 僅模型預測 (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 395
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Ticagrelor
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -114,10 +114,10 @@ The mechanistic rationale and supporting Phase 3 evidence (GLOBAL LEADERS, EUCLI
 - Confirm the original approved indication text and detailed mechanism of action (MOA) from DrugBank or regulatory source
 - Monitor CAPTIVA trial completion (expected 2027) for direct disease-specific efficacy/safety readout in intracranial arteriosclerosis
 - Assess local pathway for market entry given current "not marketed" status in Germany
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

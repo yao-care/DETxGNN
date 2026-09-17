@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Imatinib
-parent: 僅模型預測 (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 197
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Imatinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -88,7 +88,7 @@ By contrast, the top-scored candidate by raw TxGNN score alone, "heart fibrosarc
 
 ## Germany Market Information
 
-Imatinib is currently **not marketed** in this jurisdiction (`market_status: 未上市`), and no product authorization records are present in this evidence pack (`total_licenses: 0`). Regulatory approval and product listing data will need to be sourced separately if repurposing is pursued.
+Imatinib is currently **not marketed** in this jurisdiction (`market_status: Not marketed`), and no product authorization records are present in this evidence pack (`total_licenses: 0`). Regulatory approval and product listing data will need to be sourced separately if repurposing is pursued.
 
 ---
 
@@ -144,10 +144,10 @@ The single well-supported signal in this evidence pack is Fibroblastic Neoplasm/
 - Molecular confirmation protocol (COL1A1-PDGFB testing) to define the target subpopulation for Fibroblastic Neoplasm/Conventional Fibrosarcoma indications
 - For Liposarcoma: PDGFR/KIT expression-based patient enrichment strategy before further evaluation
 - Regulatory pathway assessment, since the drug is not currently marketed in this jurisdiction (0 authorizations)
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

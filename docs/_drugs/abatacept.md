@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Abatacept
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 13
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Abatacept
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -45,7 +45,7 @@ and it is currently **not marketed in Taiwan** with **0 authorizations** on reco
 | Predicted New Indication | None (no TxGNN predictions available) |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5 — Model prediction not yet available |
-| Taiwan Market Status | ✗ Not marketed (未上市) |
+| Taiwan Market Status | ✗ Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | **Hold** |
 
@@ -109,10 +109,10 @@ No TxGNN-predicted indications are currently available for Abatacept, and two si
 - **Re-run TxGNN prediction pipeline** once knowledge graph inputs for Abatacept are complete
 - **Re-query clinical trials and literature databases** once a predicted indication is available
 - **Reassess Taiwan regulatory pathway** if a viable repurposing candidate emerges, given that Abatacept is currently not marketed in Taiwan
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

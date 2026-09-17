@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Elvitegravir
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 142
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Elvitegravir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -75,7 +75,7 @@ Currently no related literature available.
 
 ## Germany Market Information
 
-Elvitegravir is not marketed in Germany — `taiwan_regulatory.market_status` reports "未上市" (Not marketed) with 0 total licenses and no license records available in the Evidence Pack.
+Elvitegravir is not marketed in Germany — `taiwan_regulatory.market_status` reports "Not marketed" (Not marketed) with 0 total licenses and no license records available in the Evidence Pack.
 
 ---
 
@@ -100,10 +100,10 @@ Please refer to the package insert for safety information.
 - Confirmed original indication and MOA data for elvitegravir (resolve DG002), ideally sourced directly from DrugBank/regulatory labeling rather than inferred from rationale text
 - Re-screening of TxGNN outputs for elvitegravir to identify any human-relevant candidate indications, since the current top-3 predictions are not clinically actionable
 - If FIV or SIV signals are retained for any exploratory purpose, they should be routed to a veterinary/translational research track rather than the human drug-repurposing evaluation pipeline
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

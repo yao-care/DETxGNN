@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Vortioxetine
-parent: 僅模型預測 (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 430
-evidence_level: L5
+evidence_level: L4
 indication_count: 5
 ---
 
 # Vortioxetine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **5** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -105,10 +105,10 @@ The top-ranked TxGNN prediction ("Neurotic Disorder") is supported only by a non
 - Obtain confirmed mechanism-of-action documentation from DrugBank (currently a High-severity data gap)
 - Clarify whether "Neurotic Disorder" maps to a modern, actionable diagnostic entity, or whether effort should instead be redirected to the better-evidenced **Melancholia** candidate (L1, 6 Phase 3 RCTs) identified in the same prediction batch
 - If pursuing Neurotic Disorder specifically, seek trials or studies with inclusion criteria matching this diagnostic label rather than general antidepressant-comparison cohorts
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

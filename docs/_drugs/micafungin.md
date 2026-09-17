@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Micafungin
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 255
 evidence_level: L5
 indication_count: 1
@@ -10,12 +10,12 @@ indication_count: 1
 # Micafungin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -45,7 +45,7 @@ Micafungin is an echinocandin antifungal established for the treatment of invasi
 | Predicted New Indication | Urinary Tract Infection (Candiduria) |
 | TxGNN Prediction Score | 99.03% |
 | Evidence Level | L3 (predominantly case reports/case series; one multi-institutional retrospective study; no RCTs) |
-| Germany Market Status | 未上市 (Not marketed) |
+| Germany Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -106,10 +106,10 @@ Evidence for candiduria is currently limited to case reports, small case series,
 - Confirmed mechanism of action data from DrugBank
 - Prospective or comparative clinical data on micafungin dosing/urinary pharmacokinetics for candiduria, given historical concerns about low urinary excretion
 - Regulatory pathway assessment given the drug is not currently marketed in Germany
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

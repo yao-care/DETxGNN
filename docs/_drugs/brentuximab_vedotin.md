@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Brentuximab Vedotin
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 63
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Brentuximab Vedotin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -85,10 +85,10 @@ The TxGNN pipeline returned zero predictions for BRENTUXIMAB VEDOTIN in this run
 2. **Resolve DG002 (High)** — Query the DrugBank API (DB08870) to obtain the full mechanism of action, drug categories, and toxicity data; this enables mechanistic plausibility analysis and cytotoxicity assessment.
 3. **Re-run TxGNN prediction pipeline** — Once drug-level data is complete, resubmit to the prediction model to generate candidate repurposing indications with confidence scores.
 4. **Confirm original approved indications** — The `original_indications` array is currently empty; cross-reference with DrugBank or EMA/FDA label to populate this field before the next pipeline run.
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

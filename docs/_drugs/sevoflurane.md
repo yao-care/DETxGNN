@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Sevoflurane
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 362
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Sevoflurane
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -47,7 +47,7 @@ TxGNN 模型預測其可能對 **Prinzmetal 心絞痛（變異型心絞痛）** 
 | 預測新適應症 | Prinzmetal Angina（變異型心絞痛） |
 | TxGNN 預測分數 | 99.78% |
 | 證據等級 | L5（純模型預測，無實際研究） |
-| 台灣市場狀態 | 未上市 |
+| 台灣市場狀態 | Not marketed |
 | 許可證數量 | 0 |
 | 建議決策 | **Hold** |
 
@@ -88,7 +88,7 @@ Sevoflurane 於本資料集中**尚未於台灣上市**，無許可證資料可�
 
 本候選藥物的關鍵安全性資料（TFDA 仿單警語、禁忌症、藥物交互作用）**目前均尚未取得**，
 且此缺口已被標記為 **Blocking（DG001）**——在補齊之前，無法進入下一階段的安全性初評（S1）。
-建議優先向 TFDA 官網下載正式仿單並解析警語與禁忌內容。
+建議優先向 BfArM website下載正式仿單並解析警語與禁忌內容。
 
 在資料補齊前，請暫以原廠仿單（package insert）之警告與注意事項為準。
 
@@ -111,10 +111,10 @@ migraine disorder、inclusion body myositis）亦均為 Hold，且現有文獻�
 - TFDA 正式仿單 PDF 解析，取得警語與禁忌症（DG001，Blocking）
 - DrugBank API 查詢完整作用機轉資料（DG002，High）
 - 若欲驗證 Prinzmetal angina 假說，需補充體外/動物層級的冠狀動脈平滑肌機轉研究，作為啟動前瞻性臨床觀察的前提
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

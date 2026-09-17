@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Degarelix
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 118
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Degarelix
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -47,7 +47,7 @@ indication_count: 10
 | 預測新適應症 | Hypertrichosis (multi-hair growth) |
 | TxGNN 預測分數 | 99.99%（rank 275） |
 | 證據等級 | L5（僅模型預測，無臨床試驗或文獻支持） |
-| 上市狀態 | 未上市 |
+| 上市狀態 | Not marketed |
 | 核准張數 | 0 |
 | 建議決策 | **Hold** |
 
@@ -77,7 +77,7 @@ indication_count: 10
 
 ## 上市資訊
 
-目前查無上市許可資料（`total_licenses = 0`，市場狀態：未上市）。
+目前查無上市許可資料（`total_licenses = 0`，市場狀態：Not marketed）。
 
 ---
 
@@ -101,10 +101,10 @@ indication_count: 10
 - Degarelix 正式作用機轉來源，如 DrugBank API 查詢結果（DG002，High）
 - 針對 hypertrichosis 或其他候選適應症之直接臨床試驗或機轉研究文獻（目前完全缺乏）
 - 重新檢視排名第 4 候選之文獻匹配邏輯，避免關鍵字雜訊誤導後續證據收集資源分配
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

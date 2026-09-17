@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Bortezomib
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 59
 evidence_level: L5
 indication_count: 0
@@ -10,12 +10,12 @@ indication_count: 0
 # Bortezomib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **0** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 0
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -94,10 +94,10 @@ The TxGNN pipeline returned no predicted indications, and all three critical dat
 - **TxGNN re-run**: Once drug metadata is complete, re-execute the prediction pipeline to generate candidate indications
 - **DDI analysis**: Run drug–drug interaction query after base drug profile is established
 - **Taiwan registration**: Verify whether any import or hospital-use exemption pathways apply, given zero current authorizations
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Dronedarone
-parent: 僅模型預測 (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 129
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Dronedarone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -125,10 +125,10 @@ Multiple real-world cohort studies and ATHENA post-hoc analyses support a stroke
 - A protocol that explicitly restricts the stroke-prevention claim to paroxysmal/persistent AF and excludes permanent AF
 - A monitoring plan for known interactions (e.g., digoxin) and cardiac safety (heart rate/QT, hepatic function)
 - Clarification of German market entry pathway, given the drug is not currently marketed there
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

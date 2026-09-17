@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Imidacloprid
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 198
 evidence_level: L5
 indication_count: 9
@@ -10,12 +10,12 @@ indication_count: 9
 # Imidacloprid
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **9** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 9
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -101,10 +101,10 @@ Imidacloprid is not a human pharmaceutical, has no marketing authorization in Ge
 - Independent mechanistic validation explaining why a vertebrate-nAChR-sparing insecticide would have any activity in the predicted indications
 - Re-evaluation of the TxGNN prediction itself, given the high likelihood these are graph-topology artifacts rather than biologically grounded signals
 - If none of the above can be established, this candidate should be deprioritized/closed rather than held indefinitely
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

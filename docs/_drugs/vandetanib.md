@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Vandetanib
-parent: 僅模型預測 (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 420
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Vandetanib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -45,7 +45,7 @@ Vandetanib is an oral multi-kinase inhibitor (VEGFR2/VEGFR3/EGFR/RET) originally
 | Predicted New Indication | Renal cell carcinoma |
 | TxGNN Prediction Score | 99.92% |
 | Evidence Level | L2 |
-| Germany Market Status | 未上市 (Not marketed) |
+| Germany Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -87,7 +87,7 @@ That said, the strongest clinical signal comes specifically from VHL-disease-ass
 
 ## Germany Market Information
 
-Vandetanib is currently **not marketed in Germany** (market status: 未上市, 0 authorizations on file). No German marketing authorization records are available in this evidence pack.
+Vandetanib is currently **not marketed in Germany** (market status: Not marketed, 0 authorizations on file). No German marketing authorization records are available in this evidence pack.
 
 ---
 
@@ -124,10 +124,10 @@ The mechanistic rationale and clinical evidence for VHL-associated/clear cell RC
 - Completed DDI database query (currently `not_found`)
 - Subgroup clarification: prioritize VHL-disease/clear cell RCC populations over general "renal cell carcinoma" given the mechanistic and trial-design specificity
 - Larger, non-terminated confirmatory trial, since both directly-targeted RCC trials (NCT01372813, NCT02495103) were terminated early with very small enrollment
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

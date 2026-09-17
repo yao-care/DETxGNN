@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Aprepitant
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 33
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Aprepitant
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -47,7 +47,7 @@ indication_count: 10
 | 預測新適應症 | Nephrogenic syndrome of inappropriate antidiuresis（腎因型抗利尿激素分泌不當症候群） |
 | TxGNN 預測分數 | 99.97%（rank 616） |
 | 證據等級 | L5（僅模型預測，無臨床試驗、無文獻） |
-| 台灣上市狀態 | 未上市 |
+| 台灣上市狀態 | Not marketed |
 | 許可證數量 | 0 |
 | 建議決策 | Hold |
 
@@ -106,13 +106,13 @@ Aprepitant 目前**未於台灣上市**，無核准藥品許可證（`total_lice
 
 **若要推進，需要補齊：**
 - 下載並解析 TFDA 官方仿單，取得警語、禁忌、劑型資訊（DG001）
-- 查詢 DrugBank API 取得 aprepitant 完整作用機轉資料（DG002）
+- Query the DrugBank API 取得 aprepitant 完整作用機轉資料（DG002）
 - 針對 rank 9（subarachnoid hemorrhage）之 Substance P/NK1R 機轉假說進行專門文獻檢索，確認是否有可用實證
 - 排除 rank 3、rank 6 之雜訊文獻，避免誤判為支持證據
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

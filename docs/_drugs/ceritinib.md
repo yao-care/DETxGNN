@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ceritinib
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 95
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Ceritinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -77,7 +77,7 @@ Currently no related literature available
 
 ## Germany Market Information
 
-Ceritinib is currently **not marketed in Germany** (market status: 未上市) with **0 registered authorizations**. No license records are available to extract product name, dosage form, or approved indication text.
+Ceritinib is currently **not marketed in Germany** (market status: Not marketed) with **0 registered authorizations**. No license records are available to extract product name, dosage form, or approved indication text.
 
 ---
 
@@ -112,10 +112,10 @@ The top-ranked predicted indication (Fibromatosis, Gingival) has zero supporting
 - TFDA/BfArM package insert data (warnings, contraindications) — currently a Blocking data gap
 - DrugBank-sourced mechanism of action (MOA) data — currently a High-severity gap
 - If repurposing exploration continues for this drug, prioritize re-scoring or manual curation of lower-ranked candidates with richer but currently mismatched evidence (e.g., rank 7 "lung germ cell tumor," where literature actually concerns ALK-driven neuroblastoma and a completed CNS-penetration trial) rather than the rank-1 candidate presented here
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

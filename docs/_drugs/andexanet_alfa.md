@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Andexanet Alfa
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 31
 evidence_level: L5
 indication_count: 4
@@ -10,12 +10,12 @@ indication_count: 4
 # Andexanet Alfa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -91,10 +91,10 @@ All four TxGNN-predicted indications for andexanet alfa show no clinical trial o
 - TFDA/BfArM package insert (warnings, contraindications) — blocking gap, required before any S1 safety pre-screen
 - Any preclinical or mechanistic studies specifically linking Factor Xa decoy activity to platelet-function disorders, if such evidence emerges
 - Re-evaluation if new clinical trials or publications on any of the four candidate indications are registered
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

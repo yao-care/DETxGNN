@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Pembrolizumab
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 300
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Pembrolizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -112,10 +112,10 @@ The top-ranked candidate carries a high raw TxGNN score but zero supporting clin
 - TFDA/BfArM label warnings and contraindications (currently a Blocking data gap)
 - Independent literature/pathology review to determine whether any PD-L1 or immune-mediated component exists in refractory gingival fibromatosis before further scoring
 - Note: other candidates in this evidence pack — *lung hilum carcinoma* (L4, S1, Research Question) and *lung germ cell tumor* (L3, S1, Research Question) — carry stronger mechanistic and literature support and may warrant evaluation ahead of this top-ranked candidate
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Peginterferon Alfa-2A
-parent: 僅模型預測 (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 298
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Peginterferon Alfa-2A
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -101,7 +101,7 @@ That said, the sheer depth of Phase 3/4 randomized and real-world evidence — i
 
 ## Germany Market Information
 
-No marketing authorizations are currently on record for Peginterferon Alfa-2a in the Germany regulatory dataset (`market_status: 未上市 / Not Marketed`, 0 total licenses). This is inconsistent with the drug's well-documented clinical trial history and likely reflects a data completeness gap in the regulatory source rather than an actual absence from the German market — this should be verified directly against BfArM records before finalizing any decision.
+No marketing authorizations are currently on record for Peginterferon Alfa-2a in the Germany regulatory dataset (`market_status: Not marketed / Not Marketed`, 0 total licenses). This is inconsistent with the drug's well-documented clinical trial history and likely reflects a data completeness gap in the regulatory source rather than an actual absence from the German market — this should be verified directly against BfArM records before finalizing any decision.
 
 ---
 
@@ -126,10 +126,10 @@ The clinical evidence base for Peginterferon Alfa-2a in Hepatitis B Virus Infect
 - Verify actual German market/authorization status against BfArM records (current "0 licenses" appears to be a data gap, not a true absence)
 - Confirm and document the drug's actual original approved indication(s) to correctly classify this as label-confirmation vs. true repurposing
 - Consider Hepatitis E virus infection (rank 2, L3 evidence: humanized-mouse model + case reports + one systematic review) as a separate, genuinely exploratory research question worth independent follow-up
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

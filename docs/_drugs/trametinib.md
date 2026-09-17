@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Trametinib
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 409
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Trametinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -45,7 +45,7 @@ indication_count: 10
 | Best-Supported New Indications | **Superficial spreading melanoma** and **Nodular malignant melanoma** (histological subtypes of cutaneous melanoma) |
 | TxGNN Prediction Score (top pick) | 99.14% (both indications, tied) |
 | Evidence Level | L2 (1 completed Phase 2 trial + supporting cohort/case literature) |
-| Germany Market Status | Not marketed (未上市) |
+| Germany Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | **Proceed with Guardrails** (for melanoma-subtype extensions, conditional on BRAF V600 testing) — see full ranking below for other candidates |
 
@@ -120,7 +120,7 @@ Trials below form the core evidence base underpinning trametinib's BRAF/MEK mech
 
 ## Germany Market Information
 
-Trametinib is currently **not marketed** in Germany under this evidence pack's regulatory data source (market status: 未上市, 0 authorizations on file). No license table can be produced.
+Trametinib is currently **not marketed** in Germany under this evidence pack's regulatory data source (market status: Not marketed, 0 authorizations on file). No license table can be produced.
 
 ---
 
@@ -157,10 +157,10 @@ Please refer to the package insert for safety information. (TFDA/BfArM warning, 
 - DrugBank-sourced mechanism of action and toxicity profile (DG002)
 - BRAF V600 mutation-status stratification data for any subtype-specific trial design
 - Confirmation of trametinib's approved label scope (cutaneous vs. all melanoma) from an authoritative regulatory source, since it is absent from the regulatory data provided here
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

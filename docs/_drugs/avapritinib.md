@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Avapritinib
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 40
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Avapritinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -103,10 +103,10 @@ All 10 top-ranked predicted indications are evidence level L5 (model prediction 
 - Mechanism of action data from DrugBank (DG002)
 - Confirmation of avapritinib's original approved indication(s) to establish a repurposing baseline
 - Independent literature/clinical trial search for the top-ranked predicted indications, since the current zero-hit result may reflect either a genuinely novel signal or a coverage limitation of the evidence pack
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

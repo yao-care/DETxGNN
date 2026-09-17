@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Erenumab
-parent: 僅模型預測 (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 154
-evidence_level: L5
+evidence_level: L3
 indication_count: 1
 ---
 
 # Erenumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Evidenzniveau: **L3** | Vorhergesagte Indikationen: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -114,10 +114,10 @@ The CGRP-blockade mechanism is biologically well-supported for migraine broadly,
 - Structured mechanism-of-action documentation (DG002) to strengthen the mechanistic linkage analysis
 - A dedicated prospective study or registry specifically enrolling migraine-with-brainstem-aura patients, given this subgroup's historical exclusion from pivotal RCTs
 - Clarification of regulatory pathway/timeline, since erenumab currently has no market authorization in Germany
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

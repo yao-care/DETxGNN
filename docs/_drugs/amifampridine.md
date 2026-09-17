@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Amifampridine
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 27
 evidence_level: L5
 indication_count: 2
@@ -10,12 +10,12 @@ indication_count: 2
 # Amifampridine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -47,7 +47,7 @@ A second, lower-priority candidate indication, **Acute Intermittent Porphyria**,
 | Predicted New Indication | Glaucoma |
 | TxGNN Prediction Score | 99.71% |
 | Evidence Level | L5 (model prediction only, no clinical or literature support) |
-| Germany Market Status | ✗ Not Marketed (未上市) |
+| Germany Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -79,7 +79,7 @@ Currently no related literature available
 
 ## Germany Market Information
 
-Amifampridine currently holds **no marketing authorizations in Germany** (market status: 未上市 / Not Marketed; total licenses: 0). No product, dosage form, or approved-indication data is available to summarize.
+Amifampridine currently holds **no marketing authorizations in Germany** (market status: Not marketed / Not Marketed; total licenses: 0). No product, dosage form, or approved-indication data is available to summarize.
 
 ---
 
@@ -117,10 +117,10 @@ Both predicted indications (glaucoma and acute intermittent porphyria) are suppo
 - Verified mechanism of action and original approved indication data from DrugBank or another authoritative source (DG002)
 - Preclinical or in vitro evidence connecting amifampridine's K+ channel activity to IOP regulation (for the glaucoma candidate)
 - Any case reports, observational data, or mechanistic studies linking amifampridine to AIP-related neuropathy (for the secondary candidate)
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

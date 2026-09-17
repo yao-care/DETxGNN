@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Nintedanib
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 270
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Nintedanib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -45,7 +45,7 @@ indication_count: 3
 | Predicted New Indication | Dermatofibrosarcoma Protuberans |
 | TxGNN Prediction Score | 99.15% |
 | Evidence Level | L4 (preclinical / mechanism-level only) |
-| Taiwan Market Status | 未上市 (Not Marketed) |
+| Taiwan Market Status | Not marketed (Not Marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -89,10 +89,10 @@ The DFSP prediction rests on a plausible but indirect mechanistic argument (PDGF
 - Confirmed MOA and original approved indication(s) for Nintedanib from DrugBank (DG002)
 - Nintedanib-specific preclinical (e.g., PDGFRB-fusion cell line/xenograft) or case-level clinical data in DFSP
 - Re-evaluation of liposarcoma and ovarian myxoid liposarcoma predictions if any supporting literature emerges (currently no basis to proceed)
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tadalafil
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 376
 evidence_level: L5
 indication_count: 8
@@ -10,12 +10,12 @@ indication_count: 8
 # Tadalafil
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **8** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 8
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -104,10 +104,10 @@ The top-ranked prediction (Ambras type hypertrichosis universalis congenita) has
 **Note on other candidates in this pack:** Two lower-ranked predictions merit separate attention rather than dismissal alongside rank 1:
 - **Rank 7 — Kyphoscoliotic heart disease** (Research Question stage): PDE5 inhibitors are an established drug class for pulmonary arterial hypertension (PAH), and kyphoscoliosis-associated restrictive lung disease can lead to secondary PAH. This is a plausible class-effect hypothesis worth checking against whether tadalafil's known PAH indication (e.g., Adcirca) was simply omitted from this evidence pack's original_indications field.
 - **Rank 8 — Migraine with brainstem aura**: The single supporting citation is a case report of tadalafil-*induced* migraine aura (an adverse event), not a treatment-efficacy signal. This should be read as a safety signal, not a repurposing candidate.
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Pioglitazone
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 307
 evidence_level: L5
 indication_count: 9
@@ -10,12 +10,12 @@ indication_count: 9
 # Pioglitazone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **9** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 9
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -101,10 +101,10 @@ The top-ranked prediction (opsismodysplasia) is supported only by a model simila
 - TFDA/BfArM label warnings and contraindications (Blocking gap — required before S1 safety evaluation)
 - Independent mechanistic or preclinical evidence connecting PPAR-γ signaling to INT-complex-associated skeletal pathology
 - If pursuing repurposing research, consider prioritizing the pack's lower-ranked lipodystrophy-related predictions (ranks 5–8) instead, as these have a documented PPAR-γ/adipogenesis mechanistic rationale, even though they too currently lack clinical or trial evidence and remain at the "Research Question" stage
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

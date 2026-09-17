@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Ketoconazole
-parent: 僅模型預測 (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 217
-evidence_level: L5
+evidence_level: L4
 indication_count: 1
 ---
 
 # Ketoconazole
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -113,10 +113,10 @@ A blocking data gap exists — TFDA/BfArM label warnings and contraindications a
 - Await completion and results of NCT07237763
 - Confirm drug-drug interaction (DDI) profile, particularly given ketoconazole's known CYP3A4 inhibition
 - Clarify German/EU marketing authorization status for this compound and formulation
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Dasatinib
-parent: 僅模型預測 (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 113
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Dasatinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -91,7 +91,7 @@ Clinically, this mechanistic rationale has already been tested: a completed Phas
 
 ## Germany Market Information
 
-Dasatinib is currently **not marketed in Germany** under this evidence pack (0 authorizations on record; `market_status`: "未上市"). No license records are available to summarize.
+Dasatinib is currently **not marketed in Germany** under this evidence pack (0 authorizations on record; `market_status`: "Not marketed"). No license records are available to summarize.
 
 ---
 
@@ -127,10 +127,10 @@ The mechanistic rationale (Src-dependent invasion in Ewing sarcoma) is credible 
 - Confirmed mechanism-of-action data from DrugBank (DG002)
 - Resolution of the `original_indications`/`market_status` data inconsistency flagged above, so the true original indication and current authorization status can be confirmed
 - If pursued further, evaluation should focus on combination regimens (e.g., with chemotherapy or FAK inhibitors) rather than dasatinib monotherapy, given the negative single-agent signal in NCT00464620
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

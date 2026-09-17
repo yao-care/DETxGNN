@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Latanoprost
-parent: 僅模型預測 (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 224
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Latanoprost
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -105,10 +105,10 @@ A single completed Phase 2 trial (L2 evidence) directly supports latanoprost's I
 - Confirmation of original approved indication(s), since none are currently on file
 - Additional trials or literature specific to *hereditary* (vs. general pediatric) glaucoma subtypes to close the label-match gap
 - Route/formulation compatibility assessment once market status is clarified
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Cladribine
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 103
 evidence_level: L5
 indication_count: 7
@@ -10,12 +10,12 @@ indication_count: 7
 # Cladribine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **7** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -114,10 +114,10 @@ All seven predicted indications in this evidence pack — including the top-rank
 - Preclinical or mechanistic studies linking cladribine activity to rhabdomyosarcoma-specific pathways (e.g., PAX3/FOXO1)
 - Any case reports, compassionate-use data, or early-phase trials in pediatric sarcoma populations
 - Pediatric-specific safety and dosing data, given the target population is predominantly children
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

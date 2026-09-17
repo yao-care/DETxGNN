@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lopinavir
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 238
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Lopinavir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -47,7 +47,7 @@ indication_count: 3
 | 預測新適應症 | Simian Immunodeficiency Virus Infection（猿猴免疫缺陷病毒感染） |
 | TxGNN 預測分數 | 99.90% |
 | 證據等級 | L4（動物臨床前研究） |
-| 台灣上市狀態 | 未上市 |
+| 台灣上市狀態 | Not marketed |
 | 許可證數量 | 0 |
 | 建議決策 | Hold |
 
@@ -89,7 +89,7 @@ Lopinavir 目前在台灣**未取得任何藥品許可證**（許可證數量：
 
 請參考仿單安全性資訊。
 
-> 補充說明：本次評估發現 **Blocking 等級資料缺口**——TFDA 仿單警語/禁忌資料尚未取得，導致本案**無法進入 S1 安全性初評階段**。在此缺口解除前，不建議進行任何臨床或法規層面的後續動作。
+> 補充說明：本次評估發現 **Blocking 等級資料缺口**——BfArM package insert warnings/contraindications資料尚未取得，導致本案**Cannot proceed to S1 safety screening階段**。在此缺口解除前，不建議進行任何臨床或法規層面的後續動作。
 
 ---
 
@@ -110,17 +110,17 @@ Lopinavir 目前在台灣**未取得任何藥品許可證**（許可證數量：
 
 **理由：**
 - 現有證據僅止於動物臨床前模型，且多數研究目的是測試藥效而非開發 SIV 感染之獨立適應症；SIV/FIV 感染本質上為動物疾病，人類臨床應用價值有限。
-- 安全性資料存在 **Blocking 等級缺口**（TFDA 仿單警語/禁忌未取得），依規定無法進入 S1 安全性初評，程序上不可推進。
+- 安全性資料存在 **Blocking 等級缺口**（BfArM package insert warnings/contraindications未取得），依規定Cannot proceed to S1 safety screening，程序上不可推進。
 
 **若要繼續推進，需要補齊：**
 - TFDA 仿單完整警語與禁忌資料，以解除 S1 安全性初評之 Blocking 缺口（DG001）
 - Lopinavir 正式作用機轉（MOA）資料，以強化機轉關聯性分析（DG002）
 - 釐清 SIV/FIV 感染是否具備對應之人類臨床意義，或應將此預測方向重新定位為動物用藥/臨床前研究工具，而非人用老藥新用候選
 - 若仍欲推進人用適應症方向，需取得實際人體臨床試驗證據，而非僅依賴動物模型文獻
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

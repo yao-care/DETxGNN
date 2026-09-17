@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Grazoprevir
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 186
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Grazoprevir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -43,7 +43,7 @@ Grazoprevir is an HCV NS3/4A protease inhibitor marketed as part of the fixed-do
 | Predicted New Indication | HIV infectious disease |
 | TxGNN Prediction Score | 99.73% |
 | Evidence Level | L5 (model prediction only; no study directly treats HIV with grazoprevir) |
-| Taiwan Market Status | 未上市 (Not marketed) |
+| Taiwan Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | **Hold** |
 
@@ -114,10 +114,10 @@ The TxGNN score (99.73%) is not corroborated by any trial or literature evidence
 - If in vitro signal is negative (expected), this candidate should be closed rather than advanced
 
 **Note on other ranked predictions in this pack:** Ranks 2–10 (HBV, HEV, HAV, animal hepatitis, Omsk hemorrhagic fever, SIV, FIV, a rare neurodevelopmental disorder) were also reviewed and show the same or weaker pattern — all scored "Hold" (L5, no genuine mechanistic or clinical support), except rank 7 (Kyasanur forest disease), which was flagged as a low-priority **research question** based on one in-silico docking study (PMID 34662258) exploiting cross-genus Flaviviridae NS3 protease conservation — still requiring wet-lab validation before any further action.
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

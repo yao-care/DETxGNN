@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Glucarpidase
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 183
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Glucarpidase
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -91,10 +91,10 @@ All 10 predicted indications (diabetic cataract, diabetic retinopathy, and 8 oth
 - TFDA/manufacturer package insert warnings and contraindications (currently Data Gap, DG001 — Blocking)
 - Independent preclinical or mechanistic studies establishing a plausible pathway between carboxypeptidase G2 activity and lens/retinal pathology before any further evaluation is warranted
 - Re-evaluation should only be triggered if new literature or trial data emerges; no active investment is recommended at this time
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

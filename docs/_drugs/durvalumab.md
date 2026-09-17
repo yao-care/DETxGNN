@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Durvalumab
-parent: 僅模型預測 (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 132
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Durvalumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -97,10 +97,10 @@ The top-ranked predicted indication (prostatic urethra urothelial carcinoma) has
 - Confirmation of original approved indications and Germany licensing status
 
 **Note:** Among the ten candidates in this pack, **endocervical carcinoma** (rank 6) shows meaningfully stronger evidence — one completed Phase 1 and one active Phase 2 trial (ATARI, n=174) plus supporting literature, reaching evidence level L2. If a single indication needs to be prioritized for further evaluation, this is the stronger candidate and warrants a separate S2-stage review.
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

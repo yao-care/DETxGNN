@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Sofosbuvir
-parent: 僅模型預測 (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 369
-evidence_level: L5
+evidence_level: L4
 indication_count: 8
 ---
 
 # Sofosbuvir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **8** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 8
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -95,7 +95,7 @@ Consistent with this, when the underlying clinical trial and literature evidence
 
 ## Germany Market Information
 
-Sofosbuvir is currently **not marketed** in Germany under this evidence record (`market_status`: 未上市 / Not Marketed), with **0 registered authorizations**. No license or product detail is available to tabulate.
+Sofosbuvir is currently **not marketed** in Germany under this evidence record (`market_status`: Not marketed / Not Marketed), with **0 registered authorizations**. No license or product detail is available to tabulate.
 
 ---
 
@@ -120,10 +120,10 @@ The predicted association between sofosbuvir and HBV infection is not supported 
 - Outcome data (not just study design) from NCT03312023 to determine whether the observed HBsAg/HBV DNA signal was clinically meaningful
 - An adequately powered, HBV-monoinfection-specific controlled trial with virologic endpoints, rather than reliance on coinfection/reactivation cohorts
 - A dedicated review of the HBV reactivation risk signal identified in the literature before considering this indication further
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

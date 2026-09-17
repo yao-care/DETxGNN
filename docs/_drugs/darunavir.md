@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Darunavir
-parent: 僅模型預測 (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 112
-evidence_level: L5
+evidence_level: L3
 indication_count: 4
 ---
 
 # Darunavir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Evidenzniveau: **L3** | Vorhergesagte Indikationen: **4** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -45,7 +45,7 @@ indication_count: 4
 | Predicted New Indication | Simian Immunodeficiency Virus Infection |
 | TxGNN Prediction Score | 99.97% |
 | Evidence Level | L3 |
-| Germany Market Status | 未上市 (Not Marketed) |
+| Germany Market Status | Not marketed (Not Marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -107,10 +107,10 @@ All evidence for the SIV indication comes from non-human primate research-model 
 - Resolve DG002 (High): confirm mechanism of action via DrugBank API
 - Clarify intended use case — this is an NHP research-model application, not a human indication; confirm whether "repurposing" scope should even include animal-model/research-tool uses
 - If human application is intended, source primary human clinical evidence (none currently exists for SIV, which by definition does not infect humans)
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

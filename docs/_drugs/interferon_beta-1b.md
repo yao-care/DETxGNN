@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Interferon Beta-1B
-parent: 僅模型預測 (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 210
-evidence_level: L5
+evidence_level: L3
 indication_count: 2
 ---
 
 # Interferon Beta-1B
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Evidenzniveau: **L3** | Vorhergesagte Indikationen: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -104,10 +104,10 @@ Evidence for hairy cell leukemia is limited to four small, older (1987–1990) c
 - Confirmed mechanism-of-action documentation from DrugBank (DG002)
 - A modern comparative or translational study of interferon beta-1b against current HCL standard-of-care (purine analogs) to justify renewed clinical interest
 - Clarification of original indication/regulatory status, since `original_indications` and German license records are both empty in this dataset
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Fentanyl
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 166
 evidence_level: L5
 indication_count: 2
@@ -10,12 +10,12 @@ indication_count: 2
 # Fentanyl
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -99,10 +99,10 @@ The predicted indication currently rests on the TxGNN score alone (L5 evidence),
 - Resolve DG002 (High): obtain mechanism of action data from DrugBank to support or refute the mechanistic rationale
 - Confirm original approved indication(s) and current market/license status
 - Conduct a targeted literature and clinical trial search for fentanyl and nephrogenic syndrome of inappropriate antidiuresis (and secondarily, Tourette syndrome, TxGNN score 99.05%, rank 9710) before any further evaluation
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

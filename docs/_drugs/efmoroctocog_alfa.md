@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Efmoroctocog Alfa
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 137
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Efmoroctocog Alfa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -102,10 +102,10 @@ All ten predicted indications are TxGNN model output only (Evidence Level L5), w
 - If pursuing repurposing, prioritize rank 9 (hemophilia A with vascular abnormality) as the most mechanistically defensible candidate, and conduct a targeted literature/trial search rather than relying on the raw TxGNN ranking
 - Reassess pseudo-von Willebrand disease (rank 1) as a likely false positive before any further investment of review effort
 - Clarify Taiwan regulatory pathway status, given the drug is currently unmarketed
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

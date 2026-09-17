@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Glimepiride
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 181
 evidence_level: L5
 indication_count: 9
@@ -10,12 +10,12 @@ indication_count: 9
 # Glimepiride
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **9** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 9
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -75,7 +75,7 @@ Currently no related literature available.
 
 ## Germany Market Information
 
-Glimepiride is not currently marketed in the jurisdiction covered by this regulatory dataset (market status: 未上市 / Not Marketed; 0 authorizations on record). No license or product information is available.
+Glimepiride is not currently marketed in the jurisdiction covered by this regulatory dataset (market status: Not marketed / Not Marketed; 0 authorizations on record). No license or product information is available.
 
 ---
 
@@ -97,10 +97,10 @@ The top-ranked prediction (Focal Stiff Limb Syndrome) carries an L5 evidence lev
 - Verified mechanism of action data from DrugBank or primary literature (High-severity data gap)
 - Independent mechanistic or preclinical evidence linking sulfonylurea pharmacology to GABAergic/autoimmune neurological pathology, if this indication is to be pursued further
 - Monitoring of lower-ranked candidates (e.g., thiamine-responsive dysfunction syndrome, rank 4) which show a somewhat more plausible — though still unverified — link to insulin secretion pathways, and may warrant a lower-priority literature search
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

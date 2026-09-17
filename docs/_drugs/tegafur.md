@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Tegafur
-parent: 僅模型預測 (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 382
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Tegafur
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -133,10 +133,10 @@ Multiple completed Phase 3 RCTs (n up to 2025) consistently support tegafur-base
 - Confirmed drug-level MOA documentation from DrugBank to formally close the mechanism data gap
 - DPD/DPYD deficiency screening protocol before recommending clinical use, given fluoropyrimidine class toxicity risk
 - Regulatory pathway assessment given the drug is not currently marketed in Germany
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

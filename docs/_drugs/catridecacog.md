@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Catridecacog
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 92
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Catridecacog
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -47,7 +47,7 @@ indication_count: 3
 | Predicted New Indication | Primary Release Disorder of Platelets |
 | TxGNN Prediction Score | 99.29% (rank 7629) |
 | Evidence Level | L5 |
-| Germany Market Status | 未上市 (Not marketed) |
+| Germany Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -77,7 +77,7 @@ Currently no related literature available
 
 ## Germany Market Information
 
-Catridecacog currently has no market authorization in Germany (0 authorizations, market status: 未上市/Not marketed). No license records are available for this evidence pack.
+Catridecacog currently has no market authorization in Germany (0 authorizations, market status: Not marketed/Not marketed). No license records are available for this evidence pack.
 
 ---
 
@@ -101,10 +101,10 @@ The prediction is supported by no clinical trials, no literature, and the mechan
 - Confirmed mechanism of action (DrugBank API query) — currently a High-severity data gap (DG002)
 - Preclinical or case-level evidence directly linking Factor XIII supplementation to platelet-release disorders, pseudo-von Willebrand disease, or Glanzmann thrombasthenia, before advancing beyond S0
 - Given the mechanistic mismatch identified above, re-evaluation of whether these candidates warrant further investment at all
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Prednisolone
-parent: 僅模型預測 (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 317
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Prednisolone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -96,7 +96,7 @@ Supporting this, a completed Phase 4 trial (NCT01167946) directly tested oral pu
 
 ## Germany Market Information
 
-No German (BfArM) marketing authorizations for prednisolone were found in the evidence pack (`total_licenses: 0`, market status: **未上市 / Not Marketed**). No product- or license-level detail is available to populate this section.
+No German (BfArM) marketing authorizations for prednisolone were found in the evidence pack (`total_licenses: 0`, market status: **Not marketed / Not Marketed**). No product- or license-level detail is available to populate this section.
 
 ---
 
@@ -119,10 +119,10 @@ Corticosteroid pulse therapy already has an established clinical role in alopeci
 - Confirmation of the original approved indication(s) for prednisolone, currently missing from the evidence pack
 - Drug-drug interaction (DDI) data, since the current query returned no results
 - Clarification of dose-equivalence between prednisolone and methylprednisolone (the drug most directly studied in the AA trial/RCT evidence above)
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

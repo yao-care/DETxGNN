@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Abemaciclib
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 14
 evidence_level: L5
 indication_count: 0
@@ -10,12 +10,12 @@ indication_count: 0
 # Abemaciclib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **0** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 0
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -45,7 +45,7 @@ Abemaciclib is a selective CDK4/6 inhibitor, primarily approved internationally 
 | Predicted New Indication | — (No TxGNN prediction available) |
 | TxGNN Prediction Score | — |
 | Evidence Level | **L5** (No prediction or supporting studies available) |
-| Taiwan Market Status | ❌ Not marketed (未上市) |
+| Taiwan Market Status | ❌ Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | **Hold** |
 
@@ -77,7 +77,7 @@ Currently no TxGNN-predicted indication is available; therefore, no targeted lit
 
 ## Taiwan Market Information
 
-Abemaciclib is currently **not marketed in Taiwan** (未上市). No TFDA drug licenses were found in the regulatory database query (queried 2026-03-29).
+Abemaciclib is currently **not marketed in Taiwan** (Not marketed). No TFDA drug licenses were found in the regulatory database query (queried 2026-03-29).
 
 > **Note:** Abemaciclib is marketed internationally under the brand name **Verzenio®** (Eli Lilly) and is approved by the US FDA, EMA, and multiple other regulatory authorities.
 
@@ -123,10 +123,10 @@ No TxGNN-predicted new indication has been generated for abemaciclib. Without a 
 - **Resolve DG001:** Since abemaciclib is not marketed in Taiwan, consider using the US FDA or EMA labelling as a surrogate for safety assessment
 - **Re-evaluate market access:** Determine whether abemaciclib has any pending TFDA applications or if the repurposing evaluation should reference international regulatory data
 - **Re-run evidence collection** (clinical trials + literature) once a predicted indication is available
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

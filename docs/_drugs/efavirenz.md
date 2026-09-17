@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Efavirenz
-parent: 僅模型預測 (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 135
-evidence_level: L5
+evidence_level: L3
 indication_count: 3
 ---
 
 # Efavirenz
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Evidenzniveau: **L3** | Vorhergesagte Indikationen: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -116,10 +116,10 @@ The top-ranked predicted indication (SIV infection) reflects an engineered labor
 - Query DrugBank (or equivalent) to confirm and document efavirenz's mechanism of action (DG002)
 - Clarify with the TxGNN/evidence pipeline whether "simian immunodeficiency virus infection" should be excluded as a non-human, model-only node, since it does not represent an actionable repurposing target
 - Re-screen ranks 2 (feline AIDS — veterinary, not human) and 3 (ultra-rare neurodevelopmental disorder — no evidence, potential CNS safety conflict) before considering any further evaluation of this candidate set
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

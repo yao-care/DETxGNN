@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Duvelisib
-parent: 僅模型預測 (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 133
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Duvelisib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -136,10 +136,10 @@ The rank-1 TxGNN prediction (Hodgkin lymphoma) is not supported by relevant evid
 - Establish and document duvelisib's original/approved indication(s), currently unrecorded in this dataset
 - Disease-label-specific evidence re-review to confirm or rule out classical Hodgkin lymphoma relevance before advancing this specific candidate
 - If redirecting toward the stronger "B-cell neoplasm" signal (rank 9, L1/S3), first clarify whether that reflects genuine repurposing potential or overlap with duvelisib's already-established indication scope, and re-screen adjacent low-evidence CLL/SLL subtype entries (ranks 5–6) for the same embedding-artifact pattern seen at rank 1
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

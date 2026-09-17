@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Bimatoprost
-parent: 僅模型預測 (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 55
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Bimatoprost
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -103,7 +103,7 @@ In short, the original indication (eyelash hypotrichosis) and the predicted new 
 
 ## Local Market Information
 
-Bimatoprost currently holds **0 authorizations** and is **not marketed** in this jurisdiction (`taiwan_regulatory.market_status = 未上市`). No license records are available to summarize approved indications, dosage forms, or product names.
+Bimatoprost currently holds **0 authorizations** and is **not marketed** in this jurisdiction (`taiwan_regulatory.market_status = Not marketed`). No license records are available to summarize approved indications, dosage forms, or product names.
 
 ---
 
@@ -126,10 +126,10 @@ The Alopecia indication is supported by an L2 evidence level — multiple comple
 - Formal review of the four completed Phase 2 AGA/FPHL trial results (efficacy endpoints, adverse events) before any regulatory or clinical-use recommendation
 - Given no local marketing authorization exists, any advancement would require a full new-indication filing pathway, not a label-extension pathway
 - Do not pursue the remaining nine TxGNN-predicted indications (ranks 1–7, 9–10) without independent mechanistic validation — current evidence indicates they are graph-embedding artifacts rather than genuine repurposing signals
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

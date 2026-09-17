@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Bexarotene
-parent: 僅模型預測 (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 52
-evidence_level: L5
+evidence_level: L3
 indication_count: 3
 ---
 
 # Bexarotene
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Evidenzniveau: **L3** | Vorhergesagte Indikationen: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -133,10 +133,10 @@ The mechanistic link between bexarotene's RXR-agonist activity and primary cutan
 - Regulatory pathway clarification, given the drug currently has no marketing authorization in Germany
 
 **Note:** Two other TxGNN-predicted indications in this evidence pack — Sézary syndrome and lymphosarcoma — are supported by substantially stronger, direct clinical trial evidence for bexarotene (including completed Phase 3/4 trials), consistent with these being closely related to the drug's existing approved CTCL use rather than genuinely novel repurposing candidates.
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

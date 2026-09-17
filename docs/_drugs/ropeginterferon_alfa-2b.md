@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ropeginterferon Alfa-2B
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 353
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Ropeginterferon Alfa-2B
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -33,7 +33,7 @@ indication_count: 10
 
 ## 一句話摘要
 
-> 本藥物（DrugBank ID: DB15119）目前缺乏完整的原始適應症與作用機轉資料，且在德國尚未上市。
+> 本藥物（DrugBank ID: DB15119）目前缺乏完整的原始適應症與作用機轉資料，且在德國尚Not marketed。
 > TxGNN 模型將 **Laubry-Pezzi syndrome**（室中隔缺損合併主動脈瓣脫垂）列為第一預測適應症，
 > 但**無任何臨床試驗與文獻支持**，且證據包內附之機轉分析已明確指出此為**無生物學合理性的假陽性預測**。
 
@@ -47,7 +47,7 @@ indication_count: 10
 | 預測新適應症 | Laubry-Pezzi syndrome |
 | TxGNN 預測分數 | 99.93% |
 | 證據等級 | L5（僅模型預測，無實際研究） |
-| 德國市場狀態 | ✗ 未上市 |
+| 德國市場狀態 | ✗ Not marketed |
 | 授權證號數量 | 0 |
 | 建議決策 | Hold |
 
@@ -81,7 +81,7 @@ indication_count: 10
 
 ## 德國市場資訊
 
-本藥物於德國**尚未上市**，無任何授權證號或核准適應症資料可供列示。
+本藥物於德國**尚Not marketed**，無任何授權證號或核准適應症資料可供列示。
 
 ---
 
@@ -89,7 +89,7 @@ indication_count: 10
 
 請參閱藥品仿單以取得安全性資訊。
 
-> 補充：本候選案 Data Gap 清單標示 TFDA 仿單警語/禁忌（DG001，Blocking）與作用機轉（DG002，High）均缺失，前者已直接阻擋進入安全性初評（S1）階段。
+> 補充：本候選案 Data Gap 清單標示 BfArM package insert warnings/contraindications（DG001，Blocking）與作用機轉（DG002，High）均缺失，前者已直接阻擋進入安全性初評（S1）階段。
 
 ---
 
@@ -104,14 +104,14 @@ indication_count: 10
 
 **若要繼續推進，需要補充：**
 - 作用機轉（MOA）資料（DrugBank API 查詢）
-- TFDA 仿單警語/禁忌資料（PDF 解析）
+- BfArM package insert warnings/contraindications資料（PDF 解析）
 - 原始適應症正確清單（目前為空，實務上本藥物已知用於真性紅血球增多症，需以官方來源確認並補入）
 - 知識圖譜疾病實體對應校驗，優先修正排名 6 之標籤錯配問題
 - 若後續要重新評估，建議排除本批次 10 個候選，等待模型下一輪或人工複核產出具生物學合理性的新訊號
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

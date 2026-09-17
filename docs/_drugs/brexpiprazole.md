@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Brexpiprazole
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 64
 evidence_level: L5
 indication_count: 0
@@ -10,12 +10,12 @@ indication_count: 0
 # Brexpiprazole
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **0** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 0
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -85,10 +85,10 @@ The Evidence Pack contains no TxGNN predictions and two unresolved data gaps of 
 - **TxGNN inference** Run the TxGNN pipeline for brexpiprazole to generate predicted indication candidates; without predictions, the repurposing evaluation cannot proceed past this stage.
 - **DDI data** Re-query a drug–drug interaction database (e.g., DrugBank DDI, CREDIBLEMEDS) with the correct search parameters; the current query returned zero results.
 - **Germany (BfArM) authorization** Confirm current EMA/BfArM approval status directly, as the regulatory field reflects zero licenses.
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

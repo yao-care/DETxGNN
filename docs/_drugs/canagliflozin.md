@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Canagliflozin
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 82
 evidence_level: L5
 indication_count: 0
@@ -10,12 +10,12 @@ indication_count: 0
 # Canagliflozin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **0** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 0
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -105,10 +105,10 @@ The Evidence Pack lacks TxGNN prediction output and MOA data — the two inputs 
 - [ ] **Download Taiwan package insert** — TFDA query returned a result (query log entry #4); extract warnings, contraindications, and approved indications from the PDF
 - [ ] **Re-run DDI query** — Drug interaction query returned `not_found`; verify if this reflects true absence or a query parameter issue
 - [ ] **Clarify market scope** — If the target market is Germany (BfArM) rather than Taiwan (TFDA), switch the regulatory query source accordingly; Canagliflozin (Invokana®) is authorised in the EU
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

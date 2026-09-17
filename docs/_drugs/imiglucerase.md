@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Imiglucerase
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 199
 evidence_level: L5
 indication_count: 5
@@ -10,12 +10,12 @@ indication_count: 5
 # Imiglucerase
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -47,7 +47,7 @@ indication_count: 5
 | Predicted New Indication | Hurler syndrome |
 | TxGNN Prediction Score | 99.52% |
 | Evidence Level | L5 |
-| Germany Market Status | Not marketed (未上市) |
+| Germany Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -103,10 +103,10 @@ Please refer to the package insert for safety information.
 - Obtain official label warnings/contraindications, e.g., from an EU/FDA-approved product (resolve DG001, blocking)
 - Seek preclinical or biochemical evidence that imiglucerase has any catalytic or off-target activity relevant to alpha-L-iduronidase-deficient conditions (currently no such evidence exists)
 - If no drug-specific mechanistic or preclinical support emerges, this candidate should be deprioritized as a likely model false-positive rather than advanced further
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Mycophenolate Mofetil
-parent: 僅模型預測 (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 262
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Mycophenolate Mofetil
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -122,10 +122,10 @@ Evidence level is L2, but the strongest directly-relevant trials for MMF-in-HIV 
 - Follow up on unpublished/unknown-status trials (NCT00247494, NCT00120419) to determine whether results exist
 - Formal DDI assessment against antiretroviral regimens (abacavir, NRTIs), given PK interaction signals in the literature (PMID 15355127, 15871638)
 - Explicit risk-benefit assessment of adding an immunosuppressant in an immunocompromised HIV population before any further development
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

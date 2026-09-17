@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Nevirapine
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 268
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Nevirapine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -103,10 +103,10 @@ The top-ranked TxGNN prediction targets a veterinary disease (feline AIDS) rathe
 - Confirmed mechanism of action (MOA) and original approved human indication from DrugBank (DG002)
 - Clarification of clinical relevance — the current top prediction is a non-human/veterinary condition and requires re-scoring against genuinely human disease targets
 - If pursuing the FIV signal for translational/veterinary purposes only, in vitro efficacy data (IC50/binding affinity of nevirapine against FIV reverse transcriptase) beyond the single exploratory publication
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

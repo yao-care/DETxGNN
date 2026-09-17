@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Rufinamide
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 356
 evidence_level: L5
 indication_count: 5
@@ -10,12 +10,12 @@ indication_count: 5
 # Rufinamide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -47,7 +47,7 @@ indication_count: 5
 | Predicted New Indication | Febrile infection-related epilepsy syndrome (FIRES) |
 | TxGNN Prediction Score | 99.57% |
 | Evidence Level | L5 (model prediction only, no clinical trials or literature) |
-| Taiwan Market Status | 未上市 (Not marketed) |
+| Taiwan Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -99,10 +99,10 @@ The prediction is supported only by a TxGNN similarity score (L5) with zero clin
 - Resolve DG002: obtain confirmed MOA via DrugBank API query
 - Confirm formal original indication(s) for rufinamide (currently empty in source data)
 - Generate or source clinical trial / literature evidence specific to FIRES before advancing beyond S0
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

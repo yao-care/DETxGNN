@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Oritavancin
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 283
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Oritavancin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -99,10 +99,10 @@ The top-ranked prediction (Bacteroidaceae infectious disease) is mechanistically
 - TFDA/regulatory label warnings and contraindications (blocking gap — required before any S1 safety screening)
 - Independent microbiological or in-vitro evidence of activity against Bacteroidaceae, if this candidate is to be pursued further
 - Given the mechanistic red flags, recommend deprioritizing this candidate in favor of higher-evidence-level predictions elsewhere in the pipeline
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

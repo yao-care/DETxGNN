@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Mannitol
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 245
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Mannitol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -96,10 +96,10 @@ The prediction rests solely on TxGNN's algorithmic score (L5, no trials, one ind
 - Preclinical or case-level evidence directly testing mannitol in NSIAD/SIADH-related hyponatremia before advancing past S0
 
 **Additional note:** Among the 10 TxGNN-predicted indications in this pack, most (ranks 1, 3, 5–10) are L5/Hold with little or no supporting evidence. The only candidate with a documented, established clinical rationale — mannitol's adjunctive osmotic-diuresis role to mitigate rhabdomyolysis-related renal injury during malignant hyperthermia crises (rank 4, L4/S1, "Research Question") — may be a more productive line to pursue if further repurposing work on this drug is planned.
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Elbasvir
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 140
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Elbasvir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -132,10 +132,10 @@ The HBV prediction carries the model's own L5 evidence rating (prediction-only, 
 - DrugBank-sourced mechanism-of-action confirmation for elbasvir
 - Any independent in vitro or in vivo evidence of elbasvir activity against HBV replication (currently none identified)
 - If no HBV-specific mechanistic or preclinical signal emerges, this candidate should be deprioritized in favor of the pipeline's other predicted indications, none of which (HEV, HAV, animal hepatitis, Omsk hemorrhagic fever, Kyasanur forest disease, HIV, FIV, SIV, or the neurodevelopmental disorder) currently have supporting mechanistic rationale either — all carry the same "Hold" recommendation in this evidence pack
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

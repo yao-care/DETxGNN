@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Simoctocog Alfa
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 365
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Simoctocog Alfa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -77,7 +77,7 @@ Currently no related literature available
 
 ## Germany Market Information
 
-This product is not currently marketed in Germany (`market_status: 未上市`, `total_licenses: 0`). No marketing authorization records are available for review.
+This product is not currently marketed in Germany (`market_status: Not marketed`, `total_licenses: 0`). No marketing authorization records are available for review.
 
 ---
 
@@ -101,10 +101,10 @@ All ten TxGNN-predicted indications for simoctocog alfa are at evidence level L5
 - Resolve DG002: obtain detailed MOA documentation from DrugBank or manufacturer sources
 - Source clinical trial registries (ClinicalTrials.gov, ICTRP) and literature databases specifically for rFVIII use in platelet-function disorders (Pseudo-VWD, Glanzmann thrombasthenia, Scott syndrome) to test whether the TxGNN signal reflects any real-world investigational interest
 - If pursuing a repurposing candidate at all, prioritize re-scoring or manual review of **rank 9 (hemophilia A with vascular abnormality)**, which sits within FVIII's known mechanistic domain and is more defensible than the current top-ranked candidate, despite currently lacking trial/literature support
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

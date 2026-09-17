@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Plerixafor
-parent: 僅模型預測 (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 310
-evidence_level: L5
+evidence_level: L2
 indication_count: 7
 ---
 
 # Plerixafor
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+Evidenzniveau: **L2** | Vorhergesagte Indikationen: **7** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -127,10 +127,10 @@ Myeloid leukemia is the only prediction in this evidence pack supported by subst
 - Confirm original approved indication and formal regulatory history, since the current record shows no registered original indication
 - Given multiple terminated/unknown-status trials in the dataset, assess feasibility and reasons for discontinuation before committing further evaluation resources
 - Deprioritize the other six TxGNN-predicted indications (indolent plasma cell myeloma, CMM7, pediatric leptomeningeal melanoma, epithelioid uveal melanoma, bronchitis, vulvar melanoma) pending any future emergence of clinical or literature evidence — none currently warrant investment
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

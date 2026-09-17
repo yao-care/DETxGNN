@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Nitisinone
-parent: 僅模型預測 (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 272
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Nitisinone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -103,10 +103,10 @@ The mechanistic link between Nitisinone's known action (HPPD inhibition, reducti
 - Confirmation of whether "renal tubular acidosis" here should be scoped strictly as an HT-1-associated complication (label extension) rather than a standalone indication
 - Drug-drug interaction data (currently not found)
 - Assessment of feasibility/need for Germany market authorization given current "Not Marketed" status
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

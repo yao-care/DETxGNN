@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Crizotinib
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 108
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Crizotinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -94,10 +94,10 @@ The top-ranked prediction (gingival fibromatosis) has no clinical trial or liter
 - Resolve high-severity data gap DG002: formal mechanism-of-action record from DrugBank
 - If repurposing interest continues, redirect evaluation toward the better-evidenced candidate identified in this dataset — **lung hilum carcinoma** (L3, decision stage S2) — rather than the current top-ranked prediction
 - Manual ontology/mapping review, since several other predictions in this dataset (e.g., ranks 5, 8, 10) show literature sets that do not match the predicted disease label, suggesting systematic mapping noise that should be corrected before future scoring runs
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

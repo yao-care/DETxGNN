@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Entecavir
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 148
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Entecavir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -120,10 +120,10 @@ The chronic hepatitis C signal is not supported by mechanism (entecavir targets 
 - Full DrugBank mechanism-of-action and TFDA/BfArM package insert data for entecavir, both currently unavailable (data gaps DG001, DG002 in this evidence pack), to support any future S1 safety pre-screen
 
 **Additional note on other TxGNN-ranked candidates for entecavir:** across the 10 disease nodes evaluated in this evidence pack, only two show any evidentiary substance — the model's independent, high-confidence recovery of entecavir's **true indication, chronic hepatitis B** (L1, Proceed with Guardrails — useful as a model-validity check, not a new opportunity), and a preclinical signal in **animal hepadnaviral hepatitis** (L3, woodchuck model, PMID 11679911) reflecting entecavir's established antiviral mechanism in a related hepadnavirus. All other candidates (HIV, feline/simian immunodeficiency virus, a rare neurodevelopmental disorder, HEV, HAV) were assessed as Hold with L5 evidence and no plausible mechanistic link.
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

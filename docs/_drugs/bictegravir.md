@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Bictegravir
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 54
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Bictegravir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -109,10 +109,10 @@ The feline AIDS prediction is mechanistically plausible (lentivirus integrase ho
 - Confirmed mechanism-of-action documentation from DrugBank (resolve DG002)
 - Confirmation of original approved indication text (HIV-1 infection) from a regulatory source
 - Any veterinary or preclinical efficacy data specific to FIV/feline AIDS, if this candidate is to be pursued as a veterinary repurposing case rather than purely as a human-medicine hypothesis
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

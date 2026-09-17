@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Moroctocog Alfa
-parent: 僅模型預測 (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 261
-evidence_level: L5
+evidence_level: L4
 indication_count: 8
 ---
 
 # Moroctocog Alfa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **8** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 8
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -110,10 +110,10 @@ The top-ranked TxGNN prediction (Primary Release Disorder of Platelets) lacks an
 - Resolve High-severity data gap DG002 (confirmed MOA) to support mechanistic-relevance analysis
 - If this indication is pursued further, dedicated preclinical/translational evidence demonstrating a role for FVIII beyond coagulation in platelet granule release would be required
 - **Separately worth noting:** among the 8 TxGNN-predicted indications reviewed for moroctocog alfa in this batch, *acquired coagulation factor deficiency* (rank 4) is mechanistically far more plausible (FVIII replacement is directly relevant to acquired Hemophilia A) and reached evidence level L3 / decision stage S2 with a "Research Question" recommendation. However, most of its supporting trials used porcine FVIII (Obizur/susoctocog alfa) rather than moroctocog alfa itself, so direct evidence transfer remains uncertain — this candidate merits a separate, dedicated evaluation rather than being pursued under the current top-ranked indication.
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

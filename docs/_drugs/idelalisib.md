@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Idelalisib
-parent: 僅模型預測 (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 194
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Idelalisib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -47,7 +47,7 @@ with **9 clinical trials** and **20 publications** currently supporting this dir
 | Predicted New Indication | Mantle Cell Lymphoma |
 | TxGNN Prediction Score | 99.84% (rank 2395) |
 | Evidence Level | L3 |
-| Germany Market Status | 未上市 (Not marketed) — flagged internally as a likely data gap rather than a true absence of licensure (see rationale below) |
+| Germany Market Status | Not marketed (Not marketed) — flagged internally as a likely data gap rather than a true absence of licensure (see rationale below) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -98,7 +98,7 @@ At the same time, the evidence pack itself notes that idelalisib shows *intrinsi
 
 ## Germany Market Information
 
-No marketing authorizations are listed in the evidence pack (`total_licenses: 0`, `market_status: 未上市`). This most likely reflects an incomplete data pull rather than genuine absence from the market, since idelalisib (brand name Zydelig®) is externally documented as EMA-approved for CLL and relapsed follicular lymphoma — a discrepancy this evidence pack itself flags in the rationale for the "B-cell neoplasm" prediction. **This regulatory-status field should be independently verified (see DG001) before any go/no-go decision is finalized.**
+No marketing authorizations are listed in the evidence pack (`total_licenses: 0`, `market_status: Not marketed`). This most likely reflects an incomplete data pull rather than genuine absence from the market, since idelalisib (brand name Zydelig®) is externally documented as EMA-approved for CLL and relapsed follicular lymphoma — a discrepancy this evidence pack itself flags in the rationale for the "B-cell neoplasm" prediction. **This regulatory-status field should be independently verified (see DG001) before any go/no-go decision is finalized.**
 
 ---
 
@@ -135,10 +135,10 @@ Evidence specific to idelalisib in MCL is currently limited to completed Phase 1
 - Independently verify true German/Taiwan marketing and licensing status (current "not marketed / 0 licenses" appears inconsistent with idelalisib's known global approval history)
 - Monitor for initiation of a dedicated Phase 2/3 trial in relapsed/refractory MCL
 - Establish a safety monitoring plan addressing known class-effect toxicities of PI3Kδ inhibitors (hepatotoxicity, colitis/diarrhea, pneumonitis, opportunistic infection) once label data is available
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

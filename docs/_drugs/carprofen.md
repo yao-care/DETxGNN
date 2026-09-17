@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Carprofen
-parent: 僅模型預測 (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 90
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Carprofen
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -84,7 +84,7 @@ Currently no related clinical trials registered
 
 ## Germany Market Information
 
-No current marketing authorizations were found for carprofen in this dataset (`total_licenses: 0`, `market_status: 未上市`), consistent with its withdrawal from the human pharmaceutical market. It remains available only as a veterinary product (e.g., Rimadyl for dogs) outside the scope of this human-indication regulatory dataset.
+No current marketing authorizations were found for carprofen in this dataset (`total_licenses: 0`, `market_status: Not marketed`), consistent with its withdrawal from the human pharmaceutical market. It remains available only as a veterinary product (e.g., Rimadyl for dogs) outside the scope of this human-indication regulatory dataset.
 
 ---
 
@@ -107,10 +107,10 @@ Carprofen has strong historical mechanistic and clinical-trial support for rheum
 - Structured mechanism of action data from DrugBank (DG002)
 - A formal risk-benefit reassessment specifically addressing the prior human hepatotoxicity signal before any renewed human clinical development is considered
 - Confirmation of current regulatory/marketing status (human vs. veterinary only) in target jurisdictions
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

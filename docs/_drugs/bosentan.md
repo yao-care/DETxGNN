@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Bosentan
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 60
 evidence_level: L5
 indication_count: 9
@@ -10,12 +10,12 @@ indication_count: 9
 # Bosentan
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **9** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 9
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -33,7 +33,7 @@ indication_count: 9
 
 ## One-Sentence Summary
 
-Bosentan（DrugBank ID：DB00559）為本次老藥新用候選藥物，但目前 Evidence Pack 中**無 TxGNN 預測新適應症**、**無原始適應症記錄**、**無安全性資料**，且在臺灣尚未上市，現階段無法執行標準再利用評估流程。在補齊關鍵資料缺口之前，建議暫緩本候選案的評估推進。
+Bosentan（DrugBank ID：DB00559）為本次老藥新用候選藥物，但目前 Evidence Pack 中**無 TxGNN 預測新適應症**、**無原始適應症記錄**、**無安全性資料**，且在臺灣尚Not marketed，現階段無法執行標準再利用評估流程。在補齊關鍵資料缺口之前，建議暫緩本候選案的評估推進。
 
 ---
 
@@ -45,7 +45,7 @@ Bosentan（DrugBank ID：DB00559）為本次老藥新用候選藥物，但目前
 | Predicted New Indication | 無（TxGNN 未產生預測結果） |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5（僅有模型層級，無任何實際研究） |
-| Taiwan Market Status | ✗ 未上市 |
+| Taiwan Market Status | ✗ Not marketed |
 | Number of Authorizations | 0 |
 | Recommended Decision | **Hold** |
 
@@ -75,7 +75,7 @@ Bosentan（DrugBank ID：DB00559）為本次老藥新用候選藥物，但目前
 
 ## Taiwan Market Information
 
-Bosentan 目前在臺灣**未上市**，TFDA 查詢結果顯示無任何藥品許可證記錄（查詢日期：2026-03-29，查詢結果數：0）。
+Bosentan 目前在臺灣**Not marketed**，TFDA 查詢結果顯示無任何藥品許可證記錄（查詢日期：2026-03-29，查詢結果數：0）。
 
 ---
 
@@ -101,10 +101,10 @@ Bosentan 目前在臺灣**未上市**，TFDA 查詢結果顯示無任何藥品�
 - 重新執行 TxGNN 預測流程，確認是否產生 Bosentan 的新適應症預測結果；若仍為空，需釐清原因（節點未收錄、分數過低或已被過濾）
 - 補齊原始核准適應症（`original_indications`），可從 DrugBank、EMA 或 FDA 標籤取得
 - 重新查詢 DDI 資料庫（目前查詢狀態為 `not_found`），確認是否有藥物交互作用資料
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

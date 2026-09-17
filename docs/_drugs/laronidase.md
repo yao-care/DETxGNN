@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Laronidase
-parent: 僅模型預測 (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 223
-evidence_level: L5
+evidence_level: L2
 indication_count: 2
 ---
 
 # Laronidase
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Evidenzniveau: **L2** | Vorhergesagte Indikationen: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -106,10 +106,10 @@ The mechanistic case for laronidase in this indication is strong because it is, 
 - Structured mechanism-of-action data from DrugBank (DG002 — High severity) to formally document the MOA rather than relying on literature-derived rationale
 - Correct attribution of the pivotal Phase 3 RCT (PMID 15126990) to this indication entry, which would likely upgrade the evidence level from L2 to L1
 - No further action needed on Sanfilippo syndrome — recommend closing this candidate as a screened-out false positive rather than advancing it
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

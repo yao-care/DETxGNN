@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Meloxicam
-parent: 僅模型預測 (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 248
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Meloxicam
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -45,7 +45,7 @@ Meloxicam is a COX-2 preferential NSAID conventionally used for osteoarthritis, 
 | Most Evidence-Supported Predicted Indication | Rheumatoid factor-positive polyarticular juvenile idiopathic arthritis |
 | Top TxGNN Score (this indication) | 99.44% (rank 6423) |
 | Evidence Level | L3 |
-| Taiwan Market Status | 未上市 (Not marketed) |
+| Taiwan Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | **Hold** (indication-level model recommends "Proceed with Guardrails," but overall workflow is gated by a Blocking data gap) |
 
@@ -98,7 +98,7 @@ No literature is currently available for the remaining 9 predicted indications, 
 
 ## Taiwan Market Information
 
-Meloxicam currently holds **0 authorizations** on file (market status: 未上市 / not marketed). No license records are available to summarize approved indications or dosage forms.
+Meloxicam currently holds **0 authorizations** on file (market status: Not marketed / not marketed). No license records are available to summarize approved indications or dosage forms.
 
 ---
 
@@ -119,12 +119,12 @@ The most evidence-supported candidate (RF-positive polyarticular JIA, L3) has a 
 - Retrieve and parse the TFDA label PDF for meloxicam to obtain warnings/contraindications (DG001, Blocking — required before S1 safety evaluation)
 - Query DrugBank API to confirm mechanism of action (DG002, High)
 - Seek meloxicam-specific (not just NSAID-class) clinical data for RF-positive polyarticular JIA
-- Confirm whether "未上市/0 licenses" reflects true unregistered status in Taiwan or a data collection gap
+- Confirm whether "Not marketed/0 licenses" reflects true unregistered status in Taiwan or a data collection gap
 - Run a targeted literature search on the two L4 "Research Question" candidates (spondyloarthropathy susceptibility, rheumatoid nodulosis) before advancing their decision stage
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Panitumumab
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 292
 evidence_level: L5
 indication_count: 2
@@ -10,12 +10,12 @@ indication_count: 2
 # Panitumumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -99,7 +99,7 @@ Panitumumab is an anti-EGFR monoclonal antibody used in oncology, so this sectio
 
 Please refer to the package insert for safety information.
 
-*(Note: `TFDA 仿單警語/禁忌` is flagged as a **Blocking** data gap — DG001. This must be resolved before this candidate can proceed to S1 safety evaluation.)*
+*(Note: `BfArM package insert warnings/contraindications` is flagged as a **Blocking** data gap — DG001. This must be resolved before this candidate can proceed to S1 safety evaluation.)*
 
 ---
 
@@ -115,10 +115,10 @@ Both predicted indications are L5 (model prediction only), with zero supporting 
 - Resolve DG002 (confirmed MOA from DrugBank) — needed for mechanistic plausibility assessment
 - Confirm actual original indication(s) via authoritative regulatory source (original_indications field is currently empty)
 - Monitor for emerging clinical trials or literature on EGFR-pathway involvement in bone metabolism or diabetic retinopathy before reconsidering evidence level
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

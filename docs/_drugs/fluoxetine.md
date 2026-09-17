@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Fluoxetine
-parent: 僅模型預測 (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 170
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Fluoxetine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -108,10 +108,10 @@ Evidence for fluoxetine in schizotypal personality disorder is limited to small,
 - Confirmed mechanism of action data from DrugBank (DG002, High)
 - A controlled or at least prospective study specifically targeting schizotypal PD as primary endpoint
 - Clarification of the psychosis signal reported in schizotypal patients on fluoxetine ([PMID 9664779](https://pubmed.ncbi.nlm.nih.gov/9664779/))
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Cetuximab
-parent: 僅模型預測 (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 99
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Cetuximab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -111,7 +111,7 @@ The supporting evidence includes a completed Phase II study of cetuximab in recu
 
 ## Germany Market Information
 
-Currently no marketing authorizations for cetuximab are recorded in this dataset (`market_status`: 未上市 / Not Marketed; `total_licenses`: 0). No product, dosage form, or approved indication data is available.
+Currently no marketing authorizations for cetuximab are recorded in this dataset (`market_status`: Not marketed / Not Marketed; `total_licenses`: 0). No product, dosage form, or approved indication data is available.
 
 ---
 
@@ -153,10 +153,10 @@ Supplementary signals identified in the literature/trial evidence (not verified 
 - Query DrugBank for confirmed MOA data (DG002 remediation)
 - If pursuing the Cystic Neoplasm lead, commission a focused literature/trial review scoped specifically to salivary gland ACC/MEC (rather than "cystic neoplasm" broadly, which pulled in unrelated ovarian/pancreatic cystic entities)
 - Reassess German/EU market access pathway given current unmarketed status
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

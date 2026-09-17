@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Siltuximab
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 364
 evidence_level: L5
 indication_count: 8
@@ -10,12 +10,12 @@ indication_count: 8
 # Siltuximab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **8** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 8
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -101,10 +101,10 @@ This prediction is supported only by the TxGNN model score (L5 evidence level) w
 - Confirmation of the drug's original approved indication(s), as the structured `original_indications` field is currently empty
 
 **Additional note:** Among the other candidates in this evidence pack, **Kaposi's sarcoma** (rank 5) has a stronger evidentiary basis (L4, decision stage S1) via its biological link to HHV-8–associated Castleman's disease, and may warrant a separate, dedicated evaluation ahead of this top-ranked candidate.
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

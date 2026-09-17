@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Tacrolimus
-parent: 僅模型預測 (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 375
-evidence_level: L5
+evidence_level: L1
 indication_count: 3
 ---
 
 # Tacrolimus
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Evidenzniveau: **L1** | Vorhergesagte Indikationen: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -91,7 +91,7 @@ This is a clear "drug repurposing within dermatology" scenario: the drug is not 
 
 ## Taiwan Market Information
 
-Tacrolimus is currently **not marketed** in Taiwan (`market_status: 未上市`), and there are **0 registered authorizations**. No product licenses, dosage form, or approved-indication records are available in the evidence pack.
+Tacrolimus is currently **not marketed** in Taiwan (`market_status: Not marketed`), and there are **0 registered authorizations**. No product licenses, dosage form, or approved-indication records are available in the evidence pack.
 
 ---
 
@@ -113,10 +113,10 @@ Evidence level L1 is supported by a completed Phase 3 and a completed Phase 4 tr
 - Structured mechanism-of-action (MOA) data from DrugBank (DG002, High)
 - Regulatory pathway assessment for Taiwan market entry, given 0 current authorizations
 - Formal DDI query (current query status: `not_found`) to support safety review
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

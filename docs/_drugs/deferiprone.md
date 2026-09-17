@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Deferiprone
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 116
 evidence_level: L5
 indication_count: 9
@@ -10,12 +10,12 @@ indication_count: 9
 # Deferiprone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **9** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 9
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -100,10 +100,10 @@ The hepatic porphyria prediction has no supporting clinical trials or literature
 - Documented mechanism of action (DG002) to properly evaluate mechanistic plausibility across all candidate indications
 - Preclinical or mechanistic studies specifically linking iron chelation to heme biosynthesis pathway disorders, if this indication is to be pursued further
 - As an alternative, consider redirecting evaluation resources to the **beta-thalassemia with other manifestations** candidate (rank 8), which already has literature support and a "Proceed with Guardrails" status
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

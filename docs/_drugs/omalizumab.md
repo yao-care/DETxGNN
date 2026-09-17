@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Omalizumab
-parent: 僅模型預測 (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 280
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Omalizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -87,7 +87,7 @@ Critically, when the retrieved evidence is inspected, it does not actually suppo
 
 ## Germany Market Information
 
-Omalizumab is currently **not marketed in Germany** according to this evidence pack (`market_status: 未上市`, `total_licenses: 0`). No BfArM authorization records are available to summarize product names, dosage forms, or approved indication wording.
+Omalizumab is currently **not marketed in Germany** according to this evidence pack (`market_status: Not marketed`, `total_licenses: 0`). No BfArM authorization records are available to summarize product names, dosage forms, or approved indication wording.
 
 ---
 
@@ -125,10 +125,10 @@ This evidence pack evaluated Omalizumab against 10 candidate indications. While 
 | Acne keloid / acrodermatitis chronica atrophicans / hydroa vacciniforme / neonatal dermatomyositis / secondary childhood ILD | 99.9–99.94% | L5 | Hold | Zero clinical trials or literature; no mechanistic rationale. |
 
 For future prioritization, "Obstructive lung disease" and, separately, "Atopic eczema"/"Dermatitis" (recommended to be evaluated jointly given overlapping evidence) merit more attention than Bronchitis alone.
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

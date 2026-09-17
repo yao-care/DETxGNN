@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lenalidomide
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 227
 evidence_level: L5
 indication_count: 6
@@ -10,12 +10,12 @@ indication_count: 6
 # Lenalidomide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -95,7 +95,7 @@ Myeloid leukemia (AML) and MDS with del(5q) — lenalidomide's proven original i
 
 ## Germany Market Information
 
-Lenalidomide is currently **not marketed** in Germany (market status: 未上市). No BfArM authorization records are available in the evidence pack (`total_licenses: 0`).
+Lenalidomide is currently **not marketed** in Germany (market status: Not marketed). No BfArM authorization records are available in the evidence pack (`total_licenses: 0`).
 
 ---
 
@@ -131,10 +131,10 @@ Efficacy evidence for the myeloid leukemia indication is strong (L1: 2 completed
 - Confirmed mechanism-of-action data from DrugBank
 - Clarification of route/dosage-form compatibility for the AML/MDS population
 - Re-verification of literature/trial matching for lower-confidence predicted indications in this pack (e.g., rank 4 "aregenerative anemia," where cited literature appears mismatched to multiple myeloma/Waldenström studies rather than the stated indication)
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Risdiplam
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 347
 evidence_level: L5
 indication_count: 1
@@ -10,12 +10,12 @@ indication_count: 1
 # Risdiplam
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -83,10 +83,10 @@ The minimum required data to perform a drug repurposing evaluation is absent —
 - **Re-run TxGNN inference** after `original_indications` and `original_moa` are populated so that `predicted_indications` returns at least one candidate
 - **Verify original indication list** — confirm the approved indication(s) (e.g., SMA) are correctly loaded into the pipeline before re-scoring
 - Once the above are complete, regenerate the Evidence Pack and re-submit for a full evaluation report
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

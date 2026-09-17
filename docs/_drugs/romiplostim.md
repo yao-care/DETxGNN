@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Romiplostim
-parent: 僅模型預測 (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 352
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Romiplostim
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -45,7 +45,7 @@ indication_count: 10
 | Predicted New Indication | Primary release disorder of platelets |
 | TxGNN Prediction Score | 99.9998% (score rank #3 among all TxGNN outputs) |
 | Evidence Level | L4 |
-| Taiwan Market Status | ✗ Not Marketed (未上市) |
+| Taiwan Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | **Hold** (evidence-pack label: "Research Question") |
 
@@ -124,10 +124,10 @@ The lead prediction (primary release disorder of platelets) has a self-identifie
 - Confirm original approved indication via verified Taiwan regulatory filing (currently 0 licenses on record)
 - If pursuing primary release disorder of platelets specifically: a dedicated interventional study in confirmed platelet-release-defect patients, since existing evidence is an unrelated ITP registry and general mechanism reviews
 - Separately evaluate rank 8 (platelet-type bleeding disorder) as a line-extension/label-confirmation case rather than a new-indication repurposing candidate
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

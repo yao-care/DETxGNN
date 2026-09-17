@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Bupropion Hydrochloride
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 75
 evidence_level: L5
 indication_count: 0
@@ -10,12 +10,12 @@ indication_count: 0
 # Bupropion Hydrochloride
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **0** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 0
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -89,10 +89,10 @@ The TxGNN pipeline has not produced any repurposing predictions for this candida
 - **[Critical]** Integrate TFDA package insert results into `drug.original_indications`, `safety.key_warnings`, and `safety.contraindications` — query log confirms 1 record retrieved but not parsed
 - **[High]** Assign a `drugbank_id` to enable cross-referencing with clinical trial and literature evidence sources
 - **[Medium]** Re-run DDI query after DrugBank ID is confirmed, as the current `not_found` result may be due to a name-matching failure rather than a true absence of interactions
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

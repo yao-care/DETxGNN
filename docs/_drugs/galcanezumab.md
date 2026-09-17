@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Galcanezumab
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 175
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Galcanezumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -97,10 +97,10 @@ All three TxGNN-predicted indications (heparin cofactor II deficiency, antithrom
 - Package insert warnings/contraindications (TFDA/BfArM label parsing, per DG001 — currently blocking safety review)
 - Any preclinical or mechanistic literature specifically linking CGRP pathway modulation to coagulation factor regulation, before this candidate can move beyond S0
 - Reassessment of whether these three predictions represent a systematic TxGNN scoring anomaly (e.g., rare-disease embedding artifact) rather than genuine repurposing signals
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

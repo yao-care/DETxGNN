@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Trastuzumab
-parent: 僅模型預測 (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 410
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Trastuzumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -139,10 +139,10 @@ The PR-positive breast cancer indication is supported by evidence level L1 (mult
 ---
 
 **Additional note:** This evidence pack also scored several other candidate indications for trastuzumab (e.g., normal breast-like subtype [L3], PR-negative breast cancer [L2], luminal A/B breast tumor [L2], and five rare non-breast tumor types [all L5, no supporting trials/literature, recommendation: Hold]). These are substantially weaker than the PR-positive breast cancer prediction and are not recommended for further action at this time.
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

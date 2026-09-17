@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lanadelumab
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 221
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Lanadelumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -97,7 +97,7 @@ Because "C1 inhibitor deficiency" is essentially synonymous with the disease pop
 
 ## Germany Market Information
 
-Lanadelumab currently has **no marketing authorization on record in this evidence pack** (`market_status`: 未上市 / Not Marketed; `total_licenses`: 0). No license table can be generated.
+Lanadelumab currently has **no marketing authorization on record in this evidence pack** (`market_status`: Not marketed / Not Marketed; `total_licenses`: 0). No license table can be generated.
 
 ---
 
@@ -122,10 +122,10 @@ Detailed safety data (key warnings, contraindications, drug-drug interactions) a
 - Confirm and document the original MOA (DG002) from a primary regulatory source rather than secondary literature.
 - Clarify scope: since "C1 inhibitor deficiency" overlaps with lanadelumab's known approved use, determine whether this candidate should instead be tracked as a **market-entry assessment** for Germany rather than a repurposing candidate.
 - If genuine repurposing value is sought, evaluate lower-ranked candidates (e.g., non-histaminergic angioedema with normal C1-INH, supported by NCT04444895/PMID 37780787) which represent more distinct indications from the approved label.
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Tagraxofusp
-parent: 僅模型預測 (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 377
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Tagraxofusp
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -120,10 +120,10 @@ The only prediction with any supporting evidence (pre-malignant myeloid neoplasm
 - Confirmed mechanism of action data via DrugBank API (DG002)
 - A trial or cohort study specifically enrolling a pre-malignant (e.g., low/intermediate-risk MDS, CMML) population rather than established AML/BPDCN, to directly test the CD123-clearance hypothesis
 - Results from NCT06414681 (myelofibrosis combination trial) once recruitment begins, as the closest available population match
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

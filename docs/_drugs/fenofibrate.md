@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Fenofibrate
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 165
 evidence_level: L5
 indication_count: 7
@@ -10,12 +10,12 @@ indication_count: 7
 # Fenofibrate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **7** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -90,7 +90,7 @@ The rationale therefore is less "novel repurposing" and more "TxGNN correctly re
 
 ## Germany Market Information
 
-Fenofibrate currently holds **no marketing authorizations** in the German dataset used for this evidence pack (`market_status: 未上市`, `total_licenses: 0`). No product-level authorization records are available to summarize.
+Fenofibrate currently holds **no marketing authorizations** in the German dataset used for this evidence pack (`market_status: Not marketed`, `total_licenses: 0`). No product-level authorization records are available to summarize.
 
 ---
 
@@ -112,10 +112,10 @@ A Blocking-severity data gap (missing regulatory label safety/contraindication d
 - DrugBank MOA data to support mechanistic rationale (resolve DG002)
 - Clarification of fenofibrate's German regulatory/market status, given 0 current authorizations
 - Dedicated fenofibrate-specific clinical or observational evidence in HoFH (current standard of care has shifted toward PCSK9i/MTP inhibitors), to distinguish this from disease-term-matched but drug-mismatched trial evidence
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

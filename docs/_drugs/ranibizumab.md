@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ranibizumab
-parent: 僅模型預測 (L5)
+parent: Nur Modellvorhersage (L5)
 nav_order: 325
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Ranibizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -74,10 +74,10 @@ This Evidence Pack is missing the four core inputs required for a repurposing ev
 - **Mechanism of action (MOA)** — flagged as a High-severity data gap; query the DrugBank API for DB01270 to obtain the pharmacological mechanism
 - **Safety data** — key warnings and contraindications are missing; download and parse the package insert PDF to populate these fields
 - **Regulatory status verification** — confirm whether the 0-license result reflects the actual market status or a query coverage limitation
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

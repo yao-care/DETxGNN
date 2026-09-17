@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Adalimumab
-parent: 僅模型預測 (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 18
-evidence_level: L5
+evidence_level: L3
 indication_count: 6
 ---
 
 # Adalimumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Evidenzniveau: **L3** | Vorhergesagte Indikationen: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -109,10 +109,10 @@ Evidence level L3 (a systematic review plus a registry cohort and multiple case 
 - Obtain confirmed German licensing/original-indication data, since adalimumab currently shows 0 licenses on file in this market dataset.
 - Commission a targeted review or prospective cohort specifically addressing whether anti-TNF therapy nets a protective effect against, or induces, rheumatoid vasculitis, to resolve the treat-vs-induce contradiction.
 - For near-term action, prioritize the two other candidates in this same evidence pack that already carry L1 evidence and a "Proceed with Guardrails" recommendation — **inflammatory spondylopathy** and **polyarticular juvenile rheumatoid arthritis** — while rheumatoid vasculitis remains on Hold pending the items above.
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

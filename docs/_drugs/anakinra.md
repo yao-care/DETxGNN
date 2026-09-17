@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Anakinra
-parent: 中證據等級 (L3-L4)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 30
 evidence_level: L3
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Anakinra
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **10** 個
+Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -50,7 +50,7 @@ indication_count: 10
 | 代表性預測新適應症 | Autosomal recessive familial Mediterranean fever（家族性地中海熱） |
 | TxGNN 預測分數 | 99.89%（rank 1819） |
 | 證據等級 | L3 |
-| 德國市場狀態 | ✗ 未上市 |
+| 德國市場狀態 | ✗ Not marketed |
 | 藥證數量 | 0 |
 | 建議決策 | Proceed with Guardrails（限定條件下推進） |
 
@@ -134,13 +134,13 @@ Mastocytosis（rank 4）的文獻證據需特別注意：現有 2 篇文獻皆�
 
 ## 德國市場資訊
 
-Anakinra（DB00026）於本資料庫中標示為 **未上市（`market_status: 未上市`，`total_licenses: 0`）**，無可用藥證資料，故無法提供劑型／核准適應症文字。
+Anakinra（DB00026）於本資料庫中標示為 **Not marketed（`market_status: Not marketed`，`total_licenses: 0`）**，無可用藥證資料，故無法提供劑型／核准適應症文字。
 
 ---
 
 ## 安全性考量
 
-本證據包之安全性欄位（`key_warnings`、`contraindications`）皆為資料缺口，且 `DG001`（TFDA 仿單警語/禁忌）標記為 **Blocking** 等級缺口，明確影響本案是否能進入 S1 安全性初評。
+本證據包之安全性欄位（`key_warnings`、`contraindications`）皆為資料缺口，且 `DG001`（BfArM package insert warnings/contraindications）標記為 **Blocking** 等級缺口，明確影響本案是否能進入 S1 安全性初評。
 
 > 請參閱藥品仿單以獲取安全性資訊；在補齊仿單警語與禁忌症資料前，本案安全性尚無法完成初步評估。
 
@@ -160,10 +160,10 @@ Anakinra（DB00026）於本資料庫中標示為 **未上市（`market_status: �
 - 原始核准適應症資料（本包 `original_indications` 為空），以利進行原適應症與新適應症之相似性比對。
 - 針對 aggressive systemic mastocytosis 候選，需釐清文獻中 Schnitzler syndrome 與目標疾病實體（KIT D816V 驅動）之錯配問題，避免誤用個案證據。
 - 若後續要推進 FMF／PAPA 候選之正式臨床評估，建議優先檢索是否存在相關前瞻性研究或註冊試驗（目前皆為 0）。
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 

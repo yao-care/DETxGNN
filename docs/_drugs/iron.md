@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Iron
-parent: 僅模型預測 (L5)
+parent: Hohe Evidenz (L1-L2)
 nav_order: 213
-evidence_level: L5
+evidence_level: L2
 indication_count: 6
 ---
 
 # Iron
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Evidenzniveau: **L2** | Vorhergesagte Indikationen: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Inhaltsverzeichnis
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmazeutischer Bewertungsbericht
 
 </div>
 
@@ -165,10 +165,10 @@ Two of the six TxGNN-predicted indications (iron/vitamin deficiency correction, 
 - Clarification of the original approved indication(s) for this specific drug entry, which are currently undocumented
 - If pursuing Plummer-Vinson syndrome as a formal indication: confirmation of whether this would constitute a genuinely new regulatory indication or simply document an already-standard off-label practice
 - If pursuing the "Vitamin deficiency disorder" candidate: reconciliation of the disease-ontology mismatch (iron is a mineral) with regulatory nomenclature before drafting any indication statement
-## Disclaimer
+## Haftungsausschluss
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
 
 ---
 
