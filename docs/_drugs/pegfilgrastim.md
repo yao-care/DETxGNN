@@ -29,78 +29,79 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Pegfilgrastim: From Chemotherapy-Induced Neutropenia to Severe Nonproliferative Diabetic Retinopathy
+# Pegfilgrastim: Vom chemotherapie-induzierten Neutropenie zur schweren nicht-proliferativen diabetischen Retinopathie
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Pegfilgrastim is a G-CSF (granulocyte colony-stimulating factor) analogue, clinically used to stimulate bone marrow granulocyte production and prevent chemotherapy-induced neutropenia.
-> The TxGNN model predicts it may be effective for **Severe Nonproliferative Diabetic Retinopathy**,
-> but currently **no clinical trials** and **no publications** support this direction — the prediction rests solely on the model's internal knowledge graph.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Chemotherapy-induced neutropenia (based on known mechanism of action; formal Taiwan/Germany license data not available) |
-| Predicted New Indication | Severe Nonproliferative Diabetic Retinopathy |
-| TxGNN Prediction Score | 99.89% |
-| Evidence Level | L5 |
-| Germany Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Pegfilgrastim ist ein G-CSF-(Granulozyten-Kolonie-stimulierender Faktor-)Analogon, das klinisch zur Stimulation der Knochenmarkgranulozytenproduktion und zur Prävention von chemotherapie-induziertem Neutropenie eingesetzt wird.
+> Das TxGNN-Modell prognostiziert, dass es möglicherweise wirksam gegen **schwere nicht-proliferative diabetische Retinopathie** ist,
+> aber derzeit gibt es **keine klinischen Studien** und **keine Publikationen**, die diese Richtung unterstützen — die Vorhersage basiert ausschließlich auf dem internen Wissensgraph des Modells.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Currently, detailed mechanism of action data is not available. Based on known information, pegfilgrastim is a G-CSF analogue whose established clinical role is stimulating bone marrow granulocyte production to prevent chemotherapy-induced neutropenia. No published data currently describe a direct link between this mechanism and diabetic retinopathy pathology (e.g., VEGF signaling, retinal microvascular injury, or inflammatory pathways).
-
-The high TxGNN score may reflect an indirect graph association between G-CSF-mediated bone marrow stem cell mobilization (CD34+ cells) and vascular repair processes, which are conceptually relevant to ischemic retinal disease. However, this is a hypothesis derived from graph structure, not from experimental or clinical evidence. Notably, G-CSF agents have a theoretical **dual-direction risk**: while endothelial progenitor cell mobilization could theoretically support ischemic retinal repair, G-CSF has also been raised as a potential contributor to pathological neovascularization, which would be undesirable in proliferative diabetic retinopathy. A second, closely related prediction — "diabetic retinopathy" (score 99.73%, rank 3759) — shows the same pattern of unresolved mechanistic direction and complete absence of supporting evidence.
-
-Given the original indication and MOA are themselves marked as data gaps in this evidence pack, this mechanistic rationale cannot be independently verified and should be treated as speculative.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Chemotherapie-induzierter Neutropenie (basierend auf bekanntem Wirkmechanismus; formale Taiwan/Deutschland-Lizenzdaten nicht verfügbar) |
+| Vorhergesagte neue Indikation | Schwere nicht-proliferative diabetische Retinopathie |
+| TxGNN-Vorhersage-Score | 99.89% |
+| Evidenzstufe | L5 |
+| Marktstatus Deutschland | Nicht im Handel |
+| Anzahl der Genehmigungen | 0 |
+| Empfehlenswerte Entscheidung | Halten |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage sinnvoll?
 
-Currently no related literature available.
+Derzeit sind detaillierte Wirkmechanismus-Daten nicht verfügbar. Basierend auf bekannten Informationen ist Pegfilgrastim ein G-CSF-Analogon, dessen etablierte klinische Rolle die Stimulation der Knochenmarkgranulozytenproduktion zur Prävention von chemotherapie-induziertem Neutropenie ist. Es gibt derzeit keine veröffentlichten Daten, die einen direkten Zusammenhang zwischen diesem Mechanismus und der Pathologie der diabetischen Retinopathie beschreiben (z. B. VEGF-Signalisierung, retinale Mikrovaskularverletzung oder entzündliche Wege).
 
----
+Der hohe TxGNN-Score spiegelt möglicherweise eine indirekte Graphen-Assoziation zwischen G-CSF-vermittelter Knochenmark-Stammzellmobilisierung (CD34+-Zellen) und vaskulären Reparaturprozessen wider, die konzeptionell für ischämische Netzhauterkrankungen relevant sind. Dies ist jedoch eine Hypothese, die sich aus der Graphenstruktur ableitet, nicht aus experimentellen oder klinischen Daten. Bemerkenswert ist, dass G-CSF-Mittel ein theoretisches **bidirektionales Risiko** aufweisen: Während die Mobilisierung von endothelialen Vorläuferzellen theoretisch die ischämische Netzhautreparatur unterstützen könnte, wurde G-CSF auch als potenzieller Beitrag zu pathologischer Neovaskularisierung identifiziert, was bei proliferativer diabetischer Retinopathie unerwünscht wäre. Eine zweite, eng verwandte Vorhersage — „diabetische Retinopathie" (Score 99.73%, Rang 3759) — zeigt das gleiche Muster ungelöster mechanistischer Richtung und völlige Abwesenheit unterstützender Daten.
 
-## Germany Market Information
-
-No license records are currently available — pegfilgrastim is not marketed in this jurisdiction according to the regulatory dataset (0 authorizations on file).
+Angesichts der Tatsache, dass die Originalindikation und der Wirkmechanismus selbst in diesem Evidenzpaket als Datenlücken gekennzeichnet sind, kann diese mechanistische Begründung nicht unabhängig überprüft werden und sollte als spekulativ behandelt werden.
 
 ---
 
-## Safety Considerations
+## Klinische Studiendaten
 
-Please refer to the package insert for safety information.
-
-Note: Key warnings, contraindications, and drug-drug interaction data are currently unavailable in this evidence pack (flagged as a **Blocking** data gap — TFDA/label warnings and contraindications, DG001). This gap alone is sufficient to prevent progression to safety pre-screening (S1) regardless of efficacy evidence.
+Derzeit sind keine verwandten klinischen Studien registriert.
 
 ---
 
-## Conclusion and Next Steps
+## Literaturbelege
 
-**Decision: Hold**
+Derzeit sind keine verwandten Literaturquellen verfügbar.
 
-**Rationale:**
-This prediction is supported only by the TxGNN model score (L5 evidence) with zero clinical trials and zero publications. The proposed mechanism is speculative and carries an unresolved, potentially opposing risk direction (retinal vascular repair vs. pathological neovascularization). Combined with a Blocking-severity gap in safety/label data, this candidate does not meet the threshold for further evaluation at this time.
+---
 
-**To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) data for pegfilgrastim (DG002)
-- TFDA/official label warnings and contraindications (DG001, Blocking — required before any S1 safety pre-screening)
-- Preclinical or observational evidence specifically evaluating G-CSF agents in diabetic retinopathy, given the theoretical risk of exacerbating pathological retinal neovascularization
-- Formal regulatory/license data if market entry is being considered
+## Informationen zum deutschen Markt
+
+Es sind derzeit keine Lizenzunterlagen verfügbar — Pegfilgrastim wird nach regulatorischen Datensätzen nicht in dieser Gerichtsbarkeit vermarktet (0 Genehmigungen vorhanden).
+
+---
+
+## Sicherheitsüberlegungen
+
+Bitte beachten Sie die Fachinformation für Sicherheitsinformationen.
+
+Hinweis: Wichtige Warnungen, Gegenanzeigen und Arzneimittelwechselwirkungsdaten sind derzeit in diesem Evidenzpaket nicht verfügbar (gekennzeichnet als **blockierend**e Datenlücke — TFDA/Fachinformation Warnungen und Gegenanzeigen, DG001). Diese Lücke allein ist ausreichend, um den Fortschritt zum Sicherheits-Vor-Screening (S1) unabhängig von Wirksamkeitsnachweisen zu verhindern.
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Halten**
+
+**Begründung:**
+Diese Vorhersage wird nur durch den TxGNN-Modell-Score (L5-Evidenz) mit null klinischen Studien und null Publikationen gestützt. Der vorgeschlagene Mechanismus ist spekulativ und trägt ein ungelöstes, möglicherweise gegensätzliches Risiko (Netzhautgefäßreparatur vs. pathologische Neovaskularisierung). In Kombination mit einer blockierenden Datenlücke bei Sicherheits-/Fachinformationsdaten erfüllt dieser Kandidat derzeit nicht die Schwelle für weitere Bewertung.
+
+**Um voranzukommen, ist folgendes erforderlich:**
+- Bestätigte Wirkmechanismus-Daten (MOA) für Pegfilgrastim (DG002)
+- TFDA/offizielle Fachinformation Warnungen und Gegenanzeigen (DG001, blockierend — erforderlich vor jedem S1 Sicherheits-Vor-Screening)
+- Präklinische oder Beobachtungsdaten, die speziell G-CSF-Mittel bei diabetischer Retinopathie bewerten, angesichts des theoretischen Risikos der Verschlimmerung pathologischer retinaler Neovaskularisierung
+- Formale regulatorische/Lizenzdaten, falls ein Markteintritt in Betracht gezogen wird
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

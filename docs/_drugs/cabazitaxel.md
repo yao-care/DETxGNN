@@ -29,96 +29,97 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Cabazitaxel: From Prostate Cancer — Repurposing Evaluation (Predictions Pending)
+# Cabazitaxel: Von Prostatakrebs – Umwidmungsbewertung (Vorhersagen ausstehend)
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Cabazitaxel (Jevtana®) is a semi-synthetic taxane derivative approved internationally for metastatic castration-resistant prostate cancer (mCRPC) after prior docetaxel-based therapy.
-This Evidence Pack **does not yet contain TxGNN repurposing predictions** — the prediction pipeline has not been completed due to unresolved data gaps (MOA and regulatory package insert).
-Without prediction outputs, no new indication can be evaluated at this time.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Metastatic castration-resistant prostate cancer (mCRPC), second-line after docetaxel |
-| Predicted New Indication | Not available — TxGNN predictions not yet generated |
-| TxGNN Prediction Score | Not available |
-| Evidence Level | L5 (model predictions not yet run) |
-| Market Status | Not marketed in this jurisdiction |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** — complete data pipeline before assessment |
+Cabazitaxel (Jevtana®) ist ein halbsynthetisches Taxan-Derivat, das international zur Behandlung von metastasiertem kastrationsresistentem Prostatakrebs (mCRPC) nach vorheriger Docetaxel-basierter Therapie zugelassen ist.
+Dieses Evidence-Paket **enthält noch keine TxGNN-Umwidmungsvorhersagen** – die Vorhersage-Pipeline wurde aufgrund ungeklärter Datenlücken (MOA und behördliches Fachinformationsblatt) nicht abgeschlossen.
+Ohne Vorhersageergebnisse kann derzeit keine neue Indication bewertet werden.
 
 ---
 
-## Drug Background
+## Schnellübersicht
 
-Cabazitaxel is a microtubule-stabilising agent belonging to the taxane class. It was developed specifically to overcome resistance to docetaxel, as it shows low affinity for P-glycoprotein — the efflux pump responsible for taxane resistance in many tumour cell lines.
-
-Its primary mechanism involves binding to tubulin and inhibiting microtubule depolymerisation, thereby arresting cell division at the G2/M phase. This mechanism is broadly applicable across tumour types that rely on rapid cell division, making it a candidate of interest for repurposing beyond prostate cancer.
-
-Cabazitaxel is approved by the FDA (2010) and EMA (2011) under the brand name Jevtana® for mCRPC. It is not currently marketed in this jurisdiction (0 local authorizations), which means importation or local registration would be required for any clinical application.
-
-> **Note on MOA data gap:** The Evidence Pack lists MOA as a High-severity data gap (DG002). The background above is based on established pharmacological literature and should be formally confirmed via DrugBank API before proceeding to a full repurposing analysis.
-
----
-
-## Why No Repurposing Assessment is Possible Yet
-
-The Evidence Pack is incomplete:
-
-| Data Gap | Severity | Impact |
-|----------|----------|--------|
-| TFDA package insert (warnings/contraindications) | **Blocking** | Cannot complete S1 safety screening |
-| Mechanism of action (MOA) | High | Cannot perform mechanistic similarity analysis |
-| TxGNN prediction output | Critical | No new indication predicted — `predicted_indications: []` |
-
-The `predicted_indications` array is empty, which means either:
-1. The TxGNN prediction step has not yet been run for this drug, **or**
-2. The prediction pipeline was blocked by the upstream data gaps above.
-
-Until TxGNN produces a ranked list of candidate indications, there is no repurposing target to evaluate.
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indication | Metastasierter kastrationsresistenter Prostatakrebs (mCRPC), Zweitlinienbehandlung nach Docetaxel |
+| Vorhergesagte neue Indication | Nicht verfügbar – TxGNN-Vorhersagen noch nicht erstellt |
+| TxGNN-Vorhersage-Score | Nicht verfügbar |
+| Evidence Level | L5 (Modellvorhersagen noch nicht durchgeführt) |
+| Marktstatus | In dieser Jurisdiktion nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | **Zurückhalten** – Datenpipeline vor Bewertung abschließen |
 
 ---
 
-## Cytotoxicity
+## Arzneimittel-Hintergrund
 
-Cabazitaxel is a cytotoxic chemotherapy agent. The following applies regardless of repurposing target.
+Cabazitaxel ist ein Mikrotubuli-stabilisierendes Mittel aus der Taxan-Klasse. Es wurde speziell entwickelt, um die Resistenz gegen Docetaxel zu überwinden, da es eine geringe Affinität für P-Glykoprotein aufweist – die Efflusspumpe, die für die Taxan-Resistenz in vielen Tumorzelllinien verantwortlich ist.
 
-| Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Conventional cytotoxic — Taxane class |
-| Myelosuppression Risk | **High** — Febrile neutropenia is the most common serious adverse event; G-CSF prophylaxis is standard of care |
-| Emetogenicity Classification | Low to moderate |
-| Monitoring Items | CBC with differential (weekly during first cycle), liver function, renal function, electrolytes |
-| Handling Protection | Must follow cytotoxic drug handling regulations — closed-system transfer devices required |
+Der primäre Wirkmechanismus beinhaltet die Bindung an Tubulin und die Hemmung der Mikrotubuli-Depolymerisierung, wodurch die Zellen in der G2/M-Phase arretiert werden. Dieser Mechanismus ist breit auf Tumortypen anwendbar, die auf schnelle Zellteilung angewiesen sind, was ihn zu einem interessanten Kandidaten für die Umwidmung über Prostatakrebs hinaus macht.
+
+Cabazitaxel ist von der FDA (2010) und der EMA (2011) unter dem Markennamen Jevtana® für mCRPC zugelassen. Es ist derzeit in dieser Jurisdiktion nicht vermarktet (0 lokale Zulassungen), was bedeutet, dass eine Einfuhr oder lokale Registrierung für jede klinische Anwendung erforderlich wäre.
+
+> **Anmerkung zur MOA-Datenlücke:** Das Evidence-Paket führt MOA als Datenlücke mit hohem Schweregrad auf (DG002). Der obige Hintergrund basiert auf etablierter pharmakologischer Literatur und sollte formal über die DrugBank API bestätigt werden, bevor eine vollständige Umwidmungsanalyse durchgeführt wird.
 
 ---
 
-## Safety Considerations
+## Warum derzeit keine Umwidmungsbewertung möglich ist
 
-The Evidence Pack contains no actionable safety data for this drug in this jurisdiction. Before any clinical or regulatory work proceeds:
+Das Evidence-Paket ist unvollständig:
 
-> Please refer to the EMA SmPC (Jevtana®) and current TFDA package insert for complete warnings, contraindications, and drug interaction information. The most critical known risks are febrile neutropenia, severe hypersensitivity reactions, and gastrointestinal toxicity.
+| Datenlücke | Schweregrad | Auswirkung |
+|------------|------------|-----------|
+| TFDA-Fachinformationsblatt (Warnhinweise/Gegenanzeigen) | **Blockierend** | Kann S1-Sicherheits-Screening nicht abgeschlossen werden |
+| Wirkmechanismus (MOA) | Hoch | Kann keine mechanistische Ähnlichkeitsanalyse durchführen |
+| TxGNN-Vorhersageergebnis | Kritisch | Keine neue Indication vorhergesagt – `predicted_indications: []` |
+
+Das `predicted_indications`-Array ist leer, was bedeutet, dass entweder:
+1. Der TxGNN-Vorhersageschritt für dieses Arzneimittel noch nicht durchgeführt wurde, **oder**
+2. Die Vorhersage-Pipeline durch die obigen vorgelagerten Datenlücken blockiert wurde.
+
+Bis TxGNN eine priorisierte Liste von Kandidaten-Indikationen produziert, gibt es kein Umwidmungsziel zu bewerten.
 
 ---
 
-## Conclusion and Next Steps
+## Zytotoxizität
 
-**Decision: Hold**
+Cabazitaxel ist ein zytotoxisches Chemotherapeutikum. Das Folgende gilt unabhängig vom Umwidmungsziel.
 
-**Rationale:**
-The Evidence Pack for Cabazitaxel is missing both its TxGNN repurposing predictions and the blocking safety data required for S1 screening. There is no new indication to evaluate, and no safety baseline to assess against.
+| Element | Inhalt |
+|---------|--------|
+| Klassifizierung der Zytotoxizität | Konventionelles Zytotoxikum – Taxan-Klasse |
+| Myelosuppressionsrisiko | **Hoch** – Fieberhafte Neutropenie ist das häufigste schwerwiegende Nebenereignis; G-CSF-Prophylaxe ist Standard der Praxis |
+| Emetogenitäts-Klassifizierung | Niedrig bis moderat |
+| Überwachungspunkte | CBC mit Differenzierung (wöchentlich während des ersten Zyklus), Leberfunktion, Nierenfunktion, Elektrolyte |
+| Handhabungsschutz | Muss den Bestimmungen zur Handhabung zytotoxischer Arzneimittel entsprechen – Geschlossene Transfersysteme erforderlich |
 
-**To proceed, the following is needed:**
+---
 
-1. **Resolve DG001 (Blocking):** Download and parse the TFDA package insert PDF to extract warnings and contraindications — required to unlock the S1 safety gate.
-2. **Resolve DG002 (High):** Query DrugBank API for formal MOA data to enable mechanistic similarity analysis.
-3. **Re-run TxGNN prediction pipeline** for DB06772 — the `predicted_indications` array must be populated before any repurposing evaluation can begin.
-4. **Review EMA SmPC** for Jevtana® as a supplementary safety reference, given the drug is approved in Europe but not in this jurisdiction.
-5. Once predictions are available, reassess evidence level and decision recommendation per standard L1–L5 criteria.
+## Sicherheitserwägungen
+
+Das Evidence-Paket enthält keine umsetzbaren Sicherheitsdaten für dieses Arzneimittel in dieser Jurisdiktion. Vor der Durchführung klinischer oder behördlicher Arbeiten:
+
+> Bitte beachten Sie die EMA SmPC (Jevtana®) und das aktuelle TFDA-Fachinformationsblatt für vollständige Warnhinweise, Gegenanzeigen und Informationen zu Arzneimittelwechselwirkungen. Die kritischsten bekannten Risiken sind fieberhafte Neutropenie, schwere Überempfindlichkeitsreaktionen und Gastrointestinaltoxizität.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Zurückhalten**
+
+**Begründung:**
+Das Evidence-Paket für Cabazitaxel fehlen sowohl die TxGNN-Umwidmungsvorhersagen als auch die blockierenden Sicherheitsdaten, die für das S1-Screening erforderlich sind. Es gibt keine neue Indication zu bewerten und keine Sicherheitsgrundlage für die Bewertung.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+
+1. **DG001 auflösen (Blockierend):** Das TFDA-Fachinformationsblatt als PDF herunterladen und analysieren, um Warnhinweise und Gegenanzeigen zu extrahieren – erforderlich zum Freischalten des S1-Sicherheits-Tors.
+2. **DG002 auflösen (Hoch):** DrugBank API für formale MOA-Daten abfragen, um eine mechanistische Ähnlichkeitsanalyse zu ermöglichen.
+3. **TxGNN-Vorhersage-Pipeline erneut ausführen** für DB06772 – das `predicted_indications`-Array muss vor jeder Umwidmungsbewertung gefüllt werden.
+4. **EMA SmPC für Jevtana® überprüfen** als ergänzende Sicherheitsreferenz, da das Arzneimittel in Europa zugelassen ist, aber nicht in dieser Jurisdiktion.
+5. Sobald Vorhersagen verfügbar sind, die Bewertung des Evidence Level und die Entscheidungsempfehlung nach standardmäßigen L1–L5-Kriterien erneut durchführen.
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

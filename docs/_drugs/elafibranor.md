@@ -29,76 +29,77 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Elafibranor: From Investigational Use to Predicted Amenorrhea
+# Elafibranor: Von investigativer Anwendung zur vorhergesagten Amenorrhö
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Elafibranor is not yet marketed in this jurisdiction, and no formally documented original indication or mechanism of action is currently on file.
-> The TxGNN model predicts a possible association with **Amenorrhea**,
-> with **0 clinical trials** and **0 publications** currently supporting this direction — this prediction rests entirely on model output.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available — no approved indication is on file for this drug |
-| Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.86% |
-| Evidence Level | L5 |
-| Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Elafibranor ist in dieser Gerichtsbarkeit noch nicht auf dem Markt erhältlich, und es ist derzeit keine formal dokumentierte Ursprungsindikation oder kein Wirkungsmechanismus aktenkundig.
+> Das TxGNN-Modell sagt eine mögliche Assoziation mit **Amenorrhö** voraus,
+> wobei derzeit **0 klinische Studien** und **0 Publikationen** diese Richtung unterstützen – diese Vorhersage basiert vollständig auf Modellausgaben.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Currently, detailed mechanism of action data is not available for Elafibranor in this evidence pack. Based on publicly known information (not part of the verified input data), Elafibranor is a PPAR-α/δ dual agonist that has been in clinical development for primary biliary cholangitis (PBC) and non-alcoholic steatohepatitis (NASH) — both of which relate to lipid metabolism and bile acid homeostasis.
-
-No mechanistic or clinical pathway currently connects PPAR-α/δ agonism to amenorrhea, which is a condition with heterogeneous causes (hypothalamic, ovarian, uterine, or drug-induced). The TxGNN score of 99.86% reflects graph-based node proximity/co-occurrence patterns in the model, not validated pharmacological or clinical evidence — a very high score in this context should not be interpreted as mechanistic support.
-
-Given the absence of any supporting trials, literature, or plausible biological rationale, this prediction should currently be treated as hypothesis-generating only, not as an actionable repurposing signal.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Inhalt |
+|--------|--------|
+| Ursprüngliche Indikation | Nicht verfügbar — es ist keine zugelassene Indikation für dieses Arzneimittel aktenkundig |
+| Vorhergesagte neue Indikation | Amenorrhö |
+| TxGNN-Vorhersage-Score | 99.86% |
+| Evidenzstufe | L5 |
+| Marktstatus | Nicht auf dem Markt |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | Abwarten |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage sinnvoll?
 
-Currently no related literature available.
+Derzeit sind detaillierte Daten zum Wirkmechanismus von Elafibranor in diesem Evidenzpaket nicht verfügbar. Basierend auf öffentlich bekannten Informationen (nicht Teil der verifizierten Eingabedaten) ist Elafibranor ein PPAR-α/δ-Dualagonist, der sich in klinischer Entwicklung für primäre biliäre Cholangitis (PBC) und nicht-alkoholische Steatohepatitis (NASH) befindet — beides beziehsich auf den Lipidstoffwechsel und die Homöostase der Gallensäuren.
 
----
+Kein mechanistischer oder klinischer Weg verbindet derzeit PPAR-α/δ-Agonismus mit Amenorrhö, die eine Erkrankung mit heterogenen Ursachen darstellt (hypothalamisch, ovarial, uterinisch oder arzneimittelinduziert). Der TxGNN-Score von 99.86 % spiegelt graphenbasierte Knotennähe-/Koauftretens-Muster im Modell wider, nicht validierte pharmakologische oder klinische Evidenz — ein sehr hoher Score in diesem Kontext sollte nicht als mechanistische Unterstützung interpretiert werden.
 
-## Market Information
-
-No marketing authorizations are currently on file for this drug (0 licenses registered; market status: not marketed).
+Angesichts des Fehlens von unterstützenden Studien, Literatur oder plausibler biologischer Begründung sollte diese Vorhersage derzeit nur als hypothesenbildend behandelt werden, nicht als ein umsetzbares Repurposing-Signal.
 
 ---
 
-## Safety Considerations
+## Evidenz aus klinischen Studien
 
-Please refer to the package insert for safety information.
+Derzeit sind keine damit verbundenen klinischen Studien registriert.
 
 ---
 
-## Conclusion and Next Steps
+## Evidenz aus der Literatur
 
-**Decision: Hold**
+Derzeit ist keine damit verbundene Literatur verfügbar.
 
-**Rationale:**
-- This is a model-only prediction (L5) with no supporting clinical trials, literature, or mechanistic rationale; the drug is also not yet marketed and lacks a documented original indication or MOA, so it cannot proceed to safety screening (S1) at this time.
+---
 
-**To proceed, the following is needed:**
-- TFDA label extraction (warnings/contraindications) — currently blocking for safety review (DG001)
-- Confirmed mechanism of action via DrugBank query (DG002)
-- Literature/clinical trial search specifically for Elafibranor–amenorrhea or PPAR agonist–reproductive endocrine pathway association
-- Re-evaluation once mechanistic plausibility or any real-world/clinical evidence emerges
+## Marktinformation
+
+Derzeit sind keine Vermarktungsgenehmigungen für dieses Arzneimittel aktenkundig (0 Lizenzen registriert; Marktstatus: nicht auf dem Markt).
+
+---
+
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Abwarten**
+
+**Begründung:**
+- Dies ist eine reine Modellvorhersage (L5) ohne unterstützende klinische Studien, Literatur oder mechanistische Begründung; das Arzneimittel ist auch noch nicht auf dem Markt und hat keine dokumentierte Ursprungsindikation oder MOA, daher kann es derzeit nicht zum Sicherheits-Screening (S1) übergehen.
+
+**Um fortzufahren, wird Folgendes benötigt:**
+- TFDA-Label-Extraktion (Warnungen/Kontraindikationen) — derzeit blockiert für Sicherheitsbewertung (DG001)
+- Bestätigter Wirkmechanismus über DrugBank-Abfrage (DG002)
+- Literatur-/klinische Studiensuche speziell für Elafibranor–Amenorrhö oder PPAR-Agonist–reproduktiver endokriner Signalweg-Assoziation
+- Neubewertung, sobald mechanistische Plausibilität oder irgendwelche Real-World/klinischen Evidenzen auftauchen
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -29,78 +29,79 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Spironolactone: From Aldosterone-Related Fluid Retention to Hypotrichosis Simplex of the Scalp
+# Spironolakton: Von Aldosteron-assoziierter Flüssigkeitsretention bis Hypotrichosis simplex der Kopfhaut
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Spironolactone is a mineralocorticoid (aldosterone) receptor antagonist historically used for conditions such as edema and hypertension, and off-label for androgenetic alopecia due to its anti-androgenic activity.
-> The TxGNN model predicts it may be effective for **Hypotrichosis Simplex of the Scalp**, a hereditary hair-loss disorder,
-> but this prediction is currently supported by **0 clinical trials** and **0 publications** — evidence level L5 (model prediction only).
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in evidence pack (data gap); spironolactone is generally known as an aldosterone antagonist used for edema/fluid retention and hypertension |
-| Predicted New Indication | Hypotrichosis simplex of the scalp |
-| TxGNN Prediction Score | 99.26% |
-| Evidence Level | L5 |
-| Germany Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Spironolakton ist ein Mineralokortikoid-(Aldosteron-)Rezeptor-Antagonist, der historisch für Zustände wie Ödeme und Hypertonie verwendet wird, und off-label für androgenische Alopezie wegen seiner antiandrogenen Aktivität.
+> Das TxGNN-Modell sagt voraus, dass es wirksam sein könnte für **Hypotrichosis simplex der Kopfhaut**, eine erbliche Haarausfallstörung,
+> aber diese Vorhersage wird derzeit durch **0 klinische Studien** und **0 Publikationen** gestützt — Beweisniveau L5 (nur Modellvorhersage).
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on generally known pharmacology, spironolactone is a mineralocorticoid receptor antagonist that also exhibits anti-androgenic activity, which is why it is used off-label for androgenetic alopecia (a hormone/androgen-driven hair loss condition).
-
-However, hypotrichosis simplex of the scalp is a hereditary, autosomal condition most often linked to **APCDD1** mutations that disrupt the **Wnt signaling pathway** required for normal hair follicle development. This mechanism is unrelated to androgen or mineralocorticoid signaling. As a result, there is no established biological pathway connecting spironolactone's known pharmacology to this specific genetic disorder — the high TxGNN score (0.99) most likely reflects embedding similarity between "hair loss" phenotypes in the model's knowledge graph rather than a genuine causal or mechanistic link.
-
-A second candidate in this evidence pack, **congenital hypotrichosis with milia** (score 0.99, rank 9732), shows the same pattern: it is a rare ectodermal dysplasia driven by keratinocyte differentiation/follicle development genes, with no known relationship to mineralocorticoid or androgen pathways. Both predictions should be treated as hypothesis-generating only, not as evidence of therapeutic plausibility.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Nicht in Evidenzpaket dokumentiert (Datenlücke); Spironolakton ist allgemein bekannt als Aldosteron-Antagonist zur Behandlung von Ödemen/Flüssigkeitsretention und Hypertonie |
+| Vorhergesagte neue Indikation | Hypotrichosis simplex der Kopfhaut |
+| TxGNN-Vorhersage-Score | 99.26% |
+| Beweisniveau | L5 |
+| Marktstatus in Deutschland | Nicht im Handel |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Halten |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage plausibel?
 
-Currently no related literature available
+Derzeit sind keine detaillierten Wirkmechanismus-Daten in diesem Evidenzpaket verfügbar. Auf der Grundlage allgemein bekannter Pharmakologie ist Spironolakton ein Mineralokortikoid-Rezeptor-Antagonist, der auch antiandrogene Aktivität aufweist, weshalb es off-label für androgenische Alopezie (eine hormon-/androgen-bedingte Haarausfallerkrankung) verwendet wird.
 
----
+Hypotrichosis simplex der Kopfhaut ist jedoch eine erbliche, autosomale Erkrankung, die am häufigsten mit **APCDD1**-Mutationen verbunden ist, die den für die normale Haarfollikelentwicklung erforderlichen **Wnt-Signalweg** stören. Dieser Mechanismus steht in keinem Zusammenhang mit Androgen- oder Mineralokortikoid-Signalwegen. Folglich gibt es keinen etablierten biologischen Weg, der die bekannte Pharmakologie von Spironolakton mit dieser spezifischen genetischen Störung verbindet — der hohe TxGNN-Score (0.99) spiegelt wahrscheinlich eher die Embedding-Ähnlichkeit zwischen „Haarausfall"-Phänotypen im Wissensgraph des Modells wider, als dass er einen echten kausalen oder mechanistischen Zusammenhang zeigt.
 
-## Germany Market Information
-
-Spironolactone is currently **not marketed** in Germany under this evidence pack (0 authorizations on file), so no license table can be produced.
+Ein zweiter Kandidat in diesem Evidenzpaket, **kongenitale Hypotrichose mit Milien** (Score 0.99, Rang 9732), zeigt das gleiche Muster: Es ist eine seltene ektodermale Dysplasie, die durch Gene der Keratinozyten-Differenzierung und Haarfollikelentwicklung bedingt ist, ohne bekannten Zusammenhang zu Mineralokortikoid- oder Androgen-Signalwegen. Beide Vorhersagen sollten nur als hypothesengenerierend behandelt werden, nicht als Beweis für therapeutische Plausibilität.
 
 ---
 
-## Safety Considerations
+## Evidenz aus klinischen Studien
 
-Please refer to the package insert for safety information.
-
-*(Note: TFDA/label-level warnings, contraindications, and drug-drug interaction data are currently unavailable — this is a blocking data gap (DG001) that must be resolved before any safety evaluation (S1) can proceed.)*
+Derzeit keine verwandten klinischen Studien registriert
 
 ---
 
-## Conclusion and Next Steps
+## Evidenz aus der Literatur
 
-**Decision: Hold**
+Derzeit keine verwandte Literatur verfügbar
 
-**Rationale:**
-The predicted indication has no clinical trial or literature support (L5, decision stage S0), and the proposed mechanistic link between spironolactone's known pharmacology and this hereditary Wnt-pathway hair disorder is not biologically supported. In addition, safety labeling data (warnings/contraindications) is missing, which blocks any safety pre-assessment.
+---
 
-**To proceed, the following is needed:**
-- TFDA/EMA label warnings and contraindications (DG001, blocking — required before S1 safety screening)
-- Verified original indication and mechanism of action data from DrugBank (DG002)
-- Any preclinical or genetic evidence linking mineralocorticoid/anti-androgen activity to APCDD1/Wnt-pathway hair follicle disorders
-- If no such mechanistic or empirical evidence can be found, this candidate should remain at S0/Hold indefinitely rather than advance on TxGNN score alone
+## Marktsituation in Deutschland
+
+Spironolakton wird derzeit laut diesem Evidenzpaket nicht in Deutschland vermarktet (0 Zulassungen in der Akte), daher kann keine Lizenztabelle erstellt werden.
+
+---
+
+## Sicherheitsüberlegungen
+
+Bitte lesen Sie die Packungsbeilage für Sicherheitsinformationen.
+
+*(Hinweis: TFDA-/Etiketten-Warnungen, Gegenanzeigen und Arzneimittel-Wechselwirkungsdaten sind derzeit nicht verfügbar — dies ist eine blockierende Datenlücke (DG001), die vor jeder Sicherheitsbewertung (S1) behoben werden muss.)*
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Halten**
+
+**Begründung:**
+Die vorhergesagte Indikation hat keine Unterstützung durch klinische Studien oder Literatur (L5, Entscheidungsstufe S0), und der vorgeschlagene mechanistische Zusammenhang zwischen der bekannten Pharmakologie von Spironolakton und dieser erblichen Haarfollikelstörung des Wnt-Signalwegs ist biologisch nicht gestützt. Darüber hinaus fehlen Sicherheitsdaten (Warnungen/Gegenanzeigen), was eine vorläufige Sicherheitsbewertung blockiert.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+- TFDA-/EMA-Etiketten-Warnungen und Gegenanzeigen (DG001, blockierend — erforderlich vor S1-Sicherheits-Screening)
+- Verifizierte ursprüngliche Indikation und Wirkmechanismus-Daten aus DrugBank (DG002)
+- Beliebige präklinische oder genetische Evidenz für eine Verbindung zwischen Mineralokortikoid-/antiandrogener Aktivität und APCDD1/Wnt-Signalweg-Haarfollikelstörungen
+- Falls keine solche mechanistische oder empirische Evidenz gefunden werden kann, sollte dieser Kandidat indefinit bei S0/Halten verbleiben, anstatt allein aufgrund des TxGNN-Scores voranzugehen
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

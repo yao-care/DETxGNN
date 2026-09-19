@@ -29,86 +29,87 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Decitabine: From Myelodysplastic Syndrome to Refractory Cytopenia of Childhood
+# Decitabin: Vom Myelodysplastischen Syndrom zur Refraktären Zytopenie der Kindheit
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Decitabine is a DNA hypomethylating agent originally developed for myelodysplastic syndrome (MDS) in adults. The TxGNN model predicts it may be effective for **Refractory Cytopenia of Childhood** — a pediatric MDS subtype — with a prediction score of **99.03%**, though currently supported by only **1 publication** and **no registered clinical trials**.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Myelodysplastic syndrome (MDS) — based on known drug class; no German license text available in this evidence pack (not yet marketed) |
-| Predicted New Indication | Refractory Cytopenia of Childhood |
-| TxGNN Prediction Score | 99.03% |
-| Evidence Level | L3 (single-center retrospective/observational study; no clinical trials registered) |
-| Germany Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Decitabin ist ein DNS-Hypomethylierungsmittel, das ursprünglich für das Myelodysplastische Syndrom (MDS) bei Erwachsenen entwickelt wurde. Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam für **Refraktäre Zytopenie der Kindheit** ist — ein pädiatrisches MDS-Subtyp — mit einem Vorhersageergebnis von **99.03%**, obwohl es derzeit nur durch **1 Publikation** und **keine registrierten klinischen Studien** gestützt wird.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Currently, detailed mechanism of action data is not available. Based on known information, decitabine belongs to the hypomethylating agent (HMA) class — a nucleoside analog that inhibits DNA methyltransferase, restoring normal expression of silenced tumor suppressor and differentiation genes in dysplastic hematopoietic cells. Its efficacy in myelodysplastic syndrome (MDS) has been proven, and mechanistically it may be applicable to refractory cytopenia of childhood.
-
-Refractory cytopenia of childhood (RCC) is classified under the WHO pediatric MDS spectrum and shares core pathophysiology with adult MDS — ineffective hematopoiesis and marrow dysplasia leading to peripheral cytopenias. Given decitabine's established, disease-modifying effect on dysplastic clones in adult MDS, extension of this mechanism to the pediatric RCC population is biologically plausible, particularly as a bridging therapy prior to allogeneic hematopoietic stem cell transplantation (allo-HSCT), which is already being explored clinically.
+| Element | Inhalt |
+|--------|--------|
+| Originalindikation | Myelodysplastisches Syndrom (MDS) — basierend auf bekannter Wirkstoffklasse; kein deutscher Packungsbeilagetext verfügbar in diesem Nachweis-Paket (noch nicht vermarktet) |
+| Vorhergesagte neue Indikation | Refraktäre Zytopenie der Kindheit |
+| TxGNN-Vorhersageergebnis | 99.03% |
+| Evidenzstufe | L3 (Einzelzentrum-Rückblickstudie/Beobachtungsstudie; keine registrierten klinischen Studien) |
+| Marktstatus in Deutschland | Nicht vermarktet (Not marketed) |
+| Anzahl der Zulassungen | 0 |
+| Empfehlung zur Entscheidung | Halten |
 
 ---
 
-## Clinical Trial Evidence
+## Warum ist diese Vorhersage sinnvoll?
 
-Currently no related clinical trials registered.
+Derzeit sind detaillierte Daten zum Wirkmechanismus nicht verfügbar. Basierend auf bekannten Informationen gehört Decitabin zur Klasse der Hypomethylierungsmittel (HMA) — ein Nukleosid-Analog, das DNS-Methyltransferase hemmt und die normale Expression stiller Tumor-Suppressor- und Differenzierungsgene in dysplastischen hämatopoetischen Zellen wiederherstellt. Seine Wirksamkeit beim Myelodysplastischen Syndrom (MDS) ist nachgewiesen, und mechanistisch könnte es auf die refraktäre Zytopenie der Kindheit anwendbar sein.
+
+Die refraktäre Zytopenie der Kindheit (RCC) wird im WHO-Spektrum des pädiatrischen MDS klassifiziert und teilt die Kernpathophysiologie mit dem adulten MDS — ineffektive Hämatopoese und Marksdysplasie, die zu peripheren Zytopenien führen. Angesichts der etablierten, krankheitsmodifizierenden Wirkung von Decitabin auf dysplastische Klone beim adulten MDS ist eine Erweiterung dieses Wirkmechanismus auf die pädiatrische RCC-Population biologisch plausibel, insbesondere als Überbrückungstherapie vor allogener hämatopoetischer Stammzelltransplantation (allo-HSCT), die bereits klinisch untersucht wird.
 
 ---
 
-## Literature Evidence
+## Evidenz aus klinischen Studien
 
-| PMID | Year | Type | Journal | Key Findings |
+Derzeit sind keine verwandten klinischen Studien registriert.
+
+---
+
+## Evidenz aus der Literatur
+
+| PMID | Jahr | Typ | Zeitschrift | Wichtigste Erkenntnisse |
 |------|-----|------|------|---------|
-| [35624441](https://pubmed.ncbi.nlm.nih.gov/35624441/) | 2022 | Retrospective study | BMC Pediatrics | Single-center 10-year experience using a decitabine-combined minimally myelosuppressive regimen (DAC+MMR) as a bridge to allo-HSCT in pediatric MDS, reporting outcomes for this treatment approach. |
+| [35624441](https://pubmed.ncbi.nlm.nih.gov/35624441/) | 2022 | Retrospektive Studie | BMC Pediatrics | Einzelzentrum-Erfahrung über 10 Jahre mit einem Decitabin-kombinierten, minimal myelosuppressiven Therapieschema (DAC+MMR) als Brücke zur allo-HSCT bei pädiatrischem MDS mit Ergebnisberichten für diesen Therapieansatz. |
 
 ---
 
-## Germany Market Information
+## Marktinformationen für Deutschland
 
-Decitabine is not currently marketed in Germany (Not marketed); no authorization records are available in this evidence pack.
-
----
-
-## Cytotoxicity
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Hypomethylating agent (cytotoxic nucleoside analog / epigenetic-modifying antineoplastic) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Cytotoxic drug handling regulations apply (hazardous drug) |
+Decitabin wird derzeit nicht in Deutschland vermarktet (nicht vermarktet); in diesem Nachweis-Paket sind keine Zulassungsunterlagen verfügbar.
 
 ---
 
-## Safety Considerations
+## Zytotoxizität
 
-Please refer to the package insert for safety information.
+| Element | Inhalt |
+|--------|--------|
+| Zytotoxizitätsklassifizierung | Hypomethylierungsmittel (zytotoxisches Nukleosid-Analog / epigenetisch wirksames Antineoplastikum) |
+| Myelosuppressionsrisiko | Bitte beachten Sie die Warnungen und Vorsichtsmaßnahmen in der Packungsbeilage |
+| Emetogenitätsklassifizierung | Bitte beachten Sie die Warnungen und Vorsichtsmaßnahmen in der Packungsbeilage |
+| Überwachungselemente | Bitte beachten Sie die Warnungen und Vorsichtsmaßnahmen in der Packungsbeilage |
+| Handhabungsschutz | Es gelten die Richtlinien zur Handhabung zytotoxischer Arzneimittel (Gefahrstoff) |
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsaspekte
 
-**Decision: Hold**
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
 
-**Rationale:**
-Evidence supporting this indication is currently limited to a single retrospective, single-center literature report with no registered clinical trials; the drug is also not yet marketed in Germany and key MOA/safety data are missing, making this insufficient to advance beyond exploratory status.
+---
 
-**To proceed, the following is needed:**
-- TFDA/BfArM package insert data (warnings, contraindications, DDI)
-- DrugBank-confirmed mechanism of action (MOA)
-- Additional clinical trials or larger multi-center studies specifically in pediatric RCC/MDS
-- Confirmation of Germany/Taiwan regulatory and market status for decitabine
+## Fazit und nächste Schritte
+
+**Entscheidung: Halten**
+
+**Begründung:**
+Die Evidenz für diese Indikation ist derzeit auf einen Rückblickstudienbericht eines Einzelzentrums aus der Literatur ohne registrierte klinische Studien beschränkt; das Arzneimittel ist auch noch nicht in Deutschland vermarktet, und wichtige MOA-/Sicherheitsdaten fehlen, was dies unzureichend macht, um den explorativen Status zu überschreiten.
+
+**Zum Voranschreiten ist Folgendes erforderlich:**
+- TFDA/BfArM-Packungsbeilage-Daten (Warnungen, Kontraindikationen, Arzneimittelwechselwirkungen)
+- DrugBank-bestätigter Wirkmechanismus (MOA)
+- Zusätzliche klinische Studien oder größere multizentrische Studien speziell bei pädiatrischem RCC/MDS
+- Bestätigung des Regulations- und Marktstatus von Decitabin in Deutschland/Taiwan
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

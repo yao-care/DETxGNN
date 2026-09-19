@@ -29,78 +29,79 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Tezacaftor: From Cystic Fibrosis to HIV Infectious Disease
+# Tezacaftor: Von Zystischer Fibrose zu HIV-Infektionskrankheit
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Tezacaftor is a CFTR corrector originally developed for cystic fibrosis, used to correct defective CFTR protein folding.
-> The TxGNN model predicts it may be effective for **HIV infectious disease**,
-> but currently **no clinical trials** and **no publications** support this direction — this is a model-prediction-only signal with no mechanistic rationale identified.
+> Tezacaftor ist ein CFTR-Korrektor, der ursprünglich für die Zystische Fibrose entwickelt wurde und zur Korrektur einer defekten CFTR-Proteinstrukturierung verwendet wird.
+> Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam bei **HIV-Infektionskrankheit** ist,
+> aber derzeit **gibt es keine klinischen Studien** und **keine Publikationen**, die diese Richtung unterstützen — dies ist ein Modellvorhersage-Signal ohne identifizierte mechanistische Begründung.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Artikel | Inhalt |
 |------|------|
-| Original Indication | Not available (no approved indication data on file) |
-| Predicted New Indication | HIV infectious disease |
-| TxGNN Prediction Score | 99.24% |
-| Evidence Level | L5 |
-| Germany Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | Nicht verfügbar (keine Daten zu genehmigter Indikation in den Unterlagen) |
+| Vorhergesagte neue Indikation | HIV-Infektionskrankheit |
+| TxGNN-Vorhersage-Score | 99.24% |
+| Evidenzlevel | L5 |
+| Status am deutschen Markt | Nicht in Verkehr gebracht (Nicht in Verkehr gebracht) |
+| Anzahl der Zulassungen | 0 |
+| Empfehlung für die Entscheidung | Halten |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage angemessen?
 
-Currently, detailed mechanism of action data is not available. Based on known information, Tezacaftor is a CFTR corrector class drug, used to correct misfolded CFTR (cystic fibrosis transmembrane conductance regulator) protein and restore chloride channel function at the cell surface — its established role is in cystic fibrosis management.
+Derzeit sind keine detaillierten Daten zum Wirkmechanismus verfügbar. Basierend auf bekannten Informationen ist Tezacaftor ein CFTR-Korrektor-Wirkstoff, der verwendet wird, um fehlgefaltetes CFTR (Cystic Fibrosis Transmembrane Conductance Regulator) Protein zu korrigieren und die Chloridkanalfunktion an der Zelloberfläche wiederherzustellen — seine etablierte Rolle liegt in der Behandlung der Zystischen Fibrose.
 
-There is no known mechanistic link between CFTR channel correction and HIV viral replication or host immune pathways. The repurposing rationale provided alongside this prediction explicitly states that no plausible mechanistic hypothesis can be established, and this is reinforced by the complete absence of supporting clinical trials or literature.
+Es gibt keine bekannte mechanistische Verbindung zwischen CFTR-Kanalkorrektur und HIV-Virusreplikation oder Wirtsimmunantworten. Die Repurposing-Rationale, die zusammen mit dieser Vorhersage bereitgestellt wird, besagt explizit, dass keine plausible mechanistische Hypothese etabliert werden kann, und dies wird durch die vollständige Abwesenheit unterstützender klinischer Studien oder Literatur unterstrichen.
 
-This prediction should be treated as a raw computational signal from the TxGNN model only, not as a biologically grounded hypothesis.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+Diese Vorhersage sollte als reines rechnerisches Signal aus dem TxGNN-Modell behandelt werden, nicht als biologisch fundierte Hypothese.
 
 ---
 
-## Literature Evidence
+## Evidenz aus klinischen Studien
 
-Currently no related literature available
-
----
-
-## Germany Market Information
-
-This drug is not currently marketed in Germany, and no authorization records are available.
+Derzeit sind keine verwandten klinischen Studien registriert
 
 ---
 
-## Safety Considerations
+## Literaturbeweise
 
-Please refer to the package insert for safety information.
-
-*(Note: TFDA label warnings/contraindications and DDI data are currently unavailable — flagged as a Blocking data gap, preventing S1 safety pre-assessment.)*
+Derzeit ist keine verwandte Literatur verfügbar
 
 ---
 
-## Conclusion and Next Steps
+## Marktinformationen für Deutschland
 
-**Decision: Hold**
+Dieses Arzneimittel ist derzeit nicht in Deutschland in den Verkehr gebracht und keine Zulassungsunterlagen sind verfügbar.
 
-**Rationale:**
-The prediction is supported only by a TxGNN model score (L5, no clinical trials, no literature, no established mechanistic link), and a Blocking data gap exists for TFDA label safety data — this combination does not meet the threshold to proceed.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert warnings/contraindications (Blocking gap — required before any S1 safety evaluation)
-- Confirmed mechanism of action (MOA) data from DrugBank or primary literature
-- At least preclinical/mechanistic evidence linking CFTR correction to HIV pathophysiology before pursuing further evidence collection
-- Original approved indication data to establish baseline drug profile
+## Sicherheitsüberlegungen
+
+Bitte beachten Sie die Fachinformation für Sicherheitsinformationen.
+
+*(Anmerkung: TFDA-Fachinformations-Warnhinweise und Gegenanzeigen sowie DDI-Daten sind derzeit nicht verfügbar — gekennzeichnet als eine blockierende Datenlücke, die eine S1-Sicherheitsvorbewertung verhindert.)*
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Halten**
+
+**Begründung:**
+Die Vorhersage wird nur durch einen TxGNN-Modell-Score gestützt (L5, keine klinischen Studien, keine Literatur, keine etablierte mechanistische Verbindung), und eine blockierende Datenlücke besteht für TFDA-Fachinformations-Sicherheitsdaten — diese Kombination erfüllt nicht den Schwellenwert zum Fortfahren.
+
+**Um fortfahren zu können, sind folgende Punkte erforderlich:**
+- TFDA-Fachinformations-Warnhinweise und Gegenanzeigen (blockierende Lücke — erforderlich vor jeder S1-Sicherheitsbewertung)
+- Bestätigte Wirkmechanismus (MOA) Daten von DrugBank oder Primärliteratur
+- Mindestens präklinische/mechanistische Evidenz, die CFTR-Korrektur mit HIV-Pathophysiologie verknüpft, bevor weitere Evidenzsammlung verfolgt wird
+- Ursprüngliche Zulassungsindikationsdaten, um das Basisprofil des Arzneimittels festzustellen
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -29,95 +29,90 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-Using no specific skill here — this is a direct content-generation task governed by the detailed report template already provided in the system prompt, so I'll follow it directly.
+# Zidovudine: Von HIV-Infektion zu AIDS-assoziiertem Komplex
 
-**Note before the report:** This evidence pack contains 6 TxGNN-predicted indications for zidovudine with widely varying evidence quality (from feline/monkey animal-model literature to a genuine human RCT base). Per the Evidence Level rules, only **AIDS-related complex (ARC)** clears L1 with an actionable "Proceed with Guardrails" call — the others are explicitly scored `Hold`/L4–L5 or lack real clinical relevance to humans (e.g., feline AIDS, SIV in macaques). I built the report around ARC as the primary candidate and summarized the rest as screened-and-held, rather than mechanically using rank #1 (feline AIDS), which would produce a clinically meaningless report.
+## Zusammenfassung in einem Satz
 
----
+> Zidovudine (AZT) war das erste Antiretrovirus-Medikament, das jemals zugelassen wurde, ursprünglich entwickelt, um die HIV-Replikation bei Patienten mit symptomatischer HIV-Infektion zu unterdrücken.
+> Unter sechs Indikationen, die das TxGNN-Modell für dieses Medikament gekennzeichnet hat, ist **AIDS-assoziierter Komplex (ARC)** die einzige, die durch umfangreiche klinische Humanstudien belegt ist,
+> mit **50 klinischen Studien** und **10+ Publikationen** – einschließlich der wegweisenden placebokontrollierten Studie von 1987 in NEJM – die ihre Anwendung in diesem frühen symptomatischen Stadium der HIV-Erkrankung unterstützen.
 
-# Zidovudine: From HIV Infection to AIDS-Related Complex
+## Schnellübersicht
 
-## One-Sentence Summary
-
-> Zidovudine (AZT) was the first antiretroviral drug ever approved, originally developed to suppress HIV replication in patients with symptomatic HIV infection.
-> Among six indications flagged by the TxGNN model for this drug, **AIDS-Related Complex (ARC)** is the only one backed by substantial human clinical evidence,
-> with **50 clinical trials** and **10+ publications** — including the landmark 1987 NEJM placebo-controlled trial — supporting its use in this early symptomatic stage of HIV disease.
-
-## Quick Overview
-
-| Item | Content |
+| Artikel | Inhalt |
 |------|------|
-| Original Indication | HIV infection / AIDS (zidovudine's originally approved indication; the regulatory license text was not available in this evidence pack) |
-| Predicted New Indication | AIDS-Related Complex (ARC) |
-| TxGNN Prediction Score | 99.19% |
-| Evidence Level | L1 |
-| Germany Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Ursprüngliche Indikation | HIV-Infektion / AIDS (ursprünglich genehmigte Indikation von Zidovudine; der aufsichtsrechtliche Genehmigungstext war in diesem Evidenzpaket nicht verfügbar) |
+| Vorhergesagte neue Indikation | AIDS-assoziierter Komplex (ARC) |
+| TxGNN-Vorhersage-Score | 99.19% |
+| Evidenzlevel | L1 |
+| Marktstatus Deutschland | Nicht vermarktet (Not Marketed) |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Mit schützenden Maßnahmen fortfahren |
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage angemessen?
 
-Currently, detailed structured mechanism-of-action data is not available in this evidence pack. Based on established pharmacology, zidovudine is a thymidine-analogue **nucleoside reverse transcriptase inhibitor (NRTI)**: after intracellular phosphorylation to its triphosphate form, it competitively inhibits HIV reverse transcriptase and causes DNA chain termination, blocking viral replication.
+Derzeit sind in diesem Evidenzpaket keine detaillierten strukturierten Mechanismus-Wirkungs-Daten verfügbar. Basierend auf etablierter Pharmakologie ist Zidovudine ein Thymidin-Analogon **Nukleosid-Reverse-Transkriptase-Inhibitor (NRTI)**: Nach intrazellulärer Phosphorylierung zu seiner Triphosphat-Form hemmt es kompetitiv die HIV-Reverse-Transkriptase und verursacht DNA-Kettentermination, wodurch die Virenreplikation blockiert wird.
 
-AIDS-Related Complex is not a distinct disease from HIV infection — it is the historical clinical staging term (pre-1993 CDC classification) for symptomatic but not yet AIDS-defining HIV disease. Zidovudine's original approval already covered this disease stage; the TxGNN "prediction" here largely re-identifies the drug's own founding indication rather than a novel repurposing target. This is reflected in the evidence pack's own rationale note: *"this is not strict repurposing but a continuation of the historically approved indication."*
+AIDS-assoziierter Komplex ist keine eigene Krankheit, getrennt von der HIV-Infektion – es ist der historische klinische Stagifizierungsbegriff (vor 1993 CDC-Klassifizierung) für symptomatische, aber nicht noch AIDS-definierende HIV-Erkrankung. Die ursprüngliche Genehmigung von Zidovudine deckte bereits dieses Krankheitsstadium ab; die TxGNN-„Vorhersage" hier identifiziert im Grunde die eigene ursprüngliche Indikation des Medikaments neu, anstatt ein echtes Umwidmungsziel zu sein. Dies wird in der Begründung des Evidenzpakets widergespiegelt: *„Dies ist keine strikte Umwidmung, sondern eine Fortsetzung der historisch genehmigten Indikation."*
 
-The mechanistic applicability is therefore self-evident — the same reverse-transcriptase-inhibition mechanism that defines zidovudine's approved use in HIV/AIDS directly extends to ARC, a milder stage of the same underlying infection.
+Die mechanistische Anwendbarkeit ist daher selbstverständlich – der gleiche Reverse-Transkriptase-Hemm-Mechanismus, der Zidovudines genehmigte Anwendung in HIV/AIDS definiert, erstreckt sich direkt auf ARC, ein milderes Stadium derselben zugrunde liegenden Infektion.
 
-**Other TxGNN candidates screened and held:** The model also flagged feline acquired immunodeficiency syndrome and simian immunodeficiency virus infection (both non-human veterinary/primate model diseases used only in translational AZT research, not independent human indications, L4–L5, Hold), an unrelated rare neurodevelopmental disorder and "obsolete familial combined hyperlipidemia" (no supporting literature; the latter contradicts known NRTI-associated mitochondrial toxicity/lipodystrophy, judged a likely false positive), and congenital HIV (evidence pending classification). None of these met the bar for further action at this time.
+**Weitere TxGNN-Kandidaten gescreent und zurückgestellt:** Das Modell hat auch Felinen-Immundefizienz-Syndrom und Simian-Immundefizienz-Virus-Infektion gekennzeichnet (beide nicht-menschliche veterinär-/Primatenstudie-Krankheiten, die nur in translationaler AZT-Forschung verwendet werden, keine unabhängigen menschlichen Indikationen, L4–L5, Hold), eine nicht verwandte seltene neuronale Entwicklungsstörung und „veraltete familiale kombinierte Hyperlipidämie" (keine unterstützende Literatur; letztere widerlegt bekannte NRTI-assoziierte mitochondriale Toxizität/Lipodystrophie, als wahrscheinlich falsches Positiv eingestuft), und kongenitale HIV-Infektion (Evidenz-Klassifizierung ausstehend). Keine dieser erfüllte zu diesem Zeitpunkt die Anforderungen für weitere Maßnahmen.
 
-## Clinical Trial Evidence
+## Klinische Studienevidenz
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Versuchsnummer | Phase | Status | Einschreibung | Wichtigste Erkenntnisse |
 |---------|------|------|------|---------|
-| [NCT00001011](https://clinicaltrials.gov/study/NCT00001011) | Phase 3 | Completed | 538 | Safety and usefulness of AZT specifically in patients with early symptomatic HIV/early ARC |
-| [NCT00002334](https://clinicaltrials.gov/study/NCT00002334) | Phase 3 | Completed | 3000 | AZT alone vs. AZT+ddC vs. AZT+saquinavir vs. triple combination in AZT-naive patients |
-| [NCT00000736](https://clinicaltrials.gov/study/NCT00000736) | Phase 3 | Completed | 3200 | AZT delays onset of AIDS/ARC in asymptomatic HIV-infected individuals; dose-comparison for toxicity |
-| [NCT00001022](https://clinicaltrials.gov/study/NCT00001022) | Phase 3 | Completed | 1200 | AZT vs. AZT+ddI vs. AZT+ddC in delaying AIDS-related conditions |
-| [NCT00000625](https://clinicaltrials.gov/study/NCT00000625) | Phase 2 | Completed | 2100 | AZT monotherapy vs. combination nucleoside analogs in patients with CD4 200–500/mm³ |
-| [NCT00000751](https://clinicaltrials.gov/study/NCT00000751) | Phase 3 | Completed | 1600 | HIVIG plus intrapartum/newborn AZT for prevention of mother-to-child HIV transmission |
-| [NCT00000637](https://clinicaltrials.gov/study/NCT00000637) | Phase 3 | Completed | 819 | AZT vs. ddI vs. AZT+ddI in symptomatic HIV-infected children |
-| [NCT00002035](https://clinicaltrials.gov/study/NCT00002035) | RCT | Completed | 300 | Double-blind comparison of continued AZT vs. ddI in patients failing AZT (Grade A relevance) |
-| [NCT00002290](https://clinicaltrials.gov/study/NCT00002290) | RCT | Completed | N/A | Multi-center double-blind trial of AZT + acyclovir vs. AZT alone in early symptomatic HIV (Grade A) |
-| [NCT00001104](https://clinicaltrials.gov/study/NCT00001104) | Phase 3 | Completed | 538 | Placebo-controlled trial of AZT in HIV-infected hemophilic patients |
+| [NCT00001011](https://clinicaltrials.gov/study/NCT00001011) | Phase 3 | Abgeschlossen | 538 | Sicherheit und Nützlichkeit von AZT speziell bei Patienten mit früher symptomatischer HIV-Infektion/frühem ARC |
+| [NCT00002334](https://clinicaltrials.gov/study/NCT00002334) | Phase 3 | Abgeschlossen | 3000 | AZT allein vs. AZT+ddC vs. AZT+Saquinavir vs. Dreifach-Kombination bei AZT-naiven Patienten |
+| [NCT00000736](https://clinicaltrials.gov/study/NCT00000736) | Phase 3 | Abgeschlossen | 3200 | AZT verzögert den Ausbruch von AIDS/ARC bei asymptomatischen HIV-infizierten Personen; Dosisvergleich zur Toxizität |
+| [NCT00001022](https://clinicaltrials.gov/study/NCT00001022) | Phase 3 | Abgeschlossen | 1200 | AZT vs. AZT+ddI vs. AZT+ddC zur Verzögerung von AIDS-assoziierten Erkrankungen |
+| [NCT00000625](https://clinicaltrials.gov/study/NCT00000625) | Phase 2 | Abgeschlossen | 2100 | AZT-Monotherapie vs. Kombinationsnukleoside in Patienten mit CD4 200–500/mm³ |
+| [NCT00000751](https://clinicaltrials.gov/study/NCT00000751) | Phase 3 | Abgeschlossen | 1600 | HIVIG plus perinatales/Neugeborenen-AZT zur Prävention der Mutter-zu-Kind-HIV-Übertragung |
+| [NCT00000637](https://clinicaltrials.gov/study/NCT00000637) | Phase 3 | Abgeschlossen | 819 | AZT vs. ddI vs. AZT+ddI bei symptomatischen HIV-infizierten Kindern |
+| [NCT00002035](https://clinicaltrials.gov/study/NCT00002035) | RCT | Abgeschlossen | 300 | Doppelblind-Vergleich von fortgesetztem AZT vs. ddI bei Patienten, die nicht auf AZT ansprachen (Relevanz Grad A) |
+| [NCT00002290](https://clinicaltrials.gov/study/NCT00002290) | RCT | Abgeschlossen | N/A | Multi-Center-Doppelblindstudie von AZT + Aciclovir vs. AZT allein bei früher symptomatischer HIV-Infektion (Grad A) |
+| [NCT00001104](https://clinicaltrials.gov/study/NCT00001104) | Phase 3 | Abgeschlossen | 538 | Placebokontrollierte Studie von AZT bei HIV-infizierten Patienten mit Hämophilie |
 
-## Literature Evidence
+## Literaturevidenz
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Journal | Wichtigste Erkenntnisse |
 |------|-----|------|------|---------|
-| [3299089](https://pubmed.ncbi.nlm.nih.gov/3299089/) | 1987 | RCT | New England Journal of Medicine | Landmark double-blind, placebo-controlled trial (N=282) establishing AZT efficacy in AIDS/advanced ARC |
-| [2677429](https://pubmed.ncbi.nlm.nih.gov/2677429/) | 1989 | RCT | JAMA | Long-term AZT therapy in 229 AIDS/ARC patients; survival benefit maintained over ~21 months |
-| [1777174](https://pubmed.ncbi.nlm.nih.gov/1777174/) | 1991 | RCT | AIDS | European-Australian trial (N=199): AZT ± acyclovir for ARC; no added benefit from acyclovir |
-| [8096703](https://pubmed.ncbi.nlm.nih.gov/8096703/) | 1993 | RCT | AIDS | Double-blind randomized trial confirming AZT ± acyclovir efficacy/safety in AIDS and ARC |
-| [2159707](https://pubmed.ncbi.nlm.nih.gov/2159707/) | 1990 | RCT | American Journal of Medicine | ACTG Phase I/II combination AZT + ddC in AIDS/advanced ARC |
-| [2159705](https://pubmed.ncbi.nlm.nih.gov/2159705/) | 1990 | RCT | American Journal of Medicine | Alternating/intermittent AZT + ddC dosing regimens to reduce toxicity in AIDS/ARC |
-| [2191113](https://pubmed.ncbi.nlm.nih.gov/2191113/) | 1990 | RCT | J Acquir Immune Defic Syndr | Quality-of-life substudy of placebo-controlled AZT trial; improved Karnofsky/QWB scores vs. placebo |
-| [3059187](https://pubmed.ncbi.nlm.nih.gov/3059187/) | 1988 | RCT | New England Journal of Medicine | Double-blind, placebo-controlled trial (N=281) assessing neuropsychological outcomes of AZT in AIDS/ARC |
-| [1894937](https://pubmed.ncbi.nlm.nih.gov/1894937/) | 1991 | Clinical study | Journal of Infectious Diseases | AZT-treated AIDS/ARC patients show improved antibody response to pneumococcal vaccine |
-| [2224694](https://pubmed.ncbi.nlm.nih.gov/2224694/) | 1990 | Review | CMAJ | Comprehensive review of AZT efficacy across HIV disease stages, including ARC |
+| [3299089](https://pubmed.ncbi.nlm.nih.gov/3299089/) | 1987 | RCT | New England Journal of Medicine | Wegweisende Doppelblindstudie, placebokontrolliert (N=282), die die Wirksamkeit von AZT bei AIDS/fortgeschrittenem ARC belegt |
+| [2677429](https://pubmed.ncbi.nlm.nih.gov/2677429/) | 1989 | RCT | JAMA | Langfrist-AZT-Therapie bei 229 AIDS/ARC-Patienten; Überlebensvorteil über ~21 Monate aufrechterhalten |
+| [1777174](https://pubmed.ncbi.nlm.nih.gov/1777174/) | 1991 | RCT | AIDS | Europäisch-australische Studie (N=199): AZT ± Aciclovir für ARC; kein zusätzlicher Nutzen durch Aciclovir |
+| [8096703](https://pubmed.ncbi.nlm.nih.gov/8096703/) | 1993 | RCT | AIDS | Doppelblindstudie, randomisiert, bestätigt Wirksamkeit/Sicherheit von AZT ± Aciclovir bei AIDS und ARC |
+| [2159707](https://pubmed.ncbi.nlm.nih.gov/2159707/) | 1990 | RCT | American Journal of Medicine | ACTG Phase I/II Kombination AZT + ddC bei AIDS/fortgeschrittenem ARC |
+| [2159705](https://pubmed.ncbi.nlm.nih.gov/2159705/) | 1990 | RCT | American Journal of Medicine | Alternierende/intermittierende Dosierungsschemata von AZT + ddC zur Toxizitätsreduktion bei AIDS/ARC |
+| [2191113](https://pubmed.ncbi.nlm.nih.gov/2191113/) | 1990 | RCT | J Acquir Immune Defic Syndr | Lebensqualitäts-Unterstudie der placebokontrollierten AZT-Studie; verbesserte Karnofsky-/QWB-Scores vs. Placebo |
+| [3059187](https://pubmed.ncbi.nlm.nih.gov/3059187/) | 1988 | RCT | New England Journal of Medicine | Doppelblindstudie, placebokontrolliert (N=281), bewertet neuropsychologische Ergebnisse von AZT bei AIDS/ARC |
+| [1894937](https://pubmed.ncbi.nlm.nih.gov/1894937/) | 1991 | Klinische Studie | Journal of Infectious Diseases | AZT-behandelte AIDS/ARC-Patienten zeigen verbesserte Antikörperantwort auf Pneumokokken-Impfstoff |
+| [2224694](https://pubmed.ncbi.nlm.nih.gov/2224694/) | 1990 | Übersicht | CMAJ | Umfassende Übersicht der AZT-Wirksamkeit über HIV-Krankheitsstadien hinweg, einschließlich ARC |
 
-## Germany Market Information
+## Marktstatus-Informationen Deutschland
 
-No marketing authorizations are on record for zidovudine in this evidence pack — market status is **Not marketed (Not Marketed)**, with 0 registered licenses. No product/dosage-form/indication-text data is available to tabulate.
+Keine Vermarktungsgenehmigungen sind für Zidovudine in diesem Evidenzpaket dokumentiert – der Marktstatus ist **nicht vermarktet (Not Marketed)**, mit 0 registrierten Lizenzen. Keine Produkt-/Darreichungsform-/Indikationstextdaten sind verfügbar zur Tabellarisierung.
 
-## Safety Considerations
+## Sicherheitsbedenken
 
-Please refer to the package insert for safety information. (Structured key warnings, contraindications, and drug-interaction data were not available in this evidence pack; note, however, that the literature evidence above documents zidovudine's well-known hematologic toxicity — see PMID 2224694 and related tolerability reports — which should be factored into any monitoring plan.)
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. (Strukturierte Schlüsselwarnungen, Kontraindikationen und Wechselwirkungsdaten waren in diesem Evidenzpaket nicht verfügbar; es ist jedoch zu beachten, dass die Literaturevidenz oben die bekannte hämatologische Toxizität von Zidovudine dokumentiert – siehe PMID 2224694 und damit verbundene Verträglichkeitsberichte – die bei der Planung eines Überwachungsplans berücksichtigt werden sollten.)
 
-## Conclusion and Next Steps
+## Fazit und nächste Schritte
 
-**Decision: Proceed with Guardrails**
+**Entscheidung: Mit schützenden Maßnahmen fortfahren**
 
-**Rationale:**
-- ARC is supported by L1-level evidence — multiple completed Phase 3 RCTs, including the foundational 1987 NEJM trial — but this reflects zidovudine's original approved use rather than a genuinely novel repurposing opportunity, and the drug is not currently marketed in this jurisdiction.
+**Begründung:**
+- ARC wird durch L1-Ebenen-Evidenz unterstützt – mehrere abgeschlossene Phase-3-RCTs, einschließlich der grundlegenden NEJM-Studie von 1987 – aber dies widerspiegelt die ursprünglich genehmigte Anwendung von Zidovudine eher als eine wirklich neuartige Umwidmungsmöglichkeit, und das Medikament ist derzeit in dieser Gerichtsbarkeit nicht vermarktet.
 
-**To proceed, the following is needed:**
-- Confirm whether "new indication" framing is appropriate given ARC is a historical HIV disease stage already within zidovudine's original label
-- TFDA/BfArM package insert data to complete the S1 safety review (currently a blocking data gap per this pack's `data_gaps`)
-- Structured DrugBank MOA and DDI data (also flagged as a data gap)
-- Regulatory/licensing pathway assessment given current "Not Marketed" status and 0 authorizations
-- Hematologic monitoring plan (CBC with differential) given AZT's known myelosuppressive profile, since it would now only be used within combination ART, not as monotherapy
+**Für den Weitermachen sind folgende Maßnahmen erforderlich:**
+- Bestätigung, ob „neue Indikation" angemessen ist, da ARC ein historisches HIV-Krankheitsstadium ist, das bereits in der ursprünglichen Zulassung von Zidovudine enthalten ist
+- TFDA/BfArM-Packungsbeilage zur Vervollständigung der S1-Sicherheitsprüfung (derzeit eine blockierende Datenlücke gemäß `data_gaps` dieses Pakets)
+- Strukturierte DrugBank-MOA- und DDI-Daten (ebenfalls als Datenlücke gekennzeichnet)
+- Bewertung des regulatorischen/Zulassungswegs angesichts des aktuellen „Not Marketed"-Status und 0 Genehmigungen
+- Hämatologischer Überwachungsplan (CBC mit Differenzial) angesichts des bekannten myelosuppressiven Profils von AZT, da es nun nur noch als Bestandteil kombinierter ART verwendet würde, nicht als Monotherapie
 
-**Not pursued further at this time (Hold):** feline immunodeficiency syndrome, SIV infection (non-human models only), the unrelated rare neurodevelopmental disorder, "obsolete familial combined hyperlipidemia" (likely false positive, contradicts known NRTI lipid/mitochondrial toxicity), and congenital HIV (evidence classification incomplete).
+**Zu diesem Zeitpunkt nicht weiter verfolgt (Hold):** Felinen-Immundefizienz-Syndrom, SIV-Infektion (nur nicht-menschliche Modelle), die nicht verwandte seltene neuronale Entwicklungsstörung, „veraltete familiale kombinierte Hyperlipidämie" (wahrscheinlich falsches Positiv, widerlegt bekannte NRTI-Lipid-/mitochondriale Toxizität), und kongenitale HIV-Infektion (Evidenzklassifizierung unvollständig).
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

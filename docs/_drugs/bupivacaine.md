@@ -29,78 +29,79 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-# Bupivacaine: Local Anesthetic Agent — No Repurposing Predictions Available
+# Bupivacain: Lokalanästhetikum — Keine Umwidmungsvorhersagen verfügbar
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Bupivacaine is a long-acting amide-type local anesthetic widely used for regional and neuraxial anesthesia. The current Evidence Pack contains **no TxGNN-predicted new indications** for this drug, and the drug is **not registered in Taiwan**. Without predicted indications or regulatory authorization data, a formal repurposing evaluation cannot be completed at this stage.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Local/regional anesthesia (from general pharmacological knowledge; not present in Evidence Pack) |
-| Predicted New Indication | — No prediction available |
-| TxGNN Prediction Score | — |
-| Evidence Level | — (No predictions to evaluate) |
-| Taiwan Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+Bupivacain ist ein lang wirkendes Lokalanästhetikum vom Amidtyp, das häufig für Regional- und Neuraxialanästhesie verwendet wird. Das aktuelle Evidenzpaket enthält **keine neuen von TxGNN vorhergesagten Indikationen** für dieses Arzneimittel, und das Arzneimittel ist **in Taiwan nicht registriert**. Ohne vorhergesagte Indikationen oder Daten zur behördlichen Genehmigung kann eine formale Umwidmungsbewertung in diesem Stadium nicht durchgeführt werden.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnelle Übersicht
 
-No repurposing prediction is available in this Evidence Pack, so a mechanistic rationale for a new indication cannot be evaluated at this time.
-
-For reference, bupivacaine is a voltage-gated sodium channel blocker (Nav1.x). It inhibits membrane depolarization in sensory and motor neurons, producing reversible conduction blockade. This mechanism is pharmacologically relevant to several non-anesthetic applications (e.g., chronic pain, anti-arrhythmic effects at low doses), but without a specific TxGNN-predicted disease target, no claim can be made.
-
-The Evidence Pack also records two data gaps: mechanism of action (MOA) data is absent from the structured drug record, and no Taiwan package insert warnings were parsed into the safety fields. These gaps should be resolved before any repurposing pathway is assessed.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for a repurposing indication (predicted_indications is empty).
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Lokal-/Regionalanästhesie (aus allgemeinem pharmakologischem Wissen; nicht im Evidenzpaket vorhanden) |
+| Vorhergesagte neue Indikation | — Keine Vorhersage verfügbar |
+| TxGNN Vorhersage-Score | — |
+| Evidenzstufe | — (Keine Vorhersagen zur Bewertung) |
+| Marktstatus Taiwan | ✗ Nicht vermarktet |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | **Zurückstellen** |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage sinnvoll?
 
-Currently no related literature available for a repurposing indication (predicted_indications is empty).
+Keine Umwidmungsvorhersage ist in diesem Evidenzpaket verfügbar, daher kann eine mechanistische Begründung für eine neue Indikation zu diesem Zeitpunkt nicht bewertet werden.
 
----
+Zu Ihrer Information ist Bupivacain ein spannungsabhängiger Natriumkanal-Blocker (Nav1.x). Er hemmt die Membrandepolarisation in sensorischen und motorischen Neuronen und erzeugt eine reversible Leitungsblockade. Dieser Mechanismus ist pharmakologisch relevant für mehrere nicht-anästhetische Anwendungen (z. B. chronische Schmerzen, antiarrhythmische Effekte bei niedrigen Dosen), aber ohne ein spezifisches von TxGNN vorhergesagtes Krankheitsziel kann keine Aussage gemacht werden.
 
-## Taiwan Market Information
-
-Bupivacaine is **not currently registered** with the Taiwan Food and Drug Administration (TFDA). No authorization records are available.
+Das Evidenzpaket dokumentiert auch zwei Datenlücken: Daten zum Wirkmechanismus (MOA) fehlen in dem strukturierten Arzneimitteldatensatz, und es wurden keine Taiwan-Packungsbeilage-Warnungen in die Sicherheitsfelder eingegeben. Diese Lücken sollten behoben werden, bevor ein Umwidmungspfad bewertet wird.
 
 ---
 
-## Safety Considerations
+## Nachweis aus klinischen Studien
 
-Please refer to the package insert for safety information.
-
-> **Note:** The TFDA package insert query (query_log ID 4) returned a result but the structured safety fields were not populated. A manual review of the package insert PDF is required to extract warnings and contraindications.
+Derzeit sind keine verwandten klinischen Studien für eine Umwidmungsindikation registriert (`predicted_indications` ist leer).
 
 ---
 
-## Conclusion and Next Steps
+## Nachweis aus Literatur
 
-**Decision: Hold**
+Derzeit ist keine verwandte Literatur für eine Umwidmungsindikation verfügbar (`predicted_indications` ist leer).
 
-**Rationale:**
-The Evidence Pack contains no TxGNN-predicted indications, no structured safety data, and no Taiwan regulatory authorizations. There is no repurposing candidate to evaluate at this stage.
+---
 
-**To proceed, the following is needed:**
+## Taiwan-Marktinformationen
 
-- **Re-run TxGNN prediction pipeline** for DB00297 (Bupivacaine) to obtain disease-level scores and candidate indications
-- **Resolve DG001** — Parse the TFDA package insert PDF to extract key warnings, contraindications, and dosing limits
-- **Resolve DG002** — Query DrugBank API for structured MOA and pharmacological category data
-- **Verify DDI data** — DDI query returned `not_found`; cross-check against alternative interaction databases (e.g., DrugBank interactions, Taiwan NHI formulary)
-- Once predicted indications are available, re-issue a full evaluation report with clinical trial and literature evidence
+Bupivacain ist derzeit **nicht bei der Taiwan Food and Drug Administration (TFDA) registriert**. Es sind keine Genehmigungsunterlagen verfügbar.
+
+---
+
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+> **Hinweis:** Die TFDA-Packungsbeilage-Abfrage (query_log ID 4) hat ein Ergebnis zurückgegeben, aber die strukturierten Sicherheitsfelder wurden nicht ausgefüllt. Eine manuelle Überprüfung des Packungsbeilage-PDFs ist erforderlich, um Warnungen und Kontraindikationen zu extrahieren.
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Zurückstellen**
+
+**Begründung:**
+Das Evidenzpaket enthält keine von TxGNN vorhergesagten Indikationen, keine strukturierten Sicherheitsdaten und keine Taiwan-behördlichen Genehmigungen. Es gibt zu diesem Zeitpunkt keinen Umwidmungskandidaten zu bewerten.
+
+**Um fortfahren zu können, wird Folgendes benötigt:**
+
+- **TxGNN-Vorhersage-Pipeline erneut ausführen** für DB00297 (Bupivacain), um Scores auf Erkrankungsebene und Kandidatenindikationen zu erhalten
+- **DG001 beheben** — Extrahieren Sie Schlüsselwarnungen, Kontraindikationen und Dosierungsgrenzen aus dem TFDA-Packungsbeilage-PDF
+- **DG002 beheben** — Fragen Sie die DrugBank-API nach strukturierten MOA- und pharmakologischen Kategoriedaten ab
+- **DDI-Daten überprüfen** — DDI-Abfrage gab `not_found` zurück; vergleichen Sie mit alternativen Interaktionsdatenbanken (z. B. DrugBank-Interaktionen, Taiwan-NHI-Formularium)
+- Sobald vorhergesagte Indikationen verfügbar sind, erneut einen vollständigen Bewertungsbericht mit klinischen Studien- und Literaturbelegen ausstellen
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

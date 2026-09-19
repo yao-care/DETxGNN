@@ -29,66 +29,67 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Pregabalin: From Neuropathic Pain to Tendinitis
+# Pregabalin: Vom neuropathischen Schmerz zur Tendinitis
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Pregabalin is a calcium-channel modulator widely used to treat neuropathic pain, epilepsy, and related conditions. The TxGNN model predicts it may be effective for **Tendinitis**, but currently **0 clinical trials** and **6 publications** support this specific link, and none of the existing literature directly studies tendinitis as a treatment target.
+Pregabalin ist ein Kalziumkanal-Modulator, der häufig zur Behandlung neuropathischer Schmerzen, Epilepsie und verwandter Erkrankungen eingesetzt wird. Das TxGNN-Modell sagt voraus, dass es sich bei Tendinitis als wirksam erweisen könnte, aber derzeit unterstützen **0 klinische Studien** und **6 Veröffentlichungen** diese spezifische Verbindung, und keine der vorhandenen Literatur untersucht Tendinitis direkt als Behandlungsziel.
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Eintrag | Inhalt |
 |------|------|
-| Original Indication | Not specified in evidence pack (pregabalin is not currently marketed in this jurisdiction; 0 authorizations on file) |
-| Predicted New Indication | Tendinitis |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L4 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | Im Evidenzpaket nicht angegeben (Pregabalin ist derzeit in dieser Gerichtsbarkeit nicht vermarktet; 0 Zulassungen auf Datei) |
+| Vorhergesagte neue Indikation | Tendinitis |
+| TxGNN-Vorhersagepunktzahl | 99.71% |
+| Evidenzstufe | L4 |
+| Marktstatus Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Zurückhalten |
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage sinnvoll?
 
-Formal mechanism-of-action documentation for pregabalin was not available in this evidence pack (flagged as a High-severity data gap, DG002). Based on the repurposing rationale supplied alongside the prediction, pregabalin binds the α2δ subunit of voltage-dependent calcium channels, reducing release of excitatory neurotransmitters — a mechanism well suited to neuropathic pain and perioperative analgesia.
+Eine formale Dokumentation des Wirkmechanismus für Pregabalin war in diesem Evidenzpaket nicht verfügbar (gekennzeichnet als eine Datenlücke von hohem Schweregrad, DG002). Basierend auf der Umwidmungsrationale, die der Vorhersage beigefügt ist, bindet Pregabalin die α2δ-Untereinheit spannungsabhängiger Kalziumkanäle und reduziert die Freisetzung erregender Neurotransmitter – ein Mechanismus, der sich gut für neuropathische Schmerzen und perioperative Analgesie eignet.
 
-Tendinitis, however, is primarily a local inflammatory/mechanical injury pain condition rather than a neuropathic pain state, so the mechanistic overlap with pregabalin's calcium-channel action is weak. The supporting literature largely involves pregabalin used for **perioperative pain control after orthopedic surgery** (e.g., arthroscopic rotator cuff repair) or for **unrelated peripheral neuropathies** (piriformis syndrome, chemotherapy-induced neuropathy), rather than direct evidence of efficacy against tendinitis pathology itself. This is consistent with the model's own scoring, which places this candidate at evidence level L4 (mechanism/preclinical-level support only) with a "Hold" recommendation.
+Tendinitis ist jedoch hauptsächlich ein lokaler entzündlicher/mechanischer Verletzungsschmerz und kein neuropathischer Schmerzzustand, daher ist die mechanistische Überlappung mit der Kalziumkanal-Wirkung von Pregabalin schwach. Die unterstützende Literatur befasst sich hauptsächlich mit Pregabalin zur **perioperativen Schmerzbekämpfung nach orthopädischer Chirurgie** (z. B. arthroskopische Rotatorenmanschetten-Reparatur) oder bei **nicht damit zusammenhängenden peripheren Neuropathien** (Piriformis-Syndrom, chemotherapieinduzierte Neuropathie), nicht aber mit direktem Wirksamkeitsnachweis gegen die Tendinitis-Pathologie selbst. Dies steht im Einklang mit der Bewertung des Modells selbst, welche diesen Kandidaten auf Evidenzstufe L4 (nur mechanismus-/präklinisches Unterstützungsniveau) mit einer „Zurückhalten"-Empfehlung einstuft.
 
-## Clinical Trial Evidence
+## Klinische Studien
 
-Currently no related clinical trials registered.
+Derzeit sind keine verwandten klinischen Studien registriert.
 
-## Literature Evidence
+## Literarische Evidenz
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Zeitschrift | Wichtigste Erkenntnisse |
 |------|-----|------|------|---------|
-| [32839073](https://pubmed.ncbi.nlm.nih.gov/32839073/) | 2021 | RCT | J Orthop Sci | Retrospective cohort on pregabalin's analgesic efficacy and opioid-sparing effect after arthroscopic rotator cuff repair — perioperative pain control, not tendinitis treatment per se |
-| [34052386](https://pubmed.ncbi.nlm.nih.gov/34052386/) | 2022 | RCT | Arthroscopy | Perioperative oral pregabalin produced pain scores comparable to interscalene brachial plexus block after rotator cuff repair |
-| [40818536](https://pubmed.ncbi.nlm.nih.gov/40818536/) | 2025 | Review/Commentary | Arthroscopy | Editorial on piriformis syndrome diagnosis and sciatic neurolysis; tendon involvement discussed but no pregabalin efficacy data |
-| [41017607](https://pubmed.ncbi.nlm.nih.gov/41017607/) | 2025 | Case Report | Praxis | Describes fluoroquinolone-associated tendinopathy/disability; pregabalin not directly evaluated |
-| [37051935](https://pubmed.ncbi.nlm.nih.gov/37051935/) | 2023 | Case Report | Pain Pract | Posterior femoral cutaneous nerve impingement from running-related tendonitis; nerve pain context, not a tendinitis efficacy study |
-| [39703364](https://pubmed.ncbi.nlm.nih.gov/39703364/) | 2024 | Preclinical | Adv Pharmacol Pharm Sci | Plant extract (not pregabalin) attenuates vincristine-induced peripheral neuropathy in rats |
+| [32839073](https://pubmed.ncbi.nlm.nih.gov/32839073/) | 2021 | RCT | J Orthop Sci | Retrospektive Kohortenstudie zur analgetischen Wirksamkeit und opioid-einsparenden Wirkung von Pregabalin nach arthroskopischer Rotatorenmanschetten-Reparatur – perioperative Schmerzbekämpfung, keine direkte Tendinitis-Behandlung |
+| [34052386](https://pubmed.ncbi.nlm.nih.gov/34052386/) | 2022 | RCT | Arthroscopy | Perioperatives orales Pregabalin führte zu Schmerzwerten vergleichbar mit interscalener Plexus-brachialis-Block nach Rotatorenmanschetten-Reparatur |
+| [40818536](https://pubmed.ncbi.nlm.nih.gov/40818536/) | 2025 | Übersicht/Kommentar | Arthroscopy | Redaktioneller Beitrag zur Diagnose des Piriformis-Syndroms und zur Neuiolyse des Ischiasnervs; Sehnenbeteiligung wird diskutiert, aber ohne Daten zur Pregabalin-Wirksamkeit |
+| [41017607](https://pubmed.ncbi.nlm.nih.gov/41017607/) | 2025 | Fallbericht | Praxis | Beschreibt Fluorchinolon-assoziierte Tendinopathie/Behinderung; Pregabalin wird nicht direkt bewertet |
+| [37051935](https://pubmed.ncbi.nlm.nih.gov/37051935/) | 2023 | Fallbericht | Pain Pract | Hintere femorale kutane Nerveneinklemmung durch laufen-bedingte Tendinitis; Nervenschmerzkontext, keine Tendinitis-Wirksamkeitsstudie |
+| [39703364](https://pubmed.ncbi.nlm.nih.gov/39703364/) | 2024 | Präklinisch | Adv Pharmacol Pharm Sci | Pflanzenextrakt (nicht Pregabalin) vermindert Vincristin-induzierte periphere Neuropathie bei Ratten |
 
-## Germany Market Information
+## Marktinformationen für Deutschland
 
-Pregabalin is currently **not marketed** in this jurisdiction; no authorization records are available (0 total licenses on file).
+Pregabalin ist derzeit **nicht vermarktet** in diesem Zulassungsgebiet; keine Zulassungsunterlagen sind verfügbar (0 Gesamtzulassungen auf Datei).
 
-## Safety Considerations
+## Sicherheitsüberlegungen
 
-Please refer to the package insert for safety information. *(Note: TFDA label warnings and contraindications for pregabalin are a Blocking-severity data gap, DG001 — this must be resolved before any safety assessment can proceed.)*
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. *(Hinweis: TFDA-Etikettwarnungen und Kontraindikationen für Pregabalin sind eine Datenlücke von blockierendem Schweregrad, DG001 – dies muss gelöst werden, bevor eine Sicherheitsbewertung durchgeführt werden kann.)*
 
-## Conclusion and Next Steps
+## Schlussfolgerung und nächste Schritte
 
-**Decision: Hold**
+**Entscheidung: Zurückhalten**
 
 **Rationale:**
-The mechanistic link between pregabalin's calcium-channel modulation and tendinitis (a local inflammatory/mechanical condition) is weak, and no clinical trials or literature directly test pregabalin for tendinitis — existing evidence only covers perioperative pain control or unrelated neuropathies.
+Die mechanistische Verbindung zwischen der Kalziumkanal-Modulation von Pregabalin und Tendinitis (ein lokaler entzündlicher/mechanischer Zustand) ist schwach, und keine klinischen Studien oder Literaturquellen untersuchen Pregabalin direkt auf Tendinitis – die vorhandene Evidenz behandelt nur perioperative Schmerzbekämpfung oder nicht damit zusammenhängende Neuropathien.
 
-**To proceed, the following is needed:**
-- TFDA/BfArM label warnings and contraindications (DG001, Blocking)
-- Formal DrugBank-sourced mechanism-of-action documentation (DG002, High)
-- A tendinitis-specific preclinical or pilot clinical study to establish direct biological plausibility before any trial design
+**Um fortzufahren, ist Folgendes erforderlich:**
+- TFDA/BfArM-Etikettwarnungen und Kontraindikationen (DG001, blockierend)
+- Formale DrugBank-gestützte Dokumentation des Wirkmechanismus (DG002, hoch)
+- Eine Tendinitis-spezifische präklinische oder klinische Pilotstudie zur Etablierung direkter biologischer Plausibilität vor dem Studiendesign
 
-**Additional note:** Among the six candidates in this evidence pack, **migraine disorder** (rank 5, TxGNN score 99.47%) has meaningfully stronger support — an L2 evidence level with multiple pediatric RCTs, a Cochrane systematic review, and preclinical imaging data showing pregabalin inhibits cortical spreading depression (the core pathology of migraine aura). A withdrawn Phase 3 adult trial (NCT00447369) indicates prior development interest but no completed confirmatory data. This candidate may warrant prioritization as a "Research Question" track ahead of tendinitis.
+**Zusätzlicher Hinweis:** Unter den sechs Kandidaten in diesem Evidenzpaket hat **Migräne-Störung** (Rang 5, TxGNN-Punktzahl 99.47%) deutlich stärkere Unterstützung – eine L2-Evidenzstufe mit mehreren pädiatrischen RCTs, einer Cochrane-Systematischen Übersicht und präklinischen Bildgebungsdaten, die zeigen, dass Pregabalin die kortikale Ausbreitungsdepression hemmt (die Kernpathologie der Migräne-Aura). Eine zurückgezogene Phase-3-Studie bei Erwachsenen (NCT00447369) deutet auf vorheriges Entwicklungsinteresse hin, aber keine abgeschlossenen Bestätigungsdaten. Dieser Kandidat könnte Priorität als „Forschungsfrage"-Spur vor Tendinitis verdienen.
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

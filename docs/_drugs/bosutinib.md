@@ -29,79 +29,80 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0**
 
 </div>
 
-# BOSUTINIB: Drug Repurposing Evaluation — No Predictions Available
+# BOSUTINIB: Bewertung der Wiederverwendung von Arzneimitteln – Keine Vorhersagen verfügbar
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-BOSUTINIB (DB06616) is a Bcr-Abl/Src tyrosine kinase inhibitor, currently not marketed in Taiwan and with no TxGNN predicted indications present in this Evidence Pack.
-Critical data items — including mechanism of action, safety warnings, and contraindications — are all flagged as gaps, making a complete repurposing evaluation impossible at this stage.
-This report documents the current data status and outlines remediation steps before evaluation can proceed.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not captured in Evidence Pack |
-| Predicted New Indication | None available |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | L5 — model prediction data absent |
-| Taiwan Market Status | Not marketed (0 authorizations) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+BOSUTINIB (DB06616) ist ein Bcr-Abl/Src-Tyrosinkinase-Inhibitor, der derzeit nicht in Taiwan vermarktet wird und für den keine TxGNN-prognostizierten Indikationen in diesem Evidence Pack vorhanden sind.
+Kritische Datenelemente – einschließlich Wirkungsmechanismus, Sicherheitswarnungen und Kontraindikationen – sind alle als Lücken gekennzeichnet, was zum aktuellen Zeitpunkt eine vollständige Bewertung der Wiederverwendung unmöglich macht.
+Dieser Bericht dokumentiert den aktuellen Datenstatus und beschreibt Abhilfemaßnahmen, bevor die Bewertung fortgesetzt werden kann.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-No TxGNN predicted indication is present in this Evidence Pack (`predicted_indications: []`). Therefore, a mechanistic rationale linking BOSUTINIB to a new disease target cannot be constructed from the available data.
-
-Currently, detailed mechanism of action data is not available (`original_moa: "[Data Gap]"`). Although BOSUTINIB is publicly known as a Bcr-Abl/Src dual kinase inhibitor used in Philadelphia chromosome-positive chronic myelogenous leukemia (CML), this information was not captured in the structured Evidence Pack and cannot be used as a formal input for this evaluation without verification.
-
-The DrugBank query returned one result (query log ID 3, status: success), and the TFDA package insert query also returned one result (query log ID 4, status: success). Both data sources exist but their content was not parsed into the structured fields. Completing the data extraction from these two sources is the highest-priority remediation step before this evaluation can advance.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for any predicted indication (no TxGNN prediction available).
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Nicht erfasst im Evidence Pack |
+| Prognostizierte neue Indikation | Keine verfügbar |
+| TxGNN-Vorhersage-Score | N/A |
+| Evidenzgrad | L5 – Modellvorhersagedaten fehlen |
+| Taiwan-Marktstatus | Nicht vermarktet (0 Genehmigungen) |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | **Halten** |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage sinnvoll?
 
-Currently no related literature available for any predicted indication (no TxGNN prediction available).
+Es ist keine TxGNN-prognostizierte Indikation im Evidence Pack vorhanden (`predicted_indications: []`). Daher kann ein mechanistisches Rationale, das BOSUTINIB mit einem neuen Krankheitsziel verbindet, nicht aus den verfügbaren Daten konstruiert werden.
 
----
+Derzeit sind detaillierte Daten zum Wirkungsmechanismus nicht verfügbar (`original_moa: "[Data Gap]"`). Obwohl BOSUTINIB öffentlich bekannt ist als ein dualer Bcr-Abl/Src-Kinase-Inhibitor, der bei Philadelphia-Chromosom-positiver chronischer myeloischer Leukämie (CML) verwendet wird, wurden diese Informationen nicht in die strukturierten Felder des Evidence Pack erfasst und können nicht als formale Eingabe für diese Bewertung ohne Verifikation verwendet werden.
 
-## Taiwan Market Information
-
-BOSUTINIB has **0 authorizations** in Taiwan. There are no licensed products to display.
+Die DrugBank-Abfrage gab ein Ergebnis zurück (Abfrage-Log-ID 3, Status: success), und die TFDA-Packungsbeilage-Abfrage gab auch ein Ergebnis zurück (Abfrage-Log-ID 4, Status: success). Beide Datenquellen existieren, aber ihr Inhalt wurde nicht in die strukturierten Felder geparst. Das Abschließen der Datenextraktion aus diesen zwei Quellen ist der wichtigste Abhilfeschritt, bevor diese Bewertung voranschreiten kann.
 
 ---
 
-## Safety Considerations
+## Evidenz aus klinischen Studien
 
-Please refer to the package insert for safety information.
-
-> The TFDA package insert query returned a result (query log ID 4), but safety data was not parsed into the structured fields. Key warnings, contraindications, and drug interaction data are all currently marked as gaps. No drug interactions were found via the DDI query source (query log ID 2, status: not_found).
+Derzeit sind keine zugehörigen klinischen Studien für irgendwelche prognostizierten Indikationen registriert (keine TxGNN-Vorhersage verfügbar).
 
 ---
 
-## Conclusion and Next Steps
+## Evidenz aus der Literatur
 
-**Decision: Hold**
+Derzeit ist keine zugehörige Literatur für irgendwelche prognostizierten Indikationen verfügbar (keine TxGNN-Vorhersage verfügbar).
+
+---
+
+## Taiwan-Marktinformationen
+
+BOSUTINIB hat **0 Genehmigungen** in Taiwan. Es gibt keine zugelassenen Produkte zum Anzeigen.
+
+---
+
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+> Die TFDA-Packungsbeilage-Abfrage gab ein Ergebnis zurück (Abfrage-Log-ID 4), aber Sicherheitsdaten wurden nicht in die strukturierten Felder geparst. Wichtige Warnungen, Kontraindikationen und Arzneimittelwechselwirkungsdaten sind derzeit alle als Lücken gekennzeichnet. Keine Arzneimittelwechselwirkungen wurden über die DDI-Abfragequelle gefunden (Abfrage-Log-ID 2, Status: not_found).
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Halten**
 
 **Rationale:**
-This Evidence Pack contains no TxGNN predicted indications and no structured safety or mechanism data, making it impossible to perform a meaningful repurposing evaluation at this time. All three critical evaluation components — target indication, mechanistic rationale, and safety profile — are absent.
+Dieses Evidence Pack enthält keine TxGNN-prognostizierten Indikationen und keine strukturierten Sicherheits- oder Mechanismusdaten, was es unmöglich macht, zu diesem Zeitpunkt eine aussagekräftige Wiederverwendungsbewertung durchzuführen. Alle drei kritischen Bewertungskomponenten – Zielindikation, mechanistisches Rationale und Sicherheitsprofil – sind abwesend.
 
-**To proceed, the following is needed:**
+**Um fortzufahren, ist Folgendes erforderlich:**
 
-- **[Blocking — DG001]** Extract and parse TFDA package insert warnings and contraindications from the already-retrieved PDF (query log ID 4 confirms the document exists)
-- **[High — DG002]** Extract mechanism of action (MOA) from the DrugBank record already retrieved (query log ID 3 confirms result_count = 1)
-- **[Critical]** Re-run TxGNN prediction pipeline for BOSUTINIB to generate `predicted_indications`; current empty array suggests the drug may not have been included in the prediction run or results were not mapped correctly
-- Confirm whether "not marketed in Taiwan" reflects a regulatory decision or simply that no application has been submitted, as this affects the eventual market entry pathway assessment
+- **[Blockierend – DG001]** Warnungen und Kontraindikationen aus der bereits abgerufenen TFDA-Packungsbeilage-PDF extrahieren und parsen (Abfrage-Log-ID 4 bestätigt, dass das Dokument existiert)
+- **[Hoch – DG002]** Wirkungsmechanismus (MOA) aus dem bereits abgerufenen DrugBank-Datensatz extrahieren (Abfrage-Log-ID 3 bestätigt result_count = 1)
+- **[Kritisch]** TxGNN-Vorhersage-Pipeline für BOSUTINIB erneut ausführen, um `predicted_indications` zu generieren; das aktuelle leere Array deutet darauf hin, dass das Arzneimittel möglicherweise nicht in die Vorhersage-Durchführung einbezogen wurde oder die Ergebnisse nicht korrekt zugeordnet wurden
+- Bestätigen, ob „nicht in Taiwan vermarktet" eine regulatorische Entscheidung widerspiegelt oder einfach, dass noch kein Antrag eingereicht wurde, da dies die spätere Bewertung des Markteintrittspfads beeinflusst
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

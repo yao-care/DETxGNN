@@ -29,65 +29,68 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Budesonide: Repurposing Evaluation Incomplete — No Predictions Available
+# Budesonide: Bewertung der Umwidmung unvollständig — Keine Vorhersagen verfügbar
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Budesonide (DrugBank: DB01222) is a synthetic glucocorticoid with established anti-inflammatory properties.
-This Evidence Pack contains **no TxGNN-predicted new indications**, and two critical data items — mechanism of action and TFDA package insert safety data — have not been successfully extracted.
-A full repurposing evaluation cannot proceed until these gaps are resolved.
+Budesonide (DrugBank: DB01222) ist ein synthetisches Glukokortikoid mit etablierten entzündungshemmenden Eigenschaften.
+Dieses Evidence Pack enthält **keine von TxGNN vorhergesagten neuen Indikationen**, und zwei kritische Datenpunkte — Wirkmechanismus und Sicherheitsdaten aus der TFDA-Packungsbeilage — wurden nicht erfolgreich extrahiert.
+Eine vollständige Bewertung der Umwidmung kann nicht fortgesetzt werden, bis diese Lücken behoben sind.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Punkt | Inhalt |
 |------|---------|
-| Original Indication | Not available in this Evidence Pack |
-| Predicted New Indication | None — TxGNN predictions not loaded |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | N/A |
-| Taiwan Market Status | Not marketed (0 TFDA authorizations found) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+| Original-Indikation | Im Evidence Pack nicht verfügbar |
+| Vorhergesagte neue Indikation | Keine — TxGNN-Vorhersagen nicht geladen |
+| TxGNN-Vorhersageergebnis | N/A |
+| Evidenzgrad | N/A |
+| Taiwan-Marktstatus | Nicht vermarktet (0 TFDA-Genehmigungen gefunden) |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | **Ausstehend** |
 
 ---
 
-## Why the Evaluation Cannot Proceed
+## Warum die Bewertung nicht fortgesetzt werden kann
 
-Three structural issues prevent this report from being completed in standard format:
+Drei strukturelle Probleme verhindern, dass dieser Bericht in Standardformat abgeschlossen werden kann:
 
-**1. No predicted indications**
-The `predicted_indications` field is empty. TxGNN has not returned any candidate new indications for Budesonide in this Evidence Pack. Without a repurposing hypothesis, there is no clinical trial evidence to surface, no mechanism bridge to explain, and no benefit-risk ratio to weigh.
+**1. Keine vorhergesagten Indikationen**
+Das Feld `predicted_indications` ist leer. TxGNN hat keine Kandidaten-Indikationen für Budesonide in diesem Evidence Pack zurückgegeben. Ohne eine Umwidmungs-Hypothese gibt es keine klinischen Studiendaten zu erfassen, keine mechanistische Brücke zu erklären und kein Nutzen-Risiko-Verhältnis zu bewerten.
 
-**2. Mechanism of action unavailable (DG002 — High severity)**
-DrugBank was queried successfully and returned one record, but MOA data was not extracted into the pack. Without MOA, mechanistic plausibility cannot be assessed for any future predicted indication.
+**2. Wirkmechanismus nicht verfügbar (DG002 — Hoher Schweregrad)**
+DrugBank wurde erfolgreich abgefragt und gab einen Datensatz zurück, aber MOA-Daten wurden nicht in das Paket extrahiert. Ohne MOA kann die mechanistische Plausibilität für keine zukünftige vorhergesagte Indikation bewertet werden.
 
-**3. TFDA safety data missing (DG001 — Blocking severity)**
-The TFDA package insert query returned a result, but warnings and contraindications were not parsed into the safety fields. This is classified as Blocking — the safety pre-screening step is formally incomplete, and no candidate can advance to clinical feasibility review under this status.
+**3. TFDA-Sicherheitsdaten fehlen (DG001 — Blockierender Schweregrad)**
+Die Abfrage der TFDA-Packungsbeilage gab ein Ergebnis zurück, aber Warnhinweise und Kontraindikationen wurden nicht in die Sicherheitsfelder geparst. Dies wird als blockierend klassifiziert — der Sicherheits-Vor-Screening-Schritt ist formal unvollständig, und kein Kandidat kann unter diesem Status zur Bewertung der klinischen Machbarkeit voranschreiten.
 
-> **Data quality note:** The query log shows both the DrugBank query (ID 3) and the TFDA package insert query (ID 4) as `success` with `result_count: 1`. The data gaps therefore reflect an extraction or parsing failure, not a source availability problem. Re-running the extraction pipeline should recover this information without needing to re-query upstream sources.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+> **Hinweis zur Datenqualität:** Das Abfrageprotokoll zeigt sowohl die DrugBank-Abfrage (ID 3) als auch die TFDA-Packungsbeilage-Abfrage (ID 4) als `success` mit `result_count: 1`. Die Datenlücken spiegeln daher einen Extraktions- oder Parsingfehler wider, nicht ein Verfügbarkeitsproblem der Quelle. Das Wiederausführen der Extraktions-Pipeline sollte diese Informationen wiederherstellen, ohne dass die Quellen neu abgefragt werden müssen.
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitserwägungen
 
-**Decision: Hold**
+Sicherheitsinformationen entnehmen Sie bitte der Packungsbeilage.
 
-**Rationale:**
-No TxGNN repurposing predictions are present in this Evidence Pack. Even if predictions were added, two blocking/high-severity data gaps — missing safety extractions and missing MOA — would prevent the evaluation from clearing mandatory pre-screening gates.
+---
 
-**To proceed, the following is needed:**
+## Schlussfolgerung und nächste Schritte
 
-- **Re-run extraction pipeline** on the already-retrieved DrugBank record and TFDA package insert PDF to populate MOA and safety fields — the source documents are confirmed available
-- **Load TxGNN prediction results** for Budesonide into the Evidence Pack (`predicted_indications` must be populated before any evaluation work begins)
-- **Re-verify Taiwan market status**: TFDA licensing query returned 0 results, but Budesonide has internationally marketed branded products (e.g., Rhinocort®, Pulmicort®, Entocort®); a re-query using alternative trade names or ATC code R03BA02 / A07EA06 may surface existing authorizations
+**Entscheidung: Ausstehend**
+
+**Begründung:**
+Keine TxGNN-Umwidmungsvorhersagen sind in diesem Evidence Pack vorhanden. Selbst wenn Vorhersagen hinzugefügt würden, würden zwei blockierende/hochgradig schwerwiegende Datenlücken — fehlende Sicherheitsextraktionen und fehlende MOA — verhindern, dass die Bewertung die obligatorischen Vor-Screening-Kontrollpunkte passiert.
+
+**Zum Fortfahren wird Folgendes benötigt:**
+
+- **Extraktions-Pipeline erneut ausführen** für den bereits abgerufenen DrugBank-Datensatz und das TFDA-Packungsbeilage-PDF, um MOA- und Sicherheitsfelder auszufüllen — die Quelldokumente sind als verfügbar bestätigt
+
+- **TxGNN-Vorhersageergebnisse** für Budesonide in das Evidence Pack laden (`predicted_indications` muss ausgefüllt werden, bevor irgendwelche Bewertungsarbeiten beginnen)
+
+- **Taiwan-Marktstatus erneut überprüfen**: Die TFDA-Lizenzierungsabfrage gab 0 Ergebnisse zurück, aber Budesonide hat international vermarktete Markenprodukte (z. B. Rhinocort®, Pulmicort®, Entocort®); eine erneute Abfrage unter Verwendung alternativer Handelsnamen oder ATC-Code R03BA02 / A07EA06 kann vorhandene Genehmigungen ans Licht bringen
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

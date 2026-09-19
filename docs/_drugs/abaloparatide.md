@@ -29,76 +29,77 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-# ABALOPARATIDE: Drug Repurposing Evaluation Report
+# ABALOPARATIDE: Bewertungsbericht zur Umwidmung von Arzneimitteln
 
-## One-Sentence Summary
+## Einsätzige Zusammenfassung
 
-Abaloparatide is a synthetic peptide analog of parathyroid hormone-related protein (PTHrP), approved internationally for the treatment of postmenopausal osteoporosis (marketed as Tymlos® in the US). The TxGNN model has **not generated any predicted new indications** for this drug, and the evidence pack contains significant data gaps across regulatory, safety, and mechanistic domains.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not listed in Taiwan (no TFDA licenses); internationally approved for postmenopausal osteoporosis |
-| Predicted New Indication | — (No TxGNN predictions available) |
-| TxGNN Prediction Score | — |
-| Evidence Level | N/A — No predictions to evaluate |
-| Taiwan Market Status | ✗ Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+Abaloparatide ist ein synthetisches Peptidanalog des Parathormon-bezogenen Proteins (PTHrP), das international zur Behandlung der postmenopausalen Osteoporose zugelassen ist (vermarktet als Tymlos® in den USA). Das TxGNN-Modell hat **keine vorhergesagten neuen Indikationen** für dieses Arzneimittel generiert, und das Evidenzpaket enthält erhebliche Datenlücken in regulatorischen, Sicherheits- und mechanistischen Bereichen.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schneller Überblick
 
-There are currently **no TxGNN-predicted indications** for Abaloparatide, so a mechanistic plausibility assessment cannot be performed at this time.
-
-For background: Abaloparatide is a 34-amino-acid synthetic peptide analog of human parathyroid hormone-related protein (PTHrP). It selectively activates the PTH1 receptor in its RG conformation, promoting osteoblast-mediated bone formation while producing a more transient calcemic response compared to teriparatide (PTH 1-34). This anabolic mechanism increases bone mineral density and reduces fracture risk.
-
-Detailed mechanism of action data was not available in this evidence pack (listed as a High-severity data gap). Should TxGNN predictions become available in future iterations, the PTHrP agonist mechanism — with its effects on calcium homeostasis, bone remodeling, and mesenchymal cell signaling — could potentially be relevant to indications beyond osteoporosis.
-
----
-
-## Clinical Trial Evidence
-
-Currently no TxGNN-predicted indications exist; therefore, no indication-specific clinical trial search was performed.
+| Punkt | Inhalt |
+|-------|--------|
+| Ursprüngliche Indikation | Nicht in Taiwan aufgeführt (keine TFDA-Lizenzen); international zur Behandlung der postmenopausalen Osteoporose zugelassen |
+| Vorhergesagte neue Indikation | — (Keine TxGNN-Vorhersagen verfügbar) |
+| TxGNN-Vorhersagepunktzahl | — |
+| Evidenzgrad | Nicht zutreffend — Keine Vorhersagen zur Bewertung verfügbar |
+| Status auf dem Taiwan-Markt | ✗ Nicht vermarktet (Nicht vermarktet) |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | **Zurückstellen** |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage angemessen?
 
-Currently no TxGNN-predicted indications exist; therefore, no indication-specific literature search was performed.
+Es gibt derzeit **keine vorhergesagten Indikationen von TxGNN** für Abaloparatide, daher kann eine Bewertung der mechanistischen Plausibilität zu diesem Zeitpunkt nicht durchgeführt werden.
 
----
+Zur Hintergrundinformation: Abaloparatide ist ein synthetisches 34-Aminosäure-Peptidanalog des humanen Parathormon-bezogenen Proteins (PTHrP). Es aktiviert selektiv den PTH1-Rezeptor in seiner RG-Konformation und fördert die osteoblastenvermittelte Knochenbildung, während es gleichzeitig eine transienterere Kalziumreaktion im Vergleich zu Teriparatid (PTH 1-34) erzeugt. Dieser anabole Mechanismus erhöht die Knochenmineraldichte und verringert das Frakturrisiko.
 
-## Taiwan Market Information
-
-Abaloparatide has **no TFDA-approved licenses** and is **not marketed in Taiwan**. No authorization records are available.
+Detaillierte Wirkmechanismus-Daten waren nicht in diesem Evidenzpaket verfügbar (aufgeführt als Datenlücke mit hohem Schweregrad). Sollten TxGNN-Vorhersagen in zukünftigen Iterationen verfügbar werden, könnte der PTHrP-Agonist-Mechanismus — mit seinen Auswirkungen auf die Kalziumhomöostase, das Knochenremodellieren und die mesenchymale Zellsignalisierung — möglicherweise für Indikationen über Osteoporose hinaus relevant sein.
 
 ---
 
-## Safety Considerations
+## Evidenz aus klinischen Studien
 
-> Please refer to the package insert for safety information.
+Es existieren derzeit keine vorhergesagten Indikationen von TxGNN; daher wurde keine indikationsspezifische Suche nach klinischen Studien durchgeführt.
+
+---
+
+## Literaturgestützte Evidenz
+
+Es existieren derzeit keine vorhergesagten Indikationen von TxGNN; daher wurde keine indikationsspezifische Literatursuche durchgeführt.
+
+---
+
+## Taiwan-Marktinformationen
+
+Abaloparatide hat **keine von der TFDA zugelassenen Lizenzen** und wird **in Taiwan nicht vermarktet**. Es sind keine Zulassungsakten verfügbar.
+
+---
+
+## Sicherheitsaspekte
+
+> Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
 >
-> Note: TFDA package insert warnings/contraindications were identified as a **Blocking-severity data gap** (DG001). Drug interaction data was queried but returned no results. Complete safety evaluation cannot proceed until package insert data is obtained.
+> Hinweis: Warnhinweise/Kontraindikationen in der TFDA-Packungsbeilage wurden als Datenlücke mit **blockierendem Schweregrad** (DG001) identifiziert. Arzneimittelwechselwirkungsdaten wurden abgefragt, es wurden jedoch keine Ergebnisse zurückgegeben. Eine vollständige Sicherheitsbewertung kann nicht durchgeführt werden, bis Packungsbeilagen-Daten vorliegen.
 
 ---
 
-## Conclusion and Next Steps
+## Fazit und nächste Schritte
 
-**Decision: Hold**
+**Entscheidung: Zurückstellen**
 
-**Rationale:**
-There are no TxGNN-predicted new indications for Abaloparatide at this time, and significant data gaps exist across mechanism of action, regulatory, and safety domains. Without a predicted indication, drug repurposing evaluation cannot proceed.
+**Begründung:**
+Es gibt derzeit keine vorhergesagten neuen Indikationen von TxGNN für Abaloparatide, und es existieren erhebliche Datenlücken in den Bereichen Wirkmechanismus, regulatorische Anforderungen und Sicherheit. Ohne eine vorhergesagte Indikation kann eine Bewertung der Arzneimittelumwidmung nicht durchgeführt werden.
 
-**To proceed, the following is needed:**
-- **TxGNN prediction results**: Re-run or verify the TxGNN model to determine whether any new indications are predicted for Abaloparatide (DB05084)
-- **Mechanism of action data (DG002)**: Query DrugBank API for complete MOA, pharmacodynamic targets, and pathway information
-- **TFDA package insert (DG001)**: Obtain and parse the package insert for warnings, contraindications, and prescribing information (if applicable from reference country)
-- **Regulatory pathway assessment**: Since the drug is not marketed in Taiwan, evaluate whether an international reference (e.g., FDA, EMA) approval dossier can be leveraged for any future repurposing application
+**Um fortzufahren, ist Folgendes erforderlich:**
+- **TxGNN-Vorhersageergebnisse**: Das TxGNN-Modell erneut ausführen oder überprüfen, um zu bestimmen, ob neue Indikationen für Abaloparatide (DB05084) vorhergesagt werden
+- **Wirkmechanismus-Daten (DG002)**: Die DrugBank-API für vollständige MOA, pharmakodynamische Ziele und Pfadinformationen abfragen
+- **TFDA-Packungsbeilage (DG001)**: Die Packungsbeilage für Warnhinweise, Kontraindikationen und Verschreibungsinformationen beschaffen und parsen (falls zutreffend aus dem Referenzland)
+- **Bewertung des Zulassungswegs**: Da das Arzneimittel nicht in Taiwan vermarktet wird, bewerten Sie, ob ein internationales Zulassungsdossier (z. B. von FDA oder EMA) für eine etwaige zukünftige Umwidmungsanwendung genutzt werden kann
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

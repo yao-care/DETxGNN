@@ -29,67 +29,68 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0**
 
 </div>
 
-# Riociguat: Evaluation Incomplete — Insufficient Data for Repurposing Analysis
+# Riociguat: Bewertung unvollständig — Unzureichende Daten für Umwidmungsanalyse
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Riociguat (DrugBank ID: DB08931) has been identified as a candidate for drug repurposing evaluation.
-However, the current Evidence Pack contains **no TxGNN-predicted indications**, **no original indication records**, and **no safety data**,
-making it impossible to conduct a meaningful mechanistic or clinical evidence assessment at this stage.
+Riociguat (DrugBank-ID: DB08931) wurde als Kandidat für eine Umwidmungsbewertung identifiziert.
+Das aktuelle Evidence Pack enthält jedoch **keine von TxGNN vorhergesagten Indikationen**, **keine Aufzeichnungen der Originalindikation** und **keine Sicherheitsdaten**,
+was eine aussagekräftige mechanistische oder klinische Evidenzbewertung in diesem Stadium unmöglich macht.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Punkt | Inhalt |
 |------|---------|
-| Original Indication | Not available in this Evidence Pack |
-| Predicted New Indication | No TxGNN predictions generated |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | Not assessable |
-| Taiwan Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+| Originalindikation | Nicht verfügbar in diesem Evidence Pack |
+| Vorhergesagte neue Indikation | Keine TxGNN-Vorhersagen generiert |
+| TxGNN-Vorhersage-Score | N/A |
+| Evidenzstufe | Nicht bewertbar |
+| Taiwan-Marktstatus | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | **Aussetzen** |
 
 ---
 
-## Why No Assessment Is Possible
+## Warum keine Bewertung möglich ist
 
-The Evidence Pack for Riociguat is missing three critical data categories:
+Dem Evidence Pack für Riociguat fehlen drei kritische Datenkategorien:
 
-**1. No original indication data**
-The `original_indications` field is empty, and no approved product label (package insert) data has been parsed into structured form. Without knowing the drug's approved therapeutic context, mechanistic bridging to a new indication cannot be attempted.
+**1. Keine Daten zur Originalindikation**
+Das Feld `original_indications` ist leer, und keine Daten des genehmigten Produktetiketts (Beipackzettel) wurden in strukturierte Form geparst. Ohne Kenntnis des genehmigten therapeutischen Kontexts des Arzneistoffs ist eine mechanistische Verknüpfung mit einer neuen Indikation nicht möglich.
 
-**2. No mechanism of action (MOA)**
-MOA data is flagged as a high-severity gap (`DG002`). Without knowing how Riociguat exerts its pharmacological effect, it is not possible to reason about mechanistic applicability to other diseases.
+**2. Kein Wirkmechanismus (MOA)**
+MOA-Daten sind als kritische Lücke gekennzeichnet (`DG002`). Ohne Kenntnis darüber, wie Riociguat seine pharmakologische Wirkung ausübt, ist es nicht möglich, die mechanistische Anwendbarkeit auf andere Erkrankungen zu bewerten.
 
-**3. No TxGNN predictions**
-The `predicted_indications` array is empty. This means the TxGNN knowledge-graph model either has not yet processed this drug, or the drug did not pass the minimum score threshold to generate candidate indications. Until predictions are generated, no evidence review can proceed.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-> Note: A package insert query (`tfda_package_insert`) was executed on 2026-03-29 with status `success`, indicating source material exists. However, structured safety fields (warnings, contraindications, DDI) have not been parsed from this source into the Evidence Pack.
+**3. Keine TxGNN-Vorhersagen**
+Das Array `predicted_indications` ist leer. Das bedeutet, dass das TxGNN-Wissensgraph-Modell dieses Arzneimittel entweder noch nicht verarbeitet hat oder das Arzneimittel die Mindestpunktschwelle zur Generierung von Kandidatenindikationen nicht erfüllt hat. Bis Vorhersagen generiert werden, kann keine Evidenzprüfung fortgesetzt werden.
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsaspekte
 
-**Decision: Hold**
+Bitte beachten Sie den Beipackzettel für Sicherheitsinformationen.
 
-**Rationale:**
-There are currently no TxGNN-predicted indications and no structured drug-level data available; proceeding to any stage of repurposing analysis would be premature and methodologically unsound.
+> Hinweis: Eine Beipackzettel-Abfrage (`tfda_package_insert`) wurde am 2026-03-29 mit dem Status `success` ausgeführt, was darauf hinweist, dass Quellenmaterial vorhanden ist. Strukturierte Sicherheitsfelder (Warnhinweise, Gegenanzeigen, Arzneimittelwechselwirkungen) wurden jedoch nicht aus dieser Quelle in das Evidence Pack geparst.
 
-**To proceed, the following is needed:**
+---
 
-1. **Parse the package insert** — The `tfda_package_insert` query returned one result (2026-03-29). Extract and structure the approved indications, warnings, and contraindications from this document into the Evidence Pack.
-2. **Retrieve MOA from DrugBank** — DrugBank query returned one result (`result_count: 1`). Extract the mechanism of action, pharmacological class, and drug categories to populate `original_moa`.
-3. **Re-run TxGNN prediction pipeline** — Once drug-level metadata is populated, re-submit Riociguat to the TxGNN model to generate scored indication candidates.
-4. **Re-run DDI query** — The current DDI query returned `not_found`. After MOA and drug class are confirmed, re-query the DDI database with enriched drug profile parameters.
-5. **Generate updated Evidence Pack (v5)** — Only after steps 1–4 are complete should a full evaluation report be generated.
+## Fazit und nächste Schritte
+
+**Entscheidung: Aussetzen**
+
+**Begründung:**
+Es gibt derzeit keine von TxGNN vorhergesagten Indikationen und keine strukturierten Arzneimittel-Daten verfügbar; eine Fortführung zu einer beliebigen Phase der Umwidmungsanalyse wäre verfrüht und methodisch nicht vertretbar.
+
+**Um fortzufahren, ist folgendes erforderlich:**
+
+1. **Beipackzettel parsen** — Die `tfda_package_insert`-Abfrage hat ein Ergebnis zurückgegeben (2026-03-29). Extrahieren und strukturieren Sie die genehmigten Indikationen, Warnhinweise und Gegenanzeigen aus diesem Dokument in das Evidence Pack.
+2. **MOA von DrugBank abrufen** — Die DrugBank-Abfrage hat ein Ergebnis zurückgegeben (`result_count: 1`). Extrahieren Sie den Wirkmechanismus, die pharmakologische Klasse und die Arzneimittelkategorien, um `original_moa` zu füllen.
+3. **TxGNN-Vorhersage-Pipeline neu ausführen** — Nachdem die Arzneimittel-Metadaten gefüllt sind, reichen Sie Riociguat erneut beim TxGNN-Modell ein, um bewertete Kandidatenindikationen zu generieren.
+4. **DDI-Abfrage erneut ausführen** — Die aktuelle DDI-Abfrage hat `not_found` zurückgegeben. Nachdem MOA und Arzneimittelklasse bestätigt sind, fragen Sie die DDI-Datenbank erneut mit erweiterten Arzneimittelprofilparametern ab.
+5. **Aktualisiertes Evidence Pack generieren (v5)** — Erst nach Abschluss der Schritte 1–4 sollte ein vollständiger Bewertungsbericht generiert werden.
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

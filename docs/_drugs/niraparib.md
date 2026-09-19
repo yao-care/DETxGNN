@@ -29,71 +29,72 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Niraparib: From Ovarian Cancer to Epiglottis Neoplasm
+# Niraparib: Von Ovarialkarzinom zu Epiglottis-Neoplasma
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Niraparib is a PARP1/2 inhibitor internationally approved for maintenance treatment of recurrent epithelial ovarian, fallopian tube, and primary peritoneal cancer (not currently marketed in Taiwan). The TxGNN model's top-ranked prediction for this drug is **Epiglottis Neoplasm**, but this signal is currently supported by **0 clinical trials** and **0 publications** — it is a pure computational output with no biological plausibility identified in the evidence pack.
+Niraparib ist ein international zugelassener PARP1/2-Inhibitor zur Erhaltungstherapie von rezidiviertem epithelialem Ovarialkarzinom, Eileitertumor und primärem Peritonealkarzinom (derzeit nicht in Taiwan auf dem Markt erhältlich). Die Top-Vorhersage des TxGNN-Modells für dieses Medikament ist **Epiglottis-Neoplasma**, aber dieses Signal wird derzeit durch **0 klinische Studien** und **0 Publikationen** gestützt — es ist eine reine rechnergestützte Vorhersage ohne identifizierte biologische Plausibilität im Evidenzpaket.
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
-|------|------|
-| Original Indication | Not licensed in Taiwan; internationally approved for maintenance treatment of recurrent epithelial ovarian, fallopian tube, or primary peritoneal cancer |
-| Predicted New Indication | Epiglottis Neoplasm |
-| TxGNN Prediction Score | 99.99% (model rank #289) |
-| Evidence Level | L5 |
-| Taiwan Market Status | Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Nicht in Taiwan lizenziert; international zugelassen zur Erhaltungstherapie von rezidiviertem epithelialem Ovarialkarzinom, Eileitertumor oder primärem Peritonealkarzinom |
+| Vorhergesagte neue Indikation | Epiglottis-Neoplasma |
+| TxGNN-Vorhersage-Score | 99.99% (Modellrang #289) |
+| Evidenzstufe | L5 |
+| Taiwan-Markt-Status | Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Zurückhalt |
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage begründet?
 
-Detailed mechanism of action data is not available in the structured drug record. Based on the repurposing rationale provided for related candidate indications in this evidence pack, niraparib is known to act as a PARP1/2 inhibitor that exploits synthetic lethality in tumors with homologous recombination deficiency (HRD), including BRCA1/2-mutated cancers — this is the basis for its established use in ovarian cancer maintenance therapy.
+Detaillierte Daten zum Wirkmechanismus sind im strukturierten Arzneimittelbestand nicht verfügbar. Basierend auf der Umnutzungs-Rationale für verwandte Kandidaten-Indikationen in diesem Evidenzpaket ist bekannt, dass Niraparib als PARP1/2-Inhibitor wirkt, der synthetische Letalität in Tumoren mit Homologe-Rekombinations-Defizienz (HRD), einschließlich BRCA1/2-mutierter Karzinome, ausnutzt — dies ist die Grundlage für seine etablierte Verwendung in der Ovarialkarzinom-Erhaltungstherapie.
 
-For epiglottis neoplasm specifically, the evidence pack's own mechanistic annotation states that this tumor type is predominantly a head-and-neck squamous cell carcinoma with very low HRD/BRCA mutation prevalence, meaning **there is no established molecular rationale for PARP inhibitor activity** in this disease. The annotation explicitly characterizes this as "purely a model prediction, with no clinical or literature support."
+Speziell für das Epiglottis-Neoplasma besagt die mechanistische Anmerkung des Evidenzpakets, dass dieser Tumortyp überwiegend ein Plattenepithelkarzinom des Kopf- und Halsbereichs mit sehr niedriger HRD/BRCA-Mutationsprävalenz ist, was bedeutet, dass **es keine etablierte molekulare Rationale für PARP-Inhibitor-Aktivität** in dieser Erkrankung gibt. Die Anmerkung charakterisiert dies explizit als „reine Modellvorhersage ohne klinische oder Literaturunterstützung."
 
-This prediction should be treated as a low-confidence computational hypothesis only, not as a mechanistically or clinically substantiated repurposing candidate.
+Diese Vorhersage sollte nur als rechnergestützte Hypothese mit geringem Konfidenz-Niveau behandelt werden, nicht als mechanistisch oder klinisch substantiierte Umnutzungs-Kandidat.
 
-## Clinical Trial Evidence
+## Evidenz aus klinischen Studien
 
-Currently no related clinical trials registered.
+Derzeit keine verwandten klinischen Studien registriert.
 
-## Literature Evidence
+## Evidenz aus der Literatur
 
-Currently no related literature available.
+Derzeit ist keine relevante Literatur verfügbar.
 
-## Market Information (Taiwan)
+## Marktinformation (Taiwan)
 
-Niraparib is not currently marketed in Taiwan — 0 authorizations on record.
+Niraparib ist derzeit nicht auf dem Taiwan-Markt erhältlich — 0 Zulassungen in den Aufzeichnungen.
 
-## Cytotoxicity
+## Zytotoxizität
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (PARP inhibitor) |
-| Myelosuppression Risk | High — niraparib is well documented to cause significant thrombocytopenia, anemia, and neutropenia; regular hematologic monitoring is required in all approved indications |
-| Emetogenicity Classification | Low to moderate |
-| Monitoring Items | CBC (weekly for the first month, then monthly), blood pressure, renal and hepatic function |
-| Handling Protection | Oral small-molecule targeted agent; handling per institutional hazardous drug protocols (PARP inhibitors are commonly classified as hazardous due to genotoxic potential) |
+| Element | Inhalt |
+|---------|--------|
+| Zytotoxizität-Klassifizierung | Zielgerichtete Therapie (PARP-Inhibitor) |
+| Myelosuppressions-Risiko | Hoch — Niraparib verursacht bekanntermaßen signifikante Thrombozytopenie, Anämie und Neutropenie; eine regelmäßige hämatologische Überwachung ist bei allen zugelassenen Indikationen erforderlich |
+| Emetogenitäts-Klassifizierung | Gering bis moderat |
+| Überwachungspunkte | CBC (wöchentlich für den ersten Monat, dann monatlich), Blutdruck, Nieren- und Leberfunktion |
+| Handhabungsschutz | Orales niedermolekulares Zieltherapeutikum; Handhabung gemäß institutioneller Protokolle für Gefahrstoffe (PARP-Inhibitoren werden häufig aufgrund ihres gentoxischen Potenzials als Gefahrstoffe klassifiziert) |
 
-## Safety Considerations
+## Sicherheitsaspekte
 
-Please refer to the package insert for safety information.
+Bitte schlagen Sie die Packungsbeilage für Sicherheitsinformationen nach.
 
-## Conclusion and Next Steps
+## Schlussfolgerung und nächste Schritte
 
-**Decision: Hold**
+**Entscheidung: Zurückhalt**
 
-**Rationale:**
-There is no clinical trial or literature evidence supporting niraparib use in epiglottis neoplasm, and the underlying tumor biology (low HRD/BRCA prevalence in head-and-neck squamous cell carcinoma) does not align with the drug's PARP-inhibition mechanism. This is an L5 (model-only) prediction with no supporting real-world data.
+**Begründung:**
+Es gibt keine klinischen Studien- oder Literaturbefunde, die die Verwendung von Niraparib bei Epiglottis-Neoplasma unterstützen, und die zugrundeliegende Tumorbiologie (niedrige HRD/BRCA-Prävalenz im Plattenepithelkarzinom des Kopf- und Halsbereichs) stimmt nicht mit dem PARP-Inhibitions-Wirkmechanismus des Medikaments überein. Dies ist eine L5 (nur Modell-) Vorhersage ohne unterstützende reale Daten.
 
-**To proceed, the following is needed:**
-- Preclinical/biomarker data confirming HRD or BRCA pathway alterations in epiglottis/laryngeal squamous cell carcinoma subpopulations
-- Mechanistic studies evaluating PARP inhibitor sensitivity in this tumor type
-- Independent validation that the "epiglottis neoplasm" TxGNN label reflects a clinically coherent disease entity rather than an ontology-mapping artifact
+**Um fortzufahren, ist folgendes erforderlich:**
+- Präklinische/Biomarker-Daten, die HRD- oder BRCA-Pathway-Alterationen in Subpopulationen des Epiglottis-/Larynx-Plattenepithelkarzinoms bestätigen
+- Mechanistische Studien zur Bewertung der PARP-Inhibitor-Sensitivität in diesem Tumortyp
+- Unabhängige Validierung, dass das „epiglottis neoplasm" TxGNN-Etikett eine klinisch kohärente Krankheitsentität widerspiegelt, anstatt eines Ontologie-Mapping-Artefakts
 
-**Additional note:** This evidence pack also contains a substantially stronger-supported prediction — **"cystic neoplasm"** (TxGNN rank #292, L2, *Proceed with Guardrails*) — corresponding to high-grade serous ovarian/endometrial carcinoma, backed by 3 clinical trials and 9 publications directly relevant to niraparib's established mechanism. This candidate may warrant a separate, dedicated evaluation report.
+**Zusätzliche Anmerkung:** Dieses Evidenzpaket enthält auch eine wesentlich stärker unterstützte Vorhersage — **„cystic neoplasm"** (TxGNN Rang #292, L2, *Mit Sicherheitsvorkehrungen fortfahren*) — entsprechend hochgradigem serösem Ovarial-/Endometriumkarzinom, unterstützt durch 3 klinische Studien und 9 Publikationen, die direkt relevant für Niraparibs etablierten Wirkmechanismus sind. Dieser Kandidat könnte einen separaten, dedizierten Bewertungsbericht rechtfertigen.
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

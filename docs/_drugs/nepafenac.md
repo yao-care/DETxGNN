@@ -29,99 +29,100 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Nepafenac: From Post-Cataract Ocular Inflammation to Eye Disease
+# Nepafenac: Von der postoperativen Augenentzündung nach Kataraktoperation zur Augenerkrankung
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Nepafenac is a topical ophthalmic NSAID whose established use — evident throughout the clinical trial record — is the prevention and treatment of ocular inflammation and pain associated with cataract surgery.
-> The TxGNN model predicts it may be effective for the broader category **Eye Disease**,
-> with **39 clinical trials** and **21 publications** currently supporting this direction, most of which in fact document its *already-approved* ophthalmic use rather than a genuinely novel indication.
+> Nepafenac ist ein topisches ophthalmologisches NSAID, dessen etablierte Verwendung — evident in der klinischen Prüfungshistorie — die Vorbeugung und Behandlung von Augenentzündung und Schmerzen nach Kataraktoperation ist.
+> Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam ist für die breitere Kategorie **Augenerkrankung**,
+> mit **39 klinischen Studien** und **21 Publikationen**, die derzeit diese Richtung unterstützen, von denen die meisten tatsächlich seine *bereits zugelassene* ophthalmologische Anwendung dokumentieren, anstatt eine wirklich neue Indikation zu darstellen.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Punkt | Inhalt |
 |------|------|
-| Original Indication | Not available from regulatory license data (drug not marketed in Germany). Per the clinical trial evidence itself, nepafenac's established use is prevention/treatment of ocular inflammation and pain associated with cataract surgery. |
-| Predicted New Indication | Eye disease |
-| TxGNN Prediction Score | 99.85% |
-| Evidence Level | L1 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Ursprüngliche Indikation | Nicht verfügbar aus behördlichen Zulassungsdaten (Arzneimittel nicht in Deutschland vermarktet). Nach der klinischen Prüfungshistorie selbst ist die etablierte Verwendung von nepafenac die Vorbeugung/Behandlung von Augenentzündung und Schmerzen nach Kataraktoperation. |
+| Vorhergesagte neue Indikation | Augenerkrankung |
+| TxGNN-Vorhersage-Score | 99.85% |
+| Evidenzstufe | L1 |
+| Marktstatus Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Mit Einschränkungen fortfahren |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage sinnvoll?
 
-Nepafenac is a prodrug that is hydrolyzed by intraocular esterases to its active metabolite amfenac, a non-selective COX-1/COX-2 inhibitor. By suppressing prostaglandin synthesis, it reduces ocular inflammation and vascular permeability — a well-characterized mechanism directly relevant to postoperative and inflammatory eye conditions.
+Nepafenac ist ein Prodrug, das durch intraokulare Esterasen zu seinem aktiven Metaboliten Amfenac hydrolysiert wird, einem nicht-selektiven COX-1/COX-2-Inhibitor. Durch die Unterdrückung der Prostaglandinsynthese reduziert es die Augenentzündung und die vaskuläre Permeabilität — ein gut charakterisierter Mechanismus, der direkt für postoperative und entzündliche Augenzustände relevant ist.
 
-Critically, the evidence pack itself flags that this prediction is **not a novel repurposing hypothesis but a re-confirmation of nepafenac's existing indication**: the overwhelming majority of the supporting clinical trials (cataract surgery inflammation/pain, cystoid macular edema prophylaxis, PRK pain control) describe uses that are already part of nepafenac's known clinical profile. The "eye disease" label predicted by TxGNN is broad enough to capture this established use rather than pointing to a genuinely new therapeutic area.
+Kritisch ist, dass das Evidenzpaket selbst flaggt, dass diese Vorhersage **nicht eine neuartige Umwidmungshypothese, sondern eine Bestätigung der bestehenden Indikation von nepafenac ist**: Die überwiegende Mehrheit der unterstützenden klinischen Studien (Augenentzündung/Schmerz nach Kataraktoperation, Prophylaxe von zystoidem Makulaödem, Schmerzbehandlung nach PRK) beschreiben Anwendungen, die bereits Teil des bekannten klinischen Profils von nepafenac sind. Das von TxGNN vorhergesagte Label „Augenerkrankung" ist breit genug, um diese etablierte Anwendung einzufangen, anstatt auf einen wirklich neuen therapeutischen Bereich hinzuweisen.
 
-Detailed mechanism of action data (`original_moa`) was not supplied in the regulatory dataset, and formal indication text is unavailable because the product is not currently marketed in Germany (0 authorizations). The mechanistic rationale above is derived from the evidence pack's own repurposing analysis rather than DrugBank MOA fields, and should be corroborated against DrugBank/label sources before use in a regulatory context.
+Detaillierte Daten zum Wirkmechanismus (`original_moa`) wurden im Regulierungsdatensatz nicht bereitgestellt, und der formale Indikationstext ist nicht verfügbar, da das Produkt derzeit nicht in Deutschland vermarktet wird (0 Zulassungen, 0 zugelassene Darreichungsformen). Die oben genannte mechanistische Begründung stammt aus der eigenen Umwidmungsanalyse des Evidenzpakets und sollte vor der Verwendung in einem behördlichen Kontext anhand von DrugBank-/Etikettenquellen überprüft werden.
 
 ---
 
-## Clinical Trial Evidence
+## Evidenz aus klinischen Prüfungen
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Prüfnummer | Phase | Status | Anzahl Teilnehmer | Wichtigste Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT07162818](https://clinicaltrials.gov/study/NCT07162818) | Phase 4 | Completed | 61 | Direct assessment of 0.1% nepafenac on vitreous inflammatory biomarkers in rhegmatogenous retinal detachment/PVR — mechanism-level direct evidence. |
-| [NCT02084576](https://clinicaltrials.gov/study/NCT02084576) | Phase 4 | Completed | 40 | Nepafenac 0.1% vs ketorolac 0.4% for prevention of cystoid macular edema after phacoemulsification. |
-| [NCT00818844](https://clinicaltrials.gov/study/NCT00818844) | Phase 4 | Completed | 40 | Nepafenac reduces macular volume increase after epiretinal membrane surgery vs placebo. |
-| [NCT00347204](https://clinicaltrials.gov/study/NCT00347204) | Phase 4 | Completed | 40 | Nevanac vs Acular LS for postoperative pain control after PRK. |
-| [NCT00348582](https://clinicaltrials.gov/study/NCT00348582) | Phase 4 | Completed | N/A | Nepafenac vs ketorolac for postoperative inflammation after cataract surgery. |
-| [NCT01318499](https://clinicaltrials.gov/study/NCT01318499) | Phase 2 | Completed | 1,342 | Large RCT comparing nepafenac 0.3% vs 0.1% vs vehicle for prevention/treatment of ocular inflammation and pain after cataract surgery. |
-| [NCT00865540](https://clinicaltrials.gov/study/NCT00865540) | Phase 4 | Unknown | 30 | Comparison of prednisolone acetate, nepafenac, and ketorolac for intra-operative mydriasis maintenance. |
-| [NCT05847049](https://clinicaltrials.gov/study/NCT05847049) | N/A | Completed | 16 | Combined eplerenone + aflibercept + topical nepafenac for serous foveal detachment in CSCR. |
-| [NCT01475877](https://clinicaltrials.gov/study/NCT01475877) | N/A | Completed | 20 | Bromfenac vs nepafenac for pain control and epithelial healing post-PRK. |
-| [NCT01939691](https://clinicaltrials.gov/study/NCT01939691) | Phase 4 | Terminated | 9 | Difluprednate vs difluprednate+nepafenac vs prednisolone+nepafenac for uveitic macular edema; terminated, small sample. |
+| [NCT07162818](https://clinicaltrials.gov/study/NCT07162818) | Phase 4 | Abgeschlossen | 61 | Direkte Bewertung von 0.1%-igem nepafenac auf Glaskörper-Entzündungs-Biomarker bei rhegmatogener Netzhautablösung/PVR — Evidenz auf Mechanismus-Ebene. |
+| [NCT02084576](https://clinicaltrials.gov/study/NCT02084576) | Phase 4 | Abgeschlossen | 40 | Nepafenac 0.1% vs. Ketorolac 0.4% zur Prophylaxe von zystoidem Makulaödem nach Phakoemulsifikation. |
+| [NCT00818844](https://clinicaltrials.gov/study/NCT00818844) | Phase 4 | Abgeschlossen | 40 | Nepafenac reduziert die Zunahme des Makulavolumens nach Epiretinalembranen-Operation vs. Placebo. |
+| [NCT00347204](https://clinicaltrials.gov/study/NCT00347204) | Phase 4 | Abgeschlossen | 40 | Nevanac vs. Acular LS zur postoperativen Schmerzbehandlung nach PRK. |
+| [NCT00348582](https://clinicaltrials.gov/study/NCT00348582) | Phase 4 | Abgeschlossen | N/A | Nepafenac vs. Ketorolac zur postoperativen Entzündungsbehandlung nach Kataraktoperation. |
+| [NCT01318499](https://clinicaltrials.gov/study/NCT01318499) | Phase 2 | Abgeschlossen | 1,342 | Große RCT mit Vergleich von nepafenac 0.3% vs. 0.1% vs. Vehikel zur Prophylaxe/Behandlung von Augenentzündung und Schmerzen nach Kataraktoperation. |
+| [NCT00865540](https://clinicaltrials.gov/study/NCT00865540) | Phase 4 | Unbekannt | 30 | Vergleich von Prednisolon-Acetat, Nepafenac und Ketorolac zur Aufrechterhaltung der intraokularen Mydriasis. |
+| [NCT05847049](https://clinicaltrials.gov/study/NCT05847049) | N/A | Abgeschlossen | 16 | Kombiniert Eplerenon + Aflibercept + topisches Nepafenac für seröse foveale Netzhautablösung bei CSCR. |
+| [NCT01475877](https://clinicaltrials.gov/study/NCT01475877) | N/A | Abgeschlossen | 20 | Bromfenac vs. Nepafenac zur Schmerzbehandlung und epithelialen Heilung nach PRK. |
+| [NCT01939691](https://clinicaltrials.gov/study/NCT01939691) | Phase 4 | Beendet | 9 | Difluprednate vs. Difluprednate+Nepafenac vs. Prednisolon+Nepafenac für Uveitis-Makulaödem; beendet, kleine Stichprobe. |
 
 ---
 
-## Literature Evidence
+## Evidenz aus der Literatur
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Zeitschrift | Wichtigste Ergebnisse |
 |------|-----|------|------|---------|
-| [34120417](https://pubmed.ncbi.nlm.nih.gov/34120417/) | 2021 | RCT | Korean J Ophthalmol | Nepafenac 0.1% vs prednisolone acetate 1% for postoperative inflammation control after micro-incisional cataract surgery. |
-| [32672612](https://pubmed.ncbi.nlm.nih.gov/32672612/) | 2020 | RCT | Ophthalmology Glaucoma | Nepafenac 0.1% vs prednisolone acetate 1% for inflammation control after laser peripheral iridotomy. |
-| [35025078](https://pubmed.ncbi.nlm.nih.gov/35025078/) | 2022 | Review | Drugs | Review of diagnostic and therapeutic agents (incl. NSAIDs) for non-infectious corneal injury. |
-| [16466612](https://pubmed.ncbi.nlm.nih.gov/16466612/) | 2006 | Review | Curr Med Res Opin | Expert review of ocular permeation and retinal anti-inflammatory activity of nepafenac. |
-| [29199864](https://pubmed.ncbi.nlm.nih.gov/29199864/) | 2018 | Cohort | Curr Eye Res | Intracameral nepafenac safety and efficacy in inhibiting prostaglandin synthesis during phacoemulsification. |
-| [30284393](https://pubmed.ncbi.nlm.nih.gov/30284393/) | 2018 | Cohort/Comparative | Acta Ophthalmol | Nepafenac vs preservative-free diclofenac for postoperative management in cataract surgery. |
-| [25493620](https://pubmed.ncbi.nlm.nih.gov/25493620/) | 2016 | Cohort | J Glaucoma | Interaction of nepafenac with prostaglandin analogs in POAG patients (IOP effects). |
-| [19897019](https://pubmed.ncbi.nlm.nih.gov/19897019/) | 2010 | Preclinical/Mechanistic | Brain Res Bull | Nepafenac/amfenac inhibit retinal angiogenesis in vitro and in a rat OIR model. |
-| [24697218](https://pubmed.ncbi.nlm.nih.gov/24697218/) | 2014 | Preclinical | J Pharm Pharmacol | Effects of topical indomethacin, bromfenac, and nepafenac on LPS-induced ocular inflammation in rats. |
-| [26474497](https://pubmed.ncbi.nlm.nih.gov/26474497/) | 2016 | PK/Distribution study | Exp Eye Res | Distribution of topical ocular nepafenac and active metabolite amfenac to the posterior segment. |
+| [34120417](https://pubmed.ncbi.nlm.nih.gov/34120417/) | 2021 | RCT | Korean J Ophthalmol | Nepafenac 0.1% vs. Prednisolon-Acetat 1% zur postoperativen Entzündungsbehandlung nach kleinschnittiger Kataraktoperation. |
+| [32672612](https://pubmed.ncbi.nlm.nih.gov/32672612/) | 2020 | RCT | Ophthalmology Glaucoma | Nepafenac 0.1% vs. Prednisolon-Acetat 1% zur Entzündungsbehandlung nach peripherer Laser-Iridotomie. |
+| [35025078](https://pubmed.ncbi.nlm.nih.gov/35025078/) | 2022 | Übersichtsartikel | Drugs | Übersicht von Diagnostika und Therapeutika (einschließlich NSAIDs) für nicht-infektiöse Hornhautverletzung. |
+| [16466612](https://pubmed.ncbi.nlm.nih.gov/16466612/) | 2006 | Übersichtsartikel | Curr Med Res Opin | Fachübersicht zur okulären Penetration und retinalen Antiinflammationsaktivität von Nepafenac. |
+| [29199864](https://pubmed.ncbi.nlm.nih.gov/29199864/) | 2018 | Kohorte | Curr Eye Res | Sicherheit und Wirksamkeit von intrakameraler Nepafenac bei der Hemmung der Prostaglandinsynthese während der Phakoemulsifikation. |
+| [30284393](https://pubmed.ncbi.nlm.nih.gov/30284393/) | 2018 | Kohorte/Vergleichsstudie | Acta Ophthalmol | Nepafenac vs. konservierungsmittelfreies Diclofenac zur postoperativen Behandlung nach Kataraktoperation. |
+| [25493620](https://pubmed.ncbi.nlm.nih.gov/25493620/) | 2016 | Kohorte | J Glaucoma | Wechselwirkung von Nepafenac mit Prostaglandin-Analoga bei POAG-Patienten (IOP-Effekte). |
+| [19897019](https://pubmed.ncbi.nlm.nih.gov/19897019/) | 2010 | Präklinisch/Mechanistisch | Brain Res Bull | Nepafenac/Amfenac hemmen die retinale Angiogenese in vitro und in einem Ratten-OIR-Modell. |
+| [24697218](https://pubmed.ncbi.nlm.nih.gov/24697218/) | 2014 | Präklinisch | J Pharm Pharmacol | Auswirkungen von topischem Indomethacin, Bromfenac und Nepafenac auf LPS-induzierte Augenentzündung in Ratten. |
+| [26474497](https://pubmed.ncbi.nlm.nih.gov/26474497/) | 2016 | PK/Verteilungsstudie | Exp Eye Res | Verteilung von topischem Nepafenac und aktivem Metaboliten Amfenac zum hinteren Augensegment. |
 
 ---
 
-## Germany Market Information
+## Marktinformation Deutschland
 
-No authorization records are available — nepafenac is currently **not marketed** in Germany under the reviewed regulatory dataset (0 authorizations, 0 licensed dosage forms).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. Key warnings, contraindications, and drug interaction data were not available in the source dataset (`safety.key_warnings`, `safety.contraindications`, and `safety.ddi` are all data gaps).
+Es sind keine Zulassungsunterlagen verfügbar — nepafenac ist derzeit **nicht vermarktet** in Deutschland gemäß dem überprüften Regulierungsdatensatz (0 Zulassungen, 0 zugelassene Darreichungsformen).
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsaspekte
 
-**Decision: Proceed with Guardrails**
+Bitte beachten Sie die Gebrauchsinformation für Sicherheitsinformationen. Wichtige Warnungen, Kontraindikationen und Arzneimittel-Wechselwirkungsdaten waren im Quelldatensatz nicht verfügbar (`safety.key_warnings`, `safety.contraindications` und `safety.ddi` sind alle Datenlücken).
 
-**Rationale:**
-The evidence base is strong (L1, multiple completed Phase 2–4 RCTs) but largely reconfirms nepafenac's already-known role in ocular inflammation/pain management rather than revealing a genuinely new indication; the drug is also not currently marketed in Germany, so commercial and regulatory pathways still need to be established.
+---
 
-**To proceed, the following is needed:**
-- TFDA/German package insert data on warnings and contraindications (currently a **Blocking** data gap — required before any S1 safety assessment)
-- Confirmed mechanism of action (MOA) documentation from DrugBank or the product label (**High** priority data gap)
-- Clarification of why the product holds zero authorizations in Germany despite strong clinical evidence, to assess the regulatory/commercial path to market
-- A sharper indication definition than the generic "eye disease" label (e.g., cystoid macular edema prophylaxis, diabetic macular edema, vitreoretinal surgery adjunct) to distinguish genuinely new signals from the existing approved use
-- Separate, lower-priority evaluation of the weaker-evidence candidates in this pack (optic papillitis [L4], vitreous detachment [L3]) before any further investment
+## Fazit und nächste Schritte
+
+**Entscheidung: Mit Einschränkungen fortfahren**
+
+**Begründung:**
+Die Evidenzbasis ist stark (L1, mehrere abgeschlossene Phase-2–4-RCTs), bestätigt aber weitgehend nepafenacs bereits bekannte Rolle bei der Behandlung von Augenentzündung/Schmerzen, anstatt ein wirklich neues Indikationsgebiet offenzulegen; das Medikament ist auch derzeit nicht in Deutschland vermarktet, daher müssen noch kommerzielle und behördliche Wege etabliert werden.
+
+**Um fortzufahren, wird Folgendes benötigt:**
+- TFDA/deutsche Gebrauchsinformation Daten zu Warnungen und Kontraindikationen (derzeit eine **blockierende** Datenlücke — erforderlich vor jeder S1-Sicherheitsbewertung)
+- Bestätigte Wirkmechanismus (MOA)-Dokumentation von DrugBank oder dem Produktetikett (**hohe** Priorität Datenlücke)
+- Klärung, warum das Produkt in Deutschland keine Zulassungen hat, obwohl es starke klinische Evidenz gibt, um den behördlichen/kommerziellen Weg zum Markt zu bewerten
+- Eine präzisere Indikationsdefinition als das generische Label „Augenerkrankung" (z. B. Prophylaxe von zystoidem Makulaödem, diabetisches Makulaödem, Vitreoretinal-Chirurgie-Hilfsmittel), um wirklich neue Signale von der bestehenden zugelassenen Anwendung zu unterscheiden
+- Separate, niedriger priorisierte Bewertung der schwächeren Evidenzkandidaten in diesem Paket (Optikusneuritis [L4], Glaskörperabhebung [L3]) vor jeder weiteren Investition
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

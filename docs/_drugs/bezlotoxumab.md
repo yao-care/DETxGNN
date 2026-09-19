@@ -29,60 +29,60 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Bezlotoxumab: From Anti-*C. difficile* Toxin B Therapy to Acute Female Pelvic Peritonitis (Low-Confidence Prediction)
+# Bezlotoxumab: Von Anti-*C. difficile*-Toxin-B-Therapie zur akuten weiblichen Beckenperitonitis (Vorhersage mit niedriger Konfidenz)
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Bezlotoxumab is a monoclonal antibody that neutralizes *Clostridioides difficile* toxin B; no approved indication or detailed mechanism-of-action data is recorded in this evidence pack, and the drug is not marketed in Taiwan.
-The TxGNN model's top prediction is **acute female pelvic peritonitis**, but this candidate is supported by **0 clinical trials** and **0 publications**, and the model's own mechanistic rationale states there is no known biological link between the drug's target and this disease.
+Bezlotoxumab ist ein monoklonaler Antikörper, der *Clostridioides difficile*-Toxin B neutralisiert; in diesem Evidenzpaket sind keine zugelassene Indikation oder detaillierte Wirkmechanismus-Daten erfasst, und das Arzneimittel ist nicht in Taiwan auf dem Markt. Die Top-Vorhersage des TxGNN-Modells ist **akute weibliche Beckenperitonitis**, aber dieser Kandidat wird durch **0 klinische Studien** und **0 Publikationen** gestützt, und die eigene mechanistische Begründung des Modells besagt, dass keine bekannte biologische Verbindung zwischen dem Ziel des Arzneimittels und dieser Krankheit besteht.
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Punkt | Inhalt |
 |------|------|
-| Original Indication | Not recorded in this evidence pack (drug not marketed in Taiwan) |
-| Predicted New Indication | Acute Female Pelvic Peritonitis |
-| TxGNN Prediction Score | 99.89% |
-| Evidence Level | L5 |
-| Taiwan Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | Nicht erfasst in diesem Evidenzpaket (Arzneimittel nicht in Taiwan auf dem Markt) |
+| Vorhergesagte neue Indikation | Akute weibliche Beckenperitonitis |
+| TxGNN-Vorhersage-Score | 99.89% |
+| Nachweisstufe | L5 |
+| Marktstatus in Taiwan | ✗ Nicht auf dem Markt |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Halten |
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage angemessen?
 
-Currently, detailed mechanism of action data is not available in this evidence pack (original_moa is a recorded data gap). Based on the model's own repurposing rationale, bezlotoxumab is a monoclonal antibody directed against *C. difficile* toxin B, used to neutralize this specific bacterial toxin.
+Derzeit sind detaillierte Wirkmechanismus-Daten in diesem Evidenzpaket nicht verfügbar (original_moa ist eine erfasste Datenlücke). Basierend auf der eigenen Umnutzungsrationale des Modells ist Bezlotoxumab ein monoklonaler Antikörper gegen *C. difficile*-Toxin B, der zur Neutralisierung dieses spezifischen Bakteriengifts verwendet wird.
 
-The rationale text accompanying this prediction explicitly states there is **no known mechanistic connection** between toxin-B neutralization and acute female pelvic peritonitis, which is typically a polymicrobial/mixed bacterial infection unrelated to *C. difficile* toxin pathology. This pattern repeats across all ten top-ranked candidates in this evidence pack (ectopic pregnancy, tubal/uterine pathology, spinal stenosis, vascular and lymphatic conditions) — none have a stated biological rationale, and all are flagged internally as embedding-similarity outputs without mechanistic support.
+Der Begründungstext zu dieser Vorhersage besagt explizit, dass es **keine bekannte mechanistische Verbindung** zwischen der Toxin-B-Neutralisierung und der akuten weiblichen Beckenperitonitis gibt, die typischerweise eine polymikrobielle/gemischte Bakterieninfektion ist, die nicht mit der *C. difficile*-Toxin-Pathologie verbunden ist. Dieses Muster wiederholt sich bei allen zehn top-bewerteten Kandidaten in diesem Evidenzpaket (Eileiterschwangerschaft, tubale/uterine Pathologie, Spinalkanalstenose, vaskuläre und lymphatische Erkrankungen) – keine davon weisen eine angegebene biologische Rationale auf, und alle sind intern als Embedding-Ähnlichkeits-Ausgaben ohne mechanistische Unterstützung gekennzeichnet.
 
-Given this, the prediction should be treated as a pure model-similarity signal (L5) rather than a mechanistically grounded repurposing hypothesis.
+Angesichts dessen sollte die Vorhersage als reines Modell-Ähnlichkeitssignal (L5) und nicht als mechanistisch begründete Umnutzungshypothese behandelt werden.
 
-## Clinical Trial Evidence
+## Belege aus klinischen Studien
 
-Currently no related clinical trials registered
+Derzeit sind keine relevanten klinischen Studien registriert
 
-## Literature Evidence
+## Belege aus der Fachliteratur
 
-Currently no related literature available
+Derzeit ist keine relevante Fachliteratur verfügbar
 
-## Taiwan Market Information
+## Taiwan-Marktinformation
 
-Bezlotoxumab is not currently marketed in Taiwan; no product authorizations are on record.
+Bezlotoxumab ist derzeit nicht in Taiwan auf dem Markt; es liegen keine Produktzulassungen vor.
 
-## Safety Considerations
+## Sicherheitsüberlegungen
 
-Please refer to the package insert for safety information.
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
 
-## Conclusion and Next Steps
+## Schlussfolgerung und nächste Schritte
 
-**Decision: Hold**
+**Entscheidung: Halten**
 
-**Rationale:**
-The top-ranked prediction (and all nine runners-up) has no clinical trial or literature support (L5, model prediction only), and the pack's own mechanistic rationale explicitly states no known biological link exists between bezlotoxumab's target and acute female pelvic peritonitis.
+**Begründung:**
+Die höchstbewertete Vorhersage (und die neun nächstbesten Kandidaten) hat keine Unterstützung durch klinische Studien oder Fachliteratur (L5, nur Modellvorhersage), und die eigene mechanistische Begründung des Pakets besagt explizit, dass keine bekannte biologische Verbindung zwischen dem Ziel von Bezlotoxumab und der akuten weiblichen Beckenperitonitis besteht.
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings/contraindications) — currently a **blocking** gap that prevents entry into S1 safety pre-screening
-- Detailed mechanism of action (MOA) data from DrugBank to properly evaluate mechanistic plausibility
-- Independent literature or preclinical evidence specifically linking anti-toxin-B antibody activity to gynecological/pelvic infection pathology before this candidate can advance past S0
+**Um fortzufahren, ist Folgendes erforderlich:**
+- TFDA-Packungsbeilage (Warnhinweise/Kontraindikationen) – derzeit eine **blockierende** Lücke, die den Eintritt in das S1-Sicherheits-Vor-Screening verhindert
+- Detaillierte Wirkmechanismus-Daten (MOA) von DrugBank zur ordnungsgemäßen Bewertung der mechanistischen Plausibilität
+- Unabhängige Fachliteratur oder präklinische Evidenz, welche die Aktivität von Anti-Toxin-B-Antikörpern spezifisch mit der Pathologie gynäkologischer/Beckeninfektionen verbindet, bevor dieser Kandidat die S0-Phase überschreiten kann
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

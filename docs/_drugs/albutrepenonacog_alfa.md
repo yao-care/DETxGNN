@@ -29,85 +29,82 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-Using the report data directly from the Evidence Pack (no code changes needed — this is a document-generation task). Below is the report following the specified template and section order.
+# Albutrepenonacog Alfa: Von Hämophilie B (Faktor-IX-Ersatztherapie) zu Pseudo-von-Willebrand-Syndrom
+
+## Zusammenfassung in einem Satz
+
+> Albutrepenonacog alfa (rIX-FP, DrugBank DB13884) ist ein rekombinantes Gerinnungs-Faktor-IX-Fc-Fusionsersatzprodukt, das zur Behandlung von Hämophilie B verwendet wird.
+> Das TxGNN-Modell prognostiziert, dass es möglicherweise wirksam für das **Pseudo-von-Willebrand-Syndrom** ist, mit einem sehr hohen Prognosewert (**99.94%**),
+> aber diese Richtung wird derzeit durch **0 klinische Studien** und **0 Veröffentlichungen** gestützt – es handelt sich um eine reine Modellvorhersage ohne praktische Belege.
 
 ---
 
-# Albutrepenonacog Alfa: From Hemophilia B (Factor IX Replacement) to Pseudo-von Willebrand Disease
+## Kurzübersicht
 
-## One-Sentence Summary
-
-> Albutrepenonacog alfa (rIX-FP, DrugBank DB13884) is a recombinant coagulation Factor IX Fc-fusion replacement product used in the management of Hemophilia B.
-> The TxGNN model predicts it may be effective for **Pseudo-von Willebrand Disease**, with a very high prediction score (**99.94%**),
-> but this direction is currently supported by **0 clinical trials** and **0 publications** — it is a pure model prediction with no real-world evidence.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Hemophilia B (Factor IX replacement therapy) — inferred from drug class; German license data is not available (0 authorizations on record) |
-| Predicted New Indication | Pseudo-von Willebrand Disease |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L5 (model prediction only, no clinical trials or literature) |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Element | Inhalt |
+|---------|---------|
+| Ursprüngliche Indikation | Hämophilie B (Faktor-IX-Ersatztherapie) – aus Arzneistoffklasse abgeleitet; deutsche Zulassungsdaten sind nicht verfügbar (0 Zulassungen dokumentiert) |
+| Vorhergesagte neue Indikation | Pseudo-von-Willebrand-Syndrom |
+| TxGNN-Prognosewert | 99.94% |
+| Evidenzebene | L5 (reine Modellvorhersage, keine klinischen Studien oder Literatur) |
+| Marktstatus Deutschland | ✗ Nicht am Markt |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Aufschub |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage begründet?
 
-Currently, detailed mechanism of action data is not available (Data Gap). Based on known information, albutrepenonacog alfa is a recombinant coagulation Factor IX Fc-fusion protein (rIX-FP) — an extended half-life factor replacement product whose efficacy in Hemophilia B (Factor IX deficiency) is well established. Mechanistically, it would be expected to apply to bleeding disorders that share Factor IX's role in the coagulation cascade.
+Gegenwärtig sind detaillierte Daten zum Wirkmechanismus nicht verfügbar (Datenlücke). Nach verfügbaren Informationen ist Albutrepenonacog alfa ein rekombinantes Gerinnungs-Faktor-IX-Fc-Fusionsprotein (rIX-FP) – ein Faktor-Ersatzprodukt mit verlängerter Halbwertszeit, dessen Wirksamkeit bei Hämophilie B (Faktor-IX-Mangel) gut etabliert ist. Mechanistisch wäre zu erwarten, dass es auf Blutgerinnungsstörungen anwendbar ist, die die Rolle von Faktor IX in der Gerinnungskaskade teilen.
 
-The original indication (Factor IX deficiency) and the predicted new indication (pseudo-von Willebrand disease) both fall under the broad category of "inherited bleeding disorders," which likely explains why the TxGNN knowledge graph assigns a high similarity score — the model may be picking up on shared phenotypic features (bleeding tendency, disease co-occurrence patterns) rather than a genuine shared pharmacological pathway.
+Die ursprüngliche Indikation (Faktor-IX-Mangel) und die vorhergesagte neue Indikation (Pseudo-von-Willebrand-Syndrom) fallen beide unter die breite Kategorie der „vererbten Blutgerinnungsstörungen", was wahrscheinlich erklärt, warum der TxGNN-Knowledge-Graph einen hohen Ähnlichkeitswert zuweist – das Modell könnte gemeinsame phänotypische Merkmale (Blutungsneigung, Muster des gemeinsamen Auftretens von Krankheiten) erfassen, anstatt eines echten gemeinsamen pharmakologischen Wirkmechanismus.
 
-Importantly, the evidence pack's own mechanistic analysis raises significant doubt about this specific prediction. Pseudo-von Willebrand disease is caused by a gain-of-function defect in the platelet GPIb receptor (increased affinity for von Willebrand factor) — a **primary hemostasis / platelet adhesion** disorder. This is mechanistically distinct from Factor IX replacement, which acts on the **secondary hemostasis / thrombin generation cascade**. No direct causal pharmacological link has been established, and the same caveat applies to the other five top-ranked predictions in this pack (primary platelet release disorder, Glanzmann thrombasthenia, Scott syndrome, collagen receptor-defect bleeding disorder, and constitutional thrombocytopenia) — all are platelet-function or platelet-count disorders mechanistically distinct from Factor IX replacement, and none have any supporting clinical or literature evidence. This pattern is consistent with **phenotypic confusion** (the model clustering diverse "bleeding disorders" together) rather than true mechanistic overlap.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Wichtig ist, dass die eigene mechanistische Analyse des Evidenzpakets erhebliche Zweifel an dieser spezifischen Vorhersage aufwirft. Das Pseudo-von-Willebrand-Syndrom wird durch einen Funktionsgewinnndefekt des Thrombozyten-GPIb-Rezeptors verursacht (erhöhte Affinität für den von-Willebrand-Faktor) – eine **primäre Hämostase-/Thrombozyten-Adhäsions**-Störung. Dies ist mechanistisch unterschiedlich von der Faktor-IX-Ersatztherapie, die auf die **sekundäre Hämostase/Thrombinbildungskaskade** einwirkt. Es wurde keine direkte kausale pharmakologische Verbindung hergestellt, und die gleiche Warnung gilt für die anderen fünf nächstbesten Vorhersagen in diesem Paket (Primäre Thrombozytensekretionstörung, Glanzmann-Thrombasthenie, Scott-Syndrom, Blutungsstörung bei Kollagenrezeptordefekt und konstitutionelle Thrombozytopenie) – alle sind Thrombozyten-Funktions- oder Thrombozytenzahl-Störungen, die mechanistisch von der Faktor-IX-Ersatztherapie unterscheidbar sind, und keine haben unterstützende klinische oder literarische Belege. Dieses Muster ist konsistent mit **phänotypischer Verwirrung** (das Modell clustert vielfältige „Blutgerinnungsstörungen" zusammen) statt echter mechanistischer Überlappung.
 
 ---
 
-## Literature Evidence
+## Belege aus klinischen Studien
 
-Currently no related literature available.
-
----
-
-## Germany Market Information
-
-No German marketing authorization was found for albutrepenonacog alfa. The product is currently classified as **Not Marketed** in Germany, with 0 registered authorizations.
+Gegenwärtig sind keine verwandten klinischen Studien registriert.
 
 ---
 
-## Safety Considerations
+## Literaturbelege
 
-Please refer to the package insert for safety information.
-
-*(Key warnings, contraindications, and drug-drug interaction data are all currently unavailable — TFDA package insert data is flagged as a Blocking data gap (DG001) that prevents the S1 safety pre-screening stage.)*
+Derzeit liegt keine einschlägige Literatur vor.
 
 ---
 
-## Conclusion and Next Steps
+## Marktsituation in Deutschland
 
-**Decision: Hold**
+Für Albutrepenonacog alfa wurde keine deutsche Marktzulassung gefunden. Das Produkt ist derzeit als **Nicht am Markt** in Deutschland klassifiziert, mit 0 registrierten Zulassungen.
 
-**Rationale:**
-- The TxGNN prediction score is very high (99.94%), but is backed by zero clinical trials and zero literature — evidence level is L5, the lowest tier.
-- The mechanistic rationale itself flags this prediction (and all 5 runner-up predictions) as likely driven by phenotypic similarity among "bleeding disorders" rather than a real shared pharmacological pathway between Factor IX replacement and platelet-function/platelet-count disorders.
-- Two data gaps currently block a rigorous evaluation: TFDA package insert / warnings data (DG001, Blocking) and mechanism of action data (DG002, High).
+---
 
-**To proceed, the following is needed:**
-- TFDA/EMA package insert and safety data (resolve DG001 — required before any S1 safety pre-screening)
-- Confirmed mechanism of action for albutrepenonacog alfa (resolve DG002)
-- Preclinical or mechanistic studies establishing a plausible causal link between Factor IX replacement and platelet-function disorders (pseudo-von Willebrand disease, Glanzmann thrombasthenia, Scott syndrome, etc.)
-- Any real-world or case-report evidence of off-label use in platelet disorders
-- Clarification of German/EU regulatory status, since the product currently shows 0 marketing authorizations
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Gebrauchsinformation für Sicherheitsinformationen.
+
+*(Wichtige Warnhinweise, Gegenanzeigen und Daten zu Arzneimittelwechselwirkungen sind derzeit nicht verfügbar – Daten zur TFDA-Gebrauchsinformation sind als blockierende Datenlücke (DG001) gekennzeichnet, die die S1-Sicherheitsvorbewertungsphase verhindert.)*
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Aufschub**
+
+**Begründung:**
+- Der TxGNN-Prognosewert ist sehr hoch (99.94%), wird aber durch null klinische Studien und null Literatur unterstützt – die Evidenzebene ist L5, die niedrigste Stufe.
+- Die mechanistische Begründung selbst kennzeichnet diese Vorhersage (und alle 5 nächstbesten Vorhersagen) als wahrscheinlich angetrieben durch phänotypische Ähnlichkeit zwischen „Blutgerinnungsstörungen" statt einem echten gemeinsamen pharmakologischen Wirkmechanismus zwischen Faktor-IX-Ersatztherapie und Thrombozyten-Funktions-/Thrombozytenzahl-Störungen.
+- Zwei Datenlücken blockieren derzeit eine rigorose Bewertung: TFDA/EMA-Gebrauchsinformation-/Warnhinweise-Daten (DG001, blockierend) und Wirkmechanismus-Daten (DG002, hohe Priorität).
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+- TFDA/EMA-Gebrauchsinformation und Sicherheitsdaten (DG001 beheben – erforderlich vor jeder S1-Sicherheitsvorbewertung)
+- Bestätigter Wirkmechanismus für Albutrepenonacog alfa (DG002 beheben)
+- Präklinische oder mechanistische Studien zur Etablierung einer plausiblen kausalen Verbindung zwischen Faktor-IX-Ersatztherapie und Thrombozyten-Funktionsstörungen (Pseudo-von-Willebrand-Syndrom, Glanzmann-Thrombasthenie, Scott-Syndrom usw.)
+- Belege aus der klinischen Praxis oder Fallberichte über Off-Label-Einsatz bei Thrombozytenstörungen
+- Klärung des deutschen/EU-Zulassungsstatus, da das Produkt derzeit 0 Marktzulassungen aufweist
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

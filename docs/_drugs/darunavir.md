@@ -29,84 +29,85 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-# Darunavir: From HIV-1 Infection to Simian Immunodeficiency Virus Infection
+# Darunavir: Von HIV-1-Infektion zu Simian-Immunodeficiency-Virus-Infektion
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Darunavir is a second-generation HIV-1 protease inhibitor. The TxGNN model predicts it may be effective for **Simian Immunodeficiency Virus (SIV) Infection**, an animal-model indication supported by **0 clinical trials** and **4 publications** (all non-human primate studies). This is a research-tool application, not a human therapeutic indication, and no marketing authorization exists in Germany.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available (no licensed indication text in dataset; darunavir is a known HIV-1 protease inhibitor for HIV-1 infection) |
-| Predicted New Indication | Simian Immunodeficiency Virus Infection |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L3 |
-| Germany Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Darunavir ist ein Proteasehemmer der zweiten Generation gegen HIV-1. Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam gegen **Simian-Immunodeficiency-Virus-Infektion (SIV-Infektion)** ist, eine Tiermodell-Indikation, die durch **0 klinische Studien** und **4 Publikationen** (alle Studien an nichtmenschlichen Primaten) gestützt wird. Dies ist eine Anwendung als Forschungswerkzeug, keine menschliche therapeutische Indikation, und es existiert keine Vermarktungsgenehmigung in Deutschland.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Detailed mechanism of action data is not available in this evidence pack (flagged as a Blocking/High-severity data gap). Based on known pharmacology, darunavir is a second-generation HIV-1 protease inhibitor that blocks viral polyprotein cleavage, preventing maturation of infectious virions.
-
-SIV and HIV-1 are both lentiviruses with highly homologous protease structures. This structural similarity provides a plausible mechanistic rationale for darunavir's use in SIV-infected non-human primate (NHP) models — not as a novel human therapeutic, but as a component of combination antiretroviral therapy (cART) regimens used in HIV/AIDS cure research (viral reservoir studies, eradication strategies). This is consistent with darunavir's known pharmacology and explains why the model assigns it a high prediction score for this "indication."
-
-It should be noted that three other TxGNN-predicted indications in this evidence pack were assessed as **not reasonable** and are held at S0/L4-L5 with a "Hold" recommendation:
-- **Feline AIDS (FIV)**: likely a knowledge-graph entity confusion (FIV ≠ HIV); the only linked trial is actually a human HIV study, unrelated to cats.
-- **Neurodevelopmental disorder (white matter/ataxic gait)**: no mechanistic link, no evidence — pure model artifact.
-- **Familial combined hyperlipidemia**: mechanistically backwards — protease inhibitors are known to *cause* dyslipidemia, not treat it; the disease label itself is also obsolete.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for Simian Immunodeficiency Virus Infection.
-
-*(Note: one Phase 4 trial, [NCT02770508](https://clinicaltrials.gov/study/NCT02770508), was linked to the "feline AIDS" prediction but was assessed as irrelevant — it studies human HIV-1 patients, not cats, and is excluded from this indication's evidence base.)*
+| Punkt | Inhalt |
+|-------|--------|
+| Ursprüngliche Indikation | Nicht verfügbar (kein lizenzierter Indikationstext im Datensatz; Darunavir ist ein bekannter HIV-1-Proteasehemmer zur HIV-1-Infektionsbehandlung) |
+| Vorhergesagte neue Indikation | Simian-Immunodeficiency-Virus-Infektion |
+| TxGNN-Vorhersage-Score | 99,97 % |
+| Evidenzstufe | L3 |
+| Status auf dem deutschen Markt | Nicht im Handel (Not Marketed) |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage plausibel?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [26150024](https://pubmed.ncbi.nlm.nih.gov/26150024/) | 2016 | Animal Study (NHP) | AIDS Research and Human Retroviruses | Evaluated coformulated injectable cART regimens (including darunavir components) in SIV-infected rhesus macaques |
-| [25033210](https://pubmed.ncbi.nlm.nih.gov/25033210/) | 2014 | Animal Study (NHP) | PLoS One | Combination cART plus SAHA (HDAC inhibitor) in SIV-infected Chinese rhesus macaques; viral reservoir research |
-| [22737073](https://pubmed.ncbi.nlm.nih.gov/22737073/) | 2012 | Animal Study (NHP) | PLoS Pathogens | Highly intensified ART regimen achieved long-term viral suppression and reservoir restriction in simian AIDS model |
-| [21505294](https://pubmed.ncbi.nlm.nih.gov/21505294/) | 2011 | Animal Study (NHP) | AIDS (London) | Auranofin combined with ART restricted viral reservoir in monkey AIDS model |
+Detaillierte Daten zum Wirkmechanismus sind in diesem Evidenzpaket nicht verfügbar (gekennzeichnet als blockierender/hochgradiger Datenmangel). Basierend auf der bekannten Pharmakologie ist Darunavir ein Proteasehemmer der zweiten Generation gegen HIV-1, der die virale Polyproteinspaltung blockiert und so die Reifung infektiöser Viruspartikel verhindert.
 
----
+SIV und HIV-1 sind beide Lentiviren mit hochgradig homologen Proteasestrukturen. Diese strukturelle Ähnlichkeit bietet eine plausible mechanistische Begründung für die Verwendung von Darunavir in SIV-infizierten Modellen mit nichtmenschlichen Primaten (NHP) — nicht als neuartiger menschlicher Therapeutikum, sondern als Komponente von kombinierter antiretroviraler Therapie (cART)-Regimen, die in HIV/AIDS-Heilungsforschung (Virenreservoir-Studien, Eradikationsstrategien) verwendet werden. Dies stimmt mit der bekannten Pharmakologie von Darunavir überein und erklärt, warum das Modell dieser „Indikation" einen hohen Vorhersage-Score zuweist.
 
-## Germany Market Information
-
-Not marketed in Germany — no authorization records available (0 licenses on file).
+Es sollte beachtet werden, dass drei weitere vom TxGNN vorhergesagte Indikationen in diesem Evidenzpaket als **nicht plausibel** bewertet wurden und auf S0/L4-L5 mit einer „Hold"-Empfehlung gehalten werden:
+- **Feline AIDS (FIV)**: wahrscheinlich eine Verwechslung von Wissensgraph-Entitäten (FIV ≠ HIV); die einzige verknüpfte Studie ist eigentlich eine menschliche HIV-Studie, nicht im Zusammenhang mit Katzen.
+- **Neurodevelopmental disorder (weiße Substanz/ataktischer Gang)**: kein mechanistischer Zusammenhang, keine Evidenz — reines Modellartefakt.
+- **Familiale gemischte Hyperlipidämie**: mechanistisch verkehrt — Proteasehemmer sind bekanntermaßen *verursacher* von Dyslipidämie, nicht deren Behandlung; die Krankheitsbezeichnung selbst ist auch veraltet.
 
 ---
 
-## Safety Considerations
+## Evidenz aus klinischen Studien
 
-Please refer to the package insert for safety information.
+Derzeit keine registrierten klinischen Studien im Zusammenhang mit Simian-Immunodeficiency-Virus-Infektion.
+
+*(Anmerkung: eine Phase-4-Studie, [NCT02770508](https://clinicaltrials.gov/study/NCT02770508), wurde mit der Vorhersage „feline AIDS" verknüpft, wurde aber als nicht relevant bewertet — sie untersucht HIV-1-Patienten, keine Katzen, und ist von dieser Indikation ausgeschlossen.)*
 
 ---
 
-## Conclusion and Next Steps
+## Literaturgestützte Evidenz
 
-**Decision: Hold**
+| PMID | Jahr | Typ | Journal | Wichtigste Ergebnisse |
+|------|------|------|--------|--------|
+| [26150024](https://pubmed.ncbi.nlm.nih.gov/26150024/) | 2016 | Tierstudie (NHP) | AIDS Research and Human Retroviruses | Bewertung von koformulierten injizierbaren cART-Regimen (einschließlich Darunavir-Komponenten) in SIV-infizierten Rhesusaffen |
+| [25033210](https://pubmed.ncbi.nlm.nih.gov/25033210/) | 2014 | Tierstudie (NHP) | PLoS One | Kombinierte cART plus SAHA (HDAC-Inhibitor) in SIV-infizierten chinesischen Rhesusaffen; Virenreservoir-Forschung |
+| [22737073](https://pubmed.ncbi.nlm.nih.gov/22737073/) | 2012 | Tierstudie (NHP) | PLoS Pathogens | Hochintensives ART-Regime erzielte langfristige Virussuppression und Reservoireinschränkung in Simian-AIDS-Modell |
+| [21505294](https://pubmed.ncbi.nlm.nih.gov/21505294/) | 2011 | Tierstudie (NHP) | AIDS (London) | Auranofin in Kombination mit ART limitierte Virenreservoir in Primaten-AIDS-Modell |
 
-**Rationale:**
-All evidence for the SIV indication comes from non-human primate research-model studies (L3, no RCTs, no human clinical trials), and this is fundamentally a laboratory/animal-model tool use rather than a human therapeutic repurposing candidate. Combined with the absence of German market authorization and unresolved Blocking-severity safety data gaps (TFDA label/warnings, MOA), the candidate does not meet the threshold to advance.
+---
 
-**To proceed, the following is needed:**
-- Resolve DG001 (Blocking): obtain official label warnings/contraindications before any S1 safety evaluation
-- Resolve DG002 (High): confirm mechanism of action via DrugBank API
-- Clarify intended use case — this is an NHP research-model application, not a human indication; confirm whether "repurposing" scope should even include animal-model/research-tool uses
-- If human application is intended, source primary human clinical evidence (none currently exists for SIV, which by definition does not infect humans)
+## Marktinformationen für Deutschland
+
+Nicht im Handel in Deutschland — keine Genehmigungsunterlagen verfügbar (0 Lizenzen in der Datei).
+
+---
+
+## Sicherheitserwägungen
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Hold**
+
+**Begründung:**
+Alle Evidenzen für die SIV-Indikation stammen aus Forschungsmodellen mit nichtmenschlichen Primaten (L3, keine RCTs, keine klinischen Studien beim Menschen), und dies ist grundlegend eine Laboranwendung/ein Tiermodellwerkzeug statt ein menschlicher therapeutischer Repurposing-Kandidat. In Kombination mit der fehlenden deutschen Vermarktungsgenehmigung und ungeklärten blockierenden Sicherheitsdatenlücken (TFDA-Etikett/Warnungen, MOA) erfüllt der Kandidat nicht die Schwelle für Weiterbearbeitung.
+
+**Um voranzukommen, ist folgendes erforderlich:**
+- Datenlücke DG001 (blockierend) beheben: offizielle Etikettwarnungen/Kontraindikationen vor jeder S1-Sicherheitsbewertung erhalten
+- Datenlücke DG002 (High) beheben: Wirkmechanismus über DrugBank-API bestätigen
+- Beabsichtigte Verwendung klären — dies ist eine NHP-Forschungsmodellentwicklung, keine menschliche Indikation; klären, ob der Repurposing-Umfang auch Tiermodell-/Forschungswerkzeugnutzungen einschließen sollte
+- Falls menschliche Anwendung beabsichtigt ist: primäre klinische Humanstudien ermitteln (es existieren derzeit keine für SIV, das per Definition Menschen nicht infiziert)
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

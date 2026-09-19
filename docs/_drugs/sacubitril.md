@@ -29,105 +29,106 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-# Sacubitril: From Heart Failure to Diabetic Nephropathy
+# Sacubitril: Von Herzinsuffizienz zu Diabetischer Nephropathie
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Sacubitril is a neprilysin inhibitor that is only used clinically in fixed combination with valsartan (sacubitril/valsartan, LCZ696/Entresto) for heart failure with reduced ejection fraction (HFrEF). The TxGNN model predicts the combination may also benefit **Diabetic Nephropathy**, supported by **2 clinical trials** (including one dedicated Phase 4 RCT) and **20 publications**, including a secondary analysis of the pivotal PARADIGM-HF trial.
+Sacubitril ist ein Neprilysin-Inhibitor, der klinisch nur in Fixkombination mit Valsartan (Sacubitril/Valsartan, LCZ696/Entresto) zur Behandlung der Herzinsuffizienz mit reduzierter Ejektionsfraktion (HFrEF) eingesetzt wird. Das TxGNN-Modell prognostiziert, dass die Kombination auch bei **Diabetischer Nephropathie** von Nutzen sein könnte, gestützt durch **2 klinische Studien** (einschließlich einer speziell konzipierten Phase-4-RCT) und **20 Publikationen**, darunter eine Sekundäranalyse der wegweisenden PARADIGM-HF-Studie.
 
-> **Note:** This evidence pack contains 5 TxGNN-predicted indications for sacubitril. Diabetic nephropathy (rank 3) is the only one with any supporting clinical or mechanistic evidence — the other four (brain small vessel disease, HANAC syndrome, rheumatoid arthritis, hemoglobinopathy) have no clinical trials, no relevant literature, and no plausible mechanistic link, and are explicitly scored **L5 / Hold**. This report therefore focuses on diabetic nephropathy as the only actionable candidate; the remaining four are summarized briefly at the end.
+> **Hinweis:** Dieses Evidenzpaket enthält 5 durch TxGNN prognostizierte Indikationen für Sacubitril. Diabetische Nephropathie (Rang 3) ist die einzige mit unterstützenden klinischen oder mechanistischen Belegen — die anderen vier (Zerebrale Kleingefäßerkrankung 1 mit Augenanomalien, HANAC-Syndrom, Rheumatoide Arthritis, Hämoglobinopathie) haben keine klinischen Studien, keine relevante Literatur und keinen plausiblen mechanistischen Zusammenhang, und sind explizit mit **L5 / Hold** bewertet. Dieser Bericht konzentriert sich daher auf Diabetische Nephropathie als einzigen umsetzbaren Kandidaten; die restlichen vier sind am Ende kurz zusammengefasst.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Element | Inhalt |
 |------|------|
-| Original Indication | Heart failure with reduced ejection fraction (HFrEF), as part of the sacubitril/valsartan combination — *inferred from trial/literature context; not present as structured data in this evidence pack* |
-| Predicted New Indication | Diabetic Nephropathy |
-| TxGNN Prediction Score | 99.50% |
-| Evidence Level | L3 |
-| Taiwan Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold (flagged internally as "Research Question") |
+| Ursprüngliche Indikation | Herzinsuffizienz mit reduzierter Ejektionsfraktion (HFrEF), als Teil der Sacubitril/Valsartan-Kombination — *abgeleitet aus Studien-/Literaturkontext; nicht als strukturierte Daten in diesem Evidenzpaket vorhanden* |
+| Prognostizierte neue Indikation | Diabetische Nephropathie |
+| TxGNN-Vorhersagepunktzahl | 99.50% |
+| Evidenzstufe | L3 |
+| Marktstatus Taiwan | Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Hold (intern als "Forschungsfrage" gekennzeichnet) |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage begründet?
 
-Currently, detailed mechanism of action data is not available in structured form (`original_moa: [Data Gap]`). Based on the trial and literature context in this pack, sacubitril is a prodrug that inhibits neprilysin, raising circulating levels of natriuretic peptides (ANP, BNP), and is co-administered with valsartan (an ARB) to simultaneously block the renin-angiotensin-aldosterone system (RAAS) — the combination is marketed as LCZ696/Entresto for HFrEF.
+Derzeit sind detaillierte Wirkmechanismus-Daten nicht in strukturierter Form verfügbar (`original_moa: [Data Gap]`). Basierend auf dem Studien- und Literaturkontext in diesem Paket ist Sacubitril ein Prodrug, das Neprilysin hemmt, die zirkulierenden Spiegel natriuretischer Peptide (ANP, BNP) erhöht, und gemeinsam mit Valsartan (ein ARB) verabreicht wird, um gleichzeitig das Renin-Angiotensin-Aldosteron-System (RAAS) zu blockieren — die Kombination wird als LCZ696/Entresto für HFrEF vermarktet.
 
-Heart failure and diabetic nephropathy share substantial pathophysiological overlap: both involve RAAS activation, glomerular/systemic hemodynamic stress, and chronic low-grade inflammation, and the two patient populations frequently overlap clinically (diabetic patients with HFrEF are a common comorbid group). Multiple preclinical studies (rat and mouse models of diabetic kidney disease) show sacubitril/valsartan reduces glomerular hypertension, oxidative stress, and NF-κB/NLRP3-mediated inflammation, and a secondary analysis of the PARADIGM-HF trial (PMID 29661699) found neprilysin inhibition was associated with slower renal function decline in patients with type 2 diabetes already on maximal RAAS blockade — providing translational, human-level support for the mechanistic hypothesis.
+Herzinsuffizienz und Diabetische Nephropathie weisen erhebliche pathophysiologische Überschneidungen auf: beide beinhalten RAAS-Aktivierung, glomeruläre/systemische hämodynamische Belastung und chronische Low-Grade-Entzündung, und die beiden Patientenpopulationen überlappen sich klinisch häufig (Patienten mit Diabetes und HFrEF sind eine häufige Komorbiditätsgruppe). Mehrere präklinische Studien (Ratten- und Mausmodelle der Diabetischen Nierenkrankheit) zeigen, dass Sacubitril/Valsartan die glomeruläre Hypertonie, oxidativen Stress und NF-κB/NLRP3-vermittelte Entzündung reduziert, und eine Sekundäranalyse der PARADIGM-HF-Studie (PMID 29661699) ergab, dass die Neprilysin-Hemmung mit einem langsameren Rückgang der Nierenfunktion bei Patienten mit Typ-2-Diabetes bereits unter maximaler RAAS-Blockade verbunden war — was auf menschlicher Ebene gestützte translational relevante Unterstützung für die mechanistische Hypothese darstellt.
 
-Importantly, sacubitril has never been studied or approved as a monotherapy for kidney disease — all supporting evidence relates to the fixed-dose combination with valsartan, not sacubitril alone.
+Wichtigerweise wurde Sacubitril nie als Monotherapie zur Behandlung der Nierenkrankheit untersucht oder zugelassen — alle unterstützenden Belege beziehen sich auf die Fixkombination mit Valsartan, nicht auf Sacubitril als Monotherapie.
 
 ---
 
-## Clinical Trial Evidence
+## Klinische Studienevidenz
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Studiennummer | Phase | Status | Einschluss | Wichtigste Befunde |
 |---------|------|------|------|---------|
-| [NCT06501651](https://clinicaltrials.gov/study/NCT06501651) | Phase 4 | Not yet recruiting | 297 | Randomized, controlled, multicenter "Hyper-Save" study comparing sacubitril/valsartan vs. valsartan alone in patients with mild-to-moderate essential hypertension and type 2 diabetic nephropathy over 12 weeks; primary purpose-designed for this indication, but no results yet. |
-| [NCT04735354](https://clinicaltrials.gov/study/NCT04735354) | N/A | Completed | 268 | Real-world retrospective EMR study of sacubitril/valsartan prescribing in HFrEF patients in India; not designed for diabetic nephropathy specifically, but the HFrEF population likely includes diabetic nephropathy comorbidity — indirect evidence only. |
+| [NCT06501651](https://clinicaltrials.gov/study/NCT06501651) | Phase 4 | Noch nicht rekrutierend | 297 | Randomisierte, kontrollierte, multizentrische Studie "Hyper-Save", die Sacubitril/Valsartan vs. Valsartan allein bei Patienten mit milder bis moderater essentieller Hypertonie und Typ-2-Diabetes-Nephropathie über 12 Wochen vergleicht; gezielt für diese Indikation konzipiert, aber noch keine Ergebnisse verfügbar. |
+| [NCT04735354](https://clinicaltrials.gov/study/NCT04735354) | N/A | Abgeschlossen | 268 | Real-World-Retrospektiv-EMR-Studie der Sacubitril/Valsartan-Verordnung bei HFrEF-Patienten in Indien; nicht speziell für Diabetische Nephropathie konzipiert, aber die HFrEF-Kohorte dürfte vermutlich Fälle mit Diabetischer Nephropathie als Nebenerkrankung enthalten — nur indirekte Evidenz. |
 
 ---
 
-## Literature Evidence
+## Literaturevidenz
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Journal | Wichtigste Befunde |
 |------|-----|------|------|---------|
-| [29661699](https://pubmed.ncbi.nlm.nih.gov/29661699/) | 2018 | RCT (secondary analysis) | Lancet Diabetes Endocrinol | Secondary analysis of PARADIGM-HF: neprilysin inhibition slowed renal function decline in type 2 diabetic HF patients already on maximal RAAS blockade. |
-| [37549515](https://pubmed.ncbi.nlm.nih.gov/37549515/) | 2023 | Clinical study | Int Immunopharmacol | 112 diabetic nephropathy + hypertension patients; nifedipine + sacubitril/valsartan improved renal function vs. nifedipine + valsartan alone. |
-| [40416927](https://pubmed.ncbi.nlm.nih.gov/40416927/) | 2025 | Clinical study | Diabetes Metab Syndr Obes | BOLD-MRI study evaluating renal protective effects of sacubitril/valsartan in type 2 diabetics. |
-| [37625003](https://pubmed.ncbi.nlm.nih.gov/37625003/) | 2023 | Review | Diabetes Care | Update on pharmacological pillars slowing diabetic kidney disease progression, including RAAS/neprilysin pathways. |
-| [34431635](https://pubmed.ncbi.nlm.nih.gov/34431635/) | 2021 | Review | Revue Médicale Suisse | Discusses potential role of sacubitril/valsartan in type 2 diabetes, including glycemic and renal effects. |
-| [30909895](https://pubmed.ncbi.nlm.nih.gov/30909895/) | 2019 | Preclinical (Zucker Obese rat) | Cardiovasc Diabetol | Sacubitril + valsartan combination reduced glomerular and tubular injury more effectively than valsartan alone. |
-| [35992034](https://pubmed.ncbi.nlm.nih.gov/35992034/) | 2022 | Preclinical (rat) | Diabetes Metab Syndr Obes | Sacubitril/valsartan improved early diabetic nephropathy via inhibition of the NLRP3 inflammasome pathway. |
-| [32596035](https://pubmed.ncbi.nlm.nih.gov/32596035/) | 2020 | Preclinical (rat) | PeerJ | LCZ696 mitigated diabetic nephropathy via reduced oxidative stress, NF-κB inflammation, and glomerulosclerosis. |
-| [33870733](https://pubmed.ncbi.nlm.nih.gov/33870733/) | 2021 | Preclinical (db/db & KKAy mice) | Am J Physiol Renal Physiol | Sacubitril/valsartan showed differential renoprotective effects vs. valsartan alone in two diabetic mouse models. |
-| [27129187](https://pubmed.ncbi.nlm.nih.gov/27129187/) | 2016 | Preclinical (diabetic rat) | Clin Sci (Lond) | AT1 receptor-neprilysin inhibition produced blood-pressure-independent renoprotection vs. ARB alone. |
+| [29661699](https://pubmed.ncbi.nlm.nih.gov/29661699/) | 2018 | RCT (Sekundäranalyse) | Lancet Diabetes Endocrinol | Sekundäranalyse von PARADIGM-HF: Neprilysin-Hemmung verlangsamte den Rückgang der Nierenfunktion bei Patienten mit Typ-2-Diabetes und HF bereits unter maximaler RAAS-Blockade. |
+| [37549515](https://pubmed.ncbi.nlm.nih.gov/37549515/) | 2023 | Klinische Studie | Int Immunopharmacol | 112 Patienten mit Diabetischer Nephropathie und Hypertonie; Nifedipin + Sacubitril/Valsartan verbesserte die Nierenfunktion vs. Nifedipin + Valsartan allein. |
+| [40416927](https://pubmed.ncbi.nlm.nih.gov/40416927/) | 2025 | Klinische Studie | Diabetes Metab Syndr Obes | BOLD-MRI-Studie zur Bewertung der renalen Schutzeffekte von Sacubitril/Valsartan bei Typ-2-Diabetikern. |
+| [37625003](https://pubmed.ncbi.nlm.nih.gov/37625003/) | 2023 | Übersichtsarbeit | Diabetes Care | Aktualisierung der pharmakologischen Grundpfeiler zur Verlangsamung der Progression der Diabetischen Nierenkrankheit, einschließlich RAAS- und Neprilysin-Signalwege. |
+| [34431635](https://pubmed.ncbi.nlm.nih.gov/34431635/) | 2021 | Übersichtsarbeit | Revue Médicale Suisse | Erörtert die potenzielle Rolle von Sacubitril/Valsartan bei Typ-2-Diabetes, einschließlich glykämischer und renaler Effekte. |
+| [30909895](https://pubmed.ncbi.nlm.nih.gov/30909895/) | 2019 | Präklinisch (Zucker-Adipositas-Ratte) | Cardiovasc Diabetol | Sacubitril- + Valsartan-Kombination reduzierte glomeruläre und tubuläre Schädigungen wirksamer als Valsartan allein. |
+| [35992034](https://pubmed.ncbi.nlm.nih.gov/35992034/) | 2022 | Präklinisch (Ratte) | Diabetes Metab Syndr Obes | Sacubitril/Valsartan verbesserte die frühe Diabetische Nephropathie durch Hemmung des NLRP3-Inflammasom-Signalwegs. |
+| [32596035](https://pubmed.ncbi.nlm.nih.gov/32596035/) | 2020 | Präklinisch (Ratte) | PeerJ | LCZ696 linderte Diabetische Nephropathie durch reduzierten oxidativen Stress, NF-κB-vermittelte Entzündung und Glomerulosklerose. |
+| [33870733](https://pubmed.ncbi.nlm.nih.gov/33870733/) | 2021 | Präklinisch (db/db- und KKAy-Mäuse) | Am J Physiol Renal Physiol | Sacubitril/Valsartan zeigte differentielle renale Schutzeffekte vs. Valsartan allein in zwei Diabetischen Mausmodellen. |
+| [27129187](https://pubmed.ncbi.nlm.nih.gov/27129187/) | 2016 | Präklinisch (Diabetische Ratte) | Clin Sci (Lond) | AT1-Rezeptor-Neprilysin-Hemmung führte zu blutdruck-unabhängigem Nierenschutz vs. ARB allein. |
 
 ---
 
-## Germany / Taiwan Market Information
+## Marktinformationen Deutschland/Taiwan
 
-Sacubitril is **not currently marketed** in this jurisdiction (`market_status: Not marketed`), and no drug licenses are on file (0 authorizations). No product/authorization table is available.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. No structured key warnings, contraindications, or drug-drug interaction data are currently available for sacubitril in this evidence pack (all fields returned `[Data Gap]` or `not_found`).
+Sacubitril ist **derzeit nicht auf dem Markt** in dieser Jurisdiction (`market_status: Not marketed`), und es liegen keine Arzneimittelzulassungen vor (0 Zulassungen). Es ist keine Produkt-/Zulassungstabelle verfügbar.
 
 ---
 
-## Other TxGNN Predictions (Screened, Not Pursued)
+## Sicherheitsaspekte
 
-The remaining 4 predictions in this evidence pack (all rank 5000+, score ~99–99.6%) have **no clinical trials, no relevant literature, and no plausible mechanistic link** to sacubitril's pharmacology. All are scored **L5 / Hold**:
+Weitere Sicherheitsinformationen finden Sie in der Packungsbeilage. Derzeit sind keine strukturierten Informationen zu Warnhinweisen, Kontraindikationen oder Arzneimittelwechselwirkungen für Sacubitril in diesem Evidenzpaket verfügbar (alle Felder zeigen `[Data Gap]` oder `not_found`).
 
-| Rank | Predicted Indication | Score | Reason for Hold |
+---
+
+## Weitere TxGNN-Vorhersagen (Geprüft, nicht verfolgt)
+
+Die verbleibenden 4 Vorhersagen in diesem Evidenzpaket (alle Rang 5000+, Punktzahl ~99–99.6%) haben **keine klinischen Studien, keine relevante Literatur und keinen plausiblen mechanistischen Zusammenhang** zur Pharmakologie von Sacubitril. Alle sind mit **L5 / Hold** bewertet:
+
+| Rang | Prognostizierte Indikation | Punktzahl | Grund für Hold |
 |------|----------------------|-------|------------------|
-| 1 | Brain small vessel disease 1 with ocular anomalies | 99.58% | COL4A1-related genetic disorder; no known link to neprilysin/natriuretic peptide pathway |
-| 2 | HANAC syndrome (familial hematuria-retinal arteriolar tortuosity) | 99.57% | COL4A1 mutation disorder; no supporting trials or literature |
-| 4 | Rheumatoid arthritis | 99.35% | No supporting trials or literature despite theoretical anti-inflammatory rationale |
-| 5 | Hemoglobinopathy | 99.18% | No supporting trials, literature, or mechanistic rationale |
+| 1 | Zerebrale Kleingefäßerkrankung 1 mit Augenanomalien | 99.58% | COL4A1-assoziierte genetische Störung; keine bekannte Verbindung zum Neprilysin-/natriuretischen-Peptid-Signalweg |
+| 2 | HANAC-Syndrom (familiäre Hämaturie und retinale Arteriolen-Tortuosität) | 99.57% | COL4A1-Mutations-Störung; keine unterstützenden Studien oder Literatur |
+| 4 | Rheumatoide Arthritis | 99.35% | Keine unterstützenden Studien oder Literatur trotz theoretischer anti-inflammatorischer Begründung |
+| 5 | Hämoglobinopathie | 99.18% | Keine unterstützenden Studien, Literatur oder mechanistische Begründung |
 
-These are model artifacts of a high-recall prediction system and should not be pursued without independent mechanistic or clinical signal.
+Dies sind Artefakte eines hochsensitiven Vorhersagesystems und sollten ohne unabhängige mechanistische oder klinische Signale nicht verfolgt werden.
 
 ---
 
-## Conclusion and Next Steps
+## Schlussfolgerung und nächste Schritte
 
-**Decision: Hold**
+**Entscheidung: Hold**
 
-**Rationale:**
-Diabetic nephropathy has the strongest evidentiary support among all TxGNN predictions for sacubitril, including a purpose-built Phase 4 RCT (not yet recruiting) and a positive secondary analysis of PARADIGM-HF. However, no completed trial has yet demonstrated efficacy for this indication in humans, and sacubitril itself is not marketed in this jurisdiction — this remains a research question, not a near-term repurposing opportunity.
+**Begründung:**
+Diabetische Nephropathie hat die stärkste Evidenzunterstützung unter allen TxGNN-Vorhersagen für Sacubitril, einschließlich einer speziell konzipierten Phase-4-RCT (noch nicht rekrutierend) und einer positiven Sekundäranalyse von PARADIGM-HF. Allerdings hat keine abgeschlossene Studie bisher eine Wirksamkeit für diese Indikation beim Menschen nachgewiesen, und Sacubitril selbst ist nicht in dieser Jurisdiction vermarktet — dies bleibt eine Forschungsfrage, keine unmittelbar bevorstehende Repositionierungs-Möglichkeit.
 
-**To proceed, the following is needed:**
-- TFDA/regulatory label data (warnings, contraindications) — currently a **Blocking** data gap (DG001)
-- Formal MOA and original indication documentation from DrugBank — currently a **High** severity data gap (DG002)
-- Results from NCT06501651 (Hyper-Save study) once recruitment completes
-- Confirmation that any future indication claim applies to the sacubitril/valsartan combination, not sacubitril monotherapy
+**Zum Fortfahren ist Folgendes erforderlich:**
+- TFDA-/Behördenkennzeichnungsdaten (Warnhinweise, Kontraindikationen) — derzeit eine kritische Datenlücke (blockierend) (DG001)
+- Formale MOA- und Dokumentation der ursprünglichen Indikation aus DrugBank — derzeit eine Datenlücke mit hohem Schweregrad (DG002)
+- Ergebnisse aus NCT06501651 (Hyper-Save-Studie) nach Abschluss der Rekrutierung
+- Bestätigung, dass zukünftige Indikations-Ansprüche für die Sacubitril/Valsartan-Kombination gelten, nicht für die Sacubitril-Monotherapie
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

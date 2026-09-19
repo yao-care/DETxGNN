@@ -29,98 +29,99 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Miglustat: From Gaucher Disease to Tay-Sachs Disease (GM2 Gangliosidosis)
+# Miglustat: Von der Gaucher-Krankheit zur Tay-Sachs-Krankheit (GM2-Gangliosidose)
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Miglustat is a glucosylceramide synthase inhibitor (substrate reduction therapy) originally approved in the EU for type 1 Gaucher disease. Among the ten indications predicted by TxGNN, **Tay-Sachs disease (GM2 gangliosidosis)** is the only candidate backed by real-world data — **5 clinical trials** (including a completed randomized controlled study) and **20 publications** — even though it ranks lower on the raw TxGNN score than several mechanistically weaker, evidence-free candidates.
+Miglustat ist ein Glukosylceramid-Synthase-Inhibitor (Substratreduktionstherapie), der ursprünglich in der EU für die Gaucher-Krankheit Typ 1 zugelassen wurde. Unter den zehn von TxGNN vorhergesagten Indikationen ist die **Tay-Sachs-Krankheit (GM2-Gangliosidose)** der einzige Kandidat, der durch Daten aus der Praxis gestützt wird — **5 klinische Studien** (einschließlich einer abgeschlossenen randomisierten kontrollierten Studie) und **20 Publikationen** — obwohl er auf der rohen TxGNN-Punktzahl niedriger rangiert als mehrere mechanistisch schwächer begründete, evidenzfreie Kandidaten.
 
-> **Note on candidate selection:** TxGNN's #1-ranked prediction ("autosomal ichthyosis syndrome with fatal disease course") has zero supporting trials or literature and, per the model's own rationale note, a "weak mechanistic link." Tay-Sachs disease (rank 7 by score) is the only prediction in this pack with substantive clinical evidence, so this report focuses on it as the actionable candidate.
+> **Anmerkung zur Kandidatenauswahl:** Die #1-bewertete Vorhersage von TxGNN („autosomal rezessives Ichthyose-Syndrom mit tödlichem Krankheitsverlauf") hat keine unterstützenden Studien oder Literatur und weist laut der eigenen Begründungsnotiz des Modells einen „schwachen mechanistischen Bezug" auf. Die Tay-Sachs-Krankheit (Rang 7 nach Punktzahl) ist die einzige Vorhersage in diesem Paket mit wesentlichen klinischen Belegen, daher konzentriert sich dieser Bericht auf sie als umsetzbarer Kandidat.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Element | Inhalt |
 |------|------|
-| Original Indication | Gaucher disease type 1 (per literature evidence in this pack; official regulatory indication text unavailable — see Data Gaps) |
-| Predicted New Indication | Tay-Sachs disease (GM2 gangliosidosis) |
-| TxGNN Prediction Score | 99.75% (rank 3492 of full candidate set) |
-| Evidence Level | L2 (1 completed randomized controlled trial + supporting systematic review) |
-| Germany Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | Gaucher-Krankheit Typ 1 (gemäß Literaturbelegen in diesem Paket; amtlicher behördlicher Indikationstext nicht verfügbar — siehe Datenlücken) |
+| Vorhergesagte neue Indikation | Tay-Sachs-Krankheit (GM2-Gangliosidose) |
+| TxGNN-Vorhersagepunktzahl | 99.75% (Rang 3492 von gesamtem Kandidatensatz) |
+| Beweisstufe | L2 (1 abgeschlossene randomisierte kontrollierte Studie + unterstützende systematische Übersicht) |
+| Status auf dem deutschen Markt | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Zurückhalten |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage sinnvoll?
 
-Detailed DrugBank MOA data is marked as a data gap in this pack, but the mechanism is well documented in the literature evidence collected: miglustat is an orally administered **glucosylceramide glucosyltransferase (glucosylceramide synthase) inhibitor**, working as a **substrate reduction therapy (SRT)** for glycosphingolipid (GSL) storage disorders (PMID 12808890, 11227045, 16763917).
+Ausführliche DrugBank-Wirkmechanismus-Daten sind in diesem Paket als Datenlücke gekennzeichnet, aber der Wirkmechanismus ist in den gesammelten Literaturbelegen gut dokumentiert: Miglustat ist ein oral applizierter **Glukosylceramid-Glukosyltransferase (Glukosylceramid-Synthase)-Inhibitor**, der als **Substratreduktionstherapie (SRT)** bei Glykosphingolipid-Speicherkrankheiten (GSL) wirkt (PMID 12808890, 11227045, 16763917).
 
-Tay-Sachs disease is caused by β-hexosaminidase A deficiency, leading to lysosomal accumulation of GM2 ganglioside — a glycosphingolipid synthesized via the same upstream glucosylceramide pathway that miglustat inhibits. Because miglustat reduces the *production* of GSL substrates (including GM2 ganglioside precursors) rather than replacing the missing enzyme, the mechanistic rationale for extending it from Gaucher disease (glucosylceramide accumulation) to Tay-Sachs disease (GM2 ganglioside accumulation) is direct and biologically plausible — unlike most of the other TxGNN-predicted candidates in this pack, whose target diseases involve unrelated storage pathways (cholesterol esters, sulfatides, steroid sulfate).
+Die Tay-Sachs-Krankheit wird durch einen β-Hexosaminidase-A-Mangel verursacht, der zu einer lysosomalen Ansammlung von GM2-Gangliosid führt — einem Glykosphingolipid, das über den gleichen oberen Glukosylceramid-Weg synthetisiert wird, den Miglustat hemmt. Da Miglustat die *Produktion* von GSL-Substraten (einschließlich GM2-Gangliosid-Vorläufern) reduziert, statt das fehlende Enzym zu ersetzen, ist die mechanistische Begründung für die Erweiterung von der Gaucher-Krankheit (Glukosylceramid-Ansammlung) auf die Tay-Sachs-Krankheit (GM2-Gangliosid-Ansammlung) direkt und biologisch plausibel — im Gegensatz zu den meisten anderen TxGNN-vorhergesagten Kandidaten in diesem Paket, deren Zielkrankheiten verschiedene Speicherwege betreffen (Cholesterin-Ester, Sulfatide, Steroid-Sulfat).
 
-This mechanistic plausibility is also reflected in the trial record: miglustat has already been studied in animal models and human patients with Tay-Sachs/Sandhoff (GM2 gangliosidosis) disease since the late 1990s, culminating in an RCT and a 2023 systematic review — making this the most mature repurposing candidate in the pack, notwithstanding mixed efficacy results (see below).
+Diese mechanistische Plausibilität spiegelt sich auch in der Studienprotokolle wider: Miglustat wird bereits seit dem späten 20. Jahrhundert in Tiermodellen und Patienten mit Tay-Sachs/Sandhoff-Krankheit (GM2-Gangliosidose) untersucht, gipfelnd in einer RCT und einer systematischen Übersicht von 2023 — was dies zu dem am weitesten entwickelten Umwidmungskandidaten in diesem Paket macht, trotz gemischter Wirksamkeitsergebnisse (siehe unten).
 
 ---
 
-## Clinical Trial Evidence
+## Klinische Studienbelege
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Studiennummer | Phase | Status | Einschluss | Wichtige Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT00672022](https://clinicaltrials.gov/study/NCT00672022) | Phase 3 | Completed | 10 | PK, safety and tolerability of miglustat in infantile-onset GM2 gangliosidosis (single/steady-state oral dosing) |
-| [NCT00418847](https://clinicaltrials.gov/study/NCT00418847) | Phase 2 | Completed | 5 | PK and tolerability of miglustat in juvenile GM2 gangliosidosis, single and multiple oral doses |
-| [NCT03822013](https://clinicaltrials.gov/study/NCT03822013) | Phase 3 | Terminated | 30 | Survey of miglustat's therapeutic effect on neurological/systemic symptoms in infantile Sandhoff and Tay-Sachs disease |
-| [NCT02030015](https://clinicaltrials.gov/study/NCT02030015) | Phase 4 | Terminated | 16 | Miglustat + ketogenic diet combination therapy for infantile/juvenile gangliosidoses (Syner-G study) |
-| [NCT07399704](https://clinicaltrials.gov/study/NCT07399704) | Phase 2 | Recruiting | 21 | Long-term safety/efficacy of nizubaglustat in GM2 gangliosidosis/NPC patients, including those previously on miglustat |
+| [NCT00672022](https://clinicaltrials.gov/study/NCT00672022) | Phase 3 | Abgeschlossen | 10 | PK, Sicherheit und Verträglichkeit von Miglustat bei infantiler GM2-Gangliosidose (Einzel-/Steady-State-Oralgabe) |
+| [NCT00418847](https://clinicaltrials.gov/study/NCT00418847) | Phase 2 | Abgeschlossen | 5 | PK und Verträglichkeit von Miglustat bei juveniler GM2-Gangliosidose, Einzel- und Mehrfachdosen |
+| [NCT03822013](https://clinicaltrials.gov/study/NCT03822013) | Phase 3 | Beendet | 30 | Umfrage zur therapeutischen Wirkung von Miglustat auf neurologische/systemische Symptome bei infantiler Sandhoff- und Tay-Sachs-Krankheit |
+| [NCT02030015](https://clinicaltrials.gov/study/NCT02030015) | Phase 4 | Beendet | 16 | Miglustat + Ketogene-Diät-Kombinationstherapie für infantile/juvenile Gangliosidosen (Syner-G-Studie) |
+| [NCT07399704](https://clinicaltrials.gov/study/NCT07399704) | Phase 2 | Rekrutierend | 21 | Langzeitsicherheit/-wirksamkeit von Nizubaglustat bei GM2-Gangliosidose/NPC-Patienten, einschließlich derjenigen, die zuvor Miglustat erhielten |
 
-**Note:** Two trials (NCT03822013, NCT02030015) were terminated, and the two completed Phase 2/3 studies were PK/tolerability studies rather than efficacy-driven RCTs — this tempers the strength of the clinical trial evidence despite the number of studies.
+**Anmerkung:** Zwei Studien (NCT03822013, NCT02030015) wurden beendet, und die beiden abgeschlossenen Phase-2/3-Studien waren PK-/Verträglichkeitsstudien statt wirksamkeitsgesteuerte RCTs — dies schwächt die Stärke der klinischen Studienevidenz trotz der Anzahl der Studien.
 
 ---
 
-## Literature Evidence
+## Literaturbelege
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Journal | Wichtige Ergebnisse |
 |------|-----|------|------|---------|
-| [19346952](https://pubmed.ncbi.nlm.nih.gov/19346952/) | 2009 | RCT | Genet Med | 12-month randomized controlled study (+24-month extension) evaluating miglustat safety/efficacy in late-onset Tay-Sachs disease |
-| [37209042](https://pubmed.ncbi.nlm.nih.gov/37209042/) | 2023 | Systematic Review | Eur J Neurol | Systematic review finds prior studies on miglustat efficacy/safety in GM2 gangliosidosis are **inconsistent** |
-| [32867370](https://pubmed.ncbi.nlm.nih.gov/32867370/) | 2020 | Review | Int J Mol Sci | Overview of GM2 gangliosidosis clinical features, pathophysiology, and current therapies including SRT |
-| [30743792](https://pubmed.ncbi.nlm.nih.gov/30743792/) | 2009 | Review | Expert Rev Endocrinol Metab | Substrate reduction therapy with miglustat for glycosphingolipid storage disorders affecting the brain |
-| [12808890](https://pubmed.ncbi.nlm.nih.gov/12808890/) | 2003 | Review (Drug Profile) | Curr Opin Investig Drugs | Confirms EU approval of miglustat for Gaucher disease and its development for Tay-Sachs, Fabry, and NPC diseases |
-| [30524313](https://pubmed.ncbi.nlm.nih.gov/30524313/) | 2018 | Review | Front Physiol | Reviews new therapeutic approaches to Tay-Sachs disease, including substrate reduction therapy |
-| [11227045](https://pubmed.ncbi.nlm.nih.gov/11227045/) | 2001 | Review | Expert Opin Investig Drugs | Early review of substrate reduction therapy rationale for glycosphingolipid storage disorders |
-| [18618288](https://pubmed.ncbi.nlm.nih.gov/18618288/) | 2008 | Pilot Study | J Inherit Metab Dis | Neurocognitive testing pilot study in late-onset Tay-Sachs disease as a candidate outcome measure |
-| [16434676](https://pubmed.ncbi.nlm.nih.gov/16434676/) | 2006 | Case Report | Neurology | SRT with miglustat in 2 infantile Tay-Sachs patients: did **not** arrest neurologic deterioration, though CSF drug levels and macrocephaly prevention were observed |
-| [28476546](https://pubmed.ncbi.nlm.nih.gov/28476546/) | 2017 | Observational | Mol Genet Metab | Natural history mapping of infantile gangliosidosis; notes miglustat use limited by GI side effects |
+| [19346952](https://pubmed.ncbi.nlm.nih.gov/19346952/) | 2009 | RCT | Genet Med | 12-Monats-randomisierte kontrollierte Studie (+24-Monats-Erweiterung) zur Bewertung von Sicherheit/Wirksamkeit von Miglustat bei spätmanifestierender Tay-Sachs-Krankheit |
+| [37209042](https://pubmed.ncbi.nlm.nih.gov/37209042/) | 2023 | Systematische Übersicht | Eur J Neurol | Systematische Übersicht findet frühere Studien zur Wirksamkeit/Sicherheit von Miglustat bei GM2-Gangliosidose **inkonsistent** |
+| [32867370](https://pubmed.ncbi.nlm.nih.gov/32867370/) | 2020 | Übersichtsartikel | Int J Mol Sci | Übersicht über klinische Merkmale, Pathophysiologie und aktuelle Therapien von GM2-Gangliosidose, einschließlich SRT |
+| [30743792](https://pubmed.ncbi.nlm.nih.gov/30743792/) | 2009 | Übersichtsartikel | Expert Rev Endocrinol Metab | Substratreduktionstherapie mit Miglustat bei Glykosphingolipid-Speicherkrankheiten, die das Gehirn betreffen |
+| [12808890](https://pubmed.ncbi.nlm.nih.gov/12808890/) | 2003 | Übersichtsartikel (Medikamentenprofil) | Curr Opin Investig Drugs | Bestätigt EU-Zulassung von Miglustat für Gaucher-Krankheit und seine Entwicklung für Tay-Sachs-, Fabry- und NPC-Krankheiten |
+| [30524313](https://pubmed.ncbi.nlm.nih.gov/30524313/) | 2018 | Übersichtsartikel | Front Physiol | Übersicht über neue therapeutische Ansätze zur Tay-Sachs-Krankheit, einschließlich Substratreduktionstherapie |
+| [11227045](https://pubmed.ncbi.nlm.nih.gov/11227045/) | 2001 | Übersichtsartikel | Expert Opin Investig Drugs | Frühe Übersicht zur Begründung der Substratreduktionstherapie bei Glykosphingolipid-Speicherkrankheiten |
+| [18618288](https://pubmed.ncbi.nlm.nih.gov/18618288/) | 2008 | Pilotstudie | J Inherit Metab Dis | Neurokongnitive Testpilotstudie bei spätmanifestierender Tay-Sachs-Krankheit als potenzielles Endpunkt-Messinstrument |
+| [16434676](https://pubmed.ncbi.nlm.nih.gov/16434676/) | 2006 | Fallbericht | Neurology | SRT mit Miglustat bei 2 infantilen Tay-Sachs-Patienten: **konnte neurologische Verschlechterung nicht aufhalten**, obwohl CSF-Medikamentenspiegel und Makrozephalus-Prävention beobachtet wurden |
+| [28476546](https://pubmed.ncbi.nlm.nih.gov/28476546/) | 2017 | Beobachtungsstudie | Mol Genet Metab | Natürliche Verlaufskartierung der infantilen Gangliosidose; vermerkt, dass die Miglustat-Anwendung durch GI-Nebenwirkungen begrenzt ist |
 
 ---
 
-## Germany Market Information
+## Marktinformationen für Deutschland
 
-Miglustat is currently **not marketed** in this jurisdiction (`market_status: Not marketed`) and no authorization records are present in this Evidence Pack (`total_licenses: 0`). No product/authorization table can be generated.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-⚠️ **Critical Data Gap:** Detailed TFDA package insert warnings and contraindications (DG001) are marked as a **Blocking** gap in this Evidence Pack, meaning this candidate **cannot yet proceed to S1 safety pre-assessment**. Known real-world safety issues with miglustat (from its approved use in Gaucher/NPC) include gastrointestinal side effects (diarrhea, weight loss) and peripheral neuropathy, but these are not sourced from this pack's structured safety fields and should be independently verified before clinical use.
+Miglustat ist derzeit **nicht vermarktet** in dieser Gerichtsbarkeit (`market_status: Not marketed`) und keine Genehmigungsdatensätze sind in diesem Evidenzpaket vorhanden (`total_licenses: 0`). Es kann keine Produkt-/Genehmigungstabelle erstellt werden.
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsaspekte
 
-**Decision: Hold**
+Weitere Sicherheitsinformationen finden Sie in der Gebrauchsinformation.
 
-**Rationale:**
-Although miglustat has a mechanistically sound rationale and an unusually rich trial/literature record compared to other candidates in this pack, the evidence is mixed — two trials were terminated, the only RCT and the 2023 systematic review report inconsistent efficacy, and a completed case series found no arrest of neurologic decline in infantile Tay-Sachs disease. Combined with a **Blocking** data gap on TFDA safety labeling, the candidate is not yet ready to advance.
+⚠️ **Kritische Datenlücke:** Ausführliche TFDA-Gebrauchsinformations-Warnhinweise und Kontraindikationen (DG001) sind als **Blocking** Lücke in diesem Evidenzpaket markiert, das bedeutet, dieser Kandidat **kann noch nicht zu S1-Sicherheits-Vorab-Bewertung voranschreiten**. Bekannte Sicherheitsprobleme mit Miglustat aus seiner zugelassenen Anwendung bei Gaucher/NPC umfassen Magen-Darm-Nebenwirkungen (Durchfall, Gewichtsverlust) und periphere Neuropathie, aber diese stammen nicht aus den strukturierten Sicherheitsfeldern dieses Pakets und sollten vor klinischer Anwendung unabhängig überprüft werden.
 
-**To proceed, the following is needed:**
-- Resolve DG001: obtain TFDA/official package insert warnings and contraindications
-- Resolve DG002: obtain confirmed DrugBank MOA record (currently inferred only from literature)
-- Independent efficacy assessment reconciling the 2023 systematic review's "inconsistent" findings with the 2009 RCT's positive extension data
-- Root-cause review of why NCT03822013 and NCT02030015 were terminated (safety vs. enrollment vs. futility)
-- Regulatory pathway assessment given the drug is not currently marketed in this jurisdiction
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Zurückhalten**
+
+**Begründung:**
+Obwohl Miglustat eine mechanistisch fundierte Begründung und einen ungewöhnlich umfangreichen Studien-/Literatur-Datensatz im Vergleich zu anderen Kandidaten in diesem Paket hat, ist die Evidenz gemischt — zwei Studien wurden beendet, die einzige RCT und die systematische Übersicht von 2023 berichten von inkonsistenter Wirksamkeit, und eine abgeschlossene Fallserie fand keine Unterbrechung neurologischer Verschlechterung bei infantiler Tay-Sachs-Krankheit. In Kombination mit einer **Blocking** Datenlücke zur TFDA-Sicherheitskennzeichnung ist der Kandidat noch nicht bereit zum Fortschritt.
+
+**Um voranzuschreiten, ist Folgendes erforderlich:**
+- DG001 auflösen: TFDA/amtliche Gebrauchsinformations-Warnhinweise und Kontraindikationen einholen
+- DG002 auflösen: bestätigten DrugBank-Wirkmechanismus-Datensatz einholen (derzeit nur aus Literatur abgeleitet)
+- Unabhängige Wirksamkeitsbewertung, die die Befunde der 2023-Systematischen Übersicht „inkonsistent" mit den positiven Erweiterungsdaten der 2009-RCT abstimmt
+- Root-Cause-Überprüfung, warum NCT03822013 und NCT02030015 beendet wurden (Sicherheit vs. Einschluss vs. Futilität)
+- Regulatorischer Pathway-Bewertung angesichts der Tatsache, dass das Medikament derzeit in dieser Gerichtsbarkeit nicht vermarktet ist
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

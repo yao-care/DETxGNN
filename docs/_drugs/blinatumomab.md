@@ -29,64 +29,65 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0**
 
 </div>
 
-# Blinatumomab: Drug Repurposing Evaluation — Insufficient Data to Complete Assessment
+# Blinatumomab: Bewertung der Umdeutung von Arzneimitteln – Unzureichende Daten zur Beendigung der Bewertung
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Blinatumomab (DrugBank ID: DB09052) is a drug with no registered authorizations in Taiwan and no original indication data available in this Evidence Pack.
-The TxGNN model returned **no predicted new indications** for this candidate, making a standard repurposing assessment impossible at this stage.
-This report documents the current data status and outlines the steps required before evaluation can proceed.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not available |
-| Predicted New Indication | None returned by TxGNN |
-| TxGNN Prediction Score | Not available |
-| Evidence Level | L5 — Model prediction only (no predictions generated) |
-| Germany Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+Blinatumomab (DrugBank ID: DB09052) ist ein Arzneimittel ohne registrierte Zulassungen in Taiwan und ohne Original-Indikationsdaten im vorliegenden Evidence Pack.
+Das TxGNN-Modell gab **keine prognostizierten neuen Indikationen** für diesen Kandidaten zurück, was eine standardmäßige Umwidmungsbewertung in dieser Phase unmöglich macht.
+Dieser Bericht dokumentiert den aktuellen Datenstatus und beschreibt die Schritte, die erforderlich sind, bevor eine Bewertung fortgesetzt werden kann.
 
 ---
 
-## Why No Prediction Was Generated
+## Schnellübersicht
 
-The TxGNN pipeline could not generate repurposing candidates for Blinatumomab in this run. Two key data gaps are likely responsible:
-
-**Missing mechanism of action (MOA):** TxGNN relies on the drug's known biological targets and pathway annotations to compute similarity scores across disease nodes in the knowledge graph. Without MOA data, the graph traversal cannot find mechanistically plausible disease connections. The DrugBank query was recorded as successful (Query Log ID 3), but the structured MOA field was not returned — this requires a follow-up API call targeting the `drug_interactions` and `mechanism-of-action` endpoints specifically.
-
-**Missing original indication:** The `original_indications` array is empty. Original indication serves as an anchor node in the TxGNN knowledge graph; without it, the model cannot orient its prediction walk. Resolving the Taiwan package insert (Query Log ID 4 was recorded as successful with 1 result, but the content was not parsed into the Evidence Pack) would populate this field.
-
-Until these two gaps are resolved, no scientifically defensible prediction score can be produced.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(No key warnings, contraindications, or drug interaction data were available in this Evidence Pack.)*
+| Element | Inhalt |
+|---------|---------|
+| Original-Indikation | Nicht verfügbar |
+| Prognostizierte neue Indikation | Keine vom TxGNN zurückgegeben |
+| TxGNN-Vorhersage-Score | Nicht verfügbar |
+| Evidenzebene | L5 — Nur Modellvorhersage (keine Vorhersagen generiert) |
+| Marktstatus in Deutschland | Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | **Aussetzen** |
 
 ---
 
-## Conclusion and Next Steps
+## Warum keine Vorhersage generiert wurde
 
-**Decision: Hold**
+Die TxGNN-Pipeline konnte keine Umwidmungskandidaten für Blinatumomab in dieser Ausführung generieren. Zwei wesentliche Datenlücken sind wahrscheinlich verantwortlich:
 
-**Rationale:**
-The Evidence Pack for Blinatumomab is missing both a TxGNN prediction and the underlying data (MOA, original indication, safety profile) needed to generate one. Proceeding without this foundation would produce an unreliable evaluation.
+**Fehlender Wirkmechanismus (MOA):** TxGNN verlässt sich auf die bekannten biologischen Ziele des Arzneimittels und Pathway-Annotationen, um Ähnlichkeitswerte über Krankheitsknoten im Wissensgraphen zu berechnen. Ohne MOA-Daten kann die Graphdurchlaufung keine mechanistisch plausiblen Krankheitsverbindungen finden. Die DrugBank-Abfrage wurde als erfolgreich verzeichnet (Query Log ID 3), aber das strukturierte MOA-Feld wurde nicht zurückgegeben – dies erfordert einen weiteren API-Aufruf, der speziell die Endpunkte `drug_interactions` und `mechanism-of-action` anvisiert.
 
-**To proceed, the following is needed:**
+**Fehlende Original-Indikation:** Das Array `original_indications` ist leer. Die Original-Indikation dient als Ankerknoten im TxGNN-Wissensgraphen; ohne diese kann das Modell seinen Vorhersage-Walk nicht orientieren. Die Auflösung der taiwanischen Packungsbeilage (Query Log ID 4 wurde als erfolgreich mit 1 Ergebnis verzeichnet, aber der Inhalt wurde nicht in das Evidence Pack eingelesen) würde dieses Feld füllen.
 
-1. **Parse the Taiwan package insert** — Query Log ID 4 returned 1 result but the content was not ingested. Extract approved indication text, warnings, and contraindications from the PDF.
-2. **Retrieve structured MOA from DrugBank** — Query Log ID 3 was successful but the `mechanism-of-action` and `drug-categories` fields are absent. Re-query DrugBank API for DB09052 targeting these specific fields.
-3. **Re-run TxGNN pipeline** — Once MOA and original indication are populated, resubmit the candidate to generate ranked disease predictions with scores.
-4. **Retrieve DDI data** — The DDI query returned `not_found`; consider querying an alternative source (e.g., DrugBank interactions endpoint or the NLM drug interaction database) as Blinatumomab is a biologic and interactions may be catalogued differently.
-5. **Confirm antineoplastic classification** — Once DrugBank categories are retrieved, determine whether the Cytotoxicity section should be included in the final report.
+Bis diese beiden Lücken geschlossen sind, kann kein wissenschaftlich vertretbarer Vorhersage-Score produziert werden.
+
+---
+
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+*(Im vorliegenden Evidence Pack waren keine wichtigen Warnungen, Kontraindikationen oder Arzneimittelwechselwirkungsdaten verfügbar.)*
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Aussetzen**
+
+**Begründung:**
+Das Evidence Pack für Blinatumomab fehlen sowohl eine TxGNN-Vorhersage als auch die zugrunde liegenden Daten (MOA, Original-Indikation, Sicherheitsprofil), die erforderlich sind, um eine zu generieren. Ein Fortfahren ohne diese Grundlage würde zu einer unzuverlässigen Bewertung führen.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+
+1. **Die taiwanische Packungsbeilage parsen** — Query Log ID 4 gab 1 Ergebnis zurück, aber der Inhalt wurde nicht eingelesen. Genehmigte Indikationstexte, Warnungen und Kontraindikationen aus der PDF extrahieren.
+2. **Strukturierten MOA aus DrugBank abrufen** — Query Log ID 3 war erfolgreich, aber die Felder `mechanism-of-action` und `drug-categories` fehlen. DrugBank-API für DB09052 mit speziellem Fokus auf diese Felder erneut abfragen.
+3. **TxGNN-Pipeline erneut ausführen** — Sobald MOA und Original-Indikation gefüllt sind, den Kandidaten erneut zur Generierung von Ranking-Krankheitsvorhersagen mit Scores einreichen.
+4. **DDI-Daten abrufen** — Die DDI-Abfrage gab `not_found` zurück; erwägen Sie, eine alternative Quelle abzufragen (z. B. DrugBank-Wechselwirkungsendpunkt oder die NLM-Arzneimittelwechselwirkungsdatenbank), da Blinatumomab ein biologisches Produkt ist und Wechselwirkungen möglicherweise anders katalogisiert werden.
+5. **Antineoplastische Klassifizierung bestätigen** — Sobald DrugBank-Kategorien abgerufen werden, bestimmen Sie, ob der Abschnitt Cytotoxizität im endgültigen Bericht enthalten sein sollte.
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

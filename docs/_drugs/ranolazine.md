@@ -29,68 +29,69 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Ranolazine: Repurposing Evaluation Incomplete — Insufficient Evidence Pack Data
+# Ranolazine: Bewertung der Arzneimittelumwidmung unvollständig — Unzureichende Evidenzpaketdaten
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Ranolazine (DrugBank ID: DB00243) is a cardiovascular drug with no current Taiwan regulatory approval.
-The TxGNN model has **not generated any repurposing predictions** for this candidate,
-and two critical data gaps — including a **Blocking-severity** absence of TFDA safety data and **High-severity** absence of mechanism of action — prevent a complete evaluation at this time.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not available (no Taiwan license on record) |
-| Predicted New Indication | None — TxGNN predictions not generated |
-| TxGNN Prediction Score | Not available |
-| Evidence Level | L5 (no predictions or studies available) |
-| Taiwan Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+Ranolazine (DrugBank-ID: DB00243) ist ein kardiovaskuläres Arzneimittel ohne aktuelle Zulassung durch taiwanische Behörden.
+Das TxGNN-Modell hat **keine Umwidmungsprognosen** für diesen Kandidaten generiert,
+und zwei kritische Datenlücken — einschließlich einer Abwesenheit von TFDA-Sicherheitsdaten mit **blockierendem Schweregrad** und einer Abwesenheit des Wirkmechanismus mit **hohem Schweregrad** — verhindern zum gegenwärtigen Zeitpunkt eine vollständige Bewertung.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-No TxGNN repurposing prediction has been generated for Ranolazine in this Evidence Pack. Without a predicted indication, a mechanistic rationale cannot be constructed.
-
-The mechanism of action (MOA) is flagged as a **High-severity data gap (DG002)**. Without knowing how Ranolazine exerts its therapeutic effect, it is not possible to reason about which other disease pathways it might engage. The DrugBank API query recorded in the query log (ID: 3) returned a result, but MOA content was not populated into the Evidence Pack — this should be resolved by re-parsing the DrugBank response.
-
-The TFDA package insert query (query log ID: 4) also returned a result, yet no approved indications, warnings, or contraindications were extracted into the Evidence Pack. Until these two remediation steps are completed, mechanistic analysis is blocked.
-
----
-
-## Taiwan Market Information
-
-Ranolazine has no approved drug licenses in Taiwan. No authorization records are available for review.
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Nicht verfügbar (keine taiwanische Lizenz auf Rekord) |
+| Prognostizierte neue Indikation | Keine — TxGNN-Prognosen nicht generiert |
+| TxGNN-Prognosewert | Nicht verfügbar |
+| Evidenzstufe | L5 (keine Prognosen oder Studien verfügbar) |
+| Marktstatus Taiwan | ✗ Nicht vermarktet |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | **Halten** |
 
 ---
 
-## Safety Considerations
+## Warum ist diese Prognose angemessen?
 
-Please refer to the package insert for safety information.
+Für Ranolazine wurde in diesem Evidenzpaket keine TxGNN-Umwidmungsprognose generiert. Ohne eine prognostizierte Indikation kann kein mechanistisches Rationale konstruiert werden.
 
-> **Data Gap Notice:** Key warnings, contraindications, and drug-drug interaction data are all unavailable in this Evidence Pack. Notably, a **Blocking-severity data gap (DG001)** exists for TFDA package insert warnings and contraindications — this prevents entry into the S1 safety pre-screening phase. The DDI query (query log ID: 2) returned `not_found`.
+Der Wirkmechanismus (MOA) ist als **hohes Datenlückenproblem (DG002)** gekennzeichnet. Ohne zu wissen, wie Ranolazine seine therapeutische Wirkung ausübt, ist es nicht möglich, Rückschlüsse darauf zu ziehen, welche anderen Krankheitswege es möglicherweise ansprechen könnte. Die DrugBank-API-Abfrage, die im Abfragelog aufgezeichnet ist (ID: 3), gab ein Ergebnis zurück, aber MOA-Inhalte wurden nicht in das Evidenzpaket eingefügt — dies sollte durch erneutes Parsen der DrugBank-Antwort behoben werden.
+
+Die TFDA-Packungsbeilage-Abfrage (Abfragelog-ID: 4) gab ebenfalls ein Ergebnis zurück, doch es wurden keine genehmigten Indikationen, Warnungen oder Kontraindikationen in das Evidenzpaket extrahiert. Bis diese beiden Abhilfemaßnahmen abgeschlossen sind, ist die mechanistische Analyse blockiert.
 
 ---
 
-## Conclusion and Next Steps
+## Markkinformationen Taiwan
 
-**Decision: Hold**
+Ranolazine hat keine genehmigten Arzneimittellizensen in Taiwan. Es sind keine Genehmigungsdatensätze zur Überprüfung verfügbar.
+
+---
+
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+> **Datenlücken-Hinweis:** Wichtige Warnungen, Kontraindikationen und Daten zu Arzneimittel-Wechselwirkungen sind alle in diesem Evidenzpaket nicht verfügbar. Insbesondere existiert eine **Datenlücke mit blockierendem Schweregrad (DG001)** für TFDA-Packungsbeilage-Warnungen und Kontraindikationen — dies verhindert den Eintritt in die S1-Phase der Sicherheits-Vorprüfung. Die DDI-Abfrage (Abfragelog-ID: 2) gab `not_found` zurück.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Halten**
 
 **Rationale:**
-This candidate cannot be evaluated for repurposing at this time. The absence of TxGNN predictions, missing MOA, and unresolved Blocking-severity safety data gap collectively prevent any meaningful assessment of benefit, risk, or mechanistic plausibility.
+Dieser Kandidat kann zum gegenwärtigen Zeitpunkt nicht für eine Arzneimittelumwidmung bewertet werden. Die Abwesenheit von TxGNN-Prognosen, der fehlende MOA und die ungeklärte Datenlücke mit blockierendem Schweregrad verhindern zusammen jede sinnvolle Bewertung von Nutzen, Risiko oder mechanistischer Plausibilität.
 
-**To proceed, the following is needed:**
+**Um fortzufahren, wird Folgendes benötigt:**
 
-- **[DG001 — Blocking]** Re-parse the TFDA package insert PDF (query already succeeded; extraction pipeline needs review) to populate warnings and contraindications
-- **[DG002 — High]** Re-query DrugBank API and extract MOA, drug categories, and toxicity fields for Ranolazine (DB00243)
-- **Re-run TxGNN pipeline** after MOA and indication data are populated, to generate repurposing predictions
-- **Re-run DDI query** against an alternative source (e.g., DrugBank interaction endpoint) to populate drug interaction data
-- Once predictions are available, re-generate this Evidence Pack at v5+ for full evaluation
+- **[DG001 — Blockierend]** Erneutes Parsen des TFDA-Packungsbeilagen-PDF (Abfrage bereits erfolgreich; Extraktions-Pipeline muss überprüft werden) zum Ausfüllen von Warnungen und Kontraindikationen
+- **[DG002 — Hoch]** Erneute Abfrage der DrugBank-API und Extraktion von MOA, Arzneimittelkategorien und Toxizitätsfeldern für Ranolazine (DB00243)
+- **TxGNN-Pipeline erneut ausführen** nach dem Ausfüllen von MOA- und Indikationsdaten, um Umwidmungsprognosen zu generieren
+- **DDI-Abfrage erneut ausführen** gegen eine alternative Quelle (z. B. DrugBank-Interaktions-Endpunkt) zum Ausfüllen von Arzneimittel-Wechselwirkungsdaten
+- Nach Verfügbarkeit von Prognosen dieses Evidenzpaket bei v5+ für vollständige Bewertung erneut generieren
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

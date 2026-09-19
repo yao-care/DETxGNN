@@ -29,88 +29,89 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **8**
 
 </div>
 
-# Fluticasone Furoate: From Undocumented Original Indication to Atopic Eczema
+# Flutikason-Fumarat: Von undokumentierter Ursprünglicher Indikation zu atopischem Ekzem
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Fluticasone furoate is a corticosteroid whose original approved indication and mechanism of action are not documented in the current evidence pack, and it is currently **not marketed in Germany** (0 licenses on record). The TxGNN model predicts it may be effective for **atopic eczema**, but the supporting evidence base (**9 clinical trials, 2 publications**) tests the related compound fluticasone *propionate* rather than furoate itself.
+Flutikason-Fumarat ist ein Kortikosteroid, dessen ursprüngliche zugelassene Indikation und Wirkmechanismus in der aktuellen Evidenzsammlung nicht dokumentiert sind, und es wird derzeit **nicht in Deutschland vermarktet** (0 Zulassungen registriert). Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam bei **atopischem Ekzem** ist, aber die unterstützende Evidenzbasis (**9 klinische Studien, 2 Publikationen**) testet die verwandte Substanz Flutikason-*Propionat* statt Fumarat selbst.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Punkt | Inhalt |
 |------|------|
-| Original Indication | Not documented in current dataset (no license records available) |
-| Predicted New Indication | Atopic eczema |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L3 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | Nicht dokumentiert im aktuellen Datensatz (keine Zulassungsunterlagen verfügbar) |
+| Vorhergesagte neue Indikation | Atopisches Ekzem |
+| TxGNN-Vorhersage-Score | 99.98% |
+| Evidenzlevel | L3 |
+| Marktlage Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Abwarten |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage berechtigt?
 
-Currently, detailed mechanism of action data is not available in this evidence pack (original_moa: Data Gap). Based on the information that is available, fluticasone furoate belongs to the corticosteroid (glucocorticoid) class and is described as a second-generation inhaled/intranasal corticosteroid, mechanistically related to fluticasone propionate. Both compounds act via glucocorticoid receptor activation, suppressing inflammatory mediators (IL-4, IL-13, TNF-α) — a pathway plausibly relevant to the skin-barrier inflammation seen in atopic eczema.
+Derzeit sind detaillierte Wirkmechanismus-Daten nicht in dieser Evidenzsammlung verfügbar (`original_moa`: Datenlücke). Basierend auf den verfügbaren Informationen gehört Flutikason-Fumarat zur Klasse der Kortikosteroide (Glukokortikoide) und wird als Kortikosteroid der zweiten Generation für die inhalative/intranasale Anwendung beschrieben, mechanistisch verwandt mit Flutikason-Propionat. Beide Substanzen wirken über die Aktivierung des Glukokortikoidrezeptors und unterdrücken Entzündungsmediatoren (IL-4, IL-13, TNF-α) — ein Wirkmechanismus, der für die Hautbarrieren-Entzündung bei atopischem Ekzem relevant sein könnte.
 
-This pack does not record fluticasone furoate's currently approved indication or any German marketing history, so a direct "original → new indication" comparison cannot be made from the available data. Critically, essentially all of the supporting clinical evidence below tests topical **fluticasone propionate** cream/ointment formulations, not furoate. Furoate is currently only known to exist in nasal-spray and dry-powder inhaler formulations; no topical dermatologic formulation of furoate exists in the evidence provided. The prediction is therefore best characterized as a **class-level (propionate-derived) inference**, not molecule-specific evidence — and would additionally require new formulation development before any topical use in eczema could be considered.
+Diese Sammlung dokumentiert weder die derzeit zugelassene Indikation von Flutikason-Fumarat noch dessen deutsche Markthistorie, daher kann kein direkter Vergleich „Original → neue Indikation" anhand der verfügbaren Daten vorgenommen werden. Entscheidend ist, dass im Prinzip alle unterstützenden klinischen Evidenzen unten topische **Flutikason-Propionat**-Cremes/Salben testen, nicht Fumarat. Fumarat ist derzeit nur in nasalen Sprays und Trockeninhaler-Formulierungen bekannt; es gibt keine topische dermatologische Fumarat-Formulierung in den bereitgestellten Evidenzen. Die Vorhersage ist daher am besten als **klassenabhängige (Propionat-abgeleitete) Schlussfolgerung** zu charakterisieren, nicht als molekülspezifische Evidenz — und würde zusätzlich eine Neuentwicklung von Formulierungen erfordern, bevor eine topische Anwendung bei Ekzem in Betracht gezogen werden könnte.
 
 ---
 
-## Clinical Trial Evidence
+## Klinische Studienevidenz
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Studiennummer | Phase | Status | Rekrutierung | Wesentliche Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT00616538](https://clinicaltrials.gov/study/NCT00616538) | Phase 4 | Completed | 121 | Compared EpiCeram (non-steroidal barrier cream) vs. fluticasone propionate 0.05% cream in pediatric moderate-to-severe AD |
-| [NCT01772056](https://clinicaltrials.gov/study/NCT01772056) | Phase 3 | Terminated | 54 | Twice-weekly fluticasone propionate 0.05% cream maintenance therapy to reduce AD relapse in children |
-| [NCT00546000](https://clinicaltrials.gov/study/NCT00546000) | Phase 4 | Completed | 56 | Open-label study of Cutivate (fluticasone propionate) lotion 0.05% and effect on HPA axis in pediatric AD |
-| [NCT01915914](https://clinicaltrials.gov/study/NCT01915914) | Phase 4 | Completed | 107 | Intermittent fluticasone propionate 0.05% cream (2x/week) + moisturizer vs. moisturizer alone to reduce relapse in stabilized pediatric AD |
-| [NCT00689832](https://clinicaltrials.gov/study/NCT00689832) | Phase 4 | Completed | 487 | Tacrolimus 0.03% vs. fluticasone 0.005% ointment in children ≥2y with moderate-severe AD |
-| [NCT03742414](https://clinicaltrials.gov/study/NCT03742414) | Phase 2 | Active, not recruiting | 398 | Proactive skin-barrier care plus proactive fluticasone propionate cream vs. reactive therapy to prevent AD progression and food allergy |
-| [NCT07537751](https://clinicaltrials.gov/study/NCT07537751) | N/A | Completed | 40 | Crisaborole 2% vs. fluticasone propionate 0.05% in children (1–12y) with mild-moderate AD |
-| [NCT00690105](https://clinicaltrials.gov/study/NCT00690105) | Phase 4 | Completed | 577 | Tacrolimus 0.1% vs. fluticasone 0.005% ointment in adults with facial ("red face") AD |
-| [NCT00119158](https://clinicaltrials.gov/study/NCT00119158) | Phase 4 | Completed | 90 | Pimecrolimus 1% + fluticasone (Cutivate) 0.05% combination vs. vehicle in severe AD lesions |
+| [NCT00616538](https://clinicaltrials.gov/study/NCT00616538) | Phase 4 | Abgeschlossen | 121 | Vergleich von EpiCeram (nicht-steroidale Barriere-Creme) vs. Flutikason-Propionat 0.05%-Creme bei pädiatrischer moderater bis schwerer AD |
+| [NCT01772056](https://clinicaltrials.gov/study/NCT01772056) | Phase 3 | Beendet | 54 | Zweimal wöchentliche Flutikason-Propionat 0.05%-Creme-Erhaltungstherapie zur Verringerung des AD-Rückfalls bei Kindern |
+| [NCT00546000](https://clinicaltrials.gov/study/NCT00546000) | Phase 4 | Abgeschlossen | 56 | Offene Studie über Cutivate (Flutikason-Propionat) Lotion 0.05% und deren Auswirkung auf die HPA-Achse bei pädiatrischer AD |
+| [NCT01915914](https://clinicaltrials.gov/study/NCT01915914) | Phase 4 | Abgeschlossen | 107 | Intermittierende Flutikason-Propionat 0.05%-Creme (2x/Woche) + Feuchtigkeitscreme vs. nur Feuchtigkeitscreme zur Verringerung des Rückfalls bei stabilisierter pädiatrischer AD |
+| [NCT00689832](https://clinicaltrials.gov/study/NCT00689832) | Phase 4 | Abgeschlossen | 487 | Tacrolimus 0.03% vs. Flutikason 0.005%-Salbe bei Kindern ≥2 Jahren mit moderater bis schwerer AD |
+| [NCT03742414](https://clinicaltrials.gov/study/NCT03742414) | Phase 2 | Aktiv, keine Rekrutierung | 398 | Proaktive Hautbarrieren-Pflege plus proaktive Flutikason-Propionat-Creme vs. reaktive Therapie zur Verhinderung der AD-Progression und Nahrungsmittelallergien |
+| [NCT07537751](https://clinicaltrials.gov/study/NCT07537751) | N/A | Abgeschlossen | 40 | Crisaborol 2% vs. Flutikason-Propionat 0.05% bei Kindern (1–12 Jahre) mit leichter bis moderater AD |
+| [NCT00690105](https://clinicaltrials.gov/study/NCT00690105) | Phase 4 | Abgeschlossen | 577 | Tacrolimus 0.1% vs. Flutikason 0.005%-Salbe bei Erwachsenen mit gesichtsbetonter („rotes Gesicht") AD |
+| [NCT00119158](https://clinicaltrials.gov/study/NCT00119158) | Phase 4 | Abgeschlossen | 90 | Pimecrolimus 1% + Flutikason (Cutivate) 0.05%-Kombination vs. Vehikel bei schweren AD-Läsionen |
 
-**Note:** All trials above use fluticasone **propionate** formulations; none directly test fluticasone furoate in atopic eczema/dermatitis.
+**Hinweis:** Alle obigen Studien verwenden Flutikason-**Propionat**-Formulierungen; keine testet direkt Flutikason-Fumarat bei atopischem Ekzem/Dermatitis.
 
 ---
 
-## Literature Evidence
+## Literaturevidence
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Journal | Wesentliche Ergebnisse |
 |------|-----|------|------|---------|
-| [19571596](https://pubmed.ncbi.nlm.nih.gov/19571596/) | 2009 | Review/Cohort | Neuroimmunomodulation | Reviews HPA-axis suppression risk from intranasal corticosteroids in allergic disease, noting frequent comorbidity with atopic dermatitis |
-| [40066386](https://pubmed.ncbi.nlm.nih.gov/40066386/) | 2025 | Case Study | Indian J Otolaryngol Head Neck Surg | Case report on allergen immunotherapy, mentioning atopic dermatitis as one of its emerging applications (background context only) |
+| [19571596](https://pubmed.ncbi.nlm.nih.gov/19571596/) | 2009 | Review/Kohorte | Neuroimmunomodulation | Behandelt HPA-Achsen-Suppression-Risiko durch intranasale Kortikosteroide bei allergischen Erkrankungen, wobei häufige Komorbiditäten mit atopischer Dermatitis erwähnt werden |
+| [40066386](https://pubmed.ncbi.nlm.nih.gov/40066386/) | 2025 | Fallbericht | Indian J Otolaryngol Head Neck Surg | Fallbericht über Allergen-Immuntherapie, erwähnt atopische Dermatitis als eine ihrer neuen Anwendungen (nur Kontexthintergrund) |
 
 ---
 
-## Germany Market Information
+## Marktinformationen für Deutschland
 
-No marketing authorization is currently registered for fluticasone furoate in Germany (0 licenses on record; market status: not marketed).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug interaction data are not currently available in this evidence pack — flagged as a **Blocking** data gap, DG001.)
+Für Flutikason-Fumarat ist derzeit keine Marktgenehmigung in Deutschland registriert (0 Lizenzen registriert; Marktlage: nicht vermarktet).
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsaspekte
 
-**Decision: Hold**
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. (Wichtige Warnhinweise, Kontraindikationen und Arzneimittelwechselwirkungsdaten sind derzeit nicht in dieser Evidenzsammlung verfügbar — markiert als **blockierende** Datenlücke, DG001.)
 
-**Rationale:**
-Evidence for the atopic eczema prediction is class-level only (derived from fluticasone propionate trials, not furoate itself), furoate has no known topical dermatologic formulation, and the drug is not currently marketed in Germany. Combined with a blocking gap in safety/label data, there is insufficient basis to advance beyond a research question at this time.
+---
 
-**To proceed, the following is needed:**
-- Resolve DG001 (Blocking): obtain official German label warnings/contraindications before any S1 safety assessment
-- Resolve DG002: obtain documented mechanism of action and confirmed original approved indication(s) for fluticasone furoate
-- Furoate-specific (not propionate) clinical evidence in an eczema/dermatitis population
-- Formulation feasibility assessment — furoate currently exists only as nasal/inhaled products; a topical form would need to be developed
-- Consider evaluating the higher-evidence candidate identified elsewhere in this evidence pack: **bronchitis** (rank 2, L2, "Proceed with Guardrails"), which has direct furoate trial support (e.g., NCT02989935, RELVAR/fluticasone furoate-vilanterol in COPD/bronchitis)
+## Fazit und nächste Schritte
+
+**Entscheidung: Abwarten**
+
+**Begründung:**
+Die Evidenz für die Vorhersage des atopischen Ekzems ist nur auf Klassenebene verfügbar (abgeleitet von Flutikason-Propionat-Studien, nicht Fumarat selbst), Fumarat hat keine bekannte topische dermatologische Formulierung, und das Arzneimittel wird derzeit nicht in Deutschland vermarktet. Zusammen mit einer blockierenden Lücke bei Sicherheits-/Kennzeichnungsdaten ist die Grundlage unzureichend, um derzeit über eine Forschungsfrage hinauszugehen.
+
+**Zum Fortfahren ist Folgendes erforderlich:**
+- Beheben Sie DG001 (Blockierend): Beschaffen Sie offizielle deutsche Kennzeichnungswarnhinweise/Kontraindikationen vor einer S1-Sicherheitsbewertung
+- Beheben Sie DG002: Beschaffen Sie dokumentierte Wirkmechanismen und bestätigte ursprüngliche zugelassene Indikation(en) für Flutikason-Fumarat
+- Fumarat-spezifische (nicht Propionat-) klinische Evidenz in einer Ekzem-/Dermatitis-Population
+- Bewertung der Formulierungsmachbarkeit — Fumarat existiert derzeit nur in nasalen Sprays und Inhalationsprodukten; eine topische Form müsste entwickelt werden
+- Erwägen Sie die Bewertung des Kandidaten mit höherer Evidenz, der an anderer Stelle in dieser Evidenzsammlung identifiziert wurde: **Bronchitis** (Rang 2, L2, „Fortfahren mit Schutzmaßnahmen"), der direkten Fumarat-Studiensupport hat (z. B. NCT02989935, RELVAR/Flutikason-Fumarat-Vilanterol bei COPD/Bronchitis)
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -29,96 +29,97 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Insulin Glulisine: From Diabetes Mellitus to Type 1 Diabetes Mellitus
+# Insulin Glulisine: Von Diabetes mellitus zu Typ-1-Diabetes mellitus
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Insulin glulisine is a rapid-acting insulin analogue already used for glycaemic control in diabetes mellitus. The TxGNN model predicts it may be effective for **Type 1 Diabetes Mellitus**, supported by **75+ clinical trials** and **20 publications** — but this indication substantially overlaps with the drug's existing, well-established clinical use rather than representing a novel repurposing opportunity.
+Insulin glulisine ist ein schnellwirkendes Insulinanalogon, das bereits zur glykämischen Kontrolle bei Diabetes mellitus verwendet wird. Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam für **Typ-1-Diabetes mellitus** ist, gestützt durch **75+ klinische Studien** und **20 Publikationen** — aber diese Indikation überlappt sich wesentlich mit der bestehenden, gut etablierten klinischen Verwendung des Arzneimittels, anstatt eine echte Umwidmungsmöglichkeit zu darstellen.
 
 ---
 
-## Quick Overview
+## Schnelle Übersicht
 
-| Item | Content |
+| Element | Inhalt |
 |------|------|
-| Original Indication | Diabetes mellitus (glycaemic control) — detailed approved indication text not on file (data gap) |
-| Predicted New Indication | Type 1 Diabetes Mellitus |
-| TxGNN Prediction Score | 99.55% |
-| Evidence Level | L1 |
-| Germany Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Ursprüngliche Indikation | Diabetes mellitus (glykämische Kontrolle) – detaillierte genehmigte Indikationstexte sind nicht vorhanden (Datenlücke) |
+| Vorhergesagte neue Indikation | Typ-1-Diabetes mellitus |
+| TxGNN-Vorhersage-Score | 99.55% |
+| Evidenzstufe | L1 |
+| Marktstatus in Deutschland | Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Mit Vorsichtsmaßnahmen fortfahren |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage sinnvoll?
 
-Currently, detailed mechanism of action data is not available (data gap). Based on known pharmacology, insulin glulisine is a recombinant rapid-acting human insulin analogue that binds the insulin receptor to lower blood glucose, and it is already used clinically for mealtime (bolus) glycaemic control in both type 1 and type 2 diabetes.
+Derzeit sind detaillierte Daten zum Wirkmechanismus nicht verfügbar (Datenlücke). Basierend auf bekannter Pharmakologie ist Insulin glulisine ein rekombinantes schnellwirkendes Humaninsulin-Analogon, das an den Insulinrezeptor bindet, um den Blutzucker zu senken, und wird bereits klinisch zur glykämischen Kontrolle zu den Mahlzeiten (Bolus-Gaben) bei Typ-1- und Typ-2-Diabetes verwendet.
 
-Because type 1 diabetes mellitus is characterised by absolute insulin deficiency, insulin replacement — including rapid-acting analogues like glulisine — is the established standard of care rather than a new therapeutic hypothesis. The evidence pack itself flags this explicitly: the mechanistic link here is "the drug's own original indication rather than a repurposing inference," meaning the TxGNN prediction largely recovers existing, well-documented clinical knowledge instead of surfacing a novel use.
+Da Typ-1-Diabetes mellitus durch einen absoluten Insulinmangel gekennzeichnet ist, ist der Insulinersatz – einschließlich schnellwirkender Analoga wie Glulisine – ein etablierter Therapiestandard und keine neue therapeutische Hypothese. Das Evidenzpaket selbst kennzeichnet dies deutlich: Der mechanistische Zusammenhang ist hier „die ursprüngliche Indikation des Arzneimittels selbst und nicht eine Umwidmungs-Schlussfolgerung", was bedeutet, dass die TxGNN-Vorhersage überwiegend bestehendes, gut dokumentiertes klinisches Wissen zurückgewinnt, anstatt eine neuartige Anwendung zu identifizieren.
 
-It is also worth noting that among the ten TxGNN predictions supplied in this evidence pack, only rank 1 (Type 1 Diabetes Mellitus) is backed by direct trial/literature evidence (L1). Ranks 2–10 (e.g., thiamine-responsive dysfunction syndrome, opsismodysplasia, stiff person syndrome, lipodystrophy variants) all scored L4–L5 with no supporting trials or literature, and several appear to reflect knowledge-graph artefacts — including at least two cases where the "predicted indication" is actually a known adverse effect of insulin injection (localized lipodystrophy/lipoatrophy) rather than a treatable target, i.e., a possible reversed-causality signal. These should not be advanced without independent mechanistic review.
+Es ist auch erwähnenswert, dass unter den zehn in diesem Evidenzpaket bereitgestellten TxGNN-Vorhersagen nur Rang 1 (Typ-1-Diabetes mellitus) durch direkte Studien-/Literaturbelege (L1) gestützt wird. Ränge 2–10 (z. B. Thiamin-responsive Dysfunktionssyndrom, Opsismodysplasie, Stiff-Person-Syndrom, Lipodystrophie-Varianten) erzielen alle L4–L5 ohne unterstützende Studien oder Literatur, und mehrere scheinen Wissensgraph-Artefakte zu widerspiegeln – einschließlich mindestens zwei Fälle, in denen die „vorhergesagte Indikation" tatsächlich eine bekannte Nebenwirkung der Insulininjektion ist (lokalisierte Lipodystrophie/Lipoatrophie) anstatt eines behandelbaren Ziels, d. h. ein mögliches Signal umgekehrter Kausalität. Diese sollten nicht ohne unabhängige mechanistische Bewertung vorangebracht werden.
 
 ---
 
-## Clinical Trial Evidence
+## Klinische Studien-Evidenz
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Studiennummer | Phase | Status | Teilnehmerzahl | Wichtigste Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT07070752](https://clinicaltrials.gov/study/NCT07070752) | Phase 3 | Completed | 224 | Non-inferior immunogenicity, efficacy and safety of biosimilar GP40321 vs Apidra® in T1DM |
-| [NCT01194258](https://clinicaltrials.gov/study/NCT01194258) | Phase 2 | Completed | 132 | Double-blind crossover comparing rHuPH20-formulated prandial insulins to insulin lispro |
-| [NCT02509429](https://clinicaltrials.gov/study/NCT02509429) | Phase 2 | Completed | 24 | Closed-loop artificial pancreas reduces nocturnal hypoglycaemia in children with T1DM |
-| [NCT00546702](https://clinicaltrials.gov/study/NCT00546702) | Phase 3 | Completed | 142 | 26-week efficacy/safety of insulin glulisine + glargine in T1DM (HbA1c, hypoglycaemia) |
-| [NCT00467376](https://clinicaltrials.gov/study/NCT00467376) | Phase 3 | Completed | 485 | Glulisine vs lispro (with glargine) in T1/T2DM: efficacy, safety, hypoglycaemia frequency |
-| [NCT01159353](https://clinicaltrials.gov/study/NCT01159353) | Phase 1 | Completed | 37 | PK/PD comparison of glulisine vs aspart post-prandial glucose control |
-| [NCT02871089](https://clinicaltrials.gov/study/NCT02871089) | N/A | Active, not recruiting | 96 | Closed-loop insulin delivery from T1D onset; residual beta-cell function |
-| [NCT02914886](https://clinicaltrials.gov/study/NCT02914886) | Phase 4 | Completed | 14 | Zinc-free insulin (glulisine) effect on lipoatrophy in T1D pump users |
-| [NCT03495908](https://clinicaltrials.gov/study/NCT03495908) | N/A | Completed | 136 | Regular vs rapid-acting insulin via V-Go wearable delivery device |
-| [NCT02814123](https://clinicaltrials.gov/study/NCT02814123) | Phase 2 | Completed | 28 | Closed-loop fast-acting insulin ± pramlintide co-administration in T1DM |
+| [NCT07070752](https://clinicaltrials.gov/study/NCT07070752) | Phase 3 | Abgeschlossen | 224 | Nicht unterlegene Immunogenität, Wirksamkeit und Sicherheit des Biosimilars GP40321 vs. Apidra® bei T1DM |
+| [NCT01194258](https://clinicaltrials.gov/study/NCT01194258) | Phase 2 | Abgeschlossen | 132 | Doppelblind-Überkreuzungsstudie zum Vergleich von rHuPH20-formulierten Mahlzeitinsulin mit Insulin lispro |
+| [NCT02509429](https://clinicaltrials.gov/study/NCT02509429) | Phase 2 | Abgeschlossen | 24 | Künstliche Bauchspeicheldrüse mit geschlossenem Regelkreis reduziert nächtliche Hypoglykämie bei Kindern mit T1DM |
+| [NCT00546702](https://clinicaltrials.gov/study/NCT00546702) | Phase 3 | Abgeschlossen | 142 | 26-wöchige Wirksamkeit/Sicherheit von Insulin glulisine + Glargin bei T1DM (HbA1c, Hypoglykämie) |
+| [NCT00467376](https://clinicaltrials.gov/study/NCT00467376) | Phase 3 | Abgeschlossen | 485 | Glulisine vs. Lispro (mit Glargin) bei T1/T2DM: Wirksamkeit, Sicherheit, Häufigkeit von Hypoglykämie |
+| [NCT01159353](https://clinicaltrials.gov/study/NCT01159353) | Phase 1 | Abgeschlossen | 37 | PK/PD-Vergleich von Glulisine vs. Aspart zur postprandialen Glukosekontrolle |
+| [NCT02871089](https://clinicaltrials.gov/study/NCT02871089) | N/A | Aktiv, keine Rekrutierung | 96 | Insulinabgabe mit geschlossenem Regelkreis ab T1D-Beginn; residuelle Betazellenfunktion |
+| [NCT02914886](https://clinicaltrials.gov/study/NCT02914886) | Phase 4 | Abgeschlossen | 14 | Auswirkung von zinkfreiem Insulin (Glulisine) auf Lipoatrophie bei T1D-Pumpennutzern |
+| [NCT03495908](https://clinicaltrials.gov/study/NCT03495908) | N/A | Abgeschlossen | 136 | Normalinsulin vs. schnellwirkendes Insulin über tragbares V-Go-Abgabegerät |
+| [NCT02814123](https://clinicaltrials.gov/study/NCT02814123) | Phase 2 | Abgeschlossen | 28 | Schnellwirkendes Insulin mit geschlossenem Regelkreis ± Pramlintid-Gabe in Kombination bei T1DM |
 
 ---
 
-## Literature Evidence
+## Literatur-Evidenz
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Journal | Wichtigste Ergebnisse |
 |------|-----|------|------|---------|
-| [16308840](https://pubmed.ncbi.nlm.nih.gov/16308840/) | 2005 | RCT | Horm Metab Res | Multinational RCT comparing efficacy/safety of glulisine vs lispro in adults with T1DM |
-| [41366610](https://pubmed.ncbi.nlm.nih.gov/41366610/) | 2026 | RCT (Phase III) | Diabetes Obes Metab | Biosimilar insulin glulisine (T-Glu) non-inferior to originator (R-Glu) in T1DM |
-| [21457066](https://pubmed.ncbi.nlm.nih.gov/21457066/) | 2011 | RCT | Diabetes Technol Ther | 3-way crossover: glulisine vs aspart vs lispro via CSII pump in T1DM |
-| [21291333](https://pubmed.ncbi.nlm.nih.gov/21291333/) | 2011 | RCT | Diabetes Technol Ther | 26-week trial: comparable efficacy/safety of glulisine vs lispro in pediatric T1DM |
-| [19614947](https://pubmed.ncbi.nlm.nih.gov/19614947/) | 2009 | RCT | Diabetes Obes Metab | Glulisine vs lispro efficacy/safety in Japanese patients with T1DM |
-| [35933650](https://pubmed.ncbi.nlm.nih.gov/35933650/) | 2022 | Cohort/Comparative | Acta Diabetol | Real-world comparison of glulisine vs lispro/aspart for CSII in T1DM |
-| [28544684](https://pubmed.ncbi.nlm.nih.gov/28544684/) | 2017 | Cohort | Pediatr Int | Glulisine for CSII in pediatric T1DM: 1-year efficacy/safety data |
-| [16123473](https://pubmed.ncbi.nlm.nih.gov/16123473/) | 2005 | PK Study | Diabetes Care | Pharmacokinetics and prandial glucose control of glulisine in children/adolescents with T1DM |
-| [19496630](https://pubmed.ncbi.nlm.nih.gov/19496630/) | 2009 | Review | Drugs | Overview of insulin glulisine's role in diabetes management |
-| [35650058](https://pubmed.ncbi.nlm.nih.gov/35650058/) | 2022 | Case report | Nihon Ronen Igakkai Zasshi | Switching degludec→glulisine improved nocturnal hypoglycaemia/arrhythmia in elderly T1DM patient |
+| [16308840](https://pubmed.ncbi.nlm.nih.gov/16308840/) | 2005 | RCT | Horm Metab Res | Multinationale RCT zum Vergleich der Wirksamkeit/Sicherheit von Glulisine vs. Lispro bei Erwachsenen mit T1DM |
+| [41366610](https://pubmed.ncbi.nlm.nih.gov/41366610/) | 2026 | RCT (Phase III) | Diabetes Obes Metab | Biosimilar Insulin glulisine (T-Glu) nicht unterlegen gegenüber Original (R-Glu) bei T1DM |
+| [21457066](https://pubmed.ncbi.nlm.nih.gov/21457066/) | 2011 | RCT | Diabetes Technol Ther | 3-fache Überkreuzung: Glulisine vs. Aspart vs. Lispro über CSII-Pumpe bei T1DM |
+| [21291333](https://pubmed.ncbi.nlm.nih.gov/21291333/) | 2011 | RCT | Diabetes Technol Ther | 26-wöchige Studie: vergleichbare Wirksamkeit/Sicherheit von Glulisine vs. Lispro bei pädiatrischem T1DM |
+| [19614947](https://pubmed.ncbi.nlm.nih.gov/19614947/) | 2009 | RCT | Diabetes Obes Metab | Wirksamkeit/Sicherheit von Glulisine vs. Lispro bei japanischen Patienten mit T1DM |
+| [35933650](https://pubmed.ncbi.nlm.nih.gov/35933650/) | 2022 | Kohorten-/Vergleichsstudie | Acta Diabetol | Reale Vergleichsstudie von Glulisine vs. Lispro/Aspart für CSII bei T1DM |
+| [28544684](https://pubmed.ncbi.nlm.nih.gov/28544684/) | 2017 | Kohortenstudie | Pediatr Int | Glulisine für CSII bei pädiatrischem T1DM: 1-Jahres-Wirksamkeits-/Sicherheitsdaten |
+| [16123473](https://pubmed.ncbi.nlm.nih.gov/16123473/) | 2005 | PK-Studie | Diabetes Care | Pharmakokinetik und postprandiale Glukosekontrolle von Glulisine bei Kindern/Jugendlichen mit T1DM |
+| [19496630](https://pubmed.ncbi.nlm.nih.gov/19496630/) | 2009 | Übersichtsartikel | Drugs | Übersicht über die Rolle von Insulin glulisine in der Diabetesbehandlung |
+| [35650058](https://pubmed.ncbi.nlm.nih.gov/35650058/) | 2022 | Fallbericht | Nihon Ronen Igakkai Zasshi | Umstellung von Degludec→Glulisine verbesserte nächtliche Hypoglykämie/Arrhythmie bei älteren T1DM-Patienten |
 
 ---
 
-## Germany Market Information
+## Informationen zum Markt in Deutschland
 
-Currently not marketed in Germany — no marketing authorizations are on file for this candidate (0 licenses recorded).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (TFDA warnings/contraindications and DDI data are currently unavailable — flagged as a blocking data gap, DG001.)
+Derzeit nicht vermarktet in Deutschland – es liegen keine Vermarktungsgenehmigungen für diesen Kandidaten vor (0 Lizenzen registriert).
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsüberlegungen
 
-**Decision: Proceed with Guardrails**
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. (TFDA-Warnungen/Kontraindikationen und DDI-Daten sind derzeit nicht verfügbar – gekennzeichnet als eine blockierende Datenlücke, DG001.)
 
-**Rationale:**
-Evidence is strong (L1: multiple completed Phase 2/3 RCTs, including a 2026 Phase III biosimilar trial) for insulin glulisine's efficacy and safety in type 1 diabetes mellitus. However, this is confirmatory evidence for an already-known use rather than a novel repurposing signal, and two blocking/high-severity data gaps (TFDA labeling, MOA documentation) remain unresolved before any safety-relevant decision can be finalized.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert warnings and contraindications (DG001, blocking — required before S1 safety review)
-- Detailed mechanism of action documentation from DrugBank (DG002)
-- Clarification of regulatory/commercial status given zero current marketing authorizations
-- Reassessment of whether rank-1 "prediction" should be reclassified as label-confirmation rather than repurposing, and independent review of ranks 2–10 (all L4/L5, including two likely reversed-causality signals) before any further action
+## Fazit und nächste Schritte
+
+**Entscheidung: Mit Vorsichtsmaßnahmen fortfahren**
+
+**Begründung:**
+Die Evidenz ist stark (L1: mehrere abgeschlossene Phase-2/3-RCTs, einschließlich einer 2026-Phase-III-Biosimilar-Studie) für die Wirksamkeit und Sicherheit von Insulin glulisine bei Typ-1-Diabetes mellitus. Es handelt sich jedoch um bestätigende Evidenz für eine bereits bekannte Anwendung und nicht um ein echtes Umwidmungs-Signal, und zwei blockierende/schwerwiegende Datenlücken (TFDA-Kennzeichnung, MOA-Dokumentation) bleiben ungelöst, bevor eine sicherheitsrelevante Entscheidung finalisiert werden kann.
+
+**Zum Fortfahren ist Folgendes erforderlich:**
+- TFDA-Packungsbeilage Warnungen und Kontraindikationen (DG001, blockierend – erforderlich vor S1-Sicherheitsbewertung)
+- Detaillierte Dokumentation des Wirkmechanismus aus DrugBank (DG002)
+- Klarstellung des aufsichtsrechtlichen/kommerziellen Status angesichts null aktueller Vermarktungsgenehmigungen
+- Neubewertung, ob die Rang-1-„Vorhersage" als Indikationsbestätigung anstelle von Umwidmung neu klassifiziert werden sollte, und unabhängige Überprüfung der Ränge 2–10 (alle L4/L5, einschließlich zwei wahrscheinlicher umgekehrter Kausalitätssignale) vor weiteren Maßnahmen
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -29,73 +29,74 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Mannitol: From Osmotic Diuretic Use to Nephrogenic Syndrome of Inappropriate Antidiuresis
+# Mannitol: Von der Anwendung als osmotisches Diuretikum zum Nephrogenen Syndrom der unangemessenen Antidiurese
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Mannitol is a long-established osmotic diuretic agent; formal original-indication and MOA records are currently unavailable in this Evidence Pack, though it is widely known clinically for use in raised intracranial/intraocular pressure and oliguric states.
-> The TxGNN model predicts it may be effective for **Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD)**,
-> but this prediction is currently supported by **0 clinical trials** and only **1 loosely related publication**, and should be treated as a hypothesis-generating signal rather than actionable evidence.
+> Mannitol ist ein lange etabliertes osmotisches Diuretikum; formale Datensätze zur ursprünglichen Indikation und zum Wirkmechanismus sind derzeit nicht im Evidenzpaket verfügbar, obwohl es klinisch weithin für die Anwendung bei erhöhtem intrakraniellem/intraokularem Druck und oligurischen Zuständen bekannt ist.
+> Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam sein könnte bei der **Nephrogenen Syndrom der unangemessenen Antidiurese (NSIAD)**,
+> aber diese Vorhersage wird derzeit durch **0 klinische Studien** und nur **1 lose verwandte Publikation** gestützt, und sollte eher als ein hypothesengenerierendes Signal denn als verwertbare Evidenz betrachtet werden.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Eintrag | Inhalt |
 |------|------|
-| Original Indication | Not available in regulatory data (0 licenses on file); based on known pharmacology, mannitol is historically used as an osmotic diuretic for cerebral/ocular edema and acute oliguric states |
-| Predicted New Indication | Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD) |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L5 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | Nicht verfügbar in behördlichen Daten (0 Lizenzen vorhanden); basierend auf bekannter Pharmakologie wird Mannitol historisch als osmotisches Diuretikum für zerebrales/okuläres Ödem und akute oligurische Zustände verwendet |
+| Vorhergesagte neue Indikation | Nephrogenes Syndrom der unangemessenen Antidiurese (NSIAD) |
+| TxGNN-Vorhersage-Score | 99.97% |
+| Evidenzstufe | L5 |
+| Marktstatus Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Halten |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage vernünftig?
 
-Currently, detailed mechanism of action data is not available for this drug in the Evidence Pack (`original_moa: [Data Gap]`). Based on known pharmacological information, mannitol is a sugar-alcohol osmotic agent that draws free water into the vascular compartment and promotes renal free-water excretion; it has long been used clinically to reduce intracranial and intraocular pressure and to maintain urine output in acute oliguric states.
+Derzeit sind detaillierte Wirkmechanismus-Daten für dieses Arzneimittel nicht im Evidenzpaket verfügbar (`original_moa: [Data Gap]`). Basierend auf bekannten pharmakologischen Informationen ist Mannitol ein Zuckeralkohol-Osmotikum, das freies Wasser in das vaskuläre Kompartiment zieht und die renale Ausscheidung von freiem Wasser fördert; es wird seit langem klinisch verwendet, um den intrakraniellen und intraokularen Druck zu senken und die Urinausscheidung in akuten oligurischen Zuständen aufrechtzuerhalten.
 
-The mechanistic rationale offered for NSIAD is that an osmotic diuretic could theoretically increase free-water clearance and thereby correct the dilutional hyponatremia characteristic of NSIAD. However, the single literature item retrieved for this pairing (PMID 26706473) is a general review on pitfalls in evaluating hyponatremia — it does **not** mention mannitol or NSIAD specifically, and provides no direct experimental or clinical support for this drug-disease pairing.
+Die für NSIAD vorgebrachte mechanistische Begründung besagt, dass ein osmotisches Diuretikum theoretisch die Clearance von freiem Wasser erhöhen und dadurch die für NSIAD charakteristische Verdünnungshyponatriämie korrigieren könnte. Der einzige für diese Kombination abgerufene Literaturartikel (PMID 26706473) ist jedoch eine allgemeine Übersichtsarbeit über Fallstricke bei der Beurteilung von Hyponatriämie – er **erwähnt nicht** Mannitol oder NSIAD spezifisch, und bietet keine direkte experimentelle oder klinische Unterstützung für diese Arzneimittel-Erkrankungs-Kombination.
 
-It should also be noted that a lower-ranked prediction in this same evidence pack (rank 9, nephrogenic diabetes insipidus) flags mannitol/osmotic agents as agents that can **induce** a diabetes-insipidus-like excessive free-water loss rather than treat it — the opposite physiological direction. This raises a plausibility concern about the NSIAD prediction that should be resolved before further investment.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+Es ist auch zu vermerken, dass eine niedriger bewertete Vorhersage in demselben Evidenzpaket (Rang 9, nephrogene Diabetes insipidus) Mannitol/Osmotika als Stoffe kennzeichnet, die zu einer **Diabetes-insipidus-ähnlichen übermäßigen Wasserausscheidung führen können**, anstatt sie zu behandeln – die entgegengesetzte physiologische Richtung. Dies wirft Fragen zur Plausibilität der NSIAD-Vorhersage auf, die vor weiteren Investitionen geklärt werden sollten.
 
 ---
 
-## Literature Evidence
+## Evidenz aus klinischen Studien
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [26706473](https://pubmed.ncbi.nlm.nih.gov/26706473/) | 2016 | Review | European journal of internal medicine | General review of common diagnostic pitfalls in evaluating hyponatremic patients; does not specifically address mannitol or NSIAD |
+Derzeit sind keine verwandten klinischen Studien registriert
 
 ---
 
-## Safety Considerations
+## Literaturbelege
 
-Please refer to the package insert for safety information.
+| PMID | Jahr | Typ | Zeitschrift | Wichtigste Erkenntnisse |
+|------|------|------|------|---------|
+| [26706473](https://pubmed.ncbi.nlm.nih.gov/26706473/) | 2016 | Übersichtsartikel | European journal of internal medicine | Allgemeine Übersichtsarbeit über häufige diagnostische Fallstricke bei der Beurteilung hyponatriämischer Patienten; erwähnt Mannitol oder NSIAD nicht spezifisch |
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsaspekte
 
-**Decision: Hold**
+Bitte konsultieren Sie die Packungsbeilage für Sicherheitsinformationen.
 
-**Rationale:**
-The prediction rests solely on TxGNN's algorithmic score (L5, no trials, one indirectly-related review); there is no direct mechanistic or clinical evidence linking mannitol to NSIAD, and a plausible opposite-direction safety signal (osmotic-agent-induced free-water loss) exists elsewhere in this evidence pack that has not been reconciled.
+---
 
-**To proceed, the following is needed:**
-- Confirmed original indication and MOA data for mannitol (currently flagged as Blocking/High data gaps, DG001–DG002)
-- TFDA/BfArM label review to resolve the apparent contradiction between "treats NSIAD" and "can induce NDI-like free-water loss"
-- Preclinical or case-level evidence directly testing mannitol in NSIAD/SIADH-related hyponatremia before advancing past S0
+## Schlussfolgerung und nächste Schritte
 
-**Additional note:** Among the 10 TxGNN-predicted indications in this pack, most (ranks 1, 3, 5–10) are L5/Hold with little or no supporting evidence. The only candidate with a documented, established clinical rationale — mannitol's adjunctive osmotic-diuresis role to mitigate rhabdomyolysis-related renal injury during malignant hyperthermia crises (rank 4, L4/S1, "Research Question") — may be a more productive line to pursue if further repurposing work on this drug is planned.
+**Entscheidung: Halten**
+
+**Begründung:**
+Die Vorhersage basiert ausschließlich auf dem algorithmischen Score von TxGNN (L5, keine Studien, ein lose verwandter Übersichtsartikel); es gibt keine direkte mechanistische oder klinische Evidenz, die Mannitol mit NSIAD verbindet, und es existiert ein plausibles gegensätzliches Sicherheitssignal (osmotisches Mittel-induzierter Wasserverlust) an anderer Stelle in diesem Evidenzpaket, das nicht geklärt wurde.
+
+**Um fortzufahren, wird Folgendes benötigt:**
+- Bestätigte ursprüngliche Indikation und MOA-Daten für Mannitol (derzeit als Blocking/High data gaps, DG001–DG002 gekennzeichnet)
+- TFDA/BfArM-Etikettenprüfung, um den offensichtlichen Widerspruch zwischen „behandelt NSIAD" und „kann Diabetes-insipidus-ähnliche Wasserausscheidung induzieren" zu klären
+- Präklinische oder fallbasierte Evidenz, die Mannitol direkt bei NSIAD/SIADH-assoziierter Hyponatriämie testet, bevor es über S0 hinausgeht
+
+**Zusätzliche Anmerkung:** Unter den 10 von TxGNN vorhergesagten Indikationen in diesem Paket sind die meisten (Ränge 1, 3, 5–10) L5/Halten mit geringer oder fehlender unterstützender Evidenz. Der einzige Kandidat mit einer dokumentierten, etablierten klinischen Begründung – Mannitols ergänzende Rolle bei osmotischer Diurese zur Verringerung rhabdomyolyse-bedingter Nierenschädigungen während Krisen maligner Hyperthermie (Rang 4, L4/S1, „Forschungsfrage") – könnte eine produktivere Linie sein, die verfolgt werden kann, wenn weitere Umnutzungsarbeiten an diesem Arzneimittel geplant sind.
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

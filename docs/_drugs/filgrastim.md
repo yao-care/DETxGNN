@@ -29,87 +29,88 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Filgrastim: From Neutropenia to Primary Release Disorder of Platelets
+# Filgrastim: Von Neutropenie zur primären Freisetzungsstörung von Blutplättchen
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Filgrastim is a recombinant human granulocyte colony-stimulating factor (G-CSF), globally known for stimulating neutrophil production and mobilizing haematopoietic stem cells (a core step in autologous/allogeneic HSCT preparation); it is not currently marketed in Germany. The TxGNN model predicts it may be effective for **primary release disorder of platelets**, but the supporting evidence base is largely indirect — most identified clinical trials concern general HSCT procedures rather than the disease itself, and only one loosely related publication was found.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available in this evidence pack (drug not marketed in Germany; INN is globally known for chemotherapy-induced neutropenia and stem cell mobilization) |
-| Predicted New Indication | Primary release disorder of platelets |
-| TxGNN Prediction Score | 99.998% |
-| Evidence Level | L4 |
-| Germany Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Filgrastim ist ein rekombinanter humaner Granulozyten-Kolonie-stimulierender Faktor (G-CSF), weltweit bekannt für die Stimulation der Neutrophilenproduktion und die Mobilisierung hämatopoetischer Stammzellen (ein wesentlicher Schritt bei der Vorbereitung auf autologe/allogene Stammzelltransplantation [HSCT]); es ist derzeit nicht in Deutschland vermarktet. Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam ist für **primäre Freisetzungsstörung von Blutplättchen**, die unterstützende Evidenzbasis ist jedoch größtenteils indirekt – die meisten identifizierten klinischen Studien befassen sich mit allgemeinen HSCT-Verfahren statt mit der Erkrankung selbst, und es wurde nur eine schwach verwandte Publikation gefunden.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellüberblick
 
-Currently, detailed mechanism of action data is not available (blocking data gap DG002). Based on known pharmacology, filgrastim is a recombinant G-CSF whose core action is stimulating proliferation and differentiation of granulocyte precursors and mobilizing haematopoietic stem cells into peripheral blood — a function widely used clinically to prepare patients for autologous or allogeneic haematopoietic stem cell transplantation (HSCT).
-
-Primary release disorder of platelets (e.g., platelet storage pool disease) is a congenital platelet granule-release defect that, in severe cases, can theoretically be cured by allogeneic HSCT. The proposed mechanistic link is therefore indirect: filgrastim would play a **supportive role in stem-cell mobilization prior to transplant**, rather than directly correcting the megakaryocyte granule-release defect. No evidence in this evidence pack demonstrates a direct pharmacological effect of G-CSF on megakaryocyte granule release, and this limitation is reflected in the drug's repurposing rationale for this indication.
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Nicht in diesem Evidenzpaket verfügbar (Arzneistoff nicht in Deutschland vermarktet; INN ist weltweit bekannt für chemotherapieinduzierte Neutropenie und Stammzellmobilisierung) |
+| Vorhergesagte neue Indikation | Primäre Freisetzungsstörung von Blutplättchen |
+| TxGNN-Vorhersage-Score | 99.998% |
+| Evidenzstufe | L4 |
+| Marktstatus Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Zurückstellen |
 
 ---
 
-## Clinical Trial Evidence
+## Warum ist diese Vorhersage sinnvoll?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Derzeit sind detaillierte Daten zum Mechanismus nicht verfügbar (Datenlücke DG002 blockiert). Basierend auf bekannter Pharmakologie ist Filgrastim ein rekombinanter G-CSF, dessen Kernwirkung die Stimulation der Proliferation und Differenzierung von Granulozyten-Vorläuferzellen und die Mobilisierung hämatopoetischer Stammzellen in das periphere Blut ist – eine Funktion, die klinisch weit verbreitet zur Vorbereitung von Patienten auf autologe oder allogene Stammzelltransplantation (HSCT) eingesetzt wird.
+
+Primäre Freisetzungsstörung von Blutplättchen (z. B. Thrombozyten-Speicherkrankheit) ist ein angeborener Defekt der Blutplättchengranula-Freisetzung, der in schweren Fällen theoretisch durch allogene HSCT geheilt werden kann. Die vorgeschlagene mechanistische Verbindung ist daher indirekt: Filgrastim würde eine **unterstützende Rolle bei der Stammzellmobilisierung vor der Transplantation** spielen, statt den Megakaryozyten-Granula-Freisetzungsdefekt direkt zu korrigieren. Keine Evidenz in diesem Evidenzpaket zeigt einen direkten pharmakologischen Effekt von G-CSF auf die Megakaryozyten-Granula-Freisetzung, und diese Limitation wird in der Begründung der Arzneimittelumwidmung für diese Indikation widergespiegelt.
+
+---
+
+## Evidenz aus klinischen Studien
+
+| Studiennummer | Phase | Status | Einschluss | Wichtigste Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT00281879](https://clinicaltrials.gov/study/NCT00281879) | Phase 2 | Terminated | 200 | Unrelated donor HSCT for hematological malignancies; G-CSF used for stem cell mobilization/donor lymphocyte infusion support, not disease-specific |
-| [NCT02646098](https://clinicaltrials.gov/study/NCT02646098) | Phase 2 | Completed | 64 | CD34+ selected vs. unselected autologous transplant in lymphoma; relevance graded C — shares G-CSF mobilization process but not directly related to platelet release disorder |
-| [NCT04047628](https://clinicaltrials.gov/study/NCT04047628) | Phase 3 | Recruiting | 156 | Autologous HSCT vs. best available therapy for treatment-resistant multiple sclerosis; relevance graded C — unrelated indication |
-| [NCT06859424](https://clinicaltrials.gov/study/NCT06859424) | Phase 2 | Recruiting | 358 | Post-transplant cyclophosphamide-based GVHD prophylaxis in mismatched unrelated donor PBSC transplant |
-| [NCT00245037](https://clinicaltrials.gov/study/NCT00245037) | Phase 1/2 | Completed | 147 | Non-myeloablative allogeneic HSCT using busulfan/fludarabine/TBI for hematologic malignancies; relevance graded C |
-| [NCT05170828](https://clinicaltrials.gov/study/NCT05170828) | Phase 1 | Withdrawn | 0 | Cryopreserved HLA-mismatched unrelated donor bone marrow transplant with PTCy |
-| [NCT01335932](https://clinicaltrials.gov/study/NCT01335932) | Phase 2 | Completed | 160 | Ganciclovir/valganciclovir for CMV reactivation prevention in lung injury/respiratory failure; not directly related to platelet disorders |
-| [NCT00043979](https://clinicaltrials.gov/study/NCT00043979) | Phase 2 | Completed | 60 | Allogeneic/syngeneic blood stem cell transplant for high-risk pediatric sarcomas |
-| [NCT04540120](https://clinicaltrials.gov/study/NCT04540120) | Phase 2 | Terminated | 49 | Dapansutrile for moderate COVID-19 with cytokine release syndrome; unrelated to platelet release disorders |
-| [NCT05436418](https://clinicaltrials.gov/study/NCT05436418) | Phase 1/2 | Recruiting | 260 | Lowest effective dose of post-transplant cyclophosphamide + sirolimus/MMF for GVHD prophylaxis after PBSC transplant |
+| [NCT00281879](https://clinicaltrials.gov/study/NCT00281879) | Phase 2 | Beendet | 200 | HSCT von nicht verwandtem Spender für hämatologische Malignome; G-CSF wird für Stammzellmobilisierung/Unterstützung durch Donor-Lymphozyten-Infusion eingesetzt, nicht spezifisch für die Erkrankung |
+| [NCT02646098](https://clinicaltrials.gov/study/NCT02646098) | Phase 2 | Abgeschlossen | 64 | CD34+-selektierte vs. nicht selektierte autologe Transplantation bei Lymphom; Relevanz bewertet als C – teilt den G-CSF-Mobilisierungsprozess, ist aber nicht direkt mit Blutplättchen-Freisetzungsstörung verwandt |
+| [NCT04047628](https://clinicaltrials.gov/study/NCT04047628) | Phase 3 | Rekrutierung läuft | 156 | Autologe HSCT vs. beste verfügbare Therapie für therapieresistente Multiple Sklerose; Relevanz bewertet als C – nicht verwandte Indikation |
+| [NCT06859424](https://clinicaltrials.gov/study/NCT06859424) | Phase 2 | Rekrutierung läuft | 358 | Post-Transplantations-Cyclophosphamid-basierte GVHD-Prophylaxe bei nicht übereinstimmender nicht verwandter PBSC-Transplantation |
+| [NCT00245037](https://clinicaltrials.gov/study/NCT00245037) | Phase 1/2 | Abgeschlossen | 147 | Nicht-myeloablative allogene HSCT mit busulfan/fludarabine/TBI für hämatologische Malignome; Relevanz bewertet als C |
+| [NCT05170828](https://clinicaltrials.gov/study/NCT05170828) | Phase 1 | Zurückgezogen | 0 | Kryokonserviertes HLA-fehlangepasstes nicht verwandtes Knochenmarktransplantat mit PTCy |
+| [NCT01335932](https://clinicaltrials.gov/study/NCT01335932) | Phase 2 | Abgeschlossen | 160 | Ganciclovir/valganciclovir zur CMV-Reaktivierungsprävention bei Lungenschaden/Atemwegsversagen; nicht direkt mit Blutplättchenstörungen verwandt |
+| [NCT00043979](https://clinicaltrials.gov/study/NCT00043979) | Phase 2 | Abgeschlossen | 60 | Allogene/syngene Stammzelltransplantation aus Blut für Hochrisiko-pädiatrische Sarkome |
+| [NCT04540120](https://clinicaltrials.gov/study/NCT04540120) | Phase 2 | Beendet | 49 | Dapansutrile bei moderatem COVID-19 mit Zytokinfreisetzungssyndrom; nicht mit Blutplättchen-Freisetzungsstörungen verwandt |
+| [NCT05436418](https://clinicaltrials.gov/study/NCT05436418) | Phase 1/2 | Rekrutierung läuft | 260 | Niedrigste effektive Dosis Post-Transplantations-Cyclophosphamid + sirolimus/MMF zur GVHD-Prophylaxe nach PBSC-Transplantation |
 
-Note: None of the above trials directly investigate filgrastim's efficacy in primary release disorder of platelets; most are general HSCT-support studies where G-CSF mobilization is a procedural component rather than the study's therapeutic focus.
+Hinweis: Keine der oben genannten Studien untersucht direkt die Wirksamkeit von Filgrastim bei primärer Freisetzungsstörung von Blutplättchen; die meisten sind allgemeine HSCT-Unterstützungsstudien, bei denen G-CSF-Mobilisierung eine verfahrensbezogene Komponente statt des therapeutischen Schwerpunkts der Studie darstellt.
 
 ---
 
-## Literature Evidence
+## Evidenz aus der Literatur
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Journal | Wichtigste Ergebnisse |
 |------|-----|------|------|---------|
-| [29770133](https://pubmed.ncbi.nlm.nih.gov/29770133/) | 2018 | Cohort | Frontiers in Immunology | G-CSF mobilization in healthy donors preferentially mobilizes lymphocyte subsets during peripheral blood stem cell collection; describes G-CSF's mobilization mechanism but does not address platelet granule release function |
+| [29770133](https://pubmed.ncbi.nlm.nih.gov/29770133/) | 2018 | Kohorte | Frontiers in Immunology | G-CSF-Mobilisierung bei gesunden Spendern mobilisiert bevorzugt Lymphozyten-Subpopulationen während der peripheren Blut-Stammzellentnahme; beschreibt G-CSFs Mobilisierungsmechanismus, befasst sich aber nicht mit der Blutplättchen-Granula-Freisetzungsfunktion |
 
 ---
 
-## Germany Market Information
+## Marktinformation Deutschland
 
-Filgrastim currently has no marketing authorization on record in this evidence pack (market status: not marketed, 0 authorizations).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (TFDA label warnings/contraindications data collection is pending — see data gap DG001.)
+Filgrastim hat derzeit keine Zulassung auf dem Markt in diesem Evidenzpaket verzeichnet (Marktstatus: nicht vermarktet, 0 Zulassungen).
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsüberlegungen
 
-**Decision: Hold**
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. (Sammlung von TFDA-Kennzeichnungswarnungen/Kontraindikationen ist ausstehend – siehe Datenlücke DG001.)
 
-**Rationale:**
-The mechanistic link between filgrastim and primary release disorder of platelets is indirect (supportive stem-cell mobilization for HSCT, not a direct effect on platelet granule release), and the identified clinical trials are predominantly unrelated general HSCT studies (mostly graded "C" relevance or still pending review) rather than dedicated studies of this indication. Evidence level is L4 (mechanism/preclinical inference only), which does not support progression past initial screening.
+---
 
-**To proceed, the following is needed:**
-- TFDA label warnings/contraindications (DG001, blocking — required before any S1 safety evaluation)
-- Detailed mechanism of action data confirming/refuting a direct effect of G-CSF on megakaryocyte granule release (DG002)
-- Completion of relevance grading for the remaining "pending" clinical trials
-- Dedicated preclinical or clinical evidence directly linking filgrastim to platelet release disorder treatment, rather than inferred via general HSCT mobilization use
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Zurückstellen**
+
+**Begründung:**
+Die mechanistische Verbindung zwischen Filgrastim und primärer Freisetzungsstörung von Blutplättchen ist indirekt (unterstützende Stammzellmobilisierung für HSCT, keine direkte Wirkung auf Blutplättchen-Granula-Freisetzung), und die identifizierten klinischen Studien sind überwiegend nicht verwandte allgemeine HSCT-Studien (meist als „C"-Relevanz bewertet oder noch ausstehende Überprüfung) statt dedizierte Studien zu dieser Indikation. Die Evidenzstufe ist L4 (nur Mechanismus/präklinische Ableitung), was eine Weiterleitung über das initiale Screening hinaus nicht unterstützt.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+- TFDA-Kennzeichnungswarnungen/Kontraindikationen (DG001, blockiert – erforderlich vor jeglicher S1-Sicherheitsbewertung)
+- Detaillierte Daten zum Mechanismus, die einen direkten Effekt von G-CSF auf die Megakaryozyten-Granula-Freisetzung bestätigen/widerlegen (DG002)
+- Fertigstellung der Relevanzbeurteilung für die verbleibenden „ausstehenden" klinischen Studien
+- Dedizierte präklinische oder klinische Evidenz, die Filgrastim direkt mit der Behandlung von Blutplättchen-Freisetzungsstörungen verknüpft, statt abgeleitet über die allgemeine HSCT-Mobilisierungsanwendung
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

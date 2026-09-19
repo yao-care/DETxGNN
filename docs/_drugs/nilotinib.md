@@ -29,90 +29,91 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Nilotinib: From Chronic Myeloid Leukemia to Dermatofibrosarcoma Protuberans
+# Nilotinib: Von chronischer myeloischer Leukämie zu Dermatofibrosarcoma protuberans
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Nilotinib is a BCR-ABL/PDGFR/KIT tyrosine kinase inhibitor originally developed for **chronic myeloid leukemia (CML)**. The TxGNN model predicts it may be effective for **dermatofibrosarcoma protuberans (DFSP)**, a rare PDGFRB-driven soft-tissue sarcoma, but this direction is currently supported by only **1 mechanism-focused publication and no registered clinical trials**.
+Nilotinib ist ein BCR-ABL/PDGFR/KIT-Tyrosinkinaseinhibitor, der ursprünglich für **chronische myeloische Leukämie (CML)** entwickelt wurde. Das TxGNN-Modell sagt voraus, dass es bei **Dermatofibrosarcoma protuberans (DFSP)**, einem seltenen PDGFRB-getriebenen Weichgewebesarkom, wirksam sein könnte, aber diese Richtung wird derzeit nur durch **1 mechanismusfokussierte Publikation und keine registrierten klinischen Studien** gestützt.
 
-*Note: The evidence pack did not return a regulatory-sourced original indication or MOA text for this drug (both flagged as data gaps — DG001/DG002); the indication above is well-established public drug information for nilotinib, not extracted from the evidence pack.*
+*Anmerkung: Das Beweispaket hat keinen regulatorisch gesammelten Originaltext für Indikation oder Wirkmechanismus für dieses Arzneimittel zurückgegeben (beide als Datenlücken gekennzeichnet — DG001/DG002); die oben angegebene Indikation ist gut etablierte öffentliche Arzneimittelinformation für Nilotinib, nicht aus dem Beweispaket extrahiert.*
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Punkt | Inhalt |
 |------|------|
-| Original Indication | Chronic Myeloid Leukemia (not present in evidence pack; publicly known indication) |
-| Predicted New Indication | Dermatofibrosarcoma Protuberans |
-| TxGNN Prediction Score | 99.31% |
-| Evidence Level | L4 |
-| Germany Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | Chronische myeloische Leukämie (nicht im Beweispaket vorhanden; öffentlich bekannte Indikation) |
+| Vorhergesagte neue Indikation | Dermatofibrosarcoma protuberans |
+| TxGNN-Vorhersage-Score | 99.31% |
+| Evidenzlevel | L4 |
+| Marktstatus in Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Überprüfung erforderlich |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage angemessen?
 
-Currently, detailed mechanism of action data is not available for nilotinib in this evidence pack. Based on known information, nilotinib is a second-generation tyrosine kinase inhibitor that targets BCR-ABL, PDGFR, and KIT, and its efficacy in chronic myeloid leukemia is well established.
+Derzeit sind detaillierte Wirkmechanismus-Daten für Nilotinib in diesem Beweispaket nicht verfügbar. Basierend auf bekannten Informationen ist Nilotinib ein Tyrosinkinaseinhibitor der zweiten Generation, der BCR-ABL, PDGFR und KIT anzielt, und seine Wirksamkeit bei chronischer myeloischer Leukämie ist gut etabliert.
 
-The supporting literature (Roskoski, 2018) reviews the mechanistic role of small-molecule PDGFR inhibitors in treating neoplastic disorders. Dermatofibrosarcoma protuberans is characteristically driven by a COL1A1-PDGFB gene fusion that causes constitutive activation of PDGFR-beta signaling. Because nilotinib inhibits PDGFR, there is a plausible mechanistic rationale for repurposing — this mirrors the rationale that has led to off-label use of the related TKI imatinib in DFSP.
+Die unterstützende Literatur (Roskoski, 2018) überprüft die mechanistische Rolle von kleinen Molekülen, die PDGFR hemmen, bei der Behandlung neoplastischer Erkrankungen. Dermatofibrosarcoma protuberans ist charakteristisch durch eine COL1A1-PDGFB-Genfusion getrieben, die zu konstitutiver Aktivierung der PDGFR-Beta-Signalisierung führt. Da Nilotinib PDGFR hemmt, gibt es eine plausible mechanistische Begründung für die Umwidmung — dies spiegelt die Begründung wider, die zur Off-Label-Anwendung des verwandten Tyrosinkinaseinhibitors Imatinib bei DFSP geführt hat.
 
-However, this rationale is currently based on class-level mechanism literature rather than nilotinib- or DFSP-specific clinical data, which limits confidence in the prediction at this stage.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+Diese Begründung basiert jedoch derzeit auf Klassen-Level-Mechanismus-Literatur statt auf Nilotinib- oder DFSP-spezifischen klinischen Daten, was das Vertrauen in die Vorhersage in diesem Stadium begrenzt.
 
 ---
 
-## Literature Evidence
+## Evidenz aus klinischen Studien
 
-| PMID | Year | Type | Journal | Key Findings |
+Derzeit keine verwandten klinischen Studien registriert
+
+---
+
+## Literaturbeweise
+
+| PMID | Jahr | Typ | Zeitschrift | Wichtigste Ergebnisse |
 |------|-----|------|------|---------|
-| [29408302](https://pubmed.ncbi.nlm.nih.gov/29408302/) | 2018 | Review | Pharmacological Research | Reviews the role of small-molecule PDGFR inhibitors (a class that includes nilotinib) in treating neoplastic disorders driven by aberrant PDGF/PDGFR signaling |
+| [29408302](https://pubmed.ncbi.nlm.nih.gov/29408302/) | 2018 | Übersicht | Pharmacological Research | Überprüft die Rolle von kleinen Molekülen zur PDGFR-Hemmung (eine Klasse, die Nilotinib einschließt) bei der Behandlung neoplastischer Erkrankungen, die durch aberrante PDGF/PDGFR-Signalisierung angetrieben werden |
 
 ---
 
-## Germany Market Information
+## Marktinformation für Deutschland
 
-Nilotinib is currently **not marketed** in Germany according to the available regulatory data (0 authorizations on record), so no product/authorization table is available.
+Nilotinib wird derzeit **nicht vermarktet** in Deutschland gemäß verfügbaren Regulierungsdaten (0 Zulassungen vorhanden), daher ist keine Produkt-/Zulassungstabelle verfügbar.
 
 ---
 
-## Cytotoxicity
+## Zytotoxizität
 
-| Item | Content |
+| Punkt | Inhalt |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (BCR-ABL/PDGFR/KIT tyrosine kinase inhibitor) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| Zytotoxizitätsklassifizierung | Zielgerichtete Therapie (BCR-ABL/PDGFR/KIT-Tyrosinkinaseinhibitor) |
+| Risiko der Myelosuppression | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Packungsbeilage |
+| Klassifizierung der Emetogenität | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Packungsbeilage |
+| Überwachungspunkte | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Packungsbeilage |
+| Handhabungsschutz | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Packungsbeilage |
 
 ---
 
-## Safety Considerations
+## Sicherheitserwägungen
 
-Please refer to the package insert for safety information.
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformation.
 
 ---
 
-## Conclusion and Next Steps
+## Fazit und nächste Schritte
 
-**Decision: Hold**
+**Entscheidung: Überprüfung erforderlich**
 
-**Rationale:**
-The prediction rests on a single class-level mechanism review with no DFSP- or nilotinib-specific clinical trials, and the evidence pack is missing critical MOA, label warning, contraindication, and Germany regulatory data — insufficient to move past initial screening.
+**Begründung:**
+Die Vorhersage beruht auf einer einzelnen Klassen-Level-Mechanismus-Übersicht ohne DFSP- oder Nilotinib-spezifische klinische Studien, und das Beweispaket vermisst kritische Wirkmechanismus-, Etikett-Warnhinweise-, Kontraindikations- und Deutschland-Regulierungsdaten — unzureichend, um über die initiale Screening-Phase hinauszugehen.
 
-**To proceed, the following is needed:**
-- TFDA/BfArM label warnings and contraindications (DG001, blocking)
-- DrugBank-sourced mechanism of action data (DG002)
-- DFSP-specific clinical evidence (case series, trials, or off-label use reports for TKIs in DFSP)
-- Confirmation of Germany market/authorization status for nilotinib
+**Um fortzufahren, wird folgendes benötigt:**
+- TFDA/BfArM-Etikett-Warnhinweise und Kontraindikationen (DG001, blockierend)
+- Wirkmechanismus-Daten aus DrugBank (DG002)
+- DFSP-spezifische klinische Evidenz (Fallserien, Studien oder Berichte zur Off-Label-Anwendung von Tyrosinkinaseinhibitoren bei DFSP)
+- Bestätigung des Marktstatus/der Zulassungssituation für Nilotinib in Deutschland
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

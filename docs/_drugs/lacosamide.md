@@ -29,114 +29,115 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Lacosamide: From Epilepsy to Migraine Prevention
+# Lacosamid: Von Epilepsie zur Migräneprophylaxe
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Lacosamide is a third-generation antiepileptic drug (AED), used clinically for partial-onset seizures via sodium-channel modulation. Among 10 candidate indications flagged by the TxGNN model, **migraine disorder** stands out as the most evidence-backed repurposing candidate — not the top TxGNN score, but the only one supported by a **completed head-to-head Phase 3 RCT with published positive results**, **7 total clinical trials**, and **17 supporting publications**, including direct mechanistic (CGRP/cortical spreading depolarization) and clinical efficacy data.
+Lacosamid ist ein Antiepileptikum der dritten Generation (AED), das klinisch zur Behandlung von fokalen Anfallsformen durch Natrium-Kanal-Modulation eingesetzt wird. Unter 10 vom TxGNN-Modell identifizierten Kandidatenindikationen hebt sich **Migräne** als die am besten evidenzgestützte Umwidmungskandidatin hervor – nicht das höchste TxGNN-Score, aber die einzige, die durch eine **abgeschlossene direkte Phase-3-RCT mit veröffentlichten positiven Ergebnissen**, **7 klinische Studien insgesamt** und **17 unterstützende Publikationen** unterstützt wird, einschließlich direkter mechanistischer (CGRP/kortikale spreading depolarization) und klinischer Wirksamkeitsdaten.
 
-> Note: This evidence pack contains 10 TxGNN-predicted indications for lacosamide, each independently scored. Rank 1 by raw TxGNN score ("manic bipolar affective disorder," 99.96%) currently has only a single recruiting trial and unclassified/tangential literature — its evidence base is far weaker than migraine's. This report focuses on **migraine disorder**, the indication with the strongest actual clinical evidence in the pack (evidence level L1, decision stage S3).
+> Hinweis: Dieses Evidenzpaket enthält 10 vom TxGNN vorhergesagte Indikationen für Lacosamid, jede einzeln bewertet. Der erste Rang nach TxGNN-Rohscore („Bipolare Störung, manische Episode", 99,96%) hat derzeit nur eine rekrutierungslaufende Studie und unklassifizierte/periphere Literatur – seine Evidenzbasis ist erheblich schwächer als die von Migräne. Dieser Bericht konzentriert sich auf **Migräne**, die Indikation mit der stärksten tatsächlichen klinischen Evidenz im Paket (Evidenzstufe L1, Entscheidungsstufe S3).
 
 ---
 
-## Quick Overview
+## Schnelltabelle
 
-| Item | Content |
+| Element | Inhalt |
 |------|------|
-| Original Indication | Epilepsy (partial-onset seizures) — inferred from supporting literature ("FDA-approved for treating partial seizures," third-generation AED); formal label/indication text is not available in this evidence pack |
-| Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.87% |
-| Evidence Level | L1 |
-| Germany Market Status | ✗ Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Originalindikation | Epilepsie (fokale Anfallsformen) – aus unterstützender Literatur hergeleitet („FDA-zugelassen zur Behandlung fokaler Anfälle", AED der dritten Generation); formales Label/Indikationstext ist in diesem Evidenzpaket nicht verfügbar |
+| Vorhergesagte neue Indikation | Migräne |
+| TxGNN-Vorhersage-Score | 99,87% |
+| Evidenzstufe | L1 |
+| Marktlage Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlen Entscheidung | Fortfahren mit Sicherheitsmaßnahmen |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage sinnvoll?
 
-Currently, detailed mechanism of action (MOA) data is not available in this evidence pack (flagged as data gap DG002). Based on the supporting literature, lacosamide selectively enhances the **slow inactivation of voltage-gated sodium (Nav) channels**, stabilizing hyperexcitable neuronal membranes — the same mechanistic class as other AEDs (topiramate, valproate) already approved for migraine prophylaxis.
+Derzeit sind detaillierte Daten zum Wirkmechanismus (MOA) in diesem Evidenzpaket nicht verfügbar (gekennzeichnet als Datenlücke DG002). Nach der unterstützenden Literatur erhöht Lacosamid selektiv die **langsame Inaktivierung von spannungsgesteuerten Natrium-(Nav-)Kanälen**, stabilisiert hyperexzitable neuronale Membranen – dieselbe mechanistische Klasse wie andere AED (Topiramat, Valproat), die bereits für die Migräneprophylaxe zugelassen sind.
 
-Beyond this shared Nav-channel mechanism, lacosamide has a more specific proposed pathway for migraine: it interacts with **collapsin response mediator protein 2 (CRMP2)**, inhibiting its phosphorylation and thereby reducing **CGRP (calcitonin gene-related peptide) release** in the trigeminal system — the central pathophysiological driver of migraine attacks (PMID 27917413). This is corroborated by an animal model showing lacosamide suppresses **cortical spreading depolarization** (PMID 40670944), and by clinical biomarker data showing reduced serum CGRP after lacosamide treatment in episodic migraine patients (PMID 38502425).
+Über diesen gemeinsamen Nav-Kanal-Mechanismus hinaus hat Lacosamid einen spezifischeren vorgeschlagenen Weg für Migräne: Es interagiert mit **Collapsin-Response-Mediator-Protein 2 (CRMP2)**, hemmt dessen Phosphorylierung und reduziert damit die **CGRP-(Calcitonin-Gene-Related-Peptide-)Freisetzung** im Trigeminussystem – dem zentralen pathophysiologischen Treiber von Migräneanfällen (PMID 27917413). Dies wird durch ein Tiermodell gestützt, das zeigt, dass Lacosamid **kortikale Ausbreitungsdepolarisation** unterdrückt (PMID 40670944), und durch klinische Biomarkerdaten, die nach Lacosamid-Behandlung eine reduzierte Serum-CGRP bei episodischen Migränepatienten zeigen (PMID 38502425).
 
-The epilepsy-to-migraine link is also clinically precedented: several AEDs (topiramate, valproate) are established first-line migraine preventives, and epilepsy/migraine share overlapping channelopathy biology (e.g., SCN1A-related phenotypes span both conditions, PMID 35696452). This convergence of a plausible shared mechanism, a specific CGRP-related pathway, and completed head-to-head clinical trials makes the migraine prediction considerably more defensible than the model's raw ranking alone would suggest.
+Der Epilepsie-zu-Migräne-Link ist auch klinisch etabliert: Mehrere AED (Topiramat, Valproat) sind etablierte First-Line-Migränepräventiva, und Epilepsie/Migräne teilen sich überlappende Channelopathie-Biologie (z. B. SCN1A-bezogene Phänotypen erstrecken sich auf beide Zustände, PMID 35696452). Diese Konvergenz eines plausiblen gemeinsamen Mechanismus, eines spezifischen CGRP-bezogenen Weges und abgeschlossener direkter klinischer Studien macht die Migräne-Vorhersage erheblich überzeugender als das alleinige rohe Ranking des Modells vermuten würde.
 
 ---
 
-## Clinical Trial Evidence
+## Evidenz aus klinischen Studien
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Studiennummer | Phase | Status | Einschluss | Wichtigste Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT05851781](https://clinicaltrials.gov/study/NCT05851781) | Phase 3 | Completed | 600 | Lacosamide vs propranolol for episodic migraine prevention; direct head-to-head comparison with published positive results (see PMID 41863672) |
-| [NCT00440518](https://clinicaltrials.gov/study/NCT00440518) | Phase 2 | Completed | 218 | Multicenter, randomized, double-blind, placebo-controlled trial of 100mg/day and 300mg/day lacosamide for migraine prophylaxis |
-| [NCT05632133](https://clinicaltrials.gov/study/NCT05632133) | Phase 3 | Completed | 200 | Randomized pilot study: lacosamide 50mg BID add-on vs ibuprofen alone; assessed serum CGRP changes in episodic migraine |
-| [NCT06243692](https://clinicaltrials.gov/study/NCT06243692) | Phase 3 | Recruiting (Unknown) | 600 | Lacosamide vs topiramate; monthly migraine days reduction and ≥50% responder rate; completion/results status unconfirmed |
-| [NCT06347497](https://clinicaltrials.gov/study/NCT06347497) | Phase 3 | Recruiting | 600 | Zonisamide vs topiramate — same-class (AED) comparator trial, does not test lacosamide directly |
-| [NCT06361446](https://clinicaltrials.gov/study/NCT06361446) | Phase 3 | Recruiting | 600 | Zonisamide vs propranolol — same-class comparator trial, does not test lacosamide directly |
-| [NCT06485726](https://clinicaltrials.gov/study/NCT06485726) | Phase 4 | Recruiting | 600 | Valproate vs propranolol — same-class comparator trial, does not test lacosamide directly |
+| [NCT05851781](https://clinicaltrials.gov/study/NCT05851781) | Phase 3 | Abgeschlossen | 600 | Lacosamid vs Propranolol zur episodischen Migräneprophylaxe; direkter Kopf-an-Kopf-Vergleich mit veröffentlichten positiven Ergebnissen (siehe PMID 41863672) |
+| [NCT00440518](https://clinicaltrials.gov/study/NCT00440518) | Phase 2 | Abgeschlossen | 218 | Multizenter, randomisierte, doppelblinde, placebokontrollierte Studie mit 100 mg/Tag und 300 mg/Tag Lacosamid zur Migräneprophylaxe |
+| [NCT05632133](https://clinicaltrials.gov/study/NCT05632133) | Phase 3 | Abgeschlossen | 200 | Randomisierte Pilotstudie: Lacosamid 50 mg BID additiv vs Ibuprofen allein; bewertet Serum-CGRP-Veränderungen bei episodischer Migräne |
+| [NCT06243692](https://clinicaltrials.gov/study/NCT06243692) | Phase 3 | Rekrutierung läuft (Unbekannt) | 600 | Lacosamid vs Topiramat; Verringerung der Migränetage pro Monat und ≥50%-Ansprechquote; Abschluss-/Ergebnisstatus unbestätigt |
+| [NCT06347497](https://clinicaltrials.gov/study/NCT06347497) | Phase 3 | Rekrutierung läuft | 600 | Zonisamid vs Topiramat – Vergleichsstudie derselben Klasse (AED), testet Lacosamid nicht direkt |
+| [NCT06361446](https://clinicaltrials.gov/study/NCT06361446) | Phase 3 | Rekrutierung läuft | 600 | Zonisamid vs Propranolol – Vergleichsstudie derselben Klasse (AED), testet Lacosamid nicht direkt |
+| [NCT06485726](https://clinicaltrials.gov/study/NCT06485726) | Phase 4 | Rekrutierung läuft | 600 | Valproat vs Propranolol – Vergleichsstudie derselben Klasse (AED), testet Lacosamid nicht direkt |
 
 ---
 
-## Literature Evidence
+## Evidenz aus der Literatur
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Zeitschrift | Wichtigste Ergebnisse |
 |------|-----|------|------|---------|
-| [41863672](https://pubmed.ncbi.nlm.nih.gov/41863672/) | 2026 | RCT | Molecular Neurobiology | Published results of the lacosamide vs propranolol Phase 3 RCT; lacosamide effective as alternative preventive for patients intolerant of propranolol/standard AEDs |
-| [38502425](https://pubmed.ncbi.nlm.nih.gov/38502425/) | 2024 | RCT (biomarker) | Acta Neurologica Belgica | Lacosamide add-on reduced serum CGRP levels in episodic migraine patients, supporting a CGRP-mediated mechanism |
-| [22779776](https://pubmed.ncbi.nlm.nih.gov/22779776/) | 2013 | Systematic Review/Meta-analysis | Epilepsia | Pooled safety/tolerability profile of lacosamide across RCTs; relevant to migraine-population risk-benefit assessment |
-| [40670944](https://pubmed.ncbi.nlm.nih.gov/40670944/) | 2025 | Animal/Mechanistic | The Journal of Headache and Pain | Lacosamide suppresses cortical spreading depolarization in mice, a core migraine pathophysiology model |
-| [27917413](https://pubmed.ncbi.nlm.nih.gov/27917413/) | 2016 | Preclinical | Pain Reports | (S)-Lacosamide inhibits CGRP release via CRMP2 in preclinical cephalic pain models |
-| [35363878](https://pubmed.ncbi.nlm.nih.gov/35363878/) | 2022 | Systematic Review (Cochrane) | Cochrane Database Syst Rev | Network meta-analysis of AED monotherapy efficacy in epilepsy; background context for AED class effect |
-| [22862686](https://pubmed.ncbi.nlm.nih.gov/22862686/) | 2012 | Review | Expert Opinion on Emerging Drugs | Overview of emerging treatments for chronic/refractory migraine |
-| [38870050](https://pubmed.ncbi.nlm.nih.gov/38870050/) | 2024 | Review | Expert Review of Neurotherapeutics | Update on third-generation anticonvulsants in trigeminal neuralgia/headache pharmacotherapy (tangential context) |
-| [25196459](https://pubmed.ncbi.nlm.nih.gov/25196459/) | 2014 | Review | Expert Opinion on Drug Metabolism & Toxicology | PK/PD interactions between antiepileptics and antidepressants; relevant to comorbid migraine-psychiatric prescribing |
-| [21565431](https://pubmed.ncbi.nlm.nih.gov/21565431/) | 2011 | Review | Neurología | General overview of lacosamide as a new AED with broad therapeutic perspectives |
+| [41863672](https://pubmed.ncbi.nlm.nih.gov/41863672/) | 2026 | RCT | Molecular Neurobiology | Veröffentlichte Ergebnisse der Phase-3-RCT Lacosamid vs Propranolol; Lacosamid wirksam als alternative Prophylaxe für Patienten, die gegenüber Propranolol/Standard-AED intolerant sind |
+| [38502425](https://pubmed.ncbi.nlm.nih.gov/38502425/) | 2024 | RCT (Biomarker) | Acta Neurologica Belgica | Additive Lacosamid-Gabe reduzierte die Serum-CGRP-Spiegel bei episodischen Migränepatienten, was einen CGRP-vermittelten Mechanismus unterstützt |
+| [22779776](https://pubmed.ncbi.nlm.nih.gov/22779776/) | 2013 | Systematischer Review/Meta-Analyse | Epilepsia | Gepooltes Sicherheits-/Verträglichkeitsprofil von Lacosamid über RCTs hinweg; relevant für Nutzen-Risiko-Bewertung bei Migränepopulation |
+| [40670944](https://pubmed.ncbi.nlm.nih.gov/40670944/) | 2025 | Tiermodell/Mechanistisch | The Journal of Headache and Pain | Lacosamid unterdrückt kortikale Ausbreitungsdepolarisation bei Mäusen, ein Kern-pathophysiologisches Modell von Migräne |
+| [27917413](https://pubmed.ncbi.nlm.nih.gov/27917413/) | 2016 | Präklinisch | Pain Reports | (S)-Lacosamid hemmt CGRP-Freisetzung über CRMP2 in präklinischen zephalen Schmerzmodellen |
+| [35363878](https://pubmed.ncbi.nlm.nih.gov/35363878/) | 2022 | Systematischer Review (Cochrane) | Cochrane Database Syst Rev | Netzwerk-Meta-Analyse der AED-Monotherapie-Wirksamkeit bei Epilepsie; Hintergrundkontext für AED-Klasseneffekt |
+| [22862686](https://pubmed.ncbi.nlm.nih.gov/22862686/) | 2012 | Review | Expert Opinion on Emerging Drugs | Übersicht über neue Behandlungen für chronische/refraktäre Migräne |
+| [38870050](https://pubmed.ncbi.nlm.nih.gov/38870050/) | 2024 | Review | Expert Review of Neurotherapeutics | Update zu Antikonvulsiva der dritten Generation bei Trigeminusneuralgie/Kopfschmerz-Pharmakotherapie (peripherer Kontext) |
+| [25196459](https://pubmed.ncbi.nlm.nih.gov/25196459/) | 2014 | Review | Expert Opinion on Drug Metabolism & Toxicology | PK/PD-Wechselwirkungen zwischen Antiepileptika und Antidepressiva; relevant für komorbide Migräne-psychiatrische Verschreibung |
+| [21565431](https://pubmed.ncbi.nlm.nih.gov/21565431/) | 2011 | Review | Neurología | Allgemeiner Überblick über Lacosamid als neues AED mit breiten therapeutischen Perspektiven |
 
 ---
 
-## Germany Market Information
+## Marktlage Deutschland
 
-Lacosamide is currently **not marketed** under this evidence pack's regulatory data — 0 marketing authorizations are on record, and no licensed products/dosage forms are available to summarize.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug interaction data are not available in this evidence pack; DG001 flags TFDA/BfArM label data as a blocking gap for full safety assessment.)
+Lacosamid wird derzeit nach den regulatorischen Daten dieses Evidenzpakets **nicht vermarktet** – Es sind 0 Marketingzulassungen verzeichnet, und es sind keine zugelassenen Produkte/Darreichungsformen zusammenzufassen.
 
 ---
 
-## Other Screened Indications (Same Drug, Not Prioritized)
+## Sicherheitserwägungen
 
-For context, the same evidence pack screened 9 additional TxGNN-predicted indications for lacosamide. All were assessed as **Hold** or exploratory-only due to weak/absent direct evidence, mismatched trial data, or mechanistically opposing signals:
+Bitte beachten Sie die Gebrauchsinformation für Sicherheitsinformationen. (Wichtige Warnungen, Kontraindikationen und Arzneimittelwechselwirkungsdaten sind in diesem Evidenzpaket nicht verfügbar; DG001 kennzeichnet TFDA/BfArM-Labeldaten als Blockierungslücke für eine vollständige Sicherheitsbewertung.)
 
-| Indication | TxGNN Score | Evidence Level | Recommendation | Note |
+---
+
+## Andere untersuchte Indikationen (gleiches Arzneimittel, nicht priorisiert)
+
+Um Kontext zu geben, hat dasselbe Evidenzpaket 9 weitere vom TxGNN vorhergesagte Indikationen für Lacosamid untersucht. Alle wurden aufgrund schwacher/fehlender direkter Evidenz, nicht übereinstimmender Studiendaten oder mechanistisch gegensätzlicher Signale als **Hold** oder nur explorativ bewertet:
+
+| Indikation | TxGNN-Score | Evidenzstufe | Empfehlung | Hinweis |
 |---|---|---|---|---|
-| Manic bipolar affective disorder | 99.96% | pending | pending | 1 recruiting Phase 3 trial; literature mostly unclassified |
-| Myofascial pain syndrome | 99.81% | L2 | Research Question | 1 completed Phase 2 fibromyalgia trial (n=159) |
-| Insomnia | 99.83% | L3 | Research Question | Sleep-effect data from an epilepsy trial, not primary-insomnia designed |
-| Migraine with brainstem aura | 99.82% | L4 | Hold | Channelopathy mechanism only, no direct treatment data |
-| Tourette syndrome | 99.95% | L5 | Hold | Literature suggests AEDs may *induce* tics — opposing direction |
-| Nephrogenic SIAD | 99.91% | L5 | Hold | AEDs associated with SIADH risk — safety signal, not efficacy |
-| Trichotillomania | 99.92% | L5 | Hold | No supporting evidence |
-| Obsessive-compulsive disorder | 99.78% | L5 | Hold | Only trial found is about alcohol craving, data mismatch |
-| Papillary conjunctivitis | 99.72% | L5 | Hold | No pharmacological rationale |
+| Bipolare Störung, manische Episode | 99,96% | ausstehend | ausstehend | 1 rekrutierungslaufende Phase-3-Studie; Literatur größtenteils unklassifiziert |
+| Myofasziales Schmerzsyndrom | 99,81% | L2 | Forschungsfrage | 1 abgeschlossene Phase-2-Fibromyalgie-Studie (n=159) |
+| Schlaflosigkeit | 99,83% | L3 | Forschungsfrage | Schlaf-Effekt-Daten aus einer Epilepsie-Studie, nicht für primäre Schlaflosigkeit konzipiert |
+| Migräne mit Hirnstammara | 99,82% | L4 | Hold | Nur Channelopathie-Mechanismus, keine direkten Behandlungsdaten |
+| Tourette-Syndrom | 99,95% | L5 | Hold | Literatur deuten darauf hin, dass AED Tics *auslösen* können – entgegengesetzte Richtung |
+| Nephrisches SIADH | 99,91% | L5 | Hold | AED mit SIADH-Risiko assoziiert – Sicherheitssignal, nicht Wirksamkeit |
+| Trichotillomanie | 99,92% | L5 | Hold | Keine unterstützenden Evidenz |
+| Zwangsstörung | 99,78% | L5 | Hold | Einzige gefundene Studie ist über Alkoholverlangen, Datenfehlanpassung |
+| Papilläre Konjunktivitis | 99,72% | L5 | Hold | Keine pharmakologische Begründung |
 
 ---
 
-## Conclusion and Next Steps
+## Schlussfolgerung und nächste Schritte
 
-**Decision: Proceed with Guardrails**
+**Entscheidung: Fortfahren mit Sicherheitsmaßnahmen**
 
-**Rationale:**
-Migraine disorder is supported by a completed, published Phase 3 head-to-head RCT (lacosamide vs. propranolol) plus converging mechanistic evidence (CGRP suppression, cortical spreading depolarization inhibition), meeting an L1 evidence threshold. However, the drug is not currently marketed in Germany, and core safety/label data are missing, warranting cautious, guardrailed progression rather than unrestricted advancement.
+**Begründung:**
+Migräne wird durch eine abgeschlossene, veröffentlichte Phase-3-RCT (Lacosamid vs. Propranolol) plus konvergierende mechanistische Evidenz (CGRP-Unterdrückung, Cortical-Spreading-Depolarisations-Hemmung) gestützt und erfüllt eine L1-Evidenzschwelle. Jedoch wird das Arzneimittel derzeit nicht in Deutschland vermarktet, und wichtige Sicherheits-/Labeldaten fehlen, was eine vorsichtige, mit Sicherheitsmaßnahmen versehene Weiterführung anstelle unrestriktiver Weiterentwicklung rechtfertigt.
 
-**To proceed, the following is needed:**
-- TFDA/BfArM official label data — warnings, contraindications, and drug interactions (DG001, blocking)
-- Confirmed mechanism of action documentation from DrugBank (DG002)
-- Outcome/results retrieval for NCT06243692 (status currently "Unknown" — lacosamide vs. topiramate)
-- A germany-specific regulatory pathway assessment, given the drug currently has zero local marketing authorizations
-- A safety monitoring plan reflecting known AED-class risks (e.g., mood/behavioral effects, cardiac conduction), pending full label confirmation
+**Für die Weiterführung ist Folgendes erforderlich:**
+- Offizielle TFDA/BfArM-Labeldaten – Warnungen, Kontraindikationen und Arzneimittelwechselwirkungen (DG001, blockierend)
+- Bestätigte Wirkmechanismus-Dokumentation aus DrugBank (DG002)
+- Ergebnis-/Ergebnisabruf für NCT06243692 (Status derzeit „Unbekannt" – Lacosamid vs. Topiramat)
+- Eine Deutschland-spezifische Bewertung des Regulierungswegs, da das Arzneimittel derzeit null lokale Marketingzulassungen hat
+- Ein Sicherheitsüberwachungsplan, der bekannte AED-Klassenrisiken widerspiegelt (z. B. Stimmungs-/Verhaltenseffekte, Herzleitung), unter Vorbehalt der vollständigen Labelbestätigung
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

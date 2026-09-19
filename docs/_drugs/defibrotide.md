@@ -29,60 +29,63 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Defibrotide: From Undocumented Original Indication to Pseudo-von Willebrand Disease
+# Defibrotide: Von nicht dokumentierter ursprünglicher Indikation zu Pseudo-von-Willebrand-Krankheit
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Defibrotide's original approved indication and mechanism of action are not documented in this evidence pack, and the drug is not currently marketed. The TxGNN model predicts it may be effective for **Pseudo-von Willebrand Disease**, but this prediction is currently supported by **no clinical trials and no literature** — it is a purely computational inference.
+Die ursprüngliche zugelassene Indikation von Defibrotide und sein Wirkmechanismus sind nicht in diesem Evidenzpaket dokumentiert, und das Arzneimittel ist derzeit nicht auf dem Markt. Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam bei der **Pseudo-von-Willebrand-Krankheit** ist, aber diese Vorhersage wird derzeit von **keinen klinischen Studien und keiner Literatur** unterstützt — es ist eine rein rechnerische Inferenz.
 
-## Quick Overview
+## Kurzübersicht
 
-| Item | Content |
+| Eintrag | Inhalt |
 |------|------|
-| Original Indication | Not documented in evidence pack (no license/indication text available) |
-| Predicted New Indication | Pseudo-von Willebrand disease |
-| TxGNN Prediction Score | 99.91% |
-| Evidence Level | L5 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | Nicht im Evidenzpaket dokumentiert (keine Lizenz-/Indikationstexte verfügbar) |
+| Vorhergesagte neue Indikation | Pseudo-von-Willebrand-Krankheit |
+| TxGNN-Vorhersagepunktzahl | 99.91% |
+| Evidenzlevel | L5 |
+| Marktstand in Deutschland | ✗ Nicht auf dem Markt |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Halten |
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage vernünftig?
 
-Detailed mechanism of action data for defibrotide is not available in this evidence pack, and no original indication is on file. Based on general pharmacological knowledge, defibrotide is a polydeoxyribonucleotide-derived agent with antithrombotic, profibrinolytic, and endothelial-protective properties — properties that are documented later in this report for the related "thrombotic thrombocytopenic purpura" prediction (rank 4).
+Detaillierte Wirkmechanismus-Daten für Defibrotide sind in diesem Evidenzpaket nicht verfügbar, und es liegt keine ursprüngliche Indikation vor. Basierend auf allgemeinem pharmakologischen Wissen ist Defibrotide ein polydeoxyribonukleotid-abgeleitetes Mittel mit antithrombotischen, profibrinolytischen und endothelschutzenden Eigenschaften — Eigenschaften, die später in diesem Bericht für die verwandte Vorhersage „thrombotische thrombozytopenische Purpura" (Rang 4) dokumentiert sind.
 
-For pseudo-von Willebrand disease specifically, the repurposing rationale explicitly states that this connection is **not** based on any verifiable mechanistic literature. The model's high score (0.999) is presumed to arise from graph-level similarity between this disease and other platelet-function disorders in the knowledge graph, rather than any known pharmacological or clinical relationship. No mechanistic argument for this pairing can currently be substantiated.
+Für die Pseudo-von-Willebrand-Krankheit speziell erklärt die Umwidmungsbegründung explizit, dass diese Verbindung **nicht** auf nachprüfbarer mechanistischer Literatur basiert. Es wird angenommen, dass der hohe Wert des Modells (0.999) aus der Ähnlichkeit auf Graphenebene zwischen dieser Krankheit und anderen Thrombozytenfunktionsstörungen im Wissensgraph resultiert, und nicht aus bekannten pharmakologischen oder klinischen Beziehungen. Derzeit lässt sich kein mechanistisches Argument für diese Paarung substantiieren.
 
-## Clinical Trial Evidence
+## Evidenz aus klinischen Studien
 
-Currently no related clinical trials registered.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
-## Literature Evidence
+## Evidenz aus der Literatur
 
-Currently no related literature available.
+Derzeit ist keine zugehörige Literatur verfügbar.
 
-## Germany Market Information
+## Marktinformationen für Deutschland
 
-No authorization records are available — defibrotide is not currently marketed (0 licenses on file).
+Es sind keine Zulassungsunterlagen verfügbar — Defibrotide ist derzeit nicht auf dem Markt (0 Lizenzen auf Datei).
 
-## Safety Considerations
+## Sicherheitsaspekte
 
-Please refer to the package insert for safety information.
+Bitte beachten Sie die Gebrauchsinformation für Sicherheitsinformationen.
 
-*(Note: safety warnings, contraindications, and drug-interaction data are all currently missing from the evidence pack. TFDA label warnings/contraindications are flagged as a **blocking** data gap for safety pre-screening.)*
+*(Hinweis: Sicherheitswarnungen, Gegenanzeigen und Arzneimittelwechselwirkungsdaten fehlen derzeit im Evidenzpaket. TFDA-Etikett-Warnungen/Gegenanzeigen werden als **blockierende** Datenlücke für die Sicherheits-Vorprüfung markiert.)*
 
-## Conclusion and Next Steps
+## Fazit und nächste Schritte
 
-**Decision: Hold**
+**Entscheidung: Halten**
 
-**Rationale:**
-This candidate has no clinical trial or literature support (evidence level L5) — the prediction rests solely on the TxGNN model score, with no mechanistic or empirical corroboration. It cannot proceed past the initial screening stage (S0) as-is.
+**Begründung:**
 
-**To proceed, the following is needed:**
-- Original indication and mechanism-of-action data (currently blocking mechanistic-relevance analysis)
-- TFDA/official label warnings and contraindications (blocking — required before any safety pre-screening, S1)
-- Targeted literature/trial search specific to pseudo-von Willebrand disease and defibrotide, since none currently exist
-- Consider re-evaluating lower-ranked but better-evidenced candidates in this same evidence pack: **thrombotic thrombocytopenic purpura** (rank 4) and **thrombocytopenic purpura** (rank 10) both reached evidence level L3 / decision stage S1 ("Research Question") with multiple case series and a 2023 in-vitro mechanistic study, though one adverse-event case report (PMID 7896218) also describes defibrotide-associated TTP and should be weighed as a safety signal.
+Dieser Kandidat hat keine Unterstützung durch klinische Studien oder Literatur (Evidenzlevel L5) — die Vorhersage beruht ausschließlich auf dem TxGNN-Modellwert, ohne mechanistische oder empirische Bestätigung. Er kann mit dem aktuellen Stand nicht über die anfängliche Screening-Phase (S0) hinausgehen.
+
+**Um fortzufahren, wird folgendes benötigt:**
+
+- Ursprüngliche Indikation und Wirkmechanismus-Daten (derzeit blockiert Mechanismus-Relevanz-Analyse)
+- TFDA/offizielle Etikett-Warnungen und Gegenanzeigen (blockiert — erforderlich vor einer Sicherheits-Vorprüfung, S1)
+- Gezielt Literatur-/Studiensuche speziell für Pseudo-von-Willebrand-Krankheit und Defibrotide, da derzeit keine vorhanden ist
+- Erwägen Sie die erneute Bewertung von Kandidaten mit niedrigerem Rang, aber besserer Evidenz aus dem gleichen Evidenzpaket: **thrombotische thrombozytopenische Purpura** (Rang 4) und **thrombozytopenische Purpura** (Rang 10) erreichten beide Evidenzlevel L3 / Entscheidungsstufe S1 („Forschungsfrage") mit mehreren Fallserien und einer 2023er In-vitro-Mechanismus-Studie, obwohl ein Nebenwirkungsbericht (PMID 7896218) auch Defibrotide-assoziierte TTP beschreibt und als Sicherheitssignal bewertet werden sollte.
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

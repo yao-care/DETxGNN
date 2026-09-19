@@ -29,61 +29,62 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Canakinumab: Evaluation Incomplete — No TxGNN Prediction Available
+# Canakinumab: Bewertung unvollständig — Keine TxGNN-Vorhersage verfügbar
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Canakinumab (DB06168, brand: Ilaris) is a fully human anti–interleukin-1β (IL-1β) monoclonal antibody widely used in autoinflammatory conditions.
-The current Evidence Pack contains **no TxGNN predicted indications** and multiple blocking data gaps, making a complete repurposing evaluation impossible at this stage.
-**Immediate data remediation is required before this candidate can advance.**
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not available in Evidence Pack |
-| Predicted New Indication | None — TxGNN results not loaded |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | N/A — no predictions available |
-| Taiwan Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+Canakinumab (DB06168, Handelsname: Ilaris) ist ein vollständig humanisierter monoklonaler Antikörper gegen Interleukin-1β (IL-1β), der weit verbreitet bei autoinflammatorischen Erkrankungen eingesetzt wird.
+Das aktuelle Evidence Pack enthält **keine von TxGNN vorhergesagten Indikationen** und mehrere blockierende Datenlücken, was eine umfassende Bewertung der Arzneimittelumpositionierung in diesem Stadium unmöglich macht.
+**Sofortige Datenbereinigung ist erforderlich, bevor dieser Kandidat voranschreitet.**
 
 ---
 
-## Why This Evaluation Cannot Proceed
+## Schnellübersicht
 
-The Evidence Pack for Canakinumab (DB06168) is missing inputs at two levels:
-
-**1. No repurposing target identified**
-The `predicted_indications` array is empty. Without a TxGNN-predicted indication, there is no repurposing hypothesis to evaluate, and the core structure of this report — mechanistic plausibility, clinical trial evidence, and literature support — cannot be assembled.
-
-**2. Drug-level data gaps block safety and mechanism review**
-
-| Gap ID | Item | Severity | Impact |
-|--------|------|----------|--------|
-| DG001 | TFDA package insert (warnings / contraindications) | **Blocking** | Safety pre-screening (S1) cannot be completed |
-| DG002 | Mechanism of action (MOA) | High | Mechanistic plausibility analysis blocked |
-
-Currently, detailed mechanism of action data is not available. Based on general pharmacological knowledge, Canakinumab is an anti-IL-1β biologic; its efficacy in autoinflammatory diseases has been established, and its anti-inflammatory mechanism is mechanistically relevant to a broad range of inflammatory and metabolic conditions. However, a formal MOA-to-new-indication mapping cannot be generated without confirmed DrugBank data in the Evidence Pack.
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Nicht im Evidence Pack verfügbar |
+| Vorhergesagte neue Indikation | Keine — TxGNN-Ergebnisse nicht geladen |
+| TxGNN-Vorhersage-Score | N/A |
+| Evidenzstufe | N/A — keine Vorhersagen verfügbar |
+| Taiwan-Marktstatus | Nicht vermarktet |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | **Halten** |
 
 ---
 
-## Conclusion and Next Steps
+## Warum diese Bewertung nicht fortgesetzt werden kann
 
-**Decision: Hold**
+Das Evidence Pack für Canakinumab (DB06168) weist Eingaben auf zwei Ebenen auf:
 
-**Rationale:**
-No repurposing candidate has been identified by TxGNN, and two blocking/high-severity data gaps prevent both safety and mechanistic evaluation. The candidate cannot advance until the Evidence Pack is completed and re-run.
+**1. Kein Umpositionierungsziel identifiziert**
+Das Array `predicted_indications` ist leer. Ohne eine von TxGNN vorhergesagte Indikation gibt es keine Umpositionierungshypothese zum Bewerten, und die Kernstruktur dieses Berichts — mechanistische Plausibilität, Evidenz aus klinischen Studien und Literaturunterstützung — kann nicht zusammengestellt werden.
 
-**To proceed, the following is needed:**
+**2. Datenlücken auf Arzneimittelebene blockieren Sicherheits- und Mechanismusbewertung**
 
-- **Run TxGNN prediction pipeline** for DB06168 to generate `predicted_indications` entries with scores, clinical trials, and literature
-- **Retrieve MOA from DrugBank API** (DG002 remediation) — query `/drugs/DB06168` for `mechanism-of-action`, `pharmacodynamics`, and `targets`
-- **Download and parse TFDA package insert PDF** (DG001 remediation) — extract warnings, contraindications, and special population restrictions
-- **Re-generate Evidence Pack** with all inputs confirmed before initiating the next evaluation cycle
+| Lücken-ID | Element | Schweregrad | Auswirkung |
+|-----------|---------|-------------|-----------|
+| DG001 | TFDA-Packungsbeilage (Warnhinweise / Kontraindikationen) | **Blockierend** | Sicherheits-Vorprüfung (S1) kann nicht abgeschlossen werden |
+| DG002 | Wirkmechanismus (MOA) | Hoch | Analyse der mechanistischen Plausibilität blockiert |
+
+Derzeit sind detaillierte Wirkmechanismus-Daten nicht verfügbar. Basierend auf allgemeinem pharmakologischen Wissen ist Canakinumab ein Anti-IL-1β-Biologikum; seine Wirksamkeit bei autoinflammatorischen Erkrankungen wurde etabliert, und sein entzündungshemmender Mechanismus ist mechanistisch relevant für eine breite Palette von entzündlichen und metabolischen Erkrankungen. Allerdings kann eine formale MOA-zu-Indikations-Zuordnung ohne bestätigte DrugBank-Daten im Evidence Pack nicht generiert werden.
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Halten**
+
+**Begründung:**
+Kein Umpositionierungskandidat wurde von TxGNN identifiziert, und zwei blockierende/schwerwiegende Datenlücken verhindern sowohl Sicherheits- als auch mechanistische Bewertung. Der Kandidat kann nicht voranschreiten, bis das Evidence Pack abgeschlossen und erneut ausgeführt wird.
+
+**Um fortzufahren, ist folgendes erforderlich:**
+
+- **Führe die TxGNN-Vorhersage-Pipeline aus** für DB06168, um `predicted_indications`-Einträge mit Scores, klinischen Studien und Literatur zu generieren
+- **Rufe MOA von der DrugBank-API ab** (DG002-Behebung) — rufe `/drugs/DB06168` ab für `mechanism-of-action`, `pharmacodynamics` und `targets`
+- **Lade die TFDA-Packungsbeilage-PDF herunter und analysiere sie** (DG001-Behebung) — extrahiere Warnhinweise, Kontraindikationen und spezielle Populationsbeschränkungen
+- **Regeneriere das Evidence Pack** mit allen bestätigten Eingaben, bevor der nächste Bewertungszyklus eingeleitet wird
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

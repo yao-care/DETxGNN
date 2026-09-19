@@ -29,81 +29,76 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-Using the drug-repurposing evaluation report template (v5) to produce this report directly from the supplied Evidence Pack — no additional tool calls are needed since all required fields are already in the JSON.
+# Aflibercept: Von ophthalmologischer Gefäßerkrankung zu Esotropie
 
-Note upfront: several fields the template expects (original indication license text, MOA, safety data, market authorizations) are empty or flagged as data gaps in this pack, so I've followed the "omit / state unavailable, never print the literal `[Data Gap]` token" rule throughout.
+## Zusammenfassung in einem Satz
 
----
-
-# Aflibercept: From Ophthalmic Vascular Disease to Esotropia
-
-## One-Sentence Summary
-
-Aflibercept is a VEGF-trap fusion protein whose established clinical use is concentrated in ophthalmic vascular disorders (e.g., wet age-related macular degeneration, diabetic macular edema, retinopathy of prematurity), though no formal license or indication text is present in this evidence pack. The TxGNN model predicts a possible association with **Esotropia**, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it rests entirely on the model's score.
+Aflibercept ist ein VEGF-Trap-Fusionsprotein, dessen etablierte klinische Verwendung auf ophthalmologische Gefäßerkrankungen konzentriert ist (z. B. feuchte altersabhängige Makuladegeneration, diabetisches Makulaödem, Frühgeborenenretinopathie), wobei in diesem Evidence Pack kein formaler Lizenzen- oder Indicationstext vorhanden ist. Das TxGNN-Modell prognostiziert eine mögliche Assoziation mit **Esotropie**, aber diese Vorhersage wird derzeit durch **0 klinische Studien** und **0 Publikationen** unterstützt – sie beruht vollständig auf dem Modellscore.
 
 ---
 
-## Quick Overview
+## Schneller Überblick
 
-| Item | Content |
-|------|------|
-| Original Indication | Not captured in structured license data; per known pharmacology, aflibercept is used in ophthalmic vascular disease (wet AMD, diabetic macular edema, ROP) |
-| Predicted New Indication | Esotropia |
-| TxGNN Prediction Score | 99.38% |
-| Evidence Level | L5 |
-| Germany Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
-
----
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap — DrugBank MOA query needed). Based on known pharmacological background, aflibercept is a VEGF-trap fusion protein that inhibits VEGF-A, VEGF-B, and PlGF; its clinical use has concentrated on angiogenic/vascular-proliferative eye diseases such as wet AMD, diabetic macular edema, and retinopathy of prematurity (ROP).
-
-Esotropia, by contrast, is a neuromuscular/refractive eye-alignment disorder — its pathophysiology (extraocular muscle imbalance, accommodative refractive error, cranial nerve dysfunction) has no established connection to the VEGF signaling pathway. The only proposed link in this evidence pack is an indirect hypothesis: treating vascular retinopathies such as ROP might secondarily lower the risk of resulting strabismus. This is a plausible-sounding but **unverified, speculative connection** — it is not supported by any clinical trial or literature evidence, and should not be treated as mechanistic support.
-
-Given the absence of both direct mechanistic rationale and confirmatory evidence, this prediction should be read as a hypothesis-generating signal from the model only, not as a clinically grounded repurposing candidate at this stage.
+| Element | Inhalt |
+|---------|--------|
+| Originäre Indikation | Nicht in strukturierten Lizenzdaten erfasst; gemäß bekannter Pharmakologie wird Aflibercept bei ophthalmologischen Gefäßerkrankungen verwendet (feuchte AMD, diabetisches Makulaödem, Frühgeborenenretinopathie) |
+| Prognostizierte neue Indikation | Esotropie |
+| TxGNN-Vorhersage-Score | 99.38% |
+| Evidenzebene | L5 |
+| Marktstatus in Deutschland | ✗ Nicht im Handel |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Zurückstellen |
 
 ---
 
-## Clinical Trial Evidence
+## Warum ist diese Vorhersage angemessen?
 
-Currently no related clinical trials registered.
+Derzeit sind detaillierte Daten zum Wirkmechanismus nicht verfügbar (gekennzeichnet als eine Datenlücke mit hohem Schweregrad – DrugBank MOA-Abfrage erforderlich). Basierend auf bekanntem pharmakologischem Hintergrund ist Aflibercept ein VEGF-Trap-Fusionsprotein, das VEGF-A, VEGF-B und PlGF hemmt; seine klinische Verwendung hat sich auf angiogene/vaskulär-proliferative Augenerkrankungen wie feuchte AMD, diabetisches Makulaödem und Frühgeborenenretinopathie konzentriert.
 
----
+Esotropie ist dagegen eine neuromuskuläre/refraktive Augenausrichtungsstörung – ihre Pathophysiologie (Ungleichgewicht der äußeren Augenmuskeln, akkommodativer Refraktionsfehler, Hirnnervenläsion) hat keine etablierte Verbindung zum VEGF-Signalweg. Die einzige in diesem Evidence Pack vorgeschlagene Verbindung ist eine indirekte Hypothese: Die Behandlung von vaskulären Retinopathien wie der Frühgeborenenretinopathie könnte sekundär das Risiko eines daraus resultierenden Strabismus senken. Dies ist eine plausibel klingende, aber **ungeprüfte, spekulative Verbindung** – sie wird durch keine klinische Studie oder Literaturbelege gestützt und sollte in diesem Stadium nicht als mechanistische Unterstützung behandelt werden.
 
-## Literature Evidence
-
-Currently no related literature available.
+Angesichts des Fehlens sowohl einer direkten mechanistischen Begründung als auch von bestätigenden Belegen sollte diese Vorhersage als ein hypothesengenerierendes Signal des Modells gelesen werden, nicht als ein klinisch fundierter Repurposing-Kandidat in diesem Stadium.
 
 ---
 
-## Germany Market Information
+## Belege aus klinischen Studien
 
-No market authorizations are on record for aflibercept in this dataset (market status: not marketed, 0 authorizations).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (Note: TFDA package-insert warnings/contraindications are flagged in this pack as a **Blocking** data gap — DG001 — and must be resolved before any safety pre-assessment can proceed.)
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Conclusion and Next Steps
+## Belege aus der Literatur
 
-**Decision: Hold**
+Derzeit ist keine zugehörige Literatur verfügbar.
 
-**Rationale:**
-The prediction is supported only by the TxGNN model score (Evidence Level L5, decision stage S0) — there are zero clinical trials and zero publications linking aflibercept to esotropia, and the proposed mechanistic link is explicitly speculative with no established pharmacological basis connecting the VEGF pathway to esotropia's neuromuscular/refractive etiology.
+---
 
-**To proceed, the following is needed:**
-- Resolve DG001 (Blocking): TFDA/regulatory package-insert warnings and contraindications, required before any safety pre-assessment
-- Resolve DG002 (High): confirmed mechanism of action from DrugBank to properly assess mechanistic plausibility
-- Confirmed original indication / license data (currently absent from regulatory records)
-- Any preclinical, mechanistic, or observational literature specifically examining VEGF pathway involvement in strabismus/esotropia
-- DDI data (currently "not found") before any co-prescription risk can be evaluated
+## Marktinformationen für Deutschland
+
+Für Aflibercept sind in diesem Datensatz keine Marktzulassungen dokumentiert (Marktstatus: nicht im Handel, 0 Zulassungen).
+
+---
+
+## Sicherheitsaspekte
+
+Bitte beziehen Sie sich auf die Packungsbeilage für Sicherheitsinformationen. (Hinweis: Warnungen und Kontraindikationen der TFDA-Packungsbeilage werden in diesem Pack als eine **blockierende** Datenlücke gekennzeichnet – DG001 – und müssen aufgelöst werden, bevor eine Sicherheitsvorabschätzung durchgeführt werden kann.)
+
+---
+
+## Fazit und Nächste Schritte
+
+**Entscheidung: Zurückstellen**
+
+**Begründung:**
+Die Vorhersage wird nur durch den TxGNN-Modellscore unterstützt (Evidenzebene L5, Entscheidungsstufe S0) – es gibt null klinische Studien und null Publikationen, die Aflibercept mit Esotropie verbinden, und die vorgeschlagene mechanistische Verbindung ist explizit spekulativ ohne etablierte pharmakologische Grundlage, die den VEGF-Weg mit der Pathogenese der Esotropie (neuromuskulär/refraktiv) verbindet.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+- DG001 (blockierend) auflösen: Warnungen und Kontraindikationen der TFDA-Packungsbeilage, erforderlich vor jeder Sicherheitsvorabschätzung
+- DG002 (hoher Schweregrad) auflösen: bestätigter Wirkmechanismus von DrugBank zur angemessenen Beurteilung der mechanistischen Plausibilität
+- Bestätigte originäre Indikation / Lizenzdaten (derzeit in regulatorischen Unterlagen nicht vorhanden)
+- Präklinische, mechanistische oder observationale Literatur, die sich speziell mit der VEGF-Weg-Beteiligung bei Strabismus/Esotropie befasst
+- DDI-Daten (derzeit „nicht gefunden") vor jeder Beurteilung von Wechselwirkungsrisiken bei Co-Verschreibung
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

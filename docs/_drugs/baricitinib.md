@@ -29,76 +29,77 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Baricitinib: From No Established Indication to Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome
+# Baricitinib: Von keiner etablierten Indikation zum Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Baricitinib is a JAK1/JAK2 inhibitor whose original indication data is not available in this evidence pack.
-The TxGNN model predicts a possible association with **Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome**,
-but this prediction is supported by **0 clinical trials** and **0 publications**, and no biological rationale connects the mechanism to this rare developmental disorder.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available (no approved indications recorded in evidence pack) |
-| Predicted New Indication | Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L5 |
-| Germany Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Baricitinib ist ein JAK1/JAK2-Inhibitor, dessen Originaldaten zur Indikation nicht in diesem Evidenzpaket verfügbar sind.
+Das TxGNN-Modell sagt eine mögliche Assoziation mit dem **Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome** voraus,
+aber diese Vorhersage wird durch **0 klinische Studien** und **0 Veröffentlichungen** gestützt, und kein biologisches Rationale verbindet den Wirkmechanismus mit dieser seltenen Entwicklungsstörung.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Currently, detailed mechanism of action data is not available. Based on known general pharmacology, baricitinib is a JAK1/JAK2 inhibitor used to modulate inflammatory signaling pathways; however, this evidence pack contains no confirmed original indication, no MOA detail, and no safety data to anchor a mechanistic comparison.
-
-Colobomatous microphthalmia-rhizomelic dysplasia syndrome is a rare congenital disorder typically linked to genetic mutations affecting eye and skeletal development (e.g., transcription factor or ciliary gene defects), not to inflammatory or autoimmune pathways. There is no known biological pathway connecting JAK1/JAK2 inhibition to this developmental syndrome.
-
-Given the complete absence of clinical trial or literature support, and the structural/developmental (rather than inflammatory) nature of the predicted disease, this TxGNN score most likely reflects graph-embedding proximity rather than a genuine pharmacological signal, and should be treated as a likely false positive pending further validation.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Nicht verfügbar (keine genehmigten Indikationen im Evidenzpaket erfasst) |
+| Vorhergesagte neue Indikation | Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome |
+| TxGNN-Vorhersage-Score | 99.94% |
+| Evidenzstufe | L5 |
+| Marktstatus Deutschland | Nicht im Handel (Nicht im Handel) |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | Abwarten |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage vernünftig?
 
-Currently no related literature available
+Derzeit sind detaillierte Daten zum Wirkmechanismus nicht verfügbar. Auf der Grundlage der bekannten allgemeinen Pharmakologie ist Baricitinib ein JAK1/JAK2-Inhibitor, der zur Modulation entzündlicher Signalisierungswege verwendet wird; jedoch enthält dieses Evidenzpaket keine bestätigte Originalindikation, keine MOA-Details und keine Sicherheitsdaten, um einen mechanistischen Vergleich zu unterstützen.
 
----
+Das Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome ist eine seltene angeborene Störung, die typischerweise mit genetischen Mutationen verbunden ist, die die Augen- und Skelettentwicklung beeinflussen (z. B. Transkriptionsfaktor- oder ziliäre Gendefekte), nicht mit entzündlichen oder Autoimmunwegen. Es gibt keinen bekannten biologischen Signalweg, der JAK1/JAK2-Inhibition mit diesem Entwicklungs-Syndrom verbindet.
 
-## Germany Market Information
-
-No marketing authorizations recorded — this drug is currently not marketed in Germany (0 licenses on file).
+Angesichts des völligen Mangels an Unterstützung durch klinische Studien oder Literatur und der strukturellen/entwicklungsbedingten (eher als entzündlichen) Natur der vorhergesagten Erkrankung spiegelt dieser TxGNN-Score höchstwahrscheinlich eher die Nähe in der Graphen-Einbettung wider als ein echtes pharmakologisches Signal, und er sollte bis zur weiteren Validierung als wahrscheinlich falsches Positiv betrachtet werden.
 
 ---
 
-## Safety Considerations
+## Evidenz aus klinischen Studien
 
-Please refer to the package insert for safety information.
+Derzeit keine zugehörigen klinischen Studien registriert
 
 ---
 
-## Conclusion and Next Steps
+## Evidenz aus der Literatur
 
-**Decision: Hold**
+Derzeit keine zugehörige Literatur verfügbar
 
-**Rationale:**
-There is no clinical, literature, or mechanistic evidence supporting this indication — only a TxGNN similarity score with no biological plausibility for a congenital developmental syndrome. Core drug-level data (MOA, indications, safety) are also missing, making any repurposing assessment premature.
+---
 
-**To proceed, the following is needed:**
-- TFDA/BfArM package insert (warnings, contraindications) — currently blocking (DG001)
-- Verified original mechanism of action (DrugBank API query) — currently high priority (DG002)
-- Confirmed original approved indication(s) for baricitinib
-- Independent literature or preclinical evidence linking JAK inhibition to this syndrome before any further evaluation
+## Marktinformation Deutschland
+
+Keine Vermarktungsgenehmigungen erfasst — dieses Medikament wird derzeit in Deutschland nicht vermarktet (0 Lizenzen erfasst).
+
+---
+
+## Sicherheitsüberlegungen
+
+Weitere Sicherheitsinformationen finden Sie in der Packungsbeilage.
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Abwarten**
+
+**Begründung:**
+Es gibt keine klinischen, literarischen oder mechanistischen Belege für diese Indikation — nur einen TxGNN-Ähnlichkeitsscore ohne biologische Plausibilität für ein angeborenes Entwicklungssyndrom. Die zentralen Arzneimitteldaten (Wirkmechanismus, Indikationen, Sicherheit) fehlen ebenfalls, was eine Repurposing-Bewertung zu diesem Zeitpunkt verfrüht macht.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+- TFDA/BfArM-Packungsbeilage (Warnhinweise, Kontraindikationen) — derzeit blockierend (DG001)
+- Überprüfter ursprünglicher Wirkmechanismus (DrugBank-API-Abfrage) — derzeit hohe Priorität (DG002)
+- Bestätigte ursprüngliche zugelassene Indikation(en) für Baricitinib
+- Unabhängige Literatur- oder präklinische Belege, die JAK-Inhibition mit diesem Syndrom verbinden, vor jeder weiteren Bewertung
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

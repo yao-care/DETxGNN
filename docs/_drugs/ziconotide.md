@@ -29,83 +29,84 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Ziconotide: From an Undocumented Original Indication to Predicted Migraine Disorder
+# Ziconotide: Vom unzureichend dokumentierten ursprünglichen Indikationsgebiet zur vorhergesagten Migräne
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Ziconotide (DrugBank DB06283) is an N-type (Cav2.2) voltage-gated calcium channel blocker; its officially approved indication and mechanism-of-action text are not available in this evidence pack, and the drug is currently **not marketed in Germany**.
-> The TxGNN model predicts it may be effective for **Migraine Disorder**, with a prediction score of **99.92%**, but this is currently supported by only **0 clinical trials** and **1 case report**.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | No data available — drug is not marketed in Germany, no approved indication text on record (data gap) |
-| Predicted New Indication | Migraine Disorder |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L4 |
-| Germany Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Ziconotide (DrugBank DB06283) ist ein Blocker des N-Typ-(Cav2.2)-spannungsgesteuerten Calciumkanals; sein offiziell zugelassenes Indikationsgebiet und der Text zum Wirkmechanismus sind in diesem Evidenzpaket nicht verfügbar, und das Arzneimittel ist derzeit **nicht auf dem deutschen Markt erhältlich**.
+> Das TxGNN-Modell prognostiziert, dass es bei **Migränestörungen** wirksam sein könnte, mit einer Vorhersagequote von **99,92%**, aber dies wird derzeit nur durch **0 klinische Studien** und **1 Fallbericht** gestützt.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Currently, detailed mechanism of action data is not available in this evidence pack (flagged as data gap DG002, severity High). Based on the literature captured for this candidate, ziconotide is described as an N-type (Cav2.2) voltage-gated calcium channel blocker, administered intrathecally for the management of severe chronic pain — this description comes from a case report (PMID 26392785) rather than an official label source, and should be treated as supporting context only, not confirmed prescribing information.
-
-The proposed rationale for migraine is mechanistic rather than clinical: N-type calcium channels in the dorsal horn regulate release of substance P and CGRP, and CGRP signaling is central to the pathophysiology of migraine via the trigeminovascular system. In theory, intrathecal calcium channel blockade could dampen this pain-signaling pathway. However, this remains a single-case, hypothesis-generating observation — there is a substantial practical gap between ziconotide's only approved route of administration (implanted intrathecal pump) and standard migraine treatment practice (oral, injectable, or nasal therapies), which limits real-world applicability even if the mechanistic hypothesis is directionally correct.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
-
----
-
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [26392785](https://pubmed.ncbi.nlm.nih.gov/26392785/) | 2015 | Case Report | Journal of Pain Research | Single case of resolution of chronic migraine headaches following intrathecal ziconotide, framed as an off-label observation in a chronic severe pain patient |
+| Element | Inhalt |
+|--------|--------|
+| Ursprüngliches Indikationsgebiet | Keine Daten verfügbar – Arzneimittel nicht auf dem deutschen Markt, kein zugelassener Indikationstext dokumentiert (Datenlücke) |
+| Vorhergesagtes neues Indikationsgebiet | Migränestörungen |
+| TxGNN-Vorhersagequote | 99,92% |
+| Evidenzstufe | L4 |
+| Marktstatus Deutschland | ✗ Nicht erhältlich |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | Halten |
 
 ---
 
-## Germany Market Information
+## Warum ist diese Vorhersage sinnvoll?
 
-No authorizations on record. Ziconotide is currently **not marketed in Germany** (`market_status: Not marketed`, `total_licenses: 0`), so no product/indication table can be generated from this evidence pack.
+Derzeit sind detaillierte Wirkmechanismus-Daten in diesem Evidenzpaket nicht verfügbar (gekennzeichnet als Datenlücke DG002, Schweregrad Hoch). Basierend auf der für diesen Kandidaten erfassten Literatur wird Ziconotide als Blocker des N-Typ-(Cav2.2)-spannungsgesteuerten Calciumkanals beschrieben, verabreicht intrathekale für die Behandlung von schweren chronischen Schmerzen – diese Beschreibung stammt aus einem Fallbericht (PMID 26392785) und nicht aus einer offiziellen Marktzulassungsquelle und sollte nur als unterstützendes Kontext-Material behandelt werden, nicht als bestätigte Verschreibungsinformation.
 
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*Note: The safety module in this evidence pack (key warnings, contraindications, drug–drug interactions) is entirely unpopulated and flagged as a **Blocking** data gap (DG001 — TFDA/German label warnings and contraindications). This means a formal S1 safety pre-assessment cannot be completed until label data is retrieved.*
+Die vorgeschlagene Begründung für Migräne ist eher mechanistisch als klinisch: N-Typ-Calciumkanäle im Dorsalhorn regulieren die Freisetzung von Substanz P und CGRP, und CGRP-Signalisierung ist zentral für die Pathophysiologie der Migräne über das trigeminovaskuläre System. Theoretisch könnte eine intrathekale Calciumkanal-Blockade diesen Schmerzsignalisierungsweg abschwächen. Dies bleibt jedoch eine einzelne Fallbeobachtung mit Hypothesen-generierendem Charakter – es gibt eine erhebliche praktische Lücke zwischen Ziconotides einzig zugelassener Verabreichungsroute (implantierte intrathekale Pumpe) und der standardmäßigen Migränetherapie-Praxis (orale, injizierbare oder nasale Therapien), was die klinische Anwendbarkeit einschränkt, selbst wenn die mechanistische Hypothese in die richtige Richtung weist.
 
 ---
 
-## Additional Note on Lower-Ranked Predictions
+## Klinische Studien-Evidenz
 
-Nine other TxGNN-predicted indications (migraine with brainstem aura, cauda equina syndrome, obesity, TIA, glaucoma subtypes, neurogenic bladder, migraine susceptibility, preeclampsia) were also generated, all at evidence level L5 (model prediction only, no clinical trials or directly relevant literature) and all marked **Hold**. One of these — **cauda equina syndrome** — warrants explicit caution: this condition is a known adverse-event association with intrathecal ziconotide pump therapy, not a therapeutic target. It should be treated as a safety signal artifact from the knowledge graph rather than a repurposing candidate.
+Derzeit keine damit verbundenen klinischen Studien registriert
 
 ---
 
-## Conclusion and Next Steps
+## Literatur-Evidenz
 
-**Decision: Hold**
+| PMID | Jahr | Publikationstyp | Fachzeitschrift | Wesentliche Ergebnisse |
+|-----|------|---------|---------|---------|
+| [26392785](https://pubmed.ncbi.nlm.nih.gov/26392785/) | 2015 | Fallbericht | Journal of Pain Research | Einzelner Fall der Remission von chronischen Migränekopfschmerzen nach intrathekaler Ziconotide-Gabe, dargestellt als Off-Label-Beobachtung bei einem Patienten mit chronischen schweren Schmerzen |
 
-**Rationale:**
-The top prediction (migraine disorder) rests on a single case report with no supporting clinical trials, and the drug's original indication, MOA, and safety label data are all missing from this evidence pack — including a **Blocking**-severity gap that prevents even a preliminary safety assessment (S1). The only approved route (intrathecal pump) is also poorly matched to standard migraine care.
+---
 
-**To proceed, the following is needed:**
-- Retrieve official label/warnings and contraindications from the source regulatory agency (remediation for DG001) to unblock S1 safety review
-- Retrieve confirmed original indication and MOA from DrugBank or official labeling (remediation for DG002)
-- Identify any additional case series or preclinical mechanistic studies specifically linking N-type calcium channel blockade to migraine pathophysiology
-- Evaluate feasibility of route-compatible delivery (current evidence is intrathecal-only; migraine treatment norms require non-invasive routes) before considering further development
+## Marktsituation Deutschland
+
+Keine Genehmigungen dokumentiert. Ziconotide ist derzeit **nicht auf dem deutschen Markt erhältlich** (`market_status: Not marketed`, `total_licenses: 0`), daher kann keine Produkt-/Indikations-Tabelle aus diesem Evidenzpaket generiert werden.
+
+---
+
+## Sicherheitsaspekte
+
+Weitere Informationen finden Sie in der Gebrauchsinformation.
+
+*Hinweis: Das Sicherheitsmodul in diesem Evidenzpaket (wichtige Warnhinweise, Kontraindikationen, Arzneimittel-Wechselwirkungen) ist vollständig leer und ist als **Blockierendes** Datenproblem gekennzeichnet (DG001 – Warnhinweise und Kontraindikationen der deutschen Zulassung). Dies bedeutet, dass eine formale Sicherheitsvorbewertung der Stufe S1 nicht durchgeführt werden kann, bis Angaben der Gebrauchsinformation eingegangen sind.*
+
+---
+
+## Zusätzlicher Hinweis zu niedriger bewerteten Vorhersagen
+
+Neun weitere TxGNN-prognostizierte Indikationen (Migräne mit Hirnstammaurasymptomen, Cauda-equina-Syndrom, Adipositas, TIA, Glaukom-Subtypen, neurogene Blasenentleerungsstörung, Migräneanfälligkeit, Präeklampsie) wurden ebenfalls generiert, alle mit Evidenzstufe L5 (nur Modellvorhersage, keine klinischen Studien oder direkt relevante Literatur) und alle mit der Markierung **Halten** versehen. Eine davon – das **Cauda-equina-Syndrom** – verdient ausdrückliche Vorsicht: Diese Erkrankung ist eine bekannte unerwünschte Ereignisassoziation bei der intrathekalen Ziconotide-Pumpentherapie, kein therapeutisches Ziel. Sie sollte als Sicherheitssignal-Artefakt aus dem Wissensgraph behandelt werden und nicht als Kandidat für Umwidmung.
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Halten**
+
+**Begründung:**
+Die Top-Vorhersage (Migränestörungen) basiert auf einem einzelnen Fallbericht ohne unterstützende klinische Studien, und das ursprüngliche Indikationsgebiet, der Wirkmechanismus und die Sicherheitsdaten des Arzneimittels fehlen alle in diesem Evidenzpaket – einschließlich einer Datenlücke mit **Blockiertem** Schweregrad, die sogar eine vorläufige Sicherheitsbewertung (S1) verhindert. Die einzige zugelassene Verabreichungsroute (intrathekale Pumpe) ist auch schlecht mit der standardmäßigen Migränetherapie vereinbar.
+
+**Um fortfahren zu können, ist Folgendes erforderlich:**
+- Abruf der offiziellen Gebrauchsinformation/Warnhinweise und Kontraindikationen von der zuständigen Zulassungsbehörde (Behebung von DG001) zur Freigabe der S1-Sicherheitsprüfung
+- Abruf des bestätigten ursprünglichen Indikationsgebiets und des Wirkmechanismus aus DrugBank oder der offiziellen Gebrauchsinformation (Behebung von DG002)
+- Identifizierung zusätzlicher Fallserien oder präklinischer mechanistischer Studien, die eine N-Typ-Calciumkanal-Blockade speziell mit der Migränepathophysiologie verknüpfen
+- Bewertung der Machbarkeit einer mit der Verabreichungsroute kompatiblen Formulierung (aktuelle Evidenz ist intrathekale-nur; Migränetherapie-Standards erfordern nicht-invasive Routen), bevor weitere Entwicklungsschritte in Betracht gezogen werden
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

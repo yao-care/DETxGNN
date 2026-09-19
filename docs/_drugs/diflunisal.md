@@ -29,69 +29,70 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Diflunisal: From NSAID Analgesic Use to Acromesomelic Dysplasia, Hunter-Thompson Type
+# Diflunisal: Von der NSAID-Analgetika-Anwendung zur Acromesomelie, Hunter-Thompson-Typ
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Diflunisal is a salicylic-acid-derivative NSAID; detailed original indication and mechanism-of-action data are not yet available in this evidence pack.
-> The TxGNN model's top-ranked prediction is **Acromesomelic Dysplasia, Hunter-Thompson Type**, a rare genetic skeletal dysplasia,
-> but this prediction is currently supported by **0 clinical trials** and **0 publications**, with no plausible mechanistic link.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not specified in available data (Diflunisal is pharmacologically classified as a salicylate-derivative NSAID) |
-| Predicted New Indication | Acromesomelic Dysplasia, Hunter-Thompson Type |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L5 |
-| Germany Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Diflunisal ist ein Salicylsäurederivat-NSAID; detaillierte Daten zur ursprünglichen Indikation und zum Wirkmechanismus sind in diesem Evidenzpaket noch nicht verfügbar.
+> Die Top-Vorhersage des TxGNN-Modells ist **Acromesomelie, Hunter-Thompson-Typ**, eine seltene genetische Skelettdysplasie,
+> aber diese Vorhersage wird derzeit durch **0 klinische Studien** und **0 Publikationen** gestützt, ohne einen plausiblen mechanistischen Zusammenhang.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnelübersicht
 
-Currently, detailed mechanism of action data is not available for Diflunisal in this evidence pack. Based on general pharmacological classification, Diflunisal is a salicylic-acid-derivative NSAID that inhibits cyclo-oxygenase (COX-1/COX-2), reducing prostaglandin synthesis to produce analgesic and anti-inflammatory effects — a mechanism class typically applied to musculoskeletal pain and inflammatory arthritic conditions.
-
-The top-ranked predicted indication, Acromesomelic Dysplasia (Hunter-Thompson Type), is a structural genetic skeletal disorder caused by GDF5/CDMP1 mutations. There is no known inflammatory or prostaglandin-mediated pathophysiology in this condition, so an NSAID's anti-inflammatory mechanism has no plausible therapeutic rationale here. The evidence pack's own repurposing rationale confirms this: "structural genetic disease, no reasonable treatment basis for NSAID anti-inflammatory mechanism, no clinical evidence." This prediction likely reflects a TxGNN embedding-similarity artifact rather than a biologically grounded signal.
-
-**Note:** A lower-ranked candidate in this same evidence pack — **ankylosing spondylitis** (rank 5) and its broader category **inflammatory spondylopathy** (rank 10) — shows a mechanistically coherent link (NSAID COX inhibition for inflammatory spondyloarthropathy) and is supported by an actual randomized controlled trial comparing diflunisal to phenylbutazone in AS patients (L2, "Proceed with Guardrails"). This may be a more clinically meaningful repurposing candidate than the top TxGNN-scored disease and could warrant separate evaluation.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Eintrag | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Nicht in verfügbaren Daten angegeben (Diflunisal wird pharmakologisch als Salicylsäurederivat-NSAID klassifiziert) |
+| Vorhergesagte neue Indikation | Acromesomelie, Hunter-Thompson-Typ |
+| TxGNN-Vorhersagenscore | 99.99% |
+| Evidenzstufe | L5 |
+| Marktstatus Deutschland | Nicht auf dem Markt |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Abwarten |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage angemessen?
 
-Currently no related literature available
+Derzeit sind detaillierte Daten zum Wirkmechanismus für Diflunisal in diesem Evidenzpaket nicht verfügbar. Basierend auf der allgemeinen pharmakologischen Klassifizierung ist Diflunisal ein Salicylsäurederivat-NSAID, das Cyclooxygenase (COX-1/COX-2) hemmt und die Prostaglandinsynthese reduziert, um analgetische und entzündungshemmende Wirkungen zu erzeugen – eine Mechanismusklasse, die typischerweise bei muskuloskelettalen Schmerzen und entzündlichen Gelenkerkrankungen eingesetzt wird.
 
----
+Die Top-Vorhersage-Indikation, Acromesomelie (Hunter-Thompson-Typ), ist eine strukturelle genetische Skeletterkrankung, die durch GDF5/CDMP1-Mutationen verursacht wird. Es gibt keine bekannte entzündliche oder Prostaglandin-vermittelte Pathophysiologie bei dieser Erkrankung, daher hat der entzündungshemmende Mechanismus eines NSAID hier keine plausible therapeutische Begründung. Die eigene Begründung für die Arzneimittelumwidmung des Evidenzpakets bestätigt dies: „strukturelle genetische Erkrankung, keine angemessene Behandlungsbasis für den entzündungshemmenden Mechanismus von NSAID, kein klinischer Beleg." Diese Vorhersage spiegelt wahrscheinlich ein TxGNN-Einbettungs-Ähnlichkeitsartefakt wider und nicht ein biologisch fundiertes Signal.
 
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+**Anmerkung:** Ein untergeordneter Kandidat in demselben Evidenzpaket – **Ankylosierende Spondylitis** (Rang 5) und seine breitere Kategorie **Entzündliche Spondylopathie** (Rang 10) – zeigt einen mechanistisch kohärenten Zusammenhang (NSAID-COX-Hemmung bei entzündlicher Spondyloarthropathie) und wird durch eine echte randomisierte kontrollierte Studie gestützt, die Diflunisal mit phenylbutazone bei AS-Patienten vergleicht (L2, „Mit Schutzmaßnahmen fortfahren"). Dies könnte ein klinisch aussagekräftigerer Arzneimittelumwidmungskandidat sein als die Top-TxGNN-bewertete Erkrankung und könnte eine separate Bewertung rechtfertigen.
 
 ---
 
-## Conclusion and Next Steps
+## Klinische Studienevidenz
 
-**Decision: Hold**
+Derzeit sind keine verwandten klinischen Studien registriert
 
-**Rationale:**
-The top-ranked TxGNN prediction (Acromesomelic Dysplasia, Hunter-Thompson Type) is a rare genetic skeletal disorder with no plausible mechanistic link to NSAID pharmacology, and no clinical trial or literature evidence exists to support it. In addition, TFDA/BfArM package insert warnings and contraindications are currently missing (a blocking data gap), so this candidate cannot proceed to safety evaluation.
+---
 
-**To proceed, the following is needed:**
-- TFDA/BfArM package insert (warnings, contraindications) — currently a blocking data gap
-- DrugBank-sourced mechanism of action (MOA) data
-- Reconsider evaluation priority: the ankylosing spondylitis / inflammatory spondylopathy candidates in this same evidence pack have stronger mechanistic and clinical trial support and may merit a dedicated evaluation report instead
+## Literaturbeweise
+
+Derzeit sind keine verwandten Literaturbelege verfügbar
+
+---
+
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Fachinformation für Sicherheitsinformationen.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Abwarten**
+
+**Begründung:**
+Die Top-Vorhersage des TxGNN (Acromesomelie, Hunter-Thompson-Typ) ist eine seltene genetische Skeletterkrankung ohne einen plausiblen mechanistischen Zusammenhang zur NSAID-Pharmakologie, und es gibt keine klinischen Studien- oder Literaturbelege zur Unterstützung. Darüber hinaus fehlen derzeit Warnhinweise und Kontraindikationen in der TFDA/BfArM-Fachinformation (eine blockierende Datenlücke), daher kann dieser Kandidat nicht zur Sicherheitsbewertung übergehen.
+
+**Um fortzufahren, sind folgende Punkte erforderlich:**
+- TFDA/BfArM-Fachinformation (Warnhinweise, Kontraindikationen) – derzeit eine blockierende Datenlücke
+- DrugBank-basierte Wirkmechanismus-Daten (MOA)
+- Neubeurteilung der Evaluierungspriorität: Die Kandidaten Ankylosierende Spondylitis / Entzündliche Spondylopathie in diesem Evidenzpaket zeigen stärkere mechanistische und klinische Studienbelege und könnten stattdessen einen dedizierten Bewertungsbericht rechtfertigen
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -29,74 +29,75 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Durvalumab: From PD-L1-Directed Oncology Indications to Prostatic Urethra Urothelial Carcinoma
+# Durvalumab: Von PD-L1-gerichteten onkologischen Indikationen zum Urothelmkarzinom der Prostata-Urethra
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Durvalumab is an anti-PD-L1 monoclonal antibody used across several PD-L1-driven solid tumours; specific original indication data is not yet on file for this profile.
-The TxGNN model predicts it may be effective for **Prostatic Urethra Urothelial Carcinoma**,
-but this specific indication currently has **no clinical trials** and **no published literature** — the rationale rests entirely on class-level mechanistic reasoning from durvalumab's approved urothelial carcinoma activity.
+Durvalumab ist ein Anti-PD-L1-monoklonaler Antikörper, der bei mehreren PD-L1-gesteuerten soliden Tumoren eingesetzt wird; spezifische Daten zur Originalindikation sind für dieses Profil noch nicht vorhanden.
+Das TxGNN-Modell sagt voraus, dass es bei **Urothelmkarzinom der Prostata-Urethra** wirksam sein könnte,
+aber diese spezifische Indikation hat derzeit **keine klinischen Studien** und **keine veröffentlichte Literatur** — die Rationale basiert vollständig auf klassenstufiger mechanistischer Überlegung aus Durvalumabs nachgewiesener Aktivität bei Urothelmkarzinom.
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in current dataset (original indication list and MOA are data gaps) |
-| Predicted New Indication | Prostatic Urethra Urothelial Carcinoma |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L4 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Eigenschaft | Inhalt |
+|------------|--------|
+| Originalindikation | Nicht dokumentiert im aktuellen Datensatz (Originalliste der Indikationen und Wirkmechanismus sind Datenlücken) |
+| Vorhergesagte neue Indikation | Urothelmkarzinom der Prostata-Urethra |
+| TxGNN-Vorhersage-Punktzahl | 99.98% |
+| Evidenzstufe | L4 |
+| Status auf dem deutschen Markt | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Halten |
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage sinnvoll?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known information, durvalumab is an anti-PD-L1 monoclonal antibody, and its efficacy in checkpoint-inhibitor-responsive urothelial carcinoma has been established as a drug class. Prostatic urethra urothelial carcinoma shares the same urothelial histological origin as bladder urothelial carcinoma — a tumour family with characteristically high tumour mutational burden and PD-L1 expression, and one where durvalumab (or class peers) has demonstrated activity.
+Derzeit sind detaillierte Wirkmechanismus-Daten nicht verfügbar in diesem Evidenz-Paket. Basierend auf bekannten Informationen ist Durvalumab ein Anti-PD-L1-monoklonaler Antikörper, und die Wirksamkeit dieser Wirkstoffklasse bei Checkpoint-Inhibitor-ansprechenden Urothelmkarzinomen wurde nachgewiesen. Das Urothelmkarzinom der Prostata-Urethra teilt denselben urothelalen histologischen Ursprung wie das Blasenurothelmkarzinom — eine Tumorfamilie mit charakteristisch hoher Tumormutationslast und PD-L1-Expression, bei der Durvalumab (oder andere Klassevertreter) Aktivität nachgewiesen hat.
 
-NCCN and AJCC staging frameworks frequently group prostatic urethral urothelial carcinoma with bladder urothelial carcinoma for treatment planning purposes, given the shared epithelial lineage and mutational signature. This provides indirect, class-level mechanistic support for extrapolating anti-PD-L1 activity to this specific anatomic subsite. However, no trial or publication has directly tested durvalumab in this particular tumour subtype — the link is inferred rather than demonstrated.
+NCCN- und AJCC-Staging-Systeme gruppieren das Urothelmkarzinom der Prostata-Urethra häufig zusammen mit dem Blasenurothelmkarzinom zu Behandlungsplanungszwecken, angesichts der gemeinsamen epithelialen Abstammung und Mutationssignatur. Dies bietet indirekte, klassenstufige mechanistische Unterstützung für die Extrapolation von Anti-PD-L1-Aktivität auf diesen spezifischen anatomischen Ort. Allerdings hat keine Studie Durvalumab direkt bei diesem bestimmten Tumor-Subtyp getestet — die Verbindung wird abgeleitet, nicht nachgewiesen.
 
-## Clinical Trial Evidence
+## Evidenz aus klinischen Studien
 
-Currently no related clinical trials registered
+Derzeit sind keine verwandten klinischen Studien registriert
 
-## Literature Evidence
+## Evidenz aus der Literatur
 
-Currently no related literature available
+Derzeit ist keine verwandte Literatur verfügbar
 
-## Germany Market Information
+## Informationen zum deutschen Markt
 
-Durvalumab is currently **not marketed** in Germany under this profile, with no authorizations on file (`total_licenses: 0`). No product-level licensing details are available to summarize.
+Durvalumab ist derzeit **nicht vermarktet** in Deutschland unter diesem Profil, mit keinen Zulassungen vorhanden (`total_licenses: 0`). Keine Produktzulassungsdetails stehen zur Verfügung.
 
-## Cytotoxicity
+## Zytotoxizität
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Immunotherapy (anti-PD-L1 immune checkpoint inhibitor; not a conventional cytotoxic agent) |
-| Myelosuppression Risk | Low — checkpoint inhibitors typically do not directly suppress bone marrow, unlike cytotoxic chemotherapy |
-| Emetogenicity Classification | Low (minimal emetogenic potential, consistent with immune checkpoint inhibitor class) |
-| Monitoring Items | Thyroid function (TSH, free T4), liver function (AST/ALT/bilirubin), renal function, pulmonary symptoms (pneumonitis), and GI symptoms (colitis) for immune-related adverse events (irAEs) |
-| Handling Protection | Standard IV biologic infusion handling; special cytotoxic drug handling protocols are not required as this is a non-cytotoxic monoclonal antibody |
+| Eigenschaft | Inhalt |
+|------------|--------|
+| Zytotoxizitätsklassifizierung | Immuntherapie (Anti-PD-L1-Immun-Checkpoint-Inhibitor; kein konventionelles Zytotoxikum) |
+| Myelosuppressionsrisiko | Niedrig — Checkpoint-Inhibitoren unterdrücken typischerweise das Knochenmark nicht direkt, anders als zytotoxische Chemotherapie |
+| Emetogenitätsklassifizierung | Niedrig (minimales emetogenes Potenzial, konsistent mit Immun-Checkpoint-Inhibitor-Klasse) |
+| Überwachungspunkte | Schilddrüsenfunktion (TSH, freies T4), Leberfunktion (AST/ALT/Bilirubin), Nierenfunktion, Lungensymptome (Pneumonitis) und GI-Symptome (Kolitis) für immunverwandte unerwünschte Ereignisse (irAEs) |
+| Handhabungsschutz | Standard-IV-Biologika-Infusionshandhabung; spezielle Zytotoxin-Handhabungsprotokolle werden nicht benötigt, da dies ein nicht-zytotoxischer monoklonaler Antikörper ist |
 
-*Note: No drug-specific toxicity data was available in this evidence pack; the above reflects general immune checkpoint inhibitor class characteristics. Please refer to the package insert for definitive warnings and precautions.*
+*Hinweis: In diesem Evidenz-Paket waren keine arzneistoffspezifischen Toxizitätsdaten verfügbar; das obige spiegelt allgemeine Immun-Checkpoint-Inhibitor-Klassencharakteristiken wider. Bitte beachten Sie die Gebrauchsinformation für definitive Warnungen und Vorsichtsmaßnahmen.*
 
-## Safety Considerations
+## Sicherheitsbetrachtungen
 
-Please refer to the package insert for safety information.
+Bitte beachten Sie die Gebrauchsinformation für Sicherheitsinformationen.
 
-## Conclusion and Next Steps
+## Fazit und nächste Schritte
 
-**Decision: Hold**
+**Entscheidung: Halten**
 
 **Rationale:**
-The top-ranked predicted indication (prostatic urethra urothelial carcinoma) has no supporting clinical trials or literature — only class-level mechanistic inference — and a blocking data gap (missing TFDA/label safety information) prevents even an initial safety screen (S1). Combined with the drug's current unmarketed status in Germany, there is insufficient basis to advance.
+Die am höchsten bewertete vorhergesagte Indikation (Urothelmkarzinom der Prostata-Urethra) hat keine unterstützenden klinischen Studien oder Literatur — nur klassenstufige mechanistische Ableitung — und eine blockierende Datenlücke (fehlende TFDA-/Label-Sicherheitsinformationen) verhindert sogar ein Anfangs-Sicherheits-Screening (S1). Kombiniert mit dem aktuell nicht vermarkteten Status des Arzneimittels in Deutschland gibt es keine ausreichende Grundlage für ein Voranschreiten.
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings, contraindications) — currently blocking (DG001)
-- Confirmed mechanism of action data from DrugBank (DG002)
-- Direct clinical trial or publication evidence specific to prostatic urethra urothelial carcinoma
-- Confirmation of original approved indications and Germany licensing status
+**Zum Voranschreiten wird Folgendes benötigt:**
+- TFDA-Gebrauchsinformation (Warnungen, Kontraindikationen) — derzeit blockierend (DG001)
+- Bestätigte Wirkmechanismus-Daten aus DrugBank (DG002)
+- Direkte klinische Studien- oder Publikationsevidenz spezifisch zum Urothelmkarzinom der Prostata-Urethra
+- Bestätigung der ursprünglichen genehmigten Indikationen und des Zulassungsstatus in Deutschland
 
-**Note:** Among the ten candidates in this pack, **endocervical carcinoma** (rank 6) shows meaningfully stronger evidence — one completed Phase 1 and one active Phase 2 trial (ATARI, n=174) plus supporting literature, reaching evidence level L2. If a single indication needs to be prioritized for further evaluation, this is the stronger candidate and warrants a separate S2-stage review.
+**Hinweis:** Unter den zehn Kandidaten in diesem Paket zeigt **Endozervixkarzinom** (Rang 6) aussagekräftig stärkere Evidenz — eine abgeschlossene Phase-1- und eine aktive Phase-2-Studie (ATARI, n=174) plus unterstützende Literatur, die Evidenzstufe L2 erreicht. Wenn eine einzelne Indikation zur weiteren Bewertung priorisiert werden muss, ist dies der stärkere Kandidat und rechtfertigt eine separate S2-Stufen-Überprüfung.
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

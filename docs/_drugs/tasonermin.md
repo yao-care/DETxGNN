@@ -29,84 +29,85 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Tasonermin: From Unconfirmed Original Indication to Prostatic Urethra Urothelial Carcinoma
+# Tasonermin: Von unbekannter Originalindikation zu urothelialen Karzinom der Prostata-Urethra
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Tasonermin is a recombinant TNF-alpha biologic; its original approved indication is not specified in the current data (DrugBank-only input, no TFDA/German license record).
-> The TxGNN model predicts it may be effective for **Prostatic Urethra Urothelial Carcinoma**,
-> but currently **0 clinical trials** and **0 publications** support this direction — the prediction is model-generated only.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available (no license/regulatory record; drug is not marketed) |
-| Predicted New Indication | Prostatic Urethra Urothelial Carcinoma |
-| TxGNN Prediction Score | 99.81% |
-| Evidence Level | L5 |
-| Germany Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Tasonermin ist ein rekombinantes TNF-alpha-Biologikum; seine ursprüngliche genehmigte Indikation ist in den aktuellen Daten nicht angegeben (nur DrugBank-Input, kein TFDA-/deutsches Zulassungsregister).
+> Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam gegen **urothelialen Karzinom der Prostata-Urethra** sein könnte,
+> aber derzeit gibt es **0 klinische Studien** und **0 Publikationen**, die diese Richtung unterstützen — die Vorhersage ist nur modellgeneriert.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnelübersicht
 
-Currently, detailed mechanism of action data is not available for Tasonermin. Based on the information present in this evidence pack, Tasonermin is a recombinant TNF-alpha (tumor necrosis factor-alpha) biologic. Mechanistically, TNF-alpha can induce tumor vascular endothelial damage, promote tumor necrosis, and drive immune cell infiltration — a broad-spectrum antitumor mechanism that, in theory, could apply across multiple solid tumor types.
-
-However, no original indication is recorded in this pack, so the relationship between the drug's established use and the predicted new indication (prostatic urethra urothelial carcinoma) cannot be assessed. The mechanistic rationale provided is generic to TNF-alpha biology rather than specific to urothelial carcinoma pathophysiology.
-
-Critically, there is **no clinical trial or literature evidence** — direct or indirect — linking Tasonermin to urothelial carcinoma. The connection is a pure TxGNN network-based prediction (evidence level L5), and the same caveat applies to all nine other predicted indications in this pack (renal pelvis carcinomas, HER2+ breast carcinoma, and several rare gynecological adenocarcinomas), none of which have supporting trials or publications.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Element | Inhalt |
+|---------|--------|
+| Originalindikation | Nicht verfügbar (kein Zulassungs-/Regulierungsregister; Arzneimittel ist nicht auf dem Markt) |
+| Vorhergesagte neue Indikation | Urothelialen Karzinom der Prostata-Urethra |
+| TxGNN-Vorhersage-Score | 99.81% |
+| Evidenzstufe | L5 |
+| Status auf dem deutschen Markt | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Zurückstellen |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage angemessen?
 
-Currently no related literature available
+Derzeit sind keine detaillierten Wirkungsmechanismus-Daten für Tasonermin verfügbar. Basierend auf den in diesem Evidenzpaket vorhandenen Informationen ist Tasonermin ein rekombinantes TNF-alpha-Biologikum (Tumornekrosefaktor-alpha). Mechanistisch kann TNF-alpha Tumorvaskulärendothelschaden induzieren, Tumornek­rose fördern und Infiltration von Immunzellen antreiben — ein breites antitumorales Wirkungsprinzip, das theoretisch auf mehrere solide Tumortypen anwendbar sein könnte.
 
----
+Allerdings ist keine Originalindikation in diesem Paket dokumentiert, daher kann die Beziehung zwischen der etablierten Anwendung des Arzneimittels und der vorhergesagten neuen Indikation (urothelialen Karzinom der Prostata-Urethra) nicht bewertet werden. Die bereitgestellte mechanistische Rationale ist generisch für TNF-alpha-Biologie und nicht spezifisch für die Pathophysiologie von Urothelkarzinomen.
 
-## Cytotoxicity
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Immunotherapy / biologic (cytokine-based, recombinant TNF-alpha) — not a conventional cytotoxic chemotherapeutic |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+Kritischerweise gibt es **keine klinische Studien- oder Literaturevidence** — direkt oder indirekt — die Tasonermin mit Urothelkarzinom verbindet. Die Verbindung ist eine reine netzwerkbasierte TxGNN-Vorhersage (Evidenzstufe L5), und dieselbe Einschränkung gilt für alle neun anderen vorhergesagten Indikationen in diesem Paket (Nierenbeckenkarzinome, HER2+ Mammakarzinom und mehrere seltene gynäkologische Adenokarzinome), von denen keine Studien oder Publikationen unterstützen.
 
 ---
 
-## Safety Considerations
+## Evidenz aus klinischen Studien
 
-Please refer to the package insert for safety information.
-
-**Note:** TFDA label warnings/contraindications are flagged as a **Blocking** data gap (DG001) in this evidence pack — this alone precludes any S1 safety pre-assessment regardless of predicted indication.
+Derzeit keine verwandten klinischen Studien registriert
 
 ---
 
-## Conclusion and Next Steps
+## Literaturevidence
 
-**Decision: Hold**
+Derzeit keine verwandte Literatur verfügbar
 
-**Rationale:**
-The predicted indication is supported only by a TxGNN network score (L5, no clinical trials, no literature), and a Blocking-severity data gap exists for TFDA safety labeling — the combination means neither efficacy plausibility nor safety can currently be evaluated.
+---
 
-**To proceed, the following is needed:**
-- TFDA/EMA label data — warnings, contraindications, and precautions (DG001, Blocking)
-- Confirmed original indication(s) and full mechanism of action (DG002, High)
-- Disease-specific preclinical or clinical evidence connecting TNF-alpha biology to urothelial carcinoma (or any of the other 9 candidate indications)
-- Route of administration and formulation compatibility assessment (currently marked "pending" for all candidates)
+## Zytotoxizität
+
+| Element | Inhalt |
+|---------|--------|
+| Klassifizierung der Zytotoxizität | Immuntherapie / Biologikum (zytokinbasiert, rekombinantes TNF-alpha) — kein herkömmliches zytotoxisches Chemotherapeutikum |
+| Risiko der Myelosuppression | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Packungsbeilage |
+| Klassifizierung der Emetogenität | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Packungsbeilage |
+| Überwachungselemente | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Packungsbeilage |
+| Handhabungsschutz | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Packungsbeilage |
+
+---
+
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+**Hinweis:** TFDA-Label-Warnhinweise/Kontraindikationen werden in diesem Evidenzpaket als Datenlücke mit **Sperrende-Priorität** (DG001) gekennzeichnet — allein dies verhindert eine S1-Sicherheitsvorabwertung, unabhängig von der vorhergesagten Indikation.
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Zurückstellen**
+
+**Begründung:**
+Die vorhergesagte Indikation wird nur durch einen TxGNN-Netzwerk-Score (L5, keine klinischen Studien, keine Literatur) gestützt, und es besteht eine Datenlücke mit Sperrende-Priorität für die TFDA-Sicherheitskennzeichnung — diese Kombination bedeutet, dass weder Wirksamkeitsplausibilität noch Sicherheit derzeit bewertet werden können.
+
+**Um fortfahren zu können, ist Folgendes erforderlich:**
+- TFDA-/EMA-Label-Daten — Warnhinweise, Kontraindikationen und Vorsichtsmaßnahmen (DG001, Sperrend)
+- Bestätigte Originalindikation(en) und vollständiger Wirkmechanismus (DG002, Hoch)
+- Erkrankungsspezifische präklinische oder klinische Evidenz, die TNF-alpha-Biologie mit urothelialen Karzinom verbindet (oder eine der anderen 9 Kandidatenindikationen)
+- Bewertung der Kompatibilität von Verabreichungsroute und Formulierung (derzeit für alle Kandidaten mit „ausstehend" gekennzeichnet)
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

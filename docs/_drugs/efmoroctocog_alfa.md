@@ -29,79 +29,80 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Efmoroctocog Alfa: From Hemophilia A to Pseudo-von Willebrand Disease
+# Efmoroctocog Alfa: Von Hämophilie A zu Pseudo-von-Willebrand-Krankheit
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Efmoroctocog alfa is a recombinant Factor VIII-Fc fusion protein whose core approved use is Hemophilia A (Factor VIII replacement therapy).
-> The TxGNN model's top-ranked prediction is **Pseudo-von Willebrand Disease**, with a prediction score of **99.99%**,
-> but this candidate currently has **no supporting clinical trials or literature**, and the underlying mechanistic rationale is assessed as weak — likely a knowledge-graph co-occurrence artifact rather than a genuine therapeutic link.
+> Efmoroctocog alfa ist ein rekombinantes Factor VIII-Fc-Fusionsprotein, dessen Kernanwendung Hämophilie A (Factor VIII-Ersatztherapie) ist.
+> Die höchste Vorhersage des TxGNN-Modells ist **Pseudo-von-Willebrand-Krankheit** mit einer Vorhersagesicherheit von **99.99%**,
+> aber dieser Kandidat hat derzeit **keine unterstützenden klinischen Studien oder Literatur**, und die zugrundeliegende mechanistische Begründung wird als schwach bewertet – wahrscheinlich ein Wissensgrafen-Koauftritt-Artefakt statt einer echten therapeutischen Beziehung.
 
 ---
 
-## Quick Overview
+## Schnelläberblick
 
-| Item | Content |
+| Element | Inhalt |
 |------|------|
-| Original Indication | Hemophilia A (Factor VIII deficiency) — noted in evidence rationale; not independently confirmed via Taiwan license data |
-| Predicted New Indication | Pseudo-von Willebrand Disease |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L5 |
-| Taiwan Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | Hämophilie A (Factor VIII-Mangel) – in Evidenzbegründung erwähnt; nicht unabhängig über Taiwan-Lizenzdaten bestätigt |
+| Vorhergesagte neue Indikation | Pseudo-von-Willebrand-Krankheit |
+| TxGNN-Vorhersagesicherheit | 99.99% |
+| Evidenzstufe | L5 |
+| Taiwan-Marktstatus | Nicht vermarktet |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | Halten |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage angemessen?
 
-Currently, detailed mechanism of action data is not available (DrugBank MOA query pending — Data Gap DG002). Based on the information available in this evidence pack, efmoroctocog alfa is a recombinant Factor VIII-Fc fusion protein, and its core clinical role is Factor VIII replacement in Hemophilia A.
+Derzeit sind detaillierte Wirkmechanismus-Daten nicht verfügbar (DrugBank-MOA-Abfrage ausstehend – Datenlücke DG002). Basierend auf den in diesem Evidenzpaket verfügbaren Informationen ist efmoroctocog alfa ein rekombinantes Factor VIII-Fc-Fusionsprotein, und seine Kernrolle in der Klinik ist Factor VIII-Ersatz bei Hämophilie A.
 
-The top-ranked prediction, pseudo-von Willebrand disease, is mechanistically **not well supported**. This condition results from an abnormal platelet membrane GPIb receptor that causes excessive binding to von Willebrand factor (VWF) — it is a platelet functional defect, not a Factor VIII deficiency. Supplementing Factor VIII does not correct the underlying GPIb-VWF interaction abnormality. The evidence pack's own rationale flags this as a likely false-positive association, probably arising from the VWF-Factor VIII complex frequently co-occurring in the underlying knowledge graph rather than reflecting a real pharmacological relationship.
+Die höchste Vorhersage, Pseudo-von-Willebrand-Krankheit, ist mechanistisch **nicht gut unterstützt**. Dieser Zustand ergibt sich aus einem abnormalen Thrombozytenmembran-GPIb-Rezeptor, der eine übermäßige Bindung an von-Willebrand-Faktor (VWF) verursacht – es ist ein Thrombozytenfunktionsdefekt, keine Factor VIII-Defizienz. Eine Factor VIII-Supplementation korrigiert nicht die zugrunde liegende GPIb-VWF-Wechselwirkung. Die Begründung des Evidenzpakets selbst kennzeichnet dies als wahrscheinlich falsch-positives Ergebnis, das wahrscheinlich aus dem häufigen Koauftreten von VWF-Factor VIII im zugrunde liegenden Wissensgraf herrührt, statt eine echte pharmakologische Beziehung widerzuspiegeln.
 
-Among all ten predicted indications, the one with the strongest inherent mechanistic plausibility is actually rank 9, "hemophilia A with vascular abnormality" — this is essentially an extension of the drug's known, approved mechanism (Factor VIII replacement) rather than a novel repurposing hypothesis. However, it also currently has zero supporting clinical trials or literature. The remaining eight candidates (platelet release disorders, Glanzmann thrombasthenia, Scott syndrome, TTP, etc.) all involve platelet-function or non-Factor-VIII coagulation pathologies where Factor VIII replacement has no established mechanistic basis, and in the case of thrombotic thrombocytopenic purpura, the mechanism runs in the opposite direction (pro-thrombotic risk).
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Unter allen zehn vorhergesagten Indikationen ist diejenige mit der stärksten inhärenten mechanistischen Plausibilität eigentlich Rang 9, „Hämophilie A mit Gefäßabnormität" – dies ist im Wesentlichen eine Erweiterung des bekannten, zugelassenen Mechanismus des Arzneistoffs (Factor VIII-Ersatz) statt einer echten Repurposing-Hypothese. Sie hat jedoch auch derzeit null unterstützende klinische Studien oder Literatur. Die restlichen acht Kandidaten (Thrombozytensekretionstörungen, Glanzmann-Thrombastenie, Scott-Syndrom, TTP etc.) beinhalten alle Thrombozytenfunktions- oder Nicht-Factor-VIII-Gerinnungspathologien, bei denen eine Factor VIII-Supplementation keine etablierte mechanistische Grundlage hat, und im Fall der thrombotisch-thrombozytopenen Purpura verläuft der Mechanismus in die entgegengesetzte Richtung (prothrombotisches Risiko).
 
 ---
 
-## Literature Evidence
+## Evidenz aus klinischen Studien
 
-Currently no related literature available.
-
----
-
-## Taiwan Market Information
-
-Efmoroctocog alfa currently has **no market authorization records in Taiwan** (0 licenses; market status: not marketed). No dosage form or approved indication data is available to summarize.
+Derzeit sind keine verwandten klinischen Studien registriert.
 
 ---
 
-## Safety Considerations
+## Literaturevidenz
 
-Please refer to the package insert for safety information.
-
-*(Note: TFDA label warnings/contraindications retrieval is an open, blocking data gap — see Conclusion and Next Steps below.)*
+Derzeit ist keine verwandte Literatur verfügbar.
 
 ---
 
-## Conclusion and Next Steps
+## Taiwan-Marktinformation
 
-**Decision: Hold**
+Efmoroctocog alfa hat derzeit **keine Marktzulassungseinträge in Taiwan** (0 Lizenzen; Marktstatus: nicht vermarktet). Keine Darreichungsform oder zugelassene Indikationsdaten sind verfügbar.
 
-**Rationale:**
-All ten predicted indications are TxGNN model output only (Evidence Level L5), with zero supporting clinical trials or literature across the board. The top-ranked candidate's mechanistic rationale is explicitly assessed as weak/likely artifactual, and the drug is not currently marketed in Taiwan. Combined with a blocking safety data gap, there is insufficient evidence to advance any candidate at this time.
+---
 
-**To proceed, the following is needed:**
-- Retrieve TFDA package insert (warnings, contraindications) — blocking gap (DG001)
-- Retrieve DrugBank mechanism of action data — high-priority gap (DG002)
-- If pursuing repurposing, prioritize rank 9 (hemophilia A with vascular abnormality) as the most mechanistically defensible candidate, and conduct a targeted literature/trial search rather than relying on the raw TxGNN ranking
-- Reassess pseudo-von Willebrand disease (rank 1) as a likely false positive before any further investment of review effort
-- Clarify Taiwan regulatory pathway status, given the drug is currently unmarketed
+## Sicherheitsüberlegungen
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+*(Hinweis: Der Abruf von TFDA-Kennzeichnungswarnungen/Kontraindikationen ist eine offene, blockierende Datenlücke – siehe Fazit und nächste Schritte unten.)*
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Halten**
+
+**Begründung:**
+Alle zehn vorhergesagten Indikationen sind nur TxGNN-Modellausgabe (Evidenzstufe L5), ohne unterstützende klinische Studien oder Literatur insgesamt. Die Begründung des höchsten Kandidaten ist ausdrücklich als schwach/wahrscheinlich Artefakt bewertet, und der Arzneistoff ist derzeit in Taiwan nicht vermarktet. Kombiniert mit einer blockierenden Sicherheitsdatenlücke ist die Evidenzgrundlage für die Weiterführung eines Kandidaten derzeit unzureichend.
+
+**Folgende Punkte sind erforderlich, um fortzufahren:**
+- Abrufen der TFDA-Packungsbeilage (Warnungen, Kontraindikationen) – blockierende Lücke (DG001)
+- Abrufen von DrugBank-Wirkmechanismus-Daten – hochprioritäre Lücke (DG002)
+- Wenn Repurposing verfolgt wird, Rang 9 (Hämophilie A mit Gefäßabnormität) als mechanistisch am meisten verteidigbarer Kandidat priorisieren und eine gezielte Literatur-/Studienrecherche durchführen statt sich auf die rohe TxGNN-Rangfolge zu verlassen
+- Pseudo-von-Willebrand-Krankheit (Rang 1) vor weiterer Investition von Prüfaufwand als wahrscheinlich falsch-positiv neu bewerten
+- Status des Taiwan-Zulassungswegs klären, da der Arzneistoff derzeit nicht vermarktet ist
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -29,84 +29,85 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Carprofen: From Withdrawn Human NSAID to Rheumatoid Arthritis (Re-evaluation)
+# Carprofen: Vom zurückgezogenen Human-NSAID zur rheumatoiden Arthritis (Neubewertung)
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Carprofen is a propionic-acid-derivative NSAID that was originally developed and marketed for human use in rheumatoid arthritis and related inflammatory conditions during the 1980s, but was withdrawn from the human pharmaceutical market after hepatotoxicity signals (including fatal fulminant hepatitis) and now survives commercially only as a veterinary drug (e.g., canine Rimadyl). The TxGNN model's top prediction — **Rheumatoid Arthritis** — is essentially a re-identification of the drug's own historical human indication, supported by **0 registered clinical trials** and **20 mostly historic (1980–1990) publications**, including two double-blind RCTs. Given the unresolved human hepatotoxicity signal behind its market withdrawal, current evidence is insufficient to support renewed human development.
+Carprofen ist ein NSAID vom Typ Propionsäure-Derivat, das ursprünglich in den 1980er Jahren als Humanarzneimittel gegen rheumatoide Arthritis und verwandte Entzündungserkrankungen entwickelt und vermarktet wurde, aber nach Hepatotoxizitätssignalen (einschließlich tödlicher fulminanter Hepatitis) vom Humanarzneimittelmarkt zurückgezogen wurde und heute nur noch als Tierarzneimittel (z. B. Rimadyl bei Hunden) kommerziell erhältlich ist. Die Top-Vorhersage des TxGNN-Modells – **Rheumatoide Arthritis** – ist im Wesentlichen eine Wiederidentifikation der historischen Humanindikation des Arzneistoffs, gestützt auf **0 registrierte klinische Studien** und **20 größtenteils historische Publikationen (1980–1990)**, einschließlich zwei doppelblinder RCTs. Angesichts des ungelösten Hepatotoxizitätssignals bei Menschen, das zu seinem Marktrückzug führte, ist die aktuelle Evidenz unzureichend, um die erneute Humanentwicklung zu unterstützen.
 
 ---
 
-## Quick Overview
+## Schnelle Übersicht
 
-| Item | Content |
+| Punkt | Inhalt |
 |------|------|
-| Original Indication | Not present in structured registry data (taiwan_regulatory.licenses / drug.original_indications are empty). Per literature/rationale evidence: historically marketed as a human NSAID for rheumatoid arthritis and related inflammatory conditions in the 1980s–90s. |
-| Predicted New Indication | Rheumatoid Arthritis |
-| TxGNN Prediction Score | 99.80% |
-| Evidence Level | L2 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | Nicht in strukturierten Registerdaten vorhanden (taiwan_regulatory.licenses / drug.original_indications sind leer). Gemäß Literatur-/Rationale-Evidenz: historisch als Human-NSAID für rheumatoide Arthritis und verwandte Entzündungserkrankungen in den 1980er–90er Jahren vermarktet. |
+| Vorhergesagte neue Indikation | Rheumatoide Arthritis |
+| TxGNN-Vorhersage-Score | 99.80% |
+| Evidenzstufe | L2 |
+| Marktstatus Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | Abwarten |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage plausibel?
 
-Currently, detailed mechanism of action data is not available in the structured drug profile (DG002). Based on literature evidence within this evidence pack, carprofen is a propionic-acid-derivative NSAID that inhibits COX-1/COX-2 and lowers prostaglandin synthesis — a mechanism shared with comparator agents such as indomethacin, against which it was directly tested in several 1980s trials.
+Derzeit sind detaillierte Daten zum Wirkungsmechanismus im strukturierten Arzneistoffprofil (DG002) nicht verfügbar. Basierend auf Literaturevidenz in diesem Evidenzpaket ist Carprofen ein NSAID vom Typ Propionsäure-Derivat, das COX-1/COX-2 hemmt und die Prostaglandinsynthese senkt – ein Mechanismus, der mit Vergleichssubstanzen wie Indomethacin geteilt wird, gegen die es in mehreren Studien aus den 1980er Jahren direkt getestet wurde.
 
-Importantly, this is not a conventional "repurposing" case in the sense of finding a genuinely new use. Carprofen was originally developed and marketed for human use in rheumatoid arthritis and related inflammatory/pain conditions. It was subsequently withdrawn from the human pharmaceutical market following post-marketing reports of hepatotoxicity, including fatal fulminant hepatitis, and today exists commercially only as a veterinary NSAID for canine osteoarthritis. TxGNN's top prediction of rheumatoid arthritis therefore reflects the model recovering the drug's own historical human indication rather than uncovering a novel therapeutic opportunity — the mechanistic plausibility is high and well-documented historically, but the human clinical development path is blocked by an unresolved safety signal that has never been formally resolved.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+Wichtig ist: Dies ist kein konventioneller "Repurposing"-Fall im Sinne der Entdeckung einer wirklich neuen Verwendung. Carprofen wurde ursprünglich als Humanarzneimittel gegen rheumatoide Arthritis und verwandte Entzündungs-/Schmerzerkrankungen entwickelt und vermarktet. Es wurde anschließend nach Berichten von Hepatotoxizität nach dem Inverkehrbringen vom Humanarzneimittelmarkt zurückgezogen, einschließlich tödlicher fulminanter Hepatitis, und existiert heute kommerziell nur noch als Veterinär-NSAID gegen Arthrose bei Hunden. Die Top-Vorhersage des TxGNN-Modells für rheumatoide Arthritis spiegelt daher wider, dass das Modell die eigene historische Humanindikation des Arzneistoffs wiederentdeckt hat, anstatt eine neue therapeutische Gelegenheit aufzudecken – die mechanistische Plausibilität ist hoch und historisch gut dokumentiert, aber die Humanentwicklung ist durch ein ungelöstes Sicherheitssignal blockiert, das nie formal geklärt wurde.
 
 ---
 
-## Literature Evidence
+## Evidenz aus klinischen Studien
 
-| PMID | Year | Type | Journal | Key Findings |
+Derzeit sind keine damit zusammenhängenden klinischen Studien registriert
+
+---
+
+## Evidenz aus der Literatur
+
+| PMID | Jahr | Typ | Journal | Wichtigste Erkenntnisse |
 |------|-----|------|------|---------|
-| [7009441](https://pubmed.ncbi.nlm.nih.gov/7009441/) | 1980 | RCT (comparative) | Int J Clin Pharmacol Ther Toxicol | 6-week double-blind trial in 36 RA patients; carprofen (two dose ranges) vs. indomethacin 100mg/day, comparable efficacy with toxicity monitoring |
-| [6340183](https://pubmed.ncbi.nlm.nih.gov/6340183/) | 1983 | RCT (double-blind crossover) | Scand J Rheumatol Suppl | 4-month crossover in 28 RA patients; carprofen 300mg/day vs. indomethacin 75mg/day, both effective |
-| [3554157](https://pubmed.ncbi.nlm.nih.gov/3554157/) | 1987 | Review | Pharmacotherapy | Comprehensive review of carprofen pharmacology, clinical efficacy in RA/OA, and adverse effects; potency roughly 1/4 of indomethacin |
-| [6431808](https://pubmed.ncbi.nlm.nih.gov/6431808/) | 1984 | Review (mechanistic) | Am J Med | Reviews NSAID mechanism of action in RA beyond simple COX inhibition, including immunomodulatory prostaglandin effects |
-| [6759135](https://pubmed.ncbi.nlm.nih.gov/6759135/) | 1982 | Review | Eur J Rheumatol Inflamm | General review of clinical trials in rheumatoid arthritis (abstract not available) |
-| [6573017](https://pubmed.ncbi.nlm.nih.gov/6573017/) | 1983 | PK study | Scand J Rheumatol Suppl | Serum/synovial fluid concentrations measured in 13 RA patients after 100mg oral dose |
-| [7037867](https://pubmed.ncbi.nlm.nih.gov/7037867/) | 1981 | Cohort/comparative | J Clin Pharmacol | Renal salt/water homeostasis effects of carprofen vs. indomethacin in RA patients and healthy controls |
-| [3293874](https://pubmed.ncbi.nlm.nih.gov/3293874/) | 1988 | PK/dose-response study | Clin Pharmacol Ther | Multiple-crossover dose-response study (100–800mg/day) in 38 RA patients; linear dose-response demonstrated for 6/9 efficacy measures |
-| [2155476](https://pubmed.ncbi.nlm.nih.gov/2155476/) | 1990 | Mechanistic/lab study | Scand J Rheumatol | Synovial fluid white cell count, PGE2, LTB4, cAMP effects of carprofen vs. other NSAIDs/prednisolone in 53 RA patients |
-| [3864577](https://pubmed.ncbi.nlm.nih.gov/3864577/) | 1985 | Mechanistic study | Clin Rheumatol | Compares effects of 9 NSAIDs on synovial fluid prostanoid concentrations in RA patients; carprofen reduced PGE2/TxB2 |
+| [7009441](https://pubmed.ncbi.nlm.nih.gov/7009441/) | 1980 | RCT (vergleichend) | Int J Clin Pharmacol Ther Toxicol | 6-Wochen-Doppelblindstudie bei 36 RA-Patienten; Carprofen (zwei Dosisspannen) vs. Indomethacin 100 mg/Tag, vergleichbare Wirksamkeit mit Toxizitätsüberwachung |
+| [6340183](https://pubmed.ncbi.nlm.nih.gov/6340183/) | 1983 | RCT (doppelblind, Crossover) | Scand J Rheumatol Suppl | 4-Monats-Crossover bei 28 RA-Patienten; Carprofen 300 mg/Tag vs. Indomethacin 75 mg/Tag, beide wirksam |
+| [3554157](https://pubmed.ncbi.nlm.nih.gov/3554157/) | 1987 | Übersichtsarbeit | Pharmacotherapy | Umfassende Übersicht der Carprofen-Pharmakologie, klinische Wirksamkeit bei RA/Arthrose und Nebenwirkungen; Potenz ungefähr 1/4 von Indomethacin |
+| [6431808](https://pubmed.ncbi.nlm.nih.gov/6431808/) | 1984 | Übersichtsarbeit (mechanistisch) | Am J Med | Überprüft NSAID-Wirkungsmechanismus bei RA über einfache COX-Hemmung hinaus, einschließlich immunmodulatorischer Prostaglandin-Effekte |
+| [6759135](https://pubmed.ncbi.nlm.nih.gov/6759135/) | 1982 | Übersichtsarbeit | Eur J Rheumatol Inflamm | Allgemeine Übersicht klinischer Studien bei rheumatoider Arthritis (Abstract nicht verfügbar) |
+| [6573017](https://pubmed.ncbi.nlm.nih.gov/6573017/) | 1983 | PK-Studie | Scand J Rheumatol Suppl | Serum-/Gelenkflüssigkeitskonzentrationen gemessen bei 13 RA-Patienten nach 100-mg-Einzeldosis oral |
+| [7037867](https://pubmed.ncbi.nlm.nih.gov/7037867/) | 1981 | Kohorte/vergleichend | J Clin Pharmacol | Auswirkungen von Carprofen vs. Indomethacin auf renale Salz-/Wasserhomöostase bei RA-Patienten und gesunden Kontrollen |
+| [3293874](https://pubmed.ncbi.nlm.nih.gov/3293874/) | 1988 | PK-/Dosis-Wirkungs-Studie | Clin Pharmacol Ther | Mehrfach-Crossover-Dosis-Wirkungs-Studie (100–800 mg/Tag) bei 38 RA-Patienten; lineare Dosis-Wirkungs-Beziehung für 6/9 Wirksamkeitsmaßnahmen demonstriert |
+| [2155476](https://pubmed.ncbi.nlm.nih.gov/2155476/) | 1990 | Mechanistisch/Laborstudie | Scand J Rheumatol | Effekte von Carprofen vs. anderen NSAIDs/Prednisolon auf Gelenkflüssigkeits-Leukozyten, PGE2, LTB4, cAMP bei 53 RA-Patienten |
+| [3864577](https://pubmed.ncbi.nlm.nih.gov/3864577/) | 1985 | Mechanistische Studie | Clin Rheumatol | Vergleicht Effekte von 9 NSAIDs auf Gelenkflüssigkeits-Prostanoid-Konzentrationen bei RA-Patienten; Carprofen reduzierte PGE2/TxB2 |
 
 ---
 
-## Germany Market Information
+## Marktinformationen Deutschland
 
-No current marketing authorizations were found for carprofen in this dataset (`total_licenses: 0`, `market_status: Not marketed`), consistent with its withdrawal from the human pharmaceutical market. It remains available only as a veterinary product (e.g., Rimadyl for dogs) outside the scope of this human-indication regulatory dataset.
-
----
-
-## Safety Considerations
-
-- **Historical Human Safety Signal**: Carprofen was withdrawn from the human NSAID market in the 1980s–90s following post-marketing reports of hepatotoxicity, including fatal fulminant hepatitis (per the repurposing rationale documented in this evidence pack). This is the primary reason it is no longer marketed for human use.
-- No structured TFDA/German label data (key warnings, contraindications, drug interactions) is currently available (DG001, Blocking gap) — formal safety review cannot proceed until the package insert / regulatory hepatotoxicity case data is retrieved.
+Es wurden keine aktuellen Vermarktungsgenehmigungen für Carprofen in diesem Datensatz gefunden (`total_licenses: 0`, `market_status: Not marketed`), was seinem Rückzug vom Humanarzneimittelmarkt entspricht. Es ist nur noch als Tierarzneimittel (z. B. Rimadyl für Hunde) außerhalb des Geltungsbereichs dieses Humanindikations-Regulierungsdatensatzes erhältlich.
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsaspekte
 
-**Decision: Hold**
+- **Historisches Humansicherheitssignal**: Carprofen wurde in den 1980er–90er Jahren nach Berichten von Hepatotoxizität nach dem Inverkehrbringen vom Humanarzneimittelmarkt zurückgezogen, einschließlich tödlicher fulminanter Hepatitis (gemäß der in diesem Evidenzpaket dokumentierten Repurposing-Rationale). Dies ist der Hauptgrund, warum es nicht mehr für die menschliche Anwendung vermarktet wird.
+- Es sind derzeit keine strukturierten TFDA/deutsche Etikett-Daten (wichtige Warnhinweise, Kontraindikationen, Arzneimittelwechselwirkungen) verfügbar (DG001, Blockierungslücke) – eine formale Sicherheitsbewertung kann erst durchgeführt werden, wenn die Packungsbeilage / die regulatorischen Hepatotoxizitäts-Falldaten abgerufen werden.
 
-**Rationale:**
-Carprofen has strong historical mechanistic and clinical-trial support for rheumatoid arthritis (two double-blind RCTs, multiple PK/dose-response studies), but this is essentially confirmation of its own original human indication rather than a novel repurposing signal. The drug's known hepatotoxicity-driven withdrawal from the human market is an unresolved safety issue that blocks any S1 safety evaluation, and no current clinical trials, regulatory filings, or structured safety data support renewed human development. Lower-ranked predictions (e.g., gout L3, tendinitis L4) show the same COX-inhibition rationale but weaker evidence and are also flagged Hold.
+---
 
-**To proceed, the following is needed:**
-- Retrieval of historical hepatotoxicity case data and any TFDA/EMA withdrawal documentation (DG001, Blocking)
-- Structured mechanism of action data from DrugBank (DG002)
-- A formal risk-benefit reassessment specifically addressing the prior human hepatotoxicity signal before any renewed human clinical development is considered
-- Confirmation of current regulatory/marketing status (human vs. veterinary only) in target jurisdictions
+## Fazit und nächste Schritte
+
+**Entscheidung: Abwarten**
+
+**Begründung:**
+Carprofen hat starke historische mechanistische und klinische Studienunterstützung für rheumatoide Arthritis (zwei doppelblinde RCTs, mehrfache PK-/Dosis-Wirkungs-Studien), dies ist jedoch im Wesentlichen eine Bestätigung seiner eigenen ursprünglichen Humanindikation anstelle eines neuartigen Repurposing-Signals. Der bekannte Hepatotoxizitäts-bedingte Rückzug des Arzneistoffs vom Humanmarkt ist ein ungelöstes Sicherheitsproblem, das jede S1-Sicherheitsbewertung blockiert, und es gibt keine aktuellen klinischen Studien, regulatorischen Einreichungen oder strukturierten Sicherheitsdaten, die die erneute Humanentwicklung unterstützen. Niedriger bewertete Vorhersagen (z. B. Gicht L3, Sehnenentzündung L4) zeigen die gleiche COX-Hemm-Rationale, aber schwächere Evidenz und sind ebenfalls mit „Abwarten" gekennzeichnet.
+
+**Um fortzufahren, wird Folgendes benötigt:**
+- Abruf historischer Hepatotoxizitäts-Falldaten und aller TFDA/EMA-Rückzugsdokumentation (DG001, Blockierend)
+- Strukturierte Daten zum Wirkungsmechanismus aus DrugBank (DG002)
+- Eine formale Nutzen-Risiko-Neubewertung, die speziell das vorherige Hepatotoxizitätssignal bei Menschen adressiert, bevor eine erneute Humanentwicklung in Betracht gezogen wird
+- Bestätigung des aktuellen Regulierungs-/Vermarktungsstatus (Human- vs. nur Tierarzneimittel) in Zielländern
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

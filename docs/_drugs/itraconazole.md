@@ -29,85 +29,86 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Itraconazole: From Antifungal Therapy to Pneumocystosis
+# Itraconazol: Von der Antimykotika-Therapie zur Pneumozystose
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Itraconazole is a triazole antifungal agent used systemically to treat and prevent invasive fungal infections. The TxGNN model predicts it may be effective against **pneumocystosis** (Pneumocystis jirovecii pneumonia), but this prediction is currently supported only by indirect literature — **no clinical trials** directly test itraconazole for this indication, and the underlying mechanistic rationale is considered weak.
+Itraconazol ist ein systemisch eingesetztes Triazol-Antimykotikum zur Behandlung und Prävention invasiver Pilzinfektionen. Das TxGNN-Modell sagt voraus, dass es bei **Pneumozystose** (Pneumocystis-jirovecii-Pneumonie) wirksam sein könnte, aber diese Vorhersage wird derzeit nur durch indirekte Literatur gestützt — **keine klinischen Studien** testen Itraconazol direkt für diese Indikation, und die zugrunde liegende mechanistische Begründung wird als schwach angesehen.
 
 ---
 
-## Quick Overview
+## Schnelle Übersicht
 
-| Item | Content |
+| Element | Inhalt |
 |------|------|
-| Original Indication | Not available — no Taiwan/Germany licence data (drug is unmarketed); itraconazole is generally known as a systemic triazole antifungal |
-| Predicted New Indication | Pneumocystosis (Pneumocystis jirovecii pneumonia) |
-| TxGNN Prediction Score | 99.34% (rank 7232) |
-| Evidence Level | L5 |
-| Germany Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | Nicht verfügbar — keine Taiwan/Deutschland-Zulassungsdaten (Arzneimittel ist nicht auf dem Markt); Itraconazol ist allgemein als systemisches Triazol-Antimykotikum bekannt |
+| Vorhergesagte neue Indikation | Pneumozystose (Pneumocystis-jirovecii-Pneumonie) |
+| TxGNN-Vorhersageergebnis | 99.34% (Rang 7232) |
+| Evidenzstufe | L5 |
+| Marktstatus Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Zurückhalten |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage sinnvoll?
 
-Currently, detailed mechanism of action data for itraconazole is not available in this evidence pack (`original_moa: [Data Gap]`). Based on known pharmacology, itraconazole inhibits fungal CYP51 and blocks ergosterol synthesis — the classic mode of action for triazole antifungals, effective against dimorphic and mould pathogens (e.g. Histoplasma, Aspergillus).
+Derzeit sind detaillierte Daten zum Wirkungsmechanismus von Itraconazol in diesem Beweisstück nicht verfügbar (`original_moa: [Data Gap]`). Basierend auf bekannter Pharmakologie hemmt Itraconazol das pilzliche CYP51 und blockiert die Ergosterolsynthese — der klassische Wirkmechanismus für Triazol-Antimykotika, wirksam gegen dimorphe und Schimmelpilzerreger (z. B. Histoplasma, Aspergillus).
 
-However, *Pneumocystis jirovecii* has atypical membrane sterol metabolism compared with conventional fungi, and clinically it responds poorly to azole antifungals. Standard first-line therapy for pneumocystosis (TMP-SMX, pentamidine) does not include any triazole agent. The literature evidence identified here largely reflects itraconazole's role as **broad-spectrum antifungal prophylaxis in immunocompromised populations** (HIV, transplant recipients) where pneumocystosis is one of several co-occurring opportunistic infections — not direct evidence of anti-Pneumocystis activity.
+Jedoch hat *Pneumocystis jirovecii* einen atypischen Membransterolmetabolismus im Vergleich zu herkömmlichen Pilzen, und klinisch reagiert es schlecht auf Azol-Antimykotika. Standard-Erstlinientherapie für Pneumozystose (TMP-SMX, Pentamidin) umfasst kein Triazol-Agens. Die hier identifizierte Literaturübersicht spiegelt großteils die Rolle von Itraconazol als **Breitspektrum-Antimykotika-Prophylaxe in immungeschwächten Populationen** (HIV, Transplantationsempfänger) wider, bei der Pneumozystose eine von mehreren gleichzeitig auftretenden opportunistischen Infektionen ist — nicht direkte Evidenz einer Anti-Pneumocystis-Aktivität.
 
-Given this, the mechanistic basis for the prediction should be treated as an **unvalidated hypothesis** rather than an established pharmacological link, and further preclinical or *in vitro* activity data against *P. jirovecii* would be needed before further investment.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Angesichts dessen sollte die mechanistische Grundlage der Vorhersage als **nicht validierte Hypothese** und nicht als etablierter pharmakologischer Link behandelt werden, und weitere präklinische oder *in vitro*-Aktivitätsdaten gegen *P. jirovecii* würden vor weiteren Investitionen benötigt.
 
 ---
 
-## Literature Evidence
+## Klinische Studienevidenz
 
-| PMID | Year | Type | Journal | Key Findings |
+Derzeit sind keine verwandten klinischen Studien registriert.
+
+---
+
+## Literaturübersicht
+
+| PMID | Jahr | Typ | Journal | Wichtigste Erkenntnisse |
 |------|-----|------|------|---------|
-| [11737382](https://pubmed.ncbi.nlm.nih.gov/11737382/) | 2001 | RCT (Phase 3) | HIV Medicine | Double-blind, placebo-controlled trial of itraconazole capsules for prevention of deep fungal infections in HIV-infected patients — prophylactic context, not specific to pneumocystosis |
-| [26036497](https://pubmed.ncbi.nlm.nih.gov/26036497/) | 2015 | Cohort | Transplantation Proceedings | Single-centre experience of invasive fungal infections after kidney transplantation |
-| [17594870](https://pubmed.ncbi.nlm.nih.gov/17594870/) | 2007 | Cohort | Allergologia et Immunopathologia | 25-year experience of chronic granulomatous disease in paediatric patients, including fungal complications |
-| [30429396](https://pubmed.ncbi.nlm.nih.gov/30429396/) | 2018 | Cohort | Indian Journal of Medical Microbiology | Profile of respiratory fungal pathogens in immunocompetent vs immunocompromised hosts, correlated with CD4+ counts |
-| [36891307](https://pubmed.ncbi.nlm.nih.gov/36891307/) | 2023 | Case Report | Frontiers in Immunology | Talaromyces marneffei and Pneumocystis jirovecii coinfection in a child with STAT1 mutation |
-| [2121456](https://pubmed.ncbi.nlm.nih.gov/2121456/) | 1990 | Review | Drugs | Overview of therapy/prophylaxis for systemic protozoan and Pneumocystis carinii infections |
-| [8397916](https://pubmed.ncbi.nlm.nih.gov/8397916/) | 1993 | Review | Current Clinical Topics in Infectious Diseases | Prophylaxis and treatment of infection in bone marrow transplant recipients |
-| [21418688](https://pubmed.ncbi.nlm.nih.gov/21418688/) | 2010 | Review | BMJ Clinical Evidence | Primary and secondary prophylaxis for opportunistic infections in HIV |
-| [8016481](https://pubmed.ncbi.nlm.nih.gov/8016481/) | 1993 | Review | Seminars in Respiratory Infections | Infection (including fungal) after lung transplantation |
-| [21973267](https://pubmed.ncbi.nlm.nih.gov/21973267/) | 2011 | Review | Clinical Pharmacokinetics | Pulmonary epithelial lining fluid penetration of antifungal and other anti-infective agents |
+| [11737382](https://pubmed.ncbi.nlm.nih.gov/11737382/) | 2001 | RCT (Phase 3) | HIV Medicine | Doppelblinde, placebokontrollierte Studie mit Itraconazol-Kapseln zur Prävention tiefgehender Pilzinfektionen bei HIV-infizierten Patienten — Prophylaxe-Kontext, nicht spezifisch für Pneumozystose |
+| [26036497](https://pubmed.ncbi.nlm.nih.gov/26036497/) | 2015 | Kohortenstudie | Transplantation Proceedings | Erfahrung eines einzelnen Zentrums mit invasiven Pilzinfektionen nach Nierentransplantation |
+| [17594870](https://pubmed.ncbi.nlm.nih.gov/17594870/) | 2007 | Kohortenstudie | Allergologia et Immunopathologia | 25-jährige Erfahrung mit chronischer Granulomatose bei pädiatrischen Patienten, einschließlich Pilzkomplikationen |
+| [30429396](https://pubmed.ncbi.nlm.nih.gov/30429396/) | 2018 | Kohortenstudie | Indian Journal of Medical Microbiology | Profil respiratorischer Pilzerreger in immunokompetenten vs immungeschwächten Wirten, korreliert mit CD4+-Zählungen |
+| [36891307](https://pubmed.ncbi.nlm.nih.gov/36891307/) | 2023 | Fallbericht | Frontiers in Immunology | Talaromyces-marneffei- und Pneumocystis-jirovecii-Koinfektion bei einem Kind mit STAT1-Mutation |
+| [2121456](https://pubmed.ncbi.nlm.nih.gov/2121456/) | 1990 | Übersichtsarbeit | Drugs | Übersicht der Therapie/Prophylaxe systemischer Protozoen- und Pneumocystis-carinii-Infektionen |
+| [8397916](https://pubmed.ncbi.nlm.nih.gov/8397916/) | 1993 | Übersichtsarbeit | Current Clinical Topics in Infectious Diseases | Prophylaxe und Behandlung von Infektionen bei Knochenmark-Transplantationsempfängern |
+| [21418688](https://pubmed.ncbi.nlm.nih.gov/21418688/) | 2010 | Übersichtsarbeit | BMJ Clinical Evidence | Primäre und sekundäre Prophylaxe gegen opportunistische Infektionen bei HIV |
+| [8016481](https://pubmed.ncbi.nlm.nih.gov/8016481/) | 1993 | Übersichtsarbeit | Seminars in Respiratory Infections | Infektionen (einschließlich Pilzinfektionen) nach Lungentransplantation |
+| [21973267](https://pubmed.ncbi.nlm.nih.gov/21973267/) | 2011 | Übersichtsarbeit | Clinical Pharmacokinetics | Eindringen von Antimykotika und anderen Anti-Infektiva in die Lungenepithel-Auskleidungsflüssigkeit |
 
 ---
 
-## Germany Market Information
+## Marktinformationen für Deutschland
 
-Itraconazole is currently **not marketed** in Germany under the available regulatory data (0 authorizations recorded). No product/licence table can be generated.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (Note: TFDA label warnings/contraindications are marked as a **Blocking** data gap in this evidence pack and must be resolved before any safety evaluation can proceed — see Conclusion.)
+Itraconazol ist derzeit **nicht vermarktet** in Deutschland unter den verfügbaren behördlichen Daten (0 Zulassungen registriert). Es kann keine Produkt-/Lizenz-Tabelle generiert werden.
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsüberlegungen
 
-**Decision: Hold**
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. (Hinweis: TFDA-Etikettwarnungen/Gegenanzeigen sind als **blockierende** Datenlücke in diesem Beweisstück gekennzeichnet und müssen gelöst werden, bevor weitere Sicherheitsbewertungen durchgeführt werden können — siehe Schlussfolgerung.)
 
-**Rationale:**
-The prediction is supported only by indirect prophylaxis literature in immunocompromised populations, not by direct evidence of anti-*Pneumocystis* activity, and the proposed mechanism (ergosterol/CYP51 inhibition) is pharmacologically inconsistent with the atypical sterol biology of *P. jirovecii*. Combined with L5 evidence level (model prediction only) and a Blocking data gap on safety labelling, there is insufficient basis to advance.
+---
 
-**To proceed, the following is needed:**
-- TFDA/manufacturer package insert (warnings, contraindications) — currently a Blocking gap
-- Confirmed mechanism of action (MOA) data from DrugBank or primary literature
-- Preclinical or *in vitro* evidence of itraconazole activity specifically against *Pneumocystis jirovecii*
-- Any registered clinical trials evaluating itraconazole in pneumocystosis prevention/treatment, if they emerge
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Zurückhalten**
+
+**Begründung:**
+Die Vorhersage wird nur durch indirekte Prophylaxe-Literatur in immungeschwächten Populationen gestützt, nicht durch direkte Evidenz einer Anti-*Pneumocystis*-Aktivität, und der vorgeschlagene Mechanismus (Ergosterol/CYP51-Hemmung) ist pharmakologisch inkonsistent mit der atypischen Sterolbiologie von *P. jirovecii*. In Kombination mit L5-Evidenzstufe (nur Modellvorhersage) und einer blockierenden Datenlücke zur Sicherheitskennzeichnung ist die Grundlage für einen Fortschritt unzureichend.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+- TFDA/Hersteller-Packungsbeilage (Warnhinweise, Gegenanzeigen) — derzeit eine blockierende Lücke
+- Bestätigte Wirkungsmechanismus (MOA)-Daten von DrugBank oder Primärliteratur
+- Präklinische oder *in vitro*-Evidenz der Itraconazol-Aktivität speziell gegen *Pneumocystis jirovecii*
+- Alle registrierten klinischen Studien zur Bewertung von Itraconazol bei Pneumozystose-Prävention/Behandlung, sofern diese entstehen
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

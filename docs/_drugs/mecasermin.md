@@ -29,79 +29,80 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-# Mecasermin: From Unspecified Original Indication to Monosomy X (Turner Syndrome)
+# Mecasermin: Von ungespezifierter Originalindikation zu Monosomie X (Turner-Syndrom)
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Mecasermin is a recombinant human insulin-like growth factor 1 (IGF-1) analogue; the current evidence pack does not contain data on its original approved indication or detailed mechanism of action.
-> The TxGNN model predicts potential relevance to **Monosomy X (Turner Syndrome)**,
-> but this is currently a **model-prediction-only** finding, with **0 clinical trials** and **0 publications** identified in support.
+> Mecasermin ist ein rekombinantes humanes Insulin-ähnliches-Wachstumsfaktor-1-Analogon (IGF-1); das aktuelle Evidenzpaket enthält keine Daten über seine ursprüngliche zugelassene Indikation oder detaillierten Wirkmechanismus.
+> Das TxGNN-Modell prognostiziert potenzielle Relevanz für **Monosomie X (Turner-Syndrom)**,
+> dies ist derzeit jedoch ein **nur auf Modellvorhersagen beruhender** Fund mit **0 klinischen Studien** und **0 Publikationen**, die zur Unterstützung identifiziert wurden.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Position | Inhalt |
 |------|------|
-| Original Indication | Not available (no license/indication data in evidence pack) |
-| Predicted New Indication | Monosomy X (Turner Syndrome) |
-| TxGNN Prediction Score | 99.59% |
-| Evidence Level | L5 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Originalindikation | Nicht verfügbar (keine Lizenz-/Indikationsdaten im Evidenzpaket) |
+| Vorhergesagte neue Indikation | Monosomie X (Turner-Syndrom) |
+| TxGNN-Vorhersage-Score | 99.59% |
+| Evidenzstufe | L5 |
+| Marktstatus Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Halten |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage sinnvoll?
 
-Currently, detailed mechanism of action data for mecasermin is not available in this evidence pack. Based on information embedded in the related prediction rationale (see rank-3 candidate, "growth hormone insensitivity syndrome"), mecasermin is a recombinant human IGF-1 product, and its established pharmacological role is to supply IGF-1 directly downstream of the GH receptor — which is the mechanistic basis for its use in GH-resistant/insensitivity conditions.
+Derzeit sind detaillierte Daten zum Wirkmechanismus von Mecasermin in diesem Evidenzpaket nicht verfügbar. Basierend auf Informationen, die in der verwandten Prognosebegründung eingebettet sind (siehe Kandidat Rang 3, „Wachstumshormon-Unempfindlichkeitssyndrom"), ist Mecasermin ein rekombinantes humanes IGF-1-Produkt, und seine etablierte pharmakologische Rolle besteht darin, IGF-1 direkt stromabwärts des GH-Rezeptors bereitzustellen – was die mechanistische Grundlage für seine Verwendung in GH-resistenten/Unempfindlichkeitszuständen ist.
 
-For the top-ranked candidate, Monosomy X (Turner Syndrome), the rationale is indirect: patients with Turner syndrome commonly present with short stature and, in some cases, reduced responsiveness of the GH/IGF-1 axis. Theoretically, exogenous IGF-1 supplementation could support growth in this population, but this is an inferential link — there is no direct mechanistic or clinical evidence in the pack confirming mecasermin's efficacy specifically in monosomy X.
+Für den höchstbewerteten Kandidaten, Monosomie X (Turner-Syndrom), ist die Begründung indirekt: Patienten mit Turner-Syndrom präsentieren sich häufig mit Kleinwuchs und in einigen Fällen mit reduzierter Reagibilität der GH/IGF-1-Achse. Theoretisch könnte eine exogene IGF-1-Supplementierung das Wachstum in dieser Population unterstützen, aber dies ist eine inferenzielle Verbindung – es gibt keine direkte mechanistische oder klinische Evidenz im Paket, die die Wirksamkeit von Mecasermin spezifisch in Monosomie X bestätigt.
 
-It is worth noting that the evidence pack itself flags this prediction as low-confidence: no clinical trials or literature were retrieved for monosomy X, and the rationale explicitly labels the connection as indirect. By contrast, the mechanistically stronger candidate (growth hormone insensitivity syndrome, rank 3) also lacks any supporting trials or publications, suggesting the current evidence base for all five candidates is prediction-only.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+Es ist erwähnenswert, dass das Evidenzpaket selbst diese Vorhersage als von niedriger Konfidenz kennzeichnet: Es wurden keine klinischen Studien oder Literatur für Monosomie X abgerufen, und die Begründung kennzeichnet die Verbindung explizit als indirekt. Im Gegensatz dazu fehlt dem mechanistisch stärkeren Kandidaten (Wachstumshormon-Unempfindlichkeitssyndrom, Rang 3) ebenfalls jegliche unterstützende Studien oder Publikationen, was darauf hindeutet, dass die aktuelle Evidenzbasis für alle fünf Kandidaten nur auf Modellvorhersagen beruht.
 
 ---
 
-## Literature Evidence
+## Evidenz aus klinischen Studien
 
-Currently no related literature available
-
----
-
-## Germany Market Information
-
-Mecasermin is not currently marketed in Germany (market status: Not Marketed; total authorizations: 0). No license records are available in the evidence pack.
+Derzeit keine verwandten klinischen Studien registriert
 
 ---
 
-## Safety Considerations
+## Literatur-Evidenz
 
-Please refer to the package insert for safety information.
-
-*Note: The evidence pack flags TFDA/package-insert warnings and contraindications as a **Blocking** data gap (DG001), meaning this candidate cannot yet proceed to a formal safety (S1) evaluation.*
+Derzeit keine verwandte Literatur verfügbar
 
 ---
 
-## Conclusion and Next Steps
+## Marktstatus Deutschland
 
-**Decision: Hold**
+Mecasermin ist derzeit nicht auf dem deutschen Markt verfügbar (Marktstatus: Nicht vermarktet; Gesamtzahl der Zulassungen: 0). Es sind keine Lizenzdatensätze im Evidenzpaket verfügbar.
 
-**Rationale:**
-All five TxGNN-predicted indications for mecasermin — including the top-ranked Monosomy X — are at evidence level L5 (model prediction only), with no supporting clinical trials or literature identified, and decision stage remains S0. In addition, a blocking data gap exists for TFDA/package-insert safety information, preventing any preliminary safety assessment.
+---
 
-**To proceed, the following is needed:**
-- TFDA/package insert warnings and contraindications (blocking gap, DG001)
-- Detailed mechanism of action (MOA) data via DrugBank API (DG002)
-- Clinical trial or literature evidence specifically evaluating mecasermin in Turner syndrome (monosomy X) or GH insensitivity/Laron-like syndromes
-- Confirmation of market/regulatory status in Germany, given the drug is currently not marketed
-- Route of administration and dosage form compatibility data (currently marked "pending" for all candidates)
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+*Hinweis: Das Evidenzpaket kennzeichnet Warnungen und Kontraindikationen der TFDA/Packungsbeilage als eine **blockierende** Datenlücke (DG001), was bedeutet, dass dieser Kandidat noch nicht zu einer formalen Sicherheitsbewertung (S1) übergehen kann.*
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Halten**
+
+**Begründung:**
+Alle fünf durch TxGNN vorhergesagten Indikationen für Mecasermin – einschließlich der höchstbewerteten Monosomie X – liegen auf Evidenzstufe L5 (nur Modellvorhersage), ohne dass unterstützende klinische Studien oder Literatur identifiziert wurden, und die Entscheidungsstufe bleibt S0. Darüber hinaus existiert eine blockierende Datenlücke für TFDA/Packungsbeilage-Sicherheitsinformationen, die eine vorläufige Sicherheitsbewertung verhindert.
+
+**Um fortzufahren, ist folgendes erforderlich:**
+- Warnungen und Kontraindikationen der TFDA/Packungsbeilage (blockierende Lücke, DG001)
+- Detaillierte Wirkmechanismus-Daten (MOA) über DrugBank API (DG002)
+- Klinische Studien- oder Literaturbeweise, die Mecasermin spezifisch in Turner-Syndrom (Monosomie X) oder GH-Unempfindlichkeit/Laron-ähnlichen Syndromen bewerten
+- Bestätigung des Markt-/Regulierungsstatus in Deutschland, angesichts der Tatsache, dass das Arzneimittel derzeit nicht vermarktet wird
+- Verabreichungsroute und Kompatibilitätsdaten der Darreichungsform (derzeit als „ausstehend" für alle Kandidaten gekennzeichnet)
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -29,79 +29,78 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-Using the report template directly (task is domain-specific report generation, not a coding/debugging skill scenario).
+# Natalizumab: Von Multipler Sklerose / Morbus Crohn zu Bronchitis
 
-# Natalizumab: From Multiple Sclerosis / Crohn's Disease to Bronchitis
+## Zusammenfassung in einem Satz
 
-## One-Sentence Summary
-
-> Natalizumab is a monoclonal antibody used for multiple sclerosis and Crohn's disease, acting by blocking α4-integrin–mediated leukocyte migration across the blood-brain barrier and gut mucosa.
-> The TxGNN model predicts it may be effective for **Bronchitis**, but this prediction is currently supported by **0 clinical trials** and **0 publications**, and mechanistically points in the opposite direction — immunosuppression would be expected to *increase* respiratory infection risk rather than treat it.
+> Natalizumab ist ein monoklonaler Antikörper, der bei Multipler Sklerose und Morbus Crohn eingesetzt wird und durch Blockierung der α4-Integrin-vermittelten Leukozytenmigration über die Blut-Hirn-Schranke und die Darmmukosa wirkt.
+> Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam bei **Bronchitis** ist, aber diese Vorhersage wird derzeit durch **0 klinische Studien** und **0 Publikationen** unterstützt, und der Mechanismus weist in die entgegengesetzte Richtung – eine Immunsuppression würde voraussichtlich das Risiko für Atemwegsinfektionen *erhöhen* und nicht behandeln.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
-|------|------|
-| Original Indication | Multiple Sclerosis / Crohn's Disease (mentioned in mechanistic rationale text; not confirmed by an official label — this drug has no approved license record in this evidence pack) |
-| Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.46% |
-| Evidence Level | L5 (model prediction only) |
-| Germany Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
-
----
-
-## Why is This Prediction Reasonable?
-
-Detailed mechanism of action data is not available in this evidence pack (original MOA field is empty). Based on the information available, natalizumab is an α4-integrin monoclonal antibody that inhibits leukocyte trafficking across the blood-brain barrier and intestinal mucosa, and is used for multiple sclerosis and Crohn's disease — both conditions characterized by pathological immune cell infiltration into tissue.
-
-Bronchitis, by contrast, is typically an infectious or irritant airway inflammation. There is no known mechanistic link between α4-integrin blockade and the resolution of bronchitis. If anything, natalizumab's immunosuppressive effect would be expected to *impair* clearance of respiratory pathogens and could plausibly increase susceptibility to bronchitis rather than treat it.
-
-This prediction therefore appears to be a high-scoring artifact of the TxGNN model with no corroborating mechanistic, preclinical, or clinical rationale, and the evidence direction available for this drug (see Literature Evidence for related skin conditions, e.g., PMID 32470781, PMID 35646438) generally shows natalizumab **inducing or worsening** inflammatory conditions rather than resolving them — reinforcing that this candidate should not be interpreted as biologically plausible without further investigation.
+| Element | Inhalt |
+|---------|--------|
+| Original-Indikation | Multiple Sklerose / Morbus Crohn (in der mechanistischen Begründung erwähnt; nicht durch offizielle Etikettierung bestätigt – dieses Arzneimittel hat keinen Zulassungseintrag in diesem Evidenzpaket) |
+| Vorhergesagte neue Indikation | Bronchitis |
+| TxGNN-Vorhersagepunktzahl | 99.46% |
+| Evidenzstufe | L5 (nur Modellvorhersage) |
+| Marktstatus Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Halten |
 
 ---
 
-## Clinical Trial Evidence
+## Warum ist diese Vorhersage angemessen?
 
-Currently no related clinical trials registered.
+Detaillierte Daten zum Wirkmechanismus sind in diesem Evidenzpaket nicht verfügbar (ursprüngliches Wirkmechanismus-Feld ist leer). Basierend auf den verfügbaren Informationen ist Natalizumab ein monoklonaler Antikörper gegen α4-Integrin, der den Leukozytentransport über die Blut-Hirn-Schranke und die Darmmukosa hemmt und bei Multipler Sklerose und Morbus Crohn eingesetzt wird – beide Erkrankungen, die durch pathologische Infiltration von Immunzellen in das Gewebe gekennzeichnet sind.
 
----
+Bronchitis hingegen ist typischerweise eine infektiöse oder reizbedingte Atemwegsentzündung. Es gibt keinen bekannten mechanistischen Zusammenhang zwischen α4-Integrin-Blockade und der Auflösung von Bronchitis. Wenn überhaupt, würde die immunsuppressive Wirkung von Natalizumab voraussichtlich die Clearance von Atemwegserregern *beeinträchtigen* und könnte plausibel die Anfälligkeit für Bronchitis erhöhen, anstatt sie zu behandeln.
 
-## Literature Evidence
-
-Currently no related literature available.
+Diese Vorhersage scheint daher ein hochbewertetes Artefakt des TxGNN-Modells zu sein, ohne dass stützende mechanistische, präklinische oder klinische Belege vorhanden sind, und die verfügbare Evidenzrichtung für dieses Arzneimittel (siehe Literaturbelege für verwandte Hauterkrankungen, z. B. PMID 32470781, PMID 35646438) zeigt im Allgemeinen, dass Natalizumab entzündliche Erkrankungen **auslöst oder verschlimmert** und nicht behebt – was verstärkt, dass dieser Kandidat ohne weitere Untersuchung nicht als biologisch plausibel interpretiert werden sollte.
 
 ---
 
-## Germany Market Information
+## Belege aus klinischen Studien
 
-Natalizumab currently has no marketing authorization on record in this evidence pack (0 licenses; market status: not marketed). No dosage form, product name, or approved indication data is available for the German market.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Note: Official TFDA/BfArM label warnings, contraindications, and DDI data are flagged as a Blocking data gap — see Conclusion below.)*
+Derzeit sind keine verwandten klinischen Studien registriert.
 
 ---
 
-## Conclusion and Next Steps
+## Literaturbelege
 
-**Decision: Hold**
+Derzeit ist keine verwandte Literatur verfügbar.
 
-**Rationale:**
-The top-ranked prediction (bronchitis) has zero supporting clinical trials or literature, and its proposed mechanism directly contradicts natalizumab's known immunosuppressive pharmacology — an immunosuppressant is mechanistically more likely to *cause or exacerbate* respiratory infection/inflammation than treat it. This candidate does not meet even the minimum threshold (L4/S1) to advance past pure model prediction.
+---
 
-**To proceed, the following is needed:**
-- Official drug label / TFDA warnings and contraindications (currently a Blocking data gap — DG001)
-- Confirmed mechanism of action from DrugBank or primary literature (currently a High-severity data gap — DG002)
-- Any preclinical or mechanistic evidence specifically linking α4-integrin/VLA-4 blockade to airway inflammation resolution, before this candidate can move beyond Hold
-- Note: among the 5 predicted indications reviewed, **psoriasis** (rank 3) has richer literature (18 papers) but shows *directionally conflicting* signals (mostly drug-induced/aggravated psoriasis, one case series of improvement) — this may warrant a separate, dedicated safety-mechanism research question, but is not a basis to change the decision on bronchitis above.
+## Informationen zum deutschen Markt
+
+Natalizumab hat derzeit keine Zulassung, die in diesem Evidenzpaket verzeichnet ist (0 Lizenzen; Marktstatus: nicht vermarktet). Für den deutschen Markt sind keine Informationen zu Darreichungsform, Produktname oder zugelassenen Indikationen verfügbar.
+
+---
+
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Gebrauchsinformation für Sicherheitsinformationen.
+
+*(Anmerkung: Offizielle TFDA/BfArM-Etikettenwarnungen, Kontraindikationen und DDI-Daten sind als kritische Datenlücke gekennzeichnet – siehe Schlussfolgerung unten.)*
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Halten**
+
+**Begründung:**
+Die höchstbewertete Vorhersage (Bronchitis) hat keine unterstützenden klinischen Studien oder Literatur, und der vorgeschlagene Mechanismus widerspricht direkt der bekannten immunsuppressiven Pharmakologie von Natalizumab – es ist mechanistisch wahrscheinlicher, dass ein Immunsuppressivum Atemwegsinfektionen/Entzündungen *verursacht oder verschärft* als dass es sie behandelt. Dieser Kandidat erfüllt nicht einmal die Mindestschwelle (L4/S1), um das Stadium der reinen Modellvorhersage zu überschreiten.
+
+**Zur Fortsetzung ist Folgendes erforderlich:**
+- Offizielle Arzneimittel-Etikettierung / TFDA-Warnungen und Kontraindikationen (derzeit eine kritische Datenlücke – DG001)
+- Bestätigter Wirkmechanismus aus DrugBank oder Primärliteratur (derzeit eine hochgradige Datenlücke – DG002)
+- Alle präklinischen oder mechanistischen Belege, die speziell die α4-Integrin-/VLA-4-Blockade mit der Auflösung von Atemwegsentzündungen verbinden, bevor dieser Kandidat über „Halten" hinaus voranschreiten kann
+- Hinweis: Unter den 5 bewerteten Vorhersagen hat **Psoriasis** (Rang 3) umfangreichere Literatur (18 Arbeiten), zeigt aber *richtungsmäßig widersprüchliche* Signale (hauptsächlich arzneimittelinduziert/verschärfte Psoriasis, eine Fallserie mit Verbesserung) – dies könnte eine separate, gezielte Sicherheits-Wirkmechanismus-Forschungsfrage rechtfertigen, ist aber keine Grundlage, um die obige Entscheidung zu Bronchitis zu ändern.
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

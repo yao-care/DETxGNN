@@ -29,76 +29,77 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-# Chenodeoxycholic Acid: From Bile Acid Metabolism to Homozygous Familial Hypercholesterolemia
+# Chenodeoxycholsäure: Vom Gallensäurestoffwechsel zur homozygoten familiären Hypercholesterinämie
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Chenodeoxycholic acid (CDCA) is a naturally occurring bile acid; the current evidence pack does not document a confirmed original indication or mechanism of action for this candidate.
-> The TxGNN model predicts it may be effective for **Homozygous Familial Hypercholesterolemia**,
-> but this prediction is currently supported by the model score alone, with **0 clinical trials** and only **1 indirectly related publication**.
+> Chenodeoxycholsäure (CDCA) ist eine natürlich vorkommende Gallensäure; das aktuelle Evidenzpaket dokumentiert keine bestätigte ursprüngliche Indikation oder Wirkmechanismus für diesen Kandidaten.
+> Das TxGNN-Modell sagt voraus, dass es wirksam sein kann für **Homozygote familiäre Hypercholesterinämie**,
+> aber diese Vorhersage wird derzeit nur durch die Modellpunktzahl gestützt, mit **0 klinischen Studien** und nur **1 indirekt verwandter Veröffentlichung**.
 
 ---
 
-## Quick Overview
+## Schnelle Übersicht
 
-| Item | Content |
+| Element | Inhalt |
 |------|------|
-| Original Indication | Not documented in current evidence pack |
-| Predicted New Indication | Homozygous Familial Hypercholesterolemia |
-| TxGNN Prediction Score | 99.57% |
-| Evidence Level | L5 |
-| Germany Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | Nicht dokumentiert im aktuellen Evidenzpaket |
+| Vorhergesagte neue Indikation | Homozygote familiäre Hypercholesterinämie |
+| TxGNN-Vorhersagepunktzahl | 99.57% |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Halten |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage vernünftig?
 
-Currently, detailed mechanism of action data is not available for chenodeoxycholic acid, and no original indication is recorded in this evidence pack. This limits our ability to assess mechanistic plausibility for the predicted new indication directly from the source data.
+Derzeit sind detaillierte Daten zum Wirkmechanismus für Chenodeoxycholsäure nicht verfügbar, und es ist keine ursprüngliche Indikation in diesem Evidenzpaket dokumentiert. Dies begrenzt unsere Fähigkeit, die mechanistische Plausibilität für die vorhergesagte neue Indikation direkt aus den Quelldaten zu bewerten.
 
-The one literature record retrieved for this candidate is a review of cerebrotendinous xanthomatosis (CTX), a rare bile acid synthesis disorder caused by CYP27A1 mutations that impair bile acid production and lead to cholestanol accumulation. While this publication does not directly address homozygous familial hypercholesterolemia, it does establish that disruptions in bile acid/cholesterol synthesis pathways — the biological space in which CDCA operates as an endogenous bile acid — are mechanistically linked to lipid storage and cholesterol-handling disorders. This offers a plausible, but currently unconfirmed, biological rationale for the TxGNN prediction; it should not be treated as direct clinical evidence.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+Der eine Literaturbeleg, der für diesen Kandidaten abgerufen wurde, ist eine Übersicht über Cerebrotendinöse Xanthomatose (CTX), eine seltene Gallensäuresynthesestörung, die durch CYP27A1-Mutationen verursacht wird, die die Gallensäureproduktion beeinträchtigen und zu Cholestanolablagerung führen. Obwohl diese Veröffentlichung nicht direkt die homozygote familiäre Hypercholesterinämie behandelt, belegt sie, dass Störungen in Gallensäure-/Cholesterinstoffwechselpfaden – dem biologischen Raum, in dem CDCA als endogene Gallensäure wirkt – mechanistisch mit Lipidspeicher- und Cholesterin-Handhabungsstörungen verbunden sind. Dies bietet eine plausible, aber derzeit nicht bestätigte biologische Grundlage für die TxGNN-Vorhersage; sie sollte nicht als direkte klinische Evidenz behandelt werden.
 
 ---
 
-## Literature Evidence
+## Klinische Studienevidenz
 
-| PMID | Year | Type | Journal | Key Findings |
+Derzeit keine verwandten klinischen Studien registriert
+
+---
+
+## Literaturevidenz
+
+| PMID | Jahr | Typ | Zeitschrift | Wichtigste Erkenntnisse |
 |------|-----|------|------|---------|
-| [25424010](https://pubmed.ncbi.nlm.nih.gov/25424010/) | 2014 | Review | Orphanet Journal of Rare Diseases | Comprehensive review of cerebrotendinous xanthomatosis (CTX), a bile acid synthesis disorder caused by CYP27A1 mutations resulting in decreased bile acid synthesis and cholestanol accumulation — relevant background on bile acid/cholesterol metabolism pathways, but not a direct study of the predicted indication |
+| [25424010](https://pubmed.ncbi.nlm.nih.gov/25424010/) | 2014 | Übersicht | Orphanet Journal of Rare Diseases | Umfassende Übersicht über Cerebrotendinöse Xanthomatose (CTX), eine Gallensäuresynthesestörung, die durch CYP27A1-Mutationen verursacht wird, was zu verringerter Gallensäuresynthese und Cholestanolablagerung führt – relevanter Hintergrund zu Gallensäure-/Cholesterinstoffwechselpfaden, aber keine direkte Studie der vorhergesagten Indikation |
 
 ---
 
-## Germany Market Information
+## Marktinformationen für Deutschland
 
-Chenodeoxycholic acid currently has no marketing authorizations recorded in the German market (0 authorizations, market status: not marketed).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+Chenodeoxycholsäure hat derzeit keine Zulassungen auf dem deutschen Markt (0 Zulassungen, Marktstatus: nicht vermarktet).
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsüberlegungen
 
-**Decision: Hold**
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
 
-**Rationale:**
-There is no documented original indication, no mechanism-of-action data, no clinical trial evidence, and no marketing authorization in Germany for this candidate. The single available publication addresses a related but distinct bile acid disorder rather than the predicted indication itself, so the prediction currently rests on the TxGNN model score alone.
+---
 
-**To proceed, the following is needed:**
-- Confirmed original indication and mechanism of action (DrugBank query)
-- TFDA/manufacturer package insert for warnings and contraindications
-- Dedicated preclinical or clinical evidence directly linking chenodeoxycholic acid to lipid metabolism disorders such as homozygous familial hypercholesterolemia
-- Safety and drug interaction profile before any S1 initial safety assessment can proceed
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Halten**
+
+**Begründung:**
+Es gibt keine dokumentierte ursprüngliche Indikation, keine Wirkmechanismus-Daten, keine klinische Studienevidenz und keine Zulassung auf dem deutschen Markt für diesen Kandidaten. Die einzige verfügbare Veröffentlichung behandelt eine verwandte, aber unterschiedliche Gallensäuresynthesestörung und nicht die vorhergesagte Indikation selbst, daher stützt sich die Vorhersage derzeit nur auf die TxGNN-Modellpunktzahl.
+
+**Um fortzufahren, wird Folgendes benötigt:**
+- Bestätigte ursprüngliche Indikation und Wirkmechanismus (DrugBank-Abfrage)
+- TFDA/Hersteller-Packungsbeilage für Warnhinweise und Kontraindikationen
+- Dedizierte präklinische oder klinische Evidenz, die Chenodeoxycholsäure direkt mit Lipidstoffwechselstörungen wie homozygote familiäre Hypercholesterinämie verbindet
+- Sicherheits- und Arzneimittelwechselwirkungsprofil vor einer S1-Erstbewertung der Sicherheit
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -29,66 +29,67 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Nintedanib: From an Unrecorded Original Indication to Dermatofibrosarcoma Protuberans
+# Nintedanib: Von einer nicht dokumentierten Ursprungsindikation zur Dermatofibrosarkom Protuberans
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Nintedanib's original approved indication is not recorded in this evidence pack (data gap).
-> The TxGNN model predicts it may be effective for **Dermatofibrosarcoma Protuberans (DFSP)**,
-> with **0 clinical trials** and **1 supporting publication** currently identified — evidence remains at the mechanistic/preclinical level.
+> Die ursprüngliche zugelassene Indikation von Nintedanib ist in diesem Evidenzpaket nicht dokumentiert (Datenlücke).
+> Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam sein könnte gegen **Dermatofibrosarkom Protuberans (DFSP)**,
+> wobei derzeit **0 klinische Studien** und **1 unterstützende Publikation** identifiziert wurden — die Evidenz bleibt auf mechanistischer/präklinischer Ebene.
 
-## Quick Overview
+## Schneller Überblick
 
-| Item | Content |
+| Element | Inhalt |
 |------|------|
-| Original Indication | Not available (data gap — no records in evidence pack) |
-| Predicted New Indication | Dermatofibrosarcoma Protuberans |
-| TxGNN Prediction Score | 99.15% |
-| Evidence Level | L4 (preclinical / mechanism-level only) |
-| Taiwan Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | Nicht verfügbar (Datenlücke — keine Aufzeichnungen im Evidenzpaket) |
+| Vorhergesagte neue Indikation | Dermatofibrosarkom Protuberans |
+| TxGNN-Vorhersage-Score | 99.15% |
+| Evidenzlevel | L4 (präklinisch / nur mechanistischer Ebene) |
+| Taiwan-Marktstatus | Nicht vermarktet (Nicht vermarktet) |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Zurückhalten |
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage begründet?
 
-Currently, detailed mechanism of action data for Nintedanib is not available in this evidence pack (DG002, High severity). Based on the mechanistic rationale that is available, Nintedanib is described as a PDGFR-α/β inhibitor among its targets.
+Derzeit sind detaillierte Daten zum Wirkmechanismus von Nintedanib in diesem Evidenzpaket nicht verfügbar (DG002, hoher Schweregrad). Basierend auf dem verfügbaren mechanistischen Ansatz wird Nintedanib als PDGFR-α/β-Inhibitor unter seinen Zielen beschrieben.
 
-DFSP tumors are driven by a COL1A1-PDGFB fusion gene that causes constitutive PDGFRB activation. This overlaps mechanistically with Imatinib, the current standard of care for DFSP. Nintedanib's PDGFR inhibitory activity provides a plausible target-based rationale for this prediction, and the very high TxGNN score (0.9915) reflects strong network-level support. However, the only supporting literature identified (PMID 29408302) is a general review of PDGFR inhibitors as a drug class — it does not report Nintedanib-specific data in DFSP, and no clinical trials currently exist for this indication.
+DFSP-Tumoren werden durch eine COL1A1-PDGFB-Fusionsmutation angetrieben, die zur konstituktiven PDGFRB-Aktivierung führt. Dies überlappt mechanistisch mit Imatinib, der derzeitigen Standardbehandlung für DFSP. Die PDGFR-inhibitorische Aktivität von Nintedanib bietet eine plausible zielgerichtete Begründung für diese Vorhersage, und der sehr hohe TxGNN-Score (0.9915) spiegelt starke Unterstützung auf Netzwerkebene wider. Die einzige identifizierte unterstützende Literatur (PMID 29408302) ist jedoch eine allgemeine Übersicht über PDGFR-Inhibitoren als Arzneimittelklasse — sie berichtet nicht über Nintedanib-spezifische Daten bei DFSP, und es existieren derzeit keine klinischen Studien für diese Indikation.
 
-The other two predicted indications (liposarcoma, ovarian myxoid liposarcoma) are considerably weaker: both are pure TxGNN score-based extrapolations from the same PDGFR/FGFR pathway logic, with no supporting literature or trials at all (Evidence Level L5, recommendation "Hold" for both), and are not discussed further here.
+Die anderen beiden vorhergesagten Indikationen (Liposarkom, ovarielles myxoides Liposarkom) sind erheblich schwächer: beide sind reine TxGNN-Score-basierte Extrapolationen aus der gleichen PDGFR/FGFR-Pfad-Logik, ohne unterstützende Literatur oder Studien überhaupt (Evidenzlevel L5, Empfehlung „Zurückhalten" für beide), und werden hier nicht weiter diskutiert.
 
-## Clinical Trial Evidence
+## Evidenz aus klinischen Studien
 
-Currently no related clinical trials registered
+Derzeit keine verwandten klinischen Studien registriert
 
-## Literature Evidence
+## Literatur-Evidenz
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Journal | Wesentliche Erkenntnisse |
 |------|-----|------|------|---------|
-| [29408302](https://pubmed.ncbi.nlm.nih.gov/29408302/) | 2018 | Review | Pharmacological Research | Reviews the role of small-molecule PDGFR inhibitors (as a drug class) in treating neoplastic disorders; establishes PDGFR signaling as a therapeutic target but does not report Nintedanib-specific DFSP data. |
+| [29408302](https://pubmed.ncbi.nlm.nih.gov/29408302/) | 2018 | Übersicht | Pharmacological Research | Überprüft die Rolle von Kleinmolekül-PDGFR-Inhibitoren (als Arzneimittelklasse) bei der Behandlung von neoplastischen Erkrankungen; etabliert PDGFR-Signalisierung als therapeutisches Ziel, berichtet aber nicht über Nintedanib-spezifische DFSP-Daten. |
 
-## Taiwan Market Information
+## Taiwan-Marktinformationen
 
-Nintedanib is not currently marketed in Taiwan (0 authorizations on record). No license or approved-indication data is available for this evidence pack.
+Nintedanib wird derzeit nicht in Taiwan vermarktet (0 Zulassungen in den Aufzeichnungen). Für dieses Evidenzpaket sind keine Lizenz- oder zugelassenen Indikationsdaten verfügbar.
 
-## Safety Considerations
+## Sicherheitsüberlegungen
 
-Please refer to the package insert for safety information.
+Bitte lesen Sie die Packungsbeilage für Sicherheitsinformationen.
 
-*Note: TFDA label/warning data (DG001) is flagged as a **Blocking** data gap — its absence directly prevents entry into the S1 safety pre-assessment stage.*
+*Hinweis: TFDA-Etiketten-/Warnungsdaten (DG001) sind als eine **blockierende** Datenlücke gekennzeichnet — deren Fehlen verhindert direkt den Eintritt in die S1-Sicherheitsvorbewertungsphase.*
 
-## Conclusion and Next Steps
+## Fazit und nächste Schritte
 
-**Decision: Hold**
+**Entscheidung: Zurückhalten**
 
-**Rationale:**
-The DFSP prediction rests on a plausible but indirect mechanistic argument (PDGFR pathway overlap with Imatinib) supported by a single drug-class review paper, with no Nintedanib-specific trials or preclinical data, and no original indication or MOA confirmed on file. A Blocking safety data gap (TFDA label unavailable) also prevents formal S1 safety evaluation.
+**Begründung:**
+Die DFSP-Vorhersage basiert auf einem plausiblen, aber indirekten mechanistischen Argument (PDGFR-Weg-Überlappung mit Imatinib), das durch eine einzelne Arzneimittelklassen-Übersichtspublikation unterstützt wird, ohne Nintedanib-spezifische Studien oder präklinische Daten, und ohne bestätigte ursprüngliche Indikation oder MOA auf der Akte. Eine blockierende Sicherheitsdatenlücke (TFDA-Etikett nicht verfügbar) verhindert auch eine formale S1-Sicherheitsbewertung.
 
-**To proceed, the following is needed:**
-- TFDA/package insert data to resolve the Blocking safety gap (DG001)
-- Confirmed MOA and original approved indication(s) for Nintedanib from DrugBank (DG002)
-- Nintedanib-specific preclinical (e.g., PDGFRB-fusion cell line/xenograft) or case-level clinical data in DFSP
-- Re-evaluation of liposarcoma and ovarian myxoid liposarcoma predictions if any supporting literature emerges (currently no basis to proceed)
+**Um fortzufahren, ist folgendes erforderlich:**
+- TFDA-/Packungsbeilage-Daten, um die blockierende Datenlücke DG001 zu beheben
+- Bestätigte MOA und ursprüngliche zugelassene Indikation(en) für Nintedanib aus DrugBank (DG002)
+- Nintedanib-spezifische präklinische (z. B. PDGFRB-Fusionszellinie/Xenotransplantat) oder fallbezogene klinische Daten bei DFSP
+- Neubewertung der Liposarkom- und ovariellen myxoiden Liposarkom-Vorhersagen, falls unterstützende Literatur auftaucht (derzeit keine Grundlage zum Fortfahren)
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

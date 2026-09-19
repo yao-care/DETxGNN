@@ -29,88 +29,89 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Treosulfan: From Hematopoietic Stem Cell Transplant Conditioning to Diabetic Cataract
+# Treosulfan: Von der Konditionierung zur hämatopoetischen Stammzelltransplantation bis zum diabetischen Katarakt
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Treosulfan is a bifunctional alkylating agent clinically used as conditioning chemotherapy prior to hematopoietic stem cell transplantation.
-> The TxGNN model predicts it may be effective for **Diabetic Cataract**,
-> but this direction is currently supported by **0 clinical trials** and **0 publications** — the prediction rests on the model score alone.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available from German license data (drug is not marketed); known clinical use is conditioning chemotherapy before hematopoietic stem cell transplant |
-| Predicted New Indication | Diabetic cataract |
-| TxGNN Prediction Score | 99.01% |
-| Evidence Level | L5 |
-| Germany Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Treosulfan ist ein bifunktionelles Alkylierungsmittel, das klinisch als Konditionierungschemotherapie vor der hämatopoetischen Stammzelltransplantation eingesetzt wird.
+> Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam gegen **diabetischen Katarakt** sein könnte,
+> aber diese Richtung wird derzeit durch **0 klinische Studien** und **0 Publikationen** gestützt – die Vorhersage basiert allein auf dem Modellscore.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Currently, detailed mechanism of action data is not available. Based on known information, treosulfan is a bifunctional epoxide-type alkylating agent, whose activity is tied to DNA cross-linking and cytotoxic cell kill — the basis for its use as conditioning chemotherapy before hematopoietic stem cell transplantation.
-
-There is no established mechanistic link between this cytotoxic/DNA-damaging action and the pathology of diabetic cataract, which is driven by lens osmotic stress, oxidative stress, and the polyol pathway. No shared pharmacological pathway connects an alkylating conditioning agent to cataract prevention or treatment.
-
-Notably, this direction carries a plausible mechanistic **red flag rather than support**: alkylating agents are more commonly reported in the literature as being *associated with* cataract formation (as a long-term toxicity of conditioning regimens) rather than as a treatment for cataract. Given the drug is not marketed and the prediction has zero corroborating trial or literature evidence, this candidate should be treated as a pure model output requiring independent mechanistic and safety validation before any further evaluation.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Nicht verfügbar aus deutschen Lizenzdaten (Arzneimittel wird nicht vermarktet); bekannte klinische Verwendung ist Konditionierungschemotherapie vor hämatopoetischer Stammzelltransplantation |
+| Vorhergesagte neue Indikation | Diabetischer Katarakt |
+| TxGNN-Vorhersagescore | 99.01% |
+| Evidenzebene | L5 |
+| Marktstatus in Deutschland | Nicht zugelassen |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Halten |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage nachvollziehbar?
 
-Currently no related literature available.
+Derzeit sind detaillierte Wirkmechanismus-Daten nicht verfügbar. Auf Basis bekannter Informationen ist Treosulfan ein bifunktionelles Alkylierungsmittel vom Epoxid-Typ, dessen Aktivität an DNA-Vernetzung und zytotoxischen Zelltod gebunden ist – die Grundlage für seine Verwendung als Konditionierungschemotherapie vor hämatopoetischer Stammzelltransplantation.
 
----
+Es gibt keinen etablierten mechanistischen Zusammenhang zwischen dieser zytotoxischen/DNA-schädigenden Wirkung und der Pathologie des diabetischen Katarakts, die durch osmotischen Stress der Linse, oxidativen Stress und den Polyol-Weg verursacht wird. Kein gemeinsamer pharmakologischer Signalweg verbindet ein Alkylierungs-Konditionierungsmittel mit der Kataraktprävention oder -behandlung.
 
-## Germany Market Information
-
-Treosulfan is currently not marketed in Germany; no license information is available.
+Bemerkenswerterweise zeigt diese Richtung ein plausibler mechanistisches **Warnsignal statt einer Unterstützung**: Alkylierungsmittel werden in der Literatur häufiger mit einer *Assoziation zu* Kataraktbildung (als Spättoxizität von Konditionierungsregimen) berichtet als zur Kataraktbehandlung. Angesichts der Tatsache, dass das Arzneimittel nicht vermarktet ist und die Vorhersage null Literatur- oder Studiennachweise hat, sollte dieser Kandidat als reines Modellausgabeergebnis behandelt werden, das eine unabhängige mechanistische und Sicherheitsvalidierung erfordert, bevor weitere Bewertungen erfolgen.
 
 ---
 
-## Cytotoxicity
+## Klinische Studienevidenz
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (bifunctional epoxide alkylating agent) |
-| Myelosuppression Risk | High — alkylating conditioning regimens are typically associated with profound, dose-dependent myelosuppression |
-| Emetogenicity Classification | Moderate to high, consistent with alkylator-based conditioning regimens |
-| Monitoring Items | CBC with differential, renal function, hepatic function |
-| Handling Protection | Standard cytotoxic drug handling precautions required |
+Derzeit sind keine verwandten klinischen Studien registriert.
 
 ---
 
-## Safety Considerations
+## Literaturevidenz
 
-Please refer to the package insert for safety information.
+Derzeit sind keine verwandten Literaturdaten verfügbar.
 
 ---
 
-## Conclusion and Next Steps
+## Marktsituation in Deutschland
 
-**Decision: Hold**
+Treosulfan wird derzeit nicht in Deutschland vermarktet; es sind keine Lizenzdaten verfügbar.
 
-**Rationale:**
-The TxGNN score is high, but there is zero clinical trial or literature support (L5, prediction-only), the drug is not currently marketed in Germany, and the proposed mechanism runs counter to known alkylator toxicity (cataract as an adverse effect, not a treatment target).
+---
 
-**To proceed, the following is needed:**
-- TFDA/manufacturer package insert warnings and contraindications (blocking data gap — required before any S1 safety review)
-- Detailed mechanism of action data to properly assess mechanistic plausibility
-- Preclinical or mechanistic evidence specifically linking alkylating activity to diabetic cataract pathology, given the conflicting signal noted above
-- Clarification of German/EU marketing status or an alternative regulatory pathway, since the drug is currently unmarketed
+## Zytotoxizität
+
+| Element | Inhalt |
+|---------|--------|
+| Zytotoxizitätsklassifizierung | Konventionelles Zytostatum (bifunktionelles Epoxid-Alkylierungsmittel) |
+| Myelosuppressions-Risiko | Hoch – Alkylierungs-Konditionierungsregime sind typischerweise mit tiefgreifender, dosisabhängiger Knochenmarksuppression verbunden |
+| Emetogenitätsklassifizierung | Moderat bis hoch, konsistent mit Alkylierungs-basierten Konditionierungsregimen |
+| Überwachungsparameter | Blutbild mit Differenzial, Nierenfunktion, Leberfunktion |
+| Handhabungsschutz | Standardisierte Vorsichtsmaßnahmen für die Handhabung von Zytostatika erforderlich |
+
+---
+
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Fachinformation für Sicherheitsinformationen.
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Halten**
+
+**Begründung:**
+Der TxGNN-Score ist hoch, aber es gibt keine klinische Studien- oder Literaturunterstützung (L5, nur Vorhersage), das Arzneimittel ist derzeit nicht in Deutschland zugelassen, und der vorgeschlagene Mechanismus steht im Widerspruch zu bekannter Alkylierungs-Toxizität (Katarakt als unerwünschte Wirkung, nicht als Behandlungsziel).
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+- TFDA/Hersteller-Fachinformation mit Warnhinweisen und Kontraindikationen (Datenlücke – erforderlich vor jeder S1-Sicherheitsbewertung)
+- Detaillierte Wirkmechanismus-Daten zur angemessenen Bewertung der mechanistischen Plausibilität
+- Präklinische oder mechanistische Daten, die speziell die Alkylierungs-Aktivität mit der diabetischen Kataraktpathologie verknüpfen, angesichts des oben notierten widersprüchlichen Signals
+- Klarstellung des deutschen/europäischen Marktstatus oder ein alternativer regulatorischer Weg, da das Arzneimittel derzeit nicht zugelassen ist
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

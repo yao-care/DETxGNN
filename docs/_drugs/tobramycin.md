@@ -29,82 +29,83 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Tobramycin: From Bacterial Infections to Exposure Keratitis
+# Tobramycin: Von bakteriellen Infektionen zu Expositionskeratitis
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Tobramycin is an aminoglycoside antibiotic historically used to treat serious gram-negative bacterial infections (systemic, respiratory, and ophthalmic). The TxGNN model predicts it may be effective for **Exposure Keratitis**, with **2 clinical trials** and **7 publications** currently identified as supporting evidence — though most of this evidence is indirect (case reports and in vitro toxicity data rather than trials designed specifically for this indication).
+> Tobramycin ist ein Aminoglykosid-Antibiotikum, das historisch zur Behandlung schwerwiegender gram-negativer bakterieller Infektionen (systemisch, respiratorisch und ophthalmologisch) eingesetzt wurde. Das TxGNN-Modell prognostiziert, dass es möglicherweise bei **Expositionskeratitis** wirksam ist, mit **2 klinischen Studien** und **7 Publikationen**, die derzeit als unterstützende Evidenz identifiziert wurden – obwohl der Großteil dieser Evidenz indirekt ist (Fallberichte und In-vitro-Toxizitätsdaten statt Studien, die speziell für diese Indikation konzipiert sind).
 
 ---
 
-## Quick Overview
+## Schneller Überblick
 
-| Item | Content |
+| Element | Inhalt |
 |------|------|
-| Original Indication | Not extractable from evidence pack (no licenses/approved indication text on file). Based on general pharmacological classification, tobramycin is an aminoglycoside antibiotic used for serious gram-negative bacterial infections. |
-| Predicted New Indication | Exposure Keratitis |
+| Ursprüngliche Indikation | Nicht aus dem Evidenzpaket extrahierbar (keine Lizenzen/genehmigte Indikationstexte in der Datei). Basierend auf der allgemeinen pharmakologischen Klassifikation ist Tobramycin ein Aminoglykosid-Antibiotikum, das für schwerwiegende gram-negative bakterielle Infektionen verwendet wird. |
+| Vorhergesagte neue Indikation | Expositionskeratitis |
 | TxGNN Prediction Score | 99.93% |
-| Evidence Level | L3 (observational case reports + non-RCT trials; no completed RCT specific to this indication) |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Evidenzgrad | L3 (beobachtende Fallberichte + nicht-RCT-Studien; keine abgeschlossene RCT speziell für diese Indikation) |
+| Marktstatus Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Halten |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Prognose vernünftig?
 
-Currently, detailed mechanism of action data is not available. Based on known information, tobramycin belongs to the aminoglycoside antibiotic class, and its efficacy against gram-negative bacterial infections (including *Pseudomonas aeruginosa*) has been well established in systemic, inhaled, and ophthalmic formulations. Mechanistically, this broad antibacterial activity may be applicable to exposure keratitis.
+Derzeit sind detaillierte Daten zum Wirkmechanismus nicht verfügbar. Basierend auf bekannten Informationen gehört Tobramycin zur Klasse der Aminoglykosid-Antibiotika, und seine Wirksamkeit gegen gram-negative bakterielle Infektionen (einschließlich *Pseudomonas aeruginosa*) ist bei systemischen, inhalierten und ophthalmologischen Formulierungen gut etabliert. Mechanistisch könnte diese breite antibakterielle Aktivität auf Expositionskeratitis anwendbar sein.
 
-Exposure keratitis is a mechanical/neurological condition — typically caused by incomplete eyelid closure (e.g., in sedated, comatose, or facial-nerve-palsy patients) — that leaves the cornea chronically exposed and vulnerable to desiccation and **secondary bacterial infection**. Tobramycin is not expected to treat the underlying exposure mechanism itself, but rather to prevent or treat the secondary bacterial keratitis that frequently complicates it. This is directly illustrated in the literature evidence below, where a patient unable to close his eyes (vegetative state) developed bacterial keratitis requiring antibiotic management — a scenario structurally analogous to exposure keratitis.
+Expositionskeratitis ist eine mechanisch/neurologische Erkrankung – typischerweise verursacht durch unvollständigen Lidschluss (z. B. bei sedierten, komatösen oder mit Lähmung des Nervus facialis betroffenen Patienten) – die die Hornhaut chronisch exponiert lässt und anfällig für Austrocknung und **sekundäre bakterielle Infektion** macht. Von Tobramycin wird nicht erwartet, dass es den zugrunde liegenden Expositionsmechanismus selbst behandelt, sondern vielmehr, dass es die sekundäre bakterielle Keratitis verhindert oder behandelt, die diese häufig verkompliziert. Dies wird direkt in der Literaturevidenz unten veranschaulicht, wo ein Patient, der seine Augen nicht freiwillig schließen konnte (vegetativer Zustand), eine bakterielle Keratitis entwickelte, die eine antibiotische Behandlung erforderte – ein Szenario, das strukturell der Expositionskeratitis ähnelt.
 
-Ophthalmic tobramycin already has an established, decades-long track record of off-label and on-label use for bacterial keratitis and corneal ulcers, which supports the biological plausibility of this prediction. However, the specific clinical trials linked to this indication (dendritic viral ulcer treatment, PRF membrane for ophthalmic diseases) do not directly test tobramycin for exposure keratitis, so the trial evidence should be interpreted as topically adjacent rather than confirmatory.
+Ophthalmologisches Tobramycin hat bereits eine etablierte, jahrzehntelange Erfolgsbilanz der Off-Label- und On-Label-Verwendung bei bakterieller Keratitis und Hornhautgeschwüren, was die biologische Plausibilität dieser Prognose unterstützt. Die spezifischen klinischen Studien, die mit dieser Indikation verknüpft sind (dendritische virale Ulkusbehandlung, PRF-Membran für ophthalmologische Erkrankungen), testen jedoch nicht direkt Tobramycin bei Expositionskeratitis, daher sollte die Studienevidenz als sachlich angrenzend statt bestätigend interpretiert werden.
 
 ---
 
-## Clinical Trial Evidence
+## Evidenz aus klinischen Studien
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Studiennummer | Phase | Status | Teilnehmerzahl | Wichtigste Erkenntnisse |
 |---------|------|------|------|---------|
-| [NCT05313828](https://clinicaltrials.gov/study/NCT05313828) | N/A | Unknown | 40 | Evaluates treatment modalities for dendritic viral (HSV) corneal ulcers; addresses infectious keratitis management broadly, not tobramycin-specific exposure keratitis therapy. |
-| [NCT06200727](https://clinicaltrials.gov/study/NCT06200727) | N/A | Unknown | 170 | Investigates platelet-rich fibrin (PRF) membrane for ocular surface conditions including corneal ulcer; tobramycin not the primary intervention studied. |
+| [NCT05313828](https://clinicaltrials.gov/study/NCT05313828) | N/A | Unbekannt | 40 | Bewertet Behandlungsmodalitäten für dendritische virale (HSV) Hornhautgeschwüre; befasst sich allgemein mit der Behandlung infektiöser Keratitis, nicht Tobramycin-spezifische Expositionskeratitis-Therapie. |
+| [NCT06200727](https://clinicaltrials.gov/study/NCT06200727) | N/A | Unbekannt | 170 | Untersucht Thrombozythenreiches Fibrin (PRF) Membran für Erkrankungen der Augenoberfläche, einschließlich Hornhautgeschwür; Tobramycin ist nicht die primär untersuchte Intervention. |
 
 ---
 
-## Literature Evidence
+## Literaturevidenz
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Zeitschrift | Wichtigste Erkenntnisse |
 |------|-----|------|------|---------|
-| [2707046](https://pubmed.ncbi.nlm.nih.gov/2707046/) | 1989 | In vitro mechanism study | Current Eye Research | Compares corneal epithelial cytotoxicity of aminoglycosides (including tobramycin) in a rabbit model — relevant to safety of topical use on compromised (exposed) corneal epithelium. |
-| [17228760](https://pubmed.ncbi.nlm.nih.gov/17228760/) | 2006 | Susceptibility/comparative study | Nippon Ganka Gakkai Zasshi | Compares MIC and postantibiotic effect of antibiotic eyedrops (including tobramycin) against infectious keratitis isolates in Japan. |
-| [34987857](https://pubmed.ncbi.nlm.nih.gov/34987857/) | 2021 | Case report | Oxford Medical Case Reports | Describes bacterial keratitis in a patient unable to voluntarily close his eyes (vegetative state) — a direct clinical analogue of exposure keratitis with secondary infection. |
-| [11581057](https://pubmed.ncbi.nlm.nih.gov/11581057/) | 2001 | Case report | Ophthalmology | Contact lens-associated *Bacillus cereus* keratitis and ulcer. |
-| [12861116](https://pubmed.ncbi.nlm.nih.gov/12861116/) | 2003 | Case report | Eye & Contact Lens | Bilateral MRSA keratitis following photorefractive keratectomy. |
-| [33847093](https://pubmed.ncbi.nlm.nih.gov/33847093/) | 2021 | Retrospective case series | Polish Journal of Veterinary Sciences | Seroprevalence, diagnosis, and treatment outcomes in feline ocular toxoplasmosis (60 cases); limited direct human relevance. |
-| [14574976](https://pubmed.ncbi.nlm.nih.gov/14574976/) | 2003 | Case report | Yan Ke Xue Bao / Eye Science | Reports paracentral corneal dellen as a rare sign of Graves ophthalmopathy — a corneal exposure-related condition, though not treatment-focused. |
+| [2707046](https://pubmed.ncbi.nlm.nih.gov/2707046/) | 1989 | In-vitro-Mechanismus-Studie | Current Eye Research | Vergleicht die Zytotoxizität des Hornhautepithels von Aminoglykosiden (einschließlich Tobramycin) in einem Kaninchenmodell – relevant für die Sicherheit der topischen Anwendung auf geschädigtem (exponiertem) Hornhautepithel. |
+| [17228760](https://pubmed.ncbi.nlm.nih.gov/17228760/) | 2006 | Empfindlichkeits-/Vergleichsstudie | Nippon Ganka Gakkai Zasshi | Vergleicht MIC und postantibiotischen Effekt von Antibiotika-Augentropfen (einschließlich Tobramycin) gegen Keratitis-Isolate in Japan. |
+| [34987857](https://pubmed.ncbi.nlm.nih.gov/34987857/) | 2021 | Fallbericht | Oxford Medical Case Reports | Beschreibt bakterielle Keratitis bei einem Patienten, der nicht in der Lage war, seine Augen freiwillig zu schließen (vegetativer Zustand) – ein direktes klinisches Analogon der Expositionskeratitis mit sekundärer Infektion. |
+| [11581057](https://pubmed.ncbi.nlm.nih.gov/11581057/) | 2001 | Fallbericht | Ophthalmology | Kontaktlinsen-assoziierte *Bacillus cereus* Keratitis und Geschwür. |
+| [12861116](https://pubmed.ncbi.nlm.nih.gov/12861116/) | 2003 | Fallbericht | Eye & Contact Lens | Bilaterale MRSA-Keratitis nach photorefraktiver Keratektomie. |
+| [33847093](https://pubmed.ncbi.nlm.nih.gov/33847093/) | 2021 | Retrospektive Fallserie | Polish Journal of Veterinary Sciences | Seroprävalenz, Diagnose und Behandlungsergebnisse bei feliner okularer Toxoplasmose (60 Fälle); begrenzte direkte Relevanz für Menschen. |
+| [14574976](https://pubmed.ncbi.nlm.nih.gov/14574976/) | 2003 | Fallbericht | Yan Ke Xue Bao / Eye Science | Berichtet parazentrales Hornhautdellen als seltenes Zeichen der Graves-Ophthalmopathie – eine Hornhaut-Expositions-bedingte Erkrankung, obwohl nicht auf Behandlung ausgerichtet. |
 
 ---
 
-## Safety Considerations
+## Sicherheitsüberlegungen
 
-Please refer to the package insert for safety information.
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
 
-*(Note: This evaluation identified a **Blocking**-severity data gap — TFDA/official label warnings and contraindications for tobramycin are not currently on file — which must be resolved before formal safety assessment can proceed.)*
+*(Hinweis: Diese Bewertung hat eine Datenlücke mit **Blocking**-Schweregrad identifiziert – TFDA/offizielle Kennzeichnungswarnungen und Kontraindikationen für Tobramycin sind derzeit nicht in der Datei vorhanden – was vor dem Fortschreiten zu einer formalen Sicherheitsbewertung gelöst werden muss.)*
 
 ---
 
-## Conclusion and Next Steps
+## Fazit und nächste Schritte
 
-**Decision: Hold**
+**Entscheidung: Halten**
 
-**Rationale:**
-- The mechanistic rationale for using tobramycin in exposure-keratitis-associated secondary bacterial infection is biologically plausible and supported by one directly relevant case report, but the overall evidence base is L3 (case reports and non-specific trials) — not yet sufficient for a "Go" decision.
-- A **Blocking** data gap exists: official label warnings/contraindications (DG001) are unavailable, which by definition prevents entry into the S1 safety pre-assessment stage.
+**Begründung:**
+- Die mechanistische Begründung für die Verwendung von Tobramycin bei sekundärer bakterieller Infektion im Zusammenhang mit Expositionskeratitis ist biologisch plausibel und wird durch einen direkt relevanten Fallbericht unterstützt, aber die Gesamtevidenzgrundlage ist L3 (Fallberichte und nicht-spezifische Studien) – noch nicht ausreichend für eine „Go"-Entscheidung.
+- Eine **Blocking** Datenlücke besteht: offizielle Kennzeichnungswarnungen/Kontraindikationen (DG001) sind nicht verfügbar, was per Definition den Eintritt in das Stadium S1 der Sicherheits-Vorbewertung verhindert.
 
-**To proceed, the following is needed:**
-- Obtain TFDA (or equivalent) approved product label — warnings, contraindications, dosing (DG001, Blocking)
-- Obtain confirmed mechanism of action / DrugBank pharmacology data (DG002, High)
-- Assess whether NCT05313828 and NCT06200727 include tobramycin-treated arms directly applicable to exposure keratitis, or seek trials with a more direct design
-- Clarify current regulatory/market status, since the drug is presently recorded as "Not Marketed" with zero active authorizations
+**Um fortzufahren, wird Folgendes benötigt:**
+- Besorgen Sie sich das von der TFDA (oder gleichwertig) genehmigte Produktkennzeichen – Warnhinweise, Kontraindikationen, Dosierung (DG001, Blocking)
+- Besorgen Sie sich bestätigte Wirkmechanismus-/DrugBank-Pharmakologiedaten (DG002, High)
+- Bewerten Sie, ob NCT05313828 und NCT06200727 Tobramycin-behandelte Gruppen direkt anwendbar auf Expositionskeratitis einschließen, oder suchen Sie nach Studien mit direkterem Design
+- Klären Sie den aktuellen behördlichen/Marktstatus, da das Arzneimittel derzeit als „Nicht vermarktet" mit null aktiven Zulassungen aufgezeichnet ist
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

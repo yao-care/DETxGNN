@@ -29,76 +29,77 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Lapatinib: From HER2-Overexpressing Breast Cancer to Dermatofibrosarcoma Protuberans
+# Lapatinib: Von HER2-überexprimiertem Mammakarzinom zu Dermatofibrosarcoma Protuberans
 
-## One-Sentence Summary
+## Einleitung in einem Satz
 
-> Lapatinib is a dual EGFR/HER2 tyrosine kinase inhibitor originally used for HER2-overexpressing breast cancer.
-> The TxGNN model predicts it may be effective for **Dermatofibrosarcoma Protuberans (DFSP)**,
-> but this prediction is currently supported by **0 clinical trials** and **0 publications**, and the underlying mechanistic rationale is weak.
+> Lapatinib ist ein dualer EGFR/HER2-Tyrosinkinase-Inhibitor, der ursprünglich für HER2-überexprimierte Mammakarzinome eingesetzt wird.
+> Das TxGNN-Modell prognostiziert, dass es wirksam gegen **Dermatofibrosarcoma Protuberans (DFSP)** sein könnte,
+> doch diese Vorhersage wird derzeit durch **0 klinische Studien** und **0 Publikationen** gestützt, und die zugrunde liegende mechanistische Rationale ist schwach.
 
-## Quick Overview
+## Schnellabriss
 
-| Item | Content |
-|------|------|
-| Original Indication | HER2-overexpressing breast cancer *(derived from repurposing rationale text; not confirmed by formal regulatory/label data)* |
-| Predicted New Indication | Dermatofibrosarcoma Protuberans |
-| TxGNN Prediction Score | 99.30% |
-| Evidence Level | L5 (model prediction only, no clinical trials or literature) |
-| Germany Market Status | ✗ Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Element | Inhalt |
+|---------|---------|
+| Ursprüngliche Indikation | HER2-überexprimiertes Mammakarzinom *(abgeleitet aus dem Text der Umwidmungsrationale; nicht bestätigt durch formale Zulassungs-/Fachinformationsdaten)* |
+| Vorhergesagte neue Indikation | Dermatofibrosarcoma Protuberans |
+| TxGNN-Vorhersage-Score | 99.30% |
+| Evidenzlevel | L5 (nur Modellvorhersage, keine klinischen Studien oder Literatur) |
+| Marktsituation Deutschland | ✗ Nicht im Handel (Not marketed) |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Halten |
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage nachvollziehbar?
 
-Currently, detailed mechanism of action data (MOA) is not available in structured form. Based on the evidence pack's rationale text, lapatinib is a dual EGFR/HER2 (ErbB1/ErbB2) tyrosine kinase inhibitor, primarily used for HER2-overexpressing breast cancer.
+Derzeit sind detaillierte Mechanismus-der-Wirkung-Daten (MOA) nicht in strukturierter Form verfügbar. Basierend auf dem Rationaltext im Evidenzpaket ist Lapatinib ein dualer EGFR/HER2-(ErbB1/ErbB2-)Tyrosinkinase-Inhibitor, der primär für HER2-überexprimierte Mammakarzinome eingesetzt wird.
 
-However, the biological link between this MOA and DFSP is weak. DFSP is driven predominantly by the **COL1A1-PDGFB fusion gene**, which causes constitutive activation of PDGFRB — a pathway targeted by imatinib (a PDGFR inhibitor), not by EGFR/HER2 inhibitors. There is currently no known literature demonstrating clinically meaningful EGFR or HER2 overexpression or driver mutations in DFSP tumor cells.
+Jedoch ist die biologische Verbindung zwischen diesem MOA und DFSP schwach. DFSP wird überwiegend durch die **COL1A1-PDGFB-Fusionierung** angetrieben, die zu einer konstitutiven Aktivierung von PDGFRB führt — ein Signalweg, der durch Imatinib (einen PDGFR-Inhibitor) adressiert wird, nicht durch EGFR/HER2-Inhibitoren. Es gibt derzeit keine bekannte Literatur, die eine klinisch bedeutsame EGFR- oder HER2-Überexpression oder Treibermutationen in DFSP-Tumorzellen demonstriert.
 
-This prediction should therefore be interpreted as a **TxGNN knowledge-graph association only**, lacking independent biological plausibility support at this stage, and should be treated with a high degree of skepticism.
+Diese Vorhersage sollte daher als **TxGNN-Wissensgraph-Assoziation allein** interpretiert werden, der zu diesem Zeitpunkt unabhängige biologische Plausibilität fehlt, und sollte mit hohem Skeptizismus behandelt werden.
 
-## Clinical Trial Evidence
+## Klinische Studienevidenz
 
-Currently no related clinical trials registered.
+Derzeit sind keine verwandten klinischen Studien registriert.
 
-## Literature Evidence
+## Literaturevidenz
 
-Currently no related literature available.
+Derzeit keine verwandte Literatur verfügbar.
 
-## Germany Market Information
+## Marktsituation Deutschland
 
-Lapatinib is currently **not marketed** in Germany under this evidence pack (0 authorizations found); no product/dosage form/indication data is available.
+Lapatinib wird gemäß diesem Evidenzpaket in Deutschland derzeit **nicht vermarktet** (0 Zulassungen gefunden); keine Produktdaten/Darreichungsform/Indikationsdaten verfügbar.
 
-## Cytotoxicity
+## Zytotoxizität
 
-Lapatinib is an antineoplastic agent (breast cancer indication), classified as a targeted therapy rather than a conventional cytotoxic agent.
+Lapatinib ist ein antineoplastisches Mittel (Mammakarzinom-Indikation), klassifiziert als zielgerichtete Therapie statt klassisches Zytostatikum.
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (dual EGFR/HER2 tyrosine kinase inhibitor) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| Element | Inhalt |
+|---------|---------|
+| Zytotoxizität-Klassifizierung | Zielgerichtete Therapie (dualer EGFR/HER2-Tyrosinkinase-Inhibitor) |
+| Myelosuppressions-Risiko | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation |
+| Emetogenität-Klassifizierung | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation |
+| Überwachungspunkte | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation |
+| Handhabungsschutz | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation |
 
-## Safety Considerations
+## Sicherheitsaspekte
 
-Please refer to the package insert for safety information.
+Bitte beachten Sie die Sicherheitsinformationen der Fachinformation.
 
-*(Note: TFDA/BfArM label warnings and contraindications are currently unavailable — this is flagged as a Blocking data gap and must be resolved before any safety review can proceed.)*
+*(Hinweis: Warnhinweise und Kontraindikationen der Fachinformation (TFDA/BfArM) sind derzeit nicht verfügbar — dies wird als Blockierende Datenlücke gekennzeichnet und muss behoben werden, bevor eine Sicherheitsprüfung erfolgen kann.)*
 
-## Conclusion and Next Steps
+## Schlussfolgerung und nächste Schritte
 
-**Decision: Hold**
+**Entscheidung: Halten**
 
-**Rationale:**
-The prediction is supported only by a TxGNN model score (L5, no clinical trials or literature), the proposed mechanism does not align with the known driver pathway of DFSP (COL1A1-PDGFB/PDGFRB, not EGFR/HER2), and the drug is not currently marketed in Germany. In addition, TFDA label safety data (warnings/contraindications) is missing, which is a blocking gap for any safety evaluation.
+**Begründung:**
+Die Vorhersage wird nur durch einen TxGNN-Modell-Score gestützt (L5, keine klinischen Studien oder Literatur), der vorgeschlagene Mechanismus stimmt nicht mit dem bekannten Treiberpfad von DFSP überein (COL1A1-PDGFB/PDGFRB, nicht EGFR/HER2), und das Arzneimittel wird derzeit nicht in Deutschland vermarktet. Darüber hinaus fehlen die Sicherheitsdaten der TFDA-Fachinformation (Warnhinweise/Kontraindikationen), was eine blockierende Lücke für jede Sicherheitsbewertung darstellt.
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings/contraindications) — Blocking gap, required before S1 safety review
-- Confirmed original MOA and indication data from DrugBank/regulatory source
-- Preclinical evidence of EGFR/HER2 relevance in DFSP tumor biology, if any exists
-- Clinical trial or case-report evidence specifically evaluating lapatinib in DFSP or PDGFR-driven sarcomas
+**Um voranzukommen, ist Folgendes erforderlich:**
+- TFDA-Fachinformation (Warnhinweise/Kontraindikationen) — Blockierende Lücke, erforderlich vor S1-Sicherheitsprüfung
+- Bestätigte ursprüngliche MOA- und Indikationsdaten aus DrugBank/behördlicher Quelle
+- Präklinische Evidenz der EGFR/HER2-Relevanz in der DFSP-Tumorbiologie, falls vorhanden
+- Klinische Studie oder Fallbericht-Evidenz, die Lapatinib speziell in DFSP oder PDGFR-getriebenen Sarkomen bewertet
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

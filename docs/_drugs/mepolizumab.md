@@ -29,72 +29,73 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-# Mepolizumab: From Original Indication (Not Specified) to Thrombocytopenia due to Immune Destruction
+# Mepolizumab: Von ursprünglicher Indikation (nicht angegeben) zur Thrombozytopenie durch immunvermittelte Zerstörung
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Mepolizumab is an anti-IL-5 monoclonal antibody; its original approved indication is not documented in this evidence pack (data gap), though supporting literature repeatedly references its use in hypereosinophilic syndrome.
-> The TxGNN model predicts it may be effective for **Thrombocytopenia due to Immune Destruction**,
-> but currently only **1 case report** supports this direction, with **no clinical trials** registered.
+> Mepolizumab ist ein monoklonaler Antikörper gegen IL-5; seine ursprüngliche zugelassene Indikation ist in dieser Evidenzsammlung nicht dokumentiert (Datenlücke), obwohl die unterstützende Literatur wiederholt seine Verwendung beim hypereosinophilen Syndrom erwähnt.
+> Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam ist für **Thrombozytopenie durch immunvermittelte Zerstörung**,
+> aber derzeit wird dies nur durch **1 Fallbericht** unterstützt, wobei **keine klinischen Studien** registriert sind.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Element | Inhalt |
 |------|------|
-| Original Indication | Not available in evidence pack (data gap) |
-| Predicted New Indication | Thrombocytopenia due to Immune Destruction |
-| TxGNN Prediction Score | 99.66% |
-| Evidence Level | L4 |
-| Germany Market Status | ✗ Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | In der Evidenzsammlung nicht verfügbar (Datenlücke) |
+| Vorhergesagte neue Indikation | Thrombozytopenie durch immunvermittelte Zerstörung |
+| TxGNN-Vorhersage-Score | 99.66% |
+| Evidenzstufe | L4 |
+| Marktstatus in Deutschland | ✗ Nicht im Handel (Nicht im Handel) |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Zurückhalten |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage sinnvoll?
 
-Currently, detailed mechanism of action data for mepolizumab is not available in this evidence pack (marked as data gap). Based on the mechanistic notes accompanying this prediction, mepolizumab is an anti-IL-5 monoclonal antibody that suppresses eosinophil production and activation — a mechanism that has no established, direct molecular link to immune-mediated platelet destruction (e.g., Fc-receptor-mediated macrophage clearance or anti-platelet antibody pathways).
+Derzeit sind detaillierte Wirkmechanismus-Daten für Mepolizumab in dieser Evidenzsammlung nicht verfügbar (als Datenlücke gekennzeichnet). Basierend auf den mechanistischen Notizen, die diese Vorhersage begleiten, ist Mepolizumab ein monoklonaler Antikörper gegen IL-5, der die Eosinophilenproduktion und -aktivierung unterdrückt — ein Mechanismus, der keine etablierte, direkte molekulare Verbindung zur immunvermittelten Thrombozytenzerstörung (z. B. Fc-Rezeptor-vermittelte Makrophagen-Clearance oder Anti-Thrombozyten-Antikörper-Wege) aufweist.
 
-The only supporting literature is a single case report describing a patient with steroid-resistant hypereosinophilic syndrome (HES) and concomitant thrombotic microangiopathy, in whom platelet counts improved after mepolizumab treatment. This improvement is best interpreted as a **secondary effect** of resolving the underlying hypereosinophilic process, rather than evidence that mepolizumab acts directly on immune platelet destruction pathways.
+Die einzige unterstützende Literatur ist ein einzelner Fallbericht über einen Patienten mit kortikosteroid-resistentem hypereosinophilem Syndrom (HES) und begleitender thrombotischer Mikroangiopathie, bei dem die Thrombozytenzahl nach Mepolizumab-Behandlung anstieg. Diese Verbesserung wird am besten als **Sekundäreffekt** der Auflösung des zugrunde liegenden hypereosinophilen Prozesses interpretiert, nicht als Beweis dafür, dass Mepolizumab direkt auf immunvermittelte Thrombozytenzerstörungswege wirkt.
 
-Given this, the high TxGNN score likely reflects a shared knowledge-graph neighborhood (HES and thrombocytopenia frequently co-occur as comorbid entities) rather than genuine mechanistic specificity. This prediction should be treated as hypothesis-generating only, not as evidence of therapeutic plausibility.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Angesichts dessen spiegelt die hohe TxGNN-Punktzahl wahrscheinlich eine gemeinsame Wissengraph-Nachbarschaft wider (HES und Thrombozytopenie treten häufig als Komorbiditäten auf), nicht echte mechanistische Spezifität. Diese Vorhersage sollte nur als hypothesengenerierend behandelt werden, nicht als Beweis therapeutischer Plausibilität.
 
 ---
 
-## Literature Evidence
+## Klinische Studien-Evidenz
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [28648630](https://pubmed.ncbi.nlm.nih.gov/28648630/) | 2018 | Case Report | Blood Cells, Molecules & Diseases | Resolution of steroid-resistant hypereosinophilic immune diathesis with mepolizumab, with concomitant improvement of a mixed thrombotic microangiopathy; platelet improvement appears secondary to eosinophil suppression rather than a direct antiplatelet mechanism. |
+Derzeit sind keine verwandten klinischen Studien registriert.
 
 ---
 
-## Safety Considerations
+## Literatur-Evidenz
 
-Please refer to the package insert for safety information.
+| PMID | Jahr | Typ | Zeitschrift | Wichtigste Erkenntnisse |
+|------|------|------|------|---------|
+| [28648630](https://pubmed.ncbi.nlm.nih.gov/28648630/) | 2018 | Fallbericht | Blood Cells, Molecules & Diseases | Auflösung des kortikosteroid-resistenten hypereosinophilen Immundiathese mit Mepolizumab, mit begleitender Verbesserung einer gemischten thrombotischen Mikroangiopathie; die Verbesserung der Thrombozytenzahl scheint ein Sekundäreffekt der Eosinophilen-Unterdrückung zu sein, nicht ein direkter Anti-Thrombozyten-Mechanismus. |
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsüberlegungen
 
-**Decision: Hold**
+Bitte beachten Sie die Fachinformation für Sicherheitsinformationen.
 
-**Rationale:**
-The mechanistic link between mepolizumab's IL-5 inhibition and immune-mediated platelet destruction is weak and indirect, and the evidence base consists of a single case report with no supporting clinical trials — insufficient to justify advancing past preliminary screening. In addition, the missing TFDA label/warning data (DG001, Blocking) independently prevents progression to the S1 safety evaluation stage regardless of efficacy evidence.
+---
 
-**To proceed, the following is needed:**
-- TFDA-approved label (warnings, contraindications) to close the Blocking data gap (DG001)
-- Confirmed mechanism of action data from DrugBank (DG002)
-- Dedicated preclinical or mechanistic studies directly testing IL-5/eosinophil pathways in immune thrombocytopenia, rather than incidental case-report findings
-- If pursued further, prospective clinical evidence (even small pilot studies) specifically in immune thrombocytopenic populations
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Zurückhalten**
+
+**Begründung:**
+Die mechanistische Verbindung zwischen Mepolizumabs IL-5-Hemmung und immunvermittelter Thrombozytenzerstörung ist schwach und indirekt, und die Evidenzbasis besteht aus einem einzelnen Fallbericht ohne unterstützende klinische Studien — unzureichend, um das vorläufige Screening zu überschreiten. Darüber hinaus verhindern die fehlenden TFDA-Label/Warnung-Daten (DG001, Blocking) unabhängig davon die Fortschreitung zur S1-Sicherheitsbewertungs-Phase, ungeachtet der Wirksamkeitsevidenz.
+
+**Zur Fortschreitung ist Folgendes erforderlich:**
+- TFDA-zugelassenes Label (Warnungen, Kontraindikationen) zur Schließung der Blocking-Datenlücke (DG001)
+- Bestätigte Wirkmechanismus-Daten von DrugBank (DG002)
+- Zielgerichtete präklinische oder mechanistische Studien, die IL-5/Eosinophilen-Wege bei immunvermittelter Thrombozytopenie direkt testen, anstelle von beiläufigen Fallberichts-Erkenntnissen
+- Falls weiter verfolgt, prospektive klinische Evidenz (auch kleine Pilotstudien) speziell in immunthrombozytopenischen Populationen
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

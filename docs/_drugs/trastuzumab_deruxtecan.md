@@ -29,88 +29,89 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Trastuzumab Deruxtecan: From HER2-Expressing Tumours to Drug-Induced Osteoporosis
+# Trastuzumab Deruxtecan: Von HER2-exprimierenden Tumoren zu arzneimittelinduzierter Osteoporose
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Trastuzumab deruxtecan is a HER2-targeted antibody-drug conjugate (ADC) that delivers a cytotoxic topoisomerase I inhibitor (DXd) to HER2-expressing tumour cells. The TxGNN model predicts it may be effective for **Drug-Induced Osteoporosis**, but this direction is currently supported by **0 clinical trials** and **0 publications**, and the underlying rationale suggests the signal is likely a knowledge-graph artifact rather than a genuine treatment effect.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available — `original_indications` is empty and no formal indication text is on file (data gap) |
-| Predicted New Indication | Drug-Induced Osteoporosis |
-| TxGNN Prediction Score | 99.31% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Germany Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Trastuzumab deruxtecan ist ein HER2-gezieltes Antikörper-Wirkstoff-Konjugat (ADK), das einen zytotoxischen Topoisomerase-I-Inhibitor (DXd) zu HER2-exprimierenden Tumorzellen transportiert. Das TxGNN-Modell prognostiziert, dass es bei **arzneimittelinduzierter Osteoporose** wirksam sein könnte, aber diese Richtung wird derzeit durch **0 klinische Studien** und **0 Publikationen** gestützt, und die zugrunde liegende Rationale deutet darauf hin, dass das Signal wahrscheinlich ein Wissensgraph-Artefakt ist, anstatt eines echten therapeutischen Effekts.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Currently, detailed mechanism of action data is not available in this evidence pack (`original_moa` is a data gap). Based on the mechanistic notes attached to this candidate, trastuzumab deruxtecan is known to function as a HER2-targeted ADC that delivers a cytotoxic topoisomerase I inhibitor payload to HER2-expressing tumour cells — a mechanism relevant to oncology, not bone metabolism.
-
-There is no known or literature-supported mechanism by which this drug would modulate osteoclast/osteoblast activity or bone-remodeling pathways such as RANKL/OPG. Clinically, cytotoxic chemotherapies and ADCs are far more commonly associated with drug-induced osteoporosis as a **cause** (a treatment side effect) rather than as a **treatment** for it.
-
-Given the high TxGNN score (0.993) combined with the complete absence of clinical trials or literature, the most plausible explanation is that the knowledge graph is picking up a co-occurrence relationship between "cancer therapy drug" nodes and "chemotherapy-associated bone loss" nodes, rather than a true therapeutic signal. This prediction should be treated as biologically implausible until contradicted by new evidence.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Artikel | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Nicht verfügbar — `original_indications` ist leer und kein formaler Indikationstext liegt vor (Datenlücke) |
+| Prognostizierte neue Indikation | Arzneimittelinduzierte Osteoporose |
+| TxGNN-Prognosescore | 99.31% |
+| Evidenzstufe | L5 (nur Modellvorhersage, keine unterstützenden Studien) |
+| Marktstatus Deutschland | Nicht im Handel |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Ausgesetzt |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage angemessen?
 
-Currently no related literature available
+Derzeit sind detaillierte Wirkmechanismus-Daten in diesem Evidenzpaket nicht verfügbar (`original_moa` ist eine Datenlücke). Basierend auf den an diesen Kandidaten angehängten mechanistischen Notizen ist bekannt, dass Trastuzumab deruxtecan als ein HER2-gezieltes ADK fungiert, das eine zytotoxische Topoisomerase-I-Inhibitor-Nutzlast zu HER2-exprimierenden Tumorzellen transportiert — ein Mechanismus, der für die Onkologie relevant ist, nicht für den Knochenstoffwechsel.
 
----
+Es gibt keinen bekannten oder in der Literatur gestützten Mechanismus, durch den dieses Arzneimittel die Aktivität von Osteoklasten/Osteoblasten oder Knochenumbaupfade wie RANKL/OPG modulieren würde. Klinisch sind zytotoxische Chemotherapien und ADKs viel häufiger mit arzneimittelinduzierter Osteoporose als **Ursache** (Behandlungsnebenwirkung) verbunden, anstatt als **Behandlung** dafür.
 
-## Germany Market Information
-
-Trastuzumab deruxtecan currently has no German market authorization on file (`total_licenses = 0`, `market_status = Not marketed / Not marketed`).
+Angesichts des hohen TxGNN-Scores (0.993) in Kombination mit dem völligen Fehlen klinischer Studien oder Literatur ist die plausibelste Erklärung, dass der Wissensgraph eine Kopräsenz-Beziehung zwischen „Krebstherapie-Arzneimittel"-Knoten und „Chemotherapie-assoziierter Knochenverlust"-Knoten aufgreift, anstatt ein echtes therapeutisches Signal. Diese Vorhersage sollte als biologisch implausibel behandelt werden, bis sie durch neue Evidenz widerlegt wird.
 
 ---
 
-## Cytotoxicity
+## Klinische Studienevidenz
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy — antibody-drug conjugate (ADC) delivering a cytotoxic topoisomerase I inhibitor payload |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Must follow cytotoxic/ADC drug handling regulations |
+Derzeit keine registrierten klinischen Studien vorhanden
 
 ---
 
-## Safety Considerations
+## Literaturevidenz
 
-Please refer to the package insert for safety information.
-
-> Note: A blocking data gap exists — TFDA label warnings and contraindications (DG001) have not been retrieved. This prevents any formal S1 safety pre-assessment for this candidate.
+Derzeit keine verwandte Literatur verfügbar
 
 ---
 
-## Conclusion and Next Steps
+## Marktstatus Deutschland
 
-**Decision: Hold**
+Trastuzumab deruxtecan hat derzeit keine deutsche Marktzulassung in der Akte (`total_licenses = 0`, `market_status = Not marketed / Not marketed`).
 
-**Rationale:**
-The prediction is supported by no clinical trials, no literature, and no plausible mechanistic link — the drug's known cytotoxic ADC mechanism is more consistent with *causing* bone loss than treating it. Combined with a blocking data gap on TFDA safety labeling, this candidate is not ready to advance beyond stage S0.
+---
 
-**To proceed, the following is needed:**
-- TFDA/BfArM package insert (warnings, contraindications) to resolve DG001
-- Confirmed original indication and mechanism of action (DG002)
-- Preclinical or mechanistic evidence linking HER2-ADC/topoisomerase I inhibition to bone metabolism pathways, if this signal is to be pursued further
-- Independent review to rule out knowledge-graph co-occurrence artifact before any further investment
+## Zytotoxizität
+
+| Artikel | Inhalt |
+|---------|--------|
+| Zytotoxizitätsklassifizierung | Zielgerichtete Therapie — Antikörper-Wirkstoff-Konjugat (ADK) mit zytotoxischem Topoisomerase-I-Inhibitor-Nutzlast |
+| Myelosuppressions-Risiko | Bitte beachten Sie die Warnungen und Vorsichtsmaßnahmen der Packungsbeilage |
+| Emetogenitätsklassifizierung | Bitte beachten Sie die Warnungen und Vorsichtsmaßnahmen der Packungsbeilage |
+| Überwachungspunkte | Bitte beachten Sie die Warnungen und Vorsichtsmaßnahmen der Packungsbeilage |
+| Handhabungsschutz | Muss den Bestimmungen für die Handhabung zytotoxischer/ADK-Arzneimittel entsprechen |
+
+---
+
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+> Hinweis: Eine kritische Datenlücke liegt vor — Warnungen im TFDA-Etikett und Kontraindikationen (DG001) wurden nicht abgerufen. Dies verhindert eine formale S1-Sicherheitsvoruntersuchung für diesen Kandidaten.
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Ausgesetzt**
+
+**Begründung:**
+Die Vorhersage wird durch keine klinischen Studien, keine Literatur und keine plausible mechanistische Verbindung gestützt — der bekannte zytotoxische ADK-Mechanismus des Arzneimittels ist konsistenter mit der *Verursachung* von Knochenverlust als mit dessen Behandlung. Kombiniert mit einer kritischen Datenlücke bei der TFDA-Sicherheitskennzeichnung ist dieser Kandidat nicht bereit, über Stadium S0 hinaus voranzuschreiten.
+
+**Um fortzufahren, wird Folgendes benötigt:**
+- TFDA/BfArM-Packungsbeilage (Warnungen, Kontraindikationen) zur Behebung von DG001
+- Bestätigte ursprüngliche Indikation und Wirkmechanismus (DG002)
+- Präklinische oder mechanistische Evidenz, die HER2-ADK/Topoisomerase-I-Hemmung mit Knochenmetabolismuspfaden verbindet, falls dieses Signal weiter verfolgt werden soll
+- Unabhängige Überprüfung, um Wissensgraph-Kopräsenz-Artefakte auszuschließen, bevor weitere Investitionen getätigt werden
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

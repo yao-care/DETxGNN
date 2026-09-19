@@ -29,74 +29,75 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Caspofungin: From Antifungal Therapy to Gastrin Secretion Abnormality
+# Caspofungin: Von der Antimykotika-Therapie zur abnormalen Gastrinsekretion
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Caspofungin is an echinocandin-class antifungal agent; specific original indication data is not available in this evidence pack, though echinocandins are generally used for invasive fungal infections. The TxGNN model predicts a possible association with **Gastrin Secretion Abnormality**, but this prediction currently has **no supporting clinical trials** and **no supporting literature** — it rests solely on a model score of 99.44%.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available (data gap; drug class known as echinocandin antifungal) |
-| Predicted New Indication | Gastrin Secretion Abnormality |
-| TxGNN Prediction Score | 99.44% |
-| Evidence Level | L5 |
-| Germany Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Caspofungin ist ein Antimykotikum der Echinocandin-Klasse; spezifische Daten zur ursprünglichen Indikation sind in diesem Evidenzpaket nicht verfügbar, obwohl Echinocandine allgemein für invasive Pilzinfektionen verwendet werden. Das TxGNN-Modell sagt eine mögliche Assoziation mit **abnormaler Gastrinsekretion** voraus, aber diese Vorhersage hat derzeit **keine unterstützenden klinischen Studien** und **keine unterstützende Literatur** — sie beruht ausschließlich auf einem Modellscore von 99.44%.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Currently, detailed mechanism of action data is not available for caspofungin in this evidence pack. Based on known drug class information, caspofungin is an echinocandin antifungal that inhibits fungal cell wall β-(1,3)-D-glucan synthase — a mechanism with no established pharmacological pathway related to gastrin secretion regulation.
-
-The repurposing rationale provided alongside this prediction explicitly notes that there is **no known biological link** between echinocandin antifungal activity and gastrin secretion. The absence of original MOA data further weakens confidence in any mechanistic connection. This prediction should be treated as a pure model output (TxGNN score 0.994, rank 6388) rather than a mechanistically grounded hypothesis at this stage.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available.
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Nicht verfügbar (Datenlücke; Arzneimittelklasse bekannt als Echinocandin-Antimykotikum) |
+| Vorhergesagte neue Indikation | Abnormale Gastrinsekretion |
+| TxGNN-Vorhersage-Score | 99.44% |
+| Evidenzlevel | L5 |
+| Marktstatus in Deutschland | Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Halten |
 
 ---
 
-## Germany Market Information
+## Warum ist diese Vorhersage sinnvoll?
 
-Caspofungin is not currently marketed in Germany under this evidence pack, and no authorization records are available (total licenses: 0).
+Derzeit sind detaillierte Daten zum Wirkmechanismus für Caspofungin in diesem Evidenzpaket nicht verfügbar. Basierend auf bekannten Informationen zur Arzneimittelklasse ist Caspofungin ein Echinocandin-Antimykotikum, das die β-(1,3)-D-Glucan-Synthase der Pilzzellwand hemmt — ein Mechanismus ohne etablierte pharmakologische Verbindung zur Regulation der Gastrinsekretion.
 
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Note: TFDA warning/contraindication data is flagged as a Blocking data gap — this must be resolved before any S1 safety pre-assessment can proceed.)*
+Die Repurposing-Begründung, die zusammen mit dieser Vorhersage bereitgestellt wird, vermerkt explizit, dass es **keine bekannte biologische Verbindung** zwischen der antimykotischen Aktivität von Echinocandinen und der Gastrinsekretion gibt. Das Fehlen ursprünglicher MOA-Daten schwächt das Vertrauen in jeden mechanistischen Zusammenhang weiter ab. Diese Vorhersage sollte als reiner Modelloutput (TxGNN-Score 0.994, Rang 6388) eher als eine mechanistisch fundierte Hypothese in dieser Phase betrachtet werden.
 
 ---
 
-## Conclusion and Next Steps
+## Evidenz aus klinischen Studien
 
-**Decision: Hold**
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
-**Rationale:**
-Despite a high TxGNN model score, this candidate has zero clinical trial or literature support, and the proposed mechanistic link between antifungal cell-wall inhibition and gastrin secretion regulation has no established biological basis. Combined with missing original indication, MOA, and safety data, this candidate remains at evidence level L5 and is not ready to advance.
+---
 
-**To proceed, the following is needed:**
-- Resolve Blocking gap: TFDA label warnings/contraindications (source: TFDA official site, PDF parsing)
-- Resolve High-priority gap: full MOA data via DrugBank API
-- Identify any preclinical or mechanistic literature that could support a biological rationale for this indication
-- If no plausible mechanistic link can be established, recommend deprioritizing this candidate rather than continuing evaluation
+## Evidenz aus der Literatur
+
+Derzeit ist keine zugehörige Literatur verfügbar.
+
+---
+
+## Marktsituation in Deutschland
+
+Caspofungin wird in Deutschland derzeit unter diesem Evidenzpaket nicht vermarktet, und es sind keine Zulassungsunterlagen verfügbar (Gesamtzahl der Zulassungen: 0).
+
+---
+
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Fachinformation für Sicherheitsinformationen.
+
+*(Anmerkung: TFDA-Warn-/Kontraindikationsdaten sind als blockierende Datenlücke gekennzeichnet — diese müssen behoben werden, bevor eine S1-Sicherheitsvorbewertung durchgeführt werden kann.)*
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Halten**
+
+**Begründung:**
+Trotz eines hohen TxGNN-Modellscores hat dieser Kandidat null klinische Studien- oder Literaturunterstützung, und der vorgeschlagene mechanistische Zusammenhang zwischen der Hemmung der Pilzzellwand und der Regulation der Gastrinsekretion hat keine etablierte biologische Grundlage. Kombiniert mit fehlenden Daten zur ursprünglichen Indikation, zum Wirkmechanismus und zur Sicherheit bleibt dieser Kandidat auf Evidenzlevel L5 und ist nicht bereit zum Vorantreiben.
+
+**Um fortzufahren, wird folgendes benötigt:**
+- Blockierende Lücke beheben: TFDA-Etikett Warn-/Kontraindikationsdaten (Quelle: TFDA-Webseite, PDF-Analyse)
+- Hochpriorisierte Lücke beheben: vollständige MOA-Daten über DrugBank-API
+- Identifizierung von präklinischen oder mechanistischen Literaturquellen, die einen biologischen Hintergrund für diese Indikation unterstützen könnten
+- Falls keine plausible mechanistische Verbindung etabliert werden kann, wird empfohlen, diesen Kandidaten zu deprioritisieren, anstatt die Bewertung fortzusetzen
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -29,80 +29,81 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-# Roxadustat: From Renal Anemia to Dry Eye Syndrome
+# Roxadustat: Von renaler Anämie zum Trockenen Auge
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Roxadustat is a HIF prolyl-hydroxylase inhibitor (HIF-PHI) used to treat renal anemia in chronic kidney disease patients.
-> The TxGNN model predicts it may be effective for **Dry Eye Syndrome**,
-> but this is currently supported by only **1 observational clinical trial** and **no publications**, none of which directly test roxadustat's therapeutic effect on dry eye.
+> Roxadustat ist ein HIF-Prolyl-Hydroxylase-Inhibitor (HIF-PHI), der zur Behandlung der renalen Anämie bei Patienten mit chronischer Nierenerkrankung eingesetzt wird.
+> Das TxGNN-Modell prognostiziert, dass es möglicherweise wirksam gegen das **Trockene Auge** sein könnte,
+> doch wird dies derzeit nur durch **1 Beobachtungsstudie** und **keine Publikationen** gestützt, von denen keine die therapeutische Wirkung von Roxadustat auf das Trockene Auge direkt überprüft.
 
 ---
 
-## Quick Overview
+## Schnelle Übersicht
 
-| Item | Content |
+| Element | Inhalt |
 |------|------|
-| Original Indication | Renal anemia (anemia associated with chronic kidney disease) — inferred from clinical trial context; not present as a structured field in this evidence pack |
-| Predicted New Indication | Dry Eye Syndrome |
-| TxGNN Prediction Score | 99.51% |
-| Evidence Level | L4 |
-| Germany Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | Renale Anämie (mit chronischer Nierenerkrankung assoziierte Anämie) – aus dem Kontext der klinischen Studie abgeleitet; nicht als strukturiertes Feld in diesem Nachweispaket vorhanden |
+| Vorhergesagte neue Indikation | Trockenes Auge |
+| TxGNN-Vorhersagescore | 99.51% |
+| Evidenzstufe | L4 |
+| Marktstatus Deutschland | Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Zurückstellen |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage vernünftig?
 
-Currently, a structured mechanism-of-action record is not available for this drug (`original_moa` is flagged as a data gap, DG002). However, the evidence pack's own repurposing rationale identifies roxadustat as a **HIF prolyl-hydroxylase inhibitor (HIF-PHI)**, which stabilizes HIF-1α/2α to upregulate endogenous erythropoietin (EPO) production — the mechanism underlying its use in renal anemia.
+Derzeit ist kein strukturierter Wirkmechanismus-Datensatz für dieses Arzneimittel verfügbar (`original_moa` ist als Datenlücke gekennzeichnet, DG002). Die Begründung des Nachweispakets für die Umwidmung identifiziert Roxadustat jedoch als einen **HIF-Prolyl-Hydroxylase-Inhibitor (HIF-PHI)**, der HIF-1α/2α stabilisiert, um die Produktion von endogenem Erythropoietin (EPO) hochzuregulieren – der Wirkmechanismus, der seiner Verwendung bei renaler Anämie zugrunde liegt.
 
-The link to dry eye syndrome is weak and indirect. The only supporting clinical trial (NCT06287879) does not test roxadustat as a treatment for dry eye at all — it is an **observational study** examining meibomian gland function and morphology in renal anemia patients who happen to present with dry eye symptoms, with roxadustat mentioned only as one of the background anemia treatments these patients receive. There is no mechanistic or empirical evidence that HIF stabilization improves meibomian gland function or tear film stability; the co-occurrence is more plausibly explained by shared comorbidity (chronic kidney disease/uremia) rather than a drug effect.
+Die Verbindung zum Trockenen Auge ist schwach und indirekt. Die einzige unterstützende klinische Studie (NCT06287879) testet Roxadustat überhaupt nicht als Behandlung für das Trockene Auge – es ist eine **Beobachtungsstudie**, die die Funktion und Morphologie der Meibom-Drüsen bei Patienten mit renaler Anämie untersucht, die zufällig mit Symptomen des Trockenen Auges auftreten, wobei Roxadustat nur als eine der Hintergrund-Anämiebehandlungen erwähnt wird, die diese Patienten erhalten. Es gibt keinen mechanistischen oder empirischen Beweis dafür, dass HIF-Stabilisierung die Funktion der Meibom-Drüsen oder die Stabilität des Tränenfilms verbessert; das gleichzeitige Auftreten lässt sich plausibel durch gemeinsame Komorbiditäten (chronische Nierenerkrankung/Urämie) statt durch einen Arzneimitteleffekt erklären.
 
-Given the absence of an interventional trial or literature directly testing roxadustat for dry eye, this prediction should be treated as a hypothesis-generating signal from the knowledge graph rather than an evidence-backed repurposing candidate.
+Angesichts des Fehlens einer Interventionsstudie oder Literatur, die Roxadustat direkt für das Trockene Auge testet, sollte diese Vorhersage als ein hypothesengenerierendes Signal aus dem Wissensgraph betrachtet werden, anstatt als ein durch Evidenz gestützter Umwidmungskandidat.
 
 ---
 
-## Clinical Trial Evidence
+## Klinische Studienevidenzen
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Studiennummer | Phase | Status | Einschreibung | Wichtigste Erkenntnisse |
 |---------|------|------|------|---------|
-| [NCT06287879](https://clinicaltrials.gov/study/NCT06287879) | NA | Unknown | 50 | Observational study characterizing meibomian gland function and morphology in renal anemia patients with dry eye symptoms; roxadustat/EPO listed as background anemia treatments, not evaluated as a dry eye intervention (relevance grade: C) |
+| [NCT06287879](https://clinicaltrials.gov/study/NCT06287879) | NA | Unbekannt | 50 | Beobachtungsstudie zur Charakterisierung der Meibom-Drüsenfunktion und Morphologie bei Patienten mit renaler Anämie und Symptomen des Trockenen Auges; Roxadustat/EPO als Hintergrund-Anämiebehandlungen aufgeführt, nicht als Intervention bei Trockenem Auge bewertet (Relevanzgrad: C) |
 
 ---
 
-## Literature Evidence
+## Literaturnachweise
 
-Currently no related literature available.
-
----
-
-## Germany Market Information
-
-Roxadustat is currently **not marketed** in this jurisdiction — 0 authorizations on record, and no license entries are available in the evidence pack.
+Derzeit keine verwandte Literatur verfügbar.
 
 ---
 
-## Safety Considerations
+## Marktinformationen Deutschland
 
-- **Key Warnings**: No formal package insert warning/contraindication data is currently available for this drug (blocking data gap; TFDA label has not yet been retrieved and parsed).
-- **Important mechanistic safety signal (from evidence pack)**: A lower-ranked TxGNN prediction (squamous cell carcinoma, rank 4) surfaces a directionally opposite concern — HIF-1α/2α stabilization is a well-established driver of tumor growth, angiogenesis, and metastasis in many solid tumors, including squamous cell carcinoma. This is flagged in the evidence pack as a **known safety consideration for roxadustat use in patients with active or prior malignancy**, not as a therapeutic opportunity, and should be factored into any risk assessment for this drug.
+Roxadustat wird derzeit auf diesem Markt **nicht vermarktet** – 0 Zulassungen in den Unterlagen, und keine Lizenzeinträge sind im Nachweispaket verfügbar.
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsaspekte
 
-**Decision: Hold**
+- **Wichtige Warnungen**: Für dieses Arzneimittel sind derzeit keine formalen Packungsbeilage-Warnungs-/Kontraindikationsdaten verfügbar (blockierende Datenlücke; TFDA-Etikett wurde noch nicht abgerufen und analysiert).
+- **Wichtiges mechanistisches Sicherheitssignal (aus Nachweispaket)**: Eine niedriger bewertete TxGNN-Vorhersage (Plattenepithelkarzinom, Rang 4) hebt eine entgegengesetzt gerichtete Besorgnis hervor – HIF-1α/2α-Stabilisierung ist ein etablierter Treiber von Tumorwachstum, Angiogenese und Metastasenbildung in vielen soliden Tumoren, einschließlich Plattenepithelkarzinom. Dies ist im Nachweispaket als eine **bekannte Sicherheitsüberlegung für die Verwendung von Roxadustat bei Patienten mit aktiver oder früherer Malignität** gekennzeichnet, nicht als eine therapeutische Gelegenheit, und sollte in jede Risikobewertung für dieses Arzneimittel einfließen.
 
-**Rationale:**
-The only available evidence (one non-interventional, unknown-status trial rated relevance grade C) does not test roxadustat's effect on dry eye syndrome, and no literature supports this indication. Combined with a blocking data gap on TFDA safety labeling and the drug's non-marketed status, there is insufficient evidence to advance this candidate.
+---
 
-**To proceed, the following is needed:**
-- TFDA label/warnings and contraindications (DG001, blocking)
-- Confirmed mechanism-of-action data from DrugBank (DG002)
-- An interventional trial or preclinical study directly testing roxadustat's effect on dry eye/tear film outcomes
-- Literature search specifically addressing HIF-PHI effects on ocular surface disease
-- A formal safety review of the malignancy-related mechanistic signal (HIF stabilization and tumor promotion) before any further indication expansion is considered
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Zurückstellen**
+
+**Begründung:**
+Die einzige verfügbare Evidenz (eine nicht-interventionale Studie mit unbekanntem Status, bewertet mit Relevanzgrad C) testet nicht die Wirkung von Roxadustat auf das Trockene Auge, und keine Literatur unterstützt diese Indikation. Kombiniert mit einer blockierenden Datenlücke bei der TFDA-Sicherheitskennzeichnung und dem nicht vermarkteten Status des Arzneimittels gibt es unzureichende Evidenz, um diesen Kandidaten voranzubringen.
+
+**Um voranzuschreiten, wird Folgendes benötigt:**
+- TFDA-Kennzeichnung/Warnungen und Kontraindikationen (DG001, blockierend)
+- Bestätigte Wirkmechanismus-Daten von DrugBank (DG002)
+- Eine Interventionsstudie oder präklinische Studie, die direkt die Wirkung von Roxadustat auf das Trockene Auge/Tränenfilm-Ergebnisse testet
+- Literatursuche, die speziell HIF-PHI-Effekte auf Erkrankungen der Augenoberfläche adressiert
+- Eine formale Sicherheitsüberprüfung des Malignität-bezogenen mechanistischen Signals (HIF-Stabilisierung und Tumorförderung), bevor weitere Indikationserweiterung in Betracht gezogen wird
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

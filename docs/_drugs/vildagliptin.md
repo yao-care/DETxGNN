@@ -29,80 +29,81 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Vildagliptin: From Type 2 Diabetes Mellitus to Focal Stiff Limb Syndrome
+# Vildagliptin: Vom Typ-2-Diabetes mellitus zum fokalen Stiff-Limb-Syndrom
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Vildagliptin is a DPP-4 (dipeptidyl peptidase-4) inhibitor originally developed for type 2 diabetes mellitus (T2DM), improving glycemic control by prolonging endogenous GLP-1/GIP activity.
-> The TxGNN model's top-ranked prediction is **Focal Stiff Limb Syndrome**, with a prediction score of **99.88%**,
-> but this candidate currently has **0 clinical trials** and **0 supporting publications**, and the evidence pack itself flags no plausible mechanistic link — this is a pure model-score hit, not a substantiated repurposing hypothesis.
+> Vildagliptin ist ein DPP-4-(Dipeptidyl-Peptidase-4-)Hemmer, ursprünglich für Typ-2-Diabetes mellitus (T2DM) entwickelt, der die Glukosekontrolle durch Verlängerung der endogenen GLP-1-/GIP-Aktivität verbessert.
+> Die Top-Vorhersage des TxGNN-Modells ist **Fokales Stiff-Limb-Syndrom** mit einer Vorhersagepunktzahl von **99.88%**,
+> aber dieser Kandidat hat derzeit **0 klinische Studien** und **0 unterstützende Publikationen**, und das Evidenzpaket selbst deutet auf keinen plausiblen mechanistischen Zusammenhang hin — dies ist ein reiner Modell-Score-Hit, keine substantiierte Repurposing-Hypothese.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Punkt | Inhalt |
 |------|------|
-| Original Indication | Type 2 Diabetes Mellitus *(derived from literature within the evidence pack; not formally recorded in regulatory data as the drug is unmarketed in Germany)* |
-| Predicted New Indication | Focal Stiff Limb Syndrome |
-| TxGNN Prediction Score | 99.88% |
-| Evidence Level | L5 |
-| Germany Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | Typ-2-Diabetes mellitus *(abgeleitet aus Literatur im Evidenzpaket; nicht formal in behördlichen Daten erfasst, da das Arzneimittel in Deutschland nicht zugelassen ist)* |
+| Vorhergesagte neue Indikation | Fokales Stiff-Limb-Syndrom |
+| TxGNN-Vorhersagepunktzahl | 99.88% |
+| Evidenzstufe | L5 |
+| Marktstatus Deutschland | Nicht zugelassen (Nicht zugelassen) |
+| Anzahl der Genehmigungen | 0 |
+| Empfehlung | Halten |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage angemessen?
 
-Detailed mechanism of action data is officially marked as a data gap (DrugBank query pending). Based on information embedded in the accompanying literature and trial evidence, vildagliptin is known to inhibit DPP-4, thereby extending the half-life of endogenous GLP-1 and GIP, enhancing glucose-dependent insulin secretion, and suppressing inappropriate glucagon release — its efficacy in T2DM is well established in this class.
+Detaillierte Daten zum Wirkungsmechanismus sind offiziell als Datenlücke gekennzeichnet (DrugBank-Abfrage ausstehend). Basierend auf Informationen aus der begleitenden Literatur und Studienevidence ist bekannt, dass Vildagliptin DPP-4 hemmt, wodurch die Halbwertszeit des endogenen GLP-1 und GIP verlängert wird, die glukoseabhängige Insulinsekretion verbessert und die unangemessene Glukagonfreisetzung unterdrückt wird — seine Wirksamkeit bei T2DM ist in dieser Arzneistoffklasse gut belegt.
 
-However, for the top-ranked candidate, **Focal Stiff Limb Syndrome**, no plausible mechanistic bridge exists. Stiff limb/stiff person syndrome is an autoimmune neurological disorder driven primarily by anti-GAD65 antibodies and impaired GABAergic inhibitory transmission — a pathophysiology entirely unrelated to incretin/glucose signaling. The evidence pack's own rationale explicitly states: *"無可辨識之機轉關聯...此為TxGNN純預測分數，缺乏任何生物學支持論述"* (no identifiable mechanistic link; this is a pure TxGNN prediction score without biological support). The same holds for TxGNN's other top-5 hits (classic stiff person syndrome, thiamine-responsive dysfunction syndrome, opsismodysplasia) — all are rare, structurally or genetically driven diseases with no known DPP-4 connection.
+Jedoch besteht für den Top-Kandidaten **Fokales Stiff-Limb-Syndrom** keine plausible mechanistische Verbindung. Das Stiff-Limb-/Stiff-Person-Syndrom ist eine autoimmune neurologische Erkrankung, die hauptsächlich durch anti-GAD65-Antikörper und gestörte GABAerge inhibitorische Neurotransmission angetrieben wird — eine Pathophysiologie, die völlig unabhängig von Inkretin-/Glukosesignalisierung ist. Die Begründung des Evidenzpakets erklärt explizit: *\"Kein erkennbarer mechanistischer Zusammenhang... Dies ist ein reines TxGNN-Vorhersagescore ohne biologische Unterstützung.\"* Die gleiche Situation gilt für TxGNNs weitere Top-5-Treffer (klassisches Stiff-Person-Syndrom, Thiamin-responsive Dysfunktionssyndrom, Opsismodysplasie) — alle sind seltene, strukturell oder genetisch bedingte Erkrankungen ohne bekannte DPP-4-Verbindung.
 
-Given the very high raw score but complete absence of corroborating evidence, this prediction should be treated as a statistical artifact of the knowledge-graph embedding rather than a credible repurposing hypothesis at this time.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Angesichts des sehr hohen Rohscores, aber völliger Abwesenheit von bestätigender Evidenz, sollte diese Vorhersage derzeit als statistisches Artefakt der Knowledge-Graph-Einbettung betrachtet werden und nicht als glaubwürdige Repurposing-Hypothese.
 
 ---
 
-## Literature Evidence
+## Klinische Studien-Evidenz
 
-Currently no related literature available.
-
----
-
-## Germany Market Information
-
-Vildagliptin is currently **not marketed** in Germany (Not marketed) under this evidence pack, with 0 registered authorizations. No product/license records are available for this candidate.
+Derzeit keine verwandten klinischen Studien registriert.
 
 ---
 
-## Safety Considerations
+## Literatur-Evidenz
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and DDI data are all currently marked as data gaps — TFDA label retrieval is a blocking item, see Conclusion.)
-
----
-
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The top-ranked prediction (Focal Stiff Limb Syndrome) has Evidence Level L5 — a model score with zero clinical trials, zero literature, and no identifiable mechanistic rationale. Combined with the drug's unmarketed status in Germany and missing MOA/label data (DG001 blocking, DG002 high severity), there is no basis to advance this indication beyond exploratory screening.
-
-**To proceed, the following is needed:**
-- TFDA/official label retrieval (warnings, contraindications) — currently blocking S1 safety screening
-- Confirmed DrugBank MOA data
-- Any preclinical or mechanistic rationale connecting DPP-4/incretin pathways to autoimmune stiff-person-spectrum disease, before further evaluation is justified
+Derzeit keine verwandte Literatur verfügbar.
 
 ---
 
-**Additional Note — Alternative Signal Worth Tracking:**
-Among this drug's 10 TxGNN-predicted indications, **Type 1 Diabetes Mellitus** (rank 10, score 99.37%) stands out as the only candidate with substantive evidence: Evidence Level **L2**, including a completed Phase 2 RCT directly testing rapamycin + vildagliptin for β-cell function recovery in long-standing T1D (NCT02803892; concordant RCT publication PMID 33124663), plus mechanistic RCT evidence on glucagon counter-regulation in T1D (PMID 22855332). This is mechanistically coherent (incretin-mediated β-cell preservation as adjunct, not insulin replacement) and is a more defensible candidate for a "Research Question" stage evaluation than the top-ranked stiff-limb-syndrome hit, though most of its 40+ listed trials are T2DM noise and would need individual re-grading before use.
+## Marktstatus Deutschland
+
+Vildagliptin ist in Deutschland derzeit **nicht zugelassen** (Nicht zugelassen) gemäß dieses Evidenzpakets, mit 0 registrierten Genehmigungen. Keine Produkt-/Lizenzunterlagen sind für diesen Kandidaten verfügbar.
+
+---
+
+## Sicherheitsüberlegungen
+
+Bitte siehe Fachinformation für Sicherheitsinformationen. (Schlüsselwarnungen, Kontraindikationen und Wechselwirkungsdaten sind alle derzeit als Datenlücken gekennzeichnet — TFDA-Label-Abruf ist ein Blockierungsfaktor, siehe Schlussfolgerung.)
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Halten**
+
+**Begründung:**
+Die Top-Vorhersage (Fokales Stiff-Limb-Syndrom) hat Evidenzstufe L5 — einen Modell-Score mit Null klinischen Studien, Null Literatur und keinem erkennbaren mechanistischen Anlass. Kombiniert mit dem fehlenden Marktzugang des Arzneimittels in Deutschland und fehlenden MOA-/Label-Daten (DG001 blockiert, DG002 hoher Schweregrad), gibt es keine Grundlage, diese Indikation über die exploratorische Sichtung hinaus voranzutreiben.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+- TFDA/Abruf der offiziellen Fachinformation (Warnungen, Kontraindikationen) — derzeit blockiert S1-Sicherheits-Screening
+- Bestätigte DrugBank-MOA-Daten
+- Beliebige präklinische oder mechanistische Evidenz, die DPP-4-/Inkretin-Signalwege mit autoimmun vermittelten Stiff-Person-Spektrum-Erkrankungen verbindet, bevor weitere Evaluierung gerechtfertigt ist
+
+---
+
+**Zusätzliche Notiz — Alternative Signale, die verfolgt werden sollten:**
+Unter den 10 TxGNN-vorhergesagten Indikationen für dieses Arzneimittel sticht **Typ-1-Diabetes mellitus** (Rang 10, Score 99.37%) als der einzige Kandidat mit substantieller Evidenz hervor: Evidenzstufe **L2**, einschließlich einer abgeschlossenen Phase-2-RCT, die direkt Rapamycin + Vildagliptin zur Funktionswiederherstellung von β-Zellen bei langjährigem T1D testet (NCT02803892; entsprechende RCT-Publikation PMID 33124663), plus mechanistische RCT-Evidenz zur Glukagon-Gegenregulation bei T1D (PMID 22855332). Dies ist mechanistisch kohärent (Inkretin-vermittelte β-Zell-Erhaltung als Adjuvans, nicht als Insulinersatz) und ist ein besser zu rechtfertigender Kandidat für eine Evaluierung in der „Forschungsfrage"-Phase als der Top-Ranking-Stiff-Limb-Syndrom-Hit, obwohl die meisten seiner 40 und mehr aufgeführten Studien T2DM-Hintergrundrauschen sind und vor Gebrauch einzeln neu bewertet werden müssten.
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

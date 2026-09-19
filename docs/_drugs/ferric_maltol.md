@@ -29,87 +29,88 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Ferric Maltol: From Iron Deficiency to Plummer-Vinson Syndrome
+# Eisenmaltol: Von Eisenmangel zu Plummer-Vinson-Syndrom
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Ferric maltol is a novel oral trivalent iron complex, believed to be used for the treatment of iron deficiency (original indication data not provided in this evidence pack).
-> The TxGNN model predicts it may be effective for **Plummer-Vinson syndrome**,
-> with **0 clinical trials** and **0 publications** currently supporting this direction — the case rests entirely on mechanistic reasoning.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not recorded in evidence pack (`original_indications` is empty) |
-| Predicted New Indication | Plummer-Vinson syndrome |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L4 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Eisenmaltol ist ein neuartiges orales dreiwertiges Eisenkomplex, das der Behandlung von Eisenmangel dienen soll (Daten zur ursprünglichen Indikation sind in diesem Nachweispaket nicht enthalten).
+> Das TxGNN-Modell sagt voraus, dass es wirksam beim **Plummer-Vinson-Syndrom** sein könnte,
+> mit derzeit **0 klinischen Studien** und **0 Publikationen**, die diese Richtung unterstützen — die Argumentation stützt sich ausschließlich auf mechanistische Überlegungen.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnelle Übersicht
 
-Currently, detailed mechanism of action data is not available in the evidence pack (`original_moa`: Data Gap), and no original indication is recorded either. Based on publicly known drug information, ferric maltol is a next-generation oral iron replacement therapy (a ferric iron–maltol complex) used to correct iron deficiency in adults, including patients who do not tolerate conventional ferrous salts.
-
-Plummer-Vinson (Paterson-Kelly) syndrome's core pathology is long-standing iron deficiency anemia accompanied by esophageal webs and dysphagia. Iron repletion is the established causal treatment for this syndrome, so the mechanistic link is strong. However, this represents an extension of an already-known pharmacological action into a rare clinical presentation, rather than a genuinely novel drug-disease pairing.
-
-For context, two lower-ranked predictions in the same evidence pack illustrate the range of plausibility: **IRIDA syndrome** (TMPRSS6-driven hepcidin dysregulation causing resistance to conventional oral iron) has a biologically coherent rationale — ferric maltol's distinct absorption pathway may partially bypass hepcidin-mediated inhibition — but no confirmatory evidence exists yet. **Vitamin B12/folate-independent megaloblastic anemia**, by contrast, involves a DNA-synthesis defect unrelated to iron status; the mechanistic link is weak and likely reflects a non-specific "anemia" association in the knowledge graph rather than a real signal.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Nicht im Nachweispaket erfasst (`original_indications` ist leer) |
+| Vorhergesagte neue Indikation | Plummer-Vinson-Syndrom |
+| TxGNN-Vorhersage-Score | 99.98% |
+| Evidenzstufe | L4 |
+| Marktstatus in Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Abwarten |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage sinnvoll?
 
-Currently no related literature available
+Derzeit sind detaillierte Wirkmechanismus-Daten im Nachweispaket nicht verfügbar (`original_moa`: Datenlücke), und es ist auch keine ursprüngliche Indikation erfasst. Basierend auf allgemein bekannten Arzneimittelinformationen ist Eisenmaltol eine nächstgenerationale orale Eisenersatztherapie (ein Eisenkomplex aus dreiwertigem Eisen und Maltol), die zur Korrektur von Eisenmangel bei Erwachsenen eingesetzt wird, auch bei Patienten, die konventionelle Eisensalze nicht vertragen.
 
----
+Die Kernpathologie des Plummer-Vinson-Syndroms (Paterson-Kelly) ist eine chronische Eisenmangelanämie, begleitet von Ösophagusnetzen und Dysphagie. Die Eisensubstitution ist die etablierte kausale Behandlung dieses Syndroms, daher ist die mechanistische Verbindung stark. Dies stellt jedoch eher eine Erweiterung einer bereits bekannten pharmakologischen Wirkung auf eine seltene klinische Manifestation dar, nicht eine wirklich neuartige Arzneimittel-Krankheits-Paarung.
 
-## Germany Market Information
-
-No German market authorization records available — the drug is not marketed in Germany (`total_licenses`: 0).
+Zur Kontextualisierung illustrieren zwei niedriger bewertete Vorhersagen im selben Nachweispaket die Bandbreite der Plausibilität: Das **IRIDA-Syndrom** (TMPRSS6-gesteuerte Hepcidin-Dysregulation, die zu Resistenz gegen konventionelle orale Eisengaben führt) hat einen biologisch kohärenten Hintergrund – der unterschiedliche Absorptionsweg von Eisenmaltol könnte die Hepcidin-vermittelte Hemmung teilweise umgehen – aber noch keine bestätigende Evidenz existiert. Die **Vitamin-B12-/Folat-unabhängige konstitutionelle megaloblastische Anämie** hingegen beinhaltet einen DNA-Synthesedefekt, der unabhängig vom Eisenstatus ist; die mechanistische Verbindung ist schwach und spiegelt wahrscheinlich eher eine unspezifische „Anämie"-Assoziation im Wissensgraph wider als ein echtes Signal.
 
 ---
 
-## Other Predicted Indications (Lower Priority)
+## Klinische Studienevidenz
 
-| Rank | Disease | TxGNN Score | Evidence Level | Decision Stage | Recommendation |
-|------|---------|-------------|-----------------|-----------------|-----------------|
-| 2 | Vitamin B12/folate-independent constitutional megaloblastic anemia | 99.98% | L5 | S0 | Hold (mechanistically weak) |
-| 3 | IRIDA syndrome | 99.33% | L4 | S1 | Research Question |
+Derzeit sind keine zugehörigen klinischen Studien registriert
 
 ---
 
-## Safety Considerations
+## Literatorevidenz
 
-Please refer to the package insert for safety information.
-
-*Note: A Blocking-severity data gap (DG001 — TFDA label warnings/contraindications) currently prevents this candidate from entering formal S1 safety evaluation.*
+Derzeit ist keine zugehörige Literatur verfügbar
 
 ---
 
-## Conclusion and Next Steps
+## Informationen zum deutschen Markt
 
-**Decision: Hold**
+Es sind keine Einträge zur deutschen Marktzulassung verfügbar — das Arzneimittel ist nicht in Deutschland vermarktet (`total_licenses`: 0).
 
-**Rationale:**
-The Plummer-Vinson syndrome prediction has strong mechanistic logic (iron repletion for iron-deficiency-driven pathology) but zero supporting clinical trials or literature, and the drug is not marketed in Germany. Combined with a Blocking data gap on TFDA safety labeling, the case cannot advance past a research question at this time.
+---
 
-**To proceed, the following is needed:**
-- Resolve DG001: obtain TFDA/BfArM label warnings and contraindications for ferric maltol
-- Resolve DG002: retrieve confirmed MOA and original approved indication from DrugBank
-- Targeted literature search for case reports/series of ferric maltol use in Plummer-Vinson syndrome and IRIDA
-- If evidence remains absent, monitor via periodic re-screening rather than active investment
+## Andere vorhergesagte Indikationen (niedrigere Priorität)
+
+| Rang | Krankheit | TxGNN-Score | Evidenzstufe | Entscheidungsphase | Empfehlung |
+|------|-----------|-------------|---|---|---|
+| 2 | Vitamin-B12-/Folat-unabhängige konstitutionelle megaloblastische Anämie | 99.98% | L5 | S0 | Abwarten (mechanistisch schwach) |
+| 3 | IRIDA-Syndrom | 99.33% | L4 | S1 | Forschungsfrage |
+
+---
+
+## Sicherheitserwägungen
+
+Weitere Sicherheitsinformationen finden Sie in der Gebrauchsinformation.
+
+*Hinweis: Eine blockierende Datenlücke (DG001 — TFDA-Warnhinweise/Kontraindikationen) verhindert derzeit, dass dieser Kandidat in die formale Sicherheitsbewertung der Phase S1 voranschreitet.*
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Abwarten**
+
+**Begründung:**
+Die Vorhersage für das Plummer-Vinson-Syndrom hat starke mechanistische Logik (Eisensubstitution für eisenmangelgetriebene Pathologie), aber null unterstützende klinische Studien oder Literatur, und das Arzneimittel ist nicht in Deutschland vermarktet. In Kombination mit einer blockierenden Datenlücke zu TFDA-Sicherheitskennzeichnungen kann der Fall derzeit nicht über eine Forschungsfrage hinausgehen.
+
+**Für die Fortsetzung ist Folgendes erforderlich:**
+- Klärung von DG001: Erhalten Sie TFDA/BfArM-Warnhinweise und Kontraindikationen für Eisenmaltol
+- Klärung von DG002: Rufen Sie bestätigte Wirkmechanismus und ursprüngliche genehmigte Indikation aus DrugBank ab
+- Gezielt durchgeführte Literatursuche nach Fallberichten/Fallserien zur Anwendung von Eisenmaltol beim Plummer-Vinson-Syndrom und IRIDA
+- Falls die Evidenz weiterhin abwesend ist, durch periodische Neubeurteilung überwachen statt aktive Investition
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

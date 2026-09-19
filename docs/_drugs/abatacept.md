@@ -29,86 +29,87 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# ABATACEPT: Drug Repurposing Evaluation Report
+# ABATACEPT: Bericht zur Evaluierung der Neuanwendung von Arzneimitteln
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Abatacept (DrugBank: DB01281) is a biologic known internationally for immunomodulatory applications.
-The TxGNN model has **not yet generated predicted new indications** for this drug,
-and it is currently **not marketed in Taiwan** with **0 authorizations** on record.
+Abatacept (DrugBank: DB01281) ist ein international bekanntes Biologikum für immunmodulatorische Anwendungen.
+Das TxGNN-Modell hat **bislang keine vorhergesagten neuen Indikationen** für dieses Arzneimittel generiert,
+und es ist derzeit **nicht in Taiwan vermarktet** mit **0 Genehmigungen** auf Lager.
 
-## Quick Overview
+## Kurzübersicht
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available in current dataset |
-| Predicted New Indication | None (no TxGNN predictions available) |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | L5 — Model prediction not yet available |
-| Taiwan Market Status | ✗ Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
-
----
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available in the evidence pack. Abatacept (DB01281) is registered in the DrugBank database, but the original MOA field and original indication list have not yet been populated in this dataset.
-
-Without a TxGNN-predicted indication, a mechanistic plausibility analysis cannot be performed at this time. The absence of a prediction does not necessarily mean the drug lacks repurposing potential — it may indicate that the drug-disease knowledge graph edges have not yet been fully processed, or that the model's confidence for candidate indications fell below the reporting threshold.
-
-To advance this candidate, the MOA data gap (DG002) must first be resolved by querying the DrugBank API, and the TxGNN prediction pipeline should be re-run once the knowledge graph inputs are complete.
+| Punkt | Inhalt |
+|-------|--------|
+| Ursprüngliche Indikation | Im aktuellen Datensatz nicht verfügbar |
+| Vorhergesagte neue Indikation | Keine (keine TxGNN-Vorhersagen verfügbar) |
+| TxGNN-Vorhersage-Score | N.A. |
+| Evidenzstufe | L5 — Modellvorhersage noch nicht verfügbar |
+| Taiwan-Marktstatus | ✗ Nicht vermarktet (Nicht vermarktet) |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | **Abwarten** |
 
 ---
 
-## Clinical Trial Evidence
+## Warum ist diese Vorhersage sinnvoll?
 
-Currently no TxGNN-predicted indication is available, therefore no targeted clinical trial search has been conducted.
+Derzeit sind detaillierte Daten zum Wirkmechanismus im Evidenzpaket nicht verfügbar. Abatacept (DB01281) ist in der DrugBank-Datenbank registriert, aber die ursprüngliche MOA-Feld und die Liste der ursprünglichen Indikationen wurden in diesem Datensatz noch nicht ausgefüllt.
 
----
+Ohne eine TxGNN-vorhergesagte Indikation kann zu diesem Zeitpunkt keine mechanistische Plausibilitätsanalyse durchgeführt werden. Das Fehlen einer Vorhersage bedeutet nicht zwangsläufig, dass das Arzneimittel kein Neuanwendungspotenzial hat — es kann darauf hindeuten, dass die Kanten des Wissensgrafen für Arzneimittel-Krankheit noch nicht vollständig verarbeitet wurden oder dass die Konfidenz des Modells für Kandidaten-Indikationen unter dem Berichtschwellenwert liegt.
 
-## Literature Evidence
-
-Currently no TxGNN-predicted indication is available, therefore no targeted literature search has been conducted.
+Um diesen Kandidaten voranzubringen, muss zunächst die MOA-Datenlücke (DG002) durch Abfrage der DrugBank-API behoben werden, und die TxGNN-Vorhersage-Pipeline sollte erneut ausgeführt werden, sobald die Eingaben des Wissensgraphen vollständig sind.
 
 ---
 
-## Taiwan Market Information
+## Klinische Studienevidenz
 
-Abatacept currently holds **no TFDA authorizations** and is **not marketed in Taiwan**. No license records are available.
-
----
-
-## Safety Considerations
-
-> Please refer to the package insert for safety information. Key warnings, contraindications, and drug interaction data are not yet available in this evidence pack. Resolution of data gap DG001 (TFDA package insert warnings/contraindications) is classified as **Blocking** severity and must be addressed before Stage 1 safety screening can proceed.
+Derzeit ist keine TxGNN-vorhergesagte Indikation verfügbar, daher wurde keine gezielte Suche in klinischen Studien durchgeführt.
 
 ---
 
-## Data Gaps Summary
+## Literaturevidenz
 
-The following critical data gaps were identified during evidence pack assembly:
-
-| Gap ID | Item | Severity | Impact | Remediation |
-|--------|------|----------|--------|-------------|
-| DG001 | TFDA Package Insert Warnings/Contraindications | **Blocking** | Cannot enter S1 safety screening | Download and parse package insert PDF from TFDA website |
-| DG002 | Mechanism of Action (MOA) | **High** | Affects mechanistic relevance analysis | Query DrugBank API |
+Derzeit ist keine TxGNN-vorhergesagte Indikation verfügbar, daher wurde keine gezielte Literatursuche durchgeführt.
 
 ---
 
-## Conclusion and Next Steps
+## Taiwan-Marktinformationen
 
-**Decision: Hold**
+Abatacept hat derzeit **keine TFDA-Genehmigungen** und ist **nicht in Taiwan vermarktet**. Es sind keine Lizenzeinträge verfügbar.
 
-**Rationale:**
-No TxGNN-predicted indications are currently available for Abatacept, and two significant data gaps (MOA and TFDA safety data) remain unresolved. The Blocking-severity gap (DG001) prevents entry into Stage 1 safety assessment.
+---
 
-**To proceed, the following is needed:**
-- **Resolve DG001 (Blocking):** Obtain and parse the TFDA package insert to extract warnings, contraindications, and safety information
-- **Resolve DG002 (High):** Query the DrugBank API to retrieve the detailed mechanism of action
-- **Re-run TxGNN prediction pipeline** once knowledge graph inputs for Abatacept are complete
-- **Re-query clinical trials and literature databases** once a predicted indication is available
-- **Reassess Taiwan regulatory pathway** if a viable repurposing candidate emerges, given that Abatacept is currently not marketed in Taiwan
+## Sicherheitsaspekte
+
+> Bitte lesen Sie die Packungsbeilage für Sicherheitsinformationen. Wichtige Warnungen, Gegenanzeigen und Arzneimittelwechselwirkungsdaten sind im Evidenzpaket noch nicht verfügbar. Die Behebung der Datenlücke DG001 (TFDA-Packungsbeilage Warnungen/Gegenanzeigen) ist als **kritisch** eingestuft und muss behoben werden, bevor die Sicherheitsprüfung in Phase S1 durchgeführt werden kann.
+
+---
+
+## Zusammenfassung der Datenlücken
+
+Die folgenden wichtigen Datenlücken wurden bei der Zusammenstellung des Evidenzpakets identifiziert:
+
+| Lücken-ID | Punkt | Schweregrad | Auswirkung | Behebung |
+|-----------|-------|-------------|-----------|----------|
+| DG001 | TFDA-Packungsbeilage Warnungen/Gegenanzeigen | **Kritisch** | Eintritt in S1-Sicherheitsprüfung nicht möglich | PDF-Packungsbeilage von der TFDA-Website herunterladen und analysieren |
+| DG002 | Wirkmechanismus (MOA) | **Hoch** | Beeinträchtigt mechanistische Relevanzanalyse | DrugBank-API abfragen |
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Abwarten**
+
+**Begründung:**
+Für Abatacept sind derzeit keine TxGNN-vorhergesagten Indikationen verfügbar, und zwei signifikante Datenlücken (MOA und TFDA-Sicherheitsdaten) bleiben ungelöst. Die kritische Lücke (DG001) verhindert den Eintritt in die S1-Sicherheitsbewertung.
+
+**Um fortzufahren, ist folgendes erforderlich:**
+- **DG001 (kritisch) beheben:** TFDA-Packungsbeilage beschaffen und analysieren, um Warnungen, Gegenanzeigen und Sicherheitsinformationen zu extrahieren
+- **DG002 (hoch) beheben:** DrugBank-API abfragen, um detaillierte Wirkmechanismus-Informationen abzurufen
+- **TxGNN-Vorhersage-Pipeline erneut ausführen**, sobald die Eingaben des Wissensgraphen für Abatacept vollständig sind
+- **Klinische Studien und Literaturdatenbanken erneut abfragen**, sobald eine vorhergesagte Indikation verfügbar ist
+- **Taiwan-Regulierungsweg neu bewerten**, falls ein tragfähiger Neuanwendungskandidat entsteht, da Abatacept derzeit nicht in Taiwan vermarktet ist
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

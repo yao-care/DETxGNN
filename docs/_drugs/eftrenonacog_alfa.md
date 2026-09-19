@@ -29,74 +29,63 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Eftrenonacog Alfa：從血友病 B 到 Pseudo-von Willebrand Disease
+# Eftrenonacog alfa: Von Hämophilie B zu Pseudo-von-Willebrand-Erkrankung
 
-## 一句話總結
+## Zusammenfassung in einem Satz
 
-Eftrenonacog alfa（重組 Factor IX-Fc 融合蛋白）原用於血友病 B 患者的凝血因子替代治療。
-TxGNN 模型預測其可能對 **Pseudo-von Willebrand Disease** 有效，
-但目前**無任何臨床試驗與文獻**支持此方向，且機轉分析顯示兩者病理路徑並不重疊。
+Eftrenonacog alfa (rekombinantes Faktor-IX-Fc-Fusionsprotein) wurde ursprünglich zur Blutgerinnungsfaktor-Ersatztherapie bei Patienten mit Hämophilie B verwendet. Das TxGNN-Modell prognostiziert eine mögliche Wirksamkeit bei der **Pseudo-von-Willebrand-Erkrankung**, es gibt jedoch derzeit **keine klinischen Studien und Literaturstellen**, die diese Richtung unterstützen, und die mechanistische Analyse zeigt, dass sich die pathophysiologischen Wege der beiden Erkrankungen nicht überschneiden.
 
-## 快速總覽
+## Schnellübersicht
 
-| 項目 | 內容 |
-|------|------|
-| 原始適應症 | 血友病 B（Hemophilia B，凝血因子 IX 缺乏） |
-| 預測新適應症 | Pseudo-von Willebrand Disease |
-| TxGNN 預測分數 | 99.48%（排名第 6035） |
-| 證據等級 | L5（僅模型預測，無實際研究） |
-| 台灣上市狀態 | Not marketed |
-| 藥證數量 | 0 |
-| 建議決策 | Hold |
+| Punkt | Inhalt |
+|-------|--------|
+| Ursprüngliche Indikation | Hämophilie B (Blutgerinnungsfaktor-IX-Mangel) |
+| Vorhergesagte neue Indikation | Pseudo-von-Willebrand-Erkrankung |
+| TxGNN-Vorhersagescore | 99.48% (Rang 6035) |
+| Evidenzlevel | L5 (nur Modellvorhersage, keine aktuelle Forschung) |
+| Taiwan-Marktstatus | Nicht vermarktet |
+| Anzahl der Arzneimittelzulassungen | 0 |
+| Empfohlene Entscheidung | Aussetzen |
 
-## 這個預測合理嗎？
+## Ist diese Vorhersage angemessen?
 
-Eftrenonacog alfa 是重組 Factor IX 與 Fc 片段的融合蛋白，作用機轉為補充內生性凝血因子 IX，
-促成凝血瀑布下游 Factor X 的活化，用於血友病 B 患者的出血預防與治療。
-由於是替代療法而非調節性藥物，其藥理作用高度侷限於凝血因子路徑本身。
+Eftrenonacog alfa ist ein rekombinantes Fusionsprotein aus Faktor IX und Fc-Fragment, dessen Wirkungsmechanismus die Ergänzung des endogenen Gerinnungsfaktors IX darstellt und die Aktivierung des nachgelagerten Faktors X in der Gerinnungskaskade fördert. Es wird zur Blutungsprävention und Blutungsbehandlung bei Hämophilie-B-Patienten eingesetzt. Da es sich um eine Ersatztherapie und nicht um ein modulierendes Arzneimittel handelt, ist sein Wirkungsspektrum stark auf den Gerinnungsfaktor-Weg selbst begrenzt.
 
-Pseudo-von Willebrand disease 的病理機轉是血小板 **GPIb 受體**先天性突變，
-導致對 von Willebrand factor（vWF）的親和力異常增高，屬於血小板功能異常疾病，
-與凝血因子 IX 缺乏在病理生理上並無交集。TxGNN 給出的高分很可能反映知識圖譜中
-「出血性疾病」的語意群聚效應，而非真正的機轉關聯。
+Die Pathophysiologie der Pseudo-von-Willebrand-Erkrankung beruht auf einer angeborenen Mutation des Blutplättchen-**GPIb-Rezeptors**, die zu einer anomal erhöhten Affinität gegenüber dem von-Willebrand-Faktor (vWF) führt und eine Funktionsstörung der Blutplättchen darstellt. Sie weist pathophysiologisch keine Überschneidung mit Faktor-IX-Mangel auf. Der hohe Score von TxGNN könnte eher den Effekt der semantischen Clusterbildung in der Wissensgrafik für „Blutungskrankheiten" widerspiegeln als eine echte mechanistische Verknüpfung.
 
-本次 Evidence Pack 中另兩個候選適應症（primary release disorder of platelets、
-Glanzmann thrombasthenia）同樣屬於血小板功能異常，而非凝血因子缺乏，
-機轉論述皆指出 Factor IX 補充無法糾正血小板聚集或顆粒釋放缺陷。三者一致顯示，
-此輪 TxGNN 預測在機轉層面的合理性偏低。
+In diesem Evidence Pack sind zwei weitere Kandidaten-Indikationen (primary release disorder of platelets, Glanzmann-Thrombasthenie) ebenfalls Blutplättchenfunktionsstörungen und keine Gerinnungsfaktormängel. Die mechanistische Analyse in allen drei Fällen zeigt, dass eine Faktor-IX-Ergänzung die Blutplättchenaggregation oder Speicherfreisetzung nicht korrigieren kann. Alle drei Fälle zeigen übereinstimmend, dass die TxGNN-Vorhersagen in dieser Runde mechanistisch nicht hinreichend begründet sind.
 
-## 臨床試驗證據
+## Klinische Prüfungsnachweise
 
-目前無相關臨床試驗登記
+Derzeit keine relevanten klinischen Studien registriert
 
-## 文獻證據
+## Literaturnachweis
 
-目前無相關文獻資料
+Derzeit keine relevanten Literaturstellen verfügbar
 
-## 台灣市場資訊
+## Taiwan-Marktinformationen
 
-Eftrenonacog alfa 尚未於台灣取得藥證，無授權資訊可供揭露。
+Eftrenonacog alfa hat in Taiwan noch keine Arzneimittelzulassung erhalten; es sind keine Zulassungsinformationen verfügbar.
 
-## 安全性考量
+## Sicherheitsaspekte
 
-請參考藥品仿單以取得完整安全性資訊。
+Bitte konsultieren Sie die Arzneimittel-Fachinformation für umfassende Sicherheitsinformationen.
 
-> 註：BfArM package insert warnings/contraindications資料目前為關鍵缺口（Blocking），在補齊前無法進行 S1 安全性初評。
+> Hinweis: BfArM Packungsbeilage Warnungen/Kontraindikationen-Daten stellen derzeit einen blockierenden Mangel dar (Blocking), und bis dieser behoben ist, kann keine S1-Sicherheitsinitialbeurteilung durchgeführt werden.
 
-## 結論與下一步
+## Fazit und nächste Schritte
 
-**決策：Hold**
+**Entscheidung: Aussetzen**
 
-**理由：**
-三個候選適應症證據等級皆為 L5（僅模型預測，無臨床試驗或文獻佐證），
-且機轉分析顯示凝血因子 IX 替代療法與血小板功能異常疾病之病理路徑不重疊，
-機轉合理性不足以支持進一步投入資源。
+**Begründung:**
+Alle drei Kandidaten-Indikationen weisen ein Evidenzlevel von L5 auf (nur Modellvorhersage, ohne Unterstützung durch klinische Studien oder Literaturstellen). Die mechanistische Analyse zeigt, dass sich die Pathophysiologie der Faktor-IX-Ersatztherapie und Blutplättchenfunktionsstörungen nicht überschneidet. Die mechanistische Plausibilität reicht nicht aus, um weitere Ressourcen einzusetzen.
 
-**若要推進，需要補齊：**
-- TFDA 仿單警語與禁忌資料（Blocking，現階段無法進行安全性初評）
-- DrugBank 完整作用機轉（MOA）資料，以確認是否存在未被目前分析捕捉的間接機轉路徑
-- 至少一項體外或動物模型研究，驗證 Factor IX 補充是否對血小板-vWF 交互作用有任何影響
-- 待上述缺口補齊後，重新評估是否晉升至更高決策階段（S1 以上）
+**Zur Fortführung erforderlich:**
+- TFDA Fachinformation Warnungen und Kontraindikationen-Daten (Blocking, derzeit keine S1-Sicherheitsinitialbeurteilung möglich)
+- Vollständige Wirkungsmechanismus-Daten (MOA) aus DrugBank zur Überprüfung, ob indirekte Mechanismen vorhanden sind, die von der aktuellen Analyse nicht erfasst wurden
+- Mindestens eine In-vitro- oder Tierstudienprobe, um zu überprüfen, ob die Faktor-IX-Ergänzung irgendeine Auswirkung auf die Blutplättchen-vWF-Wechselwirkung hat
+- Nach Beseitigung der oben genannten Lücken Neubewertung, ob eine Erhebung zu einer höheren Entscheidungsphase (S1 oder höher) gerechtfertigt ist
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

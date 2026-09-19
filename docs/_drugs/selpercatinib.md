@@ -29,98 +29,97 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-Using no specialized skill here — this is a direct templated report-generation task with an explicit format already specified in the prompt.
+# Selpercatinib: Von RET-alterierten Krebserkrankungen zur Pulmonalen Hypertonie
 
-# Selpercatinib: From RET-Altered Cancers to Pulmonary Hypertension
+## Eine Zusammenfassung in einem Satz
 
-## One-Sentence Summary
-
-Selpercatinib is a selective RET kinase inhibitor originally used for RET fusion/mutation-positive non-small cell lung cancer (NSCLC) and medullary thyroid carcinoma (MTC). The TxGNN model predicts it may be effective for **Pulmonary Hypertension**, but this direction is currently supported by **0 clinical trials** and **no literature directly addressing this indication** — the available publications concern the drug's original oncology use and safety profile only.
+Selpercatinib ist ein selektiver RET-Kinase-Inhibitor, der ursprünglich für RET-Fusion/Mutation-positive nicht-kleinzellige Lungenkrebserkrankungen (NSCLC) und medulläres Schilddrüsenkarzinom (MTC) verwendet wird. Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam für **Pulmonale Hypertonie** ist, aber dieser Ansatz wird derzeit durch **0 klinische Studien** und **keine Literatur, die sich direkt mit dieser Indikation befasst**, gestützt – die verfügbaren Publikationen behandeln nur die ursprüngliche onkologische Anwendung des Arzneimittels und sein Sicherheitsprofil.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Element | Inhalt |
 |------|------|
-| Original Indication | RET fusion/mutation-positive NSCLC and medullary thyroid carcinoma (per repurposing rationale; not confirmed via formal license data) |
-| Predicted New Indication | Pulmonary Hypertension |
-| TxGNN Prediction Score | 99.18% |
-| Evidence Level | L5 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | RET-Fusion/Mutation-positive NSCLC und medulläres Schilddrüsenkarzinom (gemäß Umwidmungsrationale; nicht durch formale Lizenzierungsdaten bestätigt) |
+| Vorhergesagte neue Indikation | Pulmonale Hypertonie |
+| TxGNN-Vorhersage-Score | 99.18% |
+| Evidenzstufe | L5 |
+| Status auf deutschem Markt | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Zurückstellen |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage sinnvoll?
 
-Currently, detailed mechanism of action data (DrugBank MOA field) is not available — this is a documented data gap (DG002, High severity). Based on the available repurposing rationale, selpercatinib is a highly selective RET kinase inhibitor, approved for RET fusion/mutation-positive tumours, and its efficacy in NSCLC and MTC is well established.
+Derzeit sind detaillierte Daten zum Wirkmechanismus (DrugBank MOA-Feld) nicht verfügbar – dies ist eine dokumentierte Datenlücke (DG002, hoher Schweregrad). Basierend auf dem verfügbaren Umwidmungsrationale ist Selpercatinib ein hochselektiver RET-Kinase-Inhibitor, der für RET-Fusion/Mutation-positive Tumoren zugelassen ist, und seine Wirksamkeit bei NSCLC und MTC ist gut belegt.
 
-The link between RET signalling and pulmonary vascular remodeling is only loosely supported: scattered basic-science literature has noted RET expression in vascular smooth muscle cells, but there is no validated mechanistic pathway connecting RET kinase inhibition to therapeutic benefit in pulmonary hypertension. The high TxGNN score most likely reflects indirect graph-embedding proximity between RET–oncology–vascular endothelium nodes in the knowledge graph, rather than direct pathophysiological evidence.
+Die Verbindung zwischen RET-Signalisierung und vaskulärem Umbau der Lunge ist nur schwach gestützt: zerstreute Grundlagenliteratur hat RET-Expression in glatten Muskelzellen des vaskulären Systems beobachtet, aber es gibt keinen validierten mechanistischen Weg, der RET-Kinase-Inhibition zu therapeutischem Nutzen bei pulmonaler Hypertonie verbindet. Der hohe TxGNN-Score spiegelt wahrscheinlich am meisten indirekte Graph-Embedding-Nähe zwischen RET–Onkologie–Endothelzellen-Knoten im Wissensgraphen wider, anstatt direkter pathophysiologischer Evidenz.
 
-Given the absence of any preclinical, clinical, or case-based support specific to pulmonary hypertension, this prediction should be treated as hypothesis-generating only, not as a clinically actionable signal at this stage.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+Angesichts des fehlenden präklinischen, klinischen oder fallgestützten Nachweises speziell für pulmonale Hypertonie sollte diese Vorhersage in diesem Stadium nur als hypothesengenerierend behandelt werden, nicht als klinisch umsetzbares Signal.
 
 ---
 
-## Literature Evidence
+## Evidenz aus klinischen Studien
 
-| PMID | Year | Type | Journal | Key Findings |
+Derzeit keine verwandten klinischen Studien registriert
+
+---
+
+## Literaturevidenz
+
+| PMID | Jahr | Typ | Journal | Wichtigste Erkenntnisse |
 |------|-----|------|------|---------|
-| [39372206](https://pubmed.ncbi.nlm.nih.gov/39372206/) | 2024 | Real-world/Retrospective safety comparison | Frontiers in Pharmacology | Compared adverse event profiles between pralsetinib and selpercatinib using FDA FAERS data; not related to pulmonary hypertension |
-| [34178121](https://pubmed.ncbi.nlm.nih.gov/34178121/) | 2021 | Retrospective analysis (RET+ NSCLC) | Therapeutic Advances in Medical Oncology | Real-world efficacy of selpercatinib in RET fusion-positive NSCLC patients treated through an access program |
-| [41918669](https://pubmed.ncbi.nlm.nih.gov/41918669/) | 2026 | Case report (MEN2B/MTC) | Cureus | Case of metastatic medullary thyroid carcinoma in MEN2B with RET M918T mutation, discussing long-term management and targeted therapy |
+| [39372206](https://pubmed.ncbi.nlm.nih.gov/39372206/) | 2024 | Sicherheitsvergleich in der klinischen Praxis/retrospektiv | Frontiers in Pharmacology | Vergleich der Nebenwirkungsprofile zwischen Pralsetinib und Selpercatinib anhand von FDA FAERS-Daten; nicht mit pulmonaler Hypertonie verbunden |
+| [34178121](https://pubmed.ncbi.nlm.nih.gov/34178121/) | 2021 | Retrospektive Analyse (RET+ NSCLC) | Therapeutic Advances in Medical Oncology | Wirksamkeit von Selpercatinib in der klinischen Praxis bei RET-Fusions-positiven NSCLC-Patienten, die über ein Zugriffsprogramm behandelt wurden |
+| [41918669](https://pubmed.ncbi.nlm.nih.gov/41918669/) | 2026 | Fallbericht (MEN2B/MTC) | Cureus | Fall von metastasiertem medullärem Schilddrüsenkarzinom bei MEN2B mit RET M918T-Mutation, Diskussion des Langzeitmanagements und der zielgerichteten Therapie |
 
-**Note:** None of the retrieved literature directly addresses pulmonary hypertension; all three publications relate to the drug's original oncology indications or its safety profile.
-
----
-
-## Germany Market Information
-
-No marketing authorizations found — selpercatinib is currently **not marketed** in Germany (0 authorizations on record).
+**Hinweis:** Keine der abgerufenen Literaturquellen befasst sich direkt mit pulmonaler Hypertonie; alle drei Publikationen beziehen sich auf die ursprünglichen onkologischen Indikationen des Arzneimittels oder sein Sicherheitsprofil.
 
 ---
 
-## Cytotoxicity
+## Marktinformationen Deutschland
 
-Selpercatinib is a targeted RET kinase inhibitor used for RET-altered cancers (NSCLC, MTC), and is therefore reviewed under this section.
+Keine Marktgenehmigungen gefunden – Selpercatinib ist derzeit **nicht vermarktet** in Deutschland (0 Zulassungen dokumentiert).
 
-| Item | Content |
+---
+
+## Zytotoxizität
+
+Selpercatinib ist ein zielgerichteter RET-Kinase-Inhibitor, der für RET-alterierte Krebserkrankungen (NSCLC, MTC) verwendet wird, und wird daher in diesem Abschnitt bewertet.
+
+| Element | Inhalt |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (RET kinase inhibitor) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| Zytotoxizitätsklassifizierung | Zielgerichtete Therapie (RET-Kinase-Inhibitor) |
+| Risiko für Myelosuppression | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Fachinformation |
+| Klassifizierung der Emetogenität | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Fachinformation |
+| Überwachungspunkte | Bitte beachten Sie die Überwachungspunkte in der Fachinformation |
+| Handhabungsschutz | Bitte beachten Sie die Schutzmaßnahmen bei der Handhabung in der Fachinformation |
 
 ---
 
-## Safety Considerations
+## Sicherheitsüberlegungen
 
-Please refer to the package insert for safety information.
+Bitte beachten Sie die Fachinformation für Sicherheitsinformationen.
 
-*(Key warnings, contraindications, and drug interaction data are all currently unavailable — TFDA/BfArM label data is flagged as a blocking data gap, DG001.)*
+*(Schlüsselwarnhinweise, Kontraindikationen und Arzneimittelwechselwirkungsdaten sind derzeit alle nicht verfügbar – TFDA/BfArM-Etikettierungsdaten werden als blockierende Datenlücke gekennzeichnet, DG001.)*
 
 ---
 
-## Conclusion and Next Steps
+## Fazit und nächste Schritte
 
-**Decision: Hold**
+**Entscheidung: Zurückstellen**
 
-**Rationale:**
-The TxGNN prediction score is high, but the evidence level is L5 — model prediction only, with no clinical trials and no literature specific to pulmonary hypertension. The mechanistic link between RET inhibition and pulmonary vascular disease is speculative and unvalidated, and the drug is not currently marketed in Germany, so no real-world safety or regulatory context exists to support further evaluation.
+**Begründung:**
+Der TxGNN-Vorhersage-Score ist hoch, aber die Evidenzstufe ist L5 – nur Modellvorhersage, ohne klinische Studien und ohne spezifische Literatur zur pulmonalen Hypertonie. Die mechanistische Verbindung zwischen RET-Inhibition und pulmonaler Gefäßerkrankung ist spekulativ und nicht validiert, und das Arzneimittel ist derzeit nicht in Deutschland vermarktet, daher gibt es keinen praktischen Sicherheits- oder Regulierungskontext, um eine weitere Bewertung zu unterstützen.
 
-**To proceed, the following is needed:**
-- TFDA/BfArM package insert data (warnings, contraindications) — currently a blocking data gap (DG001)
-- Confirmed DrugBank mechanism of action data (DG002)
-- Preclinical or mechanistic studies specifically examining RET signalling in pulmonary vascular remodeling
-- At least one case report, observational study, or early-phase trial directly addressing selpercatinib in pulmonary hypertension before advancing beyond S0
+**Um fortzufahren, ist Folgendes erforderlich:**
+- TFDA/BfArM-Fachinformation (Warnhinweise, Kontraindikationen) – derzeit eine blockierende Datenlücke (DG001)
+- Bestätigte DrugBank-Wirkmechanismus-Daten (DG002)
+- Präklinische oder mechanistische Studien, die speziell RET-Signalisierung bei pulmonalem vaskulärem Umbau untersuchen
+- Mindestens ein Fallbericht, eine Beobachtungsstudie oder eine frühe klinische Studie, die sich direkt mit Selpercatinib bei pulmonaler Hypertonie befasst, bevor man über S0 hinausgeht
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

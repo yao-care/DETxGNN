@@ -29,77 +29,78 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Givosiran: From Acute Hepatic Porphyria to Primitive Portal Vein Thrombosis
+# Givosiran: Von akuter hepatischer Porphyrie zur primitiven Pfortaderthrombose
 
 ## One-Sentence Summary
 
-> Givosiran is a GalNAc-conjugated siRNA therapeutic; the Evidence Pack does not contain a confirmed original indication or approved product information (the drug is not marketed in this jurisdiction), though it is externally known as a treatment for acute hepatic porphyria.
-> The TxGNN model's top-ranked prediction is **Primitive Portal Vein Thrombosis**, but this candidate currently has **0 clinical trials** and **0 supporting publications**, and the accompanying rationale explicitly states there is no known mechanistic link.
-> Evidence for this specific candidate is therefore model-output only (L5), and the recommendation is **Hold**.
+> Givosiran ist ein GalNAc-konjugiertes siRNA-Therapeutikum; das Evidence Pack enthält keine bestätigte ursprüngliche Indikation oder zugelassene Produktinformation (das Arzneimittel ist in dieser Jurisdiktion nicht vermarktet), obwohl es extern als Behandlung für akute hepatische Porphyrie bekannt ist.
+> Die Topvorhersage des TxGNN-Modells ist **primitive Pfortaderthrombose**, aber dieser Kandidat weist derzeit **0 klinische Studien** und **0 unterstützende Publikationen** auf, und die begleitende Begründung erklärt explizit, dass es keine bekannte mechanistische Verbindung gibt.
+> Die Evidenz für diesen spezifischen Kandidaten ist daher nur Modellausgabe (L5), und die Empfehlung lautet **Halten**.
 
 ---
 
 ## Quick Overview
 
-| Item | Content |
+| Merkmal | Inhalt |
 |------|------|
-| Original Indication | Not available — no license/approved-indication text in Evidence Pack (drug not marketed in this jurisdiction) |
-| Predicted New Indication | Primitive Portal Vein Thrombosis |
-| TxGNN Prediction Score | 99.9986% |
-| Evidence Level | L5 (model prediction only, no clinical trials or literature) |
-| Germany Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | Nicht verfügbar — kein Lizenz-/zugelassener Indikationstext im Evidence Pack (Arzneimittel nicht vermarktet in dieser Jurisdiktion) |
+| Vorhergesagte neue Indikation | Primitive Pfortaderthrombose |
+| TxGNN-Vorhersage-Score | 99.9986% |
+| Evidenzniveau | L5 (nur Modellvorhersage, keine klinischen Studien oder Literatur) |
+| Marktstatus Deutschland | Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Halten |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap, DG002). External background knowledge indicates givosiran is a small interfering RNA (siRNA) that is taken up by hepatocytes via GalNAc conjugation and suppresses translation of hepatic ALAS1 mRNA, thereby reducing accumulation of the neurotoxic heme precursors ALA and PBG — this MOA is corroborated by the rationale text attached to a lower-ranked candidate in this same Evidence Pack (rank 9, ALA dehydratase deficiency porphyria), though it is not confirmed for the top-ranked candidate itself.
+Derzeit sind detaillierte Wirkungsmechanismus-Daten nicht verfügbar (gekennzeichnet als Datenlücke mit hohem Schweregrad, DG002). Externes Hintergrundwissen deutet darauf hin, dass Givosiran eine kleine interferierende RNA (siRNA) ist, die von Hepatozyten über GalNAc-Konjugation aufgenommen wird und die Translation von hepatischer ALAS1-mRNA unterdrückt, wodurch die Ansammlung der neurotoxischen Häm-Vorläufer ALA und PBG verringert wird — dieser Wirkmechanismus wird durch den an einen niedriger bewerteten Kandidaten im gleichen Evidence Pack angehängten Begründungstext gestützt (Rang 9, Porphyrie durch ALA-Dehydratase-Mangel), obwohl er für den höchstbewerteten Kandidaten selbst nicht bestätigt wird.
 
-For the top prediction, **Primitive Portal Vein Thrombosis**, the Evidence Pack's own rationale is explicit: *"No known mechanistic link. Givosiran acts on the ALAS1/heme biosynthesis pathway, which has no direct connection to the coagulation/vascular pathology underlying portal vein thrombosis. The high TxGNN score likely reflects representational similarity among 'liver disease' nodes in the knowledge graph rather than a genuine biological pathway."* Ranks 2–5, 7, 8, and 10 in this same batch carry an identical or near-identical TxGNN score (~0.99999) and the same caveat, suggesting a score-clustering artifact around hepatic-disease nodes rather than independently validated signals.
+Für die Topvorhersage **primitive Pfortaderthrombose** ist die Begründung des Evidence Pack selbst explizit: *„Keine bekannte mechanistische Verbindung. Givosiran wirkt auf den ALAS1/Häm-Biosynthese-Weg, der keine direkte Verbindung zur Koagulations-/Gefäßpathologie zugrunde der Pfortaderthrombose hat. Der hohe TxGNN-Score spiegelt wahrscheinlich repräsentationale Ähnlichkeit zwischen ‚Lebererkrankungs'-Knoten im Wissensgraph wider, anstatt eines echten biologischen Weges."* Ränge 2–5, 7, 8 und 10 in diesem Batch weisen einen identischen oder nahezu identischen TxGNN-Score (~0.99999) und den gleichen Vorbehalt auf, was auf ein Score-Clustering-Artefakt um Lebererkrankungs-Knoten hindeutet, anstatt auf unabhängig validierte Signale.
 
-By contrast, one candidate in this batch — porphyria due to ALA dehydratase deficiency (rank 9) — does have a coherent mechanistic rationale (shared ALAS1/heme pathway with the drug's known clinical use in acute hepatic porphyria) and 8 supporting publications, including a Phase 3 post-hoc analysis. This candidate scored lower than the top-ranked prediction, which further supports treating the rank-1 candidate's high score with caution.
+Im Gegensatz dazu weist ein Kandidat in diesem Batch — Porphyrie durch ALA-Dehydratase-Mangel (Rang 9) — durchaus eine kohärente mechanistische Begründung auf (gemeinsamer ALAS1/Häm-Weg mit der bekannten klinischen Anwendung des Arzneimittels bei akuter hepatischer Porphyrie) und 8 unterstützende Publikationen auf, einschließlich einer Phase-3-post-hoc-Analyse. Dieser Kandidat erhielt eine niedrigere Bewertung als die Topvorhersage, was weiterhin unterstützt, die hohe Bewertung des Rang-1-Kandidaten mit Vorsicht zu behandeln.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Derzeit keine zugehörigen klinischen Studien registriert.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available.
+Derzeit keine zugehörige Literatur verfügbar.
 
 ---
 
 ## Germany Market Information
 
-No marketing authorizations were found for this drug in the current dataset (market status: not marketed; total authorizations: 0).
+Für dieses Arzneimittel wurden in der aktuellen Datenbank keine Vermarktungszulassungen gefunden (Marktstatus: nicht vermarktet; Gesamtzulassungen: 0).
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Note: a Blocking-severity data gap (DG001) means TFDA/label warnings and contraindications could not be retrieved, so this drug cannot yet undergo initial safety screening (S1) for any indication.
+Bitte beachten Sie die Gebrauchsinformation für Sicherheitsinformationen. Hinweis: Eine Datenlücke mit Blocking-Schweregrad (DG001) bedeutet, dass TFDA-/Etikett-Warnungen und Kontraindikationen nicht abgerufen werden konnten, so dass dieses Arzneimittel noch nicht die erste Sicherheitsprüfung (S1) für eine Indikation durchlaufen kann.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Entscheidung: Halten**
 
-**Rationale:**
-The top-ranked prediction (Primitive Portal Vein Thrombosis) has no clinical trials, no literature, and an explicitly stated lack of mechanistic plausibility — this is a pure model-score artifact, not an actionable repurposing signal. Combined with the Blocking-severity gap in label/safety data, this candidate cannot proceed past S0.
+**Begründung:**
+Die Topvorhersage (primitive Pfortaderthrombose) weist keine klinischen Studien, keine Literatur und einen explizit angegebenen Mangel an mechanistischer Plausibilität auf — dies ist ein reines Modell-Score-Artefakt, kein verwertbares Umpositionierungssignal. Kombiniert mit der Datenlücke mit Blocking-Schweregrad in den Etikett-/Sicherheitsdaten kann dieser Kandidat nicht über S0 hinausgehen.
 
-**To proceed, the following is needed:**
-- TFDA/EMA label data (warnings, contraindications) to clear the Blocking data gap (DG001)
-- Confirmed original indication and DrugBank MOA data (DG002)
-- Independent mechanistic or preclinical evidence connecting ALAS1/heme biosynthesis inhibition to portal vein thrombosis pathology, if this candidate is to be pursued further
+**Um weiterzumachen, wird das Folgende benötigt:**
+- TFDA-/EMA-Etikettendaten (Warnungen, Kontraindikationen) zum Beheben der Blocking-Datenlücke (DG001)
+- Bestätigte ursprüngliche Indikation und DrugBank-Wirkmechanismus-Daten (DG002)
+- Unabhängige mechanistische oder präklinische Evidenz, die ALAS1/Häm-Biosynthese-Hemmung mit der Pfortaderthrombose-Pathologie verbindet, falls dieser Kandidat weiterhin verfolgt werden soll
 
-**Separate note for the research team:** within this same batch, rank 9 (*porphyria due to ALA dehydratase deficiency*) has a materially stronger evidence profile — coherent shared-pathway mechanism, 8 literature citations including a Phase 3 post-hoc analysis (L3, Research Question stage) — and may warrant its own evaluation track rather than being deprioritized simply because of its lower raw TxGNN rank.
+**Separate Anmerkung für das Forschungsteam:** Innerhalb des gleichen Batch weist Rang 9 (*Porphyrie durch ALA-Dehydratase-Mangel*) ein materiell stärkeres Evidenzprofil auf — kohärenter Wirkmechanismus über gemeinsame Wege, 8 Literaturzitate einschließlich einer Phase-3-post-hoc-Analyse (L3, Forschungsfrage-Phase) — und könnte sein eigenes Evaluierungsgleis rechtfertigen, anstatt einfach nur deshalb deprioritiert zu werden, weil sein roher TxGNN-Rang niedriger ist.
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

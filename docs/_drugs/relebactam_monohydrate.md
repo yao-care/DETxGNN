@@ -29,68 +29,69 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0**
 
 </div>
 
-# Relebactam Monohydrate: β-Lactamase Inhibitor — Repurposing Analysis Cannot Proceed
+# Relebactam-Monohydrat: β-Lactamase-Inhibitor — Repurposing-Analyse kann nicht fortgesetzt werden
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Relebactam monohydrate is a β-lactamase inhibitor co-administered with imipenem-cilastatin, approved by the FDA in 2019 for serious hospital-acquired Gram-negative bacterial infections.
-The current Evidence Pack contains **no TxGNN-predicted indications** and is missing critical inputs — mechanism of action and regulatory labeling — required to drive the repurposing pipeline.
-Without predicted indications, a standard repurposing evaluation cannot be completed; **Hold** is the only defensible recommendation until data gaps are resolved.
+Relebactam-Monohydrat ist ein β-Lactamase-Inhibitor, der in Kombination mit Imipenem-Cilastatin verabreicht wird und von der FDA 2019 für schwere nosokomiale Gram-negative Bakterieninfektionen zugelassen wurde.
+Das aktuelle Evidence Pack enthält **keine TxGNN-vorhergesagten Indikationen** und Angaben zu kritischen Eingaben — Wirkmechanismus und behördliche Kennzeichnung — die erforderlich sind, um die Repurposing-Pipeline voranzutreiben.
+Ohne vorhergesagte Indikationen kann eine standardmäßige Repurposing-Bewertung nicht abgeschlossen werden; **Hold** ist die einzig vertretbare Empfehlung, bis Datenlücken geschlossen sind.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
-|------|---------|
-| Original Indication | Hospital-acquired / ventilator-associated bacterial pneumonia; complicated intra-abdominal and urinary tract infections (with imipenem-cilastatin) |
-| Predicted New Indication | — (No TxGNN prediction generated) |
-| TxGNN Prediction Score | — |
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Nosokomiale / beatmungsassoziierte Bakterienpneumonie; komplizierte intra-abdominale und Harnwegsinfektionen (mit Imipenem-Cilastatin) |
+| Vorhergesagte neue Indikation | — (Keine TxGNN-Vorhersage generiert) |
+| TxGNN-Vorhersagenwert | — |
 | Evidence Level | L5 |
-| Taiwan Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Status auf dem Taiwan-Markt | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Drug Background
+## Arzneimittelhintergrund
 
-No TxGNN prediction was generated for relebactam monohydrate, so the standard "Why is this prediction reasonable?" analysis cannot be completed. The following background is provided from published literature to support future pipeline runs.
+Für Relebactam-Monohydrat wurde keine TxGNN-Vorhersage generiert, daher kann die standardmäßige Analyse „Warum ist diese Vorhersage sinnvoll?" nicht abgeschlossen werden. Der folgende Hintergrund wird aus veröffentlichter Literatur bereitgestellt, um zukünftige Pipeline-Durchläufe zu unterstützen.
 
-Relebactam is a bicyclic piperidine-based inhibitor of class A and class C serine β-lactamases (including KPC carbapenemases and AmpC enzymes). It does not possess intrinsic antibacterial activity; its function is to protect imipenem from enzymatic degradation, thereby restoring imipenem's potency against otherwise resistant organisms such as KPC-producing *Klebsiella pneumoniae* and imipenem-resistant *Pseudomonas aeruginosa*. The fixed-dose combination product (imipenem 500 mg / cilastatin 500 mg / relebactam 250 mg, brand name RECARBRIO™, Merck) was approved by the FDA in July 2019.
+Relebactam ist ein bicyclisches Piperidin-basierter Inhibitor von Serin-β-Lactamasen der Klasse A und C (einschließlich KPC-Carbapenemase und AmpC-Enzyme). Es besitzt keine intrinsische antibakterielle Aktivität; seine Funktion besteht darin, Imipenem vor enzymatischem Abbau zu schützen und dadurch die Wirksamkeit von Imipenem gegen ansonsten resistente Organismen wie KPC-produzierende *Klebsiella pneumoniae* und Imipenem-resistente *Pseudomonas aeruginosa* wiederherzustellen. Das Kombinationspräparat mit fester Dosierung (Imipenem 500 mg / Cilastatin 500 mg / Relebactam 250 mg, Handelsname RECARBRIO™, Merck) wurde im Juli 2019 von der FDA zugelassen.
 
-Mechanistic MOA data was not retrievable in this Evidence Pack (DG002). Until the MOA is formally encoded, the TxGNN knowledge graph cannot generate drug–disease link predictions for this compound.
-
----
-
-## Taiwan Market Information
-
-Relebactam monohydrate has **no TFDA-authorized products** in Taiwan as of the query date. No license records or dosage forms are available to display.
+Mechanistische MOA-Daten konnten in diesem Evidence Pack nicht abgerufen werden (DG002). Bis der MOA formal codiert ist, kann der TxGNN-Knowledge-Graph keine Vorhersagen für Arzneimittel-Krankheits-Verbindungen für diese Substanz generieren.
 
 ---
 
-## Safety Considerations
+## Taiwan-Marktinformationen
 
-Please refer to the package insert for safety information. No warnings, contraindications, or drug interaction data were retrievable from this Evidence Pack.
-
-> **Note for analysts:** The TFDA package insert query returned a hit (query\_log ID 4, result\_count = 1), suggesting labeling text may be parseable. Extracting that content directly would resolve DG001 and unblock the safety section.
+Relebactam-Monohydrat hat **keine von der TFDA zugelassenen Produkte** in Taiwan zum Zeitpunkt der Abfrage. Es sind keine Lizenzunterlagen oder Darreichungsformen vorhanden.
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsaspekte
 
-**Decision: Hold**
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. Keine Warnungen, Kontraindikationen oder Arzneimittelwechselwirkungsdaten konnten aus diesem Evidence Pack abgerufen werden.
 
-**Rationale:**
-The TxGNN pipeline produced no predicted indications because critical inputs — mechanism of action (DG002, severity: High) and TFDA package insert warnings (DG001, severity: Blocking) — were not successfully ingested. A repurposing evaluation built on an empty prediction set would carry no scientific validity.
+> **Hinweis für Analytiker:** Die TFDA-Abfrage zur Packungsbeilage hat einen Treffer ergeben (Abfrage-ID 4, Ergebnisanzahl = 1), was darauf hindeutet, dass der Labeltext analysierbar sein könnte. Das direkte Extrahieren dieses Inhalts würde DG001 auflösen und den Sicherheitsabschnitt freigeben.
 
-**To proceed, the following is needed:**
+---
 
-1. **Resolve DG001 — Safety Labeling (Blocking):** The TFDA package insert query returned one result; parse that PDF to extract warnings, contraindications, and dosage information.
-2. **Resolve DG002 — MOA (High):** Query DrugBank (query\_log ID 3 returned 1 result) to extract the pharmacological mechanism and encode it into the TxGNN knowledge graph.
-3. **Re-run TxGNN pipeline:** Once MOA and labeling inputs are complete, regenerate `predicted_indications`.
-4. **Improve database query matching:** Consider querying as plain `"relebactam"` (without the "monohydrate" salt suffix) in DrugBank, PubChem, and clinical trial registries to maximize retrieval hit rate.
-5. **DDI lookup:** Retry drug–drug interaction query after resolving the INN suffix issue; current result is `not_found` with 0 interactions.
+## Fazit und nächste Schritte
+
+**Entscheidung: Hold**
+
+**Begründung:**
+Die TxGNN-Pipeline hat keine vorhergesagten Indikationen generiert, da kritische Eingaben — Wirkmechanismus (DG002, Schweregrad: Hoch) und TFDA-Warnkennzeichnung (DG001, Schweregrad: Blockierend) — nicht erfolgreich aufgenommen wurden. Eine auf einem leeren Vorhersagensatz basierende Repurposing-Bewertung würde keine wissenschaftliche Gültigkeit haben.
+
+**Folgende Maßnahmen sind erforderlich, um fortzufahren:**
+
+1. **Auflösen von DG001 — Sicherheitskennzeichnung (Blockierend):** Die TFDA-Abfrage zur Packungsbeilage hat ein Ergebnis ergeben; analysieren Sie dieses PDF, um Warnungen, Kontraindikationen und Dosierungsinformationen zu extrahieren.
+2. **Auflösen von DG002 — MOA (Hoch):** Fragen Sie DrugBank ab (Abfrage-ID 3 ergab 1 Ergebnis), um den pharmakologischen Mechanismus zu extrahieren und in den TxGNN-Knowledge-Graph zu codieren.
+3. **TxGNN-Pipeline erneut ausführen:** Sobald MOA- und Kennzeichnungseingaben vollständig sind, `predicted_indications` neu generieren.
+4. **Verbesserung der Datenbankabfragekohärenz:** Erwägen Sie, als Plain-Text `"relebactam"` (ohne das Salzsuffix „monohydrat") in DrugBank, PubChem und klinischen Versuchsregistern abzufragen, um die Abrufquote zu maximieren.
+5. **DDI-Abfrage:** Wiederholen Sie die Arzneimittelwechselwirkungsabfrage nach Auflösung des INN-Suffix-Problems; aktuelles Ergebnis ist `not_found` mit 0 Wechselwirkungen.
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

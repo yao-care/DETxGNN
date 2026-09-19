@@ -29,72 +29,73 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0**
 
 </div>
 
-# Buprenorphine Hydrochloride: Drug Repurposing Evaluation — Insufficient Data for Full Assessment
+# Buprenorphin-Hydrochlorid: Evaluierung der Arzneistoffneupositionierung — Unzureichende Daten für vollständige Bewertung
 
 ---
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Buprenorphine Hydrochloride is a well-known partial opioid agonist used clinically for opioid use disorder and pain management.
-However, the current Evidence Pack contains **no TxGNN predicted indications**, and critical drug-level data — including original approved indications and mechanism of action — are absent from the structured data fields.
-A complete repurposing evaluation **cannot be conducted** at this stage; this report summarises what is available and outlines what is needed to proceed.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not populated in current Evidence Pack |
-| Predicted New Indication | Not available — TxGNN predictions absent |
-| TxGNN Prediction Score | Not available |
-| Evidence Level | Not evaluable |
-| Taiwan Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+Buprenorphin-Hydrochlorid ist ein bekannter partieller Opioid-Agonist, der klinisch zur Behandlung von Opioidabhängigkeit und Schmerzmanagement eingesetzt wird.
+Das aktuelle Evidence Pack enthält jedoch **keine von TxGNN vorhergesagten Indikationen**, und kritische Arzneistoff-Daten – einschließlich ursprünglich genehmigter Indikationen und Wirkmechanismus – fehlen in den strukturierten Datenfeldern.
+Eine vollständige Evaluierung der Arzneistoffneupositionierung **kann in diesem Stadium nicht durchgeführt werden**; dieser Bericht fasst zusammen, was verfügbar ist, und skizziert, was notwendig ist, um fortzufahren.
 
 ---
 
-## Why the Data Gap Matters
+## Schnelküberblick
 
-Without a predicted indication from TxGNN, this report cannot fulfil its core purpose: explaining why a drug's mechanism might extend to a new disease area.
-
-The query log does show that both a DrugBank lookup and a TFDA package insert query returned **1 result each**, meaning raw data likely exists upstream. However, neither the mechanism of action nor the approved indication text was propagated into the Evidence Pack fields. Until those fields are populated, mechanistic reasoning is not possible.
-
-> Currently, detailed mechanism of action data is not available in the structured Evidence Pack.
-> Based on general pharmaceutical knowledge, Buprenorphine Hydrochloride is a **partial agonist at μ-opioid receptors** and an **antagonist at κ-opioid receptors**, approved in many jurisdictions for opioid use disorder (OUD) and chronic pain.
-> Its repurposing potential — for example in treatment-resistant depression or neonatal abstinence syndrome management — is an active area of clinical research, but **no formal TxGNN prediction is recorded here** to anchor this evaluation.
-
----
-
-## Taiwan Market Information
-
-No authorizations were found in the Taiwan TFDA database. Buprenorphine Hydrochloride is **not currently marketed in Taiwan** under any registered product.
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Nicht angegeben im aktuellen Evidence Pack |
+| Vorhergesagte neue Indikation | Nicht verfügbar – TxGNN-Vorhersagen fehlen |
+| TxGNN-Vorhersage-Score | Nicht verfügbar |
+| Evidenzstufe | Nicht bewertbar |
+| Taiwan-Markt-Status | ✗ Nicht vermarktet |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | **Abwarten** |
 
 ---
 
-## Safety Considerations
+## Warum die Datenlücke wichtig ist
 
-Please refer to the package insert for safety information.
+Ohne eine von TxGNN vorhergesagte Indikation kann dieser Bericht seinen Kernzweck nicht erfüllen: zu erklären, warum sich der Wirkmechanismus eines Arzneistoffs auf ein neues Krankheitsgebiet erstrecken könnte.
 
-> Note: The TFDA package insert query returned 1 result, but the warnings and contraindications fields were not populated in this Evidence Pack. This is a pipeline data extraction issue rather than a genuine absence of safety information for this drug class.
+Das Abfragelog zeigt zwar, dass sowohl eine DrugBank-Abfrage als auch eine TFDA-Gebrauchsinformation-Abfrage jeweils **1 Ergebnis zurückgegeben haben**, was bedeutet, dass Rohdaten wahrscheinlich vorgelagert vorhanden sind. Allerdings wurden weder der Wirkmechanismus noch der genehmigte Indikationstext in die Evidence-Pack-Felder übertragen. Bis diese Felder gefüllt sind, ist mechanistische Überlegung nicht möglich.
+
+> Derzeit sind detaillierte Wirkmechanismus-Daten nicht im strukturierten Evidence Pack verfügbar.
+> Basierend auf allgemeinem pharmazeutischem Wissen ist Buprenorphin-Hydrochlorid ein **partieller Agonist an μ-Opioidrezeptoren** und ein **Antagonist an κ-Opioidrezeptoren**, genehmigt in vielen Rechtsordnungen für Opioidabhängigkeit (OUD) und chronische Schmerzen.
+> Sein Potential zur Arzneistoffneupositionierung – beispielsweise bei therapieresistenter Depression oder Management des neonatalen Abstinenzsyndroms – ist ein aktives Gebiet der klinischen Forschung, aber **keine formale TxGNN-Vorhersage ist hier aufgezeichnet**, um diese Bewertung zu verankern.
 
 ---
 
-## Conclusion and Next Steps
+## Taiwan-Marktinformationen
 
-**Decision: Hold**
+In der Taiwan-TFDA-Datenbank wurden keine Genehmigungen gefunden. Buprenorphin-Hydrochlorid wird **derzeit nicht in Taiwan vermarktet**.
 
-**Rationale:**
-The Evidence Pack is critically incomplete on all evaluable dimensions — no TxGNN predictions, no original indication, no MOA, and no safety data. Issuing a Go or Proceed-with-Guardrails recommendation without these inputs would not be clinically responsible.
+---
 
-**To proceed, the following is needed:**
+## Sicherheitsüberlegungen
 
-- **TxGNN predictions**: Re-run the model for Buprenorphine Hydrochloride and confirm at least one predicted indication with score and evidence links
-- **Original indication**: Extract from the TFDA package insert result already retrieved (query ID 4, status: success) — the text needs to be parsed into `drug.original_indications`
-- **Mechanism of action**: Extract from the DrugBank result already retrieved (query ID 3, status: success) — populate `drug.original_moa`
-- **Safety data**: Parse key warnings and contraindications from the same package insert source — populate `safety.key_warnings` and `safety.contraindications`
-- **DDI data**: The DDI query returned not_found; consider querying a secondary source (e.g. DrugBank interaction API or FDA label) given that buprenorphine has clinically significant interactions with CNS depressants and CYP3A4 inhibitors
+Bitte beachten Sie die Gebrauchsinformation für Sicherheitsinformationen.
+
+> Hinweis: Die TFDA-Gebrauchsinformation-Abfrage gab 1 Ergebnis zurück, aber die Felder für Warnhinweise und Kontraindikationen wurden in diesem Evidence Pack nicht gefüllt. Dies ist ein Problem bei der Datenextraktion in der Pipeline und nicht eine echte Abwesenheit von Sicherheitsinformationen für diese Arzneistoffklasse.
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Abwarten**
+
+**Begründung:**
+Das Evidence Pack ist kritisch unvollständig in allen bewertbaren Dimensionen – keine TxGNN-Vorhersagen, keine ursprüngliche Indikation, kein Wirkmechanismus und keine Sicherheitsdaten. Die Ausstellung einer Go- oder Proceed-with-Guardrails-Empfehlung ohne diese Eingaben wäre nicht klinisch verantwortungsvoll.
+
+**Um fortzufahren, wird Folgendes benötigt:**
+
+- **TxGNN-Vorhersagen**: Das Modell für Buprenorphin-Hydrochlorid erneut ausführen und mindestens eine vorhergesagte Indikation mit Score und Evidenzverknüpfungen bestätigen
+- **Ursprüngliche Indikation**: Aus dem bereits abgerufenen TFDA-Gebrauchsinformation-Ergebnis extrahieren (Abfrage-ID 4, Status: Erfolg) – der Text muss in `drug.original_indications` analysiert werden
+- **Wirkmechanismus**: Aus dem bereits abgerufenen DrugBank-Ergebnis extrahieren (Abfrage-ID 3, Status: Erfolg) – `drug.original_moa` ausfüllen
+- **Sicherheitsdaten**: Wichtige Warnhinweise und Kontraindikationen aus derselben Gebrauchsinformation-Quelle analysieren – `safety.key_warnings` und `safety.contraindications` ausfüllen
+- **DDI-Daten**: Die DDI-Abfrage hat „not_found" zurückgegeben; erwägen Sie eine Abfrage einer sekundären Quelle (z. B. DrugBank-Interaktions-API oder FDA-Kennzeichnung) angesichts der klinisch signifikanten Wechselwirkungen von Buprenorphin mit ZNS-Depressiva und CYP3A4-Inhibitoren
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

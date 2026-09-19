@@ -29,96 +29,95 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-Using no additional skill — this is a direct report-drafting task with explicit formatting rules already given in the prompt.
+# Catumaxomab: Von malignem Aszites zu schwerer nichtproliferativer diabetischer Retinopathie
 
-# Catumaxomab: From Malignant Ascites to Severe Nonproliferative Diabetic Retinopathy
+## Zusammenfassung in einem Satz
 
-## One-Sentence Summary
-
-> Catumaxomab is a trifunctional bispecific antibody (anti-EpCAM × anti-CD3) originally used for malignant ascites in EpCAM-positive carcinomas, but was withdrawn from the market in 2017 for commercial reasons.
-> The TxGNN model predicts it may be effective for **severe nonproliferative diabetic retinopathy**,
-> but this prediction is currently supported by **0 clinical trials** and **0 publications** — evidence is at the algorithmic-prediction stage only.
+> Catumaxomab ist ein trifunktionaler bispezifischer Antikörper (anti-EpCAM × anti-CD3), der ursprünglich bei malignem Aszites in EpCAM-positiven Karzinomen eingesetzt wurde, aber 2017 aus kommerziellen Gründen vom Markt genommen wurde.
+> Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam für **schwere nichtproliferative diabetische Retinopathie** sein könnte,
+> aber diese Vorhersage wird derzeit durch **0 klinische Studien** und **0 Publikationen** unterstützt — die Evidenz befindet sich derzeit nur auf der Stufe der algorithmischen Vorhersage.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
-|------|------|
-| Original Indication | Not officially approved in Taiwan; per drug background, originally indicated for malignant ascites (withdrawn from market in 2017 for commercial reasons) |
-| Predicted New Indication | Severe nonproliferative diabetic retinopathy |
-| TxGNN Prediction Score | 99.64% |
-| Evidence Level | L5 |
-| Taiwan Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
-
----
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available (Data Gap DG002). Based on the available background information, catumaxomab is a trifunctional bispecific antibody that simultaneously binds tumor-cell surface EpCAM, T-cell CD3, and Fcγ receptors on accessory immune cells, thereby triggering immune-mediated killing of EpCAM-positive tumor cells. Its proven efficacy is limited to intraperitoneal use in malignant ascites, an oncology/tumor-immunology application.
-
-Diabetic retinopathy is driven by chronic hyperglycemia-induced microvascular damage and VEGF-mediated neovascularization — a pathophysiology with no known mechanistic overlap with EpCAM/CD3-directed T-cell engagement. No VEGF, inflammatory, or angiogenesis pathway overlap has been identified for catumaxomab.
-
-Given this, the mechanistic plausibility of applying catumaxomab to diabetic retinopathy is very low. The prediction reflects a TxGNN algorithmic association without biological rationale, clinical evidence, or practical feasibility — a systemically administered immune-activating antibody with known toxicity risk (originally given intraperitoneally for a terminal oncologic indication) is not a plausible candidate for a chronic ophthalmic condition.
+| Posten | Inhalt |
+|--------|--------|
+| Ursprüngliche Indikation | Nicht offiziell in Taiwan zugelassen; nach Arzneimittelhintergrund ursprünglich für malignen Aszites angezeigt (2017 aus kommerziellen Gründen vom Markt genommen) |
+| Vorhergesagte neue Indikation | Schwere nichtproliferative diabetische Retinopathie |
+| TxGNN-Vorhersage-Score | 99.64% |
+| Evidenzstufe | L5 |
+| Taiwan-Marktstatus | Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Halten |
 
 ---
 
-## Clinical Trial Evidence
+## Warum ist diese Vorhersage angemessen?
 
-Currently no related clinical trials registered
+Derzeit sind detaillierte Daten zum Wirkmechanismus nicht verfügbar (Datenlücke DG002). Basierend auf den verfügbaren Hintergrundinformationen ist Catumaxomab ein trifunktionaler bispezifischer Antikörper, der gleichzeitig an EpCAM auf der Tumorzelloberfläche, CD3 auf T-Zellen und Fcγ-Rezeptoren auf akzessorischen Immunzellen bindet und dadurch die immunvermittelte Tötung von EpCAM-positiven Tumorzellen auslöst. Seine nachgewiesene Wirksamkeit ist auf die intraperitoneale Anwendung bei malignem Aszites beschränkt, eine Onkologie-/Tumorimmunologie-Anwendung.
 
----
+Die diabetische Retinopathie wird durch chronische, durch Hyperglykämie verursachte mikrovaskuläre Schäden und VEGF-vermittelte Neovaskularisierung vorangetrieben — eine Pathophysiologie ohne bekannte mechanistische Übereinstimmung mit EpCAM/CD3-gerichteter T-Zell-Aktivierung. Es wurde keine Überlappung in den VEGF-, Entzündungs- oder Angiogenese-Wegen für Catumaxomab identifiziert.
 
-## Literature Evidence
-
-Currently no related literature available
+Angesichts dessen ist die mechanistische Plausibilität der Anwendung von Catumaxomab bei diabetischer Retinopathie sehr gering. Die Vorhersage spiegelt eine TxGNN-algorithmische Assoziation ohne biologische Begründung, klinische Evidenz oder praktische Machbarkeit wider — ein systemisch verabreichter immunaktivierender Antikörper mit bekanntem Toxizitätsrisiko (ursprünglich intraperitoneal für eine terminale onkologische Indikation verabreicht) ist kein plausibles Kandidat für eine chronische ophthalmologische Erkrankung.
 
 ---
 
-## Taiwan Market Information
+## Klinische Studienbelege
 
-Catumaxomab is not currently marketed in Taiwan and has no authorization records (`total_licenses = 0`). Per drug background information, it was withdrawn from the global market in 2017 for commercial reasons after prior approval for malignant ascites.
-
----
-
-## Cytotoxicity (Antineoplastic Drugs Only)
-
-Catumaxomab's original indication (malignant ascites in EpCAM-positive carcinomas) qualifies it as an antineoplastic/immuno-oncology agent.
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Immunotherapy (trifunctional bispecific T-cell engaging antibody, anti-EpCAM × anti-CD3) — not a conventional cytotoxic agent |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+Derzeit keine verwandten klinischen Studien registriert
 
 ---
 
-## Safety Considerations
+## Literaturbelege
 
-Please refer to the package insert for safety information.
-
-*Note: TFDA label warnings/contraindications data is currently unavailable and is flagged as a **Blocking** data gap (DG001), meaning this candidate cannot yet proceed to the S1 safety review stage.*
+Derzeit sind keine verwandten Literaturangaben verfügbar
 
 ---
 
-## Conclusion and Next Steps
+## Taiwan-Marktinformationen
 
-**Decision: Hold**
+Catumaxomab wird derzeit nicht in Taiwan vermarktet und hat keine Zulassungseinträge (`total_licenses = 0`). Nach Arzneimittelhintergrundinformationen wurde es 2017 nach einer vorherigen Zulassung für malignen Aszites aus kommerziellen Gründen vom globalen Markt genommen.
 
-**Rationale:**
-This prediction has evidence level L5 (algorithmic prediction only) with zero supporting clinical trials or literature, and the proposed mechanism (EpCAM/CD3-directed T-cell engagement) shows no known relevance to diabetic retinopathy's vascular/metabolic pathology. The drug is also not marketed anywhere and was previously withdrawn for commercial reasons, further limiting practical feasibility.
+---
 
-**To proceed, the following is needed:**
-- TFDA/original manufacturer label data on warnings and contraindications (DG001, blocking — required before any S1 safety evaluation)
-- Confirmed mechanism of action data (DG002)
-- Preclinical or mechanistic evidence linking EpCAM/CD3-directed immunotherapy to diabetic retinopathy pathology
-- Assessment of feasibility of reintroducing a discontinued biologic for a new, unrelated chronic indication
+## Zytotoxizität (nur Zytostatika)
 
-*Note: The two lower-ranked predictions in this evidence pack — drug-induced osteoporosis (rank 2, L5) and diabetic retinopathy (rank 3, L5) — show similarly weak mechanistic rationale, no supporting trials/literature, and are also recommended Hold.*
+Die ursprüngliche Indikation von Catumaxomab (malignes Aszites bei EpCAM-positiven Karzinomen) qualifiziert es als ein Antineoplastikum/Immun-Onkologie-Mittel.
+
+| Posten | Inhalt |
+|--------|--------|
+| Zytotoxizitätsklassifizierung | Immuntherapie (trifunktionaler bispezifischer T-Zell-bindender Antikörper, anti-EpCAM × anti-CD3) — kein konventionelles Zytostatikum |
+| Myelosuppressions-Risiko | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen des Produktinformationsblatts |
+| Emetogenitäts-Klassifizierung | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen des Produktinformationsblatts |
+| Überwachungspunkte | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen des Produktinformationsblatts |
+| Handhabungsschutz | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen des Produktinformationsblatts |
+
+---
+
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Sicherheitsinformationen im Produktinformationsblatt.
+
+*Hinweis: TFDA-Etiketten-Warnhinweise/Kontraindikationsdaten sind derzeit nicht verfügbar und sind als eine **blockierende** Datenlücke gekennzeichnet (DG001), was bedeutet, dass dieser Kandidat noch nicht in die Sicherheitsüberprüfungsphase S1 übergehen kann.*
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Halten**
+
+**Begründung:**
+Diese Vorhersage hat die Evidenzstufe L5 (nur algorithmische Vorhersage) ohne Unterstützung durch klinische Studien oder Literatur, und der vorgeschlagene Mechanismus (EpCAM/CD3-gerichtete T-Zell-Aktivierung) zeigt keine bekannte Relevanz für die vaskuläre/metabolische Pathologie der diabetischen Retinopathie. Das Arzneimittel wird auch nirgendwo vermarktet und wurde zuvor aus kommerziellen Gründen zurückgezogen, was die praktische Machbarkeit weiter einschränkt.
+
+**Um voranzukommen, ist Folgendes erforderlich:**
+- TFDA/Original-Hersteller-Etikettendaten zu Warnhinweisen und Kontraindikationen (DG001, blockierend — erforderlich vor jeder S1-Sicherheitsbewertung)
+- Bestätigte Daten zum Wirkmechanismus (DG002)
+- Präklinische oder mechanistische Evidenz, die EpCAM/CD3-gerichtete Immuntherapie mit der Pathophysiologie der diabetischen Retinopathie verknüpft
+- Bewertung der Machbarkeit der Wiedereinführung eines abgesetzten Biologikums für eine neue, unverwandte chronische Indikation
+
+*Hinweis: Die beiden niedrig bewerteten Vorhersagen in diesem Evidenzpaket — arzneimittelinduzierte Osteoporose (Rang 2, L5) und diabetische Retinopathie (Rang 3, L5) — zeigen ähnlich schwache mechanistische Begründung, keine Unterstützung durch Studien/Literatur, und werden ebenfalls mit Halten empfohlen.*
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

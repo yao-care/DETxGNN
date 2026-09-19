@@ -29,74 +29,75 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Teprotumumab: From Thyroid Eye Disease to Monosomy X
+# Teprotumumab: Von der endokrinen Orbitopathie zu Monosomie X
 
-## One-Sentence Summary
+## Einzeiliger Summary
 
-Teprotumumab is an IGF-1R-blocking monoclonal antibody approved for **thyroid eye disease (TED)**. TxGNN assigns its top new-indication candidate, **Monosomy X**, a high raw score (99.79%), but this pack contains **zero supporting clinical trials or literature**, and the drug's own mechanistic rationale explicitly flags the link as likely graph noise rather than a genuine pharmacological hypothesis.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Thyroid Eye Disease (TED) — derived from mechanistic rationale text; no formal indication record in this pack |
-| Predicted New Indication | Monosomy X |
-| TxGNN Prediction Score | 99.79% |
-| Evidence Level | L5 |
-| Germany Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+teprotumumab ist ein IGF-1R-blockierender monoklonaler Antikörper, der zur **endokrinen Orbitopathie (EOO)** zugelassen ist. TxGNN ordnet seinen Top-Kandidaten für eine neue Indikation, **Monosomie X**, einen hohen Rohscore (99.79%) zu, aber dieses Paket enthält **null klinische Studien oder Fachliteratur**, und die mechanistische Begründung des Arzneimittels selbst kennzeichnet die Verbindung explizit als wahrscheinlich Graphenrauschen statt als echte pharmakologische Hypothese.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schneller Überblick
 
-Currently, detailed mechanism of action data is not available in structured form (`original_moa`: [Data Gap]). However, the repurposing rationale confirms teprotumumab is an **IGF-1R antagonist monoclonal antibody**, approved for thyroid eye disease via blockade of the IGF-1R/TSHR signaling complex on orbital fibroblasts.
-
-Monosomy X (the cytogenetic basis of Turner syndrome) is a **structural chromosomal abnormality**, not a signaling-pathway disease — there is no established causal link between IGF-1R blockade and chromosomal loss or its downstream phenotypes. The most plausible explanation for the high TxGNN score is that Turner syndrome carries an elevated prevalence of autoimmune thyroid disease (including Graves'/TED), and the knowledge graph likely clusters Monosomy X near TED through this comorbidity association — **not** through a genuine "teprotumumab treats Monosomy X" mechanism. Notably, IGF-1R blockade could theoretically be counterproductive for growth-related goals relevant to Turner syndrome management, further weakening the case.
-
-In short: this is a **statistical/graph-topology artifact**, not a pharmacologically grounded hypothesis. The same pattern applies to the other 9 ranked candidates in this pack (esophageal varices, mixed gonadal dysgenesis, mitochondrial disease, varicose disease, etc.) — none have an identified mechanistic connection to IGF-1R antagonism, and all are scored L5/Hold.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Endokrine Orbitopathie (EOO) — abgeleitet aus mechanistischem Begründungstext; kein formales Indikationsdatenbank-Eintrag in diesem Paket |
+| Vorhergesagte neue Indikation | Monosomie X |
+| TxGNN-Vorhersage-Score | 99.79% |
+| Evidenzstufe | L5 |
+| Marktstatus Deutschland | Nicht vermarktet (Nicht vermarktet) |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | **Hold** |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage angemessen?
 
-Currently no related literature available.
+Derzeit sind detaillierte Daten zum Wirkungsmechanismus nicht in strukturierter Form verfügbar (`original_moa`: [Data Gap]). Die Begründung zur Umwidmung bestätigt jedoch, dass teprotumumab ein **IGF-1R-Antagonist-Antikörper** ist, zugelassen für endokrine Orbitopathie durch die Blockade des IGF-1R/TSHR-Signalkomplexes auf orbitalen Fibroblasten.
 
----
+Monosomie X (die zytogenetische Grundlage des Turner-Syndroms) ist eine **strukturelle Chromosomenaberration**, keine Signalweg-Erkrankung — es gibt keinen etablierten kausalen Zusammenhang zwischen IGF-1R-Blockade und Chromosomenverlust oder seinen nachgelagerten Phänotypen. Die wahrscheinlichste Erklärung für den hohen TxGNN-Score ist, dass das Turner-Syndrom eine erhöhte Prävalenz von Autoimmun-Schilddrüsenerkrankung (einschließlich Basedow/EOO) aufweist, und der Wissensgraph wahrscheinlich Monosomie X durch diese Komorbiditätsassoziation in die Nähe von EOO einordnet — **nicht** durch einen echten "teprotumumab behandelt Monosomie X"-Mechanismus. Bemerkenswert ist, dass die IGF-1R-Blockade theoretisch kontraproduktiv für wachstumsbezogene Ziele sein könnte, die für das Management des Turner-Syndroms relevant sind, was die Begründung weiter schwächt.
 
-## Germany Market Information
-
-No marketing authorizations are currently registered for teprotumumab in Germany (market status: Not marketed, 0 authorizations on file).
+Kurz gesagt: Dies ist ein **statistisches/Graph-Topologie-Artefakt**, keine pharmakologisch fundierte Hypothese. Das gleiche Muster gilt für die anderen 9 eingestuften Kandidaten in diesem Paket (Ösophagusvarizen, gemischte Gonadendysgenese, Mitochondrienerkrankung, Krampfadern usw.) — keiner hat eine identifizierte mechanistische Verbindung zu IGF-1R-Antagonismus, und alle werden mit L5/Hold bewertet.
 
 ---
 
-## Safety Considerations
+## Klinische Studienevidenz
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug interaction data are all currently unavailable in this evidence pack — flagged as **Blocking** data gap DG001.)
+Derzeit sind keine verwandten klinischen Studien registriert.
 
 ---
 
-## Conclusion and Next Steps
+## Fachliteratur-Evidenz
 
-**Decision: Hold**
+Derzeit ist keine verwandte Fachliteratur verfügbar.
 
-**Rationale:**
-There is no clinical trial or literature evidence supporting this indication, and the drug's own mechanistic rationale identifies the association as a likely knowledge-graph artifact rather than a plausible pharmacological hypothesis. Combined with a Blocking data gap on TFDA/regulatory safety labeling, this candidate does not meet the bar to advance past S0.
+---
 
-**To proceed, the following is needed:**
-- Resolve DG001 (TFDA label / warnings & contraindications) before any safety pre-screen (S1) can occur
-- Confirm formal MOA record from DrugBank (DG002) to replace the current rationale-derived summary
-- Independently verify whether the TxGNN association reflects a real biological signal (e.g., check embedding neighbors/explainability) versus comorbidity-driven graph clustering
-- If pursuing this candidate class at all, prioritize re-scoring/re-ranking against diseases with plausible IGF-1R-pathway involvement rather than the current chromosomal/vascular candidate set, none of which show mechanistic fit
+## Informationen zum deutschen Marktstatus
+
+Derzeit sind keine Marktzulassungen für teprotumumab in Deutschland registriert (Marktstatus: Nicht vermarktet, 0 Genehmigungen registriert).
+
+---
+
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. (Wichtige Warnhinweise, Kontraindikationen und Arzneimittelwechselwirkungsdaten sind derzeit nicht in diesem Evidenzpaket verfügbar — gekennzeichnet als **Blocking**-Datenlücke DG001.)
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Hold**
+
+**Begründung:**
+Es gibt keine klinische Studien- oder Fachliteratur-Evidenz, die diese Indikation unterstützt, und die mechanistische Begründung des Arzneimittels selbst identifiziert die Assoziation als wahrscheinlich ein Wissensgraph-Artefakt statt eine plausible pharmakologische Hypothese. In Kombination mit einer Blocking-Datenlücke zur TFDA-/behördlichen Sicherheitskennzeichnung erfüllt dieser Kandidat nicht die Anforderungen, um über S0 hinauszugehen.
+
+**Um fortzufahren, ist folgendes erforderlich:**
+- Beheben Sie DG001 (TFDA-Kennzeichnung / Warnhinweise & Kontraindikationen), bevor eine Sicherheitsvorkontrolle (S1) durchgeführt werden kann
+- Bestätigen Sie den formalen MOA-Eintrag von DrugBank (DG002), um die aktuelle aus der Begründung abgeleitete Zusammenfassung zu ersetzen
+- Überprüfen Sie unabhängig, ob die TxGNN-Assoziation ein echtes biologisches Signal widerspiegelt (z. B. Überprüfung von Embedding-Nachbarn/Erklärbarkeit) versus Komorbiditäts-getriebenes Graphclustering
+- Falls diese Kandidatenklasse überhaupt verfolgt wird, sollte ein erneutes Scoring/Ranking gegen Krankheiten mit plausiblem IGF-1R-Pfad-Beteiligung Vorrang haben, anstatt des aktuellen chromosomalen/vaskulären Kandidatensatzes, von denen keiner einen mechanistischen Fit aufweist
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

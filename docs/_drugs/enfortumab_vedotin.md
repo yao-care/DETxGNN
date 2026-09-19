@@ -29,111 +29,112 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9**
 
 </div>
 
-# Enfortumab Vedotin: From Urothelial (Bladder) Cancer to Leprosy
+# Enfortumab vedotin: Von Urothelkarzinom (Blasenkrebs) zu Lepra
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Enfortumab vedotin is an antibody-drug conjugate (ADC) whose established clinical use context in this evidence pack is advanced/metastatic **bladder (urothelial) cancer**.
-> The TxGNN model's top-ranked prediction for this drug is **Leprosy**, with a raw score of 99.53%,
-> but **zero clinical trials and zero publications** currently support this specific drug–disease pairing, and the model's own mechanistic rationale explicitly finds **no plausible biological link**.
+> Enfortumab vedotin ist ein Antikörper-Wirkstoff-Konjugat (ADC), dessen etablierter klinischer Anwendungskontext in diesem Nachweispaket **fortgeschrittener/metastasierter Blasenkrebs (Urotheltumoren)** ist.
+> Die Top-Vorhersage des TxGNN-Modells für dieses Arzneimittel ist **Lepra**, mit einem Rohwert von 99.53%,
+> aber **null klinische Studien und null Veröffentlichungen** unterstützen derzeit diese spezifische Arzneimittel-Erkrankungs-Paarung, und die eigene mechanistische Begründung des Modells stellt ausdrücklich fest, dass **keine plausible biologische Verbindung** vorhanden ist.
 
 ---
 
-## Quick Overview
+## Schnelle Übersicht
 
-| Item | Content |
+| Element | Inhalt |
 |------|------|
-| Original Indication | Not present in structured `original_indications`/regulatory license data (data gap). Contextual literature evidence in this pack (PMID 41341429) identifies enfortumab vedotin as an ADC used in **advanced bladder cancer** patients — this is the only indication context available. |
-| Predicted New Indication | Leprosy |
-| TxGNN Prediction Score | 99.53% (raw score 0.9953; global candidate rank 5,642) |
-| Evidence Level | L5 — model prediction only, no supporting clinical trials or literature |
-| Germany Market Status | ✗ Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+| Ursprüngliche Indikation | Nicht in strukturierten `original_indications`/Zulassungsdaten vorhanden (Datenlücke). Kontextuelle Literaturbelege in diesem Paket (PMID 41341429) identifizieren Enfortumab vedotin als ein ADC, das bei **Patienten mit fortgeschrittenem Blasenkrebs** verwendet wird — dies ist der einzige verfügbare Indikationskontext. |
+| Vorhergesagte neue Indikation | Lepra |
+| TxGNN-Vorhersage-Score | 99.53% (Rohwert 0.9953; globale Kandidatenrang 5.642) |
+| Evidenzstufe | L5 — nur Modellvorhersage, keine unterstützenden klinischen Studien oder Literatur |
+| Marktstatus Deutschland | ✗ Nicht vermarktet (Nicht vermarktet) |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | **Zurückhalten** |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage sinnvoll?
 
-Currently, the structured mechanism-of-action field for enfortumab vedotin is a documented data gap (DG002, High severity). However, the model's own repurposing-rationale text consistently and independently describes the drug across multiple candidate entries as an **anti-Nectin-4 antibody-drug conjugate (ADC)**: an antibody targeting the Nectin-4 tumor surface antigen delivers a microtubule-disrupting cytotoxin (MMAE, monomethyl auristatin E) into antigen-expressing cells, producing direct cytotoxicity.
+Derzeit ist das strukturierte Feld für den Wirkmechanismus von Enfortumab vedotin eine dokumentierte Datenlücke (DG002, hoher Schweregrad). Jedoch beschreibt die Begründung für die Arzneimittelrepositonierung des Modells das Arzneimittel konsistent und unabhängig über mehrere Kandidateneintragungen hinweg als **anti-Nectin-4-Antikörper-Wirkstoff-Konjugat (ADC)**: Ein Antikörper, der auf das Tumor-Oberflächenantigen Nectin-4 abzielt, liefert ein Mikrotubuli-störendes Zytotoxin (MMAE, Monomethyl-Auristatin E) in antigenexprimierende Zellen, wodurch direkte Zytotoxizität erzeugt wird.
 
-Leprosy, by contrast, is an infectious disease caused by *Mycobacterium leprae*, treated through antimycobacterial chemotherapy (e.g., multidrug therapy with dapsone, rifampicin, clofazimine) rather than targeted cytotoxic delivery. There is no known Nectin-4 involvement in *M. leprae* pathophysiology, and no receptor- or pathway-level overlap between an antimycobacterial mechanism and a tumor-antigen-directed cytotoxic payload.
+Lepra hingegen ist eine Infektionskrankheit, die durch *Mycobacterium leprae* verursacht wird und durch antimykobakterielle Chemotherapie behandelt wird (z. B. Multidrug-Therapie mit Dapson, Rifampicin, Clofazimin), nicht durch gezielte zytotoxische Freisetzung. Es gibt keine bekannte Nectin-4-Beteiligung an der Pathophysiologie von *M. leprae*, und es gibt keine Rezeptor- oder Signalweg-Überschneidung zwischen einem antimykobakteriellen Mechanismus und einer Tumor-Antigen-gerichteten zytotoxischen Fracht.
 
-**This is stated directly in the evidence pack's own repurposing rationale**: "Enfortumab vedotin ... shows no known association with antimycobacterial infection mechanisms, and no receptor/pathway overlap evidence exists." In other words, the source data itself concludes the mechanistic hypothesis is unsupported — this is a pure similarity-based model output (TxGNN rank 5,642, well outside typical high-confidence prediction territory) with no corroborating clinical, preclinical, or literature signal. This prediction should be treated as exploratory/noise-level rather than a genuine repurposing lead.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+**Dies wird direkt im Begründungstext für die Arzneimittelrepositonierung des Nachweispakets angegeben**: „Enfortumab vedotin ... zeigt keine bekannte Assoziation mit antimykobakteriellen Infektionsmechanismen, und es existiert kein Rezeptor-/Signalweg-Überlapungsnachweis." Mit anderen Worten: Die Quelldaten selbst schlussfolgern, dass die mechanistische Hypothese nicht unterstützt wird — dies ist reine Ähnlichkeits-basierte Modellausgabe (TxGNN-Rang 5.642, weit außerhalb des typischen hochzuverlässigen Vorhersage-Bereichs) ohne korroborierende klinische, präklinische oder Literatur-Signale. Diese Vorhersage sollte als explorativ/Rausch-Ebene behandelt werden, nicht als echter Arzneimittel-Repositionierungs-Kandidat.
 
 ---
 
-## Literature Evidence
+## Belege aus klinischen Studien
 
-Currently no related literature available.
-
----
-
-## Germany Market Information
-
-Enfortumab vedotin currently holds **no marketing authorizations** on record for this market (0 licenses; market status: Not Marketed). No authorization table can be produced.
+Derzeit sind keine verwandten klinischen Studien registriert.
 
 ---
 
-## Cytotoxicity
+## Literaturbelege
 
-Enfortumab vedotin's underlying drug class (per repurposing-rationale text embedded in this evidence pack) is an antibody-drug conjugate delivering a microtubule-inhibitor payload, i.e., a cytotoxic anticancer agent, so this section is included.
+Derzeit ist keine verwandte Literatur verfügbar.
 
-| Item | Content |
+---
+
+## Marktstatus Deutschland
+
+Enfortumab vedotin hält derzeit **keine Marktzulassungen** für diesen Markt auf Datensatz (0 Lizenzen; Marktstatus: Nicht vermarktet). Eine Zulassungstabelle kann nicht erstellt werden.
+
+---
+
+## Zytotoxizität
+
+Die zugrunde liegende Arzneimittelklasse von Enfortumab vedotin (gemäß Text der Repositionierungs-Begründung, eingebettet in dieses Nachweispaket) ist ein Antikörper-Wirkstoff-Konjugat, das eine Mikrotubuli-Inhibitor-Fracht liefert, d. h. ein zytotoxisches Antikrebsmittel, daher ist dieser Abschnitt enthalten.
+
+| Element | Inhalt |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy — antibody-drug conjugate (anti-Nectin-4 antibody + MMAE microtubule inhibitor payload) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| Klassifizierung der Zytotoxizität | Zielgerichtete Therapie — Antikörper-Wirkstoff-Konjugat (anti-Nectin-4-Antikörper + MMAE-Mikrotubuli-Inhibitor-Fracht) |
+| Myelosuppressionsrisiko | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Packungsbeilage |
+| Emetogenitätsklassifizierung | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Packungsbeilage |
+| Überwachungselemente | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Packungsbeilage |
+| Handhabungsschutz | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Packungsbeilage |
 
-*(Detailed toxicity/warning data could not be retrieved — this is a documented Blocking data gap, DG001: TFDA/package-insert warnings and contraindications, required before any Stage 1 safety screening.)*
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+*(Detaillierte Toxizitäts-/Warnungsdaten konnten nicht abgerufen werden — dies ist eine dokumentierte blockierende Datenlücke, DG001: TFDA/Packungsbeilage-Warnhinweise und Kontraindikationen, erforderlich vor einer Sicherheitsbewertung in Phase 1.)*
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsaspekte
 
-**Decision: Hold**
-
-**Rationale:**
-- The prediction carries no clinical, preclinical, or literature support (0 trials, 0 publications), sits at evidence level L5, and the model's own mechanistic rationale explicitly states there is no known biological link between an anti-Nectin-4 ADC's cytotoxic mechanism and leprosy's infectious/antimycobacterial treatment paradigm. There is no basis to advance this candidate past initial screening.
-
-**To proceed, the following is needed:**
-- Formal DrugBank/regulatory mechanism-of-action (MOA) data (DG002)
-- TFDA/package-insert warnings, contraindications, and drug-interaction data (DG001, Blocking — required before any safety evaluation can begin, for this drug in general, regardless of indication)
-- Independent biological rationale (e.g., Nectin-4 expression or relevant target expression in leprosy-affected tissue, or any published case reports) before this pairing is worth further investment
-- Given the complete absence of supporting evidence, this candidate is not recommended for further evaluation resources at this time
+Bitte lesen Sie die Packungsbeilage für Sicherheitsinformationen.
 
 ---
 
-### Appendix: Other Model-Predicted Indications Reviewed (Ranks 2–9)
+## Fazit und nächste Schritte
 
-For completeness, the remaining top-9 TxGNN predictions in this evidence pack were also reviewed and show the same pattern — no supporting trials, and mechanistic rationales that consistently argue *against* biological plausibility:
+**Entscheidung: Zurückhalten**
 
-| Rank | Predicted Disease | Score | Note |
+**Begründung:**
+- Die Vorhersage hat keine klinische, präklinische oder Literaturunterstützung (0 Studien, 0 Veröffentlichungen), liegt auf Evidenzstufe L5, und die eigene mechanistische Begründung des Modells stellt ausdrücklich fest, dass es keine bekannte biologische Verbindung zwischen dem zytotoxischen Mechanismus eines anti-Nectin-4-ADC und dem Infektions-/antimykobakteriellen Behandlungsparadigma der Lepra gibt. Es gibt keine Grundlage, diesen Kandidaten über die erste Sichtung hinaus vorzubringen.
+
+**Zum Fortfahren ist folgendes erforderlich:**
+- Formale DrugBank/regulatorische Wirkmechanismus (WM) -Daten (DG002)
+- TFDA/Packungsbeilage-Warnhinweise, Kontraindikationen und Arzneimittelwechselwirkungsdaten (DG001, blockierend — erforderlich vor jeder Sicherheitsbewertung, für dieses Arzneimittel allgemein, unabhängig von der Indikation)
+- Unabhängige biologische Begründung (z. B. Nectin-4-Expression oder relevante Zielexpression in von Lepra betroffenen Geweben, oder beliebige veröffentlichte Fallberichte) vor dieser Paarung, die weitere Investitionsbemühungen wert ist
+- Angesichts des völligen Mangels an unterstützenden Belegen wird dieser Kandidat derzeit nicht zur weiteren Bewertung empfohlen
+
+---
+
+### Anhang: Andere vom Modell vorhergesagte Indikationen, die überprüft wurden (Ränge 2–9)
+
+Zur Vollständigkeit wurden die verbleibenden Top-9-TxGNN-Vorhersagen in diesem Nachweispaket ebenfalls überprüft und zeigen das gleiche Muster — keine unterstützenden Studien, und mechanistische Begründungen, die konsequent *gegen* biologische Plausibilität argumentieren:
+
+| Rang | Vorhergesagte Erkrankung | Score | Anmerkung |
 |------|------|------|------|
-| 2 | Multiple endocrine neoplasia | 99.43% | Genetic (MEN1/RET) endocrine tumor syndrome; no evidence of Nectin-4 expression relevance |
-| 3 | Cytomegalovirus infection | 99.36% | Viral infection; cytotoxic ADC mechanism has no antiviral rationale and could theoretically worsen infection risk via myelosuppression |
-| 4 | Candidiasis | 99.30% | Sole literature hit (PMID 41341429) is a FAERS pharmacovigilance signal describing candidiasis as an **adverse event** in ADC-treated bladder cancer patients — i.e., evidence of harm, not efficacy; this should not be read as supportive |
-| 5 | Cerebral infarction | 99.23% | Ischemic vascular disease; no mechanistic overlap, and ADC-related toxicities (myelosuppression, neuropathy) run counter to this indication |
-| 6 | HIV infectious disease | 99.19% | Antiretroviral mechanism unrelated to ADC cytotoxicity |
-| 7 | Homozygous familial hypercholesterolemia | 99.18% | Lipid-metabolism/LDL-receptor disorder; no pharmacologic overlap |
-| 8 | Malignant catarrh (malignant catarrhal fever) | 99.13% | **Veterinary disease** (bovine/ruminant herpesvirus) — likely a cross-species ontology mapping artifact, not a valid human indication |
-| 9 | Infectious bovine rhinotracheitis | 99.13% | **Veterinary disease** (bovine herpesvirus-1) — same likely ontology artifact as rank 8 |
+| 2 | Multiple endokrine Neoplasie | 99.43% | Genetisches (MEN1/RET) endokrines Tumorsyndroms; kein Nachweis von Nectin-4-Expressions-Relevanz |
+| 3 | Cytomegalovirus-Infektion | 99.36% | Virale Infektion; zytotoxischer ADC-Mechanismus hat keine antivirale Begründung und könnte theoretisch das Infektionsrisiko durch Myelosuppression verschlimmern |
+| 4 | Candidiasis | 99.30% | Einziger Literatur-Hit (PMID 41341429) ist ein FAERS-Pharmakovigilanz-Signal, das Candidiasis als **Nebenwirkung** bei ADC-behandelten Blasenkrebspatienten beschreibt — d. h. Nachweis von Schaden, nicht Wirksamkeit; dies sollte nicht als unterstützend interpretiert werden |
+| 5 | Zerebraler Infarkt | 99.23% | Ischämische Gefäßerkrankung; keine mechanistische Überschneidung, und ADC-bezogene Toxizitäten (Myelosuppression, Neuropathie) sprechen gegen diese Indikation |
+| 6 | HIV-Infektionskrankheit | 99.19% | Antiretroviraler Mechanismus unabhängig von ADC-Zytotoxizität |
+| 7 | Homozygote familäre Hypercholesterinämie | 99.18% | Lipidstoffwechsel-/LDL-Rezeptor-Störung; keine pharmakologische Überschneidung |
+| 8 | Bösartiger Katarrh (Bösartiges Katarrhalfieber) | 99.13% | **Veterinärkrankheit** (bovines/Rinderherpesvirus) — wahrscheinlich ein Ontologie-Mapping-Artefakt zwischen Arten, kein zulässiger Indikation beim Menschen |
+| 9 | Infektiöse bovine Rhinotracheitis | 99.13% | **Veterinärkrankheit** (Rinderherpesvirus-1) — selbes wahrscheinliches Ontologie-Artefakt wie Rang 8 |
 
-**Recommendation:** None of the top-9 candidates in this batch meet even preliminary plausibility thresholds. Ranks 8–9 in particular suggest a data-quality/ontology-mapping issue (veterinary vs. human disease terms) that may warrant a knowledge-graph data-cleaning review rather than clinical follow-up.
+**Empfehlung:** Keiner der Top-9-Kandidaten in diesem Batch erfüllt auch nur vorläufige Plausibilitätsschwellen. Besonders die Ränge 8–9 deuten auf ein Datenqualitäts-/Ontologie-Mapping-Problem hin (Veterinär- vs. menschliche Krankheitsbegriffe), das möglicherweise ein Wissens-Graphen-Datenbereinigungs-Review garantiert, anstatt klinische Nachfolgearbeit.
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

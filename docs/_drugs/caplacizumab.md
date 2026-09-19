@@ -29,64 +29,65 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Caplacizumab: Repurposing Evaluation Halted — Critical Data Gaps
+# Caplacizumab: Evaluierung zur Umwidmung unterbrochen — kritische Datenlücken
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Caplacizumab (DrugBank ID: DB06081) was successfully retrieved from DrugBank, but the current Evidence Pack contains no original indication data, no mechanism of action, and no TxGNN-predicted new indications. The repurposing evaluation cannot be completed until the identified critical data gaps are resolved — a **Hold** decision is recommended at this stage.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not available |
-| Predicted New Indication | Not available |
-| TxGNN Prediction Score | Not available |
-| Evidence Level | Insufficient data |
-| Germany Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Caplacizumab (DrugBank ID: DB06081) wurde erfolgreich aus DrugBank abgerufen, aber das aktuelle Evidenz-Paket enthält keine Daten zur ursprünglichen Indikation, keinen Wirkungsmechanismus und keine von TxGNN vorhergesagten neuen Indikationen. Die Evaluierung zur Umwidmung kann nicht abgeschlossen werden, bis die ermittelten kritischen Datenlücken behoben sind – eine **Zurückstellung** wird in diesem Stadium empfohlen.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Mechanism-to-indication analysis cannot be completed at this stage.
-
-The DrugBank query for Caplacizumab (DB06081) returned a successful hit, and a TFDA package insert query also returned one result — however, neither mechanism of action nor original approved indication was extracted into the structured Evidence Pack. Without a baseline indication, the conceptual bridge between the drug's existing clinical role and any repurposing hypothesis cannot be established.
-
-No TxGNN-predicted new indications are present in the current data (`predicted_indications: []`). This means there is no candidate disease target to evaluate, and no clinical trial or literature evidence can be assessed. Until the TxGNN pipeline is executed for DB06081 and the prediction results are returned, the core question — "what new indication might this drug treat?" — remains unanswered.
-
----
-
-## Germany Market Information
-
-Caplacizumab is currently not approved in Germany. No product authorizations are on record.
+| Punkt | Inhalt |
+|------|--------|
+| Ursprüngliche Indikation | Nicht verfügbar |
+| Vorhergesagte neue Indikation | Nicht verfügbar |
+| TxGNN Prediction Score | Nicht verfügbar |
+| Evidenzgrad | Unzureichende Daten |
+| Marktstatus Deutschland | Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Zurückstellung |
 
 ---
 
-## Safety Considerations
+## Warum ist diese Vorhersage angemessen?
 
-Please refer to the package insert for safety information.
+Die Wirkmechanismus-Indikations-Analyse kann in diesem Stadium nicht abgeschlossen werden.
+
+Die DrugBank-Abfrage für Caplacizumab (DB06081) ergab einen erfolgreichen Treffer, und eine TFDA-Packungsbeilage-Abfrage lieferte ebenfalls ein Ergebnis – jedoch wurde weder der Wirkungsmechanismus noch die ursprüngliche zugelassene Indikation in das strukturierte Evidenz-Paket extrahiert. Ohne eine Basis-Indikation kann die konzeptionelle Verbindung zwischen der bestehenden klinischen Rolle des Arzneistoffs und einer Umwidmungshypothese nicht hergestellt werden.
+
+Im aktuellen Datenbestand sind keine von TxGNN vorhergesagten neuen Indikationen vorhanden (`predicted_indications: []`). Dies bedeutet, dass es kein Kandidaten-Erkrankungsziel zur Bewertung gibt und keine klinischen Studien- oder Literaturbelege bewertet werden können. Bis die TxGNN-Pipeline für DB06081 ausgeführt wird und die Vorhersageergebnisse zurückgegeben werden, bleibt die Kernfrage – „welche neue Indikation könnte dieses Arzneimittel behandeln?" – unbeantwortet.
 
 ---
 
-## Conclusion and Next Steps
+## Marktstatus Deutschland
 
-**Decision: Hold**
+Caplacizumab ist derzeit in Deutschland nicht zugelassen. Es gibt keine Produktzulassungen in den Unterlagen.
 
-**Rationale:**
-The Evidence Pack for Caplacizumab is missing its original indication, TxGNN-predicted new indications, and mechanism of action — the three minimum inputs required to generate a meaningful repurposing evaluation report.
+---
 
-**To proceed, the following is needed:**
+## Sicherheitsaspekte
 
-- **Extract original indication** from the TFDA package insert query result (query ID 4 already returned 1 result; data extraction is the pending step)
-- **Extract MOA** from the DrugBank query result (query ID 3 already returned 1 result; structured parsing is the pending step)
-- **Run TxGNN prediction pipeline** for DB06081 to generate candidate new indication targets
-- **Extract safety data** (warnings, contraindications) from the TFDA package insert (same source as above)
-- **Re-run DDI query** once drug class is confirmed; current `not_found` status may reflect an incomplete query term
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Zurückstellung**
+
+**Begründung:**
+Das Evidenz-Paket für Caplacizumab weist Lücken auf in der ursprünglichen Indikation, den von TxGNN vorhergesagten neuen Indikationen und dem Wirkungsmechanismus – den drei Mindesteingaben, die erforderlich sind, um einen aussagekräftigen Evaluierungsbericht zur Umwidmung zu erstellen.
+
+**Um fortfahren zu können, ist Folgendes erforderlich:**
+
+- **Ursprüngliche Indikation extrahieren** aus dem TFDA-Packungsbeilage-Abfrageergebnis (Abfrage-ID 4 hat bereits 1 Ergebnis zurückgegeben; Datenextraktion ist der ausstehende Schritt)
+- **Wirkungsmechanismus (MOA) extrahieren** aus dem DrugBank-Abfrageergebnis (Abfrage-ID 3 hat bereits 1 Ergebnis zurückgegeben; strukturierte Analyse ist der ausstehende Schritt)
+- **TxGNN-Vorhersage-Pipeline für DB06081 ausführen**, um Kandidaten-Indikationsziele zu generieren
+- **Sicherheitsdaten (Warnungen, Kontraindikationen) extrahieren** aus der TFDA-Packungsbeilage (gleiche Quelle wie oben)
+- **Abfrage zu Arzneimittel-Wechselwirkungen (DDI) erneut ausführen**, sobald die Arzneistoffklasse bestätigt ist; aktueller `not_found`-Status kann ein unvollständiges Abfrageergebnis widerspiegeln
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -29,76 +29,77 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-# Rufinamide: From Lennox-Gastaut Syndrome to Febrile Infection-Related Epilepsy Syndrome
+# Rufinamid: Von Lennox-Gastaut-Syndrom zu Fieber-Infektions-assoziiertem Epilepsie-Syndrom
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Rufinamide is an anticonvulsant historically associated with Lennox-Gastaut Syndrome (LGS), referenced within this evidence pack's mechanistic rationale, though formal original-indication and MOA fields are currently data gaps.
-> The TxGNN model predicts it may be effective for **Febrile Infection-Related Epilepsy Syndrome (FIRES)**,
-> but **no clinical trials** and **no literature** are currently available to support this direction — this is a model-prediction-only signal.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Lennox-Gastaut Syndrome (LGS) — inferred from mechanistic rationale text; formal `original_indications`/`original_moa` fields are data gaps |
-| Predicted New Indication | Febrile infection-related epilepsy syndrome (FIRES) |
-| TxGNN Prediction Score | 99.57% |
-| Evidence Level | L5 (model prediction only, no clinical trials or literature) |
-| Taiwan Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Rufinamid ist ein Antikonvulsivum, das historisch mit dem Lennox-Gastaut-Syndrom (LGS) assoziiert ist und in der mechanistischen Begründung dieses Nachweispakets referenziert wird, obwohl formale Felder für ursprüngliche Indikation und Wirkmechanismus derzeit Datenlücken darstellen.
+> Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam beim **Fieber-Infektions-assoziierten Epilepsie-Syndrom (FIRES)** sein könnte,
+> aber **es gibt derzeit keine klinischen Studien** und **keine Fachliteratur**, die diese Richtung unterstützen — dies ist ein reines Modellvorhersage-Signal.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Currently, detailed mechanism of action data for rufinamide is not available (data gap). Based on information embedded elsewhere in this evidence pack's mechanistic rationale fields, rufinamide is described as a broad-spectrum sodium-channel modulating anticonvulsant, with an approved indication in Lennox-Gastaut Syndrome (LGS).
-
-FIRES is a severe, treatment-refractory epileptic encephalopathy that, like LGS, involves diffuse cortical hyperexcitability and is often managed with broad-spectrum antiepileptic agents when standard therapy fails. This provides a plausible mechanistic rationale for extending sodium-channel-targeted anticonvulsants such as rufinamide to FIRES. However, no repurposing rationale text, clinical trial, or literature evidence was provided for this specific top-ranked indication (rank 1), so this remains a theoretical extrapolation rather than an evidence-backed hypothesis.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available.
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Lennox-Gastaut-Syndrom (LGS) — abgeleitet aus dem Text der mechanistischen Begründung; formale Felder `original_indications`/`original_moa` sind Datenlücken |
+| Vorhergesagte neue Indikation | Fieber-Infektions-assoziiertes Epilepsie-Syndrom (FIRES) |
+| TxGNN-Vorhersage-Score | 99.57% |
+| Evidenzgrad | L5 (nur Modellvorhersage, keine klinischen Studien oder Fachliteratur) |
+| Marktstatus in Taiwan | Nicht vermarktet |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Taiwan Market Information
+## Warum ist diese Vorhersage plausibel?
 
-Rufinamide currently has no marketing authorizations in Taiwan (0 licenses on record); no product/dosage form data is available.
+Derzeit sind detaillierte Wirkmechanismus-Daten für Rufinamid nicht verfügbar (Datenlücke). Basierend auf Informationen, die in anderen Wirkmechanismus-Feldern dieses Nachweispakets eingebettet sind, wird Rufinamid als breitspektrales Natriumkanal-modulierendes Antikonvulsivum beschrieben, mit einer genehmigten Indikation beim Lennox-Gastaut-Syndrom (LGS).
 
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Note: TFDA label warnings/contraindications and drug-drug interaction data are marked as a **Blocking** data gap (DG001) in this evidence pack — this must be resolved before any S1 safety pre-assessment can proceed.)*
+FIRES ist eine schwere, therapieresistente epileptische Enzephalopathie, die wie LGS eine diffuse kortikale Hyperexzitabilität aufweist und oft mit breitspektralen Antiepileptika behandelt wird, wenn die Standardtherapie versagt. Dies bietet eine plausible mechanistische Begründung für die Erweiterung von Natriumkanal-orientierten Antikonvulsiva wie Rufinamid auf FIRES. Es wurden jedoch keine Repurposing-Begründungstexte, klinische Studien oder Fachliteraturbelege für diese spezifische Top-Indikation (Rang 1) bereitgestellt, daher bleibt dies eine theoretische Extrapolation statt einer durch Evidenz gestützten Hypothese.
 
 ---
 
-## Conclusion and Next Steps
+## Evidenz aus klinischen Studien
 
-**Decision: Hold**
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
-**Rationale:**
-The prediction is supported only by a TxGNN similarity score (L5) with zero clinical trials and zero literature evidence, and the drug is not currently marketed in Taiwan. A Blocking safety data gap (missing TFDA label/contraindication data) also prevents any preliminary safety assessment.
+---
 
-**To proceed, the following is needed:**
-- Resolve DG001: obtain TFDA label (warnings, contraindications, DDI) via label PDF parsing
-- Resolve DG002: obtain confirmed MOA via DrugBank API query
-- Confirm formal original indication(s) for rufinamide (currently empty in source data)
-- Generate or source clinical trial / literature evidence specific to FIRES before advancing beyond S0
+## Evidenz aus der Fachliteratur
+
+Derzeit ist keine zugehörige Fachliteratur verfügbar.
+
+---
+
+## Marktinformationen für Taiwan
+
+Rufinamid hat derzeit keine Marktzulassungen in Taiwan (0 Lizenzen dokumentiert); es sind keine Produkt-/Darreichungsformdaten verfügbar.
+
+---
+
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+*(Hinweis: TFDA-Kennzeichnungswarnungen/Kontraindikationen und Arzneimittel-Wechselwirkungs-Daten (DDI) sind als **blockierende** Datenlücke (DG001) in diesem Nachweispaket gekennzeichnet — dies muss behoben werden, bevor eine S1-Sicherheitsvorbewertung durchgeführt werden kann.)*
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Hold**
+
+**Begründung:**
+Die Vorhersage wird nur durch einen TxGNN-Ähnlichkeitsscore (L5) mit null klinischen Studien und null Fachliteraturbelegen gestützt, und das Arzneimittel ist derzeit nicht in Taiwan vermarktet. Eine blockierende Sicherheitsdatenlücke (fehlende TFDA-Kennzeichnungsdaten/Kontraindikationsdaten) verhindert auch eine vorläufige Sicherheitsbewertung.
+
+**Zur Fortführung ist Folgendes erforderlich:**
+- Lösen Sie DG001 auf: TFDA-Kennzeichnung (Warnungen, Kontraindikationen, DDI) über PDF-Parsing der Packungsbeilage abrufen
+- Lösen Sie DG002 auf: bestätigten Wirkmechanismus über DrugBank-API-Abfrage abrufen
+- Bestätigen Sie formale ursprüngliche Indikation(en) für Rufinamid (derzeit leer in den Quelldaten)
+- Generieren oder beschaffen Sie klinische Studien-/Fachliteraturbelege speziell für FIRES, bevor Sie über S0 hinaus voranschreiten
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

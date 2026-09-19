@@ -29,86 +29,87 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Prasterone (DHEA): From No Approved Indication in Germany to Systemic Sclerosis
+# Prasterone (DHEA): Ohne zugelassene Indikation in Deutschland – Systemische Sklerose
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Prasterone (DHEA, DB01708) currently holds no marketing authorization in Germany, and its original indication and mechanism of action are not documented in this evidence pack.
-> Among **10 TxGNN-predicted indications**, only **Systemic Sclerosis (Scleroderma)** is supported by real-world evidence — **6 observational studies** showing patients have consistently lower serum DHEA-S levels correlating with disease severity — while the other nine candidates have no clinical trial or literature support at all.
+> Prasterone (DHEA, DB01708) hat derzeit keine Marktzulassung in Deutschland, und seine ursprüngliche Indikation und sein Wirkmechanismus sind in diesem Evidenzpaket nicht dokumentiert.
+> Unter **10 von TxGNN vorhergesagten Indikationen** wird nur **Systemische Sklerose (Sklerodermie)** durch reale Evidenz unterstützt — **6 Beobachtungsstudien**, die zeigen, dass Patienten konsistent niedrigere serum-DHEA-S-Spiegel aufweisen, die mit der Krankheitsschwere korrelieren — während die neun anderen Kandidaten überhaupt keine klinischen Studien oder Literaturbelege haben.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Posten | Inhalt |
 |------|------|
-| Original Indication | Not available — no marketing authorization or documented original indication in this evidence pack |
-| Predicted New Indication | Systemic Sclerosis (Scleroderma) — the only one of 10 candidates with supporting evidence |
-| TxGNN Prediction Score | 99.11% (rank 9169 of network predictions) |
-| Evidence Level | L4 (observational biomarker/correlation studies, no interventional trials) |
-| Germany Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | Nicht verfügbar — keine Marktzulassung oder dokumentierte ursprüngliche Indikation in diesem Evidenzpaket |
+| Vorhergesagte neue Indikation | Systemische Sklerose (Sklerodermie) — die einzige der 10 Kandidaten mit unterstützenden Belegen |
+| TxGNN-Vorhersage-Score | 99.11% (Rang 9169 von Netzwerk-Vorhersagen) |
+| Evidenzstufe | L4 (Beobachtungs-Biomarker/Korrelationsstudien, keine interventionellen Studien) |
+| Marktstatus Deutschland | ✗ Nicht im Handel |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Zurückhalten |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage vernünftig?
 
-Currently, detailed mechanism of action data is not available for prasterone. Based on known pharmacology, DHEA is an endogenous adrenal androgen precursor with reported immunomodulatory activity (including inhibition of IL-6 production), and reduced circulating DHEA/DHEA-S has been observed in several autoimmune diseases.
+Derzeit sind detaillierte Wirkmechanismus-Daten für Prasterone nicht verfügbar. Auf Grundlage bekannter Pharmakologie ist DHEA ein endogener adrenaler Androgen-Vorläufer mit berichteter immunmodulatorischer Aktivität (einschließlich IL-6-Hemmung), und reduzierte zirkulierende DHEA/DHEA-S wurden in mehreren Autoimmunerkrankungen beobachtet.
 
-Six independent cohort and case-control studies consistently report that patients with systemic sclerosis have significantly lower serum DHEA-S levels than matched controls, and that this deficit correlates with disease duration, severity, and organ involvement. This mirrors a pattern already studied more extensively in lupus (SLE), where adrenal androgen deficiency has been proposed to contribute to disease activity — offering a plausible hormone-replacement rationale for testing DHEA supplementation in SSc.
+Sechs unabhängige Kohorten- und Fallkontrollstudien berichten konsistent, dass Patienten mit systemischer Sklerose signifikant niedrigere serum-DHEA-S-Spiegel aufweisen als gepaarte Kontrollen, und dass dieses Defizit mit Krankheitsdauer, Schweregrad und Organbefall korreliert. Dies spiegelt ein Muster wider, das bereits umfassender bei Lupus (SLE) untersucht wurde, wo adrenales Androgen-Mangel vermutlich zur Krankheitsaktivität beiträgt — ein plausibles Hormonersatz-Konzept für Tests der DHEA-Supplementation in SSc.
 
-However, all six studies are correlational biomarker studies, not interventional trials of DHEA treatment — none test whether restoring DHEA-S levels improves clinical outcomes. This keeps the evidence at a mechanistic/hypothesis-generating level rather than a validated therapeutic signal.
+Allerdings sind alle sechs Studien Biomarker-Korrelationsstudien, keine interventionellen Prüfungen der DHEA-Behandlung — keine testet, ob die Wiederherstellung von DHEA-S-Spiegeln klinische Ergebnisse verbessert. Dies hält die Evidenz auf mechanistischem/Hypothesen-generierendem Niveau, nicht auf Niveau eines validierten therapeutischen Signals.
 
-**Note on the other 9 candidates:** Ranks 1–6, 8, 9 and 10 (heparin cofactor 2 deficiency, factor V excess, antithrombin deficiency, thrombophilia, diabetic retinopathy, protein S deficiency, complement C4a deficiency, pseudo-von Willebrand disease, platelet release disorder) have no supporting clinical trials or literature and are pure network-prediction artifacts (L5). One of them — **thrombophilia (rank 4)** — carries a potential safety signal in the *opposite* direction: the cited literature associates hyperandrogenic states with *increased* (not decreased) thrombotic risk, so this candidate should be treated as a caution flag rather than a repurposing lead.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+**Anmerkung zu den anderen 9 Kandidaten:** Ränge 1–6, 8, 9 und 10 (Heparincofaktor-2-Mangel, Faktor-V-Überschuss, Antithrombin-Mangel, Thrombophilie, diabetische Retinopathie, Protein-S-Mangel, Komplement-C4a-Mangel, Pseudo-von-Willebrand-Erkrankung, Blutplättchen-Sekretionstörung) haben keine unterstützenden klinischen Studien oder Literatur und sind reine Netzwerk-Vorhersage-Artefakte (L5). Einer davon — **Thrombophilie (Rang 4)** — zeigt ein potenzielles Sicherheitssignal in der *entgegengesetzten* Richtung: die zitierte Literatur verbindet hyperandrogene Zustände mit *erhöhtem* (nicht vermindertem) thrombotischem Risiko, sodass dieser Kandidat eher als Warnsignal als als Umwidmungskandidat betrachtet werden sollte.
 
 ---
 
-## Literature Evidence
+## Evidenz aus klinischen Studien
 
-| PMID | Year | Type | Journal | Key Findings |
+Derzeit sind keine zugehörigen klinischen Studien registriert.
+
+---
+
+## Literaturbelege
+
+| PMID | Jahr | Typ | Journal | Wesentliche Ergebnisse |
 |------|-----|------|------|---------|
-| [12073659](https://pubmed.ncbi.nlm.nih.gov/12073659/) | 2002 | Review | Orvosi Hetilap | DHEA/DHEA-S have immunosuppressive activity (inhibit IL-6); levels are reduced in most autoimmune diseases |
-| [25524921](https://pubmed.ncbi.nlm.nih.gov/25524921/) | 2015 | Cohort | Rheumatology (Oxford) | Androgen levels evaluated in post-menopausal systemic sclerosis patients |
-| [16855152](https://pubmed.ncbi.nlm.nih.gov/16855152/) | 2006 | Cohort | Ann NY Acad Sci | Testosterone and DHEA-S levels significantly altered in SSc patients vs. controls; related to disease duration/severity |
-| [17086608](https://pubmed.ncbi.nlm.nih.gov/17086608/) | 2006 | Case-control | J Rheumatol | Blunted adrenocortical/adrenomedullary responses to hypoglycemia in premenopausal SSc women, indicating HPA-axis dysfunction |
-| [9159534](https://pubmed.ncbi.nlm.nih.gov/9159534/) | 1997 | Case-control | Br J Rheumatol | High prolactin and low DHEA-S serum levels found in patients with severe SSc; correlated with organ involvement |
-| [11247320](https://pubmed.ncbi.nlm.nih.gov/11247320/) | 2001 | Case-control | Clin Exp Rheumatol | DHEA-S serum levels in an SSc cohort correlate with disease severity |
+| [12073659](https://pubmed.ncbi.nlm.nih.gov/12073659/) | 2002 | Übersicht | Orvosi Hetilap | DHEA/DHEA-S haben immunsuppressive Aktivität (hemmen IL-6); Spiegel sind bei den meisten Autoimmunerkrankungen reduziert |
+| [25524921](https://pubmed.ncbi.nlm.nih.gov/25524921/) | 2015 | Kohortenstudie | Rheumatology (Oxford) | Androgenspiegel bewertet bei postmenopausalen Patienten mit systemischer Sklerose |
+| [16855152](https://pubmed.ncbi.nlm.nih.gov/16855152/) | 2006 | Kohortenstudie | Ann NY Acad Sci | Testosteron- und DHEA-S-Spiegel signifikant verändert bei SSc-Patienten vs. Kontrollen; bezogen auf Krankheitsdauer/Schweregrad |
+| [17086608](https://pubmed.ncbi.nlm.nih.gov/17086608/) | 2006 | Fall-Kontroll-Studie | J Rheumatol | Gedämpfte adrenokortikale/adrenomedullare Reaktionen auf Hypoglykämie bei premenopausalen SSc-Frauen, was auf HPA-Achsen-Dysfunktion hinweist |
+| [9159534](https://pubmed.ncbi.nlm.nih.gov/9159534/) | 1997 | Fall-Kontroll-Studie | Br J Rheumatol | Hohe Prolaktin- und niedrige DHEA-S-Serumspiegel bei Patienten mit schwerer SSc gefunden; korreliert mit Organbefall |
+| [11247320](https://pubmed.ncbi.nlm.nih.gov/11247320/) | 2001 | Fall-Kontroll-Studie | Clin Exp Rheumatol | DHEA-S-Serumspiegel in einer SSc-Kohorte korrelieren mit Krankheitsschweregrad |
 
 ---
 
-## Germany Market Information
+## Marktinformationen zu Deutschland
 
-Prasterone currently holds no marketing authorization in Germany (market status: not marketed; 0 authorizations on record).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*Additional caution: literature associated with a separate, unrelated candidate indication (thrombophilia) suggests androgen excess may be linked to increased thrombotic risk — this should be considered during any future safety workup for DHEA, though it is not derived from the drug's own DDI/warning data.*
+Prasterone hat derzeit keine Marktzulassung in Deutschland (Marktstatus: nicht im Handel; 0 eingetragene Zulassungen).
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsaspekte
 
-**Decision: Hold**
+Bitte beachten Sie die Gebrauchsinformation für Sicherheitsinformationen.
 
-**Rationale:**
-Systemic sclerosis is the only predicted indication with any supporting evidence, but that evidence is limited to biomarker correlation studies (L4) with no interventional trials of DHEA treatment in SSc. Combined with the absence of German marketing authorization and complete gaps in MOA and safety data, this candidate is not ready to advance beyond a research hypothesis. The other nine predicted indications lack any supporting evidence (L5) and should not be pursued further.
+*Zusätzliche Vorsicht: Literatur, die mit einer separaten, unabhängigen Kandidaten-Indikation (Thrombophilie) assoziiert ist, suggeriert, dass Androgen-Überschuss mit erhöhtem thrombotischem Risiko verknüpft sein kann — dies sollte bei künftigen Sicherheitsprüfungen für DHEA berücksichtigt werden, obwohl es nicht von den eigenen Wechselwirkungs-/Warnungs-Daten des Arzneimittels stammt.*
 
-**To proceed, the following is needed:**
-- TFDA/BfArM package-insert warnings and contraindications (currently Blocking data gap, DG001)
-- Mechanism of action data (currently High-priority data gap, DG002)
-- An interventional study testing DHEA supplementation specifically in systemic sclerosis patients
-- A formal safety/DDI profile before any clinical evaluation proceeds
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Zurückhalten**
+
+**Begründung:**
+Systemische Sklerose ist die einzige vorhergesagte Indikation mit unterstützenden Belegen, aber diese Belege sind auf Biomarker-Korrelationsstudien (L4) ohne interventionelle Prüfungen der DHEA-Behandlung in SSc beschränkt. Kombiniert mit der fehlenden deutschen Marktzulassung und vollständigen Lücken in MOA- und Sicherheitsdaten sollte dieser Kandidat nicht über die Forschungshypothese-Phase hinausgehen. Die neun anderen vorhergesagten Indikationen haben keine unterstützenden Belege (L5) und sollten nicht weiter verfolgt werden.
+
+**Um fortzufahren, sind folgende Punkte erforderlich:**
+- TFDA/BfArM-Gebrauchsinformations-Warnungen und Kontraindikationen (derzeit blockierende Datenlücke, DG001)
+- Wirkmechanismus-Daten (derzeit hochpriorisierte Datenlücke, DG002)
+- Eine interventionelle Studie, die DHEA-Supplementation speziell bei Patienten mit systemischer Sklerose testet
+- Ein formales Sicherheits-/Wechselwirkungs-Profil, bevor eine klinische Bewertung vorangeht
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

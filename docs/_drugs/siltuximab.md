@@ -29,78 +29,79 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **8**
 
 </div>
 
-# Siltuximab: From Multicentric Castleman's Disease to Extracutaneous Mastocytoma
+# Siltuximab: Von der multizentrische Castleman-Krankheit zum extrakutanen Mastozytom
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Siltuximab is an anti-IL-6 monoclonal antibody whose established use is multicentric Castleman's disease (MCD), a rare lymphoproliferative disorder driven by IL-6 dysregulation. The TxGNN model predicts it may be effective for **extracutaneous mastocytoma**, but this ranking is based purely on network prediction — **no clinical trials and no literature** currently support this specific direction.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Multicentric Castleman's Disease (MCD) *(inferred from evidence pack rationale text; not separately confirmed in structured `original_indications` field)* |
-| Predicted New Indication | Extracutaneous mastocytoma |
-| TxGNN Prediction Score | 99.64% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Germany Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Siltuximab ist ein monoklonaler Anti-IL-6-Antikörper, dessen etablierte Anwendung die multizentrische Castleman-Krankheit (MCK) ist, eine seltene lymphoproliferative Störung, die durch IL-6-Dysregulation angetrieben wird. Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam für **extrakutanes Mastozytom** ist, aber diese Einstufung basiert rein auf Netzwerk-Vorhersage — **keine klinischen Studien und keine Literatur** unterstützen derzeit diese spezifische Richtung.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Structured mechanism-of-action data is not available for this drug (`original_moa` = Data Gap). Based on the evidence pack's rationale text, siltuximab is a recombinant chimeric anti-IL-6 monoclonal antibody, and its established efficacy is in IL-6–driven multicentric Castleman's disease.
-
-For the top-ranked prediction, extracutaneous mastocytoma, the mechanistic case is weak. Some literature has hypothesized that IL-6 can promote mast cell proliferation and activation, which offers a loose biological rationale for IL-6 blockade in mast cell disorders. However, there is **no direct evidence** connecting siltuximab specifically to this rare mastocytoma variant — the evidence pack explicitly notes this is "purely a TxGNN network prediction, lacking mechanistic validation data."
-
-Given the complete absence of clinical trials or literature for this indication, the mechanistic link should be treated as a research hypothesis only, not a validated repurposing signal.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Merkmal | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Multizentrische Castleman-Krankheit (MCK) *(hergeleitet aus dem Begründungstext des Evidenzpakets; nicht separat bestätigt im strukturierten `original_indications`-Feld)* |
+| Vorhergesagte neue Indikation | Extrakutanes Mastozytom |
+| TxGNN-Vorhersage-Score | 99.64% |
+| Evidenzgrad | L5 (rein Modellvorhersage, keine unterstützenden Studien) |
+| Marktstatus Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | Zurückstellen |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage vernünftig?
 
-Currently no related literature available.
+Strukturierte Wirkmechanismus-Daten sind für dieses Arzneimittel nicht verfügbar (`original_moa` = Datenlücke). Basierend auf dem Begründungstext des Evidenzpakets ist Siltuximab ein rekombinanter chimärer monoklonaler Anti-IL-6-Antikörper, und seine etablierte Wirksamkeit liegt bei der IL-6-gesteuerten multizentrische Castleman-Krankheit.
 
----
+Für die am höchsten bewertete Vorhersage, extrakutanes Mastozytom, ist der mechanistische Fall schwach. Einige Literatur hat hypothesiert, dass IL-6 die Mastzellproliferation und -aktivierung fördern kann, was eine vage biologische Begründung für die IL-6-Blockade bei Mastzellstörungen bietet. Es gibt jedoch **keine direkten Belege**, die Siltuximab speziell mit dieser seltenen Mastozytom-Variante verbinden — das Evidenzpaket stellt ausdrücklich fest, dass dies „rein eine TxGNN-Netzwerk-Vorhersage ist, der mechanistische Validierungsdaten fehlen."
 
-## Germany Market Information
-
-Siltuximab is not currently marketed in Germany (0 authorizations on record); no product license information is available in this evidence pack.
+Da es keinerlei klinische Studien oder Literatur für diese Indikation gibt, sollte die mechanistische Verbindung nur als Forschungshypothese behandelt werden, nicht als validiertes Repurposing-Signal.
 
 ---
 
-## Safety Considerations
+## Evidenz klinischer Studien
 
-Please refer to the package insert for safety information.
-
-*(Note: `key_warnings`, `contraindications`, and drug-drug interaction data are all marked as data gaps in this evidence pack. TFDA/BfArM label warnings — flagged as `DG001`, Blocking severity — must be obtained before any S1 safety review can proceed.)*
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Conclusion and Next Steps
+## Literaturbelege
 
-**Decision: Hold**
+Derzeit sind keine zugehörigen Literaturquellen verfügbar.
 
-**Rationale:**
-This prediction is supported only by the TxGNN model score (L5 evidence level) with zero clinical trials and zero literature. The proposed mast-cell mechanism is speculative and explicitly flagged in the evidence pack as lacking mechanistic validation. This does not meet the bar for further development at this time.
+---
 
-**To proceed, the following is needed:**
-- Detailed mechanism of action data (MOA) for siltuximab (`DG002`)
-- TFDA/BfArM package insert — warnings and contraindications (`DG001`, Blocking — required before any S1 safety review)
-- Targeted literature and clinical trial search specific to IL-6 blockade in mast cell disorders (current pack has zero hits)
-- Confirmation of the drug's original approved indication(s), as the structured `original_indications` field is currently empty
+## Marktstatus Deutschland
 
-**Additional note:** Among the other candidates in this evidence pack, **Kaposi's sarcoma** (rank 5) has a stronger evidentiary basis (L4, decision stage S1) via its biological link to HHV-8–associated Castleman's disease, and may warrant a separate, dedicated evaluation ahead of this top-ranked candidate.
+Siltuximab wird derzeit nicht in Deutschland vermarktet (0 erfasste Genehmigungen); keine Produktlizenzinformationen sind in diesem Evidenzpaket verfügbar.
+
+---
+
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+*(Hinweis: `key_warnings`, `contraindications` und Arzneimittel-Wechselwirkungsdaten sind alle in diesem Evidenzpaket als Datenlücken gekennzeichnet. TFDA/BfArM-Etikettwarnungen — gekennzeichnet als `DG001`, Blocking-Schweregrad — müssen vor jeder S1-Sicherheitsbewertung eingeholt werden.)*
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Zurückstellen**
+
+**Begründung:**
+Diese Vorhersage wird nur durch den TxGNN-Modellscore (L5-Evidenzgrad) unterstützt, ohne klinische Studien und ohne Literatur. Der vorgeschlagene Mastzell-Wirkmechanismus ist spekulativ und wird im Evidenzpaket ausdrücklich als mangelnde mechanistische Validierungsdaten gekennzeichnet. Dies erfüllt derzeit nicht die Anforderungen für weitere Entwicklung.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+- Detaillierte Wirkmechanismus-Daten (MOA) für Siltuximab (`DG002`)
+- TFDA/BfArM-Packungsbeilage — Warnhinweise und Kontraindikationen (`DG001`, Blocking — erforderlich vor jeder S1-Sicherheitsbewertung)
+- Gezielte Literatur- und klinische Studiensuche speziell für IL-6-Blockade bei Mastzellstörungen (aktuelles Paket hat null Treffer)
+- Bestätigung der ursprünglichen genehmigten Indikation(en) des Arzneimittels, da das strukturierte `original_indications`-Feld derzeit leer ist
+
+**Zusätzlicher Hinweis:** Unter den anderen Kandidaten in diesem Evidenzpaket hat **Kaposi-Sarkom** (Rang 5) eine stärkere evidenzielle Grundlage (L4, Entscheidungsstufe S1) über seine biologische Verbindung zur HHV-8-assoziierten multizentrische Castleman-Krankheit, und könnte eine separate, dedizierte Bewertung vor diesem Spitzenkandidat rechtfertigen.
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

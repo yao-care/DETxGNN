@@ -29,77 +29,78 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Oxybutynin: Original Indication Not on File → Restless Legs Syndrome (Predicted)
+# Oxybutynin: Ursprüngliche Indikation nicht verfügbar → Restless-Legs-Syndrom (vorhergesagt)
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-The original approved indication for oxybutynin is not documented in this evidence pack (a flagged data gap), so the historical use case cannot yet be confirmed here.
-The TxGNN model's top prediction is **Restless Legs Syndrome**, but this candidate currently has **0 clinical trials** and **0 publications** supporting it — evidence is model-only (L5).
-Two other candidates were also screened (gastroduodenitis, peptic ulcer disease), neither with a strong mechanistic case.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available in evidence pack (data gap — see DG001/DG002; no `original_indications` or license text captured) |
-| Predicted New Indication | Restless Legs Syndrome |
-| TxGNN Prediction Score | 99.74% |
-| Evidence Level | L5 |
-| Germany Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Die ursprünglich zugelassene Indikation für Oxybutynin ist in diesem Nachweispaket nicht dokumentiert (eine gekennzeichnete Datenlücke), daher kann der historische Anwendungsfall hier noch nicht bestätigt werden.
+Die Top-Vorhersage des TxGNN-Modells ist **Restless-Legs-Syndrom**, aber dieser Kandidat hat derzeit **0 klinische Studien** und **0 Veröffentlichungen**, die ihn unterstützen – die Evidenz ist nur modellbasiert (L5).
+Zwei weitere Kandidaten wurden ebenfalls untersucht (Gastroduodenitis, Magengeschwüre), keiner mit einer starken mechanistischen Begründung.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Detailed mechanism of action data for oxybutynin is not available in this evidence pack, and the original indication itself is also undocumented here, which limits any formal mechanistic-overlap comparison. Oxybutynin is broadly known in pharmacology as a muscarinic (M3) receptor antagonist with antispasmodic activity, primarily acting on smooth muscle tone — but this is external background, not confirmed within the pack.
-
-For the top-ranked candidate, restless legs syndrome, the evidence pack's own repurposing rationale states there is **no plausible mechanistic connection**: RLS pathophysiology centers on dopaminergic system dysfunction and abnormal brain iron metabolism, neither of which is addressed by anticholinergic (M3-antagonist) activity. The high TxGNN score likely reflects an indirect knowledge-graph association — such as shared comorbidities or symptom overlap in the training data — rather than genuine pharmacological evidence.
-
-Two other candidates were screened at the same S0 stage: **gastroduodenitis** (no mechanistic rationale — anticholinergics do not treat mucosal inflammation and may worsen gastric emptying) and **peptic ulcer disease** (a historical, pre-PPI-era rationale exists — anticholinergics were once used to reduce vagally-mediated acid secretion — but this approach has been fully superseded by PPI + eradication therapy, and is accompanied by a case report of oxybutynin-induced reflux esophagitis, a risk signal rather than supporting evidence).
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Nicht im Nachweispaket verfügbar (Datenlücke – siehe DG001/DG002; keine `original_indications` oder Lizenztexte erfasst) |
+| Vorhersagte neue Indikation | Restless-Legs-Syndrom |
+| TxGNN-Vorhersagepunktzahl | 99.74% |
+| Evidenzstufe | L5 |
+| Marktstatus Deutschland | ✗ Nicht im Handel |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Abwarten |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage sinnvoll?
 
-Currently no related literature available
+Detaillierte Daten zum Wirkmechanismus von Oxybutynin sind in diesem Nachweispaket nicht verfügbar, und die ursprüngliche Indikation selbst ist ebenfalls hier nicht dokumentiert, was einen formalen mechanistischen Vergleich erschwert. Oxybutynin ist in der Pharmakologie allgemein als Muskarinrezeptor(M3)-Antagonist mit spasmolytischer Aktivität bekannt, der hauptsächlich auf die Muskelspannung glatter Muskeln wirkt – aber dies ist Hintergrundwissen außerhalb des Pakets, nicht hier bestätigt.
 
----
+Für den Top-Kandidaten, das Restless-Legs-Syndrom, besagt die Rationale des Nachweispakets selbst, dass es **keine plausible mechanistische Verbindung gibt**: Die Pathophysiologie von RLS konzentriert sich auf Funktionsstörungen des dopaminergen Systems und einen abnormalen Gehirneisenstoffwechsel, auf die eine anticholinerge (M3-Antagonisten-)Aktivität nicht wirkt. Die hohe TxGNN-Bewertung spiegelt wahrscheinlich eine indirekte Wissensgraph-Assoziation wider – wie gemeinsame Komorbiditäten oder Symptomüberlappungen in den Trainingsdaten – eher als echte pharmakologische Evidenz.
 
-## Germany Market Information
-
-Oxybutynin is not currently marketed in Germany, and no authorization records are available in this evidence pack.
+Zwei weitere Kandidaten wurden in der gleichen S0-Phase untersucht: **Gastroduodenitis** (keine mechanistische Begründung – Anticholinergika behandeln keine Mukosaentzündung und können die Magenentleerung verschlimmern) und **Magengeschwüre** (eine historische, Vor-PPI-Begründung existiert – Anticholinergika wurden einst verwendet, um die vagal vermittelte Säuresekretion zu reduzieren – aber dieser Ansatz wurde vollständig durch PPI + Eradikationstherapie verdrängt und wird von einem Fallbericht über oxybutynininduzierte Refluxösophagitis begleitet, ein Risikosignal statt unterstützender Evidenz).
 
 ---
 
-## Safety Considerations
+## Nachweis aus klinischen Studien
 
-Safety data (key warnings, contraindications, drug interactions) has not yet been retrieved for this evidence pack — this is flagged as a **Blocking** data gap (DG001), meaning the candidate cannot proceed to formal safety (S1) evaluation until the official package insert is sourced and parsed.
+Derzeit keine zugehörigen klinischen Studien registriert
 
 ---
 
-## Conclusion and Next Steps
+## Literaturnachweis
 
-**Decision: Hold**
+Derzeit keine zugehörige Literatur verfügbar
 
-**Rationale:**
-The top prediction (restless legs syndrome) lacks any clinical trial or literature support and, per the pack's own rationale, lacks mechanistic plausibility. Combined with the absence of confirmed original-indication data, missing MOA data, and a Blocking gap in safety/label information, this candidate set is not ready to advance.
+---
 
-**To proceed, the following is needed:**
-- Retrieve official package insert / label warnings and contraindications (DG001, Blocking)
-- Obtain verified mechanism of action data for oxybutynin (DG002, High)
-- Confirm and document the drug's original approved indication(s), currently missing from this pack
-- If revisiting peptic ulcer disease, weigh the outdated mechanistic rationale against modern standard-of-care and the reported reflux esophagitis risk before any further scoring
-- No further action recommended on restless legs syndrome or gastroduodenitis absent new mechanistic or clinical evidence
+## Marktstatus Deutschland
+
+Oxybutynin wird in Deutschland derzeit nicht vermarktet, und es sind keine Zulassungsunterlagen in diesem Nachweispaket verfügbar.
+
+---
+
+## Sicherheitserwägungen
+
+Sicherheitsdaten (wichtige Warnhinweise, Kontraindikationen, Arzneimittelwechselwirkungen) wurden für dieses Nachweispaket noch nicht abgerufen – diese werden als **Blocking**-Datenlücke gekennzeichnet (DG001), d. h. der Kandidat kann erst dann zur formalen Sicherheitsbewertung (S1) voranschreiten, wenn die offizielle Gebrauchsinformation beschafft und analysiert wird.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Abwarten**
+
+**Begründung:**
+Die Top-Vorhersage (Restless-Legs-Syndrom) wird durch keine klinischen Studien oder Literatur gestützt und, gemäß der Rationale des Nachweispakets selbst, fehlt mechanistische Plausibilität. Kombiniert mit dem Fehlen bestätigter Daten zur ursprünglichen Indikation, fehlenden MOA-Daten und einer Blocking-Datenlücke bei Sicherheits-/Labelinformationen ist diese Kandidatengruppe nicht bereit zum Vorrücken.
+
+**Um voranzuschreiten, wird Folgendes benötigt:**
+- Offizielle Gebrauchsinformation / Labelwarnungen und Kontraindikationen abrufen (DG001, Blocking)
+- Verifizierte Daten zum Wirkmechanismus von Oxybutynin beschaffen (DG002, Hoch)
+- Die ursprüngliche(n) zugelassene(n) Indikation(en) bestätigen und dokumentieren – diese fehlen derzeit in diesem Paket
+- Bei erneuter Untersuchung von Magengeschwüren die veraltete mechanistische Rationale gegen modernen Standard-of-Care und das gemeldete Refluxösophagitis-Risiko abwägen, bevor weitere Bewertungen durchgeführt werden
+- Keine weiteren Maßnahmen zu Restless-Legs-Syndrom oder Gastroduodenitis, es sei denn, es liegen neue mechanistische oder klinische Evidenzen vor
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

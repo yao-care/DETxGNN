@@ -29,83 +29,82 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-Using no additional skill — this is a direct content-generation task against a fully specified template; proceeding straight to the report.
+# Silodosin: Von Benigner Prostatahyperplasie zu Ambras type Hypertrichosis universalis congenita
 
-# Silodosin: From Benign Prostatic Hyperplasia to Ambras Type Hypertrichosis Universalis Congenita
+## Zusammenfassung in einem Satz
 
-## One-Sentence Summary
-
-> Silodosin is a highly selective α1A-adrenergic receptor antagonist, pharmacologically used for benign prostatic hyperplasia (BPH)/lower urinary tract symptoms.
-> The TxGNN model's top-ranked prediction is **Ambras type hypertrichosis universalis congenita** (score 99.99%),
-> but this prediction is currently supported by **zero clinical trials** and **zero publications**, with no known mechanistic pathway connecting α1A blockade to hair follicle biology.
+> Silodosin ist ein hochselektiver α1A-adrenerger Rezeptorantagonist, pharmakologisch zur Behandlung der benignen Prostatahyperplasie (BPH)/Symptome der unteren Harnwege eingesetzt.
+> Die Top-Vorhersage des TxGNN-Modells ist **Ambras type hypertrichosis universalis congenita** (Score 99.99%),
+> aber diese Vorhersage wird derzeit durch **null klinische Studien** und **null Publikationen** gestützt, ohne bekannten Mechanismuspfad, der eine α1A-Blockade mit der Haarfollikel-Biologie verbindet.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Element | Inhalt |
 |------|------|
-| Original Indication | Benign prostatic hyperplasia / lower urinary tract symptoms (inferred from drug class and repurposing rationale text; not present in evidence pack — `original_indications` is empty) |
-| Predicted New Indication | Ambras type hypertrichosis universalis congenita |
-| TxGNN Prediction Score | 99.99% (model rank 168) |
-| Evidence Level | L5 |
-| Germany Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | Benigne Prostatahyperplasie / Symptome der unteren Harnwege (abgeleitet aus Arzneimittelklasse und Umwidmungs-Rationale-Text; nicht im Paket vorhanden — `original_indications` ist leer) |
+| Vorhersagte neue Indikation | Ambras type hypertrichosis universalis congenita |
+| TxGNN-Vorhersage-Score | 99.99% (Modellrang 168) |
+| Evidenzstufe | L5 |
+| Deutschland Marktstatus | Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Zurückstellen |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage angemessen?
 
-Detailed mechanism of action data is not available (`original_moa: [Data Gap]`). Based on the drug class and the rationale field embedded in the prediction, silodosin is a highly selective α1A-adrenergic receptor antagonist acting primarily on prostatic and lower urinary tract smooth muscle, and it is presumed to be used for BPH.
+Detaillierte Wirkmechanismus-Daten sind nicht verfügbar (`original_moa: [Data Gap]`). Basierend auf der Arzneimittelklasse und dem im Vorhersagefeld eingebetteten Rationale-Text ist Silodosin ein hochselektiver α1A-adrenerger Rezeptorantagonist, der hauptsächlich auf die glatte Muskulatur der Prostata und der unteren Harnwege wirkt, und es wird angenommen, dass er für BPH eingesetzt wird.
 
-Ambras type hypertrichosis universalis congenita is a rare congenital disorder linked to chromosomal rearrangements and hair follicle developmental genes. There is no established biological pathway connecting peripheral α1A-receptor blockade to hair follicle growth regulation — drug-induced hypertrichosis is more commonly associated with potassium-channel openers (e.g., minoxidil), not α-adrenergic antagonism. The evidence pack's own rationale field explicitly flags this as a high-score/no-mechanism case, meaning the TxGNN association likely reflects embedding-space noise rather than a biologically grounded signal.
+Ambras type hypertrichosis universalis congenita ist eine seltene angeborene Störung, die mit Chromosomenumlagerungen und Haarfollikel-Entwicklungsgenen verbunden ist. Es gibt keinen etablierten biologischen Pfad, der die periphere α1A-Rezeptorblockade mit der Regulation des Haarfollikelwachstums verbindet — arzneimittelinduzierte Hypertrichose ist üblicherweise eher mit Kaliumkanal-Öffnern (z. B. Minoxidil) assoziiert, nicht mit α-adrenerger Antagonismus. Das Rationale-Feld des Pakets selbst kennzeichnet dies ausdrücklich als Fall mit hohem Score und fehlendem Mechanismus, was bedeutet, dass die TxGNN-Assoziation wahrscheinlich eher Embedding-Space-Rauschen als ein biologisch fundiertes Signal widerspiegelt.
 
-All five other candidates in this evidence pack (hypertrichosis, periodontal malformation syndrome, Dandy-Walker malformation, hair shaft abnormality, familial trichomegaly) share the same pattern: very high TxGNN scores paired with no clinical trial evidence and, where literature exists, matched publications unrelated to the drug (see below).
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Alle fünf weiteren Kandidaten in diesem Paket (Hypertrichose, Malformationssyndrom mit odontaler/parodontaler Komponente, Dandy-Walker-Malformation, Haarschaftanomalie, familiäre Trichomegalie) folgen dem gleichen Muster: sehr hohe TxGNN-Scores kombiniert mit fehlenden klinischen Studienergebnissen und, wo Literatur existiert, abgestimmte Publikationen, die keinen Bezug zum Arzneimittel haben (siehe unten).
 
 ---
 
-## Literature Evidence
+## Klinische Studienevidenz
 
-Currently no related literature available.
-
-*(Note: rank 3 candidate "malformation syndrome with odontal/periodontal component" returned 20 periodontitis-related publications, but none mention silodosin or α1-antagonists — these are considered irrelevant co-occurrence matches, not supporting evidence for the top prediction.)*
+Derzeit sind keine verwandten klinischen Studien registriert.
 
 ---
 
-## Germany Market Information
+## Literaturevidenz
 
-Silodosin currently has no market authorization records in Germany (`total_licenses: 0`, `licenses: []`). This drug is not marketed in the German dataset covered by this evidence pack.
+Derzeit ist keine verwandte Literatur verfügbar.
 
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Note: `safety.key_warnings` and `safety.contraindications` are both flagged as data gaps in this evidence pack — item DG001, severity "Blocking," specifically blocks S1 safety pre-assessment pending TFDA label retrieval.)*
+*(Anmerkung: Rang-3-Kandidat „Malformationssyndrom mit odontaler/parodontaler Komponente" lieferte 20 Parodontitis-bezogene Publikationen, aber keine erwähnt Silodosin oder α1-Antagonisten — diese werden als irrelevante Co-Auftritt-Treffer betrachtet, nicht als unterstützende Evidenz für die Top-Vorhersage.)*
 
 ---
 
-## Conclusion and Next Steps
+## Deutschland-Marktinformationen
 
-**Decision: Hold**
+Silodosin hat derzeit keine Marktzulassungsunterlagen in Deutschland (`total_licenses: 0`, `licenses: []`). Dieses Arzneimittel wird nicht im deutschen Datensatz, der von diesem Paket abgedeckt wird, vermarktet.
+
+---
+
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+*(Anmerkung: `safety.key_warnings` und `safety.contraindications` sind beide in diesem Paket als Datenlücken gekennzeichnet — Element DG001, Schweregrad „Blocking", blockiert speziell die S1-Sicherheitsvorbewertung bis zur Abrufung des TFDA-Labels.)*
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Zurückstellen**
 
 **Rationale:**
-The prediction carries a high TxGNN score but zero clinical or literature support, no plausible mechanistic link, and the drug is not currently marketed in Germany. Combined with a Blocking-severity safety data gap (DG001) and missing MOA data (DG002), this candidate does not meet the minimum bar to proceed to safety pre-assessment (S1).
+Die Vorhersage trägt einen hohen TxGNN-Score, aber null klinische oder Literaturunterstützung, keinen plausiblen Mechanismuspfad, und das Arzneimittel wird derzeit nicht in Deutschland vermarktet. In Kombination mit einer Sicherheitsdatenlücke mit Blocking-Schweregrad (DG001) und fehlenden MOA-Daten (DG002) erfüllt dieser Kandidat nicht die Mindestanforderungen, um zur Sicherheitsvorbewertung (S1) zu gelangen.
 
-**To proceed, the following is needed:**
-- TFDA label (warnings/contraindications) retrieval to resolve DG001 (Blocking)
-- Confirmed MOA from DrugBank to resolve DG002 and enable mechanistic evaluation
-- Confirmed original indication and Germany/Taiwan market status (currently absent from source data)
-- Any preclinical or case-level evidence linking α1-adrenergic antagonism to hair follicle or congenital hypertrichosis pathways — none currently exists
-- If no such evidence emerges, this candidate should be deprioritized in favor of other TxGNN predictions with actual trial/literature backing
+**Zum Fortfahren ist Folgendes erforderlich:**
+- TFDA-Label (Warnungen/Kontraindikationen) Abruf zur Behebung von DG001 (Blocking)
+- Bestätigter MOA aus DrugBank zur Behebung von DG002 und Ermöglichung der Mechanismus-Bewertung
+- Bestätigte ursprüngliche Indikation und Deutschland/Taiwan-Marktstatus (derzeit nicht in Quelldaten vorhanden)
+- Präklinische oder Fallbeispiel-Evidenz, die α1-adrenerge Antagonismus mit Haarfollikel- oder angeborener Hypertrichose-Pfaden verbindet — keine existiert derzeit
+- Falls keine solche Evidenz auftaucht, sollte dieser Kandidat zugunsten anderer TxGNN-Vorhersagen mit tatsächlicher Studien-/Literaturunterstützung deprioritiert werden
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

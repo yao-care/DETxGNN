@@ -29,76 +29,77 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Tecovirimat: From Smallpox/Orthopoxvirus Infection to Hordeolum
+# Tecovirimat: Von Pockenvirus-/Orthopoxvirus-Infektion zu Hordeolum
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Tecovirimat is a VP37 envelope protein inhibitor originally developed and FDA-authorized for smallpox and orthopoxvirus infections (including mpox), acting through a mechanism specific to the *Orthopoxvirus* genus. TxGNN's top-ranked prediction is **Hordeolum**, but the model's own mechanistic review flags this as a **high embedding score with no biological plausibility**, since hordeolum is a bacterial (typically staphylococcal) eyelid gland infection unrelated to poxvirus replication or budding. **No clinical trials or literature support this specific pairing.**
+Tecovirimat ist ein VP37-Hüllprotein-Inhibitor, der ursprünglich entwickelt und von der FDA für Pockenerkrankungen und Orthopoxvirus-Infektionen (einschließlich Mpox) zugelassen wurde und über einen Mechanismus wirkt, der spezifisch für das *Orthopoxvirus*-Genus ist. Die Top-Vorhersage von TxGNN ist **Hordeolum**, aber die eigene mechanistische Überprüfung des Modells kennzeichnet dies als **hohen Embedding-Score ohne biologische Plausibilität**, da Hordeolum eine bakterielle (typischerweise staphylokokkenbedingte) Augenliddrüsen-Infektion ist, die mit der Pockenvirus-Replikation oder dem Budding nichts zu tun hat. **Keine klinischen Studien oder Fachliteratur unterstützen diese spezifische Kombination.**
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Element | Inhalt |
 |------|------|
-| Original Indication | Smallpox / Orthopoxvirus infection (incl. mpox), per literature context in evidence pack |
-| Predicted New Indication | Hordeolum |
-| TxGNN Prediction Score | 99.66% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Germany Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+| Ursprüngliche Indikation | Pockenerkrankung / Orthopoxvirus-Infektion (einschl. Mpox), nach Literaturkontext im Evidenzpaket |
+| Prognostizierte neue Indikation | Hordeolum |
+| TxGNN-Vorhersage-Score | 99.66% |
+| Evidenzstufe | L5 (nur Modellvorhersage, keine unterstützenden Studien) |
+| Marktstatus in Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | **Zurückhalten** |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage sinnvoll?
 
-Tecovirimat inhibits the VP37 envelope-wrapping protein, a mechanism specific to the *Orthopoxvirus* genus (variola/smallpox, mpox, vaccinia). This mechanism has no known relevance to eyelid gland infections such as hordeolum, which are caused by bacteria (typically *Staphylococcus aureus*) infecting the meibomian or Zeis glands — an entirely different pathogen class and disease process.
+Tecovirimat hemmt das VP37-Hüllprotein, einen Mechanismus, der spezifisch für das *Orthopoxvirus*-Genus ist (Variola/Pockenerkrankung, Mpox, Vaccinia). Dieser Mechanismus hat keine bekannte Relevanz für Augenliddrüsen-Infektionen wie Hordeolum, die durch Bakterien (typischerweise *Staphylococcus aureus*) verursacht werden, die die Meibom- oder Zeis-Drüsen infizieren — eine völlig andere Pathogen-Klasse und Krankheitsprozess.
 
-The evidence pack's own mechanistic review explicitly rejects this prediction: **"TxGNN's high score reflects an embedding-space coincidence, with no biological plausibility."** The same pattern repeats across ranks 2–10 (vibrio infection, Klebsiella infection, noma, arbovirus infection, equine infectious anemia, idiopathic herpes, Astroviridae infection, Arterivirus infection) — all are bacterial infections, unrelated RNA/DNA virus families, or veterinary-only pathogens with no mechanistic link to VP37 inhibition.
+Das Evidenzpaket selbst weist diese Vorhersage in seiner mechanistischen Bewertung explizit zurück: **„Der hohe Score von TxGNN spiegelt eine Embedding-Space-Koinzidenz wider, ohne biologische Plausibilität."** Das gleiche Muster wiederholt sich bei den Rängen 2–10 (Vibrio-Infektion, Klebsiella-Infektion, Noma, Arbovirus-Infektion, Equine Infectious Anemia, idiopathisches Herpes, Astroviridae-Infektion, Arterivirus-Infektion) — alle sind bakterielle Infektionen, unverwandte RNA-/DNA-Virus-Familien oder nur veterinärmedizinische Erreger ohne mechanistischen Bezug zur VP37-Hemmung.
 
-The one exception in this candidate set is **rank 5, "coinfection"** (L3, S1, evidence includes 20 real publications). However, on closer reading, this cluster of literature does not represent a genuine new-indication signal — it consists of case reports and reviews describing tecovirimat's **existing, already-approved use for mpox** in patients with HIV or other coinfections (e.g., neurosyphilis, VZV). This appears to be a **data-labeling artifact**: the correct disease label should be "mpox in immunocompromised/coinfected patients," not a novel repurposing target. It should not be counted as new-indication evidence.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Die eine Ausnahme in diesem Kandidatensatz ist **Rang 5, „Koinfektion"** (L3, S1, die Evidenz umfasst 20 echte Veröffentlichungen). Bei genauerer Lektüre stellt dieses Literaturcluster jedoch kein echtes neues Indikationssignal dar — es besteht aus Fallberichten und Reviews, die die **existierende, bereits zugelassene Anwendung von Tecovirimat für Mpox** bei Patienten mit HIV oder anderen Koinfektion beschreiben (z.B. Neurosyphilis, VZV). Dies scheint ein **Datenkennzeichnungsartefakt** zu sein: die korrekte Krankheitskennzeichnung sollte „Mpox bei immunogeschwächten/koinfizierten Patienten" lauten, nicht ein neuartiges Repurposing-Ziel. Sie sollte nicht als neue Indikationsevidenz gezählt werden.
 
 ---
 
-## Literature Evidence
+## Evidenz aus klinischen Studien
 
-Currently no related literature available for Hordeolum.
-
-*Note: 20 publications exist for rank 5 ("coinfection"), but these describe tecovirimat's already-approved mpox indication in HIV/coinfected populations rather than a novel repurposing hypothesis — see rationale above.*
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Germany Market Information
+## Evidenz aus der Fachliteratur
 
-Tecovirimat is **not currently marketed in Germany** (0 authorizations on record), so no authorization table is available.
+Derzeit ist keine zugehörige Fachliteratur für Hordeolum verfügbar.
 
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. Key warnings, contraindications, and drug-interaction data are not yet available in this evidence pack (flagged as a **Blocking** data gap, DG001 — TFDA/BfArM label warnings and contraindications must be retrieved before any S1 safety screening can proceed).
+*Anmerkung: 20 Veröffentlichungen existieren für Rang 5 („Koinfektion"), aber diese beschreiben die bereits zugelassene Mpox-Indikation von Tecovirimat bei HIV-/koinfizierten Populationen statt einer neuartigen Repurposing-Hypothese — siehe Begründung oben.*
 
 ---
 
-## Conclusion and Next Steps
+## Marktinformationen für Deutschland
 
-**Decision: Hold**
+Tecovirimat ist **derzeit nicht auf dem Markt in Deutschland** (0 Zulassungen registriert), daher ist keine Zulassungstabelle verfügbar.
 
-**Rationale:**
-All ten TxGNN top-ranked predictions for tecovirimat lack mechanistic plausibility or supporting clinical/literature evidence. Nine of ten (hordeolum, vibrio infection, Klebsiella infection, noma, arbovirus infection, equine infectious anemia, idiopathic herpes, Astroviridae infection, Arterivirus infection) are bacterial, unrelated-virus, or veterinary conditions with no link to the VP37 orthopoxvirus mechanism. The one candidate with literature support ("coinfection") is most likely a mislabeled instance of tecovirimat's existing mpox indication in HIV-coinfected patients, not a true repurposing signal.
+---
 
-**To proceed, the following is needed:**
-- Resolve **DG001 (Blocking)**: obtain TFDA/BfArM label warnings and contraindications before any safety-stage (S1) review
-- Resolve **DG002 (High)**: obtain formal DrugBank/FDA-label MOA documentation to properly ground future mechanistic assessments
-- Relabel "coinfection" in the TxGNN indication ontology as "mpox in HIV/immunocompromised patients" to avoid conflating existing-indication evidence with novel repurposing signals
-- Re-run TxGNN scoring excluding known off-target embedding clusters (bacterial/veterinary diseases) if this pattern recurs for other orthopoxvirus-specific antivirals
+## Sicherheitserwägungen
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. Wichtige Warnhinweise, Kontraindikationen und Arzneimittelwechselwirkungsdaten sind in diesem Evidenzpaket noch nicht verfügbar (gekennzeichnet als **Blocking**-Datenlücke, DG001 — TFDA/BfArM-Etikett-Warnhinweise und Kontraindikationen müssen abgerufen werden, bevor ein S1-Sicherheits-Screening durchgeführt werden kann).
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Zurückhalten**
+
+**Begründung:**
+Alle zehn Top-Vorhersagen von TxGNN für Tecovirimat mangelt es an mechanistischer Plausibilität oder unterstützender klinischer/Fachliteratur-Evidenz. Neun von zehn (Hordeolum, Vibrio-Infektion, Klebsiella-Infektion, Noma, Arbovirus-Infektion, Equine Infectious Anemia, idiopathisches Herpes, Astroviridae-Infektion, Arterivirus-Infektion) sind bakterielle, unverwandte Virus- oder tiermedizinische Zustände ohne Bezug zum VP37-Orthopoxvirus-Mechanismus. Der eine Kandidat mit Literaturunterstützung („Koinfektion") ist sehr wahrscheinlich eine falsch gekennzeichnete Instanz der existierenden Mpox-Indikation von Tecovirimat bei HIV-koinfizierten Patienten, nicht ein echtes Repurposing-Signal.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+- **DG001 (Blocking)** beheben: TFDA/BfArM-Etikett-Warnhinweise und Kontraindikationen abrufen, bevor eine Sicherheitsstufen-Bewertung (S1) durchgeführt wird
+- **DG002 (High)** beheben: formale DrugBank-/FDA-Etikett-MOA-Dokumentation abrufen, um zukünftige mechanistische Bewertungen ordnungsgemäß zu verankern
+- „Koinfektion" in der TxGNN-Indikations-Ontologie als „Mpox bei HIV/immunogeschwächten Patienten" umkennzeichnen, um eine Vermischung von existierender Indikationsevidenz mit neuartigen Repurposing-Signalen zu vermeiden
+- TxGNN-Bewertung erneut durchführen und dabei bekannte Off-Target-Embedding-Cluster (bakterielle/tiermedizinische Erkrankungen) ausschließen, falls dieses Muster bei anderen Orthopoxvirus-spezifischen Antiviralen erneut auftritt
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

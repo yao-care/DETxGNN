@@ -29,76 +29,77 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Zonisamide: From Epilepsy to Tourette Syndrome
+# Zonisamid: Von Epilepsie zu Tourette-Syndrom
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Zonisamide is an antiepileptic drug used as adjunctive therapy for refractory partial seizures, acting through sodium/calcium channel modulation.
-> The TxGNN model predicts it may be effective for **Tourette Syndrome**,
-> but this specific prediction is currently supported by **0 clinical trials** and **0 publications** — it is a mechanistic hypothesis only.
+> Zonisamid ist ein Antiepileptikum, das als Zusatztherapie für therapieresistente partielle Anfälle eingesetzt wird und durch Natrium-/Calciumkanalmodulation wirkt.
+> Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam für **Tourette-Syndrom** ist,
+> aber diese spezifische Vorhersage wird derzeit durch **0 klinische Studien** und **0 Publikationen** unterstützt — es handelt sich nur um eine mechanistische Hypothese.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Element | Inhalt |
 |------|------|
-| Original Indication | Epilepsy — adjunctive treatment of partial seizures (inferred from literature evidence in this pack; no formal license text available) |
-| Predicted New Indication | Tourette syndrome |
-| TxGNN Prediction Score | 99.85% |
-| Evidence Level | L5 |
-| Germany Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | Epilepsie — Zusatztherapie bei partiellen Anfällen (hergeleitet aus Literaturangaben in diesem Paket; kein formaler Lizenztext verfügbar) |
+| Vorhergesagte neue Indikation | Tourette-Syndrom |
+| TxGNN-Vorhersage-Score | 99.85% |
+| Evidenzlevel | L5 |
+| Marktstatus Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Zurückstellen |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage sinnvoll?
 
-Currently, detailed mechanism of action data is not available (Data Gap, DrugBank query pending). Based on information embedded in the evidence pack's own literature (e.g., PMID 16341290, 8831258), zonisamide is a broad-spectrum antiepileptic drug (1,2-benzisoxazole-3-methanesulfonamide) with multiple proposed mechanisms — sodium/T-type calcium channel blockade and modulation of dopamine/serotonin release — used mainly as adjunctive therapy for partial and generalized seizures.
+Derzeit sind detaillierte Wirkmechanismus-Daten nicht verfügbar (Datenlücke, DrugBank-Abfrage läuft). Basierend auf Informationen aus der eigenen Literatur des Evidenzpakets (z. B. PMID 16341290, 8831258) ist Zonisamid ein Breitspektrum-Antiepileptikum (1,2-Benzisoxazol-3-methansulfonamid) mit mehreren vorgeschlagenen Wirkmechanismen — Natrium-/T-Typ-Calciumkanalblockade und Modulation der Dopamin-/Serotonin-Freisetzung — das hauptsächlich als Zusatztherapie für partielle und generalisierte Anfälle verwendet wird.
 
-The rationale for a Tourette syndrome connection is purely mechanistic: zonisamide's mild anti-dopaminergic activity and effect on monoamine release could theoretically reduce tic frequency, since dopaminergic dysregulation is implicated in tic disorders. However, this link has not been tested — there are no registered clinical trials and no published literature specifically evaluating zonisamide in Tourette syndrome. This places the prediction at the earliest possible evidence stage (L5 — model prediction only), and it should be treated as a research hypothesis rather than a repurposing signal ready for clinical evaluation.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Die Begründung für eine Verbindung zum Tourette-Syndrom ist rein mechanistisch: Die schwache antidopaminerge Aktivität von Zonisamid und ihre Auswirkung auf die Monoamin-Freisetzung könnten theoretisch die Tic-Häufigkeit reduzieren, da eine dopaminerge Dysregulation bei Tic-Störungen eine Rolle spielt. Allerdings wurde dieser Zusammenhang nicht untersucht — es gibt keine registrierten klinischen Studien und keine veröffentlichte Literatur, die Zonisamid speziell beim Tourette-Syndrom bewertet. Dies platziert die Vorhersage auf der frühestmöglichen Evidenzstufe (L5 — nur Modellvorhersage), und sie sollte eher als Forschungshypothese denn als Repurposing-Signal betrachtet werden, das zur klinischen Bewertung bereit ist.
 
 ---
 
-## Literature Evidence
+## Evidenz aus klinischen Studien
 
-Currently no related literature available.
-
----
-
-## Germany Market Information
-
-No marketing authorization records are available — zonisamide is currently listed as **not marketed** in Germany within this evidence pack (0 licenses on file).
+Aktuell keine verwandten klinischen Studien registriert.
 
 ---
 
-## Safety Considerations
+## Literaturnachweise
 
-Please refer to the package insert for safety information.
-
-*(Note: TFDA label warnings/contraindications and drug-drug interaction data are currently marked as a blocking data gap (DG001), which prevents a full S1 safety assessment for this candidate.)*
+Aktuell keine verwandte Literatur verfügbar.
 
 ---
 
-## Conclusion and Next Steps
+## Informationen zum Markt Deutschland
 
-**Decision: Hold**
+Keine Zulassungsunterlagen sind verfügbar — Zonisamid ist innerhalb dieses Evidenzpakets derzeit als **nicht vermarktet** in Deutschland aufgeführt (0 Lizenzen vorhanden).
 
-**Rationale:**
-The TxGNN score for Tourette syndrome is high, but it is unsupported by any clinical trial or literature evidence — the mechanistic link (dopamine/serotonin modulation) is speculative. Combined with the missing TFDA safety data (blocking gap) and the drug's current unmarketed status in Germany, there is insufficient basis to advance this specific indication beyond a research hypothesis.
+---
 
-**To proceed, the following is needed:**
-- Formal MOA confirmation from DrugBank (DG002)
-- TFDA label warnings/contraindications to clear the S1 safety gate (DG001)
-- At minimum, preclinical or case-series evidence directly evaluating zonisamide in tic disorders
-- Consider re-prioritizing: this same evidence pack contains two candidates with substantially stronger evidence — **absence epilepsy** (rank 8, evidence level L1, "Proceed with Guardrails", supported by a completed Phase 3 RCT n=583 and multiple cohort studies) and **manic/mixed bipolar disorder** (rank 7, evidence level L2, "Research Question", supported by a placebo-controlled RCT). These may represent more actionable near-term repurposing opportunities than Tourette syndrome.
+## Sicherheitserwägungen
+
+Weitere Sicherheitsinformationen finden Sie in der Fachinformation.
+
+*(Hinweis: TFDA-Warnhinweise/-Kontraindikationen und Arzneimittelwechselwirkungs-Daten sind derzeit als blockierende Datenlücke (DG001) gekennzeichnet, die eine vollständige S1-Sicherheitsbewertung für diesen Kandidaten verhindert.)*
+
+---
+
+## Schlussfolgerung und Nächste Schritte
+
+**Entscheidung: Zurückstellen**
+
+**Begründung:**
+Der TxGNN-Score für das Tourette-Syndrom ist hoch, wird aber durch keine klinische Studie oder Literaturnachweise gestützt — die mechanistische Verbindung (Dopamin-/Serotonin-Modulation) ist spekulativ. Kombiniert mit den fehlenden TFDA-Sicherheitsdaten (blockierende Lücke) und dem aktuellen Status des Arzneimittels als nicht vermarktet in Deutschland gibt es keine ausreichende Grundlage, um diese spezifische Indikation über eine Forschungshypothese hinaus voranzutreiben.
+
+**Um voranzukommen, ist Folgendes erforderlich:**
+- Formale Wirkmechanismus-Bestätigung durch DrugBank (DG002)
+- TFDA-Warnhinweise/-Kontraindikationen zur Freigabe des S1-Sicherheits-Gates (DG001)
+- Zumindest präklinische oder Fallserien-Nachweise, die Zonisamid direkt bei Tic-Störungen untersuchen
+- Erwägen Sie eine Neupriorisierung: Dasselbe Evidenzpaket enthält zwei Kandidaten mit erheblich stärkeren Nachweisen — **Absenceepilepsie** (Rang 8, Evidenzlevel L1, „Mit Schutzmaßnahmen fortfahren", unterstützt durch eine abgeschlossene Phase 3 RCT n=583 und mehrere Kohortenstudien) und **Manie/gemischte bipolare Störung** (Rang 7, Evidenzlevel L2, „Forschungsfrage", unterstützt durch eine Placebo-kontrollierte RCT). Diese könnten kurzfristig bessere Repurposing-Möglichkeiten darstellen als das Tourette-Syndrom.
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

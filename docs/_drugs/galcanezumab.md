@@ -29,74 +29,75 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Galcanezumab: From Migraine Prevention to Heparin Cofactor II Deficiency
+# Galcanezumab: Von Migräneprophylaxe zu Heparin-Kofaktor-II-Mangel
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Galcanezumab is a CGRP (calcitonin gene-related peptide)-targeting monoclonal antibody; per the mechanistic notes in this evidence pack, it is used for migraine prevention (this is not confirmed by German/Taiwan regulatory records, as the product is not currently marketed there). TxGNN predicts a possible association with **Heparin Cofactor II Deficiency**, but the prediction is supported by **0 clinical trials** and **0 publications**, and the model's own rationale states there is no known biological mechanism connecting the two conditions.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in regulatory data (mechanism notes reference migraine prevention, unconfirmed) |
-| Predicted New Indication | Heparin Cofactor II Deficiency |
-| TxGNN Prediction Score | 99.50% |
-| Evidence Level | L5 |
-| Germany Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Galcanezumab ist ein gegen CGRP (Calcitonin Gene-Related Peptide) gerichteter monoklonaler Antikörper; gemäß den mechanistischen Notizen in diesem Evidenzpaket wird es für die Migräneprophylaxe eingesetzt (dies wird durch deutsche/taiwanesische Regulierungsdaten nicht bestätigt, da das Produkt dort nicht vermarktet wird). TxGNN sagt eine mögliche Assoziation mit **Heparin-Kofaktor-II-Mangel** voraus, wobei die Vorhersage durch **0 klinische Studien** und **0 Veröffentlichungen** gestützt wird, und die Begründung des Modells selbst besagt, dass es keinen bekannten biologischen Mechanismus gibt, der die beiden Zustände verbindet.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnelle Übersicht
 
-Currently, detailed mechanism of action data is not available in structured form. Based on the mechanistic notes accompanying this evidence pack, Galcanezumab is an anti-CGRP monoclonal antibody that blocks pain signaling in the trigeminovascular system, and its established use is migraine prevention.
-
-The three TxGNN-predicted indications in this evidence pack — heparin cofactor II deficiency, antithrombin deficiency type 2, and factor V excess with spontaneous thrombosis — are all rare, genetically-driven coagulation/thrombophilia disorders (SERPIN or coagulation factor gene defects). None of these involve the CGRP signaling pathway, and the evidence pack's own rationale explicitly states there is **no known shared molecular pathway, receptor, or downstream signaling overlap** between CGRP antibody pharmacology and coagulation cascade regulation.
-
-In other words, this is a case where the TxGNN model assigned high similarity scores (>99%) without an identifiable biological mechanism to support them. This pattern — high score, zero real-world evidence, and an explicit mechanistic disclaimer — should be treated as a candidate requiring further scrutiny rather than a promising repurposing lead.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Nicht in Regulierungsdaten dokumentiert (mechanistische Notizen beziehen sich auf Migräneprophylaxe, unbestätigt) |
+| Vorhergesagte neue Indikation | Heparin-Kofaktor-II-Mangel |
+| TxGNN-Vorhersage-Punktzahl | 99.50% |
+| Evidenzstufe | L5 |
+| Status auf dem deutschen Markt | ✗ Nicht vermarktet |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | Aussetzen |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage angemessen?
 
-Currently no related literature available.
+Derzeit sind detaillierte Wirkmechanismus-Daten nicht in strukturierter Form verfügbar. Basierend auf den mechanistischen Notizen in diesem Evidenzpaket ist Galcanezumab ein gegen CGRP gerichteter monoklonaler Antikörper, der die Schmerzleitung im trigeminovaskulären System blockiert, und seine etablierte Verwendung ist die Migräneprophylaxe.
 
----
+Die drei von TxGNN vorhergesagten Indikationen in diesem Evidenzpaket – Heparin-Kofaktor-II-Mangel, Antithrombin-Mangel Typ 2 und Faktor-V-Überschuss mit spontaner Thrombose – sind alle seltene, genetisch bedingte Gerinnungs-/Thrombophilie-Störungen (SERPIN- oder Gerinnungsfaktor-Gendefekte). Keine dieser Störungen ist am CGRP-Signalweg beteiligt, und die Begründung des Evidenzpakets besagt explizit, dass es **keinen bekannten gemeinsamen Molekülpfad, keine gemeinsamen Rezeptoren und keine Überlappung in der nachgelagerten Signalisierung** zwischen der CGRP-Antikörper-Pharmakologie und der Regulierung der Gerinnungskaskade gibt.
 
-## Germany Market Information
-
-Galcanezumab is not currently marketed in Germany (0 authorizations on file in this evidence pack).
+Mit anderen Worten: Dies ist ein Fall, in dem das TxGNN-Modell hohe Ähnlichkeitswerte (>99%) zugewiesen hat, ohne dass ein identifizierbarer biologischer Mechanismus diese unterstützt. Dieses Muster – hoher Wert, keine reale Evidenz und ein expliziter Mechanismus-Haftungsausschluss – sollte als ein Kandidat behandelt werden, der einer weiteren Überprüfung bedarf, statt als ein vielversprechender Repurposing-Lead.
 
 ---
 
-## Safety Considerations
+## Evidenz aus klinischen Studien
 
-Please refer to the package insert for safety information.
+Derzeit keine verwandten klinischen Studien registriert.
 
 ---
 
-## Conclusion and Next Steps
+## Evidenz aus der Literatur
 
-**Decision: Hold**
+Derzeit keine verwandte Literatur verfügbar.
 
-**Rationale:**
-All three TxGNN-predicted indications (heparin cofactor II deficiency, antithrombin deficiency type 2, factor V excess with spontaneous thrombosis) lack any supporting clinical trials or literature, and the model's own mechanistic rationale states there is no biologically plausible link between CGRP-targeted therapy and these coagulation disorders. Combined with the drug's unconfirmed original indication and lack of market presence in Germany, there is insufficient basis to advance any of these candidates.
+---
 
-**To proceed, the following is needed:**
-- Confirmed original indication and MOA data (from DrugBank API or manufacturer labeling, per DG002)
-- Package insert warnings/contraindications (TFDA/BfArM label parsing, per DG001 — currently blocking safety review)
-- Any preclinical or mechanistic literature specifically linking CGRP pathway modulation to coagulation factor regulation, before this candidate can move beyond S0
-- Reassessment of whether these three predictions represent a systematic TxGNN scoring anomaly (e.g., rare-disease embedding artifact) rather than genuine repurposing signals
+## Marktinformationen für Deutschland
+
+Galcanezumab wird derzeit in Deutschland nicht vermarktet (0 Genehmigungen in den Unterlagen in diesem Evidenzpaket).
+
+---
+
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Aussetzen**
+
+**Begründung:**
+Alle drei von TxGNN vorhergesagten Indikationen (Heparin-Kofaktor-II-Mangel, Antithrombin-Mangel Typ 2, Faktor-V-Überschuss mit spontaner Thrombose) weisen keine unterstützenden klinischen Studien oder Literatur auf, und die mechanistische Begründung des Modells selbst besagt, dass es keinen biologisch plausiblen Zusammenhang zwischen einer CGRP-gezielten Therapie und diesen Gerinnungsstörungen gibt. In Kombination mit der unbestätigten Ursprungsindikation des Arzneimittels und der fehlenden Marktpräsenz in Deutschland gibt es keine ausreichende Grundlage, um diese Kandidaten voranzutreiben.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+- Bestätigte Ursprungsindikation und MOA-Daten (aus DrugBank-API oder Herstellerkennzeichnung, gemäß DG002)
+- Warnhinweise/Gegenanzeigen in der Packungsbeilage (TFDA/BfArM-Label-Analyse, gemäß DG001 – derzeit wird die Sicherheitsbewertung blockiert)
+- Präklinische oder mechanistische Literatur, die speziell die Modulation des CGRP-Signalwegs mit der Regulierung von Gerinnungsfaktoren verbindet, bevor dieser Kandidat über S0 hinausgehen kann
+- Neubewertung, ob diese drei Vorhersagen ein systematisches TxGNN-Scoring-Anomalie (z. B. Seltene-Krankheits-Embedding-Artefakt) darstellen, statt echte Repurposing-Signale zu sein
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -29,81 +29,82 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **8**
 
 </div>
 
-# Tadalafil: From Unrecorded Original Indication to Ambras Type Hypertrichosis Universalis Congenita
+# Tadalafil: Von nicht aufgezeichneter ursprünglicher Indikation zu Ambras-Typ-Hypertrichosis universalis congenita
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> The evidence pack does not record Tadalafil's original approved indication or mechanism of action (both marked as data gaps), and the drug is currently **not marketed** in Germany.
-> The TxGNN model's top prediction is **Ambras type hypertrichosis universalis congenita**, a rare congenital hair-overgrowth disorder,
-> but this is supported by **0 clinical trials** and **0 publications** — and the evidence pack's own rationale flags it as a likely network artifact rather than a genuine signal.
+> Das Evidenzpaket verzeichnet die ursprüngliche zugelassene Indikation oder den Wirkmechanismus von Tadalafil nicht (beide sind als Datenlücken gekennzeichnet), und das Arzneimittel wird derzeit **in Deutschland nicht vermarktet**.
+> Die Top-Vorhersage des TxGNN-Modells ist **Ambras-Typ-Hypertrichosis universalis congenita**, eine seltene angeborene Haarwuchsstörung,
+> aber diese wird durch **0 klinische Studien** und **0 Publikationen** gestützt — und die Begründung des Evidenzpakets selbst kennzeichnet sie als wahrscheinliches Netzwerkartefakt statt eines echten Signals.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Element | Inhalt |
 |------|------|
-| Original Indication | Not recorded in evidence pack (no approved indications or licenses on file) |
-| Predicted New Indication | Ambras type hypertrichosis universalis congenita |
-| TxGNN Prediction Score | 99.98% (rank 438) |
-| Evidence Level | L5 |
-| Germany Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | Nicht aufgezeichnet im Evidenzpaket (keine zugelassenen Indikationen oder Lizenzen in der Datei) |
+| Vorhergesagte neue Indikation | Ambras-Typ-Hypertrichosis universalis congenita |
+| TxGNN-Vorhersage-Score | 99.98% (rank 438) |
+| Evidenzebene | L5 |
+| Marktstatus in Deutschland | Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage angemessen?
 
-Currently, detailed mechanism of action data is not available (original_moa: Data Gap). Based on the pharmacological background cited within the evidence pack itself, tadalafil is a phosphodiesterase type 5 (PDE5) inhibitor acting via the cGMP/NO pathway.
+Derzeit sind detaillierte Wirkmechanismus-Daten nicht verfügbar (original_moa: Data Gap). Auf Grundlage des pharmakolagischen Hintergrunds, der im Evidenzpaket selbst zitiert wird, ist Tadalafil ein Phosphodiesterase-Typ-5-(PDE5)-Hemmer, der über den cGMP/NO-Weg wirkt.
 
-However, there is **no established biological link** between PDE5/cGMP signaling and Ambras type hypertrichosis universalis congenita, which is a rare congenital disorder of hair follicle overgrowth with a distinct genetic etiology. The evidence pack's own repurposing rationale explicitly states this prediction "lacks any mechanistic hypothesis" and is "suspected to be network noise" — i.e., an indirect, spurious graph connection between the drug node and a rare-disease genotype node, rather than a genuine pharmacological signal.
+Es gibt jedoch **keine etablierte biologische Verbindung** zwischen PDE5/cGMP-Signalisierung und Ambras-Typ-Hypertrichosis universalis congenita, die eine seltene angeborene Störung des Haarfollikelwachstums mit unterschiedlicher genetischer Ätiologie ist. Die Begründung des Evidenzpakets selbst macht explizit deutlich, dass diese Vorhersage "keine Wirkmechanismus-Hypothese" hat und "verdächtigt ist, Netzwerklärm zu sein" — d.h. eine indirekte, fehlerhafte Graphenverbindung zwischen dem Arzneimittel-Knoten und einem seltenen Krankheits-Genotyp-Knoten, kein echtes pharmakologisches Signal.
 
-Given the complete absence of original indication data, MOA data, clinical trials, and literature, this top-ranked prediction should be treated as a high TxGNN score without corroborating evidence, not as a credible repurposing hypothesis.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+Angesichts der vollständigen Abwesenheit von Daten zur ursprünglichen Indikation, MOA-Daten, klinischen Studien und Fachliteratur sollte diese Top-Ranking-Vorhersage als ein hoher TxGNN-Score ohne unterstützende Evidenz behandelt werden, nicht als eine glaubwürdige Umpositionierungs-Hypothese.
 
 ---
 
-## Literature Evidence
+## Evidenz aus klinischen Studien
 
-Currently no related literature available
-
----
-
-## Germany Market Information
-
-No marketing authorizations are currently recorded in Germany (Market status: Not marketed; total_licenses: 0).
+Derzeit sind keine relevanten klinischen Studien registriert
 
 ---
 
-## Safety Considerations
+## Literaturevidenz
 
-Please refer to the package insert for safety information.
-
-**Important note:** The evidence pack flags **TFDA label warnings/contraindications** as a **Blocking** data gap (DG001) — without this data, this candidate cannot advance to safety pre-screening (S1) regardless of predicted indication. Mechanism of action data is also flagged as a High-severity gap (DG002).
+Derzeit ist keine relevante Literatur verfügbar
 
 ---
 
-## Conclusion and Next Steps
+## Informationen zum Marktstatus in Deutschland
 
-**Decision: Hold**
+Es sind derzeit keine Marktgenehmigungen in Deutschland aufgezeichnet (Marktstatus: Nicht vermarktet; total_licenses: 0).
 
-**Rationale:**
-The top-ranked prediction (Ambras type hypertrichosis universalis congenita) has no supporting clinical trials, literature, or mechanistic plausibility — the evidence pack itself identifies it as likely graph noise. Combined with missing original indication, MOA, and TFDA safety data, this candidate does not meet the minimum evidence bar to proceed.
+---
 
-**To proceed, the following is needed:**
-- TFDA label warnings and contraindications (DG001, blocking — required before any S1 safety pre-screening)
-- Tadalafil mechanism of action and original approved indications (DG002)
-- Independent review of whether the TxGNN score for this specific candidate reflects a real signal or a graph artifact, given the rationale text's own noise flag
+## Sicherheitsüberlegungen
 
-**Note on other candidates in this pack:** Two lower-ranked predictions merit separate attention rather than dismissal alongside rank 1:
-- **Rank 7 — Kyphoscoliotic heart disease** (Research Question stage): PDE5 inhibitors are an established drug class for pulmonary arterial hypertension (PAH), and kyphoscoliosis-associated restrictive lung disease can lead to secondary PAH. This is a plausible class-effect hypothesis worth checking against whether tadalafil's known PAH indication (e.g., Adcirca) was simply omitted from this evidence pack's original_indications field.
-- **Rank 8 — Migraine with brainstem aura**: The single supporting citation is a case report of tadalafil-*induced* migraine aura (an adverse event), not a treatment-efficacy signal. This should be read as a safety signal, not a repurposing candidate.
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+**Wichtiger Hinweis:** Das Evidenzpaket kennzeichnet **TFDA-Kennzeichnungswarnungen/Kontraindikationen** als eine **Blockierend**-Datenlücke (DG001) — ohne diese Daten kann dieser Kandidat nicht zur Sicherheitsvorprüfung (S1) voranschreiten, unabhängig von der vorhergesagten Indikation. Wirkmechanismus-Daten werden auch als Datenlücke mit hohem Schweregrad (DG002) gekennzeichnet.
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Hold**
+
+**Begründung:**
+Die Top-Ranking-Vorhersage (Ambras-Typ-Hypertrichosis universalis congenita) hat keine unterstützenden klinischen Studien, Literatur oder mechanistische Plausibilität — das Evidenzpaket selbst identifiziert sie als wahrscheinlich Graphenlärm. Kombiniert mit fehlender ursprünglicher Indikation, MOA- und TFDA-Sicherheitsdaten erfüllt dieser Kandidat nicht die minimale Evidenzschwelle zum Voranschreiten.
+
+**Um voranzuschreiten, ist Folgendes erforderlich:**
+- TFDA-Kennzeichnungswarnungen und Kontraindikationen (DG001, blockierend — vor jeder S1-Sicherheitsvorprüfung erforderlich)
+- Wirkmechanismus von Tadalafil und ursprüngliche zugelassene Indikationen (DG002)
+- Unabhängige Überprüfung, ob der TxGNN-Score für diesen spezifischen Kandidaten ein echtes Signal oder ein Graphen-Artefakt widerspiegelt, da der Begründungstext selbst ein Rausch-Flag setzt
+
+**Hinweis zu anderen Kandidaten in diesem Paket:** Zwei Vorhersagen mit niedrigerem Rang verdienen separate Aufmerksamkeit statt Ablehnung zusammen mit Rank 1:
+- **Rank 7 — Kyphoskoliotische Herzerkrankung** (Forschungsfrage-Phase): PDE5-Hemmer sind eine etablierte Medikamentenklasse für pulmonale arterielle Hypertonie (PAH), und durch Kyphoskoliose bedingte restriktive Lungenerkrankung kann zu sekundärer PAH führen. Dies ist eine plausible Klasseneffekt-Hypothese, die es wert ist zu überprüfen, ob Tadalafils bekannte PAH-Indikation (z.B. Adcirca) einfach aus dem original_indications-Feld dieses Evidenzpakets weggelassen wurde.
+- **Rank 8 — Migräne mit Hirnstamm-Aura**: Die einzige unterstützende Zitierung ist ein Fallbericht von Tadalafil-*induzierter* Migräne-Aura (ein unerwünschtes Ereignis), nicht ein Behandlungseffizienz-Signal. Dies sollte als Sicherheitssignal gelesen werden, nicht als Umpositionierungs-Kandidat.
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

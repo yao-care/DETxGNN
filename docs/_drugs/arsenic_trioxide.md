@@ -29,135 +29,136 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Arsenic Trioxide: From Acute Promyelocytic Leukemia to Myelodysplastic Syndrome
+# Arsentrioxide: Von der Akuten Promyelozytären Leukämie zum Myelodysplastischen Syndrom
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Arsenic trioxide (DB01169) is an established antineoplastic arsenical, with acute promyelocytic leukemia (APL) as its well-documented original indication in the clinical trial evidence reviewed here.
-> Of 10 TxGNN-predicted new indications in this candidate pack, **myelodysplastic syndrome (MDS)** carries by far the strongest supporting evidence,
-> with **23 clinical trials** (including one Phase 2/3 trial enrolling 2,000 patients) and **23 publications**, including a 2023 systematic review/meta-analysis.
-> The remaining 9 predicted indications (including several rare MDS-spectrum and sarcoma subtypes) currently have weak-to-no direct evidence and are held pending further data.
+> Arsentrioxide (DB01169) ist ein etabliertes antineoplastisches Arsenical mit Akuter Promyelozytärer Leukämie (APL) als gut dokumentierte Originalindikation in den hier überprüften Evidenzen aus klinischen Studien.
+> Von den 10 von TxGNN vorhergesagten neuen Indikationen in diesem Kandidatenpaket zeigt das **Myelodysplastische Syndrom (MDS)** bei weitem die stärksten unterstützenden Evidenzen,
+> mit **23 klinischen Studien** (einschließlich einer Phase-2/3-Studie mit 2.000 Patienten) und **23 Publikationen**, einschließlich einer systematischen Übersichtsarbeit/Meta-Analyse von 2023.
+> Die übrigen 9 vorhergesagten Indikationen (einschließlich mehrerer seltener MDS-Spektrum- und Sarkom-Subtypen) zeigen derzeit schwache bis keine direkten Evidenzen und werden bis zu weiteren Daten zurückgestellt.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Artikel | Inhalt |
 |------|------|
-| Original Indication | Acute Promyelocytic Leukemia (APL) — inferred from trial descriptions in this evidence pack (e.g., NCT01404949: "an approved medicine for APL"); not separately documented in German licensing data, as the drug is currently unmarketed |
-| Predicted New Indication | Myelodysplastic Syndrome (MDS) |
-| TxGNN Prediction Score | 99.91% |
-| Evidence Level | L2 |
-| Germany Market Status | ✗ Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Originalindikation | Akute Promyelozytäre Leukämie (APL) — abgeleitet aus Studienbeschreibungen in diesem Evidenzpaket (z.B. NCT01404949: „ein zugelassenes Medikament für APL"); nicht separat in deutschen Zulassungsdaten dokumentiert, da das Arzneimittel derzeit nicht vermarktet wird |
+| Vorhergesagte neue Indikation | Myelodysplastisches Syndrom (MDS) |
+| TxGNN-Vorhersage-Score | 99.91% |
+| Evidenzstufe | L2 |
+| Marktstatus Deutschland | ✗ Nicht vermarktet (Nicht vermarktet) |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Mit Schutzmaßnahmen vorantreiben |
 
-**Note:** This is a multi-indication candidate pack. See "All Predicted Indications" below for the other 9 candidates, most of which remain at Hold due to insufficient evidence.
+**Hinweis:** Dies ist ein Kandidatenpaket mit mehreren Indikationen. Siehe „Alle vorhergesagten Indikationen" unten für die anderen 9 Kandidaten, von denen die meisten aufgrund unzureichender Evidenzen zurückgestellt werden.
 
 ---
 
-## All Predicted Indications (Overview)
+## Alle vorhergesagten Indikationen (Übersicht)
 
-| Rank | Disease | TxGNN Score | Evidence Level | Decision Stage | Recommendation |
+| Rang | Erkrankung | TxGNN-Score | Evidenzstufe | Entscheidungsstufe | Empfehlung |
 |------|---------|------|------|------|------|
-| 1 | Unclassified myelodysplastic syndrome | 99.93% | L5 | S0 | Hold |
-| 2 | Refractory cytopenia of childhood | 99.93% | L4 | S0 | Hold |
-| 3 | Severe congenital hypochromic anemia with ringed sideroblasts | 99.93% | L5 | S0 | Hold |
-| 4 | Aregenerative anemia (aplastic anemia) | 99.92% | L3 | S1 | Research Question |
-| 5 | Partial deletion of long arm of chromosome 5 (5q- syndrome) | 99.92% | L5 | S0 | Hold |
-| **6** | **Myelodysplastic syndrome** | **99.91%** | **L2** | **S2** | **Proceed with Guardrails** |
-| 7 | Ewing sarcoma | 99.89% | L3 | S1 | Research Question |
-| 8 | Dermatofibrosarcoma protuberans | 99.77% | L5 | S0 | Hold |
-| 9 | Liposarcoma | 99.75% | L5 | S0 | Hold |
-| 10 | Ovarian myxoid liposarcoma | 99.70% | L5 | S0 | Hold |
+| 1 | Nicht klassifiziertes myelodysplastisches Syndrom | 99.93% | L5 | S0 | Zurückgestellt |
+| 2 | Refraktäre Zytopenie des Kindesalters | 99.93% | L4 | S0 | Zurückgestellt |
+| 3 | Schwere kongenitale hypochrome Anämie mit Ringsiederoblasten | 99.93% | L5 | S0 | Zurückgestellt |
+| 4 | Aregenerative Anämie (aplastische Anämie) | 99.92% | L3 | S1 | Forschungsfrage |
+| 5 | Partielle Deletion des langen Arms von Chromosom 5 (5q-Syndrom) | 99.92% | L5 | S0 | Zurückgestellt |
+| **6** | **Myelodysplastisches Syndrom** | **99.91%** | **L2** | **S2** | **Mit Schutzmaßnahmen vorantreiben** |
+| 7 | Ewing-Sarkom | 99.89% | L3 | S1 | Forschungsfrage |
+| 8 | Dermatofibrosarkom protuberans | 99.77% | L5 | S0 | Zurückgestellt |
+| 9 | Liposarkom | 99.75% | L5 | S0 | Zurückgestellt |
+| 10 | Ovarielles myxoides Liposarkom | 99.70% | L5 | S0 | Zurückgestellt |
 
-The rest of this report focuses on **Myelodysplastic Syndrome (rank 6)**, the only candidate with sufficient evidence to move past S0/S1.
-
----
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available (flagged as a data gap in DrugBank). Based on the evidence assembled in this pack, arsenic trioxide's mechanistic activity — ROS-dependent apoptosis induction, NF-κB pathway inhibition, and modulation of BCL2-family anti-apoptotic proteins — is described consistently across the MDS-related preclinical and mechanistic literature (e.g., PMID 16105982, 22964015).
-
-Both APL and MDS are clonal hematopoietic disorders originating from abnormal myeloid progenitor populations, and MDS can itself progress to acute myeloid leukemia. This shared clonal biology is the theoretical basis for repurposing: arsenic trioxide's established ability to eliminate an abnormal malignant clone (PML-RARA+ cells in APL) is mechanistically plausible for eliminating dysplastic clones in MDS. The evidence pack also documents an additional, distinct rationale — ATO's regulation of the Treg/Th17 immune axis and IFN-γ/IL-17/TGF-β1 cytokine balance — supporting activity in immune-mediated marrow failure states more broadly (relevant to the aplastic anemia and childhood cytopenia candidates ranked 2 and 4).
-
-Clinically, this mechanistic plausibility is reinforced by an extensive and long-running clinical trial program (1997–2025) specifically testing arsenic trioxide, alone or combined with hypomethylating agents (decitabine, azacitidine), in MDS populations — including one large completed Phase 2/3 program (n=2,000) and a completed Phase 2 randomized comparison against decitabine-based regimens (n=92).
+Der Rest dieses Berichts konzentriert sich auf das **Myelodysplastische Syndrom (Rang 6)**, der einzige Kandidat mit ausreichenden Evidenzen, um über S0/S1 hinauszugehen.
 
 ---
 
-## Clinical Trial Evidence
+## Warum ist diese Vorhersage sinnvoll?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Derzeit sind detaillierte Wirkmechanismus-Daten nicht verfügbar (als Datenlücke in DrugBank gekennzeichnet). Basierend auf den in diesem Paket zusammengestellten Evidenzen wird die mechanistische Aktivität von Arsentrioxide — ROS-abhängige Apoptose-Induktion, NF-κB-Signalweg-Hemmung und Modulation anti-apoptotischer BCL2-Familienproteine — konsistent in der MDS-bezogenen präklinischen und mechanistischen Literatur beschrieben (z.B. PMID 16105982, 22964015).
+
+Sowohl APL als auch MDS sind klonale hämatopoietische Störungen, die von abnormalen Myeloid-Progenitor-Populationen herrühren, und MDS kann selbst zu akuter myeloischer Leukämie fortschreiten. Diese gemeinsame klonale Biologie ist die theoretische Grundlage für die Umwidmung: Die etablierte Fähigkeit von Arsentrioxide, einen abnormalen malignen Klon zu eliminieren (PML-RARA+-Zellen in APL), ist mechanistisch plausibel für die Eliminierung dysplastischer Klone bei MDS. Das Evidenzpaket dokumentiert auch eine zusätzliche, unterschiedliche Rationale — ATO's Regulierung der Treg/Th17-Immunachse und des IFN-γ/IL-17/TGF-β1-Zytokin-Gleichgewichts — stützt Aktivität bei immunvermittelten Knochenmarkversagenzuständen im Allgemeinen (relevant für die aplastische Anämie und Kandidaten der Kindheitszytopenie in den Rängen 2 und 4).
+
+Klinisch wird diese mechanistische Plausibilität durch ein umfangreiches und lange andauerndes klinisches Studienprogramm (1997–2025) gestützt, das speziell Arsentrioxide, allein oder kombiniert mit hypomethylierenden Wirkstoffen (Decitabin, Azacitidin), in MDS-Populationen prüft — einschließlich eines großen abgeschlossenen Phase-2/3-Programms (n=2.000) und eines abgeschlossenen Phase-2-randomisierten Vergleichs gegen decitabinhaltige Regime (n=92).
+
+---
+
+## Klinische Studienevidenz
+
+| Studiennummer | Phase | Status | Einschreibung | Wichtigste Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT00454480](https://clinicaltrials.gov/study/NCT00454480) | Phase 2/3 | Completed | 2000 | Large treatment-development program for older AML/high-risk MDS patients; most direct large-scale evidence base |
-| [NCT02190695](https://clinicaltrials.gov/study/NCT02190695) | Phase 2 | Completed | 92 | Randomized comparison of decitabine vs. decitabine+carboplatin vs. decitabine+arsenic trioxide in relapsed/refractory/elderly AML and MDS |
-| [NCT00195104](https://clinicaltrials.gov/study/NCT00195104) | Phase 1/2 | Completed | 87 | ATO combined with low-dose cytosine arabinoside in high-risk MDS and poor-prognosis AML |
-| [NCT00003885](https://clinicaltrials.gov/study/NCT00003885) | Phase 2 | Unknown | 60 | ATO monotherapy in relapsed/refractory acute leukemia, CML blast crisis, and MDS |
-| [NCT00251511](https://clinicaltrials.gov/study/NCT00251511) | Phase 2 | Terminated | 60 | Trisenox plus thalidomide across low- to high-risk MDS (IPSS-defined) |
-| [NCT00803530](https://clinicaltrials.gov/study/NCT00803530) | Phase 2 | Terminated | 55 | Multicenter trial of ATO plus ascorbic acid in MDS |
-| [NCT00093366](https://clinicaltrials.gov/study/NCT00093366) | Phase 1/2 | Completed | 32 | ATO combined with etanercept in advanced-stage MDS |
-| [NCT06778187](https://clinicaltrials.gov/study/NCT06778187) | Phase 2 | Recruiting | 30 | Oral arsenic trioxide (Arsenol®)-based low-intensity therapy in TP53-mutated MDS/AML/CMML |
-| [NCT00274781](https://clinicaltrials.gov/study/NCT00274781) | Phase 2 | Completed | 30 | ATO combined with gemtuzumab ozogamicin in advanced MDS |
-| [NCT00621023](https://clinicaltrials.gov/study/NCT00621023) | Phase 2 | Completed | 7 | Pilot study of decitabine, ATO, and ascorbic acid combination safety in MDS |
+| [NCT00454480](https://clinicaltrials.gov/study/NCT00454480) | Phase 2/3 | Abgeschlossen | 2000 | Großes Behandlungs-Entwicklungsprogramm für ältere AML/hochrisiko-MDS-Patienten; direkteste große Evidenzbasis |
+| [NCT02190695](https://clinicaltrials.gov/study/NCT02190695) | Phase 2 | Abgeschlossen | 92 | Randomisierter Vergleich von Decitabin vs. Decitabin+Carboplatin vs. Decitabin+Arsentrioxide bei rezidivierender/refraktärer/älterer AML und MDS |
+| [NCT00195104](https://clinicaltrials.gov/study/NCT00195104) | Phase 1/2 | Abgeschlossen | 87 | ATO kombiniert mit niedrig dosiertem Cytosin-Arabinosid bei hochrisiko-MDS und schlecht prognostizierter AML |
+| [NCT00003885](https://clinicaltrials.gov/study/NCT00003885) | Phase 2 | Unbekannt | 60 | ATO-Monotherapie bei rezidivierender/refraktärer akuter Leukämie, CML-Blastenkrise und MDS |
+| [NCT00251511](https://clinicaltrials.gov/study/NCT00251511) | Phase 2 | Beendet | 60 | Trisenox plus Thalidomid über niedrig bis hochrisiko-MDS (nach IPSS definiert) |
+| [NCT00803530](https://clinicaltrials.gov/study/NCT00803530) | Phase 2 | Beendet | 55 | Multizenter-Studie von ATO plus Ascorbinsäure bei MDS |
+| [NCT00093366](https://clinicaltrials.gov/study/NCT00093366) | Phase 1/2 | Abgeschlossen | 32 | ATO kombiniert mit Etanercept bei fortgeschrittenem Stadium MDS |
+| [NCT06778187](https://clinicaltrials.gov/study/NCT06778187) | Phase 2 | Rekrutiert | 30 | Orales Arsentrioxide (Arsenol®)-basierte niedrig intensive Therapie bei TP53-mutiertem MDS/AML/CMML |
+| [NCT00274781](https://clinicaltrials.gov/study/NCT00274781) | Phase 2 | Abgeschlossen | 30 | ATO kombiniert mit Gemtuzumab-Ozogamicin bei fortgeschrittenem MDS |
+| [NCT00621023](https://clinicaltrials.gov/study/NCT00621023) | Phase 2 | Abgeschlossen | 7 | Pilotstudie zur Sicherheit der Kombination Decitabin, ATO und Ascorbinsäure bei MDS |
 
 ---
 
-## Literature Evidence
+## Literaturevidenz
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Journal | Wichtigste Ergebnisse |
 |------|-----|------|------|---------|
-| [37908176](https://pubmed.ncbi.nlm.nih.gov/37908176/) | 2023 | Review/Meta-analysis | Hematology (Amsterdam) | Systematic review and component network meta-analysis of ATO-containing regimens for MDS efficacy and adverse events |
-| [40167011](https://pubmed.ncbi.nlm.nih.gov/40167011/) | 2025 | Cohort | Hematology (Amsterdam) | Retrospective study of decitabine + ATO efficacy/safety in elderly high-risk MDS |
-| [20425329](https://pubmed.ncbi.nlm.nih.gov/20425329/) | 2006 | Clinical Study | Curr Hematol Malig Rep | Review of ATO as MDS therapy via proapoptotic, antiproliferative, antiangiogenic mechanisms |
-| [15610661](https://pubmed.ncbi.nlm.nih.gov/15610661/) | 2005 | Clinical Study | Curr Hematol Rep | Earlier review of ATO's role and mechanism in MDS treatment |
-| [18282365](https://pubmed.ncbi.nlm.nih.gov/18282365/) | 2007 | Review | Clin Lymphoma Myeloma | New clinical data on ATO in leukemias and MDS |
-| [14633782](https://pubmed.ncbi.nlm.nih.gov/14633782/) | 2003 | Review | Hematology ASH Educ Program | Overview of MDS pathophysiology and treatment landscape |
-| [20956016](https://pubmed.ncbi.nlm.nih.gov/20956016/) | 2011 | Clinical Study | Leukemia Research | Phase 1/2 study of ATO + low-dose cytarabine in intermediate-2/high-risk MDS (49 patients, CR 17%) |
-| [17920679](https://pubmed.ncbi.nlm.nih.gov/17920679/) | 2008 | Clinical Study | Leukemia Research | ATO + thalidomide + retinoic acid combination in higher-risk MDS |
-| [31775455](https://pubmed.ncbi.nlm.nih.gov/31775455/) | 2019 | Clinical Study | Zhonghua Nei Ke Za Zhi | Retrospective safety/efficacy of low-dose subcutaneous decitabine + ATO in intermediate/high-risk MDS (11 patients) |
-| [16651644](https://pubmed.ncbi.nlm.nih.gov/16651644/) | 2006 | Commentary/Review | J Clin Oncol | Critical appraisal of whether IV arsenic trioxide is a useful MDS therapy |
+| [37908176](https://pubmed.ncbi.nlm.nih.gov/37908176/) | 2023 | Übersicht/Meta-Analyse | Hematology (Amsterdam) | Systematische Übersichtsarbeit und Komponenten-Netzwerk-Meta-Analyse von ATO-haltigen Regime für MDS-Wirksamkeit und unerwünschte Ereignisse |
+| [40167011](https://pubmed.ncbi.nlm.nih.gov/40167011/) | 2025 | Kohorte | Hematology (Amsterdam) | Retrospektive Studie zur Wirksamkeit/Sicherheit von Decitabin + ATO bei älteren hochrisiko-MDS-Patienten |
+| [20425329](https://pubmed.ncbi.nlm.nih.gov/20425329/) | 2006 | Klinische Studie | Curr Hematol Malig Rep | Übersicht von ATO als MDS-Therapie über proapoptotische, antiproliferative, antiangiogene Mechanismen |
+| [15610661](https://pubmed.ncbi.nlm.nih.gov/15610661/) | 2005 | Klinische Studie | Curr Hematol Rep | Frühere Übersicht zur Rolle und zum Mechanismus von ATO bei MDS-Behandlung |
+| [18282365](https://pubmed.ncbi.nlm.nih.gov/18282365/) | 2007 | Übersicht | Clin Lymphoma Myeloma | Neue klinische Daten zu ATO bei Leukämien und MDS |
+| [14633782](https://pubmed.ncbi.nlm.nih.gov/14633782/) | 2003 | Übersicht | Hematology ASH Educ Program | Überblick über MDS-Pathophysiologie und Behandlungslandschaft |
+| [20956016](https://pubmed.ncbi.nlm.nih.gov/20956016/) | 2011 | Klinische Studie | Leukemia Research | Phase-1/2-Studie von ATO + niedrig dosiertem Cytosin-Arabinosid bei intermediate-2/hochrisiko-MDS (49 Patienten, CR 17%) |
+| [17920679](https://pubmed.ncbi.nlm.nih.gov/17920679/) | 2008 | Klinische Studie | Leukemia Research | ATO + Thalidomid + Retinolsäure-Kombination bei höherrisiko-MDS |
+| [31775455](https://pubmed.ncbi.nlm.nih.gov/31775455/) | 2019 | Klinische Studie | Zhonghua Nei Ke Za Zhi | Retrospektive Sicherheit/Wirksamkeit von niedrig dosiertem subkutanem Decitabin + ATO bei intermediate/hochrisiko-MDS (11 Patienten) |
+| [16651644](https://pubmed.ncbi.nlm.nih.gov/16651644/) | 2006 | Kommentar/Übersicht | J Clin Oncol | Kritische Bewertung, ob IV-Arsentrioxide eine nützliche MDS-Therapie ist |
 
 ---
 
-## Germany Market Information
+## Deutschland Marktinformation
 
-Currently not marketed in Germany. No authorization records are available in this evidence pack (total_licenses = 0).
+Derzeit nicht vermarktet in Deutschland. Keine Zulassungsdaten sind in diesem Evidenzpaket verfügbar (total_licenses = 0).
 
 ---
 
-## Cytotoxicity
+## Zytotoxizität
 
-**This drug is classified as antineoplastic** (established cytotoxic/apoptosis-inducing arsenical; original clinical use documented in this pack is APL).
+**Dieses Arzneimittel ist als antineoplastisches Mittel klassifiziert** (etabliertes zytotoxisches/Apoptose-induzierendes Arsenical; ursprüngliche klinische Anwendung in diesem Paket dokumentiert ist APL).
 
-| Item | Content |
+| Artikel | Inhalt |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic — arsenical apoptosis-inducing agent |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| Zytotoxizitäts-Klassifizierung | Konventionelle Zytotoxizität — Arsenical-Apoptose-induzierendes Mittel |
+| Myelosuppressionsrisiko | Bitte beachten Sie die Warnungen und Vorsichtsmaßnahmen in der Packungsbeilage |
+| Emetogenitäts-Klassifizierung | Bitte beachten Sie die Warnungen und Vorsichtsmaßnahmen in der Packungsbeilage |
+| Überwachungspunkte | Bitte beachten Sie die Warnungen und Vorsichtsmaßnahmen in der Packungsbeilage |
+| Handhabungsschutz | Bitte beachten Sie die Warnungen und Vorsichtsmaßnahmen in der Packungsbeilage |
 
 ---
 
-## Safety Considerations
+## Sicherheitserwägungen
 
-Please refer to the package insert for safety information.
+Bitte beachten Sie die Sicherheitsinformationen in der Packungsbeilage.
 
 ---
 
-## Conclusion and Next Steps
+## Fazit und nächste Schritte
 
-**Decision: Proceed with Guardrails** (for Myelodysplastic Syndrome specifically)
+**Entscheidung: Mit Schutzmaßnahmen vorantreiben** (speziell für Myelodysplastisches Syndrom)
 
 **Rationale:**
-Among the 10 predicted indications, MDS is the only one supported by L2-level evidence — a large completed Phase 2/3 program (n=2,000), a completed randomized Phase 2 comparison (n=92), a 2023 systematic review/meta-analysis, and a decades-long, mechanistically coherent clinical trial program combining ATO with hypomethylating agents. The remaining 9 candidates (including aplastic anemia and Ewing sarcoma, both flagged as "Research Question") lack sufficient direct evidence and remain at Hold.
+Unter den 10 vorhergesagten Indikationen ist MDS die einzige, die durch L2-Evidenzen unterstützt wird — ein großes abgeschlossenes Phase-2/3-Programm (n=2.000), ein abgeschlossener randomisierter Phase-2-Vergleich (n=92), eine systematische Übersichtsarbeit/Meta-Analyse von 2023 und ein jahrzehntelanges, mechanistisch kohärentes klinisches Studienprogramm, das ATO mit hypomethylierenden Wirkstoffen kombiniert. Die übrigen 9 Kandidaten (einschließlich aplastischer Anämie und Ewing-Sarkom, beide als „Forschungsfrage" gekennzeichnet) zeigen unzureichende direkte Evidenzen und bleiben zurückgestellt.
 
-**To proceed, the following is needed:**
-- Official package insert (TFDA/EMA) warnings, contraindications, and DDI data — currently a **Blocking** data gap (DG001)
-- Formal MOA documentation via DrugBank query — currently a **High**-severity data gap (DG002)
-- Since the drug is unmarketed in Germany, confirm formulation/route availability before any regional development plan
-- For aplastic anemia and Ewing sarcoma (Research Question stage), commission targeted preclinical/clinical validation before advancing further
-- No near-term action recommended for the remaining 7 low-evidence (L4–L5) candidates
+**Um weiterzugehen, ist Folgendes erforderlich:**
+- Offizielle Packungsbeilage (TFDA/EMA) Warnungen, Kontraindikationen und DDI-Daten — derzeit eine **blockierende** Datenlücke (DG001)
+- Formale MOA-Dokumentation über DrugBank-Abfrage — derzeit eine **hochgradig** schwerwiegende Datenlücke (DG002)
+- Da das Arzneimittel in Deutschland nicht vermarktet ist, bestätigen Sie die Verfügbarkeit der Formulierung/des Applikationsweges vor einem regionalen Entwicklungsplan
+- Für aplastische Anämie und Ewing-Sarkom (Forschungsfrage-Phase), beauftragen Sie gezielte präklinische/klinische Validierung vor weiterer Unterstützung
+- Keine kurzfristige Maßnahme empfohlen für die verbleibenden 7 niedrig bewerteten (L4–L5) Kandidaten
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

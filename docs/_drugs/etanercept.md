@@ -29,112 +29,111 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Etanercept: From Rheumatoid Arthritis to Rheumatoid Vasculitis
+# Etanercept: Von Rheumatoider Arthritis zu Rheumatoider Vaskulitis
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Etanercept (Enbrel) is a TNF-α receptor fusion protein whose established use — reflected throughout the supporting trial and literature evidence in this pack — is rheumatoid arthritis and related inflammatory arthritides (ankylosing spondylitis, psoriatic arthritis, juvenile idiopathic arthritis).
-The TxGNN model's top-ranked new signal is **Rheumatoid Vasculitis**, but the evidence base is discordant: the only pivotal trial in a closely related vasculitis was **negative**, and multiple reports describe etanercept as a **cause** rather than a treatment of vasculitis.
-Currently **6 clinical trials** (mostly indirect) and **20 publications** are associated with this pairing.
+Etanercept (Enbrel) ist ein TNF-α-Rezeptor-Fusionprotein, dessen etablierte Anwendung – wie in den klinischen Studien und Literaturbelegen in diesem Paket dokumentiert – rheumatoide Arthritis und verwandte entzündliche Arthritiden (Spondylitis ankylosans, Psoriasis-Arthritis, juvenile idiopathische Arthritis) sind. Das TxGNN-Modell identifiziert als Top-Signal die neue Indikation **Rheumatoide Vaskulitis**, jedoch ist die Evidenzbasis widersprüchlich: Die einzige pivotale Studie in einer nah verwandten Vaskulitis war **negativ**, und mehrere Berichte beschreiben Etanercept als **Ursache** statt als Behandlung der Vaskulitis. Derzeit sind **6 klinische Studien** (überwiegend indirekt) und **20 Publikationen** mit dieser Kombination assoziiert.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
-|------|---------|
-| Original Indication | Not on file in this Evidence Pack (no BfArM/German license records); etanercept's documented approved use — evident throughout the supporting trials/literature — is rheumatoid arthritis and related inflammatory arthritides |
-| Predicted New Indication | Rheumatoid Vasculitis |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L2 |
-| Germany Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
-
----
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available in this Evidence Pack (Data Gap DG002). Based on known information, etanercept is a soluble p75 TNF-receptor–Fc fusion protein that binds and neutralizes TNF-α, a pro-inflammatory cytokine central to rheumatoid arthritis and related inflammatory arthritides. Its efficacy in these approved indications is well established both mechanistically and clinically.
-
-TNF-α is also a key mediator in vasculitic inflammation, which provides a theoretical rationale for anti-TNF therapy in rheumatoid vasculitis (a severe extra-articular manifestation of RA). This is the mechanistic logic the TxGNN model appears to be capturing.
-
-However, the highest-quality direct evidence contradicts this hypothesis. The pivotal **WGET trial** (NCT00001901, Phase I/II) testing etanercept in Wegener's granulomatosis — a closely related ANCA-associated vasculitis — was **negative** and showed an **increased malignancy signal**. Separately, a substantial body of case reports and a cohort study (BSRBR-RA) document etanercept **inducing** cutaneous and renal vasculitis as a paradoxical adverse effect rather than treating it. This is a case where a high TxGNN score is not corroborated — and is partly contradicted — by the strongest available clinical evidence.
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Nicht in diesem Evidenzpaket dokumentiert (keine BfArM/deutschen Lizenziaturunterlagen); Etanercepts dokumentierte zugelassene Anwendung – erkennbar in den unterstützenden Studien/Literatur – ist rheumatoide Arthritis und verwandte entzündliche Arthritiden |
+| Vorhergesagte neue Indikation | Rheumatoide Vaskulitis |
+| TxGNN-Vorhersage-Score | 99.71% |
+| Evidenzlevel | L2 |
+| Marktstatus in Deutschland | Nicht vermarktet (Nicht vermarktet) |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | **Zurückhalten** |
 
 ---
 
-## Clinical Trial Evidence
+## Warum ist diese Vorhersage angemessen?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Derzeit sind detaillierte Wirkmechanismus-Daten in diesem Evidenzpaket nicht verfügbar (Datenlücke DG002). Nach bekannten Informationen ist Etanercept ein lösliches p75 TNF-Rezeptor–Fc-Fusionprotein, das TNF-α bindet und neutralisiert – ein pro-entzündliches Zytokin, das zentral für rheumatoide Arthritis und verwandte entzündliche Arthritiden ist. Seine Wirksamkeit in diesen zugelassenen Indikationen ist sowohl mechanistisch als auch klinisch gut etabliert.
+
+TNF-α ist auch ein Schlüsselmediator in vaskulitischer Entzündung, was einen theoretischen Grund für Anti-TNF-Therapie bei rheumatoider Vaskulitis liefert (eine schwere extraartikuläre Manifestation von RA). Dies ist die mechanistische Logik, die das TxGNN-Modell zu erfassen scheint.
+
+Die höchste Qualität direkter Evidenz widerspricht dieser Hypothese jedoch. Die pivotale **WGET-Studie** (NCT00001901, Phase I/II), die Etanercept bei Granulomatose mit Polyangiitis testete – eine nah verwandte ANCA-assoziierte Vaskulitis – war **negativ** und zeigte ein **erhöhtes Malignitäts-Risiko**. Separate davon dokumentiert eine erhebliche Anzahl von Fallberichten und eine Kohortenstudie (BSRBR-RA), dass Etanercept **induziert** kutane und renale Vaskulitis als paradoxe unerwünschte Wirkung statt als Behandlung hervorruft. Dies ist ein Fall, in dem ein hoher TxGNN-Score nicht durch die stärkste verfügbare klinische Evidenz gestützt wird – und teilweise durch sie widersprochen wird.
+
+---
+
+## Evidenz aus klinischen Studien
+
+| Studiennummer | Phase | Status | Einschluss | Wesentliche Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT00001901](https://clinicaltrials.gov/study/NCT00001901) | Phase 1/2 | Completed | 60 | WGET study: etanercept in Wegener's granulomatosis (ANCA-associated vasculitis) — key negative result, no efficacy signal, increased malignancy risk |
-| [NCT01557322](https://clinicaltrials.gov/study/NCT01557322) | N/A | Completed | 1754 | Real-world RA treatment pathway/outcomes cohort comparing etanercept vs. non-biologic therapy; not designed for vasculitis endpoints |
-| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | N/A | Unknown | 750,000 | Large registry on risk of incident immune-mediated inflammatory disease after biologics; safety-signal background only |
-| [NCT02590562](https://clinicaltrials.gov/study/NCT02590562) | N/A | Completed | 808 | Cross-sectional study of biologic DMARD treatment patterns in RA patients in China |
-| [NCT01579006](https://clinicaltrials.gov/study/NCT01579006) | N/A | Completed | 184 | Non-interventional study of tocilizumab in RA; etanercept not the study drug |
-| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | Not yet recruiting | 80 | Perioperative immunosuppressant management in rheumatology patients undergoing shoulder arthroplasty; not vasculitis-specific |
+| [NCT00001901](https://clinicaltrials.gov/study/NCT00001901) | Phase 1/2 | Abgeschlossen | 60 | WGET-Studie: Etanercept bei Granulomatose mit Polyangiitis (ANCA-assoziierte Vaskulitis) – wesentlich negatives Ergebnis, kein Wirksamkeitssignal, erhöhtes Malignitäts-Risiko |
+| [NCT01557322](https://clinicaltrials.gov/study/NCT01557322) | N/A | Abgeschlossen | 1754 | Real-World-Studie zum RA-Behandlungsverlauf/-ergebnisse mit Vergleich Etanercept vs. nicht-biologische Therapie; nicht für Vaskulitis-Endpunkte konzipiert |
+| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | N/A | Unbekannt | 750,000 | Großes Register zum Risiko neu aufgetretener immun-vermittelter entzündlicher Erkrankungen nach Biologika; nur Sicherheitssignal-Hintergrund |
+| [NCT02590562](https://clinicaltrials.gov/study/NCT02590562) | N/A | Abgeschlossen | 808 | Querschnittsstudie zu Behandlungsmustern mit biologischen DMARDs bei RA-Patienten in China |
+| [NCT01579006](https://clinicaltrials.gov/study/NCT01579006) | N/A | Abgeschlossen | 184 | Nicht-interventionelle Studie zu Tocilizumab bei RA; Etanercept nicht das Studienmittel |
+| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | Noch nicht rekrutierend | 80 | Perioperatives Immunsuppressivum-Management bei Rheumatologie-Patienten, die sich einer Schulterarthroplastie unterziehen; nicht Vaskulitis-spezifisch |
 
 ---
 
-## Literature Evidence
+## Evidenz aus der Literatur
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Zeitschrift | Wesentliche Ergebnisse |
 |------|-----|------|------|---------|
-| [33058033](https://pubmed.ncbi.nlm.nih.gov/33058033/) | 2021 | Systematic Review | Clin Rheumatol | Systematic review of biological therapy (including anti-TNF) in rheumatoid vasculitis |
-| [28391344](https://pubmed.ncbi.nlm.nih.gov/28391344/) | 2017 | Review | Nephrol Dial Transplant | Reviews rationale and evidence for TNFα blockade in ANCA-associated vasculitis/glomerulonephritis |
-| [28123776](https://pubmed.ncbi.nlm.nih.gov/28123776/) | 2017 | Cohort (BSRBR-RA) | RMD Open | Drug-specific risk of lupus- and vasculitis-like events in RA patients treated with TNF inhibitors |
-| [15468348](https://pubmed.ncbi.nlm.nih.gov/15468348/) | 2004 | Review | J Rheumatol | TNF-alpha blockade and the risk of *inducing* vasculitis |
-| [31632872](https://pubmed.ncbi.nlm.nih.gov/31632872/) | 2019 | Case Report | Cureus | Etanercept-associated nephropathy |
-| [15853915](https://pubmed.ncbi.nlm.nih.gov/15853915/) | 2005 | Case Report/Review | Scand J Immunol | Immunology of cutaneous vasculitis associated with etanercept and infliximab |
-| [12209493](https://pubmed.ncbi.nlm.nih.gov/12209493/) | 2002 | Case Report | Arthritis Rheum | Accelerated nodulosis and vasculitis following etanercept therapy for RA |
-| [41327089](https://pubmed.ncbi.nlm.nih.gov/41327089/) | 2025 | Case Report | BMC Nephrol | RA patient developing membranous nephropathy and ANCA-associated vasculitis on biologic therapy |
-| [24854356](https://pubmed.ncbi.nlm.nih.gov/24854356/) | 2014 | Cohort | Ann Rheum Dis | Utility of ANA testing in predicting biological DMARD-induced lupus/vasculitis |
-| [17657687](https://pubmed.ncbi.nlm.nih.gov/17657687/) | 2007 | Case Report | Scand J Rheumatol | Demyelinating disease and cutaneous lymphocytic vasculitis after etanercept therapy |
+| [33058033](https://pubmed.ncbi.nlm.nih.gov/33058033/) | 2021 | Systematische Übersichtsarbeit | Clin Rheumatol | Systematische Übersichtsarbeit zu biologischer Therapie (einschließlich Anti-TNF) bei rheumatoider Vaskulitis |
+| [28391344](https://pubmed.ncbi.nlm.nih.gov/28391344/) | 2017 | Übersichtsarbeit | Nephrol Dial Transplant | Überprüfung der Begründung und Evidenz für TNFα-Blockade in ANCA-assoziierter Vaskulitis/Glomerulonephritis |
+| [28123776](https://pubmed.ncbi.nlm.nih.gov/28123776/) | 2017 | Kohortenstudie (BSRBR-RA) | RMD Open | Arzneistoff-spezifisches Risiko von Lupus- und Vaskulitis-ähnlichen Ereignissen bei RA-Patienten, die mit TNF-Hemmern behandelt wurden |
+| [15468348](https://pubmed.ncbi.nlm.nih.gov/15468348/) | 2004 | Übersichtsarbeit | J Rheumatol | TNF-alpha-Blockade und das Risiko, *Vaskulitis zu induzieren* |
+| [31632872](https://pubmed.ncbi.nlm.nih.gov/31632872/) | 2019 | Fallbericht | Cureus | Etanercept-assoziierte Nephropathie |
+| [15853915](https://pubmed.ncbi.nlm.nih.gov/15853915/) | 2005 | Fallbericht/Übersichtsarbeit | Scand J Immunol | Immunologie kutaner Vaskulitis assoziiert mit Etanercept und Infliximab |
+| [12209493](https://pubmed.ncbi.nlm.nih.gov/12209493/) | 2002 | Fallbericht | Arthritis Rheum | Beschleunigte Nodulosis und Vaskulitis nach Etanercept-Therapie für RA |
+| [41327089](https://pubmed.ncbi.nlm.nih.gov/41327089/) | 2025 | Fallbericht | BMC Nephrol | RA-Patient entwickelt membranöse Nephropathie und ANCA-assoziierte Vaskulitis unter biologischer Therapie |
+| [24854356](https://pubmed.ncbi.nlm.nih.gov/24854356/) | 2014 | Kohortenstudie | Ann Rheum Dis | Nutzen von ANA-Tests bei Vorhersage biologisch-induziertem Lupus/Vaskulitis |
+| [17657687](https://pubmed.ncbi.nlm.nih.gov/17657687/) | 2007 | Fallbericht | Scand J Rheumatol | Demyelinierende Erkrankung und kutane lymphozytäre Vaskulitis nach Etanercept-Therapie |
 
 ---
 
-## Germany Market Information
+## Marktinformationen für Deutschland
 
-Etanercept is **not currently marketed in Germany** under this Evidence Pack's regulatory record (0 authorizations on file). No BfArM license entries are available to summarize.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information (all structured safety fields — key warnings, contraindications, DDI — are data gaps in this pack; DG001, Blocking).
-
-**Note derived from the literature evidence above:** multiple case reports and a registry cohort (BSRBR-RA) specifically document etanercept-associated **drug-induced cutaneous and renal vasculitis** and lupus-like syndromes as adverse effects. This paradoxical safety signal is directly relevant to evaluating this repurposing candidate and should be weighed alongside the missing formal safety data.
+Etanercept wird **derzeit nicht in Deutschland vermarktet** nach dem Regulierungsbericht dieses Evidenzpakets (0 Autorisierungen dokumentiert). Keine BfArM-Lizenzeinträge sind verfügbar zusammengefasst.
 
 ---
 
-## Context: Other TxGNN Predictions in This Multi-Indication Pack
+## Sicherheitsüberlegungen
 
-This Evidence Pack scored 6 candidate indications for etanercept. For transparency:
+Bitte konsultieren Sie die Packungsbeilage für Sicherheitsinformationen (alle strukturierten Sicherheitsfelder – Schlüsselwarnungen, Gegenanzeigen, Arzneimittelwechselwirkungen – sind Datenlücken in diesem Paket; DG001, Blocking).
 
-| Rank | Disease | Evidence Level | Recommendation | Note |
+**Anmerkung, die sich aus der obigen Literaturevidence ergibt:** mehrere Fallberichte und eine Register-Kohorte (BSRBR-RA) dokumentieren spezifisch Etanercept-assoziierte **arzneimittelinduzierte kutane und renale Vaskulitis** und Lupus-ähnliche Syndrome als unerwünschte Wirkungen. Dieses paradoxe Sicherheitssignal ist direkt relevant zur Bewertung dieses Umnutzungs-Kandidaten und sollte neben den fehlenden formalen Sicherheitsdaten gewichtet werden.
+
+---
+
+## Kontext: Andere TxGNN-Vorhersagen in diesem Multi-Indikations-Paket
+
+Dieses Evidenzpaket bewertete 6 Kandidaten-Indikationen für Etanercept. Zur Transparenz:
+
+| Rang | Erkrankung | Evidenzlevel | Empfehlung | Anmerkung |
 |------|---------|------|------|------|
-| 2 | Hypermobility of coccyx | L5 | Hold | No mechanistic link; likely knowledge-graph proximity artifact |
-| 3 | Inflammatory spondylopathy | L1 | Proceed with Guardrails | **Not a new indication** — synonym for ankylosing spondylitis, already an approved etanercept use |
-| 4 | Kummell disease | L5 | Hold | No mechanistic link (avascular vertebral collapse, unrelated to TNF pathway) |
-| 5 | Polyarticular juvenile RA | L1 | Proceed with Guardrails | **Not a new indication** — already an approved pediatric etanercept use |
-| 6 | Vertebral disease | L2 | Research Question | Ambiguous term; evidence mixed on long-term radiographic/structural effect |
+| 2 | Hypermobilität des Steißbeins | L5 | Zurückhalten | Kein mechanistischer Zusammenhang; wahrscheinlich Wissensgraph-Nähe-Artefakt |
+| 3 | Entzündliche Spondylopathie | L1 | Mit Vorsichtsmaßnahmen fortfahren | **Nicht neue Indikation** – Synonym für Spondylitis ankylosans, bereits zugelassene Etanercept-Anwendung |
+| 4 | Kummell-Krankheit | L5 | Zurückhalten | Kein mechanistischer Zusammenhang (avaskulärer Wirbelkörper-Kollaps, unabhängig vom TNF-Weg) |
+| 5 | Polyartikuläre juvenile RA | L1 | Mit Vorsichtsmaßnahmen fortfahren | **Nicht neue Indikation** – bereits zugelassene pädiatrische Etanercept-Anwendung |
+| 6 | Wirbelkörper-Erkrankung | L2 | Forschungsfrage | Mehrdeutige Begrifflichkeit; gemischte Evidenz zur langfristigen radiologischen/strukturellen Wirkung |
 
-Ranks 3 and 5 are re-confirmations of existing approved uses, not repurposing candidates — they should not be treated as novel signals.
+Ränge 3 und 5 sind Bestätigungen bereits bestehender zugelassener Anwendungen, keine Umnutzungs-Kandidaten – sie sollten nicht als neuartige Signale behandelt werden.
 
 ---
 
-## Conclusion and Next Steps
+## Schlussfolgerung und nächste Schritte
 
-**Decision: Hold**
+**Entscheidung: Zurückhalten**
 
-**Rationale:**
-Although TxGNN assigns a high prediction score to rheumatoid vasculitis, the strongest available direct evidence (the WGET Phase I/II trial in a closely related ANCA-associated vasculitis) was negative and flagged an increased malignancy risk, and multiple independent reports document etanercept-*induced* vasculitis as a known paradoxical adverse effect. The mechanistic hypothesis is not supported — and is partly contradicted — by clinical evidence.
+**Begründung:**
+Obwohl TxGNN der rheumatoiden Vaskulitis einen hohen Vorhersage-Score zuweist, widerspricht die stärkste verfügbare direkte Evidenz (die WGET Phase I/II-Studie in einer nah verwandten ANCA-assoziierten Vaskulitis) dies und kennzeichnete ein erhöhtes Malignitäts-Risiko, und mehrere unabhängige Berichte dokumentieren Etanercept-*induzierte* Vaskulitis als bekannte paradoxe unerwünschte Wirkung. Die mechanistische Hypothese wird nicht gestützt – und wird teilweise durch klinische Evidenz widersprochen.
 
-**To proceed, the following is needed:**
-- Resolve Blocking Data Gap DG001 (TFDA/BfArM label warnings and contraindications) before any S1 safety evaluation
-- Obtain formal MOA documentation (DG002) to properly assess mechanistic plausibility
-- Clarify whether "rheumatoid vasculitis" (RA-associated small-vessel vasculitis) is mechanistically distinct enough from ANCA-associated vasculitis (WGET population) to justify reconsideration
-- If pursued further, a dedicated pharmacovigilance review of etanercept-induced vasculitis case reports is required before any prospective study design
+**Um fortzufahren, ist Folgendes erforderlich:**
+- Blocking-Datenlücke DG001 (TFDA/BfArM-Kennzeichnungswarnungen und Gegenanzeigen) vor jeder S1-Sicherheitsbewertung aufklären
+- Formale MOA-Dokumentation (DG002) erhalten, um mechanistische Plausibilität angemessen zu beurteilen
+- Klären Sie, ob „rheumatoide Vaskulitis" (RA-assoziierte Kleinvaskulitis) mechanistisch ausreichend unterschiedlich von ANCA-assoziierter Vaskulitis (WGET-Population) ist, um eine Neubewertung zu rechtfertigen
+- Falls weiter verfolgt, ist eine dedizierte Pharmakovigilanz-Übersicht der Etanercept-induzierten Vaskulitis-Fallberichte erforderlich, bevor ein prospektives Studiendesign entwickelt wird
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

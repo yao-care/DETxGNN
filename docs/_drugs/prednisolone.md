@@ -29,96 +29,97 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Prednisolone: From Original Indication (Not Specified in Evidence Pack) to Alopecia Areata
+# Prednisolon: Von Originalindikation (im Evidenzpaket nicht angegeben) zu Alopecia Areata
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> The evidence pack does not record prednisolone's original approved indication, and no German (BfArM) marketing authorization currently exists for this product.
-> The TxGNN model predicts it may be effective for **Alopecia Areata**,
-> with **19 clinical trials retrieved** (several directly relevant) and **20 publications**, including one placebo-controlled RCT, currently supporting this direction.
+> Das Evidenzpaket dokumentiert nicht die ursprüngliche zugelassene Indikation für Prednisolon, und es existiert derzeit keine deutsche (BfArM) Marktzulassung für dieses Arzneimittel. Das TxGNN-Modell prognostiziert, dass es möglicherweise wirksam gegen Alopecia Areata ist, wobei 19 klinische Studien ermittelt wurden (mehrere unmittelbar relevant) und 20 Publikationen, einschließlich einer placebokontrollierten RCT, diese Richtung derzeit stützen.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Punkt | Inhalt |
 |------|------|
-| Original Indication | Not specified — no `original_indications` data available in the evidence pack |
-| Predicted New Indication | Alopecia Areata |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L2 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Originalindikation | Nicht angegeben – keine `original_indications`-Daten im Evidenzpaket verfügbar |
+| Prognostizierte neue Indikation | Alopecia Areata |
+| TxGNN-Prognosescore | 99.99% |
+| Evidenzstufe | L2 |
+| Deutschland-Marktstatus | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Mit Schutzmaßnahmen voranschreiten |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage plausibel?
 
-Currently, detailed mechanism of action (MOA) data for prednisolone is not available in the evidence pack, and no original indication is recorded in this dataset. This is flagged as a High-severity data gap (DG002) that limits formal mechanistic-linkage analysis.
+Derzeit sind detaillierte Wirkmechanismus-Daten (MOA) für Prednisolon im Evidenzpaket nicht verfügbar, und keine Originalindikation ist in diesem Datensatz dokumentiert. Dies wird als Datenlücke mit hohem Schweregrad (DG002) gekennzeichnet, die eine formale mechanistische Verknüpfungsanalyse einschränkt.
 
-Based on the repurposing rationale associated with this prediction, prednisolone is a systemic corticosteroid. Alopecia areata is understood to be a CD8⁺ T-cell-mediated autoimmune attack on the hair follicle, and systemic corticosteroids — particularly given as pulse therapy — are already an established treatment option for moderate-to-severe or treatment-resistant AA in real-world dermatology practice. This gives the prediction a plausible mechanistic basis (immunosuppression of the autoimmune follicular attack) even without a documented original indication.
+Basierend auf der mit dieser Prognose verbundenen Neunutzungsrationale ist Prednisolon ein systemisches Kortikosteroid. Es wird angenommen, dass Alopecia Areata ein CD8⁺-T-Zellen-vermittelter autoimmuner Angriff auf den Haarfollikel ist, und systemische Kortikosteroide – besonders wenn als Pulstherapie gegeben – sind bereits eine etablierte Behandlungsoption für mittelschwere bis schwere oder therapieresistente AA in der klinischen Dermatologiepraxis. Dies gibt der Prognose eine plausible mechanistische Grundlage (Immunsuppression des autoimmunen Follikelangriffs), auch ohne dokumentierte Originalindikation.
 
-Supporting this, a completed Phase 4 trial (NCT01167946) directly tested oral pulse methylprednisolone (a closely related glucocorticoid) in severe therapy-resistant AA, and a placebo-controlled RCT (PMID 15692475) specifically evaluated oral pulse **prednisolone** in AA. Several additional cohort studies and reviews on corticosteroid pulse therapy in AA reinforce that this class of drug already has an established clinical role in this indication, which is consistent with — and independently corroborates — the TxGNN prediction.
+Dies wird unterstützt durch eine abgeschlossene Phase-4-Studie (NCT01167946), die direkt Methylprednisolon-Pulstherapie (ein eng verwandtes Glukokortikoid) bei schwerer therapieresistenter AA testete, und eine placebokontrollierte RCT (PMID 15692475), die spezifisch die Prednisolon-Pulstherapie bei AA evaluierte. Mehrere zusätzliche Kohortenstudien und Reviews zur Kortikosteroid-Pulstherapie bei AA bestätigen, dass diese Wirkstoffklasse bereits eine etablierte klinische Rolle in dieser Indikation hat, was konsistent mit – und unabhängig unterstützt – die TxGNN-Prognose.
 
 ---
 
-## Clinical Trial Evidence
+## Evidenz aus klinischen Studien
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Studiennummer | Phase | Status | Einschreibung | Wichtigste Erkenntnisse |
 |---------|------|------|------|---------|
-| [NCT01167946](https://clinicaltrials.gov/study/NCT01167946) | Phase 4 | Completed | 42 | Oral mega-pulse methylprednisolone (same corticosteroid class) evaluated in severe therapy-resistant alopecia areata, including totalis/universalis/ophiasic types; investigated whether higher/more frequent pulse dosing improves response. |
-| [NCT07101471](https://clinicaltrials.gov/study/NCT07101471) | N/A | Completed | 296 | Observational safety/effectiveness study of tofacitinib in alopecia, with participants receiving treatment with or without adjuvant prednisolone. |
-| [NCT01017510](https://clinicaltrials.gov/study/NCT01017510) | N/A | Unknown | 20 | Compared two delivery methods (DERMOJET vs. standard syringe) for local/intralesional steroid injection in alopecia areata; conventional AA treatment involves topical, intralesional, or oral steroids. |
-| [NCT01972217](https://clinicaltrials.gov/study/NCT01972217) | Phase 2 | Completed | 158 | Immune-modulating combination therapy trial in an autoimmune/oncology setting; graded as background reference only — not a direct prednisolone-AA trial. |
-| [NCT03616912](https://clinicaltrials.gov/study/NCT03616912) | Phase 3 | Terminated | 830 | Baricitinib (JAK inhibitor, non-corticosteroid mechanism) trial in SLE; included only as landscape reference for autoimmune disease treatment, not direct AA/prednisolone evidence. |
+| [NCT01167946](https://clinicaltrials.gov/study/NCT01167946) | Phase 4 | Abgeschlossen | 42 | Methylprednisolon-Mega-Pulstherapie (gleiche Kortikosteroidklasse) evaluiert bei schwerer therapieresistenter Alopecia Areata, einschließlich totalis/universalis/ophiasic-Typen; untersuchte, ob höhere/häufigere Pulsdosierung die Ansprechrate verbessert. |
+| [NCT07101471](https://clinicaltrials.gov/study/NCT07101471) | N/A | Abgeschlossen | 296 | Beobachtungsstudie zu Sicherheit/Wirksamkeit von Tofacitinib bei Alopecia, mit Studienteilnehmern, die Behandlung mit oder ohne adjuvante Prednisolon-Therapie erhielten. |
+| [NCT01017510](https://clinicaltrials.gov/study/NCT01017510) | N/A | Unbekannt | 20 | Verglich zwei Verabreichungsmethoden (DERMOJET vs. Standard-Spritze) für lokale/intraläsionale Steroid-Injektionen bei Alopecia Areata; konventionelle AA-Behandlung umfasst topische, intraläsionale oder orale Steroide. |
+| [NCT01972217](https://clinicaltrials.gov/study/NCT01972217) | Phase 2 | Abgeschlossen | 158 | Immunmodulierendes Kombinationstherapie-Experiment in einer autoimmunen/onkologischen Einstellung; als Hintergrund-Referenz eingestuft – keine direkte Prednisolon-AA-Studie. |
+| [NCT03616912](https://clinicaltrials.gov/study/NCT03616912) | Phase 3 | Beendet | 830 | Baricitinib-Studie (JAK-Inhibitor, nicht-Kortikosteroid-Wirkmechanismus) bei SLE; nur als Übersichtsreferenz für die Behandlung von Autoimmunerkrankungen eingebunden, keine direkte AA/Prednisolon-Evidenz. |
 
-*Note: The evidence pool also returned numerous Phase 2/3 SLE trials of unrelated biologics (efavaleukin alfa, acazicolcept, anifrolumab, sirolimus, enpatoran, etc.). These were excluded from the table above as they are not directly relevant to prednisolone or alopecia areata.*
+*Hinweis: Der Evidenzpool lieferte auch zahlreiche Phase-2/3-SLE-Studien nicht verwandter Biologika (Efavaleukin alfa, Acazicolcept, Anifrolumab, Sirolimus, Enpatoran usw.). Diese wurden aus der obigen Tabelle ausgeschlossen, da sie nicht direkt relevant für Prednisolon oder Alopecia Areata sind.*
 
 ---
 
-## Literature Evidence
+## Evidenz aus der Literatur
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Zeitschrift | Wichtigste Erkenntnisse |
 |------|-----|------|------|---------|
-| [15692475](https://pubmed.ncbi.nlm.nih.gov/15692475/) | 2005 | RCT | J Am Acad Dermatol | First placebo-controlled RCT of oral pulse prednisolone therapy in alopecia areata. |
-| [37870096](https://pubmed.ncbi.nlm.nih.gov/37870096/) | 2023 | Review (Network Meta-analysis) | Cochrane Database Syst Rev | Compares immunosuppressants, hair growth stimulants, and contact immunotherapy across AA treatments. |
-| [37992355](https://pubmed.ncbi.nlm.nih.gov/37992355/) | 2023 | Review | Dermatol Pract Concept | Reviews efficacy, relapse rates, side effects, and prognostic factors of corticosteroid pulse therapy in AA. |
-| [30191561](https://pubmed.ncbi.nlm.nih.gov/30191561/) | 2019 | Systematic Review | Australas J Dermatol | Systematic review of systemic treatments (including corticosteroids) for AA, totalis, and universalis. |
-| [35986630](https://pubmed.ncbi.nlm.nih.gov/35986630/) | 2022 | Cohort (Retrospective) | Dermatol Ther | Methylprednisolone alone vs. methylprednisolone + methotrexate in extensive AA. |
-| [21572877](https://pubmed.ncbi.nlm.nih.gov/21572877/) | 2009 | Clinical Study | Dermato-endocrinology | Medium-dose prednisolone pulse therapy evaluated in AA; notes efficacy in early-stage disease with potential dose-limiting side effects. |
-| [36461625](https://pubmed.ncbi.nlm.nih.gov/36461625/) | 2023 | Cohort | Pediatr Dermatol | Reviews pulse dose corticosteroid therapy dosing/administration regimens and side effects in pediatric AA. |
-| [28140540](https://pubmed.ncbi.nlm.nih.gov/28140540/) | 2017 | Cohort | J Dtsch Dermatol Ges | Sequential high- and low-dose systemic corticosteroid therapy for severe childhood AA. |
-| [30294905](https://pubmed.ncbi.nlm.nih.gov/30294905/) | 2019 | Mechanistic Study | J Cosmet Dermatol | TNF-α level changes proposed as a mechanism of action for oral pulse steroids in AA. |
-| [36681881](https://pubmed.ncbi.nlm.nih.gov/36681881/) | 2023 | Cohort (Retrospective) | J Eur Acad Dermatol Venereol | Long-term patient-reported experience with methylprednisolone pulse (± methotrexate) in AA. |
+| [15692475](https://pubmed.ncbi.nlm.nih.gov/15692475/) | 2005 | RCT | J Am Acad Dermatol | Erste placebokontrollierte RCT der Prednisolon-Pulstherapie bei Alopecia Areata. |
+| [37870096](https://pubmed.ncbi.nlm.nih.gov/37870096/) | 2023 | Review (Netzwerk-Metaanalyse) | Cochrane Database Syst Rev | Vergleicht Immunsuppressiva, Haarwuchsförderer und Kontakt-Immuntherapie über AA-Behandlungen hinweg. |
+| [37992355](https://pubmed.ncbi.nlm.nih.gov/37992355/) | 2023 | Review | Dermatol Pract Concept | Überprüft Wirksamkeit, Rückfallquoten, Nebenwirkungen und prognostische Faktoren der Kortikosteroid-Pulstherapie bei AA. |
+| [30191561](https://pubmed.ncbi.nlm.nih.gov/30191561/) | 2019 | Systematischer Review | Australas J Dermatol | Systematischer Review systemischer Behandlungen (einschließlich Kortikosteroide) für AA, Totalis und Universalis. |
+| [35986630](https://pubmed.ncbi.nlm.nih.gov/35986630/) | 2022 | Kohorte (Retrospektiv) | Dermatol Ther | Methylprednisolon allein vs. Methylprednisolon + Methotrexat bei ausgedehnter AA. |
+| [21572877](https://pubmed.ncbi.nlm.nih.gov/21572877/) | 2009 | Klinische Studie | Dermato-endocrinology | Mitteldosis-Prednisolon-Pulstherapie bei AA evaluiert; vermerkt Wirksamkeit bei Erkrankung im Frühstadium mit potenziellen dosisbegrenzenden Nebenwirkungen. |
+| [36461625](https://pubmed.ncbi.nlm.nih.gov/36461625/) | 2023 | Kohorte | Pediatr Dermatol | Überprüft Pulsdosis-Kortikosteroid-Therapie-Dosierungs-/Verabreichungsschemata und Nebenwirkungen bei pädiatrischer AA. |
+| [28140540](https://pubmed.ncbi.nlm.nih.gov/28140540/) | 2017 | Kohorte | J Dtsch Dermatol Ges | Sequenzielle systemische Kortikosteroid-Therapie mit hohen und niedrigen Dosen bei schwerer AA im Kindesalter. |
+| [30294905](https://pubmed.ncbi.nlm.nih.gov/30294905/) | 2019 | Mechanistische Studie | J Cosmet Dermatol | TNF-α-Spiegeländerungen als vorgeschlagener Wirkmechanismus für orale Steroid-Pulstherapie bei AA. |
+| [36681881](https://pubmed.ncbi.nlm.nih.gov/36681881/) | 2023 | Kohorte (Retrospektiv) | J Eur Acad Dermatol Venereol | Langzeiterfahrung von Patienten mit Methylprednisolon-Pulstherapie (± Methotrexat) bei AA. |
 
 ---
 
-## Germany Market Information
+## Deutschland-Marktinformationen
 
-No German (BfArM) marketing authorizations for prednisolone were found in the evidence pack (`total_licenses: 0`, market status: **Not marketed / Not Marketed**). No product- or license-level detail is available to populate this section.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-interaction data were not available in the evidence pack — DDI query status: not found.)
+Es wurden keine deutschen (BfArM) Marktzulassungen für Prednisolon im Evidenzpaket gefunden (`total_licenses: 0`, Marktstatus: **Nicht vermarktet / Nicht vermarktet**). Es sind keine Produkt- oder Zulassungsdetails verfügbar, um diesen Abschnitt auszufüllen.
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsaspekte
 
-**Decision: Proceed with Guardrails**
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. (Wichtige Warnhinweise, Kontraindikationen und Arzneimittelwechselwirkungsdaten waren im Evidenzpaket nicht verfügbar – DDI-Abfragestatus: nicht gefunden.)
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Mit Schutzmaßnahmen voranschreiten**
 
 **Rationale:**
-Corticosteroid pulse therapy already has an established clinical role in alopecia areata, supported by a placebo-controlled RCT of prednisolone itself, a completed Phase 4 trial of the closely related methylprednisolone, and multiple cohort studies/reviews (Evidence Level L2). However, formal indication approval, MOA documentation, and safety/label data are missing, so this cannot yet proceed without additional guardrails.
 
-**To proceed, the following is needed:**
-- TFDA/BfArM package insert warnings and contraindications (DG001 — **Blocking**: required before S1 safety pre-assessment can proceed)
-- Confirmed mechanism of action data from DrugBank (DG002 — High priority, needed for formal mechanistic-linkage analysis)
-- Confirmation of the original approved indication(s) for prednisolone, currently missing from the evidence pack
-- Drug-drug interaction (DDI) data, since the current query returned no results
-- Clarification of dose-equivalence between prednisolone and methylprednisolone (the drug most directly studied in the AA trial/RCT evidence above)
+Die Kortikosteroid-Pulstherapie hat bereits eine etablierte klinische Rolle bei Alopecia Areata, unterstützt durch eine placebokontrollierte RCT von Prednisolon selbst, eine abgeschlossene Phase-4-Studie des eng verwandten Methylprednisolons und mehrere Kohortenstudien/Reviews (Evidenzstufe L2). Jedoch fehlende formale Indikationsgenehmigung, MOA-Dokumentation und Sicherheits-/Labellingdaten bedeuten, dass dies noch nicht ohne zusätzliche Schutzmaßnahmen fortgesetzt werden kann.
+
+**Zum Fortfahren wird Folgendes benötigt:**
+
+- TFDA/BfArM-Packungsbeilage mit Warnhinweisen und Kontraindikationen (DG001 – **Blockierend**: erforderlich, bevor die S1-Sicherheits-Vorabprüfung fortgesetzt werden kann)
+- Bestätigte Wirkmechanismus-Daten von DrugBank (DG002 – Hohe Priorität, benötigt für formale mechanistische Verknüpfungsanalyse)
+- Bestätigung der ursprünglichen genehmigten Indikation(en) für Prednisolon, derzeit im Evidenzpaket fehlend
+- Arzneimittelwechselwirkungsdaten (DDI), da die aktuelle Abfrage keine Ergebnisse ergab
+- Klärung der Dosisäquivalenz zwischen Prednisolon und Methylprednisolon (das Arzneimittel, das in den oben genannten AA-Versuchs-/RCT-Evidenzen am direktesten untersucht wurde)
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

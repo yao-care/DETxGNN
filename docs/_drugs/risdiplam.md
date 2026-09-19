@@ -29,60 +29,61 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# RISDIPLAM: Evaluation Pending — Critical Data Gaps Prevent Full Assessment
+# RISDIPLAM: Bewertung ausstehend — Kritische Datenlücken verhindern vollständige Bewertung
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Risdiplam (DrugBank ID: DB15305) is currently not marketed in Taiwan, and the TxGNN model returned **no predicted indications** in this Evidence Pack.
-Original indications, mechanism of action, and safety data are all absent, making it impossible to conduct a meaningful repurposing evaluation at this stage.
-This report documents the current state and specifies the data required to proceed.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not populated in this Evidence Pack |
-| Predicted New Indication | No TxGNN predictions returned |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | L5 — Model prediction only (no actual studies linked) |
-| Taiwan Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+Risdiplam (DrugBank ID: DB15305) ist derzeit nicht in Taiwan im Handel erhältlich, und das TxGNN-Modell hat in diesem Evidenzpaket **keine vorhergesagten Indikationen** zurückgegeben.
+Ursprüngliche Indikationen, Wirkmechanismus und Sicherheitsdaten fehlen vollständig, was eine aussagekräftige Umwidmungsbewertung in dieser Phase unmöglich macht.
+Dieser Bericht dokumentiert den aktuellen Zustand und gibt die erforderlichen Daten für die Fortsetzung an.
 
 ---
 
-## Why No Prediction Is Available
+## Schneller Überblick
 
-The `predicted_indications` array in this Evidence Pack is empty. Without a TxGNN-predicted target indication, the standard repurposing pipeline cannot proceed.
-
-In addition, the `original_indications` field is also empty and the mechanism of action is flagged as a data gap. Two upstream data gaps (DG001: package insert warnings/contraindications; DG002: MOA) were identified at the time of Evidence Pack generation, both rated **Blocking** or **High** severity. These gaps must be resolved before any mechanistic similarity analysis can be written.
-
-Based on general knowledge, Risdiplam is a well-characterised oral small-molecule SMN2 pre-mRNA splicing modifier approved in multiple markets for Spinal Muscular Atrophy (SMA). However, this information is **not present in the submitted Evidence Pack** and therefore cannot be used as the basis for an evaluation recommendation. The data pipeline needs to be re-run with the remediation steps below completed first.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Nicht in diesem Evidenzpaket ausgefüllt |
+| Vorhergesagte neue Indikation | Keine TxGNN-Vorhersagen zurückgegeben |
+| TxGNN-Vorhersage-Score | N/A |
+| Evidenzstufe | L5 — Nur Modellvorhersage (keine verknüpften tatsächlichen Studien) |
+| Taiwan-Marktstatus | Nicht im Handel erhältlich |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | **Halten** |
 
 ---
 
-## Conclusion and Next Steps
+## Warum keine Vorhersage verfügbar ist
 
-**Decision: Hold**
+Das `predicted_indications`-Array in diesem Evidenzpaket ist leer. Ohne eine TxGNN-vorhergesagte Zielindikation kann die standardmäßige Umwidmungs-Pipeline nicht fortgesetzt werden.
 
-**Rationale:**
-The minimum required data to perform a drug repurposing evaluation is absent — `predicted_indications` is empty and the two upstream blocking data gaps (DG001, DG002) were not resolved before this Evidence Pack was finalised.
+Darüber hinaus ist auch das Feld `original_indications` leer und der Wirkmechanismus ist als Datenlücke gekennzeichnet. Bei der Erstellung des Evidenzpakets wurden zwei vorgelagerte Datenlücken (DG001: Packungsbeilage-Warnungen/Kontraindikationen; DG002: MOA) identifiziert, beide bewertet mit **Blocking**- oder **High**-Schweregrad. Diese Lücken müssen behoben werden, bevor eine mechanistische Ähnlichkeitsanalyse verfasst werden kann.
 
-**To proceed, the following is needed:**
+Basierend auf allgemeinem Wissen ist Risdiplam ein gut charakterisierter oraler Kleinmolekül-SMN2-pre-mRNA-Splicing-Modulator, der in mehreren Märkten für Spinale Muskelatrophie (SMA) zugelassen ist. Diese Informationen sind jedoch **im eingereichten Evidenzpaket nicht vorhanden** und können daher nicht als Grundlage für eine Bewertungsempfehlung verwendet werden. Die Daten-Pipeline muss mit den folgenden Abhilfemaßnahmen erneut ausgeführt werden.
 
-- **[DG001 — Blocking]** Download and parse the TFDA package insert PDF to extract key warnings and contraindications; re-run the safety module
-- **[DG002 — High]** Query the DrugBank API for Risdiplam (DB15305) to retrieve MOA, drug categories, and toxicity data; populate `original_moa`
-- **Re-run TxGNN inference** after `original_indications` and `original_moa` are populated so that `predicted_indications` returns at least one candidate
-- **Verify original indication list** — confirm the approved indication(s) (e.g., SMA) are correctly loaded into the pipeline before re-scoring
-- Once the above are complete, regenerate the Evidence Pack and re-submit for a full evaluation report
+---
+
+## Sicherheitsüberlegungen
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Halten**
+
+**Begründung:**
+Die erforderlichen Mindestdaten zur Durchführung einer Umwidmungsbewertung fehlen — `predicted_indications` ist leer und die zwei vorgelagerten Datenlücken (DG001, DG002) wurden vor der Finalisierung dieses Evidenzpakets nicht behoben.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+
+- **[DG001 — Blocking]** TFDA-Packungsbeilage-PDF herunterladen und analysieren, um Schlüsselwarnungen und Kontraindikationen zu extrahieren; Sicherheitsmodul erneut ausführen
+- **[DG002 — High]** DrugBank-API für Risdiplam (DB15305) abfragen, um MOA-, Wirkstoffklassen- und Toxizitätsdaten abzurufen; `original_moa` ausfüllen
+- **TxGNN-Inferenz erneut ausführen** nachdem `original_indications` und `original_moa` ausgefüllt wurden, damit `predicted_indications` mindestens einen Kandidaten zurückgibt
+- **Ursprüngliche Indikationsliste überprüfen** — bestätigen, dass die genehmigte(n) Indikation(en) (z. B. SMA) korrekt in die Pipeline geladen sind, bevor die Neubewertung durchgeführt wird
+- Sobald das oben Genannte abgeschlossen ist, Evidenzpaket neu generieren und erneut für einen umfassenden Bewertungsbericht einreichen
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

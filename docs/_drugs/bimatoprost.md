@@ -29,103 +29,104 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Bimatoprost: From Glaucoma/Eyelash Hypotrichosis to Alopecia (Androgenetic & Areata)
+# Bimatoprost: Von Glaukom/Wimpernhypotrichose zu Alopezie (Androgenetisch & Areata)
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Bimatoprost is a synthetic prostamide F2α analog originally developed for **glaucoma/ocular hypertension** and later approved internationally for **eyelash hypotrichosis** (Latisse™).
-> Among the ten indications TxGNN predicted for this drug, most are top-score but mechanistically implausible "knowledge-graph noise" (e.g., periodontal malformation syndromes, Dandy-Walker malformation, pulmonary AV malformation) with zero supporting trials or literature.
-> The one prediction with genuine, converging evidence is **Alopecia** (androgenetic and areata subtypes), supported by **11 clinical trials** (5 graded "A" relevance) and **22 publications**, making it the only candidate worth advancing.
+> Bimatoprost ist ein synthetisches Prostamid-F2α-Analog, das ursprünglich für **Glaukom/Augendruckerhöhung** entwickelt wurde und später international für **Wimpernhypotrichose** (Latisse™) zugelassen wurde.
+> Von den zehn Indikationen, die TxGNN für dieses Arzneimittel vorhersagte, sind die meisten hochwertig bewertet, aber mechanistisch nicht plausibel – „Knowledge-Graph-Rauschen" (z. B. Malformationssyndrome mit parodontalen Komponenten, Dandy-Walker-Malformation, pulmonale AV-Malformation) ohne unterstützende klinische Versuche oder Literatur.
+> Die einzige Vorhersage mit echten, konvergierenden Belegen ist **Alopezie** (androgenetische und Areata-Subtypen), unterstützt durch **11 klinische Versuche** (5 als „A"-Relevanz eingestuft) und **22 Publikationen**, was sie zum einzigen vielversprechenden Kandidaten macht.
 
-> ⚠️ **Note on prediction selection**: The report below is built around **Alopecia (rank 8)** rather than the TxGNN top-ranked prediction (rank 1, "malformation syndrome with odontal/periodontal component"), because rank 1–6 and rank 10 are explicitly annotated in the evidence pack itself as mechanistically unrelated and evidence-free (score ≈99.99% but 0 trials, 0 relevant literature — classic embedding-space noise). Alopecia is the only prediction meeting a real decision-stage threshold (S2).
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Glaucoma / Ocular Hypertension; Eyelash Hypotrichosis (international approval — not derived from local license data, which is absent) |
-| Predicted New Indication | Alopecia (androgenetic alopecia, female pattern hair loss, alopecia areata) |
-| TxGNN Prediction Score | 99.99% (rank 136 of prioritized candidates) |
-| Evidence Level | L2 |
-| Local Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+> ⚠️ **Hinweis zur Auswahl der Vorhersage**: Der untenstehende Bericht konzentriert sich auf **Alopezie (Rang 8)** anstelle der höchstrangigen TxGNN-Vorhersage (Rang 1, „Malformationssyndrom mit zahnärztlicher/parodontaler Komponente"), da die Ränge 1–6 und 10 im Evidenzpaket selbst explizit als mechanistisch unabhängig und evidenzfrei annotiert sind (Punktzahl ≈ 99,99 %, aber 0 Versuche, 0 relevante Literatur – klassisches Embedding-Space-Rauschen). Alopezie ist die einzige Vorhersage, die einen echten Entscheidungsstufenschwellenwert erfüllt (S2).
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Currently, detailed mechanism of action data is not available in the drug record (DrugBank MOA field is a data gap). Based on information recoverable from the evidence pack itself, bimatoprost is a **synthetic prostamide F2α analog**. Its approved ophthalmic use for glaucoma works by increasing aqueous humor outflow; its approved dermatologic use for eyelash hypotrichosis (Latisse™) works by prolonging the **anagen (growth) phase** of the eyelash hair cycle and increasing follicle density/diameter — an effect that was originally identified as a *side effect* in glaucoma patients using prostaglandin-analog eye drops.
-
-This anagen-prolongation mechanism is not eyelash-specific: hair follicles in the scalp undergo the same growth-cycle biology. Multiple mechanistic and clinical studies in the evidence pack (PMID 23104985, PMID 28264599, PMID 29854658) directly describe bimatoprost's off-label extension from eyelash to scalp hair growth, and this has already been tested in dedicated Phase 2 trials for androgenetic alopecia (male and female pattern hair loss) and in smaller studies/case series for alopecia areata.
-
-In short, the original indication (eyelash hypotrichosis) and the predicted new indication (scalp alopecia) share the *same target tissue type and the same growth-cycle mechanism* — this is a mechanistically coherent, clinically plausible repurposing hypothesis, not merely a statistical prediction. This distinguishes it sharply from the other TxGNN-ranked candidates in this evidence pack, which lack any mechanistic or tissue-level connection to prostamide biology.
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Glaukom / Augendruckerhöhung; Wimpernhypotrichose (internationale Zulassung – nicht aus lokalen Lizenzdaten abgeleitet, die nicht vorhanden sind) |
+| Vorhergesagte neue Indikation | Alopezie (androgenetische Alopezie, weiblicher Haarausfall, Alopecia areata) |
+| TxGNN-Vorhersagepunktzahl | 99,99 % (Rang 136 der priorisierten Kandidaten) |
+| Evidenzstufe | L2 |
+| Status auf dem Lokalmarkt | Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Mit Schutzmaßnahmen fortfahren |
 
 ---
 
-## Clinical Trial Evidence
+## Warum ist diese Vorhersage sinnvoll?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Derzeit sind detaillierte Wirkmechanismusdaten im Arzneimitteldatensatz nicht verfügbar (DrugBank MOA-Feld ist eine Datenlücke). Basierend auf Informationen, die aus dem Evidenzpaket selbst wiederherstellbar sind, ist Bimatoprost ein **synthetisches Prostamid-F2α-Analog**. Seine genehmigte ophthalmologische Anwendung bei Glaukom wirkt durch Erhöhung des Kammerwasserflusses; seine genehmigte dermatologische Anwendung bei Wimpernhypotrichose (Latisse™) wirkt durch Verlängerung der **Anagenphase (Wachstumsphase)** des Wimpernhaarwuchszyklus und Erhöhung der Follikelkonzentration/Durchmesser – ein Effekt, der ursprünglich als *Nebenwirkung* bei Glaukom-Patienten, die Prostaglandin-Analog-Augentropfen verwendeten, identifiziert wurde.
+
+Dieser Anagen-Verlängerungsmechanismus ist nicht wimpernspezifisch: Haarfollikel auf der Kopfhaut durchlaufen die gleiche Wachszyklus-Biologie. Mehrere mechanistische und klinische Studien im Evidenzpaket (PMID 23104985, PMID 28264599, PMID 29854658) beschreiben direkt die Off-Label-Erweiterung von Bimatoprost von Wimper zu Kopfhaarwuchs, und dies wurde bereits in dedizierten Phase-2-Versuchen bei androgenetischer Alopezie (männlicher und weiblicher Haarausfall) und in kleineren Studien/Fallserien bei Alopecia areata getestet.
+
+Kurz gesagt: Die ursprüngliche Indikation (Wimpernhypotrichose) und die vorhergesagte neue Indikation (Kopfhautalopezie) teilen denselben *Gewebetyp und denselben Wachszyklus-Mechanismus* – dies ist eine mechanistisch kohärente, klinisch plausible Wiederverwendungshypothese, nicht nur eine statistische Vorhersage. Dies unterscheidet sie deutlich von den anderen TxGNN-bewerteten Kandidaten in diesem Evidenzpaket, denen jeder mechanistische oder Gewebeebenen-Bezug zur Prostamid-Biologie fehlt.
+
+---
+
+## Klinische Versuche
+
+| Versuchsnummer | Phase | Status | Einschreibung | Wichtigste Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT02170662](https://clinicaltrials.gov/study/NCT02170662) | Phase 2 | Completed | 33 | Direct mechanistic test of bimatoprost solution on androgen-dependent scalp follicles |
-| [NCT01325350](https://clinicaltrials.gov/study/NCT01325350) | Phase 2 | Completed | 306 | 3 doses of bimatoprost vs. vehicle vs. OTC minoxidil 2% in women with female pattern hair loss |
-| [NCT01023841](https://clinicaltrials.gov/study/NCT01023841) | Phase 4 | Completed | 71 | Safety/efficacy of bimatoprost 0.03% for eyelash hypotrichosis in children — supports approved-indication safety extension |
-| [NCT01904721](https://clinicaltrials.gov/study/NCT01904721) | Phase 2 | Completed | 244 | Safety and efficacy of bimatoprost in men with androgenic alopecia (AGA) |
-| [NCT01325337](https://clinicaltrials.gov/study/NCT01325337) | Phase 2 | Completed | 307 | 3 doses of bimatoprost vs. vehicle vs. OTC minoxidil 5% in men with androgenic alopecia |
-| [NCT01189279](https://clinicaltrials.gov/study/NCT01189279) | Phase 1 | Completed | 42 | Safety and pharmacokinetics of new bimatoprost formulations in alopecia patients |
-| [NCT02848300](https://clinicaltrials.gov/study/NCT02848300) | Phase 1 | Completed | 11 | Local scalp pharmacokinetics/tolerability of two bimatoprost formulations in AGA |
-| [NCT05600673](https://clinicaltrials.gov/study/NCT05600673) | Phase 1/2 | Completed | 30 | Combined CO2 fractional laser + bimatoprost 0.03% for alopecia areata (adjunct therapy) |
-| [NCT00187577](https://clinicaltrials.gov/study/NCT00187577) | N/A | Completed | 14 | Randomized, investigator-masked comparison of latanoprost vs. bimatoprost for eyelash regrowth in alopecia areata |
-| [NCT02676310](https://clinicaltrials.gov/study/NCT02676310) | Phase 1 | Terminated | 53 | Dose-escalation safety/PK study of bimatoprost topical solution in male AGA (terminated, incomplete data) |
+| [NCT02170662](https://clinicaltrials.gov/study/NCT02170662) | Phase 2 | Abgeschlossen | 33 | Direkter mechanistischer Test von Bimatoprost-Lösung auf androgen-abhängige Kopfhautfollikel |
+| [NCT01325350](https://clinicaltrials.gov/study/NCT01325350) | Phase 2 | Abgeschlossen | 306 | 3 Dosen Bimatoprost vs. Vehikel vs. OTC-Minoxidil 2 % bei Frauen mit weiblichem Haarausfall |
+| [NCT01023841](https://clinicaltrials.gov/study/NCT01023841) | Phase 4 | Abgeschlossen | 71 | Sicherheit/Wirksamkeit von Bimatoprost 0,03 % für Wimpernhypotrichose bei Kindern – unterstützt Sicherheitserweiterung der genehmigten Indikation |
+| [NCT01904721](https://clinicaltrials.gov/study/NCT01904721) | Phase 2 | Abgeschlossen | 244 | Sicherheit und Wirksamkeit von Bimatoprost bei Männern mit androgenetischer Alopezie (AGA) |
+| [NCT01325337](https://clinicaltrials.gov/study/NCT01325337) | Phase 2 | Abgeschlossen | 307 | 3 Dosen Bimatoprost vs. Vehikel vs. OTC-Minoxidil 5 % bei Männern mit androgenetischer Alopezie |
+| [NCT01189279](https://clinicaltrials.gov/study/NCT01189279) | Phase 1 | Abgeschlossen | 42 | Sicherheit und Pharmakokinetik neuer Bimatoprost-Formulierungen bei Alopezie-Patienten |
+| [NCT02848300](https://clinicaltrials.gov/study/NCT02848300) | Phase 1 | Abgeschlossen | 11 | Lokale Kopfhaut-Pharmakokinetik/Verträglichkeit zweier Bimatoprost-Formulierungen bei AGA |
+| [NCT05600673](https://clinicaltrials.gov/study/NCT05600673) | Phase 1/2 | Abgeschlossen | 30 | Kombinierte CO2-Fraktionslaser + Bimatoprost 0,03 % für Alopecia areata (Zusatztherapie) |
+| [NCT00187577](https://clinicaltrials.gov/study/NCT00187577) | N/A | Abgeschlossen | 14 | Randomisierter, untersucher-verblindeter Vergleich von Latanoprost vs. Bimatoprost für Wimpernnachwuchs bei Alopecia areata |
+| [NCT02676310](https://clinicaltrials.gov/study/NCT02676310) | Phase 1 | Beendet | 53 | Dosiseskalations-Sicherheits-/PK-Studie von Bimatoprost-Topikallösung bei männlicher AGA (beendet, unvollständige Daten) |
 
-*(One additional trial, NCT00999557, was withdrawn with zero enrollment and is excluded above.)*
+*(Ein zusätzlicher Versuch, NCT00999557, wurde zurückgezogen ohne Einschreibung und ist oben ausgeschlossen.)*
 
 ---
 
-## Literature Evidence
+## Literaturbeweise
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Journal | Wichtigste Ergebnisse |
 |------|-----|------|------|---------|
-| [32250713](https://pubmed.ncbi.nlm.nih.gov/32250713/) | 2022 | Review/Network Meta-analysis (Tier 1) | J Dermatol Treat | Systematic comparison of non-surgical AGA monotherapies; contextualizes bimatoprost among evidence-graded options |
-| [29863806](https://pubmed.ncbi.nlm.nih.gov/29863806/) | 2018 | Guideline (Tier 1) | J Dermatol | Japanese guidelines for diagnosis/treatment of male- and female-pattern hair loss |
-| [28264599](https://pubmed.ncbi.nlm.nih.gov/28264599/) | 2017 | Review | Expert Opin Investig Drugs | Comprehensive review of bimatoprost for eyelash, eyebrow, and scalp alopecia |
-| [23104985](https://pubmed.ncbi.nlm.nih.gov/23104985/) | 2013 | Review | FASEB J | Original rationale paper proposing prostamide-based glaucoma therapy (bimatoprost) as a novel scalp alopecia treatment |
-| [40252129](https://pubmed.ncbi.nlm.nih.gov/40252129/) | 2025 | Cohort | Arch Dermatol Res | CO2 fractional laser + bimatoprost combination therapy improves hair regrowth in alopecia areata |
-| [35278027](https://pubmed.ncbi.nlm.nih.gov/35278027/) | 2022 | Cohort/Prospective open-label | Dermatol Ther | Topical bimatoprost for eyelash loss in alopecia totalis/universalis; 16/[cohort] responders reported |
-| [32642317](https://pubmed.ncbi.nlm.nih.gov/32642317/) | 2020 | Review | Dermatol Pract Concept | Review of prevention/treatment options for chemotherapy-induced alopecia, including bimatoprost |
-| [34304865](https://pubmed.ncbi.nlm.nih.gov/34304865/) | 2021 | Review | Bull Cancer | Alopecia pathophysiology and treatment pathways in oncology settings |
-| [37185388](https://pubmed.ncbi.nlm.nih.gov/37185388/) | 2023 | Review | Curr Oncol | Prevention/treatment landscape for chemotherapy-induced alopecia |
-| [27377163](https://pubmed.ncbi.nlm.nih.gov/27377163/) | 2016 | Case Report | Pediatr Dermatol | Successful treatment of steroid-resistant pediatric scalp alopecia areata with topical bimatoprost |
+| [32250713](https://pubmed.ncbi.nlm.nih.gov/32250713/) | 2022 | Review/Netzwerk-Metaanalyse (Tier 1) | J Dermatol Treat | Systematischer Vergleich nicht-chirurgischer AGA-Monotherapien; kontextualisiert Bimatoprost unter evidenzgestützten Optionen |
+| [29863806](https://pubmed.ncbi.nlm.nih.gov/29863806/) | 2018 | Leitlinie (Tier 1) | J Dermatol | Japanische Leitlinien zur Diagnose/Behandlung von männlichem und weiblichem Haarausfall |
+| [28264599](https://pubmed.ncbi.nlm.nih.gov/28264599/) | 2017 | Review | Expert Opin Investig Drugs | Umfassender Review von Bimatoprost für Wimper-, Augenbrauen- und Kopfhautalopezie |
+| [23104985](https://pubmed.ncbi.nlm.nih.gov/23104985/) | 2013 | Review | FASEB J | Ursprüngliches Begründungspapier zur Prostamid-basierten Glaukomtherapie (Bimatoprost) als neuartige Kopfhautalopezie-Behandlung |
+| [40252129](https://pubmed.ncbi.nlm.nih.gov/40252129/) | 2025 | Kohortenstudie | Arch Dermatol Res | CO2-Fraktionslaser + Bimatoprost-Kombinationstherapie verbessert Haarnachwuchs bei Alopecia areata |
+| [35278027](https://pubmed.ncbi.nlm.nih.gov/35278027/) | 2022 | Kohortenstudie/Prospektiv offen | Dermatol Ther | Topisches Bimatoprost für Wimpernverlust bei Alopecia totalis/universalis; 16/[Kohorte] Responder berichtet |
+| [32642317](https://pubmed.ncbi.nlm.nih.gov/32642317/) | 2020 | Review | Dermatol Pract Concept | Review von Prävention/Behandlungsoptionen für chemotherapie-induzierte Alopezie, einschließlich Bimatoprost |
+| [34304865](https://pubmed.ncbi.nlm.nih.gov/34304865/) | 2021 | Review | Bull Cancer | Alopezie-Pathophysiologie und Behandlungswege in onkologischen Settings |
+| [37185388](https://pubmed.ncbi.nlm.nih.gov/37185388/) | 2023 | Review | Curr Oncol | Präventions-/Behandlungslandschaft für chemotherapie-induzierte Alopezie |
+| [27377163](https://pubmed.ncbi.nlm.nih.gov/27377163/) | 2016 | Fallbericht | Pediatr Dermatol | Erfolgreiche Behandlung von steroidresistenter pädiatrischer Kopfhaut-Alopecia areata mit topischem Bimatoprost |
 
 ---
 
-## Local Market Information
+## Informationen zum Lokalmarkt
 
-Bimatoprost currently holds **0 authorizations** and is **not marketed** in this jurisdiction (`taiwan_regulatory.market_status = Not marketed`). No license records are available to summarize approved indications, dosage forms, or product names.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. No structured warnings, contraindications, or drug-drug interaction data were retrievable at this time (`safety.key_warnings`, `safety.contraindications`, and `safety.ddi` are all marked as data gaps in the source pack).
+Bimatoprost hält derzeit **0 Zulassungen** und ist **nicht vermarktet** in dieser Gerichtsbarkeit (`taiwan_regulatory.market_status = Not marketed`). Es sind keine Lizenzdatensätze vorhanden, um genehmigte Indikationen, Darreichungsformen oder Produktnamen zusammenzufassen.
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsüberlegungen
 
-**Decision: Proceed with Guardrails**
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. Zum gegenwärtigen Zeitpunkt konnten keine strukturierten Warnungen, Kontraindikationen oder Arzneimittelwechselwirkungsdaten abgerufen werden (`safety.key_warnings`, `safety.contraindications` und `safety.ddi` sind alle als Datenlücken im Quellpaket gekennzeichnet).
 
-**Rationale:**
-The Alopecia indication is supported by an L2 evidence level — multiple completed Phase 2 RCTs (n=244–307) directly testing bimatoprost against vehicle and active comparator (minoxidil) in both male AGA and female pattern hair loss, plus a plausible, biologically grounded mechanism already validated in the drug's approved eyelash-growth indication. This is a categorically different evidence profile from the other nine TxGNN predictions in this pack, which have zero trials, zero literature, and no coherent mechanistic rationale.
+---
 
-**To proceed, the following is needed:**
-- Retrieve TFDA/local regulatory label (warnings, contraindications) — currently a **Blocking** data gap (DG001)
-- Confirm formal mechanism-of-action documentation via DrugBank API — currently a **High** severity data gap (DG002)
-- Formal review of the four completed Phase 2 AGA/FPHL trial results (efficacy endpoints, adverse events) before any regulatory or clinical-use recommendation
-- Given no local marketing authorization exists, any advancement would require a full new-indication filing pathway, not a label-extension pathway
-- Do not pursue the remaining nine TxGNN-predicted indications (ranks 1–7, 9–10) without independent mechanistic validation — current evidence indicates they are graph-embedding artifacts rather than genuine repurposing signals
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Mit Schutzmaßnahmen fortfahren**
+
+**Begründung:**
+Die Alopezie-Indikation wird durch eine L2-Evidenzstufe unterstützt – mehrere abgeschlossene Phase-2-RCTs (n=244–307), die Bimatoprost direkt gegen Vehikel und aktiven Komparator (Minoxidil) bei androgenetischer Alopezie und weiblichem Haarausfall testen, plus ein plausibler, biologisch fundierter Mechanismus, der bereits in der genehmigten Wimpernwachstums-Indikation des Arzneimittels validiert ist. Dies ist ein kategorisch unterschiedliches Evidenzprofil im Vergleich zu den anderen neun TxGNN-Vorhersagen in diesem Paket, die null Versuche, null Literatur und keinen kohärenten mechanistischen Hintergrund haben.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+- Abruf von TFDA/lokaler Behördenbeschriftung (Warnungen, Kontraindikationen) – derzeit eine **Blockierende** Datenlücke (DG001)
+- Bestätigung einer formalen Wirkmechanismus-Dokumentation über DrugBank API – derzeit eine **Hohe** Schweregrad-Datenlücke (DG002)
+- Formale Überprüfung der vier abgeschlossenen Phase-2-Versuche zu AGA/FPHL (Wirksamkeitsendpunkte, unerwünschte Ereignisse) vor jeglicher behördlicher oder klinischer Anwendungsempfehlung
+- Angesichts der fehlenden lokalen Vermarktungsgenehmigung würde jede Weiterentwicklung einen vollständigen Weg zur neuen Indikationsmeldung erfordern, nicht einen Weg zur Etikettenerweiterung
+- Verfolgen Sie die verbleibenden neun TxGNN-Vorhersagen (Ränge 1–7, 9–10) nicht ohne unabhängige mechanistische Validierung – aktuelle Beweise deuten darauf hin, dass sie Graph-Embedding-Artefakte sind, anstatt echte Wiederverwendungssignale zu sein
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

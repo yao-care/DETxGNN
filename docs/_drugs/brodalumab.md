@@ -29,67 +29,68 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Brodalumab (DB11776): Repurposing Evaluation — No TxGNN Predictions Available
+# Brodalumab (DB11776): Repurposing-Evaluierung — Keine TxGNN-Vorhersagen verfügbar
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Brodalumab is a fully human monoclonal antibody targeting the interleukin-17 receptor A (IL-17RA), approved in the US and EU for moderate-to-severe plaque psoriasis (brand names: Siliq®, Kyntheum®).
-The current Evidence Pack contains **no TxGNN-predicted new indications** for this compound, and several critical data fields — including mechanism of action, package insert warnings, and contraindications — are absent.
-A full repurposing evaluation **cannot be completed** until these data gaps are resolved.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Plaque psoriasis (from domain knowledge; not captured in Evidence Pack) |
-| Predicted New Indication | No predictions generated |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | N/A — TxGNN pipeline not yet executed |
-| Taiwan Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+Brodalumab ist ein vollständig humaner monoklonaler Antikörper, der gegen den Interleukin-17-Rezeptor A (IL-17RA) wirkt und in den USA und der EU zur Behandlung mittelschwerer bis schwerer Plaque-Psoriasis zugelassen ist (Handelsnamen: Siliq®, Kyntheum®).
+Das aktuelle Evidence Pack enthält **keine durch TxGNN vorhergesagten neuen Indikationen** für diese Verbindung, und mehrere kritische Datenfelder – einschließlich des Wirkmechanismus, der Warnhinweise in der Packungsbeilage und der Kontraindikationen – fehlen.
+Eine vollständige Repurposing-Evaluierung **kann nicht abgeschlossen werden**, bis diese Datenlücken behoben sind.
 
 ---
 
-## Taiwan Market Information
+## Schnellübersicht
 
-Brodalumab currently has **no registered product authorizations in Taiwan** (TFDA). No approved products, dosage forms, or indication texts are on record as of this report's data cutoff (2026-04-20).
-
-For reference, the drug is approved in other jurisdictions:
-
-| Region | Brand Name | Holder | Approved Indication |
-|--------|------------|--------|---------------------|
-| United States | Siliq® | AstraZeneca / Bausch Health | Moderate-to-severe plaque psoriasis |
-| European Union / UK | Kyntheum® | LEO Pharma | Moderate-to-severe plaque psoriasis |
-
-> **Note:** The above global market data is drawn from domain knowledge, not from the Evidence Pack. It is provided as background context only.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-> The Evidence Pack records no key warnings, contraindications, or drug–drug interactions for brodalumab. The TFDA package insert query returned a result, but the parsed content was not included in this Evidence Pack version. Before any clinical evaluation proceeds, a complete review of the official prescribing information (particularly the **boxed warning for suicidal ideation and behaviour** associated with IL-17 pathway inhibitors) is mandatory.
+| Eintrag | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Plaque-Psoriasis (aus Domänenwissen; nicht im Evidence Pack erfasst) |
+| Vorhergesagte neue Indikation | Keine Vorhersagen generiert |
+| TxGNN-Vorhersage-Score | N/A |
+| Evidenzstufe | N/A — TxGNN-Pipeline noch nicht ausgeführt |
+| Taiwan-Marktstatus | Nicht vermarktet (Nicht vermarktet) |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | **Halten** |
 
 ---
 
-## Conclusion and Next Steps
+## Informationen zum Taiwan-Markt
 
-**Decision: Hold**
+Brodalumab hat derzeit **keine registrierten Produktzulassungen in Taiwan** (TFDA). Keine genehmigten Arzneimittel, Darreichungsformen oder Indikationstexte sind bis zum Datenstichtag dieses Berichts (2026-04-20) dokumentiert.
 
-**Rationale:**
-The Evidence Pack is fundamentally incomplete — no TxGNN candidate indications have been generated, and the two blocking data gaps (TFDA package insert and MOA) remain unresolved. Without a predicted indication there is no repurposing hypothesis to evaluate.
+Zur Referenz ist das Arzneimittel in anderen Rechtsgebieten zugelassen:
 
-**To proceed, the following is needed:**
+| Region | Handelsname | Inhaber | Genehmigte Indikation |
+|--------|------------|---------|---------------------|
+| Vereinigte Staaten | Siliq® | AstraZeneca / Bausch Health | Mittelschwere bis schwere Plaque-Psoriasis |
+| Europäische Union / Vereinigtes Königreich | Kyntheum® | LEO Pharma | Mittelschwere bis schwere Plaque-Psoriasis |
 
-- **Run TxGNN prediction pipeline** for Brodalumab (DB11776) to generate ranked candidate indications
-- **Retrieve MOA from DrugBank API** (DB11776) — IL-17RA binding mechanism and downstream signalling pathway
-- **Parse TFDA package insert** (query log ID 4 returned a result; content must be extracted) — particularly warnings, contraindications, and special populations
-- **Confirm target disease scope** — if a specific repurposing indication is already of interest (e.g., inflammatory bowel disease, axial spondyloarthritis, asthma), specify it so a focused evidence search can be initiated
-- **Re-run evidence collection** (clinical trials, literature) once a candidate indication is confirmed
+> **Hinweis:** Die obigen Marktdaten stammen aus Domänenwissen und nicht aus dem Evidence Pack. Sie dienen nur zu Kontextzwecken.
+
+---
+
+## Sicherheitsüberlegungen
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+> Das Evidence Pack dokumentiert keine wesentlichen Warnhinweise, Kontraindikationen oder Arzneimittel-Wechselwirkungen für Brodalumab. Die Abfrage der TFDA-Packungsbeilage hat zwar ein Ergebnis zurückgegeben, aber der analysierte Inhalt war nicht in dieser Version des Evidence Pack enthalten. Vor jeder fortgesetzten klinischen Bewertung ist eine umfassende Überprüfung der offiziellen Verschreibungsinformationen erforderlich (insbesondere die **Kastenwarnung für Suizidgedanken und -verhalten** im Zusammenhang mit IL-17-Signalweg-Inhibitoren).
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Halten**
+
+**Begründung:**
+Das Evidence Pack ist grundlegend unvollständig – es wurden keine TxGNN-Kandidaten-Indikationen generiert, und die beiden blockierenden Datenlücken (TFDA-Packungsbeilage und MOA) bleiben ungelöst. Ohne eine vorhergesagte Indikation gibt es keine Repurposing-Hypothese zur Evaluierung.
+
+**Um fortzufahren, wird das Folgende benötigt:**
+
+- **TxGNN-Vorhersage-Pipeline für Brodalumab (DB11776) ausführen**, um geordnete Kandidaten-Indikationen zu generieren
+- **MOA von DrugBank API abrufen** (DB11776) — IL-17RA-Bindungsmechanismus und nachgelagerter Signalisierungsweg
+- **TFDA-Packungsbeilage analysieren** (Abfrage-Protokoll-ID 4 hat ein Ergebnis zurückgegeben; Inhalt muss extrahiert werden) – besonders Warnhinweise, Kontraindikationen und spezielle Populationen
+- **Zielkrankheitsbereich bestätigen** – wenn eine bestimmte Repurposing-Indikation bereits von Interesse ist (z. B. entzündliche Darmerkrankung, axiale Spondyloarthritis, Asthma), sollte dies angegeben werden, damit eine fokussierte Evidenzsuche eingeleitet werden kann
+- **Evidenzsammlung erneut ausführen** (klinische Studien, Literatur), sobald eine Kandidaten-Indikation bestätigt ist
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

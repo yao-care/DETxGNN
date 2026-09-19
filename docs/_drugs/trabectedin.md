@@ -29,102 +29,103 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Trabectedin: From Soft Tissue Sarcoma / Ovarian Cancer to Female Breast Carcinoma
+# Trabectedin: Von Weichgewebssarkom / Ovarialkarzinom zu weiblichem Mammakarzinom
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Trabectedin (DrugBank DB05109) is a marine-derived DNA-binding cytotoxic agent internationally approved for soft tissue sarcoma and, in combination with pegylated liposomal doxorubicin, for platinum-sensitive recurrent ovarian cancer.
-> The TxGNN model predicts it may also be effective for **Female Breast Carcinoma**,
-> with **2 clinical trials** and **20 publications** currently supporting this direction — though the drug is not yet marketed in this jurisdiction.
+> Trabectedin (DrugBank DB05109) ist ein aus dem Meer stammender, DNA-bindender zytotoxischer Wirkstoff mit internationaler Zulassung für Weichgewebssarkome und in Kombination mit pegyliertem liposomalem Doxorubicin für platinempfindliche rezidivierte Ovarialkarzinome.
+> Das TxGNN-Modell sagt voraus, dass es möglicherweise auch wirksam gegen **Weibliches Mammakarzinom** sein könnte,
+> mit **2 klinischen Studien** und **20 Veröffentlichungen**, die diese Richtung derzeit unterstützen — obwohl der Wirkstoff in dieser Rechtsordnung noch nicht auf dem Markt zugelassen ist.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Eintrag | Inhalt |
 |------|------|
-| Original Indication | Not locally licensed; internationally approved for soft tissue sarcoma and platinum-sensitive recurrent ovarian cancer (per literature) |
-| Predicted New Indication | Female Breast Carcinoma |
-| TxGNN Prediction Score | 99.73% |
-| Evidence Level | L2 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | Nicht lokal zugelassen; international zugelassen für Weichgewebssarkome und platinempfindliche rezidivierte Ovarialkarzinome (gemäß Literatur) |
+| Vorhergesagte neue Indikation | Weibliches Mammakarzinom |
+| TxGNN-Vorhersage-Score | 99.73% |
+| Evidenzstufe | L2 |
+| Marktstatus in Deutschland | ✗ Nicht im Handel |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Halten |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage angemessen?
 
-Structured mechanism-of-action data is not available for this drug directly (DrugBank MOA field: data gap). Based on the mechanistic evidence compiled from the literature pack, trabectedin is a marine-derived, alkylating-type DNA minor-groove binding agent that interferes with transcription-coupled nucleotide excision repair (TC-NER) and modulates the tumor microenvironment by depleting tumor-associated monocytes/macrophages. This mechanism offers a theoretical synthetic-lethality rationale in BRCA1/2-deficient (homologous recombination-deficient) breast cancers, and in vitro studies show it can induce apoptosis in both HER2+/ER- and HER2-/ER+ breast cancer cell lines, with additional evidence of synergy with IL-12-mediated immune activation in triple-negative breast cancer (TNBC).
+Strukturierte Wirkmechanismus-Daten sind für diesen Wirkstoff nicht direkt verfügbar (DrugBank-MOA-Feld: Datenlücke). Basierend auf den mechanistischen Belegen aus dem Literaturpaket ist Trabectedin ein aus dem Meer stammender, alkylierender DNA-Minor-Groove-bindender Wirkstoff, der die transkriptionsabhängige Nucleotidexzisionsreparatur (TC-NER) beeinträchtigt und das Tumormikromilieu durch Erschöpfung tumorassoziierter Monozyten/Makrophagen moduliert. Dieser Wirkmechanismus bietet eine theoretische Rationale der synthetischen Lethalität in BRCA1/2-defizienten (homologe Rekombination-defizienten) Mammakarzinomen, und In-vitro-Studien zeigen, dass es Apoptose in HER2+/ER- und HER2-/ER+-Mammakarzinomzelllinien induzieren kann, mit zusätzlichen Belegen für Synergien mit IL-12-vermittelter Immunaktivierung in triple-negativem Brustkrebs (TNBC).
 
-Breast cancer is not currently a primary approved indication for trabectedin — its established uses are soft tissue sarcoma and platinum-sensitive ovarian cancer, both of which share a DNA-repair-deficiency-driven treatment rationale with a subset of BRCA1/2-mutated breast cancers. The mechanistic link to breast cancer is therefore a reasonable extrapolation supported by preclinical and early-phase clinical signal, rather than a directly validated indication.
+Brustkrebs ist derzeit keine primär zugelassene Indikation für Trabectedin — seine etablierten Verwendungen sind Weichgewebssarkome und platinempfindliche Ovarialkarzinome, die beide eine durch DNA-Reparaturdefizienz getriebene Behandlungslogik mit einer Untergruppe von BRCA1/2-mutierten Mammakarzinomen teilen. Der mechanistische Zusammenhang mit Brustkrebs ist daher eine angemessene Extrapolation, die durch präklinische und frühe klinische Signale gestützt wird, anstelle einer direkt validierten Indikation.
 
 ---
 
-## Clinical Trial Evidence
+## Klinische Studienbelege
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Trialnummer | Phase | Status | Teilnehmerzahl | Wichtigste Erkenntnisse |
 |---------|------|------|------|---------|
-| [NCT00786838](https://clinicaltrials.gov/study/NCT00786838) | Phase 2 | Completed | 76 | Single-blind, placebo-controlled, sequential-design QT/QTc interval study of single-dose trabectedin in advanced solid tumor malignancies; directly evaluates trabectedin cardiac safety at therapeutic dose (Relevance grade A). |
-| [NCT03470805](https://clinicaltrials.gov/study/NCT03470805) | Phase 2 | Completed | 9 | Olaparib maintenance after response to trabectedin + pegylated liposomal doxorubicin (PLD) induction in recurrent BRCA-mutated ovarian carcinoma; trabectedin-PLD serves as induction regimen, not the primary study arm (small n=9, Relevance grade B). |
+| [NCT00786838](https://clinicaltrials.gov/study/NCT00786838) | Phase 2 | Abgeschlossen | 76 | Single-blind, placebo-kontrollierte, sequenzielle QT/QTc-Intervall-Studie von Einzeldosis-Trabectedin bei fortgeschrittenen soliden Tumormalignitäten; bewertet direkt die kardiale Sicherheit von Trabectedin bei therapeutischer Dosis (Relevanzgrad A). |
+| [NCT03470805](https://clinicaltrials.gov/study/NCT03470805) | Phase 2 | Abgeschlossen | 9 | Olaparib-Erhaltungstherapie nach Ansprache auf Trabectedin + pegyliertes liposomales Doxorubicin (PLD) Induktionstherapie bei rezidiviertem BRCA-mutiertem Ovarialkarzinom; Trabectedin-PLD dient als Induktionsschema, nicht als primärer Studienarm (kleines n=9, Relevanzgrad B). |
 
 ---
 
-## Literature Evidence
+## Literaturbelege
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Journal | Wichtigste Erkenntnisse |
 |------|-----|------|------|---------|
-| [25239225](https://pubmed.ncbi.nlm.nih.gov/25239225/) | 2014 | RCT | Clinical Breast Cancer | Multicenter, randomized Phase 2 study of single-agent trabectedin (2 dosing regimens) in advanced breast cancer after prior anthracycline and taxane treatment. |
-| [27266804](https://pubmed.ncbi.nlm.nih.gov/27266804/) | 2016 | RCT | Clinical Breast Cancer | Phase 2 study of trabectedin in HR+/HER2- advanced breast cancer, efficacy assessed by tumor XPG mRNA expression as predictive biomarker. |
-| [24692579](https://pubmed.ncbi.nlm.nih.gov/24692579/) | 2014 | Phase 2 Trial | Annals of Oncology | International first-in-class Phase 2 trial showing trabectedin activity in germline BRCA1/2-mutated metastatic breast cancer. |
-| [19114300](https://pubmed.ncbi.nlm.nih.gov/19114300/) | 2009 | Phase 1 Trial | European Journal of Cancer | Phase I/PK study of trabectedin + doxorubicin combination in advanced soft tissue sarcoma and breast cancer, feasibility and antitumor activity assessed. |
-| [26592307](https://pubmed.ncbi.nlm.nih.gov/26592307/) | 2016 | Review | Expert Opinion on Investigational Drugs | Reviews trabectedin's mechanism (transcription regulation, TAM reduction) and its investigational potential in breast cancer. |
-| [27710871](https://pubmed.ncbi.nlm.nih.gov/27710871/) | 2016 | Review | Cancer Treatment Reviews | Reviews trabectedin as a chemotherapy option in patients with BRCA deficiency, including breast cancer. |
-| [39777457](https://pubmed.ncbi.nlm.nih.gov/39777457/) | 2025 | Preclinical | Cancer Immunology Research | Trabectedin depletes immunosuppressive myeloid cells and enhances IL-12-driven NK-cell cytotoxicity in triple-negative breast cancer models. |
-| [23792433](https://pubmed.ncbi.nlm.nih.gov/23792433/) | 2013 | Preclinical | Toxicology Letters | Trabectedin induces apoptosis via death-receptor pathway in MCF-7 (HER2-/ER+) and MDA-MB-453 (HER2+/ER-) breast cancer cell lines. |
-| [24941346](https://pubmed.ncbi.nlm.nih.gov/24941346/) | 2014 | Preclinical | European Cytokine Network | Demonstrates anti-angiogenic effects of trabectedin on HUVECs and breast cancer cell lines via angiogenic cytokine modulation. |
-| [18410797](https://pubmed.ncbi.nlm.nih.gov/18410797/) | 2008 | Review | Seminars in Oncology | Reviews emerging agents, including trabectedin, for anthracycline- and taxane-refractory metastatic breast cancer. |
+| [25239225](https://pubmed.ncbi.nlm.nih.gov/25239225/) | 2014 | RCT | Clinical Breast Cancer | Multizentrische, randomisierte Phase-2-Studie von Monotherapie-Trabectedin (2 Dosierungsschemata) bei fortgeschrittenem Brustkrebs nach vorheriger Anthracyclin- und Taxan-Behandlung. |
+| [27266804](https://pubmed.ncbi.nlm.nih.gov/27266804/) | 2016 | RCT | Clinical Breast Cancer | Phase-2-Studie von Trabectedin bei HR+/HER2- fortgeschrittenem Brustkrebs, Wirksamkeit bewertet durch XPG-mRNA-Expression als prädiktiver Biomarker. |
+| [24692579](https://pubmed.ncbi.nlm.nih.gov/24692579/) | 2014 | Phase-2-Studie | Annals of Oncology | Internationale Phase-2-Studie in erster Linie mit Trabectedin-Aktivität bei keimbahnmutiertem BRCA1/2-metastasierendem Brustkrebs. |
+| [19114300](https://pubmed.ncbi.nlm.nih.gov/19114300/) | 2009 | Phase-1-Studie | European Journal of Cancer | Phase-I/PK-Studie von Trabectedin + Doxorubicin-Kombination bei fortgeschrittenem Weichgewebssarkom und Brustkrebs, Machbarkeit und antitumorale Aktivität bewertet. |
+| [26592307](https://pubmed.ncbi.nlm.nih.gov/26592307/) | 2016 | Übersicht | Expert Opinion on Investigational Drugs | Bespricht Trabectedins Wirkmechanismus (Transkriptionsregulation, TAM-Reduktion) und sein Untersuchungspotential bei Brustkrebs. |
+| [27710871](https://pubmed.ncbi.nlm.nih.gov/27710871/) | 2016 | Übersicht | Cancer Treatment Reviews | Bespricht Trabectedin als Chemotherapie-Option bei Patienten mit BRCA-Defizienz, einschließlich Brustkrebs. |
+| [39777457](https://pubmed.ncbi.nlm.nih.gov/39777457/) | 2025 | Präklinisch | Cancer Immunology Research | Trabectedin erschöpft immunsuppressive myeloide Zellen und verstärkt IL-12-getriebene NK-Zell-Zytotoxizität in triple-negativen Brustkrebs-Modellen. |
+| [23792433](https://pubmed.ncbi.nlm.nih.gov/23792433/) | 2013 | Präklinisch | Toxicology Letters | Trabectedin induziert Apoptose über Todesrezeptor-Signalweg in MCF-7 (HER2-/ER+) und MDA-MB-453 (HER2+/ER-) Brustkrebs-Zelllinien. |
+| [24941346](https://pubmed.ncbi.nlm.nih.gov/24941346/) | 2014 | Präklinisch | European Cytokine Network | Demonstriert anti-angiogene Effekte von Trabectedin auf HUVECs und Brustkrebs-Zelllinien über angiogene Zytokin-Modulation. |
+| [18410797](https://pubmed.ncbi.nlm.nih.gov/18410797/) | 2008 | Übersicht | Seminars in Oncology | Bespricht neue Wirkstoffe, einschließlich Trabectedin, für anthracyclin- und taxan-refraktäre metastatische Brustkrebs. |
 
 ---
 
-## Germany Market Information
+## Marktinformationen für Deutschland
 
-Trabectedin currently has no marketing authorization record in this jurisdiction (0 licenses on file); market status is **Not Marketed**.
+Trabectedin hat derzeit keine Marktzulassung in dieser Rechtsordnung (0 Lizenzen dokumentiert); der Marktstatus ist **Nicht im Handel**.
 
 ---
 
-## Cytotoxicity
+## Zytotoxizität
 
-Trabectedin is a conventional cytotoxic chemotherapeutic agent (marine-derived, DNA minor-groove-binding alkylating-type agent), so this section applies.
+Trabectedin ist ein konventioneller zytotoxischer Chemotherapie-Wirkstoff (aus dem Meer stammend, DNA-Minor-Groove-bindend, alkylierender Wirkstoff), daher gilt dieser Abschnitt.
 
-| Item | Content |
+| Punkt | Inhalt |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic — DNA minor-groove binder / transcription-coupled repair inhibitor (marine-derived alkylating-type agent) |
-| Myelosuppression Risk | High — literature reports grade 3–4 neutropenia in ~50% and grade 3–4 thrombocytopenia in ~20% of patients (Boudou et al., 2009) |
-| Emetogenicity Classification | Moderate (based on known clinical profile; specific formal classification not provided in this evidence pack) |
-| Monitoring Items | CBC with differential, liver function tests (hepatotoxicity reported), creatine kinase (rhabdomyolysis risk), renal function, and cardiac monitoring (QT/QTc, per NCT00786838) |
-| Handling Protection | Requires handling per standard cytotoxic/hazardous drug handling regulations |
+| Zytotoxizitätsklassifizierung | Konventionell zytotoxisch — DNA-Minor-Groove-Binder / transkriptionsabhängige-Reparatur-Inhibitor (aus dem Meer stammender alkylierender Wirkstoff) |
+| Myelosuppressionsrisiko | Hoch — Literatur berichtet von Grad-3–4-Neutropenie bei ~50 % und Grad-3–4-Thrombozytopenie bei ~20 % der Patienten (Boudou et al., 2009) |
+| Emetogenitätsklassifizierung | Moderat (basierend auf bekanntem klinischem Profil; spezifische formale Klassifizierung nicht in diesem Evidenzpaket bereitgestellt) |
+| Überwachungspunkte | Großes Blutbild mit Differenzialzählung, Leberfunktionstests (hepatotoxizitätsberichte), Kreatinkinase (Rhabdomyolyse-Risiko), Nierenfunktion und kardiale Überwachung (QT/QTc, gemäß NCT00786838) |
+| Handhabungsschutz | Erfordert Handhabung gemäß standardisierte zytotoxische/gefährliche Drogen-Handhabungsbestimmungen |
 
 ---
 
-## Safety Considerations
+## Sicherheitsüberlegungen
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug interaction data are not currently available in this evidence pack — flagged as a blocking data gap, DG001.)
+Bitte beachten Sie die Fachinformation für Sicherheitsinformationen. (Wichtige Warnungen, Kontraindikationen und Arzneimittelwechselwirkungsdaten sind derzeit nicht in diesem Evidenzpaket verfügbar — gekennzeichnet als blockierende Datenlücke, DG001.)
 
 ---
 
-## Conclusion and Next Steps
+## Schlussfolgerung und nächste Schritte
 
-**Decision: Hold**
+**Entscheidung: Halten**
 
-**Rationale:**
-The drug is not currently marketed/licensed in this jurisdiction, and package-insert-level safety data (warnings, contraindications) is a **blocking data gap (DG001)**, preventing a full S1 safety pre-assessment. While evidence level L2 (one supportive comparative QT-safety trial plus multiple early-phase/preclinical breast cancer studies) is mechanistically plausible and biomarker-directed (BRCA1/2, XPG), it is not yet strong enough on its own to justify progression without safety substantiation.
+**Begründung:**
+Der Wirkstoff ist derzeit in dieser Rechtsordnung nicht zugelassen/lizenziert, und Fachinformations-Sicherheitsdaten (Warnungen, Kontraindikationen) sind eine **blockierende Datenlücke (DG001)**, die eine vollständige S1-Sicherheits-Vorbewertung verhindert. Während die Evidenzstufe L2 (eine unterstützende vergleichende QT-Sicherheitsstudie plus mehrere frühe Phasen/präklinische Brustkrebs-Studien) mechanistisch plausibel und biomarker-gerichtet (BRCA1/2, XPG) ist, ist sie allein noch nicht stark genug, um ohne Sicherheitssubstantiierung einen Fortschritt zu rechtfertigen.
 
-**To proceed, the following is needed:**
-- Local safety labeling data (TFDA/BfArM package insert: warnings, contraindications, DDI) to close DG001
-- Confirmed structured MOA documentation from DrugBank to close DG002 (partially supported by literature mechanistic rationale above)
-- Additional larger Phase 2/3 breast-cancer-specific RCT data (current dedicated breast cancer trials are small/early-phase)
-- Formal drug-drug interaction (DDI) profile, currently returns no results
+**Um fortzufahren, ist Folgendes erforderlich:**
+- Lokale Sicherheitskennzeichnungsdaten (TFDA/BfArM-Fachinformation: Warnungen, Kontraindikationen, DDI) zur Schließung von DG001
+- Bestätigte strukturierte MOA-Dokumentation von DrugBank zur Schließung von DG002 (teilweise durch obige Literatur-Wirkmechanismus-Begründung gestützt)
+- Zusätzliche größere Phase-2/3-Brustkrebs-spezifische RCT-Daten (aktuelle dedizierte Brustkrebs-Studien sind klein/frühe Phasen)
+- Formales Arzneimittelwechselwirkungsprofil (DDI), derzeit ohne Ergebnisse
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

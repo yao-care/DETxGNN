@@ -29,75 +29,76 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Zanamivir: From Influenza to Pyelonephritis
+# Zanamivir: Von Influenza zu Pyelonephritis
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Zanamivir is a neuraminidase inhibitor originally developed for influenza A/B treatment, working by blocking the viral surface enzyme required for virion release.
-> The TxGNN model predicts it may be effective for **Pyelonephritis**, but currently **0 clinical trials** and **0 publications** support this specific link, and the evidence pack's own mechanistic review flags the prediction as a likely false positive.
+> Zanamivir ist ein Neuraminidase-Inhibitor, der ursprünglich zur Behandlung von Influenza A/B entwickelt wurde und durch Hemmung des viralen Oberflächenenzyms wirkt, das für die Virionfreisetzung erforderlich ist.
+> Das TxGNN-Modell sagt eine mögliche Wirksamkeit gegen **Pyelonephritis** voraus, aber derzeit unterstützen **0 klinische Studien** und **0 Publikationen** diese spezifische Verbindung, und die mechanistische Analyse des Evidenzpakets kennzeichnet die Vorhersage als wahrscheinlich falsch-positiv.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Eintrag | Inhalt |
 |------|------|
-| Original Indication | Influenza (neuraminidase inhibitor; no formal license record available — drug not marketed in Germany) |
-| Predicted New Indication | Pyelonephritis |
-| TxGNN Prediction Score | 99.84% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Germany Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | Influenza (Neuraminidase-Inhibitor; keine formale Lizensierungsdokumentation verfügbar – Arzneimittel nicht in Deutschland im Handel) |
+| Vorhergesagte neue Indikation | Pyelonephritis |
+| TxGNN-Vorhersage-Score | 99.84% |
+| Evidenzstufe | L5 (nur Modellvorhersage, keine unterstützenden Studien) |
+| Marktstatus Deutschland | Nicht im Handel |
+| Zulassungsanzahl | 0 |
+| Empfohlene Entscheidung | Abwarten |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage angemessen?
 
-Detailed mechanism-of-action data from DrugBank is not available for this candidate (flagged as a High-severity data gap). However, the evidence pack's repurposing rationale confirms zanamivir acts exclusively as a neuraminidase inhibitor against influenza virus surface glycoprotein — it has no antibacterial activity of any kind.
+Detaillierte Wirkmechanismus-Daten aus DrugBank sind für diesen Kandidaten nicht verfügbar (markiert als Datenlücke mit hohem Schweregrad). Die Begründung zur Arzneimittelumwidmung im Evidenzpaket bestätigt jedoch, dass Zanamivir ausschließlich als Neuraminidase-Inhibitor gegen das Oberflächenglykoprotein des Influenzavirus wirkt – es hat keinerlei antibakterielle Aktivität.
 
-Pyelonephritis is a bacterial upper urinary tract infection, most commonly caused by gram-negative organisms such as *E. coli*. There is no known pharmacological overlap between viral neuraminidase inhibition and bacterial pyelonephritis pathogenesis. The evidence pack itself states that the high TxGNN score likely reflects a **knowledge-graph semantic proximity artifact** (both indications are broadly linked to "infection") rather than a genuine mechanistic relationship.
+Pyelonephritis ist eine Infektion der oberen Harnwege durch Bakterien, verursacht am häufigsten durch gramnegative Organismen wie *E. coli*. Es gibt keine bekannte pharmakologische Überschneidung zwischen viraler Neuraminidase-Inhibition und der Pathogenese der bakteriellen Pyelonephritis. Das Evidenzpaket selbst besagt, dass der hohe TxGNN-Score wahrscheinlich ein **semantisches Nähe-Artefakt im Wissensgraph** widerspiegelt (beide Indikationen sind breit mit „Infektion" verknüpft), anstatt einer echten mechanistischen Beziehung.
 
-A second, lower-ranked prediction ("disorder of tyrosine metabolism," score 99.02%) shows the same pattern: the only supporting literature discusses the H274Y/H275Y neuraminidase resistance mutation, which involves a histidine→tyrosine amino acid substitution — an incidental naming overlap, not a link to inherited tyrosine metabolism disorders (e.g., tyrosinemia). Neither prediction currently has a credible mechanistic or clinical basis.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Eine zweite, niedriger eingestufte Vorhersage („Störung des Tyrosin-Stoffwechsels", Score 99.02%) zeigt das gleiche Muster: die einzige unterstützende Literatur erörtert die H274Y/H275Y-Neuraminidase-Resistenzmutation, bei der eine Histidin→Tyrosin-Aminosäure-Substitution vorliegt – eine zufällige Namensähnlichkeit, keine Verbindung zu vererbten Tyrosin-Stoffwechselstörungen (z.B. Tyrosinämie). Keine der beiden Vorhersagen hat derzeit eine glaubwürdige mechanistische oder klinische Grundlage.
 
 ---
 
-## Literature Evidence
+## Klinische Studienevidenz
 
-Currently no related literature available.
-
----
-
-## Germany Market Information
-
-Zanamivir is currently **not marketed** in Germany, and no authorization records (BfArM license numbers, product names, or approved indication texts) are available in the database.
+Derzeit sind keine entsprechenden klinischen Studien registriert.
 
 ---
 
-## Safety Considerations
+## Literaturevidenz
 
-Please refer to the package insert for safety information.
+Derzeit ist keine entsprechende Literatur verfügbar.
 
 ---
 
-## Conclusion and Next Steps
+## Marktinformation Deutschland
 
-**Decision: Hold**
+Zanamivir ist derzeit **nicht im Handel** in Deutschland, und keine Zulassungsunterlagen (BfArM-Lizenznummern, Produktnamen oder genehmigte Indikationstexte) sind in der Datenbank verfügbar.
 
-**Rationale:**
-The top prediction (pyelonephritis) has zero supporting clinical trials or literature, and the evidence pack's own mechanistic review assesses the drug–disease link as biologically implausible and likely a knowledge-graph artifact rather than a genuine pharmacological signal. Evidence level is L5, the lowest tier (model prediction only).
+---
 
-**To proceed, the following is needed:**
-- Resolve the blocking data gap (DG001): TFDA/BfArM label warnings and contraindications, required before any S1 safety pre-assessment
-- Confirmed mechanism-of-action data from DrugBank (DG002)
-- Independent pharmacological or preclinical rationale connecting neuraminidase inhibition to bacterial pyelonephritis, if this candidate is to be pursued further
-- Re-evaluation of TxGNN scoring methodology to address potential semantic-proximity false positives for infection-related indications
+## Sicherheitsaspekte
+
+Für Sicherheitsinformationen wird auf die Fachinformation verwiesen.
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Abwarten**
+
+**Begründung:**
+Die beste Vorhersage (Pyelonephritis) hat null unterstützende klinische Studien oder Literatur, und die mechanistische Analyse des Evidenzpakets bewertet die Arzneimittel-Krankheits-Verbindung als biologisch implausibel und wahrscheinlich ein Wissensgraph-Artefakt anstatt eines echten pharmakologischen Signals. Die Evidenzstufe ist L5, die niedrigste Stufe (nur Modellvorhersage).
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+- Behebung der blockierenden Datenlücke (DG001): TFDA/BfArM-Fachinformations-Warnungen und Kontraindikationen, erforderlich vor jeglicher S1-Sicherheitsvorabprüfung
+- Bestätigte Wirkmechanismus-Daten aus DrugBank (DG002)
+- Unabhängige pharmakologische oder präklinische Begründung, die Neuraminidase-Inhibition mit bakterieller Pyelonephritis verbindet, falls dieser Kandidat weiter verfolgt werden soll
+- Neubewertung der TxGNN-Scoring-Methodik, um potenzielle semantische-Nähe-Falsch-Positive bei infektionsbezogenen Indikationen zu adressieren
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

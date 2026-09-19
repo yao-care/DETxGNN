@@ -29,93 +29,94 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Lorlatinib: From ALK-Positive Non-Small Cell Lung Cancer to Gingival Fibromatosis
+# Lorlatinib: Von ALK-positiven nicht-kleinzelligen Lungenkarzinomen zur gingivalen Fibromatose
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Lorlatinib is a third-generation ALK/ROS1 tyrosine kinase inhibitor clinically established for ALK-positive metastatic non-small cell lung cancer (this evidence pack itself does not document the original indication or MOA — see note below). The TxGNN model's top-ranked prediction for this candidate is **Gingival Fibromatosis**, but this prediction is supported by **zero clinical trials** and **zero publications** — it is a pure computational signal with no corroborating evidence.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in this evidence pack (0 licenses on file; `original_moa` and `original_indications` are both data gaps). Clinically, lorlatinib is known to be an ALK/ROS1 TKI approved for ALK-positive NSCLC, but this is external knowledge, not sourced from this pack. |
-| Predicted New Indication | Gingival Fibromatosis |
-| TxGNN Prediction Score | 99.81% (rank 2729 among all predictions) |
-| Evidence Level | L5 (model prediction only — no trials, no literature) |
-| Germany Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+Lorlatinib ist ein ALK/ROS1-Tyrosinkinase-Inhibitor der dritten Generation, der klinisch für ALK-positive metastatische nicht-kleinzellige Lungenkarzinome (NSCLC) etabliert ist (dieses Evidence Pack dokumentiert jedoch weder die ursprüngliche Indikation noch den Wirkmechanismus – siehe Anmerkung unten). Die Top-Vorhersage des TxGNN-Modells für diesen Kandidaten ist **gingivale Fibromatose**, diese Vorhersage wird jedoch durch **null klinische Studien** und **null Publikationen** gestützt – es handelt sich um ein reines algorithmisches Signal ohne unterstützende Evidenz.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known information, lorlatinib is an ALK/ROS1 tyrosine kinase inhibitor whose efficacy in ALK-rearranged NSCLC is well established (e.g., the Phase 3 CROWN trial), but this pack contains no data linking that mechanism to gingival tissue biology.
-
-Gingival fibromatosis is typically an autosomal-dominant hereditary condition or a drug-induced gingival overgrowth (classically associated with calcineurin inhibitors like cyclosporine, or agents like phenytoin) — it is not known to involve ALK or ROS1 signaling. The evidence pack's own rationale for this prediction explicitly states there is **no known mechanistic link** and characterizes it as likely **TxGNN prediction noise**, i.e., an artifact of the embedding/similarity model rather than a genuine biological signal.
-
-**Broader data-quality caveat:** Reviewing all 10 TxGNN-ranked predictions in this pack, none constitute a credible repurposing signal. Six of ten (ranks 1, 2, 3, 7, 8, 9) have zero supporting evidence. The remaining four (ranks 4, 5, 6, 10) do carry substantial literature — but on inspection, that literature is almost entirely about lorlatinib's **already-approved malignant NSCLC indication** (e.g., CROWN Phase 3 RCT data attached to "lung benign neoplasm"), **ALK-driven neuroblastoma** (attached to "lung germ cell tumor"), or **lorlatinib's known adverse-effect profile** (hyperlipidemia, ARDS, metabolic syndrome — attached to an unrelated rare genetic syndrome). These appear to be disease-ontology mapping errors in the underlying database, not real repurposing signals. This should be corrected before the dataset is used for further scoring or reporting.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Item | Inhalt |
+|------|--------|
+| Ursprüngliche Indikation | Nicht dokumentiert in diesem Evidence Pack (0 Lizenzen vorhanden; `original_moa` und `original_indications` sind beide Datenlücken). Klinisch ist lorlatinib als ALK/ROS1-TKI für ALK-positive NSCLC zugelassen, aber dies ist externes Wissen, nicht aus diesem Pack bezogen. |
+| Prognostizierte neue Indikation | Gingivale Fibromatose |
+| TxGNN-Vorhersage-Score | 99.81% (Rang 2729 unter allen Vorhersagen) |
+| Evidence Level | L5 (nur Modellvorhersage – keine Studien, keine Literatur) |
+| Status auf dem deutschen Markt | Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | **Hold** |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage vernünftig?
 
-Currently no related literature available.
+Derzeit sind detaillierte Wirkmechanismus-Daten in diesem Evidence Pack nicht verfügbar. Basierend auf bekannten Informationen ist lorlatinib ein ALK/ROS1-Tyrosinkinase-Inhibitor, dessen Wirksamkeit bei ALK-umgelagertem NSCLC gut etabliert ist (z. B. die Phase-3-CROWN-Studie), aber dieses Pack enthält keine Daten, die diesen Mechanismus mit der Biologie des gingivalen Gewebes verknüpfen.
 
----
+Gingivale Fibromatose ist typischerweise eine autosomal-dominante hereditäre Erkrankung oder eine arzneimittelinduzierte gingivale Wucherung (klassischerweise assoziiert mit Calcineurin-Inhibitoren wie Ciclosporin oder Wirkstoffen wie Phenytoin) – es ist nicht bekannt, dass sie ALK oder ROS1-Signalgebung involviert. Die Begründung des Evidence Packs selbst für diese Vorhersage erklärt explizit, dass es **keine bekannte mechanistische Verbindung** gibt und charakterisiert dies als wahrscheinliches **TxGNN-Vorhersage-Rauschen**, d. h. ein Artefakt des Embedding-/Ähnlichkeitsmodells statt eines echten biologischen Signals.
 
-## Germany Market Information
-
-Lorlatinib currently has no marketing authorization on file in Germany (0 licenses; market status: not marketed). No product/dosage-form data is available in this evidence pack.
+**Breitere Datenqualitäts-Vorbehalte:** Bei Betrachtung aller 10 TxGNN-bewerteten Vorhersagen in diesem Pack stellt keine ein glaubwürdiges Repurposing-Signal dar. Sechs von zehn (Ränge 1, 2, 3, 7, 8, 9) haben null unterstützende Evidenz. Die restlichen vier (Ränge 4, 5, 6, 10) enthalten umfangreiche Literatur – aber bei Überprüfung ist diese Literatur fast ausschließlich über lorlatinib's **bereits zugelassene maligne NSCLC-Indikation** (z. B. CROWN Phase-3-RCT-Daten zu „benigner Lungenneoplasie"), **ALK-getriebenes Neuroblastom** (an „Lungenkeimzelltumor" angehängt) oder **lorlatinib's bekanntes Nebenwirkungsprofil** (Hyperlipidämie, ARDS, Metabolisches Syndrom – an ein unabhängiges seltenes genetisches Syndrom angehängt). Diese scheinen Krankheitsontologie-Zuordnungsfehler in der zugrunde liegenden Datenbank zu sein, nicht echte Repurposing-Signale. Dies sollte korrigiert werden, bevor der Datensatz für weitere Bewertungen oder Berichte verwendet wird.
 
 ---
 
-## Cytotoxicity
+## Klinische Studienevidenz
 
-Lorlatinib is an antineoplastic agent (third-generation ALK/ROS1 tyrosine kinase inhibitor), based on the drug class described in the literature evidence attached elsewhere in this pack (e.g., CROWN trial references). It is not a conventional cytotoxic chemotherapeutic.
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (ALK/ROS1 TKI) |
-| Myelosuppression Risk | Low — TKIs of this class are not typically associated with significant myelosuppression; no specific hematologic toxicity data present in this pack |
-| Emetogenicity Classification | Low (typical for oral small-molecule TKIs) |
-| Monitoring Items | Lipid panel (hypercholesterolemia/hypertriglyceridemia reported in literature associated with this drug), liver function, weight/metabolic parameters, mood/CNS effects |
-| Handling Protection | Standard oral oncolytic handling precautions; please refer to institutional policy and the official package insert for specific requirements |
+Derzeit sind keine verwandten klinischen Studien registriert.
 
 ---
 
-## Safety Considerations
+## Literaturevidenz
 
-Formal safety fields (`key_warnings`, `contraindications`, `ddi`) are data gaps in this evidence pack. However, literature attached elsewhere to other (mismatched) predicted indications in this pack does contain genuine lorlatinib safety signals worth noting for awareness, pending confirmation against the official label:
-
-- Reports of lorlatinib-associated hyperlipidemia/dyslipidemia and metabolic syndrome (PMIDs [40287137](https://pubmed.ncbi.nlm.nih.gov/40287137/), [40157899](https://pubmed.ncbi.nlm.nih.gov/40157899/), [39537504](https://pubmed.ncbi.nlm.nih.gov/39537504/), [33789526](https://pubmed.ncbi.nlm.nih.gov/33789526/))
-- A case report of lorlatinib-associated ARDS (PMID [31985497](https://pubmed.ncbi.nlm.nih.gov/31985497/))
-- A pragmatic adverse-event management guide for lorlatinib (PMID [38554546](https://pubmed.ncbi.nlm.nih.gov/38554546/))
-
-These findings relate to lorlatinib's known safety profile in its approved oncology use, not to gingival fibromatosis specifically, and are not sufficient to support the predicted indication in this report.
+Derzeit ist keine verwandte Literatur verfügbar.
 
 ---
 
-## Conclusion and Next Steps
+## Informationen zum deutschen Markt
 
-**Decision: Hold**
+Lorlatinib hat derzeit keine Marktgenehmigung in Deutschland auf Datei (0 Lizenzen; Marktstatus: nicht vermarktet). Keine Produkt-/Darreichungsform-Daten sind in diesem Evidence Pack verfügbar.
 
-**Rationale:**
-The top-ranked prediction (Gingival Fibromatosis) has no clinical trial or literature support and no plausible mechanistic rationale — the pack itself flags it as likely model noise. No other prediction in this pack constitutes a genuine, evidence-backed repurposing signal once the ontology-mismatched entries are excluded.
+---
 
-**To proceed, the following is needed:**
-- Resolve the two Blocking/High data gaps (TFDA/BfArM label warnings & contraindications; confirmed original MOA/indication)
-- Correct disease-ontology mapping for ranks 4, 5, 6, and 10, which currently misattribute existing ALK+ NSCLC, neuroblastoma, and drug-safety literature to unrelated candidate diseases
-- Re-run TxGNN scoring/evidence retrieval after ontology correction before considering this candidate for further staging
+## Zytotoxizität
+
+Lorlatinib ist ein antineoplastisches Mittel (ALK/ROS1-Tyrosinkinase-Inhibitor der dritten Generation), basierend auf der Wirkstoffklasse, die in der an anderer Stelle in diesem Pack angegebenen Literaturevidenz beschrieben ist (z. B. CROWN-Studienreferenzen). Es ist kein konventionelles zytotoxisches Chemotherapeutikum.
+
+| Item | Inhalt |
+|------|--------|
+| Zytotoxizitäts-Klassifizierung | Zielgerichtete Therapie (ALK/ROS1-TKI) |
+| Myelosuppressionsrisiko | Niedrig – TKIs dieser Klasse sind nicht typischerweise mit signifikanter Myelosuppression assoziiert; keine spezifischen hämatologischen Toxizitätsdaten in diesem Pack vorhanden |
+| Emetogenitäts-Klassifizierung | Niedrig (typisch für oral verabreichte Small-Molecule-TKIs) |
+| Überwachungsaspekte | Lipidpanel (in der mit diesem Medikament assoziierten Literatur berichtete Hypercholesterinämie/Hypertriglyzeridämie), Leberfunktion, Gewicht/Metabolische Parameter, Stimmung/ZNS-Effekte |
+| Handhabungsvorsichtsmaßnahmen | Standard-Handhabungsvorsichtsmaßnahmen für orale Antineoplastica; bitte beachten Sie die institutionellen Richtlinien und die offizielle Fachinformation für spezifische Anforderungen |
+
+---
+
+## Sicherheitsüberlegungen
+
+Formale Sicherheitsfelder (`key_warnings`, `contraindications`, `ddi`) sind Datenlücken in diesem Evidence Pack. Jedoch enthält Literatur, die anderswo an andere (nicht übereinstimmende) prognostizierte Indikationen in diesem Pack angehängt ist, echte lorlatinib-Sicherheitssignale, die Aufmerksamkeit verdienen, vorbehaltlich der Bestätigung durch das offizielle Label:
+
+- Berichte über lorlatinib-assoziierte Hyperlipidämie/Dyslipidämie und Metabolisches Syndrom (PMIDs [40287137](https://pubmed.ncbi.nlm.nih.gov/40287137/), [40157899](https://pubmed.ncbi.nlm.nih.gov/40157899/), [39537504](https://pubmed.ncbi.nlm.nih.gov/39537504/), [33789526](https://pubmed.ncbi.nlm.nih.gov/33789526/))
+- Ein Fallbericht von lorlatinib-assoziiertem ARDS (PMID [31985497](https://pubmed.ncbi.nlm.nih.gov/31985497/))
+- Ein pragmatischer Leitfaden zur Nebenwirkungsverwaltung für lorlatinib (PMID [38554546](https://pubmed.ncbi.nlm.nih.gov/38554546/))
+
+Diese Befunde beziehen sich auf lorlatinib's bekanntes Sicherheitsprofil in seiner zugelassenen onkologischen Verwendung, nicht auf gingivale Fibromatose speziell, und reichen nicht aus, um die prognostizierte Indikation in diesem Bericht zu unterstützen.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Hold**
+
+**Begründung:**
+Die Top-Vorhersage (gingivale Fibromatose) hat keine klinische Studien- oder Literaturunterstützung und keine plausible mechanistische Begründung – das Pack selbst kennzeichnet es als wahrscheinliches Modellrauschen. Keine andere Vorhersage in diesem Pack stellt ein echtes, evidenzgestütztes Repurposing-Signal dar, sobald die ontologie-mismatch-Einträge ausgeschlossen sind.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+- Beheben Sie die zwei Blocking/High-Datenlücken (TFDA/BfArM-Label-Warnungen & Kontraindikationen; bestätigte ursprüngliche MOA/Indikation)
+- Korrigieren Sie die Krankheitsontologie-Zuordnung für die Ränge 4, 5, 6 und 10, die derzeit bestehende ALK+ NSCLC-, Neuroblastom- und Medikamentensicherheitsliteratur zu unabhängigen Kandidaten-Erkrankungen miszuordnen
+- Führen Sie die TxGNN-Bewertung/Evidenzabruf nach Ontologie-Korrektur erneut aus, bevor Sie diesen Kandidaten für weitere Staging-Phasen in Betracht ziehen
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

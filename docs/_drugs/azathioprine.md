@@ -29,102 +29,103 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# AZATHIOPRINE: From Immunosuppressant Therapy to Inflammatory Bowel Disease
+# AZATHIOPRIN: Von der Immunsuppressiva-Therapie zur Entzündlichen Darmerkrankung
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Azathioprine is a thiopurine immunosuppressant; this evidence pack does not record its original approved indication, but pharmacologically it belongs to the purine-analog immunosuppressant class.
-Among 10 TxGNN-predicted indications, the only one with substantial supporting evidence is **Inflammatory Bowel Disease (IBD)** — a use already well established in clinical practice — backed by **~47 clinical trials** and **20 publications**, including multiple Cochrane systematic reviews.
-The other 9 predictions (mostly rare congenital/genetic syndromes) carry very high TxGNN scores but **zero supporting clinical trials or literature**, and are flagged by the evidence pack itself as likely model noise.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not specified in this evidence pack (drug class: thiopurine/purine-analog immunosuppressant) |
-| Predicted New Indication | Inflammatory Bowel Disease (Crohn's Disease / Ulcerative Colitis) |
-| TxGNN Prediction Score | 99.52% (overall model rank 5,720) |
-| Evidence Level | L1 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** (pending safety data) |
+Azathioprin ist ein Thiopurin-Immunsuppressivum; dieses Evidenzpaket dokumentiert nicht seine ursprüngliche zugelassene Indikation, gehört aber pharmakologisch zur Klasse der Purin-Analog-Immunsuppressiva.
+Unter den 10 von TxGNN prognostizierten Indikationen ist die einzige mit substanziellem Evidenzbeleg **Entzündliche Darmerkrankung (IBD)** — eine bereits gut etablierte Anwendung in der klinischen Praxis — gestützt durch **~47 klinische Studien** und **20 Publikationen**, darunter mehrere Cochrane-Systematische Übersichten.
+Die übrigen 9 Vorhersagen (hauptsächlich seltene angeborene/genetische Syndrome) haben sehr hohe TxGNN-Scores, aber **null unterstützende klinische Studien oder Literatur**, und werden vom Evidenzpaket selbst als wahrscheinliches Modellrauschen gekennzeichnet.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnelle Übersicht
 
-Currently, detailed mechanism-of-action data for azathioprine is not available in this evidence pack (flagged as data gap DG002). Based on the pharmacological information embedded in the evidence records, azathioprine is a purine-analog prodrug that is metabolized to 6-mercaptopurine (6-MP), which inhibits purine synthesis and suppresses the proliferation of activated T- and B-lymphocytes. This antiproliferative, immune-suppressing mechanism is the basis for azathioprine's long-standing, well-established role as a steroid-sparing maintenance therapy in inflammatory bowel disease (both Crohn's disease and ulcerative colitis), where chronic T-cell–mediated mucosal inflammation drives disease activity.
-
-Because IBD pathophysiology is fundamentally an aberrant immune/inflammatory process, azathioprine's mechanism is directly and plausibly applicable — this is reflected in the evidence pack by decades of RCTs, Cochrane systematic reviews, and pharmacogenetic studies (TPMT/NUDT15-guided dosing) specifically evaluating azathioprine in IBD. It should be noted that this is less a "novel repurposing signal" and more a **model-validated confirmation of an already-recognized therapeutic use** — TxGNN correctly re-derived a known, clinically mainstream indication for this drug.
-
-By contrast, the 8 other top-ranked TxGNN predictions in this pack (e.g., colobomatous microphthalmia-rhizomelic dysplasia syndrome, brachydactyly-syndactyly syndrome, osteoarthritis susceptibility, WHIM syndrome, chronic granulomatous disease variants, acromesomelic dysplasia) are rare congenital/genetic disorders with **no mechanistic link, no clinical trials, and no literature support**. Several (WHIM syndrome, chronic granulomatous disease) are primary immunodeficiency syndromes where adding an immunosuppressant would plausibly *worsen* infection risk — the opposite of a therapeutic rationale. These are correctly scored L5/S0/Hold in the pack and should be treated as network-prediction artifacts rather than genuine candidates.
+| Artikel | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Nicht angegeben in diesem Evidenzpaket (Wirkstoffklasse: Thiopurin/Purin-Analog-Immunsuppressivum) |
+| Prognostizierte neue Indikation | Entzündliche Darmerkrankung (Morbus Crohn / Colitis ulcerosa) |
+| TxGNN-Vorhersage-Score | 99.52% (Gesamtmodell-Rang 5,720) |
+| Evidenzstufe | L1 |
+| Markt-Status Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | **Hold** (ausstehende Sicherheitsdaten) |
 
 ---
 
-## Clinical Trial Evidence
+## Warum ist diese Vorhersage angemessen?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Derzeit sind detaillierte Wirkmechanismus-Daten für Azathioprin nicht in diesem Evidenzpaket verfügbar (gekennzeichnet als Datenlücke DG002). Basierend auf den pharmakologischen Informationen in den Evidenzeinträgen ist Azathioprin ein Purin-Analog-Prodrug, das zu 6-MP metabolisiert wird, welches die Purinsynthese hemmt und die Vermehrung von aktivierten T- und B-Lymphozyten unterdrückt. Dieser antiproliferative, immunsupprimierende Mechanismus bildet die Grundlage für Azatioprins lange etablierte, gut anerkannte Rolle als Steroid-sparende Erhaltungstherapie bei entzündlicher Darmerkrankung (sowohl Morbus Crohn als auch Colitis ulcerosa), wo die chronische T-Zell-vermittelte Schleimhautentzündung die Krankheitsaktivität antreibt.
+
+Da die IBD-Pathophysiologie grundlegend ein aberranter Immun-/Entzündungsprozess ist, ist der Wirkmechanismus von Azathioprin direkt und plausibel anwendbar — dies wird im Evidenzpaket durch Jahrzehnte von randomisierten kontrollierten Studien, Cochrane-Systematischen Übersichten und pharmakogenetischen Studien (TPMT/NUDT15-gesteuerte Dosierung) widergespiegelt, die Azathioprin speziell bei IBD evaluieren. Es sollte beachtet werden, dass dies weniger ein „neuartiges Repurposing-Signal" ist, sondern eher eine **Modell-validierte Bestätigung einer bereits anerkannten therapeutischen Anwendung** — TxGNN hat eine bekannte, klinisch etablierte Indikation für dieses Arzneimittel korrekt neu abgeleitet.
+
+Im Gegensatz dazu haben die 8 anderen Top-bewerteten TxGNN-Vorhersagen in diesem Paket (z. B. kolobomatöse Mikrophtalmie-rhizomele-Dysplasie-Syndrom, Brachydaktylie-Syndaktylie-Syndrom, Arthrose-Anfälligkeit, WHIM-Syndrom, Varianten der chronischen Granulomatose, Acromesomele Dysplasie) seltene angeborene/genetische Störungen ohne **mechanistischen Link, keine klinischen Studien und keine Literaturstütze**. Mehrere (WHIM-Syndrom, chronische Granulomatose) sind primäre Immundefizienzsyndrome, bei denen das Hinzufügen eines Immunsuppressivums plausibel die *Infektionsgefährdung verschärfen* würde — das Gegenteil einer therapeutischen Begründung. Diese sind im Paket korrekt als L5/S0/Hold bewertet und sollten als Netzwerk-Vorhersage-Artefakte statt als echte Kandidaten behandelt werden.
+
+---
+
+## Evidenz aus klinischen Studien
+
+| Studiennummer | Phase | Status | Einschluss | Wichtigste Befunde |
 |---------|------|------|------|---------|
-| [NCT03101800](https://clinicaltrials.gov/study/NCT03101800) | Phase 3 | Unknown | 84 | RCT comparing low-dose azathioprine + allopurinol vs. azathioprine monotherapy in ulcerative colitis; tests strategy to reduce treatment failure/adverse events |
-| [NCT00094458](https://clinicaltrials.gov/study/NCT00094458) | Phase 3 | Completed | 508 | Infliximab vs. infliximab+azathioprine vs. azathioprine alone in immunomodulator/biologic-naive Crohn's disease (SONIC-type design) |
-| [NCT01015391](https://clinicaltrials.gov/study/NCT01015391) | N/A (RCT) | Unknown | 100 | Open-label RCT: T2 vs. azathioprine for maintaining remission after surgical resection in Crohn's disease |
-| [NCT03464136](https://clinicaltrials.gov/study/NCT03464136) | Phase 3b | Completed | 386 | Ustekinumab vs. adalimumab in biologic-naive Crohn's; azathioprine as prior/background immunomodulator |
-| [NCT00577538](https://clinicaltrials.gov/study/NCT00577538) | N/A | Completed | 7 | Safety study on lymphoproliferative disease risk associated with azathioprine/6-MP in IBD |
-| [NCT02929706](https://clinicaltrials.gov/study/NCT02929706) | N/A | Unknown | 400 | NUDT15 R139C genotype-guided thiopurine dose optimization to reduce azathioprine-induced leucopenia in IBD |
-| [NCT00113503](https://clinicaltrials.gov/study/NCT00113503) | Phase 2 | Terminated | 50 | Multi-site trial comparing weight-based vs. metabolite-guided azathioprine dosing in Crohn's disease |
-| [NCT05584228](https://clinicaltrials.gov/study/NCT05584228) | N/A | Not Yet Recruiting | 150 | SMART trial: azathioprine + subcutaneous infliximab vs. surgical resection in symptomatic small bowel Crohn's disease |
-| [NCT07235904](https://clinicaltrials.gov/study/NCT07235904) | Phase 4 | Recruiting | 300 | MIRACLE trial: top-down mirikizumab vs. standard-of-care azathioprine in newly diagnosed moderate-to-severe ulcerative colitis |
-| [NCT00796250](https://clinicaltrials.gov/study/NCT00796250) | Phase 3 | Terminated | 9 | Infliximab as "bridging therapy" in corticodependent Crohn's disease under standard azathioprine treatment |
+| [NCT03101800](https://clinicaltrials.gov/study/NCT03101800) | Phase 3 | Unbekannt | 84 | Randomisierte kontrollierte Studie zum Vergleich von niedriger Dosis Azathioprin + Allopurinol vs. Azathioprin-Monotherapie bei Colitis ulcerosa; prüft Strategie zur Reduktion von Therapieversagen/unerwünschten Ereignissen |
+| [NCT00094458](https://clinicaltrials.gov/study/NCT00094458) | Phase 3 | Abgeschlossen | 508 | Infliximab vs. Infliximab+Azathioprin vs. Azathioprin allein bei immunmodulatoren/biologika-naiven Morbus Crohn (SONIC-ähnliches Design) |
+| [NCT01015391](https://clinicaltrials.gov/study/NCT01015391) | N/A (randomisierte kontrollierte Studie) | Unbekannt | 100 | Offene randomisierte kontrollierte Studie: T2 vs. Azathioprin zur Remissionserhaltung nach chirurgischer Resektion bei Morbus Crohn |
+| [NCT03464136](https://clinicaltrials.gov/study/NCT03464136) | Phase 3b | Abgeschlossen | 386 | Ustekinumab vs. Adalimumab bei biologika-naiven Morbus Crohn; Azathioprin als vorherige/Hintergrund-Immunmodulatoren |
+| [NCT00577538](https://clinicaltrials.gov/study/NCT00577538) | N/A | Abgeschlossen | 7 | Sicherheitsstudie zum Risiko lymphoproliferativer Erkrankungen im Zusammenhang mit Azathioprin/6-MP bei IBD |
+| [NCT02929706](https://clinicaltrials.gov/study/NCT02929706) | N/A | Unbekannt | 400 | NUDT15 R139C-Genotyp-gesteuerte Thiopurin-Dosisoptimierung zur Reduktion von Azathioprin-induzierter Leukozytopenie bei IBD |
+| [NCT00113503](https://clinicaltrials.gov/study/NCT00113503) | Phase 2 | Beendet | 50 | Mehrstellenstudie zum Vergleich gewichtsbasierter vs. Metabolit-gesteuerter Azathioprin-Dosierung bei Morbus Crohn |
+| [NCT05584228](https://clinicaltrials.gov/study/NCT05584228) | N/A | Noch nicht rekrutierend | 150 | SMART-Studie: Azathioprin + subkutanes Infliximab vs. chirurgische Resektion bei symptomatischem Dünndarm-Morbus Crohn |
+| [NCT07235904](https://clinicaltrials.gov/study/NCT07235904) | Phase 4 | Rekrutierung läuft | 300 | MIRACLE-Studie: Top-down Mirikizumab vs. Standardtherapie Azathioprin bei neu diagnostizierter moderate-bis-schwerer Colitis ulcerosa |
+| [NCT00796250](https://clinicaltrials.gov/study/NCT00796250) | Phase 3 | Beendet | 9 | Infliximab als „Überbrückungstherapie" bei kortikoidabhängigem Morbus Crohn unter Standardbehandlung mit Azathioprin |
 
 ---
 
-## Literature Evidence
+## Evidenz aus der Literatur
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Journal | Wichtigste Befunde |
 |------|-----|------|------|---------|
-| [29293971](https://pubmed.ncbi.nlm.nih.gov/29293971/) | 2018 | Review | J Crohn's Colitis | State-of-the-art clinical review of thiopurine (azathioprine/mercaptopurine/thioguanine) use in IBD |
-| [19072367](https://pubmed.ncbi.nlm.nih.gov/19072367/) | 2008 | Review | Expert Rev Gastroenterol Hepatol | Improved molecular insight into azathioprine's mechanism and clinical implications in IBD |
-| [33305616](https://pubmed.ncbi.nlm.nih.gov/33305616/) | 2021 | Review | Pharmacogenomics | Pharmacogenetics of IBD, with focus on thiopurine treatment optimization |
-| [30954317](https://pubmed.ncbi.nlm.nih.gov/30954317/) | 2019 | Review | Gastroenterol Hepatol | Evidence review on discontinuing aminosalicylates, thiopurines and methotrexate in IBD |
-| [36462311](https://pubmed.ncbi.nlm.nih.gov/36462311/) | 2023 | Cohort/Pharmacogenetics | Biomed Pharmacother | TPMT gene methylation and azathioprine pharmacokinetics in very-early-onset IBD children |
-| [16048561](https://pubmed.ncbi.nlm.nih.gov/16048561/) | 2005 | Cohort/Pharmacogenetics | J Gastroenterol Hepatol | Azathioprine/6-MP pharmacogenetics and metabolite monitoring in IBD |
-| [37586320](https://pubmed.ncbi.nlm.nih.gov/37586320/) | 2023 | Mechanism study | Cell Reports Medicine | Gut commensal bacteria (Blautia wexlerae) linked to azathioprine therapy failure via reduced 6-MP bioavailability |
-| [10499471](https://pubmed.ncbi.nlm.nih.gov/10499471/) | 1999 | Clinical review | Scand J Gastroenterol Suppl | Update on azathioprine clinical efficacy and safety in IBD |
-| [40126153](https://pubmed.ncbi.nlm.nih.gov/40126153/) | 2025 | Epidemiology | Scand J Gastroenterol | Temporal trends in IBD characteristics and treatment patterns |
-| [27688654](https://pubmed.ncbi.nlm.nih.gov/27688654/) | 2016 | Review | World J Gastroenterol | IBD in India — past, present and future, including thiopurine treatment context |
+| [29293971](https://pubmed.ncbi.nlm.nih.gov/29293971/) | 2018 | Übersicht | J Crohn's Colitis | State-of-the-art klinische Übersicht über Thiopurin (Azathioprin/Mercaptopurin/Thioguanin)-Anwendung bei IBD |
+| [19072367](https://pubmed.ncbi.nlm.nih.gov/19072367/) | 2008 | Übersicht | Expert Rev Gastroenterol Hepatol | Verbesserter molekularer Einblick in den Wirkmechanismus von Azathioprin und klinische Implikationen bei IBD |
+| [33305616](https://pubmed.ncbi.nlm.nih.gov/33305616/) | 2021 | Übersicht | Pharmacogenomics | Pharmakogenetik der IBD mit Fokus auf Thiopurin-Behandlungsoptimierung |
+| [30954317](https://pubmed.ncbi.nlm.nih.gov/30954317/) | 2019 | Übersicht | Gastroenterol Hepatol | Evidenzübersicht zum Absetzen von Aminosalicylaten, Thiopurinen und Methotrexat bei IBD |
+| [36462311](https://pubmed.ncbi.nlm.nih.gov/36462311/) | 2023 | Kohorte/Pharmakogenetik | Biomed Pharmacother | TPMT-Genmethylierung und Azathioprin-Pharmakokinetik bei sehr früh manifestierender IBD bei Kindern |
+| [16048561](https://pubmed.ncbi.nlm.nih.gov/16048561/) | 2005 | Kohorte/Pharmakogenetik | J Gastroenterol Hepatol | Azathioprin/6-MP-Pharmakogenetik und Metabolit-Monitoring bei IBD |
+| [37586320](https://pubmed.ncbi.nlm.nih.gov/37586320/) | 2023 | Mechanismus-Studie | Cell Reports Medicine | Darmbakterien-Kommensalen (Blautia wexlerae) verbunden mit Azathioprin-Therapieversagen durch verringerte 6-MP-Bioverfügbarkeit |
+| [10499471](https://pubmed.ncbi.nlm.nih.gov/10499471/) | 1999 | Klinische Übersicht | Scand J Gastroenterol Suppl | Update zur klinischen Wirksamkeit und Sicherheit von Azathioprin bei IBD |
+| [40126153](https://pubmed.ncbi.nlm.nih.gov/40126153/) | 2025 | Epidemiologie | Scand J Gastroenterol | Zeitliche Trends in IBD-Merkmalen und Behandlungsmustern |
+| [27688654](https://pubmed.ncbi.nlm.nih.gov/27688654/) | 2016 | Übersicht | World J Gastroenterol | IBD in Indien — Vergangenheit, Gegenwart und Zukunft, einschließlich Thiopurin-Behandlungskontext |
 
 ---
 
-## Germany Market Information
+## Marktinformationen Deutschland
 
-No marketing authorizations are on record for this drug in the current dataset. Market status is reported as **Not Marketed**, with **0 total licenses**.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-> **Note:** This evidence pack flags a **Blocking** data gap (DG001) — TFDA/BfArM label warnings and contraindications are unavailable. This prevents a formal S1 safety pre-assessment for azathioprine, independent of the efficacy evidence summarized above.
+Es sind keine Marktgenehmigungen für dieses Arzneimittel im aktuellen Datensatz verzeichnet. Der Markt-Status wird als **Nicht vermarktet** angegeben, mit **0 Gesamtlizenzen**.
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsaspekte
 
-**Decision: Hold**
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
 
-**Rationale:**
-- The efficacy evidence for azathioprine in IBD is strong (L1: multiple RCTs and Cochrane systematic reviews spanning decades), and the mechanistic rationale is sound — but this reflects an already well-established use rather than a novel repurposing opportunity.
-- A **Blocking**-severity data gap (missing label warnings/contraindications) prevents safety pre-assessment (S1), and the drug currently has **no market authorization** in this jurisdiction (0 licenses, "Not Marketed"), so a "Proceed with Guardrails" call cannot yet be responsibly made.
-- Eight of the ten TxGNN-predicted indications in this pack (rare congenital/genetic syndromes) have no clinical or literature support and should not be pursued.
+> **Hinweis:** Dieses Evidenzpaket kennzeichnet eine **kritische** Datenlücke (DG001) — TFDA/BfArM-Labelwarnungen und Kontraindikationen sind nicht verfügbar. Dies verhindert eine formale S1-Sicherheits-Vor-Bewertung für Azathioprin, unabhängig von den oben zusammengefassten Wirksamkeitsbeleuen.
 
-**To proceed, the following is needed:**
-- Retrieve TFDA/BfArM package insert (warnings, contraindications, DDI) to complete S1 safety pre-assessment
-- Confirm original/current approved indications and MOA via DrugBank or regulatory source
-- Clarify regulatory pathway for market authorization given current "Not Marketed" status
-- If proceeding, implement TPMT/NUDT15 genotype-guided dosing and routine CBC/liver monitoring per the pharmacogenetic literature identified above
+---
+
+## Fazit und Nächste Schritte
+
+**Entscheidung: Hold**
+
+**Begründung:**
+- Die Wirksamkeitsevidenz für Azathioprin bei IBD ist stark (L1: mehrere randomisierte kontrollierte Studien und Cochrane-Systematische Übersichten über Jahrzehnte), und die mechanistische Begründung ist solide — aber dies spiegelt eine bereits gut etablierte Anwendung wider, nicht eine neue Repurposing-Gelegenheit.
+- Eine **kritische**-Schweregrad-Datenlücke (fehlende Labelwarnungen/Kontraindikationen) verhindert eine Sicherheits-Vor-Bewertung (S1), und das Arzneimittel hat derzeit **keine Marktgenehmigung** in dieser Gerichtsbarkeit (0 Lizenzen, „Nicht vermarktet"), daher kann ein „Proceed with Guardrails"-Aufruf noch nicht verantwortungsvoll erfolgen.
+- Acht der zehn von TxGNN prognostizierten Indikationen in diesem Paket (seltene angeborene/genetische Syndrome) haben keine klinischen oder Literaturbelege und sollten nicht verfolgt werden.
+
+**Um fortzufahren, wird Folgendes benötigt:**
+- Besorgen Sie sich die TFDA/BfArM-Packungsbeilage (Warnungen, Kontraindikationen, Arzneimittelinteraktionen), um die S1-Sicherheits-Vor-Bewertung abzuschließen
+- Bestätigen Sie ursprüngliche/aktuelle zugelassene Indikationen und Wirkmechanismus über DrugBank oder regulatorische Quelle
+- Klären Sie den Zulassungsweg angesichts des aktuellen Status „Nicht vermarktet"
+- Falls Fortfahrt, implementieren Sie TPMT/NUDT15-Genotyp-gesteuerte Dosierung und regelmäßiges Blutbild/Leberfunktions-Monitoring gemäß der in den pharmakogenetischen Literaturellen oben identifizierten Befunde
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

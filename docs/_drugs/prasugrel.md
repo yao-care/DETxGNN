@@ -29,80 +29,81 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Prasugrel: From Antiplatelet Therapy (ACS/PCI) to Pulmonary Hypertension
+# Prasugrel: Von Antitrombozytärer Therapie (AKS/PCI) zur Pulmonalen Hypertonie
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Prasugrel is a thienopyridine-class P2Y12 receptor inhibitor, an antiplatelet drug clinically established for acute coronary syndrome (ACS) and percutaneous coronary intervention (PCI) settings. The TxGNN model predicts it may be effective for **Pulmonary Hypertension**, but currently only **2 clinical trials** and **2 publications** are available, and none of them directly study prasugrel in pulmonary hypertension patients.
+Prasugrel ist ein Thienpyridin-Klasse-P2Y12-Rezeptor-Inhibitor, ein Antitrombozytenmittel, das klinisch für das akute Koronarsyndrom (AKS) und die perkutane Koronarintervention (PCI) etabliert ist. Das TxGNN-Modell prognostiziert, dass es für **Pulmonale Hypertonie** wirksam sein könnte, aber derzeit sind nur **2 klinische Studien** und **2 Publikationen** verfügbar, und keine von ihnen untersucht Prasugrel direkt bei Patienten mit Pulmonaler Hypertonie.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Punkt | Inhalt |
 |------|------|
-| Original Indication | Not specified in this evidence pack; clinically known as an antiplatelet agent for ACS/PCI (thienopyridine class) |
-| Predicted New Indication | Pulmonary Hypertension |
-| TxGNN Prediction Score | 99.88% |
-| Evidence Level | L5 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | In diesem Evidence Pack nicht spezifiziert; klinisch bekannt als Antitrombozytenmittel für AKS/PCI (Thienpyridin-Klasse) |
+| Vorhergesagte neue Indikation | Pulmonale Hypertonie |
+| TxGNN-Vorhersagescore | 99.88% |
+| Evidenzgrad | L5 |
+| Marktstatus in Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Abwarten |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage berechtigt?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known information, prasugrel belongs to the thienopyridine class of P2Y12 platelet receptor inhibitors, and its efficacy in reducing thrombotic events following ACS/PCI is well established.
+Derzeit sind detaillierte Wirkmechanismus-Daten in diesem Evidence Pack nicht verfügbar. Basierend auf bekannten Informationen gehört Prasugrel zur Thienpyridin-Klasse der P2Y12-Thrombozyten-Rezeptor-Inhibitoren, und seine Wirksamkeit bei der Verringerung thrombotischer Ereignisse nach AKS/PCI ist gut etabliert.
 
-The theoretical link to pulmonary hypertension rests on the pathophysiology of chronic thromboembolic pulmonary hypertension (CTEPH), a subtype in which recurrent pulmonary thrombus formation contributes to disease progression — a process where antiplatelet mechanisms could plausibly play a role. However, this connection is inferential rather than evidence-based: the two retrieved trials concern cancer-associated venous thromboembolism eligibility and NOAC use in atrial fibrillation, neither involving prasugrel or pulmonary hypertension directly (both graded "C" relevance — background topical overlap only). The two retrieved publications likewise discuss COVID-19 comorbidity therapy and clopidogrel/prasugrel adherence after PCI, again without addressing pulmonary hypertension.
+Die theoretische Verbindung zur Pulmonalen Hypertonie beruht auf der Pathophysiologie der chronisch thromboembolischen Pulmonalen Hypertonie (CTEPH), einem Subtyp, bei dem wiederholte pulmonale Thrombusbildung zum Krankheitsverlauf beiträgt – ein Prozess, bei dem Antitrombozytenmechanismen plausibel eine Rolle spielen könnten. Allerdings ist diese Verbindung eher Schlussfolgerung als evidenzgestützt: Die beiden abgerufenen Studien befassen sich mit der Berechtigung für krebsassoziierte venöse Thromboembolien und der Verwendung von NOAK bei Vorhofflimmern, wobei weder Prasugrel noch Pulmonale Hypertonie direkt einbezogen sind (beide mit „C" Relevanz bewertet – nur thematische Überlappung im Hintergrund). Die beiden abgerufenen Publikationen diskutieren ebenfalls COVID-19-Komorbiditätstherapie und Clopidogrel-/Prasugrel-Adhärenz nach PCI, wiederum ohne die Pulmonale Hypertonie zu adressieren.
 
-Given the absence of any drug-specific or indication-specific study, this prediction should be regarded as a model-generated hypothesis (L5) rather than an evidence-supported repurposing signal.
+Angesichts des Fehlens jeglicher arzneistoff-spezifischer oder indikations-spezifischer Studie sollte diese Vorhersage als modellgenerierte Hypothese (L5) und nicht als evidenzgestützte Repurposing-Signal betrachtet werden.
 
 ---
 
-## Clinical Trial Evidence
+## Evidenz aus klinischen Studien
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Studiennummer | Phase | Status | Teilnehmerzahl | Wichtigste Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT04846556](https://clinicaltrials.gov/study/NCT04846556) | N/A | Completed | 300 | Retrospective study on eligibility of cancer-associated thrombosis patients for trials like CARAVAGGIO; does not involve prasugrel or pulmonary hypertension (low relevance — background thrombosis field only). |
-| [NCT03993119](https://clinicaltrials.gov/study/NCT03993119) | N/A | Completed | 500 | Observational study of NOAC (oral anticoagulant, not antiplatelet) management in elderly atrial fibrillation patients in Spain; drug class and indication both mismatched (low relevance). |
+| [NCT04846556](https://clinicaltrials.gov/study/NCT04846556) | N/A | Abgeschlossen | 300 | Retrospektive Studie zur Berechtigung von Patienten mit krebsassoziierter Thrombose für Studien wie CARAVAGGIO; betrifft weder Prasugrel noch Pulmonale Hypertonie (geringe Relevanz – nur Hintergrund-Thrombose-Feld). |
+| [NCT03993119](https://clinicaltrials.gov/study/NCT03993119) | N/A | Abgeschlossen | 500 | Beobachtungsstudie zur Behandlung mit NOAK (orales Antikoagulans, keine Antitrombozytenmittel) bei älteren Patienten mit Vorhofflimmern in Spanien; Arzneistoffklasse und Indikation sind beide nicht übereinstimmend (geringe Relevanz). |
 
 ---
 
-## Literature Evidence
+## Evidenz aus der Literatur
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Journal | Wichtigste Ergebnisse |
 |------|-----|------|------|---------|
-| [21241206](https://pubmed.ncbi.nlm.nih.gov/21241206/) | 2011 | Cohort | Curr Med Res Opin | Examines clopidogrel/prasugrel use and adherence after PCI in ACS patients; relevant to prasugrel's established antiplatelet use, not to pulmonary hypertension. |
-| [34713782](https://pubmed.ncbi.nlm.nih.gov/34713782/) | 2021 | Cohort | Kardiologiia | ACTIV COVID-19 registry analysis of background cardiovascular therapy on infection outcomes; no direct connection to prasugrel or pulmonary hypertension. |
+| [21241206](https://pubmed.ncbi.nlm.nih.gov/21241206/) | 2011 | Kohortenstudie | Curr Med Res Opin | Untersucht Verwendung und Adhärenz von Clopidogrel/Prasugrel nach PCI bei AKS-Patienten; relevant für die etablierte Antitrombozytenmittel-Anwendung von Prasugrel, nicht für Pulmonale Hypertonie. |
+| [34713782](https://pubmed.ncbi.nlm.nih.gov/34713782/) | 2021 | Kohortenstudie | Kardiologiia | ACTIV-COVID-19-Registeranalyse zum Einfluss von Hintergrund-Kardiovaskulärtherapie auf Infektionsergebnisse; keine direkte Verbindung zu Prasugrel oder Pulmonaler Hypertonie. |
 
 ---
 
-## Germany Market Information
+## Marktinformationen für Deutschland
 
-No marketing authorization records are currently available for this drug (market status: not marketed, 0 authorizations on file).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+Derzeit sind keine Zulassungsunterlagen für dieses Arzneimittel verfügbar (Marktstatus: nicht vermarktet, 0 Zulassungen).
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsaspekte
 
-**Decision: Hold**
+Bitte beachten Sie die Fachinformation bezüglich Sicherheitsinformationen.
 
-**Rationale:**
-The top-ranked prediction (pulmonary hypertension) is supported only by the TxGNN model score, with no drug-specific or indication-specific clinical trials or literature (Evidence Level L5). The retrieved trials and publications are only tangentially related to antiplatelet/anticoagulant therapy in general cardiovascular contexts and do not address prasugrel's use in pulmonary hypertension.
+---
 
-**To proceed, the following is needed:**
-- TFDA/BfArM label warnings and contraindications (DG001, blocking) — required before any S1 safety assessment can begin
-- Structured mechanism-of-action data from DrugBank (DG002)
-- Preclinical or mechanistic studies specifically linking P2Y12 inhibition to pulmonary vascular remodeling or CTEPH pathophysiology
-- Consider re-evaluating **migraine disorder** (rank 2 in this evidence pack, Evidence Level L3, decision stage S1 "Research Question") as an alternative candidate, given its comparatively stronger literature signal (thienopyridine-class effect on PFO-related migraine)
+## Fazit und Nächste Schritte
+
+**Entscheidung: Abwarten**
+
+**Begründung:**
+Die höchstrangige Vorhersage (Pulmonale Hypertonie) wird nur durch den TxGNN-Modellscore gestützt, ohne arzneistoff-spezifische oder indikations-spezifische klinische Studien oder Literatur (Evidenzgrad L5). Die abgerufenen Studien und Publikationen sind nur tangential mit Antitrombozytenmittel-/Antikoagulans-Therapie im allgemeinen kardiovaskulären Kontext verbunden und adressieren nicht die Anwendung von Prasugrel bei Pulmonaler Hypertonie.
+
+**Um fortzufahren, wird folgendes benötigt:**
+- BfArM/TFDA-Warnhinweise und Kontraindikationen (DG001, Blockierung) – erforderlich, bevor eine S1-Sicherheitsbewertung beginnen kann
+- Strukturierte Wirkmechanismus-Daten aus DrugBank (DG002)
+- Präklinische oder mechanistische Studien, die P2Y12-Hemmung spezifisch mit pulmonaler Gefäßumgestaltung oder CTEPH-Pathophysiologie verknüpfen
+- Erwägen Sie eine Neubewertung von **Migräne-Störung** (Rang 2 in diesem Evidence Pack, Evidenzgrad L3, Entscheidungsstufe S1 „Research Question") als Alternative, angesichts ihres vergleichsweise stärkeren Literatur-Signals (Thienpyridin-Klasse-Effekt bei PFO-assoziierter Migräne)
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

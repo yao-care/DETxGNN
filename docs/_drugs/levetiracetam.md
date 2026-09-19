@@ -29,90 +29,91 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Levetiracetam: From Epilepsy to Visual Epilepsy
+# Levetiracetam: von Epilepsie zu visueller Epilepsie
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Levetiracetam (Keppra®) is a well-established second-generation antiepileptic drug, widely used as adjunctive and monotherapy treatment for partial-onset seizures, myoclonic seizures, and primary generalized tonic-clonic seizures. The TxGNN model predicts it may also be effective for **Visual Epilepsy**, a reflex epilepsy subtype triggered by visual stimuli, with a very high prediction score (**99.98%**) but currently supported only by broadly related antiepileptic evidence rather than condition-specific trials.
+Levetiracetam (Keppra®) ist ein gut etabliertes Antiepileptikum der zweiten Generation, das häufig als Zusatztherapie und Monotherapie zur Behandlung von fokalen Anfällen, myoklonischen Anfällen und primär generalisierten tonisch-klonischen Anfällen eingesetzt wird. Das TxGNN-Modell sagt voraus, dass es auch bei **visueller Epilepsie**, einer durch visuelle Reize ausgelösten Reflexepilepsie-Unterform, wirksam sein könnte, mit einer sehr hohen Vorhersagequote (**99,98%**), die jedoch derzeit nur durch breit angelegte antiepileptische Evidenz gestützt wird, anstelle von zustandsspezifischen Studien.
 
-> **Note on scope:** This evidence pack contains 10 TxGNN-predicted indications for levetiracetam, most of which are reflex-epilepsy subtypes (e.g., audiogenic seizures, startle epilepsy, reading seizures) that sit within the drug's already-known disease family. This report focuses on the top-ranked candidate, **Visual Epilepsy**, per the standard reporting format; see the Conclusion section for a note on the strongest alternative candidate in this pack (status epilepticus).
+> **Anmerkung zum Umfang:** Dieses Evidenzpaket enthält 10 TxGNN-vorhergesagte Indikationen für Levetiracetam, von denen die meisten Reflexepilepsie-Subtypen sind (z. B. audiogene Anfälle, Schreck-Epilepsie, Leseanfälle), die in der bereits bekannten Krankheitsfamilie des Arzneimittels liegen. Dieser Bericht konzentriert sich auf den Top-Kandidaten, **visuelle Epilepsie**, gemäß dem Standardberichtsformat; siehe den Abschnitt Schlussfolgerung für eine Anmerkung zum stärksten alternativen Kandidaten in diesem Paket (Status epilepticus).
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
-|------|------|
-| Original Indication | Epilepsy — partial-onset seizures, myoclonic seizures, primary generalized tonic-clonic seizures (per literature evidence, e.g. PMID 21936590; official TFDA/BfArM indication text unavailable — see Data Gaps) |
-| Predicted New Indication | Visual Epilepsy |
-| TxGNN Prediction Score | 99.98% (rank 544) |
-| Evidence Level | L3 (systematic review / observational support, but not disease-specific — see rationale) |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Epilepsie — fokale Anfälle, myoklonische Anfälle, primär generalisierte tonisch-klonische Anfälle (gemäß Literaturnachweis, z. B. PMID 21936590; offizieller TFDA/BfArM-Indikationstext nicht verfügbar — siehe Datenlücken) |
+| Vorhergesagte neue Indikation | Visuelle Epilepsie |
+| TxGNN-Vorhersagequote | 99,98% (Rang 544) |
+| Evidenzlevel | L3 (systematische Übersicht / Beobachtungsstudien, aber nicht zustandsspezifisch — siehe Begründung) |
+| Marktstatus Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Halten |
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage angemessen?
 
-Detailed mechanism-of-action data for levetiracetam is currently a data gap in this evidence pack. Based on the literature retrieved, levetiracetam is a second-generation antiseizure medication (ASM) that binds synaptic vesicle protein 2A (SV2A) and modulates neurotransmitter release, and it is broadly established for partial-onset seizures, myoclonic seizures, and generalized tonic-clonic seizures (PMID 21936590).
+Detaillierte Daten zum Wirkmechanismus von Levetiracetam sind derzeit eine Datenlücke in diesem Evidenzpaket. Basierend auf der abgerufenen Literatur ist Levetiracetam ein Antiepileptikum der zweiten Generation (ASM), das an das Synapsenblaschen-Protein 2A (SV2A) bindet und die Neurotransmitterfreisetzung moduliert, und es ist breit etabliert für fokale Anfälle, myoklonische Anfälle und generalisierte tonisch-klonische Anfälle (PMID 21936590).
 
-"Visual epilepsy" is a form of reflex epilepsy in which seizures are triggered by visual stimuli (e.g., flashing lights, patterns). Mechanistically, reflex epilepsies are thought to share the same cortical hyperexcitability and excitation–inhibition imbalance that levetiracetam's SV2A-mediated action addresses in other epilepsy subtypes, which provides a plausible rationale for extending its use to this condition.
+„Visuelle Epilepsie" ist eine Form der Reflexepilepsie, bei der Anfälle durch visuelle Reize ausgelöst werden (z. B. blitzende Lichter, Muster). Mechanistisch wird angenommen, dass Reflexepilepsien die gleiche kortikale Überregbarkeit und das Ungleichgewicht zwischen Erregung und Hemmung teilen, die Levetiracetams SV2A-vermittelte Wirkung in anderen Epilepsie-Subtypen adressiert, was eine plausible Begründung für die Ausweitung seiner Anwendung auf diese Erkrankung bietet.
 
-However, none of the clinical trials or literature retrieved for this specific prediction directly studies "visual epilepsy" as a defined clinical entity. The evidence instead reflects levetiracetam's general use in seizure prophylaxis (intracerebral hemorrhage, TBI, neonatal seizures), migraine prevention, and psychiatric/cognitive research using visual-processing paradigms — none of which confirm efficacy in visually-triggered seizures specifically. This is a meaningful specificity gap that should be closed before further investment.
+Jedoch untersucht keine der abgerufenen klinischen Studien oder Literaturquellen speziell „visuelle Epilepsie" als eine definierte klinische Entität. Die Evidenz spiegelt stattdessen die allgemeine Verwendung von Levetiracetam bei der Anfallsprophylaxe (intrakranielle Blutung, TBI, neonatale Anfälle), Migräneprophylaxe und psychiatrische/kognitive Forschung unter Verwendung visueller Verarbeitungsparadigmen wider — keine davon bestätigt die Wirksamkeit bei visuell ausgelösten Anfällen speziell. Dies ist eine bedeutsame Spezifitätslücke, die geschlossen werden sollte, bevor weitere Investitionen erfolgen.
 
-## Clinical Trial Evidence
+## Evidenz aus klinischen Studien
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Studiennummer | Phase | Status | Einschluss | Wichtigste Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT07336992](https://clinicaltrials.gov/study/NCT07336992) | Phase 3 | Not Yet Recruiting | 580 | Prophylactic LEV to reduce seizures and improve outcomes after intracerebral haemorrhage |
-| [NCT00203216](https://clinicaltrials.gov/study/NCT00203216) | N/A | Completed | 31 | Open-label trial of LEV for prophylactic treatment of migraine with/without visual aura |
-| [NCT03107507](https://clinicaltrials.gov/study/NCT03107507) | Phase 4 | Unknown | 40 | LEV for control of neonatal seizures |
-| [NCT00855738](https://clinicaltrials.gov/study/NCT00855738) | Phase 4 | Completed | 111 | Observational study of new AEDs (incl. LEV) as first-choice bitherapy in focal epilepsy |
-| [NCT04559529](https://clinicaltrials.gov/study/NCT04559529) | Phase 2 | Completed | 62 | LEV effect on hippocampal hyperactivity in psychosis, assessed via visual-scene fMRI task |
-| [NCT04833907](https://clinicaltrials.gov/study/NCT04833907) | Phase 1/2 | Enrolling by Invitation | 24 | Gene therapy trial for Canavan disease (LEV not primary intervention) |
-| [NCT04277936](https://clinicaltrials.gov/study/NCT04277936) | Phase 2 | Terminated | 1 | LEV effect on hippocampal hyperactivity in psychosis (visual-scene fMRI) |
-| [NCT04573803](https://clinicaltrials.gov/study/NCT04573803) | Phase 3 | Not Yet Recruiting | 1649 | LEV vs phenytoin for post-traumatic brain injury seizure prophylaxis (MAST trial) |
-| [NCT00105040](https://clinicaltrials.gov/study/NCT00105040) | Phase 2 | Completed | 87 | Randomized, double-blind, placebo-controlled safety study of LEV cognitive effects in children with refractory partial seizures |
+| [NCT07336992](https://clinicaltrials.gov/study/NCT07336992) | Phase 3 | Noch nicht rekrutierend | 580 | Prophylaktische LEV zur Verringerung von Anfällen und Verbesserung der Ergebnisse nach intrakranieller Blutung |
+| [NCT00203216](https://clinicaltrials.gov/study/NCT00203216) | N/A | Abgeschlossen | 31 | Offene Studie über LEV zur Prophylaxe-Behandlung von Migräne mit/ohne visueller Aura |
+| [NCT03107507](https://clinicaltrials.gov/study/NCT03107507) | Phase 4 | Unbekannt | 40 | LEV zur Kontrolle von Neugeborenenanfällen |
+| [NCT00855738](https://clinicaltrials.gov/study/NCT00855738) | Phase 4 | Abgeschlossen | 111 | Beobachtungsstudie von neuen AEDs (einschl. LEV) als Erstwahl-Bitherapie bei fokaler Epilepsie |
+| [NCT04559529](https://clinicaltrials.gov/study/NCT04559529) | Phase 2 | Abgeschlossen | 62 | LEV-Wirkung auf Hippocampus-Hyperaktivität bei Psychose, bewertet mittels visuelles Szenen-fMRI-Test |
+| [NCT04833907](https://clinicaltrials.gov/study/NCT04833907) | Phase 1/2 | Nach Einladung einschreibend | 24 | Gentherapie-Studie für Canavan-Krankheit (LEV nicht primäre Intervention) |
+| [NCT04277936](https://clinicaltrials.gov/study/NCT04277936) | Phase 2 | Beendet | 1 | LEV-Wirkung auf Hippocampus-Hyperaktivität bei Psychose (visuelles Szenen-fMRI) |
+| [NCT04573803](https://clinicaltrials.gov/study/NCT04573803) | Phase 3 | Noch nicht rekrutierend | 1649 | LEV gegen Phenytoin zur Anfallsprophylaxe nach posttraumatischer Hirnverletzung (MAST-Studie) |
+| [NCT00105040](https://clinicaltrials.gov/study/NCT00105040) | Phase 2 | Abgeschlossen | 87 | Randomisierte, doppelblinde, placebokontrollierte Sicherheitsstudie über LEV-Kognitionseffekte bei Kindern mit refraktären fokalen Anfällen |
 
-**None of the above trials specifically studies visually-triggered ("visual") epilepsy** — they represent general antiepileptic and prophylactic use of levetiracetam.
+**Keine der obigen Studien untersucht speziell visuell ausgelöste („visuelle") Epilepsie** — sie stellen allgemeine antiepileptische und prophylaktische Verwendung von Levetiracetam dar.
 
-## Literature Evidence
+## Literaturnachweis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Journal | Wichtigste Ergebnisse |
 |------|-----|------|------|---------|
-| [35963261](https://pubmed.ncbi.nlm.nih.gov/35963261/) | 2022 | RCT (Phase 3, PEACH) | The Lancet. Neurology | Prophylactic LEV did not clearly reduce acute seizure risk after intracerebral haemorrhage |
-| [32385134](https://pubmed.ncbi.nlm.nih.gov/32385134/) | 2020 | RCT | Pediatrics | LEV vs phenobarbital for neonatal seizures; efficacy and safety compared |
-| [34286461](https://pubmed.ncbi.nlm.nih.gov/34286461/) | 2022 | Systematic Review & Meta-analysis | Neurocritical Care | LEV commonly used for seizure prophylaxis in ICH, TBI, SAH; efficacy/dosing remain unclear |
-| [38316735](https://pubmed.ncbi.nlm.nih.gov/38316735/) | 2024 | Clinical Practice Guideline | Neurocritical Care | Guidance on ASM prophylaxis (incl. LEV) in moderate-severe TBI |
-| [37378757](https://pubmed.ncbi.nlm.nih.gov/37378757/) | 2023 | Systematic Review / Network Meta-analysis | Journal of Neurology | Comparative efficacy/safety of ASMs (incl. LEV) in idiopathic generalized epilepsies |
-| [40450767](https://pubmed.ncbi.nlm.nih.gov/40450767/) | 2025 | Systematic Review & Meta-analysis | Epilepsy & Behavior | LEV efficacy for myoclonic seizures in idiopathic generalized epilepsy (incl. JME) |
-| [38678766](https://pubmed.ncbi.nlm.nih.gov/38678766/) | 2024 | Open-label RCT | Seizure | Phenytoin vs LEV for acute symptomatic seizures in children with acute encephalitis syndrome |
-| [21936590](https://pubmed.ncbi.nlm.nih.gov/21936590/) | 2011 | Review | CNS Drugs | Overview of LEV's established indications: partial-onset, myoclonic, and primary GTC seizures |
-| [30884401](https://pubmed.ncbi.nlm.nih.gov/30884401/) | 2019 | Systematic Review | Epilepsy & Behavior | LEV vs carbamazepine in rolandic epilepsy (children) |
-| [34260837](https://pubmed.ncbi.nlm.nih.gov/34260837/) | 2021 | Review | The New England Journal of Medicine | Initial management of seizure in adults (general reference, ASM overview) |
+| [35963261](https://pubmed.ncbi.nlm.nih.gov/35963261/) | 2022 | RCT (Phase 3, PEACH) | The Lancet. Neurology | Prophylaktische LEV verringerte das Akut-Anfallsrisiko nach intrakranieller Blutung nicht deutlich |
+| [32385134](https://pubmed.ncbi.nlm.nih.gov/32385134/) | 2020 | RCT | Pediatrics | LEV gegen Phenobarbital für Neugeborenenanfälle; Wirksamkeit und Sicherheit verglichen |
+| [34286461](https://pubmed.ncbi.nlm.nih.gov/34286461/) | 2022 | Systematische Übersicht & Metaanalyse | Neurocritical Care | LEV häufig verwendet für Anfallsprophylaxe bei ICH, TBI, SAH; Wirksamkeit/Dosierung bleiben unklar |
+| [38316735](https://pubmed.ncbi.nlm.nih.gov/38316735/) | 2024 | Leitlinie klinischer Praxis | Neurocritical Care | Anleitung zu ASM-Prophylaxe (einschl. LEV) bei moderater bis schwerer TBI |
+| [37378757](https://pubmed.ncbi.nlm.nih.gov/37378757/) | 2023 | Systematische Übersicht / Netzwerk-Metaanalyse | Journal of Neurology | Vergleichende Wirksamkeit/Sicherheit von ASMs (einschl. LEV) in idiopathischen generalisierten Epilepsien |
+| [40450767](https://pubmed.ncbi.nlm.nih.gov/40450767/) | 2025 | Systematische Übersicht & Metaanalyse | Epilepsy & Behavior | LEV-Wirksamkeit für myoklonische Anfälle bei idiopathischer generalisierter Epilepsie (einschl. JME) |
+| [38678766](https://pubmed.ncbi.nlm.nih.gov/38678766/) | 2024 | Offene RCT | Seizure | Phenytoin gegen LEV für akute symptomatische Anfälle bei Kindern mit akutem Enzephalitis-Syndrom |
+| [21936590](https://pubmed.ncbi.nlm.nih.gov/21936590/) | 2011 | Übersicht | CNS Drugs | Überblick über LEVs etablierte Indikationen: fokale Anfälle, myoklonische und primäre GTC-Anfälle |
+| [30884401](https://pubmed.ncbi.nlm.nih.gov/30884401/) | 2019 | Systematische Übersicht | Epilepsy & Behavior | LEV gegen Carbamazepin bei rolandischer Epilepsie (Kinder) |
+| [34260837](https://pubmed.ncbi.nlm.nih.gov/34260837/) | 2021 | Übersicht | The New England Journal of Medicine | Initialmanagement von Anfällen bei Erwachsenen (allgemeine Referenz, ASM-Übersicht) |
 
-**None of the retrieved literature specifically addresses "visual epilepsy"** as a distinct clinical entity; the evidence base is broadly antiepileptic in nature.
+**Keine der abgerufenen Literatur adressiert speziell „visuelle Epilepsie"** als eine unterschiedliche klinische Entität; die Evidenzbasis ist allgemein antiepileptischer Natur.
 
-## Germany Market Information
+## Marktinformation Deutschland
 
-Levetiracetam is currently **not marketed** in Germany under this evidence pack's regulatory dataset, and **no authorizations (licenses)** were found (`total_licenses: 0`). No approved indication text, product names, or dosage forms are available.
+Levetiracetam ist derzeit **nicht vermarktet** in Deutschland gemäß diesem Evidenzpaket, und es wurden **keine Zulassungen** gefunden (`total_licenses: 0`). Kein genehmigter Indikationstext, keine Produktnamen oder Darreichungsformen sind verfügbar.
 
-## Safety Considerations
+## Sicherheitsaspekte
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug interaction data are marked as data gaps in this evidence pack; DG001 — TFDA/BfArM label warnings — is flagged as a **Blocking** severity gap that must be resolved before any S1 safety pre-assessment can proceed.)
+Bitte beachten Sie die Gebrauchsinformation für Sicherheitsinformationen. (Wichtige Warnungen, Kontraindikationen und Wechselwirkungsdaten sind als Datenlücken in diesem Evidenzpaket markiert; DG001 — TFDA/BfArM-Etikettwarnungen — wird als **Blockierende** Schweregrad-Lücke gekennzeichnet, die gelöst werden muss, bevor eine grundlegende S1-Sicherheitsprüfung durchgeführt werden kann.)
 
-## Conclusion and Next Steps
+## Schlussfolgerung und nächste Schritte
 
-**Decision: Hold**
+**Entscheidung: Halten**
 
-**Rationale:**
-- The TxGNN prediction score for "visual epilepsy" is very high, but no clinical trial or publication in this evidence pack directly investigates levetiracetam for visually-triggered seizures specifically — all supporting evidence is general antiepileptic/prophylactic use extrapolated by disease-family proximity.
-- Two Blocking/High-severity data gaps (TFDA/BfArM label warnings; detailed MOA) currently prevent even a basic safety pre-assessment (S1), and levetiracetam has zero market authorizations in Germany, meaning a full new regulatory pathway would be required regardless of indication.
+**Begründung:**
+- Die TxGNN-Vorhersagequote für „visuelle Epilepsie" ist sehr hoch; jedoch untersucht keine klinische Studie oder Publikation in diesem Evidenzpaket Levetiracetam speziell für visuell ausgelöste Anfälle. Alle verfügbaren Belege beziehen sich auf die allgemeine antiepileptische/prophylaktische Verwendung und wurden durch Ähnlichkeiten in der Krankheitsfamilie extrapoliert.
+- Zwei Blockierende/Hochschwere Datenlücken (TFDA/BfArM-Etikettwarnungen; Wirkmechanismus) verhindern derzeit sogar eine grundlegende Sicherheitsprüfung (S1). Zudem hat Levetiracetam null Zulassungen auf dem deutschen Markt, was bedeutet, dass unabhängig von der Indikation ein vollständig neuer behördlicher Weg erforderlich wäre.
 
-**To proceed, the following is needed:**
-- Clarify the clinical definition of "visual epilepsy" and confirm whether it maps to an established diagnostic category (e.g., photosensitive/reflex epilepsy) with a dedicated evidence base.
-- Retrieve condition-specific clinical trials/literature (rather than general antiepileptic evidence) to support this indication.
-- Resolve DG001 (TFDA/BfArM warnings/contraindications) and DG002 (mechanism of action) via label PDF parsing and DrugBank API query.
-- Confirm German market/regulatory pathway status, since levetiracetam currently holds zero licenses in this dataset.
+**Um fortzufahren, ist Folgendes erforderlich:**
+- Klären Sie die klinische Definition von „visueller Epilepsie" und bestätigen Sie, ob sie einer etablierten Diagnosekategorie zugeordnet wird (z. B. photosensible/Reflexepilepsie) mit einer dedizierten Evidenzbasis.
+- Rufen Sie zustandsspezifische klinische Studien/Literatur ab (anstelle von allgemeiner antiepileptischer Evidenz), um diese Indikation zu unterstützen.
+- Lösen Sie DG001 (TFDA/BfArM-Warnungen/Kontraindikationen) und DG002 (Wirkmechanismus) über Etikett-PDF-Parsing und DrugBank-API-Abfrage.
+- Bestätigen Sie den Status des deutschen Marktes und des Regulierungsweges, da Levetiracetam derzeit keine Lizenzen in diesem Datensatz hat.
 
-**Contextual note:** Within this same evidence pack, **status epilepticus** (rank 9) shows substantially stronger, disease-specific evidence — including a Phase 3 NEJM RCT (ESETT, PMID 31774955), a Lancet subgroup analysis (PMID 32203691), and multiple meta-analyses — and is already pre-scored as L1 / "Proceed with Guardrails." If a repurposing candidate for levetiracetam is being prioritized from this pack, status epilepticus is the stronger near-term candidate compared to visual epilepsy.
+**Kontextuelle Anmerkung:** Innerhalb desselben Evidenzpakets zeigt **Status epilepticus** (Rang 9) wesentlich stärkere, zustandsspezifische Evidenz — einschließlich einer Phase-3-NEJM-RCT (ESETT, PMID 31774955), einer Lancet-Subgruppenanalyse (PMID 32203691) und mehrerer Metaanalysen — und ist bereits als L1 / „Mit Schutzmaßnahmen fortfahren" vorbewertet. Wenn ein Kandidat für die Umnutzung von Levetiracetam aus diesem Paket priorisiert wird, ist Status epilepticus der stärkere kurzfristige Kandidat im Vergleich zu visueller Epilepsie.
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

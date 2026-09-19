@@ -29,81 +29,82 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Interferon Beta-1b: From Multiple Sclerosis to Hairy Cell Leukemia
+# Interferon Beta-1b: Von Multipler Sklerose zu Haarzellenleukämie
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Interferon beta-1b (marketed elsewhere as Betaferon®/Betaseron®) is a recombinant type I interferon approved for the treatment of relapsing forms of multiple sclerosis.
-> The TxGNN model predicts it may also be effective for **Hairy Cell Leukemia**,
-> with **0 registered clinical trials** but **4 historical publications** (1987–1990) supporting early exploratory activity in this disease.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Multiple Sclerosis (inferred from literature/known use; not confirmed by German regulatory data — data gap) |
-| Predicted New Indication | Hairy Cell Leukemia |
-| TxGNN Prediction Score | 99.16% |
-| Evidence Level | L3 |
-| Germany Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Interferon beta-1b (in anderen Ländern unter den Namen Betaferon®/Betaseron® vermarktet) ist ein rekombinantes Interferon Typ I, das zur Behandlung von Formen der Multiplen Sklerose mit Schüben zugelassen ist.
+> Das TxGNN-Modell sagt voraus, dass es auch wirksam gegen **Haarzellenleukämie** sein könnte,
+> mit **0 registrierten klinischen Studien**, aber **4 historischen Publikationen** (1987–1990), die frühe explorative Aktivität in dieser Erkrankung unterstützen.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Currently, detailed mechanism of action data for interferon beta-1b is not available in this evidence pack. Based on known pharmacology, interferon beta-1b is a recombinant, cysteine-to-serine-substituted type I interferon with potent antiproliferative and immunomodulatory activity, approved for relapsing forms of multiple sclerosis (an autoimmune demyelinating disease of the CNS — see the second predicted indication in this dataset, which the model itself flags as the drug's original approved use rather than a new one).
-
-Type I interferons as a class (including interferon alfa) have long served as an effective, guideline-supported therapy for hairy cell leukemia, a rare B-cell lymphoproliferative disorder that is highly sensitive to interferon-mediated antiproliferative and differentiation-inducing signaling. Because interferon beta-1b binds the same type I interferon receptor and activates overlapping downstream signaling pathways as interferon alfa, it is mechanistically plausible that it could exert similar antileukemic activity — a hypothesis that was in fact tested prospectively in the late 1980s.
-
-However, development of interferon beta-1b in hairy cell leukemia was not pursued further: interferon alfa became the interferon of choice, and purine analogs (cladribine, pentostatin) subsequently displaced interferons altogether as first-line therapy. No modern clinical trials have evaluated interferon beta-1b in this indication since ~1990, so the mechanistic rationale, while sound, rests on dated and small-scale clinical experience rather than contemporary validation.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Multiple Sklerose (aus Literatur/bekannte Anwendung abgeleitet; nicht bestätigt durch deutsche Zulassungsdaten — Datenlücke) |
+| Vorhergesagte neue Indikation | Haarzellenleukämie |
+| TxGNN-Vorhersagepunktzahl | 99.16% |
+| Evidenzgrad | L3 |
+| Marktstatus Deutschland | Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Aussetzen |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage sinnvoll?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [3312839](https://pubmed.ncbi.nlm.nih.gov/3312839/) | 1987 | Cohort | Leukemia | UCLA experience: 51 patients across type I interferons; ~71% hematologic improvement in initial beta-serine-interferon cohort |
-| [2736487](https://pubmed.ncbi.nlm.nih.gov/2736487/) | 1989 | Cohort | Cancer | 10 patients treated with rIFN-beta ser (90×10⁶ U SC TIW); 63% normalized peripheral counts, 25% partial hematologic improvement |
-| [2082943](https://pubmed.ncbi.nlm.nih.gov/2082943/) | 1990 | Cohort | American Journal of Hematology | 12 patients (10 previously treated) given IV beta-ser interferon 90×10⁶ U TIW; bone marrow involvement 90–100% hairy cells at baseline |
-| [2198792](https://pubmed.ncbi.nlm.nih.gov/2198792/) | 1990 | Case Report | American Journal of Clinical Oncology | Patient who failed beta-ser-interferon subsequently achieved complete response with 2'-deoxycoformycin (pentostatin) |
+Derzeit sind detaillierte Daten zum Wirkmechanismus von Interferon beta-1b in diesem Evidenzpaket nicht verfügbar. Basierend auf der bekannten Pharmakologie ist Interferon beta-1b ein rekombinantes, Cystein-zu-Serin-substituiertes Interferon Typ I mit starker antiproliferativer und immunmodulierender Aktivität, zugelassen für Formen der Multiplen Sklerose mit Schüben (eine Autoimmun-Demyelinisierungserkrankung des ZNS — siehe die zweite vorhergesagte Indikation in diesem Datensatz, die das Modell selbst als ursprüngliche zugelassene Verwendung des Arzneimittels kennzeichnet, anstatt eine neue Indikation zu sein).
 
----
+Interferon Typ I als Substanzklasse (einschließlich Interferon alfa) dient seit langem als wirksame, leitliniengestützte Therapie für Haarzellenleukämie, eine seltene lymphoproliferative B-Zell-Erkrankung, die auf Interferon-vermittelte antiproliferative und differenzierungsinduzierende Signalisierung sehr empfindlich reagiert. Da Interferon beta-1b an denselben Interferon-Typ-I-Rezeptor bindet und überlappende nachgelagerte Signalisierungswege wie Interferon alfa aktiviert, ist es mechanistisch plausibel, dass es eine ähnliche antileukämische Aktivität ausüben könnte — eine Hypothese, die tatsächlich Ende der 1980er Jahre prospektiv getestet wurde.
 
-## Germany Market Information
-
-No German market authorization records are available for interferon beta-1b in this dataset — the drug's market status is recorded as **Not Marketed** with **0 licenses**.
+Die Entwicklung von Interferon beta-1b bei Haarzellenleukämie wurde jedoch nicht weiter verfolgt: Interferon alfa wurde zum bevorzugten Interferon, und Purinanaloga (Cladribin, Pentostatin) verdängten Interferone später als Therapie der ersten Linie vollständig. Seit etwa 1990 wurden keine modernen klinischen Studien zu Interferon beta-1b in dieser Indikation durchgeführt, daher beruht die mechanistische Begründung, obwohl sie stichhaltig ist, auf veralteter und kleinflächiger klinischer Erfahrung statt auf zeitgenössischer Validierung.
 
 ---
 
-## Safety Considerations
+## Evidenz aus klinischen Studien
 
-Please refer to the package insert for safety information.
+Derzeit keine relevanten klinischen Studien registriert
 
 ---
 
-## Conclusion and Next Steps
+## Literaturevidenz
 
-**Decision: Hold**
+| PMID | Jahr | Typ | Zeitschrift | Wichtigste Erkenntnisse |
+|------|------|-----|-----------|------------------------|
+| [3312839](https://pubmed.ncbi.nlm.nih.gov/3312839/) | 1987 | Kohorte | Leukemia | UCLA-Erfahrung: 51 Patienten über Interferon Typ I; ~71% hämatologisches Ansprechen in der initialen Beta-Serin-Interferon-Kohorte |
+| [2736487](https://pubmed.ncbi.nlm.nih.gov/2736487/) | 1989 | Kohorte | Cancer | 10 Patienten behandelt mit rIFN-beta ser (90×10⁶ U SC TIW); 63% normalisierte periphere Zellzahlen, 25% partielles hämatologisches Ansprechen |
+| [2082943](https://pubmed.ncbi.nlm.nih.gov/2082943/) | 1990 | Kohorte | American Journal of Hematology | 12 Patienten (10 zuvor behandelt) erhielten IV Beta-Ser-Interferon 90×10⁶ U TIW; Knochenmarkbeteiligung 90–100% Haarzellen zu Studienbeginn |
+| [2198792](https://pubmed.ncbi.nlm.nih.gov/2198792/) | 1990 | Fallbericht | American Journal of Clinical Oncology | Patient mit Versagen unter Beta-Ser-Interferon erreichte anschließend komplettes Ansprechen mit 2'-Desoxycoformycin (Pentostatin) |
 
-**Rationale:**
-Evidence for hairy cell leukemia is limited to four small, older (1987–1990) cohort/case-report studies (evidence level L3) with no registered modern clinical trials, and the drug currently has no market authorization in Germany. The mechanistic rationale (shared type I interferon receptor pathway with interferon alfa, a historically effective HCL therapy) is plausible but has not been re-tested against current standard-of-care agents (cladribine, pentostatin).
+---
 
-**To proceed, the following is needed:**
-- TFDA/BfArM label data — key warnings and contraindications (currently blocking, DG001)
-- Confirmed mechanism-of-action documentation from DrugBank (DG002)
-- A modern comparative or translational study of interferon beta-1b against current HCL standard-of-care (purine analogs) to justify renewed clinical interest
-- Clarification of original indication/regulatory status, since `original_indications` and German license records are both empty in this dataset
+## Informationen zum Marktstatus Deutschland
+
+Für Interferon beta-1b sind in diesem Datensatz keine deutschen Zulassungsinformationen verfügbar — der Marktstatus des Arzneimittels ist als **Nicht vermarktet** mit **0 Lizenzen** dokumentiert.
+
+---
+
+## Sicherheitsüberlegungen
+
+Bitte beachten Sie die Fachinformation für Sicherheitsinformationen.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Aussetzen**
+
+**Begründung:**
+Die Evidenz für Haarzellenleukämie beschränkt sich auf vier kleine, ältere (1987–1990) Kohorten-/Fallbericht-Studien (Evidenzgrad L3) ohne registrierte moderne klinische Studien, und das Arzneimittel hat derzeit keine Marktzulassung in Deutschland. Die mechanistische Begründung (gemeinsamer Interferon-Typ-I-Rezeptor-Signalweg mit Interferon alfa, eine historisch wirksame HCL-Therapie) ist plausibel, wurde aber nicht gegen aktuelle Standard-Therapien (Cladribin, Pentostatin) neu getestet.
+
+**Um fortzufahren, wird Folgendes benötigt:**
+- TFDA/BfArM-Fachinformationsdaten — Warnhinweise und Kontraindikationen (derzeit blockierend, DG001)
+- Bestätigte Wirkmechanismus-Dokumentation von DrugBank (DG002)
+- Eine moderne vergleichende oder translationsbezogene Studie von Interferon beta-1b gegen aktuelle HCL-Standard-Therapie (Purinanaloga), um erneutes klinisches Interesse zu rechtfertigen
+- Klarstellung der ursprünglichen Indikation/des Zulassungsstatus, da `original_indications` und deutsche Zulassungsunterlagen in diesem Datensatz beide leer sind
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

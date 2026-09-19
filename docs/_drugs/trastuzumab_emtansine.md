@@ -29,105 +29,106 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-# Trastuzumab Emtansine: From HER2-Positive Breast Cancer to Progesterone-Receptor-Positive Breast Cancer
+# Trastuzumab Emtansine: Von HER2-positivem Brustkrebs zu Progesteronrezeptor-positivem Brustkrebs
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Trastuzumab emtansine (T-DM1) is an antibody-drug conjugate combining the anti-HER2 antibody trastuzumab with the cytotoxic microtubule inhibitor DM1, historically used in HER2-positive breast cancer. The TxGNN model predicts additional benefit in **progesterone-receptor (PR) positive breast cancer**, supported by **4 clinical trials** and **15 publications** — though as detailed below, this largely reflects an existing HER2+ subgroup rather than a genuinely novel indication.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not recorded in this evidence pack (formal `original_indications` field is empty — a data gap, not a true clinical blank; internal rationale text identifies HER2-positive breast cancer as the established use) |
-| Predicted New Indication | Progesterone-receptor positive breast cancer |
-| TxGNN Prediction Score | 99.82% |
-| Evidence Level | L1 |
-| Taiwan Market Status | Not marketed (0 licenses on file) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+Trastuzumab emtansine (T-DM1) ist ein Antikörper-Wirkstoff-Konjugat, das den Anti-HER2-Antikörper Trastuzumab mit dem zytotoxischen Mikrotubuli-Inhibitor DM1 kombiniert und historisch bei HER2-positivem Brustkrebs eingesetzt wird. Das TxGNN-Modell prognostiziert einen zusätzlichen Nutzen bei **Progesteronrezeptor-positivem (PR) Brustkrebs**, unterstützt durch **4 klinische Studien** und **15 Publikationen** — wie nachfolgend im Detail dargelegt, spiegelt dies jedoch größtenteils eine bereits vorhandene HER2+-Subgruppe wider und nicht wirklich eine neuartige Indikation.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Detailed formal mechanism-of-action documentation is a flagged data gap (DG002). Based on what is available in this evidence pack's own analysis, trastuzumab emtansine is an antibody-drug conjugate: the trastuzumab antibody component binds HER2-overexpressing tumor cells, delivering the conjugated payload DM1 (mertansine), a maytansinoid microtubule inhibitor, directly into the cell to induce cytotoxicity.
-
-Critically, the evidence pack's own rationale flags an important caveat: PR status is a commonly co-existing biomarker in breast cancer, not an independent pharmacological target of T-DM1. The drug's activity is driven by HER2 expression, not PR status. This means the "PR-positive breast cancer" prediction substantially overlaps with the population already captured under the existing HER2-positive breast cancer indication — this is best understood as a biomarker-refined subgroup of an existing use, not a true novel repurposing signal.
-
-Mechanistically, T-DM1 remains applicable wherever HER2 overexpression coexists with PR positivity (e.g., HR+/HER2+ disease), since PR status only informs whether concurrent endocrine therapy should be added — it does not change the drug's target engagement. Clinical selection should therefore continue to be anchored on HER2 status, with PR status used only as an adjunct for endocrine-therapy sequencing decisions.
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Nicht in diesem Nachweispaket dokumentiert (das formale Feld `original_indications` ist leer — eine Datenlücke, nicht wirklich ein klinisches Vakuum; interner Begründungstext identifiziert HER2-positives Brustkrebs als etablierte Anwendung) |
+| Prognostizierte neue Indikation | Progesteronrezeptor-positiver Brustkrebs |
+| TxGNN-Prognosescore | 99.82% |
+| Evidenzstufe | L1 |
+| Status auf dem Taiwan-Markt | Nicht vermarktet (0 Lizenzen in der Datei) |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Fortfahren mit Schutzbestimmungen |
 
 ---
 
-## Clinical Trial Evidence
+## Warum ist diese Prognose sinnvoll?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Eine detaillierte formale Wirkmechanismus-Dokumentation ist eine gekennzeichnete Datenlücke (DG002). Basierend auf dem, was in der eigenen Analyse dieses Nachweispakets verfügbar ist, ist Trastuzumab emtansine ein Antikörper-Wirkstoff-Konjugat: Die Trastuzumab-Antikörperkomponente bindet an HER2-überexprimierende Tumorzellen und liefert die konjugierte Last DM1 (Mertansin), einen Maytansinoid-Mikrotubuli-Inhibitor, direkt in die Zelle, um Zytotoxizität zu induzieren.
+
+Kritisch ist hier: Die Begründung des Nachweispakets selbst hebt einen wichtigen Vorbehalt hervor: PR-Status ist ein häufig koexistierendes Biomarker bei Brustkrebs, kein unabhängiges pharmakologisches Ziel von T-DM1. Die Aktivität des Wirkstoffs wird durch HER2-Expression angetrieben, nicht durch PR-Status. Das bedeutet, dass die Prognose „PR-positiver Brustkrebs" erheblich mit der Population überlappt, die bereits unter der bestehenden HER2-positiven Brustkrebs-Indikation erfasst wird — dies sollte eher als eine Biomarker-verfeinerte Untergruppe einer bestehenden Anwendung verstanden werden, nicht als ein wahres neues Repurposing-Signal.
+
+Mechanistisch bleibt T-DM1 überall dort anwendbar, wo HER2-Überexpression mit PR-Positivität koexistiert (z. B. HR+/HER2+-Erkrankung), da PR-Status nur informiert, ob eine gleichzeitige endokrine Therapie hinzugefügt werden sollte — es ändert nichts an der Zieleinbindung des Wirkstoffs. Die klinische Auswahl sollte daher weiterhin an HER2-Status verankert bleiben, wobei PR-Status nur als Hilfsmittel für Entscheidungen zur endokrinen Therapiesequenzierung verwendet wird.
+
+---
+
+## Evidenz aus klinischen Studien
+
+| Studiennummer | Phase | Status | Teilnehmerzahl | Wichtigste Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT03726879](https://clinicaltrials.gov/study/NCT03726879) | Phase 3 | Completed | 454 | IMpassion050: atezolizumab or placebo + neoadjuvant ddAC-paclitaxel-trastuzumab-pertuzumab in early HER2-positive breast cancer; strongest RCT-level evidence in this set (Grade A) |
-| [NCT02326974](https://clinicaltrials.gov/study/NCT02326974) | Phase 2 | Active, not recruiting | 164 | T-DM1 + pertuzumab in preoperative HER2-positive breast cancer, examining impact of HER2 heterogeneity on response |
-| [NCT06131424](https://clinicaltrials.gov/study/NCT06131424) | N/A | Completed | 1151 | Retrospective, non-interventional study on HER2-low prevalence/characteristics in metastatic breast cancer; weak direct relevance (Grade C) |
-| [NCT04675827](https://clinicaltrials.gov/study/NCT04675827) | Phase 2 | Terminated | 139 | De-escalation of adjuvant chemotherapy in ER-negative, node-negative HER2+ early breast cancer after pCR; population is ER-negative, not PR-stratified (Grade C) |
+| [NCT03726879](https://clinicaltrials.gov/study/NCT03726879) | Phase 3 | Abgeschlossen | 454 | IMpassion050: Atezolizumab oder Placebo + neoadjuvante ddAC-Paclitaxel-Trastuzumab-Pertuzumab bei frühem HER2-positivem Brustkrebs; stärkste RCT-Level-Evidenz in diesem Set (Grad A) |
+| [NCT02326974](https://clinicaltrials.gov/study/NCT02326974) | Phase 2 | Aktiv, keine Rekrutierung mehr | 164 | T-DM1 + Pertuzumab präoperativ bei HER2-positivem Brustkrebs, Untersuchung des Einflusses von HER2-Heterogenität auf Ansprechen |
+| [NCT06131424](https://clinicaltrials.gov/study/NCT06131424) | N/A | Abgeschlossen | 1151 | Retrospektive, nicht-interventionelle Studie zur HER2-low-Prävalenz/Merkmale bei metastasiertem Brustkrebs; schwache direkte Relevanz (Grad C) |
+| [NCT04675827](https://clinicaltrials.gov/study/NCT04675827) | Phase 2 | Beendet | 139 | De-Eskalation der adjuvanten Chemotherapie bei ER-negativem, lymphknotennegtivem HER2+ frühem Brustkrebs nach pCR; Population ist ER-negativ, nicht PR-stratifiziert (Grad C) |
 
 ---
 
-## Literature Evidence
+## Literaturlage
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Zeitschrift | Wichtigste Ergebnisse |
 |------|-----|------|------|---------|
-| [35640077](https://pubmed.ncbi.nlm.nih.gov/35640077/) | 2022 | Guideline | J Clin Oncol | ASCO guideline update on systemic therapy for HER2-positive advanced breast cancer |
-| [29939838](https://pubmed.ncbi.nlm.nih.gov/29939838/) | 2018 | Guideline | J Clin Oncol | ASCO clinical practice guideline update on systemic therapy for HER2-positive advanced breast cancer |
-| [24799465](https://pubmed.ncbi.nlm.nih.gov/24799465/) | 2014 | Review/Guideline | J Clin Oncol | Earlier ASCO practice guideline for HER2-positive advanced breast cancer systemic therapy |
-| [28259011](https://pubmed.ncbi.nlm.nih.gov/28259011/) | 2017 | Guideline/Review | Eur J Cancer | EGTM biomarker guideline noting HER2 (not PR alone) determines eligibility for anti-HER2 agents including T-DM1 |
-| [33726508](https://pubmed.ncbi.nlm.nih.gov/33726508/) | 2021 | Review | Future Oncol | Reviews HR+/HER2+ breast cancer treatment trends, including T-DM1 in hormone-receptor co-positive disease |
-| [39631485](https://pubmed.ncbi.nlm.nih.gov/39631485/) | 2024 | Review | Pharmacol Res | Overview of targeted/cytotoxic breast cancer inhibitors, discussing HER2/HR/ER/PR-based treatment selection |
-| [35140078](https://pubmed.ncbi.nlm.nih.gov/35140078/) | 2022 | Case Report | BMJ Case Rep | Receptor conversion (biomarker status change) in breast cancer, illustrating limits of static PR/HER2 classification |
-| [35251981](https://pubmed.ncbi.nlm.nih.gov/35251981/) | 2022 | Case Report | Front Oncol | Leptomeningeal metastasis case in HER2-positive, PR-negative breast cancer treated with alternative anti-HER2 regimen |
-| [40642740](https://pubmed.ncbi.nlm.nih.gov/40642740/) | 2025 | Case Report | J Med Cases | Case of HER2-mutated triple-negative breast cancer responding to a related anti-HER2 ADC |
-| [37445276](https://pubmed.ncbi.nlm.nih.gov/37445276/) | 2023 | Preclinical | J Clin Med | In vitro study of an aminosteroid compound across breast cancer molecular subtypes, including PR-stratified subtypes |
+| [35640077](https://pubmed.ncbi.nlm.nih.gov/35640077/) | 2022 | Leitlinie | J Clin Oncol | ASCO-Leitlinien-Update zu Systemtherapie bei HER2-positivem fortgeschrittenem Brustkrebs |
+| [29939838](https://pubmed.ncbi.nlm.nih.gov/29939838/) | 2018 | Leitlinie | J Clin Oncol | ASCO-Klinische-Praxis-Leitlinie-Update zu Systemtherapie bei HER2-positivem fortgeschrittenem Brustkrebs |
+| [24799465](https://pubmed.ncbi.nlm.nih.gov/24799465/) | 2014 | Übersicht/Leitlinie | J Clin Oncol | Frühere ASCO-Praxis-Leitlinie für HER2-positiven fortgeschrittenen Brustkrebs Systemtherapie |
+| [28259011](https://pubmed.ncbi.nlm.nih.gov/28259011/) | 2017 | Leitlinie/Übersicht | Eur J Cancer | EGTM-Biomarker-Leitlinie, die festlegte, dass HER2 (nicht nur PR allein) die Berechtigung für Anti-HER2-Mittel einschließlich T-DM1 bestimmt |
+| [33726508](https://pubmed.ncbi.nlm.nih.gov/33726508/) | 2021 | Übersicht | Future Oncol | Überblick über HR+/HER2+-Brustkrebs-Behandlungstrends, einschließlich T-DM1 bei Hormonrezeptor-kopositivem Krebs |
+| [39631485](https://pubmed.ncbi.nlm.nih.gov/39631485/) | 2024 | Übersicht | Pharmacol Res | Überblick über gezielte/zytotoxische Brustkrebsinhibitoren, Diskussion über HER2/HR/ER/PR-basierte Behandlungsauswahl |
+| [35140078](https://pubmed.ncbi.nlm.nih.gov/35140078/) | 2022 | Fallbericht | BMJ Case Rep | Rezeptor-Konversion (Biomarker-Status-Änderung) bei Brustkrebs, Veranschaulichung der Grenzen der statischen PR/HER2-Klassifizierung |
+| [35251981](https://pubmed.ncbi.nlm.nih.gov/35251981/) | 2022 | Fallbericht | Front Oncol | Fall von leptomeningealen Metastasen bei HER2-positivem, PR-negativem Brustkrebs, behandelt mit alternativem Anti-HER2-Regimen |
+| [40642740](https://pubmed.ncbi.nlm.nih.gov/40642740/) | 2025 | Fallbericht | J Med Cases | Fall eines HER2-mutierten dreifach-negativen Brustkrebses mit Ansprechen auf ein verwandtes Anti-HER2-ADC |
+| [37445276](https://pubmed.ncbi.nlm.nih.gov/37445276/) | 2023 | Präklinisch | J Clin Med | In-vitro-Studie einer Aminosteroid-Verbindung über Brustkrebs-Molekulartypen hinweg, einschließlich PR-stratifizierter Subtypen |
 
 ---
 
-## Taiwan Regulatory & Market Status
+## Taiwanese Regulierungs- und Marktstatus
 
-Trastuzumab emtansine is **not currently marketed** in this dataset — 0 authorizations on file, no license records available. No approved-indication text, product names, or dosage forms could be extracted.
-
----
-
-## Cytotoxicity
-
-*(Included because T-DM1 is an antibody-drug conjugate carrying a cytotoxic microtubule-inhibitor payload.)*
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy — antibody-drug conjugate (ADC); anti-HER2 antibody conjugated to DM1 (mertansine), a maytansinoid microtubule inhibitor cytotoxic payload |
-| Myelosuppression Risk | Not available in this evidence pack — please refer to the package insert (blocked by data gap DG001) |
-| Emetogenicity Classification | Not available in this evidence pack — please refer to the package insert (blocked by data gap DG001) |
-| Monitoring Items | Not available in this evidence pack — please refer to the package insert (blocked by data gap DG001) |
-| Handling Protection | Given the cytotoxic ADC payload, cytotoxic-drug handling precautions are likely warranted, but a formal handling protocol is not available in this evidence pack |
+Trastuzumab emtansine wird **derzeit nicht** in diesem Datensatz vermarktet — 0 Zulassungen in der Datei, keine Lizenzunterlagen verfügbar. Kein genehmigter Indikationstext, Produktnamen oder Darreichungsformen konnten extrahiert werden.
 
 ---
 
-## Safety Considerations
+## Zytotoxizität
 
-Please refer to the package insert for safety information. All key warnings, contraindications, and drug-drug interaction data in this evidence pack are marked as unresolved data gaps (DG001, Blocking severity) — a TFDA package-insert review is required before any safety-related conclusions can be drawn.
+*(Einbezogen, da T-DM1 ein Antikörper-Wirkstoff-Konjugat mit einer zytotoxischen Mikrotubuli-Inhibitor-Fracht ist.)*
+
+| Element | Inhalt |
+|---------|--------|
+| Zytotoxizitäts-Klassifikation | Zielgerichtete Therapie — Antikörper-Wirkstoff-Konjugat (ADC); Anti-HER2-Antikörper konjugiert mit DM1 (Mertansin), einem Maytansinoid-Mikrotubuli-Inhibitor zytotoxischer Fracht |
+| Knochenmarkssuppressionsrisiko | Nicht im vorliegenden Nachweispaket verfügbar — bitte konsultieren Sie die Packungsbeilage (blockiert durch Datenlücke DG001) |
+| Emetogenitäts-Klassifikation | Nicht im vorliegenden Nachweispaket verfügbar — bitte konsultieren Sie die Packungsbeilage (blockiert durch Datenlücke DG001) |
+| Überwachungspunkte | Nicht im vorliegenden Nachweispaket verfügbar — bitte konsultieren Sie die Packungsbeilage (blockiert durch Datenlücke DG001) |
+| Schutzmaßnahmen bei der Handhabung | Angesichts der zytotoxischen ADC-Fracht sind wahrscheinlich Vorsichtsmaßnahmen zur Handhabung zytotoxischer Wirkstoffe erforderlich, aber ein formales Handhabungsprotokoll ist in diesem Nachweispaket nicht verfügbar |
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsaspekte
 
-**Decision: Proceed with Guardrails**
+Bitte lesen Sie die Packungsbeilage für Sicherheitsinformationen. Alle wichtigen Warnungen, Kontraindikationen und Arzneimittelwechselwirkungs-Daten in diesem Nachweispaket sind als ungelöste Datenlücken gekennzeichnet (DG001, Blocking-Schweregrad) — eine TFDA-Packungsbeilage-Überprüfung ist erforderlich, bevor Schlussfolgerungen zu Sicherheit gezogen werden können.
 
-**Rationale:**
-The PR-positive breast cancer prediction is supported by one completed Phase 3 RCT (IMpassion050) and a body of ASCO/EGTM guideline literature, meeting L1 evidence criteria per the evidence pack's own scoring. However, this predicted indication substantially overlaps with the drug's already-established HER2-positive breast cancer use — PR status is a co-existing biomarker, not an independent target — so the "new indication" value here is limited, and safety data remain entirely unresolved.
+---
 
-**To proceed, the following is needed:**
-- Resolve DG001 (Blocking): obtain and parse the TFDA package insert for warnings/contraindications before any safety sign-off
-- Resolve DG002: obtain a formal, structured MOA record from DrugBank rather than relying on rationale-text mentions
-- Clarify the true original approved indication, since `original_indications` is empty despite this being a globally marketed drug — this gap should be closed before finalizing any "original → new indication" narrative
-- Confirm whether the PR+ subgroup adds any clinical decision-making value beyond existing HER2-status-based selection, or whether this prediction should be reclassified as confirmatory rather than novel
-- If Taiwan market entry is being considered, a full registration pathway assessment is required given 0 current licenses on file
+## Fazit und nächste Schritte
+
+**Entscheidung: Fortfahren mit Schutzbestimmungen**
+
+**Begründung:**
+Die Prognose für PR-positiven Brustkrebs wird durch eine abgeschlossene Phase-3-RCT (IMpassion050) und ein umfassendes ASCO/EGTM-Leitlinien-Literaturkorpus unterstützt, was L1-Evidenzkriterien gemäß der Bewertung des Nachweispakets selbst erfüllt. Diese prognostizierte Indikation überlappt jedoch erheblich mit der bereits etablierten HER2-positive Brustkrebs-Anwendung des Wirkstoffs — PR-Status ist ein koexistierendes Biomarker, kein unabhängiges Ziel — daher ist der „neue Indikations"-Wert hier begrenzt, und Sicherheitsdaten bleiben völlig ungelöst.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+- Löse DG001 (Blocking): Beschaffung und Analyse der TFDA-Packungsbeilage für Warnungen/Kontraindikationen, bevor eine Sicherheitsgenehmigung erfolgt
+- Löse DG002: Beschaffung einer formalen, strukturierten MOA-Aufzeichnung aus DrugBank statt auf Begründungstext-Erwähnungen zu verlassen
+- Klare Darlegung der wahren ursprünglichen genehmigten Indikation, da `original_indications` leer ist, obwohl dies ein weltweit vermarkteter Wirkstoff ist — diese Lücke sollte geschlossen werden, bevor die „ursprünglich → neue Indikations"-Narrative finalisiert wird
+- Bestätigung, ob die PR+-Subgruppe einen zusätzlichen klinischen Entscheidungswert über die bestehende HER2-Status-basierte Auswahl hinaus bietet, oder ob diese Prognose als bestätigend statt neuartig neu klassifiziert werden sollte
+- Falls ein Taiwan-Markteintritt in Betracht gezogen wird, ist eine vollständige Registrierungswege-Bewertung erforderlich, angesichts von 0 aktuellen Lizenzen in der Datei
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

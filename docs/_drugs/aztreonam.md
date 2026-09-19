@@ -29,90 +29,91 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Aztreonam: From Gram-Negative Bacterial Infections to Gonococcal Urethritis
+# Aztreonam: Von Gram-negativen Bakterieninfektionen zur Gonorrhö-Urethritis
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Aztreonam is a monobactam antibiotic historically used against serious Gram-negative bacterial infections.
-> TxGNN generated 10 candidate new indications for this drug; of these, only **Gonococcal Urethritis** is backed by real clinical and literature evidence — **1 completed Phase 2/3 trial** and **8 publications** (including one historical RCT).
-> The nine other top-scoring candidates (e.g., hyperamylasemia, congenital analbuminemia, polyclonal hyperviscosity syndrome) have no supporting evidence and no plausible mechanism, and are rated **L5 / Hold**. This report focuses on the one indication with an actionable evidence base.
+> Aztreonam ist ein Monobactam-Antibiotikum, das historisch gegen schwere Gram-negative Bakterieninfektionen eingesetzt wurde.
+> TxGNN hat 10 Kandidaten für neue Indikationen für dieses Arzneimittel identifiziert; davon ist nur **Gonorrhö-Urethritis** durch echte klinische und Literaturbelege gestützt — **1 abgeschlossene Phase-2/3-Studie** und **8 Publikationen** (einschließlich einer historischen RCT).
+> Die neun anderen Top-Kandidaten (z. B. Hyperamylasämie, kongenitale Analbuminämie, polyklonales Hyperviskositätssyndrom) haben keine unterstützenden Belege und keinen plausiblen Mechanismus und werden mit **L5 / Anhalten** bewertet. Dieser Bericht konzentriert sich auf die einzige Indikation mit einer umsetzbaren Evidenzbasis.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Element | Inhalt |
 |------|------|
-| Original Indication | Gram-negative bacterial infections (monobactam antibiotic class) — not formally recorded in this evidence pack |
-| Predicted New Indication | Gonococcal Urethritis |
-| TxGNN Prediction Score | 99.59% |
-| Evidence Level | L2 |
-| Germany Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Ursprüngliche Indikation | Gram-negative Bakterieninfektionen (Monobactam-Antibiotikaklasse) — nicht formal in diesem Evidenzpaket dokumentiert |
+| Vorhergesagte neue Indikation | Gonorrhö-Urethritis |
+| TxGNN-Vorhersage-Score | 99.59% |
+| Evidenzstufe | L2 |
+| Marktstatus in Deutschland | Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Mit Schutzmaßnahmen fortfahren |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage angemessen?
 
-Detailed formal mechanism-of-action documentation for aztreonam is currently a data gap in this evidence pack. However, based on the pharmacological information available (drawn from the repurposing rationale), aztreonam is a **monocyclic β-lactam (monobactam) antibiotic** that inhibits **penicillin-binding protein 3 (PBP3)** in Gram-negative bacteria, blocking cell wall synthesis. *Neisseria gonorrhoeae* is a Gram-negative diplococcus, so this is a direct extension of aztreonam's known antibacterial spectrum rather than a novel or speculative mechanism.
+Detaillierte formale Dokumentation des Wirkmechanismus für Aztreonam ist derzeit eine Datenlücke in diesem Evidenzpaket. Basierend jedoch auf den verfügbaren pharmakologischen Informationen (aus der Umwidmungsrationale) ist Aztreonam ein **monocyclisches β-Lactam (Monobactam)-Antibiotikum**, das **Penicillin-bindendes Protein 3 (PBP3)** in Gram-negativen Bakterien hemmt und die Zellwandsynthese blockiert. *Neisseria gonorrhoeae* ist ein Gram-negativer Diplokokkus, daher ist dies eine direkte Erweiterung des bekannten antibakteriellen Spektrums von Aztreonam und nicht ein neuartiger oder spekulativer Mechanismus.
 
-This is not a cross-disease repurposing story in the traditional sense — it is closer to **indication expansion within the same pharmacological class of activity** (Gram-negative bactericidal action). The clinical rationale is driven by the global antimicrobial resistance (AMR) crisis: cephalosporins are now the only consistently reliable class against *N. gonorrhoeae*, and reevaluating older, underused antibiotics such as aztreonam is being actively pursued as a stopgap therapy.
+Dies ist keine Krankheits-Umwidmungsgeschichte im traditionellen Sinne — sie ist eher eine **Indikationserweiterung innerhalb derselben pharmakologischen Aktivitätsklasse** (Gram-negative bakterizide Wirkung). Die klinische Rationale wird durch die globale Antimikrobielle-Resistenz-Krise (AMR) angetrieben: Cephalosporine sind nun die einzige zuverlässige Klasse gegen *N. gonorrhoeae*, und die Neubewertung älterer, wenig genutzter Antibiotika wie Aztreonam wird aktiv als Übergangslösung verfolgt.
 
-By contrast, the model's top-ranked prediction (hyperamylasemia, score 99.73%) and several other high-scoring candidates (congenital analbuminemia, polyclonal hyperviscosity syndrome) have **no known mechanistic link** to an antibacterial cell-wall synthesis inhibitor and **zero supporting clinical or literature evidence** — these are flagged internally as likely embedding-space artifacts rather than genuine repurposing signals, and are excluded from further development (Hold).
+Im Gegensatz dazu haben die Top-bewertete Vorhersage des Modells (Hyperamylasämie, Score 99.73%) und mehrere andere hochbewertete Kandidaten (kongenitale Analbuminämie, polyklonales Hyperviskositätssyndrom) **keine bekannte mechanistische Verbindung** zu einem antibakteriellen Zellwandsynthese-Inhibitor und **keine unterstützenden klinischen oder Literaturbelege** — diese werden intern als wahrscheinliche Embedding-Space-Artefakte statt echter Umwidmungssignale gekennzeichnet und sind von der weiteren Entwicklung ausgenommen (Anhalten).
 
 ---
 
-## Clinical Trial Evidence
+## Evidenz aus klinischen Studien
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Studiennummer | Phase | Status | Patientenzahl | Wichtigste Erkenntnisse |
 |---------|------|------|------|---------|
-| [NCT03867734](https://clinicaltrials.gov/study/NCT03867734) | Phase 2/3 | Completed | 32 | Open-label demonstration study of aztreonam for pharyngeal gonorrhea, motivated by the CDC-designated urgent AMR threat of antimicrobial-resistant *N. gonorrhoeae*; reevaluates an older antibiotic as cephalosporin resistance emerges. |
+| [NCT03867734](https://clinicaltrials.gov/study/NCT03867734) | Phase 2/3 | Abgeschlossen | 32 | Offene Demonstrationsstudie von Aztreonam für pharyngale Gonorrhö, motiviert durch das von der CDC als dringend bezeichnete AMR-Problem der antimikrobiellen Resistenz von *N. gonorrhoeae*; bewertet ein älteres Antibiotikum neu, da die Cephalosporin-Resistenz zunimmt. |
 
 ---
 
-## Literature Evidence
+## Literaturbelege
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Journal | Wichtigste Erkenntnisse |
 |------|-----|------|------|---------|
-| [3095216](https://pubmed.ncbi.nlm.nih.gov/3095216/) | 1986 | RCT | Genitourinary Medicine | Single 1g IM dose cleared *N. gonorrhoeae* in 61 men and 26 women at all sites (except one pharyngeal case); well tolerated, effective against both penicillin-sensitive and -resistant strains. |
-| [33077658](https://pubmed.ncbi.nlm.nih.gov/33077658/) | 2020 | Single-arm clinical trial | Antimicrobial Agents and Chemotherapy | Single-dose 2g IM aztreonam evaluated as a repurposed treatment for gonorrhea amid the threat of ceftriaxone resistance; companion publication to NCT03867734. |
-| [6225808](https://pubmed.ncbi.nlm.nih.gov/6225808/) | 1983 | Cohort/Therapeutic | Journal of Infectious Diseases | Demonstrated effectiveness of aztreonam against penicillinase-producing (penicillin-resistant) gonococci (PPNG). |
-| [3157346](https://pubmed.ncbi.nlm.nih.gov/3157346/) | 1985 | Cohort/Therapeutic | Antimicrobial Agents and Chemotherapy | 1g IM aztreonam compared with 2g IM spectinomycin for uncomplicated gonorrhea; no treatment failures with either drug. |
-| [6438364](https://pubmed.ncbi.nlm.nih.gov/6438364/) | 1984 | Cohort/Bacteriological-clinical | Japanese Journal of Antibiotics | Bacteriological and clinical evaluation of aztreonam in 30 men with gonorrheal urethritis, including PPNG strains. |
-| [3937450](https://pubmed.ncbi.nlm.nih.gov/3937450/) | 1985 | Cohort/Therapeutic | Hinyokika Kiyo (Acta Urologica Japonica) | Epidemiologic and one-shot therapeutic study of aztreonam in gonorrheal infections in Japan. |
-| [6226596](https://pubmed.ncbi.nlm.nih.gov/6226596/) | 1983 | Cohort/Therapeutic | Giornale Italiano di Dermatologia e Venereologia | Study of aztreonam in patients with acute gonococcal urethritis. |
-| [11406757](https://pubmed.ncbi.nlm.nih.gov/11406757/) | 2001 | Surveillance/Resistance | Journal of Infection and Chemotherapy | Documents emergence of cephem- and aztreonam-highly-resistant *N. gonorrhoeae* not producing beta-lactamase — an important resistance-monitoring caveat for this indication. |
+| [3095216](https://pubmed.ncbi.nlm.nih.gov/3095216/) | 1986 | RCT | Genitourinary Medicine | Einzelne 1-g-IM-Dosis eliminierte *N. gonorrhoeae* bei 61 Männern und 26 Frauen an allen Stellen (mit Ausnahme eines pharyngealen Falls); gut verträglich, wirksam gegen Penicillin-empfindliche und -resistente Stämme. |
+| [33077658](https://pubmed.ncbi.nlm.nih.gov/33077658/) | 2020 | Klinische Einzelarm-Studie | Antimicrobial Agents and Chemotherapy | Einzeldosis von 2 g IM Aztreonam bewertet als umgewidmete Behandlung für Gonorrhö angesichts der Bedrohung durch Ceftriaxon-Resistenz; Begleitpublikation zu NCT03867734. |
+| [6225808](https://pubmed.ncbi.nlm.nih.gov/6225808/) | 1983 | Kohortenstudie/Therapeutisch | Journal of Infectious Diseases | Demonstration der Wirksamkeit von Aztreonam gegen Penicillinase-produzierende (Penicillin-resistente) Gonokokken (PPNG). |
+| [3157346](https://pubmed.ncbi.nlm.nih.gov/3157346/) | 1985 | Kohortenstudie/Therapeutisch | Antimicrobial Agents and Chemotherapy | 1 g IM Aztreonam im Vergleich zu 2 g IM Spectinomycin für unkomplizierte Gonorrhö; keine Behandlungsfehler bei beiden Arzneimitteln. |
+| [6438364](https://pubmed.ncbi.nlm.nih.gov/6438364/) | 1984 | Kohortenstudie/Bakteriologisch-klinisch | Japanese Journal of Antibiotics | Bakteriologische und klinische Bewertung von Aztreonam bei 30 Männern mit Gonorrhö-Urethritis, einschließlich PPNG-Stämmen. |
+| [3937450](https://pubmed.ncbi.nlm.nih.gov/3937450/) | 1985 | Kohortenstudie/Therapeutisch | Hinyokika Kiyo (Acta Urologica Japonica) | Epidemiologische und Einzeldosis-Therapie-Studie von Aztreonam bei Gonorrhö-Infektionen in Japan. |
+| [6226596](https://pubmed.ncbi.nlm.nih.gov/6226596/) | 1983 | Kohortenstudie/Therapeutisch | Giornale Italiano di Dermatologia e Venereologia | Studie von Aztreonam bei Patienten mit akuter Gonorrhö-Urethritis. |
+| [11406757](https://pubmed.ncbi.nlm.nih.gov/11406757/) | 2001 | Überwachung/Resistenz | Journal of Infection and Chemotherapy | Dokumentiert das Auftreten von Cephem- und Aztreonam-hochresistenten *N. gonorrhoeae*, die kein Beta-Lactamase produzieren — eine wichtige Resistenzüberwachungs-Vorsichtsmaßnahme für diese Indikation. |
 
 ---
 
-## Germany Market Information
+## Marktinformationen für Deutschland
 
-Aztreonam currently has **no marketing authorization in Germany** under this evidence pack (0 authorizations, status: Not marketed). No product-level dosage form or label data is available for review.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. No drug interaction data was returned for this query (query status: not found).
-
-> **Note:** A blocking data gap has been identified — TFDA/BfArM label warnings and contraindications are not yet available, which prevents this candidate from entering the S1 initial safety review stage. This must be resolved before any further development decision is finalized.
+Aztreonam hat derzeit **keine Marktgenehmigung in Deutschland** in diesem Evidenzpaket (0 Zulassungen, Status: Nicht vermarktet). Es liegen keine Produktdaten zu Darreichungsform oder Etikettierung zur Überprüfung vor.
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsaspekte
 
-**Decision: Proceed with Guardrails**
+Bitte lesen Sie die Packungsbeilage für Sicherheitsinformationen. Es wurden keine Daten zu Arzneimittelwechselwirkungen für diese Abfrage zurückgegeben (Abfragestatus: nicht gefunden).
 
-**Rationale:**
-Aztreonam's antibacterial activity against *N. gonorrhoeae* is directly explained by its known mechanism (PBP3 inhibition) rather than a novel repurposing hypothesis, and is supported by one historical RCT plus a completed modern Phase 2/3 demonstration trial (NCT03867734) conducted specifically to address emerging cephalosporin resistance. However, most supporting literature predates modern resistance patterns (1983–1986), and the recent trial has a small, non-randomized sample (n=32).
+> **Hinweis:** Eine blockierende Datenlücke wurde identifiziert — Warnungen und Kontraindikationen in der TFDA/BfArM-Produktinformation sind noch nicht verfügbar, was die Aufnahme in die S1-Phase der anfänglichen Sicherheitsprüfung verhindert. Dies muss vor jeder endgültigen Entwicklungsentscheidung geklärt werden.
 
-**To proceed, the following is needed:**
-- TFDA/BfArM package insert data (warnings, contraindications) — currently a **blocking** gap preventing S1 safety review
-- Formal MOA documentation from DrugBank to replace the current data gap
-- Updated resistance surveillance data on cross-resistance between aztreonam and third-generation cephalosporins in contemporary *N. gonorrhoeae* isolates
-- A larger randomized controlled trial (particularly addressing pharyngeal eradication rates) to upgrade evidence beyond the current single small trial
-- Regulatory/market feasibility assessment, given 0 current marketing authorizations in Germany
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Mit Schutzmaßnahmen fortfahren**
+
+**Begründung:**
+Die antibakterielle Aktivität von Aztreonam gegen *N. gonorrhoeae* wird direkt durch seinen bekannten Mechanismus (PBP3-Hemmung) statt durch eine neuartige Umwidmungshypothese erklärt und wird durch eine historische RCT sowie eine abgeschlossene moderne Phase-2/3-Demonstrationsstudie (NCT03867734) unterstützt, die speziell durchgeführt wurde, um die aufkommende Cephalosporin-Resistenz zu adressieren. Die meisten unterstützenden Literaturstellen stammen jedoch aus der Zeit vor modernen Resistenzmustern (1983–1986), und die neueste Studie hat eine kleine, nicht-randomisierte Stichprobe (n=32).
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+- TFDA/BfArM-Packungsbeilage-Daten (Warnungen, Kontraindikationen) — derzeit eine **blockierende** Lücke, die die S1-Sicherheitsprüfung verhindert
+- Formale MOA-Dokumentation von DrugBank zur Ersetzung der aktuellen Datenlücke
+- Aktualisierte Resistenzüberwachungsdaten zur Kreuzresistenz zwischen Aztreonam und Cephalosporinen der dritten Generation in zeitgenössischen *N. gonorrhoeae*-Isolaten
+- Eine größere randomisierte kontrollierte Studie (besonders zur Adressierung pharyngealer Eradikationsraten), um die Evidenzqualität über die aktuelle einzelne kleine Studie hinaus zu verbessern
+- Bewertung der regulatorischen/Marktdurchführbarkeit bei 0 aktuellen Marktgenehmigungen in Deutschland
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

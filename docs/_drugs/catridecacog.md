@@ -29,78 +29,79 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Catridecacog: From Congenital Factor XIII A-Subunit Deficiency to Primary Release Disorder of Platelets
+# Catridecacog: Von angeborenem Faktor-XIII-A-Untereinheit-Mangel zu primärer Plättchenfreisetzungsstörung
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Catridecacog (DB09310) is a recombinant Factor XIIIA subunit used for the prophylactic treatment of congenital Factor XIII A-subunit deficiency.
-> The TxGNN model predicts it may be effective for **Primary Release Disorder of Platelets**,
-> but currently **no clinical trials** and **no published literature** support this direction — this is a model-only prediction (L5).
+> Catridecacog (DB09310) ist eine rekombinante Faktor-XIII-A-Untereinheit, die für die prophylaktische Behandlung des angeborenen Faktor-XIII-A-Untereinheit-Mangels verwendet wird.
+> Das TxGNN-Modell sagt vorher, dass es möglicherweise wirksam für **Primäre Plättchenfreisetzungsstörung** ist,
+> aber derzeit unterstützen **keine klinischen Studien** und **keine veröffentlichte Literatur** diese Richtung — dies ist eine reine Modellvorhersage (L5).
 
 ---
 
-## Quick Overview
+## Schnelüberblick
 
-| Item | Content |
+| Artikel | Inhalt |
 |------|------|
-| Original Indication | Congenital Factor XIII A-subunit deficiency *(not captured in evidence pack — original_indications field empty; based on known drug profile of catridecacog)* |
-| Predicted New Indication | Primary Release Disorder of Platelets |
-| TxGNN Prediction Score | 99.29% (rank 7629) |
-| Evidence Level | L5 |
-| Germany Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | Angeborener Faktor-XIII-A-Untereinheit-Mangel *(nicht im Evidenzpaket erfasst — Feld original_indications leer; basierend auf bekanntem Arzneimittelprofil von catridecacog)* |
+| Vorhergesagte neue Indikation | Primäre Plättchenfreisetzungsstörung |
+| TxGNN-Vorhersage-Score | 99.29% (Rang 7629) |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Nicht vermarktet (Nicht vermarktet) |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Abwarten |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage begründet?
 
-Currently, detailed mechanism of action data is not available in this evidence pack (MOA field flagged as Data Gap, severity High). Based on the repurposing rationale attached to the prediction itself, catridecacog is a recombinant Factor XIIIA subunit that acts far downstream in the coagulation cascade — it stabilizes fibrin cross-linking after a clot has already formed. It does not act on platelet granule release, platelet receptor function, or platelet aggregation pathways.
+Derzeit sind detaillierte Daten zum Wirkungsmechanismus in diesem Evidenzpaket nicht verfügbar (MOA-Feld gekennzeichnet als Datenlücke, Schweregrad Hoch). Basierend auf der Umpositionierungs-Rationale, die der Vorhersage selbst beigefügt ist, ist catridecacog eine rekombinante Faktor-XIII-A-Untereinheit, die weit nachgelagert in der Gerinnungskaskade wirkt — sie stabilisiert die Fibrin-Quervernetzung, nachdem sich bereits ein Blutgerinnsel gebildet hat. Sie wirkt nicht auf die Plättchengranulafreisetzung, die Plättchenrezeptorfunktion oder die Plättchenaggregationswege.
 
-Primary release disorder of platelets (e.g., storage pool disease) is caused by defective δ/α-granule content release from platelets — a mechanism entirely upstream of, and independent from, fibrin stabilization. The evidence pack's own mechanistic assessment explicitly states there is **no direct mechanistic link**, and that this association is "purely data-driven" without biological plausibility support.
+Primäre Freisetzungsstörung von Plättchen (z. B. Speicherpoolerkrankung) wird durch einen Mangel an δ/α-Granula-Inhaltsfreisetzung aus Plättchen verursacht — ein Mechanismus, der vollständig vorgelagert gegenüber und unabhängig von der Fibrin-Stabilisierung ist. Die mechanistische Bewertung des Evidenzpakets selbst erklärt ausdrücklich, dass es **keine direkte mechanistische Verbindung** gibt, und dass diese Assoziation „rein datengesteuert" ist, ohne Unterstützung durch biologische Plausibilität.
 
-For completeness, two other candidates were predicted with similarly high TxGNN scores but equally weak mechanistic grounding: **pseudo-von Willebrand disease** (rank 2, score 99.29%, mismatch — pathology is a GPIbα receptor gain-of-function mutation) and **Glanzmann thrombasthenia** (rank 3, score 99.15%, mismatch — pathology is GPIIb/IIIa integrin deficiency). All three predictions share the same limitation: they are platelet-function disorders, while catridecacog's mechanism operates strictly at the fibrin cross-linking step, downstream of platelet involvement.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+Der Vollständigkeit halber wurden zwei weitere Kandidaten mit ähnlich hohen TxGNN-Scores vorhergesagt, aber mit gleichermaßen schwacher mechanistischer Grundlage: **Pseudo-von-Willebrand-Krankheit** (Rang 2, Score 99.29%, Mismatch — Pathologie ist eine GPIbα-Rezeptor-Gain-of-Function-Mutation) und **Glanzmann-Thrombasthenie** (Rang 3, Score 99.15%, Mismatch — Pathologie ist GPIIb/IIIa-Integrin-Mangel). Alle drei Vorhersagen teilen die gleiche Einschränkung: Sie sind Plättchenfunktionsstörungen, während catridecacogs Mechanismus streng am Fibrin-Quervernetzungsschritt wirkt, nachgelagert der Plättchenbeteiligung.
 
 ---
 
-## Literature Evidence
+## Klinische Studien-Evidenz
 
-Currently no related literature available
-
----
-
-## Germany Market Information
-
-Catridecacog currently has no market authorization in Germany (0 authorizations, market status: Not marketed/Not marketed). No license records are available for this evidence pack.
+Derzeit keine zugehörigen klinischen Studien registriert
 
 ---
 
-## Safety Considerations
+## Literatur-Evidenz
 
-Please refer to the package insert for safety information.
-
-*(No warnings, contraindications, or drug interaction data currently available — TFDA/BfArM labeling data flagged as a Blocking data gap, DG001.)*
+Derzeit keine zugehörige Literatur verfügbar
 
 ---
 
-## Conclusion and Next Steps
+## Marktinformation Deutschland
 
-**Decision: Hold**
+Catridecacog hat derzeit keine Marktgenehmigung in Deutschland (0 Zulassungen, Marktstatus: Nicht vermarktet/Nicht vermarktet). Keine Lizenzdatensätze sind für dieses Evidenzpaket verfügbar.
 
-**Rationale:**
-The prediction is supported by no clinical trials, no literature, and the mechanistic rationale explicitly argues against biological plausibility — catridecacog's downstream fibrin-stabilizing action does not address the upstream platelet granule-release, receptor, or aggregation defects seen in any of the three predicted indications. This is an L5, model-score-only signal.
+---
 
-**To proceed, the following is needed:**
-- TFDA/BfArM package insert data (warnings, contraindications) — currently a Blocking data gap (DG001)
-- Confirmed mechanism of action (DrugBank API query) — currently a High-severity data gap (DG002)
-- Preclinical or case-level evidence directly linking Factor XIII supplementation to platelet-release disorders, pseudo-von Willebrand disease, or Glanzmann thrombasthenia, before advancing beyond S0
-- Given the mechanistic mismatch identified above, re-evaluation of whether these candidates warrant further investment at all
+## Sicherheitsüberlegungen
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+*(Derzeit keine Warnungen, Kontraindikationen oder Arzneimittelwechselwirkungsdaten verfügbar — TFDA/BfArM-Kennzeichnungsdaten gekennzeichnet als blockierende Datenlücke, DG001.)*
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Abwarten**
+
+**Begründung:**
+Die Vorhersage wird durch keine klinischen Studien, keine Literatur und die mechanistische Rationale, die explizit gegen biologische Plausibilität argumentiert, unterstützt — catridecacogs nachgelagerte Fibrin-stabilisierende Wirkung behebt nicht die vorgelagerten Plättchen-Granula-Freisetzungs-, Rezeptor- oder Aggregationsmängel, die bei den drei vorhergesagten Indikationen beobachtet werden. Dies ist ein L5, nur Modell-Score-basiertes Signal.
+
+**Zur Fortsetzung ist Folgendes erforderlich:**
+- TFDA/BfArM-Packungsbeilage-Daten (Warnungen, Kontraindikationen) — derzeit eine blockierende Datenlücke (DG001)
+- Bestätigter Wirkungsmechanismus (DrugBank-API-Abfrage) — derzeit eine Datenlücke mit hohem Schweregrad (DG002)
+- Präklinische oder Fall-Level-Evidenz, die direkt Faktor-XIII-Supplementation mit Plättchen-Freisetzungsstörungen, Pseudo-von-Willebrand-Krankheit oder Glanzmann-Thrombasthenie verknüpft, bevor über S0 hinaus voranschreitet
+- Angesichts des oben identifizierten mechanistischen Mismatch sollte geprüft werden, ob diese Kandidaten überhaupt weitere Verfolgung rechtfertigen
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

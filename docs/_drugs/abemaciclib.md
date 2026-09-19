@@ -29,100 +29,101 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0**
 
 </div>
 
-# ABEMACICLIB: Drug Repurposing Evaluation Report
+# ABEMACICLIB: Bewertungsbericht zur Arzneimittelumwidmung
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Abemaciclib is a selective CDK4/6 inhibitor, primarily approved internationally for the treatment of HR-positive, HER2-negative advanced or metastatic breast cancer. The TxGNN model has **not yet generated predicted new indications** for this compound, and the evidence pack currently contains **no clinical trial or literature evidence** for repurposing candidates. This report serves as a baseline assessment pending completion of the prediction pipeline.
+Abemaciclib ist ein selektiver CDK4/6-Inhibitor, der international in erster Linie für die Behandlung von HR+-positivem, HER2-negativem fortgeschrittenem oder metastasiertem Brustkrebs zugelassen ist. Das TxGNN-Modell hat **bisher keine vorhergesagten neuen Indikationen** für diese Verbindung generiert, und das Nachweispaket enthält derzeit **keine klinischen Studien- oder Literaturbewweise** für Umwidmungskandidaten. Dieser Bericht dient als Baseline-Bewertung bis zur Fertigstellung der Vorhersage-Pipeline.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Element | Inhalt |
 |------|------|
-| Original Indication | Not recorded in current evidence pack (internationally approved for HR+/HER2− breast cancer) |
-| Predicted New Indication | — (No TxGNN prediction available) |
-| TxGNN Prediction Score | — |
-| Evidence Level | **L5** (No prediction or supporting studies available) |
-| Taiwan Market Status | ❌ Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+| Ursprüngliche Indikation | Nicht im aktuellen Nachweispaket erfasst (international für HR+/HER2− Brustkrebs zugelassen) |
+| Vorhergesagte neue Indikation | — (Keine TxGNN-Vorhersage verfügbar) |
+| TxGNN-Vorhersage-Score | — |
+| Evidenzstufe | **L5** (Keine Vorhersage oder unterstützende Studien verfügbar) |
+| Status des taiwanischen Marktes | ❌ Nicht vermarktet (Nicht vermarktet) |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | **Halten** |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage sinnvoll?
 
-Currently, the TxGNN model has not produced a predicted new indication for abemaciclib, so a mechanistic plausibility assessment cannot be performed at this time.
+Derzeit hat das TxGNN-Modell keine vorhergesagte neue Indikation für Abemaciclib erzeugt, daher kann derzeit keine mechanistische Plausibilitätsbewertung durchgeführt werden.
 
-Based on publicly available pharmacological knowledge, abemaciclib (brand name Verzenio®, Eli Lilly) is a selective inhibitor of cyclin-dependent kinases 4 and 6 (CDK4/6). These kinases play a critical role in cell cycle progression from G1 to S phase. By inhibiting CDK4/6, abemaciclib blocks the phosphorylation of retinoblastoma protein (Rb), thereby arresting tumour cell proliferation. It is approved by the US FDA, EMA, and other regulatory authorities for HR+/HER2− advanced breast cancer, both as monotherapy and in combination with endocrine therapy.
+Basierend auf öffentlich verfügbaren pharmakologischen Kenntnissen ist Abemaciclib (Handelsname Verzenio®, Eli Lilly) ein selektiver Inhibitor der Cyclin-abhängigen Kinasen 4 und 6 (CDK4/6). Diese Kinasen spielen eine kritische Rolle bei der Zellzyklusprogression von der G1- zur S-Phase. Durch die Hemmung von CDK4/6 blockiert Abemaciclib die Phosphorylierung des Retinoblastoma-Proteins (Rb) und hemmt dadurch die Proliferation von Tumorzellen. Es wird von der US FDA, EMA und anderen Regulierungsbehörden für HR+/HER2− fortgeschrittenen Brustkrebs zugelassen, sowohl als Monotherapie als auch in Kombination mit endokriner Therapie.
 
-> ⚠️ **Data Gap:** The evidence pack lists the mechanism of action (MOA) as unavailable. The above description is based on established pharmacological literature. Once the DrugBank API query is completed (remediation item DG002), the MOA field should be populated for formal assessment.
-
----
-
-## Clinical Trial Evidence
-
-Currently no TxGNN-predicted indication is available; therefore, no targeted clinical trial search has been performed for repurposing candidates.
-
-> To proceed, the TxGNN prediction pipeline must first generate candidate indications, after which clinical trial evidence can be systematically collected.
+> ⚠️ **Datenlücke:** Das Nachweispaket führt den Wirkmechanismus (MOA) als nicht verfügbar auf. Die obige Beschreibung basiert auf etablierter pharmakologischer Literatur. Sobald die DrugBank-API-Abfrage abgeschlossen ist (Abhilfemaßnahme DG002), sollte das MOA-Feld für die formale Bewertung ausgefüllt werden.
 
 ---
 
-## Literature Evidence
+## Klinische Studiennachweise
 
-Currently no TxGNN-predicted indication is available; therefore, no targeted literature search has been performed for repurposing candidates.
+Derzeit ist keine TxGNN-vorhergesagte Indikation verfügbar; daher wurde keine gezielte Suche nach klinischen Studien für Umwidmungskandidaten durchgeführt.
 
----
-
-## Taiwan Market Information
-
-Abemaciclib is currently **not marketed in Taiwan** (Not marketed). No TFDA drug licenses were found in the regulatory database query (queried 2026-03-29).
-
-> **Note:** Abemaciclib is marketed internationally under the brand name **Verzenio®** (Eli Lilly) and is approved by the US FDA, EMA, and multiple other regulatory authorities.
+> Um fortzufahren, muss die TxGNN-Vorhersage-Pipeline zunächst Kandidatenindikationen generieren, wonach Evidenz aus klinischen Studien systematisch gesammelt werden kann.
 
 ---
 
-## Cytotoxicity
+## Literaturbewweise
 
-Abemaciclib is an antineoplastic agent (CDK4/6 inhibitor, targeted therapy class). The following cytotoxicity profile is based on established pharmacological knowledge:
+Derzeit ist keine TxGNN-vorhergesagte Indikation verfügbar; daher wurde keine gezielte Literatursuche für Umwidmungskandidaten durchgeführt.
 
-| Item | Content |
+---
+
+## Informationen zum taiwanischen Markt
+
+Abemaciclib ist derzeit **nicht auf dem taiwanischen Markt vermarktet** (Nicht vermarktet). Bei der Abfrage der Regulierungsdatenbank wurden keine TFDA-Arzneimittelzulassungen gefunden (abgefragt 2026-03-29).
+
+> **Hinweis:** Abemaciclib ist international unter dem Handelsnamen **Verzenio®** (Eli Lilly) vermarktet und wird von der US FDA, EMA und mehreren anderen Regulierungsbehörden zugelassen.
+
+---
+
+## Zytotoxizität
+
+Abemaciclib ist ein antineoplastisches Mittel (CDK4/6-Inhibitor, Klasse der zielgerichteten Therapie). Das folgende Zytotoxizitätsprofil basiert auf etabliertem pharmakologischem Wissen:
+
+| Element | Inhalt |
 |------|------|
-| Cytotoxicity Classification | **Targeted therapy** (selective CDK4/6 inhibitor; not a conventional cytotoxic agent) |
-| Myelosuppression Risk | **High** — Neutropenia is a very common adverse effect (reported in >40% of patients in pivotal trials); dose modifications may be required |
-| Emetogenicity Classification | **Low to moderate** — Diarrhoea is more clinically significant than nausea/vomiting |
-| Monitoring Items | CBC with differential (neutrophils particularly), liver function tests (ALT, AST, bilirubin), renal function, signs of venous thromboembolism, signs of interstitial lung disease |
-| Handling Protection | Standard precautions for oral anticancer agents; no IV cytotoxic handling required (oral dosage form) |
+| Zytotoxizitäts-Einstufung | **Zielgerichtete Therapie** (selektiver CDK4/6-Inhibitor; nicht ein konventionelles zytotoxisches Mittel) |
+| Risiko der Myelosuppression | **Hoch** — Neutropenie ist eine sehr häufige Nebenwirkung (berichtet bei >40% der Patienten in Pivotstudien); Dosismodifikationen können erforderlich sein |
+| Emetogenitäts-Einstufung | **Niedrig bis moderat** — Durchfall ist klinisch bedeutsamer als Übelkeit/Erbrechen |
+| Überwachungsparameter | Blutbild mit Differenzial (besonders Neutrophile), Leberfunktionstests (ALT, AST, Bilirubin), Nierenfunktion, Anzeichen von venöser Thromboembolie, Anzeichen von interstitieller Lungenerkrankung |
+| Handhabung und Schutz | Standardvorkehrungen für orale Krebstherapeutika; kein Handling mit IV-Zytotoxika erforderlich (orale Darreichungsform) |
 
-> ⚠️ Detailed toxicity data from DrugBank was not available in this evidence pack. Please refer to the Verzenio® package insert for comprehensive warnings and precautions.
-
----
-
-## Safety Considerations
-
-Safety data (key warnings, contraindications, and drug-drug interactions) is **not yet available** in the current evidence pack due to the following data gaps:
-
-- **DG001 (Blocking):** TFDA package insert warnings/contraindications have not been retrieved — abemaciclib is not marketed in Taiwan, so no local labelling exists.
-- **DG002 (High):** DrugBank MOA and safety detail query is pending.
-
-> Please refer to the international package insert (Verzenio® US PI or EMA SmPC) for complete safety information. Key known safety concerns from international labelling include: diarrhoea, neutropenia, hepatotoxicity, venous thromboembolism, and interstitial lung disease/pneumonitis.
+> ⚠️ Detaillierte Toxizitätsdaten von DrugBank waren in diesem Nachweispaket nicht verfügbar. Bitte beachten Sie die Verzenio®-Fachinformation für umfassende Warnungen und Vorsichtsmaßnahmen.
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsaspekte
 
-**Decision: Hold**
+Sicherheitsdaten (Schlüsselwarnungen, Kontraindikationen und Arzneimittel-Wechselwirkungen) sind **derzeit nicht verfügbar** im aktuellen Nachweispaket aufgrund der folgenden Datenlücken:
 
-**Rationale:**
-No TxGNN-predicted new indication has been generated for abemaciclib. Without a candidate indication, the repurposing evaluation cannot proceed to evidence assessment. Additionally, the drug is not marketed in Taiwan, and critical safety data (TFDA labelling) is unavailable.
+- **DG001 (Blockierung):** TFDA-Fachinformation Warnungen/Kontraindikationen wurden nicht abgerufen — Abemaciclib ist nicht auf dem taiwanischen Markt vermarktet, daher existiert keine lokale Kennzeichnung.
+- **DG002 (Hoch):** DrugBank MOA- und Sicherheitsdetails-Abfrage ist ausstehend.
 
-**To proceed, the following is needed:**
-- **Run TxGNN prediction pipeline** for abemaciclib (DB12001) to generate candidate repurposing indications
-- **Resolve DG002:** Complete DrugBank API query to populate mechanism of action data
-- **Resolve DG001:** Since abemaciclib is not marketed in Taiwan, consider using the US FDA or EMA labelling as a surrogate for safety assessment
-- **Re-evaluate market access:** Determine whether abemaciclib has any pending TFDA applications or if the repurposing evaluation should reference international regulatory data
-- **Re-run evidence collection** (clinical trials + literature) once a predicted indication is available
+> Bitte beachten Sie die internationale Fachinformation (Verzenio® US PI oder EMA SmPC) für vollständige Sicherheitsinformationen. Die wichtigsten bekannten Sicherheitsbedenken aus der internationalen Kennzeichnung sind: Durchfall, Neutropenie, Hepatotoxizität, venöse Thromboembolie und interstitielle Lungenerkrankung/Pneumonitis.
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Halten**
+
+**Begründung:**
+Für Abemaciclib wurde keine TxGNN-vorhergesagte neue Indikation generiert. Ohne eine Kandidatenindikation kann die Umwidmungsbewertung nicht zur Evidenzbewertung übergehen. Darüber hinaus ist das Arzneimittel nicht auf dem taiwanischen Markt vermarktet, und kritische Sicherheitsdaten (TFDA-Kennzeichnung) sind nicht verfügbar.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+- **Führe die TxGNN-Vorhersage-Pipeline aus** für Abemaciclib (DB12001), um Kandidaten-Umwidmungsindikationen zu generieren
+- **Löse DG002 auf:** Schließe die DrugBank-API-Abfrage ab, um Wirkmechanismus-Daten auszufüllen
+- **Löse DG001 auf:** Da Abemaciclib nicht auf dem taiwanischen Markt vermarktet ist, sollte die US FDA oder EMA-Kennzeichnung als Ersatz für die Sicherheitsbewertung in Betracht gezogen werden
+- **Neubewertung des Marktzugangs:** Bestimme, ob Abemaciclib ausstehende TFDA-Anträge hat oder ob die Umwidmungsbewertung auf internationale Regulierungsdaten verweisen sollte
+- **Wiederholung der Evidenzsammlung** (klinische Studien + Literatur), sobald eine vorhergesagte Indikation verfügbar ist
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

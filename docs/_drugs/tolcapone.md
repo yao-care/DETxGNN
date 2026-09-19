@@ -29,78 +29,79 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Tolcapone: From Parkinson's Disease (COMT Inhibition) to Rasmussen Subacute Encephalitis
+# Tolcapone: Von der Parkinson-Krankheit (COMT-Hemmung) zur Rasmussen-Subakuten-Enzephalitis
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Tolcapone is a COMT (catechol-O-methyltransferase) inhibitor; per the evidence pack's own rationale notes, its established pharmacology relates to catecholamine metabolism in Parkinson's disease as an adjunct to levodopa (no formal Taiwan/Germany regulatory record is available in this dataset).
-The TxGNN model's top prediction is **Rasmussen Subacute Encephalitis**, but this is a pure model-driven association with **0 clinical trials** and **0 publications**, and the evidence pack explicitly states no known mechanistic overlap between COMT inhibition and this disease's T-cell–mediated neuronal injury.
-Evidence strength for this specific prediction is minimal (L5) and does not currently support further development.
+Tolcapone ist ein COMT-(Catechol-O-Methyltransferase-)Hemmer; nach Angaben der Begründungsnotizen des Evidenzpakets bezieht sich seine etablierte Pharmakologie auf den Katecholamin-Stoffwechsel bei der Parkinson-Krankheit als Zusatztherapie zu Levodopa (kein formaler Taiwan-/Deutschland-Regulierungseintrag ist in diesem Datensatz verfügbar).
+Die Top-Vorhersage des TxGNN-Modells ist **Rasmussen-Subakute-Enzephalitis**, aber dies ist eine reine modellgesteuerte Assoziation mit **0 klinischen Studien** und **0 Publikationen**, und das Evidenzpaket erklärt ausdrücklich, dass es keine bekannte mechanistische Überschneidung zwischen der COMT-Hemmung und der T-Zellen-vermittelten neuronalen Schädigung dieser Krankheit gibt.
+Die Evidenzstärke für diese spezifische Vorhersage ist minimal (L5) und unterstützt derzeit keine weitere Entwicklung.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Element | Inhalt |
 |------|------|
-| Original Indication | Not specified in Taiwan/Germany regulatory data (per evidence pack rationale, tolcapone is a COMT inhibitor classically used as adjunct therapy in Parkinson's disease) |
-| Predicted New Indication | Rasmussen Subacute Encephalitis |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L5 |
-| Germany Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | Nicht im Taiwan-/Deutschland-Regulierungsdatensatz angegeben (nach den Begründungsnotizen des Evidenzpakets ist Tolcapone ein COMT-Hemmer, der klassischerweise als Zusatztherapie bei der Parkinson-Krankheit verwendet wird) |
+| Vorhergesagte neue Indikation | Rasmussen-Subakute-Enzephalitis |
+| TxGNN-Vorhersage-Score | 99.93% |
+| Evidenzgrad | L5 |
+| Marktatus in Deutschland | Nicht auf dem Markt |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | Zurückstellung |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage sinnvoll?
 
-Detailed mechanism of action data is marked as a data gap (DG002) in this evidence pack. Based on the mechanistic notes accompanying the predictions, tolcapone acts as a COMT inhibitor, altering catecholamine (dopamine) metabolism — a mechanism whose established clinical relevance is in dopaminergic disorders such as Parkinson's disease.
+Detaillierte Daten zum Wirkmechanismus werden in diesem Evidenzpaket als Datenlücke (DG002) gekennzeichnet. Basierend auf den mechanistischen Anmerkungen, die den Vorhersagen beigefügt sind, wirkt Tolcapone als COMT-Hemmer und verändert den Katecholamin-(Dopamin-)Stoffwechsel – ein Mechanismus, dessen etablierte klinische Relevanz in dopaminergen Störungen wie der Parkinson-Krankheit liegt.
 
-Rasmussen subacute encephalitis, in contrast, is an autoimmune epilepsy syndrome whose core pathology is T-cell–mediated neuronal destruction. The evidence pack's own repurposing rationale states there is **no known intersection** between the dopamine/catecholamine metabolic pathway and this disease's immunological mechanism, and characterizes this top-ranked prediction as a "data-driven association rather than a biological hypothesis."
+Rasmussen-Subakute-Enzephalitis ist dagegen ein Autoimmun-Epilepsie-Syndrom, dessen Kernpathologie die T-Zellen-vermittelte neuronale Zerstörung ist. Das Repurposing-Rationale des Evidenzpakets besagt, dass es **keine bekannte Schnittstelle** zwischen dem Dopamin-/Katecholamin-Stoffwechselweg und dem immunologischen Mechanismus dieser Krankheit gibt, und charakterisiert diese am höchsten bewertete Vorhersage als „datengesteuerte Assoziation eher als biologische Hypothese".
 
-It is worth noting that lower-ranked predictions in this same evidence pack show comparatively stronger (though still limited) mechanistic plausibility — for example, Lewy body dementia (rank 6, L4) is linked via DOPAL/α-synuclein biochemistry, and juvenile parkinsonism (rank 10, L4) is linked via tolcapone's established dopaminergic pharmacology. These may warrant separate evaluation, but per the reporting scope the top-ranked candidate (Rasmussen subacute encephalitis) does not currently have a defensible mechanistic rationale.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+Es ist bemerkenswert, dass niedriger bewertete Vorhersagen in demselben Evidenzpaket eine vergleichsweise stärkere (wenn auch immer noch begrenzte) mechanistische Plausibilität zeigen – zum Beispiel ist Lewy-Körper-Demenz (Rang 6, L4) über DOPAL/α-synuklein-Biochemie verbunden, und Juvenile Parkinsonismus (Rang 10, L4) ist über Tolcapones etablierte dopaminerge Pharmakologie verbunden. Diese könnten separate Bewertungen verdienen, aber gemäß dem Berichtsfokus hat der am höchsten bewertete Kandidat (Rasmussen-Subakute-Enzephalitis) derzeit keine vertretbare mechanistische Begründung.
 
 ---
 
-## Literature Evidence
+## Belege aus klinischen Studien
 
-Currently no related literature available
-
----
-
-## Germany Market Information
-
-No German market authorizations found in this evidence pack (total_licenses = 0; market_status = Not marketed).
+Derzeit keine verwandten klinischen Studien registriert
 
 ---
 
-## Safety Considerations
+## Literaturbelege
 
-Please refer to the package insert for safety information.
-
-*(Note: TFDA/BfArM label warnings and contraindications are flagged in this evidence pack as a Blocking data gap (DG001) — safety data could not be verified for this candidate.)*
+Derzeit keine verwandte Literatur verfügbar
 
 ---
 
-## Conclusion and Next Steps
+## Marktinformationen Deutschland
 
-**Decision: Hold**
+Keine deutschen Marktgenehmigungen in diesem Evidenzpaket gefunden (total_licenses = 0; market_status = Nicht vermarktet).
 
-**Rationale:**
-The top-ranked prediction (Rasmussen subacute encephalitis) has no supporting clinical trials, no literature, and an explicitly stated absence of mechanistic plausibility in the evidence pack itself — this is a model-score-only association (L5) and does not meet the bar for further evaluation.
+---
 
-**To proceed, the following is needed:**
-- Resolve DG001 (Blocking): obtain TFDA/BfArM label warnings and contraindications before any safety-stage evaluation can begin
-- Resolve DG002 (High): obtain confirmed drug MOA data from DrugBank to properly assess mechanistic linkage
-- Confirmed original indication and regulatory history for tolcapone (currently absent from this evidence pack)
-- If pursuing repurposing signals from this dataset, consider re-scoping evaluation toward the higher-plausibility candidates identified within the same pack (Lewy body dementia, juvenile parkinsonism) rather than the top TxGNN-ranked but mechanistically unsupported candidate
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+*(Anmerkung: Die TFDA/BfArM-Kennzeichnungswarnungen und Kontraindikationen werden in diesem Evidenzpaket als blockierende Datenlücke (DG001) gekennzeichnet – Sicherheitsdaten konnten für diesen Kandidaten nicht überprüft werden.)*
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Zurückstellung**
+
+**Begründung:**
+Die Top-Vorhersage (Rasmussen-Subakute-Enzephalitis) hat keine unterstützenden klinischen Studien, keine Literatur und eine ausdrücklich angegebene Abwesenheit mechanistischer Plausibilität im Evidenzpaket selbst – dies ist eine reine Modell-Score-Assoziation (L5) und erfüllt die Mindestanforderungen für eine weitere Bewertung nicht.
+
+**Um fortzufahren, ist folgendes erforderlich:**
+- DG001 (Blockierung) auflösen: TFDA/BfArM-Kennzeichnungswarnungen und Kontraindikationen beschaffen, bevor eine Sicherheitsbewertung beginnen kann
+- DG002 (Hoch) auflösen: Bestätigte Wirkmechanismus-Daten des Arzneimittels aus DrugBank beschaffen, um die mechanistische Verbindung richtig bewerten zu können
+- Bestätigung der ursprünglichen Indikation und des Regulierungsverlaufs für Tolcapone (derzeit in diesem Evidenzpaket nicht vorhanden)
+- Bei Verfolgung von Repurposing-Signalen aus diesem Datensatz sollte der Bewertungsscope auf die höher plausiblen Kandidaten des Pakets (Lewy-Körper-Demenz, Juvenile Parkinsonismus) verlagert werden, anstatt den höchst bewerteten, aber mechanistisch nicht unterstützten TxGNN-Kandidaten zu verfolgen
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

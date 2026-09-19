@@ -29,83 +29,84 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Laronidase: From Mucopolysaccharidosis I to Lysosomal Storage Disease with Skeletal Involvement
+# Laronidase: Von Mukopolysaccharidose I zur lysosomalen Speichererkrankung mit Skelettbeteiligung
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Laronidase is a recombinant α-L-iduronidase enzyme replacement therapy already established internationally for **Mucopolysaccharidosis I (MPS I)**.
-> TxGNN's top prediction, **Lysosomal Storage Disease with Skeletal Involvement**, is essentially the same disease viewed through its skeletal (dysostosis multiplex) manifestations rather than a genuinely new indication.
-> Support currently on file consists of **4 publications** (no registered clinical trials in this evidence pack), and a second candidate — **Sanfilippo syndrome** — scored comparably high but was screened out as mechanistically implausible.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Mucopolysaccharidosis I (MPS I) — laronidase's internationally recognized approved indication; not reflected in local regulatory data because the drug is not marketed here |
-| Predicted New Indication | Lysosomal Storage Disease with Skeletal Involvement |
-| TxGNN Prediction Score | 99.31% (rank 7521) |
-| Evidence Level | L2 |
-| Germany Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+> Laronidase ist eine international etablierte rekombinante α-L-Iduronidase-Enzymersatztherapie für **Mukopolysaccharidose I (MPS I)**.
+> TxGNNs Topvorhersage, **lysosomale Speichererkrankung mit Skelettbeteiligung**, ist im Wesentlichen dieselbe Krankheit, die durch ihre Skelettmanifestationen (Dysostosis multiplex) betrachtet wird, und nicht eine wirklich neue Indikation.
+> Die derzeit verfügbare Unterstützung besteht aus **4 Veröffentlichungen** (keine registrierten klinischen Studien in diesem Evidenzpaket), und ein zweiter Kandidat — **Sanfilippo-Syndrom** — erzielte eine ähnlich hohe Punktzahl, wurde aber als mechanisch implausibel ausgesiebt.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Detailed structured MOA data is not available in this evidence pack, but the repurposing rationale provides sufficient mechanistic detail: laronidase is a **recombinant human α-L-iduronidase**, delivered via enzyme replacement therapy. It is taken up by cells mainly through mannose-6-phosphate receptors, trafficked to lysosomes, and there breaks down the glycosaminoglycans (dermatan sulfate, heparan sulfate) that accumulate in MPS I patients due to their native enzyme deficiency.
-
-Critically, the "new" indication predicted here — lysosomal storage disease with skeletal involvement — is not a distinct disease from a different pharmacological space. It corresponds to the skeletal phenotype (dysostosis multiplex) of MPS I itself, the disease laronidase was designed and approved to treat. In other words, TxGNN has essentially re-derived the drug's own core indication rather than surfaced a genuinely novel repurposing opportunity. This makes the mechanistic link direct and non-inferential, but it also means the clinical value of this "prediction" lies mainly in confirming model validity rather than opening new therapeutic ground.
-
-It is worth noting that a pivotal Phase 3 randomized, double-blind, placebo-controlled trial of laronidase in MPS I (PMID 15126990) exists in the source literature pool but was filed under the second candidate entry (Sanfilippo syndrome) rather than this one. Had it been correctly attributed here, the evidence level for this indication would likely rise from L2 to L1, since laronidase's efficacy in MPS I is already established well beyond exploratory evidence.
-
-**Note on the second candidate (Sanfilippo syndrome):** TxGNN assigned Sanfilippo syndrome (MPS III) a similarly high score (99.22%), but this pairing does not hold up mechanistically. Sanfilippo syndrome results from deficiencies in different enzymes in the heparan sulfate degradation pathway (sulfamidase, NAGLU, HGSNAT, or GNS depending on subtype) — not α-L-iduronidase. Supplementing α-L-iduronidase would not address the underlying substrate accumulation in Sanfilippo patients, and the disease is additionally CNS-predominant, which an IV-administered protein like laronidase cannot reach across the blood-brain barrier. This candidate is correctly flagged **Hold** (evidence level L5) and is treated as a TxGNN false positive, not a viable repurposing lead.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Punkt | Inhalt |
+|------|--------|
+| Ursprüngliche Indikation | Mukopolysaccharidose I (MPS I) — die international anerkannte zugelassene Indikation von Laronidase; nicht in lokalen Zulassungsdaten widergespiegelt, da das Arzneimittel hier nicht vermarktet wird |
+| Vorhergesagte neue Indikation | Lysosomale Speichererkrankung mit Skelettbeteiligung |
+| TxGNN-Vorhersageergebnis | 99.31% (Rang 7521) |
+| Evidenzstufe | L2 |
+| Marktlage in Deutschland | Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Mit Einschränkungen fortfahren |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage sinnvoll?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [12196045](https://pubmed.ncbi.nlm.nih.gov/12196045/) | 2002 | Review | BioDrugs | Overview of laronidase development as recombinant α-L-iduronidase enzyme replacement therapy for MPS I, including orphan drug and fast-track status |
-| [25345091](https://pubmed.ncbi.nlm.nih.gov/25345091/) | 2014 | Review | Pediatric Endocrinology Reviews | Describes MPS I disease spectrum (Hurler, Scheie, Hurler/Scheie) and diagnosis via urinary GAG pattern plus iduronidase enzyme assay |
-| [18758061](https://pubmed.ncbi.nlm.nih.gov/18758061/) | 2008 | In Vitro/Preclinical | Biological & Pharmaceutical Bulletin | Demonstrates dose-dependent cellular uptake of laronidase mainly via mannose-6-phosphate receptors, with lysosomal trafficking and processing |
-| [23127271](https://pubmed.ncbi.nlm.nih.gov/23127271/) | 2012 | Case Report | Pediatric Neurology | 6.5-year follow-up of a Scheie syndrome (attenuated MPS I) patient on ERT, documenting skeletal, cardiac, and other organ outcomes over time |
+Detaillierte strukturierte MOA-Daten sind in diesem Evidenzpaket nicht verfügbar, aber die Begründung für die Umwidmung bietet ausreichende mechanistische Details: Laronidase ist eine **rekombinante humane α-L-Iduronidase**, die mittels Enzymersatztherapie verabreicht wird. Sie wird von Zellen hauptsächlich über Mannose-6-Phosphat-Rezeptoren aufgenommen, in Lysosomen transportiert und baut dort die Glykosaminoglykane (Dermatansulfat, Heparansulfat) ab, die sich bei MPS-I-Patienten aufgrund ihres nativen Enzymdefekts ansammeln.
 
----
+Kritisch ist, dass die hier vorhergesagte „neue" Indikation — lysosomale Speichererkrankung mit Skelettbeteiligung — keine eigenständige Krankheit aus einem anderen pharmakologischen Bereich darstellt. Sie entspricht dem Skelettphänotyp (Dysostosis multiplex) der MPS I selbst, der Krankheit, für die Laronidase entwickelt und zugelassen wurde. Mit anderen Worten: TxGNN hat im Wesentlichen die eigene Kernindikation des Arzneimittels erneut abgeleitet, anstatt eine wirklich neuartige Umwidmungsmöglichkeit zu identifizieren. Dies macht den mechanistischen Bezug direkt und nicht-inferenziell, bedeutet aber auch, dass der klinische Wert dieser „Vorhersage" hauptsächlich darin liegt, die Modellgültigkeit zu bestätigen, anstatt neues therapeutisches Terrain zu erschließen.
 
-## Germany Market Information
+Es ist erwähnenswert, dass eine zentrale Phase-3-randomisierte, doppelblinde, placebokontrollierte Studie von Laronidase bei MPS I (PMID 15126990) in der Quellenliteratur vorhanden ist, aber unter dem zweiten Kandidateneintrag (Sanfilippo-Syndrom) statt hier eingegeben wurde. Wäre sie hier korrekt zugeordnet worden, würde die Evidenzstufe für diese Indikation wahrscheinlich von L2 auf L1 steigen, da Laronidases Wirksamkeit bei MPS I bereits weit über explorative Evidenz hinaus etabliert ist.
 
-Laronidase is currently **not marketed** in this jurisdiction (0 authorizations on file); no product-level licensing data is available.
+**Anmerkung zum zweiten Kandidaten (Sanfilippo-Syndrom):** TxGNN vergab dem Sanfilippo-Syndrom (MPS III) eine ähnlich hohe Punktzahl (99.22%), aber diese Kombination ist nicht mechanistisch haltbar. Sanfilippo-Syndrom resultiert aus Defizienzen verschiedener Enzyme des Heparansulfat-Abbauwegs (Sulfamidase, NAGLU, HGSNAT oder GNS je nach Subtyp) — nicht α-L-Iduronidase. Die Ergänzung von α-L-Iduronidase würde die zugrundeliegende Substratansammlung bei Sanfilippo-Patienten nicht beheben, und die Krankheit ist zusätzlich ZNS-dominant, was ein intravenös verabreichtes Protein wie Laronidase nicht über die Blut-Hirn-Schranke erreichen kann. Dieser Kandidat ist korrekt mit **Hold** gekennzeichnet (Evidenzstufe L5) und wird als TxGNN-Falsch-Positiv behandelt, nicht als praktikable Umwidmungsmöglichkeit.
 
 ---
 
-## Safety Considerations
+## Evidenz aus klinischen Studien
 
-Please refer to the package insert for safety information.
+Derzeit keine registrierten klinischen Studien vorhanden.
 
 ---
 
-## Conclusion and Next Steps
+## Evidenz aus der Literatur
 
-**Decision: Proceed with Guardrails**
+| PMID | Jahr | Typ | Journal | Hauptergebnisse |
+|------|-----|------|--------|---------|
+| [12196045](https://pubmed.ncbi.nlm.nih.gov/12196045/) | 2002 | Übersichtsarbeit | BioDrugs | Überblick über die Entwicklung von Laronidase als rekombinante α-L-Iduronidase-Enzymersatztherapie für MPS I, einschließlich Orphan-Arzneimittel- und Fast-Track-Status |
+| [25345091](https://pubmed.ncbi.nlm.nih.gov/25345091/) | 2014 | Übersichtsarbeit | Pediatric Endocrinology Reviews | Beschreibt das MPS-I-Krankheitsspektrum (Hurler, Scheie, Hurler/Scheie) und die Diagnose über Urin-GAG-Muster plus Iduronidase-Enzymassay |
+| [18758061](https://pubmed.ncbi.nlm.nih.gov/18758061/) | 2008 | In-vitro/Präklinisch | Biological & Pharmaceutical Bulletin | Demonstriert die dosisabhängige zelluläre Aufnahme von Laronidase hauptsächlich über Mannose-6-Phosphat-Rezeptoren, mit lysosomaler Beförderung und Verarbeitung |
+| [23127271](https://pubmed.ncbi.nlm.nih.gov/23127271/) | 2012 | Fallbericht | Pediatric Neurology | 6,5-jährige Nachverfolgung eines Scheie-Syndrom-Patienten (attenuierte MPS I) unter ERT, dokumentiert Skelett-, Herz- und andere Organauffälligkeiten im Zeitverlauf |
 
-**Rationale:**
-The mechanistic case for laronidase in this indication is strong because it is, in substance, the drug's own established indication (MPS I with skeletal involvement) rather than a novel repurposing target. However, the evidence pack currently lacks registered clinical trials for this specific entry and is missing local safety labeling data, so it cannot yet clear a full safety review.
+---
 
-**To proceed, the following is needed:**
-- TFDA/regulatory label data (warnings and contraindications) — flagged as a **Blocking** gap (DG001); required before any S1 safety pre-assessment can proceed
-- Structured mechanism-of-action data from DrugBank (DG002 — High severity) to formally document the MOA rather than relying on literature-derived rationale
-- Correct attribution of the pivotal Phase 3 RCT (PMID 15126990) to this indication entry, which would likely upgrade the evidence level from L2 to L1
-- No further action needed on Sanfilippo syndrome — recommend closing this candidate as a screened-out false positive rather than advancing it
+## Marktinformation für Deutschland
+
+Laronidase ist derzeit **nicht vermarktet** in dieser Gerichtsbarkeit (0 Zulassungen vorhanden); es sind keine produktspezifischen Zulassungsdaten verfügbar.
+
+---
+
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Fachinformation für Sicherheitsinformationen.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Mit Einschränkungen fortfahren**
+
+**Begründung:**
+Der mechanistische Fall für Laronidase in dieser Indikation ist stark, weil es im Wesentlichen die etablierte Indikation des Arzneimittels ist (MPS I mit Skelettbeteiligung) und nicht ein neuartiges Umwidmungsziel. Allerdings fehlen dem Evidenzpaket derzeit registrierte klinische Studien für diesen spezifischen Eintrag und lokale Sicherheitskennzeichnungsdaten, daher kann noch keine vollständige Sicherheitsprüfung durchgeführt werden.
+
+**Um fortzufahren, wird Folgendes benötigt:**
+- TFDA/behördliche Kennzeichnungsdaten (Warnhinweise und Kontraindikationen) — gekennzeichnet als **blockierende** Lücke (DG001); erforderlich, bevor eine S1-Sicherheitsvorabprüfung durchgeführt werden kann
+- Strukturierte Wirkmechanismus-Daten aus DrugBank (DG002 — hoher Schweregrad), um die MOA formal zu dokumentieren, anstatt sich auf literaturabgeleitete Begründung zu verlassen
+- Korrekte Zuordnung der pivotalen Phase-3-RCT (PMID 15126990) zu diesem Indikationseintrag, was wahrscheinlich die Evidenzstufe von L2 zu L1 erhöhen würde
+- Keine weiteren Maßnahmen erforderlich für das Sanfilippo-Syndrom — es wird empfohlen, diesen Kandidaten als ausgesiebt falsch-positiv zu schließen, anstatt ihn voranzutreiben
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

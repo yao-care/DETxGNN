@@ -29,120 +29,121 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Pazopanib: From Renal Cell Carcinoma / Soft Tissue Sarcoma to Unclassified Renal Cell Carcinoma
+# Pazopanib: Vom Nierenzellkarzinom / Weichteilsarkom zum ungeklassifizierten Nierenzellkarzinom
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Pazopanib is a multi-target tyrosine kinase inhibitor whose established use — as documented in the retrieved literature — is advanced/metastatic clear-cell renal cell carcinoma (ccRCC) and non-adipocytic soft tissue sarcoma.
-> The TxGNN model predicts it may also be effective for **Unclassified Renal Cell Carcinoma**,
-> with **1 completed Phase 3 clinical trial** and **6 publications** currently supporting this direction.
-> Note: the drug is not currently marketed in Germany, and TFDA-level warning/contraindication data is a **blocking** gap for safety pre-assessment.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not populated in the evidence pack (`taiwan_regulatory.licenses` and `drug.original_indications` are both empty). Based on retrieved literature within this pack, pazopanib is a registered/standard therapy for advanced/metastatic clear-cell RCC and non-adipocytic soft tissue sarcoma. |
-| Predicted New Indication | Unclassified Renal Cell Carcinoma |
-| TxGNN Prediction Score | 99.63% |
-| Evidence Level | L2 (1 completed Phase 3 trial + multiple retrospective/real-world cohorts) |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Pazopanib ist ein Multi-Target-Tyrosinkinase-Inhibitor, dessen etablierte Anwendung – wie in der abgerufenen Literatur dokumentiert – das fortgeschrittene/metastasierende klarzelliges Nierenzellkarzinom (ccRCC) und nicht-lipomatöses Weichteilsarkom ist.
+> Das TxGNN-Modell sagt voraus, dass es auch bei **ungeklassifiziertem Nierenzellkarzinom** wirksam sein könnte,
+> mit **1 abgeschlossener Phase-3-Studie** und **6 Publikationen**, die diese Richtung derzeit unterstützen.
+> Hinweis: Das Arzneimittel ist in Deutschland derzeit nicht auf dem Markt, und TFDA-Warnungs-/Kontraindikationsdaten sind eine **Blockierungslücke** für die vorläufige Sicherheitsbewertung.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Currently, detailed mechanism of action data is not available (`original_moa: [Data Gap]`). Based on the retrieved literature itself, pazopanib is a multi-target tyrosine kinase inhibitor with anti-angiogenic activity; multiple abstracts in the evidence pack describe it as a "standard first-line treatment for metastatic clear-cell renal cell carcinoma (ccRCC)" (PMID 28108284) and note it is "registered" for advanced RCC (NCT01613846 summary).
-
-Unclassified RCC is a rare, non-clear-cell histologic subtype within the same organ/tumor family as pazopanib's established indication. Because treatment approaches for non-clear-cell RCC (nccRCC) are "frequently extrapolated from data of clear cell renal cell carcinoma" (PMID 31921344), and pazopanib's anti-angiogenic mechanism is not histology-restricted, the mechanistic rationale for extending use into unclassified/non-clear-cell RCC is plausible and is echoed across several retrospective cohorts (PANORAMA study, PMID 28108284; MD Anderson cohort, PMID 27568124; IMDC consortium analysis, PMID 41558869).
-
-However, "unclassified RCC" is a distinct and rarer diagnostic category than the nccRCC populations actually studied in these papers, and no trial or publication in this pack specifically isolates the "unclassified" subtype. This introduces residual uncertainty about direct applicability.
+| Punkt | Inhalt |
+|-------|--------|
+| Ursprüngliche Indikation | Nicht im Evidence Pack aufgeführt (`taiwan_regulatory.licenses` und `drug.original_indications` sind beide leer). Basierend auf der abgerufenen Literatur in diesem Pack ist Pazopanib eine registrierte/Standardtherapie für fortgeschrittenes/metastasierendes klarzelliges RCC und nicht-lipomatöses Weichteilsarkom. |
+| Vorhergesagte neue Indikation | Ungeklassifiziertes Nierenzellkarzinom |
+| TxGNN-Vorhersage-Score | 99.63% |
+| Evidenzstufe | L2 (1 abgeschlossene Phase-3-Studie + mehrere retrospektive/real-world Kohorten) |
+| Marktstatus in Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | Warteposition |
 
 ---
 
-## Clinical Trial Evidence
+## Warum ist diese Vorhersage angemessen?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Derzeit sind detaillierte Mechanismus-Daten nicht verfügbar (`original_moa: [Data Gap]`). Basierend auf der abgerufenen Literatur selbst ist Pazopanib ein Multi-Target-Tyrosinkinase-Inhibitor mit anti-angiogenischer Aktivität; mehrere Abstracts im Evidence Pack beschreiben es als „Standard-Erstlinienbehandlung für metastasierendes klarzelliges Nierenzellkarzinom (ccRCC)" (PMID 28108284) und vermerken, dass es für fortgeschrittenes RCC „registriert" ist (NCT01613846 Zusammenfassung).
+
+Ungeklassifiziertes RCC ist ein seltener, nicht-klarzelliger histologischer Subtyp innerhalb der gleichen Organ-/Tumorfamilie wie die etablierte Indikation von Pazopanib. Da Behandlungsansätze für nicht-klarzelliges RCC (nccRCC) „häufig aus Daten von klarzelliger Nierenzellkarzinoma extrapoliert werden" (PMID 31921344), und Pazopanibs anti-angiogenischer Mechanismus nicht histologie-spezifisch ist, ist das mechanistische Konzept für die Ausweitung auf ungeklassifiziertes/nicht-klarzelliges RCC plausibel und wird in mehreren retrospektiven Kohorten widergespiegelt (PANORAMA-Studie, PMID 28108284; MD Anderson Kohorte, PMID 27568124; IMDC-Konsortiumsanalyse, PMID 41558869).
+
+Allerdings ist „ungeklassifiziertes RCC" eine distinkte und seltenere diagnostische Kategorie als die nccRCC-Populationen, die in diesen Papieren tatsächlich untersucht wurden, und keine Studie oder Publikation in diesem Pack isoliert speziell den Subtyp „ungeklassifiziert". Dies führt zu residualer Unsicherheit über die direkte Anwendbarkeit.
+
+---
+
+## Evidenz aus klinischen Studien
+
+| Studiennummer | Phase | Status | Einschluss | Wichtigste Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT01613846](https://clinicaltrials.gov/study/NCT01613846) | Phase 3 | Completed | 544 | Randomized sequential trial evaluating sorafenib→pazopanib vs. pazopanib→sorafenib in advanced/metastatic RCC; both agents were registered/effective in RCC but no prior comparative sequencing data existed. |
+| [NCT01613846](https://clinicaltrials.gov/study/NCT01613846) | Phase 3 | Abgeschlossen | 544 | Randomisierte sequenzielle Studie zur Bewertung von Sorafenib→Pazopanib vs. Pazopanib→Sorafenib bei fortgeschrittenem/metastasiertem RCC; beide Wirkstoffe waren registriert/wirksam bei RCC, aber es existierten keine vorherigen Vergleichsdaten zur Sequenzierung. |
 
 ---
 
-## Literature Evidence
+## Literatur-Evidenz
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Journal | Wichtigste Ergebnisse |
 |------|-----|------|------|---------|
-| [28546525](https://pubmed.ncbi.nlm.nih.gov/28546525/) | 2018 | Phase II, single-arm | Cancer Research and Treatment | Prospective phase II study assessing efficacy/safety of pazopanib specifically in non-clear-cell RCC (nccRCC). |
-| [31921344](https://pubmed.ncbi.nlm.nih.gov/31921344/) | 2019 | Real-world/Retrospective | Ecancermedicalscience | Compares first-line sunitinib vs. pazopanib in non-clear-cell and sarcomatoid histology mRCC; asks whether the two are interchangeable. |
-| [28108284](https://pubmed.ncbi.nlm.nih.gov/28108284/) | 2017 | Retrospective multicenter | Clinical Genitourinary Cancer | Italian PANORAMA study: retrospective efficacy/toxicity analysis of first-line pazopanib in nccRCC. |
-| [27568124](https://pubmed.ncbi.nlm.nih.gov/27568124/) | 2017 | Retrospective cohort | Clinical Genitourinary Cancer | Outcomes of metastatic non-clear-cell RCC patients treated with pazopanib. |
-| [30268423](https://pubmed.ncbi.nlm.nih.gov/30268423/) | 2019 | Retrospective/Case series | Clinical Genitourinary Cancer | Histologic/immunohistochemical characterization and targeted-therapy outcomes in carcinoma-of-unknown-primary presenting with mRCC features (CUP-mRCC). |
-| [41558869](https://pubmed.ncbi.nlm.nih.gov/41558869/) | 2026 | Retrospective database cohort | European Urology Oncology | IMDC consortium analysis comparing contemporary vs. traditional first-line therapies across nccRCC histologic subtypes, including unclassified RCC. |
+| [28546525](https://pubmed.ncbi.nlm.nih.gov/28546525/) | 2018 | Phase II, einartig | Cancer Research and Treatment | Prospektive Phase-II-Studie zur Bewertung der Wirksamkeit/Sicherheit von Pazopanib speziell bei nicht-klarzelliger RCC (nccRCC). |
+| [31921344](https://pubmed.ncbi.nlm.nih.gov/31921344/) | 2019 | Real-world/Retrospektiv | Ecancermedicalscience | Vergleicht Sunitinib vs. Pazopanib in der Erstlinie bei nicht-klarzelliger und sarkomatoider Histologie mRCC; fragt, ob die beiden austauschbar sind. |
+| [28108284](https://pubmed.ncbi.nlm.nih.gov/28108284/) | 2017 | Retrospektiv multizentrisch | Clinical Genitourinary Cancer | Italienische PANORAMA-Studie: retrospektive Analyse der Wirksamkeit/Toxizität von Pazopanib in der Erstlinie bei nccRCC. |
+| [27568124](https://pubmed.ncbi.nlm.nih.gov/27568124/) | 2017 | Retrospektive Kohorte | Clinical Genitourinary Cancer | Ergebnisse bei Patienten mit metastasiertem nicht-klarzelliger RCC behandelt mit Pazopanib. |
+| [30268423](https://pubmed.ncbi.nlm.nih.gov/30268423/) | 2019 | Retrospektiv/Fallserie | Clinical Genitourinary Cancer | Histologische/immunhistochemische Charakterisierung und Ergebnisse mit Zieltherapien bei Karzinom unbekannter Primär präsentiert mit mRCC-Merkmalen (CUP-mRCC). |
+| [41558869](https://pubmed.ncbi.nlm.nih.gov/41558869/) | 2026 | Retrospektive Datenbank-Kohorte | European Urology Oncology | IMDC-Konsortiumsanalyse zum Vergleich zeitgenössischer vs. traditioneller Erstlinientherapien über nccRCC-Histologie-Subtypen, einschließlich ungeklassifiziertem RCC. |
 
 ---
 
-## Germany Market Information
+## Marktinformation für Deutschland
 
-Pazopanib currently holds no marketing authorization in Germany (market status: Not marketed; 0 authorizations on file).
-
----
-
-## Cytotoxicity
-
-Pazopanib's established indications (renal cell carcinoma, soft tissue sarcoma) are antineoplastic, and it is a multi-target tyrosine kinase inhibitor — classifying it under this section.
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (multi-target tyrosine kinase inhibitor; anti-angiogenic, VEGFR/PDGFR/c-KIT-directed) — not a conventional cytotoxic agent |
-| Myelosuppression Risk | Not specifically documented in this evidence pack; TKIs of this class are generally associated with lower myelosuppression risk than conventional cytotoxics — please refer to the package insert |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+Pazopanib hält derzeit keine Zulassung auf dem deutschen Markt (Marktstatus: Nicht vermarktet; 0 Genehmigungen vorgesehen).
 
 ---
 
-## Safety Considerations
+## Zytotoxizität
 
-Please refer to the package insert for safety information. (`key_warnings`, `contraindications`, and DDI query all returned no data — DDI query status: `not_found`.)
+Die etablierten Indikationen von Pazopanib (Nierenzellkarzinom, Weichteilsarkom) sind antineoplastisch, und es ist ein Multi-Target-Tyrosinkinase-Inhibitor – was ihn unter diese Rubrik einordnet.
 
-**Note:** This is flagged in the evidence pack as a **Blocking** data gap (DG001 — TFDA warning/contraindication labeling not yet retrieved), meaning this candidate cannot yet pass S1 safety pre-assessment.
-
----
-
-## Other Predicted Indications (Summary)
-
-For context, the same evidence pack scored 9 additional candidate indications for pazopanib. Most have weak or no direct evidence and are held; two related sarcoma indications show notably stronger, disease-specific support:
-
-| Rank | Disease | TxGNN Score | Evidence Level | Recommendation |
-|------|---------|-------------|-----------------|-----------------|
-| 2 | Renal cell carcinoma (Xp11.2/TFE3 fusion) | 99.63% | L5 | Hold — no trial/literature support |
-| 3 | Renal cell carcinoma with neuroblastoma | 99.63% | L5 | Hold — no trial/literature support |
-| 4 | Liposarcoma | 99.59% | L2 | **Proceed with Guardrails** — 2 disease-specific Phase II trials (NCT01506596, NCT01692496) + randomized Phase II combo trial (NCT01532687); PDGFRA-amplification mechanistic rationale |
-| 5 | Childhood kidney cell carcinoma | 99.54% | L4 | Hold — only trial listed is an adult mRCC study, likely ontology mismatch; no pediatric PK/safety data |
-| 6 | Ovarian myxoid liposarcoma | 99.51% | L5 | Hold — no trial/literature support |
-| 7 | Heart fibrosarcoma | 99.37% | L4 | Hold — only broad STS trials, no cardiac-specific data; cardiotoxicity risk needs evaluation |
-| 8 | Fibroblastic neoplasm | 99.35% | L3 (est.) | Hold — rich literature on desmoid tumor/solitary fibrous tumor subtypes (incl. single-arm Phase II, PMID 30578023) but "fibroblastic neoplasm" as a category is too broad/heterogeneous for a single recommendation |
-| 9 | Kidney fibrosarcoma | 99.33% | L5 | Hold — no trial/literature support |
-| 10 | Dermatofibrosarcoma protuberans | 99.29% | L2 (est.) | Proceed with Guardrails (cautious) — disease-specific Phase II trial (NCT01059656, terminated) + multicenter Phase II publication (PMID 32956651); strong mechanistic rationale via COL1A1-PDGFB fusion |
+| Punkt | Inhalt |
+|-------|--------|
+| Zytotoxizität-Klassifizierung | Zielgerichtete Therapie (Multi-Target-Tyrosinkinase-Inhibitor; anti-angiogen, VEGFR/PDGFR/c-KIT-gerichtet) – kein konventionales Zytotoxikum |
+| Risiko der Myelosuppression | Nicht speziell in diesem Evidence Pack dokumentiert; TKIs dieser Klasse sind mit geringerem Myelosuppressions-Risiko verbunden als konventionale Zytostatika – bitte siehe Fachinformation |
+| Emetogenitäts-Klassifizierung | Bitte siehe Fachinformation Warnhinweise und Vorsichtsmaßnahmen |
+| Überwachungspunkte | Bitte siehe Fachinformation Warnhinweise und Vorsichtsmaßnahmen |
+| Handhabungsschutz | Bitte siehe Fachinformation Warnhinweise und Vorsichtsmaßnahmen |
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsaspekte
 
-**Decision: Hold**
+Bitte siehe die Fachinformation für Sicherheitsinformationen. (`key_warnings`, `contraindications` und DDI-Abfrage haben alle keine Daten geliefert – DDI-Abfrage-Status: `not_found`.)
+
+**Hinweis:** Dies ist im Evidence Pack als **Blockierungslücke** gekennzeichnet (DG001 – TFDA-Warnungs-/Kontraindikations-Kennzeichnung noch nicht abgerufen), was bedeutet, dass dieser Kandidat noch nicht die S1-Sicherheits-Vor-Bewertung bestehen kann.
+
+---
+
+## Weitere vorhergesagte Indikationen (Zusammenfassung)
+
+Zur Information: Das gleiche Evidence Pack bewertete 9 zusätzliche Kandidaten-Indikationen für Pazopanib. Die meisten haben schwache oder keine direkte Evidenz und sind in Warteposition; zwei verwandte Sarkom-Indikationen zeigen merklich stärkere, krankheitsspezifische Unterstützung:
+
+| Rang | Erkrankung | TxGNN-Score | Evidenzstufe | Empfehlung |
+|------|------------|-------------|-----------------|------------|
+| 2 | Nierenzellkarzinom (Xp11.2/TFE3 Fusion) | 99.63% | L5 | Warteposition – keine Studien-/Literatur-Unterstützung |
+| 3 | Nierenzellkarzinom mit Neuroblastom | 99.63% | L5 | Warteposition – keine Studien-/Literatur-Unterstützung |
+| 4 | Liposarkom | 99.59% | L2 | **Mit Vorsichtsmaßnahmen fortfahren** – 2 krankheitsspezifische Phase-II-Studien (NCT01506596, NCT01692496) + randomisierte Phase-II-Kombinationsstudie (NCT01532687); PDGFRA-Amplifikation mechanistische Rationale |
+| 5 | Nierenzellenkarziom im Kindesalter | 99.54% | L4 | Warteposition – die einzige aufgeführte Studie ist eine Erwachsenen-mRCC-Studie, wahrscheinlich Ontologie-Fehler; keine pädiatrischen PK/Sicherheitsdaten |
+| 6 | Myxoides Ovarialliposarkom | 99.51% | L5 | Warteposition – keine Studien-/Literatur-Unterstützung |
+| 7 | Herzfibrosarkom | 99.37% | L4 | Warteposition – nur breite STS-Studien, keine kardial-spezifischen Daten; Kardiotoxizitäts-Risiko bedarf Bewertung |
+| 8 | Fibroblastisches Neoplasma | 99.35% | L3 (geschätzt) | Warteposition – reiche Literatur zu Desmoid-Tumor/Solitary-fibrous-tumor-Subtypen (inkl. einartige Phase II, PMID 30578023), aber „fibroblastisches Neoplasma" als Kategorie ist zu breit/heterogen für eine einzelne Empfehlung |
+| 9 | Nierenfibrosarkom | 99.33% | L5 | Warteposition – keine Studien-/Literatur-Unterstützung |
+| 10 | Dermatofibrosarcoma protuberans | 99.29% | L2 (geschätzt) | Mit Vorsichtsmaßnahmen fortfahren (vorsichtig) – krankheitsspezifische Phase-II-Studie (NCT01059656, beendet) + multizentrische Phase-II-Publikation (PMID 32956651); starke mechanistische Rationale via COL1A1-PDGFB Fusion |
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Warteposition**
 
 **Rationale:**
-Efficacy evidence for the top prediction (unclassified RCC) is moderate (L2) and mechanistically plausible, and two other candidates (liposarcoma, dermatofibrosarcoma protuberans) show even stronger disease-specific trial evidence. However, this candidate cannot advance because (1) TFDA-level warnings/contraindications are a **Blocking** data gap that prevents safety pre-assessment (S1), and (2) the drug currently has zero marketing authorizations in Germany, so regulatory pathway and local labeling are undefined.
+Die Wirksamkeits-Evidenz für die Top-Vorhersage (ungeklassifiziertes RCC) ist moderat (L2) und mechanistisch plausibel, und zwei weitere Kandidaten (Liposarkom, Dermatofibrosarcoma protuberans) zeigen sogar stärkere krankheitsspezifische Studien-Evidenz. Dieser Kandidat kann jedoch nicht fortschreiten, weil (1) TFDA-Warnhinweise/Kontraindikationen eine **Blockierungslücke** sind, die eine Sicherheits-Vor-Bewertung (S1) verhindert, und (2) das Arzneimittel derzeit null Marktgenehmigungen in Deutschland hat, daher sind regulatorischer Weg und lokale Kennzeichnung undefined.
 
-**To proceed, the following is needed:**
-- Retrieve TFDA/BfArM package insert (warnings, contraindications, DDI) to resolve DG001 before any safety pre-assessment
-- Obtain formal DrugBank/MOA data to resolve DG002 and support mechanistic-link scoring
-- Confirm regulatory pathway given 0 current marketing authorizations in Germany
-- If pursuing liposarcoma or dermatofibrosarcoma protuberans in parallel, prioritize these given stronger disease-specific Phase II evidence
+**Folgendes ist erforderlich, um fortfahren zu können:**
+- Fachinformation von TFDA/BfArM abrufen (Warnhinweise, Kontraindikationen, DDI), um DG001 vor jeder Sicherheits-Vor-Bewertung zu lösen
+- Formale DrugBank/MOA-Daten beschaffen, um DG002 zu lösen und mechanistische Link-Bewertung zu unterstützen
+- Regulatorischen Weg bestätigen angesichts 0 aktueller Marktgenehmigungen in Deutschland
+- Falls Liposarkom oder Dermatofibrosarcoma protuberans parallel verfolgt werden, diese aufgrund stärkerer krankheitsspezifischer Phase-II-Evidenz priorisieren
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

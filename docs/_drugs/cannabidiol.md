@@ -29,83 +29,84 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0**
 
 </div>
 
-# Cannabidiol: Preliminary Assessment — No TxGNN Prediction Data Available
+# Cannabidiol: Vorläufige Bewertung — Keine TxGNN-Prognosedaten verfügbar
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Cannabidiol (CBD) is a phytocannabinoid derived from *Cannabis sativa*, with established regulatory approval in major markets (FDA: Epidiolex; EMA: Epidyolex) for treatment-resistant epilepsy syndromes.
-This Evidence Pack contains **no TxGNN predicted indications**, and critical data — including mechanism of action, Germany market authorization records, and safety profile — are flagged as blocking gaps.
-**A full drug repurposing evaluation cannot be completed until these data gaps are resolved.**
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Treatment-resistant epilepsy (Dravet syndrome, Lennox-Gastaut syndrome) — based on expert knowledge; not confirmed in Evidence Pack |
-| Predicted New Indication | No predictions available |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | N/A — no predictions generated |
-| Germany Market Status | Not found (Evidence Pack: Not marketed / 0 authorizations) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+Cannabidiol (CBD) ist ein Phytocannabinoid aus *Cannabis sativa*, mit etablierter behördlicher Zulassung in großen Märkten (FDA: Epidiolex; EMA: Epidyolex) zur Behandlung therapieresistenter Epilepsie-Syndrome.
+Dieses Evidence-Paket enthält **keine vorhergesagten TxGNN-Indikationen**, und kritische Daten – einschließlich Wirkmechanismus, Deutschland-Marktzulassungsunterlagen und Sicherheitsprofil – sind als Blockierungslücken gekennzeichnet.
+**Eine vollständige Arzneimittel-Umwidmungsevaluierung kann erst nach Schließung dieser Datenlücken abgeschlossen werden.**
 
 ---
 
-## Data Gap Summary
+## Schnellübersicht
 
-This Evidence Pack has **2 blocking/high-severity data gaps** that prevent a complete evaluation:
-
-| Gap ID | Item | Severity | Impact | Remediation |
-|--------|------|----------|--------|-------------|
-| DG001 | Package insert warnings / contraindications | **Blocking** | Cannot pass S1 safety gate | Download EMA Epidyolex SmPC PDF and parse |
-| DG002 | Mechanism of action (MOA) | High | Cannot perform mechanistic relevance analysis | Query DrugBank API for DB09061 |
-
----
-
-## Why No Prediction Is Available
-
-The TxGNN model returned **no predicted indications** for Cannabidiol (DB09061) in this run. Possible reasons include:
-
-1. The compound is not present in the knowledge graph used during this prediction run
-2. All candidate scores fell below the reporting threshold
-3. A pipeline error occurred upstream of the evidence collection step
-
-Without at least one TxGNN predicted indication, the core drug repurposing analysis cannot proceed. This must be investigated before any further evaluation steps are taken.
+| Punkt | Inhalt |
+|-------|--------|
+| Ursprüngliche Indikation | Therapieresistente Epilepsie (Dravet-Syndrom, Lennox-Gastaut-Syndrom) – basierend auf Expertenwissen; nicht im Evidence-Paket bestätigt |
+| Vorhergesagte neue Indikation | Keine Vorhersagen verfügbar |
+| TxGNN-Prognosescore | N/A |
+| Evidenzebene | N/A – keine Vorhersagen generiert |
+| Deutschland-Marktstatus | Nicht gefunden (Evidence-Paket: Nicht vermarktet / 0 Zulassungen) |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | **Zurückstellen** |
 
 ---
 
-## Germany Market Information
+## Zusammenfassung der Datenlücken
 
-No authorization records were found for Cannabidiol in the regulatory database within this Evidence Pack.
+Dieses Evidence-Paket hat **2 Blockierungs-/hochschwere Datenlücken**, die eine vollständige Evaluierung verhindern:
 
-> **Discrepancy note:** Epidyolex (cannabidiol oral solution 100 mg/mL) received EMA approval on 19 September 2019 for adjunctive treatment of seizures associated with Lennox-Gastaut syndrome or Dravet syndrome in patients aged ≥2 years. The absence of records strongly suggests the regulatory query was run under the INN "CANNABIDIOL" but failed to match the approved brand name. The query should be re-run using alternative identifiers: **Epidyolex**, **Epidiolex**, or marketing authorisation number **EU/1/19/1375**.
-
----
-
-## Safety Considerations
-
-All safety data fields in this Evidence Pack are unavailable. Please refer to the official EMA Summary of Product Characteristics (SmPC) for Epidyolex for complete safety information.
-
-> Blocking item outstanding before evaluation can proceed:
-> **DG001** — Retrieve and parse the Epidyolex SmPC to extract contraindications, warnings, and key drug interactions (particularly with CYP3A4/CYP2C19 substrates and valproate).
+| Lücken-ID | Punkt | Schweregrad | Auswirkung | Abhilfe |
+|-----------|-------|-------------|-----------|--------|
+| DG001 | Warnhinweise in der Gebrauchsinformation / Kontraindikationen | **Blockierend** | Kann S1-Sicherheitsprüfung nicht bestehen | EMA-Epidyolex-SmPC-PDF herunterladen und analysieren |
+| DG002 | Wirkmechanismus (MOA) | Hoch | Mechanistische Relevanzanalyse nicht möglich | DrugBank-API für DB09061 abfragen |
 
 ---
 
-## Conclusion and Next Steps
+## Warum es keine Vorhersage gibt
 
-**Decision: Hold**
+Das TxGNN-Modell hat in diesem Durchlauf **keine vorhergesagten Indikationen** für Cannabidiol (DB09061) zurückgegeben. Mögliche Gründe sind:
 
-**Rationale:**
-The Evidence Pack is missing TxGNN predictions entirely, and two blocking/high-severity data gaps (MOA, safety profile) prevent any meaningful drug repurposing assessment from being conducted at this stage.
+1. Die Verbindung befindet sich nicht im Knowledge Graph, der während dieses Prognoselaufs verwendet wurde
+2. Alle Kandidaten-Scores fielen unter den Meldeschwellenwert
+3. Ein Pipeline-Fehler ist einem vorgelagerten Schritt der Evidenzsammlung aufgetreten
 
-**To proceed, the following is needed:**
+Ohne mindestens eine TxGNN-Vorhersage kann die Kern-Arzneimittel-Umwidmungsanalyse nicht fortgesetzt werden. Dies muss vor weiteren Evaluierungsschritten untersucht werden.
 
-- **[Critical]** Re-run TxGNN prediction pipeline for DB09061 and confirm that output is non-empty; if still empty, verify compound is included in the knowledge graph
-- **[DG001]** Retrieve the Epidyolex EMA SmPC (EU/1/19/1375) and extract warnings, contraindications, and drug interaction profile
-- **[DG002]** Query DrugBank API for full MOA data for DB09061 (cannabidiol)
-- **[Regulatory]** Re-run the Germany regulatory query using brand names **Epidyolex** / **Epidiolex** to retrieve actual market authorization records and approved indications
+---
+
+## Deutschland-Marktinformationen
+
+In der behördlichen Datenbank innerhalb dieses Evidence-Pakets wurden keine Zulassungsunterlagen für Cannabidiol gefunden.
+
+> **Hinweis auf Diskrepanz:** Epidyolex (Cannabidiol-Orallösung 100 mg/mL) erhielt am 19. September 2019 die EMA-Zulassung als Zusatzbehandlung für Anfälle, die mit dem Lennox-Gastaut-Syndrom oder dem Dravet-Syndrom bei Patienten ab 2 Jahren verbunden sind. Das Fehlen von Unterlagen deutet stark darauf hin, dass die behördliche Abfrage unter dem INN „CANNABIDIOL" durchgeführt wurde, aber nicht mit dem genehmigten Markennamen abgeglichen wurde. Die Abfrage sollte mit alternativen Kennzeichnern erneut durchgeführt werden: **Epidyolex**, **Epidiolex** oder Zulassungsnummer **EU/1/19/1375**.
+
+---
+
+## Sicherheitsaspekte
+
+Alle Sicherheitsdatenfelder in diesem Evidence-Paket sind nicht verfügbar. Bitte konsultieren Sie die offizielle EMA-Zusammenfassung der Merkmale der Zubereitung (SmPC) für Epidyolex für vollständige Sicherheitsinformationen.
+
+> Blockierendes Element ausstehend, bevor die Evaluierung fortgesetzt werden kann:
+> **DG001** – Epidyolex-SmPC abrufen und analysieren, um Kontraindikationen, Warnhinweise und wichtige Arzneimittelwechselwirkungen (besonders mit CYP3A4/CYP2C19-Substraten und Valproat) zu extrahieren.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Zurückstellen**
+
+**Begründung:**
+Das Evidence-Paket enthält überhaupt keine TxGNN-Vorhersagen, und zwei Blockierungs-/hochschwere Datenlücken (MOA, Sicherheitsprofil) verhindern, dass zu diesem Zeitpunkt eine aussagekräftige Arzneimittel-Umwidmungsbewertung durchgeführt werden kann.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+
+- **[Kritisch]** TxGNN-Prognosepipeline für DB09061 erneut ausführen und bestätigen, dass die Ausgabe nicht leer ist; wenn immer noch leer, verifizieren, dass die Verbindung im Knowledge Graph enthalten ist
+- **[DG001]** Epidyolex-EMA-SmPC (EU/1/19/1375) abrufen und Warnhinweise, Kontraindikationen und Arzneimittelwechselwirkungsprofil extrahieren
+- **[DG002]** DrugBank-API für vollständige MOA-Daten für DB09061 (Cannabidiol) abfragen
+- **[Regulatorisch]** Deutschland-Regulierungsabfrage mit Markennamen **Epidyolex** / **Epidiolex** erneut durchführen, um tatsächliche Marktzulassungsunterlagen und genehmigte Indikationen abzurufen
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -29,78 +29,79 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Simoctocog Alfa: From Hemophilia A to Pseudo-von Willebrand Disease
+# Simoctocog Alfa: Von Hämophilie A zur Pseudo-von-Willebrand-Krankheit
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Simoctocog alfa is a recombinant human factor VIII (rFVIII) replacement product, whose established therapeutic class is Hemophilia A.
-> The TxGNN model's top-ranked prediction points to **Pseudo-von Willebrand Disease**,
-> but this direction is currently supported by **0 clinical trials** and **0 publications**, and the evidence pack's own mechanistic assessment argues against biological plausibility.
+> Simoctocog alfa ist ein Präparat mit rekombinanter humaner Gerinnungsfaktor VIII (rFVIII), dessen etablierte therapeutische Klasse Hämophilie A ist.
+> Die am höchsten bewertete Vorhersage des TxGNN-Modells deutet auf die **Pseudo-von-Willebrand-Krankheit** hin,
+> aber diese Richtung wird derzeit durch **0 klinische Studien** und **0 Publikationen** unterstützt, und die eigene mechanistische Bewertung des Evidenzpakets spricht gegen biologische Plausibilität.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Element | Inhalt |
 |------|------|
-| Original Indication | Hemophilia A (rFVIII replacement therapy) — no German license data available to confirm exact approved wording |
-| Predicted New Indication | Pseudo-von Willebrand Disease |
-| TxGNN Prediction Score | 99.997% |
-| Evidence Level | L5 (model prediction only, no supporting trials or literature) |
-| Germany Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | Hämophilie A (rFVIII-Ersatztherapie) – keine deutschen Lizenzdaten verfügbar, um genaue genehmigte Formulierung zu bestätigen |
+| Vorhergesagte neue Indikation | Pseudo-von-Willebrand-Krankheit |
+| TxGNN-Vorhersagepunktzahl | 99.997% |
+| Evidenzstufe | L5 (nur Modellvorhersage, keine unterstützenden Studien oder Literatur) |
+| Deutschland-Marktstatus | Nicht vermarktet |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | Zurückstellen |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage angemessen?
 
-Currently, detailed mechanism of action data is not available for simoctocog alfa (`original_moa: [Data Gap]`). Based on known information within this evidence pack (see the rank-9 candidate's rationale), simoctocog alfa is a recombinant human Factor VIII (rFVIII) product whose established use is as replacement therapy for Hemophilia A — a condition caused by absolute or relative deficiency of coagulation factor VIII.
+Derzeit sind keine detaillierten Wirkmechanismus-Daten für simoctocog alfa verfügbar (`original_moa: [Data Gap]`). Basierend auf bekannten Informationen in diesem Evidenzpaket (siehe Begründung des Kandidaten Rang 9) ist simoctocog alfa ein Präparat mit rekombinanter humaner Gerinnungsfaktor VIII (rFVIII), dessen etablierte Anwendung die Ersatztherapie bei Hämophilie A ist – eine Erkrankung, die durch absoluten oder relativen Mangel an Gerinnungsfaktor VIII verursacht wird.
 
-Pseudo-von Willebrand Disease (Pseudo-VWD), however, is not a coagulation-factor deficiency at all. It results from a gain-of-function mutation in the platelet glycoprotein Ib (GPIb) receptor, causing platelets to bind plasma von Willebrand factor with abnormally high affinity. The evidence pack's own mechanistic-link analysis explicitly notes that rFVIII supplementation "has no clear mechanistic basis" for this condition, and even raises a **theoretical risk** from altered vWF/FVIII complex interactions in plasma.
+Die Pseudo-von-Willebrand-Krankheit (Pseudo-VWD) ist dagegen überhaupt kein Gerinnungsfaktormangel. Sie resultiert aus einer Gain-of-Function-Mutation im Thrombozyten-Glykoprotein-Ib-(GPIb)-Rezeptor, die dazu führt, dass Thrombozyten den Plasma-von-Willebrand-Faktor mit abnorm hoher Affinität binden. Die eigene Analyse der mechanistischen Verbindung des Evidenzpakets merkt ausdrücklich an, dass die rFVIII-Supplementation für diese Erkrankung „keine klare mechanistische Grundlage" hat, und wirft sogar ein **theoretisches Risiko** aus veränderten vWF/FVIII-Komplexwechselwirkungen im Plasma auf.
 
-Taken together, the very high TxGNN score most likely reflects graph-level comorbidity clustering among bleeding disorders in the knowledge graph, rather than a genuine mechanism-driven signal. Among the ten candidates provided, **rank 9 ("hemophilia A with vascular abnormality")** is the only one with an inherently plausible mechanistic rationale, since it falls within FVIII's known therapeutic domain — but it likewise has zero supporting trials or literature to date.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+Zusammengefasst spiegelt der sehr hohe TxGNN-Score sehr wahrscheinlich die Komorbiditäts-Clusterung auf Graph-Ebene unter Blutungsstörungen im Wissensgraph wider, anstatt ein echtes mechanismusgesteuertes Signal zu sein. Unter den zehn bereitgestellten Kandidaten ist **Rang 9 („Hämophilie A mit vaskulärer Abnormität")** der einzige mit einer inhärent plausiblen mechanistischen Begründung, da er in FVIIIs bekanntes mechanistisches Wirkungsgebiet fällt – aber er hat ebenfalls bis heute keine unterstützenden Studien oder Literatur.
 
 ---
 
-## Literature Evidence
+## Klinische Studienevidenz
 
-Currently no related literature available
-
----
-
-## Germany Market Information
-
-This product is not currently marketed in Germany (`market_status: Not marketed`, `total_licenses: 0`). No marketing authorization records are available for review.
+Derzeit keine verknüpften klinischen Studien registriert
 
 ---
 
-## Safety Considerations
+## Literaturbelege
 
-Please refer to the package insert for safety information.
-
-*(Note: `safety.key_warnings` and `safety.contraindications` are both flagged as data gaps in this evidence pack, and no drug-drug interaction records were found — `ddi.query_status: not_found`.)*
+Derzeit keine verknüpfte Literatur verfügbar
 
 ---
 
-## Conclusion and Next Steps
+## Deutschland-Marktinformationen
 
-**Decision: Hold**
+Dieses Produkt wird derzeit nicht in Deutschland vermarktet (`market_status: Not marketed`, `total_licenses: 0`). Es sind keine Zulassungsunterlagen zur Überprüfung verfügbar.
 
-**Rationale:**
-All ten TxGNN-predicted indications for simoctocog alfa are at evidence level L5 — model prediction only, with zero supporting clinical trials or literature across the board. For the top-ranked candidate specifically, the drug's own repurposing rationale describes the mechanistic link as absent or even directionally contradictory, and a critical safety data gap (DG001, missing warnings/contraindications, severity: Blocking) prevents any S1 safety pre-assessment.
+---
 
-**To proceed, the following is needed:**
-- Resolve DG001 (blocking): obtain and parse the official package insert for warnings/contraindications before any further safety screening can occur
-- Resolve DG002: obtain detailed MOA documentation from DrugBank or manufacturer sources
-- Source clinical trial registries (ClinicalTrials.gov, ICTRP) and literature databases specifically for rFVIII use in platelet-function disorders (Pseudo-VWD, Glanzmann thrombasthenia, Scott syndrome) to test whether the TxGNN signal reflects any real-world investigational interest
-- If pursuing a repurposing candidate at all, prioritize re-scoring or manual review of **rank 9 (hemophilia A with vascular abnormality)**, which sits within FVIII's known mechanistic domain and is more defensible than the current top-ranked candidate, despite currently lacking trial/literature support
+## Sicherheitsüberlegungen
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+*(Hinweis: `safety.key_warnings` und `safety.contraindications` sind beide als Datenlücken in diesem Evidenzpaket gekennzeichnet, und es wurden keine Arzneimittel-Wechselwirkungsunterlagen gefunden – `ddi.query_status: not_found`.)*
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Zurückstellen**
+
+**Begründung:**
+Alle zehn vom TxGNN vorhergesagten Indikationen für simoctocog alfa befinden sich auf Evidenzstufe L5 – nur Modellvorhersage, ohne unterstützende klinische Studien oder Literatur insgesamt. Für den am höchsten bewerteten Kandidaten beschreibt die eigene Umwidmungsrationale des Arzneimittels die mechanistische Verbindung als fehlend oder sogar richtungsmäßig widersprüchlich, und eine kritische Sicherheitsdatenlücke (DG001, fehlende Warnhinweise/Kontraindikationen, Schweregrad: Blocking) verhindert jede S1-Sicherheitsvorabprüfung.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+- Beheben Sie DG001 (Blocking): Besorgen und analysieren Sie die offizielle Packungsbeilage auf Warnhinweise/Kontraindikationen, bevor weitere Sicherheitsüberprüfungen durchgeführt werden können
+- Beheben Sie DG002: Beschaffen Sie detaillierte MOA-Dokumentation von DrugBank oder Herstellerquellen
+- Durchsuchen Sie klinische Studienregister (ClinicalTrials.gov, ICTRP) und Literaturdatenbanken speziell auf rFVIII-Verwendung bei Thrombozyten-Funktionsstörungen (Pseudo-VWD, Glanzmann-Thrombasthenie, Scott-Syndrom), um zu testen, ob das TxGNN-Signal irgendein reales investigatives Interesse widerspiegelt
+- Falls Sie einen Umwidmungskandidaten überhaupt verfolgen, priorisieren Sie die Neubewertung oder manuelle Überprüfung von **Rang 9 (Hämophilie A mit vaskulärer Abnormität)**, das sich in FVIIIs bekanntem mechanistischen Wirkungsgebiet befindet und leichter zu rechtfertigen ist als der aktuelle am höchsten bewertete Kandidat, trotz derzeit fehlender Studien-/Literaturunterstützung
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

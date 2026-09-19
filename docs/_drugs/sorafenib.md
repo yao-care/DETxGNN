@@ -29,100 +29,101 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Sorafenib: From Renal Cell Carcinoma to Liposarcoma
+# Sorafenib: Vom Nierenzellkarzinom zum Liposarkom
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Sorafenib is a multi-target tyrosine kinase inhibitor originally developed for advanced renal cell carcinoma, later expanded to hepatocellular carcinoma and differentiated thyroid cancer.
-> The TxGNN model predicts it may be effective for **Liposarcoma**,
-> currently supported by **2 clinical trials** (1 directly using sorafenib) and **8 publications**, most of which are preclinical or review-level evidence.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Renal cell carcinoma / hepatocellular carcinoma (based on drug's known regulatory history; not present in current dataset) |
-| Predicted New Indication | Liposarcoma |
-| TxGNN Prediction Score | 99.82% |
-| Evidence Level | L2 |
-| Germany Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+> Sorafenib ist ein Multi-Target-Tyrosinkinase-Inhibitor, der ursprünglich für das fortgeschrittene Nierenzellkarzinom entwickelt wurde und später auf hepatozelluläres Karzinom und differenziertes Schilddrüsenkarzinom erweitert wurde.
+> Das TxGNN-Modell prognostiziert, dass es möglicherweise wirksam für **Liposarkom** ist,
+> derzeit unterstützt durch **2 klinische Studien** (1 direkt mit Sorafenib) und **8 Publikationen**, von denen die meisten präklinische oder Review-Evidenz sind.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Currently, detailed mechanism of action data is not available in this dataset. Based on known information, sorafenib is a multi-target tyrosine kinase inhibitor that blocks RAF/MEK/ERK signaling as well as VEGFR-1/2/3, PDGFR-β, c-KIT, and FLT3. Its efficacy in renal cell carcinoma and hepatocellular carcinoma is well established.
-
-Liposarcoma, particularly the dedifferentiated subtype, has been shown to exhibit PTEN down-regulation and PDGFR pathway activation — both of which overlap with sorafenib's known targets. This provides a plausible mechanistic rationale for repurposing.
-
-However, soft tissue sarcomas are highly heterogeneous, and not all subtypes respond uniformly to VEGFR/PDGFR-targeted therapy. The strongest direct clinical evidence comes from the SWOG S0505 trial, a Phase 2 study of sorafenib in advanced soft tissue sarcomas (not liposarcoma-specific), which supports biological activity but does not confirm subtype-specific efficacy.
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Nierenzellkarzinom / hepatozelluläres Karzinom (basierend auf der bekannten Zulassungsgeschichte des Arzneistoffs; nicht im aktuellen Datensatz vorhanden) |
+| Vorhergesagte neue Indikation | Liposarkom |
+| TxGNN-Vorhersage-Score | 99.82% |
+| Evidenzstufe | L2 |
+| Marktstatus in Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Mit Schutzmaßnahmen voranschreiten |
 
 ---
 
-## Clinical Trial Evidence
+## Warum ist diese Vorhersage angemessen?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Derzeit sind detaillierte Wirkungsmechanismus-Daten in diesem Datensatz nicht verfügbar. Basierend auf bekannten Informationen ist Sorafenib ein Multi-Target-Tyrosinkinase-Inhibitor, der die RAF/MEK/ERK-Signalisierung sowie VEGFR-1/2/3, PDGFR-β, c-KIT und FLT3 blockiert. Seine Wirksamkeit beim Nierenzellkarzinom und hepatozellulären Karzinom ist gut belegt.
+
+Liposarkom, insbesondere der dedifferenzierte Subtyp, zeigt PTEN-Herunterregulation und PDGFR-Weg-Aktivierung — beides überlappt mit den bekannten Zielen von Sorafenib. Dies bietet eine plausible mechanistische Begründung für die Umwidmung.
+
+Allerdings sind Weichgewebssarkome hochgradig heterogen, und nicht alle Subtypen reagieren einheitlich auf VEGFR/PDGFR-gerichtete Therapie. Die stärkste direkte klinische Evidenz stammt aus der SWOG-S0505-Studie, einer Phase-2-Studie von Sorafenib bei fortgeschrittenen Weichgewebssarkomen (nicht liposarkom-spezifisch), die biologische Aktivität unterstützt, aber subtyp-spezifische Wirksamkeit nicht bestätigt.
+
+---
+
+## Klinische Studienevidenz
+
+| Studiesnummer | Phase | Status | Teilnehmerzahl | Wichtigste Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT00217620](https://clinicaltrials.gov/study/NCT00217620) | Phase 2 | Completed | 51 | Sorafenib (BAY 43-9006) in advanced soft tissue sarcomas, including liposarcoma subtypes; direct sorafenib evidence, corresponds to S0505 publication (PMID 21751200) |
-| [NCT02048371](https://clinicaltrials.gov/study/NCT02048371) | Phase 2 | Completed | 131 | SARC024 protocol testing **regorafenib** (not sorafenib) in selected sarcoma subtypes; included as indirect class-effect evidence only |
+| [NCT00217620](https://clinicaltrials.gov/study/NCT00217620) | Phase 2 | Abgeschlossen | 51 | Sorafenib (BAY 43-9006) bei fortgeschrittenen Weichgewebssarkomen, einschließlich Liposarkom-Subtypen; direkte Sorafenib-Evidenz, entspricht S0505-Publikation (PMID 21751200) |
+| [NCT02048371](https://clinicaltrials.gov/study/NCT02048371) | Phase 2 | Abgeschlossen | 131 | SARC024-Protokoll zum Testen von **regorafenib** (nicht Sorafenib) bei ausgewählten Sarkomsubtypen; nur als indirekte Klassenwirkungsevidenz einbezogen |
 
 ---
 
-## Literature Evidence
+## Literaturevidenz
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Zeitschrift | Wichtigste Ergebnisse |
 |------|-----|------|------|---------|
-| [21751200](https://pubmed.ncbi.nlm.nih.gov/21751200/) | 2012 | Phase 2 Trial (SWOG S0505) | Cancer | Sorafenib evaluated in advanced soft tissue sarcomas; multitargeted TKI activity against RAF, VEGFR1-3, PDGFR-β, FLT3, c-KIT |
-| [24554062](https://pubmed.ncbi.nlm.nih.gov/24554062/) | 2014 | Phase 1 Trial | Annals of Surgical Oncology | Neoadjuvant sorafenib + radiotherapy in extremity soft tissue sarcoma; synergistic antiangiogenic effect explored |
-| [22987955](https://pubmed.ncbi.nlm.nih.gov/22987955/) | 2012 | Review | Annals of Oncology | Histology-driven sarcoma therapy; trabectedin highly active in myxoid liposarcoma, context for targeted agents |
-| [24712007](https://pubmed.ncbi.nlm.nih.gov/24712007/) | 2014 | Review | Magyar Onkologia | Histological subtype-based medical treatment of soft tissue sarcomas |
-| [36003796](https://pubmed.ncbi.nlm.nih.gov/36003796/) | 2022 | Review | Frontiers in Oncology | PDOX models identify CDK inhibitor combinations for sarcoma; broader targeted therapy rationale |
-| [23416162](https://pubmed.ncbi.nlm.nih.gov/23416162/) | 2013 | Preclinical (PDX) | American Journal of Pathology | Dedifferentiated liposarcoma xenograft models show PTEN down-regulation as malignant signature, sensitive to PI3K pathway inhibition |
-| [18413802](https://pubmed.ncbi.nlm.nih.gov/18413802/) | 2008 | Preclinical | Molecular Cancer Therapeutics | Sorafenib inhibits growth and MAPK signaling in malignant peripheral nerve sheath and dedifferentiated liposarcoma cell lines |
-| [25075796](https://pubmed.ncbi.nlm.nih.gov/25075796/) | 2014 | Case Report (trabectedin, non-sorafenib) | Anti-Cancer Drugs | Response to trabectedin (not sorafenib) in synovial sarcoma; included for sarcoma treatment context only |
+| [21751200](https://pubmed.ncbi.nlm.nih.gov/21751200/) | 2012 | Phase-2-Studie (SWOG S0505) | Cancer | Sorafenib bei fortgeschrittenen Weichgewebssarkomen untersucht; Multi-Target-TKI-Aktivität gegen RAF, VEGFR1-3, PDGFR-β, FLT3, c-KIT |
+| [24554062](https://pubmed.ncbi.nlm.nih.gov/24554062/) | 2014 | Phase-1-Studie | Annals of Surgical Oncology | Neoadjuvantes Sorafenib + Radiotherapie bei Extremitäten-Weichgewebssarkom; synergistische antiangiogene Wirkung untersucht |
+| [22987955](https://pubmed.ncbi.nlm.nih.gov/22987955/) | 2012 | Review | Annals of Oncology | Histologie-gesteuerte Sarkomtherapie; Trabectedin hochaktiv bei myxoidem Liposarkom, Kontext für gerichtete Mittel |
+| [24712007](https://pubmed.ncbi.nlm.nih.gov/24712007/) | 2014 | Review | Magyar Onkologia | Medizinische Behandlung von Weichgewebssarkomen basierend auf histologischem Subtyp |
+| [36003796](https://pubmed.ncbi.nlm.nih.gov/36003796/) | 2022 | Review | Frontiers in Oncology | PDOX-Modelle identifizieren CDK-Inhibitor-Kombinationen für Sarkom; breiteres Konzept der gezielten Therapie |
+| [23416162](https://pubmed.ncbi.nlm.nih.gov/23416162/) | 2013 | Präklinisch (PDX) | American Journal of Pathology | Dedifferenzierte Liposarkom-Xenograft-Modelle zeigen PTEN-Herunterregulation als Malignitätsmerkmal, empfindlich gegenüber PI3K-Weg-Hemmung |
+| [18413802](https://pubmed.ncbi.nlm.nih.gov/18413802/) | 2008 | Präklinisch | Molecular Cancer Therapeutics | Sorafenib hemmt Wachstum und MAPK-Signalisierung in Zelllinien von bösartigen Nervenscheidentumoren und dedifferenzierten Liposarkomen |
+| [25075796](https://pubmed.ncbi.nlm.nih.gov/25075796/) | 2014 | Fallbericht (Trabectedin, nicht-Sorafenib) | Anti-Cancer Drugs | Ansprechen auf Trabectedin (nicht Sorafenib) bei Synovialsarkom; nur für Sarkombehandlungskontext einbezogen |
 
 ---
 
-## Germany Market Information
+## Informationen zum deutschen Markt
 
-Sorafenib is currently **not marketed** in Germany per this dataset, with no authorization records available (0 licenses on file).
-
----
-
-## Cytotoxicity
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (multi-target tyrosine kinase inhibitor; not a conventional cytotoxic agent) |
-| Myelosuppression Risk | Low to Moderate — TKI-class drugs typically cause less myelosuppression than conventional cytotoxics; skin toxicity (hand-foot skin reaction) is a more prominent class effect |
-| Emetogenicity Classification | Low — oral TKIs generally carry minimal emetogenic potential |
-| Monitoring Items | Blood pressure, liver function tests, CBC, skin/dermatologic assessment, thyroid function |
-| Handling Protection | As an oral antineoplastic agent, standard institutional hazardous-drug handling precautions apply; please refer to the package insert warnings and precautions for detailed guidance |
+Sorafenib wird derzeit in Deutschland nach diesem Datensatz **nicht vermarktet**, ohne verfügbare Zulassungsunterlagen (0 Zulassungen im Datensatz).
 
 ---
 
-## Safety Considerations
+## Zytotoxizität
 
-Please refer to the package insert for safety information.
+| Element | Inhalt |
+|---------|--------|
+| Zytotoxizitätsklassifizierung | Gerichtete Therapie (Multi-Target-Tyrosinkinase-Inhibitor; kein konventionelles Zytostase-Mittel) |
+| Myelosuppressionsrisiko | Gering bis moderat — TKI-Klasse-Arzneistoffe verursachen in der Regel weniger Myelosuppression als konventionelle Zytostatika; Hautgiftigkeit (Hand-Fuß-Haut-Reaktion) ist ein prominenterer Klassenwirkeffekt |
+| Emetogenitätsklassifizierung | Gering — orale TKIs haben in der Regel minimales emetogenes Potenzial |
+| Überwachungselemente | Blutdruck, Leberfunktion, CBC, Haut-/Dermatologische Beurteilung, Schilddrüsenfunktion |
+| Handhabungsschutz | Als orales Antineoplastikum gelten standardisierte institutionelle Schutzmaßnahmen für die Handhabung gefährlicher Arzneistoffe; bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Packungsbeilage für detaillierte Anleitung |
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsaspekte
 
-**Decision: Proceed with Guardrails**
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
 
-**Rationale:**
-A completed Phase 2 trial directly using sorafenib (SWOG S0505) demonstrates biological activity in advanced soft tissue sarcomas, and the PDGFR/PTEN pathway rationale for dedifferentiated liposarcoma is mechanistically plausible. However, evidence is limited to a single Phase 2 study without liposarcoma-subtype stratification, and one of the two listed trials (SARC024) actually tested regorafenib rather than sorafenib.
+---
 
-**To proceed, the following is needed:**
-- Resolve Blocking data gap DG001: obtain TFDA/BfArM package insert warnings and contraindications before any S1 safety review
-- Resolve High-priority data gap DG002: confirm detailed MOA via DrugBank API query
-- Liposarcoma subtype-specific clinical data (dedifferentiated vs. myxoid vs. pleomorphic), as current trial evidence is not subtype-stratified
-- Comparative efficacy data versus current standard-of-care agents (trabectedin, eribulin) in liposarcoma
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Mit Schutzmaßnahmen voranschreiten**
+
+**Begründung:**
+Eine abgeschlossene Phase-2-Studie mit direkter Anwendung von Sorafenib (SWOG S0505) zeigt biologische Aktivität bei fortgeschrittenen Weichgewebssarkomen, und die PDGFR/PTEN-Weg-Begründung für dedifferenziertes Liposarkom ist mechanistisch plausibel. Die Evidenz ist jedoch auf eine einzelne Phase-2-Studie ohne Liposarkom-Subtyp-Stratifikation beschränkt, und eine der beiden aufgeführten Studien (SARC024) testete Regorafenib anstelle von Sorafenib.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+- Behebung der blockierenden Datenlücke DG001: Beschaffung von TFDA/BfArM-Packungsbeilage-Warnungen und Kontraindikationen vor jeder S1-Sicherheitsprüfung
+- Behebung der hochpriorisierten Datenlücke DG002: Bestätigung des detaillierten MOA durch DrugBank-API-Abfrage
+- Liposarkom-Subtyp-spezifische klinische Daten (dedifferenziert vs. myxoid vs. pleomorph), da aktuelle Studienevidenz nicht subtyp-stratifiziert ist
+- Vergleichende Wirksamkeitsdaten gegenüber aktuellen Standard-of-Care-Mitteln (trabectedin, eribulin) bei Liposarkom
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

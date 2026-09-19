@@ -29,97 +29,98 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Ledipasvir: From Hepatitis C Virus Infection to Hepatitis B Virus Infection
+# Ledipasvir: Von der Hepatitis-C-Virus-Infektion zur Hepatitis-B-Virus-Infektion
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Ledipasvir is the NS5A inhibitor component of the fixed-dose combination Ledipasvir/Sofosbuvir (Harvoni), originally developed and extensively studied for chronic Hepatitis C virus (HCV) infection.
-The TxGNN model predicts it may also be effective for **Hepatitis B Virus Infection**, with **20 clinical trials** and **20 publications** currently retrieved — but on closer review, the vast majority of this evidence describes HCV treatment in HCV/HBV-coinfected patients or HBV *reactivation risk* during HCV therapy, not direct antiviral efficacy against HBV itself.
-Only one small, uncontrolled Phase 2 pilot study directly tested Ledipasvir/Sofosbuvir as HBV monoinfection therapy. Nine other TxGNN-predicted indications for this drug (rank 2–10) carry weaker evidence (L4–L5) and are not addressed further here.
+Ledipasvir ist die NS5A-Inhibitor-Komponente der Festdosis-Kombination Ledipasvir/Sofosbuvir (Harvoni), ursprünglich entwickelt und umfangreich untersucht für chronische Hepatitis-C-Virus (HCV)-Infektionen.
+Das TxGNN-Modell sagt voraus, dass es auch wirksam für **Hepatitis-B-Virus-Infektion** sein könnte, mit **20 klinischen Studien** und **20 Publikationen**, die derzeit abgerufen wurden – aber bei näherer Betrachtung beschreiben die allermeisten dieser Evidenz HCV-Behandlung in HCV/HBV-koinfizierter Patienten oder HBV-*Reaktivierungsrisiko* während HCV-Therapie, nicht die direkte antivirale Wirksamkeit gegen HBV selbst.
+Nur eine kleine, unkontrollierte Phase-2-Pilotstudie prüfte Ledipasvir/Sofosbuvir direkt als HBV-Monoinfektionstherapie. Neun weitere von TxGNN vorhergesagte Indikationen für dieses Medikament (Rang 2–10) haben schwächere Evidenz (L4–L5) und werden hier nicht weiter behandelt.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Element | Inhalt |
 |------|------|
-| Original Indication | Chronic Hepatitis C Virus (HCV) infection (as part of Ledipasvir/Sofosbuvir fixed-dose combination; not formally licensed in Germany per available data) |
-| Predicted New Indication | Hepatitis B Virus Infection |
-| TxGNN Prediction Score | 99.91% |
-| Evidence Level | L3 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | Chronische Hepatitis-C-Virus (HCV)-Infektion (als Teil der Festdosis-Kombination Ledipasvir/Sofosbuvir; nicht formal in Deutschland zugelassen nach verfügbaren Daten) |
+| Vorhergesagte neue Indikation | Hepatitis-B-Virus-Infektion |
+| TxGNN-Vorhersage-Score | 99.91% |
+| Evidenzlevel | L3 |
+| Deutschland-Marktstatus | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Halten |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage angemessen?
 
-Currently, detailed mechanism of action data is not available in the drug record. Based on the evidence pack's mechanistic notes, Ledipasvir is an NS5A protein inhibitor used within the Ledipasvir/Sofosbuvir combination, and its efficacy in chronic HCV infection is well established through numerous Phase 2–3 trials. However, Ledipasvir has **no known direct inhibitory activity against HBV polymerase or cccDNA** — its target protein (HCV NS5A) has no structural or functional counterpart in HBV.
+Derzeit sind detaillierte Daten zum Wirkmechanismus im Arzneimittelsteckbrief nicht verfügbar. Basierend auf den mechanistischen Anmerkungen im Evidenzpaket ist Ledipasvir ein NS5A-Protein-Inhibitor, der in der Festdosis-Kombination Ledipasvir/Sofosbuvir verwendet wird, und seine Wirksamkeit bei chronischen HCV-Infektionen ist durch zahlreiche Phase-2–3-Studien gut etabliert. Ledipasvir hat jedoch **keine bekannte direkte inhibitorische Aktivität gegen HBV-Polymerase oder cccDNA** – sein Zielprotein (HCV NS5A) hat kein strukturelles oder funktionelles Gegenstück bei HBV.
 
-The relationship between the original and predicted indications is therefore largely a matter of shared patient populations rather than shared drug mechanism: HCV and HBV frequently co-infect the same individuals (shared transmission routes), so almost all retrieved trials and publications involve HCV/HBV-coinfected cohorts being treated with Ledipasvir/Sofosbuvir *for their HCV*, with HBV monitored only as a safety endpoint. Several of these publications (e.g., PMID 29334502, PMID 34864948, PMID 27486112) specifically study **HBV reactivation risk** during DAA-based HCV therapy — a safety signal, not a therapeutic effect.
+Die Beziehung zwischen der ursprünglichen und der vorhergesagten Indikation ist daher weitgehend eine Frage gemeinsamer Patientenpopulationen statt eines gemeinsamen Arzneimittelmechanismus: HCV und HBV koinfizieren häufig dieselben Personen (gemeinsame Übertragungswege), daher beinhalten fast alle abgerufenen Studien und Publikationen HCV/HBV-koinfizierte Kohorten, die mit Ledipasvir/Sofosbuvir *für ihre HCV* behandelt werden, mit HBV nur als Sicherheitsendpunkt überwacht. Mehrere dieser Publikationen (z. B. PMID 29334502, PMID 34864948, PMID 27486112) untersuchen speziell das **HBV-Reaktivierungsrisiko** während DAA-basierter HCV-Therapie – ein Sicherheitssignal, keine therapeutische Wirkung.
 
-The one exception is a Phase 2 open-label pilot study (NCT03312023 / PMID 36045503) that directly administered Ledipasvir/Sofosbuvir to HBV-infected (not HCV-coinfected) subjects and observed a modest reduction in HBsAg. This is the only piece of evidence offering a plausible efficacy signal, but it is a small, single-arm, uncontrolled study, and given that Ledipasvir/Sofosbuvir has separately been explored for Hepatitis D virus (HDV) — which depends on the HBV envelope but replicates via an HBV-independent RNA mechanism more plausibly affected by NS5A-class inhibitors — this trial's true target disease (HBV vs. HDV) should be verified before drawing conclusions.
+Die eine Ausnahme ist eine offene Phase-2-Pilotstudie (NCT03312023 / PMID 36045503), die Ledipasvir/Sofosbuvir direkt HBV-infizierten (nicht HCV-koinfizierter) Subjekten verabreichte und eine bescheidene Reduktion von HBsAg beobachtete. Dies ist die einzige Evidenz, die ein plausibles Wirksamkeitssignal bietet, aber es ist eine kleine, einarmstudie, unkontrollierte Studie, und da Ledipasvir/Sofosbuvir separat für Hepatitis-D-Virus (HDV) untersucht wurde – das vom HBV-Hüllprotein abhängt, sich aber über einen HBV-unabhängigen RNA-Mechanismus repliziert, der plausibel durch NS5A-Klassen-Inhibitoren beeinflusst wird – sollte die wahre Zielerkrankung dieser Studie (HBV vs. HDV) vor der Ziehung von Schlussfolgerungen überprüft werden.
 
 ---
 
-## Clinical Trial Evidence
+## Evidenz aus klinischen Studien
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Studiennummer | Phase | Status | Enrolment | Wichtige Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT03312023](https://clinicaltrials.gov/study/NCT03312023) | Phase 2 | Completed | 21 | Only trial directly testing LDV/SOF as therapy in HBV-infected (not HCV-coinfected) subjects; assessed HBsAg/HBV DNA decline as primary/secondary endpoints |
-| [NCT02613871](https://clinicaltrials.gov/study/NCT02613871) | Phase 3 | Completed | 111 | LDV/SOF FDC in Taiwanese subjects with chronic genotype 1/2 HCV **and** HBV coinfection; primary endpoint remains HCV antiviral efficacy |
-| [NCT02555943](https://clinicaltrials.gov/study/NCT02555943) | Phase 2/3 | Completed | 23 | Prospective study of HBV reactivation incidence/morbidity during DAA treatment of HCV/HBV coinfection — a safety, not efficacy, endpoint |
-| [NCT02768961](https://clinicaltrials.gov/study/NCT02768961) | Phase 4 | Completed | 64 | Prison-population screening/treatment program covering HCV, HBV and HIV; HBV prevalence characterized but treatment targeted at HCV |
-| [NCT02597166](https://clinicaltrials.gov/study/NCT02597166) | Phase 3 | Completed | 14 | Antiviral therapy effects on decompensated cirrhosis in HCV genotype 1 population; may include HBV-exposed patients but HCV-focused (Grade B relevance) |
-| [NCT01384383](https://clinicaltrials.gov/study/NCT01384383) | Phase 2 | Terminated | 248 | Response-guided GS-5885/GS-9451+peg-IFN regimen in genotype 1 HCV; population includes HCV/HBV coinfection, primary endpoint is HCV SVR (Grade C relevance) |
-| [NCT02219685](https://clinicaltrials.gov/study/NCT02219685) | Phase 2 | Completed | 40 | LDV/SOF drug-interaction/neurocognition study in chronic HCV; not HBV-related (Grade C relevance) |
+| [NCT03312023](https://clinicaltrials.gov/study/NCT03312023) | Phase 2 | Abgeschlossen | 21 | Einzige Studie, die LDV/SOF direkt als Therapie bei HBV-infizierten (nicht HCV-koinfizierter) Subjekten prüfte; bewertete HBsAg/HBV-DNA-Rückgang als primäre/sekundäre Endpunkte |
+| [NCT02613871](https://clinicaltrials.gov/study/NCT02613871) | Phase 3 | Abgeschlossen | 111 | LDV/SOF FDC bei taiwanesischen Subjekten mit chronischem HCV Genotyp 1/2 **und** HBV-Koinfektionen; primärer Endpunkt bleibt HCV-antivirale Wirksamkeit |
+| [NCT02555943](https://clinicaltrials.gov/study/NCT02555943) | Phase 2/3 | Abgeschlossen | 23 | Prospektive Studie der HBV-Reaktivierungsinzidenz/Morbidität während DAA-Behandlung von HCV/HBV-Koinfektionen – ein Sicherheits-, nicht Wirksamkeitsendpunkt |
+| [NCT02768961](https://clinicaltrials.gov/study/NCT02768961) | Phase 4 | Abgeschlossen | 64 | Screening-/Behandlungsprogramm für die Gefängnisbevölkerung mit HCV, HBV und HIV; HBV-Prävalenz charakterisiert, aber Behandlung auf HCV ausgerichtet |
+| [NCT02597166](https://clinicaltrials.gov/study/NCT02597166) | Phase 3 | Abgeschlossen | 14 | Effekte antiviraler Therapie auf dekompensierte Zirrhose in HCV-Genotyp-1-Population; kann HBV-exponierte Patienten einschließen, ist aber HCV-fokussiert (Grad-B-Relevanz) |
+| [NCT01384383](https://clinicaltrials.gov/study/NCT01384383) | Phase 2 | Beendet | 248 | Response-gesteuertes GS-5885/GS-9451+peg-IFN-Regime bei Genotyp-1-HCV; Population umfasst HCV/HBV-Koinfektionen, primärer Endpunkt ist HCV-SVR (Grad-C-Relevanz) |
+| [NCT02219685](https://clinicaltrials.gov/study/NCT02219685) | Phase 2 | Abgeschlossen | 40 | LDV/SOF-Arzneimittelinteraktions-/Neurokognitions-Studie bei chronischem HCV; nicht HBV-bezogen (Grad-C-Relevanz) |
 
-*Note: The remaining 13 trials retrieved for this candidate (e.g., NCT03823911, NCT02605304, NCT02421211) are HCV-only treatment or retreatment studies with no direct HBV therapeutic endpoint and have been excluded as low relevance.*
+*Hinweis: Die restlichen 13 abgerufenen Studien für diesen Kandidaten (z. B. NCT03823911, NCT02605304, NCT02421211) sind HCV-only-Behandlungs- oder Retreatment-Studien ohne direkten HBV-therapeutischen Endpunkt und wurden als niedrige Relevanz ausgeschlossen.*
 
 ---
 
-## Literature Evidence
+## Literatur-Evidenz
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Journal | Wichtige Ergebnisse |
 |------|-----|------|------|---------|
-| [36045503](https://pubmed.ncbi.nlm.nih.gov/36045503/) | 2023 | RCT (Phase 2) | Journal of Medical Virology | Only study directly testing LDV/SOF in HBV-monoinfected subjects; modest reduction in HBsAg/HBV DNA reported at Week 12 — key primary evidence for this indication |
-| [34864948](https://pubmed.ncbi.nlm.nih.gov/34864948/) | 2022 | Cohort | Clinical Infectious Diseases | Taiwan HCV/HBV coinfection cohort treated with LDV/SOF; 108-week follow-up on HBV reactivation, not HBV cure |
-| [29334502](https://pubmed.ncbi.nlm.nih.gov/29334502/) | 2018 | Cohort | Journal of Clinical Gastroenterology | Examined HBV reactivation risk in HCV patients (previously/actively HBV-infected) treated with LDV/SOF for HCV |
-| [27486112](https://pubmed.ncbi.nlm.nih.gov/27486112/) | 2016 | Cohort | Clinical Infectious Diseases | Taiwan/Korea LDV/SOF trial cohort (103/173 HBV pre-exposed); no evidence of HBV reactivation observed |
-| [33523503](https://pubmed.ncbi.nlm.nih.gov/33523503/) | 2021 | Cohort/Observational | Journal of Viral Hepatitis | HBV reactivation risk in cancer patients receiving DAAs for HCV |
-| [27367295](https://pubmed.ncbi.nlm.nih.gov/27367295/) | 2016 | Pilot study | Antiviral Therapy | LDV/SOF for HCV suppression in HBV-coinfected patients; not an HBV efficacy endpoint |
-| [29174546](https://pubmed.ncbi.nlm.nih.gov/29174546/) | 2018 | Prospective study | Gastroenterology | Prospective assessment of HCV treatment efficacy and HBV reactivation risk/outcome in coinfected patients |
-| [37254310](https://pubmed.ncbi.nlm.nih.gov/37254310/) | 2024 | In silico | Journal of Biomolecular Structure & Dynamics | Molecular docking study of antiviral compounds against HBx protein — mechanistic/computational only, does not include ledipasvir directly tested against HBV target |
+| [36045503](https://pubmed.ncbi.nlm.nih.gov/36045503/) | 2023 | RCT (Phase 2) | Journal of Medical Virology | Einzige Studie, die LDV/SOF direkt bei HBV-monoinfizierter Subjekten prüfte; bescheidene Reduktion von HBsAg/HBV-DNA in Woche 12 berichtet – wichtigste primäre Evidenz für diese Indikation |
+| [34864948](https://pubmed.ncbi.nlm.nih.gov/34864948/) | 2022 | Kohorte | Clinical Infectious Diseases | Taiwan HCV/HBV-Koinfektions-Kohorte behandelt mit LDV/SOF; 108-Wochen-Nachverfolgung auf HBV-Reaktivierung, nicht HBV-Heilung |
+| [29334502](https://pubmed.ncbi.nlm.nih.gov/29334502/) | 2018 | Kohorte | Journal of Clinical Gastroenterology | Untersuchte HBV-Reaktivierungsrisiko bei HCV-Patienten (früher/aktiv HBV-infiziert) behandelt mit LDV/SOF für HCV |
+| [27486112](https://pubmed.ncbi.nlm.nih.gov/27486112/) | 2016 | Kohorte | Clinical Infectious Diseases | Taiwan/Korea LDV/SOF-Studien-Kohorte (103/173 HBV-vorexponiert); keine Evidenz für HBV-Reaktivierung beobachtet |
+| [33523503](https://pubmed.ncbi.nlm.nih.gov/33523503/) | 2021 | Kohorte/Beobachtungsstudie | Journal of Viral Hepatitis | HBV-Reaktivierungsrisiko bei Krebspatienten, die DAAs für HCV erhalten |
+| [27367295](https://pubmed.ncbi.nlm.nih.gov/27367295/) | 2016 | Pilotstudie | Antiviral Therapy | LDV/SOF für HCV-Suppression bei HBV-koinfizierter Patienten; kein HBV-Wirksamkeitsendpunkt |
+| [29174546](https://pubmed.ncbi.nlm.nih.gov/29174546/) | 2018 | Prospektive Studie | Gastroenterology | Prospektive Evaluierung der HCV-Behandlungswirksamkeit und HBV-Reaktivierungsrisiko/-ausgang bei koinfizierter Patienten |
+| [37254310](https://pubmed.ncbi.nlm.nih.gov/37254310/) | 2024 | In-silico | Journal of Biomolecular Structure & Dynamics | Molekulares Docking-Studie antiviraler Verbindungen gegen HBx-Protein – mechanistisch/rechnerisch nur, schließt direkt getestetes Ledipasvir gegen HBV-Ziel nicht ein |
 
 ---
 
-## Germany Market Information
+## Deutschland-Marktinformationen
 
-Ledipasvir is currently **not marketed in Germany** (market status: "Not marketed" / Not marketed), and no marketing authorizations were found in the available regulatory dataset. No product listings, dosage forms, or approved indication texts are on file for this jurisdiction.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Note: while no structured safety/warning/contraindication data was available in this evidence pack, the clinical evidence above surfaced an important safety-relevant signal: multiple studies describe HBV reactivation occurring in HBV/HCV-coinfected patients during Ledipasvir/Sofosbuvir treatment of HCV. This is a known class effect of DAA therapy and should be explicitly addressed once formal safety documentation is obtained — see Next Steps.)*
+Ledipasvir ist derzeit **nicht auf dem deutschen Markt erhältlich** (Marktstatus: "Nicht vermarktet" / Not marketed), und im verfügbaren regulatorischen Datensatz wurden keine Vermarktungsgenehmigungen gefunden. Es sind keine Produktauflistungen, Darreichungsformen oder genehmigten Indikationstexte für diese Gerichtsbarkeit aktenkundig.
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsaspekte
 
-**Decision: Hold**
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
 
-**Rationale:**
-The mechanistic basis for using Ledipasvir against HBV is weak — Ledipasvir's target (HCV NS5A) has no known role in HBV replication, and the great majority of retrieved evidence reflects HBV *reactivation risk* during HCV treatment rather than antiviral efficacy against HBV. Only one small, uncontrolled Phase 2 pilot study directly supports an HBV efficacy signal, and its true target disease (HBV vs. HDV) requires verification. Combined with the drug's absence from the German market, current evidence does not support progression beyond a research question at this time.
+*(Hinweis: Während keine strukturierten Sicherheits-/Warnungs-/Kontraindikationsdaten in diesem Evidenzpaket verfügbar waren, brachte die klinische Evidenz oben ein wichtiges sicherheitsbezogenes Signal hervor: mehrere Studien beschreiben HBV-Reaktivierung, die bei HBV/HCV-koinfizierter Patienten während der Ledipasvir/Sofosbuvir-Behandlung von HCV auftritt. Dies ist ein bekannter Klasseneffekt der DAA-Therapie und sollte explizit behandelt werden, sobald formale Sicherheitsdokumentation erhalten wird – siehe Nächste Schritte.)*
 
-**To proceed, the following is needed:**
-- Confirm whether NCT03312023 / PMID 36045503 truly evaluated HBV monoinfection or HDV (given Ledipasvir/Sofosbuvir's established mechanistic plausibility for HDV) — this may redirect the repurposing hypothesis entirely
-- Obtain TFDA/EMA package insert data (Data Gap DG001) to enable a formal S1 safety screen, particularly regarding HBV reactivation risk
-- Obtain confirmed mechanism-of-action documentation from DrugBank (Data Gap DG002) to formally assess mechanistic plausibility
-- If HBV monoinfection remains the target, a larger controlled trial with virologic cure endpoints (not just HBsAg decline) is needed before advancing past L3
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Halten**
+
+**Begründung:**
+Die mechanistische Grundlage für die Verwendung von Ledipasvir gegen HBV ist schwach – Ledipasvirs Ziel (HCV NS5A) hat keine bekannte Rolle in der HBV-Replikation, und die überwiegende Mehrheit der abgerufenen Evidenz spiegelt HBV-*Reaktivierungsrisiko* während HCV-Behandlung statt antivirale Wirksamkeit gegen HBV wider. Nur eine kleine, einarmstudie, unkontrollierte Phase-2-Pilotstudie unterstützt direkt ein HBV-Wirksamkeitssignal, und seine wahre Zielerkrankung (HBV vs. HDV) erfordert Überprüfung. Kombiniert mit der Abwesenheit des Medikaments vom deutschen Markt, unterstützt aktuelle Evidenz keine Progression über eine Forschungsfrage zu diesem Zeitpunkt hinaus.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+- Bestätigung, ob NCT03312023 / PMID 36045503 wirklich HBV-Monoinfektionen oder HDV bewertete (angesichts der etablierten mechanistischen Plausibilität von Ledipasvir/Sofosbuvir für HDV) – dies kann die Repurposing-Hypothese vollständig umleiten
+- TFDA/EMA-Packungsbeilage-Daten erhalten (Datenlücke DG001), um eine formale S1-Sicherheitsprüfung zu ermöglichen, besonders bezüglich HBV-Reaktivierungsrisiko
+- Bestätigte Wirkmechanismus-Dokumentation von DrugBank erhalten (Datenlücke DG002), um mechanistische Plausibilität formal zu bewerten
+- Falls HBV-Monoinfektionen weiterhin das Ziel bleiben, ist eine größere kontrollierte Studie mit virologischen Heilungsendpunkten (nicht nur HBsAg-Rückgang) erforderlich, bevor eine Progression über L3 erfolgt
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

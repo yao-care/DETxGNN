@@ -29,90 +29,91 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# ABACAVIR: Drug Repurposing Evaluation — Pending Prediction Data
+# ABACAVIR: Evaluation zur Umwidmung von Arzneimitteln — Ausstehende Vorhersagedaten
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-ABACAVIR is a nucleoside reverse transcriptase inhibitor (NRTI) widely used in the treatment of HIV/AIDS.
-The TxGNN model has **not yet generated any predicted new indications** for this drug,
-and the current Evidence Pack contains **no clinical trial or literature evidence** for repurposing candidates.
+ABACAVIR ist ein Nukleosid-Reverse-Transkriptase-Inhibitor (NRTI), der weit verbreitet zur Behandlung von HIV/AIDS eingesetzt wird.
+Das TxGNN-Modell hat **bisher keine vorhergesagten neuen Indikationen** für dieses Arzneimittel generiert,
+und das aktuelle Evidenzpaket enthält **keine Nachweise aus klinischen Studien oder Literatur** für Umwidmungskandidaten.
 
 ---
 
-## Quick Overview
+## Schneller Überblick
 
-| Item | Content |
+| Element | Inhalt |
 |------|------|
-| Original Indication | Not listed in current data (known use: HIV-1 infection) |
-| Predicted New Indication | — None predicted |
-| TxGNN Prediction Score | — Not available |
-| Evidence Level | L5 (No prediction or supporting studies) |
-| Taiwan Market Status | ✗ Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+| Ursprüngliche Indikation | Nicht in den aktuellen Daten aufgeführt (bekannte Anwendung: HIV-1-Infektion) |
+| Vorhergesagte neue Indikation | — Keine vorhergesagt |
+| TxGNN-Vorhersage-Score | — Nicht verfügbar |
+| Evidenzstufe | L5 (Keine Vorhersage oder unterstützende Studien) |
+| Status auf dem Taiwan-Markt | ✗ Nicht vermarktet (Nicht vermarktet) |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | **Halten** |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage vernünftig?
 
-There is currently **no TxGNN prediction to evaluate**. The `predicted_indications` array in the Evidence Pack is empty, meaning the model has not identified any repurposing candidates for ABACAVIR at this time.
+Es gibt derzeit **keine TxGNN-Vorhersage zur Evaluierung**. Das `predicted_indications`-Array im Evidenzpaket ist leer, was bedeutet, dass das Modell bisher keine Umwidmungskandidaten für ABACAVIR identifiziert hat.
 
-ABACAVIR is a well-established nucleoside analogue reverse transcriptase inhibitor (NRTI). It is intracellularly phosphorylated to its active metabolite carbovir triphosphate, which competes with the natural substrate dGTP and incorporates into viral DNA, causing chain termination. Detailed mechanism of action data was not available in the Evidence Pack (flagged as data gap DG002); however, ABACAVIR's antiviral mechanism is highly specific to HIV-1 reverse transcriptase, which may limit its applicability to non-viral disease indications without further computational or experimental evidence.
+ABACAVIR ist ein etablierter Nukleosid-Analogon-Reverse-Transkriptase-Inhibitor (NRTI). Er wird intrazellulär zu seinem aktiven Metaboliten Carbovir-Triphosphat phosphoryliert, der mit dem natürlichen Substrat dGTP konkurriert und sich in die virale DNA einlagert und einen Kettenabbruch verursacht. Detaillierte Daten zum Wirkungsmechanismus waren im Evidenzpaket nicht verfügbar (gekennzeichnet als Datenlücke DG002); der antivirale Mechanismus von ABACAVIR ist jedoch hochspezifisch für die HIV-1-Reverse-Transkriptase, was seine Anwendbarkeit auf nicht-virale Krankheitsindikationen ohne weitere rechnergestützte oder experimentelle Evidenz begrenzen kann.
 
-Until the TxGNN model produces a scored prediction for a new indication, no mechanistic plausibility assessment can be conducted.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for any predicted repurposing indication.
+Bis das TxGNN-Modell eine bewertete Vorhersage für eine neue Indikation liefert, kann keine Bewertung der mechanistischen Plausibilität durchgeführt werden.
 
 ---
 
-## Literature Evidence
+## Nachweis aus klinischen Studien
 
-Currently no related literature available for any predicted repurposing indication.
-
----
-
-## Taiwan Market Information
-
-ABACAVIR currently holds **no TFDA marketing authorizations** in Taiwan. There are no licensed products to report.
+Derzeit keine Registrierungen verwandter klinischer Studien für eine vorhergesagte Umwidmungsindikation.
 
 ---
 
-## Safety Considerations
+## Literaturnachweis
 
-> Please refer to the package insert for safety information.
+Derzeit ist keine verwandte Literatur für eine vorhergesagte Umwidmungsindikation verfügbar.
+
+---
+
+## Informationen zum Taiwan-Markt
+
+ABACAVIR verfügt derzeit über **keine TFDA-Marktzulassungen** in Taiwan. Es gibt keine zugelassenen Produkte zu berichten.
+
+---
+
+## Sicherheitsaspekte
+
+> Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
 >
-> Note: Package insert warning/contraindication data could not be retrieved (data gap DG001, severity: **Blocking**). No drug-drug interaction records were found in the queried databases. This data gap must be resolved before any safety initial assessment (S1) can proceed.
+> Hinweis: Daten zu Warnungen/Kontraindikationen der Packungsbeilage konnten nicht abgerufen werden (Datenlücke DG001, Schweregrad: **Blockierend**). In den abgefragten Datenbanken wurden keine Arzneimittel-Arzneimittel-Wechselwirkungsdatensätze gefunden. Diese Datenlücke muss behoben werden, bevor eine Sicherheits-Erstbewertung (S1) durchgeführt werden kann.
 
 ---
 
-## Data Gaps Requiring Resolution
+## Datenlücken, die behoben werden müssen
 
-The following critical data gaps were identified in this Evidence Pack:
+Die folgenden kritischen Datenlücken wurden in diesem Evidenzpaket identifiziert:
 
-| ID | Item | Severity | Impact | Remediation |
+| ID | Element | Schweregrad | Auswirkung | Abhilfe |
 |----|------|----------|--------|-------------|
-| DG001 | TFDA Package Insert Warnings/Contraindications | **Blocking** | Cannot enter S1 safety initial assessment | Download and parse package insert PDF from TFDA website |
-| DG002 | Mechanism of Action (MOA) | **High** | Affects mechanism-relevance analysis | Query DrugBank API |
+| DG001 | TFDA-Packungsbeilage Warnungen/Kontraindikationen | **Blockierend** | Kann S1-Sicherheits-Erstbewertung nicht durchführen | PDF-Packungsbeilage von der TFDA-Website herunterladen und analysieren |
+| DG002 | Wirkungsmechanismus (MOA) | **Hoch** | Beeinflusst die Analyse der Mechanismus-Relevanz | DrugBank-API abfragen |
 
 ---
 
-## Conclusion and Next Steps
+## Schlussfolgerung und nächste Schritte
 
-**Decision: Hold**
+**Entscheidung: Halten**
 
-**Rationale:**
-The TxGNN model has not produced any predicted new indications for ABACAVIR. Additionally, there are blocking-level data gaps (TFDA package insert warnings/contraindications) that prevent safety assessment. Without a prediction target and without baseline safety data, this candidate cannot proceed through the repurposing evaluation pipeline.
+**Begründung:**
+Das TxGNN-Modell hat keine vorhergesagten neuen Indikationen für ABACAVIR generiert. Darüber hinaus gibt es blockierende Datenlücken (TFDA-Packungsbeilage Warnungen/Kontraindikationen), die eine Sicherheitsbewertung verhindern. Ohne ein Vorhersage-Ziel und ohne Baseline-Sicherheitsdaten kann dieser Kandidat die Umwidmungs-Evaluierungspipeline nicht durchlaufen.
 
-**To proceed, the following is needed:**
-- Run or re-run TxGNN prediction pipeline for ABACAVIR (DB01048) to generate candidate indications
-- Resolve DG001: Obtain TFDA package insert warnings and contraindications (Blocking)
-- Resolve DG002: Retrieve detailed mechanism of action from DrugBank API
-- Confirm Taiwan market availability or identify international sourcing pathways, as the drug is currently not marketed in Taiwan
-- Once a predicted indication is available, collect clinical trial and literature evidence for the specific disease target
+**Um fortfahren zu können, wird Folgendes benötigt:**
+- Führen Sie die TxGNN-Vorhersage-Pipeline für ABACAVIR (DB01048) aus oder führen Sie sie erneut aus, um Kandidatenindikationen zu generieren
+- Beheben Sie DG001: Erhalten Sie TFDA-Packungsbeilage-Warnungen und Kontraindikationen (Blockierend)
+- Beheben Sie DG002: Rufen Sie detaillierte Wirkungsmechanismus-Daten von der DrugBank-API ab
+- Bestätigen Sie die Verfügbarkeit auf dem Taiwan-Markt oder identifizieren Sie internationale Beschaffungswege, da das Arzneimittel derzeit nicht in Taiwan vermarktet wird
+- Sobald eine vorhergesagte Indikation verfügbar ist, sammeln Sie klinische Studien- und Literaturnachweis für das spezifische Krankheitsziel
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

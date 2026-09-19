@@ -29,99 +29,100 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Eribulin: From Soft Tissue Sarcoma/Liposarcoma to Fibroblastic Neoplasm (Solitary Fibrous Tumor / Fibrosarcoma Spectrum)
+# Eribulin: Von Weichgewebssarkom/Liposarkom zu Fibroblastischem Neoplasma (Solitary Fibrous Tumor / Fibrosarkom-Spektrum)
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Eribulin is a microtubule-dynamics inhibitor already used against soft tissue sarcoma, including liposarcoma. Among 10 TxGNN-predicted indications, the strongest evidence-backed signal points to **Fibroblastic Neoplasm** (covering solitary fibrous tumor and fibrosarcoma/myxofibrosarcoma), supported by **1 completed Phase II trial** and **8 publications** — the only candidate in this set with real-world corroboration; the other 9 predictions remain model-prediction-only (L5), with several explicitly flagged in the source rationale as likely graph-linkage noise.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available from Germany licensing data (drug unmarketed); evidence-pack rationale confirms eribulin already has an approved indication in soft tissue sarcoma / liposarcoma via microtubule-dynamics inhibition |
-| Predicted New Indication | Fibroblastic Neoplasm (Solitary Fibrous Tumor / Fibrosarcoma spectrum) |
-| TxGNN Prediction Score | 99.36% |
-| Evidence Level | L3 (1 completed, non-randomized Phase II trial + multiple preclinical studies) |
-| Germany Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+Eribulin ist ein Inhibitor der Mikrotubuli-Dynamik, der bereits gegen Weichgewebssarkome, einschließlich Liposarkom, eingesetzt wird. Von 10 durch TxGNN vorhergesagten Indikationen zeigt das stärkste, evidenzgestützte Signal auf **Fibroblastisches Neoplasma** (umfassend Solitary Fibrous Tumor und Fibrosarkom/Myxofibrosarkom), unterstützt durch **1 abgeschlossene Phase-II-Studie** und **8 Veröffentlichungen** — der einzige Kandidat in dieser Gruppe mit Bestätigung aus der Praxis; die anderen 9 Vorhersagen bleiben nur modellbasiert (L5), mit mehreren, die in der Quellenrationale ausdrücklich als wahrscheinliche Graph-Verknüpfungsartefakte gekennzeichnet sind.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Detailed structured MOA data (DrugBank field) is currently a data gap. However, the repurposing rationale embedded across multiple predicted indications in this evidence pack consistently describes eribulin as a **microtubule-dynamics inhibitor / anti-mitotic agent**, with efficacy already established in soft tissue sarcoma, including an approved liposarcoma indication (noted explicitly for the myxoid liposarcoma prediction, rank 5).
-
-Fibroblastic neoplasms — solitary fibrous tumor (SFT), fibrosarcoma, and myxofibrosarcoma — belong to the same broad soft-tissue sarcoma family as liposarcoma. They share highly proliferative, mesenchymal-origin biology that is mechanistically dependent on microtubule function, making them a biologically plausible extension of eribulin's known antitumor activity rather than an unrelated disease area.
-
-This mechanistic plausibility is reinforced by actual data: a completed Phase II trial (ERASING, NCT03840772) specifically tested eribulin in advanced SFT, and multiple independent preclinical studies (2021–2025) demonstrate eribulin activity — including synergy with recombinant methioninase — in fibrosarcoma and myxofibrosarcoma cell lines and patient-derived xenografts. This combination of a completed clinical trial plus a consistent, growing preclinical literature is unique among the 10 candidates in this pack; nine other predictions (e.g., familial Mediterranean fever, mesothelioma subtypes, adenomatoid tumor) have zero supporting trials or literature and are explicitly annotated in the source rationale as low mechanistic plausibility or likely TxGNN graph noise.
-
----
-
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT03840772](https://clinicaltrials.gov/study/NCT03840772) | Phase 2 | Completed | 16 | Italian Sarcoma Group study (ERASING) evaluating eribulin in advanced Solitary Fibrous Tumor |
+| Element | Inhalt |
+|---------|--------|
+| Original-Indikation | Nicht verfügbar aus deutschen Zulassungsdaten (Arzneimittel nicht vermarktet); das Evidenzpaket bestätigt, dass Eribulin bereits eine anerkannte Indikation in Weichgewebssarkom / Liposarkom durch Hemmung der Mikrotubuli-Dynamik hat |
+| Vorhergesagte neue Indikation | Fibroblastisches Neoplasma (Solitary Fibrous Tumor / Fibrosarkom-Spektrum) |
+| TxGNN-Vorhersage-Score | 99.36% |
+| Evidenzstufe | L3 (1 abgeschlossene, nicht randomisierte Phase-II-Studie + mehrere präklinische Studien) |
+| Status auf dem deutschen Markt | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Fortfahren mit Schutzmaßnahmen |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage sinnvoll?
 
-| PMID | Year | Type | Journal | Key Findings |
+Detaillierte strukturierte MOA-Daten (DrugBank-Feld) sind derzeit eine Datenlücke. Allerdings beschreibt die in mehreren prognostizierten Indikationen in diesem Evidenzpaket eingebettete Umpositionierungsrationale Eribulin konsistent als **Inhibitor der Mikrotubuli-Dynamik / Anti-Mitose-Mittel**, mit bereits in Weichgewebssarkom nachgewiesener Wirksamkeit, einschließlich einer anerkannten Liposarkom-Indikation (ausdrücklich für die myxoides-Liposarkom-Vorhersage, Rang 5, erwähnt).
+
+Fibroblastische Neoplasien — Solitary Fibrous Tumor (SFT), Fibrosarkom und Myxofibrosarkom — gehören zur gleichen breiten Weichgewebssarkom-Familie wie Liposarkom. Sie weisen hochproliferative Biologie mesenchymalen Ursprungs auf, die mechanistisch von der Mikrotubuli-Funktion abhängt, was sie zu einer biologisch plausiblen Erweiterung von Eribulins bekannter Anti-Tumor-Aktivität macht, anstatt eines unverwandten Indikationsbereichs.
+
+Diese mechanistische Plausibilität wird durch echte Daten gestärkt: Eine abgeschlossene Phase-II-Studie (ERASING, NCT03840772) testete speziell Eribulin bei fortgeschrittenem SFT, und mehrere unabhängige präklinische Studien (2021–2025) zeigen Eribulin-Aktivität — einschließlich Synergie mit rekombinanter Methioninase — in Fibrosarkom- und Myxofibrosarkom-Zelllinien und patientengestützten Xenotransplantaten. Diese Kombination aus einer abgeschlossenen klinischen Studie plus konsistenter präklinischer Literatur ist einzigartig unter den 10 Kandidaten in diesem Paket; neun andere Vorhersagen (z. B. Familiäres Mittelmeerfieber, Mesotheliom-Subtypen, Adenomatoid-Tumor) haben keine unterstützenden Studien oder Literatur und sind ausdrücklich in der Quellenrationale als niedrige mechanistische Plausibilität oder wahrscheinliches TxGNN-Graph-Artefakt annotiert.
+
+---
+
+## Evidenz aus klinischen Studien
+
+| Studiennummer | Phase | Status | Teilnehmerzahl | Wichtigste Erkenntnisse |
+|---------|------|--------|------|---------|
+| [NCT03840772](https://clinicaltrials.gov/study/NCT03840772) | Phase 2 | Abgeschlossen | 16 | Italian Sarcoma Group-Studie (ERASING) zur Bewertung von Eribulin bei fortgeschrittenem Solitary Fibrous Tumor |
+
+---
+
+## Evidenz aus der Literatur
+
+| PMID | Jahr | Typ | Zeitschrift | Wichtigste Erkenntnisse |
 |------|-----|------|------|---------|
-| [38136399](https://pubmed.ncbi.nlm.nih.gov/38136399/) | 2023 | Review | Cancers | Diagnostics and treatment landscape of extrameningeal SFT; discusses chemotherapy including microtubule-targeting agents |
-| [28284173](https://pubmed.ncbi.nlm.nih.gov/28284173/) | 2017 | Preclinical (PDX) | Eur J Cancer | Patient-derived SFT xenografts predict sensitivity to doxorubicin/dacarbazine, and highlight eribulin/trabectedin as potentially effective |
-| [38423656](https://pubmed.ncbi.nlm.nih.gov/38423656/) | 2024 | Preclinical (in vitro) | Anticancer Research | Recombinant methioninase synergizes with eribulin against fibrosarcoma cells but spares normal fibroblasts |
-| [39197933](https://pubmed.ncbi.nlm.nih.gov/39197933/) | 2024 | Preclinical (in vitro) | Anticancer Research | Recombinant methioninase increases eribulin efficacy 16-fold in eribulin-resistant HT1080 fibrosarcoma cells |
-| [40295012](https://pubmed.ncbi.nlm.nih.gov/40295012/) | 2025 | Preclinical (in vivo) | In Vivo | Super-eribulin-resistant fibrosarcoma cells become more malignant but are synergistically controlled by eribulin + methionine restriction in mice |
-| [39625530](https://pubmed.ncbi.nlm.nih.gov/39625530/) | 2024 | Preclinical (cell line) | Human Cell | Establishment of novel myxofibrosarcoma cell line (SMU-MFS) for future drug testing, including microtubule-targeting agents |
-| [34383271](https://pubmed.ncbi.nlm.nih.gov/34383271/) | 2021 | Preclinical (cell line) | Human Cell | Establishment of patient-derived myxofibrosarcoma cell line (NCC-MFS4-C1) as a model for treatment development |
-| [35906852](https://pubmed.ncbi.nlm.nih.gov/35906852/) | 2023 | Case report | Genes Chromosomes Cancer | Response to entrectinib (not eribulin) in NTRK-fusion malignant peripheral nerve sheath tumor; included via disease-class linkage, not eribulin-specific — weak relevance |
+| [38136399](https://pubmed.ncbi.nlm.nih.gov/38136399/) | 2023 | Übersichtsartikel | Cancers | Diagnostik und Behandlungslandschaft des extrameningealen SFT; diskutiert Chemotherapie einschließlich Mikrotubuli-targeting Mittel |
+| [28284173](https://pubmed.ncbi.nlm.nih.gov/28284173/) | 2017 | Präklinisch (PDX) | Eur J Cancer | Patientengestützte SFT-Xenotransplantate sagen Empfindlichkeit gegenüber Doxorubicin/Dacarbazin voraus und heben Eribulin/Trabectedin als möglicherweise wirksam hervor |
+| [38423656](https://pubmed.ncbi.nlm.nih.gov/38423656/) | 2024 | Präklinisch (in vitro) | Anticancer Research | Rekombinante Methioninase wirkt synergistisch mit Eribulin gegen Fibrosarkom-Zellen, verschont aber normale Fibroblasten |
+| [39197933](https://pubmed.ncbi.nlm.nih.gov/39197933/) | 2024 | Präklinisch (in vitro) | Anticancer Research | Rekombinante Methioninase erhöht die Eribulin-Wirksamkeit um das 16-fache in eribulin-resistenten HT1080-Fibrosarkom-Zellen |
+| [40295012](https://pubmed.ncbi.nlm.nih.gov/40295012/) | 2025 | Präklinisch (in vivo) | In Vivo | Super-eribulin-resistente Fibrosarkom-Zellen werden maligner, werden aber synergistisch durch Eribulin + Methionin-Restriktion bei Mäusen kontrolliert |
+| [39625530](https://pubmed.ncbi.nlm.nih.gov/39625530/) | 2024 | Präklinisch (Zellkultur) | Human Cell | Etablierung einer neuen Myxofibrosarkom-Zelllinie (SMU-MFS) für zukünftige Arzneimitteltests, einschließlich Mikrotubuli-targeting Mittel |
+| [34383271](https://pubmed.ncbi.nlm.nih.gov/34383271/) | 2021 | Präklinisch (Zellkultur) | Human Cell | Etablierung einer patientengestützten Myxofibrosarkom-Zelllinie (NCC-MFS4-C1) als Modell für die Behandlungsentwicklung |
+| [35906852](https://pubmed.ncbi.nlm.nih.gov/35906852/) | 2023 | Fallbericht | Genes Chromosomes Cancer | Ansprechen auf Entrectinib (nicht Eribulin) bei NTRK-Fusion malignem peripherem Nervenscheidentumor; einbezogen über Erkrankungsklassen-Verknüpfung, nicht Eribulin-spezifisch — schwache Relevanz |
 
 ---
 
-## Germany Market Information
+## Marktinformation Deutschland
 
-Eribulin currently holds **no marketing authorization in Germany** (0 licenses on file); no product/dosage-form data is available in this evidence pack.
-
----
-
-## Cytotoxicity
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (microtubule-dynamics inhibitor / anti-mitotic agent) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions (no toxicity data in this dataset) |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Antineoplastic agent — cytotoxic drug handling precautions apply per institutional protocol |
+Eribulin hält derzeit **keine Zulassung in Deutschland** (0 Lizenzen in der Datei); keine Produkt-/Darreichungsformdaten sind in diesem Evidenzpaket verfügbar.
 
 ---
 
-## Safety Considerations
+## Zytotoxizität
 
-Please refer to the package insert for safety information. Key warnings, contraindications, and drug interaction data are not available in this evidence pack (flagged as a Blocking data gap pending TFDA label acquisition).
+| Element | Inhalt |
+|--------|--------|
+| Zytotoxizitätsklassifizierung | Konventionelle Zytotoxika (Inhibitor der Mikrotubuli-Dynamik / Anti-Mitose-Mittel) |
+| Myelosuppression-Risiko | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Gebrauchsinformation (keine Toxizitätsdaten in diesem Datensatz) |
+| Emetogenitätsklassifizierung | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Gebrauchsinformation |
+| Überwachungselemente | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Gebrauchsinformation |
+| Schutzmaßnahmen beim Umgang | Antineoplastisches Mittel — Handhabungsvorsichtsmaßnahmen für zytotoxische Arzneimittel nach institutionellem Protokoll erforderlich |
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsaspekte
 
-**Decision: Proceed with Guardrails**
+Bitte beachten Sie die Gebrauchsinformation für Sicherheitsinformationen. Wichtige Warnhinweise, Kontraindikationen und Arzneimittelwechselwirkungsdaten sind in diesem Evidenzpaket nicht verfügbar (gekennzeichnet als blockierende Datenlücke, ausstehend: Beschaffung der TFDA-Kennzeichnung).
 
-**Rationale:**
-Fibroblastic neoplasm is the only one of 10 TxGNN-predicted indications backed by a completed clinical trial and a consistent body of preclinical literature; however, the trial is small (n=16), non-randomized, and no comparator or survival endpoints are reported in this pack, so evidence remains preliminary (L3).
+---
 
-**To proceed, the following is needed:**
-- TFDA/German label data (warnings, contraindications) — currently a Blocking data gap preventing full S1 safety review
-- Structured MOA data from DrugBank to formally confirm the microtubule-inhibition mechanism
-- Efficacy/safety results (not just trial registration) from NCT03840772
-- A larger, ideally randomized trial in SFT/fibrosarcoma to move beyond L3
-- DDI and contraindication profile before advancing past current review stage
-- Regulatory/access pathway assessment given eribulin is not currently marketed in Germany
+## Fazit und nächste Schritte
+
+**Entscheidung: Fortfahren mit Schutzmaßnahmen**
+
+**Begründung:**
+Fibroblastisches Neoplasma ist der einzige der 10 durch TxGNN vorhergesagten Indikationen, der durch eine abgeschlossene klinische Studie und konsistente präklinische Literatur gestützt wird; allerdings ist die Studie klein (n=16), nicht randomisiert, und weder Vergleichsgruppe noch Überlebensergebnisse sind in diesem Paket berichtet, daher bleibt die Evidenz vorläufig (L3).
+
+**Um fortzufahren, wird Folgendes benötigt:**
+- TFDA/Deutsche Kennzeichnungsdaten (Warnhinweise, Kontraindikationen) — derzeit eine blockierende Datenlücke, die eine vollständige S1-Sicherheitsprüfung verhindert
+- Strukturierte MOA-Daten von DrugBank zur formalen Bestätigung des Mikrotubuli-Inhibitions-Mechanismus
+- Wirksamkeits-/Sicherheitsergebnisse (nicht nur Studienregistrierung) aus NCT03840772
+- Eine größere, idealerweise randomisierte Studie in SFT/Fibrosarkom, um über L3 hinauszugehen
+- DDI- und Kontraindikationsprofil vor Fortgang über die aktuelle Überprüfungsphase hinaus
+- Bewertung des regulatorischen Zugangswegs angesichts der Tatsache, dass Eribulin derzeit nicht auf dem deutschen Markt vermarktet wird
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

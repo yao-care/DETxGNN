@@ -29,93 +29,94 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Efavirenz: From HIV-1 Infection to Simian Immunodeficiency Virus Infection
+# Efavirenz: Von der HIV-1-Infektion zur Simian-Immunodeficiency-Virus-Infektion
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Efavirenz is a non-nucleoside reverse transcriptase inhibitor (NNRTI) originally developed for HIV-1 infection (based on general pharmacological knowledge; no verified BfArM label is present in this Evidence Pack).
-The TxGNN model predicts it may be effective for **Simian Immunodeficiency Virus (SIV) Infection**,
-but this signal is supported by only **1 clinical trial (unrelated drug, withdrawn)** and **14 publications, all preclinical macaque-model studies** — evidence is weak and largely does not describe a human clinical indication.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available in this Evidence Pack — no BfArM authorization on file (0 licenses); efavirenz is generally known as an HIV-1 NNRTI, but this is not confirmed by regulatory data here |
-| Predicted New Indication | Simian Immunodeficiency Virus Infection |
-| TxGNN Prediction Score | 99.80% |
-| Evidence Level | L3 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Efavirenz ist ein Nicht-Nukleosid-Reverse-Transkriptase-Hemmer (NNRTI), ursprünglich für die HIV-1-Infektion entwickelt (basierend auf allgemeinem pharmakologischen Wissen; keine verifizierte BfArM-Kennzeichnung liegt in diesem Evidence Pack vor).
+Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam für **Simian-Immunodeficiency-Virus-Infektion (SIV-Infektion)** ist,
+aber dieses Signal wird nur durch **1 klinische Studie (anderes Arzneimittel, zurückgezogen)** und **14 Publikationen, alle präklinische Makaken-Modellstudien** unterstützt – die Evidenz ist schwach und beschreibt größtenteils keine klinische Indikation beim Menschen.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Currently, detailed mechanism of action data is not available (flagged as Data Gap DG002, High severity). Based on general pharmacological knowledge, efavirenz is an NNRTI that blocks HIV-1 reverse transcriptase; its efficacy in HIV-1 infection is well established in the literature, though this could not be verified against structured DrugBank data in this pack.
-
-The predicted "new indication" — SIV infection — is not a naturally occurring human disease. It refers to a laboratory model: researchers have engineered a chimeric virus (RT-SHIV) by replacing the SIV reverse transcriptase gene with the HIV-1 reverse transcriptase gene, making it susceptible to NNRTIs like efavirenz in rhesus macaques. This allows efavirenz to suppress viral load in RT-SHIV-infected macaques (e.g., PMID 15919889, 19889213), which is almost certainly the source of the TxGNN association. Natural, non-engineered SIV is intrinsically resistant to efavirenz because wild-type SIV reverse transcriptase differs structurally from HIV-1 RT.
-
-This means the mechanistic link is real but narrow: it applies only to an engineered laboratory tool used to study HIV pharmacokinetics and drug resistance in nonhuman primates, not to a genuine new human (or animal) therapeutic indication. Rank 2 (feline AIDS) has a similar limitation — FIV reverse transcriptase differs substantially from HIV-1 RT, and human NNRTIs including efavirenz show weak activity against wild-type FIV. Rank 3 (a rare pediatric neurodevelopmental disorder) has no mechanistic rationale and no supporting evidence at all, while efavirenz carries known CNS-related risks (dizziness, abnormal dreams, suicidal ideation) that would raise concern in this population.
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Nicht verfügbar in diesem Evidence Pack – keine BfArM-Zulassung dokumentiert (0 Lizenzen); Efavirenz ist allgemein als HIV-1-NNRTI bekannt, dies wird hier jedoch nicht durch regulatorische Daten bestätigt |
+| Vorhergesagte neue Indikation | Simian-Immunodeficiency-Virus-Infektion |
+| TxGNN-Vorhersage-Score | 99.80% |
+| Evidenzstufe | L3 |
+| Marktstatus Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Pausieren |
 
 ---
 
-## Clinical Trial Evidence
+## Warum ist diese Vorhersage sinnvoll?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Derzeit sind detaillierte Daten zum Wirkmechanismus nicht verfügbar (gekennzeichnet als Datenlücke DG002, hoher Schweregrad). Basierend auf allgemeinem pharmakologischen Wissen ist Efavirenz ein NNRTI, der die HIV-1-Reverse-Transkriptase blockiert; seine Wirksamkeit bei der HIV-1-Infektion ist in der Literatur gut belegt, konnte jedoch in diesem Pack nicht anhand strukturierter DrugBank-Daten verifiziert werden.
+
+Die vorhergesagte „neue Indikation" – SIV-Infektion – ist keine natürlich auftretende menschliche Krankheit. Sie bezieht sich auf ein Labormodell: Forscher haben ein chimärisches Virus (RT-SHIV) entwickelt, indem sie das SIV-Reverse-Transkriptase-Gen durch das HIV-1-Reverse-Transkriptase-Gen ersetzt haben, wodurch es anfällig für NNRTIs wie Efavirenz in Rhesus-Makaken wird. Dies ermöglicht es Efavirenz, die Viruslast bei RT-SHIV-infizierten Makaken zu unterdrücken (z. B. PMID 15919889, 19889213), was fast sicher die Quelle der TxGNN-Assoziation ist. Natürliches, nicht-gentechnisch verändertes SIV ist von Natur aus resistent gegen Efavirenz, da sich die Wildtyp-SIV-Reverse-Transkriptase strukturell von der HIV-1-RT unterscheidet.
+
+Dies bedeutet, dass die mechanistische Verbindung real ist, aber eng gefasst: Sie gilt nur für ein gentechnisch verändertes Laborwerkzeug, das zur Untersuchung der HIV-Pharmakokinetik und Arzneimittelresistenz bei nichtmenschlichen Primaten verwendet wird, nicht für eine echte neue therapeutische Indikation beim Menschen (oder bei Tieren). Rang 2 (Feline-AIDS) hat eine ähnliche Einschränkung – die FIV-Reverse-Transkriptase unterscheidet sich wesentlich von der HIV-1-RT, und humane NNRTIs einschließlich Efavirenz zeigen schwache Aktivität gegen Wildtyp-FIV. Rang 3 (eine seltene neurodevelopmentale Störung im Kindesalter) hat keine mechanistische Begründung und keine unterstützenden Belege, während Efavirenz mit bekannten ZNS-bezogenen Risiken (Schwindel, abnorme Träume, Suizidgedanken) verbunden ist, die bei dieser Population Bedenken aufwerfen würden.
+
+---
+
+## Evidenz aus klinischen Studien
+
+| Studiennummer | Phase | Status | Teilnehmerzahl | Wichtigste Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT00863668](https://clinicaltrials.gov/study/NCT00863668) | NA | Withdrawn | 0 | Studied HIV viral decay kinetics with **raltegravir** (an integrase inhibitor), not efavirenz; comparison referenced SIV-infected macaque decay kinetics as background only. Trial was withdrawn (enrollment 0) and is graded **C (low relevance)** — drug and study population do not match this candidate. |
+| [NCT00863668](https://clinicaltrials.gov/study/NCT00863668) | NA | Zurückgezogen | 0 | Untersuchte HIV-Virusdauer-Kinetik mit **Raltegravir** (ein Integrase-Hemmer), nicht Efavirenz; die Vergleichsgruppe verwies nur auf SIV-infizierte Makaken-Dauer-Kinetik als Hintergrund. Die Studie wurde zurückgezogen (Teilnehmerzahl 0) und wird bewertet mit **C (niedrige Relevanz)** – das Arzneimittel und die Studienpopulation entsprechen nicht diesem Kandidaten. |
 
-*No trials directly evaluating efavirenz in SIV infection were identified.*
+*Es wurden keine Studien gefunden, die Efavirenz bei SIV-Infektion direkt evaluieren.*
 
 ---
 
-## Literature Evidence
+## Evidenz aus der Literatur
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Journal | Wichtigste Ergebnisse |
 |------|-----|------|------|---------|
-| [15328115](https://pubmed.ncbi.nlm.nih.gov/15328115/) | 2004 | Cohort (preclinical) | Antimicrob Agents Chemother | First demonstration that efavirenz suppresses RT-SHIV (chimeric SIV carrying HIV-1 RT) replication in rhesus macaques |
-| [15919889](https://pubmed.ncbi.nlm.nih.gov/15919889/) | 2005 | Cohort (preclinical) | J Virol | Efavirenz + lamivudine + tenofovir combination suppressed RT-SHIV viral load in macaques, modeling human HAART |
-| [19889213](https://pubmed.ncbi.nlm.nih.gov/19889213/) | 2009 | Cohort (preclinical) | Retrovirology | Short-course efavirenz monotherapy followed by combination ART in RT-SHIV-infected macaques; tracked viral subpopulation dynamics |
-| [21084490](https://pubmed.ncbi.nlm.nih.gov/21084490/) | 2011 | Review/Cohort | J Virol | Efavirenz monotherapy in pigtail macaques prior to combination ART; genetic diversity of RT-SHIV persisted despite treatment |
-| [24777106](https://pubmed.ncbi.nlm.nih.gov/24777106/) | 2014 | Cohort (preclinical) | Antimicrob Agents Chemother | Enhanced 4–5 drug ART regimens (context includes efavirenz-based models) improved RT-SHIV decay kinetics in macaques |
-| [20668516](https://pubmed.ncbi.nlm.nih.gov/20668516/) | 2010 | Preclinical | PLoS One | Characterized viral decay kinetics in HAART-treated RT-SHIV macaque model of AIDS |
-| [26559632](https://pubmed.ncbi.nlm.nih.gov/26559632/) | 2015 | Preclinical | Retrovirology | Plasma/tissue viral population analysis in RT-SHIV macaques on ART suggests no residual tissue replication |
-| [20032180](https://pubmed.ncbi.nlm.nih.gov/20032180/) | 2010 | Preclinical | J Virol | Identified viral sanctuaries persisting during HAART in the RT-SHIV nonhuman primate AIDS model |
-| [22933296](https://pubmed.ncbi.nlm.nih.gov/22933296/) | 2012 | In vitro | J Virol | Ultrasensitive PCR detected rare pre-existing drug-resistant RT-SHIV variants in macaques prior to ART |
-| [35856680](https://pubmed.ncbi.nlm.nih.gov/35856680/) | 2022 | In vitro/Imaging | Antimicrob Agents Chemother | Mass spectrometry imaging mapped antiretroviral drug distribution and residual RT-SHIV RNA in macaque spleen tissue |
+| [15328115](https://pubmed.ncbi.nlm.nih.gov/15328115/) | 2004 | Kohorte (präklinisch) | Antimicrob Agents Chemother | Erste Demonstration, dass Efavirenz die RT-SHIV-Replikation (chimäres SIV mit HIV-1-RT) in Rhesus-Makaken unterdrückt |
+| [15919889](https://pubmed.ncbi.nlm.nih.gov/15919889/) | 2005 | Kohorte (präklinisch) | J Virol | Efavirenz + Lamivudin + Tenofovir-Kombination unterdrückte RT-SHIV-Viruslast bei Makaken, modelliert humane HAART |
+| [19889213](https://pubmed.ncbi.nlm.nih.gov/19889213/) | 2009 | Kohorte (präklinisch) | Retrovirology | Efavirenz-Monotherapie mit kurzer Dauer gefolgt von Kombinationstherapie bei RT-SHIV-infizierten Makaken; Verfolgung der Dynamik viraler Subpopulationen |
+| [21084490](https://pubmed.ncbi.nlm.nih.gov/21084490/) | 2011 | Übersicht/Kohorte | J Virol | Efavirenz-Monotherapie bei Schweinehals-Makaken vor Kombinationstherapie; genetische Vielfalt von RT-SHIV blieb trotz Behandlung bestehen |
+| [24777106](https://pubmed.ncbi.nlm.nih.gov/24777106/) | 2014 | Kohorte (präklinisch) | Antimicrob Agents Chemother | Verbesserte 4–5-Wirkstoff-ART-Regime (im Kontext werden Efavirenz-basierte Modelle berücksichtigt) verbesserten die RT-SHIV-Dauer-Kinetik bei Makaken |
+| [20668516](https://pubmed.ncbi.nlm.nih.gov/20668516/) | 2010 | Präklinisch | PLoS One | Charakterisierte virale Dauer-Kinetik im mit HAART behandelten RT-SHIV-Makaken-Modell des AIDS |
+| [26559632](https://pubmed.ncbi.nlm.nih.gov/26559632/) | 2015 | Präklinisch | Retrovirology | Analyse der Plasma- und Gewebe-Viruspopulation bei RT-SHIV-Makaken unter ART deutet darauf hin, dass keine Residualreplikation im Gewebe auftritt |
+| [20032180](https://pubmed.ncbi.nlm.nih.gov/20032180/) | 2010 | Präklinisch | J Virol | Identifizierte virale Rückzugsorte, die während HAART im RT-SHIV-Nichtmenschliches-Primat-AIDS-Modell persistieren |
+| [22933296](https://pubmed.ncbi.nlm.nih.gov/22933296/) | 2012 | In vitro | J Virol | Ultrasensitive PCR detektierte seltene präexistierende arzneimittelresistente RT-SHIV-Varianten bei Makaken vor ART |
+| [35856680](https://pubmed.ncbi.nlm.nih.gov/35856680/) | 2022 | In vitro/Bildgebung | Antimicrob Agents Chemother | Massenspektrometrie-Bildgebung kartierte Antiretrovirale-Arzneimittelverteilung und Residual-RT-SHIV-RNA im Makaken-Milzgewebe |
 
-**Note:** All identified literature describes the engineered RT-SHIV macaque research model used to study human HIV-1 pharmacology and resistance — none describes treatment of naturally occurring SIV infection as a disease target.
-
----
-
-## Germany Market Information
-
-Efavirenz currently holds **no marketing authorization on record** in this Evidence Pack (0 licenses; market status: not marketed). BfArM label content (warnings, contraindications, approved indications) could not be retrieved and is tracked as **Data Gap DG001 (Blocking)**.
+**Anmerkung:** Die gesamte identifizierte Literatur beschreibt das gentechnisch veränderte RT-SHIV-Makaken-Forschungsmodell, das zur Untersuchung der menschlichen HIV-1-Pharmakologie und Resistenz verwendet wird – keine beschreibt die Behandlung von natürlich auftretender SIV-Infektion als Krankheitsziel.
 
 ---
 
-## Safety Considerations
+## Informationen zum Markt Deutschland
 
-Please refer to the package insert for safety information. Structured warning, contraindication, and drug-interaction data (TFDA/BfArM label) are not yet available for efavirenz in this Evidence Pack — retrieval of the official label PDF is tracked as Data Gap DG001 (Blocking), which currently prevents a full S1 safety review.
+Efavirenz besitzt derzeit **keine dokumentierte Marktgenehmigung** in diesem Evidence Pack (0 Lizenzen; Marktstatus: nicht vermarktet). Der BfArM-Labelinhalt (Warnhinweise, Kontraindikationen, zugelassene Indikationen) konnte nicht abgerufen werden und wird als **Datenlücke DG001 (blockierend)** dokumentiert.
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsaspekte
 
-**Decision: Hold**
+Bitte beachten Sie die Fachinformation für Sicherheitsinformationen. Strukturierte Warnhinweise, Kontraindikations- und Arzneimittelwechselwirkungsdaten (TFDA/BfArM-Labeltext) sind derzeit für Efavirenz in diesem Evidence Pack nicht verfügbar – der Abruf der offiziellen Label-PDF ist als Datenlücke DG001 (blockierend) dokumentiert, was derzeit einen vollständigen S1-Sicherheitsreview verhindert.
 
-**Rationale:**
-The top-ranked predicted indication (SIV infection) reflects an engineered laboratory research model (RT-SHIV in macaques) rather than a genuine treatable disease target; the only associated clinical trial is unrelated and withdrawn; and both regulatory safety data (DG001, Blocking) and mechanism-of-action data (DG002, High) are missing, preventing progression past S0.
+---
 
-**To proceed, the following is needed:**
-- Retrieve and parse the official TFDA/BfArM label PDF for warnings and contraindications (DG001)
-- Query DrugBank (or equivalent) to confirm and document efavirenz's mechanism of action (DG002)
-- Clarify with the TxGNN/evidence pipeline whether "simian immunodeficiency virus infection" should be excluded as a non-human, model-only node, since it does not represent an actionable repurposing target
-- Re-screen ranks 2 (feline AIDS — veterinary, not human) and 3 (ultra-rare neurodevelopmental disorder — no evidence, potential CNS safety conflict) before considering any further evaluation of this candidate set
+## Fazit und nächste Schritte
+
+**Entscheidung: Pausieren**
+
+**Begründung:**
+Die höchstrangige vorhergesagte Indikation (SIV-Infektion) spiegelt ein gentechnisch verändertes Laborforschungsmodell (RT-SHIV bei Makaken) wider, nicht ein echtes behandelbares Krankheitsziel; die einzige zugehörige klinische Studie ist unabhängig und zurückgezogen; und sowohl Regulierungssicherheitsdaten (DG001, blockierend) als auch Wirkmechanismus-Daten (DG002, hoch) fehlen, wodurch ein Fortschritt über S0 hinaus verhindert wird.
+
+**Für einen Fortschritt ist folgendes erforderlich:**
+- Abruf und Analyse der offiziellen TFDA/BfArM-Label-PDF für Warnhinweise und Kontraindikationen (DG001)
+- Abfrage von DrugBank (oder gleichwertig) zur Bestätigung und Dokumentation des Efavirenz-Wirkmechanismus (DG002)
+- Klärung mit der TxGNN/Evidence-Pipeline, ob „Simian-Immunodeficiency-Virus-Infektion" als nicht-menschlicher, nur Modell-relevanter Knoten ausgeschlossen werden sollte, da er kein verwertbares Repurposing-Ziel darstellt
+- Erneute Überprüfung der Ränge 2 (Feline-AIDS – Veterinärmedizin, nicht humanmedizinisch) und 3 (ultra-seltene neurodevelopmentale Störung im Kindesalter – keine Evidenz, potenzieller ZNS-Sicherheitskonflikt) vor Erwägung einer weiteren Evaluierung dieses Kandidatensatzes
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

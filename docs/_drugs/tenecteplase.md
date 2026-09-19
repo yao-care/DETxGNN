@@ -29,86 +29,87 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Tenecteplase: From STEMI Thrombolysis to Adjunctive Intracoronary Use in Coronary Stenosis
+# Tenecteplase: Von STEMI-Thrombolyse zu adjuvanter intrakoronarer Anwendung bei Koronarstenose
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Tenecteplase is a third-generation recombinant tissue plasminogen activator, established as a standard IV thrombolytic for ST-elevation myocardial infarction (STEMI). Among ten TxGNN-predicted indications, most (ranks 1–3, 6–10) are either anatomical ECG subtypes of STEMI already within its known mechanism, or disease-embedding false positives with no biological plausibility. The one candidate with real supporting evidence is **Coronary Stenosis** — low-dose intracoronary tenecteplase as an adjunct during primary PCI — backed by **1 completed Phase 2 RCT** and **12 supporting publications**.
+Tenecteplase ist ein rekombinanter Tissue-Plasminogen-Aktivator der dritten Generation, etabliert als Standard-IV-Thrombolytikum für Myokardinfarkt mit ST-Strecken-Hebung (STEMI). Unter zehn durch TxGNN vorhergesagten Indikationen sind die meisten (Ränge 1–3, 6–10) entweder anatomische EKG-Subtypen des STEMI, die bereits in seinen bekannten Wirkungsmechanismus enthalten sind, oder Krankheits-Embedding-Falsch-Positive ohne biologische Plausibilität. Der einzige Kandidat mit echten unterstützenden Beweisen ist **Koronarstenose** — intrakoronare Tenecteplase in niedriger Dosis als Zusatztherapie während primärer PCI — gestützt durch **1 abgeschlossene Phase-2-RCT** und **12 unterstützende Publikationen**.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Punkt | Inhalt |
 |------|------|
-| Original Indication | STEMI thrombolysis (per repurposing rationale text; no official label text available — drug not marketed in Germany) |
-| Predicted New Indication | Coronary Stenosis (adjunctive low-dose intracoronary use during primary PCI) |
-| TxGNN Prediction Score | 99.53% |
-| Evidence Level | L2 |
-| Germany Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Ursprüngliche Indikation | STEMI-Thrombolyse (gemäß Umwidmungsrationale-Text; kein offizieller Packungsbeilage-Text verfügbar – Arzneimittel nicht in Deutschland vermarktet) |
+| Vorhergesagte neue Indikation | Koronarstenose (adjuvante intrakoronare Anwendung in niedriger Dosis während primärer PCI) |
+| TxGNN-Vorhersage-Score | 99.53% |
+| Evidenzstufe | L2 |
+| Marktstatus in Deutschland | Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Fortführung unter Schutzmaßnahmen |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage sinnvoll?
 
-Currently, detailed mechanism of action data is not available (data gap, high severity). Based on the information present in this evidence pack, tenecteplase is a fibrin-specific tPA variant that activates plasminogen→plasmin to dissolve thrombus; it is already the standard thrombolytic for STEMI. In this context, "coronary stenosis" is not a wholly separate disease but a description of the culprit lesion treated during primary PCI — low-dose **intracoronary** (rather than systemic IV) tenecteplase given at the time of balloon angioplasty is hypothesized to dissolve residual thrombus at the lesion site and improve microvascular perfusion, reducing distal embolization.
+Derzeit sind detaillierte Wirkmechanismus-Daten nicht verfügbar (Datenlücke, hoher Schweregrad). Basierend auf den in diesem Beweispaket vorhandenen Informationen ist Tenecteplase eine Fibrin-spezifische tPA-Variante, die Plasminogen→Plasmin aktiviert, um Thrombus aufzulösen; sie ist bereits das Standard-Thrombolytikum für STEMI. In diesem Kontext ist „Koronarstenose" keine völlig separate Krankheit, sondern eine Beschreibung der Läsionsstelle, die während primärer PCI behandelt wird – intrakoronare Tenecteplase in niedriger Dosis (anstatt systemisch IV), verabreicht zum Zeitpunkt der Ballondilatation, soll residualen Thrombus an der Läsionsstelle auflösen und die mikrovaskuläre Perfusion verbessern, um die distale Embolisierung zu reduzieren.
 
-It is worth noting that TxGNN ranked three other candidates higher by raw score — posterolateral, posteroinferior, and septal myocardial infarction (ranks 1–3). These are not independent diseases but ECG-based anatomical classifications of STEMI itself, so they fall squarely within tenecteplase's already-established indication rather than representing genuine repurposing. None of the three has direct supporting clinical trials, and only septal MI has tangential literature (a misdiagnosed PE case and a general PE-efficacy study). Ranks 6–10 (chromosomal deletion syndromes, thalassemia, red-cell enzyme deficiencies, hereditary pyropoikilocytosis) have no known link to the fibrinolytic pathway and are best treated as knowledge-graph embedding noise. Coronary stenosis (rank 5) is therefore the only candidate with real actionable evidence, and this report focuses on it.
+Es ist zu beachten, dass TxGNN drei weitere Kandidaten höher nach Rohscore eingestuft hat – posterolaterale, posteroinferior- und septale Myokardinfarkte (Ränge 1–3). Dies sind keine unabhängigen Krankheiten, sondern EKG-basierte anatomische Klassifikationen des STEMI selbst, daher fallen sie genau in Tenecteplases bereits etablierte Indikation anstatt echte Umwidmung zu vertreten. Keiner der drei hat direkt unterstützende klinische Studien, und nur septale MI hat tangentielle Literatur (ein falsch diagnostizierter PE-Fall und eine allgemeine PE-Wirksamkeitsstudie). Ränge 6–10 (chromosomale Deletions-Syndrome, Thalassämie, Enzymdefekte der roten Blutkörperchen, hereditäre Pyropoikilozytoze) haben keine bekannte Verbindung zum fibrinolytischen Weg und sind am besten als Wissens-Graphen-Embedding-Rauschen zu behandeln. Koronarstenose (Rang 5) ist daher der einzige Kandidat mit echten handlungsfähigen Beweisen, und dieser Bericht konzentriert sich darauf.
 
 ---
 
-## Clinical Trial Evidence
+## Klinische Studienevidenz
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Studiennummer | Phase | Status | Zahl der Teilnehmer | Wichtigste Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT00604695](https://clinicaltrials.gov/study/NCT00604695) | Phase 2 | Completed | 40 | ICE-T trial: evaluated low-dose intracoronary tenecteplase as an adjunct during balloon angioplasty for STEMI; hypothesis that IC tenecteplase enhances clot breakdown at the culprit lesion, reducing myocardial damage. |
+| [NCT00604695](https://clinicaltrials.gov/study/NCT00604695) | Phase 2 | Abgeschlossen | 40 | ICE-T-Studie: Bewertung von intrakoronarer Tenecteplase in niedriger Dosis als Zusatztherapie während Ballondilatation bei STEMI; Hypothese, dass intrakoronare Tenecteplase die Blutgerinnsel-Auflösung an der Läsionsstelle verbessert, um Myokardschäden zu reduzieren. |
 
 ---
 
-## Literature Evidence
+## Literaturbeweise
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Zeitschrift | Wichtigste Ergebnisse |
 |------|-----|------|------|---------|
-| [17102829](https://pubmed.ncbi.nlm.nih.gov/17102829/) | 2006 | RCT | Canadian Journal of Cardiology | TRANSFER-AMI pilot: feasibility of urgent PCI transfer shortly after thrombolysis for STEMI. |
-| [16053952](https://pubmed.ncbi.nlm.nih.gov/16053952/) | 2005 | RCT | Journal of the American College of Cardiology | CAPITAL AMI study: tenecteplase-facilitated angioplasty vs. tenecteplase alone in high-risk STEMI. |
-| [31870492](https://pubmed.ncbi.nlm.nih.gov/31870492/) | 2020 | Cohort/Feasibility | American Journal of Cardiology | ICE-T-TIMI-49: feasibility and safety of low-dose IC tenecteplase (4 mg) vs. saline during primary PCI, randomized 40 patients. |
-| [16139127](https://pubmed.ncbi.nlm.nih.gov/16139127/) | 2005 | Cohort | Journal of the American College of Cardiology | Pre-procedural intracoronary fibrin-specific lytic infusion facilitates recanalization of chronic total occlusions. |
-| [37199147](https://pubmed.ncbi.nlm.nih.gov/37199147/) | 2023 | Cohort | Circulation | Shorter door-to-needle times associated with better outcomes after IV thrombolysis + endovascular thrombectomy in acute ischemic stroke. |
-| [11994554](https://pubmed.ncbi.nlm.nih.gov/11994554/) | 2002 | Cohort | Journal of Thrombosis and Thrombolysis | Precordial ST depression in inferior MI associated with slow flow in non-culprit LAD. |
-| [23615379](https://pubmed.ncbi.nlm.nih.gov/23615379/) | 2013 | Review | Cerebrovascular Diseases | Historical perspective and future opportunities for thrombolytics in acute ischaemic stroke. |
-| [37823944](https://pubmed.ncbi.nlm.nih.gov/37823944/) | 2023 | Case Report | Egyptian Heart Journal | Clopidogrel resistance leading to subacute stent thrombosis in a resource-limited setting. |
-| [25733729](https://pubmed.ncbi.nlm.nih.gov/25733729/) | 2016 | Case Report | Human & Experimental Toxicology | Thrombolytic therapy in inferolateral MI following carbon monoxide poisoning. |
-| [31020237](https://pubmed.ncbi.nlm.nih.gov/31020237/) | 2019 | Case Report | European Heart Journal Case Reports | Successful stent-retriever extraction of refractory thrombus from an ectatic coronary artery during primary angioplasty. |
+| [17102829](https://pubmed.ncbi.nlm.nih.gov/17102829/) | 2006 | RCT | Canadian Journal of Cardiology | TRANSFER-AMI-Pilotstudie: Machbarkeit der dringenden PCI-Verlegung kurz nach Thrombolyse bei STEMI. |
+| [16053952](https://pubmed.ncbi.nlm.nih.gov/16053952/) | 2005 | RCT | Journal of the American College of Cardiology | CAPITAL-AMI-Studie: Tenecteplase-facilitierte Angioplastie vs. Tenecteplase allein bei hochriskanten STEMI. |
+| [31870492](https://pubmed.ncbi.nlm.nih.gov/31870492/) | 2020 | Kohorte/Machbarkeit | American Journal of Cardiology | ICE-T-TIMI-49: Machbarkeit und Sicherheit von intrakoronarer Tenecteplase in niedriger Dosis (4 mg) vs. Kochsalzlösung während primärer PCI, randomisiert 40 Patienten. |
+| [16139127](https://pubmed.ncbi.nlm.nih.gov/16139127/) | 2005 | Kohorte | Journal of the American College of Cardiology | Präprozedural-intrakoronare Fibrin-spezifische Lyse-Infusion erleichtert die Rekanalisation chronisch-verschlossener Koronararterien. |
+| [37199147](https://pubmed.ncbi.nlm.nih.gov/37199147/) | 2023 | Kohorte | Circulation | Kürzere Tür-zu-Nadel-Zeiten verbunden mit besseren Ergebnissen nach IV-Thrombolyse + endovaskulärer Thrombektomie bei akutem ischämischem Schlaganfall. |
+| [11994554](https://pubmed.ncbi.nlm.nih.gov/11994554/) | 2002 | Kohorte | Journal of Thrombosis and Thrombolysis | ST-Depression präkordial bei inferiorem MI verbunden mit langsamem Blutfluss in nicht-Läsions-LAD. |
+| [23615379](https://pubmed.ncbi.nlm.nih.gov/23615379/) | 2013 | Übersichtsartikel | Cerebrovascular Diseases | Historische Perspektive und zukünftige Möglichkeiten für Thrombolytika bei akutem ischämischem Schlaganfall. |
+| [37823944](https://pubmed.ncbi.nlm.nih.gov/37823944/) | 2023 | Fallbericht | Egyptian Heart Journal | Clopidogrel-Resistenz führend zu subakuter Stent-Thrombose in einer ressourcenbegrenzten Umgebung. |
+| [25733729](https://pubmed.ncbi.nlm.nih.gov/25733729/) | 2016 | Fallbericht | Human & Experimental Toxicology | Thrombolytische Therapie bei inferolateralem MI nach Kohlenmonoxid-Vergiftung. |
+| [31020237](https://pubmed.ncbi.nlm.nih.gov/31020237/) | 2019 | Fallbericht | European Heart Journal Case Reports | Erfolgreiche Stent-Retriever-Extraktion von refraktärer Thrombose aus einer ektasischen Koronararterie während primärer Angioplastie. |
 
 ---
 
-## Germany Market Information
+## Informationen zum Marktstatus in Deutschland
 
-Tenecteplase currently has no marketing authorization on record in Germany (0 authorizations; market status: Not Marketed). No product-level licensing data is available for review.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. No structured warnings, contraindications, or drug-drug interaction data are currently available in this evidence pack (key safety data and TFDA/BfArM label information are flagged as a **Blocking** data gap for the S1 safety review).
+Tenecteplase hat derzeit keine dokumentierte Zulassung auf dem deutschen Markt (0 Zulassungen; Marktstatus: Nicht vermarktet). Es sind keine Produktebenen-Lizenzierungsdaten für die Überprüfung verfügbar.
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsüberlegungen
 
-**Decision: Proceed with Guardrails**
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. Es sind derzeit keine strukturierten Warnhinweise, Kontraindikationen oder Arzneimittelwechselwirkungsdaten in diesem Beweispaket verfügbar (wichtige Sicherheitsdaten und TFDA/BfArM-Packungsbeilage-Informationen sind als **Blockierender** Datenlücke für die S1-Sicherheitsüberprüfung gekennzeichnet).
 
-**Rationale:**
-Coronary stenosis (adjunctive low-dose intracoronary tenecteplase during primary PCI) is the only candidate among the ten TxGNN predictions with actual clinical evidence — a completed Phase 2 RCT plus supportive cohort and RCT literature — reaching evidence level L2. However, this is an adjunctive procedural use with a narrow dose/route (low-dose intracoronary bolus) rather than a new systemic indication, and no head-to-head efficacy/outcome data exists yet for a formal "coronary stenosis" label.
+---
 
-**To proceed, the following is needed:**
-- Official label/warnings data (TFDA or BfArM) to complete the S1 safety review — currently blocking
-- Detailed mechanism of action documentation from DrugBank
-- Dose-response and bleeding-risk safety data specific to low-dose intracoronary administration
-- Drug-drug interaction data (currently not found)
-- Formal exclusion of ranks 1–3 (STEMI ECG subtypes — mechanistically non-novel, no direct evidence) and ranks 6–10 (no mechanistic plausibility, likely embedding noise) from further repurposing consideration
+## Fazit und nächste Schritte
+
+**Entscheidung: Fortführung unter Schutzmaßnahmen**
+
+**Begründung:**
+Koronarstenose (adjuvante intrakoronare Tenecteplase in niedriger Dosis während primärer PCI) ist der einzige Kandidat unter den zehn TxGNN-Vorhersagen mit tatsächlichen klinischen Beweisen – eine abgeschlossene Phase-2-RCT plus unterstützende Kohorten- und RCT-Literatur – die Evidenzstufe L2 erreicht. Jedoch handelt es sich um eine adjuvante prozedurale Anwendung mit enger Dosis-/Applikationsroute (intrakoronarer Bolus in niedriger Dosis) anstatt einer neuen systemischen Indikation, und es gibt noch keine direkte Vergleichs-Wirksamkeits-/Ergebnis-Daten für eine formale „Koronarstenose"-Kennzeichnung.
+
+**Um vorwärts zu gehen, wird folgendes benötigt:**
+- Offizielle Kennzeichnungs-/Warnhinweise-Daten (TFDA oder BfArM) um die S1-Sicherheitsüberprüfung abzuschließen – derzeit blockierend
+- Detaillierte Wirkmechanismus-Dokumentation von DrugBank
+- Dosis-Wirkungs- und Blutungsrisiko-Sicherheitsdaten spezifisch für intrakoronare Gabe in niedriger Dosis
+- Arzneimittelwechselwirkungsdaten (derzeit nicht gefunden)
+- Formale Ausschließung von Rängen 1–3 (STEMI-EKG-Subtypen – mechanistisch nicht neu, keine direkten Beweise) und Rängen 6–10 (keine mechanistische Plausibilität, wahrscheinlich Embedding-Rauschen) aus weiterer Umwidmungs-Überlegung
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

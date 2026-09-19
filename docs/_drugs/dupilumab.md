@@ -29,91 +29,92 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Dupilumab: Th2-Driven Inflammatory Disease to Bronchitis
+# Dupilumab: Th2-getriebene Entzündungserkrankung zu Bronchitis
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Dupilumab is a biologic that blocks IL-4Rα signalling to suppress Th2-driven (eosinophilic) inflammation; its established original indication data is not available in this evidence pack (drug not yet marketed in Taiwan).
-> The TxGNN model predicts it may be effective for **Bronchitis**,
-> with **1 clinical trial** and **6 publications** currently identified, though most of this evidence addresses asthma rather than bronchitis directly.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available — no Taiwan license record exists for this drug (`taiwan_regulatory.licenses` is empty) |
-| Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L3 |
-| Taiwan Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Dupilumab ist ein Biologikum, das IL-4Rα-Signalisierung blockiert, um Th2-getriebene (eosinophile) Entzündung zu unterdrücken; seine etablierten ursprünglichen Indikationsdaten sind in diesem Evidenzpaket nicht verfügbar (Arzneimittel noch nicht in Taiwan vermarktet).
+> Das TxGNN-Modell prognostiziert, dass es möglicherweise wirksam für **Bronchitis** ist,
+> mit derzeit **1 klinischer Studie** und **6 Publikationen** identifiziert, obwohl sich die meisten dieser Evidenzen eher auf Asthma als auf Bronchitis beziehen.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Currently, detailed mechanism of action data (`original_moa`) is flagged as a Data Gap and Taiwan-specific original indication data is unavailable because no license record exists for this drug. However, the evidence pack's own repurposing rationale describes dupilumab as an **IL-4Rα antagonist** that blocks IL-4/IL-13 signalling, thereby suppressing Th2-type eosinophilic inflammation — a mechanism with strong, well-documented support in eosinophilic asthma (see literature evidence below).
-
-The link to "bronchitis" is mechanistically plausible but indirect: bronchitis is a broad diagnostic category, and the strongest supportive evidence in this pack (e.g., the TRAVERSE long-term asthma extension study, and the asthma meta-analysis) actually concerns **moderate-to-severe asthma**, not bronchitis per se. The single directly relevant clinical trial (NCT04362501) targets chronic rhinosinusitis without nasal polyps (CRSsNP), not bronchitis, and was itself graded "C" relevance by the internal reasoning engine — providing only indirect Th2-pathway support.
-
-Given that eosinophilic/Th2-driven airway inflammation underlies both asthma and certain bronchitis phenotypes (e.g., eosinophilic or asthma-COPD overlap bronchitis), the mechanistic extension to bronchitis is biologically reasonable as a research hypothesis, but direct clinical evidence specific to bronchitis remains sparse at this time.
+| Artikel | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Nicht verfügbar — es existiert kein Taiwan-Lizenzbestand für dieses Arzneimittel (`taiwan_regulatory.licenses` ist leer) |
+| Vorhergesagte neue Indikation | Bronchitis |
+| TxGNN-Prognosescore | 99,92 % |
+| Evidenzstufe | L3 |
+| Taiwan-Marktstatus | ✗ Nicht vermarktet |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | Halten |
 
 ---
 
-## Clinical Trial Evidence
+## Warum ist diese Vorhersage sinnvoll?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Derzeit sind detaillierte Wirkungsmechanismus-Daten (`original_moa`) als eine Datenlücke gekennzeichnet und Taiwan-spezifische ursprüngliche Indikationsdaten sind nicht verfügbar, da kein Lizenzbestand für dieses Arzneimittel existiert. Jedoch beschreibt die Rationalisierung des Evidenzpakets selbst Dupilumab als einen **IL-4Rα-Antagonisten**, der IL-4/IL-13-Signalisierung blockiert, wodurch Th2-Typ-eosinophile Entzündung unterdrückt wird — ein Mechanismus mit starker, gut dokumentierter Unterstützung in eosinophilem Asthma (siehe Literaturbelege unten).
+
+Die Verbindung zu „Bronchitis" ist mechanistisch plausibel, aber indirekt: Bronchitis ist eine breite diagnostische Kategorie, und die stärksten unterstützenden Evidenzen in diesem Paket (z.B. die TRAVERSE-Langzeitasthma-Erweiterungsstudie und die Asthma-Metaanalyse) befassen sich tatsächlich mit **mittelschwerem bis schwerem Asthma**, nicht mit Bronchitis per se. Die einzige direkt relevante klinische Studie (NCT04362501) zielt auf chronische Rhinosinusitis ohne Nasenpolypen (CRSsNP) ab, nicht auf Bronchitis, und wurde selbst als „C"-Relevanz vom internen Reasoning-Engine bewertet — was nur indirekte Th2-Weg-Unterstützung bietet.
+
+Da eosinophile/Th2-getriebene Atemwegsentzündung sowohl Asthma als auch bestimmte Bronchitis-Phänotypen zugrunde liegt (z.B. eosinophile oder Asthma-COPD-Überlapps-Bronchitis), ist die mechanistische Erweiterung auf Bronchitis biologisch als Forschungshypothese sinnvoll, aber direkte klinische Evidenzen spezifisch für Bronchitis bleiben zu diesem Zeitpunkt begrenzt.
+
+---
+
+## Belege aus klinischen Studien
+
+| Trialnummer | Phase | Status | Einschluss | Wichtigste Erkenntnisse |
 |---------|------|------|------|---------|
-| [NCT04362501](https://clinicaltrials.gov/study/NCT04362501) | Phase 2 | Completed | 33 | Randomized, double-blind, placebo-controlled study of dupilumab in chronic rhinosinusitis without nasal polyps (CRSsNP); provides indirect Th2-pathway evidence but does not directly study bronchitis (relevance graded "C"). |
+| [NCT04362501](https://clinicaltrials.gov/study/NCT04362501) | Phase 2 | Abgeschlossen | 33 | Randomisierte, doppelblinde, placebokontrollierte Studie zu Dupilumab bei chronischer Rhinosinusitis ohne Nasenpolypen (CRSsNP); bietet indirekte Th2-Weg-Evidenz, aber untersucht nicht direkt Bronchitis (Relevanz als „C" bewertet). |
 
 ---
 
-## Literature Evidence
+## Literaturbelege
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Journal | Wichtigste Erkenntnisse |
 |------|-----|------|------|---------|
-| [34597534](https://pubmed.ncbi.nlm.nih.gov/34597534/) | 2022 | RCT (open-label extension) | Lancet Respir Med | Long-term safety/efficacy of dupilumab in moderate-to-severe asthma beyond 1 year (TRAVERSE study). |
-| [30273510](https://pubmed.ncbi.nlm.nih.gov/30273510/) | 2019 | Systematic Review/Meta-analysis | J Asthma | Pooled RCT data show dupilumab improves efficacy and safety outcomes in uncontrolled asthma. |
-| [32428511](https://pubmed.ncbi.nlm.nih.gov/32428511/) | 2020 | Cohort/Imaging study | Chest | MRI-based ventilation defects in severe eosinophilic asthma respond to anti-T2 (dupilumab-class) therapy. |
-| [39904363](https://pubmed.ncbi.nlm.nih.gov/39904363/) | 2025 | Review | Tuberc Respir Dis | Comprehensive review of pharmacologic therapies, including biologics, for preventing COPD exacerbations. |
-| [30196731](https://pubmed.ncbi.nlm.nih.gov/30196731/) | 2018 | Review | Expert Opin Pharmacother | Discusses treatment challenges in smoking-induced airway disease including chronic bronchitis and asthma-COPD overlap. |
-| [38488768](https://pubmed.ncbi.nlm.nih.gov/38488768/) | 2024 | Review/Case-based | Pediatric Pulmonology | Novel therapies for eosinophilic pediatric plastic bronchitis. |
+| [34597534](https://pubmed.ncbi.nlm.nih.gov/34597534/) | 2022 | RCT (offene Erweiterungsstudie) | Lancet Respir Med | Langzeitsicherheit/Wirksamkeit von Dupilumab bei mittelschwerem bis schwerem Asthma über einen Zeitraum von mehr als 1 Jahr (TRAVERSE-Studie). |
+| [30273510](https://pubmed.ncbi.nlm.nih.gov/30273510/) | 2019 | Systematisches Review/Metaanalyse | J Asthma | Gepoolte RCT-Daten zeigen, dass Dupilumab die Wirksamkeit und Sicherheitsergebnisse bei unkontrolliertem Asthma verbessert. |
+| [32428511](https://pubmed.ncbi.nlm.nih.gov/32428511/) | 2020 | Kohortenstudie/Bildgebungsstudie | Chest | MRT-basierte Belüftungsdefekte bei schwerem eosinophilem Asthma sprechen auf Anti-T2-(Dupilumab-Klasse-)Therapie an. |
+| [39904363](https://pubmed.ncbi.nlm.nih.gov/39904363/) | 2025 | Übersichtsarbeit | Tuberc Respir Dis | Umfassende Übersichtsarbeit der pharmakologischen Therapien, einschließlich Biologika, zur Prävention von COPD-Exazerbationen. |
+| [30196731](https://pubmed.ncbi.nlm.nih.gov/30196731/) | 2018 | Übersichtsarbeit | Expert Opin Pharmacother | Erörterung der Behandlungschallenges bei Rauchen-induzierter Atemwegserkrankung, einschließlich chronischer Bronchitis und Asthma-COPD-Überlapps. |
+| [38488768](https://pubmed.ncbi.nlm.nih.gov/38488768/) | 2024 | Übersichtsarbeit/Fallbasiert | Pediatric Pulmonology | Neuartige Therapien für eosinophile pädiatrische Kunststoffbronchitis. |
 
 ---
 
-## Taiwan Market Information
+## Taiwan-Marktinformationen
 
-This drug is currently **not marketed in Taiwan**, and no license records are available in this evidence pack (`total_licenses = 0`). No approved indication text can be extracted at this time.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Note: key warnings, contraindications, and DDI data are all flagged as Data Gaps (DG001 — TFDA package insert not yet retrieved) or "not_found" in this evidence pack, and cannot be summarized here.)*
+Dieses Arzneimittel ist derzeit **nicht in Taiwan vermarktet**, und es sind keine Lizenzbestandsaufzeichnungen in diesem Evidenzpaket verfügbar (`total_licenses = 0`). Kein genehmigter Indikationstext kann zu diesem Zeitpunkt extrahiert werden.
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsüberlegungen
 
-**Decision: Hold**
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
 
-**Rationale:**
-Evidence directly supporting dupilumab for bronchitis is currently limited to a single Phase 2 trial with low relevance (Grade C, studied a different disease — CRSsNP) plus mechanistic extrapolation from asthma literature. This corresponds to Evidence Level L3 and the "Research Question" stage — not yet sufficient to support progression toward regulatory or clinical development for this specific indication.
-
-**To proceed, the following is needed:**
-- TFDA package insert (warnings/contraindications) — currently a Blocking data gap (DG001)
-- Confirmed mechanism of action documentation via DrugBank (DG002)
-- Dedicated clinical trials or real-world evidence in a defined bronchitis population (e.g., eosinophilic or asthma-COPD overlap bronchitis) rather than adjacent respiratory/sinus indications
-- Taiwan regulatory/licensing status confirmation, since the drug is currently not marketed here
+*(Hinweis: Alle wichtigen Warnungen, Kontraindikationen und Arzneimittelwechselwirkungen sind als Datenlücken gekennzeichnet (DG001 — TFDA-Packungsbeilage noch nicht abgerufen) oder „nicht gefunden" in diesem Evidenzpaket, und können hier nicht zusammengefasst werden.)*
 
 ---
 
-**Note:** Among the 10 candidate indications in this evidence pack, **dermatitis (atopic dermatitis)** — ranked #2 by TxGNN — shows substantially stronger evidence (Evidence Level L1, multiple completed Phase 3 RCTs, recommendation "Proceed with Guardrails") and is a globally recognized approved indication for dupilumab. If the goal is to prioritize the strongest repurposing/registration opportunity for this drug candidate, a separate evaluation report on the dermatitis indication is recommended.
+## Fazit und nächste Schritte
+
+**Entscheidung: Halten**
+
+**Rationalisierung:**
+Evidenzen, die Dupilumab direkt für Bronchitis unterstützen, sind derzeit auf eine einzige Phase-2-Studie mit niedriger Relevanz begrenzt (Grad C, untersuchte eine andere Erkrankung — CRSsNP) plus mechanistische Extrapolation aus Asthma-Literatur. Dies entspricht Evidenzstufe L3 und der „Forschungsfrage"-Phase — noch nicht ausreichend zur Unterstützung des Fortschreitens in Richtung regulatorischer oder klinischer Entwicklung für diese spezifische Indikation.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+- TFDA-Packungsbeilage (Warnungen/Kontraindikationen) — derzeit eine blockierende Datenlücke (DG001)
+- Bestätigte Wirkungsmechanismus-Dokumentation über DrugBank (DG002)
+- Gewidmete klinische Studien oder Real-World-Evidenzen in einer definierten Bronchitis-Population (z.B. eosinophile oder Asthma-COPD-Überlapps-Bronchitis) anstelle benachbarter Atemwegs-/Nasennebenhöhlen-Indikationen
+- Bestätigung des Taiwan-Regulierungs-/Lizenzierungsstatus, da das Arzneimittel derzeit hier nicht vermarktet ist
+
+---
+
+**Hinweis:** Unter den 10 Kandidatenindikationen in diesem Evidenzpaket zeigt **Dermatitis (atopische Dermatitis)** — von TxGNN als #2 bewertet — erheblich stärkere Evidenzen (Evidenzstufe L1, mehrere abgeschlossene Phase-3-RCTs, Empfehlung „Mit Vorsichtsmaßnahmen fortfahren") und ist eine global anerkannte genehmigte Indikation für Dupilumab. Wenn das Ziel darin besteht, die stärkste Umnutzungs-/Registrierungsgelegenheit für diesen Arzneimittelkandidaten zu priorisieren, wird ein separater Bewertungsbericht zur Dermatitisenindikation empfohlen.
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

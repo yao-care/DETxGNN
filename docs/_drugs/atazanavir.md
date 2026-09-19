@@ -29,108 +29,94 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Atazanavir: From HIV-1 Infection to Congenital/Perinatal HIV Exposure & AIDS-Related Complex
+# Atazanavir: Von der HIV-1-Infektion zur kongenitalen/perinatalen HIV-Exposition und AIDS-assoziiertem Komplex
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Atazanavir (DrugBank DB01072) is an HIV-1 protease inhibitor originally developed for HIV-1 infection (marketed as Reyataz).
-> The TxGNN model's best-supported prediction extends this to **congenital/perinatal HIV exposure** and **AIDS-related complex** —
-> not a novel mechanism, but a formal consolidation of the drug's existing antiretroviral use, backed by **30+ clinical trials**
-> and **10 publications**. The model's top four raw-ranked predictions (feline AIDS, SIV infection, a rare neurodevelopmental
-> disorder, and hyperlipidemia) show no credible mechanistic or evidentiary support and have been excluded from this report as
-> likely knowledge-graph artifacts (see note below).
+> Atazanavir (DrugBank DB01072) ist ein HIV-1-Proteaseinhibitor, ursprünglich zur Behandlung der HIV-1-Infektion entwickelt (vermarktet als Reyataz).
+> Die beste von TxGNN unterstützte Vorhersage erstreckt sich auf **kongenitale/perinatale HIV-Exposition** und **AIDS-assoziierter Komplex** —
+> nicht ein neuer Mechanismus, sondern eine formale Konsolidierung der bestehenden antiretroviralen Anwendung des Arzneimittels, gestützt durch **30+ klinische Studien**
+> und **10 Publikationen**. Die vier besten ungefilterten Vorhersagen des Modells (Feliner AIDS, SIV-Infektion, eine seltene neurologische Entwicklungsstörung und Hyperlipidämie)
+> zeigen keine glaubwürdige mechanistische oder evidenzgestützte Unterstützung und wurden aus diesem Bericht ausgeschlossen, da sie wahrscheinlich Wissensgraph-Artefakte darstellen (siehe Hinweis unten).
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Eintrag | Inhalt |
 |------|------|
-| Original Indication | HIV-1 infection (antiretroviral therapy, brand Reyataz) — inferred from trial/rationale data; not present in Evidence Pack license fields (drug not marketed in Germany) |
-| Predicted New Indication | Congenital/Perinatal HIV Exposure & AIDS-Related Complex (indication consolidation, not a novel mechanism) |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L1 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Original-Indikation | HIV-1-Infektion (antiretrovirale Therapie, Marke Reyataz) — aus Studien-/Rationale-Daten abgeleitet; nicht in Evidence-Pack-Lizenzfeldern vorhanden (Arzneimittel nicht in Deutschland vermarktet) |
+| Prognostizierte neue Indikation | Kongenitale/perinatale HIV-Exposition und AIDS-assoziierter Komplex (Indikationserweiterung, nicht ein neuer Mechanismus) |
+| TxGNN-Vorhersage-Score | 99.71% |
+| Evidenzebene | L1 |
+| Marktstatus Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Halten |
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage vernünftig?
 
-Detailed mechanism-of-action data from DrugBank is currently unavailable (Data Gap DG002). Based on the trial and literature
-evidence available, atazanavir is an HIV-1 aspartyl protease inhibitor: it blocks cleavage of the Gag-Pol polyprotein
-precursor, preventing maturation of infectious virions and halting viral replication.
+Detaillierte Daten zum Wirkmechanismus aus DrugBank sind derzeit nicht verfügbar (Datenlücke DG002). Basierend auf den verfügbaren Studien- und Literaturbelegen ist Atazanavir ein HIV-1-Aspartyl-Proteaseinhibitor: Es blockiert die Spaltung des Gag-Pol-Polyprotein-Vorläufers, verhindert die Reifung infektiöser Virionen und stoppt die Virusreplikation.
 
-The two indications with real supporting evidence — "AIDS-related complex" and "congenital human immunodeficiency virus" —
-are not mechanistically distinct from atazanavir's original HIV-1 indication. AIDS-related complex is simply an earlier/broader
-clinical staging term for HIV disease, and congenital HIV exposure concerns the same virus and the same protease target in a
-perinatal/pediatric population. Extensive Phase 3 trial history (including two dedicated pediatric programs, PRINCE I and
-PRINCE II) and multiple pregnancy pharmacokinetic and safety cohort studies (e.g., PHACS SMARTT, IMPAACT P1026s) support use
-across these populations. This should be read as **label/population extension of an already-approved use**, not a genuine
-drug-repurposing discovery.
+Die beiden Indikationen mit echtem Forschungsbeleg — „AIDS-assoziierter Komplex" und „kongenitale Humanes-Immundefizienzvirus-Infektion" —
+sind mechanistisch nicht unterscheidbar von Atazanavirs ursprünglicher HIV-1-Indikation. AIDS-assoziierter Komplex ist einfach eine frühere/breitere
+klinische Stadieneinteilung der HIV-Erkrankung, und kongenitale HIV-Exposition betrifft das gleiche Virus und das gleiche Protease-Ziel in einer
+perinatalen/pädiatrischen Population. Umfangreiche Phase-3-Studienhistorie (einschließlich zwei dedizierter pädiatrischer Programme, PRINCE I und PRINCE II) und mehrere Schwangerschafts-Pharmakokinetik- und Sicherheits-Kohortenstudien (z. B. PHACS SMARTT, IMPAACT P1026s) unterstützen die Anwendung in diesen Populationen. Dies sollte als **Indikations-/Populationserweiterung einer bereits genehmigten Anwendung** gelesen werden, nicht als echte Arzneimittel-Umwidmungsentdeckung.
 
-### Note: Lower-Confidence Predictions Excluded from This Report
+### Hinweis: Vorhersagen mit niedrigerer Konfidenz aus diesem Bericht ausgeschlossen
 
-The Evidence Pack's top four ranked candidates were not carried forward as headline findings, because the pack's own
-rationale flags each as implausible or unsupported:
+Die vier besten bewerteten Kandidaten aus dem Evidence Pack wurden nicht als Hauptergebnisse übernommen, da die Begründung des Packs jeden einzelnen als implausibel oder nicht gestützt kennzeichnet:
 
-| Rank | Disease | Score | Issue |
-|------|---------|-------|-------|
-| 1 | Feline acquired immunodeficiency syndrome | 99.98% | Veterinary indication (FIV); HIV-1 protease specificity does not cross-react; likely embedding-similarity false positive ("immunodeficiency virus" text overlap) |
-| 2 | Simian immunodeficiency virus infection | 99.98% | Non-human-primate animal model only; no clinical trials, single animal-study citation |
-| 3 | Rare neurodevelopmental disorder (ataxic gait, absent speech, decreased white matter) | 99.98% | No known mechanistic relationship to protease inhibition; no evidence at all |
-| 4 | (Obsolete) familial combined hyperlipidemia | 99.82% | Evidence points the *opposite* direction — atazanavir is comparatively lipid-neutral versus other PIs; disease term itself is deprecated |
+| Rang | Erkrankung | Score | Problem |
+|------|---------|-------|------|
+| 1 | Feliner erworbener Immundefektsyndrom | 99.98% | Veterinäre Indikation (FIV); HIV-1-Protease-Spezifität kreuzt nicht; wahrscheinliches Embedding-Ähnlichkeits-Falsch-Positiv (Textüberlappung bei „Immundefizienzvirus") |
+| 2 | Simiane Immundefizienzvirus-Infektion | 99.98% | Nur Primaten-Tiermodell (nicht-menschlich); keine klinischen Studien, einzelne Tier-Studien-Zitation |
+| 3 | Seltene neurologische Entwicklungsstörung (ataktischer Gang, fehlende Sprache, verminderte weiße Substanz) | 99.98% | Keine bekannte mechanistische Beziehung zur Proteasehemmung; überhaupt kein Beleg |
+| 4 | (Veraltet) familiäre kombinierte Hyperlipidämie | 99.82% | Belege zeigen die *gegenteilige* Richtung — Atazanavir ist vergleichsweise lipidneutral gegenüber anderen PIs; der Krankheitsbegriff selbst ist veraltet |
 
-These should not be pursued as repurposing candidates without independent validation.
+## Klinische Studien-Belege
 
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Studiesnummer | Phase | Status | Einschluss | Wichtigste Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT04518228](https://clinicaltrials.gov/study/NCT04518228) | N/A | Completed | 205 | PK of antiretroviral & anti-TB drugs during pregnancy and postpartum |
-| [NCT00326716](https://clinicaltrials.gov/study/NCT00326716) | Phase 1 | Completed | 69 | ATV/RTV dosing and PK in HIV-1 infected pregnant women |
-| [NCT00042289](https://clinicaltrials.gov/study/NCT00042289) | Phase 4/N/A | Completed | 1578 | IMPAACT P1026s: large PK study of ARV/TB drugs in pregnant women and infants |
-| [NCT01691794](https://clinicaltrials.gov/study/NCT01691794) | Phase 4 | Completed | 108 | Safety of ATV capsule + RTV in HIV-infected pediatric patients (6–18y) |
-| [NCT01099579](https://clinicaltrials.gov/study/NCT01099579) | Phase 3 | Completed | 82 | PRINCE I: ATV powder + RTV safety/efficacy/PK in pediatric patients (3mo–6y) |
-| [NCT01335698](https://clinicaltrials.gov/study/NCT01335698) | Phase 3 | Completed | 160 | PRINCE II: ATV powder + RTV in pediatric patients (3mo–11y) |
-| [NCT02951052](https://clinicaltrials.gov/study/NCT02951052) | Phase 3 | Active, not recruiting | 618 | ATLAS: switch to long-acting cabotegravir + rilpivirine vs. continuing ART (incl. PI-based regimens) |
-| [NCT02269917](https://clinicaltrials.gov/study/NCT02269917) | Phase 3 | Completed | 1149 | Switch to D/C/F/TAF vs. continuing boosted-PI regimen in virologically suppressed HIV-1 patients |
-| [NCT01910402](https://clinicaltrials.gov/study/NCT01910402) | Phase 3 | Completed | 499 | DTG/ABC/3TC vs. ATV+RTV+TDF/FTC in ART-naive **women** (relevant to childbearing-age population) |
-| [NCT00272779](https://clinicaltrials.gov/study/NCT00272779) | Phase 3 | Completed | 1057 | 96-week ATV/RTV vs. LPV/RTV + TDF/FTC efficacy and safety in treatment-naive HIV-1 patients |
+| [NCT04518228](https://clinicaltrials.gov/study/NCT04518228) | N/A | Abgeschlossen | 205 | Pharmakokinetik antiretroviraler und Anti-TB-Mittel während Schwangerschaft und postpartum |
+| [NCT00326716](https://clinicaltrials.gov/study/NCT00326716) | Phase 1 | Abgeschlossen | 69 | ATV/RTV-Dosierung und Pharmakokinetik bei HIV-1-infizierten schwangeren Frauen |
+| [NCT00042289](https://clinicaltrials.gov/study/NCT00042289) | Phase 4/N/A | Abgeschlossen | 1578 | IMPAACT P1026s: große Pharmakokinetik-Studie antiretroviraler/Anti-TB-Mittel bei schwangeren Frauen und Säuglingen |
+| [NCT01691794](https://clinicaltrials.gov/study/NCT01691794) | Phase 4 | Abgeschlossen | 108 | Sicherheit von ATV-Kapsel + RTV bei HIV-infizierten pädiatrischen Patienten (6–18 Jahre) |
+| [NCT01099579](https://clinicaltrials.gov/study/NCT01099579) | Phase 3 | Abgeschlossen | 82 | PRINCE I: ATV-Pulver + RTV Sicherheit/Wirksamkeit/Pharmakokinetik bei pädiatrischen Patienten (3 Mo.–6 Jahre) |
+| [NCT01335698](https://clinicaltrials.gov/study/NCT01335698) | Phase 3 | Abgeschlossen | 160 | PRINCE II: ATV-Pulver + RTV bei pädiatrischen Patienten (3 Mo.–11 Jahre) |
+| [NCT02951052](https://clinicaltrials.gov/study/NCT02951052) | Phase 3 | Aktiv, keine Rekrutierung | 618 | ATLAS: Wechsel zu Langzeit-Cabotegravir + Rilpivirin vs. Fortführung ART (einschl. PI-basierter Therapien) |
+| [NCT02269917](https://clinicaltrials.gov/study/NCT02269917) | Phase 3 | Abgeschlossen | 1149 | Wechsel zu D/C/F/TAF vs. Fortführung geboosterter-PI-Therapie bei virologisch supprimierten HIV-1-Patienten |
+| [NCT01910402](https://clinicaltrials.gov/study/NCT01910402) | Phase 3 | Abgeschlossen | 499 | DTG/ABC/3TC vs. ATV+RTV+TDF/FTC bei ART-naiven **Frauen** (relevant für gebärfähiges Alter) |
+| [NCT00272779](https://clinicaltrials.gov/study/NCT00272779) | Phase 3 | Abgeschlossen | 1057 | 96-Wochen-ATV/RTV vs. LPV/RTV + TDF/FTC Wirksamkeit und Sicherheit bei therapienaiven HIV-1-Patienten |
 
-## Literature Evidence
+## Literatur-Belege
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Zeitschrift | Wichtigste Ergebnisse |
 |------|-----|------|------|---------|
-| [27242802](https://pubmed.ncbi.nlm.nih.gov/27242802/) | 2016 | Cohort (PHACS SMARTT) | Frontiers in Immunology | Large (3,500+) HIV-exposed-uninfected infant/child cohort assessing safety of in-utero ARV exposure |
-| [25383770](https://pubmed.ncbi.nlm.nih.gov/25383770/) | 2015 | Cohort | JAMA Pediatrics | Congenital anomalies and in-utero ARV exposure in HIV-exposed uninfected infants |
-| [40011239](https://pubmed.ncbi.nlm.nih.gov/40011239/) | 2025 | Case/non-case study | Eur J Clin Pharmacol | European registry study of congenital anomaly risk after fetal ARV exposure |
-| [24992294](https://pubmed.ncbi.nlm.nih.gov/24992294/) | 2015 | Cohort | Antiviral Therapy | Atazanavir exposure remains effective during pregnancy regardless of tenofovir co-administration |
-| [31595301](https://pubmed.ncbi.nlm.nih.gov/31595301/) | 2020 | Pharmacovigilance database analysis | Clin Infect Dis | Comparator safety-signal analysis for ARVs in pregnancy (dolutegravir focus) |
-| [28459118](https://pubmed.ncbi.nlm.nih.gov/28459118/) | 2016 | Cohort | J AIDS Immune Res | Newborn hearing screening outcomes in HIV-exposed uninfected infants |
-| [29859254](https://pubmed.ncbi.nlm.nih.gov/29859254/) | 2018 | In vitro mechanistic study | Reproductive Toxicology | ATV/RTV interactions with placental ABC transporters affecting transplacental disposition |
-| [19290032](https://pubmed.ncbi.nlm.nih.gov/19290032/) | 2009 | Cohort | AIDS Reviews | GI adverse event risk factors in HIV-treated vs. untreated patients (protease-inhibitor context) |
-| [28991888](https://pubmed.ncbi.nlm.nih.gov/28991888/) | 2018 | Cohort | J Acquir Immune Defic Syndr | ART regimen choice and incidence of AIDS-defining neurological conditions |
+| [27242802](https://pubmed.ncbi.nlm.nih.gov/27242802/) | 2016 | Kohortenstudie (PHACS SMARTT) | Frontiers in Immunology | Große (3.500+) HIV-exponierte-uninfizierte Säuglings-/Kinderkohorten-Studie zur Sicherheit der intrauterinen ARV-Exposition |
+| [25383770](https://pubmed.ncbi.nlm.nih.gov/25383770/) | 2015 | Kohortenstudie | JAMA Pediatrics | Kongenitale Anomalien und intrauterine ARV-Exposition bei HIV-exponierten uninfizierten Säuglingen |
+| [40011239](https://pubmed.ncbi.nlm.nih.gov/40011239/) | 2025 | Fall-/Nicht-Fall-Studie | Eur J Clin Pharmacol | Europäische Registerstudie zum Risiko kongenitaler Anomalien nach fetaler ARV-Exposition |
+| [24992294](https://pubmed.ncbi.nlm.nih.gov/24992294/) | 2015 | Kohortenstudie | Antiviral Therapy | Atazanavir-Exposition bleibt wirksam während Schwangerschaft unabhängig von Tenofovir-Co-Verabreichung |
+| [31595301](https://pubmed.ncbi.nlm.nih.gov/31595301/) | 2020 | Pharmakovigilanz-Datenbankanalyse | Clin Infect Dis | Vergleichende Sicherheitssignal-Analyse für ARVs in der Schwangerschaft (Dolutegravir-Fokus) |
+| [28459118](https://pubmed.ncbi.nlm.nih.gov/28459118/) | 2016 | Kohortenstudie | J AIDS Immune Res | Neugeborenen-Hörtests bei HIV-exponierten uninfizierten Säuglingen |
+| [29859254](https://pubmed.ncbi.nlm.nih.gov/29859254/) | 2018 | In-vitro-Mechanismusstudie | Reproductive Toxicology | ATV/RTV-Wechselwirkungen mit plazentaren ABC-Transportern, die die transplazentale Verteilung beeinflussen |
+| [19290032](https://pubmed.ncbi.nlm.nih.gov/19290032/) | 2009 | Kohortenstudie | AIDS Reviews | Gastrointestinale Nebenwirkungsrisikofaktoren bei HIV-behandelten vs. unbehandelten Patienten (Proteaseinhibitor-Kontext) |
+| [28991888](https://pubmed.ncbi.nlm.nih.gov/28991888/) | 2018 | Kohortenstudie | J Acquir Immune Defic Syndr | ART-Regimen-Wahl und Inzidenz von AIDS-definierenden neurologischen Bedingungen |
 
-## Safety Considerations
+## Sicherheitsüberlegungen
 
-Please refer to the package insert for safety information. No drug-specific warnings, contraindications, or drug-interaction
-data were retrievable in this Evidence Pack (DDI query returned no results; TFDA/BfArM label data marked as a **Blocking**
-data gap — DG001).
+Bitte beachten Sie die Gebrauchsinformation für Sicherheitsinformationen. Es konnten keine arzneimittelspezifischen Warnungen, Gegenanzeigen oder Arzneimittelwechselwirkungsdaten in diesem Evidence Pack abgerufen werden (DDI-Abfrage ergab keine Ergebnisse; TFDA/BfArM-Kennzeichnungsdaten sind als **Blockierendes** Datenlücke markiert — DG001).
 
-## Conclusion and Next Steps
+## Schlussfolgerung und Nächste Schritte
 
-**Decision: Hold**
+**Entscheidung: Halten**
 
-**Rationale:**
-Although congenital/perinatal HIV exposure and AIDS-related complex are backed by strong (L1) trial and cohort evidence, this
-represents consolidation of atazanavir's *existing* HIV/AIDS indication rather than a genuine new repurposing opportunity. More
-importantly, a **Blocking**-severity data gap (missing TFDA/BfArM label warnings and contraindications) prevents any safety
-evaluation (S1), and the drug currently holds zero marketing authorizations in Germany. The model's top four raw-ranked
-predictions were separately assessed and rejected as low-credibility artifacts.
+**Begründung:**
+Obwohl kongenitale/perinatale HIV-Exposition und AIDS-assoziierter Komplex durch starke (L1) Studien- und Kohortenebelege gestützt werden, stellt dies eine Konsolidierung der *bestehenden* HIV/AIDS-Indikation von Atazanavir dar, anstatt einer echten neuen Umwidmungsmöglichkeit. Noch wichtiger ist, dass eine **Blockierendes**-Schweregrad-Datenlücke (fehlende TFDA/BfArM-Kennzeichnungswarnungen und Gegenanzeigen) eine Sicherheitsevaluierung verhindert (S1), und das Arzneimittel hält derzeit null Zulassungen in Deutschland. Die vier besten ungefilterten Vorhersagen des Modells wurden separat bewertet und als unglaubwürdige Artefakte abgelehnt.
 
-**To proceed, the following is needed:**
-- TFDA/BfArM label PDF retrieval and parsing for warnings/contraindications (resolves DG001, currently blocking)
-- DrugBank MOA confirmation (resolves DG002)
-- A regulatory determination of whether "congenital HIV" / "AIDS-related complex" require a distinct submission or fall under the existing HIV-1 indication scope
-- If a genuine repurposing signal is desired, re-run TxGNN scoring excluding the four flagged artifact predictions and review any remaining mid-ranked candidates
+**Um fortzufahren, ist Folgendes erforderlich:**
+- TFDA/BfArM-Kennzeichnungs-PDF-Abruf und Analyse für Warnungen/Gegenanzeigen (löst DG001, derzeit blockierend)
+- DrugBank-Wirkmechanismus-Bestätigung (löst DG002)
+- Eine regulatorische Feststellung, ob „kongenitale HIV" / „AIDS-assoziierter Komplex" eine separate Genehmigung erfordern oder unter den bestehenden HIV-1-Indikationsumfang fallen
+- Wenn ein echtes Umwidmungssignal gewünscht ist, führen Sie TxGNN-Scoring erneut durch, wobei Sie die vier gekennzeichneten Artefakt-Vorhersagen ausschließen, und überprüfen Sie alle verbleibenden mittleren bewerteten Kandidaten
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

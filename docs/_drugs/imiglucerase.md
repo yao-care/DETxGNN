@@ -29,80 +29,81 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-# Imiglucerase: From Gaucher Disease to Hurler Syndrome
+# Imiglucerase: Von der Gaucher-Krankheit zum Hurler-Syndrom
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Imiglucerase is a recombinant human glucocerebrosidase used as enzyme replacement therapy for Gaucher disease.
-> TxGNN predicts a possible new indication for **Hurler syndrome** (MPS I) with a score of **99.52%**,
-> but this is currently supported only by **0 clinical trials** and **2 general (non-drug-specific) review articles** — the model's own rationale flags this as a likely false-positive driven by semantic clustering of "lysosomal storage disease," not true mechanistic overlap.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Gaucher disease (identified from literature evidence; no structured Taiwan/Germany regulatory record exists) |
-| Predicted New Indication | Hurler syndrome |
-| TxGNN Prediction Score | 99.52% |
-| Evidence Level | L5 |
-| Germany Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Imiglucerase ist eine rekombinante humane Glukozerebrosidasen, die als Enzymersatztherapie bei der Gaucher-Krankheit eingesetzt wird.
+> TxGNN sagt eine mögliche neue Indikation für **Hurler-Syndrom** (MPS I) mit einer Punktzahl von **99.52%** voraus,
+> aber dies wird derzeit nur durch **0 klinische Studien** und **2 allgemeine (nicht medikamentenspezifische) Übersichtsartikel** unterstützt – die eigene Begründung des Modells kennzeichnet dies als ein wahrscheinliches Falschpositiv, das durch semantisches Clustering von „lysosomale Speicherkrankheit" angetrieben wird, nicht durch echte mechanistische Überlappung.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Detailed mechanism-of-action data is not available in the evidence pack (flagged as a High-severity data gap). Based on known pharmacology, imiglucerase is a recombinant analogue of human **glucocerebrosidase**, and its established role is substrate-specific enzyme replacement for Gaucher disease, which is caused by glucocerebrosidase deficiency.
-
-Hurler syndrome (Mucopolysaccharidosis type I) is caused by deficiency of a **different enzyme, alpha-L-iduronidase**, acting on a different substrate (glycosaminoglycans, not glucocerebroside). Both conditions belong to the broader "lysosomal storage disease" category, which is almost certainly why TxGNN scored them highly together — but this is a category-level (semantic) similarity, not an enzyme/substrate-level mechanistic link. The two supporting literature items are general reviews of enzyme replacement therapy across multiple lysosomal storage diseases; neither reports imiglucerase being tested or effective specifically in Hurler syndrome.
-
-**Overall assessment: the mechanistic basis for this prediction is weak.** Unlike genuine repurposing candidates where a shared pathway plausibly explains cross-indication efficacy, here the target enzymes and substrates differ entirely, and imiglucerase would not be expected to have catalytic activity relevant to MPS I.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Posten | Inhalt |
+|--------|--------|
+| Ursprüngliche Indikation | Gaucher-Krankheit (aus Literaturbelegen ermittelt; es existiert kein strukturiertes Taiwan-/deutsches Regulierungsregister) |
+| Vorhergesagte neue Indikation | Hurler-Syndrom |
+| TxGNN-Vorhersage-Score | 99.52% |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Nicht vermarktet (Nicht vermarktet) |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Aussetzen |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage sinnvoll?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [20534487](https://pubmed.ncbi.nlm.nih.gov/20534487/) | 2010 | Review (imaging methodology) | PNAS | General review of PET imaging for enzyme replacement therapy across lysosomal storage diseases (Gaucher, Fabry, Hurler, Hunter, Maroteaux-Lamy, Pompe); not specific to imiglucerase efficacy in Hurler syndrome |
-| [21211680](https://pubmed.ncbi.nlm.nih.gov/21211680/) | 2010 | Review | La Revue de médecine interne | General review of ERT history (alglucerase → imiglucerase for Gaucher disease) and its extension to other LSDs; does not report imiglucerase use in Hurler syndrome |
+Detaillierte Daten zum Wirkmechanismus sind nicht im Evidence Pack vorhanden (gekennzeichnet als Datenlücke mit hohem Schweregrad). Basierend auf bekannter Pharmakologie ist Imiglucerase ein rekombinantes Analogon der humanen **Glukozerebrosidasen**, und seine etablierte Rolle ist die substratspezifische Enzymersatztherapie bei der Gaucher-Krankheit, die durch Glukozerebrosidasen-Mangel verursacht wird.
 
----
+Das Hurler-Syndrom (Mukopolysaccharidose Typ I) wird durch Mangel eines **anderen Enzyms, Alpha-L-Iduronidase**, verursacht, das auf ein anderes Substrat wirkt (Glykosaminoglykane, nicht Glukocerebroside). Beide Erkrankungen gehören zur breiteren Kategorie der „lysosomalen Speicherkrankheiten", was fast sicherlich der Grund ist, warum TxGNN beide hoch zusammen bewertete – aber dies ist eine Ähnlichkeit auf Kategorien-Ebene (semantisch), keine mechanistische Verbindung auf Enzym-/Substrat-Ebene. Die zwei unterstützenden Literaturpunkte sind allgemeine Übersichten über Enzymersatztherapie bei mehreren lysosomalen Speicherkrankheiten; keiner berichtet, dass Imiglucerase speziell beim Hurler-Syndrom getestet oder wirksam ist.
 
-## Germany Market Information
-
-Imiglucerase currently holds no marketing authorization in Germany (0 licenses on record).
+**Gesamtbewertung: Die mechanistische Grundlage für diese Vorhersage ist schwach.** Im Gegensatz zu echten Repurposing-Kandidaten, bei denen ein gemeinsamer Signalweg plausibel die Wirksamkeit über mehrere Indikationen hinweg erklärt, unterscheiden sich hier die Zielenzyme und Substrate völlig, und Imiglucerase würde nicht von katalytischer Aktivität relevant für MPS I erwartet.
 
 ---
 
-## Safety Considerations
+## Klinische Studienbelege
 
-Please refer to the package insert for safety information.
+Derzeit keine verwandten klinischen Studien registriert.
 
 ---
 
-## Conclusion and Next Steps
+## Literaturbelege
 
-**Decision: Hold**
+| PMID | Jahr | Typ | Zeitschrift | Wichtigste Erkenntnisse |
+|------|------|------|------|---------|
+| [20534487](https://pubmed.ncbi.nlm.nih.gov/20534487/) | 2010 | Übersicht (Bildgebungsmethodik) | PNAS | Allgemeine Übersicht der PET-Bildgebung für Enzymersatztherapie bei lysosomalen Speicherkrankheiten (Gaucher, Fabry, Hurler, Hunter, Maroteaux-Lamy, Pompe); nicht spezifisch für die Wirksamkeit von Imiglucerase beim Hurler-Syndrom |
+| [21211680](https://pubmed.ncbi.nlm.nih.gov/21211680/) | 2010 | Übersicht | La Revue de médecine interne | Allgemeine Übersicht der ERT-Geschichte (Alglucerase → Imiglucerase bei Gaucher-Krankheit) und deren Erweiterung auf andere LSDs; berichtet nicht über die Verwendung von Imiglucerase beim Hurler-Syndrom |
 
-**Rationale:**
-- The predicted indication (Hurler syndrome) and the other four candidates in this evidence pack (Scheie syndrome, adrenal gland benign neoplasm, autosomal ichthyosis syndrome, cholesteryl ester storage disease) are all scored L5 with a "Hold" recommendation. The drug-specific mechanistic rationale for each explicitly identifies enzyme/substrate mismatches with imiglucerase's known glucocerebrosidase activity, suggesting these high TxGNN scores reflect disease-category clustering ("lysosomal storage disease") rather than genuine target overlap.
-- Foundational drug-level data (MOA, TFDA/German label warnings and contraindications) is missing and blocking (DG001, DG002), so this candidate cannot proceed even to a basic safety screen (S1) regardless of the repurposing hypothesis.
+---
 
-**To proceed, the following is needed:**
-- Confirm full mechanism of action via DrugBank (resolve DG002)
-- Obtain official label warnings/contraindications, e.g., from an EU/FDA-approved product (resolve DG001, blocking)
-- Seek preclinical or biochemical evidence that imiglucerase has any catalytic or off-target activity relevant to alpha-L-iduronidase-deficient conditions (currently no such evidence exists)
-- If no drug-specific mechanistic or preclinical support emerges, this candidate should be deprioritized as a likely model false-positive rather than advanced further
+## Marktstatus in Deutschland
+
+Imiglucerase hält derzeit keine Zulassung in Deutschland (0 Lizenzen auf Rekord).
+
+---
+
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Aussetzen**
+
+**Begründung:**
+- Die vorhergesagte Indikation (Hurler-Syndrom) und die anderen vier Kandidaten in diesem Evidence Pack (Scheie-Syndrom, benigne Neoplasie der Nebenniere, autosomal rezessive Ichthyose, Cholesterylester-Speicherkrankheit) sind alle mit L5 bewertet und mit einer „Aussetzen"-Empfehlung. Die medikamentenspezifische mechanistische Begründung für jeden kennzeichnet explizit Enzym-/Substrat-Nichtübereinstimmungen mit der bekannten Glukozerebrosidasen-Aktivität von Imiglucerase, was nahelegt, dass diese hohen TxGNN-Bewertungen Erkrankungs-Kategorien-Clustering („lysosomale Speicherkrankheit") widerspiegeln, eher als echte Zielüberlappung.
+- Grundlegende medikamentenspezifische Daten (MOA, TFDA/Deutsche Kennzeichnungs-Warnungen und Kontraindikationen) fehlen und blockieren (DG001, DG002), daher kann dieser Kandidat nicht einmal zu einem grundlegenden Sicherheitsscreening (S1) fortschreiten, unabhängig von der Repurposing-Hypothese.
+
+**Um fortzufahren, wird Folgendes benötigt:**
+- Bestätigen Sie den vollständigen Wirkmechanismus über DrugBank (DG002 auflösen)
+- Besorgen Sie sich amtliche Kennzeichnungs-Warnungen/Kontraindikationen, z. B. von einem EU/FDA-zugelassenen Produkt (DG001 auflösen, blockierend)
+- Suchen Sie nach präklinischen oder biochemischen Belegen dafür, dass Imiglucerase katalytische oder Off-Target-Aktivität relevant für Alpha-L-Iduronidase-Mangel-Erkrankungen besitzt (derzeit existieren keine solchen Belege)
+- Falls keine medikamentenspezifischen mechanistischen oder präklinischen Belege auftauchen, sollte dieser Kandidat als wahrscheinliches Modell-Falschpositiv herabgestuft werden, anstatt weiter vorangetrieben zu werden
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

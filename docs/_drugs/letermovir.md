@@ -29,74 +29,75 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Letermovir: From Unspecified Original Indication to Vulvovaginal Candidiasis
+# Letermovir: Von unspezifischer ursprünglicher Indikation zu vulvovaginaler Candidiasis
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Letermovir's original approved indication is not available in the current evidence pack. The TxGNN model predicts potential efficacy for **Vulvovaginal Candidiasis**, but this prediction is currently supported by **0 clinical trials** and **0 publications**, and the model's own mechanistic rationale flags the connection as biologically implausible.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available in current data (no license records) |
-| Predicted New Indication | Vulvovaginal Candidiasis |
-| TxGNN Prediction Score | 99.88% (rank 1959) |
-| Evidence Level | L5 |
-| Taiwan Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Die ursprüngliche zugelassene Indikation von Letermovir ist im aktuellen Evidenzpaket nicht verfügbar. Das TxGNN-Modell sagt potenzielle Wirksamkeit bei **vulvovaginaler Candidiasis** voraus, diese Vorhersage wird jedoch derzeit durch **0 klinische Versuche** und **0 Publikationen** unterstützt, und die eigene mechanistische Rationale des Modells markiert die Verbindung als biologisch implausibel.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnelübersicht
 
-Currently, detailed mechanism of action data for letermovir is not available in this evidence pack (data gap DG002, marked High severity — remediation pending via DrugBank API query).
-
-However, the model's own repurposing rationale already provides a mechanistic assessment, and it is negative: letermovir specifically inhibits the CMV (human herpesvirus 5) DNA terminase complex (pUL56/pUL89/pUL51 subunits), a viral-specific target with no counterpart in fungal pathogens such as *Candida* spp. Vulvovaginal candidiasis is a fungal infection typically treated by targeting ergosterol synthesis (e.g., azoles inhibiting CYP51/lanosterol demethylase) or fungal cell wall synthesis (echinocandins) — pathways unrelated to letermovir's antiviral mechanism.
-
-The high TxGNN score (99.88%) most likely reflects an indirect knowledge-graph association — for example, both entities co-occurring frequently with immunocompromised/transplant patient populations in the underlying data — rather than genuine pharmacological similarity. This prediction should be treated as a graph-embedding artifact until independent mechanistic or clinical evidence emerges.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Artikel | Inhalt |
+|---|---|
+| Ursprüngliche Indikation | Nicht verfügbar in aktuellen Daten (keine Lizenzdatensätze) |
+| Vorhergesagte neue Indikation | Vulvovaginale Candidiasis |
+| TxGNN-Vorhersagepunktzahl | 99.88% (Rang 1959) |
+| Evidenzebene | L5 |
+| Taiwan-Marktstatus | Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Zurückhaltung |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage angemessen?
 
-Currently no related literature available.
+Derzeit sind detaillierte Wirkmechanismus-Daten für Letermovir in diesem Evidenzpaket nicht verfügbar (Datenlücke DG002, markiert als hoher Schweregrad – Behebung ausstehend über DrugBank-API-Abfrage).
 
----
+Die eigene Umwidmungsrationale des Modells bietet jedoch bereits eine mechanistische Bewertung, und diese ist negativ: Letermovir hemmt spezifisch den CMV-DNA-Terminase-Komplex (human herpesvirus 5) (pUL56/pUL89/pUL51-Untereinheiten), ein virusspezifisches Ziel ohne Entsprechung in Pilzpathogenen wie *Candida* spp. Vulvovaginale Candidiasis ist eine Pilzinfektion, die typischerweise durch Targeting der Ergosterolsynthese (z. B. Azole, die CYP51/Lanosterol-Demethylase hemmen) oder der Synthese der Pilzzellwand (Echinocandine) behandelt wird – Wege, die mit Letermovirs antiviraler Wirkungsweise nichts zu tun haben.
 
-## Taiwan Market Information
-
-Letermovir is currently **not marketed** in Taiwan (0 licenses on record), so no authorization details are available.
+Der hohe TxGNN-Score (99.88%) spiegelt höchstwahrscheinlich eine indirekte Knowledge-Graph-Assoziation wider – zum Beispiel treten beide Entitäten häufig zusammen mit immungeschwächten/Transplantations-Patientenpopulationen in den zugrunde liegenden Daten auf – eher als echte pharmakologische Ähnlichkeit. Diese Vorhersage sollte als Graph-Embedding-Artefakt behandelt werden, bis unabhängige mechanistische oder klinische Beweise entstehen.
 
 ---
 
-## Safety Considerations
+## Klinische Studienbelege
 
-Please refer to the package insert for safety information.
+Derzeit sind keine damit zusammenhängenden klinischen Studien registriert.
 
 ---
 
-## Conclusion and Next Steps
+## Literaturbelege
 
-**Decision: Hold**
+Derzeit ist keine damit zusammenhängende Literatur verfügbar.
 
-**Rationale:**
-The prediction is supported only by a raw TxGNN score (L5, S0) with no clinical trials, no literature, and no marketed product in Taiwan to draw on. More importantly, the model's own mechanistic rationale explicitly finds no plausible pharmacological link between an antiviral DNA terminase inhibitor and an antifungal indication — this is a strong signal the association is spurious rather than a genuine repurposing lead.
+---
 
-**To proceed, the following is needed:**
-- Resolve DG001 (TFDA/manufacturer labeling — warnings and contraindications) before any safety-stage (S1) review can begin
-- Resolve DG002 (confirmed mechanism of action via DrugBank) to properly assess or rule out mechanistic plausibility
-- Independent preclinical or in-vitro antifungal activity data for letermovir, given no biological rationale currently supports this indication
-- Re-evaluate candidate priority — given the mechanistic mismatch, resources may be better directed to other predicted indications with stronger biological plausibility
+## Taiwan-Marktinformationen
+
+Letermovir wird derzeit in Taiwan **nicht vermarktet** (0 Lizenzen auf Datensatz), daher sind keine Zulassungsdetails verfügbar.
+
+---
+
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Fachinformation für Sicherheitsinformationen.
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Zurückhaltung**
+
+**Begründung:**
+Die Vorhersage wird nur durch einen rohen TxGNN-Score (L5, S0) unterstützt, ohne klinische Studien, ohne Literatur und ohne vermarktetes Produkt in Taiwan, worauf man sich stützen könnte. Noch wichtiger ist, dass die eigene mechanistische Rationale des Modells explizit keine plausible pharmakologische Verbindung zwischen einem antiviralen DNA-Terminase-Inhibitor und einer antimykotischen Indikation findet – dies ist ein starkes Signal, dass die Assoziation spurios ist, anstatt ein echter Umwidmungsansatz zu sein.
+
+**Zum Fortfahren ist Folgendes erforderlich:**
+- Lösen Sie DG001 (TFDA/Herstellerkennzeichnung – Warnungen und Kontraindikationen) auf, bevor eine Überprüfung in der Sicherheitsphase (S1) beginnen kann
+- Lösen Sie DG002 (bestätigter Wirkmechanismus über DrugBank) auf, um mechanistische Plausibilität angemessen zu bewerten oder auszuschließen
+- Unabhängige präklinische oder In-vitro-Antimykotika-Aktivitätsdaten für Letermovir, da derzeit keine biologische Rationale diese Indikation unterstützt
+- Bewerten Sie die Kandidatenpriorität neu – angesichts der mechanistischen Nichtübereinstimmung könnten Ressourcen besser auf andere vorhergesagte Indikationen mit stärkerer biologischer Plausibilität gerichtet werden
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

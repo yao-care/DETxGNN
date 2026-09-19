@@ -29,70 +29,71 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# ICOSAPENT ETHYL: From Hypertriglyceridemia to Hemoglobinopathy
+# ICOSAPENT ETHYL: Von Hypertriglyzeridämie zur Hämoglobinopathie
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Icosapent ethyl is a purified ethyl ester of EPA (eicosapentaenoic acid), generally known for use in severe hypertriglyceridemia and cardiovascular risk reduction; detailed original-indication data is not present in the local regulatory evidence pack.
-> The TxGNN model predicts it may be effective for **Hemoglobinopathy**,
-> but currently only **1 preclinical publication** (on a related but different compound) supports this direction, with **no clinical trials** registered.
+> Icosapentethyl ist ein gereinigter Ethylester von EPA (Eicosapentaensäure), der allgemein für die Anwendung bei schwerer Hypertriglyzeridämie und zur Reduktion des kardiovaskulären Risikos bekannt ist; detaillierte Daten zur Originalindikation liegen im lokalen regulatorischen Evidenzpaket nicht vor.
+> Das TxGNN-Modell sagt voraus, dass es bei **Hämoglobinopathie** wirksam sein könnte,
+> derzeit stützt jedoch nur **1 präklinische Publikation** (zu einer verwandten, aber unterschiedlichen Verbindung) diese Richtung, bei **keinen registrierten klinischen Studien**.
 
 ---
 
-## Quick Overview
+## Kurzübersicht
 
-| Item | Content |
+| Punkt | Inhalt |
 |------|------|
-| Original Indication | Not available in local regulatory data (drug is not marketed); generally known for severe hypertriglyceridemia / cardiovascular risk reduction |
-| Predicted New Indication | Hemoglobinopathy |
-| TxGNN Prediction Score | 99.09% |
-| Evidence Level | L5 |
-| Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Originalindikation | In lokalen regulatorischen Daten nicht verfügbar (Arzneimittel nicht im Markt); allgemein bekannt für schwere Hypertriglyzeridämie / Reduktion des kardiovaskulären Risikos |
+| Vorhergesagte neue Indikation | Hämoglobinopathie |
+| TxGNN-Vorhersagewert | 99.09% |
+| Evidenzgrad | L5 |
+| Marktstatus | Nicht im Markt |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Zurückstellen |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage plausibel?
 
-Currently, detailed mechanism of action data is not available. Based on known information, icosapent ethyl is a highly purified EPA (omega-3 fatty acid) ethyl ester, and its efficacy in reducing triglycerides / cardiovascular risk has been established; mechanistically it may also be applicable to hemoglobinopathy through anti-inflammatory, antioxidant, and endothelial-function-improving properties relevant to vaso-occlusive and ischemia-reperfusion injury.
+Derzeit liegen keine detaillierten Daten zum Wirkmechanismus vor. Basierend auf bekannten Informationen ist Icosapentethyl ein hochgereinigter Ethylester von EPA (Omega-3-Fettsäure), dessen Wirksamkeit bei der Senkung von Triglyzeriden / des kardiovaskulären Risikos etabliert ist; mechanistisch könnte es auch bei Hämoglobinopathie anwendbar sein, durch entzündungshemmende, antioxidative und die Endothelfunktion verbessernde Eigenschaften, die für vasookklusive Ereignisse und Ischämie-Reperfusionsschäden relevant sind.
 
-However, the mechanistic rationale in this evidence pack is derived indirectly: the supporting literature studies **epeleuton**, a structurally related but distinct synthetic omega-3 fatty acid, in a mouse model of sickle cell disease — not icosapent ethyl itself. The link between the two compounds is a class-level (omega-3 fatty acid) inference rather than direct pharmacological evidence for icosapent ethyl, and should be treated as hypothesis-generating only.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+Die mechanistische Begründung in diesem Evidenzpaket ist jedoch indirekt abgeleitet: Die zugrunde liegende Literatur untersucht **Epeleuton**, eine strukturell verwandte, aber eigenständige synthetische Omega-3-Fettsäure, in einem Mausmodell der Sichelzellkrankheit — nicht Icosapentethyl selbst. Die Verbindung zwischen den beiden Substanzen beruht auf einer Ableitung auf Wirkstoffklassen-Ebene (Omega-3-Fettsäure) und nicht auf direkter pharmakologischer Evidenz für Icosapentethyl und sollte lediglich als Hypothesen generierend betrachtet werden.
 
 ---
 
-## Literature Evidence
+## Evidenz aus klinischen Studien
 
-| PMID | Year | Type | Journal | Key Findings |
+Derzeit sind keine relevanten klinischen Studien registriert
+
+---
+
+## Literaturevidenz
+
+| PMID | Jahr | Typ | Zeitschrift | Wichtigste Erkenntnisse |
 |------|-----|------|------|---------|
-| [38105727](https://pubmed.ncbi.nlm.nih.gov/38105727/) | 2024 | Preclinical (Animal Model) | Haematologica | Epeleuton, a related synthetic ω-3 fatty acid, reduced hypoxia/reperfusion-induced inflammatory vasculopathy in a mouse model of sickle cell disease |
+| [38105727](https://pubmed.ncbi.nlm.nih.gov/38105727/) | 2024 | Präklinisch (Tiermodell) | Haematologica | Epeleuton, eine verwandte synthetische ω-3-Fettsäure, reduzierte die durch Hypoxie/Reperfusion induzierte entzündliche Vaskulopathie in einem Mausmodell der Sichelzellkrankheit |
 
 ---
 
-## Safety Considerations
+## Sicherheitshinweise
 
-Please refer to the package insert for safety information.
+Bitte konsultieren Sie die Fachinformation für Sicherheitsinformationen.
 
 ---
 
-## Conclusion and Next Steps
+## Schlussfolgerung und nächste Schritte
 
-**Decision: Hold**
+**Entscheidung: Zurückstellen**
 
-**Rationale:**
-Evidence is limited to a single preclinical animal study of a related-but-different compound (epeleuton, not icosapent ethyl), with no clinical trials, no confirmed MOA data, and no local market/safety data available — insufficient to support progression beyond model prediction (L5).
+**Begründung:**
+Die Evidenz beschränkt sich auf eine einzelne präklinische Tierstudie zu einer verwandten, aber unterschiedlichen Verbindung (Epeleuton, nicht Icosapentethyl), ohne klinische Studien, ohne bestätigte MOA-Daten und ohne verfügbare lokale Markt-/Sicherheitsdaten — unzureichend, um über die Modellvorhersage hinaus (L5) fortzuschreiten.
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings/contraindications) — currently a blocking data gap for safety pre-screening
-- Confirmed mechanism of action (MOA) for icosapent ethyl specifically (currently a high-severity data gap)
-- Direct pharmacological or clinical evidence for icosapent ethyl (not the analog epeleuton) in hemoglobinopathy/sickle cell disease
-- At least preclinical or early clinical data using icosapent ethyl itself before advancing past S0
+**Um fortzufahren, wird Folgendes benötigt:**
+- TFDA-Fachinformation (Warnhinweise/Gegenanzeigen) — derzeit eine blockierende Datenlücke für das Sicherheits-Pre-Screening
+- Bestätigter Wirkmechanismus (MOA) speziell für Icosapentethyl (derzeit eine schwerwiegende Datenlücke)
+- Direkte pharmakologische oder klinische Evidenz für Icosapentethyl (nicht das Analogon Epeleuton) bei Hämoglobinopathie/Sichelzellkrankheit
+- Mindestens präklinische oder frühe klinische Daten unter Verwendung von Icosapentethyl selbst, bevor über S0 hinaus fortgeschritten wird
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

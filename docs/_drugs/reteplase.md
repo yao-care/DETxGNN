@@ -29,66 +29,67 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Reteplase: Drug Repurposing Assessment — Insufficient Evidence for Evaluation
+# Reteplase: Bewertung der Arzneimittelumwidmung — Unzureichende Evidenz für die Evaluierung
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Reteplase (DB00015) is a recombinant tissue plasminogen activator (tPA) used in thrombolytic therapy. The current Evidence Pack contains **no TxGNN predicted indications**, combined with blocking data gaps in safety information and mechanism of action, meaning a meaningful repurposing evaluation **cannot be completed at this stage**. A Hold decision is warranted until critical data gaps are resolved.
+Reteplase (DB00015) ist ein rekombinanter Gewebetyp-Plasminogenaktivator (tPA), der in der Thrombolysetherapie eingesetzt wird. Das aktuelle Evidence Pack enthält **keine von TxGNN prognostizierten Indikationen**, kombiniert mit kritischen Datenlücken bei Sicherheitsinformationen und Wirkmechanismus, was bedeutet, dass eine aussagekräftige Arzneimittelumwidmungsbewertung **in dieser Phase nicht abgeschlossen werden kann**. Eine Zurückstellung ist gerechtfertigt, bis kritische Datenlücken behoben sind.
 
 ---
 
-## Quick Overview
+## Kurzübersicht
 
-| Item | Content |
+| Element | Inhalt |
 |------|---------|
-| Original Indication | Not documented in current Evidence Pack |
-| Predicted New Indication | None — TxGNN returned no predictions |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | L5 (no predictions, no supporting studies identified) |
-| Germany Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+| Ursprüngliche Indikation | Nicht dokumentiert im aktuellen Evidence Pack |
+| Prognostizierte neue Indikation | Keine — TxGNN hat keine Vorhersagen zurückgegeben |
+| TxGNN-Prognosewert | N/A |
+| Evidenzstufe | L5 (keine Vorhersagen, keine unterstützenden Studien identifiziert) |
+| Marktstatus in Deutschland | Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | **Zurückstellung** |
 
 ---
 
-## Why No Prediction is Available
+## Warum keine Vorhersage verfügbar ist
 
-The TxGNN model returned zero predicted indications for Reteplase in this Evidence Pack. This typically occurs for one of the following reasons:
+Das TxGNN-Modell hat für Reteplase in diesem Evidence Pack null prognostizierte Indikationen zurückgegeben. Dies tritt typischerweise aus einem der folgenden Gründe auf:
 
-1. **Knowledge graph coverage gap**: Reteplase may not be sufficiently represented as a node in the TxGNN heterogeneous knowledge graph, limiting the model's ability to propagate disease associations.
-2. **Narrow mechanism profile**: As a thrombolytic agent acting specifically on fibrin clots via plasminogen activation, Reteplase's pharmacological footprint may not overlap with non-cardiovascular disease nodes in the graph at the current prediction threshold.
-3. **Data input incompleteness**: The Evidence Pack lists `original_indications` as empty and `original_moa` as unavailable. Without these anchors, the model cannot seed association traversal.
+1. **Lücke in der Knowledge-Graph-Abdeckung**: Reteplase ist möglicherweise nicht ausreichend als Knoten im TxGNN-Wissensgraph repräsentiert, was die Fähigkeit des Modells einschränkt, Krankheitsassoziationen zu verbreiten.
+2. **Begrenztes Wirkprofil**: Da Reteplase als Thrombolytikum spezifisch auf Fibringerinnsel über Plasminogenaktivierung wirkt, kann sein pharmakologischer Fußabdruck bei der aktuellen Vorhersageschwelle möglicherweise nicht mit Knoten von nicht-kardiovaskulären Krankheiten im Diagramm überlappen.
+3. **Unvollständigkeit der Dateneingabe**: Das Evidence Pack listet `original_indications` als leer und `original_moa` als nicht verfügbar auf. Ohne diese Ankerpunkte kann das Modell die Assoziationsdurchquerung nicht initiieren.
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on known pharmacological class, Reteplase is a recombinant deletion mutant of human tissue-type plasminogen activator; its thrombolytic efficacy in acute myocardial infarction has been established clinically, and any mechanistic applicability to new indications would depend on resolving the MOA data gap first.
-
----
-
-## Germany Market Information
-
-Reteplase holds **no marketing authorizations** in Germany at the time of this report. There are no licensed products, dosage forms, or approved indications on record in the current Evidence Pack.
+Derzeit sind detaillierte Wirkmechanismus-Daten nicht im Evidence Pack verfügbar. Basierend auf der bekannten pharmakologischen Klasse ist Reteplase eine rekombinante Deletionsmutante des menschlichen Gewebetyp-Plasminogenaktivators; seine thrombolytische Wirksamkeit beim akuten Myokardinfarkt ist klinisch etabliert, und jede mechanistische Anwendbarkeit auf neue Indikationen würde von der vorherigen Behebung der MOA-Datenlücke abhängen.
 
 ---
 
-## Safety Considerations
+## Marktstatus in Deutschland
 
-Please refer to the package insert for safety information. No warnings, contraindications, or drug interaction data were returned in the current Evidence Pack.
+Reteplase hat zum Zeitpunkt dieses Berichts **keine Zulassungen für den Markt** in Deutschland. Es gibt keine lizenzierten Produkte, Darreichungsformen oder genehmigten Indikationen in den aktuellen Aufzeichnungen des Evidence Pack.
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsaspekte
 
-**Decision: Hold**
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. Im aktuellen Evidence Pack wurden keine Warnungen, Kontraindikationen oder Arzneimittelwechselwirkungsdaten zurückgegeben.
 
-**Rationale:**
-The Evidence Pack for Reteplase is critically incomplete — TxGNN produced no predicted indications, mechanism of action data is absent, all safety fields are empty, and the drug has no German market authorization. There is no evaluable repurposing signal at this time.
+---
 
-**To proceed, the following is needed:**
+## Fazit und nächste Schritte
 
-- **[Blocking]** Retrieve full package insert (TFDA / BfArM / SmPC) to populate warnings, contraindications, and approved indications — this is a prerequisite for any safety screening
-- **[High]** Obtain MOA data from DrugBank API (query returned 1 result but MOA was not extracted) — required for mechanistic plausibility analysis
-- **[High]** Re-run TxGNN prediction pipeline after confirming Reteplase is correctly represented as a knowledge graph node; verify node ID mapping between DrugBank DB00015 and the KG entity
-- **[Medium]** Confirm whether Reteplase has regulatory approvals outside Germany (e.g., EMA, FDA) that could anchor the original indication field and support cross-market repurposing analysis
-- **[Medium]** Check TxGNN prediction threshold settings — if the score cutoff is set high, lowering it may surface sub-threshold candidate indications for exploratory review
+**Entscheidung: Zurückstellung**
+
+**Begründung:**
+Das Evidence Pack für Reteplase ist kritisch unvollständig — TxGNN hat keine prognostizierten Indikationen hervorgebracht, Wirkmechanismus-Daten fehlen, alle Sicherheitsfelder sind leer, und das Arzneimittel hat keine Zulassung für den deutschen Markt. Es gibt derzeit kein bewertbares Arzneimittelumwidmungssignal.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+
+- **[Blocking]** Vollständige Packungsbeilage abrufen (TFDA / BfArM / SmPC), um Warnungen, Kontraindikationen und genehmigte Indikationen auszufüllen — dies ist eine Voraussetzung für jede Sicherheitsbewertung
+- **[High]** MOA-Daten von der DrugBank-API abrufen (Abfrage hat 1 Ergebnis zurückgegeben, aber MOA wurde nicht extrahiert) — erforderlich für die Analyse der mechanistischen Plausibilität
+- **[High]** TxGNN-Prognosepipeline erneut ausführen, nachdem bestätigt wurde, dass Reteplase korrekt als Knowledge-Graph-Knoten repräsentiert ist; Knoten-ID-Zuordnung zwischen DrugBank DB00015 und der KG-Entität überprüfen
+- **[Medium]** Bestätigen Sie, ob Reteplase behördliche Zulassungen außerhalb Deutschlands hat (z. B. EMA, FDA), die das Feld der ursprünglichen Indikation verankern und eine länderübergreifende Arzneimittelumwidmungsanalyse unterstützen könnten
+- **[Medium]** Überprüfen Sie die TxGNN-Prognoseschwellenwerteinstellungen — wenn der Score-Cutoff hoch gesetzt ist, kann dessen Senkung unterschwellige Kandidaten-Indikationen für explorative Überprüfung zu Tage fördern
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

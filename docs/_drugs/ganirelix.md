@@ -29,85 +29,86 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Ganirelix: Original Indication Not Documented → Predicted Association with Hypertrichosis (Low Confidence)
+# Ganirelix: Ursprüngliche Indikation nicht dokumentiert → Vorhergesagte Assoziation mit Hypertrichose (niedriges Vertrauen)
 
-> **Note:** This Evidence Pack (`TW-DB06785-multi`) contains 10 TxGNN-predicted indications for ganirelix. All 10 are scored **L5 / Stage S0 / Recommendation: Hold**, and none have supporting clinical trials. This report focuses on the top-ranked prediction (hypertrichosis) but the conclusion applies to the full candidate set.
+> **Hinweis:** Dieses Evidence Pack (`TW-DB06785-multi`) enthält 10 vom TxGNN-Modell vorhergesagte Indikationen für Ganirelix. Alle 10 sind bewertet mit **L5 / Stufe S0 / Empfehlung: Zurückhalten**, und keine haben unterstützende klinische Studien. Dieser Bericht konzentriert sich auf die am höchsten bewertete Vorhersage (Hypertrichose), aber die Schlussfolgerung gilt für den vollständigen Kandidatensatz.
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-The original approved indication for ganirelix is not documented in this Evidence Pack, and its mechanism of action is flagged as a data gap.
-The TxGNN model's top prediction is **Hypertrichosis (disease)**, with a raw score of **99.98%**, but the model's own rationale states there is **no known mechanistic link** between GnRH antagonism and hair growth disorders — this is most likely an artifact of embedding-space clustering rather than a genuine pharmacological signal.
-There are **0 clinical trials** and **0 publications** supporting this specific drug–disease pair.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in this Evidence Pack (data gap) |
-| Predicted New Indication | Hypertrichosis (disease) |
-| TxGNN Prediction Score | 99.98% (rank #461 among all predictions) |
-| Evidence Level | L5 (model prediction only, no clinical/literature evidence) |
-| Germany Market Status | ✗ Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+Die ursprüngliche zugelassene Indikation für Ganirelix ist in diesem Evidence Pack nicht dokumentiert, und sein Wirkmechanismus ist als Datenlücke gekennzeichnet.
+Die Top-Vorhersage des TxGNN-Modells ist **Hypertrichose (Erkrankung)**, mit einem Rohscore von **99,98 %**, aber die eigene Begründung des Modells besagt, dass es **keine bekannte mechanistische Verbindung** zwischen GnRH-Antagonismus und Haarwachstumsstörungen gibt — dies ist höchstwahrscheinlich ein Artefakt der Clusterbildung im Einbettungsraum und kein echtes pharmakologisches Signal.
+Es gibt **0 klinische Studien** und **0 Publikationen**, die dieses spezifische Arzneistoff-Krankheitspaar unterstützen.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Currently, detailed mechanism of action data for ganirelix is not available in this Evidence Pack, and no original indication is recorded. Without this baseline information, it is not possible to construct a pharmacologically grounded rationale connecting ganirelix to hypertrichosis.
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Nicht dokumentiert in diesem Evidence Pack (Datenlücke) |
+| Vorhergesagte neue Indikation | Hypertrichose (Erkrankung) |
+| TxGNN-Vorhersage-Score | 99,98 % (Rang #461 unter allen Vorhersagen) |
+| Evidenzstufe | L5 (nur Modellvorhersage, keine klinische/Literaturevidenz) |
+| Marktstand Deutschland | ✗ Nicht vermarktet (Nicht vermarktet) |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | **Zurückhalten** |
 
-More importantly, the Evidence Pack's own generated rationale for this pairing explicitly states:
+---
+
+## Warum ist diese Vorhersage angemessen?
+
+Derzeit sind detaillierte Wirkmechanismus-Daten für Ganirelix in diesem Evidence Pack nicht verfügbar, und keine ursprüngliche Indikation ist verzeichnet. Ohne diese Basisinformationen ist es nicht möglich, eine pharmakologisch fundierte Begründung zu konstruieren, die Ganirelix mit Hypertrichose verbindet.
+
+Noch wichtiger ist, dass die vom Evidence Pack selbst generierte Begründung für diese Paarung explizit besagt:
 
 > "多毛症與 GnRH 拮抗劑之生理機轉無已知關聯，可能為 TxGNN embedding 空間中因性腺軸相關疾病聚類產生的偽關聯。無機轉假說支持，無臨床證據。"
-> ("There is no known physiological link between hypertrichosis and GnRH antagonists; this may be a spurious association arising from clustering of gonadal-axis-related diseases in the TxGNN embedding space. No mechanistic hypothesis is supported, and no clinical evidence exists.")
+> ("Es gibt keine bekannte physiologische Verbindung zwischen Hypertrichose und GnRH-Antagonisten; dies könnte eine spurious Association sein, die durch die Clusterbildung mit Gonaden-Achsen-bezogenen Erkrankungen im TxGNN-Einbettungsraum entsteht. Keine mechanistische Hypothese wird unterstützt, und es existiert keine klinische Evidenz.")
 
-The same pattern holds across the remaining 9 predicted indications in this Evidence Pack — congenital hypertrichosis syndromes, periodontal/odontogenic malformation, Dandy-Walker malformation, hair shaft abnormalities, precocious puberty variants, persistent fetal circulation, aromatase excess syndrome, and trichomegaly. All are flagged with weak or absent mechanistic plausibility, and none carry direct clinical or literature support for ganirelix specifically. This is a case where the high TxGNN score does **not** correspond to biological or clinical plausibility.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Das gleiche Muster gilt für die verbleibenden 9 vorhergesagten Indikationen in diesem Evidence Pack — angeborene Hypertrichose-Syndrome, parodontale/odontogene Malformation, Dandy-Walker-Malformation, Haarschaftanomalien, Entwicklungsvarianten mit verfrühter Pubertät, persistierende fetale Zirkulation, Aromatase-Überschuss-Syndrom und Trichomegalie. Alle sind gekennzeichnet mit schwacher oder fehlender mechanistischer Plausibilität, und keine haben direkte klinische oder Literaturunterstützung speziell für Ganirelix. Dies ist ein Fall, in dem der hohe TxGNN-Score **nicht** biologischer oder klinischer Plausibilität entspricht.
 
 ---
 
-## Literature Evidence
+## Evidenz aus klinischen Studien
 
-Currently no related literature available.
-
-*(Note: rank #3 in this candidate set — "malformation syndrome with odontal/periodontal component" — has 20 associated PubMed articles, but all concern general periodontal disease pathophysiology and treatment; none reference ganirelix or GnRH antagonists. This reflects the volume of periodontal disease research generally, not evidence for this drug–disease pair, and is excluded from the top-ranked analysis above.)*
+Derzeit sind keine verwandten klinischen Studien registriert.
 
 ---
 
-## Germany Market Information
+## Literaturevidenz
 
-Ganirelix is currently **not marketed** and has **0 authorizations** on record in this dataset. No license table is available.
+Derzeit ist keine verwandte Literatur verfügbar.
 
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Key warnings, contraindications, and drug interaction data are all marked as data gaps in this Evidence Pack. Notably, TFDA label/warning data (DG001) is flagged as a **Blocking** gap, meaning this candidate cannot proceed to Stage 1 safety review until resolved.)*
+*(Hinweis: Rang #3 in diesem Kandidatensatz — „Malformationssyndrom mit odontalem/parodontalem Anteil" — hat 20 assoziierte PubMed-Artikel, aber alle betreffen allgemeine parodontale Erkrankungspathophysiologie und Behandlung; keiner verweist auf Ganirelix oder GnRH-Antagonisten. Dies widerspiegelt das Volumen der parodontalen Krankheitsforschung allgemein, nicht die Evidenz für dieses Arzneistoff-Krankheitspaar, und wird aus der oben stehenden Top-Ranking-Analyse ausgeschlossen.)*
 
 ---
 
-## Conclusion and Next Steps
+## Marktinformation für Deutschland
 
-**Decision: Hold**
+Ganirelix wird derzeit **nicht vermarktet** und hat **0 Zulassungen** im Datensatz dieses Evidence Packs. Es ist keine Lizenztabelle verfügbar.
 
-**Rationale:**
-This candidate has no clinical trial or literature evidence supporting the drug–disease pair, no documented original indication, no MOA data, and is not currently marketed. The model's own mechanistic rationale explicitly identifies the top prediction as a likely embedding-space artifact rather than a genuine signal. All 10 predicted indications in this Evidence Pack score L5/S0/Hold, indicating a data quality and evidentiary gap rather than a repurposing opportunity ready for evaluation.
+---
 
-**To proceed, the following is needed:**
-- TFDA label (仿單) warnings and contraindications — **Blocking gap (DG001)**, required before Stage 1 safety review
-- Mechanism of action (MOA) data from DrugBank — **High-priority gap (DG002)**
-- Documentation of ganirelix's original approved indication(s)
-- Independent mechanistic hypothesis and/or preclinical evidence specifically linking GnRH antagonism to any of the predicted indications, before further clinical/literature evidence search is warranted
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+*(Schlüsselwarnungen, Kontraindikationen und Arzneimittelwechselwirkungsdaten sind alle als Datenlücken in diesem Evidence Pack gekennzeichnet. Bemerkenswert ist, dass TFDA-Kennzeichnungsdaten (DG001) als **Sperrende** Lücke gekennzeichnet sind, was bedeutet, dass dieser Kandidat nicht zur Sicherheitsprüfung Phase 1 übergehen kann, bis diese gelöst ist.)*
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Zurückhalten**
+
+**Begründung:**
+Dieser Kandidat hat keine klinische Studien- oder Literaturevidenz, die das Arzneistoff-Krankheitspaar unterstützen, keine dokumentierte ursprüngliche Indikation, keine MOA-Daten, und wird derzeit nicht vermarktet. Die eigene mechanistische Begründung des Modells identifiziert die Top-Vorhersage explizit als wahrscheinliches Einbettungsraum-Artefakt statt als echtes Signal. Alle 10 vorhergesagten Indikationen in diesem Evidence Pack erhalten L5/S0/Hold, was auf eine Datenqualitäts- und Evidentzlücke hindeutet statt auf eine Umwidmungsmöglichkeit, die zur Bewertung bereit ist.
+
+**Um weiterzumachen, ist folgendes erforderlich:**
+- TFDA-Kennzeichnung (仿單) Warnungen und Kontraindikationen — **Sperrende Lücke (DG001)**, erforderlich vor Sicherheitsprüfung Phase 1
+- Wirkmechanismus (MOA) Daten aus DrugBank — **Hochpriorität-Lücke (DG002)**
+- Dokumentation der ursprünglichen genehmigten Indikation(en) von Ganirelix
+- Unabhängige mechanistische Hypothese und/oder präklinische Evidenz, die speziell GnRH-Antagonismus mit einer der vorhergesagten Indikationen verbindet, bevor eine weitere Suche nach klinischer/Literaturenevidenz angemessen ist
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

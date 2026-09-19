@@ -29,171 +29,152 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **7**
 
 </div>
 
-Using the drug-repurposing evaluation report template to convert this Evidence Pack into the required Markdown report. Note: this pack is a "multi" candidate file (7 predicted indications for aliskiren), so per the template's primary-indication rules I feature `predicted_indications[0]` in the Quick Overview/Title, and add one summary table covering all 7 candidates so the very different evidence quality across them (including a safety-relevant RCT signal) isn't lost.
+# Aliskiren: Von Hypertonie zu Pulmonaler Hypertonie aufgrund von Lungenerkrankung/Hypoxie
 
----
+## Zusammenfassung in einem Satz
 
-# Aliskiren: From Hypertension to Pulmonary Hypertension Due to Lung Disease/Hypoxia
+> Aliskiren ist ein direkter Reninhibitor, der ursprünglich zur Behandlung der essentiellen Hypertonie eingesetzt wird. Die höchste Vorhersage des TxGNN-Modells ist **Pulmonale Hypertonie aufgrund von Lungenerkrankung und/oder Hypoxie**, wird jedoch derzeit nur von **0 klinischen Studien** und **20 Publikationen** gestützt, von denen keine aliskiren, Reninhibition oder pulmonale Hypertonie spezifisch untersucht hat. Dieses Evidence Pack enthält tatsächlich **7 vorhergesagte Indikationen** für aliskiren mit stark unterschiedlicher Evidenzqualität — von einer mechanistisch direkten, aber untesteten Hypothese (renovaskuläre Hypertonie) bis hin zu einem gut untersuchten RCT-Signal, das eher auf **Schaden als auf Nutzen** hindeutet (zerebrovaskuläre Erkrankung, über die ALTITUDE-Studie).
 
-## One-Sentence Summary
+## Schnellübersicht
 
-> Aliskiren is a direct renin inhibitor originally used to treat essential hypertension. The TxGNN model's top-ranked prediction is **Pulmonary Hypertension Owing to Lung Disease and/or Hypoxia**, but this direction is currently supported only by **0 clinical trials** and **20 publications**, none of which specifically studied aliskiren, renin inhibition, or pulmonary hypertension. This Evidence Pack actually contains **7 predicted indications** for aliskiren with widely varying evidence quality — from a mechanistically direct but untested hypothesis (renovascular hypertension) to a well-studied RCT signal that points toward **harm rather than benefit** (cerebrovascular disease, via the ALTITUDE trial).
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Hypertonie (essentielle Hypertonie) — Grundwissen der Arzneistoffklasse; kein formales Fachinformationstext ist verfügbar, da das Produkt in diesem Datensatz nicht in Deutschland vermarktet wird |
+| Vorhergesagte neue Indikation | Pulmonale Hypertonie aufgrund von Lungenerkrankung und/oder Hypoxie |
+| TxGNN-Vorhersagepunktzahl | 99.98% (Rang 466 aus der vollständigen Vorhersageliste) |
+| Evidenzgrad | L5 |
+| Marktstatus Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Abwarten |
 
----
+## Übersicht aller vorhergesagten Indikationen in diesem Pack
 
-## Quick Overview
+Dieses Kandidaten-Pack (`TW-DB09026-multi`) enthält 7 von TxGNN vorhergesagte Indikationen für aliskiren. Die Evidenzqualität unterscheidet sich erheblich zwischen ihnen und sollte eher zusammenhängend als isoliert gelesen werden:
 
-| Item | Content |
-|------|------|
-| Original Indication | Hypertension (essential hypertension) — general drug-class knowledge; no formal licensing text is available since the product is not marketed in Germany in this dataset |
-| Predicted New Indication | Pulmonary hypertension owing to lung disease and/or hypoxia |
-| TxGNN Prediction Score | 99.98% (rank 466 of full prediction list) |
-| Evidence Level | L5 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
-
----
-
-## Overview of All Predicted Indications in This Pack
-
-This candidate pack (`TW-DB09026-multi`) contains 7 TxGNN-predicted indications for aliskiren. Evidence quality differs sharply between them and should be read together rather than in isolation:
-
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Decision Stage | Recommendation |
+| Rang | Vorhergesagte Indikation | TxGNN-Score | Evidenzgrad | Entscheidungsphase | Empfehlung |
 |------|----------------------|-------------|-----------------|-----------------|-----------------|
-| 1 | Pulmonary hypertension owing to lung disease and/or hypoxia | 99.98% | L5 | S0 | Hold |
-| 2 | Pulmonary hypertension with unclear multifactorial mechanism | 99.98% | L5 | S0 | Hold |
-| 3 | Malignant hypertensive renal disease | 99.98% | L4 | S0 | Hold |
-| 4 | Malignant renovascular hypertension | 99.98% | L3 | S1 | Research Question |
-| 5 | Braddock syndrome | 99.97% | L5 | S0 | Hold |
-| 6 | Chronic pulmonary heart disease (cor pulmonale) | 99.78% | L5 | S0 | Hold |
-| 7 | Cerebrovascular disorder | 99.19% | **L1** | S1 | Hold — **RCT evidence shows harm, not benefit** |
+| 1 | Pulmonale Hypertonie aufgrund von Lungenerkrankung und/oder Hypoxie | 99.98% | L5 | S0 | Abwarten |
+| 2 | Pulmonale Hypertonie mit unklar multifaktoriellem Mechanismus | 99.98% | L5 | S0 | Abwarten |
+| 3 | Bösartige hypertensive Nierenschädigung | 99.98% | L4 | S0 | Abwarten |
+| 4 | Bösartige renovaskuläre Hypertonie | 99.98% | L3 | S1 | Forschungsfrage |
+| 5 | Braddock-Syndrom | 99.97% | L5 | S0 | Abwarten |
+| 6 | Chronische pulmonale Herzerkrankung (Cor pulmonale) | 99.78% | L5 | S0 | Abwarten |
+| 7 | Zerebrovaskuläre Erkrankung | 99.19% | **L1** | S1 | Abwarten — **RCT-Evidenz zeigt Schaden, nicht Nutzen** |
 
-Note that the raw TxGNN score alone is not discriminating here — all 7 candidates score above 99%. The real differentiator is the evidence review below, especially rank 7, where the strongest clinical trial evidence in the entire pack (Phase 3 RCT, ALTITUDE) points *against* repurposing rather than for it.
+Zu beachten ist, dass der reine TxGNN-Score hier nicht diskriminierend ist — alle 7 Kandidaten erreichen über 99 %. Der eigentliche Unterschied liegt in der Evidenzanalyse unten, insbesondere Rang 7, wo die stärkste klinische Studienbeweise im gesamten Pack (Phase-3-RCT, ALTITUDE) *gegen* Umwidmung sprechen statt dafür.
 
----
+## Warum ist diese Vorhersage vernünftig?
 
-## Why is This Prediction Reasonable?
+Detaillierte Wirkmechanismus-Daten für aliskiren sind in diesem Evidence Pack nicht verfügbar (`original_moa: [Data Gap]`). Basierend auf der in diesem Pack erfassten Literatur (z. B. PMID 17485026, „Aliskiren, der erste Reninhibitor zur Behandlung von Hypertonie") ist aliskiren ein **direkter Reninhibitor der ersten Klasse**: Er blockiert den geschwindigkeitsbestimmenden Schritt des Renin-Angiotensin-Aldosteron-Systems (RAAS), und seine Wirksamkeit bei essentieller Hypertonie ist gut etabliert.
 
-Detailed mechanism-of-action data for aliskiren is not available in this Evidence Pack (`original_moa: [Data Gap]`). Based on the literature captured in this pack (e.g., PMID 17485026, "Aliskiren, the first renin inhibitor for treating hypertension"), aliskiren is a first-in-class **direct renin inhibitor**: it blocks the rate-limiting step of the renin-angiotensin-aldosterone system (RAAS), and its efficacy in essential hypertension is well established.
+Die 7 oben vorhergesagten Indikationen clustern um Bedingungen, bei denen eine RAAS-Überaktivierung eine Rolle spielen soll — renale, pulmonalvaskuläre und zerebrovaskuläre Pathologie. Die mechanistische Plausibilität ist jedoch keineswegs einheitlich:
 
-The 7 predicted indications above cluster around conditions in which RAAS overactivation is thought to play a role — renal, pulmonary vascular, and cerebrovascular pathology. The mechanistic plausibility, however, is far from uniform:
+- **Am direktesten** (Rang 4, bösartige renovaskuläre Hypertonie): Nierenarterien-Stenose-getriebene Hypertonie ist pathophysiologisch durch übermäßige Reninsekretion der unterversorgten Niere definiert, daher zielt ein Reninhibitor direkt auf den vorgelagerten Treiber ab. Die eine stützende Referenz (PMID 17485026) ist arzneistoffspezifisch, warnt aber auch, dass *reaktive* Reninsekretion die langfristige antihypertensive Wirkung von aliskiren genau in dieser Situation abschwächen kann.
+- **Plausibel aber indirekt** (Rang 3, bösartige hypertensive Nierenschädigung; Rang 6, chronische pulmonale Herzerkrankung): RAAS-Aktivierung ist ein anerkannter Beitrag zu glomerulären Druckverletzungen und zu Rechtsherzvolumenbelastung, aber die zitierte Literatur ist nicht aliskiren-spezifisch (eine Komplementpfad-Fibrose-Studie und eine ARNI-Herzinsuffizienz-Post-hoc-Analyse mit einer anderen Arzneistoffklasse).
+- **Schwach/generisch** (Ränge 1–2, hypoxie-getriebene pulmonale Hypertonie): Hypoxie-induziertes pulmonales vaskuläres Remodeling beinhaltet RAAS-Signalisierung in einigen präklinischen Berichten, daher ist die Hypothese grundsätzlich nicht implausibel. Allerdings sind alle 20 abgerufenen Publikationen allgemeine Hypoxie-Biologie-Arbeiten (Neurodegeneration, Kognition, Tumorstoffwechsel, Höhenphysiologie) — **keine erwähnen aliskiren, Reninhibitoren oder Pulmonalhypertonie-Behandlung**, daher ist dieser Link derzeit spekulativ statt nachgewiesen.
+- **Wahrscheinlich Rauschen** (Rang 5, Braddock-Syndrom): Eine CHARGE-ähnliche Ziliopathie ohne bekannte RAAS-/Renin-Biologie und ohne Unterstützungsliteratur oder Studien — am wahrscheinlichsten eine spurlose Wissensgraph-Verbindung über einen gemeinsamen Hypertonie-Komorbiditätsknoten.
+- **Nachgewiesen, aber negativ** (Rang 7, zerebrovaskuläre Erkrankung): Dies ist der einzige Kandidat mit echten Phase-2/3-RCT-Daten (ALTITUDE-Studie und ihre Post-hoc-Analysen). Die Studie wurde frühzeitig beendet, weil aliskiren, wenn es in Kombination mit ACE-Hemmern oder ARBs bei diabetischen Patienten mit Nierenfunktionsstörung gegeben wurde, **erhöhte** Raten von Schlaganfall, Hypotonie und Hyperkaliämie statt neuroprotektiver Wirkung zeigte — trotz günstiger präklinischer (Nager-)Neuroprotektions-Daten.
 
-- **Most direct** (rank 4, malignant renovascular hypertension): renal-artery-stenosis-driven hypertension is pathophysiologically defined by excess renin secretion from the underperfused kidney, so a renin inhibitor targets the upstream driver directly. The one supporting reference (PMID 17485026) is drug-specific but also warns that *reactive* renin secretion may blunt aliskiren's long-term antihypertensive effect in exactly this setting.
-- **Plausible but indirect** (rank 3, malignant hypertensive renal disease; rank 6, chronic pulmonary heart disease): RAAS activation is a recognized contributor to glomerular pressure injury and to right-heart volume overload, but the cited literature is not aliskiren-specific (a complement-pathway fibrosis study, and an ARNI heart-failure post-hoc analysis using a different drug class).
-- **Weak/generic** (ranks 1–2, hypoxia-driven pulmonary hypertension): hypoxia-induced pulmonary vascular remodeling does involve RAAS signaling in some preclinical reports, so the hypothesis is not implausible in principle. However, all 20 retrieved publications are general hypoxia-biology papers (neurodegeneration, cognition, tumor metabolism, high-altitude physiology) — **none mention aliskiren, renin inhibitors, or pulmonary hypertension treatment**, so this link is currently speculative rather than evidenced.
-- **Likely noise** (rank 5, Braddock syndrome): a CHARGE-like ciliopathy with no known RAAS/renin biology and zero supporting literature or trials — most plausibly a spurious knowledge-graph connection via a shared hypertension-comorbidity node.
-- **Evidenced, but negative** (rank 7, cerebrovascular disorder): this is the one candidate with genuine Phase 2/3 RCT data (ALTITUDE trial and its post-hoc analyses). The trial was terminated early because aliskiren, when combined with ACE inhibitors or ARBs in diabetic patients with renal impairment, **increased** rates of stroke, hypotension, and hyperkalemia rather than providing cerebrovascular protection — despite favorable preclinical (rodent) neuroprotection data.
+## Evidenz aus klinischen Studien
 
----
+Nur zwei der sieben Kandidaten-Indikationen haben registrierte Studien.
 
-## Clinical Trial Evidence
+**Chronische pulmonale Herzerkrankung (Rang 6):**
 
-Only two of the seven candidate indications have any registered trials.
-
-**Chronic pulmonary heart disease (rank 6):**
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Studiennummer | Phase | Status | Rekrutierung | Wichtigste Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT03747107](https://clinicaltrials.gov/study/NCT03747107) | N/A | Completed | 19 | Pharmacist-led, data-driven prescribing-safety QI program in primary care (Scotland). Grade C relevance — no direct link to aliskiren pharmacology or this indication; likely a low-relevance pipeline match. |
+| [NCT03747107](https://clinicaltrials.gov/study/NCT03747107) | N/A | Abgeschlossen | 19 | Apotheker-geleitetes, datengestütztes Verschreibungssicherheits-QI-Programm in der Primärversorgung (Schottland). Grad-C-Relevanz — kein direkter Bezug zur aliskiren-Pharmakologie oder dieser Indikation; wahrscheinlich eine niedrig-Relevanz-Pipeline-Übereinstimmung. |
 
-**Cerebrovascular disorder (rank 7):**
+**Zerebrovaskuläre Erkrankung (Rang 7):**
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Studiennummer | Phase | Status | Rekrutierung | Wichtigste Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT01417104](https://clinicaltrials.gov/study/NCT01417104) | Phase 2/3 | **Terminated** | 71 | ALPINE trial: aliskiren vs. placebo for slowing atherosclerotic plaque progression in thoracic/abdominal aorta by MRI. Grade A relevance (drug- and mechanism-specific) but terminated well short of target enrollment — timing coincides with the 2011–2012 ALTITUDE safety signal that led Novartis to halt related aliskiren combination trials; termination reason should be verified directly. |
-| [NCT01454583](https://clinicaltrials.gov/study/NCT01454583) | N/A | Completed | 15,337 | German 3A-Register: large real-world observational registry of RAS-inhibitor (including aliskiren) outpatient treatment patterns in hypertension. Grade B relevance — observational, not designed around cerebrovascular endpoints. |
+| [NCT01417104](https://clinicaltrials.gov/study/NCT01417104) | Phase 2/3 | **Beendet** | 71 | ALPINE-Studie: aliskiren vs. Placebo zur Verlangsamung der atherosklerotischen Plaqueprogression in Aorta thoracalis/abdominalis durch MRT. Grad-A-Relevanz (arzneistoff- und mechanismusspezifisch) aber vorzeitig beendet, weit unter der angestrebten Rekrutierungszahl — der Zeitpunkt fällt mit dem ALTITUDE-Sicherheitssignal 2011–2012 zusammen, das Novartis veranlasste, verwandte aliskiren-Kombinationsstudien zu stoppen; der Beendigungsgrund sollte direkt überprüft werden. |
+| [NCT01454583](https://clinicaltrials.gov/study/NCT01454583) | N/A | Abgeschlossen | 15,337 | Deutsches 3A-Register: großes Real-World-Observatories-Register von RAS-Inhibitor- (einschließlich aliskiren) Ambulanzbehandlungsmuster bei Hypertonie. Grad-B-Relevanz — Observationsdaten, nicht um zerebrovaskuläre Endpunkte herum entworfen. |
 
-For pulmonary hypertension (ranks 1–2), malignant hypertensive renal disease (rank 3), malignant renovascular hypertension (rank 4), and Braddock syndrome (rank 5): **currently no related clinical trials registered.**
+Für pulmonale Hypertonie (Ränge 1–2), bösartige hypertensive Nierenschädigung (Rang 3), bösartige renovaskuläre Hypertonie (Rang 4) und Braddock-Syndrom (Rang 5): **derzeit keine verwandten klinischen Studien registriert.**
 
----
+## Evidenz aus der Literatur
 
-## Literature Evidence
+### Zerebrovaskuläre Erkrankung (Rang 7) — stärkste und arzneistoffspezifischste Evidenz in diesem Pack
 
-### Cerebrovascular disorder (rank 7) — strongest and most drug-specific evidence in this pack
-
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Journal | Wichtigste Ergebnisse |
 |------|-----|------|------|---------|
-| [26523993](https://pubmed.ncbi.nlm.nih.gov/26523993/) | 2015 | RCT subgroup (ALTITUDE/AQUARIUS) | Atherosclerosis | Aliskiren's effect on coronary atheroma progression and MACE in diabetic vs. non-diabetic CAD patients; reinforces the diabetic-population harm signal. |
-| [23418282](https://pubmed.ncbi.nlm.nih.gov/23418282/) | 2013 | RCT post-hoc safety analysis | J Renin Angiotensin Aldosterone Syst | Hypotension and ischemic stroke associated with aliskiren in ALTITUDE, proposed mechanism via Bezold-Jarisch reflex sensitization. |
-| [26188211](https://pubmed.ncbi.nlm.nih.gov/26188211/) | 2015 | RCT post-hoc (ALTITUDE) | European Heart Journal | Mortality following a cardiovascular or renal event in T2DM patients in ALTITUDE — establishes the high-risk population where aliskiren + ACEi/ARB is harmful. |
-| [24621979](https://pubmed.ncbi.nlm.nih.gov/24621979/) | 2013 | Clinical review/analysis | JACC: Heart Failure | Examines whether dual RAAS blockade (including aliskiren combinations) is associated with increased stroke risk. |
-| [23541666](https://pubmed.ncbi.nlm.nih.gov/23541666/) | 2013 | Real-world database study | Canadian J Cardiology | Ontario administrative-data study found **no** increase in adverse events with aliskiren + ACEi/ARB in routine practice — offers a partially reassuring, contrasting real-world signal to the RCT findings. |
-| [40013543](https://pubmed.ncbi.nlm.nih.gov/40013543/) | 2025 | Cochrane systematic review/meta-analysis | Cochrane Database Syst Rev | Renin inhibitors vs. ARBs for primary hypertension — comparable BP-lowering, favorable tolerability, but not focused on cerebrovascular outcomes. |
-| [37439548](https://pubmed.ncbi.nlm.nih.gov/37439548/) | 2023 | Cochrane systematic review | Cochrane Database Syst Rev | First-line diuretics vs. other antihypertensive classes — general comparative-effectiveness context, not aliskiren-specific. |
-| [23541659](https://pubmed.ncbi.nlm.nih.gov/23541659/) | 2013 | Review | Canadian J Cardiology | Combination treatment with aliskiren and RAAS blockers — "reassurance but with a note of caution," commentary anticipating the ALTITUDE findings. |
-| [21859961](https://pubmed.ncbi.nlm.nih.gov/21859961/) | 2011 | Preclinical (mouse model) | Hypertension | Direct renin inhibition attenuated brain damage and cognitive impairment in chronic cerebral hypoperfusion mice — supportive mechanistic/preclinical signal, contradicted by later human RCT data. |
-| [27180190](https://pubmed.ncbi.nlm.nih.gov/27180190/) | 2016 | Preclinical (mouse model) | Neurochemical Research | Aliskiren showed neuroprotective effects (PI3K/AKT/Bcl-2 pathway) in experimental ischemic stroke — again preclinical only. |
+| [26523993](https://pubmed.ncbi.nlm.nih.gov/26523993/) | 2015 | RCT-Untergruppe (ALTITUDE/AQUARIUS) | Atherosclerosis | Aliskiren's Wirkung auf Koronaratherom-Progression und MACE bei diabetischen vs. nicht-diabetischen KHK-Patienten; verstärkt das Schaden-Signal bei diabetischer Bevölkerung. |
+| [23418282](https://pubmed.ncbi.nlm.nih.gov/23418282/) | 2013 | RCT-Post-hoc-Sicherheitsanalyse | J Renin Angiotensin Aldosterone Syst | Hypotonie und ischämischer Schlaganfall assoziiert mit aliskiren in ALTITUDE, vorgeschlagener Mechanismus über Bezold-Jarisch-Reflex-Sensibilisierung. |
+| [26188211](https://pubmed.ncbi.nlm.nih.gov/26188211/) | 2015 | RCT-Post-hoc (ALTITUDE) | European Heart Journal | Mortalität nach kardiovaskulärem oder renalen Ereignis bei T2DM-Patienten in ALTITUDE — etabliert die Hochrisiko-Population, in der aliskiren + ACEi/ARB schädlich ist. |
+| [24621979](https://pubmed.ncbi.nlm.nih.gov/24621979/) | 2013 | Klinische Übersicht/Analyse | JACC: Heart Failure | Untersucht, ob duale RAAS-Blockade (einschließlich aliskiren-Kombinationen) mit erhöhtem Schlaganfallrisiko assoziiert ist. |
+| [23541666](https://pubmed.ncbi.nlm.nih.gov/23541666/) | 2013 | Real-World-Datenbankstudien | Canadian J Cardiology | Ontario-Verwaltungsdaten-Studie fand **keine** Zunahme unerwünschter Ereignisse mit aliskiren + ACEi/ARB in der Routinepraxis — bietet ein teilweise beruhigendes, kontrastierendes Real-World-Signal zu den RCT-Ergebnissen. |
+| [40013543](https://pubmed.ncbi.nlm.nih.gov/40013543/) | 2025 | Cochrane-Systematische-Übersicht/Meta-Analyse | Cochrane Database Syst Rev | Reninhibitoren vs. ARBs für primäre Hypertonie — vergleichbare Blutdruck-Senkung, günstige Verträglichkeit, aber nicht auf zerebrovaskuläre Ergebnisse ausgerichtet. |
+| [37439548](https://pubmed.ncbi.nlm.nih.gov/37439548/) | 2023 | Cochrane-Systematische-Übersicht | Cochrane Database Syst Rev | First-Line-Diuretika vs. andere antihypertensive Klassen — allgemeiner Comparative-Effectiveness-Kontext, nicht aliskiren-spezifisch. |
+| [23541659](https://pubmed.ncbi.nlm.nih.gov/23541659/) | 2013 | Übersicht | Canadian J Cardiology | Kombinationsbehandlung mit aliskiren und RAAS-Blockern — „Beruhigung aber mit einer Note der Vorsicht", Kommentar antizipierend die ALTITUDE-Ergebnisse. |
+| [21859961](https://pubmed.ncbi.nlm.nih.gov/21859961/) | 2011 | Präklinisch (Mausmodell) | Hypertension | Direkte Reninhibition verringerte Gehirnschäden und kognitive Beeinträchtigung bei chronischer zerebraler Hypoperfusion bei Mäusen — stützendes mechanistisches/präklinisches Signal, widersprochen durch spätere menschliche RCT-Daten. |
+| [27180190](https://pubmed.ncbi.nlm.nih.gov/27180190/) | 2016 | Präklinisch (Mausmodell) | Neurochemical Research | Aliskiren zeigte neuroprotektive Effekte (PI3K/AKT/Bcl-2-Pfad) in experimentellem ischämischem Schlaganfall — wiederum nur präklinisch. |
 
-### Pulmonary hypertension owing to lung disease and/or hypoxia (rank 1) — non-drug-specific hypoxia biology literature
+### Pulmonale Hypertonie aufgrund von Lungenerkrankung und/oder Hypoxie (Rang 1) — nicht-arzneistoffspezifische Hypoxie-Biologie-Literatur
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Journal | Wichtigste Ergebnisse |
 |------|-----|------|------|---------|
-| [33862277](https://pubmed.ncbi.nlm.nih.gov/33862277/) | 2021 | Review | Ageing Research Reviews | General review of hypoxia's role in brain aging and neurodegeneration; not aliskiren- or pulmonary-hypertension-specific. |
-| [34618295](https://pubmed.ncbi.nlm.nih.gov/34618295/) | 2022 | Review | Metabolic Brain Disease | Clinical and molecular mechanisms of hypoxia-induced cognitive impairment. |
-| [21328446](https://pubmed.ncbi.nlm.nih.gov/21328446/) | 2011 | Review | J Cellular Biochemistry | General hypoxia-mediated biological control across organ systems. |
-| [34535359](https://pubmed.ncbi.nlm.nih.gov/34535359/) | 2021 | Review | Clinical Oncology | Therapeutic modification of tumor hypoxia in oncology; unrelated to pulmonary vascular disease. |
-| [31706510](https://pubmed.ncbi.nlm.nih.gov/31706510/) | 2019 | Review | Trends in Cancer | Deubiquitinases and hypoxia signaling in cancer. |
-| [11172576](https://pubmed.ncbi.nlm.nih.gov/11172576/) | 2000 | Review | Respiratory Care Clinics of North America | Mechanisms of hypoxemia (ventilation-perfusion mismatch, shunt, etc.) — background respiratory physiology only. |
-| [40815459](https://pubmed.ncbi.nlm.nih.gov/40815459/) | 2025 | Review | Rev Med Inst Mex Seguro Soc | High-altitude hypobaric hypoxia and physiological adaptation. |
-| [40347693](https://pubmed.ncbi.nlm.nih.gov/40347693/) | 2025 | Review | Redox Biology | Hypoxia's role in multiple sclerosis pathology. |
-| [37328448](https://pubmed.ncbi.nlm.nih.gov/37328448/) | 2023 | Preclinical | Advanced Science | ac4C/NAT10/HIF-1α feedback loop driving glycolysis in gastric cancer under hypoxia. |
-| [24557798](https://pubmed.ncbi.nlm.nih.gov/24557798/) | 2014 | Editorial | J Applied Physiology | Brief editorial framing on hypoxia research ("translation in progress"); no abstract available. |
+| [33862277](https://pubmed.ncbi.nlm.nih.gov/33862277/) | 2021 | Übersicht | Ageing Research Reviews | Allgemeine Übersicht der Rolle der Hypoxie bei Gehirnalterung und Neurodegeneration; nicht aliskiren- oder Pulmonalhypertonie-spezifisch. |
+| [34618295](https://pubmed.ncbi.nlm.nih.gov/34618295/) | 2022 | Übersicht | Metabolic Brain Disease | Klinische und molekulare Mechanismen der hypoxie-induzierten kognitiven Beeinträchtigung. |
+| [21328446](https://pubmed.ncbi.nlm.nih.gov/21328446/) | 2011 | Übersicht | J Cellular Biochemistry | Allgemeine hypoxie-vermittelte biologische Kontrolle über Organsysteme. |
+| [34535359](https://pubmed.ncbi.nlm.nih.gov/34535359/) | 2021 | Übersicht | Clinical Oncology | Therapeutische Modifikation von Tumorhypoxie in der Onkologie; unabhängig von Pulmonalvaskulärerkrankung. |
+| [31706510](https://pubmed.ncbi.nlm.nih.gov/31706510/) | 2019 | Übersicht | Trends in Cancer | Deubiquitinasen und Hypoxie-Signalisierung bei Krebs. |
+| [11172576](https://pubmed.ncbi.nlm.nih.gov/11172576/) | 2000 | Übersicht | Respiratory Care Clinics of North America | Mechanismen der Hypoxämie (Ventilations-Perfusions-Mismatch, Shunt, etc.) — reine Hintergrund-Atemwegsphysiologie. |
+| [40815459](https://pubmed.ncbi.nlm.nih.gov/40815459/) | 2025 | Übersicht | Rev Med Inst Mex Seguro Soc | Hypoxie in Höhenlage und physiologische Anpassung. |
+| [40347693](https://pubmed.ncbi.nlm.nih.gov/40347693/) | 2025 | Übersicht | Redox Biology | Rolle der Hypoxie bei der Pathologie der Multiplen Sklerose. |
+| [37328448](https://pubmed.ncbi.nlm.nih.gov/37328448/) | 2023 | Präklinisch | Advanced Science | ac4C/NAT10/HIF-1α-Rückkopplungsschleife treibt Glykolyse in Magenkrebs unter Hypoxie. |
+| [24557798](https://pubmed.ncbi.nlm.nih.gov/24557798/) | 2014 | Leitartikel | J Applied Physiology | Kurzes Leitartikel zu Hypoxie-Forschung („Übersetzung im Gange"); kein Abstract verfügbar. |
 
-**None of these 10 (or the remaining 10 in the full retrieval set) discuss aliskiren, renin inhibition, or pulmonary hypertension treatment.** This is the key limitation behind the L5/Hold rating for rank 1–2.
+**Keine dieser 10 (oder der verbleibenden 10 in der vollständigen Abrufsatz) diskutiert aliskiren, Reninhibition oder Pulmonalhypertonie-Behandlung.** Dies ist die Schlüsselbeschränkung hinter der L5/Abwarten-Bewertung für Ränge 1–2.
 
-### Malignant hypertensive renal disease (rank 3)
+### Bösartige hypertensive Nierenschädigung (Rang 3)
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Journal | Wichtigste Ergebnisse |
 |------|-----|------|------|---------|
-| [37919077](https://pubmed.ncbi.nlm.nih.gov/37919077/) | 2023 | Preclinical (mechanism study) | Frontiers in Bioscience | C3aR antagonism restores mitochondrial fatty-acid oxidation and reduces tubular profibrotic changes in renin-dependent hypertension — a complement-pathway mechanism study, not an aliskiren efficacy study. |
+| [37919077](https://pubmed.ncbi.nlm.nih.gov/37919077/) | 2023 | Präklinisch (Mechanismus-Studie) | Frontiers in Bioscience | C3aR-Antagonismus stellt mitochondriale Fettsäure-Oxidation wieder her und reduziert tubuläre profibriotische Veränderungen bei renin-abhängiger Hypertonie — eine Komplementpfad-Mechanismus-Studie, keine aliskiren-Effektivitätsstudie. |
 
-### Malignant renovascular hypertension (rank 4)
+### Bösartige renovaskuläre Hypertonie (Rang 4)
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Journal | Wichtigste Ergebnisse |
 |------|-----|------|------|---------|
-| [17485026](https://pubmed.ncbi.nlm.nih.gov/17485026/) | 2007 | Drug-specific pharmacology review | American Journal of Hypertension | Review of 6 clinical trials (>5,000 patients) — aliskiren is no more effective than ACEi/ARB/diuretics for BP lowering; warns that reactive renin secretion may limit long-term effectiveness, directly relevant to the renovascular-hypertension hypothesis. |
+| [17485026](https://pubmed.ncbi.nlm.nih.gov/17485026/) | 2007 | Arzneistoffspezifische Pharmakologie-Übersicht | American Journal of Hypertension | Übersicht von 6 klinischen Studien (>5,000 Patienten) — aliskiren ist nicht wirksamer als ACEi/ARB/Diuretika bei Blutdrucksenkung; warnt, dass reaktive Reninsekretion die langfristige Wirksamkeit begrenzen kann, direkt relevant für die renovaskuläre-Hypertonie-Hypothese. |
 
-### Chronic pulmonary heart disease (rank 6)
+### Chronische pulmonale Herzerkrankung (Rang 6)
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Journal | Wichtigste Ergebnisse |
 |------|-----|------|------|---------|
-| [39210725](https://pubmed.ncbi.nlm.nih.gov/39210725/) | 2024 | RCT post-hoc | JAMA Cardiology | Sacubitril/valsartan (ARNI — a different drug class) effect on all-cause hospitalization in heart failure (PARADIGM-HF/PARAGON-HF); not a renin-inhibitor study. |
-| [17890152](https://pubmed.ncbi.nlm.nih.gov/17890152/) | 2007 | Conference review | European Journal of Heart Failure | ESC 2007 heart-failure trial roundup (3CPO, ALOFT, PROSPECT, statins); general background only. |
+| [39210725](https://pubmed.ncbi.nlm.nih.gov/39210725/) | 2024 | RCT-Post-hoc | JAMA Cardiology | Sacubitril/Valsartan (ARNI — eine andere Arzneistoffklasse) Wirkung auf alle-Ursachen-Hospitalisierung bei Herzinsuffizienz (PARADIGM-HF/PARAGON-HF); keine Reninhibitor-Studie. |
+| [17890152](https://pubmed.ncbi.nlm.nih.gov/17890152/) | 2007 | Konferenz-Übersicht | European Journal of Heart Failure | ESC-2007-Herzinsuffizienz-Studienübersicht (3CPO, ALOFT, PROSPECT, Statine); nur allgemeiner Hintergrund. |
 
----
+## Marktinformationen für Deutschland
 
-## Germany Market Information
+Aliskiren wird derzeit **nicht in Deutschland vermarktet** nach diesem Datensatz (`market_status: Not marketed`, `total_licenses: 0`). Es sind keine Marketingzulassungsunterlagen verfügbar zum Zusammenfassen.
 
-Aliskiren is currently **not marketed in Germany** according to this dataset (`market_status: Not marketed`, `total_licenses: 0`). No marketing authorization records are available to summarize.
+## Sicherheitserwägungen
 
----
+Bitte beziehen Sie sich auf die Packungsbeilage für Sicherheitsinformationen — die strukturierten Sicherheitsfelder in diesem Evidence Pack (`key_warnings`, `contraindications`, `ddi`) sind alle als Datenlücken gekennzeichnet, und der TFDA/BfArM-Packungsbeilage ist noch nicht abgerufen worden (siehe `DG001`, Blocking).
 
-## Safety Considerations
+**⚠️ Wichtiges Sicherheitssignal aus der Literaturevidenz identifiziert (nicht aus den formalen Sicherheitsdatenfeldern oben):** Mehrere abgerufene Publikationen für den zerebrovaskulären-Erkrankung-Kandidaten (Rang 7) verweisen auf die **ALTITUDE-Studie**, eine Phase-3-RCT, die **frühzeitig beendet** wurde, weil aliskiren, wenn kombiniert mit einem ACE-Hemmer oder ARB bei Patienten mit Typ-2-Diabetes und Nierenfunktionsstörung, signifikant erhöhte Raten von Schlaganfall, Hypotonie und Hyperkaliämie verursachte (PMID 23418282, 26188211, 26523993). Dies ist ein gut dokumentiertes, arzneistoffspezifisches Schaden-Signal und sollte als harte Beschränkung auf jede Umwidmungsarbeit bei Patienten mit Nieren- oder kardiovaskulären Komorbiditäten behandelt werden, bis die formalen Packungsbeilage-Warnungen abgerufen und überprüft werden.
 
-Please refer to the package insert for safety information — the structured safety fields in this Evidence Pack (`key_warnings`, `contraindications`, `ddi`) are all marked as data gaps, and the TFDA/BfArM package insert has not yet been retrieved (see `DG001`, Blocking).
+## Schlussfolgerung und nächste Schritte
 
-**⚠️ Important safety signal identified from literature evidence (not from the formal safety data fields above):** Multiple publications retrieved for the cerebrovascular-disorder candidate (rank 7) reference the **ALTITUDE trial**, a Phase 3 RCT that was **terminated early** because aliskiren, when combined with an ACE inhibitor or ARB in patients with type 2 diabetes and renal impairment, significantly increased rates of stroke, hypotension, and hyperkalemia (PMID 23418282, 26188211, 26523993). This is a well-documented, drug-specific harm signal and should be treated as a hard constraint on any repurposing work involving renal or cardiovascular comorbidity populations until the formal package insert warnings are retrieved and reviewed.
+**Entscheidung: Abwarten** (Top-Ranking-Kandidat, und Programm-Standard bei Erwartung weiterer Daten)
 
----
+**Begründung:**
+- Die im Mittelpunkt stehende Top-Vorhersage (pulmonale Hypertonie aufgrund von Lungenerkrankung/Hypoxie) hat keine aliskiren-spezifische klinische Studien- oder Literaturunterstützung (L5) — der TxGNN-Score allein reicht nicht aus, um voranzukommen.
+- Über alle 7 Kandidaten in diesem Pack hinweg hat nur **bösartige renovaskuläre Hypertonie (Rang 4)** eine mechanistisch direkte, arzneistoffspezifische Rationale und ist **Forschungsfrage** statt Abwarten — aber auch dort warnt die Literatur selbst, dass reaktive Reninsekretion die Wirksamkeit von aliskiren begrenzen kann.
+- Der Kandidat mit der stärksten klinischen Evidenz, **zerebrovaskuläre Erkrankung (Rang 7, L1)**, sollte **nicht** verfolgt werden: Die Phase-3-RCT-Evidenz (ALTITUDE) zeigt erhöhte Schlaganfall- und Nierenschäden bei der relevanten Patientenpopulation, nicht Nutzen.
+- Eine Blocking-Datenlücke besteht (`DG001`): TFDA/BfArM-Packungsbeilage-Warnungen und Kontraindikationen sind nicht abgerufen worden, daher kann kein Kandidat unabhängig von der Effektivitäts-Evidenz die anfängliche Sicherheitsprüfung (S1) überschreiten.
 
-## Conclusion and Next Steps
+**Um voranzukommen, ist folgendes erforderlich:**
+- TFDA/BfArM-Packungsbeilage (Warnungen, Kontraindikationen) abrufen und analysieren — derzeit Blocking (`DG001`)
+- Bestätigte Wirkmechanismus-Daten von DrugBank abrufen (`DG002`), um die mechanistischen Rationale-Abschnitte oben zu stärken
+- Falls Rang 4 (bösartige renovaskuläre Hypertonie) als Forschungsfrage verfolgt wird, eine gezielte Literatur-/Studienbasis von dieser Indikation spezifisch in Auftrag geben (aktuelle Wissensbasis ist eine einzelne 2007-Übersicht)
+- Beendigungsgrund für NCT01417104 (ALPINE) überprüfen, um zu bestätigen, ob es sich auf das ALTITUDE-Sicherheitssignal bezieht
+- Rang 7 (zerebrovaskuläre Erkrankung) als geschlossen/Nicht-Verfolgen behandeln, bis neue Evidenz auftaucht, die die ALTITUDE-Ergebnisse umkehrt
+- Rang 2 (keine Evidenz) und Rang 5 (Braddock-Syndrom, biologisch implausibel) als wahrscheinliche Wissensgraph-Rauschen ignorieren, es sei denn, es taucht neue Evidenz auf
 
-**Decision: Hold** (top-ranked candidate, and program-level default pending further data)
-
-**Rationale:**
-- The featured top prediction (pulmonary hypertension owing to lung disease/hypoxia) has no aliskiren-specific clinical trial or literature support (L5) — the TxGNN score alone is not sufficient to advance it.
-- Across all 7 candidates in this pack, only **malignant renovascular hypertension (rank 4)** has a mechanistically direct, drug-specific rationale and is rated **Research Question** rather than Hold — but even there, the literature itself cautions that reactive renin secretion may limit aliskiren's effectiveness.
-- The candidate with the strongest clinical evidence, **cerebrovascular disorder (rank 7, L1)**, should **not** be pursued: its Phase 3 RCT evidence (ALTITUDE) shows increased stroke and renal harm in the relevant patient population, not benefit.
-- A Blocking data gap exists (`DG001`): TFDA/BfArM package insert warnings and contraindications have not been retrieved, so no candidate can proceed past initial safety screening (S1) regardless of efficacy evidence.
-
-**To proceed, the following is needed:**
-- Retrieve and parse the TFDA/BfArM package insert (warnings, contraindications) — currently Blocking (`DG001`)
-- Obtain confirmed mechanism-of-action data from DrugBank (`DG002`) to firm up the mechanistic rationale sections above
-- If pursuing rank 4 (malignant renovascular hypertension) as a Research Question, commission a targeted literature/trial search specific to that indication (current evidence base is a single 2007 review)
-- Verify the termination reason for NCT01417104 (ALPINE) to confirm whether it relates to the ALTITUDE safety signal
-- Treat rank 7 (cerebrovascular disorder) as closed/Do-Not-Pursue pending any new evidence that overturns the ALTITUDE findings
-- Disregard rank 2 (no evidence) and rank 5 (Braddock syndrome, biologically implausible) as likely knowledge-graph noise unless new evidence emerges
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

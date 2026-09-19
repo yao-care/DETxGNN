@@ -29,70 +29,71 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-# Lonoctocog Alfa: From Haemophilia A to Pseudo-von Willebrand Disease
+# Lonoctocog Alfa: Von Hämophilie A zu Pseudo-von-Willebrand-Erkrankung
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Lonoctocog alfa is a recombinant factor VIII (rFVIII) replacement therapy used for the treatment of **Haemophilia A**.
-> The TxGNN model predicts it may be effective for **Pseudo-von Willebrand Disease**,
-> but currently **no clinical trials** and **no publications** support this direction — the prediction is model-only and the evidence pack's own mechanistic review flags it as a likely false positive.
+> Lonoctocog alfa ist eine rekombinante Faktor-VIII-Ersatztherapie (rFVIII), die für die Behandlung von **Hämophilie A** eingesetzt wird.
+> Das TxGNN-Modell prognostiziert, dass es möglicherweise wirksam bei der **Pseudo-von-Willebrand-Erkrankung** sein könnte,
+> aber derzeit **keine klinischen Studien** und **keine Veröffentlichungen** unterstützen diese Richtung — die Vorhersage ist modellgestützt, und die mechanistische Überprüfung des Evidenzpakets selbst kennzeichnet sie als wahrscheinlich falsch-positiv.
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
-|------|------|
-| Original Indication | Haemophilia A (inferred from known rFVIII pharmacology; not confirmed in the current dataset — `original_indications` is empty and TFDA label data is a blocking data gap) |
-| Predicted New Indication | Pseudo-von Willebrand Disease |
-| TxGNN Prediction Score | 99.85% |
-| Evidence Level | L5 |
-| Taiwan Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Element | Inhalt |
+|--------|--------|
+| Ursprüngliche Indikation | Hämophilie A (aus bekannter rFVIII-Pharmakologie hergeleitet; nicht im aktuellen Datensatz bestätigt — `original_indications` ist leer und TFDA-Labeldaten stellen eine blockierende Datenlücke dar) |
+| Vorhergesagte neue Indikation | Pseudo-von-Willebrand-Erkrankung |
+| TxGNN-Vorhersageergebnis | 99.85% |
+| Evidenzlevel | L5 |
+| Marktstatus Taiwan | Nicht vermarktet (Nicht vermarktet) |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | Abwarten |
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage angemessen?
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap). Based on known pharmacology, lonoctocog alfa is a recombinant Factor VIII product that replaces deficient or dysfunctional coagulation Factor VIII, and its efficacy in Haemophilia A is well established.
+Derzeit sind detaillierte Daten zum Wirkmechanismus nicht verfügbar (gekennzeichnet als Datenlücke mit hohem Schweregrad). Basierend auf bekannter Pharmakologie ist Lonoctocog alfa ein rekombinantes Faktor-VIII-Produkt, das defizientes oder dysfunktionales Koagulations-Faktor VIII ersetzt, und seine Wirksamkeit bei Hämophilie A ist gut etabliert.
 
-However, the top four TxGNN-predicted indications — pseudo-von Willebrand disease, primary platelet release disorder, Glanzmann thrombasthenia, and Scott syndrome — are all **platelet-function or platelet-receptor disorders**, not coagulation-factor deficiencies. Per the evidence pack's own mechanistic analysis, the model's high similarity scores likely arise from an indirect knowledge-graph association between FVIII and von Willebrand factor (the two normally circulate as a complex and are often measured together diagnostically), rather than a genuine shared therapeutic mechanism.
+Allerdings gehören die vier wichtigsten TxGNN-prognostizierten Indikationen — Pseudo-von-Willebrand-Erkrankung, primäre Thrombozytensekretionstörung, Glanzmann-Thrombasthenie und Scott-Syndrom — alle zu **Thrombozyten-Funktions- oder Thrombozyten-Rezeptor-Störungen**, nicht zu Koagulationsfaktor-Mängeln. Nach der eigenen mechanistischen Analyse des Evidenzpakets entstehen die hohen Ähnlichkeitsergebnisse des Modells wahrscheinlich aus einer indirekten Assoziation im Wissensgraph zwischen FVIII und von-Willebrand-Faktor (die beiden zirkulieren normalerweise als Komplex und werden oft zusammen diagnostisch gemessen), anstatt einen echten gemeinsamen therapeutischen Mechanismus widerzuspiegeln.
 
-None of the four candidate diseases have a pathophysiology that FVIII replacement would be expected to correct (GPIbα gain-of-function, platelet storage-pool defect, GPIIb/IIIa deficiency, and TMEM16F scramblase deficiency, respectively). The evidence pack explicitly characterizes these associations as mechanistically implausible and unsupported by any clinical or literature evidence.
+Keine der vier Kandidatenkrankheiten hat eine Pathophysiologie, die durch FVIII-Ersatz korrigiert werden würde (GPIbα-Funktionsgewinn, Speicherpool-Defekt von Thrombozyten, GPIIb/IIIa-Mangel und TMEM16F-Scramblase-Mangel). Das Evidenzpaket charakterisiert diese Assoziationen explizit als mechanistisch implausibel und nicht unterstützt durch klinische oder Literaturbeweise.
 
-## Clinical Trial Evidence
+## Evidenz aus klinischen Studien
 
-Currently no related clinical trials registered.
+Derzeit sind keine damit verbundenen klinischen Studien registriert.
 
-## Literature Evidence
+## Literaturbeweise
 
-Currently no related literature available.
+Derzeit ist keine verwandte Literatur verfügbar.
 
-## Additional Predicted Candidates (Not Further Assessed)
+## Zusätzliche prognostizierte Kandidaten (nicht weiter bewertet)
 
-| Rank | Disease | TxGNN Score | Evidence Level | Recommendation | Key Concern |
-|------|---------|-------------|-----------------|-----------------|-------------|
-| 2 | Primary release disorder of platelets | 99.84% | L5 | Hold | Platelet granule-release defect; no known FVIII mechanism, no supporting evidence |
-| 3 | Glanzmann thrombasthenia | 99.76% | L5 | Hold | GPIIb/IIIa deficiency; unrelated to FVIII pathway |
-| 4 | Scott syndrome | 99.44% | L5 | Hold | Membrane scramblase (TMEM16F) defect; not correctable by FVIII replacement |
+| Rang | Krankheit | TxGNN-Ergebnis | Evidenzlevel | Empfehlung | Wichtigste Bedenken |
+|------|-----------|----------------|--------------|------------|-------------------|
+| 2 | Primäre Sekretionstörung von Thrombozyten | 99.84% | L5 | Abwarten | Defekt der Thrombozyten-Granulensekretion; kein bekannter FVIII-Mechanismus, keine unterstützenden Beweise |
+| 3 | Glanzmann-Thrombasthenie | 99.76% | L5 | Abwarten | GPIIb/IIIa-Mangel; nicht mit dem FVIII-Pathway verwandt |
+| 4 | Scott-Syndrom | 99.44% | L5 | Abwarten | Membran-Scramblase (TMEM16F) Defekt; nicht durch FVIII-Ersatz korrigierbar |
 
-## Germany Market Information
+## Marktinformationen für Deutschland
 
-Lonoctocog alfa is **not yet marketed in Taiwan** — there are no authorization records (`total_licenses = 0`, `licenses = []`).
+Lonoctocog alfa ist **noch nicht auf dem taiwanesischen Markt eingeführt** — es gibt keine Genehmigungsakten (`total_licenses = 0`, `licenses = []`).
 
-## Safety Considerations
+## Sicherheitsüberlegungen
 
-Please refer to the package insert for safety information.
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
 
-## Conclusion and Next Steps
+## Schlussfolgerung und nächste Schritte
 
-**Decision: Hold**
+**Entscheidung: Abwarten**
 
-**Rationale:**
-All four TxGNN-predicted indications are supported only by model score (Evidence Level L5), with zero clinical trials and zero publications. The evidence pack's own mechanistic rationale argues these are likely false-positive associations driven by the FVIII–vWF diagnostic complex relationship rather than a real repurposing hypothesis. Combined with a blocking data gap on TFDA label warnings/contraindications, this candidate does not meet the bar to advance past S0.
+**Begründung:**
+Alle vier TxGNN-prognostizierten Indikationen werden nur durch das Modell-Ergebnis unterstützt (Evidenzlevel L5), ohne klinische Studien und ohne Veröffentlichungen. Die eigene mechanistische Rationale des Evidenzpakets argumentiert, dass dies wahrscheinlich falsch-positive Assoziationen sind, die durch die FVIII–vWF-Diagnostik-Komplex-Beziehung anstatt einer echten Umdestinierungshypothese verursacht werden. In Kombination mit einer blockierenden Datenlücke zu TFDA-Label-Warnhinweisen/Kontraindikationen erfüllt dieser Kandidat nicht den Standard, um S0 zu verlassen.
 
-**To proceed, the following is needed:**
-- TFDA label (warnings/contraindications) — currently a Blocking data gap (DG001)
-- Confirmed mechanism of action from DrugBank/authoritative source (DG002)
-- Confirmed original indication and regulatory status (current dataset has empty `original_indications` and 0 Taiwan licenses)
-- Independent mechanistic review to confirm/refute the "false positive via vWF-FVIII complex" hypothesis before any further evidence collection is commissioned
+**Um voranzukommen, ist Folgendes erforderlich:**
+- TFDA-Label (Warnhinweise/Kontraindikationen) — derzeit eine blockierende Datenlücke (DG001)
+- Bestätigter Wirkmechanismus aus DrugBank/maßgeblicher Quelle (DG002)
+- Bestätigte ursprüngliche Indikation und behördlicher Status (aktueller Datensatz hat leere `original_indications` und 0 Taiwan-Lizenzen)
+- Unabhängige mechanistische Überprüfung zur Bestätigung oder Widerlegung der Hypothese „falsch-positiv über vWF-FVIII-Komplex", bevor weitere Evidenzsammlung beauftragt wird
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

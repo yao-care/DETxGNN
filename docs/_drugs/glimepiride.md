@@ -29,74 +29,75 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9**
 
 </div>
 
-# Glimepiride: From Type 2 Diabetes Mellitus to Focal Stiff Limb Syndrome
+# Glimepirid: Von Typ-2-Diabetes mellitus zu Focal Stiff Limb Syndrome
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Glimepiride is a second-generation sulfonylurea, pharmacologically classified as an insulin secretagogue used to manage type 2 diabetes mellitus. The TxGNN model assigns a high prediction score to **Focal Stiff Limb Syndrome**, an autoimmune, GABAergic neurological disorder, but this direction is currently supported by **0 clinical trials** and **0 publications**, and the evidence pack explicitly flags the mechanistic link as unsupported.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Type 2 Diabetes Mellitus (based on known pharmacological classification as a sulfonylurea; no formal regulatory indication text available in this dataset) |
-| Predicted New Indication | Focal Stiff Limb Syndrome |
-| TxGNN Prediction Score | 99.75% |
-| Evidence Level | L5 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Glimepirid ist ein Sulfonylurea der zweiten Generation, pharmakologisch als Insulinsekretagogum zur Behandlung des Typ-2-Diabetes mellitus eingestuft. Das TxGNN-Modell weist einen hohen Vorhersagescore für **Focal Stiff Limb Syndrome** zu, eine autoimmune, GABAerge neurologische Erkrankung, aber diese Richtung wird derzeit von **0 klinischen Studien** und **0 Publikationen** gestützt, und das Evidenzpaket kennzeichnet die mechanistische Verbindung ausdrücklich als nicht gestützt.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellabriss
 
-Detailed mechanism of action data for glimepiride was not directly available in the structured evidence pack (`original_moa` = Data Gap). However, based on known pharmacological classification, glimepiride is a second-generation sulfonylurea that binds SUR1 subunits to close ATP-sensitive K⁺ channels on pancreatic β-cells, promoting insulin secretion.
-
-Focal Stiff Limb Syndrome (a localized variant of Stiff Person Syndrome) is an autoimmune neurological disorder driven by anti-GAD65 antibodies and impaired GABAergic neurotransmission. While ATP-sensitive K⁺ channels are also expressed in central neurons, there is currently no evidence that sulfonylurea-class drugs modulate GABAergic signaling or autoimmune GAD65-mediated pathology. The evidence pack itself characterizes this as a "high TxGNN score without a mechanistic basis" — i.e., the predicted link appears to be a graph-embedding artifact rather than a biologically grounded hypothesis.
-
-Given the absence of mechanistic plausibility, clinical trial data, and literature support, this candidate should be interpreted as a low-confidence model output rather than a scientifically substantiated repurposing signal.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Typ-2-Diabetes mellitus (basierend auf bekannter pharmakologischer Klassifizierung als Sulfonylurea; kein formaler regulatorischer Indikationstext in diesem Datensatz verfügbar) |
+| Vorhergesagte neue Indikation | Focal Stiff Limb Syndrome |
+| TxGNN-Vorhersagescore | 99.75% |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | ✗ Nicht auf dem Markt |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Halten |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage angemessen?
 
-Currently no related literature available.
+Detaillierte Wirkmechanismuskaten für Glimepirid waren im strukturierten Evidenzpaket nicht direkt verfügbar (`original_moa` = Datenlücke). Basierend auf bekannter pharmakologischer Klassifizierung ist Glimepirid jedoch ein Sulfonylurea der zweiten Generation, das an SUR1-Untereinheiten bindet, um ATP-sensitive K⁺-Kanäle auf pankreatischen β-Zellen zu schließen und Insulinsekretion zu fördern.
 
----
+Focal Stiff Limb Syndrome (eine lokalisierte Variante des Stiff Person Syndrome) ist eine autoimmune neurologische Erkrankung, die durch Anti-GAD65-Antikörper und beeinträchtigte GABAerge Neurotransmission getrieben wird. Obwohl ATP-sensitive K⁺-Kanäle auch in zentralen Neuronen exprimiert werden, gibt es derzeit keinen Hinweis darauf, dass Sulfonylurea-Klasse-Arzneistoffe die GABAerge Signalisierung oder die autoimmune GAD65-vermittelte Pathologie modulieren. Das Evidenzpaket selbst charakterisiert dies als „hohen TxGNN-Score ohne mechanistische Grundlage" – d. h. die vorhergesagte Verbindung scheint eher ein Graph-Embedding-Artefakt als eine biologisch fundierte Hypothese zu sein.
 
-## Germany Market Information
-
-Glimepiride is not currently marketed in the jurisdiction covered by this regulatory dataset (market status: Not marketed / Not Marketed; 0 authorizations on record). No license or product information is available.
+Angesichts der fehlenden mechanistischen Plausibilität, klinischen Studiendaten und Literaturstützung sollte dieser Kandidat als eine Modellausgabe mit geringerem Vertrauen und nicht als ein wissenschaftlich gestütztes Umpositionierungssignal interpretiert werden.
 
 ---
 
-## Safety Considerations
+## Klinische Studienevidenz
 
-Please refer to the package insert for safety information.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Conclusion and Next Steps
+## Literaturnachweis
 
-**Decision: Hold**
+Derzeit ist keine zugehörige Literatur verfügbar.
 
-**Rationale:**
-The top-ranked prediction (Focal Stiff Limb Syndrome) carries an L5 evidence level — a TxGNN score with no supporting clinical trials, literature, or plausible mechanistic connection to glimepiride's known sulfonylurea pharmacology. Combined with the drug's non-marketed status in this jurisdiction and blocking safety data gaps, there is no basis to advance this candidate at this time.
+---
 
-**To proceed, the following is needed:**
-- Confirmed drug label / warnings and contraindications from the local regulatory authority (currently a Blocking data gap — required before any S1 safety evaluation)
-- Verified mechanism of action data from DrugBank or primary literature (High-severity data gap)
-- Independent mechanistic or preclinical evidence linking sulfonylurea pharmacology to GABAergic/autoimmune neurological pathology, if this indication is to be pursued further
-- Monitoring of lower-ranked candidates (e.g., thiamine-responsive dysfunction syndrome, rank 4) which show a somewhat more plausible — though still unverified — link to insulin secretion pathways, and may warrant a lower-priority literature search
+## Marktinformationen für Deutschland
+
+Glimepirid ist derzeit nicht in der durch diesen regulatorischen Datensatz abgedeckten Gerichtsbarkeit auf dem Markt (Marktstatus: Nicht auf dem Markt / Not Marketed; 0 Zulassungen in den Aufzeichnungen). Es sind keine Lizenz- oder Produktinformationen verfügbar.
+
+---
+
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Halten**
+
+**Begründung:**
+Die am höchsten bewertete Vorhersage (Focal Stiff Limb Syndrome) trägt eine L5-Evidenzstufe – einen TxGNN-Score ohne unterstützende klinische Studien, Literatur oder plausible mechanistische Verbindung zu Glimeprids bekannter Sulfonylurea-Pharmakologie. In Kombination mit dem Nicht-Markt-Status des Arzneistoffs in dieser Gerichtsbarkeit und den blockierenden Sicherheitsdatenlücken gibt es derzeit keine Grundlage, diesen Kandidaten voranzutreiben.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+- Bestätigte Arzneimitteletikette / Warnungen und Kontraindikationen von der zuständigen Behörde (derzeit eine blockierende Datenlücke – erforderlich vor jeder S1-Sicherheitsbewertung)
+- Verifizierten Wirkmechanismuskaten von DrugBank oder primärer Literatur (Datenlücke mit hoher Schwere)
+- Unabhängige mechanistische oder präklinische Hinweise, die die Sulfonylurea-Pharmakologie mit der GABAergen/autoimmunen neurologischen Pathologie verbinden, falls diese Indikation weiter verfolgt werden soll
+- Überwachung von niedriger bewerteten Kandidaten (z. B. Thiamin-responsive Dysfunktionssyndrom, Rang 4), die einen etwas plausibleren – obwohl immer noch unverifizierten – Link zu Insulinsekretion-Wegen zeigen, und eine Literaturrecherche mit niedrigerer Priorität rechtfertigen können
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -29,80 +29,81 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Leflunomide: From Rheumatoid Arthritis to Brachydactyly-Syndactyly Syndrome
+# Leflunomide: Von Rheumatoider Arthritis zum Brachydaktylie-Syndaktylie-Syndrom
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Leflunomide is a DHODH inhibitor conventionally used to treat rheumatoid arthritis and other inflammatory/autoimmune conditions.
-> The TxGNN model predicts a possible association with **Brachydactyly-Syndactyly Syndrome**, a rare congenital skeletal malformation,
-> but this prediction is currently supported by **no clinical trials and no published literature** — it is a model-score-only signal.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Rheumatoid arthritis / other inflammatory diseases (based on known clinical use; not derivable from structured license data — none available) |
-| Predicted New Indication | Brachydactyly-Syndactyly Syndrome |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L5 |
-| Germany Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Leflunomide ist ein DHODH-Inhibitor, der konventionell zur Behandlung von Rheumatoider Arthritis und anderen entzündlichen/Autoimmunerkrankungen verwendet wird.
+> Das TxGNN-Modell sagt eine mögliche Assoziation mit dem **Brachydaktylie-Syndaktylie-Syndrom**, einer seltenen angeborenen Skelettdeformation, voraus,
+> aber diese Vorhersage wird derzeit durch **keine klinischen Studien und keine veröffentlichte Literatur** gestützt — es ist ein reines Modell-Score-Signal.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Currently, detailed mechanism of action data for leflunomide is not available in this Evidence Pack (`[Data Gap]`). Based on known information, leflunomide inhibits dihydroorotate dehydrogenase (DHODH), blocking de novo pyrimidine synthesis in activated lymphocytes, which produces an immunomodulatory effect used clinically in inflammatory diseases such as rheumatoid arthritis.
-
-Brachydactyly-syndactyly syndrome, however, is a congenital skeletal malformation disorder typically linked to developmental gene abnormalities (e.g., HOXD gene cluster), driven by embryonic limb patterning defects rather than inflammatory or autoimmune processes. There is no established biological pathway connecting DHODH inhibition or pyrimidine synthesis blockade to congenital limb development.
-
-The repurposing rationale attached to this candidate explicitly notes that **no mechanistic connection can currently be established**, and the missing original MOA data further weakens confidence in this link. This prediction should be treated as an algorithmic signal only (TxGNN score 0.9993, rank 1209), not as a mechanistically grounded hypothesis.
-
-A second, closely related candidate — **colobomatous microphthalmia-rhizomelic dysplasia syndrome** (score 0.9993, rank 1235) — shows the same pattern: a rare congenital eye/skeletal developmental disorder with no plausible link to leflunomide's known immunomodulatory mechanism, and no supporting trials or literature.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Item | Inhalt |
+|------|--------|
+| Ursprüngliche Indikation | Rheumatoide Arthritis / andere entzündliche Erkrankungen (basierend auf bekannter klinischer Anwendung; nicht aus strukturierten Lizenzdaten ableitbar — keine verfügbar) |
+| Vorhergesagte neue Indikation | Brachydaktylie-Syndaktylie-Syndrom |
+| TxGNN-Vorhersage-Score | 99.93% |
+| Evidenzstufe | L5 |
+| Marktstatus Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Zurückhalten |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage vernünftig?
 
-Currently no related literature available
+Derzeit sind detaillierte Wirkungsmechanismus-Daten für Leflunomide in diesem Evidence Pack nicht verfügbar (`[Data Gap]`). Basierend auf bekannten Informationen hemmt Leflunomide die Dihydroorotat-Dehydrogenase (DHODH) und blockiert die de novo Pyrimidinsynthese in aktivierten Lymphozyten, was einen immunomodulatorischen Effekt erzeugt, der klinisch bei entzündlichen Erkrankungen wie Rheumatoider Arthritis verwendet wird.
 
----
+Das Brachydaktylie-Syndaktylie-Syndrom ist jedoch eine angeborene Skelettdeformationsstörung, die typischerweise mit angeborenen Genmutationen verbunden ist (z. B. HOXD Gencluster), die durch embryonale Gliedmaßen-Musterungsfehler getrieben werden, nicht durch entzündliche oder Autoimmunprozesse. Es gibt keinen etablierten biologischen Weg, der DHODH-Hemmung oder Pyrimidinsynthese-Blockade mit der angeborenen Gliedmaßenentwicklung verbindet.
 
-## Germany Market Information
+Die an diesem Kandidaten angehängte Umwidmungsrationale vermerkt ausdrücklich, dass **derzeit keine mechanistische Verbindung hergestellt werden kann**, und die fehlenden ursprünglichen MOA-Daten schwächen das Vertrauen in diese Verbindung weiter. Diese Vorhersage sollte nur als algorithmisches Signal behandelt werden (TxGNN-Score 0.9993, Rang 1209), nicht als mechanistisch begründete Hypothese.
 
-Leflunomide is currently **not marketed** in Germany under this record (`market_status: Not marketed`), and no authorization entries are available (`total_licenses: 0`). No product/license table can be generated.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Note: TFDA/BfArM warnings and contraindications are flagged as a **Blocking** data gap — DG001 — preventing entry into the S1 safety pre-assessment stage.)*
+Ein zweiter, eng verwandter Kandidat — **kolobomatöse Mikrophtalmie-Rhizomelie-Dysplasie-Syndrom** (Score 0.9993, Rang 1235) — zeigt das gleiche Muster: eine seltene angeborene Augen-/Skelett-Entwicklungsstörung ohne plausible Verbindung zu Leflunomides bekanntem immunomodulatorischem Mechanismus und ohne unterstützende Studien oder Literatur.
 
 ---
 
-## Conclusion and Next Steps
+## Klinische Studienevidenz
 
-**Decision: Hold**
+Derzeit keine registrierten relevanten klinischen Studien vorhanden
 
-**Rationale:**
-This candidate is supported only by a raw TxGNN prediction score, with no clinical trials, no literature, and no plausible mechanistic link between leflunomide's known immunomodulatory action and a congenital skeletal malformation syndrome. Combined with a Blocking-severity safety data gap (missing warnings/contraindications), this candidate cannot proceed past S0.
+---
 
-**To proceed, the following is needed:**
-- Leflunomide's original MOA and confirmed original indication(s) from DrugBank/authoritative labeling
-- TFDA/BfArM package insert warnings and contraindications (resolves DG001, currently blocking)
-- Preclinical or genetic evidence establishing a biological pathway between pyrimidine synthesis/DHODH inhibition and skeletal/limb developmental disorders
-- Any case reports, registries, or mechanistic studies for either predicted indication before advancing beyond model-prediction-only status
+## Literaturevadenz
+
+Derzeit keine relevante Literatur verfügbar
+
+---
+
+## Marktsituation in Deutschland
+
+Leflunomide wird derzeit **nicht vermarktet** in Deutschland unter diesem Datensatz (`market_status: Not marketed`) und es sind keine Zulassungseinträge verfügbar (`total_licenses: 0`). Eine Produkt-/Lizenz-Tabelle kann nicht erstellt werden.
+
+---
+
+## Sicherheitsüberlegungen
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+*(Hinweis: TFDA/BfArM-Warnungen und Kontraindikationen werden als eine **blockierende** Datenlücke gekennzeichnet — DG001 — die den Eintritt in die S1-Sicherheits-Vor-Bewertungsphase verhindert.)*
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Zurückhalten**
+
+**Begründung:**
+Dieser Kandidat wird nur durch ein rohes TxGNN-Vorhersageergebnis gestützt, ohne klinische Studien, ohne Literatur und ohne plausible mechanistische Verbindung zwischen Leflunomides bekanntem immunomodulatorischem Effekt und einem angeborenen Skelettdeformationssyndrom. In Kombination mit einer blockierenden Datenlücke (fehlende Warnungen/Kontraindikationen) kann dieser Kandidat nicht über S0 hinausgehen.
+
+**Um voranzukommen, wird Folgendes benötigt:**
+- Leflunomides ursprünglicher Wirkungsmechanismus und bestätigte ursprüngliche Indikation(en) aus DrugBank/autorisierten Labeln
+- TFDA/BfArM-Packungsbeilage Warnungen und Kontraindikationen (löst DG001 auf, blockiert derzeit)
+- Präklinische oder genetische Evidenz, die einen biologischen Weg zwischen Pyrimidinsynthese/DHODH-Hemmung und Skelett-/Gliedmaßen-Entwicklungsstörungen etabliert
+- Alle Fallberichte, Register oder mechanistische Studien für eine der vorhergesagten Indikationen vor Fortschritt über reinen Modell-Vorhersage-Status hinaus
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

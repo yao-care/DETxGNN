@@ -29,75 +29,76 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Indacaterol: From Bronchial Disease (COPD/Asthma) to Nephrogenic Syndrome of Inappropriate Antidiuresis
+# Indacaterol: Von Bronchialerkrankung (COPD/Asthma) zu Nephrogenes Syndrom der Inadäquaten ADH-Sekretion
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Indacaterol is a long-acting β2-adrenergic agonist (LABA) bronchodilator, presumed by drug class to have been developed for COPD/asthma-related bronchial disease — formal original-indication data is a confirmed gap, as the drug is not currently marketed in Germany.
-> The TxGNN model's top-ranked prediction suggests possible efficacy in **Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD)**,
-> but this is currently supported by **zero clinical trials** and **zero publications**, and the evidence pack's own mechanistic review flags the prediction as lacking biological plausibility.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not formally registered — drug is not marketed in Germany; pharmacologically presumed to be COPD/asthma-related bronchial disease based on drug class (LABA) |
-| Predicted New Indication | Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD) |
-| TxGNN Prediction Score | 99.54% |
-| Evidence Level | L5 (model prediction only, no supporting clinical trials or literature) |
-| Germany Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Indacaterol ist ein langwirksamer β2-adrenergischer Agonist (LABA) mit bronchodilatorischer Wirkung, der aufgrund seiner Wirkstoffklasse vermutlich für COPD/Asthma-bezogene Bronchialerkrankungen entwickelt wurde – formale Daten zur Originalindikation sind eine bestätigte Datenlücke, da das Arzneimittel derzeit in Deutschland nicht zugelassen ist.
+> Die Top-Vorhersage des TxGNN-Modells deutet auf mögliche Wirksamkeit beim **Nephrogenen Syndrom der Inadäquaten ADH-Sekretion (NSIAD)** hin,
+> wird aber derzeit durch **null klinische Studien** und **null Publikationen** unterstützt, und die mechanistische Bewertung des Evidenzpakets selbst kennzeichnet die Vorhersage als biologisch implausibel.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Detailed original mechanism-of-action data is currently a confirmed data gap (DG002). Based on known pharmacological class information referenced elsewhere in this evidence pack, indacaterol is a selective long-acting β2-adrenergic receptor agonist (LABA) that relaxes bronchial smooth muscle — a mechanism associated with COPD/asthma-type bronchial disease.
-
-NSIAD, in contrast, is driven by persistent, ligand-independent activation of the vasopressin V2 receptor in the renal collecting duct, causing inappropriate water retention independent of ADH levels. There is no established pharmacological pathway connecting β2-adrenergic agonism to V2 receptor activity.
-
-The evidence pack's own repurposing rationale explicitly notes this: *"與腎性抗利尿激素不當分泌症候群(NSIAD)之V2受體persistent activation機轉無已知關聯。TxGNN高分推測缺乏生物學合理性支持"* — i.e., despite the high computational similarity score, the model's top prediction is not backed by a plausible biological mechanism. This should be treated as a caution flag rather than a genuine repurposing signal.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Nicht formal registriert – Arzneimittel ist in Deutschland nicht zugelassen; pharmakologisch wird auf der Grundlage der Wirkstoffklasse (LABA) von COPD/Asthma-bezogener Bronchialerkrankung ausgegangen |
+| Vorhergesagte neue Indikation | Nephrogenes Syndrom der Inadäquaten ADH-Sekretion (NSIAD) |
+| TxGNN-Vorhersagescore | 99.54% |
+| Beweisebene | L5 (nur Modellvorhersage, keine unterstützenden klinischen Studien oder Literatur) |
+| Marktstatus Deutschland | Nicht zugelassen (Nicht zugelassen) |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Zurückhalten |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage vertretbar?
 
-Currently no related literature available.
+Detaillierte Originaldaten zum Wirkmechanismus stellen derzeit eine bestätigte Datenlücke dar (DG002). Basierend auf bekannten Informationen zur pharmakologischen Klasse, die an anderer Stelle in diesem Evidenzpaket erwähnt werden, ist Indacaterol ein selektiver langwirksamer β2-adrenergischer Rezeptoragonist (LABA), der die Bronchialmuskulatur erschlafft – ein Wirkmechanismus, der mit COPD/Asthma-ähnlichen Bronchialerkrankungen assoziiert ist.
 
----
+NSIAD hingegen wird durch persistierende, ligandenunabhängige Aktivierung des Vasopressin-V2-Rezeptors im renalen Sammelrohr angetrieben, wodurch es zu unangemessener Wasserbindung unabhängig von ADH-Spiegeln kommt. Es gibt keinen etablierten pharmakologischen Weg, der β2-adrenergische Agonisten mit V2-Rezeptoraktivität verbindet.
 
-## Germany Market Information
-
-No marketing authorizations are currently on record for Indacaterol in Germany (total_licenses = 0; market status: Not marketed). This drug-level gap (see DG001) also blocks formal safety/indication-label review.
+Das Evidenzpaket selbst weist darauf hin: *"與腎性抗利尿激素不當分泌症候群(NSIAD)之V2受體persistent activation機轉無已知關聯。TxGNN高分推測缺乏生物學合理性支持"* – mit anderen Worten, trotz des hohen Ähnlichkeitsscore des Modells wird die Top-Vorhersage des Modells nicht durch einen plausiblen biologischen Mechanismus unterstützt. Dies sollte eher als Vorsichtshinweis denn als echtes Repurposing-Signal behandelt werden.
 
 ---
 
-## Safety Considerations
+## Evidenz aus klinischen Studien
 
-Please refer to the package insert for safety information.
+Derzeit sind keine Registrierungen verwandter klinischer Studien vorhanden.
 
 ---
 
-## Conclusion and Next Steps
+## Literaturbeweise
 
-**Decision: Hold**
+Derzeit ist keine verwandte Literatur verfügbar.
 
-**Rationale:**
-The top-ranked TxGNN prediction (NSIAD) has no clinical trial or literature support (Evidence Level L5) and the mechanistic rationale in this same evidence pack states the connection lacks biological plausibility. Combined with blocking data gaps on TFDA/BfArM label warnings (DG001) and mechanism of action (DG002), there is insufficient basis to advance this indication.
+---
 
-**To proceed, the following is needed:**
-- Resolve DG001 (BfArM label warnings/contraindications) via label PDF retrieval
-- Resolve DG002 (confirmed MOA) via DrugBank API
-- If a repurposing signal is still desired for this drug, note that **"bronchial disease"** (rank 7 in this pack) carries strong evidence (L1, 30+ trials, 20+ publications, decision stage S3, "Proceed with Guardrails") — however, the pack's own rationale flags this as confirmation of the drug's *existing* known pharmacology (COPD/asthma) rather than a novel repurposing candidate, so it should be evaluated separately from a true new-indication standpoint
+## Marktsituation Deutschland
+
+Für Indacaterol sind derzeit keine Genehmigungen auf dem deutschen Markt registriert (gesamt_lizenzen = 0; Marktstatus: Nicht zugelassen). Diese Datenlücke auf Arzneimittel-Ebene (siehe DG001) verhindert auch eine formale Überprüfung der Sicherheit/Indikationen gemäß Fachinformation.
+
+---
+
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Fachinformation für Sicherheitsinformationen.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Zurückhalten**
+
+**Begründung:**
+Die Top-Vorhersage des TxGNN (NSIAD) hat keine Unterstützung durch klinische Studien oder Literatur (Beweisebene L5) und die mechanistische Rationale in demselben Evidenzpaket besagt, dass die Verbindung biologisch implausibel ist. In Kombination mit blockierenden Datenlücken bei BfArM-Fachinformation-Warnungen (DG001) und Wirkmechanismus (DG002) gibt es keine ausreichende Grundlage, diese Indikation voranzutreiben.
+
+**Um Fortschritte zu erzielen, ist Folgendes erforderlich:**
+- Behebung von DG001 (BfArM-Warnungen/Kontraindikationen) durch Abruf der Fachinformation
+- Behebung von DG002 (bestätigter Wirkmechanismus) über DrugBank-API
+- Falls noch immer ein Repurposing-Signal für dieses Arzneimittel gewünscht ist, ist zu beachten, dass **„Bronchialerkrankung"** (Rang 7 in diesem Paket) starke Evidenz trägt (L1, 30+ Studien, 20+ Publikationen, Entscheidungsstufe S3, „Mit Schutzmaßnahmen fortfahren") – allerdings weist die Rationale des Pakets selbst darauf hin, dass dies eine Bestätigung der *bekannten* Pharmakologie des Arzneimittels (COPD/Asthma) und keine echte Repurposing-Kandidaten darstellt, sodass dies separat von einem echten Neuentwicklungs-Standpunkt bewertet werden sollte.
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

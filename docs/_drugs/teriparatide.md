@@ -29,98 +29,99 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Teriparatide: From Osteoporosis to Pregnancy and Lactation-Associated Osteoporosis (PLO)
+# Teriparatide: Von Osteoporose zu Schwangerschafts- und Stillassoziierter Osteoporose (PLO)
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Teriparatide (recombinant human PTH 1-34) is originally used to treat osteoporosis by stimulating new bone formation. Among the TxGNN candidate indications, **Pregnancy and Lactation-Associated Osteoporosis (PLO)** is the one supported by real mechanistic and clinical rationale — it is essentially an osteoporosis subtype, not a novel disease target — and is backed by **2 clinical trials** and **19 publications**, several specifically studying teriparatide in this exact patient population.
+Teriparatide (rekombinantes menschliches PTH 1-34) wird ursprünglich zur Behandlung von Osteoporose eingesetzt, indem es die Neubildung von Knochensubstanz stimuliert. Unter den TxGNN-Kandidaten-Indikationen ist **Schwangerschafts- und Stillassoziierte Osteoporose (PLO)** die einzige, die durch echte mechanistische und klinische Rationale unterstützt wird — es handelt sich im Wesentlichen um einen Osteoporose-Subtyp und nicht um ein neuartiges Krankheitsziel — und wird durch **2 klinische Studien** und **19 Publikationen** gestützt, mehrere davon untersuchen speziell Teriparatide in genau dieser Patientenpopulation.
 
-> **Note on ranking**: TxGNN's top-scored candidates (duodenal ulcer, esophageal malformation, duodenal obstruction, duodenogastric reflux, Worth syndrome, autosomal dominant vitreoretinopathy, SCOT deficiency) have no plausible mechanistic link to PTH/bone metabolism and no supporting evidence — these are flagged as model noise (`Hold`, L5) and are not carried forward in this report. PLO (rank 8) is the only candidate with genuine mechanistic plausibility and clinical evidence, so it is used as the headline prediction here.
+> **Anmerkung zur Rangliste**: Die von TxGNN am höchsten bewerteten Kandidaten (Duodenalulkus, Ösophagus-Fehlbildung, Duodenale Obstruktion, Duodenogastrischer Reflux, Worth-Syndrom, Autosomal dominante Vitreoretinopathie, SCOT-Mangel) haben keine plausible mechanistische Verbindung zu PTH/Knochenstoffwechsel und keine unterstützenden Belege — diese werden als Modellrauschen gekennzeichnet (`Hold`, L5) und werden in diesem Bericht nicht weiterverfolgt. PLO (Rang 8) ist der einzige Kandidat mit echter mechanistischer Plausibilität und klinischen Belegen und wird daher hier als Haupt-Vorhersage verwendet.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Punkt | Inhalt |
 |------|------|
-| Original Indication | Osteoporosis (per clinical trial description in evidence pack: "approved for the treatment of osteoporosis as FORTEO"; not independently verified via German market authorization, as the product is not currently marketed in Germany) |
-| Predicted New Indication | Pregnancy and Lactation-Associated Osteoporosis (PLO) |
-| TxGNN Prediction Score | 99.55% |
-| Evidence Level | L3 |
-| Germany Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Ursprüngliche Indikation | Osteoporose (gemäß klinischer Studienbeschreibung im Evidenzpaket: „zur Behandlung von Osteoporose als FORTEO zugelassen"; unabhängige Verifikation über deutsche Marktgenehmigung nicht durchgeführt, da das Produkt derzeit nicht in Deutschland auf dem Markt ist) |
+| Vorhergesagte neue Indikation | Schwangerschafts- und Stillassoziierte Osteoporose (PLO) |
+| TxGNN-Vorhersage-Score | 99.55% |
+| Evidenzlevel | L3 |
+| Markt-Status Deutschland | Nicht auf dem Markt |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | Mit Schutzmaßnahmen voranschreiten |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage angemessen?
 
-Currently, detailed mechanism of action data is not available in the drug record itself (flagged as a High-severity data gap). However, the evidence pack's own clinical trial descriptions confirm that teriparatide, as PTH(1-34), "has potent bone-building actions and has been approved for the treatment of osteoporosis as FORTEO," working by stimulating osteoblast activity and increasing bone mineral density.
+Derzeit sind detaillierte Wirkmechanismus-Daten nicht im Arzneimitteldatensatz selbst verfügbar (gekennzeichnet als High-severity data gap). Die klinischen Studienbeschreibungen des Evidenzpakets bestätigen jedoch, dass Teriparatide, als PTH(1-34), „starke knochenaufbauende Wirkungen hat und zur Behandlung von Osteoporose als FORTEO zugelassen wurde", wobei es durch Stimulierung der Osteoblastenaktivität und Erhöhung der Knochenmineraldichte wirkt.
 
-PLO is not a mechanistically distinct new disease — it is a rare subtype of osteoporosis that occurs specifically during late pregnancy or the postpartum/lactation period, presenting with vertebral fragility fractures. The underlying pathology (bone loss, low bone mineral density, fracture risk) is the same skeletal fragility process that teriparatide is already approved to treat; PLO simply represents a distinct patient subgroup and etiological context (pregnancy-related calcium/bone physiology) rather than a new pharmacological target.
+PLO ist keine mechanistisch unterschiedliche neue Krankheit — es ist ein seltener Subtyp von Osteoporose, der speziell während später Schwangerschaft oder der postpartalen/Stillperiode auftritt und sich mit vertebralen Knochenfrakturen präsentiert. Die zugrunde liegende Pathologie (Knochenschwund, niedrige Knochenmineraldichte, Frakturrisiko) ist derselbe Skelett-Fragilitätsprozess, den Teriparatide bereits zur Behandlung zugelassen ist; PLO stellt einfach eine eigene Patientenuntergruppe und ätiologischen Kontext (schwangerschaftsbedingte Kalzium-/Knochenstoffwechselphysiologie) dar, anstatt eines neuen pharmakologischen Ziels.
 
-Because the anabolic bone-forming mechanism is identical, teriparatide's applicability to PLO is mechanistically well-supported, and this is corroborated by multiple published case series and cohort studies (below) specifically evaluating teriparatide in PLO patients — this is not a case of a prediction with no clinical grounding, but rather a plausible expansion of an existing, well-established mechanism into an underserved patient population lacking dedicated RCTs.
+Da der anabole knochenbildende Mechanismus identisch ist, ist die Anwendbarkeit von Teriparatide auf PLO mechanistisch gut unterstützt und wird durch mehrere veröffentlichte Fallserien und Kohortenstudien (siehe unten) corroboriert, die Teriparatide speziell bei PLO-Patienten evaluieren — dies ist nicht der Fall einer Vorhersage ohne klinische Basis, sondern eine plausible Erweiterung eines bestehenden, etablierten Mechanismus auf eine unterversorgte Patientenpopulation ohne gezielte RCTs.
 
 ---
 
-## Clinical Trial Evidence
+## Klinische Studienevidenz
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Studiennummer | Phase | Status | Enrollment | Wesentliche Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT00277706](https://clinicaltrials.gov/study/NCT00277706) | Phase 1 | Completed | 40 | Studied PTH(1-34)'s impact on oral bone regeneration in periodontal surgery patients; not a PLO population, but supports PTH's general bone-forming mechanism (relevance grade: C, indirect) |
-| [NCT02440581](https://clinicaltrials.gov/study/NCT02440581) | N/A | Completed | 141 | Studied renal osteodystrophy and CKD-associated bone loss; not PLO-specific, low direct relevance (relevance grade: C) |
+| [NCT00277706](https://clinicaltrials.gov/study/NCT00277706) | Phase 1 | Abgeschlossen | 40 | Untersuchte die Auswirkungen von PTH(1-34) auf die orale Knochenregeneration bei Parodontalpatienten; keine PLO-Population, aber unterstützt den allgemeinen knochenbildenden Mechanismus von PTH (Relevanzgrad: C, indirekt) |
+| [NCT02440581](https://clinicaltrials.gov/study/NCT02440581) | N/A | Abgeschlossen | 141 | Untersuchte renale Osteodystrophie und mit chronischer Nierenerkrankung assoziierte Knochenverluste; nicht PLO-spezifisch, geringe direkte Relevanz (Relevanzgrad: C) |
 
 ---
 
-## Literature Evidence
+## Literaturevidenz
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Journal | Wesentliche Ergebnisse |
 |------|-----|------|------|---------|
-| [37708365](https://pubmed.ncbi.nlm.nih.gov/37708365/) | 2024 | Systematic Review/Meta-analysis | J Clin Endocrinol Metab | Comparative effectiveness review of therapeutic interventions for PLO; optimal management still not fully established |
-| [34132853](https://pubmed.ncbi.nlm.nih.gov/34132853/) | 2021 | Cohort/Case Series | Calcif Tissue Int | Multicenter retrospective study: 19 PLO patients treated with teriparatide (20 μg/day) vs. conventional management, assessing BMD and trabecular bone score outcomes |
-| [40205203](https://pubmed.ncbi.nlm.nih.gov/40205203/) | 2025 | Systematic Review/Meta-analysis | Osteoporos Int | 35 studies, 943 patients with pregnancy-associated osteoporosis; vertebral fractures and back pain common; treatment response data still limited |
-| [35903718](https://pubmed.ncbi.nlm.nih.gov/35903718/) | 2022 | Case Series | Geburtshilfe Frauenheilkd | 47 women with PLO and vertebral fractures treated with teriparatide; assessed impact on subsequent fracture risk and BMD |
-| [39008200](https://pubmed.ncbi.nlm.nih.gov/39008200/) | 2024 | Review | Endocrine | Reviews treatment strategies for PLO with specific focus on teriparatide use, given the lack of dedicated clinical trials |
-| [34037833](https://pubmed.ncbi.nlm.nih.gov/34037833/) | 2021 | Case Series | Calcif Tissue Int | Examined BMD outcomes after teriparatide discontinuation, with or without sequential antiresorptive therapy, in PLO patients |
-| [36764958](https://pubmed.ncbi.nlm.nih.gov/36764958/) | 2023 | Case Report | Calcif Tissue Int | Documented bone microarchitecture and strength improvements during combined teriparatide + zoledronic acid treatment in a PLO patient with multiple vertebral fractures |
-| [28084543](https://pubmed.ncbi.nlm.nih.gov/28084543/) | 2017 | Review | Z Rheumatol | Reviews ~100 published PLO cases; concludes teriparatide and bisphosphonates appear to be the best treatment options |
-| [39156353](https://pubmed.ncbi.nlm.nih.gov/39156353/) | 2024 | Case Report | Cureus | PLO patient treated aggressively with teriparatide subsequently had a healthy second pregnancy without recurrence |
-| [33620518](https://pubmed.ncbi.nlm.nih.gov/33620518/) | 2022 | Review | Calcif Tissue Int | General overview of PLO pathophysiology, presentation, and treatment approaches including teriparatide |
+| [37708365](https://pubmed.ncbi.nlm.nih.gov/37708365/) | 2024 | Systematische Übersichtsarbeit/Meta-Analyse | J Clin Endocrinol Metab | Vergleichende Effektivitätsbewertung therapeutischer Interventionen für PLO; optimales Management ist noch nicht vollständig etabliert |
+| [34132853](https://pubmed.ncbi.nlm.nih.gov/34132853/) | 2021 | Kohorten-/Fallserie | Calcif Tissue Int | Multizentrische retrospektive Studie: 19 PLO-Patienten behandelt mit Teriparatide (20 μg/Tag) versus konventionelle Behandlung, Bewertung von BMD und trabekulären Knochenscore-Ergebnissen |
+| [40205203](https://pubmed.ncbi.nlm.nih.gov/40205203/) | 2025 | Systematische Übersichtsarbeit/Meta-Analyse | Osteoporos Int | 35 Studien, 943 Patienten mit schwangerschaftsassoziierter Osteoporose; vertebrale Frakturen und Rückenschmerzen sind häufig; Behandlungsansprechsdaten sind noch begrenzt |
+| [35903718](https://pubmed.ncbi.nlm.nih.gov/35903718/) | 2022 | Fallserie | Geburtshilfe Frauenheilkd | 47 Frauen mit PLO und vertebralen Frakturen behandelt mit Teriparatide; Bewertung der Auswirkung auf nachfolgendes Frakturrisiko und BMD |
+| [39008200](https://pubmed.ncbi.nlm.nih.gov/39008200/) | 2024 | Übersichtsarbeit | Endocrine | Übersicht über Behandlungsstrategien für PLO mit speziellem Fokus auf Teriparatide-Anwendung angesichts des Mangels an gezielten klinischen Studien |
+| [34037833](https://pubmed.ncbi.nlm.nih.gov/34037833/) | 2021 | Fallserie | Calcif Tissue Int | Untersuchte BMD-Ergebnisse nach Absetzen von Teriparatide, mit oder ohne sequenzielle antiresorptive Therapie, bei PLO-Patienten |
+| [36764958](https://pubmed.ncbi.nlm.nih.gov/36764958/) | 2023 | Fallbericht | Calcif Tissue Int | Dokumentierte Verbesserungen der Knochenmikroarchitektur und -festigkeit während kombinierter Teriparatide + Zoledronsäure-Behandlung bei einem PLO-Patienten mit mehreren vertebralen Frakturen |
+| [28084543](https://pubmed.ncbi.nlm.nih.gov/28084543/) | 2017 | Übersichtsarbeit | Z Rheumatol | Übersicht über ~100 veröffentlichte PLO-Fälle; schließt, dass Teriparatide und Bisphosphonate die besten Behandlungsoptionen zu sein scheinen |
+| [39156353](https://pubmed.ncbi.nlm.nih.gov/39156353/) | 2024 | Fallbericht | Cureus | PLO-Patient, der aggressiv mit Teriparatide behandelt wurde, hatte anschließend eine gesunde zweite Schwangerschaft ohne Rezidiv |
+| [33620518](https://pubmed.ncbi.nlm.nih.gov/33620518/) | 2022 | Übersichtsarbeit | Calcif Tissue Int | Allgemeine Übersicht über PLO-Pathophysiologie, Präsentation und Behandlungsansätze einschließlich Teriparatide |
 
 ---
 
-## Germany Market Information
+## Deutschland Marktinformationen
 
-Teriparatide is **not currently marketed in Germany** — the regulatory dataset shows 0 authorizations on file. No product license, dosage form, or approved indication text is available from the German registry for comparison.
-
----
-
-## Safety Considerations
-
-Formal package-insert-level safety data (key warnings, contraindications, DDI) is marked as a **Blocking data gap** (DG001) — TFDA/regulatory-sourced warnings have not yet been retrieved and this must be resolved before any Stage 1 safety assessment.
-
-That said, the evidence pack's own literature review (collected under a separate branch of the prediction set) surfaces known teriparatide safety signals worth carrying forward into any guardrail plan:
-- **Osteosarcoma risk** and **atypical fractures** — cited as recognized long-term risks in osteoporosis treatment reviews
-- **Osteonecrosis of the jaw (ONJ)** and **atrial fibrillation** — reported as potential adverse events in osteoporosis drug safety reviews
-- **Worsening of calcinosis cutis** — reported in two case reports involving patients with underlying autoimmune disease (dermatomyositis, CREST syndrome) treated with teriparatide
-
-These signals are risk-related, not efficacy findings, and should be incorporated into any monitoring plan pending formal package insert retrieval.
+Teriparatide wird **derzeit nicht in Deutschland vermarktet** — der Regulierungsdatensatz zeigt 0 Genehmigungen in der Datei. Keine Produktlizenz, Darreichungsform oder genehmigter Indikationstext ist aus dem deutschen Register zum Vergleich verfügbar.
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsüberlegungen
 
-**Decision: Proceed with Guardrails**
+Formale Gebrauchsinformations-Sicherheitsdaten (Hauptwarnhinweise, Kontraindikationen, Arzneimittel-Wechselwirkungen) werden als **Blocking data gap** (DG001) gekennzeichnet — TFDA/behördlich bezogene Warnhinweise wurden noch nicht abgerufen und dies muss vor jeder Stage-1-Sicherheitsbewertung gelöst werden.
 
-**Rationale:**
-Multiple cohort/case-series studies and systematic reviews directly support teriparatide's use in PLO, and the underlying mechanism (PTH-driven bone anabolism) is identical to its approved osteoporosis indication — this is a mechanistically coherent extension to a specific patient subgroup rather than a speculative new indication. However, no Phase 3 RCT exists specifically for PLO, and pregnancy-specific safety data remains limited.
+Unabhängig davon bringt die Literaturübersicht des Evidenzpakets selbst (unter einem separaten Zweig des Vorhersagesatzes gesammelt) bekannte Sicherheitssignale von Teriparatide hervor, die in jeden Schutzmaßnahmen-Plan miteinbezogen werden sollten:
+- **Osteosarkom-Risiko** und **atypische Frakturen** — in Osteoporose-Behandlung Übersichtsarbeiten als erkannte Langzeitrisiken zitiert
+- **Kiefernekrose (ONJ)** und **Vorhofflimmern** — als mögliche unerwünschte Ereignisse in Osteoporose-Arzneimittelsicherheits-Übersichtsarbeiten gemeldet
+- **Verschlimmerung kutaner Kalzinose** — in zwei Fallberichten bei Patienten mit zugrunde liegender Autoimmunerkrankung (Dermatomyositis, CREST-Syndrom) behandelt mit Teriparatide berichtet
 
-**To proceed, the following is needed:**
-- Retrieve TFDA/EMA package insert warnings and contraindications (currently a Blocking data gap, DG001)
-- Obtain formal DrugBank/FDA-label MOA confirmation (High-severity data gap, DG002)
-- Define pregnancy/lactation-specific safety monitoring protocol, given absence of controlled pregnancy safety data
-- Recommend co-management pathway with endocrinology/obstetrics for any real-world use in PLO patients
-- Deprioritize (Hold) all other TxGNN-predicted indications in this pack pending independent mechanistic or literature support — none currently meet even L4 evidence with therapeutic (as opposed to safety-signal) literature
+Diese Signale sind risikobezogen, nicht Effektivitätsfunde, und sollten in jeden Überwachungsplan in Abwartung formaler Gebrauchsinformations-Abfrage aufgenommen werden.
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Mit Schutzmaßnahmen voranschreiten**
+
+**Begründung:**
+Mehrere Kohorten-/Fallserienstudien und Systematische Übersichtsarbeiten unterstützen direkt die Anwendung von Teriparatide bei PLO, und der zugrunde liegende Mechanismus (PTH-gesteuerte Knochenneubildung) ist identisch mit seiner zugelassenen Osteoporose-Indikation — dies ist eine mechanistisch kohärente Erweiterung auf eine spezifische Patientenuntergruppe statt eine spekulative neue Indikation. Es existiert jedoch keine Phase-3-RCT speziell für PLO, und schwangerschafts-spezifische Sicherheitsdaten bleiben begrenzt.
+
+**Um voranschreiten zu können, ist Folgendes erforderlich:**
+- Abruf von TFDA/EMA-Gebrauchsinformationen Warnhinweise und Kontraindikationen (derzeit ein Blocking data gap, DG001)
+- Erhalt formaler DrugBank/FDA-Label-Wirkmechanismus-Bestätigung (High-severity data gap, DG002)
+- Festlegung eines schwangerschafts-/stillspezifischen Überwachungsprotokolls angesichts fehlender kontrollierter Schwangerschaftssicherheitsdaten
+- Empfehlung eines Co-Management-Pathways mit Endokrinologie/Geburtshilfe für jeden praktischen Gebrauch bei PLO-Patienten
+- Deprioritisierung (Hold) aller anderen TxGNN-vorhergesagten Indikationen in diesem Paket in Abwartung unabhängiger mechanistischer oder Literaturunterstützung — keine erfüllt derzeit auch nur L4-Evidenz mit therapeutischen (im Gegensatz zu Sicherheitssignal-) Literatur
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

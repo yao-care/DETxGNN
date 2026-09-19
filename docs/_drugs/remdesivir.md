@@ -29,68 +29,67 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Remdesivir: Drug Repurposing Evaluation (Data Insufficient)
+# Remdesivir: Evaluation der Arzneimittelumwidmung (Daten unzureichend)
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Remdesivir (DB14761) is a broad-spectrum antiviral agent recognized internationally for COVID-19 treatment.
-This Evidence Pack, however, **contains no TxGNN predicted indications** and is missing critical data inputs — including mechanism of action, safety warnings, and Taiwan regulatory records.
-A complete repurposing evaluation **cannot be rendered** at this stage; the report below reflects only what is currently available.
+Remdesivir (DB14761) ist ein international anerkanntes Breitspektrum-Antivirus-Mittel zur COVID-19-Behandlung. Dieses Evidence Pack enthält jedoch **keine von TxGNN vorhergesagten Indikationen** und entbehrt kritischer Dateneingaben — einschließlich Wirkungsmechanismus, Sicherheitswarnungen und taiwanesischer Regulierungsunterlagen. Eine vollständige Bewertung der Arzneimittelumwidmung **kann in dieser Phase nicht durchgeführt werden**; der nachstehende Bericht spiegelt nur das wider, was derzeit verfügbar ist.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
-|------|---------|
-| Original Indication | Not captured in this Evidence Pack |
-| Predicted New Indication | No predictions generated |
-| TxGNN Prediction Score | — |
-| Evidence Level | L5 (model prediction pipeline incomplete) |
-| Taiwan Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
-
----
-
-## Why is This Prediction Reasonable?
-
-No TxGNN predictions are present in `predicted_indications`. Without a target indication, no mechanistic bridge or repurposing rationale can be constructed.
-
-The mechanism of action field is listed as a data gap (DG002, High severity). Remdesivir is broadly understood to act as an RNA-dependent RNA polymerase (RdRp) inhibitor; however, this has **not been confirmed by the current data inputs** and should not be treated as verified for this report.
-
-Until both TxGNN predictions and MOA data are available, the biological plausibility of any candidate new indication cannot be assessed.
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Nicht erfasst in diesem Evidence Pack |
+| Vorhergesagte neue Indikation | Keine Vorhersagen generiert |
+| TxGNN-Vorhersage-Score | — |
+| Evidenzstufe | L5 (Modell-Vorhersage-Pipeline unvollständig) |
+| Status auf dem taiwanesischen Markt | ✗ Nicht zugelassen |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | **Hold** |
 
 ---
 
-## Taiwan Market Information
+## Warum ist diese Vorhersage angemessen?
 
-Remdesivir currently holds **no approved licenses in Taiwan** (TFDA query returned 0 results). There are no dosage forms or approved indications on record.
+In `predicted_indications` sind keine TxGNN-Vorhersagen vorhanden. Ohne eine Zielindikation können keine mechanistischen Verbindungen oder Umwidmungsrationale konstruiert werden.
 
----
+Das Wirkungsmechanismus-Feld ist als Datenlücke aufgeführt (DG002, hoher Schweregrad). Remdesivir wird allgemein als RNA-abhängige RNA-Polymerase (RdRp)-Inhibitor verstanden; dies wurde jedoch **durch die aktuellen Dateneingaben nicht bestätigt** und sollte für diesen Bericht nicht als verifiziert behandelt werden.
 
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-> **Note:** The TFDA package insert query (query_log ID 4) returned a result, but the safety fields — warnings, contraindications, and drug interactions — remain unpopulated in this Evidence Pack. This is identified as a Blocking data gap (DG001) that must be resolved before any safety pre-assessment can begin.
+Bis sowohl TxGNN-Vorhersagen als auch MOA-Daten verfügbar sind, kann die biologische Plausibilität einer potenziellen neuen Indikation nicht bewertet werden.
 
 ---
 
-## Conclusion and Next Steps
+## Taiwan-Marktinformation
 
-**Decision: Hold**
+Remdesivir verfügt derzeit über **keine genehmigten Lizenzen in Taiwan** (TFDA-Abfrage ergab 0 Ergebnisse). Es gibt keine Dosierungsformen oder genehmigten Indikationen in den Unterlagen.
 
-**Rationale:**
-The TxGNN prediction pipeline has not produced any candidate indications for Remdesivir, and two critical data gaps (MOA and TFDA safety data) remain unresolved. There is no repurposing signal to evaluate at this time.
+---
 
-**To proceed, the following is needed:**
+## Sicherheitsaspekte
 
-- **[DG001 — Blocking]** Retrieve TFDA package insert PDF and parse warnings/contraindications before entering safety pre-assessment
-- **[DG002 — High]** Query DrugBank API to obtain confirmed mechanism of action data; the current DrugBank query (query_log ID 3) returned 1 record but did not populate the MOA field — investigate extraction logic
-- **Re-run TxGNN prediction pipeline** to generate `predicted_indications`; without predictions, no repurposing target exists
-- Once a target indication is confirmed, collect clinical trial and literature evidence accordingly
-- Conduct drug interaction profiling (DDI query returned 0 results; verify whether this reflects true absence or a query scope issue)
+Bitte beachten Sie die Fachinformation für Sicherheitsinformationen.
+
+> **Hinweis:** Die TFDA-Fachinformations-Abfrage (query_log ID 4) lieferte ein Ergebnis, aber die Sicherheitsfelder — Warnungen, Kontraindikationen und Arzneimittelwechselwirkungen — bleiben in diesem Evidence Pack ungefüllt. Dies wird als Blocking-Datenlücke (DG001) identifiziert, die behoben werden muss, bevor eine Sicherheitsvor-Bewertung beginnen kann.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Hold**
+
+**Begründung:**
+Die TxGNN-Vorhersage-Pipeline hat keine Kandidaten-Indikationen für Remdesivir erzeugt, und zwei kritische Datenlücken (MOA und TFDA-Sicherheitsdaten) bleiben ungelöst. Es gibt derzeit kein Umwidmungssignal zu bewerten.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+
+- **[DG001 — Blocking]** TFDA-Fachinformations-PDF abrufen und Warnungen/Kontraindikationen analysieren, bevor die Sicherheitsvor-Bewertung beginnt
+- **[DG002 — High]** DrugBank-API abfragen, um bestätigte Wirkungsmechanismus-Daten zu erhalten; die aktuelle DrugBank-Abfrage (query_log ID 3) lieferte 1 Datensatz, aber befüllte das MOA-Feld nicht — Extraktionslogik untersuchen
+- **TxGNN-Vorhersage-Pipeline erneut ausführen**, um `predicted_indications` zu generieren; ohne Vorhersagen gibt es kein Umwidmungsziel
+- Sobald eine Zielindikation bestätigt ist, entsprechend klinische Studien- und Fachliteraturbelege sammeln
+- Drug Interaction Profiling durchführen (DDI-Abfrage ergab 0 Ergebnisse; überprüfen, ob dies ein echtes Fehlen oder ein Abfrage-Scope-Problem widerspiegelt)
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

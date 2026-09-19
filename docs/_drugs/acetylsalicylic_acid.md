@@ -29,72 +29,73 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **9**
 
 </div>
 
-# Acetylsalicylic Acid: From Pain/Fever Relief and Antiplatelet Prophylaxis to Migraine with Brainstem Aura
+# Acetylsalicylsäure: Von Schmerz-/Fieberlinderung und Thrombozytenaggregationshemmung zur Migräne mit Hirnstammaura
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Acetylsalicylic acid (aspirin) is a long-established analgesic, antipyretic, anti-inflammatory, and antiplatelet agent. The TxGNN model's top-ranked prediction for this candidate is **Migraine with Brainstem Aura**, currently supported by **0 dedicated clinical trials** and **19 relevant publications**, most of which are observational or mechanistic rather than confirmatory. Note that this evidence pack also flagged eight other candidate indications for aspirin, ranging from strong (Thrombotic Disease, L1; Thrombophilia, L2) to purely speculative (several rare dermatologic/coagulation disorders, L5) — this report focuses only on the top-ranked TxGNN prediction as specified.
+Acetylsalicylsäure (Aspirin) ist ein lange etabliertes Analgetikum, Antipyretikum, entzündungshemmendes Mittel und Thrombozytenaggregationshemmer. Die vom TxGNN-Modell am höchsten bewertete Vorhersage für diesen Kandidaten ist **Migräne mit Hirnstammaura**, derzeit unterstützt durch **0 spezialisierte klinische Studien** und **19 relevante Publikationen**, von denen die meisten Beobachtungs- oder mechanistische Natur sind und nicht bestätigend wirken. Bitte beachten Sie, dass dieses Evidenzpaket auch acht weitere Kandidatenindikationen für Aspirin kennzeichnete, die von stark (Thrombotische Erkrankung, L1; Thrombophilie, L2) bis rein spekulativ (mehrere seltene dermatologische/Gerinnungsstörungen, L5) reichen – dieser Bericht konzentriert sich nur auf die am höchsten bewertete TxGNN-Vorhersage wie angegeben.
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Punkt | Inhalt |
 |------|------|
-| Original Indication | Analgesic / antipyretic / anti-inflammatory / antiplatelet prophylaxis (general use; no formal BfArM/TFDA license record found in this dataset) |
-| Predicted New Indication | Migraine with Brainstem Aura |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L3 |
-| Germany Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | Analgetikum / Antipyretikum / entzündungshemmend / Thrombozytenaggregationshemmung zur Prophylaxe (allgemeine Anwendung; keine formale BfArM/TFDA-Lizenzierung in diesem Datensatz dokumentiert) |
+| Vorhergesagte neue Indikation | Migräne mit Hirnstammaura |
+| TxGNN-Vorhersage-Score | 99,94 % |
+| Evidenzlevel | L3 |
+| Marktstatus in Deutschland | Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Zurückhaltend |
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage angemessen?
 
-Currently, detailed mechanism of action data is not available (DG002, High severity data gap). Based on known pharmacology, aspirin irreversibly inhibits cyclooxygenase (COX-1/COX-2), reducing thromboxane A2 (TXA2) and inflammatory prostaglandin production; this antiplatelet/anti-inflammatory action is well proven in pain, fever, and cardiovascular risk-reduction settings, and may mechanistically extend to migraine with brainstem aura.
+Derzeit sind detaillierte Wirkungsmechanismus-Daten nicht verfügbar (DG002, hoher Schweregrad der Datenlücke). Basierend auf bekannter Pharmakologie inhibiert Aspirin irreversibel Cyclooxygenase (COX-1/COX-2) und reduziert damit Thromboxan A2 (TXA2) und entzündliche Prostaglandinproduktion; diese thrombozytenaggregationshemmende/entzündungshemmende Wirkung ist gut belegt in Schmerz-, Fieber- und Herz-Kreislauf-Risikoreduktions-Settings und kann sich mechanistisch auf Migräne mit Hirnstammaura erstrecken.
 
-The proposed rationale is that COX inhibition may reduce platelet activation and vascular inflammatory cascades associated with cortical spreading depression (CSD), the mechanism thought to underlie migraine aura. Because vasoconstrictive agents such as triptans are contraindicated in migraine with brainstem aura (given the theoretical risk of provoking brainstem ischemia), aspirin — which lacks vasoconstrictive activity — is mechanistically attractive as a potential alternative. Supporting this, a retrospective cohort (PMID 25729594) and an observational case series (PMID 29017164) both specifically evaluated low-dose ASA prophylaxis in migraine-with-aura populations, and a 2025 systematic review (PMID 39989443) examined antithrombotic drugs broadly as migraine preventives.
+Die vorgeschlagene Begründung ist, dass COX-Hemmung Thrombozytenaktion und vaskuläre Entzündungskaskaden reduzieren kann, die mit Cortical Spreading Depression (CSD) assoziiert sind, dem Mechanismus, der Migräne-Aura zugrunde liegen soll. Da vasokonstriktive Mittel wie Triptane bei Migräne mit Hirnstammaura kontraindiziert sind (angesichts des theoretischen Risikos, Hirnstamm-Ischämie auszulösen), ist Aspirin – das keine vasokonstriktiven Wirkungen hat – mechanistisch attraktiv als potenzielles alternatives Mittel. Dies unterstützend, bewerteten eine retrospektive Kohortenstudie (PMID 25729594) und eine observative Fallserie (PMID 29017164) beide speziell niedrig dosierte ASA-Prophylaxe in Migräne-mit-Aura-Populationen, und eine 2025er systematische Übersichtsarbeit (PMID 39989443) untersuchte antithrombotische Arzneistoffe grundsätzlich als Migräneprophylaktika.
 
-However, nearly all existing evidence comes from the general "migraine with aura" population rather than the specific brainstem-aura subtype, which carries distinct diagnostic and safety considerations (e.g., need to exclude stroke, arterial dissection, and other brainstem pathology before attributing symptoms to migraine). This gap between the studied population and the predicted indication is the main reason the evidence is rated L3 rather than higher.
+Allerdings kommt nahezu alle vorhandene Evidenz aus der allgemeinen Population „Migräne mit Aura" statt aus dem spezifischen Hirnstammaura-Subtyp, der unterschiedliche diagnostische und Sicherheitsüberlegungen mit sich bringt (z. B. Notwendigkeit, Schlaganfall, arterielle Dissektion und andere Hirnstammpathologien auszuschließen, bevor man Symptome auf Migräne zurückführt). Diese Lücke zwischen der studierten Population und der vorhergesagten Indikation ist der Hauptgrund, warum die Evidenz als L3 statt höher bewertet wird.
 
-## Clinical Trial Evidence
+## Evidenz aus klinischen Studien
 
-Currently no related clinical trials registered for migraine with brainstem aura specifically.
+Derzeit sind keine verwandten klinischen Studien speziell für Migräne mit Hirnstammaura registriert.
 
-## Literature Evidence
+## Literaturevidence
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Journal | Wesentliche Ergebnisse |
 |------|-----|------|------|---------|
-| [10448545](https://pubmed.ncbi.nlm.nih.gov/10448545/) | 1999 | RCT | Cephalalgia | Double-blind, double-dummy RCT (n=275) comparing IV lysine acetylsalicylate (ASA), subcutaneous sumatriptan, and placebo in acute migraine with/without aura |
-| [25729594](https://pubmed.ncbi.nlm.nih.gov/25729594/) | 2014 | Retrospective Cohort | Current Health Sciences Journal | Retrospective review of 203 migraine-with-aura patients; 95 treated with low-dose ASA prophylaxis, evaluating efficacy/tolerability vs. other preventive therapies |
-| [29017164](https://pubmed.ncbi.nlm.nih.gov/29017164/) | 2017 | Observational Case Series | European Neurology | Case series evaluating aspirin prophylaxis specifically in patients with migraine with aura |
-| [39989443](https://pubmed.ncbi.nlm.nih.gov/39989443/) | 2025 | Systematic Review | Headache | Systematic review of antithrombotic drugs (including aspirin) as migraine preventive medication |
-| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | Guideline/Evidence Assessment | Headache | American Headache Society evidence assessment of acute migraine pharmacotherapies, including aspirin among evidence-based options |
-| [26908949](https://pubmed.ncbi.nlm.nih.gov/26908949/) | 2016 | RCT | European Heart Journal | PRIMA trial: percutaneous PFO closure in migraine with aura refractory to medical treatment; relevant to shared PFO/stroke-risk mechanisms in aura |
-| [16103551](https://pubmed.ncbi.nlm.nih.gov/16103551/) | 2005 | Case Series | Heart | Clopidogrel (antiplatelet) reduces migraine with aura after transcatheter PFO/ASD closure, supporting an antiplatelet-mechanism link to aura |
-| [34384631](https://pubmed.ncbi.nlm.nih.gov/34384631/) | 2021 | Review | Revue Neurologique | Review of migraine-with-aura pathophysiology, emphasizing cortical spreading depression (CSD) as the underlying mechanism |
-| [30291554](https://pubmed.ncbi.nlm.nih.gov/30291554/) | 2018 | Review | Current Pain and Headache Reports | Comparison of pathophysiology, epidemiology, and clinical management of episodic migraine with vs. without aura |
-| [18806984](https://pubmed.ncbi.nlm.nih.gov/18806984/) | 2008 | Review | Der Nervenarzt | Review of preventive alternatives to beta-blockers in migraine, including antiplatelet and other prophylactic options |
+| [10448545](https://pubmed.ncbi.nlm.nih.gov/10448545/) | 1999 | RCT | Cephalalgia | Doppelblinde, doppelt-verumte RCT (n=275), die IV Lysinacetylsalicylat (ASA), subkutanes Sumatriptan und Placebo bei akuter Migräne mit/ohne Aura vergleicht |
+| [25729594](https://pubmed.ncbi.nlm.nih.gov/25729594/) | 2014 | Retrospektive Kohorte | Current Health Sciences Journal | Retrospektive Überprüfung von 203 Migräne-mit-Aura-Patienten; 95 mit niedrig dosierter ASA-Prophylaxe behandelt, Bewertung von Wirksamkeit/Verträglichkeit vs. andere Prophylaxe-Therapien |
+| [29017164](https://pubmed.ncbi.nlm.nih.gov/29017164/) | 2017 | Observative Fallserie | European Neurology | Fallserie zur Bewertung von Aspirin-Prophylaxe speziell bei Patienten mit Migräne mit Aura |
+| [39989443](https://pubmed.ncbi.nlm.nih.gov/39989443/) | 2025 | Systematische Übersichtsarbeit | Headache | Systematische Übersichtsarbeit über antithrombotische Arzneistoffe (einschließlich Aspirin) als Migräne-Prophylaxe-Medikation |
+| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | Leitlinie/Evidenzbewertung | Headache | Evidenzbewertung der American Headache Society zur Akut-Migräne-Pharmakotherapie, Aspirin unter den evidenzgestützten Optionen |
+| [26908949](https://pubmed.ncbi.nlm.nih.gov/26908949/) | 2016 | RCT | European Heart Journal | PRIMA-Studie: perkutaner PFO-Verschluss bei therapierefraktärer Migräne mit Aura; relevant für gemeinsame PFO/Schlaganfall-Risiko-Mechanismen bei Aura |
+| [16103551](https://pubmed.ncbi.nlm.nih.gov/16103551/) | 2005 | Fallserie | Heart | Clopidogrel (Thrombozytenaggregationshemmer) reduziert Migräne mit Aura nach transkatheter PFO/ASD-Verschluss, unterstützend für Thrombozytenaggregationshemmer-Mechanismus-Link zur Aura |
+| [34384631](https://pubmed.ncbi.nlm.nih.gov/34384631/) | 2021 | Übersichtsarbeit | Revue Neurologique | Übersichtsarbeit der Pathophysiologie der Migräne mit Aura, mit Betonung auf Cortical Spreading Depression (CSD) als zugrunde liegendem Mechanismus |
+| [30291554](https://pubmed.ncbi.nlm.nih.gov/30291554/) | 2018 | Übersichtsarbeit | Current Pain and Headache Reports | Vergleich der Pathophysiologie, Epidemiologie und klinischen Behandlung von episodischer Migräne mit vs. ohne Aura |
+| [18806984](https://pubmed.ncbi.nlm.nih.gov/18806984/) | 2008 | Übersichtsarbeit | Der Nervenarzt | Übersichtsarbeit über präventive Alternativen zu Beta-Blockern bei Migräne, einschließlich Thrombozytenaggregationshemmer und weiterer prophylaktischer Optionen |
 
-## Germany Market Information
+## Marktstatus in Deutschland
 
-Not currently marketed in Germany under this candidate record; no BfArM authorization data available (0 total licenses on file).
+Derzeit nicht vermarktet in Deutschland unter diesem Kandidateneintrag; keine BfArM-Zulassungsdaten verfügbar (0 Gesamtlizenzen in der Datei).
 
-## Safety Considerations
+## Sicherheitsüberlegungen
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-interaction data are not currently available in this dataset — notably, TFDA/BfArM package-insert warnings and contraindications are flagged as a **Blocking** data gap (DG001), which must be resolved before any safety-based decision.)
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. (Wesentliche Warnungen, Kontraindikationen und Wechselwirkungsdaten sind derzeit nicht in diesem Datensatz verfügbar – insbesondere werden TFDA/BfArM-Packungsbeilage-Warnungen und Kontraindikationen als eine **blockierende** Datenlücke (DG001) gekennzeichnet, die vor einer Sicherheits-basierten Entscheidung gelöst werden muss.)
 
-## Conclusion and Next Steps
+## Fazit und nächste Schritte
 
-**Decision: Hold**
+**Entscheidung: Zurückhaltend**
 
-**Rationale:**
-Evidence specific to migraine with brainstem aura is limited to observational/retrospective studies and reviews (L3) with no dedicated clinical trials, and the underlying population studied (general migraine with aura) does not precisely match the predicted brainstem-aura subtype, which carries distinct safety considerations (e.g., triptan contraindication, need to exclude stroke/arterial dissection). Combined with the missing package-insert safety data (Blocking gap), this candidate is not yet ready to proceed.
+**Begründung:**
+Die für Migräne mit Hirnstammaura spezifische Evidenz ist auf Beobachtungs-/retrospektive Studien und Übersichtsarbeiten begrenzt (L3) ohne spezialisierte klinische Studien, und die untersuchte zugrunde liegende Population (allgemeine Migräne mit Aura) stimmt nicht genau mit dem vorhergesagten Hirnstammaura-Subtyp überein, der unterschiedliche Sicherheitsüberlegungen mit sich bringt (z. B. Triptan-Kontraindikation, Notwendigkeit, Schlaganfall/arterielle Dissektion auszuschließen). Kombiniert mit den fehlenden Packungsbeilage-Sicherheitsdaten (blockierende Lücke), ist dieser Kandidat noch nicht bereit zum Fortfahren.
 
-**To proceed, the following is needed:**
-- TFDA/BfArM package insert warnings and contraindications (DG001, Blocking — required before any S1 safety evaluation)
-- Detailed mechanism of action (MOA) data from DrugBank (DG002)
-- A prospective study or trial specifically enrolling migraine-with-brainstem-aura patients (current data is drawn from broader "migraine with aura" populations)
-- Clear diagnostic criteria/protocol to exclude stroke, arterial dissection, and other secondary causes before considering aspirin use in this subtype
-- Confirmation of aspirin's approved dosage forms and route compatibility for this indication (currently unassessed — "pending" in route_compatibility)
+**Um fortzufahren, ist Folgendes erforderlich:**
+- TFDA/BfArM-Packungsbeilage-Warnungen und Kontraindikationen (DG001, blockierend – erforderlich vor jeder S1-Sicherheitsbewertung)
+- Detaillierte Wirkungsmechanismus-Daten (MOA) aus DrugBank (DG002)
+- Eine prospektive Studie oder Studie, die speziell Patienten mit Migräne mit Hirnstammaura einschließt (aktuelle Daten stammen aus breiteren „Migräne-mit-Aura"-Populationen)
+- Klare diagnostische Kriterien/Protokoll zum Ausschluss von Schlaganfall, arterieller Dissektion und weiteren sekundären Ursachen vor Überlegung der Aspirin-Anwendung in diesem Subtyp
+- Bestätigung der genehmigten Darreichungsformen und Routenkompatibilität von Aspirin für diese Indikation (derzeit nicht bewertet – `ausstehend` in route_compatibility)
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

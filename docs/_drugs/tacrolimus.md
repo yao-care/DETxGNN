@@ -29,90 +29,91 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Tacrolimus: From Atopic Dermatitis to Seborrheic Dermatitis
+# Tacrolimus: Von Atopischer Dermatitis zu Seborrhoischer Dermatitis
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Tacrolimus (topical) was originally developed for atopic dermatitis, where it works as a non-steroidal calcineurin inhibitor.
-> The TxGNN model predicts it may also be effective for **Seborrheic Dermatitis**,
-> with **2 clinical trials** and **20 publications** currently supporting this direction, including a Phase 3 and a Phase 4 completed trial specifically designed for facial seborrheic dermatitis.
+> Tacrolimus (topisch) wurde ursprünglich für Atopische Dermatitis entwickelt, wo es als nicht-steroidaler Calcineurin-Inhibitor wirkt.
+> Das TxGNN-Modell sagt voraus, dass es möglicherweise auch wirksam für **Seborrhoische Dermatitis** ist,
+> mit **2 klinischen Studien** und **20 Publikationen**, die diese Richtung derzeit unterstützen, einschließlich einer abgeschlossenen Phase-3- und einer abgeschlossenen Phase-4-Studie, die speziell für die Behandlung von Gesichts-Seborrhoischer Dermatitis konzipiert wurden.
 
 ---
 
-## Quick Overview
+## Schneller Überblick
 
-| Item | Content |
+| Element | Inhalt |
 |------|------|
-| Original Indication | Atopic Dermatitis (topical formulation; per repurposing rationale — structured `original_indications` field itself is empty in the evidence pack) |
-| Predicted New Indication | Seborrheic Dermatitis |
-| TxGNN Prediction Score | 99.26% |
-| Evidence Level | L1 |
-| Taiwan Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Ursprüngliche Indikation | Atopische Dermatitis (topische Formulierung; gemäß Repurposing-Rationale – das strukturierte Feld `original_indications` ist in der Evidenzmappe leer) |
+| Vorhergesagte neue Indikation | Seborrhoische Dermatitis |
+| TxGNN-Vorhersagescore | 99.26% |
+| Evidenzstufe | L1 |
+| Taiwan Marktstatus | ✗ Nicht vermarktet |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | Fortfahren mit Schutzmaßnahmen |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage angemessen?
 
-Detailed structured mechanism-of-action (MOA) data is currently a documented data gap (DG002, High severity). However, the evidence pack's repurposing rationale contains established mechanistic reasoning: tacrolimus is a **calcineurin inhibitor**. It suppresses T-cell activation and downstream inflammatory cytokine release, which is the basis for its approved use in atopic dermatitis.
+Detaillierte strukturierte Wirkmechanismus-Daten (MOA) sind derzeit eine dokumentierte Datenlücke (DG002, hoher Schweregrad). Die Evidenzmappe enthält jedoch eine etablierte mechanistische Begründung: Tacrolimus ist ein **Calcineurin-Inhibitor**. Es unterdrückt die T-Zell-Aktivierung und die nachgelagerte Freisetzung entzündlicher Zytokine, was die Grundlage für seine zugelassene Verwendung bei Atopischer Dermatitis bildet.
 
-Seborrheic dermatitis shares a similar inflammatory pathophysiology with atopic dermatitis — it involves an exaggerated immune-inflammatory response to *Malassezia* yeast colonization combined with impaired skin barrier function. Because tacrolimus dampens this T-cell-mediated inflammatory cascade without causing the skin atrophy associated with long-term topical corticosteroid use, it is mechanistically well suited to chronic, relapsing facial dermatoses that require long-term maintenance therapy — exactly the profile of seborrheic dermatitis.
+Seborrhoische Dermatitis teilt eine ähnliche entzündliche Pathophysiologie mit Atopischer Dermatitis – sie beinhaltet eine übertriebene immunentzündliche Reaktion auf Besiedlung durch *Malassezia*-Hefen in Kombination mit einer beeinträchtigten Hautbarrierenfunktion. Da Tacrolimus diese T-Zell-vermittelte entzündliche Kaskade dämpft, ohne die Hautatrophie zu verursachen, die mit der langfristigen topischen Kortikosteroidanwendung verbunden ist, ist es mechanistisch gut geeignet für chronische, rezidivierende Gesichtsdermatosen, die eine langfristige Erhaltungstherapie erfordern – genau das Profil der Seborrhoischen Dermatitis.
 
-This is a clear "drug repurposing within dermatology" scenario: the drug is not being moved to an unrelated organ system, but extended from one chronic inflammatory facial dermatosis (atopic dermatitis) to a mechanistically related one (seborrheic dermatitis), which is reflected in the strength and volume of both clinical and observational evidence below.
+Dies ist ein klares Szenario der „Arzneimittelneuzulassung innerhalb der Dermatologie": Das Arzneimittel wird nicht auf ein unabhängiges Organsystem übertragen, sondern von einer chronischen entzündlichen Gesichtsdermatose (Atopische Dermatitis) auf eine mechanistisch verwandte (Seborrhoische Dermatitis) erweitert, was sich in der Stärke und dem Umfang der klinischen und beobachtenden Evidenzen unten widerspiegelt.
 
 ---
 
-## Clinical Trial Evidence
+## Klinische Studienevidenz
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Studiennummer | Phase | Status | Patientenzahl | Wichtigste Erkenntnisse |
 |---------|------|------|------|---------|
-| [NCT02004860](https://clinicaltrials.gov/study/NCT02004860) | Phase 3 | Completed | 120 | Evaluated 0.1% tacrolimus ointment (Protopic®) as maintenance treatment for severe facial seborrheic dermatitis, aiming to reduce relapse frequency, prolong remission, and reduce topical steroid use |
-| [NCT01591070](https://clinicaltrials.gov/study/NCT01591070) | Phase 4 | Completed | 104 | Assessed proactive (once/twice weekly) 0.1% tacrolimus ointment use to maintain remission and reduce exacerbation incidence in adult facial seborrheic dermatitis |
+| [NCT02004860](https://clinicaltrials.gov/study/NCT02004860) | Phase 3 | Abgeschlossen | 120 | Bewertung von 0.1%iger Tacrolimus-Salbe (Protopic®) als Erhaltungstherapie für schwere Gesichts-Seborrhoische Dermatitis, mit dem Ziel, die Rückfallhäufigkeit zu senken, die Remission zu verlängern und die Anwendung topischer Steroide zu reduzieren |
+| [NCT01591070](https://clinicaltrials.gov/study/NCT01591070) | Phase 4 | Abgeschlossen | 104 | Bewertung der proaktiven (ein- bis zweimal wöchentlichen) Anwendung von 0.1%iger Tacrolimus-Salbe zur Aufrechterhaltung der Remission und Verringerung der Exazerbationshäufigkeit bei Erwachsenen mit Gesichts-Seborrhoischer Dermatitis |
 
 ---
 
-## Literature Evidence
+## Literaturnachweise
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Journal | Wichtigste Erkenntnisse |
 |------|-----|------|------|---------|
-| [33010323](https://pubmed.ncbi.nlm.nih.gov/33010323/) | 2021 | RCT | J Am Acad Dermatol | Multicenter double-blind RCT comparing tacrolimus 0.1% vs. ciclopiroxolamine 1% for maintenance therapy in severe facial seborrheic dermatitis |
-| [22101215](https://pubmed.ncbi.nlm.nih.gov/22101215/) | 2012 | RCT | J Am Acad Dermatol | Single-blind RCT: hydrocortisone 1% ointment vs. tacrolimus 0.1% ointment for facial seborrheic dermatitis in adults |
-| [24171300](https://pubmed.ncbi.nlm.nih.gov/24171300/) | 2013 | Comparative trial | Ann Parasitol | Compared sertaconazole 2% cream vs. tacrolimus 0.03% cream efficacy in 60 seborrheic dermatitis patients |
-| [37067129](https://pubmed.ncbi.nlm.nih.gov/37067129/) | 2023 | Comparative trial | Indian J Dermatol Venereol Leprol | Oral itraconazole (2 days) plus topical tacrolimus vs. topical tacrolimus alone for maintenance treatment of seborrheic dermatitis (Vietnam) |
-| [26512166](https://pubmed.ncbi.nlm.nih.gov/26512166/) | 2015 | Cohort (Tier 1) | Ann Dermatol | Topical calcineurin inhibitor maintenance therapy with 0.1% tacrolimus ointment for facial seborrheic dermatitis |
-| [27804089](https://pubmed.ncbi.nlm.nih.gov/27804089/) | 2017 | Systematic Review (Tier 1) | Am J Clin Dermatol | Systematic review of topical treatments (antifungals, keratolytics, corticosteroids, calcineurin inhibitors) for facial seborrheic dermatitis |
-| [19222250](https://pubmed.ncbi.nlm.nih.gov/19222250/) | 2009 | Review | Am J Clin Dermatol | Review of topical calcineurin inhibitors' pathophysiology, safety, and efficacy in seborrheic dermatitis |
-| [12833030](https://pubmed.ncbi.nlm.nih.gov/12833030/) | 2003 | Open-label pilot study | J Am Acad Dermatol | 18 patients treated with 0.1% tacrolimus for up to 28 days; 61% achieved complete clearance |
-| [39219446](https://pubmed.ncbi.nlm.nih.gov/39219446/) | 2024 | Systematic Review/NMA (Tier 1) | Clin Exp Allergy | Cochrane network meta-analysis of topical anti-inflammatory treatments for eczema, relevant to calcineurin inhibitor comparative efficacy/safety |
-| [19213227](https://pubmed.ncbi.nlm.nih.gov/19213227/) | 2009 | Review | J Drugs Dermatol | Overview of facial seborrheic dermatitis status and therapeutic horizons, including calcineurin inhibitors |
+| [33010323](https://pubmed.ncbi.nlm.nih.gov/33010323/) | 2021 | RCT | J Am Acad Dermatol | Multizentrische doppelblinde RCT zum Vergleich von Tacrolimus 0.1% vs. Ciclopiroxolamin 1% für die Erhaltungstherapie bei schwerer Gesichts-Seborrhoischer Dermatitis |
+| [22101215](https://pubmed.ncbi.nlm.nih.gov/22101215/) | 2012 | RCT | J Am Acad Dermatol | Einfach verblindete RCT: Hydrocortison 1%-Salbe vs. Tacrolimus 0.1%-Salbe für Gesichts-Seborrhoische Dermatitis bei Erwachsenen |
+| [24171300](https://pubmed.ncbi.nlm.nih.gov/24171300/) | 2013 | Vergleichende Studie | Ann Parasitol | Vergleich der Wirksamkeit von Sertaconazol 2%-Creme vs. Tacrolimus 0.03%-Creme bei 60 Patienten mit Seborrhoischer Dermatitis |
+| [37067129](https://pubmed.ncbi.nlm.nih.gov/37067129/) | 2023 | Vergleichende Studie | Indian J Dermatol Venereol Leprol | Orales Itraconazol (2 Tage) plus topisches Tacrolimus vs. nur topisches Tacrolimus zur Erhaltungstherapie der Seborrhoischen Dermatitis (Vietnam) |
+| [26512166](https://pubmed.ncbi.nlm.nih.gov/26512166/) | 2015 | Kohorte (Tier 1) | Ann Dermatol | Topische Calcineurin-Inhibitor-Erhaltungstherapie mit 0.1%iger Tacrolimus-Salbe für Gesichts-Seborrhoische Dermatitis |
+| [27804089](https://pubmed.ncbi.nlm.nih.gov/27804089/) | 2017 | Systematischer Review (Tier 1) | Am J Clin Dermatol | Systematischer Review topischer Behandlungen (Antimykotika, Keratolytika, Kortikosteroide, Calcineurin-Inhibitoren) für Gesichts-Seborrhoische Dermatitis |
+| [19222250](https://pubmed.ncbi.nlm.nih.gov/19222250/) | 2009 | Review | Am J Clin Dermatol | Review über Pathophysiologie, Sicherheit und Wirksamkeit topischer Calcineurin-Inhibitoren bei Seborrhoischer Dermatitis |
+| [12833030](https://pubmed.ncbi.nlm.nih.gov/12833030/) | 2003 | Open-Label-Pilotstudie | J Am Acad Dermatol | 18 Patienten behandelt mit 0.1%igem Tacrolimus für bis zu 28 Tage; 61% erreichten vollständige Abheilung |
+| [39219446](https://pubmed.ncbi.nlm.nih.gov/39219446/) | 2024 | Systematischer Review/NMA (Tier 1) | Clin Exp Allergy | Cochrane-Netzwerk-Metaanalyse topischer entzündungshemmender Behandlungen für Ekzeme, relevant für den Vergleich der Wirksamkeit/Sicherheit von Calcineurin-Inhibitoren |
+| [19213227](https://pubmed.ncbi.nlm.nih.gov/19213227/) | 2009 | Review | J Drugs Dermatol | Übersicht über den Stand der Gesichts-Seborrhoischen Dermatitis und therapeutische Perspektiven, einschließlich Calcineurin-Inhibitoren |
 
 ---
 
-## Taiwan Market Information
+## Taiwan-Marktinformationen
 
-Tacrolimus is currently **not marketed** in Taiwan (`market_status: Not marketed`), and there are **0 registered authorizations**. No product licenses, dosage form, or approved-indication records are available in the evidence pack.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (No structured warnings, contraindications, or drug-drug interaction data were available in the current evidence pack — this is tracked as data gap DG001, marked "Blocking" for safety pre-assessment.)
+Tacrolimus ist derzeit in Taiwan **nicht vermarktet** (`market_status: Not marketed`), und es gibt **0 registrierte Genehmigungen**. Keine Produktlizenzen, Darreichungsform oder Einträge genehmigter Indikationen sind in der Evidenzmappe verfügbar.
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsüberlegungen
 
-**Decision: Proceed with Guardrails**
+Bitte beachten Sie die Fachinformation für Sicherheitsinformationen. (Keine strukturierten Warnhinweise, Gegenanzeigen oder Daten zu Arzneimittelwechselwirkungen waren in der aktuellen Evidenzmappe verfügbar – dies ist als Datenlücke DG001 dokumentiert, gekennzeichnet als „Blockierend" für die Sicherheitsvorabprüfung.)
 
-**Rationale:**
-Evidence level L1 is supported by a completed Phase 3 and a completed Phase 4 trial specifically designed for facial seborrheic dermatitis maintenance therapy, reinforced by 20 publications including multiple RCTs directly comparing tacrolimus to standard-of-care agents (hydrocortisone, ciclopiroxolamine, sertaconazole). The mechanistic rationale is also well established. However, the drug is not currently marketed in Taiwan and core safety documentation is missing, so guardrails are required before further action.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert / warnings and contraindications (DG001, Blocking — required before S1 safety pre-assessment can proceed)
-- Structured mechanism-of-action (MOA) data from DrugBank (DG002, High)
-- Regulatory pathway assessment for Taiwan market entry, given 0 current authorizations
-- Formal DDI query (current query status: `not_found`) to support safety review
+## Zusammenfassung und Nächste Schritte
+
+**Entscheidung: Fortfahren mit Schutzmaßnahmen**
+
+**Begründung:**
+Die Evidenzstufe L1 wird durch eine abgeschlossene Phase-3- und eine abgeschlossene Phase-4-Studie unterstützt, die speziell für die Erhaltungstherapie der Gesichts-Seborrhoischen Dermatitis konzipiert wurden, verstärkt durch 20 Publikationen, einschließlich mehrerer RCTs, die Tacrolimus direkt mit Standardbehandlung vergleichen (Hydrocortison, Ciclopiroxolamin, Sertaconazol). Die mechanistische Begründung ist auch gut etabliert. Da das Arzneimittel derzeit in Taiwan nicht vermarktet ist und wichtige Sicherheitsdokumentation fehlt, sind jedoch Schutzmaßnahmen erforderlich, bevor weitere Maßnahmen unternommen werden.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+- TFDA-Fachinformation / Warnhinweise und Gegenanzeigen (DG001, Blockierend – erforderlich, bevor S1-Sicherheitsvorabprüfung fortfahren kann)
+- Strukturierte Wirkmechanismus-Daten (MOA) von DrugBank (DG002, Hoch)
+- Bewertung des Regulierungswegs für Taiwan-Markteintritt, angesichts von 0 aktuellen Genehmigungen
+- Formale DDI-Abfrage (aktueller Abfragestatus: `not_found`) zur Unterstützung der Sicherheitsüberprüfung
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -29,77 +29,78 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Thyrotropin Alfa: From Thyroid Cancer (Diagnostic/Adjunct) to Migraine Disorder
+# Thyrotropin alfa: Vom Schilddrüsenkrebs (diagnostisch/adjuvant) zur Migränestörung
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Thyrotropin alfa (recombinant human TSH) is used clinically as a diagnostic and adjunctive agent in differentiated thyroid cancer — supporting radioiodine uptake scanning and ablation after thyroidectomy.
-> The TxGNN model's top prediction suggests possible relevance to **Migraine Disorder**,
-> but this is currently a **pure algorithmic prediction** — no clinical trials and no literature support this direction, and the evidence pack itself notes no known mechanistic link.
+> Thyrotropin alfa (rekombinantes humanes Thyreotropin) wird klinisch als diagnostisches und unterstützendes Mittel bei differenziertem Schilddrüsenkrebs eingesetzt — zur Unterstützung der Radiojod-Aufnahme-Bildgebung und Ablation nach Thyreoidektomie.
+> Die Top-Vorhersage des TxGNN-Modells deutet auf mögliche Relevanz für **Migränestörung** hin,
+> aber dies ist derzeit eine **reine algorithmische Vorhersage** — es gibt keine klinischen Studien und keine Literaturunterstützung für diese Richtung, und das Evidenzpaket selbst vermerkt keinen bekannten mechanistischen Zusammenhang.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
-|------|------|
-| Original Indication | Thyroid cancer — diagnostic radioiodine scanning / ablation preparation (based on drug-class knowledge cited in the evidence pack; not confirmed via German market licenses, which are currently empty) |
-| Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.98% |
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Schilddrüsenkrebs — diagnostische Radiojod-Bildgebung / Ablationsvorbereitung (basierend auf in dem Evidenzpaket zitiertem Arzneimittelklassen-Wissen; nicht bestätigt über deutsche Marktlizenzen, die derzeit leer sind) |
+| Vorhergesagte neue Indikation | Migränestörung |
+| TxGNN-Vorhersage-Score | 99.98% |
 | Evidence Level | L5 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Deutschland-Marktstatus | ✗ Nicht am Markt |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | Zurückhalten |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage angemessen?
 
-Currently, detailed mechanism of action data for thyrotropin alfa is not available in DrugBank. Based on general pharmacological knowledge referenced elsewhere in the evidence pack, thyrotropin alfa is a recombinant form of human thyroid-stimulating hormone (TSH) that acts as a **TSH-receptor agonist**, stimulating thyroid follicular cells to take up iodine and secrete thyroid hormones. Its established clinical role is diagnostic/adjunctive — supporting radioiodine uptake scanning and ablation therapy following thyroidectomy for differentiated thyroid cancer.
+Derzeit sind detaillierte Daten zum Wirkmechanismus von Thyrotropin alfa in DrugBank nicht verfügbar. Basierend auf allgemeinem, an anderer Stelle im Evidenzpaket zitiertem pharmakologischen Wissen ist Thyrotropin alfa eine rekombinante Form des menschlichen Thyreotropins (TSH), das als **TSH-Rezeptor-Agonist** wirkt und Schilddrüsen-Follikelzellen zur Aufnahme von Jod und Sekretion von Schilddrüsenhormonen stimuliert. Seine etablierte klinische Rolle ist diagnostisch/adjuvant — zur Unterstützung der Radiojod-Aufnahme-Bildgebung und Ablationstherapie nach Thyreoidektomie bei differenziertem Schilddrüsenkrebs.
 
-There is no known pathophysiological connection between TSH-receptor signalling in thyroid follicular cells and the trigeminovascular / CGRP pathways implicated in migraine. TxGNN assigned migraine disorder its highest prediction score (99.98%), but this reflects network-level pattern inference rather than a validated biological hypothesis — the evidence pack explicitly states that no mechanistic hypothesis, clinical trial, or literature currently supports this drug-disease pairing.
+Es gibt keinen bekannten pathophysiologischen Zusammenhang zwischen TSH-Rezeptor-Signalisierung in Schilddrüsen-Follikelzellen und den trigeminovaskulären / CGRP-Signalwegen, die bei Migräne impliziert sind. Das TxGNN-Modell wies der Migränestörung seinen höchsten Vorhersage-Score zu (99.98%), aber dies spiegelt Netzwerk-Ebenen-Mustererkennung wider und nicht eine validierte biologische Hypothese — das Evidenzpaket erklärt ausdrücklich, dass derzeit keine mechanistische Hypothese, klinische Studie oder Literatur diesen Arzneistoff-Erkrankungs-Bezug unterstützt.
 
-Given the absence of any mechanistic rationale, this prediction should be treated as a hypothesis-generation signal only, not as grounds for clinical consideration at this stage.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+Angesichts des Fehlens jeglicher mechanistischer Begründung sollte diese Vorhersage nur als Signal zur Hypothesengenerierung behandelt werden, nicht als Grundlage für klinische Überlegungen in diesem Stadium.
 
 ---
 
-## Literature Evidence
+## Klinische Studienevidenz
 
-Currently no related literature available
-
----
-
-## Germany Market Information
-
-Thyrotropin alfa is currently **not marketed** in Germany, and no authorization records are available in this evidence pack (0 licenses on file).
+Derzeit keine verwandten klinischen Studien registriert
 
 ---
 
-## Safety Considerations
+## Literaturevidenz
 
-Please refer to the package insert for safety information.
+Derzeit keine verwandte Literatur verfügbar
 
 ---
 
-## Conclusion and Next Steps
+## Deutschland-Marktinformationen
 
-**Decision: Hold**
+Thyrotropin alfa ist derzeit **nicht am Markt** in Deutschland, und es sind keine Genehmigungsvorgänge in diesem Evidenzpaket verfügbar (0 Lizenzen in den Akten).
 
-**Rationale:**
-The top-ranked predicted indication (migraine disorder) is supported only by an L5 algorithmic score, with no clinical trials, no literature, and no plausible mechanistic link — the drug's known TSH-receptor agonism has no established connection to migraine pathophysiology. In addition, a blocking data gap (missing TFDA/label warnings and contraindications) prevents even an initial safety screen (S1), and the drug is not currently marketed in Germany.
+---
 
-**To proceed, the following is needed:**
-- Package insert / regulatory label parsing for warnings and contraindications (currently blocking S1 safety evaluation)
-- Confirmed mechanism of action data from DrugBank (currently unavailable)
-- A validated mechanistic hypothesis linking TSH-receptor signalling to migraine pathophysiology, ideally supported by preclinical data
-- Any prospective clinical or case-level evidence directly evaluating thyrotropin alfa in migraine patients
-- Clarification of the regulatory pathway, given the drug is not currently marketed in Germany
+## Sicherheitsaspekte
+
+Bitte konsultieren Sie die Packungsbeilage für Sicherheitsinformationen.
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Zurückhalten**
+
+**Begründung:**
+Die höchstrangig vorhergesagte Indikation (Migränestörung) wird nur durch einen L5-Algorithmus-Score unterstützt, ohne klinische Studien, ohne Literatur und ohne plausiblen mechanistischen Zusammenhang — der bekannte TSH-Rezeptor-Agonismus des Arzneistoffs hat keine etablierte Verbindung zur Migräne-Pathophysiologie. Darüber hinaus verhindert eine blockierende Datenlücke (fehlende TFDA/Label-Warnhinweise und Kontraindikationen) sogar eine erste Sicherheitsüberprüfung (S1), und das Arzneimittel ist derzeit nicht in Deutschland am Markt.
+
+**Um fortzufahren, wird Folgendes benötigt:**
+- Analyse der Packungsbeilage / regulatorischen Kennzeichnung für Warnhinweise und Kontraindikationen (derzeit S1-Sicherheitsbewertung blockierend)
+- Bestätigte Wirkmechanismus-Daten aus DrugBank (derzeit nicht verfügbar)
+- Eine validierte mechanistische Hypothese, die TSH-Rezeptor-Signalisierung mit Migräne-Pathophysiologie verbindet, idealerweise durch präklinische Daten unterstützt
+- Jegliche prospektive klinische Evidenz oder Fallberichte, die Thyrotropin alfa direkt bei Migräne-Patienten evaluieren
+- Klärung des regulatorischen Weges, angesichts dessen, dass das Arzneimittel derzeit nicht in Deutschland am Markt ist
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

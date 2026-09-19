@@ -29,116 +29,117 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Trastuzumab: From HER2-Positive Breast Cancer to Progesterone-Receptor Positive Breast Cancer
+# Trastuzumab: Von HER2-positivem Brustkrebs zu Progesteron-Rezeptor-positivem Brustkrebs
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Trastuzumab is an anti-HER2 monoclonal antibody whose standard use is in HER2-positive breast cancer.
-> The TxGNN model predicts it may also be effective for **progesterone-receptor (PR) positive breast cancer**,
-> with **36 clinical trials** and **20 publications** currently supporting this direction.
-> Note: this predicted indication largely represents a molecular-subtype refinement (PR status as a stratification factor) within the already-recognized HER2-positive breast cancer population, rather than a mechanistically novel disease target.
+> Trastuzumab ist ein monoklonaler Antikörper gegen HER2, dessen Standardanwendung bei HER2-positivem Brustkrebs liegt.
+> Das TxGNN-Modell prognostiziert, dass es auch wirksam sein könnte bei **Progesteron-Rezeptor (PR) positivem Brustkrebs**,
+> wobei derzeit **36 klinische Studien** und **20 Publikationen** diese Richtung unterstützen.
+> Hinweis: Diese prognostizierte Indikation stellt weitgehend eine molekulare Subtyp-Verfeinerung dar (PR-Status als Stratifizierungsfaktor) innerhalb der bereits bekannten HER2-positiven Brustkrebs-Population, anstatt eines mechanistisch neuartigen Krankheitsziels.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Element | Inhalt |
 |------|------|
-| Original Indication | HER2-positive breast cancer (referenced in evidence rationale text; no formal license text available in this evidence pack) |
-| Predicted New Indication | Progesterone-receptor positive breast cancer |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L1 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Ursprüngliche Indikation | HER2-positiver Brustkrebs (in Evidenzrationale erwähnt; kein formaler Lizenztext in diesem Evidenzpaket verfügbar) |
+| Prognostizierte neue Indikation | Progesteron-Rezeptor positiver Brustkrebs |
+| TxGNN-Vorhersage-Score | 99.90% |
+| Evidenz-Level | L1 |
+| Marktstatus Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Fortfahren mit Schutzmaßnahmen |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage plausibel?
 
-Currently, detailed structured mechanism-of-action data is not available in this evidence pack (original_moa is a data gap). Based on the information embedded in the trial/literature rationale, trastuzumab is an anti-HER2 (human epidermal growth factor receptor 2) monoclonal antibody, and its efficacy in HER2-positive breast cancer is well established as the current standard indication.
+Derzeit sind detaillierte strukturierte Wirkmechanismus-Daten nicht in diesem Evidenzpaket verfügbar (original_moa ist eine Datenlücke). Basierend auf den im Studien-/Literatur-Rationale eingebetteten Informationen ist Trastuzumab ein monoklonaler Antikörper gegen HER2 (human epidermal growth factor receptor 2), und seine Wirksamkeit bei HER2-positivem Brustkrebs ist als aktuelle Standardindikation gut etabliert.
 
-The predicted new indication — PR-positive breast cancer — is not a distinct mechanistic target. As stated directly in the evidence pack's repurposing rationale: *"PR status is a stratification factor rather than a new mechanistic target; this represents a molecular-subtype extension of the existing indication."* In practice, PR positivity frequently co-occurs with HER2 positivity (so-called "triple-positive" breast cancer, ER+/PR+/HER2+), and trastuzumab's HER2-targeted mechanism remains the operative driver of efficacy in this subgroup.
+Die prognostizierte neue Indikation — PR-positiver Brustkrebs — ist kein eigenständiges mechanistisches Ziel. Wie im Repurposing-Rationale des Evidenzpakets direkt angegeben: *„PR-Status ist ein Stratifizierungsfaktor und nicht ein neues mechanistisches Ziel; dies stellt eine molekulare Subtyp-Erweiterung der bestehenden Indikation dar."* In der Praxis tritt PR-Positivität häufig zusammen mit HER2-Positivität auf (sogenannter „dreifach positiver" Brustkrebs, ER+/PR+/HER2+), und Trastuzumabs HER2-Zielwirkungsmechanismus bleibt der operative Wirkstoff-Effizienzantrieb in dieser Untergruppe.
 
-This is why the prediction is mechanistically plausible: multiple completed trials specifically enrolled HER2-positive patients who were also hormone-receptor positive (ER and/or PR positive), e.g. letrozole + trastuzumab (NCT00134680) and abemaciclib + trastuzumab ± fulvestrant (monarcHER, PMID 32353342), demonstrating that HER2-targeted therapy retains activity when combined with endocrine-pathway-directed agents in PR+/HER2+ disease.
+Dies ist der Grund, warum die Vorhersage mechanistisch plausibel ist: mehrere abgeschlossene Studien rekrutierten speziell HER2-positive Patienten, die auch Hormonrezeptor-positiv waren (ER und/oder PR positiv), z. B. Letrozol + Trastuzumab (NCT00134680) und Abemaciclib + Trastuzumab ± Fulvestrant (monarcHER, PMID 32353342), was zeigt, dass HER2-gerichtete Therapie bei Kombination mit Endokrin-Signalweg-gerichteten Wirkstoffen bei PR+/HER2+-Erkrankung noch wirksam bleibt.
 
 ---
 
-## Clinical Trial Evidence
+## Evidenz aus klinischen Studien
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Studiennummer | Phase | Status | Patientenzahl | Wichtigste Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT04629846](https://clinicaltrials.gov/study/NCT04629846) | Phase 3 | Completed | 517 | Randomized, double-blind trial of QL1209 (pertuzumab biosimilar) + trastuzumab + docetaxel vs. reference pertuzumab + trastuzumab + docetaxel in ER/PR-negative, HER2+ early/locally advanced breast cancer — direct biosimilar/efficacy evidence for trastuzumab-based regimens |
-| [NCT00545688](https://clinicaltrials.gov/study/NCT00545688) | Phase 2 | Completed | 417 | 4-arm randomized study of Herceptin (trastuzumab) + docetaxel ± pertuzumab in HER2-positive locally advanced/inflammatory/early breast cancer, evaluating pathological complete response |
-| [NCT00134680](https://clinicaltrials.gov/study/NCT00134680) | Phase 2 | Completed | 33 | Combination of letrozole + trastuzumab in ErbB2-positive AND estrogen/progesterone-receptor-positive metastatic breast cancer — directly relevant to the PR+/HER2+ subgroup |
-| [NCT03095352](https://clinicaltrials.gov/study/NCT03095352) | Phase 2 | Completed | 76 | Pembrolizumab + carboplatin vs. carboplatin alone in breast cancer patients with chest wall disease, including hormone-resistant ER+/PR+/HER2- and triple-negative subsets |
-| [NCT00005970](https://clinicaltrials.gov/study/NCT00005970) | Phase 3 | Completed | 3436 | Doxorubicin + cyclophosphamide followed by weekly paclitaxel with or without trastuzumab as adjuvant treatment for HER2-overexpressing node-positive or high-risk node-negative breast cancer |
-| [NCT01275677](https://clinicaltrials.gov/study/NCT01275677) | Phase 3 | Completed | 3270 | Adjuvant chemotherapy alone vs. chemotherapy plus trastuzumab in node-positive or high-risk node-negative HER2-low invasive breast cancer |
-| [NCT00667251](https://clinicaltrials.gov/study/NCT00667251) | Phase 3 | Completed | 652 | Taxane-based chemotherapy plus lapatinib vs. plus trastuzumab as first-line therapy for HER2/neu-positive metastatic breast cancer |
-| [NCT01785420](https://clinicaltrials.gov/study/NCT01785420) | Phase 3 | Recruiting | 1100 | Double-blind, randomized, placebo-controlled study of trastuzumab as short-duration preoperative therapy in HER2-neu-positive operable breast cancer |
-| [NCT03726879](https://clinicaltrials.gov/study/NCT03726879) | Phase 3 | Completed | 454 | IMpassion050: atezolizumab or placebo combined with neoadjuvant doxorubicin+cyclophosphamide followed by paclitaxel+trastuzumab+pertuzumab in early HER2-positive breast cancer |
-| [NCT02654119](https://clinicaltrials.gov/study/NCT02654119) | Phase 2 | Completed | 20 | Adjuvant cyclophosphamide, paclitaxel with trastuzumab in Stage I-II HER2/neu-positive breast cancer patients |
+| [NCT04629846](https://clinicaltrials.gov/study/NCT04629846) | Phase 3 | Abgeschlossen | 517 | Randomisierte, doppelblinde Studie von QL1209 (Pertuzumab-Biosimilar) + Trastuzumab + Docetaxel vs. Referenz-Pertuzumab + Trastuzumab + Docetaxel bei ER/PR-negativem, HER2+ frühem/lokal fortgeschrittenem Brustkrebs — direkte Biosimilar-/Effektivitätsevidenz für Trastuzumab-basierte Regime |
+| [NCT00545688](https://clinicaltrials.gov/study/NCT00545688) | Phase 2 | Abgeschlossen | 417 | 4-armige randomisierte Studie von Herceptin (Trastuzumab) + Docetaxel ± Pertuzumab bei HER2-positivem lokal fortgeschrittenem/inflammatorischem/frühem Brustkrebs, Bewertung der pathologischen vollständigen Remission |
+| [NCT00134680](https://clinicaltrials.gov/study/NCT00134680) | Phase 2 | Abgeschlossen | 33 | Kombination von Letrozol + Trastuzumab bei ErbB2-positivem UND Östrogen-/Progesteron-Rezeptor-positivem metastasiertem Brustkrebs — unmittelbar relevant für die PR+/HER2+-Untergruppe |
+| [NCT03095352](https://clinicaltrials.gov/study/NCT03095352) | Phase 2 | Abgeschlossen | 76 | Pembrolizumab + Carboplatin vs. Carboplatin allein bei Brustkrebs-Patienten mit Thoraxwanderkrankung, einschließlich Hormon-resistenter ER+/PR+/HER2- und Triple-Negativer-Untergruppen |
+| [NCT00005970](https://clinicaltrials.gov/study/NCT00005970) | Phase 3 | Abgeschlossen | 3436 | Doxorubicin + Cyclophosphamid gefolgt von wöchentlich Paclitaxel mit oder ohne Trastuzumab als adjuvante Behandlung für HER2-überexprimierten nodalen oder hochrisiko-negativen Brustkrebs |
+| [NCT01275677](https://clinicaltrials.gov/study/NCT01275677) | Phase 3 | Abgeschlossen | 3270 | Adjuvante Chemotherapie allein vs. Chemotherapie plus Trastuzumab bei nodal-positiven oder hochrisiko-negativen HER2-schwach invasiven Brustkrebspatienten |
+| [NCT00667251](https://clinicaltrials.gov/study/NCT00667251) | Phase 3 | Abgeschlossen | 652 | Taxan-basierte Chemotherapie plus Lapatinib vs. plus Trastuzumab als Erstlinie-Therapie für HER2/neu-positiven metastasierten Brustkrebs |
+| [NCT01785420](https://clinicaltrials.gov/study/NCT01785420) | Phase 3 | Rekrutiert | 1100 | Doppelblinde, randomisierte, Placebo-kontrollierte Studie von Trastuzumab als kurzfristige präoperative Therapie bei HER2-neu-positivem operablem Brustkrebs |
+| [NCT03726879](https://clinicaltrials.gov/study/NCT03726879) | Phase 3 | Abgeschlossen | 454 | IMpassion050: Atezolizumab oder Placebo kombiniert mit neoadjuvanter Doxorubicin+Cyclophosphamid gefolgt von Paclitaxel+Trastuzumab+Pertuzumab bei frühem HER2-positivem Brustkrebs |
+| [NCT02654119](https://clinicaltrials.gov/study/NCT02654119) | Phase 2 | Abgeschlossen | 20 | Adjuvante Cyclophosphamid, Paclitaxel mit Trastuzumab bei Patienten mit HER2/neu-positivem Brustkrebs Stadium I-II |
 
 ---
 
-## Literature Evidence
+## Evidenz aus Literatur
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Journal | Wichtigste Ergebnisse |
 |------|-----|------|------|---------|
-| [26874901](https://pubmed.ncbi.nlm.nih.gov/26874901/) | 2016 | RCT (Tier 1) | The Lancet. Oncology | ExteNET phase 3 trial: neratinib after trastuzumab-based adjuvant therapy improved outcomes in HER2-positive early breast cancer |
-| [37166817](https://pubmed.ncbi.nlm.nih.gov/37166817/) | 2023 | RCT | JAMA Oncology | WSG-TP-II: neoadjuvant endocrine therapy + trastuzumab + pertuzumab vs. de-escalated chemotherapy in HR-positive/HER2-positive early breast cancer |
-| [32353342](https://pubmed.ncbi.nlm.nih.gov/32353342/) | 2020 | RCT | The Lancet. Oncology | monarcHER phase 2 trial: abemaciclib + trastuzumab ± fulvestrant vs. chemotherapy + trastuzumab in hormone receptor-positive, HER2-positive advanced breast cancer |
-| [27179402](https://pubmed.ncbi.nlm.nih.gov/27179402/) | 2016 | RCT | The Lancet. Oncology | NeoSphere 5-year analysis: neoadjuvant pertuzumab + trastuzumab in HER2-positive breast cancer, showing sustained pathological complete response benefit |
-| [15894097](https://pubmed.ncbi.nlm.nih.gov/15894097/) | 2005 | Meta-analysis (Tier 1) | Lancet | EBCTCG overview of chemotherapy and hormonal therapy effects on recurrence and 15-year survival in early breast cancer |
-| [29117498](https://pubmed.ncbi.nlm.nih.gov/29117498/) | 2017 | Cohort (Tier 2) | NEJM | 20-year risk of breast-cancer recurrence after stopping endocrine therapy at 5 years in ER-positive early breast cancer |
-| [31410192](https://pubmed.ncbi.nlm.nih.gov/31410192/) | 2019 | Cohort | Theranostics | Molecular portraits and trastuzumab responsiveness specifically in ER-positive, PR-positive, and HER2-positive ("triple-positive") breast cancer |
-| [35640077](https://pubmed.ncbi.nlm.nih.gov/35640077/) | 2022 | Guideline | J Clin Oncol | ASCO Guideline Update: systemic therapy recommendations for advanced HER2-positive breast cancer |
-| [34983437](https://pubmed.ncbi.nlm.nih.gov/34983437/) | 2022 | Retrospective cohort | BMC Cancer | Trastuzumab and fulvestrant combination therapy in hormone receptor- and HER2-positive advanced breast cancer |
-| [28945833](https://pubmed.ncbi.nlm.nih.gov/28945833/) | 2017 | Phase 2 trial | Annals of Oncology | WSG-ADAPT HER2+/HR- trial: 12-week neoadjuvant dual HER2 blockade (trastuzumab + pertuzumab) ± paclitaxel, de-escalation strategy |
+| [26874901](https://pubmed.ncbi.nlm.nih.gov/26874901/) | 2016 | RCT (Tier 1) | The Lancet. Oncology | ExteNET-Phase-3-Studie: Neratinib nach Trastuzumab-basierter adjuvanter Therapie verbesserte Ergebnisse bei HER2-positivem frühem Brustkrebs |
+| [37166817](https://pubmed.ncbi.nlm.nih.gov/37166817/) | 2023 | RCT | JAMA Oncology | WSG-TP-II: neoadjuvante Endokrin-Therapie + Trastuzumab + Pertuzumab vs. reduzierte Chemotherapie bei HR-positiven/HER2-positiven frühen Brustkrebspatienten |
+| [32353342](https://pubmed.ncbi.nlm.nih.gov/32353342/) | 2020 | RCT | The Lancet. Oncology | monarcHER-Phase-2-Studie: Abemaciclib + Trastuzumab ± Fulvestrant vs. Chemotherapie + Trastuzumab bei Hormonrezeptor-positivem, HER2-positivem fortgeschrittenem Brustkrebs |
+| [27179402](https://pubmed.ncbi.nlm.nih.gov/27179402/) | 2016 | RCT | The Lancet. Oncology | NeoSphere-5-Jahres-Analyse: neoadjuvantes Pertuzumab + Trastuzumab bei HER2-positivem Brustkrebs, zeigt anhaltenden Vorteil der pathologischen vollständigen Remission |
+| [15894097](https://pubmed.ncbi.nlm.nih.gov/15894097/) | 2005 | Meta-Analyse (Tier 1) | Lancet | EBCTCG-Übersicht über Chemotherapie- und Hormontherapie-Effekte auf Rezidiv und 15-Jahres-Überleben bei frühem Brustkrebs |
+| [29117498](https://pubmed.ncbi.nlm.nih.gov/29117498/) | 2017 | Kohorte (Tier 2) | NEJM | 20-Jahres-Risiko für Brustkrebs-Rezidiv nach Beendigung der Endokrin-Therapie nach 5 Jahren bei ER-positivem frühem Brustkrebs |
+| [31410192](https://pubmed.ncbi.nlm.nih.gov/31410192/) | 2019 | Kohorte | Theranostics | Molekulare Portraits und Trastuzumab-Responsivität speziell bei ER-positivem, PR-positivem und HER2-positivem („dreifach positivem") Brustkrebs |
+| [35640077](https://pubmed.ncbi.nlm.nih.gov/35640077/) | 2022 | Leitlinie | J Clin Oncol | ASCO-Leitlinien-Update: systemische Therapie-Empfehlungen für fortgeschrittenen HER2-positiven Brustkrebs |
+| [34983437](https://pubmed.ncbi.nlm.nih.gov/34983437/) | 2022 | Retrospektive Kohorte | BMC Cancer | Trastuzumab- und Fulvestrant-Kombinationstherapie bei Hormonrezeptor- und HER2-positivem fortgeschrittenem Brustkrebs |
+| [28945833](https://pubmed.ncbi.nlm.nih.gov/28945833/) | 2017 | Phase-2-Studie | Annals of Oncology | WSG-ADAPT HER2+/HR--Studie: 12-Wochen neoadjuvante duale HER2-Blockade (Trastuzumab + Pertuzumab) ± Paclitaxel, De-Eskalations-Strategie |
 
 ---
 
-## Germany Market Information
+## Marktinformationen Deutschland
 
-This drug currently holds **no marketing authorizations in Germany** in this evidence pack (market status: Not Marketed; total authorizations: 0). No license records are available to summarize dosage forms or approved indication text.
+Dieses Arzneimittel hält derzeit **keine Zulassungen in Deutschland** in diesem Evidenzpaket (Marktstatus: Nicht vermarktet; Gesamtzulassungen: 0). Es sind keine Lizenz-Unterlagen verfügbar, um Darreichungsformen oder genehmigten Indikationstext zusammenzufassen.
 
 ---
 
-## Cytotoxicity
+## Zytotoxizität
 
-| Item | Content |
+| Element | Inhalt |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (anti-HER2 monoclonal antibody); not a conventional cytotoxic chemotherapeutic per the evidence pack's rationale text |
-| Myelosuppression Risk | Not directly characterized in this evidence pack. Trial evidence instead identifies cardiac toxicity, rather than myelosuppression, as the primary monitored risk specific to trastuzumab (see NCT01436604) |
-| Emetogenicity Classification | Please refer to the package insert |
-| Monitoring Items | Cardiac function (LVEF/echocardiogram), based on a dedicated cardiotoxicity-monitoring trial (NCT01436604); CBC and liver/renal function when trastuzumab is combined with cytotoxic chemotherapy partners |
-| Handling Protection | Please refer to the package insert warnings and precautions; standard biologic/antibody handling applies to trastuzumab monotherapy, with cytotoxic-drug handling protocols relevant only when combined with conventional chemotherapy agents |
+| Zytotoxizitäts-Klassifizierung | Zielgerichtete Therapie (anti-HER2-monoklonaler Antikörper); keine konventionelle zytotoxische Chemotherapie gemäß des Evidenzpakets-Rationale |
+| Myelosuppression-Risiko | Nicht direkt in diesem Evidenzpaket charakterisiert. Evidenz aus Studien identifiziert stattdessen kardiale Toxizität anstelle von Myelosuppression als primäres überwachtes Risiko spezifisch für Trastuzumab (siehe NCT01436604) |
+| Emetogenitäts-Klassifizierung | Bitte beachten Sie die Fachinformation |
+| Überwachungs-Punkte | Kardiale Funktion (LVEF/Echokardiogramm), basierend auf einer dedizierten Kardiotoxizitäts-Überwachungs-Studie (NCT01436604); CBC und Leber-/Nierenfunktion wenn Trastuzumab mit zytotoxischen Chemotherapie-Partnern kombiniert wird |
+| Handhabungsschutz | Bitte beachten Sie die Fachinformations-Warnungen und Vorsichtsmaßnahmen; standardisierte Biologic-/Antikörper-Handhabung gilt für Trastuzumab-Monotherapie, mit zytotoxischen-Medikamenten-Handhabungs-Protokollen relevant nur wenn kombiniert mit konventionellen Chemotherapie-Wirkstoffen |
 
 ---
 
-## Safety Considerations
+## Sicherheitsaspekte
 
-Please refer to the package insert for safety information. Key warnings, contraindications, and drug-drug interaction data are not available in this evidence pack (DDI query status: not found).
+Bitte beachten Sie die Fachinformation für Sicherheitsinformationen. Wichtige Warnungen, Kontraindikationen und Arzneimittelwechselwirkungs-Daten sind nicht in diesem Evidenzpaket verfügbar (DDI-Abfrage-Status: nicht gefunden).
 
 ---
 
-## Conclusion and Next Steps
+## Schlussfolgerung und nächste Schritte
 
-**Decision: Proceed with Guardrails**
+**Entscheidung: Fortfahren mit Schutzmaßnahmen**
 
 **Rationale:**
-The PR-positive breast cancer indication is supported by evidence level L1 (multiple completed Phase 2/3 trastuzumab-based trials in HER2-positive/hormone-receptor-positive breast cancer), but it functions as a molecular-subtype extension of trastuzumab's existing HER2-positive breast cancer indication rather than a novel target — and a Blocking-severity safety data gap currently prevents formal safety pre-assessment.
+Die PR-positive Brustkrebs-Indikation wird durch Evidenz-Level L1 (mehrere abgeschlossene Phase-2/3-Trastuzumab-basierte Studien bei HER2-positivem/Hormonrezeptor-positivem Brustkrebs) gestützt, funktioniert aber als molekulare Subtyp-Erweiterung der bestehenden HER2-positiven Brustkrebs-Indikation von Trastuzumab und nicht als neuartiges Ziel — und eine Blocking-Schweregrad-Sicherheitsdaten-Lücke verhindert derzeit eine formale Sicherheits-Vor-Bewertung.
 
-**To proceed, the following is needed:**
-- Resolve Blocking gap **DG001**: obtain TFDA/official label warnings and contraindications (label PDF retrieval and parsing) — this is required before the candidate can enter S1 safety pre-assessment
-- Resolve High-severity gap **DG002**: obtain formal MOA documentation from DrugBank to support mechanistic-linkage analysis
-- Confirm PR-positivity biomarker stratification protocols, since current evidence treats PR status as a stratification factor rather than an independent therapeutic target
-- Clarify the drug's regulatory/market status in Germany, given 0 current authorizations and "Not Marketed" status
-- Run a proper drug-drug interaction query, as the current DDI check returned "not_found"
+**Um fortzufahren, wird folgendes benötigt:**
+- Beheben Sie Blocking-Lücke **DG001**: Erhalten Sie TFDA/offizielle Beschriftungs-Warnungen und Kontraindikationen (Beschriftungs-PDF-Abruf und -Analyse) — dies ist erforderlich, bevor der Kandidat in S1-Sicherheits-Vor-Bewertung eintreten kann
+- Beheben Sie Hoch-Schweregrad-Lücke **DG002**: Erhalten Sie formale MOA-Dokumentation von DrugBank zur Unterstützung der mechanistischen Verknüpfungs-Analyse
+- Bestätigen Sie PR-Positivitäts-Biomarker-Stratifizierungs-Protokolle, da aktuelle Evidenz PR-Status als Stratifizierungsfaktor anstelle eines unabhängigen therapeutischen Ziels behandelt
+- Klären Sie den regulatorischen/Marktstatus des Arzneimittels in Deutschland, da derzeit 0 Zulassungen vorhanden sind und Status „Nicht vermarktet"
+- Führen Sie eine ordentliche Arzneimittelwechselwirkungs-Abfrage durch, da die aktuelle DDI-Überprüfung „nicht_gefunden" zurückgab
 
 ---
 
-**Additional note:** This evidence pack also scored several other candidate indications for trastuzumab (e.g., normal breast-like subtype [L3], PR-negative breast cancer [L2], luminal A/B breast tumor [L2], and five rare non-breast tumor types [all L5, no supporting trials/literature, recommendation: Hold]). These are substantially weaker than the PR-positive breast cancer prediction and are not recommended for further action at this time.
+**Zusätzlicher Hinweis:** Dieses Evidenzpaket bewertete auch mehrere andere Kandidaten-Indikationen für Trastuzumab (z. B. normal-ähnlicher Subtyp [L3], PR-negativer Brustkrebs [L2], luminal A/B Brusttumor [L2] und fünf seltene Nicht-Brusttumor-Typen [alle L5, keine unterstützenden Studien/Literatur, Empfehlung: Halten]). Diese sind wesentlich schwächer als die PR-positive Brustkrebs-Vorhersage und werden zum jetzigen Zeitpunkt nicht zur weiteren Maßnahme empfohlen.
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

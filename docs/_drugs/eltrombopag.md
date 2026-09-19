@@ -29,96 +29,97 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Eltrombopag: From Thrombocytopenia to HIV Infectious Disease
+# Eltrombopag: Von Thrombozytopenie zu HIV-Infektionskrankheit
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Eltrombopag is a thrombopoietin (TPO) receptor agonist historically used to raise platelet counts in thrombocytopenic disorders (e.g., immune thrombocytopenia, aplastic anemia, hepatitis C-associated thrombocytopenia). The TxGNN model predicts it may also be relevant to **HIV infectious disease**, with **5 clinical trials** and **10 publications** currently available as supporting context — though none of the trials directly target HIV as the primary indication, and the evidence is largely indirect (comorbidity-based).
+Eltrombopag ist ein Thrombopoietin (TPO)-Rezeptor-Agonist, der historisch zur Erhöhung der Thrombozytenzahl bei thrombozytopänen Störungen eingesetzt wird (z. B. Immune Thrombozytopenie, aplastische Anämie, Hepatitis-C-assoziierte Thrombozytopenie). Das TxGNN-Modell sagt voraus, dass es auch für die **HIV-Infektionskrankheit** relevant sein könnte, mit **5 klinischen Studien** und **10 Publikationen**, die derzeit als unterstützender Kontext verfügbar sind – obwohl keine der Studien HIV direkt als primäre Indikation untersucht, und die Evidenz größtenteils indirekt ist (komorbiditätsgestützt).
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Eintrag | Inhalt |
 |------|------|
-| Original Indication | Not available in formal registry data; pharmacologically known as a treatment for thrombocytopenic disorders (ITP, aplastic anemia, HCV-related thrombocytopenia) |
-| Predicted New Indication | HIV infectious disease |
-| TxGNN Prediction Score | 99.26% |
-| Evidence Level | L4 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | In formalen Registry-Daten nicht verfügbar; pharmakologisch bekannt als Behandlung thrombozytopäner Störungen (ITP, aplastische Anämie, HCV-assoziierte Thrombozytopenie) |
+| Vorhergesagte neue Indikation | HIV-Infektionskrankheit |
+| TxGNN-Vorhersage-Score | 99.26% |
+| Evidenzstufe | L4 |
+| Marktatus Deutschland | ✗ Nicht im Handel |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Zurückstellen |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage sinnvoll?
 
-Currently, detailed mechanism of action data is not available (data gap). Based on known pharmacology, eltrombopag is a small-molecule TPO receptor (MPL) agonist that stimulates megakaryocyte production to raise platelet counts. Its established uses are all in thrombocytopenic disorders — it is not classified as an antiretroviral or antiviral agent.
+Derzeit sind detaillierte Daten zum Wirkmechanismus nicht verfügbar (Datenlücke). Basierend auf bekannter Pharmakologie ist Eltrombopag ein niedermolekularer TPO-Rezeptor (MPL)-Agonist, der die Megakaryozyten-Produktion stimuliert, um die Thrombozytenzahl zu erhöhen. Seine etablierten Anwendungen sind alle bei thrombozytopänen Störungen – es ist nicht als Antiretroviral- oder Antivirusmittel klassifiziert.
 
-The connection to HIV infectious disease appears to arise from two distinct pathways, and it is important not to conflate them. First, a **comorbidity pathway**: HIV infection and its treatment are frequently associated with immune thrombocytopenia (ITP) and immune reconstitution inflammatory syndrome (IRIS)-related thrombocytopenia. Multiple case reports and a case series in the literature describe eltrombopag being used successfully off-label to manage HIV-associated ITP and aplastic anemia, including one report noting a possible immunomodulatory effect (reduced Th1/Th17 proinflammatory T-helper populations). Second, an **independent mechanistic hypothesis**: a single in-vitro drug-repurposing screen (PMID 32977702) identified eltrombopag as a modulator of HIV-1 proviral transcription, possibly related to its zinc-finger-binding chemistry — but this finding has not been validated in cell-infection models or clinical studies.
+Die Verbindung zur HIV-Infektionskrankheit scheint sich aus zwei unterschiedlichen Mechanismen zu ergeben, und es ist wichtig, diese nicht zu vermischen. Erstens ein **Komorbiditäts-Mechanismus**: HIV-Infektionen und deren Behandlung sind häufig mit Immune Thrombozytopenie (ITP) und Immun-Rekonstituierungs-Entzündungssyndrom (IRIS)-bedingter Thrombozytopenie assoziiert. Mehrere Fallberichte und eine Fallserie in der Literatur beschreiben die erfolgreiche Off-Label-Anwendung von Eltrombopag zur Behandlung von HIV-assoziierter ITP und aplastischer Anämie, einschließlich eines Berichts, der einen möglichen immunmodulatorischen Effekt erwähnt (reduzierte Th1/Th17-proinflamm­atorische T-Helfer-Populationen). Zweitens eine **unabhängige mechanistische Hypothese**: Ein einzelnes In-vitro-Drug-Repurposing-Screening (PMID 32977702) identifizierte Eltrombopag als Modulator der HIV-1-Proviral-Transkription, möglicherweise bezogen auf seine Zinkfinger-bindende Chemie – aber dieser Befund wurde nicht in Zellinfektionsmodellen oder klinischen Studien validiert.
 
-Taken together, the TxGNN high score most likely reflects the knowledge graph's strong "HIV – thrombocytopenia – eltrombopag" co-occurrence pattern rather than a direct, validated antiviral mechanism. Readers should clearly distinguish between "treating HIV-associated thrombocytopenia" (reasonably well supported) and "treating HIV infection itself" (speculative, preclinical only).
-
----
-
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00996216](https://clinicaltrials.gov/study/NCT00996216) | Phase 3 | Completed | 27 | Rollover safety/tolerability study of eltrombopag for maintaining platelet counts in HCV-related thrombocytopenia; not HIV-specific |
-| [NCT00529568](https://clinicaltrials.gov/study/NCT00529568) | Phase 3 | Completed | 759 | RCT evaluating eltrombopag's ability to enable HCV antiviral therapy initiation via sustained virologic response; not HIV-specific |
-| [NCT00678587](https://clinicaltrials.gov/study/NCT00678587) | Phase 3 | Terminated | 292 | RCT assessing eltrombopag to reduce platelet transfusion needs in chronic liver disease patients undergoing invasive procedures; trial terminated, not HIV-specific |
-| [NCT00516321](https://clinicaltrials.gov/study/NCT00516321) | Phase 3 | Completed | 687 | RCT assessing eltrombopag for maintaining platelet counts to enable HCV antiviral therapy (SVR endpoint); not HIV-specific |
-| [NCT01636778](https://clinicaltrials.gov/study/NCT01636778) | Phase 2 | Completed | 45 | Open-label study of eltrombopag (research code SB-497115-GR) raising platelet counts in HCV-related compensated cirrhosis; not HIV-specific |
-
-**Note:** None of the above trials enrolled HIV patients or used HIV-related endpoints. All five support eltrombopag's established efficacy in thrombocytopenia associated with hepatitis C/chronic liver disease; TxGNN links this evidence to HIV via the shared "thrombocytopenia" comorbidity node rather than a direct HIV trial.
+Insgesamt spiegelt der hohe TxGNN-Score höchstwahrscheinlich das starke Kovorkommens-Muster „HIV – Thrombozytopenie – Eltrombopag" im Knowledge Graph wider, anstelle eines direkten, validierten antiviralen Mechanismus. Leser sollten deutlich zwischen „Behandlung von HIV-assoziierter Thrombozytopenie" (angemessen gut gestützt) und „Behandlung der HIV-Infektion selbst" (spekulativ, nur präklinisch) unterscheiden.
 
 ---
 
-## Literature Evidence
+## Evidenz aus klinischen Studien
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [19932434](https://pubmed.ncbi.nlm.nih.gov/19932434/) | 2009 | Review | Hematology/Oncology Clinics of North America | Chronic HCV, HIV, and H. pylori infections are recognized causes of secondary immune thrombocytopenia; treating the underlying infection often improves platelet counts |
-| [19245929](https://pubmed.ncbi.nlm.nih.gov/19245929/) | 2009 | Review | Seminars in Hematology | Discusses therapeutic strategies for infection-related immune thrombocytopenia, including HCV and HIV as recognized secondary causes |
-| [24816314](https://pubmed.ncbi.nlm.nih.gov/24816314/) | 2014 | Review | Internal Medicine Journal | Reviews thrombopoietin receptor agonist use in immune thrombocytopenia of less than 6 months' duration |
-| [32977702](https://pubmed.ncbi.nlm.nih.gov/32977702/) | 2020 | Preclinical/In-vitro Screening | Viruses | Drug-repurposing screen of FDA-approved compounds identifies eltrombopag as a modulator of HIV-1 proviral transcription; in-vitro only, no infection-model or clinical validation |
-| [22185370](https://pubmed.ncbi.nlm.nih.gov/22185370/) | 2012 | Cohort | Platelets | Danish cohort of TPO-receptor agonist use in refractory ITP, including secondary ITP cases (e.g., chronic lymphocytic leukemia); real-world off-label use patterns |
-| [25504472](https://pubmed.ncbi.nlm.nih.gov/25504472/) | 2015 | Case Series | Journal of the International Association of Providers of AIDS Care | Case series on TPO receptor agonists (eltrombopag, romiplostim) as salvage therapy for refractory HIV-associated immune thrombocytopenic purpura |
-| [22992580](https://pubmed.ncbi.nlm.nih.gov/22992580/) | 2012 | Case Report | AIDS | Successful use of eltrombopag without splenectomy in refractory HIV-related immune reconstitution thrombocytopenia |
-| [25333665](https://pubmed.ncbi.nlm.nih.gov/25333665/) | 2014 | Case Report | AIDS | First reported successful treatment of HIV-associated severe aplastic anemia with eltrombopag, with evidence of an immunomodulatory effect (reduced Th1/Th17 cells) |
-| [28043314](https://pubmed.ncbi.nlm.nih.gov/28043314/) | 2016 | Case Report | Journal of the College of Physicians and Surgeons Pakistan | Case of hepatitis B (not HIV) leading to megaloblastic anemia and severe thrombocytopenia; included as a related infection-thrombocytopenia case |
-| [24128106](https://pubmed.ncbi.nlm.nih.gov/24128106/) | 2013 | Case Report | Farmacia Hospitalaria | Two case reports of eltrombopag used for thrombocytopenia in chronic hepatitis C patients |
+| Studiesnummer | Phase | Status | Rekrutierung | Wichtigste Ergebnisse |
+|------|------|------|------|------|
+| [NCT00996216](https://clinicaltrials.gov/study/NCT00996216) | Phase 3 | Abgeschlossen | 27 | Rollover-Sicherheits- und Verträglichkeitsstudie von Eltrombopag zur Aufrechterhaltung der Thrombozytenzahl bei HCV-assoziierter Thrombozytopenie; nicht HIV-spezifisch |
+| [NCT00529568](https://clinicaltrials.gov/study/NCT00529568) | Phase 3 | Abgeschlossen | 759 | RCT zur Bewertung der Fähigkeit von Eltrombopag, die Initiierung der HCV-Antiviral-Therapie durch anhaltende virologische Ansprechrate (SVR) zu ermöglichen; nicht HIV-spezifisch |
+| [NCT00678587](https://clinicaltrials.gov/study/NCT00678587) | Phase 3 | Beendet | 292 | RCT zur Bewertung von Eltrombopag zur Verringerung des Thrombozytentransfusionsbedarfs bei Patienten mit chronischer Lebererkrankung, die sich invasiven Verfahren unterziehen; Studie beendet, nicht HIV-spezifisch |
+| [NCT00516321](https://clinicaltrials.gov/study/NCT00516321) | Phase 3 | Abgeschlossen | 687 | RCT zur Bewertung von Eltrombopag zur Aufrechterhaltung der Thrombozytenzahl zur Ermöglichung der HCV-Antiviral-Therapie (SVR-Endpunkt); nicht HIV-spezifisch |
+| [NCT01636778](https://clinicaltrials.gov/study/NCT01636778) | Phase 2 | Abgeschlossen | 45 | Offene Studie von Eltrombopag (Forschungscode SB-497115-GR) zur Erhöhung der Thrombozytenzahl bei HCV-assoziierter kompensierter Zirrhose; nicht HIV-spezifisch |
+
+**Anmerkung:** Keine der oben aufgeführten Studien rekrutierte HIV-Patienten oder verwendete HIV-bezogene Endpunkte. Alle fünf unterstützen die etablierte Wirksamkeit von Eltrombopag bei Thrombozytopenie, die mit Hepatitis C/chronischer Lebererkrankung assoziiert ist; TxGNN verbindet diese Evidenz mit HIV über den gemeinsamen Komorbiditäts-Knoten „Thrombozytopenie", anstelle eines direkten HIV-Versuchs.
 
 ---
 
-## Germany Market Information
+## Evidenz aus der Literatur
 
-No marketing authorizations are currently on file for eltrombopag in this market (0 licenses recorded; market status: Not Marketed).
+| PMID | Jahr | Typ | Journal | Wichtigste Ergebnisse |
+|------|-----|------|------|------|
+| [19932434](https://pubmed.ncbi.nlm.nih.gov/19932434/) | 2009 | Review | Hematology/Oncology Clinics of North America | Chronische HCV-, HIV- und H. pylori-Infektionen sind anerkannte Ursachen für sekundäre Immune Thrombozytopenie; die Behandlung der zugrunde liegenden Infektion verbessert häufig die Thrombozytenzahl |
+| [19245929](https://pubmed.ncbi.nlm.nih.gov/19245929/) | 2009 | Review | Seminars in Hematology | Bespricht therapeutische Strategien für infektionsbezogene Immune Thrombozytopenie, einschließlich HCV und HIV als anerkannte sekundäre Ursachen |
+| [24816314](https://pubmed.ncbi.nlm.nih.gov/24816314/) | 2014 | Review | Internal Medicine Journal | Überprüft den Einsatz von Thrombopoietin-Rezeptor-Agonisten bei Immune Thrombozytopenie mit einer Dauer von weniger als 6 Monaten |
+| [32977702](https://pubmed.ncbi.nlm.nih.gov/32977702/) | 2020 | Präklinisches/In-vitro-Screening | Viruses | Drug-Repurposing-Screening von FDA-zugelassenen Verbindungen identifiziert Eltrombopag als Modulator der HIV-1-Proviral-Transkription; nur in-vitro, keine Validierung in Infektionsmodellen oder klinischen Studien |
+| [22185370](https://pubmed.ncbi.nlm.nih.gov/22185370/) | 2012 | Kohorte | Platelets | Dänische Kohorte zum Einsatz von TPO-Rezeptor-Agonisten bei refraktärer ITP, einschließlich sekundärer ITP-Fälle (z. B. chronische lymphozytische Leukämie); Real-World-Off-Label-Nutzungsmuster |
+| [25504472](https://pubmed.ncbi.nlm.nih.gov/25504472/) | 2015 | Fallserie | Journal of the International Association of Providers of AIDS Care | Fallserie über TPO-Rezeptor-Agonisten (Eltrombopag, Romiplostim) als Salvage-Therapie für refraktäre HIV-assoziierte Immune Thrombozytopenie |
+| [22992580](https://pubmed.ncbi.nlm.nih.gov/22992580/) | 2012 | Fallbericht | AIDS | Erfolgreiche Anwendung von Eltrombopag ohne Splenektomie bei refraktärer HIV-assoziierter Immun-Rekonstituierungs-Thrombozytopenie |
+| [25333665](https://pubmed.ncbi.nlm.nih.gov/25333665/) | 2014 | Fallbericht | AIDS | Erste berichtete erfolgreiche Behandlung von HIV-assoziierter schwerer aplastischer Anämie mit Eltrombopag, mit Hinweis auf einen immunmodulatorischen Effekt (reduzierte Th1/Th17-Zellen) |
+| [28043314](https://pubmed.ncbi.nlm.nih.gov/28043314/) | 2016 | Fallbericht | Journal of the College of Physicians and Surgeons Pakistan | Fall von Hepatitis B (nicht HIV) mit megaloblastischer Anämie und schwerer Thrombozytopenie; als verwandter Infektions-Thrombozytopenie-Fall aufgenommen |
+| [24128106](https://pubmed.ncbi.nlm.nih.gov/24128106/) | 2013 | Fallbericht | Farmacia Hospitalaria | Zwei Fallberichte zur Anwendung von Eltrombopag bei Thrombozytopenie bei Patienten mit chronischer Hepatitis C |
 
 ---
 
-## Safety Considerations
+## Marktinformation Deutschland
 
-Please refer to the package insert for safety information.
-
-**Note:** Key warnings, contraindications, and drug-drug interaction data could not be retrieved for eltrombopag in this evaluation (see Data Gap DG001, classified as *Blocking* — this currently prevents progression to the S1 safety pre-assessment stage).
+Keine Zulassungen für Eltrombopag sind derzeit für diesen Markt auf Datei (0 Lizenzen erfasst; Marktatus: Nicht im Handel).
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsaspekte
 
-**Decision: Hold**
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
 
-**Rationale:**
-The HIV infectious disease prediction is currently supported only by indirect, comorbidity-based evidence (case reports/case series of eltrombopag treating HIV-associated thrombocytopenia) and a single unvalidated in-vitro screening finding on HIV-1 proviral transcription — no trial has evaluated eltrombopag against HIV infection itself. Combined with a blocking data gap in safety/label information and the absence of any market authorization, the evidence base is not yet sufficient to advance past the research-question stage.
+**Anmerkung:** Wichtige Warnungen, Kontraindikationen und Daten zu Arzneimittel-Wechselwirkungen konnten für Eltrombopag in dieser Bewertung nicht abgerufen werden (siehe Datenlücke DG001, klassifiziert als *Blockierend* – dies verhindert derzeit den Fortschritt zur S1 Sicherheits-Vor-Bewertung).
 
-**To proceed, the following is needed:**
-- TFDA/package insert warnings and contraindications (Data Gap DG001 — currently blocking S1 safety pre-assessment)
-- Confirmed mechanism of action data from DrugBank or equivalent source (Data Gap DG002)
-- Cell-infection-model (not just in-vitro screen) validation of the HIV-1 proviral transcription modulation reported in PMID 32977702
-- A clearly scoped clinical study (or at minimum a retrospective cohort) evaluating antiviral/virologic outcomes in HIV patients, distinct from existing thrombocytopenia-support evidence
-- Regulatory pathway and market authorization assessment before any local development decision
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Zurückstellen**
+
+**Begründung:**
+Die HIV-Infektionskrankheits-Vorhersage wird derzeit nur durch indirekte, komorbiditätsgestützte Evidenz unterstützt (Fallberichte/Fallserien von Eltrombopag zur Behandlung von HIV-assoziierter Thrombozytopenie) und ein einzelner nicht validierter In-vitro-Screening-Befund zur HIV-1-Proviral-Transkription – keine Studie hat Eltrombopag gegen die HIV-Infektion selbst evaluiert. In Kombination mit einer Blockierungsdatenlücke bei Sicherheits-/Labelinformationen und dem Fehlen einer Marktzulassung ist die Evidenzbasis noch nicht ausreichend, um über die Forschungsfragen-Phase hinaus voranzuschreiten.
+
+**Für den Fortschritt ist Folgendes erforderlich:**
+- TFDA/Packungsbeilage-Warnungen und Kontraindikationen (Datenlücke DG001 – blockiert derzeit die S1 Sicherheits-Vor-Bewertung)
+- Bestätigte Wirkmechanismus-Daten von DrugBank oder äquivalenter Quelle (Datenlücke DG002)
+- Validierung in Zellinfektionsmodellen (nicht nur In-vitro-Screening) der HIV-1-Proviral-Transkription-Modulation, die in PMID 32977702 berichtet wird
+- Eine klar definierte klinische Studie (oder mindestens eine retrospektive Kohorte), die antivirale/virologische Ergebnisse bei HIV-Patienten evaluiert, getrennt von bestehender Thrombozytopenie-Unterstützungs-Evidenz
+- Bewertung des regulatorischen Pfads und der Marktzulassung vor jeder lokalen Entwicklungsentscheidung
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -29,76 +29,75 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-Using no skill — this is a direct report-generation task per explicit formatting instructions already supplied.
+# Verteporfin: Von der choroidalen Neovaskularisation zur mitochondrialen Störung der oxidativen Phosphorylierung
 
-# Verteporfin: From Choroidal Neovascularization to Mitochondrial Oxidative Phosphorylation Disorder
+## Zusammenfassung in einem Satz
 
-## One-Sentence Summary
-
-> Verteporfin is a photosensitizing agent originally used in photodynamic therapy (PDT) for choroidal neovascularization (e.g., wet age-related macular degeneration).
-> The TxGNN model predicts it may be effective for **mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies**,
-> but this prediction is currently supported by **no clinical trials and no literature** — it is a model-only signal (L5) and requires manual mechanistic review before any further action.
+> Verteporfin ist ein Photosensibilisator, das ursprünglich in der photodynamischen Therapie (PDT) zur Behandlung der choroidalen Neovaskularisation (z. B. neovaskuläre altersbedingte Makuladegeneration) verwendet wurde.
+> Das TxGNN-Modell sagt voraus, dass es bei der **mitochondrialen Störung der oxidativen Phosphorylierung aufgrund von nuklearen DNA-Anomalien** wirksam sein könnte,
+> aber diese Vorhersage wird derzeit durch **keine klinischen Studien und keine Literatur** unterstützt — es ist ein rein modellgestütztes Signal (L5) und erfordert eine manuelle Überprüfung des Wirkmechanismus vor weiteren Maßnahmen.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
-|------|------|
-| Original Indication | Choroidal neovascularization / wet age-related macular degeneration (photodynamic therapy) — based on known clinical use, not present in the supplied license data |
-| Predicted New Indication | Mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies |
-| TxGNN Prediction Score | 99.49% (rank 5945) |
-| Evidence Level | L5 |
-| Germany Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
-
----
-
-## Why is This Prediction Reasonable?
-
-Detailed mechanism of action data is not available in the current evidence pack (flagged as a Blocking/High-severity data gap — see Next Steps). Based on known information, verteporfin acts as a light-activated photosensitizer, generating reactive oxygen species upon laser activation to selectively damage neovascular endothelium — this is the basis of its approved use in PDT for choroidal neovascularization. Separately from its light-dependent activity, verteporfin has also been studied as a non-light-dependent inhibitor of the YAP/TAZ transcriptional co-activators in the Hippo signaling pathway, which has drawn interest in oncology and anti-fibrotic research.
-
-Neither of these known mechanisms — photodynamic vascular ablation or YAP/TAZ inhibition — has an established biochemical link to nuclear-DNA-encoded oxidative phosphorylation (OXPHOS) complex assembly or function, which is the defect underlying the predicted indication. The very high TxGNN score (99.49%) most likely reflects **topological similarity in the knowledge graph** (e.g., shared genes, pathways, or co-occurring drug/disease neighbors) rather than a substantiated pharmacological rationale. This prediction should be treated as a hypothesis-generating signal only, pending manual review of the underlying knowledge graph paths and any mitochondrial-relevant pharmacology data for verteporfin.
+| Element | Inhalt |
+|---------|---------|
+| Ursprüngliche Indikation | Choroidale Neovaskularisation / neovaskuläre altersbedingte Makuladegeneration (photodynamische Therapie) — basierend auf bekannter klinischer Anwendung, nicht in den bereitgestellten Lizenzierungsdaten vorhanden |
+| Vorhergesagte neue Indikation | Mitochondriale Störung der oxidativen Phosphorylierung aufgrund von nuklearen DNA-Anomalien |
+| TxGNN-Vorhersage-Score | 99.49% (Rang 5945) |
+| Evidenzlevel | L5 |
+| Marktstatus in Deutschland | Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Halten |
 
 ---
 
-## Clinical Trial Evidence
+## Warum ist diese Vorhersage sinnvoll?
 
-Currently no related clinical trials registered
+Detaillierte Daten zum Wirkmechanismus sind in der aktuellen Evidenzsammlung nicht verfügbar (gekennzeichnet als Sperrend/hochgradig schwerwiegende Datenlücke — siehe Nächste Schritte). Basierend auf bekannten Informationen wirkt Verteporfin als lichtaktivierter Photosensibilisator, der bei Laserbestrahlung reaktive Sauerstoffspezies erzeugt, um das neovaskuäre Endothel selektiv zu schädigen — dies ist die Grundlage seiner genehmigten Anwendung in der PDT für choroidale Neovaskularisation. Neben seiner lichtabhängigen Aktivität wurde Verteporfin auch als lichtunabhängiger Inhibitor der YAP/TAZ-Transkriptionsaktivatoren im Hippo-Signalweg untersucht, was Interesse in der Onkologie- und Antifibrose-Forschung geweckt hat.
 
----
-
-## Literature Evidence
-
-Currently no related literature available
+Keiner dieser bekannten Mechanismen — photodynamische Gefäßablation oder YAP/TAZ-Inhibition — weist eine etablierte biochemische Verbindung zu nuklear-DNA-bedingten Störungen der Assemblierung oder Funktion von OXPHOS-Komplexen auf, die der vorhergesagten Indikation zugrunde liegen. Der sehr hohe TxGNN-Score (99.49%) spiegelt höchstwahrscheinlich **topologische Ähnlichkeit im Wissensgraph** wider (z. B. gemeinsame Gene, Signalwege oder co-auftretende Arzneistoff-/Krankheits-Nachbarn) eher als eine begründete pharmakologische Rationale. Diese Vorhersage sollte nur als hypothesengenerierendes Signal behandelt werden, in Erwartung einer manuellen Überprüfung der zugrunde liegenden Wissensgraph-Pfade und aller mitochondrial-relevanten Pharmakologiedaten für Verteporfin.
 
 ---
 
-## Germany Market Information
+## Evidenz aus klinischen Studien
 
-Verteporfin is currently **not marketed** in Germany, and no marketing authorizations are recorded in the evidence pack (total_licenses = 0).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+Derzeit keine zugehörigen klinischen Studien registriert
 
 ---
 
-## Conclusion and Next Steps
+## Literaturbeweise
 
-**Decision: Hold**
+Derzeit keine zugehörige Literatur verfügbar
 
-**Rationale:**
-The prediction is supported by zero clinical trials and zero literature (L5, model-only), and no established mechanistic pathway connects verteporfin's known pharmacology to nuclear-DNA-related OXPHOS disorders. Without any product currently marketed in Germany and with a Blocking safety data gap (no TFDA/label warnings retrieved), this candidate cannot proceed past S0.
+---
 
-**To proceed, the following is needed:**
-- Retrieve TFDA/EMA label warnings, contraindications, and DDI data (currently Blocking — DG001)
-- Retrieve verified drug MOA data from DrugBank or primary literature (currently High severity — DG002)
-- Manual review of the TxGNN knowledge-graph path(s) driving this prediction, to distinguish genuine mechanistic signal from graph topology artifact
-- Preclinical/mechanistic evidence (e.g., mitochondrial function assays) before considering any clinical hypothesis generation
+## Marktinformationen für Deutschland
+
+Verteporfin wird derzeit **nicht vermarktet** in Deutschland, und keine Vermarktungsgenehmigungen sind in der Evidenzsammlung verzeichnet (total_licenses = 0).
+
+---
+
+## Sicherheitsaspekte
+
+Weitere Informationen zur Sicherheit finden Sie im Beipackzettel.
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Halten**
+
+**Begründung:**
+Die Vorhersage wird durch null klinische Studien und null Literatur unterstützt (L5, rein modellgestützt), und es gibt keinen etablierten Wirkmechanismus, der Verteporfins bekannte Pharmakologie mit nuklear-DNA-bedingten OXPHOS-Störungen verbindet. Ohne ein derzeit in Deutschland vermarktetes Produkt und mit einer Sperrenden Sicherheitsdatenlücke (keine TFDA/Etikett-Warnungen abgerufen), kann dieser Kandidat nicht über S0 hinausgehen.
+
+**Um fortzufahren, wird Folgendes benötigt:**
+- Abrufen von TFDA/EMA-Etikett-Warnungen, Kontraindikationen und DDI-Daten (derzeit Sperrend — DG001)
+- Abrufen verifyzierten Arzneimittel-MOA-Daten aus DrugBank oder Primärliteratur (derzeit hochgradig — DG002)
+- Manuelle Überprüfung des TxGNN-Wissensgraph-Pfads/der Pfade, die diese Vorhersage antreiben, um echte Wirkmechanismus-Signale von Wissensgraph-Topologie-Artefakten zu unterscheiden
+- Präklinische/Wirkmechanismus-Evidenz (z. B. Assays zur mitochondrialen Funktion) vor der Überlegung einer klinischen Hypothesengenerierung
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

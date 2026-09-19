@@ -29,54 +29,51 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-The `txgnn-pipeline` skill covers infrastructure/pipeline work, while this task is pure report generation as defined by the system prompt. I'll proceed directly with producing the Markdown report from the Evidence Pack.
+# Buprenorphin: Kandidat für Arzneimittelumwidmung — Keine Vorhersagedaten verfügbar
+
+## Zusammenfassung in einem Satz
+
+Buprenorphin (DB00921) ist ein zugelassenes Arzneimittel, aber dieses Evidence-Paket enthält keine erfassten Originalindikationen und keine TxGNN-prognostizierten neuen Indikationen.
+Ohne eine Zielindikation kann eine formale Bewertung der Arzneimittelumwidmung in diesem Stadium nicht abgeschlossen werden.
+Eine Datenbereinigung ist erforderlich, bevor die Bewertung fortgesetzt werden kann.
 
 ---
 
-# Buprenorphine: Repurposing Candidate — No Prediction Data Available
+## Kurzer Überblick
 
-## One-Sentence Summary
-
-Buprenorphine (DB00921) is a registered pharmaceutical compound, but this Evidence Pack contains no recorded original indications and no TxGNN-predicted new indications.
-Without a target indication, a formal drug repurposing assessment cannot be completed at this stage.
-Data remediation is required before evaluation can proceed.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not available |
-| Predicted New Indication | No prediction generated |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | N/A |
-| Taiwan Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Element | Inhalt |
+|---------|--------|
+| Originalindikation | Nicht verfügbar |
+| Prognostizierte neue Indikation | Keine Vorhersage generiert |
+| TxGNN-Vorhersage-Score | N/A |
+| Evidenzstufe | N/A |
+| Status auf dem taiwanischen Markt | Nicht vermarktet |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | Halten |
 
 ---
 
-## Safety Considerations
+## Sicherheitsaspekte
 
-Please refer to the package insert for safety information.
+Weitere Informationen zur Sicherheit finden Sie in der Packungsbeilage.
 
 ---
 
-## Conclusion and Next Steps
+## Schlussfolgerung und nächste Schritte
 
-**Decision: Hold**
+**Entscheidung: Halten**
 
-**Rationale:**
-This Evidence Pack contains no TxGNN-predicted indications and no original indication data, making it impossible to conduct a repurposing assessment or evaluate mechanistic plausibility.
+**Begründung:**
+Dieses Evidence-Paket enthält keine TxGNN-prognostizierten Indikationen und keine Originaldaten zur Indikation, was es unmöglich macht, eine Bewertung der Arzneimittelumwidmung durchzuführen oder die mechanistische Plausibilität zu evaluieren.
 
-**To proceed, the following is needed:**
+**Zum Fortfahren wird Folgendes benötigt:**
 
-- **TxGNN prediction output** — `predicted_indications` is currently empty; the model must be re-run or results ingested for this candidate
-- **Original indication data** — `original_indications` is empty; retrieve from TFDA or DrugBank approved indication fields
-- **Mechanism of action (MOA)** — flagged as Data Gap (DG002, High severity); query DrugBank API (DB00921) to populate `original_moa`
-- **Safety data** — `key_warnings` and `contraindications` are both flagged as Data Gap (DG001, Blocking severity); download and parse the TFDA package insert PDF to unblock S1 safety screening
-- **DDI data** — drug–drug interaction query returned `not_found`; consider querying additional sources (e.g., DrugBank interactions endpoint, Lexicomp)
+- **TxGNN-Vorhersage-Ausgabe** — `predicted_indications` ist derzeit leer; das Modell muss erneut ausgeführt oder die Ergebnisse für diesen Kandidaten aufgenommen werden
+- **Originaldaten zur Indikation** — `original_indications` ist leer; diese aus der TFDA oder den zugelassenen Indikationsfeldern der DrugBank abrufen
+- **Wirkungsmechanismus (MOA)** — gekennzeichnet als Datenlücke (DG002, hoher Schweregrad); DrugBank-API (DB00921) abfragen, um `original_moa` auszufüllen
+- **Sicherheitsdaten** — `key_warnings` und `contraindications` sind beide als Datenlücke gekennzeichnet (DG001, blockierender Schweregrad); TFDA-Packungsbeilage-PDF herunterladen und analysieren, um die S1-Sicherheitsprüfung freizugeben
+- **DDI-Daten** — Abfrage zu Arzneimittel-Wechselwirkungen ergab `not_found`; erwägen Sie, zusätzliche Quellen abzufragen (z. B. DrugBank-Interactions-Endpunkt, Lexicomp)
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

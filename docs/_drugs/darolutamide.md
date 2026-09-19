@@ -29,72 +29,73 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Darolutamide: From Prostate Cancer to Homozygous Familial Hypercholesterolemia
+# Darolutamid: Von Prostatakarzinom zur homozygoten familiären Hypercholesterinämie
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Darolutamide is a second-generation androgen receptor (AR) antagonist originally used for prostate cancer.
-> The TxGNN model predicts it may be effective for **Homozygous Familial Hypercholesterolemia (HoFH)**,
-> but this direction is currently supported by **0 clinical trials** and **0 publications**, and the evidence pack's own mechanistic analysis finds no known pharmacological basis for this link.
+> Darolutamid ist ein Antagonist des Androgenrezeptors (AR) der zweiten Generation, der ursprünglich gegen Prostatakarzinom entwickelt wurde.
+> Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam bei der **homozygoten familiären Hypercholesterinämie (HoFH)** sein könnte,
+> aber diese Indikation wird derzeit durch **0 klinische Studien** und **0 Publikationen** gestützt, und die mechanistische Analyse des Evidenzpakets selbst findet keine bekannte pharmakologische Grundlage für diese Verbindung.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Element | Inhalt |
 |------|------|
-| Original Indication | Prostate cancer (inferred from AR-antagonist mechanism described in evidence pack; not present as a structured field — see Data Gap DG002) |
-| Predicted New Indication | Homozygous Familial Hypercholesterolemia |
-| TxGNN Prediction Score | 99.11% |
-| Evidence Level | L5 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | Prostatakarzinom (abgeleitet aus dem AR-Antagonisten-Mechanismus, der im Evidenzpaket beschrieben wird; nicht in strukturierter Form vorhanden — siehe Datenlücke DG002) |
+| Vorhergesagte neue Indikation | Homozygote familiäre Hypercholesterinämie |
+| TxGNN-Vorhersage-Punktzahl | 99.11% |
+| Evidenzstufe | L5 |
+| Marktstatus Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Abwarten |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage sinnvoll?
 
-Detailed mechanism-of-action data for darolutamide is flagged as a data gap (DG002) in this evidence pack. Based on the mechanistic rationale text supplied alongside the predictions, darolutamide is described as a second-generation androgen receptor (AR) antagonist that acts on the AR signaling pathway in prostate cancer.
+Detaillierte Daten zum Wirkmechanismus von Darolutamid werden in diesem Evidenzpaket als Datenlücke (DG002) gekennzeichnet. Basierend auf dem mechanistischen Begründungstext, der zusammen mit den Vorhersagen bereitgestellt wird, wird Darolutamid als Antagonist des Androgenrezeptors (AR) der zweiten Generation beschrieben, der auf den AR-Signalweg bei Prostatakarzinom einwirkt.
 
-For the top-ranked prediction, Homozygous Familial Hypercholesterolemia, the core pathology is a defect in the LDL receptor (LDLR) gene causing impaired LDL clearance — a lipid-metabolism pathway with no established mechanistic overlap with AR signaling. The evidence pack itself states that this high TxGNN score likely reflects an indirect or noisy connection in the knowledge graph (e.g., a shared metabolic-enzyme node) rather than a genuine pharmacological rationale.
+Für die am höchsten bewertete Vorhersage, homozygote familiäre Hypercholesterinämie, ist die Kernpathologie ein Defekt im LDLR-Gen, der zu einer gestörten LDL-Clearance führt — ein Lipidstoffwechselweg ohne bekannte mechanistische Überschneidung mit dem AR-Signalweg. Das Evidenzpaket selbst besagt, dass dieser hohe TxGNN-Wert wahrscheinlich eine indirekte oder verrauschte Verbindung im Wissensgraph widerspiegelt (z. B. einen gemeinsamen metabolischen Enzym-Knoten) statt einer echten pharmakologischen Grundlage.
 
-The two lower-ranked candidates show a similar pattern: multiple endocrine neoplasia is driven by MEN1/RET mutations unrelated to AR signaling, and HIV-associated wasting syndrome is more plausibly linked to AR *agonists* (e.g., testosterone, oxandrolone) rather than an AR antagonist like darolutamide, whose pharmacological direction runs counter to the therapeutic need. None of the three predictions currently have a defensible mechanistic basis.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Die beiden niedriger bewerteten Kandidaten zeigen ein ähnliches Muster: Multiple endokrine Neoplasie wird durch MEN1/RET-Mutationen verursacht, die nicht mit dem AR-Signalweg zusammenhängen, und das HIV-assoziierte Wasting-Syndrom ist stärker mit AR-*Agonisten* (z. B. Testosteron, Oxandrolon) verbunden als mit einem AR-Antagonisten wie Darolutamid, dessen pharmakologische Wirkrichtung dem therapeutischen Bedarf entgegenläuft. Keine der drei Vorhersagen hat derzeit eine verteidigbare mechanistische Grundlage.
 
 ---
 
-## Literature Evidence
+## Evidenz aus klinischen Studien
 
-Currently no related literature available.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Note: TFDA/BfArM label warnings and contraindications are flagged as a Blocking data gap — DG001 — meaning this candidate cannot yet advance to a formal S1 safety evaluation.)*
+Derzeit keine registrierten verwandten klinischen Studien.
 
 ---
 
-## Conclusion and Next Steps
+## Evidenz aus der Literatur
 
-**Decision: Hold**
+Derzeit keine verwandte Literatur verfügbar.
 
-**Rationale:**
-All three TxGNN-predicted indications lack a coherent mechanistic rationale, and the top-ranked candidate (HoFH) has zero supporting clinical trials or literature. Combined with a Blocking data gap on TFDA label safety information (DG001), there is currently no basis to advance this candidate past preliminary screening.
+---
 
-**To proceed, the following is needed:**
-- Confirmed darolutamide MOA and DrugBank categorization (resolve DG002)
-- TFDA/BfArM label warnings and contraindications (resolve DG001, required before any S1 safety review)
-- Independent literature or preclinical search specifically for AR-pathway involvement in HoFH, MEN, or HIV-wasting pathophysiology to validate or refute the TxGNN signal
-- If no supporting mechanistic or clinical evidence emerges, treat these predictions as knowledge-graph noise and deprioritize
+## Sicherheitsüberlegungen
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+*(Hinweis: TFDA/BfArM-Etikett-Warnungen und Kontraindikationen sind als blockierende Datenlücke gekennzeichnet — DG001 — was bedeutet, dass dieser Kandidat noch nicht zu einer formalen S1-Sicherheitsbewertung voranschreiten kann.)*
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Abwarten**
+
+**Begründung:**
+Alle drei TxGNN-vorhergesagten Indikationen entbehren einer kohärenten mechanistischen Grundlage, und der am höchsten bewertete Kandidat (HoFH) verfügt über null unterstützende klinische Studien oder Literatur. In Kombination mit einer blockierenden Datenlücke bei den TFDA/BfArM-Etikett-Sicherheitsinformationen (DG001) gibt es derzeit keine Grundlage, diesen Kandidaten über die vorläufige Überprüfung hinaus voranzubringen.
+
+**Um fortfahren zu können, wird Folgendes benötigt:**
+- Bestätigter Wirkmechanismus von Darolutamid und DrugBank-Kategorisierung (Datenlücke DG002 beheben)
+- TFDA/BfArM-Etikett-Warnungen und Kontraindikationen (Datenlücke DG001 beheben, erforderlich vor jeder S1-Sicherheitsbewertung)
+- Unabhängige Literatur- oder Vorklinische Suche speziell nach AR-Weg-Beteiligung bei HoFH, MEN oder HIV-Wasting-Pathophysiologie zur Validierung oder Widerlegung des TxGNN-Signals
+- Falls keine unterstützende mechanistische oder klinische Evidenz auftaucht, behandeln Sie diese Vorhersagen als Wissensgraph-Rauschen und stufen Sie sie in der Priorität herab
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

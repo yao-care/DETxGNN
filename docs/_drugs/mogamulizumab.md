@@ -29,83 +29,84 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **7**
 
 </div>
 
-# Mogamulizumab: From Unspecified Original Indication to Prostatic Urethra Urothelial Carcinoma
+# Mogamulizumab: Von unbekannter ursprünglicher Indikation zu Urothelkarzinom der Prostataurethra
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-The original approved indication for mogamulizumab is not captured in this evidence pack (mogamulizumab is publicly known as an anti-CCR4 monoclonal antibody used in T-cell malignancies, but this is not sourced from the pack itself).
-The TxGNN model's top prediction is **Prostatic Urethra Urothelial Carcinoma**, with a score of **99.44%**,
-but this candidate — and all 6 other predicted indications in this pack — currently has **zero supporting clinical trials and zero published literature**.
+Die ursprüngliche zugelassene Indikation für mogamulizumab ist nicht in diesem Evidenzpaket erfasst (mogamulizumab ist öffentlich bekannt als anti-CCR4-Monoklonalantikörper, der bei T-Zell-Malignitäten verwendet wird, aber dies stammt nicht aus dem Paket selbst).
+Die Top-Vorhersage des TxGNN-Modells ist **Urothelkarzinom der Prostataurethra**, mit einer Punktzahl von **99.44%**,
+aber dieser Kandidat – und alle 6 anderen vorhergesagten Indikationen in diesem Paket – hat derzeit **null unterstützende klinische Studien und null veröffentlichte Literatur**.
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available in evidence pack |
-| Predicted New Indication | Prostatic urethra urothelial carcinoma |
-| TxGNN Prediction Score | 99.44% (rank 6358) |
-| Evidence Level | L5 |
-| Germany Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Im Evidenzpaket nicht verfügbar |
+| Vorhergesagte neue Indikation | Urothelkarzinom der Prostataurethra |
+| TxGNN-Vorhersage-Punktzahl | 99.44% (Rang 6358) |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfehlung zur Entscheidung | Halten |
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage angemessen?
 
-Detailed mechanism-of-action data is not available in the structured MOA field of this pack. However, the rationale text embedded in the prediction itself describes mogamulizumab as an anti-CCR4 monoclonal antibody that depletes CCR4+ T cells — including tumor-infiltrating regulatory T cells (Tregs) — via ADCC (antibody-dependent cellular cytotoxicity).
+Detaillierte Wirkmechanismus-Daten sind im strukturierten MOA-Feld dieses Pakets nicht verfügbar. Der in der Vorhersage selbst eingebettete Begründungstext beschreibt mogamulizumab jedoch als einen anti-CCR4-Monoklonalantikörper, der CCR4+-T-Zellen – einschließlich tumorinfiltrierende regulatorischer T-Zellen (Tregs) – durch ADCC (antikörperabhängige zelluläre Zytotoxizität) depletiert.
 
-All seven predicted indications share a common speculative thread: tumors with CCR4+ Treg infiltration or T-cell–mediated immune evasion could theoretically benefit from Treg depletion, restoring anti-tumor immunity. This applies most plausibly to the four urothelial/renal-pelvis carcinoma variants (ranks 1–4) and to HHV-8-related tumors (rank 5), where immune dysregulation is a recognized feature of the tumor microenvironment. It applies much more weakly to ectomesenchymoma (rank 6) and malignant cutaneous granular cell tumor (rank 7), which have no known association with the CCR4 pathway.
+Alle sieben vorhergesagten Indikationen teilen einen gemeinsamen spekulativen Faden: Tumoren mit CCR4+-Treg-Infiltration oder T-Zell-vermittelter Immunevasion könnten theoretisch von der Treg-Depletion profitieren, wodurch die Antitumor-Immunität wiederhergestellt wird. Dies trifft am meisten auf die vier Varianten von Urothelkarzinom/Nierenbecken zu (Ränge 1–4) und HHV-8-assoziierte Tumoren (Rang 5), bei denen Immundysregulation ein anerkanntes Merkmal der Tumor-Mikroumgebung ist. Dies trifft viel weniger auf Ektomesenchymom (Rang 6) und malignes kutanes Granularzelltumor (Rang 7) zu, die keine bekannte Assoziation mit dem CCR4-Signalweg aufweisen.
 
-It is important to note that although all seven scores exceed 99%, their model ranks (6358–8822) place them in the mid-to-lower range of TxGNN's overall prediction pool rather than among top-tier candidates. Absent any clinical trial or literature corroboration, these should be treated as computational hypotheses only.
+Es ist wichtig zu beachten, dass die Modellränge (6358–8822) diese sieben Kandidaten im mittleren bis unteren Bereich des gesamten TxGNN-Vorhersage-Pools platzieren, nicht unter den Top-Kandidaten. Ohne klinische Studien- oder Literaturbestätigung sollten diese als rein computergestützte Hypothesen behandelt werden.
 
-## Clinical Trial Evidence
+## Klinische Studienevidenz
 
-Currently no related clinical trials registered.
+Derzeit keine verwandten klinischen Studien registriert.
 
-## Literature Evidence
+## Literaturevidenz
 
-Currently no related literature available.
+Derzeit keine verwandte Literatur verfügbar.
 
-## Other TxGNN-Predicted Indications (Ranks 2–7)
+## Weitere TxGNN-vorhergesagte Indikationen (Ränge 2–7)
 
-| Rank | Disease | Score | Model Rank | Mechanistic Basis |
-|------|---------|-------|-----------|-------------------|
-| 2 | Kidney pelvis sarcomatoid transitional cell carcinoma | 99.42% | 6569 | CCR4+ Treg depletion hypothesis (speculative) |
-| 3 | Infiltrating bladder urothelial carcinoma, sarcomatoid variant | 99.40% | 6724 | CCR4+ Treg depletion hypothesis (speculative) |
-| 4 | Renal pelvis papillary urothelial carcinoma | 99.37% | 6945 | CCR4+ Treg depletion hypothesis (speculative) |
-| 5 | Human herpesvirus 8-related tumor | 99.24% | 8121 | Treg-mediated immune restoration (speculative) |
-| 6 | Ectomesenchymoma | 99.15% | 8822 | No known CCR4 pathway link |
-| 7 | Malignant cutaneous granular cell skin tumor | 99.15% | 8825 | No known CCR4 expression evidence |
+| Rang | Erkrankung | Punktzahl | Modellrang | Mechanistische Grundlage |
+|------|-----------|-----------|-----------|------------------------|
+| 2 | Sarkomatoides Übergangszellkarzinom des Nierenbeckens | 99.42% | 6569 | CCR4+-Treg-Depletion-Hypothese (spekulativ) |
+| 3 | Infiltrierendes Urothelkarzinom der Blase, sarkomatoide Variante | 99.40% | 6724 | CCR4+-Treg-Depletion-Hypothese (spekulativ) |
+| 4 | Papilläres Übergangszellkarzinom des Nierenbeckens | 99.37% | 6945 | CCR4+-Treg-Depletion-Hypothese (spekulativ) |
+| 5 | Mit Humanes Herpesvirus 8 assoziierter Tumor | 99.24% | 8121 | Treg-vermittelte Immunwiederherstellung (spekulativ) |
+| 6 | Ektomesenchymom | 99.15% | 8822 | Keine bekannte CCR4-Signalweg-Assoziation |
+| 7 | Malignes kutanes Granularzelltumor | 99.15% | 8825 | Keine bekannten CCR4-Expressionsnachweise |
 
-## Germany Market Information
+## Marktinformationen für Deutschland
 
-Mogamulizumab is not currently marketed in Germany, and no authorization records are on file (0 authorizations).
+Mogamulizumab ist derzeit in Deutschland nicht vermarktet, und es gibt keine Zulassungsunterlagen (0 Zulassungen).
 
-## Cytotoxicity
+## Zytotoxizität
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Immunotherapy (anti-CCR4 monoclonal antibody, ADCC-mediated), not conventional cytotoxic chemotherapy |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| Element | Inhalt |
+|---------|--------|
+| Zytotoxizitäts-Klassifizierung | Immuntherapie (anti-CCR4-Monoklonalantikörper, ADCC-vermittelt), keine konventionelle zytotoxische Chemotherapie |
+| Knochenmarksuppression-Risiko | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Packungsbeilage |
+| Emetogenitäts-Klassifizierung | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Packungsbeilage |
+| Überwachungspunkte | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Packungsbeilage |
+| Handhabungsschutz | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Packungsbeilage |
 
-## Safety Considerations
+## Sicherheitsaspekte
 
-Please refer to the package insert for safety information.
+Bitte beachten Sie die Sicherheitsinformationen in der Packungsbeilage.
 
-## Conclusion and Next Steps
+## Fazit und nächste Schritte
 
-**Decision: Hold**
+**Entscheidung: Halten**
 
-**Rationale:**
-All seven predicted indications are Evidence Level L5 (model prediction only), with no supporting clinical trials or literature identified for any candidate. Critical inputs needed for even a preliminary safety assessment — TFDA warnings/contraindications (Blocking) and confirmed MOA (High severity) — are marked as data gaps in the pack itself.
+**Begründung:**
+Alle sieben vorhergesagten Indikationen sind Evidenzstufe L5 (nur Modellvorhersage), ohne unterstützende klinische Studien oder Literatur für irgendeinen Kandidaten identifiziert. Kritische Eingaben, die für eine vorläufige Sicherheitsbewertung erforderlich sind – TFDA-Warnhinweise/Kontraindikationen (blockierend) und bestätigter Wirkmechanismus (hoher Schweregrad) – sind als Datenlücken im Paket selbst gekennzeichnet.
 
-**To proceed, the following is needed:**
-- TFDA/package insert warnings and contraindications (currently blocking safety evaluation)
-- Confirmed mechanism of action from DrugBank
-- Confirmed original approved indication(s) for mogamulizumab (currently not captured in this pack)
-- Targeted literature and clinical trial search for CCR4/Treg biology in urothelial carcinoma and HHV-8-related tumors, since none were found via automated evidence collection
+**Um fortfahren zu können, ist Folgendes erforderlich:**
+- TFDA/Packungsbeilage-Warnhinweise und Kontraindikationen (blockieren derzeit die Sicherheitsbewertung)
+- Bestätigter Wirkmechanismus von DrugBank
+- Bestätigte ursprüngliche zugelassene Indikation(en) für mogamulizumab (derzeit nicht in diesem Paket erfasst)
+- Gezielte Literatur- und klinische Studiensuche für CCR4/Treg-Biologie bei Urothelkarzinom und HHV-8-assoziierten Tumoren, da durch automatisierte Evidenzerfassung keine gefunden wurden
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

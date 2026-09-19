@@ -29,87 +29,94 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-The txgnn-pipeline skill covers pipeline management and doesn't alter the report-writing task. Proceeding with the evaluation report.
+# Regadenoson: Pharmakologisches Stressmittel — Repurposing-Bewertung unvollständig
+
+Der Skill „txgnn-pipeline" deckt die Pipeline-Verwaltung ab und ändert nichts an der Aufgabe der Berichterstellung. Es wird mit dem Bewertungsbericht fortgefahren.
 
 ---
 
-**Evidence Pack Analysis:**
+**Analyse des Evidence Packs:**
 
-| Field | Value |
+| Feld | Wert |
 |---|---|
-| `predicted_indications` | **Empty** — no TxGNN output |
-| `original_indications` | Empty |
-| `original_moa` | [Data Gap] |
-| `taiwan_regulatory.market_status` | Not marketed (0 licenses) |
-| `safety` | All [Data Gap] |
+| `predicted_indications` | **Leer** — keine TxGNN-Ausgabe |
+| `original_indications` | Leer |
+| `original_moa` | [Datenlücke] |
+| `taiwan_regulatory.market_status` | Nicht im Handel (0 Zulassungen) |
+| `safety` | Alle [Datenlücke] |
 
-Since `predicted_indications` is empty, the standard "From X → Y" report cannot be completed. The report below reflects the actual state of the pack with a **Hold** decision.
+---
+
+Da `predicted_indications` leer ist, kann der Standardbericht im Format „From X → Y" nicht erstellt werden. Der nachstehende Bericht spiegelt den tatsächlichen Zustand des Packs mit einer **Zurückstellen**-Entscheidung wider.
 
 ---
 
 ```markdown
-# Regadenoson: Pharmacological Stress Agent — Repurposing Evaluation Incomplete
+# Regadenoson: Pharmakologisches Stressmittel — Repurposing-Bewertung unvollständig
 
-## One-Sentence Summary
+## Ein-Satz-Zusammenfassung
 
-Regadenoson (Lexiscan®) is a selective adenosine A2A receptor agonist approved in the
-United States as a pharmacological stress agent for radionuclide myocardial perfusion
-imaging (MPI).
-This Evidence Pack **contains no TxGNN repurposing predictions** for Regadenoson, and
-the drug is **not currently marketed in Taiwan**.
-Evaluation cannot proceed to full repurposing analysis until the critical data gaps
-documented below are resolved.
+Regadenoson (Lexiscan®) ist ein selektiver Adenosin-A2A-Rezeptor-Agonist, der in den
+Vereinigten Staaten als pharmakologisches Stressmittel für die Myokardperfusionsszintigraphie
+(MPI) mittels Radionuklid zugelassen ist.
+Dieses Evidence Pack **enthält keine TxGNN-Repurposing-Vorhersagen** für Regadenoson, und
+das Arzneimittel ist **derzeit nicht in Taiwan im Handel**.
+Die Bewertung kann erst zu einer vollständigen Repurposing-Analyse fortschreiten, wenn die
+unten dokumentierten kritischen Datenlücken geschlossen sind.
 
-## Quick Overview
+## Kurzübersicht
 
-| Item | Content |
+| Punkt | Inhalt |
 |------|---------|
-| Original Indication | Pharmacological stress agent for myocardial perfusion imaging (US; not approved in Taiwan) |
-| Predicted New Indication | No prediction available |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | L5 — model prediction absent; no supporting studies in pack |
-| Taiwan Market Status | ✗ Not marketed (0 authorizations) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+| Ursprüngliche Indikation | Pharmakologisches Stressmittel für die Myokardperfusionsszintigraphie (USA; in Taiwan nicht zugelassen) |
+| Vorhergesagte neue Indikation | Keine Vorhersage verfügbar |
+| TxGNN-Vorhersage-Score | N/A |
+| Evidenzgrad | L5 — Modellvorhersage fehlt; keine unterstützenden Studien im Pack |
+| Marktstatus Taiwan | ✗ Nicht im Handel (0 Zulassungen) |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | **Zurückstellen** |
 
-## Safety Considerations
+## Sicherheitshinweise
 
-Please refer to the package insert for safety information.
+Bitte entnehmen Sie die Sicherheitsinformationen der Packungsbeilage.
 
-## Conclusion and Next Steps
+## Fazit und nächste Schritte
 
-**Decision: Hold**
+**Entscheidung: Zurückstellen**
 
-**Rationale:**
-This Evidence Pack contains no TxGNN repurposing predictions for Regadenoson, and all
-drug-level safety data (warnings, contraindications, drug interactions) are absent,
-making a repurposing evaluation impossible at this stage.
+**Begründung:**
+Dieses Evidence Pack enthält keine TxGNN-Repurposing-Vorhersagen für Regadenoson, und
+sämtliche arzneimittelbezogenen Sicherheitsdaten (Warnhinweise, Kontraindikationen,
+Arzneimittelinteraktionen) fehlen, wodurch eine Repurposing-Bewertung in diesem Stadium
+nicht möglich ist.
 
-**To proceed, the following is needed:**
+**Für die Weiterbearbeitung wird Folgendes benötigt:**
 
-- **TxGNN prediction output** — rerun the TxGNN pipeline with Regadenoson as input to
-  obtain candidate repurposing indications and confidence scores
-- **Mechanism of action (MOA)** — retrieve from DrugBank API (DB06213); severity
-  flagged as High in this pack
-- **Taiwan package insert safety data** — download and parse the TFDA package insert
-  PDF to extract warnings and contraindications (flagged as Blocking)
-- **Drug–drug interaction profile** — DDI query returned `not_found`; a targeted
-  literature search or DrugBank DDI lookup is recommended
-- **Original indication confirmation** — `original_indications` field is empty;
-  confirm approved indication(s) from the authoritative label (FDA: MPI stress testing)
-  and populate the Evidence Pack before resubmission
+- **TxGNN-Vorhersageergebnis** — die TxGNN-Pipeline mit Regadenoson als Eingabe erneut
+  ausführen, um mögliche Repurposing-Indikationen und Konfidenzwerte zu erhalten
+- **Wirkmechanismus (MOA)** — über die DrugBank-API (DB06213) abrufen; im Pack als
+  Schweregrad Hoch gekennzeichnet
+- **Sicherheitsdaten aus der taiwanesischen Packungsbeilage** — die TFDA-Packungsbeilage
+  (PDF) herunterladen und auswerten, um Warnhinweise und Kontraindikationen zu extrahieren
+  (als Blockierend gekennzeichnet)
+- **Arzneimittel-Interaktionsprofil** — die DDI-Abfrage ergab `not_found`; eine gezielte
+  Literaturrecherche oder eine DrugBank-DDI-Abfrage wird empfohlen
+- **Bestätigung der ursprünglichen Indikation** — das Feld `original_indications` ist leer;
+  die zugelassene(n) Indikation(en) anhand der maßgeblichen Fachinformation (FDA:
+  MPI-Stresstest) bestätigen und das Evidence Pack vor erneuter Einreichung vervollständigen
 ```
 
 ---
 
-**報告說明：**
+**Anmerkung zum Bericht:**
 
-此 Evidence Pack（`TW-DB06213-multi v4`）存在兩個關鍵缺口：
+Dieses Evidence Pack (`TW-DB06213-multi v4`) weist zwei zentrale Lücken auf:
 
-1. **`predicted_indications` 為空陣列** — TxGNN 尚未對 Regadenoson 產生預測，標準「From X to Y」格式無法套用。
-2. **所有安全性欄位均為 [Data Gap]** — TFDA 警語/禁忌（DG001，Blocking）尚未填入。
+1. **`predicted_indications` ist ein leeres Array** — TxGNN hat noch keine Vorhersage für Regadenoson erzeugt, sodass das Standardformat „From X to Y" nicht angewendet werden kann.
+2. **Alle Sicherheitsfelder sind als [Datenlücke] markiert** — TFDA-Warnhinweise/Kontraindikationen (DG001, Blockierend) wurden noch nicht eingetragen.
 
-依照報告規則「有資料才列章節」，已省略：臨床試驗證據、文獻證據、台灣市場資訊（0 張許可證）、細胞毒性（非抗腫瘤藥物）等章節。建議補齊上述缺口後重新提交 Evidence Pack，再執行正式評估。
+Gemäß der Berichtsregel „Abschnitte nur bei vorhandenen Daten aufführen" wurden folgende Abschnitte weggelassen: klinische Studienevidenz, Literaturevidenz, Marktinformationen Taiwan (0 Zulassungen), Zytotoxizität (kein Onkologikum). Es wird empfohlen, die oben genannten Lücken zu schließen und das Evidence Pack erneut einzureichen, bevor die formale Bewertung durchgeführt wird.
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

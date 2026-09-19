@@ -29,123 +29,122 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-Using the evidence pack as given, I'll now write the evaluation report. Note upfront: this is a "multi-indication" evidence pack (10 TxGNN-predicted indications for emicizumab), and the pack's own expert rationale flags the *highest-scoring* prediction (pseudo-von Willebrand disease) as a likely model misjudgment, while the *strongest actual evidence* sits with a lower-ranked candidate (acquired coagulation factor deficiency / acquired hemophilia A, L1, "Proceed with Guardrails"). Following the template literally on `predicted_indications[0]` would present a mechanistically implausible, zero-evidence candidate as the headline — so I built the report around the evidence-supported candidate and added a full ranking table for transparency, consistent with the "drug repurposing expert" role.
+# Emicizumab: Von Hämophilie A zu erworbenen Gerinnungsfaktormangel (Erworbene Hämophilie A)
 
-# Emicizumab: From Hemophilia A to Acquired Coagulation Factor Deficiency (Acquired Hemophilia A)
+## Einsatz-Zusammenfassung
 
-## One-Sentence Summary
-
-Emicizumab is a bispecific antibody that mimics the cofactor function of activated Factor VIII (FVIIIa), originally developed for bleeding prophylaxis in congenital hemophilia A. Among 10 TxGNN-predicted indications reviewed for this drug, **acquired coagulation factor deficiency (functionally, acquired hemophilia A caused by anti-FVIII autoantibodies)** is the only candidate with substantive supporting evidence — **1 registry-type clinical trial** and **20 publications**, including 3 tier-1 prospective/RCT studies. Note: TxGNN's single *highest-scoring* prediction (pseudo-von Willebrand disease, 99.99%) is separately assessed in this pack as a likely model artifact with no mechanistic or clinical support — see "Other Predicted Indications" below.
+Emicizumab ist ein bispezifischer Antikörper, der die Kofaktorfunktion des aktivierten Faktors VIII (FVIIIa) nachahmt und ursprünglich zur Blutungsprophylaxe bei kongenitaler Hämophilie A entwickelt wurde. Von 10 von TxGNN vorhergesagten Indikationen, die für dieses Arzneimittel bewertet werden, ist **erworbener Gerinnungsfaktordefekt (funktionell erworbene Hämophilie A verursacht durch Anti-FVIII-Autoantikörper)** der einzige Kandidat mit substanzieller unterstützender Evidenz — **1 Register-ähnliche klinische Studie** und **20 Publikationen**, einschließlich 3 Tier-1-Prospektivstudien/RCTs. Hinweis: TxGNNs einzelne *höchstbewertete* Vorhersage (pseudo-von-Willebrand-Krankheit, 99,99%) wird in diesem Pack separat als wahrscheinliches Modellartefakt ohne mechanistische oder klinische Unterstützung bewertet — siehe „Weitere vorhergesagte Indikationen" unten.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
-|------|------|
-| Original Indication | Congenital Hemophilia A (referenced contextually in the literature evidence within this pack; no TFDA license record is on file to confirm the Taiwan-approved label) |
-| Predicted New Indication (highest-evidence candidate) | Acquired Coagulation Factor Deficiency (Acquired Hemophilia A) |
-| TxGNN Prediction Score | 99.90% (rank 1651) |
-| Evidence Level | L1 |
-| Taiwan Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Element | Inhalt |
+|---|---|
+| Ursprüngliche Indikation | Kongenitale Hämophilie A (im Kontext der Literaturevidenz dieses Packs referenziert; kein TFDA-Lizenznachweis liegt zur Bestätigung des Taiwan-genehmigten Labels vor) |
+| Vorhergesagte neue Indikation (höchstbewerteter Kandidat) | Erworbener Gerinnungsfaktordefekt (Erworbene Hämophilie A) |
+| TxGNN-Vorhersage-Score | 99,90% (Rang 1651) |
+| Evidenzebene | L1 |
+| Marktstatus Taiwan | Nicht im Handel (Nicht im Handel) |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Weitermachen mit Einschränkungen |
 
-> **Caveat on ranking:** TxGNN's top raw-score prediction across all 10 candidates was pseudo-von Willebrand disease (99.99%, rank 286), but the accompanying mechanistic rationale in this evidence pack judges that association a likely false positive (see below). Evidence level and clinical recommendation, not raw score, were used to select the headline candidate for this report.
+> **Vorbehalt zur Rangliste:** TxGNNs höchste Rohwert-Vorhersage über alle 10 Kandidaten war pseudo-von-Willebrand-Krankheit (99,99%, Rang 286), aber die begleitende mechanistische Begründung in diesem Evidence Pack beurteilt diese Assoziation als wahrscheinlichen falschen Positiven (siehe unten). Evidenzebene und klinische Empfehlung, nicht Rohwert, wurden verwendet, um den Hauptkandidaten für diesen Bericht auszuwählen.
 
 ---
 
-## All Predicted Indications — Full Ranking (for transparency)
+## Alle vorhergesagten Indikationen — Vollständige Rangliste (zur Transparenz)
 
-| Rank | Disease | TxGNN Score | Evidence Level | Recommendation | Note |
+| Rang | Erkrankung | TxGNN-Score | Evidenzebene | Empfehlung | Hinweis |
 |---|---|---|---|---|---|
-| 1 | Pseudo-von Willebrand disease | 99.99% | L5 | Hold | Likely TxGNN misjudgment — pathology is receptor-level (GPIbα), not factor deficiency |
-| 2 | Primary release disorder of platelets | 99.99% | L5 | Hold | No mechanistic overlap with FVIII/FIX/FX pathway |
-| 3 | Glanzmann thrombasthenia | 99.98% | L4 | Research Question | Indirect analogy to rFVIIa bypassing-agent use; no direct emicizumab evidence |
-| 4 | Scott syndrome | 99.92% | L5 | Hold | Membrane phospholipid defect; mechanistic compensation unproven |
-| **5** | **Acquired coagulation factor deficiency (≈ Acquired Hemophilia A)** | **99.90%** | **L1** | **Proceed with Guardrails** | **Strongest evidence — see below** |
-| 6 | Bleeding diathesis due to a collagen receptor defect | 99.86% | L5 | Hold | Platelet-adhesion receptor defect, no relevance |
-| 7 | Hemorrhagic disorder due to constitutional thrombocytopenia | 99.85% | L5 | Hold | Platelet-count disorder; emicizumab does not affect platelet production |
-| 8 | Thrombotic thrombocytopenic purpura | 99.61% | L5 | Hold | **Safety red flag** — TTP requires antithrombotic management; emicizumab is pro-coagulant and may theoretically worsen microvascular thrombosis. Do not pursue. |
-| 9 | Fetal and neonatal alloimmune thrombocytopenia | 99.52% | L5 | Hold | Immune-mediated platelet destruction, unrelated pathway; no pregnancy/fetal safety data |
-| 10 | "Flood factor deficiency" | 99.40% | L5 | Hold | Non-standard term, likely data-extraction/OCR error; verify source before evaluating |
+| 1 | Pseudo-von-Willebrand-Krankheit | 99,99% | L5 | Halten | Wahrscheinliche TxGNN-Fehleinschätzung — Pathologie liegt auf Rezeptor-Ebene (GPIbα), nicht Faktordefekt |
+| 2 | Primäre Ausschüttungsstörung von Thrombozyten | 99,99% | L5 | Halten | Keine mechanistische Überlappung mit FVIII/FIX/FX-Signalweg |
+| 3 | Thrombasthenie nach Glanzmann | 99,98% | L4 | Forschungsfrage | Indirekte Analogie zur Verwendung von rFVIIa-Bypass-Mitteln; keine direkte Emicizumab-Evidenz |
+| 4 | Scott-Syndrom | 99,92% | L5 | Halten | Membranphospholipid-Defekt; mechanistische Kompensation ungeklärt |
+| **5** | **Erworbener Gerinnungsfaktordefekt (≈ Erworbene Hämophilie A)** | **99,90%** | **L1** | **Weitermachen mit Einschränkungen** | **Stärkste Evidenz — siehe unten** |
+| 6 | Blutungsdiathese durch Kollagen-Rezeptor-Defekt | 99,86% | L5 | Halten | Thrombozytärer Adhäsions-Rezeptor-Defekt, keine Relevanz |
+| 7 | Blutungsstörung durch konstitutionelle Thrombozytopenie | 99,85% | L5 | Halten | Thrombozytäre Mangel-Störung; Emicizumab beeinflusst die Thrombozytenerzeugung nicht |
+| 8 | Thrombotische thrombozytopenische Purpura | 99,61% | L5 | Halten | **Sicherheits-Warnsignal** — TTP erfordert antithrombotisches Management; Emicizumab ist prokoagulant und könnte theoretisch Mikrovaskuläre Thrombose verschlimmern. Nicht weiterverfolgen. |
+| 9 | Fetale und neonatale alloimmune Thrombozytopenie | 99,52% | L5 | Halten | Immun-vermittelte Thrombozytenzerstörung, unabhängiger Signalweg; keine Schwangerschafts-/Fetaltoxi zitätsdaten |
+| 10 | „Flood-Faktor-Mangel" | 99,40% | L5 | Halten | Nicht-Standard-Begriff, wahrscheinlich Datenextraktions-/OCR-Fehler; Quelle vor Bewertung prüfen |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage sinnvoll?
 
-Detailed DrugBank mechanism-of-action data was not retrievable for this pack (data gap DG002). However, the literature evidence collected under the "acquired coagulation factor deficiency" candidate directly describes emicizumab's mechanism: it is a humanized bispecific monoclonal antibody that binds Factor IXa and Factor X simultaneously, reconstituting the tenase-complex function normally performed by activated Factor VIII (FVIIIa). This bridging activity is structurally and antigenically unrelated to native FVIII.
+Detaillierte Daten zum Wirkmechanismus aus der DrugBank konnten für dieses Pack nicht abgerufen werden (Datenlücke DG002). Die unter dem Kandidaten „erworbener Gerinnungsfaktordefekt" gesammelte Literaturevidenz beschreibt jedoch direkt den Wirkmechanismus von Emicizumab: Es ist ein humanisierter bispezifischer monoklonaler Antikörper, der Faktor IXa und Faktor X simultan bindet und die Tenase-Komplexfunktion rekonstituiert, die normalerweise von aktiviertem Faktor VIII (FVIIIa) ausgeführt wird. Diese Brückenfunktion ist strukturell und antigenisch unabhängig von nativem FVIII.
 
-Emicizumab's original indication, congenital hemophilia A, and this predicted indication are pathophysiologically adjacent: both are FVIII-activity deficiencies. Congenital hemophilia A results from genetic FVIII deficiency, whereas acquired hemophilia A results from neutralizing autoantibodies against endogenous FVIII. Because emicizumab does not share FVIII's antigenic epitopes, circulating anti-FVIII autoantibodies do not neutralize it — this is precisely why it functions in autoantibody-mediated disease and is the mechanistic basis repeatedly cited across the literature evidence (e.g., PMID 38049124, 37858328, 36696195).
+Die ursprüngliche Indikation von Emicizumab, kongenitale Hämophilie A, und diese vorhergesagte Indikation sind pathophysiologisch benachbart: Beide sind FVIII-Aktivitätsmängel. Kongenitale Hämophilie A resultiert aus genetischem FVIII-Mangel, während erworbene Hämophilie A aus neutralisierenden Autoantikörpern gegen endogenes FVIII resultiert. Da Emicizumab nicht FVIII-Epitope teilt, neutralisieren zirkulierende Anti-FVIII-Autoantikörper es nicht — dies ist genau der Grund, warum es in autoantikörper-vermittelter Erkrankung funktioniert und die mechanistische Grundlage ist, die in der gesamten Literaturevidenz wiederholt zitiert wird (z. B. PMID 38049124, 37858328, 36696195).
 
-This mechanistic logic does **not** extend to the other 9 candidates in this pack: those conditions involve platelet receptor defects, platelet granule/release defects, platelet count disorders, or (in the case of TTP) a pathology requiring the opposite therapeutic direction. The internal rationale fields already flag these as weak or contraindicated associations, which this report treats as authoritative absent further data.
+Diese mechanistische Logik erstreckt sich **nicht** auf die anderen 9 Kandidaten in diesem Pack: Diese Zustände beinhalten Thrombozytäre-Rezeptor-Defekte, Thrombozytäre Granula-/Ausschüttungsdefekte, Thrombozytäre Mangel-Störungen oder (im Falle von TTP) eine Pathologie, die die entgegengesetzte therapeutische Richtung erfordert. Die internen Rationale-Felder kennzeichnen diese bereits als schwache oder kontraindizierte Assoziationen, die dieser Bericht mangels weiterer Daten als maßgeblich behandelt.
 
 ---
 
-## Clinical Trial Evidence
+## Evidenz aus klinischen Studien
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Studienn ummer | Phase | Status | Einschluss | Wichtigste Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT04398628](https://clinicaltrials.gov/study/NCT04398628) | N/A | Recruiting | 3000 | ATHN Transcends — large multicenter natural-history registry covering non-neoplastic hematologic disorders, including bleeding disorders. Not an emicizumab-specific interventional trial; provides real-world background data only (relevance grade C). |
+| [NCT04398628](https://clinicaltrials.gov/study/NCT04398628) | K.A. | Rekrutierung | 3000 | ATHN Transcends — großes multizentrische Naturgeschichte-Register, das nicht-neoplastische hämatologische Störungen einschließlich Blutungsstörungen abdeckt. Keine Emicizumab-spezifische interventionelle Studie; bietet nur Hintergrunddaten aus der Realwelt (Relevanzgrad C). |
 
-**No dedicated emicizumab interventional trial for this indication is registered in the evidence pack.** The strongest trial-level evidence for acquired hemophilia A comes from the literature (see below), including a completed prospective open-label Phase 2 study (GTH-AHA-EMI) and a Phase 3 prospective multicenter study, neither of which surfaced in the clinicaltrials.gov query for this specific disease term.
+**Keine dedizierte Emicizumab-interventionelle Studie für diese Indikation ist im Evidence Pack registriert.** Die stärkste Studienniveau-Evidenz für erworbene Hämophilie A stammt aus der Literatur (siehe unten), einschließlich einer abgeschlossenen prospektiven offenen Phase-2-Studie (GTH-AHA-EMI) und einer Phase-3-Multizenterstudie, von denen keine in der clinicaltrials.gov-Abfrage für diesen spezifischen Krankheitsbegriff auftauchte.
 
 ---
 
-## Literature Evidence
+## Literaturevidenz
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Journal | Wichtigste Ergebnisse |
 |------|-----|------|------|---------|
-| [36696195](https://pubmed.ncbi.nlm.nih.gov/36696195/) | 2023 | RCT (Phase 3) | J Thromb Haemost | Prospective, multicenter, open-label Phase 3 study of emicizumab prophylaxis in acquired hemophilia A — first prospective trial of emicizumab specifically in this population. |
-| [37858328](https://pubmed.ncbi.nlm.nih.gov/37858328/) | 2023 | Open-label single-arm Phase 2 (GTH-AHA-EMI) | Lancet Haematol | Emicizumab prophylaxis protects against bleeding and allows deferral of immunosuppressive therapy during the first 12 weeks of acquired hemophilia A management. |
-| [39134043](https://pubmed.ncbi.nlm.nih.gov/39134043/) | 2025 | Prospective cohort (AGEHA final analysis) | Thromb Haemost | Final analysis confirms favorable benefit-risk profile of emicizumab prophylaxis, including in immunosuppression-ineligible patients and long-term use. |
-| [38049124](https://pubmed.ncbi.nlm.nih.gov/38049124/) | 2024 | Consensus/Guideline (GTH-AHA Working Group) | Hamostaseologie | Consensus recommendations on emicizumab use in acquired hemophilia A; GTH-AHA-EMI study demonstrates bleed prevention and postponement of immunosuppression. |
-| [39361769](https://pubmed.ncbi.nlm.nih.gov/39361769/) | 2024 | Real-world multicenter cohort | Blood Adv | Retrospective analysis of 62 patients treated off-label with emicizumab across 12 US hemophilia treatment centers; supports real-world effectiveness. |
-| [40795229](https://pubmed.ncbi.nlm.nih.gov/40795229/) | 2025 | Cohort (2-year follow-up) | Blood Adv | 2-year follow-up of GTH-AHA-EMI cohort shows sustained survival benefit with emicizumab and postponed immunosuppression. |
-| [38936699](https://pubmed.ncbi.nlm.nih.gov/38936699/) | 2024 | Comparative study | J Thromb Haemost | Compares emicizumab versus immunosuppressive therapy strategies for acquired hemophilia A management. |
-| [39536818](https://pubmed.ncbi.nlm.nih.gov/39536818/) | 2025 | Narrative review | J Thromb Haemost | Overview of acquired hemophilia A management approach in the "emicizumab era." |
-| [36795341](https://pubmed.ncbi.nlm.nih.gov/36795341/) | 2023 | Review | Blood Transfus | Discusses pros and cons of emicizumab as a new approach to prevention/treatment of bleeding in acquired hemophilia A. |
-| [38066859](https://pubmed.ncbi.nlm.nih.gov/38066859/) | 2023 | Review | Hematology Am Soc Hematol Educ Program | Reviews immunotherapy landscape for acquired hemophilia A, including emicizumab's role alongside standard immunosuppression. |
+| [36696195](https://pubmed.ncbi.nlm.nih.gov/36696195/) | 2023 | RCT (Phase 3) | J Thromb Haemost | Prospektive, multizentrische, offene Phase-3-Studie zur Emicizumab-Prophylaxe bei erworbener Hämophilie A — erste prospektive Studie von Emicizumab spezifisch in dieser Population. |
+| [37858328](https://pubmed.ncbi.nlm.nih.gov/37858328/) | 2023 | Open-label single-arm Phase 2 (GTH-AHA-EMI) | Lancet Haematol | Emicizumab-Prophylaxe schützt vor Blutungen und ermöglicht den Aufschub von Immunsuppressivtherapie während der ersten 12 Wochen des Managements erworbener Hämophilie A. |
+| [39134043](https://pubmed.ncbi.nlm.nih.gov/39134043/) | 2025 | Prospektive Kohortenstudie (AGEHA-Endanalyse) | Thromb Haemost | Endanalyse bestätigt günstiges Nutzen-Risiko-Profil der Emicizumab-Prophylaxe, einschließlich bei immunsuppressionsunfähigen Patienten und Langzeitanwendung. |
+| [38049124](https://pubmed.ncbi.nlm.nih.gov/38049124/) | 2024 | Konsens/Leitlinie (GTH-AHA Working Group) | Hamostaseologie | Konsensempfehlungen zur Verwendung von Emicizumab bei erworbener Hämophilie A; GTH-AHA-EMI-Studie zeigt Blutungsvorbeugung und Aufschub der Immunsuppression. |
+| [39361769](https://pubmed.ncbi.nlm.nih.gov/39361769/) | 2024 | Multicenter-Kohortenstudie aus der Realwelt | Blood Adv | Retrospektive Analyse von 62 Patienten, die außerhalb der Zulassung mit Emicizumab in 12 US-Hämophilie-Behandlungszentren behandelt wurden; unterstützt die Wirksamkeit in der Realwelt. |
+| [40795229](https://pubmed.ncbi.nlm.nih.gov/40795229/) | 2025 | Kohortenstudie (2-Jahres-Nachverfolgung) | Blood Adv | 2-Jahres-Nachverfolgung der GTH-AHA-EMI-Kohorte zeigt anhaltenden Überlebensvorteil mit Emicizumab und aufgeschobener Immunsuppression. |
+| [38936699](https://pubmed.ncbi.nlm.nih.gov/38936699/) | 2024 | Vergleichende Studie | J Thromb Haemost | Vergleicht Emicizumab versus Immunsuppressivtherapie-Strategien für das Management erworbener Hämophilie A. |
+| [39536818](https://pubmed.ncbi.nlm.nih.gov/39536818/) | 2025 | Narrative Übersichtsarbeit | J Thromb Haemost | Übersicht über den Management-Ansatz erworbener Hämophilie A im „Emicizumab-Zeitalter". |
+| [36795341](https://pubmed.ncbi.nlm.nih.gov/36795341/) | 2023 | Übersichtsarbeit | Blood Transfus | Diskutiert Vor- und Nachteile von Emicizumab als neuer Ansatz zur Prävention/Behandlung von Blutungen bei erworbener Hämophilie A. |
+| [38066859](https://pubmed.ncbi.nlm.nih.gov/38066859/) | 2023 | Übersichtsarbeit | Hematology Am Soc Hematol Educ Program | Überprüft die Immuntherapie-Landschaft für erworbene Hämophilie A, einschließlich der Rolle von Emicizumab neben Standardimmun suppression. |
 
-*10 additional lower-priority publications (reviews and case-level reports) exist in the pack but are omitted here per the 10-item display limit; all support the same general direction of evidence.*
-
----
-
-## Taiwan Market Information
-
-No TFDA license records are on file for emicizumab in this evidence pack — market status is **Not marketed (not marketed)**, with 0 registered authorizations. No dosage form, product name, or approved-indication text is available.
+*10 weitere Publikationen mit niedrigerer Priorität (Übersichtsarbeiten und Fallberichte) existieren im Pack, werden hier aber pro 10-Item-Anzeige-Limit ausgelassen; alle unterstützen die gleiche allgemeine Richtung der Evidenz.*
 
 ---
 
-## Other Predicted Indications (Lower Priority — Not Recommended to Advance)
+## Marktinformationen für Taiwan
 
-- **Pseudo-von Willebrand disease, Primary platelet release disorder, Scott syndrome, Collagen-receptor bleeding diathesis, Constitutional thrombocytopenia, FNAIT** — all L5, no clinical trials or literature, and each has a documented mechanistic mismatch (platelet receptor/granule/count defects rather than coagulation-factor deficiency). Hold.
-- **Glanzmann thrombasthenia** — L4, one background registry trial and one review article (about rFVIIa, not emicizumab). The rationale is an indirect bypassing-agent analogy only. Classified as a research question, not yet actionable.
-- **Thrombotic thrombocytopenic purpura** — flagged in this pack as a **mechanistic safety contraindication**: TTP treatment requires reducing microvascular thrombosis, while emicizumab promotes thrombin generation. This candidate should not be pursued under any circumstance without dedicated safety review.
-- **"Flood factor deficiency"** — likely a data-extraction error (non-standard term); recommend verifying against the original knowledge-graph source before any further evaluation.
+Keine TFDA-Lizenznachweis sind im Evidence Pack für Emicizumab vorhanden — der Marktstatus ist **Nicht im Handel (nicht im Handel)**, mit 0 registrierten Zulassungen. Keine Darreichungsform, kein Produktname oder Text der genehmigten Indikation ist verfügbar.
 
 ---
 
-## Safety Considerations
+## Weitere vorhergesagte Indikationen (niedrigere Priorität — nicht empfohlen zum Voranbringen)
 
-Please refer to the package insert for safety information. No TFDA package insert data, contraindications, or drug-drug interaction records were retrievable for this evidence pack (data gap DG001, marked **Blocking** — this prevents the candidate from entering the S1 safety pre-assessment stage).
+- **Pseudo-von-Willebrand-Krankheit, Primäre Thrombozytäre Ausschüttungsstörung, Scott-Syndrom, Kollagen-Rezeptor-Blutungsdiathese, Konstitutionelle Thrombozytopenie, FNAIT** — alle L5, keine klinischen Studien oder Literatur, und jede hat einen dokumentierten mechanistischen Mismatch (Thrombozytäre Rezeptor-/Granula-/Anzahl-Defekte anstelle von Gerinnungsfaktordefekt). Halten.
+- **Thrombasthenie nach Glanzmann** — L4, eine Hintergrund-Registerstudie und ein Übersichtsartikel (über rFVIIa, nicht Emicizumab). Die Begründung ist nur eine indirekte Bypass-Mittel-Analogie. Klassifiziert als Forschungsfrage, nicht noch umsetzbar.
+- **Thrombotische thrombozytopenische Purpura** — gekennzeichnet in diesem Pack als **mechanistische Sicherheitskontraindikation**: TTP-Behandlung erfordert die Reduktion von mikrovaskulärer Thrombose, während Emicizumab die Thrombinerzeugung fördert. Dieser Kandidat sollte ohne dedizierte Sicherheitsüberprüfung unter keinen Umständen verfolgt werden.
+- **„Flood-Faktor-Mangel"** — wahrscheinlich ein Datenextraktionsfehler (nicht-Standard-Begriff); empfohlen ist die Überprüfung gegen die ursprüngliche Knowledge-Graph-Quelle vor weiterer Bewertung.
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsaspekte
 
-**Decision: Proceed with Guardrails** *(applies only to the acquired coagulation factor deficiency / acquired hemophilia A candidate; all other 9 candidates remain Hold)*
+Bitte beachten Sie die Fachinformation für Sicherheitsinformationen. Keine TFDA-Fachinformation, Kontraindikationen oder Arzneimittel-Wechselwirkungs-Nachweise konnten für dieses Evidence Pack abgerufen werden (Datenlücke DG001, gekennzeichnet als **Blockierend** — dies verhindert, dass der Kandidat die Sicherheits-Vorbewertungsstufe S1 betritt).
 
-**Rationale:**
-Three tier-1 prospective studies (a Phase 3 multicenter trial, the GTH-AHA-EMI Phase 2 study, and the AGEHA final analysis) plus a consensus guideline consistently support emicizumab's use in acquired hemophilia A, and this mechanism is directly traceable to the drug's approved FVIII-mimetic action. However, a **Blocking** data gap in TFDA safety information (DG001) prevents this candidate from formally entering the safety pre-assessment stage, and the drug is currently not marketed in Taiwan.
+---
 
-**To proceed, the following is needed:**
-- Resolve DG001: obtain TFDA package insert (warnings, contraindications) to complete the S1 safety pre-assessment
-- Resolve DG002: obtain DrugBank mechanism-of-action data to formalize the mechanistic-link analysis
-- Confirm that the knowledge-graph node "acquired coagulation factor deficiency" specifically maps to anti-FVIII autoantibody disease (acquired hemophilia A) and does not inadvertently include FV/FX/FXI deficiencies, where emicizumab's mechanism would not apply
-- Monitor Taiwan regulatory filing status for emicizumab, since it is currently unlicensed/not marketed
-- Deprioritize or formally close out the thrombotic thrombocytopenic purpura candidate given the identified mechanistic safety contraindication
-- Verify the "flood factor deficiency" disease label against source data before any further review
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Weitermachen mit Einschränkungen** *(gilt nur für den Kandidaten erworbener Gerinnungsfaktordefekt / erworbene Hämophilie A; alle anderen 9 Kandidaten bleiben auf Halten)*
+
+**Begründung:**
+Drei Tier-1-Prospektivstudien (eine multizentrische Phase-3-Studie, die GTH-AHA-EMI-Phase-2-Studie und die AGEHA-Endanalyse) plus eine Konsensleitlinie unterstützen konsistent die Verwendung von Emicizumab bei erworbener Hämophilie A, und dieser Wirkmechanismus ist direkt auf die genehmigt FVIII-mimetische Wirkung des Arzneimittels zurückzuführen. Eine **blockierende** Datenlücke in TFDA-Sicherheitsinformationen (DG001) verhindert jedoch, dass dieser Kandidat formal in die Sicherheits-Vorbewertungsstufe S1 eintritt, und das Arzneimittel ist derzeit nicht im Handel in Taiwan.
+
+**Um weiterzumachen, ist Folgendes erforderlich:**
+- DG001 lösen: TFDA-Fachinformation erhalten (Warnhinweise, Kontraindikationen), um die Sicherheits-Vorbewertung S1 zu vervollständigen
+- DG002 lösen: DrugBank-Wirkmechanismus-Daten erhalten, um die mechanistische Verknüpfungsanalyse zu formalisieren
+- Bestätigen, dass der Knowledge-Graph-Knoten „erworbener Gerinnungsfaktordefekt" spezifisch auf Anti-FVIII-Autoantikörper-Erkrankung (erworbene Hämophilie A) abbildet und nicht versehentlich FV/FX/FXI-Mängel einschließt, wo Emicizumabs Wirkmechanismus nicht zuträfe
+- Marktstatus der Taiwan-Zulassung für Emicizumab überwachen, da es derzeit unlizenziert/nicht im Handel ist
+- Den Kandidaten für thrombotische thrombozytopenische Purpura deprioritisieren oder formal schließen, angesichts der identifizierten mechanistischen Sicherheitskontraindikation
+- Das Etikett „Flood-Faktor-Mangel" gegen Quelldaten prüfen, bevor weiterer Review stattfindet
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -29,101 +29,102 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Romiplostim: From Chronic Immune Thrombocytopenia to Primary Release Disorder of Platelets
+# Romiplostim: Von chronischer Immunthrombozytopenopenie zur primären Freisetzungsstörung von Blutplättchen
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Romiplostim is a thrombopoietin (TPO) receptor agonist whose established use is chronic immune thrombocytopenia (ITP). TxGNN's highest-scoring signal points to **Primary Release Disorder of Platelets** as a candidate new indication, but this rests on only **1 indirectly related clinical trial** and **2 mechanistic review articles** — the model itself flags the mechanistic link as weak and indirect.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Chronic Immune Thrombocytopenia (ITP) — noted in evidence rationale text; **not confirmed** via Taiwan regulatory filing (no license record exists) |
-| Predicted New Indication | Primary release disorder of platelets |
-| TxGNN Prediction Score | 99.9998% (score rank #3 among all TxGNN outputs) |
-| Evidence Level | L4 |
-| Taiwan Market Status | ✗ Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** (evidence-pack label: "Research Question") |
+> Romiplostim ist ein Thrombopoietin (TPO)-Rezeptor-Agonist, dessen etablierte Anwendung die chronische Immunthrombozytopenopenie (ITP) ist. Das höchst bewertete Signal von TxGNN weist auf **Primäre Freisetzungsstörung von Blutplättchen** als Kandidat einer Neuindikation hin, doch dies basiert nur auf **1 indirekt verwandter klinischer Studie** und **2 mechanistischen Übersichtsartikeln** — das Modell kennzeichnet die mechanistische Verbindung selbst als schwach und indirekt.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Detailed MOA data for romiplostim is not yet available in DrugBank (flagged as data gap DG002). Based on information embedded in the evidence pack, romiplostim is a TPO receptor agonist that stimulates megakaryocyte proliferation and differentiation, thereby increasing platelet **production**. Its efficacy in chronic ITP — a disease of accelerated platelet destruction and impaired thrombopoiesis — is well established.
-
-**Primary release disorder of platelets**, however, is a defect in platelet **release/degranulation function**, not in platelet count or production rate. The evidence pack's own mechanistic assessment states this directly: romiplostim's pathway can raise the *number* of platelets produced, but it cannot correct a release/degranulation defect. The link to ITP biology is therefore only partial — the two conditions share downstream platelet biology but not the specific dysfunction romiplostim's mechanism addresses. This is why the evidence level is capped at L4 (mechanism/observational only) despite the very high raw TxGNN score.
+| Posten | Inhalt |
+|--------|--------|
+| Ursprüngliche Indikation | Chronische Immunthrombozytopenopenie (ITP) — erwähnt im Evidenz-Rationale-Text; **nicht bestätigt** via Taiwan-Zulassungsantrag (es existiert kein Lizenzeintrag) |
+| Vorhergesagte Neuindikation | Primäre Freisetzungsstörung von Blutplättchen |
+| TxGNN-Vorhersage-Score | 99.9998% (Score-Rang #3 unter allen TxGNN-Ergebnissen) |
+| Evidenzlevel | L4 |
+| Marktstatus Taiwan | ✗ Nicht vermarktet (Not marketed) |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | **Zurückstellen** (Evidence-Pack-Kennzeichnung: "Forschungsfrage") |
 
 ---
 
-## Clinical Trial Evidence
+## Warum ist diese Vorhersage sinnvoll?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Detaillierte Wirkmechanismus-Daten (MOA) für Romiplostim sind in der DrugBank noch nicht verfügbar (gekennzeichnet als Datenlücke DG002). Basierend auf Informationen, die im Evidence-Pack eingebettet sind, ist Romiplostim ein TPO-Rezeptor-Agonist, der die Proliferation und Differenzierung von Megakaryozyten stimuliert und dadurch die Blutplättchen**produktion** erhöht. Seine Wirksamkeit bei chronischer ITP — einer Erkrankung mit beschleunigter Blutplättchenzerstörung und beeinträchtigter Thrombopoese — ist gut etabliert.
+
+Die **primäre Freisetzungsstörung von Blutplättchen** ist jedoch ein Defekt in der Blutplättchen-**Freisetzungs-/Degranulationsfunktion**, nicht bei der Blutplättchenzahl oder Produktionsrate. Die mechanistische Bewertung im Evidence-Pack selbst erklärt dies direkt: Romiplostims Signalweg kann die *Anzahl* der produzierten Blutplättchen erhöhen, kann aber einen Freisetzungs-/Degranulationsdefekt nicht korrigieren. Die Verbindung zur ITP-Biologie ist daher nur teilweise — die beiden Erkrankungen teilen nachgelagerte Blutplättchen-Biologie, aber nicht die spezifische Dysfunktion, die Romiplostims Mechanismus adressiert. Dies ist der Grund, warum das Evidenzlevel auf L4 (nur Mechanismus/Beobachtungen) begrenzt ist, trotz des sehr hohen rohen TxGNN-Scores.
+
+---
+
+## Evidenz aus klinischen Studien
+
+| Studiennummer | Phase | Status | Teilnehmerzahl | Wichtigste Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT03820960](https://clinicaltrials.gov/study/NCT03820960) | N/A | Completed | 10,039 | Large ITP registry study on thrombosis risk factors; does **not** test romiplostim as an intervention for this indication (relevance grade C) |
+| [NCT03820960](https://clinicaltrials.gov/study/NCT03820960) | N/A | Completed | 10,039 | Große ITP-Registerstudie zu Thrombose-Risikofaktoren; testet **nicht** Romiplostim als Intervention bei dieser Indikation (Relevanzwertung C) |
 
 ---
 
-## Literature Evidence
+## Evidenz aus der Literatur
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Journal | Wichtigste Ergebnisse |
 |------|-----|------|------|---------|
-| [23594368](https://pubmed.ncbi.nlm.nih.gov/23594368/) | 2013 | Review | British Journal of Haematology | Overview of megakaryocytopoiesis/thrombopoiesis biology; TPO as primary growth factor for the megakaryocyte lineage |
-| [25682608](https://pubmed.ncbi.nlm.nih.gov/25682608/) | 2015 | Review/Mechanistic | Haematologica | Antiplatelet autoantibodies in ITP inhibit proplatelet formation and impair platelet production in vitro |
+| [23594368](https://pubmed.ncbi.nlm.nih.gov/23594368/) | 2013 | Übersicht | British Journal of Haematology | Übersicht der Megakaryozytopoese-/Thrombopoese-Biologie; TPO als primärer Wachstumsfaktor für die Megakaryozyten-Zelllinie |
+| [25682608](https://pubmed.ncbi.nlm.nih.gov/25682608/) | 2015 | Übersicht/Mechanistisch | Haematologica | Anti-Blutplättchen-Autoantikörper bei ITP hemmen die Proprolatelet-Bildung und beeinträchtigen die Blutplättchenproduktion in vitro |
 
 ---
 
-## Taiwan Market Information
+## Marktinformationen Taiwan
 
-Romiplostim currently holds **no marketing authorization in Taiwan** (0 licenses on file). No approved indication text, product name, or dosage form data is available from the regulatory dataset.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-⚠️ **Data Gap Alert**: TFDA label warnings/contraindications have not yet been obtained (DG001, severity **Blocking**) — this must be resolved before any Stage 1 (S1) safety assessment can proceed. No drug-drug interaction records were found in the current query.
+Romiplostim hat derzeit **keine Vermarktungszulassung in Taiwan** (0 Lizenzeinträge in der Akte). Es sind keine genehmigten Indikationstexte, Produktnamen oder Dosierungsformendaten aus der Regulierungsdatenbank verfügbar.
 
 ---
 
-## Other Predicted Indications at a Glance
+## Sicherheitsüberlegungen
 
-This evidence pack scored romiplostim against 10 candidate indications. For context, the full landscape:
+Bitte lesen Sie die Packungsbeilage für Sicherheitsinformationen.
 
-| Rank | Disease | TxGNN Score | Evidence Level | Recommendation |
+⚠️ **Datenlücken-Warnung**: TFDA-Kennzeichnungswarnungen/Kontraindikationen wurden noch nicht beschafft (DG001, Schweregrad **Blocking**) — dies muss vor jeder S1-Sicherheitsbewertung (Stage 1) behoben werden. Es wurden keine Arzneimittelwechselwirkungseinträge in der aktuellen Abfrage gefunden.
+
+---
+
+## Weitere vorhergesagte Indikationen im Überblick
+
+Dieses Evidence-Pack bewertete Romiplostim gegen 10 Kandidaten-Indikationen. Zum Kontext die vollständige Übersicht:
+
+| Rang | Erkrankung | TxGNN-Score | Evidenzlevel | Empfehlung |
 |------|---------|-------------|-----------------|-----------------|
-| 1 | Primary release disorder of platelets | 99.9998% | L4 | Research Question |
-| 2 | Pseudo-von Willebrand disease | 99.9998% | L5 | Hold |
-| 3 | Glanzmann thrombasthenia | 99.9995% | L5 | Hold |
-| 4 | Fetal/neonatal alloimmune thrombocytopenia | 99.99% | L4 | Research Question |
-| 5 | Scott syndrome | 99.97% | L5 | Hold |
-| 6 | Hemorrhagic disorder (constitutional thrombocytopenia) | 99.95% | L5 | Hold |
-| 7 | Bleeding diathesis (collagen receptor defect) | 99.95% | L4 | Hold |
-| **8** | **Platelet-type bleeding disorder** | **99.93%** | **L1** | **Proceed with Guardrails** |
-| 9 | Autosomal dominant macrothrombocytopenia | 99.88% | L3 | Research Question |
-| 10 | Ehlers-Danlos syndrome, fibronectinemic type | 99.85% | L5 | Hold |
+| 1 | Primäre Freisetzungsstörung von Blutplättchen | 99.9998% | L4 | Forschungsfrage |
+| 2 | Pseudo-von-Willebrand-Erkrankung | 99.9998% | L5 | Zurückstellen |
+| 3 | Glanzmann-Thrombasthenie | 99.9995% | L5 | Zurückstellen |
+| 4 | Fetale/neonatale alloimmune Thrombozytopenie | 99.99% | L4 | Forschungsfrage |
+| 5 | Scott-Syndrom | 99.97% | L5 | Zurückstellen |
+| 6 | Blutungsstörung (konstitutionelle Thrombozytopenie) | 99.95% | L5 | Zurückstellen |
+| 7 | Blutungsstörung (Kollagen-Rezeptor-Defekt) | 99.95% | L4 | Zurückstellen |
+| **8** | **Blutplättchen-Typ-Blutungsstörung** | **99.93%** | **L1** | **Fortfahren mit Schutzmaßnahmen** |
+| 9 | Autosomal dominante Makrothrombozytopenopenie | 99.88% | L3 | Forschungsfrage |
+| 10 | Ehlers-Danlos-Syndrom, Fibronektin-Typ | 99.85% | L5 | Zurückstellen |
 
-**Note:** Rank 8 ("platelet-type bleeding disorder") is backed by multiple completed Phase 3/4 trials (e.g. [NCT03362177](https://clinicaltrials.gov/study/NCT03362177) RECITE, [NCT05492409](https://clinicaltrials.gov/study/NCT05492409)) — but its own rationale states this cluster "essentially corresponds to romiplostim's core approved use (chronic ITP and related thrombocytopenia)." It is best read as a **validation signal confirming model accuracy**, not a novel repurposing opportunity. Ranks 2, 3, 5, 6, 10 have **zero** clinical trial or literature support and rest on TxGNN score alone.
+**Anmerkung:** Rang 8 ("Blutplättchen-Typ-Blutungsstörung") wird durch mehrere abgeschlossene Phase-3/4-Studien gestützt (z. B. [NCT03362177](https://clinicaltrials.gov/study/NCT03362177) RECITE, [NCT05492409](https://clinicaltrials.gov/study/NCT05492409)) — aber laut der eigenen Begründung entspricht dieser Cluster "im Wesentlichen Romiplostims genehmigte Kernindikation (chronische ITP und verwandte Thrombozytopenie)." Er sollte am besten als **Validierungssignal interpretiert werden, das die Modellgenauigkeit bestätigt**, nicht als Möglichkeit einer neuen Umwidmung. Die Ränge 2, 3, 5, 6, 10 haben **keine** klinischen Studien- oder Literaturbelege und basieren nur auf dem TxGNN-Score.
 
 ---
 
-## Conclusion and Next Steps
+## Zusammenfassung und nächste Schritte
 
-**Decision: Hold**
+**Entscheidung: Zurückstellen**
 
-**Rationale:**
-The lead prediction (primary release disorder of platelets) has a self-identified weak, indirect mechanistic link, and its only clinical trial evidence does not test romiplostim as an intervention in this population. No genuinely novel candidate in this pack reaches L1/L2 evidence — the one indication with strong trial support (rank 8) largely overlaps with romiplostim's known indication rather than representing new territory.
+**Begründung:**
+Die führende Vorhersage (primäre Freisetzungsstörung von Blutplättchen) weist eine selbst identifizierte schwache, indirekte mechanistische Verbindung auf, und der einzige Beleg aus klinischen Studien testet nicht Romiplostim als Intervention in dieser Population. Kein wirklich neuer Kandidat in diesem Paket erreicht L1/L2-Evidenz — die eine Indikation mit starkem Studienbeweis (Rang 8) überlappt sich größtenteils mit Romiplostims bekannter Indikation, anstatt neues Gebiet zu erschließen.
 
-**To proceed, the following is needed:**
-- Resolve DG001 (TFDA label warnings/contraindications) — currently blocking any S1 safety evaluation
-- Resolve DG002 (confirmed MOA from DrugBank API) to strengthen mechanistic-link analysis
-- Confirm original approved indication via verified Taiwan regulatory filing (currently 0 licenses on record)
-- If pursuing primary release disorder of platelets specifically: a dedicated interventional study in confirmed platelet-release-defect patients, since existing evidence is an unrelated ITP registry and general mechanism reviews
-- Separately evaluate rank 8 (platelet-type bleeding disorder) as a line-extension/label-confirmation case rather than a new-indication repurposing candidate
+**Um fortzufahren, wird folgendes benötigt:**
+- DG001 beheben (TFDA-Kennzeichnungswarnungen/Kontraindikationen) — blockiert derzeit jede S1-Sicherheitsbewertung
+- DG002 beheben (bestätigte MOA aus DrugBank API), um die Analyse der mechanistischen Verbindung zu stärken
+- Ursprüngliche genehmigte Indikation über verifizierten Taiwan-Zulassungsantrag bestätigen (derzeit 0 Lizenzeinträge in der Akte)
+- Falls primäre Freisetzungsstörung von Blutplättchen im Besonderen verfolgt wird: eine dedizierte Interventionsstudie in bestätigten Patienten mit Blutplättchen-Freisetzungsdefekt durchführen, da vorhandene Beweise nur eine unverwandte ITP-Registerstudie und allgemeine Übersichtsartikel zum Wirkmechanismus sind
+- Rang 8 (Blutplättchen-Typ-Blutungsstörung) separat als Line-Extension-/Label-Bestätigungs-Fall bewerten, anstatt ihn als neuen Umwidmungs-Repurposing-Kandidaten zu betrachten
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -29,60 +29,61 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Tildipirosin: From Veterinary Respiratory Infection to Leprosy
+# Tildipirosin: Von tiermedizinischen Atemwegsinfektionen zur Lepra
 
-## One-Sentence Summary
+## Ein-Satz-Zusammenfassung
 
-Tildipirosin (DB11470) is a third-generation macrolide antibiotic approved only for veterinary use (bovine and porcine respiratory tract infections, brand name Zuprevo) and has no established human indication. The TxGNN model predicts a possible association with **Leprosy**, with a prediction score of **99.01%**, but this is currently supported by **0 clinical trials** and **0 publications**.
+Tildipirosin (DB11470) ist ein Makrolidantibiotikum der dritten Generation, das nur für die tiermedizinische Anwendung zugelassen ist (Infektionen der Atemwege bei Rindern und Schweinen, Handelsname Zuprevo) und keine etablierte menschliche Indikation hat. Das TxGNN-Modell sagt eine mögliche Assoziation mit **Lepra** voraus, mit einer Vorhersagequote von **99.01%**, wird dies jedoch derzeit durch **0 klinische Studien** und **0 Veröffentlichungen** nicht gestützt.
 
-## Quick Overview
+## Kurzübersicht
 
-| Item | Content |
+| Punkt | Inhalt |
 |------|------|
-| Original Indication | Not approved for human use — veterinary indication only (bovine/porcine respiratory tract infection) |
-| Predicted New Indication | Leprosy |
-| TxGNN Prediction Score | 99.01% |
-| Evidence Level | L5 |
-| Germany Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | Nicht für die Anwendung beim Menschen zugelassen – nur tiermedizinische Indikation (Infektionen der Atemwege bei Rindern/Schweinen) |
+| Vorhergesagte neue Indikation | Lepra |
+| TxGNN-Vorhersagequote | 99.01% |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Nicht auf dem Markt |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | Halten |
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage vernünftig?
 
-Currently, detailed mechanism of action data is not available (**[Data Gap]**). Based on known information, tildipirosin is a veterinary-only macrolide antibiotic used to treat respiratory infections in cattle and pigs; it has never been used or studied in humans, and no original human indication exists to compare against.
+Derzeit sind detaillierte Wirkmechanismus-Daten nicht verfügbar (**[Datenlücke]**). Basierend auf bekannten Informationen ist Tildipirosin ein Makrolidantibiotikum, das ausschließlich in der Tiermedizin zur Behandlung von Atemwegsinfektionen bei Rindern und Schweinen eingesetzt wird; es wurde nie beim Menschen verwendet oder untersucht, und es gibt keine ursprüngliche menschliche Indikation zum Vergleich.
 
-The repurposing rationale is purely speculative: it is hypothesized that, as a macrolide-class compound, tildipirosin might share theoretical mechanistic overlap with anti-mycobacterial agents (e.g., clofazimine) that could be relevant to *Mycobacterium leprae*. However, there is **no direct pharmacological, in vitro, or in vivo evidence** that tildipirosin has activity against *M. leprae*. The TxGNN score reflects a graph-neural-network association only, with no mechanistic, pharmacokinetic, or safety data to substantiate it.
+Die Umwidmungsrationale ist rein spekulativ: Es wird vermutet, dass Tildipirosin als Makrolid-Verbindung theoretisch eine mechanistische Überlappung mit antimykobakteriellen Wirkstoffen (z. B. Clofazimin) haben könnte, die für *Mycobacterium leprae* relevant sein könnten. Es gibt jedoch **keine direkte pharmakologische, in-vitro- oder in-vivo-Evidenz** dafür, dass Tildipirosin eine Aktivität gegen *M. leprae* hat. Der TxGNN-Wert spiegelt nur eine Graph-Neural-Network-Assoziation wider, ohne dass mechanistische, pharmakokinetische oder Sicherheitsdaten vorhanden sind, um dies zu unterstützen.
 
-Given that this compound has never been evaluated in humans, any repurposing hypothesis should be treated as very early-stage and exploratory only.
+Angesichts der Tatsache, dass diese Verbindung nie beim Menschen untersucht wurde, sollte jede Umwidmungshypothese als sehr frühe und rein explorative Hypothese betrachtet werden.
 
-## Clinical Trial Evidence
+## Evidenz aus klinischen Studien
 
-Currently no related clinical trials registered
+Derzeit keine verwandten klinischen Studien registriert
 
-## Literature Evidence
+## Evidenz aus der Literatur
 
-Currently no related literature available
+Derzeit keine relevante Literatur verfügbar
 
-## Germany Market Information
+## Marktinformation für Deutschland
 
-Tildipirosin is not marketed in Germany and holds no authorizations (total_licenses = 0). No product/license records are available.
+Tildipirosin wird in Deutschland nicht vermarktet und hat keine Genehmigungen (total_licenses = 0). Es sind keine Produkt-/Lizenzeinträge verfügbar.
 
-## Safety Considerations
+## Sicherheitsaspekte
 
-Please refer to the package insert for safety information. Note: as tildipirosin is not approved for human use, no human-directed prescribing information, contraindications, or drug interaction data currently exist (TFDA warnings/contraindications: **[Data Gap]**; DDI query: not found).
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. Hinweis: Da Tildipirosin nicht für die Anwendung beim Menschen zugelassen ist, existieren derzeit keine auf den Menschen ausgerichteten Verschreibungsinformationen, Kontraindikationen oder Arzneimittel-Wechselwirkungsdaten (TFDA-Warnungen/Kontraindikationen: **[Datenlücke]**; DDI-Abfrage: nicht gefunden).
 
-## Conclusion and Next Steps
+## Fazit und nächste Schritte
 
-**Decision: Hold**
+**Entscheidung: Halten**
 
-**Rationale:**
-There is no mechanism-of-action data, no clinical trial evidence, no published literature, and no history of human use for tildipirosin. The TxGNN score alone (L5, prediction-only) is insufficient to support any further evaluation of a leprosy indication.
+**Begründung:**
+Es gibt keine Wirkmechanismus-Daten, keine Evidenz aus klinischen Studien, keine veröffentlichte Literatur und keine Geschichte der Anwendung beim Menschen für Tildipirosin. Der TxGNN-Wert allein (L5, nur Vorhersage) ist nicht ausreichend, um eine weitere Bewertung einer Lepra-Indikation zu unterstützen.
 
-**To proceed, the following is needed:**
-- Confirmed mechanism of action (DrugBank/primary literature)
-- Preclinical (in vitro/in vivo) data on activity against *Mycobacterium leprae*
-- Any available human pharmacokinetic or toxicology data, since none currently exists for this veterinary-only compound
-- TFDA/regulatory label data on warnings and contraindications, if a human formulation is ever developed
+**Um fortzufahren, ist Folgendes erforderlich:**
+- Bestätigter Wirkmechanismus (DrugBank/Primärliteratur)
+- Präklinische (in-vitro-/in-vivo-) Daten zur Aktivität gegen *Mycobacterium leprae*
+- Alle verfügbaren humanen pharmakokinetischen oder Toxikologiedaten, da derzeit keine für dieses ausschließlich tiermedizinisch verwendete Präparat vorhanden sind
+- TFDA/behördliche Kennzeichnungsdaten zu Warnungen und Kontraindikationen, falls jemals eine menschliche Formulierung entwickelt wird
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

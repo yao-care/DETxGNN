@@ -29,79 +29,78 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-# Pretomanid: From Multidrug-Resistant Tuberculosis to Candidiasis
+# Pretomanid: Von arzneimittelresistenter Tuberkulose bis Candidose
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Pretomanid is an antimycobacterial prodrug used as part of the BPaL regimen for drug-resistant tuberculosis.
-> The TxGNN model predicts it may be effective for **Candidiasis**,
-> but this prediction is currently supported by **0 clinical trials** and **0 publications**, and the underlying rationale itself indicates the mechanism does not translate to fungal pathogens.
+> Pretomanid ist ein antimykobakterielles Prodrug, das als Teil des BPaL-Regimes zur Behandlung arzneimittelresistenter Tuberkulose verwendet wird. Das TxGNN-Modell prognostiziert, dass es bei **Candidose** wirksam sein könnte, aber diese Vorhersage wird derzeit durch **0 klinische Studien** und **0 Publikationen** gestützt, und die zugrunde liegende Rationale selbst weist darauf hin, dass sich der Mechanismus nicht auf Pilzerreger überträgt.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Element | Inhalt |
 |------|------|
-| Original Indication | Multidrug-resistant tuberculosis, as part of the BPaL regimen (not recorded in the supplied regulatory dataset — inferred from literature evidence) |
-| Predicted New Indication | Candidiasis |
-| TxGNN Prediction Score | 99.69% |
-| Evidence Level | L5 |
-| Germany Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+| Ursprüngliche Indikation | Arzneimittelresistente Tuberkulose als Teil des BPaL-Regimes (nicht im bereitgestellten Regulierungsdatensatz aufgeführt – aus Literaturbelegen abgeleitet) |
+| Vorhergesagte neue Indikation | Candidose |
+| TxGNN-Vorhersagepunktzahl | 99.69% |
+| Evidenzstufe | L5 |
+| Marktstatus Deutschland | ✗ Nicht auf dem Markt |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | **Abwarten** |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage angemessen?
 
-Detailed official mechanism-of-action data is currently unavailable (blocking data gap). Based on information available in the accompanying literature evidence, pretomanid is a nitroimidazooxazine prodrug that requires activation by the deazaflavin-dependent nitroreductase (Ddn), an enzyme specific to mycobacteria. Once activated, it generates reactive nitrogen species that inhibit mycolic acid synthesis (aerobic conditions) or act as a respiratory poison releasing nitric oxide (anaerobic conditions). This activation pathway is unique to the *Mycobacterium* genus.
+Detaillierte offizielle Wirkmechanismus-Daten sind derzeit nicht verfügbar (Daten-Engpass). Basierend auf den in der begleitenden Literaturevidenz verfügbaren Informationen ist Pretomanid ein Nitroimidazooxazin-Prodrug, das durch die Deazaflavin-abhängige Nitroreduktase (Ddn), ein für Mykobakterien spezifisches Enzym, aktiviert werden muss. Nach der Aktivierung erzeugt es reaktive Stickstoffspezies, die die Mykolsäuresynthese hemmen (aerobe Bedingungen) oder als Atemgift wirken, das Stickstoffmonoxid freisetzt (anaerobe Bedingungen). Dieser Aktivierungsweg ist einzigartig für die Gattung *Mycobacterium*.
 
-Candidiasis is caused by *Candida* species (fungi), which lack the Ddn enzyme system and mycolic acid synthesis pathway entirely. There is therefore no plausible mechanistic bridge between pretomanid's known target biology and fungal infection. The high TxGNN score most likely reflects the model connecting pretomanid to a broad "antimicrobial/anti-infective" node cluster in the knowledge graph rather than any target-specific evidence for antifungal activity.
+Candidose wird durch *Candida*-Arten (Pilze) verursacht, denen das Ddn-Enzymsystem und der Mykolsäuresyntheseweg vollständig fehlen. Es gibt daher keine plausible mechanistische Verbindung zwischen der bekannten Zielbiologie von Pretomanid und Pilzinfektionen. Der hohe TxGNN-Score spiegelt höchstwahrscheinlich wider, dass das Modell Pretomanid mit einem breiten „antimikrobiellen/antiinfektiven" Knoten-Cluster im Wissensgraphen verbindet, anstatt zielspezifische Evidenz für antimykotische Aktivität zu finden.
 
-This concern is reinforced by the model's next-ranked prediction, **leprosy** (rank 2, score 99.27%), which — despite sharing the *Mycobacterium* genus with the original indication and therefore appearing more biologically plausible — is directly contradicted by experimental evidence in the evidence pack itself (PMID 17005816: *M. leprae* is naturally resistant to PA-824/pretomanid, likely due to insufficient Ddn activity). The remaining top-5 predictions (coronary artery disease, myocardial ischemia, ALCAPA) have no mechanistic basis at all and in the case of cardiovascular indications actively conflict with pretomanid's known QT-prolongation liability. Taken together, none of the top 5 TxGNN predictions for this drug currently have credible mechanistic or empirical support.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+Diese Bedenken werden durch die zweitrangige Vorhersage des Modells, **Lepra** (Rang 2, Punktzahl 99.27%), verstärkt, die – obwohl sie die Gattung *Mycobacterium* mit der ursprünglichen Indikation teilt und daher biologisch plausibler erscheint – direkt durch experimentelle Evidenz im Evidenzpaket selbst widersprochen wird (PMID 17005816: *M. leprae* ist natürlicherweise resistent gegen PA-824/Pretomanid, wahrscheinlich aufgrund unzureichender Ddn-Aktivität). Die verbleibenden Top-5-Vorhersagen (koronare Herzkrankheit, Myokardischämie, ALCAPA) haben überhaupt keine mechanistische Grundlage und widersprechen im Falle von kardiovaskulären Indikationen aktiv Pretomanids bekanntem QT-Verlängerungsrisiko. Zusammengefasst haben derzeit keine der Top-5-TxGNN-Vorhersagen für dieses Arzneimittel glaubwürdige mechanistische oder empirische Unterstützung.
 
 ---
 
-## Literature Evidence
+## Evidenz aus klinischen Studien
 
-Currently no related literature available
-
----
-
-## Germany Market Information
-
-Pretomanid is **not currently marketed in Germany** — no marketing authorization dossiers are present in the regulatory dataset (0 authorizations, 0 dosage forms recorded).
+Derzeit sind keine verwandten klinischen Studien registriert
 
 ---
 
-## Safety Considerations
+## Literaturevidenz
 
-Please refer to the package insert for safety information.
-
-**Note (from evidence-pack context, not a formal safety database entry):** the repurposing rationale for cardiovascular predictions (ranks 3–4) references a known QT-interval prolongation risk associated with pretomanid. This should be treated as a signal to verify against official labeling once available, rather than a confirmed finding.
+Derzeit ist keine verwandte Literatur verfügbar
 
 ---
 
-## Conclusion and Next Steps
+## Marktinformationen Deutschland
 
-**Decision: Hold**
+Pretomanid ist **derzeit nicht in Deutschland auf dem Markt** — es sind keine Zulassungsdossiers im Regulierungsdatensatz vorhanden (0 Zulassungen, 0 aufgezeichnete Darreichungsformen).
+
+---
+
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Fachinformation für Sicherheitsinformationen.
+
+**Hinweis (aus dem Kontext des Evidenzpakets, kein formaler Sicherheitsdatenbankeintrag):** Die Umwidmungsrationale für kardiovaskuläre Vorhersagen (Ränge 3–4) bezieht sich auf ein bekanntes Risiko der QT-Intervallverlängerung, das mit Pretomanid verbunden ist. Dies sollte als Signal behandelt werden, um es gegen die offizielle Fachinformation zu überprüfen, sobald diese verfügbar ist, und nicht als bestätigter Befund.
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Abwarten**
 
 **Rationale:**
-The top-ranked prediction (candidiasis) has zero supporting clinical trials or literature, and the drug's known mechanism of action does not extend to fungal pathogens. The next most-evidenced prediction (leprosy) is directly refuted by in vitro resistance data, and lower-ranked predictions (cardiovascular indications) lack any mechanistic basis and conflict with a known cardiac safety liability. There is no credible evidence pathway to advance any of the current top-5 predictions.
+Die am höchsten bewertete Vorhersage (Candidose) hat null unterstützende klinische Studien oder Literatur, und der bekannte Wirkmechanismus des Arzneimittels erstreckt sich nicht auf Pilzerreger. Die nächst beste durch Evidenz unterstützte Vorhersage (Lepra) wird direkt durch In-vitro-Resistenzdaten widerlegt, und niedriger bewertete Vorhersagen (kardiovaskuläre Indikationen) haben keine mechanistische Grundlage und widersprechen einem bekannten kardialen Sicherheitsrisiko. Es gibt keine glaubwürdige Evidenzbasis, um eine der aktuellen Top-5-Vorhersagen weiter zu verfolgen.
 
-**To proceed, the following is needed:**
-- Resolve DG001 (blocking): obtain TFDA/BfArM label warnings and contraindications before any S1 safety screening can occur
-- Resolve DG002: confirm mechanism of action via DrugBank API query
-- If candidiasis is to be pursued further, generate or locate preclinical in vitro antifungal susceptibility data for pretomanid against *Candida* spp.
-- Given the leprosy resistance finding, deprioritize further leprosy investigation unless new experimental evidence emerges
-- No further action recommended on cardiovascular-related predictions (ranks 3–5) absent a plausible mechanistic hypothesis
+**Zum Fortfahren ist Folgendes erforderlich:**
+- Beheben Sie DG001 (Blockierung): Erhalten Sie TFDA/BfArM-Beschriftungswarnungen und Kontraindikationen, bevor ein S1-Sicherheits-Screening durchgeführt werden kann
+- Beheben Sie DG002: Bestätigen Sie den Wirkmechanismus über DrugBank API-Abfrage
+- Wenn Candidose weiter verfolgt werden soll, generieren oder suchen Sie präklinische In-vitro-Daten zur antimykotischen Empfindlichkeit für Pretomanid gegen *Candida* spp.
+- Angesichts der Lepra-Resistenzbefunde weitere Lepra-Untersuchungen deprioritisieren, sofern nicht neue experimentelle Erkenntnisse auftauchen
+- Keine weiteren Maßnahmen bezüglich kardiovaskulärer Vorhersagen (Ränge 3–5) empfohlen ohne plausible mechanistische Hypothese
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

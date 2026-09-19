@@ -29,82 +29,83 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0**
 
 </div>
 
-# Canagliflozin: Drug Repurposing Evaluation — No TxGNN Prediction Data Available
+# Canagliflozin: Evaluierung der Arzneimittelumwidmung — Keine TxGNN-Vorhersagedaten verfügbar
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Canagliflozin is a sodium-glucose co-transporter 2 (SGLT2) inhibitor widely used internationally for Type 2 diabetes, heart failure, and chronic kidney disease.
-However, **this Evidence Pack contains no TxGNN predicted indications**, and the drug has **no Taiwan regulatory approvals** on record.
-A complete repurposing evaluation cannot be generated until prediction data and mechanism of action information are retrieved.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | No Taiwan approval on record |
-| Predicted New Indication | No prediction data available |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | Below L5 — no predictions, no supporting studies retrieved |
-| Taiwan Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+Canagliflozin ist ein Natriumglucose-Cotransporter-2-(SGLT2)-Hemmer, der international weit verbreitet für Typ-2-Diabetes, Herzinsuffizienz und chronische Nierenerkrankung verwendet wird.
+Dieses Evidenzpaket enthält jedoch **keine TxGNN-prognostizierten Indikationen**, und das Arzneimittel besitzt **keine dokumentierten taiwanischen regulatorischen Genehmigungen**.
+Eine vollständige Evaluierung der Arzneimittelumwidmung kann nicht erstellt werden, bis Vorhersagedaten und Informationen zum Wirkmechanismus abgerufen werden.
 
 ---
 
-## Why This Evaluation Cannot Proceed
+## Schnellübersicht
 
-This Evidence Pack is missing two foundational data elements required for a repurposing evaluation:
-
-1. **No TxGNN predictions** — The `predicted_indications` array is empty. Without a model prediction, there is no candidate indication to evaluate, and no direction for evidence search.
-
-2. **MOA data absent** — The mechanism of action field was not successfully retrieved from DrugBank despite the query returning a result. Without MOA, the biological plausibility of any repurposing hypothesis cannot be assessed.
-
-Canagliflozin is a well-characterised drug internationally (SGLT2 inhibition, renal glucose excretion, haemodynamic and cardioprotective effects), but these facts cannot substitute for the structured pipeline output required to proceed with this workflow.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials are listed in this Evidence Pack.
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Keine taiwanische Genehmigung in den Unterlagen |
+| Prognostizierte neue Indikation | Keine Vorhersagedaten verfügbar |
+| TxGNN-Vorhersage-Score | N/A |
+| Evidenzgrad | Unter L5 — keine Prognosen, keine unterstützenden Studien abgerufen |
+| Taiwan-Marktstatus | Nicht auf dem Markt |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | **Hold** |
 
 ---
 
-## Literature Evidence
+## Warum diese Evaluierung nicht fortgesetzt werden kann
 
-Currently no related literature is listed in this Evidence Pack.
+Diesem Evidenzpaket fehlen zwei grundlegende Datenelemente, die für eine Evaluierung der Arzneimittelumwidmung erforderlich sind:
 
----
+1. **Keine TxGNN-Prognosen** — Das `predicted_indications`-Array ist leer. Ohne eine Modellvorhersage gibt es keine zu bewertende Kandidatenindikation und keine Richtung für die Evidenzsuche.
 
-## Taiwan Market Information
+2. **MOA-Daten fehlen** — Das Wirkmechanismus-Feld konnte trotz Rückgabe eines Ergebnisses nicht erfolgreich von DrugBank abgerufen werden. Ohne MOA kann die biologische Plausibilität einer Arzneimittelumwidmungshypothese nicht bewertet werden.
 
-Canagliflozin has no registered drug authorizations in Taiwan as of this Evidence Pack's data cutoff (2026-04-20).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-> No warnings, contraindications, or drug interaction data are present in this Evidence Pack. All safety fields returned no data or were not queryable.
+Canagliflozin ist ein international gut charakterisiertes Arzneimittel (SGLT2-Hemmung, renale Glucoseausscheidung, hämodynamische und kardioprotektive Effekte), aber diese Fakten können die strukturierte Pipeline-Ausgabe, die erforderlich ist, um mit diesem Arbeitsablauf fortzufahren, nicht ersetzen.
 
 ---
 
-## Conclusion and Next Steps
+## Evidenz aus klinischen Studien
 
-**Decision: Hold**
+Gegenwärtig sind keine zugehörigen klinischen Studien in diesem Evidenzpaket aufgeführt.
 
-**Rationale:**
-The Evidence Pack lacks TxGNN prediction output and MOA data — the two inputs that drive every downstream section of a repurposing report. Proceeding without them would require fabricating analytical content, which is not acceptable.
+---
 
-**To proceed, the following is needed:**
+## Literaturdaten
 
-- [ ] **Re-run TxGNN pipeline** — Confirm whether Canagliflozin was processed through the model; retrieve `predicted_indications` with scores, clinical trial links, and literature PMIDs
-- [ ] **Retrieve MOA from DrugBank** — DrugBank query returned a result (query log entry #3) but MOA was not extracted; re-parse the DrugBank record for mechanism, pharmacodynamics, and categories
-- [ ] **Download Taiwan package insert** — TFDA query returned a result (query log entry #4); extract warnings, contraindications, and approved indications from the PDF
-- [ ] **Re-run DDI query** — Drug interaction query returned `not_found`; verify if this reflects true absence or a query parameter issue
-- [ ] **Clarify market scope** — If the target market is Germany (BfArM) rather than Taiwan (TFDA), switch the regulatory query source accordingly; Canagliflozin (Invokana®) is authorised in the EU
+Gegenwärtig ist keine zugehörige Literatur in diesem Evidenzpaket aufgeführt.
+
+---
+
+## Taiwan-Marktinformationen
+
+Canagliflozin hat zum Zeitpunkt des Datenschlusses dieses Evidenzpakets (2026-04-20) keine registrierten Arzneimittelgenehmigungen in Taiwan.
+
+---
+
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+> Keine Warnungen, Gegenanzeigen oder Arzneimittelwechselwirkungsdaten sind in diesem Evidenzpaket vorhanden. Alle Sicherheitsfelder lieferten keine Daten oder konnten nicht abgefragt werden.
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Hold**
+
+**Begründung:**
+Das Evidenzpaket enthält keine TxGNN-Vorhersageausgabe und keine MOA-Daten – die zwei Eingaben, die jeden nachgelagerten Abschnitt eines Umwidmungsberichts antreiben. Ein Fortfahren ohne diese würde die Erfindung analytischer Inhalte erfordern, was nicht akzeptabel ist.
+
+**Um fortzufahren, wird Folgendes benötigt:**
+
+- [ ] **TxGNN-Pipeline erneut ausführen** — Bestätigen Sie, ob Canagliflozin durch das Modell verarbeitet wurde; rufen Sie `predicted_indications` mit Scores, Links zu klinischen Studien und Literatur-PMIDs ab
+- [ ] **MOA aus DrugBank abrufen** — Die DrugBank-Abfrage lieferte ein Ergebnis (Abfrage-Logeintrag #3), aber MOA wurde nicht extrahiert; analysieren Sie den DrugBank-Datensatz erneut auf Mechanismus, Pharmakodynamik und Kategorien
+- [ ] **Taiwan-Packungsbeilage herunterladen** — Die TFDA-Abfrage lieferte ein Ergebnis (Abfrage-Logeintrag #4); extrahieren Sie Warnungen, Gegenanzeigen und genehmigte Indikationen aus der PDF
+- [ ] **DDI-Abfrage erneut ausführen** — Die Arzneimittelwechselwirkungsabfrage lieferte `not_found` zurück; überprüfen Sie, ob dies ein echtes Fehlen oder ein Abfrageparameter-Problem widerspiegelt
+- [ ] **Marktumfang klären** — Wenn der Zielmarkt Deutschland (BfArM) statt Taiwan (TFDA) ist, wechseln Sie die regulatorische Abfragequelle entsprechend; Canagliflozin (Invokana®) ist in der EU zugelassen
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

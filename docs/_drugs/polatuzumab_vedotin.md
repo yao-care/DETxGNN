@@ -29,84 +29,85 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Polatuzumab Vedotin: From Diffuse Large B-Cell Lymphoma to HER2 Positive Breast Carcinoma
+# Polatuzumab Vedotin: Von diffusem großzelligem B-Zell-Lymphom zu HER2-positivem Mammakarzinom
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Polatuzumab vedotin is an anti-CD79b antibody-drug conjugate (ADC) approved for diffuse large B-cell lymphoma (DLBCL).
-> The TxGNN model predicts it may be effective for **HER2 Positive Breast Carcinoma**,
-> but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a pure knowledge-graph association without mechanistic or empirical backing.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Diffuse Large B-Cell Lymphoma (DLBCL) *(noted from mechanism description; official TFDA/German approved-label text unavailable — blocking data gap DG001)* |
-| Predicted New Indication | HER2 Positive Breast Carcinoma |
-| TxGNN Prediction Score | 99.34% |
-| Evidence Level | L5 |
-| Germany Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Polatuzumab Vedotin ist ein Anti-CD79b-Antikörper-Wirkstoff-Konjugat (ADC), das für diffuses großzelliges B-Zell-Lymphom (DLBCL) zugelassen ist.
+> Das TxGNN-Modell prognostiziert, dass es wirksam sein könnte für **HER2-positives Mammakarzinom**,
+> aber diese Vorhersage wird derzeit durch **0 klinische Studien** und **0 Publikationen** gestützt — es handelt sich um eine reine Knowledge-Graph-Assoziation ohne mechanistische oder empirische Grundlage.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Kurzer Überblick
 
-Detailed mechanism of action data (`original_moa`) is not available for this drug (data gap). Based on the repurposing rationale provided, polatuzumab vedotin is an antibody-drug conjugate (ADC) that targets CD79b, a B-cell surface antigen, and delivers the cytotoxic payload MMAE (monomethyl auristatin E) directly to CD79b-expressing cells. Its approved use is in DLBCL, where CD79b is highly expressed on malignant B cells.
-
-CD79b is **not** expressed on breast cancer cells, including the HER2-positive subtype. HER2 and CD79b belong to entirely separate signaling/surface-marker systems, and there is currently no known biological pathway connecting the two. In other words, the drug's cytotoxic delivery mechanism has no target to bind to in HER2-positive breast carcinoma.
-
-The high TxGNN score (0.99) therefore reflects a strong statistical association within the knowledge graph rather than a mechanism-driven hypothesis. Without a plausible target-expression rationale, this prediction should be treated as exploratory only.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Diffuses großzelliges B-Zell-Lymphom (DLBCL) *(aus Wirkmechanismus-Beschreibung bekannt; offizielle TFDA/Deutsche Kennzeichnung nicht verfügbar — blockierende Datenlücke DG001)* |
+| Prognostizierte neue Indikation | HER2-positives Mammakarzinom |
+| TxGNN-Vorhersage-Score | 99,34% |
+| Evidenzgrad | L5 |
+| Marktstatus in Deutschland | Nicht im Handel |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Zurückstellen |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage begründet?
 
-Currently no related literature available.
+Detaillierte Wirkmechanismus-Daten (`original_moa`) sind für dieses Arzneimittel nicht verfügbar (Datenlücke). Basierend auf der bereitgestellten Umnutzungsrationale ist Polatuzumab Vedotin ein Antikörper-Wirkstoff-Konjugat (ADC), das CD79b, ein B-Zell-Oberflächenantigen, anvisiert und den zytotoxischen Wirkstoff MMAE (monomethyl auristatin E) direkt auf CD79b-exprimierende Zellen überträgt. Seine zugelassene Anwendung ist DLBCL, wo CD79b auf malignen B-Zellen stark exprimiert wird.
 
----
+CD79b wird auf Brustkrebszellen, einschließlich des HER2-positiven Subtyps, nicht exprimiert. HER2 und CD79b gehören zu völlig unterschiedlichen Signalisierungs-/Oberflächenmarkersystemen, und es gibt derzeit keinen bekannten biologischen Weg, der die beiden verbindet. Mit anderen Worten: Der zytotoxische Wirkstoffabgabemechanismus des Arzneimittels hat in HER2-positivem Mammakarzinom kein Ziel zum Binden.
 
-## Cytotoxicity
-
-*This drug is a cytotoxic antibody-drug conjugate approved for a hematologic malignancy (DLBCL), meeting the criteria for inclusion of this section.*
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy — Antibody-drug conjugate (ADC) with cytotoxic payload (MMAE, a tubulin polymerization inhibitor) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | ADCs are typically subject to cytotoxic/hazardous drug handling precautions; please refer to institutional handling protocol |
+Der hohe TxGNN-Score (0,99) spiegelt daher eine starke statistische Assoziation innerhalb des Knowledge Graphs wider, nicht eine mechanismusgestützte Hypothese. Ohne eine plausible Zielexpressions-Rationale sollte diese Vorhersage nur als explorativ behandelt werden.
 
 ---
 
-## Safety Considerations
+## Evidenz aus klinischen Studien
 
-Please refer to the package insert for safety information. *(Note: TFDA label/warnings data is a blocking data gap — DG001 — and must be resolved before any S1 safety evaluation can proceed.)*
+Derzeit keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Conclusion and Next Steps
+## Literaturevidenz
 
-**Decision: Hold**
+Derzeit keine zugehörige Literatur verfügbar.
 
-**Rationale:**
-The prediction sits at Evidence Level L5 — no clinical trials, no literature, and no plausible target-expression rationale (CD79b is not expressed in HER2-positive breast carcinoma). Combined with the blocking data gap on TFDA/German labeling and the drug's current "not marketed" status in Germany, there is insufficient basis to advance this candidate.
+---
 
-**To proceed, the following is needed:**
-- Preclinical evidence of CD79b expression or an alternative target-engagement mechanism in HER2-positive breast cancer models
-- Resolution of blocking data gap DG001 (TFDA/German approved label, warnings, contraindications)
-- Confirmed mechanism of action data (DG002)
-- Clarification of German market/regulatory status before any further clinical development consideration
+## Zytotoxizität
+
+*Dieses Arzneimittel ist ein zytotoxisches Antikörper-Wirkstoff-Konjugat, das für eine hämatologische Malignität (DLBCL) zugelassen ist und die Kriterien für die Aufnahme in diesen Abschnitt erfüllt.*
+
+| Element | Inhalt |
+|---------|--------|
+| Klassifizierung der Zytotoxizität | Zielgerichtete Therapie — Antikörper-Wirkstoff-Konjugat (ADC) mit zytotoxischem Wirkstoff (MMAE, ein Inhibitor der Tubulin-Polymerisation) |
+| Risiko der Knochenmarksuppression | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Packungsbeilage |
+| Klassifizierung der Emetogenität | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Packungsbeilage |
+| Überwachungselemente | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Packungsbeilage |
+| Handhabungsschutz | ADCs unterliegen typischerweise Vorsichtsmaßnahmen zur Handhabung zytotoxischer/gefährlicher Arzneimittel; bitte beachten Sie das institutionelle Handhabungsprotokoll |
+
+---
+
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. *(Hinweis: TFDA-Kennzeichnungs-/Warnungsdaten sind eine blockierende Datenlücke — DG001 — und müssen gelöst werden, bevor eine S1-Sicherheitsbewertung fortgesetzt werden kann.)*
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Zurückstellen**
+
+**Begründung:**
+Die Vorhersage liegt auf Evidenzgrad L5 — keine klinischen Studien, keine Literatur und keine plausible Zielexpressions-Rationale (CD79b wird in HER2-positivem Mammakarzinom nicht exprimiert). In Kombination mit der blockierenden Datenlücke bei TFDA/Deutscher Kennzeichnung und des aktuellen Status „nicht im Handel" des Arzneimittels in Deutschland gibt es keine ausreichende Grundlage, um diesen Kandidaten voranzutreiben.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+- Präklinische Evidenz für CD79b-Expression oder einen alternativen Zielengagement-Mechanismus in HER2-positiven Brustkrebsmodellen
+- Lösung der blockierenden Datenlücke DG001 (TFDA/Deutsche zugelassene Kennzeichnung, Warnungen, Kontraindikationen)
+- Bestätigte Wirkmechanismus-Daten (DG002)
+- Klärung des Deutschen Markt-/Regulierungsstatus vor jeglicher weiterer Überlegung zur klinischen Entwicklung
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

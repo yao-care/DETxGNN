@@ -29,63 +29,64 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9**
 
 </div>
 
-# Fidaxomicin: From Clostridioides difficile Infection to Staphylococcal Scalded Skin Syndrome
+# Fidaxomicin: Von Clostridioides-difficile-Infektion zu Staphylokokken-Verbrühungssyndrom
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Fidaxomicin is a narrow-spectrum macrolide antibiotic whose only established clinical use is treating *Clostridioides difficile* infection (CDI), acting locally in the gut with negligible systemic absorption.
-The TxGNN model predicts it may be effective for **Staphylococcal Scalded Skin Syndrome (SSSS)**,
-but currently **0 clinical trials** and **0 publications** support this specific prediction, and the underlying mechanism argues against systemic efficacy.
+Fidaxomicin ist ein Makrolid-Antibiotikum mit engem Spektrum, dessen einzige etablierte klinische Verwendung die Behandlung einer *Clostridioides-difficile*-Infektion (CDI) ist, wobei es lokal im Darm wirkt mit vernachlässigbarer systemischer Absorption.
+Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam gegen das **Staphylokokken-Verbrühungssyndrom (SSSS)** sein könnte,
+aber derzeit **0 klinische Studien** und **0 Publikationen** unterstützen diese spezifische Vorhersage, und der zugrunde liegende Mechanismus spricht gegen systemische Wirksamkeit.
 
-## Quick Overview
+## Schnelle Übersicht
 
-| Item | Content |
-|------|------|
-| Original Indication | *Clostridioides difficile* infection (per known clinical use; not registered in this market — no license data available) |
-| Predicted New Indication | Staphylococcal Scalded Skin Syndrome |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L5 |
-| Germany Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Punkt | Inhalt |
+|-------|--------|
+| Ursprüngliche Indikation | *Clostridioides-difficile*-Infektion (gemäß etablierter klinischer Verwendung; nicht auf diesem Markt registriert – keine Zulassungsdaten verfügbar) |
+| Vorhergesagte neue Indikation | Staphylokokken-Verbrühungssyndrom |
+| TxGNN-Vorhersage-Score | 99.71% |
+| Evidenzebene | L5 |
+| Marktstatus in Deutschland | Nicht vermarktet (Nicht vermarktet) |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Zurückhalten |
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage angemessen?
 
-Currently, detailed mechanism of action data is not available (Data Gap). Based on known clinical use, fidaxomicin is a narrow-spectrum macrolide antibiotic that inhibits bacterial RNA polymerase; its efficacy has been established specifically for *C. difficile*-associated diarrhea, where it acts almost entirely within the gut lumen — systemic absorption after oral dosing is less than 1%.
+Derzeit sind detaillierte Daten zum Wirkmechanismus nicht verfügbar (Datenlücke). Basierend auf bekannter klinischer Verwendung ist Fidaxomicin ein Makrolid-Antibiotikum mit engem Spektrum, das die bakterielle RNA-Polymerase hemmt; seine Wirksamkeit wurde speziell für *C.-difficile*-assoziierte Diarrhö etabliert, wobei es fast ausschließlich im Darmlumen wirkt – die systemische Absorption nach oraler Gabe beträgt weniger als 1%.
 
-This pharmacokinetic profile is the central problem for the predicted indication. SSSS is a systemic dermatologic disease caused by exfoliative toxins from *Staphylococcus aureus*, requiring a drug with meaningful systemic (or at minimum, skin-penetrant) bioavailability and activity against staphylococci. Fidaxomicin achieves neither: its distribution is essentially confined to the gastrointestinal tract, and its antibacterial spectrum is oriented toward *C. difficile* and related anaerobic gram-positive organisms rather than typical cutaneous *S. aureus* strains.
+Dieses pharmakokinetische Profil ist das zentrale Problem für die vorhergesagte Indikation. SSSS ist eine systemische dermatologische Erkrankung, die durch exfoliative Toxine von *Staphylococcus aureus* verursacht wird und ein Arzneimittel mit aussagekräftiger systemischer (oder zumindest hautpenetrierender) Bioverfügbarkeit und Aktivität gegen Staphylokokken erfordert. Fidaxomicin erreicht keines von beiden: seine Verteilung ist im Wesentlichen auf den Gastrointestinaltrakt beschränkt, und sein Antibiotika-Spektrum ist eher auf *C. difficile* und verwandte anaerobe gram-positive Organismen ausgerichtet als auf typische kutane *S.-aureus*-Stämme.
 
-Given this mismatch, the prediction should be interpreted as a statistical association surfaced by the TxGNN model rather than a mechanistically supported hypothesis. No pharmacokinetic, microbiological, or clinical evidence currently bridges the gap between fidaxomicin's known behavior and the requirements of SSSS treatment.
+Angesichts dieser Unstimmigkeit sollte die Vorhersage als statistische Assoziation interpretiert werden, die das TxGNN-Modell zutage gefördert hat, statt als mechanistisch gestützte Hypothese. Derzeit gibt es keine pharmakokinetischen, mikrobiologischen oder klinischen Belege, die die Lücke zwischen Fidaxomicins bekanntem Verhalten und den Anforderungen der SSSS-Behandlung schließen.
 
-## Clinical Trial Evidence
+## Klinische Studien
 
-Currently no related clinical trials registered.
+Derzeit sind keine verwandten klinischen Studien registriert.
 
-## Literature Evidence
+## Literaturbelege
 
-Currently no related literature available.
+Derzeit ist keine verwandte Literatur verfügbar.
 
-## Germany Market Information
+## Informationen zum deutschen Markt
 
-This drug currently holds no marketing authorizations in this jurisdiction (0 licenses on record); no product/authorization table can be generated.
+Dieses Arzneimittel hält derzeit keine Zulassungen in dieser Gerichtsbarkeit (0 erfasste Lizenzen); es kann keine Produkt-/Zulassungstabelle erstellt werden.
 
-## Safety Considerations
+## Sicherheitsaspekte
 
-Please refer to the package insert for safety information. TFDA label warnings, contraindications, and drug interaction data are currently unavailable (flagged as a **Blocking** data gap — DG001), which by itself prevents any S1 safety pre-assessment for this candidate.
+Bitte beziehen Sie sich auf die Packungsbeilage für Sicherheitsinformationen. TFDA-Kennzeichnungswarnungen, Kontraindikationen und Arzneimittelwechselwirkungs-Daten sind derzeit nicht verfügbar (gekennzeichnet als **blockierende** Datenlücke – DG001), was an sich eine S1-Sicherheits-Vorabprüfung für diesen Kandidaten verhindert.
 
-## Conclusion and Next Steps
+## Fazit und nächste Schritte
 
-**Decision: Hold**
+**Entscheidung: Zurückhalten**
 
-**Rationale:**
-The top-ranked prediction (SSSS) has Evidence Level L5 — a TxGNN statistical score with no supporting clinical trials or literature — and the drug's known pharmacokinetics (gut-restricted, <1% systemic absorption) argue mechanistically against efficacy in a systemic staphylococcal skin disease. The drug is also unmarketed in this jurisdiction (0 authorizations), and safety data required for any S1 evaluation is currently blocked (DG001).
+**Begründung:**
+Die topgerankte Vorhersage (SSSS) hat Evidenzebene L5 – ein TxGNN-statistischer Score ohne unterstützende klinische Studien oder Literatur – und die bekannte Pharmakokinetik des Arzneimittels (darmgebunden, <1% systemische Absorption) sprechen mechanistisch gegen Wirksamkeit in einer systemischen staphylokokkalen Hauterkrankung. Das Arzneimittel ist auch in dieser Gerichtsbarkeit nicht vermarktet (0 Zulassungen), und für eine S1-Bewertung erforderliche Sicherheitsdaten sind derzeit blockiert (DG001).
 
-**To proceed, the following is needed:**
-- TFDA/official label data on warnings, contraindications, and interactions (Blocking gap, DG001)
-- Confirmed mechanism of action from DrugBank or primary literature (High-priority gap, DG002)
-- Preclinical or in vitro evidence of fidaxomicin activity against *S. aureus* strains relevant to SSSS
-- Pharmacokinetic data demonstrating adequate systemic/dermal exposure, if systemic use is to be considered
-- Note: rank 8 (*S. aureus* pneumonia, L4, one review-level citation) is comparably weak and not a stronger alternative without primary evidence
+**Um voranzukommen, ist Folgendes erforderlich:**
+- TFDA-/offizielle Kennzeichnungs-Daten zu Warnungen, Kontraindikationen und Wechselwirkungen (blockierende Lücke, DG001)
+- Bestätigter Wirkmechanismus aus DrugBank oder Primärliteratur (Hochprioritäts-Lücke, DG002)
+- Präklinische oder in-vitro-Belege für Fidaxomicin-Aktivität gegen *S.-aureus*-Stämme, die für SSSS relevant sind
+- Pharmakokinetische Daten, die ausreichende systemische/dermale Exposition demonstrieren, falls systemische Anwendung erwogen wird
+- Anmerkung: Rang 8 (*S.-aureus*-Pneumonie, L4, ein Zitat auf Review-Ebene) ist vergleichbar schwach und keine stärkere Alternative ohne Primärbelege
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

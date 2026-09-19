@@ -29,76 +29,77 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Metreleptin：原始適應症資料缺失 → Familial Generalized Lentiginosis（家族性泛發性雀斑樣痣）
+# Metreleptin: Fehlende Daten zu Originalindikationen → Familiale verallgemeinerte Lentiginose (familiär generalisierte linsenförmige Flecken)
 
-## 一句話摘要
+## Einzeilenzusammenfassung
 
-Metreleptin（DrugBank ID: DB09046）為 leptin 受體促效劑，但本次 Evidence Pack 未提供其原始核准適應症與詳細作用機轉資料。TxGNN 模型將 **familial generalized lentiginosis** 列為排名第一的預測新適應症（分數 99.71%），但**目前無任何臨床試驗或文獻佐證**，屬純模型預測層級。
-
----
-
-## 快速總覽
-
-| 項目 | 內容 |
-|------|------|
-| 原始適應症 | 資料缺失（Evidence Pack 未提供，licenses 為空） |
-| 預測新適應症 | Familial generalized lentiginosis（家族性泛發性雀斑樣痣） |
-| TxGNN 預測分數 | 99.71%（rank 3992） |
-| 證據等級 | L5（僅模型預測，無實際研究） |
-| 台灣上市狀態 | Not marketed |
-| 許可證數量 | 0 |
-| 建議決策 | Hold |
+Metreleptin (DrugBank ID: DB09046) ist ein Leptinrezeptor-Agonist, aber dieses Evidence Pack bietet keine Daten zu seinen ursprünglichen zugelassenen Indikationen und zum detaillierten Wirkmechanismus. Das TxGNN-Modell listet **familiale verallgemeinerte Lentiginose** als die am höchsten bewertete vorhergesagte neue Indikation auf (Punktzahl: 99.71%), aber **es gibt derzeit keine klinischen Studien oder Literaturbelege**, was auf eine reine Modellvorhersage auf dieser Ebene hindeutet.
 
 ---
 
-## 為什麼這個預測合理？
+## Überblick
 
-目前無法取得 metreleptin 詳細作用機轉資料（original_moa 為資料缺口）。根據一般已知資訊，metreleptin 是重組人類 leptin 類似物，作用於 leptin 受體，主要用於 leptin 缺乏相關之脂肪失養症（lipodystrophy）族群；然而本 Evidence Pack 中並未提供此原始適應症的正式核准文字，故無法在此報告中確認並列出。
-
-排名第一的預測適應症 familial generalized lentiginosis 屬於 LEOPARD/Noonan 症候群譜系（RASopathy，色素沉著相關遺傳症候群），與 leptin 訊號通路之間**沒有已知的機轉關聯**。Evidence Pack 中的 repurposing rationale 也明確指出，此分數可能反映知識圖譜中罕見疾病節點資料稀疏所產生的雜訊關聯，而非具生物學合理性的預測。
-
-進一步檢視排名 2–10 的候選適應症（gastrocutaneous syndrome、Moynahan syndrome、rhabdoid tumor、OPD-白瀏海症候群、CAL-SCE 症候群、acromelanosis、LAAN 症候群、腎上腺良性腫瘤、周邊神經鞘瘤），皆為極罕見遺傳症候群或與 leptin 生理學無已建立連結之腫瘤，且**全數無任何臨床試驗或文獻支持**，evidence level 均為 L5、建議皆為 Hold。整體而言，此批預測目前僅具探索性質，不具備進入臨床評估的證據基礎。
-
----
-
-## 臨床試驗證據
-
-目前無相關臨床試驗登記。
+| Merkmal | Inhalt |
+|---------|--------|
+| Originalindikation | Daten fehlend (Evidence Pack nicht bereitgestellt, Lizenzen leer) |
+| Vorhergesagte neue Indikation | Familiale verallgemeinerte Lentiginose (familiär generalisierte linsenförmige Flecken) |
+| TxGNN Vorhersage-Score | 99.71% (Rang 3992) |
+| Evidenzstufe | L5 (reine Modellvorhersage, keine tatsächliche Forschung) |
+| Zulassungsstatus in Taiwan | Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## 文獻證據
+## Warum ist diese Vorhersage plausibel?
 
-目前無相關文獻可查。
+Derzeit sind keine detaillierten Wirkmechanismus-Daten für metreleptin verfügbar (original_moa ist eine Datenlücke). Nach verfügbaren Informationen ist metreleptin ein rekombinantes humanes Leptinanalogon, das auf den Leptinrezeptor wirkt und hauptsächlich bei leptinmangelbedingter Lipodystrophie eingesetzt wird. Jedoch stellt dieses Evidence Pack keinen offiziellen Zulassungstext für diese ursprüngliche Indikation zur Verfügung, daher kann sie in diesem Bericht nicht bestätigt und aufgelistet werden.
 
----
+Die am höchsten bewertete vorhergesagte Indikation, familiale verallgemeinerte Lentiginose, gehört zum LEOPARD-/Noonan-Syndrom-Spektrum (RASopathie, pigmentierungsassoziiertes genetisches Syndrom) und **zeigt keine bekannten mechanistischen Zusammenhänge** mit dem Leptinsignalweg. Das Repurposing-Rationale im Evidence Pack macht auch deutlich, dass diese Punktzahl möglicherweise artifizielle Assoziationen widerspiegelt, die durch mangelnde Verfügbarkeit von Daten bei seltenen Krankheitsknoten im Wissensgraph entstehen, und nicht eine biologisch plausible Vorhersage darstellt.
 
-## 台灣上市資訊
-
-Metreleptin 目前未在台灣上市，無許可證資料。
+Eine weitere Überprüfung der Kandidatenindikationen in den Rängen 2–10 (gastrokutane Syndrome, Moynahan-Syndrom, rhabdoides Tumor, OPD-Weißlock-Syndrom, CAL-SCE-Syndrom, Acromelanose, LAAN-Syndrom, benigne Nebennierentumoren, periphere Nervenscheidentumoren) zeigt, dass diese alle extrem seltene genetische Syndrome oder Tumoren ohne etablierte Verbindungen zur Leptinphysiologie sind, und **keine einzige wird durch klinische Studien oder Literatur gestützt**. Die Evidenzstufen sind alle L5 und die Empfehlungen sind alle Hold. Insgesamt hat diese Charge von Vorhersagen derzeit nur explorative Natur und entbehrt der Evidenzbasis für den Eintritt in eine klinische Bewertung.
 
 ---
 
-## 安全性考量
+## Klinische Studienevidenz
 
-請參考仿單以獲取安全性資訊。
-
-（註：BfArM package insert warnings/contraindications資料為 **Blocking** 等級缺口 DG001，尚未取得；此為進入 S1 安全性初評前必須補齊之前提條件。）
+Derzeit sind keine relevanten klinischen Studien registriert.
 
 ---
 
-## 結論與下一步
+## Literaturbelege
 
-**決策：Hold**
+Es ist derzeit keine relevante Literatur verfügbar.
 
-**理由：**
-前十名預測適應症之證據等級皆為 L5（僅模型分數，無臨床試驗或文獻佐證），且藥物本身之原始適應症、作用機轉、台灣仿單安全性資料均缺失（含 1 項 Blocking 缺口），目前無法進行任何安全性初評，故建議 Hold。
+---
 
-**若要推進，需要補齊：**
-- BfArM package insert warnings/contraindications資料（DG001，Blocking，需下載仿單 PDF 解析）
-- DrugBank MOA 詳細資料（DG002，需Query the DrugBank API）
-- Metreleptin 原始核准適應症之正式來源文字，以建立與預測適應症之機轉比對基礎
-- 針對排名前 1–3 候選適應症，執行 PubMed／ClinicalTrials.gov／ICTRP 補充檢索，確認是否存在目前資料庫未收錄之間接證據
+## Taiwan-Marktzulassungsinformationen
+
+Metreleptin ist derzeit nicht auf dem taiwanischen Markt zugelassen und es liegen keine Zulassungsdaten vor.
+
+---
+
+## Sicherheitserwägungen
+
+Bitte konsultieren Sie die Fachinformation für Sicherheitsaspekte.
+
+(Hinweis: BfArM Fachinformation Warnungen/Kontraindikationen-Daten sind eine **Blocking**-Datenlücke DG001 und wurden noch nicht beschafft; dies ist eine notwendige Voraussetzung, die vor Eintritt in die S1-Sicherheitsinitialbewertung erfüllt werden muss.)
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Hold**
+
+**Begründung:**
+Die Evidenzstufen der zehn am höchsten bewerteten vorhergesagten Indikationen sind alle L5 (nur Modellpunkte, ohne klinische Studien oder Literaturbelege), und dem Arzneimittel selbst fehlen Originalindikationen, Wirkmechanismus und taiwanische Fachinformation-Sicherheitsdaten (einschließlich 1 Blocking-Datenlücke). Derzeit kann keine Sicherheitsinitialbewertung durchgeführt werden, daher wird Hold empfohlen.
+
+**Um voranzufahren, müssen folgende Lücken geschlossen werden:**
+- BfArM Fachinformation Warnungen/Kontraindikationen-Daten (DG001, Blocking, benötigt PDF-Download und -Analyse der Fachinformation)
+- DrugBank MOA Detaildaten (DG002, benötigt Query der DrugBank-API)
+- Offizieller Originaltext für die zugelassenen Originalindikationen von metreleptin, um eine Basis für den mechanistischen Vergleich mit vorhergesagten Indikationen zu etablieren
+- Durchführung von ergänzenden Suchen in PubMed/ClinicalTrials.gov/ICTRP für die Kandidatenindikationen in den Rängen 1–3, um zu bestätigen, ob indirekte Nachweise existieren, die in der aktuellen Datenbank nicht erfasst sind
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

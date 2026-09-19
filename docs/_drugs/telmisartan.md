@@ -29,95 +29,96 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Telmisartan: From Hypertension to Cerebral Artery Occlusion
+# Telmisartan: Von Hypertonie zu zerebraler Arterienokklusion
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Telmisartan is an angiotensin II type 1 (AT1) receptor blocker (ARB class) established for blood pressure control, though this evidence pack does not contain a formally documented original indication or structured MOA record.
-Among TxGNN's top 10 predicted indications, the model's highest-scoring output (**Prinzmetal angina**, 99.98%) is explicitly flagged within the evidence pack itself as lacking mechanistic or empirical support and is not carried forward.
-The most evidence-supported candidate is **Cerebral Artery Occlusion**, backed by **1 completed Phase 4 RCT (n=1,228)**, **2 terminated sub-studies with minimal enrollment**, and **17 preclinical/mechanistic publications**.
+Telmisartan ist ein etablierter AT1-Rezeptorblocker (ARB-Klasse) zur Blutdruckkontrolle, wobei dieses Evidenzpaket keinen formal dokumentierten ursprünglichen Hinweis oder strukturierten MOA-Datensatz enthält.
+Unter den Top-10-Vorhersagen von TxGNN ist das höchste Ergebnis des Modells (**Prinzmetal-Angina**, 99.98%) ausdrücklich im Evidenzpaket selbst als fehlende mechanistische oder empirische Unterstützung gekennzeichnet und wird nicht übernommen.
+Der am besten evidenzgestützte Kandidat ist **zerebrale Arterienokklusion**, unterstützt durch **1 abgeschlossene Phase-4-RCT (n=1.228)**, **2 beendete Unterstudien mit minimaler Rekrutierung** und **17 präklinische/mechanistische Publikationen**.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Element | Inhalt |
 |------|------|
-| Original Indication | Not available — no license records returned (see MOA note below) |
-| Predicted New Indication | Cerebral Artery Occlusion |
-| TxGNN Prediction Score | 99.95% |
-| Evidence Level | L2 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | Nicht verfügbar — keine Lizenzeinträge gefunden (siehe MOA-Hinweis unten) |
+| Vorhergesagte neue Indikation | Zerebrale Arterienokklusion |
+| TxGNN-Vorhersage-Punktzahl | 99.95% |
+| Evidenzstufe | L2 |
+| Status auf deutschem Markt | ✗ Nicht im Handel |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage vernünftig?
 
-Currently, detailed mechanism of action data is not available in structured form (DrugBank query gap, DG002). Based on information present in this evidence pack's own rationale annotations, telmisartan is an AT1 receptor blocker whose established antihypertensive activity underlies its cardiovascular risk-reduction profile; however, no active marketing authorization or approved-indication text for Germany was returned (0 licenses).
+Derzeit sind detaillierte Mechanismus-der-Wirkung-Daten nicht in strukturierter Form verfügbar (DrugBank-Abfragelücke, DG002). Basierend auf Informationen, die in den Rationale-Anmerkungen des Evidenzpakets selbst vorhanden sind, ist Telmisartan ein AT1-Rezeptorblocker, dessen etablierte blutdrucksenkende Aktivität seinem Profil der kardiovaskulären Risikoreduktion zugrunde liegt; jedoch wurden keine aktiven Marketingzulassungen oder genehmigten Indikationstexte für Deutschland gefunden (0 Lizenzen).
 
-Blood pressure control is a recognized secondary-prevention strategy against ischemic cerebrovascular events, giving a plausible pharmacological bridge between telmisartan's known antihypertensive/cardioprotective use and cerebral artery occlusion. Beyond BP lowering, AT1 blockade has been shown in numerous rodent transient middle cerebral artery occlusion (tMCAO) models to reduce infarct volume, oxidative stress, and neuroinflammation, partly via PPARγ agonism — a pleiotropic mechanism distinct from classical ARBs (PMID 19604102, 32992165, 20498620).
+Die Blutdruckontrolle ist eine anerkannte Sekundärpräventionsstrategie gegen ischämische zerebrovaskuläre Ereignisse und bietet eine plausible pharmakologische Verbindung zwischen Telmisartans bekannter antihypertensiver/kardioprotektiver Anwendung und zerebraler Arterienokklusion. Über die Blutdrucksenkung hinaus hat AT1-Blockade in zahlreichen Nager-Transient-Middle-Cerebral-Artery-Occlusion-Modellen (tMCAO) gezeigt, dass das Infarktvolumen, oxidativer Stress und Neuroinflammation reduziert werden, teilweise über PPARγ-Agonismus — ein pleiotroper Mechanismus, der sich von klassischen ARBs unterscheidet (PMID 19604102, 32992165, 20498620).
 
-Clinically, this mechanistic plausibility is supported by NCT01075698, a completed Phase 4 RCT (n=1,228) evaluating telmisartan's effect on cardiovascular/biomarker outcomes in high-risk hypertensive patients. However, the TRIDENT-related sub-studies (NCT03783754, NCT03785067) were terminated after enrolling only 4 and 1 participants respectively, substantially limiting the clinical evidence base. Given the discrepancy between the model's top-ranked (but unsupported) prediction and this better-evidenced but still limited candidate, this report treats the finding as a research question rather than a ready-to-advance indication.
+Klinisch wird diese mechanistische Plausibilität durch NCT01075698 unterstützt, eine abgeschlossene Phase-4-RCT (n=1.228), die die Auswirkung von Telmisartan auf kardiovaskuläre/Biomarker-Ergebnisse bei Hochrisiko-Hypertonie-Patienten evaluiert. Jedoch wurden die TRIDENT-bezogenen Unterstudien (NCT03783754, NCT03785067) nach Einschreibung von nur 4 bzw. 1 Teilnehmern beendet, was die klinische Evidenzbasis erheblich einschränkt. Angesichts der Diskrepanz zwischen der top-bewerteten (aber nicht unterstützten) Vorhersage des Modells und diesem besser-evidenzgestützten, aber weiterhin limitierten Kandidaten behandelt dieser Bericht den Befund als eine Forschungsfrage statt als ein ready-to-advance-Hinweis.
 
 ---
 
-## Clinical Trial Evidence
+## Klinische Studienevidenz
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Studiennummer | Phase | Status | Rekrutierung | Wichtigste Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT01075698](https://clinicaltrials.gov/study/NCT01075698) | Phase 4 | Completed | 1,228 | PROBE-design trial comparing telmisartan (ARB) vs. standard therapy on cardiovascular biomarkers and events in high-risk hypertensive patients |
-| [NCT03783754](https://clinicaltrials.gov/study/NCT03783754) | N/A | Terminated | 4 | TRIDENT MRI sub-study of a fixed-dose BP-lowering "Triple Pill" in prior intracerebral haemorrhage patients — terminated for insufficient enrollment |
-| [NCT03785067](https://clinicaltrials.gov/study/NCT03785067) | Phase 3 | Terminated | 1 | TRIDENT cognitive sub-study (CANTAB memory decline outcome) — terminated at n=1, no usable data |
+| [NCT01075698](https://clinicaltrials.gov/study/NCT01075698) | Phase 4 | Abgeschlossen | 1.228 | PROBE-Design-Studie zum Vergleich von Telmisartan (ARB) vs. Standardtherapie bei kardiovaskulären Biomarkern und Ereignissen bei Hochrisiko-Hypertonie-Patienten |
+| [NCT03783754](https://clinicaltrials.gov/study/NCT03783754) | N/A | Beendet | 4 | TRIDENT-MRT-Unterstudie einer Fixdosis-Blutdrucksenkungspille (Triple Pill) bei Patienten mit vorheriger intrakranieller Hämorrhagie — beendet wegen unzureichender Rekrutierung |
+| [NCT03785067](https://clinicaltrials.gov/study/NCT03785067) | Phase 3 | Beendet | 1 | TRIDENT-Kognitiv-Unterstudie (CANTAB-Gedächtnisabnahme-Ergebnis) — beendet bei n=1, keine verwertbaren Daten |
 
 ---
 
-## Literature Evidence
+## Literaturedvidenz
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Journal | Wichtigste Ergebnisse |
 |------|-----|------|------|---------|
-| [21901125](https://pubmed.ncbi.nlm.nih.gov/21901125/) | 2011 | Review/Animal | PLoS ONE | Head-to-head comparison of telmisartan vs. ramipril for stroke prevention and neuroprotection in rat stroke models |
-| [19604102](https://pubmed.ncbi.nlm.nih.gov/19604102/) | 2009 | Animal study | J Neurotrauma | Telmisartan reduces cerebral infarct volume and peri-infarct cPLA2 levels in experimental stroke |
-| [24780412](https://pubmed.ncbi.nlm.nih.gov/24780412/) | 2014 | Animal study | J Stroke Cerebrovasc Dis | Reduces progressive oxidative stress and phosphorylated α-synuclein accumulation after tMCAO |
-| [32992165](https://pubmed.ncbi.nlm.nih.gov/32992165/) | 2020 | Animal study | J Stroke Cerebrovasc Dis | PPARγ-mediated Egr-1 inhibition benefits brain injury in ischaemic stroke model |
-| [25245484](https://pubmed.ncbi.nlm.nih.gov/25245484/) | 2014 | Animal study | J Stroke Cerebrovasc Dis | Ameliorates inflammatory responses (MCP-1, TNF-α, Iba1) after tMCAO |
-| [25307428](https://pubmed.ncbi.nlm.nih.gov/25307428/) | 2014 | Animal study | J Stroke Cerebrovasc Dis | Long-term amelioration of metabolic syndrome-related molecules (IR, PPAR-γ, AT1R) after tMCAO |
-| [20498620](https://pubmed.ncbi.nlm.nih.gov/20498620/) | 2010 | Animal study | J Hypertension | Low-dose telmisartan prevents ischemic brain damage via PPAR-γ activation in diabetic mice |
-| [29241675](https://pubmed.ncbi.nlm.nih.gov/29241675/) | 2018 | Animal study | J Stroke Cerebrovasc Dis | Prevents learning/memory deficits via PPAR-γ in MCAO-induced vascular dementia rats |
-| [18360031](https://pubmed.ncbi.nlm.nih.gov/18360031/) | 2008 | Animal study | Hypertens Res | Attenuates focal brain ischemia in atherosclerotic ApoE-deficient mice |
-| [41341617](https://pubmed.ncbi.nlm.nih.gov/41341617/) | 2025 | Animal/In silico | Toxicology Reports | Attenuates cerebral ischemia-reperfusion neurotoxicity via Nrf2/HO-1 pathway modulation |
+| [21901125](https://pubmed.ncbi.nlm.nih.gov/21901125/) | 2011 | Übersicht/Tier | PLoS ONE | Head-to-head-Vergleich von Telmisartan vs. ramipril zur Schlaganfallprävention und Neuroprotection in Ratten-Schlaganfall-Modellen |
+| [19604102](https://pubmed.ncbi.nlm.nih.gov/19604102/) | 2009 | Tierstudie | J Neurotrauma | Telmisartan reduziert das Hirninfarktvolumen und peri-Infarkt-cPLA2-Spiegel in experimentellem Schlaganfall |
+| [24780412](https://pubmed.ncbi.nlm.nih.gov/24780412/) | 2014 | Tierstudie | J Stroke Cerebrovasc Dis | Reduziert progressiven oxidativen Stress und phosphorylierte α-Synuclein-Ansammlung nach tMCAO |
+| [32992165](https://pubmed.ncbi.nlm.nih.gov/32992165/) | 2020 | Tierstudie | J Stroke Cerebrovasc Dis | PPARγ-vermittelte Egr-1-Hemmung hilft bei Hirnverletzungen im ischämischen Schlaganfall-Modell |
+| [25245484](https://pubmed.ncbi.nlm.nih.gov/25245484/) | 2014 | Tierstudie | J Stroke Cerebrovasc Dis | Bessert entzündliche Reaktionen (MCP-1, TNF-α, Iba1) nach tMCAO |
+| [25307428](https://pubmed.ncbi.nlm.nih.gov/25307428/) | 2014 | Tierstudie | J Stroke Cerebrovasc Dis | Langzeitbesserung von Stoffwechsel-Syndrom-assoziierten Molekülen (IR, PPAR-γ, AT1R) nach tMCAO |
+| [20498620](https://pubmed.ncbi.nlm.nih.gov/20498620/) | 2010 | Tierstudie | J Hypertension | Geringe Dosis Telmisartan verhindert ischämische Hirnschäden über PPAR-γ-Aktivierung in diabetischen Mäusen |
+| [29241675](https://pubmed.ncbi.nlm.nih.gov/29241675/) | 2018 | Tierstudie | J Stroke Cerebrovasc Dis | Verhindert Lern-/Gedächtnisdefizite über PPAR-γ in MCAO-induzierter vaskulärer Demenz-Ratten |
+| [18360031](https://pubmed.ncbi.nlm.nih.gov/18360031/) | 2008 | Tierstudie | Hypertens Res | Vermindert fokale Hirnischämie in atherosclerotischen ApoE-defizienten Mäusen |
+| [41341617](https://pubmed.ncbi.nlm.nih.gov/41341617/) | 2025 | Tier/In silico | Toxicology Reports | Vermindert zerebrale Ischämie-Reperfusions-Neurotoxizität über Nrf2/HO-1-Pfad-Modulation |
 
 ---
 
-## Germany Market Information
+## Informationen zum deutschen Markt
 
-Telmisartan is currently **not marketed in Germany** — no active marketing authorization records were returned in this evidence pack (`total_licenses = 0`).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-Note: Key warnings, contraindications, and DDI data could not be retrieved for this drug (data gap DG001, marked **Blocking**). This gap prevents a full S1 safety evaluation and must be resolved before any development decision is finalized.
+Telmisartan ist derzeit **nicht auf dem deutschen Markt zugelassen** — keine aktiven Marketingzulassungseinträge wurden in diesem Evidenzpaket gefunden (`total_licenses = 0`).
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsüberlegungen
 
-**Decision: Hold**
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
 
-**Rationale:**
-- The TxGNN model's single highest-ranked prediction (Prinzmetal angina) has no mechanistic or empirical support and was excluded from consideration. The best-evidenced candidate found (cerebral artery occlusion, L2) rests on one completed Phase 4 trial of unclear telmisartan-specific contribution plus two severely underpowered terminated sub-studies (n=1, n=4).
-- A **Blocking** data gap (missing label warnings/contraindications, DG001) prevents safety evaluation, and telmisartan has no active marketing authorization in Germany, so no regulatory pathway currently exists to build on.
+Hinweis: Wichtige Warnungen, Kontraindikationen und DDI-Daten konnten für dieses Arzneimittel nicht abgerufen werden (Datenlücke DG001, markiert als **Blocking**). Diese Lücke verhindert eine vollständige S1-Sicherheitsbewertung und muss vor einer finalen Entwicklungsentscheidung gelöst werden.
 
-**To proceed, the following is needed:**
-- Retrieve and parse the German/EU product label (SmPC) for warnings, contraindications, and DDI (resolve DG001)
-- Retrieve structured MOA and original-indication data from DrugBank (resolve DG002)
-- Clarify telmisartan's specific role and dosing within the TRIDENT combination-pill trial (NCT02699645) versus the pill's other components
-- Assess the regulatory pathway/feasibility for obtaining German marketing authorization, given zero current licenses
-- If pursuing the secondary candidate (intracerebral hemorrhage, L3), similarly disentangle telmisartan's independent contribution from the combination therapy design
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Hold**
+
+**Begründung:**
+- Die einzeln höchst bewertete Vorhersage des TxGNN-Modells (Prinzmetal-Angina) hat keine mechanistische oder empirische Unterstützung und wurde aus der Betrachtung ausgeschlossen. Der am besten evidenzgestützte gefundene Kandidat (zerebrale Arterienokklusion, L2) beruht auf einer abgeschlossenen Phase-4-Studie mit unklar definierten Telmisartan-spezifischen Beitrag plus zwei stark unterpowerte beendete Unterstudien (n=1, n=4).
+- Eine **Blocking**-Datenlücke (fehlende Kennzeichnungswarnungen/Kontraindikationen, DG001) verhindert eine Sicherheitsbewertung, und Telmisartan hat keine aktive Marketingzulassung in Deutschland, daher existiert derzeit kein regulatorischer Pfad zum Aufbau.
+
+**Um voranzuschreiten, wird Folgendes benötigt:**
+- Abrufen und Analyse der deutschen/EU-Produktkennzeichnung (SmPC) für Warnungen, Kontraindikationen und DDI (DG001 lösen)
+- Strukturierte MOA- und ursprüngliche Indikationsdaten von DrugBank abrufen (DG002 lösen)
+- Telmisartans spezifische Rolle und Dosierung innerhalb der TRIDENT-Kombinationspillen-Studie (NCT02699645) versus die anderen Komponenten der Pille klären
+- Regulatorischen Weg/Machbarkeit zur Erlangung einer deutschen Marketingzulassung bewerten, angesichts null aktueller Lizenzen
+- Falls der sekundäre Kandidat (intrazerebrale Hämorrhagie, L3) verfolgt wird, ähnlich Telmisartans unabhängigen Beitrag vom Kombinationstherapie-Design unterscheiden
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

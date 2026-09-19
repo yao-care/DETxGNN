@@ -29,75 +29,76 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Norelgestromin: From Contraception to Amenorrhea
+# Norelgestromin: Von der Empfängnisverhütung zur Amenorrhö
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Norelgestromin is the active metabolite of norgestimate, a third-generation progestin used as the progestogen component of a combined transdermal contraceptive patch. The TxGNN model predicts a potential new indication of **Amenorrhea**, but this direction is currently supported by **zero clinical trials** and **zero publications** — and the supplied rationale itself flags the prediction as a likely reverse-causality artifact, since amenorrhea is a documented *adverse effect* of this drug, not a condition it is known to treat.
+Norelgestromin ist der aktive Metabolit von Norgestimate, einem Progestin der dritten Generation, das als Gestagen-Komponente eines kombinierten transdermalen Kontrazeptivums verwendet wird. Das TxGNN-Modell prognostiziert eine mögliche neue Indikation **Amenorrhö**, die jedoch derzeit durch **null klinische Studien** und **null Publikationen** gestützt wird – und die bereitgestellte Begründung selbst kennzeichnet die Vorhersage als wahrscheinliches Artefakt reverser Kausalität, da Amenorrhö eine dokumentierte *Nebenwirkung* dieses Arzneimittels ist und keine Erkrankung, deren Behandlung bekannt wäre.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
-|------|------|
-| Original Indication | Not on file in this evidence pack (no approved product license found); drug is clinically used as a component of a combined transdermal contraceptive patch |
-| Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.51% |
+| Element | Inhalt |
+|---------|--------|
+| Original-Indikation | Nicht in diesem Evidence Pack enthalten (keine zugelassene Produktlizenz gefunden); das Arzneimittel wird klinisch als Komponente eines kombinierten transdermalen Kontrazeptivums verwendet |
+| Prognostizierte neue Indikation | Amenorrhö |
+| TxGNN-Vorhersage-Score | 99.51% |
 | Evidence Level | L5 |
-| Germany Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Marktstatus Deutschland | Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Zurückhalten |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage sinnvoll?
 
-Norelgestromin is the active metabolite of norgestimate and acts as a third-generation progestin. Clinically, it is used as a component of a combined transdermal contraceptive patch, where it suppresses gonadotropin secretion, inhibits ovulation, and alters the endometrium to prevent pregnancy. A formally structured DrugBank mechanism-of-action record was not available in this evidence pack; the description above is derived from the drug's known pharmacological class and the rationale accompanying the prediction.
+Norelgestromin ist der aktive Metabolit von Norgestimate und wirkt als Progestin der dritten Generation. Klinisch wird es als Komponente eines kombinierten transdermalen Kontrazeptivums eingesetzt, wo es die Gonadotropin-Sekretion unterdrückt, den Eisprung hemmt und das Endometrium verändert, um eine Schwangerschaft zu verhindern. Ein formal strukturiertes Wirkmechanismus-Datensatz aus DrugBank war in diesem Evidence Pack nicht verfügbar; die obige Beschreibung leitet sich aus der bekannten Pharmakologieklasse des Arzneimittels und der die Vorhersage begleitenden Begründung ab.
 
-The predicted new indication — amenorrhea — is mechanistically connected to norelgestromin only through its **already-established adverse effect profile**. Amenorrhea (absent or missed withdrawal bleeding) is a commonly reported reason patients discontinue combined hormonal contraceptives, including the norelgestromin/ethinyl estradiol patch. There is no known mechanism by which norelgestromin would be used *therapeutically* to treat amenorrhea; a progestin that suppresses the hypothalamic-pituitary-ovarian axis and thins the endometrium is pharmacologically far more consistent with **causing** amenorrhea than with correcting it.
+Die prognostizierte neue Indikation – Amenorrhö – ist mit Norelgestromin nur durch sein **bereits etabliertes Nebenwirkungsprofil** mechanistisch verbunden. Amenorrhö (ausbleibende oder verpasste Entzugsblutung) ist ein häufig angegebener Grund dafür, dass Patientinnen kombinierte hormonelle Kontrazeptiva, einschließlich des Norelgestromin/Ethinylestradiol-Pflasters, absetzen. Es gibt keinen bekannten Mechanismus, durch den Norelgestromin *therapeutisch* zur Behandlung von Amenorrhö verwendet würde; ein Progestin, das die hypothalamisch-hypophysär-ovarielle Achse unterdrückt und das Endometrium verdünnt, ist pharmakologisch weit mehr damit konsistent, Amenorrhö zu *verursachen*, als sie zu korrigieren.
 
-For this reason, the evidence pack itself flags this prediction as a probable **reverse-causality artifact**: TxGNN, like other knowledge-graph models, can mislearn a drug–adverse-event edge ("norelgestromin causes amenorrhea") as a drug–indication edge ("norelgestromin treats amenorrhea") — a known pitfall for progestins, where amenorrhea is heavily coded in pharmacovigilance data. The high TxGNN score (99.51%) should therefore not be read as an endorsement of therapeutic plausibility; it more likely reflects the strength of the drug–amenorrhea association driven by adverse-event reporting rather than any treatment signal.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Aus diesem Grund kennzeichnet das Evidence Pack selbst diese Vorhersage als wahrscheinliches Artefakt **reverser Kausalität**: TxGNN kann wie andere Knowledge-Graph-Modelle eine Arzneimittel–Nebenereignis-Kante („Norelgestromin verursacht Amenorrhö") fälschlicherweise als Arzneimittel–Indikations-Kante („Norelgestromin behandelt Amenorrhö") erlernen – ein bekannter Fallstrick bei Progestinen, bei denen Amenorrhö stark in Pharmakovigilanz-Daten kodiert ist. Der hohe TxGNN-Score (99.51%) sollte daher nicht als Bestätigung der therapeutischen Plausibilität gelesen werden; er spiegelt eher die Stärke der Arzneimittel–Amenorrhö-Assoziation wider, die durch Nebenwirkungsberichte angetrieben wird, als dass er ein echtes Behandlungssignal anzeigt.
 
 ---
 
-## Literature Evidence
+## Klinische Studienevidenz
 
-Currently no related literature available.
-
----
-
-## Germany Market Information
-
-Norelgestromin currently has no marketing authorization on file (market status: **Not Marketed**, 0 authorizations). No product name, dosage form, or approved-indication data is available in this evidence pack.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Safety Considerations
+## Literaturevidenz
 
-Please refer to the package insert for safety information.
+Derzeit ist keine zugehörige Literatur verfügbar.
 
 ---
 
-## Conclusion and Next Steps
+## Informationen zum Marktstatus Deutschland
 
-**Decision: Hold**
+Norelgestromin verfügt derzeit über keine archivierte Marktzulassung (Marktstatus: **Nicht vermarktet**, 0 Zulassungen). Keine Produktnamen-, Darreichungsform- oder zugelassenen Indikationsdaten sind in diesem Evidence Pack verfügbar.
 
-**Rationale:**
-- The evidence level is L5 (model prediction only, no clinical trials or literature), and the decision stage is S0 — the earliest possible stage, with no safety pre-screening completed.
-- The mechanistic rationale itself indicates this prediction is more likely a reverse-causality artifact (amenorrhea is a known adverse effect of norelgestromin, not a plausible treatment target) rather than a genuine repurposing signal.
+---
 
-**To proceed, the following is needed:**
-- TFDA/BfArM package insert data (warnings and contraindications) — currently a **Blocking** data gap (DG001), required before any S1 safety pre-screening can begin
-- Confirmed mechanism of action from the DrugBank API — currently a **High**-severity data gap (DG002)
-- An independent pharmacovigilance/literature review to explicitly test and either confirm or refute the reverse-causality hypothesis before any further evaluation
-- If the reverse-causality hypothesis is not resolved, this candidate should be deprioritized rather than advanced past S0
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Fachinformation für Sicherheitsinformationen.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Zurückhalten**
+
+**Begründung:**
+- Die Evidence Level ist L5 (nur Modellvorhersage, keine klinischen Studien oder Literatur), und das Entscheidungsstadium ist S0 – das früheste mögliche Stadium, ohne dass eine Sicherheits-Vorprüfung abgeschlossen wurde.
+- Die mechanistische Begründung selbst deutet darauf hin, dass diese Vorhersage wahrscheinlicher ein Artefakt reverser Kausalität ist (Amenorrhö ist eine bekannte Nebenwirkung von Norelgestromin, kein plausibler Behandlungszielbereich) als ein echtes Repurposing-Signal.
+
+**Um fortzufahren, ist folgendes erforderlich:**
+- TFDA/BfArM-Fachinformationsdaten (Warnhinweise und Kontraindikationen) – derzeit eine **Blocking**-Datenlücke (DG001), erforderlich bevor irgendwelche S1-Sicherheits-Vorprüfungen beginnen können
+- Bestätigter Wirkmechanismus aus der DrugBank-API – derzeit eine Datenlücke mit **hohem** Schweregrad (DG002)
+- Eine unabhängige Pharmakovigilanz-/Literaturübersicht, um die Hypothese reverser Kausalität explizit zu testen und entweder zu bestätigen oder zu widerlegen, bevor weitere Bewertungen erfolgen
+- Falls die Hypothese reverser Kausalität nicht gelöst wird, sollte dieser Kandidat eher als deprioritiert angesehen werden, als dass er über S0 hinaus vorgebracht wird
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -29,82 +29,83 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0**
 
 </div>
 
-# Caffeine Citrate: Repurposing Candidacy Evaluation — Prediction Not Yet Generated
+# Koffein-Citrat: Evaluierung der Neubewertungskandidatur — Vorhersage noch nicht generiert
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Caffeine citrate is a methylxanthine formulation established for treating **apnea of prematurity** in neonates, acting as an adenosine receptor antagonist to stimulate the central respiratory system.
-The TxGNN model has **not yet generated a repurposing prediction** for this compound — the current Evidence Pack reflects an early-stage data collection run with critical gaps remaining.
-A **Hold** decision is recommended until the core data gaps are resolved and predictions are produced.
+Koffein-Citrat ist eine Methylxanthin-Formulierung, die zur Behandlung von **Apnoe bei Frühgeborenen** bei Neugeborenen etabliert ist und als Antagonist des Adenosinrezeptors wirkt, um das zentrale Atemzentrum zu stimulieren.
+Das TxGNN-Modell hat **noch keine Neubewertungsvorhersage** für diese Verbindung generiert — das aktuelle Evidenzpaket spiegelt eine frühe Datenerfassungslaufzeit mit kritischen Lücken wider.
+Eine **Aussetzung** wird empfohlen, bis die grundlegenden Datenlücken behoben sind und Vorhersagen erzeugt werden.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Element | Inhalt |
 |------|------|
-| Original Indication | Apnea of prematurity (neonatal); not registered in Taiwan |
-| Predicted New Indication | Not yet generated |
-| TxGNN Prediction Score | Not available |
-| Evidence Level | L5 — No predictions generated; insufficient data for assessment |
-| Taiwan Market Status | ✗ Not marketed (0 authorizations) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+| Ursprüngliche Indikation | Apnoe bei Frühgeborenen (Neugeborene); nicht in Taiwan registriert |
+| Vorhergesagte neue Indikation | Noch nicht generiert |
+| TxGNN-Vorhersagepunktzahl | Nicht verfügbar |
+| Evidenzstufe | L5 — Keine Vorhersagen generiert; unzureichende Daten für Bewertung |
+| Taiwan-Marktstatus | ✗ Nicht vermarktet (0 Zulassungen) |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | **Aussetzung** |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage sinnvoll?
 
-This section cannot be completed in the current Evidence Pack cycle, as **no TxGNN repurposing prediction has been generated** for caffeine citrate. Without a candidate target indication, mechanistic plausibility cannot be assessed.
+Dieser Abschnitt kann im aktuellen Evidenzpaket-Zyklus nicht abgeschlossen werden, da **keine TxGNN-Neubewertungsvorhersage** für Koffein-Citrat generiert wurde. Ohne eine Kandidaten-Zielindikation kann die mechanistische Plausibilität nicht bewertet werden.
 
-From general pharmacological knowledge: caffeine citrate is a water-soluble salt formulation of caffeine, a non-selective adenosine receptor antagonist (A₁ and A₂A subtypes). It stimulates the medullary respiratory centre, increases chemoreceptor sensitivity to CO₂, and reduces apneic episodes in premature infants. Its methylxanthine mechanism is shared with theophylline and could theoretically be relevant to other adenosine-pathway-mediated conditions — but this remains speculative without a TxGNN prediction to anchor the analysis.
+Aus allgemeinem pharmakologischem Wissen: Koffein-Citrat ist ein wasserlösliches Salz von Koffein, ein nicht-selektiver Adenosinrezeptor-Antagonist (A₁ und A₂A Subtypen). Es stimuliert das medulläre Atemzentrum, erhöht die Chemorezeptor-Empfindlichkeit gegenüber CO₂ und verringert apnoische Episoden bei Frühgeborenen. Sein Methylxanthin-Mechanismus wird von Theophyllin geteilt und könnte theoretisch für andere Adenosin-Weg-vermittelte Zustände relevant sein — bleibt aber ohne eine TxGNN-Vorhersage zur Verankerung der Analyse spekulativ.
 
-Detailed MOA data was flagged as a **High-severity data gap** (DG002). The DrugBank query returned 1 result (see Query Log, ID 3), but the MOA field in the Evidence Pack remains unpopulated — this extraction step should be reviewed.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials are registered for a repurposing indication — no TxGNN target indication has been generated, so no evidence search has been scoped.
+Detaillierte MOA-Daten wurden als **Datenlücke mit hohem Schweregrad** gekennzeichnet (DG002). Die DrugBank-Abfrage gab 1 Ergebnis zurück (siehe Abfrage-Log, ID 3), aber das MOA-Feld im Evidenzpaket bleibt ungefüllt — dieser Extraktionsschritt sollte überprüft werden.
 
 ---
 
-## Literature Evidence
+## Evidenz aus klinischen Studien
 
-Currently no related literature is available — evidence collection is blocked pending TxGNN prediction output.
-
----
-
-## Taiwan Market Information
-
-Caffeine citrate is **not currently registered or marketed in Taiwan**. The TFDA query (Query Log, ID 1) returned 0 records. No authorization table is available.
-
-> **Note:** The TFDA package insert query (Query Log, ID 4) returned 1 result with `result_status: success`, yet safety warnings and contraindications in the Evidence Pack remain marked as `[Data Gap]`. The extracted content from this package insert should be reviewed and populated before the next evaluation cycle.
+Derzeit sind keine verwandten klinischen Studien für eine Neubewertungsindikation registriert — da keine TxGNN-Zielindikation generiert wurde, wurde keine Evidenzsuche eingegrenzt.
 
 ---
 
-## Safety Considerations
+## Literaturebeweis
 
-Please refer to the package insert for safety information.
-
-> The TFDA package insert was successfully retrieved (Query Log, ID 4), but warning and contraindication data was not extracted into this Evidence Pack. The DDI query returned no results (not found). Both issues require remediation before safety assessment can proceed.
+Derzeit ist keine verwandte Literatur verfügbar — die Evidenzerfassung ist blockiert, während auf die TxGNN-Vorhersageergebnisse gewartet wird.
 
 ---
 
-## Conclusion and Next Steps
+## Taiwan-Marktinformation
 
-**Decision: Hold**
+Koffein-Citrat ist **derzeit nicht in Taiwan registriert oder vermarktet**. Die TFDA-Abfrage (Abfrage-Log, ID 1) gab 0 Einträge zurück. Keine Autorisierungstabelle ist verfügbar.
 
-**Rationale:**
-No TxGNN repurposing predictions have been generated for caffeine citrate, and two critical data gaps — MOA and safety warnings — remain unfilled despite successful upstream queries, preventing any meaningful evaluation from proceeding.
+> **Hinweis:** Die TFDA-Packungsbeilage-Abfrage (Abfrage-Log, ID 4) gab 1 Ergebnis mit `result_status: success` zurück, doch Sicherheitswarnungen und Kontraindikationen im Evidenzpaket bleiben mit `[Data Gap]` gekennzeichnet. Der extrahierte Inhalt aus dieser Packungsbeilage sollte überprüft und vor dem nächsten Evaluierungszyklus gefüllt werden.
 
-**To proceed, the following is needed:**
+---
 
-- **Re-run TxGNN prediction pipeline** for caffeine citrate to generate a candidate target indication (currently `predicted_indications: []`)
-- **Extract MOA from DrugBank** — query ID 3 returned 1 result but the `original_moa` field is `[Data Gap]`; review the DrugBank extraction step
-- **Extract safety data from TFDA package insert** — query ID 4 returned 1 result with `result_status: success`; key warnings and contraindications were not populated into the Evidence Pack
-- **Confirm DDI scope** — after a target indication is established, re-run the DDI query with condition-specific drug combinations
-- **Assess Taiwan registration pathway** — caffeine citrate has 0 TFDA licenses; if a repurposing indication is identified, a registration strategy will need to be developed from scratch
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+> Die TFDA-Packungsbeilage wurde erfolgreich abgerufen (Abfrage-Log, ID 4), aber Warn- und Kontraindikationsdaten wurden nicht in dieses Evidenzpaket extrahiert. Die DDI-Abfrage gab keine Ergebnisse zurück (nicht gefunden). Beide Probleme erfordern eine Behebung, bevor die Sicherheitsbewertung fortgesetzt werden kann.
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Aussetzung**
+
+**Begründung:**
+Für Koffein-Citrat wurden keine TxGNN-Neubewertungsvorhersagen generiert, und zwei kritische Datenlücken — MOA und Sicherheitswarnungen — bleiben ungefüllt, obwohl die vorgelagerten Abfragen erfolgreich waren, was verhindert, dass eine sinnvolle Bewertung fortgesetzt werden kann.
+
+**Um fortzufahren, ist folgendes erforderlich:**
+
+- **TxGNN-Vorhersage-Pipeline erneut ausführen** für Koffein-Citrat, um eine Kandidaten-Zielindikation zu generieren (derzeit `predicted_indications: []`)
+- **MOA aus DrugBank extrahieren** — Abfrage ID 3 gab 1 Ergebnis zurück, aber das Feld `original_moa` ist `[Data Gap]`; den DrugBank-Extraktionsschritt überprüfen
+- **Sicherheitsdaten aus TFDA-Packungsbeilage extrahieren** — Abfrage ID 4 gab 1 Ergebnis mit `result_status: success` zurück; wichtige Warnungen und Kontraindikationen wurden nicht in das Evidenzpaket eingefüllt
+- **DDI-Umfang bestätigen** — nachdem eine Zielindikation etabliert wurde, die DDI-Abfrage mit bedingungsspezifischen Arzneimittelkombinationen erneut ausführen
+- **Taiwan-Registrierungsweg bewerten** — Koffein-Citrat hat 0 TFDA-Lizenzen; wenn eine Neubewertungsindikation identifiziert wird, muss eine Registrierungsstrategie von Grund auf entwickelt werden
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

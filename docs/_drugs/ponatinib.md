@@ -29,77 +29,78 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# PONATINIB: From Unspecified Indication to Fibromatosis, Gingival
+# PONATINIB: Von nicht spezifizierter Indikation zu Fibromatose, Gingival
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> No approved-indication or mechanism-of-action data for PONATINIB is currently available in this evidence pack.
-> The TxGNN model predicts potential efficacy for **Fibromatosis, Gingival**,
-> but **no clinical trials and no publications** currently support this direction.
+> Für PONATINIB sind derzeit keine Daten zu zugelassener Indikation oder Wirkmechanismus in diesem Beweispaket verfügbar.
+> Das TxGNN-Modell prognostiziert eine potenzielle Wirksamkeit für **Fibromatose, Gingival**,
+> aber **keine klinischen Versuche und keine Veröffentlichungen** unterstützen diese Richtung derzeit.
 
 ---
 
-## Quick Overview
+## Kurzübersicht
 
-| Item | Content |
+| Artikel | Inhalt |
 |------|------|
-| Predicted New Indication | Fibromatosis, Gingival |
-| TxGNN Prediction Score | 99.04% |
-| Evidence Level | L5 |
-| Germany Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Vorhergesagte neue Indikation | Fibromatose, Gingival |
+| TxGNN-Prognosewert | 99.04% |
+| Evidenzebene | L5 |
+| Marktstatus Deutschland | Nicht im Handel |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Abwarten |
 
-*Original Indication is omitted — no `approved_indication_text` or `original_indications` data is present in the evidence pack.*
-
----
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available for PONATINIB, and no original/approved indication is recorded in this evidence pack. As a result, no mechanistic rationale linking a known original indication to the predicted new indication (Fibromatosis, Gingival) can be constructed at this time.
-
-This prediction is based solely on the TxGNN knowledge-graph model's pattern score (99.04%, global rank 9776), without corroborating clinical trial or literature evidence. It should be treated as a hypothesis-generating signal only, pending mechanistic and regulatory data retrieval (see `data_gaps` DG001, DG002).
+*Die ursprüngliche Indikation wird weggelassen – es sind keine `approved_indication_text`- oder `original_indications`-Daten in diesem Beweispaket vorhanden.*
 
 ---
 
-## Clinical Trial Evidence
+## Warum ist diese Prognose angemessen?
 
-Currently no related clinical trials registered
+Derzeit sind detaillierte Wirkmechanismus-Daten für PONATINIB nicht verfügbar, und in diesem Beweispaket ist keine ursprüngliche/zugelassene Indikation erfasst. Infolgedessen kann derzeit keine mechanistische Begründung konstruiert werden, die eine bekannte ursprüngliche Indikation mit der vorhergesagten neuen Indikation (Fibromatose, Gingival) verknüpft.
 
----
-
-## Literature Evidence
-
-Currently no related literature available
+Diese Prognose basiert ausschließlich auf dem Musterwert des TxGNN-Knowledge-Graph-Modells (99.04%, globale Rangfolge 9776), ohne bestätigende klinische Versuche oder Fachliteratur-Evidenz. Sie sollte nur als hypothesengenerierendes Signal behandelt werden, bis die mechanistische und regulatorische Datenbeschaffung vorliegt (siehe `data_gaps` DG001, DG002).
 
 ---
 
-## Germany Market Information
+## Evidenz aus klinischen Versuchen
 
-No marketing authorizations are currently registered (`market_status: Not marketed`, `total_licenses: 0`).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*Note: TFDA/label warnings and contraindications are flagged as a **Blocking** data gap (DG001) — this drug cannot proceed past initial safety screening (S1) until label data is retrieved.*
+Derzeit sind keine zugehörigen klinischen Versuche registriert
 
 ---
 
-## Conclusion and Next Steps
+## Evidenz aus der Fachliteratur
 
-**Decision: Hold**
+Derzeit ist keine zugehörige Fachliteratur verfügbar
 
-**Rationale:**
-The predicted indication has no supporting clinical trial or literature evidence (L5), and a Blocking data gap (missing TFDA warnings/contraindications) prevents any safety pre-screening. The drug is also not currently marketed in this jurisdiction.
+---
 
-**To proceed, the following is needed:**
-- Retrieve TFDA/label warnings and contraindications (DG001, Blocking)
-- Retrieve mechanism of action data from DrugBank (DG002, High)
-- Retrieve original approved indication(s) for PONATINIB to establish a mechanistic rationale
-- Search for preclinical or case-level evidence specifically linking PONATINIB to gingival fibromatosis
+## Marktinformation für Deutschland
+
+Derzeit sind keine Vermarktungszulassungen registriert (`market_status: Not marketed`, `total_licenses: 0`).
+
+---
+
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+*Hinweis: TFDA/Etikettenwarnungen und Kontraindikationen werden als **blockierende** Datenlücke (DG001) gekennzeichnet – dieses Arzneimittel kann die anfängliche Sicherheitsprüfung (S1) nicht überschreiten, bis die Etikettendaten abgerufen werden.*
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Abwarten**
+
+**Begründung:**
+Die vorhergesagte Indikation wird durch keine klinischen Versuche oder Fachliteratur-Evidenz (L5) gestützt, und eine blockierende Datenlücke (fehlende TFDA-Warnungen/Kontraindikationen) verhindert jede Vorsicherheitsprüfung. Das Arzneimittel wird derzeit auch nicht in dieser Gerichtsbarkeit vermarktet.
+
+**Um fortzufahren, wird Folgendes benötigt:**
+- Abruf von TFDA/Etikettenwarnungen und Kontraindikationen (DG001, Blockierend)
+- Abruf von Wirkmechanismus-Daten aus DrugBank (DG002, Hoch)
+- Abruf der ursprünglichen zugelassenen Indikation(en) für PONATINIB zur Etablierung einer mechanistischen Begründung
+- Suche nach präklinischen oder Einzelfallbeweisen, die PONATINIB speziell mit Fibromatose gingival verknüpfen
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

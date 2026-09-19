@@ -29,91 +29,92 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Erenumab: From Migraine Prevention to Migraine with Brainstem Aura
+# Erenumab: Von der Migräneprophylaxe zur Migräne mit Hirnstammura
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Erenumab is a CGRP-receptor monoclonal antibody used for migraine prevention.
-> The TxGNN model predicts it may also be effective for **Migraine with Brainstem Aura**,
-> a subtype historically excluded from most pivotal trials.
-> Currently **0 clinical trials** are registered specifically for this subtype, but **20 publications**
-> — including post-hoc vascular safety analyses and a dedicated aura-frequency study — support the mechanistic rationale.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Migraine prevention (episodic/chronic) — general known indication for this drug class; no Germany-approved indication text is available (0 licenses on file) |
-| Predicted New Indication | Migraine with Brainstem Aura |
-| TxGNN Prediction Score | 99.89% |
-| Evidence Level | L3 |
-| Germany Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+> Erenumab ist ein CGRP-Rezeptor-Monoclonal-Antikörper, der zur Migräneprophylaxe verwendet wird.
+> Das TxGNN-Modell prognostiziert, dass es auch wirksam sein könnte für **Migräne mit Hirnstammura**,
+> einen Subtyp, der historisch von den meisten Pivotalstudien ausgeschlossen wurde.
+> Derzeit sind **0 klinische Studien** speziell für diesen Subtyp registriert, aber **20 Publikationen**
+> — einschließlich post-hoc vaskulärer Sicherheitsanalysen und einer dedizierten Aura-Häufigkeitsstudie — unterstützen die mechanistische Begründung.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Currently, a structured `original_moa` field is not available in this Evidence Pack (data gap). Based on the accompanying repurposing rationale and literature, erenumab is known to act as a **CGRP-receptor monoclonal antibody**, blocking calcitonin gene-related peptide (CGRP) signaling — a pathway with well-established involvement in the neurovascular mechanism of migraine.
-
-Migraine with brainstem aura (formerly "basilar-type migraine") is a subtype of migraine, and CGRP pathway involvement is not thought to be subtype-specific. However, this subtype was typically **excluded or not separately analyzed** in the major pivotal Phase 3 RCTs (e.g., STRIVE, ARISE), because of a theoretical safety concern: CGRP blockade could interfere with compensatory vasodilation in patients whose aura symptoms are attributed to brainstem/posterior-circulation vascular mechanisms. This explains the direct-RCT evidence gap for this specific indication.
-
-Mechanistically, the case for applicability remains reasonably strong: post-hoc and real-world vascular safety studies in aura populations (e.g., PMID 36942409, 32867533) have not identified a signal of impaired cerebral hemodynamics or endothelial dysfunction with erenumab, and a dedicated 2026 study (PMID 41888647) has directly examined erenumab's effect on aura frequency. Together, these findings support cautious extension of erenumab's mechanism to this aura subtype, while highlighting that dedicated prospective confirmation is still limited.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered specifically for migraine with brainstem aura.
+| Element | Inhalt |
+|---|---|
+| Ursprüngliche Indikation | Migräneprophylaxe (episodisch/chronisch) — allgemein bekannte Indikation für diese Wirkstoffklasse; kein für Deutschland zugelassener Indikationstext verfügbar (0 Lizenzen in der Akte) |
+| Prognostizierte neue Indikation | Migräne mit Hirnstammura |
+| TxGNN-Vorhersage-Score | 99.89% |
+| Evidenzgrad | L3 |
+| Marktstatus Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Mit Vorbehalt fortfahren |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage angemessen?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [34928306](https://pubmed.ncbi.nlm.nih.gov/34928306/) | 2022 | RCT subgroup/post-hoc analysis | JAMA Neurology | Secondary analysis of RCTs assessing erenumab safety/efficacy in migraine with vs. without aura, addressing elevated vascular risk concerns in the aura subgroup |
-| [30360965](https://pubmed.ncbi.nlm.nih.gov/30360965/) | 2018 | Phase 3b RCT | Lancet | Pivotal randomized, double-blind, placebo-controlled trial establishing erenumab efficacy/tolerability in episodic migraine patients failing 2–4 prior preventives |
-| [41888647](https://pubmed.ncbi.nlm.nih.gov/41888647/) | 2026 | Cohort (REFORM study) | J Headache Pain | Longitudinal characterization of migraine aura frequency changes during/after erenumab treatment in patients with prospectively confirmed aura |
-| [36942409](https://pubmed.ncbi.nlm.nih.gov/36942409/) | 2023 | Cohort (vascular risk evaluation) | Headache | Post-hoc analysis of pooled long-term trial data assessing cardiovascular safety of erenumab by degree of CV risk in aura vs. non-aura patients |
-| [32867533](https://pubmed.ncbi.nlm.nih.gov/32867533/) | 2021 | Cohort (hemodynamic study) | Cephalalgia | Found erenumab does not alter cerebral vasomotor reactivity or flow-mediated dilation, addressing theoretical vascular safety concerns |
-| [37012858](https://pubmed.ncbi.nlm.nih.gov/37012858/) | 2023 | Systematic review | Int Immunopharmacol | Systematic review of erenumab efficacy in episodic and chronic migraine prophylaxis |
-| [30725283](https://pubmed.ncbi.nlm.nih.gov/30725283/) | 2019 | Mechanistic review | Handbook Exp Pharmacol | Reviews the role of CGRP in migraine pathophysiology, underpinning the mechanistic rationale for CGRP-targeted therapy across migraine subtypes |
-| [35271240](https://pubmed.ncbi.nlm.nih.gov/35271240/) | 2022 | Real-world cohort | Zhurnal Nevrologii i Psikhiatrii | Russian real-life study assessing effectiveness/safety of erenumab in high-frequency episodic migraine |
-| [35538414](https://pubmed.ncbi.nlm.nih.gov/35538414/) | 2022 | Real-world cohort (12-month safety) | J Headache Pain | Retrospective real-world study on 12-month safety, tolerability and adverse-event susceptibility of erenumab |
-| [35151970](https://pubmed.ncbi.nlm.nih.gov/35151970/) | 2022 | Real-world cohort | Clin Neurol Neurosurg | Croatian real-world experience on effectiveness/safety of erenumab in treatment-resistant chronic migraine |
+Derzeit ist ein strukturiertes Feld `original_moa` nicht in diesem Evidenzpaket verfügbar (Datenlücke). Basierend auf der beigefügten Umwidmungsbegründung und Literatur ist bekannt, dass erenumab als **CGRP-Rezeptor-Monoclonal-Antikörper** wirkt und die Calcitonin-Gen-verwandte-Peptid-(CGRP)-Signalisierung blockiert — ein Signalweg mit etablierter Beteiligung am neurovaskulären Migränenmechanismus.
+
+Migräne mit Hirnstammura (ehemals „Basilaris-Migräne") ist ein Subtyp der Migräne, und die Beteiligung des CGRP-Pfades wird nicht als subtypspezifisch angesehen. Dieser Subtyp wurde jedoch typischerweise **ausgeschlossen oder nicht separat analysiert** in den großen Phase-3-Pivotalstudien (z.B. STRIVE, ARISE), wegen einer theoretischen Sicherheitsbedenken: Eine CGRP-Blockade könnte kompensatorische Vasodilatation bei Patienten beeinträchtigen, deren Aura-Symptome Hirnstamm-/Hinterzirkulations-vaskulären Mechanismen zugeordnet werden. Dies erklärt die Lücke bei direkter-RCT-Evidenz für diese spezifische Indikation.
+
+Mechanistisch bleibt der Fall für Anwendbarkeit ziemlich stark: Post-hoc- und Real-World-Gefäßsicherheitsstudien in Aura-Populationen (z.B. PMID 36942409, 32867533) haben keinen Hinweis auf beeinträchtigte zerebrale Hämodynamik oder endotheliale Dysfunktion mit erenumab gefunden, und eine dedizierte 2026-Studie (PMID 41888647) hat direkt die Auswirkung von erenumab auf die Aura-Häufigkeit untersucht. Zusammen unterstützen diese Befunde eine vorsichtige Erweiterung von erenumabs Mechanismus auf diesen Aura-Subtyp, während hervorgehoben wird, dass eine dedizierte prospektive Bestätigung noch begrenzt ist.
 
 ---
 
-## Germany Market Information
+## Klinische Studienevidenz
 
-Erenumab is currently **not marketed in Germany** (0 authorizations on file), so no product/authorization table is available.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Note: `key_warnings`, `contraindications`, and DDI data are all currently unavailable — flagged as a Blocking data gap (DG001) requiring retrieval of the official label/package insert before this candidate can proceed through formal safety review.)*
+Derzeit sind keine verwandten klinischen Studien speziell für Migräne mit Hirnstammura registriert.
 
 ---
 
-## Conclusion and Next Steps
+## Literaturbeweise
 
-**Decision: Proceed with Guardrails**
+| PMID | Jahr | Typ | Journal | Wichtigste Befunde |
+|---|---|---|---|---|
+| [34928306](https://pubmed.ncbi.nlm.nih.gov/34928306/) | 2022 | RCT-Subgruppe/post-hoc-Analyse | JAMA Neurology | Sekundäranalyse von RCTs zur Bewertung der Sicherheit/Wirksamkeit von erenumab bei Migräne mit vs. ohne Aura, Adressierung erhöhter vaskulärer Risiken in der Aura-Subgruppe |
+| [30360965](https://pubmed.ncbi.nlm.nih.gov/30360965/) | 2018 | Phase-3b-RCT | Lancet | Pivotale randomisierte, doppelblinde, placebokontrollierte Studie, die Wirksamkeit/Verträglichkeit von erenumab bei episodischer Migräne bei Patienten mit fehlgeschlagenen 2–4 vorherigen Präventiva etablierte |
+| [41888647](https://pubmed.ncbi.nlm.nih.gov/41888647/) | 2026 | Kohortenstudie (REFORM-Studie) | J Headache Pain | Longitudinale Charakterisierung von Änderungen der Migräne-Aura-Häufigkeit während/nach erenumab-Behandlung bei Patienten mit prospektiv bestätigter Aura |
+| [36942409](https://pubmed.ncbi.nlm.nih.gov/36942409/) | 2023 | Kohortenstudie (Bewertung vaskulären Risikos) | Headache | Post-hoc-Analyse gepoolter Langzeitdaten zur kardiovaskulären Sicherheit von erenumab stratifiziert nach Grad des kardiovaskulären Risikos bei Aura- vs. Non-Aura-Patienten |
+| [32867533](https://pubmed.ncbi.nlm.nih.gov/32867533/) | 2021 | Kohortenstudie (hämodynamische Studie) | Cephalalgia | Zeigte, dass erenumab die zerebrale vasomotorische Reaktivität oder die flussvermittelte Vasodilatation nicht verändert, womit theoretische vaskuläre Sicherheitsbedenken adressiert werden |
+| [37012858](https://pubmed.ncbi.nlm.nih.gov/37012858/) | 2023 | Systematische Übersicht | Int Immunopharmacol | Systematische Übersicht der Wirksamkeit von erenumab bei episodischer und chronischer Migräneprophylaxe |
+| [30725283](https://pubmed.ncbi.nlm.nih.gov/30725283/) | 2019 | Mechanistische Übersicht | Handbook Exp Pharmacol | Überblick über die Rolle von CGRP in der Migränepathophysiologie, die die mechanistische Begründung für CGRP-gerichtete Therapie bei verschiedenen Migräne-Subtypen stützt |
+| [35271240](https://pubmed.ncbi.nlm.nih.gov/35271240/) | 2022 | Real-World-Kohortenstudie | Zhurnal Nevrologii i Psikhiatrii | Russische Echtwelt-Studie zur Wirksamkeit/Sicherheit von erenumab bei hochfrequenter episodischer Migräne |
+| [35538414](https://pubmed.ncbi.nlm.nih.gov/35538414/) | 2022 | Real-World-Kohortenstudie (12-Monats-Sicherheit) | J Headache Pain | Retrospektive Echtwelt-Studie zu 12-Monats-Sicherheit, Verträglichkeit und Nebenwirkungsanfälligkeit von erenumab |
+| [35151970](https://pubmed.ncbi.nlm.nih.gov/35151970/) | 2022 | Real-World-Kohortenstudie | Clin Neurol Neurosurg | Kroatische Echtwelt-Erfahrung mit Wirksamkeit/Sicherheit von erenumab in behandlungsrefraktärer chronischer Migräne |
 
-**Rationale:**
-The CGRP-blockade mechanism is biologically well-supported for migraine broadly, and available post-hoc/real-world vascular safety data in aura populations are reassuring, but this specific subtype (brainstem aura) has no dedicated RCT evidence — largely because it was excluded from pivotal trials over historical theoretical vascular-safety concerns — placing this candidate at Evidence Level L3.
+---
 
-**To proceed, the following is needed:**
-- Official package insert / label data (warnings, contraindications) to close the Blocking data gap (DG001) and enable formal safety review
-- Structured mechanism-of-action documentation (DG002) to strengthen the mechanistic linkage analysis
-- A dedicated prospective study or registry specifically enrolling migraine-with-brainstem-aura patients, given this subgroup's historical exclusion from pivotal RCTs
-- Clarification of regulatory pathway/timeline, since erenumab currently has no market authorization in Germany
+## Marktinformationen für Deutschland
+
+Erenumab wird derzeit **nicht in Deutschland vermarktet** (0 Zulassungen in der Akte), daher ist keine Produkt-/Zulassungstabelle verfügbar.
+
+---
+
+## Sicherheitsüberlegungen
+
+Bitte siehe die Packungsbeilage für Sicherheitsinformationen.
+
+*(Hinweis: `key_warnings`, `contraindications` und DDI-Daten sind derzeit nicht verfügbar — gekennzeichnet als blockierende Datenlücke (DG001), die das Abrufen der offiziellen Kennzeichnung/Packungsbeilage erfordert, bevor dieser Kandidat die formale Sicherheitsprüfung durchlaufen kann.)*
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Mit Vorbehalt fortfahren**
+
+**Begründung:**
+Der CGRP-Blockade-Mechanismus ist biologisch gut für Migräne im Allgemeinen unterstützt, und verfügbare post-hoc/Real-World-Gefäßsicherheitsdaten in Aura-Populationen sind beruhigend, aber dieser spezifische Subtyp (Hirnstammura) verfügt über keine dedizierte RCT-Evidenz — weitgehend weil er aus Pivotalstudien wegen historischer theoretischer Gefäßsicherheitsbedenken ausgeschlossen wurde — und positioniert diesen Kandidaten auf Evidenzgrad L3.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+- Offizielle Packungsbeilage / Kennzeichnungsdaten (Warnungen, Kontraindikationen) zur Schließung der blockierenden Datenlücke (DG001) und Ermöglichung der formalen Sicherheitsprüfung
+- Strukturierte Dokumentation des Mechanismus der Wirkung (DG002) zur Stärkung der mechanistischen Verknüpfungsanalyse
+- Eine dedizierte prospektive Studie oder ein Register speziell mit Patienten mit Migräne und Hirnstammura, angesichts des historischen Ausschlusses dieser Subgruppe aus Pivotalstudien
+- Klärung des regulatorischen Weges/der Zeitleiste, da erenumab derzeit keine Marktzulassung in Deutschland hat
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
