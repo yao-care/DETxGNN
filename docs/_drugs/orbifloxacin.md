@@ -29,76 +29,77 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Orbifloxacin: From Veterinary Bacterial Infections to Heart Disease
+# Orbifloxacin: Von veterinärmedizinischen Bakterieninfektionen zu Herzerkrankungen
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Orbifloxacin is a fluoroquinolone antibacterial developed for veterinary use (no confirmed human indication or MOA data in this evidence pack). The TxGNN model's top-ranked prediction is **Heart Disease**, but this candidate has **zero clinical trials** and **zero relevant literature**, and the evidence pack's own mechanistic review flags it as likely model noise — fluoroquinolones are mechanistically unrelated to heart disease and are instead known to carry cardiac safety risk (QT prolongation).
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in evidence pack (veterinary fluoroquinolone antibacterial, per drug class) |
-| Predicted New Indication | Heart disease |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L5 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Orbifloxacin ist ein Fluorchinolon-Antibiotikum, das für die veterinärmedizinische Verwendung entwickelt wurde (keine bestätigte Indikation beim Menschen oder Wirkmechanismus-Daten in diesem Evidenzpaket). Die Top-Rangfolge-Vorhersage des TxGNN-Modells ist **Herzerkrankung**, aber dieser Kandidat hat **keine klinischen Studien** und **keine relevante Literatur**, und die mechanistische Überprüfung des Evidenzpakets kennzeichnet ihn als wahrscheinlich Modellrauschen – Fluorchinolone sind mechanistisch nicht mit Herzerkrankungen verbunden und sind stattdessen für kardiovaskuläre Sicherheitsrisiken bekannt (QT-Verlängerung).
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Detailed mechanism of action data is not available for orbifloxacin in this evidence pack. Based on known drug class information, orbifloxacin is a fluoroquinolone antibacterial that inhibits bacterial DNA gyrase and topoisomerase IV — a mechanism with no established biological link to heart disease.
-
-More importantly, the repurposing rationale supplied with this candidate explicitly identifies the prediction as likely **model noise**: fluoroquinolones as a class are associated with a known negative cardiac safety signal (QT interval prolongation and cardiotoxicity), which is the opposite of a therapeutic rationale for heart disease. All ten of TxGNN's top-ranked predictions for this drug (heart disease, several congenital/chromosomal syndromes, valve disorders) lack any supporting clinical trial or literature evidence, and the rationale text for each independently concludes there is no plausible mechanistic connection.
-
-Given this, the prediction should not be interpreted as a genuine repurposing signal, but rather as an artifact of the embedding space that requires no further mechanistic justification at this time.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Nicht dokumentiert im Evidenzpaket (veterinärmedizinisches Fluorchinolon-Antibiotikum gemäß Wirkstoffklasse) |
+| Prognostizierte neue Indikation | Herzerkrankung |
+| TxGNN-Vorhersage-Score | 99.94% |
+| Evidenzstufe | L5 |
+| Marktstatus Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | Aussetzen |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage angemessen?
 
-Currently no related literature available.
+Detaillierte Daten zum Wirkmechanismus sind für Orbifloxacin in diesem Evidenzpaket nicht verfügbar. Basierend auf bekannten Wirkstoffklassen-Informationen ist Orbifloxacin ein Fluorchinolon-Antibiotikum, das bakterielle DNA-Gyrase und Topoisomerase IV hemmt – ein Mechanismus ohne etablierte biologische Verbindung zu Herzerkrankungen.
 
-*(Note: one unrelated pharmacokinetic study, PMID [22029792](https://pubmed.ncbi.nlm.nih.gov/22029792/), was returned for a lower-ranked, mechanistically unrelated prediction — "disorder of fucoglycosan synthesis" — and does not support the heart disease indication.)*
+Wichtiger ist, dass die mit diesem Kandidaten bereitgestellte Umpositionierungs-Rationale die Vorhersage selbst als wahrscheinlich **Modellrauschen** kennzeichnet: Fluorchinolone als Wirkstoffklasse sind mit einem bekannten kardiovaskulären Sicherheitssignal verbunden (QT-Intervall-Verlängerung und Kardiotoxizität), was das Gegenteil einer therapeutischen Begründung für Herzerkrankungen ist. Alle zehn der Top-bewerteten Vorhersagen von TxGNN für dieses Arzneimittel (Herzerkrankung, mehrere angeborene/chromosomale Syndrome, Herzklappenstörungen) weisen keine unterstützenden klinischen Studien oder Literatur-Evidenzen auf, und die Rationale für jede unabhängig voneinander kommt zu dem Schluss, dass es keine plausible mechanistische Verbindung gibt.
 
----
-
-## Germany Market Information
-
-Orbifloxacin has no marketing authorizations in Germany (0 licenses on record); the drug is not currently marketed.
+Angesichts dessen sollte die Vorhersage nicht als echtes Umpositionierungs-Signal interpretiert werden, sondern als ein Artefakt des Embedding-Raums, das zu diesem Zeitpunkt keine weitere mechanistische Rechtfertigung erfordert.
 
 ---
 
-## Safety Considerations
+## Klinische Studien-Evidenz
 
-Please refer to the package insert for safety information. TFDA label warnings/contraindications and DDI data are currently unavailable (flagged as a Blocking data gap in the source evidence pack), which by itself precludes any safety pre-screening for this candidate.
+Derzeit sind keine verwandten klinischen Studien registriert.
 
 ---
 
-## Conclusion and Next Steps
+## Literatur-Evidenz
 
-**Decision: Hold**
+Derzeit ist keine verwandte Literatur verfügbar.
+
+*(Hinweis: eine nicht verwandte pharmakokinetische Studie, PMID [22029792](https://pubmed.ncbi.nlm.nih.gov/22029792/), wurde für eine niedriger bewertete, mechanistisch nicht verwandte Vorhersage – „Störung der Fukoglykoosan-Synthese" – zurückgegeben und unterstützt nicht die Herzerkrankungs-Indikation.)*
+
+---
+
+## Marktstatus Deutschland
+
+Orbifloxacin hat keine Vermarktungsgenehmigungen in Deutschland (0 Lizenzen verzeichnet); das Arzneimittel ist derzeit nicht vermarktet.
+
+---
+
+## Sicherheitsüberlegungen
+
+Weitere Sicherheitsinformationen finden Sie in der Packungsbeilage. TFDA-Etikett-Warnungen/Kontraindikationen und DDI-Daten sind derzeit nicht verfügbar (gekennzeichnet als blockierender Datenlücke im Quell-Evidenzpaket), was selbst eine Sicherheits-Vor-Screening für diesen Kandidaten ausschließt.
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Aussetzen**
 
 **Rationale:**
-The top prediction (heart disease, score 99.94%) has no supporting clinical trials or literature, and the evidence pack's own mechanistic analysis identifies it as likely model noise, contradicted by fluoroquinolones' known cardiotoxicity risk. All other top-10 predictions are similarly unsupported congenital/genetic syndromes with no plausible link to the drug's antibacterial mechanism. The drug is also not marketed in Germany and has no confirmed human indication.
+Die Top-Vorhersage (Herzerkrankung, Score 99.94%) hat keine unterstützenden klinischen Studien oder Literatur, und die mechanistische Analyse des Evidenzpakets selbst kennzeichnet sie als wahrscheinlich Modellrauschen, widersprochen durch das bekannte Kardiotoxizitäts-Risiko von Fluorchinolonen. Alle anderen Top-10-Vorhersagen sind ähnlich nicht unterstützte angeborene/genetische Syndrome ohne plausible Verbindung zum antibakteriellen Mechanismus des Arzneimitels. Das Arzneimittel ist auch nicht in Deutschland vermarktet und hat keine bestätigte Indikation beim Menschen.
 
-**To proceed, the following is needed:**
-- TFDA/official label data (warnings, contraindications) to resolve the Blocking data gap (DG001)
-- Confirmed mechanism of action via DrugBank (DG002)
-- Any real-world or preclinical evidence specifically linking fluoroquinolone pharmacology to cardiovascular disease before this candidate is reconsidered
-- Given current findings, recommend deprioritizing this candidate in the repurposing pipeline absent new evidence
+**Folgendes ist erforderlich, um fortzufahren:**
+- TFDA/offizielle Etikett-Daten (Warnungen, Kontraindikationen) zur Behebung der blockierenden Datenlücke (DG001)
+- Bestätigter Wirkmechanismus über DrugBank (DG002)
+- Jegliche reale oder präklinische Evidenz, die Fluorchinolon-Pharmakologie spezifisch mit Herz-Kreislauf-Erkrankungen verbindet, bevor dieser Kandidat erneut berücksichtigt wird
+- Angesichts der aktuellen Ergebnisse wird empfohlen, diesen Kandidaten in der Umpositionierungs-Pipeline ohne neue Evidenz zu deprioritisieren
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

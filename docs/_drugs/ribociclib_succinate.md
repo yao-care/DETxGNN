@@ -29,59 +29,60 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0**
 
 </div>
 
-# Ribociclib Succinate: Drug Repurposing Evaluation — Insufficient Data
+# Ribociclib succinate: Bewertung zur Arzneimittelumwidmung — Unzureichende Daten
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Ribociclib succinate is a pharmaceutical compound queried in this evaluation pipeline; however, the current Evidence Pack contains no original indication records and no TxGNN-predicted new indications. Due to multiple blocking data gaps, a full repurposing assessment cannot be completed at this stage.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not retrieved in this Evidence Pack |
-| Predicted New Indication | No TxGNN predictions available |
-| TxGNN Prediction Score | — |
-| Evidence Level | L5 (model prediction not available; no supporting studies) |
-| Taiwan Market Status | Not marketed (0 licenses) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+Ribociclib succinate ist ein Arzneistoff, der in dieser Evaluierungspipeline abgefragt wird; das aktuelle Evidence Pack enthält jedoch keine Angaben zur ursprünglichen Indikation und keine durch TxGNN vorhergesagten neuen Indikationen. Aufgrund mehrerer Blockadedatenlücken kann zu diesem Zeitpunkt keine vollständige Umwidmungsbewertung durchgeführt werden.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-No TxGNN predicted indications were returned in this Evidence Pack (`predicted_indications: []`). Without a target indication, mechanistic applicability analysis cannot be performed.
-
-Additionally, the mechanism of action (MOA) field is absent from the current data retrieval. The DrugBank query returned one result (per query log entry #3), but the structured MOA field was not populated — this likely requires a follow-up DrugBank API call to extract pharmacological category, target proteins, and pathway data.
-
-The TFDA package insert query also returned one result (query log entry #4), yet no warnings, contraindications, or indication text were parsed into the Evidence Pack. Resolution of these two data gaps is prerequisite to any repurposing analysis.
-
----
-
-## Safety Considerations
-
-All safety fields returned no usable data in this Evidence Pack. No drug-drug interactions were identified (DDI query status: not found). Please refer to the official package insert for warnings, contraindications, and interaction information.
+| Element | Inhalt |
+|---|---|
+| Ursprüngliche Indikation | Nicht im vorliegenden Evidence Pack abgerufen |
+| Vorhergesagte neue Indikation | Keine TxGNN-Vorhersagen verfügbar |
+| TxGNN-Vorhersagescore | — |
+| Evidence Level | L5 (Modellvorhersage nicht verfügbar; keine unterstützenden Studien) |
+| Taiwan-Marktstatus | Nicht vermarktet (0 Lizenzen) |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | **Abwarten** |
 
 ---
 
-## Conclusion and Next Steps
+## Warum ist diese Vorhersage sinnvoll?
 
-**Decision: Hold**
+Keine TxGNN-vorhergesagten Indikationen wurden in diesem Evidence Pack zurückgegeben (`predicted_indications: []`). Ohne eine Zielindikation kann die Analyse der mechanistischen Anwendbarkeit nicht durchgeführt werden.
 
-**Rationale:**
-The Evidence Pack contains no predicted indications and no original indication data, making it impossible to assess repurposing plausibility, clinical evidence, or safety profile at this time.
+Darüber hinaus fehlt das Feld für den Wirkmechanismus (MOA) aus der aktuellen Datenbeschaffung. Die DrugBank-Abfrage gab ein Ergebnis zurück (pro Abfragebericht #3), aber das strukturierte MOA-Feld wurde nicht ausgefüllt – dies erfordert wahrscheinlich einen Folgeanruf an die DrugBank-API, um pharmazeutische Kategorien, Zielproteine und Pathway-Daten zu extrahieren.
 
-**To proceed, the following is needed:**
+Die TFDA-Packungsbeilage-Abfrage ergab ebenfalls ein Ergebnis (Abfragebericht #4), jedoch wurden keine Warnhinweise, Kontraindikationen oder Indikationstexte in das Evidence Pack geparst. Die Behebung dieser beiden Datenlücken ist eine Voraussetzung für jede Umwidmungsanalyse.
 
-- **[Blocking]** Re-run TxGNN prediction pipeline for Ribociclib Succinate and confirm `predicted_indications` is populated before any downstream analysis
-- **[Blocking]** Parse TFDA package insert (query log #4 returned success) to extract approved indications, warnings, and contraindications
-- **[High]** Query DrugBank API (query log #3 returned success) to extract MOA, drug categories, and toxicity data — specifically needed to determine CDK4/6 inhibitor classification and cytotoxicity status
-- **[High]** Confirm DrugBank ID (`drugbank_id: null`) to enable structured data retrieval
-- **[Medium]** Re-run DDI query after DrugBank ID is resolved
-- Once above gaps are resolved, re-generate Evidence Pack and re-run this report template
+---
+
+## Sicherheitsaspekte
+
+Alle Sicherheitsfelder gaben in diesem Evidence Pack keine verwertbaren Daten zurück. Es wurden keine Arzneimittel-Wechselwirkungen identifiziert (DDI-Abfragestatus: nicht gefunden). Bitte beachten Sie die offizielle Packungsbeilage auf Warnhinweise, Kontraindikationen und Wechselwirkungsinformationen.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Abwarten**
+
+**Begründung:**
+Das Evidence Pack enthält keine vorhergesagten Indikationen und keine Angaben zur ursprünglichen Indikation, was es unmöglich macht, die Plausibilität der Umwidmung, die klinische Evidenz oder das Sicherheitsprofil zu diesem Zeitpunkt zu bewerten.
+
+**Um fortzufahren, wird Folgendes benötigt:**
+
+- **[Blockierend]** Führen Sie die TxGNN-Vorhersage-Pipeline für Ribociclib succinate erneut aus und bestätigen Sie, dass `predicted_indications` aufgefüllt ist, bevor eine nachgelagerte Analyse durchgeführt wird
+- **[Blockierend]** Parsen Sie die TFDA-Packungsbeilage (Abfragebericht #4 gab Erfolg zurück), um genehmigte Indikationen, Warnhinweise und Kontraindikationen zu extrahieren
+- **[Hoch]** Fragen Sie die DrugBank-API ab (Abfragebericht #3 gab Erfolg zurück), um MOA-, Arzneimittelkategorien- und Toxizitätsdaten zu extrahieren – speziell erforderlich zur Bestimmung der CDK4/6-Inhibitor-Klassifizierung und des Zytotoxizitätsstatus
+- **[Hoch]** Bestätigen Sie die DrugBank-ID (`drugbank_id: null`), um strukturierte Datenbeschaffung zu ermöglichen
+- **[Mittel]** Führen Sie die DDI-Abfrage erneut aus, nachdem die DrugBank-ID aufgelöst ist
+- Nachdem die obigen Lücken gefüllt sind, generieren Sie das Evidence Pack erneut und führen Sie diese Berichtsvorlage erneut aus
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

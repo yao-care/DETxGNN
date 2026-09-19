@@ -29,76 +29,77 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Hydroxocobalamin: From Vitamin B12 Deficiency to Esophageal Variceal Bleeding
+# Hydroxocobalamin: Vom Vitamin-B12-Mangel zur blutenden Ösophagusvarizenblutung
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Hydroxocobalamin is a vitamin B12 analogue, clinically established for B12 deficiency and as the active ingredient of the cyanide-poisoning antidote Cyanokit.
-> The TxGNN model predicts it may be effective for **Esophageal Varices with Bleeding**,
-> but currently **no clinical trials or publications** support this direction — the prediction rests on model score and mechanistic hypothesis alone.
+> Hydroxocobalamin ist ein Vitamin-B12-Analogon, das klinisch für B12-Mangel etabliert ist und als Wirkstoff des Zyanidvergiftungs-Gegenmittels Cyanokit dient.
+> Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam sein könnte für **blutende Ösophagusvarizenblutungen**,
+> aber derzeit **unterstützen keine klinischen Studien oder Veröffentlichungen** diese Richtung — die Vorhersage basiert allein auf dem Modellscore und einer mechanistischen Hypothese.
 
 ---
 
-## Quick Overview
+## Kurzer Überblick
 
-| Item | Content |
+| Element | Inhalt |
 |------|------|
-| Original Indication | Not on file (no German market authorization in evidence pack); publicly known uses are vitamin B12 deficiency and cyanide-poisoning antidote |
-| Predicted New Indication | Esophageal Varices with Bleeding |
-| TxGNN Prediction Score | 99.23% |
-| Evidence Level | L5 (model prediction only, no clinical trials or literature) |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Originalindikation | Nicht dokumentiert (keine deutsche Marktgenehmigung im Nachweispaket); bekannte Anwendungen sind Vitamin-B12-Mangel und Gegenmittel gegen Zyanidvergiftung |
+| Vorhergesagte neue Indikation | Blutende Ösophagusvarizenblutung |
+| TxGNN-Vorhersage-Score | 99.23% |
+| Nachweisstufe | L5 (nur Modellvorhersage, keine klinischen Studien oder Literatur) |
+| Status auf dem deutschen Markt | ✗ Nicht vermarktet |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | Abwarten |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage vertretbar?
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on known information, hydroxocobalamin is a hydroxyl-form vitamin B12 analogue used for B12 deficiency and, at high doses, as a nitric oxide (NO) scavenger in the cyanide-poisoning antidote Cyanokit.
+Derzeit sind detaillierte Daten zum Wirkmechanismus im Nachweispaket nicht verfügbar. Basierend auf bekannten Informationen ist Hydroxocobalamin ein Vitamin-B12-Analogon in Hydroxyl-Form, das für B12-Mangel verwendet wird und bei hohen Dosen als Stickstoffmonoxid (NO)-Fänger im Zyanidvergiftungs-Gegenmittel Cyanokit wirkt.
 
-The repurposing rationale is purely mechanistic: hydroxocobalamin's NO-scavenging activity can induce vasoconstriction — a property already exploited in vasoplegic shock. Standard pharmacologic therapy for bleeding esophageal varices (terlipressin, octreotide, vasopressin) works by splanchnic vasoconstriction to lower portal pressure, so there is a theoretical pathway overlap.
+Die Begründung für die Arzneimittelumpositionierung ist rein mechanistisch: Die NO-Fänger-Aktivität von Hydroxocobalamin kann eine Vasokonstriktion induzieren — eine Eigenschaft, die bereits beim vasoplegischen Schock genutzt wird. Die Standard-Pharmakotherapie für blutende Ösophagusvarizenblutungen (terlipressin, octreotide, vasopressin) wirkt durch Splanchnikusvasokonstriktion zur Senkung des Pfortaderdrucks, daher gibt es eine theoretische Überlappung der Wirkmechanismen.
 
-However, this link is speculative. There is no animal, pharmacodynamic, or clinical evidence that hydroxocobalamin lowers portal pressure or controls variceal bleeding, and no data on its safety/metabolism in cirrhotic patients with impaired hepatic clearance. A second, closely related prediction — esophageal varices *without* bleeding (same TxGNN score) — is mechanistically even weaker, since that indication calls for chronic prophylactic pressure reduction (typically non-selective beta-blockers) rather than an acute vasoconstrictive agent, and no long-term safety data exist for this use case.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Diese Verbindung ist jedoch spekulativ. Es gibt keine Tier-, pharmakodynamischen oder klinischen Belege dafür, dass Hydroxocobalamin den Pfortaderdruck senkt oder Varizenblutungen kontrolliert, und es gibt keine Daten über Sicherheit/Metabolismus bei Patienten mit Zirrhose und beeinträchtigter hepatischer Clearance. Eine zweite, eng verwandte Vorhersage — Ösophagusvarizenblutungen *ohne* Blutung (gleicher TxGNN-Score) — ist mechanistisch sogar schwächer, da diese Indikation eine chronische prophylaktische Drucksenkung erfordert (typischerweise nicht selektive Beta-Blocker) statt eines akuten vasokonstriktiven Mittels, und es existieren keine Langzeitsicherheitsdaten für diesen Anwendungsfall.
 
 ---
 
-## Literature Evidence
+## Evidenz aus klinischen Studien
 
-Currently no related literature available.
-
----
-
-## Germany Market Information
-
-Hydroxocobalamin is currently not marketed in Germany under this evidence pack; no BfArM authorization records are available (0 licenses on file).
+Derzeit sind keine verwandten klinischen Studien registriert.
 
 ---
 
-## Safety Considerations
+## Literaturevidenz
 
-Please refer to the package insert for safety information.
+Derzeit ist keine verwandte Literatur verfügbar.
 
 ---
 
-## Conclusion and Next Steps
+## Informationen zum deutschen Markt
 
-**Decision: Hold**
+Hydroxocobalamin ist derzeit unter diesem Nachweispaket nicht in Deutschland vermarktet; es sind keine BfArM-Genehmigungsdatensätze verfügbar (0 Lizenzen registriert).
 
-**Rationale:**
-The prediction is supported only by a TxGNN model score (L5) and a theoretical NO-scavenging/vasoconstriction mechanism, with zero clinical trials, literature, or preclinical data confirming efficacy or safety in portal hypertension/variceal bleeding.
+---
 
-**To proceed, the following is needed:**
-- TFDA/BfArM package insert warnings and contraindications (currently Blocking data gap — required before any S1 safety screening)
-- Confirmed mechanism of action (DrugBank API query, currently High-severity data gap)
-- Preclinical/pharmacodynamic evidence of portal pressure reduction with hydroxocobalamin in cirrhotic models
-- Any early clinical or case-level data before advancing beyond model-prediction stage
+## Sicherheitsüberlegungen
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Abwarten**
+
+**Begründung:**
+Die Vorhersage wird nur durch einen TxGNN-Modellscore (L5) und einen theoretischen NO-Fänger-/Vasokonstriktionsmechanismus gestützt, ohne klinische Studien, Literatur oder präklinische Daten, die Wirksamkeit oder Sicherheit bei Pfortalhypertonie/Varizenblutung bestätigen.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+- TFDA/BfArM-Packungsbeilage mit Warnhinweisen und Kontraindikationen (derzeit eine blockierende Datenlücke — erforderlich vor jeglicher S1-Sicherheitsprüfung)
+- Bestätigter Wirkmechanismus (DrugBank-API-Abfrage, derzeit eine High-Severity-Datenlücke)
+- Präklinische/pharmakodynamische Belege für eine Pfortaderdrucksenkung mit Hydroxocobalamin in zirrotischen Modellen
+- Frühe klinische oder Fall-basierte Daten vor Fortschritt über die Modellvorhersage-Phase hinaus
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

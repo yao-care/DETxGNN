@@ -29,107 +29,108 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Zanubrutinib: From B-Cell Malignancies to Myeloid Leukemia
+# Zanubrutinib: Von B-Zell-Neoplasien zu Myeloischer Leukämie
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Zanubrutinib is a Bruton tyrosine kinase (BTK) inhibitor whose established evidence base (per the literature in this pack) centers on B-cell malignancies such as CLL/SLL and Waldenström macroglobulinemia.
-> The TxGNN model predicts it may be effective for **Myeloid Leukemia**, with a prediction score of **99.65%**,
-> but **none of the cited clinical trials or publications directly study zanubrutinib in myeloid leukemia** — the trials involve different investigational drugs, and the literature supports only its known lymphoid-malignancy indications.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not formally recorded in this pack (no BfArM license data; literature indicates zanubrutinib is an established BTK-inhibitor therapy for CLL/SLL and other B-cell malignancies) |
-| Predicted New Indication | Myeloid Leukemia |
-| TxGNN Prediction Score | 99.65% |
-| Evidence Level | L5 (model prediction only — cited trials involve unrelated drugs; cited literature does not address myeloid leukemia) |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Zanubrutinib ist ein Bruton-Tyrosinkinase-(BTK-)Inhibitor, dessen etablierte Evidenzgrundlage (basierend auf der Fachliteratur in diesem Paket) auf B-Zell-Neoplasien wie CLL/SLL und Waldenström-Makroglobulinämie konzentriert ist.
+> Das TxGNN-Modell prognostiziert, dass es möglicherweise wirksam bei **myeloischer Leukämie** ist, mit einem Vorhersagescore von **99.65%**,
+> aber **keiner der angeführten klinischen Studien oder Publikationen untersucht direkt Zanubrutinib bei myeloischer Leukämie** — die Studien betreffen unterschiedliche investigative Arzneistoffe, und die Literatur unterstützt nur seine bekannten lymphoiden Malignomindikationen.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Detailed mechanism-of-action data from DrugBank is currently unavailable (blocking data gap, DG002). Based on the information available in this evidence pack, zanubrutinib is a next-generation, highly selective BTK inhibitor that blocks B-cell receptor signaling — a pathway central to B-cell malignancies. Its clinical evidence (SEQUOIA, ALPINE and related studies) is concentrated almost entirely in CLL/SLL and Waldenström macroglobulinemia.
-
-Myeloid leukemia arises from a different hematopoietic lineage than CLL/SLL, and BTK is not established as a key driver in myeloid malignancies the way it is in B-cell lymphoid disease. The two clinical trials retrieved under this predicted indication (NCT04477291, NCT05665530) do not actually test zanubrutinib for myeloid leukemia — they involve different investigational agents (luxeptinib/CG-806 and PRT2527) that happen to co-occur in the same trial registry search, or use zanubrutinib only as a combination comparator in unrelated hematologic malignancies. Taken together, this prediction most likely reflects an over-generalization of the TxGNN embedding for the broad "leukemia" disease category, rather than a mechanistically grounded hypothesis.
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Nicht formal dokumentiert in diesem Paket (keine BfArM-Zulassungsdaten; Fachliteratur deutet darauf hin, dass Zanubrutinib eine etablierte BTK-Inhibitor-Therapie für CLL/SLL und andere B-Zell-Neoplasien ist) |
+| Prognostizierte neue Indikation | Myeloische Leukämie |
+| TxGNN Vorhersagescore | 99.65% |
+| Evidenzgrad | L5 (nur Modellprognose — angeführte Studien betreffen nicht verwandte Arzneistoffe; angeführte Fachliteratur behandelt nicht myeloische Leukämie) |
+| Marktstatus Deutschland | ✗ Nicht vertrieben |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Zurückstellung |
 
 ---
 
-## Clinical Trial Evidence
+## Warum ist diese Vorhersage angemessen?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Detaillierte Mechanismus-der-Wirkung-Daten von DrugBank sind derzeit nicht verfügbar (blockierende Datenlücke, DG002). Basierend auf den in diesem Evidenzpaket verfügbaren Informationen ist Zanubrutinib ein Inhibitor der nächsten Generation mit hoher Selektivität für BTK, der die B-Zell-Rezeptor-Signalisierung blockiert — ein Signalweg, der zentral für B-Zell-Neoplasien ist. Seine klinische Evidenz (SEQUOIA, ALPINE und verwandte Studien) konzentriert sich nahezu vollständig auf CLL/SLL und Waldenström-Makroglobulinämie.
+
+Myeloische Leukämie entsteht aus einer anderen hämatopoetischen Linie als CLL/SLL, und BTK ist nicht als Schlüsseltreiber in myeloischen Neoplasien etabliert, wie es in B-Zell-Lymphoid-Erkrankungen der Fall ist. Die beiden unter dieser prognostizierten Indikation gefundenen klinischen Studien (NCT04477291, NCT05665530) testen tatsächlich nicht Zanubrutinib bei myeloischer Leukämie — sie betreffen unterschiedliche investigative Substanzen (Luxeptinib/CG-806 und PRT2527), die zufällig in der gleichen Trialregister-Suche vorkommen, oder verwenden Zanubrutinib nur als Vergleichs-Kombination in nicht verwandten hämatologischen Neoplasien. Zusammen betrachtet reflektiert diese Vorhersage wahrscheinlich eher eine Übergeneralisierung des TxGNN-Embeddings für die breite Krankheitskategorie „Leukämie" als eine mechanistisch fundierte Hypothese.
+
+---
+
+## Evidenz aus klinischen Studien
+
+| Studiennummer | Phase | Status | Anzahl der Studienteilnehmer | Wichtigste Erkenntnisse |
 |---------|------|------|------|---------|
-| [NCT04477291](https://clinicaltrials.gov/study/NCT04477291) | Phase 1 | Terminated | 45 | Tests **luxeptinib (CG-806)**, not zanubrutinib, in relapsed/refractory AML/MDS; trial terminated — not usable as supporting evidence |
-| [NCT05665530](https://clinicaltrials.gov/study/NCT05665530) | Phase 1 | Completed | 86 | Tests **PRT2527 (CDK9 inhibitor)** monotherapy and in combination with zanubrutinib or venetoclax in relapsed/refractory hematologic malignancies; zanubrutinib is a combination arm comparator, not the study drug for myeloid leukemia specifically |
+| [NCT04477291](https://clinicaltrials.gov/study/NCT04477291) | Phase 1 | Beendet | 45 | Testet **Luxeptinib (CG-806)**, nicht Zanubrutinib, in rezidivierten/refraktären AML/MDS; Studie beendet — nicht als unterstützender Beweis verwendbar |
+| [NCT05665530](https://clinicaltrials.gov/study/NCT05665530) | Phase 1 | Abgeschlossen | 86 | Testet **PRT2527 (CDK9-Inhibitor)** als Monotherapie und in Kombination mit Zanubrutinib oder Venetoclax in rezidivierten/refraktären hämatologischen Neoplasien; Zanubrutinib ist ein Kombinationsarm-Komparator, nicht das Studienmedikament speziell für myeloische Leukämie |
 
-**Note:** Neither trial provides direct evidence for zanubrutinib monotherapy efficacy in myeloid leukemia.
+**Anmerkung:** Keine der beiden Studien bietet direkte Evidenz für die Monotherapie-Wirksamkeit von Zanubrutinib bei myeloischer Leukämie.
 
 ---
 
-## Literature Evidence
+## Fachliteratur-Evidenz
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Journal | Wichtigste Erkenntnisse |
 |------|-----|------|------|---------|
-| [39647999](https://pubmed.ncbi.nlm.nih.gov/39647999/) | 2025 | RCT | J Clin Oncol | SEQUOIA 5-year follow-up: zanubrutinib vs bendamustine+rituximab in treatment-naïve CLL/SLL |
-| [40334067](https://pubmed.ncbi.nlm.nih.gov/40334067/) | 2025 | Cohort | Blood Advances | Zanubrutinib well tolerated/effective in CLL/SLL patients intolerant of ibrutinib/acalabrutinib |
-| [40829104](https://pubmed.ncbi.nlm.nih.gov/40829104/) | 2026 | Review | Blood Advances | Pooled analysis of zanubrutinib in del(17p)/TP53-mutated CLL/SLL across SEQUOIA and ALPINE |
-| [36400069](https://pubmed.ncbi.nlm.nih.gov/36400069/) | 2023 | Cohort | Lancet Haematol | Phase 2 single-arm study of zanubrutinib in BTK-inhibitor-intolerant B-cell malignancies |
-| [34959482](https://pubmed.ncbi.nlm.nih.gov/34959482/) | 2021 | Review | Pharmaceutics | TKI-era review of CML and CLL, general context on tyrosine kinase pathways |
-| [36402930](https://pubmed.ncbi.nlm.nih.gov/36402930/) | 2023 | Review | Leukemia | BTK inhibitors, including zanubrutinib, in Waldenström macroglobulinemia |
-| [36325357](https://pubmed.ncbi.nlm.nih.gov/36325357/) | 2022 | Case Report | Front Immunol | Case report of coexisting WM and B-ALL, unrelated to zanubrutinib treatment outcomes |
-| [37150651](https://pubmed.ncbi.nlm.nih.gov/37150651/) | 2023 | Review | Clin Lymphoma Myeloma Leuk | HBV reactivation risk in patients receiving BTK inhibitors, including zanubrutinib |
-| [38288815](https://pubmed.ncbi.nlm.nih.gov/38288815/) | 2024 | Review | Anticancer Agents Med Chem | General synthetic-chemistry review of FDA-approved anticancer drugs (2018–2021), not disease-specific |
+| [39647999](https://pubmed.ncbi.nlm.nih.gov/39647999/) | 2025 | RCT | J Clin Oncol | SEQUOIA 5-Jahres-Nachbeobachtung: Zanubrutinib vs. Bendamustin+Rituximab in unbehandelter CLL/SLL |
+| [40334067](https://pubmed.ncbi.nlm.nih.gov/40334067/) | 2025 | Kohortenstudie | Blood Advances | Zanubrutinib gut verträglich/wirksam bei CLL/SLL-Patienten, die Ibrutinib/Acalabrutinib nicht vertragen |
+| [40829104](https://pubmed.ncbi.nlm.nih.gov/40829104/) | 2026 | Übersichtsarbeit | Blood Advances | Gepoolte Analyse von Zanubrutinib bei del(17p)/TP53-mutierter CLL/SLL über SEQUOIA und ALPINE |
+| [36400069](https://pubmed.ncbi.nlm.nih.gov/36400069/) | 2023 | Kohortenstudie | Lancet Haematol | Phase-2-Einzelarm-Studie von Zanubrutinib bei BTK-Inhibitor-Intoleranz in B-Zell-Neoplasien |
+| [34959482](https://pubmed.ncbi.nlm.nih.gov/34959482/) | 2021 | Übersichtsarbeit | Pharmaceutics | TKI-Ära-Übersicht zu CML und CLL, allgemeiner Kontext zu Tyrosinkinase-Signalwegen |
+| [36402930](https://pubmed.ncbi.nlm.nih.gov/36402930/) | 2023 | Übersichtsarbeit | Leukemia | BTK-Inhibitoren, einschließlich Zanubrutinib, in Waldenström-Makroglobulinämie |
+| [36325357](https://pubmed.ncbi.nlm.nih.gov/36325357/) | 2022 | Fallbericht | Front Immunol | Fallbericht einer koexistierenden WM und B-ALL, nicht im Zusammenhang mit Zanubrutinib-Behandlungsergebnissen |
+| [37150651](https://pubmed.ncbi.nlm.nih.gov/37150651/) | 2023 | Übersichtsarbeit | Clin Lymphoma Myeloma Leuk | Risiko der HBV-Reaktivierung bei Patienten, die BTK-Inhibitoren erhalten, einschließlich Zanubrutinib |
+| [38288815](https://pubmed.ncbi.nlm.nih.gov/38288815/) | 2024 | Übersichtsarbeit | Anticancer Agents Med Chem | Allgemeine Übersichtsarbeit zur Synthese-Chemie von FDA-zugelassenen Krebsmedikamenten (2018–2021), nicht erkrankungsspezifisch |
 
-**Important:** None of the above publications specifically study zanubrutinib in myeloid leukemia. They represent the drug's established evidence base for B-cell malignancies (CLL/SLL, Waldenström) plus general safety/chemistry reviews. **No direct literature evidence for the predicted myeloid leukemia indication was found.**
-
----
-
-## Germany Market Information
-
-Zanubrutinib is currently **not marketed in Germany** (0 BfArM authorizations on record in this pack).
+**Wichtig:** Keine der oben angeführten Publikationen untersucht Zanubrutinib speziell bei myeloischer Leukämie. Sie repräsentieren die etablierte Evidenzgrundlage des Arzneistoffs für B-Zell-Neoplasien (CLL/SLL, Waldenström) sowie allgemeine Sicherheits-/Chemie-Übersichten. **Keine direkte Fachliteratur-Evidenz für die prognostizierte myeloische Leukämie-Indikation wurde gefunden.**
 
 ---
 
-## Cytotoxicity
+## Marktsituation Deutschland
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (BTK inhibitor; oral small-molecule kinase inhibitor, not conventional cytotoxic chemotherapy) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions (no quantitative toxicity data in this pack) |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | CBC with differential; hepatitis B serology/viral load — HBV reactivation has been reported with BTK inhibitors including zanubrutinib (PMID [37150651](https://pubmed.ncbi.nlm.nih.gov/37150651/)) |
-| Handling Protection | Please refer to the package insert and institutional hazardous drug handling policy |
+Zanubrutinib ist derzeit **nicht auf dem deutschen Markt** (0 BfArM-Zulassungen gemäß Dokumentation in diesem Paket).
 
 ---
 
-## Safety Considerations
+## Zytotoxizität
 
-Please refer to the package insert for safety information (key warnings, contraindications, and drug-drug interaction data are all currently unavailable in this pack — DG001, blocking).
-
-**Signal from literature (not formal safety labeling):** BTK inhibitors as a class, including zanubrutinib, have been associated with hepatitis B virus reactivation (PMID [37150651](https://pubmed.ncbi.nlm.nih.gov/37150651/)); HBV screening should be considered before initiating therapy pending confirmation from official labeling.
+| Element | Inhalt |
+|---------|--------|
+| Zytotoxizitäts-Klassifizierung | Zielgerichtete Therapie (BTK-Inhibitor; orales Small-Molecule-Kinase-Inhibitor, nicht konventionelle zytotoxische Chemotherapie) |
+| Myelosuppressions-Risiko | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Fachinformation (in diesem Paket sind keine quantitativen Toxizitätsdaten verfügbar) |
+| Emetogenitäts-Klassifizierung | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Fachinformation |
+| Überwachungs-Punkte | Blutbild mit Differenzierung; Hepatitis-B-Serologie/Viruslast — HBV-Reaktivierung wurde bei BTK-Inhibitoren einschließlich Zanubrutinib berichtet (PMID [37150651](https://pubmed.ncbi.nlm.nih.gov/37150651/)) |
+| Handhabungsschutz | Bitte beachten Sie die Fachinformation und die institutionelle Richtlinie zum Umgang mit gefährlichen Arzneistoffen |
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsaspekte
 
-**Decision: Hold**
+Bitte beachten Sie die Fachinformation für Sicherheitsinformationen (Schlüsselwarnhinweise, Kontraindikationen und Wechselwirkungsdaten sind alle derzeit nicht in diesem Paket verfügbar — DG001, blockierend).
 
-**Rationale:**
-The TxGNN score is high, but the supporting evidence is not substantive — the two retrieved clinical trials involve different investigational drugs, and all retrieved literature supports zanubrutinib's *established* B-cell malignancy indications rather than myeloid leukemia. Combined with a blocking data gap on approved-label warnings/contraindications (DG001) and the fact that the drug is not currently marketed in Germany, this candidate cannot advance past S0.
+**Signal aus der Fachliteratur (nicht formales Sicherheitslabel):** BTK-Inhibitoren als Klasse, einschließlich Zanubrutinib, wurden mit einer Reaktivierung des Hepatitis-B-Virus assoziiert (PMID [37150651](https://pubmed.ncbi.nlm.nih.gov/37150651/)); ein HBV-Screening sollte vor Einleitung einer Therapie in Betracht gezogen werden, unter Vorbehalt der Bestätigung durch die offizielle Fachinformation.
 
-**To proceed, the following is needed:**
-- Resolve DG001: BfArM/manufacturer label warnings and contraindications, required before any S1 safety screening
-- Resolve DG002: Confirmed mechanism-of-action data from DrugBank
-- Any dedicated preclinical, mechanistic, or clinical evidence linking BTK signaling to myeloid leukemia pathogenesis (currently absent)
-- Correction of the clinical-trial matching pipeline, since both retrieved trials are drug-mismatched and should not have been attributed to this candidate
+---
 
-**Additional note:** Ranks 2–6 (vertebral anomalies syndrome, ganglioneuroblastoma, retroperitoneal neoplasm, Ewing sarcoma, neuroblastoma) are all Evidence Level L5 with zero or near-zero supporting trials/literature and no plausible mechanistic link to BTK inhibition. These should be deprioritized unless new external evidence emerges.
+## Fazit und nächste Schritte
+
+**Entscheidung: Zurückstellung**
+
+**Begründung:**
+Der TxGNN-Score ist hoch, aber die unterstützende Evidenz ist nicht substanziell — die beiden gefundenen klinischen Studien betreffen unterschiedliche investigative Arzneistoffe, und alle gefundene Fachliteratur unterstützt die *etablierten* B-Zell-Neoplasien-Indikationen von Zanubrutinib statt myeloischer Leukämie. In Kombination mit einer blockierenden Datenlücke zu zugelassenen-Label-Warnhinweisen/Kontraindikationen (DG001) und der Tatsache, dass der Arzneistoff derzeit nicht in Deutschland vertrieben wird, kann dieser Kandidat nicht über S0 hinausgehen.
+
+**Um voranzukommen, ist folgendes erforderlich:**
+- Behebung von DG001: BfArM/Hersteller-Label-Warnhinweise und Kontraindikationen, erforderlich vor jedem S1-Sicherheits-Screening
+- Behebung von DG002: Bestätigte Mechanismus-der-Wirkung-Daten von DrugBank
+- Jegliche dedizierte präklinische, mechanistische oder klinische Evidenz, die BTK-Signalisierung mit myeloischer Leukämie-Pathogenese verbindet (derzeit nicht vorhanden)
+- Korrektur der klinischen-Studien-Zuordnungs-Pipeline, da beide gefundenen Studien Arzneistoff-nicht-übereinstimmend sind und nicht diesem Kandidaten zugeordnet hätten werden sollen
+
+**Zusätzliche Anmerkung:** Platzierungen 2–6 (Wirbelkörperanomalie-Syndrom, Ganglioneurom, retroperitoneales Neoplasma, Ewing-Sarkom, Neuroblastom) sind alle Evidenzgrad L5 mit null oder nahezu null unterstützenden Studien/Fachliteratur und keinem plausiblen mechanistischen Zusammenhang mit BTK-Inhibition. Diese sollten mit niedriger Priorität behandelt werden, wenn nicht neue externe Evidenz auftaucht.
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

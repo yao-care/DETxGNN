@@ -29,74 +29,75 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Busulfan: Repurposing Evaluation — Pending Predicted Indication
+# Busulfan: Neubewertung für Umwidmung — Ausstehende prognostizierte Indikation
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Busulfan is a bifunctional alkylating agent historically established for chronic myelogenous leukemia (CML) and pre-transplant conditioning regimens prior to hematopoietic stem cell transplantation (HSCT). The current evidence pack contains **no TxGNN-predicted new indications**, and critical data including mechanism of action and safety information remain unresolved. This report documents the current data status and defines the remediation steps required before repurposing evaluation can proceed.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Chronic myelogenous leukemia / pre-transplant conditioning (based on established pharmacological knowledge; Taiwan package insert not retrieved) |
-| Predicted New Indication | None generated in current evidence pack |
-| TxGNN Prediction Score | Not available |
-| Evidence Level | Cannot be determined |
-| Taiwan Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Busulfan ist ein bifunktionelles Alkylierungsmittel mit etabliertem Einsatz bei chronischer myeloischer Leukämie (CML) und Konditionierungsregimen vor Stammzelltransplantation (HSCT). Das aktuelle Beweispaket enthält **keine durch TxGNN prognostizierten neuen Indikationen**, und kritische Daten einschließlich Wirkmechanismus und Sicherheitsinformationen bleiben ungeklärt. Dieser Bericht dokumentiert den aktuellen Datenstatus und definiert die erforderlichen Abhilfemaßnahmen, bevor die Bewertung der Umwidmung fortgesetzt werden kann.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnelläbersicht
 
-Since the TxGNN pipeline returned no predicted indications in this evidence pack, a formal mechanistic bridge analysis cannot be performed at this stage.
-
-From established pharmacological knowledge, busulfan is a bifunctional alkylating agent that cross-links DNA strands, disrupting replication in rapidly dividing cells. This mechanism underlies its long-standing use in CML (myelosuppression as therapeutic intent) and its role as a myeloablative conditioning agent before HSCT to eliminate residual haematopoietic cells prior to donor engraftment.
-
-To evaluate whether this mechanism is applicable to any new indication, TxGNN predictions must first be generated and reviewed. Once candidate disease associations are available, mechanistic plausibility can be assessed in the context of shared biological pathways.
-
----
-
-## Cytotoxicity
-
-Busulfan is an antineoplastic alkylating agent; cytotoxicity assessment applies.
-
-| Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Conventional cytotoxic — Alkylating agent (bifunctional alkyl sulphonate) |
-| Myelosuppression Risk | High — severe, prolonged myelosuppression is the primary dose-limiting toxicity; nadir typically at 11–30 days |
-| Emetogenicity Classification | Moderate (standard-dose oral regimen); High (high-dose IV conditioning) |
-| Monitoring Items | CBC with differential (daily during conditioning), liver function tests, renal function, busulfan plasma levels (therapeutic drug monitoring for IV conditioning), serum electrolytes |
-| Handling Protection | Must follow cytotoxic drug handling regulations; IV formulation requires dedicated closed-system drug transfer device |
+| Artikel | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Chronische myeloische Leukämie / Konditionierung vor Transplantation (basierend auf etabliertem pharmakologischem Wissen; Packungsbeilage für Taiwan nicht abgerufen) |
+| Prognostizierte neue Indikation | Keine im aktuellen Beweispaket generiert |
+| TxGNN-Prognosescore | Nicht verfügbar |
+| Evidenzstufe | Kann nicht bestimmt werden |
+| Marktstatus in Taiwan | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Zurückhalten |
 
 ---
 
-## Safety Considerations
+## Warum ist diese Vorhersage angemessen?
 
-Please refer to the package insert for safety information.
+Da die TxGNN-Pipeline in diesem Beweispaket keine prognostizierten Indikationen zurückgegeben hat, kann zu diesem Zeitpunkt keine formelle mechanistische Brückenanalyse durchgeführt werden.
 
-> Note: Taiwan package insert retrieval returned a positive result in the query log (query ID 4, status: success), but the parsed content was not included in this evidence pack. Warnings and contraindications should be extracted from that source as the next remediation step.
+Basierend auf etabliertem pharmakologischem Wissen ist Busulfan ein bifunktionelles Alkylierungsmittel, das DNA-Stränge quervernetzt und die Replikation in schnell teilenden Zellen unterbricht. Dieser Mechanismus liegt seiner langjährigen Verwendung bei CML (Knochenmarksuppression als therapeutische Absicht) und seiner Rolle als myeloablativer Konditionierungsstoff vor HSCT zugrunde, um verbleibende hämatopoetische Zellen vor dem Engraftment des Spenders zu beseitigen.
+
+Um zu bewerten, ob dieser Mechanismus auf eine neue Indikation anwendbar ist, müssen zunächst TxGNN-Vorhersagen generiert und überprüft werden. Sobald Kandidatenkrankheitszuordnungen verfügbar sind, kann die mechanistische Plausibilität im Kontext gemeinsamer biologischer Pfade bewertet werden.
 
 ---
 
-## Conclusion and Next Steps
+## Zytotoxizität
 
-**Decision: Hold**
+Busulfan ist ein antineoplastisches Alkylierungsmittel; eine Zytotoxizitätsbewertung ist erforderlich.
 
-**Rationale:**
-The evidence pack is missing TxGNN predictions entirely, and both MOA and safety data remain unresolved — making it impossible to evaluate any repurposing hypothesis or perform a safety pre-screen at this stage.
+| Artikel | Inhalt |
+|---------|--------|
+| Zytotoxizitätsklassifizierung | Konventionell zytotoxisch — Alkylierungsmittel (bifunktionelles Alkylsulfon) |
+| Myelosuppressionsrisiko | Hoch — schwere, anhaltende Knochenmarksuppression ist die primäre dosislimitierende Toxizität; Tiefstwert typischerweise bei 11–30 Tagen |
+| Emetogenitätsklassifizierung | Moderat (Standard-Dosis-Mundregimen); Hoch (hochdosierte IV-Konditionierung) |
+| Überwachungselemente | Blutbild mit Differenzierung (täglich während Konditionierung), Leberfunktionstests, Nierenfunktion, Busulfan-Plasmaspiegel (therapeutisches Arzneimittelmonitoring für IV-Konditionierung), Serumelektrolyte |
+| Handhabungsschutz | Muss Handhabungsvorschriften für zytotoxische Arzneimittel befolgen; IV-Formulierung erfordert spezielles Arzneimittel-Transfergerät für geschlossene Systeme |
 
-**To proceed, the following is needed:**
+---
 
-- **Re-run TxGNN prediction pipeline** — generate candidate disease associations for Busulfan (DB01008) so that a repurposing hypothesis can be identified
-- **Extract Taiwan package insert content** — the query log confirms a successful retrieval (query ID 4); parse warnings, contraindications, and dosage information from the retrieved document
-- **Query DrugBank API for full MOA data** — populate mechanism of action to enable target-pathway analysis
-- **Retrieve DDI data** — query drug interaction databases (DDI query returned not_found; broaden search scope or use alternative sources)
-- **Re-submit evidence pack** — once the above four items are resolved, re-generate the evidence pack and proceed to full repurposing evaluation
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+> Hinweis: Der Abruf der Packungsbeilage für Taiwan ergab ein positives Ergebnis im Abfrageprotokoll (Abfrage-ID 4, Status: erfolgreich), aber der analysierte Inhalt war nicht in diesem Beweispaket enthalten. Warnungen und Kontraindikationen sollten aus dieser Quelle als nächster Abhilfeschritt entnommen werden.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Zurückhalten**
+
+**Begründung:**
+Das Beweispaket ist völlig ohne TxGNN-Vorhersagen, und sowohl der Wirkmechanismus als auch Sicherheitsdaten bleiben ungeklärt — was es zu diesem Zeitpunkt unmöglich macht, eine Umwidmungshypothese zu bewerten oder ein Sicherheits-Vor-Screening durchzuführen.
+
+**Um fortzufahren, wird folgendes benötigt:**
+
+- **TxGNN-Vorhersage-Pipeline erneut ausführen** — Kandidatenkrankheitszuordnungen für Busulfan (DB01008) generieren, damit eine Umwidmungshypothese identifiziert werden kann
+- **Inhalt der Packungsbeilage für Taiwan extrahieren** — das Abfrageprotokoll bestätigt einen erfolgreichen Abruf (Abfrage-ID 4); Warnungen, Kontraindikationen und Dosierungsinformationen aus dem abgerufenen Dokument extrahieren
+- **DrugBank-API für vollständige Wirkmechanismus-Daten abfragen** — Wirkmechanismus ausfüllen, um Target-Pathway-Analyse zu ermöglichen
+- **DDI-Daten abrufen** — Arzneimittel-Interaktionsdatenbanken abfragen (DDI-Abfrage gab not_found zurück; Suchbereich erweitern oder alternative Quellen verwenden)
+- **Beweispaket erneut einreichen** — sobald die oben genannten vier Punkte gelöst sind, das Beweispaket erneut generieren und zur vollständigen Umwidmungsbewertung übergehen
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

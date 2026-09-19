@@ -29,71 +29,72 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Crizotinib: From ALK/ROS1-Positive Non-Small Cell Lung Cancer to Gingival Fibromatosis
+# Crizotinib: Vom ALK/ROS1-positiven nicht-kleinzelligen Lungenkrebs zur gingivalen Fibromatose
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Crizotinib is an ALK/ROS1/MET tyrosine kinase inhibitor established for ALK/ROS1-rearranged non-small cell lung cancer (NSCLC).
-The TxGNN model's top-ranked prediction for this drug is **Gingival Fibromatosis**, but this candidate currently has **0 clinical trials** and **0 publications**, and the model's own rationale flags it as a pure embedding-score signal with no known biological basis.
+Crizotinib ist ein ALK/ROS1/MET-Tyrosinkinase-Inhibitor, der für ALK/ROS1-rearrangierte nicht-kleinzellige Lungenkrebse (NSCLC) etabliert ist.
+Die Top-Rang-Vorhersage des TxGNN-Modells für dieses Arzneimittel ist **gingivale Fibromatose**, aber dieser Kandidat hat derzeit **0 klinische Studien** und **0 Veröffentlichungen**, und die eigene Begründung des Modells kennzeichnet ihn als reines Embedding-Score-Signal ohne bekannte biologische Grundlage.
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available in this jurisdiction (drug unlicensed here; internationally, crizotinib is indicated for ALK/ROS1-positive NSCLC per literature evidence in this pack) |
-| Predicted New Indication | Gingival Fibromatosis |
-| TxGNN Prediction Score | 99.81% |
-| Evidence Level | L5 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | In dieser Gerichtsbarkeit nicht verfügbar (Arzneimittel hier nicht zugelassen; international ist Crizotinib für ALK/ROS1-positive NSCLC gemäß der in diesem Paket enthaltenen Literaturbelege indiziert) |
+| Prognostizierte neue Indikation | Gingivale Fibromatose |
+| TxGNN-Vorhersage-Score | 99.81% |
+| Evidenzebene | L5 |
+| Deutschland-Marktstatus | ✗ Nicht vermarktet |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | Zurückhalten |
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage begründet?
 
-Currently, no formal mechanism-of-action record is available for this drug in the evidence pack. Based on repeated descriptions across the predicted-indication rationales, crizotinib is known to act as an ATP-competitive small-molecule inhibitor of the receptor tyrosine kinases ALK, ROS1, and MET, with established clinical efficacy in ALK/ROS1-rearranged NSCLC.
+Derzeit ist kein formales Wirkmechanismus-Dokument für dieses Arzneimittel im Evidenzpaket verfügbar. Basierend auf wiederholten Beschreibungen in den Begründungen der prognostizierten Indikationen ist bekannt, dass Crizotinib als ein ATP-kompetitiver Kleinmolekül-Inhibitor der Rezeptortyrosinkinasen ALK, ROS1 und MET wirkt und eine etablierte klinische Wirksamkeit bei ALK/ROS1-rearrangiertem NSCLC aufweist.
 
-For the top-ranked prediction, **gingival fibromatosis**, no mechanistic or biological link to the ALK/ROS1/MET pathway has been identified. The model's own repurposing rationale explicitly states this is "a pure TxGNN embedding high-score prediction, lacking any biological hypothesis support." There are no clinical trials or literature entries supporting this candidate.
+Für die Top-Rang-Vorhersage, **gingivale Fibromatose**, wurde keine mechanistische oder biologische Verbindung zum ALK/ROS1/MET-Signalweg identifiziert. Die eigene Begründung des Modells für die Umnutzung besagt ausdrücklich, dass dies „eine reine TxGNN-Embedding-High-Score-Vorhersage ohne biologische Hypothesenstützung ist." Es gibt keine klinischen Studien oder Literatureinträge, die diesen Kandidaten unterstützen.
 
-It is worth noting that among the 10 predictions generated for this drug, several lower-ranked candidates show materially stronger and more biologically coherent signals — most notably **lung hilum carcinoma** (rank 4, evidence level L3, decision stage S2, "Research Question"), which reflects the drug's already-established ALK/ROS1-driven NSCLC mechanism rather than a genuinely novel indication. By contrast, the rank-1 candidate reported here (gingival fibromatosis) appears to be embedding noise and does not warrant further action at this time.
+Es ist erwähnenswert, dass unter den 10 für dieses Arzneimittel generierten Vorhersagen mehrere niedriger bewertete Kandidaten wesentlich stärkere und biologisch kohärentere Signale zeigen – besonders bemerkenswert **Lungenhiluskarziom** (Rang 4, Evidenzebene L3, Entscheidungsstufe S2, „Forschungsfrage"), das den bereits etablierten ALK/ROS1-getriebenen NSCLC-Mechanismus des Arzneimittels widerspiegelt, anstatt eine wirklich neuartige Indikation zu sein. Im Gegensatz dazu scheint der hier berichtete Rang-1-Kandidat (gingivale Fibromatose) Embedding-Rauschen zu sein und rechtfertigt zu diesem Zeitpunkt keine weiteren Maßnahmen.
 
-## Clinical Trial Evidence
+## Evidenz aus klinischen Studien
 
-Currently no related clinical trials registered
+Derzeit keine verwandten klinischen Studien registriert
 
-## Literature Evidence
+## Literaturevidenz
 
-Currently no related literature available
+Derzeit keine verwandte Literatur verfügbar
 
-## Germany Market Information
+## Deutschland-Marktinformationen
 
-This drug currently has no marketing authorization in this market (0 licenses on record).
+Dieses Arzneimittel hat derzeit keine Zulassung auf diesem Markt (0 Lizenzen registriert).
 
-## Cytotoxicity
+## Zytotoxizität
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (ALK/ROS1/MET tyrosine kinase inhibitor) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| Element | Inhalt |
+|---------|--------|
+| Zytotoxizitätsklassifizierung | Zielgerichtete Therapie (ALK/ROS1/MET-Tyrosinkinase-Inhibitor) |
+| Myelosuppressions-Risiko | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Packungsbeilage |
+| Emetogenitätsklassifizierung | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Packungsbeilage |
+| Überwachungselemente | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Packungsbeilage |
+| Handhabungsschutz | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Packungsbeilage |
 
-## Safety Considerations
+## Sicherheitsaspekte
 
-Please refer to the package insert for safety information.
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
 
-## Conclusion and Next Steps
+## Schlussfolgerung und nächste Schritte
 
-**Decision: Hold**
+**Entscheidung: Zurückhalten**
 
-**Rationale:**
-The top-ranked prediction (gingival fibromatosis) has no clinical trial or literature support, and the model's own rationale identifies it as an unsupported embedding-score artifact. Combined with the absence of local market authorization and core drug-level data (MOA, original indication, safety), there is insufficient basis to advance this specific candidate.
+**Begründung:**
+Die Top-Rang-Vorhersage (gingivale Fibromatose) hat keine Unterstützung durch klinische Studien oder Literatur, und die eigene Begründung des Modells kennzeichnet sie als ein unbegründetes Embedding-Score-Artefakt. Kombiniert mit dem Fehlen lokaler Marktzulassung und grundlegenden Arzneimittel-Daten (Wirkmechanismus, ursprüngliche Indikation, Sicherheit) gibt es eine unzureichende Grundlage, um diesen spezifischen Kandidaten voranzubringen.
 
-**To proceed, the following is needed:**
-- Resolve blocking data gap DG001: TFDA/BfArM label warnings and contraindications (required before any S1 safety pre-assessment)
-- Resolve high-severity data gap DG002: formal mechanism-of-action record from DrugBank
-- If repurposing interest continues, redirect evaluation toward the better-evidenced candidate identified in this dataset — **lung hilum carcinoma** (L3, decision stage S2) — rather than the current top-ranked prediction
-- Manual ontology/mapping review, since several other predictions in this dataset (e.g., ranks 5, 8, 10) show literature sets that do not match the predicted disease label, suggesting systematic mapping noise that should be corrected before future scoring runs
+**Zum Fortfahren ist Folgendes erforderlich:**
+- Behebung der blockierenden Datenlücke DG001: TFDA/BfArM-Beschriftungswarnhinweise und Kontraindikationen (erforderlich vor einer S1-Sicherheitsvorbewertung)
+- Behebung der schwerwiegenden Datenlücke DG002: formales Wirkmechanismus-Dokument von DrugBank
+- Falls das Interesse an der Umnutzung anhält, leiten Sie die Bewertung zum besser belegten Kandidaten um, der in diesem Datensatz identifiziert wurde — **Lungenhiluskarziom** (L3, Entscheidungsstufe S2) — anstelle der aktuellen Top-Rang-Vorhersage
+- Manuelle Ontologie-/Mapping-Überprüfung, da mehrere andere Vorhersagen in diesem Datensatz (z. B. Ränge 5, 8, 10) Literatursätze zeigen, die nicht mit der vorhergesagten Krankheitsbezeichnung übereinstimmen, was systematisches Mapping-Rauschen suggeriert, das vor zukünftigen Scoring-Durchläufen korrigiert werden sollte
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

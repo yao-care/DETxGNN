@@ -29,82 +29,83 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Latanoprost: Original Indication Not Specified → Primary Hereditary Glaucoma
+# Latanoprost: Ursprüngliche Indikation nicht angegeben → Primäres hereditäres Glaukom
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Latanoprost's original indication is not documented in the current evidence pack (data gap), and its detailed mechanism of action (MOA) record is also missing.
-> The TxGNN model predicts it may be effective for **Primary Hereditary Glaucoma**,
-> supported by **1 completed Phase 2 clinical trial** and **no dedicated literature** currently on file.
-> Notably, the trial-provided mechanistic rationale indicates this predicted indication largely overlaps with latanoprost's already-known ocular pharmacology (intraocular pressure lowering via uveoscleral outflow), so this is less a novel repurposing hypothesis and more a confirmation/extension within a related patient population (hereditary/pediatric glaucoma).
+> Die ursprüngliche Indikation für Latanoprost ist in dem aktuellen Evidenzpaket nicht dokumentiert (Datenlücke), und auch die detaillierte Dokumentation des Wirkmechanismus (MOA) fehlt.
+> Das TxGNN-Modell prognostiziert, dass es möglicherweise wirksam gegen **primäres hereditäres Glaukom** ist,
+> gestützt durch **1 abgeschlossene Phase-2-Studie** und **derzeit keine dedizierte Literatur** in den Unterlagen.
+> Bemerkenswert ist, dass die von der Studie bereitgestellte mechanistische Begründung zeigt, dass sich diese prognostizierte Indikation erheblich mit der bereits bekannten okulären Pharmakologie von Latanoprost überlappt (Senkung des Intraokulardrucks durch erhöhten uveoskleralen Abfluss), daher handelt es sich weniger um eine neuartige Umwidmungshypothese als vielmehr um eine Bestätigung/Erweiterung innerhalb einer verwandten Patientengruppe (hereditäres/pädiatrisches Glaukom).
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Punkt | Inhalt |
 |------|------|
-| Original Indication | Not available in evidence pack (data gap; no licenses or original_indications on file) |
-| Predicted New Indication | Primary Hereditary Glaucoma |
-| TxGNN Prediction Score | 99.88% |
-| Evidence Level | L2 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Ursprüngliche Indikation | Im Evidenzpaket nicht verfügbar (Datenlücke; keine Zulassungen oder ursprünglichen Indikationen dokumentiert) |
+| Prognostizierte neue Indikation | Primäres hereditäres Glaukom |
+| TxGNN-Prognosescore | 99.88% |
+| Evidenzgrad | L2 |
+| Marktstatus in Deutschland | ✗ Nicht zugelassen |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Mit Schutzmaßnahmen durchführen |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Prognose angemessen?
 
-Detailed original MOA data for latanoprost is not available in this evidence pack. However, the repurposing rationale associated with the top prediction states that latanoprost is a **prostaglandin F2α analogue** that lowers intraocular pressure (IOP) by increasing uveoscleral (trabecular) outflow of aqueous humor. This is described as its core pharmacological mechanism.
+Die detaillierte MOA-Dokumentation für Latanoprost ist in diesem Evidenzpaket nicht verfügbar. Die mit der Top-Prognose verknüpfte Umwidmungsbegründung besagt jedoch, dass Latanoprost ein **Prostaglandin-F2α-Analogon** ist, das den Intraokulardruck (IOD) durch Erhöhung des uveoskleralen (trabekulären) Abflusses von Kammerwasser senkt. Dies wird als sein grundlegender Wirkmechanismus beschrieben.
 
-Primary hereditary glaucoma — like other glaucoma subtypes — is pathophysiologically defined by impaired aqueous humor outflow leading to elevated IOP and subsequent optic nerve damage. Because latanoprost's known mechanism directly targets aqueous outflow, the predicted indication is mechanistically **congruent** rather than a distant extrapolation. As the evidence pack itself notes, "this indication substantially overlaps with the drug's known mechanism of action, and does not represent a novel mechanistic extrapolation."
+Primäres hereditäres Glaukom – wie andere Glaukomsubtypen – ist pathophysiologisch durch einen beeinträchtigten Kammerwasserabfluss definiert, was zu erhöhtem IOD und nachfolgendem Sehnervenschaden führt. Da der bekannte Wirkmechanismus von Latanoprost direkt auf den Kammerwasserabfluss abzielt, ist die prognostizierte Indikation mechanistisch **kongruent** und nicht eine entfernte Extrapolation. Wie das Evidenzpaket selbst feststellt: „Diese Indikation überlappt sich wesentlich mit dem bekannten Wirkmechanismus des Arzneistoffs und stellt keine neuartige mechanistische Extrapolation dar."
 
-The supporting clinical trial (NCT01527682) reinforces this: it tested latanoprost (combined with dorzolamide, a carbonic anhydrase inhibitor) specifically in **pediatric glaucoma refractory to surgery**, a population closely related to primary hereditary glaucoma. This strengthens plausibility, though the trial does not exactly match the "hereditary" subtype label, and no additional literature currently corroborates the finding.
+Die unterstützende klinische Studie (NCT01527682) bekräftigt dies: Sie testete Latanoprost (kombiniert mit Dorzolamid, einem Carboanhydrase-Inhibitor) speziell bei **pädiatrischem Glaukom refraktär gegenüber chirurgischen Verfahren**, einer Population, die eng mit primärem hereditärem Glaukom verwandt ist. Dies stärkt die Plausibilität, obwohl die Studie nicht exakt dem Label „hereditär" für den Glaukomsubtyp entspricht, und derzeit keine zusätzliche Literatur die Befunde unterstützt.
 
 ---
 
-## Clinical Trial Evidence
+## Evidenz aus klinischen Studien
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Studiennummer | Phase | Status | Einschluss | Wichtigste Erkenntnisse |
 |---------|------|------|------|---------|
-| [NCT01527682](https://clinicaltrials.gov/study/NCT01527682) | Phase 2 | Completed | 37 | Assessed ocular hypotensive efficacy and safety of latanoprost + dorzolamide in pediatric glaucoma patients refractory to surgical procedures; direct head-to-head style evaluation of latanoprost's IOP-lowering effect in a glaucoma population closely related to the predicted indication. |
+| [NCT01527682](https://clinicaltrials.gov/study/NCT01527682) | Phase 2 | Abgeschlossen | 37 | Bewertung der augeninnendrucksenkenden Wirksamkeit und Sicherheit von Latanoprost + Dorzolamid bei pädiatrischen Glaukompatienten refraktär gegenüber chirurgischen Verfahren; direkte vergleichende Bewertung der IOD-senkenden Wirkung von Latanoprost in einer Glaukomgruppe, die eng mit der prognostizierten Indikation verwandt ist. |
 
 ---
 
-## Literature Evidence
+## Evidenz aus der Literatur
 
-Currently no related literature available.
-
----
-
-## Germany Market Information
-
-No marketing authorization records are available — latanoprost is currently **not marketed** in Germany per this evidence pack (0 licenses on file).
+Derzeit ist keine verwandte Literatur verfügbar.
 
 ---
 
-## Safety Considerations
+## Marktinformationen für Deutschland
 
-Please refer to the package insert for safety information.
-
-*(Key warnings, contraindications, and drug-drug interaction data are not currently available in this evidence pack; DrugBank/TFDA label extraction is flagged as a blocking data gap — DG001.)*
+Keine Zulassungsunterlagen sind verfügbar – Latanoprost wird derzeit in Deutschland laut diesem Evidenzpaket **nicht zugelassen** (0 Zulassungen dokumentiert).
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsaspekte
 
-**Decision: Proceed with Guardrails**
+Bitte beachten Sie die Fachinformation für Sicherheitsinformationen.
 
-**Rationale:**
-A single completed Phase 2 trial (L2 evidence) directly supports latanoprost's IOP-lowering effect in a glaucoma population mechanistically aligned with the predicted indication, but the drug is not currently marketed in Germany, and critical safety/labeling data are missing.
+*(Wichtige Warnhinweise, Kontraindikationen und Arzneistoff-Wechselwirkungsdaten sind derzeit im Evidenzpaket nicht verfügbar; die Extraktion von DrugBank/TFDA-Etiketten wird als blockierende Datenlücke gekennzeichnet – DG001.)*
 
-**To proceed, the following is needed:**
-- TFDA/BfArM package insert data (warnings, contraindications) — currently blocking (DG001)
-- Formal DrugBank-sourced MOA documentation (DG002)
-- Confirmation of original approved indication(s), since none are currently on file
-- Additional trials or literature specific to *hereditary* (vs. general pediatric) glaucoma subtypes to close the label-match gap
-- Route/formulation compatibility assessment once market status is clarified
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Mit Schutzmaßnahmen durchführen**
+
+**Begründung:**
+Eine einzelne abgeschlossene Phase-2-Studie (L2-Evidenz) unterstützt direkt die IOD-senkende Wirkung von Latanoprost in einer Glaukomgruppe, die mechanistisch mit der prognostizierten Indikation übereinstimmt, aber das Arzneimittel wird derzeit in Deutschland nicht zugelassen, und wichtige Sicherheits-/Etikett-Daten fehlen.
+
+**Zur Durchführung ist Folgendes erforderlich:**
+- TFDA/BfArM-Fachinformationsdaten (Warnhinweise, Kontraindikationen) – derzeit blockiert (DG001)
+- Formale, von DrugBank stammende MOA-Dokumentation (DG002)
+- Bestätigung der ursprünglichen genehmigten Indikation(en), da derzeit keine dokumentiert sind
+- Zusätzliche Studien oder Literatur speziell zu *hereditärem* (gegenüber allgemeinem pädiatrischem) Glaukomsubtypen zur Schließung der Kennzeichnungskongruenzlücke
+- Bewertung der Applikationsweg/Formulierungskompatibilität, sobald der Marktstatus geklärt ist
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

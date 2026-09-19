@@ -29,113 +29,114 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Ambrisentan: From Idiopathic Pulmonary Arterial Hypertension to Connective Tissue Disease-Associated Pulmonary Arterial Hypertension
+# Ambrisentan: Von Idiopathischer Pulmonaler Arterieller Hypertonie zur Pulmonalarteriellen Hypertonie Assoziiert mit Bindegewebserkrankung
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Ambrisentan is a selective endothelin type A (ETA) receptor antagonist originally developed for idiopathic/heritable pulmonary arterial hypertension (PAH). The TxGNN model — together with corroborating clinical and literature evidence — predicts it may also be effective for **Pulmonary Arterial Hypertension Associated with Connective Tissue Disease (CTD-PAH)**, with **3 clinical trials** (including the pivotal AMBITION combination-therapy program) and **20 publications**, including a systematic review and meta-analysis, currently supporting this direction.
+Ambrisentan ist ein selektiver Endothelin-Typ-A-(ETA)-Rezeptorantagonist, der ursprünglich für idiopathische/hereditäre pulmonale arterielle Hypertonie (PAH) entwickelt wurde. Das TxGNN-Modell — zusammen mit unterstützenden klinischen und Literaturbelegen — sagt voraus, dass es auch für **Pulmonale Arterielle Hypertonie Assoziiert mit Bindegewebserkrankung (CTD-PAH)** wirksam sein könnte, mit **3 klinischen Studien** (einschließlich des pivotalen AMBITION-Kombinationstherapie-Programms) und **20 Publikationen**, einschließlich einer systematischen Übersichtsarbeit und Metaanalyse, die diese Richtung derzeit unterstützen.
 
-> **Note on indication selection:** This Evidence Pack contains 10 TxGNN-predicted indications for ambrisentan. The single highest-scoring prediction by raw TxGNN score (`pulmonary arteriovenous malformation`, 99.41%) is supported by only one case report and is scored **L4/Hold** by the pipeline's own evidence engine. This report instead focuses on **CTD-PAH**, which carries the strongest, most clinically actionable evidence body among the ten candidates (**L1, decision stage S3, "Proceed with Guardrails"**). A full screening summary of all 10 candidates is provided at the end of this report for transparency.
+> **Hinweis zur Indikationsauswahl:** Dieses Evidence Pack enthält 10 vom TxGNN vorhergesagte Indikationen für Ambrisentan. Die einzelne höchstbewertete Vorhersage nach rohem TxGNN-Score (`pulmonale arteriovenöse Malformation`, 99,41%) wird von nur einem Fallbericht unterstützt und wird von der eigenen Evidence-Engine der Pipeline mit **L4/Hold** bewertet. Dieser Bericht konzentriert sich stattdessen auf **CTD-PAH**, das den stärksten, klinisch verwertbarsten Evidenzbestand unter den zehn Kandidaten aufweist (**L1, Entscheidungsphase S3, „Mit Schutzmaßnahmen fortfahren"**). Eine vollständige Screening-Zusammenfassung aller 10 Kandidaten wird am Ende dieses Berichts aus Transparenzgründen bereitgestellt.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
-|------|------|
-| Original Indication | Idiopathic / Heritable Pulmonary Arterial Hypertension (WHO Group 1 PAH) — inferred from cross-referenced literature and mechanistic rationale, since Germany license records returned zero entries |
-| Predicted New Indication | Pulmonary Arterial Hypertension Associated with Connective Tissue Disease (CTD-PAH) |
-| TxGNN Prediction Score | 99.30% |
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Idiopathische / Hereditäre Pulmonale Arterielle Hypertonie (WHO Gruppe 1 PAH) — basierend auf kreuzreferenzierter Literatur und mechanistischer Begründung abgeleitet, da deutsche Lizenzeinträge null Ergebnisse zurückgaben |
+| Vorhergesagte Neue Indikation | Pulmonale Arterielle Hypertonie Assoziiert mit Bindegewebserkrankung (CTD-PAH) |
+| TxGNN-Vorhersage-Score | 99,30% |
 | Evidence Level | L1 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Deutschland Marktstatus | ✗ Nicht vermarktet |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | Mit Schutzmaßnahmen fortfahren |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist Diese Vorhersage Begründet?
 
-Detailed structured mechanism-of-action data was not returned by the DrugBank query (flagged as a High-severity data gap). However, the mechanistic rationale is consistently documented across the Evidence Pack's repurposing analyses: **Ambrisentan is a selective endothelin type A (ETA) receptor antagonist**. By blocking endothelin-1-mediated vasoconstriction and vascular smooth muscle proliferation, it reduces pulmonary vascular resistance and reverses pathological pulmonary vascular remodeling — the shared final pathway of all WHO Group 1 PAH subtypes.
+Detaillierte strukturierte Wirkmechanismus-Daten wurden von der DrugBank-Abfrage nicht zurückgegeben (als Datenlücke mit hohem Schweregrad gekennzeichnet). Die mechanistische Begründung ist jedoch konsistent über die Repurposing-Analysen des Evidence Packs dokumentiert: **Ambrisentan ist ein selektiver Endothelin-Typ-A-(ETA)-Rezeptorantagonist**. Durch Blockierung der Endothelin-1-vermittelten Vasokonstriktion und vaskulären glattenmuskulären Proliferation reduziert es den pulmonalen Gefäßwiderstand und kehrt die pathologische pulmonale vaskuläre Umstrukturierung um — der gemeinsame Endweg aller WHO-Gruppe-1-PAH-Subtypen.
 
-Connective tissue disease-associated PAH (most commonly seen in systemic sclerosis/scleroderma, and also lupus and mixed connective tissue disease) is classified as WHO Group 1.4.1 — a molecularly indistinguishable process from idiopathic PAH, differing only in the upstream autoimmune trigger that initiates endothelial injury and endothelin-1 overexpression. Because the terminal vascular pathology and drug target are identical, ETA-receptor blockade is mechanistically as applicable in CTD-PAH as in idiopathic PAH.
+Bindegewebserkrankungs-assoziierte PAH (am häufigsten bei systemischer Sklerose/Sklerodermie zu sehen, sowie bei Lupus und gemischter Bindegewebserkrankung) wird als WHO Gruppe 1.4.1 klassifiziert — ein molekular nicht zu unterscheidendes Verfahren von idiopathischer PAH, das sich nur in dem stromaufwärts gelegenen Autoimmunauslöser unterscheidet, der die endotheliale Verletzung und Endothelin-1-Überexpression initiiert. Da die terminale vaskuläre Pathologie und das Arzneimittelziel identisch sind, ist die ETA-Rezeptor-Blockade in CTD-PAH genauso mechanistisch anwendbar wie in idiopathischer PAH.
 
-This mechanistic plausibility is strongly reinforced by real clinical precedent already present in the literature: a 2017 review (PMID 28425346) explicitly states that ambrisentan is "approved for the treatment of idiopathic, heritable PAH **and connective tissue disease-associated PAH**." Multiple post-hoc/subgroup analyses of the AMBITION trial — ambrisentan's own pivotal registration study, combined with tadalafil — specifically evaluated the CTD-PAH subpopulation and reported meaningful benefit, further supporting that the TxGNN prediction reflects an indication already partially validated in real-world regulatory and clinical practice elsewhere, rather than a purely speculative extrapolation.
+Diese mechanistische Plausibilität wird stark durch bereits in der Literatur vorhandene klinische Präzedenzfälle gestützt: Eine 2017er-Übersichtsarbeit (PMID 28425346) besagt ausdrücklich, dass Ambrisentan „zur Behandlung von idiopathischer, hereditärer PAH **und bindegewebserkrankungs-assoziierter PAH** zugelassen ist." Mehrere Post-hoc-/Subgruppenanalysen der AMBITION-Studie — Ambrisentans eigene pivot registrierungsuntersuchung, kombiniert mit Tadalafil — bewerteten spezifisch die CTD-PAH-Subpopulation und berichteten von bedeutsamem Nutzen, was weiter unterstützt, dass die TxGNN-Vorhersage eine bereits teilweise validierte Indikation in der realweltlichen regulatorischen und klinischen Praxis anderswo widerspiegelt, statt einer rein spekulativen Extrapolation.
 
 ---
 
-## Clinical Trial Evidence
+## Klinische Studienevidenz
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Studiennummer | Phase | Status | Einschluss | Wichtigste Befunde |
 |---------|------|------|------|---------|
-| [NCT01042158](https://clinicaltrials.gov/study/NCT01042158) | Phase 4 | Completed | 25 | Open-label study of ambrisentan + tadalafil combination therapy in PAH associated with systemic sclerosis spectrum disease (PAH-SSD); assessed 6MWD, NYHA class, and hemodynamics. |
-| [NCT02290613](https://clinicaltrials.gov/study/NCT02290613) | Phase 2 | Completed | 38 | EDITA proof-of-concept RCT: early ambrisentan treatment in borderline/early elevated pulmonary artery pressure associated with systemic sclerosis. |
-| [NCT02885012](https://clinicaltrials.gov/study/NCT02885012) | Phase 4 | Terminated (n=3) | 3 | Switch study from bosentan/macitentan to ambrisentan in CTD-PAH; terminated early due to low enrollment, safety-observation value only. |
+| [NCT01042158](https://clinicaltrials.gov/study/NCT01042158) | Phase 4 | Abgeschlossen | 25 | Offene Studie zu Ambrisentan + Tadalafil-Kombinationstherapie bei PAH assoziiert mit systemischem Sklerose-Spektrum-Erkrankung (PAH-SSD); bewertete 6MWD, NYHA-Klasse und Hämodynamik. |
+| [NCT02290613](https://clinicaltrials.gov/study/NCT02290613) | Phase 2 | Abgeschlossen | 38 | EDITA-Machbarkeitsstudie RCT: frühzeitige Ambrisentan-Behandlung bei grenzwertiger/früher erhöhter pulmonalarterieller Druckerhöhung assoziiert mit systemischer Sklerose. |
+| [NCT02885012](https://clinicaltrials.gov/study/NCT02885012) | Phase 4 | Abgebrochen (n=3) | 3 | Wechselstudie von Bosentan/Macitentan zu Ambrisentan bei CTD-PAH; vorzeitig wegen niedriger Einschlussrate beendet, nur Sicherheitsbeobachtungswert. |
 
 ---
 
-## Literature Evidence
+## Literaturbelege
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Journal | Wichtigste Befunde |
 |------|-----|------|------|---------|
-| [38378970](https://pubmed.ncbi.nlm.nih.gov/38378970/) | 2024 | Systematic Review & Meta-analysis | Internal and Emergency Medicine | Pooled RCT evidence for CTD-PAH treatment outcomes (functional class, survival, 6MWD, NT-proBNP). |
-| [23906950](https://pubmed.ncbi.nlm.nih.gov/23906950/) | 2013 | Meta-analysis | BMJ Open | Meta-analysis of clinical trials establishing efficacy signal for PAH-targeted therapy, including ambrisentan, in CTD-PAH. |
-| [26360334](https://pubmed.ncbi.nlm.nih.gov/26360334/) | 2015 | RCT (AMBITION subgroup) | American Journal of Respiratory and Critical Care Medicine | Up-front ambrisentan + tadalafil combination therapy in scleroderma-associated PAH (SSc-PAH). |
-| [31655622](https://pubmed.ncbi.nlm.nih.gov/31655622/) | 2019 | RCT (EDITA study) | Arthritis Research & Therapy | Randomized, double-blind, placebo-controlled trial of early ambrisentan in mildly elevated mPAP associated with systemic sclerosis. |
-| [32161055](https://pubmed.ncbi.nlm.nih.gov/32161055/) | 2020 | Cohort (AMBITION post-hoc) | Annals of the Rheumatic Diseases | Post-hoc analysis of initial ambrisentan + tadalafil combination therapy in CTD-PAH within the AMBITION modified ITT population. |
-| [28039187](https://pubmed.ncbi.nlm.nih.gov/28039187/) | 2017 | Cohort (AMBITION subgroup) | Annals of the Rheumatic Diseases | Subgroup analysis of AMBITION trial confirming benefit of initial combination therapy in CTD-PAH, including systemic sclerosis. |
-| [27492539](https://pubmed.ncbi.nlm.nih.gov/27492539/) | 2016 | Cohort (ARIES-E subgroup) | Respiratory Medicine | 3-year efficacy and safety of ambrisentan specifically in CTD-PAH patients from the ARIES-E extension study. |
-| [29282676](https://pubmed.ncbi.nlm.nih.gov/29282676/) | 2018 | Post-marketing Surveillance | Clinical Drug Investigation | Real-world safety and efficacy surveillance of ambrisentan (Volibris) in 702 PAH patients, including CTD-associated cases. |
-| [28425346](https://pubmed.ncbi.nlm.nih.gov/28425346/) | 2017 | Review | Therapeutic Advances in Respiratory Disease | States ambrisentan is approved for idiopathic/heritable PAH and CTD-PAH; summarizes efficacy on exercise capacity and hemodynamics. |
-| [37765060](https://pubmed.ncbi.nlm.nih.gov/37765060/) | 2023 | Review | Pharmaceuticals (Basel) | Recent advances in treatment of PAH associated with connective tissue disease, contextualizing ERA therapy including ambrisentan. |
+| [38378970](https://pubmed.ncbi.nlm.nih.gov/38378970/) | 2024 | Systematische Übersichtsarbeit & Metaanalyse | Internal and Emergency Medicine | Gepoolte RCT-Evidenz für CTD-PAH-Behandlungsergebnisse (Funktionsklasse, Überleben, 6MWD, NT-proBNP). |
+| [23906950](https://pubmed.ncbi.nlm.nih.gov/23906950/) | 2013 | Metaanalyse | BMJ Open | Metaanalyse klinischer Studien, die Wirksamkeitssignal für PAH-gezielte Therapie, einschließlich Ambrisentan, in CTD-PAH etabliert. |
+| [26360334](https://pubmed.ncbi.nlm.nih.gov/26360334/) | 2015 | RCT (AMBITION-Subgruppe) | American Journal of Respiratory and Critical Care Medicine | Initiale Ambrisentan + Tadalafil-Kombinationstherapie bei Sklerodermie-assoziierter PAH (SSc-PAH). |
+| [31655622](https://pubmed.ncbi.nlm.nih.gov/31655622/) | 2019 | RCT (EDITA-Studie) | Arthritis Research & Therapy | Randomisierte, doppelblinde, Placebo-kontrollierte Studie zu früher Ambrisentan-Gabe bei leicht erhöhtem mPAP assoziiert mit systemischer Sklerose. |
+| [32161055](https://pubmed.ncbi.nlm.nih.gov/32161055/) | 2020 | Kohorte (AMBITION Post-hoc) | Annals of the Rheumatic Diseases | Post-hoc-Analyse der initialen Ambrisentan + Tadalafil-Kombinationstherapie in CTD-PAH innerhalb der AMBITION modifizierten ITT-Population. |
+| [28039187](https://pubmed.ncbi.nlm.nih.gov/28039187/) | 2017 | Kohorte (AMBITION-Subgruppe) | Annals of the Rheumatic Diseases | Subgruppenanalyse der AMBITION-Studie, die Nutzen der initialen Kombinationstherapie in CTD-PAH einschließlich systemischer Sklerose bestätigt. |
+| [27492539](https://pubmed.ncbi.nlm.nih.gov/27492539/) | 2016 | Kohorte (ARIES-E-Subgruppe) | Respiratory Medicine | 3-Jahres-Wirksamkeit und -Sicherheit von Ambrisentan speziell bei CTD-PAH-Patienten aus der ARIES-E-Erweiterungsstudie. |
+| [29282676](https://pubmed.ncbi.nlm.nih.gov/29282676/) | 2018 | Pharmakovigilanz nach Markteinführung | Clinical Drug Investigation | Realwelt-Sicherheits- und Wirksamkeitsüberwachung von Ambrisentan (Volibris) bei 702 PAH-Patienten, einschließlich CTD-assoziierter Fälle. |
+| [28425346](https://pubmed.ncbi.nlm.nih.gov/28425346/) | 2017 | Übersichtsarbeit | Therapeutic Advances in Respiratory Disease | Besagt, dass Ambrisentan für idiopathische/hereditäre PAH und CTD-PAH zugelassen ist; fasst Wirksamkeit auf Belastungskapazität und Hämodynamik zusammen. |
+| [37765060](https://pubmed.ncbi.nlm.nih.gov/37765060/) | 2023 | Übersichtsarbeit | Pharmaceuticals (Basel) | Aktuelle Fortschritte in der Behandlung von PAH assoziiert mit Bindegewebserkrankung, mit Kontextualisierung von ERA-Therapie einschließlich Ambrisentan. |
 
 ---
 
-## Germany Market Information
+## Deutschland Marktinformationen
 
-No marketing authorizations are currently on record — ambrisentan is **not marketed** in this jurisdiction per the available regulatory data (0 licenses).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. The Evidence Pack's German regulatory warnings/contraindications and drug-drug interaction (DDI) database queries did not return usable data (DDI query status: *not found*; package insert data flagged as a **Blocking** data gap, DG001), so no drug-specific warnings can be cited here beyond the general PAH-therapy class considerations (e.g., hepatic monitoring, teratogenicity, fluid retention typical of endothelin receptor antagonists) — none of which are sourced from this Evidence Pack and should not be treated as a substitute for the official label.
+Es liegen derzeit keine Vermarktungsgenehmigungen vor — Ambrisentan ist in dieser Gerichtsbarkeit **nicht vermarktet** laut verfügbaren behördlichen Daten (0 Lizenzen).
 
 ---
 
-## Other TxGNN-Predicted Indications (Screening Summary)
+## Sicherheitsaspekte
 
-For transparency, given this Evidence Pack evaluated 10 candidate indications for ambrisentan, the table below summarizes how each was scored so the choice of CTD-PAH as the lead indication in this report can be cross-checked:
+Bitte beachten Sie die Fachinformation für Sicherheitsinformationen. Die deutschen behördlichen Warnungen/Kontraindikationen des Evidence Packs und Abfragen der Arzneimittel-Wechselwirkungs-Datenbank (DDI) gaben keine verwertbaren Daten zurück (DDI-Abfragestatus: *nicht gefunden*; Fachinformation als **Blocking**-Datenlücke gekennzeichnet, DG001), daher können über die allgemeinen Überlegungen der PAH-Therapie-Klasse hinaus keine arzneimittelspezifischen Warnungen hier zitiert werden (z.B. Leberüberwachung, Teratogenität, Flüssigkeitsretention typisch für Endothelin-Rezeptorantagonisten) — keine davon stammt aus diesem Evidence Pack und sollte nicht als Ersatz für das offizielle Etikett behandelt werden.
 
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Recommendation |
+---
+
+## Weitere vom TxGNN Vorhergesagte Indikationen (Screening-Zusammenfassung)
+
+Um Transparenz zu gewährleisten, da dieses Evidence Pack 10 Kandidaten-Indikationen für Ambrisentan bewertete, fasst die folgende Tabelle zusammen, wie jede bewertet wurde, damit die Wahl von CTD-PAH als führende Indikation in diesem Bericht überprüft werden kann:
+
+| Rang | Vorhergesagte Indikation | TxGNN-Score | Evidence Level | Empfehlung |
 |------|----------------------|-------------|-----------------|-----------------|
-| 1 | Pulmonary arteriovenous malformation | 99.41% | L4 | Hold — mechanistically distinct (structural shunt vs. endothelin-driven vasculopathy); only 1 case report |
-| 2 | PAH associated with congenital heart disease | 99.37% | L1 | Proceed with Guardrails — 9 trials incl. a completed Phase 3b (134 pts); strong mechanistic overlap (WHO Group 1.4.4) |
-| 3 | PAH associated with schistosomiasis | 99.30% | L5 | Hold — no trials or literature; pure mechanistic extrapolation |
-| 4 | PAH associated with HIV infection | 99.30% | L1 | Proceed with Guardrails — 1 completed Phase 3 RCT (64 pts) + 4 supporting papers; requires antiretroviral DDI guardrails |
-| **5** | **PAH associated with connective tissue disease (this report)** | **99.30%** | **L1** | **Proceed with Guardrails — strongest evidence body (AMBITION subgroup, meta-analysis, systematic review); precedent of approval elsewhere** |
-| 6 | PAH associated with chronic hemolytic anemia | 99.30% | L5 | Hold — no trials or literature; theoretical mechanistic link only |
-| 7 | Malformation syndrome with odontal/periodontal component | 99.19% | L5 | Hold — retrieved literature is unrelated periodontitis research; likely embedding-similarity false positive |
-| 8 | Hypotrichosis simplex of the scalp | 99.15% | L5 | Hold — no mechanistic basis, no evidence; model noise |
-| 9 | Hypertrichosis | 99.14% | L5 | Hold — no mechanistic basis (ETA antagonism ≠ minoxidil-type mechanism); model noise |
-| 10 | Syndrome with Dandy-Walker malformation as major feature | 99.12% | L5 | Hold — no mechanistic basis; likely keyword ("malformation") similarity artifact |
+| 1 | Pulmonale arteriovenöse Malformation | 99,41% | L4 | Hold — mechanistisch unterscheidbar (struktureller Shunt vs. Endothelin-getriebene Vaskulopathie); nur 1 Fallbericht |
+| 2 | PAH assoziiert mit angeborener Herzerkrankung | 99,37% | L1 | Mit Schutzmaßnahmen fortfahren — 9 Studien einschl. abgeschlossene Phase 3b (134 Patienten); starke mechanistische Überlappung (WHO Gruppe 1.4.4) |
+| 3 | PAH assoziiert mit Schistosomiasis | 99,30% | L5 | Hold — keine Studien oder Literatur; rein mechanistische Extrapolation |
+| 4 | PAH assoziiert mit HIV-Infektion | 99,30% | L1 | Mit Schutzmaßnahmen fortfahren — 1 abgeschlossene Phase-3-RCT (64 Patienten) + 4 unterstützende Arbeiten; erfordert Antiretroviral-DDI-Schutzmaßnahmen |
+| **5** | **PAH assoziiert mit Bindegewebserkrankung (dieser Bericht)** | **99,30%** | **L1** | **Mit Schutzmaßnahmen fortfahren — stärkster Evidenzbestand (AMBITION-Subgruppe, Metaanalyse, systematische Übersichtsarbeit); Präzedenzfall für Genehmigung anderswo** |
+| 6 | PAH assoziiert mit chronischer hämolytischer Anämie | 99,30% | L5 | Hold — keine Studien oder Literatur; nur theoretischer mechanistischer Bezug |
+| 7 | Malformationssyndrom mit zahnodontalen/parodontalen Komponenten | 99,19% | L5 | Hold — abgerufene Literatur ist unabhängige Parodontitis-Forschung; wahrscheinlich Embedding-Ähnlichkeits-falsch-positiv |
+| 8 | Hypotrichose simplex der Kopfhaut | 99,15% | L5 | Hold — keine mechanistische Grundlage, keine Evidenz; Modell-Rauschen |
+| 9 | Hypertrichose | 99,14% | L5 | Hold — keine mechanistische Grundlage (ETA-Antagonismus ≠ Minoxidil-Typ-Mechanismus); Modell-Rauschen |
+| 10 | Syndrom mit Dandy-Walker-Malformation als Hauptmerkmal | 99,12% | L5 | Hold — keine mechanistische Grundlage; wahrscheinlich Artefakt der Schlüsselwort-Ähnlichkeit („Malformation") |
 
-This confirms that ambrisentan's genuinely repurposable candidates cluster tightly around **other PAH etiological subtypes** (ranks 2, 4, 5), consistent with its known ETA-antagonist mechanism, while the remaining candidates are either single-case anecdotal signals or apparent embedding-similarity noise unrelated to the drug's pharmacology.
+Dies bestätigt, dass echte Repurposing-Kandidaten von Ambrisentan sich eng um **andere PAH-ätiologische Subtypen** clustern (Ränge 2, 4, 5), was mit seinem bekannten ETA-Antagonisten-Mechanismus konsistent ist, während die übrigen Kandidaten entweder anekdotische Einzelfall-Signale oder vermutete Embedding-Ähnlichkeits-Rauschfaktoren sind, die mit der Pharmakologie des Arzneimittels unabhängig sind.
 
 ---
 
-## Conclusion and Next Steps
+## Fazit und Nächste Schritte
 
-**Decision: Proceed with Guardrails**
+**Entscheidung: Mit Schutzmaßnahmen fortfahren**
 
-**Rationale:**
-CTD-PAH is supported by L1-level evidence — including subgroup analyses from ambrisentan's own pivotal AMBITION trial, a dedicated meta-analysis, and a systematic review — and the mechanism (ETA-receptor antagonism against endothelin-driven vascular remodeling) is pathophysiologically identical to the drug's original PAH indication. Literature further indicates ambrisentan is already approved for CTD-PAH in other markets. However, the drug currently has zero marketing authorizations in this jurisdiction and critical safety documentation (package insert warnings/contraindications, DDI data) is missing, which prevents this from being a clean "Go."
+**Begründung:**
+CTD-PAH wird durch L1-Stufen-Evidenz unterstützt — einschließlich Subgruppenanalysen aus Ambrisentans eigenem pivotalem AMBITION-Studium, einer dedizierten Metaanalyse und einer systematischen Übersichtsarbeit — und der Mechanismus (ETA-Rezeptor-Antagonismus gegen Endothelin-getriebene vaskuläre Umstrukturierung) ist pathophysiologisch identisch mit der ursprünglichen PAH-Indikation des Arzneimittels. Literatur deutet weiter an, dass Ambrisentan bereits für CTD-PAH in anderen Märkten zugelassen ist. Allerdings hat das Arzneimittel derzeit null Vermarktungsgenehmigungen in dieser Gerichtsbarkeit und kritische Sicherheitsdokumentation (Fachinformations-Warnungen/Kontraindikationen, DDI-Daten) fehlt, was dies daran hindert, ein sauberes „Go" zu sein.
 
-**To proceed, the following is needed:**
-- Obtain the official German/local package insert (warnings, contraindications) — currently a **Blocking** data gap (DG001)
-- Formally resolve the detailed mechanism-of-action documentation via DrugBank API rather than relying on inferred rationale text (High-severity gap, DG002)
-- Conduct a dedicated DDI database review, since the current query returned no results
-- Clarify local regulatory pathway/status, given the drug is currently unlicensed and unmarketed here (0 authorizations)
-- Consider parallel evaluation of PAH-associated congenital heart disease and PAH-associated HIV infection (ranks 2 and 4), which also scored L1/"Proceed with Guardrails" and may support a broader repurposing label strategy across PAH subtypes
+**Um fortfahren zu können, ist folgendes erforderlich:**
+- Beschaffung der offiziellen deutschen/lokalen Fachinformation (Warnungen, Kontraindikationen) — aktuell eine **Blocking**-Datenlücke (DG001)
+- Formale Auflösung der detaillierten Wirkmechanismus-Dokumentation über DrugBank API statt sich auf abgeleitete Begründungstexte zu verlassen (Datenlücke mit hohem Schweregrad, DG002)
+- Durchführung einer dedizierten Arzneimittel-Wechselwirkungs-Datenbank-Überprüfung, da die aktuelle Abfrage keine Ergebnisse zurückgab
+- Klärung des lokalen behördlichen Wegs/Status, da das Arzneimittel derzeit hier unlizenziert und unvermarktet ist (0 Genehmigungen)
+- Erwägen Sie die parallele Bewertung von PAH-assoziiert mit angeborener Herzerkrankung und PAH-assoziiert mit HIV-Infektion (Ränge 2 und 4), die auch L1/„Mit Schutzmaßnahmen fortfahren" bewertet wurden und möglicherweise eine breitere Repurposing-Label-Strategie über PAH-Subtypen hinweg unterstützen
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

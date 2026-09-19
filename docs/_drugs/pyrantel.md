@@ -29,76 +29,75 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0**
 
 </div>
 
-# Pyrantel: No TxGNN Predictions Available
+# Pyrantel: Keine TxGNN-Vorhersagen verfügbar
 
-## One-Sentence Summary
+## Ein-Satz-Zusammenfassung
 
-Pyrantel is an anthelmintic agent used to treat intestinal parasitic infections (roundworms, hookworms, and pinworms).
-The TxGNN model did not generate any predicted new indications for this drug in the current pipeline run.
-Meaningful drug repurposing evaluation cannot be completed until prediction data and key data gaps are resolved.
+Pyrantel ist ein Anthelmintikum zur Behandlung von intestinalen parasitären Infektionen (Rundwürmer, Hakenwürmer und Fadenwürmer). Das TxGNN-Modell generierte während des aktuellen Pipeline-Durchlaufs keine vorhergesagten neuen Indikationen für dieses Arzneimittel. Eine aussagekräftige Bewertung der Arzneimittelumpositionierung kann nicht abgeschlossen werden, bis Vorhersagedaten und wichtige Datenlücken behoben sind.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
-|------|---------|
-| Original Indication | Not available in dataset |
-| Predicted New Indication | None (no TxGNN predictions generated) |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | N/A |
-| Taiwan Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
-
----
-
-## Why is This Prediction Reasonable?
-
-No TxGNN predictions are available for Pyrantel at this time. Without a candidate indication, the mechanistic relevance analysis cannot be performed and the core repurposing evaluation framework does not apply.
-
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Pyrantel (DrugBank: DB11156) is a well-established anthelmintic of the tetrahydropyrimidine class, acting as a depolarising neuromuscular blocking agent that causes spastic paralysis in susceptible nematodes. This MOA is highly parasite-specific, which may explain why TxGNN — trained on a human disease knowledge graph — did not surface strong repurposing candidates. Retrieving the full DrugBank MOA record is required before drawing this conclusion definitively.
+| Element | Inhalt |
+|------|--------|
+| Ursprüngliche Indikation | Im Datensatz nicht verfügbar |
+| Vorhergesagte neue Indikation | Keine (keine TxGNN-Vorhersagen generiert) |
+| TxGNN-Vorhersage-Score | N/A |
+| Evidenzstufe | N/A |
+| Taiwan-Marktstatus | Nicht vermarktet (Nicht vermarktet) |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Abwarten |
 
 ---
 
-## Clinical Trial Evidence
+## Warum ist diese Vorhersage sinnvoll?
 
-Currently no related clinical trials registered for a new repurposing indication.
+Zum jetzigen Zeitpunkt sind keine TxGNN-Vorhersagen für Pyrantel verfügbar. Ohne eine Kandidatenindikation kann die Analyse der mechanistischen Relevanz nicht durchgeführt werden und das grundlegende Rahmenwerk der Arzneimittelumpositionierung ist nicht anwendbar.
 
----
-
-## Literature Evidence
-
-Currently no related literature available for a new repurposing indication.
+Derzeit sind detaillierte Wirkungsmechanismus-Daten nicht in diesem Evidenzpaket verfügbar. Pyrantel (DrugBank: DB11156) ist ein etabliertes Anthelmintikum der Tetrahydropyrimidin-Klasse, das als depolarisierender Neuromuskelblocker wirkt und spastische Lähmung bei empfänglichen Nematoden verursacht. Dieser MOA ist hochgradig parasitspezifisch, was erklären könnte, warum TxGNN – trainiert auf einem menschlichen Krankheitswissensgraph – keine starken Umpositionierungskandidaten hervorbrachte. Der vollständige MOA-Datensatz von DrugBank muss abgerufen werden, bevor diese Schlussfolgerung definitiv gezogen werden kann.
 
 ---
 
-## Taiwan Market Information
+## Klinische Studienevidenz
 
-Pyrantel is currently **not marketed** in Taiwan. No TFDA product authorisations on record.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+Derzeit sind keine relevanten klinischen Studien für eine neue Umpositionierungsindikation registriert.
 
 ---
 
-## Conclusion and Next Steps
+## Literaturbeweise
 
-**Decision: Hold**
+Derzeit ist keine relevante Literatur für eine neue Umpositionierungsindikation verfügbar.
 
-**Rationale:**
-The TxGNN pipeline returned zero predicted indications for Pyrantel, and two blocking data gaps (package insert safety data and MOA) remain unresolved, making a repurposing assessment premature at this stage.
+---
 
-**To proceed, the following is needed:**
+## Taiwan-Marktinformationen
 
-- **Run TxGNN prediction pipeline** — confirm whether zero predictions reflect a true absence of signal or a pipeline/mapping issue (e.g., DrugBank ID not linked to KG node)
-- **Retrieve MOA from DrugBank (DB11156)** — verify whether the parasite-specific mechanism genuinely limits human-disease repurposing candidates
-- **Obtain TFDA package insert** — extract warnings, contraindications, and approved indications to complete the safety baseline (currently Blocking severity per DG001)
-- **Assess Taiwan market viability** — Pyrantel is unregistered in Taiwan; a market-entry pathway analysis is needed before any repurposing programme is initiated
-- **Verify KG coverage** — check whether Pyrantel appears in the TxGNN knowledge graph; if absent, the drug must be added before predictions can be generated
+Pyrantel wird derzeit **nicht vermarktet** in Taiwan. Es gibt keine TFDA-Produktzulassungen in der Akte.
+
+---
+
+## Sicherheitsüberlegungen
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Abwarten**
+
+**Begründung:**
+Die TxGNN-Pipeline führte zu null vorhergesagten Indikationen für Pyrantel, und zwei blockierende Datenlücken (Packungsbeilage-Sicherheitsdaten und MOA) bleiben ungelöst, was eine Bewertung der Arzneimittelumpositionierung in dieser Phase verfrüht macht.
+
+**Um fortzufahren, wird Folgendes benötigt:**
+
+- **Führen Sie die TxGNN-Vorhersage-Pipeline aus** — bestätigen Sie, ob null Vorhersagen ein echtes Fehlen des Signals oder ein Pipeline-/Mapping-Problem widerspiegeln (z. B. DrugBank-ID nicht mit KG-Knoten verlinkt)
+- **Rufen Sie MOA von DrugBank (DB11156) ab** — überprüfen Sie, ob der parasitspezifische Mechanismus Umpositionierungskandidaten für menschliche Erkrankungen wirklich begrenzt
+- **Beschaffen Sie die TFDA-Packungsbeilage** — extrahieren Sie Warnungen, Kontraindikationen und genehmigte Indikationen, um die Sicherheitsgrundlinie zu vervollständigen (derzeit blockierender Schweregrad pro DG001)
+- **Bewerten Sie die Taiwan-Marktrealisierbarkeit** — Pyrantel ist in Taiwan nicht registriert; eine Analyse des Markteintrittsweges ist erforderlich, bevor ein Umpositionierungsprogramm eingeleitet wird
+- **Überprüfen Sie die KG-Abdeckung** — überprüfen Sie, ob Pyrantel im TxGNN-Wissensgraph erscheint; falls nicht vorhanden, muss das Arzneimittel hinzugefügt werden, bevor Vorhersagen generiert werden können
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

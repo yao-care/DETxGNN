@@ -29,92 +29,91 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-Using no specialized skill — this is a direct templated report-generation task; proceeding straight to the deliverable.
+# Tolfenamsäure: Vom antiinflammatorischen Analgetikum zur Kopfschmerzstörung
 
-# Tolfenamic Acid: From Anti-Inflammatory Analgesic to Headache Disorder
+## Zusammenfassung in einem Satz
 
-## One-Sentence Summary
-
-> Tolfenamic acid is a fenamate-class NSAID with a long clinical history as an anti-inflammatory analgesic (detailed original-indication data is not present in this evidence pack).
-> The TxGNN model predicts it may be effective for **Headache Disorder** (migraine),
-> with **0 registered clinical trials** but **20 supporting publications** — including at least 9 randomized controlled trials conducted between 1979 and 2002.
+> Tolfenamsäure ist ein NSAID der Fenaminat-Klasse mit einer langen klinischen Geschichte als antiinflammatorisches Analgetikum (detaillierte Daten zur Originalindikation liegen in diesem Datenpaket nicht vor).
+> Das TxGNN-Modell prognostiziert, dass es möglicherweise wirksam gegen **Kopfschmerzstörung** (Migräne) ist,
+> mit **0 registrierten klinischen Studien**, aber **20 unterstützenden Publikationen** — einschließlich mindestens 9 randomisierter kontrollierter Studien, die zwischen 1979 und 2002 durchgeführt wurden.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Element | Inhalt |
 |------|------|
-| Original Indication | Not specified in evidence pack (drug not currently marketed; historically classified as an anthranilic acid/fenamate NSAID used for pain, inflammation and rheumatic disease) |
-| Predicted New Indication | Headache disorder |
-| TxGNN Prediction Score | 99.74% |
-| Evidence Level | L1 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Originalindikation | Nicht angegeben im Datenpaket (Arzneistoff derzeit nicht vermarktet; historisch als Anthranilsäure/Fenaminat-NSAID zur Behandlung von Schmerzen, Entzündungen und rheumatischen Erkrankungen klassifiziert) |
+| Prognostizierte neue Indikation | Kopfschmerzstörung |
+| TxGNN-Vorhersagescore | 99.74% |
+| Evidenzlevel | L1 |
+| Marktstatus in Deutschland | ✗ Nicht im Handel |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | Fortfahren mit Schutzmaßnahmen |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage angemessen?
 
-Currently, no structured mechanism-of-action (MOA) record is available for tolfenamic acid in this evidence pack (Data Gap DG002). However, the supporting literature is informative: multiple publications describe tolfenamic acid as a fenamate-class NSAID that is "a potent inhibitor of prostaglandin biosynthesis" (PMID 6984358) and, unusually among NSAIDs, also suppresses leukotriene synthesis, which may reduce upper-GI side effects relative to pure COX inhibitors (PMID 7816786).
+Derzeit ist kein strukturierter Wirkmechanismus-Datensatz (MOA) für Tolfenamsäure in diesem Datenpaket verfügbar (Datenlücke DG002). Die unterstützende Fachliteratur ist jedoch informativ: Mehrere Publikationen beschreiben Tolfenamsäure als ein NSAID der Fenaminat-Klasse, das „ein potenter Hemmer der Prostaglandinsynthese" ist (PMID 6984358) und — ungewöhnlich unter NSAIDs — auch die Leukotriensynthese unterdrückt, was möglicherweise gastrointestinale Nebenwirkungen im Vergleich zu reinen COX-Hemmern reduzieren kann (PMID 7816786).
 
-Because no original-indication text is on file, the exact starting point for this repurposing candidate cannot be stated precisely. What the literature does show is that tolfenamic acid already has an extensive, decades-long track record as an anti-inflammatory analgesic (rheumatic disease, general pain) — so its application to headache disorder is less a "novel leap" and more a well-documented, longstanding clinical use pattern that the TxGNN model has independently recovered from the underlying knowledge graph.
+Da kein Text zur Originalindikation gespeichert ist, kann der genaue Ausgangspunkt für diesen Kandidaten zur Umpositionierung nicht präzise angegeben werden. Die Literatur zeigt jedoch, dass Tolfenamsäure bereits eine umfangreiche, Jahrzehnte währende Erfolgsgeschichte als antiinflammatorisches Analgetikum aufweist (rheumatische Erkrankungen, allgemeine Schmerzen) — die Anwendung auf Kopfschmerzstörung ist also weniger ein „neuartiger Sprung" und eher ein gut dokumentiertes, langjähriges klinisches Nutzungsmuster, das das TxGNN-Modell unabhängig aus dem zugrunde liegenden Wissensgraphen zurückgewonnen hat.
 
-Mechanistically, prostaglandins are implicated in migraine pathophysiology — sensitizing nociceptors, promoting vasodilation, and modulating platelet-serotonin release (PMID 7816790). COX inhibition by tolfenamic acid directly addresses this pathway, which is consistent with the drug's high TxGNN prediction score and with the large body of comparative RCT evidence (vs. ergotamine, sumatriptan, propranolol, paracetamol, and pizotifen) summarized below.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Mechanistisch sind Prostaglandine in der Pathophysiologie von Migräne beteiligt — sie sensibilisieren Nozizeptoren, fördern Vasodilatation und modulieren die Plättchen-Serotonin-Freisetzung (PMID 7816790). Die COX-Hemmung durch Tolfenamsäure adressiert direkt diesen Signalweg, was mit dem hohen TxGNN-Vorhersagescore konsistent ist und mit dem großen Bestand an vergleichender RCT-Evidenz (gegenüber Ergotamin, Sumatriptan, Propranolol, Paracetamol und Pizootifen) zusammenpasst, die nachfolgend zusammengefasst wird.
 
 ---
 
-## Literature Evidence
+## Evidenz aus klinischen Studien
 
-| PMID | Year | Type | Journal | Key Findings |
+Derzeit sind keine verwandten klinischen Studien registriert.
+
+---
+
+## Fachliteratur-Evidenz
+
+| PMID | Jahr | Typ | Zeitschrift | Wesentliche Ergebnisse |
 |------|-----|------|------|---------|
-| [89390](https://pubmed.ncbi.nlm.nih.gov/89390/) | 1979 | RCT (double-blind crossover) | Lancet | Tolfenamic acid as effective as ergotamine in acute migraine, with fewer side effects (less nausea) |
-| [6984358](https://pubmed.ncbi.nlm.nih.gov/6984358/) | 1982 | RCT (double-blind, randomized order) | Cephalalgia | Tolfenamic acid + caffeine/metoclopramide/pyridoxine combinations tested across 60 acute migraine attacks |
-| [7051739](https://pubmed.ncbi.nlm.nih.gov/7051739/) | 1982 | RCT (double-blind crossover vs placebo) | Acta Neurol Scand | Significant prophylactic benefit vs placebo: fewer attacks, shorter duration, less vomiting |
-| [6394143](https://pubmed.ncbi.nlm.nih.gov/6394143/) | 1984 | RCT (controlled) | Cephalalgia | Compared tolfenamic acid, caffeine, metoclopramide and combinations for acute migraine |
-| [3727918](https://pubmed.ncbi.nlm.nih.gov/3727918/) | 1986 | RCT (double-blind crossover vs propranolol/placebo) | Acta Neurol Scand | Both tolfenamic acid and propranolol significantly reduced attack frequency and duration vs placebo |
-| [2375249](https://pubmed.ncbi.nlm.nih.gov/2375249/) | 1990 | RCT (double-blind crossover vs paracetamol) | Acta Neurol Scand | Dose-ranging comparison (200/400 mg vs paracetamol 500/1000 mg) in common migraine |
-| [7976233](https://pubmed.ncbi.nlm.nih.gov/7976233/) | 1994 | RCT (randomized double-blind crossover vs propranolol) | Acta Neurol Scand | 76-patient trial; both drugs significantly effective in migraine prophylaxis |
-| [9563211](https://pubmed.ncbi.nlm.nih.gov/9563211/) | 1998 | RCT (double-blind, randomized, parallel-group vs sumatriptan) | Headache | Comparable efficacy to oral sumatriptan in acute migraine (77% response rate) |
-| [12474702](https://pubmed.ncbi.nlm.nih.gov/12474702/) | 2002 | RCT (prospective, randomized, double-blind, parallel-group vs pizotifen) | Medicina (Kaunas) | 192-patient migraine prophylaxis trial comparing tolfenamic acid 300 mg vs pizotifen |
-| [7816790](https://pubmed.ncbi.nlm.nih.gov/7816790/) | 1994 | Review | Pharmacology & Toxicology | Reviews prostaglandin-mediated mechanism underlying tolfenamic acid's antimigraine effect |
+| [89390](https://pubmed.ncbi.nlm.nih.gov/89390/) | 1979 | RCT (doppelblind, Crossover) | Lancet | Tolfenamsäure war ebenso wirksam wie Ergotamin in akuter Migräne, mit weniger Nebenwirkungen (weniger Übelkeit) |
+| [6984358](https://pubmed.ncbi.nlm.nih.gov/6984358/) | 1982 | RCT (doppelblind, randomisierte Reihenfolge) | Cephalalgia | Tolfenamsäure + Koffein/Metoclopramid/Pyridoxin-Kombinationen über 60 akute Migräneattacken getestet |
+| [7051739](https://pubmed.ncbi.nlm.nih.gov/7051739/) | 1982 | RCT (doppelblind, Crossover vs. Placebo) | Acta Neurol Scand | Signifikanter prophylaktischer Vorteil vs. Placebo: weniger Attacken, kürzere Dauer, weniger Erbrechen |
+| [6394143](https://pubmed.ncbi.nlm.nih.gov/6394143/) | 1984 | RCT (kontrolliert) | Cephalalgia | Tolfenamsäure, Koffein, Metoclopramid und Kombinationen bei akuter Migräne verglichen |
+| [3727918](https://pubmed.ncbi.nlm.nih.gov/3727918/) | 1986 | RCT (doppelblind, Crossover vs. Propranolol/Placebo) | Acta Neurol Scand | Sowohl Tolfenamsäure als auch Propranolol reduzierten signifikant Attackenfrequenz und -dauer vs. Placebo |
+| [2375249](https://pubmed.ncbi.nlm.nih.gov/2375249/) | 1990 | RCT (doppelblind, Crossover vs. Paracetamol) | Acta Neurol Scand | Dosisbereichsvergleich (200/400 mg vs. Paracetamol 500/1000 mg) bei häufiger Migräne |
+| [7976233](https://pubmed.ncbi.nlm.nih.gov/7976233/) | 1994 | RCT (randomisiert, doppelblind, Crossover vs. Propranolol) | Acta Neurol Scand | 76-Patienten-Studie; beide Wirkstoffe signifikant wirksam in Migräneprophylaxe |
+| [9563211](https://pubmed.ncbi.nlm.nih.gov/9563211/) | 1998 | RCT (doppelblind, randomisiert, Parallelgruppen vs. Sumatriptan) | Headache | Vergleichbare Wirksamkeit zu oralem Sumatriptan in akuter Migräne (77% Ansprechrate) |
+| [12474702](https://pubmed.ncbi.nlm.nih.gov/12474702/) | 2002 | RCT (prospektiv, randomisiert, doppelblind, Parallelgruppen vs. Pizootifen) | Medicina (Kaunas) | 192-Patienten-Studie zur Migräneprophylaxe, Vergleich Tolfenamsäure 300 mg vs. Pizootifen |
+| [7816790](https://pubmed.ncbi.nlm.nih.gov/7816790/) | 1994 | Übersichtsarbeit | Pharmacology & Toxicology | Bespricht den Prostaglandin-vermittelten Mechanismus der antimigränösen Wirkung von Tolfenamsäure |
 
 ---
 
-## Germany Market Information
+## Marktinformation Deutschland
 
-Tolfenamic acid is currently **not marketed** in Germany, and no BfArM authorization records are present in this evidence pack (0 licenses on file).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Key warnings, contraindications, and DDI data are flagged as data gaps in this evidence pack — DG001, "TFDA/BfArM label warnings/contraindications," is marked as a **Blocking** severity gap.)*
+Tolfenamsäure ist derzeit **nicht im Handel** in Deutschland, und keine BfArM-Genehmigungsdatensätze sind in diesem Datenpaket vorhanden (0 Lizenzen gespeichert).
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsaspekte
 
-**Decision: Proceed with Guardrails**
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
 
-**Rationale:**
-Although no clinical trials are currently registered for headache disorder, the literature base is unusually strong for an older drug — at least 9 randomized controlled trials (1979–2002) consistently demonstrate efficacy in acute and prophylactic migraine, including head-to-head comparisons against ergotamine, sumatriptan, propranolol, and pizotifen. This meets L1 evidence criteria, but the drug's current unmarketed status in Germany and missing safety-label data mean guardrails are required before any regulatory or clinical action.
+*(Wesentliche Warnhinweise, Kontraindikationen und DDI-Daten sind als Datenlücken in diesem Datenpaket gekennzeichnet — DG001, „TFDA/BfArM-Etikett Warnhinweise/Kontraindikationen," ist als **blockierende** Schweregrad-Lücke markiert.)*
 
-**To proceed, the following is needed:**
-- Package insert / BfArM label data on warnings and contraindications (Blocking gap, DG001)
-- Structured DrugBank MOA record (High priority gap, DG002)
-- Confirmation of why the drug is currently unmarketed in Germany, and what registration pathway would be required to reintroduce it for a headache indication
-- Updated drug-drug interaction (DDI) data, as none is currently on file
-- A contemporary systematic review of the 1979–2002 RCT literature to formally grade study quality (risk of bias, sample sizes) before treating this as decision-grade evidence
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Fortfahren mit Schutzmaßnahmen**
+
+**Begründung:**
+Obwohl derzeit keine klinischen Studien zur Kopfschmerzstörung registriert sind, ist die Literaturbasis für ein älteres Präparat ungewöhnlich umfangreich — mindestens 9 randomisierte, kontrollierte Studien (1979–2002) zeigen konsequent Wirksamkeit in akuter und prophylaktischer Migräne, einschließlich Kopf-an-Kopf-Vergleiche gegen Ergotamin, Sumatriptan, Propranolol und Pizootifen. Dies erfüllt L1-Evidenzkriterien, aber der aktuelle unvermarktete Status des Arzneistoffs in Deutschland und fehlende Sicherheitskennzeichnungsdaten bedeuten, dass Schutzmaßnahmen erforderlich sind, bevor irgendwelche behördlichen oder klinischen Maßnahmen ergriffen werden.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+- Packungsbeilage / BfArM-Etikett-Daten zu Warnhinweisen und Kontraindikationen (blockierende Lücke, DG001)
+- Strukturierter DrugBank-MOA-Datensatz (Hohe Priorität Lücke, DG002)
+- Bestätigung, warum der Arzneistoff derzeit in Deutschland unvermarktet ist, und welcher Registrierungsweg erforderlich wäre, um ihn für eine Kopfschmerz-Indikation wiederzueinführen
+- Aktualisierte Arzneistoff-Wechselwirkungs-Daten (DDI), da derzeit keine vorhanden sind
+- Eine zeitgenössische systematische Überprüfung der RCT-Literatur von 1979–2002, um die Studienqualität (Verzerrungsrisiko, Stichprobengrößen) formal zu bewerten, bevor diese als entscheidungsgrad-Evidenz behandelt wird
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

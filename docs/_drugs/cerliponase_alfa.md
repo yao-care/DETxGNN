@@ -29,78 +29,79 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Cerliponase Alfa: From CLN2 Disease (Batten Disease) to Scheie Syndrome
+# Cerliponase Alfa: Von CLN2-Erkrankung (Batten-Krankheit) bis Scheie-Syndrom
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Cerliponase alfa is a recombinant TPP1 (tripeptidyl peptidase 1) enzyme replacement therapy, originally developed for **CLN2 disease** (a form of neuronal ceroid lipofuscinosis / Batten disease).
-> The TxGNN model's top prediction is **Scheie Syndrome** (a subtype of Mucopolysaccharidosis I) with a **99.98%** prediction score,
-> but there are currently **0 clinical trials** and **0 publications** supporting this specific link, and the mechanistic rationale suggests the signal is likely a model artifact rather than genuine biological plausibility.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | CLN2 disease (Neuronal Ceroid Lipofuscinosis Type 2 / Batten disease) — inferred from repurposing rationale text; not independently confirmed via German license data as the product is not marketed there |
-| Predicted New Indication | Scheie Syndrome |
-| TxGNN Prediction Score | 99.98% (rank 468 in overall model output) |
-| Evidence Level | L5 (model prediction only, no clinical trials or literature) |
-| Germany Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Cerliponase Alfa ist eine rekombinante TPP1-Enzymersatztherapie (Tripeptidylpeptidase 1), ursprünglich entwickelt für **CLN2-Erkrankung** (eine Form der neuronalen Ceroid-Lipofuszinose / Batten-Krankheit).
+> Die Top-Vorhersage des TxGNN-Modells ist **Scheie-Syndrom** (ein Untertyp der Mukopolysaccharidose I) mit einer **99,98%**-Vorhersagepunktzahl,
+> aber es gibt derzeit **0 klinische Studien** und **0 Publikationen**, die diesen spezifischen Zusammenhang unterstützen, und die mechanistische Begründung deutet darauf hin, dass das Signal wahrscheinlich ein Modellartefakt und nicht genuine biologische Plausibilität ist.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnelle Übersicht
 
-Detailed mechanism-of-action data (`original_moa`) is marked as a data gap in this Evidence Pack. Based on the repurposing rationale notes attached to each predicted indication, cerliponase alfa is understood to be a recombinant enzyme replacement therapy that supplies **TPP1**, targeting CLN2 disease, a lysosomal storage disorder caused by TPP1 deficiency.
-
-Scheie syndrome, by contrast, is a lysosomal storage disease caused by deficiency of **alpha-L-iduronidase** (MPS I), an entirely different enzyme and metabolic pathway. There is no shared substrate, no shared enzyme target, and no overlapping treatment mechanism between the two conditions.
-
-The rationale text explicitly flags this: the high TxGNN score is most likely explained by the model's embedding space clustering diseases under the broad semantic category "lysosomal storage disease," rather than by any genuine pharmacological connection. This pattern repeats across nearly all top-10 predictions for this drug — Hurler syndrome, cholesteryl ester storage disease, Wolman disease, and Gaucher disease are all lysosomal storage disorders driven by *different* enzyme deficiencies (alpha-L-iduronidase, lysosomal acid lipase, glucocerebrosidase respectively), none of which involve TPP1. On the current evidence, this candidate should be treated as a likely **false positive** rather than a promising repurposing lead.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | CLN2-Erkrankung (Neuronale Ceroid-Lipofuszinose Typ 2 / Batten-Krankheit) — aus dem Arzneimittelumwidmungs-Texttext abgeleitet; nicht unabhängig über deutsche Zulassungsdaten bestätigt, da das Produkt dort nicht vermarktet wird |
+| Vorhergesagte neue Indikation | Scheie-Syndrom |
+| TxGNN-Vorhersagepunktzahl | 99,98% (Rang 468 in der Gesamtmodellausgabe) |
+| Evidenzstufe | L5 (nur Modellvorhersage, keine klinischen Studien oder Literatur) |
+| Marktstatus in Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Zurückhaltung |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage angemessen?
 
-Currently no related literature available.
+Detaillierte Wirkmechanismus-Daten (`original_moa`) sind als Datenlücke in diesem Evidence Pack gekennzeichnet. Basierend auf den Arzneimittelumwidmungs-Textnotizen, die jeder vorhergesagten Indikation beigefügt sind, wird verstanden, dass Cerliponase Alfa eine rekombinante Enzymersatztherapie ist, die **TPP1** bereitstellt und auf die CLN2-Erkrankung abzielt, eine lysosomale Speicherkrankheit, die durch TPP1-Mangel verursacht wird.
 
----
+Das Scheie-Syndrom hingegen ist eine lysosomale Speicherkrankheit, die durch einen Mangel an **Alpha-L-Iduronidasе** (Mukopolysaccharidose I) verursacht wird, einem völlig anderen Enzym und metabolischen Weg. Es gibt kein gemeinsames Substrat, keinen gemeinsamen Enzymzielstoff und keinen überlappenden Behandlungsmechanismus zwischen den beiden Bedingungen.
 
-## Germany Market Information
-
-Cerliponase alfa currently has no German market authorization on file (`market_status`: Not marketed / Not marketed; `total_licenses`: 0). No product table can be generated.
+Der Begründungstext kennzeichnet dies deutlich: Das hohe TxGNN-Ergebnis wird höchstwahrscheinlich durch die Clusterung von Krankheiten des Modells im breiten semantischen Kategorien „lysosomale Speicherkrankheit" erklärt, anstatt durch eine echte pharmakologische Verbindung. Dieses Muster wiederholt sich in fast allen Top-10-Vorhersagen für dieses Arzneimittel — Hurler-Syndrom, Cholesterylester-Speicherkrankheit, Wolman-Krankheit und Gaucher-Krankheit sind alle lysosomale Speicherkrankheiten, die durch *unterschiedliche* Enzymmängel verursacht werden (Alpha-L-Iduronidasе, lysosomale saure Lipase, Glucocerebrosidase), von denen keiner TPP1 beteiligt. Nach den aktuellen Erkenntnissen sollte dieser Kandidat als wahrscheinlich **falsch positiv** und nicht als vielversprechender Arzneimittelumwidmungs-Lead behandelt werden.
 
 ---
 
-## Safety Considerations
+## Evidenz aus klinischen Studien
 
-Please refer to the package insert for safety information.
-
-*(Note: TFDA-equivalent labeling/warnings and contraindication data are flagged as Blocking data gaps in this Evidence Pack — see `DG001`. This must be resolved before any S1 safety pre-assessment can proceed.)*
+Derzeit sind keine verwandten klinischen Studien registriert.
 
 ---
 
-## Conclusion and Next Steps
+## Literaturbeweise
 
-**Decision: Hold**
+Derzeit sind keine verwandten Literaturbeweise verfügbar.
 
-**Rationale:**
-The top-ranked prediction (Scheie syndrome) and essentially all other top-10 candidates lack both clinical trial and literature support (evidence level L5), and the drug's known enzyme-replacement mechanism (TPP1 for CLN2 disease) does not mechanistically overlap with the enzyme deficiencies underlying the predicted indications (alpha-L-iduronidase, lysosomal acid lipase, glucocerebrosidase, etc.). The pattern strongly suggests the TxGNN scores reflect semantic clustering of "lysosomal storage disease" labels rather than true repurposing signal.
+---
 
-**To proceed, the following is needed:**
-- Confirmed MOA and original indication data from DrugBank/regulatory source (currently `[Data Gap]`)
-- TFDA/EMA-equivalent labeling, warnings, and contraindications (Blocking gap `DG001`)
-- If pursued further, independent mechanistic review of why TPP1 replacement could plausibly affect non-TPP1 lysosomal pathways, since no such rationale currently exists
-- Given the absence of any supporting trial or literature evidence across all 10 candidates, recommend deprioritizing this drug for active repurposing evaluation unless new evidence emerges
+## Marktstatus in Deutschland
+
+Cerliponase Alfa hat derzeit keine deutsche Marktgenehmigung auf Datei (`market_status`: Nicht vermarktet / Nicht vermarktet; `total_licenses`: 0). Es kann keine Produkttabelle erstellt werden.
+
+---
+
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Gebrauchsinformation für Sicherheitsinformationen.
+
+*(Hinweis: TFDA-äquivalente Kennzeichnung/Warnungen und Kontraindikationsdaten sind als Blocking-Datenlücken in diesem Evidence Pack gekennzeichnet — siehe `DG001`. Dies muss behoben werden, bevor eine S1-Sicherheits-Vorbewertung durchgeführt werden kann.)*
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Zurückhaltung**
+
+**Begründung:**
+Die top-bewertete Vorhersage (Scheie-Syndrom) und im Wesentlichen alle anderen Top-10-Kandidaten haben sowohl keine Evidenz aus klinischen Studien als auch keine Literaturunterstützung (Evidenzstufe L5), und der bekannte Enzymersatz-Wirkmechanismus des Arzneimittels (TPP1 für CLN2-Erkrankung) überlappt sich nicht mechanistisch mit den Enzymmängeln, die den vorhergesagten Indikationen zugrunde liegen (Alpha-L-Iduronidasе, lysosomale saure Lipase, Glucocerebrosidase usw.). Das Muster deutet stark darauf hin, dass die TxGNN-Ergebnisse die semantische Clusterung von „lysosomale Speicherkrankheits"-Labels widerspiegeln, anstatt ein echtes Arzneimittelumwidmungs-Signal zu sein.
+
+**Um fortzufahren, wird folgendes benötigt:**
+- Bestätigte Wirkmechanismus- und ursprüngliche Indikationsdaten aus DrugBank/Zulassungsquelle (derzeit `[Datenlücke]`)
+- TFDA/EMA-äquivalente Kennzeichnung, Warnungen und Kontraindikationen (Blocking-Lücke `DG001`)
+- Bei weiterer Verfolgung: unabhängige mechanistische Überprüfung, warum TPP1-Ersatz nicht-TPP1-lysosomale Wege plausibel beeinflussen könnte, da derzeit keine solche Begründung existiert
+- Angesichts des Fehlens von Evidenz aus Studien oder Literatur bei allen 10 Kandidaten wird empfohlen, die aktive Bewertung dieses Arzneimittels zur Arzneimittelumwidmung zu deprioritieren, es sei denn, neue Erkenntnisse kommen zutage
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -29,86 +29,87 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Adalimumab: From Rheumatoid Arthritis to Rheumatoid Vasculitis
+# Adalimumab: Von rheumatoider Arthritis zu rheumatoider Vaskulitis
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Adalimumab is a fully human anti-TNF-α monoclonal antibody whose established use, as documented across the clinical trial and literature records reviewed here, is rheumatoid arthritis and related TNF-driven autoimmune inflammatory diseases. The TxGNN model predicts it may also be effective for **Rheumatoid Vasculitis**, with **0 clinical trials** and **20 publications** currently available — but the literature signal is directionally mixed, showing both therapeutic and drug-induced vasculitis reports.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Rheumatoid Arthritis (per literature/trial records; not confirmed via formal regulatory license data — see Germany Market Information below) |
-| Predicted New Indication | Rheumatoid Vasculitis |
-| TxGNN Prediction Score | 99.80% |
-| Evidence Level | L3 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Adalimumab ist ein vollständig humanisierter Anti-TNF-α-Antikörper, dessen etablierte Anwendung, wie in den hier überprüften klinischen Studien und Literaturdokumenten dokumentiert, die rheumatoide Arthritis und verwandte TNF-gesteuerte autoimmune Entzündungskrankheiten sind. Das TxGNN-Modell sagt voraus, dass es auch wirksam sein könnte für **Rheumatoide Vaskulitis**, mit **0 klinischen Studien** und **20 Publikationen**, die derzeit verfügbar sind — aber das Literatursignal ist widersprüchlich und zeigt sowohl therapeutische als auch arzneimittelinduzierte Vaskulitis-Berichte.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Formal mechanism-of-action data from DrugBank is not yet available in this evidence pack (data gap DG002, High severity). Based on information embedded in the clinical trial and literature records reviewed here, adalimumab is repeatedly described as a fully human anti-TNF-α monoclonal antibody that binds and neutralizes tumor necrosis factor-alpha (TNF-α), thereby blocking TNF-induced inflammatory signaling. It is documented across these records as effective in rheumatoid arthritis (RA) and related TNF-driven autoimmune inflammatory diseases, including psoriatic arthritis, ankylosing spondylitis, and juvenile idiopathic arthritis.
-
-Rheumatoid vasculitis (RV) is itself a severe extra-articular complication of rheumatoid arthritis, thought to involve TNF-α-mediated endothelial activation and immune-complex deposition in vessel walls. Because adalimumab already targets the shared upstream cytokine (TNF-α) in the parent disease, the TxGNN model's high similarity score for RV is mechanistically plausible — a signal echoed by the systematic review in this pack (PMID 33058033), which lists biologic agents, including anti-TNF drugs, as part of the RV treatment armamentarium.
-
-However, the same TNF-α blockade mechanism carries a well-documented paradoxical safety signal: several case reports in this evidence pack (PMID 28719435, PMID 19482531, PMID 23559388, PMID 24558628) describe adalimumab *inducing* leukocytoclastic vasculitis, ANCA-associated glomerulonephritis, antiphospholipid syndrome, and lupus-like autoimmunity — effectively the opposite of the intended therapeutic effect. This "treat vs. induce" ambiguity is the central reason the mechanistic rationale, while plausible, does not yet translate into a confident recommendation, and is reflected in the L3 evidence level and Hold decision.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for rheumatoid vasculitis specifically.
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Rheumatoide Arthritis (gemäß Literatur-/Studiendokumenten; nicht bestätigt durch formale behördliche Lizenzierungsdaten — siehe Deutschland Marktinformation unten) |
+| Vorhergesagte neue Indikation | Rheumatoide Vaskulitis |
+| TxGNN-Vorhersage-Score | 99.80% |
+| Evidenzstufe | L3 |
+| Status auf dem deutschen Markt | ✗ Nicht vermarktet |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | Abwarten |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage sinnvoll?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [33058033](https://pubmed.ncbi.nlm.nih.gov/33058033/) | 2021 | Systematic Review | Clinical rheumatology | Systematic review of biologic drugs in rheumatoid vasculitis treatment; supports biologics, including anti-TNF agents, as part of the RV therapeutic armamentarium. |
-| [18799049](https://pubmed.ncbi.nlm.nih.gov/18799049/) | 2008 | Systematic Review | Clinical and experimental rheumatology | Compared vasculitis characteristics in 2707 RA patients on anti-TNF therapy vs. untreated patients; identified 18 vasculitis cases, informing treat-vs-induce risk. |
-| [28123776](https://pubmed.ncbi.nlm.nih.gov/28123776/) | 2017 | Cohort | RMD open | BSRBR-RA registry analysis found TNF-inhibitor-treated RA patients carry a measurable, drug-specific risk of vasculitis-like events versus non-biologic DMARD users. |
-| [25133007](https://pubmed.ncbi.nlm.nih.gov/25133007/) | 2014 | Case Report | Case reports in rheumatology | A 42-year-old RA patient with digital vasculitis (necrotising fingertip ulcers) responded well to adalimumab, supporting a therapeutic signal. |
-| [28719435](https://pubmed.ncbi.nlm.nih.gov/28719435/) | 2018 | Case Report (Adverse Event) | The American Journal of Dermatopathology | First reported case of leukocytoclastic vasculitis with dermal perivascular hemophagocytosis associated with adalimumab therapy for RA — a drug-induction signal. |
-| [19482531](https://pubmed.ncbi.nlm.nih.gov/19482531/) | 2009 | Case Report (Adverse Event) | Nephrologie & therapeutique | Extracapillary/necrotizing glomerulonephritis with positive ANCA (MPO) developed in an RA patient during adalimumab therapy — vasculitis induction signal. |
-| [23559388](https://pubmed.ncbi.nlm.nih.gov/23559388/) | 2013 | Case Report / Review (Adverse Event) | Clinical rheumatology | First reported case of adalimumab-associated antiphospholipid syndrome, with a literature review of anti-TNF-associated vasculitis and APS. |
-| [24558628](https://pubmed.ncbi.nlm.nih.gov/24558628/) | 2013 | Case Report (Adverse Event) | Case reports in nephrology | Adalimumab exacerbated IgA glomerulonephritis and induced lupus autoantibodies in a psoriasis patient — further evidence of vasculitis/autoimmune induction risk. |
-| [30773522](https://pubmed.ncbi.nlm.nih.gov/30773522/) | 2019 | Case Report (Adverse Event) | Internal medicine (Tokyo, Japan) | Acute pulmonary hypertension crisis occurred in a rheumatoid vasculitis patient 8 months after adalimumab dose reduction, suggesting a protective effect of continued therapy. |
-| [36418100](https://pubmed.ncbi.nlm.nih.gov/36418100/) | 2023 | Case Report/Series (Adverse Event) | Internal medicine (Tokyo, Japan) | Tocilizumab successfully attenuated ANCA-associated nephritis that developed during combined abatacept/adalimumab therapy for RA. |
+Formale Daten zum Wirkmechanismus aus DrugBank sind in diesem Evidenzpaket noch nicht verfügbar (Datenlücke DG002, hohe Schwere). Basierend auf Informationen, die in den hier überprüften klinischen Studien und Literaturdokumenten eingebettet sind, wird Adalimumab wiederholt als vollständig humanisierter Anti-TNF-α-Antikörper beschrieben, der Tumornekrosefaktor-Alpha (TNF-α) bindet und neutralisiert und dadurch die TNF-induzierte Entzündungssignalisierung blockiert. Es ist in diesen Dokumenten als wirksam bei rheumatoider Arthritis (RA) und verwandten TNF-gesteuerten autoimmun-entzündlichen Erkrankungen dokumentiert, einschließlich Psoriasis-Arthritis, ankylosierender Spondylitis und juvenile idiopathische Arthritis.
+
+Rheumatoide Vaskulitis (RV) ist selbst eine schwere extraartikuläre Komplikation der rheumatoiden Arthritis, von der angenommen wird, dass sie TNF-α-vermittelte Endothelaktivierung und Immun-Komplex-Ablagerungen in Gefäßwänden beinhaltet. Da Adalimumab bereits auf das gemeinsame upstream-Zytokin (TNF-α) in der Grunderkrankung abzielt, ist das hohe Ähnlichkeitsscore des TxGNN-Modells für RV mechanistisch plausibel — ein Signal, das durch die systematische Übersicht in diesem Evidenzpaket (PMID 33058033) widergespiegelt wird, die biologische Wirkstoffe, einschließlich Anti-TNF-Arzneimittel, als Teil des RV-Behandlungsarsenals auflistet.
+
+Allerdings trägt der gleiche TNF-α-Blockade-Mechanismus ein bekanntes paradoxes Sicherheitssignal: mehrere Fallberichte in diesem Evidenzpaket (PMID 28719435, PMID 19482531, PMID 23559388, PMID 24558628) beschreiben, dass Adalimumab *leukozytoklas­tische Vaskulitis, ANCA-assoziierte Glomerulonephritis, Antiphospholipid-Syndrom und lupusähnliche Autoimmunität induziert* — effektiv das Gegenteil des beabsichtigten therapeutischen Effekts. Diese „therapeutisch oder induziert"-Mehrdeutigkeit ist der zentrale Grund, warum die mechanistische Rationale, obwohl plausibel, noch nicht in eine sichere Empfehlung übersetzt wird, und wird durch die L3-Evidenzstufe und die Abwarten-Entscheidung widergespiegelt.
 
 ---
 
-## Germany Market Information
+## Klinische Studiendaten
 
-Adalimumab is currently not marketed in Germany within this dataset (0 authorizations on file).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. Note: TFDA/German package-insert warnings and contraindications data are recorded as a **Blocking**-severity gap (DG001) in this evidence pack, and this is the reason the candidate cannot yet proceed past the initial safety-screening stage (S1).
+Derzeit keine verwandten klinischen Studien für rheumatoide Vaskulitis speziell registriert.
 
 ---
 
-## Conclusion and Next Steps
+## Literaturbelege
 
-**Decision: Hold**
+| PMID | Jahr | Typ | Journal | Wichtigste Erkenntnisse |
+|------|------|-----|--------|--------|
+| [33058033](https://pubmed.ncbi.nlm.nih.gov/33058033/) | 2021 | Systematische Übersicht | Clinical rheumatology | Systematische Übersicht biologischer Arzneimittel in der Behandlung der rheumatoiden Vaskulitis; unterstützt biologische Wirkstoffe, einschließlich Anti-TNF-Wirkstoffe, als Teil des therapeutischen RV-Arsenals. |
+| [18799049](https://pubmed.ncbi.nlm.nih.gov/18799049/) | 2008 | Systematische Übersicht | Clinical and experimental rheumatology | Verglich Vaskulitis-Charakteristika bei 2707 RA-Patienten unter Anti-TNF-Therapie gegenüber unbehandelten Patienten; identifizierte 18 Vaskulitis-Fälle und informierte über das Behandlungs-vs-Induzierungs-Risiko. |
+| [28123776](https://pubmed.ncbi.nlm.nih.gov/28123776/) | 2017 | Kohortenstudie | RMD open | BSRBR-RA-Register-Analyse fand heraus, dass TNF-Hemmer-behandelte RA-Patienten ein messbares, arzneimittelspezifisches Risiko für vaskulitis-ähnliche Ereignisse gegenüber nicht-biologischen DMARD-Nutzern tragen. |
+| [25133007](https://pubmed.ncbi.nlm.nih.gov/25133007/) | 2014 | Fallbericht | Case reports in rheumatology | Ein 42-jähriger RA-Patient mit digitaler Vaskulitis (nekrotisierende Fingerkuppengeschwüre) reagierte gut auf Adalimumab und unterstützt ein therapeutisches Signal. |
+| [28719435](https://pubmed.ncbi.nlm.nih.gov/28719435/) | 2018 | Fallbericht (Unerwünschtes Ereignis) | The American Journal of Dermatopathology | Erster berichteter Fall von leukozytoklas­tischer Vaskulitis mit dermaler perivaskular­er Hämophagozytose im Zusammenhang mit Adalimumab-Therapie für RA — ein Arzneimittel-Induzierungs-Signal. |
+| [19482531](https://pubmed.ncbi.nlm.nih.gov/19482531/) | 2009 | Fallbericht (Unerwünschtes Ereignis) | Nephrologie & therapeutique | Extrakapillä­re/nekrotisierende Glomerulonephritis mit positivem ANCA (MPO) entwickelte sich bei einem RA-Patienten während Adalimumab-Therapie — Vaskulitis-Induzierungs-Signal. |
+| [23559388](https://pubmed.ncbi.nlm.nih.gov/23559388/) | 2013 | Fallbericht / Übersicht (Unerwünschtes Ereignis) | Clinical rheumatology | Erster berichteter Fall von Adalimumab-assoziiertem Antiphospholipid-Syndrom mit einer Literaturübersicht zu Anti-TNF-assoziierter Vaskulitis und APS. |
+| [24558628](https://pubmed.ncbi.nlm.nih.gov/24558628/) | 2013 | Fallbericht (Unerwünschtes Ereignis) | Case reports in nephrology | Adalimumab verschlimmerte IgA-Glomerulonephritis und induzierte Lupus-Autoantikörper bei einem Psoriasis-Patienten — weiterer Nachweis des Vaskulitis-/Autoimmun-Induzierungs-Risikos. |
+| [30773522](https://pubmed.ncbi.nlm.nih.gov/30773522/) | 2019 | Fallbericht (Unerwünschtes Ereignis) | Internal medicine (Tokyo, Japan) | Eine akute Lungenhypertensions-Krise trat 8 Monate nach Reduktion der Adalimumab-Dosis bei einem Rheumatoiden Vaskulitis-Patienten auf und deutet auf einen Schutzeffekt einer fortgeführten Therapie hin. |
+| [36418100](https://pubmed.ncbi.nlm.nih.gov/36418100/) | 2023 | Fallbericht/Serie (Unerwünschtes Ereignis) | Internal medicine (Tokyo, Japan) | Tocilizumab dämpfte erfolgreich ANCA-assoziierte Nephritis ab, die sich während kombinierter Abatacept/Adalimumab-Therapie für RA entwickelt hatte. |
+
+---
+
+## Deutschland Marktinformation
+
+Adalimumab wird derzeit nicht in Deutschland innerhalb dieses Datensatzes vermarktet (0 Genehmigungen auf Datei).
+
+---
+
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. Hinweis: TFDA/Deutsche Packungsbeilage-Warnungen und Gegenanzeigen-Daten werden als eine **Blocking**-Schwere-Lücke (DG001) in diesem Evidenzpaket verzeichnet, und dies ist der Grund, warum der Kandidat noch nicht über die initiale Sicherheits-Screening-Phase (S1) hinausgehen kann.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Abwarten**
 
 **Rationale:**
-Evidence level L3 (a systematic review plus a registry cohort and multiple case reports) shows a directionally conflicting signal: some data suggest anti-TNF biologics benefit rheumatoid vasculitis, while several case reports document adalimumab *inducing* vasculitis, ANCA-associated nephritis, or lupus-like autoimmunity. Combined with a Blocking-severity gap in formal German/TFDA safety labeling (DG001), this candidate cannot yet advance past the S1 safety-screening stage.
+Evidenzstufe L3 (eine systematische Übersicht plus eine Register-Kohorte und mehrere Fallberichte) zeigt ein widersprüchliches Signal: einige Daten deuten darauf hin, dass Anti-TNF-Biologika der rheumatoiden Vaskulitis nutzen, während mehrere Fallberichte dokumentieren, dass Adalimumab *Vaskulitis, ANCA-assoziierte Nephritis oder lupusähnliche Autoimmunität induziert*. Kombiniert mit einer Blocking-Schwere-Lücke in formalen deutschen/TFDA-Sicherheitskennzeichnungen (DG001), kann dieser Kandidat noch nicht über die S1-Sicherheits-Screening-Phase hinausgehen.
 
-**To proceed, the following is needed:**
-- Resolve DG001 (TFDA/German package-insert warnings & contraindications) — Blocking gap, required before any S1 safety assessment can be completed.
-- Resolve DG002 (confirmed mechanism of action from DrugBank or an official regulatory source) to formally substantiate the mechanistic rationale.
-- Obtain confirmed German licensing/original-indication data, since adalimumab currently shows 0 licenses on file in this market dataset.
-- Commission a targeted review or prospective cohort specifically addressing whether anti-TNF therapy nets a protective effect against, or induces, rheumatoid vasculitis, to resolve the treat-vs-induce contradiction.
-- For near-term action, prioritize the two other candidates in this same evidence pack that already carry L1 evidence and a "Proceed with Guardrails" recommendation — **inflammatory spondylopathy** and **polyarticular juvenile rheumatoid arthritis** — while rheumatoid vasculitis remains on Hold pending the items above.
+**Zum Fortschreiten wird folgendes benötigt:**
+- DG001 auflösen (TFDA/Deutsche Packungsbeilage-Warnungen & Gegenanzeigen) — Blocking-Schwere-Lücke, erforderlich bevor eine S1-Sicherheitsbewertung abgeschlossen werden kann.
+- DG002 auflösen (bestätigter Wirkmechanismus aus DrugBank oder einer offiziellen Regulierungsquelle), um die mechanistische Rationale formal zu untermauern.
+- Bestätigte deutsche Lizenzierungs-/Originalindikations-Daten einholen, da Adalimumab derzeit 0 Lizenzen in diesem Markt-Datensatz aufweist.
+- Eine gezielt ausgerichtete Übersicht oder prospektive Kohorte in Auftrag geben, die speziell adressiert, ob Anti-TNF-Therapie einen Schutzeffekt gegen rheumatoide Vaskulitis hat oder diese induziert, um den Behandlungs-vs-Induzierungs-Widerspruch zu klären.
+- Für unmittelbare Maßnahmen die zwei anderen Kandidaten in diesem Evidenzpaket priorisieren, die bereits L1-Evidenz und eine „Mit Schutzmaßnahmen fortfahren"-Empfehlung tragen — **Entzündliche Spondylopathie** und **Polyartikuläre juvenile rheumatoide Arthritis** — während rheumatoide Vaskulitis im Abwarten verbleibt, bis die oben genannten Punkte geklärt sind.
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

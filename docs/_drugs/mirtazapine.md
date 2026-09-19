@@ -29,76 +29,77 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Mirtazapine: From Depression to Ohdo Syndrome and Variants
+# Mirtazapin: Von Depression zum Ohdo-Syndrom und Varianten
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Mirtazapine is a NaSSA-class antidepressant (noradrenergic and specific serotonergic antidepressant), historically used to treat depression. The TxGNN model predicts a possible role in **Ohdo syndrome and variants**, a rare developmental chromatin-remodeling disorder — but this prediction is currently supported by **0 clinical trials** and **0 publications**, and is model-inference only.
+Mirtazapin ist ein Antidepressivum der NaSSA-Klasse (noradrenerg und spezifisch serotonerg wirksames Antidepressivum), das historisch zur Behandlung von Depressionen eingesetzt wird. Das TxGNN-Modell sagt eine mögliche Rolle beim **Ohdo-Syndrom und Varianten**, einer seltenen entwicklungsbedingten Chromatin-Remodeling-Störung, voraus – diese Vorhersage wird jedoch derzeit durch **0 klinische Studien** und **0 Publikationen** gestützt und stellt nur eine Modellvorhersage dar.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Punkt | Inhalt |
 |------|------|
-| Original Indication | Not specified in the current evidence pack. Known clinical class: NaSSA antidepressant (depression) — MOA and indication data are a confirmed gap (DG002) |
-| Predicted New Indication | Ohdo syndrome and variants |
-| TxGNN Prediction Score | 99.42% |
-| Evidence Level | L5 (no clinical trials or literature; model prediction only) |
-| Germany Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | Nicht im aktuellen Evidenzpaket angegeben. Bekannte klinische Klasse: NaSSA-Antidepressivum (Depression) – MOA- und Indikationsdaten sind eine bestätigte Lücke (DG002) |
+| Vorhergesagte neue Indikation | Ohdo-Syndrom und Varianten |
+| TxGNN-Vorhersage-Bewertung | 99.42% |
+| Evidenzebene | L5 (keine klinischen Studien oder Literatur; nur Modellvorhersage) |
+| Marktstatus in Deutschland | Nicht vermarktet |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | Halten |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage sinnvoll?
 
-Currently, detailed mechanism of action data is not available (DG002, High severity). Mirtazapine is known to act as a NaSSA — antagonizing α2-adrenergic autoreceptors/heteroreceptors to increase norepinephrine and serotonin release, along with 5-HT2/5-HT3 antagonism (efficacy in depression) and H1 antagonism (sedation, appetite stimulation).
+Derzeit sind detaillierte Wirkmechanismus-Daten nicht verfügbar (DG002, hoher Schweregrad). Mirtazapin wirkt bekannterweise als NaSSA – durch Antagonisierung von α2-adrenergen Autorezeptoren/Heterorezeptoren zur Erhöhung der Noradrenalin- und Serotoninfreisetzung, zusammen mit 5-HT2/5-HT3-Antagonismus (Wirksamkeit bei Depression) und H1-Antagonismus (Sedation, Appetitanregung).
 
-Ohdo syndrome and its variants (including blepharophimosis–intellectual disability syndrome, Ohdo type, ranked #2 in this pack) are rare congenital disorders caused by mutations in genes such as *KAT6B* and *MED12*, with core pathology in chromatin remodeling and transcriptional regulation. This is mechanistically distinct from mirtazapine's monoaminergic pharmacology — there is **no direct etiological link**. Any theoretical benefit would be limited to symptomatic management of sleep disturbance or behavioral issues that can accompany the syndrome, not disease modification.
+Das Ohdo-Syndrom und seine Varianten (einschließlich des Blepharophimose-Intellektuelle-Behinderungs-Syndroms, Ohdo-Typ, Rang #2 in diesem Paket) sind seltene angeborene Störungen, die durch Mutationen in Genen wie *KAT6B* und *MED12* verursacht werden, mit einer Kernpathologie in Chromatin-Remodeling und transkriptionaler Regulation. Dies unterscheidet sich mechanistisch von der monoaminergen Pharmakologie von Mirtazapin – es gibt **keinen direkten ätiologischen Zusammenhang**. Jeder theoretische Nutzen wäre auf die symptomatische Behandlung von Schlafstörungen oder Verhaltensproblemen begrenzt, die das Syndrom begleiten können, nicht auf eine Krankheitsmodifizierung.
 
-The third-ranked prediction, benign paroxysmal torticollis of infancy, is thought to involve channelopathy-related mechanisms (e.g., *CACNA1A*) rather than monoamine dysregulation. While mirtazapine has occasional off-label use in migraine prevention via 5-HT2/3 and α2 pathways, this indication concerns an infant population with no pediatric safety data available here.
+Die drittrangigste Vorhersage, benigne paroxysmale Torticollis des Säuglingsalters, wird angenommen, Kanalopadie-bezogene Mechanismen (z. B. *CACNA1A*) statt Monoamin-Dysregulation zu beinhalten. Während Mirtazapin gelegentlich off-label in der Migräneprophylaxe über 5-HT2/3- und α2-Wege eingesetzt wird, betrifft diese Indikation eine Säuglingspopulation, für die hier keine pädiatrischen Sicherheitsdaten verfügbar sind.
 
-Overall, all three predictions in this pack appear to reflect **disease-ontology similarity within the TxGNN knowledge graph** (the top two are subtypes of the same syndrome) rather than a substantiated pharmacological rationale.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Insgesamt scheinen alle drei Vorhersagen in diesem Paket **Ähnlichkeiten der Krankheitsontologie innerhalb des TxGNN-Wissensgraphs** widerzuspiegeln (die beiden höchstrangigen sind Subtypen desselben Syndroms) statt einer begründeten pharmakologischen Rationale.
 
 ---
 
-## Literature Evidence
+## Evidenz aus klinischen Studien
 
-Currently no related literature available.
-
----
-
-## Germany Market Information
-
-Mirtazapine is currently **not marketed** in Germany under this evidence pack (0 authorizations on file, no license records available).
+Derzeit sind keine verwandten klinischen Studien registriert.
 
 ---
 
-## Safety Considerations
+## Literaturevidenz
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug interaction data are all marked as data gaps in this evidence pack — see DG001, Blocking severity.)
+Derzeit ist keine verwandte Literatur verfügbar.
 
 ---
 
-## Conclusion and Next Steps
+## Marktinformationen für Deutschland
 
-**Decision: Hold**
+Mirtazapin wird derzeit **nicht vermarktet** in Deutschland unter diesem Evidenzpaket (0 Genehmigungen erfasst, keine Lizenzunterlagen verfügbar).
 
-**Rationale:**
-All three predicted indications carry L5 evidence (no clinical trials, no literature) with a weak or absent mechanistic link to mirtazapine's known pharmacology, and the top two predictions likely reflect disease-ontology proximity rather than true drug-disease relevance. A blocking safety data gap (TFDA label warnings/contraindications) also prevents any S1 safety pre-assessment.
+---
 
-**To proceed, the following is needed:**
-- TFDA label PDF (warnings, contraindications) to close DG001 (Blocking)
-- Confirmed mechanism of action via DrugBank API to close DG002 (High)
-- Original indication/regulatory history (currently absent from `taiwan_regulatory.licenses`)
-- Any preclinical, case-report, or mechanistic literature specifically linking mirtazapine to chromatin-remodeling disorders or infant paroxysmal syndromes, given the current absence of supporting evidence
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. (Wichtige Warnungen, Kontraindikationen und Arzneimittelwechselwirkungsdaten sind alle als Datenlücken in diesem Evidenzpaket gekennzeichnet – siehe DG001, blockierender Schweregrad.)
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Halten**
+
+**Begründung:**
+Alle drei vorhergesagten Indikationen weisen L5-Evidenz auf (keine klinischen Studien, keine Literatur) mit einer schwachen oder fehlenden mechanistischen Verbindung zur bekannten Pharmakologie von Mirtazapin, und die beiden höchstrangigen Vorhersagen spiegeln wahrscheinlich eher Krankheitsontologie-Ähnlichkeiten wider statt wahre Arzneistoff-Indikations-Relevanz. Eine blockierende Sicherheitsdatenlücke (TFDA-Etikettwarnungen/Kontraindikationen) verhindert auch jede S1-Sicherheitsvorabprüfung.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+- TFDA-Etikett-PDF (Warnungen, Kontraindikationen) zum Schließen von DG001 (Blockierung)
+- Bestätigter Wirkmechanismus über DrugBank-API zum Schließen von DG002 (Hoch)
+- Ursprüngliche Indikation/Regulierungsgeschichte (derzeit nicht in `taiwan_regulatory.licenses` vorhanden)
+- Präklinische, Fallberichts- oder Wirkmechanismus-Literatur, die Mirtazapin speziell mit Chromatin-Remodeling-Störungen oder paroxysmalen Syndromen des Säuglingsalters verknüpft, angesichts des gegenwärtigen Mangels an stützenden Evidenzen
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

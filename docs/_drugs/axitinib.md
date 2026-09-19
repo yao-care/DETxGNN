@@ -29,92 +29,93 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Axitinib: From Metastatic Renal Cell Carcinoma to TFE3/Xp11.2 Translocation-Associated Renal Cell Carcinoma
+# Axitinib: Von metastatischem Nierenzellkarzinom zu TFE3/Xp11.2-Translokations-assoziiertem Nierenzellkarzinom
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Axitinib is an oral, potent VEGFR-1/2/3 tyrosine kinase inhibitor already established as second-line therapy for advanced/metastatic renal cell carcinoma (RCC), based on the extensive literature evidence in this pack.
-The TxGNN model predicts it may also be effective for **renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions**, a rare molecularly-defined RCC subtype,
-with **1 ongoing clinical trial** currently supporting this specific direction (no dedicated literature yet).
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Advanced/metastatic renal cell carcinoma (second-line TKI therapy) — derived from literature evidence in this pack (e.g., PMID 29033542, 20072829); no BfArM license data available to confirm the German label text |
-| Predicted New Indication | Renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L4 (one ongoing, non-completed Phase 2 RCT; no completed trials or dedicated literature) |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Axitinib ist ein orales, potentes VEGFR-1/2/3-Tyrosinkinase-Inhibitor, das bereits als Second-Line-Therapie für fortgeschrittenes/metastatisches Nierenzellkarzinom (NZK) etabliert ist, basierend auf umfangreichen Literaturbeweisen in diesem Paket.
+Das TxGNN-Modell sagt voraus, dass es auch bei **Nierenzellkarzinom, das mit Xp11.2-Translokationen/TFE3-Genfusionen assoziiert ist**, wirksam sein könnte – ein seltener, molekular definierter NZK-Subtyp,
+mit **1 laufender klinischer Studie**, die diese spezifische Richtung derzeit unterstützt (noch keine gewidmete Literatur).
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Detailed structured mechanism-of-action data (DrugBank MOA field) is currently a data gap for this candidate. However, the literature evidence contained in this pack consistently describes axitinib as a potent, selective small-molecule inhibitor of VEGF receptors 1, 2, and 3 (with roughly 10-fold lower IC50 against VEGFR family receptors than sunitinib or sorafenib), acting through anti-angiogenic blockade of tumor vasculature (PMID 29033542, 20072829).
-
-Axitinib's approved use is in clear-cell-predominant advanced/metastatic RCC, most robustly established through the KEYNOTE-426, JAVELIN Renal 101, and AXIS trials captured in this pack's literature (PMIDs 30779529, 30779531, 37500340, 40750932, 33284113). TFE3/Xp11.2-translocation RCC is a rare, molecularly distinct RCC subtype that, like clear-cell RCC, exhibits VHL/HIF-pathway-related angiogenic dependence, providing mechanistic plausibility for VEGFR-TKI activity across this related tumor family. This is reinforced by the ongoing dedicated trial (NCT03595124) directly testing axitinib plus nivolumab in TFE3/translocation RCC across all age groups.
-
-Notably, several other predicted indications in this evidence pack (unclassified RCC, pediatric/childhood RCC, collecting duct carcinoma, and even myxoid liposarcoma) follow the same angiogenesis-dependent rationale, with liposarcoma evidence supported by a dedicated preclinical study (PMID 27822137) showing axitinib has antiangiogenic and antitumorigenic activity in myxoid liposarcoma cell lines — suggesting the anti-VEGFR mechanism may extend beyond kidney cancer to other vascularized soft-tissue tumors.
+| Element | Inhalt |
+|---------|---------|
+| Ursprüngliche Indikation | Fortgeschrittenes/metastatisches Nierenzellkarzinom (Second-Line-TKI-Therapie) – abgeleitet aus Literaturbeweisen in diesem Paket (z. B. PMID 29033542, 20072829); keine BfArM-Lizenzdaten verfügbar zur Bestätigung des deutschen Label-Textes |
+| Vorhergesagte neue Indikation | Nierenzellkarzinom, das mit Xp11.2-Translokationen/TFE3-Genfusionen assoziiert ist |
+| TxGNN-Vorhersage-Score | 99,90% |
+| Evidenz-Level | L4 (eine laufende, nicht abgeschlossene Phase-2-RCT; keine abgeschlossenen Studien oder gewidmete Literatur) |
+| Status auf dem deutschen Markt | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Halten |
 
 ---
 
-## Clinical Trial Evidence
+## Warum ist diese Vorhersage angemessen?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Detaillierte strukturierte Wirkmechanismus-Daten (DrugBank MOA-Feld) stellen derzeit eine Datenlücke für diesen Kandidaten dar. Jedoch beschreiben die in diesem Paket enthaltenen Literaturbeweise axitinib durchgehend als einen potenten, selektiven Kleinmolekül-Inhibitor von VEGF-Rezeptoren 1, 2 und 3 (mit ungefähr 10-fach niedrigerem IC50 gegen die VEGFR-Familie als Sunitinib oder Sorafenib), der durch Anti-Angiogenese-Blockade der Tumorvaskulatur wirkt (PMID 29033542, 20072829).
+
+Die genehmigte Anwendung von axitinib besteht im klarzellig-dominanten fortgeschrittenen/metastatischen NZK, am robustesten etabliert durch die KEYNOTE-426-, JAVELIN Renal 101- und AXIS-Studien, die in den Literaturbeweisen dieses Pakets erfasst sind (PMIDs 30779529, 30779531, 37500340, 40750932, 33284113). TFE3/Xp11.2-Translokations-NZK ist ein seltener, molekular eigenständiger NZK-Subtyp, der ähnlich wie klarzellig-NZK eine VHL/HIF-Pathway-bezogene angiogenische Abhängigkeit aufweist, was eine mechanistische Plausibilität für VEGFR-TKI-Aktivität über diese verwandte Tumorklasse bietet. Dies wird durch die laufende Studie (NCT03595124) verstärkt, die direkt axitinib plus nivolumab bei TFE3/Translokations-NZK über alle Altersgruppen hinweg testet.
+
+Bemerkenswert ist, dass mehrere andere vorhergesagte Indikationen in diesem Beweispaket (ungeklassifiziertes NZK, pädiatrisches/Kindheits-NZK, Sammelrohr-Karzinom und sogar myxoides Liposarkom) der gleichen Angiogenese-abhängigen Rationale folgen, wobei Liposarkom-Beweise durch eine gewidmete präklinische Studie (PMID 27822137) unterstützt werden, die zeigt, dass axitinib antiangiogene und antitumorale Aktivität in myxoiden Liposarkom-Zelllinien aufweist – was darauf hindeutet, dass der Anti-VEGFR-Mechanismus sich über Nierenkrebse hinaus auf andere vaskularisierte Weichteiltumore erstrecken könnte.
+
+---
+
+## Evidenz aus klinischen Studien
+
+| Studiennummer | Phase | Status | Einschluss | Wichtigste Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT03595124](https://clinicaltrials.gov/study/NCT03595124) | Phase 2 | Active, not recruiting | 15 | Randomized trial of axitinib + nivolumab vs. single-agent nivolumab specifically in TFE/translocation RCC across all age groups; tests whether axitinib's anti-angiogenic activity combined with checkpoint inhibition benefits this molecular subtype |
+| [NCT03595124](https://clinicaltrials.gov/study/NCT03595124) | Phase 2 | Aktiv, keine Rekrutierung mehr | 15 | Randomisierte Studie von axitinib + nivolumab vs. Monotherapie mit nivolumab speziell bei TFE/Translokations-NZK über alle Altersgruppen; testet, ob die Anti-Angiogenese-Aktivität von axitinib kombiniert mit Checkpoint-Inhibition diesem molekularen Subtyp nutzt |
 
 ---
 
-## Literature Evidence
+## Literaturbeweise
 
-Currently no related literature available specific to Xp11.2 translocation/TFE3 gene fusion-associated renal cell carcinoma. (Broader RCC and pediatric RCC literature exists under related predicted indications in this pack, e.g., PMID 31012542 on advanced pediatric RCC and PMID 39326645 on axitinib outcomes in children/young adults with RCC, but none map directly to this specific TFE3-defined subtype.)
-
----
-
-## Germany Market Information
-
-Axitinib currently has no BfArM authorization records in this pack (0 licenses; market status: Not Marketed). No dosage form or approved-indication text is available to summarize.
+Derzeit keine spezifische Literatur zu Xp11.2-Translokations-/TFE3-Genfusions-assoziiertem Nierenzellkarzinom verfügbar. (Umfassendere Literatur zu NZK und pädiatrischem NZK existiert unter verwandten vorhergesagten Indikationen in diesem Paket, z. B. PMID 31012542 zu fortgeschrittenem pädiatrischem NZK und PMID 39326645 zu axitinib-Ergebnissen bei Kindern/jungen Erwachsenen mit NZK, aber keine ordnet sich direkt diesem spezifischen TFE3-definierten Subtyp zu.)
 
 ---
 
-## Cytotoxicity
+## Informationen zum deutschen Markt
 
-Axitinib is an antineoplastic agent (approved oncology indication: advanced/metastatic renal cell carcinoma; class: VEGFR tyrosine kinase inhibitor per literature evidence in this pack).
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (VEGFR-1/2/3 tyrosine kinase inhibitor / anti-angiogenic small molecule) — not a conventional cytotoxic chemotherapeutic |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+Axitinib hat derzeit keine BfArM-Zulassungsunterlagen in diesem Paket (0 Lizenzen; Marktstatus: Nicht vermarktet). Kein Darreichungsformtext oder genehmigter Indikationstext ist verfügbar für eine Zusammenfassung.
 
 ---
 
-## Safety Considerations
+## Zytotoxizität
 
-Please refer to the package insert for safety information.
+Axitinib ist ein antineoplastisches Mittel (genehmigte onkologische Indikation: fortgeschrittenes/metastatisches Nierenzellkarzinom; Klasse: VEGFR-Tyrosinkinase-Inhibitor gemäß Literaturbeweisen in diesem Paket).
+
+| Element | Inhalt |
+|---------|---------|
+| Zytotoxizitätsklassifizierung | Zielgerichtete Therapie (VEGFR-1/2/3-Tyrosinkinase-Inhibitor / Anti-Angiogenese-Kleinmolekül) – keine konventionale zytotoxische Chemotherapie |
+| Myelosuppressions-Risiko | Siehe Packungsbeilage – Warnhinweise und Vorsichtsmaßnahmen |
+| Emetogenitätsklassifizierung | Siehe Packungsbeilage – Warnhinweise und Vorsichtsmaßnahmen |
+| Überwachungselemente | Siehe Packungsbeilage – Warnhinweise und Vorsichtsmaßnahmen |
+| Schutzmaßnahmen bei der Handhabung | Siehe Packungsbeilage – Warnhinweise und Vorsichtsmaßnahmen |
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsaspekte
 
-**Decision: Hold**
+Siehe Packungsbeilage für Sicherheitsinformationen.
 
-**Rationale:**
-Axitinib is not currently marketed in Germany (0 authorizations), and TFDA/BfArM label warnings and contraindications are a **blocking** data gap (DG001) that prevents any S1 safety pre-assessment. Combined with an early-stage, non-completed single trial as the only direct evidence for this specific indication (Evidence Level L4), the candidate is not yet ready to advance.
+---
 
-**To proceed, the following is needed:**
-- Retrieve TFDA/BfArM package insert warnings, contraindications, and DDI data (DG001, blocking)
-- Obtain structured DrugBank MOA data to formalize the mechanistic rationale (DG002)
-- Monitor completion of NCT03595124 for outcome data in TFE3/translocation RCC
-- Confirm German/EU market and licensing status before any further evaluation
+## Fazit und nächste Schritte
+
+**Entscheidung: Halten**
+
+**Begründung:**
+Axitinib ist derzeit nicht auf dem deutschen Markt zugelassen (0 Zulassungen), und TFDA/BfArM-Label-Warnhinweise und Gegenanzeigen sind eine **blockierende** Datenlücke (DG001), die eine S1-Sicherheits-Vorbeurteilung verhindert. Kombiniert mit einer frühen, nicht abgeschlossenen Einzelstudie als einzigem direktem Beweis für diese spezifische Indikation (Evidenz-Level L4), ist der Kandidat noch nicht bereit zum Fortschritt.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+- Abrufen von TFDA/BfArM-Packungsbeilage-Warnhinweisen, Gegenanzeigen und DDI-Daten (DG001, blockierend)
+- Strukturierte DrugBank MOA-Daten zur Formalisierung der mechanistischen Begründung abrufen (DG002)
+- Fertigstellung von NCT03595124 auf Ergebnisdaten bei TFE3/Translokations-NZK überwachen
+- Deutschen/EU-Markt und Zulassungsstatus vor weiterer Evaluierung bestätigen
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

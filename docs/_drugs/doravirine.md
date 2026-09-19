@@ -29,59 +29,60 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Doravirine: From HIV-1 Infection to Feline Acquired Immunodeficiency Syndrome
+# Doravirine: Von der HIV-1-Infektion zum erworbenen Immundefekt-Syndrom bei Katzen
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Doravirine is a non-nucleoside reverse transcriptase inhibitor (NNRTI), a class developed to treat HIV-1 infection in humans. TxGNN's top-ranked prediction is **feline acquired immunodeficiency syndrome (FIV)** — a veterinary disease of cats — with **0 clinical trials** and **0 publications** currently supporting this direction. This prediction should be treated as a low-confidence computational signal rather than an actionable repurposing candidate.
+Doravirine ist ein Inhibitor der nicht-nukleosidischen reversen Transkriptase (NNRTI), eine Substanzklasse zur Behandlung der HIV-1-Infektion beim Menschen. Die Top-Vorhersage von TxGNN ist das **erworbene Immundefekt-Syndrom bei Katzen (FIV)** – eine Veterinärerkrankung bei Katzen – mit derzeit **0 klinischen Studien** und **0 Publikationen**, die diese Richtung unterstützen. Diese Vorhersage sollte als schwaches rechnerisches Signal und nicht als umsetzbarer Kandidat für Umwidmung behandelt werden.
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Eintrag | Inhalt |
 |------|------|
-| Original Indication | HIV-1 infection (based on known drug classification; not present in evidence pack) |
-| Predicted New Indication | Feline acquired immunodeficiency syndrome (FIV) |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L5 |
-| Germany Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | HIV-1-Infektion (basierend auf bekannter Arzneimittelklassifizierung; nicht in der Nachweissammlung vorhanden) |
+| Vorhergesagte neue Indikation | Erworbenes Immundefekt-Syndrom bei Katzen (FIV) |
+| TxGNN-Vorhersagepunktzahl | 99.93% |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Nicht vermarktet (Nicht vermarktet) |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Halten |
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage vernünftig?
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on known pharmacology, doravirine is an NNRTI approved for human HIV-1 infection (marketed as Pifeltro, and combined with lamivudine/tenofovir disoproxil fumarate as Delstrigo). It works by binding non-competitively to HIV-1 reverse transcriptase, blocking conversion of viral RNA to DNA.
+Derzeit sind detaillierte Daten zum Wirkmechanismus nicht in der Nachweissammlung verfügbar. Basierend auf bekannter Pharmakologie ist Doravirine ein NNRTI, der für die HIV-1-Infektion beim Menschen zugelassen ist (vermarktet als Pifeltro und kombiniert mit Lamivudin/Tenofovirdisoproxilfumarat als Delstrigo). Es wirkt durch nicht-kompetitive Bindung an die HIV-1-Reverse-Transkriptase und blockiert die Umwandlung von viraler RNA zu DNA.
 
-Feline immunodeficiency virus (FIV) is a lentivirus related to but structurally distinct from HIV-1; it causes an AIDS-like syndrome in cats. While both viruses share the lentivirus family and rely on reverse transcriptase, NNRTIs such as doravirine are generally not cross-reactive against FIV reverse transcriptase due to sequence and binding-pocket differences. The TxGNN score likely reflects a broad "immunodeficiency virus / RT inhibitor" association embedded in the knowledge graph rather than a validated pharmacological mechanism. Critically, FIV is a veterinary indication in cats, not a human clinical indication — making this prediction non-actionable for human drug repurposing regardless of mechanistic plausibility.
+Das Katzen-Immundefekt-Virus (FIV) ist ein Lentivirus, das mit HIV-1 verwandt, aber strukturell unterschiedlich ist; es verursacht bei Katzen ein AIDS-ähnliches Syndrom. Obwohl beide Viren zur Lentivirus-Familie gehören und auf Reverse-Transkriptase angewiesen sind, sind NNRTIs wie Doravirine im Allgemeinen nicht kreuzreaktiv gegen die FIV-Reverse-Transkriptase, da es Unterschiede in Sequenz und Bindungstasche gibt. Der TxGNN-Score spiegelt wahrscheinlich eine breite Assoziation „Immundefekt-Virus / RT-Inhibitor" wider, die im Wissensgraph eingebettet ist, anstatt eines validierten pharmakologischen Mechanismus. Entscheidend ist, dass FIV eine Veterinärindikation bei Katzen ist, keine human-klinische Indikation – wodurch diese Vorhersage für die Umwidmung von Arzneimitteln beim Menschen nicht umsetzbar ist, unabhängig von mechanistischer Plausibilität.
 
-The two other candidates in this evidence pack were already flagged as low value: simian immunodeficiency virus infection (rank 2) is supported only by a review article about *islatravir* — a different drug with a different mechanism (NRTTI, not NNRTI) — so it does not constitute evidence for doravirine; and the rare neurodevelopmental disorder (rank 3) has no plausible mechanistic link to reverse transcriptase inhibition and is most likely a knowledge-graph artifact.
+Die beiden anderen Kandidaten in dieser Nachweissammlung waren bereits als niedrigwertig gekennzeichnet: Die Infektion mit Simian-Immundefekt-Virus (Rang 2) wird nur durch einen Übersichtsartikel über *Islatravir* gestützt – ein anderes Arzneimittel mit einem anderen Wirkmechanismus (NRTTI, nicht NNRTI) – daher stellt dies keinen Nachweis für Doravirine dar; und die seltene neurologische Entwicklungsstörung (Rang 3) hat keinen plausiblen mechanistischen Zusammenhang mit der Reverse-Transkriptase-Hemmung und ist wahrscheinlich ein Artefakt des Wissensgraphs.
 
-## Clinical Trial Evidence
+## Klinische Studienevidenz
 
-Currently no related clinical trials registered
+Derzeit sind keine verwandten klinischen Studien registriert
 
-## Literature Evidence
+## Literaturbeweise
 
-Currently no related literature available
+Derzeit ist keine verwandte Literatur verfügbar
 
-## Germany Market Information
+## Marktinformation in Deutschland
 
-Doravirine is not currently marketed in Germany (0 authorizations on record); no BfArM license data is available in this evidence pack.
+Doravirine ist derzeit in Deutschland nicht vermarktet (0 Zulassungen im Datensatz); keine BfArM-Lizenzierungsdaten sind in dieser Nachweissammlung verfügbar.
 
-## Safety Considerations
+## Sicherheitsaspekte
 
-Please refer to the package insert for safety information.
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
 
-## Conclusion and Next Steps
+## Fazit und nächste Schritte
 
-**Decision: Hold**
+**Entscheidung: Halten**
 
-**Rationale:**
-No clinical trials or literature support any of the three TxGNN-predicted indications. The top-ranked prediction (FIV) is a veterinary disease with no established mechanistic cross-reactivity to doravirine's NNRTI activity, and the drug is not currently marketed in Germany.
+**Begründung:**
+Keine klinischen Studien oder Literatur unterstützen eine der drei von TxGNN vorhergesagten Indikationen. Die Top-Vorhersage (FIV) ist eine Veterinärerkrankung ohne etablierte mechanistische Kreuzreaktivität zur NNRTI-Aktivität von Doravirine, und das Arzneimittel ist derzeit nicht in Deutschland vermarktet.
 
-**To proceed, the following is needed:**
-- TFDA/BfArM 官方仿單警語與禁忌資料（DG001，Blocking，目前無法進入安全性初評）
-- Doravirine 完整Mechanism of action (MOA) 官方資料來源（DG002）
-- 若欲評估人類可行之老藥新用方向，需針對人類相關疾病重新查詢 TxGNN 預測結果——目前三項候選皆非可行之人類臨床標的
+**Um fortzufahren, sind folgende Informationen erforderlich:**
+- Offizielle Warnhinweise und Kontraindikationen von TFDA/BfArM (DG001, Blockierung, derzeit nicht für die Sicherheitsbewertung zugänglich)
+- Vollständiger Wirkmechanismus (Mechanism of Action, MOA) von Doravirine – offizielle Datenquelle (DG002)
+- Um praktikable Richtungen für die Umwidmung alter Arzneimittel beim Menschen zu bewerten, ist eine erneute Abfrage der TxGNN-Vorhersageergebnisse für relevante menschliche Erkrankungen erforderlich – derzeit sind alle drei Kandidaten keine praktikablen klinischen Ziele für Menschen
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

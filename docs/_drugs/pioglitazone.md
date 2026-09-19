@@ -29,78 +29,79 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9**
 
 </div>
 
-# Pioglitazone: From Type 2 Diabetes Mellitus to Opsismodysplasia
+# Pioglitazone: Von Typ-2-Diabetes-mellitus zu Opsismodysplasie
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Pioglitazone is a thiazolidinedione (TZD)-class insulin sensitizer, traditionally used to improve glycemic control in type 2 diabetes mellitus.
-> The TxGNN model predicts it may be effective for **Opsismodysplasia**, a rare skeletal dysplasia,
-> but this prediction is currently supported by **0 clinical trials** and **0 publications**, and the model's own rationale notes no known biological link between the drug's mechanism and this disease.
+> Pioglitazone ist ein Insulinsensitizer der Thiazolidindion-(TZD)-Klasse, das traditionell zur Verbesserung der Blutzuckerkontrolle bei Typ-2-Diabetes-mellitus eingesetzt wird.
+> Das TxGNN-Modell prognostiziert, dass es wirksam für **Opsismodysplasie**, eine seltene Skelettdysplasie, sein könnte,
+> aber diese Vorhersage wird derzeit durch **0 klinische Studien** und **0 Publikationen** gestützt, und die eigene Begründung des Modells vermerkt keine bekannte biologische Verbindung zwischen dem Wirkungsmechanismus des Arzneimittels und dieser Krankheit.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Eintrag | Inhalt |
 |------|------|
-| Original Indication | Type 2 Diabetes Mellitus (based on known drug class; not explicitly recorded in this evidence pack) |
-| Predicted New Indication | Opsismodysplasia |
-| TxGNN Prediction Score | 99.59% |
-| Evidence Level | L5 |
-| Germany Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | Typ-2-Diabetes-mellitus (basierend auf bekannter Arzneimittelklasse; nicht explizit in diesem Evidenzpaket aufgezeichnet) |
+| Vorhergesagte neue Indikation | Opsismodysplasie |
+| TxGNN-Vorhersagepunktzahl | 99.59% |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Abwartend |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage angemessen?
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap). Based on known information, pioglitazone is a thiazolidinedione (PPAR-γ agonist) that improves peripheral insulin sensitivity and has demonstrated efficacy in type 2 diabetes mellitus, including protective effects on β-cell function and cardiovascular risk markers.
+Derzeit sind detaillierte Daten zum Wirkungsmechanismus nicht verfügbar (gekennzeichnet als schwerwiegende Datenlücke). Basierend auf bekannten Informationen ist Pioglitazone ein Thiazolidindion (PPAR-γ-Agonist), das die periphere Insulinempfindlichkeit verbessert und sich als wirksam bei Typ-2-Diabetes-mellitus erwiesen hat, einschließlich schützender Effekte auf die β-Zell-Funktion und kardiovaskuläre Risikoindikatoren.
 
-Opsismodysplasia, however, is a skeletal developmental disorder associated with INT complex genes (INTS8/RSPRY1), a pathway with no established interaction with PPAR-γ signaling. The evidence pack's own repurposing rationale explicitly states that this TxGNN score reflects a graph-embedding association rather than a biologically grounded hypothesis, and that no mechanistic rationale can currently be articulated for this drug-disease pair.
+Opsismodysplasie ist jedoch eine Skelettenwicklungsstörung, die mit INT-Komplexgenen (INTS8/RSPRY1) verbunden ist, ein Signalweg ohne etablierte Wechselwirkung mit PPAR-γ-Signalisierung. Die eigene Umwidmungsbegründung des Evidenzpakets besagt ausdrücklich, dass dieser TxGNN-Score eine Graph-Embedding-Assoziation widerspiegelt, anstatt einer biologisch fundierten Hypothese zu entsprechen, und dass derzeit keine mechanistische Begründung für dieses Arzneimittel-Krankheits-Paar artikuliert werden kann.
 
-Given the absence of any mechanistic overlap, clinical trial data, or supporting literature, this prediction should be treated as a pure model output requiring independent biological validation before any further evaluation.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+Angesichts des Fehlens jeglicher mechanistischen Überschneidung, klinischer Studiendaten oder unterstützender Literatur sollte diese Vorhersage als reine Modellausgabe behandelt werden, die eine unabhängige biologische Validierung vor weiterer Bewertung erfordert.
 
 ---
 
-## Literature Evidence
+## Evidenz aus klinischen Studien
 
-Currently no related literature available
-
----
-
-## Germany Market Information
-
-Pioglitazone currently has no marketing authorizations on record in Germany (market status: **Not Marketed**, 0 total licenses).
+Derzeit keine verwandten klinischen Studien registriert
 
 ---
 
-## Safety Considerations
+## Literaturevidenz
 
-Please refer to the package insert for safety information.
-
-*(Note: TFDA label warnings/contraindications are flagged as a Blocking data gap — required before any S1 safety review can proceed.)*
+Derzeit keine verwandte Literatur verfügbar
 
 ---
 
-## Conclusion and Next Steps
+## Marktinformationen für Deutschland
 
-**Decision: Hold**
+Pioglitazone hat derzeit keine Vermarktungsgenehmigungen im Verzeichnis in Deutschland (Marktstatus: **Nicht vermarktet**, 0 Gesamtlizenzen).
 
-**Rationale:**
-The top-ranked prediction (opsismodysplasia) is supported only by a model similarity score (L5, Evidence Level), with zero clinical trials, zero literature, and no plausible mechanistic link between PPAR-γ agonism and this INT-complex-related skeletal disorder — a limitation the model's own rationale explicitly acknowledges.
+---
 
-**To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) data for pioglitazone (currently a data gap)
-- TFDA/BfArM label warnings and contraindications (Blocking gap — required before S1 safety evaluation)
-- Independent mechanistic or preclinical evidence connecting PPAR-γ signaling to INT-complex-associated skeletal pathology
-- If pursuing repurposing research, consider prioritizing the pack's lower-ranked lipodystrophy-related predictions (ranks 5–8) instead, as these have a documented PPAR-γ/adipogenesis mechanistic rationale, even though they too currently lack clinical or trial evidence and remain at the "Research Question" stage
+## Sicherheitserwägungen
+
+Bitte lesen Sie die Packungsbeilage für Sicherheitsinformationen.
+
+*(Hinweis: TFDA/BfArM-Etikettenwarnungen und Kontraindikationen sind als blockierende Datenlücke gekennzeichnet – erforderlich, bevor eine S1-Sicherheitsüberprüfung fortgesetzt werden kann.)*
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Abwartend**
+
+**Begründung:**
+Die höchstbewertete Vorhersage (Opsismodysplasie) wird nur durch einen Modellsimilaritätswert (L5, Evidenzstufe) gestützt, mit null klinischen Studien, null Literatur und keinem plausiblen mechanistischen Link zwischen PPAR-γ-Agonismus und dieser INT-Komplex-bezogenen Skelettkrankheit – eine Limitation, die die eigene Begründung des Modells ausdrücklich anerkennt.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+- Bestätigte Daten zum Wirkmechanismus (MOA) für Pioglitazone (derzeit eine Datenlücke)
+- TFDA/BfArM-Etikettenwarnungen und Kontraindikationen (Blockierende Lücke – erforderlich vor S1-Sicherheitsbewertung)
+- Unabhängige mechanistische oder präklinische Evidenz, die PPAR-γ-Signalisierung mit INT-Komplex-assoziierter Skeletterkrankung verbindet
+- Wenn eine Umwidmungsforschung angestrebt wird, sollten Sie stattdessen die niedriger bewerteten Lipodystrophie-bezogenen Vorhersagen des Pakets (Ränge 5–8) priorisieren, da diese eine dokumentierte PPAR-γ/Adipogenese-mechanistische Begründung haben, obwohl ihnen derzeit auch klinische oder Studienbeweise fehlen und sie im Stadium „Forschungsfrage" verbleiben
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

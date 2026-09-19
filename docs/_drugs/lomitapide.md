@@ -29,100 +29,101 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Lomitapide: From Homozygous Familial Hypercholesterolemia to Hyperlipoproteinemia
+# Lomitapide: Von homozygoten familiären Hypercholesterinämie zu Hyperlipoproteinämie
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Lomitapide is a microsomal triglyceride transfer protein (MTP) inhibitor internationally used for homozygous familial hypercholesterolemia (HoFH), a severe genetic form of hyperlipoproteinemia.
-> The TxGNN model predicts it may be effective for **Hyperlipoproteinemia** more broadly,
-> with **10 clinical trials** and **17 publications** currently supporting this direction — largely because this candidate reflects the drug's already-established international use rather than a genuinely novel signal.
+> Lomitapide ist ein international zur Behandlung der homozygoten familiären Hypercholesterinämie (HoFH), einer schwerwiegenden genetischen Form der Hyperlipoproteinämie, eingesetzter Hemmer des Mikrosomen-Triglycerid-Transferproteins (MTP).
+> Das TxGNN-Modell prognostiziert, dass es möglicherweise wirksam für **Hyperlipoproteinämie** im weiteren Sinne ist,
+> wobei derzeit **10 klinische Studien** und **17 Publikationen** diese Richtung unterstützen – hauptsächlich, weil dieser Kandidat die bereits etablierte internationale Verwendung des Arzneimittels widerspiegelt, statt eines echten neuen Signals.
 >
-> *Note: TxGNN also flagged 8 higher-ranked candidates (rare platelet/thrombocytopenia disorders, e.g. Glanzmann thrombasthenia, pseudo-von Willebrand disease) with very high model scores but **zero supporting trials or literature**. These remain unvalidated model output (L5) and are not covered further in this report.*
+> *Hinweis: TxGNN hat auch 8 höher bewertete Kandidaten gekennzeichnet (seltene Blutplättchen-/Thrombozytopenie-Störungen, z. B. Glanzmann-Thrombastenie, Pseudo-von-Willebrand-Erkrankung) mit sehr hohen Modellwerten, aber **keine unterstützenden Studien oder Literatur**. Diese bleiben nicht validierte Modellausgaben (L5) und werden in diesem Bericht nicht weiter behandelt.*
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Element | Inhalt |
 |------|------|
-| Original Indication | Not provided in local regulatory data (drug not marketed in this jurisdiction); internationally established for Homozygous Familial Hypercholesterolemia (HoFH) |
-| Predicted New Indication | Hyperlipoproteinemia |
-| TxGNN Prediction Score | 99.74% |
-| Evidence Level | L2 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | Nicht in lokalen behördlichen Daten vorhanden (Arzneimittel nicht in diesem Markt vermarktet); international etabliert für homozygote familiäre Hypercholesterinämie (HoFH) |
+| Prognostizierte neue Indikation | Hyperlipoproteinämie |
+| TxGNN-Vorhersage-Score | 99.74% |
+| Evidenzstufe | L2 |
+| Status auf dem deutschen Markt | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Abwarten |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage angemessen?
 
-Detailed mechanism-of-action data was not provided as a structured field (flagged as a data gap), but it can be reconstructed directly from the trial evidence in this pack: lomitapide (originally coded AEGR-733 / BMS-201038) is a **microsomal triglyceride transfer protein (MTP) inhibitor**. By blocking MTP in hepatocytes and enterocytes, it prevents assembly and secretion of apolipoprotein-B-containing lipoproteins (VLDL, chylomicrons), lowering LDL-cholesterol through an LDL-receptor-independent pathway.
+Detaillierte Wirkmechanismus-Daten wurden nicht als strukturiertes Feld zur Verfügung gestellt (gekennzeichnet als Datenlücke), können aber direkt aus der Studienevidenz in diesem Paket rekonstruiert werden: Lomitapide (ursprünglich codiert als AEGR-733 / BMS-201038) ist ein **Hemmer des Mikrosomen-Triglycerid-Transferproteins (MTP)**. Durch die Hemmung von MTP in Hepatozyten und Enterozyten verhindert es die Zusammenlagerung und Sekretion von Apolipoprotein-B-haltigen Lipoproteinen (VLDL, Chylomikronen), was den LDL-Cholesterinspiegel durch einen LDL-Rezeptor-unabhängigen Weg senkt.
 
-The predicted new indication, "hyperlipoproteinemia," is not mechanistically distant from the drug's known use — it is the broader disease category that includes HoFH, the rare, severe subtype for which lomitapide already has an extensive clinical development program (visible in the 13 trials returned, all enrolling HoFH or hypercholesterolemia patients). In this sense, TxGNN has essentially **recovered a known indication** rather than surfaced a genuinely novel one. This is still clinically useful: it confirms the model correctly captures the MTP-inhibition → lipoprotein-lowering axis, and it highlights a jurisdiction (this market) where the drug is not currently registered despite strong global evidence — a market-access gap worth investigating rather than a scientific unknown.
+Die prognostizierte neue Indikation „Hyperlipoproteinämie" ist mechanistisch nicht weit entfernt von der bekannten Verwendung des Arzneimittels – es ist die breitere Krankheitskategorie, die HoFH umfasst, den seltenen, schwerwiegenden Subtyp, für den Lomitapide bereits ein umfangreiches klinisches Entwicklungsprogramm hat (sichtbar in den 13 zurückgegebenen Studien, alle mit HoFH- oder Hypercholesterinämie-Patienten). In diesem Sinne hat TxGNN im Wesentlichen **eine bekannte Indikation wiederhergestellt**, statt eine echte neue zu identifizieren. Dies ist immer noch klinisch nützlich: Es bestätigt, dass das Modell die MTP-Hemmung → Lipoproteinsenkungsachse korrekt erfasst, und es weist auf ein Rechtsgebiet (diesen Markt) hin, in dem das Arzneimittel trotz starker globaler Evidenz derzeit nicht registriert ist – eine Marktzugangslücke, die Untersuchung wert ist, statt eines wissenschaftlichen Unbekannten.
 
-Because HoFH is ultra-rare (worldwide prevalence ~1:160,000–1,000,000), the pivotal registration trials (e.g., NCT00730236) were conducted as single-arm, open-label studies rather than placebo-controlled RCTs — a recognized and regulator-accepted design for this population. Smaller placebo-controlled Phase 2 studies exist for adjacent hypercholesterolemia populations, providing additional randomized-controlled support.
+Da HoFH ultra-selten ist (weltweite Prävalenz ~1:160,000–1,000,000), wurden die entscheidenden Zulassungsstudien (z. B. NCT00730236) als Einarmstudie mit offener Kennzeichnung durchgeführt, statt als placebokontrollierte RCTs – ein anerkanntes und behördlich akzeptiertes Design für diese Population. Kleinere placebokontrollierte Phase-2-Studien existieren für angrenzende Hypercholesterinämie-Populationen, die zusätzliche randomisiert-kontrollierte Unterstützung bieten.
 
 ---
 
-## Clinical Trial Evidence
+## Klinische Studienevidenz
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Studiennummer | Phase | Status | Einschreibung | Schlüsselfunde |
 |---------|------|------|------|---------|
-| [NCT00730236](https://clinicaltrials.gov/study/NCT00730236) | Phase 3 | Completed | 29 | Pivotal single-arm trial of lomitapide (AEGR-733) on LDL-C and lipid endpoints in HoFH patients on stable lipid-lowering therapy |
-| [NCT00943306](https://clinicaltrials.gov/study/NCT00943306) | Phase 3 | Completed | 19 | Long-term open-label follow-on study confirming continued safety/efficacy of lomitapide in HoFH |
-| [NCT04681170](https://clinicaltrials.gov/study/NCT04681170) | Phase 3 | Completed | 46 | Single-arm study of efficacy/long-term safety of lomitapide in pediatric HoFH on stable lipid-lowering therapy |
-| [NCT02173158](https://clinicaltrials.gov/study/NCT02173158) | Phase 3 | Completed | 9 | Efficacy/safety of lomitapide in Japanese HoFH patients on concurrent lipid-lowering therapy |
-| [NCT01556906](https://clinicaltrials.gov/study/NCT01556906) | Phase 2 | Completed | 6 | Dose-escalation study establishing safety, tolerability, and LDL-C/TC/TG-lowering pharmacodynamics of lomitapide |
-| [NCT00559962](https://clinicaltrials.gov/study/NCT00559962) | Phase 2 | Completed | 260 | Randomized, double-blind, placebo-controlled trial of low-dose lomitapide ± statin/ezetimibe/fenofibrate on hepatic fat accumulation |
-| [NCT00690443](https://clinicaltrials.gov/study/NCT00690443) | Phase 2 | Completed | 44 | Randomized, double-blind, comparator-controlled trial of lomitapide + atorvastatin vs atorvastatin monotherapy in moderate hypercholesterolemia |
-| [NCT02135705](https://clinicaltrials.gov/study/NCT02135705) | N/A | Recruiting | 300 | LOWER global product-exposure registry evaluating long-term real-world safety/effectiveness of lomitapide |
-| [NCT06832371](https://clinicaltrials.gov/study/NCT06832371) | N/A | Active, not recruiting | 73 | Observational study of lomitapide's effect on major adverse cardiovascular events (MACE) in HoFH |
-| [NCT02765841](https://clinicaltrials.gov/study/NCT02765841) | Phase 3 | Withdrawn | 0 | Planned pediatric HoFH efficacy/safety study (12-wk run-in, 24-wk efficacy, 80-wk safety phase); not conducted |
+| [NCT00730236](https://clinicaltrials.gov/study/NCT00730236) | Phase 3 | Abgeschlossen | 29 | Entscheidende Einarmstudie von Lomitapide (AEGR-733) zu LDL-C- und Lipid-Endpunkten bei HoFH-Patienten unter stabiler Lipidsenker-Therapie |
+| [NCT00943306](https://clinicaltrials.gov/study/NCT00943306) | Phase 3 | Abgeschlossen | 19 | Langzeitfolgestudien mit offener Kennzeichnung zur Bestätigung der fortgesetzten Sicherheit/Wirksamkeit von Lomitapide bei HoFH |
+| [NCT04681170](https://clinicaltrials.gov/study/NCT04681170) | Phase 3 | Abgeschlossen | 46 | Einarmstudie zur Wirksamkeit/Langzeitsicherheit von Lomitapide bei pädiatrischen HoFH-Patienten unter stabiler Lipidsenker-Therapie |
+| [NCT02173158](https://clinicaltrials.gov/study/NCT02173158) | Phase 3 | Abgeschlossen | 9 | Wirksamkeit/Sicherheit von Lomitapide bei japanischen HoFH-Patienten unter gleichzeitiger Lipidsenker-Therapie |
+| [NCT01556906](https://clinicaltrials.gov/study/NCT01556906) | Phase 2 | Abgeschlossen | 6 | Dosiseskalationsstudie zur Etablierung der Sicherheit, Verträglichkeit und LDL-C/TC/TG-Senkungs-Pharmakodynamik von Lomitapide |
+| [NCT00559962](https://clinicaltrials.gov/study/NCT00559962) | Phase 2 | Abgeschlossen | 260 | Randomisierte, doppelblinde, placebokontrollierte Studie von niedriger Dosis Lomitapide ± Statin/Ezetimib/Fenofibrat zur hepatischen Fettansammlung |
+| [NCT00690443](https://clinicaltrials.gov/study/NCT00690443) | Phase 2 | Abgeschlossen | 44 | Randomisierte, doppelblinde, komparatorgesteuerte Studie von Lomitapide + Atorvastatin vs. Atorvastatin-Monotherapie bei moderater Hypercholesterinämie |
+| [NCT02135705](https://clinicaltrials.gov/study/NCT02135705) | N/A | Rekrutierung läuft | 300 | LOWER-Globales Produktexpositions-Register zur Bewertung der langfristigen Praxis-Sicherheit/Wirksamkeit von Lomitapide |
+| [NCT06832371](https://clinicaltrials.gov/study/NCT06832371) | N/A | Aktiv, keine Rekrutierung | 73 | Beobachtungsstudie zu den Auswirkungen von Lomitapide auf größere unerwünschte kardiovaskuläre Ereignisse (MACE) bei HoFH |
+| [NCT02765841](https://clinicaltrials.gov/study/NCT02765841) | Phase 3 | Zurückgezogen | 0 | Geplante pädiatrische HoFH-Wirksamkeits-/Sicherheitsstudie (12-Wochen-Run-in, 24-Wochen-Wirksamkeit, 80-Wochen-Sicherheitsphase); nicht durchgeführt |
 
 ---
 
-## Literature Evidence
+## Literaturevidenz
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Journal | Schlüsselfunde |
 |------|-----|------|------|---------|
-| [39426393](https://pubmed.ncbi.nlm.nih.gov/39426393/) | 2024 | Phase 3 Study (open-label) | Lancet Diabetes Endocrinol | APH-19: efficacy-phase results of lomitapide in pediatric HoFH patients on standard-of-care lipid-lowering therapy |
-| [37130090](https://pubmed.ncbi.nlm.nih.gov/37130090/) | 2023 | Consensus Statement | European Heart Journal | 2023 EAS update on HoFH diagnosis and treatment, including lomitapide's role among new therapies |
-| [36152419](https://pubmed.ncbi.nlm.nih.gov/36152419/) | 2022 | Study | Atherosclerosis | Efficacy and safety of lomitapide extended to familial chylomicronaemia syndrome (adjacent lipid disorder) |
-| [35148370](https://pubmed.ncbi.nlm.nih.gov/35148370/) | 2022 | Review | Eur J Prev Cardiol | Review of efficacy and safety of lomitapide in HoFH |
-| [31741187](https://pubmed.ncbi.nlm.nih.gov/31741187/) | 2019 | Review | Curr Atheroscler Rep | Mechanistic review of MTP inhibition (lomitapide) and apoB100-synthesis inhibition (mipomersen) |
-| [28598687](https://pubmed.ncbi.nlm.nih.gov/28598687/) | 2017 | Review | Expert Opin Pharmacother | Review of lomitapide for treatment of hypercholesterolemia, including HoFH management context |
-| [25936301](https://pubmed.ncbi.nlm.nih.gov/25936301/) | 2015 | Review | Atherosclerosis Suppl | Mipomersen and lomitapide as new drugs for HoFH treatment |
-| [25702706](https://pubmed.ncbi.nlm.nih.gov/25702706/) | 2015 | Review | Br J Clin Pharmacol | Pharmacological profile review of lomitapide |
-| [25053660](https://pubmed.ncbi.nlm.nih.gov/25053660/) | 2014 | Consensus Statement | European Heart Journal | EAS position paper on HoFH detection and clinical management |
-| [21846156](https://pubmed.ncbi.nlm.nih.gov/21846156/) | 2011 | Review | Am J Cardiovasc Drugs | Early development review of lomitapide as MTP inhibitor for familial/primary hypercholesterolemia |
+| [39426393](https://pubmed.ncbi.nlm.nih.gov/39426393/) | 2024 | Phase-3-Studie (offen) | Lancet Diabetes Endocrinol | APH-19: Wirksamkeitsphasenergebnisse von Lomitapide bei pädiatrischen HoFH-Patienten unter standardmäßiger Lipidsenker-Therapie |
+| [37130090](https://pubmed.ncbi.nlm.nih.gov/37130090/) | 2023 | Konsenserklärung | European Heart Journal | 2023 EAS-Aktualisierung zu HoFH-Diagnose und -Behandlung, einschließlich der Rolle von Lomitapide unter neuen Therapien |
+| [36152419](https://pubmed.ncbi.nlm.nih.gov/36152419/) | 2022 | Studie | Atherosclerosis | Wirksamkeit und Sicherheit von Lomitapide ausgeweitet auf familiäres Chylomikronämie-Syndrom (angrenzende Lipidstörung) |
+| [35148370](https://pubmed.ncbi.nlm.nih.gov/35148370/) | 2022 | Übersicht | Eur J Prev Cardiol | Übersicht über die Wirksamkeit und Sicherheit von Lomitapide bei HoFH |
+| [31741187](https://pubmed.ncbi.nlm.nih.gov/31741187/) | 2019 | Übersicht | Curr Atheroscler Rep | Mechanistische Übersicht über MTP-Hemmung (Lomitapide) und ApoB100-Synthese-Hemmung (Mipomersen) |
+| [28598687](https://pubmed.ncbi.nlm.nih.gov/28598687/) | 2017 | Übersicht | Expert Opin Pharmacother | Übersicht über Lomitapide zur Behandlung von Hypercholesterinämie, einschließlich HoFH-Managementkontext |
+| [25936301](https://pubmed.ncbi.nlm.nih.gov/25936301/) | 2015 | Übersicht | Atherosclerosis Suppl | Mipomersen und Lomitapide als neue Arzneimittel zur HoFH-Behandlung |
+| [25702706](https://pubmed.ncbi.nlm.nih.gov/25702706/) | 2015 | Übersicht | Br J Clin Pharmacol | Übersicht über das pharmakologische Profil von Lomitapide |
+| [25053660](https://pubmed.ncbi.nlm.nih.gov/25053660/) | 2014 | Konsenserklärung | European Heart Journal | EAS-Stellungnahme zur HoFH-Erkennung und klinischem Management |
+| [21846156](https://pubmed.ncbi.nlm.nih.gov/21846156/) | 2011 | Übersicht | Am J Cardiovasc Drugs | Übersicht über die frühe Entwicklung von Lomitapide als MTP-Hemmer für familiäre/primäre Hypercholesterinämie |
 
 ---
 
-## Germany Market Information
+## Informationen zum deutschen Markt
 
-Lomitapide currently holds **no marketing authorizations** in this jurisdiction (0 licenses recorded; market status: not marketed). No product listings, dosage forms, or authorization numbers are available to report.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. Structured key warnings, contraindications, and drug-interaction data were not available in this evidence pack (flagged as a **blocking** data gap — [DG001] — preventing entry into the S1 safety pre-assessment stage).
+Lomitapide verfügt derzeit über **keine Marktzulassungen** in diesem Rechtsgebiet (0 Lizenzen erfasst; Marktstatus: nicht vermarktet). Es sind keine Produktauflistungen, Darreichungsformen oder Zulassungsnummern verfügbar, um diese zu melden.
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsaspekte
 
-**Decision: Hold**
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. Strukturierte Schlüsselwarnungen, Kontraindikationen und Arzneimittelwechselwirkungsdaten waren in diesem Evidenzpaket nicht verfügbar (gekennzeichnet als **blockierende** Datenlücke — [DG001] — die den Eintritt in die S1-Sicherheitsvorabprüfungsstufe verhindert).
 
-**Rationale:**
-Lomitapide has a substantial body of clinical trial and literature support for lipid-lowering efficacy (largely reflecting its established international use in HoFH), but it is not currently authorized in this market and a **blocking data gap** exists for essential safety information (label warnings and contraindications), which prevents a safety pre-assessment from being completed.
+---
 
-**To proceed, the following is needed:**
-- Obtain the approved product label / SmPC (warnings, contraindications, DDI) via the relevant regulatory authority to close [DG001]
-- Confirm formal MOA documentation via DrugBank to close [DG002]
-- Assess regulatory pathway/rationale for absence of local marketing authorization despite international approval
-- Independently evaluate the 8 unscored platelet/thrombocytopenia-related predictions (ranks 1–8, 10), which currently have no clinical trial or literature support (L5) and require dedicated evidence retrieval before any decision can be made
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Abwarten**
+
+**Begründung:**
+Lomitapide verfügt über umfangreiche klinische Studien- und Literatur-Unterstützung für die Lipidsenker-Wirksamkeit (weitgehend die etablierte internationale Verwendung bei HoFH widerspiegelnd), ist aber derzeit nicht in diesem Markt zugelassen, und es besteht eine **blockierende Datenlücke** für wesentliche Sicherheitsinformationen (Kennzeichnungswarnungen und Kontraindikationen), die verhindert, dass eine Sicherheitsvorabprüfung abgeschlossen werden kann.
+
+**Zum Fortfahren ist Folgendes erforderlich:**
+- Erhalt des genehmigten Produktkennzeichens / SmPC (Warnungen, Kontraindikationen, DDI) über die zuständige Behörde zur Schließung von [DG001]
+- Bestätigung einer formalen MOA-Dokumentation über DrugBank zur Schließung von [DG002]
+- Bewertung des regulatorischen Pfads/der Begründung für das Fehlen einer lokalen Marktzulassung trotz internationaler Genehmigung
+- Unabhängige Bewertung der 8 nicht bewerteten Blutplättchen-/Thrombozytopenie-bezogenen Vorhersagen (Ränge 1–8, 10), die derzeit keine klinische Studien- oder Literatur-Unterstützung (L5) haben und eine dedizierte Evidenzabfrage erfordern, bevor eine Entscheidung getroffen werden kann
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

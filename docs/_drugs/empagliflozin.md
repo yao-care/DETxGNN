@@ -29,88 +29,89 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Empagliflozin: From Type 2 Diabetes Mellitus to Classic Stiff Person Syndrome
+# Empagliflozin: Von Diabetes mellitus Typ 2 zum klassischen Stiff-Person-Syndrom
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Empagliflozin is a well-known SGLT2 (sodium-glucose cotransporter-2) inhibitor whose original indication (type 2 diabetes mellitus and related cardiorenal use) is not captured in this evidence pack. The TxGNN model predicts possible efficacy in **Classic Stiff Person Syndrome**, but the prediction is currently supported by **0 clinical trials** and **0 publications** — this is a model-only signal (Evidence Level L5) with a "Hold" recommendation.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not recorded in this evidence pack (data gap — `original_indications` is empty). Empagliflozin is publicly known as an SGLT2 inhibitor for type 2 diabetes mellitus. |
-| Predicted New Indication | Classic Stiff Person Syndrome |
-| TxGNN Prediction Score | 99.06% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Taiwan Market Status | ✗ Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Empagliflozin ist ein bekannter SGLT2-Inhibitor (Natrium-Glukose-Kotransporter-2), dessen ursprüngliche Indikation (Diabetes mellitus Typ 2 und verwandte kardiorenale Anwendungen) nicht in diesem Bewertungspaket erfasst ist. Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **Klassischem Stiff-Person-Syndrom** voraus, aber die Vorhersage wird derzeit durch **0 klinische Studien** und **0 Publikationen** gestützt – dies ist ein reines Modellsignal (Evidenzstufe L5) mit einer Empfehlung „Halten".
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Currently, detailed mechanism of action data is not available (flagged in this evidence pack as data gap **DG002**, severity: High). Based on known information, Empagliflozin acts as an SGLT2 inhibitor, reducing renal glucose reabsorption; its established action is confined to renal glucose transport physiology and downstream metabolic/cardiorenal effects.
-
-Classic Stiff Person Syndrome (SPS) is an autoimmune neurological disorder driven primarily by anti-GAD65 antibodies that impair GABAergic neurotransmission. There is no established mechanistic overlap between SGLT2 inhibition and GABAergic signaling or autoimmune neuro-modulation. Because `original_moa` is a data gap, we cannot cross-validate whether an indirect (e.g., metabolic–neuroimmune) pathway underlies this prediction.
-
-Two observations weaken confidence in this specific signal: (1) the near-identical TxGNN scores between rank 1 (classic stiff person syndrome, 99.06%) and rank 2 (focal stiff limb syndrome, 99.06%) suggest the model is scoring an entire disease cluster rather than generating an indication-specific signal; and (2) no clinical trials, registry entries, or literature exist to corroborate the prediction. The score most likely reflects knowledge-graph node-embedding proximity (e.g., topological closeness to other neuromuscular or metabolic-comorbidity nodes) rather than a validated pharmacological rationale.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Nicht in diesem Bewertungspaket erfasst (Datenlücke — `original_indications` ist leer). Empagliflozin ist öffentlich bekannt als SGLT2-Inhibitor für Diabetes mellitus Typ 2. |
+| Vorhergesagte neue Indikation | Klassisches Stiff-Person-Syndrom |
+| TxGNN-Vorhersage-Punktzahl | 99.06% |
+| Evidenzstufe | L5 (nur Modellvorhersage, keine unterstützenden Studien) |
+| Marktstatus in Taiwan | ✗ Nicht auf dem Markt (Not Marketed) |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Halten |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage angemessen?
 
-Currently no related literature available.
+Derzeit sind detaillierte Wirkmechanismus-Daten nicht verfügbar (in diesem Bewertungspaket als Datenlücke **DG002** gekennzeichnet, Schweregrad: Hoch). Basierend auf bekannten Informationen wirkt Empagliflozin als SGLT2-Inhibitor und reduziert die renale Glukosereabsorption; seine etablierte Wirkung beschränkt sich auf die renale Glukose-Transportphysiologie und nachgelagerte metabolische/kardiorenale Effekte.
 
----
+Klassisches Stiff-Person-Syndrom (SPS) ist eine autoimmunologische neurologische Störung, die primär durch Anti-GAD65-Antikörper getrieben wird, die die GABAerge Neurotransmission beeinträchtigen. Es gibt keine etablierte mechanistische Überlappung zwischen SGLT2-Inhibition und GABAerger Signalisierung oder autoimmunologischer Neuro-Modulation. Da `original_moa` eine Datenlücke ist, können wir nicht überprüfen, ob ein indirekter Weg (z. B. metabolisch–neuroimmunologisch) dieser Vorhersage zugrunde liegt.
 
-## Taiwan Market Information
-
-No Taiwan market authorization records are currently available for Empagliflozin in this evidence pack (`total_licenses = 0`, market status: Not marketed / Not Marketed).
+Zwei Beobachtungen schwächen das Vertrauen in dieses spezifische Signal: (1) Die nahezu identischen TxGNN-Werte zwischen Rang 1 (klassisches Stiff-Person-Syndrom, 99.06%) und Rang 2 (fokal Stiff-Limb-Syndrom, 99.06%) deuten darauf hin, dass das Modell einen ganzen Krankheitscluster bewertet, anstatt ein indikationsspezifisches Signal zu erzeugen; und (2) es gibt keine klinischen Studien, Registereinträge oder Literatur, um die Vorhersage zu unterstützen. Der Wert spiegelt wahrscheinlich die topologische Nähe der Wissensgraph-Knoteneinbettung wider (z. B. topologische Nähe zu anderen neuromuskulären oder metabolisch-komorbiden Knoten) anstelle einer validierten pharmakologischen Begründung.
 
 ---
 
-## Safety Considerations
+## Evidenz aus klinischen Studien
 
-Please refer to the package insert for safety information.
-
-Note: this evidence pack flags **DG001** (TFDA package insert warnings/contraindications — severity: **Blocking**), meaning key warnings, contraindications, and drug-drug interaction data could not be retrieved. This blocks progression to the S1 safety pre-screening stage and must be resolved before any further evaluation.
+Derzeit sind keine verwandten klinischen Studien registriert.
 
 ---
 
-## Additional Predicted Indications (Same Evidence Pack)
+## Literaturbelege
 
-Two further TxGNN predictions were returned alongside the primary candidate. Both share the same evidentiary profile — no clinical trials, no literature, Evidence Level L5, decision stage S0, recommendation Hold — and are noted here for completeness:
-
-| Rank | Disease | TxGNN Score | Note |
-|------|---------|-------------|------|
-| 2 | Focal Stiff Limb Syndrome | 99.06% | Near-identical score to rank 1; likely reflects the same disease-cluster embedding, not a distinct signal |
-| 3 | Opsismodysplasia | 99.03% | Rare pediatric skeletal dysplasia (INPPL1/SHIP2-driven); any link to SGLT2 inhibition is speculative and unsupported by data |
+Derzeit ist keine verwandte Literatur verfügbar.
 
 ---
 
-## Conclusion and Next Steps
+## Marktstatus in Taiwan
 
-**Decision: Hold**
+Es sind derzeit keine Marktzulassungsdatensätze für Empagliflozin in diesem Bewertungspaket verfügbar (`total_licenses = 0`, Marktstatus: Nicht auf dem Markt / Not Marketed).
 
-**Rationale:**
-The prediction rests solely on a TxGNN model score (Evidence Level L5) with zero corroborating clinical trials or literature, and the drug's own mechanism of action data is unavailable. A Blocking-severity data gap (TFDA warnings/contraindications) also prevents even a preliminary safety assessment, so this candidate cannot advance past S0.
+---
 
-**To proceed, the following is needed:**
-- Resolve DG001: retrieve TFDA package insert (warnings, contraindications, DDI) to enable S1 safety pre-screening
-- Resolve DG002: obtain confirmed original MOA from DrugBank/product label to assess mechanistic plausibility
-- Establish original indication and Taiwan/international licensing status to support the "original vs. predicted indication" comparison
-- Conduct a targeted literature/preclinical search for any SGLT2i–GABAergic or SGLT2i–autoimmune neurological mechanism, given none currently exists
-- Given the clustering pattern across ranks 1–2, consider re-examining whether the underlying knowledge graph node structure is driving a shared false-positive signal across the stiff-person-syndrome spectrum before committing further evaluation resources
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+Hinweis: Dieses Bewertungspaket kennzeichnet **DG001** (Warnungen/Kontraindikationen der TFDA-Packungsbeilage — Schweregrad: **Blockierend**), was bedeutet, dass wichtige Warnungen, Kontraindikationen und Arzneimittelwechselwirkungsdaten nicht abgerufen werden konnten. Dies blockiert den Fortschritt zur Sicherheits-Vorbewertung S1 und muss vor weiterer Bewertung gelöst werden.
+
+---
+
+## Weitere vorhergesagte Indikationen (Same Evidence Pack)
+
+Zwei weitere TxGNN-Vorhersagen wurden neben dem Hauptkandidaten zurückgegeben. Beide haben dasselbe evidentielle Profil — keine klinischen Studien, keine Literatur, Evidenzstufe L5, Entscheidungsstufe S0, Empfehlung Halten — und werden hier der Vollständigkeit halber vermerkt:
+
+| Rang | Krankheit | TxGNN-Wert | Hinweis |
+|------|-----------|-----------|--------|
+| 2 | Fokal Stiff-Limb-Syndrom | 99.06% | Nahezu identischer Wert zu Rang 1; wahrscheinlich das Ergebnis der gleichen Krankheitscluster-Einbettung, nicht eines unterschiedlichen Signals |
+| 3 | Opsismodysplasie | 99.03% | Seltene pädiatrische Skelettdysplasie (INPPL1/SHIP2-getrieben); jeder Zusammenhang mit SGLT2-Inhibition ist spekulativ und wird durch Daten nicht gestützt |
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Halten**
+
+**Begründung:**
+Die Vorhersage basiert ausschließlich auf einem TxGNN-Modellwert (Evidenzstufe L5) ohne bestätigende klinische Studien oder Literatur, und die Wirkmechanismus-Daten des Arzneimittels selbst sind nicht verfügbar. Eine Datenlücke mit Sperrschweregrad (TFDA-Warnungen/Kontraindikationen) verhindert auch eine vorläufige Sicherheitsbewertung, sodass dieser Kandidat nicht über S0 hinaus voranschreiten kann.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+- Beheben Sie DG001: Rufen Sie die TFDA-Packungsbeilage ab (Warnungen, Kontraindikationen, Arzneimittelwechselwirkungen), um die S1-Sicherheits-Vorbewertung zu ermöglichen
+- Beheben Sie DG002: Erhalten Sie bestätigte ursprüngliche MOA von DrugBank/Produktbeilage, um die mechanistische Plausibilität zu bewerten
+- Legen Sie ursprüngliche Indikation und Taiwan/internationale Zulassungsstatus fest, um den Vergleich „ursprüngliche vs. vorhergesagte Indikation" zu unterstützen
+- Führen Sie eine gezielte Literatur-/Präklinische-Suche durch nach einem SGLT2i–GABAergen oder SGLT2i–autoimmunologischen neurologischen Mechanismus, da derzeit keiner vorhanden ist
+- Angesichts des Clustering-Musters in den Rängen 1–2 sollten Sie in Betracht ziehen, zu überprüfen, ob die zugrunde liegende Wissensgraph-Knotenstruktur ein gemeinsames falsch positives Signal im gesamten Spektrum des Stiff-Person-Syndroms antreibt, bevor Sie weitere Evaluierungsressourcen einsetzen
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

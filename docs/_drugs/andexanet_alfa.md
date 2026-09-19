@@ -29,68 +29,69 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-# Andexanet Alfa: From Factor Xa Inhibitor Reversal to Glanzmann Thrombasthenia
+# Andexanet alfa: Von der Antagonisierung von Faktor-Xa-Inhibitoren zur Glanzmann-Thrombasthenie
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Andexanet alfa is a recombinant Factor Xa decoy protein originally developed to reverse life-threatening bleeding in patients on oral Factor Xa inhibitors (e.g., rivaroxaban, apixaban). The TxGNN model predicts a possible link to **Glanzmann thrombasthenia**, but this prediction currently has **zero clinical trials** and **zero supporting publications** — it rests entirely on model-level similarity.
+Andexanet alfa ist ein rekombinantes Faktor-Xa-Decoy-Protein, das ursprünglich entwickelt wurde, um lebensbedrohliche Blutungen bei Patienten, die orale Faktor-Xa-Inhibitoren (z. B. Rivaroxaban, Apixaban) erhalten, zu antagonisieren. Das TxGNN-Modell sagt eine mögliche Verbindung zur **Glanzmann-Thrombasthenie** voraus, aber diese Vorhersage weist derzeit **keine klinischen Studien** und **keine unterstützenden Publikationen** auf – sie beruht vollständig auf Modell-Ähnlichkeit.
 
-## Quick Overview
+## Kurzübersicht
 
-| Item | Content |
+| Eintrag | Inhalt |
 |------|------|
-| Original Indication | Reversal of anticoagulant effect of Factor Xa inhibitors in patients with major/life-threatening bleeding (derived from literature context in this pack; not present in structured regulatory data) |
-| Predicted New Indication | Glanzmann thrombasthenia |
-| TxGNN Prediction Score | 99.77% |
-| Evidence Level | L5 |
-| Germany Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | Antagonisierung der antikoagulanten Wirkung von Faktor-Xa-Inhibitoren bei Patienten mit schweren/lebensbedrohlichen Blutungen (abgeleitet aus dem Literaturkontext in diesem Paket; nicht in strukturierten Regulierungsdaten vorhanden) |
+| Vorhergesagte neue Indikation | Glanzmann-Thrombasthenie |
+| TxGNN-Vorhersage-Score | 99.77% |
+| Evidenzgrad | L5 |
+| Marktstatus in Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfehlung | Zurückhalten |
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage plausibel?
 
-Detailed mechanism-of-action data is not available in the structured record (flagged as a data gap). Based on the literature captured in this evidence pack, andexanet alfa acts as a modified, catalytically inactive Factor Xa decoy — it binds and sequesters oral Factor Xa inhibitors, thereby restoring endogenous Xa activity. It does not supply clotting factors, and it does not act on platelet aggregation pathways.
+Detaillierte Wirkmechanismus-Daten sind im strukturierten Datensatz nicht verfügbar (gekennzeichnet als Datenlücke). Basierend auf der in diesem Evidenzpaket erfassten Literatur wirkt Andexanet alfa als modifiziertes, katalytisch inaktives Faktor-Xa-Decoy – es bindet und sequestriert orale Faktor-Xa-Inhibitoren und stellt dadurch endogene Xa-Aktivität wieder her. Es liefert keine Gerinnungsfaktoren und wirkt nicht auf Thrombozytenaggregationspfade.
 
-Glanzmann thrombasthenia, by contrast, is a congenital platelet disorder caused by GPIIb/IIIa receptor deficiency, which impairs platelet-to-platelet aggregation independent of the coagulation cascade. There is no shared molecular target or pathway between neutralizing a Factor Xa inhibitor and correcting a GPIIb/IIIa defect.
+Die Glanzmann-Thrombasthenie ist dagegen eine angeborene Thrombozytenstörung, die durch einen GPIIb/IIIa-Rezeptormangel verursacht wird, welcher die Thrombozyten-zu-Thrombozyten-Aggregation unabhängig von der Gerinnungskaskade beeinträchtigt. Es gibt weder ein gemeinsames molekulares Ziel noch einen gemeinsamen Pfad zwischen der Antagonisierung eines Faktor-Xa-Inhibitors und der Korrektur eines GPIIb/IIIa-Defizits.
 
-The evidence pack's own mechanistic rationale is explicit on this point: the high TxGNN score most likely reflects the model's semantic proximity between "bleeding/coagulation disorder" concepts in the knowledge graph, rather than a genuine pharmacological relationship. The same disconnect applies to the two other top-ranked candidates (primary platelet release disorder, pseudo-von Willebrand disease), and even to hemophilia (rank 4), where literature exists but describes andexanet's role in *interfering with* factor assays and *reversing* anticoagulation — not treating factor deficiency itself. All four candidates were scored **Hold** for this reason.
+Die mechanistische Begründung des Evidenzpakets selbst ist auf diesem Punkt explizit: Der hohe TxGNN-Score spiegelt sehr wahrscheinlich die semantische Nähe des Modells zwischen den Konzepten „Blutungs-/Gerinnungsstörung" im Wissensgraph wider, anstatt eine echte pharmakologische Beziehung zu sein. Die gleiche Diskrepanz gilt für die beiden anderen Top-Kandidaten (primäre Thrombozyten-Freisetzungsstörung, Pseudo-von-Willebrand-Erkrankung), und sogar für Hämophilie (Rang 4), wo Literatur vorhanden ist, aber die Rolle von Andexanet alfa bei der *Interferenz mit* Faktor-Assays und *Antagonisierung* der Antikoagulation beschreibt – nicht bei der Behandlung des Faktor-Defizits selbst. Alle vier Kandidaten erhielten aus diesem Grund die Bewertung **Zurückhalten**.
 
-## Clinical Trial Evidence
+## Evidenz aus klinischen Studien
 
-Currently no related clinical trials registered.
+Derzeit keine verwandten klinischen Studien registriert.
 
-## Literature Evidence
+## Literaturbelege
 
-Currently no related literature available.
+Derzeit keine verwandte Literatur verfügbar.
 
-### Additional Predicted Candidates Considered (Not Primary Focus)
+### Zusätzliche betrachtete Kandidaten (nicht primärer Fokus)
 
-| Rank | Disease | TxGNN Score | Evidence Level | Literature | Recommendation |
+| Rang | Erkrankung | TxGNN-Score | Evidenzgrad | Literatur | Empfehlung |
 |------|---------|-------------|-----------------|------------|-----------------|
-| 2 | Primary release disorder of platelets | 99.76% | L5 | None | Hold |
-| 3 | Pseudo-von Willebrand disease | 99.65% | L5 | None | Hold |
-| 4 | Hemophilia | 99.10% | L4 | 11 papers (mostly on DOAC reversal / lab interference, none supporting therapeutic use in hemophilia) | Hold |
+| 2 | Primäre Thrombozyten-Freisetzungsstörung | 99.76% | L5 | Keine | Zurückhalten |
+| 3 | Pseudo-von-Willebrand-Erkrankung | 99.65% | L5 | Keine | Zurückhalten |
+| 4 | Hämophilie | 99.10% | L4 | 11 Publikationen (hauptsächlich zur DOAC-Antagonisierung/Laborinterferenz, keine unterstützen therapeutische Anwendung bei Hämophilie) | Zurückhalten |
 
-## Germany Market Information
+## Informationen zum deutschen Markt
 
-Andexanet alfa is not currently marketed in Germany (market status: not marketed), and no marketing authorization records are present in this evidence pack.
+Andexanet alfa wird derzeit in Deutschland nicht vermarktet (Marktstatus: nicht vermarktet), und es sind keine Zulassungsunterlagen in diesem Evidenzpaket vorhanden.
 
-## Safety Considerations
+## Sicherheitsaspekte
 
-Please refer to the package insert for safety information. Note: TFDA/BfArM label warnings and contraindications are flagged in this evidence pack as a **blocking data gap**, meaning a safety pre-screen (S1) cannot be completed until this is resolved.
+Bitte beachten Sie die Fachinformation für Sicherheitsinformationen. Hinweis: TFDA/BfArM-Labelwarnungen und Kontraindikationen werden in diesem Evidenzpaket als **blockierende Datenlücke** gekennzeichnet, was bedeutet, dass eine Sicherheits-Vorabprüfung (S1) nicht abgeschlossen werden kann, bis dies behoben ist.
 
-## Conclusion and Next Steps
+## Fazit und nächste Schritte
 
-**Decision: Hold**
+**Empfehlung: Zurückhalten**
 
-**Rationale:**
-All four TxGNN-predicted indications for andexanet alfa show no clinical trial or literature support, and the evidence pack's own mechanistic analysis concludes the top-ranked prediction (Glanzmann thrombasthenia) is very likely a knowledge-graph artifact rather than a genuine pharmacological signal. Combined with a blocking safety data gap, this candidate does not meet the threshold to advance.
+**Begründung:**
+Alle vier TxGNN-vorhergesagten Indikationen für Andexanet alfa zeigen keine Unterstützung durch klinische Studien oder Literatur, und die eigene mechanistische Analyse des Evidenzpakets kommt zu dem Ergebnis, dass die am höchsten bewertete Vorhersage (Glanzmann-Thrombasthenie) sehr wahrscheinlich ein Wissensgraph-Artefakt ist, anstatt ein echtes pharmakologisches Signal zu sein. In Kombination mit einer blockierenden Sicherheitsdatenlücke erfüllt dieser Kandidat nicht die Schwelle zur Weiterleitung.
 
-**To proceed, the following is needed:**
-- Confirmed mechanism of action from DrugBank/primary sources (currently a data gap)
-- TFDA/BfArM package insert (warnings, contraindications) — blocking gap, required before any S1 safety pre-screen
-- Any preclinical or mechanistic studies specifically linking Factor Xa decoy activity to platelet-function disorders, if such evidence emerges
-- Re-evaluation if new clinical trials or publications on any of the four candidate indications are registered
+**Um fortzufahren, wird folgendes benötigt:**
+- Bestätigter Wirkmechanismus von DrugBank/Primärquellen (derzeit eine Datenlücke)
+- TFDA/BfArM-Fachinformation (Warnungen, Kontraindikationen) — blockierende Lücke, erforderlich vor jeder S1-Sicherheits-Vorabprüfung
+- Alle präklinischen oder mechanistischen Studien, die die Faktor-Xa-Decoy-Aktivität spezifisch mit Thrombozytenfunktionsstörungen verknüpfen, falls solche Belege entstehen
+- Neubewertung, wenn neue klinische Studien oder Publikationen zu einer der vier Kandidaten-Indikationen registriert werden
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

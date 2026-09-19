@@ -29,52 +29,53 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0**
 
 </div>
 
-# Raloxifene Hydrochloride: Insufficient Data for Repurposing Evaluation
+# Raloxifenhydrochlorid: Unzureichende Daten für eine Bewertung der Umwidmung
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Raloxifene Hydrochloride is a drug with confirmed DrugBank entry, but the current Evidence Pack contains no original indication records and no TxGNN predicted indications. Due to critical data gaps across all evaluation dimensions, a meaningful repurposing assessment cannot be completed at this time.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not available in this Evidence Pack |
-| Predicted New Indication | No TxGNN predictions generated |
-| TxGNN Prediction Score | — |
-| Evidence Level | L5 (model prediction not yet available; no supporting studies) |
-| Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+Raloxifenhydrochlorid ist ein Arzneistoff mit bestätigtem DrugBank-Eintrag, aber das aktuelle Evidence Pack enthält keine Originalindikationsaufzeichnungen und keine TxGNN-vorhergesagten Indikationen. Aufgrund kritischer Datenlücken in allen Bewertungsdimensionen kann eine aussagekräftige Umwidmungsbewertung zu diesem Zeitpunkt nicht abgeschlossen werden.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Currently, no TxGNN predictions have been generated for Raloxifene Hydrochloride in this Evidence Pack. The `predicted_indications` array is empty, and the `inputs_received` field confirms that required input data was not supplied to the pipeline.
-
-Detailed mechanism of action data is not available in this Evidence Pack. Without an original indication, a predicted indication, or MOA data, it is not possible to assess mechanistic plausibility or disease relationship at this time.
-
-To unlock this analysis, the pipeline must first be re-run with complete inputs, including original indication text, DrugBank ID, and package insert data.
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Nicht verfügbar in diesem Evidence Pack |
+| Vorhergesagte neue Indikation | Keine TxGNN-Vorhersagen generiert |
+| TxGNN-Vorhersage-Score | — |
+| Evidenzstufe | L5 (Modellvorhersage noch nicht verfügbar; keine unterstützenden Studien) |
+| Marktstatus | Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | **Zurückstellen** |
 
 ---
 
-## Conclusion and Next Steps
+## Warum ist diese Vorhersage sinnvoll?
 
-**Decision: Hold**
+Derzeit wurden für Raloxifenhydrochlorid in diesem Evidence Pack keine TxGNN-Vorhersagen generiert. Das Array `predicted_indications` ist leer, und das Feld `inputs_received` bestätigt, dass erforderliche Eingabedaten nicht an die Pipeline übermittelt wurden.
 
-**Rationale:**
-The Evidence Pack for Raloxifene Hydrochloride is incomplete — no original indications, no TxGNN predictions, and no safety data are present, making any repurposing evaluation premature.
+Detaillierte Daten zum Wirkungsmechanismus sind in diesem Evidence Pack nicht verfügbar. Ohne eine ursprüngliche Indikation, eine vorhergesagte Indikation oder MOA-Daten ist es zu diesem Zeitpunkt nicht möglich, mechanistische Plausibilität oder Krankheitsbeziehung zu bewerten.
 
-**To proceed, the following is needed:**
+Um diese Analyse freizuschalten, muss die Pipeline zunächst mit vollständigen Eingaben erneut ausgeführt werden, einschließlich Originalindikationstext, DrugBank-ID und Packungsbeilage-Daten.
 
-- **Re-run TxGNN pipeline** with Raloxifene Hydrochloride as input to generate predicted indications and confidence scores
-- **Retrieve DrugBank ID** to populate mechanism of action (MOA), drug categories, and toxicity data
-- **Parse package insert PDF** (source: TFDA official website) to extract approved indications, warnings, and contraindications
-- **Verify market status** in the target regulatory jurisdiction (BfArM/Germany) to confirm authorization count and approved indication text
-- **Re-query DDI database** once DrugBank ID is confirmed, to populate drug interaction data
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Zurückstellen**
+
+**Begründung:**
+Das Evidence Pack für Raloxifenhydrochlorid ist unvollständig – es gibt keine ursprünglichen Indikationen, keine TxGNN-Vorhersagen und keine Sicherheitsdaten, was jede Umwidmungsbewertung zu diesem Zeitpunkt verfrüht macht.
+
+**Um fortzufahren, werden folgende Schritte benötigt:**
+
+- **TxGNN-Pipeline erneut ausführen** mit Raloxifenhydrochlorid als Eingabe, um vorhergesagte Indikationen und Konfidenzscores zu generieren
+- **DrugBank-ID abrufen**, um den Wirkungsmechanismus (MOA), Arzneistoff-Kategorien und Toxizitätsdaten zu erfassen
+- **PDF der Packungsbeilage analysieren** (Quelle: Offizielle TFDA-Website), um zugelassene Indikationen, Warnungen und Kontraindikationen zu extrahieren
+- **Marktstatus in der Zielregulierungsbehörde überprüfen** (BfArM/Deutschland), um die Anzahl der Zulassungen und den Text der genehmigten Indikationen zu bestätigen
+- **DDI-Datenbank erneut abfragen**, sobald die DrugBank-ID bestätigt ist, um Arzneimittelwechselwirkungsdaten zu erfassen
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -29,88 +29,89 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Cholic Acid: From Bile Acid Physiology to Predicted HIV Infectious Disease
+# Cholsäure: Von der Gallensäure-Physiologie bis zur prognostizierten HIV-Infektionskrankheit
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Cholic acid is a naturally occurring primary bile acid; this evidence pack does not document a formally established original indication, though cholic acid is known outside this dataset for bile acid replacement therapy.
-> The TxGNN model's top-ranked prediction is **HIV infectious disease**, but the supporting evidence is weak and partially **contradictory** — the associated literature describes spermicidal/virucidal use in contraceptive sponges and blood-product viral inactivation, and one study reports that cholic acid derivatives actually *enhance* HIV-1 replication.
-> With **0 clinical trials** and **9 publications**, none of which demonstrate an antiretroviral therapeutic effect, the evidence does not currently support this prediction.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in this dataset (`original_indications` is empty; cholic acid is generally known as a natural primary bile acid used in bile acid replacement therapy, but this is not captured in the evidence pack) |
-| Predicted New Indication | HIV infectious disease |
-| TxGNN Prediction Score | 99.79% |
-| Evidence Level | L5 |
-| Germany Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Cholsäure ist eine natürlicherweise auftretende primäre Gallensäure; dieses Evidenzpaket dokumentiert keine formal etablierte ursprüngliche Indikation, obwohl Cholsäure außerhalb dieses Datensatzes für die Gallensäure-Ersatztherapie bekannt ist.
+> Die höchstbewertete Vorhersage des TxGNN-Modells ist **HIV-Infektionskrankheit**, aber die unterstützende Evidenz ist schwach und teilweise **widersprüchlich** – die zugehörige Literatur beschreibt spermizide/viruzide Anwendung in Verhütungsschwämmen und virale Inaktivierung von Blutprodukten, und eine Studie berichtet, dass Cholsäure-Derivate tatsächlich die HIV-1-Replikation *verstärken*.
+> Mit **0 klinischen Studien** und **9 Publikationen**, von denen keine eine antiretrovirale therapeutische Wirkung demonstrieren, unterstützt die Evidenz diese Vorhersage derzeit nicht.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Currently, detailed mechanism of action data is not available for cholic acid in this evidence pack (marked as a Blocking-priority data gap, DG002). Without MOA data, there is no pharmacological basis provided in this pack to link cholic acid to antiretroviral activity.
-
-The literature retrieved for this prediction does not describe a mechanism consistent with treating HIV infection. Most papers concern the use of sodium cholate as a **spermicidal/virucidal agent in vaginal contraceptive sponges** (e.g., Protectaid) or as an agent for **viral inactivation of blood products** (tri-n-butyl phosphate/sodium cholate treatment of plasma-derived factor concentrates) — these are barrier/disinfection contexts, not systemic antiretroviral therapy. More concerning, one study (PMID 16610808) found that amino-functionalized cholic acid derivatives **induced HIV-1 replication and syncytia formation** in T cells, i.e., the opposite of a therapeutic effect.
-
-Given the absence of MOA data, the absence of any clinical trial, and the presence of a directly contradictory in-vitro finding, this specific TxGNN-predicted association currently lacks mechanistic plausibility and should not be advanced without independent confirmatory pharmacology.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Punkt | Inhalt |
+|------|--------|
+| Ursprüngliche Indikation | Nicht in diesem Datensatz dokumentiert (`original_indications` ist leer; Cholsäure ist allgemein als natürliche primäre Gallensäure bekannt, die in der Gallensäure-Ersatztherapie verwendet wird, dies wird jedoch nicht in dem Evidenzpaket erfasst) |
+| Vorhergesagte neue Indikation | HIV-Infektionskrankheit |
+| TxGNN-Vorhersage-Score | 99.79% |
+| Evidenz-Level | L5 |
+| Marktstatus in Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | Aussetzen |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage plausibel?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [7688380](https://pubmed.ncbi.nlm.nih.gov/7688380/) | 1993 | Clinical/microbicide study | Human Reproduction | Sodium cholate (in the Protectaid sponge, F-5 Gel) shows dose-dependent in-vitro spermicidal and anti-HIV-1 reverse transcriptase inhibitory activity; a barrier-contraceptive/microbicide effect, not systemic antiviral therapy |
-| [2870224](https://pubmed.ncbi.nlm.nih.gov/2870224/) | 1986 | In vitro virucidal study | Lancet | Tri(n-butyl)phosphate/sodium cholate treatment inactivates HBV and HTLV-III (HIV precursor virus) in blood-product manufacturing; a viral-inactivation/disinfection process, not a therapeutic mechanism |
-| [16610808](https://pubmed.ncbi.nlm.nih.gov/16610808/) | 2006 | In vitro (contradictory finding) | Journal of Medicinal Chemistry | Amino-functionalized cholic acid derivatives **induced** HIV-1 replication and syncytia formation in T cells — directly contradicts the hypothesis that cholic acid is protective against HIV |
-| [32052857](https://pubmed.ncbi.nlm.nih.gov/32052857/) | 2020 | Review | Hepatology | Discusses NASH drug development in people living with HIV; bile acids are mentioned only in the context of drug-drug interaction concerns with antiretrovirals, not as HIV therapy |
-| [9238301](https://pubmed.ncbi.nlm.nih.gov/9238301/) | 1997 | Contraceptive device study | Ann NY Acad Sci | Discusses anti-STD vaginal contraceptive sponges containing cholic acid derivatives as a barrier method |
-| [7848210](https://pubmed.ncbi.nlm.nih.gov/7848210/) | 1994 | Review | Aust NZ J Obstet Gynaecol | General review of future contraceptive methods offering STD/HIV protection; cholic acid not specifically evaluated as antiretroviral |
-| [8849197](https://pubmed.ncbi.nlm.nih.gov/8849197/) | 1995 | Review | Ann Acad Med Singapore | Reviews barrier contraception methods (condoms, spermicides) for STD/HIV prevention |
-| [20030469](https://pubmed.ncbi.nlm.nih.gov/20030469/) | 2010 | Observational study | Pharmacotherapy | Evaluates plasma bile acid concentrations in HIV patients on protease inhibitors as a marker for hepatotoxicity risk — an association/monitoring study, not a treatment study |
-| [28745428](https://pubmed.ncbi.nlm.nih.gov/28745428/) | 2017 | In vitro methodology | ChemMedChem | Methodological paper on detergent assay artifacts affecting HIV-1 protease inhibitor binding assays; not related to cholic acid's therapeutic effect |
+Derzeit sind detaillierte Wirkungsmechanismus-Daten für Cholsäure in diesem Evidenzpaket nicht verfügbar (markiert als blockierende Datenlücke, DG002). Ohne diese Daten gibt es keine in diesem Paket bereitgestellte pharmakologische Grundlage, um Cholsäure mit antiretroviraler Aktivität zu verbinden.
+
+Die für diese Vorhersage abgerufene Literatur beschreibt keinen Mechanismus, der mit der Behandlung von HIV-Infektionen vereinbar ist. Die meisten Arbeiten betreffen die Verwendung von Natriumcholat als **spermizides/viruzides Mittel in Vaginal-Verhütungsschwämmen** (z. B. Protectaid) oder als Mittel zur **viralen Inaktivierung von Blutprodukten** (Tri-n-butylphosphat/Natriumcholat-Behandlung von plasmaderivatisierten Faktorenkonzentraten) – dies sind Barriere-/Desinfektionskontexte, keine systemische antiretrovirale Therapie. Noch besorgniserregender ist, dass eine Studie (PMID 16610808) festgestellt hat, dass aminofunktionalisierte Cholsäure-Derivate **die HIV-1-Replikation und Synzytienbildung** in T-Zellen *induzierten*, d. h., das Gegenteil einer therapeutischen Wirkung.
+
+Angesichts des Fehlens von Wirkungsmechanismus-Daten, des Fehlens einer klinischen Studie und des Vorhandenseins eines direkt widerspruchsvollen In-vitro-Befunds fehlt dieser spezifischen TxGNN-vorhergesagten Assoziation derzeit mechanistische Plausibilität und sollte nicht ohne unabhängige bestätigende Pharmakologie vorangetrieben werden.
 
 ---
 
-## Germany Market Information
+## Evidenz aus klinischen Studien
 
-Currently no marketing authorizations recorded for cholic acid in Germany (`total_licenses: 0`, `market_status: Not marketed`).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Note: `safety.key_warnings`, `contraindications`, and `ddi` are all marked as data gaps in this pack; TFDA label warnings/contraindications are flagged as a Blocking data gap (DG001) that must be resolved before any S1 safety assessment.)*
+Derzeit sind keine damit verbundenen klinischen Studien registriert.
 
 ---
 
-## Conclusion and Next Steps
+## Literatur-Evidenz
 
-**Decision: Hold**
+| PMID | Jahr | Typ | Journal | Wichtigste Erkenntnisse |
+|------|------|------|---------|----------|
+| [7688380](https://pubmed.ncbi.nlm.nih.gov/7688380/) | 1993 | Klinische/Microbicide-Studie | Human Reproduction | Natriumcholat (im Protectaid-Schwamm, F-5-Gel) zeigt dosisabhängige In-vitro-Spermizidität und anti-HIV-1-Reverse-Transkriptase-Inhibitor-Aktivität; eine Barriere-Verhütungs-/Microbicide-Wirkung, keine systemische antivirale Therapie |
+| [2870224](https://pubmed.ncbi.nlm.nih.gov/2870224/) | 1986 | In-vitro-Viruzid-Studie | Lancet | Tri(n-butyl)phosphat/Natriumcholat-Behandlung inaktiviert HBV und HTLV-III (HIV-Vorläufervirus) in der Blutprodukteherstellung; ein virales Inaktivierungs-/Desinfektionsprozess, kein therapeutischer Mechanismus |
+| [16610808](https://pubmed.ncbi.nlm.nih.gov/16610808/) | 2006 | In vitro (widerspruchsvoller Befund) | Journal of Medicinal Chemistry | Aminofunktionalisierte Cholsäure-Derivate **induzierten** HIV-1-Replikation und Synzytienbildung in T-Zellen – widerlegt direkt die Hypothese, dass Cholsäure schützend gegen HIV wirkt |
+| [32052857](https://pubmed.ncbi.nlm.nih.gov/32052857/) | 2020 | Übersicht | Hepatology | Diskutiert NASH-Arzneimittelentwicklung bei HIV-positiven Personen; Gallensäuren werden nur im Kontext von Bedenken bezüglich Arzneimittel-Wechselwirkungen mit Antiretroviren erwähnt, nicht als HIV-Therapie |
+| [9238301](https://pubmed.ncbi.nlm.nih.gov/9238301/) | 1997 | Verhütungsgerät-Studie | Ann NY Acad Sci | Diskutiert anti-STI-Vaginal-Verhütungsschwämme, die Cholsäure-Derivate als Barrieremethode enthalten |
+| [7848210](https://pubmed.ncbi.nlm.nih.gov/7848210/) | 1994 | Übersicht | Aust NZ J Obstet Gynaecol | Allgemeiner Überblick über zukünftige Verhütungsmethoden, die STI-/HIV-Schutz bieten; Cholsäure nicht speziell als Antiretroviral bewertet |
+| [8849197](https://pubmed.ncbi.nlm.nih.gov/8849197/) | 1995 | Übersicht | Ann Acad Med Singapore | Überprüft Barriere-Verhütungsmethoden (Kondome, Spermizide) für STI-/HIV-Prävention |
+| [20030469](https://pubmed.ncbi.nlm.nih.gov/20030469/) | 2010 | Beobachtungsstudie | Pharmacotherapy | Bewertet Plasma-Gallensäure-Konzentrationen bei HIV-Patienten unter Proteaseinhibitoren als Marker für Hepatotoxizitätsrisiko – eine Assoziations-/Überwachungsstudie, keine Behandlungsstudie |
+| [28745428](https://pubmed.ncbi.nlm.nih.gov/28745428/) | 2017 | In-vitro-Methodik | ChemMedChem | Methodisches Dokument zu Detergens-Assay-Artefakten, die HIV-1-Proteaseinhibitor-Bindungsassays beeinflussen; nicht mit der therapeutischen Wirkung von Cholsäure verbunden |
 
-**Rationale:**
-No clinical trials support cholic acid for HIV infectious disease, the mechanism of action is undocumented (Blocking data gap), and one in-vitro study directly contradicts the predicted therapeutic direction. Evidence level is L5 — model prediction only, without supportive actual studies.
+---
 
-**To proceed, the following is needed:**
-- Resolve DG001 (TFDA/BfArM label warnings and contraindications) — currently blocking any S1 safety assessment
-- Resolve DG002 (mechanism of action data via DrugBank) — needed for mechanistic plausibility review
-- Independent pharmacological studies clarifying why the TxGNN model links cholic acid to HIV infectious disease, given the contradictory in-vitro signal (PMID 16610808)
-- Consider re-evaluating lower-ranked candidates in this pack (e.g., "vitamin deficiency disorder," rank 5) which show stronger, mechanistically coherent evidence (an active Cholbam patient registry, NCT03115086, and multiple case series on bile acid synthesis disorders) more consistent with cholic acid's known biology
+## Marktinformationen für Deutschland
+
+Derzeit sind keine Vermarktungsgenehmigungen für Cholsäure in Deutschland registriert (`total_licenses: 0`, `market_status: Not marketed`).
+
+---
+
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+*(Hinweis: `safety.key_warnings`, `contraindications` und `ddi` sind alle als Datenlücken in diesem Paket gekennzeichnet; TFDA-Etikettenwarnungen/Kontraindikationen sind als blockierende Datenlücke (DG001) gekennzeichnet, die vor einer S1-Sicherheitsbewertung gelöst werden muss.)*
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Aussetzen**
+
+**Begründung:**
+Keine klinischen Studien unterstützen Cholsäure für HIV-Infektionskrankheit, der Wirkungsmechanismus ist undokumentiert (blockierende Datenlücke), und eine In-vitro-Studie widerlegt direkt die vorhergesagte therapeutische Richtung. Evidenz-Level ist L5 – nur Modellvorhersage, ohne unterstützende tatsächliche Studien.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+- Lösen Sie DG001 (TFDA/BfArM-Etikettenwarnungen und Kontraindikationen) – blockiert derzeit jede S1-Sicherheitsbewertung
+- Lösen Sie DG002 (Wirkungsmechanismus-Daten über DrugBank) – erforderlich für die Überprüfung der mechanistischen Plausibilität
+- Unabhängige pharmakologische Studien, die klären, warum das TxGNN-Modell Cholsäure mit HIV-Infektionskrankheit verbindet, angesichts des widerspruchsvollen In-vitro-Signals (PMID 16610808)
+- Erwägen Sie die Neubewertung von niedriger bewerteten Kandidaten in diesem Paket (z. B. „Vitaminmangelstörung", Rang 5), die stärkere, mechanistisch kohärente Evidenz zeigen (ein aktives Cholsäure-Patientenregister, NCT03115086, und mehrere Fallserien zu Gallensäuresynthesestörungen), die besser mit der bekannten Biologie von Cholsäure übereinstimmen
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

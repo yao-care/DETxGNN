@@ -29,76 +29,77 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Cobicistat: From Undocumented Original Indication to Feline Acquired Immunodeficiency Syndrome (Signal)
+# Cobicistat: Von fehlender ursprünglicher Indikation zum Feline Acquired Immunodeficiency Syndrome (Signal)
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-The evidence pack for cobicistat (DB09065) does not contain a documented original indication or mechanism of action, and the drug is currently **not marketed in Germany**. The TxGNN model's top prediction is **Feline Acquired Immunodeficiency Syndrome**, but this signal is currently supported by **0 clinical trials** and **0 publications**, making it a model-only prediction with no external validation.
+Das Evidenzpaket für Cobicistat (DB09065) enthält keine dokumentierte ursprüngliche Indikation oder keinen Wirkmechanismus, und das Arzneimittel ist derzeit **in Deutschland nicht vermarktet**. Die Top-Vorhersage des TxGNN-Modells ist **Feline Acquired Immunodeficiency Syndrome**, aber dieses Signal wird derzeit durch **0 klinische Studien** und **0 Publikationen** gestützt, was es zu einer reinen Modellvorhersage ohne externe Validierung macht.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Element | Inhalt |
 |------|------|
-| Original Indication | Not available — no licensed indication text in the evidence pack |
-| Predicted New Indication | Feline Acquired Immunodeficiency Syndrome |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L5 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | Nicht verfügbar – kein genehmigter Indikationstext im Evidenzpaket vorhanden |
+| Vorhergesagte neue Indikation | Feline Acquired Immunodeficiency Syndrome |
+| TxGNN-Vorhersage-Score | 99.92% |
+| Evidenzgrad | L5 |
+| Marktstatus Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Halten |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage angemessen?
 
-Currently, detailed mechanism of action data is not available for cobicistat in this evidence pack, and no original indication is documented either. This makes it impossible to formally assess mechanistic plausibility for the predicted indication at this time.
+Derzeit sind detaillierte Wirkmechanismus-Daten für Cobicistat in diesem Evidenzpaket nicht verfügbar, und auch keine ursprüngliche Indikation dokumentiert. Dies macht es unmöglich, die mechanistische Plausibilität für die vorhergesagte Indikation zu diesem Zeitpunkt formal zu bewerten.
 
-That said, the top two TxGNN predictions — feline acquired immunodeficiency syndrome (rank 1) and simian immunodeficiency virus infection (rank 2) — share a notable pattern: both are lentiviral immunodeficiency diseases in animal species, structurally and pathophysiologically analogous to human HIV/AIDS. This clustering suggests the model may be capturing a genuine antiviral or immunodeficiency-related signal in the knowledge graph rather than pure noise. However, without MOA data, original indication data, or any supporting trials/literature, this remains an unconfirmed hypothesis rather than an evidence-backed rationale.
+Trotzdem teilen die Top-zwei-Vorhersagen des TxGNN – Feline Acquired Immunodeficiency Syndrome (Rang 1) und Simian Immunodeficiency Virus-Infektion (Rang 2) – ein beachtenswertes Muster: beide sind Lentivirus-Immunmangelkrankheiten bei Tierarten, strukturell und pathophysiologisch analog zur menschlichen HIV/AIDS. Diese Häufung deutet darauf hin, dass das Modell möglicherweise ein echtes antivirales oder immunmangelassoziiertes Signal im Wissensgraph erfasst, anstelle von reinem Rauschen. Ohne MOA-Daten, ursprüngliche Indikationsdaten oder unterstützende Studien/Literatur bleibt dies jedoch eine unbestätigte Hypothese statt einer evidenzgestützten Begründung.
 
-A third, lower-ranked prediction in the pack (a rare neurodevelopmental disorder, evidence level L5, decision S0/Hold) was explicitly flagged as having no identifiable mechanistic link and was assessed as likely embedding noise — reinforcing that not all TxGNN outputs for this drug carry equal biological plausibility, and rank 1/2 warrant independent verification rather than automatic trust.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+Eine dritte, niedriger bewertete Vorhersage im Paket (eine seltene neurodevelopmentale Störung, Evidenzgrad L5, Entscheidung S0/Halten) wurde explizit als keine identifizierbaren mechanistischen Verbindungen aufweisend gekennzeichnet und als wahrscheinlich Rauschen einbettend bewertet – was verstärkt, dass nicht alle TxGNN-Ausgaben für dieses Arzneimittel gleiche biologische Plausibilität tragen, und Rang 1/2 unabhängige Überprüfung verdienen statt automatisches Vertrauen.
 
 ---
 
-## Literature Evidence
+## Evidenz aus klinischen Studien
 
-Currently no related literature available
-
----
-
-## Germany Market Information
-
-Cobicistat is currently not marketed in Germany, and no authorization records are available in the evidence pack.
+Derzeit keine verwandten klinischen Studien registriert
 
 ---
 
-## Safety Considerations
+## Literaturevidence
 
-Please refer to the package insert for safety information.
-
-*Note: Package insert warnings and contraindications for this drug are currently a blocking data gap (DG001) — this must be resolved before any safety evaluation can proceed.*
+Derzeit keine verwandte Literatur verfügbar
 
 ---
 
-## Conclusion and Next Steps
+## Marktstatus Deutschland
 
-**Decision: Hold**
+Cobicistat ist derzeit in Deutschland nicht vermarktet, und im Evidenzpaket sind keine Zulassungsunterlagen verfügbar.
 
-**Rationale:**
-No clinical trials, literature, mechanism of action, or original indication data support this prediction, and the drug is unmarketed in Germany. Package insert safety data is a blocking gap. Evidence is insufficient to advance beyond a raw model signal.
+---
 
-**To proceed, the following is needed:**
-- Original indication and MOA data (e.g., via DrugBank API query)
-- TFDA/BfArM package insert warnings and contraindications (resolves blocking gap DG001)
-- Targeted literature/trial search on cobicistat in HIV/lentivirus-related repurposing contexts, to test the FIV/SIV mechanistic hypothesis
-- Clarification on why a feline-specific veterinary disease appears as the top-ranked prediction, and whether a human-relevant analog indication should be substituted
+## Sicherheitsaspekte
+
+Weitere Sicherheitsinformationen finden Sie in der Fachinformation.
+
+*Hinweis: Warnhinweise und Kontraindikationen in der Fachinformation für dieses Arzneimittel sind derzeit eine Blockierungsdatenlücke (DG001) – dies muss vor jeder Sicherheitsbewertung gelöst werden.*
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Halten**
+
+**Begründung:**
+Es gibt keine klinischen Studien, Literatur, Wirkmechanismus- oder ursprünglichen Indikationsdaten, die diese Vorhersage stützen, und das Arzneimittel ist in Deutschland nicht vermarktet. Die Sicherheitsdaten der Fachinformation sind eine Blockierungslücke. Die Evidenz ist unzureichend, um über ein reines Modellsignal hinaus voranzukommen.
+
+**Erforderlich zum Fortschreiten:**
+- Ursprüngliche Indikations- und MOA-Daten (z. B. über DrugBank-API-Abfrage)
+- TFDA/BfArM-Fachinformation zu Warnhinweisen und Kontraindikationen (löst Blockierungslücke DG001)
+- Gezielte Literatur-/Studiensuche zu Cobicistat in Kontexten der HIV/Lentivirus-bezogenen Umnutzung, um die FIV/SIV-Mechanismusthese zu testen
+- Klarstellung darüber, warum eine felide-spezifische Veterinärerkrankung als die Top-bewertete Vorhersage erscheint, und ob eine menschlich-relevante analoge Indikation ersetzt werden sollte
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

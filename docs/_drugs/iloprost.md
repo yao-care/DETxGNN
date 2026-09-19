@@ -29,87 +29,88 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **9**
 
 </div>
 
-# Iloprost: From Pulmonary Arterial Hypertension to PAH Associated with HIV Infection
+# Iloprost: Von Pulmonalarterieller Hypertonie zu PAH assoziiert mit HIV-Infektion
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Iloprost is a synthetic prostacyclin (PGI2) analog established for treatment of pulmonary arterial hypertension (PAH), acting via IP-receptor-mediated vasodilation and antiplatelet/antiproliferative effects.
-The TxGNN model predicts it may be effective for **Pulmonary Arterial Hypertension Associated with HIV Infection**,
-a specific etiological subtype of PAH, supported by **1 completed Phase 3 randomized controlled trial** and **4 supporting publications**.
+Iloprost ist ein etablierter synthetischer Prostazyklinanalog (PGI2) zur Behandlung der pulmonalarteriellen Hypertonie (PAH), der durch IP-Rezeptor-vermittelte Vasodilatation sowie antithrombozytäre und antiproliferative Effekte wirkt.
+Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam bei der **pulmonalarteriellen Hypertonie assoziiert mit HIV-Infektion** sein könnte,
+einem spezifischen ätiologischen Subtyp der PAH, unterstützt durch **1 abgeschlossene Phase-3-randomisierte kontrollierte Studie** und **4 unterstützende Publikationen**.
 
-> Note: This evidence pack scored 9 candidate indications for iloprost, most within the broader PAH disease family (congenital heart disease-PAH, connective tissue disease-PAH, HIV-PAH, schistosomiasis-PAH, hemolytic anemia-PAH) plus two unrelated hair-disorder predictions with no supporting evidence. Of these, the HIV-PAH indication carries by far the strongest evidence (L1, Phase 3 RCT) and is the subject of this report.
+> Anmerkung: Dieses Evidenzpaket bewertete 9 Kandidatenindikationen für Iloprost, die meisten innerhalb der breiteren PAH-Erkrankungsfamilie (angeborene Herzerkrankung-PAH, Bindegewebserkrankung-PAH, HIV-PAH, Schistosomiasis-PAH, hämolytische Anämie-PAH) zuzüglich zweier unrelated Hair-Disorder-Vorhersagen ohne unterstützende Evidenz. Von diesen trägt die HIV-PAH-Indikation bei Weitem die stärkste Evidenz (L1, Phase-3-RCT) und ist Gegenstand dieses Berichts.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Punkt | Inhalt |
 |------|------|
-| Original Indication | Not available as a structured field in this evidence pack (data gap); mechanistically, iloprost is an established PGI2 analog used for pulmonary arterial hypertension (per repurposing rationale notes in the source data) |
-| Predicted New Indication | Pulmonary Arterial Hypertension Associated with HIV Infection |
-| TxGNN Prediction Score | 99.21% |
-| Evidence Level | L1 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Ursprüngliche Indikation | Nicht als strukturiertes Feld in diesem Evidenzpaket verfügbar (Datenlücke); mechanistisch ist Iloprost ein etablierter PGI2-Analog, der zur pulmonalarteriellen Hypertonie verwendet wird (nach mechanistischen Anmerkungen in den Quelldaten) |
+| Vorhergesagte neue Indikation | Pulmonalarterielle Hypertonie assoziiert mit HIV-Infektion |
+| TxGNN-Vorhersage-Score | 99.21% |
+| Evidenzlevel | L1 |
+| Marktstatus Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Weiterführung mit Schutzmaßnahmen |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage sinnvoll?
 
-Currently, detailed original-indication and mechanism-of-action data are not available as structured fields (flagged as data gaps DG001/DG002 in this evidence pack). Based on the mechanistic notes embedded in the evidence pack, iloprost is a synthetic prostacyclin (PGI2) analog that activates the IP receptor, producing pulmonary vascular smooth-muscle relaxation, inhibition of platelet aggregation, and suppression of smooth-muscle proliferation — the core pharmacologic pathway underlying PAH treatment.
+Derzeit sind detaillierte Daten zur ursprünglichen Indikation und zum Wirkmechanismus nicht als strukturierte Felder verfügbar (gekennzeichnet als Datenlücken DG001/DG002 in diesem Evidenzpaket). Basierend auf den mechanistischen Anmerkungen im Evidenzpaket ist Iloprost ein synthetischer Prostazyklinanalog (PGI2), der den IP-Rezeptor aktiviert und pulmonale Vasodilatation der glatten Gefäßmuskulatur, Hemmung der Blutplättchenaggregation und Unterdrückung der Proliferation glatter Muskulatur bewirkt – der Kernpharmakologie-Pfad, der der PAH-Behandlung zugrunde liegt.
 
-HIV-associated PAH shares the same downstream pathology (pulmonary vascular remodeling and endothelial dysfunction) as other PAH etiologies, even though the upstream trigger (HIV-related endothelial injury) differs. Because iloprost's therapeutic effect operates on the shared vascular remodeling pathway rather than on the disease-specific trigger, this represents an **on-class, label-adjacent expansion** rather than a mechanistically novel repurposing hypothesis — analogous to the established use of another prostacyclin analog, epoprostenol, in HIV-PAH.
+HIV-assoziierte PAH teilt die gleiche nachgelagerte Pathologie (Gefäßumstrukturierung und Endotheldysfunktion) wie andere PAH-Ätiologien, obwohl der vorgelagerte Auslöser (HIV-bedingte Endothelschädigung) unterschiedlich ist. Da Iloprosts therapeutische Wirkung auf dem gemeinsamen Gefäßumstrukturierungspfad statt auf dem krankheitsspezifischen Auslöser funktioniert, stellt dies eine **substanzklasseninterne, etikettennahe Indikationserweiterung** dar, statt einer mechanistisch neuen Repurposing-Hypothese – analog zur etablierten Verwendung eines anderen Prostazyklinanalogons, Epoprostenol, bei HIV-PAH.
 
-This is further supported by the fact that a completed Phase 3, double-blind, randomized, placebo-controlled, crossover trial (PROWESS 15) explicitly enrolled HIV-associated PAH patients alongside idiopathic/familial PAH patients, indicating this population is already considered part of the standard iloprost/prostanoid treatment paradigm in clinical practice.
+Dies wird weiter unterstützt durch die Tatsache, dass eine abgeschlossene Phase-3-, doppelblinde, randomisierte, placebokontrollierte Crossover-Studie (PROWESS 15) explizit HIV-assoziierte PAH-Patienten neben idiopathischen/familiären PAH-Patienten eingeschlossen hat, was darauf hindeutet, dass diese Population bereits als Teil des standardmäßigen Iloprost-/Prostanoid-Behandlungsparadigmas in der klinischen Praxis betrachtet wird.
 
 ---
 
-## Clinical Trial Evidence
+## Klinische Studienevidenz
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Studiennummer | Phase | Status | Teilnehmerzahl | Wichtige Befunde |
 |---------|------|------|------|---------|
-| [NCT00709956](https://clinicaltrials.gov/study/NCT00709956) | Phase 3 | Completed | 64 | Double-blind, randomized, placebo-controlled crossover study of single-dose inhaled Iloprost Power 15 on exercise capacity in symptomatic PAH patients, including those with HIV-associated PAH, NYHA class II–IV, either treatment-naive or on stable background bosentan/ambrisentan/sildenafil |
+| [NCT00709956](https://clinicaltrials.gov/study/NCT00709956) | Phase 3 | Abgeschlossen | 64 | Doppelblinde, randomisierte, placebokontrollierte Crossover-Studie zur Wirkung einer Einzeldosis inhaliertem Iloprost Power 15 auf Belastungskapazität bei symptomatischen PAH-Patienten, einschließlich solcher mit HIV-assoziierter PAH, NYHA-Klasse II–IV, entweder ohne Vorbehandlung oder unter stabiler Begleittherapie mit Bosentan/Ambrisentan/Sildenafil |
 
 ---
 
-## Literature Evidence
+## Literaturevidenz
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Journal | Wichtige Befunde |
 |------|-----|------|------|---------|
-| [17195895](https://pubmed.ncbi.nlm.nih.gov/17195895/) | 2006 | Review | The Mount Sinai Journal of Medicine | Overview of HIV-related pulmonary hypertension; estimated incidence ~0.5% of HIV-infected individuals, pathogenesis still unclear |
-| [14720012](https://pubmed.ncbi.nlm.nih.gov/14720012/) | 2003 | Review | American Journal of Respiratory Medicine | Reviews prostanoid therapy across PAH etiologies, including HIV infection, noting shared obstructive pulmonary microvascular pathology |
-| [31090367](https://pubmed.ncbi.nlm.nih.gov/31090367/) | 2019 | Cohort (Registry) | Terapevticheskii Arkhiv | Six-year National Registry analysis of PAH prevalence, clinical course, therapy, and mortality |
-| [18260882](https://pubmed.ncbi.nlm.nih.gov/18260882/) | 2007 | Review | Kardiologiia | Reviews controlled trials of prostacyclin and synthetic analogues across PAH subtypes including HIV infection |
+| [17195895](https://pubmed.ncbi.nlm.nih.gov/17195895/) | 2006 | Übersicht | The Mount Sinai Journal of Medicine | Übersicht über HIV-assoziierte Lungenhypertonie; geschätzte Inzidenz ~0.5% bei HIV-infizierten Personen, Pathogenese noch unklar |
+| [14720012](https://pubmed.ncbi.nlm.nih.gov/14720012/) | 2003 | Übersicht | American Journal of Respiratory Medicine | Überblick über Prostanoidtherapie bei verschiedenen PAH-Ätiologien, einschließlich HIV-Infektion, mit Hinweis auf gemeinsame obstruktive pulmonale mikrovaskuläre Pathologie |
+| [31090367](https://pubmed.ncbi.nlm.nih.gov/31090367/) | 2019 | Kohortenstudie (Registerstudie) | Terapevticheskii Arkhiv | Sechsjährige Analyse des Nationalen Registers zur PAH-Prävalenz, klinischem Verlauf, Therapie und Mortalität |
+| [18260882](https://pubmed.ncbi.nlm.nih.gov/18260882/) | 2007 | Übersicht | Kardiologiia | Überblick über kontrollierte Studien mit Prostazyklin und synthetischen Analogen bei verschiedenen PAH-Subtypen einschließlich HIV-Infektion |
 
 ---
 
-## Germany Market Information
+## Marktinformation Deutschland
 
-No marketing authorizations were found for iloprost in the current dataset (0 authorizations, market status: not marketed).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+Im aktuellen Datensatz wurden keine Zulassungen für Iloprost gefunden (0 Zulassungen, Marktstatus: nicht vermarktet).
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsaspekte
 
-**Decision: Proceed with Guardrails**
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
 
-**Rationale:**
-A completed Phase 3 RCT directly enrolled HIV-associated PAH patients, and the mechanistic rationale is an on-class, label-adjacent extension of iloprost's established PGI2 pathway rather than a novel mechanism — this is the strongest-evidence candidate among the nine indications scored in this pack (L1/S3, versus L2–L5 for the others).
+---
 
-**To proceed, the following is needed:**
-- Resolve blocking data gap DG001: TFDA/BfArM package insert warnings and contraindications, required before any S1 safety assessment can proceed
-- Resolve high-priority data gap DG002: formal DrugBank MOA confirmation
-- Structured original-indication data (currently absent from the drug record)
-- HIV-antiretroviral drug–drug interaction data, given this population's near-universal concomitant ART use
-- A German market-entry/regulatory pathway assessment, since iloprost currently has zero marketing authorizations on file
-- Subgroup-level efficacy/safety data specific to the HIV-PAH arm of NCT00709956, rather than the pooled PAH population result
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Weiterführung mit Schutzmaßnahmen**
+
+**Begründung:**
+Eine abgeschlossene Phase-3-RCT schloss explizit HIV-assoziierte PAH-Patienten ein, und die mechanistische Begründung ist eine substanzklasseninterne, etikettennahe Erweiterung von Iloprosts etabliertem PGI2-Pfad statt eines neuartigen Mechanismus – dies ist der Kandidat mit der stärksten Evidenz unter den neun in diesem Paket bewerteten Indikationen (L1/S3, im Vergleich zu L2–L5 für die anderen).
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+- Behebung der blockierenden Datenlücke DG001: TFDA/BfArM-Packungsbeilage-Warnhinweise und Gegenanzeigen, erforderlich vor jeder S1-Sicherheitsbewertung
+- Behebung der hochpriorären Datenlücke DG002: formale DrugBank-MOA-Bestätigung
+- Strukturierte Daten zur ursprünglichen Indikation (derzeit nicht im Arzneimitteleintrag vorhanden)
+- HIV-Antiretroviral-Arzneimittelwechselwirkungsdaten, angesichts der nahezu universellen gleichzeitigen ART-Anwendung in dieser Population
+- Bewertung eines deutschen Markteintritts- und Regulierungspfads, da Iloprost derzeit keine Zulassungen in den vorliegenden Unterlagen hat
+- Wirksamkeits- und Sicherheitsdaten auf Subgruppenebene speziell für den HIV-PAH-Arm von NCT00709956, statt der gepoolten Ergebnisse der gesamten PAH-Population
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

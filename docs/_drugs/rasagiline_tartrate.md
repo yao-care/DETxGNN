@@ -29,77 +29,78 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0**
 
 </div>
 
-# RASAGILINE TARTRATE: Evaluation Incomplete — Awaiting Data
+# RASAGILINE TARTRATE: Bewertung unvollständig — Daten ausstehend
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-RASAGILINE TARTRATE is a drug with no marketing authorization in Taiwan and no approved indications recorded in the regulatory database.
-The TxGNN prediction pipeline did not return any new indication candidates for this compound in the current Evidence Pack, and critical data — including mechanism of action and safety profile — remain unresolved data gaps.
-A complete drug repurposing evaluation cannot be conducted until these gaps are remediated.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available |
-| Predicted New Indication | Not available |
-| TxGNN Prediction Score | Not available |
-| Evidence Level | L5 — No predictions obtained |
-| Taiwan Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+RASAGILINE TARTRATE ist ein Arzneimittel ohne Zulassung in Taiwan und ohne in der Regulierungsdatenbank eingetragene zugelassene Indikationen.
+Die TxGNN-Vorhersage-Pipeline hat keine neuen Indikationskandidaten für diese Verbindung im aktuellen Evidence Pack zurückgegeben, und kritische Daten – einschließlich Wirkmechanismus und Sicherheitsprofil – bleiben ungeklärte Datenlücken.
+Eine vollständige Arzneimittelneupositionierungs-Bewertung kann nicht durchgeführt werden, bis diese Lücken behoben sind.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Currently, detailed mechanism of action data is not available, and the TxGNN model did not return any predicted indications for this compound in the current pipeline run.
-
-Notably, the query log records that both the DrugBank query (ID: 3) and the TFDA package insert query (ID: 4) returned 1 result each, suggesting that source data *does* exist. However, this data was not propagated into the structured fields of the Evidence Pack (e.g., `drugbank_id`, `original_indications`, `original_moa` remain empty or `[Data Gap]`). This is a data pipeline issue that must be resolved before any mechanistic analysis can proceed.
-
-Until the MOA, original indications, and TxGNN prediction outputs are properly populated, no assessment of biological plausibility can be made.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for evaluation under this Evidence Pack.
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Nicht verfügbar |
+| Vorhergesagte neue Indikation | Nicht verfügbar |
+| TxGNN-Vorhersage-Score | Nicht verfügbar |
+| Evidenzlevel | L5 — Keine Vorhersagen erhalten |
+| Taiwan-Marktstatus | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Halten |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage angemessen?
 
-Currently no related literature available under this Evidence Pack.
+Derzeit sind detaillierte Daten zum Wirkmechanismus nicht verfügbar, und das TxGNN-Modell hat in der aktuellen Pipeline-Ausführung keine vorhergesagten Indikationen für diese Verbindung zurückgegeben.
 
----
+Erwähnenswert ist, dass die Abfrage-Logs zeigen, dass sowohl die DrugBank-Abfrage (ID: 3) als auch die TFDA-Packungsbeilage-Abfrage (ID: 4) jeweils 1 Ergebnis zurückgegeben haben, was darauf hindeutet, dass Quelldaten *tatsächlich* existieren. Diese Daten wurden jedoch nicht in die strukturierten Felder des Evidence Pack propagiert (z. B. `drugbank_id`, `original_indications`, `original_moa` bleiben leer oder `[Data Gap]`). Dies ist ein Datenpipeline-Problem, das gelöst werden muss, bevor eine mechanistische Analyse fortgesetzt werden kann.
 
-## Taiwan Market Information
-
-RASAGILINE TARTRATE currently holds no marketing authorization in Taiwan. No license records are available.
+Bis die MOA-, ursprünglichen Indikationen und TxGNN-Vorhersage-Ausgaben ordnungsgemäß ausgefüllt werden, kann keine Bewertung der biologischen Plausibilität vorgenommen werden.
 
 ---
 
-## Safety Considerations
+## Evidenz aus klinischen Studien
 
-Please refer to the package insert for safety information.
+Derzeit sind keine einschlägigen klinischen Studien zur Bewertung im Rahmen dieses Evidence Pack registriert.
 
 ---
 
-## Conclusion and Next Steps
+## Literaturbeweise
 
-**Decision: Hold**
+Derzeit ist keine einschlägige Literatur im Rahmen dieses Evidence Pack verfügbar.
 
-**Rationale:**
-The Evidence Pack is missing the three minimum requirements for evaluation: (1) TxGNN predicted indications, (2) mechanism of action, and (3) safety profile. Without these, neither biological plausibility nor risk can be assessed.
+---
 
-**To proceed, the following is needed:**
+## Taiwan-Marktinformationen
 
-- **[Blocking — DG001]** Parse the TFDA package insert PDF (query confirmed 1 result exists) to extract: approved indications, key warnings, and contraindications
-- **[High — DG002]** Retrieve mechanism of action and DrugBank ID from the DrugBank record (query confirmed 1 result exists) and populate `drugbank_id`, `original_moa`, and `original_indications` fields
-- **[Required]** Re-run the TxGNN prediction pipeline to populate `predicted_indications` — current output is empty, which may indicate a compound name matching issue (consider querying under "Rasagiline" without the salt suffix "tartrate")
-- **[Recommended]** Confirm compound identity: check whether RASAGILINE TARTRATE and Rasagiline mesylate (the more commonly marketed salt form) are the same candidate in this context, to avoid missing existing evidence
+RASAGILINE TARTRATE hat derzeit keine Zulassung in Taiwan. Es sind keine Zulassungsunterlagen verfügbar.
+
+---
+
+## Sicherheitsüberlegungen
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Halten**
+
+**Begründung:**
+Dem Evidence Pack fehlen die drei Mindestanforderungen für die Bewertung: (1) TxGNN-Vorhersage-Indikationen, (2) Wirkmechanismus und (3) Sicherheitsprofil. Ohne diese können weder biologische Plausibilität noch Risiko bewertet werden.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+
+- **[Blockierend — DG001]** Analysieren Sie die TFDA-Packungsbeilage-PDF (Abfrage bestätigt 1 Ergebnis vorhanden), um Folgendes zu extrahieren: zugelassene Indikationen, wichtige Warnhinweise und Kontraindikationen
+- **[Hoch — DG002]** Rufen Sie Wirkmechanismus und DrugBank-ID aus dem DrugBank-Datensatz ab (Abfrage bestätigt 1 Ergebnis vorhanden) und füllen Sie die Felder `drugbank_id`, `original_moa` und `original_indications` aus
+- **[Erforderlich]** Führen Sie die TxGNN-Vorhersage-Pipeline erneut aus, um `predicted_indications` auszufüllen – die aktuelle Ausgabe ist leer, was auf ein Problem bei der Verbindungsnamenabfrage hindeuten kann (erwägen Sie eine Abfrage unter „Rasagiline" ohne das Salz-Suffix „tartrate")
+- **[Empfohlen]** Bestätigen Sie die Verbindungsidentität: Überprüfen Sie, ob RASAGILINE TARTRATE und Rasagiline-Mesilat (die häufiger vermarktete Salzform) in diesem Zusammenhang ein und derselbe Kandidat sind, um zu vermeiden, dass vorhandene Evidenz übersehen wird
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -29,73 +29,74 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Granisetron: From Antiemetic Use to Manic Bipolar Affective Disorder
+# Granisetron: Vom Antiemetikum zur Therapie der manischen bipolaren affektiven Störung
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Granisetron is a selective 5-HT3 receptor antagonist used clinically as an antiemetic; a formally documented original indication and mechanism-of-action record are not present in this evidence pack (flagged as data gaps). The TxGNN model predicts it may be effective for **Manic Bipolar Affective Disorder**, but this direction is currently supported by **0 clinical trials** and **0 publications** — a model-only signal.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Antiemetic (nausea/vomiting) — specific approved-indication text unavailable; drug has no license records in this jurisdiction |
-| Predicted New Indication | Manic Bipolar Affective Disorder |
-| TxGNN Prediction Score | 99.62% |
-| Evidence Level | L5 |
-| Germany Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Granisetron ist ein selektiver 5-HT3-Rezeptorantagonist, der klinisch als Antiemetikum eingesetzt wird; im vorliegenden Nachweispaket sind jedoch keine formell dokumentierte ursprüngliche Indikation und kein Wirkmechanismus-Nachweis vorhanden (als Datenlücken gekennzeichnet). Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam gegen **Manische bipolare affektive Störung** sein könnte, aber diese Richtung wird derzeit durch **0 klinische Studien** und **0 Publikationen** gestützt – ein reines Modellsignal.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Detailed mechanism-of-action data for granisetron is not available in structured form in this evidence pack (High-severity data gap, DG002). Based on the mechanistic notes accompanying this prediction, granisetron is described as a selective 5-HT3 (serotonin) receptor antagonist, classically used as an antiemetic.
-
-The proposed link to manic bipolar affective disorder rests on a theoretical relationship between the 5-HT3 pathway and mood regulation via the limbic system. Other 5-HT3 antagonists (e.g., ondansetron) have been explored in small, exploratory studies for mood disorders, which lends some biological plausibility. However, there is no direct clinical evidence — no trials and no publications in this evidence pack — supporting granisetron's use in the manic phase of bipolar disorder. This connection should be treated as mechanistic inference only, not a clinically validated signal.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
-
----
-
-## Literature Evidence
-
-Currently no related literature available
+| Artikel | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Antiemetikum (Übelkeit/Erbrechen) – spezifischer genehmigter Indikationstext nicht verfügbar; Arzneimittel hat keine Lizenzunterlagen in dieser Rechtsordnung |
+| Vorhergesagte neue Indikation | Manische bipolare affektive Störung |
+| TxGNN-Vorhersagepunktzahl | 99.62% |
+| Nachweisstufe | L5 |
+| Marktstatus in Deutschland | Nicht auf dem Markt |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | Halten |
 
 ---
 
-## Germany Market Information
+## Warum ist diese Vorhersage sinnvoll?
 
-The drug is not marketed and no authorization records are available (total_licenses = 0).
+Detaillierte Wirkmechanismus-Daten für Granisetron sind in diesem Nachweispaket nicht in strukturierter Form verfügbar (Datenlücke mit hohem Schweregrad, DG002). Basierend auf den mechanistischen Notizen, die diese Vorhersage begleiten, wird Granisetron als selektiver 5-HT3-(Serotonin-)Rezeptorantagonist beschrieben, der klassischerweise als Antiemetikum eingesetzt wird.
 
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-Note: Full safety review is currently blocked — TFDA-equivalent package-insert warnings/contraindications and drug-drug interaction data are not yet available (Blocking data gap, DG001), so this candidate cannot proceed past a preliminary S0/S1 safety screen.
+Die vorgeschlagene Verbindung zur manischen bipolaren affektiven Störung basiert auf einer theoretischen Beziehung zwischen dem 5-HT3-Signalweg und der Stimmungsregulation über das limbische System. Andere 5-HT3-Antagonisten (z. B. ondansetron) wurden in kleinen explorativen Studien bei Stimmungsstörungen untersucht, was eine gewisse biologische Plausibilität verleiht. Es gibt jedoch keine direkten klinischen Belege – keine Studien und keine Publikationen in diesem Nachweispaket – die die Verwendung von Granisetron in der manischen Phase der bipolaren Störung unterstützen. Diese Verbindung sollte nur als mechanistischer Rückschluss behandelt werden, nicht als klinisch validiertes Signal.
 
 ---
 
-## Conclusion and Next Steps
+## Klinische Studienevidenz
 
-**Decision: Hold**
+Derzeit sind keine verwandten klinischen Studien registriert
 
-**Rationale:**
-The prediction is supported only by a TxGNN model score (L5) with zero clinical trials or literature, the drug is not currently marketed, and safety evaluation is blocked by a missing package-insert dataset (DG001). There is insufficient evidence to advance this candidate.
+---
 
-**To proceed, the following is needed:**
-- TFDA (or equivalent) package insert warnings and contraindications (DG001, Blocking)
-- Confirmed mechanism-of-action documentation from DrugBank or primary literature (DG002, High)
-- At minimum, preclinical/mechanistic or case-level literature specifically linking 5-HT3 antagonism to bipolar mania before any clinical evaluation is considered
+## Literaturevidenz
+
+Derzeit ist keine verwandte Literatur verfügbar
+
+---
+
+## Marktinformationen für Deutschland
+
+Das Arzneimittel ist nicht auf dem Markt und es sind keine Genehmigungsunterlagen verfügbar (total_licenses = 0).
+
+---
+
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+Anmerkung: Eine vollständige Sicherheitsbewertung ist derzeit blockiert – TFDA-äquivalente Warnhinweise/Gegenanzeigen in der Packungsbeilage und Daten zu Arzneimittelwechselwirkungen sind noch nicht verfügbar (Blockierende Datenlücke, DG001), daher kann dieser Kandidat ein vorläufiges S0/S1-Sicherheitsscreening nicht überschreiten.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Halten**
+
+**Begründung:**
+Die Vorhersage wird nur durch einen TxGNN-Modellscore (L5) mit null klinischen Studien oder Literatur gestützt, das Arzneimittel ist derzeit nicht auf dem Markt, und die Sicherheitsbewertung wird durch einen fehlenden Packungsbeilage-Datensatz blockiert (DG001). Es gibt unzureichende Belege für die Weiterleitung dieses Kandidaten.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+- TFDA (oder Äquivalent) Packungsbeilage-Warnhinweise und Gegenanzeigen (DG001, Blockierend)
+- Bestätigte Wirkmechanismus-Dokumentation aus DrugBank oder Primärliteratur (DG002, Hoch)
+- Zumindest präklinische/mechanistische oder Fallberichtsliteratur, die spezifisch 5-HT3-Antagonismus mit bipolarer Manie verbindet, bevor eine klinische Evaluierung in Betracht gezogen wird
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

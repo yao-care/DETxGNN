@@ -29,102 +29,99 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-Using the drug-repurposing report template to produce this report directly from the evidence pack (no additional tool calls needed — all fields are present or explicitly marked as gaps).
+# Tenofovir Alafenamid (TAF): Von der antiretroviralen Therapie zur Felinen Immunodefizienzkrankheit
+
+## Zusammenfassung in einem Satz
+
+> Tenofovir Alafenamid ist ein Nukleotid-Reverse-Transkriptase-Inhibitor (NRTI), der zur Behandlung von HIV-1-Infektionen und chronischer Hepatitis B verwendet wird (basierend auf dem Wirkmechanismus, der im Text der Modellbegründung beschrieben ist; es sind jedoch keine formalen Taiwan-Lizenzdaten verfügbar).
+> Die Top-Vorhersage des TxGNN-Modells ist **Feline Immunodefizienzkrankheit** – eine veterinärmedizinische (Katzen-)Krankheit – mit **null klinischen Studien und null Literatur**, die sie derzeit stützen.
+> Ein zweiter Kandidat, **Simian-Immunodefizienzvirus (SIV)-Infektion**, verfügt über 1 gering relevante Studie und 9 präklinische Makaken-Studien, diese belegen aber TAFs *bereits bekannten* HIV-Prä-Expositions-Prophylaxe (PrEP)-Mechanismus und keine wirklich neue menschliche Indikation.
 
 ---
 
-# Tenofovir Alafenamide (TAF): From Antiretroviral Therapy to Feline Acquired Immunodeficiency Syndrome
+## Schnelle Übersicht
 
-## One-Sentence Summary
-
-> Tenofovir alafenamide is a nucleotide reverse transcriptase inhibitor (NRTI) used to treat HIV-1 infection and chronic hepatitis B (based on the mechanism described in the model's own rationale text; no formal Taiwan label data is available).
-> The TxGNN model's top-ranked prediction is **feline acquired immunodeficiency syndrome** — a veterinary (cat) disease — with **zero clinical trials and zero literature** currently supporting it.
-> A second candidate, **simian immunodeficiency virus (SIV) infection**, has 1 low-relevance trial and 9 preclinical macaque studies, but these substantiate TAF's *already-known* HIV pre-exposure prophylaxis (PrEP) mechanism rather than a genuinely new human indication.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available from Taiwan license data (0 licenses on file); based on the evidence pack's own rationale text, TAF is a known NRTI used for HIV-1 / chronic hepatitis B |
-| Predicted New Indication | Feline acquired immunodeficiency syndrome (rank 1) |
-| TxGNN Prediction Score | 99.89% |
-| Evidence Level | L5 (model prediction only — no clinical trials or literature attached to this candidate) |
-| Taiwan Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Nicht verfügbar aus Taiwan-Lizenzdaten (0 Lizenzen vorhanden); basierend auf dem eigenen Begründungstext des Modells ist TAF ein bekannter NRTI für HIV-1 / chronische Hepatitis B |
+| Vorhergesagte neue Indikation | Feline Immunodefizienzkrankheit (Rang 1) |
+| TxGNN-Vorhersagepunktzahl | 99,89% |
+| Evidenzlevel | L5 (nur Modellvorhersage – keine klinischen Studien oder Literatur an diesen Kandidaten gebunden) |
+| Marktstatus in Taiwan | Nicht vermarktet (Nicht vermarktet) |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | **Halten** |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage vernünftig?
 
-Detailed mechanism-of-action data is marked as a data gap (DG002) in this pack. Based on the rationale text attached to the other two candidates in this same evidence pack, TAF is understood to act as an NRTI that inhibits retroviral (and HBV) reverse transcriptase/polymerase — this is standard, well-established pharmacology, not new information generated for this report.
+Detaillierte Wirkmechanismus-Daten sind als Datenlücke (DG002) in diesem Dossier gekennzeichnet. Basierend auf dem Begründungstext, der den anderen beiden Kandidaten in diesem Dossier beigefügt ist, wird verstanden, dass TAF als NRTI wirkt, der die retroviralen (und HBV) Reverse-Transkriptase/Polymerase hemmt – dies ist standardisierte, gut etablierte Pharmakologie, keine neuen Informationen, die für diesen Bericht generiert wurden.
 
-The rank-1 prediction, **feline acquired immunodeficiency syndrome**, is caused by Feline Immunodeficiency Virus (FIV) — a lentivirus related to, but distinct from, HIV/SIV. A shared lentivirus family could plausibly explain why the knowledge graph linked TAF to this disease (reverse transcriptase inhibitors have shown some cross-lentivirus activity in vitro in the literature generally). However, **this evidence pack contains no clinical trials, no literature, and no completed scoring** (`decision_stage: pending`) for this candidate — the mechanistic plausibility above is inference, not evidence provided in this pack.
+Die Top-Vorhersage, **Feline Immunodefizienzkrankheit**, wird durch das Feline Immunodefizienzvirus (FIV) verursacht – ein Lentivirus, das mit HIV/SIV verwandt ist, aber sich davon unterscheidet. Eine gemeinsame Lentivirus-Familie könnte plausibel erklären, warum der Wissensgraph TAF mit dieser Krankheit verband (Reverse-Transkriptase-Inhibitoren haben in der Literatur generell bei einigen Cross-Lentivirus-Aktivitäten in vitro gezeigt). Dieses Dossier enthält jedoch **keine klinischen Studien, keine Literatur und keine abgeschlossene Bewertung** (`decision_stage: pending`) für diesen Kandidaten – die mechanistische Plausibilität oben ist Schlussfolgerung, nicht im Dossier bereitgestellte Evidenz.
 
-The better-documented candidate is rank 2, **SIV infection**: SIV and HIV-1 are both lentiviruses with highly homologous reverse transcriptase, and TAF/tenofovir diphosphate directly inhibits SIV RT — this is the actual non-human-primate model used during TAF's own HIV PrEP development program, reproduced across 9 independent macaque studies. The evidence pack's own rationale is explicit, though, that **SIV infection itself is not a human disease** and this evidence really substantiates TAF's *existing* HIV-PrEP indication rather than a new indication. Rank 3 (a rare monogenic neurodevelopmental disorder) is flagged directly in the pack as mechanistically implausible and possibly contradicted by TAF's known mitochondrial toxicity profile — it should be treated as noise, not a lead.
+Der besser dokumentierte Kandidat ist Rang 2, **SIV-Infektion**: SIV und HIV-1 sind beide Lentiviren mit hochgradig homologer Reverse-Transkriptase, und TAF/Tenofovir-Diphosphat hemmt direkt SIV-RT – dies ist das tatsächliche Primaten-Modell ohne Menschen, das während des eigenen HIV-PrEP-Entwicklungsprogramms von TAF verwendet wurde, reproduziert über 9 unabhängige Makaken-Studien. Die eigene Begründung des Dossiers ist explizit, dass **SIV-Infektion selbst keine menschliche Krankheit ist** und diese Evidenz wirklich TAFs *bestehende* HIV-PrEP-Indikation stützt, statt eine neue Indikation. Rang 3 (eine seltene monogene neurodevelopmentale Störung) ist direkt im Dossier als mechanistisch implausibel und möglicherweise durch TAFs bekanntes mitochondriales Toxizitätsprofil widersprochen gekennzeichnet – es sollte als Rauschen, nicht als Lead behandelt werden.
 
 ---
 
-## Clinical Trial Evidence
+## Evidenz aus klinischen Studien
 
-**For the top-ranked prediction (feline acquired immunodeficiency syndrome):** Currently no related clinical trials registered.
+**Für die Top-Vorhersage (Feline Immunodefizienzkrankheit):** Derzeit keine damit verbundenen klinischen Studien registriert.
 
-*Supplementary context — trial linked to the rank-2 candidate (SIV infection), included for transparency but graded low-relevance:*
+*Zusätzlicher Kontext – Studie, die dem Rang-2-Kandidat (SIV-Infektion) gebunden ist, zur Transparenz enthalten, aber als gering relevant bewertet:*
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Studiennummer | Phase | Status | Einschluss | Wichtigste Befunde |
 |---------|------|------|------|---------|
-| [NCT03577782](https://clinicaltrials.gov/study/NCT03577782) | Phase 1/2 | Unknown | 12 | Studies vedolizumab + ART for HIV virological remission; TAF is not the study drug and this is a human HIV (not SIV) trial. Relevance grade **C** — flagged as a likely mis-linked trial. |
+| [NCT03577782](https://clinicaltrials.gov/study/NCT03577782) | Phase 1/2 | Unbekannt | 12 | Untersucht Vedolizumab + ART für HIV-virologische Remission; TAF ist nicht das Studienmedikament und dies ist eine menschliche HIV (nicht SIV) Studie. Relevanzgrad **C** – als wahrscheinlich falsch verknüpfte Studie gekennzeichnet. |
 
 ---
 
-## Literature Evidence
+## Evidenz aus der Literatur
 
-**For the top-ranked prediction (feline acquired immunodeficiency syndrome):** Currently no related literature available.
+**Für die Top-Vorhersage (Feline Immunodefizienzkrankheit):** Derzeit keine damit verbundene Literatur verfügbar.
 
-*Supplementary context — preclinical literature linked to the rank-2 candidate (SIV infection); all are macaque/mouse animal-model studies (Tier 3), not human clinical data:*
+*Zusätzlicher Kontext – präklinische Literatur, die dem Rang-2-Kandidat (SIV-Infektion) gebunden ist; alle sind präklinische Tiermodellstudien (Makaken/Maus) (Tier 3), keine klinischen Humandaten:*
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Journal | Wichtigste Befunde |
 |------|-----|------|------|---------|
-| [39632836](https://pubmed.ncbi.nlm.nih.gov/39632836/) | 2024 | Preclinical (macaque) | Nature Communications | Oral FTC/TAF + long-acting cabotegravir/rilpivirine achieves SHIV remission in early-treated macaques |
-| [38134382](https://pubmed.ncbi.nlm.nih.gov/38134382/) | 2024 | Preclinical (macaque) | J Infect Dis | TAF/elvitegravir vaginal inserts give extended post-exposure protection against SHIV |
-| [39559349](https://pubmed.ncbi.nlm.nih.gov/39559349/) | 2024 | Preclinical (humanized mouse) | Frontiers in Immunology | Dual-purpose mouse model for testing antiviral strategies against SIV and HIV |
-| [35913838](https://pubmed.ncbi.nlm.nih.gov/35913838/) | 2022 | Preclinical (macaque, device) | J Antimicrob Chemother | Biodegradable TAF-releasing implant protects macaques from vaginal SHIV |
-| [31362305](https://pubmed.ncbi.nlm.nih.gov/31362305/) | 2019 | Preclinical (macaque PrEP) | J Infect Dis | Oral TAF/FTC or TAF alone prevents vaginal SHIV infection in macaques |
-| [31730629](https://pubmed.ncbi.nlm.nih.gov/31730629/) | 2019 | Preclinical (methodology) | PLoS One | Protocol for daily oral ARV dosing compliance in macaque SIV/SHIV models |
-| [27465645](https://pubmed.ncbi.nlm.nih.gov/27465645/) | 2016 | Preclinical (macaque PrEP) | J Infect Dis | Oral FTC/TAF chemoprophylaxis protects macaques from rectal SHIV infection |
-| [22740713](https://pubmed.ncbi.nlm.nih.gov/22740713/) | 2012 | Preclinical (macaque) | J Infect Dis | Oral PrEP reduces inflammation/CD4 loss in breakthrough acute SHIV infection |
-| [16810108](https://pubmed.ncbi.nlm.nih.gov/16810108/) | 2006 | Preclinical (infant macaque) | J Acquir Immune Defic Syndr | Oral tenofovir DF / topical GS-7340 protect infant macaques from oral SIV challenge |
+| [39632836](https://pubmed.ncbi.nlm.nih.gov/39632836/) | 2024 | Präklinisch (Makake) | Nature Communications | Orale FTC/TAF + langwirksame Cabotegravir/Rilpivirine erreicht SHIV-Remission bei früh behandelten Makaken |
+| [38134382](https://pubmed.ncbi.nlm.nih.gov/38134382/) | 2024 | Präklinisch (Makake) | J Infect Dis | TAF/Elvitegravir-Vaginaleinlagen bieten erweiterten Post-Expositions-Schutz gegen SHIV |
+| [39559349](https://pubmed.ncbi.nlm.nih.gov/39559349/) | 2024 | Präklinisch (humanisierte Maus) | Frontiers in Immunology | Doppel-Mausmodell zum Testen antiviraler Strategien gegen SIV und HIV |
+| [35913838](https://pubmed.ncbi.nlm.nih.gov/35913838/) | 2022 | Präklinisch (Makake, Device) | J Antimicrob Chemother | Biologisch abbaubares TAF-Implantat schützt Makaken vor vaginaler SHIV-Infektion |
+| [31362305](https://pubmed.ncbi.nlm.nih.gov/31362305/) | 2019 | Präklinisch (Makaken-PrEP) | J Infect Dis | Orale TAF/FTC oder TAF allein verhindern vaginale SHIV-Infektion bei Makaken |
+| [31730629](https://pubmed.ncbi.nlm.nih.gov/31730629/) | 2019 | Präklinisch (Methodik) | PLoS One | Protokoll für tägliche orale ARV-Dosierungstreue in Makaken-SIV/SHIV-Modellen |
+| [27465645](https://pubmed.ncbi.nlm.nih.gov/27465645/) | 2016 | Präklinisch (Makaken-PrEP) | J Infect Dis | Orale FTC/TAF-Chemoprophylaxe schützt Makaken vor rektaler SHIV-Infektion |
+| [22740713](https://pubmed.ncbi.nlm.nih.gov/22740713/) | 2012 | Präklinisch (Makake) | J Infect Dis | Orale PrEP reduziert Entzündung/CD4-Verlust bei akuter SHIV-Durchbruchinfektion |
+| [16810108](https://pubmed.ncbi.nlm.nih.gov/16810108/) | 2006 | Präklinisch (Primatenmakake) | J Acquir Immune Defic Syndr | Orale Tenofovir-DF / topisches GS-7340 schützen Primatenmakaken vor oraler SIV-Exposition |
 
 ---
 
-## Taiwan Market Information
+## Marktinformationen zu Taiwan
 
-Not marketed in Taiwan (`market_status: Not marketed`, 0 authorizations on file). No license records are available to summarize.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-drug interaction data are all currently unavailable in this evidence pack — DDI query returned no results.)
-
-**Note:** DG001 (TFDA label warnings/contraindications) is flagged as a **Blocking** data gap — its absence means this candidate cannot yet enter a formal S1 safety pre-assessment.
+Nicht vermarktet in Taiwan (`market_status: Not marketed`, 0 Genehmigungen vorhanden). Es sind keine Lizenzdatensätze verfügbar, um diese zusammenzufassen.
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsaspekte
 
-**Decision: Hold**
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. (Wichtigste Warnungen, Kontraindikationen und Daten zu Arzneimittelwechselwirkungen sind alle derzeit in diesem Dossier nicht verfügbar – die DDI-Abfrage ergab keine Ergebnisse.)
 
-**Rationale:**
-The top-ranked prediction (feline AIDS) has a high TxGNN score but zero supporting trials or literature and incomplete scoring (L5, model-prediction-only). The best-evidenced candidate (SIV infection) is explicitly an animal model reproducing TAF's *already-approved* HIV-PrEP mechanism rather than a new human indication, and its own rationale recommends Hold. The third candidate is flagged by the model's own reasoning as mechanistically implausible. In addition, a **Blocking** data gap (TFDA label unavailable) prevents formal safety pre-assessment, and TAF is not currently marketed in Taiwan.
+**Hinweis:** DG001 (TFDA-Etikettwarnungen/Kontraindikationen) ist als **blockierende** Datenlücke gekennzeichnet – sein Fehlen bedeutet, dass dieser Kandidat noch nicht in eine formale S1-Sicherheits-Vorbewertung eintreten kann.
 
-**To proceed, the following is needed:**
-- Resolve DG001: obtain TFDA label (warnings/contraindications) before any S1 safety review
-- Resolve DG002: obtain DrugBank MOA data to properly assess mechanistic plausibility
-- Request re-ranking/filtering from TxGNN to exclude non-human-disease ontology terms (e.g., feline/veterinary MONDO or animal-model-only entries) from the candidate list
-- If SIV/PrEP-related repurposing is of interest, reframe the candidate as "TAF for human HIV PrEP" (an already-established indication) rather than "SIV infection" as a novel target
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Halten**
+
+**Begründung:**
+Die Top-Vorhersage (Feline AIDS) hat eine hohe TxGNN-Punktzahl, aber null unterstützende Studien oder Literatur und unvollständige Bewertung (L5, nur Modellvorhersage). Der am besten evidenzgestützte Kandidat (SIV-Infektion) ist explizit ein Tiermodell, das TAFs *bereits genehmigten* HIV-PrEP-Mechanismus reproduziert, statt eine neue menschliche Indikation darzustellen, und seine eigene Begründung empfiehlt Halten. Der dritte Kandidat ist durch das eigene Verfahren des Modells als mechanistisch implausibel gekennzeichnet. Darüber hinaus verhindert eine **blockierende** Datenlücke (TFDA-Etikett nicht verfügbar) eine formale S1-Sicherheits-Vorbewertung, und TAF ist derzeit nicht in Taiwan vermarktet.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+- Beheben Sie DG001: Beschaffen Sie TFDA-Etikett (Warnungen/Kontraindikationen) vor jeder S1-Sicherheits-Vorbewertung
+- Beheben Sie DG002: Beschaffen Sie DrugBank-MOA-Daten, um mechanistische Plausibilität richtig zu bewerten
+- Fordern Sie von TxGNN Neuordnung/Filterung an, um Ontologie-Begriffe, die nicht der menschlichen Krankheit entsprechen (z. B. Feline/Veterinär-MONDO oder Einträge, die nur Tiermodelle sind) aus der Kandidatenliste auszuschließen
+- Wenn SIV/PrEP-bezogene Umnutzung von Interesse ist, reformulieren Sie den Kandidaten als „TAF für menschliche HIV-PrEP" (eine bereits etablierte Indikation) statt „SIV-Infektion" als neues Ziel
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

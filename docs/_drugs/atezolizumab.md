@@ -29,95 +29,96 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Atezolizumab: From Urothelial Carcinoma to Prostatic Urethra Urothelial Carcinoma
+# Atezolizumab: Von Urothelkarzinom zum Urothelkarzinom der Prostaturethera
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Atezolizumab is an anti-PD-L1 immune checkpoint inhibitor originally established in the treatment of urothelial carcinoma (bladder cancer) and other PD-L1-expressing solid tumors.
-The TxGNN model predicts it may also be effective for **Prostatic Urethra Urothelial Carcinoma**, a rare anatomic subtype of urothelial carcinoma,
-with **2 clinical trials** currently supporting this direction (no dedicated publications identified yet).
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Urothelial Carcinoma (Bladder Cancer) — general drug knowledge; no local regulatory record found in this pack |
-| Predicted New Indication | Prostatic Urethra Urothelial Carcinoma |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L2 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+Atezolizumab ist ein Anti-PD-L1-Immuncheck-Point-Inhibitor, der ursprünglich zur Behandlung von Urothelkarzinom (Blasenkrebs) und anderen PD-L1-exprimierenden soliden Tumoren etabliert wurde.
+Das TxGNN-Modell sagt voraus, dass es auch wirksam sein kann für **Urothelkarzinom der Prostaturethera**, einen seltenen anatomischen Subtyp des Urothelkarzinoms,
+mit **2 klinischen Studien**, die diese Richtung derzeit unterstützen (keine gewidmeten Publikationen identifiziert).
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on well-established pharmacological knowledge, atezolizumab is a monoclonal antibody that blocks PD-L1, restoring T-cell-mediated antitumor immunity. It is a class-defining anti-PD-L1 agent whose efficacy in urothelial carcinoma — including BCG-unresponsive non-muscle invasive bladder cancer — has been clinically validated.
-
-Prostatic urethra urothelial carcinoma is an anatomic subtype of urothelial carcinoma arising from urothelium lining the prostatic urethra, sharing the same histogenesis and immune microenvironment characteristics (PD-L1 expression, tumor-infiltrating lymphocyte patterns) as bladder-origin urothelial carcinoma. Because the mechanism of immune checkpoint blockade is tissue-of-origin driven rather than anatomically restricted, extension of atezolizumab's activity to this rarer urothelial subtype is biologically plausible.
-
-The strongest supporting evidence comes from a completed Phase 2 trial (NCT02844816) demonstrating atezolizumab monotherapy activity in BCG-unresponsive NMIBC — a closely related urothelial carcinoma population — lending indirect but mechanistically consistent support to the prediction.
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Urothelkarzinom (Blasenkrebs) — allgemeines Arzneimittelwissen; kein lokaler Zulassungseintrag in diesem Paket gefunden |
+| Vorhergesagte neue Indikation | Urothelkarzinom der Prostaturethera |
+| TxGNN-Vorhersage-Score | 99.98% |
+| Evidenzebene | L2 |
+| Marktstatus Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Mit Sicherheitsmaßnahmen fortfahren |
 
 ---
 
-## Clinical Trial Evidence
+## Warum ist diese Vorhersage angemessen?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Derzeit liegen keine detaillierten Daten zum Wirkmechanismus in diesem Evidenzpaket vor. Basierend auf gut etabliertem pharmakologischem Wissen ist Atezolizumab ein monoklonaler Antikörper, der PD-L1 blockiert und die T-Zell-vermittelte Antitumorimmunität wiederherstellt. Es ist ein klassendefinerender Anti-PD-L1-Agent, dessen Wirksamkeit bei Urothelkarzinom – einschließlich BCG-resistentem nichtmuskelinvasivem Blasenkrebs – klinisch validiert wurde.
+
+Das Urothelkarzinom der Prostaturethera ist ein anatomischer Subtyp des Urothelkarzinoms, das vom Urothel der Prostaturethera ausgeht, und teilt die gleichen Histogenese- und Immunmikroumgebungscharakteristiken (PD-L1-Expression, tumorinfiltrierende Lymphozyten-Muster) wie das von der Blase stammende Urothelkarzinom. Da der Mechanismus der Immuncheck-Point-Blockade gewebeherkunftsabhängig und nicht anatomisch beschränkt ist, ist eine Erweiterung der Aktivität von Atezolizumab auf diesen selteneren Urothelsubtyp biologisch plausibel.
+
+Die stärkste unterstützende Evidenz stammt aus einer abgeschlossenen Phase-2-Studie (NCT02844816), die die Aktivität der Atezolizumab-Monotherapie bei BCG-resistentem NMIBC – einer eng verwandten Urothelkarzinompopulation – demonstriert, was indirekt aber mechanistisch konsistente Unterstützung für die Vorhersage bietet.
+
+---
+
+## Klinische Studien-Evidenz
+
+| Studiennummer | Phase | Status | Einschluss | Hauptergebnisse |
 |---------|------|------|------|---------|
-| [NCT02844816](https://clinicaltrials.gov/study/NCT02844816) | Phase 2 | Completed | 172 | Single-arm trial of atezolizumab monotherapy in BCG-unresponsive recurrent non-muscle invasive bladder cancer; graded "A" relevance as direct urothelial carcinoma evidence, though non-randomized. |
-| [NCT03170960](https://clinicaltrials.gov/study/NCT03170960) | Phase 1 (1b) | Active, not recruiting | 914 | Dose-escalation study of cabozantinib ± atezolizumab across multiple solid tumors including advanced urothelial carcinoma (bladder, renal pelvis, ureter, urethra); atezolizumab is a combination arm, not the primary study drug — graded "B" relevance. |
+| [NCT02844816](https://clinicaltrials.gov/study/NCT02844816) | Phase 2 | Abgeschlossen | 172 | Einarmige Studie der Atezolizumab-Monotherapie bei BCG-resistentem rezidivierendem nichtmuskelinvasivem Blasenkrebs; bewertet mit „A"-Relevanz als direkte Urothelkarzinom-Evidenz, obwohl nicht randomisiert. |
+| [NCT03170960](https://clinicaltrials.gov/study/NCT03170960) | Phase 1 (1b) | Aktiv, nicht rekrutierend | 914 | Dosiseskalationsstudie von Cabozantinib ± Atezolizumab über mehrere solide Tumoren einschließlich fortgeschrittenem Urothelkarzinom (Blase, Nierenbecken, Ureter, Urethra); Atezolizumab ist ein Kombinationsarm, nicht das primäre Studienmedikament – bewertet mit „B"-Relevanz. |
 
 ---
 
-## Literature Evidence
+## Literatur-Evidenz
 
-No related literature currently available for this indication.
-
----
-
-## Germany Market Information
-
-No authorization records are available — atezolizumab is currently **not marketed** in this jurisdiction (0 licenses on file). Regulatory documentation (e.g., label warnings/contraindications) should be sourced directly from the manufacturer or the relevant health authority before any downstream use.
+Derzeit ist keine verwandte Literatur für diese Indikation verfügbar.
 
 ---
 
-## Cytotoxicity
+## Marktstatus Deutschland
 
-Atezolizumab is an antineoplastic agent (anti-PD-L1 immunotherapy), so this section applies.
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Immunotherapy (immune checkpoint inhibitor, anti-PD-L1 monoclonal antibody) — not a conventional cytotoxic agent |
-| Myelosuppression Risk | Low — unlike conventional cytotoxic chemotherapy, checkpoint inhibitors are not primarily myelosuppressive; risk instead centers on immune-related adverse events (irAEs) |
-| Emetogenicity Classification | Low (minimal emetogenic potential relative to cytotoxic chemotherapy) |
-| Monitoring Items | Liver function tests, thyroid function, renal function, and clinical monitoring for immune-related adverse events (colitis, pneumonitis, hepatitis, endocrinopathies) |
-| Handling Protection | Standard IV biologic handling precautions; special cytotoxic drug handling protocols (as required for conventional chemotherapy) are generally not applicable |
-
-Please refer to the package insert warnings and precautions for detailed toxicity data, as no drug-specific toxicity dataset was provided in this evidence pack.
+Keine Zulassungsunterlagen sind verfügbar – Atezolizumab wird derzeit in dieser Gerichtsbarkeit **nicht vermarktet** (0 Lizenzen in den Unterlagen). Zulassungsdokumentation (z. B. Etikettenwarnungen/Kontraindikationen) sollte direkt vom Hersteller oder der zuständigen Gesundheitsbehörde vor jeder nachgelagerten Verwendung bezogen werden.
 
 ---
 
-## Safety Considerations
+## Zytotoxizität
 
-Please refer to the package insert for safety information.
+Atezolizumab ist ein antineoplastisches Mittel (Anti-PD-L1-Immuntherapie), daher gilt dieser Abschnitt.
+
+| Element | Inhalt |
+|---------|--------|
+| Zytotoxizitätsklassifizierung | Immuntherapie (Immuncheck-Point-Inhibitor, Anti-PD-L1-Antikörper) — kein konventionelles zytotoxisches Mittel |
+| Myelosuppressionsrisiko | Niedrig – anders als bei konventioneller zytotoxischer Chemotherapie sind Check-Point-Inhibitoren nicht primär myelosuppressiv; das Risiko konzentriert sich stattdessen auf immunbedingte Nebenwirkungen (irAEs) |
+| Emetogenitätsklassifizierung | Niedrig (minimales emetogenes Potenzial im Vergleich zu zytotoxischer Chemotherapie) |
+| Überwachungselemente | Leberfunktionstests, Schilddrüsenfunktion, Nierenfunktion und klinische Überwachung auf immunbedingte Nebenwirkungen (Kolitis, Pneumonitis, Hepatitis, Endokrinopathien) |
+| Handhabungsschutz | Standard-Handhabungsvorsichtsmaßnahmen für IV-Biologika; spezielle Zytostatika-Handhabungsprotokolle (wie für konventionelle Chemotherapie erforderlich) sind im Allgemeinen nicht anwendbar |
+
+Bitte beachten Sie die Packungsbeilage für detaillierte Toxizitätsdaten, da in diesem Evidenzpaket kein arzneimittelspezifischer Toxizitätsdatensatz bereitgestellt wurde.
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsüberlegungen
 
-**Decision: Proceed with Guardrails**
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
 
-**Rationale:**
-A completed Phase 2 trial in a closely related urothelial carcinoma population (BCG-unresponsive NMIBC) provides mechanistically consistent, indirect support, but no trial has directly enrolled patients with prostatic urethra urothelial carcinoma specifically — evidence is directionally supportive but not indication-specific.
+---
 
-**To proceed, the following is needed:**
-- TFDA/local regulatory label data on warnings and contraindications (currently blocking — DG001)
-- Confirmed mechanism of action documentation from DrugBank (currently a gap — DG002)
-- Dedicated trial or case-series evidence in prostatic urethra urothelial carcinoma specifically, rather than inferred from broader urothelial carcinoma data
-- A defined safety monitoring plan for immune-related adverse events in this population prior to any clinical application
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Mit Sicherheitsmaßnahmen fortfahren**
+
+**Begründung:**
+Eine abgeschlossene Phase-2-Studie bei einer eng verwandten Urothelkarzinompopulation (BCG-resistentes NMIBC) bietet mechanistisch konsistente, indirekte Unterstützung, aber keine Studie hat Patienten mit Urothelkarzinom der Prostaturethera speziell eingeschlossen – die Evidenz ist direktional unterstützend, aber nicht indikationsspezifisch.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+- TFDA/lokale Zulassungsetikett-Daten zu Warnungen und Kontraindikationen (derzeit Blocker — DG001)
+- Bestätigte Wirkmechanismus-Dokumentation aus DrugBank (derzeit eine Lücke — DG002)
+- Gewidmete Studie oder Fallserie-Evidenz im Urothelkarzinom der Prostaturethera speziell, anstatt aus breiteren Urothelkarzinom-Daten abgeleitet
+- Ein definierter Sicherheitsüberwachungsplan für immunbedingte Nebenwirkungen in dieser Population vor jeder klinischen Anwendung
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

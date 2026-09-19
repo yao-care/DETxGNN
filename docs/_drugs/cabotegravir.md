@@ -29,73 +29,74 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-# Cabotegravir: Drug Repurposing Evaluation — Insufficient Data for Full Assessment
+# Cabotegravir: Evaluierung der Umnutzung von Arzneimitteln — Unzureichende Daten für vollständige Bewertung
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Cabotegravir is an HIV-1 integrase strand transfer inhibitor (INSTI), approved internationally for HIV-1 treatment (in combination with rilpivirine) and HIV pre-exposure prophylaxis (PrEP).
-The current Evidence Pack contains **no TxGNN-predicted new indications**, and critical data fields — including mechanism of action, safety warnings, and contraindications — are unavailable.
-A complete repurposing evaluation **cannot be completed** until these gaps are resolved.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | HIV-1 infection (treatment & PrEP) — based on international approvals; not reflected in Evidence Pack |
-| Predicted New Indication | No prediction available in this Evidence Pack |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | L5 — model prediction only; no repurposing evidence provided |
-| Taiwan Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+Cabotegravir ist ein HIV-1-Integrase-Strang-Transfer-Inhibitor (INSTI), der international für die HIV-1-Behandlung (in Kombination mit Rilpivirin) und die HIV-Prä-Expositions-Prophylaxe (PrEP) zugelassen ist.
+Das aktuelle Evidence Pack enthält **keine von TxGNN vorhergesagten neuen Indikationen**, und kritische Datenfelder – einschließlich Wirkmechanismus, Sicherheitswarnungen und Kontraindikationen – sind nicht verfügbar.
+Eine vollständige Bewertung der Umnutzung **kann nicht abgeschlossen werden**, bis diese Lücken behoben sind.
 
 ---
 
-## Why a Full Evaluation Cannot Be Completed
+## Schnellübersicht
 
-The Evidence Pack for Cabotegravir (DB11751) is missing two categories of blocking data:
-
-**1. No TxGNN-predicted indications**
-The `predicted_indications` array is empty. Without a candidate target disease from the model, there is no repurposing hypothesis to evaluate. It is unclear whether this reflects a model output with no high-confidence predictions, or a data pipeline gap where predictions were not retrieved.
-
-**2. Missing mechanism of action (MOA)**
-The `original_moa` field is marked as a data gap. From publicly available sources, Cabotegravir is known to act as an INSTI — it blocks the HIV integrase enzyme from inserting viral DNA into the host genome. However, since this has not been confirmed through the designated data source (DrugBank API), it cannot be formally cited in this evaluation per the protocol rules.
-
-**3. No safety data**
-Key warnings and contraindications are both listed as data gaps. Drug–drug interaction queries returned no results. Without safety information, even a preliminary safety screen (S1 assessment) cannot proceed.
-
----
-
-## Taiwan Market Information
-
-Cabotegravir currently holds **no regulatory authorizations** in Taiwan. There are no licensed products, no approved dosage forms, and no approved indications on record.
-
-> **Note:** Internationally, Cabotegravir is marketed as **Cabenuva** (with rilpivirine, long-acting injectable for HIV-1 treatment) and **Apretude** (long-acting injectable for PrEP). These are not reflected in the Taiwanese regulatory data.
+| Punkt | Inhalt |
+|-------|---------|
+| Ursprüngliche Indikation | HIV-1-Infektion (Behandlung und PrEP) — basierend auf internationalen Zulassungen; nicht im Evidence Pack berücksichtigt |
+| Vorhergesagte neue Indikation | Keine Vorhersage verfügbar in diesem Evidence Pack |
+| TxGNN-Vorhersage-Score | N/A |
+| Evidenzgrad | L5 — nur Modellvorhersage; keine Umnutzungsevidenz bereitgestellt |
+| Taiwan-Markt-Status | ✗ Nicht im Handel |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | **Aussetzen** |
 
 ---
 
-## Safety Considerations
+## Warum eine vollständige Bewertung nicht abgeschlossen werden kann
 
-Please refer to the package insert for safety information. All safety fields in the current Evidence Pack — including key warnings, contraindications, and drug interactions — are unavailable.
+Das Evidence Pack für Cabotegravir (DB11751) weist zwei Kategorien von kritischen Datenlücken auf:
+
+**1. Keine von TxGNN vorhergesagten Indikationen**
+Das `predicted_indications`-Array ist leer. Ohne eine Kandidaten-Zielerkrankung aus dem Modell gibt es keine Umnutzungshypothese zu bewerten. Es ist unklar, ob dies einen Modelloutput ohne hochzuverlässige Vorhersagen widerspiegelt oder eine Datenpipeline-Lücke, bei der Vorhersagen nicht abgerufen wurden.
+
+**2. Fehlender Wirkmechanismus (MOA)**
+Das Feld `original_moa` ist als Datenlücke gekennzeichnet. Aus öffentlich verfügbaren Quellen ist bekannt, dass Cabotegravir als INSTI wirkt – es blockiert das HIV-Integrase-Enzym daran, virale DNA in das Wirtsgenom einzufügen. Da dies jedoch nicht durch die designierte Datenquelle (DrugBank API) bestätigt wurde, kann es in dieser Bewertung nicht formal zitiert werden, entsprechend den Protokollregeln.
+
+**3. Keine Sicherheitsdaten**
+Schlüsselwarnungen und Kontraindikationen sind beide als Datenlücken aufgeführt. Arzneistoff-Wechselwirkungs-Abfragen ergaben keine Ergebnisse. Ohne Sicherheitsinformationen kann nicht einmal ein vorläufiges Sicherheits-Screening (S1-Bewertung) fortgesetzt werden.
 
 ---
 
-## Conclusion and Next Steps
+## Taiwan-Marktinformationen
 
-**Decision: Hold**
+Cabotegravir verfügt derzeit über **keine behördlichen Zulassungen** in Taiwan. Es gibt keine lizenzierten Produkte, keine zugelassenen Darreichungsformen und keine genehmigten Indikationen in der Dokumentation.
 
-**Rationale:**
-The Evidence Pack lacks the minimum required data to support any repurposing recommendation — there are no TxGNN predictions, no MOA data, and no safety information. Proceeding to evaluation without these inputs would produce unreliable conclusions.
+> **Anmerkung:** International wird Cabotegravir als **Cabenuva** (mit Rilpivirin, Langzeit-Injektion für HIV-1-Behandlung) und **Apretude** (Langzeit-Injektion für PrEP) vermarktet. Diese werden in den taiwanischen Behördendaten nicht berücksichtigt.
 
-**To proceed, the following is needed:**
+---
 
-1. **Re-run TxGNN prediction pipeline** — confirm whether the empty `predicted_indications` is a true model output (no confident hits) or a retrieval failure; retrieve and load results
-2. **Retrieve MOA from DrugBank API** (DB11751) — confirm integrase inhibitor mechanism and target pathways
-3. **Download and parse TFDA package insert PDF** — extract key warnings and contraindications to enable S1 safety screening
-4. **Re-query DDI database** — current result is `not_found`; verify whether this is due to drug name formatting (try "cabotegravir", "CAB", "GSK1265744") or a genuine absence of interaction data
-5. **Clarify scope** — if TxGNN returns no predictions after re-run, determine whether this candidate should be retired from the repurposing pipeline or flagged for manual literature review
+## Sicherheitsaspekte
+
+Bitte lesen Sie die Packungsbeilage für Sicherheitsinformationen. Alle Sicherheitsfelder im aktuellen Evidence Pack – einschließlich Schlüsselwarnungen, Kontraindikationen und Arzneistoff-Wechselwirkungen – sind nicht verfügbar.
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Aussetzen**
+
+**Begründung:**
+Das Evidence Pack enthält nicht die erforderlichen Mindestdaten, um eine Empfehlung zur Umnutzung zu stützen – es gibt keine TxGNN-Vorhersagen, keine MOA-Daten und keine Sicherheitsinformationen. Eine Bewertung ohne diese Eingaben durchzuführen würde zu unzuverlässigen Schlussfolgerungen führen.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+
+1. **TxGNN-Vorhersage-Pipeline erneut ausführen** — bestätigen, ob das leere `predicted_indications` ein echter Modelloutput (keine zuverlässigen Treffer) oder ein Abrufffehler ist; Ergebnisse abrufen und laden
+2. **MOA von DrugBank API abrufen** (DB11751) — Integrase-Inhibitor-Mechanismus und Zielwege bestätigen
+3. **TFDA-Packungsbeilage-PDF herunterladen und analysieren** — Schlüsselwarnungen und Kontraindikationen extrahieren, um S1-Sicherheits-Screening zu ermöglichen
+4. **DDI-Datenbank erneut abfragen** — aktuelles Ergebnis ist `not_found`; überprüfen, ob dies auf Arzneistoff-Namensformatierung zurückzuführen ist (versuchen Sie "cabotegravir", "CAB", "GSK1265744") oder eine echte Abwesenheit von Wechselwirkungsdaten
+5. **Umfang klären** — wenn TxGNN nach der Neuausführung keine Vorhersagen zurückgibt, bestimmen Sie, ob dieser Kandidat aus der Umnutzungs-Pipeline zurückgezogen oder für die manuelle Literaturübersicht gekennzeichnet werden sollte
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

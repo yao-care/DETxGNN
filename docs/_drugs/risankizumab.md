@@ -29,73 +29,72 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# RISANKIZUMAB: Evidence Pack Incomplete — Evaluation Pending
+# RISANKIZUMAB: Evidenzpaket unvollständig — Bewertung ausstehend
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Risankizumab is a humanized monoclonal antibody targeting the IL-23 pathway, with established use in immune-mediated inflammatory conditions such as plaque psoriasis and inflammatory bowel disease.
-However, this Evidence Pack (v4, data cutoff 2026-04-20) contains **no TxGNN predicted indications**, **no mechanism of action data**, and **no safety profile data** — the report cannot proceed to a full repurposing evaluation in its current state.
-Three critical data gaps have been identified, two of which are rated **Blocking** or **High** severity, preventing standard scoring and decision-making.
+Risankizumab ist ein humanisierter monoklonaler Antikörper, der auf den IL-23-Weg abzielt, mit etablierter Anwendung bei immunvermittelten Entzündungserkrankungen wie Plaque-Psoriasis und entzündlicher Darmerkrankung. Dieses Evidenzpaket (v4, Datenschnitt 2026-04-20) enthält jedoch **keine TxGNN-vorhergesagten Indikationen**, **keine Wirkmechanismus-Daten** und **keine Sicherheitsprofil-Daten** — der Bericht kann in seinem aktuellen Zustand nicht zu einer vollständigen Bewertung zur Neuindikation fortschreiten. Drei kritische Datenlücken wurden identifiziert, von denen zwei als **Blockierend** oder **Hoher Schweregrad** bewertet sind und die Standardbewertung sowie Entscheidungsfindung verhindern.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
-|------|---------|
-| Original Indication | Not available in current Evidence Pack |
-| Predicted New Indication | No predictions generated — see Data Gap section |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | L5 (Model prediction only — not yet available) |
-| Taiwan Market Status | ✗ Not marketed (0 authorizations) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** — insufficient data to evaluate |
-
----
-
-## Why This Report Cannot Proceed to Full Evaluation
-
-The Evidence Pack for RISANKIZUMAB is currently missing the two foundational inputs required for a drug repurposing report:
-
-**1. TxGNN Predicted Indications (Empty)**
-The `predicted_indications` array is empty. Without a predicted target indication, it is not possible to identify relevant clinical trials, literature, or a mechanistic rationale to evaluate. This may indicate the TxGNN pipeline has not yet been run for this candidate, or that predictions were filtered out upstream.
-
-**2. Mechanism of Action (Data Gap DG002 — High Severity)**
-The `original_moa` field is marked as a data gap. The MOA is required to assess whether the drug's pharmacological mechanism is plausibly applicable to any new indication. Remediation: query DrugBank API for DB14762.
-
-**3. Safety Warnings and Contraindications (Data Gap DG001 — Blocking Severity)**
-Both `key_warnings` and `contraindications` contain only `[Data Gap]`. This is classified as **Blocking** severity — the evaluation cannot pass the S1 safety screening without this information. Remediation: download and parse the TFDA package insert PDF.
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Im aktuellen Evidenzpaket nicht verfügbar |
+| Vorhergesagte neue Indikation | Keine Vorhersagen generiert — siehe Abschnitt Datenlücke |
+| TxGNN-Vorhersage-Score | N/A |
+| Evidenzebene | L5 (Nur Modellvorhersage — noch nicht verfügbar) |
+| Taiwan-Marktstatus | ✗ Nicht vermarktet (0 Zulassungen) |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | **Aufschub** — unzureichende Daten zur Bewertung |
 
 ---
 
-## Taiwan Market Information
+## Warum dieser Bericht nicht zu einer vollständigen Bewertung fortschreiten kann
 
-No authorizations found for RISANKIZUMAB in the Taiwan TFDA database as of 2026-04-20. No product entries to display.
+Das Evidenzpaket für RISANKIZUMAB vermisst derzeit die zwei grundlegenden Eingaben, die für einen Bericht zur Bewertung einer Neuindikation erforderlich sind:
 
-> **Note for context:** Risankizumab (brand name Skyrizi®, AbbVie) is approved in multiple major markets (FDA, EMA, PMDA) for plaque psoriasis, psoriatic arthritis, Crohn's disease, and ulcerative colitis, but this information is not reflected in the current Evidence Pack and therefore cannot be used as the basis for a formal evaluation under this pipeline.
+**1. TxGNN-vorhergesagte Indikationen (leer)**
+Das Array `predicted_indications` ist leer. Ohne eine vorhergesagte Zielindikation ist es nicht möglich, relevante klinische Studien, Literaturquellen oder einen pharmakologischen Ansatz zur Bewertung zu identifizieren. Dies kann darauf hindeuten, dass die TxGNN-Pipeline für diesen Kandidaten noch nicht ausgeführt wurde, oder dass Vorhersagen in früheren Schritten herausgefiltert wurden.
+
+**2. Wirkmechanismus (Datenlücke DG002 — Hoher Schweregrad)**
+Das Feld `original_moa` wird als Datenlücke gekennzeichnet. Der Wirkmechanismus ist erforderlich, um zu beurteilen, ob sich der pharmakologische Wirkmechanismus des Arzneimittels plausibel auf eine neue Indikation übertragen lässt. Abhilfe: DrugBank-API für DB14762 abfragen.
+
+**3. Sicherheitswarnungen und Kontraindikationen (Datenlücke DG001 — Blockierender Schweregrad)**
+Sowohl `key_warnings` als auch `contraindications` enthalten nur `[Datenlücke]`. Dies wird mit dem Schweregrad **Blockierend** klassifiziert — die Bewertung kann die S1-Sicherheitsprüfung nicht ohne diese Informationen bestehen. Abhilfe: PDF der TFDA-Gebrauchsinformation herunterladen und analysieren.
 
 ---
 
-## Safety Considerations
+## Taiwan-Marktinformationen
 
-All safety fields in the current Evidence Pack are marked as data gaps. Please refer to the official package insert and the TFDA drug information database for warnings, contraindications, and drug interactions before proceeding.
+Für RISANKIZUMAB wurden in der TFDA-Datenbank (Taiwan) zum 2026-04-20 keine Zulassungen gefunden. Keine Produkteinträge vorhanden.
+
+> **Hinweis zum Kontext:** Risankizumab (Handelsname Skyrizi®, AbbVie) ist in mehreren großen Märkten (FDA, EMA, PMDA) für Plaque-Psoriasis, Psoriasis-Arthritis, Morbus Crohn und Colitis ulcerosa zugelassen, diese Informationen werden jedoch nicht im aktuellen Evidenzpaket widergespiegelt und können daher nicht als Grundlage für eine formale Bewertung unter dieser Pipeline verwendet werden.
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsaspekte
 
-**Decision: Hold**
+Alle Sicherheitsfelder im aktuellen Evidenzpaket werden als Datenlücken gekennzeichnet. Bitte konsultieren Sie die offizielle Gebrauchsinformation und die TFDA-Arzneimittelinformationsdatenbank zu Warnungen, Kontraindikationen und Arzneimittelwechselwirkungen, bevor Sie fortfahren.
 
-**Rationale:**
-The Evidence Pack for RISANKIZUMAB (DB14762) is structurally incomplete — both the TxGNN prediction output and the core safety/MOA data are absent, making it impossible to perform a meaningful repurposing evaluation or evidence scoring at this time.
+---
 
-**To proceed, the following is needed:**
+## Fazit und nächste Schritte
 
-- [ ] **Re-run TxGNN pipeline** for DB14762 to generate predicted indications with scores; verify the prediction output was not silently filtered
-- [ ] **Resolve DG002 (Blocking):** Download and parse the TFDA package insert PDF to extract key warnings and contraindications — required to pass S1 safety screening
-- [ ] **Resolve DG001 (High):** Query DrugBank API for `DB14762` to retrieve the mechanism of action (p19/IL-23 subunit inhibition) and pharmacological categories
-- [ ] **Confirm pipeline inputs:** The `meta.inputs_received` field lists only `"drugbank"` — verify whether TFDA, clinical trial (ClinicalTrials.gov), and literature (PubMed) sources were queried and returned empty, or were never invoked
-- [ ] **Re-submit Evidence Pack** once the above items are resolved; this report should be regenerated at v5 or later
+**Entscheidung: Aufschub**
+
+**Begründung:**
+Das Evidenzpaket für RISANKIZUMAB (DB14762) ist strukturell unvollständig — sowohl die TxGNN-Vorhersageergebnisse als auch die grundlegenden Sicherheits- und Wirkmechanismus-Daten fehlen, weshalb derzeit keine sinnvolle Bewertung zur Neuindikation oder Evidence-Scoring möglich ist.
+
+**Zum Fortfahren wird folgendes benötigt:**
+
+- [ ] **TxGNN-Pipeline erneut ausführen** für DB14762, um vorhergesagte Indikationen mit Scores zu generieren; überprüfen Sie, dass die Vorhersageausgabe nicht stillschweigend gefiltert wurde
+- [ ] **DG002 auflösen (Blockierend):** PDF der TFDA-Gebrauchsinformation herunterladen und analysieren, um Sicherheitswarnungen und Kontraindikationen zu extrahieren — erforderlich zum Bestehen der S1-Sicherheitsprüfung
+- [ ] **DG001 auflösen (Hoher Schweregrad):** DrugBank-API für `DB14762` abfragen, um den Wirkmechanismus (p19/IL-23-Untereinheit-Hemmung) und pharmakologische Kategorien abzurufen
+- [ ] **Pipeline-Eingaben überprüfen:** Das Feld `meta.inputs_received` enthält nur `"drugbank"` — überprüfen Sie, ob die TFDA-, klinische Studien- (ClinicalTrials.gov) und Literaturquellen (PubMed) abgefragt wurden und leer zurückgegeben wurden, oder überhaupt nicht aufgerufen wurden
+- [ ] **Evidenzpaket neu einreichen**, sobald die obigen Punkte geklärt sind; dieser Bericht sollte ab Version 5 oder später neu generiert werden
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -29,65 +29,64 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-Using no additional skill — this is a direct report-generation task per the provided template, not a coding/debugging workflow.
+# Idebenone: Investigative Neuanwendung auf Hepatische Porphyrie
 
-# Idebenone: Investigational Repurposing Toward Hepatic Porphyria
+## Zusammenfassung in einem Satz
 
-## One-Sentence Summary
+> Das Evidenzpaket dokumentiert nicht Idebenones ursprüngliche zugelassene Indikation oder seinen Wirkmechanismus (beide werden als Datenlücken gekennzeichnet).
+> Das TxGNN-Modell sagt voraus, dass es möglicherweise für **Hepatische Porphyrie** wirksam sein könnte,
+> aber diese Vorhersage wird derzeit durch **0 klinische Studien** und **0 Publikationen** gestützt — sie beruht allein auf topologischer Modellsimilarität.
 
-> The evidence pack does not document Idebenone's original approved indication or mechanism of action (both flagged as data gaps).
-> The TxGNN model predicts it may be effective for **Hepatic Porphyria**,
-> but this prediction is currently supported by **0 clinical trials** and **0 publications** — it rests on topological model similarity alone.
+## Schnelle Übersicht
 
-## Quick Overview
+| Punkt | Inhalt |
+|------|---------|
+| Ursprüngliche Indikation | Nicht im Evidenzpaket dokumentiert |
+| Vorhergesagte neue Indikation | Hepatische Porphyrie |
+| TxGNN-Vorhersage-Score | 99.92% |
+| Evidenzstufe | L5 (nur Modellvorhersage) |
+| Marktstatus Deutschland | Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Ausstehend |
 
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in evidence pack |
-| Predicted New Indication | Hepatic Porphyria |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L5 (model prediction only) |
-| Germany Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+## Warum ist diese Vorhersage angemessen?
 
-## Why is This Prediction Reasonable?
+Derzeit sind detaillierte Wirkmechanismus-Daten für Idebenone nicht im strukturierten Evidenzpaket verfügbar (gekennzeichnet als Datenlücke mit hohem Schweregrad, DG002). Basierend auf den mechanistischen Notizen, die den TxGNN-Vorhersagen beigefügt sind, wird Idebenone als **Coenzym-Q10-Analog** mit mitochondrialer Elektronentransport- und antioxidativer Aktivität beschrieben — diese Charakterisierung stammt aus dem Begründungstext des Modells statt aus einem bestätigten Wirkmechanismus-Datensatz, daher sollte sie als vorläufig behandelt werden.
 
-Currently, detailed mechanism of action data is not available for Idebenone in the structured evidence pack (flagged as a High-severity data gap, DG002). Based on the mechanistic notes attached to the TxGNN predictions, Idebenone is described as a **coenzyme Q10 analog** with mitochondrial electron-transport and antioxidant activity — this characterization comes from the model's rationale text rather than a confirmed MOA record, so it should be treated as provisional.
+Die ursprüngliche zugelassene Indikation ist ebenfalls nicht dokumentiert (`original_indications` ist leer, und es gibt keine Deutschland-Marktzulassungen, um sie daraus abzuleiten). Ohne eine bestätigte ursprüngliche Indikation ist es nicht möglich, die mechanistische Kontinuität zwischen „ursprünglicher Verwendung" und „hepatischer Porphyrie" auf die Weise zu bewerten, wie dieser Bericht es normalerweise tun würde.
 
-The original approved indication is also undocumented (`original_indications` is empty, and no Germany market authorizations exist to infer it from). Without a confirmed original indication, it is not possible to assess mechanistic continuity between "original use" and "hepatic porphyria" in the way this report normally would.
+Das Modell-Rationale selbst ist explizit über die Schwäche dieser Verbindung: Hepatische Porphyrie beinhaltet gestörte Häm-Biosynthese und mögliche sekundäre oxidative Belastung, und während Idebenones antioxidative/mitochondriale Unterstützungseigenschaften theoretisch mit der Verminderung oxidativer Schäden kompatibel sind, **es gibt keinen direkten Beweis, der Idebenone mit Porphyrin-Metabolismus oder ALA/PBG-Regulation verbindet**. Der hohe TxGNN-Score (99.92%) widerspiegelt Netzwerk-/topologische Ähnlichkeit im Wissensgraph des Modells, nicht bestätigte pharmakologische oder klinische Relevanz.
 
-The model's own rationale for this candidate is explicit about the weakness of the link: hepatic porphyria involves disrupted heme biosynthesis and possible secondary oxidative stress, and while Idebenone's antioxidant/mitochondrial-support properties are theoretically compatible with mitigating oxidative injury, **there is no direct evidence connecting Idebenone to porphyrin metabolism or ALA/PBG regulation**. The high TxGNN score (99.92%) reflects network/topological similarity in the model's knowledge graph, not confirmed pharmacological or clinical relevance.
+## Klinische Studienevidenz
 
-## Clinical Trial Evidence
+Derzeit sind keine verwandten klinischen Studien registriert.
 
-Currently no related clinical trials registered.
+## Literaturbeweise
 
-## Literature Evidence
+Derzeit ist keine verwandte Literatur verfügbar.
 
-Currently no related literature available.
+## Informationen zum Deutschland-Markt
 
-## Germany Market Information
+Für Idebenone liegen derzeit keine Marktzulassungen in Deutschland vor (0 Lizenzen vorhanden).
 
-No marketing authorizations are currently registered for Idebenone in Germany (0 licenses on file).
+## Sicherheitsaspekte
 
-## Safety Considerations
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
 
-Please refer to the package insert for safety information.
+## Fazit und nächste Schritte
 
-## Conclusion and Next Steps
+**Entscheidung: Ausstehend**
 
-**Decision: Hold**
+**Begründung:**
+Die Evidenzstufe ist L5 — die Vorhersage der hepatischen Porphyrie basiert ausschließlich auf TxGNN-Modell-Topologie, ohne klinische Studien oder Literaturstütze, und das Modell-Rationale selbst beschreibt die mechanistische Verbindung als indirekt/theoretisch. Daten zur ursprünglichen Indikation und zum Wirkmechanismus fehlen beide, und das Arzneimittel hat derzeit keine Marktpräsenz in Deutschland.
 
-**Rationale:**
-Evidence level is L5 — the hepatic porphyria prediction is based solely on TxGNN model topology, with zero supporting clinical trials or literature, and the model's own rationale describes the mechanistic link as indirect/theoretical. Original indication and MOA data are both missing, and the drug currently has no market presence in Germany.
+**Um fortzufahren, ist folgendes erforderlich:**
+- TFDA/BfArM-Kennzeichnungsdaten (Warnungen, Kontraindikationen) — derzeit eine **blockierende** Datenlücke (DG001); erforderlich vor jeder S1-Sicherheitsbeurteilung
+- Bestätigter Wirkmechanismus aus DrugBank oder Primärliteratur (DG002)
+- Dokumentation von Idebenones ursprünglicher zugelassener Indikation(en), um eine mechanistische Kontinuitätsanalyse zu ermöglichen
+- Präklinische oder mechanistische Studien, die mitochondriale/antioxidative Aktivität speziell mit Porphyrin-Metabolismus oder Häm-Biosynthese-Regulation verbinden
+- Jegliche klinische oder fallbasierte Evidenz der Idebenone-Anwendung bei Porphyrie-Patienten, falls sie außerhalb registrierter Studien existiert
 
-**To proceed, the following is needed:**
-- TFDA/BfArM label data (warnings, contraindications) — currently a **Blocking** gap (DG001); required before any S1 safety screening
-- Confirmed mechanism of action from DrugBank or primary literature (DG002)
-- Documentation of Idebenone's original approved indication(s), to enable mechanistic-continuity analysis
-- Preclinical or mechanistic studies specifically linking mitochondrial/antioxidant activity to porphyrin metabolism or heme biosynthesis regulation
-- Any real-world or case-level evidence of Idebenone use in porphyria patients, if it exists outside registered trials
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

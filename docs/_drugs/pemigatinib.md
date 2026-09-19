@@ -29,72 +29,73 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Pemigatinib: From Unknown Indication to Multiple Endocrine Neoplasia
+# Pemigatinib: Von unbekannter Indikation zu Multiple Endocrine Neoplasia
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Pemigatinib's original approved indication is not documented in this evidence pack (no German market license on file). TxGNN predicts a possible link to **Multiple Endocrine Neoplasia**, but this is currently a pure model prediction — **no clinical trials** and **no published literature** support this specific direction (Evidence Level L5).
+Die ursprüngliche zugelassene Indikation von Pemigatinib ist in diesem Nachweispaket nicht dokumentiert (keine deutsche Marktlizenz vorhanden). TxGNN prognostiziert eine mögliche Verbindung zu **Multiple Endocrine Neoplasia**, doch dies ist derzeit eine reine Modellvorhersage — **keine klinischen Studien** und **keine veröffentlichte Literatur** unterstützen diese spezifische Richtung (Nachweisebene L5).
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available in current data (no German license record) |
-| Predicted New Indication | Multiple Endocrine Neoplasia |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L5 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Nicht verfügbar in aktuellen Daten (kein deutsches Lizenzverzeichnis vorhanden) |
+| Prognostizierte neue Indikation | Multiple Endocrine Neoplasia |
+| TxGNN-Prognosescore | 99,71% |
+| Nachweisebene | L5 |
+| Status auf dem deutschen Markt | ✗ Nicht vermarktet |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | Abwarten |
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage sinnvoll?
 
-No confirmed original indication or DrugBank MOA record exists in this evidence pack. Based on the mechanistic notes attached to related candidate predictions, Pemigatinib is described as a selective **FGFR1/2/3 (fibroblast growth factor receptor) inhibitor**, consistent with its known class as a kinase-targeted agent.
+Keine bestätigte ursprüngliche Indikation oder DrugBank-MOA-Datensatz existiert in diesem Nachweispaket. Basierend auf den mechanistischen Hinweisen, die mit verwandten Kandidatenvorhersagen verbunden sind, wird Pemigatinib als selektiver **FGFR1/2/3 (Fibroblast Growth Factor Receptor) Inhibitor** beschrieben, konsistent mit seiner bekannten Klassifizierung als zielgerichteter Kinase-Agent.
 
-For the top-ranked prediction, Multiple Endocrine Neoplasia (MEN), the underlying rationale is weak: MEN pathogenesis is driven mainly by **RET** and **MEN1** gene abnormalities, which have no established mechanistic overlap with the FGFR1–3 signaling pathway targeted by Pemigatinib. The prediction score is high, but it is not anchored by any known biological connection, clinical trial, or literature — it reflects the TxGNN model's statistical association only.
+Für die höchstrangig prognostizierte Indikation – Multiple Endocrine Neoplasia (MEN) – ist die zugrunde liegende Begründung schwach: Die MEN-Pathogenese wird hauptsächlich durch Anomalien der Gene **RET** und **MEN1** angetrieben, die keine etablierte mechanistische Überlappung mit dem FGFR1–3-Signalweg aufweisen, der von Pemigatinib anvisiert wird. Der Prognosescore ist hoch, aber er ist nicht durch irgendeine bekannte biologische Verbindung, klinische Studie oder Literatur verankert — er spiegelt nur die statistische Assoziation des TxGNN-Modells wider.
 
-For context, a lower-ranked candidate (HER2 positive breast carcinoma, rank 3) has a more plausible mechanistic story — FGFR1/2 amplification is a known resistance mechanism to anti-HER2 therapy — but even that candidate is only supported by a general 2021 kinase-inhibitor review (PMID 33513356), not indication-specific evidence, and sits at Evidence Level L4 / decision stage S1 ("Research Question").
+Zur Kontextualisierung: Ein niedriger rangierter Kandidat (HER2-positives Mammakarzinom, Rang 3) hat eine plausiblere mechanistische Begründung — FGFR1/2-Amplifikation ist ein bekannter Resistenzmechanismus gegen Anti-HER2-Therapie — doch auch dieser Kandidat wird nur durch eine allgemeine Kinase-Inhibitor-Übersicht von 2021 (PMID 33513356) gestützt, nicht durch indikationsspezifische Belege, und befindet sich auf der Nachweisebene L4 / im Entscheidungsstadium S1 („Forschungsfrage").
 
-## Clinical Trial Evidence
+## Belege aus klinischen Studien
 
-Currently no related clinical trials registered.
+Derzeit sind keine verwandten klinischen Studien registriert.
 
-## Literature Evidence
+## Belege aus der Literatur
 
-Currently no related literature available.
+Derzeit ist keine verwandte Literatur verfügbar.
 
-## Germany Market Information
+## Informationen zum deutschen Markt
 
-No German market authorization currently exists for Pemigatinib (market status: Not Marketed, 0 licenses on file).
+Es existiert derzeit keine deutsche Marktzulassung für Pemigatinib (Marktstatus: Nicht vermarktet, 0 Lizenzen vorhanden).
 
-## Cytotoxicity
+## Zytotoxizität
 
-Pemigatinib is a kinase-targeted antineoplastic agent (FGFR1/2/3 inhibitor class), based on the mechanistic description available in this evidence pack.
+Pemigatinib ist ein zielgerichtetes antineoplastisches Mittel (FGFR1/2/3-Inhibitor-Klasse), basierend auf der in diesem Nachweispaket verfügbaren mechanistischen Beschreibung.
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (FGFR1/2/3 selective kinase inhibitor) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| Element | Inhalt |
+|---------|--------|
+| Zytotoxizitätsklassifizierung | Zielgerichtete Therapie (selektiver FGFR1/2/3-Kinase-Inhibitor) |
+| Myelosuppressions-Risiko | Bitte beachten Sie die Fachinformationen bezüglich Warnhinweise und Vorsichtsmaßnahmen |
+| Emetogenitätsklassifizierung | Bitte beachten Sie die Fachinformationen bezüglich Warnhinweise und Vorsichtsmaßnahmen |
+| Überwachungselemente | Bitte beachten Sie die Fachinformationen bezüglich Warnhinweise und Vorsichtsmaßnahmen |
+| Schutzmaßnahmen bei der Handhabung | Bitte beachten Sie die Fachinformationen bezüglich Warnhinweise und Vorsichtsmaßnahmen |
 
-## Safety Considerations
+## Sicherheitsaspekte
 
-Please refer to the package insert for safety information.
+Bitte beachten Sie die Fachinformationen für Sicherheitsinformationen.
 
-## Conclusion and Next Steps
+## Fazit und nächste Schritte
 
-**Decision: Hold**
+**Entscheidung: Abwarten**
 
-**Rationale:**
-The top-ranked predicted indication (Multiple Endocrine Neoplasia) has no clinical trial or literature support and lacks a credible mechanistic link (Evidence Level L5). This is compounded by two data gaps: the TFDA/package-insert safety data is missing (Blocking severity — required before any S1 safety pre-assessment), and confirmed MOA data is not yet retrieved from DrugBank (High severity).
+**Begründung:**
+Die höchstrangig prognostizierte Indikation (Multiple Endocrine Neoplasia) hat keine Unterstützung durch klinische Studien oder Literatur und weist keine glaubwürdige mechanistische Verbindung auf (Nachweisebene L5). Dies wird durch zwei Datenlücken verstärkt: Die TFDA-/Fachinformations-Sicherheitsdaten fehlen (Sperrende Schwere – erforderlich vor jeder S1-Sicherheitsvorbewertung), und bestätigte MOA-Daten wurden noch nicht aus DrugBank abgerufen (Hohe Schwere).
 
-**To proceed, the following is needed:**
-- Retrieve TFDA package insert (warnings/contraindications) to clear the Blocking data gap (DG001)
-- Confirm DrugBank MOA record for Pemigatinib (DG002)
-- If pursuing repurposing, prioritize the HER2 positive breast carcinoma candidate (rank 3) over MEN, as it has a more defensible mechanistic rationale, though it still requires indication-specific clinical or preclinical evidence before advancing past "Research Question" stage
-- Confirm original approved indication and any existing market license status before drafting a repurposing strategy
+**Um fortzufahren, wird Folgendes benötigt:**
+- Abruf der TFDA-Fachinformation (Warnhinweise/Kontraindikationen) zur Beseitigung der sperrenden Datenlücke (DG001)
+- Bestätigung des DrugBank-MOA-Eintrags für Pemigatinib (DG002)
+- Bei Verfolgung der Umwidmung sollte der HER2-positive Mammakarzinom-Kandidat (Rang 3) Priorität vor MEN erhalten, da er eine verteidigbarere mechanistische Begründung hat, obwohl er immer noch indikationsspezifische klinische oder präklinische Belege benötigt, bevor er die Stufe „Forschungsfrage" überschreitet
+- Bestätigung der ursprünglichen zugelassenen Indikation und des aktuellen Marktzulassungsstatus vor Erstellung einer Umwidmungsstrategie
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -29,110 +29,111 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Etravirine: From HIV-1 Infection (NNRTI-Class) to Congenital HIV Infection (Perinatal Transmission Prevention)
+# Etravirine: Von HIV-1-Infektion (NNRTI-Klasse) zur kongenitalen HIV-Infektion (Prävention der perinatalen Übertragung)
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Etravirine is a second-generation non-nucleoside reverse transcriptase inhibitor (NNRTI) used for HIV-1 infection, particularly in NNRTI-experienced adults. Among the 10 TxGNN-predicted indications in this evidence pack, most (including the top-ranked "feline acquired immunodeficiency syndrome") show no credible mechanistic support and are flagged as likely model noise. The one candidate with real evidentiary weight — **Congenital HIV Infection / perinatal transmission prevention** — is supported by **13 clinical trials** (including Phase 3 regimen studies and pregnancy-specific pharmacokinetic trials) and **1 publication**, reflecting a natural life-cycle extension of etravirine's existing HIV-1 use rather than a truly novel mechanism.
+> Etravirine ist ein Inhibitor der Reverse-Transkriptase der zweiten Generation aus der Nichtnukleosidklasse (NNRTI), das für die HIV-1-Infektion verwendet wird, insbesondere bei NNRTI-erfahrenen Erwachsenen. Unter den 10 von TxGNN vorhergesagten Indikationen in diesem Evidenzpaket zeigen die meisten (einschließlich der höchstgestuften „Feline Immunodeficiency Syndrome") keine glaubwürdige mechanistische Unterstützung und werden als wahrscheinliches Modellrauschen gekennzeichnet. Der einzige Kandidat mit echter Evidenzstärke — **Kongenitale HIV-Infektion/Prävention der perinatalen Übertragung** — wird durch **13 klinische Studien** (einschließlich Phase-3-Therapieschema-Studien und schwangerschaftsspezifischen pharmakokinetischen Studien) und **1 Publikation** unterstützt, was eine natürliche Lebenszyklus-Erweiterung der bestehenden HIV-1-Verwendung von Etravirine darstellt, anstatt eines wirklich neuartigen Mechanismus.
 
-> ⚠️ Note: The evidence pack's top-ranked prediction by raw TxGNN score is "feline acquired immunodeficiency syndrome" (a veterinary/cross-species entity) and "simian immunodeficiency virus infection," both scored L5/Hold with explicit rationale stating there is no mechanistic support. This report focuses instead on the highest-quality, evidence-backed candidate (rank 5, L2) rather than the raw top-score entry, to avoid presenting a misleading headline.
+> ⚠️ Hinweis: Die von TxGNN nach Rohmesswert höchstbewertete Vorhersage in diesem Evidenzpaket ist „Feline Acquired Immunodeficiency Syndrome" (eine veterinärmedizinische/artübergreifende Entität) und „Simian Immunodeficiency Virus Infection", beide mit L5/Hold bewertet und expliziter Begründung, dass es keine mechanistische Unterstützung gibt. Dieser Bericht konzentriert sich stattdessen auf den Kandidaten mit der höchsten Evidenzqualität (Rang 5, L2), um eine irreführende Überschrift zu vermeiden.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Element | Inhalt |
 |------|------|
-| Original Indication | HIV-1 infection, NNRTI-resistance setting *(structured field is a data gap; drawn from repurposing_rationale text)* |
-| Predicted New Indication | Congenital HIV Infection (perinatal/vertical transmission prevention) |
-| TxGNN Prediction Score | 99.79% (rank 3016 of model output) |
-| Evidence Level | L2 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | HIV-1-Infektion, NNRTI-Resistenz-Setting *(strukturiertes Feld ist eine Datenlücke; entnommen aus repurposing_rationale-Text)* |
+| Vorhergesagte neue Indikation | Kongenitale HIV-Infektion (perinatale/vertikale Übertragungsprävention) |
+| TxGNN-Vorhersageergebnis | 99,79% (Rang 3016 der Modellausgabe) |
+| Evidenzstufe | L2 |
+| Marktstatus in Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage angemessen?
 
-Currently, detailed mechanism of action (MOA) data is not available for etravirine in this evidence pack (data gap DG002). Based on the information available, etravirine is a diarylpyrimidine NNRTI approved for HIV-1 infection, and its core indication — treatment of HIV-1 in patients with documented NNRTI resistance — is well established. Congenital/perinatal HIV infection is not a distinct disease mechanism but part of the same HIV-1 disease spectrum, transmitted from mother to child; preventing it relies on suppressing maternal HIV-1 viral load with the same class of antiretroviral agents used in adult treatment.
+Derzeit sind detaillierte Wirkmechanismus-Daten (MOA) für Etravirine in diesem Evidenzpaket nicht verfügbar (Datenlücke DG002). Basierend auf den verfügbaren Informationen ist Etravirine ein Diarylpyrimidin-NNRTI, das für die HIV-1-Infektion zugelassen ist, und seine Kernindikation — Behandlung von HIV-1 bei Patienten mit dokumentierter NNRTI-Resistenz — ist gut etabliert. Kongenitale/perinatale HIV-Infektion ist kein eigenständiger Krankheitsmechanismus, sondern Teil des gleichen HIV-1-Krankheitsspektrums, das von Mutter zu Kind übertragen wird; ihre Prävention beruht auf der Unterdrückung der viralen Belastung der Mutter mit der gleichen Klasse von antiretroviralen Wirkstoffen, die in der Erwachsenenbehandlung verwendet werden.
 
-This is reflected directly in the evidence: several Phase 3 trials in this pack (e.g., NCT00855335, NCT00042289) specifically study antiretroviral pharmacokinetics — including etravirine — in HIV-1-infected pregnant women, and one Phase 1 trial (NCT04630002) directly evaluates etravirine drug-drug interactions in combination therapy. This indicates the "new indication" is less a mechanistic leap and more an extension of etravirine's known use into the perinatal population, which is why it is the only candidate in this pack reaching evidence level L2.
+Dies wird direkt in der Evidenz widergespiegelt: Mehrere Phase-3-Studien in diesem Paket (z. B. NCT00855335, NCT00042289) untersuchen speziell die Pharmakokinetik von Antiretroviren — einschließlich Etravirine — bei HIV-1-infizierten schwangeren Frauen, und eine Phase-1-Studie (NCT04630002) bewertet direkt Etravirine-Arzneimittelwechselwirkungen in Kombinationstherapie. Dies deutet darauf hin, dass die „neue Indikation" weniger ein mechanistischer Sprung ist und eher eine Ausweitung von Etravirines bekannter Verwendung auf die perinatale Population darstellt, weshalb sie die einzige Kandidatin in diesem Paket ist, die Evidenzstufe L2 erreicht.
 
-By contrast, the model's top three ranked predictions — feline AIDS, simian immunodeficiency virus infection, and a rare neurodevelopmental disorder — lack any plausible biological link to etravirine's NNRTI mechanism, as explicitly stated in the pack's own rationale text (cross-species/cross-family enzyme mismatch, or no known pathway overlap at all). These are treated as likely model artifacts rather than genuine repurposing signals.
+Im Gegensatz dazu fehlen den drei am höchsten bewerteten Modellvorhersagen — Feline AIDS, Simian-Immunodeficiency-Virus-Infektion und eine seltene neurodevelopmentale Störung — jegliche plausible biologische Verbindung zum NNRTI-Mechanismus von Etravirine, wie in der Begründungstexte des Pakets selbst explizit dargelegt (artübergreifender/familien-übergreifender Enzym-Mismatch oder überhaupt keine bekannte Pfad-Überlappung). Diese werden als wahrscheinliche Modellartefakte anstelle echter Repurposing-Signale behandelt.
 
 ---
 
-## Clinical Trial Evidence
+## Evidenz aus klinischen Studien
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Studiennummer | Phase | Status | Einschluss | Wichtigste Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT00855335](https://clinicaltrials.gov/study/NCT00855335) | Phase 3 | Completed | 77 | PK of darunavir, ritonavir, etravirine, and rilpivirine specifically in HIV-1-infected pregnant women |
-| [NCT00042289](https://clinicaltrials.gov/study/NCT00042289) | Phase 4 | Completed | 1578 | IMPAACT P1026s — PK of antiretrovirals (incl. etravirine-class agents) during pregnancy/postpartum |
-| [NCT04630002](https://clinicaltrials.gov/study/NCT04630002) | Phase 1 | Completed | 54 | Drug-drug interaction study of darunavir/ritonavir and/or etravirine with GSK3640254 |
-| [NCT01199731](https://clinicaltrials.gov/study/NCT01199731) | Phase 2b | Terminated | 30 | GSK2248761 dose-selection study using open-label etravirine 200mg BID as control arm |
-| [NCT07412977](https://clinicaltrials.gov/study/NCT07412977) | N/A | Not yet recruiting | 5160 | VIROPREG — French cohort on viral infections (incl. HIV) and antiviral treatment impact on pregnancy/mother-to-child transmission |
-| [NCT02951052](https://clinicaltrials.gov/study/NCT02951052) | Phase 3 | Active, not recruiting | 618 | ATLAS — switching virologically suppressed HIV-1 adults to long-acting cabotegravir + rilpivirine |
-| [NCT02429791](https://clinicaltrials.gov/study/NCT02429791) | Phase 3 | Completed | 510 | Switching to dolutegravir + rilpivirine from INI-/NNRTI-/PI-based regimen in suppressed HIV-1 adults |
-| [NCT02422797](https://clinicaltrials.gov/study/NCT02422797) | Phase 3 | Completed | 518 | Same design as above, second cohort |
-| [NCT03299049](https://clinicaltrials.gov/study/NCT03299049) | Phase 3b | Active, not recruiting | 1049 | ATLAS-2M — long-acting cabotegravir + rilpivirine dosed Q8W vs Q4W |
-| [NCT02938520](https://clinicaltrials.gov/study/NCT02938520) | Phase 3 | Active, not recruiting | 631 | FLAIR — long-acting IM cabotegravir/rilpivirine maintenance after switch from INI regimen |
+| [NCT00855335](https://clinicaltrials.gov/study/NCT00855335) | Phase 3 | Abgeschlossen | 77 | PK von Darunavir, Ritonavir, Etravirine und Rilpivirine speziell bei HIV-1-infizierten schwangeren Frauen |
+| [NCT00042289](https://clinicaltrials.gov/study/NCT00042289) | Phase 4 | Abgeschlossen | 1578 | IMPAACT P1026s — PK von Antiretroviren (einschließlich Etravirine-Klasse-Wirkstoffe) während Schwangerschaft/Postpartum |
+| [NCT04630002](https://clinicaltrials.gov/study/NCT04630002) | Phase 1 | Abgeschlossen | 54 | Arzneimittelwechselwirkungsstudie von Darunavir/Ritonavir und/oder Etravirine mit GSK3640254 |
+| [NCT01199731](https://clinicaltrials.gov/study/NCT01199731) | Phase 2b | Beendet | 30 | GSK2248761-Dosis-Selektionsstudie mit offener Etravirine 200 mg 2x täglich als Kontrollarm |
+| [NCT07412977](https://clinicaltrials.gov/study/NCT07412977) | K.A. | Noch nicht Rekrutierung | 5160 | VIROPREG — Französische Kohorte zu viralen Infektionen (einschließlich HIV) und Einfluss antiviraler Behandlung auf Schwangerschaft/Mutter-zu-Kind-Übertragung |
+| [NCT02951052](https://clinicaltrials.gov/study/NCT02951052) | Phase 3 | Aktiv, keine Rekrutierung | 618 | ATLAS — Umstieg von virologisch unterdrückten HIV-1-Erwachsenen auf lang wirkendes Cabotegravir + Rilpivirine |
+| [NCT02429791](https://clinicaltrials.gov/study/NCT02429791) | Phase 3 | Abgeschlossen | 510 | Umstieg auf Dolutegravir + Rilpivirine von INI-/NNRTI-/PI-basiertem Regime bei unterdrückten HIV-1-Patienten |
+| [NCT02422797](https://clinicaltrials.gov/study/NCT02422797) | Phase 3 | Abgeschlossen | 518 | Gleiches Design wie oben, zweite Kohorte |
+| [NCT03299049](https://clinicaltrials.gov/study/NCT03299049) | Phase 3b | Aktiv, keine Rekrutierung | 1049 | ATLAS-2M — lang wirkendes Cabotegravir + Rilpivirine in Q8W vs Q4W Dosierung |
+| [NCT02938520](https://clinicaltrials.gov/study/NCT02938520) | Phase 3 | Aktiv, keine Rekrutierung | 631 | FLAIR — lang wirkendes IM Cabotegravir/Rilpivirine-Erhaltung nach Umstieg von INI-Regime |
 
-*Excluded from this table: NCT04273165 (Friedreich Ataxia trial — confirmed database mismatch, unrelated to HIV) and NCT01458132 (GSK drug-exposure registry, etravirine involvement unconfirmed).*
+*Ausgeschlossen aus dieser Tabelle: NCT04273165 (Friedreich-Ataxie-Studie — bestätigter Datenbank-Mismatch, nicht verwandt mit HIV) und NCT01458132 (GSK-Arzneimittelexpositionsregister, Etravirine-Beteiligung unbestätigt).*
 
 ---
 
-## Literature Evidence
+## Evidenz aus der Literatur
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Zeitschrift | Wichtigste Ergebnisse |
 |------|-----|------|------|---------|
-| [20587860](https://pubmed.ncbi.nlm.nih.gov/20587860/) | 2010 | Cohort/Case series | Antiviral Therapy | Two case reports on use of darunavir and etravirine (± raltegravir) in pregnancy for highly treatment-experienced HIV patients |
+| [20587860](https://pubmed.ncbi.nlm.nih.gov/20587860/) | 2010 | Kohorte/Fallserie | Antiviral Therapy | Zwei Fallberichte zur Verwendung von Darunavir und Etravirine (± Raltegravir) in der Schwangerschaft für hochgradig behandlungserfahrene HIV-Patienten |
 
 ---
 
-## Other TxGNN Predictions (Screened Out)
+## Weitere TxGNN-Vorhersagen (ausgeschlossen)
 
-For transparency, the remaining 9 predicted indications in this evidence pack are summarized below. All were assessed as insufficiently supported for further action:
+Aus Transparenzgründen werden die verbleibenden 9 vorhergesagten Indikationen in diesem Evidenzpaket unten zusammengefasst. Alle wurden als unzureichend unterstützt für weitere Maßnahmen bewertet:
 
-| Rank | Disease | Evidence Level | Decision | Reason |
+| Rang | Erkrankung | Evidenzstufe | Entscheidung | Begründung |
 |------|---------|----------------|----------|--------|
-| 1 | Feline acquired immunodeficiency syndrome | L5 | Hold | Cross-species mismatch; FIV reverse transcriptase not a designed target |
-| 2 | Simian immunodeficiency virus infection | L4 | Hold | Only indirect in vitro nanoparticle-delivery literature; no direct SIV-RT inhibition data |
-| 3 | Rare neurodevelopmental disorder (ataxic gait/absent speech) | L5 | Hold | No mechanistic link; likely model noise |
-| 4 | AIDS related complex | L3 | Research Question | Within core HIV-1 disease spectrum; evidence indirect (PROTEKT trial relevance unconfirmed) |
-| 6 | Fibroma of prostate | L5 | Hold | No mechanistic link |
-| 7 | Brenner tumor | L5 | Hold | No mechanistic link |
-| 8 | Benign reproductive system neoplasm | L5 | Hold | Non-specific disease category, no biological hypothesis |
-| 9 | Benign prostate phyllodes tumor | L5 | Hold | No mechanistic link |
-| 10 | Obsolete familial combined hyperlipidemia | L5 | Hold | Reflects a known NNRTI side effect (dyslipidemia), not a treatment use; disease class is obsolete |
+| 1 | Feline Acquired Immunodeficiency Syndrome | L5 | Hold | Artübergreifender Mismatch; FIV-Reverse-Transkriptase nicht als Ziel konzipiert |
+| 2 | Simian Immunodeficiency Virus Infection | L4 | Hold | Nur indirekte In-vitro-Nanopartikel-Literatur; keine direkten SIV-RT-Inhibitionsdaten |
+| 3 | Seltene neurodevelopmentale Störung (ataktischer Gang/fehlendes Sprechen) | L5 | Hold | Kein mechanistischer Link; wahrscheinlich Modellrauschen |
+| 4 | AIDS-related complex | L3 | Forschungsfrage | Innerhalb des Kern-HIV-1-Krankheitsspektrums; Evidenz indirekt (PROTEKT-Studienrelevanz unbestätigt) |
+| 6 | Fibrom der Prostata | L5 | Hold | Kein mechanistischer Link |
+| 7 | Brenner-Tumor | L5 | Hold | Kein mechanistischer Link |
+| 8 | Benignes Neoplasma des Reproduktionssystems | L5 | Hold | Nicht-spezifische Krankheitskategorie, keine biologische Hypothese |
+| 9 | Benignes Phyllodes-Tumor der Prostata | L5 | Hold | Kein mechanistischer Link |
+| 10 | Veraltetes familiäres kombiniertes Lipidstoffwechsel | L5 | Hold | Spiegelt eine bekannte NNRTI-Nebenwirkung (Dyslipidämie) wider, nicht einer therapeutischen Verwendung; Krankheitsklasse ist veraltet |
 
 ---
 
-## Germany Market Information
+## Marktinformationen für Deutschland
 
-Etravirine currently has **no marketing authorization records** in the German dataset (`taiwan_regulatory.total_licenses = 0`). No product, dosage form, or approved indication text is available.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. Key warnings, contraindications, and drug-drug interaction data are not available in this evidence pack (flagged as Blocking data gap DG001 — TFDA label warnings/contraindications).
+Etravirine hat derzeit **keine Zulassungsaufzeichnungen** im deutschen Datensatz (`taiwan_regulatory.total_licenses = 0`). Keine Produktinformation, Darreichungsform oder genehmigter Indikationstext ist verfügbar.
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsaspekte
 
-**Decision: Hold**
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. Wichtige Warnhinweise, Kontraindikationen und Arzneimittelwechselwirkungsdaten sind in diesem Evidenzpaket nicht verfügbar (gekennzeichnet als Blockierende Datenlücke DG001 — TFDA-Etikett Warnhinweise/Kontraindikationen).
 
-**Rationale:**
-The most credible predicted indication — congenital/perinatal HIV infection — is mechanistically coherent (same virus, same drug class, extension into pregnancy) and supported by Phase 3 and pregnancy-specific PK trials, reaching evidence level L2. However, the drug currently has zero marketing authorizations in Germany, and a **Blocking** data gap (missing TFDA label warnings/contraindications) prevents completion of the S1 safety screen. The remaining 9 predicted indications lack credible mechanistic or clinical support and should not be pursued.
+---
 
-**To proceed, the following is needed:**
-- TFDA product label (warnings, contraindications) — currently a Blocking gap (DG001)
-- Original mechanism of action documentation from DrugBank — currently a High-severity gap (DG002)
-- Confirmation of etravirine's original approved indication(s), which are currently unpopulated in this record
-- If pursuing the perinatal-transmission indication: a dedicated efficacy/safety study of etravirine specifically for prevention of vertical HIV transmission, since existing trials (PK studies, regimen-switch trials) do not directly test this endpoint
-- Clarification of German/EU market access pathway, given the drug is currently unmarketed
+## Fazit und nächste Schritte
+
+**Entscheidung: Hold**
+
+**Begründung:**
+Die glaubwürdigste vorhergesagte Indikation — kongenitale/perinatale HIV-Infektion — ist mechanistisch kohärent (gleiches Virus, gleiche Wirkstoffklasse, Ausweitung auf Schwangerschaft) und wird durch Phase-3- und schwangerschaftsspezifische PK-Studien unterstützt, wobei Evidenzstufe L2 erreicht wird. Der Wirkstoff hat jedoch derzeit null Zulassungen in Deutschland, und eine **Blockierende** Datenlücke (fehlende TFDA-Etikett-Warnhinweise/Kontraindikationen) verhindert die Fertigstellung des S1-Sicherheit-Screens. Die verbleibenden 9 vorhergesagten Indikationen fehlt glaubwürdige mechanistische oder klinische Unterstützung und sollten nicht verfolgt werden.
+
+**Zum Fortfahren ist Folgendes erforderlich:**
+- TFDA-Produktetikett (Warnhinweise, Kontraindikationen) — derzeit eine Blockierende Lücke (DG001)
+- Ursprüngliche Wirkmechanismus-Dokumentation aus DrugBank — derzeit eine hochschwere Lücke (DG002)
+- Bestätigung von Etravirines ursprünglich zugelassener Indikation(en), die derzeit in diesem Datensatz nicht gefüllt sind
+- Falls die perinatale Übertragungsprävention-Indikation verfolgt wird: eine dedizierte Wirksamkeits-/Sicherheitsstudie von Etravirine speziell zur Prävention der vertikalen HIV-Übertragung, da bestehende Studien (PK-Studien, Therapieschema-Switch-Studien) diesen Endpunkt nicht direkt testen
+- Klarstellung des deutschen/EU-Marktzugangswegs, angesichts der Tatsache, dass das Arzneimittel derzeit nicht vermarktet ist
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

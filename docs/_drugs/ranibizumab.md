@@ -29,51 +29,52 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Ranibizumab: Repurposing Evaluation — No TxGNN Prediction Available
+# Ranibizumab: Neuanwendungsbewertung — Keine TxGNN-Vorhersage verfügbar
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Ranibizumab is an anti-VEGF monoclonal antibody fragment known internationally under the brand name Lucentis, used primarily for ocular neovascular conditions such as wet age-related macular degeneration.
-The TxGNN model has **not generated any predicted new indications** for this drug in the current run,
-and **no clinical trial or literature evidence** is included in this Evidence Pack.
-This report reflects the current data availability and outlines what is needed before evaluation can proceed.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not recorded in this Evidence Pack |
-| Predicted New Indication | None — TxGNN output not available |
-| TxGNN Prediction Score | Not available |
-| Evidence Level | L5 (Model prediction only — no actual studies linked) |
-| Market Status | Not marketed (0 authorizations on record) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+Ranibizumab ist ein monoklonales Anti-VEGF-Antikörperfragment, das international unter dem Handelsnamen Lucentis bekannt ist und hauptsächlich zur Behandlung okulärer neovaskulärer Erkrankungen wie feuchter altersbedingter Makuladegeneration verwendet wird.
+Das TxGNN-Modell hat für dieses Medikament **keine vorhergesagten neuen Indikationen generiert**,
+und **keine klinischen Studien oder Literaturbeweise** sind in diesem Evidence Pack enthalten.
+Dieser Bericht spiegelt die aktuelle Datenverfügbarkeit wider und zeigt auf, was erforderlich ist, bevor die Bewertung fortgesetzt werden kann.
 
 ---
 
-## Safety Considerations
+## Schnellübersicht
 
-Please refer to the package insert for safety information.
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Nicht in diesem Evidence Pack aufgezeichnet |
+| Vorhergesagte neue Indikation | Keine — TxGNN-Ausgabe nicht verfügbar |
+| TxGNN-Vorhersage-Score | Nicht verfügbar |
+| Evidenzgrad | L5 (Nur Modellvorhersage — keine tatsächlichen Studien verlinkt) |
+| Marktstand | Nicht auf dem Markt (0 Zulassungen verzeichnet) |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | **Zurückstellung** |
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsaspekte
 
-**Decision: Hold**
+Bitte beachten Sie die Gebrauchsinformation für Sicherheitsinformationen.
 
-**Rationale:**
-This Evidence Pack is missing the four core inputs required for a repurposing evaluation — predicted indications, original indication text, mechanism of action, and safety profile. Without these, neither clinical plausibility nor risk assessment can be performed.
+---
 
-**To proceed, the following is needed:**
+## Schlussfolgerung und nächste Schritte
 
-- **TxGNN prediction output** — `predicted_indications` is currently an empty list; re-run the TxGNN pipeline for DB01270 and verify that the mapping step successfully linked Ranibizumab to disease nodes
-- **Original indication data** — `original_indications` is empty; retrieve approved indication text from the DrugBank entry or the package insert
-- **Mechanism of action (MOA)** — flagged as a High-severity data gap; query the DrugBank API for DB01270 to obtain the pharmacological mechanism
-- **Safety data** — key warnings and contraindications are missing; download and parse the package insert PDF to populate these fields
-- **Regulatory status verification** — confirm whether the 0-license result reflects the actual market status or a query coverage limitation
+**Entscheidung: Zurückstellung**
+
+**Begründung:**
+Diesem Evidence Pack fehlen die vier wesentlichen Eingaben, die für eine Neuanwendungsbewertung erforderlich sind — vorhergesagte Indikationen, Text der ursprünglichen Indikation, Wirkmechanismus und Sicherheitsprofil. Ohne diese können weder die klinische Plausibilität noch die Risikobewertung durchgeführt werden.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+
+- **TxGNN-Vorhersage-Ausgabe** — `predicted_indications` ist derzeit eine leere Liste; führen Sie die TxGNN-Pipeline für DB01270 erneut aus und überprüfen Sie, dass der Zuordnungsschritt Ranibizumab erfolgreich mit Krankheitsknoten verknüpft hat
+- **Originalindikationsdaten** — `original_indications` ist leer; rufen Sie den genehmigten Indikationstext aus dem DrugBank-Eintrag oder der Gebrauchsinformation ab
+- **Wirkmechanismus (MOA)** — gekennzeichnet als hochgradige Datenlücke; fragen Sie die DrugBank-API für DB01270 ab, um den pharmakologischen Mechanismus zu erhalten
+- **Sicherheitsdaten** — wichtige Warnhinweise und Kontraindikationen fehlen; laden Sie die PDF der Gebrauchsinformation herunter und analysieren Sie diese, um diese Felder auszufüllen
+- **Überprüfung des Regulierungsstatus** — bestätigen Sie, ob das Ergebnis „0 Lizenzen" den tatsächlichen Marktstand widerspiegelt oder eine Abfrageabdeckungsbeschränkung darstellt
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

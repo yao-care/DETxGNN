@@ -29,66 +29,67 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0**
 
 </div>
 
-# Bupropion Hydrochloride: Repurposing Evaluation — Insufficient Data for Full Assessment
+# Bupropion Hydrochloride: Repositionierungsbewertung — Unzureichende Daten für eine vollständige Bewertung
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Bupropion Hydrochloride is a drug with no approved indications on record in Taiwan and no TxGNN repurposing predictions available in this Evidence Pack. A complete repurposing evaluation cannot be conducted at this stage — essential data including mechanism of action, original indications, and model output are all absent.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not available — no Taiwan licenses found |
-| Predicted New Indication | No predictions available |
-| TxGNN Prediction Score | — |
-| Evidence Level | L5 (model prediction absent; no supporting studies retrievable) |
-| Taiwan Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+Bupropion Hydrochloride ist ein Arzneimittel ohne zugelassene Indikationen in Taiwan und ohne verfügbare TxGNN-Repositionierungsprognosen in diesem Evidence Pack. Eine vollständige Repositionierungsbewertung kann in diesem Stadium nicht durchgeführt werden — wesentliche Daten wie Wirkmechanismus, ursprüngliche Indikationen und Modellausgabe fehlen alle.
 
 ---
 
-## Why This Evaluation Cannot Proceed
+## Schnellübersicht
 
-The Evidence Pack for this candidate is structurally incomplete in two critical areas:
-
-**No TxGNN predictions were returned.** The `predicted_indications` array is empty, meaning either the TxGNN pipeline has not been run for this drug, or no above-threshold indications were identified. Without at least one predicted indication, the core sections of a repurposing report — mechanistic rationale, clinical trial linkage, literature mapping — cannot be populated.
-
-**Drug-level metadata is missing.** Although the query log records a successful DrugBank lookup (1 result) and a successful TFDA package insert retrieval (1 result), neither the mechanism of action nor the original approved indications have been integrated into the Evidence Pack fields. The `original_moa` field remains `[Data Gap]` and `original_indications` is an empty array. This prevents any mechanistic analysis.
-
----
-
-## Taiwan Market Information
-
-No authorizations on record. The TFDA query returned 0 results, and market status is confirmed as **Not marketed** in Taiwan.
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Nicht verfügbar — keine Taiwan-Lizenzen gefunden |
+| Vorhergesagte neue Indikation | Keine Prognosen verfügbar |
+| TxGNN-Vorhersagepunktzahl | — |
+| Evidenzebene | L5 (Modellvorhersage nicht vorhanden; keine unterstützenden Studien abrufbar) |
+| Taiwan-Marktstatus | ✗ Nicht auf dem Markt |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | **Zurückstellen** |
 
 ---
 
-## Safety Considerations
+## Warum diese Bewertung nicht fortgesetzt werden kann
 
-Please refer to the package insert for safety information.
+Das Evidence Pack für diesen Kandidaten ist strukturell in zwei kritischen Bereichen unvollständig:
 
-(Safety warnings and contraindications were not populated despite a successful TFDA package insert query being logged. DDI data was not found.)
+**Keine TxGNN-Prognosen wurden zurückgegeben.** Das `predicted_indications`-Array ist leer, was bedeutet, dass entweder die TxGNN-Pipeline für dieses Arzneimittel nicht ausgeführt wurde oder keine oberhalb der Schwelle liegenden Indikationen identifiziert wurden. Ohne mindestens eine prognostizierte Indikation können die Kernbereiche eines Repositionierungsberichts — mechanistische Begründung, Verknüpfung mit klinischen Studien, Literaturzuordnung — nicht gefüllt werden.
+
+**Metadaten auf Arzneimittelebene fehlen.** Obwohl das Abfrageprotokoll eine erfolgreiche DrugBank-Suche (1 Ergebnis) und einen erfolgreichen Abruf der TFDA-Packungsbeilage (1 Ergebnis) verzeichnet, wurden weder der Wirkmechanismus noch die ursprünglichen zugelassenen Indikationen in die Evidence Pack-Felder integriert. Das `original_moa`-Feld bleibt auf `[Data Gap]` und `original_indications` ist ein leeres Array. Dies verhindert eine mechanistische Analyse.
 
 ---
 
-## Conclusion and Next Steps
+## Taiwan-Marktinformationen
 
-**Decision: Hold**
+Keine Zulassungen erfasst. Die TFDA-Abfrage hat 0 Ergebnisse zurückgegeben, und der Marktstatus ist als **Nicht auf dem Markt** in Taiwan bestätigt.
 
-**Rationale:**
-The TxGNN pipeline has not produced any repurposing predictions for this candidate, and the minimum data requirements for a Level 5 evaluation are not met. Proceeding without predictions or baseline drug characterization would produce a report with no actionable content.
+---
 
-**To proceed, the following is needed:**
+## Sicherheitsaspekte
 
-- **[Critical]** Run TxGNN prediction pipeline for Bupropion Hydrochloride and confirm at least one ranked indication is returned
-- **[Critical]** Integrate DrugBank results into the `drug.original_moa` and `drug.drugbank_id` fields — the query log confirms 1 record was retrieved but not parsed into the pack
-- **[Critical]** Integrate TFDA package insert results into `drug.original_indications`, `safety.key_warnings`, and `safety.contraindications` — query log confirms 1 record retrieved but not parsed
-- **[High]** Assign a `drugbank_id` to enable cross-referencing with clinical trial and literature evidence sources
-- **[Medium]** Re-run DDI query after DrugBank ID is confirmed, as the current `not_found` result may be due to a name-matching failure rather than a true absence of interactions
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+(Sicherheitswarnungen und Kontraindikationen wurden nicht gefüllt, obwohl eine erfolgreiche TFDA-Packungsbeilage-Abfrage protokolliert wurde. DDI-Daten wurden nicht gefunden.)
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Zurückstellen**
+
+**Begründung:**
+Die TxGNN-Pipeline hat keine Repositionierungsprognosen für diesen Kandidaten erzeugt, und die Mindestdatenanforderungen für eine L5-Bewertung werden nicht erfüllt. Das Fortfahren ohne Prognosen oder grundlegende Arzneimittelcharakterisierung würde einen Bericht ohne verwertbaren Inhalt erzeugen.
+
+**Um fortzufahren, wird folgendes benötigt:**
+
+- **[Kritisch]** Führen Sie die TxGNN-Prognosepipeline für Bupropion Hydrochloride aus und bestätigen Sie, dass mindestens eine eingestufte Indikation zurückgegeben wird
+- **[Kritisch]** Integrieren Sie DrugBank-Ergebnisse in die `drug.original_moa`- und `drug.drugbank_id`-Felder — das Abfrageprotokoll bestätigt, dass 1 Datensatz abgerufen wurde, aber nicht in das Pack eingefügt
+- **[Kritisch]** Integrieren Sie TFDA-Packungsbeilage-Ergebnisse in `drug.original_indications`, `safety.key_warnings` und `safety.contraindications` — das Abfrageprotokoll bestätigt 1 abgerufenen Datensatz, aber nicht eingefügt
+- **[Hoch]** Weisen Sie eine `drugbank_id` zu, um Kreuzverweise mit Quellen aus klinischen Studien und Literaturbeweisen zu ermöglichen
+- **[Mittel]** Führen Sie die DDI-Abfrage erneut aus, nachdem die DrugBank-ID bestätigt wurde, da das aktuelle `not_found`-Ergebnis möglicherweise auf einen Namensabgleichsfehler zurückzuführen ist, anstatt auf eine tatsächliche Abwesenheit von Wechselwirkungen
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

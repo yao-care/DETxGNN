@@ -29,50 +29,51 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# RALTEGRAVIR: Repurposing Assessment Pending — Evidence Pack Incomplete
+# RALTEGRAVIR: Bewertung der Arzneimittelumwidmung ausstehend — Evidenzpaket unvollständig
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-RALTEGRAVIR (DrugBank: DB06817) is a known antiretroviral agent; however, the current evidence pack contains no TxGNN-predicted new indications, no mechanism of action data, and no safety records.
-Without predicted indications or supporting evidence, a full drug repurposing evaluation cannot be completed at this stage.
-This report documents the data gaps and outlines the remediation steps required before proceeding.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not available in current evidence pack |
-| Predicted New Indication | None — TxGNN predictions not yet generated |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | Not assessable |
-| Germany Market Status | Not found (0 authorizations in current data) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+RALTEGRAVIR (DrugBank: DB06817) ist ein bekanntes antiretrovirales Mittel; das aktuelle Evidenzpaket enthält jedoch keine durch TxGNN vorhergesagten neuen Indikationen, keine Wirkmechanismus-Daten und keine Sicherheitsdaten.
+Ohne vorhergesagte Indikationen oder unterstützende Evidenz kann eine vollständige Bewertung der Arzneimittelumwidmung in diesem Stadium nicht abgeschlossen werden.
+Dieser Bericht dokumentiert die Datenlücken und skizziert die erforderlichen Abhilfeschritte, bevor es fortgesetzt werden kann.
 
 ---
 
-## Safety Considerations
+## Schnellübersicht
 
-Please refer to the package insert for safety information.
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Nicht verfügbar im aktuellen Evidenzpaket |
+| Vorhergesagte neue Indikation | Keine — TxGNN-Vorhersagen noch nicht generiert |
+| TxGNN-Vorhersage-Score | N/A |
+| Evidenzstufe | Nicht bewertbar |
+| Status auf dem deutschen Markt | Nicht gefunden (0 Zulassungen in aktuellen Daten) |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | **Halten** |
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsbetrachtungen
 
-**Decision: Hold**
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
 
-**Rationale:**
-Three critical data layers are missing — TxGNN repurposing predictions, mechanism of action, and safety profile — making it impossible to evaluate any new therapeutic indication at this time.
+---
 
-**To proceed, the following is needed:**
+## Fazit und nächste Schritte
 
-- **Run TxGNN inference** for RALTEGRAVIR (DB06817) to generate candidate predicted indications with confidence scores
-- **Retrieve MOA from DrugBank** via API (DB06817) — currently classified as a data gap of High severity; required for mechanistic plausibility analysis
-- **Obtain package insert** (TFDA or EMA/BfArM source) to extract key warnings, contraindications, and drug–drug interactions — currently classified as a Blocking data gap
-- **Verify Germany market status** via BfArM database — RALTEGRAVIR (brand: Isentress, MSD) holds EMA marketing authorisation; the current zero-result may reflect a query scope issue rather than true non-registration
-- Once the above data is collected, re-generate this evidence pack (target version v5+) and re-run the full evaluation pipeline
+**Entscheidung: Halten**
+
+**Begründung:**
+Drei kritische Datenebenen fehlen — TxGNN-Vorhersagen zur Arzneimittelumwidmung, Wirkmechanismus und Sicherheitsprofil — was eine Bewertung jeder neuen therapeutischen Indikation zu diesem Zeitpunkt unmöglich macht.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+
+- **Führen Sie TxGNN-Inferenz** für RALTEGRAVIR (DB06817) durch, um Kandidaten für vorhergesagte Indikationen mit Konfidenzwerten zu generieren
+- **Rufen Sie den Wirkmechanismus von DrugBank** über API (DB06817) ab — derzeit als Datenlücke mit hohem Schweregrad klassifiziert; erforderlich für die Analyse der mechanistischen Plausibilität
+- **Beziehen Sie die Packungsbeilage** (TFDA- oder EMA/BfArM-Quelle), um wichtige Warnungen, Kontraindikationen und Arzneimittel-Wechselwirkungen zu extrahieren — derzeit als blockierende Datenlücke klassifiziert
+- **Überprüfen Sie den Marktstatus in Deutschland** über die BfArM-Datenbank — RALTEGRAVIR (Markenname: Isentress, MSD) besitzt eine EMA-Marketingzulassung; das aktuelle Null-Ergebnis könnte auf ein Problem mit dem Abfragebereich hindeuten, anstatt auf tatsächliche Nichtregistrierung
+- Sobald die oben genannten Daten erfasst sind, regenerieren Sie dieses Evidenzpaket (Zielversion v5+) und führen Sie die vollständige Evaluierungs-Pipeline erneut durch
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

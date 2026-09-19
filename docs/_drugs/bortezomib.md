@@ -29,71 +29,72 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0**
 
 </div>
 
-# Bortezomib: Drug Repurposing Evaluation — Data Collection Pending
+# Bortezomib: Bewertung der Arzneimittelumpositionierung — Datenerfassung ausstehend
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Bortezomib (DB00188) is a known antineoplastic proteasome inhibitor currently not registered in Taiwan.
-The TxGNN prediction pipeline returned **no predicted indications** in this evaluation run,
-and critical data — including original indication records, mechanism of action, and safety profile — remain outstanding and must be collected before repurposing analysis can proceed.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| TxGNN Predicted Indication | No prediction returned |
-| Evidence Level | L5 — pipeline output pending; no actual studies available for evaluation |
-| Taiwan Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+Bortezomib (DB00188) ist ein bekannter antineoplastischer Proteasom-Inhibitor, der derzeit nicht in Taiwan registriert ist.
+Die TxGNN-Vorhersage-Pipeline hat in dieser Evaluierungslauf **keine vorhergesagten Indikationen** zurückgegeben,
+und kritische Daten – einschließlich Original-Indikationsaufzeichnungen, Wirkmechanismus und Sicherheitsprofil – bleiben ausstehend und müssen gesammelt werden, bevor eine Umpositionierungsanalyse durchgeführt werden kann.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Currently, detailed mechanism of action data is not available. Based on pharmacological class recognition, Bortezomib is a proteasome inhibitor in the antineoplastic category, but the Evidence Pack contains no original indication records and no MOA data. Without these inputs, the TxGNN knowledge graph cannot anchor the drug node to any disease trajectory, which likely explains the empty prediction output.
-
-No mechanistic or indication-level analysis can be conducted at this stage. Once the original indication and MOA are retrieved from DrugBank and the TFDA package insert, the prediction pipeline should be re-run to generate a valid candidate indication list.
-
----
-
-## Cytotoxicity
-
-Bortezomib is a known antineoplastic agent (proteasome inhibitor). This section is included accordingly.
-
-| Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted therapy — Proteasome inhibitor |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Must follow cytotoxic drug handling regulations |
+| Element | Inhalt |
+|---------|--------|
+| TxGNN-vorhergesagte Indikation | Keine Vorhersage zurückgegeben |
+| Evidenzstufe | L5 — Pipeline-Ausgabe ausstehend; keine tatsächlichen Studien zur Bewertung verfügbar |
+| Status auf dem Taiwan-Markt | Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | **Halten** |
 
 ---
 
-## Safety Considerations
+## Warum ist diese Vorhersage sinnvoll?
 
-Please refer to the package insert for safety information.
+Derzeit sind detaillierte Daten zum Wirkmechanismus nicht verfügbar. Basierend auf der Erkennung der pharmakologischen Klasse ist Bortezomib ein Proteasom-Inhibitor in der antineoplastischen Kategorie, aber das Evidence Pack enthält keine Original-Indikationsaufzeichnungen und keine MOA-Daten. Ohne diese Eingaben kann der TxGNN-Wissensgraph den Arzneimittelknoten nicht an einer Krankheitstrajektorie verankern, was die leere Vorhersageausgabe wahrscheinlich erklärt.
+
+In dieser Phase kann keine mechanistische oder indikationsspezifische Analyse durchgeführt werden. Sobald die Original-Indikation und MOA aus DrugBank und der TFDA-Packungsbeilage abgerufen wurden, sollte die Vorhersage-Pipeline erneut ausgeführt werden, um eine gültige Liste von Kandidaten-Indikationen zu generieren.
 
 ---
 
-## Conclusion and Next Steps
+## Zytotoxizität
 
-**Decision: Hold**
+Bortezomib ist ein bekannter antineoplastischer Wirkstoff (Proteasom-Inhibitor). Dieser Abschnitt wird daher aufgenommen.
 
-**Rationale:**
-The TxGNN pipeline returned no predicted indications, and all three critical data layers — original indication, mechanism of action, and safety profile — are currently unavailable. No repurposing evaluation can be completed in this state.
+| Element | Inhalt |
+|---------|--------|
+| Zytotoxizitätsklassifizierung | Zielgerichtete Therapie – Proteasom-Inhibitor |
+| Myelosuppression-Risiko | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Packungsbeilage |
+| Emetogenitätsklassifizierung | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Packungsbeilage |
+| Überwachungspunkte | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Packungsbeilage |
+| Schutz bei der Handhabung | Muss den Richtlinien für die Handhabung von Zytostatika entsprechen |
 
-**To proceed, the following is needed:**
+---
 
-- **Original indication**: Download and parse TFDA package insert PDF to extract approved indications
-- **Mechanism of action**: Query DrugBank API (DB00188) to obtain MOA, pharmacodynamics, and drug categories
-- **Safety data**: Extract key warnings and contraindications from TFDA package insert
-- **TxGNN re-run**: Once drug metadata is complete, re-execute the prediction pipeline to generate candidate indications
-- **DDI analysis**: Run drug–drug interaction query after base drug profile is established
-- **Taiwan registration**: Verify whether any import or hospital-use exemption pathways apply, given zero current authorizations
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Halten**
+
+**Begründung:**
+Die TxGNN-Pipeline hat keine vorhergesagten Indikationen zurückgegeben, und alle drei kritischen Datenschichten – Original-Indikation, Wirkmechanismus und Sicherheitsprofil – sind derzeit nicht verfügbar. Keine Umpositionierungsbewertung kann in diesem Zustand abgeschlossen werden.
+
+**Um fortzufahren, wird Folgendes benötigt:**
+
+- **Original-Indikation**: TFDA-Packungsbeilage PDF herunterladen und analysieren, um genehmigte Indikationen zu extrahieren
+- **Wirkmechanismus**: DrugBank-API (DB00188) abfragen, um MOA, Pharmakodynamik und Arzneimittelkategorien zu erhalten
+- **Sicherheitsdaten**: Wichtige Warnhinweise und Kontraindikationen aus der TFDA-Packungsbeilage extrahieren
+- **TxGNN-Neustart**: Sobald die Arzneimittelmetadaten vollständig sind, die Vorhersage-Pipeline erneut ausführen, um Kandidaten-Indikationen zu generieren
+- **DDI-Analyse**: Arzneimittel-Wechselwirkungsabfrage durchführen, nachdem das Basis-Arzneimittelprofil etabliert ist
+- **Taiwan-Registrierung**: Überprüfen Sie, ob irgendwelche Import- oder Krankenhaus-Ausnahmepfade gelten, angesichts von null aktuellen Zulassungen
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

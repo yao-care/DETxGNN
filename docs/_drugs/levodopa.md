@@ -29,76 +29,77 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Levodopa: From Parkinson's Disease to Rasmussen Subacute Encephalitis
+# Levodopa: Von Morbus Parkinson bis zur subakuten Rasmussen-Enzephalitis
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Levodopa is a dopamine precursor best known for treating Parkinson's disease through striatal dopamine replenishment.
-> The TxGNN model predicts it may be effective for **Rasmussen Subacute Encephalitis**,
-> but this prediction is currently supported by **no clinical trials** and **no published literature** — it is based solely on knowledge-graph similarity scoring.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Parkinson's Disease (based on well-established pharmacology; not present in structured regulatory data) |
-| Predicted New Indication | Rasmussen Subacute Encephalitis |
-| TxGNN Prediction Score | 99.06% |
-| Evidence Level | L5 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Levodopa ist ein Dopaminpräkursor, der in erster Linie zur Behandlung des Morbus Parkinson durch Dopaminvermehrung im Striatum bekannt ist.
+> Das TxGNN-Modell prognostiziert, dass es möglicherweise wirksam ist für **subakute Rasmussen-Enzephalitis**,
+> diese Prognose wird jedoch derzeit durch **keine klinischen Studien** und **keine veröffentlichte Literatur** gestützt — sie basiert ausschließlich auf der Ähnlichkeitsbewertung des Wissensgraphen.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Currently, detailed mechanism of action data is not available. Based on known clinical use, Levodopa is a dopamine precursor whose efficacy in Parkinson's disease is well established through replenishment of striatal dopamine.
-
-Rasmussen subacute encephalitis, however, is a rare, unilateral, chronic pediatric neuroinflammatory/autoimmune disease driven primarily by T-cell-mediated neuronal destruction and microglial activation. There is no established pathophysiological connection between this disease process and dopaminergic signaling.
-
-This prediction therefore reflects a knowledge-graph similarity inference from TxGNN (score 0.99) rather than a validated mechanistic bridge between neuroinflammation and dopamine metabolism. It should be regarded as speculative and hypothesis-generating only, not mechanism-driven.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Inhalt |
+|---------|---------|
+| Ursprüngliche Indikation | Morbus Parkinson (basierend auf gut etablierter Pharmakologie; nicht in strukturierten regulatorischen Daten vorhanden) |
+| Prognostizierte neue Indikation | Subakute Rasmussen-Enzephalitis |
+| TxGNN-Prognosescore | 99.06% |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Zurückstellen |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Prognose sinnvoll?
 
-Currently no related literature available.
+Derzeit sind detaillierte Daten zum Wirkmechanismus nicht verfügbar. Basierend auf bekannter klinischer Anwendung ist Levodopa ein Dopaminpräkursor, dessen Wirksamkeit beim Morbus Parkinson durch Dopaminvermehrung im Striatum gut etabliert ist.
 
----
+Die subakute Rasmussen-Enzephalitis ist jedoch eine seltene, einseitige, chronische pädiatrische neuroentzündliche/autoimmune Erkrankung, die primär durch T-Zell-vermittelte neuronale Zerstörung und Mikroglia-Aktivierung angetrieben wird. Es gibt keine etablierte pathophysiologische Verbindung zwischen diesem Krankheitsprozess und dopaminerger Signalgebung.
 
-## Germany Market Information
-
-No marketing authorizations are currently registered in Germany (0 licenses on file).
+Diese Prognose spiegelt daher eher eine Wissensgraphen-Ähnlichkeitsinferenz von TxGNN (Score 0.99) wider als eine validierte mechanistische Brücke zwischen Neuroinflammation und Dopaminstoffwechsel. Sie sollte ausschließlich als spekulativ und hypothesengenerierend betrachtet werden, nicht als mechanismusgestützt.
 
 ---
 
-## Safety Considerations
+## Evidenz aus klinischen Studien
 
-Please refer to the package insert for safety information.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Conclusion and Next Steps
+## Evidenz aus der Literatur
 
-**Decision: Hold**
+Derzeit ist keine zugehörige Literatur verfügbar.
 
-**Rationale:**
-No clinical trials or published literature currently support this prediction, and there is no established mechanistic link between dopaminergic pathways and Rasmussen encephalitis's neuroinflammatory pathology. The drug is also not marketed in Germany.
+---
 
-**To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) data
-- TFDA/BfArM label warnings, contraindications, and drug interaction data
-- Preclinical or mechanistic studies establishing a plausible link between dopaminergic signaling and neuroinflammation/autoimmune neuronal injury
-- Structured confirmation of original approved indication(s)
+## Marktinformation Deutschland
+
+Derzeit sind keine Marketingzulassungen in Deutschland registriert (0 Lizenzen auf Datei).
+
+---
+
+## Sicherheitsaspekte
+
+Bitte lesen Sie die Packungsbeilage für Sicherheitsinformationen.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Zurückstellen**
+
+**Begründung:**
+Derzeit gibt es keine klinischen Studien oder veröffentlichte Literatur, die diese Prognose stützen, und es gibt keine etablierte mechanistische Verbindung zwischen dopaminergen Wegen und der neuroentzündlichen Pathologie der Rasmussen-Enzephalitis. Das Arzneimittel ist auch nicht auf dem deutschen Markt zugelassen.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+- Bestätigte Wirkmechanismus-Daten (MOA)
+- TFDA/BfArM-Packungsbeilage mit Warnhinweisen, Kontraindikationen und Arzneimittelinteraktionsdaten
+- Präklinische oder mechanistische Studien, die eine plausible Verbindung zwischen dopaminerger Signalgebung und Neuroinflammation/autoimmun vermittelter neuronaler Verletzung herstellen
+- Strukturierte Bestätigung der ursprünglichen zugelassenen Indikation(en)
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

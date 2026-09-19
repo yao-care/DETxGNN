@@ -29,82 +29,83 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# RASBURICASE: From Hyperuricemia to — No TxGNN Prediction Available
+# RASBURICASE: Von Hyperurikämie bis — Keine TxGNN-Vorhersage verfügbar
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Rasburicase is a recombinant urate-oxidase enzyme used to prevent and treat hyperuricemia associated with tumor lysis syndrome in patients undergoing chemotherapy for hematologic and solid tumor malignancies. The TxGNN model returned **no predicted new indications** for this drug in the current evidence pack, preventing a standard repurposing evaluation. With **zero clinical trials** and **zero publications** linked to a repurposing target, and the drug not marketed in Taiwan, this candidate requires substantial data remediation before evaluation can proceed.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Hyperuricemia in cancer patients undergoing chemotherapy (tumor lysis syndrome prevention) |
-| Predicted New Indication | None — TxGNN returned no predictions |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | L5 (model prediction only — no prediction generated) |
-| Taiwan Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+Rasburicase ist ein rekombinantes Uratoxidase-Enzym, das zur Vorbeugung und Behandlung von Hyperurikämie bei Patienten mit Tumorlysesyndrom eingesetzt wird, die sich einer Chemotherapie für hämatologische und Festkörper-Tumorerkrankungen unterziehen. Das TxGNN-Modell gab **keine vorhergesagten neuen Indikationen** für dieses Arzneimittel in der aktuellen Evidenzsammlung zurück, was eine standardmäßige Umnutzungsbewertung verhindert. Mit **null klinischen Studien** und **null Publikationen**, die mit einem Umnutzungsziel verknüpft sind, und dem nicht vermarkteten Arzneimittel in Taiwan erfordert dieser Kandidat erhebliche Datenremediation, bevor die Bewertung fortgesetzt werden kann.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-No repurposing prediction is available for evaluation at this time.
-
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on known pharmacological information, Rasburicase is a recombinant form of urate oxidase — an enzyme naturally absent in humans — that catalyzes the oxidation of uric acid into allantoin, a far more water-soluble and renally excretable metabolite. This mechanism is entirely metabolic, not cytotoxic, which distinguishes it sharply from antineoplastic agents.
-
-Because the predicted indications array is empty, it is not possible to reason about mechanistic applicability to a new disease target. The absence of a TxGNN output may reflect missing drug–graph linkages, insufficient knowledge graph coverage for this molecule, or upstream data pipeline issues that prevented the model from generating candidates. Resolving the root cause of the missing prediction is the first required remediation step.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for a repurposing target.
+| Element | Inhalt |
+|---------|--------|
+| Originalindikation | Hyperurikämie bei Krebspatienten, die sich einer Chemotherapie unterziehen (Prävention des Tumorlysessyndroms) |
+| Vorhergesagte neue Indikation | Keine — TxGNN gab keine Vorhersagen zurück |
+| TxGNN-Vorhersagepunktzahl | N/A |
+| Evidenzgrad | L5 (nur Modellvorhersage — keine Vorhersage generiert) |
+| Status auf taiwanischem Markt | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | **Zurückstellen** |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage angemessen?
 
-Currently no related literature available for a repurposing target.
+Für die Bewertung ist derzeit keine Umnutzungsvorhersage verfügbar.
 
----
+Derzeit sind detaillierte Wirkmechanismus-Daten in der Evidenzsammlung nicht verfügbar. Basierend auf bekannten pharmakologischen Informationen ist Rasburicase eine rekombinante Form von Uratoxidase — einem Enzym, das natürlicherweise nicht beim Menschen vorkommt — das die Oxidation von Harnsäure zu Allantoin katalysiert, einem viel wasserlöslicheren und renalgängigeren Metaboliten. Dieser Mechanismus ist rein metabolisch, nicht zytotoxisch, was ihn deutlich von antineoplastischen Wirkstoffen unterscheidet.
 
-## Taiwan Market Information
-
-Rasburicase currently holds **no marketing authorizations** in Taiwan. The drug is approved in other major markets under the brand names **Fasturtec** (EU/EMA) and **Elitek** (US/FDA), primarily for hyperuricemia prophylaxis and treatment in adult and pediatric oncology patients.
+Da das Array der vorhergesagten Indikationen leer ist, ist es nicht möglich, die mechanistische Anwendbarkeit auf ein neues Krankheitsziel zu begründen. Das Fehlen einer TxGNN-Ausgabe kann auf fehlende Arzneimittel-Graph-Verknüpfungen, unzureichende Wissensgraph-Abdeckung für dieses Molekül oder Upstream-Daten-Pipeline-Probleme zurückzuführen sein, die verhinderten, dass das Modell Kandidaten generierte. Das Beheben der Grundursache der fehlenden Vorhersage ist der erste erforderliche Remediationsschritt.
 
 ---
 
-## Safety Considerations
+## Evidenz klinischer Studien
 
-All safety fields in the current evidence pack (key warnings, contraindications, drug interactions) contain no usable data. Based on established pharmacological literature, the following safety signals are known to be clinically significant and **must** be incorporated once formal safety data is retrieved:
-
-- **Hemolysis / Methemoglobinemia**: Rasburicase is absolutely contraindicated in patients with glucose-6-phosphate dehydrogenase (G6PD) deficiency due to the hydrogen peroxide generated during uric acid oxidation, which can trigger severe hemolytic anemia and methemoglobinemia.
-- **Anaphylaxis**: As a foreign protein, Rasburicase carries a risk of hypersensitivity reactions including anaphylaxis; pre-treatment testing and emergency management readiness are required.
-- **Uric acid sample handling**: Blood samples from patients receiving Rasburicase must be placed immediately on ice to prevent ex-vivo degradation of uric acid, which would falsely lower measured levels.
-
-> Please refer to the package insert (EU SmPC / US Prescribing Information) for full warnings and precautions pending TFDA package insert retrieval.
+Derzeit sind keine verwandten klinischen Studien für ein Umnutzungsziel registriert.
 
 ---
 
-## Conclusion and Next Steps
+## Evidenz aus der Literatur
 
-**Decision: Hold**
+Derzeit ist keine verwandte Literatur für ein Umnutzungsziel verfügbar.
 
-**Rationale:**
-The evidence pack for Rasburicase (DB00049) is critically incomplete — it lacks original indication mapping, mechanism of action data, safety data, and most importantly, any TxGNN-predicted new indication — making it impossible to conduct a meaningful repurposing evaluation at this stage.
+---
 
-**To proceed, the following is needed:**
+## Taiwan-Marktinformationen
 
-- **[Blocking — DG001]** Retrieve TFDA package insert PDF and extract approved indications, key warnings, and contraindications to unblock the safety screening (S1) gate
-- **[High — DG002]** Query DrugBank API for full MOA, pharmacodynamics, and drug categories to enable mechanism-based reasoning
-- **[Critical]** Investigate why `predicted_indications` is empty — confirm whether the TxGNN knowledge graph contains the Rasburicase node (DB00049) and re-run the prediction pipeline; check for missing drug–disease edges in the KG
-- **[High]** Conduct G6PD-deficiency interaction review as a mandatory safety prerequisite for any potential new indication in populations at elevated G6PD-deficiency prevalence
-- **[Medium]** Confirm EU/US approval status and indication text from Fasturtec/Elitek SmPC as a reference anchor for the original indication field, which is currently empty
+Rasburicase hat derzeit **keine Marktzulassungen** in Taiwan. Das Arzneimittel ist in anderen wichtigen Märkten unter den Markennamen **Fasturtec** (EU/EMA) und **Elitek** (US/FDA) zugelassen, in erster Linie zur Prophylaxe und Behandlung von Hyperurikämie bei Erwachsenen und pädiatrischen Onkologie-Patienten.
+
+---
+
+## Sicherheitsüberlegungen
+
+Alle Sicherheitsfelder in der aktuellen Evidenzsammlung (Hauptwarnungen, Gegenanzeigen, Arzneimittelwechselwirkungen) enthalten keine verwertbaren Daten. Basierend auf etablierter pharmakologischer Literatur sind die folgenden Sicherheitssignale bekannt, klinisch signifikant zu sein und **müssen** eingearbeitet werden, sobald formale Sicherheitsdaten verfügbar sind:
+
+- **Hämolyse / Methämoglobinämie**: Rasburicase ist bei Patienten mit Glucose-6-Phosphat-Dehydrogenase-Defizienz (G6PD-Defizienz) absolut kontraindiziert, da das während der Oxidation von Harnsäure entstehende Wasserstoffperoxid schwere hämolytische Anämie und Methämoglobinämie auslösen kann.
+- **Anaphylaxie**: Als Fremdprotein birgt Rasburicase ein Risiko für Überempfindlichkeitsreaktionen, einschließlich Anaphylaxie; Vortestung und Bereitschaft zur Notfallbehandlung sind erforderlich.
+- **Handhabung von Harnsäure-Proben**: Blutproben von Patienten, die Rasburicase erhalten, müssen sofort auf Eis gelegt werden, um eine ex-vivo-Degradation der Harnsäure zu verhindern, die zu falsch niedrigen gemessenen Werten führen würde.
+
+> Bitte beachten Sie die Packungsbeilage (EU-Fachinformation / US-Verschreibungsinformationen) für vollständige Warnungen und Vorsichtsmaßnahmen bis zum Verfügbarwerden der TFDA-Packungsbeilage.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Zurückstellen**
+
+**Begründung:**
+Die Evidenzsammlung für Rasburicase (DB00049) ist kritisch unvollständig — sie enthält keine Zuordnung der ursprünglichen Indikation, keine Wirkmechanismus-Daten, keine Sicherheitsdaten und am wichtigsten keine TxGNN-vorhergesagte neue Indikation — was es unmöglich macht, eine aussagekräftige Umnutzungsbewertung in diesem Stadium durchzuführen.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+
+- **[Blockierend — DG001]** TFDA-Packungsbeilage-PDF abrufen und genehmigte Indikationen, Hauptwarnungen und Gegenanzeigen extrahieren, um die Sicherheits-Screening-Phase (S1) freizuschalten
+- **[Hoch — DG002]** DrugBank-API für vollständigen Wirkmechanismus, Pharmakodynamik und Arzneimittelkategorien abfragen, um mechanismusbasierte Begründung zu ermöglichen
+- **[Kritisch]** Untersuchen Sie, warum `predicted_indications` leer ist — bestätigen Sie, ob der TxGNN-Wissensgraph den Rasburicase-Knoten (DB00049) enthält, und führen Sie die Vorhersage-Pipeline erneut aus; überprüfen Sie fehlende Arzneimittel-Krankheits-Verbindungen in der KG
+- **[Hoch]** G6PD-Defizienz-Wechselwirkungsprüfung als obligatorische Sicherheitsvorbedingung für jede potenzielle neue Indikation in Populationen mit erhöhter G6PD-Defizienz-Prävalenz durchführen
+- **[Mittel]** Bestätigen Sie EU/US-Zulassungsstatus und Indikationstext von Fasturtec/Elitek-Fachinformation als Referenzverankerung für das derzeit leere Original-Indikations-Feld
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

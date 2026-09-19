@@ -29,76 +29,77 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Pegvaliase: From Phenylketonuria to Diabetic Retinopathy
+# Pegvaliase: Von Phenylketonurie zu diabetischer Retinopathie
 
-## One-Sentence Summary
+## Ein-Satz-Zusammenfassung
 
-Pegvaliase (DB12839) is a PEGylated phenylalanine ammonia lyase (PAL) enzyme therapy, clinically used to lower blood phenylalanine levels in patients with phenylketonuria (PKU). The TxGNN model predicts a high association score for **diabetic retinopathy**, but this prediction is currently supported by **0 clinical trials** and **0 publications**, and no mechanistic link between phenylalanine metabolism and diabetic retinopathy has been established.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Phenylketonuria (PKU) *(inferred from known clinical use — no formal indication text or MOA record available in this evidence pack)* |
-| Predicted New Indication | Diabetic Retinopathy |
-| TxGNN Prediction Score | 99.17% |
-| Evidence Level | L5 |
-| Taiwan Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Pegvaliase (DB12839) ist eine PEGylierte Phenylalanin-Ammoniak-Lyase (PAL)-Enzymtherapie, die klinisch zur Senkung des Blutphenylalanin-Spiegels bei Patienten mit Phenylketonurie (PKU) eingesetzt wird. Das TxGNN-Modell sagt eine hohe Assoziationspunktzahl für **diabetische Retinopathie** voraus, aber diese Vorhersage wird derzeit durch **0 klinische Studien** und **0 Publikationen** gestützt, und es wurde keine mechanistische Verbindung zwischen Phenylalanin-Stoffwechsel und diabetischer Retinopathie etabliert.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Currently, detailed mechanism of action data is not available in the structured drug record (flagged as a High-severity data gap). Based on the repurposing rationale accompanying the prediction, pegvaliase is a PEGylated phenylalanine ammonia lyase (PAL) enzyme that converts phenylalanine into trans-cinnamic acid and ammonia, and is used clinically to control blood phenylalanine levels in PKU patients.
-
-There is no known biological relationship between phenylalanine metabolism and the pathophysiology of diabetic retinopathy, which is primarily driven by chronic hyperglycemia, VEGF-mediated angiogenesis, and vascular inflammation. The same lack of mechanistic connection applies to two closely related predictions also generated for this drug — **severe nonproliferative diabetic retinopathy** (score 99.16%) and **diabetic cataract** (score 99.11%, linked instead to the aldose reductase/polyol pathway, which is likewise unrelated to PAL activity).
-
-The high TxGNN scores across all three diabetic-eye-disease predictions most likely reflect topological similarity within the knowledge graph (e.g., shared graph neighbors or embedding proximity) rather than an underlying pharmacological rationale. Without any clinical, preclinical, or literature evidence to corroborate the connection, this prediction should be treated as exploratory only.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Phenylketonurie (PKU) *(abgeleitet von bekannter klinischer Anwendung — kein formales Indikationstext oder MOA-Datensatz im vorliegenden Evidence-Pack verfügbar)* |
+| Vorhergesagte neue Indikation | Diabetische Retinopathie |
+| TxGNN-Vorhersage-Score | 99.17% |
+| Evidence-Niveau | L5 |
+| Taiwan-Marktstatus | Nicht vermarktet |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | Halten |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage vernünftig?
 
-Currently no related literature available
+Derzeit sind detaillierte Daten zum Wirkmechanismus im strukturierten Arzneimittel-Datensatz nicht verfügbar (gekennzeichnet als High-Severity-Datenlücke). Basierend auf der Repurposing-Begründung, die der Vorhersage beiliegt, ist Pegvaliase ein PEGyliertes Phenylalanin-Ammoniak-Lyase (PAL)-Enzym, das Phenylalanin in trans-Zimtsäure und Ammoniak umwandelt und klinisch zur Kontrolle des Blutphenylalanin-Spiegels bei PKU-Patienten eingesetzt wird.
 
----
+Es gibt keine bekannte biologische Beziehung zwischen Phenylalanin-Stoffwechsel und der Pathophysiologie der diabetischen Retinopathie, die primär durch chronische Hyperglykämie, VEGF-vermittelte Angiogenese und vaskuläre Entzündung angetrieben wird. Dieselbe fehlende mechanistische Verbindung gilt auch für zwei eng verwandte Vorhersagen, die für dieses Medikament ebenfalls generiert wurden — **schwere nichtproliferative diabetische Retinopathie** (Score 99.16%) und **diabetische Katarakt** (Score 99.11%, stattdessen mit dem Aldose-Reduktase/Polyol-Weg verknüpft, der ebenfalls nicht mit PAL-Aktivität zusammenhängt).
 
-## Germany Market Information
-
-No marketed products for pegvaliase are currently registered in Taiwan (0 authorizations, market status: Not marketed).
+Die hohen TxGNN-Scores über alle drei Vorhersagen von diabetischer Augenkrankheit hinweg spiegeln am wahrscheinlichsten topologische Ähnlichkeit innerhalb des Knowledge Graph wider (z.B. gemeinsame Graph-Nachbarn oder Embedding-Nähe) statt einer zugrunde liegenden pharmazeutischen Begründung. Ohne klinische, präklinische oder Literaturbelege zur Bestätigung der Verbindung sollte diese Vorhersage nur als explorativ betrachtet werden.
 
 ---
 
-## Safety Considerations
+## Evidenz aus klinischen Studien
 
-Please refer to the package insert for safety information.
-
-*(Note: TFDA label warnings/contraindications are flagged as a Blocking data gap — required before any safety pre-assessment (S1) can proceed.)*
+Aktuell keine verwandten klinischen Studien registriert
 
 ---
 
-## Conclusion and Next Steps
+## Literaturbeweise
 
-**Decision: Hold**
+Aktuell sind keine verwandten Publikationen verfügbar
 
-**Rationale:**
-The prediction is supported only by a TxGNN model score (L5, no clinical trials, no literature, no mechanistic plausibility). The drug is also not currently marketed in Taiwan, and core safety data (TFDA label, MOA) are missing, so this candidate cannot advance past initial screening.
+---
 
-**To proceed, the following is needed:**
-- TFDA label/warnings and contraindications (Blocking data gap, DG001)
-- Confirmed mechanism of action from DrugBank or primary literature (High-priority data gap, DG002)
-- Preclinical or mechanistic evidence linking PAL/phenylalanine metabolism to diabetic retinal or lenticular pathology
-- At minimum, an observational study or case series before considering progression beyond S0
+## Deutschland-Marktinformationen
+
+Aktuell sind keine vermarkteten Produkte für Pegvaliase in Taiwan registriert (0 Genehmigungen, Marktstatus: Nicht vermarktet).
+
+---
+
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+*(Hinweis: TFDA-Kennzeichnungswarnungen/Kontraindikationen sind als Blocking-Datenlücke gekennzeichnet — erforderlich, bevor eine Sicherheits-Vorprüfung (S1) durchgeführt werden kann.)*
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Halten**
+
+**Begründung:**
+Die Vorhersage wird nur durch einen TxGNN-Modell-Score gestützt (L5, keine klinischen Studien, keine Literatur, keine mechanistische Plausibilität). Das Medikament ist auch nicht aktuell in Taiwan vermarktet, und wesentliche Sicherheitsdaten (TFDA-Kennzeichnung, MOA) fehlen, daher kann dieser Kandidat nicht über das initiale Screening hinausgehen.
+
+**Um voranzuschreiten, ist Folgendes erforderlich:**
+- TFDA-Kennzeichnung/Warnungen und Kontraindikationen (Blocking-Datenlücke, DG001)
+- Bestätigter Wirkmechanismus von DrugBank oder Primärliteratur (High-Priority-Datenlücke, DG002)
+- Präklinische oder mechanistische Evidenz, die den PAL/Phenylalanin-Stoffwechsel mit diabetischer Retinal- oder Linsenopathologie verknüpft
+- Mindestens eine Beobachtungsstudie oder Fallserie, bevor eine Progression über S0 hinaus in Betracht gezogen wird
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -29,74 +29,75 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Ravulizumab: Drug Repurposing Evaluation — Evidence Pack Incomplete
+# Ravulizumab: Bewertung der Arzneimittel-Umwidmung — Evidenzpaket unvollständig
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Ravulizumab (DrugBank ID: DB11580) is a drug for which this Evidence Pack contains insufficient data to support a standard repurposing evaluation. The TxGNN model has returned **no predicted indications** for this candidate, and both original indication data and mechanism of action information are absent. A complete evaluation cannot proceed until the data gaps identified below are resolved.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not available in this Evidence Pack |
-| Predicted New Indication | No TxGNN prediction returned |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | L5 — Model returned no output; no supporting studies |
-| Taiwan Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+Ravulizumab (DrugBank-ID: DB11580) ist ein Arzneimittel, bei dem dieses Evidenzpaket unzureichende Daten für eine standardmäßige Bewertung der Arzneimittel-Umwidmung enthält. Das TxGNN-Modell hat **keine prognostizierten Indikationen** für diesen Kandidaten zurückgegeben, und sowohl die ursprünglichen Indikationsdaten als auch die Mechanismus-der-Wirkung-Informationen fehlen. Eine vollständige Bewertung kann erst durchgeführt werden, wenn die unten aufgeführten Datenlücken geschlossen werden.
 
 ---
 
-## Why Evaluation Cannot Proceed
+## Schnelle Übersicht
 
-This Evidence Pack is missing three components that are each independently required before a repurposing evaluation can be written:
-
-**1. No predicted indication.** The `predicted_indications` field is empty. The TxGNN model did not return a candidate disease for this drug. Without a predicted target indication, there is no repurposing hypothesis to evaluate — the core question of "effective for what new condition?" has no answer.
-
-**2. No original indication on record.** The `original_indications` field is also empty. This prevents establishing the mechanistic baseline — the "from" in the standard repurposing narrative. Without knowing what disease the drug was developed for, relatedness to any new indication cannot be assessed.
-
-**3. Mechanism of action unavailable.** The `original_moa` field returned no data. Mechanistic plausibility — typically the strongest argument for or against repurposing — cannot be evaluated.
-
-Currently, detailed mechanism of action data is not available. Based on known registry information, Ravulizumab is classified under DrugBank ID DB11580, but the specific pharmacological target and pathway data required for this evaluation have not been retrieved.
-
----
-
-## Taiwan Market Information
-
-Ravulizumab is **not currently approved or marketed in Taiwan**. There are no TFDA-issued drug licenses on record.
-
-| Item | Status |
-|------|--------|
-| TFDA Market Status | Not marketed |
-| Number of Licenses | 0 |
-| Dosage Forms Approved | None |
+| Artikel | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | In diesem Evidenzpaket nicht verfügbar |
+| Vorhergesagte neue Indikation | Keine TxGNN-Vorhersage zurückgegeben |
+| TxGNN-Vorhersage-Score | N/A |
+| Evidenz-Niveau | L5 — Modell hat keine Ausgabe zurückgegeben; keine unterstützenden Studien |
+| Status am taiwanesischen Markt | ✗ Nicht zugelassen |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | **Aussetzung** |
 
 ---
 
-## Safety Considerations
+## Warum die Bewertung nicht fortgesetzt werden kann
 
-Please refer to the package insert for safety information. No warnings, contraindications, or drug interaction data were available in this Evidence Pack.
+Dieses Evidenzpaket fehlen drei Komponenten, die jeweils eigenständig erforderlich sind, bevor eine Bewertung der Arzneimittel-Umwidmung geschrieben werden kann:
+
+**1. Keine prognostizierte Indikation.** Das Feld `predicted_indications` ist leer. Das TxGNN-Modell hat keine Kandidatenerkrankung für dieses Arzneimittel zurückgegeben. Ohne eine prognostizierte Zielindikation gibt es keine Umwidmungshypothese zu bewerten — die zentrale Frage „wirksam gegen welche neue Erkrankung?" hat keine Antwort.
+
+**2. Keine ursprüngliche Indikation aufgezeichnet.** Das Feld `original_indications` ist ebenfalls leer. Dies verhindert die Etablierung des mechanistischen Ausgangspunkts — das „von" in der standardmäßigen Umwidmungserzählung. Ohne zu wissen, für welche Erkrankung das Arzneimittel entwickelt wurde, kann die Verwandtschaft mit einer neuen Indikation nicht bewertet werden.
+
+**3. Wirkungsmechanismus nicht verfügbar.** Das Feld `original_moa` hat keine Daten zurückgegeben. Mechanistische Plausibilität — typischerweise das stärkste Argument dafür oder dagegen, eine Arzneimittel-Umwidmung durchzuführen — kann nicht bewertet werden.
+
+Derzeit sind detaillierte Daten zum Wirkungsmechanismus nicht verfügbar. Basierend auf bekannten Registerdaten wird Ravulizumab unter der DrugBank-ID DB11580 klassifiziert, aber die spezifischen Daten zum pharmakologischen Angriffspunkt und zum Signalweg, die für diese Bewertung erforderlich sind, wurden nicht abgerufen.
 
 ---
 
-## Conclusion and Next Steps
+## Informationen zum taiwanesischen Markt
 
-**Decision: Hold**
+Ravulizumab ist derzeit in Taiwan **nicht zugelassen und nicht im Handel erhältlich**. Es gibt keine von der TFDA ausgegebenen Arzneimittellizenzen auf Rekordhöhe.
 
-**Rationale:**
-The Evidence Pack for Ravulizumab is missing all three elements required for a repurposing evaluation: a predicted target indication, an original indication baseline, and mechanism of action data. Issuing any recommendation under these conditions would be speculative.
+| Artikel | Status |
+|---------|--------|
+| TFDA-Marktstatus | Nicht im Handel |
+| Anzahl der Lizenzen | 0 |
+| Genehmigte Darreichungsformen | Keine |
 
-**To proceed, the following is needed:**
+---
 
-- **Re-run TxGNN prediction pipeline** for DB11580 — confirm why `predicted_indications` returned empty (model coverage gap, data pipeline error, or genuine no-prediction result)
-- **Retrieve MOA from DrugBank API** (DG002, High severity) — query DrugBank for pharmacological target, mechanism, and drug category for Ravulizumab
-- **Download and parse TFDA package insert PDF** (DG001, Blocking severity) — extract approved indications, key warnings, and contraindications for the Taiwan label
-- **Clarify original indication** — confirm from DrugBank or EMA/FDA labeling what disease Ravulizumab is currently approved to treat; this anchors the repurposing narrative
-- **Re-submit Evidence Pack** once all four items above are resolved; a full L1–L5 evidence evaluation can then be generated
+## Sicherheitsüberlegungen
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. In diesem Evidenzpaket waren keine Daten zu Warnungen, Kontraindikationen oder Arzneimittelwechselwirkungen verfügbar.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Aussetzung**
+
+**Begründung:**
+Das Evidenzpaket für Ravulizumab fehlen alle drei Elemente, die für eine Bewertung der Arzneimittel-Umwidmung erforderlich sind: eine prognostizierte Zielindikation, ein ursprünglicher Indikationsbasispunkt und Daten zum Wirkungsmechanismus. Eine Empfehlung unter diesen Bedingungen abzugeben wäre spekulativ.
+
+**Um fortzufahren, wird Folgendes benötigt:**
+
+- **TxGNN-Vorhersage-Pipeline für DB11580 erneut ausführen** — bestätigen Sie, warum `predicted_indications` leer zurückgegeben wurde (Modelllücke in der Abdeckung, Fehler in der Datenpipeline oder echtes Ergebnis ohne Vorhersage)
+- **MOA aus DrugBank-API abrufen** (DG002, hoher Schweregrad) — Abfrage der DrugBank für pharmakologischen Angriffspunkt, Mechanismus und Arzneimittelkategorie von Ravulizumab
+- **TFDA-Packungsbeilage-PDF herunterladen und analysieren** (DG001, blockierender Schweregrad) — Extrahieren Sie genehmigte Indikationen, wichtige Warnungen und Kontraindikationen für das taiwanesische Etikett
+- **Ursprüngliche Indikation klären** — bestätigen Sie aus der DrugBank oder aus der EMA/FDA-Kennzeichnung, für welche Erkrankung Ravulizumab derzeit zur Behandlung zugelassen ist; dies verankert die Erzählung der Arzneimittel-Umwidmung
+- **Evidenzpaket erneut einreichen**, sobald die vier oben genannten Elemente gelöst sind; eine vollständige Bewertung auf L1–L5-Evidenzniveau kann dann generiert werden
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

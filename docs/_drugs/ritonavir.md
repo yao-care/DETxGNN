@@ -29,52 +29,53 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Ritonavir: Evaluation Report — Insufficient TxGNN Prediction Data
+# Ritonavir: Evaluierungsbericht — Unzureichende TxGNN-Vorhersagedaten
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Ritonavir is an HIV protease inhibitor widely used as a pharmacokinetic booster in combination antiviral regimens (e.g., Paxlovid, lopinavir/ritonavir).
-The current Evidence Pack contains **no TxGNN-predicted new indications**, and the drug is **not registered in Taiwan**.
-Due to critical data gaps across prediction, regulatory, mechanism, and safety dimensions, a full repurposing evaluation **cannot be completed at this stage**.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | HIV infection (general pharmaceutical knowledge; absent from regulatory data) |
-| Predicted New Indication | Not available |
-| TxGNN Prediction Score | Not available |
-| Evidence Level | Undetermined — no prediction data present |
-| Taiwan Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Ritonavir ist ein HIV-Proteaseinhibitor, der häufig als pharmakokinetischer Booster in kombinierten antiviralen Regimen verwendet wird (z. B. Paxlovid, Lopinavir/Ritonavir).
+Das aktuelle Evidence Pack enthält **keine TxGNN-vorhergesagten neuen Indikationen** und das Arzneimittel ist **nicht in Taiwan registriert**.
+Aufgrund kritischer Datenlücken in den Dimensionen Vorhersage, Regulierung, Wirkmechanismus und Sicherheit **kann eine vollständige Umwidmungsbewertung in diesem Stadium nicht abgeschlossen werden**.
 
 ---
 
-## Safety Considerations
+## Schnellübersicht
 
-No safety data is available for this Evidence Pack. All warning, contraindication, and drug interaction fields returned as empty or missing.
-
-> Please refer to the package insert for safety information.
+| Eintrag | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | HIV-Infektion (allgemeines pharmazeutisches Wissen; nicht in behördlichen Daten vorhanden) |
+| Vorhergesagte neue Indikation | Nicht verfügbar |
+| TxGNN-Vorhersage-Score | Nicht verfügbar |
+| Evidenzstufe | Undefiniert – keine Vorhersagedaten vorhanden |
+| Taiwan-Marktstatus | ✗ Nicht vermarktet |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsaspekte
 
-**Decision: Hold**
+Für dieses Evidence Pack sind keine Sicherheitsdaten verfügbar. Alle Felder für Warnungen, Kontraindikationen und Arzneimittelwechselwirkungen wurden als leer oder fehlend zurückgegeben.
 
-**Rationale:**
-The Evidence Pack for Ritonavir is critically incomplete across all four evaluation dimensions — TxGNN prediction, regulatory status, mechanism of action, and safety profile. Without a predicted indication to evaluate, no repurposing case can be constructed or assessed.
+> Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
 
-**To proceed, the following is needed:**
+---
 
-- **TxGNN prediction results** — `predicted_indications` must be populated with at least one candidate indication and associated evidence (clinical trials, literature)
-- **Mechanism of action (MOA)** — retrieve from DrugBank API (DG002: High severity gap)
-- **Package insert safety data** — key warnings, contraindications, and drug interactions from TFDA or equivalent source (DG001: Blocking severity gap)
-- **Original indication confirmation** — verify approved indications from Taiwan TFDA or international regulatory sources (EMA/FDA)
-- **Drug interaction profile** — DDI query returned `not_found`; re-query with alternate sources (e.g., DrugBank DDI, clinical pharmacology databases)
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Hold**
+
+**Begründung:**
+Das Evidence Pack für Ritonavir ist in allen vier Evaluierungsdimensionen kritisch unvollständig – TxGNN-Vorhersage, behördlicher Status, Wirkmechanismus und Sicherheitsprofil. Ohne eine vorherzusagende Indikation zur Bewertung kann kein Umwidmungsfall konstruiert oder bewertet werden.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+
+- **TxGNN-Vorhersageergebnisse** — `predicted_indications` müssen mit mindestens einer Kandidatenindikation und zugehörigen Daten gefüllt werden (klinische Studien, Literatur)
+- **Wirkmechanismus (MOA)** — abrufen von DrugBank-API (DG002: Lücke mit hohem Schweregrad)
+- **Packungsbeilage Sicherheitsdaten** — Hauptwarnungen, Kontraindikationen und Arzneimittelwechselwirkungen aus TFDA oder gleichwertiger Quelle (DG001: Blockierende Lücke)
+- **Bestätigung der ursprünglichen Indikation** — Überprüfung genehmigter Indikationen aus Taiwan TFDA oder internationalen behördlichen Quellen (EMA/FDA)
+- **Arzneimittelwechselwirkungsprofil** — DDI-Abfrage gab `not_found` zurück; erneute Abfrage mit alternativen Quellen (z. B. DrugBank DDI, klinisch-pharmakologische Datenbanken)
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

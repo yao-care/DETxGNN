@@ -29,92 +29,93 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Fulvestrant: From Breast Cancer to HIV Infectious Disease
+# Fulvestrant: Von Brustkrebs zu HIV-Infektionskrankheit
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Fulvestrant is an endocrine therapy that, based on the clinical trial evidence in this pack, is established for treating hormone receptor-positive (HR+), HER2-negative breast cancer.
-> The TxGNN model's top-ranked prediction is **HIV infectious disease** (score **99.91%**),
-> but this direction is currently supported by **0 clinical trials** and only **1 loosely related publication**.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Hormone receptor-positive (HR+), HER2-negative advanced/metastatic breast cancer — inferred from the clinical trial context in this evidence pack (e.g., NCT01942135, NCT02107703, which describe fulvestrant/Faslodex as standard endocrine therapy for this cancer); no BfArM license text is available to confirm this directly |
-| Predicted New Indication | HIV infectious disease |
-| TxGNN Prediction Score | 99.91% |
-| Evidence Level | L5 |
-| Germany Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Fulvestrant ist eine endokrine Therapie, die auf der Grundlage der klinischen Studienbelege in diesem Paket für die Behandlung von hormonrezeptor-positiven (HR+), HER2-negativen Brustkrebsen etabliert ist.
+> Die Top-Vorhersage des TxGNN-Modells ist **HIV-Infektionskrankheit** (Bewertung **99.91%**),
+> aber diese Richtung wird derzeit durch **0 klinische Studien** und nur **1 locker verbundene Publikation** gestützt.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Currently, detailed mechanism of action data is not available for fulvestrant in this evidence pack. Based on public pharmacological knowledge, fulvestrant is a selective estrogen receptor degrader/antagonist (SERD), and it is established as endocrine therapy for hormone receptor-positive, HER2-negative breast cancer — a fact clearly reflected in the extensive breast-cancer clinical trial evidence retrieved elsewhere in this pack (see the rank-2 candidate, "multiple endocrine neoplasia," whose linked trials are overwhelmingly fulvestrant/breast-cancer studies rather than trials of endocrine neoplasia).
-
-For the top-ranked prediction, **HIV infectious disease**, no mechanistic rationale is provided in the evidence pack, and there is no known biological pathway connecting estrogen receptor antagonism to HIV replication or immune control. The single retrieved publication (PMID 40343334) discusses HTLV-1-associated myelopathy — a different retrovirus causing a different disease — and mentions HIV-1 only in passing, as a reference point for borrowing treatment strategies, not as a study of fulvestrant itself.
-
-This mismatch suggests the prediction likely reflects proximity in the model's embedding space (e.g., shared "retrovirus/immune" or "endocrine-immune" disease-node neighborhoods) rather than an established pharmacological rationale. Given the missing MOA data and the absence of any direct fulvestrant–HIV evidence, this prediction should be treated as exploratory only.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Hormonrezeptor-positiv (HR+), HER2-negativ fortgeschrittener/metastatischer Brustkrebs — abgeleitet aus dem klinischen Studienkontext in diesem Evidenzpaket (z. B. NCT01942135, NCT02107703, die Fulvestrant/Faslodex als Standard-Endokrinotherapie für diese Krebsart beschreiben); kein BfArM-Lizenztext ist verfügbar, um dies direkt zu bestätigen |
+| Vorhergesagte neue Indikation | HIV-Infektionskrankheit |
+| TxGNN-Vorhersage-Bewertung | 99.91% |
+| Evidenzstufe | L5 |
+| Status auf dem deutschen Markt | Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Halten |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage angemessen?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [40343334](https://pubmed.ncbi.nlm.nih.gov/40343334/) | 2025 | Preprint | Research Square | Multi-omics analysis of HTLV-1-associated myelopathy (HAM), a distinct retroviral neuroinflammatory disease. HIV-1 is mentioned only as a source of borrowed therapeutic strategies, not as a subject of study; the article does not evaluate fulvestrant or its use in HIV infection. |
+Derzeit sind detaillierte Wirkmechanismus-Daten für Fulvestrant in diesem Evidenzpaket nicht verfügbar. Basierend auf öffentlich verfügbarem pharmakologischen Wissen ist Fulvestrant ein selektiver Östrogenrezeptor-Degrader/Antagonist (SERD) und ist als endokrine Therapie für hormonrezeptor-positive, HER2-negative Brustkrebse etabliert — eine Tatsache, die sich klar in den umfangreichen klinischen Studienbelegen für Brustkrebs widerspiegelt, die anderswo in diesem Paket abgerufen wurden (siehe Kandidat Rang 2, „multiple endokrine Neoplasien", dessen verknüpfte Studien überwiegend Fulvestrant/Brustkrebs-Studien statt Studien zu endokrinen Neoplasien sind).
 
----
+Für die Top-Vorhersage **HIV-Infektionskrankheit** wird keine mechanistische Begründung im Evidenzpaket bereitgestellt, und es gibt keinen bekannten biologischen Signalweg, der Östrogenrezeptor-Antagonismus mit HIV-Replikation oder Immunkenntnis verbindet. Die einzige abgerufene Publikation (PMID 40343334) behandelt HTLV-1-assoziierte Myelopathie — eine unterschiedliche Retrovirus-Erkrankung — und erwähnt HIV-1 nur nebenbeiläufig als Referenzpunkt für entlehnte Behandlungsstrategien, nicht als Studie über Fulvestrant selbst.
 
-## Germany Market Information
-
-No marketing authorization records are available in this evidence pack — fulvestrant is currently **not marketed** in Germany (0 authorizations on file).
+Diese Diskrepanz deutet darauf hin, dass die Vorhersage wahrscheinlich Nähe im Einbettungsraum des Modells widerspiegelt (z. B. gemeinsame „Retrovirus/Immun-" oder „Endokrin-Immun-" Krankheitsknoten-Nachbarschaften) statt einer etablierten pharmakologischen Begründung. Angesichts der fehlenden MOA-Daten und der Abwesenheit von direkten Fulvestrant-HIV-Belegen sollte diese Vorhersage nur als explorativ behandelt werden.
 
 ---
 
-## Cytotoxicity
+## Klinische Studienbelege
 
-Fulvestrant is an antineoplastic hormonal agent (used in breast cancer per the trial evidence above), so this section applies.
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted endocrine therapy (Selective Estrogen Receptor Degrader/Antagonist) — not a conventional cytotoxic chemotherapy agent |
-| Myelosuppression Risk | Low — fulvestrant is a hormonal, non-cytotoxic agent; no drug-specific toxicity data is provided in this evidence pack, please refer to the package insert |
-| Emetogenicity Classification | Low — consistent with the general profile of hormonal/endocrine anticancer agents; not confirmed by evidence-pack data |
-| Monitoring Items | Liver function, lipid profile, injection-site reactions (intramuscular administration); please refer to the package insert for complete monitoring requirements |
-| Handling Protection | Standard hazardous-drug handling precautions are generally recommended for antineoplastic agents; a specific protocol is not provided in this evidence pack |
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Safety Considerations
+## Literaturbelege
 
-Please refer to the package insert for safety information.
+| PMID | Jahr | Typ | Zeitschrift | Hauptergebnisse |
+|------|------|------|-----------|----------|
+| [40343334](https://pubmed.ncbi.nlm.nih.gov/40343334/) | 2025 | Preprint | Research Square | Multi-Omics-Analyse von HTLV-1-assoziierter Myelopathie (HAM), eine unterschiedliche Retrovirus-Neuroinflammations-Erkrankung. HIV-1 wird nur als Quelle für entlehnte therapeutische Strategien erwähnt, nicht als Studiengegenstand; der Artikel bewertet nicht Fulvestrant oder dessen Verwendung bei HIV-Infektionen. |
 
 ---
 
-## Conclusion and Next Steps
+## Informationen zum deutschen Markt
 
-**Decision: Hold**
+Es sind keine Zulassungsaufzeichnungen in diesem Evidenzpaket verfügbar — Fulvestrant ist derzeit **nicht vermarktet** in Deutschland (0 Zulassungen in den Unterlagen).
 
-**Rationale:**
-The top-ranked prediction (HIV infectious disease) has no supporting clinical trials and only one tangentially related, unclassified publication that does not directly study fulvestrant in HIV. Combined with missing mechanism-of-action data, no German marketing authorization, and no safety/warning data, there is currently insufficient basis to proceed.
+---
 
-**To proceed, the following is needed:**
-- Fulvestrant mechanism of action data (query DrugBank — data gap DG002)
-- TFDA/BfArM package insert warnings and contraindications (data gap DG001)
-- Direct mechanistic or preclinical evidence linking fulvestrant to HIV infection outcomes
-- Manual review of the rank-2 candidate ("multiple endocrine neoplasia"), whose linked trial evidence appears to be a disease-ontology mismatch with fulvestrant's actual breast cancer indication and may warrant separate evaluation
+## Zytotoxizität
+
+Fulvestrant ist ein antineoplastisches Hormonagens (in Brustkrebs verwendet gemäß den obigen Studienbelegen), daher gilt dieser Abschnitt.
+
+| Element | Inhalt |
+|---------|--------|
+| Zytotoxizitäts-Klassifizierung | Gezielte endokrine Therapie (Selektiver Östrogenrezeptor-Degrader/Antagonist) — kein konventionelles zytotoxisches Chemotherapie-Mittel |
+| Myelosuppressions-Risiko | Niedrig — Fulvestrant ist ein hormonales, nicht-zytotoxisches Mittel; arzneimittelspezifische Toxizitätsdaten werden in diesem Evidenzpaket nicht bereitgestellt, bitte beachten Sie die Packungsbeilage |
+| Emetogenitäts-Klassifizierung | Niedrig — vereinbar mit dem allgemeinen Profil von hormonalen/endokrinen Krebsbekämpfungsmitteln; nicht bestätigt durch Evidenzpaket-Daten |
+| Überwachungselemente | Leberfunktion, Lipidprofil, Injektionsstellen-Reaktionen (intramuskuläre Verabreichung); bitte beachten Sie die Packungsbeilage für vollständige Überwachungsanforderungen |
+| Handhabungsschutz | Standard-Vorsichtsmaßnahmen für die Handhabung gefährlicher Arzneimittel werden allgemein für Antineoplastika empfohlen; ein spezifisches Protokoll wird in diesem Evidenzpaket nicht bereitgestellt |
+
+---
+
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Halten**
+
+**Begründung:**
+Die Top-Vorhersage (HIV-Infektionskrankheit) hat keine stützenden klinischen Studien und nur eine tangential verwandte, nicht klassifizierte Publikation, die Fulvestrant bei HIV nicht direkt untersucht. Kombiniert mit fehlenden Wirkmechanismus-Daten, fehlender deutscher Zulassung und fehlenden Sicherheits-/Warnungsdaten, ist derzeit keine ausreichende Grundlage für ein Fortfahren vorhanden.
+
+**Um fortzufahren, wird Folgendes benötigt:**
+- Fulvestrant-Wirkmechanismus-Daten (Abfrage DrugBank — Datenlücke DG002)
+- TFDA/BfArM-Packungsbeilage Warnungen und Kontraindikationen (Datenlücke DG001)
+- Direkte mechanistische oder präklinische Belege, die Fulvestrant mit HIV-Infektionsergebnissen verbinden
+- Manuelle Überprüfung des Rang-2-Kandidaten („multiple endokrine Neoplasien"), dessen verknüpfte Studienbelege eine Krankheits-Ontologie-Nichtübereinstimmung mit Fulvestrants tatsächlicher Brustkrebs-Indikation zu sein scheint und möglicherweise eine separate Bewertung rechtfertigt
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

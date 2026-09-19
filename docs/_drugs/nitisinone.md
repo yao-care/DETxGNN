@@ -29,80 +29,81 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Nitisinone: From Hereditary Tyrosinemia Type 1 to Renal Tubular Acidosis
+# Nitisinone: Von Hereditärer Tyrosinämie Typ 1 zur Renaltubulärer Azidose
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Nitisinone (NTBC) is the standard therapy for hereditary tyrosinemia type 1 (HT-1), where it blocks a toxic tyrosine-metabolism intermediate.
-> The TxGNN model predicts it may also address **Renal Tubular Acidosis**, a known renal complication of HT-1,
-> with **2 supporting publications** and a mechanistically direct rationale, though no dedicated clinical trials exist yet.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Hereditary Tyrosinemia Type 1 (inferred from repurposing rationale; official label text not available — see Data Gaps) |
-| Predicted New Indication | Renal Tubular Acidosis |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L3 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+> Nitisinone (NTBC) ist die Standardtherapie für hereditäre Tyrosinämie Typ 1 (HT-1), wobei es ein toxisches Zwischenprodukt des Tyrosinstoffwechsels blockiert.
+> Das TxGNN-Modell prognostiziert, dass es auch **Renaltubuläre Azidose** angehen könnte, eine bekannte Nierenkomplikation von HT-1,
+> unterstützt durch **2 wissenschaftliche Publikationen** und eine mechanistisch direkte Begründung, obwohl es noch keine dedizierten klinischen Studien gibt.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnelle Übersicht
 
-Detailed formal mechanism-of-action documentation is not available in this evidence pack (original_moa: Data Gap). However, the repurposing rationale supplied for the top-ranked prediction describes the mechanism in enough detail to assess plausibility: Nitisinone inhibits 4-hydroxyphenylpyruvate dioxygenase (HPPD), an enzyme in the tyrosine degradation pathway. By blocking this step, it prevents the accumulation of succinylacetone and other toxic intermediates that are the root cause of HT-1 pathology.
-
-Renal tubular acidosis (RTA), specifically a Fanconi-syndrome-like proximal tubulopathy, is itself a well-recognized clinical manifestation of untreated or under-treated HT-1 — it is caused by succinylacetone toxicity to proximal tubular epithelial cells. This means the "new indication" is not an unrelated disease but rather a **downstream complication of the drug's already-approved indication**. Since Nitisinone directly reduces the toxic metabolite responsible for this tubulopathy, its potential benefit in RTA follows logically from its established mechanism, and this is supported by early clinical observations (below) rather than by network-topology inference alone.
-
-By contrast, the other nine predicted indications in this evidence pack (galactosemia, serpinopathy, C1 inhibitor deficiency, glycogen storage diseases, etc.) lack this direct mechanistic overlap with HPPD/tyrosine metabolism — their high TxGNN scores likely reflect broader disease-similarity clustering (e.g., "rare inherited metabolic/hepatic disease") rather than a specific pharmacological link, and all carry an L4–L5 evidence level with a "Hold" recommendation.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Hereditäre Tyrosinämie Typ 1 (abgeleitet aus der Umwidmungsbegründung; offizieller Beschriftungstext nicht verfügbar – siehe Datenlücken) |
+| Prognostizierte neue Indikation | Renaltubuläre Azidose |
+| TxGNN-Prognosescore | 99,96% |
+| Evidenzebene | L3 |
+| Marktstatus Deutschland | ✗ Nicht im Handel |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Mit Schutzmaßnahmen fortfahren |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Prognose sinnvoll?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [25172236](https://pubmed.ncbi.nlm.nih.gov/25172236/) | 2014 | Cohort/Case Series | Molecular Genetics and Metabolism | Describes early improvement in renal tubular dysfunction after starting NTBC therapy in patients with HT-1 |
-| [27109516](https://pubmed.ncbi.nlm.nih.gov/27109516/) | 2016 | Cohort/Case Series | Indian Journal of Gastroenterology | Case series of children with tyrosinemia showing clinical response to NTBC, including resolution of renal tubular abnormalities |
+Eine detaillierte formale Dokumentation des Wirkungsmechanismus ist in diesem Beweispaket nicht verfügbar (original_moa: Data Gap). Allerdings ist die für die höchstbewertete Prognose angegebene Umwidmungsbegründung detailliert genug, um die Plausibilität zu bewerten: Nitisinone hemmt 4-Hydroxyphenylpyruvatdioxygenase (HPPD), ein Enzym im Tyrosinabbauweg. Durch Blockade dieses Schritts verhindert es die Ansammlung von Succinylaceton und anderen toxischen Zwischenprodukten, die die Grundursache der HT-1-Pathologie sind.
 
----
+Renaltubuläre Azidose (RTA), speziell eine proximale Tubulopathie ähnlich dem Fanconi-Syndrom, ist selbst eine bekannte klinische Manifestation einer unbehandelten oder unzureichend behandelten HT-1 – sie wird durch Succinylacetonxidität gegenüber Epithelzellen der proximalen Tubuli verursacht. Das bedeutet, dass die „neue Indikation" keine unverwandte Krankheit ist, sondern eher eine **Folge-Komplikation der bereits zugelassenen Indikation des Arzneistoffs**. Da Nitisinone direkt das für diese Tubulopathie verantwortliche Stoffwechselprodukt reduziert, folgt sein potenzieller Nutzen bei RTA logischerweise aus seinem etablierten Mechanismus, und dies wird durch frühe klinische Beobachtungen (unten) unterstützt, anstatt nur durch Netzwerk-Topologie-Schlussfolgerung allein.
 
-## Germany Market Information
-
-Nitisinone is currently **not marketed** in Germany under this regulatory dataset (0 authorizations on record). No marketing authorization details are available to tabulate.
+Im Gegensatz dazu zeigen die anderen neun prognostizierten Indikationen in diesem Beweispaket (Galaktosämie, Serpinopathie, C1-Inhibitor-Mangel, Glykogenspeicherkrankheiten usw.) diesen direkten mechanistischen Zusammenhang mit HPPD/Tyrosinstoffwechsel nicht – ihre hohen TxGNN-Scores spiegeln wahrscheinlich eine breitere Krankheitsähnlichkeitsclusterung wider (z. B. „seltene angeborene metabolische/hepatische Erkrankung") anstelle einer spezifischen pharmakologischen Verbindung, und alle zeigen ein Evidenzniveau L4–L5 mit einer „Zurückhalten"-Empfehlung.
 
 ---
 
-## Safety Considerations
+## Klinische Prüfungsergebnisse
 
-Please refer to the package insert for safety information.
+Derzeit sind keine verwandten klinischen Studien registriert.
 
 ---
 
-## Conclusion and Next Steps
+## Literaturergebnisse
 
-**Decision: Proceed with Guardrails**
+| PMID | Jahr | Typ | Journal | Wichtigste Ergebnisse |
+|------|------|------|---------|---------|
+| [25172236](https://pubmed.ncbi.nlm.nih.gov/25172236/) | 2014 | Kohortenstudie/Fallserie | Molecular Genetics and Metabolism | Beschreibt frühe Verbesserung der renaltubuluären Dysfunktion nach Beginn der NTBC-Therapie bei Patienten mit HT-1 |
+| [27109516](https://pubmed.ncbi.nlm.nih.gov/27109516/) | 2016 | Kohortenstudie/Fallserie | Indian Journal of Gastroenterology | Fallserie von Kindern mit Tyrosinämie, die auf NTBC-Therapie ansprechen, einschließlich Auflösung renaltubuluärer Abnormitäten |
 
-**Rationale:**
-The mechanistic link between Nitisinone's known action (HPPD inhibition, reduction of succinylacetone) and renal tubular acidosis is direct and biologically coherent, and is supported by two case-series publications showing clinical improvement — but no controlled clinical trials exist, and the drug is not currently marketed in the target jurisdiction.
+---
 
-**To proceed, the following is needed:**
-- Official label/warnings and contraindications data (currently a Blocking data gap — required before any S1 safety assessment)
-- Formal mechanism-of-action documentation from DrugBank or equivalent source
-- Confirmation of whether "renal tubular acidosis" here should be scoped strictly as an HT-1-associated complication (label extension) rather than a standalone indication
-- Drug-drug interaction data (currently not found)
-- Assessment of feasibility/need for Germany market authorization given current "Not Marketed" status
+## Marktinformationen Deutschland
+
+Nitisinone wird in Deutschland nach diesem behördlichen Datensatz derzeit **nicht vermarktet** (0 Zulassungen erfasst). Es sind keine Details zu Vermarktungsauthorisierungen vorhanden.
+
+---
+
+## Sicherheitsüberlegungen
+
+Bitte beachten Sie die Fachinformation für Sicherheitsinformationen.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Mit Schutzmaßnahmen fortfahren**
+
+**Begründung:**
+Der mechanistische Zusammenhang zwischen Nitisinones bekannter Wirkung (HPPD-Hemmung, Verringerung von Succinylaceton) und renaltubuluärer Azidose ist direkt und biologisch kohärent und wird durch zwei Fallserienpublikationen unterstützt, die klinische Verbesserung zeigen – es gibt jedoch keine kontrollierten klinischen Studien, und das Arzneimittel ist derzeit nicht im Zielstaat vermarktet.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+- Offizielle Fachinformation mit Warnhinweisen und Kontraindikationen (derzeit eine blockierende Datenlücke – erforderlich vor einer S1-Sicherheitsbewertung)
+- Formale Dokumentation des Wirkungsmechanismus aus DrugBank oder äquivalenter Quelle
+- Bestätigung, ob „renaltubuluäre Azidose" hier streng als eine HT-1-assoziierte Komplikation (Indikationserweiterung) behandelt werden sollte oder als eigenständige Indikation
+- Daten zu Arzneimittelwechselwirkungen (derzeit nicht gefunden)
+- Bewertung der Machbarkeit/Notwendigkeit einer Marktzulassung in Deutschland angesichts des aktuellen Status „Nicht im Handel"
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

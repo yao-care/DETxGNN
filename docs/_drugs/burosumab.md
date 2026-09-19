@@ -29,73 +29,74 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0**
 
 </div>
 
-# BUROSUMAB: Repurposing Candidate — No TxGNN Predictions Available
+# BUROSUMAB: Kandidat zur Umwidmung — Keine TxGNN-Vorhersagen verfügbar
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-BUROSUMAB (DrugBank ID: DB14012) is a biological drug with no TFDA marketing authorization records in Taiwan.
-The current Evidence Pack contains **no TxGNN-predicted indications**, making a formal repurposing evaluation impossible at this stage.
-Two blocking data gaps — mechanism of action and package insert safety data — must be resolved before this candidate can advance.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not available (no TFDA authorization records) |
-| Predicted New Indication | None generated |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | N/A |
-| Taiwan Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+BUROSUMAB (DrugBank ID: DB14012) ist ein biologisches Arzneimittel ohne TFDA-Zulassungsunterlagen in Taiwan.
+Das aktuelle Evidenzpaket enthält **keine TxGNN-vorhergesagten Indikationen**, was eine formale Neubewertung zu diesem Zeitpunkt unmöglich macht.
+Zwei blockierende Datenlücken – Wirkmechanismus und Sicherheitsdaten aus der Packungsbeilage – müssen geklärt werden, bevor dieser Kandidat vorangebracht werden kann.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Currently, detailed mechanism of action data is not available, and the TxGNN pipeline generated no predicted indications for this candidate. Without a target indication, mechanistic plausibility analysis cannot be conducted. The sections below document the two blocking gaps preventing this evaluation from moving forward.
-
-**Gap 1 — Mechanism of Action (MOA) · Severity: High**
-Without MOA data, it is not possible to assess whether BUROSUMAB's pharmacological activity is relevant to any candidate new indication. Remediation: query DrugBank API for DB14012 and extract the mechanism of action field.
-
-**Gap 2 — Package Insert Safety Data · Severity: Blocking**
-Without TFDA-sourced warnings and contraindications, the candidate cannot pass initial safety screening, which is a prerequisite for all downstream evaluation steps. Remediation: download and parse the TFDA package insert PDF for BUROSUMAB.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered — no predicted indication available to search against.
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Nicht verfügbar (keine TFDA-Zulassungsunterlagen) |
+| Vorhergesagte neue Indikation | Keine generiert |
+| TxGNN-Vorhersagepunktzahl | N/A |
+| Evidenzstufe | N/A |
+| Taiwan-Marktstatus | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | **Halten** |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage angemessen?
 
-Currently no related literature available — no predicted indication available to search against.
+Derzeit sind detaillierte Wirkmechanismus-Daten nicht verfügbar, und die TxGNN-Pipeline hat keine vorhergesagten Indikationen für diesen Kandidaten generiert. Ohne eine Zielindikation kann keine mechanistische Plausibilitätsanalyse durchgeführt werden. Die folgenden Abschnitte dokumentieren die zwei blockierenden Lücken, die diese Bewertung am Fortschritt hindern.
+
+**Lücke 1 — Wirkmechanismus (MOA) · Schweregrad: Hoch**
+Ohne MOA-Daten ist es nicht möglich zu bewerten, ob die pharmakologische Aktivität von BUROSUMAB für eine neue Zielindikation relevant ist. Abhilfe: Abfragen der DrugBank API für DB14012 und Extraktion des Wirkmechanismus-Feldes.
+
+**Lücke 2 — Sicherheitsdaten aus der Packungsbeilage · Schweregrad: Blockierend**
+Ohne TFDA-gestützte Warnungen und Kontraindikationen kann der Kandidat das erste Sicherheits-Screening nicht bestehen, das eine Voraussetzung für alle nachfolgenden Bewertungsschritte ist. Abhilfe: Herunterladen und Auswertung der TFDA-Packungsbeilage PDF für BUROSUMAB.
 
 ---
 
-## Safety Considerations
+## Klinische Studienevidenz
 
-Please refer to the package insert for safety information.
+Derzeit sind keine verwandten klinischen Studien registriert – keine vorhergesagte Indikation verfügbar zum Durchsuchen.
 
 ---
 
-## Conclusion and Next Steps
+## Literaturevidenz
 
-**Decision: Hold**
+Derzeit ist keine verwandte Literatur verfügbar – keine vorhergesagte Indikation verfügbar zum Durchsuchen.
 
-**Rationale:**
-The Evidence Pack for BUROSUMAB is structurally incomplete: the TxGNN pipeline produced no predicted indications, and two data gaps classified as Blocking and High severity prevent the evaluation from proceeding at any stage.
+---
 
-**To proceed, the following is needed:**
-- Re-run the TxGNN prediction pipeline for BUROSUMAB (DB14012) to generate candidate disease indications
-- Retrieve mechanism of action data via the DrugBank API (DB14012)
-- Download and parse the TFDA package insert PDF to extract warnings, contraindications, and dosing safety information
-- Conduct drug-drug interaction screening once basic safety data is confirmed
-- Re-issue the Evidence Pack and re-trigger report generation after the above gaps are resolved
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Halten**
+
+**Begründung:**
+Das Evidenzpaket für BUROSUMAB ist strukturell unvollständig: Die TxGNN-Pipeline hat keine vorhergesagten Indikationen generiert, und zwei als blockierend und hochgradig eingestufte Datenlücken verhindern jegliche Fortsetzung der Bewertung.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+- Erneutes Ausführen der TxGNN-Vorhersage-Pipeline für BUROSUMAB (DB14012) zur Generierung von Kandidaten-Krankheitsindikationen
+- Abruf von Wirkmechanismus-Daten über die DrugBank API (DB14012)
+- Herunterladen und Auswertung der TFDA-Packungsbeilage PDF zur Extraktion von Warnungen, Kontraindikationen und Dosierungssicherheitsinformationen
+- Durchführung eines Screenings auf Arzneimittel-Wechselwirkungen nach Bestätigung grundlegender Sicherheitsdaten
+- Neuausgabe des Evidenzpakets und erneute Auslösung der Berichtsgenerierung nach Beseitigung der oben genannten Lücken
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

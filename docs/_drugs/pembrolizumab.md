@@ -29,89 +29,88 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-Using no additional skill—this is a direct content-generation task governed entirely by the detailed system prompt template, which I'll follow exactly.
+# Pembrolizumab: Von Onkologie-Indikationen zur Gingivalen Fibromatose
 
-# Pembrolizumab: From Oncology Indications to Gingival Fibromatosis
+## Zusammenfassung in einem Satz
 
-## One-Sentence Summary
-
-> Pembrolizumab is an anti-PD-1 immune checkpoint inhibitor whose established oncology use (referenced throughout the evidence pack's literature, e.g. advanced non-small-cell lung cancer, melanoma) is well documented, though this evidence pack contains no formal license or approved-indication text for the current jurisdiction.
-> The TxGNN model's top-ranked prediction is **Fibromatosis, Gingival**, but this is supported by **0 clinical trials** and **0 publications**, and the model's own rationale flags it as a likely knowledge-graph noise connection rather than a mechanistically grounded hypothesis.
+> Pembrolizumab ist ein Anti-PD-1-Immune-Checkpoint-Inhibitor, dessen etablierte Onkologie-Anwendungen (durchgehend in der Literatur des Nachweispakets dokumentiert, z. B. fortgeschrittenes nicht-kleinzelliges Lungenkarzinom, Melanom) gut dokumentiert sind, obwohl dieses Nachweispaket keinen formalen Zulassungstext oder genehmigte Indikation für die aktuelle Jurisdiktion enthält.
+> Die Spitzenvorhersage des TxGNN-Modells ist **Gingivale Fibromatose**, wird aber durch **0 klinische Studien** und **0 Publikationen** unterstützt, und die eigene Begründung des Modells identifiziert sie als wahrscheinliche Knowledge-Graph-Rauschverbindung statt einer mechanistisch fundierten Hypothese.
 
 ---
 
-## Quick Overview
+## Schnelläbersicht
 
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in this evidence pack (no local license records; `original_moa` marked as data gap). Literature within the pack consistently references established use in advanced NSCLC and melanoma via PD-1 blockade. |
-| Predicted New Indication | Fibromatosis, Gingival |
-| TxGNN Prediction Score | 99.40% |
-| Evidence Level | L5 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
-
----
-
-## Why is This Prediction Reasonable?
-
-Detailed mechanism of action data is marked as a data gap in this evidence pack. However, literature entries elsewhere in the pack consistently describe pembrolizumab as a humanized IgG4 monoclonal antibody that blocks the PD-1 receptor, preventing PD-1/PD-L1 ligation and restoring exhausted T-cell–mediated anti-tumor immunity — the basis for its established efficacy in cancers such as NSCLC, melanoma, and MSI-H/dMMR tumors.
-
-Gingival fibromatosis, in contrast, is a benign condition driven by fibroblast proliferation and excessive collagen/extracellular matrix deposition in gingival connective tissue — a fibrotic, non-immune, non-neoplastic process. It has no established link to tumor immune evasion, PD-L1 overexpression, or T-cell exhaustion, the biological axes that pembrolizumab acts on.
-
-The evidence pack's own repurposing rationale for this candidate explicitly concludes there is "no known intersection" between the two mechanisms, and that despite the high raw TxGNN score, the complete absence of any supporting clinical trial or literature evidence points to this being an indirect or noisy connection within the knowledge graph rather than a genuine biological signal. This assessment is corroborated by the fact that no publications or trials — even loosely related ones — were retrievable for this pairing.
+| Punkt | Inhalt |
+|------|--------|
+| Ursprüngliche Indikation | In diesem Nachweispaket nicht dokumentiert (keine lokalen Zulassungsunterlagen; `original_moa` als Datenlücke markiert). Literatur innerhalb des Pakets bezieht sich durchgehend auf etablierte Anwendung bei fortgeschrittenem NSCLC und Melanom über PD-1-Blockade. |
+| Vorhergesagte neue Indikation | Gingivale Fibromatose |
+| TxGNN-Vorhersage-Score | 99.40% |
+| Evidenzstufe | L5 |
+| Marktstatus Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Ausgesetzt |
 
 ---
 
-## Clinical Trial Evidence
+## Warum ist diese Vorhersage begründet?
 
-Currently no related clinical trials registered.
+Detaillierte Mechanismus-der-Wirkung-Daten werden als Datenlücke in diesem Nachweispaket markiert. Literatureinträge anderorts im Paket beschreiben Pembrolizumab jedoch durchgehend als humanisierten IgG4-Antikörper, der den PD-1-Rezeptor blockiert, PD-1/PD-L1-Ligierung verhindert und erschöpfte T-Zell-vermittelte Anti-Tumor-Immunität wiederherstellt – die Grundlage für seine etablierte Wirksamkeit bei Krebsarten wie NSCLC, Melanom und MSI-H/dMMR-Tumoren.
 
----
+Gingivale Fibromatose ist dagegen eine gutartige Erkrankung, die durch Fibroblastenproliferation und übermäßige Kollagen-/extrazelluläre-Matrix-Ablagerung im gingivalen Bindegewebe getrieben wird – ein fibrotischer, nicht-immuner, nicht-neoplastischer Prozess. Sie hat keine etablierte Verbindung zu Tumor-Immune-Evasion, PD-L1-Überexpression oder T-Zell-Erschöpfung – die biologischen Achsen, auf die Pembrolizumab wirkt.
 
-## Literature Evidence
-
-Currently no related literature available.
+Die Begründung des Nachweispakets zur Umwidmung dieses Kandidaten schlussfolgert explizit, dass es „keine bekannte Schnittstelle" zwischen den beiden Mechanismen gibt, und dass trotz des hohen rohen TxGNN-Scores die völlige Abwesenheit von Nachweisen in einer klinischen Studie oder Literatur darauf hindeutet, dass dies ein indirektes oder verrauschtes Artefakt innerhalb des Knowledge-Graph statt eines echten biologischen Signals ist. Diese Bewertung wird dadurch unterstützt, dass keine Publikationen oder Studien – selbst lose verwandte – für diese Kombination abrufbar waren.
 
 ---
 
-## Germany Market Information
+## Evidenz aus klinischen Studien
 
-No marketing authorizations were found for this drug in the current dataset (market status: Not Marketed, total authorizations: 0).
-
----
-
-## Cytotoxicity
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Immunotherapy (anti-PD-1 immune checkpoint inhibitor, IgG4 monoclonal antibody) — not a conventional cytotoxic chemotherapy agent |
-| Myelosuppression Risk | Low — as a checkpoint inhibitor rather than a classic cytotoxic agent, direct bone marrow suppression is not a characteristic toxicity; the dominant risk profile is immune-related adverse events (irAEs) rather than myelosuppression |
-| Emetogenicity Classification | Minimal — immune checkpoint inhibitors are generally classified as minimally emetogenic as a drug class |
-| Monitoring Items | Please refer to the package insert warnings and precautions (no drug-specific monitoring data provided in this evidence pack) |
-| Handling Protection | Please refer to the package insert warnings and precautions (no drug-specific handling data provided in this evidence pack) |
+Derzeit sind keine verwandten klinischen Studien registriert.
 
 ---
 
-## Safety Considerations
+## Literatur-Evidenz
 
-Please refer to the package insert for safety information.
+Derzeit ist keine verwandte Literatur verfügbar.
 
 ---
 
-## Conclusion and Next Steps
+## Marktstatus Deutschland
 
-**Decision: Hold**
+Für dieses Arzneimittel wurden im aktuellen Datensatz keine Vermarktungszulassungen gefunden (Marktstatus: Nicht vermarktet, Gesamtzulassungen: 0).
 
-**Rationale:**
-The top-ranked candidate carries a high raw TxGNN score but zero supporting clinical trials or literature, and the model's own mechanistic rationale identifies it as a probable knowledge-graph artifact with no biological plausibility linking PD-1 blockade to a benign fibrotic gingival condition.
+---
 
-**To proceed, the following is needed:**
-- Confirmed mechanism-of-action documentation (currently a Blocking/High-severity data gap)
-- TFDA/BfArM label warnings and contraindications (currently a Blocking data gap)
-- Independent literature/pathology review to determine whether any PD-L1 or immune-mediated component exists in refractory gingival fibromatosis before further scoring
-- Note: other candidates in this evidence pack — *lung hilum carcinoma* (L4, S1, Research Question) and *lung germ cell tumor* (L3, S1, Research Question) — carry stronger mechanistic and literature support and may warrant evaluation ahead of this top-ranked candidate
+## Zytotoxizität
+
+| Punkt | Inhalt |
+|------|--------|
+| Zytotoxizitäts-Klassifizierung | Immuntherapie (Anti-PD-1-Immune-Checkpoint-Inhibitor, IgG4-Antikörper) – kein konventionelles zytostatisches Chemotherapie-Mittel |
+| Myelosuppressionsrisiko | Niedrig – als Checkpoint-Inhibitor statt klassisches zytostatisches Mittel ist direkte Knochenmarksuppression keine charakteristische Toxizität; das dominante Risikoprofil besteht in immunbezogenen unerwünschten Ereignissen (irAEs) statt Myelosuppression |
+| Emetogenitäts-Klassifizierung | Minimal – Immune-Checkpoint-Inhibitoren werden als Wirkstoffklasse generell als minimal emetogen klassifiziert |
+| Überwachungsposten | Bitte beachten Sie die Warnungen und Vorsichtsmaßnahmen der Fachinformation (keine arzneimittelspezifischen Überwachungsdaten in diesem Nachweispaket bereitgestellt) |
+| Handhabungsschutz | Bitte beachten Sie die Warnungen und Vorsichtsmaßnahmen der Fachinformation (keine arzneimittelspezifischen Handhabungsdaten in diesem Nachweispaket bereitgestellt) |
+
+---
+
+## Sicherheitsüberlegungen
+
+Bitte beachten Sie die Fachinformation für Sicherheitsinformationen.
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Ausgesetzt**
+
+**Begründung:**
+Der Spitzenkandidat trägt einen hohen rohen TxGNN-Score, aber null unterstützende klinische Studien oder Literatur, und die eigene mechanistische Begründung des Modells identifiziert ihn als wahrscheinliches Knowledge-Graph-Artefakt ohne biologische Plausibilität, das PD-1-Blockade mit einer gutartigen fibrotischen gingivalen Erkrankung verbindet.
+
+**Um voranzukommen, wird folgendes benötigt:**
+- Bestätigte Dokumentation des Wirkmechanismus (derzeit eine blockierende/High-Severity-Datenlücke)
+- TFDA/BfArM-Kennzeichnungswarnungen und Kontraindikationen (derzeit eine blockierende Datenlücke)
+- Unabhängige Literatur-/Pathologie-Überprüfung, um festzustellen, ob eine PD-L1- oder Immune-vermittelte Komponente bei refraktärer gingivaler Fibromatose existiert, bevor eine weitere Bewertung durchgeführt wird
+- Hinweis: Andere Kandidaten in diesem Nachweispaket – *Lungenhilus-Karzinom* (L4, S1, Research Question) und *Lungenkeimzelltumor* (L3, S1, Research Question) – tragen stärkere mechanistische und Literaturunterstützung und könnten vor diesem Spitzenkandidaten zur Bewertung in Betracht gezogen werden
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

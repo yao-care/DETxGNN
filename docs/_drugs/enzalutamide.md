@@ -29,116 +29,113 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **7**
 
 </div>
 
-Using the given Evidence Pack, I've noted this is a **multi-candidate** pack (`TW-DB08899-multi`) — of the 7 TxGNN-predicted indications, only one (rank 5, "benign reproductive system neoplasm") carries any real trial/literature evidence that represents a genuinely *novel* repurposing signal; rank 6 is flagged inside the pack itself as a re-detection of Enzalutamide's already-known indication (prostate cancer) rather than a repurposing candidate, and ranks 1–4/7 have zero supporting evidence. I've built the report around the one defensible candidate (rank 5) per the template, and added a portfolio table so the other 6 predictions aren't silently dropped.
+# Enzalutamide: Vom Prostatakarzinom zu benignen Neoplasien des Reproduktionstrakts
+
+## Zusammenfassung in einem Satz
+
+> Enzalutamide ist ein Androgen-Rezeptor (AR)-Antagonist der nächsten Generation, dessen zugelassene Anwendung – durchgehend im Rationale des Modells dieses Evidence Packs zitiert – (metastatisches/kastrationsresistentes) **Prostatakarzinom** ist.
+> Von den sieben neuen Indikationen, die das TxGNN-Modell für dieses Arzneimittel identifiziert hat, wird nur eine durch tatsächliche Studien- und Literaturbefunde gestützt: **Benigne Neoplasien des Reproduktionstrakts**,
+> mit **1 klinischer Studie** und **5 Publikationen** – allerdings stammen alle diese Befunde aus *malignen* Prostatakarzinom-Populationen und nicht aus der Zielgruppe der benignen Neoplasien selbst, somit ist die Evidenz indirekt.
 
 ---
 
-# Enzalutamide: From Prostate Cancer to Benign Reproductive System Neoplasm
+## Schnellübersicht
 
-## One-Sentence Summary
-
-> Enzalutamide is a next-generation androgen receptor (AR) antagonist whose approved use — referenced throughout this evidence pack's own model rationale — is (metastatic/castration-resistant) **prostate cancer**.
-> Of the seven new indications the TxGNN model surfaced for this drug, the only one supported by actual trial and literature evidence is **Benign Reproductive System Neoplasm**,
-> with **1 clinical trial** and **5 publications** identified — all of them, however, drawn from *malignant* prostate cancer populations rather than the benign-neoplasm population itself, so the evidence is indirect.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Prostate Cancer *(derived from the model's own repurposing rationale, which repeatedly cites this as "Enzalutamide 之核准適應症"; formal Taiwan/BfArM licensed indication text is not available — see Data Gap DG001/DG002)* |
-| Predicted New Indication | Benign Reproductive System Neoplasm |
-| TxGNN Prediction Score | 99.53% (global model rank #5656) |
-| Evidence Level | L4 |
-| Germany Market Status | ✗ Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Posten | Inhalt |
+|--------|--------|
+| Ursprüngliche Indikation | Prostatakarzinom *(aus dem Modellrationale dieses Packs selbst abgeleitet, das wiederholt auf „Enzalutamide 之核准適應症" verweist; offizielle Taiwan/BfArM-lizenzierte Angabentexte sind nicht verfügbar – siehe Datenlücke DG001/DG002)* |
+| Vorhergesagte neue Indikation | Benigne Neoplasien des Reproduktionstrakts |
+| TxGNN-Vorhersage-Score | 99.53% (globales Modell Rang #5656) |
+| Evidence-Level | L4 |
+| Status auf dem deutschen Markt | ✗ Nicht vermarktet |
+| Anzahl Zulassungen | 0 |
+| Empfohlene Entscheidung | Zurückhalten |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage sinnvoll?
 
-Detailed mechanism-of-action data is marked as a data gap (`original_moa: [Data Gap]`), but the model's own rationale text consistently describes Enzalutamide as a **next-generation AR antagonist** that blocks AR nuclear translocation, DNA binding, and co-activator recruitment — the core mechanism by which it suppresses androgen-driven prostate cancer growth.
+Detaillierte Wirkmechanismus-Daten sind als Datenlücke gekennzeichnet (`original_moa: [Data Gap]`), aber der Rationale-Text des Modells selbst beschreibt Enzalutamide durchgehend als **AR-Antagonist der nächsten Generation**, der die AR-Kernlokalisierung, DNA-Bindung und Co-Aktivator-Rekrutierung blockiert – der Kernmechanismus, durch den das Arzneimittel das androgen-gesteuerte Prostatakarzinom-Wachstum unterdrückt.
 
-Prostate cancer (the drug's approved use) and "benign reproductive system neoplasm" both fall under AR-influenced growth pathways within the prostate/reproductive organ system. Several of the supporting publications (e.g., PMID 26926093, PMID 31266892) describe AR signaling and androgen biotransformation as active in **both benign and malignant** prostate tissue, which is the theoretical basis for extrapolating AR blockade to non-malignant proliferative lesions.
+Prostatakarzinom (die zugelassene Anwendung des Arzneimittels) und „benigne Neoplasien des Reproduktionstrakts" fallen beide unter AR-beeinflusste Wachstumspfade innerhalb des Prostata-/Reproduktionsorgan-Systems. Mehrere der unterstützenden Publikationen (z. B. PMID 26926093, PMID 31266892) beschreiben AR-Signalisierung und Androgen-Biotransformation als aktiv in **sowohl benignem als auch malignem** Prostatagewebebereich, was die theoretische Grundlage für die Extrapolation von AR-Blockade auf nicht-maligne proliferative Läsionen bildet.
 
-The key limitation is that **none of the identified trials or literature actually studied a benign-neoplasm population** — all clinical and mechanistic data come from malignant, metastatic, or castration-resistant prostate cancer cohorts. The link to "benign reproductive system neoplasm" is therefore a plausible mechanistic extrapolation, not a directly demonstrated effect, which is why the evidence level is capped at L4 (preclinical/mechanistic) rather than higher.
+Die Schlüsselbeschränkung ist, dass **keine der identifizierten Studien oder Publikationen tatsächlich eine benigne-Neoplasie-Population untersucht hat** – alle klinischen und mechanistischen Daten stammen aus malignen, metastatischen oder kastrationsresistenten Prostatakarzinom-Kohorten. Die Verbindung zu „benignen Neoplasien des Reproduktionstrakts" ist daher eine plausible mechanistische Extrapolation, nicht ein direkt nachgewiesener Effekt, weshalb die Evidence-Level auf L4 (präklinisch/mechanistisch) begrenzt ist und nicht höher.
 
 ---
 
-## Clinical Trial Evidence
+## Klinische Studien-Evidenz
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Studiennummer | Phase | Status | Einschreibungen | Wichtigste Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT05701007](https://clinicaltrials.gov/study/NCT05701007) | N/A (observational) | Completed | 1,083 | Real-world epidemiology and treatment-pattern study of **metastatic (malignant)** prostate cancer patients in Finland; provides population-level background only — study population and design do not match a benign-neoplasm indication (relevance grade C). |
+| [NCT05701007](https://clinicaltrials.gov/study/NCT05701007) | N/A (beobachtend) | Abgeschlossen | 1,083 | Epidemiologische Echtzeit-Studie und Behandlungsmuster-Analyse von **metastatischen (malignen)** Prostatakarzinom-Patienten in Finnland; bietet nur Hintergrund auf Populationsebene – Studienpopulation und Design entsprechen nicht einer Indikation mit benignen Neoplasien (Relevanzgrad C). |
 
 ---
 
-## Literature Evidence
+## Literatur-Evidenz
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Journal | Wichtigste Ergebnisse |
 |------|-----|------|------|---------|
-| [26926093](https://pubmed.ncbi.nlm.nih.gov/26926093/) | 2016 | Review | Pharmacological Research | Reviews androgen biotransformation and the AR/UGT regulatory network active in **both benign and malignant** prostate cells, supporting a shared hormonal growth-control pathway. |
-| [35227084](https://pubmed.ncbi.nlm.nih.gov/35227084/) | 2022 | Translational/Biomarker Cohort | The Journal of Urology | Shows PSMA as a biomarker for residual disease after neoadjuvant androgen deprivation, demonstrating androgen blockade's measurable effect on prostate tissue histology. |
-| [33771918](https://pubmed.ncbi.nlm.nih.gov/33771918/) | 2021 | Preclinical/Mechanistic | PNAS | ERβ activation inhibits nuclear EGFR translocation in the prostate, pointing to estrogen-receptor-linked regulation of prostate epithelial growth relevant to non-malignant proliferation. |
-| [31266892](https://pubmed.ncbi.nlm.nih.gov/31266892/) | 2019 | Preclinical/Mechanistic | PNAS | PARP-2 inhibition disrupts FOXA1-driven AR signaling and suppresses prostate growth — mechanistic support for AR-pathway targeting of prostate tissue growth in general. |
-| [30864728](https://pubmed.ncbi.nlm.nih.gov/30864728/) | 2019 | Preclinical/Mechanistic | Oncology Reports | PLCε knockdown sensitizes castration-resistant prostate cancer cells to enzalutamide by suppressing AR signaling — a resistance-reversal mechanism, not benign-tissue data. |
+| [26926093](https://pubmed.ncbi.nlm.nih.gov/26926093/) | 2016 | Übersichtsarbeit | Pharmacological Research | Überblick über Androgen-Biotransformation und das AR/UGT-Netzwerk, das in **sowohl benignen als auch malignen** Prostatazellen aktiv ist und einen gemeinsamen hormonalen Wachstumskontrollpfad unterstützt. |
+| [35227084](https://pubmed.ncbi.nlm.nih.gov/35227084/) | 2022 | Translational/Biomarker-Kohorte | The Journal of Urology | Zeigt PSMA als Biomarker für Residualerkrankung nach neoadjuvanter Androgen-Deprivation und demonstriert die messbare Auswirkung der Androgen-Blockade auf die Histologie des Prostatagewebes. |
+| [33771918](https://pubmed.ncbi.nlm.nih.gov/33771918/) | 2021 | Präklinisch/Mechanistisch | PNAS | ERβ-Aktivierung hemmt die nukleare EGFR-Translokation in der Prostata und weist auf eine Östrogen-Rezeptor-gekoppelte Regulation des Prostataepitheluachstums hin, die für nicht-maligne Proliferation relevant ist. |
+| [31266892](https://pubmed.ncbi.nlm.nih.gov/31266892/) | 2019 | Präklinisch/Mechanistisch | PNAS | PARP-2-Inhibition disrupts FOXA1-abhängiges AR-Signaling und unterdrückt das Prostatawachstum – mechanistische Unterstützung für AR-Pfad-Targeting von Prostatagewebewachstum allgemein. |
+| [30864728](https://pubmed.ncbi.nlm.nih.gov/30864728/) | 2019 | Präklinisch/Mechanistisch | Oncology Reports | PLCε-Knockdown sensibilisiert kastrationsresistente Prostatakarzinom-Zellen gegenüber Enzalutamide durch Unterdrückung der AR-Signalisierung – ein Resistenz-Umkehr-Mechanismus, keine Daten zu benignem Gewebe. |
 
 ---
 
-## Other Predicted Indications (Portfolio Overview)
+## Weitere vorhergesagte Indikationen (Portfolio-Übersicht)
 
-Because this evidence pack contains 7 model-predicted indications for Enzalutamide, they are summarized here for completeness rather than silently discarded:
+Da dieses Evidence Pack 7 modellvorhergesagte Indikationen für Enzalutamide enthält, werden sie hier zur Vollständigkeit zusammengefasst und nicht stillschweigend verworfen:
 
-| Rank | Disease | TxGNN Score | Evidence Level | Decision | Note |
+| Rang | Erkrankung | TxGNN-Score | Evidence-Level | Entscheidung | Anmerkung |
 |------|---------|-------------|-----------------|----------|------|
-| 1 | Prostate cancer/brain cancer susceptibility | 99.71% | L5 | Hold | Compound ontology term; no CNS mechanistic link, no evidence. Enzalutamide has limited blood-brain-barrier penetration and reported CNS AEs (seizure) — a safety signal, not an efficacy rationale. |
-| 2 | Prostate leiomyoma | 99.57% | L5 | Hold | Rare benign stromal tumor; growth driver unclear and not established as AR-dependent. No evidence. |
-| 3 | Brenner tumor | 99.55% | L5 | Hold | Predominantly an ovarian tumor; organ-system link to Enzalutamide's approved use is weak. No evidence. |
-| 4 | Fibroma of prostate | 99.53% | L5 | Hold | Rare benign stromal tumor; no literature establishing AR-pathway involvement. No evidence. |
-| **5** | **Benign reproductive system neoplasm** | **99.53%** | **L4** | **Hold (Research Question)** | **Headline candidate above — only entry with real, if indirect, supporting evidence.** |
-| 6 | Male reproductive organ cancer | 99.51% | L2 | *Excluded* | This is essentially Enzalutamide's **already-approved indication** (prostate cancer) — 50 trials and 20 publications confirm this, but the pack itself flags it as a positive-control signal confirming model accuracy, **not a novel repurposing candidate**, and recommends excluding it from the candidate list. |
-| 7 | Benign prostate phyllodes tumor | 99.48% | L5 | Hold | Extremely rare biphasic tumor, typically breast-origin; essentially no prostate-specific literature. No evidence. |
+| 1 | Prostatakarzinom/Gehirnkrebsanfälligkeit | 99.71% | L5 | Zurückhalten | Zusammengesetzte Ontologie-Begriff; kein ZNS-mechanistischer Link, keine Evidenz. Enzalutamide hat begrenzte Blut-Hirn-Schranken-Penetration und berichtete ZNS-Nebenwirkungen (Anfälle) – ein Sicherheitssignal, nicht begründet in Wirksamkeit. |
+| 2 | Prostataleomyom | 99.57% | L5 | Zurückhalten | Seltener benigner stromaler Tumor; Wachstumstreiber unklar und nicht als AR-abhängig etabliert. Keine Evidenz. |
+| 3 | Brenner-Tumor | 99.55% | L5 | Zurückhalten | Überwiegend ein Ovarialtumor; die Organgewebeverbindung zu Enzalutamides zugelassener Anwendung ist schwach. Keine Evidenz. |
+| 4 | Fibrom der Prostata | 99.53% | L5 | Zurückhalten | Seltener benigner stromaler Tumor; kein in der Literatur etablierter AR-Pfad-Beteiligung. Keine Evidenz. |
+| **5** | **Benigne Neoplasien des Reproduktionstrakts** | **99.53%** | **L4** | **Zurückhalten (Forschungsfrage)** | **Hauptkandidat oben – einziger Eintrag mit echter, wenn auch indirekter, Unterstützungsevidenz.** |
+| 6 | Krebs männlicher Fortpflanzungsorgane | 99.51% | L2 | *Ausgeschlossen* | Dies ist im Wesentlichen Enzalutamides **bereits zugelassene Indikation** (Prostatakarzinom) – 50 Studien und 20 Publikationen bestätigen dies, aber das Pack selbst flaggt es als positives Kontrollsignal, das die Modellgenauigkeit bestätigt, **nicht ein neuer Repurposing-Kandidat**, und empfiehlt, ihn aus der Kandidatenliste auszuschließen. |
+| 7 | Benigner Phyllodesumor der Prostata | 99.48% | L5 | Zurückhalten | Äußerst seltener diphasischer Tumor, typischerweise Brustherkunft; nahezu keine prostata-spezifischen Literaturangaben. Keine Evidenz. |
 
 ---
 
-## Cytotoxicity
+## Zytotoxizität
 
-*(Included because the drug's approved indication is oncologic — prostate cancer — even though Enzalutamide is not a conventional chemotherapeutic.)*
+*(Einbezogen, da die zugelassene Indikation des Arzneimittels onkologisch ist – Prostatakarzinom – obwohl Enzalutamide kein klassisches Chemotherapeutikum ist.)*
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy — next-generation androgen receptor (AR) signaling inhibitor; not a conventional cytotoxic agent |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions (no toxicity data provided in this evidence pack) |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions (no data provided) |
-| Monitoring Items | Please refer to the package insert warnings and precautions. Note: the pack's own rationale (rank 1) flags a reported CNS safety signal (seizure) associated with Enzalutamide, suggesting neurological monitoring is relevant where applicable |
-| Handling Protection | Please refer to the package insert warnings and precautions (no cytotoxic-handling data provided; oral targeted agent, not classic IV cytotoxic chemotherapy) |
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Key warnings, contraindications, and drug-interaction data are all marked as data gaps in this pack. Note that DG001 — TFDA/BfArM package-insert warnings and contraindications — is flagged as a **Blocking** severity gap: the pack itself states this data must be resolved before the candidate can enter the S1 safety pre-screen.)*
+| Posten | Inhalt |
+|--------|--------|
+| Zytotoxizitäts-Klassifizierung | Zielgerichtete Therapie – Androgen-Rezeptor (AR)-Signalisierungs-Inhibitor der nächsten Generation; kein klassisches Zytotoxikum |
+| Knochenmarksuppression-Risiko | Bitte lesen Sie die Warnungen und Vorsichtsmaßnahmen in der Fachinformation (keine Toxizitätsdaten in diesem Evidence Pack vorhanden) |
+| Emetogenitäts-Klassifizierung | Bitte lesen Sie die Warnungen und Vorsichtsmaßnahmen in der Fachinformation (keine Daten vorhanden) |
+| Überwachungsgegenstände | Bitte lesen Sie die Warnungen und Vorsichtsmaßnahmen in der Fachinformation. Hinweis: Das Rationale des Packs selbst (Rang 1) flaggt ein berichtetes ZNS-Sicherheitssignal (Anfälle) im Zusammenhang mit Enzalutamide, was darauf hindeutet, dass neurologische Überwachung relevant ist, falls zutreffend. |
+| Schutzmaßnahmen bei Handhabung | Bitte lesen Sie die Warnungen und Vorsichtsmaßnahmen in der Fachinformation (keine Daten zur Handhabung zytotoxischer Mittel vorhanden; orale zielgerichtete Therapie, keine klassische intravenöse Zytotoxika-Chemotherapie) |
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsüberlegungen
 
-**Decision: Hold**
+Bitte beachten Sie die Sicherheitsinformationen in der Fachinformation.
 
-**Rationale:**
-- The only novel, evidence-backed candidate in this pack (Benign Reproductive System Neoplasm, rank 5) is supported solely by indirect, mechanistic/preclinical evidence drawn from **malignant** prostate cancer populations (L4) — no trial or publication studies the benign-neoplasm population directly.
-- The drug is currently unmarketed in the relevant regulatory jurisdiction (0 licenses), and a Blocking-severity data gap (TFDA/BfArM package-insert warnings and contraindications, DG001) prevents even a basic safety pre-screen.
-- The remaining five low-scoring candidates (ranks 1–4, 7) have zero supporting trials or literature; rank 6 duplicates the drug's already-approved indication and should be excluded from the candidate list rather than pursued as "new."
+*(Alle Warnungen, Kontraindikationen und Arzneimittelwechselwirkungen sind in diesem Pack als Datenlücken gekennzeichnet. Beachten Sie, dass DG001 – TFDA/BfArM-Fachinformation Warnungen und Kontraindikationen – als **Blocking-Schweregrad**-Lücke gekennzeichnet ist: Das Pack selbst besagt, dass diese Daten gelöst werden müssen, bevor der Kandidat die S1-Sicherheits-Vorprüfung durchlaufen kann.)*
 
-**To proceed, the following is needed:**
-- TFDA/BfArM package insert (warnings, contraindications) — resolves DG001 (Blocking)
-- Confirmed mechanism-of-action documentation from DrugBank — resolves DG002
-- A direct preclinical or translational study evaluating AR blockade in benign (non-malignant) reproductive-tract neoplasm tissue, to move rank 5 beyond mechanistic extrapolation
-- Clarification of German/Taiwan regulatory and licensing status, given the drug is currently unmarketed with 0 authorizations on file
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Zurückhalten**
+
+**Begründung:**
+- Der einzige neue, durch Evidenz gestützte Kandidat in diesem Pack (Benigne Neoplasien des Reproduktionstrakts, Rang 5) wird ausschließlich durch indirekte, mechanistische/präklinische Evidenz aus **malignen** Prostatakarzinom-Populationen (L4) gestützt – keine Studie oder Publikation untersucht die benigne-Neoplasie-Population direkt.
+- Das Arzneimittel ist derzeit in der relevanten Regulierungsjurisdiktion nicht vermarktet (0 Lizenzen), und eine Blocking-Schweregrad-Datenlücke (TFDA/BfArM-Fachinformation Warnungen und Kontraindikationen, DG001) verhindert sogar eine grundlegende Sicherheits-Vorprüfung.
+- Die übrigen fünf niedrig bewerteten Kandidaten (Ränge 1–4, 7) haben null unterstützende Studien oder Literatur; Rang 6 dupliziert die bereits zugelassene Indikation des Arzneimittels und sollte aus der Kandidatenliste ausgeschlossen werden, statt als „neu" verfolgt zu werden.
+
+**Um fortzufahren, wird folgendes benötigt:**
+- TFDA/BfArM-Fachinformation (Warnungen, Kontraindikationen) – löst DG001 (Blocking) auf
+- Bestätigte Wirkmechanismus-Dokumentation aus DrugBank – löst DG002 auf
+- Eine direkte präklinische oder translationale Studie, die AR-Blockade in benignem (nicht-malignem) Reproduktionstrakts-Neoplasie-Gewebe evaluiert, um Rang 5 über mechanistische Extrapolation hinaus zu bewegen
+- Klärung des deutschen/taiwanesischen regulatorischen und Lizenzierungsstatus, da das Arzneimittel derzeit nicht vermarktet ist und 0 Zulassungen in der Akte vorhanden sind
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -29,76 +29,77 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# ASFOTASE ALFA：從低磷酸酶症（HPP）到粒線體氧化磷酸化障礙（核 DNA 異常型）
+# ASFOTASE ALFA: Von Hypophosphathasie (HPP) zu mitochondrialem Oxidative-Phosphorylierungs-Defekt (verursacht durch Kern-DNA-Anomalien)
 
 ## One-Sentence Summary
 
-> Asfotase alfa 為重組人類組織非特異性鹼性磷酸酶（TNSALP）酵素替代療法，原用於治療低磷酸酶症（Hypophosphatasia, HPP）。
-> TxGNN 模型預測其可能對 **粒線體氧化磷酸化障礙（核 DNA 異常所致）** 有效，
-> 但目前**無任何臨床試驗與文獻**支持此方向，且證據包中的機轉分析本身已指出兩者病理生理無已知關聯。
+> Asfotase alfa ist eine Enzymersatztherapie mit rekombinanter humaner gewebsunspezifischer alkalischer Phosphatase (TNSALP), ursprünglich zur Behandlung der Hypophosphathasie (HPP) entwickelt.
+> Das TxGNN-Modell prognostiziert, dass es möglicherweise wirksam bei **mitochondrialen Oxidative-Phosphorylierungs-Störungen (verursacht durch Anomalien der Kern-DNA)** sein könnte,
+> jedoch gibt es derzeit **keine klinischen Studien und keine Literaturbelege**, die diesen Ansatz unterstützen, und die Mechanismus-Analyse im Evidenzpaket weist selbst darauf hin, dass zwischen den beiden Pathophysiologien keine bekannte Assoziation besteht.
 
 ---
 
 ## Quick Overview
 
-| Item | Content |
-|------|------|
-| Original Indication | 低磷酸酶症（Hypophosphatasia, HPP）※依證據包中機轉敘述整理，非正式適應症清單（`original_indications` 欄位為空） |
-| Predicted New Indication | Mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies |
-| TxGNN Prediction Score | 99.95% |
-| Evidence Level | L5（僅模型預測，無實際研究） |
-| Germany Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Eintrag | Inhalt |
+|---------|---------|
+| Ursprüngliche Indikation | Hypophosphathasie (HPP) ※nach der Mechanismus-Beschreibung im Evidenzpaket zusammengefasst, keine offizielle Indikationsliste (`original_indications` Feld ist leer) |
+| Vorhergesagte neue Indikation | Mitochondrialer Oxidative-Phosphorylierungs-Defekt verursacht durch Anomalien der Kern-DNA |
+| TxGNN-Prognosescore | 99.95% |
+| Evidenzstufe | L5 (nur Modellprognose, keine tatsächliche Forschung) |
+| Marktstatus Deutschland | Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-`drug.original_moa` 欄位標記為資料缺口，但證據包中第一名預測項的 `repurposing_rationale` 已提供機轉描述可供引用：Asfotase alfa 為重組人類組織非特異性鹼性磷酸酶（TNSALP），作用機轉為水解焦磷酸鹽（PPi）以促進骨骼礦化，主要用於低磷酸酶症（HPP）——一種細胞外基質礦化障礙。
+Das Feld `drug.original_moa` ist als Datenlücke gekennzeichnet, aber `repurposing_rationale` der höchstbewerteten Kandidaten im Evidenzpaket bietet bereits eine Mechanismusbeschreibung: Asfotase alfa ist ein rekombinantes humanes gewebsunspezifisches alkalisches Phosphatase-Enzym (TNSALP) mit dem Wirkmechanismus der Hydrolyse von Pyrophosphat (PPi), um die Knochenmineralisierung zu fördern, hauptsächlich zur Behandlung der Hypophosphathasie (HPP) — einer Mineralisierungsstörung der extrazellulären Matrix — verwendet.
 
-粒線體氧化磷酸化障礙（核 DNA 異常型）屬於粒線體呼吸鏈缺陷，病理軸線與骨骼礦化／磷酸鹽代謝完全不同。證據包本身即明確指出：「與粒線體氧化磷酸化路徑（核DNA突變導致的呼吸鏈缺陷）無已知機轉關聯，兩者病理生理完全不同軸線，此為知識圖譜統計關聯，缺乏生物學合理性支持。」
+Mitochondriale Oxidative-Phosphorylierungs-Störungen (verursacht durch Kern-DNA-Anomalien) gehören zu mitochondrialen Atmungskettendefekten, deren Pathophysiologie völlig unabhängig von Knochenmineralisierung und Phosphatstoffwechsel ist. Das Evidenzpaket selbst verweist explizit darauf: „Es gibt keine bekannte Mechanismus-Assoziation mit dem mitochondrialen Oxidative-Phosphorylierungs-Weg (Atmungskettendefekt verursacht durch Kern-DNA-Mutationen); die beiden Pathophysiologien folgen völlig unterschiedlichen pathologischen Achsen; dies ist eine statistische Assoziation im Wissensgraphen, der biologische Plausibilität fehlt."
 
-換言之，此預測是 TxGNN 知識圖譜上的統計關聯，而非機轉驅動的假說。第 2–10 名候選（Steel syndrome、外分泌胰腺功能不全、MPS I 系列、Hurler/Scheie syndrome、家族性 ApoC-II 缺乏症、食道靜脈曲張、胱胺酸儲積症等）也均被證據包自陳為「表型層次關聯」或「無生物學合理性」，僅少數（如胱胺酸儲積症、Hurler/Scheie syndrome、溶酶體儲積病合併骨骼病變）在骨骼表型上有間接相似性，但分子機轉不重疊。
+Mit anderen Worten: Diese Prognose basiert auf statistischen Assoziationen im TxGNN-Wissensgraphen, nicht auf mechanismusgesteuerten Hypothesen. Die Kandidaten auf Platz 2–10 (Steel-Syndrom, exokrine Pankreasinsuffizienz, MPS-I-Serie, Hurler/Scheie-Syndrom, familiärer ApoC-II-Mangel, Ösophagus-Varizen, Zystinose usw.) wurden ebenfalls vom Evidenzpaket selbst als „phänotypische Ebenen-Assoziationen" oder „biologisch implausibel" charakterisiert; nur wenige (wie Zystinose, Hurler/Scheie-Syndrom, lysosomale Speicherkrankheit mit begleitenden Skelettveränderungen) zeigen indirekte Ähnlichkeiten auf der Skelettphänotyp-Ebene, aber die molekularen Mechanismen überlappen sich nicht.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Derzeit sind keine verwandten klinischen Studien registriert
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available
+Derzeit ist keine verwandte Literatur verfügbar
 
 ---
 
 ## Germany Market Information
 
-目前無查獲之藥證授權紀錄（`total_licenses = 0`，市場狀態為「Not marketed」）。
+Derzeit sind keine Arzneimittelzulassungen vorhanden (`total_licenses = 0`; Marktstatus ist „Not marketed").
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Bitte beachten Sie die Fachinformation für Sicherheitsinformationen.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Entscheidung: Hold**
 
-**Rationale:**
-排名前 10 名之預測適應症皆為 L5 等級（僅有 TxGNN 模型分數，無臨床試驗、無文獻支持），且第一名候選的機轉分析已由證據包本身指出缺乏生物學合理性，屬於知識圖譜統計關聯而非機轉驅動假說，目前不具備進入下一階段評估的證據基礎。
+**Begründung:**
+Die Top-10-Vorhersagen für Indikationen sind alle L5-Stufe (nur TxGNN-Modellscore, keine klinischen Studien, keine Literaturunterstützung), und die Mechanismus-Analyse des Top-1-Kandidaten wurde bereits vom Evidenzpaket selbst als biologisch implausibel identifiziert; es handelt sich um statistische Assoziationen im Wissensgraphen, nicht um mechanismusgesteuerte Hypothesen; derzeit gibt es keine ausreichende Evidenzbasis für den Übergang zur nächsten Bewertungsphase.
 
-**To proceed, the following is needed:**
-- 補齊 TFDA 仿單警語／禁忌資料（DG001，Blocking，目前無法進行 S1 安全性初評）
-- 查證 DrugBank 之 asfotase alfa 完整作用機轉（MOA）（DG002，High）
-- 針對排名較合理之候選（如胱胺酸儲積症、MPS I 系列等骨骼表型相關疾病）進行文獻／試驗檢索，確認是否有超出知識圖譜關聯的實際證據
-- 若無法補齊機轉合理性或實證支持，建議維持 Hold，不進入 S1 以後階段
+**Um fortzufahren, wird Folgendes benötigt:**
+- Vervollständigung der TFDA-Fachinformation Warnhinweise/Kontraindikationen-Daten (DG001, Blocking, derzeit kann keine S1-Sicherheitsprüfung durchgeführt werden)
+- Überprüfung des vollständigen Wirkmechanismus (MOA) von asfotase alfa in der DrugBank (DG002, High)
+- Literatur- und Studienrecherche für biologisch plausiblere Kandidaten durchführen (wie Zystinose, MPS-I-Serie und andere skelettphänotyp-assoziierte Erkrankungen), um zu bestätigen, ob über die Wissensgraph-Assoziation hinaus tatsächliche Evidenzen vorhanden sind
+- Falls biologische Plausibilität oder empirische Unterstützung nicht vervollständigt werden können, wird empfohlen, Hold beizubehalten und nicht in S1 oder später Phasen überzugehen
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

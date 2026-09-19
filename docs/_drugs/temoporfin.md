@@ -29,108 +29,109 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Temoporfin: From Head and Neck Squamous Cell Carcinoma (PDT) to Tongue Neoplasm
+# Temoporfin: Von Plattenepithelkarzinom des Kopf- und Halsbereichs (PDT) zu Zungenneoplasie
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Temoporfin (mTHPC) is a photosensitizer used in photodynamic therapy (PDT), with its strongest established evidence base in squamous cell tumors of the oral cavity, tongue base, and upper aerodigestive tract.
-> Among the 10 candidate indications in this evidence pack, TxGNN's top-scoring prediction (**nasopharyngeal teratoma**) has **no supporting mechanism or literature**, while **Benign/Malignant Neoplasm of Tongue** — despite a slightly lower model score — is backed by **12 publications** including cohort studies, salvage-surgery case series, and pharmacokinetic localization studies. This report therefore focuses on the tongue indication as the most credible repurposing candidate in the pack.
-> A **blocking data gap** (no local safety label/warnings available) currently prevents this candidate from advancing past a basic safety review.
+> Temoporfin (mTHPC) ist ein Photosensibilisator, der in der photodynamischen Therapie (PDT) verwendet wird, mit der stärksten etablierten Evidenzbasis bei Plattenepithelkarzinomen der Mundhöhle, des Zungengrundes und der oberen Atemwege.
+> Unter den 10 Kandidaten-Indikationen in diesem Nachweispaket hat TxGNNs am höchsten bewertete Vorhersage (**Nasopharynx-Teratom**) **keine unterstützende Mechanismus oder Literatur**, während **Benigne/Maligne Neoplasie der Zunge** – trotz eines leicht niedrigeren Modellscores – durch **12 Publikationen** unterstützt wird, darunter Kohortenstudien, Fallserien zur Salvage-Chirurgie und pharmakokinetische Lokalisierungsstudien. Dieser Bericht konzentriert sich daher auf die Zungenindikation als glaubwürdigster Kandidat für Umpositionierung in diesem Paket.
+> Eine **blockierende Datenlücke** (keine lokale Sicherheitskennzeichnung/Warnungen verfügbar) verhindert derzeit, dass dieser Kandidat über eine grundlegende Sicherheitsprüfung hinaus vorankommt.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Posten | Inhalt |
 |------|------|
-| Original Indication | Not available in structured regulatory data; per repeated evidence-pack rationale, temoporfin's validated use is **PDT for head & neck mucosal squamous cell tumors** |
-| Predicted New Indication | Benign Neoplasm of Tongue (evidence base is predominantly tongue/tongue-base squamous cell carcinoma) |
-| TxGNN Prediction Score | 99.76% (rank #3323 of candidate list) |
-| Evidence Level | L3 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Originalindikation | Nicht in strukturierten regulatorischen Daten verfügbar; gemäß wiederholter Begründung des Nachweispakets ist temoporfins validierte Anwendung **PDT für Plattenepithelkarzinome der Kopf- und Halsschleimhaut** |
+| Vorhergesagte neue Indikation | Benigne Neoplasie der Zunge (Evidenzbasis ist überwiegend Zunge/Zundengrund-Plattenepithelkarzinom) |
+| TxGNN-Vorhersageergebnis | 99,76% (Rang #3323 von Kandidatenliste) |
+| Evidenzstufe | L3 |
+| Marktstatus Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Mit Schutzmaßnahmen fortfahren |
 
-**Note on TxGNN top rank:** The single highest-scoring prediction in this pack, *nasopharyngeal teratoma* (99.78%), is explicitly flagged in its own rationale as having "no mechanistic support" and is scored L5/Hold. It is not featured as the headline indication for that reason.
-
----
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap, DG002). Based on information embedded in the evidence pack, temoporfin (mTHPC) is a photosensitizer: upon local light activation it generates singlet oxygen, causing selective tumor cell destruction. Its efficacy has been most extensively validated in squamous epithelial tumors of the head and neck mucosa — the oral cavity, tongue, tongue base, and upper aerodigestive tract.
-
-The tongue is the anatomical site with the richest cluster of supporting literature in this dataset: pharmacokinetic localization studies of mTHPC in healthy versus malignant tongue/upper-aerodigestive tissue, interstitial PDT dosimetry/treatment-planning studies, and multiple cohort/case-series reports of PDT (including postoperative adjuvant use after robot-assisted salvage surgery) for tongue base carcinoma. This gives strong mechanistic and empirical continuity between temoporfin's established PDT use and this candidate indication.
-
-One important caveat: nearly all cited literature concerns **malignant** squamous cell carcinoma of the tongue/tongue base, not strictly "benign neoplasm" as the TxGNN-labeled indication states. The evidence pack itself flags this naming mismatch and suggests the indication would be more accurately framed as "head and neck squamous epithelial neoplasm (including tongue)." This distinction should be preserved in any downstream clinical use case.
+**Hinweis zu TxGNN-Toprang:** Die einzeln am höchsten bewertete Vorhersage in diesem Paket, *Nasopharynx-Teratom* (99,78%), ist in ihrer eigenen Begründung explizit als „keine mechanistische Unterstützung" gekennzeichnet und wird L5/Halten bewertet. Sie wird daher nicht als Hauptindikation empfohlen.
 
 ---
 
-## Clinical Trial Evidence
+## Warum ist diese Vorhersage sinnvoll?
 
-Currently no related clinical trials registered.
+Derzeit sind detaillierte Daten zum Wirkmechanismus nicht verfügbar (gekennzeichnet als High-Severity-Datenlücke, DG002). Basierend auf Informationen im Nachweispaket ist temoporfin (mTHPC) ein Photosensibilisator: Bei lokaler Lichtaktivierung erzeugt er Singulettsauerstoff, was zu selektiver Tumorzellzerstörung führt. Seine Wirksamkeit wurde am ausgedehntesten bei Plattenepithelkarzinomen der Kopf- und Halsschleimhaut validiert – der Mundhöhle, Zunge, Zundengrund und oberen Atemwege.
+
+Die Zunge ist die anatomische Stelle mit dem reichsten Bestand an Literaturunterstützung in diesem Datensatz: pharmakokinetische Lokalisierungsstudien von mTHPC in gesundem versus malignem Zungen-/Oberluftweggewebe, interstitielle PDT-Dosimetrie-/Behandlungsplanungsstudien und mehrere Kohorten-/Fallserien-Berichte von PDT (einschließlich postoperativer adjuvanter Verwendung nach robotergestützter Salvage-Chirurgie) für Zundengrund-Karzinom. Dies gibt starke mechanistische und empirische Kontinuität zwischen temoporfins etablierter PDT-Verwendung und dieser Kandidaten-Indikation.
+
+Ein wichtiger Vorbehalt: Fast alle zitierte Literatur betrifft **maligne** Plattenepithelkarzinome der Zunge/des Zungengrundes, nicht streng „benigne Neoplasie" wie die TxGNN-gekennzeichnete Indikation besagt. Das Nachweispaket selbst kennzeichnet diese Benennungsabweichung und schlägt vor, die Indikation würde genauer als „Kopf- und Hals-Plattenepithel-Neoplasie (einschließlich Zunge)" formuliert. Diese Unterscheidung sollte in jedem nachgelagerten klinischen Anwendungsfall bewahrt werden.
 
 ---
 
-## Literature Evidence
+## Klinische Studien-Evidenz
 
-| PMID | Year | Type | Journal | Key Findings |
+Derzeit sind keine entsprechenden klinischen Studien registriert.
+
+---
+
+## Literatur-Evidenz
+
+| PMID | Jahr | Typ | Journal | Wichtigste Ergebnisse |
 |------|-----|------|------|---------|
-| [9612194](https://pubmed.ncbi.nlm.nih.gov/9612194/) | 1996 | Clinical Cohort | J Clin Laser Med Surg | Early clinical evaluation of mTHPC-PDT in 27 patients with upper aerodigestive tract cancer |
-| [9334805](https://pubmed.ncbi.nlm.nih.gov/9334805/) | 1997 | Cohort | Int J Cancer | mTHPC-PDT in 19 patients with oral cavity malignancy, including field cancerization |
-| [9788423](https://pubmed.ncbi.nlm.nih.gov/9788423/) | 1998 | Clinical/Preclinical Correlation | Int J Radiat Oncol Biol Phys | Interstitial mTHPC-PDT dosing conditions that maximize tumor damage while sparing striated muscle |
-| [11485842](https://pubmed.ncbi.nlm.nih.gov/11485842/) | 2001 | Pharmacokinetic Study | J Photochem Photobiol B | Fluorescence microscopy mapping of mTHPC (Foscan) distribution in healthy vs. malignant upper aerodigestive/tongue tissue |
-| [20706842](https://pubmed.ncbi.nlm.nih.gov/20706842/) | 2011 | Cohort | Eur Arch Otorhinolaryngol | Outcome analysis of PDT in 170 patients (226 lesions) with early-stage oral cavity/oropharynx neoplasms |
-| [21412802](https://pubmed.ncbi.nlm.nih.gov/21412802/) | 2011 | Cohort | Lasers Surg Med | PDT outcomes for oral dysplasia (premalignant lesions) |
-| [22152039](https://pubmed.ncbi.nlm.nih.gov/22152039/) | 2011 | Case Series | Head Neck Oncol | mTHPC-PDT in end-stage/recurrent tongue base carcinoma; significant symptom reduction, favorable morbidity/mortality |
-| [23775429](https://pubmed.ncbi.nlm.nih.gov/23775429/) | 2013 | Review/Technical | Lasers Surg Med | Airway management strategies for head & neck PDT; highlights post-PDT swelling risk at tongue base |
-| [24037957](https://pubmed.ncbi.nlm.nih.gov/24037957/) | 2013 | Technical/Planning Study | Lasers Surg Med | MR/CT-based treatment planning method for mTHPC interstitial PDT in deep-seated head & neck cancer |
-| [26179387](https://pubmed.ncbi.nlm.nih.gov/26179387/) | 2015 | Cohort | World J Surg Oncol | Postoperative temoporfin-PDT as adjuvant therapy after robot-assisted salvage surgery for recurrent tongue base SCC |
+| [9612194](https://pubmed.ncbi.nlm.nih.gov/9612194/) | 1996 | Klinische Kohorte | J Clin Laser Med Surg | Frühe klinische Bewertung von mTHPC-PDT bei 27 Patienten mit Krebs der oberen Atemwege |
+| [9334805](https://pubmed.ncbi.nlm.nih.gov/9334805/) | 1997 | Kohorte | Int J Cancer | mTHPC-PDT bei 19 Patienten mit Mundhöhlenbösartigkeit, einschließlich Feldkarzinisierung |
+| [9788423](https://pubmed.ncbi.nlm.nih.gov/9788423/) | 1998 | Klinisch/Präklinische Korrelation | Int J Radiat Oncol Biol Phys | Interstitielle mTHPC-PDT-Dosierungsbedingungen, die Tumorzerstörung maximieren und quergestreifte Muskulatur schonen |
+| [11485842](https://pubmed.ncbi.nlm.nih.gov/11485842/) | 2001 | Pharmakokinetische Studie | J Photochem Photobiol B | Fluoreszenzmikroskopie-Kartierung der mTHPC (Foscan)-Verteilung in gesundem versus malignem Oberluftweggewebe/Zunge |
+| [20706842](https://pubmed.ncbi.nlm.nih.gov/20706842/) | 2011 | Kohorte | Eur Arch Otorhinolaryngol | Ergebnis-Analyse von PDT bei 170 Patienten (226 Läsionen) mit Frühstadium-Mundhöhlen-/Oropharynx-Neoplasien |
+| [21412802](https://pubmed.ncbi.nlm.nih.gov/21412802/) | 2011 | Kohorte | Lasers Surg Med | PDT-Ergebnisse für orale Dysplasie (prämaligne Läsionen) |
+| [22152039](https://pubmed.ncbi.nlm.nih.gov/22152039/) | 2011 | Fallserie | Head Neck Oncol | mTHPC-PDT bei Endstadium-/rezidivierendem Zundengrund-Karzinom; signifikante Symptomreduktion, günstige Morbidität/Mortalität |
+| [23775429](https://pubmed.ncbi.nlm.nih.gov/23775429/) | 2013 | Übersicht/Technisch | Lasers Surg Med | Atemwegsmanagement-Strategien für Kopf- und Hals-PDT; hebt Post-PDT-Schwellungsrisiko am Zundengrund hervor |
+| [24037957](https://pubmed.ncbi.nlm.nih.gov/24037957/) | 2013 | Technisch/Planungsstudie | Lasers Surg Med | MR/CT-basierte Behandlungsplanungsmethode für mTHPC-interstitielle PDT bei tiefgreifendem Kopf- und Hals-Krebs |
+| [26179387](https://pubmed.ncbi.nlm.nih.gov/26179387/) | 2015 | Kohorte | World J Surg Oncol | Postoperative Temoporfin-PDT als adjuvante Therapie nach robotergestützter Salvage-Chirurgie für rezidivierendes Zundengrund-PEK |
 
 ---
 
-## Germany Market Information
+## Marktstatus Deutschland
 
-No marketing authorizations are currently listed in the available regulatory dataset (`total_licenses: 0`, `market_status: Not marketed/Not Marketed`). This may reflect withdrawal, non-renewal, or absence of a local filing rather than a fundamental efficacy/safety failure — original centralized EU approval history should be verified separately before drawing conclusions.
+Keine Zulassungen sind derzeit im verfügbaren Datensatz der Regulierungsbehörden aufgelistet (`total_licenses: 0`, `market_status: Not marketed/Nicht vermarktet`). Dies kann Rückzug, Nichtverneuerung oder Fehlen einer lokalen Anmeldung widerspiegeln und nicht unbedingt ein grundlegendes Wirksamkeits-/Sicherheitsversagen – die ursprüngliche Zentralisierungszulassungsgeschichte sollte separat überprüft werden, bevor Schlussfolgerungen gezogen werden.
 
 ---
 
-## Cytotoxicity
+## Zytotoxizität
 
-Temoporfin is classified here as antineoplastic based on its established use in treating malignant squamous cell tumors via photodynamic therapy.
+Temoporfin wird hier als Antineoplastikum klassifiziert, basierend auf seiner etablierten Anwendung bei der Behandlung maligner Plattenepithelkarzinome mittels photodynamischer Therapie.
 
-| Item | Content |
+| Posten | Inhalt |
 |------|------|
-| Cytotoxicity Classification | Targeted phototherapy agent (photosensitizer / PDT) — not a conventional systemic cytotoxic chemotherapeutic |
-| Myelosuppression Risk | Not established in this dataset. Mechanistically (local, light-activated cytotoxicity rather than systemic exposure), myelosuppression risk is expected to be low, but this is inferred, not confirmed by toxicity data |
-| Emetogenicity Classification | Not established; localized PDT agents are not typically classified under standard systemic emetogenicity scales |
-| Monitoring Items | Skin/eye photosensitivity (prolonged light avoidance post-dose), airway patency and local tissue swelling post-treatment (per PMID 23775429), local wound/tissue healing |
-| Handling Protection | Photosensitizing agent — requires light-controlled handling and patient light-avoidance protocols; standard cytotoxic drug handling regulations may not directly apply, but should be confirmed against the (currently unavailable) product label |
+| Zytotoxizitäts-Klassifizierung | Gezieltes Phototherapie-Mittel (Photosensibilisator/PDT) – kein konventionelles systemisches zytotoxisches Chemotherapeutikum |
+| Myelosuppressionsrisiko | Nicht in diesem Datensatz etabliert. Mechanistisch (lokale, lichtaktivierte Zytotoxizität statt systemische Exposition) wird das Myelosuppressionsrisiko als niedrig erwartet, aber dies wird abgeleitet, nicht durch Toxizitätsdaten bestätigt |
+| Emetogenitäts-Klassifizierung | Nicht etabliert; lokalisierte PDT-Mittel werden typischerweise nicht unter standardisierte systemische Emetogenitätsskalen klassifiziert |
+| Überwachungs-Posten | Haut-/Augenphotosensitivität (längeres Lichtmeidungs-Protokoll nach Dosierung), Atemwegspatenz und lokale Gewebeschwellung post-Behandlung (per PMID 23775429), lokale Wund-/Gewebestadium |
+| Handhabungsschutz | Photosensibilisierendes Mittel – erfordert lichtkontrollierte Handhabung und Lichtmeidungs-Protokolle für Patienten; Standard-Chemotherapie-Handhabungsrichtlinien gelten möglicherweise nicht direkt, sollten aber gegen die (derzeit nicht verfügbare) Produktkennzeichnung bestätigt werden |
 
-Please refer to the package insert warnings and precautions once available, as detailed toxicity data could not be retrieved for this evaluation (see Blocking data gap DG001 below).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. All key warnings, contraindications, and drug interaction fields in this evidence pack are currently unavailable (`[Data Gap]` / `not_found`).
-
-**⚠ Blocking gap:** Local product label / TFDA-equivalent warnings and contraindications (DG001) have not yet been retrieved. Per the evidence pack, this blocks entry into the S1 safety pre-assessment stage and must be resolved before any clinical or regulatory next step.
+Bitte beachten Sie die Packungsbeilage-Warnungen und Vorsichtsmaßnahmen, sobald diese verfügbar sind, da detaillierte Toxizitätsdaten für diese Bewertung nicht abgerufen werden konnten (siehe Blockierende Datenlücke DG001 unten).
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsaspekte
 
-**Decision: Proceed with Guardrails**
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. Alle Schlüssel-Warnungen, Kontraindikationen und Arzneimittelwechselwirkungsfelder in diesem Nachweispaket sind derzeit nicht verfügbar (`[Datenlücke]` / `not_found`).
 
-**Rationale:**
-Tongue/tongue-base squamous neoplasm has the strongest and most consistent evidence base (L3, 10+ cohort/case-series/PK studies) among all candidates in this pack, and is mechanistically well-aligned with temoporfin's established PDT use. However, the drug has zero current marketing authorizations in the Germany dataset and a blocking safety-data gap, so progression must be conditional on resolving those gaps first.
+**⚠ Blockierende Lücke:** Lokale Produktkennzeichnung/TFDA-äquivalente Warnungen und Kontraindikationen (DG001) wurden noch nicht abgerufen. Gemäß dem Nachweispaket blockiert dies den Eintritt in die S1-Sicherheitsvorbewertungsphase und muss vor jedem klinischen oder regulatorischen nächsten Schritt gelöst werden.
 
-**To proceed, the following is needed:**
-- Resolve DG001 (Blocking): obtain official product label / warnings & contraindications (e.g., original EU/Foscan SmPC or TFDA-equivalent source) to complete S1 safety pre-assessment
-- Resolve DG002 (High): confirm detailed MOA and DrugBank pharmacology data to strengthen the mechanistic rationale section
-- Clarify the indication-naming mismatch: reframe "benign neoplasm of tongue" as "head & neck squamous epithelial neoplasm (tongue/tongue base)" to match the actual evidence base before advancing to protocol design
-- Verify current German/EU marketing/authorization status (why `total_licenses = 0`) — determine if this reflects withdrawal, lapsed registration, or a data collection gap
-- Given photosensitizer-class risk, prioritize confirmation of light-avoidance protocol and airway-monitoring requirements before any clinical guardrail design
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Mit Schutzmaßnahmen fortfahren**
+
+**Begründung:**
+Zunge/Zundengrund-Plattenepithel-Neoplasie hat die stärkste und konsistenteste Evidenzbasis (L3, 10+ Kohorten-/Fallserien-/PK-Studien) unter allen Kandidaten in diesem Paket und ist mechanistisch gut mit temoporfins etablierter PDT-Verwendung abgestimmt. Allerdings hat das Arzneimittel null aktuelle Zulassungen auf dem deutschen Markt und eine blockierende Sicherheitsdatenlücke, daher muss der Fortschritt unter der Bedingung erfolgen, dass diese Lücken zunächst gelöst werden.
+
+**Zum Fortfahren ist folgendes erforderlich:**
+- Lösen Sie DG001 (Blockierend): Erhalten Sie offizielle Produktkennzeichnung/Warnungen & Kontraindikationen (z. B. ursprüngliche EU/Foscan SmPC oder TFDA-äquivalente Quelle), um die S1-Sicherheitsvorbewertung zu vervollständigen
+- Lösen Sie DG002 (Hoch): Bestätigen Sie detaillierte MOA- und DrugBank-Pharmakologiedaten, um den mechanistischen Abschnitt zu stärken
+- Klären Sie die Indikations-Benennungsabweichung: Formulieren Sie „benigne Neoplasie der Zunge" als „Kopf- und Hals-Plattenepithel-Neoplasie (Zunge/Zundengrund)" neu, um mit der tatsächlichen Evidenzbasis übereinzustimmen, bevor Sie zur Protokollentwicklung voranschreiten
+- Überprüfen Sie den aktuellen deutschen/EU-Marketing-/Zulassungsstatus (warum `total_licenses = 0`) – bestimmen Sie, ob dies Rückzug, lapsed-Registrierung oder Datenlücke widerspiegelt
+- Angesichts des Photosensibilisator-Klassenrisikos geben Sie die Bestätigung von Lichtmeidungs-Protokoll und Atemwegs-Überwachungsanforderungen Priorität, bevor Sie ein klinisches Schutzmaßnahmen-Design entwerfen
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -29,112 +29,113 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Pertuzumab: From HER2-Positive Breast Cancer to Progesterone-Receptor Positive Breast Cancer
+# Pertuzumab: Von HER2-positivem Brustkrebs zu Progesteron-Rezeptor-positivem Brustkrebs
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Pertuzumab (Perjeta) is a HER2-targeted monoclonal antibody originally developed and used for HER2-positive breast cancer.
-> The TxGNN model predicts it may also be effective in **progesterone-receptor (PR) positive breast cancer**,
-> with **10 clinical trials** and **20 publications** currently supporting this direction — though this largely reflects a biomarker-subgroup extension of an existing indication rather than a novel mechanistic repurposing.
+> Pertuzumab (Perjeta) ist ein HER2-gerichteter monoklonaler Antikörper, der ursprünglich für HER2-positiven Brustkrebs entwickelt und verwendet wurde.
+> Das TxGNN-Modell sagt voraus, dass es möglicherweise auch bei **Progesteron-Rezeptor (PR)-positivem Brustkrebs** wirksam sein könnte,
+> wobei derzeit **10 klinische Studien** und **20 Publikationen** diese Richtung unterstützen – obwohl dies weitgehend eine Biomarker-Subgruppen-Erweiterung einer bestehenden Indikation widerspiegelt und nicht eine genuinely neuartige mechanistische Umwidmung.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Element | Inhalt |
 |------|------|
-| Original Indication | HER2-positive breast cancer (inferred from trial/evidence context; no formal indication text available in this data pack) |
-| Predicted New Indication | Progesterone-receptor positive breast cancer |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L1 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Ursprüngliche Indikation | HER2-positiver Brustkrebs (abgeleitet aus Studien-/Evidenzkontext; kein formaler Indikationstext in diesem Datenpaket verfügbar) |
+| Vorhergesagte neue Indikation | Progesteron-Rezeptor-positiver Brustkrebs |
+| TxGNN-Vorhersage-Score | 99.93% |
+| Evidenzstufe | L1 |
+| Marktstatus Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | Mit Schutzmaßnahmen fortfahren |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage berechtigt?
 
-Currently, detailed formal mechanism of action (MOA) data is not available in this evidence pack. However, based on the repurposing rationale accompanying the prediction, pertuzumab is known to inhibit HER2/HER3 heterodimerization, blocking downstream signaling that drives proliferation in HER2-overexpressing tumors. Its pharmacological target is HER2 overexpression itself, not the progesterone receptor.
+Derzeit sind detaillierte formale Daten zum Wirkmechanismus (MOA) in diesem Evidenzpaket nicht verfügbar. Basierend auf der Umwidmungsrationale, die der Vorhersage beiliegt, ist bekannt, dass Pertuzumab die HER2/HER3-Heterodimerbildung hemmt und die nachgelagerte Signalisierung blockiert, die die Proliferation in HER2-überexprimierenden Tumoren antreibt. Sein pharmakologisches Ziel ist die HER2-Überexpression selbst, nicht der Progesteron-Rezeptor.
 
-PR-positive status is a commonly co-occurring biomarker in HER2-positive breast cancer, rather than an independent therapeutic target for pertuzumab. As a result, this prediction is **not a classic drug repurposing case** in the sense of finding a new disease mechanism — it reflects an established indication (HER2+ breast cancer) being extended into a biomarker-defined subgroup (HER2+/PR+ disease). This is further supported by real-world data (e.g., PMID 37723497) suggesting PR status may actually be a more decisive factor than ER status in determining benefit from adding pertuzumab to neoadjuvant therapy in HER2+/node-positive patients.
+Der PR-positive Status ist ein häufig gleichzeitig auftretender Biomarker bei HER2-positivem Brustkrebs und nicht ein unabhängiges therapeutisches Ziel für Pertuzumab. Daher ist diese Vorhersage **kein klassischer Arzneimittelumwidmungsfall** im Sinne der Entdeckung eines neuen Krankheitsmechanismus – sie spiegelt eine etablierte Indikation (HER2+ Brustkrebs) wider, die in eine biomarker-definierte Subgruppe (HER2+/PR+ Erkrankung) erweitert wird. Dies wird durch Real-World-Daten (z. B. PMID 37723497) weiter unterstützt, die darauf hindeuten, dass der PR-Status möglicherweise tatsächlich ein entscheidenderer Faktor als der ER-Status für den Nutzen der Hinzufügung von Pertuzumab zur neoadjuvanten Therapie bei HER2+/lymphknotenpositiven Patienten ist.
 
-Because the underlying mechanism (HER2 blockade) is unchanged and the trial evidence base overlaps substantially with the approved HER2+ indication, the applicability of the mechanism to this population is well-supported — but reviewers should treat this as **indication refinement**, not a de novo repurposing hypothesis.
+Da der zugrunde liegende Mechanismus (HER2-Blockade) unverändert ist und sich die Evidenzbasis der Studien wesentlich mit der zugelassenen HER2+-Indikation überlappt, ist die Anwendbarkeit des Mechanismus auf diese Population gut unterstützt – aber Prüfer sollten dies als **Indikationsverfeinerung** behandeln, nicht als eine de-novo-Umwidmungshypothese.
 
 ---
 
-## Clinical Trial Evidence
+## Klinische Studienevidenz
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Studiennummer | Phase | Status | Einschluss | Wichtigste Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT00545688](https://clinicaltrials.gov/study/NCT00545688) | Phase 2 | Completed | 417 | 4-arm neoadjuvant trial comparing Herceptin + docetaxel ± pertuzumab combinations in locally advanced/early HER2+ breast cancer; foundational pCR evidence. |
-| [NCT03726879](https://clinicaltrials.gov/study/NCT03726879) (IMpassion050) | Phase 3 | Completed | 454 | Placebo-controlled trial of atezolizumab added to neoadjuvant anthracycline/paclitaxel + trastuzumab + pertuzumab in early HER2+ breast cancer. |
-| [NCT04629846](https://clinicaltrials.gov/study/NCT04629846) | Phase 3 | Completed | 517 | Randomized, double-blind trial evaluating a pertuzumab biosimilar (QL1209) vs. pertuzumab + docetaxel in early/locally advanced HER2+, ER/PR-negative breast cancer. |
-| [NCT05802225](https://clinicaltrials.gov/study/NCT05802225) | Phase 3 | Active, not recruiting | 398 | Double-blind biosimilar (BCD-178) vs. Perjeta comparison as neoadjuvant therapy in HER2+ (ER/PR-negative) breast cancer. |
-| [NCT02689921](https://clinicaltrials.gov/study/NCT02689921) (NEOADAPT) | Phase 2 | Unknown | 7 | Single-arm, chemotherapy-free neoadjuvant aromatase inhibitor + pertuzumab/trastuzumab in HR+ (ER+/PR+), HER2+ early breast cancer. |
-| [NCT06131424](https://clinicaltrials.gov/study/NCT06131424) | N/A | Completed | 1151 | Multicenter retrospective study characterizing HER2-low prevalence, treatment patterns, and outcomes in HER2-negative metastatic breast cancer. |
-| [NCT00999804](https://clinicaltrials.gov/study/NCT00999804) (TBCRC 023) | Phase 2 | Active, not recruiting | 128 | Randomized neoadjuvant trial of lapatinib + trastuzumab ± endocrine therapy for 12 vs. 24 weeks in HER2-overexpressing breast cancer. |
-| [NCT02326974](https://clinicaltrials.gov/study/NCT02326974) | Phase 2 | Active, not recruiting | 164 | Studies HER2 heterogeneity impact using T-DM1 + pertuzumab preoperatively in early-stage HER2+ breast cancer. |
-| [NCT04675827](https://clinicaltrials.gov/study/NCT04675827) (DECRESCENDO) | Phase 2 | Terminated | 139 | De-escalation of adjuvant chemotherapy after pCR to neoadjuvant taxane + pertuzumab/trastuzumab in HER2+/ER-negative, node-negative disease. |
-| [NCT03058939](https://clinicaltrials.gov/study/NCT03058939) (ARETTA) | Phase 2 | Withdrawn | 0 | Withdrawn single-arm study of neoadjuvant weekly paclitaxel in Nigerian women with breast cancer; no data generated. |
+| [NCT00545688](https://clinicaltrials.gov/study/NCT00545688) | Phase 2 | Abgeschlossen | 417 | 4-armige neoadjuvante Studie, die Herceptin + Docetaxel ± Pertuzumab-Kombinationen bei lokal fortgeschrittenem/frühem HER2+ Brustkrebs vergleicht; grundlegende pCR-Evidenz. |
+| [NCT03726879](https://clinicaltrials.gov/study/NCT03726879) (IMpassion050) | Phase 3 | Abgeschlossen | 454 | Plazebo-kontrollierte Studie von Atezolizumab zusätzlich zu neoadjuvanter Anthrazyklin/Paclitaxel + Trastuzumab + Pertuzumab bei frühem HER2+ Brustkrebs. |
+| [NCT04629846](https://clinicaltrials.gov/study/NCT04629846) | Phase 3 | Abgeschlossen | 517 | Randomisierte, doppelblinde Studie zur Bewertung eines Pertuzumab-Biosimilars (QL1209) gegenüber Pertuzumab + Docetaxel bei frühem/lokal fortgeschrittenem HER2+, ER/PR-negativem Brustkrebs. |
+| [NCT05802225](https://clinicaltrials.gov/study/NCT05802225) | Phase 3 | Aktiv, keine Rekrutierung | 398 | Doppelblinde Biosimilar-(BCD-178)-Vergleichsstudie versus Perjeta als neoadjuvante Therapie bei HER2+ (ER/PR-negativ) Brustkrebs. |
+| [NCT02689921](https://clinicaltrials.gov/study/NCT02689921) (NEOADAPT) | Phase 2 | Unbekannt | 7 | Einarmige, chemotherapiefreie neoadjuvante Aromatasehemmer + Pertuzumab/Trastuzumab bei HR+ (ER+/PR+), HER2+ frühem Brustkrebs. |
+| [NCT06131424](https://clinicaltrials.gov/study/NCT06131424) | N/A | Abgeschlossen | 1151 | Multizentrische retrospektive Studie zur Charakterisierung der HER2-low-Prävalenz, Behandlungsmuster und Ergebnisse bei HER2-negativem metastasierendem Brustkrebs. |
+| [NCT00999804](https://clinicaltrials.gov/study/NCT00999804) (TBCRC 023) | Phase 2 | Aktiv, keine Rekrutierung | 128 | Randomisierte neoadjuvante Studie von Lapatinib + Trastuzumab ± Endokrinotherapie über 12 gegenüber 24 Wochen bei HER2-überexprimierendem Brustkrebs. |
+| [NCT02326974](https://clinicaltrials.gov/study/NCT02326974) | Phase 2 | Aktiv, keine Rekrutierung | 164 | Untersucht die Auswirkung der HER2-Heterogenität mit T-DM1 + Pertuzumab präoperativ bei frühem HER2+ Brustkrebs. |
+| [NCT04675827](https://clinicaltrials.gov/study/NCT04675827) (DECRESCENDO) | Phase 2 | Beendet | 139 | De-Eskalation der adjuvanten Chemotherapie nach pCR auf neoadjuvante Taxan + Pertuzumab/Trastuzumab bei HER2+/ER-negativem, lymphknotennegativem Brustkrebs. |
+| [NCT03058939](https://clinicaltrials.gov/study/NCT03058939) (ARETTA) | Phase 2 | Zurückgezogen | 0 | Zurückgezogene einarmige Studie von neoadjuvantem wöchentlichem Paclitaxel bei Frauen in Nigeria mit Brustkrebs; keine Daten generiert. |
 
 ---
 
-## Literature Evidence
+## Literaturbeweise
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Journal | Wichtigste Ergebnisse |
 |------|-----|------|------|---------|
-| [28945833](https://pubmed.ncbi.nlm.nih.gov/28945833/) | 2017 | RCT | Annals of Oncology | WSG-ADAPT HER2+/HR- Phase II trial: assessed 12-week de-escalated neoadjuvant dual HER2 blockade ± chemotherapy, with predictive markers for pCR. |
-| [37166817](https://pubmed.ncbi.nlm.nih.gov/37166817/) | 2023 | RCT | JAMA Oncology | WSG-TP-II trial: endocrine therapy + trastuzumab/pertuzumab vs. de-escalated chemotherapy in HR+/HER2+ early breast cancer. |
-| [35640077](https://pubmed.ncbi.nlm.nih.gov/35640077/) | 2022 | Review/Guideline | J Clin Oncol | ASCO Guideline Update on systemic therapy for advanced HER2-positive breast cancer. |
-| [27179402](https://pubmed.ncbi.nlm.nih.gov/27179402/) | 2016 | Cohort (long-term follow-up) | Lancet Oncology | NeoSphere 5-year follow-up: neoadjuvant pertuzumab + trastuzumab improved pCR and long-term outcomes in HER2+ breast cancer. |
-| [30106636](https://pubmed.ncbi.nlm.nih.gov/30106636/) | 2018 | RCT (Phase II, PERTAIN) | J Clin Oncol | First-line trastuzumab + aromatase inhibitor ± pertuzumab in HER2+/HR+ metastatic or locally advanced breast cancer. |
-| [38906970](https://pubmed.ncbi.nlm.nih.gov/38906970/) | 2024 | RCT (biosimilar equivalence) | British Journal of Cancer | QL1209 (pertuzumab biosimilar) vs. reference pertuzumab in HER2+, ER/PR-negative neoadjuvant treatment. |
-| [37609714](https://pubmed.ncbi.nlm.nih.gov/37609714/) | 2023 | Trial protocol/analysis | Future Oncology | DECRESCENDO trial: de-escalating chemotherapy in HER2+, ER-negative, node-negative early breast cancer with dual HER2 blockade. |
-| [28973704](https://pubmed.ncbi.nlm.nih.gov/28973704/) | 2017 | Review | Southern Medical Journal | Overview of neoadjuvant/adjuvant breast cancer therapy across molecular subtypes, including HER2-enriched disease. |
-| [33902424](https://pubmed.ncbi.nlm.nih.gov/33902424/) | 2022 | Review | Endocrine Metab Immune Disord Drug Targets | Review of immunotherapy and targeted approaches (including trastuzumab/pertuzumab) in breast cancer treatment. |
-| [40282499](https://pubmed.ncbi.nlm.nih.gov/40282499/) | 2025 | Review/Proposal | Cancers | Operational proposal for adjuvant metronomic chemotherapy plus targeted/anti-hormonal therapy in HER2+/ER-PR+ early breast cancer. |
+| [28945833](https://pubmed.ncbi.nlm.nih.gov/28945833/) | 2017 | RCT | Annals of Oncology | WSG-ADAPT HER2+/HR- Phase-II-Studie: bewertete 12-wöchige de-eskalierte neoadjuvante duale HER2-Blockade ± Chemotherapie, mit Prädiktoren für pCR. |
+| [37166817](https://pubmed.ncbi.nlm.nih.gov/37166817/) | 2023 | RCT | JAMA Oncology | WSG-TP-II-Studie: Endokrinotherapie + Trastuzumab/Pertuzumab gegenüber de-eskalierter Chemotherapie bei HR+/HER2+ frühem Brustkrebs. |
+| [35640077](https://pubmed.ncbi.nlm.nih.gov/35640077/) | 2022 | Review/Leitlinie | J Clin Oncol | ASCO-Leitlinien-Update zur systemischen Therapie bei fortgeschrittenem HER2-positivem Brustkrebs. |
+| [27179402](https://pubmed.ncbi.nlm.nih.gov/27179402/) | 2016 | Kohorte (Langzeit-Nachverfolgung) | Lancet Oncology | NeoSphere 5-Jahres-Nachverfolgung: neoadjuvante Pertuzumab + Trastuzumab verbesserte pCR und Langzeitergebnisse bei HER2+ Brustkrebs. |
+| [30106636](https://pubmed.ncbi.nlm.nih.gov/30106636/) | 2018 | RCT (Phase II, PERTAIN) | J Clin Oncol | Erste Therapielinie Trastuzumab + Aromatasehemmer ± Pertuzumab bei HER2+/HR+ metastasierendem oder lokal fortgeschrittenem Brustkrebs. |
+| [38906970](https://pubmed.ncbi.nlm.nih.gov/38906970/) | 2024 | RCT (Biosimilar-Äquivalenz) | British Journal of Cancer | QL1209 (Pertuzumab-Biosimilar) gegenüber Referenz-Pertuzumab bei HER2+, ER/PR-negativer neoadjuvanter Behandlung. |
+| [37609714](https://pubmed.ncbi.nlm.nih.gov/37609714/) | 2023 | Studienprotokoll/Analyse | Future Oncology | DECRESCENDO-Studie: De-Eskalation der Chemotherapie bei HER2+, ER-negativem, lymphknotennegativem frühem Brustkrebs mit dualer HER2-Blockade. |
+| [28973704](https://pubmed.ncbi.nlm.nih.gov/28973704/) | 2017 | Review | Southern Medical Journal | Überblick über neoadjuvante/adjuvante Brustkrebstherapie über molekulare Subtypen hinweg, einschließlich HER2-angereicherter Erkrankung. |
+| [33902424](https://pubmed.ncbi.nlm.nih.gov/33902424/) | 2022 | Review | Endocrine Metab Immune Disord Drug Targets | Review von Immunotherapie und gezielten Ansätzen (einschließlich Trastuzumab/Pertuzumab) in der Brustkrebsbehandlung. |
+| [40282499](https://pubmed.ncbi.nlm.nih.gov/40282499/) | 2025 | Review/Vorschlag | Cancers | Operativer Vorschlag für adjuvante metronomische Chemotherapie plus gezielte/Anti-Hormon-Therapie bei HER2+/ER-PR+ frühem Brustkrebs. |
 
 ---
 
-## Germany Market Information
+## Informationen zum deutschen Markt
 
-Pertuzumab is currently **not marketed** in Germany according to this data pack (0 authorizations on record). No product license or approved indication text is available for extraction.
+Pertuzumab wird derzeit in Deutschland **nicht auf dem Markt** verfügbar gemäß diesem Datenpaket (0 Genehmigungen erfasst). Keine Produktlizenz oder genehmigter Indikationstext ist für die Extraktion verfügbar.
 
 ---
 
-## Cytotoxicity
+## Zytotoxizität
 
-Pertuzumab is an anti-HER2 monoclonal antibody and is antineoplastic by original indication (HER2-positive breast cancer), though it is not a conventional cytotoxic chemotherapy agent.
+Pertuzumab ist ein anti-HER2-monoklonaler Antikörper und ist durch ursprüngliche Indikation (HER2-positiver Brustkrebs) antineoplastisch, obwohl es kein konventionelles zytotoxisches Chemotherapie-Mittel ist.
 
-| Item | Content |
+| Element | Inhalt |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (anti-HER2 monoclonal antibody; blocks HER2/HER3 heterodimerization) |
-| Myelosuppression Risk | Low as monotherapy; risk increases when combined with taxanes/other chemotherapy (as in most trial regimens, e.g., docetaxel combinations) |
-| Emetogenicity Classification | Low (minimal intrinsic emetogenic potential; combination regimens follow the emetogenicity of the chemotherapy partner) |
-| Monitoring Items | Left ventricular ejection fraction (LVEF)/cardiac function, infusion-related reactions, CBC when combined with cytotoxic chemotherapy |
-| Handling Protection | Standard biologic infusion precautions; not subject to cytotoxic drug handling regulations as monotherapy — please refer to the package insert for combination-regimen specifics |
+| Zytotoxizitätsklassifikation | Gezielte Therapie (anti-HER2-monoklonaler Antikörper; blockiert HER2/HER3-Heterodimerbildung) |
+| Myelosuppressionsrisiko | Niedrig als Monotherapie; das Risiko erhöht sich bei Kombination mit Taxanen/anderer Chemotherapie (wie in den meisten Studienregimen, z. B. Docetaxel-Kombinationen) |
+| Emetogenitätsklassifikation | Niedrig (minimales intrinsisches emetogenes Potenzial; Kombinationsregime folgen der Emetogenität des Chemotherapie-Partners) |
+| Überwachungselemente | Linksventrikuläre Ejektionsfraktion (LVEF)/Herzfunktion, infusionsbedingte Reaktionen, CBC bei Kombination mit zytotoxischer Chemotherapie |
+| Umgang mit Schutz | Standardmaßnahmen für biologische Infusionen; nicht der Handhabungsschutz für zytotoxische Arzneimittel unterworfen als Monotherapie – bitte beachten Sie die Packungsbeilage für Spezifika der Kombinationsregimen |
 
 ---
 
-## Safety Considerations
+## Sicherheitsaspekte
 
-Please refer to the package insert for safety information.
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
 
 ---
 
-## Conclusion and Next Steps
+## Fazit und nächste Schritte
 
-**Decision: Proceed with Guardrails**
+**Entscheidung: Mit Schutzmaßnahmen fortfahren**
 
 **Rationale:**
-Evidence meets L1 criteria with two completed Phase 3 RCTs (NCT04629846, NCT03726879) and multiple tier-1 literature sources (WSG-ADAPT, WSG-TP-II, PERTAIN, ASCO Guideline) supporting pertuzumab use in HER2+/PR-status-defined breast cancer subgroups. However, since HER2 status — not PR status — is the actual pharmacological target, this should be framed as a biomarker-subgroup indication refinement within the existing HER2+ breast cancer indication rather than a novel repurposing hypothesis.
+Die Evidenz erfüllt die L1-Kriterien mit zwei abgeschlossenen Phase-3-RCTs (NCT04629846, NCT03726879) und mehreren Tier-1-Literaturquellen (WSG-ADAPT, WSG-TP-II, PERTAIN, ASCO-Leitlinie), die die Verwendung von Pertuzumab in HER2+/PR-Status-definierten Brustkrebssubgruppen unterstützen. Da der HER2-Status – nicht der PR-Status – jedoch das tatsächliche pharmakologische Ziel ist, sollte dies als Biomarker-Subgruppen-Indikationsverfeinerung innerhalb der bestehenden HER2+-Brustkrebsindikation gerahmt werden und nicht als eine neuartige Umwidmungshypothese.
 
-**To proceed, the following is needed:**
-- Formal MOA and TFDA/BfArM label data (currently flagged as Blocking/High data gaps in this evidence pack)
-- Confirmation of German market entry strategy, given zero current authorizations
-- Clarification of the regulatory pathway: whether this represents a label refinement (biomarker subgroup) vs. a genuinely new indication claim
-- Safety monitoring plan specific to HER2+/PR+ populations, particularly cardiac monitoring given anti-HER2 class effects
+**Um fortzufahren, ist Folgendes erforderlich:**
+- Formale MOA- und TFDA/BfArM-Etikettendaten (derzeit als blockierende/hohe Datenlücken in diesem Evidenzpaket gekennzeichnet)
+- Bestätigung der deutschen Markteintritts-Strategie, angesichts von null aktuellen Genehmigungen
+- Klärung des regulatorischen Weges: ob dies eine Etiketten-Verfeinerung (Biomarker-Subgruppe) oder einen genuinely neuen Indikationsanspruch darstellt
+- Sicherheitsüberwachungsplan spezifisch für HER2+/PR+-Populationen, insbesondere Herzüberwachung angesichts der anti-HER2-Klasseneffekte
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

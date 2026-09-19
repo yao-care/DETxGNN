@@ -29,104 +29,105 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Tolvaptan: From an Undocumented Original Indication to Polycystic Kidney Disease (ADPKD)
+# Tolvaptan: Von einer nicht dokumentierten ursprünglichen Indikation zur polyzystischen Nierenerkrankung (ADPKD)
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> The evidence pack does not contain Tolvaptan's original approved indication (drug not marketed in Germany, no license records; TFDA label data blocked as DG001).
-> The TxGNN model's top-ranked signal — **polycystic kidney disease type 3, with or without polycystic liver disease (ADPKD)** — is supported by **2 landmark completed Phase 3 RCTs** and **20 publications**.
-> Importantly, the model's own rationale flags this as an **already-established, approved indication of tolvaptan** (e.g., Jinarc/Samsca for ADPKD) rather than a novel repurposing discovery — this is a confirmatory signal, not new science.
+> Das Evidenzpaket enthält nicht die ursprüngliche zugelassene Indikation von Tolvaptan (Arzneimittel nicht auf dem Markt in Deutschland, keine Lizenzeinträge; TFDA-Label-Daten als DG001 blockiert).
+> Das Top-Ranking-Signal des TxGNN-Modells — **polyzystische Nierenerkrankung Typ 3, mit oder ohne polyzystische Lebererkrankung (ADPKD)** — wird durch **2 wegweisend abgeschlossene Phase-3-RCTs** und **20 Veröffentlichungen** unterstützt.
+> Wichtig ist, dass das Modell selbst diese als **bereits etablierte, zugelassene Indikation von Tolvaptan** kennzeichnet (z. B. Jinarc/Samsca für ADPKD), anstelle einer neuen Umwidmungsentdeckung — dies ist ein Bestätigungssignal, keine neue Wissenschaft.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Element | Inhalt |
 |------|------|
-| Original Indication | Not documented in this evidence pack (Germany: unmarketed, 0 licenses) |
-| Predicted New Indication | Autosomal Dominant Polycystic Kidney Disease (ADPKD), with or without polycystic liver disease |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L1 (≥2 completed Phase 3 RCTs: TEMPO 3:4, REPRISE) |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Ursprüngliche Indikation | In diesem Evidenzpaket nicht dokumentiert (Deutschland: nicht vermarktet, 0 Lizenzen) |
+| Vorhergesagte neue Indikation | Autosomal-dominant vererbte polyzystische Nierenerkrankung (ADPKD), mit oder ohne polyzystische Lebererkrankung |
+| TxGNN-Vorhersage-Score | 99.99% |
+| Beweisstufe | L1 (≥2 abgeschlossene Phase-3-RCTs: TEMPO 3:4, REPRISE) |
+| Marktatus Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Mit Schutzmaßnahmen fortfahren |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage sinnvoll?
 
-Currently, the structured `original_moa` field is a data gap (DG002). However, the model's own repurposing rationale supplies functional mechanism detail: tolvaptan is a **selective vasopressin V2-receptor antagonist**. By blocking V2 receptors in the renal collecting duct, it suppresses cAMP generation — the key second messenger driving cyst epithelial proliferation and fluid secretion in ADPKD.
+Derzeit ist das strukturierte Feld `original_moa` eine Datenlücke (DG002). Die Umwidmungsbegründung des Modells selbst liefert jedoch funktionsmechanistische Details: Tolvaptan ist ein **selektiver Vasopressin-V2-Rezeptor-Antagonist**. Durch Blockade von V2-Rezeptoren im renalen Sammelrohr unterdrückt es die cAMP-Generierung — den Schlüssel-Botenstoff, der die Zystenepithelproliferation und Flüssigkeitssekretion in ADPKD antreibt.
 
-Critically, this is **not an exploratory repurposing hypothesis**. The rationale explicitly states this is "an already-established, mechanistically well-defined approved indication" — tolvaptan (as Jinarc/Samsca) is already approved in multiple markets (Japan, US, EU) specifically for slowing ADPKD progression, based on the TEMPO 3:4 and REPRISE trials cited in this evidence pack. The TxGNN signal here should be read as **validation of known pharmacology**, not discovery of a new use.
+Entscheidend ist, dass dies **keine explorative Umwidmungshypothese** ist. Die Begründung besagt ausdrücklich, dass dies „eine bereits etablierte, mechanistisch gut definierte zugelassene Indikation" ist — Tolvaptan (als Jinarc/Samsca) ist bereits in mehreren Märkten (Japan, USA, EU) zur Verlangsamung der ADPKD-Progression zugelassen, basierend auf den in diesem Evidenzpaket angeführten Studien TEMPO 3:4 und REPRISE. Das TxGNN-Signal hier sollte als **Validierung bekannter Pharmakologie** gelesen werden, nicht als Entdeckung einer neuen Anwendung.
 
-Because Germany shows "Not marketed" (unmarketed) with zero licenses, this evidence pack suggests the German market either lacks a current tolvaptan/ADPKD authorization on file, or the record simply wasn't captured — this needs regulatory verification (see Next Steps) rather than being treated as a true regulatory gap.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered in the structured `clinical_trials` field for this indication (pivotal trial data is captured instead as literature — see below).
+Da Deutschland „Nicht vermarktet" (nicht auf dem Markt) mit null Lizenzen anzeigt, deutet dieses Evidenzpaket darauf hin, dass der deutsche Markt entweder über keine aktuelle Tolvaptan-/ADPKD-Zulassung in den Unterlagen verfügt, oder der Eintrag einfach nicht erfasst wurde — dies erfordert behördliche Verifizierung (siehe Nächste Schritte) statt als echter behördlicher Mangel behandelt zu werden.
 
 ---
 
-## Literature Evidence
+## Evidenz klinischer Studien
 
-| PMID | Year | Type | Journal | Key Findings |
+Derzeit gibt es keine verwandten klinischen Studien, die im strukturierten Feld `clinical_trials` für diese Indikation registriert sind (Daten pivotaler Studien werden stattdessen als Literatur erfasst — siehe unten).
+
+---
+
+## Literaturevidenz
+
+| PMID | Jahr | Typ | Zeitschrift | Wichtigste Erkenntnisse |
 |------|-----|------|------|---------|
-| [23121377](https://pubmed.ncbi.nlm.nih.gov/23121377/) | 2012 | RCT | NEJM | TEMPO 3:4 — tolvaptan slows total kidney volume growth and eGFR decline in early ADPKD |
-| [29105594](https://pubmed.ncbi.nlm.nih.gov/29105594/) | 2017 | RCT | NEJM | REPRISE — confirms efficacy/safety of tolvaptan in later-stage ADPKD |
-| [38091246](https://pubmed.ncbi.nlm.nih.gov/38091246/) | 2024 | RCT | Pediatr Nephrol | Randomized trial (NCT02964273) of tolvaptan safety/PD in pediatric ADPKD (5–17y) |
-| [37150675](https://pubmed.ncbi.nlm.nih.gov/37150675/) | 2023 | Systematic Review/Meta-analysis | Nefrología | Confirms overall efficacy and safety profile of tolvaptan in ADPKD across trials |
-| [35134221](https://pubmed.ncbi.nlm.nih.gov/35134221/) | 2022 | Review/Consensus | NDT | ERA Working Group consensus on when/how to initiate tolvaptan in ADPKD |
-| [35487607](https://pubmed.ncbi.nlm.nih.gov/35487607/) | 2022 | Review | Clinics in Liver Disease | Tolvaptan slows renal deterioration and cyst growth in ADPKD/PCLD |
-| [39356039](https://pubmed.ncbi.nlm.nih.gov/39356039/) | 2024 | Systematic Review (Cochrane) | Cochrane Database Syst Rev | Review of disease-modifying interventions, including tolvaptan, for ADPKD progression |
-| [40126492](https://pubmed.ncbi.nlm.nih.gov/40126492/) | 2025 | Review | JAMA | Contemporary overview of ADPKD epidemiology and management |
-| [35328738](https://pubmed.ncbi.nlm.nih.gov/35328738/) | 2022 | Review | Int J Mol Sci | ADPKD cystogenesis pathophysiology and treatment advances |
-| [40726372](https://pubmed.ncbi.nlm.nih.gov/40726372/) | 2025 | Review | Curr Opin Nephrol Hypertens | Emerging ADPKD therapies beyond tolvaptan, positioning tolvaptan as current standard of care |
+| [23121377](https://pubmed.ncbi.nlm.nih.gov/23121377/) | 2012 | RCT | NEJM | TEMPO 3:4 — Tolvaptan verlangsamt das Wachstum des Gesamtniervolumens und den eGFR-Rückgang bei früher ADPKD |
+| [29105594](https://pubmed.ncbi.nlm.nih.gov/29105594/) | 2017 | RCT | NEJM | REPRISE — bestätigt Wirksamkeit/Sicherheit von Tolvaptan in später ADPKD |
+| [38091246](https://pubmed.ncbi.nlm.nih.gov/38091246/) | 2024 | RCT | Pediatr Nephrol | Randomisierte Studie (NCT02964273) zur Sicherheit/Pharmakodynamik von Tolvaptan bei pädiatrischer ADPKD (5–17y) |
+| [37150675](https://pubmed.ncbi.nlm.nih.gov/37150675/) | 2023 | Systematische Übersicht/Metaanalyse | Nefrología | Bestätigt Gesamtwirksamkeit und Sicherheitsprofil von Tolvaptan in ADPKD über Studien hinweg |
+| [35134221](https://pubmed.ncbi.nlm.nih.gov/35134221/) | 2022 | Übersicht/Konsens | NDT | ERA-Arbeitsgruppe-Konsens zum Zeitpunkt und zur Art der Tolvaptan-Einleitung bei ADPKD |
+| [35487607](https://pubmed.ncbi.nlm.nih.gov/35487607/) | 2022 | Übersicht | Clinics in Liver Disease | Tolvaptan verlangsamt renale Verschlechterung und Zystenwachstum in ADPKD/PCLD |
+| [39356039](https://pubmed.ncbi.nlm.nih.gov/39356039/) | 2024 | Systematische Übersicht (Cochrane) | Cochrane Database Syst Rev | Übersicht über krankheitsmodifizierende Interventionen, einschließlich Tolvaptan, zur ADPKD-Progression |
+| [40126492](https://pubmed.ncbi.nlm.nih.gov/40126492/) | 2025 | Übersicht | JAMA | Zeitgenössischer Überblick über ADPKD-Epidemiologie und -Management |
+| [35328738](https://pubmed.ncbi.nlm.nih.gov/35328738/) | 2022 | Übersicht | Int J Mol Sci | ADPKD-Zystenogenese-Pathophysiologie und Behandlungsfortschritte |
+| [40726372](https://pubmed.ncbi.nlm.nih.gov/40726372/) | 2025 | Übersicht | Curr Opin Nephrol Hypertens | Neue ADPKD-Therapien jenseits von Tolvaptan, Positionierung von Tolvaptan als aktueller Behandlungsstandard |
 
 ---
 
-## Germany Market Information
+## Marktinformationen Deutschland
 
-No marketing authorization records are present in this evidence pack (`taiwan_regulatory.market_status` = Not marketed, `total_licenses` = 0). This should be verified independently — tolvaptan (Jinarc®) holds an EU-wide centralized marketing authorization for ADPKD, so the absence here likely reflects a data-collection gap rather than true non-availability in Germany.
-
----
-
-## Other TxGNN-Predicted Indications (Not Prioritized)
-
-Ranks 2–10 scored similarly high (>99.9%) but the model's own rationale flags most as likely embedding-similarity noise, with no mechanistic or evidentiary support:
-
-| Rank | Disease | Evidence Level | Recommendation | Note |
-|------|---------|------|------|------|
-| 5 | Joubert syndrome with renal defect | L4 | Research Question | Shared ciliopathy/cAMP biology with ADPKD, but no direct tolvaptan evidence |
-| 4 | Thoracic malformation | L4 | Hold | Only indirect case reports (tolvaptan for fluid overload, not structural defect) |
-| 2, 3, 6, 7, 8, 10 | Various congenital/structural syndromes | L5 | Hold | No literature or trial support; likely model noise |
-| 9 | Malformation syndrome with periodontal component | L5 | Hold | Retrieved literature is unrelated periodontitis research; false match |
-
-These are not actionable and are listed only for completeness.
+In diesem Evidenzpaket sind keine Zulassungseinträge vorhanden (`taiwan_regulatory.market_status` = Nicht vermarktet, `total_licenses` = 0). Dies sollte unabhängig überprüft werden — Tolvaptan (Jinarc®) verfügt über eine EU-weit zentralisierte Zulassung für ADPKD, daher deutet das Fehlen hier wahrscheinlich auf eine Datenlücke hin anstatt auf eine echte Nicht-Verfügbarkeit in Deutschland.
 
 ---
 
-## Safety Considerations
+## Weitere von TxGNN vorhergesagte Indikationen (nicht priorisiert)
 
-Please refer to the package insert for safety information. Structured safety fields (`key_warnings`, `contraindications`, `ddi`) are all data gaps in this evidence pack (DG001, Blocking).
+Die Ränge 2–10 erreichten ähnlich hohe Werte (>99.9%), aber die Begründung des Modells selbst kennzeichnet die meisten als wahrscheinlich Embedding-Ähnlichkeits-Rauschen ohne mechanistische oder evidentielle Unterstützung:
 
-One point from the repurposing rationale merits flagging pending full label data: hepatotoxicity monitoring is specifically called out as a known concern with tolvaptan use in ADPKD (consistent with the boxed hepatotoxicity warning associated with this drug class in other markets).
+| Rang | Krankheit | Beweisstufe | Empfehlung | Anmerkung |
+|------|-----------|------|----------|------|
+| 5 | Joubert-Syndrom mit Nierenfehler | L4 | Forschungsfrage | Gemeinsame Ziliopathie-/cAMP-Biologie mit ADPKD, aber keine direkte Tolvaptan-Evidenz |
+| 4 | Thorakale Missbildung | L4 | Abwarten | Nur indirekte Fallberichte (Tolvaptan bei Flüssigkeitsüberbelastung, nicht Strukturdefekt) |
+| 2, 3, 6, 7, 8, 10 | Verschiedene angeborene/strukturelle Syndrome | L5 | Abwarten | Keine Literatur- oder Studienunterstützung; wahrscheinlich Modellrauschen |
+| 9 | Missbildungssyndrom mit parodontaler Komponente | L5 | Abwarten | Abgerufene Literatur ist nicht verwandte Parodontitis-Forschung; falscher Match |
+
+Dies sind nicht umsetzbar und werden nur der Vollständigkeit halber aufgeführt.
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsaspekte
 
-**Decision: Proceed with Guardrails**
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. Alle strukturierten Sicherheitsfelder (`key_warnings`, `contraindications`, `ddi`) sind Datenlücken in diesem Evidenzpaket (DG001, Blockiert).
 
-**Rationale:**
-The ADPKD signal is backed by L1-grade evidence (two completed Phase 3 RCTs — TEMPO 3:4 and REPRISE) and represents an already-established use of tolvaptan rather than speculative repurposing. However, this evidence pack is missing TFDA/label safety data (DG001, Blocking) and structured MOA data (DG002), and shows no German marketing authorization on file — all of which must be resolved before any regulatory or clinical action.
+Ein Punkt aus der Umwidmungsbegründung verdient Beachtung in Erwartung vollständiger Fachinformations-Daten: Hepatotoxizitätsüberwachung wird ausdrücklich als bekanntes Anliegen bei der Verwendung von Tolvaptan in ADPKD angeführt (konsistent mit der Kasten-Hepatotoxizitätswarnung, die mit dieser Arzneimittelklasse in anderen Märkten verbunden ist).
 
-**To proceed, the following is needed:**
-- Retrieve official TFDA/German (BfArM) label PDF for hepatotoxicity warnings, contraindications, and DDI data (resolves DG001)
-- Confirm structured MOA via DrugBank API query (resolves DG002)
-- Independently verify current EU/German marketing authorization status for tolvaptan/Jinarc, given the discrepancy between "Not marketed" here and known EU-wide ADPKD approval
-- Clarify with stakeholders that this candidate is a **confirmatory signal** for an existing approved use, not a genuinely novel repurposing opportunity — this affects how it should be positioned internally
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Mit Schutzmaßnahmen fortfahren**
+
+**Begründung:**
+Das ADPKD-Signal wird durch L1-Evidenz (zwei abgeschlossene Phase-3-RCTs — TEMPO 3:4 und REPRISE) unterstützt und stellt eine bereits etablierte Anwendung von Tolvaptan dar, anstelle einer spekulativen Umwidmung. Diesem Evidenzpaket fehlen jedoch TFDA-/Fachinformations-Sicherheitsdaten (DG001, Blockiert) und strukturierte MOA-Daten (DG002), und es zeigt keine deutsche Zulassung in den Unterlagen — all dies muss gelöst werden, bevor regulatorische oder klinische Maßnahmen ergriffen werden.
+
+**Die folgenden Punkte sind zum Fortfahren erforderlich:**
+- Abrufen der offiziellen TFDA-/deutschen (BfArM) Fachinformation PDF für Hepatotoxizitätswarnungen, Kontraindikationen und DDI-Daten (löst DG001)
+- Bestätigung der strukturierten MOA über DrugBank-API-Abfrage (löst DG002)
+- Unabhängige Überprüfung des aktuellen EU-/deutschen Zulassungsstatus für Tolvaptan/Jinarc, angesichts der Diskrepanz zwischen „Nicht vermarktet" hier und bekannter EU-weiter ADPKD-Zulassung
+- Klärung mit Interessenträgern, dass dieser Kandidat ein Bestätigungssignal für eine bereits bestehende zugelassene Anwendung ist, nicht eine echte neue Umwidmungsmöglichkeit — dies beeinflusst, wie er intern positioniert werden sollte
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

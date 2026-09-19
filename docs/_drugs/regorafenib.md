@@ -29,89 +29,90 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **8**
 
 </div>
 
-# REGORAFENIB: Repurposing Evaluation — Insufficient Data to Complete Full Assessment
+# REGORAFENIB: Umwidmungs-Bewertung — Unzureichende Daten zur Durchführung einer vollständigen Bewertung
 
 ---
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-REGORAFENIB (DrugBank ID: DB08896) is a drug for which the current Evidence Pack contains **no approved indication records, no mechanism of action data, and no TxGNN-predicted indications**.
-A complete repurposing evaluation cannot be generated at this time; the report below documents what is available and specifies the remediation steps required before moving forward.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not available in current data |
-| Predicted New Indication | No predictions returned |
-| TxGNN Prediction Score | Not available |
-| Evidence Level | Below L5 — no predictions or studies linked |
-| Germany Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+REGORAFENIB (DrugBank-ID: DB08896) ist ein Arzneistoff, für den das aktuelle Evidence Pack keine Einträge zu zugelassenen Indikationen, keine Daten zum Wirkungsmechanismus und keine durch TxGNN vorhergesagten Indikationen enthält.
+Eine vollständige Umwidmungs-Bewertung kann zu diesem Zeitpunkt nicht erstellt werden; der folgende Bericht dokumentiert, was verfügbar ist, und gibt die vor dem Fortschreiten erforderlichen Sanierungsschritte an.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-No predicted indications were returned by the TxGNN pipeline for this candidate (`predicted_indications: []`).
-Without a target indication to evaluate, a mechanistic rationale cannot be constructed.
-
-Additionally, the mechanism of action (MOA) field is flagged as a data gap (DG002, severity: High).
-Without MOA information, it is not possible to reason about pharmacological plausibility even if a candidate indication were proposed.
-
-**What is needed before this section can be written:**
-1. Re-run the TxGNN model to confirm whether prediction output was suppressed due to a pipeline error or genuinely returned no candidates above threshold.
-2. Retrieve MOA data from DrugBank (DG002 remediation: query DrugBank API for DB08896).
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for the predicted indication — no target indication is available.
+| Artikel | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | In aktuellen Daten nicht verfügbar |
+| Vorhergesagte neue Indikation | Keine Vorhersagen zurückgegeben |
+| TxGNN-Vorhersage-Score | Nicht verfügbar |
+| Evidenzstufe | Unter L5 — keine Vorhersagen oder verknüpfte Studien |
+| Marktstatus in Deutschland | Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | **Halten** |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage angemessen?
 
-Currently no related literature available — no target indication is available.
+Für diesen Kandidaten wurden keine vorhergesagten Indikationen durch die TxGNN-Pipeline zurückgegeben (`predicted_indications: []`).
+Ohne eine Zielindikation zur Bewertung kann keine mechanistische Begründung konstruiert werden.
 
----
+Darüber hinaus ist das Feld Wirkungsmechanismus als Datenlücke gekennzeichnet (DG002, Schweregrad: Hoch).
+Ohne Informationen zum Wirkungsmechanismus ist es nicht möglich, die pharmakologische Plausibilität zu bewerten, selbst wenn eine Kandidatenindikation vorgeschlagen würde.
 
-## Germany Market Information
-
-REGORAFENIB has **0 authorizations** in the current regulatory dataset. No product listings are available to display.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-> **Note:** Two blocking data gaps prevent safety assessment:
-> - **DG001 (Blocking):** Package insert warnings and contraindications have not been parsed. Remediation: download the PDF from the official regulatory authority and extract the text.
-> - **DG002 (High):** MOA data is absent, which prevents DDI mechanistic analysis. Remediation: query the DrugBank API for DB08896.
-
-No drug interaction data was found (DDI query status: `not_found`, 0 interactions).
+**Was erforderlich ist, bevor dieser Abschnitt verfasst werden kann:**
+1. Erneutes Ausführen des TxGNN-Modells, um zu bestätigen, ob die Vorhersageausgabe aufgrund eines Pipeline-Fehlers unterdrückt wurde oder tatsächlich keine Kandidaten über dem Schwellenwert zurückgegeben wurden.
+2. Abrufen von Wirkungsmechanismus-Daten von DrugBank (DG002-Sanierung: DrugBank-API für DB08896 abfragen).
 
 ---
 
-## Conclusion and Next Steps
+## Evidenz klinischer Studien
 
-**Decision: Hold**
+Derzeit sind keine verwandten klinischen Studien für die vorhergesagte Indikation registriert — keine Zielindikation ist verfügbar.
 
-**Rationale:**
-The Evidence Pack for REGORAFENIB is critically incomplete — there are no predicted indications, no approved indication text, no MOA, and no safety data available for evaluation. Proceeding without these inputs would produce an unreliable assessment.
+---
 
-**To proceed, the following is needed:**
+## Evidenz der Literatur
 
-- [ ] **Diagnose TxGNN pipeline** — Confirm whether the empty `predicted_indications` array reflects a genuine below-threshold result or a pipeline failure (e.g., missing graph embedding for DB08896).
-- [ ] **Retrieve MOA from DrugBank API** — Query DB08896 to obtain pharmacology, mechanism of action, and drug categories (resolves DG002).
-- [ ] **Parse package insert** — Download and extract warnings, contraindications, and approved indications from the regulatory authority PDF (resolves DG001).
-- [ ] **Re-run Evidence Pack generation** — After filling DG001 and DG002, regenerate the Evidence Pack (v5 or later) and resubmit for report generation.
-- [ ] **Confirm target indication** — Once TxGNN predictions are available, select the top-ranked indication and retrieve linked clinical trials and literature via the evidence pipeline.
+Derzeit ist keine verwandte Literatur verfügbar — keine Zielindikation ist verfügbar.
+
+---
+
+## Informationen zum deutschen Markt
+
+REGORAFENIB hat **0 Zulassungen** im aktuellen regulatorischen Datensatz. Es sind keine Produktauflistungen zum Anzeigen verfügbar.
+
+---
+
+## Sicherheitserwägungen
+
+Bitte beachten Sie die Fachinformation für Sicherheitsinformationen.
+
+> **Anmerkung:** Zwei blockierende Datenlücken verhindern eine Sicherheitsbewertung:
+> - **DG001 (Blockierend):** Warnungen und Kontraindikationen der Fachinformation wurden nicht geparst. Sanierung: PDF von der offiziellen Behörde herunterladen und Text extrahieren.
+> - **DG002 (Hoch):** Wirkungsmechanismus-Daten sind nicht vorhanden, was eine mechanistische DDI-Analyse verhindert. Sanierung: DrugBank-API für DB08896 abfragen.
+
+Es wurden keine Arzneimittelwechselwirkungsdaten gefunden (DDI-Abfragestatus: `not_found`, 0 Wechselwirkungen).
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Halten**
+
+**Begründung:**
+Das Evidence Pack für REGORAFENIB ist kritisch unvollständig — es gibt keine vorhergesagten Indikationen, keinen Text zu zugelassenen Indikationen, keinen Wirkungsmechanismus und keine Sicherheitsdaten für die Bewertung verfügbar. Eine Fortsetzung ohne diese Eingaben würde zu einer unzuverlässigen Bewertung führen.
+
+**Zum Fortschreiten ist Folgendes erforderlich:**
+
+- [ ] **TxGNN-Pipeline diagnostizieren** — Bestätigen Sie, ob das leere Array `predicted_indications` ein echtes Ergebnis unterhalb des Schwellenwerts widerspiegelt oder einen Pipeline-Fehler (z. B. fehlende Graph-Einbettung für DB08896).
+- [ ] **Wirkungsmechanismus-Daten von DrugBank-API abrufen** — DB08896 abfragen, um Pharmakologie, Wirkungsmechanismus und Arzneimittelkategorien zu erhalten (behebt DG002).
+- [ ] **Fachinformation parsen** — PDF von der Behörde herunterladen und Warnungen, Kontraindikationen und zugelassene Indikationen extrahieren (behebt DG001).
+- [ ] **Evidence Pack erneut generieren** — Nach dem Ausfüllen von DG001 und DG002 das Evidence Pack (v5 oder später) erneut generieren und erneut zur Berichterstellung einreichen.
+- [ ] **Zielindikation bestätigen** — Sobald TxGNN-Vorhersagen verfügbar sind, wählen Sie die höchstbewertete Indikation aus und rufen Sie verknüpfte klinische Studien und Literatur über die Evidence-Pipeline ab.
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

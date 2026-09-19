@@ -29,73 +29,74 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# POSACONAZOLE: From Antifungal Prophylaxis to Pneumocystosis
+# POSACONAZOL: Von der antimykotischen Prophylaxe zur Pneumocystose
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Posaconazole is a triazole antifungal agent whose established use is prophylaxis of invasive fungal disease (per literature evidence in this pack; no formal indication text was provided in the source data). The TxGNN model predicts it may be effective for **Pneumocystosis**, but this is currently supported only by indirect background evidence — **2 clinical trials** (neither testing posaconazole directly against pneumocystosis) and **5 publications** (mostly reviews/guidelines, no dedicated RCT).
+Posaconazol ist ein Triazol-Antimykotikum, dessen etablierte Anwendung die Prophylaxe von invasiven Pilzerkrankungen ist (gemäß Literaturbelegen in diesem Datenpaket; im Quelldatenmaterial wurde kein formeller Indikationstext bereitgestellt). Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam bei **Pneumocystose** ist, aber dies wird derzeit nur durch indirekte Hintergundinformationen gestützt — **2 klinische Studien** (von denen keine Posaconazol direkt gegen Pneumocystose testet) und **5 Publikationen** (hauptsächlich Übersichtsartikel/Richtlinien, keine dedizierte RCT).
 
-## Quick Overview
+## Kurzübersicht
 
-| Item | Content |
-|------|------|
-| Original Indication | Not specified in evidence pack (drug-level `original_indications` is empty); literature evidence references posaconazole as "mould-active" agent used for antifungal prophylaxis in high-risk haemato-oncological patients |
-| Predicted New Indication | Pneumocystosis |
-| TxGNN Prediction Score | 99.77% |
-| Evidence Level | L4 |
-| Germany Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Punkt | Inhalt |
+|------|--------|
+| Ursprüngliche Indikation | Im Evidenzpaket nicht angegeben (drug-level `original_indications` ist leer); Literaturbelege beschreiben Posaconazol als „Schimmel-wirksames" Mittel für antimykotische Prophylaxe bei Hochrisiko-hämatoonkologischen Patienten |
+| Vorhergesagte neue Indikation | Pneumocystose |
+| TxGNN-Vorhersage-Score | 99.77% |
+| Evidenzstufe | L4 |
+| Marststatus Deutschland | Nicht zugelassen |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Zurückgestellt |
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage nachvollziehbar?
 
-Formal mechanism-of-action data (`original_moa`) is marked as a Data Gap in this evidence pack. However, the repurposing rationale field provided does describe posaconazole's mechanism: it inhibits fungal CYP51 (14α-demethylase), blocking ergosterol synthesis — the classic mode of action for broad-spectrum triazole antifungals.
+Formale Wirkmechanismus-Daten (`original_moa`) werden in diesem Evidenzpaket als Datenlücke aufgeführt. Das bereitgestellte Feld zur Repurposing-Rationale beschreibt jedoch Posaconazols Wirkmechanismus: Es hemmt das fungale CYP51 (14α-Demethylase) und blockiert die Ergosterolsynthese — der klassische Wirkmechanismus für breitzuständige Triazol-Antimykotika.
 
-The proposed link to pneumocystosis is mechanistically weak. *Pneumocystis jirovecii* is taxonomically a fungus, but its cell membrane is cholesterol-based rather than ergosterol-based, meaning the azole–ergosterol pathway that underlies posaconazole's antifungal activity does not straightforwardly apply. The available literature only mentions posaconazole in the broader context of invasive fungal disease management (including *Pneumocystis* pneumonia as one of several fungal diseases discussed in review articles), and as a possible alternative in patients who cannot tolerate TMP-SMX — this is an indirect inference, not a mechanistically or clinically validated claim.
+Die vorgeschlagene Verbindung zur Pneumocystose ist mechanistisch schwach. *Pneumocystis jirovecii* ist taxonomisch ein Pilz, aber seine Zellmembran basiert auf Cholesterin statt Ergosterol, was bedeutet, dass der Azol-Ergosterol-Weg, der der Aktivität von Posaconazol zugrunde liegt, nicht unmittelbar anwendbar ist. Die verfügbare Literatur erwähnt Posaconazol nur im breiteren Kontext des Managements invasiver Pilzerkrankungen (einschließlich *Pneumocystis*-Pneumonie als eine von mehreren in Übersichtsartikeln erörterten Pilzerkrankungen) und als mögliche Alternative bei Patienten, die TMP-SMX nicht vertragen — dies ist eine indirekte Schlussfolgerung, keine mechanistisch oder klinisch validierte Aussage.
 
-Given the atypical target biology and the absence of any trial or study directly testing posaconazole against pneumocystosis, this prediction should be treated as a research hypothesis rather than a clinically actionable signal at this stage.
+Angesichts der atypischen Zielbiologie und des Fehlens von Studien, die Posaconazol direkt gegen Pneumocystose testen, sollte diese Vorhersage eher als Forschungshypothese als als klinisch verwertbares Signal in dieser Phase behandelt werden.
 
-## Clinical Trial Evidence
+## Klinische Studienevidenz
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Studiennummer | Phase | Status | Enrollment | Wesentliche Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT04368559](https://clinicaltrials.gov/study/NCT04368559) | Phase 3 | Completed | 602 | Tests **rezafungin** (an echinocandin, not posaconazole) vs. standard antimicrobial regimen for prevention of invasive fungal disease in allogeneic BMT patients; not focused on pneumocystosis and not a posaconazole trial — background relevance only (Grade C). |
-| [NCT06859424](https://clinicaltrials.gov/study/NCT06859424) | Phase 2 | Recruiting | 358 | Platform trial comparing GVHD prophylaxis regimens in mismatched unrelated donor transplant recipients; may include antifungal prophylaxis arms (possibly posaconazole) but primary endpoints are GVHD-related, not pneumocystosis efficacy/safety (Grade C). |
+| [NCT04368559](https://clinicaltrials.gov/study/NCT04368559) | Phase 3 | Abgeschlossen | 602 | Testet **Rezafungin** (ein Echinocandin, nicht Posaconazol) vs. Standardantimikrobielles Schema zur Prävention invasiver Pilzerkrankung bei allogenen KMT-Patienten; kein Fokus auf Pneumocystose und keine Posaconazol-Studie — nur Hintergrundrelevanz (Grad C). |
+| [NCT06859424](https://clinicaltrials.gov/study/NCT06859424) | Phase 2 | Rekrutierung läuft | 358 | Plattformstudie, die GVHD-Prophylaxe-Regimen bei nicht übereinstimmenden Unverwandten-Spender-Transplantatempfängern vergleicht; kann Antimykotika-Prophylaxe-Arme einschließen (möglicherweise Posaconazol), aber primäre Endpunkte sind GVHD-bezogen, nicht Pneumocystose-Wirksamkeit/Sicherheit (Grad C). |
 
-Neither trial provides direct efficacy or safety evidence for posaconazole in pneumocystosis.
+Keine Studie liefert direkte Wirksamkeits- oder Sicherheitsevidenz für Posaconazol bei Pneumocystose.
 
-## Literature Evidence
+## Literaturevidenz
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Journal | Wesentliche Ergebnisse |
 |------|-----|------|------|---------|
-| [41232547](https://pubmed.ncbi.nlm.nih.gov/41232547/) | 2025 | Review/Guideline | The Lancet. Infectious Diseases | UK best-practice update on diagnosis of serious fungal diseases; general diagnostic landscape, not posaconazole-specific therapy data. |
-| [26901377](https://pubmed.ncbi.nlm.nih.gov/26901377/) | 2016 | Review | Swiss Medical Weekly | Overview of candidiasis, aspergillosis, cryptococcosis and *Pneumocystis* pneumonia; notes mould-active posaconazole prophylaxis reduced invasive candidiasis in high-risk haemato-oncology patients — the closest evidence link in this pack, but still a general review, not pneumocystosis-specific trial data. |
-| [41362140](https://pubmed.ncbi.nlm.nih.gov/41362140/) | 2025 | Review/Guideline | Chinese Journal of Tuberculosis and Respiratory Diseases | 2025 Chinese clinical practice guideline for invasive pulmonary fungal disease diagnosis/management; general guideline context. |
-| [21973267](https://pubmed.ncbi.nlm.nih.gov/21973267/) | 2011 | PK/PD Study | Clinical Pharmacokinetics | Reviews pulmonary epithelial lining fluid penetration of antifungal/antitubercular agents; pharmacokinetic background only, no efficacy data for pneumocystosis. |
-| [35596686](https://pubmed.ncbi.nlm.nih.gov/35596686/) | 2022 | Cohort | Transplant Infectious Disease | Retrospective cohort of infectious complications in acute GVHD after liver transplant; describes antimicrobial management patterns, not a posaconazole–pneumocystosis efficacy study. |
+| [41232547](https://pubmed.ncbi.nlm.nih.gov/41232547/) | 2025 | Übersichtsartikel/Richtlinie | The Lancet. Infectious Diseases | UK-Update zu Best-Practice der Diagnostik schwerwiegender Pilzerkrankungen; allgemeine Diagnose-Landschaft, keine Posaconazol-spezifischen Therapiedaten. |
+| [26901377](https://pubmed.ncbi.nlm.nih.gov/26901377/) | 2016 | Übersichtsartikel | Swiss Medical Weekly | Übersicht über Candidiasis, Aspergilllose, Kryptokokkose und *Pneumocystis*-Pneumonie; vermerkt, dass Schimmel-wirksame Posaconazol-Prophylaxe invasive Candidiasis bei Hochrisiko-hämatoonkologischen Patienten reduzierte — der nächstliegende Evidenzverbindung in diesem Paket, aber immer noch ein allgemeiner Übersichtsartikel, keine Pneumocystose-spezifischen Studiendaten. |
+| [41362140](https://pubmed.ncbi.nlm.nih.gov/41362140/) | 2025 | Übersichtsartikel/Richtlinie | Chinese Journal of Tuberculosis and Respiratory Diseases | 2025 Chinese Clinical Practice Guideline für Diagnose/Management invasiver pulmonaler Pilzerkrankung; allgemeiner Richtlinienkontext. |
+| [21973267](https://pubmed.ncbi.nlm.nih.gov/21973267/) | 2011 | PK/PD-Studie | Clinical Pharmacokinetics | Überprüft die Penetration antimykotischer/antituberkulöser Wirkstoffe in die pulmonale Epithelflüssigkeit; nur pharmakokinetischer Hintergrund, keine Wirksamkeitsdaten für Pneumocystose. |
+| [35596686](https://pubmed.ncbi.nlm.nih.gov/35596686/) | 2022 | Kohortenstudie | Transplant Infectious Disease | Retrospektive Kohorte infektiöser Komplikationen bei akutem GVHD nach Lebertransplantation; beschreibt Antimikrobielle-Management-Muster, keine Posaconazol-Pneumocystose-Wirksamkeitsstudie. |
 
-No RCT or dedicated clinical study directly evaluates posaconazole for pneumocystosis treatment or prophylaxis.
+Keine RCT oder dedizierte klinische Studie evaluiert direkt Posaconazol für Pneumocystose-Behandlung oder -Prophylaxe.
 
-## Germany Market Information
+## Marktinformationen für Deutschland
 
-Posaconazole currently has **no market authorization on record** in this evidence pack (`market_status`: Not marketed / Not Marketed; `total_licenses`: 0; `licenses`: none provided). No authorization table can be generated.
+Posaconazol hat derzeit **keine Marktgenehmigung** in diesem Evidenzpaket (`market_status`: Not marketed / Nicht zugelassen; `total_licenses`: 0; `licenses`: keine angegeben). Es kann keine Zulassungstabelle erstellt werden.
 
-## Safety Considerations
+## Sicherheitsaspekte
 
-Please refer to the package insert for safety information. Key warnings, contraindications, and drug–drug interaction data are all marked as Data Gaps in this evidence pack (DDI query status: not found), and cannot currently be summarized.
+Bitte verweisen Sie auf die Packungsbeilage für Sicherheitsinformationen. Wesentliche Warnungen, Kontraindikationen und Arzneimittel-Wechselwirkungs-Daten werden alle in diesem Evidenzpaket als Datenlücken aufgeführt (DDI-Abfragestatus: nicht gefunden) und können derzeit nicht zusammengefasst werden.
 
-## Conclusion and Next Steps
+## Fazit und nächste Schritte
 
-**Decision: Hold**
+**Entscheidung: Zurückgestellt**
 
 **Rationale:**
-The mechanistic link between posaconazole and pneumocystosis is biologically weak (atypical, non-ergosterol target membrane) and unsupported by any direct clinical trial or study; all identified trials and literature are indirect background evidence (Evidence Level L4, decision stage S1 — "Research Question"). Additionally, safety data (TFDA/local warnings and contraindications) is a **Blocking** data gap (DG001), which by itself prevents progression to a formal safety evaluation (S1).
+Der mechanistische Zusammenhang zwischen Posaconazol und Pneumocystose ist biologisch schwach (atypisch, Zielzellmembran nicht auf Ergosterol-Basis) und wird durch keine direkte klinische Studie unterstützt; alle identifizierten Studien und Literaturstellen sind indirekte Hintergundinformationen (Evidenzstufe L4, Entscheidungsstufe S1 — „Forschungsfrage"). Darüber hinaus sind Sicherheitsdaten (TFDA/lokale Warnungen und Kontraindikationen) eine **blockierende** Datenlücke (DG001), die an sich die Weiterentwicklung zu einer formalen Sicherheitsevaluierung verhindert (S1).
 
-**To proceed, the following is needed:**
-- Resolve DG001 (Blocking): obtain official product label warnings/contraindications before any S1 safety assessment can begin
-- Resolve DG002 (High): confirm formal mechanism-of-action data via DrugBank API to properly assess mechanistic plausibility
-- Identify or commission a study directly testing posaconazole in pneumocystosis (efficacy and safety), given no such trial currently exists
-- Clarify pharmacological rationale given *Pneumocystis jirovecii*'s atypical (cholesterol-based) membrane biology relative to posaconazole's ergosterol-targeting mechanism
+**Um fortzufahren, wird Folgendes benötigt:**
+- Behebung von DG001 (Blockierend): Beschaffung offizielle Produktkennzeichnungs-Warnungen/Kontraindikationen, bevor eine S1-Sicherheitsevaluierung begonnen werden kann
+- Behebung von DG002 (Hochpriorisiert): Bestätigung formaler Wirkmechanismus-Daten über DrugBank API, um mechanistische Plausibilität richtig zu bewerten
+- Identifizierung oder Durchführung einer Studie, die Posaconazol direkt bei Pneumocystose testet (Wirksamkeit und Sicherheit), da derzeit keine solche Studie existiert
+- Klarstellung der pharmakologischen Rationale angesichts der atypischen (Cholesterin-basierten) Membranbiologie von *Pneumocystis jirovecii* im Vergleich zum Ergosterol-Targeting-Mechanismus von Posaconazol
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

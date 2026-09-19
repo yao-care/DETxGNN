@@ -29,87 +29,88 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Pirfenidone: From Idiopathic Pulmonary Fibrosis to Extracutaneous Mastocytoma
+# Pirfenidone: Von idiopathischer Lungenfibrose zu extrakutanem Mastozytom
 
-## One-Sentence Summary
+## Eine-Satz-Zusammenfassung
 
-Pirfenidone is an antifibrotic agent whose established clinical use — per literature citation (PMID 29702057) — is idiopathic pulmonary fibrosis (IPF); no official regulatory indication text is available in this dataset. The TxGNN model's top prediction is **Extracutaneous Mastocytoma**, but this candidate is currently supported by **zero clinical trials and zero publications** — the score reflects a pure knowledge-graph prediction with no external validation.
+Pirfenidone ist ein antifibrotisches Mittel, dessen etablierte klinische Verwendung — gemäß Literaturzitat (PMID 29702057) — die idiopathische Lungenfibrose (IPF) ist; kein offizieller behördlicher Indikationstext ist in diesem Datensatz verfügbar. Die Top-Vorhersage des TxGNN-Modells ist **Extrakutanes Mastozytom**, aber dieser Kandidat wird derzeit durch **null klinische Studien und null Publikationen** gestützt — der Score spiegelt eine reine Knowledge-Graph-Vorhersage ohne externe Validierung wider.
 
-> ⚠️ Note: All 10 predicted indications in this evidence pack are rated **L5 (model prediction only)** except rank 9 (fibroblastic neoplasm), which reached L4 — driven mainly by **negative safety signals** (case reports of sarcoma occurrence and dermatofibroma aggravation), not positive efficacy evidence.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Idiopathic Pulmonary Fibrosis (IPF) — *sourced from literature citation only; official regulatory indication text not available (data gap)* |
-| Predicted New Indication | Extracutaneous Mastocytoma |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L5 |
-| Germany Market Status | ✗ Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+> ⚠️ Hinweis: Alle 10 vorhergesagten Indikationen in dieser Evidenzsammlung sind mit **L5 (nur Modellvorhersage)** bewertet, mit Ausnahme von Rang 9 (Fibroblastisches Neoplasma), das L4 erreichte — angetrieben hauptsächlich durch **negative Sicherheitssignale** (Fallberichte über das Auftreten von Sarkom und Verschlimmerung von Dermatofibrom), nicht durch positive Wirksamkeitsevidenz.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnelle Übersicht
 
-Currently, detailed mechanism of action data is not available (`original_moa: [Data Gap]`). Based on external literature embedded in this evidence pack, pirfenidone is known to inhibit TGF-β1–mediated signalling (including non-SMAD pathways), reduce fibroblast proliferation, and decrease collagen deposition — a mechanism well-documented for fibrotic disorders such as IPF and Dupuytren's disease.
-
-For the top-ranked candidate, **extracutaneous mastocytoma**, this mechanism does not map cleanly onto the disease biology. Mastocytoma is driven by mast cell proliferation (often KIT-pathway related), not by fibroblast/TGF-β–mediated fibrosis. The evidence pack's own rationale explicitly flags this as a "weak, purely inferential" link, likely reflecting graph-embedding proximity between fibrosis-related and mast-cell-related nodes rather than a genuine pharmacological relationship.
-
-Notably, among the ten predictions, most (mastocytoma, fibrosarcoma subtypes, dermatofibrosarcoma protuberans) cluster around a "TGF-β/anti-fibroblast" hypothesis for soft-tissue neoplasms. However, the only prediction with actual literature support (rank 9, fibroblastic neoplasm) surfaces a **safety concern in the opposite direction** — case reports of pirfenidone-associated undifferentiated pleomorphic sarcoma and aggravated dermatofibroma — which undermines the "anti-fibrotic = anti-tumour" assumption underlying several of these predictions.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Inhalt |
+|---------|--------|
+| Originalindikation | Idiopathische Lungenfibrose (IPF) — *nur aus Literaturzitat entnommen; offizieller behördlicher Indikationstext nicht verfügbar (Datenlücke)* |
+| Vorhergesagte neue Indikation | Extrakutanes Mastozytom |
+| TxGNN-Vorhersagescore | 99.71% |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | ✗ Nicht auf dem Markt (Not marketed) |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | **Zurückgestellt** |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage angemessen?
 
-Currently no related literature available for the top-ranked indication (Extracutaneous Mastocytoma).
+Derzeit sind detaillierte Wirkmechanismus-Daten nicht verfügbar (`original_moa: [Datenlücke]`). Basierend auf externer Literatur, die in dieser Evidenzsammlung eingebettet ist, ist bekannt, dass Pirfenidone die TGF-β1–vermittelte Signalisierung hemmt (einschließlich nicht-SMAD-Pfade), die Fibroblastproliferation reduziert und die Kollagenablagerung verringert — ein Wirkmechanismus, der für fibrotische Erkrankungen wie IPF und Morbus Dupuytren gut dokumentiert ist.
 
-*(Note: literature evidence exists only for rank 9 — Fibroblastic Neoplasm — see Safety Considerations below.)*
+Für den Top-Kandidaten **Extrakutanes Mastozytom** wird dieser Wirkmechanismus nicht sauberer auf die Krankheitsbiologie abgebildet. Mastozytom wird durch Mastzellproliferation vorangetrieben (häufig KIT-Signalweg-bezogen), nicht durch Fibroblasten-/TGF-β–vermittelte Fibrose. Das Rationale der Evidenzsammlung selbst kennzeichnet dies explizit als „schwache, rein inferenzielle" Verbindung, die wahrscheinlich die Graph-Embedding-Nähe zwischen fibrosebezogenen und Mastzell-bezogenen Knoten widerspiegelt, anstatt einer echten pharmakologischen Beziehung.
 
----
-
-## Germany Market Information
-
-Pirfenidone currently has **no marketing authorizations** on record in this dataset (total_licenses: 0). No product/dosage-form information is available.
+Bemerkenswert ist, dass sich die meisten der zehn Vorhersagen (Mastozytom, Fibrosarkom-Subtypen, Dermatofibrosarcoma protuberans) um eine „TGF-β/Anti-Fibroblasten"-Hypothese für Weichteilneoplasien konzentrieren. Die einzige Vorhersage mit tatsächlicher Literaturunterstützung (Rang 9, fibroblastisches Neoplasma) zeigt jedoch ein **Sicherheitsbedenken in der entgegengesetzten Richtung** — Fallberichte von Pirfenidone-assoziiertem pleomorphem undifferenziertem Sarkom und verschlimmertem Dermatofibrom — was die „Anti-Fibrose = Anti-Tumor"-Annahme, die mehreren dieser Vorhersagen zugrunde liegt, untergräbt.
 
 ---
 
-## Safety Considerations
+## Klinische Studienevidenz
 
-All primary safety fields (key warnings, contraindications, DDI) are marked as data gaps in this dataset:
-
-> Please refer to the package insert for safety information.
-
-**Notable literature-derived safety signal** (from evidence tied to a lower-ranked prediction, not from formal safety data):
-- A case report describes **undifferentiated pleomorphic sarcoma** occurring after pirfenidone use (PMID 29702057).
-- A separate case report describes **aggravation of multiple eruptive dermatofibromas** in a patient on pirfenidone + mycophenolate mofetil (PMID 32572469).
-
-These are isolated case reports, not causally established, but they warrant caution before pursuing any fibroblastic/soft-tissue-neoplasm-related repurposing hypothesis for this drug.
+Derzeit keine registrierten klinischen Studien zu dieser Indikation.
 
 ---
 
-## Conclusion and Next Steps
+## Literaturevidenz
 
-**Decision: Hold**
+Derzeit keine Literaturbelege für die Top-Indikation (Extrakutanes Mastozytom) verfügbar.
 
-**Rationale:**
-Every predicted indication in this evidence pack is either unsupported by any clinical trial or literature (L5), or supported only by literature that raises a safety concern rather than efficacy evidence (L4, rank 9). Combined with missing MOA data, missing regulatory/safety documentation, and zero market authorizations, there is currently no basis to advance any candidate beyond model-prediction stage.
+*(Hinweis: Literaturbelege existieren nur für Rang 9 — Fibroblastisches Neoplasma — siehe Sicherheitsaspekte unten.)*
 
-**To proceed, the following is needed:**
-- TFDA/BfArM package insert (warnings, contraindications) — currently blocking (DG001)
-- Confirmed MOA from DrugBank API — currently high-severity gap (DG002)
-- Confirmed original indication and regulatory approval text (currently absent from `taiwan_regulatory.licenses`)
-- Preclinical or clinical evidence specifically for extracutaneous mastocytoma before any further evaluation
-- Clarification of the sarcoma-occurrence/dermatofibroma-aggravation safety signal before pursuing any fibroblastic-neoplasm-family indication
+---
+
+## Marktinformationen zu Deutschland
+
+Pirfenidone hat derzeit **keine Marktzulassungen** auf Datensatzebene (total_licenses: 0). Es sind keine Produkt-/Darreichungsform-Informationen verfügbar.
+
+---
+
+## Sicherheitsaspekte
+
+Alle primären Sicherheitsfelder (wichtige Warnungen, Kontraindikationen, Arzneimittelwechselwirkungen) sind in diesem Datensatz als Datenlücken gekennzeichnet:
+
+> Bitte beachten Sie die Fachinformation für Sicherheitsinformationen.
+
+**Beachtenswertes literaturgestütztes Sicherheitssignal** (aus Evidenz für eine niedriger bewertete Vorhersage, nicht aus formalen Sicherheitsdaten):
+- Ein Fallbericht beschreibt **pleomorphes undifferenziertes Sarkom**, das nach Pirfenidone-Anwendung auftrat (PMID 29702057).
+- Ein separater Fallbericht beschreibt **Verschlimmerung mehrerer eruptiver Dermatofibromen** bei einem Patienten unter Pirfenidone + Mycophenolat-Mofetil (PMID 32572469).
+
+Dies sind isolierte Fallberichte, nicht kausal etabliert, aber sie erfordern Vorsicht, bevor eine Repurposing-Hypothese im Zusammenhang mit Fibroblasten-/Weichteilneoplasma für dieses Medikament verfolgt wird.
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Zurückgestellt**
+
+**Begründung:**
+Jede vorhergesagte Indikation in dieser Evidenzsammlung ist entweder durch keine klinische Studie oder Literatur gestützt (L5), oder wird nur durch Literatur gestützt, die ein Sicherheitsbedenken aufzeigt, anstatt Wirksamkeitsevidenz zu liefern (L4, Rang 9). In Kombination mit fehlenden MOA-Daten, fehlender behördlicher/Sicherheitsdokumentation und null Marktzulassungen gibt es derzeit keine Grundlage, um einen Kandidaten über die Modellvorhersage-Stufe hinaus voranzubringen.
+
+**Um fortzufahren, wird folgendes benötigt:**
+- TFDA/BfArM-Fachinformation (Warnungen, Kontraindikationen) — derzeit blockierend (DG001)
+- Bestätigter Wirkmechanismus aus DrugBank API — derzeit hochschwereige Lücke (DG002)
+- Bestätigte Originalindikation und behördlicher Genehmigungstext (derzeit fehlend in `taiwan_regulatory.licenses`)
+- Präklinische oder klinische Evidenz speziell für extrakutanes Mastozytom vor weiterer Bewertung
+- Klärung des Sicherheitssignals bezüglich Sarkomauftreten und Dermatofibrom-Verschlimmerung vor der Verfolgung von Indikationen aus der Familie fibroblastischer Neoplasien
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

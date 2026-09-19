@@ -29,80 +29,81 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Ciclesonide: From Asthma to Atopic Eczema
+# Ciclesonid: Von Asthma zu Atopischer Dermatitis
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Ciclesonide is an inhaled corticosteroid (ICS) prodrug, best known as the active ingredient in **Alvesco** for asthma control.
-> The TxGNN model predicts it may be effective for **Atopic Eczema**,
-> but this direction is currently supported by **0 clinical trials** and **0 publications** — a prediction based purely on the knowledge graph, with no empirical evidence.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Asthma (inhaled corticosteroid; confirmed only via the drug's own known ICS classification, not a formal regulatory record) |
-| Predicted New Indication | Atopic Eczema |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L5 |
-| Taiwan Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Ciclesonid ist ein inhaliertes Kortikosteroid (ICS)-Prodrug, das vor allem als Wirkstoff in **Alvesco** zur Asthma-Kontrolle bekannt ist.
+> Das TxGNN-Modell prognostiziert, dass es wirksam sein könnte für **Atopische Dermatitis**,
+> aber diese Richtung wird derzeit durch **0 klinische Studien** und **0 Publikationen** gestützt — eine auf rein dem Wissensgraph basierende Vorhersage ohne empirische Evidenz.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Formal mechanism-of-action data for ciclesonide is not available from the regulatory data source used to build this evidence pack (data gap). However, the evidence pack's own repurposing rationale for a related candidate confirms that ciclesonide is an inhaled corticosteroid (ICS) prodrug, activated by pulmonary esterases into its active metabolite des-ciclesonide, which binds the glucocorticoid receptor and suppresses airway inflammation. This is ciclesonide's well-established, already-approved mode of action for asthma (e.g., Alvesco) — not a new use.
-
-Atopic eczema and asthma both belong to the atopic/Th2-driven inflammatory disease spectrum, and topical corticosteroids are indeed a mainstay of eczema treatment, so a glucocorticoid mechanism is not inherently implausible for skin inflammation. This gives the prediction a superficial theoretical basis.
-
-However, the practical case is weak: ciclesonide is currently formulated only for inhalation, with no pharmacokinetic or safety data for cutaneous/topical administration. The evidence pack itself explicitly flags this mechanistic link as "weak" (機轉關聯薄弱) due to the route-of-administration mismatch. Without a topical formulation and dermatologic PK/safety package, this prediction cannot be translated into a testable clinical hypothesis at this time.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Punkt | Inhalt |
+|-------|--------|
+| Ursprüngliche Indikation | Asthma (inhaliertes Kortikosteroid; bestätigt nur über die bekannte ICS-Klassifizierung des Arzneimittels, nicht durch formale behördliche Dokumentation) |
+| Vorhergesagte neue Indikation | Atopische Dermatitis |
+| TxGNN-Vorhersage-Score | 99.96% |
+| Evidenzstufe | L5 |
+| Taiwan-Marktstatus | Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Abwarten |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage begründet?
 
-Currently no related literature available
+Formale Wirkmechanismus-Daten für Ciclesonid sind nicht aus der behördlichen Datenquelle verfügbar, die zur Erstellung dieses Evidence Packs verwendet wurde (Datenlücke). Das Evidence Pack selbst bestätigt jedoch in seiner Umwandlungsrationale für einen verwandten Kandidaten, dass Ciclesonid ein inhaliertes Kortikosteroid (ICS)-Prodrug ist, das durch pulmonale Esterasen zu seinem aktiven Metaboliten Des-Ciclesonid aktiviert wird, das an den Glucocorticoid-Rezeptor bindet und die Atemwegsentzündung unterdrückt. Dies ist der gut etablierte, bereits zugelassene Wirkmechanismus von Ciclesonid für Asthma (z. B. Alvesco) – keine neue Anwendung.
 
----
+Atopische Dermatitis und Asthma gehören beide zum atopischen/Th2-gesteuerten Spektrum von Entzündungserkrankungen, und topische Kortikosteroide sind tatsächlich eine Säule der Ekzem-Behandlung, sodass ein Glucocorticoid-Mechanismus für Hautentzündungen nicht grundsätzlich unplausibel ist. Dies gibt der Vorhersage eine oberflächliche theoretische Grundlage.
 
-## Taiwan Market Information
-
-Ciclesonide is **not currently marketed in Taiwan** — no product authorizations are on record (0 licenses). No approved indication text, dosage form, or authorization number data is available for this drug in this market.
+Die praktische Fallstärke ist jedoch schwach: Ciclesonid ist derzeit nur zur Inhalation formuliert, ohne pharmakokinetische oder Sicherheitsdaten für kutane/topische Anwendung. Das Evidence Pack selbst markiert diese mechanistische Verbindung ausdrücklich als „schwach" (機轉關聯薄弱) aufgrund der Nichtübereinstimmung der Verabreichungsroute. Ohne eine topische Formulierung und ein dermatologisches PK/Sicherheitspaket kann diese Vorhersage derzeit nicht in eine testbare klinische Hypothese übersetzt werden.
 
 ---
 
-## Safety Considerations
+## Evidenz aus klinischen Studien
 
-Please refer to the package insert for safety information (no structured warnings, contraindications, or DDI data are available for this drug in the current dataset, and it is not marketed in Taiwan).
-
-**Notable safety signal from literature (not specific to the eczema prediction):** A case report (PMID [22957490](https://pubmed.ncbi.nlm.nih.gov/22957490/), *Contact Dermatitis*, 2012) describes systemic allergic dermatitis caused by inhaled **budesonide**, with patch testing showing **cross-reactivity to ciclesonide** as a structurally related ICS. This is an adverse-reaction signal, not evidence of therapeutic benefit, and should be treated as a caution flag — particularly relevant given any future dermatologic repurposing exploration for this drug.
+Derzeit keine zugehörigen klinischen Studien registriert
 
 ---
 
-## Conclusion and Next Steps
+## Literaturbeweise
 
-**Decision: Hold**
+Derzeit keine zugehörige Literatur verfügbar
 
-**Rationale:**
-The atopic eczema prediction is supported only by a TxGNN model score (L5), with zero clinical trials and zero publications, and the drug currently has no topical/dermatologic formulation or route-compatible safety data — the mechanistic link is explicitly assessed as weak even within the evidence pack itself.
+---
 
-**To proceed, the following is needed:**
-- Formal TFDA/manufacturer labeling data (warnings, contraindications, DDI) — currently a blocking data gap
-- Confirmed original indication and MOA sourced directly from DrugBank/regulatory filings (currently inferred only from secondary rationale text)
-- Feasibility assessment and PK/safety data for a topical/dermatologic formulation of ciclesonide, since no cutaneous route currently exists
-- At minimum, preclinical or early-phase dermatologic efficacy data before this candidate can move beyond S0
+## Taiwan-Marktinformationen
 
-**For context:** two other candidates in this evidence pack carry stronger, actionable signals and may warrant separate tracking — *bronchitis* (L4, decision stage S1, literature support via COPD guideline) and *asthma-related traits susceptibility* (L1, decision stage S3), the latter of which essentially reflects ciclesonide's already-approved asthma indication rather than a genuine new use.
+Ciclesonid wird in Taiwan derzeit **nicht vermarktet** — keine Produktzulassungen sind dokumentiert (0 Lizenzen). Für dieses Arzneimittel auf diesem Markt sind keine genehmigten Indikationstexte, Darreichungsformen oder Zulassungsnummern-Daten verfügbar.
+
+---
+
+## Sicherheitsaspekte
+
+Weitere Informationen zur Sicherheit finden Sie in der Gebrauchsinformation (für dieses Arzneimittel sind im aktuellen Datensatz keine strukturierten Warnungen, Kontraindikationen oder Wechselwirkungsdaten verfügbar, und es wird in Taiwan nicht vermarktet).
+
+**Beachtenswertes Sicherheitssignal aus der Literatur (nicht spezifisch für die Ekzem-Vorhersage):** Ein Fallbericht (PMID [22957490](https://pubmed.ncbi.nlm.nih.gov/22957490/), *Contact Dermatitis*, 2012) beschreibt systemische allergische Dermatitis verursacht durch inhaliertes **Budesonid**, wobei Epikutantestung **Kreuzreaktivität mit Ciclesonid** als strukturell verwandtes ICS zeigt. Dies ist ein Nebenwirkungs-Signal, kein Nachweis therapeutischen Nutzens, und sollte als Vorsichtsflag behandelt werden – besonders relevant für jede zukünftige dermatologische Umwidmung dieses Arzneimittels.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Abwarten**
+
+**Begründung:**
+Die Vorhersage der atopischen Dermatitis wird nur durch einen TxGNN-Modell-Score (L5) gestützt, ohne klinische Studien und Publikationen, und das Arzneimittel hat derzeit keine topische/dermatologische Formulierung oder routenkompatible Sicherheitsdaten — die mechanistische Verbindung wird sogar im Evidence Pack selbst ausdrücklich als schwach bewertet.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+- Formale TFDA/Herstellerkennzeichnungsdaten (Warnungen, Kontraindikationen, Wechselwirkungen) — derzeit eine blockierende Datenlücke
+- Bestätigte ursprüngliche Indikation und MOA direkt aus DrugBank/behördlichen Unterlagen (derzeit nur aus sekundären Begründungstexten abgeleitet)
+- Machbarkeitsbewertung und PK/Sicherheitsdaten für eine topische/dermatologische Formulierung von Ciclesonid, da derzeit keine kutane Route existiert
+- Mindestens präklinische oder frühe dermatologische Wirksamkeitsdaten, bevor dieser Kandidat über S0 hinaus vorrücken kann
+
+**Zum Kontext:** zwei weitere Kandidaten in diesem Evidence Pack tragen stärkere, handlungsreife Signale und könnten separate Nachverfolgung rechtfertigen — *Bronchitis* (L4, Entscheidungsstadium S1, Literaturunterstützung über COPD-Leitlinie) und *asthma-bezogene Anfälligkeit* (L1, Entscheidungsstadium S3), wobei letztere im Wesentlichen Ciclesonids bereits genehmigter Asthma-Indikation widerspiegelt statt einer echten neuen Anwendung.
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

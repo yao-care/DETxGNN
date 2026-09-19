@@ -29,76 +29,77 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Selinexor: From Original Indication (Not Documented) to Drug-Induced Osteoporosis
+# Selinexor: Von ursprünglicher Indikation (nicht dokumentiert) zu arzneimittelinduzierter Osteoporose
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> The original indication and mechanism of action for Selinexor are **not available** in the current dataset (marked as Data Gap).
-> The TxGNN model predicts a possible association with **Drug-Induced Osteoporosis**, but this comes with **zero supporting clinical trials** and **zero literature references**,
-> and the semantic relationship itself is ambiguous — it is unclear whether this indicates a *treatment* effect or an *adverse-effect* risk.
+> Die ursprüngliche Indikation und der Wirkmechanismus von Selinexor sind **nicht verfügbar** im aktuellen Datensatz (markiert als Datenlücke).
+> Das TxGNN-Modell sagt eine mögliche Assoziation mit **arzneimittelinduzierter Osteoporose** voraus, dies kommt jedoch mit **null unterstützenden klinischen Studien** und **null Literaturangaben**,
+> und die semantische Beziehung selbst ist mehrdeutig — es ist unklar, ob dies eine *therapeutische* Wirkung oder ein *Nebenwirkungsrisiko* anzeigt.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Element | Inhalt |
 |------|------|
-| Original Indication | Not available (data gap) |
-| Predicted New Indication | Drug-Induced Osteoporosis |
-| TxGNN Prediction Score | 99.22% |
-| Evidence Level | L5 |
-| Germany Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | Nicht verfügbar (Datenlücke) |
+| Vorhergesagte neue Indikation | Arzneimittelinduzierte Osteoporose |
+| TxGNN-Vorhersage-Punktzahl | 99.22% |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Nicht vermarktet (Nicht vermarktet) |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Abwarten |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage angemessen?
 
-Currently, detailed mechanism of action data is not available (marked as Data Gap in the source evidence pack). No original indication is recorded either, which means we cannot compare the drug's known pharmacology against the predicted new indication.
+Derzeit sind detaillierte Daten zum Wirkmechanismus nicht verfügbar (in der Quellen-Evidenzsammlung als Datenlücke markiert). Auch die ursprüngliche Indikation ist nicht erfasst, was bedeutet, dass wir die bekannte Pharmakologie des Arzneimittels nicht gegen die vorhergesagte neue Indikation vergleichen können.
 
-More importantly, the predicted indication itself — "drug-induced osteoporosis" — is semantically ambiguous in this context. It is not clear whether the TxGNN model is proposing that Selinexor could be **used to treat** drug-induced osteoporosis, or whether it is flagging that Selinexor **may itself induce** osteoporosis as an adverse effect. These two interpretations lead to opposite clinical conclusions (a therapeutic candidate vs. a safety signal), and the evidence pack explicitly notes this ambiguity has not been resolved.
+Noch wichtiger ist, dass die vorhergesagte Indikation selbst — „arzneimittelinduzierte Osteoporose" — in diesem Kontext semantisch mehrdeutig ist. Es ist nicht klar, ob das TxGNN-Modell vorschlägt, dass Selinexor **zur Behandlung** von arzneimittelinduzierter Osteoporose **eingesetzt werden könnte**, oder ob es **darauf hinweist, dass** Selinexor **selbst Osteoporose als Nebenwirkung induzieren könnte**. Diese beiden Interpretationen führen zu gegensätzlichen klinischen Schlussfolgerungen (ein therapeutischer Kandidat vs. ein Sicherheitssignal), und die Evidenzsammlung vermerkt ausdrücklich, dass diese Mehrdeutigkeit nicht geklärt wurde.
 
-Given the absence of MOA data, original indication data, and any supporting trials or literature, there is currently no mechanistic or clinical basis to judge the biological plausibility of this high prediction score (0.992). The score alone, without corroborating evidence, is insufficient to support advancing this candidate.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Angesichts des Fehlens von MOA-Daten, Daten zur ursprünglichen Indikation und etwaiger unterstützender Studien oder Literatur gibt es derzeit keine mechanistische oder klinische Grundlage, um die biologische Plausibilität dieser hohen Vorhersage-Punktzahl (0.992) zu bewerten. Die Punktzahl allein, ohne bestätigende Beweise, ist unzureichend, um das Voranbringen dieses Kandidaten zu rechtfertigen.
 
 ---
 
-## Literature Evidence
+## Klinische Studienevidenz
 
-Currently no related literature available.
-
----
-
-## Germany Market Information
-
-Selinexor is not currently marketed in Germany (0 authorizations on record); no license or approved-indication data is available.
+Derzeit sind keine damit verbundenen klinischen Studien registriert.
 
 ---
 
-## Safety Considerations
+## Literaturbeweise
 
-Please refer to the package insert for safety information.
+Derzeit ist keine damit verbundene Literatur verfügbar.
 
 ---
 
-## Conclusion and Next Steps
+## Marktinformationen zu Deutschland
 
-**Decision: Hold**
+Selinexor ist derzeit nicht auf dem deutschen Markt erhältlich (0 Zulassungen im Register); keine Lizenz- oder genehmigten Indikationsdaten sind verfügbar.
 
-**Rationale:**
-Evidence level is L5 (model prediction only, no clinical trials or literature), and two blocking/high-severity data gaps remain — TFDA warnings/contraindications and mechanism of action — in addition to an unresolved ambiguity about whether the predicted association represents a therapeutic opportunity or an adverse-effect risk.
+---
 
-**To proceed, the following is needed:**
-- Original indication and mechanism of action (MOA) data from DrugBank
-- TFDA/BfArM package insert data (warnings, contraindications) — currently blocking for safety review
-- Clarification of whether "drug-induced osteoporosis" reflects a treatment target or a risk association for Selinexor
-- Independent search for supporting clinical trials or literature before this candidate can move past S0
+## Sicherheitsüberlegungen
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Abwarten**
+
+**Begründung:**
+Die Evidenzstufe beträgt L5 (nur Modellvorhersage, keine klinischen Studien oder Literatur), und zwei blockierende/schweregrad-hohe Datenlücken bleiben bestehen — TFDA-Warnungen/Kontraindikationen und Wirkmechanismus — zusätzlich zu einer ungeklärten Mehrdeutigkeit darüber, ob die vorhergesagte Assoziation eine therapeutische Möglichkeit oder ein Risiko für Nebenwirkungen darstellt.
+
+**Um voranzukommen, ist Folgendes erforderlich:**
+- Daten zur ursprünglichen Indikation und zum Wirkmechanismus (MOA) aus DrugBank
+- TFDA/BfArM-Packungsbeilagendaten (Warnungen, Kontraindikationen) — derzeit blockierend für Sicherheitsüberprüfung
+- Klarstellung darüber, ob „arzneimittelinduzierte Osteoporose" ein Behandlungsziel oder eine Risikoassoziation für Selinexor widerspiegelt
+- Unabhängige Suche nach unterstützenden klinischen Studien oder Literatur, bevor dieser Kandidat über S0 hinaus vorangebracht werden kann
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

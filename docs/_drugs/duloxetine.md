@@ -29,99 +29,100 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Duloxetine: From Approved Antidepressant Uses to Obsessive-Compulsive Disorder
+# Duloxetin: Von genehmigten Antidepressiva-Indikationen zur Zwangsstörung
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Duloxetine (DB00476) is a serotonin-norepinephrine reuptake inhibitor (SNRI) whose formally licensed indications are not recorded in this evidence pack, but literature within the pack confirms it is an approved antidepressant used for major depressive disorder, generalized anxiety disorder, diabetic peripheral neuropathic pain, fibromyalgia, and chronic musculoskeletal pain. Among 10 TxGNN-predicted indications, **Obsessive-Compulsive Disorder (OCD)** is the only candidate with substantive clinical evidence — **5 clinical trials** (including a completed Phase 4 trial and a double-blind RCT) and **19 publications**, giving it the strongest evidence tier (L2) of all candidates screened.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not populated in `taiwan_regulatory.licenses` (empty). Per literature in this pack (PMID 31749717): major depressive disorder, generalized anxiety disorder, diabetic peripheral neuropathic pain, fibromyalgia, chronic musculoskeletal pain |
-| Predicted New Indication | Obsessive-Compulsive Disorder (OCD) |
-| TxGNN Prediction Score | 99.84% |
-| Evidence Level | L2 |
-| Germany Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+Duloxetin (DB00476) ist ein Serotonin-Noradrenalin-Wiederaufnahmehemmer (SNRI), dessen formal zugelassene Indikationen in diesem Nachweispaket nicht verzeichnet sind. Die Literatur im Paket bestätigt jedoch, dass es sich um ein zugelassenes Antidepressivum handelt, das für Major-Depression, generalisierte Angststörung, diabetische periphere neuropathische Schmerzen, Fibromyalgie und chronische muskuloskelettale Schmerzen verwendet wird. Unter 10 TxGNN-vorhergesagten Indikationen ist **Zwangsstörung (OCD)** der einzige Kandidat mit substanziellen klinischen Belegen — **5 klinische Studien** (einschließlich einer abgeschlossenen Phase-4-Studie und einer doppelblinden RCT) und **19 Publikationen**, was ihm die stärkste Evidenzstufe (L2) aller gescreenten Kandidaten verleiht.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellebersicht
 
-Currently, detailed mechanism of action data is not available (`original_moa`: [Data Gap]). Based on known information and the literature captured in this evidence pack, duloxetine is a serotonin-norepinephrine reuptake inhibitor (SNRI), a pharmacological class whose serotonergic component overlaps with the mechanism believed to underlie OCD pathophysiology.
-
-OCD is currently treated first-line with high-dose SSRIs and clomipramine, both of which act primarily through serotonin reuptake inhibition. Since duloxetine shares this serotonergic mechanism (plus additional noradrenergic activity), several independent groups have tested it directly in OCD, including as monotherapy and as an augmentation strategy in treatment-resistant cases. Two review articles in this pack (PMID 16669725, PMID 21779536) specifically discuss SNRIs — including duloxetine — as a rational pharmacological alternative to SSRIs in OCD, reinforcing the mechanistic plausibility of the TxGNN prediction.
-
-It is worth noting that this is the strongest-evidence candidate among the 10 TxGNN predictions provided (see "Other Predicted Indications" below); most other top-ranked candidates in this evidence pack are explicitly flagged by the underlying rationale as likely graph noise with no supporting mechanism or clinical data.
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Nicht in `taiwan_regulatory.licenses` eingetragen (leer). Gemäß Literatur in diesem Paket (PMID 31749717): Major-Depression, generalisierte Angststörung, diabetische periphere neuropathische Schmerzen, Fibromyalgie, chronische muskuloskelettale Schmerzen |
+| Vorhergesagte neue Indikation | Zwangsstörung (OCD) |
+| TxGNN-Vorhersage-Score | 99.84% |
+| Evidenzstufe | L2 |
+| Marktstatus in Deutschland | Nicht vermarktet (Nicht vermarktet) |
+| Anzahl der Autorisierungen | 0 |
+| Empfohlene Entscheidung | Mit Schutzmaßnahmen fortfahren |
 
 ---
 
-## Clinical Trial Evidence
+## Warum ist diese Vorhersage angemessen?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Derzeit sind detaillierte Daten zum Wirkmechanismus nicht verfügbar (`original_moa`: [Datenlücke]). Basierend auf bekannten Informationen und der in diesem Nachweispaket erfassten Literatur ist Duloxetin ein Serotonin-Noradrenalin-Wiederaufnahmehemmer (SNRI), eine Wirkstoffklasse, deren serotonerge Komponente mit dem Mechanismus überlappt, von dem angenommen wird, dass er der Pathophysiologie der Zwangsstörung zugrunde liegt.
+
+Die Zwangsstörung wird derzeit in der Erstlinienbehandlung mit hochdosiertem SSRI und Clomipramin behandelt, beide wirken primär durch Serotonin-Wiederaufnahmehemmung. Da Duloxetin diesen serotonergen Mechanismus teilt (plus zusätzliche noradrenerge Aktivität), haben mehrere unabhängige Arbeitsgruppen es direkt bei Zwangsstörung getestet, einschließlich als Monotherapie und als Augmentationsstrategie in therapieresistenten Fällen. Zwei Übersichtsartikel in diesem Paket (PMID 16669725, PMID 21779536) diskutieren speziell SNRIs — einschließlich Duloxetin — als rationale pharmakologische Alternative zu SSRIs bei Zwangsstörung und verstärken die mechanistische Plausibilität der TxGNN-Vorhersage.
+
+Es ist erwähnenswert, dass dies der Kandidat mit der stärksten Evidenz unter den 10 bereitgestellten TxGNN-Vorhersagen ist (siehe „Andere vorhergesagte Indikationen" unten); die meisten anderen Kandidaten in diesem Nachweispaket sind explizit als wahrscheinliches Graphen-Rauschen ohne unterstützenden Mechanismus oder klinische Daten gekennzeichnet.
+
+---
+
+## Klinische Studienevidenzen
+
+| Studienzahl | Phase | Status | Teilnehmerzahl | Wesentliche Erkenntnisse |
 |---------|------|------|------|---------|
-| [NCT00464698](https://clinicaltrials.gov/study/NCT00464698) | Phase 4 | Completed | 20 | Directly assessed efficacy of duloxetine in treating OCD (Grade A relevance) |
-| [NCT01404871](https://clinicaltrials.gov/study/NCT01404871) | N/A | Completed | 26 | Predicted medication response in OCD; duloxetine arm offered to patients who had already tried clomipramine/escitalopram (Grade B) |
-| [NCT02476136](https://clinicaltrials.gov/study/NCT02476136) | N/A | Unknown | 8,800 | Individual-patient-data meta-analysis of antidepressant efficacy across anxiety disorders; not OCD-specific (Grade C) |
-| [NCT05930912](https://clinicaltrials.gov/study/NCT05930912) | N/A | Unknown | 1 | Single-case psychoanalytic treatment study in ASD with OCD comorbidity; weak relevance (Grade C) |
-| [NCT01944657](https://clinicaltrials.gov/study/NCT01944657) | N/A | Withdrawn | 0 | TMS vs. medication monotherapy for depression; withdrawn with zero enrollment, no evidentiary value (Grade C) |
+| [NCT00464698](https://clinicaltrials.gov/study/NCT00464698) | Phase 4 | Abgeschlossen | 20 | Bewertet direkt die Wirksamkeit von Duloxetin bei der Behandlung von Zwangsstörung (Relevanzgrad A) |
+| [NCT01404871](https://clinicaltrials.gov/study/NCT01404871) | N/A | Abgeschlossen | 26 | Vorhergesagte Medikamentenreaktion bei Zwangsstörung; Duloxetin-Arm angeboten für Patienten, die bereits Clomipramin/Escitalopram versucht hatten (Relevanzgrad B) |
+| [NCT02476136](https://clinicaltrials.gov/study/NCT02476136) | N/A | Unbekannt | 8,800 | Meta-Analyse mit Einzelpatientendaten zur Antidepressiva-Wirksamkeit bei Angststörungen; nicht spezifisch für Zwangsstörung (Relevanzgrad C) |
+| [NCT05930912](https://clinicaltrials.gov/study/NCT05930912) | N/A | Unbekannt | 1 | Einzelfall-Psychoanalytische Behandlungsstudie bei ASD mit Zwangsstörungs-Komoridität; schwache Relevanz (Relevanzgrad C) |
+| [NCT01944657](https://clinicaltrials.gov/study/NCT01944657) | N/A | Zurückgezogen | 0 | TMS vs. Medikamenten-Monotherapie bei Depression; mit null Teilnehmerzahl zurückgezogen, kein Beweisergebnis (Relevanzgrad C) |
 
 ---
 
-## Literature Evidence
+## Literaturevidenzen
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Journal | Wesentliche Erkenntnisse |
 |------|-----|------|------|---------|
-| [27811556](https://pubmed.ncbi.nlm.nih.gov/27811556/) | 2016 | RCT (double-blind) | Journal of Clinical Psychopharmacology | Duloxetine augmentation evaluated in treatment-resistant OCD |
-| [25637377](https://pubmed.ncbi.nlm.nih.gov/25637377/) | 2015 | Open-label study | Int J Neuropsychopharmacology | Efficacy of duloxetine monotherapy for DSM-IV OCD |
-| [18208931](https://pubmed.ncbi.nlm.nih.gov/18208931/) | 2008 | Case series | J Psychopharmacology | Switching from SSRIs to duloxetine in resistant OCD |
-| [21779536](https://pubmed.ncbi.nlm.nih.gov/21779536/) | 2011 | Review | Innovations in Clinical Neuroscience | SNRIs (incl. duloxetine) as pharmacological alternatives for OCD |
-| [16669725](https://pubmed.ncbi.nlm.nih.gov/16669725/) | 2006 | Critical review | J Clinical Psychiatry | Critical review of SNRIs in OCD treatment |
-| [24766145](https://pubmed.ncbi.nlm.nih.gov/24766145/) | 2014 | Review | Expert Opinion on Pharmacotherapy | Updated review of serotonergic antidepressants in OCD |
-| [31749717](https://pubmed.ncbi.nlm.nih.gov/31749717/) | 2019 | Systematic review | Frontiers in Psychiatry | Duloxetine use expansions beyond MDD/GAD, including OCD |
-| [28477500](https://pubmed.ncbi.nlm.nih.gov/28477500/) | 2017 | Meta-analysis | Journal of Affective Disorders | OCD shows reduced placebo/antidepressant response vs. other anxiety disorders |
-| [19483491](https://pubmed.ncbi.nlm.nih.gov/19483491/) | 2009 | Case report | Clinical Neuropharmacology | High-dose duloxetine achieved sustained full remission in treatment-resistant OCD |
-| [17632660](https://pubmed.ncbi.nlm.nih.gov/17632660/) | 2007 | Case report | Primary Care Companion J Clin Psychiatry | OCD case responding to duloxetine |
+| [27811556](https://pubmed.ncbi.nlm.nih.gov/27811556/) | 2016 | RCT (doppelblind) | Journal of Clinical Psychopharmacology | Augmentation mit Duloxetin bei therapieresistenter Zwangsstörung bewertet |
+| [25637377](https://pubmed.ncbi.nlm.nih.gov/25637377/) | 2015 | Offene Studie | Int J Neuropsychopharmacology | Wirksamkeit der Duloxetin-Monotherapie bei DSM-IV-Zwangsstörung |
+| [18208931](https://pubmed.ncbi.nlm.nih.gov/18208931/) | 2008 | Fallserie | J Psychopharmacology | Wechsel von SSRIs zu Duloxetin bei therapieresistenter Zwangsstörung |
+| [21779536](https://pubmed.ncbi.nlm.nih.gov/21779536/) | 2011 | Übersicht | Innovations in Clinical Neuroscience | SNRIs (einschließlich Duloxetin) als pharmakologische Alternativen bei Zwangsstörung |
+| [16669725](https://pubmed.ncbi.nlm.nih.gov/16669725/) | 2006 | Kritische Übersicht | J Clinical Psychiatry | Kritische Übersicht von SNRIs in der Behandlung von Zwangsstörung |
+| [24766145](https://pubmed.ncbi.nlm.nih.gov/24766145/) | 2014 | Übersicht | Expert Opinion on Pharmacotherapy | Aktualisierte Übersicht serotonerger Antidepressiva bei Zwangsstörung |
+| [31749717](https://pubmed.ncbi.nlm.nih.gov/31749717/) | 2019 | Systematische Übersicht | Frontiers in Psychiatry | Duloxetin-Einsatzerweiterungen über MDD/GAD hinaus, einschließlich Zwangsstörung |
+| [28477500](https://pubmed.ncbi.nlm.nih.gov/28477500/) | 2017 | Meta-Analyse | Journal of Affective Disorders | Zwangsstörung zeigt reduzierte Placebo-/Antidepressiva-Response im Vergleich zu anderen Angststörungen |
+| [19483491](https://pubmed.ncbi.nlm.nih.gov/19483491/) | 2009 | Fallbericht | Clinical Neuropharmacology | Hochdosiertes Duloxetin erzielte anhaltende vollständige Remission bei therapieresistenter Zwangsstörung |
+| [17632660](https://pubmed.ncbi.nlm.nih.gov/17632660/) | 2007 | Fallbericht | Primary Care Companion J Clin Psychiatry | Zwangsstörungs-Fall mit Ansprechen auf Duloxetin |
 
 ---
 
-## Germany Market Information
+## Marktinformation für Deutschland
 
-Currently not marketed in Germany per this evidence pack (`taiwan_regulatory.market_status`: Not marketed, `total_licenses`: 0). No authorization records are available.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (`key_warnings`, `contraindications`, and `ddi` are all unpopulated in this evidence pack — flagged as Blocking data gap DG001.)
+Nach diesem Nachweispaket ist Duloxetin derzeit nicht in Deutschland vermarktet (`taiwan_regulatory.market_status`: Nicht vermarktet, `total_licenses`: 0). Es sind keine Autorisierungsdaten verfügbar.
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsaspekte
 
-**Decision: Proceed with Guardrails**
-
-**Rationale:**
-OCD is the only predicted indication with substantive supporting evidence — a completed Phase 4 trial, a double-blind RCT, and multiple reviews specifically addressing SNRI use in OCD — reaching Evidence Level L2. However, the drug's original indication, MOA, and safety/label data are all data gaps in this pack, and the drug is not currently marketed in Germany, so this cannot yet proceed to a full go decision.
-
-**To proceed, the following is needed:**
-- TFDA/BfArM label warnings and contraindications (DG001, Blocking — required before any S1 safety screening)
-- Confirmed mechanism of action from DrugBank (DG002)
-- Confirmation of original approved indications and any Germany market pathway
-- Formal DDI review, since current query returned no interaction data
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. (`key_warnings`, `contraindications` und `ddi` sind alle nicht in diesem Nachweispaket ausgefüllt — gekennzeichnet als blockierende Datenlücke DG001.)
 
 ---
 
-## Other Predicted Indications from TxGNN (Additional Candidates, Not Prioritized)
+## Fazit und nächste Schritte
 
-For transparency, the remaining 8 of 10 TxGNN-predicted indications in this evidence pack had no supporting clinical trials or literature and were scored L5/Hold, with the rationale text explicitly flagging several as likely **graph prediction noise** (no known mechanistic link to SNRI pharmacology): benign paroxysmal torticollis of infancy (rank 1, top TxGNN score but zero evidence), schizotypal/paranoid/schizoid/histrionic personality disorders, Ohdo syndrome and variants, ligneous conjunctivitis, and blepharophimosis-intellectual disability syndrome (Ohdo type).
+**Entscheidung: Mit Schutzmaßnahmen fortfahren**
 
-**Agoraphobia** (rank 2, L3, decision stage S1, recommendation "Research Question") showed early-stage support — one open-label study and one biomarker RCT context, though the disease-definition overlap between panic disorder and agoraphobia narrowly-defined needs clarification before further investment.
+**Begründung:**
+Zwangsstörung ist die einzige vorhergesagte Indikation mit substanziellen unterstützenden Belegen — eine abgeschlossene Phase-4-Studie, eine doppelblinde RCT und mehrfache Übersichten, die speziell die SNRI-Anwendung bei Zwangsstörung behandeln — und erreicht Evidenzstufe L2. Die ursprüngliche Indikation des Arzneistoffs, der Wirkmechanismus und die Sicherheits-/Kennzeichnungsdaten sind jedoch alle Datenlücken in diesem Paket, und das Arzneimittel ist derzeit nicht in Deutschland vermarktet, daher kann dies noch nicht zu einer abschließenden Genehmigungsentscheidung führen.
+
+**Um fortzufahren, wird Folgendes benötigt:**
+- TFDA/BfArM-Kennzeichnungswarnungen und Kontraindikationen (DG001, blockierend — erforderlich vor jedem S1-Sicherheits-Screening)
+- Bestätigter Wirkmechanismus aus DrugBank (DG002)
+- Bestätigung der ursprünglichen genehmigten Indikationen und eines möglichen Marktzugangswegs in Deutschland
+- Formale DDI-Überprüfung, da die aktuelle Abfrage keine Interaktionsdaten ergab
+
+---
+
+## Weitere vorhergesagte Indikationen von TxGNN (Zusätzliche Kandidaten, nicht priorisiert)
+
+Zur Transparenz hatten die verbleibenden 8 von 10 TxGNN-vorhergesagten Indikationen in diesem Nachweispaket keine unterstützenden klinischen Studien oder Literatur und wurden als L5/Hold bewertet, wobei der Begründungstext mehrere explizit als wahrscheinliches **Graphen-Vorhersagerauschen** kennzeichnet (kein bekannter mechanistischer Zusammenhang mit SNRI-Pharmakologie): benigne paroxysmale Tortikollis des Säuglingsalters (Rang 1, höchste TxGNN-Punktzahl aber null Belege), schizotypale/paranoide/schizoide/histrionische Persönlichkeitsstörungen, Ohdo-Syndrom und Varianten, lignöse Konjunktivitis und Blepharophimose-Intellekt-Behinderungs-Syndrom (Ohdo-Typ).
+
+**Agoraphobie** (Rang 2, L3, Entscheidungsstufe S1, Empfehlung „Forschungsfrage") zeigte frühe Unterstützung — eine offene Studie und ein Biomarker-RCT-Kontext, obwohl die Überschneidung in den Störungsdefinitionen zwischen Panikstörung und eng definierter Agoraphobie vor weiteren Investitionen geklärt werden muss.
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -29,94 +29,95 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Lopinavir：從 HIV-1 感染 到 猿猴免疫缺陷病毒感染 (Simian Immunodeficiency Virus Infection)
+# Lopinavir: Von HIV-1-Infektion zu Simian Immunodeficiency Virus Infection
 
-## 一句話總結
+## Eine-Satz-Zusammenfassung
 
-> Lopinavir 是一款 HIV-1 蛋白酶抑制劑，通常與 Ritonavir 併用於 HIV-1 感染的抗反轉錄病毒治療。
-> TxGNN 模型預測其可能對**猿猴免疫缺陷病毒感染 (SIV Infection)** 有效，
-> 目前僅有 **3 篇動物臨床前文獻**支持此方向，**無任何臨床試驗**佐證，且該「適應症」本質上為猴類感染而非人類疾病。
-
----
-
-## 快速總覽
-
-| 項目 | 內容 |
-|------|------|
-| 原始適應症 | HIV-1 感染（依證據包機轉推論文字得知；正式 MOA 資料缺失） |
-| 預測新適應症 | Simian Immunodeficiency Virus Infection（猿猴免疫缺陷病毒感染） |
-| TxGNN 預測分數 | 99.90% |
-| 證據等級 | L4（動物臨床前研究） |
-| 台灣上市狀態 | Not marketed |
-| 許可證數量 | 0 |
-| 建議決策 | Hold |
+> Lopinavir ist ein HIV-1-Proteasehemmstoff, der typischerweise mit Ritonavir kombiniert wird zur antiretroviralen Therapie der HIV-1-Infektion.
+> Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam gegen **Simian Immunodeficiency Virus Infection** sein könnte,
+> derzeit wird dies nur durch **3 präklinische Studien im Tiermodell** gestützt, **ohne klinische Studien**, und die „Indikation" ist grundsätzlich eine Infektion in Primaten und keine menschliche Krankheit.
 
 ---
 
-## 為何此預測具合理性？
+## Schnellübersicht
 
-目前正式的作用機轉（MOA）資料尚未補齊（Data Gap）。根據證據包中之機轉推論文字，Lopinavir 為 **HIV-1 蛋白酶抑制劑**，其原始用途是抑制 HIV-1 protease 以阻斷病毒成熟複製，通常與 Ritonavir 併用（Lopinavir/Ritonavir 複方）治療人類 HIV-1 感染。
-
-SIV（猿猴免疫缺陷病毒）與 HIV 同屬靈長類慢病毒屬（Lentivirus），兩者蛋白酶結構與功能具高度同源性，因此理論上 Lopinavir 可能對 SIV 蛋白酶也具有抑制活性，這是此預測的機轉合理性基礎。
-
-然而需特別指出：現有 3 篇文獻的研究設計，多數是將 SIV/SHIV 感染獼猴**作為測試 HIV 蛋白酶抑制劑藥效的臨床前動物模型**，而非把「治療猴類 SIV 感染」本身當作獨立的藥物開發適應症。換言之，TxGNN 抓到的關聯很可能反映的是「這隻藥常被用在這種動物模型中測試」，而非真正意義上的人類新適應症。這點在後續決策評估時應特別留意。
-
----
-
-## 臨床試驗證據
-
-目前無相關已註冊之臨床試驗。
+| Punkt | Inhalt |
+|-------|--------|
+| Ursprüngliche Indikation | HIV-1-Infektion (basierend auf Wirkmechanismus-Inferenz-Text in Evidenzpaket; formale MOA-Daten fehlen) |
+| Vorhergesagte neue Indikation | Simian Immunodeficiency Virus Infection |
+| TxGNN-Vorhersage-Score | 99,90% |
+| Evidenzgrad | L4 (präklinische Tierstudien) |
+| Marktstatus in Taiwan | Not marketed |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## 文獻證據
+## Warum ist diese Vorhersage sinnvoll?
 
-| PMID | 年份 | 類型 | 期刊 | 重點發現 |
-|------|-----|------|------|---------|
-| [16973590](https://pubmed.ncbi.nlm.nih.gov/16973590/) | 2006 | 動物臨床前研究 | Journal of Virology | 4 隻感染 SIVmac251 之食蟹猴接受四合一抗病毒療法後，觀察到快速病毒量下降，用於建立 HIV-1 病毒動力學數學模型的比較基礎 |
-| [17350308](https://pubmed.ncbi.nlm.nih.gov/17350308/) | 2007 | 動物臨床前研究 | Microbes and Infection | 建構帶有 HIV-1 蛋白酶基因之新型 SHIV-pr 病毒株，作為體內測試蛋白酶抑制劑藥效的工具 |
-| [12951220](https://pubmed.ncbi.nlm.nih.gov/12951220/) | 2003 | 動物臨床前研究 | Journal of Virological Methods | 慢性感染 SHIV(89.6P) 之獼猴，經口服 AZT+3TC+Lopinavir/Ritonavir 治療 28 天後對 CD8 亞群之影響評估 |
+Die formalen Wirkmechanismus-Daten (MOA) sind derzeit noch nicht vollständig (Datenlücke). Basierend auf dem Wirkmechanismus-Inferenztext im Evidenzpaket ist Lopinavir ein **HIV-1-Proteasehemmstoff**, dessen ursprüngliche Verwendung die HIV-1-Protease hemmt, um die virale Reifung und Replikation zu blockieren, typischerweise kombiniert mit Ritonavir (Lopinavir/Ritonavir-Fixkombination) zur Behandlung der menschlichen HIV-1-Infektion.
 
----
+SIV (Simian Immunodeficiency Virus) gehört wie HIV zur Gattung der Lentiviren bei Primaten (Lentivirus). Beide haben hochgradig homologe Proteasestrukturen und -funktionen. Theoretisch könnte Lopinavir daher auch gegen die SIV-Protease inhibitorische Aktivität zeigen. Dies ist die biologische Grundlage dieser Vorhersage.
 
-## 台灣藥證資訊
-
-Lopinavir 目前在台灣**未取得任何藥品許可證**（許可證數量：0），無法提供產品名稱、劑型與核准適應症資訊。
+Allerdings ist besonders hervorzuheben: Die Studiendesigns der 3 vorhandenen Arbeiten verwenden SIV/SHIV-infizierte Makaken meistens **als präklinisches Tiermodell zum Testen der Wirksamkeit von HIV-Proteasehemmern**, nicht als Entwicklung einer unabhängigen Arzneimittel-Indikation zur „Behandlung von SIV-Infektionen bei Affen". Mit anderen Worten: Die Assoziation, die TxGNN erfasst, könnte einfach widerspiegeln, dass „dieses Arzneimittel häufig in diesem Tiermodell zum Testen verwendet wird", anstatt eine echte neue menschliche Indikation zu sein. Dieser Punkt sollte bei der späteren Bewertung besonders beachtet werden.
 
 ---
 
-## 安全性考量
+## Evidenz aus klinischen Studien
 
-請參考仿單安全性資訊。
-
-> 補充說明：本次評估發現 **Blocking 等級資料缺口**——BfArM package insert warnings/contraindications資料尚未取得，導致本案**Cannot proceed to S1 safety screening階段**。在此缺口解除前，不建議進行任何臨床或法規層面的後續動作。
+Derzeit sind keine relevanten registrierten klinischen Studien verfügbar.
 
 ---
 
-## 其他次要預測（信心度較低，供參考）
+## Literaturbeweise
 
-同一批預測中另有兩項排名相近但證據強度極低的候選，均建議 Hold：
-
-| 排名 | 預測適應症 | TxGNN 分數 | 證據等級 | 說明 |
-|------|-----------|-----------|---------|------|
-| 2 | Feline acquired immunodeficiency syndrome（貓科後天免疫缺乏症） | 99.90% | L5 | FIV 蛋白酶與 HIV-1 同源性有限，無任何文獻或試驗佐證，缺乏機轉實證支持 |
-| 3 | Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter（罕見遺傳性神經發育疾患） | 99.90% | L5 | 與 HIV 蛋白酶抑制機轉無已知生物學關聯，判斷極可能為模型雜訊 (false positive) |
+| PMID | Jahr | Studientyp | Fachzeitschrift | Wichtigste Erkenntnisse |
+|------|------|-----------|-----------------|------------------------|
+| [16973590](https://pubmed.ncbi.nlm.nih.gov/16973590/) | 2006 | Präklinische Tierstudie | Journal of Virology | 4 mit SIVmac251 infizierte Makaken erhielten eine vierfach kombinierte antivirale Therapie. Schnelle Viruslastabnahme wurde beobachtet und als Vergleichsgrundlage für die Erstellung eines mathematischen Modells der HIV-1-Virodynamik verwendet. |
+| [17350308](https://pubmed.ncbi.nlm.nih.gov/17350308/) | 2007 | Präklinische Tierstudie | Microbes and Infection | Konstruktion eines neuen SHIV-pr-Virusstamms mit HIV-1-Proteasegen als Werkzeug zum In-vivo-Testen der Wirksamkeit von Proteasehemmern |
+| [12951220](https://pubmed.ncbi.nlm.nih.gov/12951220/) | 2003 | Präklinische Tierstudie | Journal of Virological Methods | Chronisch mit SHIV(89.6P) infizierte Makaken erhielten 28 Tage lang orale AZT+3TC+Lopinavir/Ritonavir-Therapie; Auswirkungen auf CD8-Subgruppen wurden bewertet |
 
 ---
 
-## 結論與下一步
+## Arzneimittelzulassungsinformationen Taiwan
 
-**決策：Hold**
+Lopinavir hat derzeit in Taiwan **keine Arzneimittelzulassung erhalten** (Anzahl der Zulassungen: 0), daher können keine Produktnamen, Darreichungsformen und zugelassenen Indikationen bereitgestellt werden.
 
-**理由：**
-- 現有證據僅止於動物臨床前模型，且多數研究目的是測試藥效而非開發 SIV 感染之獨立適應症；SIV/FIV 感染本質上為動物疾病，人類臨床應用價值有限。
-- 安全性資料存在 **Blocking 等級缺口**（BfArM package insert warnings/contraindications未取得），依規定Cannot proceed to S1 safety screening，程序上不可推進。
+---
 
-**若要繼續推進，需要補齊：**
-- TFDA 仿單完整警語與禁忌資料，以解除 S1 安全性初評之 Blocking 缺口（DG001）
-- Lopinavir 正式作用機轉（MOA）資料，以強化機轉關聯性分析（DG002）
-- 釐清 SIV/FIV 感染是否具備對應之人類臨床意義，或應將此預測方向重新定位為動物用藥/臨床前研究工具，而非人用老藥新用候選
-- 若仍欲推進人用適應症方向，需取得實際人體臨床試驗證據，而非僅依賴動物模型文獻
+## Sicherheitsaspekte
+
+Bitte konsultieren Sie die Fachinformation für Sicherheitsinformationen.
+
+> Zusätzliche Anmerkung: Diese Bewertung ergab eine **Datenlücke auf Blocking-Ebene** – die Warnung/Kontraindikation-Daten aus der BfArM-Fachinformation wurden noch nicht beschafft, weshalb dieser Fall **nicht zur S1-Sicherheitsscreening-Phase übergehen kann**. Bevor diese Lücke geschlossen ist, werden keine klinischen oder regulatorischen Folgemaßnahmen empfohlen.
+
+---
+
+## Weitere sekundäre Vorhersagen (niedrigeres Vertrauen, nur zur Information)
+
+In der gleichen Vorhersage-Serie gibt es zwei weitere Kandidaten mit ähnlichem Ranking, aber extrem niedriger Evidenzstärke, beide werden als Hold empfohlen:
+
+| Rang | Vorhergesagte Indikation | TxGNN-Score | Evidenzgrad | Erklärung |
+|------|-------------------------|------------|------------|-----------|
+| 2 | Feline acquired immunodeficiency syndrome | 99,90% | L5 | FIV-Protease hat begrenzte Homologie zu HIV-1, keine Literatur- oder Studienbelege, fehlende biologische Wirkmechanismus-Unterstützung |
+| 3 | Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter (seltene genetische neurodevelopmentale Erkrankung) | 99,90% | L5 | Keine bekannte biologische Assoziation zum HIV-Proteasehemmungs-Wirkmechanismus, stark verdächtig auf Modell-Rauschen (false positive) |
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Empfehlung: Hold**
+
+**Begründung:**
+- Verfügbare Evidenz beschränkt sich auf präklinische Tiermodelle, und die meisten Studien zielen darauf ab, die Wirksamkeit zu testen, nicht auf die Entwicklung einer unabhängigen Indikation für SIV-Infektion. SIV/FIV-Infektionen sind grundsätzlich Tierkrankheiten mit begrenztem klinischem Wert für Menschen.
+- Sicherheitsdaten zeigen eine **Blocking-Ebene-Datenlücke** (BfArM-Fachinformation Warnung/Kontraindikationen nicht beschafft). Nach Vorschrift kann die S1-Sicherheits-Erstbewertung nicht voranschreiten.
+
+**Für eine Weiterverfolgung erforderlich:**
+- Vollständige Warnungen und Kontraindikationen aus der TFDA-Fachinformation, um die Blocking-Lücke der S1-Sicherheits-Erstbewertung zu schließen (DG001)
+- Formale Wirkmechanismus-Daten (MOA) für Lopinavir zur Stärkung der Wirkmechanismus-Assoziationsanalyse (DG002)
+- Klärung, ob SIV/FIV-Infektion eine entsprechende menschliche klinische Bedeutung hat oder ob diese Vorhersagerichtung als Tierarzneimittel/präklinisches Forschungswerkzeug und nicht als Kandidat für alte Arzneimittel mit neuer Anwendung in der Humanmedizin neu positioniert werden sollte
+- Falls eine Verfolgung der humanmedizinischen Indikation gewünscht ist, sind echte klinische Studien erforderlich, nicht nur tierexperimentelle Literatur
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

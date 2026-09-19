@@ -29,76 +29,77 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Erdafitinib: From Unspecified Original Indication to Pulmonary Hypertension
+# Erdafitinib: Von unspezifischer ursprünglicher Indikation zur Pulmonalen Hypertonie
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Erdafitinib is a pan-FGFR (FGFR1-4) kinase inhibitor; however, its original approved indication is not recorded in the current evidence pack (data gap).
-> The TxGNN model predicts it may be effective for **Pulmonary Hypertension**,
-> but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a pure model-level hypothesis.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available — no original indications recorded in evidence pack (see DG001/DG002) |
-| Predicted New Indication | Pulmonary Hypertension |
-| TxGNN Prediction Score | 99.38% |
-| Evidence Level | L5 (model prediction only, no trials or literature) |
-| Germany Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Erdafitinib ist ein Pan-FGFR-(FGFR1-4-)Kinase-Inhibitor; seine ursprüngliche zugelassene Indikation ist jedoch nicht im aktuellen Evidence Pack erfasst (Datenlücke).
+> Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam gegen **Pulmonale Hypertonie** ist,
+> aber diese Vorhersage wird derzeit durch **0 klinische Studien** und **0 Publikationen** gestützt – es handelt sich um eine reine Modell-Ebenen-Hypothese.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Currently, structured mechanism-of-action data for erdafitinib is not available (`original_moa`: Data Gap), and no original indications are recorded in this evidence pack. Based on the mechanistic rationale accompanying the TxGNN prediction, erdafitinib is understood to be a **pan-FGFR (FGFR1-4) inhibitor**. FGF2/FGFR1 signaling has a known role in pulmonary vascular smooth muscle proliferation and vascular remodeling, which is the biological basis the model draws on to link erdafitinib to pulmonary hypertension.
-
-This link, however, is explicitly flagged by the source rationale itself as inferred from **in vitro/animal-model level mechanistic reasoning only** — there is no clinical trial, no observational study, and no published case data connecting erdafitinib to pulmonary hypertension in humans. The high TxGNN score reflects strong embedding-space similarity in the model's knowledge graph, not validated pharmacological evidence.
-
-Without confirmed data on erdafitinib's original approved indication(s), it is also not possible to assess mechanistic continuity between the original and predicted use — this remains a genuine evidence gap rather than a supported hypothesis.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Punkt | Inhalt |
+|---|---|
+| Ursprüngliche Indikation | Nicht verfügbar – keine ursprünglichen Indikationen im Evidence Pack erfasst (siehe DG001/DG002) |
+| Vorhergesagte neue Indikation | Pulmonale Hypertonie |
+| TxGNN-Vorhersage-Score | 99.38% |
+| Evidence Level | L5 (reine Modellvorhersage, keine Studien oder Literatur) |
+| Marktstatus in Deutschland | Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Zurückstellung |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage vernünftig?
 
-Currently no related literature available.
+Derzeit sind strukturierte Wirkmechanismus-Daten für Erdafitinib nicht verfügbar (`original_moa`: Datenlücke), und es sind keine ursprünglichen Indikationen im Evidence Pack erfasst. Basierend auf der mechanistischen Rationale, die der TxGNN-Vorhersage beiliegt, wird Erdafitinib als **Pan-FGFR-(FGFR1-4-)Inhibitor** verstanden. FGF2/FGFR1-Signalisierung spielt eine bekannte Rolle bei der Proliferation glatter Muskelzellen der Lungengefäße und bei der vaskulären Remodellierung, was die biologische Grundlage bildet, auf die sich das Modell bei der Verknüpfung von Erdafitinib mit Pulmonaler Hypertonie stützt.
 
----
+Diese Verknüpfung wird jedoch durch die Quellrationale selbst ausdrücklich als aus **ausschließlich mechanistischen Überlegungen auf in-vitro- und Tiermodell-Ebene** abgeleitet gekennzeichnet – es gibt keine klinische Studie, keine Beobachtungsstudie und keine veröffentlichten Fallberichte, die Erdafitinib mit Pulmonaler Hypertonie beim Menschen verbinden. Der hohe TxGNN-Score spiegelt eine starke Embedding-Space-Ähnlichkeit im Wissensgraph des Modells wider, nicht validierte pharmakologische Evidenz.
 
-## Germany Market Information
-
-Erdafitinib currently holds **no market authorization** in this jurisdiction (`market_status`: Not Marketed, `total_licenses`: 0). No product/license records are available to summarize.
+Ohne bestätigte Daten zu Erdafitinib's ursprünglichen zugelassenen Indikationen ist es zudem nicht möglich, die mechanistische Kontinuität zwischen der ursprünglichen und der vorhergesagten Verwendung zu bewerten – dies bleibt eine echte Datenlücke, anstatt einer gestützten Hypothese.
 
 ---
 
-## Safety Considerations
+## Klinische Studienevidenz
 
-No structured safety data (key warnings, contraindications, or drug-drug interactions) is currently available for erdafitinib in this evidence pack, and the corresponding local prescribing information could not be sourced (DG001, Blocking severity). Since the drug is not yet marketed in this jurisdiction, safety assessment should rely on internationally published prescribing information (e.g., FDA label) pending confirmation of local regulatory data.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Conclusion and Next Steps
+## Literaturevidenz
 
-**Decision: Hold**
+Derzeit ist keine zugehörige Literatur verfügbar.
 
-**Rationale:**
-The predicted indication (pulmonary hypertension) is supported only by theoretical mechanistic reasoning with zero clinical trials and zero literature — this is an L5, S0-stage prediction. Combined with a Blocking-severity gap in local safety/label data (DG001) and a High-severity gap in MOA data (DG002), the candidate cannot proceed past initial screening.
+---
 
-**To proceed, the following is needed:**
-- TFDA/BfArM label data — package insert warnings, contraindications, and DDI profile (resolves DG001)
-- Structured MOA and original-indication reference data (resolves DG002)
-- Preclinical (animal model) or observational evidence specifically linking erdafitinib to pulmonary vascular remodeling/pulmonary hypertension
-- DrugBank category/classification data to determine antineoplastic/cytotoxicity risk profile, which is currently indeterminate from available data
+## Marktinformationen für Deutschland
+
+Erdafitinib hält derzeit **keine Marktgenehmigung** in dieser Rechtsordnung (`market_status`: Nicht vermarktet, `total_licenses`: 0). Es sind keine Produkt-/Lizenzeinträge verfügbar, die zusammengefasst werden könnten.
+
+---
+
+## Sicherheitsaspekte
+
+Keine strukturierten Sicherheitsdaten (wichtige Warnungen, Kontraindikationen oder Arzneimittelwechselwirkungen) sind derzeit für Erdafitinib in diesem Evidence Pack verfügbar, und die entsprechenden lokalen Verschreibungsinformationen konnten nicht beschafft werden (DG001, blockierendem Schweregrad). Da das Arzneimittel noch nicht in dieser Rechtsordnung vermarktet wird, sollte die Sicherheitsbewertung auf international veröffentlichte Verschreibungsinformationen (z. B. FDA-Etikett) gestützt werden, bis die Bestätigung lokaler Regulierungsdaten erfolgt ist.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Zurückstellung**
+
+**Begründung:**
+Die vorhergesagte Indikation (Pulmonale Hypertonie) wird ausschließlich durch theoretische mechanistische Überlegungen gestützt, mit null klinischen Studien und null Literatur – dies ist eine L5, S0-stufige Vorhersage. In Kombination mit einer Lücke mit blockierendem Schweregrad bei lokalen Sicherheits-/Etiketten-Daten (DG001) und einer Lücke mit hohem Schweregrad bei MOA-Daten (DG002) kann der Kandidat nicht über das anfängliche Screening hinausgehen.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+- TFDA/BfArM-Etikettendaten – Packungsbeilage-Warnungen, Kontraindikationen und Wechselwirkungsprofil (behebt DG001)
+- Strukturierte MOA- und ursprüngliche Indikations-Referenzdaten (behebt DG002)
+- Präklinische (Tiermodell-) oder Beobachtungsevidenz, die Erdafitinib speziell mit der Remodellierung der Lungengefäße/Pulmonaler Hypertonie verknüpft
+- DrugBank-Kategorie-/Klassifizierungsdaten zur Bestimmung des antineoplastischen/Zytotoxizitäts-Risikoprofils, das derzeit aus verfügbaren Daten nicht bestimmbar ist
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -29,85 +29,86 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Fluoxetine: From Major Depressive Disorder to Schizotypal Personality Disorder
+# Fluoxetin: Von der Major Depressive Störung zur Schizotypalen Persönlichkeitsstörung
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Fluoxetine is a classic SSRI, originally developed and established for the treatment of major depressive disorder. The TxGNN model's top-ranked prediction suggests possible efficacy for **Schizotypal Personality Disorder**, but this direction is currently supported only by **10 older publications** (open-label studies, case reports, and reviews) and **no registered clinical trials**.
+Fluoxetin ist ein klassischer SSRI, ursprünglich entwickelt und etabliert zur Behandlung der Major Depressive Störung. Die Spitzenplatzierung des TxGNN-Modells deutet auf mögliche Wirksamkeit bei **Schizotypaler Persönlichkeitsstörung** hin, wird aber derzeit nur durch **10 ältere Publikationen** (offene Studien, Fallberichte und Übersichtsarbeiten) gestützt und **keine registrierten klinischen Studien**.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Element | Inhalt |
 |------|------|
-| Original Indication | Major depressive disorder (well-established SSRI indication; no licensed indication text available in this evidence pack) |
-| Predicted New Indication | Schizotypal Personality Disorder |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L4 |
-| Germany Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | Major Depressive Störung (etablierte SSRI-Indikation; kein lizenzierter Indikationstext in diesem Evidence Pack verfügbar) |
+| Vorhergesagte neue Indikation | Schizotypale Persönlichkeitsstörung |
+| TxGNN-Vorhersage-Score | 99.92% |
+| Evidenzlevel | L4 |
+| Deutschland Marktstatus | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Aussetzen |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage sinnvoll?
 
-Currently, detailed mechanism of action data is not available (data gap, DrugBank query pending). Based on general pharmacological knowledge, fluoxetine is a selective serotonin reuptake inhibitor (SSRI) with well-established efficacy in major depressive disorder and several other serotonin-mediated conditions (panic disorder, OCD, bulimia nervosa).
+Derzeit sind detaillierte Wirkungsmechanismus-Daten nicht verfügbar (Datenlücke, DrugBank-Abfrage läuft). Basierend auf allgemeinem pharmakologischen Wissen ist Fluoxetin ein selektiver Serotonin-Wiederaufnahmehemmer (SSRI) mit etablierter Wirksamkeit bei Major Depressive Störung und mehreren anderen serotonergen Zuständen (Panikstörung, Zwangsstörung, Bulimia nervosa).
 
-Schizotypal personality disorder is a Cluster A condition characterized by cognitive-perceptual distortions, social anxiety, and comorbid mood/anxiety symptoms. The theoretical rationale for SSRI use rests on serotonergic modulation of these cognitive-perceptual features and treatment of frequently comorbid depression/anxiety — not on a validated, disorder-specific mechanism. Notably, no controlled trial has ever directly tested fluoxetine against schizotypal PD as a primary endpoint; the supporting literature consists mainly of small, non-blinded studies from the early 1990s in mixed borderline/schizotypal populations, plus later narrative reviews of Cluster A pharmacotherapy in general. One case report additionally describes a schizotypal patient developing transient psychosis on fluoxetine, indicating the evidence base is not uniformly favorable.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Die schizotypale Persönlichkeitsstörung ist eine Cluster-A-Erkrankung, die durch kognitiv-perzeptive Verzerrungen, Sozialangst und komorbide Stimmungs-/Angststörungen gekennzeichnet ist. Die theoretische Begründung für die SSRI-Anwendung beruht auf der serotonergen Modulation dieser kognitiv-perzeptiven Merkmale und der Behandlung häufig komorbider Depression/Angst – nicht auf einem validierten, störungsspezifischen Mechanismus. Bemerkenswert ist, dass keine kontrollierte Studie Fluoxetin gegen schizotypale PS als primären Endpunkt direkt getestet hat; die unterstützende Literatur besteht hauptsächlich aus kleinen, nicht verblindeten Studien aus den frühen 1990er Jahren bei gemischten Borderline-/Schizotypal-Populationen, plus späteren narrativen Übersichtsarbeiten zur Cluster-A-Pharmakotherapie im Allgemeinen. Ein Fallbericht beschreibt zusätzlich einen schizotypalen Patienten, der vorübergehend Psychosen unter Fluoxetin entwickelt, was darauf hindeutet, dass die Evidenzbasis nicht einheitlich günstig ist.
 
 ---
 
-## Literature Evidence
+## Evidenz aus klinischen Studien
 
-| PMID | Year | Type | Journal | Key Findings |
+Derzeit keine zugehörigen klinischen Studien registriert.
+
+---
+
+## Literatureevidenz
+
+| PMID | Jahr | Typ | Journal | Wichtigste Befunde |
 |------|-----|------|---------|--------------|
-| [9448667](https://pubmed.ncbi.nlm.nih.gov/9448667/) | 1998 | Retrospective cohort | J Clin Psychiatry | Review of psychopharmacologic treatment in borderline/schizotypal PD; no single agent of choice, response varies by symptom cluster |
-| [1853957](https://pubmed.ncbi.nlm.nih.gov/1853957/) | 1991 | Open-label study | Am J Psychiatry | 12-week open trial (n=22, borderline/schizotypal PD); fluoxetine reduced self-injury and symptom checklist scores regardless of diagnosis |
-| [29955451](https://pubmed.ncbi.nlm.nih.gov/29955451/) | 2016 | Review | Ment Health Clin | Reviews pharmacologic treatment options across Cluster A personality disorders (paranoid, schizoid, schizotypal) |
-| [8227492](https://pubmed.ncbi.nlm.nih.gov/8227492/) | 1993 | Review | J Clin Psychopharmacol | Conceptual framework for personality disorder pharmacotherapy; pre-DSM-III evidence base, hard to interpret |
-| [12214786](https://pubmed.ncbi.nlm.nih.gov/12214786/) | 2002 | Review | Psychol Med | Examines stability of personality disorder diagnoses in depressed outpatients before/after fluoxetine treatment |
-| [9664779](https://pubmed.ncbi.nlm.nih.gov/9664779/) | 1998 | Case report | Psychosomatics | Transient psychosis with psychogenic polydipsia in a schizotypal patient taking fluoxetine — a specific safety signal in this population |
-| [33634761](https://pubmed.ncbi.nlm.nih.gov/33634761/) | 2021 | Case report | CNS Neurol Disord Drug Targets | Catatonia managed with asenapine (not fluoxetine) in a patient with schizotypal PD, psychotic depression, and COVID-19 septic shock |
-| [15209835](https://pubmed.ncbi.nlm.nih.gov/15209835/) | 2004 | Cohort study | Aust N Z J Psychiatry | Compares personality traits/outcomes between bipolar II and major depression; not specific to schizotypal PD treatment |
-| [7635854](https://pubmed.ncbi.nlm.nih.gov/7635854/) | 1995 | Cohort study | J Clin Psychiatry | Investigates predictors of drug treatment response in OCD; only tangentially related to schizotypal PD |
-| [18805590](https://pubmed.ncbi.nlm.nih.gov/18805590/) | 2009 | Cohort study | J Affect Disord | 18-month depression treatment outcome study on relapse/recovery predictors; not specific to schizotypal PD |
+| [9448667](https://pubmed.ncbi.nlm.nih.gov/9448667/) | 1998 | Retrospektive Kohortenstudie | J Clin Psychiatry | Übersicht der psychopharmakologischen Behandlung bei Borderline-/Schizotypal-PS; kein einzelnes Mittel der Wahl, Ansprechrate variiert je nach Symptomcluster |
+| [1853957](https://pubmed.ncbi.nlm.nih.gov/1853957/) | 1991 | Offene Studie | Am J Psychiatry | 12-Wochen-Studien-Phase (n=22, Borderline-/Schizotypal-PS); Fluoxetin reduzierte selbstverletzendes Verhalten und Symptomchecklisten-Werte unabhängig von der Diagnose |
+| [29955451](https://pubmed.ncbi.nlm.nih.gov/29955451/) | 2016 | Übersichtsarbeit | Ment Health Clin | Überprüft pharmakologische Behandlungsoptionen über Cluster-A-Persönlichkeitsstörungen (paranoid, schizoid, schizotypal) |
+| [8227492](https://pubmed.ncbi.nlm.nih.gov/8227492/) | 1993 | Übersichtsarbeit | J Clin Psychopharmacol | Konzeptioneller Rahmen für Pharmakotherapie von Persönlichkeitsstörungen; vorausgehende DSM-III-Evidenzbasis, schwer zu interpretieren |
+| [12214786](https://pubmed.ncbi.nlm.nih.gov/12214786/) | 2002 | Übersichtsarbeit | Psychol Med | Untersucht Stabilität von Persönlichkeitsstörungs-Diagnosen bei depressiven ambulanten Patienten vor/nach Fluoxetin-Behandlung |
+| [9664779](https://pubmed.ncbi.nlm.nih.gov/9664779/) | 1998 | Fallbericht | Psychosomatics | Vorübergehende Psychose mit psychogener Polydipsie bei einem schizotypalen Patienten unter Fluoxetin – ein spezifisches Sicherheitssignal in dieser Population |
+| [33634761](https://pubmed.ncbi.nlm.nih.gov/33634761/) | 2021 | Fallbericht | CNS Neurol Disord Drug Targets | Katatonie mit Asenapin behandelt (nicht Fluoxetin) bei einem Patienten mit schizotypaler PS, psychotischer Depression und COVID-19-Sepsis |
+| [15209835](https://pubmed.ncbi.nlm.nih.gov/15209835/) | 2004 | Kohortenstudie | Aust N Z J Psychiatry | Vergleicht Persönlichkeitsmerkmale/Ergebnisse zwischen bipolarer II und Major Depression; nicht spezifisch für die Behandlung von schizotypaler PS |
+| [7635854](https://pubmed.ncbi.nlm.nih.gov/7635854/) | 1995 | Kohortenstudie | J Clin Psychiatry | Untersucht Prädiktoren der Arzneimittelbehandlungsreaktion bei Zwangsstörung; nur am Rande verwandt mit schizotypaler PS |
+| [18805590](https://pubmed.ncbi.nlm.nih.gov/18805590/) | 2009 | Kohortenstudie | J Affect Disord | 18-Monats-Depressions-Behandlungsergebnis-Studie zu Rückfalls-/Genesungsprädiktoren; nicht spezifisch für schizotypale PS |
 
 ---
 
-## Germany Market Information
+## Deutschland-Marktinformationen
 
-Fluoxetine currently has **no marketing authorization on file** for the German market (0 licenses). No product table is available for this evidence pack.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Note: `safety.key_warnings`, `safety.contraindications`, and DDI data are all currently unavailable — flagged as a Blocking data gap (DG001), meaning this candidate cannot yet enter the S1 safety pre-screening stage. Separately, literature evidence for this indication includes at least one case report of transient psychosis in a schizotypal patient on fluoxetine — see [9664779](https://pubmed.ncbi.nlm.nih.gov/9664779/) above — which warrants specific attention if this indication is pursued further.)*
+Fluoxetin hat derzeit **keine Marktgenehmigung** für den deutschen Markt (0 Lizenzen). Für dieses Evidence Pack ist keine Produkttabelle verfügbar.
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsaspekte
 
-**Decision: Hold**
+Bitte konsultieren Sie die Packungsbeilage für Sicherheitsinformationen.
 
-**Rationale:**
-Evidence for fluoxetine in schizotypal personality disorder is limited to small, decades-old open-label studies and general reviews (Evidence Level L4), with no clinical trials and no disorder-specific mechanistic validation. Combined with a Blocking data gap on TFDA/label warnings and contraindications (DG001), this candidate cannot yet proceed to a safety pre-screening (S1) evaluation.
+*(Hinweis: `safety.key_warnings`, `safety.contraindications` und DDI-Daten sind alle derzeit nicht verfügbar – gekennzeichnet als blockierende Datenlücke (DG001), was bedeutet, dass dieser Kandidat noch nicht in die S1-Sicherheits-Vorscreening-Phase eintreten kann. Separat enthält die Literatureevidenz für diese Indikation mindestens einen Fallbericht über vorübergehende Psychose bei einem schizotypalen Patienten unter Fluoxetin – siehe [9664779](https://pubmed.ncbi.nlm.nih.gov/9664779/) oben – das spezifische Aufmerksamkeit erfordert, wenn diese Indikation weiter verfolgt wird.)*
 
-**To proceed, the following is needed:**
-- TFDA/BfArM label warnings and contraindications (DG001, Blocking)
-- Confirmed mechanism of action data from DrugBank (DG002, High)
-- A controlled or at least prospective study specifically targeting schizotypal PD as primary endpoint
-- Clarification of the psychosis signal reported in schizotypal patients on fluoxetine ([PMID 9664779](https://pubmed.ncbi.nlm.nih.gov/9664779/))
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Aussetzen**
+
+**Begründung:**
+Die Evidenz für Fluoxetin bei schizotypaler Persönlichkeitsstörung ist auf kleine, Jahrzehnte alte offene Studien und allgemeine Übersichtsarbeiten (Evidenzlevel L4) begrenzt, ohne klinische Studien und ohne störungsspezifische mechanistische Validierung. Zusammen mit einer blockierenden Datenlücke zu TFDA/BfArM-Warnungen und Kontraindikationen (DG001) kann dieser Kandidat noch nicht zur S1-Sicherheits-Vorscreening-Bewertung übergehen.
+
+**Um fortzufahren, ist folgendes erforderlich:**
+- TFDA/BfArM-Warnungen und Kontraindikationen (DG001, blockierend)
+- Bestätigte Wirkungsmechanismus-Daten von DrugBank (DG002, High)
+- Eine kontrollierte oder zumindest prospektive Studie, die speziell schizotypale PS als primären Endpunkt anstrebt
+- Klarstellung des Psychose-Signals bei schizotypalen Patienten unter Fluoxetin ([PMID 9664779](https://pubmed.ncbi.nlm.nih.gov/9664779/))
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

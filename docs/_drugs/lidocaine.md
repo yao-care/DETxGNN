@@ -29,60 +29,61 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Lidocaine: From Local Anesthesia to Punctate Epithelial Keratoconjunctivitis
+# Lidocain: Von der Lokalanästhesie zur punktförmigen epithelialen Keratokonjunktivitis
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Lidocaine is a well-established amide local anesthetic, used clinically to numb tissue for surgical/procedural pain control (and, in certain formulations, as a Class Ib antiarrhythmic). The TxGNN model predicts a possible new indication for **Punctate Epithelial Keratoconjunctivitis**, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a model-score-only signal with no external validation.
+Lidocain ist ein etabliertes Amid-Lokalanästhetikum, das klinisch zur Betäubung von Gewebe für die Schmerzbekämpfung bei chirurgischen/verfahrenstechnischen Eingriffen eingesetzt wird (und in bestimmten Formulierungen als Antiarrhythmikum der Klasse Ib). Das TxGNN-Modell sagt eine mögliche neue Indikation für **punktförmige epitheliale Keratokonjunktivitis** voraus, aber diese Vorhersage wird derzeit durch **0 klinische Studien** und **0 Publikationen** gestützt – es ist ein reines Modellscore-Signal ohne externe Validierung.
 
-## Quick Overview
+## Schneller Überblick
 
-| Item | Content |
+| Eintrag | Inhalt |
 |------|------|
-| Original Indication | Local anesthesia (official approved-indication text unavailable — no license records in dataset) |
-| Predicted New Indication | Punctate Epithelial Keratoconjunctivitis |
-| TxGNN Prediction Score | 99.99% |
+| Ursprüngliche Indikation | Lokalanästhesie (amtlicher Indikationstext nicht verfügbar – keine Zulassungsunterlagen im Datensatz) |
+| Vorhergesagte neue Indikation | Punktförmige epitheliale Keratokonjunktivitis |
+| TxGNN-Vorhersage-Score | 99.99% |
 | Evidence Level | L5 |
-| Germany Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Marktstatus Deutschland | Nicht zugelassen |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Halten |
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage sinnvoll?
 
-Detailed mechanism-of-action data for lidocaine is not available in the current DrugBank extract (flagged as Data Gap DG002, High severity). Based on general pharmacological knowledge, lidocaine is an amide-class local anesthetic that blocks voltage-gated sodium channels to reversibly inhibit nerve conduction; it produces analgesia/anesthesia but has no established anti-inflammatory, antiviral, or immunomodulatory activity.
+Detaillierte Wirkmechanismus-Daten für Lidocain sind in dem aktuellen DrugBank-Auszug nicht verfügbar (gekennzeichnet als Datenlücke DG002, hoher Schweregrad). Basierend auf allgemeinem pharmakologischen Wissen ist Lidocain ein Lokalanästhetikum der Amid-Klasse, das spannungsgesteuerte Natriumkanäle blockiert, um die Nervenleitung reversibel zu hemmen; es erzeugt Analgesie/Anästhesie, hat aber keine etablierte entzündungshemmende, antivirale oder immunmodulatorische Aktivität.
 
-Punctate epithelial keratoconjunctivitis is an inflammatory/erosive condition of the corneal and conjunctival epithelium, typically driven by viral infection, chemical/UV injury, or immune-mediated processes. Sodium-channel blockade can mask ocular surface pain but does not address any of these underlying disease mechanisms — there is no known pathway by which lidocaine would modify the course of this condition.
+Punktförmige epitheliale Keratokonjunktivitis ist eine entzündliche/erosive Erkrankung des Kornea- und Bindehautepithels, typischerweise verursacht durch virale Infektion, chemische/UV-Verletzung oder immunvermittelte Prozesse. Eine Natriumkanal-Blockade kann Augenoberflächen-Schmerzen maskieren, behebt aber keinen dieser zugrunde liegenden Krankheitsmechanismen – es gibt keinen bekannten Weg, auf dem Lidocain den Verlauf dieser Erkrankung verändern würde.
 
-The model-generated rationale for this prediction itself concludes that the high TxGNN score most likely reflects a **semantic clustering artifact**: lidocaine appears frequently in the knowledge graph alongside "topical ophthalmic drug" contexts (e.g., as a procedural anesthetic used during eye surgery and injections), rather than reflecting a genuine disease-modifying mechanistic relationship. No literature or trial evidence currently exists to test this hypothesis.
+Die vom Modell generierte Rationale für diese Vorhersage selbst kommt zu dem Ergebnis, dass der hohe TxGNN-Score höchstwahrscheinlich ein **semantisches Clustering-Artefakt** widerspiegelt: Lidocain erscheint häufig im Knowledge Graph neben Kontexten von „topischen ophthalmischen Arzneimitteln" (z. B. als Verfahrens-Anästhetikum bei Augenchirurgie und Injektionen), statt eine echte krankheitsmodifizierende mechanistische Beziehung widerzuspiegeln. Derzeit gibt es keine Literatur- oder Versuchsevidenz, um diese Hypothese zu testen.
 
-## Clinical Trial Evidence
+## Evidenz aus klinischen Studien
 
-Currently no related clinical trials registered.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
-## Literature Evidence
+## Literaturevidence
 
-Currently no related literature available.
+Derzeit ist keine zugehörige Literatur verfügbar.
 
-## Germany Market Information
+## Marktinformation Deutschland
 
-No marketing authorizations are present in the current dataset — lidocaine is recorded as **not marketed** (0 licenses on file). Authorization details cannot be summarized until license records are added.
+Im aktuellen Datensatz sind keine Zulassungen vorhanden – Lidocain ist als **nicht zugelassen** verzeichnet (0 Lizenzen in den Unterlagen). Zulassungsdetails können nicht zusammengefasst werden, bis Zulassungsunterlagen hinzugefügt werden.
 
-## Safety Considerations
+## Sicherheitserwägungen
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-interaction data are currently unavailable — Data Gap DG001, Blocking severity, requires TFDA/BfArM label retrieval before any safety pre-screen can be completed.)
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. (Wichtige Warnhinweise, Kontraindikationen und Wechselwirkungsdaten sind derzeit nicht verfügbar – Datenlücke DG001, blockierender Schweregrad, erfordert TFDA/BfArM-Etikett-Abruf, bevor eine Sicherheits-Vorprüfung abgeschlossen werden kann.)
 
-## Conclusion and Next Steps
+## Fazit und nächste Schritte
 
-**Decision: Hold**
+**Entscheidung: Halten**
 
 **Rationale:**
-This prediction has Evidence Level L5 — a TxGNN score with no supporting clinical trials or literature — and the model's own rationale identifies it as a likely false-positive driven by semantic clustering rather than a real mechanistic link. In addition, the Blocking-severity label data gap (DG001) means the candidate cannot even enter S1 safety pre-screening yet.
+Diese Vorhersage hat Evidence Level L5 – ein TxGNN-Score ohne unterstützende klinische Studien oder Literatur – und die eigene Rationale des Modells identifiziert es als wahrscheinlich falsch-positiv, verursacht durch semantisches Clustering statt durch eine echte mechanistische Verbindung. Darüber hinaus bedeutet die Datenlücke im Label mit blockierendem Schweregrad (DG001), dass der Kandidat noch nicht einmal in die Sicherheits-Vorprüfung S1 eintreten kann.
 
-**To proceed, the following is needed:**
-- Retrieve official TFDA/BfArM package insert (warnings, contraindications) to resolve DG001
-- Retrieve full DrugBank MOA data to resolve DG002
-- Independent literature/mechanistic search specific to lidocaine and corneal/conjunctival epithelial repair, since none currently exists
-- Note: among this candidate's top-10 predicted indications, **atopic conjunctivitis (rank 5)** is the only one that reached decision stage S1 with a "Research Question" recommendation (L4, based on a plausible neuro-immune mechanism — nasal/topical anesthesia suppressing reflex-mediated allergic conjunctival responses). If pursuing further work on this drug, that candidate is a substantially stronger starting point than punctate epithelial keratoconjunctivitis.
+**Um fortzufahren, ist Folgendes erforderlich:**
+- Offizielle TFDA/BfArM-Packungsbeilage (Warnhinweise, Kontraindikationen) abrufen, um DG001 zu beheben
+- Vollständige DrugBank-MOA-Daten abrufen, um DG002 zu beheben
+- Unabhängige Literatur-/mechanistische Suche speziell zu Lidocain und epithelialer Heilung der Hornhaut/Bindehaut, da derzeit keine vorhanden ist
+- Hinweis: Unter den top-10 vorhergesagten Indikationen dieses Kandidaten ist **atopische Konjunktivitis (Rang 5)** die einzige, die Entscheidungsstufe S1 mit einer „Forschungsfrage"-Empfehlung erreicht hat (L4, basierend auf einem plausiblen neuro-immunen Mechanismus – nasale/topische Anästhesie unterdrückt reflexvermittelte allergische Konjunktivitis-Reaktionen). Wenn weitere Arbeiten an diesem Arzneimittel durchgeführt werden, ist dieser Kandidat ein wesentlich stärkerer Ausgangspunkt als punktförmige epitheliale Keratokonjunktivitis.
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

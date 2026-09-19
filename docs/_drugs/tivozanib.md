@@ -29,71 +29,72 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Tivozanib: From Undetermined Original Indication to Endocervical Carcinoma (Predicted)
+# Tivozanib: Von unbestimmter ursprünglicher Indikation bis Endozervixkarzinom (vorhergesagt)
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Tivozanib is described in this evidence pack as a highly selective VEGFR-1/2/3 tyrosine kinase inhibitor, but its originally approved indication is not documented here — the drug is unregistered in Germany (0 authorizations) and both formal MOA and regulatory safety data are flagged as gaps (DG001/DG002). The TxGNN model predicts possible efficacy in **Endocervical Carcinoma**, but this is currently supported by **0 clinical trials** and **0 publications** — a purely computational (L5) prediction.
+Tivozanib wird in diesem Beweispaket als hochselektiver VEGFR-1/2/3-Tyrosinkinase-Inhibitor beschrieben, aber seine ursprünglich zugelassene Indikation ist hier nicht dokumentiert — das Arzneimittel ist in Deutschland nicht registriert (0 Zulassungen) und sowohl der Wirkmechanismus als auch die regulatorischen Sicherheitsdaten sind als Datenlücken gekennzeichnet (DG001/DG002). Das TxGNN-Modell sagt mögliche Wirksamkeit bei **Endozervixkarzinom** vorher, aber dies wird derzeit durch **0 klinische Studien** und **0 Publikationen** gestützt — eine rein computergestützte (L5) Vorhersage.
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in this evidence pack (no license records, `original_indications` empty) |
-| Predicted New Indication | Endocervical carcinoma |
-| TxGNN Prediction Score | 99.81% |
-| Evidence Level | L5 |
-| Germany Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Nicht in diesem Beweispaket dokumentiert (keine Lizenzeinträge, `original_indications` leer) |
+| Vorhergesagte neue Indikation | Endozervixkarzinom |
+| TxGNN-Vorhersage-Punktzahl | 99.81% |
+| Evidenzebene | L5 |
+| Marktstatus Deutschland | Nicht im Handel |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Halten |
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage sinnvoll?
 
-The formal `original_moa` field is marked as a data gap (DG002). However, the evidence pack's repurposing rationale describes tivozanib as a highly selective VEGFR-1/2/3 tyrosine kinase inhibitor, acting mechanistically by suppressing tumor angiogenesis.
+Das formale `original_moa`-Feld ist als Datenlücke gekennzeichnet (DG002). Das Beweispaket beschreibt Tivozanib jedoch als hochselektiven VEGFR-1/2/3-Tyrosinkinase-Inhibitor, der mechanistisch durch die Unterdrückung der Tumorangiogenese wirkt.
 
-Because no approved indication or license record exists in this evidence pack, the relationship between tivozanib's original (real-world) indication and the predicted new indication cannot be established from the data provided here — this gap should be resolved before further scoring.
+Da es in diesem Beweispaket keine zugelassene Indikation und keinen Lizenznachweis gibt, kann die Beziehung zwischen der ursprünglichen (realen) Indikation von Tivozanib und der vorhergesagten neuen Indikation anhand der hier bereitgestellten Daten nicht hergestellt werden — diese Lücke sollte vor weiterer Bewertung behoben werden.
 
-The mechanistic argument for endocervical carcinoma is purely analogical: anti-angiogenic agents (e.g., bevacizumab) are already used in cervical cancer, so VEGFR blockade is plausible in principle. Notably, all top-10 TxGNN predictions for this drug are rare gynecologic (cervical/uterine ligament) carcinoma subtypes, each scored L5/Hold with no supporting trials or literature — suggesting the model has captured a broad "VEGF-dependent gynecologic tumor" association rather than indication-specific evidence.
+Das mechanistische Argument für Endozervixkarzinom ist rein analogisch: Antiangiogene Mittel (z. B. Bevacizumab) werden bereits bei Gebärmutterhalskrebs verwendet, daher ist VEGFR-Blockade grundsätzlich plausibel. Bemerkenswert ist, dass alle Top-10-TxGNN-Vorhersagen für dieses Arzneimittel seltene gynäkologische (Gebärmutterhals-/Uterusligament-)Karzinom-Subtypen sind, die jeweils als L5/Halten ohne unterstützende Studien oder Literatur bewertet werden — was darauf hindeutet, dass das Modell eine breite „VEGF-abhängige gynäkologische Tumor"-Assoziation erfasst hat, statt indikationsspezifische Evidenz.
 
-## Clinical Trial Evidence
+## Klinische Studiennachweise
 
-Currently no related clinical trials registered.
+Derzeit keine verwandten klinischen Studien registriert.
 
-## Literature Evidence
+## Literaturnachweis
 
-Currently no related literature available.
+Derzeit keine verwandte Literatur verfügbar.
 
-## Germany Market Information
+## Informationen zum Markt in Deutschland
 
-Tivozanib is not currently marketed in Germany; there are no authorization records in this evidence pack (0 licenses).
+Tivozanib wird derzeit in Deutschland nicht vermarktet; es gibt keine Zulassungseinträge in diesem Beweispaket (0 Lizenzen).
 
-## Cytotoxicity
+## Zytotoxizität
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (VEGFR-1/2/3 tyrosine kinase inhibitor / anti-angiogenic) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| Element | Inhalt |
+|---------|--------|
+| Zytotoxizitätsklassifizierung | Zielgerichtete Therapie (VEGFR-1/2/3-Tyrosinkinase-Inhibitor / antiangiogen) |
+| Myelosuppressions-Risiko | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen der Packungsbeilage |
+| Emetogenitätsklassifizierung | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen der Packungsbeilage |
+| Überwachungspunkte | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen der Packungsbeilage |
+| Handhabungsschutz | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen der Packungsbeilage |
 
-## Safety Considerations
+## Sicherheitsaspekte
 
-Please refer to the package insert for safety information.
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
 
-## Conclusion and Next Steps
+## Schlussfolgerung und nächste Schritte
 
-**Decision: Hold**
+**Entscheidung: Halten**
 
-**Rationale:**
-All predicted indications for this drug are Evidence Level L5 (model prediction only, no supporting trials or literature), and a Blocking data gap (DG001 — TFDA warnings/contraindications) currently prevents S1 safety screening.
+**Begründung:**
+Alle vorhergesagten Indikationen für dieses Arzneimittel sind Evidenzebene L5 (nur Modellvorhersage, keine unterstützenden Studien oder Literatur), und eine blockierende Datenlücke (DG001 — TFDA-Warnhinweise/Gegenanzeigen) verhindert derzeit das S1-Sicherheits-Screening.
 
-**To proceed, the following is needed:**
-- Resolve DG001: obtain TFDA/regulatory label warnings and contraindications (blocking)
-- Resolve DG002: confirm mechanism of action via DrugBank API
-- Identify tivozanib's actual approved indication(s), since no license/indication record exists in this evidence pack
-- Targeted literature and clinical trial search for VEGFR inhibitors in gynecologic (cervical/uterine ligament) carcinoma subtypes
-- Re-score once evidence level advances beyond L5
+**Um fortzufahren, ist Folgendes erforderlich:**
+- DG001 beheben: TFDA-/regulatorische Kennzeichnungswarnhinweise und Gegenanzeigen erhalten (blockierend)
+- DG002 beheben: Wirkmechanismus über DrugBank-API bestätigen
+- Tatsächliche zugelassene Indikation(en) von Tivozanib identifizieren, da es in diesem Beweispaket keinen Lizenz-/Indikationseintrag gibt
+- Gezielte Literatur- und klinische Studiensuche nach VEGFR-Inhibitoren bei gynäkologischen (Gebärmutterhals-/Uterusligament-)Karzinom-Subtypen
+- Neubewertung, sobald die Evidenzebene über L5 hinausgeht
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

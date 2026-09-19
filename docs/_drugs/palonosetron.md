@@ -29,82 +29,83 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-# Palonosetron: From [Data Gap – Original Indication Not Provided] to Migraine Disorder
+# Palonosetron: Von [Datenlücke – Ursprüngliche Indikation nicht vorhanden] zur Migränestörung
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Palonosetron (DB00377) is a selective 5-HT3 receptor antagonist; its original approved indication is not documented in this evidence pack (data gap).
-> The TxGNN model predicts a possible link to **Migraine Disorder** with a **99.74% confidence score**,
-> but this is currently supported by only **1 case report** (no clinical trials), and that report actually describes palonosetron **inducing** migraine-type headache — a signal opposite to a therapeutic hypothesis.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available — `original_indications` is empty and `original_moa` is flagged as a data gap in this evidence pack |
-| Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.74% |
-| Evidence Level | L4 |
-| Germany Market Status | ✗ Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+> Palonosetron (DB00377) ist ein selektiver 5-HT3-Rezeptor-Antagonist; seine ursprüngliche zugelassene Indikation ist in diesem Evidenzpaket nicht dokumentiert (Datenlücke).
+> Das TxGNN-Modell sagt einen möglichen Zusammenhang mit **Migränestörung** mit einer **Konfidenzpunktzahl von 99,74%** voraus,
+> aber dies wird derzeit nur durch **1 Fallbericht** gestützt (keine klinischen Studien), und dieser Bericht beschreibt tatsächlich, dass Palonosetron migräneähnliche Kopfschmerzen **auslöst** — ein Signal, das einer therapeutischen Hypothese entgegengesetzt ist.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnelle Übersicht
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap, DG002). Based on what is known from the repurposing rationale in this evidence pack, palonosetron is a **selective 5-HT3 receptor antagonist**. This receptor class is not a primary therapeutic target in migraine — migraine treatment mechanistically centers on 5-HT1B/1D/1F receptors (e.g., triptans), not 5-HT3.
-
-The only literature identified for this prediction is a single case report titled *"Palonosetron-induced migraine-type headache"* (PMID 21132477). Rather than supporting a therapeutic use of palonosetron in migraine, this report describes migraine-type headache as an **adverse reaction** to the drug — a direction contrary to the repurposing hypothesis. No clinical trials, preclinical mechanistic studies, or supportive literature were found.
-
-Taken together, the mechanistic rationale and the available evidence do not align with the TxGNN prediction. The high TxGNN score appears to reflect embedding-space similarity rather than a validated pharmacological or clinical relationship.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Nicht verfügbar — `original_indications` ist leer und `original_moa` ist in diesem Evidenzpaket als Datenlücke gekennzeichnet |
+| Vorhergesagte neue Indikation | Migränestörung |
+| TxGNN-Vorhersagepunktzahl | 99,74% |
+| Evidenzebene | L4 |
+| Status auf dem deutschen Markt | ✗ Nicht vermarktet (Nicht vermarktet) |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | **Zurückhalten** |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage vernünftig?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [21132477](https://pubmed.ncbi.nlm.nih.gov/21132477/) | 2011 | Case Report | Canadian Journal of Anaesthesia | Describes migraine-type headache **induced** by palonosetron — an adverse-event report, not evidence of therapeutic benefit in migraine |
+Derzeit sind detaillierte Daten zum Wirkungsmechanismus nicht verfügbar (gekennzeichnet als Datenlücke mit hohem Schweregrad, DG002). Basierend auf dem, was aus der Begründung der Umwidmung in diesem Evidenzpaket bekannt ist, ist Palonosetron ein **selektiver 5-HT3-Rezeptor-Antagonist**. Diese Rezeptorklasse ist kein primäres therapeutisches Ziel bei Migräne — die Migränebehandlung ist mechanistisch auf 5-HT1B/1D/1F-Rezeptoren zentriert (z. B. Triptane), nicht auf 5-HT3.
 
----
+Die einzige identifizierte Literatur für diese Vorhersage ist ein einzelner Fallbericht mit dem Titel *"Palonosetron-induzierte migräneähnliche Kopfschmerzen"* (PMID 21132477). Anstatt eine therapeutische Verwendung von Palonosetron bei Migräne zu unterstützen, beschreibt dieser Bericht migräneähnliche Kopfschmerzen als **Nebenwirkung** des Arzneimittels — eine Richtung, die der Umwidmungshypothese entgegengesetzt ist. Es wurden keine klinischen Studien, präklinischen mechanistischen Studien oder unterstützende Literatur gefunden.
 
-## Germany Market Information
-
-Palonosetron is currently **not marketed** in Germany (BfArM) — no authorization records exist in this evidence pack (0 licenses).
+Zusammengenommen stimmen die mechanistische Begründung und die verfügbaren Belege nicht mit der TxGNN-Vorhersage überein. Die hohe TxGNN-Punktzahl scheint eher Ähnlichkeit im Embedding-Raum widerzuspiegeln als eine validierte pharmakologische oder klinische Beziehung.
 
 ---
 
-## Safety Considerations
+## Klinische Studienevidenz
 
-Please refer to the package insert for safety information. Key warnings, contraindications, and drug-interaction data are not yet available in this evidence pack (TFDA/BfArM label data collection is flagged as a Blocking gap, DG001).
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Conclusion and Next Steps
+## Literaturbelege
 
-**Decision: Hold**
+| PMID | Jahr | Typ | Journal | Wichtigste Erkenntnisse |
+|------|------|-----|--------|---------|
+| [21132477](https://pubmed.ncbi.nlm.nih.gov/21132477/) | 2011 | Fallbericht | Canadian Journal of Anaesthesia | Beschreibt migräneähnliche Kopfschmerzen, die **durch Palonosetron induziert** wurden — ein Bericht über unerwünschte Ereignisse, keine Evidenz für therapeutischen Nutzen bei Migräne |
 
-**Rationale:**
-- Evidence level is L4, based on a single adverse-event case report rather than supportive clinical or mechanistic data; the only available literature actually points in the opposite direction (drug-induced headache, not treatment effect).
-- The proposed mechanism (5-HT3 antagonism) has no established link to migraine pathophysiology, which is primarily mediated via 5-HT1B/1D/1F receptors.
-- The drug is not currently marketed in Germany, and core safety data (warnings, contraindications, DDI) are unavailable (Blocking gap, DG001).
+---
 
-**To proceed, the following is needed:**
-- Confirmed mechanism of action data from DrugBank/primary literature (DG002)
-- TFDA/BfArM label data (warnings, contraindications) to clear the S1 safety gate (DG001)
-- Preclinical or mechanistic studies specifically evaluating 5-HT3 pathway relevance to migraine, given the contradictory adverse-event signal
-- Re-evaluation if new supportive clinical trial or literature evidence emerges
+## Informationen zum deutschen Markt
 
-**Note on other predicted indications:** The remaining four candidates for this drug (migraine with brainstem aura, migraine susceptibility, atrophoderma vermiculata, ulerythema ophryogenesis) are all rated L5 with no supporting clinical or literature evidence — the "migraine susceptibility" literature set consists of genetic/epilepsy studies unrelated to drug mechanism, and the two dermatologic predictions have no evidence at all. All are recommended **Hold** and are considered likely false positives from embedding-similarity scoring alone.
+Palonosetron wird derzeit in Deutschland **nicht vermarktet** (BfArM) — in diesem Evidenzpaket existieren keine Zulassungsdatensätze (0 Lizenzen).
+
+---
+
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Fachinformation für Sicherheitsinformationen. Wichtige Warnhinweise, Kontraindikationen und Arzneimittelwechselwirkungsdaten sind derzeit nicht in diesem Evidenzpaket verfügbar (Die Erfassung von TFDA/BfArM-Label-Daten ist als blockierende Lücke gekennzeichnet, DG001).
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Zurückhalten**
+
+**Begründung:**
+- Die Evidenzebene ist L4, basierend auf einem einzelnen Bericht über unerwünschte Ereignisse statt auf unterstützenden klinischen oder mechanistischen Daten; die einzige verfügbare Literatur weist tatsächlich in die entgegengesetzte Richtung (arzneimittelinduzierte Kopfschmerzen, nicht therapeutischer Effekt).
+- Der vorgeschlagene Mechanismus (5-HT3-Antagonismus) hat keinen etablierten Zusammenhang mit der Migränepathophysiologie, die primär über 5-HT1B/1D/1F-Rezeptoren vermittelt wird.
+- Das Arzneimittel wird derzeit in Deutschland nicht vermarktet, und kritische Sicherheitsdaten (Warnhinweise, Kontraindikationen, Arzneimittelwechselwirkungen) sind nicht verfügbar (blockierende Lücke, DG001).
+
+**Um voranzukommen, ist Folgendes erforderlich:**
+- Bestätigte Daten zum Wirkungsmechanismus aus DrugBank/Primärliteratur (DG002)
+- TFDA/BfArM-Label-Daten (Warnhinweise, Kontraindikationen) zur Überwindung der S1-Sicherheitshürde (DG001)
+- Präklinische oder mechanistische Studien, die speziell die Relevanz des 5-HT3-Signalwegs für Migräne untersuchen, angesichts des widersprüchlichen Signals über unerwünschte Ereignisse
+- Neubewertung, falls neue unterstützende klinische Studien- oder Literaturbelege auftauchen
+
+**Anmerkung zu anderen vorhergesagten Indikationen:** Die verbleibenden vier Kandidaten für dieses Arzneimittel (Migräne mit Hirnstammaura, Migräneanfälligkeit, Atrophodermia vermiculata, Ulerythema ophryogenesis) sind alle mit L5 bewertet und ohne unterstützende klinische oder Literaturbelege — der „Migräneanfälligkeits"-Literatursatz besteht aus Genetik-/Epilepsie-Studien, die nicht mit dem Arzneimittelmechanismus zusammenhängen, und die beiden dermatologischen Vorhersagen haben überhaupt keine Belege. Alle werden als **Zurückhalten** empfohlen und gelten als wahrscheinliche Falsch-Positive, die allein aus der Ähnlichkeit beim Embedding-Scoring stammen.
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

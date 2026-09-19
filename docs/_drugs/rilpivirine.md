@@ -29,57 +29,57 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-# Rilpivirine: Drug Repurposing Evaluation — Insufficient Evidence Pack
+# Rilpivirine: Evaluierung der Arzneimittelumwidmung – Paket mit unzureichenden Belegen
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Rilpivirine (DrugBank: DB08864) is an antiretroviral agent belonging to the NNRTI class, used in the treatment of HIV-1 infection.
-This Evidence Pack does not contain any TxGNN-predicted repurposing indications, and the drug carries no regulatory authorizations in Taiwan.
-A **Hold** decision is recommended until prediction outputs and safety documentation are obtained.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not recorded in regulatory data |
-| Predicted New Indication | No predictions available in this Evidence Pack |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | L5 — No supporting studies; model output absent |
-| Taiwan Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Rilpivirine (DrugBank: DB08864) ist ein antiretrovirales Mittel der NNRTI-Klasse, das zur Behandlung der HIV-1-Infektion verwendet wird.
+Dieses Beweispaket enthält keine durch TxGNN vorhergesagten Umwidmungsindikationen, und das Arzneimittel hat keine behördlichen Zulassungen in Taiwan.
+Eine **Zurückstellung**-Entscheidung wird empfohlen, bis Vorhersageergebnisse und Sicherheitsdokumentation vorliegen.
 
 ---
 
-## Taiwan Market Information
+## Schnellübersicht
 
-No authorized products found for Rilpivirine in the Taiwan regulatory database. Zero licenses are on record.
+| Element | Inhalt |
+|---------|---------|
+| Ursprüngliche Indikation | Nicht in behördlichen Daten erfasst |
+| Vorhergesagte neue Indikation | In diesem Beweispaket nicht verfügbar |
+| TxGNN-Vorhersagepunktzahl | N/A |
+| Beweisstufe | L5 – Keine unterstützenden Studien; Modellausgabe nicht vorhanden |
+| Marktstatus Taiwan | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Zurückstellung |
 
 ---
 
-## Safety Considerations
+## Informationen zum Taiwan-Markt
 
-Please refer to the package insert for safety information.
-
-> The TFDA package insert query returned a record (see query log ID 4), but warning and contraindication content has not been parsed into this Evidence Pack. Drug interaction data was not found (query log ID 2).
+Es wurden keine zugelassenen Produkte für Rilpivirine in der Taiwan-Regulierungsdatenbank gefunden. Null Lizenzen sind aktenkundig.
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsaspekte
 
-**Decision: Hold**
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
 
-**Rationale:**
-The `predicted_indications` array is empty — there are no TxGNN repurposing candidates to evaluate for this compound. Without a target indication, neither mechanistic relevance, clinical evidence, nor a benefit-risk assessment can be conducted.
+> Die TFDA-Packungsbeilage-Abfrage gab einen Datensatz zurück (siehe Abfrageprotokoll-ID 4), aber Warnhinweise und Kontraindikations-Inhalte wurden nicht in dieses Beweispaket eingefügt. Arzneimittelwechselwirkungs-Daten wurden nicht gefunden (Abfrageprotokoll-ID 2).
 
-**To proceed, the following is needed:**
+---
 
-- **TxGNN output**: Re-run TxGNN inference for Rilpivirine (DB08864) and confirm whether any indication scores meet the reporting threshold
-- **MOA data** (DG002 – High severity): Retrieve mechanism of action from DrugBank API to enable mechanistic plausibility analysis
-- **Safety documentation** (DG001 – Blocking): Parse the TFDA package insert PDF already retrieved (query log ID 4) to extract key warnings, contraindications, and special population restrictions before any S1 safety screening
-- **Target market review**: Confirm whether Germany (BfArM) or Taiwan (TFDA) is the intended regulatory jurisdiction for this candidate, and align the Evidence Pack accordingly
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Zurückstellung**
+
+**Begründung:**
+Das Array `predicted_indications` ist leer – es gibt keine TxGNN-Umwidmungskandidaten zur Bewertung dieser Verbindung. Ohne eine Zielindikation können weder die mechanistische Relevanz, klinische Belege noch eine Nutzen-Risiko-Bewertung durchgeführt werden.
+
+**Um fortzufahren, wird Folgendes benötigt:**
+
+- **Wirkungsmechanismus-Daten** (DG002 – Hohe Schwere): Wirkungsmechanismus von DrugBank API abrufen, um Analyse der mechanistischen Plausibilität zu ermöglichen
+- **Sicherheitsdokumentation** (DG001 – Blockierend): TFDA-Packungsbeilage PDF bereits abgerufen (Abfrageprotokoll-ID 4) analysieren, um wichtige Warnhinweise, Kontraindikationen und Einschränkungen für spezielle Populationen vor S1-Sicherheitsscreening zu extrahieren
+- **Zielmarkt-Überprüfung**: Bestätigen, ob Deutschland (BfArM) oder Taiwan (TFDA) die beabsichtigte Regulierungsjurisdiktion für diesen Kandidaten ist, und das Evidenzpaket entsprechend abstimmen
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

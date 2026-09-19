@@ -29,73 +29,74 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Anagrelide：從 Essential Thrombocythemia 到 Reactive Thrombocytosis
+# Anagrelide: Von Essentielle Thrombozythämie zur reaktiven Thrombozytose
 
-## 摘要
+## Zusammenfassung
 
-Anagrelide 是用於治療 essential thrombocythemia（ET，一種克隆性骨髓增生性腫瘤）的口服藥物。TxGNN 模型預測其可能對 **Reactive Thrombocytosis（反應性血小板增多症）** 有效，目前有 **0 項臨床試驗**與 **10 篇相關文獻**支持此方向，但證據性質多為間接外推。
+Anagrelide ist ein orales Medikament zur Behandlung von Essentielle Thrombozythämie (ET, ein klonales myeloproliferatives Neoplasma). Das TxGNN-Modell prognostiziert eine mögliche Wirksamkeit gegen **Reactive Thrombocytosis (reaktive Thrombozytose)**, derzeit unterstützt durch **0 klinische Studien** und **10 relevante Publikationen**, wobei die Evidenzqualität hauptsächlich indirekte Extrapolationen darstellt.
 
-## 概覽
+## Übersicht
 
-| 項目 | 內容 |
-|------|------|
-| 原始適應症 | Essential thrombocythemia (ET)（國際核准適應症；台灣Not marketed，無本地仿單資料） |
-| 預測新適應症 | Reactive Thrombocytosis（反應性血小板增多症） |
-| TxGNN 預測分數 | 99.83% |
-| 證據等級 | L4（僅回顧性文獻/機轉研究，無直接針對此適應症之臨床試驗） |
-| 台灣上市狀態 | Not marketed |
-| 許可證數量 | 0 |
-| 建議決策 | **Hold（暫緩）** |
+| Element | Inhalt |
+|---------|---------|
+| Ursprüngliche Indikation | Essentielle Thrombozythämie (ET) (international zugelassene Indikation; in Taiwan nicht im Handel, keine lokalen Produktinformationen verfügbar) |
+| Prognostizierte neue Indikation | Reaktive Thrombozytose |
+| TxGNN-Prognosewert | 99.83% |
+| Evidenzlevel | L4 (nur retrospektive Literatur/Mechanismus-Studien, keine direkten klinischen Studien zu dieser Indikation) |
+| Taiwan Marktstatus | Not marketed |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | **Hold (Zurückhaltung)** |
 
-## 這個預測合理嗎？
+## Ist diese Vorhersage sinnvoll?
 
-官方 MOA 欄位為資料缺口，但根據文獻佐證的機轉描述，anagrelide 透過抑制 PDE3（磷酸二酯酶第 3 型），干擾巨核細胞成熟與血小板生成，藉此降低血小板數量。理論上，此機轉不分病因皆可降低血小板數，因此對克隆性（ET）與反應性血小板增多症皆有藥理學上的可行性。
+Das offizielle MOA-Feld ist eine Datenlücke, aber basierend auf der in der Literatur beschriebenen Mechanismus-Validierung wirkt Anagrelide durch Hemmung von PDE3 (Phosphodiesterase Typ 3) und stört die Reifung von Megakaryozyten sowie die Thrombozytenerzeugung, wodurch die Thrombozytenzahl gesenkt wird. Theoretisch könnte dieser Mechanismus unabhängig von der Ursache die Thrombozytenzahl senken und wäre daher pharmakologisch für sowohl klonale (ET) als auch reaktive Thrombozytose durchführbar.
 
-然而，anagrelide 目前核准適應症與絕大多數文獻證據都集中在 ET，而非反應性血小板增多症。兩者病理本質不同：ET 血小板具功能異常、血栓栓塞風險高；反應性血小板增多症通常血小板功能正常，會隨潛在病因（感染、發炎、缺鐵、脾切除等）緩解而自行恢復。國際治療指引並不建議對反應性血小板增多症常規使用細胞減量藥物，因其血栓風險本身較低，用藥反而須承擔心律不整、體液滯留等副作用風險。因此，現有 10 篇文獻多屬對 ET 的回顧性描述，僅間接提及「reactive thrombocytosis」作為鑑別診斷概念，並非直接支持此新適應症的療效證據。
+Allerdings konzentrieren sich die derzeit zugelassene Indikation und die meisten Literaturbelege auf ET und nicht auf reaktive Thrombozytose. Die beiden unterscheiden sich pathophysiologisch grundlegend: ET-Thrombozyten zeigen funktionelle Anomalien und hohes thromboembolisches Risiko; reaktive Thrombozytose zeigt normalerweise normale Thrombozytenfunktion und klingt mit der zugrunde liegenden Ursache (Infektion, Entzündung, Eisenmangel, Splenektomie etc.) ab. Internationale Behandlungsleitlinien empfehlen keine routinemäßige Gabe von Zellreduktionsmitteln bei reaktiver Thrombozytose, da das thromboembolische Risiko an sich niedrig ist und die medikamentöse Therapie eher Nebenwirkungen wie Herzrhythmusstörungen und Flüssigkeitsretention birgt. Daher gehören die 10 verfügbaren Publikationen überwiegend zu retrospektiven ET-Beschreibungen, wobei „reactive thrombocytosis" nur als konzeptuelles Differenzialdiagnose-Element erwähnt wird, ohne direkte Wirksamkeitsevidenzen für diese neue Indikation zu liefern.
 
-## 臨床試驗證據
+## Evidenz aus klinischen Studien
 
-目前無相關已註冊臨床試驗。
+Derzeit gibt es keine registrierten klinischen Studien zu diesem Thema.
 
-## 文獻證據
+## Literaturevidenz
 
-| PMID | 年份 | 類型 | 期刊 | 重點發現 |
-|------|-----|------|------|---------|
-| [15270658](https://pubmed.ncbi.nlm.nih.gov/15270658/) | 2004 | Review | Expert Rev Anticancer Ther | Anagrelide 作用機轉與治療潛力更新，聚焦克隆性血小板增多症治療選項 |
-| [16019501](https://pubmed.ncbi.nlm.nih.gov/16019501/) | 2005 | Review | Leukemia & Lymphoma | 反應性血小板增多症通常無須治療；克隆性血小板增多症才需細胞減量治療 |
-| [10494240](https://pubmed.ncbi.nlm.nih.gov/10494240/) | 1999 | Review | Med J Australia | ET 診斷需排除其他骨髓增生性疾病與反應性血小板增多症 |
-| [1994734](https://pubmed.ncbi.nlm.nih.gov/1994734/) | 1991 | Review | Am J Med Sci | 血小板增多症與血小板增多之臨床光譜綜述，涵蓋反應性與克隆性成因 |
-| [28380402](https://pubmed.ncbi.nlm.nih.gov/28380402/) | 2017 | Review (case-based) | Leukemia Research | 骨髓增生性腫瘤極端血小板增多之當代處置，藥物治療為主流 |
-| [7783354](https://pubmed.ncbi.nlm.nih.gov/7783354/) | 1995 | Review | Jpn J Clin Hematol | ET 診斷治療綜述，anagrelide 為抑制巨核細胞增生藥物之一 |
-| [17171694](https://pubmed.ncbi.nlm.nih.gov/17171694/) | 2007 | Retrospective Cohort | Pediatr Blood Cancer | 兒童 ET 與反應性血小板增多症之回溯性比較，12 例分析 |
-| [27276864](https://pubmed.ncbi.nlm.nih.gov/27276864/) | 2016 | Case Report | Srp Arh Celok Lek | ET 合併僵直性脊椎炎個案，以 anagrelide 併用治療 |
-| [38455691](https://pubmed.ncbi.nlm.nih.gov/38455691/) | 2024 | Case Report | Eur J Case Rep Intern Med | ET 患者使用 anagrelide 治療期間發生急性心肌梗塞之個案 |
-| [29851840](https://pubmed.ncbi.nlm.nih.gov/29851840/) | 2018 | Case Report | Medicine | 脾切除後血小板增多症患者之斷指再植個案 |
+| PMID | Jahr | Typ | Journal | Wichtigste Befunde |
+|------|------|------|---------|-------------------|
+| [15270658](https://pubmed.ncbi.nlm.nih.gov/15270658/) | 2004 | Review | Expert Rev Anticancer Ther | Aktualisierung des Anagrelide-Wirkmechanismus und therapeutisches Potenzial, Fokus auf Therapieoptionen bei klonaler Thrombozytose |
+| [16019501](https://pubmed.ncbi.nlm.nih.gov/16019501/) | 2005 | Review | Leukemia & Lymphoma | Reaktive Thrombozytose benötigt üblicherweise keine Behandlung; klonale Thrombozytose erfordert Zellreduktionstherapie |
+| [10494240](https://pubmed.ncbi.nlm.nih.gov/10494240/) | 1999 | Review | Med J Australia | ET-Diagnose erfordert Ausschluss anderer myeloproliferativer Erkrankungen und reaktiver Thrombozytose |
+| [1994734](https://pubmed.ncbi.nlm.nih.gov/1994734/) | 1991 | Review | Am J Med Sci | Klinisches Spektrum von Thrombozytose und Thrombozytenvermehrung mit Überblick über reaktive und klonale Ursachen |
+| [28380402](https://pubmed.ncbi.nlm.nih.gov/28380402/) | 2017 | Review (fallbasiert) | Leukemia Research | Zeitgenössische Behandlung extremer Thrombozytose bei myeloproliferativen Neoplasien, medikamentöse Therapie als Standard |
+| [7783354](https://pubmed.ncbi.nlm.nih.gov/7783354/) | 1995 | Review | Jpn J Clin Hematol | Überblick über ET-Diagnose und Behandlung, Anagrelide als eines der Medikamente zur Hemmung der Megakaryozyten-Vermehrung |
+| [17171694](https://pubmed.ncbi.nlm.nih.gov/17171694/) | 2007 | Retrospektive Kohortenstudie | Pediatr Blood Cancer | Retrospektiver Vergleich von pädiatrischer ET und reaktiver Thrombozytose, 12 Fälle analysiert |
+| [27276864](https://pubmed.ncbi.nlm.nih.gov/27276864/) | 2016 | Fallbericht | Srp Arh Celok Lek | ET mit Ankylosierender Spondylitis, kombinierte Behandlung mit Anagrelide |
+| [38455691](https://pubmed.ncbi.nlm.nih.gov/38455691/) | 2024 | Fallbericht | Eur J Case Rep Intern Med | Akuter Myokardinfarkt bei ET-Patient während Anagrelide-Therapie |
+| [29851840](https://pubmed.ncbi.nlm.nih.gov/29851840/) | 2018 | Fallbericht | Medicine | Fingerverletzung und Replantation bei Patient mit postsplenektomischer Thrombozytose |
 
-## 台灣上市資訊
+## Taiwan Marktinformationen
 
-Anagrelide 目前在台灣**Not marketed**，無許可證資料。
+Anagrelide ist derzeit in Taiwan **Not marketed**, keine Zulassungsdaten verfügbar.
 
-## 安全性考量
+## Sicherheitsaspekte
 
-請參閱藥品仿單以取得安全性資訊（目前尚無 TFDA 仿單警語、禁忌症及藥品交互作用資料）。
+Bitte beachten Sie die Produktinformation zur Sicherheitsübersicht (derzeit keine TFDA-Produktinformationen zu Warnhinweisen, Kontraindikationen und Arzneimittelwechselwirkungen verfügbar).
 
-## 結論與後續建議
+## Schlussfolgerung und Empfehlungen für weiteres Vorgehen
 
-**決策：Hold（暫緩）**
+**Entscheidung: Hold (Zurückhaltung)**
 
-**理由：**
-現有 10 篇文獻皆非直接針對「反應性血小板增多症」的療效證據，多為 ET 相關回顧或個案報告；且國際指引不建議對反應性血小板增多症常規使用細胞減量藥物，證據強度僅達 L4。此外，安全性資料（仿單警語、禁忌症）與 MOA 官方資料均為缺口，尚無法通過 S1 安全性初評（DG001 為 Blocking 等級）。
+**Begründung:**
+Alle 10 verfügbaren Publikationen sind nicht direkt auf Wirksamkeitsnachweise bei „reaktiver Thrombozytose" ausgerichtet, sondern hauptsächlich ET-bezogene Übersichtsarbeiten oder Fallberichte; außerdem empfehlen internationale Leitlinien nicht die routinemäßige Anwendung von Zellreduktionsmitteln bei reaktiver Thrombozytose. Die Evidenzstärke erreicht nur L4. Darüber hinaus sind Sicherheitsdaten (Produktinformations-Warnhinweise, Kontraindikationen) und offizielle MOA-Daten noch Lücken und können die S1-Sicherheitsbewertung nicht bestehen (DG001 ist vom Blocking-Typ).
 
-**如欲推進，需補充：**
-- TFDA 仿單 PDF 解析，取得正式警語與禁忌症（DG001）
-- DrugBank 官方 MOA 資料以強化機轉關聯性分析（DG002）
-- 針對反應性血小板增多症族群的直接臨床證據（目前為零筆試驗）
-- 釐清此適應症之臨床必要性（是否符合治療指引建議介入之族群）
+**Zum Fortschritt erforderlich:**
+- TFDA-Produktinformations-PDF-Analyse zur Erstellung offizieller Warnhinweise und Kontraindikationen (DG001)
+- Offizielle DrugBank-MOA-Daten zur Stärkung der Mechanismus-Assoziationsanalyse (DG002)
+- Direkte klinische Evidenz für die Reaktive-Thrombozytose-Population (derzeit null registrierte Studien)
+- Klärung der klinischen Notwendigkeit dieser Indikation (ob sie der Behandlungsleitlinie entspricht, die Intervention empfiehlt)
 
 ---
 
-*附註：第二候選適應症「inverse Klippel-Trenaunay syndrome」（TxGNN 分數 99.59%）無任何文獻或試驗支持，證據等級 L5，機轉上與 anagrelide 之 PDE3 抑制作用無合理連結，建議直接排除，不進入後續評估。*
+*Anmerkung: Die zweite Kandidatenindikation „inverse Klippel-Trenaunay syndrome" (TxGNN-Wert 99.59%) wird durch keine Publikationen oder Studien gestützt, Evidenzlevel L5, mechanistisch kein vernünftiger Bezug zur PDE3-Hemmwirkung von Anagrelide, empfohlene direkte Ausschließung aus weiterer Bewertung.*
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

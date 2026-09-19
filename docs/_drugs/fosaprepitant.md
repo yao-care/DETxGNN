@@ -29,77 +29,78 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Fosaprepitant: From CINV Prevention to Nephrogenic Syndrome of Inappropriate Antidiuresis
+# Fosaprepitant: Von der CINV-Prävention zum Nephrogenen Syndrom der unangemessenen Antidiurese
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Fosaprepitant is the intravenous prodrug of aprepitant, an NK1/Substance P receptor antagonist used as supportive care to prevent chemotherapy-induced nausea and vomiting (CINV) — this pharmacology is evident from the trial evidence in this pack, though it is not captured in the structured MOA field. TxGNN's top-ranked prediction, **Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD)**, scores **99.92%** but is explicitly flagged in the evidence pack as a mechanistically unsupported, isolated network signal — **no clinical trials or literature support this indication**. Across all 10 candidates screened for this drug, only one (retinitis, rank 7) shows preliminary mechanistic plausibility, and it remains preclinical only.
+Fosaprepitant ist das intravenöse Prodrug von Aprepitant, einem NK1/Substanz-P-Rezeptor-Antagonist, der als unterstützende Therapie zur Prävention von chemotherapieinduzierter Übelkeit und Erbrechen (CINV) eingesetzt wird – diese Pharmakologie ergibt sich aus den Studienbelegen in diesem Paket, wird aber nicht im strukturierten MOA-Feld erfasst. TxGNNs am höchsten bewertete Vorhersage, **Nephrogenes Syndrom der unangemessenen Antidiurese (NSIAD)**, erreicht **99.92%**, ist aber im Evidenzpaket ausdrücklich als mechanistisch nicht unterstütztes, isoliertes Netzwerksignal gekennzeichnet – **es gibt keine klinischen Studien oder Literaturbelege, die diese Indikation unterstützen**. Bei allen 10 überprüften Kandidaten für dieses Medikament zeigt nur einer (Retinitis, Rang 7) vorläufige mechanistische Plausibilität, und dieser bleibt rein präklinisch.
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Element | Inhalt |
 |------|------|
-| Original Indication | Chemotherapy-induced nausea and vomiting (CINV) prevention — inferred from associated trial evidence in this pack; not captured in structured fields |
-| Predicted New Indication | Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD) |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L5 (model prediction only, no supporting trials or literature) |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | Prävention von chemotherapieinduzierter Übelkeit und Erbrechen (CINV) – aus den zugehörigen Studienbelegen in diesem Paket hergeleitet; nicht in strukturierten Feldern erfasst |
+| Prognostizierte neue Indikation | Nephrogenes Syndrom der unangemessenen Antidiurese (NSIAD) |
+| TxGNN-Vorhersage-Score | 99.92% |
+| Evidenzstufe | L5 (nur Modellvorhersage, keine unterstützenden Studien oder Literatur) |
+| Marktstatus in Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Zurückstellen |
 
-## Portfolio Screening Overview (10 Predicted Indications)
+## Übersicht über das Portfolio-Screening (10 prognostizierte Indikationen)
 
-This evidence pack screened 10 TxGNN candidates for Fosaprepitant. Nine were flagged as network artifacts with no supporting evidence; one reached a preliminary research-question stage.
+Dieses Evidenzpaket überprüfte 10 TxGNN-Kandidaten für Fosaprepitant. Neun wurden als Netzwerk-Artefakte ohne Unterstützungsbelege gekennzeichnet; einer erreichte die Stufe einer vorläufigen Forschungsfrage.
 
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Recommendation | Note |
+| Rang | Prognostizierte Indikation | TxGNN-Score | Evidenzstufe | Empfehlung | Bemerkung |
 |------|----------------------|-------------|-----------------|-----------------|------|
-| 1 | Nephrogenic syndrome of inappropriate antidiuresis | 99.92% | L5 | Hold | AVPR2 mutation disease; no NK1 pathway link |
-| 2 | Pneumocystosis | 99.87% | L5 | Hold | Fungal infection; no antifungal activity reported |
-| 3 | Leprosy | 99.82% | L5 | Hold | Mycobacterial infection; no mechanistic link |
-| 4 | Cryptococcal meningitis | 99.79% | L5 | Hold | Fungal CNS infection; no supporting data |
-| 5 | Multiple endocrine neoplasia | 99.76% | L4 | Hold | Trials exist but are CINV support-care studies in cancer patients, not MEN-directed therapy — indication mismatch |
-| 6 | Intracranial abscess | 99.75% | L5 | Hold | Bacterial infection; no mechanistic link |
-| 7 | Retinitis | 99.68% | L4 | **Research Question** | Preclinical: Fosaprepitant blocks UVR-B-induced NK1 receptor expression in mouse ocular tissue |
-| 8 | Plasmodium falciparum malaria | 99.64% | L5 | Hold | No antimalarial activity reported |
-| 9 | Echinococcus granulosus infection | 99.50% | L5 | Hold | Parasitic infection; no mechanistic link |
-| 10 | Hyperargininemia | 99.41% | L5 | Hold | Inherited metabolic disease; no mechanistic link |
+| 1 | Nephrogenes Syndrom der unangemessenen Antidiurese | 99.92% | L5 | Zurückstellen | AVPR2-Mutations-Erkrankung; kein NK1-Signalweg-Zusammenhang |
+| 2 | Pneumozystose | 99.87% | L5 | Zurückstellen | Pilzinfektion; keine Antifungal-Aktivität gemeldet |
+| 3 | Lepra | 99.82% | L5 | Zurückstellen | Mykobakterielle Infektion; kein mechanistischer Zusammenhang |
+| 4 | Kryptokokkenmeningitis | 99.79% | L5 | Zurückstellen | Pilz-ZNS-Infektion; keine unterstützenden Daten |
+| 5 | Multiple endokrine Neoplasie | 99.76% | L4 | Zurückstellen | Studien existieren, sind aber CINV-Supportive-Care-Studien bei Krebspatienten, keine MEN-gerichtete Therapie – Indikations-Mismatch |
+| 6 | Intrakranieller Abszess | 99.75% | L5 | Zurückstellen | Bakterielle Infektion; kein mechanistischer Zusammenhang |
+| 7 | Retinitis | 99.68% | L4 | **Forschungsfrage** | Präklinisch: Fosaprepitant blockiert die durch UVR-B induzierte NK1-Rezeptor-Expression im Mausaugengewebe |
+| 8 | Plasmodium falciparum Malaria | 99.64% | L5 | Zurückstellen | Keine Antimalaria-Aktivität gemeldet |
+| 9 | Echinococcus granulosus Infektion | 99.50% | L5 | Zurückstellen | Parasitäre Infektion; kein mechanistischer Zusammenhang |
+| 10 | Hyperargininämie | 99.41% | L5 | Zurückstellen | Erbliche Stoffwechselerkrankung; kein mechanistischer Zusammenhang |
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage vernünftig?
 
-Detailed structured mechanism-of-action data is not available for Fosaprepitant in this evidence pack. However, the rationale text accompanying each prediction consistently identifies Fosaprepitant as an **NK1 (neurokinin-1) / Substance P receptor antagonist**, consistent with its known clinical use as an antiemetic prodrug of aprepitant for chemotherapy-induced nausea and vomiting.
+Detaillierte strukturierte Wirkmechanismus-Daten sind für Fosaprepitant in diesem Evidenzpaket nicht verfügbar. Der Begründungstext zu jeder Vorhersage identifiziert Fosaprepitant jedoch konsistent als **NK1 (Neurokinin-1) / Substanz-P-Rezeptor-Antagonist**, in Einklang mit seiner bekannten klinischen Verwendung als antiemetisches Prodrug von Aprepitant zur Prävention von chemotherapieinduzierter Übelkeit und Erbrechen.
 
-For the top-ranked prediction, NSIAD, the evidence pack itself states there is **no known mechanistic relationship**: NSIAD is caused by gain-of-function mutations in the *AVPR2* (vasopressin V2 receptor) gene, a pathway entirely unrelated to NK1/Substance P signaling. No clinical trials or literature exist to support this connection. The evidence pack explicitly characterizes this as an isolated signal generated by the TxGNN network's topology rather than a validated biological hypothesis.
+Für die am höchsten bewertete Vorhersage, NSIAD, besagt das Evidenzpaket selbst, dass es **keine bekannte mechanistische Beziehung** gibt: NSIAD wird durch Gain-of-Function-Mutationen im *AVPR2*-Gen (Vasopressin-V2-Rezeptor) verursacht, einem Signalweg, der völlig unabhängig von NK1/Substanz-P-Signalisierung ist. Es gibt keine klinischen Studien oder Literaturbelege, die diesen Zusammenhang unterstützen. Das Evidenzpaket charakterisiert dies ausdrücklich als ein isoliertes Signal, das durch die Topologie des TxGNN-Netzwerks erzeugt wird, anstatt eine validierte biologische Hypothese zu sein.
 
-Of the ten candidates screened, only **retinitis (rank 7)** shows a plausible, if preliminary, mechanistic rationale: a preclinical mouse study (PMID 32058829) demonstrated that Fosaprepitant blocks UVR-B-induced NK1 receptor upregulation in ocular tissue, consistent with Substance P's known role in ocular neurogenic inflammation. This remains non-clinical evidence only. The **multiple endocrine neoplasia (rank 5)** candidate has associated clinical trials, but all are CINV supportive-care studies in cancer patients undergoing chemotherapy or transplantation — not trials targeting MEN tumors — representing a population-overlap artifact rather than a genuine indication link.
+Von den zehn überprüften Kandidaten zeigt nur **Retinitis (Rang 7)** eine plausible, wenn auch vorläufige, mechanistische Begründung: Eine präklinische Mausstudie (PMID 32058829) zeigte, dass Fosaprepitant die durch UVR-B induzierte NK1-Rezeptor-Hochregulation im Augengewebe blockiert, in Einklang mit der bekannten Rolle der Substanz P in der okulären neurogenischen Entzündung. Dies bleibt rein präklinischer Beleg. Der Kandidat **Multiple endokrine Neoplasie (Rang 5)** hat zugehörige klinische Studien, aber alle sind CINV-Supportive-Care-Studien bei Krebspatienten unter Chemotherapie oder Transplantation – keine Studien, die auf MEN-Tumoren abzielen – was ein Populations-Überlappungs-Artefakt darstellt, anstatt einen echten Indikations-Link zu zeigen.
 
-## Clinical Trial Evidence
+## Belege aus klinischen Studien
 
-Currently no related clinical trials registered for Nephrogenic Syndrome of Inappropriate Antidiuresis.
+Derzeit sind keine verwandten klinischen Studien zum Nephrogenen Syndrom der unangemessenen Antidiurese registriert.
 
-## Literature Evidence
+## Belege aus der Literatur
 
-Currently no related literature available for Nephrogenic Syndrome of Inappropriate Antidiuresis.
+Derzeit keine verwandte Literatur verfügbar zum Nephrogenen Syndrom der unangemessenen Antidiurese.
 
-## Germany Market Information
+## Marktinformationen für Deutschland
 
-Fosaprepitant currently holds **no marketing authorizations in Germany** (0 licenses on record; market status: Not Marketed). No product/dosage-form data is available.
+Fosaprepitant hält derzeit **keine Marktzulassungen in Deutschland** (0 Lizenzen im Datensatz; Marktstatus: Nicht vermarktet). Es sind keine Produkt-/Darreichungsform-Daten verfügbar.
 
-## Safety Considerations
+## Sicherheitsbetrachtungen
 
-Please refer to the package insert for safety information. Key warnings, contraindications, and drug-drug interaction data are not available in this evidence pack (TFDA label retrieval is flagged as a **Blocking** data gap — DG001 — preventing formal S1 safety assessment).
+Bitte beachten Sie die Packungsbeilage zur Sicherheitsinformation. Wichtige Warnungen, Kontraindikationen und Arzneimittelwechselwirkungs-Daten sind in diesem Evidenzpaket nicht verfügbar (TFDA-Etikett-Abruf wird als **Blockierende** Datenlücke gekennzeichnet – DG001 – die eine formale S1-Sicherheitsbewertung verhindert).
 
-## Conclusion and Next Steps
+## Schlussfolgerung und nächste Schritte
 
-**Decision: Hold**
+**Entscheidung: Zurückstellen**
 
 **Rationale:**
-The top-ranked prediction (NSIAD) has a high TxGNN score but is explicitly unsupported by any mechanistic, preclinical, or clinical evidence — the evidence pack itself classifies it as an isolated network artifact. Combined with the drug's unmarketed status in Germany and blocking gaps in label/MOA data, there is no basis to advance this candidate.
+Die am höchsten bewertete Vorhersage (NSIAD) hat einen hohen TxGNN-Score, wird aber ausdrücklich durch keine mechanistische, präklinische oder klinische Evidenz gestützt – das Evidenzpaket selbst klassifiziert es als ein isoliertes Netzwerk-Artefakt. In Kombination mit dem unmarktierten Status des Medikaments in Deutschland und blockierenden Lücken in Label-/MOA-Daten gibt es keine Grundlage, diesen Kandidaten voranzutreiben.
 
-**To proceed, the following is needed:**
-- TFDA/BfArM label PDF retrieval and parsing for warnings and contraindications (blocking gap DG001)
-- Structured MOA data via DrugBank API (gap DG002)
-- If pursuing the portfolio further, prioritize **retinitis (rank 7)** as a research question: preclinical validation (e.g., in vivo efficacy beyond the single UVR-B mouse model) would be needed before any clinical evaluation
-- Independent mechanistic review of the MEN (rank 5) trials to confirm they do not represent a genuine signal beyond population overlap
+**Um fortzufahren, wird Folgendes benötigt:**
+- TFDA/BfArM-Etikett-PDF-Abruf und Analyse für Warnungen und Kontraindikationen (Blockierende Lücke DG001)
+- Strukturierte MOA-Daten über DrugBank-API (Lücke DG002)
+- Falls das Portfolio weiter verfolgt wird, priorisieren Sie **Retinitis (Rang 7)** als Forschungsfrage: Präklinische Validierung (z.B. In-vivo-Wirksamkeit jenseits des einzelnen UVR-B-Mausmodells) wäre erforderlich vor jeder klinischen Bewertung
+- Unabhängige mechanistische Überprüfung der MEN (Rang 5)-Studien, um zu bestätigen, dass sie nicht über die bloße Populations-Überlappung hinaus ein echtes Signal darstellen
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -29,78 +29,79 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Omeprazole: From Acid-Related Disorders to Duodenogastric Reflux
+# Omeprazol: Von Säurestörungen zur duodenogastralen Reflux
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Omeprazole is a proton pump inhibitor (PPI) established for acid-related gastrointestinal conditions such as peptic ulcer disease, GERD, and *H. pylori* eradication.
-> The TxGNN model predicts it may be effective for **Duodenogastric Reflux**,
-> with **1 clinical trial** and **20 publications** currently identified in relation to this direction — though the evidence is mixed, with some studies also raising a carcinogenesis safety signal (see below).
+> Omeprazol ist ein Protonenpumpenhemmer (PPI), der für säurebezogene gastrointestinale Erkrankungen wie Ulkuskrankheit, GERD und *H. pylori*-Eradikation etabliert ist.
+> Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam gegen **Duodenogastrale Reflux** ist,
+> wobei aktuell **1 klinische Studie** und **20 Publikationen** bezüglich dieser Richtung identifiziert wurden — die Evidenz ist jedoch gemischt, mit einigen Studien, die auch ein Sicherheitssignal zur Karzinogenese aufwerfen (siehe unten).
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Element | Inhalt |
 |------|------|
-| Original Indication | Not documented in German regulatory data (drug not marketed in Germany). Per established PPI pharmacology and supporting literature in this pack (e.g., PMID 18679668), omeprazole is used for peptic ulcer disease, *H. pylori* infection, GERD, NSAID-induced GI lesions, and Zollinger-Ellison syndrome |
-| Predicted New Indication | Duodenogastric Reflux |
-| TxGNN Prediction Score | 99.64% |
-| Evidence Level | L3 (observational/clinical studies, no completed RCTs specific to this indication) |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | Nicht dokumentiert in deutschen Zulassungsdaten (Arzneimittel nicht in Deutschland vermarktet). Gemäß etablierter PPI-Pharmakologie und unterstützender Literatur in diesem Paket (z. B. PMID 18679668) wird Omeprazol für Ulkuskrankheit, *H. pylori*-Infektion, GERD, NSAID-induzierte GI-Läsionen und Zollinger-Ellison-Syndrom verwendet |
+| Vorhergesagte neue Indikation | Duodenogastrale Reflux |
+| TxGNN-Vorhersage-Score | 99.64% |
+| Evidenzebene | L3 (beobachtende/klinische Studien, keine abgeschlossenen RCTs spezifisch für diese Indikation) |
+| Marktstatus Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Zurückgestellt |
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage sinnvoll?
 
-Currently, detailed mechanism of action data is not available (DrugBank MOA field is a data gap). Based on known pharmacology, omeprazole is a proton pump inhibitor that irreversibly blocks the H+/K+-ATPase in gastric parietal cells, suppressing acid secretion — a mechanism proven effective across peptic ulcer disease, GERD, and *H. pylori*-related conditions.
+Derzeit sind detaillierte Wirkmechanismus-Daten nicht verfügbar (DrugBank MOA-Feld ist eine Datenlücke). Basierend auf bekannter Pharmakologie ist Omeprazol ein Protonenpumpenhemmer, der die H+/K+-ATPase in gastrischen Parietalzellen irreversibel blockiert und die Säuresekretion unterdrückt — ein Mechanismus, der sich über Ulkuskrankheit, GERD und *H. pylori*-bezogene Erkrankungen hinweg bewährt hat.
 
-Duodenogastric reflux (DGR) involves retrograde flow of duodenal contents (bile, pancreatic enzymes) into the stomach, often co-occurring with acid-related GI disorders and contributing to mucosal injury in conditions like Barrett's esophagus. Several clinical studies in this evidence pack (e.g., PMID 9824338, 10994616, 19491829) directly examined omeprazole's effect on DGR/DGOR in reflux populations, providing a plausible mechanistic bridge from the original acid-suppression indication to this new target.
+Duodenogastrale Reflux (DGR) beinhaltet einen retrograden Fluss duodenaler Inhalte (Galle, Pankreasenzyme) in den Magen, oft koexistent mit säurebezogenen GI-Störungen und beitragend zu Mukosaläsionen bei Erkrankungen wie Barrett-Ösophagus. Mehrere klinische Studien in diesem Evidenzpaket (z. B. PMID 9824338, 10994616, 19491829) untersuchten direkt die Wirkung von Omeprazol auf DGR/DGOR in Reflux-Populationen und bieten eine plausible mechanistische Brücke von der ursprünglichen Säuresuppressions-Indikation zu diesem neuen Ziel.
 
-However, the mechanistic picture is not uniformly favorable: multiple animal studies (PMID 10389684, 8943968, 33027361, 15052437) report that gastric acid blockade with omeprazole (and other PPIs) may *potentiate* mucosal growth stimulation and gastric carcinogenesis when combined with DGR, since higher intragastric pH can increase bile cytotoxicity. This nuance should be weighed carefully rather than treated as a straightforward "efficacy" signal.
+Das mechanistische Bild ist jedoch nicht durchweg günstig: Mehrere Tierstudien (PMID 10389684, 8943968, 33027361, 15052437) berichten, dass die Blockade der Magensäure mit Omeprazol (und anderen PPIs) die Mukosawachstumsstimulierung und Magenkarzinogenese potenzieren kann, wenn sie mit DGR kombiniert wird, da ein höherer intragastraler pH die Gallenzytotoxizität erhöhen kann. Diese Nuance sollte sorgfältig abgewogen werden, anstatt sie als ein unkompliziertes „Wirksamkeits"-Signal zu behandeln.
 
-## Clinical Trial Evidence
+## Evidenz aus klinischen Studien
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Trial-Nummer | Phase | Status | Einschreibungen | Wichtigste Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT02685150](https://clinicaltrials.gov/study/NCT02685150) | NA | Completed | 157 | Evaluated endoscopic Tri-Modal Imaging (NBI/AFI/WLI) to distinguish functional dyspepsia from acid/bile reflux disease; not a treatment-efficacy trial for omeprazole itself |
+| [NCT02685150](https://clinicaltrials.gov/study/NCT02685150) | NA | Abgeschlossen | 157 | Untersuchte endoskopische Tri-Modal-Bildgebung (NBI/AFI/WLI) zur Unterscheidung von funktioneller Dyspepsie von Säure-/Gallenreflux-Erkrankung; keine Behandlungs-Wirksamkeitsstudie für Omeprazol selbst |
 
-## Literature Evidence
+## Literaturbeweise
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Zeitschrift | Wichtigste Ergebnisse |
 |------|-----|------|------|---------|
-| [9824338](https://pubmed.ncbi.nlm.nih.gov/9824338/) | 1998 | Clinical study | Gut | Omeprazole 20mg BID effect on duodenogastric and duodenogastro-oesophageal bile reflux in Barrett's oesophagus |
-| [10994616](https://pubmed.ncbi.nlm.nih.gov/10994616/) | 2000 | Clinical study | Scand J Gastroenterol | Effect of omeprazole on antral duodenogastric reflux in Barrett oesophagus |
-| [19491829](https://pubmed.ncbi.nlm.nih.gov/19491829/) | 2009 | Clinical study | Am J Gastroenterol | Compared degree of DGER/acid reflux between PPI responders and non-responders |
-| [16641575](https://pubmed.ncbi.nlm.nih.gov/16641575/) | 2006 | Clinical (prospective) | J Pediatr Gastroenterol Nutr | Prospective study of omeprazole for oesophageal bile reflux in children |
-| [12836018](https://pubmed.ncbi.nlm.nih.gov/12836018/) | 2003 | Case series | Eur J Pediatr | Description of primary duodenogastric reflux in children/adolescents |
-| [18679668](https://pubmed.ncbi.nlm.nih.gov/18679668/) | 2008 | Review | Eur J Clin Pharmacol | Review of PPI clinical use and pharmacokinetics (contextualizes original indications) |
-| [33027361](https://pubmed.ncbi.nlm.nih.gov/33027361/) | 2020 | Preclinical (rat) | Acta Cir Bras | Investigated whether omeprazole is protective against gastric adenocarcinoma under induced DGR |
-| [10389684](https://pubmed.ncbi.nlm.nih.gov/10389684/) | 1999 | Preclinical (rat) | Dig Dis Sci | ⚠️ Gastric acid blockade with omeprazole promoted gastric carcinogenesis induced by DGR |
-| [8943968](https://pubmed.ncbi.nlm.nih.gov/8943968/) | 1996 | Preclinical (rat) | Dig Dis Sci | ⚠️ DGR-induced foregut mucosal growth stimulation potentiated by gastric acid blockade (omeprazole arm) |
-| [15052437](https://pubmed.ncbi.nlm.nih.gov/15052437/) | 2004 | Preclinical (rat) | Gastric Cancer | ⚠️ Related PPI (lansoprazole) promoted gastric carcinogenesis in rats with DGR — class-effect caution |
+| [9824338](https://pubmed.ncbi.nlm.nih.gov/9824338/) | 1998 | Klinische Studie | Gut | Auswirkung von Omeprazol 20 mg 2×täglich auf duodenogastrale und duodenogastro-ösophageale Gallenreflux bei Barrett-Ösophagus |
+| [10994616](https://pubmed.ncbi.nlm.nih.gov/10994616/) | 2000 | Klinische Studie | Scand J Gastroenterol | Auswirkung von Omeprazol auf antrale duodenogastrale Reflux bei Barrett-Ösophagus |
+| [19491829](https://pubmed.ncbi.nlm.nih.gov/19491829/) | 2009 | Klinische Studie | Am J Gastroenterol | Vergleich des Ausmaßes von DGER/Säurereflux zwischen PPI-Respondern und Nicht-Respondern |
+| [16641575](https://pubmed.ncbi.nlm.nih.gov/16641575/) | 2006 | Klinische (prospektiv) | J Pediatr Gastroenterol Nutr | Prospektive Studie von Omeprazol für ösophageale Gallenreflux bei Kindern |
+| [12836018](https://pubmed.ncbi.nlm.nih.gov/12836018/) | 2003 | Fallserie | Eur J Pediatr | Beschreibung der primären duodenogastralen Reflux bei Kindern/Jugendlichen |
+| [18679668](https://pubmed.ncbi.nlm.nih.gov/18679668/) | 2008 | Übersichtsarbeit | Eur J Clin Pharmacol | Übersicht über klinische PPI-Verwendung und Pharmakokinetik (kontextualisiert ursprüngliche Indikationen) |
+| [33027361](https://pubmed.ncbi.nlm.nih.gov/33027361/) | 2020 | Präklinisch (Ratte) | Acta Cir Bras | Untersuchung, ob Omeprazol schützend gegen Magenkarzinom unter induzierter DGR wirkt |
+| [10389684](https://pubmed.ncbi.nlm.nih.gov/10389684/) | 1999 | Präklinisch (Ratte) | Dig Dis Sci | ⚠️ Blockade der Magensäure mit Omeprazol potenzierte durch DGR induzierte Magenkarzinogenese |
+| [8943968](https://pubmed.ncbi.nlm.nih.gov/8943968/) | 1996 | Präklinisch (Ratte) | Dig Dis Sci | ⚠️ Durch DGR induzierte Vorderdarm-Mukosawachstumsstimulierung potenziert durch Blockade der Magensäure (Omeprazol-Arm) |
+| [15052437](https://pubmed.ncbi.nlm.nih.gov/15052437/) | 2004 | Präklinisch (Ratte) | Gastric Cancer | ⚠️ Verwandter PPI (Lansoprazol) förderte Magenkarzinogenese bei Ratten mit DGR — Vorsicht vor Klassenwirkung |
 
-## Germany Market Information
+## Marktinformation für Deutschland
 
-Omeprazole currently has no marketing authorization records in the German regulatory dataset provided (0 licenses, market status: Not Marketed).
+Omeprazol verfügt derzeit über keine Zulassungseinträge in dem bereitgestellten deutschen Zulassungsdatensatz (0 Lizenzen, Marktstatus: Nicht vermarktet).
 
-## Safety Considerations
+## Sicherheitsüberlegungen
 
-> Please refer to the package insert for safety information.
+> Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
 
-**Important caveat:** The evidence pack flags a **Blocking** data gap (DG001) — TFDA/regulatory label warnings and contraindications have not yet been retrieved — which by definition prevents this candidate from entering the S1 safety pre-assessment stage. Additionally, DrugBank DDI query returned no results (`query_status: not_found`), so no drug interaction data could be evaluated at this time.
+**Wichtiger Vorbehalt:** Das Evidenzpaket kennzeichnet eine **Blockierend**-Datenlücke (DG001) — TFDA/behördliche Etikettwarnungen und Kontraindikationen wurden noch nicht abgerufen — die per Definition diese Kandidatin daran hindert, in das obligatorische S1-Sicherheits-Screening einzutreten. Darüber hinaus gab die DrugBank-DDI-Abfrage keine Ergebnisse zurück (`query_status: not_found`), daher konnten zu diesem Zeitpunkt keine Wechselwirkungsdaten ausgewertet werden.
 
-## Conclusion and Next Steps
+## Schlussfolgerung und nächste Schritte
 
-**Decision: Hold**
+**Entscheidung: Zurückgestellt**
 
-**Rationale:**
-While duodenogastric reflux shows plausible mechanistic rationale and moderate (L3) observational clinical evidence, a **Blocking-severity data gap** on regulatory safety labeling (warnings/contraindications) prevents completion of the mandatory S1 safety screen. This is compounded by a notable safety signal in preclinical literature suggesting acid suppression may potentiate gastric carcinogenesis in the presence of chronic DGR — a risk that must be resolved before advancing.
+**Begründung:**
+Während der duodenogastrale Reflux plausible mechanistische Rationale und moderate (L3) beobachtende klinische Evidenz zeigt, hindert eine Datenlücke von **Blockierend**-Schweregrad bei behördlichen Sicherheitsetiketten (Warnungen/Kontraindikationen) die Vervollständigung des obligatorischen S1-Sicherheits-Screenings. Dies wird durch ein bemerkenswertes Sicherheitssignal in der präklinischen Literatur verstärkt, das nahelegt, dass Säuresuppression die Magenkarzinogenese in Gegenwart chronischer DGR potenzieren kann — ein Risiko, das vor dem Fortschreiten gelöst werden muss.
 
-**To proceed, the following is needed:**
-- Retrieve TFDA (or equivalent) product label for warnings/contraindications (DG001, Blocking)
-- Retrieve DrugBank MOA data to support formal mechanistic-link scoring (DG002, High)
-- Complete a DDI database query (current status: not found)
-- Formally reconcile the conflicting evidence base — clinical studies suggesting symptomatic benefit vs. animal studies suggesting a long-term carcinogenesis risk under chronic acid suppression with DGR
-- Note: the secondary predicted indication (duodenal obstruction, rank 2) was already internally scored as L4/S0/**Hold** in this evidence pack, consistent with the overall conservative recommendation for this candidate
+**Um fortzufahren, ist Folgendes erforderlich:**
+- TFDA (oder gleichwertiges) Produktetikett für Warnungen/Kontraindikationen abrufen (DG001, Blockierend)
+- DrugBank MOA-Daten abrufen zur Unterstützung der formalen mechanistischen Link-Bewertung (DG002, Hoch)
+- Vollständige DDI-Datenbankabfrage durchführen (aktueller Status: nicht gefunden)
+- Formal die widersprüchliche Evidenzbasis abstimmen — klinische Studien, die symptomatischen Nutzen nahelegen, versus Tierstudien, die ein langfristiges Karzinogenese-Risiko unter chronischer Säuresuppression mit DGR nahelegen
+- Anmerkung: die sekundäre vorhergesagte Indikation (Duodenale Obstruktion, Rang 2) wurde bereits intern als L4/S0/**Zurückgestellt** in diesem Evidenzpaket bewertet, konsistent mit der insgesamt konservativen Empfehlung für diesen Kandidaten
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -29,78 +29,79 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Evolocumab: From Unconfirmed Original Indication to Symptomatic Hemophilia in Female Carriers (Low-Confidence Prediction)
+# Evolocumab: Von unbestätigter Originalindikation zu symptomatischer Hämophilie bei weiblichen Trägern (Vorhersage mit niedriger Konfidenz)
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Evolocumab is an anti-PCSK9 monoclonal antibody; its confirmed original indication is not present in this evidence pack (data gap), though the drug's known mechanism — enhancing LDLR recycling to lower LDL-C — is referenced in the model's own rationale text.
-> The TxGNN model's top-ranked prediction is that evolocumab may be effective for **symptomatic hemophilia in female carriers**, but the model's own mechanistic rationale explicitly finds **no biological plausibility** and even suggests an opposing pharmacological direction (PCSK9 inhibition tends to reduce thrombotic tendency, not promote hemostasis).
-> There are **0 clinical trials** and **0 publications** supporting this prediction — this is a pure model-output signal (Evidence Level L5), with no human or preclinical corroboration.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available in evidence pack (data gap); rationale text indicates known MOA relates to LDL-C lowering via PCSK9/LDLR pathway |
-| Predicted New Indication | Symptomatic form of hemophilia in female carriers |
-| TxGNN Prediction Score | 99.82% |
-| Evidence Level | L5 |
-| Taiwan Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Evolocumab ist ein monoklonaler Anti-PCSK9-Antikörper; seine bestätigte Originalindikation ist nicht in diesem Evidenzpaket vorhanden (Datenlücke), obwohl der bekannte Wirkmechanismus des Arzneistoffs – Verbesserung des LDLR-Recyclings zur Senkung von LDL-C – im Begründungstext des Modells selbst erwähnt wird.
+> Die vom TxGNN-Modell am höchsten bewertete Vorhersage ist, dass Evolocumab möglicherweise wirksam gegen **symptomatische Hämophilie bei weiblichen Trägern** ist, aber die Begründung des Modells stellt selbst fest, dass es **keine biologische Plausibilität** gibt und deutet sogar auf eine entgegengesetzte pharmakologische Richtung hin (PCSK9-Hemmung neigt dazu, die thrombotische Tendenz zu verringern, nicht die Hämostase zu fördern).
+> Es gibt **0 klinische Studien** und **0 Publikationen**, die diese Vorhersage stützen – dies ist ein reines Modellausgabesignal (Evidenzstufe L5), ohne menschliche oder präklinische Bestätigung.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Detailed mechanism of action data for evolocumab is officially flagged as a data gap in this evidence pack (DG002, High severity). Based on the mechanistic rationale text that accompanies the prediction itself, evolocumab is an anti-PCSK9 monoclonal antibody that reduces LDL-C by preventing PCSK9-mediated degradation of the LDL receptor (LDLR), thereby increasing LDLR recycling and hepatic clearance of LDL cholesterol.
-
-There is no known mechanistic pathway connecting PCSK9/LDLR biology to hemophilia, a disorder caused by deficiency or dysfunction of coagulation factors (e.g., Factor VIII/IX in classic hemophilia). The evidence pack's own rationale text goes further and notes that some preliminary literature suggests PCSK9 inhibition may actually **reduce** thrombotic tendency — a direction opposite to what would be therapeutically useful in a bleeding disorder. This strongly suggests the TxGNN score reflects a graph-topology artifact (e.g., shared comorbidity nodes or proxy connections in the knowledge graph) rather than a genuine pharmacological signal.
-
-In short: this is a high-scoring model output with an explicit negative mechanistic assessment attached to it. It should not be treated as evidence of therapeutic potential without independent confirmation.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Inhalt |
+|---------|--------|
+| Originalindikation | Nicht im Evidenzpaket verfügbar (Datenlücke); der Begründungstext deutet darauf hin, dass der bekannte Wirkmechanismus mit der LDL-C-Senkung über den PCSK9/LDLR-Weg zusammenhängt |
+| Vorhergesagte neue Indikation | Symptomatische Form der Hämophilie bei weiblichen Trägern |
+| TxGNN-Vorhersage-Score | 99.82% |
+| Evidenzstufe | L5 |
+| Taiwan-Marktstatus | Nicht vermarktet (Not marketed) |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Zurückhalten |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage angemessen?
 
-Currently no related literature available.
+Detaillierte Daten zum Wirkmechanismus von Evolocumab sind in diesem Evidenzpaket ausdrücklich als Datenlücke gekennzeichnet (DG002, hohe Schwere). Basierend auf dem Begründungstext, der die Vorhersage selbst begleitet, ist Evolocumab ein monoklonaler Anti-PCSK9-Antikörper, der LDL-C senkt, indem er den PCSK9-vermittelten Abbau des LDL-Rezeptors (LDLR) verhindert, wodurch das LDLR-Recycling und die hepatische Clearance von LDL-Cholesterin erhöht werden.
 
----
+Es gibt keinen bekannten mechanistischen Weg, der PCSK9/LDLR-Biologie mit Hämophilie verbindet, einer Erkrankung, die durch Mangel oder Dysfunktion von Gerinnungsfaktoren verursacht wird (z. B. Faktor VIII/IX bei klassischer Hämophilie). Der Begründungstext des Evidenzpakets selbst geht noch weiter und merkt an, dass erste Literaturhinweise darauf deuten, dass PCSK9-Hemmung tatsächlich die thrombotische Tendenz **verringern** kann – eine Richtung, die dem widerspricht, was therapeutisch in einer Blutungsgerinnungsstörung nützlich wäre. Dies deutet stark darauf hin, dass der TxGNN-Score ein Graph-Topologie-Artefakt widerspiegelt (z. B. gemeinsame Komorbiditätsknoten oder Proxy-Verbindungen im Wissensgraph) statt eines echten pharmakologischen Signals.
 
-## Taiwan Market Information
-
-No TFDA-approved licenses are on file for evolocumab in this evidence pack (`total_licenses: 0`). The drug's market status is recorded as **Not marketed (Not marketed)** in Taiwan as of the data cutoff (2026-09-03).
+Kurz gesagt: Dies ist eine hochbewertete Modellausgabe mit einer expliziten negativen mechanistischen Bewertung. Sie sollte nicht als Beleg für therapeutisches Potenzial ohne unabhängige Bestätigung behandelt werden.
 
 ---
 
-## Safety Considerations
+## Klinische Studienbelege
 
-Please refer to the package insert for safety information.
-
-*Note: TFDA label warnings and contraindications could not be retrieved for this evaluation (DG001, Blocking severity) — this gap must be resolved before any S1 safety pre-screening can proceed.*
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Conclusion and Next Steps
+## Literaturbelege
 
-**Decision: Hold**
+Derzeit ist keine zugehörige Literatur verfügbar.
 
-**Rationale:**
-The top-ranked predicted indication (and all five other candidates in this pack) has zero supporting clinical trials or literature, and the model's own mechanistic rationale explicitly argues against biological plausibility — in several cases citing a pharmacologically opposing direction. Additionally, a Blocking-severity data gap (missing TFDA label/warnings) prevents any safety pre-screening. There is no basis to advance past model-output-only evidence at this time.
+---
 
-**To proceed, the following is needed:**
-- Resolve DG001 (Blocking): retrieve and parse TFDA label PDF for warnings/contraindications
-- Resolve DG002 (High): retrieve confirmed MOA and original indication(s) from DrugBank API
-- If pursued further, commission a targeted literature/preclinical search specifically testing PCSK9 inhibition in bleeding-disorder models, given the rationale text's explicit concern about opposing mechanism of action
-- Given all 6 ranked candidates in this pack share L5 evidence and Hold status with weak-to-negative mechanistic support, consider deprioritizing this candidate (DB09303) relative to other repurposing candidates with stronger biological rationale
+## Taiwan-Marktinformationen
+
+Für Evolocumab liegen in diesem Evidenzpaket keine von der TFDA genehmigten Lizenzen vor (`total_licenses: 0`). Der Marktstatus des Arzneistoffs wird als **Nicht vermarktet (Not marketed)** in Taiwan zum Zeitpunkt des Datenschnitts (2026-09-03) verzeichnet.
+
+---
+
+## Sicherheitsüberlegungen
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+*Hinweis: TFDA-Kennzeichnungswarnungen und Gegenanzeigen konnten für diese Bewertung nicht abgerufen werden (DG001, blockierende Schwere) – diese Lücke muss behoben werden, bevor eine Sicherheits-Vorprüfung in Phase S1 durchgeführt werden kann.*
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Zurückhalten**
+
+**Begründung:**
+Die am höchsten bewertete vorhergesagte Indikation (und alle fünf anderen Kandidaten in diesem Paket) hat null unterstützende klinische Studien oder Literatur, und die Begründung des Modells selbst argumentiert ausdrücklich gegen biologische Plausibilität – in mehreren Fällen wird eine pharmakologisch entgegengesetzte Richtung zitiert. Darüber hinaus verhindert eine blockierende Datenlücke (fehlende TFDA-Kennzeichnung/Warnungen) eine Sicherheits-Vorprüfung. Es gibt derzeit keine Grundlage, um das bloße Modellausgabe-Evidenzniveau zu überschreiten.
+
+**Um fortzufahren, ist folgendes erforderlich:**
+- DG001 (blockierend) auflösen: TFDA-Etikett-PDF für Warnungen/Gegenanzeigen abrufen und analysieren
+- DG002 (hoch) auflösen: bestätigte Wirkmechanismen und Originalindikation(en) aus der DrugBank-API abrufen
+- Falls weiter verfolgt wird, eine gezielte Literatur-/präklinische Suche durchführen, die speziell PCSK9-Hemmung in Blutungsgerinnungsstörungsmodellen testet, angesichts der ausdrücklichen Sorge des Begründungstextes über entgegengesetzten Wirkmechanismus
+- Da alle 6 bewerteten Kandidaten in diesem Paket L5-Evidenz und Zurückhalten-Status mit schwacher bis negativer mechanistischer Unterstützung teilen, erwägen Sie, diesen Kandidaten (DB09303) gegenüber anderen Repurposing-Kandidaten mit stärkerer biologischer Begründung zu deprioritisieren
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

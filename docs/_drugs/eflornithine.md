@@ -29,76 +29,75 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Eflornithine: From African Trypanosomiasis to Esotropia
+# Eflornithine: Von der Afrikanischen Trypanosomiasis zur Esotropie
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Eflornithine is an irreversible ornithine decarboxylase (ODC) inhibitor historically used to treat African trypanosomiasis (sleeping sickness), and in topical form to reduce facial hirsutism.
-The TxGNN model predicts it may be effective for **Esotropia**, but currently **no clinical trials** and **no literature** support this direction —
-the prediction rests solely on a graph-based statistical association, with no established pharmacological mechanism connecting polyamine synthesis inhibition to extraocular muscle control.
+Eflornithine ist ein irreversibler Inhibitor der Ornithindecarboxylase (ODC), der historisch zur Behandlung der Afrikanischen Trypanosomiasis (Schlafkrankheit) und in topischer Form zur Reduktion von Gesichtshaarverschuss verwendet wird. Das TxGNN-Modell sagt voraus, dass es wirksam gegen **Esotropie** sein könnte, aber derzeit gibt es **keine klinischen Studien** und **keine Literatur**, die diese Richtung unterstützt – die Vorhersage beruht allein auf einer graphengestützten statistischen Assoziation, ohne einen etablierten pharmakologischen Mechanismus, der die Inhibition der Polyaminsynthese mit der Kontrolle der extraokularen Muskulatur verbindet.
 
 ---
 
-## Quick Overview
+## Kurzübersicht
 
-| Item | Content |
-|------|------|
-| Original Indication | African trypanosomiasis (sleeping sickness); topical use for facial hirsutism (regulatory filing data not available) |
-| Predicted New Indication | Esotropia |
-| TxGNN Prediction Score | 99.85% |
-| Evidence Level | L5 |
-| Taiwan Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
-
----
-
-## Why is This Prediction Reasonable?
-
-A formal, sourced mechanism-of-action record is not currently available for this drug (data gap). Based on known pharmacology referenced in the evidence pack, eflornithine is an irreversible inhibitor of ornithine decarboxylase (ODC), the rate-limiting enzyme in polyamine synthesis. It is clinically used for African trypanosomiasis and, topically, to slow facial hair growth by suppressing polyamine-dependent hair follicle cell activity.
-
-Esotropia is a condition of inward eye deviation, primarily driven by extraocular muscle tone imbalance or neural (cranial nerve) control dysfunction. There is no known biological pathway linking polyamine synthesis inhibition to extraocular muscle innervation or tone regulation. The high TxGNN score most likely reflects a statistical pattern learned from the knowledge graph's structure rather than a genuine pharmacological relationship, and no mechanistic hypothesis in the evidence pack supports this link.
-
-A second predicted indication, **neurotrophic keratopathy**, was also flagged (TxGNN score 99.38%, rank 6845). Here the mechanistic direction is arguably counterproductive: polyamines support cell proliferation and wound healing, so ODC inhibition could theoretically impair corneal epithelial regeneration rather than help it. This indication is included for transparency but is not the primary focus of this report.
+| Punkt | Inhalt |
+|-------|--------|
+| Ursprüngliche Indikation | Afrikanische Trypanosomiasis (Schlafkrankheit); topische Anwendung bei Gesichtshaarverschuss (regulatorische Einreichungsdaten nicht verfügbar) |
+| Vorhergesagte neue Indikation | Esotropie |
+| TxGNN-Vorhersagepunktzahl | 99.85% |
+| Evidenzstufe | L5 |
+| Taiwan-Marktstatus | Nicht auf dem Markt |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | Warten |
 
 ---
 
-## Clinical Trial Evidence
+## Warum ist diese Vorhersage vertretbar?
 
-Currently no related clinical trials registered.
+Ein formales, quellengestütztes Wirkungsmechanismus-Dokument ist derzeit für dieses Arzneimittel nicht verfügbar (Datenlücke). Basierend auf der bekannten Pharmakologie, die im Evidenzpaket referenziert wird, ist Eflornithine ein irreversibler Inhibitor der Ornithindecarboxylase (ODC), des geschwindigkeitsbegrenzenden Enzyms in der Polyaminsynthese. Es wird klinisch zur Behandlung der Afrikanischen Trypanosomiasis und topisch verwendet, um das Haarwachstum zu verlangsamen, indem es die polyaminabhängige Aktivität von Haarfollikelzellen unterdrückt.
 
----
+Esotropie ist ein Zustand der nach innen gerichteten Augenabweichung, der hauptsächlich durch ein Ungleichgewicht der extraokularen Muskelspannung oder eine Dysfunktion der neuralen (Hirnnerven-)Kontrolle verursacht wird. Es gibt keinen bekannten biologischen Weg, der die Inhibition der Polyaminsynthese mit der Innervation oder Tonusregulation der extraokularen Muskulatur verbindet. Die hohe TxGNN-Punktzahl spiegelt wahrscheinlich ein statistisches Muster wider, das das Modell aus der Struktur des Wissensgraphen gelernt hat, statt einer echten pharmakologischen Beziehung, und keine mechanistische Hypothese im Evidenzpaket unterstützt diesen Zusammenhang.
 
-## Literature Evidence
-
-Currently no related literature available.
+Eine zweite vorhergesagte Indikation, **neurotrophische Keratopathie**, wurde ebenfalls gekennzeichnet (TxGNN-Punktzahl 99.38%, Rang 6845). Hier ist die mechanistische Richtung möglicherweise kontraproduktiv: Polyamine unterstützen Zellproliferation und Wundheilung, daher könnte ODC-Inhibition die Regeneration des Hornhautepithels eher beeinträchtigen als helfen. Diese Indikation wird hier aus Transparenzgründen aufgeführt, ist aber nicht der Hauptschwerpunkt dieses Berichts.
 
 ---
 
-## Taiwan Market Information
+## Klinische Studienbelege
 
-Eflornithine is currently **not marketed** in Taiwan, and no license/authorization records are available in this evidence pack (0 total licenses).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+Derzeit keine verwandten klinischen Studien registriert.
 
 ---
 
-## Conclusion and Next Steps
+## Literaturbelege
 
-**Decision: Hold**
+Derzeit keine verwandte Literatur verfügbar.
 
-**Rationale:**
-There is no clinical trial or literature evidence for eflornithine in esotropia, and no plausible mechanistic link between ODC/polyamine inhibition and extraocular muscle or neural control. With evidence level L5 (model prediction only), this candidate does not meet the threshold to advance.
+---
 
-**To proceed, the following is needed:**
-- Verified, sourced mechanism-of-action (MOA) data for eflornithine (currently a data gap)
-- TFDA-sourced package insert warnings and contraindications (currently a data gap; classified as Blocking for safety pre-screening)
-- Preclinical or mechanistic studies exploring any plausible link between polyamine metabolism and ocular motor pathways, if this candidate is to be pursued further
-- Ongoing monitoring for newly registered trials or publications on eflornithine in ophthalmic indications
+## Taiwan-Marktinformationen
+
+Eflornithine ist derzeit **nicht auf dem Markt** in Taiwan, und es sind keine Lizenz-/Genehmigungsunterlagen im Evidenzpaket verfügbar (insgesamt 0 Lizenzen).
+
+---
+
+## Sicherheitsüberlegungen
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Warten**
+
+**Begründung:**
+Es gibt keinen klinischen Studien- oder Literaturbeleg für Eflornithine bei Esotropie, und es gibt keinen plausiblen mechanistischen Zusammenhang zwischen ODC/Polyamin-Inhibition und extraokularer Muskulatur oder neuraler Kontrolle. Mit einer Evidenzstufe L5 (nur Modellvorhersage) erfüllt dieser Kandidat nicht die Schwelle, um voranzukommen.
+
+**Um voranzukommen, wird Folgendes benötigt:**
+- Verifizierte, quellengestützte Wirkungsmechanismus-(MOA-)Daten für Eflornithine (derzeit eine Datenlücke)
+- TFDA-gestützte Packungsbeilage-Warnungen und Kontraindikationen (derzeit eine Datenlücke; als Blockierend für die Sicherheits-Vorprüfung klassifiziert)
+- Präklinische oder mechanistische Studien, die einen plausiblen Zusammenhang zwischen Polyaminstoffwechsel und okulomotorischen Wegen erkunden, falls dieser Kandidat weiterverfolgt werden soll
+- Laufende Überwachung neu registrierter Studien oder Veröffentlichungen zu Eflornithine bei ophthalmologischen Indikationen
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

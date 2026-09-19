@@ -29,142 +29,143 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Iron (DB01592): From an Undocumented Original Indication to Iron-Deficiency-Related Disorders
+# Eisen (Iron, DB01592): Von einer nicht dokumentierten ursprünglichen Indikation zu eisenmangelbedingten Erkrankungen
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-This evidence pack contains no confirmed original indication, mechanism of action, or German market authorization for Iron (DrugBank ID DB01592) — it is currently **not marketed** in Germany with 0 authorizations on file. TxGNN generated **six** candidate indications; after evidence review, only two are clinically coherent extensions of iron's known role in correcting iron deficiency — **Vitamin/Mineral Deficiency Disorder** (L2 evidence, multiple completed Phase 2–4 RCTs) and **Plummer-Vinson syndrome** (L4 evidence, 20 supporting publications) — while the remaining four candidates lack mechanistic plausibility and are flagged as likely prediction noise.
+Dieses Evidenzpaket enthält keine bestätigte ursprüngliche Indikation, keinen Wirkmechanismus und keine deutsche Marktzulassung für Eisen (DrugBank-ID DB01592) — der Wirkstoff ist derzeit in Deutschland **nicht vermarktet**, mit 0 erfassten Zulassungen. TxGNN generierte **sechs** Kandidatenindikationen; nach Evidenzprüfung sind nur zwei klinisch schlüssige Erweiterungen der bekannten Rolle von Eisen bei der Korrektur von Eisenmangel — **Vitamin-/Mineralstoffmangelerkrankung** (L2-Evidenz, mehrere abgeschlossene Phase-2–4-RCTs) und **Plummer-Vinson-Syndrom** (L4-Evidenz, 20 unterstützende Publikationen) —, während den übrigen vier Kandidaten die mechanistische Plausibilität fehlt und sie als wahrscheinliches Vorhersagerauschen markiert werden.
 
 ---
 
-## Quick Overview
+## Kurzübersicht
 
-| Item | Content |
+| Punkt | Inhalt |
 |------|------|
-| Original Indication | Not documented in this evidence pack (Data Gap) |
-| Predicted New Indication (primary) | Vitamin/Mineral Deficiency Disorder (i.e., iron deficiency correction) |
-| Predicted New Indication (secondary) | Plummer-Vinson Syndrome |
-| TxGNN Prediction Score (primary) | 99.68% |
-| TxGNN Prediction Score (secondary) | 99.89% |
-| Evidence Level (primary) | L2 |
-| Evidence Level (secondary) | L4 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails (iron-deficiency-related indications only) |
+| Ursprüngliche Indikation | In diesem Evidenzpaket nicht dokumentiert (Datenlücke) |
+| Vorhergesagte neue Indikation (primär) | Vitamin-/Mineralstoffmangelerkrankung (d. h. Korrektur von Eisenmangel) |
+| Vorhergesagte neue Indikation (sekundär) | Plummer-Vinson-Syndrom |
+| TxGNN-Vorhersage-Score (primär) | 99.68% |
+| TxGNN-Vorhersage-Score (sekundär) | 99.89% |
+| Evidenzgrad (primär) | L2 |
+| Evidenzgrad (sekundär) | L4 |
+| Marktstatus Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Mit Leitplanken fortfahren (nur eisenmangelbedingte Indikationen) |
 
-### All Six Candidates at a Glance
+### Alle sechs Kandidaten im Überblick
 
-| Rank | Predicted Indication | Score | Evidence Level | Decision Stage | Recommendation | Note |
+| Rang | Vorhergesagte Indikation | Score | Evidenzgrad | Entscheidungsstufe | Empfehlung | Anmerkung |
 |---|---|---|---|---|---|---|
-| 1 | Vitamin B12/folate-independent megaloblastic anemia | 99.89% | L5 | S0 | Hold | No trials or literature; TxGNN rationale flags this as a likely spurious "anemia" semantic association — iron has no known mechanism to correct this genetic condition |
-| 2 | **Plummer-Vinson syndrome** | 99.89% | L4 | S2 | **Proceed with Guardrails** | 20 supporting publications; iron deficiency is the established etiology of this syndrome |
-| 3 | Non-syndromic esophageal malformation | 99.86% | L5 | S0 | Hold | Structural congenital defect; no evidence, no plausible mechanism |
-| 4 | Biotin metabolic disease | 99.74% | L4 | S0 | Hold | Cited trials are generic multi-micronutrient studies (mostly graded C relevance), not biotin-disease-specific |
-| 5 | **Vitamin deficiency disorder** | 99.68% | L2 | S2 | **Proceed with Guardrails** | Strongest evidence base of all six candidates; note the disease label is an ontology mismatch (iron is a mineral, not a vitamin) |
-| 6 | Esophageal disease | 99.42% | L4 | S1 | Research Question | Mixed evidence; only iron-deficiency-linked esophageal subtypes (e.g., webs) are relevant |
+| 1 | Vitamin-B12-/Folat-unabhängige megaloblastäre Anämie | 99.89% | L5 | S0 | Zurückstellen | Keine Studien oder Literatur vorhanden; die TxGNN-Begründung weist dies als wahrscheinlich falsche semantische Assoziation über „Anämie" aus — Eisen hat keinen bekannten Mechanismus, um diese genetische Erkrankung zu korrigieren |
+| 2 | **Plummer-Vinson-Syndrom** | 99.89% | L4 | S2 | **Mit Leitplanken fortfahren** | 20 unterstützende Publikationen; Eisenmangel ist die etablierte Ätiologie dieses Syndroms |
+| 3 | Nicht-syndromale ösophageale Fehlbildung | 99.86% | L5 | S0 | Zurückstellen | Struktureller angeborener Defekt; keine Evidenz, kein plausibler Mechanismus |
+| 4 | Biotin-Stoffwechselerkrankung | 99.74% | L4 | S0 | Zurückstellen | Die zitierten Studien sind generische Multi-Mikronährstoff-Studien (überwiegend mit Relevanzgrad C bewertet), nicht spezifisch für die Biotin-Erkrankung |
+| 5 | **Vitaminmangelerkrankung** | 99.68% | L2 | S2 | **Mit Leitplanken fortfahren** | Stärkste Evidenzbasis aller sechs Kandidaten; zu beachten ist, dass die Krankheitsbezeichnung eine Ontologie-Diskrepanz darstellt (Eisen ist ein Mineralstoff, kein Vitamin) |
+| 6 | Ösophaguserkrankung | 99.42% | L4 | S1 | Forschungsfrage | Gemischte Evidenzlage; nur eisenmangelassoziierte ösophageale Subtypen (z. B. Schleimhautstege) sind relevant |
 
 ---
 
-## Why Are These Predictions Reasonable?
+## Warum sind diese Vorhersagen plausibel?
 
-Currently, detailed mechanism of action data for this drug entry is not available. Based on known information, Iron (DB01592) is an essential trace mineral used across many pharmaceutical formulations for the correction of iron deficiency and iron deficiency anemia; its central role is in hemoglobin synthesis, oxygen transport, and mitochondrial/enzymatic cofactor function.
+Derzeit liegen für diesen Wirkstoffeintrag keine detaillierten Daten zum Wirkmechanismus vor. Nach bekanntem Kenntnisstand ist Eisen (DB01592) ein essenzielles Spurenelement, das in zahlreichen Arzneiformen zur Korrektur von Eisenmangel und Eisenmangelanämie eingesetzt wird; seine zentrale Rolle liegt in der Hämoglobinsynthese, dem Sauerstofftransport und der Funktion als mitochondrialer/enzymatischer Kofaktor.
 
-The two evidence-supported candidates are not truly "novel" indications but rather **direct extensions of iron's already-established therapeutic role**:
+Die beiden evidenzgestützten Kandidaten stellen keine wirklich „neuartigen" Indikationen dar, sondern vielmehr **direkte Erweiterungen der bereits etablierten therapeutischen Rolle von Eisen**:
 
-- **Vitamin/Mineral Deficiency Disorder**: The clinical trial evidence base (pregnancy, heart failure with reduced ejection fraction, post-bariatric surgery, pediatric growth, unexplained anemia of the elderly) consistently tests iron supplementation for correcting measurable iron deficiency. The "vitamin" label is a taxonomic artifact of the disease ontology used by TxGNN — iron deficiency is a mineral deficiency, not a vitamin deficiency — but the underlying clinical signal is real and mechanistically direct.
+- **Vitamin-/Mineralstoffmangelerkrankung**: Die klinische Studienevidenz (Schwangerschaft, Herzinsuffizienz mit reduzierter Ejektionsfraktion, nach bariatrischer Chirurgie, pädiatrisches Wachstum, ungeklärte Anämie im Alter) untersucht durchgängig die Eisensupplementierung zur Korrektur eines messbaren Eisenmangels. Die Bezeichnung „Vitamin" ist ein taxonomisches Artefakt der von TxGNN verwendeten Krankheitsontologie — Eisenmangel ist ein Mineralstoffmangel, kein Vitaminmangel —, aber das zugrunde liegende klinische Signal ist real und mechanistisch direkt.
 
-- **Plummer-Vinson syndrome**: This rare condition's core pathophysiology (dysphagia, esophageal web, iron-deficiency anemia) is *caused by* chronic iron deficiency, and iron repletion is already standard-of-care treatment reported to resolve symptoms and webs in the cited case series and reviews. This is less a "new hypothesis" than a confirmation that TxGNN correctly recovered a well-established clinical relationship.
+- **Plummer-Vinson-Syndrom**: Die Kernpathophysiologie dieser seltenen Erkrankung (Dysphagie, ösophagealer Schleimhautsteg, Eisenmangelanämie) wird *durch* chronischen Eisenmangel *verursacht*, und die Eisensubstitution ist bereits Standardtherapie, die in den zitierten Fallserien und Übersichtsarbeiten Symptome und Schleimhautstege nachweislich zur Rückbildung bringt. Dies ist weniger eine „neue Hypothese" als vielmehr eine Bestätigung, dass TxGNN eine gut etablierte klinische Beziehung korrekt erfasst hat.
 
-By contrast, candidates such as megaloblastic anemia (B12/folate-independent, i.e., not caused by iron deficiency), non-syndromic esophageal malformation (a structural congenital defect), and biotin metabolic disease show no mechanistic overlap with iron metabolism, and their supporting "evidence" consists of generically related multi-micronutrient studies rather than disease-specific data — consistent with the scoring engine's own assessment that these are likely artifacts of semantic similarity in the underlying knowledge graph rather than genuine biological signal.
+Im Gegensatz dazu zeigen Kandidaten wie die megaloblastäre Anämie (B12-/Folat-unabhängig, d. h. nicht durch Eisenmangel verursacht), die nicht-syndromale ösophageale Fehlbildung (ein struktureller angeborener Defekt) und die Biotin-Stoffwechselerkrankung keine mechanistische Überschneidung mit dem Eisenstoffwechsel, und ihre unterstützende „Evidenz" besteht aus generisch verwandten Multi-Mikronährstoff-Studien statt aus krankheitsspezifischen Daten — im Einklang mit der eigenen Einschätzung der Scoring-Engine, dass es sich hierbei eher um Artefakte semantischer Ähnlichkeit im zugrunde liegenden Wissensgraphen als um ein echtes biologisches Signal handelt.
 
 ---
 
-## Clinical Trial Evidence (Primary Candidate: Vitamin/Mineral Deficiency Disorder)
+## Klinische Studienevidenz (Primärer Kandidat: Vitamin-/Mineralstoffmangelerkrankung)
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Studiennummer | Phase | Status | Teilnehmerzahl | Wesentliche Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT01953107](https://clinicaltrials.gov/study/NCT01953107) | Phase 4 | Completed | 200 | Preoperative ferrous fumarate 300mg vs. placebo in newly diagnosed gynecologic oncology patients |
-| [NCT01904864](https://clinicaltrials.gov/study/NCT01904864) | Phase 4 | Completed | 80 | NovaFerrum® vs. ferrous sulfate for treatment of nutritional iron deficiency anemia in infants/young children |
-| [NCT04764955](https://clinicaltrials.gov/study/NCT04764955) | Phase 3 | Completed | 1,300 | Effect of maternal vitamin D3 supplementation on iron status during pregnancy and early infancy |
-| [NCT03079518](https://clinicaltrials.gov/study/NCT03079518) | Phase 2 | Completed | 23 | Ferric carboxymaltose single high-dose infusion effects on FGF23/phosphate metabolism in HFrEF with iron deficiency |
-| [NCT05185024](https://clinicaltrials.gov/study/NCT05185024) | N/A | Completed | 152 | Efficacy/safety of three oral iron-containing supplements for correcting hematological indices in iron-deficient adults |
-| [NCT01609387](https://clinicaltrials.gov/study/NCT01609387) | Phase 4 | Completed | 300 | Double-blind RCT of postoperative vitamin/mineral supplementation in morbidly obese patients |
-| [NCT03247816](https://clinicaltrials.gov/study/NCT03247816) | N/A | Completed | 59 | Real-world effectiveness of ferric maltol (Feraccru®) for iron deficiency anemia in IBD patients |
-| [NCT01572506](https://clinicaltrials.gov/study/NCT01572506) | Phase 1 | Completed | 58 | Mechanistic study of unexplained anemia in the elderly (red cell lifespan, iron-related) |
-| [NCT04561635](https://clinicaltrials.gov/study/NCT04561635) | N/A | Completed | 98 | Cluster RCT of multi-micronutrient supplementation on growth and iron status in indigenous children (Malaysia) |
-| [NCT03762148](https://clinicaltrials.gov/study/NCT03762148) | N/A | Completed | 46 | Dose-dependent effect of galacto-oligosaccharides (GOS) on iron absorption in women with low iron stores |
+| [NCT01953107](https://clinicaltrials.gov/study/NCT01953107) | Phase 4 | Abgeschlossen | 200 | Präoperatives Eisen(II)-fumarat 300mg vs. Placebo bei neu diagnostizierten gynäkologisch-onkologischen Patientinnen |
+| [NCT01904864](https://clinicaltrials.gov/study/NCT01904864) | Phase 4 | Abgeschlossen | 80 | NovaFerrum® vs. Eisen(II)-sulfat zur Behandlung der nutritiven Eisenmangelanämie bei Säuglingen/Kleinkindern |
+| [NCT04764955](https://clinicaltrials.gov/study/NCT04764955) | Phase 3 | Abgeschlossen | 1,300 | Wirkung der mütterlichen Vitamin-D3-Supplementierung auf den Eisenstatus während Schwangerschaft und früher Säuglingszeit |
+| [NCT03079518](https://clinicaltrials.gov/study/NCT03079518) | Phase 2 | Abgeschlossen | 23 | Wirkung einer einmaligen hochdosierten Ferric-Carboxymaltose-Infusion auf FGF23/Phosphatstoffwechsel bei HFrEF mit Eisenmangel |
+| [NCT05185024](https://clinicaltrials.gov/study/NCT05185024) | N/A | Abgeschlossen | 152 | Wirksamkeit/Sicherheit von drei oralen eisenhaltigen Nahrungsergänzungsmitteln zur Korrektur hämatologischer Indizes bei eisenmangelbetroffenen Erwachsenen |
+| [NCT01609387](https://clinicaltrials.gov/study/NCT01609387) | Phase 4 | Abgeschlossen | 300 | Doppelblinde RCT zur postoperativen Vitamin-/Mineralstoffsupplementierung bei morbid adipösen Patienten |
+| [NCT03247816](https://clinicaltrials.gov/study/NCT03247816) | N/A | Abgeschlossen | 59 | Real-World-Wirksamkeit von Eisen(III)-Maltol (Feraccru®) bei Eisenmangelanämie bei CED-Patienten |
+| [NCT01572506](https://clinicaltrials.gov/study/NCT01572506) | Phase 1 | Abgeschlossen | 58 | Mechanistische Studie zur ungeklärten Anämie im Alter (Erythrozytenlebensdauer, eisenbezogen) |
+| [NCT04561635](https://clinicaltrials.gov/study/NCT04561635) | N/A | Abgeschlossen | 98 | Cluster-randomisierte Studie zur Multi-Mikronährstoffsupplementierung hinsichtlich Wachstum und Eisenstatus bei indigenen Kindern (Malaysia) |
+| [NCT03762148](https://clinicaltrials.gov/study/NCT03762148) | N/A | Abgeschlossen | 46 | Dosisabhängige Wirkung von Galacto-Oligosacchariden (GOS) auf die Eisenresorption bei Frauen mit niedrigen Eisenspeichern |
 
-*Note: The rank-1 (megaloblastic anemia), rank-3 (esophageal malformation), and rank-2 (Plummer-Vinson syndrome) candidates currently have no registered clinical trials in this evidence pack.*
+*Hinweis: Für die Kandidaten Rang 1 (megaloblastäre Anämie), Rang 3 (ösophageale Fehlbildung) und Rang 2 (Plummer-Vinson-Syndrom) liegen in diesem Evidenzpaket derzeit keine registrierten klinischen Studien vor.*
 
 ---
 
-## Literature Evidence (Primary Candidate: Vitamin/Mineral Deficiency Disorder)
+## Literaturevidenz (Primärer Kandidat: Vitamin-/Mineralstoffmangelerkrankung)
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Zeitschrift | Wesentliche Ergebnisse |
 |------|-----|------|------|---------|
-| [28034892](https://pubmed.ncbi.nlm.nih.gov/28034892/) | 2017 | Review (Tier 1) | Blood | Clinical management framework for anemia in pregnancy covering iron, cobalamin, and folate deficiencies |
-| [34534708](https://pubmed.ncbi.nlm.nih.gov/34534708/) | 2022 | Review (Tier 2) | Bone | Comprehensive review of hypophosphatemia following IV iron therapy and management recommendations |
-| [10595751](https://pubmed.ncbi.nlm.nih.gov/10595751/) | 1999 | Review (Tier 2) | Seminars in Hematology | Overview of nutritional anemias with focus on folate, B12, and iron metabolism |
-| [1596590](https://pubmed.ncbi.nlm.nih.gov/1596590/) | 1992 | Review (Tier 2) | Bailliere's Clinical Haematology | Global public health perspective on nutritional anaemia, iron deficiency as leading cause |
-| [7603852](https://pubmed.ncbi.nlm.nih.gov/7603852/) | 1995 | Review (Tier 2) | Nursing Times | Clinical deficiency testing protocols for iron, B12, and folate |
-| [39667365](https://pubmed.ncbi.nlm.nih.gov/39667365/) | 2025 | Review | Nutrition Reviews | Historical and mechanistic review of vitamin A deficiency's impact on iron metabolism |
-| [35163110](https://pubmed.ncbi.nlm.nih.gov/35163110/) | 2022 | Systems Review | Int J Mol Sci | Systems-biology analysis of interrelations between iron and vitamin A status |
-| [31256475](https://pubmed.ncbi.nlm.nih.gov/31256475/) | 2019 | Review | Australian Journal of General Practice | Primary care management guidance for anaemia in pregnancy |
-| [35807896](https://pubmed.ncbi.nlm.nih.gov/35807896/) | 2022 | Narrative Review | Nutrients | Combined roles of vitamin D and iron status on skeletal muscle mass, strength, and function |
-| [24998947](https://pubmed.ncbi.nlm.nih.gov/24998947/) | 2014 | Basic Research | J Nutr Biochem | Animal study showing vitamin A deficiency modulates iron metabolism via ineffective erythropoiesis |
+| [28034892](https://pubmed.ncbi.nlm.nih.gov/28034892/) | 2017 | Übersichtsarbeit (Tier 1) | Blood | Klinisches Management-Framework für Anämie in der Schwangerschaft mit Berücksichtigung von Eisen-, Cobalamin- und Folatmangel |
+| [34534708](https://pubmed.ncbi.nlm.nih.gov/34534708/) | 2022 | Übersichtsarbeit (Tier 2) | Bone | Umfassende Übersicht zur Hypophosphatämie nach intravenöser Eisentherapie mit Managementempfehlungen |
+| [10595751](https://pubmed.ncbi.nlm.nih.gov/10595751/) | 1999 | Übersichtsarbeit (Tier 2) | Seminars in Hematology | Überblick über nutritive Anämien mit Schwerpunkt auf Folat-, B12- und Eisenstoffwechsel |
+| [1596590](https://pubmed.ncbi.nlm.nih.gov/1596590/) | 1992 | Übersichtsarbeit (Tier 2) | Bailliere's Clinical Haematology | Globale Public-Health-Perspektive auf nutritive Anämie, Eisenmangel als Hauptursache |
+| [7603852](https://pubmed.ncbi.nlm.nih.gov/7603852/) | 1995 | Übersichtsarbeit (Tier 2) | Nursing Times | Klinische Testprotokolle für Eisen-, B12- und Folatmangel |
+| [39667365](https://pubmed.ncbi.nlm.nih.gov/39667365/) | 2025 | Übersichtsarbeit | Nutrition Reviews | Historische und mechanistische Übersicht über den Einfluss von Vitamin-A-Mangel auf den Eisenstoffwechsel |
+| [35163110](https://pubmed.ncbi.nlm.nih.gov/35163110/) | 2022 | Systemübersicht | Int J Mol Sci | Systembiologische Analyse der Wechselbeziehungen zwischen Eisen- und Vitamin-A-Status |
+| [31256475](https://pubmed.ncbi.nlm.nih.gov/31256475/) | 2019 | Übersichtsarbeit | Australian Journal of General Practice | Leitfaden für das hausärztliche Management der Anämie in der Schwangerschaft |
+| [35807896](https://pubmed.ncbi.nlm.nih.gov/35807896/) | 2022 | Narrative Übersichtsarbeit | Nutrients | Kombinierte Rolle von Vitamin-D- und Eisenstatus für Skelettmuskelmasse, -kraft und -funktion |
+| [24998947](https://pubmed.ncbi.nlm.nih.gov/24998947/) | 2014 | Grundlagenforschung | J Nutr Biochem | Tierstudie zeigt, dass Vitamin-A-Mangel den Eisenstoffwechsel über ineffektive Erythropoese moduliert |
 
 ---
 
-## Additional Evidence: Plummer-Vinson Syndrome (Secondary Candidate, L4)
+## Zusätzliche Evidenz: Plummer-Vinson-Syndrom (Sekundärer Kandidat, L4)
 
-No clinical trials are registered for this indication, but the literature base is substantial (20 publications) and clinically well-established. Representative citations:
+Für diese Indikation sind keine klinischen Studien registriert, jedoch ist die Literaturbasis umfangreich (20 Publikationen) und klinisch gut etabliert. Repräsentative Zitate:
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Zeitschrift | Wesentliche Ergebnisse |
 |------|-----|------|------|---------|
-| [29089792](https://pubmed.ncbi.nlm.nih.gov/29089792/) | 2017 | Review | Journal of Blood Medicine | Current insights on iron deficiency anemia and Plummer-Vinson syndrome (PVS); iron deficiency is central to pathogenesis |
-| [16978405](https://pubmed.ncbi.nlm.nih.gov/16978405/) | 2006 | Review | Orphanet Journal of Rare Diseases | Classical triad of dysphagia, iron-deficiency anemia, and esophageal webs |
-| [12823219](https://pubmed.ncbi.nlm.nih.gov/12823219/) | 2003 | Review | Diseases of the Esophagus | Two PVS cases successfully treated with iron supplementation resulting in symptom elimination |
-| [26502163](https://pubmed.ncbi.nlm.nih.gov/26502163/) | 2015 | Review | J Pediatr Gastroenterol Nutr | PVS in children, associated with frequent iron deficiency |
-| [37013208](https://pubmed.ncbi.nlm.nih.gov/37013208/) | 2023 | Case Series | Pan African Medical Journal | 23-patient Tunisian case series describing epidemiology and therapeutic outcomes of PVS |
+| [29089792](https://pubmed.ncbi.nlm.nih.gov/29089792/) | 2017 | Übersichtsarbeit | Journal of Blood Medicine | Aktuelle Erkenntnisse zu Eisenmangelanämie und Plummer-Vinson-Syndrom (PVS); Eisenmangel ist zentral für die Pathogenese |
+| [16978405](https://pubmed.ncbi.nlm.nih.gov/16978405/) | 2006 | Übersichtsarbeit | Orphanet Journal of Rare Diseases | Klassische Trias aus Dysphagie, Eisenmangelanämie und ösophagealen Schleimhautstegen |
+| [12823219](https://pubmed.ncbi.nlm.nih.gov/12823219/) | 2003 | Übersichtsarbeit | Diseases of the Esophagus | Zwei PVS-Fälle erfolgreich mit Eisensupplementierung behandelt, was zur vollständigen Symptombeseitigung führte |
+| [26502163](https://pubmed.ncbi.nlm.nih.gov/26502163/) | 2015 | Übersichtsarbeit | J Pediatr Gastroenterol Nutr | PVS bei Kindern, assoziiert mit häufigem Eisenmangel |
+| [37013208](https://pubmed.ncbi.nlm.nih.gov/37013208/) | 2023 | Fallserie | Pan African Medical Journal | Tunesische Fallserie mit 23 Patienten zur Beschreibung der Epidemiologie und therapeutischen Ergebnisse von PVS |
 
 ---
 
-## Lower-Confidence Candidates (Not Recommended to Advance)
+## Kandidaten mit geringerer Konfidenz (nicht zur Weiterverfolgung empfohlen)
 
-The following three candidates were reviewed and are **not** recommended for further action based on this evidence pack:
+Die folgenden drei Kandidaten wurden geprüft und werden auf Basis dieses Evidenzpakets **nicht** zur weiteren Bearbeitung empfohlen:
 
-- **Vitamin B12/folate-independent megaloblastic anemia (Rank 1)**: No clinical trials or literature; this is a genetic disorder of DNA synthesis unrelated to iron status. TxGNN's own rationale flags this as likely a spurious "anemia" keyword association.
-- **Non-syndromic esophageal malformation (Rank 3)**: A structural congenital defect with no evidence and no plausible biological connection to iron.
-- **Biotin metabolic disease (Rank 4)**: Cited trials are generic pediatric/nutritional micronutrient studies (mostly graded C relevance), not biotin-disease-specific; literature is dominated by tangential mitochondrial-metabolism connections.
-- **Esophageal disease (Rank 6, broad category)**: Evidence quality is mixed — only the iron-deficiency-linked subtypes (e.g., esophageal webs) are actually supported; most cited trials concern gastric/esophageal cancer or bariatric surgery, unrelated to iron.
-
----
-
-## Germany Market Information
-
-No German market authorizations are recorded for this drug entry — market status is **Not Marketed**, with **0** total licenses on file in this evidence pack.
+- **Vitamin-B12-/Folat-unabhängige megaloblastäre Anämie (Rang 1)**: Keine klinischen Studien oder Literatur vorhanden; hierbei handelt es sich um eine genetische Störung der DNA-Synthese, die nicht mit dem Eisenstatus zusammenhängt. Die eigene Begründung von TxGNN weist dies als wahrscheinlich falsche Stichwortassoziation mit „Anämie" aus.
+- **Nicht-syndromale ösophageale Fehlbildung (Rang 3)**: Ein struktureller angeborener Defekt ohne Evidenz und ohne plausiblen biologischen Zusammenhang mit Eisen.
+- **Biotin-Stoffwechselerkrankung (Rang 4)**: Die zitierten Studien sind generische pädiatrische/ernährungsbezogene Mikronährstoffstudien (überwiegend mit Relevanzgrad C bewertet), nicht spezifisch für die Biotin-Erkrankung; die Literatur wird von randständigen Verbindungen zum mitochondrialen Stoffwechsel dominiert.
+- **Ösophaguserkrankung (Rang 6, breite Kategorie)**: Die Evidenzqualität ist gemischt — tatsächlich unterstützt werden nur die eisenmangelassoziierten Subtypen (z. B. ösophageale Schleimhautstege); die meisten zitierten Studien betreffen Magen-/Ösophaguskarzinome oder bariatrische Chirurgie, ohne Bezug zu Eisen.
 
 ---
 
-## Safety Considerations
+## Marktinformationen für Deutschland
 
-Please refer to the package insert for safety information. No key warnings, contraindications, or drug-drug interaction data are available in this evidence pack (DDI query status: not found).
+Für diesen Wirkstoffeintrag sind keine deutschen Marktzulassungen verzeichnet — der Marktstatus lautet **Nicht vermarktet**, mit **0** insgesamt erfassten Zulassungen in diesem Evidenzpaket.
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitshinweise
 
-**Decision: Proceed with Guardrails** (limited to Vitamin/Mineral Deficiency Disorder and Plummer-Vinson syndrome only) **/ Hold** (for the remaining four candidates)
+Bitte konsultieren Sie die Packungsbeilage für Sicherheitsinformationen. In diesem Evidenzpaket liegen keine zentralen Warnhinweise, Kontraindikationen oder Daten zu Arzneimittelwechselwirkungen vor (DDI-Abfragestatus: nicht gefunden).
 
-**Rationale:**
-Two of the six TxGNN-predicted indications (iron/vitamin deficiency correction, and Plummer-Vinson syndrome) are mechanistically coherent and evidence-supported, but they represent confirmation of iron's already-known therapeutic role rather than a genuinely novel repurposing opportunity. The other four candidates lack mechanistic plausibility, clinical trial support, or disease-specific literature, and are more likely artifacts of semantic similarity in the underlying knowledge graph.
+---
 
-**To proceed, the following is needed:**
-- Mechanism of action data from DrugBank (currently a Blocking/High-severity data gap — DG002)
-- Official TFDA/German product label warnings and contraindications (Blocking data gap — DG001), required before any S1 safety pre-screening can occur
-- Clarification of the original approved indication(s) for this specific drug entry, which are currently undocumented
-- If pursuing Plummer-Vinson syndrome as a formal indication: confirmation of whether this would constitute a genuinely new regulatory indication or simply document an already-standard off-label practice
-- If pursuing the "Vitamin deficiency disorder" candidate: reconciliation of the disease-ontology mismatch (iron is a mineral) with regulatory nomenclature before drafting any indication statement
+## Fazit und nächste Schritte
+
+**Entscheidung: Mit Leitplanken fortfahren** (beschränkt auf Vitamin-/Mineralstoffmangelerkrankung und Plummer-Vinson-Syndrom) **/ Zurückstellen** (für die verbleibenden vier Kandidaten)
+
+**Begründung:**
+Zwei der sechs von TxGNN vorhergesagten Indikationen (Korrektur von Eisen-/Vitaminmangel sowie Plummer-Vinson-Syndrom) sind mechanistisch schlüssig und evidenzgestützt, stellen jedoch eher eine Bestätigung der bereits bekannten therapeutischen Rolle von Eisen dar als eine wirklich neuartige Repurposing-Möglichkeit. Den übrigen vier Kandidaten fehlt es an mechanistischer Plausibilität, klinischer Studienevidenz oder krankheitsspezifischer Literatur; sie sind mit höherer Wahrscheinlichkeit Artefakte semantischer Ähnlichkeit im zugrunde liegenden Wissensgraphen.
+
+**Für die Weiterverfolgung wird Folgendes benötigt:**
+- Wirkmechanismusdaten aus DrugBank (derzeit eine blockierende Datenlücke mit hoher Schwere — DG002)
+- Offizielle TFDA-/deutsche Fachinformations-Warnhinweise und Kontraindikationen (blockierende Datenlücke — DG001), erforderlich, bevor ein S1-Sicherheits-Vorscreening erfolgen kann
+- Klärung der ursprünglich zugelassenen Indikation(en) für diesen spezifischen Wirkstoffeintrag, die derzeit nicht dokumentiert sind
+- Bei Weiterverfolgung des Plummer-Vinson-Syndroms als formale Indikation: Klärung, ob dies eine tatsächlich neue regulatorische Indikation darstellen würde oder lediglich eine bereits gängige Off-Label-Praxis dokumentiert
+- Bei Weiterverfolgung des Kandidaten „Vitaminmangelerkrankung": Abgleich der Ontologie-Diskrepanz (Eisen ist ein Mineralstoff) mit der regulatorischen Nomenklatur, bevor eine Indikationsformulierung entworfen wird
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

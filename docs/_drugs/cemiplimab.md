@@ -29,113 +29,114 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Cemiplimab: From Approved Immuno-Oncology Indications to Gallbladder Adenosquamous Carcinoma
+# Cemiplimab: Von genehmigten Immuno-Onkologie-Indikationen zum Gallenblasen-Adenoplattenzellkarzinom
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Cemiplimab is an anti-PD-1 immune checkpoint inhibitor whose evidence-pack rationale references prior approvals in squamous and immunogenic skin/lung cancers. The TxGNN model's top-ranked new prediction is **Gallbladder Adenosquamous Carcinoma**, but this is currently supported by **0 clinical trials** and **0 publications**, placing it at the earliest, purely computational evidence stage.
+Cemiplimab ist ein anti-PD-1-Immuntoleranzpunkt-Inhibitor, dessen Evidence-Pack-Rationale auf vorherige Genehmigungen bei Plattenepithel- und immunogenen Haut-/Lungenkarzinomen verweist. Die Top-Vorhersage des TxGNN-Modells ist **Gallenblasen-Adenoplattenzellkarzinom**, wird derzeit aber durch **0 klinische Studien** und **0 Publikationen** gestützt, was es in die früheste, rein rechnergestützte Evidence-Stufe einordnet.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
-|------|---------|
-| Original Indication | Not available in evidence pack (no approved-indication records; drug not authorized in this dataset) |
-| Predicted New Indication | Gallbladder Adenosquamous Carcinoma |
-| TxGNN Prediction Score | 99.99% |
+| Element | Inhalt |
+|---------|---------|
+| Ursprüngliche Indikation | Nicht im Evidence Pack verfügbar (keine Einträge zu genehmigten Indikationen; Arzneistoff nicht in diesem Datensatz zugelassen) |
+| Vorhergesagte neue Indikation | Gallenblasen-Adenoplattenzellkarzinom |
+| TxGNN-Vorhersage-Score | 99,99% |
 | Evidence Level | L5 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Status auf dem deutschen Markt | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Zurückstellen |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage sinnvoll?
 
-Detailed mechanism-of-action data for cemiplimab is not available in the structured DrugBank record used for this pack (data gap DG002, severity: High). However, the repurposing rationale text embedded in this evidence pack consistently describes cemiplimab as an **anti-PD-1 monoclonal antibody** and references its prior approvals in cutaneous squamous cell carcinoma, basal cell carcinoma, and metastatic NSCLC — indicating it acts by blocking the PD-1/PD-L1 checkpoint to restore T-cell antitumor activity.
+Detaillierte Mechanismus-der-Wirkung-Daten für Cemiplimab sind nicht im strukturierten DrugBank-Datensatz verfügbar, der für diese Evidence Pack verwendet wird (Datenlücke DG002, Schweregrad: Hoch). Allerdings beschreibt der in diese Evidence Pack eingebettete Repurposing-Rationale-Text durchgehend Cemiplimab als **monoklonalen anti-PD-1-Antikörper** und verweist auf seine vorherigen Genehmigungen bei kutanem Plattenepithelkarzinom, Basalzellkarzinom und metastasierendem NSCLC – was darauf hinweist, dass es durch Blockierung des PD-1/PD-L1-Kontrollpunkts wirkt, um die T-Zell-Antitumorreaktion wiederherzustellen.
 
-For the top-ranked candidate, gallbladder adenosquamous carcinoma, the rationale is explicitly weak: this is a **mixed-histology tumor**, where only the squamous component might theoretically respond to PD-1 blockade, while the adenocarcinoma component's responsiveness is unknown. There is no clinical or literature evidence supporting this specific link — the prediction rests entirely on the TxGNN graph-embedding score.
+Für den Top-Kandidaten, Gallenblasen-Adenoplattenzellkarzinom, ist die Rationale explizit schwach: Dies ist ein **Tumor mit gemischter Histologie**, bei dem möglicherweise nur die Plattenepithelkomponente auf PD-1-Blockierung reagieren könnte, während die Reaktionsfähigkeit der Adenokarzinom-Komponente unbekannt ist. Es gibt keine klinischen oder Literaturbelege, die diesen spezifischen Zusammenhang unterstützen – die Vorhersage beruht vollständig auf dem TxGNN-Graph-Embedding-Score.
 
-By contrast, among the other nine candidates in this pack, **External Ear Basal Cell Carcinoma** (rank 4) has a much stronger mechanistic case: it is simply an anatomical-site variant of BCC, a tumor type cemiplimab's rationale states is already an approved indication after Hedgehog-inhibitor failure, and it is supported by a real-world case report (see "Other Predicted Indications" below).
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Im Gegensatz dazu hat unter den anderen neun Kandidaten in dieser Evidence Pack **Basalzellkarzinom des äußeren Ohrs** (Rang 4) eine viel stärkere mechanistische Begründung: Es ist einfach eine anatomisch-lokale Variante des Basalzellkarzinoms, einen Tumortyp, den der Cemiplimab-Rationale als bereits genehmigte Indikation nach Hedgehog-Inhibitor-Versagen anführt, und es wird durch einen Real-World-Fallbericht unterstützt (siehe „Weitere vorhergesagte Indikationen" unten).
 
 ---
 
-## Literature Evidence
+## Evidenz aus klinischen Studien
 
-Currently no related literature available.
-
-*Note: A supporting case report (PMID 34157152) exists for a different candidate in this pack — External Ear Basal Cell Carcinoma (rank 4) — see the table below.*
+Derzeit keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Germany Market Information
+## Evidenz aus der Literatur
 
-No German market authorizations found. Cemiplimab's market status in this dataset is **Not Marketed**, with 0 licenses recorded.
+Derzeit keine zugehörige Literatur verfügbar.
 
----
-
-## Other Predicted Indications Considered in This Evidence Pack
-
-This candidate bundle (`TW-DB14707-multi`) contains 10 TxGNN-predicted indications. For transparency, all are listed below:
-
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Decision Stage | Recommendation |
-|------|----------------------|-------------|-----------------|-----------------|-----------------|
-| 1 | Gallbladder Adenosquamous Carcinoma | 99.99% | L5 | S0 | Hold |
-| 2 | Glottis Squamous Cell Carcinoma | 99.99% | L5 | S0 | Hold |
-| 3 | Rectal Cloacogenic Carcinoma | 99.99% | L5 | S0 | Hold |
-| 4 | External Ear Basal Cell Carcinoma | 99.99% | L4 | S1 | Research Question |
-| 5 | Adenosquamous Prostate Carcinoma | 99.99% | L5 | S0 | Hold |
-| 6 | Urethral Verrucous Carcinoma | 99.99% | L5 | S0 | Hold |
-| 7 | Lung Occult Squamous Cell Carcinoma | 99.99% | L5 | S0 | Hold |
-| 8 | Pancreatic Adenosquamous Carcinoma | 99.99% | L5 | S0 | Hold |
-| 9 | Non-keratinizing Sinonasal Squamous Cell Carcinoma | 99.99% | L5 | S0 | Hold |
-| 10 | Supraglottis Squamous Cell Carcinoma | 99.99% | L5 | S0 | Hold |
-
-Rank 4 (External Ear BCC) is the only candidate with any supporting real-world evidence (a case report describing lasting response after cemiplimab discontinuation in advanced BCC).
+*Anmerkung: Ein unterstützender Fallbericht (PMID 34157152) existiert für einen anderen Kandidaten in dieser Evidence Pack – Basalzellkarzinom des äußeren Ohrs (Rang 4) – siehe die Tabelle unten.*
 
 ---
 
-## Cytotoxicity
+## Informationen zum deutschen Markt
 
-Cemiplimab is an oncology therapeutic (immune checkpoint inhibitor); this section applies.
-
-| Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Immunotherapy (anti-PD-1 immune checkpoint inhibitor), based on mechanism descriptions in this evidence pack |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+Keine deutschen Marktgenehmigungen gefunden. Der Marktstatus von Cemiplimab in diesem Datensatz ist **Nicht vermarktet**, mit 0 erfassten Lizenzen.
 
 ---
 
-## Safety Considerations
+## Weitere in dieser Evidence Pack berücksichtigte vorhergesagte Indikationen
 
-Please refer to the package insert for safety information.
+Dieses Kandidaten-Bundle (`TW-DB14707-multi`) enthält 10 TxGNN-vorhergesagte Indikationen. Aus Gründen der Transparenz sind alle unten aufgelistet:
 
-*Note: TFDA/regulatory warnings and contraindications data are marked as a Blocking data gap (DG001) in this evidence pack and could not be retrieved.*
+| Rang | Vorhergesagte Indikation | TxGNN-Score | Evidence Level | Entscheidungsstufe | Empfehlung |
+|------|--------------------------|-------------|-----------------|---------------------|------------|
+| 1 | Gallenblasen-Adenoplattenzellkarzinom | 99,99% | L5 | S0 | Zurückstellen |
+| 2 | Glottis-Plattenepithelkarzinom | 99,99% | L5 | S0 | Zurückstellen |
+| 3 | Rektales Kloakenkarzinom | 99,99% | L5 | S0 | Zurückstellen |
+| 4 | Basalzellkarzinom des äußeren Ohrs | 99,99% | L4 | S1 | Forschungsfrage |
+| 5 | Adenoplattenzellkarzinom der Prostata | 99,99% | L5 | S0 | Zurückstellen |
+| 6 | Urethrales verruköses Karzinom | 99,99% | L5 | S0 | Zurückstellen |
+| 7 | Okkultes Plattenepithelkarzinom der Lunge | 99,99% | L5 | S0 | Zurückstellen |
+| 8 | Pankreas-Adenoplattenzellkarzinom | 99,99% | L5 | S0 | Zurückstellen |
+| 9 | Nicht-verhorntes sinunasales Plattenepithelkarzinom | 99,99% | L5 | S0 | Zurückstellen |
+| 10 | Supraglottis-Plattenepithelkarzinom | 99,99% | L5 | S0 | Zurückstellen |
+
+Rang 4 (Äußeres Ohr BCC) ist der einzige Kandidat mit Belegen aus der Real-World-Praxis (ein Fallbericht, der eine anhaltende Reaktion nach Beendigung der Cemiplimab-Therapie bei fortgeschrittenem BCC beschreibt).
 
 ---
 
-## Conclusion and Next Steps
+## Zytotoxizität
 
-**Decision: Hold**
+Cemiplimab ist ein onkologisches Therapeutikum (Immuntoleranzpunkt-Inhibitor); dieser Abschnitt ist anwendbar.
+
+| Element | Inhalt |
+|---------|---------|
+| Zytotoxizitäts-Klassifizierung | Immuntherapie (anti-PD-1-Immuntoleranzpunkt-Inhibitor), basierend auf Mechanismus-Beschreibungen in dieser Evidence Pack |
+| Myelosuppressions-Risiko | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Fachinformation |
+| Emetogenitäts-Klassifizierung | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Fachinformation |
+| Überwachungsitems | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Fachinformation |
+| Handhabungsschutz | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Fachinformation |
+
+---
+
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Fachinformation für Sicherheitsinformationen.
+
+*Anmerkung: BfArM-/TFDA-Warnhinweise und Kontraindikationsdaten sind als Blocking-Datenlücke (DG001) in dieser Evidence Pack gekennzeichnet und konnten nicht abgerufen werden.*
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Zurückstellen**
 
 **Rationale:**
-The top-ranked prediction (Gallbladder Adenosquamous Carcinoma) has no supporting clinical trials or literature and rests solely on an L5 model score with an acknowledged mechanistic gap (mixed histology, uncertain response). Combined with the Blocking-severity absence of official safety/label data (DG001) and the High-severity absence of MOA data (DG002), the evidence base is insufficient to proceed on this candidate.
+Die Top-Vorhersage (Gallenblasen-Adenoplattenzellkarzinom) hat keine unterstützenden klinischen Studien oder Literaturbelege und beruht ausschließlich auf einem L5-Model-Score mit einer anerkannten mechanistischen Lücke (gemischte Histologie, unsichere Reaktion). In Kombination mit der Blocking-Schweregrad-Abwesenheit offizieller Sicherheits-/Label-Daten (DG001) und der High-Schweregrad-Abwesenheit von MOA-Daten (DG002) ist die Evidenzbasis unzureichend, um bei diesem Kandidaten voranzukommen.
 
-**To proceed, the following is needed:**
-- TFDA/BfArM label data — warnings, contraindications (DG001, Blocking)
-- DrugBank mechanism-of-action detail for cemiplimab (DG002, High)
-- Any preclinical or case-level evidence specifically on adenosquamous gallbladder carcinoma before advancing beyond S0
-- Consider redirecting research priority toward **External Ear Basal Cell Carcinoma** (rank 4), which already has L4 evidence and a "Research Question" stage — this candidate merits a literature/registry search update rather than being placed on Hold
+**Zum Fortschreiten ist Folgendes erforderlich:**
+- BfArM-/TFDA-Fachinformationsdaten – Warnhinweise, Kontraindikationen (DG001, Blocking)
+- DrugBank-Mechanismus-der-Wirkung-Detail für Cemiplimab (DG002, High)
+- Alle präklinischen oder Fall-Level-Belege speziell zum Adenoplattenzellkarzinom der Gallenblase vor Fortschreiten über S0 hinaus
+- Erwägen Sie die Umleitung der Forschungspriorität auf **Basalzellkarzinom des äußeren Ohrs** (Rang 4), das bereits L4-Belege und eine „Forschungsfrage"-Entscheidungsstufe hat – dieser Kandidat verdient ein aktualisiertes Literatur-/Registersuche-Review, statt auf Zurückstellen gesetzt zu werden
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

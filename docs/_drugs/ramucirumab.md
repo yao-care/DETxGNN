@@ -29,72 +29,73 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Ramucirumab: Drug Repurposing Assessment — Insufficient Data for Full Evaluation
+# Ramucirumab: Bewertung der Arzneistoffrepositionierung — Unzureichende Daten für vollständige Evaluierung
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Ramucirumab is a fully human IgG1 monoclonal antibody targeting VEGFR-2, developed as an antineoplastic agent for gastric/GEJ adenocarcinoma, NSCLC, and colorectal cancer.
-The current Evidence Pack contains **no TxGNN-predicted new indications**, and Germany market authorization records were not retrieved (0 licenses on file).
-A complete repurposing evaluation cannot be performed at this stage; this report documents available findings and the data gaps that must be resolved before proceeding.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not specified in Evidence Pack |
-| Predicted New Indication | None — TxGNN predictions not available |
-| TxGNN Prediction Score | Not available |
-| Evidence Level | Not assessable |
-| Germany Market Status | Not marketed (0 authorizations on file) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Ramucirumab ist ein vollständig humaner IgG1-Monoklonalantikörper gegen VEGFR-2 und wurde als Antitumormittel für Magen-/GEJ-Adenokarzinom, NSCLC und kolorektales Karzinom entwickelt.
+Das aktuelle Evidence Pack enthält **keine TxGNN-vorhergesagten neuen Indikationen**, und Zulassungsunterlagen für den deutschen Markt wurden nicht abgerufen (0 Genehmigungen in der Datei).
+Eine vollständige Repositionierungs-Evaluierung kann zu diesem Zeitpunkt nicht durchgeführt werden; dieser Bericht dokumentiert verfügbare Ergebnisse und die Datenlücken, die behoben werden müssen, bevor die Bewertung fortgesetzt wird.
 
 ---
 
-## Mechanism of Action
+## Schnellübersicht
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on known pharmacological information, Ramucirumab is a fully human IgG1 monoclonal antibody that selectively binds to the extracellular domain of VEGFR-2 (Vascular Endothelial Growth Factor Receptor 2), blocking the binding of VEGF-A, VEGF-C, and VEGF-D ligands and their downstream pro-angiogenic signaling cascades.
-
-Its antitumour efficacy in gastric and gastroesophageal junction adenocarcinoma has been established in pivotal Phase 3 trials (REGARD, RAINBOW). By targeting tumour vasculature rather than cancer cells directly, the mechanism is theoretically applicable to any solid tumour with significant VEGFR-2-dependent angiogenesis — a rationale that has already supported approval extensions to NSCLC, colorectal cancer, and hepatocellular carcinoma in multiple jurisdictions.
-
-Once TxGNN prediction data becomes available, mechanism-disease alignment can be formally evaluated.
-
----
-
-## Cytotoxicity
-
-| Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted therapy — Anti-VEGFR2 monoclonal antibody (antiangiogenic) |
-| Myelosuppression Risk | Low to moderate (neutropenia has been reported; considerably less severe than conventional cytotoxic chemotherapy) |
-| Emetogenicity Classification | Low |
-| Monitoring Items | Blood pressure (hypertension is a class effect of anti-VEGF agents), urinalysis for proteinuria, CBC with differential, hepatic function, wound healing status |
-| Handling Protection | Standard biologic handling protocols apply; not classified as a conventional cytotoxic agent requiring cytotoxic spill kits or HEPA-protected preparation areas |
+| Element | Angaben |
+|---------|--------|
+| Ursprüngliche Indikation | Nicht angegeben im Evidence Pack |
+| Vorhergesagte neue Indikation | Keine — TxGNN-Vorhersagen nicht verfügbar |
+| TxGNN-Vorhersage-Score | Nicht verfügbar |
+| Evidenzgrad | Nicht bewertbar |
+| Marktstatus Deutschland | Nicht vermarktet (0 Genehmigungen in der Datei) |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | Halten |
 
 ---
 
-## Safety Considerations
+## Wirkungsmechanismus
 
-Please refer to the package insert for safety information.
+Detaillierte Daten zum Wirkungsmechanismus sind derzeit nicht im Evidence Pack verfügbar. Basierend auf bekannten pharmakologischen Informationen ist Ramucirumab ein vollständig humaner IgG1-Monoklonalantikörper, der selektiv an die extrazelluläre Domäne von VEGFR-2 (Vaskulärer Endothelwachstumsfaktor-Rezeptor 2) bindet, die Bindung von VEGF-A-, VEGF-C- und VEGF-D-Liganden blockiert und ihre nachgelagerten pro-angiogenen Signalisierungskaskaden unterbricht.
+
+Seine Antitumorwirksamkeit bei Magen- und GEJ-Adenokarzinomen wurde in pivotalen Phase-3-Studien etabliert (REGARD, RAINBOW). Durch die Ausrichtung auf Tumorvaskulatur statt auf Krebszellen direkt ist der Mechanismus theoretisch auf jeden soliden Tumor mit signifikanter VEGFR-2-abhängiger Angiogenese anwendbar — eine Begründung, die bereits Zulassungserweiterungen auf NSCLC, kolorektales Karzinom und hepatozelluläres Karzinom in mehreren Jurisdiktionen unterstützt hat.
+
+Sobald TxGNN-Vorhersagedaten verfügbar werden, kann die Mechanismus-Krankheits-Übereinstimmung formal bewertet werden.
 
 ---
 
-## Conclusion and Next Steps
+## Zytotoxizität
 
-**Decision: Hold**
+| Element | Angaben |
+|---------|--------|
+| Zytotoxizitäts-Klassifizierung | Gezielte Therapie — Anti-VEGFR-2-Monoklonalantikörper (antiangiogenetisch) |
+| Myelosuppressions-Risiko | Niedrig bis moderat (Neutropenie wurde berichtet; erheblich weniger schwerwiegend als konventionelle zytotoxische Chemotherapie) |
+| Emetogenitäts-Klassifizierung | Niedrig |
+| Überwachungselemente | Blutdruck (Hypertonie ist ein Klasseneffekt von Anti-VEGF-Wirkstoffen), Urinalyse auf Proteinurie, Blutbild mit Differenzial, Leberfunktion, Wundheilungsstatus |
+| Handhabungsschutz | Standard-Handhabungsprotokolle für Biologika gelten; nicht als konventioneller zytotoxischer Wirkstoff klassifiziert, der zytotoxische Verschüttungs-Kits oder HEPA-geschützte Zubereitungsbereiche erfordert |
 
-**Rationale:**
-The Evidence Pack is missing all three prerequisites for a repurposing evaluation — TxGNN prediction output, safety/contraindication data, and Germany market authorization records — making it impossible to assess either therapeutic opportunity or risk profile at this time.
+---
 
-**To proceed, the following is needed:**
+## Sicherheitsaspekte
 
-- **TxGNN predictions** (`predicted_indications`) must be generated for Ramucirumab before any indication assessment can begin
-- **Package insert warnings and contraindications** — TFDA PDF parsing was logged as successful (query 4) but no data was returned; this must be resolved
-- **Drug interaction data** — DDI query returned `not_found`; a broader database search (e.g., DrugBank, Lexicomp) is recommended
-- **Germany BfArM/EMA authorization check** — Ramucirumab may hold EMA marketing authorisation that was not captured in this query; a direct EMA product database lookup is advised to confirm actual market status before classifying as "not marketed"
-- **MOA data from DrugBank** — DrugBank query returned 1 result (query 3) but `original_moa` was not populated; the DrugBank record should be re-parsed to extract mechanism, categories, and toxicity fields
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Halten**
+
+**Begründung:**
+Dem Evidence Pack fehlen alle drei Voraussetzungen für eine Repositionierungs-Evaluierung — TxGNN-Vorhersage-Ausgabe, Sicherheits-/Kontraindikationsdaten und Zulassungsunterlagen für den deutschen Markt — so dass es unmöglich ist, sowohl therapeutische Chancen als auch Risikoprofil zu diesem Zeitpunkt zu bewerten.
+
+**Um fortzufahren, wird folgendes benötigt:**
+
+- **TxGNN-Vorhersagen** (`predicted_indications`) müssen für Ramucirumab generiert werden, bevor eine Indikationsbewertung durchgeführt werden kann
+- **Packungsbeilage-Warnungen und Kontraindikationen** — TFDA-PDF-Analyse wurde erfolgreich protokolliert (Abfrage 4), es wurden jedoch keine Daten zurückgegeben; dieses Problem muss behoben werden
+- **Arzneimittelwechselwirkungsdaten** — Die DDI-Abfrage gab `not_found` zurück; eine umfassendere Datenbanksuche (z. B. mit DrugBank, Lexicomp) wird empfohlen
+- **Deutschland BfArM/EMA-Genehmigungsprüfung** — Ramucirumab kann eine EMA-Marktgenehmigung besitzen, die in dieser Abfrage nicht erfasst wurde; eine direkte Suche in der EMA-Produktdatenbank wird empfohlen, um den tatsächlichen Marktstatus vor einer Klassifizierung als „nicht vermarktet" zu bestätigen
+- **MOA-Daten aus DrugBank** — Die DrugBank-Abfrage gab 1 Ergebnis zurück (Abfrage 3), aber `original_moa` wurde nicht ausgefüllt; der DrugBank-Datensatz sollte erneut analysiert werden, um Felder für Mechanismus, Kategorien und Toxizität zu extrahieren
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

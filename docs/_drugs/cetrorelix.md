@@ -29,77 +29,78 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Cetrorelix: From Undocumented Original Indication to Hypertrichosis
+# Cetrorelix: Von undokumentierter ursprünglicher Indikation zu Hypertrichose
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Cetrorelix is a GnRH (gonadotropin-releasing hormone) receptor antagonist that suppresses pituitary LH/FSH secretion; its original approved indication is not documented in the current evidence pack.
-> The TxGNN model's top-ranked prediction is **Hypertrichosis (disease)**, with a score of **99.98%**,
-> but this candidate is currently supported by **0 clinical trials** and **0 publications**, and the accompanying mechanistic rationale itself flags the prediction as likely graph-topology noise rather than a genuine pharmacological link.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in evidence pack (no `original_indications` on file; drug not currently marketed in Germany) |
-| Predicted New Indication | Hypertrichosis (disease) |
-| TxGNN Prediction Score | 99.98% (rank 545 among all candidates) |
-| Evidence Level | L5 |
-| Germany Market Status | ✗ Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Cetrorelix ist ein GnRH-Rezeptorantagonist (Gonadotropin-Releasing-Hormon-Rezeptorantagonist), der die hypophysäre LH-/FSH-Sekretion unterdrückt; seine ursprüngliche zugelassene Indikation ist im vorliegenden Beweispaket nicht dokumentiert.
+> Die höchstrangige Vorhersage des TxGNN-Modells ist **Hypertrichose (Erkrankung)**, mit einer Punktzahl von **99.98%**,
+> aber dieser Kandidat wird derzeit von **0 klinischen Studien** und **0 Publikationen** unterstützt, und die begleitende mechanistische Begründung selbst kennzeichnet die Vorhersage als wahrscheinlich ein Graphentopologie-Rauschen und nicht als eine echte pharmakologische Verbindung.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellobersicht
 
-Detailed DrugBank mechanism-of-action text is currently unavailable (flagged as a **High-severity data gap, DG002**). Based on the mechanistic description accompanying this prediction, cetrorelix is known to act as a **GnRH receptor antagonist**, blocking the pituitary release of LH/FSH — the same axis targeted by GnRH agonists/antagonists used in reproductive endocrinology.
-
-However, the rationale explicitly generated for this candidate states that hypertrichosis is primarily driven by **local hair-follicle growth-cycle regulation**, not by the hypothalamic-pituitary-gonadal (HPG) axis. There is **no established mechanistic pathway** connecting GnRH receptor blockade to hair-follicle biology. The evidence pack's own assessment concludes that the high TxGNN score likely reflects **proximity of disease nodes in the knowledge graph** (e.g., shared association with reproductive/endocrine disease clusters) rather than a real pharmacological relationship.
-
-Notably, when reviewing the full set of 10 TxGNN predictions for this drug, one lower-ranked candidate — **central precocious puberty 1** (rank 10, score 99.29%) — has a substantially stronger mechanistic rationale: it is a GnRH-dependent (central) condition directly addressable by GnRH receptor blockade, mechanistically parallel to the established use of GnRH agonists (e.g., leuprolide) in this condition. This candidate has been separately flagged internally as a "Research Question" (decision stage S1) rather than "Hold," despite having no clinical trial or literature evidence yet. It may warrant independent evaluation outside the scope of this report's primary candidate.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Im Beweispaket nicht dokumentiert (keine `original_indications` auf Datei; Arzneimittel derzeit nicht in Deutschland vermarktet) |
+| Vorhergesagte neue Indikation | Hypertrichose (Erkrankung) |
+| TxGNN-Vorhersage-Punktzahl | 99.98% (Rang 545 unter allen Kandidaten) |
+| Evidenzstufe | L5 |
+| Deutschland-Marktstatus | ✗ Nicht vermarktet (Nicht vermarktet) |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Abwarten |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage angemessen?
 
-Currently no related literature available.
+Der detaillierte DrugBank-Text zum Wirkmechanismus ist derzeit nicht verfügbar (gekennzeichnet als **hochschwere Datenlücke, DG002**). Basierend auf der mechanistischen Beschreibung, die dieser Vorhersage beiliegt, ist bekannt, dass Cetrorelix als **GnRH-Rezeptorantagonist** wirkt und die hypophysäre Freisetzung von LH/FSH blockiert — die gleiche Achse, auf die GnRH-Agonisten/Antagonisten in der reproduktiven Endokrinologie abzielen.
 
----
+Die für diesen Kandidaten explizit generierte Begründung besagt jedoch, dass Hypertrichose in erster Linie durch **lokale Haarfollikel-Wachstumszyklus-Regulierung** angetrieben wird, nicht durch die hypothalamisch-hypophysär-gonadale (HPG) Achse. Es gibt **keinen etablierten mechanistischen Weg**, der GnRH-Rezeptor-Blockade mit Haarfollikel-Biologie verbindet. Die eigene Bewertung des Beweispakets kommt zu dem Schluss, dass der hohe TxGNN-Score wahrscheinlich die **Nähe von Erkrankungsknoten im Wissensgraphen** widerspiegelt (z. B. gemeinsame Assoziation mit Reproduktions-/Endokrin-Krankheitsclustern) anstelle einer echten pharmakologischen Beziehung.
 
-## Germany Market Information
-
-Cetrorelix currently holds **0 marketing authorizations** in Germany (market status: not marketed), so no license-level product data is available for this report.
+Bemerkenswert ist, dass bei der Überprüfung der vollständigen Reihe von 10 TxGNN-Vorhersagen für dieses Arzneimittel ein niedriger platzierter Kandidat — **zentrale Pubertas praecox 1** (Rang 10, Punktzahl 99.29%) — eine wesentlich stärkere mechanistische Begründung hat: es ist eine GnRH-abhängige (zentrale) Erkrankung, die direkt durch GnRH-Rezeptor-Blockade behandelbar ist, mechanistisch parallel zur etablierten Anwendung von GnRH-Agonisten (z. B. leuprolide) in dieser Erkrankung. Dieser Kandidat wurde intern separat als „Forschungsfrage" (Entscheidungsstufe S1) gekennzeichnet, nicht als „Abwarten", obwohl derzeit keine klinischen Studien- oder Literaturbelege vorhanden sind. Es könnte eine unabhängige Bewertung außerhalb des Umfangs des Hauptkandidaten dieses Berichts rechtfertigen.
 
 ---
 
-## Safety Considerations
+## Evidenz aus klinischen Studien
 
-Detailed TFDA/label warning and contraindication data has not yet been retrieved and is flagged as a **Blocking-severity data gap (DG001)** — this must be resolved before any Stage 1 (S1) safety pre-assessment can proceed. Drug-drug interaction data was queried but returned no results.
-
-Please refer to the package insert for safety information.
+Derzeit sind keine verwandten klinischen Studien registriert.
 
 ---
 
-## Conclusion and Next Steps
+## Literaturbelege
 
-**Decision: Hold**
+Derzeit sind keine verwandten Literaturbelege verfügbar.
 
-**Rationale:**
-The top-ranked prediction (hypertrichosis) has no supporting clinical trial or literature evidence (L5) and its own mechanistic rationale flags it as a likely false positive driven by knowledge-graph proximity rather than real pharmacology. Combined with a **Blocking** data gap on TFDA/label safety information, this candidate does not currently meet the bar to advance.
+---
 
-**To proceed, the following is needed:**
-- Resolve DG001 (Blocking): retrieve and parse the official label/package insert for warnings and contraindications
-- Resolve DG002 (High): obtain DrugBank-confirmed mechanism of action to properly evaluate mechanistic plausibility
-- If pursuing repurposing further, redirect evaluation resources toward **central precocious puberty 1** (rank 10), which has a stronger mechanistic basis but currently lacks any clinical or literature evidence — a dedicated literature/trial search for this indication is recommended before further scoring
+## Deutschland-Marktinformationen
+
+Cetrorelix hält derzeit **0 Zulassungen** in Deutschland (Marktstatus: nicht vermarktet), daher sind keine Daten auf Zulassungsebene für diesen Bericht verfügbar.
+
+---
+
+## Sicherheitsaspekte
+
+Detaillierte TFDA-/Etikett-Warn- und Kontraindikationsdaten wurden noch nicht abgerufen und sind als **blockierende Datenlücke (DG001)** gekennzeichnet — dies muss vor einer Sicherheitsvorbewertung in Phase 1 (S1) gelöst werden. Daten zu Arzneimittelwechselwirkungen wurden abgefragt, aber es wurden keine Ergebnisse zurückgegeben.
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Abwarten**
+
+**Begründung:**
+Die höchstrangige Vorhersage (Hypertrichose) hat keine unterstützenden klinischen Studien- oder Literaturbelege (L5) und ihre eigene mechanistische Begründung kennzeichnet sie als wahrscheinlich falsch positiv, angetrieben durch Wissensgraph-Nähe anstelle echter Pharmakologie. In Kombination mit einer **blockierenden** Datenlücke bei TFDA-/Etikett-Sicherheitsinformationen erfüllt dieser Kandidat derzeit nicht die Anforderungen zum Fortschreiten.
+
+**Um fortzufahren, wird Folgendes benötigt:**
+- DG001 (Blockierend) lösen: Offizielles Etikett/Packungsbeilage abrufen und analysieren auf Warnungen und Kontraindikationen
+- DG002 (Hoch) lösen: Von DrugBank bestätigten Wirkmechanismus abrufen, um die mechanistische Plausibilität ordnungsgemäß zu bewerten
+- Falls die Umwidmung weiter verfolgt wird, lenken Sie Bewertungsressourcen auf **zentrale Pubertas praecox 1** (Rang 10), die eine stärkere mechanistische Grundlage hat, aber derzeit keine klinischen oder literarischen Belege hat — eine dedizierte Literatur-/Studiensuche für diese Indikation wird vor weiterer Bewertung empfohlen
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

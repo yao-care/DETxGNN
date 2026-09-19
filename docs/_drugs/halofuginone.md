@@ -29,75 +29,76 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Halofuginone: From Unknown Indication to Diabetic Retinopathy
+# Halofuginon: Von unbekannter Indikation zur diabetischen Retinopathie
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Halofuginone is a febrifugine derivative with no approved indication data currently on file and no market presence in Germany. The TxGNN model predicts it may be effective for **severe nonproliferative diabetic retinopathy** and **diabetic retinopathy**, but this prediction is currently supported by **no clinical trials and no published literature** — it rests entirely on theoretical mechanistic reasoning.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available (no approved indications on file) |
-| Predicted New Indication | Severe nonproliferative diabetic retinopathy |
-| TxGNN Prediction Score | 99.46% |
-| Evidence Level | L5 |
-| Germany Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Halofuginon ist ein Febrifugin-Derivat, für das derzeit keine Daten über zugelassene Indikationen vorliegen und das in Deutschland nicht auf dem Markt ist. Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam gegen **schwere nonproliferative diabetische Retinopathie** und **diabetische Retinopathie** sein könnte, aber diese Vorhersage wird derzeit durch **keine klinischen Studien und keine veröffentlichte Literatur** gestützt – sie beruht vollständig auf theoretischen mechanistischen Überlegungen.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnelläbersicht
 
-Detailed mechanism of action data is not currently available in structured form (Data Gap). However, based on known pharmacology, halofuginone is a febrifugine derivative reported to (1) inhibit type I collagen synthesis and block TGF-β/Smad3 signaling, giving it antifibrotic activity historically explored in fibrotic diseases such as scleroderma; (2) exhibit antiangiogenic activity; and (3) inhibit prolyl-tRNA synthetase, triggering an amino acid starvation response that modulates Th17 differentiation and inflammation.
-
-Diabetic retinopathy — particularly the severe nonproliferative stage — involves TGF-β-driven extracellular matrix accumulation, fibrovascular proliferation, and inflammatory pathways. There is theoretical overlap between these disease mechanisms and halofuginone's known antifibrotic and antiangiogenic properties, which is likely why TxGNN assigned a high prediction score.
-
-This mechanistic overlap remains purely theoretical. No original indication is on file to anchor a repurposing rationale, the drug is not marketed anywhere referenced in this evidence pack, and no clinical or preclinical evidence directly links halofuginone to diabetic retinopathy. The prediction should be treated as a hypothesis-generating signal only.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Nicht verfügbar (keine zugelassenen Indikationen auf Akte) |
+| Vorhergesagte neue Indikation | Schwere nonproliferative diabetische Retinopathie |
+| TxGNN-Vorhersage-Score | 99.46% |
+| Evidenzstufe | L5 |
+| MarktStatus Deutschland | Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Halten |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage sinnvoll?
 
-Currently no related literature available.
+Detaillierte Daten zum Wirkmechanismus sind derzeit nicht in strukturierter Form verfügbar (Datenlücke). Basierend auf bekannter Pharmakologie ist Halofuginon jedoch ein Febrifugin-Derivat, das bekanntermaßen (1) die Synthese von Typ-I-Kollagen inhibiert und die TGF-β/Smad3-Signalisierung blockiert, was ihm antifibrotische Aktivität verleiht, die historisch bei fibrotischen Erkrankungen wie Sklerodermie untersucht wurde; (2) antiangiogene Aktivität zeigt; und (3) die Prolyl-tRNA-Synthetase inhibiert, was eine Aminosäure-Mangelreaktion auslöst, die die Th17-Differenzierung und Entzündung moduliert.
 
----
+Die diabetische Retinopathie – besonders im Stadium der schweren nonproliferativen Retinopathie – beinhaltet die von TGF-β getriebene Ansammlung der extrazellulären Matrix, fibrovvaskuläre Proliferation und entzündliche Signalwege. Es gibt eine theoretische Überlappung zwischen diesen Krankheitsmechanismen und den bekannten antifibrotischen und antiangiogenen Eigenschaften von Halofuginon, was wahrscheinlich der Grund dafür ist, dass TxGNN einen hohen Vorhersage-Score zugewiesen hat.
 
-## Germany Market Information
-
-Halofuginone has no market authorizations on file (0 authorizations, not marketed).
+Diese mechanistische Überlappung bleibt rein theoretisch. Es liegt keine ursprüngliche Indikation vor, um eine Umwidmungsbegründung zu verankern, das Arzneimittel ist nirgendwo vermarktet, das in diesem Evidenzpaket genannt wird, und es gibt keine klinischen oder präklinischen Belege, die Halofuginon direkt mit diabetischer Retinopathie verbinden. Die Vorhersage sollte nur als hypothesengenerierendes Signal behandelt werden.
 
 ---
 
-## Safety Considerations
+## Klinische Studienbelege
 
-Please refer to the package insert for safety information. Detailed warnings, contraindications, and drug interaction data are not currently available for this compound (marked as Data Gap in the source evidence, classified as Blocking severity — this must be resolved before any safety evaluation can proceed).
+Derzeit sind keine verwandten klinischen Studien registriert.
 
 ---
 
-## Conclusion and Next Steps
+## Literaturbeweis
 
-**Decision: Hold**
+Derzeit ist keine verwandte Literatur verfügbar.
 
-**Rationale:**
-This prediction is based solely on TxGNN's model output (L5, no supporting clinical or literature evidence) for a drug that has no documented original indication, no market presence, and no available safety data — none of the minimum requirements for even a preliminary safety assessment are met.
+---
 
-**To proceed, the following is needed:**
-- TFDA/regulatory label data — warnings, contraindications (currently Blocking data gap)
-- Confirmed mechanism of action from DrugBank or primary literature
-- Confirmation of original approved indication(s), if any exist in other jurisdictions
-- Preclinical or clinical evidence specifically linking halofuginone to diabetic retinopathy or related fibrovascular/ocular pathology
-- Basic human pharmacokinetic and safety data, given the drug is not currently marketed
+## Marktinformationen für Deutschland
+
+Halofuginon hat keine Marktzulassungen auf Akte (0 Zulassungen, nicht vermarktet).
+
+---
+
+## Sicherheitsaspekte
+
+Bitte beachten Sie den Packungszettel für Sicherheitsinformationen. Detaillierte Warnungen, Kontraindikationen und Arzneimittelwechselwirkungsdaten sind derzeit für diese Verbindung nicht verfügbar (als Datenlücke in der Quellevidenz gekennzeichnet, klassifiziert als Blocking-Schweregrad – dies muss behoben werden, bevor eine Sicherheitsbewertung durchgeführt werden kann).
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Halten**
+
+**Begründung:**
+Diese Vorhersage basiert ausschließlich auf der Modellausgabe von TxGNN (L5, keine unterstützenden klinischen oder Literaturevidenzen) für ein Arzneimittel, das keine dokumentierte ursprüngliche Indikation, keine Marktpräsenz und keine verfügbaren Sicherheitsdaten hat – keine der Mindestanforderungen für auch nur eine vorläufige Sicherheitsbewertung sind erfüllt.
+
+**Um fortzufahren, wird folgendes benötigt:**
+- TFDA/Behördenetikettdaten – Warnungen, Kontraindikationen (derzeit Blocking-Datenlücke)
+- Bestätigter Wirkmechanismus aus DrugBank oder Primärliteratur
+- Bestätigung der ursprünglichen zugelassenen Indikation(en), falls solche in anderen Rechtsprechungen vorhanden sind
+- Präklinische oder klinische Belege, die Halofuginon spezifisch mit diabetischer Retinopathie oder verwandter fibrovvaskulärer/okulärer Pathologie verbinden
+- Grundlegende humane pharmakokinetische und Sicherheitsdaten, da das Arzneimittel derzeit nicht vermarktet wird
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

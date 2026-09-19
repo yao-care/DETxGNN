@@ -29,77 +29,78 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9**
 
 </div>
 
-# Deferiprone: From Iron Chelation Therapy to Hepatic Porphyria
+# Deferiprone: Von der Eisenchelationstherapie zur hepatischen Porphyrie
 
-## One-Sentence Summary
+## Ein-Satz-Zusammenfassung
 
-Deferiprone is an oral iron chelator; based on data within this evidence pack, its established clinical role is managing **transfusional iron overload** (e.g., in beta-thalassemia — see rank 8 candidate below), though the formal original indication and TFDA label are not documented in this pack.
-The TxGNN model's top-ranked new prediction for this drug is **Hepatic Porphyria**, with a 99.20% prediction score — but **no clinical trials and no literature** currently support this specific direction, and the model's own mechanistic rationale flags the biological link as weak.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in this evidence pack (`original_indications` empty; see DG001/DG002). Drug class context from pack: oral iron chelator, established use in transfusional iron overload (see beta-thalassemia candidate, rank 8) |
-| Predicted New Indication | Hepatic Porphyria |
-| TxGNN Prediction Score | 99.20% |
-| Evidence Level | L5 (model prediction only, no clinical or literature evidence) |
-| Germany Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Deferiprone ist ein orales Eisenchelator; basierend auf Daten in diesem Evidenzpaket besteht seine etablierte klinische Rolle in der Verwaltung von **Transfusioneller Eisenüberladung** (z. B. bei Beta-Thalassämie — siehe Rangplatz-8-Kandidat unten), obwohl die formale ursprüngliche Indikation und TFDA-Zulassung in diesem Paket nicht dokumentiert sind.
+Die Top-Vorhersage des TxGNN-Modells für dieses Arzneimittel ist **Hepatische Porphyrie** mit einer Vorhersage-Genauigkeit von 99,20% — aber **keine klinischen Studien und keine Fachliteratur** unterstützen derzeit diese spezifische Richtung, und die eigene mechanistische Rationale des Modells kennzeichnet den biologischen Zusammenhang als schwach.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Currently, detailed mechanism of action data is not available (`original_moa: [Data Gap]`, flagged as DG002 in this pack). Based on information present elsewhere in this evidence pack (rank 8 rationale), deferiprone is an oral tris-hydroxypyridinone iron chelator that penetrates cell membranes, binds free ferric iron, and promotes its urinary excretion — a mechanism directly relevant to iron-overload states such as those seen in chronically transfused patients.
-
-For **hepatic porphyria**, however, the model's own repurposing rationale explicitly states the mechanistic link is weak: hepatic porphyria arises from enzyme deficiencies in the heme biosynthesis pathway causing accumulation of toxic intermediates, not from tissue iron overload. Deferiprone's iron-chelating action has no established pathophysiological connection to this disease process. This top-ranked candidate therefore reflects a **statistical similarity signal from TxGNN**, not a mechanism- or evidence-based hypothesis.
-
-**Note on this multi-candidate pack:** Among the 9 predicted indications evaluated for deferiprone, only **beta-thalassemia with other manifestations** (rank 8) is supported by actual literature (2 publications, evidence level L3) and carries a "Proceed with Guardrails" recommendation — consistent with deferiprone's real-world use in transfusion-dependent iron overload. The top-ranked-by-score candidate (hepatic porphyria, this report's subject) has neither trials nor literature and is recommended **Hold**. Reviewers should weigh evidence strength, not score rank alone, when prioritizing candidates from this pack.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Nicht dokumentiert in diesem Evidenzpaket (`original_indications` leer; siehe DG001/DG002). Kontext der Arzneimittelklasse aus Paket: orales Eisenchelator, etablierte Anwendung bei Transfusioneller Eisenüberladung (siehe Beta-Thalassämie-Kandidat, Rang 8) |
+| Vorhergesagte neue Indikation | Hepatische Porphyrie |
+| TxGNN-Vorhersage-Genauigkeit | 99,20% |
+| Evidenzstufe | L5 (nur Modellvorhersage, keine klinischen oder Fachliteratur-Belege) |
+| Markt-Status in Deutschland | Nicht vermarktet |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | Abwarten |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage angemessen?
 
-Currently no related literature available
+Derzeit sind detaillierte Daten zum Wirkmechanismus nicht verfügbar (`original_moa: [Datenlücke]`, gekennzeichnet als DG002 in diesem Paket). Basierend auf anderswo in diesem Evidenzpaket vorhandenen Informationen (Begründung für Rang 8) ist Deferiprone ein orales Tris-Hydroxypyridion-Eisenchelator, das Zellmembranen durchdringt, freies Eisen(III) bindet und dessen urinäre Ausscheidung fördert — ein Wirkmechanismus, der direkt für Eisenüberladungszustände wie die bei chronisch transfundierten Patienten relevant ist.
 
----
+Für **Hepatische Porphyrie** ist der biologische Zusammenhang jedoch, wie die eigene Umpositionierungs-Begründung des Modells ausdrücklich darlegt, schwach: Hepatische Porphyrie resultiert aus Enzymmängeln im Häm-Biosynthese-Weg, die zur Ansammlung giftiger Zwischenprodukte führen, nicht aus Gewebeeisen-Überladung. Die eisenchelatbildende Wirkung von Deferiprone hat keinen etablierten pathophysiologischen Zusammenhang mit diesem Krankheitsprozess. Dieser Top-Kandidat nach Rangplatz reflektiert daher ein **statistisches Ähnlichkeitssignal von TxGNN**, nicht eine Mechanismus- oder evidenzgestützte Hypothese.
 
-## Germany Market Information
-
-No German/Taiwan marketing authorizations are currently held for this drug (`total_licenses: 0`).
+**Anmerkung zu diesem Multi-Kandidaten-Paket:** Unter den 9 bewerteten vorhergesagten Indikationen für Deferiprone wird nur **Beta-Thalassämie mit anderen Manifestationen** (Rang 8) durch tatsächliche Fachliteratur unterstützt (2 Veröffentlichungen, Evidenzstufe L3) und trägt eine Empfehlung „Weiterverfolgen mit Schutzmechanismen" — konsistent mit der realen Verwendung von Deferiprone bei Transfusions-abhängiger Eisenüberladung. Der Top-Kandidat nach Genauigkeit (hepatische Porphyrie, Gegenstand dieses Berichts) hat weder Studien noch Fachliteratur und wird mit **Abwarten** empfohlen. Reviewer sollten Evidenzstärke, nicht Rangplatz-Score allein, bei der Priorisierung von Kandidaten aus diesem Paket berücksichtigen.
 
 ---
 
-## Safety Considerations
+## Klinische Studien-Evidenz
 
-Please refer to the package insert for safety information.
-
-*(Note: `key_warnings`, `contraindications`, and DDI data are all marked as data gaps in this pack. DG001 — missing TFDA package insert warnings/contraindications — is flagged as a **Blocking** severity gap, meaning it currently prevents formal S1 safety review for any indication under this drug.)*
+Derzeit keine zugehörigen klinischen Studien registriert
 
 ---
 
-## Conclusion and Next Steps
+## Fachliteratur-Evidenz
 
-**Decision: Hold**
+Derzeit keine zugehörige Fachliteratur verfügbar
 
-**Rationale:**
-The hepatic porphyria prediction has no supporting clinical trials or literature, and the model's own mechanistic rationale rates the biological plausibility as weak (L5, no direct disease-mechanism overlap with iron chelation). Combined with a Blocking-severity TFDA safety data gap for the drug overall, this candidate cannot advance past initial screening.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings, contraindications) — required to clear the Blocking gap (DG001) before any S1 safety review
-- Documented mechanism of action (DG002) to properly evaluate mechanistic plausibility across all candidate indications
-- Preclinical or mechanistic studies specifically linking iron chelation to heme biosynthesis pathway disorders, if this indication is to be pursued further
-- As an alternative, consider redirecting evaluation resources to the **beta-thalassemia with other manifestations** candidate (rank 8), which already has literature support and a "Proceed with Guardrails" status
+## Markt-Information Deutschland
+
+Für dieses Arzneimittel werden derzeit keine Marktzulassungen in Deutschland/Taiwan gehalten (`total_licenses: 0`).
+
+---
+
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+*(Anmerkung: `key_warnings`, `contraindications` und DDI-Daten sind alle als Datenlücken in diesem Paket gekennzeichnet. DG001 — fehlende TFDA-Packungsbeilage-Warnhinweise/Kontraindikationen — ist als eine **Blockierende** Schweregrad-Datenlücke gekennzeichnet, was bedeutet, dass sie derzeit eine formale S1-Sicherheitsprüfung für jede Indikation unter diesem Arzneimittel verhindert.)*
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Abwarten**
+
+**Begründung:**
+Die Vorhersage für hepatische Porphyrie hat keine unterstützenden klinischen Studien oder Fachliteratur, und die eigene mechanistische Rationale des Modells bewertet die biologische Plausibilität als schwach (L5, keine direkte Krankheitsmechanismus-Überlappung mit Eisenchelation). In Kombination mit einer Blockierenden-Schweregrad-TFDA-Sicherheitsdatenlücke für das Arzneimittel insgesamt kann dieser Kandidat nicht über das initiale Screening hinaus vorankommen.
+
+**Um fortzufahren, wird Folgendes benötigt:**
+- TFDA-Packungsbeilage (Warnhinweise, Kontraindikationen) — erforderlich, um die Blockierende Lücke (DG001) zu klären, bevor eine S1-Sicherheitsprüfung erfolgen kann
+- Dokumentierter Wirkmechanismus (DG002), um die mechanistische Plausibilität über alle Kandidaten-Indikationen hinweg ordnungsgemäß zu bewerten
+- Präklinische oder mechanistische Studien, die Eisenchelation spezifisch zu Störungen des Häm-Biosynthese-Weges verknüpfen, wenn diese Indikation weiterverfolgt werden soll
+- Alternativ sollten Sie erwägen, Evaluierungsressourcen auf den **Beta-Thalassämie-mit-anderen-Manifestationen-Kandidaten** (Rang 8) umzuleiten, der bereits Fachliteratur-Unterstützung und einen Status „Weiterverfolgen mit Schutzmechanismen" hat
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

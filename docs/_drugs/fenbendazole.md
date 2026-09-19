@@ -29,65 +29,66 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Fenbendazole: From Anthelmintic Use to Urinary Bladder Carcinoma
+## Fenbendazol: Von der Anthelmintika-Anwendung zum Harnblasenkarzinom
 
-## One-Sentence Summary
+## Zusammenfassung (Ein Satz)
 
-Fenbendazole is a benzimidazole-class anthelmintic (deworming agent), not currently approved for human use in Germany.
-The TxGNN model predicts it may be effective for **Urinary Bladder Carcinoma** (and 9 other bladder cancer subtypes, all with similarly high scores),
-but this top-ranked prediction currently has **no supporting clinical trials or literature** — evidence exists only for a closely related indication (urinary bladder neoplasm), and only at the preclinical level.
+Fenbendazol ist ein Benzimidazol-Anthelmintikum (Entwurmungsmittel), das derzeit nicht zur Anwendung beim Menschen in Deutschland zugelassen ist.
+Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam gegen **Harnblasenkarzinom** sein könnte (und 9 weitere Harnblasenkrebssubtypen, alle mit ähnlich hohen Scores),
+aber diese höchstrangierte Vorhersage hat derzeit **keine unterstützenden klinischen Studien oder Literatur** — Belege gibt es nur für eine eng verwandte Indikation (Neoplasma der Harnblase), und nur auf präklinischer Ebene.
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
-|------|------|
-| Original Indication | Not specified in evidence pack; fenbendazole is a veterinary/human antiparasitic (anthelmintic) benzimidazole, no oncology indication on record |
-| Predicted New Indication | Urinary Bladder Carcinoma |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L5 |
-| Germany Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Nicht angegeben im Nachweispaket; Fenbendazol ist ein Antiparasitikum (Anthelmintikum) der Benzimidazolklasse für Veterinär- und Humanmedizin, keine Onkologie-Indikation dokumentiert |
+| Vorhergesagte neue Indikation | Harnblasenkarzinom |
+| TxGNN-Vorhersage-Score | 99.99% |
+| Evidenzlevel | L5 |
+| Marktstatus Deutschland | ✗ Nicht zugelassen |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Zurückstellen |
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage sinnvoll?
 
-Currently, detailed formal mechanism of action data (original_moa) is not available for fenbendazole. Based on the TxGNN model's repurposing rationale, fenbendazole belongs to the benzimidazole anthelmintic class, and its proposed antitumour mechanism is binding to the colchicine-like site on β-tubulin, inhibiting microtubule polymerization. This disrupts mitotic spindle formation, causing G2/M-phase cell cycle arrest, and may additionally downregulate GLUT glucose transporters and inhibit hexokinase, interfering with tumour cell metabolism — a mechanism conceptually similar to taxanes/vinca alkaloids, though at a distinct binding site.
+Derzeit sind detaillierte formale Wirkmechanismus-Daten (original_moa) für Fenbendazol nicht verfügbar. Basierend auf der Repurposing-Rationale des TxGNN-Modells gehört Fenbendazol zur Benzimidazol-Anthelmintikum-Klasse, und sein vorgeschlagener Antitumor-Wirkmechanismus besteht in der Bindung an die Colchicin-ähnliche Stelle auf β-tubulin, wobei die Mikrotubuluspolymerisation gehemmt wird. Dies stört die Bildung der mitotischen Spindel, verursacht einen G2/M-Phasen-Zellzyklus-Arrest, und kann zusätzlich GLUT-Glukose-Transporter herunterregulieren und Hexokinase hemmen, was den Tumorzellstoffwechsel beeinträchtigt — ein Wirkmechanismus, der konzeptionell Taxanen/Vinca-Alkaloiden ähnelt, aber an einer unterschiedlichen Bindungsstelle wirkt.
 
-There is no established relationship between fenbendazole's original antiparasitic use and bladder cancer; the connection is purely mechanistic (microtubule disruption affecting rapidly dividing urothelial carcinoma cells), inferred by the TxGNN network rather than derived from clinical precedent.
+Es gibt keine etablierte Beziehung zwischen Fenbendazols ursprünglicher antiparasitärer Anwendung und Harnblasenkrebs; die Verbindung ist rein mechanistisch (Störung der Mikrotubuli, die sich auf schnell teilende Urothelialkarzinomzellen auswirkt), vom TxGNN-Netzwerk hergeleitet und nicht aus klinischen Präzedenzfällen abgeleitet.
 
-Notably, the top-ranked prediction (urinary bladder carcinoma, this report's focus) has **no direct literature or trial evidence** — its rationale explicitly states this is "purely a TxGNN network prediction score" extrapolated from the closely related indication "urinary bladder neoplasm" (rank 2, score 99.99%), which does have two preclinical literature citations: one on fenbendazole combined with CRISPR-Cas13a in an intravesical instillation model for bladder cancer, and one on an unrelated carcinogenesis mechanistic pathway (UBD activation) not specific to fenbendazole treatment. Eight further bladder cancer subtypes (ranks 3–10) carry the same unsupported mechanistic rationale with no direct evidence.
+Bemerkenswert ist, dass die höchstrangierte Vorhersage (Harnblasenkarzinom, Fokus dieses Berichts) **keine direkte Literatur- oder Studienevidenz** hat — ihre Rationale erklärt ausdrücklich, dass dies „rein eine TxGNN-Netzwerk-Vorhersage-Score" ist, die von der eng verwandten Indikation „Neoplasma der Harnblase" (Rang 2, Score 99.99%) extrapoliert ist, die zwei präklinische Literaturzitate aufweist: eines über Fenbendazol in Kombination mit CRISPR-Cas13a in einem intravesikalen Instillationsmodell für Harnblasenkrebs, und eines über einen nicht verwandten Karzinogenese-Wirkmechanismus-Weg (UBD-Aktivierung), der nicht spezifisch für die Fenbendazol-Behandlung ist. Acht weitere Harnblasenkrebssubtypen (Ränge 3–10) tragen die gleiche unbewiesene mechanistische Rationale ohne direkte Belege.
 
-## Clinical Trial Evidence
+## Evidenz aus klinischen Studien
 
-Currently no related clinical trials registered
+Derzeit sind keine verwandten klinischen Studien registriert
 
-## Literature Evidence
+## Evidenz aus der Literatur
 
-Currently no related literature available
+Derzeit ist keine verwandte Literatur verfügbar
 
-## Germany Market Information
+## Informationen zum Markt Deutschland
 
-Fenbendazole is currently **not marketed** in Germany (0 authorizations on record). No product licenses or approved human indications are available in the evidence pack.
+Fenbendazol ist derzeit **nicht auf dem deutschen Markt verfügbar** (0 Zulassungen dokumentiert). Im Nachweispaket sind keine Produktlizenzen oder zugelassenen Humanindikationen vorhanden.
 
-## Safety Considerations
+## Sicherheitserwägungen
 
-Please refer to the package insert for safety information.
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
 
-*Note: A blocking data gap (DG001) has been identified — TFDA/label warnings and contraindications have not yet been retrieved, which prevents any preliminary safety (S1) assessment.*
+*Hinweis: Eine blockierende Datenlücke (DG001) wurde ermittelt — TFDA/Label-Warnungen und Kontraindikationen wurden noch nicht ermittelt, was eine vorläufige Sicherheitsbewertung (S1) verhindert.*
 
-## Conclusion and Next Steps
+## Schlussfolgerung und nächste Schritte
 
-**Decision: Hold**
+**Entscheidung: Zurückstellen**
 
-**Rationale:**
-The top-ranked prediction (urinary bladder carcinoma) is supported only by a TxGNN network score (L5, model prediction only) with zero direct clinical trials or literature. Even the best-evidenced related indication (urinary bladder neoplasm) reaches only L4 (preclinical/mechanistic), and the drug is not marketed for human use in Germany. Combined with a blocking data gap on safety warnings, there is currently insufficient evidence to proceed.
+**Begründung:**
+Die höchstrangierte Vorhersage (Harnblasenkarzinom) wird nur durch einen TxGNN-Netzwerk-Score unterstützt (L5, nur Modellvorhersage) ohne direkte klinische Studien oder Literatur. Selbst die am besten belegte verwandte Indikation (Neoplasma der Harnblase) erreicht nur L4 (präklinisch/mechanistisch), und das Arzneimittel ist nicht zur Anwendung beim Menschen in Deutschland zugelassen. In Kombination mit einer blockierenden Datenlücke zu Sicherheitswarnungen gibt es derzeit unzureichende Belege, um fortzufahren.
 
-**To proceed, the following is needed:**
-- Resolve DG001 (Blocking): retrieve/confirm human-use warnings and contraindications, since fenbendazole is currently only established as a veterinary/antiparasitic agent
-- Resolve DG002 (High): obtain confirmed mechanism of action data from DrugBank to validate the microtubule-inhibition hypothesis
-- In vitro/in vivo confirmation of antitumour activity specifically in bladder carcinoma models (beyond the single combination-therapy preclinical study found for the related "urinary bladder neoplasm" indication)
-- Human pharmacokinetic/safety data, given no existing approved human formulation or dosing precedent
-- Re-evaluation once any Phase 1/2 trial or additional peer-reviewed literature becomes available for this specific indication
+**Um fortzufahren, ist folgendes erforderlich:**
+- Auflösung von DG001 (Blocking): Abruf/Bestätigung von Warnungen und Kontraindikationen für die Humananwendung, da Fenbendazol derzeit nur als Veterinär-/Antiparasitikum etabliert ist
+- Auflösung von DG002 (High): Bestätigung der Wirkmechanismus-Daten von DrugBank zur Validierung der Mikrotubulus-Inhibitions-Hypothese
+- In-vitro/in-vivo-Bestätigung der Antitumor-Aktivität speziell in Harnblasenkarzinom-Modellen (über die einzige für die verwandte Indikation „Neoplasma der Harnblase" gefundene Kombinationstherapie-Präklinik-Studie hinaus)
+- Menschliche pharmakokinetische/Sicherheitsdaten, da es keine bestehende zugelassene menschliche Formulierung oder Dosierungsanwendung gibt
+- Neubewertung, sobald Phase-1/2-Studien oder zusätzliche begutachtete Literatur für diese spezifische Indikation verfügbar wird
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -29,62 +29,63 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9**
 
 </div>
 
-# Insulin Lispro: From Diabetes Mellitus to Autoimmune Oophoritis
+# Insulin Lispro: Von Diabetes mellitus zu Autoimmun-Oophoritis
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Insulin lispro is a rapid-acting insulin analog used for glycemic control in diabetes mellitus.
-The TxGNN model predicts it may be effective for **Autoimmune Oophoritis**,
-but currently **0 clinical trials** and **0 publications** support this direction, and the underlying rationale flags this prediction as likely graph-level noise rather than a genuine mechanistic signal.
+Insulin lispro ist ein schnellwirkendes Insulinanalogon zur Blutglukosekontrolle bei Diabetes mellitus.
+Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam für **Autoimmun-Oophoritis** sein könnte,
+doch derzeit unterstützen **0 klinische Studien** und **0 Publikationen** diese Richtung, und die zugrunde liegende Rationale kennzeichnet diese Vorhersage als wahrscheinlich Rauschen auf Graphen-Ebene statt als echtes mechanistisches Signal.
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
-|------|------|
-| Original Indication | Diabetes Mellitus (glycemic control; detailed regulatory indication text not available in this evidence pack) |
-| Predicted New Indication | Autoimmune Oophoritis |
-| TxGNN Prediction Score | 99.78% |
-| Evidence Level | L5 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Diabetes mellitus (Blutglukosekontrolle; detaillierter regulatorischer Indikationstext nicht in diesem Evidence-Pack verfügbar) |
+| Vorhergesagte neue Indikation | Autoimmun-Oophoritis |
+| TxGNN-Vorhersage-Score | 99.78% |
+| Evidenzstufe | L5 |
+| Marktstatus Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Halten |
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage sinnvoll?
 
-Currently, detailed mechanism of action data is not available (Data Gap DG002). Based on general pharmacological knowledge, insulin lispro is a rapid-acting insulin analog that binds the insulin receptor to promote cellular glucose uptake; its efficacy in diabetes mellitus is well established.
+Derzeit sind detaillierte Wirkmechanismus-Daten nicht verfügbar (Data Gap DG002). Basierend auf allgemeinem pharmakologischem Wissen ist Insulin lispro ein schnellwirkendes Insulinanalogon, das an den Insulinrezeptor bindet, um die zelluläre Glukoseaufnahme zu fördern; seine Wirksamkeit bei Diabetes mellitus ist gut belegt.
 
-For the top-ranked prediction, autoimmune oophoritis, the evidence pack's own mechanistic assessment is explicitly negative: there is **no known biological relationship** between autoimmune oophoritis and the insulin receptor/glucose metabolism pathway. The high TxGNN score most likely arises because both conditions are tagged as "autoimmune disease" and co-occur with Type 1 diabetes in the training knowledge graph — a semantic co-occurrence artifact rather than a genuine mechanistic link. The evidence pack itself classifies this as "database noise without mechanistic support."
+Für die höchstrangig bewertete Vorhersage, Autoimmun-Oophoritis, fällt die mechanistische Bewertung des Evidence-Packs selbst explizit negativ aus: Es gibt **keine bekannte biologische Beziehung** zwischen Autoimmun-Oophoritis und dem Insulinrezeptor-/Glukosestoffwechsel-Signalweg. Der hohe TxGNN-Score entsteht höchstwahrscheinlich, weil beide Erkrankungen im Trainings-Wissensgraph als „Autoimmunerkrankung" getaggt sind und zusammen mit Typ-1-Diabetes auftreten – ein semantisches Co-Occurrenz-Artefakt statt ein echter mechanistischer Link. Das Evidence-Pack selbst klassifiziert dies als „Datenbank-Rauschen ohne mechanistische Unterstützung".
 
-Several lower-ranked candidates in this pack show comparatively more plausible (though still weak) rationale — for example, pancreatic agenesis (rank 7) and thiamine-responsive dysfunction syndrome (rank 2) both involve genuine diabetes-related comorbidity where insulin is used as supportive therapy. These are still extensions of the known diabetes indication rather than true novel indications, but they merit more consideration than the top-ranked candidate. Several other candidates (drug-induced localized lipodystrophy, centrifugal lipodystrophy, pressure-induced localized lipoatrophy) are flagged as likely representing insulin's known **adverse effect** (injection-site lipodystrophy) being mis-encoded as a treatment relationship, and should be treated as safety signals, not therapeutic opportunities.
+Mehrere niedriger bewertete Kandidaten in diesem Pack zeigen vergleichsweise plausiblere (wenn auch weiterhin schwache) Rationale – zum Beispiel Pankreasagenesie (Rang 7) und Thiamin-responsive Funktionsstörung (Rang 2) sind beide mit echten Diabetes-assoziierten Begleiterkrankungen verknüpft, bei denen Insulin als Supportivtherapie verwendet wird. Dies sind nach wie vor Erweiterungen der bekannten Diabetes-Indikation statt echte neue Indikationen, aber sie verdienen mehr Beachtung als der höchstrangig bewertete Kandidat. Mehrere andere Kandidaten (arzneimittelinduzierte lokalisierte Lipodystrophie, zentrifugale Lipodystrophie, druckinduzierte lokalisierte Lipoatrophie) werden als wahrscheinlich Darstellungen von Insulins bekannter **Nebenwirkung** (Injektionsstellen-Lipodystrophie), die fälschlicherweise als Behandlungsbeziehung kodiert wurden, gekennzeichnet und sollten als Sicherheitssignale behandelt werden, nicht als therapeutische Möglichkeiten.
 
-## Clinical Trial Evidence
+## Klinische Studienevidenz
 
-Currently no related clinical trials registered
+Derzeit keine verwandten klinischen Studien registriert
 
-## Literature Evidence
+## Literaturevidenz
 
-Currently no related literature available
+Derzeit keine verwandte Literatur verfügbar
 
-## Germany Market Information
+## Marktinformation Deutschland
 
-No marketing authorizations are currently on record for insulin lispro in this evidence pack (market status: Not Marketed; total authorizations: 0).
+Für Insulin lispro sind derzeit keine Vermarktungszulassungen im Evidence-Pack dokumentiert (Marktstatus: Nicht vermarktet; Gesamtzulassungen: 0).
 
-## Safety Considerations
+## Sicherheitsaspekte
 
-Please refer to the package insert for safety information.
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
 
-## Conclusion and Next Steps
+## Fazit und nächste Schritte
 
-**Decision: Hold**
+**Entscheidung: Halten**
 
-**Rationale:**
-The top-ranked predicted indication (autoimmune oophoritis) has L5 evidence with zero supporting clinical trials or literature, and the evidence pack's own mechanistic review concludes it is most likely a semantic co-occurrence artifact in the training graph rather than a real biological association. No other candidate in this pack reaches beyond L4/S1 "Research Question" status, and those (pancreatic agenesis, thiamine-responsive dysfunction syndrome) are essentially restatements of the existing diabetes indication in rare genetic subtypes, not true new indications.
+**Begründung:**
+Die höchstrangig vorhergesagte Indikation (Autoimmun-Oophoritis) hat L5-Evidenz mit null unterstützenden klinischen Studien oder Literatur, und die mechanistische Bewertung des Evidence-Packs selbst kommt zu dem Ergebnis, dass sie höchstwahrscheinlich ein semantisches Co-Occurrenz-Artefakt im Trainings-Graph statt eine echte biologische Assoziation ist. Kein anderer Kandidat in diesem Pack erreicht über L4/S1 „Forschungsfrage"-Status hinaus, und diejenigen (Pankreasagenesie, Thiamin-responsive Funktionsstörung) sind im Wesentlichen Reformulierungen der bestehenden Diabetes-Indikation in seltenen genetischen Subtypen, keine echten neuen Indikationen.
 
-**To proceed, the following is needed:**
-- TFDA/BfArM package insert (warnings, contraindications) — currently blocking (DG001)
-- Detailed mechanism of action data from DrugBank — currently high-priority gap (DG002)
-- If pursuing pancreatic agenesis or thiamine-responsive dysfunction syndrome as research questions, case-series or registry data on insulin use in these rare genetic diabetes subtypes
-- Re-run TxGNN scoring with lipodystrophy-related candidates reclassified as adverse-effect signals rather than candidate indications, to avoid future false positives from this same graph pattern
+**Um fortzufahren, ist Folgendes erforderlich:**
+- TFDA/BfArM Packungsbeilage (Warnhinweise, Kontraindikationen) – derzeit blockierend (DG001)
+- Detaillierte Wirkmechanismus-Daten aus DrugBank – derzeit hochpriorisierte Datenlücke (DG002)
+- Bei Verfolgung von Pankreasagenesie oder Thiamin-responsive Funktionsstörung als Forschungsfragen, Fallserien- oder Registerdaten zur Insulin-Verwendung in diesen seltenen genetischen Diabetes-Subtypen
+- TxGNN-Scoring erneut durchführen, wobei Lipodystrophie-verwandte Kandidaten als Nebenwirkungssignale statt als Kandidaten-Indikationen klassifiziert sind, um zukünftig falsch-positive Ergebnisse aus demselben Graph-Muster zu vermeiden
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -29,134 +29,135 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Trametinib: From BRAF V600-Mutant Melanoma to Additional Melanoma Subtypes
+# Trametinib: Von BRAF-V600-mutantem Melanom zu zusätzlichen Melanom-Subtypen
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Trametinib is a MEK1/2 inhibitor whose established use — evident throughout the clinical trial record in this evidence pack — is combination therapy with dabrafenib for BRAF V600 mutation-positive melanoma. TxGNN additionally flags several histological and anatomical melanoma subtypes (nodular, superficial spreading, non-cutaneous/mucosal-ocular) as candidates for the same mechanism, each supported to varying degrees by completed Phase 2/3 trials and case-level literature, while a subset of predictions (choroideremia, scrotal melanoma, CDK4-linked melanoma, balloon cell melanoma) have no clinical or mechanistic support at all. This is a **multi-indication candidate pack (10 predictions, evidence levels L1–L5)**, so each candidate below is assessed independently rather than as a single go/no-go decision.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available in Taiwan/Germany regulatory data (0 licenses on file). Based on clinical trial descriptions in this pack, trametinib's established use is combination therapy with dabrafenib for **BRAF V600E/K mutation-positive melanoma** (unresectable/metastatic and adjuvant settings) |
-| Best-Supported New Indications | **Superficial spreading melanoma** and **Nodular malignant melanoma** (histological subtypes of cutaneous melanoma) |
-| TxGNN Prediction Score (top pick) | 99.14% (both indications, tied) |
-| Evidence Level | L2 (1 completed Phase 2 trial + supporting cohort/case literature) |
-| Germany Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Proceed with Guardrails** (for melanoma-subtype extensions, conditional on BRAF V600 testing) — see full ranking below for other candidates |
-
-### Full Predicted-Indication Ranking
-
-| Rank | Disease | TxGNN Score | Evidence Level | Recommendation |
-|------|---------|-----------|-----------|-----------|
-| 1 | Choroideremia | 99.31% | L5 | Hold |
-| 2 | Non-cutaneous melanoma | 99.30% | L1 | Research Question |
-| 3 | Epithelioid cell melanoma | 99.28% | L4 | Research Question |
-| 4 | Eyelid melanoma | 99.26% | L4 | Research Question |
-| 5 | Scrotum melanoma | 99.21% | L5 | Hold |
-| 6 | Nodular malignant melanoma | 99.14% | L2 | **Proceed with Guardrails** |
-| 7 | Balloon cell malignant melanoma | 99.14% | L5 | Hold |
-| 8 | Superficial spreading melanoma | 99.14% | L2 | **Proceed with Guardrails** |
-| 9 | CDK4-linked melanoma | 99.14% | L5 | Hold |
-| 10 | Amelanotic skin melanoma | 99.14% | L4 | Research Question |
-
-*Note: Evidence level here does not track monotonically with TxGNN score — a high similarity score reflects embedding proximity in the knowledge graph, not clinical support. Rank 2 is labeled L1 in the source scoring but downgraded to "Research Question" because its listed trials are cutaneous-melanoma registration trials applied indirectly to a non-cutaneous population, not disease-specific RCTs.*
+> Trametinib ist ein MEK1/2-Inhibitor, dessen etablierte Anwendung – dokumentiert in allen klinischen Studien dieser Evidenzsammlung – die Kombinationstherapie mit Dabrafenib für BRAF-V600-Mutations-positives Melanom ist. TxGNN identifiziert darüber hinaus mehrere histologische und anatomische Melanom-Subtypen (nodulär, oberflächlich ausbreitend, nicht-kutane/mukös-okular) als Kandidaten für denselben Wirkmechanismus, die durch unterschiedlich starke Phase-2/3-Studien und Fallberichte unterstützt werden, während eine Teilmenge der Vorhersagen (Choroiderämie, Hodensack-Melanom, CDK4-verknüpftes Melanom, Ballonzellen-Melanom) überhaupt keine klinische oder mechanistische Unterstützung hat. Dies ist ein **Multi-Indikations-Kandidatenpaket (10 Vorhersagen, Evidenzstufen L1–L5)**, daher wird jeder Kandidat nachfolgend unabhängig bewertet, anstatt als einzelne Go/No-Go-Entscheidung.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Detailed DrugBank mechanism-of-action text is not available in this evidence pack (data gap DG002). However, every clinical trial record in the pack consistently describes trametinib as an oral **MEK1/2 inhibitor**, used in combination with the BRAF inhibitor dabrafenib to block the MAPK/ERK signaling cascade downstream of BRAF V600 mutations. This combination is the backbone of the pivotal registration trials present here (e.g., NCT01245062, NCT01584648, NCT01597908), which established efficacy in BRAF V600E/K-mutant unresectable or metastatic **cutaneous** melanoma.
+| Punkt | Inhalt |
+|-------|--------|
+| Ursprüngliche Indikation | Nicht verfügbar in Taiwan/Deutschland-Regulierungsdaten (0 Lizenzen auf Datei). Basierend auf klinischen Studienbeschreibungen in diesem Paket ist die etablierte Verwendung von Trametinib die Kombinationstherapie mit Dabrafenib für **BRAF-V600E/K-Mutations-positives Melanom** (nicht resektabel/metastasiert und adjuvante Settings) |
+| Am besten unterstützte neue Indikationen | **Oberflächlich ausbreitendes Melanom** und **Nodales malignes Melanom** (histologische Subtypen von kutanem Melanom) |
+| TxGNN-Vorhersage-Score (Top-Kandidat) | 99,14% (beide Indikationen, gleichauf) |
+| Evidenzstufe | L2 (1 abgeschlossene Phase-2-Studie + unterstützende Kohorten-/Fallliteratur) |
+| Marktstatus Deutschland | Nicht vermarktet (Not marketed) |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | **Mit Schutzmaßnahmen fortfahren** (für Melanom-Subtyp-Erweiterungen, bedingt durch BRAF-V600-Testung) – siehe vollständige Rangfolge nachfolgend für andere Kandidaten |
 
-The predictions in ranks 6 and 8 (nodular and superficial spreading melanoma) are histological *subtypes* of cutaneous melanoma rather than distinct diseases — they share the same BRAF V600 mutation biology as the already-treated population, so the mechanistic extrapolation is close to direct rather than novel. Rank 2 (non-cutaneous melanoma) and the ocular/mucosal predictions (ranks 3, 4, 10) are biologically more distant: BRAF V600 mutation prevalence in conjunctival, eyelid, and mucosal melanoma is substantially lower than in cutaneous melanoma, so response is plausible only in the BRAF-mutant-positive subset, as illustrated by isolated case reports of conjunctival melanoma responding to BRAF/MEK inhibition (PMID 27893585, 31361915).
+### Vollständige Rangfolge der vorhergesagten Indikationen
 
-Conversely, choroideremia (rank 1), scrotal melanoma (rank 5), balloon cell melanoma (rank 7), and CDK4-linked melanoma (rank 9) have no clinical trials, no literature, and no plausible mechanistic link to MEK inhibition (choroideremia is a CHM/REP1 retinal degeneration unrelated to MAPK signaling; CDK4-driven melanoma acts through cell-cycle rather than MAPK pathways). These should be treated as pure knowledge-graph artifacts.
+| Rang | Erkrankung | TxGNN-Score | Evidenzstufe | Empfehlung |
+|------|-----------|-----------|-----------|-----------|
+| 1 | Choroiderämie | 99,31% | L5 | Beibehalten |
+| 2 | Nicht-kutanes Melanom | 99,30% | L1 | Forschungsfrage |
+| 3 | Epitheloide Zell-Melanom | 99,28% | L4 | Forschungsfrage |
+| 4 | Augenlid-Melanom | 99,26% | L4 | Forschungsfrage |
+| 5 | Hodensack-Melanom | 99,21% | L5 | Beibehalten |
+| 6 | Nodales malignes Melanom | 99,14% | L2 | **Mit Schutzmaßnahmen fortfahren** |
+| 7 | Ballonzellen-Melanom | 99,14% | L5 | Beibehalten |
+| 8 | Oberflächlich ausbreitendes Melanom | 99,14% | L2 | **Mit Schutzmaßnahmen fortfahren** |
+| 9 | CDK4-verknüpftes Melanom | 99,14% | L5 | Beibehalten |
+| 10 | Amelanotisches Haut-Melanom | 99,14% | L4 | Forschungsfrage |
+
+*Hinweis: Die Evidenzstufe hier korreliert nicht monoton mit dem TxGNN-Score – ein hoher Ähnlichkeitsscore spiegelt die Nähe in der Wissensgraph wider, nicht die klinische Unterstützung. Rang 2 ist in der Quell-Bewertung als L1 gekennzeichnet, wird aber zu „Forschungsfrage" herabgestuft, da die angeführten Studien kutane-Melanom-Zulassungsstudien sind, die indirekt auf eine nicht-kutane Population angewendet werden, nicht krankheitsspezifische RCTs.*
 
 ---
 
-## Clinical Trial Evidence
+## Warum ist diese Vorhersage angemessen?
 
-Trials below form the core evidence base underpinning trametinib's BRAF/MEK mechanism; they support the melanoma-subtype extensions (non-cutaneous, nodular, superficial spreading) as background mechanistic evidence rather than subtype-specific confirmatory trials.
+Detaillierte Wirkmechanismus-Texte von DrugBank sind in dieser Evidenzsammlung nicht verfügbar (Datenlücke DG002). Jedoch beschreibt jeder Klinische-Studien-Eintrag in diesem Paket konsistent Trametinib als oralen **MEK1/2-Inhibitor**, der in Kombination mit dem BRAF-Inhibitor Dabrafenib verwendet wird, um die MAPK/ERK-Signalkaskade unterhalb von BRAF-V600-Mutationen zu blockieren. Diese Kombination bildet das Rückgrat der pivotalen Zulassungsstudien, die hier vorhanden sind (z.B. NCT01245062, NCT01584648, NCT01597908), die die Wirksamkeit bei BRAF-V600E/K-mutantem nicht resektablem oder metastasiertem **kutanem** Melanom etabliert haben.
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Die Vorhersagen in den Rängen 6 und 8 (nodulär und oberflächlich ausbreitend Melanom) sind histologische *Subtypen* des kutanen Melanoms und nicht unterschiedliche Erkrankungen – sie teilen die gleiche BRAF-V600-Mutations-Biologie wie die bereits behandelte Population, daher ist die mechanistische Extrapolation nah an direkt anstatt neuartig. Rang 2 (nicht-kutanes Melanom) und die okularen/mukosa-Vorhersagen (Ränge 3, 4, 10) sind biologisch weiter entfernt: Die BRAF-V600-Mutations-Prävalenz bei konjunktivalem, Augenlid- und Mukosa-Melanom ist erheblich niedriger als bei kutanem Melanom, daher ist die Ansprechrate plausibel nur in der BRAF-mutant-positiven Teilmenge, wie durch isolierte Fallberichte von konjunktivalem Melanom, das auf BRAF/MEK-Hemmung anspricht, illustriert (PMID 27893585, 31361915).
+
+Umgekehrt haben Choroiderämie (Rang 1), Hodensack-Melanom (Rang 5), Ballonzellen-Melanom (Rang 7) und CDK4-verknüpftes Melanom (Rang 9) keine klinischen Studien, keine Literatur und keine plausible mechanistische Verbindung zu MEK-Hemmung (Choroiderämie ist eine CHM/REP1-Netzhaut-Degeneration, unabhängig von MAPK-Signalisierung; CDK4-getriebenes Melanom wirkt über Zellzyklus anstatt MAPK-Wege). Diese sollten als reine Wissensgraph-Artefakte behandelt werden.
+
+---
+
+## Klinische Studienevidenz
+
+Die nachfolgenden Studien bilden die Kernevidenz-Grundlage, die Trametinibs BRAF/MEK-Wirkmechanismus untermauert; sie unterstützen die Melanom-Subtyp-Erweiterungen (nicht-kutane, nodulär, oberflächlich ausbreitend) als Hintergrund-mechanistische Evidenz anstatt subtyp-spezifische bestätigende Studien.
+
+| Studiennummer | Phase | Status | Einschluss | Wichtigste Erkenntnisse |
 |---------|------|------|------|---------|
-| [NCT01245062](https://clinicaltrials.gov/study/NCT01245062) | Phase 3 | Completed | 322 | Pivotal trial: trametinib monotherapy vs. chemotherapy in BRAF V600E/K-positive cutaneous melanoma |
-| [NCT01584648](https://clinicaltrials.gov/study/NCT01584648) | Phase 3 | Completed | 423 | COMBI-d: dabrafenib+trametinib vs. dabrafenib alone, unresectable/metastatic BRAF V600E/K cutaneous melanoma |
-| [NCT01597908](https://clinicaltrials.gov/study/NCT01597908) | Phase 3 | Completed | 704 | COMBI-v: dabrafenib+trametinib vs. vemurafenib, BRAF V600E/K cutaneous melanoma |
-| [NCT03551626](https://clinicaltrials.gov/study/NCT03551626) | Phase 3b | Completed | 552 | COMBI-APlus: adjuvant dabrafenib+trametinib after complete resection, Stage III BRAF V600 melanoma; pyrexia AE-management algorithm |
-| [NCT01072175](https://clinicaltrials.gov/study/NCT01072175) | Phase 1/2 | Completed | 430 | Original dose-escalation/combination trial of dabrafenib+trametinib in BRAF-mutant metastatic melanoma |
-| [NCT02039947](https://clinicaltrials.gov/study/NCT02039947) | Phase 2 | Completed | 127 | Dabrafenib+trametinib in BRAF-mutant melanoma with brain metastases (4 mutation cohorts) |
-| [NCT02645149](https://clinicaltrials.gov/study/NCT02645149) | Phase 2 | Completed | 216 | Molecular profiling with matched targeted therapy in BRAF/NRAS wild-type unresectable/metastatic melanoma progressing on immunotherapy |
-| [NCT02910700](https://clinicaltrials.gov/study/NCT02910700) | Phase 2 | Active, not recruiting | 52 | Triplet nivolumab+dabrafenib+trametinib (TRIDeNT) vs. encorafenib+binimetinib+nivolumab (TRIBECA), BRAF-mutant Stage III-IV melanoma |
-| [NCT05171374](https://clinicaltrials.gov/study/NCT05171374) | N/A | Unknown | 500 | Prospective real-world outcomes of dabrafenib+trametinib in resectable/metastatic BRAF+ melanoma |
-| [NCT03340506](https://clinicaltrials.gov/study/NCT03340506) | Phase 4 | Recruiting | 100 | Long-term safety roll-over study for patients continuing dabrafenib/trametinib after parent-study completion |
+| [NCT01245062](https://clinicaltrials.gov/study/NCT01245062) | Phase 3 | Abgeschlossen | 322 | Pivotale Studie: Trametinib-Monotherapie vs. Chemotherapie bei BRAF-V600E/K-positivem kutanem Melanom |
+| [NCT01584648](https://clinicaltrials.gov/study/NCT01584648) | Phase 3 | Abgeschlossen | 423 | COMBI-d: Dabrafenib+Trametinib vs. Dabrafenib allein, nicht resektables/metastasiertes BRAF-V600E/K kutanes Melanom |
+| [NCT01597908](https://clinicaltrials.gov/study/NCT01597908) | Phase 3 | Abgeschlossen | 704 | COMBI-v: Dabrafenib+Trametinib vs. Vemurafenib, BRAF-V600E/K kutanes Melanom |
+| [NCT03551626](https://clinicaltrials.gov/study/NCT03551626) | Phase 3b | Abgeschlossen | 552 | COMBI-APlus: Adjuvantes Dabrafenib+Trametinib nach vollständiger Resektion, Stadium III BRAF-V600 Melanom; Pyrexie-Nebenwirkungsmanagement-Algorithmus |
+| [NCT01072175](https://clinicaltrials.gov/study/NCT01072175) | Phase 1/2 | Abgeschlossen | 430 | Originale Dosiseskalations-/Kombinationsstudie von Dabrafenib+Trametinib bei BRAF-mutantem metastasiertem Melanom |
+| [NCT02039947](https://clinicaltrials.gov/study/NCT02039947) | Phase 2 | Abgeschlossen | 127 | Dabrafenib+Trametinib bei BRAF-mutantem Melanom mit Hirnmetastasen (4 Mutations-Kohorten) |
+| [NCT02645149](https://clinicaltrials.gov/study/NCT02645149) | Phase 2 | Abgeschlossen | 216 | Molekulare Profilierung mit abgestimmter gezielter Therapie bei BRAF/NRAS Wildtyp nicht resektablem/metastasiertem Melanom, das unter Immunotherapie progredient ist |
+| [NCT02910700](https://clinicaltrials.gov/study/NCT02910700) | Phase 2 | Aktiv, nicht rekrutierend | 52 | Tripletts-Nivolumab+Dabrafenib+Trametinib (TRIDeNT) vs. Encorafenib+Binimetinib+Nivolumab (TRIBECA), BRAF-mutantes Stadium III-IV Melanom |
+| [NCT05171374](https://clinicaltrials.gov/study/NCT05171374) | N/A | Unbekannt | 500 | Prospektive Real-World-Outcomes von Dabrafenib+Trametinib bei resektablem/metastasiertem BRAF+ Melanom |
+| [NCT03340506](https://clinicaltrials.gov/study/NCT03340506) | Phase 4 | Rekrutierung läuft | 100 | Langzeit-Sicherheits-Roll-Over-Studie für Patienten, die Dabrafenib/Trametinib nach Abschluss der Mutterstudie fortsetzen |
 
-*No trials in this pack specifically enroll patients with choroideremia, scrotal melanoma, balloon cell melanoma, or CDK4-linked melanoma.*
+*Keine Studien in diesem Paket rekrutieren spezifisch Patienten mit Choroiderämie, Hodensack-Melanom, Ballonzellen-Melanom oder CDK4-verknüpftem Melanom.*
 
 ---
 
-## Literature Evidence
+## Literaturevidenz
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Journal | Wichtigste Erkenntnisse |
 |------|-----|------|------|---------|
-| [40853557](https://pubmed.ncbi.nlm.nih.gov/40853557/) | 2025 | Review | JAMA | Overview of cutaneous melanoma epidemiology and treatment landscape, including BRAF/MEK-targeted therapy |
-| [30376465](https://pubmed.ncbi.nlm.nih.gov/30376465/) | 2019 | Cohort | Melanoma Research | Multicenter real-life study of BRAF/MEK inhibitor combination in melanoma patients with active brain metastases (n=65) |
-| [31361915](https://pubmed.ncbi.nlm.nih.gov/31361915/) | 2020 | Case Report/Review | Clin Exp Dermatol | BRAF-mutated bulbar conjunctival (epithelioid) melanoma treated with vemurafenib; literature review |
-| [27893585](https://pubmed.ncbi.nlm.nih.gov/27893585/) | 2017 | Case Report | Ophthalmic Plast Reconstr Surg | Conjunctival melanoma with BRAF V600E responsive to systemic BRAF/MEK inhibitor combination |
-| [31747798](https://pubmed.ncbi.nlm.nih.gov/31747798/) | 2019 | Case Report/Review | J Investig Med High Impact Case Rep | Lacrimal sac malignant melanoma (epithelioid type); review of 15 Japanese cases |
-| [41310270](https://pubmed.ncbi.nlm.nih.gov/41310270/) | 2025 | Case Report | Child's Nervous System | Pediatric amelanotic CNS melanoma with systemic spread, associated with congenital melanocytic naevi |
-| [41209431](https://pubmed.ncbi.nlm.nih.gov/41209431/) | 2026 | Case Report | Oncology Letters | Combined BRAF/MEK inhibition for BRAF-mutant brain metastases from superficial spreading melanoma during pregnancy |
-| [37756677](https://pubmed.ncbi.nlm.nih.gov/37756677/) | 2025 | Case Report | Retinal Cases & Brief Reports | Rapid resolution of choroidal metastasis from cutaneous melanoma after combined targeted therapy |
-| [24879511](https://pubmed.ncbi.nlm.nih.gov/24879511/) | 2014 | Case Series (safety) | Am J Dermatopathol | Panniculitis as an adverse effect of BRAF/MEK inhibitor therapy (dabrafenib, dabrafenib+trametinib) |
-| [32614358](https://pubmed.ncbi.nlm.nih.gov/32614358/) | 2020 | Case Report | La Clinica Terapeutica | PET-guided switch from immunotherapy to BRAF/MEK targeted therapy in nodular melanoma with cutaneous/skeletal metastases |
+| [40853557](https://pubmed.ncbi.nlm.nih.gov/40853557/) | 2025 | Review | JAMA | Übersicht über kutane Melanom-Epidemiologie und Behandlungslandschaft, einschließlich BRAF/MEK-gezielte Therapie |
+| [30376465](https://pubmed.ncbi.nlm.nih.gov/30376465/) | 2019 | Kohorte | Melanoma Research | Multizentrische Real-Life-Studie von BRAF/MEK-Inhibitor-Kombination bei Melanom-Patienten mit aktiven Hirnmetastasen (n=65) |
+| [31361915](https://pubmed.ncbi.nlm.nih.gov/31361915/) | 2020 | Fallbericht/Review | Clin Exp Dermatol | BRAF-mutiertes bulbäres konjunktivales (epitheloide) Melanom, behandelt mit Vemurafenib; Literaturübersicht |
+| [27893585](https://pubmed.ncbi.nlm.nih.gov/27893585/) | 2017 | Fallbericht | Ophthalmic Plast Reconstr Surg | Konjunktivales Melanom mit BRAF-V600E, ansprechbar auf systemische BRAF/MEK-Inhibitor-Kombination |
+| [31747798](https://pubmed.ncbi.nlm.nih.gov/31747798/) | 2019 | Fallbericht/Review | J Investig Med High Impact Case Rep | Malignes Melanom der Tränendrüse (epitheloider Typ); Übersicht von 15 japanischen Fällen |
+| [41310270](https://pubmed.ncbi.nlm.nih.gov/41310270/) | 2025 | Fallbericht | Child's Nervous System | Pädiatrisches amelanotisches ZNS-Melanom mit systemischer Ausbreitung, assoziiert mit angeborenen melanozytären Nävi |
+| [41209431](https://pubmed.ncbi.nlm.nih.gov/41209431/) | 2026 | Fallbericht | Oncology Letters | Kombinierte BRAF/MEK-Hemmung für BRAF-mutant Hirnmetastasen von oberflächlich ausbreitendem Melanom während der Schwangerschaft |
+| [37756677](https://pubmed.ncbi.nlm.nih.gov/37756677/) | 2025 | Fallbericht | Retinal Cases & Brief Reports | Schnelle Auflösung von chorioidaler Metastase von kutanem Melanom nach kombinierter gezielter Therapie |
+| [24879511](https://pubmed.ncbi.nlm.nih.gov/24879511/) | 2014 | Fallserie (Sicherheit) | Am J Dermatopathol | Panniculitis als Nebenwirkung von BRAF/MEK-Inhibitor-Therapie (Dabrafenib, Dabrafenib+Trametinib) |
+| [32614358](https://pubmed.ncbi.nlm.nih.gov/32614358/) | 2020 | Fallbericht | La Clinica Terapeutica | PET-gesteuerte Umstellung von Immunotherapie zu BRAF/MEK-gezielte Therapie bei nodalem Melanom mit kutanen/skelettalen Metastasen |
 
-*No literature was returned for choroideremia, scrotal melanoma, balloon cell melanoma, or CDK4-linked melanoma.*
-
----
-
-## Germany Market Information
-
-Trametinib is currently **not marketed** in Germany under this evidence pack's regulatory data source (market status: Not marketed, 0 authorizations on file). No license table can be produced.
+*Für Choroiderämie, Hodensack-Melanom, Ballonzellen-Melanom oder CDK4-verknüpftes Melanom wurde keine Literatur zurückgegeben.*
 
 ---
 
-## Cytotoxicity
+## Marktsituation Deutschland
 
-Trametinib is an antineoplastic agent (all trial populations in this pack are oncology/melanoma patients), so this section applies.
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (MEK1/2 inhibitor) — not a conventional cytotoxic chemotherapy agent |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+Trametinib ist derzeit **nicht vermarktet** in Deutschland gemäß der Regulierungsdatenquelle dieses Evidenzpakets (Marktstatus: Not marketed, 0 Zulassungen auf Datei). Es kann keine Lizenztabelle erstellt werden.
 
 ---
 
-## Safety Considerations
+## Zytotoxizität
 
-Please refer to the package insert for safety information. (TFDA/BfArM warning, contraindication, and drug-interaction data are not available in this evidence pack — flagged as a blocking data gap, DG001.)
+Trametinib ist ein antineoplastisches Agens (alle Studienpopulationen in diesem Paket sind Onkologie-/Melanom-Patienten), daher ist dieser Abschnitt anwendbar.
+
+| Punkt | Inhalt |
+|-------|--------|
+| Zytotoxizitäts-Klassifizierung | Gezielte Therapie (MEK1/2-Inhibitor) – kein konventionales zytotoxisches Chemotherapeutikum |
+| Myelosuppression-Risiko | Bitte beziehen Sie sich auf die Warnhinweise und Vorsichtsmaßnahmen der Packungsbeilage |
+| Emetogenitäts-Klassifizierung | Bitte beziehen Sie sich auf die Warnhinweise und Vorsichtsmaßnahmen der Packungsbeilage |
+| Überwachungspunkte | Bitte beziehen Sie sich auf die Warnhinweise und Vorsichtsmaßnahmen der Packungsbeilage |
+| Handhabungsschutz | Bitte beziehen Sie sich auf die Warnhinweise und Vorsichtsmaßnahmen der Packungsbeilage |
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsaspekte
 
-**Decision: Proceed with Guardrails** (for the melanoma-subtype extensions: nodular melanoma, superficial spreading melanoma, non-cutaneous melanoma) / **Hold** (for choroideremia, scrotal melanoma, balloon cell melanoma, CDK4-linked melanoma) / **Research Question** (for epithelioid cell melanoma, eyelid melanoma, amelanotic melanoma)
+Bitte beziehen Sie sich auf die Packungsbeilage für Sicherheitsinformationen. (TFDA/BfArM-Warnhinweise, Gegenanzeigen und Arzneimittelwechselwirkungs-Daten sind in dieser Evidenzsammlung nicht verfügbar – gekennzeichnet als blockierende Datenlücke, DG001.)
 
-**Rationale:**
-- Nodular and superficial spreading melanoma are histological subtypes already within the biological population (BRAF V600-mutant cutaneous melanoma) that the pivotal dabrafenib+trametinib trials enrolled — the mechanistic case is strong, but subtype-specific confirmatory trials are absent, so guardrails (mandatory BRAF V600 testing, subtype-stratified monitoring) are warranted.
-- Non-cutaneous, ocular, and mucosal melanoma predictions rest only on case-level evidence in a population with lower BRAF mutation prevalence, and choroideremia/scrotal/balloon-cell/CDK4-linked melanoma predictions have zero clinical or mechanistic support — these should not proceed without new primary evidence.
+---
 
-**To proceed, the following is needed:**
-- TFDA/BfArM package insert (warnings, contraindications, DDI) — currently a blocking data gap (DG001)
-- DrugBank-sourced mechanism of action and toxicity profile (DG002)
-- BRAF V600 mutation-status stratification data for any subtype-specific trial design
-- Confirmation of trametinib's approved label scope (cutaneous vs. all melanoma) from an authoritative regulatory source, since it is absent from the regulatory data provided here
+## Fazit und nächste Schritte
+
+**Entscheidung: Mit Schutzmaßnahmen fortfahren** (für die Melanom-Subtyp-Erweiterungen: nodales Melanom, oberflächlich ausbreitendes Melanom, nicht-kutanes Melanom) / **Beibehalten** (für Choroiderämie, Hodensack-Melanom, Ballonzellen-Melanom, CDK4-verknüpftes Melanom) / **Forschungsfrage** (für epitheloide Zell-Melanom, Augenlid-Melanom, amelanotisches Melanom)
+
+**Begründung:**
+- Nodales und oberflächlich ausbreitendes Melanom sind histologische Subtypen, die bereits in der biologischen Population (BRAF-V600-mutant kutanes Melanom) enthalten sind, in die die pivotalen Dabrafenib+Trametinib-Studien eingeschlossen haben – der mechanistische Fall ist stark, aber subtyp-spezifische bestätigende Studien fehlen, daher sind Schutzmaßnahmen (obligatorische BRAF-V600-Testung, subtyp-stratifizierte Überwachung) angebracht.
+- Nicht-kutane, okulare und Mukosa-Melanom-Vorhersagen stützen sich nur auf Fallbeweise in einer Population mit niedrigerer BRAF-Mutations-Prävalenz, und Choroiderämie-/Hodensack-/Ballonzellen-/CDK4-verknüpfte Melanom-Vorhersagen haben null klinische oder mechanistische Unterstützung – diese sollten ohne neue primäre Evidenz nicht fortfahren.
+
+**Um fortzufahren, wird Folgendes benötigt:**
+- TFDA/BfArM-Packungsbeilage (Warnhinweise, Gegenanzeigen, DDI) – derzeit eine blockierende Datenlücke (DG001)
+- Von DrugBank stammender Wirkmechanismus und Toxizitätsprofil (DG002)
+- BRAF-V600-Mutations-Status-Stratifizierungsdaten für jedes subtyp-spezifische Studiendesign
+- Bestätigung des genehmigten Label-Umfangs von Trametinib (kutane vs. alle Melanome) aus einer vertrauenswürdigen Regulierungsquelle, da es in den hier bereitgestellten Regulierungsdaten fehlt
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

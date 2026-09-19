@@ -29,105 +29,106 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Sunitinib: From Established Tyrosine Kinase Inhibitor Indications to Liposarcoma
+# Sunitinib: Von etablierten Tyrosinkinase-Inhibitor-Indikationen zum Liposarkom
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Sunitinib is a multi-targeted tyrosine kinase inhibitor with well-established use in gastrointestinal stromal tumour, advanced renal cell carcinoma, and pancreatic neuroendocrine tumour.
-> The TxGNN model predicts it may also be effective for **Liposarcoma**,
-> with **3 clinical trials** and **9 publications** currently supporting this direction.
+> Sunitinib ist ein multi-target-Tyrosinkinase-Inhibitor mit etablierter Anwendung bei gastrointestinalen Stromatumoren, fortgeschrittenem Nierenzellkarzinom und pankreatischem neuroendokrinem Tumor.
+> Das TxGNN-Modell sagt voraus, dass es möglicherweise auch wirksam bei **Liposarkom** sein könnte,
+> mit derzeit **3 klinischen Studien** und **9 Publikationen**, die diese Richtung unterstützen.
 
 ---
 
-## Quick Overview
+## Schnelle Übersicht
 
-| Item | Content |
+| Punkt | Inhalt |
 |------|------|
-| Original Indication | Not available in local licensing data (drug not marketed in this jurisdiction); publicly known original indications include gastrointestinal stromal tumour, advanced renal cell carcinoma, and pancreatic neuroendocrine tumour |
-| Predicted New Indication | Liposarcoma |
-| TxGNN Prediction Score | 99.87% |
-| Evidence Level | L2 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Ursprüngliche Indikation | Nicht in lokalen Zulassungsdaten verfügbar (Arzneimittel in dieser Jurisdiktion nicht vermarktet); bekannte ursprüngliche Indikationen sind gastrointestinale Stromatumoren, fortgeschrittenes Nierenzellkarzinom und pankreatischer neuroendokriner Tumor |
+| Vorhergesagte neue Indikation | Liposarkom |
+| TxGNN-Vorhersage-Punktzahl | 99.87% |
+| Evidenzstufe | L2 |
+| Marktstatus in Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Mit Vorsichtsmaßnahmen fortfahren |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage angemessen?
 
-Detailed mechanism-of-action data was not available in this evidence pack. Based on publicly known information, sunitinib is a multi-targeted receptor tyrosine kinase inhibitor acting on VEGFR1-3, PDGFRα/β, KIT, FLT3, and RET, and its efficacy in angiogenesis- and kinase-driven cancers such as GIST and renal cell carcinoma is well established.
+Detaillierte Daten zum Wirkmechanismus waren in diesem Nachweispaket nicht verfügbar. Basierend auf öffentlich bekannten Informationen ist Sunitinib ein multi-target-Rezeptor-Tyrosinkinase-Inhibitor, der auf VEGFR1-3, PDGFRα/β, KIT, FLT3 und RET wirkt, und seine Wirksamkeit bei angiogenese- und kinase-getriebenen Krebserkrankungen wie GIST und Nierenzellkarzinom ist gut etabliert.
 
-Liposarcoma — particularly the myxoid subtype — shows angiogenesis dependence and partial PDGFR pathway activation, giving mechanistic plausibility for sunitinib's anti-angiogenic and anti-proliferative activity to extend into this tumour type. This is not purely theoretical: two independent completed Phase 2 trials have directly tested sunitinib in non-GIST sarcoma populations (including liposarcoma) and observed response signals, and a Tier-1 Phase 2 publication specifically evaluated sunitinib in relapsed/refractory liposarcoma, leiomyosarcoma, and malignant fibrous histiocytoma.
+Liposarkom – insbesondere der myxoide Subtyp – zeigt Angiogenese-Abhängigkeit und teilweise PDGFR-Signalweg-Aktivierung, was mechanistische Plausibilität für die anti-angiogenen und anti-proliferativen Aktivitäten von Sunitinib bietet, um sich auf diesen Tumortyp auszudehnen. Dies ist nicht rein theoretisch: zwei unabhängig durchgeführte Phase-2-Studien haben Sunitinib direkt in Nicht-GIST-Sarkom-Populationen (einschließlich Liposarkom) getestet und Wirksignale beobachtet, und eine Tier-1-Phase-2-Publikation bewertete speziell Sunitinib bei rezidivierendem/refraktärem Liposarkom, Leiomyosarkom und malignem fibrösen Histiozytom.
 
-Because sunitinib's core anti-VEGFR/PDGFR mechanism is shared across its approved oncology indications and the proposed new indication, the repurposing hypothesis is biologically coherent rather than a purely data-driven correlation.
+Da der Kern-Anti-VEGFR/PDGFR-Wirkmechanismus von Sunitinib über seine zugelassenen Onkologie-Indikationen hinweg geteilt wird und die vorgeschlagene neue Indikation, ist die Zweckentfremdungs-Hypothese biologisch kohärent statt einer rein datengesteuerten Korrelation.
 
 ---
 
-## Clinical Trial Evidence
+## Klinische Studienevidenz
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Studiennummer | Phase | Status | Teilnehmer | Wichtigste Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT00474994](https://clinicaltrials.gov/study/NCT00474994) | Phase 2 | Completed | 53 | Multicenter continuous-dosing study of sunitinib in non-GIST sarcomas, including liposarcoma; direct evaluation of sunitinib's antitumour and antiangiogenic activity |
-| [NCT00400569](https://clinicaltrials.gov/study/NCT00400569) | Phase 2 | Completed | 48 | Open-label trial of sunitinib malate in metastatic/unresectable soft tissue sarcoma (leiomyosarcoma, liposarcoma, fibrosarcoma, MFH); dosed until progression or toxicity |
-| [NCT02048371](https://clinicaltrials.gov/study/NCT02048371) | Phase 2 | Completed | 131 | SARC024 study of oral regorafenib (not sunitinib) in selected sarcoma subtypes; cites sunitinib's activity in soft tissue sarcoma as rationale for the class — indirect supporting evidence only |
+| [NCT00474994](https://clinicaltrials.gov/study/NCT00474994) | Phase 2 | Abgeschlossen | 53 | Multizentrische Dauerdosierungs-Studie von Sunitinib in Nicht-GIST-Sarkomen, einschließlich Liposarkom; direkte Bewertung der Antitumor- und Anti-Angiogenese-Aktivität von Sunitinib |
+| [NCT00400569](https://clinicaltrials.gov/study/NCT00400569) | Phase 2 | Abgeschlossen | 48 | Open-Label-Studie von Sunitinib-Malat bei metastatischem/nicht resezierbarem Weichteilsarkom (Leiomyosarkom, Liposarkom, Fibrosarkom, MFH); dosiert bis Progression oder Toxizität |
+| [NCT02048371](https://clinicaltrials.gov/study/NCT02048371) | Phase 2 | Abgeschlossen | 131 | SARC024-Studie von oralem Regorafenib (nicht Sunitinib) in ausgewählten Sarkom-Subtypen; zitiert Sunitinibs Aktivität bei Weichteilsarkom als Begründung für die Substanzklasse – nur indirekte unterstützende Evidenz |
 
 ---
 
-## Literature Evidence
+## Literaturnachweis
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Journal | Wichtigste Ergebnisse |
 |------|-----|------|------|---------|
-| [21154746](https://pubmed.ncbi.nlm.nih.gov/21154746/) | 2011 | RCT/Phase 2 trial | International Journal of Cancer | Single-institution Phase 2 study of sunitinib malate in relapsed/refractory soft tissue sarcoma, focused on leiomyosarcoma, liposarcoma, and MFH; assessed safety and efficacy |
-| [38254762](https://pubmed.ncbi.nlm.nih.gov/38254762/) | 2024 | Review | Cancers | Reviews genetic, epigenetic, and transcriptomic alterations in liposarcoma to guide targeted therapy selection |
-| [24712007](https://pubmed.ncbi.nlm.nih.gov/24712007/) | 2014 | Review | Magyar Onkológia | Reviews medical treatment of soft tissue sarcoma by histological subtype, including established and emerging targeted agents |
-| [24555529](https://pubmed.ncbi.nlm.nih.gov/24555529/) | 2014 | Review | Expert Review of Anticancer Therapy | Reviews emerging therapies for adult soft tissue sarcoma, including subtype-specific drug sensitivity |
-| [22987955](https://pubmed.ncbi.nlm.nih.gov/22987955/) | 2012 | Review | Annals of Oncology | Discusses histology-driven therapy for soft tissue sarcoma; notes exceptionally high trabectedin activity in myxoid liposarcoma and related targeted approaches |
-| [28423517](https://pubmed.ncbi.nlm.nih.gov/28423517/) | 2017 | Review/genomic | Oncotarget | Next-generation sequencing of extraskeletal myxoid chondrosarcoma; evaluates predictive factors for sunitinib benefit in a subset of patients |
-| [38717131](https://pubmed.ncbi.nlm.nih.gov/38717131/) | 2024 | Case series | American Journal of Surgical Pathology | Clinicopathologic analysis of 25 cases of a distinctive myofibroblastic sarcoma subtype with targetable molecular alterations |
-| [23482782](https://pubmed.ncbi.nlm.nih.gov/23482782/) | 2013 | Case report | Anticancer Research | Long-lasting clinical benefit of sunitinib malate in a heavily pretreated patient with metastatic liposarcoma |
-| [25884155](https://pubmed.ncbi.nlm.nih.gov/25884155/) | 2015 | Trial protocol (regorafenib) | BMC Cancer | REGOSARC trial protocol for regorafenib in advanced soft tissue sarcoma; cites sunitinib's role in sarcoma angiogenesis biology as background rationale |
+| [21154746](https://pubmed.ncbi.nlm.nih.gov/21154746/) | 2011 | RCT/Phase-2-Studie | International Journal of Cancer | Phase-2-Studie einer Single-Institution mit Sunitinib-Malat bei rezidivierendem/refraktärem Weichteilsarkom, fokussiert auf Leiomyosarkom, Liposarkom und MFH; bewertete Sicherheit und Wirksamkeit |
+| [38254762](https://pubmed.ncbi.nlm.nih.gov/38254762/) | 2024 | Übersichtsarbeit | Cancers | Rezensiert genetische, epigenetische und transkriptomische Veränderungen bei Liposarkom zur Anleitung der Auswahl gezielter Therapien |
+| [24712007](https://pubmed.ncbi.nlm.nih.gov/24712007/) | 2014 | Übersichtsarbeit | Magyar Onkológia | Rezensiert die medikamentöse Behandlung von Weichteilsarkom nach histologischem Subtyp, einschließlich etablierter und neuartiger zielgerichteter Wirkstoffe |
+| [24555529](https://pubmed.ncbi.nlm.nih.gov/24555529/) | 2014 | Übersichtsarbeit | Expert Review of Anticancer Therapy | Rezensiert neuartige Therapien für Weichteilsarkom des Erwachsenenalters, einschließlich Subtyp-spezifischer Wirkstoff-Empfindlichkeit |
+| [22987955](https://pubmed.ncbi.nlm.nih.gov/22987955/) | 2012 | Übersichtsarbeit | Annals of Oncology | Diskutiert histologie-gesteuerte Therapie für Weichteilsarkom; vermerkt außergewöhnlich hohe Trabectedin-Aktivität bei myxoidem Liposarkom und verwandte Targetierungs-Ansätze |
+| [28423517](https://pubmed.ncbi.nlm.nih.gov/28423517/) | 2017 | Übersichtsarbeit/Genomik | Oncotarget | Next-Generation-Sequenzierung von extraskelettalen myxoiden Chondrosarkomen; evaluiert Vorhersagefaktoren für Sunitinib-Nutzen in einer Teilmenge von Patienten |
+| [38717131](https://pubmed.ncbi.nlm.nih.gov/38717131/) | 2024 | Fallserie | American Journal of Surgical Pathology | Klinisch-pathologische Analyse von 25 Fällen eines charakteristischen myofibroblasten-Sarkom-Subtyps mit zielgerichteten molekularen Veränderungen |
+| [23482782](https://pubmed.ncbi.nlm.nih.gov/23482782/) | 2013 | Fallbericht | Anticancer Research | Langfristiger klinischer Nutzen von Sunitinib-Malat bei einem vielfach vorbehandelten Patienten mit metastatischem Liposarkom |
+| [25884155](https://pubmed.ncbi.nlm.nih.gov/25884155/) | 2015 | Studienprotokoll (Regorafenib) | BMC Cancer | REGOSARC-Studienprotokoll für Regorafenib bei fortgeschrittenem Weichteilsarkom; zitiert Sunitinibs Rolle in der Sarkoma-Angiogenese-Biologie als Hintergrund-Begründung |
 
 ---
 
-## Germany Market Information
+## Marktstatus in Deutschland
 
-Sunitinib currently has **no marketing authorizations on record** in this jurisdiction (market status: Not Marketed; 0 authorizations). No product-level licensing data is available for review.
+Sunitinib hat derzeit **keine eingetragenen Zulassungen** in dieser Jurisdiktion (Marktstatus: Nicht vermarktet; 0 Zulassungen). Keine produktbezogenen Zulassungsdaten sind für Überprüfung verfügbar.
 
 ---
 
-## Cytotoxicity
+## Zytotoxizität
 
-Sunitinib is an antineoplastic agent, originally developed and approved for oncology indications (GIST, advanced renal cell carcinoma, pancreatic neuroendocrine tumour), which brings this section into scope.
+Sunitinib ist ein zytostatisches Arzneimittel, das ursprünglich für Onkologie-Indikationen entwickelt und zugelassen wurde (GIST, fortgeschrittenes Nierenzellkarzinom, pankreatischer neuroendokriner Tumor), was diesen Bereich in den Geltungsbereich bringt.
 
-| Item | Content |
+| Punkt | Inhalt |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (multi-targeted receptor tyrosine kinase inhibitor: VEGFR1-3, PDGFRα/β, KIT, FLT3, RET) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| Zytotoxizitäts-Klassifizierung | Gezielte Therapie (multi-target-Rezeptor-Tyrosinkinase-Inhibitor: VEGFR1-3, PDGFRα/β, KIT, FLT3, RET) |
+| Myelosuppressionsrisiko | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen der Packungsbeilage |
+| Emetogenitäts-Klassifizierung | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen der Packungsbeilage |
+| Überwachungsaspekte | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen der Packungsbeilage |
+| Schutzmaßnahmen bei Handhabung | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen der Packungsbeilage |
 
 ---
 
-## Safety Considerations
+## Sicherheitsüberlegungen
 
-Please refer to the package insert for safety information.
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
 
 ---
 
-## Conclusion and Next Steps
+## Fazit und nächste Schritte
 
-**Decision: Proceed with Guardrails**
+**Entscheidung: Mit Vorsichtsmaßnahmen fortfahren**
 
-**Rationale:**
-Two completed Phase 2 trials directly tested sunitinib in non-GIST soft tissue sarcoma populations including liposarcoma, and one Tier-1 Phase 2 publication specifically evaluated sunitinib in relapsed/refractory liposarcoma with a documented mechanistic basis (VEGFR/PDGFR inhibition). This is direct clinical evidence rather than model prediction alone, but it falls short of confirmatory randomized comparative data, so cautious, guardrail-bound advancement is appropriate rather than unrestricted "Go."
+**Begründung:**
+Zwei abgeschlossene Phase-2-Studien testeten Sunitinib direkt in Nicht-GIST-Weichteilsarkom-Populationen einschließlich Liposarkom, und eine Tier-1-Phase-2-Publikation bewertete speziell Sunitinib bei rezidivierendem/refraktärem Liposarkom mit dokumentierter mechanistischer Begründung (VEGFR/PDGFR-Inhibition). Dies ist direkte klinische Evidenz statt reine Modellvorhersage, fällt aber gegenüber bestätigenden randomisierten Vergleichsstudien zu kurz, daher ist ein behutsames Vorantreiben mit Vorsichtsmaßnahmen angemessen statt ein uneingeschränktes „Go".
 
-**To proceed, the following is needed:**
-- Local regulatory data (approval status, licensed indications, dosage forms) since the drug is currently not marketed in this jurisdiction
-- Mechanism-of-action documentation from DrugBank or the manufacturer's product information
-- Local package insert warnings, contraindications, and drug interaction data (currently unavailable)
-- A confirmatory, ideally randomized, trial specifically in liposarcoma populations to validate the signal seen in earlier non-GIST sarcoma studies
-- Toxicity/monitoring data specific to this drug (e.g., myelosuppression, cardiovascular, hepatic) to complete the cytotoxicity risk profile
+**Um fortzufahren, werden folgende Punkte benötigt:**
+- Lokale behördliche Daten (Zulassungsstatus, zugelassene Indikationen, Darreichungsformen), da das Arzneimittel in dieser Jurisdiktion derzeit nicht vermarktet ist
+- Wirkmechanismus-Dokumentation von DrugBank oder den Produktinformationen des Herstellers
+- Lokale Warnhinweise in der Packungsbeilage, Kontraindikationen und Arzneimittelwechselwirkungsdaten (derzeit nicht verfügbar)
+- Eine bestätigende, idealerweise randomisierte Studie speziell in Liposarkom-Populationen zur Validierung des in früheren Nicht-GIST-Sarkom-Studien beobachteten Signals
+- Toxizitäts- und Überwachungsdaten spezifisch für dieses Arzneimittel (z.B. Myelosuppression, kardiovaskulär, hepatisch), um das Zytotoxizitäts-Risikoprofil zu vervollständigen
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

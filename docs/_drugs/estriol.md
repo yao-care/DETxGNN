@@ -29,98 +29,99 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Estriol: From [Indication Not Specified] to Amenorrhea
+# Estriol: Vom [nicht spezifizierten Indikation] zur Amenorrhoe
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Estriol is a weak, naturally occurring estrogen; no approved indication or mechanism-of-action data is on record in this evidence pack, and the drug is **not currently marketed in Germany**.
-> The TxGNN model predicts potential efficacy for **Amenorrhea** (specifically functional hypothalamic amenorrhea, FHA), with a prediction score of **99.18%**.
-> However, supporting evidence is thin and partly mismatched: only **3 clinical trials** were retrieved, all graded low relevance (two are very likely Estetrol/drospirenone contraceptive trials, not Estriol), alongside **13 literature** records, most lacking abstracts or direct focus on Estriol.
+> Estriol ist ein schwaches, natürlich vorkommendes Östrogen; keine zugelassene Indikation oder Wirkmechanismus-Daten sind in diesem Evidenzpaket dokumentiert, und das Arzneimittel wird derzeit nicht in Deutschland vermarktet.
+> Das TxGNN-Modell sagt potenzielle Wirksamkeit für **Amenorrhoe** voraus (spezifisch funktionelle hypothalamische Amenorrhoe, FHA), mit einer Vorhersagequote von **99.18%**.
+> Die Unterstützungsevidenz ist jedoch gering und teilweise nicht übereinstimmend: Es wurden nur **3 klinische Studien** gefunden, alle mit niedriger Relevanzbeurteilung (zwei sind sehr wahrscheinlich Estetrol/Drospirenon-Kontrazeptiva-Studien, nicht Estriol), zusammen mit **13 Literaturrecords**, die meisten ohne Abstracts oder direktem Fokus auf Estriol.
 
 ---
 
-## Quick Overview
+## Kurzüberblick
 
-| Item | Content |
+| Item | Inhalt |
 |------|------|
-| Original Indication | Not available — no indication data on record (drug not marketed, `original_indications` empty) |
-| Predicted New Indication | Amenorrhea (functional hypothalamic amenorrhea / FHA) |
-| TxGNN Prediction Score | 99.18% |
-| Evidence Level | L3 |
-| Germany Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | Nicht verfügbar — keine Indikationsdaten dokumentiert (Arzneimittel nicht vermarktet, `original_indications` leer) |
+| Vorhergesagte neue Indikation | Amenorrhoe (funktionelle hypothalamische Amenorrhoe / FHA) |
+| TxGNN-Vorhersagequote | 99.18% |
+| Evidenzgrad | L3 |
+| Marktstatus in Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Zurückstellen |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage vernünftig?
 
-Currently, detailed mechanism of action data is not available for Estriol. Based on known pharmacology, Estriol is a naturally occurring, comparatively weak estrogen. The repurposing rationale here is not an Estriol-specific mechanism but a general estrogen-class mechanism: exogenous estrogen supplementation may modulate hypothalamic-pituitary-ovarian (HPO) axis feedback and restore pulsatile LH secretion, which is the therapeutic principle underlying hormone replacement in functional hypothalamic amenorrhea (FHA) or premature ovarian insufficiency (POI).
+Derzeit sind detaillierte Wirkmechanismus-Daten für Estriol nicht verfügbar. Basierend auf bekannter Pharmakologie ist Estriol ein natürlich vorkommendes, vergleichsweise schwaches Östrogen. Der Repurposing-Grund hier ist kein Estriol-spezifischer Mechanismus, sondern ein allgemeiner Östrogen-Klassen-Mechanismus: Exogene Östrogen-Supplementierung kann die Rückkopplung der hypothalamisch-hypophysär-ovariellen (HPO) Achse modulieren und die pulsatile LH-Sekretion wiederherstellen, was das therapeutische Prinzip zugrunde liegt der Hormonersatzbehandlung bei funktioneller hypothalamischer Amenorrhoe (FHA) oder vorzeitiger Ovarialinsuffizienz (POI).
 
-Importantly, this mechanistic link is shared across the estrogen class and is not unique to Estriol — the evidence supporting it is largely indirect, drawn from general FHA/POI hormone-replacement literature rather than Estriol-specific comparative trials with amenorrhea as a primary efficacy endpoint. One cohort/pilot study (PMID 22137494) directly examines Estriol's effect on LH secretion in FHA patients, which is the strongest direct data point available, but it stands alone without confirmatory RCTs.
+Wichtig ist, dass dieser mechanistische Zusammenhang für die gesamte Östrogen-Klasse gilt und nicht spezifisch für Estriol ist — die Evidenz, die ihn stützt, ist überwiegend indirekt, aus der allgemeinen FHA/POI-Hormonersatz-Literatur gezogen und nicht aus Estriol-spezifischen vergleichenden Studien mit Amenorrhoe-Behebung als primärem Wirksamkeitsendpunkt. Eine Kohorten-/Pilotstudie (PMID 22137494) untersucht direkt die Auswirkung von Estriol auf die LH-Sekretion bei FHA-Patienten, was der stärkste verfügbare direkte Datenpunkt ist, aber sie steht allein ohne bestätigende RCTs.
 
-A caveat on the clinical trial evidence: two of the three retrieved trials (NCT04090957, NCT04209543) have titles and design characteristics (Phase 3, large enrollment, "Estetrol") strongly suggesting they concern **Estetrol (E4)**, a different estrogen, likely in a combined oral contraceptive — not Estriol. These should be treated as low-confidence matches pending manual verification, not as direct support for this candidate.
+Ein Vorbehalt zur klinischen Versuchsevidenz: Zwei der drei abgerufenen Studien (NCT04090957, NCT04209543) haben Titel und Designmerkmale (Phase 3, große Enrollmentanzahl, "Estetrol"), die stark darauf hindeuten, dass sie sich mit **Estetrol (E4)** befassen, einem anderen Östrogen, wahrscheinlich in einer kombinierten oralen Kontrazeption — nicht Estriol. Diese sollten als Übereinstimmungen mit niedriger Konfidenz behandelt werden, bis zur manuellen Verifizierung, nicht als direkte Unterstützung für diesen Kandidaten.
 
 ---
 
-## Clinical Trial Evidence
+## Klinische Versuchsevidenz
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Studiennummer | Phase | Status | Enrollmentanzahl | Wesentliche Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT04487392](https://clinicaltrials.gov/study/NCT04487392) | Phase 2 | Withdrawn (N=0) | 0 | Studied photobiomodulation (not Estriol) for postmenopausal vulvovaginal atrophy; trial withdrawn, no data generated. Low relevance (Grade C). |
-| [NCT04090957](https://clinicaltrials.gov/study/NCT04090957) | Phase 3 | Completed | 1,015 | Evaluated Estetrol (E4), likely in a combined oral contraceptive, for vasomotor symptoms; amenorrhea/bleeding profile likely a secondary endpoint. Drug identity mismatch suspected — **not confirmed to be Estriol** (Grade C). |
-| [NCT04209543](https://clinicaltrials.gov/study/NCT04209543) | Phase 3 | Completed | 1,570 | Sister trial to above (Estetrol/E4Comfort Study I); same drug-identity concern (Grade C). |
+| [NCT04487392](https://clinicaltrials.gov/study/NCT04487392) | Phase 2 | Zurückgezogen (N=0) | 0 | Untersuchte Photobiomodulation (nicht Estriol) für postmenopausale vulvovaginale Atrophie; Studie zurückgezogen, keine Daten generiert. Niedrige Relevanz (Grad C). |
+| [NCT04090957](https://clinicaltrials.gov/study/NCT04090957) | Phase 3 | Abgeschlossen | 1,015 | Bewertete Estetrol (E4), wahrscheinlich in einer kombinierten oralen Kontrazeption, für Hitzewallungen; Amenorrhoe/Blutungsprofil wahrscheinlich ein sekundärer Endpunkt. Arzneimittel-Identitätsmismatch verdächtigt — **nicht bestätigt als Estriol** (Grad C). |
+| [NCT04209543](https://clinicaltrials.gov/study/NCT04209543) | Phase 3 | Abgeschlossen | 1,570 | Schwesterstudie zur obigen (Estetrol/E4Comfort Study I); gleiche Arzneimittel-Identitätsbedenken (Grad C). |
 
-**Note:** None of the three trials provide confirmed, direct evidence of Estriol's efficacy in treating amenorrhea. Manual verification of drug identity is recommended before these are used as supporting evidence.
+**Anmerkung:** Keiner der drei Studien bietet bestätigte, direkte Evidenz für die Wirksamkeit von Estriol bei der Behandlung von Amenorrhoe. Manuelle Verifizierung der Arzneimittel-Identität wird empfohlen, bevor diese als unterstützende Evidenz verwendet werden.
 
 ---
 
-## Literature Evidence
+## Literaturische Evidenz
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Zeitschrift | Wesentliche Ergebnisse |
 |------|-----|------|------|---------|
-| [22137494](https://pubmed.ncbi.nlm.nih.gov/22137494/) | 2012 | Cohort/Pilot | Fertility and Sterility | Estriol administration modulated LH secretion in women with functional hypothalamic amenorrhea — the most directly relevant Estriol-specific finding. |
-| [37371858](https://pubmed.ncbi.nlm.nih.gov/37371858/) | 2023 | Review | Biomedicines | Reviews low-dose estrogens as neuroendocrine modulators in FHA, discussing triggering of positive feedback mechanisms restoring gonadotropin pulsatility. |
-| [16526238](https://pubmed.ncbi.nlm.nih.gov/16526238/) | 2005 | Cohort | Medicinski pregled | Estro-progestagen therapy improved lipid/hormonal profile in premature primary ovarian failure (hypergonadotropic amenorrhea). |
-| [14194444](https://pubmed.ncbi.nlm.nih.gov/14194444/) | 1964 | pending | J Obstet Gynaecol Br Commonw | Historical trial of gonadotrophins in idiopathic secondary amenorrhoea; no abstract available. |
-| [4102186](https://pubmed.ncbi.nlm.nih.gov/4102186/) | 1971 | Case Report | Lancet | Endocrinological findings in two patients with premature ovarian failure; no abstract available. |
-| [2949864](https://pubmed.ncbi.nlm.nih.gov/2949864/) | 1986 | Observational | Zhong Xi Yi Jie He Za Zhi | Observations on gonadal function changes in women with amenorrhea/oligomenorrhea; no abstract available. |
-| [13931724](https://pubmed.ncbi.nlm.nih.gov/13931724/) | 1963 | pending | J Clin Endocrinol Metab | Mechanism of action of anti-ovulatory compounds; no abstract available. |
-| [4254759](https://pubmed.ncbi.nlm.nih.gov/4254759/) | 1971 | Case Report | Br J Psychiatry | Case discussion of anorexia nervosa (a recognized cause of FHA); no abstract available. |
-| [4307531](https://pubmed.ncbi.nlm.nih.gov/4307531/) | 1969 | pending | Fertility and Sterility | Comparative effects of estrogens on cervical mucus amylase levels; no abstract available. |
-| [7026111](https://pubmed.ncbi.nlm.nih.gov/7026111/) | 1981 | Review | Clin Obstet Gynecol | General review on neoplasia and hormonal contraception; only tangentially related. |
+| [22137494](https://pubmed.ncbi.nlm.nih.gov/22137494/) | 2012 | Kohortenstudie/Pilotstudie | Fertility and Sterility | Die Estriol-Verabreichung modulierte die LH-Sekretion bei Frauen mit funktioneller hypothalamischer Amenorrhoe — der direkteste relevante Estriol-spezifische Befund. |
+| [37371858](https://pubmed.ncbi.nlm.nih.gov/37371858/) | 2023 | Übersichtsarbeit | Biomedicines | Überblick über niedrig dosierte Östrogene als neuroendokrine Modulatoren in FHA, mit Diskussion der Auslösung von positiven Rückkopplungsmechanismen, die Gonadotropin-Pulsatilität wiederherstellen. |
+| [16526238](https://pubmed.ncbi.nlm.nih.gov/16526238/) | 2005 | Kohortenstudie | Medicinski pregled | Östrogen-Gestagen-Therapie verbesserte Lipid-/Hormonprofil bei vorzeitiger primärer Ovarialinsuffizienz (hypergonadotrope Amenorrhoe). |
+| [14194444](https://pubmed.ncbi.nlm.nih.gov/14194444/) | 1964 | ausstehend | J Obstet Gynaecol Br Commonw | Historische Studie zu Gonadotropinen bei idiopathischer sekundärer Amenorrhoe; kein Abstract verfügbar. |
+| [4102186](https://pubmed.ncbi.nlm.nih.gov/4102186/) | 1971 | Fallbericht | Lancet | Endokrinologische Befunde bei zwei Patienten mit vorzeitiger Ovarialinsuffizienz; kein Abstract verfügbar. |
+| [2949864](https://pubmed.ncbi.nlm.nih.gov/2949864/) | 1986 | Beobachtungsstudie | Zhong Xi Yi Jie He Za Zhi | Beobachtungen zu Veränderungen der Gonadenfunktion bei Frauen mit Amenorrhoe/Oligomenorrhoe; kein Abstract verfügbar. |
+| [13931724](https://pubmed.ncbi.nlm.nih.gov/13931724/) | 1963 | ausstehend | J Clin Endocrinol Metab | Wirkmechanismus von Ovulationshemmern; kein Abstract verfügbar. |
+| [4254759](https://pubmed.ncbi.nlm.nih.gov/4254759/) | 1971 | Fallbericht | Br J Psychiatry | Falldiskussion zur Anorexia nervosa (eine bekannte Ursache für FHA); kein Abstract verfügbar. |
+| [4307531](https://pubmed.ncbi.nlm.nih.gov/4307531/) | 1969 | ausstehend | Fertility and Sterility | Vergleichende Auswirkungen von Östrogenen auf Amylase-Spiegel im Zervikalschleim; kein Abstract verfügbar. |
+| [7026111](https://pubmed.ncbi.nlm.nih.gov/7026111/) | 1981 | Übersichtsarbeit | Clin Obstet Gynecol | Allgemeine Übersicht zu Neoplasien und hormoneller Kontrazeption; nur tangential verwandt. |
 
-**Note:** Only 2 of the 10 listed items (PMID 22137494, 37371858) are directly and specifically about Estriol/low-dose estrogen in FHA. The remainder are older, low-tier records without abstracts, included for completeness but of limited independent evidentiary value.
-
----
-
-## Germany Market Information
-
-Estriol is currently **not marketed in Germany** — no BfArM authorizations are on record in this evidence pack (`total_licenses: 0`).
+**Anmerkung:** Nur 2 der 10 aufgelisteten Elemente (PMID 22137494, 37371858) befassen sich direkt und spezifisch mit Estriol/niedrig dosiertem Östrogen in FHA. Die übrigen sind ältere, niedrigrangige Records ohne Abstracts, zur Vollständigkeit aufgenommen, aber von begrenztem unabhängigem Anspruchswert.
 
 ---
 
-## Safety Considerations
+## Marktinformationen für Deutschland
 
-Please refer to the package insert for safety information.
-
-*(Note: `key_warnings`, `contraindications`, and DDI data are all marked as data gaps in this evidence pack — see DG001, a Blocking-severity gap that prevents initial safety assessment (S1) until TFDA/BfArM label data is obtained.)*
+Estriol wird derzeit **nicht in Deutschland vermarktet** — keine BfArM-Zulassungen sind in diesem Evidenzpaket dokumentiert (`total_licenses: 0`).
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsüberlegungen
 
-**Decision: Hold**
+Bitte lesen Sie die Fachinformation für Sicherheitsinformationen.
 
-**Rationale:**
-The TxGNN score is high, and one directly relevant pilot study (PMID 22137494) supports a plausible mechanism, but overall evidence quality is weak: no confirmed Estriol-specific RCT exists, two of the three retrieved clinical trials likely concern a different drug (Estetrol) and should not be counted as support, and a Blocking-severity safety data gap (DG001) prevents any initial safety evaluation. This aligns with the evidence pack's own S1 "Research Question" staging.
+*(Anmerkung: `key_warnings`, `contraindications`, und DDI-Daten sind alle in diesem Evidenzpaket als Datenlücken gekennzeichnet — siehe DG001, eine Blocking-Schweregrad-Lücke, die eine anfängliche Sicherheitsbewertung (S1) verhindert, bis TFDA/BfArM-Labelldaten erhalten werden.)*
 
-**To proceed, the following is needed:**
-- Resolve DG001: obtain TFDA/BfArM label warnings and contraindications for Estriol
-- Resolve DG002: obtain confirmed mechanism-of-action data from DrugBank
-- Manually verify drug identity for NCT04090957 and NCT04209543 (Estriol vs. Estetrol) before counting them as evidence
-- Identify or commission an Estriol-specific controlled trial in FHA/POI patients with amenorrhea resolution as a primary endpoint
-- Confirm original approved indication(s) for Estriol, currently missing from this evidence pack
+---
+
+## Fazit und Nächste Schritte
+
+**Entscheidung: Zurückstellen**
+
+**Begründung:**
+Der TxGNN-Score ist hoch, und eine direkt relevante Pilotstudie (PMID 22137494) unterstützt einen plausiblen Mechanismus, aber die Gesamtqualität der Evidenz ist schwach: Es existiert keine bestätigte Estriol-spezifische RCT, zwei der drei abgerufenen klinischen Studien betreffen wahrscheinlich ein anderes Arzneimittel (Estetrol) und sollten nicht als Unterstützung gezählt werden, und eine Blocking-Schweregrad-Sicherheitsdatenlücke (DG001) verhindert jede anfängliche Sicherheitsbewertung. Dies stimmt mit der eigenen S1-„Forschungsfrage"-Stagierung des Evidenzpakets überein.
+
+**Zum Fortfahren ist folgendes notwendig:**
+- Behebung von DG001: Erhalten Sie TFDA/BfArM-Labelwarnungen und Kontraindikationen für Estriol
+- Behebung von DG002: Erhalten Sie bestätigte Wirkmechanismus-Daten von DrugBank
+- Manuelle Verifizierung der Arzneimittel-Identität für NCT04090957 und NCT04209543 (Estriol vs. Estetrol), bevor diese als Evidenz gezählt werden
+- Identifizieren oder in Auftrag geben einer Estriol-spezifischen kontrollierten Studie bei FHA/POI-Patienten mit Amenorrhoe-Behebung als primärem Endpunkt
+- Bestätigen Sie ursprüngliche zugelassene Indikation(en) für Estriol, die derzeit in diesem Evidenzpaket fehlen
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

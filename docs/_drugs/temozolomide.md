@@ -29,95 +29,96 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Temozolomide: From Glioblastoma/Anaplastic Astrocytoma to Adult Astrocytic Tumour
+# Temozolomid: Vom Glioblastom/Anaplastischen Astrozytom zum adulten astrozytären Tumor
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Temozolomide is an oral alkylating agent whose established therapeutic role is glioblastoma and anaplastic astrocytoma, delivered as concomitant and adjuvant chemotherapy with radiotherapy (the Stupp protocol).
-> The TxGNN model's top prediction — **Adult Astrocytic Tumour** — largely restates this already-established standard of care rather than pointing to a genuinely new indication.
-> The evidence base is unusually strong for a "prediction": **2 clinical trials** (including a Phase 3 RCT with 500 patients) and **20 publications**, several of them practice-defining RCTs (NEJM, Lancet, JAMA).
+> Temozolomid ist ein orales Alkylanzien, dessen etablierte therapeutische Rolle das Glioblastom und das anaplastische Astrozytom darstellen, verabreicht als simultane und adjuvante Chemotherapie mit Strahlentherapie (das Stupp-Protokoll).
+> Die beste Vorhersage des TxGNN-Modells — **adulter astrozytärer Tumor** — stellt im Wesentlichen diese bereits etablierte Standardbehandlung dar, anstatt auf eine echte neue Indikation hinzuweisen.
+> Die Evidenzbasis ist ungewöhnlich stark für eine „Vorhersage": **2 klinische Studien** (einschließlich einer Phase-3-RCT mit 500 Patienten) und **20 Publikationen**, mehrere davon paradigmendefinierend für die klinische Praxis (NEJM, Lancet, JAMA).
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Posten | Inhalt |
 |------|------|
-| Original Indication | Not recorded in the regulatory data provided (licenses list is empty). Per the literature and repurposing rationale in this pack, temozolomide's established indication is glioblastoma / anaplastic astrocytoma. |
-| Predicted New Indication | Adult astrocytic tumour |
-| TxGNN Prediction Score | 99.36% |
-| Evidence Level | L1 |
-| Germany Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Ursprüngliche Indikation | Nicht in den bereitgestellten regulatorischen Daten dokumentiert (Lizenzliste ist leer). Gemäß der Literatur und der Umwidmungsrationale in diesem Paket ist die etablierte Indikation von Temozolomid Glioblastom / anaplastisches Astrozytom. |
+| Vorhergesagte neue Indikation | Adulter astrozytärer Tumor |
+| TxGNN-Vorhersage-Score | 99,36% |
+| Evidenzstufe | L1 |
+| Marktstatus in Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfehhlte Entscheidung | Mit Schutzmaßnahmen fortfahren |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage sinnvoll?
 
-Currently, a structured mechanism-of-action record is not available for this drug (data gap DG002). However, the evidence pack's repurposing rationale describes temozolomide as an oral alkylating agent that crosses the blood–brain barrier and is converted to MTIC, which methylates DNA at the O6 position of guanine. This DNA damage triggers apoptosis and is particularly cytotoxic to rapidly proliferating glial tumour cells — the mechanistic basis for its activity in CNS malignancies.
+Derzeit ist kein strukturierter Mechanismus-der-Wirkung-Datensatz für dieses Medikament verfügbar (Datenlücke DG002). Die Rationale für die Umwidmung im Evidenzpaket beschreibt jedoch Temozolomid als ein orales Alkylanzien, das die Blut-Hirn-Schranke überwindet und zu MTIC umgewandelt wird, das DNA an der O6-Position von Guanin methyliert. Dieser DNA-Schaden löst Apoptose aus und ist besonders zytotoxisch für schnell proliferierende Gliazellen-Tumorzellen – die mechanistische Grundlage für seine Wirksamkeit bei ZNS-Malignomen.
 
-Importantly, "adult astrocytic tumour" is not a distant or unexpected new indication for temozolomide — it sits within the drug's known therapeutic category (glioblastoma/anaplastic astrocytoma). The evidence pack itself flags this as "not a typical repurposing case, but rather an extension of existing clinical standard-of-care evidence (Stupp protocol)." In other words, TxGNN's top-ranked prediction here largely reconstructs a well-established indication rather than surfacing a novel therapeutic hypothesis. This should be factored into how the prediction is used: it is strong validation of the model's ability to recover known drug–disease links, but it should not be marketed internally as a "new" discovery.
+Wichtig ist: „adulter astrozytärer Tumor" ist keine entfernte oder unerwartete neue Indikation für Temozolomid – sie liegt innerhalb der bekannten therapeutischen Kategorie des Medikaments (Glioblastom/anaplastisches Astrozytom). Das Evidenzpaket selbst weist darauf hin, dass dies „kein typischer Umwidmungsfall ist, sondern vielmehr eine Erweiterung der bestehenden evidenzgestützten klinischen Standardbehandlung (Stupp-Protokoll)." Mit anderen Worten: TxGNNs höchstrangige Vorhersage hier rekonstruiert größtenteils eine gut etablierte Indikation, anstatt eine neuartige therapeutische Hypothese zu identifizieren. Dies sollte berücksichtigt werden, wenn die Vorhersage verwendet wird: Sie ist eine starke Validierung der Fähigkeit des Modells, bekannte Wirkstoff-Erkrankungs-Verbindungen wiederherzustellen, aber sie sollte nicht intern als „neue" Entdeckung beworben werden.
 
 ---
 
-## Clinical Trial Evidence
+## Evidenz aus klinischen Studien
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Studiennummer | Phase | Status | Einschluss | Wichtige Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT00052455](https://clinicaltrials.gov/study/NCT00052455) | Phase 3 | Completed | 500 | RCT comparing temozolomide vs. PCV (procarbazine, lomustine, vincristine) in recurrent WHO grade III/IV astrocytic tumours; directly supports temozolomide's efficacy in this population. |
-| [NCT00960492](https://clinicaltrials.gov/study/NCT00960492) | Phase 1 | Completed | 26 | Dose-finding study of XL184 (cabozantinib) combined with temozolomide + radiotherapy in newly diagnosed glioblastoma; provides combination safety/PK data rather than temozolomide monotherapy evidence. |
+| [NCT00052455](https://clinicaltrials.gov/study/NCT00052455) | Phase 3 | Abgeschlossen | 500 | RCT, das Temozolomid mit PCV (Procarbazin, Lomustin, Vincristin) bei rezidivierenden WHO-Grad-III/IV-astrozytären Tumoren verglich; unterstützt direkt die Wirksamkeit von Temozolomid in dieser Population. |
+| [NCT00960492](https://clinicaltrials.gov/study/NCT00960492) | Phase 1 | Abgeschlossen | 26 | Dosisfindungsstudie von XL184 (Cabozantinib) kombiniert mit Temozolomid + Strahlentherapie bei neu diagnostiziertem Glioblastom; liefert Kombinationssicherheits-/PK-Daten eher als Temozolomid-Monotherapie-Evidenz. |
 
 ---
 
-## Literature Evidence
+## Literaturevidenz
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Journal | Wichtige Ergebnisse |
 |------|-----|------|------|---------|
-| [15758009](https://pubmed.ncbi.nlm.nih.gov/15758009/) | 2005 | RCT | N Engl J Med | Landmark EORTC-NCIC trial establishing concomitant + adjuvant temozolomide plus radiotherapy as the new standard of care for newly diagnosed glioblastoma. |
-| [19269895](https://pubmed.ncbi.nlm.nih.gov/19269895/) | 2009 | RCT | Lancet Oncol | 5-year follow-up of the EORTC-NCIC trial confirming durable survival benefit of temozolomide + radiotherapy over radiotherapy alone. |
-| [22578793](https://pubmed.ncbi.nlm.nih.gov/22578793/) | 2012 | RCT | Lancet Oncol | NOA-08 Phase 3 trial: temozolomide alone vs. radiotherapy alone in elderly patients with malignant astrocytoma. |
-| [24552317](https://pubmed.ncbi.nlm.nih.gov/24552317/) | 2014 | RCT | N Engl J Med | RCT adding bevacizumab to standard temozolomide + radiotherapy in newly diagnosed glioblastoma; confirms temozolomide + radiotherapy as the standard-of-care backbone. |
-| [26670971](https://pubmed.ncbi.nlm.nih.gov/26670971/) | 2015 | RCT | JAMA | EF-14 trial: Tumor Treating Fields plus maintenance temozolomide vs. temozolomide alone, showing significantly improved overall survival with the combination. |
-| [30782343](https://pubmed.ncbi.nlm.nih.gov/30782343/) | 2019 | RCT | Lancet | CeTeG/NOA-09 Phase 3 trial: lomustine-temozolomide combination superior to temozolomide monotherapy in MGMT-methylated newly diagnosed glioblastoma. |
-| [40779733](https://pubmed.ncbi.nlm.nih.gov/40779733/) | 2025 | RCT | J Clin Oncol | NRG Oncology BN007 Phase II/III trial of dual immune checkpoint blockade in MGMT-unmethylated glioblastoma, with temozolomide-based standard therapy as background/comparator. |
-| [25920709](https://pubmed.ncbi.nlm.nih.gov/25920709/) | 2015 | Review | J Neurooncol | Exploratory cohort analysis of radiotherapy plus temozolomide in anaplastic astrocytic gliomas. |
-| [36809318](https://pubmed.ncbi.nlm.nih.gov/36809318/) | 2023 | Review | JAMA | Comprehensive review of glioblastoma and other primary adult brain malignancies, including temozolomide-based standard of care. |
-| [39516198](https://pubmed.ncbi.nlm.nih.gov/39516198/) | 2024 | Review | Nat Commun | Methodological review of regulatory programs underlying neural cancer plasticity; tangential relevance to temozolomide's clinical indication. |
+| [15758009](https://pubmed.ncbi.nlm.nih.gov/15758009/) | 2005 | RCT | N Engl J Med | Meilenstein-EORTC-NCIC-Studie, die simultane + adjuvante Temozolomid-Strahlentherapie als neuen Therapiestandard für neu diagnostiziertes Glioblastom etablierte. |
+| [19269895](https://pubmed.ncbi.nlm.nih.gov/19269895/) | 2009 | RCT | Lancet Oncol | 5-Jahre-Nachverfolgung der EORTC-NCIC-Studie, die den Überlebensvorteil von Temozolomid + Strahlentherapie gegenüber alleiniger Strahlentherapie bestätigt. |
+| [22578793](https://pubmed.ncbi.nlm.nih.gov/22578793/) | 2012 | RCT | Lancet Oncol | NOA-08-Phase-3-Studie: Temozolomid allein vs. Strahlentherapie allein bei älteren Patienten mit bösartigem Astrozytom. |
+| [24552317](https://pubmed.ncbi.nlm.nih.gov/24552317/) | 2014 | RCT | N Engl J Med | RCT, die Bevacizumab zu Standard-Temozolomid + Strahlentherapie bei neu diagnostiziertem Glioblastom hinzufügte; bestätigt Temozolomid + Strahlentherapie als Standard-Therapie-Rückgrat. |
+| [26670971](https://pubmed.ncbi.nlm.nih.gov/26670971/) | 2015 | RCT | JAMA | EF-14-Studie: Tumor-Treating-Fields plus Temozolomid-Erhaltungstherapie vs. nur Temozolomid, mit signifikant verbessertem Gesamtüberleben mit der Kombination. |
+| [30782343](https://pubmed.ncbi.nlm.nih.gov/30782343/) | 2019 | RCT | Lancet | CeTeG/NOA-09-Phase-3-Studie: Lomustin-Temozolomid-Kombination superior zu Temozolomid-Monotherapie bei MGMT-methyliertem neu diagnostiziertem Glioblastom. |
+| [40779733](https://pubmed.ncbi.nlm.nih.gov/40779733/) | 2025 | RCT | J Clin Oncol | NRG Oncology BN007-Phase-II/III-Studie zur doppelten Immun-Checkpoint-Blockade bei MGMT-unmethyliertem Glioblastom mit auf Temozolomid basierender Standardtherapie als Hintergrund/Vergleich. |
+| [25920709](https://pubmed.ncbi.nlm.nih.gov/25920709/) | 2015 | Review | J Neurooncol | Exploratorische Kohorttenanalyse von Strahlentherapie plus Temozolomid bei anaplastischen astrozytären Gliomen. |
+| [36809318](https://pubmed.ncbi.nlm.nih.gov/36809318/) | 2023 | Review | JAMA | Umfassende Übersicht über Glioblastom und andere primäre Hirntumoren des Erwachsenenalters, einschließlich Temozolomid-basierter Standardbehandlung. |
+| [39516198](https://pubmed.ncbi.nlm.nih.gov/39516198/) | 2024 | Review | Nat Commun | Methodologische Übersicht von Regulierungsprogrammen, die neurale Krebsplastizität zugrunde liegen; tangentiale Relevanz für Temozolomids klinische Indikation. |
 
 ---
 
-## Cytotoxicity
+## Zytotoxizität
 
-Temozolomide is a conventional cytotoxic chemotherapeutic agent (alkylating agent, imidazotetrazine class), so this section applies.
+Temozolomid ist ein konventionelles zytotoxisches Chemotherapeutikum (Alkylanzien, Imidazotetrazin-Klasse), daher gilt dieser Abschnitt.
 
-| Item | Content |
+| Posten | Inhalt |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (alkylating agent) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions (TFDA label data currently unavailable — see DG001) |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| Klassifizierung der Zytotoxizität | Konventionell zytotoxisch (Alkylanzien) |
+| Myelosuppressions-Risiko | Bitte verweisen Sie auf die Warnhinweise und Vorsichtsmaßnahmen der Packungsbeilage (TFDA-Label-Daten derzeit nicht verfügbar – siehe DG001) |
+| Emetogenitäts-Klassifizierung | Bitte verweisen Sie auf die Warnhinweise und Vorsichtsmaßnahmen der Packungsbeilage |
+| Überwachungspunkte | Bitte verweisen Sie auf die Warnhinweise und Vorsichtsmaßnahmen der Packungsbeilage |
+| Handhabungsschutz | Bitte verweisen Sie auf die Warnhinweise und Vorsichtsmaßnahmen der Packungsbeilage |
 
 ---
 
-## Safety Considerations
+## Sicherheitsüberlegungen
 
-Please refer to the package insert for safety information.
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
 
 ---
 
-## Conclusion and Next Steps
+## Fazit und nächste Schritte
 
-**Decision: Proceed with Guardrails**
+**Entscheidung: Mit Schutzmaßnahmen fortfahren**
 
-**Rationale:**
-The evidence supporting temozolomide in adult astrocytic tumour is exceptionally strong (L1: multiple Phase 3 RCTs including landmark NEJM/Lancet/JAMA trials), but this largely confirms an already-established standard-of-care indication rather than a novel repurposing signal — it should be framed internally as validation, not discovery. Regulatory and safety data are currently missing, which blocks a full risk assessment.
+**Begründung:**
+Die Evidenz, die Temozolomid bei adultem astrozytärem Tumor unterstützt, ist außergewöhnlich stark (L1: mehrfache Phase-3-RCTs einschließlich Meilenstein-Studien in NEJM/Lancet/JAMA), aber dies bestätigt größtenteils eine bereits etablierte Standardbehandlungs-Indikation, anstatt ein neuartiges Umwidmungssignal zu identifizieren – es sollte intern als Validierung, nicht als Entdeckung gekennzeichnet werden. Regulatorische und Sicherheitsdaten fehlen derzeit, was eine vollständige Risikobewertung blockiert.
 
-**To proceed, the following is needed:**
-- TFDA/BfArM package insert with warnings, contraindications, and drug interaction data (DG001, blocking)
-- Structured mechanism-of-action record from DrugBank (DG002)
-- Confirmation of Taiwan/Germany marketing and licensing status before positioning this as an actionable repurposing candidate
+**Um fortzufahren, ist Folgendes erforderlich:**
+- TFDA/BfArM-Packungsbeilage mit Warnhinweisen, Kontraindikationen und Arzneimittelwechselwirkungsdaten (DG001, blockierend)
+- Strukturierter Mechanismus-der-Wirkung-Datensatz von DrugBank (DG002)
+- Bestätigung des Marketing- und Zulassungsstatus in Taiwan/Deutschland vor der Positionierung als umsetzbarer Umwidmungskandidat
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

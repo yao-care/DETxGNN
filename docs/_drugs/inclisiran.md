@@ -29,79 +29,80 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Inclisiran: Original Indication Not on Record → Predicted Use in Potassium Deficiency Disease
+# Inclisiran: Ursprüngliche Indikation nicht dokumentiert → Vorhergesagte Anwendung bei Kaliummangelerkrankung
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Inclisiran's original approved indication and mechanism of action are not available in the current evidence pack (flagged as data gaps). The TxGNN model's top-ranked prediction for this drug is **Potassium Deficiency Disease**, but this prediction is currently backed by **0 clinical trials** and **0 publications** — it is a pure model score with no real-world evidence.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available (no approved indications on record; regulatory license list is empty) |
-| Predicted New Indication | Potassium Deficiency Disease |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L5 |
-| Germany Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+> Die ursprüngliche zugelassene Indikation von Inclisiran und dessen Wirkmechanismus sind im vorliegenden Nachweispaket nicht verfügbar (gekennzeichnet als Datenlücken). Die höchstplatzierte Vorhersage des TxGNN-Modells für diesen Wirkstoff ist **Kaliummangelerkrankung**, aber diese Vorhersage wird derzeit durch **0 klinische Studien** und **0 Publikationen** gestützt — es handelt sich um einen reinen Modellscore ohne empirische Belege aus der Praxis.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Detailed mechanism of action (MOA) data for Inclisiran is not available in this evidence pack — it is flagged as a **High-severity data gap** requiring a DrugBank API lookup. The original approved indication is also empty in this dataset, and the drug currently has **zero regulatory authorizations** in Germany (Not marketed).
-
-Because both the original indication and MOA are undocumented here, mechanistic plausibility cannot be assessed from first principles. The evidence pack's own rationale field for this specific candidate is explicit and unambiguous:
-
-> "No known PCSK9/siRNA mechanism relates to potassium ion homeostasis; this is purely a high TxGNN score with no supporting evidence."
-
-For context, other entries in this same evidence pack describe Inclisiran as a **PCSK9-targeted siRNA** primarily used to lower LDL-cholesterol — but this pharmacological class has no established or hypothesized link to potassium balance. In other words, the embedding model produced a high similarity score, but there is no biological hypothesis, clinical trial, or literature connecting Inclisiran's known pharmacology to this predicted indication.
-
-Given the complete absence of mechanistic rationale or clinical/literature support, this top-ranked prediction should be treated as a **low-confidence, exploratory signal only**.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Posten | Inhalt |
+|--------|--------|
+| Ursprüngliche Indikation | Nicht verfügbar (keine zugelassenen Indikationen dokumentiert; Regulatorische Zulassungsliste ist leer) |
+| Vorhergesagte neue Indikation | Kaliummangelerkrankung |
+| TxGNN-Vorhersagescore | 99.93% |
+| Evidenzstufe | L5 |
+| Marktstatus Deutschland | Nicht vermarktet (Nicht vermarktet) |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | **Zurückstellen** |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage angemessen?
 
-Currently no related literature available.
+Detaillierte Wirkmechanismus-Daten (MOA) für Inclisiran sind in diesem Nachweispaket nicht verfügbar — sie sind als **hochgradige Datenlücke** gekennzeichnet, die einen DrugBank-API-Abruf erfordert. Die ursprüngliche zugelassene Indikation ist auch in diesem Datensatz leer, und der Wirkstoff hat derzeit **null regulatorische Zulassungen** in Deutschland (Nicht vermarktet).
 
----
+Da sowohl die ursprüngliche Indikation als auch der Wirkmechanismus hier undokumentiert sind, kann die mechanistische Plausibilität nicht aus ersten Prinzipien bewertet werden. Das Feld „Rationale" des Nachweispakets für diesen spezifischen Kandidaten ist explizit und unmissverständlich:
 
-## Germany Market Information
+> „Kein bekannter PCSK9/siRNA-Mechanismus bezieht sich auf Kalium-Ionen-Homöostase; dies ist rein ein hoher TxGNN-Score ohne unterstützende Belege."
 
-Inclisiran is currently **not marketed** in Germany under this evidence pack — there are 0 registered authorizations and no license records to summarize.
+Zum Kontext: Andere Einträge in demselben Nachweispaket beschreiben Inclisiran als eine **PCSK9-gerichtete siRNA**, die hauptsächlich zur Senkung des LDL-Cholesterins verwendet wird — aber diese Wirkstoffklasse hat keine etablierte oder hypothetische Verbindung zum Kaliumhaushalt. Mit anderen Worten: Das Embedding-Modell hat einen hohen Ähnlichkeitsscore erzeugt, aber es gibt keine biologische Hypothese, klinische Studie oder Literatur, die Inclisirans bekannte Pharmakologie mit dieser vorhergesagten Indikation verbindet.
 
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+Angesichts des völligen Fehlens einer mechanistischen Begründung oder klinischen/literarischen Unterstützung sollte diese höchstplatzierte Vorhersage nur als **niedriges Konfidenz-Explorationssignal** behandelt werden.
 
 ---
 
-## Conclusion and Next Steps
+## Klinische Studiennachweise
 
-**Decision: Hold**
+Derzeit keine verwandten klinischen Studien registriert.
 
-**Rationale:**
-The top-ranked predicted indication (Potassium Deficiency Disease) has zero clinical trials and zero literature support (L5 — model prediction only), and the drug itself lacks basic reference data (original indication, MOA, safety labeling) needed to even begin a mechanistic plausibility assessment. There is currently no actionable evidence to justify moving this candidate forward.
+---
 
-**To proceed, the following is needed:**
-- Retrieve TFDA/EMA package insert (warnings, contraindications) — currently a **Blocking** data gap (DG001)
-- Retrieve confirmed MOA via DrugBank API — currently a **High**-severity data gap (DG002)
-- Establish Inclisiran's actual approved indication(s), since this evidence pack has none on record
-- **Data-quality flag for this pack**: a separate candidate in the same dataset (rank 8, "aortic malformation," L2/S1) cites two Phase 3 trials (NCT06597019, NCT06597006) — but both trials actually study **pediatric familial hypercholesterolemia**, not aortic malformation. This suggests an indication-linkage mismatch in the evidence pipeline that should be corrected before that candidate (or any other in this pack) is cited as having "L2" support
-- If a genuinely evidence-backed repurposing direction is needed for Inclisiran, the familial-hypercholesterolemia-related trials noted above are a more promising starting point than the current top-ranked, zero-evidence prediction
+## Literaturbelege
+
+Derzeit keine verwandte Literatur verfügbar.
+
+---
+
+## Marktinformation Deutschland
+
+Inclisiran wird derzeit **nicht vermarktet** in Deutschland gemäß diesem Nachweispaket — es gibt 0 registrierte Zulassungen und keine Zulassungsunterlagen zur Zusammenfassung.
+
+---
+
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Gebrauchsinformation für Sicherheitsinformationen.
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Zurückstellen**
+
+**Begründung:**
+Die höchstplatzierte vorhergesagte Indikation (Kaliummangelerkrankung) hat null klinische Studien und null Literaturunterstützung (L5 — nur Modellvorhersage), und der Wirkstoff selbst fehlen grundlegende Referenzdaten (ursprüngliche Indikation, Wirkmechanismus, Sicherheitskennzeichnung), die sogar eine mechanistische Plausibilitätsbewertung ermöglichen würden. Es gibt derzeit keine verwertbaren Belege, um diesen Kandidaten voranzubringen.
+
+**Zur Fortführung ist Folgendes erforderlich:**
+- Abruf der TFDA/EMA-Gebrauchsinformation (Warnhinweise, Kontraindikationen) — derzeit eine **Blockierende** Datenlücke (DG001)
+- Abruf des bestätigten Wirkmechanismus über DrugBank-API — derzeit eine **hochgradige** Datenlücke (DG002)
+- Bestätigung der tatsächlichen zugelassenen Indikation(en) von Inclisiran, da dieses Nachweispaket keine dokumentiert hat
+- **Datenqualitäts-Flag für dieses Paket**: Ein separater Kandidat im gleichen Datensatz (Rang 8, „Aortenmissbildung", L2/S1) zitiert zwei Phase-3-Studien (NCT06597019, NCT06597006) — aber beide Studien untersuchen tatsächlich **pädiatrische familiäre Hypercholesterinämie**, nicht Aortenmissbildung. Dies deutet auf ein Indikations-Verknüpfungs-Missverständnis in der Evidence-Pipeline hin, das korrigiert werden sollte, bevor dieser Kandidat (oder ein anderer in diesem Paket) als „L2"-Unterstützung zitiert wird
+- Falls eine tatsächlich evidence-gestützte Neupositionierungsrichtung für Inclisiran benötigt wird, sind die oben erwähnten familiär-Hypercholesterinämie-bezogenen Studien ein vielversprechenderer Ausgangspunkt als die aktuelle höchstplatzierte, null-evidence-Vorhersage
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -29,86 +29,87 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Ivosidenib: From IDH1-Mutant AML to Bulbar Polio
+# Ivosidenib: Vom IDH1-mutierten AML zur bulbären Poliomyelitis
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Ivosidenib (DB14568) is a mutant IDH1 (isocitrate dehydrogenase 1) inhibitor whose established global indication is IDH1-mutant acute myeloid leukemia (AML); this specific indication data point is not yet populated in the local regulatory dataset. The TxGNN model's top-ranked prediction is **Bulbar Polio**, but the evidence pack itself flags this as a likely false positive with no biological rationale. **Zero clinical trials and zero publications** currently support this direction — the model's embedding similarity does not translate into a plausible mechanism.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not registered in local licenses; known global indication is IDH1-mutant Acute Myeloid Leukemia (per drug class/label information, not locally verified) |
-| Predicted New Indication | Bulbar Polio |
-| TxGNN Prediction Score | 99.31% |
-| Evidence Level | L5 |
-| Germany Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Ivosidenib (DB14568) ist ein Inhibitor von mutiertem IDH1 (Isocitrat-Dehydrogenase 1), dessen etablierte globale Indikation IDH1-mutierte akute myeloische Leukämie (AML) ist; dieser spezifische Indikationsdatenpunkt ist noch nicht im lokalen Regulierungsdatensatz erfasst. Die Vorhersage des TxGNN-Modells mit dem höchsten Rang ist **bulbäre Poliomyelitis**, aber das Nachweispaket kennzeichnet dies selbst als wahrscheinlich falsch positiv ohne biologische Begründung. **Null klinische Studien und null Publikationen** unterstützen derzeit diese Richtung – die Einbettungsähnlichkeit des Modells setzt sich nicht in einen plausiblen Mechanismus um.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellebersicht
 
-Currently, detailed mechanism of action data is not available in the evidence pack (flagged as a High-severity data gap, DG002). Based on the repurposing rationale accompanying the prediction, Ivosidenib is a selective inhibitor of mutant IDH1, blocking production of the oncometabolite 2-hydroxyglutarate (2-HG) — a metabolic/epigenetic pathway relevant to hematologic malignancy, not to neurological or infectious disease.
-
-**This top-ranked prediction is not mechanistically reasonable.** Bulbar polio is a neurodegenerative condition caused by poliovirus infection of motor neurons. It shares no known pathway, target, or biological process with mutant-IDH1-driven oncogenesis. The evidence pack itself explicitly characterizes this as an embedding-similarity artifact ("false positive") with no supporting hypothesis — this is a case where a high TxGNN score does not indicate biological plausibility.
-
-Two lower-ranked but more credible candidates exist in this evidence pack: **AML/MDS related to prior radiation therapy** and **AML/MDS related to prior alkylating-agent therapy** (both L4, "Research Question" stage). Both are therapy-related secondary leukemias that can, in a genotype-stratified subset, carry IDH1 R132 mutations analogous to Ivosidenib's approved primary-AML indication. However, TP53 mutation and complex karyotype — not IDH1 mutation — dominate these secondary leukemia subtypes, and no dedicated trials or case reports currently exist for this population. These remain hypothesis-generating extrapolations from the approved AML label rather than independently supported new indications.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Nicht in lokalen Lizenzen registriert; bekannte globale Indikation ist IDH1-mutierte akute myeloische Leukämie (gemäß Arzneimittelklasse/Etiketteninformationen, nicht lokal verifiziert) |
+| Vorhergesagte neue Indikation | Bulbäre Poliomyelitis |
+| TxGNN-Vorhersagepunktzahl | 99.31% |
+| Evidenzstufe | L5 |
+| Status auf dem deutschen Markt | Nicht vermarktet (Nicht vermarktet) |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Zurückhalten |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage angemessen?
 
-Currently no related literature available.
+Derzeit sind detaillierte Wirkmechanismus-Daten nicht im Nachweispaket verfügbar (gekennzeichnet als Datenlücke mit hohem Schweregrad, DG002). Basierend auf der Umwidmungsrationale, die der Vorhersage beigefügt ist, ist Ivosidenib ein selektiver Inhibitor von mutiertem IDH1, der die Produktion des Onkometaboliten 2-Hydroxyglutarat (2-HG) blockiert – ein Stoffwechsel-/Epigenetik-Weg, der für hämatologische Malignität relevant ist, nicht für neurologische oder Infektionskrankheiten.
 
----
+**Diese Vorhersage mit dem höchsten Rang ist mechanistisch nicht angemessen.** Bulbäre Poliomyelitis ist eine neurodegenerative Erkrankung, die durch Poliovirus-Infektion von Motoneuronen verursacht wird. Sie teilt keinen bekannten Weg, kein Ziel oder biologischen Prozess mit IDH1-mutierter Onkogenese. Das Nachweispaket selbst charakterisiert dies ausdrücklich als ein Artefakt der Einbettungsähnlichkeit („falsch positiv") ohne unterstützende Hypothese – dies ist ein Fall, in dem ein hoher TxGNN-Wert keine biologische Plausibilität anzeigt.
 
-## Germany Market Information
-
-No marketing authorizations are currently registered for this drug in the local dataset (market status: Not marketed / Not Marketed; total authorizations: 0).
+Zwei niedrig bewertete, aber glaubwürdigere Kandidaten existieren in diesem Nachweispaket: **AML/MDS im Zusammenhang mit vorheriger Strahlentherapie** und **AML/MDS im Zusammenhang mit vorheriger Alkylanzien-Therapie** (beide L4, „Forschungsfrage"-Stadium). Beide sind therapiebezogene sekundäre Leukämien, die in einer Genotyp-stratifizierten Untergruppe IDH1-R132-Mutationen tragen können, die der zugelassenen primären AML-Indikation von Ivosidenib ähnlich sind. Allerdings dominieren TP53-Mutation und komplexer Karyotyp – nicht IDH1-Mutation – diese sekundären Leukämie-Subtypen, und es gibt derzeit keine dedizierten Versuche oder Fallberichte für diese Population. Diese bleiben Hypothesen-generierende Extrapolationen aus der zugelassenen AML-Bezeichnung statt unabhängig unterstützte neue Indikationen.
 
 ---
 
-## Cytotoxicity
+## Evidenz klinischer Studien
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (mutant IDH1 enzyme inhibitor) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+Derzeit keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Safety Considerations
+## Literaturbeweise
 
-Please refer to the package insert for safety information. (No warnings, contraindications, or drug-interaction data are currently available; TFDA label data is flagged as a Blocking data gap, DG001.)
+Derzeit keine zugehörige Literatur verfügbar.
 
 ---
 
-## Conclusion and Next Steps
+## Informationen zum deutschen Markt
 
-**Decision: Hold**
+Im lokalen Datensatz sind derzeit keine Marketingzulassungen für dieses Arzneimittel registriert (Marktstatus: Nicht vermarktet / Nicht vermarktet; Gesamtzulassungen: 0).
 
-**Rationale:**
-The top-ranked prediction (Bulbar Polio) has no supporting mechanism, trials, or literature, and is explicitly identified within the evidence pack as a probable false positive. The two mechanistically plausible secondary candidates (therapy-related AML/MDS) remain at the Research Question stage (L4) with no direct clinical evidence, so no candidate in this pack currently justifies advancing beyond Hold.
+---
 
-**To proceed, the following is needed:**
-- TFDA/manufacturer label data (warnings, contraindications) to close the Blocking data gap (DG001)
-- Confirmed MOA data from DrugBank (DG002) to support formal mechanistic-link scoring
-- If pursuing the AML/MDS-related candidates: genotype-stratified case series or registry data confirming IDH1 R132 mutation prevalence in radiation- and alkylating-agent-related secondary AML/MDS
-- Targeted literature search restricted to therapy-related AML/MDS with IDH1 mutation status, rather than relying on primary-AML label extrapolation
+## Zytotoxizität
+
+| Element | Inhalt |
+|---------|--------|
+| Zytotoxizitätsklassifizierung | Zielgerichtete Therapie (mutanter IDH1-Enzym-Inhibitor) |
+| Myelosuppressions-Risiko | Bitte beachten Sie die Warnungen und Vorsichtsmaßnahmen der Packungsbeilage |
+| Emetogenitätsklassifizierung | Bitte beachten Sie die Warnungen und Vorsichtsmaßnahmen der Packungsbeilage |
+| Überwachungselemente | Bitte beachten Sie die Warnungen und Vorsichtsmaßnahmen der Packungsbeilage |
+| Handhabungsschutz | Bitte beachten Sie die Warnungen und Vorsichtsmaßnahmen der Packungsbeilage |
+
+---
+
+## Sicherheitsüberlegungen
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. (Derzeit sind keine Warnungen, Kontraindikationen oder Arzneimittelwechselwirkungsdaten verfügbar; TFDA-Etikett-Daten sind als blockierende Datenlücke gekennzeichnet, DG001.)
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Zurückhalten**
+
+**Begründung:**
+Die Vorhersage mit dem höchsten Rang (Bulbäre Poliomyelitis) hat keinen unterstützenden Mechanismus, Versuche oder Literatur, und wird innerhalb des Nachweispakets explizit als wahrscheinlich falsch positiv identifiziert. Die zwei mechanistisch plausiblen sekundären Kandidaten (therapiebezogene AML/MDS) bleiben im Stadium Forschungsfrage (L4) ohne direkte klinische Evidenz, daher rechtfertigt derzeit kein Kandidat in diesem Paket, über „Zurückhalten" hinauszugehen.
+
+**Um fortzufahren, wird Folgendes benötigt:**
+- TFDA/Herstelleretikett-Daten (Warnungen, Kontraindikationen) zur Schließung der blockierenden Datenlücke (DG001)
+- Bestätigte MOA-Daten von DrugBank (DG002) zur Unterstützung formaler mechanistischer Bewertungen
+- Falls die AML/MDS-bezogenen Kandidaten verfolgt werden: Genotyp-stratifizierte Fallserien oder Registerdaten, die die Prävalenz der IDH1-R132-Mutation in strahlungs- und alkylanzien-bezogenen sekundären AML/MDS bestätigen
+- Gezielte Literatursuche beschränkt auf therapiebezogene AML/MDS mit IDH1-Mutationsstatus, anstatt sich auf die Extrapolation der primären AML-Indikation zu verlassen
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

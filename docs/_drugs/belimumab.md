@@ -29,78 +29,79 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Belimumab: From Systemic Lupus Erythematosus to Primary Release Disorder of Platelets
+# Belimumab: Von Systemischem Lupus Erythematodes zur Primären Sekretionstörung von Blutplättchen
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Belimumab is an anti-BAFF/BLyS monoclonal antibody originally used to treat Systemic Lupus Erythematosus (SLE) by suppressing B-cell survival and autoantibody production.
-The TxGNN model predicts it may be effective for **primary release disorder of platelets**,
-but this direction is currently supported by only **1 clinical trial** (mechanistically unrelated) and **0 publications**.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Systemic Lupus Erythematosus (SLE) |
-| Predicted New Indication | Primary release disorder of platelets |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L5 |
-| Germany Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Belimumab ist ein gegen BAFF/BLyS gerichteter monoklonaler Antikörper, der ursprünglich zur Behandlung des Systemischen Lupus Erythematodes (SLE) verwendet wird, um das Überleben von B-Zellen und die Produktion von Autoantikörpern zu unterdrücken.
+Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam gegen **primäre Sekretionstörung von Blutplättchen** sein könnte,
+aber diese Richtung wird derzeit durch nur **1 klinische Studie** (mechanistisch unabhängig) und **0 Veröffentlichungen** gestützt.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Detailed DrugBank mechanism-of-action data is not available for belimumab in this evidence pack. Based on the mechanistic rationale accompanying the predictions, belimumab is known to act as an anti-BAFF/BLyS monoclonal antibody that inhibits B-cell survival and reduces autoantibody generation, and on this basis it is approved for SLE.
-
-Primary release disorder of platelets is a hereditary defect in platelet granule secretion — a structural/functional platelet abnormality, not a B-cell- or antibody-mediated disease. There is no established biological pathway connecting BAFF/B-cell inhibition to platelet granule release. The TxGNN model's high score for this indication is therefore most plausibly a knowledge-graph association artifact rather than a genuine mechanism-driven hypothesis.
-
-Notably, among the six indications predicted for belimumab, **fetal and neonatal alloimmune thrombocytopenia (rank 4)** has a comparatively more plausible mechanistic rationale, since it is an antibody-mediated condition — but it likewise has no supporting clinical or literature evidence at this time. All six predictions remain at evidence level L5.
+| Element | Inhalt |
+|--------|--------|
+| Ursprüngliche Indikation | Systemischer Lupus Erythematodes (SLE) |
+| Vorhergesagte neue Indikation | Primäre Sekretionstörung von Blutplättchen |
+| TxGNN-Vorhersage-Score | 99.96% |
+| Evidenzstufe | L5 |
+| Marktstatus Deutschland | Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Zurückhalten |
 
 ---
 
-## Clinical Trial Evidence
+## Warum ist diese Vorhersage angemessen?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Detaillierte DrugBank-Wirkungsmechanismus-Daten sind für Belimumab in diesem Evidenzpaket nicht verfügbar. Basierend auf der mechanistischen Begründung, die die Vorhersagen begleitet, ist bekannt, dass Belimumab als gegen BAFF/BLyS gerichteter monoklonaler Antikörper wirkt, der das Überleben von B-Zellen hemmt und die Erzeugung von Autoantikörpern reduziert, und auf dieser Grundlage ist es für SLE zugelassen.
+
+Primäre Sekretionstörung von Blutplättchen ist ein hereditärer Defekt in der Granulasekretion von Blutplättchen — eine strukturelle/funktionelle Blutplättchenanomalie, keine durch B-Zellen oder Antikörper vermittelte Erkrankung. Es gibt keinen etablierten biologischen Weg, der die BAFF/B-Zell-Hemmung mit der Freisetzung von Blutplättchengranula verbindet. Der hohe Score des TxGNN-Modells für diese Indikation ist daher am ehesten ein Wissensgraph-Assoziationsartefakt und nicht eine echte mechanismusgesteuerte Hypothese.
+
+Erwähnenswert ist, dass unter den sechs für Belimumab vorhergesagten Indikationen **fetale und neonatale alloimmune Thrombozytopenie (Rang 4)** eine vergleichsweise plausiblere mechanistische Begründung hat, da es sich um eine antikörperbedingte Erkrankung handelt — aber sie hat ebenfalls keine unterstützenden klinischen oder Literaturbelege zu diesem Zeitpunkt. Alle sechs Vorhersagen bleiben auf Evidenzstufe L5.
+
+---
+
+## Klinische Studienevidenz
+
+| Studiennummer | Phase | Status | Einschluss | Wichtigste Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT01610492](https://clinicaltrials.gov/study/NCT01610492) | Phase 2 | Completed | 14 | Study of belimumab in PLA2R-antibody-positive idiopathic membranous glomerulonephropathy — **not related to platelet disorders**; database indication mismatch, graded C (non-supportive) |
+| [NCT01610492](https://clinicaltrials.gov/study/NCT01610492) | Phase 2 | Abgeschlossen | 14 | Studie von Belimumab bei PLA2R-Antikörper-positiver idiopathischer membranöser Glomerulonephritis — **nicht verwandt mit Blutplättchenstörungen**; Datenbankindikationsabweichung, bewertet mit C (nicht unterstützend) |
 
 ---
 
-## Literature Evidence
+## Literaturbelege
 
-Currently no related literature available.
-
----
-
-## Germany Market Information
-
-Belimumab is not marketed in Germany under this evidence pack (0 authorizations on record).
+Derzeit sind keine entsprechenden Literaturbelege verfügbar.
 
 ---
 
-## Safety Considerations
+## Marktinformationen Deutschland
 
-Please refer to the package insert for safety information.
+Belimumab wird in Deutschland nach diesem Evidenzpaket nicht vermarktet (0 Zulassungen in der Akte).
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsüberlegungen
 
-**Decision: Hold**
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
 
-**Rationale:**
-Despite a high TxGNN prediction score, the only associated clinical trial addresses an unrelated indication, no supporting literature exists, and the proposed mechanism (BAFF/B-cell inhibition) has no established link to platelet granule release disorders. The evidence base is insufficient to justify further evaluation.
+---
 
-**To proceed, the following is needed:**
-- Confirmed MOA and DDI/contraindication data from DrugBank/manufacturer (currently flagged as Blocking/High data gaps)
-- Preclinical or mechanistic studies directly linking BAFF/B-cell pathways to platelet granule secretion defects
-- Real disease-matched clinical trials or case reports in platelet release disorder populations
-- If pursuing an alternative candidate, prioritize re-evaluation of **fetal and neonatal alloimmune thrombocytopenia**, which has a more coherent (though still unproven) mechanistic hypothesis
+## Fazit und nächste Schritte
+
+**Entscheidung: Zurückhalten**
+
+**Begründung:**
+Trotz eines hohen TxGNN-Vorhersage-Scores befasst sich die einzige zugehörige klinische Studie mit einer unverwandten Indikation, es gibt keine unterstützende Literatur, und der vorgeschlagene Mechanismus (BAFF/B-Zell-Hemmung) hat keine etablierte Verbindung zu Sekretionstörungen von Blutplättchengranula. Die Evidenzbasis ist unzureichend, um weitere Bewertung zu rechtfertigen.
+
+**Um voranzuschreiten, wird Folgendes benötigt:**
+- Bestätigte MOA und DDI/Kontraindikationsdaten von DrugBank/Hersteller (aktuell als Blocking/High Datenlücken gekennzeichnet)
+- Präklinische oder mechanistische Studien, die direkt die BAFF/B-Zell-Wege mit Defekten der Blutplättchengranulasekretion verbinden
+- Echte krankheitsgerechte klinische Studien oder Fallberichte in Patientenpopulationen mit Blutplättchen-Sekretionstörungen
+- Falls ein alternativer Wirkstoffkandidat verfolgt wird, Priorisierung der Neubewertung von **fetaler und neonataler alloimmune Thrombozytopenie**, die eine kohärentere (allerdings noch unbewiesene) mechanistische Hypothese hat
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -29,79 +29,80 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0**
 
 </div>
 
-# Binimetinib: Drug Repurposing Evaluation — Insufficient Data for Full Assessment
+# Binimetinib: Bewertung der Umwidmung von Arzneimitteln — Unzureichende Daten für vollständige Bewertung
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Binimetinib (Mektovi) is a selective MEK1/2 inhibitor approved internationally for BRAF V600E/K-mutant unresectable or metastatic melanoma in combination with encorafenib. The current Evidence Pack contains **no TxGNN predicted indications** and critical data gaps in mechanism of action and safety fields, making a complete repurposing assessment impossible at this stage. **Recommended action: Hold — resolve data gaps before proceeding.**
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | BRAF V600E/K-mutant unresectable or metastatic melanoma (international; no Taiwan license) |
-| Predicted New Indication | — (No TxGNN predictions returned) |
-| TxGNN Prediction Score | — |
-| Evidence Level | — |
-| Taiwan Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+Binimetinib (Mektovi) ist ein selektiver MEK1/2-Inhibitor, der international zur Behandlung von BRAF-V600E/K-mutanten, nicht resezierbaren oder metastasierten Melanomen in Kombination mit Encorafenib zugelassen ist. Das aktuelle Evidence Pack enthält **keine TxGNN-vorhergesagten Indikationen** und weist kritische Datenlücken bei Wirkmechanismus und Sicherheitsangaben auf, was eine vollständige Bewertung der Umwidmung in dieser Phase unmöglich macht. **Empfohlene Maßnahme: Zurückstellen — Datenlücken vor dem Fortfahren beheben.**
 
 ---
 
-## Why No Repurposing Prediction is Available
+## Schnellübersicht
 
-The TxGNN pipeline did not return any predicted indications for binimetinib (DB11967) in this Evidence Pack. Without at least one candidate indication, the core repurposing rationale, clinical trial evidence, and literature evidence sections cannot be populated.
-
-For context: binimetinib is a well-characterised small-molecule that blocks the RAS→RAF→MEK→ERK signalling axis (MAPK pathway). MEK inhibition has been studied in multiple solid tumour types beyond melanoma — including NSCLC, colorectal cancer, pancreatic cancer, and several haematological malignancies — suggesting that valid repurposing candidates likely exist. The absence of predictions most likely reflects a pipeline execution issue rather than a genuine lack of biological signal. Re-running the TxGNN pipeline is the immediate priority.
-
----
-
-## Taiwan Market Information
-
-Binimetinib is **not marketed in Taiwan**. No TFDA-licensed products, approved indications, or dosage form records are available.
-
-> Note: The query log confirms a TFDA package insert record was retrieved (query ID 4, status: success), but the warning and contraindication fields were not parsed into the Evidence Pack. This data must be extracted before safety screening can proceed.
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | BRAF-V600E/K-mutantes, nicht resezierbares oder metastasiertes Melanom (international; keine Taiwan-Zulassung) |
+| Vorhergesagte neue Indikation | — (Keine TxGNN-Vorhersagen zurückgegeben) |
+| TxGNN-Vorhersage-Bewertung | — |
+| Evidenzebene | — |
+| Taiwan-Marktstatus | ✗ Nicht auf dem Markt |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | **Zurückstellen** |
 
 ---
 
-## Cytotoxicity
+## Warum keine Umwidmungsvorhersage verfügbar ist
 
-Binimetinib is an antineoplastic targeted therapy. The following table reflects known pharmacological class properties.
+Die TxGNN-Pipeline hat für Binimetinib (DB11967) in diesem Evidence Pack keine vorhergesagten Indikationen zurückgegeben. Ohne mindestens eine Kandidatenindikation können die Kernabschnitte zur Umwidmungsbegründung, klinische Studienevidenzen und Literaturevidenzabschnitte nicht ausgefüllt werden.
 
-| Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted therapy — MEK1/2 kinase inhibitor (non-conventional cytotoxic) |
-| Myelosuppression Risk | Low to Moderate |
-| Emetogenicity Classification | Low |
-| Monitoring Items | CBC with differential, liver function tests (ALT/AST), CPK, ECG (QTc interval), ophthalmological evaluation (retinal events), blood pressure |
-| Handling Protection | Standard oral antineoplastic handling precautions apply |
+Zur Kontextualisierung: Binimetinib ist ein gut charakterisiertes kleines Molekül, das die RAS→RAF→MEK→ERK-Signalwegachse (MAPK-Weg) blockiert. Die MEK-Hemmung wurde in mehreren soliden Tumortypen über Melanom hinaus untersucht — einschließlich NSCLC, Darmkrebs, Bauchspeicheldrüsenkrebs und mehreren hämatologischen Malignomen — was darauf hindeutet, dass gültige Umwidmungskandidaten wahrscheinlich vorhanden sind. Die Abwesenheit von Vorhersagen spiegelt höchstwahrscheinlich ein Problem bei der Pipeline-Ausführung wider, nicht einen echten Mangel an biologischem Signal. Erneutes Ausführen der TxGNN-Pipeline ist die unmittelbare Priorität.
 
 ---
 
-## Safety Considerations
+## Taiwan-Marktinformationen
 
-Please refer to the package insert for safety information.
+Binimetinib wird **in Taiwan nicht vermarktet**. Es sind keine TFDA-zugelassenen Produkte, genehmigten Indikationen oder Dosierungsformulare verfügbar.
 
-The TFDA package insert query returned a result but key warnings and contraindications were not parsed into this Evidence Pack (Data Gap DG001, severity: Blocking). Drug interaction data was also not found in the DDI database query. These gaps must be resolved before the drug can pass safety screening.
+> Hinweis: Das Abfragelog bestätigt, dass ein TFDA-Packungsbeilage-Datensatz abgerufen wurde (Abfrage-ID 4, Status: erfolgreich), aber die Warn- und Gegenanzeigenfelder wurden nicht in das Evidence Pack eingefügt. Diese Daten müssen extrahiert werden, bevor die Sicherheitsbewertung fortgesetzt werden kann.
 
 ---
 
-## Conclusion and Next Steps
+## Zytotoxizität
 
-**Decision: Hold**
+Binimetinib ist eine antineoplastische zielgerichtete Therapie. Die folgende Tabelle gibt bekannte Eigenschaften der Arzneimittelklasse wider.
 
-**Rationale:**
-The Evidence Pack is critically incomplete on two dimensions: the TxGNN model returned zero predicted indications, and both the mechanism of action and safety data fields are unfilled. A responsible repurposing evaluation requires at minimum one candidate indication and a cleared safety profile — neither condition is met here.
+| Element | Inhalt |
+|---------|--------|
+| Zytotoxizitätsklassifizierung | Zielgerichtete Therapie — MEK1/2-Kinase-Inhibitor (nicht-konventionelle Zytotoxika) |
+| Myelosuppressions-Risiko | Niedrig bis moderat |
+| Emetogenitätsklassifizierung | Niedrig |
+| Zu überwachende Elemente | Blutbild mit Differenzierung, Leberfunktionstests (ALT/AST), CPK, EKG (QTc-Intervall), ophthalmologische Bewertung (retinale Ereignisse), Blutdruck |
+| Handhabungsschutz | Standardmäßige Vorsichtsmaßnahmen zur Handhabung oraler Antineoplastika gelten |
 
-**To proceed, the following is needed:**
+---
 
-- **\[Priority 1\]** Re-execute the TxGNN prediction pipeline for binimetinib (DB11967) and confirm the model receives a valid drug embedding
-- **\[Priority 2\]** Parse TFDA package insert PDF to extract key warnings, contraindications, and precautions (resolves DG001 — currently Blocking)
-- **\[Priority 3\]** Query DrugBank API for full mechanism of action data (resolves DG002)
-- **\[Priority 4\]** Supplement with international approval status (FDA/EMA) to provide a complete regulatory context, given the absence of any Taiwan authorization
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+Die TFDA-Packungsbeilage-Abfrage gab ein Ergebnis zurück, aber wichtige Warnungen und Gegenanzeigen wurden nicht in dieses Evidence Pack eingefügt (Datenlücke DG001, Schweregrad: Blockierend). Daten zu Arzneimittelwechselwirkungen wurden auch in der DDI-Datenbankabfrage nicht gefunden. Diese Lücken müssen behoben werden, bevor das Arzneimittel die Sicherheitsprüfung bestehen kann.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Zurückstellen**
+
+**Begründung:**
+Das Evidence Pack ist auf zwei Ebenen kritisch unvollständig: Das TxGNN-Modell hat keine vorhergesagten Indikationen zurückgegeben, und sowohl die Wirkmechanismus- als auch die Sicherheitsdatenfelder sind nicht ausgefüllt. Eine verantwortungsvolle Umwidmungsbewertung erfordert mindestens eine Kandidatenindikation und ein bestätigtes Sicherheitsprofil — keine dieser Bedingungen ist hier erfüllt.
+
+**Um fortzufahren, wird Folgendes benötigt:**
+
+- **\[Priorität 1\]** Führen Sie die TxGNN-Vorhersage-Pipeline für Binimetinib (DB11967) erneut aus und bestätigen Sie, dass das Modell eine gültige Arzneimitteleinbettung empfängt
+- **\[Priorität 2\]** Parsen Sie die TFDA-Packungsbeilage-PDF, um wichtige Warnungen, Gegenanzeigen und Vorsichtsmaßnahmen zu extrahieren (behebt DG001 — derzeit blockierend)
+- **\[Priorität 3\]** Befragen Sie die DrugBank-API nach vollständigen Wirkmechanismus-Daten (behebt DG002)
+- **\[Priorität 4\]** Ergänzen Sie um internationalen Zulassungsstatus (FDA/EMA), um einen vollständigen behördlichen Kontext bereitzustellen, angesichts des Fehlens einer Taiwan-Zulassung
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

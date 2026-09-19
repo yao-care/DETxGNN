@@ -29,77 +29,78 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# INSULIN HUMAN: From Diabetes Mellitus to Autoimmune Oophoritis
+# INSULIN HUMAN: Von Diabetes mellitus bis zur Autoimmun-Oophoritis
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Insulin human is the standard replacement therapy for diabetes mellitus (endogenous insulin deficiency).
-The TxGNN model's top-ranked new-indication prediction is **Autoimmune Oophoritis** (score 99.84%),
-but this candidate has **no clinical trials, no supporting literature, and no mechanistic rationale for therapeutic benefit** —
-the evidence assessment itself flags it as a likely knowledge-graph comorbidity artifact rather than a genuine repurposing signal.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Diabetes Mellitus (insulin replacement therapy) — not itemized in this evidence pack; Germany/regulatory license data unavailable |
-| Predicted New Indication | Autoimmune Oophoritis |
-| TxGNN Prediction Score | 99.84% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Germany Market Status | ✗ Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Insulin human ist die Standard-Ersatztherapie für Diabetes mellitus (endogener Insulinmangel).
+Die vom TxGNN-Modell als ranghöchste neue Indikation vorhergesagte **Autoimmun-Oophoritis** (Score 99.84 %),
+verfügt jedoch über **keine klinischen Studien, keine unterstützende Literatur und keine mechanistische Begründung für therapeutischen Nutzen** –
+die Evidenzbewertung selbst kennzeichnet dies als wahrscheinliches Wissensgraph-Komorbiditätsartefakt anstelle eines echten Umwidmungssignals.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap in this evidence pack). Based on general pharmacological knowledge, insulin human replaces or supplements endogenous insulin to regulate glucose metabolism; its efficacy in diabetes mellitus is well established.
-
-The proposed mechanistic link to autoimmune oophoritis is that both conditions can co-occur within autoimmune polyglandular syndrome (Type 1 diabetes plus autoimmune ovarian failure share an autoimmune predisposition). However, this is a **comorbidity association**, not evidence that insulin has any direct therapeutic effect on ovarian autoimmune tissue destruction. The evidence assessment explicitly characterizes this prediction as "knowledge-graph relational noise" rather than a plausible pharmacological hypothesis — insulin's glucose-lowering mechanism has no established pathway relevant to halting or reversing autoimmune oophoritis.
-
-Reviewing the full set of 10 TxGNN predictions for this drug reinforces this conclusion: most (ranks 1, 2, 3, 5, 6, 7, 8, 10) are explicitly annotated by the evidence layer as comorbidity artifacts or even **direction-reversed associations** (e.g., insulin injection is a known *cause* of localized lipodystrophy, not a treatment for it). The two exceptions — thiamine-responsive dysfunction syndrome (rank 4) and pancreatic agenesis (rank 9) — reflect insulin's well-established role in managing *secondary diabetes* that arises from these genetic syndromes, which is existing standard clinical practice rather than a novel repurposing discovery.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Diabetes mellitus (Insulinersatztherapie) – nicht einzeln in diesem Evidenzpaket aufgeführt; Daten zu Deutschland/Zulassungen nicht verfügbar |
+| Vorhergesagte neue Indikation | Autoimmun-Oophoritis |
+| TxGNN-Vorhersagescore | 99.84 % |
+| Evidenzebene | L5 (nur Modellvorhersage, keine unterstützenden Studien) |
+| Marktstatus Deutschland | ✗ Nicht im Handel (Nicht im Handel) |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage vernünftig?
 
-Currently no related literature available.
+Derzeit sind detaillierte Daten zum Wirkmechanismus nicht verfügbar (gekennzeichnet als hochschwerwiegender Datenlücke in diesem Evidenzpaket). Nach allgemeinem pharmakologischen Wissen ersetzt oder ergänzt Insulin human das körpereigene Insulin zur Regulierung des Glucosestoffwechsels; seine Wirksamkeit bei Diabetes mellitus ist gut etabliert.
 
----
+Der vorgeschlagene mechanistische Zusammenhang mit Autoimmun-Oophoritis besteht darin, dass beide Erkrankungen innerhalb eines autoimmunen polyglandulären Syndroms koexistieren können (Typ-1-Diabetes plus autoimmune Ovarialinsuffizienz teilen eine autoimmune Veranlagung). Dies ist jedoch eine **Komorbiditätsassoziation**, nicht ein Beweis dafür, dass Insulin eine direkte therapeutische Wirkung auf die autoimmune Zerstörung des Ovarialgewebes hat. Die Evidenzbewertung kennzeichnet diese Vorhersage explizit als „Relationsrauschen im Wissensgraphen" anstelle einer plausiblen pharmakologischen Hypothese – der Glucosesenkungsmechanismus von Insulin verfügt über keinen etablierten Wirkungsweg, der für die Beendigung oder Umkehrung einer Autoimmun-Oophoritis relevant ist.
 
-## Germany Market Information
-
-No authorization records are available in this evidence pack. Market status is recorded as **Not marketed (Not marketed)** with **0 total licenses**, so no product/dosage-form table can be generated.
+Die Überprüfung des vollständigen Satzes von 10 TxGNN-Vorhersagen für dieses Arzneimittel bestärkt diese Schlussfolgerung: Die meisten (Ränge 1, 2, 3, 5, 6, 7, 8, 10) werden von der Evidenzschicht explizit als Komorbiditätsartefakte oder sogar **richtungsumgekehrte Assoziationen** gekennzeichnet (z. B. ist Insulininjektion eine bekannte *Ursache* lokalisierter Lipodystrophie, nicht eine Behandlung dafür). Die zwei Ausnahmen – Thiamin-responsives Dysfunktionssyndrom (Rang 4) und Bauchspeicheldrüsenagenese (Rang 9) – spiegeln die gut etablierte Rolle von Insulin bei der Behandlung von *sekundärem Diabetes* wider, der aus diesen genetischen Syndromen entsteht, was bereits bestehende klinische Standardpraxis ist anstelle einer neuartigen Umwidmungsentdeckung.
 
 ---
 
-## Safety Considerations
+## Klinische Studienevidenz
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug interaction data are all unavailable in this evidence pack; TFDA label warnings/contraindications are flagged as a **Blocking** data gap that prevents formal S1 safety review.)
+Derzeit sind keine damit verbundenen klinischen Studien registriert.
 
 ---
 
-## Conclusion and Next Steps
+## Literaturevidenz
 
-**Decision: Hold**
+Derzeit ist keine damit verbundene Literatur verfügbar.
 
-**Rationale:**
-The top-ranked prediction (autoimmune oophoritis) has no clinical, literature, or mechanistic support and is explicitly identified by the evidence assessment as a likely knowledge-graph artifact driven by shared autoimmune comorbidity rather than a genuine pharmacological signal. Combined with a Blocking-severity gap in TFDA safety labeling and a High-severity gap in mechanism-of-action data, there is insufficient basis to advance this candidate.
+---
 
-**To proceed, the following is needed:**
-- TFDA/EMA package insert data (warnings, contraindications) to clear the Blocking data gap and enable S1 safety screening
-- Confirmed mechanism-of-action documentation for insulin human (DrugBank API query)
-- If autoimmune oophoritis is pursued further: dedicated mechanistic or preclinical studies evaluating insulin/insulin-signaling pathways in ovarian autoimmune tissue — none currently exist
-- Re-evaluate whether ranks 4 (thiamine-responsive dysfunction syndrome) and 9 (pancreatic agenesis) should instead be reclassified as "existing standard-of-care" rather than novel repurposing candidates, since insulin is already used clinically for secondary diabetes in both syndromes
+## Informationen zum deutschen Markt
+
+In diesem Evidenzpaket sind keine Zulassungsunterlagen verfügbar. Der Marktstatus wird als **Nicht im Handel (Nicht im Handel)** mit **0 Gesamtlizenzen** aufgezeichnet, daher kann keine Tabelle mit Produkten/Darreichungsformen erstellt werden.
+
+---
+
+## Sicherheitsüberlegungen
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. (Wichtige Warnungen, Kontraindikationen und Arzneimittelwechselwirkungsdaten sind alle in diesem Evidenzpaket nicht verfügbar; TFDA-Etikettenwarnungen/Kontraindikationen sind als **blockierende** Datenlücke gekennzeichnet, die eine formale S1-Sicherheitsbewertung verhindert.)
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Hold**
+
+**Begründung:**
+Die ranghöchste Vorhersage (Autoimmun-Oophoritis) verfügt über keine klinische, literaturgestützte oder mechanistische Unterstützung und wird von der Evidenzbewertung explizit als wahrscheinliches Wissensgraph-Artefakt identifiziert, das durch gemeinsame autoimmune Komorbiditäten angetrieben wird, anstelle eines echten pharmakologischen Signals. In Kombination mit einer blockierenden Datenlücke in der TFDA-Sicherheitskennzeichnung und einer hochschwerwiegenden Datenlücke in den Wirkmechanismus-Daten gibt es keine ausreichende Grundlage, um diesen Kandidaten voranzubringen.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+- TFDA/EMA-Packungsbeilagendaten (Warnungen, Kontraindikationen) zur Beseitigung der blockierenden Datenlücke und zur Ermöglichung der S1-Sicherheitsprüfung
+- Bestätigte Wirkmechanismus-Dokumentation für Insulin human (DrugBank-API-Abfrage)
+- Falls Autoimmun-Oophoritis weiterhin verfolgt wird: Dedizierte mechanistische oder präklinische Studien, die Insulin/Insulin-Signalgebungswege im autoimmunen Ovarialgewebe evaluieren – derzeit existieren keine
+- Neubewertung, ob die Ränge 4 (Thiamin-responsives Dysfunktionssyndrom) und 9 (Bauchspeicheldrüsenagenese) stattdessen als „bestehende klinische Standardpraxis" anstelle von neuartigen Umwidmungskandidaten neu klassifiziert werden sollten, da Insulin bereits klinisch für sekundären Diabetes in beiden Syndromen verwendet wird
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

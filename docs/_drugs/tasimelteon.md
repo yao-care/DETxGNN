@@ -29,72 +29,73 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Tasimelteon: From Non-24-Hour Sleep-Wake Disorder to Insomnia
+# Tasimelteon: Von Non-24-Stunden-Schlaf-Wach-Störung zu Insomnie
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Tasimelteon is a melatonin MT1/MT2 receptor agonist currently approved for Non-24-Hour Sleep-Wake Disorder, acting on the suprachiasmatic nucleus to regulate circadian rhythm and sleep onset. The TxGNN model predicts it may also be effective for **Insomnia**, with **4 clinical trials (including one completed Phase 3 RCT)** and **6 supporting publications** currently identified. Note: TxGNN generated 9 other candidate indications for tasimelteon (e.g., ALS, polymicrogyria, endogenous depression), but all except insomnia lack meaningful clinical or literature support and are rated Hold (L5) or Research Question (L4) — this report focuses on the insomnia candidate, which has by far the strongest evidence.
+Tasimelteon ist ein Melatonin-MT1/MT2-Rezeptoragonist, der derzeit zur Behandlung der Non-24-Stunden-Schlaf-Wach-Störung zugelassen ist und am Nucleus suprachiasmaticus wirkt, um den circadianen Rhythmus und die Schlafeinleitung zu regulieren. Das TxGNN-Modell sagt voraus, dass es auch bei **Insomnie** wirksam sein könnte, mit **4 klinischen Studien (einschließlich einer abgeschlossenen Phase-3-RCT)** und **6 unterstützenden Publikationen**, die derzeit identifiziert wurden. Hinweis: TxGNN generierte 9 weitere Kandidaten-Indikationen für Tasimelteon (z. B. ALS, Polymikrogyrie, endogene Depression), aber alle außer Insomnie weisen keine aussagekräftige klinische oder Literaturunterstützung auf und sind als Hold (L5) oder Forschungsfrage (L4) bewertet — dieser Bericht konzentriert sich auf den Insomnie-Kandidaten, der bei weitem die stärkste Evidenz aufweist.
 
-## Quick Overview
+## Schneller Überblick
 
-| Item | Content |
-|------|------|
-| Original Indication | Non-24-Hour Sleep-Wake Disorder (existing approved indication, referenced in evidence rationale) |
-| Predicted New Indication | Insomnia (disease) |
-| TxGNN Prediction Score | 99.47% |
-| Evidence Level | L1 |
-| Germany Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Element | Inhalt |
+|--------|--------|
+| Ursprüngliche Indikation | Non-24-Stunden-Schlaf-Wach-Störung (bestehende zugelassene Indikation, in der Evidenzrationale referenziert) |
+| Vorhergesagte neue Indikation | Insomnie (Krankheit) |
+| TxGNN-Vorhersagepunktzahl | 99,47% |
+| Evidenzlevel | L1 |
+| Marktstatus Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Fortfahren mit Schutzmaßnahmen |
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage sinnvoll?
 
-Currently, detailed mechanism of action data from DrugBank is not available (flagged as a High-severity data gap, DG002). However, the evidence pack's repurposing rationale confirms that tasimelteon is a melatonin MT1/MT2 receptor agonist, acting directly on the suprachiasmatic nucleus (SCN) — the body's circadian pacemaker — to regulate circadian rhythm and promote sleep initiation.
+Derzeit sind detaillierte Wirkmechanismus-Daten aus DrugBank nicht verfügbar (als Datenlücke mit hohem Schweregrad DG002 gekennzeichnet). Allerdings bestätigt das Evidence Pack in seiner Repurposing-Rationale, dass Tasimelteon ein Melatonin-MT1/MT2-Rezeptoragonist ist, der direkt auf den Nucleus suprachiasmaticus (SCN) wirkt — den circadianen Schrittmacher des Körpers — um den circadianen Rhythmus zu regulieren und die Schlafeinleitung zu fördern.
 
-Insomnia and Non-24-Hour Sleep-Wake Disorder are both circadian-rhythm-related sleep disorders sharing the same underlying pathophysiology: dysregulation of the sleep-wake cycle. Since tasimelteon's approved indication already targets this pathway, its predicted efficacy in insomnia represents a mechanistically coherent extension within the same therapeutic class, rather than a novel unrelated use. This is consistent with the broader melatonergic drug class (ramelteon, agomelatine), which is also used across both circadian rhythm disorders and primary insomnia.
+Insomnie und Non-24-Stunden-Schlaf-Wach-Störung sind beide circadian-rhythmusabhängige Schlafstörungen mit derselben zugrunde liegenden Pathophysiologie: Dysregulation des Schlaf-Wach-Zyklus. Da die zugelassene Indikation von Tasimelteon bereits auf diesen Signalweg abzielt, stellt seine vorhergesagte Wirksamkeit bei Insomnie eine mechanistisch kohärente Erweiterung innerhalb derselben therapeutischen Klasse dar, und nicht eine neuartige, unabhängige Anwendung. Dies stimmt mit der breiteren melatonergen Wirkstoffklasse überein (Ramelteon, Agomelatin), die ebenfalls bei circadianen Rhythmusstörungen und primärer Insomnie angewendet wird.
 
-It is worth noting this significant overlap means the "repurposing" value here may be incremental rather than transformative, since the mechanistic rationale for insomnia is essentially an extension of the drug's existing chronobiotic action rather than a discovery of a novel therapeutic pathway.
+Es ist erwähnenswert, dass diese erhebliche Überlappung bedeutet, dass der „Repurposing"-Wert hier möglicherweise inkrementell statt transformativ ist, da die mechanistische Rationale für Insomnie im Wesentlichen eine Erweiterung der bereits bestehenden chronobiotischen Wirkung des Arzneistoffs stellt, anstatt die Entdeckung eines neuartigen therapeutischen Signalwegs.
 
-## Clinical Trial Evidence
+## Klinische Studienergebnisse
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Studiennummer | Phase | Status | Einschluss | Wesentliche Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT00548340](https://clinicaltrials.gov/study/NCT00548340) | Phase 3 | Completed | 322 | Multicenter, double-blind, placebo-controlled 5-week trial of VEC-162 (tasimelteon) 20mg/50mg in primary insomnia; highest-quality evidence to date. |
-| [NCT06953869](https://clinicaltrials.gov/study/NCT06953869) | Phase 3 | Recruiting | 420 | Multicenter, double-blind, randomized study evaluating tasimelteon vs. placebo in pediatric insomnia disorder. |
-| [NCT03291041](https://clinicaltrials.gov/study/NCT03291041) | Phase 2 | Completed | 25 | Proof-of-concept study of tasimelteon vs. placebo in travelers with jet lag disorder; related but not core primary insomnia population. |
-| [NCT05922995](https://clinicaltrials.gov/study/NCT05922995) | Early Phase 1 | Terminated | 20 | Single-center, open-label pilot study of tasimelteon in REM Behavior Disorder, also assessing insomnia symptom scales (ISI, PSQI); terminated, low evidentiary value. |
+| [NCT00548340](https://clinicaltrials.gov/study/NCT00548340) | Phase 3 | Abgeschlossen | 322 | Multizentrische, doppelblinde, placebokontrollierte 5-Wochen-Studie von VEC-162 (Tasimelteon) 20 mg/50 mg bei primärer Insomnie; höchste verfügbare Evidenzqualität. |
+| [NCT06953869](https://clinicaltrials.gov/study/NCT06953869) | Phase 3 | Rekrutierung läuft | 420 | Multizentrische, doppelblinde, randomisierte Studie zur Bewertung von Tasimelteon vs. Placebo bei pädiatrischer Insomnie-Störung. |
+| [NCT03291041](https://clinicaltrials.gov/study/NCT03291041) | Phase 2 | Abgeschlossen | 25 | Proof-of-Concept-Studie von Tasimelteon vs. Placebo bei Reisenden mit Jetlag-Störung; verwandte, aber nicht zentrale Primär-Insomnie-Population. |
+| [NCT05922995](https://clinicaltrials.gov/study/NCT05922995) | Frühe Phase 1 | Beendet | 20 | Einklinische, offene Pilot-Studie von Tasimelteon bei REM-Schlafverhaltensstörung, auch Bewertung von Insomnie-Symptomskalen (ISI, PSQI); beendet, niedriger Evidenzwert. |
 
-## Literature Evidence
+## Literarische Evidenz
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Journal | Wesentliche Ergebnisse |
 |------|-----|------|------|---------|
-| [25207602](https://pubmed.ncbi.nlm.nih.gov/25207602/) | 2014 | Review | Int J Mol Sci | Reviews therapeutic effects of melatonin receptor agonists (including tasimelteon) on sleep and comorbid disorders. |
-| [24228714](https://pubmed.ncbi.nlm.nih.gov/24228714/) | 2014 | Review | J Med Chem | Reviews MT1/MT2 receptor pharmacology and therapeutic potential of melatonergic drugs including tasimelteon. |
-| [19557144](https://pubmed.ncbi.nlm.nih.gov/19557144/) | 2009 | Review | Neuropsychiatr Dis Treat | Discusses management of insomnia with prolonged-release melatonin and synthetic melatoninergic agonists. |
-| [35585820](https://pubmed.ncbi.nlm.nih.gov/35585820/) | 2023 | Review | Curr Drug Saf | Discusses melatonin and tasimelteon in the context of Alzheimer's disease-related insomnia and cognitive decline. |
-| [22010042](https://pubmed.ncbi.nlm.nih.gov/22010042/) | 2011 | Review | Ther Adv Neurol Disord | Reviews melatonin analogs' therapeutic potential for sleep disorders in Parkinson's disease. |
-| [22167135](https://pubmed.ncbi.nlm.nih.gov/22167135/) | 2011 | Review | Neuro Endocrinol Lett | Discusses circadian sleep disruption and possible therapeutic value of melatonin in obesity-related sleep disorders. |
+| [25207602](https://pubmed.ncbi.nlm.nih.gov/25207602/) | 2014 | Übersicht | Int J Mol Sci | Überprüfung der therapeutischen Wirkungen von Melatonin-Rezeptoragonisten (einschließlich Tasimelteon) auf Schlaf und komorbidie Störungen. |
+| [24228714](https://pubmed.ncbi.nlm.nih.gov/24228714/) | 2014 | Übersicht | J Med Chem | Überprüfung der MT1/MT2-Rezeptorpharmakologie und des therapeutischen Potenzials melatonerger Arzneistoffe einschließlich Tasimelteon. |
+| [19557144](https://pubmed.ncbi.nlm.nih.gov/19557144/) | 2009 | Übersicht | Neuropsychiatr Dis Treat | Diskussion des Insomnie-Managements mit Melatonin in Retardform und synthetischen Melatonin-Agonisten. |
+| [35585820](https://pubmed.ncbi.nlm.nih.gov/35585820/) | 2023 | Übersicht | Curr Drug Saf | Diskussion von Melatonin und Tasimelteon im Kontext Alzheimer-assoziierter Insomnie und kognitiver Beeinträchtigung. |
+| [22010042](https://pubmed.ncbi.nlm.nih.gov/22010042/) | 2011 | Übersicht | Ther Adv Neurol Disord | Überprüfung des therapeutischen Potenzials von Melatonin-Analoga bei Schlafstörungen bei Parkinson-Krankheit. |
+| [22167135](https://pubmed.ncbi.nlm.nih.gov/22167135/) | 2011 | Übersicht | Neuro Endocrinol Lett | Diskussion circadianer Schlafstörungen und möglicher therapeutischer Wert von Melatonin bei Übergewicht-assoziierten Schlafstörungen. |
 
-## Germany Market Information
+## Marktinformation Deutschland
 
-No market authorization records are currently registered in Germany — tasimelteon is not marketed (0 authorizations found).
+Keine Marktzulassungsunterlagen sind derzeit in Deutschland registriert — Tasimelteon ist nicht vermarktet (0 Zulassungen gefunden).
 
-## Safety Considerations
+## Sicherheitsaspekte
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug interaction data are currently unavailable — flagged as Blocking data gap DG001, requiring TFDA/BfArM label retrieval before safety evaluation can proceed.)
+Bitte beachten Sie die Fachinformation bezüglich Sicherheitsinformationen. (Wesentliche Warnungen, Kontraindikationen und Wechselwirkungsdaten sind derzeit nicht verfügbar — gekennzeichnet als blockierende Datenlücke DG001, die Abruf des TFDA/BfArM-Labels vor Sicherheitsbewertung erforderlich macht.)
 
-## Conclusion and Next Steps
+## Fazit und nächste Schritte
 
-**Decision: Proceed with Guardrails**
+**Entscheidung: Fortfahren mit Schutzmaßnahmen**
 
-**Rationale:**
-The insomnia prediction is supported by L1 evidence, including one completed Phase 3 RCT (NCT00548340, n=322) and an ongoing pediatric Phase 3 trial, plus a mechanistically coherent link to tasimelteon's existing approved indication. However, the drug is not currently marketed in Germany, and safety labeling data remains an unresolved blocking gap.
+**Begründung:**
+Die Insomnie-Vorhersage wird durch L1-Evidenz unterstützt, einschließlich einer abgeschlossenen Phase-3-RCT (NCT00548340, n=322) und einer laufenden pädiatrischen Phase-3-Studie, plus eine mechanistisch kohärente Verbindung zu Tasimelteons bestehender zugelassener Indikation. Allerdings ist das Arzneimittel in Deutschland nicht vermarktet, und Sicherheitskennzeichnungsdaten stellen eine ungelöste blockierende Lücke dar.
 
-**To proceed, the following is needed:**
-- Resolve DG001 (Blocking): Retrieve official TFDA/BfArM product labeling for warnings, contraindications, and DDI data before any S1 safety evaluation.
-- Resolve DG002 (High): Confirm formal mechanism-of-action documentation via DrugBank API to validate the mechanistic rationale currently derived only from repurposing_rationale text.
-- Clarify degree of indication overlap with the existing Non-24-Hour Sleep-Wake Disorder approval, to determine whether this constitutes a genuine label extension or requires a distinct regulatory pathway.
-- Monitor completion of NCT06953869 (pediatric Phase 3, est. completion 2028-01) for confirmatory evidence.
+**Um fortzufahren, ist folgendes erforderlich:**
+- Auflösung DG001 (Blockierend): Beschaffung der offiziellen TFDA/BfArM-Produktkennzeichnung für Warnungen, Kontraindikationen und Wechselwirkungsdaten vor einer S1-Sicherheitsbewertung.
+- Auflösung DG002 (Hoch): Bestätigung der formalen Wirkmechanismus-Dokumentation über DrugBank-API zur Validierung der Wirkmechanismus-Rationale, die derzeit nur aus dem Repurposing-Rationale-Text abgeleitet wird.
+- Klärung des Ausmaßes der Indikationsüberlappung mit der bestehenden Zulassung für Non-24-Stunden-Schlaf-Wach-Störung, um zu bestimmen, ob dies eine echte Etikettenerweiterung darstellt oder einen anderen behördlichen Weg erfordert.
+- Überwachung des Abschlusses von NCT06953869 (pädiatrische Phase 3, voraussichtlicher Abschluss 2028-01) für bestätigende Evidenz.
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

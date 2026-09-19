@@ -29,67 +29,68 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Cabozantinib: Drug Repurposing Candidate — Pending TxGNN Evaluation
+# Cabozantinib: Kandidat für Arzneimittelneuzulassung — Ausstehende TxGNN-Bewertung
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Cabozantinib (DB08875) is a small-molecule kinase inhibitor with established antineoplastic activity, currently **not marketed in Taiwan** and with no authorized indications on record in this Evidence Pack. The TxGNN predicted indications field is **empty** in the current Evidence Pack, meaning no repurposing target has been generated yet. This report cannot render a complete repurposing evaluation until the missing data — particularly TxGNN predictions, original indication records, and MOA details — are supplied.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not available in this Evidence Pack |
-| Predicted New Indication | Not available — `predicted_indications` array is empty |
-| TxGNN Prediction Score | Not available |
-| Evidence Level | L5 — model prediction not yet generated |
-| Taiwan Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+Cabozantinib (DB08875) ist ein Kleinmolekül-Kinase-Inhibitor mit etablierter antineoplastischer Aktivität, derzeit **nicht auf dem taiwanischen Markt** und ohne eingetragene zugelassene Indikationen in diesem Nachweispaket. Das Feld der durch TxGNN vorhergesagten Indikationen ist im aktuellen Nachweispaket **leer**, was bedeutet, dass noch kein Neuzulassungsziel generiert wurde. Dieser Bericht kann keine vollständige Neuzulassungsbewertung durchführen, bis die fehlenden Daten – insbesondere TxGNN-Vorhersagen, ursprüngliche Indikationsdaten und MOA-Details – bereitgestellt werden.
 
 ---
 
-## Cytotoxicity
+## Kurzübersicht
 
-Cabozantinib is a well-characterized multi-kinase inhibitor (VEGFR2, MET, RET, AXL) used clinically in oncology, meeting the antineoplastic criterion by drug class. Although the current Evidence Pack does not carry DrugBank category tags or confirmed MOA text, the drug name and DrugBank ID (DB08875) unambiguously identify it as a targeted antineoplastic agent.
-
-| Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted therapy — multi-kinase inhibitor (not conventional cytotoxic) |
-| Myelosuppression Risk | Low to moderate (targeted agents carry lower haematologic toxicity than conventional cytotoxics; confirm with package insert) |
-| Emetogenicity Classification | Low |
-| Monitoring Items | CBC with differential, liver function (AST/ALT), renal function, thyroid function, blood pressure, urine protein |
-| Handling Protection | Standard targeted-agent precautions; confirm cytotoxic handling requirements against institutional protocol and approved labelling |
-
-> Full toxicity details (myelosuppression incidence, specific thresholds) are not available in this Evidence Pack. Please refer to the approved package insert warnings and precautions.
+| Punkt | Inhalt |
+|-------|--------|
+| Ursprüngliche Indikation | Nicht in diesem Nachweispaket verfügbar |
+| Vorhergesagte neue Indikation | Nicht verfügbar — `predicted_indications` Array ist leer |
+| TxGNN-Vorhersage-Score | Nicht verfügbar |
+| Beweisniveau | L5 — Modellvorhersage noch nicht generiert |
+| Taiwan-Marktstatus | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | **Halten** |
 
 ---
 
-## Safety Considerations
+## Zytotoxizität
 
-Please refer to the package insert for safety information.
+Cabozantinib ist ein gut charakterisierter Multi-Kinase-Inhibitor (VEGFR2, MET, RET, AXL), der klinisch in der Onkologie eingesetzt wird und das antineoplastische Kriterium nach Arzneimittelklasse erfüllt. Obwohl das aktuelle Nachweispaket keine DrugBank-Kategorietags oder bestätigte MOA-Texte enthält, identifizieren der Arzneimittelname und die DrugBank-ID (DB08875) das Arzneimittel eindeutig als einen gezielten antineoplastischen Wirkstoff.
 
-> Key warnings, contraindications, and drug-drug interaction data are all absent from this Evidence Pack (Data Gap DG001). The DDI query returned zero results and no TFDA labelling text has been parsed. No safety data can be reported here without risking inaccuracy.
+| Punkt | Inhalt |
+|-------|--------|
+| Zytotoxizitätsklassifizierung | Zielgerichtete Therapie — Multi-Kinase-Inhibitor (kein konventionelles Zytotoxikum) |
+| Myelosuppressions-Risiko | Niedrig bis moderat (zielgerichtete Wirkstoffe führen zu einer geringeren hämatologischen Toxizität als konventionelle Zytotoxika; bitte mit der Gebrauchsinformation bestätigen) |
+| Emetogenitätsklassifizierung | Niedrig |
+| Überwachungselemente | CBC mit Differenzierung, Leberfunktion (AST/ALT), Nierenfunktion, Schilddrüsenfunktion, Blutdruck, Urinprotein |
+| Handhabungsschutz | Standardvorsichtsmaßnahmen für zielgerichtete Wirkstoffe; bitte die Anforderungen für die zytotoxische Handhabung gegen institutionelle Protokolle und genehmigte Kennzeichnung bestätigen |
+
+> Vollständige Toxizitätsdetails (Myelosuppressions-Inzidenz, spezifische Schwellenwerte) sind in diesem Nachweispaket nicht verfügbar. Bitte beachten Sie die genehmigten Warnhinweise und Vorsichtsmaßnahmen in der Gebrauchsinformation.
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsüberlegungen
 
-**Decision: Hold**
+Bitte beachten Sie die Gebrauchsinformation für Sicherheitsinformationen.
 
-**Rationale:**
-The Evidence Pack is structurally incomplete — the `predicted_indications` array is empty and two blocking/high-severity data gaps (DG001: TFDA label text; DG002: MOA) remain unresolved. There is no repurposing target to evaluate, and no safety signal summary is available for risk assessment.
+> Wichtige Warnhinweise, Kontraindikationen und Arzneimittel-Wechselwirkungsdaten fehlen alle in diesem Nachweispaket (Datenlücke DG001). Die DDI-Abfrage hat null Ergebnisse zurückgegeben und kein TFDA-Kennzeichnungstext wurde analysiert. Es können keine Sicherheitsdaten hier ohne das Risiko von Ungenauigkeit gemeldet werden.
 
-**To proceed, the following is needed:**
+---
 
-- **TxGNN predictions** — re-run the TxGNN pipeline for DB08875 and populate `predicted_indications` with at least one candidate disease
-- **Original indication data** — retrieve approved indication text from TFDA package insert (remediation: download and parse TFDA PDF)
-- **Mechanism of action (MOA)** — query DrugBank API for DB08875 pharmacodynamics and target profile (remediation per DG002)
-- **Safety label text** — parse TFDA 仿單 for key warnings and contraindications (remediation per DG001)
-- **DDI data** — re-query DDI database; current result is `not_found` with zero interactions, which may reflect a query failure rather than a true absence of interactions
-- **Regulatory cross-check** — although Taiwan shows 0 licenses, Cabozantinib holds approvals in other jurisdictions (EMA, FDA); a cross-jurisdictional lookup would enrich the regulatory context
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Halten**
+
+**Begründung:**
+Das Nachweispaket ist strukturell unvollständig – das `predicted_indications` Array ist leer und zwei blockierende/hochgradig schwere Datenlücken (DG001: TFDA-Kennzeichnungstext; DG002: MOA) bleiben ungelöst. Es gibt kein Neuzulassungsziel zu bewerten, und es steht keine Zusammenfassung von Sicherheitssignalen für die Risikobewertung zur Verfügung.
+
+**Um fortzufahren, wird Folgendes benötigt:**
+
+- **TxGNN-Vorhersagen** — führen Sie die TxGNN-Pipeline für DB08875 erneut aus und füllen Sie `predicted_indications` mit mindestens einer Kandidatenkrankheit
+- **Ursprüngliche Indikationsdaten** — rufen Sie den genehmigten Indikationstext aus der TFDA-Gebrauchsinformation ab (Abhilfe: TFDA-PDF herunterladen und analysieren)
+- **Wirkungsmechanismus (MOA)** — Abfrage der DrugBank-API für DB08875 Pharmakodynamik und Zielprofilierung (Abhilfe gemäß DG002)
+- **Sicherheitskennzeichnungstext** — analysieren Sie TFDA 仿單 auf wichtige Warnhinweise und Kontraindikationen (Abhilfe gemäß DG001)
+- **DDI-Daten** — erneute Abfrage der DDI-Datenbank; aktuelles Ergebnis ist `not_found` mit null Wechselwirkungen, was möglicherweise einen Abfragefehler widerspiegelt, anstatt eines echten Mangels an Wechselwirkungen
+- **Behördliche Quervalidierung** — obwohl Taiwan 0 Lizenzen aufweist, verfügt Cabozantinib über Genehmigungen in anderen Rechtsordnungen (EMA, FDA); eine länderübergreifende behördliche Recherche würde den behördlichen Kontext bereichern
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

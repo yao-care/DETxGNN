@@ -29,77 +29,78 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Sotatercept: From Undocumented Original Indication to Acute Lymphoblastic Leukemia
+# Sotatercept: Von undokumentierter Originalindikation zu akuter lymphoblastischer Leukämie
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> This evidence pack contains no confirmed original indication or mechanism-of-action data for sotatercept (DrugBank ID DB12118).
-> The TxGNN model's top prediction is **Acute Lymphoblastic Leukemia**, with a score of **99.78%**,
-> but this is supported by **zero clinical trials** and **zero publications** — the prediction is model-output only (L5), and the drug's own rationale text flags it as a low-plausibility, database-link-type inference rather than a mechanistically grounded hypothesis.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available — no approved indication text on file (drug not marketed, no license records) |
-| Predicted New Indication | Acute Lymphoblastic Leukemia |
-| TxGNN Prediction Score | 99.78% |
-| Evidence Level | L5 |
-| Germany Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Dieses Evidenzpaket enthält keine bestätigte Originalindikation oder Wirkmechanismus-Daten für Sotatercept (DrugBank-ID DB12118).
+> Die Top-Vorhersage des TxGNN-Modells ist **akute lymphoblastische Leukämie** mit einem Score von **99.78%**,
+> aber dies wird durch **keine klinischen Studien** und **keine Publikationen** gestützt — die Vorhersage ist nur Modellausgabe (L5), und die eigene Begründung des Arzneistoffs kennzeichnet sie als Schlussfolgerung vom Typ „Datenbankverbindung" mit niedriger Plausibilität, anstatt als mechanistisch begründete Hypothese.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schneller Überblick
 
-Detailed mechanism-of-action data for sotatercept is not available in this evidence pack (`original_moa` is empty). Based on the rationale text accompanying the predictions, sotatercept is described as an **activin receptor IIA-Fc fusion protein (ligand trap)** that inhibits activin/GDF/BMP signaling within the TGF-β superfamily. This pathway has known roles in hematopoietic differentiation and the bone marrow microenvironment — but the rationale for the top-ranked prediction (Acute Lymphoblastic Leukemia) explicitly states there is **no known direct mechanistic link** to leukemic cell proliferation, and characterizes the high TxGNN score as a database-connectivity artifact rather than a biologically grounded signal.
-
-Because both the original indication and the mechanism of action are undocumented here, the relationship between "what sotatercept currently treats" and "what it is predicted to treat" cannot be evaluated. Among the ten ranked predictions, the model's own annotations note that **drug-induced osteoporosis** (rank 4) has comparatively stronger mechanistic plausibility, since activin receptor IIA ligand traps (a class that includes luspatercept) are known to affect bone metabolism — but even this indication has no clinical trial or literature support and would require preclinical validation before further evaluation.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
-
----
-
-## Literature Evidence
-
-Currently no related literature available
+| Eintrag | Inhalt |
+|---------|---------|
+| Originalindikation | Nicht verfügbar — kein genehmigter Indikationstext in der Datei (Arzneistoff nicht vermarktet, keine Lizenzunterlagen) |
+| Vorhergesagte neue Indikation | Akute lymphoblastische Leukämie |
+| TxGNN-Vorhersage-Score | 99.78% |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Abwarten |
 
 ---
 
-## Germany Market Information
+## Warum ist diese Vorhersage angemessen?
 
-Sotatercept is currently **not marketed** in this jurisdiction (`market_status: Not marketed`), with **0 authorizations** on file. No license records are available to summarize.
+Detaillierte Wirkmechanismus-Daten für Sotatercept sind in diesem Evidenzpaket nicht verfügbar (`original_moa` ist leer). Basierend auf dem Begründungstext zu den Vorhersagen wird Sotatercept als **Aktivin-Rezeptor-IIA-Fc-Fusionsprotein (Ligandenfalle)** beschrieben, das die Aktivin/GDF/BMP-Signalisierung innerhalb der TGF-β-Superfamilie hemmt. Dieser Signalweg hat bekannte Rollen bei der hämatopoetischen Differenzierung und der Knochenmarksmikroumgebung — aber die Begründung für die höchstbewertete Vorhersage (akute lymphoblastische Leukämie) besagt explizit, dass es **keinen bekannten direkten mechanistischen Zusammenhang** zur leukämischen Zellproliferation gibt, und charakterisiert den hohen TxGNN-Score eher als Datenbankverbindungs-Artefakt als als biologisch begründetes Signal.
 
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Note: TFDA/BfArM package insert warnings and contraindications are flagged as a Blocking data gap (DG001) — this is required before any S1 safety pre-assessment can proceed.)*
+Da sowohl die Originalindikation als auch der Wirkmechanismus hier undokumentiert sind, kann die Beziehung zwischen „was Sotatercept derzeit behandelt" und „was die Vorhersage ist, das es behandelt" nicht bewertet werden. Unter den zehn bewerteten Vorhersagen merken die eigenen Anmerkungen des Modells an, dass **arzneimittelinduzierte Osteoporose** (Rang 4) eine vergleichsweise stärkere mechanistische Plausibilität hat, da bekannt ist, dass Aktivin-Rezeptor-IIA-Ligandenfallen (eine Klasse, die Luspatercept einschließt) den Knochenstoffwechsel beeinflussen — aber auch diese Indikation wird nicht durch klinische Studien oder Literatur gestützt und würde eine Präklinik-Validierung vor weiterer Bewertung erfordern.
 
 ---
 
-## Conclusion and Next Steps
+## Evidenz aus klinischen Studien
 
-**Decision: Hold**
+Derzeit keine damit verbundenen klinischen Studien registriert
 
-**Rationale:**
-All ten TxGNN predictions for sotatercept are Evidence Level L5 (model prediction only, no clinical trials or literature), and the system's own scoring recommends "Hold" across the board. The top-ranked indication (Acute Lymphoblastic Leukemia) is explicitly flagged in its own rationale as lacking biological plausibility and being a database-link-type inference rather than a supported hypothesis.
+---
 
-**To proceed, the following is needed:**
-- Confirmed original indication(s) and regulatory history for sotatercept (currently blank)
-- Mechanism-of-action data via DrugBank API (DG002, High severity)
-- TFDA/BfArM package insert (warnings, contraindications) to unblock S1 safety pre-assessment (DG001, Blocking)
-- If pursuing the osteoporosis signal (rank 4, comparatively stronger mechanistic rationale via the activin-receptor/bone-metabolism pathway): preclinical bone-density data before any clinical evaluation
-- At minimum, preliminary literature or preclinical evidence for any candidate indication before moving past S0
+## Evidenz aus der Literatur
+
+Derzeit keine damit verbundene Literatur verfügbar
+
+---
+
+## Informationen zum deutschen Markt
+
+Sotatercept ist derzeit in dieser Gerichtsbarkeit **nicht vermarktet** (`market_status: Not marketed`), mit **0 Zulassungen** in der Datei. Keine Lizenzunterlagen sind verfügbar zur Zusammenfassung.
+
+---
+
+## Sicherheitsüberlegungen
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+*(Hinweis: TFDA/BfArM-Packungsbeilage-Warnhinweise und Kontraindikationen sind als Blockierungsdatenlücke (DG001) gekennzeichnet — dies ist erforderlich, bevor eine S1-Sicherheitsvorprüfung durchgeführt werden kann.)*
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Abwarten**
+
+**Begründung:**
+Alle zehn TxGNN-Vorhersagen für Sotatercept sind Evidenzstufe L5 (nur Modellvorhersage, keine klinischen Studien oder Literatur), und die eigene Bewertung des Systems empfiehlt durchgehend „Abwarten". Die am höchsten bewertete Indikation (akute lymphoblastische Leukämie) ist in ihrer eigenen Begründung explizit als biologisch implausibel gekennzeichnet und stellt eher eine Schlussfolgerung vom Typ „Datenbankverbindung" dar als eine gestützte Hypothese.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+- Bestätigte Originalindikation(en) und Zulassungsgeschichte für Sotatercept (derzeit leer)
+- Wirkmechanismus-Daten über DrugBank-API (DG002, hoher Schweregrad)
+- TFDA/BfArM-Packungsbeilage (Warnhinweise, Kontraindikationen) zur Aufhebung der S1-Sicherheitsvorprüfung (DG001, Blockierung)
+- Falls das Osteoporose-Signal verfolgt wird (Rang 4, vergleichsweise stärkere mechanistische Begründung über den Aktivin-Rezeptor/Knochenstoffwechsel-Signalweg): Präklinische Knochendichte-Daten vor jeder klinischen Bewertung
+- Zumindest vorläufige Literatur oder Präklinik-Evidenz für jede potenzielle Indikation, bevor über S0 hinausgegangen wird
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

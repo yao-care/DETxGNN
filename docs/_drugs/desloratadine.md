@@ -29,85 +29,86 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Desloratadine: From Allergic Rhinitis/Chronic Urticaria to Cold Urticaria
+# Desloratadin: Von allergischer Rhinitis/chronischer Urtikaria zur Kälteurtikaria
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Desloratadine is a second-generation H1-antihistamine (specific original-indication and market license data for Germany are not available in this evidence pack).
-> The TxGNN model predicts it may be effective for **Cold Urticaria**,
-> with **3 clinical trials** and **7 publications** currently supporting this direction.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in this evidence pack (no Germany license data available); desloratadine is generically classified as a second-generation antihistamine for allergic rhinitis / chronic urticaria |
-| Predicted New Indication | Cold Urticaria |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L1 (3 completed Phase 4 RCTs + multiple supporting RCT publications) |
-| Germany Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Desloratadin ist ein Antihistaminikum der zweiten Generation (spezifische Angaben zur Originalindikation und zu Marktlizenzdaten für Deutschland sind in diesem Nachweispaket nicht verfügbar).
+> Das TxGNN-Modell prognostiziert, dass es bei **Kälteurtikaria** wirksam sein kann,
+> wobei derzeit **3 klinische Studien** und **7 Publikationen** diese Richtung unterstützen.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known information, desloratadine is a second-generation, non-sedating H1-receptor antagonist widely used for allergic conditions such as allergic rhinitis and chronic idiopathic urticaria. Its efficacy in histamine-mediated skin and mucosal reactions is well established in clinical practice.
-
-Cold urticaria is a physical subtype of urticaria in which cold exposure triggers mast cell degranulation and histamine release, producing wheals identical in mechanism to other histamine-driven urticarias. Since desloratadine already blocks the H1 receptor pathway central to urticarial reactions, its mechanistic extension to cold urticaria is biologically plausible and is directly reflected in the fact that multiple prospective, dose-escalation trials have already been conducted specifically in cold urticaria populations — including studies testing standard (5 mg) versus updosed (20 mg) regimens, consistent with international urticaria treatment guidelines that recommend antihistamine updosing for refractory cases.
+| Element | Inhalt |
+|---------|--------|
+| Originalindikation | Im Nachweispaket nicht dokumentiert (keine Marktlizenzdaten für Deutschland verfügbar); Desloratadin wird allgemein als Antihistaminikum der zweiten Generation gegen allergische Rhinitis / chronische Urtikaria klassifiziert |
+| Prognostizierte neue Indikation | Kälteurtikaria |
+| TxGNN-Vorhersage-Score | 99.94% |
+| Evidenzebene | L1 (3 abgeschlossene Phase-4-RCTs + mehrere unterstützende RCT-Publikationen) |
+| Marktstatus in Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Zurückhalten |
 
 ---
 
-## Clinical Trial Evidence
+## Warum ist diese Vorhersage vernünftig?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Derzeit sind detaillierte Wirkungsmechanismus-Daten in diesem Nachweispaket nicht verfügbar. Basierend auf bekannten Informationen ist Desloratadin ein nicht-sedierendes Antihistaminikum der zweiten Generation und H1-Rezeptor-Antagonist, das in der klinischen Praxis weit verbreitet für allergische Erkrankungen wie allergische Rhinitis und chronische idiopathische Urtikaria eingesetzt wird. Seine Wirksamkeit bei Histamin-vermittelten Haut- und Schleimhautreaktionen ist in der klinischen Praxis gut etabliert.
+
+Kälteurtikaria ist ein physikalischer Subtyp der Urtikaria, bei dem die Kälteexposition Mastzell-Degranulation und Histamin-Freisetzung auslöst, wodurch Quaddeln entstehen, die mechanisch identisch mit anderen Histamin-getriebenen Urtikarien sind. Da Desloratadin bereits den H1-Rezeptor-Signalweg blockiert, der zentral für urtikariöse Reaktionen ist, ist seine mechanistische Erweiterung auf Kälteurtikaria biologisch plausibel und wird direkt dadurch widergespiegelt, dass mehrere prospektive, dosiseskalierungsorientierte Studien bereits speziell bei Patienten mit Kälteurtikaria durchgeführt wurden – einschließlich Studien mit Standard-(5 mg) vs. erhöhten (20 mg) Dosierungsschemen, konsistent mit internationalen Urtikarien-Behandlungsleitlinien, die eine Antihistaminikum-Dosiserhöhung für refraktäre Fälle empfehlen.
+
+---
+
+## Evidenz aus klinischen Studien
+
+| Studiennummer | Phase | Status | Rekrutierung | Wichtigste Erkenntnisse |
 |---------|------|------|------|---------|
-| [NCT01444196](https://clinicaltrials.gov/study/NCT01444196) | Phase 4 | Completed | 30 | Dose-escalation study (5/10/20 mg) to determine dose sufficient to inhibit acquired cold urticaria symptoms |
-| [NCT00600847](https://clinicaltrials.gov/study/NCT00600847) | Phase 4 | Completed | 33 | Double-blind, placebo-controlled crossover comparing 5 mg vs. 20 mg desloratadine on experimentally induced cold urticaria lesions (thermography/volumetry) |
-| [NCT01940393](https://clinicaltrials.gov/study/NCT01940393) | Phase 4 | Completed | 150 | Evaluation of inhibitory effect of 5 antihistamines (including desloratadine) in urticaria; pharmacokinetic/pharmacodynamic comparison |
+| [NCT01444196](https://clinicaltrials.gov/study/NCT01444196) | Phase 4 | Abgeschlossen | 30 | Dosiseskalationsstudie (5/10/20 mg) zur Bestimmung der ausreichenden Dosis zur Hemmung von Symptomen der erworbenen Kälteurtikaria |
+| [NCT00600847](https://clinicaltrials.gov/study/NCT00600847) | Phase 4 | Abgeschlossen | 33 | Doppelblind, placebokontrollierte Crossover-Studie zum Vergleich von 5 mg vs. 20 mg Desloratadin bei experimentell induzierter Kälteurtikaria (Thermographie/Volumetrie) |
+| [NCT01940393](https://clinicaltrials.gov/study/NCT01940393) | Phase 4 | Abgeschlossen | 150 | Bewertung der hemmenden Wirkung von 5 Antihistaminika (einschließlich Desloratadin) bei Urtikaria; pharmakokinet./pharmakodynamischer Vergleich |
 
 ---
 
-## Literature Evidence
+## Literaturevidenz
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Zeitschrift | Wichtigste Erkenntnisse |
 |------|-----|------|------|---------|
-| [19201016](https://pubmed.ncbi.nlm.nih.gov/19201016/) | 2009 | RCT | J Allergy Clin Immunol | Randomized, placebo-controlled crossover trial: high-dose desloratadine decreased wheal volume and improved cold-provocation thresholds vs. standard dose |
-| [22242678](https://pubmed.ncbi.nlm.nih.gov/22242678/) | 2012 | RCT | Br J Dermatol | Randomized controlled trial of H1-antihistamine dose escalation using critical temperature threshold measurement in cold urticaria |
-| [15516152](https://pubmed.ncbi.nlm.nih.gov/15516152/) | 2004 | Review | Drugs | Review of chronic urticaria aetiology, management, and current/future antihistamine-based treatment options |
-| [19032340](https://pubmed.ncbi.nlm.nih.gov/19032340/) | 2008 | Review | Allergy | Review of second-generation antihistamine efficacy in allergic rhinitis and chronic idiopathic urticaria |
-| [14754651](https://pubmed.ncbi.nlm.nih.gov/14754651/) | 2004 | Clinical study | J Dermatolog Treat | Ice-cube provocation test in 12 cold urticaria patients before/after 4 days of 5 mg desloratadine treatment showed symptom inhibition |
-| [29698807](https://pubmed.ncbi.nlm.nih.gov/29698807/) | 2018 | Case series | J Allergy Clin Immunol Pract | Description of food-dependent cold urticaria as a physical urticaria variant |
-| [38025339](https://pubmed.ncbi.nlm.nih.gov/38025339/) | 2023 | Case report | Qatar Med J | First reported case of cold-induced urticaria following black ant bite-induced anaphylaxis |
+| [19201016](https://pubmed.ncbi.nlm.nih.gov/19201016/) | 2009 | RCT | J Allergy Clin Immunol | Randomisierte, placebokontrollierte Crossover-Studie: Hochdosis-Desloratadin verringerte das Quaddel-Volumen und verbesserte die Kälte-Provokationsschwelle vs. Standarddosis |
+| [22242678](https://pubmed.ncbi.nlm.nih.gov/22242678/) | 2012 | RCT | Br J Dermatol | Randomisierte kontrollierte Studie der Antihistaminikum-Dosiserhöhung mit kritischer Temperaturschwellen-Messung bei Kälteurtikaria |
+| [15516152](https://pubmed.ncbi.nlm.nih.gov/15516152/) | 2004 | Übersicht | Drugs | Übersicht der Ätiologie chronischer Urtikaria, Behandlung und aktuelle/zukünftige Antihistaminika-gestützte Behandlungsoptionen |
+| [19032340](https://pubmed.ncbi.nlm.nih.gov/19032340/) | 2008 | Übersicht | Allergy | Übersicht der Wirksamkeit von Antihistaminika der zweiten Generation bei allergischer Rhinitis und chronischer idiopathischer Urtikaria |
+| [14754651](https://pubmed.ncbi.nlm.nih.gov/14754651/) | 2004 | Klinische Studie | J Dermatolog Treat | Eis-Würfel-Provokationstest bei 12 Patienten mit Kälteurtikaria vor/nach 4-tägiger Behandlung mit 5 mg Desloratadin zeigte Symptomhemmung |
+| [29698807](https://pubmed.ncbi.nlm.nih.gov/29698807/) | 2018 | Fallserie | J Allergy Clin Immunol Pract | Beschreibung von lebensmittelabhängiger Kälteurtikaria als Variante der physikalischen Urtikaria |
+| [38025339](https://pubmed.ncbi.nlm.nih.gov/38025339/) | 2023 | Fallbericht | Qatar Med J | Erster berichteter Fall von kälteinduzierter Urtikaria nach durch schwarze Ameisen verursachter Anaphylaxie |
 
 ---
 
-## Germany Market Information
+## Marktinformation für Deutschland
 
-Desloratadine is currently **not marketed** in Germany according to this evidence pack, and no authorization records are available for listing.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+Desloratadin ist nach diesem Nachweispaket derzeit **nicht vermarktet** in Deutschland und es sind keine Zulassungsunterlagen verfügbar.
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsaspekte
 
-**Decision: Hold**
+Bitte konsultieren Sie die Packungsbeilage für Sicherheitsinformationen.
 
-**Rationale:**
-The predicted indication is supported by strong clinical and literature evidence (3 completed Phase 4 RCTs and multiple RCT publications specifically in cold urticaria), but the **Blocking** data gap on TFDA-equivalent label warnings/contraindications (DG001) prevents completion of the required S1 safety pre-assessment, and the drug currently has no market authorization in Germany.
+---
 
-**To proceed, the following is needed:**
-- Official product label / package insert warnings and contraindications (DG001 — Blocking)
-- Confirmed mechanism of action (MOA) data via DrugBank API (DG002 — High)
-- Clarification of Germany registration/market-entry status and pathway, given 0 current authorizations
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Zurückhalten**
+
+**Begründung:**
+Die prognostizierte Indikation wird durch starke klinische und Literaturbeweise unterstützt (3 abgeschlossene Phase-4-RCTs und mehrere RCT-Publikationen speziell bei Kälteurtikaria), aber die **blockierende** Datenlücke bei TFDA-äquivalenten Warnhinweisen/Kontraindikationen des Etiketts (DG001) verhindert den Abschluss der erforderlichen S1-Sicherheits-Vorbewertung, und das Arzneimittel hat derzeit keine Marktzulassung in Deutschland.
+
+**Für den Fortschritt ist Folgendes erforderlich:**
+- Amtliche Produktkennzeichnung / Packungsbeilage-Warnhinweise und Kontraindikationen (DG001 – Blockierend)
+- Bestätigte Wirkungsmechanismus-(MOA)-Daten über DrugBank API (DG002 – Hoch)
+- Klarstellung des Zulassungs- und Markteintrittsstatus in Deutschland sowie des damit verbundenen Verfahrenswegs, angesichts von 0 aktuellen Zulassungen
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

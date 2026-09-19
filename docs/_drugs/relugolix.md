@@ -29,70 +29,71 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0**
 
 </div>
 
-# RELUGOLIX: Repurposing Evaluation — Pending TxGNN Predictions
+# RELUGOLIX: Bewertung der Umwidmung — Ausstehende TxGNN-Vorhersagen
 
-## Summary
+## Zusammenfassung
 
-Relugolix (DrugBank: DB11853) is an orally active GnRH receptor antagonist approved in multiple markets (USA, EU, Japan) for advanced prostate cancer, and in combination for uterine fibroids and endometriosis. The current Evidence Pack is critically incomplete: TxGNN repurposing predictions have not yet been generated, and both safety labeling and MOA data are absent. **A Hold decision is required until the two upstream data gaps are resolved.**
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Germany Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Predicted New Indication | Pending — TxGNN predictions not yet generated |
-| Recommended Decision | Hold |
+Relugolix (DrugBank: DB11853) ist ein oral wirksamer GnRH-Rezeptor-Antagonist, der in mehreren Märkten (USA, EU, Japan) für fortgeschrittenes Prostatakarzinom zugelassen ist und in Kombination für Uterusmyome und Endometriose. Das aktuelle Evidence Pack ist kritisch unvollständig: TxGNN-Umwidmungsvorhersagen wurden noch nicht generiert, und sowohl Sicherheitsmarkierung als auch MOA-Daten fehlen. **Bis die beiden vorgelagerten Datenlücken gelöst sind, ist eine Hold-Entscheidung erforderlich.**
 
 ---
 
-## About This Drug
+## Schnellübersicht
 
-Relugolix is a non-peptide, orally active GnRH (gonadotropin-releasing hormone) receptor antagonist. By competitively blocking pituitary GnRH receptors, it rapidly suppresses LH and FSH secretion, driving testosterone (men) or estradiol (women) to castrate levels. This distinguishes it from GnRH agonists, which cause an initial hormone flare before suppression.
-
-Key approved indications outside Germany:
-
-- **Advanced prostate cancer** — Orgovyx® (FDA, EMA, PMDA approved)
-- **Uterine fibroids / endometriosis** — Myfembree® (in combination with estradiol + norethindrone acetate)
-
-Because relugolix is approved for hormone-sensitive cancer and works via hormonal axis suppression, it qualifies for the cytotoxicity section as a targeted hormonal agent.
+| Element | Inhalt |
+|---------|--------|
+| Marktstatus in Deutschland | Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Vorhergesagte neue Indikation | Ausstehend — TxGNN-Vorhersagen noch nicht generiert |
+| Empfehlung zur Entscheidung | Hold |
 
 ---
 
-## Cytotoxicity
+## Über dieses Arzneimittel
 
-| Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted therapy — GnRH receptor antagonist (hormonal agent) |
-| Myelosuppression Risk | Low (non-cytotoxic mechanism; no direct bone marrow effect) |
-| Emetogenicity Classification | Low |
-| Monitoring Items | Serum testosterone / estradiol, cardiovascular risk (QTc, lipids, blood pressure), bone mineral density (long-term ADT) |
-| Handling Protection | Standard handling — not a conventional cytotoxic; no special cytotoxic waste handling required |
+Relugolix ist ein nicht-peptidischer, oral wirksamer GnRH-(Gonadotropin-Releasing-Hormon-)Rezeptor-Antagonist. Durch kompetitives Blockieren von hypophysären GnRH-Rezeptoren unterdrückt es schnell die LH- und FSH-Sekretion und treibt Testosteron (Männer) oder Estradiol (Frauen) auf Kastrationsspiegel. Dies unterscheidet es von GnRH-Agonisten, die vor der Suppression zunächst zu einem Hormonflare führen.
 
----
+Wichtige außerhalb Deutschlands zugelassene Indikationen:
 
-## Safety Considerations
+- **Fortgeschrittenes Prostatakarzinom** — Orgovyx® (FDA, EMA, PMDA zugelassen)
+- **Uterusmyome / Endometriose** — Myfembree® (in Kombination mit Estradiol + Norethindronacetat)
 
-Please refer to the package insert for safety information.
+Da Relugolix für hormonempfindliche Krebserkrankungen zugelassen ist und über die Unterdrückung der Hormonachse wirkt, qualifiziert es sich für den Zytotoxizitätsabschnitt als ein gezieltes hormonelles Mittel.
 
 ---
 
-## Conclusion and Next Steps
+## Zytotoxizität
 
-**Decision: Hold**
+| Element | Inhalt |
+|---------|--------|
+| Zytotoxizitätsklassifizierung | Gezielt wirkende Therapie — GnRH-Rezeptor-Antagonist (hormonelles Mittel) |
+| Myelosuppressions-Risiko | Niedrig (nicht-zytotoxischer Mechanismus; kein direkter Knochenmarkeffekt) |
+| Emetogenitätsklassifizierung | Niedrig |
+| Überwachungselemente | Serum-Testosteron / Estradiol, kardiovaskuläres Risiko (QTc, Lipide, Blutdruck), Knochenmineraldichte (Langzeit-ADT) |
+| Handhabungsschutz | Standardhandhabung — kein konventionelles Zytotoxikum; keine spezielle Entsorgung zytotoxischer Abfälle erforderlich |
 
-**Rationale:**
-The Evidence Pack contains no TxGNN repurposing candidates and is missing both MOA details and safety labeling, making it impossible to assess any new indication at this stage. No evaluation can proceed until upstream data collection is complete.
+---
 
-**To proceed, the following is needed:**
+## Sicherheitserwägungen
 
-- **[Blocking]** Retrieve and parse the EMA/TFDA package insert for warnings and contraindications (Data Gap DG001)
-- **[High]** Complete MOA data integration from DrugBank API (Data Gap DG002)
-- **[Required]** Execute TxGNN inference pipeline to generate repurposing candidate predictions for RELUGOLIX (DB11853)
-- **[Required]** Collect clinical trial and literature evidence for the top-ranked predicted indication
-- **[Required]** Re-submit a complete Evidence Pack (v5+) once all data gaps are resolved
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Hold**
+
+**Begründung:**
+Das Evidence Pack enthält keine TxGNN-Umwidmungskandidaten und es fehlen sowohl MOA-Details als auch Sicherheitsmarkierung, was es unmöglich macht, irgendeine neue Indikation in dieser Phase zu bewerten. Ein Fortschritt kann nicht erfolgen, bis die vorgelagerte Datenerfassung abgeschlossen ist.
+
+**Zum Fortfahren ist Folgendes erforderlich:**
+
+- **[Blockierend]** Packungsbeilage von EMA/TFDA abrufen und analysieren für Warnungen und Kontraindikationen (Datenlücke DG001)
+- **[Hoch]** Vollständige MOA-Datenintegration von DrugBank API abschließen (Datenlücke DG002)
+- **[Erforderlich]** TxGNN-Inferenz-Pipeline ausführen, um Umwidmungskandidaten-Vorhersagen für RELUGOLIX (DB11853) zu generieren
+- **[Erforderlich]** Klinische Versuchs- und Literaturbeweise für die am höchsten bewertete vorhergesagte Indikation sammeln
+- **[Erforderlich]** Ein vollständiges Evidence Pack (v5+) erneut einreichen, sobald alle Datenlücken behoben sind
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

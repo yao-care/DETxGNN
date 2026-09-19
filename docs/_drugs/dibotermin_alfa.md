@@ -29,86 +29,87 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9**
 
 </div>
 
-# Dibotermin Alfa: From Bone Regeneration to Esotropia
+# Dibotermin Alfa: Von Knochenregeneration zu Esotropie
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Dibotermin alfa (recombinant human BMP-2) is a bone-inductive growth factor used for spinal fusion and open tibial fracture repair.
-> The TxGNN model's top prediction is **Esotropia**, but this candidate is supported by **zero clinical trials** and **zero publications**,
-> and the drug's own evidence pack explicitly notes there is no known biological link between BMP-2 signaling and extraocular muscle disorders.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Bone regeneration (spinal fusion / open tibial fracture) — inferred from mechanistic rationale; not separately confirmed in this evidence pack |
-| Predicted New Indication | Esotropia |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Dibotermin alfa (rekombinantes humanes BMP-2) ist ein knocheninduktiver Wachstumsfaktor, der bei Wirbelsäulenfusionen und offenen Tibiafrakturen verwendet wird.
+> Die beste Vorhersage des TxGNN-Modells ist **Esotropie**, aber dieser Kandidat wird von **null klinischen Versuchen** und **null Publikationen** gestützt,
+> und das Informationspaket des Arzneimittels selbst vermerkt explizit, dass es keine bekannte biologische Verbindung zwischen BMP-2-Signalisierung und Störungen der extraokularen Muskulatur gibt.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Currently, detailed mechanism of action data is not available in this evidence pack (original_moa = Data Gap). Based on other information in the pack, dibotermin alfa is recombinant human BMP-2 (rhBMP-2), a growth factor whose known biology is to induce osteogenic differentiation; it is used clinically for spinal fusion and open tibial fracture bone regeneration.
-
-Esotropia is a neuromuscular control disorder of the extraocular muscles. There is no known mechanistic pathway connecting BMP-2 osteoinductive signaling to extraocular muscle alignment or neuromuscular control. The evidence pack's own rationale explicitly states this candidate has "no biological plausibility support" and represents a pure network-association artifact of the TxGNN model rather than a grounded repurposing hypothesis.
-
-Because there is no mechanistic bridge, no completed or ongoing clinical trials, and no literature, this prediction should be treated as a **low-confidence signal requiring independent biological validation**, not as an actionable repurposing lead.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Punkt | Inhalt |
+|------|--------|
+| Ursprüngliche Indikation | Knochenregeneration (Wirbelsäulenfusion / offene Tibiafraktur) — abgeleitet aus mechanistischer Begründung; nicht separat bestätigt in diesem Informationspaket |
+| Vorhergesagte neue Indikation | Esotropie |
+| TxGNN-Vorhersage-Score | 99.97% |
+| Evidenzstufe | L5 (nur Modellvorhersage, keine unterstützenden Studien) |
+| Marktstatus Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Zurückhalten |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage sinnvoll?
 
-Currently no related literature available.
+Derzeit sind detaillierte Daten zum Wirkmechanismus in diesem Informationspaket nicht verfügbar (original_moa = Datenlücke). Basierend auf anderen Informationen im Paket ist Dibotermin alfa rekombinantes humanes BMP-2 (rhBMP-2), ein Wachstumsfaktor, dessen bekannte biologische Wirkung die Induktion osteogener Differenzierung ist; es wird klinisch bei Wirbelsäulenfusionen und bei der Knochenregeneration offener Tibiafrakturen verwendet.
 
----
+Esotropie ist eine neuromuskuläre Kontrollstörung der extraokularen Muskulatur. Es gibt keine bekannte mechanistische Verbindung zwischen BMP-2-osteoinduktiver Signalisierung und Ausrichtung oder neuromuskulärer Kontrolle der extraokularen Muskulatur. Das Informationspaket selbst besagt in seiner Begründung explizit, dass dieser Kandidat „keine biologische Plausibilität" hat und einen reinen Netzwerk-Assoziations-Artefakt des TxGNN-Modells darstellt, anstatt eine fundierte Umwidmungshypothese zu sein.
 
-## Germany Market Information
-
-Dibotermin alfa currently holds no marketing authorization in Germany (0 licenses on record); the drug is not marketed in this market.
+Da es keine mechanistische Verbindung, keine abgeschlossenen oder laufenden klinischen Versuche und keine Literatur gibt, sollte diese Vorhersage als ein **Signal mit niedriger Konfidenz, das unabhängige biologische Validierung erfordert**, nicht als eine umsetzbare Umwidmungsmöglichkeit behandelt werden.
 
 ---
 
-## Safety Considerations
+## Evidenz aus klinischen Versuchen
 
-Please refer to the package insert for safety information.
-
----
-
-## Additional Note: Other Predicted Indications Reviewed
-
-Eight additional TxGNN-predicted indications were reviewed alongside esotropia (ranks 2–9), all scored L5 / Hold, with no supporting clinical trials. Two points are worth flagging to decision-makers:
-
-- **HER2-positive breast carcinoma and related breast cancer subtypes (ranks 2, 3, 4, 6)**: Literature on BMP-2 signaling in breast tumor biology generally points toward tumor promotion (proliferation, EMT, bone metastasis) rather than a therapeutic effect. These should be read as a **potential safety signal**, not a repurposing opportunity.
-- **"Breast tumor luminal A or B" (rank 5)**: The 19 literature records attached to this candidate are a **data-quality artifact** — they concern B-cell immunology and Hepatitis B vaccines, evidently mismatched via the keyword "B" and unrelated to breast cancer or BMP-2. This should be excluded from any evidence count.
+Derzeit sind keine damit verbundenen klinischen Versuche registriert.
 
 ---
 
-## Conclusion and Next Steps
+## Evidenz aus der Literatur
 
-**Decision: Hold**
+Derzeit ist keine damit verbundene Literatur verfügbar.
 
-**Rationale:**
-The top-ranked candidate (esotropia) has no clinical, literature, or mechanistic support, and the pack's own analysis states there is no biological plausibility. No candidate across the full prediction set reaches even L3 evidence, and two candidates carry a potential safety signal (pro-tumorigenic BMP-2 activity in breast cancer) rather than a therapeutic rationale.
+---
 
-**To proceed, the following is needed:**
-- Resolve blocking data gap DG001 (TFDA/BfArM label warnings and contraindications) before any S1 safety screening can occur
-- Resolve DG002 (confirmed mechanism of action) to properly assess mechanistic plausibility
-- Independent, targeted literature search for BMP-2 and extraocular muscle/strabismus biology (current literature pull returned no relevant hits)
-- If breast cancer signal is pursued further, prioritize it as a **risk assessment** (does BMP-2 exposure worsen breast cancer outcomes) rather than a repurposing opportunity
-- Given the drug is not marketed in Germany and no clinical evidence exists for any candidate, no further action is recommended at this time beyond monitoring for new literature/trials
+## Informationen zum Marktstatus Deutschland
+
+Dibotermin alfa hält derzeit keine Zulassung in Deutschland (0 Lizenzen in den Unterlagen); das Arzneimittel wird in diesem Markt nicht vermarktet.
+
+---
+
+## Sicherheitsüberlegungen
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+---
+
+## Zusätzliche Anmerkung: Weitere überprüfte Vorhersage-Indikationen
+
+Acht weitere TxGNN-vorhergesagte Indikationen wurden neben Esotropie überprüft (Ränge 2–9), alle mit L5 / Zurückhalten bewertet, ohne unterstützende klinische Versuche. Folgende zwei Punkte verdienen besondere Aufmerksamkeit von Entscheidungsträgern:
+
+- **HER2-positives Mammakarzinom und damit verbundene Brustkrebssubtypen (Ränge 2, 3, 4, 6)**: Literatur über BMP-2-Signalisierung in Brusttumor-Biologie deutet generell auf Tumorförderung (Proliferation, EMT, Knochenmetastasen) hin, nicht auf eine therapeutische Wirkung. Diese sollten als ein **mögliches Sicherheitssignal** interpretiert werden, nicht als Umwidmungsmöglichkeit.
+- **„Brusttumor luminal A oder B" (Rang 5)**: Die 19 Literaturquellen, die diesem Kandidaten zugeordnet sind, sind ein **Datenqualitäts-Artefakt** — sie betreffen B-Zell-Immunologie und Hepatitis-B-Impfstoffe, offensichtlich durch das Schlüsselwort „B" fehlerhaft zugeordnet und ohne Bezug zu Brustkrebs oder BMP-2. Dies sollte aus jeder Evidenzzählung ausgeschlossen werden.
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Zurückhalten**
+
+**Begründung:**
+Der höchstplatzierte Kandidat (Esotropie) hat keine klinischen, Literatur- oder mechanistischen Belege, und das Informationspaket selbst vermerkt, dass es keine biologische Plausibilität gibt. Kein Kandidat in der Gesamtheit der Vorhersagen erreicht auch nur L3-Evidenz, und zwei Kandidaten weisen ein mögliches Sicherheitssignal (pro-tumorigene BMP-2-Aktivität bei Brustkrebs) auf, statt einer therapeutischen Begründung.
+
+**Um weiterzukommen, ist das Folgende erforderlich:**
+- Auflösung der blockierenden Datenlücke DG001 (TFDA/BfArM-Warnhinweise und -Kontraindikationen), bevor ein S1-Sicherheits-Screening durchgeführt werden kann
+- Auflösung von DG002 (bestätigter Wirkmechanismus) zur angemessenen Bewertung der mechanistischen Plausibilität
+- Unabhängige, zielgerichtete Literaturrecherche für BMP-2 und die Biologie der extraokularen Muskulatur und des Strabismus (bisherige Literatursuche ergab keine relevanten Treffer)
+- Falls das Brustkrebssignal weiter untersucht wird, sollte es als **Risikobewertung** (verschlechtert BMP-2-Exposition die Ergebnisse bei Brustkrebs) behandelt werden, nicht als Umwidmungsmöglichkeit
+- Da das Arzneimittel in Deutschland nicht vermarktet wird und für keinen Kandidaten klinische Belege vorhanden sind, werden derzeit keine weiteren Maßnahmen empfohlen, außer der Überwachung neuer Literatur und klinischer Versuche
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

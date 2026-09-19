@@ -29,68 +29,69 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Glucarpidase: From Methotrexate Toxicity to Diabetic Cataract
+# Glucarpidase: Von Methotrexat-Toxizität zu Diabetischem Katarakt
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Glucarpidase (DrugBank DB08898) is a recombinant bacterial enzyme (carboxypeptidase G2) used as an emergency antidote to inactivate toxic methotrexate levels. The TxGNN model predicts a possible effect on **Diabetic Cataract** and nine other cataract/retinopathy-related conditions, but **no clinical trials or literature currently support any of these predictions**, and the mechanistic rationale provided is explicitly assessed as biologically implausible.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Methotrexate (MTX) toxicity — emergency detoxification (derived from evidence pack rationale; no formal indication text on file) |
-| Predicted New Indication | Diabetic Cataract |
-| TxGNN Prediction Score | 99.85% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Germany Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Glucarpidase (DrugBank DB08898) ist ein rekombinantes bakterielles Enzym (Carboxypeptidase G2), das als Notfallantidot zur Inaktivierung toxischer Methotrexat-Spiegel verwendet wird. Das TxGNN-Modell sagt einen möglichen Effekt auf **Diabetischen Katarakt** und neun weitere Katarakt-/Retinopathie-bedingte Zustände voraus, aber **es gibt derzeit keine klinischen Studien oder Literatur, die diese Vorhersagen unterstützen**, und die bereitgestellte mechanistische Begründung wird explizit als biologisch implausibel bewertet.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Currently, detailed mechanism of action data is not available (Data Gap). Based on the information present in this evidence pack, glucarpidase's only well-established biological activity is hydrolyzing the terminal glutamate residue of methotrexate, which inactivates the drug and is used clinically for MTX overdose rescue. This is a highly specific, single-substrate enzymatic function with no known involvement in lens metabolism, advanced glycation end-product (AGE) accumulation, oxidative stress, retinal microvascular pathology, or calcium/parathyroid pathways — the mechanisms typically implicated in cataract and diabetic retinopathy.
-
-The evidence pack's own repurposing rationale for every one of the top 10 predicted indications (all cataract subtypes and diabetic retinopathy) states there is **no known mechanistic link** between glucarpidase and these conditions, and attributes the high TxGNN scores to sparse indirect graph connections (e.g., co-occurrence of "enzyme-class drug" and "metabolic eye disease" nodes) rather than genuine pharmacological plausibility.
-
-Given that the original indication (acute MTX toxicity, a single-dose IV rescue therapy) has no logical or mechanistic relationship to chronic ophthalmic conditions like cataract, this prediction cluster should be treated as a low-confidence graph-topology artifact rather than a credible repurposing hypothesis.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Punkt | Inhalt |
+|------|---------|
+| Ursprüngliche Indikation | Methotrexat-(MTX-)Toxizität — Notfall-Entgiftung (abgeleitet vom Rationale des Evidenzpakets; kein formaler Indikationstext vorhanden) |
+| Vorhergesagte neue Indikation | Diabetischer Katarakt |
+| TxGNN-Vorhersage-Score | 99.85% |
+| Evidenzstufe | L5 (nur Modellvorhersage, keine unterstützenden Studien) |
+| Marktstatus Deutschland | ✗ Nicht zugelassen |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Zurückhalten |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage angemessen?
 
-Currently no related literature available
+Derzeit sind detaillierte Wirkmechanismus-Daten nicht verfügbar (Datenlücke). Basierend auf den in diesem Evidenzpaket enthaltenen Informationen ist die einzige gut etablierte biologische Aktivität von Glucarpidase die Hydrolyse des terminalen Glutamat-Rests von Methotrexat, was das Medikament inaktiviert und klinisch zur Rettung bei MTX-Überdosierung verwendet wird. Dies ist eine hochspezifische Ein-Substrat-enzymatische Funktion ohne bekannte Beteiligung an Linsenmetabolismus, Akkumulation von Advanced-Glykationsendprodukten (AGE), oxidativem Stress, retinaler Mikrogefäßpathologie oder Kalzium-/Nebenschilddrüsen-Signalwegen — den Mechanismen, die typischerweise bei Katarakt und diabetischer Retinopathie impliziert sind.
 
----
+Die Begründung der Umpositionierung des Evidenzpakets für jede der Top-10-Vorhersagen (alle Katarakt-Subtypen und diabetische Retinopathie) besagt, dass es **keinen bekannten mechanistischen Link** zwischen Glucarpidase und diesen Zuständen gibt, und schreibt die hohen TxGNN-Scores spärlichen indirekten Graph-Verbindungen zu (z. B. gemeinsames Auftreten von „Enzym-Klasse-Medikament"- und „metabolische Augenkrankheit"-Knoten) statt auf echte pharmakologische Plausibilität.
 
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+Angesichts der Tatsache, dass die ursprüngliche Indikation (akute MTX-Toxizität, eine Einzel-Dosis-IV-Rettungstherapie) keine logische oder mechanistische Beziehung zu chronischen ophthalmologischen Zuständen wie Katarakt aufweist, sollte dieses Vorhersage-Cluster als Graph-Topologie-Artefakt mit niedriger Konfidenz behandelt werden, nicht als glaubwürdige Umpositionierungshypothese.
 
 ---
 
-## Conclusion and Next Steps
+## Evidenz aus klinischen Studien
 
-**Decision: Hold**
+Derzeit keine verwandten klinischen Studien registriert
 
-**Rationale:**
-All 10 predicted indications (diabetic cataract, diabetic retinopathy, and 8 other cataract subtypes) carry Evidence Level L5 with zero supporting clinical trials or literature, and the evidence pack's own mechanistic analysis explicitly concludes there is no biological plausibility linking glucarpidase's known enzymatic activity to any of these ophthalmic conditions.
+---
 
-**To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) data for glucarpidase (currently Data Gap, DG002)
-- TFDA/manufacturer package insert warnings and contraindications (currently Data Gap, DG001 — Blocking)
-- Independent preclinical or mechanistic studies establishing a plausible pathway between carboxypeptidase G2 activity and lens/retinal pathology before any further evaluation is warranted
-- Re-evaluation should only be triggered if new literature or trial data emerges; no active investment is recommended at this time
+## Literatur-Evidenz
+
+Derzeit keine relevante Literatur verfügbar
+
+---
+
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Zurückhalten**
+
+**Begründung:**
+Alle 10 vorhergesagten Indikationen (diabetischer Katarakt, diabetische Retinopathie und 8 weitere Katarakt-Subtypen) haben Evidenzstufe L5 mit null unterstützenden klinischen Studien oder Literatur, und die mechanistische Analyse des Evidenzpakets selbst kommt explizit zu dem Ergebnis, dass es keinen biologischen Plausibilitylink zwischen der bekannten enzymatischen Aktivität von Glucarpidase und einer dieser ophthalmologischen Zustände gibt.
+
+**Um fortzufahren, wird Folgendes benötigt:**
+- Bestätigte Wirkmechanismus-Daten (MOA) für Glucarpidase (derzeit Datenlücke, DG002)
+- TFDA/Hersteller-Packungsbeilage-Warnungen und Kontraindikationen (derzeit Datenlücke, DG001 — Blockierend)
+- Unabhängige präklinische oder mechanistische Studien, die einen plausiblen Weg zwischen der Carboxypeptidase-G2-Aktivität und Linsen-/Retina-Pathologie etablieren, bevor eine weitere Bewertung gerechtfertigt ist
+- Eine Neubewertung sollte nur ausgelöst werden, wenn neue Literatur- oder Studiendaten auftauchen; derzeit wird keine aktive Investition empfohlen
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

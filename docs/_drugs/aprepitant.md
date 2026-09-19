@@ -29,86 +29,87 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Aprepitant：從止吐藥物到抗利尿激素分泌不當症候群（腎因型）的老藥新用探索
+# Aprepitant: Erkundung einer Neuindikation vom Antiemetikum zum nephrogenischen Syndrom der inadäquaten Antidiuretikumsekretion
 
-## 一句話總結
+## Zusammenfassung in einem Satz
 
-> Aprepitant（DB00673）為 NK1 受體拮抗劑類止吐藥物（目前尚未於台灣上市）。
-> TxGNN 模型預測其可能對 **腎因型抗利尿激素分泌不當症候群（nephrogenic syndrome of inappropriate antidiuresis）** 有效，
-> 但目前**沒有任何臨床試驗或文獻佐證**，僅為模型純預測分數，證據等級為 L5。
-
----
-
-## 快速總覽
-
-| 項目 | 內容 |
-|------|------|
-| 原始適應症 | 未於本次 Evidence Pack 中提供（`original_indications` 為空） |
-| 預測新適應症 | Nephrogenic syndrome of inappropriate antidiuresis（腎因型抗利尿激素分泌不當症候群） |
-| TxGNN 預測分數 | 99.97%（rank 616） |
-| 證據等級 | L5（僅模型預測，無臨床試驗、無文獻） |
-| 台灣上市狀態 | Not marketed |
-| 許可證數量 | 0 |
-| 建議決策 | Hold |
+> Aprepitant (DB00673) ist ein Antiemetikum der Klasse der NK1-Rezeptor-Antagonisten (derzeit nicht in Taiwan zugelassen).
+> Das TxGNN-Modell sagt voraus, dass es möglicherweise gegen das **nephrogenische Syndrom der inadäquaten Antidiuretikumsekretion (nephrogenic syndrome of inappropriate antidiuresis)** wirksam sein könnte,
+> aber es gibt derzeit **keine klinischen Studien oder Literaturbelege**, nur einen reinen Modellvorhersage-Score mit Evidenzgrad L5.
 
 ---
 
-## 為什麼此預測合理？
+## Schnellübersicht
 
-目前尚無作用機轉（MOA）資料（`original_moa: [Data Gap]`），此為本案的高嚴重度資料缺口（DG002），需另行查詢 DrugBank 補齊。在缺乏機轉資料與原始適應症紀錄的情況下，無法對「止吐藥物」與「腎因型抗利尿激素分泌不當症候群」之間的藥理連結做出實質評估。
-
-`repurposing_rationale.mechanistic_link` 明確標註：「無已知機轉關聯，亦無任何臨床試驗或文獻資料，僅為模型預測分數。」這代表此預測目前完全依賴 TxGNN 的知識圖譜相似度推論，尚未有任何生物學或臨床層面的佐證支持。
-
-**其他候選適應症觀察（供參考，非本次評估主軸）：**
-
-| Rank | 適應症 | TxGNN 分數 | 備註 |
-|------|--------|-----------|------|
-| 3 | Pulmonary hypertension | 99.90% | 唯一附帶文獻為 pazopanib+cisplatin 治療腎細胞癌之 Phase I 試驗，與 aprepitant 及肺高壓皆無關聯，判定為檢索雜訊 |
-| 6 | Malformation syndrome with odontal/periodontal component | 99.86% | 附帶 20 篇文獻皆為牙周病相關研究，與 aprepitant 無機轉關聯，同樣判定為檢索雜訊 |
-| 9 | Subarachnoid hemorrhage | 99.85% | 文獻界已知 Substance P/NK1R 路徑參與 SAH 後血腦障壁破壞與腦水腫（多為動物模型證據），機轉上具理論可能性，但本次未檢索到任何實際臨床試驗或文獻，仍屬純模型分數 |
-
-以上顯示：分數高並不等於證據強，rank 3、6 的附帶文獻經比對後均為不相關雜訊，rank 9 雖有理論機轉可能性但同樣缺乏實證，需列為未來優先文獻補查對象。
+| Kategorie | Inhalt |
+|-----------|--------|
+| Ursprüngliche Indikationen | Nicht in diesem Evidence Pack enthalten (`original_indications` ist leer) |
+| Vorhergesagte neue Indikation | Nephrogenisches Syndrom der inadäquaten Antidiuretikumsekretion |
+| TxGNN-Vorhersage-Score | 99.97% (Rang 616) |
+| Evidenzgrad | L5 (nur Modellvorhersage, keine klinischen Studien, keine Literatur) |
+| Zulassungsstatus in Taiwan | Nicht zugelassen |
+| Anzahl Genehmigungen | 0 |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## 臨床試驗證據
+## Warum ist diese Vorhersage plausibel?
 
-目前無相關已註冊之臨床試驗。
+Derzeit liegen keine Daten zum Wirkmechanismus vor (`original_moa: [Data Gap]`); dies ist ein Datengap mit hohem Schweregrad (DG002) für diesen Fall, der durch separate Abfrage der DrugBank ergänzt werden muss. Ohne Wirkmechanismus-Daten und Aufzeichnungen über ursprüngliche Indikationen ist eine aussagekräftige Bewertung der pharmakologischen Verbindung zwischen „Antiemetikum" und „nephrogenisches Syndrom der inadäquaten Antidiuretikumsekretion" nicht möglich.
 
-## 文獻證據
+Die `repurposing_rationale.mechanistic_link` ist eindeutig gekennzeichnet: „Keine bekannten mechanistischen Verknüpfungen, auch keine klinischen Studien oder Literaturbelege vorhanden, nur Modellvorhersage-Score." Dies bedeutet, dass diese Vorhersage derzeit vollständig auf der Ähnlichkeitsinferenz des TxGNN-Wissensgraphen beruht und noch keine biologische oder klinische Evidenz aufweist.
 
-目前無相關文獻資料可供評估。
+**Beobachtungen zu anderen Kandidatenindikationen (zur Information, nicht Hauptfokus dieser Bewertung):**
 
-## 台灣市場資訊
+| Rang | Indikation | TxGNN-Score | Bemerkung |
+|-----|-----------|----------|----------|
+| 3 | Pulmonale Hypertonie | 99.90% | Die einzige begleitende Literatur ist eine Phase-I-Studie mit Pazopanib+Cisplatin zur Behandlung von Nierenzellkarzinom, die mit Aprepitant oder pulmonaler Hypertonie in keiner Beziehung steht; wird als Suchstörung bewertet |
+| 6 | Malformationssyndrom mit odontalen/parodontalen Komponenten | 99.86% | Alle 20 begleitenden Literaturangaben beziehen sich auf parodontale Erkrankungen, haben keine mechanistische Verbindung zu Aprepitant, wird ebenfalls als Suchstörung bewertet |
+| 9 | Subarachnoidale Blutung | 99.85% | Der Substanz P/NK1-Rezeptor-Weg ist bekannt als an der Störung der Blut-Hirn-Schranke und dem Hirnödem nach SAH beteiligt (hauptsächlich Tierstudien); mechanistisch theoretisch möglich, aber bei dieser Suche wurden keine tatsächlichen klinischen Studien oder Literaturangaben gefunden; bleibt somit ein reiner Modellscore |
 
-Aprepitant 目前**未於台灣上市**，無核准藥品許可證（`total_licenses: 0`），亦無劑型／給藥途徑資料。
-
----
-
-## 安全性考量
-
-- **仿單警語／禁忌**：TFDA 仿單資料尚未取得（DG001，Blocking 等級缺口），需下載官方仿單 PDF 解析後才能進行 S1 安全性初評。
-- **藥品交互作用**：查詢結果為 `not_found`，目前無資料。
-
-> 請注意：由於仿單資料缺失屬於 Blocking 等級缺口，本案**尚未能進行完整安全性評估**，暫以「請參考藥品仿單所載安全性資訊」為原則，待補齊後應重新評估。
+Oben wird gezeigt: Ein hoher Score bedeutet nicht starke Evidenz. Literaturangaben bei Rang 3 und 6 werden nach Überprüfung als nicht relevante Störsignale identifiziert, Rang 9 hat theoretische mechanistische Möglichkeiten, aber gleichzeitig mangelnde empirische Unterstützung; muss als Priorität für zukünftige Literaturabfragen aufgelistet werden.
 
 ---
 
-## 結論與後續建議
+## Klinische Studienevidenz
 
-**決策：Hold**
+Derzeit keine relevanten registrierten klinischen Studien verfügbar.
 
-**理由：**
-- 預測新適應症僅有 TxGNN 模型分數支持（L5），無任何臨床試驗或文獻證據；
-- 原始適應症與作用機轉資料缺失，無法建立機轉關聯性論證；
-- TFDA 仿單安全性資料為 Blocking 等級缺口，尚無法完成基本安全性初評；
-- 藥品目前未於台灣上市，無許可證與劑型資訊。
+## Literaturevidenz
 
-**若要推進，需要補齊：**
-- 下載並解析 TFDA 官方仿單，取得警語、禁忌、劑型資訊（DG001）
-- Query the DrugBank API 取得 aprepitant 完整作用機轉資料（DG002）
-- 針對 rank 9（subarachnoid hemorrhage）之 Substance P/NK1R 機轉假說進行專門文獻檢索，確認是否有可用實證
-- 排除 rank 3、rank 6 之雜訊文獻，避免誤判為支持證據
+Derzeit keine relevanten Literaturdaten zur Bewertung verfügbar.
+
+## Marktinformationen für Taiwan
+
+Aprepitant ist derzeit **nicht in Taiwan zugelassen**, es liegen keine Arzneimittelgenehmigungen vor (`total_licenses: 0`), es liegen auch keine Darreichungsform- oder Verabreichungsrouteninformationen vor.
+
+---
+
+## Sicherheitsüberlegungen
+
+- **Fachinformationen Warnhinweise/Kontraindikationen**: Fachinformationen der TFDA wurden noch nicht beschafft (DG001, Blocking-Level-Gap), eine vollständige S1-Sicherheitsbewertung ist erforderlich, bis offizielle Fachinformation-PDFs heruntergeladen und analysiert wurden.
+- **Arzneimittelwechselwirkungen**: Abfrageergebnis ist `not_found`, derzeit keine Daten verfügbar.
+
+> Hinweis: Da fehlende Fachinformationsdaten ein Blocking-Level-Gap darstellen, kann in diesem Fall **keine vollständige Sicherheitsbewertung** durchgeführt werden. Derzeit wird „Bitte beachten Sie die in der Arzneimittelfahninformation angegebenen Sicherheitsinformationen" als Prinzip angewendet. Nach Ergänzung sollte eine Neubewertung durchgeführt werden.
+
+---
+
+## Schlussfolgerung und Folgemaßnahmen
+
+**Entscheidung: Hold**
+
+**Begründung:**
+- Die Vorhersage für eine neue Indikation wird nur durch den TxGNN-Modellscore unterstützt (L5), es gibt keine klinischen Studien oder Literaturbelege;
+- Ursprüngliche Indikation und Wirkmechanismus-Daten fehlen, eine Argumentation zur mechanistischen Verknüpfung kann nicht aufgestellt werden;
+- Die TFDA-Fachinformationen zur Sicherheit sind ein Blocking-Level-Gap, eine grundlegende Sicherheitsbewertung kann noch nicht abgeschlossen werden;
+- Das Arzneimittel ist derzeit nicht in Taiwan zugelassen, es liegen keine Genehmigungen und Darreichungsform-Informationen vor.
+
+**Wenn weitere Fortschritte erforderlich sind, müssen folgende Punkte ergänzt werden:**
+- Download und Analyse der offiziellen TFDA-Fachinformation, um Warnhinweise, Kontraindikationen und Darreichungsforminformationen zu erhalten (DG001)
+- Abfrage der DrugBank-API, um die vollständigen Aprepitant-Wirkmechanismus-Daten zu erhalten (DG002)
+- Spezifische Literatursuche der Substanz P/NK1-Rezeptor-Weg-Hypothese bei Rang 9 (subarachnoidale Blutung), um zu bestätigen, ob verwertbare Evidenz vorhanden ist
+- Ausschluss von Störsignal-Literatur bei Rang 3 und 6, um Fehlbewertung als unterstützende Evidenz zu vermeiden
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

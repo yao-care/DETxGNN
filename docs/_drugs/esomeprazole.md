@@ -29,79 +29,80 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Esomeprazole: From Acid-Related Gastrointestinal Disease to Duodenogastric Reflux
+# Esomeprazol: Von säurebedingten gastrointestinalen Erkrankungen zu duodenogastrischem Reflux
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Esomeprazole is a proton pump inhibitor (PPI) with an extensive, well-established evidence base for acid-related gastrointestinal conditions such as duodenal ulcer, GERD, and *H. pylori*-associated disease. The TxGNN model's top-ranked new prediction is **Duodenogastric Reflux**, but this direction is currently supported by only **0 clinical trials** and **1 general review article**, and the mechanistic link is explicitly flagged as indirect. A separate, much better-supported signal in this evidence pack — duodenal ulcer — largely overlaps with the drug's already-established use rather than representing true repurposing.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available from German licensing records (0 authorizations on file). Per the literature evidence in this pack, esomeprazole is an established therapy for reflux esophagitis/GERD, gastric and duodenal ulcer (including NSAID-associated), *H. pylori* eradication, and Zollinger-Ellison syndrome |
-| Predicted New Indication | Duodenogastric Reflux |
-| TxGNN Prediction Score | 99.53% |
-| Evidence Level | L4 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Esomeprazol ist ein Protonenpumpenhemmer (PPI) mit einer umfangreichen, gut etablierten Evidenzbasis für säurebedingte gastrointestinale Erkrankungen wie Duodenalgeschwüre, GERD und *H. pylori*-assoziierte Erkrankungen. Die höchst bewertete neue Vorhersage des TxGNN-Modells ist **duodenogastrischer Reflux**, aber diese Richtung wird derzeit nur durch **0 klinische Studien** und **1 allgemeinen Übersichtsartikel** gestützt, und die mechanistische Verbindung ist ausdrücklich als indirekt gekennzeichnet. Ein separates, viel besser gestütztes Signal in diesem Evidenzpaket — Duodenalgeschwüre — überlappt sich weitgehend mit der bereits etablierten Verwendung des Arzneimittels und stellt daher keine echte Umwidmung dar.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnelle Übersicht
 
-Detailed mechanism-of-action data for this candidate is not available in the evidence pack (original MOA marked as a data gap). Based on known pharmacology, esomeprazole is the S-isomer of omeprazole and inhibits the gastric parietal cell H⁺/K⁺-ATPase, reducing acid secretion. This mechanism underlies its well-documented efficacy across the acid-related disease spectrum, and in principle could extend to any condition where the gastric acid environment contributes to mucosal injury.
-
-However, the rationale provided for duodenogastric reflux is explicitly characterized as **weak and indirect**: duodenogastric reflux is driven primarily by bile and duodenal contents rather than gastric acid, so PPI therapy does not address the underlying reflux mechanism and can only indirectly mitigate acid-related mucosal symptoms. This is reflected in the evidence level (L4) and decision stage (S1, "Research Question").
-
-Notably, a separate prediction in this pack — duodenal ulcer (rank 3) — carries much stronger evidence (L1, S3, "Proceed with Guardrails," 40+ clinical trials including multiple completed Phase 3 RCTs) but is annotated in the evidence pack itself as effectively **the drug's original indication rather than genuine repurposing**. This is a useful sanity check on model calibration but should not be mistaken for a novel signal.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for duodenogastric reflux.
+| Punkt | Inhalt |
+|-------|--------|
+| Ursprüngliche Indikation | Nicht aus deutschen Zulassungsunterlagen verfügbar (0 Zulassungen in der Datei). Nach der Literaturevidenz in diesem Paket ist Esomeprazol eine etablierte Therapie für Refluxösophagitis/GERD, Magen- und Duodenalgeschwüre (einschließlich NSAID-assoziiert), *H. pylori*-Eradikation und Zollinger-Ellison-Syndrom |
+| Vorhergesagte neue Indikation | Duodenogastrischer Reflux |
+| TxGNN-Vorhersage-Score | 99,53 % |
+| Evidenz-Level | L4 |
+| Markt-Status Deutschland | ✗ Nicht auf dem Markt |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Aussetzen |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage vertretbar?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [18679668](https://pubmed.ncbi.nlm.nih.gov/18679668/) | 2008 | Review | European Journal of Clinical Pharmacology | General PPI class review: PPIs are first-line for peptic ulcer, *H. pylori* infection, GERD, NSAID-induced GI lesions, and Zollinger-Ellison syndrome; does not specifically address duodenogastric reflux |
+Detaillierte Daten zum Wirkmechanismus für diesen Kandidaten sind in dem Evidenzpaket nicht verfügbar (ursprünglicher MOA als Datenlücke gekennzeichnet). Basierend auf bekannter Pharmakologie ist Esomeprazol das S-Isomer von Omeprazol und hemmt die H⁺/K⁺-ATPase der Magenparietal-Zellen und reduziert die Säuresekretion. Dieser Mechanismus liegt seiner gut dokumentierten Wirksamkeit im gesamten Spektrum der säurebedingten Erkrankungen zugrunde und könnte prinzipiell auf jede Erkrankung ausgedehnt werden, bei der die Magensäure-Umgebung zur Schleimhautverletzung beiträgt.
 
----
+Die Begründung für duodenogastrischen Reflux ist jedoch ausdrücklich als **schwach und indirekt** charakterisiert: Duodenogastrischer Reflux wird hauptsächlich durch Galle und duodenale Inhalte angetrieben, nicht durch Magensäure, daher adressiert die PPI-Therapie nicht den zugrunde liegenden Reflux-Mechanismus und kann nur indirekt die säurebedingten Schleimhautsymptome mildern. Dies spiegelt sich im Evidenz-Level (L4) und der Entscheidungsphase (S1, „Forschungsfrage") wider.
 
-## Germany Market Information
-
-Esomeprazole currently holds no marketing authorizations in the German dataset (`market_status`: Not marketed / Not Marketed; `total_licenses`: 0). No license records are available to summarize.
+Bemerkenswert ist, dass eine separate Vorhersage in diesem Paket — Duodenalgeschwüre (Rang 3) — eine viel stärkere Evidenz trägt (L1, S3, „Mit Schutzmaßnahmen fortfahren", 40+ klinische Studien einschließlich mehrerer abgeschlossener Phase-3-RCTs), aber im Evidenzpaket selbst als effektiv **die ursprüngliche Indikation des Arzneimittels und nicht als echte Umwidmung** annotiert ist. Dies ist eine nützliche Plausibilitätsprüfung der Modellkalibrierung, sollte aber nicht mit einem neuen Signal verwechselt werden.
 
 ---
 
-## Safety Considerations
+## Evidenz aus klinischen Studien
 
-Please refer to the package insert for safety information.
-
-Note: per the evidence pack's data gap log, TFDA/label warnings and contraindications (DG001, **Blocking** severity) have not yet been retrieved, which by definition **prevents completion of the S1 safety pre-assessment** for this candidate. DDI query also returned no results.
+Derzeit sind keine verwandten klinischen Studien zum duodenogastrischen Reflux registriert.
 
 ---
 
-## Conclusion and Next Steps
+## Evidenz aus der Literatur
 
-**Decision: Hold**
+| PMID | Jahr | Typ | Journal | Wichtigste Ergebnisse |
+|------|------|------|--------|---------|
+| [18679668](https://pubmed.ncbi.nlm.nih.gov/18679668/) | 2008 | Übersicht | European Journal of Clinical Pharmacology | Allgemeiner PPI-Klassenüberblick: PPIs sind First-Line-Therapie für peptische Geschwüre, *H. pylori*-Infektionen, GERD, NSAID-induzierte GI-Läsionen und Zollinger-Ellison-Syndrom; adressiert nicht spezifisch duodenogastrischen Reflux |
 
-**Rationale:**
-The top-ranked predicted indication (duodenogastric reflux) has only L4 evidence — a single general PPI review and no dedicated clinical trials — combined with an explicitly indirect mechanistic rationale. A Blocking-severity data gap (missing label warnings/contraindications) also prevents completion of the required S1 safety pre-assessment, and the drug has zero current marketing authorizations in Germany.
+---
 
-**To proceed, the following is needed:**
-- Retrieve TFDA/German label warnings and contraindications (DG001) to complete S1 safety screening
-- Obtain esomeprazole's detailed MOA data from DrugBank (DG002) to strengthen the mechanistic case
-- Identify dedicated clinical or preclinical evidence specific to duodenogastric reflux (currently none)
-- Clarify current/planned licensing status in Germany, given zero authorizations on file
-- Treat the duodenal ulcer signal (rank 3) as confirmatory of model calibration only, not as a repurposing opportunity, since it overlaps with esomeprazole's established use
+## Marktinformationen für Deutschland
+
+Esomeprazol hat derzeit keine Zulassungen auf dem deutschen Markt (`market_status`: Not marketed / Not Marketed; `total_licenses`: 0). Es sind keine Lizenzeinträge für eine Zusammenfassung verfügbar.
+
+---
+
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+Hinweis: Nach dem Datenlücken-Logbuch des Evidenzpakets wurden TFDA-/Labelwarnungen und Kontraindikationen (DG001, **Blocking**-Schweregrad) noch nicht abgerufen, was per Definition **die Fertigstellung der erforderlichen S1-Sicherheits-Vorprüfung** für diesen Kandidaten verhindert. Die DDI-Abfrage ergab ebenfalls keine Ergebnisse.
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Aussetzen**
+
+**Begründung:**
+Die höchst bewertete vorhergesagte Indikation (duodenogastrischer Reflux) hat nur L4-Evidenz — einen einzelnen allgemeinen PPI-Übersichtsartikel und keine dedizierten klinischen Studien — kombiniert mit einer ausdrücklich indirekten mechanistischen Begründung. Eine Blocking-Schweregrad-Datenlücke (fehlende Labelwarnungen/Kontraindikationen) verhindert auch die Fertigstellung der erforderlichen S1-Sicherheits-Vorprüfung, und das Arzneimittel hat derzeit null Zulassungen auf dem deutschen Markt.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+- TFDA-/deutsche Labelwarnungen und Kontraindikationen (DG001) abrufen, um die S1-Sicherheits-Vorprüfung abzuschließen
+- Esomeprazols detaillierte MOA-Daten aus DrugBank (DG002) beschaffen, um den mechanistischen Fall zu stärken
+- Dedizierte klinische oder präklinische Evidenz zu duodenogastrischem Reflux identifizieren (derzeit keine)
+- Aktuellen/geplanten Zulassungsstatus in Deutschland klären, gegeben null Zulassungen in der Datei
+- Das Signal für Duodenalgeschwüre (Rang 3) als bestätigend für die Modellkalibrierung behandeln, nicht als Umwidmungsmöglichkeit, da es sich mit der etablierten Verwendung von Esomeprazol überlappt
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

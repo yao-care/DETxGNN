@@ -29,68 +29,69 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Brinzolamide: Evaluation Incomplete — No TxGNN Predictions Available
+# Brinzolamid: Bewertung unvollständig — Keine TxGNN-Vorhersagen verfügbar
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Brinzolamide is a topical carbonic anhydrase inhibitor clinically used for open-angle glaucoma and ocular hypertension.
-The current Evidence Pack contains **no TxGNN predicted indications**, and the regulatory data for Taiwan shows no approved licenses.
-As a result, a full repurposing evaluation cannot be completed at this stage.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not found in regulatory data (clinical use: glaucoma / ocular hypertension) |
-| Predicted New Indication | None — TxGNN returned no predictions |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | N/A |
-| Taiwan Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+Brinzolamid ist ein topischer Carboanhydrase-Inhibitor, der klinisch für Offenwinkelglaukom und okuläre Hypertonie eingesetzt wird.
+Das aktuelle Evidence Pack enthält **keine TxGNN-prognostizierten Indikationen**, und die behördlichen Daten für Taiwan zeigen keine genehmigten Lizenzen.
+Daher kann eine vollständige Repurposing-Bewertung in dieser Phase nicht durchgeführt werden.
 
 ---
 
-## Why Evaluation Cannot Proceed
+## Schnellübersicht
 
-The Evidence Pack for Brinzolamide (DrugBank: DB01194) is missing two categories of data critical for a repurposing evaluation:
-
-**No TxGNN predictions are available.** The `predicted_indications` field is empty, meaning the graph neural network model did not output any candidate new indications for this drug. Without a target indication, there is nothing to evaluate.
-
-**Mechanism of action (MOA) data is absent.** The `original_moa` field is flagged as a data gap. Based on published pharmacology, Brinzolamide inhibits carbonic anhydrase II (CA-II) in the ciliary processes of the eye, reducing aqueous humor production and thereby lowering intraocular pressure. This known mechanism is not reflected in the current Evidence Pack and cannot be used to reason about mechanistic plausibility for any new indication until TxGNN produces a target.
-
-**Safety and regulatory data are unavailable.** No Taiwan package insert warnings, contraindications, or drug interaction records were retrieved. Without baseline safety profiling, even a preliminary feasibility screen cannot be completed.
-
----
-
-## Taiwan Market Information
-
-No authorization records found. Brinzolamide is not currently marketed in Taiwan.
+| Element | Inhalt |
+|---------|---------|
+| Ursprüngliche Indikation | Nicht in behördlichen Daten vorhanden (klinische Verwendung: Glaukom / okuläre Hypertonie) |
+| Prognostizierte neue Indikation | Keine — TxGNN hat keine Vorhersagen zurückgegeben |
+| TxGNN-Vorhersage-Score | K. A. |
+| Evidenzstufe | K. A. |
+| Marktstatus Taiwan | Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfehlung zur Entscheidung | **Abwarten** |
 
 ---
 
-## Safety Considerations
+## Warum die Bewertung nicht fortgesetzt werden kann
 
-Please refer to the package insert for safety information.
+Das Evidence Pack für Brinzolamid (DrugBank: DB01194) enthält zwei Datenkategorien nicht, die für eine Repurposing-Bewertung entscheidend sind:
+
+**Es sind keine TxGNN-Vorhersagen verfügbar.** Das Feld `predicted_indications` ist leer, was bedeutet, dass das Graphen-Neuronales-Netzwerk-Modell keine Kandidaten-Indikationen für dieses Arzneimittel ausgegeben hat. Ohne eine Zielindikation gibt es nichts zu bewerten.
+
+**Daten zum Wirkmechanismus (MOA) sind nicht vorhanden.** Das Feld `original_moa` ist als Datenlücke gekennzeichnet. Basierend auf veröffentlichter Pharmakologie hemmt Brinzolamid Carboanhydrase II (CA-II) in den Ziliarprozessen des Auges, reduziert die Produktion von Kammerwasser und senkt dadurch den Augeninnendruck. Dieser bekannte Mechanismus wird nicht im aktuellen Evidence Pack berücksichtigt und kann nicht zur Begründung der mechanistischen Plausibilität für irgendeine neue Indikation verwendet werden, bis TxGNN ein Ziel generiert.
+
+**Sicherheits- und behördliche Daten sind nicht verfügbar.** Es wurden keine Taiwan-Packungsbeilage-Warnungen, Kontraindikationen oder Arzneimittel-Wechselwirkungsaufzeichnungen abgerufen. Ohne grundlegende Sicherheitsbewertung kann nicht einmal ein vorläufiger Machbarkeitsprüfung durchgeführt werden.
 
 ---
 
-## Conclusion and Next Steps
+## Marktinformationen für Taiwan
 
-**Decision: Hold**
+Es wurden keine Zulassungsunterlagen gefunden. Brinzolamid ist derzeit nicht auf dem Taiwan-Markt erhältlich.
 
-**Rationale:**
-The Evidence Pack is structurally incomplete — there are no TxGNN predicted indications and no MOA data — making it impossible to produce a meaningful repurposing evaluation at this time.
+---
 
-**To proceed, the following is needed:**
+## Sicherheitsaspekte
 
-1. **Re-run TxGNN pipeline** — Verify whether Brinzolamide (DB01194) was included in the knowledge graph embedding. If the node is absent or isolated, the model will return no predictions. Check graph coverage and re-run if needed.
-2. **Resolve Data Gap DG002 (MOA)** — Query the DrugBank API for DB01194 to retrieve mechanism of action, pharmacodynamics, and drug categories.
-3. **Resolve Data Gap DG001 (Package Insert)** — Retrieve the Taiwan TFDA package insert PDF to extract approved indications, warnings, and contraindications.
-4. **Confirm drug class eligibility** — Brinzolamide is a topically administered ophthalmic agent. Confirm whether the TxGNN model scope includes non-systemic drugs; if not, note this as a model boundary limitation.
-5. **Re-generate Evidence Pack** — Once the above gaps are resolved, regenerate the v5 Evidence Pack and re-submit for evaluation.
+Weitere Sicherheitsinformationen finden Sie in der Packungsbeilage.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Abwarten**
+
+**Begründung:**
+Das Evidence Pack ist strukturell unvollständig — es gibt keine TxGNN-prognostizierten Indikationen und keine MOA-Daten — was es unmöglich macht, eine aussagekräftige Repurposing-Bewertung in dieser Phase durchzuführen.
+
+**Folgende Maßnahmen sind erforderlich, um fortzufahren:**
+
+1. **TxGNN-Pipeline erneut ausführen** — Überprüfen Sie, ob Brinzolamid (DB01194) in der Knowledge-Graph-Einbettung enthalten war. Wenn der Knoten fehlt oder isoliert ist, gibt das Modell keine Vorhersagen zurück. Überprüfen Sie die Graph-Abdeckung und führen Sie eine Neuberechnung durch, falls nötig.
+2. **Datenlücke DG002 (MOA) beheben** — DrugBank-API für DB01194 abfragen, um Wirkmechanismus, Pharmakodynamik und Arzneimittelklassen abzurufen.
+3. **Datenlücke DG001 (Packungsbeilage) beheben** — Taiwan-TFDA-Packungsbeilage als PDF abrufen, um genehmigte Indikationen, Warnungen und Kontraindikationen zu extrahieren.
+4. **Arzneimittelklasse-Eignung bestätigen** — Brinzolamid ist ein topisch angewendetes ophthalmisches Agens. Bestätigen Sie, ob der TxGNN-Modellumfang nicht-systemische Arzneimittel einschließt; falls nicht, vermerken Sie dies als Modellgrenzen-Einschränkung.
+5. **Evidence Pack neu generieren** — Sobald die obigen Lücken behoben sind, das v5 Evidence Pack neu generieren und zur Bewertung erneut einreichen.
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

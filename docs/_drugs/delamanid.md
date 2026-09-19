@@ -29,79 +29,80 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **7**
 
 </div>
 
-# Delamanid: From Tuberculosis (MDR-TB) to Bovine Tuberculosis
+# Delamanid: Von Tuberkulose (MDR-TB) zu Rindertuberkulose
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Delamanid is a nitro-dihydro-imidazooxazole antimycobacterial, publicly known as a treatment for multidrug-resistant tuberculosis (MDR-TB), though no formal indication text is present in this evidence pack.
-> The TxGNN model predicts it may also be effective for **Tuberculosis, Bovine (zoonotic *Mycobacterium bovis* infection)**,
-> but currently **no clinical trials** and only **1 indirect publication** support this specific direction.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not formally provided in this evidence pack. Delamanid is publicly known as an antimycobacterial approved for pulmonary MDR-TB; `original_indications` and `original_moa` fields are empty/Data Gap in the source data. |
-| Predicted New Indication | Tuberculosis, Bovine |
-| TxGNN Prediction Score | 99.91% |
-| Evidence Level | L5 (model prediction only — no clinical trial, and the single available paper does not evaluate delamanid's efficacy) |
-| Germany Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Delamanid ist ein Nitro-Dihydro-Imidazooxazol-Antimykobakterium, öffentlich bekannt als Behandlung für multiresistente Tuberkulose (MDR-TB), obwohl in diesem Evidenzpaket kein formaler Indikationstext vorhanden ist.
+> Das TxGNN-Modell sagt voraus, dass es auch wirksam für **Tuberkulose, Rinder (zoonotische *Mycobacterium bovis*-Infektion)** sein könnte,
+> aber derzeit unterstützen **keine klinischen Studien** und nur **1 indirekte Publikation** diese spezifische Richtung.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Detailed mechanism of action data is not available in this evidence pack (`original_moa` = Data Gap). Based on generally known information, delamanid is a nitro-dihydro-imidazooxazole derivative developed as an antimycobacterial agent, used clinically for multidrug-resistant pulmonary tuberculosis caused by *Mycobacterium tuberculosis*.
-
-The predicted new indication, "tuberculosis, bovine," is caused by *Mycobacterium bovis*, a member of the *Mycobacterium tuberculosis* complex that is closely related to *M. tuberculosis* and shares similar drug-target biology. This makes the TxGNN prediction biologically plausible on a mechanistic level. However, it is worth noting that this is not a novel disease *area* so much as a related pathogen/host variant of the drug's already-established anti-tuberculosis use — the prediction largely reflects known pharmacology rather than a genuinely new therapeutic direction.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [39487429](https://pubmed.ncbi.nlm.nih.gov/39487429/) | 2024 | Observational / Genomic (WGS) study | BMC Genomics | Whole-genome sequencing study characterizing genetic diversity and drug-resistance patterns of *M. bovis* isolates in zoonotic TB; does not directly evaluate delamanid efficacy, but provides pathogen background relevant to treatment target. |
+| Punkt | Inhalt |
+|------|--------|
+| Ursprüngliche Indikation | Nicht formal in diesem Evidenzpaket angegeben. Delamanid ist öffentlich bekannt als ein Antimykobakterium zur pulmonalen MDR-TB-Behandlung; die Felder `original_indications` und `original_moa` sind leer/Datenlücke in den Quelldaten. |
+| Vorhergesagte neue Indikation | Tuberkulose, Rinder |
+| TxGNN-Vorhersage-Score | 99,91% |
+| Evidenzstufe | L5 (nur Modellvorhersage — keine klinische Studie, und das einzige verfügbare Papier bewertet nicht die Wirksamkeit von Delamanid) |
+| Marktstatus in Deutschland | Nicht im Handel |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | Abwarten |
 
 ---
 
-## Germany Market Information
+## Warum ist diese Vorhersage angemessen?
 
-Delamanid currently holds **0 marketing authorizations** on record and has a market status of **Not Marketed** — no authorization table to display.
+Detaillierte Wirkmechanismus-Daten sind in diesem Evidenzpaket nicht verfügbar (`original_moa` = Datenlücke). Basierend auf allgemein bekannten Informationen ist Delamanid ein Nitro-Dihydro-Imidazooxazol-Derivat, das als Antimykobakterium entwickelt wurde und klinisch für multiresistente pulmonale Tuberkulose, verursacht durch *Mycobacterium tuberculosis*, verwendet wird.
 
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*Note: Formal safety data (warnings, contraindications, drug interactions) is not currently available in this dataset and is flagged as a **Blocking** data gap (DG001), preventing full S1 safety pre-assessment.*
+Die vorhergesagte neue Indikation, „Tuberkulose, Rinder", wird durch *Mycobacterium bovis* verursacht, ein Mitglied des *Mycobacterium tuberculosis*-Komplexes, der eng mit *M. tuberculosis* verwandt ist und ähnliche Arzneistoff-Ziel-Biologie teilt. Dies macht die TxGNN-Vorhersage auf mechanistischer Ebene biologisch plausibel. Es ist jedoch zu beachten, dass dies nicht so sehr eine völlig neue Erkrankung *bereich* ist, sondern eher eine verwandte Pathogen-/Wirt-Variante der bereits etablierten Anti-Tuberkulose-Anwendung des Arzneistoffs — die Vorhersage spiegelt im Wesentlichen bekannte Pharmakologie wider, anstatt eine echte neue therapeutische Richtung zu sein.
 
 ---
 
-## Conclusion and Next Steps
+## Klinische Studienevidenz
 
-**Decision: Hold**
+Derzeit keine zugehörigen klinischen Studien registriert.
 
-**Rationale:**
-The predicted indication is supported only by the TxGNN score and one tangential publication that does not test delamanid's efficacy; no clinical trials directly address bovine/zoonotic TB with this drug. A **Blocking** safety data gap (missing label warnings/contraindications) also prevents a proper safety pre-assessment.
+---
 
-**To proceed, the following is needed:**
-- Official label/package insert data (warnings, contraindications) — DG001
-- Confirmed mechanism of action from DrugBank — DG002
-- Direct evidence (in vitro/in vivo or clinical) evaluating delamanid specifically against *M. bovis*
-- Clarification of true novelty: assess whether "bovine tuberculosis" represents a distinct regulatory indication or overlaps with delamanid's existing MDR-TB approval
-- Confirmation of regulatory/market status before any repurposing pathway is pursued
+## Literaturbeweise
+
+| PMID | Jahr | Typ | Zeitschrift | Wichtigste Erkenntnisse |
+|------|-----|------|----------|---------|
+| [39487429](https://pubmed.ncbi.nlm.nih.gov/39487429/) | 2024 | Observational / Genomische (WGS) Studie | BMC Genomics | Whole-Genome-Sequencing-Studie, die genetische Vielfalt und Arzneimittelresistenzmuster von *M. bovis*-Isolaten bei zoonotischer TB charakterisiert; bewertet nicht direkt die Wirksamkeit von Delamanid, bietet aber Pathogen-Hintergrund, der für das Behandlungsziel relevant ist. |
+
+---
+
+## Marktstatus in Deutschland
+
+Delamanid hält derzeit **0 Marktgenehmigungen** im Bestand und hat einen Marktstatus von **Nicht im Handel** — keine Genehmigungstabelle zum Anzeigen.
+
+---
+
+## Sicherheitserwägungen
+
+Bitte beachten Sie die Gebrauchsinformation zur Sicherheitsinformation.
+
+*Hinweis: Formale Sicherheitsdaten (Warnhinweise, Kontraindikationen, Arzneimittelwechselwirkungen) sind derzeit in diesem Datensatz nicht verfügbar und werden als **Blocking**-Datenlücke gekennzeichnet (DG001), was eine vollständige S1-Sicherheits-Vorprüfung verhindert.*
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Abwarten**
+
+**Begründung:**
+Die vorhergesagte Indikation wird nur durch den TxGNN-Score und eine nebensächliche Publikation unterstützt, die Delamanids Wirksamkeit nicht testet; keine klinischen Studien befassen sich direkt mit Rinder-/zoonotischer TB mit diesem Arzneistoff. Eine **Blocking**-Sicherheitsdatenlücke (fehlende Gebrauchsinformations-Warnhinweise/Kontraindikationen) verhindert auch eine ordnungsgemäße Sicherheits-Vorprüfung.
+
+**Um fortzufahren, wird Folgendes benötigt:**
+- Gebrauchsinformations-/Fachinformationsdaten (Warnhinweise, Kontraindikationen) — DG001
+- Bestätigter Wirkmechanismus von DrugBank — DG002
+- Direkte Evidenz (in vitro/in vivo oder klinisch), die Delamanid speziell gegen *M. bovis* bewertet
+- Klärung der wahren Neuartigkeit: Bewertung, ob „Rindertuberkulose" eine distinkte regulatorische Indikation darstellt oder sich mit Delamanids bereits bestehender MDR-TB-Zulassung überschneidet
+- Bestätigung des regulatorischen/Marktstatus, bevor ein Repurposing-Pfad verfolgt wird
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

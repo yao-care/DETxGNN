@@ -29,92 +29,93 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Avelumab: From Anti-PD-L1 Immunotherapy to Human Herpesvirus 8-Related Tumor
+# Avelumab: Von Anti-PD-L1-Immunotherapie zum humanem Herpesvirus-8-assoziierten Tumor
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Avelumab is an anti-PD-L1 monoclonal antibody (immune checkpoint inhibitor); the specific original approved indication is not available in this evidence pack (no German marketing license on file).
-> The TxGNN model's top-ranked prediction for this candidate is **Human Herpesvirus 8-Related Tumor** (score 99.97%),
-> but currently there are **no clinical trials** and **no publications** in this evidence pack supporting this specific direction — the prediction is at model-inference level only (L5).
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available in this evidence pack (no BfArM license record; drug class: anti-PD-L1 immunotherapy) |
-| Predicted New Indication | Human Herpesvirus 8-Related Tumor |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L5 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Avelumab ist ein monoklonaler Anti-PD-L1-Antikörper (Immuncheckpoint-Inhibitor); die spezifische ursprüngliche zugelassene Indikation ist in diesem Evidenzpaket nicht verfügbar (keine deutsche Zulassung auf Datei).
+> Die Top-Ranking-Vorhersage des TxGNN-Modells für diesen Kandidaten ist **humanem Herpesvirus-8-assoziierter Tumor** (Punktzahl 99,97%),
+> doch gegenwärtig gibt es **keine klinischen Studien** und **keine Publikationen** in diesem Evidenzpaket, die diese spezifische Richtung unterstützen — die Vorhersage ist nur auf Modell-Inferenz-Ebene (L5).
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schneller Überblick
 
-Currently, detailed mechanism of action data is not available in this evidence pack (data gap DG002). Based on general drug-class knowledge, avelumab is an anti-PD-L1 monoclonal antibody belonging to the immune checkpoint inhibitor class, used in oncology to block the PD-1/PD-L1 pathway and restore T-cell–mediated antitumor immunity.
-
-HHV8-related tumors (e.g., Kaposi sarcoma, primary effusion lymphoma) typically arise in immunosuppressed or AIDS populations. The theoretical rationale is that PD-L1 blockade could restore antiviral and antitumor immune surveillance in these patients, which is mechanistically plausible for a checkpoint inhibitor in general. However, per the rationale provided for this specific candidate, **this link is derived purely from the TxGNN prediction network and is not supported by any direct or indirect clinical evidence** — no trials, case reports, or reviews on avelumab in HHV8-related tumors exist in this dataset.
-
-Given the complete absence of supporting evidence and the missing MOA/original-indication data, this specific prediction should be treated as an early-stage hypothesis only, not a validated mechanistic extension.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Artikel | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Im Evidenzpaket nicht verfügbar (kein BfArM-Zulassungseintrag; Wirkstoffklasse: Anti-PD-L1-Immunotherapie) |
+| Vorhergesagte neue Indikation | Humanem Herpesvirus-8-assoziierter Tumor |
+| TxGNN-Vorhersage-Score | 99,97% |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | ✗ Nicht auf dem Markt |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Abwarten |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage angemessen?
 
-Currently no related literature available
+Derzeit sind detaillierte Daten zum Wirkmechanismus in diesem Evidenzpaket nicht verfügbar (Datenlücke DG002). Basierend auf allgemeinem Wissen über Wirkstoffklassen ist Avelumab ein monoklonaler Anti-PD-L1-Antikörper der Klasse der Immuncheckpoint-Inhibitoren, der in der Onkologie verwendet wird, um den PD-1/PD-L1-Signalweg zu blockieren und die T-Zell-vermittelte Antitumor-Immunität wiederherzustellen.
 
----
+HHV8-assoziierte Tumoren (z. B. Kaposi-Sarkom, primäres Pleura-Lymphom) entstehen typischerweise in immunsupprimierten oder AIDS-Populationen. Das theoretische Konzept ist, dass die PD-L1-Blockade antivirale und Antitumor-Immunüberwachung bei diesen Patienten wiederherstellen könnte, was mechanistisch für einen Checkpoint-Inhibitor im Allgemeinen plausibel ist. Allerdings ist — gemäß der für diesen spezifischen Kandidaten angegebenen Begründung — **dieser Zusammenhang rein aus dem TxGNN-Vorhersagenetzwerk abgeleitet und wird durch keine direkte oder indirekte klinische Evidenz gestützt** — es gibt keine Studien, Fallberichte oder Übersichtsarbeiten zu Avelumab bei HHV8-assoziierten Tumoren in diesem Datensatz.
 
-## Germany Market Information
-
-Avelumab currently holds no marketing authorization in Germany (0 licenses on file); market status is **Not Marketed**.
+Angesichts der völligen Abwesenheit von unterstützender Evidenz und der fehlenden Wirkmechanismus-/Originalindikations-Daten sollte diese spezifische Vorhersage nur als frühe Hypothese behandelt werden, nicht als validierte mechanistische Erweiterung.
 
 ---
 
-## Cytotoxicity
+## Evidenz aus klinischen Studien
 
-Avelumab is an antineoplastic agent (anti-PD-L1 immune checkpoint inhibitor used in oncology).
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Immunotherapy (Anti-PD-L1 immune checkpoint inhibitor) |
-| Myelosuppression Risk | Low — checkpoint inhibitors are not classically myelosuppressive; the dominant toxicity concern is immune-related adverse events rather than bone marrow suppression (specific toxicity data not available in this evidence pack) |
-| Emetogenicity Classification | Low — immune checkpoint inhibitors are generally classified as minimal emetogenic risk |
-| Monitoring Items | Thyroid, liver, and renal function; clinical monitoring for immune-related adverse events (colitis, pneumonitis, hepatitis, endocrinopathy) — general class-based guidance, as no drug-specific toxicity data is available |
-| Handling Protection | As a monoclonal antibody (biologic), avelumab is not subject to conventional cytotoxic drug handling regulations; standard institutional infusion safety protocols should still apply |
+Gegenwärtig sind keine verwandten klinischen Studien registriert
 
 ---
 
-## Safety Considerations
+## Evidenz aus der Literatur
 
-Please refer to the package insert for safety information.
-
-*(Key warnings, contraindications, and drug interaction data are not available in this evidence pack — data gap DG001, blocking severity.)*
+Gegenwärtig ist keine verwandte Literatur verfügbar
 
 ---
 
-## Conclusion and Next Steps
+## Informationen zum deutschen Markt
 
-**Decision: Hold**
+Avelumab hat gegenwärtig keine Zulassung in Deutschland (0 Zulassungen auf Datei); der Marktstatus ist **Nicht auf dem Markt**.
 
-**Rationale:**
-- The top prediction (Human Herpesvirus 8-Related Tumor) has a very high TxGNN score but zero supporting clinical trials or literature, and both original indication and MOA data are missing, so it cannot pass even an initial safety/plausibility screen.
+---
 
-**To proceed, the following is needed:**
-- TFDA/BfArM package insert data (warnings, contraindications) — blocking gap (DG001)
-- Confirmed mechanism of action from DrugBank or primary literature (DG002)
-- At least preclinical or case-level evidence specifically linking avelumab to HHV8-related tumors before advancing beyond L5
-- **Note:** within this same candidate set, ranks 9–10 (*prostatic urethra urothelial carcinoma*, *kidney pelvis sarcomatoid transitional cell carcinoma*) show stronger mechanistic plausibility, since avelumab is already an approved class for urothelial carcinoma maintenance therapy, and rank 10 has one completed observational trial (NCT05431777). These may be more tractable candidates for near-term follow-up than the current top-ranked prediction.
+## Zytotoxizität
+
+Avelumab ist ein antineoplastisches Arzneimittel (Anti-PD-L1-Immuncheckpoint-Inhibitor in der Onkologie).
+
+| Artikel | Inhalt |
+|--------|--------|
+| Zytotoxizitäts-Klassifizierung | Immunotherapie (Anti-PD-L1-Immuncheckpoint-Inhibitor) |
+| Myelosuppressions-Risiko | Niedrig — Checkpoint-Inhibitoren sind nicht klassischerweise myelosuppressiv; die dominanten Toxizitätsbedenken sind behandlungsassoziierte Nebenwirkungen statt Knochenmarkssuppression (spezifische Toxizitätsdaten im Evidenzpaket nicht verfügbar) |
+| Emetogenitäts-Klassifizierung | Niedrig — Immuncheckpoint-Inhibitoren werden allgemein als minimales emetogenes Risiko klassifiziert |
+| Zu überwachende Aspekte | Schilddrüsen-, Leber- und Nierenfunktion; klinische Überwachung auf behandlungsassoziierte Nebenwirkungen (Kolitis, Pneumonitis, Hepatitis, Endokrinopathie) — allgemeine klassenbasierte Leitlinie, da keine arzneimittelspezifischen Toxizitätsdaten verfügbar sind |
+| Handhabungsschutz | Als monoklonaler Antikörper (biologisches Arzneimittel) unterliegt Avelumab nicht den konventionellen Handhabungsbestimmungen für zytotoxische Arzneimittel; Standard-Infusions-Sicherheitsprotokolle der Institution sollten dennoch angewendet werden |
+
+---
+
+## Sicherheitsüberlegungen
+
+Bitte beachten Sie die Gebrauchsinformation für Sicherheitsinformationen.
+
+*(Wichtige Warnungen, Kontraindikationen und Arzneimittelwechselwirkungs-Daten sind im Evidenzpaket nicht verfügbar — Datenlücke DG001, blockierende Schwere.)*
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Abwarten**
+
+**Begründung:**
+- Die Top-Vorhersage (humanem Herpesvirus-8-assoziierter Tumor) hat einen sehr hohen TxGNN-Score, aber keine unterstützenden klinischen Studien oder Literatur, und sowohl ursprüngliche Indikation als auch Wirkmechanismus-Daten fehlen, daher kann sie nicht einmal ein initiales Sicherheits-/Plausibilitäts-Screening bestehen.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+- TFDA/BfArM-Gebrauchsinformationen (Warnungen, Kontraindikationen) — blockierende Lücke (DG001)
+- Bestätigter Wirkmechanismus aus DrugBank oder Primärliteratur (DG002)
+- Mindestens präklinische oder Fall-Evidenz, die Avelumab spezifisch mit HHV8-assoziierten Tumoren verknüpft, bevor über L5 hinaus vorangeschritten wird
+- **Hinweis:** Innerhalb dieses gleichen Kandidaten-Satzes zeigen die Ränge 9–10 (*Urothel-Karzinom der prostatischen Urethra*, *sarkomaides Übergangszellkarzinom des Nierenbeckens*) stärkere mechanistische Plausibilität, da Avelumab bereits eine genehmigte Klasse für die Erhaltungstherapie von Urothel-Karzinom ist, und Rang 10 hat eine abgeschlossene Beobachtungsstudie (NCT05431777). Diese könnten traktablere Kandidaten für kurzfristige Nachverfolgung sein als die aktuell top-gerankte Vorhersage.
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

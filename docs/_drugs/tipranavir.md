@@ -29,74 +29,75 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Tipranavir: From HIV-1 Infection to Feline Acquired Immunodeficiency Syndrome
+# Tipranavir: Von der HIV-1-Infektion zum Felinen Immundefekt-Syndrom
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Tipranavir is a non-peptidic HIV-1 protease inhibitor clinically used (in combination with ritonavir) for treatment-experienced HIV-1 infection. The TxGNN model's top-ranked prediction is **Feline Acquired Immunodeficiency Syndrome (FIV)**, a veterinary retroviral disease in cats — with **no clinical trials and no literature** currently supporting this as a human repurposing opportunity. The model appears to be capturing cross-species retroviral-protease homology rather than an actionable clinical signal.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not specified in evidence pack (clinically known: HIV-1 infection, treatment-experienced adults, used with ritonavir boosting) |
-| Predicted New Indication | Feline Acquired Immunodeficiency Syndrome (veterinary) |
-| TxGNN Prediction Score | 99.99% (rank 215 of full disease list) |
-| Evidence Level | L5 (model prediction only, no supporting trials or literature) |
-| Germany Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Tipranavir ist ein nicht-peptidischer HIV-1-Proteasehemmer, der klinisch (in Kombination mit Ritonavir) zur Behandlung therapieerfahrener HIV-1-Infektionen eingesetzt wird. Die Top-Vorhersage des TxGNN-Modells ist das **Feline Immundefekt-Syndrom (FIV)**, eine veterinärmedizinische Retrovirus-Erkrankung bei Katzen – **ohne klinische Studien und ohne Literatur**, die dies derzeit als Gelegenheit zur Wiederverwendung beim Menschen stützt. Das Modell scheint eher strukturelle Homologien zwischen tierartübergreifenden Retroviralen Proteasen zu erfassen, als ein verwertbares klinisches Signal zu identifizieren.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap). Based on known information, tipranavir is a non-peptidic HIV-1 protease inhibitor administered with ritonavir; its efficacy in treatment-experienced HIV-1 infection is well established.
-
-The top-ranked predicted indication, feline acquired immunodeficiency syndrome (FIV), is a **veterinary retroviral disease**, not a human condition. The model's rationale explicitly notes that the high score likely reflects structural homology between the FIV and HIV proteases (a cross-species retroviral mechanism), rather than an actual therapeutic opportunity in humans — the source data itself states this "has no practical drug repurposing value."
-
-The same pattern holds for most other top-10 predictions: simian immunodeficiency virus infection (research animal model), a rare neurodevelopmental disorder, familial hyperlipidemia (likely reflecting a known protease-inhibitor *adverse effect* rather than a treatable indication), and several unrelated benign neoplasms (prostate fibroma, Brenner tumor, phyllodes tumor) — all flagged internally as embedding noise with no biological plausibility. Two exceptions stand out: **AIDS related complex** (rank 6, evidence level L4) is mechanistically coherent because it sits on the same HIV/AIDS disease spectrum tipranavir already treats, though no trials specific to this legacy term were found; and **congenital HIV infection** (rank 5) is associated with 9 clinical trials, but these all concern other antiretroviral regimens (cabotegravir/rilpivirine, dolutegravir, maraviroc-class CCR5 antagonists) rather than tipranavir itself, so they do not directly support a new indication for this drug.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for the predicted indication (feline acquired immunodeficiency syndrome).
+| Eintrag | Inhalt |
+|---------|---------|
+| Ursprüngliche Indikation | Nicht im Evidenzpaket angegeben (klinisch bekannt: HIV-1-Infektion, therapieerfahrene Erwachsene, verwendet mit Ritonavir-Verstärkung) |
+| Vorhergesagte neue Indikation | Felines Immundefekt-Syndrom (veterinärmedizinisch) |
+| TxGNN-Vorhersage-Score | 99.99% (Rang 215 von der vollständigen Krankheitsliste) |
+| Evidenzstufe | L5 (nur Modellvorhersage, keine stützenden Studien oder Literatur) |
+| Marktstatus Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Abwartend |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage plausibel?
 
-Currently no related literature available for the predicted indication (feline acquired immunodeficiency syndrome).
+Derzeit sind detaillierte Wirkmechanismus-Daten nicht verfügbar (gekennzeichnet als Datenlücke mit hohem Schweregrad). Basierend auf bekannten Informationen ist Tipranavir ein nicht-peptidischer HIV-1-Proteasehemmer, der mit Ritonavir verabreicht wird; seine Wirksamkeit bei therapieerfahrenen HIV-1-Infektionen ist gut etabliert.
 
----
+Die Top-bewertete vorhergesagte Indikation, das Feline Immundefekt-Syndrom (FIV), ist eine **veterinärmedizinische Retrovirus-Erkrankung**, keine menschliche Erkrankung. Die Begründung des Modells vermerkt explizit, dass die hohe Punktzahl wahrscheinlich die strukturelle Homologie zwischen den FIV- und HIV-Proteasen (ein tierartübergreifender Retrovirus-Mechanismus) widerspiegelt, eher als eine tatsächliche therapeutische Gelegenheit beim Menschen – die Quelldaten selbst besagen, dass dies „keinen praktischen Wert für die Wiederverwendung von Arzneimitteln hat".
 
-## Germany Market Information
-
-No marketing authorizations are currently on file for tipranavir (0 licenses recorded; market status: not marketed).
+Dasselbe Muster gilt für die meisten anderen Top-10-Vorhersagen: Simiane Immunodefekt-Virus-Infektion (Forschungstiermodell), eine seltene neuronale Entwicklungsstörung, familiäre Hyperlipidämie (wahrscheinlich eine bekannte Nebenwirkung des Proteasehemmers widerspiegelnd, eher als eine behandelbare Indikation), und mehrere nicht verwandte benigne Neoplasien (Prostatafibrom, Brenner-Tumor, Phyllodes-Tumor) – alle intern als Rauscheinbettung ohne biologische Plausibilität gekennzeichnet. Zwei Ausnahmen stechen hervor: **AIDS-assoziierter Komplex** (Rang 6, Evidenzstufe L4) ist mechanistisch kohärent, da er sich im gleichen HIV/AIDS-Krankheitsspektrum befindet, das Tipranavir bereits behandelt, obwohl keine Studien zu diesem älteren Begriff gefunden wurden; und **kongenitale HIV-Infektion** (Rang 5) ist mit 9 klinischen Studien verbunden, aber diese befassen sich alle mit anderen antiretroviralen Therapieschema (cabotegravir/rilpivirine, dolutegravir, Maraviroc-Klasse-CCR5-Antagonisten), eher als mit Tipranavir selbst, daher unterstützen sie nicht direkt eine neue Indikation für dieses Arzneimittel.
 
 ---
 
-## Safety Considerations
+## Klinische Studienevidenz
 
-Please refer to the package insert for safety information. *(Key warnings, contraindications, and drug interaction data are currently unavailable — TFDA label retrieval is flagged as a Blocking data gap.)*
+Derzeit sind keine zugehörigen klinischen Studien für die vorhergesagte Indikation registriert (Felines Immundefekt-Syndrom).
 
 ---
 
-## Conclusion and Next Steps
+## Literaturenevidenz
 
-**Decision: Hold**
+Derzeit ist keine zugehörige Literatur für die vorhergesagte Indikation verfügbar (Felines Immundefekt-Syndrom).
 
-**Rationale:**
-The top-ranked predicted indication (feline AIDS) is a veterinary disease with no clinical trials, no literature, and an explicit mechanistic caveat that it carries no practical repurposing value in humans. No clinically actionable, sufficiently evidenced human indication emerges from the current prediction set.
+---
 
-**To proceed, the following is needed:**
-- Retrieve TFDA-approved label (warnings/contraindications) — currently a Blocking gap (DG001)
-- Obtain confirmed mechanism-of-action data from DrugBank — currently a High-severity gap (DG002)
-- If pursuing repurposing further, redirect evaluation toward the more mechanistically coherent candidates within the same disease spectrum (e.g., "AIDS related complex") rather than the top TxGNN-ranked but biologically implausible/cross-species predictions
-- Independently verify whether any tipranavir-specific trials exist for HIV-spectrum sub-indications, since the trials currently attached to "congenital HIV infection" involve other antiretroviral agents, not tipranavir
+## Marktstatus Deutschland
+
+Derzeit sind keine Marktgenehmigungen für Tipranavir registriert (0 Lizenzen erfasst; Marktstatus: nicht vermarktet).
+
+---
+
+## Sicherheitsüberlegungen
+
+Bitte konsultieren Sie die Gebrauchsinformation für Sicherheitsinformationen. *(Wichtige Warnhinweise, Kontraindikationen und Arzneimittelwechselwirkungsdaten sind derzeit nicht verfügbar – Das Abrufen des TFDA-Labels ist als Blockierungsdatenlücke gekennzeichnet.)*
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Abwartend**
+
+**Begründung:**
+Die Top-bewertete vorhergesagte Indikation (Feliner AIDS) ist eine veterinärmedizinische Erkrankung ohne klinische Studien, ohne Literatur und mit einem ausdrücklichen mechanistischen Vorbehalt, dass sie keinen praktischen Wiederverwendungswert beim Menschen hat. Aus der aktuellen Vorhersage-Reihe geht keine klinisch verwertbare, ausreichend belegte menschliche Indikation hervor.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+- Abrufen des TFDA-genehmigten Labels (Warnhinweise/Kontraindikationen) – derzeit eine Blockierungslücke (DG001)
+- Bestätigung der Wirkmechanismus-Daten von DrugBank beschaffen – derzeit eine Datenlücke mit hohem Schweregrad (DG002)
+- Bei weiterer Verfolgung der Wiederverwendung sollte die Bewertung auf die mechanistisch kohärenteren Kandidaten im gleichen Krankheitsspektrum umgeleitet werden (z. B. „AIDS-assoziierter Komplex"), eher als die Top-TxGNN-bewerteten, aber biologisch implausiblen/tierartübergreifenden Vorhersagen
+- Unabhängig überprüfen, ob tipranavir-spezifische Studien für HIV-Spektrum-Subindikationen existieren, da die derzeit mit „kongenitaler HIV-Infektion" verknüpften Studien andere antiretrovirale Mittel betreffen, nicht Tipranavir selbst
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

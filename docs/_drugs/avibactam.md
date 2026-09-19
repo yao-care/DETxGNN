@@ -29,78 +29,79 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Avibactam：從 β-內醯胺酶抑制劑併用療法 到 Streptococcal Pneumonia（肺炎鏈球菌感染）
+# Avibactam: Von der β-Laktamase-Inhibitor-Kombinationstherapie zu Streptococcal Pneumonia (Streptococcus-pneumoniae-Infektion)
 
-## 一句話摘要
+## Zusammenfassung in einem Satz
 
-Avibactam 是非β-內醯胺類β-內醯胺酶抑制劑，本身無抗菌活性，臨床上僅能與β-內醯胺類抗生素（如 ceftazidime）併用以恢復其對產酶菌株的療效，目前未在德國取得任何藥品許可證。TxGNN 模型預測其可能對 **Streptococcal Pneumonia（肺炎鏈球菌感染）** 有效，但目前**無任何臨床試驗、無任何文獻**支持此方向，且證據包內附的機轉分析本身即指出該關聯性薄弱。
-
----
-
-## 總覽表
-
-| 項目 | 內容 |
-|------|------|
-| 原始適應症 | 無登記資料；Avibactam 本身無單方適應症，僅作為β-內醯胺酶抑制劑與抗生素併用 |
-| 預測新適應症 | Streptococcal pneumonia（肺炎鏈球菌感染） |
-| TxGNN 預測分數 | 99.70% |
-| 證據等級 | L5（僅模型預測，無實際研究） |
-| 德國市場狀態 | ✗ Not marketed |
-| 授權筆數 | 0 |
-| 建議決策 | Hold |
+Avibactam ist ein nicht-β-Laktam-β-Laktamase-Inhibitor ohne intrinsische antibakterielle Aktivität und kann klinisch nur in Kombination mit β-Laktam-Antibiotika (z. B. ceftazidime) verwendet werden, um die Wirksamkeit gegen enzymproduzierende Bakterienstämme wiederherzustellen. Es hat derzeit keine Arzneimittelzulassung in Deutschland. Das TxGNN-Modell sagt eine mögliche Wirksamkeit gegen **Streptococcal Pneumonia (Streptococcus-pneumoniae-Infektion)** voraus, aber es gibt derzeit **keine klinischen Studien und keine Literatur**, die diese Richtung unterstützen, und die Wirkmechanismus-Analyse im Evidenzpaket selbst zeigt, dass die Assoziation schwach ist.
 
 ---
 
-## 為什麼這項預測合理？
+## Übersichtstabelle
 
-目前無詳細作用機轉（MOA）資料可供查詢（DrugBank 欄位標記為資料缺口）。根據證據包內附的機轉分析，可得知 Avibactam 是非β-內醯胺類β-內醯胺酶抑制劑，本身不具抗菌活性，其臨床角色僅限於與β-內醯胺類抗生素（如 ceftazidime）併用，以恢復藥物對產酶革蘭氏陰性菌株的療效。
-
-然而，證據包對本次排名第一的預測適應症（肺炎鏈球菌感染）之機轉分析結論是**負面**的：Streptococcus pneumoniae 感染多數對青黴素類/頭孢菌素類本身即敏感，並非典型的β-內醯胺酶抗藥性目標菌種。也就是說，即使 avibactam 與抗生素併用，也難以用其酶抑制機轉合理解釋對肺炎鏈球菌感染的額外療效。其餘 5 項預測（重症流感、輸尿管結核、泌尿道血吸蟲病、高澱粉酶血症、多株性高黏滯症候群）之機轉分析同樣指出無合理生物學路徑（病毒感染、分枝桿菌、寄生蟲、代謝性疾病、血液免疫疾病等，均與細菌β-內醯胺酶抑制機轉無關）。
-
-綜合而言，本輪 6 項預測適應症的機轉合理性均偏弱，屬於模型統計關聯而非機轉驅動的假說，需審慎看待。
-
----
-
-## 臨床試驗證據
-
-目前無相關臨床試驗登記。
+| Artikel | Inhalt |
+|--------|---------|
+| Ursprüngliche Indikation | Keine Registrierungsdaten; Avibactam selbst hat keine Monotherapie-Indikation und wird nur als β-Laktamase-Inhibitor in Kombination mit Antibiotika verwendet |
+| Vorhergesagte neue Indikation | Streptococcal pneumonia (Streptococcus-pneumoniae-Infektion) |
+| TxGNN-Vorhersagepunktzahl | 99.70% |
+| Evidenzstufe | L5 (nur Modellvorhersage, keine eigentliche Forschung) |
+| Marktstatus in Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## 文獻證據
+## Warum ist diese Vorhersage rational?
 
-目前無相關文獻資料。
+Derzeit sind keine detaillierten Daten zum Wirkmechanismus (MOA) verfügbar (DrugBank-Feld ist als Datenlücke gekennzeichnet). Gemäß der im Evidenzpaket enthaltenen Wirkmechanismus-Analyse ist Avibactam ein nicht-β-Laktam-β-Laktamase-Inhibitor ohne intrinsische antibakterielle Aktivität. Seine klinische Rolle ist auf die Kombination mit β-Laktam-Antibiotika (z. B. ceftazidime) beschränkt, um die Wirksamkeit des Arzneimittels gegen enzymproduzierende gramnegative Bakterienstämme wiederherzustellen.
 
----
+Die Wirkmechanismus-Analyse des Evidenzpakets für die am höchsten bewertete vorhergesagte Indikation (Streptococcus-pneumoniae-Infektion) ist jedoch **negativ**: Streptococcus-pneumoniae-Infektionen sind in den meisten Fällen von Natur aus empfindlich gegenüber Penicillinen/Cephalosporinen und sind nicht der typische Zielorganismus für β-Laktamase-Resistenz. Das heißt, selbst wenn Avibactam mit Antibiotika kombiniert wird, ist es schwierig, die zusätzliche Wirksamkeit gegen Streptococcus-pneumoniae-Infektionen durch seinen Enzym-Inhibitions-Mechanismus rational zu erklären. Die restlichen 5 vorhergesagten Indikationen (schwere Influenza, Uretertuberkulose, urogenitale Schistosomiasis, Hyperamylasämie, Hyperviskositätssyndrom) zeigen ebenfalls in ihrer Wirkmechanismus-Analyse keine rationalen biologischen Wege auf (Virusinfektionen, Mykobakterien, Parasiten, metabolische Erkrankungen, hämatologische Immunerkrankungen usw. stehen alle in keinem Zusammenhang mit dem bakteriellen β-Laktamase-Inhibitions-Mechanismus).
 
-## 德國市場資訊
-
-Avibactam 目前尚未在德國取得任何藥品許可證（授權筆數：0），市場狀態為「Not marketed」。因無登記資料，暫無法提供劑型、產品名稱或核准適應症文字。
+Zusammenfassend weisen alle 6 vorhergesagten Indikationen in dieser Runde eine schwache Wirkmechanismus-Rationalität auf. Es handelt sich um modellgestützte statistische Assoziationen statt um wirkmechanismus-getriebene Hypothesen, die mit Vorsicht zu betrachten sind.
 
 ---
 
-## 安全性考量
+## Klinische Studienevidenz
 
-請參考仿單以獲取安全性資訊。
-
-（TFDA 仿單警語與禁忌症資料目前缺失，列為 Blocking 等級資料缺口，須優先補齊後方可進入 S1 安全性初評。）
+Derzeit keine einschlägigen klinischen Studien registriert.
 
 ---
 
-## 結論與下一步
+## Literaturevidenz
 
-**決策：Hold**
+Derzeit keine einschlägigen Literaturangaben vorhanden.
 
-**理由：**
-- 六項預測適應症之證據等級均為 L5（僅模型預測，無臨床試驗或文獻佐證）。
-- 排名第一之預測（肺炎鏈球菌感染）機轉分析結論偏向不支持，其餘候選之機轉關聯性亦均薄弱或無關。
-- 存在 Blocking 等級資料缺口（BfArM package insert warnings/contraindications），依規範無法進入安全性初評（S1），亦無法評估藥物交互作用風險。
+---
 
-**要繼續推進，需要補充：**
-- 取得 TFDA（或德國/歐盟對應機關）仿單警語與禁忌症資料（DG001，Blocking）
-- 透過 DrugBank API 補齊完整作用機轉（MOA）資料（DG002，High）
-- 針對排名靠前之候選適應症，檢索是否有臨床前（preclinical）或病例層級證據，以確認是否值得進一步investigate
-- 若持續無實證支持，建議所有 6 項候選維持 Hold，暫不進入下一階段評估
+## Informationen zum deutschen Markt
+
+Avibactam hat derzeit keine Arzneimittelzulassung in Deutschland (Anzahl der Genehmigungen: 0), und der Marktstatus ist „Nicht vermarktet". Da keine Registrierungsdaten vorhanden sind, können derzeit keine Darreichungsform, kein Produktname oder genehmigter Indikationstext bereitgestellt werden.
+
+---
+
+## Sicherheitsaspekte
+
+Bitte konsultieren Sie die Packungsbeilage für Sicherheitsinformationen.
+
+(TFDA-Packungsbeilage-Warnhinweise und Gegenanzeigungsdaten fehlen derzeit, sind als Blocking-Level-Datenlücke eingestuft und müssen vorrangig ergänzt werden, bevor eine S1-Sicherheitsbewertung eingeleitet werden kann.)
+
+---
+
+## Schlussfolgerungen und nächste Schritte
+
+**Entscheidung: Hold**
+
+**Begründung:**
+- Die Evidenzstufe aller sechs vorhergesagten Indikationen ist L5 (nur Modellvorhersage, ohne klinische Studien oder Literaturbelege).
+- Die Wirkmechanismus-Analyse der am höchsten bewerteten Vorhersage (Streptococcus-pneumoniae-Infektion) zeigt eine negative Schlussfolgerung, und die Wirkmechanismus-Assoziation der übrigen Kandidaten ist ebenfalls schwach oder nicht vorhanden.
+- Es gibt Blocking-Level-Datenlücken (BfArM package insert warnings/contraindications). Nach den Richtlinien kann nicht in die S1-Sicherheitsbewertung eingeleitet werden, und auch eine Bewertung des Arzneimittel-Wechselwirkungsrisikos ist nicht möglich.
+
+**Um voranzuschreiten, muss Folgendes ergänzt werden:**
+- TFDA (oder entsprechende deutsche/EU-Behörden-) Packungsbeilage-Warnhinweise und Gegenanzeigungsdaten beschaffen (DG001, Blocking)
+- Vervollständigung der MOA-Daten (Wirkmechanismus) über die DrugBank-API (DG002, High)
+- Suche nach präklinischen oder fallgestützten Belegen für die am höchsten bewerteten Kandidaten-Indikationen, um zu bestätigen, ob eine weitere Untersuchung gerechtfertigt ist
+- Falls weiterhin keine empirischen Belege vorhanden sind, wird empfohlen, alle 6 Kandidaten im Hold-Status zu belassen und nicht in die nächste Evaluierungsphase einzutreten
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -29,76 +29,77 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Oritavancin: From Undocumented Original Indication to Bacteroidaceae Infectious Disease
+# Oritavancin: Von nicht dokumentierter ursprünglicher Indikation zu Bacteroidaceae-Infektionskrankheiten
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Oritavancin is a lipoglycopeptide antibiotic; its original indication is not documented in this evidence pack, and it is not currently marketed in this jurisdiction.
-> The TxGNN model predicts it may be effective for **Bacteroidaceae infectious disease**,
-> but **no clinical trials** and **no literature** currently support this direction, and the drug's own mechanism of action argues against it.
+> Oritavancin ist ein Lipoglykopeptid-Antibiotikum; seine ursprüngliche Indikation ist in diesem Evidenzbericht nicht dokumentiert, und das Medikament ist derzeit in dieser Gerichtsbarkeit nicht im Handel.
+> Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam gegen **Bacteroidaceae-Infektionskrankheiten** ist,
+> aber **keine klinischen Studien** und **keine Literatur** unterstützen derzeit diese Richtung, und der eigene Wirkmechanismus des Medikaments spricht dagegen.
 
 ---
 
-## Quick Overview
+## Schnellerblick
 
-| Item | Content |
+| Punkt | Inhalt |
 |------|------|
-| Original Indication | Not available — no license/indication data provided (drug not marketed) |
-| Predicted New Indication | Bacteroidaceae infectious disease |
-| TxGNN Prediction Score | 99.48% |
-| Evidence Level | L5 (model prediction only, no supporting trials or literature) |
-| Germany Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | Nicht verfügbar – keine Zulassungs-/Indikationsdaten vorhanden (nicht im Handel) |
+| Vorhergesagte neue Indikation | Bacteroidaceae-Infektionskrankheiten |
+| TxGNN-Vorhersage-Score | 99.48% |
+| Evidenzgrad | L5 (nur Modellvorhersage, keine Studien oder Literatur) |
+| Marktstatus Deutschland | ✗ Nicht im Handel |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Abwarten |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage sinnvoll?
 
-Detailed MOA data is flagged as a data gap, but the evidence pack's own mechanistic rationale is informative: oritavancin is a **lipoglycopeptide** antibiotic that binds the D-Ala-D-Ala terminus of peptidoglycan precursors, inhibiting bacterial cell wall synthesis. This mechanism is only active against **Gram-positive** organisms.
+Detaillierte Wirkmechanismus-Daten sind als Datenlücken gekennzeichnet, aber die eigene mechanistische Begründung dieses Berichts ist aussagekräftig: Oritavancin ist ein **Lipoglykopeptid**-Antibiotikum, das an das D-Ala-D-Ala-Ende von Peptidoglykan-Vorläufern bindet und die Synthese der bakteriellen Zellwand hemmt. Dieser Mechanismus wirkt nur gegen **grampositiv**e Organismen.
 
-**Bacteroidaceae** are Gram-negative anaerobes whose outer membrane blocks penetration of large glycopeptide molecules — mechanistically, oritavancin should not be active against this pathogen family. The rationale text explicitly labels this a likely **TxGNN false positive**, arising from the drug and disease being graph-adjacent "infectious disease" nodes rather than sharing a real pharmacological mechanism.
+**Bacteroidaceae** sind gramnegative Anaerobier, deren Außenmembran das Eindringen großer Glykopeptid-Moleküle blockiert – mechanistisch sollte Oritavancin gegen diese Pathogenfamilie nicht wirksam sein. Der Begründungstext kennzeichnet dies explizit als wahrscheinlich **TxGNN-Falsch-Positiv**, das dadurch entsteht, dass sich Medikament und Krankheit als graphisch benachbarte „Infektionskrankheit"-Knoten befinden, anstatt einen echten pharmakologischen Mechanismus zu teilen.
 
-The other two candidates in this evidence pack (ophthalmic herpes zoster — a viral infection, and *Mycoplasma pneumoniae* pneumonia — a cell-wall-deficient bacterium) show the same pattern: high TxGNN scores paired with mechanistic incompatibility and zero clinical/literature support. This is not a case of a plausible signal awaiting evidence — the mechanism itself argues against the prediction.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Die zwei anderen Kandidaten in diesem Bericht (ophthalmischer Herpes zoster – eine Virusinfektion – und *Mycoplasma pneumoniae*-Pneumonie – ein Zellwand-defizientes Bakterium) zeigen das gleiche Muster: hohe TxGNN-Werte gepaart mit mechanistischer Inkompatibilität und null klinischer/Literatur-Unterstützung. Dies ist kein Fall eines plausiblen Signals, das auf Evidenz wartet – der Mechanismus selbst spricht gegen die Vorhersage.
 
 ---
 
-## Literature Evidence
+## Evidenz aus klinischen Studien
 
-Currently no related literature available.
-
----
-
-## Germany Market Information
-
-Oritavancin is not marketed in this jurisdiction — no authorization records are available.
+Derzeit sind keine verwandten klinischen Studien registriert.
 
 ---
 
-## Safety Considerations
+## Literaturbeweise
 
-Please refer to the package insert for safety information.
+Derzeit ist keine verwandte Literatur verfügbar.
 
 ---
 
-## Conclusion and Next Steps
+## Informationen zum deutschen Markt
 
-**Decision: Hold**
+Oritavancin ist in dieser Gerichtsbarkeit nicht im Handel – es sind keine Zulassungsunterlagen verfügbar.
 
-**Rationale:**
-The top-ranked prediction (Bacteroidaceae infectious disease) is mechanistically incompatible with oritavancin's Gram-positive-only spectrum, is unsupported by any clinical trial or literature evidence, and reflects TxGNN's L5 (prediction-only) tier. The two other candidates in this pack show the same pattern of mechanistic implausibility, suggesting a systematic false-positive cluster rather than a genuine repurposing signal.
+---
 
-**To proceed, the following is needed:**
-- Confirmed MOA and original indication data from DrugBank/regulatory sources (currently marked as data gaps)
-- TFDA/regulatory label warnings and contraindications (blocking gap — required before any S1 safety screening)
-- Independent microbiological or in-vitro evidence of activity against Bacteroidaceae, if this candidate is to be pursued further
-- Given the mechanistic red flags, recommend deprioritizing this candidate in favor of higher-evidence-level predictions elsewhere in the pipeline
+## Sicherheitserwägungen
+
+Bitte lesen Sie die Packungsbeilage für Sicherheitsinformationen.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Abwarten**
+
+**Begründung:**
+Die am höchsten eingestufte Vorhersage (Bacteroidaceae-Infektionskrankheiten) ist mechanistisch mit dem reinen Grampositiv-Spektrum von Oritavancin unvereinbar, wird durch keinerlei klinische Studien oder Literatur gestützt und spiegelt die L5-Stufe (nur Vorhersage) von TxGNN wider. Die zwei anderen Kandidaten in diesem Bericht zeigen das gleiche Muster mechanistischer Implausibilität, was auf einen systematischen Falsch-Positiv-Cluster statt eines echten Repurposing-Signals hindeutet.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+- Bestätigte Wirkmechanismus- und ursprüngliche Indikationsdaten aus DrugBank/Regulierungsquellen (derzeit als Datenlücken gekennzeichnet)
+- TFDA-/Regulierungs-Etikett-Warnungen und Kontraindikationen (blockierende Lücke – erforderlich vor S1-Sicherheitsscreening)
+- Unabhängige mikrobiologische oder In-vitro-Evidenz für Aktivität gegen Bacteroidaceae, wenn dieser Kandidat weiterverfolgt werden soll
+- Angesichts der mechanistischen Warnsignale wird empfohlen, diesen Kandidaten zugunsten von Vorhersagen mit höherem Evidenzgrad an anderer Stelle in der Pipeline herabzustufen
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

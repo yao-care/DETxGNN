@@ -29,79 +29,80 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Tocofersolan: From Unknown Original Indication to Amenorrhea
+# Tocofersolan: Von unbekannter Ausgangsindikation zur Amenorrhoe
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Tocofersolan (a water-soluble vitamin E / TPGS formulation) currently has no documented original indication or mechanism-of-action data in this evidence pack.
-> The TxGNN model predicts it may be effective for **Amenorrhea**,
-> but this prediction is currently supported by **0 clinical trials** and **0 publications** — model output only.
+> Tocofersolan (eine wasserlösliche Vitamin-E-/TPGS-Formulierung) hat derzeit keine dokumentierte Ausgangsindikation oder Wirkmechanismus-Daten in diesem Evidence-Paket.
+> Das TxGNN-Modell sagt voraus, dass es für **Amenorrhoe** wirksam sein könnte,
+> aber diese Vorhersage wird derzeit durch **0 klinische Studien** und **0 Publikationen** gestützt — nur Modellausgabe.
 
 ---
 
-## Quick Overview
+## Kurzübersicht
 
-| Item | Content |
-|------|------|
-| Original Indication | No data available |
-| Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.31% |
+| Element | Inhalt |
+|---------|--------|
+| Ausgangsindikation | Keine Daten verfügbar |
+| Vorhergesagte neue Indikation | Amenorrhoe |
+| TxGNN-Vorhersage-Score | 99.31% |
 | Evidence Level | L5 |
-| Germany Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Marktstatus Deutschland | Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Abwarten |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage sinnvoll?
 
-Currently, detailed mechanism of action data for Tocofersolan is not available, and no original indication is documented in this evidence pack. Based on general pharmacological knowledge, Tocofersolan is a water-soluble esterified form of vitamin E (TPGS), typically used to support vitamin E absorption/supplementation in conditions of fat malabsorption — but this is not confirmed by the current dataset and should not be treated as established fact.
+Derzeit sind detaillierte Wirkmechanismus-Daten für Tocofersolan nicht verfügbar, und keine Ausgangsindikation ist in diesem Evidence-Paket dokumentiert. Basierend auf allgemeinem pharmazeutischem Wissen ist Tocofersolan eine wasserlösliche veresterte Form von Vitamin E (TPGS), typischerweise verwendet zur Unterstützung der Vitamin-E-Resorption/Supplementierung bei Bedingungen mit Fettmalabsorption — dies wird jedoch durch den aktuellen Datensatz nicht bestätigt und sollte nicht als etablierte Tatsache behandelt werden.
 
-For the top predicted indication (Amenorrhea), the model-generated rationale notes: *"No known mechanism directly links vitamin E/TPGS to menstrual disorders or amenorrhea. The high TxGNN score likely reflects indirect associations between vitamin E and endocrine/reproductive nodes within the knowledge graph, rather than a validated biological pathway."* This mechanistic link is therefore speculative and not supported by direct evidence.
+Für die höchst vorhergesagte Indikation (Amenorrhoe) merkt die modellgenerierte Begründung an: *"Es gibt keinen bekannten Wirkmechanismus, der Vitamin E/TPGS direkt mit Menstruationsstörungen oder Amenorrhoe verbindet. Der hohe TxGNN-Score spiegelt wahrscheinlich indirekte Assoziationen zwischen Vitamin E und endokrinen/reproduktiven Knoten innerhalb des Knowledge Graph wider, statt eines validierten biologischen Pfads."* Dieser Wirkmechanismus-Link ist daher spekulativ und wird nicht durch direkte Evidenz gestützt.
 
-Given the absence of MOA data, original indication data, and any supporting clinical trials or literature, this prediction should be treated as a hypothesis generated purely from graph-based inference, not as a mechanistically or clinically substantiated repurposing candidate.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Angesichts des Fehlens von Wirkmechanismus-Daten, Ausgangsindikations-Daten und jeglicher unterstützenden klinischen Studien oder Literatur sollte diese Vorhersage als eine Hypothese behandelt werden, die rein aus graphbasierter Inferenz generiert wurde, und nicht als ein mechanistisch oder klinisch substantiierter Umwidmungs-Kandidat.
 
 ---
 
-## Literature Evidence
+## Evidenz aus klinischen Studien
 
-Currently no related literature available.
-
----
-
-## Germany Market Information
-
-Tocofersolan is currently **not marketed** in Germany, and no authorization records are available in this evidence pack.
+Derzeit keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Safety Considerations
+## Literaturevidenz
 
-Please refer to the package insert for safety information.
-
-*Note: A blocking data gap has been identified — TFDA/BfArM label warnings and contraindications are not yet available, which prevents this candidate from entering the S1 safety pre-assessment stage.*
+Derzeit keine zugehörige Literatur verfügbar.
 
 ---
 
-## Conclusion and Next Steps
+## Informationen zum deutschen Markt
 
-**Decision: Hold**
+Tocofersolan ist derzeit in Deutschland **nicht vermarktet**, und keine Zulassungsunterlagen sind in diesem Evidence-Paket verfügbar.
 
-**Rationale:**
-This candidate is supported only by a TxGNN model score (L5 evidence) with no clinical trials, no literature, no confirmed mechanism of action, and no market presence. A blocking data gap on drug label warnings/contraindications also prevents any safety pre-assessment.
+---
 
-**To proceed, the following is needed:**
-- TFDA/BfArM package insert data (warnings, contraindications) — required to clear the blocking data gap
-- Confirmed mechanism of action (MOA) from DrugBank or primary literature
-- Confirmed original indication(s) for the drug
-- Any preclinical, observational, or clinical evidence specifically linking Tocofersolan to amenorrhea or reproductive/endocrine pathways
-- Reassessment of the secondary prediction (Acne), which is similarly unsupported (L5, 0 trials, 0 literature)
+## Sicherheitsüberlegungen
+
+Bitte beachten Sie die Fachinformation für Sicherheitsinformationen.
+
+*Anmerkung: Eine blockierende Datenlücke wurde identifiziert — TFDA/BfArM-Warnhinweise und Kontraindikationen sind noch nicht verfügbar, was verhindert, dass dieser Kandidat die S1-Sicherheits-Vorbewertungsstufe betritt.*
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Abwarten**
+
+**Begründung:**
+Dieser Kandidat wird nur durch einen TxGNN-Modell-Score (L5-Evidenz) mit keinen klinischen Studien, keiner Literatur, keinem bestätigten Wirkmechanismus und keiner Marktpräsenz gestützt. Eine blockierende Datenlücke bei Warnhinweisen/Kontraindikationen verhindert auch jede Sicherheits-Vorbewertung.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+- TFDA/BfArM-Fachinformations-Daten (Warnhinweise, Kontraindikationen) — erforderlich zur Beseitigung der blockierenden Datenlücke
+- Bestätigter Wirkmechanismus (MOA) aus DrugBank oder Primärliteratur
+- Bestätigte Ausgangsindikation(en) für das Arzneimittel
+- Jegliche präklinische, beobachtende oder klinische Evidenz, die Tocofersolan spezifisch mit Amenorrhoe oder reproduktiven/endokrinen Pfaden verbindet
+- Neubewertung der sekundären Vorhersage (Akne), die ähnlich nicht gestützt wird (L5, 0 Studien, 0 Literatur)
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -29,82 +29,83 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **7**
 
 </div>
 
-# Valsartan: From Hypertension to Malignant Hypertensive Renal Disease
+# Valsartan: Vom Bluthochdruck zur malignen hypertensiven Nierenkrankheit
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Valsartan is a well-established angiotensin II receptor blocker (ARB); this evidence pack does not include structured data on its originally approved indications, but ARBs are broadly used for hypertension and heart failure.
-> The TxGNN model predicts it may be effective for **Malignant Hypertensive Renal Disease**,
-> but currently only **0 clinical trials** and **1 indirect publication** (studying a different drug, avosentan) support this specific direction.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available in evidence pack (Valsartan is a class-recognized ARB commonly indicated for hypertension/heart failure; no structured `original_indications` or license text was provided) |
-| Predicted New Indication | Malignant Hypertensive Renal Disease |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L4 |
-| Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Valsartan ist ein etablierter Angiotensin-II-Rezeptorblocker (ARB); dieses Evidenzpaket enthält keine strukturierten Daten zu seinen ursprünglichen Indikationen, aber ARBs werden breit für die Behandlung von Bluthochdruck und Herzinsuffizienz verwendet.
+> Das TxGNN-Modell sagt voraus, dass es wirksam sein könnte für **Maligne hypertensive Nierenkrankheit**,
+> aber derzeit unterstützen nur **0 klinische Studien** und **1 indirekte Publikation** (Untersuchung eines anderen Medikaments, Avosentan) diese spezifische Richtung.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schneller Überblick
 
-Currently, detailed mechanism of action data is not available for this record (`original_moa: [Data Gap]`). Based on known pharmacology, valsartan is an angiotensin II type 1 (AT1) receptor blocker that suppresses the renin-angiotensin-aldosterone system (RAAS), lowering glomerular capillary pressure and reducing proteinuria — a mechanism broadly associated with renal protection in hypertensive nephropathy.
-
-Malignant hypertension with renal involvement is characterized by markedly elevated angiotensin II activity and RAAS-driven vascular/glomerular injury, making RAAS blockade mechanistically plausible. However, malignant hypertension is a hypertensive emergency requiring rapid blood pressure control; oral ARBs have a slow onset of action and are not first-line for the acute phase, limiting direct applicability.
-
-Importantly, the single literature citation supporting this prediction (PMID 24368192) studies **avosentan**, an endothelin receptor antagonist, not valsartan — it only indirectly supports the general concept that blocking vasoactive/pressor pathways can protect against hypertensive nephropathy in an animal model. No valsartan-specific clinical or preclinical data were retrieved for this indication, so the mechanistic link should be regarded as a class-level hypothesis rather than drug-specific evidence.
-
-*Note: This evidence pack contains 7 TxGNN-predicted indications for valsartan. Two are flagged at "Research Question" stage — this one (rank 1, L4, driven mainly by TxGNN score) and "chronic pulmonary heart disease" (rank 6, L2, supported by multiple completed Phase 3/4 RCTs of sacubitril/valsartan in HFrEF with right-ventricular/pulmonary comorbidity). The rank 6 candidate has a materially stronger clinical evidence base and may warrant separate evaluation.*
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Inhalt |
+|---------|---------|
+| Ursprüngliche Indikation | Nicht verfügbar im Evidenzpaket (Valsartan ist ein ARB der Standardklasse, üblicherweise für Bluthochdruck/Herzinsuffizienz indiziert; es wurden keine strukturierten `original_indications` oder Lizenztexte bereitgestellt) |
+| Vorhergesagte neue Indikation | Maligne hypertensive Nierenkrankheit |
+| TxGNN-Vorhersagepunktzahl | 99.97% |
+| Evidenzgrad | L4 |
+| Marktstatus | Nicht vermarktet (Nicht vermarktet) |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Halten |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage angemessen?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [24368192](https://pubmed.ncbi.nlm.nih.gov/24368192/) | 2014 | Preclinical/Review | Pharmacological Research | Endothelin receptor antagonist (avosentan) — not valsartan — showed renal protection in a hypertensive nephropathy rat model (double transgenic rats overexpressing renin/angiotensinogen) at doses avoiding fluid retention. Supports the general RAAS/vasoactive-pathway nephroprotection concept but provides no direct valsartan data. |
+Derzeit sind detaillierte Mechanismus-der-Wirkung-Daten für diesen Datensatz nicht verfügbar (`original_moa: [Data Gap]`). Basierend auf der bekannten Pharmakologie ist Valsartan ein Angiotensin-II-Typ-1-(AT1)-Rezeptorblocker, der das Renin-Angiotensin-Aldosteron-System (RAAS) unterdrückt, den glomerulären Kapillardruck senkt und die Proteinurie reduziert — ein Mechanismus, der weit verbreitet mit Nierenschutz bei hypertensiver Nephropathie verbunden ist.
 
----
+Die maligne Hypertonie mit Nierenbeteiligung ist durch deutlich erhöhte Angiotensin-II-Aktivität und RAAS-getriebene vaskuläre/glomeruläre Schädigung gekennzeichnet, was eine RAAS-Blockade mechanistisch plausibel macht. Allerdings ist maligne Hypertonie ein hypertensiver Notfall, der eine schnelle Blutdrucksenkung erfordert; orale ARBs haben einen langsamen Wirkungseintritt und sind nicht First-Line für die akute Phase, was die direkte Anwendbarkeit begrenzt.
 
-## Germany Market Information
+Wichtig ist, dass die einzige Literaturzitierung, die diese Vorhersage unterstützt (PMID 24368192), **Avosentan** untersucht, einen Endothelin-Rezeptorblocker, nicht Valsartan — sie unterstützt nur indirekt das allgemeine Konzept, dass die Blockade von vasoaktiven/pressorischen Wegen gegen hypertensive Nephropathie in einem Tiermodell schützen kann. Es wurden keine Valsartan-spezifischen klinischen oder präklinischen Daten für diese Indikation ermittelt, daher sollte die mechanistische Verbindung eher als eine Klassenhypothese als als substanzspezifische Evidenz betrachtet werden.
 
-Valsartan currently has no recorded marketing authorization in this dataset (market status: **Not marketed**, 0 licenses).
+*Anmerkung: Dieses Evidenzpaket enthält 7 TxGNN-vorhergesagte Indikationen für Valsartan. Zwei sind auf der Stufe "Forschungsfrage" markiert — diese (Rang 1, L4, hauptsächlich getrieben durch TxGNN-Punktzahl) und "chronische pulmonale Herzerkrankung" (Rang 6, L2, unterstützt durch mehrere abgeschlossene Phase-3/4-RCTs von Sacubitril/Valsartan bei HFrEF mit rechts-ventrikulärer/pulmonaler Komorbitidität). Der Rang-6-Kandidat hat eine wesentlich stärkere klinische Evidenzbasis und könnte eine separate Bewertung rechtfertigen.*
 
 ---
 
-## Safety Considerations
+## Evidenz aus klinischen Studien
 
-Please refer to the package insert for safety information.
-
-*(Note: A blocking data gap exists — TFDA-equivalent product label warnings/contraindications for valsartan could not be retrieved (DG001), which currently prevents a formal S1 safety assessment.)*
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Conclusion and Next Steps
+## Literaturbelege
 
-**Decision: Hold**
+| PMID | Jahr | Typ | Zeitschrift | Wichtigste Erkenntnisse |
+|------|------|-----|---------|---------|
+| [24368192](https://pubmed.ncbi.nlm.nih.gov/24368192/) | 2014 | Präklinisch/Übersicht | Pharmacological Research | Endothelin-Rezeptorblocker (Avosentan) — nicht Valsartan — zeigte Nierenschutz in einem Tiermodell mit hypertensiver Nephropathie (doppelt transgene Ratten, die Renin/Angiotensinogen überexprimieren) bei Dosen, die Flüssigkeitsretention vermieden. Unterstützt das allgemeine RAAS/vasoaktive-Weg-Nephroprotektions-Konzept, liefert aber keine direkten Valsartan-Daten. |
 
-**Rationale:**
-The predicted indication is supported only by a TxGNN score with no clinical trials and a single piece of indirect, non-valsartan-specific literature (L4 evidence). Combined with the drug's "Not marketed" status and a blocking gap in label-level safety data, there is insufficient evidence to proceed toward a safety review at this time.
+---
 
-**To proceed, the following is needed:**
-- Product label / official safety warnings and contraindications for valsartan (DG001, Blocking — required before S1 safety evaluation)
-- Detailed mechanism of action documentation (DG002)
-- Direct preclinical or clinical evidence using valsartan itself (not endothelin antagonists) for hypertensive nephropathy or malignant hypertension
-- Consider a separate evaluation track for the "chronic pulmonary heart disease" candidate (rank 6), which has notably stronger evidence (L2, multiple completed Phase 3/4 RCTs of sacubitril/valsartan)
+## Marktinformation für Deutschland
+
+Valsartan hat derzeit keine registrierte Marktgenehmigung in diesem Datensatz (Marktstatus: **Nicht vermarktet**, 0 Lizenzen).
+
+---
+
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+*(Anmerkung: Eine Blockierungslücke besteht — Warnungen/Kontraindikationen auf Ebene des TFDA-äquivalenten Produktlabels für Valsartan konnten nicht ermittelt werden (DG001), was derzeit eine formale S1-Sicherheitsbewertung verhindert.)*
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Halten**
+
+**Begründung:**
+Die vorhergesagte Indikation wird nur durch eine TxGNN-Punktzahl mit null klinischen Studien und einem einzigen indirekten, nicht-Valsartan-spezifischen Literaturstück (L4-Evidenz) unterstützt. Zusammen mit dem Status "Nicht vermarktet" des Medikaments und einer Blockierungslücke in Sicherheitsdaten auf Labelebene gibt es derzeit unzureichende Evidenz, um zu diesem Zeitpunkt eine Sicherheitsbewertung einzuleiten.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+- Packungsbeilage / offizielle Sicherheitswarnungen und Kontraindikationen für Valsartan (DG001, Blockierend — erforderlich vor S1-Sicherheitsbewertung)
+- Detaillierte Mechanismus-der-Wirkung-Dokumentation (DG002)
+- Direkte präklinische oder klinische Evidenz mit Valsartan selbst (nicht Endothelin-Antagonisten) für hypertensive Nephropathie oder maligne Hypertonie
+- Erwägen Sie ein separates Evaluierungsgleis für den Kandidaten "chronische pulmonale Herzerkrankung" (Rang 6), der bemerkenswert stärkere Evidenz aufweist (L2, mehrere abgeschlossene Phase-3/4-RCTs von Sacubitril/Valsartan)
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -29,86 +29,87 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Dolutegravir: From HIV-1 Infection to Feline Acquired Immunodeficiency Syndrome
+# Dolutegravir: Von HIV-1-Infektion zum erworbenen Immundefizienzsyndrom der Katze
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Dolutegravir is an integrase strand transfer inhibitor (INSTI) used in combination antiretroviral therapy for HIV-1 infection in humans.
-> The TxGNN model predicts it may be effective against **Feline Acquired Immunodeficiency Syndrome** (feline immunodeficiency virus, FIV — the feline lentiviral analogue of HIV),
-> with **5 human HIV-1 clinical trials** supporting the parent compound's antiviral mechanism and **1 direct preclinical study** in FIV-infected cats.
+> Dolutegravir ist ein Integrase-Strang-Transfer-Inhibitor (INSTI), der in der Kombinationsantiretroviral-Therapie zur Behandlung der HIV-1-Infektion bei Menschen eingesetzt wird.
+> Das TxGNN-Modell sagt voraus, dass es möglicherweise gegen das **erworbene Immundefizienzsyndrom der Katze** wirksam sein kann (Katzenimunodefizienzvirus, FIV – das felinen Lentivirus-Analogon von HIV),
+> unterstützt durch **5 klinische Humanstudien zu HIV-1**, die den antiviralen Wirkmechanismus der Ausgangsverbindung belegen, und **1 direkte präklinische Studie** bei FIV-infizierten Katzen.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Gegenstand | Inhalt |
 |------|------|
-| Original Indication | HIV-1 infection (not recorded as a formal regulatory indication in this evidence pack — drug holds no marketing authorization in Germany; inferred from clinical trial descriptions) |
-| Predicted New Indication | Feline Acquired Immunodeficiency Syndrome (FIV infection) |
-| TxGNN Prediction Score | 99.85% |
-| Evidence Level | L1 for the parent HIV-1 indication (≥2 completed Phase 3 RCTs); direct translational evidence for feline AIDS itself is limited to a single preclinical animal study (L4-equivalent) |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | HIV-1-Infektion (nicht als formale Zulassungsindikation in diesem Nachweispaket aufgeführt – das Arzneimittel hat keine Zulassung in Deutschland; abgeleitet aus klinischen Studienbeschreibungen) |
+| Vorhergesagte neue Indikation | Erworbenes Immundefizienzsyndrom der Katze (FIV-Infektion) |
+| TxGNN-Vorhersage-Score | 99.85% |
+| Evidenzstufe | L1 für die ursprüngliche HIV-1-Indikation (≥2 abgeschlossene Phase-3-RCTs); direkter Translationalbeweis für Katzenaids selbst ist auf eine einzelne präklinische Tierstudie beschränkt (L4-äquivalent) |
+| Marktstatus in Deutschland | ✗ Nicht zugelassen |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Halten |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage plausibel?
 
-Detailed mechanism-of-action data for dolutegravir is not available in this evidence pack. Based on the associated clinical trial descriptions, dolutegravir is an integrase strand transfer inhibitor (INSTI), dosed once daily and typically combined with dual NRTI backbones (e.g., abacavir/lamivudine, tenofovir/emtricitabine) for treatment of HIV-1 infection; its efficacy has been established in this setting across multiple completed Phase 2/3 trials.
+Detaillierte Wirkmechanismus-Daten für Dolutegravir sind in diesem Nachweispaket nicht verfügbar. Basierend auf den beschriebenen klinischen Studien ist Dolutegravir ein Integrase-Strang-Transfer-Inhibitor (INSTI), der einmal täglich dosiert wird und typischerweise mit dualen NRTI-Backbones kombiniert wird (z. B. Abacavir/Lamivudin, Tenofovir/Emtricitabin) zur Behandlung der HIV-1-Infektion; seine Wirksamkeit wurde in dieser Indikation in mehreren abgeschlossenen Phase-2/3-Studien nachgewiesen.
 
-Feline immunodeficiency virus (FIV) is a lentivirus closely related to HIV that causes a progressive, AIDS-like immunodeficiency syndrome in domestic cats. Because retroviral integrase enzymes are functionally conserved across lentiviruses, an INSTI mechanism developed against HIV-1 integrase is mechanistically plausible against FIV integrase as well — which is precisely the rationale tested in the one directly relevant publication in this pack (Kim et al., 2023), where a dolutegravir-containing combination antiretroviral regimen was evaluated pharmacokinetically and clinically in FIV-infected cats.
+Katzenimunodefizienzvirus (FIV) ist ein Lentivirus, das eng mit HIV verwandt ist und ein progressives, AIDS-ähnliches Immundefizienzsyndrom bei Hauskatzen verursacht. Da retrovirale Integrase-Enzyme funktionell über Lentiviren hinweg konserviert sind, ist ein gegen HIV-1-Integrase entwickelter INSTI-Wirkmechanismus auch mechanistisch gegen FIV-Integrase plausibel – was genau die Begründung ist, die in der einzigen direkt relevanten Publikation in diesem Paket getestet wurde (Kim et al., 2023), in der ein Dolutegravir-haltiges Kombinationsantiretroviral-Regime pharmakokineisch und klinisch bei FIV-infizierten Katzen bewertet wurde.
 
-It is important to note that the five clinical trials listed under this predicted indication were all conducted in human HIV-1 populations, not in FIV-infected cats. They establish confidence in dolutegravir's core antiviral mechanism and human safety/PK profile, but they do not constitute direct efficacy evidence for feline AIDS. Direct translational support currently rests on a single small preclinical/veterinary study.
+Es ist wichtig zu beachten, dass die fünf unter dieser vorhergesagten Indikation aufgeführten klinischen Studien alle in menschlichen HIV-1-Populationen durchgeführt wurden, nicht in FIV-infizierten Katzen. Sie belegen das Vertrauen in Dolutegravirs Kern-antiviralen Wirkmechanismus und humanes Sicherheits-/PK-Profil, stellen aber keinen direkten Wirksamkeitsbeweis für Katzenaids dar. Direkter Translationalbeweis basiert derzeit auf einer einzelnen kleinen präklinischen/veterinärmedizinischen Studie.
 
 ---
 
-## Clinical Trial Evidence
+## Klinische Studienbeweise
 
-*(Trials below evaluate dolutegravir in human HIV-1 infection — the mechanistic basis for the FIV prediction — not FIV itself.)*
+*(Die folgenden Studien evaluieren Dolutegravir bei HIV-1-Infektion bei Menschen – die mechanistische Grundlage für die FIV-Vorhersage – nicht FIV selbst.)*
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Studiennummer | Phase | Status | Einschreibung | Wichtige Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT01499199](https://clinicaltrials.gov/study/NCT01499199) | Phase 3 | Completed | 13 | Single-arm study of dolutegravir 50mg QD + abacavir/lamivudine in ART-naïve HIV-1 subjects; evaluated CNS/plasma PK over 96 weeks |
-| [NCT01263015](https://clinicaltrials.gov/study/NCT01263015) | Phase 3 | Completed | 844 | Dolutegravir + abacavir/lamivudine vs. Atripla in ART-naïve HIV-1 subjects; non-inferiority over 96 weeks |
-| [NCT01231516](https://clinicaltrials.gov/study/NCT01231516) | Phase 3 | Completed | 724 | Dolutegravir vs. raltegravir (integrase-naïve, ART-experienced HIV-1 subjects), both with background regimen, over 48 weeks |
-| [NCT00951015](https://clinicaltrials.gov/study/NCT00951015) | Phase 2 | Completed | 208 | Dose-selection study of dolutegravir with ABC/3TC or TDF/FTC in ART-naïve HIV-1 subjects |
-| [NCT01227824](https://clinicaltrials.gov/study/NCT01227824) | Phase 3 | Completed | 828 | Dolutegravir vs. raltegravir, both with dual-NRTI backbone, in ART-naïve HIV-1 subjects over 96 weeks |
+| [NCT01499199](https://clinicaltrials.gov/study/NCT01499199) | Phase 3 | Abgeschlossen | 13 | Einarmige Studie mit Dolutegravir 50mg QD + Abacavir/Lamivudin bei antiretroviral-naive HIV-1-Probanden; Bewertung CNS-/Plasma-PK über 96 Wochen |
+| [NCT01263015](https://clinicaltrials.gov/study/NCT01263015) | Phase 3 | Abgeschlossen | 844 | Dolutegravir + Abacavir/Lamivudin vs. Atripla bei antiretroviral-naive HIV-1-Probanden; Nichtunterlegenheit über 96 Wochen |
+| [NCT01231516](https://clinicaltrials.gov/study/NCT01231516) | Phase 3 | Abgeschlossen | 724 | Dolutegravir vs. Raltegravir (integrase-naive, antiretroviral-erfahrene HIV-1-Probanden), beide mit Hintergrund-Regimen, über 48 Wochen |
+| [NCT00951015](https://clinicaltrials.gov/study/NCT00951015) | Phase 2 | Abgeschlossen | 208 | Dosisauswahlstudie von Dolutegravir mit ABC/3TC oder TDF/FTC bei antiretroviral-naive HIV-1-Probanden |
+| [NCT01227824](https://clinicaltrials.gov/study/NCT01227824) | Phase 3 | Abgeschlossen | 828 | Dolutegravir vs. Raltegravir, beide mit dualem NRTI-Backbone, bei antiretroviral-naive HIV-1-Probanden über 96 Wochen |
 
 ---
 
-## Literature Evidence
+## Literaturbeweise
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Zeitschrift | Wichtige Ergebnisse |
 |------|-----|------|------|---------|
-| [37112803](https://pubmed.ncbi.nlm.nih.gov/37112803/) | 2023 | Preclinical (animal study) | Viruses | Combination ART (dolutegravir 2.5 mg/kg + tenofovir + emtricitabine) evaluated in FIV-infected domestic cats; assessed pharmacokinetics and immunophenotype/clinical outcomes, directly supporting the repurposing hypothesis |
+| [37112803](https://pubmed.ncbi.nlm.nih.gov/37112803/) | 2023 | Präklinisch (Tierstudie) | Viruses | Kombinierte ART (Dolutegravir 2,5 mg/kg + Tenofovir + Emtricitabin) bei FIV-infizierten Hauskatzen evaluiert; Bewertung von Pharmakokinetik und Immunphänotyp/klinischen Ergebnissen, die die Repurposing-Hypothese direkt unterstützen |
 
 ---
 
-## Germany Market Information
+## Marktinformationen für Deutschland
 
-Dolutegravir is currently **not marketed** in Germany under this evidence pack (0 authorizations on record). No product-level licensing data is available.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug interaction data are not yet available in this evidence pack — flagged as a **Blocking** data gap, DG001.)
+Dolutegravir ist derzeit in Deutschland **nicht zugelassen**, gemäß diesem Nachweispaket (0 Zulassungen dokumentiert). Es sind keine Produktzulassungsdaten verfügbar.
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsaspekte
 
-**Decision: Hold**
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. (Wichtige Warnhinweise, Gegenanzeigen und Arzneimittelwechselwirkungsdaten sind in diesem Nachweispaket noch nicht verfügbar – gekennzeichnet als **blockierende** Datenlücke, DG001.)
 
-**Rationale:**
-Although dolutegravir's parent HIV-1 indication is backed by multiple completed Phase 3 RCTs, direct evidence for the predicted feline AIDS indication is limited to a single small preclinical study, the drug has no marketing authorization in Germany, and the required safety/labeling data (TFDA warnings and contraindications) are currently a **Blocking** data gap that prevents a formal S1 safety evaluation.
+---
 
-**To proceed, the following is needed:**
-- TFDA/BfArM package insert data (warnings, contraindications) — resolves DG001 (Blocking)
-- Confirmed mechanism-of-action data via DrugBank API — resolves DG002 (High)
-- Additional efficacy/safety studies in FIV-infected cats beyond the single pilot PK/immunophenotype study
-- Clarification of intended use context (veterinary vs. human), as this affects the applicable regulatory and safety pathway
+## Fazit und nächste Schritte
+
+**Entscheidung: Halten**
+
+**Begründung:**
+Obwohl die ursprüngliche HIV-1-Indikation von Dolutegravir durch mehrere abgeschlossene Phase-3-RCTs unterstützt wird, ist der direkte Beweis für die vorhergesagte Indikation Katzenaids auf eine einzelne kleine präklinische Studie beschränkt, das Arzneimittel hat keine Zulassung in Deutschland, und die erforderlichen Sicherheits-/Etikettierungsdaten (TFDA-Warnhinweise und Gegenanzeigen) sind derzeit eine **blockierende** Datenlücke, die eine formale S1-Sicherheitsbewertung verhindert.
+
+**Um fortzufahren, wird Folgendes benötigt:**
+- TFDA-/BfArM-Packungsbeilage-Daten (Warnhinweise, Gegenanzeigen) – löst DG001 (blockierend)
+- Bestätigte Wirkmechanismus-Daten über DrugBank API – löst DG002 (hoch)
+- Zusätzliche Wirksamkeits-/Sicherheitsstudien bei FIV-infizierten Katzen über die einzelne Pilot-PK-/Immunphänotyp-Studie hinaus
+- Klarstellung des Anwendungskontextes (veterinärmedizinisch vs. human), da dies den geltenden Zulassungs- und Sicherheitspfad beeinflusst
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -29,84 +29,85 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Capecitabine (DB01101): Drug Repurposing Evaluation — Insufficient Data to Proceed
+# Capecitabin (DB01101): Bewertung der Umnutzung – Unzureichende Daten zum Fortfahren
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Capecitabine (DB01101) is a fluoropyrimidine antineoplastic agent. However, this Evidence Pack contains no TxGNN predicted indications, no confirmed mechanism of action data, and no Taiwan regulatory records — making a complete repurposing evaluation impossible at this stage. **The pipeline must be re-run and data gaps resolved before a repurposing direction can be assessed.**
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not available in Evidence Pack |
-| Predicted New Indication | Not available — `predicted_indications` array is empty |
-| TxGNN Prediction Score | Not available |
-| Evidence Level | L5 (no predictions returned; no supporting studies retrievable) |
-| Taiwan Market Status | Not marketed (0 TFDA authorizations found) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+Capecitabin (DB01101) ist ein Fluoropyrimidin-Zytostatikum. Dieses Evidence Pack enthält jedoch keine TxGNN-vorhergesagten Indikationen, keine bestätigten Wirkmechanismus-Daten und keine taiwanischen behördlichen Aufzeichnungen – was eine vollständige Umnutzungsbewertung in diesem Stadium unmöglich macht. **Die Pipeline muss erneut ausgeführt und Datenlücken geschlossen werden, bevor eine Umnutzungsrichtung bewertet werden kann.**
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-No TxGNN predicted indications were returned in this Evidence Pack. Without at least one candidate indication, it is not possible to assess mechanistic plausibility, retrieve targeted clinical trial evidence, or evaluate clinical feasibility. This section will be completed once the prediction pipeline returns valid output.
-
-Additionally, detailed mechanism of action data is not available in the current Evidence Pack. Capecitabine is structurally classifiable as a fluoropyrimidine, but no DrugBank MOA record was successfully loaded into this pack, so mechanistic analysis cannot be formally grounded.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered. *(This section requires at least one predicted indication to define the search scope.)*
-
----
-
-## Literature Evidence
-
-Currently no related literature available. *(This section requires at least one predicted indication to define the search scope.)*
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Nicht im Evidence Pack verfügbar |
+| Vorhergesagte neue Indikation | Nicht verfügbar – `predicted_indications`-Array ist leer |
+| TxGNN-Vorhersage-Score | Nicht verfügbar |
+| Evidenzgrad | L5 (keine Vorhersagen zurückgegeben; keine unterstützenden Studien abrufbar) |
+| Taiwan-Marktstatus | Nicht auf dem Markt (0 TFDA-Genehmigungen gefunden) |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | **Halten** |
 
 ---
 
-## Cytotoxicity
+## Warum ist diese Vorhersage angemessen?
 
-Capecitabine falls within the fluoropyrimidine class of conventional cytotoxic chemotherapy, satisfying criterion 3 of the antineoplastic determination rules. This section is therefore included.
+Keine TxGNN-vorhergesagten Indikationen wurden in diesem Evidence Pack zurückgegeben. Ohne mindestens eine Kandidaten-Indikation ist es nicht möglich, mechanistische Plausibilität zu bewerten, gezielt klinische Studienevidenz abzurufen oder klinische Machbarkeit zu evaluieren. Dieser Abschnitt wird abgeschlossen, sobald die Vorhersage-Pipeline eine gültige Ausgabe liefert.
 
-| Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Conventional cytotoxic — Fluoropyrimidine class (oral prodrug) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Must follow cytotoxic drug handling regulations |
-
-> Note: Detailed toxicity parameters (myelosuppression grade, emetogenicity level) could not be populated because the DrugBank toxicity fields and TFDA package insert data were not successfully loaded into this Evidence Pack.
+Darüber hinaus sind detaillierte Wirkmechanismus-Daten nicht im aktuellen Evidence Pack verfügbar. Capecitabin ist strukturell als Fluoropyrimidin klassifizierbar, aber kein DrugBank-MOA-Datensatz wurde erfolgreich in dieses Pack geladen, daher kann die mechanistische Analyse nicht formal begründet werden.
 
 ---
 
-## Safety Considerations
+## Klinische Studienevidenz
 
-Please refer to the package insert for safety information.
+Derzeit keine zugehörigen klinischen Studien registriert. *(Dieser Abschnitt erfordert mindestens eine vorhergesagte Indikation, um den Suchbereich zu definieren.)*
 
 ---
 
-## Conclusion and Next Steps
+## Literaturevidenz
 
-**Decision: Hold**
+Derzeit keine zugehörige Literatur verfügbar. *(Dieser Abschnitt erfordert mindestens eine vorhergesagte Indikation, um den Suchbereich zu definieren.)*
 
-**Rationale:**
-The Evidence Pack is structurally incomplete — no TxGNN predicted indications, no MOA data, and no Taiwan regulatory safety data are available. There is no repurposing hypothesis to evaluate, and no safety baseline to assess against.
+---
 
-**To proceed, the following is needed:**
+## Zytotoxizität
 
-- **Re-run TxGNN prediction pipeline** for DB01101 and confirm at least one predicted indication is returned before re-generating this report
-- **Resolve DG002 (High severity):** Retrieve MOA from DrugBank API (`/drugs/DB01101`) to enable mechanistic plausibility analysis
-- **Resolve DG001 (Blocking severity):** Download and parse the TFDA package insert PDF to populate key warnings and contraindications for the S1 safety screen
-- **Verify TFDA query result:** The query returned 0 authorizations for Capecitabine — confirm whether this reflects a genuine absence of TFDA approval or a data pipeline issue (e.g., brand name alias not searched)
-- **Re-check DDI source:** The DDI query returned `not_found`; confirm whether this is a database gap or a query parameter error
+Capecitabin fällt in die Fluoropyrimidin-Klasse der konventionellen zytotoxischen Chemotherapie und erfüllt damit Kriterium 3 der Zytostatika-Bestimmungsregeln. Dieser Abschnitt ist daher enthalten.
+
+| Element | Inhalt |
+|---------|--------|
+| Zytotoxizitätsklassifikation | Konventionell zytotoxisch – Fluoropyrimidin-Klasse (orales Prodrug) |
+| Myelosuppressions-Risiko | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen der Gebrauchsinformation |
+| Emetogenitätsklassifikation | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen der Gebrauchsinformation |
+| Überwachungselemente | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen der Gebrauchsinformation |
+| Schutzmaßnahmen bei der Handhabung | Muss den Bestimmungen für die Handhabung von Zytostatika entsprechen |
+
+> Hinweis: Detaillierte Toxizitätsparameter (Myelosuppressions-Grad, Emetogenitätsniveau) konnten nicht ausgefüllt werden, da die DrugBank-Toxizitätsfelder und TFDA-Gebrauchsinformationen nicht erfolgreich in dieses Evidence Pack geladen wurden.
+
+---
+
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Gebrauchsinformation für Sicherheitsinformationen.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Halten**
+
+**Begründung:**
+Das Evidence Pack ist strukturell unvollständig – keine TxGNN-vorhergesagten Indikationen, keine MOA-Daten und keine taiwanischen behördlichen Sicherheitsdaten sind verfügbar. Es gibt keine Umnutzungshypothese zu evaluieren und keine Sicherheits-Baseline zum Vergleichen.
+
+**Zum Fortfahren ist Folgendes erforderlich:**
+
+- **TxGNN-Vorhersage-Pipeline erneut ausführen** für DB01101 und mindestens eine vorhergesagte Indikation bestätigen, bevor dieser Bericht neu generiert wird
+- **DG002 (Hohe Schweregrad) beheben:** MOA aus der DrugBank-API (`/drugs/DB01101`) abrufen, um mechanistische Plausibilitätsanalyse zu ermöglichen
+- **DG001 (Blockierender Schweregrad) beheben:** TFDA-Gebrauchsinformation-PDF herunterladen und analysieren, um wichtige Warnhinweise und Kontraindikationen für den S1-Sicherheitsbildschirm auszufüllen
+- **TFDA-Abfrageergebnis verifizieren:** Die Abfrage hat 0 Genehmigungen für Capecitabin zurückgegeben – bestätigen Sie, ob dies das völlige Fehlen einer TFDA-Genehmigung widerspiegelt oder ein Datenpipeline-Problem ist (z. B. Handelsname-Alias nicht durchsucht)
+- **DDI-Quelle erneut überprüfen:** Die DDI-Abfrage hat `not_found` zurückgegeben; bestätigen Sie, ob es sich um eine Datenbankslücke oder einen Abfrageparameter-Fehler handelt
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -29,44 +29,45 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# BRIGATINIB: Evaluation Report — Insufficient Evidence Pack Data
+# BRIGATINIB: Bewertungsbericht — Unzureichende Evidence-Pack-Daten
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-BRIGATINIB (DrugBank ID: DB12267) is a compound for which the current Evidence Pack contains **no original indication data**, **no TxGNN-predicted new indications**, and **no safety profile**.
-A structured drug repurposing evaluation cannot be completed at this stage.
-The drug is currently **not marketed in Germany**, and all downstream assessment steps are blocked until critical data gaps are resolved.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not available in Evidence Pack |
-| Predicted New Indication | No TxGNN predictions available |
-| TxGNN Prediction Score | — |
-| Evidence Level | L5 (No predictions or empirical studies in current pack) |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+BRIGATINIB (DrugBank ID: DB12267) ist eine Substanz, für die das aktuelle Evidence Pack **keine Daten zur Originalindikation**, **keine durch TxGNN vorhergesagten neuen Indikationen** und **kein Sicherheitsprofil** enthält.
+Eine strukturierte Bewertung der Arzneimittelumnutzung kann derzeit nicht abgeschlossen werden.
+Das Arzneimittel ist derzeit **nicht in Deutschland zugelassen**, und alle nachgelagerten Bewertungsschritte sind blockiert, bis kritische Datenlücken behoben sind.
 
 ---
 
-## Conclusion and Next Steps
+## Kurzer Überblick
 
-**Decision: Hold**
+| Element | Inhalt |
+|---------|--------|
+| Originalindikation | Nicht im Evidence Pack verfügbar |
+| Vorhergesagte neue Indikation | Keine TxGNN-Vorhersagen verfügbar |
+| TxGNN-Vorhersage-Score | — |
+| Evidenzgrad | L5 (Keine Vorhersagen oder empirischen Studien im aktuellen Pack) |
+| Marktstatus in Deutschland | ✗ Nicht zugelassen |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | **Halten** |
 
-**Rationale:**
-All five evaluation pillars — original indication, mechanism of action, TxGNN repurposing prediction, regulatory footprint, and safety profile — are either empty or blocked by unresolved data gaps. There is currently no valid repurposing hypothesis to assess, and the Blocking-severity safety gap (DG001) prevents entry into even the initial S1 safety screening step.
+---
 
-**To proceed, the following is needed:**
+## Schlussfolgerung und nächste Schritte
 
-- **TxGNN prediction run** *(Critical)*: The `predicted_indications` array is empty. A complete TxGNN inference run against the disease knowledge graph must be executed before any repurposing opportunity can be identified or ranked.
-- **Safety profile** *(Blocking — DG001)*: Package insert warnings and contraindications are absent. Download and parse the TFDA package insert PDF to unlock the S1 safety screening gate.
-- **Mechanism of action** *(High — DG002)*: MOA data is unavailable. Retrieve pharmacological target and pathway information via DrugBank API (DB12267) to support mechanistic plausibility analysis.
-- **Original indication data**: No approved indications are recorded in the pack. Cross-verify against TFDA, EMA, and DrugBank product listings to establish the clinical baseline.
-- **Drug interaction data**: The DDI query returned zero results. Validate completeness via the DrugBank interaction database before assuming an absence of interactions.
+**Entscheidung: Halten**
+
+**Begründung:**
+Alle fünf Bewertungssäulen – Originalindikation, Wirkmechanismus, TxGNN-Umnutzungsvorhersage, behördlicher Fußabdruck und Sicherheitsprofil – sind entweder leer oder durch ungelöste Datenlücken blockiert. Es gibt derzeit keine gültige Umnutzungshypothese zur Bewertung, und die blockierende Sicherheitslücke mit kritischem Schweregrad (DG001) verhindert die Einleitung des ersten S1-Sicherheits-Screening-Schritts.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+
+- **TxGNN-Vorhersage-Lauf** *(Kritisch)*: Das `predicted_indications` Array ist leer. Ein vollständiger TxGNN-Inferenz-Lauf gegen den Krankheitswissensgraph muss ausgeführt werden, bevor irgendwelche Umnutzungsmöglichkeiten identifiziert oder eingestuft werden können.
+- **Sicherheitsprofil** *(Blockierend — DG001)*: Warnhinweise in der Packungsbeilage und Kontraindikationen fehlen. Laden Sie die TFDA-Packungsbeilage als PDF herunter und analysieren Sie diese, um die S1-Sicherheits-Screening-Schranke freizuschalten.
+- **Wirkmechanismus** *(Hoch — DG002)*: MOA-Daten sind nicht verfügbar. Rufen Sie Informationen zu pharmakologischem Ziel und Weg über die DrugBank API (DB12267) ab, um die Analyse der mechanistischen Plausibilität zu unterstützen.
+- **Daten zur Originalindikation**: Keine zugelassenen Indikationen sind im Pack dokumentiert. Führen Sie eine Gegenprüfung gegen TFDA-, EMA- und DrugBank-Produktlisten durch, um die klinische Baseline zu etablieren.
+- **Arzneimittelwechselwirkungsdaten**: Die DDI-Abfrage lieferte keine Ergebnisse. Validieren Sie die Vollständigkeit über die DrugBank-Wechselwirkungsdatenbank, bevor Sie das Fehlen von Wechselwirkungen annehmen.
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

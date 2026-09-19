@@ -29,112 +29,113 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# IDELALISIB: From B-cell Lymphoid Malignancies to Mantle Cell Lymphoma
+# IDELALISIB: Von B-Zell-Lymphoiden Malignomen zum Mantelzell-Lymphom
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Idelalisib is a selective PI3Kδ inhibitor originally developed for B-cell lymphoid malignancies (chronic lymphocytic leukemia, follicular lymphoma, small lymphocytic lymphoma).
-The TxGNN model predicts it may also be effective for **Mantle Cell Lymphoma (MCL)**,
-with **9 clinical trials** and **20 publications** currently supporting this direction — though confirmatory Phase 2/3 evidence specific to MCL is still lacking.
+Idelalisib ist ein selektiver PI3Kδ-Inhibitor, der ursprünglich für B-Zell-Lymphoide Malignome entwickelt wurde (chronische lymphatische Leukämie, follikuläres Lymphom, kleines lymphozytäres Lymphom).
+Das TxGNN-Modell prognostiziert, dass es auch bei **Mantelzell-Lymphom (MCL)** wirksam sein könnte,
+mit **9 klinischen Studien** und **20 Publikationen**, die derzeit diese Richtung unterstützen — obwohl bestätigende Phase-2/3-Evidenz spezifisch für MCL noch fehlt.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Element | Inhalt |
 |------|------|
-| Original Indication | Not stated in evidence pack (data gap — `drug.original_indications` is empty). Based on the drug's known identity (idelalisib/Zydelig®) referenced throughout the evidence pack's own mechanistic rationale, the drug's established indications are relapsed CLL, follicular lymphoma, and small lymphocytic lymphoma. |
-| Predicted New Indication | Mantle Cell Lymphoma |
-| TxGNN Prediction Score | 99.84% (rank 2395) |
-| Evidence Level | L3 |
-| Germany Market Status | Not marketed (Not marketed) — flagged internally as a likely data gap rather than a true absence of licensure (see rationale below) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | Nicht in Evidenz-Paket angegeben (Datenlücke — `drug.original_indications` ist leer). Basierend auf der bekannten Identität des Arzneistoffs (idelalisib/Zydelig®), auf die sich die Begründung des Evidenz-Pakets bezieht, sind die etablierten Indikationen rezidiviertes CLL, follikuläres Lymphom und kleines lymphozytäres Lymphom. |
+| Vorhergesagte neue Indikation | Mantelzell-Lymphom |
+| TxGNN-Prognose-Score | 99,84% (Rang 2395) |
+| Evidenzstufe | L3 |
+| Status auf dem deutschen Markt | Nicht im Handel (Nicht im Handel) — intern gekennzeichnet als wahrscheinliche Datenlücke statt wahre Abwesenheit einer Zulassung (siehe Begründung unten) |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Halten |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Prognose vernünftig?
 
-Currently, detailed mechanism of action data is not available in the structured `drug.original_moa` field (data gap, item DG002). Based on information embedded elsewhere in this evidence pack, idelalisib is a selective, orally bioavailable inhibitor of the δ-isoform of phosphatidylinositol 3-kinase (PI3Kδ). PI3Kδ signaling is a core component of the B-cell receptor (BCR) pathway, which drives survival and proliferation in multiple B-cell malignancies.
+Derzeit sind detaillierte Wirkmechanismus-Daten im strukturierten Feld `drug.original_moa` nicht verfügbar (Datenlücke, Element DG002). Auf Grundlage von Informationen, die an anderer Stelle in diesem Evidenz-Paket enthalten sind, ist Idelalisib ein selektiver, oral bioverfügbarer Inhibitor der δ-Isoform der Phosphatidylinositol-3-Kinase (PI3Kδ). PI3Kδ-Signalisierung ist eine Kernkomponente des B-Zell-Rezeptor (BCR)-Signalwegs, der das Überleben und die Proliferation bei mehreren B-Zell-Malignomen antreibt.
 
-Mantle cell lymphoma is, like idelalisib's established indications (CLL, FL, SLL), a BCR-signaling-dependent B-cell lymphoma. This shared molecular dependency is the biological basis for the TxGNN prediction: a drug validated against one BCR-driven malignancy is mechanistically plausible against another. In vitro studies included in this evidence pack directly support this — idelalisib inhibits growth and induces apoptosis in MCL cell lines (PMID 27342398, PMID 33850273, PMID 40466505), and an early-phase clinical study reported measurable single-agent activity in relapsed/refractory MCL patients (PMID 24795031, PMID 24615778).
+Mantelzell-Lymphom ist wie die etablierten Indikationen von Idelalisib (CLL, FL, SLL) ein BCR-Signalisierungs-abhängiges B-Zell-Lymphom. Diese gemeinsame molekulare Abhängigkeit bildet die biologische Grundlage für die TxGNN-Prognose: Ein gegen ein BCR-getriebenes Malignom validierter Arzneistoff ist mechanistisch plausibel gegen ein anderes. In-vitro-Studien in diesem Evidenz-Paket unterstützen dies direkt — Idelalisib hemmt das Wachstum und induziert Apoptose in MCL-Zelllinien (PMID 27342398, PMID 33850273, PMID 40466505), und eine frühe klinische Studie berichtete über messbare Einzelwirkstoff-Aktivität bei Patienten mit rezidiviertem/refraktärem MCL (PMID 24795031, PMID 24615778).
 
-At the same time, the evidence pack itself notes that idelalisib shows *intrinsic resistance* in a subset of MCL cases (PMID 33850273), and several trials combining idelalisib with other agents in MCL were terminated early (e.g., NCT01796470, NCT02457598) — indicating that while the mechanistic rationale is sound, clinical translation in MCL specifically has not yet been confirmed at a definitive level.
+Gleichzeitig weist das Evidenz-Paket selbst darauf hin, dass Idelalisib in einer Untergruppe von MCL-Fällen *intrinsische Resistenz* zeigt (PMID 33850273), und mehrere Studien, die Idelalisib mit anderen Wirkstoffen bei MCL kombinierten, wurden frühzeitig beendet (z. B. NCT01796470, NCT02457598) — was darauf hindeutet, dass zwar die mechanistische Begründung sinnvoll ist, die klinische Umsetzung bei MCL spezifisch jedoch noch nicht auf definitivem Niveau bestätigt worden ist.
 
 ---
 
-## Clinical Trial Evidence
+## Evidenz aus klinischen Studien
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Studiennummer | Phase | Status | Rekrutierung | Wichtigste Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT01088048](https://clinicaltrials.gov/study/NCT01088048) | Phase 1 | Completed | 241 | Safety of idelalisib combined with anti-CD20 mAb, chemotherapy, mTOR/protease/antiangiogenic/immunomodulatory agents in relapsed/refractory iNHL, MCL, or CLL |
-| [NCT01838434](https://clinicaltrials.gov/study/NCT01838434) | Phase 1 | Completed | 106 | Idelalisib + lenalidomide in relapsed/refractory MCL — dedicated Phase I/randomized Phase II design |
-| [NCT02603445](https://clinicaltrials.gov/study/NCT02603445) | Phase 1 | Completed | 20 | BCL201 + idelalisib in follicular lymphoma and MCL; safety/tolerability primary endpoint |
-| [NCT01796470](https://clinicaltrials.gov/study/NCT01796470) | Phase 2 | Terminated | 66 | Entospletinib + idelalisib in relapsed/refractory hematologic malignancies incl. MCL |
-| [NCT02457598](https://clinicaltrials.gov/study/NCT02457598) | Phase 1 | Terminated | 203 | Tirabrutinib combined with targeted anti-cancer therapies (incl. idelalisib) in B-cell malignancies incl. MCL |
-| [NCT03151057](https://clinicaltrials.gov/study/NCT03151057) | Phase 1 | Terminated | 16 | Idelalisib as post-allogeneic HSCT maintenance in B-cell malignancies |
-| [NCT02824159](https://clinicaltrials.gov/study/NCT02824159) | N/A | Completed | 121 | Real-world PK/toxicity correlation of ibrutinib and idelalisib in hematological malignancies including MCL |
-| [NCT04985214](https://clinicaltrials.gov/study/NCT04985214) | N/A | Unknown | 464 | Quality of life in lymphoma patients on oral therapies, including idelalisib for MCL |
-| [NCT03740529](https://clinicaltrials.gov/study/NCT03740529) | Phase 1/2 | Completed | 803 | Pirtobrutinib in CLL/SLL and NHL — idelalisib appears only as background/prior therapy, not the study drug |
+| [NCT01088048](https://clinicaltrials.gov/study/NCT01088048) | Phase 1 | Abgeschlossen | 241 | Sicherheit von Idelalisib kombiniert mit Anti-CD20-mAk, Chemotherapie, mTOR/Protease/Antiangiogenese/Immunmodulatoren bei rezidiviertem/refraktärem iNHL, MCL oder CLL |
+| [NCT01838434](https://clinicaltrials.gov/study/NCT01838434) | Phase 1 | Abgeschlossen | 106 | Idelalisib + Lenalidomid bei rezidiviertem/refraktärem MCL — dediziertes Phase-I/randomisiertes Phase-II-Design |
+| [NCT02603445](https://clinicaltrials.gov/study/NCT02603445) | Phase 1 | Abgeschlossen | 20 | BCL201 + Idelalisib bei follikulärem Lymphom und MCL; Sicherheit/Verträglichkeit primärer Endpunkt |
+| [NCT01796470](https://clinicaltrials.gov/study/NCT01796470) | Phase 2 | Beendet | 66 | Entospletinib + Idelalisib bei rezidiviertem/refraktärem hämatologischen Malignomen inkl. MCL |
+| [NCT02457598](https://clinicaltrials.gov/study/NCT02457598) | Phase 1 | Beendet | 203 | Tirabrutinib kombiniert mit zielgerichteten Krebstherapien (inkl. Idelalisib) bei B-Zell-Malignomen inkl. MCL |
+| [NCT03151057](https://clinicaltrials.gov/study/NCT03151057) | Phase 1 | Beendet | 16 | Idelalisib als postalloge HSZT-Erhaltungstherapie bei B-Zell-Malignomen |
+| [NCT02824159](https://clinicaltrials.gov/study/NCT02824159) | N/A | Abgeschlossen | 121 | Reale-Welt-PK/Toxizitäts-Korrelation von Ibrutinib und Idelalisib bei hämatologischen Malignomen inkl. MCL |
+| [NCT04985214](https://clinicaltrials.gov/study/NCT04985214) | N/A | Unbekannt | 464 | Lebensqualität bei Lymphom-Patienten unter oralen Therapien, einschließlich Idelalisib für MCL |
+| [NCT03740529](https://clinicaltrials.gov/study/NCT03740529) | Phase 1/2 | Abgeschlossen | 803 | Pirtobrutinib bei CLL/SLL und NHL — Idelalisib erscheint nur als Hintergrund/Vorbehandlung, nicht als Studienarzneistoff |
 
 ---
 
-## Literature Evidence
+## Evidenz aus Literatur
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Journal | Wichtigste Ergebnisse |
 |------|-----|------|------|---------|
-| [24795031](https://pubmed.ncbi.nlm.nih.gov/24795031/) | 2014 | Cohort | Cancer Discovery | Idelalisib showed measurable single-agent activity in heavily pretreated relapsed/refractory MCL patients |
-| [24615778](https://pubmed.ncbi.nlm.nih.gov/24615778/) | 2014 | Phase 1 clinical study | Blood | 48-week Phase 1 study of idelalisib (50–350 mg) in 40 patients with relapsed/refractory MCL; reported ORR, PFS, DOR |
-| [27342398](https://pubmed.ncbi.nlm.nih.gov/27342398/) | 2017 | Preclinical | Clin Cancer Res | Idelalisib disrupts translation-regulatory mechanisms to suppress MCL cell growth |
-| [33850273](https://pubmed.ncbi.nlm.nih.gov/33850273/) | 2022 | Preclinical | Acta Pharmacol Sin | P300/CBP inhibitor A-485 overcomes intrinsic idelalisib resistance in MCL cells in vitro/in vivo |
-| [40466505](https://pubmed.ncbi.nlm.nih.gov/40466505/) | 2025 | Preclinical | Phytomedicine | CBX5 loss drives PI3Kδ inhibitor resistance in MCL; propolis restores idelalisib sensitivity via ferroptosis |
-| [38815797](https://pubmed.ncbi.nlm.nih.gov/38815797/) | 2024 | Preclinical | Cancer Letters | Idelalisib enhances anti-tumor effect of CDK4/6 inhibitor palbociclib via PLK1 in relapsed/refractory MCL and DLBCL |
-| [28295729](https://pubmed.ncbi.nlm.nih.gov/28295729/) | 2017 | Review | J Intern Med | Reviews BCR-pathway-targeted agents; notes idelalisib's established role across CLL and MCL |
-| [24974852](https://pubmed.ncbi.nlm.nih.gov/24974852/) | 2014 | Review | Br J Haematol | Overview of current and novel agents (incl. PI3K-pathway inhibitors) for MCL |
-| [26360791](https://pubmed.ncbi.nlm.nih.gov/26360791/) | 2015 | Review | Expert Opin Pharmacother | Review of treatment options for MCL, including targeted BCR-pathway agents |
-| [23512567](https://pubmed.ncbi.nlm.nih.gov/23512567/) | 2013 | Review | Curr Treat Options Oncol | Current and emerging therapies in MCL |
+| [24795031](https://pubmed.ncbi.nlm.nih.gov/24795031/) | 2014 | Kohorte | Cancer Discovery | Idelalisib zeigte messbare Einzelwirkstoff-Aktivität bei stark vorbehandelten Patienten mit rezidiviertem/refraktärem MCL |
+| [24615778](https://pubmed.ncbi.nlm.nih.gov/24615778/) | 2014 | Phase-1-Klinische Studie | Blood | 48-Wochen-Phase-1-Studie von Idelalisib (50–350 mg) bei 40 Patienten mit rezidiviertem/refraktärem MCL; berichtete ORR, PFS, DOR |
+| [27342398](https://pubmed.ncbi.nlm.nih.gov/27342398/) | 2017 | Präklinisch | Clin Cancer Res | Idelalisib beeinträchtigt translationsregulierende Mechanismen zur Unterdrückung von MCL-Zellwachstum |
+| [33850273](https://pubmed.ncbi.nlm.nih.gov/33850273/) | 2022 | Präklinisch | Acta Pharmacol Sin | P300/CBP-Inhibitor A-485 überwindet intrinsische Idelalisib-Resistenz in MCL-Zellen in vitro/in vivo |
+| [40466505](https://pubmed.ncbi.nlm.nih.gov/40466505/) | 2025 | Präklinisch | Phytomedicine | CBX5-Verlust treibt PI3Kδ-Inhibitor-Resistenz in MCL an; Propolis stellt Idelalisib-Sensitivität via Ferroptose wieder her |
+| [38815797](https://pubmed.ncbi.nlm.nih.gov/38815797/) | 2024 | Präklinisch | Cancer Letters | Idelalisib verstärkt antitumorale Wirkung von CDK4/6-Inhibitor Palbociclib via PLK1 bei rezidiviertem/refraktärem MCL und DLBCL |
+| [28295729](https://pubmed.ncbi.nlm.nih.gov/28295729/) | 2017 | Übersicht | J Intern Med | Überblick über BCR-Weg-gerichtete Wirkstoffe; vermerkt etablierte Rolle von Idelalisib bei CLL und MCL |
+| [24974852](https://pubmed.ncbi.nlm.nih.gov/24974852/) | 2014 | Übersicht | Br J Haematol | Überblick über aktuelle und neue Wirkstoffe (inkl. PI3K-Weg-Inhibitoren) für MCL |
+| [26360791](https://pubmed.ncbi.nlm.nih.gov/26360791/) | 2015 | Übersicht | Expert Opin Pharmacother | Übersicht über Behandlungsoptionen für MCL, einschließlich zielgerichteter BCR-Weg-Wirkstoffe |
+| [23512567](https://pubmed.ncbi.nlm.nih.gov/23512567/) | 2013 | Übersicht | Curr Treat Options Oncol | Aktuelle und neu entstehende Therapien bei MCL |
 
 ---
 
-## Germany Market Information
+## Marktinformation Deutschland
 
-No marketing authorizations are listed in the evidence pack (`total_licenses: 0`, `market_status: Not marketed`). This most likely reflects an incomplete data pull rather than genuine absence from the market, since idelalisib (brand name Zydelig®) is externally documented as EMA-approved for CLL and relapsed follicular lymphoma — a discrepancy this evidence pack itself flags in the rationale for the "B-cell neoplasm" prediction. **This regulatory-status field should be independently verified (see DG001) before any go/no-go decision is finalized.**
+Im Evidenz-Paket sind keine Marketingzulassungen aufgeführt (`total_licenses: 0`, `market_status: Not marketed`). Dies spiegelt höchstwahrscheinlich eine unvollständige Datenabfrage statt echte Abwesenheit vom Markt wider, da Idelalisib (Markenname Zydelig®) extern als EMA-zugelassen für CLL und rezidiviertes follikuläres Lymphom dokumentiert ist — eine Diskrepanz, auf die dieses Evidenz-Paket selbst in der Begründung für die Vorhersage „B-Zell-Neoplasma" hinweist. **Dieses Regulierungs-Status-Feld sollte unabhängig überprüft werden (siehe DG001), bevor eine abschließende Go/No-Go-Entscheidung getroffen wird.**
 
 ---
 
-## Cytotoxicity
+## Zytotoxizität
 
-Idelalisib is an antineoplastic agent (approved oncology indication; kinase-inhibitor class), so this section applies.
+Idelalisib ist ein Antineoplastikum (zugelassene Onkologie-Indikation; Kinase-Inhibitor-Klasse), daher gilt dieser Abschnitt.
 
-| Item | Content |
+| Element | Inhalt |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (PI3Kδ-selective small-molecule kinase inhibitor; non-cytotoxic mechanism) |
-| Myelosuppression Risk | Not quantifiable from this evidence pack (safety data flagged as data gap). Literature in this pack references neutropenia and cytopenia monitoring in idelalisib-treated patients — please refer to the package insert |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| Zytotoxizitäts-Klassifizierung | Zielgerichtete Therapie (PI3Kδ-selektiver kleiner-Molekül-Kinase-Inhibitor; nicht-zytotoxischer Mechanismus) |
+| Myelosuppressionsrisiko | Nicht quantifizierbar aus diesem Evidenz-Paket (Sicherheitsdaten gekennzeichnet als Datenlücke). Literatur in diesem Paket verweist auf Neutropenie- und Zytopenie-Überwachung bei Idelalisib-behandelten Patienten — bitte Packungsbeilage konsultieren |
+| Emetogenitäts-Klassifizierung | Bitte Packungsbeilage Warnhinweise und Vorsichtsmaßnahmen konsultieren |
+| Überwachungselemente | Bitte Packungsbeilage Warnhinweise und Vorsichtsmaßnahmen konsultieren |
+| Handhabungsschutz | Bitte Packungsbeilage Warnhinweise und Vorsichtsmaßnahmen konsultieren |
 
 ---
 
-## Safety Considerations
+## Sicherheitsaspekte
 
-Please refer to the package insert for safety information. All structured safety fields in this evidence pack (`key_warnings`, `contraindications`, `ddi`) are marked as data gaps, and this is flagged as a **Blocking** gap (DG001) that prevents entry into the S1 safety pre-assessment stage.
+Bitte konsultieren Sie die Packungsbeilage für Sicherheitsinformationen. Alle strukturierten Sicherheitsfelder in diesem Evidenz-Paket (`key_warnings`, `contraindications`, `ddi`) sind als Datenlücken gekennzeichnet, und dies wird als **Blocking**-Lücke (DG001) gekennzeichnet, die den Eintritt in die S1-Sicherheits-Vor-Bewertungsphase verhindert.
 
 ---
 
-## Conclusion and Next Steps
+## Schlussfolgerung und nächste Schritte
 
-**Decision: Hold**
+**Entscheidung: Halten**
 
-**Rationale:**
-Evidence specific to idelalisib in MCL is currently limited to completed Phase 1 trials and preclinical mechanistic studies (Evidence Level L3, decision stage S2, TxGNN's own recommendation is "Research Question"), with no completed Phase 2/3 confirmatory trial for this indication. Combined with a **blocking** data gap in TFDA/label safety information (DG001), a full safety and efficacy assessment cannot yet be completed.
+**Begründung:**
+Evidenz spezifisch für Idelalisib bei MCL ist derzeit auf abgeschlossene Phase-1-Studien und präklinische mechanistische Studien beschränkt (Evidenzstufe L3, Entscheidungsphase S2, TxGNN's eigene Empfehlung ist „Research Question"), ohne abgeschlossene Phase-2/3-bestätigende Studie für diese Indikation. Kombiniert mit einer **Blocking**-Datenlücke in TFDA/Etikett-Sicherheitsinformationen (DG001), kann eine vollständige Sicherheits- und Wirksamkeitsbewertung derzeit nicht abgeschlossen werden.
 
-**To proceed, the following is needed:**
-- Retrieve and parse the official product label (TFDA/EMA) to resolve DG001 and enable S1 safety review
-- Confirm mechanism-of-action documentation via DrugBank to resolve DG002
-- Independently verify true German/Taiwan marketing and licensing status (current "not marketed / 0 licenses" appears inconsistent with idelalisib's known global approval history)
-- Monitor for initiation of a dedicated Phase 2/3 trial in relapsed/refractory MCL
-- Establish a safety monitoring plan addressing known class-effect toxicities of PI3Kδ inhibitors (hepatotoxicity, colitis/diarrhea, pneumonitis, opportunistic infection) once label data is available
+**Um fortzufahren, ist folgendes erforderlich:**
+- Beschaffung und Parsing des offiziellen Produktetiketts (TFDA/EMA) zur Behebung von DG001 und Ermöglichung der S1-Sicherheitsüberprüfung
+- Bestätigung der Wirkmechanismus-Dokumentation via DrugBank zur Behebung von DG002
+- Unabhängige Überprüfung des wahren deutschen/taiwanesischen Marktierungs- und Zulassungsstatus (derzeitiges „nicht im Handel / 0 Zulassungen" erscheint inkonsistent mit Idelalisib's bekannter globaler Zulassungsgeschichte)
+- Überwachung auf Initiierung einer dedizierten Phase-2/3-Studie bei rezidiviertem/refraktärem MCL
+- Etablierung eines Sicherheitsüberwachungsplans, der bekannte Klasseneffekt-Toxizitäten von PI3Kδ-Inhibitoren adressiert (Hepatotoxizität, Kolitis/Diarrhöe, Pneumonitis, opportunistische Infektionen) nach Verfügbarkeit von Etiketten-Daten
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

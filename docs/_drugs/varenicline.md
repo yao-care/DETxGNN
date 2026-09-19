@@ -29,61 +29,62 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Varenicline: From Smoking Cessation to Migraine Disorder
+# Vareniclin: Von der Raucherentwöhnung bis zur Migränestörung
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Varenicline is a nicotinic acetylcholine receptor (nAChR) partial agonist used as an aid for smoking cessation. The TxGNN model predicts it may be effective for **Migraine Disorder**, but this prediction is currently supported by **zero clinical trials** and **zero publications** — it is a pure model output with no mechanistic or clinical validation.
+Vareniclin ist ein partieller Agonist von nikotinischen Acetylcholinrezeptoren (nAChR), der als Hilfsmittel zur Raucherentwöhnung eingesetzt wird. Das TxGNN-Modell prognostiziert, dass es bei **Migränestörung** wirksam sein könnte, aber diese Vorhersage wird derzeit durch **null klinische Studien** und **null Publikationen** gestützt — es ist ein reines Modelloutput ohne mechanistische oder klinische Validierung.
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
-|------|------|
-| Original Indication | Smoking cessation aid (inferred from literature; official regulatory indication text not available) |
-| Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L5 |
-| Germany Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Hilfsmittel zur Raucherentwöhnung (aus Literatur abgeleitet; offizieller Text der behördlichen Zulassung nicht verfügbar) |
+| Prognostizierte neue Indikation | Migränestörung |
+| TxGNN-Vorhersage-Score | 99,92 % |
+| Evidenzstufe | L5 |
+| Status auf dem deutschen Markt | ✗ Nicht im Handel |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Zurückstellen |
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage vernünftig?
 
-Currently, detailed mechanism of action data is not available (data gap). Based on the surrounding literature in this evidence pack, varenicline is described as "a partial agonist/antagonist with affinity and selectivity for alpha4 beta2 nicotinic acetylcholine receptors," used clinically as a first-line smoking cessation therapy by reducing nicotine craving and withdrawal symptoms.
+Derzeit sind detaillierte Daten zum Wirkmechanismus nicht verfügbar (Datenlücke). Auf der Grundlage der umgebenden Literatur in diesem Evidenzpaket wird Vareniclin als „ein partieller Agonist/Antagonist mit Affinität und Selektivität für alpha4-beta2-Nikotinrezeptoren des Acetylcholins" beschrieben und wird klinisch als First-Line-Therapie zur Raucherentwöhnung durch Verringerung von Nikotinverlangen und Entzugssymptomen eingesetzt.
 
-There is no literature or clinical trial in this evidence pack that connects α4β2 nAChR partial agonism to migraine pathophysiology. The only migraine-adjacent evidence found under a related candidate indication ("headache disorder," rank 9) consists exclusively of smoking-cessation trials where headache appears as an incidental adverse-event term — including one case report ("Bath-related headache induced by varenicline," PMID 23175211) describing varenicline **causing** headache, i.e., evidence pointing in the opposite direction of the hypothesis. No positive mechanistic or clinical signal for migraine treatment exists in the available data.
+In diesem Evidenzpaket gibt es keine Literatur oder klinische Studie, die α4β2-nAChR-Partial-Agonismus mit der Pathophysiologie von Migräne verbindet. Die einzige migränebezogene Evidenz unter einer verwandten Kandidaten-Indikation („Kopfschmerzstörung", Rang 9) besteht ausschließlich aus Raucherentwöhnungsstudien, in denen Kopfschmerz als ein beiläufiger Nebenwirkungsterm auftritt — einschließlich eines Fallberichts („Bath-related headache induced by varenicline", PMID 23175211), der beschreibt, dass Vareniclin **Kopfschmerz verursacht**, d. h. Evidenz, die in die entgegengesetzte Richtung der Hypothese weist. Es gibt kein positives mechanistisches oder klinisches Signal für die Behandlung von Migräne in den verfügbaren Daten.
 
-Given the complete absence of disease-specific trials, publications, or mechanistic rationale, this prediction should be treated as an unvalidated model output rather than a pharmacologically grounded hypothesis.
+Angesichts des völligen Fehlens von krankheitsspezifischen Studien, Publikationen oder mechanistischen Begründungen sollte diese Vorhersage eher als nicht validierter Modelloutput denn als pharmakologisch fundierte Hypothese behandelt werden.
 
-## Clinical Trial Evidence
+## Klinische Studienbeweise
 
-Currently no related clinical trials registered
+Derzeit keine verwandten klinischen Studien registriert
 
-## Literature Evidence
+## Literaturbeweise
 
-Currently no related literature available
+Derzeit keine verwandte Literatur verfügbar
 
-## Germany Market Information
+## Marktinformationen für Deutschland
 
-Varenicline is currently **not marketed** in Germany (0 authorizations on record), so no product/authorization table is available.
+Vareniclin ist derzeit **nicht im Handel** in Deutschland (0 Zulassungen in den Unterlagen), daher ist keine Produkt-/Zulassungstabelle verfügbar.
 
-## Safety Considerations
+## Sicherheitsaspekte
 
-Please refer to the package insert for safety information.
+Bitte beachten Sie die Fachinformation für Sicherheitsinformationen.
 
-## Conclusion and Next Steps
+## Fazit und nächste Schritte
 
-**Decision: Hold**
+**Entscheidung: Zurückstellen**
 
-**Rationale:**
-The top-ranked prediction (migraine disorder) has no supporting clinical trials or literature, and the only tangentially related evidence in this evidence pack (under "headache disorder") actually suggests varenicline may *induce* rather than treat headache. Combined with two blocking/high-severity data gaps — missing TFDA label data (warnings/contraindications) and missing MOA confirmation — this candidate does not meet the minimum bar to advance past S0.
+**Begründung:**
+Die Top-Vorhersage (Migränestörung) hat keine unterstützenden klinischen Studien oder Literatur, und die einzige tangential verwandte Evidenz in diesem Evidenzpaket (unter „Kopfschmerzstörung") deutet tatsächlich darauf hin, dass Vareniclin möglicherweise eher Kopfschmerz *induziert* als behandelt. In Kombination mit zwei blockierenden/hochgradigen Datenlücken — fehlende TFDA-Label-Daten (Warnhinweise/Kontraindikationen) und fehlende MOA-Bestätigung — erfüllt dieser Kandidat nicht die Mindestanforderungen, um die Phase S0 zu verlassen.
 
-**To proceed, the following is needed:**
-- TFDA-approved label (warnings, contraindications) to unblock S1 safety screening (DG001, Blocking)
-- Confirmed mechanism of action from DrugBank/primary pharmacology sources (DG002, High)
-- Disease-specific preclinical or clinical evidence directly evaluating varenicline in migraine (not smoking-cessation trials with headache as an incidental term)
-- Clarification of official original indication and regulatory approval status, since `original_indications` is currently empty
-- If pursuing lower-ranked candidates (e.g., glaucoma, alopecia), equivalent trial/literature evidence must first be identified — none currently exists for any of the 10 candidates in this pack
+**Um fortzufahren, ist Folgendes erforderlich:**
+- TFDA-genehmigtes Label (Warnhinweise, Kontraindikationen), um das S1-Sicherheits-Screening freizuschalten (DG001, Blockierend)
+- Bestätigter Wirkmechanismus aus DrugBank/primären Pharmakologie-Quellen (DG002, Hoch)
+- Krankheitsspezifische präklinische oder klinische Evidenz, die Vareniclin bei Migräne direkt bewertet (nicht Raucherentwöhnungsstudien mit Kopfschmerz als beiläufiger Term)
+- Klarstellung der offiziellen ursprünglichen Indikation und des behördlichen Zulassungsstatus, da `original_indications` derzeit leer ist
+- Wenn niedrigerrangige Kandidaten verfolgt werden (z. B. Glaukom, Alopezie), muss zuerst entsprechende Studien-/Literatur-Evidenz ermittelt werden — derzeit existiert für keinen der 10 Kandidaten in diesem Paket solche Evidenz
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

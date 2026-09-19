@@ -29,97 +29,98 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0**
 
 </div>
 
-# Ripretinib: From Gastrointestinal Stromal Tumor — Repurposing Evaluation Pending
+# Ripretinib: Aus gastrointestinalem Stroma-Tumor – Repurposing-Bewertung ausstehend
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Ripretinib (Qinlock) is a switch-control kinase inhibitor targeting KIT and PDGFRA mutations, originally approved for advanced gastrointestinal stromal tumor (GIST) in patients who have received three or more prior kinase inhibitor therapies.
-This Evidence Pack does not yet contain TxGNN-predicted repurposing candidates for Ripretinib, as two critical data gaps — TFDA safety labeling (blocking severity) and mechanism of action detail (high severity) — remain unresolved.
-No new indication can be formally scored or recommended at this stage.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Advanced gastrointestinal stromal tumor (GIST), ≥ 4th-line |
-| Predicted New Indication | N/A — TxGNN predictions not yet available in this Evidence Pack |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | N/A |
-| Authorized Market Status | Not Marketed (0 authorizations) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Ripretinib (Qinlock) ist ein Switch-Control-Kinase-Inhibitor, der auf KIT- und PDGFRA-Mutationen abzielt und ursprünglich für fortgeschrittenes gastrointestinales Stroma-Tumor (GIST) bei Patienten zugelassen wurde, die bereits drei oder mehr frühere Kinase-Inhibitor-Therapien erhalten haben.
+Dieses Evidence Pack enthält noch keine TxGNN-vorhergesagten Repurposing-Kandidaten für Ripretinib, da zwei kritische Datenlücken – TFDA-Sicherheitskennzeichnung (Blockierungsschwere) und Mechanismus-der-Wirkung-Details (hohe Schwere) – ungelöst bleiben.
+Keine neue Indikation kann in diesem Stadium formal bewertet oder empfohlen werden.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-No TxGNN repurposing prediction is currently available for Ripretinib. The mechanism of action (MOA) data is flagged as a high-severity gap (DG002), which prevents formal mechanistic similarity mapping to candidate indications. Until the TxGNN pipeline is re-run with complete inputs, no graph-based prediction score can be assessed.
-
-Based on publicly available pharmacology, Ripretinib is a broad-spectrum **switch-control inhibitor** of KIT and PDGFRA kinases. Unlike first- and second-generation KIT inhibitors (imatinib, sunitinib), Ripretinib simultaneously occupies both the activation loop and the switch pocket of these kinases, achieving inhibitory coverage across a wide spectrum of primary and acquired resistance mutations. This mechanism is the basis of its efficacy in advanced GIST, a tumour type overwhelmingly driven by gain-of-function KIT or PDGFRA alterations (>85% of cases).
-
-This multi-conformational inhibition profile raises a mechanistic hypothesis for repurposing in other KIT- or PDGFRA-driven malignancies — including systemic mastocytosis, melanoma with KIT mutations, and certain subtypes of acute myeloid leukaemia with KIT overexpression. However, these remain untested hypotheses in the context of this Evidence Pack. Formal TxGNN graph-embedding predictions and DrugBank MOA data must be retrieved before any indication-specific evaluation can proceed.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for a predicted new indication. (This Evidence Pack contains no TxGNN-predicted repurposing candidates; clinical trial evidence for new indications cannot be extracted.)
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Fortgeschrittenes gastrointestinales Stroma-Tumor (GIST), ≥ 4th-line |
+| Vorhergesagte neue Indikation | N/A – TxGNN-Vorhersagen noch nicht in diesem Evidence Pack verfügbar |
+| TxGNN-Vorhersage-Score | N/A |
+| Evidenzstufe | N/A |
+| Marktzulassungsstatus | Nicht vermarktet (0 Autorisierungen) |
+| Anzahl der Autorisierungen | 0 |
+| Empfohlene Entscheidung | Halten |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage sinnvoll?
 
-Currently no related literature available for a predicted new indication. (Pending TxGNN prediction output before indication-specific literature can be identified.)
+Für Ripretinib ist derzeit keine TxGNN-Repurposing-Vorhersage verfügbar. Die Mechanismus-der-Wirkung-(MOA-)Daten sind als Lücke mit hoher Schwere (DG002) gekennzeichnet, was eine formale Kartierung der Mechanismussimilarität zu Kandidaten-Indikationen verhindert. Bis die TxGNN-Pipeline mit vollständigen Eingaben erneut ausgeführt wird, kann keine graphbasierte Vorhersagepunktzahl bewertet werden.
 
----
+Basierend auf öffentlich verfügbarer Pharmakologie ist Ripretinib ein Breitspektrum-Switch-Control-Inhibitor von KIT- und PDGFRA-Kinasen. Im Gegensatz zu KIT-Inhibitoren der ersten und zweiten Generation (Imatinib, Sunitinib) besetzt Ripretinib gleichzeitig sowohl die Aktivierungsschleife als auch die Switch-Tasche dieser Kinasen und erreicht eine Hemmungsabdeckung über ein breites Spektrum primärer und erworbener Resistenzmutationen. Dieser Mechanismus ist die Grundlage seiner Wirksamkeit bei fortgeschrittenem GIST, einem Tumor-Typ, der überwiegend durch Funktionsgewinn-KIT- oder PDGFRA-Alterationen angetrieben wird (>85 % der Fälle).
 
-## Authorized Market Information
-
-| Item | Status |
-|------|--------|
-| Market Status | Not marketed — 0 approved authorizations found |
-| Total Authorizations | 0 |
-
-> **Note:** Ripretinib has received marketing authorization outside this dataset's scope (FDA approval May 2020; EMA approval August 2021 under brand name Qinlock). The absence of a local authorization record should be cross-checked against current regulatory databases before concluding non-availability.
+Dieses Hemmungsprofil mit mehreren Konformationen wirft eine mechanistische Hypothese für die Repurposing in anderen KIT- oder PDGFRA-getriebenen Malignomen auf – einschließlich systemischer Mastozytose, Melanom mit KIT-Mutationen und bestimmten Subtypen der akuten myeloischen Leukämie mit KIT-Überexpression. Diese bleiben jedoch ungetestete Hypothesen im Kontext dieses Evidence Packs. Formale TxGNN-Graph-Embedding-Vorhersagen und DrugBank-MOA-Daten müssen abgerufen werden, bevor eine indikationsspezifische Bewertung fortgesetzt werden kann.
 
 ---
 
-## Cytotoxicity
+## Evidenz aus klinischen Studien
 
-Ripretinib is an antineoplastic agent (targeted kinase inhibitor) indicated for a malignant condition.
-
-| Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted therapy — Switch-control KIT / PDGFRA kinase inhibitor |
-| Myelosuppression Risk | Low to moderate; anaemia and neutropenia reported as class effects of KIT inhibitors; CBC monitoring recommended |
-| Emetogenicity Classification | Low (oral targeted agent, consistent with MASCC/ESMO classification for this drug class) |
-| Monitoring Items | CBC with differential, liver function tests (ALT/AST), blood pressure, thyroid function, ECG (QTc) |
-| Handling Protection | Standard oral cytotoxic drug handling precautions apply; caregivers should avoid direct contact with capsule contents |
+Derzeit sind keine verwandten klinischen Studien für eine vorhergesagte neue Indikation registriert. (Dieses Evidence Pack enthält keine TxGNN-vorhergesagten Repurposing-Kandidaten; Evidenz aus klinischen Studien für neue Indikationen kann nicht extrahiert werden.)
 
 ---
 
-## Safety Considerations
+## Evidenz aus der Literatur
 
-Please refer to the package insert for safety information. (Data gap DG001 — TFDA safety labeling — is classified as **Blocking severity** and has not yet been resolved in this Evidence Pack. Key warnings and contraindications cannot be reported until the package insert PDF is retrieved and parsed.)
+Derzeit ist keine verwandte Literatur für eine vorhergesagte neue Indikation verfügbar. (In Erwartung der TxGNN-Vorhersage-Ausgabe, bevor indikationsspezifische Literatur identifiziert werden kann.)
 
 ---
 
-## Conclusion and Next Steps
+## Marktzulassungsinformationen
 
-**Decision: Hold**
+| Element | Status |
+|---------|--------|
+| Marktstand | Nicht vermarktet – 0 genehmigte Autorisierungen gefunden |
+| Gesamtzahl der Autorisierungen | 0 |
 
-**Rationale:**
-This Evidence Pack contains no TxGNN-predicted repurposing indications for Ripretinib, and one blocking-severity data gap (DG001: safety labeling) prevents even a preliminary safety screen. The candidate cannot advance to any evaluation stage until the gaps below are resolved.
+> **Hinweis:** Ripretinib hat Marktzulassungen außerhalb des Umfangs dieses Datensatzes erhalten (FDA-Zulassung Mai 2020; EMA-Zulassung August 2021 unter dem Markennamen Qinlock). Das Fehlen einer lokalen Autorisierungsdatensatz sollte anhand aktueller behördlicher Datenbanken überprüft werden, bevor auf Nichtverfügbarkeit geschlossen wird.
 
-**To proceed, the following is needed:**
+---
 
-- **Resolve DG001 (Blocking):** Download and parse the TFDA package insert PDF to extract warnings, contraindications, and special population restrictions — required before S1 safety screening can begin
-- **Resolve DG002 (High):** Query the DrugBank API to retrieve full MOA, pharmacodynamics, and target profile for Ripretinib (DrugBank query on 2026-03-29 returned 1 result but data was not captured in the Evidence Pack)
-- **Re-run TxGNN prediction pipeline:** Generate graph-based repurposing candidates with complete drug feature inputs; without predictions, no indication-specific evaluation is possible
-- **Verify market authorization status:** Cross-check EMA and local regulatory databases to confirm whether Ripretinib is authorized under any jurisdiction relevant to this project, and update `total_licenses` accordingly
-- **Retrieve DDI data:** The DDI query returned `not_found`; consider querying alternative sources (e.g., DrugBank interactions, FDA label interactions) given Ripretinib's CYP3A4 metabolism profile
+## Zytotoxizität
+
+Ripretinib ist ein Antineoplastikum (gezielter Kinase-Inhibitor), das für eine bösartige Erkrankung indiziert ist.
+
+| Element | Inhalt |
+|---------|--------|
+| Zytotoxizitäts-Klassifizierung | Gezielte Therapie – Switch-Control-KIT-/PDGFRA-Kinase-Inhibitor |
+| Myelosuppressionsrisiko | Niedrig bis moderat; Anämie und Neutropenie als Klasseneffekte von KIT-Inhibitoren berichtet; CBC-Überwachung empfohlen |
+| Emetogenitäts-Klassifizierung | Niedrig (orales gezieltes Agens, konsistent mit MASCC/ESMO-Klassifizierung für diese Wirkstoffklasse) |
+| Überwachungselemente | CBC mit Differenzial, Leberfunktionstests (ALT/AST), Blutdruck, Schilddrüsenfunktion, EKG (QTc) |
+| Handhabungsschutz | Standard-Vorsichtsmaßnahmen für die Handhabung oraler zytostatischer Arzneimittel gelten; Betreuer sollten direkten Kontakt mit dem Kapselinhalt vermeiden |
+
+---
+
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. (Die Datenlücke DG001 – TFDA-Sicherheitskennzeichnung – ist als Blockierungsschwere klassifiziert und wurde in diesem Evidence Pack noch nicht gelöst. Schlüsselwarnungen und Kontraindikationen können nicht gemeldet werden, bis die Packungsbeilage-PDF abgerufen und analysiert wird.)
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Halten**
+
+**Begründung:**
+Dieses Evidence Pack enthält keine TxGNN-vorhergesagten Repurposing-Indikationen für Ripretinib, und eine Datenlücke mit Blockierungsschwere (DG001: Sicherheitskennzeichnung) verhindert sogar ein vorläufiges Sicherheits-Screening. Der Kandidat kann kein Bewertungsstadium erreichen, bis die folgenden Lücken behoben sind.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+
+- **Beheben Sie DG001 (Blockierung):** Laden Sie die TFDA-Packungsbeilage-PDF herunter und analysieren Sie sie, um Warnungen, Kontraindikationen und Beschränkungen für Spezialgruppen zu extrahieren – erforderlich, bevor das S1-Sicherheits-Screening beginnen kann
+- **Beheben Sie DG002 (Hoch):** Fragen Sie die DrugBank-API ab, um vollständige MOA, Pharmakodynamik und Zielprofile für Ripretinib abzurufen (DrugBank-Abfrage am 2026-03-29 gab 1 Ergebnis zurück, aber die Daten wurden nicht im Evidence Pack erfasst)
+- **Führen Sie die TxGNN-Vorhersage-Pipeline erneut aus:** Generieren Sie graphbasierte Repurposing-Kandidaten mit vollständigen Wirkstoff-Feature-Eingaben; ohne Vorhersagen ist keine indikationsspezifische Bewertung möglich
+- **Überprüfen Sie den Marktzulassungsstatus:** Überprüfen Sie die EMA- und lokalen behördlichen Datenbanken, um zu bestätigen, ob Ripretinib unter einer für dieses Projekt relevanten Rechtsprechung autorisiert ist, und aktualisieren Sie `total_licenses` entsprechend
+- **Rufen Sie DDI-Daten ab:** Die DDI-Abfrage gab `not_found` zurück; erwägen Sie die Abfrage alternativer Quellen (z. B. DrugBank-Wechselwirkungen, FDA-Kennzeichnungs-Wechselwirkungen) angesichts des CYP3A4-Metabolismusprofils von Ripretinib
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -29,90 +29,91 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-# Tildrakizumab: From Unconfirmed Original Indication to Severe Nonproliferative Diabetic Retinopathy
+# Tildrakizumab: Von unbestätigter ursprünglicher Indikation zu schwerer nicht-proliferativer diabetischer Retinopathie
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> The original indication for Tildrakizumab could not be confirmed from the current Evidence Pack — the drug is not yet marketed in Germany and no license records exist.
-> The TxGNN model predicts it may be effective for **Severe Nonproliferative Diabetic Retinopathy**,
-> but currently **0 clinical trials** and **0 publications** support this direction — the prediction is based purely on knowledge-graph inference.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available (no license records; original_indications field is empty) |
-| Predicted New Indication | Severe Nonproliferative Diabetic Retinopathy |
-| TxGNN Prediction Score | 99.63% |
-| Evidence Level | L5 |
-| Germany Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Die ursprüngliche Indikation für Tildrakizumab konnte anhand des aktuellen Evidenzpakets nicht bestätigt werden — das Arzneimittel ist in Deutschland noch nicht auf dem Markt und es gibt keine Zulassungsunterlagen.
+> Das TxGNN-Modell prognostiziert möglicherweise Wirksamkeit bei **schwerer nicht-proliferativer diabetischer Retinopathie**,
+> aber derzeit gibt es **0 klinische Studien** und **0 Veröffentlichungen**, die diese Richtung unterstützen — die Vorhersage basiert rein auf Knowledge-Graph-Inferenz.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Kurzüberblick
 
-Currently, detailed mechanism of action data is not available (`original_moa` is flagged as a data gap in this Evidence Pack). Based on information embedded in the repurposing rationale, Tildrakizumab is identified as an **anti-IL-23p19 monoclonal antibody**. This mechanism class is well established in dermatology (IL-23/Th17 pathway inhibition), though the confirmed original indication itself is not documented in this data pack.
-
-The theoretical link to diabetic retinopathy rests on the hypothesis that the IL-23/Th17 axis contributes to chronic retinal inflammation and pathological neovascularization, so IL-23 blockade might theoretically reduce inflammation-driven retinal damage. However, this is a **mechanistic hypothesis only** — there is no animal or human data in the current evidence base connecting IL-23 inhibition to diabetic eye disease outcomes.
-
-Overall, the high TxGNN score reflects structural similarity within the knowledge graph rather than validated biological or clinical evidence. This candidate should be treated as an early-stage hypothesis requiring substantial additional data before any clinical consideration.
-
-### Other Predicted Indications (Not Yet Prioritized)
-
-The same Evidence Pack also flagged three additional candidates, all at the same evidence stage:
-
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Recommendation |
-|------|----------------------|-------------|-----------------|-----------------|
-| 2 | Diabetic Retinopathy | 99.53% | L5 | Hold |
-| 3 | Diabetic Cataract | 99.21% | L5 | Hold |
-| 4 | Drug-induced Osteoporosis | 99.20% | L5 | Hold |
-
-Of these, drug-induced osteoporosis has the relatively strongest mechanistic plausibility (IL-23/IL-17/Th17 signaling is known to regulate osteoclast activation via RANKL), while diabetic cataract has the weakest mechanistic link, as its pathology is primarily driven by hyperglycemia-induced lens protein glycation rather than inflammation. All four candidates currently have zero supporting clinical trials or literature.
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Nicht verfügbar (keine Zulassungsunterlagen; das Feld `original_indications` ist leer) |
+| Vorhergesagte neue Indikation | Schwere nicht-proliferative diabetische Retinopathie |
+| TxGNN-Vorhersage-Score | 99.63% |
+| Evidenzgrad | L5 |
+| Marktstatus in Deutschland | Nicht auf dem Markt (Nicht auf dem Markt) |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Abwarten |
 
 ---
 
-## Clinical Trial Evidence
+## Warum ist diese Vorhersage angemessen?
 
-Currently no related clinical trials registered.
+Derzeit sind detaillierte Daten zum Wirkmechanismus nicht verfügbar (`original_moa` ist in diesem Evidenzpaket als Datenlücke gekennzeichnet). Basierend auf Informationen, die in der Umwidmungsrationale eingebettet sind, wird Tildrakizumab als **monoklonaler Antikörper gegen IL-23p19** identifiziert. Diese Mechanismus-Klasse ist in der Dermatologie gut etabliert (Hemmung des IL-23/Th17-Signalwegs), obwohl die bestätigte ursprüngliche Indikation selbst nicht in diesem Datenpaket dokumentiert ist.
 
----
+Die theoretische Verbindung zur diabetischen Retinopathie beruht auf der Hypothese, dass die IL-23/Th17-Achse zu chronischer Netzhautentzündung und pathologischer Neovaskularisierung beiträgt, daher könnte die IL-23-Blockade theoretisch entzündungsbedingte Netzhautschäden reduzieren. Dies ist jedoch nur eine **mechanistische Hypothese** — es gibt keine Tier- oder Humanstudien in der aktuellen Datenbasis, die einen Zusammenhang zwischen IL-23-Hemmung und Ergebnissen bei diabetischer Augenerkrankung belegen.
 
-## Literature Evidence
+Insgesamt spiegelt der hohe TxGNN-Score die strukturelle Ähnlichkeit innerhalb des Knowledge Graph wider, nicht validierte biologische oder klinische Evidenz. Dieser Kandidat sollte als frühe Hypothese behandelt werden, die vor jeder klinischen Berücksichtigung erhebliche zusätzliche Daten benötigt.
 
-Currently no related literature available.
+### Andere vorhergesagte Indikationen (noch nicht priorisiert)
 
----
+Das gleiche Evidenzpaket hat auch drei weitere Kandidaten gekennzeichnet, alle auf der gleichen Evidenzstufe:
 
-## Germany Market Information
+| Rang | Vorhergesagte Indikation | TxGNN-Score | Evidenzgrad | Empfehlung |
+|------|--------------------------|-------------|-------------|-----------|
+| 2 | Diabetische Retinopathie | 99.53% | L5 | Abwarten |
+| 3 | Diabetische Katarakt | 99.21% | L5 | Abwarten |
+| 4 | Arzneimittelinduzierte Osteoporose | 99.20% | L5 | Abwarten |
 
-Tildrakizumab is not currently marketed in Germany, and no authorization records are available in this Evidence Pack (`total_licenses: 0`).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Note: Key warnings, contraindications, and drug-interaction data are all flagged as data gaps in this Evidence Pack. Notably, the meta section marks "TFDA label warnings/contraindications" as a **Blocking** data gap, meaning this candidate cannot yet enter Stage S1 safety review.)*
+Unter diesen hat arzneimittelinduzierte Osteoporose die relativ stärkste mechanistische Plausibilität (die IL-23/IL-17/Th17-Signalisierung reguliert bekanntermaßen die Osteoklasten-Aktivierung über RANKL), während diabetische Katarakt die schwächste mechanistische Verbindung hat, da ihre Pathologie primär durch hyperglykämie-induzierte Linsenprotein-Glykation angetrieben wird, nicht durch Entzündung. Alle vier Kandidaten haben derzeit null unterstützende klinische Studien oder Literatur.
 
 ---
 
-## Conclusion and Next Steps
+## Evidenz aus klinischen Studien
 
-**Decision: Hold**
+Derzeit sind keine damit verbundenen klinischen Studien registriert.
+
+---
+
+## Literaturische Evidenz
+
+Derzeit ist keine damit verbundene Literatur verfügbar.
+
+---
+
+## Marktinformationen für Deutschland
+
+Tildrakizumab ist derzeit nicht in Deutschland auf dem Markt, und es sind keine Zulassungsunterlagen in diesem Evidenzpaket verfügbar (`total_licenses: 0`).
+
+---
+
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+*(Hinweis: Wichtige Warnhinweise, Kontraindikationen und Arzneimittelwechselwirkungsdaten sind alle als Datenlücken in diesem Evidenzpaket gekennzeichnet. Besonders zu beachten ist, dass der meta-Abschnitt „TFDA-Etikett-Warnungen/Kontraindikationen" als eine **blockierende** Datenlücke kennzeichnet, was bedeutet, dass dieser Kandidat derzeit nicht in die Phase S1-Sicherheitsbewertung eintreten kann.)*
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Abwarten**
 
 **Rationale:**
-All four predicted indications are supported only by TxGNN model scores (L5, S0 stage) with zero clinical trials or literature evidence. In addition, a Blocking-severity data gap (missing TFDA label warnings/contraindications) currently prevents this candidate from proceeding to any safety evaluation stage.
+Alle vier vorhergesagten Indikationen werden nur durch TxGNN-Modell-Scores (L5, S0-Phase) mit null klinischen Studien oder literarischer Evidenz gestützt. Darüber hinaus verhindert derzeit eine blockierende Datenlücke (fehlende TFDA-Etikett-Warnungen/Kontraindikationen), dass dieser Kandidat zu einer Sicherheitsbewertungsphase übergeht.
 
-**To proceed, the following is needed:**
-- Resolve DG001 (Blocking): Obtain TFDA/official label warnings and contraindications
-- Resolve DG002 (High): Confirm mechanism of action via DrugBank API query
-- Confirm the drug's original approved indication(s), currently undocumented in this pack
-- Identify at least preclinical or observational evidence connecting IL-23 inhibition to any of the four candidate indications before advancing beyond S0
+**Um fortzufahren, ist folgendes erforderlich:**
+- Beheben Sie DG001 (Blockierung): Erhalten Sie TFDA/offizielle Etikett-Warnungen und Kontraindikationen
+- Beheben Sie DG002 (Hoch): Bestätigen Sie den Wirkmechanismus über die DrugBank-API-Abfrage
+- Bestätigen Sie die ursprünglichen zugelassenen Indikationen des Arzneimittels, die derzeit in diesem Paket nicht dokumentiert sind
+- Identifizieren Sie mindestens vorklinische oder Beobachtungsevidenz, die IL-23-Hemmung mit einer der vier Kandidatenindikationen verbindet, bevor Sie über S0 hinaus vorankommen
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

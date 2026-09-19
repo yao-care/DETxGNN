@@ -29,66 +29,67 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **7**
 
 </div>
 
-# Ibuprofen: From Analgesic/Anti-inflammatory Use to Acromesomelic Dysplasia, Hunter-Thompson Type
+# Ibuprofen: Von analgetischer/entzündungshemmender Anwendung bis Acromesomele Dysplasie, Hunter-Thompson-Typ
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Ibuprofen is a widely used NSAID (mechanism of action data not provided in this Evidence Pack); no original indication text was supplied either. TxGNN's top prediction is **Acromesomelic Dysplasia, Hunter-Thompson Type**, a rare autosomal recessive skeletal dysplasia, but this is supported by **zero clinical trials** and **zero publications**, and the model's own rationale flags the link as likely a knowledge-graph co-occurrence artifact rather than a genuine mechanistic relationship.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available in this Evidence Pack (no `original_indications` or license data provided) |
-| Predicted New Indication | Acromesomelic Dysplasia, Hunter-Thompson Type |
-| TxGNN Prediction Score | 99.74% |
-| Evidence Level | L5 (model prediction only, no clinical/literature support) |
-| Germany Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Ibuprofen ist ein weit verbreitetes NSAID (Mechanismusdaten sind in diesem Nachweispaket nicht vorhanden); kein ursprünglicher Indikationstext wurde ebenfalls bereitgestellt. TxGNNs Top-Vorhersage ist **Acromesomele Dysplasie, Hunter-Thompson-Typ**, eine seltene autosomal-rezessive Skelettdysplasie, aber diese wird durch **null klinische Studien** und **null Veröffentlichungen** gestützt, und die Begründung des Modells selbst kennzeichnet den Zusammenhang als wahrscheinlich ein Ko-Auftritts-Artefakt aus dem Wissensgraph, statt einer echten mechanistischen Beziehung.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Currently, detailed mechanism of action data is not available for Ibuprofen in this Evidence Pack (flagged as a High-severity data gap, DG002). Without this, no credible pharmacological bridge can be established between Ibuprofen's known COX-inhibition/anti-inflammatory activity and the predicted indication.
+| Punkt | Inhalt |
+|------|--------|
+| Ursprüngliche Indikation | In diesem Nachweispaket nicht verfügbar (keine `original_indications` oder Lizenzdaten bereitgestellt) |
+| Vorhergesagte neue Indikation | Acromesomele Dysplasie, Hunter-Thompson-Typ |
+| TxGNN-Vorhersageergebnis | 99.74% |
+| Evidenzstufe | L5 (nur Modellvorhersage, keine klinischen/Literaturbelege) |
+| Status auf dem deutschen Markt | ✗ Nicht vermarktet |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | Halten |
 
-Acromesomelic Dysplasia, Hunter-Thompson Type is caused by *NPR2* gene mutations that disrupt CNP (C-type natriuretic peptide) signaling in growth-plate chondrocytes — a developmental/genetic disorder, not an inflammatory condition. The rationale provided alongside this prediction explicitly states there is no direct causal relationship to Ibuprofen's COX-inhibitory mechanism, and attributes the high TxGNN score to co-occurrence of "skeletal/joint symptom" nodes in the knowledge graph rather than a real disease-modifying effect.
+---
 
-This pattern repeats across all seven ranked predictions in this Evidence Pack (brachyolmia-amelogenesis imperfecta syndrome, myosclerosis, brachyolmia, brachydactyly-syndactyly syndrome, pseudoachondroplasia, colobomatous microphthalmia-rhizomelic dysplasia syndrome) — all are rare structural/genetic skeletal or developmental disorders with no inflammatory pathophysiology, no supporting trials, and no supporting literature. The one partial exception is pseudoachondroplasia, where NSAIDs could plausibly offer *symptomatic* pain relief for associated early-onset osteoarthritis-like joint pain, but this would be symptom management, not a disease-modifying repurposing indication, and remains entirely unstudied in this population.
+## Warum ist diese Vorhersage vernünftig?
 
-## Clinical Trial Evidence
+Derzeit sind detaillierte Daten zum Wirkungsmechanismus für Ibuprofen in diesem Nachweispaket nicht verfügbar (gekennzeichnet als kritische Datenlücke, DG002). Ohne diese kann keine glaubwürdige pharmakologische Brücke zwischen der bekannten COX-Hemmung/entzündungshemmenden Aktivität von Ibuprofen und der vorhergesagten Indikation errichtet werden.
 
-Currently no related clinical trials registered.
+Acromesomele Dysplasie, Hunter-Thompson-Typ wird durch Mutationen des *NPR2*-Gens verursacht, die die CNP-(C-Typ natriuretisches Peptid)-Signalisierung in Wachstumsplatten-Chondrozyten unterbrechen — eine Entwicklungs-/genetische Störung, keine entzündliche Erkrankung. Die Begründung dieser Vorhersage besagt ausdrücklich, dass es keine direkte kausale Beziehung zur COX-Hemmung von Ibuprofen gibt, und führt den hohen TxGNN-Wert auf Ko-Auftritte von „Skelett-/Gelenksymptom"-Knoten im Wissensgraph zurück, statt auf einen echten krankheitsmodifizierenden Effekt.
 
-## Literature Evidence
+Dieses Muster wiederholt sich über alle sieben bewerteten Vorhersagen in diesem Nachweispaket (Brachydaktylie-Amelogenesis-Imperfecta-Syndrom, Myosklerose, Brachydaktylie, Brachydaktylie-Syndaktylie-Syndrom, Pseudoachondroplasie, Colobomatöse Mikrophthalmie-Rhizomelie-Dysplasie-Syndrom) — alle sind seltene strukturelle/genetische Skelett- oder Entwicklungsstörungen ohne entzündliche Pathophysiologie, ohne unterstützende Studien und ohne unterstützende Literatur. Die einzige teilweise Ausnahme ist Pseudoachondroplasie, wo NSAIDs plausibel *symptomatische* Schmerzlinderung bei assoziiertem frühen arthrose-ähnlichen Gelenkschmerz bieten könnten, aber dies wäre Symptommanagement, kein krankheitsmodifizierendes Repurposing, und bleibt völlig unstudiert in dieser Population.
 
-Currently no related literature available.
+## Evidenz aus klinischen Studien
 
-## Germany Market Information
+Derzeit sind keine verwandten klinischen Studien registriert.
 
-No market authorization data available — Ibuprofen is recorded as **not marketed** in this dataset, with 0 total licenses.
+## Literaturbeweise
 
-## Safety Considerations
+Derzeit ist keine verwandte Literatur verfügbar.
 
-Please refer to the package insert for safety information.
+## Marktinformation Deutschland
 
-*(Key warnings, contraindications, and DDI data are all marked as data gaps in this Evidence Pack; TFDA/BfArM label review is separately flagged as a Blocking data gap — DG001 — required before any S1 safety assessment can proceed.)*
+Es sind keine Zulassungsdaten verfügbar — Ibuprofen wird in diesem Datensatz als **nicht vermarktet** verzeichnet, mit insgesamt 0 Lizenzen.
 
-## Conclusion and Next Steps
+## Sicherheitserwägungen
 
-**Decision: Hold**
+Weitere Informationen finden Sie in der Packungsbeilage.
 
-**Rationale:**
-This candidate lacks the three pillars needed to advance: no MOA data to support mechanistic plausibility, no clinical or literature evidence for any of the seven predicted indications, and no German market presence. The prediction's own rationale explicitly identifies the top-ranked indication as a probable knowledge-graph co-occurrence artifact rather than a real signal.
+*(Wichtige Warnhinweise, Gegenanzeigen und WW-Daten sind alle als Datenlücken in diesem Nachweispaket gekennzeichnet; die TFDA/BfArM-Labelbewertung ist separat als blockierende Datenlücke gekennzeichnet — DG001 — erforderlich, bevor eine S1-Sicherheitsbewertung durchgeführt werden kann.)*
 
-**To proceed, the following is needed:**
-- Ibuprofen mechanism of action (MOA) data (DG002)
-- TFDA/BfArM label — warnings and contraindications (DG001, Blocking)
-- Independent mechanistic review of why TxGNN assigns high scores to genetically-driven skeletal dysplasias with no inflammatory component (possible model calibration issue)
-- If pursuing the pseudoachondroplasia signal specifically: literature/case evidence on NSAID use for joint pain in COMP-related skeletal dysplasias, since this is the only prediction with a plausible (symptomatic) rationale
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Halten**
+
+**Begründung:**
+Dieser Kandidat mangelt es an den drei erforderlichen Säulen zum Voranschreiten: keine MOA-Daten zur Unterstützung mechanistischer Plausibilität, keine klinischen oder Literaturbelege für eine der sieben vorhergesagten Indikationen und keine deutsche Marktpräsenz. Die Begründung der Vorhersage selbst kennzeichnet die Top-bewertete Indikation ausdrücklich als wahrscheinliches Ko-Auftritts-Artefakt aus dem Wissensgraph, statt eines echten Signals.
+
+**Um voranzuschreiten, wird Folgendes benötigt:**
+- Ibuprofen-Wirkungsmechanismus-(MOA-)Daten (DG002)
+- TFDA/BfArM-Label — Warnhinweise und Gegenanzeigen (DG001, blockierend)
+- Unabhängige mechanistische Überprüfung, warum TxGNN hohe Werte für genetisch bedingte Skelettdysplasien ohne entzündliche Komponente vergibt (mögliches Modellkalibrierungsproblem)
+- Falls das Pseudoachondroplasie-Signal speziell verfolgt wird: Literatur-/Fallbelege zur NSAID-Anwendung bei Gelenkschmerzen in COMP-assoziierten Skelettdysplasien, da dies die einzige Vorhersage mit einer plausiblen (symptomatischen) Begründung ist
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

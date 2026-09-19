@@ -29,72 +29,73 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0**
 
 </div>
 
-# Repaglinide: Drug Repurposing Evaluation — Incomplete Evidence Pack (No TxGNN Predictions Available)
+# Repaglinide: Evaluierung der Neuindikation — Unvollständiges Nachweispaket (Keine TxGNN-Vorhersagen verfügbar)
 
 ---
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Repaglinide (DB00912) is a meglitinide-class short-acting insulin secretagogue indicated for Type 2 Diabetes Mellitus. This Evidence Pack (v4, data cutoff 2026-04-20) contains **no TxGNN predicted indications**, which makes a standard repurposing evaluation impossible at this stage. Critical data gaps exist across MOA documentation, safety information, and Germany market status — all must be resolved before the evaluation can proceed.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Type 2 Diabetes Mellitus (meglitinide class insulin secretagogue; source: DrugBank DB00912) |
-| Predicted New Indication | Not available — `predicted_indications` array is empty |
-| TxGNN Prediction Score | Not available |
-| Evidence Level | N/A |
-| Germany Market Status | Not marketed (0 authorizations on record) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** — insufficient data to evaluate |
+Repaglinide (DB00912) ist ein kurzwirksames Insulinsekretagogum der Meglitinid-Klasse, das für Diabetes mellitus Typ 2 indiziert ist. Dieses Nachweispaket (v4, Datenschnitt 2026-04-20) enthält **keine TxGNN-prognostizierten Indikationen**, was eine standardmäßige Evaluierung der Neuindikation in dieser Phase unmöglich macht. Kritische Datenlücken bestehen in der MOA-Dokumentation, Sicherheitsinformationen und dem deutschen Marktstatus – alle müssen behoben werden, bevor die Evaluierung fortgesetzt werden kann.
 
 ---
 
-## Why Is This Evaluation Incomplete?
+## Schnellübersicht
 
-The Evidence Pack contains two blocking gaps that prevent a standard repurposing report from being generated:
-
-**1. No TxGNN predicted indications.** The `predicted_indications` field is an empty array. Without a candidate disease target, none of the standard sections — clinical trial mapping, literature review, mechanistic rationale, or cytotoxicity assessment — can be populated. This may indicate the TxGNN pipeline has not yet run for this drug, or that results were filtered out before this pack was assembled.
-
-**2. Mechanism of action (MOA) data is missing (DG002, severity: High).** Repaglinide is known to close ATP-sensitive potassium channels on pancreatic β-cells, stimulating glucose-dependent insulin secretion. However, this information is not present in the Evidence Pack and has been flagged as a data gap. The remediation path (DrugBank API query) has been identified but not yet executed.
-
-**3. Safety data is entirely absent (DG001, severity: Blocking).** All `key_warnings`, `contraindications`, and DDI entries carry `[Data Gap]` or `not_found` status. This is classified as a Blocking gap in the meta section, meaning the pipeline should not advance to safety screening (S1) without first downloading and parsing the package insert PDF from the TFDA/BfArM official source.
-
----
-
-## Germany Market Information
-
-No marketing authorizations for Repaglinide are currently registered in this Evidence Pack. The `taiwan_regulatory` (BfArM) query returned 0 results on 2026-03-29.
-
-> **Note:** Repaglinide-containing products (e.g., NovoNorm®) are approved in several markets globally. The absence of records here likely reflects a data sourcing gap rather than true non-approval. This should be verified directly against the BfArM product database before concluding "not marketed."
+| Element | Inhalt |
+|---|---|
+| Ursprüngliche Indikation | Diabetes mellitus Typ 2 (Meglitinid-Klasse Insulinsekretagogum; Quelle: DrugBank DB00912) |
+| Prognostizierte neue Indikation | Nicht verfügbar — `predicted_indications`-Array ist leer |
+| TxGNN-Vorhersage-Score | Nicht verfügbar |
+| Evidenzstufe | N/A |
+| Marktstatus Deutschland | Nicht zugelassen (0 Zulassungen erfasst) |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | **Halten** — unzureichende Daten zur Evaluierung |
 
 ---
 
-## Safety Considerations
+## Warum ist diese Evaluierung unvollständig?
 
-All safety fields in this Evidence Pack are `[Data Gap]`. Per reporting rules, no safety items are listed.
+Das Nachweispaket enthält zwei blockierende Lücken, die verhindern, dass ein standardmäßiger Bericht zur Neuindikation erstellt wird:
 
-> Please refer to the package insert for safety information. Specific attention should be paid to hypoglycaemia risk, hepatic impairment contraindication, and CYP2C8/CYP3A4-mediated drug interactions, which are well-established for this drug class.
+**1. Keine TxGNN-prognostizierten Indikationen.** Das Feld `predicted_indications` ist ein leeres Array. Ohne ein Kandidaten-Krankheitsziel können keine der standardmäßigen Abschnitte – Zuordnung klinischer Studien, Literaturübersicht, mechanistische Begründung oder Zytotoxizitätsbewertung – gefüllt werden. Dies könnte darauf hindeuten, dass die TxGNN-Pipeline für dieses Arzneimittel noch nicht ausgeführt wurde, oder dass Ergebnisse vor der Zusammenstellung dieses Pakets gefiltert wurden.
+
+**2. Wirkmechanismus (MOA)-Daten fehlen (DG002, Schweregrad: Hoch).** Bekannt ist, dass Repaglinide ATP-sensitive Kaliumkanäle auf pankreatischen β-Zellen schließt und die glukoseabhängige Insulinsekretion stimuliert. Diese Information ist jedoch nicht im Nachweispaket vorhanden und wurde als Datenlücke gekennzeichnet. Der Lösungsweg (DrugBank-API-Abfrage) wurde identifiziert, aber noch nicht ausgeführt.
+
+**3. Sicherheitsdaten fehlen vollständig (DG001, Schweregrad: Blockierend).** Alle Einträge in `key_warnings`, `contraindications` und DDI tragen den Status `[Data Gap]` oder `not_found`. Dies wird im Meta-Bereich als blockierende Lücke klassifiziert, was bedeutet, dass die Pipeline nicht zum Sicherheitsscreening (S1) voranschreiten sollte, ohne zunächst das Beipackzettel-PDF von der TFDA/BfArM-offiziellen Quelle herunterzuladen und zu analysieren.
 
 ---
 
-## Conclusion and Next Steps
+## Informationen zum Marktstatus Deutschland
 
-**Decision: Hold**
+Für Repaglinide sind derzeit keine Zulassungen in diesem Nachweispaket erfasst. Die `taiwan_regulatory`-Abfrage (BfArM) gab am 2026-03-29 0 Ergebnisse zurück.
 
-**Rationale:**
-The Evidence Pack is structurally incomplete — there are no TxGNN predictions to evaluate, and two blocking data gaps (safety data, MOA) prevent the evaluation pipeline from advancing to any downstream stage.
+> **Hinweis:** Repaglinid-haltige Produkte (z. B. NovoNorm®) sind in mehreren Märkten weltweit zugelassen. Das Fehlen von Einträgen hier spiegelt wahrscheinlich eine Datenbeschaffungslücke wider und nicht eine echte Nicht-Zulassung. Dies sollte vor der Schlussfolgerung „nicht zugelassen" direkt in der BfArM-Produktdatenbank überprüft werden.
 
-**To proceed, the following is needed:**
+---
 
-- [ ] **Re-run TxGNN pipeline** for Repaglinide (DB00912) and populate `predicted_indications` with at least the top-ranked disease candidates and their scores.
-- [ ] **Resolve DG001 (Blocking):** Download and parse the Repaglinide package insert PDF from TFDA/BfArM to extract key warnings and contraindications.
-- [ ] **Resolve DG002 (High):** Query the DrugBank API for the full MOA entry and populate `original_moa`.
-- [ ] **Verify Germany market status:** Cross-check BfArM product database for NovoNorm® or equivalent Repaglinide authorizations; the current 0-count result is likely a data gap, not an actual regulatory absence.
-- [ ] **Re-generate Evidence Pack** at v5+ once the above gaps are closed, then re-run this report template with populated `predicted_indications[0]`.
+## Sicherheitsaspekte
+
+Alle Sicherheitsfelder in diesem Nachweispaket sind `[Data Gap]`. Nach Berichterstattungsregeln sind keine Sicherheitselemente aufgeführt.
+
+> Bitte beachten Sie das Beipackzettel für Sicherheitsinformationen. Besondere Aufmerksamkeit sollte auf Hypoglykämierisiko, Kontraindikation bei Leberfunktionsstörung und CYP2C8/CYP3A4-vermittelte Arzneimittelwechselwirkungen gelegt werden, die für diese Arzneimittelklasse etabliert sind.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Halten**
+
+**Begründung:**
+Das Nachweispaket ist strukturell unvollständig – es gibt keine TxGNN-Vorhersagen zur Evaluierung, und zwei blockierende Datenlücken (Sicherheitsdaten, MOA) verhindern, dass die Evaluierungs-Pipeline zu einer nachgelagerten Phase voranschreitet.
+
+**Zum Fortfahren ist Folgendes erforderlich:**
+
+- [ ] **TxGNN-Pipeline neu ausführen** für Repaglinide (DB00912) und `predicted_indications` mit mindestens den Top-bewerteten Krankheitskandidaten und ihren Scores füllen.
+- [ ] **DG001 (Blockierend) beheben:** Beipackzettel-PDF für Repaglinide von TFDA/BfArM herunterladen und analysieren, um wichtige Warnungen und Kontraindikationen zu extrahieren.
+- [ ] **DG002 (Hoch) beheben:** DrugBank-API für den vollständigen MOA-Eintrag abfragen und `original_moa` füllen.
+- [ ] **Marktstatus Deutschland überprüfen:** BfArM-Produktdatenbank auf Zulassungen für NovoNorm® oder äquivalente Repaglinide-Produkte überprüfen; das aktuelle 0-Ergebnis ist wahrscheinlich eine Datenlücke und kein tatsächliches Fehlen der behördlichen Zulassung.
+- [ ] **Nachweispaket neu generieren** (v5+), sobald die oben genannten Lücken geschlossen sind, und dann diese Berichtvorlage mit gefülltem `predicted_indications[0]` neu ausführen.
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

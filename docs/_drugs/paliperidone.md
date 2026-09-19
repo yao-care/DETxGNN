@@ -29,90 +29,91 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Paliperidone: From Schizophrenia to Retinal Dystrophy with or without Extraocular Anomalies
+# Paliperidon: Von Schizophrenie zu Netzhautdystrophie mit oder ohne extraokulären Anomalien
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Paliperidone is a D2/5-HT2A receptor antagonist used clinically to treat schizophrenia.
-> The TxGNN model's top-ranked prediction is **Retinal Dystrophy with or without Extraocular Anomalies**,
-> but this candidate has **0 clinical trials** and **15 publications**, none of which mention paliperidone or its pharmacology — the drug's own evidence pack flags this as a likely embedding-similarity false positive rather than a genuine mechanistic signal.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in BfArM/regulatory data (product not marketed in Germany); known clinical use is schizophrenia, inferred from mechanism notes elsewhere in this evidence pack |
-| Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L5 |
-| Germany Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Paliperidon ist ein D2/5-HT2A-Rezeptorantagonist, der klinisch zur Behandlung von Schizophrenie eingesetzt wird.
+> Die Top-Vorhersage des TxGNN-Modells ist **Netzhautdystrophie mit oder ohne extraokulären Anomalien**,
+> aber dieser Kandidat hat **0 klinische Studien** und **15 Publikationen**, von denen keine Paliperidon oder seine Pharmakologie erwähnen — das Evidenzpaket des Arzneimittels selbst kennzeichnet dies als wahrscheinlich ein Falsch-Positiv der Embedding-Ähnlichkeit statt eines echten mechanistischen Signals.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-**It is not.** Detailed MOA data is marked as a data gap in the drug record, but the evidence pack's own rationale field (drawn from the rank-10 candidate) confirms paliperidone is a D2/5-HT2A receptor antagonist — a centrally acting antipsychotic mechanism with no known connection to retinal developmental genes or ophthalmic structural pathways.
-
-The retinal dystrophy prediction ranks #1329 out of the model's full output and carries a very high raw similarity score, but score magnitude alone does not establish biological plausibility. The 15 supporting publications retrieved for this candidate cover unrelated ophthalmology topics — orbital infections, diplopia, congenital ptosis, cryptophthalmia, congenital cranial dysinnervation disorders — and **none reference paliperidone, antipsychotics, or D2/5-HT2A signaling**. The evidence pack itself characterizes this as a probable false positive caused by embedding-space similarity rather than a real mechanistic link.
-
-Candidates ranked #2–#9 (X-linked myopia, hydranencephaly, congenital disorders of glycosylation, Charcot-Marie-Tooth disease type 1G, etc.) share the same pattern: high TxGNN scores, zero supporting trials or literature, and no plausible mechanistic rationale given the drug's known pharmacology. By contrast, the #10-ranked candidate — **treatment-refractory schizophrenia** — is mechanistically coherent (it sits within paliperidone's known therapeutic class) and is the only candidate in this pack backed by real clinical trial and literature evidence (see Conclusion).
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Nicht in BfArM/Regulierungsdaten dokumentiert (Produkt nicht in Deutschland zugelassen); bekannte klinische Anwendung ist Schizophrenie, hergeleitet aus Mechanismusnoten anderswo in diesem Evidenzpaket |
+| Vorhergesagte neue Indikation | Netzhautdystrophie mit oder ohne extraokulären Anomalien |
+| TxGNN-Vorhersage-Punktzahl | 99.92% |
+| Evidenzebene | L5 |
+| Marktstatus Deutschland | Nicht zugelassen |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Halten |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage angemessen?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [9416661](https://pubmed.ncbi.nlm.nih.gov/9416661/) | 1997 | Review/Case | Semin Ultrasound CT MR | Orbital infections secondary to sinusitis; not related to paliperidone or retinal dystrophy pathophysiology |
-| [20127583](https://pubmed.ncbi.nlm.nih.gov/20127583/) | 2010 | Review | Semin Neurol | Diagnostic approach to diplopia; unrelated to drug mechanism |
-| [38321238](https://pubmed.ncbi.nlm.nih.gov/38321238/) | 2024 | Review | Pediatr Radiol | Imaging of pediatric congenital ocular pathologies; no drug relevance |
-| [38249493](https://pubmed.ncbi.nlm.nih.gov/38249493/) | 2023 | Review | Taiwan J Ophthalmol | Congenital lens shape anomalies; no drug relevance |
-| [22241537](https://pubmed.ncbi.nlm.nih.gov/22241537/) | 2012 | Review | Klin Monbl Augenheilkd | Congenital ptosis pathophysiology; no drug relevance |
-| [109006](https://pubmed.ncbi.nlm.nih.gov/109006/) | 1979 | Case Report | Am J Ophthalmol | Unilateral cryptophthalmia case series; no drug relevance |
-| [7035111](https://pubmed.ncbi.nlm.nih.gov/7035111/) | 1981 | Review | Doc Ophthalmol | Wagner-Stickler syndrome vitreoretinal degeneration; no drug relevance |
-| [33806565](https://pubmed.ncbi.nlm.nih.gov/33806565/) | 2021 | Cohort | Int J Mol Sci | Optic nerve/retinal findings in congenital fibrosis of extraocular muscles; no drug relevance |
-| [30196776](https://pubmed.ncbi.nlm.nih.gov/30196776/) | 2018 | Review | J Binocul Vis Ocul Motil | Congenital cranial dysinnervation disorders overview; no drug relevance |
-| [24932988](https://pubmed.ncbi.nlm.nih.gov/24932988/) | 2014 | Review | Am J Ophthalmol | Maculopathy from cavitary optic disc anomalies; no drug relevance |
+**Das ist sie nicht.** Detaillierte MOA-Daten werden als Datenlücke im Arzneimitteldatensatz gekennzeichnet, aber das Begründungsfeld des Evidenzpakets selbst (aus dem Kandidaten auf Rang #10 gezogen) bestätigt, dass Paliperidon ein D2/5-HT2A-Rezeptorantagonist ist — ein zentral wirkendes antipsychotisches Wirkprinzip ohne bekannte Verbindung zu retinalen Entwicklungsgenen oder ophthalmischen Strukturwegen.
 
-None of the retrieved literature mentions paliperidone, antipsychotics, or dopaminergic/serotonergic mechanisms — confirming these are topical co-retrieval matches rather than mechanistic evidence.
+Die Netzhautdystrophie-Vorhersage rangiert #1329 aus der vollständigen Ausgabe des Modells und trägt einen sehr hohen Raw-Ähnlichkeitswert, aber die Magnitude des Scores allein begründet keine biologische Plausibilität. Die 15 unterstützenden Publikationen, die für diesen Kandidaten abgerufen wurden, behandeln unverwandte ophthalmologische Themen — Orbitalinfektionen, Diplopie, kongenitale Ptose, Kryptophthalmie, kongenitale kraniale Dysinnervationsstörungen — und **keine erwähnt Paliperidon, Antipsychotika oder D2/5-HT2A-Signalisierung**. Das Evidenzpaket selbst charakterisiert dies als wahrscheinlich ein Falsch-Positiv, das durch Embedding-Raum-Ähnlichkeit verursacht wird, statt einer echten mechanistischen Verbindung.
+
+Kandidaten mit Rang #2–#9 (X-gebundene Myopie, Hydranenzephalie, angeborene Glykosylierungsstörungen, Charcot-Marie-Tooth-Krankheit Typ 1G usw.) teilen das gleiche Muster: hohe TxGNN-Punkte, null unterstützende Studien oder Literatur und keine plausible mechanistische Begründung angesichts der bekannten Pharmakologie des Arzneimittels. Im Gegensatz dazu ist der Kandidat mit Rang #10 — **therapieresistente Schizophrenie** — mechanistisch kohärent (er liegt innerhalb der bekannten therapeutischen Klasse von Paliperidon) und ist der einzige Kandidat in diesem Paket, der durch echte klinische Studien- und Literaturbelege gestützt wird (siehe Fazit).
 
 ---
 
-## Germany Market Information
+## Klinische Studienevidenz
 
-Paliperidone is **not marketed in Germany**; no BfArM authorizations are on record in this evidence pack.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-**Note:** TFDA/BfArM label data (warnings, contraindications) is flagged as a **Blocking** data gap in this evidence pack (DG001) and could not be retrieved — this must be resolved before any S1 safety screening can proceed, regardless of which indication is pursued.
+Derzeit keine registrierten verwandten klinischen Studien.
 
 ---
 
-## Conclusion and Next Steps
+## Literaturbelege
 
-**Decision: Hold**
+| PMID | Jahr | Typ | Zeitschrift | Wichtige Erkenntnisse |
+|------|------|------|-------------|----------------------|
+| [9416661](https://pubmed.ncbi.nlm.nih.gov/9416661/) | 1997 | Übersicht/Fall | Semin Ultrasound CT MR | Orbitalinfektionen sekundär zur Sinusitis; nicht verwandt mit Paliperidon oder Netzhautdystrophie-Pathophysiologie |
+| [20127583](https://pubmed.ncbi.nlm.nih.gov/20127583/) | 2010 | Übersicht | Semin Neurol | Diagnostischer Zugang zu Diplopie; unverwandt mit Arzneimittelmechanismus |
+| [38321238](https://pubmed.ncbi.nlm.nih.gov/38321238/) | 2024 | Übersicht | Pediatr Radiol | Bildgebung pädiatrischer angeborener okularer Pathologien; keine Arzneimittelbedeutung |
+| [38249493](https://pubmed.ncbi.nlm.nih.gov/38249493/) | 2023 | Übersicht | Taiwan J Ophthalmol | Angeborene Linsenform-Anomalien; keine Arzneimittelbedeutung |
+| [22241537](https://pubmed.ncbi.nlm.nih.gov/22241537/) | 2012 | Übersicht | Klin Monbl Augenheilkd | Pathophysiologie der angeborenen Ptose; keine Arzneimittelbedeutung |
+| [109006](https://pubmed.ncbi.nlm.nih.gov/109006/) | 1979 | Fallbericht | Am J Ophthalmol | Fallserie unilaterale Kryptophthalmie; keine Arzneimittelbedeutung |
+| [7035111](https://pubmed.ncbi.nlm.nih.gov/7035111/) | 1981 | Übersicht | Doc Ophthalmol | Wagner-Stickler-Syndrom vitreoretinale Degeneration; keine Arzneimittelbedeutung |
+| [33806565](https://pubmed.ncbi.nlm.nih.gov/33806565/) | 2021 | Kohorte | Int J Mol Sci | Optikusnerv-/Netzhautbefunde bei angeborenem Fibrose der extraokulären Muskeln; keine Arzneimittelbedeutung |
+| [30196776](https://pubmed.ncbi.nlm.nih.gov/30196776/) | 2018 | Übersicht | J Binocul Vis Ocul Motil | Übersicht angeborener Hirnnervenstörungen; keine Arzneimittelbedeutung |
+| [24932988](https://pubmed.ncbi.nlm.nih.gov/24932988/) | 2014 | Übersicht | Am J Ophthalmol | Maculopathie aus kavitären Sehnervenscheiben-Anomalien; keine Arzneimittelbedeutung |
 
-**Rationale:**
-The top-ranked candidate (retinal dystrophy with or without extraocular anomalies) has no clinical trials, no relevant literature, and no plausible mechanistic link to paliperidone's D2/5-HT2A antagonism — the evidence pack itself identifies it as a likely false positive from embedding similarity. The same applies to candidates ranked #2–#9.
+Keine der abgerufenen Literatur erwähnt Paliperidon, Antipsychotika oder dopaminerge/serotoninerge Mechanismen — was bestätigt, dass dies thematische Co-Abruf-Übereinstimmungen sind statt mechanistischer Belege.
 
-**To proceed, the following is needed:**
-- Resolve the Blocking data gap: obtain TFDA/BfArM label (warnings, contraindications) before any safety screening
-- Obtain confirmed MOA and original indication documentation for paliperidone (currently marked as data gaps)
-- If pursuing repurposing work on this drug, redirect evaluation toward **rank #10 (treatment-refractory schizophrenia)**, which is the only candidate with real supporting evidence (L2, 4 clinical trials including one completed Phase 4 study, 2 literature reviews) — note this represents an indication-extension within paliperidone's existing therapeutic class rather than a novel repurposing signal, and would still require head-to-head comparative data against clozapine (the current standard for treatment-refractory schizophrenia) before advancing past S2
+---
+
+## Marktinformation Deutschland
+
+Paliperidon ist **in Deutschland nicht zugelassen**; keine BfArM-Zulassungen sind in diesem Evidenzpaket dokumentiert.
+
+---
+
+## Sicherheitsüberlegungen
+
+Bitte beachten Sie die Fachinformation für Sicherheitsinformationen.
+
+**Hinweis:** TFDA/BfArM-Etikettendaten (Warnhinweise, Kontraindikationen) werden als **blockierende** Datenlücke in diesem Evidenzpaket gekennzeichnet (DG001) und konnten nicht abgerufen werden — dies muss behoben werden, bevor eine S1-Sicherheitsprüfung fortschreiten kann, unabhängig davon, welche Indikation verfolgt wird.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Halten**
+
+**Begründung:**
+Der Top-Kandidat (Netzhautdystrophie mit oder ohne extraokulären Anomalien) hat keine klinischen Studien, keine relevante Literatur und keine plausible mechanistische Verbindung zu Paliperidon D2/5-HT2A-Antagonismus — das Evidenzpaket selbst identifiziert es als wahrscheinlich Falsch-Positiv aus Embedding-Ähnlichkeit. Das gleiche gilt für Kandidaten mit Rang #2–#9.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+- Beheben Sie die blockierende Datenlücke: Beschaffen Sie sich TFDA/BfArM-Etikett (Warnhinweise, Kontraindikationen) vor jeder Sicherheitsprüfung
+- Erhalten Sie bestätigte MOA- und ursprüngliche Indikationsdokumentation für Paliperidon (derzeit als Datenlücken gekennzeichnet)
+- Falls eine Umwidmungsarbeit an diesem Arzneimittel verfolgt wird, leiten Sie die Bewertung zum **Kandidaten mit Rang #10 (therapieresistente Schizophrenie)** um, der der einzige Kandidat mit echten unterstützenden Belegen ist (L2, 4 klinische Studien einschließlich einer abgeschlossenen Phase-4-Studie, 2 Literaturübersichten) — beachten Sie, dass dies eine Indikationserweiterung innerhalb der bestehenden therapeutischen Klasse von Paliperidon darstellt und nicht ein neuartiges Umwidmungssignal, und würde trotzdem Kopf-an-Kopf-Vergleichsdaten gegen Clozapin (der aktuelle Standard für therapieresistente Schizophrenie) erfordern, bevor es über S2 hinaus fortschreitet
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

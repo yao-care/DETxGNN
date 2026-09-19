@@ -29,110 +29,111 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Bexarotene: From Cutaneous T-Cell Lymphoma to Primary Cutaneous B-Cell Lymphoma
+# Bexaroten: Vom kutanen T-Zell-Lymphom zum primären kutanen B-Zell-Lymphom
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Bexarotene is a synthetic RXR-selective retinoid, established for the treatment of cutaneous T-cell lymphoma (CTCL), including refractory and advanced-stage disease.
-> The TxGNN model predicts it may also be effective for **primary cutaneous B-cell lymphoma**,
-> with **2 clinical trials** and **13 publications** currently identified, though the evidence largely relates to the T-cell rather than the B-cell disease.
+> Bexaroten ist ein synthetisches RXR-selektives Retinoid, das zur Behandlung des kutanen T-Zell-Lymphoms (CTCL) etabliert ist, einschließlich refraktärer und fortgeschrittener Erkrankungen.
+> Das TxGNN-Modell sagt voraus, dass es auch bei primärem kutanem B-Zell-Lymphom wirksam sein könnte,
+> wobei 2 klinische Studien und 13 Veröffentlichungen derzeit identifiziert wurden, obwohl sich die Evidenz hauptsächlich auf die T-Zell- statt auf die B-Zell-Erkrankung bezieht.
 
 ---
 
-## Quick Overview
+## Schnelleübersicht
 
-| Item | Content |
+| Punkt | Inhalt |
 |------|------|
-| Original Indication | Cutaneous T-cell lymphoma (CTCL) |
-| Predicted New Indication | Primary cutaneous B-cell lymphoma |
-| TxGNN Prediction Score | 99.44% |
-| Evidence Level | L3 |
-| Germany Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | Kutanes T-Zell-Lymphom (CTCL) |
+| Vorhergesagte neue Indikation | Primäres kutanes B-Zell-Lymphom |
+| TxGNN-Vorhersagepunktzahl | 99.44% |
+| Evidenzstufe | L3 |
+| Marktstatus Deutschland | ✗ Nicht in den Handel gebracht |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Aussetzen |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage angemessen?
 
-Detailed mechanism-of-action data was not available in the structured drug record, but the literature evidence collected for this candidate is consistent: bexarotene is a selective retinoid X receptor (RXR) agonist. It binds to and activates RXRs, which function as ligand-activated transcription factors controlling gene expression involved in cell growth, apoptosis, and differentiation (PMID 11702369). In cutaneous T-cell lymphoma, this mechanism drives measurable clinical responses and is well characterized — bexarotene has been shown to reduce chemokine-receptor-positive malignant T-cell trafficking and induce apoptosis of malignant lymphocytes (PMID 17546636).
+Detaillierte Wirkmechanismus-Daten waren im strukturierten Arzneimittelbestand nicht verfügbar, aber die für diesen Kandidaten gesammelte Literaturevidenz ist konsistent: Bexaroten ist ein selektiver Retinoid-X-Rezeptor (RXR)-Agonist. Es bindet und aktiviert RXRs, die als Liganden-aktivierte Transkriptionsfaktoren fungieren und die Genexpression kontrollieren, die an Zellwachstum, Apoptose und Differenzierung beteiligt ist (PMID 11702369). Beim kutanen T-Zell-Lymphom treibt dieser Mechanismus messbare klinische Reaktionen an und ist gut charakterisiert — Bexaroten hat sich als wirksam bei der Verringerung des Trafficking von Chemokin-Rezeptor-positiven malignen T-Zellen und der Induktion von Apoptose in malignen Lymphozyten erwiesen (PMID 17546636).
 
-Primary cutaneous B-cell lymphoma and CTCL are both primary cutaneous lymphomas and share overlapping diagnostic and management pathways, which is likely why TxGNN links them. However, the pathophysiology differs meaningfully: B-cell lymphoma malignant clones are driven predominantly by B-cell receptor (BCR) signaling rather than the RXR-responsive pathways implicated in T-cell lymphoma. There is currently no direct experimental evidence that RXR agonism affects malignant B-cell proliferation or survival — the mechanistic link is indirect, inferred largely from disease-category adjacency rather than validated pharmacology.
+Primäres kutanes B-Zell-Lymphom und CTCL sind beide primäre kutane Lymphome und teilen sich überlappende diagnostische und Managementpfade, was wahrscheinlich der Grund ist, warum TxGNN sie verbindet. Die Pathophysiologie unterscheidet sich jedoch erheblich: Maligne B-Zell-Lymphom-Klone werden überwiegend durch B-Zell-Rezeptor (BCR)-Signalisierung angetrieben, nicht durch die bei T-Zell-Lymphom implizierten RXR-responsiven Pfade. Es gibt derzeit keine direkten experimentellen Beweise dafür, dass RXR-Agonismus die Proliferation oder das Überleben von malignen B-Zellen beeinflusst — die mechanistische Verbindung ist indirekt, hauptsächlich aus der Nähe der Erkrankungskategorien abgeleitet, nicht aus validierter Pharmakologie.
 
-Taken together, this prediction is biologically plausible as a hypothesis (shared "cutaneous lymphoma" disease space, similar diagnostic/therapeutic environment) but is not yet supported by disease-specific mechanistic or clinical data for the B-cell subtype.
+Alles in allem ist diese Vorhersage biologisch plausibel als Hypothese (gemeinsamer „kutanes Lymphom"-Krankheitsraum, ähnliche diagnostische/therapeutische Umgebung), wird aber noch nicht durch krankheitsspezifische mechanistische oder klinische Daten für den B-Zell-Subtyp unterstützt.
 
 ---
 
-## Clinical Trial Evidence
+## Klinische Studienevidenz
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Studiennummer | Phase | Status | Einschreibung | Hauptergebnisse |
 |---------|------|------|------|---------|
-| [NCT01134341](https://clinicaltrials.gov/study/NCT01134341) | Phase 1 | Completed | 34 | Dose-finding study of pralatrexate + oral bexarotene in relapsed/refractory CTCL; population is predominantly T-cell lymphoma (pralatrexate is a PTCL agent), not B-cell lymphoma — indirect evidence only. |
-| [NCT05106192](https://clinicaltrials.gov/study/NCT05106192) | N/A | Withdrawn | 0 | Compared a needle-free injection device (triamcinolone) vs. standard of care in cutaneous T- and B-cell lymphoma plaques; trial withdrawn with 0 enrollment, and the tested drug is triamcinolone, not bexarotene — no direct relevance. |
+| [NCT01134341](https://clinicaltrials.gov/study/NCT01134341) | Phase 1 | Abgeschlossen | 34 | Dosisfindungsstudie von Pralatrexat + oralem Bexaroten bei rezidiviertem/refraktärem CTCL; Population ist überwiegend T-Zell-Lymphom (Pralatrexat ist ein PTCL-Agens), nicht B-Zell-Lymphom — nur indirekte Evidenz. |
+| [NCT05106192](https://clinicaltrials.gov/study/NCT05106192) | N/A | Zurückgezogen | 0 | Verglich ein nadelloses Injektionsgerät (Triamcinolonacetonid) mit Standard Care bei kutanen T- und B-Zell-Lymphom-Plaques; Studie mit 0 Einschreibungen zurückgezogen, und das getestete Arzneimittel ist Triamcinolonacetonid, nicht Bexaroten — keine direkte Relevanz. |
 
-Both identified trials are graded **C** (weak/indirect relevance) — neither directly tests bexarotene in a primary cutaneous B-cell lymphoma population.
+Beide identifizierten Studien werden mit C bewertet (schwache/indirekte Relevanz) — keine testet direkt Bexaroten in einer primären kutanen B-Zell-Lymphom-Population.
 
 ---
 
-## Literature Evidence
+## Literaturevidenz
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Zeitschrift | Hauptergebnisse |
 |------|-----|------|------|---------|
-| [31466585](https://pubmed.ncbi.nlm.nih.gov/31466585/) | 2019 | Review | Dermatologic Clinics | Overview of diagnosis and management of primary cutaneous B-cell lymphomas; notes limited treatment-guideline data and that localized therapies are generally preferred. |
-| [22031653](https://pubmed.ncbi.nlm.nih.gov/22031653/) | 2011 | Case Report | Dermatology Online Journal | Case of recurrent primary cutaneous marginal-zone B-cell lymphoma (CD20+/Bcl-2+); illustrates disease behavior but does not involve bexarotene treatment. |
-| [15861527](https://pubmed.ncbi.nlm.nih.gov/15861527/) | 2005 | Case Report | Croatian Medical Journal | EBV-associated cutaneous B-cell lymphoproliferative disease arising in a patient with mycosis fungoides (CTCL); treated with topical acyclovir, not bexarotene. |
-| [34059248](https://pubmed.ncbi.nlm.nih.gov/34059248/) | 2021 | Review | Medical Clinics of North America | Diagnosis/management overview of cutaneous lymphomas including CTCL; B-cell subtypes discussed as having fewer variants presenting as papules/nodules. |
-| [14616487](https://pubmed.ncbi.nlm.nih.gov/14616487/) | 2003 | Review | Australasian Journal of Dermatology | Management review of primary cutaneous lymphomas (T- and B-cell); lists classical therapies (topical steroids, phototherapy, radiotherapy, retinoids, chemotherapy). |
-| [29881891](https://pubmed.ncbi.nlm.nih.gov/29881891/) | 2018 | Case Series | Der Hautarzt | Case series of 163 patients with primary cutaneous lymphoma across the diagnostic spectrum, from routine clinical practice. |
-| [19786826](https://pubmed.ncbi.nlm.nih.gov/19786826/) | 2009 | Review | Skin Pharmacology and Physiology | Review of new/experimental skin-directed therapies for cutaneous lymphomas (T- and B-cell), focused on disease control given limited curative options. |
-| [31932947](https://pubmed.ncbi.nlm.nih.gov/31932947/) | 2020 | – | Der Pathologe | General overview of cutaneous lymphoma clinical presentation, diagnosis, and treatment; notes bexarotene as a systemic option specifically for advanced CTCL/Sézary syndrome. |
-| [20806174](https://pubmed.ncbi.nlm.nih.gov/20806174/) | 2010 | – | Therapeutische Umschau | General review of cutaneous T- and B-cell lymphoproliferative disorders per WHO/EORTC classification. |
-| [23941646](https://pubmed.ncbi.nlm.nih.gov/23941646/) | 2013 | – | Journal of Cutaneous Pathology | Describes diagnostic pitfalls of cutaneous follicular helper T-cell lymphoma being misdiagnosed as follicle-center B-cell lymphoma; case initially treated with rituximab (not bexarotene) before reclassification. |
+| [31466585](https://pubmed.ncbi.nlm.nih.gov/31466585/) | 2019 | Übersichtsarbeit | Dermatologic Clinics | Übersicht über Diagnose und Management primärer kutaner B-Zell-Lymphome; vermerkt begrenzte Behandlungsleitlinien-Daten und dass lokalisierte Therapien im Allgemeinen bevorzugt werden. |
+| [22031653](https://pubmed.ncbi.nlm.nih.gov/22031653/) | 2011 | Fallbericht | Dermatology Online Journal | Fall eines rezidivierenden primären kutanen B-Zell-Lymphoms der Marginalzone (CD20+/Bcl-2+); zeigt Krankheitsverhalten, beinhaltet aber keine Bexaroten-Behandlung. |
+| [15861527](https://pubmed.ncbi.nlm.nih.gov/15861527/) | 2005 | Fallbericht | Croatian Medical Journal | EBV-assoziierte kutane B-Zell-lymphoproliferative Erkrankung bei einem Patienten mit Mycosis fungoides (CTCL); behandelt mit topischem Aciclovir, nicht Bexaroten. |
+| [34059248](https://pubmed.ncbi.nlm.nih.gov/34059248/) | 2021 | Übersichtsarbeit | Medical Clinics of North America | Diagnose-/Management-Übersicht kutaner Lymphome einschließlich CTCL; B-Zell-Subtypen werden als weniger Varianten diskutiert, die sich als Papeln/Noduli darstellen. |
+| [14616487](https://pubmed.ncbi.nlm.nih.gov/14616487/) | 2003 | Übersichtsarbeit | Australasian Journal of Dermatology | Management-Übersicht primärer kutaner Lymphome (T- und B-Zell); listet klassische Therapien auf (topische Steroide, Phototherapie, Strahlentherapie, Retinoide, Chemotherapie). |
+| [29881891](https://pubmed.ncbi.nlm.nih.gov/29881891/) | 2018 | Fallserie | Der Hautarzt | Fallserie von 163 Patienten mit primärem kutanem Lymphom über das gesamte diagnostische Spektrum aus der Routinepraxis. |
+| [19786826](https://pubmed.ncbi.nlm.nih.gov/19786826/) | 2009 | Übersichtsarbeit | Skin Pharmacology and Physiology | Übersicht neuer/experimenteller hautgerichteter Therapien für kutane Lymphome (T- und B-Zell), fokussiert auf Krankheitskontrolle angesichts begrenzter kurativer Optionen. |
+| [31932947](https://pubmed.ncbi.nlm.nih.gov/31932947/) | 2020 | – | Der Pathologe | Allgemeine Übersicht der klinischen Präsentation, Diagnose und Behandlung von kutanen Lymphomen; erwähnt Bexaroten als systemische Option speziell für fortgeschrittenes CTCL/Sézary-Syndrom. |
+| [20806174](https://pubmed.ncbi.nlm.nih.gov/20806174/) | 2010 | – | Therapeutische Umschau | Allgemeine Übersicht kutaner T- und B-Zell-lymphoproliferativer Störungen gemäß WHO/EORTC-Klassifikation. |
+| [23941646](https://pubmed.ncbi.nlm.nih.gov/23941646/) | 2013 | – | Journal of Cutaneous Pathology | Beschreibt diagnostische Fallstricke des kutanen follikulären Helfer-T-Zell-Lymphoms, das als Follikelzentrum-B-Zell-Lymphom fehldiagnostiziert wird; Fall zunächst mit Rituximab (nicht Bexaroten) behandelt, bevor die Reklassifizierung erfolgte. |
 
-No identified publication reports direct use or study of bexarotene in primary cutaneous B-cell lymphoma; all citations reference bexarotene's established role in CTCL or discuss B-cell lymphoma independently.
-
----
-
-## Germany Market Information
-
-Bexarotene currently has **no active marketing authorizations in Germany** (market status: not marketed; 0 authorizations on file). No product-level licensing data is available to summarize.
+Keine identifizierte Veröffentlichung berichtet über direkte Verwendung oder Studie von Bexaroten bei primärem kutanem B-Zell-Lymphom; alle Zitationen beziehen sich auf Bexarotens etablierte Rolle in CTCL oder diskutieren B-Zell-Lymphom unabhängig.
 
 ---
 
-## Cytotoxicity
+## Informationen zum deutschen Markt
 
-Bexarotene's original approved indication (cutaneous T-cell lymphoma) is a malignancy, and the drug is a retinoid receptor agonist used as systemic anticancer therapy — this section is therefore included.
+Bexaroten hat derzeit keine aktiven Marktzulassungen in Deutschland (Marktstatus: nicht in den Handel gebracht; 0 Zulassungen in den Akten). Es sind keine auf Produktebene verfügbaren Lizenzierungsdaten zur Zusammenfassung.
 
-| Item | Content |
+---
+
+## Zytotoxizität
+
+Die ursprüngliche zugelassene Indikation von Bexaroten (kutanes T-Zell-Lymphom) ist eine Malignität, und das Arzneimittel ist ein Retinoid-Rezeptor-Agonist, der als systemische Krebstherapie eingesetzt wird — dieser Abschnitt ist daher enthalten.
+
+| Punkt | Inhalt |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (RXR-selective retinoid; not a conventional cytotoxic agent) |
-| Myelosuppression Risk | Low–moderate — neutropenia has been reported as an adverse effect of bexarotene capsules (PMID 24099070) |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | CBC (neutropenia), fasting lipid panel/triglycerides (hypertriglyceridemia is a well-documented and frequent adverse effect — PMID 30903705, 38871976, 37041679), thyroid function (central hypothyroidism reported with treatment — PMID 30903705), liver function |
-| Handling Protection | No specific cytotoxic-handling classification data identified in the evidence pack; standard oncology drug handling precautions per institutional protocol are advised pending confirmation |
+| Zytotoxizitäts-Klassifikation | Gezielte Therapie (RXR-selektives Retinoid; nicht ein konventionelles zytotoxisches Agens) |
+| Myelosuppressionsrisiko | Niedrig–moderat — Neutropenie wurde als unerwünschte Wirkung von Bexaroten-Kapseln berichtet (PMID 24099070) |
+| Emetogenitäts-Klassifikation | Bitte beachten Sie die Packungsbeilage mit Warnungen und Vorsichtsmaßnahmen |
+| Überwachungspunkte | Blutbild (Neutropenie), Nüchtern-Lipidprofil/Triglyceride (Hypertriglyzeridämie ist eine gut dokumentierte und häufige unerwünschte Wirkung — PMID 30903705, 38871976, 37041679), Schilddrüsenfunktion (zentrale Hypothyreose unter Behandlung berichtet — PMID 30903705), Leberfunktion |
+| Handhabungsschutz | Keine spezifischen Daten zur zytotoxischen Handhabungsklassifikation im Evidenzpaket identifiziert; standardmäßige Vorsichtsmaßnahmen zur Handhabung von Onkologie-Arzneimitteln gemäß institutionellem Protokoll werden bis zur Bestätigung empfohlen |
 
 ---
 
-## Safety Considerations
+## Sicherheitsaspekte
 
-Please refer to the package insert for safety information. No structured warnings, contraindications, or drug-interaction data were available in the evidence pack (DDI query returned no results), and the TFDA/BfArM label data gap (DG001) is flagged as a **Blocking** issue for safety pre-assessment.
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. Keine strukturierten Warnungen, Kontraindikationen oder Arzneimittelwechselwirkungsdaten waren im Evidenzpaket verfügbar (DDI-Abfrage ergab keine Ergebnisse), und die Datenlücke bei TFDA/BfArM-Etikett (DG001) wird als blockierendes Problem für die Sicherheitsvorabprüfung gekennzeichnet.
 
 ---
 
-## Conclusion and Next Steps
+## Schlussfolgerung und nächste Schritte
 
-**Decision: Hold**
+**Entscheidung: Aussetzen**
 
-**Rationale:**
-The mechanistic link between bexarotene's RXR-agonist activity and primary cutaneous B-cell lymphoma is indirect — no clinical trial or publication in the evidence pack directly studies bexarotene in this population, and both identified trials were graded low relevance (C). Combined with the unresolved blocking safety data gap (TFDA/BfArM label unavailable) and the drug's unmarketed status in Germany, the evidence is insufficient to advance beyond an S1 hold.
+**Begründung:**
+Die mechanistische Verbindung zwischen der RXR-Agonisten-Aktivität von Bexaroten und primärem kutanem B-Zell-Lymphom ist indirekt — keine klinische Studie oder Veröffentlichung im Evidenzpaket untersucht direkt Bexaroten in dieser Population, und beide identifizierten Studien wurden mit niedriger Relevanz (C) bewertet. Kombiniert mit der ungelösten blockierenden Sicherheitsdatenlücke (TFDA/BfArM-Etikett nicht verfügbar) und dem Nicht-Marktstatus des Arzneimittels in Deutschland ist die Evidenz unzureichend, um über S1-Aussetzung hinauszugehen.
 
-**To proceed, the following is needed:**
-- Package insert / label data (warnings, contraindications) to clear the blocking safety data gap (DG001)
-- Detailed mechanism-of-action data from DrugBank to strengthen or refute the mechanistic rationale (DG002)
-- Disease-specific preclinical or clinical evidence of bexarotene activity against B-cell (not T-cell) lymphoma biology
-- Regulatory pathway clarification, given the drug currently has no marketing authorization in Germany
+**Um fortzufahren, wird Folgendes benötigt:**
+- Packungsbeilage / Etikett-Daten (Warnungen, Kontraindikationen) zur Klärung der blockierenden Sicherheitsdatenlücke (DG001)
+- Detaillierte Wirkmechanismus-Daten aus DrugBank zur Stärkung oder Widerlegung der mechanistischen Begründung (DG002)
+- Krankheitsspezifische präklinische oder klinische Evidenz für Bexaroten-Aktivität gegen B-Zell- (nicht T-Zell-) Lymphom-Biologie
+- Klarstellung des regulatorischen Wegs, da das Arzneimittel derzeit keine Marktzulassung in Deutschland hat
 
-**Note:** Two other TxGNN-predicted indications in this evidence pack — Sézary syndrome and lymphosarcoma — are supported by substantially stronger, direct clinical trial evidence for bexarotene (including completed Phase 3/4 trials), consistent with these being closely related to the drug's existing approved CTCL use rather than genuinely novel repurposing candidates.
+**Hinweis:** Zwei weitere TxGNN-vorhergesagte Indikationen in diesem Evidenzpaket — Sézary-Syndrom und Lymphosarkom — werden durch wesentlich stärkere, direkte klinische Studienevidenz für Bexaroten unterstützt (einschließlich abgeschlossener Phase-3/4-Studien), konsistent damit, dass diese eng mit der bestehenden genehmigten CTCL-Verwendung des Arzneimittels verbunden sind, anstatt genuine neue Umwidmungskandidaten zu sein.
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

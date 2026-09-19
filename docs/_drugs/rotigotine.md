@@ -29,76 +29,77 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Rotigotine: From Parkinson's Disease/Restless Legs Syndrome to Attention Deficit-Hyperactivity Disorder
+# Rotigotine: Von Morbus Parkinson/Restless-Legs-Syndrom zu Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Rotigotine is a dopamine D1/D2/D3 receptor agonist established for **Parkinson's Disease** and **Restless Legs Syndrome (RLS)**.
-> The TxGNN model predicts it may be effective for **Attention Deficit-Hyperactivity Disorder (ADHD)**,
-> but currently **no clinical trials** and only **3 indirect publications** support this specific direction.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Parkinson's Disease / Restless Legs Syndrome (per PMID 37221270; not derivable from Taiwan/Germany license data, which is empty) |
-| Predicted New Indication | Attention Deficit-Hyperactivity Disorder (ADHD) |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L4 |
-| Germany Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Rotigotine ist ein Dopamin-D1/D2/D3-Rezeptor-Agonist, der für **Morbus Parkinson** und **Restless-Legs-Syndrom (RLS)** etabliert ist.
+> Das TxGNN-Modell prognostiziert, dass es möglicherweise wirksam gegen **Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung (ADHS)** ist,
+> doch derzeit unterstützen **keine klinischen Studien** und nur **3 indirekte Publikationen** diese spezifische Richtung.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Detailed mechanism of action data from DrugBank is currently a **[High-severity data gap]** and was not available for this evaluation (DG002). Based on the evidence pack's literature, Rotigotine is known as a non-ergot **D1/D2/D3 dopamine receptor full agonist**, used clinically for Parkinson's Disease and RLS (PMID 37221270).
-
-The mechanistic link to ADHD is indirect. ADHD pathophysiology does involve dopaminergic dysregulation, but the standard-of-care drugs (methylphenidate, amphetamine) act by **increasing synaptic dopamine/norepinephrine concentrations**, not by direct receptor agonism. The literature retrieved for this candidate does not address ADHD directly — one paper covers RLS (a condition with known ADHD comorbidity), and another is basic receptor pharmacology on D4 receptor heterodimerization implicated in ADHD genetics, not a Rotigotine efficacy study.
-
-Notably, a second predicted indication in this evidence pack — **schizophrenia** (rank 2, TxGNN score 99.996%) — has comparatively stronger support: a systematic review/meta-analysis (PMID 31688399) on prodopaminergic drugs for negative symptoms of schizophrenia, plus a structural biology paper (PMID 37221270) directly showing Rotigotine bound to all five dopamine receptor subtypes. This suggests the schizophrenia hypothesis may merit prioritized follow-up over ADHD, though neither has a Rotigotine-specific clinical trial.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Punkt | Inhalt |
+|------|--------|
+| Original-Indikation | Morbus Parkinson / Restless-Legs-Syndrom (vgl. PMID 37221270; nicht aus Taiwan/Deutschland-Lizenzdaten ableitbar, die leer sind) |
+| Vorhergesagte neue Indikation | Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung (ADHS) |
+| TxGNN-Vorhersagepunktzahl | 99.99% |
+| Evidenzstufe | L4 |
+| Status auf dem deutschen Markt | Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Abwarten |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage sinnvoll?
 
-| PMID | Year | Type | Journal | Key Findings |
+Detaillierte Daten zum Wirkungsmechanismus aus DrugBank sind derzeit eine **[Hochschwere Datenlücke]** und standen für diese Bewertung nicht zur Verfügung (DG002). Basierend auf den Literaturunterlagen ist Rotigotine bekannt als ein nicht-ergot **D1/D2/D3-Dopamin-Rezeptor-Vollagonist**, klinisch angewendet bei Morbus Parkinson und RLS (PMID 37221270).
+
+Der mechanistische Bezug zu ADHS ist indirekt. Die Pathophysiologie von ADHS beinhaltet zwar eine dopaminerge Dysregulation, aber die Standard-Care-Medikamente (Methylphenidat, Amphetamin) wirken durch **Erhöhung der synaptischen Dopamin-/Norepinephrin-Konzentrationen**, nicht durch direkten Rezeptoragonismus. Die für diesen Kandidaten recherchierte Literatur befasst sich nicht direkt mit ADHS — ein Artikel behandelt RLS (eine Erkrankung mit bekannter ADHS-Komorbidität), und ein anderer befasst sich mit grundlegender Rezeptor-Pharmakologie der D4-Rezeptor-Heteromerisierung, die in der ADHS-Genetik impliziert ist, aber keine Rotigotine-Wirksamkeitsstudie ist.
+
+Bemerkenswert ist, dass eine zweite vorhergesagte Indikation in dieser Evidenzübersicht — **Schizophrenie** (Rang 2, TxGNN-Punktzahl 99.996%) — vergleichsweise stärkere Unterstützung hat: eine systematische Übersichtsarbeit/Metaanalyse (PMID 31688399) über prodopaminerge Medikamente für Negativsymptome der Schizophrenie, plus ein Strukturbiologie-Artikel (PMID 37221270), der direkt zeigt, dass Rotigotine an alle fünf Dopamin-Rezeptor-Subtypen gebunden ist. Dies legt nahe, dass die Schizophrenie-Hypothese möglicherweise einer priorisierten Nachverfolgung vor ADHS verdient, obwohl keiner der beiden eine Rotigotine-spezifische klinische Studie hat.
+
+---
+
+## Evidenz aus klinischen Studien
+
+Derzeit keine einschlägig registrierten klinischen Studien vorhanden.
+
+---
+
+## Literaturübersicht
+
+| PMID | Jahr | Typ | Zeitschrift | Wichtigste Ergebnisse |
 |------|-----|------|------|---------|
-| [21476956](https://pubmed.ncbi.nlm.nih.gov/21476956/) | 2011 | Review | Current Pharmaceutical Design | Reviews pharmacological options for RLS in children; RLS and ADHD frequently co-occur, but does not evaluate Rotigotine for ADHD directly |
-| [34182128](https://pubmed.ncbi.nlm.nih.gov/34182128/) | 2021 | Preclinical/Receptor pharmacology | Pharmacological Research | Shows α2A adrenoceptor–D4 receptor heteromerization affects impulsive-control disorder pharmacology, relevant to ADHD biology but not to Rotigotine specifically |
-| [18656214](https://pubmed.ncbi.nlm.nih.gov/18656214/) | 2008 | Review | Revue Neurologique | General review of RLS pathophysiology and treatment; no ADHD-specific data |
+| [21476956](https://pubmed.ncbi.nlm.nih.gov/21476956/) | 2011 | Übersichtsarbeit | Current Pharmaceutical Design | Überprüft pharmakologische Optionen für RLS bei Kindern; RLS und ADHS treten häufig gemeinsam auf, bewertet aber Rotigotine für ADHS nicht direkt |
+| [34182128](https://pubmed.ncbi.nlm.nih.gov/34182128/) | 2021 | Präklinisch/Rezeptor-Pharmakologie | Pharmacological Research | Zeigt, dass α2A-Adrenozeptor–D4-Rezeptor-Heteromerisierung die Pharmakologie der Impulskontrollstörungen beeinflusst; relevant für ADHS-Biologie, befasst sich aber nicht spezifisch mit Rotigotine |
+| [18656214](https://pubmed.ncbi.nlm.nih.gov/18656214/) | 2008 | Übersichtsarbeit | Revue Neurologique | Allgemeine Übersicht der RLS-Pathophysiologie und -Behandlung; keine ADHS-spezifischen Daten |
 
 ---
 
-## Safety Considerations
+## Sicherheitsaspekte
 
-Please refer to the package insert for safety information.
+Bitte beachten Sie die Fachinformation für Sicherheitsinformationen.
 
-*(Key warnings, contraindications, and drug-drug interaction data are currently flagged as Blocking/High-severity data gaps — TFDA label not yet retrieved, DDI query returned no results.)*
+*(Wichtige Warnungen, Kontraindikationen und Arzneimittel-Arzneimittel-Wechselwirkungsdaten sind derzeit als blockierende/hochschwere Datenlücken gekennzeichnet — TFDA-Kennzeichnung noch nicht abgerufen, DDI-Anfrage ergab keine Ergebnisse.)*
 
 ---
 
-## Conclusion and Next Steps
+## Fazit und nächste Schritte
 
-**Decision: Hold**
+**Entscheidung: Abwarten**
 
-**Rationale:**
-The ADHD indication is supported only by mechanistic/preclinical inference (L4) with zero clinical trials and no ADHD-specific efficacy literature — the retrieved papers address RLS comorbidity and receptor biology, not Rotigotine's clinical effect in ADHD. Combined with a Blocking data gap on TFDA safety labeling, this candidate is not ready to advance past S0.
+**Begründung:**
+Die ADHS-Indikation wird nur durch mechanistisches/präklinisches Schlussfolgern (L4) mit null klinischen Studien und ohne ADHS-spezifische Wirksamkeitsliteratur unterstützt — die recherchierten Arbeiten befassen sich mit RLS-Komorbiditäten und Rezeptorbiologie, nicht mit der klinischen Wirkung von Rotigotine bei ADHS. Kombiniert mit einer blockierenden Datenlücke zur TFDA-Sicherheitskennzeichnung ist dieser Kandidat nicht bereit, Stadium S0 zu verlassen.
 
-**To proceed, the following is needed:**
-- DrugBank MOA confirmation (DG002) to formally establish receptor-binding profile relevant to ADHD
-- TFDA/German product label retrieval for safety and contraindication review (DG001, currently Blocking)
-- Rotigotine-specific preclinical or clinical data in ADHD populations (current literature is indirect/comorbidity-based only)
-- Consider parallel evaluation of the schizophrenia candidate (rank 2, L3, "Research Question" stage), which has stronger systematic-review-level evidence and may be a more efficient path forward
+**Um voranzukommen, ist Folgendes erforderlich:**
+- DrugBank-MOA-Bestätigung (DG002), um das Rezeptorbindungsprofil relevant für ADHS formal zu etablieren
+- Abruf der TFDA/deutschen Produktkennzeichnung für Sicherheits- und Kontraindikationsprüfung (DG001, derzeit blockierend)
+- Rotigotine-spezifische präklinische oder klinische Daten in ADHS-Populationen (aktuelle Literatur ist nur indirekt/komorbiditätsbasiert)
+- Erwägen Sie eine parallele Bewertung des Schizophrenie-Kandidaten (Rang 2, L3, Phase „Research Question"), der stärkere Evidenz auf Ebene systematischer Übersichtsarbeiten hat und möglicherweise ein effizienterer Weg nach vorne ist
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

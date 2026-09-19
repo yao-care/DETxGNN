@@ -29,85 +29,86 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Parathyroid Hormone: From an Unspecified Original Indication to Migraine Disorder
+# Parathyroid Hormone (Parathormon): Von einer unspezifizierten ursprünglichen Indikation zur Migränestörung
 
-## One-Sentence Summary
+## Kurzfassung
 
-> The original indication and mechanism of action of Parathyroid Hormone (DrugBank DB05829) are not available in the current evidence pack.
-> The TxGNN model predicts potential efficacy for **Migraine Disorder**, with a prediction score of **99.98%**,
-> but the supporting evidence — **1 clinical trial** (unrelated to PTH) and **6 publications** (mostly indirect/associative) — is weak and largely tangential.
+> Die ursprüngliche Indikation und der Wirkmechanismus von Parathyroid Hormone (DrugBank DB05829) sind im aktuellen Evidenzpaket nicht verfügbar.
+> Das TxGNN-Modell sagt potenzielle Wirksamkeit für **Migränestörung** mit einer Vorhersagescore von **99.98%** voraus,
+> aber die unterstützenden Belege — **1 klinische Studie** (nicht im Zusammenhang mit PTH) und **6 Veröffentlichungen** (hauptsächlich indirekt/assoziativ) — sind schwach und weitgehend nebensächlich.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Element | Inhalt |
 |------|------|
-| Original Indication | Not specified in evidence pack (no approved indication text or original_indications data available) |
-| Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.98% (rank 523) |
-| Evidence Level | L4 |
-| Germany Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | Im Evidenzpaket nicht spezifiziert (kein Text zur zugelassenen Indikation oder Daten zu original_indications verfügbar) |
+| Vorhergesagte neue Indikation | Migränestörung |
+| TxGNN-Vorhersagescore | 99.98% (Rang 523) |
+| Evidenzstufe | L4 |
+| Marktstatus Deutschland | Nicht im Handel |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Halten |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage vertretbar?
 
-Currently, detailed mechanism of action data for Parathyroid Hormone is not available (data gap DG002, severity: High). Based on the evidence provided, the repurposing signal for migraine rests on a single 2025 genetic association study proposing PTHrP (parathyroid hormone-related peptide) receptors as a potential genetic driver of migraine susceptibility, plus a 1986 mechanistic animal study on central effects of calcitonin and parathormone.
+Derzeit sind detaillierte Wirkmechanismus-Daten für Parathyroid Hormone nicht verfügbar (Datenlücke DG002, Schweregrad: Hoch). Basierend auf den bereitgestellten Belegen stützt sich das Umnutzungssignal für Migräne auf eine einzelne genetische Assoziationsstudie aus 2025, die PTHrP-Rezeptoren (Parathyroid-Hormon-verwandtes Peptid) als potenzielle genetische Treiber der Migräneanfälligkeit vorschlägt, plus eine mechanistische Tierstudie aus 1986 über zentrale Effekte von Calcitonin und Parathyroid Hormone.
 
-It is important to note the distinction between **PTHrP** (a related but distinct peptide, often studied in genetic/oncologic contexts) and **PTH itself** (the drug substance under evaluation) — the cited literature largely concerns PTHrP receptor genetics rather than a demonstrated pharmacological effect of exogenous PTH on migraine pathophysiology. The single clinical trial linked to this indication (foot reflexology massage for migraine) has no pharmacological relationship to PTH and was flagged by the underlying evidence pipeline as an unrelated database-matching artifact (relevance grade C).
+Es ist wichtig, die Unterscheidung zwischen **PTHrP** (ein verwandtes aber unterschiedliches Peptid, das oft in genetischen/onkologischen Kontexten untersucht wird) und **PTH selbst** (die zu evaluierende Wirksubstanz) zu beachten — die zitierte Literatur befasst sich hauptsächlich mit PTHrP-Rezeptor-Genetik und nicht mit einem nachgewiesenen pharmakologischen Effekt von exogenem PTH auf die Migräne-Pathophysiologie. Die einzelne klinische Studie, die mit dieser Indikation verknüpft ist (Fuß-Reflexzonenmassage gegen Migräne), hat keine pharmakologische Verbindung zu PTH und wurde durch die zugrunde liegende Evidenzpipeline als ein unverwandtes Datenbank-Matching-Artefakt gekennzeichnet (Relevanzgrad C).
 
-Overall, the mechanistic rationale is indirect and speculative: a genetic association between a related peptide's receptor and migraine susceptibility does not constitute evidence that administering PTH would be therapeutically effective for migraine. This is reflected in the L4 evidence level (preclinical/mechanistic only) and the "Hold" recommendation already assigned in the scoring.
+Insgesamt ist die mechanistische Grundlage indirekt und spekulativ: Eine genetische Assoziation zwischen einem verwandten Peptidrezeptor und Migräneanfälligkeit stellt keine Evidenz dar, dass die Verabreichung von PTH therapeutisch wirksam gegen Migräne wäre. Dies spiegelt sich in der Evidenzstufe L4 (nur präklinisch/mechanistisch) und der bereits zugewiesenen Empfehlung „Halten" wider.
 
 ---
 
-## Clinical Trial Evidence
+## Evidenz aus klinischen Studien
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Studiennummer | Phase | Status | Einschluss | Wichtigste Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT07028684](https://clinicaltrials.gov/study/NCT07028684) | N/A | Completed | 22 | Studied foot reflexology massage for pain/sleep/quality of life in women with migraine — **not related to PTH pharmacology**; included only as a database co-mention, not mechanistic support. |
+| [NCT07028684](https://clinicaltrials.gov/study/NCT07028684) | N/A | Abgeschlossen | 22 | Untersuchte Fuß-Reflexzonenmassage gegen Schmerz/Schlaf/Lebensqualität bei Frauen mit Migräne — **nicht im Zusammenhang mit PTH-Pharmakologie**; wurde nur als Datenbank-Co-Nennung einbezogen, nicht als mechanistische Unterstützung. |
 
 ---
 
-## Literature Evidence
+## Literaturbelege
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Zeitschrift | Wichtigste Ergebnisse |
 |------|-----|------|------|---------|
-| [40297711](https://pubmed.ncbi.nlm.nih.gov/40297711/) | 2025 | Genetic/Review | Brain Communications | Proposes PTHrP receptors as a candidate genetic driver of migraine susceptibility in a Portuguese cohort. |
-| [29429076](https://pubmed.ncbi.nlm.nih.gov/29429076/) | 2018 | Review | Neuromolecular Medicine | Reviews cardiovascular autonomic dysfunction linking MS, osteoporosis and neurodegeneration; PTH mentioned only as part of bone-remodeling context, not migraine-specific. |
-| [31261815](https://pubmed.ncbi.nlm.nih.gov/31261815/) | 2019 | Cohort | Medicina (Kaunas) | Evaluates vitamin D levels and treatment response in pediatric migraine; no direct PTH intervention. |
-| [24714817](https://pubmed.ncbi.nlm.nih.gov/24714817/) | 2014 | Cohort | Braz J Med Biol Res | Vitamin D add-on to amitriptyline in pediatric migraine attacks; PTH not administered as treatment. |
-| [11425281](https://pubmed.ncbi.nlm.nih.gov/11425281/) | 2001 | Review | Medical Hypotheses | Broad review of magnesium deficiency pathology; PTH mentioned only within mineral-metabolism context. |
-| [3739765](https://pubmed.ncbi.nlm.nih.gov/3739765/) | 1986 | Mechanistic (animal) | Acta Neurologica | Early animal study on central effects of calcitonin and parathormone; no abstract available, dated mechanistic data only. |
+| [40297711](https://pubmed.ncbi.nlm.nih.gov/40297711/) | 2025 | Genetik/Übersicht | Brain Communications | Schlägt PTHrP-Rezeptoren als potenzielle genetische Treiber der Migräneanfälligkeit in einer portugiesischen Kohorte vor. |
+| [29429076](https://pubmed.ncbi.nlm.nih.gov/29429076/) | 2018 | Übersicht | Neuromolecular Medicine | Überprüft kardiovaskuläre autonome Dysfunktion, die MS, Osteoporose und Neurodegeneration verbindet; PTH wird nur im Kontext des Knochenumbaus erwähnt, nicht migränespezifisch. |
+| [31261815](https://pubmed.ncbi.nlm.nih.gov/31261815/) | 2019 | Kohorte | Medicina (Kaunas) | Bewertet Vitamin-D-Spiegel und Therapieansprechen bei pädiatrischer Migräne; keine direkte PTH-Intervention. |
+| [24714817](https://pubmed.ncbi.nlm.nih.gov/24714817/) | 2014 | Kohorte | Braz J Med Biol Res | Vitamin-D-Add-on zu Amitriptylin bei pädiatrischen Migräneanfällen; PTH nicht als Behandlung verabreicht. |
+| [11425281](https://pubmed.ncbi.nlm.nih.gov/11425281/) | 2001 | Übersicht | Medical Hypotheses | Breite Übersicht über Magnesiummangel-Pathologie; PTH wird nur im Kontext des Mineralstoffwechsels erwähnt. |
+| [3739765](https://pubmed.ncbi.nlm.nih.gov/3739765/) | 1986 | Mechanistisch (Tier) | Acta Neurologica | Frühe Tierstudie über zentrale Effekte von Calcitonin und Parathyroid Hormone; keine Zusammenfassung verfügbar, nur historische mechanistische Daten. |
 
 ---
 
-## Germany Market Information
+## Marktinformation Deutschland
 
-Currently not marketed in Germany — no BfArM authorization records are available for this drug (`total_licenses: 0`).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. Note: TFDA/BfArM label warnings and contraindications are recorded as a **Blocking** data gap (DG001) in this evidence pack — safety review (S1 stage) cannot proceed until this is resolved.
+Derzeit nicht im Handel in Deutschland — es sind keine BfArM-Zulassungsunterlagen für dieses Arzneimittel verfügbar (`total_licenses: 0`).
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsbetrachtungen
 
-**Decision: Hold**
+Beachten Sie bitte die Packungsbeilage für Sicherheitsinformationen. Hinweis: TFDA/BfArM-Labelwarnungen und Gegenanzeigen sind in diesem Evidenzpaket als eine **blockierende** Datenlücke (DG001) eingetragen — die Sicherheitsüberprüfung (S1-Stufe) kann nicht fortgesetzt werden, bis dies gelöst ist.
 
-**Rationale:**
-The predicted indication (migraine disorder) is supported only by L4-level evidence — a single genetic association study on a related peptide (PTHrP, not PTH) and one decades-old mechanistic animal study — with no clinical trial actually testing PTH for migraine. The mechanistic link is speculative and does not meet the threshold for advancing beyond S0.
+---
 
-**To proceed, the following is needed:**
-- Original indication and confirmed mechanism of action data (DG002, High severity)
-- TFDA/BfArM label warnings and contraindications, required to unblock safety review S1 (DG001, Blocking severity)
-- A study or trial directly testing exogenous PTH administration in migraine patients, rather than PTHrP genetic-association or unrelated non-pharmacological trials
-- Clarification of the PTH vs. PTHrP mechanistic distinction before any further evidence synthesis
+## Fazit und nächste Schritte
+
+**Entscheidung: Halten**
+
+**Begründung:**
+Die vorhergesagte Indikation (Migränestörung) wird nur durch L4-Evidenzstufe unterstützt — eine einzelne genetische Assoziationsstudie zu einem verwandten Peptid (PTHrP, nicht PTH) und eine Jahrzehnte alte mechanistische Tierstudie — ohne dass eine klinische Studie PTH für Migräne tatsächlich getestet hat. Der mechanistische Zusammenhang ist spekulativ und erfüllt nicht die Schwelle zum Fortschreiten über S0 hinaus.
+
+**Um fortfahren zu können, ist Folgendes erforderlich:**
+- Daten zur ursprünglichen Indikation und bestätigter Wirkmechanismus (DG002, Schweregrad: Hoch)
+- TFDA/BfArM-Labelwarnungen und Gegenanzeigen, erforderlich um die S1-Sicherheitsüberprüfung freizuschalten (DG001, blockierender Schweregrad)
+- Eine klinische Studie oder Prüfung, die direkt die Verabreichung von exogenem PTH bei Migränepatienten testet, anstelle von Studien zu PTHrP-genetischen Assoziationen oder unverwandten nicht-pharmakologischen Studien
+- Verdeutlichung der Unterscheidung zwischen PTH vs. PTHrP Wirkmechanismus vor jeder weiteren Evidenzsynthese
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

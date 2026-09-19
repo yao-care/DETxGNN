@@ -29,68 +29,69 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-# Benralizumab: Evaluating Thrombocytopenia due to Immune Destruction as a New Indication
+# Benralizumab: Bewertung von Thrombozytopenie aufgrund von Immunzerstörung als neue Indikation
 
-> Note: The evidence pack does not contain data on benralizumab's original approved indication (`drug.original_indications` is empty and `taiwan_regulatory.licenses` is empty). This report therefore does not state an original indication, to avoid presenting unverified information.
+> Hinweis: Das Evidenzpaket enthält keine Daten zur ursprünglichen zugelassenen Indikation von Benralizumab (`drug.original_indications` ist leer und `taiwan_regulatory.licenses` ist leer). Dieser Bericht nennt daher keine ursprüngliche Indikation, um die Darstellung unverifizierten Informationen zu vermeiden.
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Benralizumab's original approved indication is not documented in this evidence pack, and the drug currently has no marketing authorization in this jurisdiction (0 licenses, not marketed).
-> The TxGNN model predicts it may be effective for **thrombocytopenia due to immune destruction**,
-> but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a model-only signal (L5) with an explicitly flagged mechanistic mismatch.
+> Die ursprüngliche zugelassene Indikation von Benralizumab ist in diesem Evidenzpaket nicht dokumentiert, und das Arzneimittel hat derzeit keine Marktgenehmigung in dieser Gerichtsbarkeit (0 Lizenzen, nicht vermarktet).
+> Das TxGNN-Modell prognostiziert, dass es für **Thrombozytopenie aufgrund von Immunzerstörung** wirksam sein könnte,
+> aber diese Vorhersage wird derzeit durch **0 klinische Studien** und **0 Publikationen** unterstützt — es handelt sich um ein rein modellbasiertes Signal (L5) mit einer explizit gekennzeichneten mechanistischen Nichtübereinstimmung.
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available in evidence pack |
-| Predicted New Indication | Thrombocytopenia due to Immune Destruction |
-| TxGNN Prediction Score | 99.34% |
-| Evidence Level | L5 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Punkt | Inhalt |
+|-------|--------|
+| Ursprüngliche Indikation | Im Evidenzpaket nicht verfügbar |
+| Vorhergesagte neue Indikation | Thrombozytopenie aufgrund von Immunzerstörung |
+| TxGNN-Vorhersage-Score | 99.34% |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | Zurückhalten |
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage angemessen?
 
-Currently, no formal mechanism-of-action record is available for benralizumab in this evidence pack (`original_moa` = Data Gap). Based on the model's own repurposing rationale, benralizumab is described as an anti-IL-5Rα monoclonal antibody that depletes eosinophils and basophils primarily through antibody-dependent cell-mediated cytotoxicity (ADCC).
+Derzeit ist kein formales Wirkmechanismus-Datensatz für Benralizumab in diesem Evidenzpaket verfügbar (`original_moa` = Datenlücke). Basierend auf der eigenen Umwidmungslogik des Modells wird Benralizumab als monoklonaler Anti-IL-5Rα-Antikörper beschrieben, der Eosinophile und Basophile primär durch antikörperabhängige zellvermittelte Zytotoxizität (ADCC) abbaut.
 
-Immune thrombocytopenia (ITP), by contrast, is driven pathologically by autoantibody-coated platelets being cleared via Fc-receptor-mediated phagocytosis, together with dysregulated T- and B-cell responses. There is no established direct link between the IL-5/eosinophil axis and platelet autoantibody clearance.
+Die Immune Thrombozytopenie (ITP) hingegen wird pathologisch durch autoantikörperbedeckte Blutplättchen angetrieben, die durch Fc-Rezeptor-vermittelte Phagozytose beseitigt werden, zusammen mit dysregulierten T- und B-Zell-Antworten. Es gibt keinen etablierten direkten Zusammenhang zwischen der IL-5/Eosinophil-Achse und der Beseitigung von Blutplättchen-Autoantikörpern.
 
-The evidence pack's own mechanistic assessment is explicit on this point: the high TxGNN score most likely reflects indirect proximity between benralizumab and ITP through a shared "immune modulation" node in the knowledge graph, rather than a specific, biologically validated pathway. In other words, the model signal exists, but there is currently no mechanistic or clinical basis connecting IL-5Rα blockade to ITP pathophysiology.
+Die mechanistische Bewertung des Evidenzpakets ist zu diesem Punkt eindeutig: Der hohe TxGNN-Score spiegelt wahrscheinlich indirekte Nähe zwischen Benralizumab und ITP durch einen gemeinsamen „Immunmodulation"-Knoten im Wissensgraphen wider, statt einer spezifischen, biologisch validierten Bahn. Mit anderen Worten: Das Modellsignal existiert, aber es gibt derzeit keine mechanistische oder klinische Grundlage, die die IL-5Rα-Blockade mit der ITP-Pathophysiologie verbindet.
 
-## Clinical Trial Evidence
+## Evidenz aus klinischen Studien
 
-Currently no related clinical trials registered.
+Derzeit sind keine verwandten klinischen Studien registriert.
 
-## Literature Evidence
+## Evidenz aus der Literatur
 
-Currently no related literature available.
+Derzeit ist keine verwandte Literatur verfügbar.
 
-## Germany Market Information
+## Informationen zum Marktstatus in Deutschland
 
-No marketing authorizations are on record. The drug's market status is listed as **not marketed** with **0 total licenses**, so no product/dosage-form information is available for this jurisdiction.
+Es sind keine Marktgenehmigungen dokumentiert. Der Marktstatus des Arzneimittels wird als **nicht vermarktet** mit **0 Gesamtgenehmigungen** aufgeführt, daher sind keine Produkt-/Darreichungsform-Informationen für diese Gerichtsbarkeit verfügbar.
 
-## Safety Considerations
+## Sicherheitsaspekte
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-interaction data are all marked as data gaps in this evidence pack; a formal TFDA/regulatory-label safety review has not yet been completed — see Blocking data gap DG001 below.)
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. (Wichtige Warnungen, Gegenanzeigen und Arzneimittelwechselwirkungsdaten sind alle als Datenlücken in diesem Evidenzpaket gekennzeichnet; eine formale Sicherheitsüberprüfung der Kennzeichnung durch die TFDA ist noch nicht abgeschlossen — siehe blockierende Datenlücke DG001 unten.)
 
-## Conclusion and Next Steps
+## Fazit und nächste Schritte
 
-**Decision: Hold**
+**Entscheidung: Zurückhalten**
 
-**Rationale:**
-This candidate sits at decision stage S0 with evidence level L5 — a model prediction with no supporting clinical trials, no supporting literature, and no marketed formulation in this jurisdiction. The evidence pack's own mechanistic analysis further indicates the prediction likely reflects indirect knowledge-graph proximity rather than a validated biological pathway between IL-5Rα blockade and ITP.
+**Begründung:**
+Dieser Kandidat befindet sich in der Entscheidungsstufe S0 mit Evidenzstufe L5 — eine Modellvorhersage ohne unterstützende klinische Studien, ohne unterstützende Literatur und ohne vermarktete Darreichungsform in dieser Gerichtsbarkeit. Die mechanistische Analyse des Evidenzpakets deutet ferner darauf hin, dass die Vorhersage wahrscheinlich indirekte Wissensgraph-Nähe widerspiegelt statt einer validierten biologischen Bahn zwischen IL-5Rα-Blockade und ITP.
 
-**To proceed, the following is needed:**
-- Package insert safety data (warnings/contraindications) — currently a **Blocking** gap (DG001); without this, the candidate cannot advance to S1 safety pre-assessment
-- Verified mechanism-of-action data via DrugBank — currently a **High**-severity gap (DG002), needed to properly evaluate mechanistic plausibility
-- Preclinical or case-level evidence directly linking eosinophil/IL-5Rα biology to ITP pathophysiology
-- At minimum, case reports or observational data before this indication can be re-scored above L5
+**Zum Fortschreiten ist Folgendes erforderlich:**
+- Sicherheitsdaten aus der Packungsbeilage (Warnungen/Gegenanzeigen) — derzeit eine **blockierende** Lücke (DG001); ohne diese kann der Kandidat nicht zur S1-Sicherheitsvorabeinschätzung fortschreiten
+- Verifizierte Wirkmechanismus-Daten über DrugBank — derzeit eine **Hochschwere**-Lücke (DG002), erforderlich für eine ordnungsgemäße Bewertung der mechanistischen Plausibilität
+- Präklinische oder fallbasierte Evidenz, die direkt die Eosinophil-/IL-5Rα-Biologie mit der ITP-Pathophysiologie verbindet
+- Mindestens Fallberichte oder Beobachtungsdaten, bevor diese Indikation über L5 neu bewertet werden kann
 
 ---
 
-**Additional note (context, not part of the primary evidence chain):** Among the other TxGNN-predicted indications for benralizumab in this evidence pack, **dermatitis** (rank 2, score 99.16%) has substantially more evidence — 6 clinical trials and 20 publications, reaching evidence level L2/decision stage S1. However, the evidence is net-negative: the pivotal Phase 2 HILLIER trial (NCT04605094) was **terminated for insufficient efficacy**, and a companion publication (PMID 37178404, "Lack of effect of benralizumab on signs and symptoms of moderate-to-severe atopic dermatitis") confirms that eosinophil depletion in skin lesions (PMID 40781582) did not translate into clinical benefit. This indication is also scored **Hold**, but for a different reason — mechanism confirmed, efficacy disproven — rather than for lack of data. If evaluating benralizumab repurposing broadly, this dermatitis outcome is more informative than the ITP signal above and may warrant a separate report.
+**Zusätzliche Anmerkung (Kontext, nicht Teil der primären Nachweiskette):** Unter den anderen TxGNN-vorhergesagten Indikationen für Benralizumab in diesem Evidenzpaket hat **Dermatitis** (Rang 2, Score 99.16%) erheblich mehr Nachweise — 6 klinische Studien und 20 Publikationen mit einer Evidenzstufe L2/Entscheidungsstufe S1. Die Nachweise sind jedoch gesamthaft negativ: Die pivotale Phase-2-Studie HILLIER (NCT04605094) wurde **wegen unzureichender Wirksamkeit beendet**, und eine Begleitpublikation (PMID 37178404, „Fehlende Wirkung von Benralizumab bei Zeichen und Symptomen einer moderaten bis schweren atopischen Dermatitis") bestätigt, dass die Eosinophil-Depletion in Hautläsionen (PMID 40781582) keine klinischen Vorteile gebracht hat. Diese Indikation erhält auch die Bewertung **Zurückhalten**, aber aus einem anderen Grund — Mechanismus bestätigt, Wirksamkeit widerlegt — statt wegen Mangel an Daten. Bei einer breiten Bewertung der Benralizumab-Umwidmung ist dieses Dermatitis-Ergebnis aussagekräftiger als das obige ITP-Signal und kann einen separaten Bericht rechtfertigen.
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

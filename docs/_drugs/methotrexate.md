@@ -29,88 +29,89 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Methotrexate: From Unspecified Original Indications to Pulmonary Blastoma
+# Methotrexat: Von unspezifizierten ursprünglichen Indikationen zu pulmonalem Blastom
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Methotrexate (DrugBank DB00563) is a long-established antifolate agent, but this evidence pack does not contain a documented original indication, mechanism of action, or German marketing record for the drug. The TxGNN model predicts a possible new application in **Pulmonary Blastoma**, but this signal is currently supported by **0 clinical trials** and **0 publications** — it is a pure computational prediction with no corroborating clinical or mechanistic evidence.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available — no approved indication text on record (drug currently not marketed in Germany) |
-| Predicted New Indication | Pulmonary Blastoma |
-| TxGNN Prediction Score | 99.45% |
-| Evidence Level | L5 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Methotrexat (DrugBank DB00563) ist ein lang etabliertes Antifolatmittel, aber dieses Evidenzpaket enthält keine dokumentierte ursprüngliche Indikation, keinen Wirkmechanismus oder deutsches Marktinformationen für das Arzneimittel. Das TxGNN-Modell sagt eine mögliche neue Anwendung bei **pulmonalem Blastom** voraus, aber dieses Signal wird derzeit durch **0 klinische Studien** und **0 Veröffentlichungen** gestützt — es ist eine reine rechnergestützte Vorhersage ohne unterstützende klinische oder mechanistische Evidenz.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Detailed mechanism-of-action documentation for methotrexate is not available in this evidence pack (`original_moa: Data Gap`). Contextual information drawn from other candidate indications in this same dataset indicates that methotrexate acts as a **dihydrofolate reductase (DHFR) inhibitor**, blocking purine and thymidylate synthesis — a mechanism widely used in hematologic and CNS malignancies (e.g., CNS lymphoma, non-Hodgkin lymphoma, rhabdomyosarcoma) documented elsewhere in this dataset.
-
-For the specific candidate indication evaluated here, **pulmonary blastoma**, no mechanistic rationale, clinical trial, or literature evidence was identified. The evidence pack's own rationale states: *"Only a TxGNN model prediction score is available; there is no clinical trial or literature evidence supporting a mechanistic link or clinical use of methotrexate for this rare pulmonary blastoma."* This means the prediction currently rests entirely on the graph-neural-network signal (Evidence Level L5), with no disease-specific scientific or clinical basis.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
-
----
-
-## Literature Evidence
-
-Currently no related literature available
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Nicht verfügbar — kein genehmigter Indikationstext in den Datensätzen vorhanden (Arzneimittel derzeit nicht in Deutschland vermarktet) |
+| Vorhergesagte neue Indikation | Pulmonales Blastom |
+| TxGNN-Vorhersage-Score | 99.45% |
+| Evidenzlevel | L5 |
+| Marktstatus in Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Zurückstellen |
 
 ---
 
-## Germany Market Information
+## Warum ist diese Vorhersage berechtigt?
 
-Methotrexate currently holds **no marketing authorization in Germany** in this dataset (0 licenses on record; market status: Not Marketed).
+Detaillierte Dokumentation zum Wirkmechanismus von Methotrexat ist in diesem Evidenzpaket nicht verfügbar (`original_moa: Datenlücke`). Kontextinformationen aus anderen Kandidatenindikationen in diesem Datensatz deuten darauf hin, dass Methotrexat als **Dihydrofolatreduktase (DHFR)-Inhibitor** wirkt und die Purinsynthese sowie die Thymidylatsynthese blockiert — ein Mechanismus, der in hämatologischen und ZNS-Malignomen weit verbreitet ist (z. B. ZNS-Lymphom, Non-Hodgkin-Lymphom, Rhabdomyosarkom), wie an anderer Stelle in diesem Datensatz dokumentiert.
 
----
-
-## Cytotoxicity
-
-Methotrexate is classified as an antineoplastic/cytotoxic agent (antimetabolite class), based on its established use in multiple chemotherapy regimens referenced throughout this evidence pack (e.g., CNS lymphoma, non-Hodgkin lymphoma, rhabdomyosarcoma, small cell lung carcinoma).
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (Antimetabolite / Antifolate, DHFR inhibitor) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Must follow standard cytotoxic drug handling regulations (antimetabolite chemotherapy agent) |
+Für die hier bewertete spezifische Kandidatenindikation **pulmonales Blastom** wurde keine mechanistische Rationale, keine klinische Studie und keine Literaturstütze ermittelt. Die Begründung des Evidenzpakets besagt: *„Es ist nur eine TxGNN-Modellvorhersage-Score vorhanden; es gibt keine klinische Studie oder Literaturstütze für eine mechanistische Verbindung oder klinische Anwendung von Methotrexat bei diesem seltenen pulmonalen Blastom."* Dies bedeutet, dass die Vorhersage derzeit vollständig auf dem Graph-Neural-Network-Signal (Evidenzlevel L5) beruht, ohne krankheitsspezifische wissenschaftliche oder klinische Grundlage.
 
 ---
 
-## Safety Considerations
+## Klinische Studien-Evidenz
 
-Please refer to the package insert for safety information.
+Derzeit keine zugehörigen klinischen Studien registriert
 
 ---
 
-## Conclusion and Next Steps
+## Literatur-Evidenz
 
-**Decision: Hold**
+Derzeit keine zugehörige Literatur verfügbar
+
+---
+
+## Marktinformationen Deutschland
+
+Methotrexat besitzt derzeit **keine Marktgenehmigung in Deutschland** in diesem Datensatz (0 Lizenzen in den Datensätzen vorhanden; Marktstatus: Nicht vermarktet).
+
+---
+
+## Zytotoxizität
+
+Methotrexat wird als antineoplastisches/zytotoxisches Mittel (Antimetabolit-Klasse) klassifiziert, basierend auf seiner etablierten Verwendung in mehreren Chemotherapie-Regimen, auf die an anderer Stelle in diesem Evidenzpaket verwiesen wird (z. B. ZNS-Lymphom, Non-Hodgkin-Lymphom, Rhabdomyosarkom, kleinzelliges Lungenkarzinom).
+
+| Element | Inhalt |
+|---------|--------|
+| Zytotoxizitäts-Klassifizierung | Konventionell zytotoxisch (Antimetabolit / Antifolat, DHFR-Inhibitor) |
+| Myelosuppression-Risiko | Siehe Packungsbeilage: Warnungen und Vorsichtsmaßnahmen |
+| Emetogenität-Klassifizierung | Siehe Packungsbeilage: Warnungen und Vorsichtsmaßnahmen |
+| Überwachungspunkte | Siehe Packungsbeilage: Warnungen und Vorsichtsmaßnahmen |
+| Handhabungsschutz | Muss Standardrichtlinien für zytotoxische Arzneimittelbehandlung befolgen (Antimetabolit-Chemotherapeutikum) |
+
+---
+
+## Sicherheitsaspekte
+
+Siehe Packungsbeilage für Sicherheitsinformationen.
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Zurückstellen**
 
 **Rationale:**
-The TxGNN score for pulmonary blastoma is high, but there is no clinical trial or literature evidence specific to this rare tumor type, and drug-level data (MOA, TFDA/BfArM label warnings, contraindications, market status) are all unavailable, blocking any safety pre-assessment.
+Der TxGNN-Score für pulmonales Blastom ist hoch, aber es gibt keine klinische Studien- oder Literaturstütze spezifisch für diesen seltenen Tumortyp, und Arzneimittel-Ebene-Daten (Wirkmechanismus, TFDA/BfArM-Label-Warnungen, Kontraindikationen, Marktstatus) sind alle nicht verfügbar, was eine Sicherheitsvorabeinschätzung blockiert.
 
-**To proceed, the following is needed:**
-- Resolve DG001 (Blocking): obtain TFDA/BfArM label warnings and contraindications
-- Resolve DG002 (High): confirm methotrexate's mechanism of action via DrugBank or equivalent source
-- Conduct a targeted literature/trial search specific to methotrexate in pulmonary blastoma
-- Confirm German marketing/licensing status, since 0 authorizations are currently on record
+**Um fortzufahren, ist folgendes erforderlich:**
+- DG001 (blockierend) beheben: TFDA/BfArM-Label-Warnungen und Kontraindikationen einholen
+- DG002 (hoch) beheben: Wirkmechanismus von Methotrexat via DrugBank oder äquivalente Quelle bestätigen
+- Zielgerichtete Literatur-/Studiensuche spezifisch für Methotrexat bei pulmonalem Blastom durchführen
+- Deutschen Marketing-/Zulassungsstatus bestätigen, da derzeit 0 Autorisierungen in den Datensätzen vorhanden sind
 
-**Note:** This evidence pack also contains other candidate indications for methotrexate with substantially stronger evidence — notably **Hodgkin lymphoma** (Evidence Level L2, "Proceed with Guardrails," multiple historical Phase 2/3 regimens) and **rhabdomyosarcoma** (Evidence Level L2, "Research Question," Phase 2 trial evidence). These may warrant prioritized evaluation over the pulmonary blastoma signal assessed above.
+**Anmerkung:** Dieses Evidenzpaket enthält auch andere Kandidatenindikationen für Methotrexat mit wesentlich stärkerer Evidenz — insbesondere **Hodgkin-Lymphom** (Evidenzlevel L2, „Mit Schutzmaßnahmen fortfahren", mehrere historische Phase-2/3-Regime) und **Rhabdomyosarkom** (Evidenzlevel L2, „Forschungsfrage", Phase-2-Studienevidenz). Diese könnten eine vorrangige Bewertung gegenüber dem oben bewerteten pulmonalen Blastom-Signal rechtfertigen.
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

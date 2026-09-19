@@ -29,81 +29,82 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Ivabradine: From (Original Indication Not Yet Documented) to Hypertrichosis
+# Ivabradine: Von (ursprüngliche Indikation noch nicht dokumentiert) zu Hypertrichose
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Ivabradine (DB09083) currently has no original indication or mechanism-of-action data captured in this evidence pack, and it is not marketed in Germany (0 authorizations).
-> The TxGNN model predicts potential relevance to **Hypertrichosis (disease)** with a score of **99.79%**,
-> but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a model-only signal with no independent evidence.
+> Ivabradine (DB09083) verfügt derzeit über keine dokumentierte ursprüngliche Indikation oder Wirkmechanismus-Daten in diesem Evidenzpaket, und es ist in Deutschland nicht zugelassen (0 Genehmigungen).
+> Das TxGNN-Modell sagt eine potenzielle Relevanz für **Hypertrichose (Erkrankung)** mit einer Punktzahl von **99.79%** voraus,
+> aber diese Vorhersage wird derzeit durch **0 klinische Studien** und **0 Publikationen** gestützt — es handelt sich um ein modellgestütztes Signal ohne unabhängige Evidenz.
 
 ---
 
-## Quick Overview
+## Schneller Überblick
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available — no license or indication text in evidence pack (data gap) |
-| Predicted New Indication | Hypertrichosis (disease) |
-| TxGNN Prediction Score | 99.79% |
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Nicht verfügbar — keine Lizenz oder Indikationstexte im Evidenzpaket (Datenlücke) |
+| Vorhergesagte neue Indikation | Hypertrichose (Erkrankung) |
+| TxGNN-Vorhersage-Punktzahl | 99.79% |
 | Evidence Level | L5 |
-| Germany Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Marktstatus Deutschland | ✗ Nicht zugelassen |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | Halten |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage plausibel?
 
-Currently, detailed mechanism of action data is not available for ivabradine in this evidence pack, and no original indication was recorded either. Without this baseline, no pharmacological bridge between the original use and hypertrichosis can be established from the supplied data alone.
+Derzeit sind detaillierte Wirkmechanismus-Daten für Ivabradine in diesem Evidenzpaket nicht verfügbar, und es wurde auch keine ursprüngliche Indikation dokumentiert. Ohne diese Grundlage kann anhand der bereitgestellten Daten allein keine pharmakologische Verbindung zwischen der ursprünglichen Anwendung und Hypertrichose hergestellt werden.
 
-It is also worth noting that among the six diseases TxGNN surfaced for this drug, all fall in a very low-confidence score band (rank 3008–9476 out of the full prediction space) and cluster around rare congenital/genetic syndromes — hypertrichosis, Ambras type congenital hypertrichosis, a malformation syndrome with dental/periodontal features, Dandy-Walker malformation syndrome, an isolated genetic hair shaft abnormality, and nephrogenic SIAD. For rank 2 (Ambras syndrome), the evidence pack itself already documents the mechanistic assessment explicitly: this is a monogenic disorder linked to the 8q24.3 region near *TRPS1*, with **no relationship to HCN/If channel pharmacology**, and the reviewer rationale already recommends **Hold** with no mechanistic support. This pattern across the batch — rare genetic syndromes with no drug-target linkage evident — suggests the hypertrichosis prediction likely shares the same weakness rather than reflecting a genuine repurposing signal.
+Es ist auch erwähnenswert, dass alle sechs Erkrankungen, die TxGNN für dieses Medikament identifiziert hat, in einen sehr niedrigen Konfidenzbereich fallen (Rang 3008–9476 aus dem gesamten Vorhersageraum) und sich um seltene kongenitale/genetische Syndrome gruppieren — Hypertrichose, Ambras-Typ kongenitale Hypertrichose, ein Fehlbildungssyndrom mit Zahn-/Parodontal-Merkmalen, Dandy-Walker-Malformationssyndrom, eine isolierte genetische Haarschaftanomalie und nephrogenisches SIAD. Bei Rang 2 (Ambras-Syndrom) dokumentiert das Evidenzpaket selbst bereits die mechanistische Bewertung explizit: Dies ist eine monogene Störung, die mit der Region 8q24.3 in der Nähe von *TRPS1* verknüpft ist, mit **keinem Bezug zu HCN/If-Kanal-Pharmakologie**, und die Reviewer-Begründung empfiehlt bereits **Halten** ohne mechanistische Unterstützung. Dieses Muster in der gesamten Serie — seltene genetische Syndrome ohne offensichtliche Wirkstoff-Ziel-Verbindung — deutet darauf hin, dass die Hypertrichose-Vorhersage wahrscheinlich dieselbe Schwäche aufweist, anstatt ein echtes Repurposing-Signal widerzuspiegeln.
 
-Given the absence of MOA, original indication, and any corroborating trial or literature evidence, this prediction should be treated as an unvalidated model output rather than a mechanistically grounded hypothesis.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+Angesichts des Fehlens von Wirkmechanismus, ursprünglicher Indikation und jeglicher unterstützender Studien- oder Literaturevidenz sollte diese Vorhersage als nicht validierte Modellausgabe behandelt werden, anstatt als eine mechanistisch begründete Hypothese.
 
 ---
 
-## Literature Evidence
+## Evidenz aus klinischen Studien
 
-Currently no related literature available
-
-*(Note: literature returned elsewhere in this evidence pack, e.g. under "malformation syndrome with odontal/periodontal component," relates to periodontitis and dental microbiology, not to hypertrichosis, and is not applicable here.)*
+Derzeit sind keine verwandten klinischen Studien registriert
 
 ---
 
-## Germany Market Information
+## Evidenz aus Literatur
 
-Ivabradine currently holds no German market authorization in this evidence pack (0 licenses, market status "not marketed"). No product name, dosage form, or approved indication text is available for extraction.
+Derzeit keine verwandte Literatur verfügbar
 
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Key warnings, contraindications, and drug interaction data are all marked as data gaps in this evidence pack. TFDA label warnings/contraindications retrieval is flagged as a **Blocking** data gap (DG001), meaning a formal safety (S1) evaluation cannot proceed until this is resolved.)*
+*(Hinweis: Literatur, die an anderer Stelle in diesem Evidenzpaket zurückgegeben wird, z. B. unter „Fehlbildungssyndrom mit Zahn-/Parodontal-Bestandteil", bezieht sich auf Parodontitis und zahnmedizinische Mikrobiologie, nicht auf Hypertrichose, und ist hier nicht anwendbar.)*
 
 ---
 
-## Conclusion and Next Steps
+## Informationen zum Markt in Deutschland
 
-**Decision: Hold**
+Ivabradine verfügt derzeit über keine deutsche Marktzulassung in diesem Evidenzpaket (0 Lizenzen, Marktstatus „nicht zugelassen"). Es sind keine Produktnamen, Darreichungsformen oder genehmigten Indikationstexte für die Extraktion verfügbar.
 
-**Rationale:**
-There is no mechanism-of-action data, no original indication on record, no supporting clinical trials or literature for the predicted indication, and the drug is not currently marketed in Germany. Combined with the fact that a sibling prediction in the same batch (Ambras syndrome) has already been assessed as mechanistically implausible, this candidate does not meet the threshold to advance beyond an L5, model-only signal.
+---
 
-**To proceed, the following is needed:**
-- Resolve DG001 (TFDA/German label warnings and contraindications) — currently blocking any safety (S1) evaluation
-- Resolve DG002 (mechanism of action from DrugBank) to assess biological plausibility for hypertrichosis
-- Confirm original approved indication(s) for ivabradine from regulatory sources
-- Targeted literature search specifically on HCN/If channel involvement in hair follicle biology, if any exists, since none was returned in this pull
-- Re-run evidence collection once MOA and indication data gaps are closed before re-scoring this candidate
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+*(Wichtige Warnungen, Kontraindikationen und Arzneimittelwechselwirkungsdaten sind alle als Datenlücken in diesem Evidenzpaket gekennzeichnet. Der Abruf von TFDA-Etiketten-Warnungen/Kontraindikationen ist als eine blockierende Datenlücke (DG001) gekennzeichnet, was bedeutet, dass eine formale Sicherheit (S1)-Bewertung nicht durchgeführt werden kann, bis diese behoben ist.)*
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Halten**
+
+**Begründung:**
+Es gibt keine Wirkmechanismus-Daten, keine ursprüngliche Indikation in den Unterlagen, keine unterstützenden klinischen Studien oder Literatur für die vorhergesagte Indikation, und das Medikament ist derzeit nicht auf dem deutschen Markt zugelassen. In Verbindung mit der Tatsache, dass eine verwandte Vorhersage in der gleichen Serie (Ambras-Syndrom) bereits als mechanistisch implausibel bewertet wurde, erfüllt dieser Kandidat nicht die Schwelle, um über ein L5-Modellsignal hinaus voranzuschreiten.
+
+**Um voranzukommen, werden folgende Maßnahmen benötigt:**
+- Beheben Sie DG001 (TFDA/deutsche Etiketten-Warnungen/Kontraindikationen) — blockiert derzeit jegliche Sicherheit (S1)-Bewertung
+- Beheben Sie DG002 (Wirkmechanismus von DrugBank), um die biologische Plausibilität für Hypertrichose zu bewerten
+- Bestätigen Sie die ursprünglichen genehmigten Indikationen für Ivabradine aus behördlichen Quellen
+- Gezielte Literatursuche speziell zur HCN/If-Kanal-Beteiligung in der Haarfollikel-Biologie, falls vorhanden, da in dieser Abfrage nichts zurückgegeben wurde
+- Führen Sie die Evidenzsammlung erneut durch, sobald die Wirkmechanismus- und Indikationsdatenlücken geschlossen sind, bevor Sie diesen Kandidaten neu bewerten
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

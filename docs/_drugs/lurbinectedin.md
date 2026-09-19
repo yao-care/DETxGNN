@@ -29,89 +29,90 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Lurbinectedin: From Small Cell Lung Cancer to Multiple Endocrine Neoplasia
+# Lurbinectedin: Vom kleinzelligen Lungenkrebs zum Multiplen Endokrinen Neoplasie-Syndrom
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Lurbinectedin is a cytotoxic chemotherapy agent, described in the evidence rationale as currently used for small cell lung cancer.
-The TxGNN model predicts it may be effective for **Multiple Endocrine Neoplasia**,
-but this prediction is currently supported by **0 clinical trials** and **0 publications** — score alone, with no corroborating evidence.
+Lurbinectedin ist ein zytotoxisches Chemotherapeutikum, das in der Evidenzdarlegung als aktuell bei kleinzelligem Lungenkrebs eingesetzt beschrieben wird.
+Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam für das **Multiple Endokrine Neoplasie-Syndrom** sein könnte,
+aber diese Vorhersage wird derzeit durch **0 klinische Studien** und **0 Publikationen** gestützt — nur der Score, ohne unterstützende Evidenz.
 
 ---
 
-## Quick Overview
+## Schnelle Übersicht
 
-| Item | Content |
+| Punkt | Inhalt |
 |------|------|
-| Original Indication | Small Cell Lung Cancer (SCLC) — mentioned in the model's rationale narrative; not confirmed via formal license/regulatory data (data gap) |
-| Predicted New Indication | Multiple Endocrine Neoplasia |
-| TxGNN Prediction Score | 99.44% |
-| Evidence Level | L5 (model prediction only; no supporting trials or literature) |
-| Germany Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | Kleinzelliger Lungenkrebs (SCLC) — in der Modellbegründung erwähnt; nicht bestätigt durch formale Zulassungs-/Regulatorydaten (Datenlücke) |
+| Vorhergesagte neue Indikation | Multiples Endokrines Neoplasie-Syndrom |
+| TxGNN-Vorhersage-Score | 99.44% |
+| Evidenzgrad | L5 (nur Modellvorhersage; keine unterstützenden Studien oder Literatur) |
+| Marktstatus in Deutschland | Nicht im Handel |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Zurückstellen |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage sinnvoll?
 
-Detailed mechanism of action data is not available in the formal drug record (data gap DG002, High severity). Based on the model's own rationale annotations, lurbinectedin is a DNA minor-groove binding transcriptional inhibitor that induces transcription-coupled DNA damage via RNA Pol II inhibition — a conventional cytotoxic chemotherapy mechanism, currently applied in small cell lung cancer.
+Detaillierte Wirkmechanismus-Daten sind im formalen Arzneimitteleintrag nicht verfügbar (Datenlücke DG002, hoher Schweregrad). Nach den Begründungsannotationen des Modells ist Lurbinectedin ein DNA-Minorrille-bindendes Transkriptionsinhibitor, das transkriptionsabhängige DNA-Schäden durch RNA Pol II-Hemmung hervorruft — ein konventioneller zytotoxischer Chemotherapie-Mechanismus, der derzeit bei kleinzelligem Lungenkrebs angewendet wird.
 
-For the top-ranked prediction, however, the evidence pack explicitly states there is **no known mechanistic relationship** between this transcription-inhibition/DNA-damage mechanism and multiple endocrine neoplasia (a germline RET/MEN1-driven endocrine tumor syndrome). The prediction rests solely on TxGNN graph-similarity inference, with no clinical or literature corroboration.
+Für die höchstrangige Vorhersage wird im Evidenzpaket jedoch explizit festgehalten, dass es **keine bekannte mechanistische Beziehung** zwischen diesem Transkriptionshemmungs-/DNA-Schadmechanismus und dem Multiplen Endokrinen Neoplasie-Syndrom gibt (ein Keimbahn-RET/MEN1-assoziiertes endokrines Tumor-Syndrom). Die Vorhersage stützt sich ausschließlich auf TxGNN-Graph-Ähnlichkeits-Inferenzen, ohne klinische oder literarische Bestätigung.
 
-Given lurbinectedin's cytotoxic and immunosuppressive properties, extending it to a non-oncologic, genetically-driven endocrine syndrome lacks biological plausibility at this stage. The same caveat applies to all nine other ranked predictions in this evidence pack — several of which are not even human diseases (e.g., feline immunodeficiency syndrome, infectious bovine rhinotracheitis), suggesting cross-species noise in the underlying knowledge graph rather than genuine repurposing signal.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Angesichts der zytotoxischen und immunsuppressiven Eigenschaften von Lurbinectedin ist eine Ausweitung auf ein nicht-onkologisches, genetisch bedingtes endokrines Syndrom auf dieser Stufe biologisch nicht plausibel. Der gleiche Vorbehalt gilt für alle neun weiteren eingestuften Vorhersagen in diesem Evidenzpaket — von denen mehrere nicht einmal menschliche Krankheiten sind (z. B. Felines Immundefizienzvirus-Syndrom, Infektiöse bovine Rhinotracheitis), was auf artübergreifendes Rauschen im zugrunde liegenden Wissensgraphen hindeutet, nicht auf echte Umwidmungssignale.
 
 ---
 
-## Literature Evidence
+## Klinische Studienevidenz
 
-Currently no related literature available.
-
----
-
-## Germany Market Information
-
-Lurbinectedin currently holds no marketing authorization in Germany (0 licenses on record); market status is **Not Marketed**.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Cytotoxicity
+## Literarische Evidenz
 
-| Item | Content |
+Derzeit ist keine zugehörige Literatur verfügbar.
+
+---
+
+## Marktstatus in Deutschland
+
+Lurbinectedin hält derzeit keine Marktzulassung in Deutschland (0 Lizenzen registriert); Marktstatus ist **Nicht im Handel**.
+
+---
+
+## Zytotoxizität
+
+| Punkt | Inhalt |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic — DNA minor-groove binding transcription inhibitor (per rationale narrative; not independently confirmed via DrugBank category data) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | CBC with differential, liver and renal function (standard for cytotoxic chemotherapy; product-specific data not confirmed) |
-| Handling Protection | Standard cytotoxic drug handling precautions apply, given its confirmed classification as a cytotoxic chemotherapy agent |
+| Zytotoxizitätsklassifizierung | Konventionell zytotoxisch — DNA-Minorrille-bindendes Transkriptionsinhibitor (nach Begründungstext; nicht unabhängig über DrugBank-Kategoriendaten bestätigt) |
+| Myelosuppressions-Risiko | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation |
+| Emetogenitätsklassifizierung | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation |
+| Überwachungselemente | Blutbild mit Differentialzählung, Leber- und Nierenfunktion (Standard bei zytotoxischer Chemotherapie; produktspezifische Daten nicht bestätigt) |
+| Schutzmaßnahmen bei der Handhabung | Standardmaßnahmen zur sicheren Handhabung von zytotoxischen Substanzen sind erforderlich, da es sich um ein bestätigtes zytotoxisches Chemotherapeutikum handelt |
 
 ---
 
-## Safety Considerations
+## Sicherheitsaspekte
 
-Please refer to the package insert for safety information. TFDA label warnings and contraindications are currently a **Blocking data gap (DG001)**, which prevents any formal S1 safety pre-assessment.
+Bitte beachten Sie die Fachinformation für Sicherheitsinformationen. TFDA-Etikettenwarnungen und Kontraindikationen sind derzeit eine **Blockierende Datenlücke (DG001)**, die eine formale S1-Sicherheitsvorbewertung verhindert.
 
 ---
 
-## Conclusion and Next Steps
+## Fazit und nächste Schritte
 
-**Decision: Hold**
+**Entscheidung: Zurückstellen**
 
-**Rationale:**
-All 10 TxGNN-predicted indications for lurbinectedin are Evidence Level L5 (prediction-only, zero clinical trials, zero literature). The top-ranked candidate — multiple endocrine neoplasia — is explicitly flagged in its own rationale as lacking mechanistic, clinical, or literature support, and several lower-ranked predictions are not even human diseases, indicating likely knowledge-graph noise rather than a credible repurposing signal.
+**Begründung:**
+Alle 10 von TxGNN vorhergesagten Indikationen für Lurbinectedin sind Evidenzgrad L5 (nur Vorhersage, null klinische Studien, null Literatur). Der höchstrangige Kandidat — Multiples Endokrines Neoplasie-Syndrom — wird in seiner eigenen Begründung explizit als mangelhaft in mechanistischer, klinischer oder literarischer Unterstützung gekennzeichnet, und mehrere niedriger eingestufte Vorhersagen sind nicht einmal menschliche Krankheiten, was wahrscheinliches artübergreifendes Wissensgraph-Rauschen statt eines glaubwürdigen Umwidmungssignals andeutet.
 
-**To proceed, the following is needed:**
-- TFDA label warnings/contraindications (DG001, Blocking) — required before any S1 safety pre-assessment
-- Confirmed mechanism of action via DrugBank or primary literature (DG002, High)
-- Independent verification of original indication and regulatory approval history
-- Preclinical or mechanistic evidence establishing biological plausibility for the multiple endocrine neoplasia link before further investment
-- Re-screening of lower-ranked predictions to filter out non-human-disease entries (cross-species graph noise)
+**Zum Fortfahren ist Folgendes erforderlich:**
+- TFDA-Etikettenwarnungen/Kontraindikationen (DG001, blockierend) — erforderlich vor jeder S1-Sicherheitsvorbewertung
+- Bestätigter Wirkmechanismus über DrugBank oder Primärliteratur (DG002, Hoch)
+- Unabhängige Überprüfung der ursprünglichen Indikation und der Zulassungshistorie
+- Präklinische oder mechanistische Evidenz, die die biologische Plausibilität des Zusammenhangs mit dem Multiplen Endokrinen Neoplasie-Syndrom belegt, bevor weitere Investitionen erfolgen
+- Erneutes Screening der niedriger eingestuften Vorhersagen zur Filterung von Nicht-Humanerkrankungseinträgen (artübergreifendes Wissensgraph-Rauschen)
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

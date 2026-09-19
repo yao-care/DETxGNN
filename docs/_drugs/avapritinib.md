@@ -29,80 +29,81 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Avapritinib: From Undocumented Original Indication to Axial Spondylometaphyseal Dysplasia (Low-Confidence Signal)
+# Avapritinib: Von nicht dokumentierter ursprünglicher Indikation zur axialen Spondyloemetaphysealen Dysplasie (Signal mit niedriger Konfidenz)
 
-## One-Sentence Summary
+## Kurzzusammenfassung
 
-> The evidence pack for Avapritinib does not contain its original approved indication or mechanism of action (both marked as data gaps).
-> The TxGNN model's top prediction is **Axial Spondylometaphyseal Dysplasia**, but this is one of 10 top-ranked predictions,
-> **none of which are supported by any clinical trials or literature** — all 10 fall into evidence level L5 (model prediction only).
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available in current evidence pack (DrugBank `original_indications` and `original_moa` are both empty/data-gap) |
-| Predicted New Indication | Axial Spondylometaphyseal Dysplasia |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L5 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Das Evidenzpaket für Avapritinib enthält weder seine ursprüngliche zugelassene Indikation noch seinen Wirkmechanismus (beide sind als Datenlücken gekennzeichnet).
+> Die Topvorhersage des TxGNN-Modells ist **Axiale Spondyloemetaphysiale Dysplasie**, aber dies ist eine von 10 Topvorhersagen,
+> **keine davon wird durch klinische Studien oder Literatur gestützt** — alle 10 fallen in die Evidenzstufe L5 (nur Modellvorhersage).
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Currently, detailed mechanism of action data is not available for avapritinib in this evidence pack (data gap DG002, severity High). Based on the repurposing rationale attached to each of the 10 predictions, avapritinib is understood to be a **KIT/PDGFRA tyrosine kinase inhibitor**. However, the rationale text for every single one of the top 10 predictions explicitly states that **no known mechanistic or pathway link** exists between KIT/PDGFRA inhibition and the predicted disease.
-
-Looking across all 10 predictions, a clear pattern emerges: they cluster into two disease groups — rare skeletal/neurodevelopmental syndromes (ranks 1, 2, 4, 8) and the amyotrophic lateral sclerosis (ALS) spectrum of motor neuron diseases (ranks 3, 5, 6, 7, 9, 10). The rank-10 rationale directly notes this pattern, suggesting the TxGNN model is grouping these diseases by **phenotypic/graph-topological similarity to each other**, not by a genuine pharmacological relationship to avapritinib. Without original indication or MOA data to anchor a repurposing hypothesis, and without any external corroborating evidence, these predictions should be treated as exploratory signals only.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
-
----
-
-## Literature Evidence
-
-Currently no related literature available
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Im aktuellen Evidenzpaket nicht verfügbar (DrugBank `original_indications` und `original_moa` sind beide leer/Datenlücke) |
+| Vorhergesagte neue Indikation | Axiale Spondyloemetaphysiale Dysplasie |
+| TxGNN-Vorhersage-Score | 99.92% |
+| Evidenzstufe | L5 |
+| Marktstatus Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Halten |
 
 ---
 
-## Germany Market Information
+## Warum ist diese Vorhersage vernünftig?
 
-Avapritinib currently holds no marketing authorization in Germany (0 licenses on record); no dosage form or approved-indication data is available.
+Derzeit sind detaillierte Wirkmechanismus-Daten für Avapritinib in diesem Evidenzpaket nicht verfügbar (Datenlücke DG002, Schweregrad Hoch). Basierend auf der zu jeder der 10 Vorhersagen beigefügten Rationale wird Avapritinib als **KIT/PDGFRA-Tyrosinkinase-Inhibitor** verstanden. Die Rationale für jede einzelne der 10 besten Vorhersagen besagt jedoch ausdrücklich, dass **keine bekannte mechanistische oder Signalweg-Verbindung** zwischen KIT/PDGFRA-Hemmung und der vorhergesagten Krankheit besteht.
 
----
-
-## Cytotoxicity
-
-Avapritinib is understood to be a KIT/PDGFRA tyrosine kinase inhibitor, a class of targeted antineoplastic therapy typically used in oncology. Detailed cytotoxicity classification, myelosuppression risk, emetogenicity, and monitoring data are not available in the current evidence pack. Please refer to the package insert warnings and precautions.
+Betrachtet man alle 10 Vorhersagen, zeigt sich ein klares Muster: Sie gliedern sich in zwei Krankheitsgruppen — seltene Skelett-/neurodevelopmentale Syndrome (Ränge 1, 2, 4, 8) und Motoneuronen-Erkrankungen des ALS-Spektrums (Amyotrophe Lateralsklerose) (Ränge 3, 5, 6, 7, 9, 10). Die Rationale für Rang 10 vermerkt dieses Muster direkt und deutet darauf hin, dass das TxGNN-Modell diese Krankheiten nach **phänotypischer/Graph-topologischer Ähnlichkeit zueinander** gruppiert, nicht nach einer echten pharmakologischen Beziehung zu Avapritinib. Ohne Daten zur ursprünglichen Indikation oder zum Wirkmechanismus, um eine Wiederverwendungshypothese zu verankern, und ohne externe Bestätigungsnachweise sollten diese Vorhersagen nur als explorative Signale behandelt werden.
 
 ---
 
-## Safety Considerations
+## Evidenz aus klinischen Studien
 
-Please refer to the package insert for safety information.
+Derzeit sind keine zugehörigen klinischen Studien registriert
 
 ---
 
-## Conclusion and Next Steps
+## Evidenz aus der Literatur
 
-**Decision: Hold**
+Derzeit ist keine zugehörige Literatur verfügbar
+
+---
+
+## Marktinformationen für Deutschland
+
+Avapritinib hält derzeit keine Genehmigung für das Inverkehrbringen in Deutschland (0 Lizenzen registriert); keine Angaben zu Darreichungsform oder zugelassener Indikation sind verfügbar.
+
+---
+
+## Zytotoxizität
+
+Avapritinib wird als **KIT/PDGFRA-Tyrosinkinase-Inhibitor** verstanden, ein Wirkstoff aus der Klasse gezielter antineoplastischer Therapien, die in der Onkologie typischerweise eingesetzt werden. Detaillierte Daten zur Zytotoxizitäts-Klassifikation, zum Risiko der Knochenmarks-Suppression, zur Emetogenität und zur Überwachung sind im aktuellen Evidenzpaket nicht verfügbar. Bitte lesen Sie die Warnhinweise und Vorsichtsmaßnahmen in der Packungsbeilage.
+
+---
+
+## Sicherheitsaspekte
+
+Bitte lesen Sie die Warnhinweise und Vorsichtsmaßnahmen in der Packungsbeilage.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Halten**
 
 **Rationale:**
-All 10 top-ranked predicted indications are evidence level L5 (model prediction only) with zero supporting clinical trials or literature, and the repurposing rationale itself flags a likely lack of genuine mechanistic relevance. In addition, drug-level safety data (warnings, contraindications, MOA) is entirely missing, including a Blocking-severity gap (DG001) that prevents even an initial S1 safety review.
+Die 10 am höchsten bewerteten Vorhersagen haben alle Evidenzstufe L5 (nur Modellvorhersage) ohne jegliche Unterstützung durch klinische Studien oder Literatur, und die Wiederverwendungs-Rationale selbst deutet auf einen wahrscheinlichen Mangel an echter mechanistischer Relevanz hin. Darüber hinaus fehlen vollständig Sicherheitsdaten auf Arzneimittel-Ebene (Warnhinweise, Gegenanzeigen, Wirkmechanismus), einschließlich einer blockierenden Datenlücke (DG001), die sogar eine erste Sicherheitsbewertung der Stufe S1 verhindert.
 
-**To proceed, the following is needed:**
-- TFDA/BfArM package insert with warnings and contraindications (DG001, Blocking — required before any safety pre-screening)
-- Mechanism of action data from DrugBank (DG002)
-- Confirmation of avapritinib's original approved indication(s) to establish a repurposing baseline
-- Independent literature/clinical trial search for the top-ranked predicted indications, since the current zero-hit result may reflect either a genuinely novel signal or a coverage limitation of the evidence pack
+**Um fortzufahren, wird Folgendes benötigt:**
+- Packungsbeilage von TFDA/BfArM mit Warnhinweisen und Gegenanzeigen (DG001, Blockierend — erforderlich vor jeder Sicherheits-Vorabprüfung)
+- Wirkmechanismus-Daten aus DrugBank (DG002)
+- Bestätigung der ursprüngliche(n) zugelassene(n) Indikation(en) von Avapritinib, um eine Wiederverwendungs-Basis zu etablieren
+- Unabhängige Literatur- und klinische Studiensuche für die Topvorhersagen mit höchster Rangierung, da das aktuelle Null-Treffer-Ergebnis entweder ein genuines neuartiges Signal oder eine Abdeckungslimitation des Evidenzpakets widerspiegeln kann
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

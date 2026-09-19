@@ -29,76 +29,77 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Lumacaftor: From Cystic Fibrosis to Leprosy
+# Lumacaftor: Von Mukoviszidose zu Lepra
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Lumacaftor is a CFTR corrector originally developed to treat cystic fibrosis by correcting F508del-CFTR protein misfolding.
-The TxGNN model predicts it may be effective for **Leprosy**,
-but currently there are **0 clinical trials** and **0 publications** supporting this direction — the prediction rests on model inference alone.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Cystic Fibrosis (F508del-CFTR) |
-| Predicted New Indication | Leprosy |
-| TxGNN Prediction Score | 99.44% |
-| Evidence Level | L5 |
-| Germany Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Lumacaftor ist ein CFTR-Korrektor, der ursprünglich zur Behandlung von Mukoviszidose durch Korrektur der F508del-CFTR-Protein-Fehlfaltung entwickelt wurde.
+Das TxGNN-Modell prognostiziert, dass es möglicherweise wirksam gegen **Lepra** sein könnte,
+aber derzeit gibt es **0 klinische Studien** und **0 Publikationen**, die diese Richtung unterstützen – die Vorhersage beruht allein auf Modellinferenz.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Currently, detailed mechanism of action data is not available (Data Gap). Based on known information, Lumacaftor is a CFTR corrector whose established pharmacology focuses on correcting F508del-CFTR protein misfolding, and its efficacy in cystic fibrosis is well proven.
-
-The relationship between cystic fibrosis and leprosy is not mechanistically established. Leprosy is caused by *Mycobacterium leprae* infection, with pathogenesis driven by immune evasion and peripheral nerve invasion — processes with no known direct link to CFTR correction. Some literature speculates that CFTR channel function may influence macrophage phagocytosis and innate immune responses, which could theoretically connect to mycobacterial clearance, but this remains a speculative association without experimental or clinical data specific to mycobacterial infection.
-
-The absence of original MOA data further increases the uncertainty of this mechanistic assessment. Given the lack of any supporting clinical or literature evidence, this prediction should be treated as a hypothesis-generating signal only, not a basis for clinical action.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Element | Inhalt |
+|---------|---------|
+| Ursprüngliche Indikation | Mukoviszidose (F508del-CFTR) |
+| Vorhergesagte neue Indikation | Lepra |
+| TxGNN-Vorhersage-Score | 99.44% |
+| Evidenzstufe | L5 |
+| Marktstatus Deutschland | Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Aufschub |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage angemessen?
 
-Currently no related literature available
+Derzeit sind detaillierte Daten zum Wirkmechanismus nicht verfügbar (Datenlücke). Basierend auf bekannten Informationen ist Lumacaftor ein CFTR-Korrektor, dessen etablierte Pharmakologie auf der Korrektur der F508del-CFTR-Protein-Fehlfaltung konzentriert ist, und seine Wirksamkeit bei Mukoviszidose ist gut belegt.
 
----
+Der Zusammenhang zwischen Mukoviszidose und Lepra ist mechanistisch nicht etabliert. Lepra wird durch *Mycobacterium leprae*-Infektion verursacht, wobei die Pathogenese durch Immunevasion und Invasion peripherer Nerven vorangetrieben wird – Prozesse ohne bekannte direkte Verbindung zur CFTR-Korrektur. Einige Literatur spekuliert, dass die CFTR-Kanalfunktion die Makrophagen-Phagozytose und angeborene Immunantworten beeinflussen könnte, was theoretisch mit der Mykobakterien-Beseitigung verbunden sein könnte, aber dies bleibt eine spekulative Assoziation ohne experimentelle oder klinische Daten spezifisch für mykobakterielle Infektionen.
 
-## Germany Market Information
-
-Lumacaftor currently has no market authorizations on record (total_licenses = 0); the drug is not marketed under the reviewed regulatory scope.
+Das Fehlen ursprünglicher MOA-Daten erhöht die Unsicherheit dieser mechanistischen Bewertung weiter. Angesichts des Mangels an jeglichen unterstützenden klinischen oder Literaturbelegen sollte diese Vorhersage nur als hypothesengenerierendes Signal behandelt werden, nicht als Grundlage für klinische Maßnahmen.
 
 ---
 
-## Safety Considerations
+## Evidenz aus klinischen Studien
 
-Please refer to the package insert for safety information.
+Derzeit sind keine damit zusammenhängenden klinischen Studien registriert
 
 ---
 
-## Conclusion and Next Steps
+## Evidenz aus der Literatur
 
-**Decision: Hold**
+Derzeit ist keine damit zusammenhängende Literatur verfügbar
 
-**Rationale:**
-This prediction is supported only by TxGNN model inference (Evidence Level L5), with zero clinical trials and zero publications, and the proposed mechanistic link between CFTR correction and *M. leprae* pathogenesis is speculative and unvalidated. There is insufficient evidence to advance this candidate at this time.
+---
 
-**To proceed, the following is needed:**
-- Complete original MOA data via DrugBank query (DG002)
-- Obtain TFDA package insert warnings/contraindications for baseline safety screening (DG001, Blocking)
-- Preclinical/in-vitro studies examining CFTR modulation and macrophage response to *M. leprae* or related mycobacteria
-- Updated literature search specifically targeting "CFTR modulators" + "mycobacterial infection" or "leprosy"
+## Marktstatus Deutschland
+
+Lumacaftor hat derzeit keine Marktzulassungen in der Dokumentation (`total_licenses = 0`); das Arzneimittel ist nicht unter dem überprüften regulatorischen Geltungsbereich vermarktet.
+
+---
+
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Aufschub**
+
+**Begründung:**
+Diese Vorhersage wird nur durch TxGNN-Modellinferenz unterstützt (Evidenzstufe L5), mit null klinischen Studien und null Publikationen, und der vorgeschlagene mechanistische Zusammenhang zwischen CFTR-Korrektur und *M. leprae*-Pathogenese ist spekulativ und nicht validiert. Es gibt derzeit unzureichende Beweise, um diesen Kandidaten voranzutreiben.
+
+**Um voranzufahren, ist Folgendes erforderlich:**
+- Vollständige ursprüngliche MOA-Daten über DrugBank-Abfrage (DG002)
+- Beschaffung von TFDA-Packungsbeilage-Warnungen/Kontraindikationen für Basis-Sicherheitsscreening (DG001, Blockierung)
+- Präklinische/in-vitro-Studien zur Untersuchung der CFTR-Modulation und Makrophagen-Reaktion auf *M. leprae* oder verwandte Mykobakterien
+- Aktualisierte Literatursuche gezielt ausgerichtet auf „CFTR-Modulatoren" + „mykobakterielle Infektion" oder „Lepra"
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

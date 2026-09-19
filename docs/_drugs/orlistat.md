@@ -29,74 +29,75 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Orlistat: From Unspecified Original Indication to Hypervitaminosis
+# Orlistat: Von unspezifischer ursprünglicher Indikation zu Hypervitaminose
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Orlistat's original approved indication is not documented in the current evidence pack, and its mechanism of action (MOA) is flagged as a high-severity data gap pending DrugBank verification. The TxGNN model predicts a possible application in **Hypervitaminosis**, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it rests entirely on a theoretical, inverse-mechanism rationale.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in evidence pack (data gap) |
-| Predicted New Indication | Hypervitaminosis |
-| TxGNN Prediction Score | 99.42% (rank #6553) |
-| Evidence Level | L5 |
-| Germany Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Die ursprüngliche genehmigte Indikation von Orlistat ist im aktuellen Evidenzpaket nicht dokumentiert, und sein Wirkmechanismus (MOA) ist als Datenlücke hohen Schweregrades gekennzeichnet, die ausstehend zur DrugBank-Verifikation ist. Das TxGNN-Modell sagt eine mögliche Anwendung in **Hypervitaminose** voraus, aber diese Vorhersage wird derzeit durch **0 klinische Studien** und **0 Publikationen** unterstützt – sie beruht vollständig auf einer theoretischen, inversen Wirkmechanismus-Rationale.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Orlistat's formal mechanism of action is not yet confirmed in this evidence pack (flagged as a High-severity data gap, DG002, pending DrugBank API verification). However, the repurposing rationale attached to this prediction describes Orlistat as a gastrointestinal lipase inhibitor that blocks hydrolysis of dietary triglycerides, thereby reducing intestinal fat absorption.
-
-A well-known consequence of this mechanism — clinically treated as a side effect requiring supplementation — is reduced absorption of fat-soluble vitamins (A, D, E, K). The TxGNN prediction essentially inverts this known effect: if Orlistat reduces fat-soluble vitamin uptake, it could theoretically be repurposed to lower excess absorption in patients with hypervitaminosis A/D/E/K.
-
-This is a mechanistically plausible hypothesis, not an evidence-backed therapeutic use. It has not been tested in any clinical trial or supported by any literature to date, and the underlying MOA data itself still requires formal verification before this rationale can be considered reliable.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | **Nicht im Evidenzpaket dokumentiert (Datenlücke)** |
+| Vorhergesagte neue Indikation | **Hypervitaminose** |
+| TxGNN-Vorhersage-Score | 99.42% (Rang #6553) |
+| Evidenzstufe | L5 |
+| Marktstatus Deutschland | **Nicht vermarktet** |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | **Abwarten** |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage begründet?
 
-Currently no related literature available
+Der formale Wirkmechanismus von Orlistat ist in diesem Evidenzpaket noch nicht bestätigt (gekennzeichnet als Datenlücke hohen Schweregrades, DG002, ausstehend DrugBank-API-Verifikation). Die dieser Vorhersage zugeordnete Umpositionierungsrationale beschreibt Orlistat jedoch als einen gastrointestinalen Lipase-Hemmer, der die Hydrolyse von Nahrungstriglyceriden blockiert und dadurch die Fettaufnahme im Darm verringert.
 
----
+Eine bekannte Folge dieses Wirkmechanismus – klinisch als Nebenwirkung behandelt, die Supplementierung erfordert – ist die verminderte Aufnahme fettlöslicher Vitamine (A, D, E, K). Die TxGNN-Vorhersage kehrt im Wesentlichen diesen bekannten Effekt um: Wenn Orlistat die Aufnahme fettlöslicher Vitamine verringert, könnte es theoretisch zur Senkung der übermäßigen Aufnahme bei Hypervitaminose A/D/E/K umpositioniert werden.
 
-## Germany Market Information
-
-Orlistat currently holds no marketing authorization in Germany — market status is **not marketed**, with 0 registered licenses. No product, dosage form, or approved-indication records are available.
+Dies ist eine wirkmechanistisch plausible Hypothese, keine evidenzgestützte therapeutische Anwendung. Sie wurde in keiner klinischen Studie geprüft und wird durch keine Literatur bis heute unterstützt, und die zugrunde liegenden MOA-Daten selbst erfordern noch formale Verifikation, bevor diese Rationale als zuverlässig angesehen werden kann.
 
 ---
 
-## Safety Considerations
+## Klinische Studienevidenz
 
-Please refer to the package insert for safety information.
+Derzeit keine verwandten klinischen Studien registriert
 
 ---
 
-## Conclusion and Next Steps
+## Literaturevidenz
 
-**Decision: Hold**
+Derzeit keine verwandte Literatur verfügbar
 
-**Rationale:**
-This prediction is supported only by a theoretical mechanistic inversion (L5, decision stage S0), with zero clinical trials or literature evidence. A blocking data gap on TFDA label warnings/contraindications (DG001) prevents any safety pre-assessment, and the drug's core MOA (DG002) is itself unverified.
+---
 
-**To proceed, the following is needed:**
-- Confirm Orlistat's mechanism of action via DrugBank API (resolve DG002)
-- Obtain and parse TFDA label PDF for warnings/contraindications (resolve DG001 — blocking)
-- Identify at least preclinical or observational evidence directly linking Orlistat to hypervitaminosis management before advancing past S0
-- Re-evaluate Germany regulatory pathway, given the drug is not currently marketed there
+## Deutschland-Marktinformationen
+
+Orlistat hat derzeit in Deutschland keine Marktzulassung – der Marktstatus ist **nicht vermarktet**, mit 0 registrierten Lizenzen. Keine Einträge für Produkte, Darreichungsformen oder genehmigte Indikationen sind verfügbar.
+
+---
+
+## Sicherheitsüberlegungen
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Abwarten**
+
+**Begründung:**
+Diese Vorhersage wird nur durch eine theoretische Umkehrung des Wirkmechanismus unterstützt (L5, Entscheidungsstadium S0), ohne klinische Studien oder Literaturbelege. Eine blockierende Datenlücke bezüglich TFDA-Kennzeichnungshinweisen/Kontraindikationen (DG001) verhindert eine Vorab-Sicherheitsbewertung, und der Wirkmechanismus des Arzneimittels selbst (DG002) ist nicht verifiziert.
+
+**Um fortzufahren, wird Folgendes benötigt:**
+- Bestätigung des Wirkmechanismus von Orlistat über DrugBank-API (DG002 auflösen)
+- Erwerb und Analyse der TFDA-Kennzeichnungs-PDF auf Hinweise/Kontraindikationen (DG001 auflösen – blockierend)
+- Identifikation mindestens präklinischer oder beobachtender Evidenz, die Orlistat direkt mit der Hypervitaminose-Therapie verknüpft, bevor das Stadium S0 überschritten wird
+- Neubewertung des regulatorischen Weges in Deutschland, da das Arzneimittel derzeit dort nicht vermarktet ist
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

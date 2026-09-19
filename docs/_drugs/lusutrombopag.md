@@ -29,65 +29,66 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Lusutrombopag: From Thrombopoietin Receptor Agonist Therapy to Hereditary Thrombocytopenia with Normal Platelets
+# Lusutrombopag: Von der Thrombopoietin-Rezeptor-Agonisten-Therapie zur erblichen Thrombozytopenie mit normalen Thrombozyten
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Lusutrombopag's original approved indication is not documented in the current evidence pack, though its known mechanism is thrombopoietin (TPO) receptor agonism, a class typically used for thrombocytopenia management.
-> The TxGNN model's top prediction is **Hereditary Thrombocytopenia with Normal Platelets**,
-> but this direction is currently supported by **0 clinical trials** and **0 publications**, and the disease label itself is noted as internally contradictory in the model's own rationale.
+> Die ursprüngliche zugelassene Indikation von Lusutrombopag ist im aktuellen Evidenzpaket nicht dokumentiert, obwohl sein bekannter Wirkmechanismus Thrombopoietin-Rezeptor-Agonismus (TPO-RA) ist, eine Wirkstoffklasse, die typischerweise zur Behandlung von Thrombozytopenie verwendet wird.
+> Die Top-Vorhersage des TxGNN-Modells ist **Erbliche Thrombozytopenie mit normalen Thrombozyten**,
+> aber diese Richtung wird derzeit durch **0 klinische Studien** und **0 Publikationen** unterstützt, und die Krankheitsbezeichnung selbst wird in der eigenen Begründung des Modells als intern widersprüchlich vermerkt.
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
-|------|------|
-| Original Indication | Not documented (no approved indication text available; drug not marketed in Germany) |
-| Predicted New Indication | Hereditary Thrombocytopenia with Normal Platelets |
-| TxGNN Prediction Score | 99.995% |
-| Evidence Level | L5 |
-| Germany Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Nicht dokumentiert (kein genehmigter Indikationstext verfügbar; Arzneimittel nicht in Deutschland im Handel) |
+| Vorhergesagte neue Indikation | Erbliche Thrombozytopenie mit normalen Thrombozyten |
+| TxGNN-Vorhersage-Score | 99.995% |
+| Evidenzlevel | L5 |
+| Marktstand in Deutschland | ✗ Nicht im Handel |
+| Anzahl der Zulassungen | 0 |
+| Empfehlenswerte Entscheidung | Zurückstellen |
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage vernünftig?
 
-Formal mechanism-of-action data for Lusutrombopag is currently a data gap (DG002). However, the evidence pack's own rationale identifies Lusutrombopag as a **TPO receptor agonist**, a class that stimulates megakaryocyte production in bone marrow to increase platelet counts — this is consistent with its established pharmacological class (TPO-RAs such as eltrombopag, avatrombopag).
+Formale Wirkmechanismus-Daten für Lusutrombopag sind derzeit eine Datenlücke (DG002). Die Begründung des Evidenzpakets selbst identifiziert Lusutrombopag jedoch als **TPO-Rezeptor-Agonist**, eine Wirkstoffklasse, die die Megakaryozyten-Produktion im Knochenmark stimuliert, um die Thrombozytenzahl zu erhöhen – dies steht im Einklang mit seiner etablierten pharmakologischen Klasse (TPO-RAs wie Eltrombopag, Avatrombopag).
 
-The top-ranked prediction, "hereditary thrombocytopenia with normal platelets," has a name that is semantically contradictory (a thrombocytopenia diagnosis paired with "normal platelets"), which the model's own rationale flags as a likely disease-ontology naming or classification artifact rather than a coherent clinical phenotype. This makes the biological interpretability of the #1 prediction weak despite its high similarity score.
+Die höchstrangige Vorhersage „erbliche Thrombozytopenie mit normalen Thrombozyten" hat eine Bezeichnung, die semantisch widersprüchlich ist (eine Thrombozytopenie-Diagnose verbunden mit „normalen Thrombozyten"), was die eigene Begründung des Modells als wahrscheinliches Artefakt der Krankheits-Ontologie-Benennung oder -Klassifizierung anstelle eines kohärenten klinischen Phänotyps kennzeichnet. Dies macht die biologische Interpretierbarkeit der #1-Vorhersage schwach, trotz ihres hohen Ähnlichkeitswerts.
 
-Among the remaining nine predictions, only ranks 2–5 (macrothrombocytopenia with mitral valve insufficiency, transient neonatal thrombocytopenia, dense granule disease, platelet storage pool deficiency) have any plausible mechanistic link to platelet biology, and even these are described in the rationale as indirect or mechanistically mismatched (e.g., TPO-RAs increase platelet *quantity*, not *function*, so they are unlikely to correct storage pool or granule defects). Ranks 6–10 (ALS, lower motor neuron syndrome, polymicrogyria, spondylometaphyseal dysplasia) have no known biological pathway connecting TPO receptor signaling to their pathology, and the rationale explicitly attributes these to graph-proximity artifacts in the knowledge graph rather than genuine mechanistic signal.
+Von den verbleibenden neun Vorhersagen haben nur die Ränge 2–5 (Makrothrombozytopenie mit Mitralinsuffizienz, transiente neonatale Thrombozytopenie, Störung der dichten Granula, Thrombozytenspeicherpool-Defekt) einen plausiblen mechanistischen Zusammenhang zur Thrombozytologie, und selbst diese werden in der Begründung als indirekt oder mechanistisch nicht übereinstimmend beschrieben (z. B. erhöhen TPO-RAs die Thrombozyten*quantität*, nicht die *Funktion*, daher ist es unwahrscheinlich, dass sie Speicherpool- oder Granulitmängel korrigieren). Die Ränge 6–10 (ALS, Syndrom des unteren Motoneurons, Polymikrogyrie, spondylometaphysäre Dysplasie) weisen keine bekannte biologische Verbindung zwischen TPO-Rezeptor-Signalisierung und ihrer Pathologie auf, und die Begründung schreibt diese explizit Nähe-Artefakten im Wissensgraph statt echtem mechanistischem Signal zu.
 
-## Clinical Trial Evidence
+## Klinische Studienbelege
 
-Currently no related clinical trials registered.
+Derzeit keine registrierten klinischen Studien vorhanden.
 
-## Literature Evidence
+## Literaturbelege
 
-Currently no related literature available.
+Derzeit keine verwandte Literatur verfügbar.
 
-## Germany Market Information
+## Informationen zum deutschen Markt
 
-No marketing authorizations are currently recorded (total_licenses = 0; market status: not marketed). No product, dosage form, or approved indication data is available to summarize.
+Derzeit sind keine Zulassungen verzeichnet (total_licenses = 0; Marktstand: nicht im Handel). Es stehen keine Daten zu Produkten, Darreichungsformen oder zugelassenen Indikationen zur Verfügung.
 
-## Safety Considerations
+## Sicherheitsaspekte
 
-Please refer to the package insert for safety information.
+Bitte konsultieren Sie die Packungsbeilage für Sicherheitsinformationen.
 
-Note: TFDA/BfArM-level labeling data (warnings, contraindications) is currently a **Blocking** data gap (DG001), meaning this candidate cannot yet proceed to a formal safety (S1) evaluation stage until label data is obtained and reviewed.
+Hinweis: TFDA/BfArM-Kennzeichnungsdaten (Warnungen, Kontraindikationen) sind derzeit eine **blockierende** Datenlücke (DG001), was bedeutet, dass dieser Kandidat nicht zur formalen Sicherheitsbewertungsstufe (S1) voranschreiten kann, bis die Kennzeichnungsdaten beschafft und überprüft werden.
 
-## Conclusion and Next Steps
+## Schlussfolgerung und nächste Schritte
 
-**Decision: Hold**
+**Entscheidung: Zurückstellen**
 
-**Rationale:**
-All ten predicted indications are at evidence level L5 (model score only, zero supporting trials or literature), the top prediction's disease label is internally inconsistent per the model's own rationale, and foundational drug-level data (original indication, MOA, Germany market status, safety label) are largely unavailable. There is no basis to advance beyond a research hypothesis at this time.
+**Begründung:**
+Alle zehn vorhergesagten Indikationen befinden sich auf Evidenzlevel L5 (nur Modellscore, ohne unterstützende Studien oder Literatur), die Krankheitsbezeichnung der Top-Vorhersage ist gemäß der eigenen Begründung des Modells intern widersprüchlich, und grundlegende Arzneimittel-Daten (ursprüngliche Indikation, Wirkmechanismus, Marktstand in Deutschland, Sicherheitskennzeichnung) sind weitgehend nicht verfügbar. Eine Weiterentwicklung über den Stand einer Forschungshypothese hinaus ist derzeit nicht gerechtfertigt.
 
-**To proceed, the following is needed:**
-- TFDA/BfArM label data (warnings, contraindications) — currently Blocking (DG001)
-- Confirmed mechanism of action from DrugBank — currently High priority gap (DG002)
-- Clarification of disease ontology for "hereditary thrombocytopenia with normal platelets" before further evaluation
-- Preclinical or case-level evidence for any of the top 5 platelet-related predictions before considering trial-stage advancement
-- Re-screening of ranks 6–10 for possible knowledge-graph noise before inclusion in any future prioritization
+**Für die Weiterentwicklung erforderlich:**
+- TFDA/BfArM-Kennzeichnungsdaten (Warnungen, Kontraindikationen) – derzeit blockierend (DG001)
+- Bestätigter Wirkmechanismus aus DrugBank – derzeit Hochprioritäts-Datenlücke (DG002)
+- Klarstellung der Krankheits-Ontologie für „erbliche Thrombozytopenie mit normalen Thrombozyten" vor weiterer Bewertung
+- Vorklinische oder Fall-basierte Daten für eine der Top-5-Thrombozyten-bezogenen Vorhersagen, bevor der Übergang zur Studiephase erwogen wird
+- Erneute Überprüfung der Ränge 6–10 auf mögliches Rauschen im Wissensgraph vor Aufnahme in zukünftige Priorisierungen
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

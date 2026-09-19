@@ -29,84 +29,85 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Linaclotide: From Undocumented Original Indication to Predicted Cauda Equina Syndrome
+# Linaclotide: Von fehlend dokumentierter ursprünglicher Indikation zu vorhergesagtem Cauda-Equina-Syndrom
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Linaclotide's original approved indication is not documented in the current evidence pack, though its known mechanism (a guanylate cyclase-C agonist acting locally on intestinal epithelium) points to a gastrointestinal secretory context rather than a neurological one.
-> The TxGNN model predicts a possible link to **Cauda Equina Syndrome** with a very high score (**99.96%**),
-> but this prediction is supported by **0 clinical trials** and **0 publications**, and the model's own rationale flags the association as likely a data artifact rather than a genuine treatment mechanism.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in evidence pack (data gap — `original_indications` empty, `original_moa` = [Data Gap]) |
-| Predicted New Indication | Cauda Equina Syndrome |
-| TxGNN Prediction Score | 99.96% (rank 766) |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Germany Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+> Die ursprüngliche zugelassene Indikation von Linaclotide ist im aktuellen Datenpaket nicht dokumentiert, obwohl sein bekannter Wirkmechanismus (ein Guanylatcyclase-C-Agonist, der lokal auf das Darmepithel wirkt) eher auf einen gastrointestinalen sekretorischen als auf einen neurologischen Kontext hindeutet.
+> Das TxGNN-Modell sagt einen möglichen Zusammenhang mit dem **Cauda-Equina-Syndrom** mit einer sehr hohen Bewertung (**99.96%**) voraus,
+> doch diese Vorhersage wird durch **0 klinische Studien** und **0 Publikationen** gestützt, und die eigene Begründung des Modells kennzeichnet die Assoziation als wahrscheinlich ein Datenartefakt statt als ein echter Behandlungsmechanismus.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Detailed mechanism-of-action data is formally marked as a data gap in this evidence pack. However, the model's own repurposing rationale describes linaclotide as a **guanylate cyclase-C (GC-C) agonist** that acts exclusively on receptors on the intestinal epithelial surface, with systemic absorption below 0.1% and no capacity to cross the blood-brain barrier or act on spinal/cauda equina neural structures.
-
-Cauda equina syndrome is a surgical emergency caused by mechanical compression of the cauda equina nerve roots, requiring urgent decompression — it has no established pharmacological relationship with intestinal secretory function. According to the evidence pack's own rationale, the high TxGNN score most likely reflects **confounding by symptom overlap** in the knowledge graph: "constipation" as a symptom node is frequently co-associated with the bowel/bladder dysfunction commonly seen in cauda equina syndrome patients, rather than reflecting any disease-modifying mechanism.
-
-In short, the mechanistic link presented in this evidence pack is explicitly assessed as **not treatment-relevant** — it is a plausible explanation for *why the model scored this pairing highly*, not evidence that the pairing is clinically meaningful.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Nicht im Datenpaket dokumentiert (Datenlücke — `original_indications` leer, `original_moa` = [Data Gap]) |
+| Vorhergesagte neue Indikation | Cauda-Equina-Syndrom |
+| TxGNN-Vorhersage-Bewertung | 99.96% (Rang 766) |
+| Evidenzstufe | L5 (nur Modellvorhersage, keine unterstützenden Studien) |
+| Marktststatus in Deutschland | Nicht vermarktet (Not marketed) |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | **Halten** |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage angemessen?
 
-Currently no related literature available.
+Detaillierte Daten zum Wirkmechanismus sind in diesem Datenpaket formal als Datenlücke gekennzeichnet. Allerdings beschreibt die eigene Repurposing-Begründung des Modells Linaclotide als einen **Guanylatcyclase-C (GC-C)-Agonisten**, der ausschließlich auf Rezeptoren auf der intestinalen Epitheloberfläche wirkt, mit systemischer Absorption unter 0.1% und ohne Fähigkeit, die Blut-Hirn-Schranke zu durchqueren oder auf spinale/Cauda-equina-Nervenstrukturen zu wirken.
 
----
+Das Cauda-Equina-Syndrom ist ein chirurgischer Notfall, der durch mechanische Kompression der Cauda-equina-Nervenwurzeln verursacht wird und eine dringende Dekompression erfordert – es hat keine etablierte pharmakologische Beziehung zu intestinaler Sekretionsfunktion. Nach der eigenen Begründung des Datenpakets spiegelt die hohe TxGNN-Bewertung höchstwahrscheinlich **Störfaktoren durch Symptomüberlappung** im Wissensgraphen wider: „Verstopfung" als Symptomknoten ist häufig mit der Darm-/Blasendysfunktion assoziiert, die üblicherweise bei Cauda-equina-Syndrom-Patienten beobachtet wird, spiegelt aber keinen echten krankheitsmodifizierenden Wirkmechanismus wider.
 
-## Germany Market Information
-
-Linaclotide is not marketed in Germany (`market_status: Not marketed`), and no authorization records are present in the evidence pack (0 licenses).
+Kurz gesagt, der in diesem Datenpaket vorgestellte mechanistische Zusammenhang wird explizit als **nicht behandlungsrelevant** bewertet – er ist eine plausible Erklärung dafür, *warum das Modell diese Paarung hoch bewertet hat*, nicht ein Beweis dafür, dass die Paarung klinisch sinnvoll ist.
 
 ---
 
-## Safety Considerations
+## Klinische Studienevidenz
 
-Please refer to the package insert for safety information.
-
-Note: the evidence pack flags TFDA label warnings/contraindications (DG001) as a **Blocking** data gap — this prevents any safety pre-assessment (S1 stage) for this candidate regardless of predicted indication.
+Derzeit sind keine verwandten klinischen Studien registriert.
 
 ---
 
-## Additional Context: Pattern Across Predicted Indications
+## Evidenz aus der Literatur
 
-This evidence pack includes two further high-scoring predictions for linaclotide — **obsolete neurogenic bladder** (99.89%, rank 1766) and **insomnia** (99.51%, rank 5775) — both of which carry the same profile: no clinical trials, no literature, evidence level L5, and rationale text explicitly identifying the score as likely driven by symptom co-occurrence in the knowledge graph (e.g., neurogenic bowel/bladder co-morbidity, IBS-C/insomnia co-morbidity) rather than a genuine pharmacological mechanism. This consistent pattern across all three ranked candidates reinforces that none of the current predictions for linaclotide meet the bar for further evaluation.
+Derzeit ist keine verwandte Literatur verfügbar.
 
 ---
 
-## Conclusion and Next Steps
+## Marktinformationen für Deutschland
 
-**Decision: Hold**
+Linaclotide wird in Deutschland nicht vermarktet (`market_status: Not marketed`), und es sind keine Zulassungsunterlagen im Datenpaket vorhanden (0 Lizenzen).
 
-**Rationale:**
-The prediction has no supporting clinical trial or literature evidence (L5, model-only), and the mechanistic rationale itself identifies the association as a likely knowledge-graph artifact (symptom co-occurrence) rather than a plausible treatment mechanism. A Blocking data gap on TFDA safety labeling also prevents entry into any formal safety pre-assessment.
+---
 
-**To proceed, the following is needed:**
-- Confirmed original indication and MOA data for linaclotide (currently missing from evidence pack)
-- TFDA label warnings/contraindications (DG001 — Blocking) to enable S1 safety pre-assessment
-- Independent mechanistic or preclinical evidence directly linking GC-C agonism to cauda equina pathophysiology, if such a hypothesis is to be pursued further
-- Given the absence of any biological rationale, this candidate is not recommended for further development unless new primary evidence emerges
+## Sicherheitsüberlegungen
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+Hinweis: Das Datenpaket kennzeichnet TFDA-Etikettenwarnungen/Kontraindikationen (DG001) als **blockierende** Datenlücke – dies verhindert jede Sicherheits-Vorabprüfung (S1-Stufe) für diesen Kandidaten unabhängig von der vorhergesagten Indikation.
+
+---
+
+## Zusätzlicher Kontext: Muster über alle vorhergesagten Indikationen hinweg
+
+Dieses Datenpaket enthält zwei weitere hochbewertete Vorhersagen für Linaclotide — **veraltete neurogene Blase** (99.89%, Rang 1766) und **Insomnie** (99.51%, Rang 5775) – beide zeigen das gleiche Profil: keine klinischen Studien, keine Literatur, Evidenzstufe L5, und der Begründungstext identifiziert die Bewertung explizit als wahrscheinlich angetrieben durch Symptom-Koexistenz im Wissensgraphen (z. B. neurogene Darm-/Blasenkomorbidität, IBS-C/Insomnie-Komorbidität) statt eines echten pharmakologischen Mechanismus. Dieses konsistente Muster über alle drei bewerteten Kandidaten hinweg bekräftigt, dass keine der aktuellen Vorhersagen für Linaclotide den Maßstab für weitere Evaluierung erfüllt.
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Halten**
+
+**Begründung:**
+Die Vorhersage hat keine unterstützende klinische Studien- oder Literaturevidenz (L5, nur Modell), und die mechanistische Begründung selbst identifiziert die Assoziation als wahrscheinlich ein Wissensgraph-Artefakt (Symptom-Koexistenz) statt eines plausiblen Behandlungsmechanismus. Eine blockierende Datenlücke bei TFDA-Sicherheitskennzeichnung verhindert auch den Eintritt in jede formelle Sicherheits-Vorabprüfung.
+
+**Zum Fortfahren ist Folgendes erforderlich:**
+- Bestätigte ursprüngliche Indikation und MOA-Daten für Linaclotide (derzeit fehlend im Datenpaket)
+- TFDA-Etikettenwarnungen/Kontraindikationen (DG001 — blockierend), um Sicherheits-Vorabprüfung S1 zu ermöglichen
+- Unabhängige mechanistische oder präklinische Evidenz, die GC-C-Agonismus direkt mit Cauda-equina-Pathophysiologie verknüpft, wenn diese Hypothese weiter verfolgt werden soll
+- Angesichts des völligen Mangels an biologischer Begründung wird dieser Kandidat nicht für weitere Entwicklung empfohlen, es sei denn, es liegt neue primäre Evidenz vor
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

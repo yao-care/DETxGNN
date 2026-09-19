@@ -29,89 +29,90 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-# Metformin: From Type 2 Diabetes to Five Rare-Disease Candidates (Model-Only Signal)
+# Metformin: Von Diabetes mellitus Typ 2 zu fünf Kandidaten seltener Erkrankungen (Nur-Modell-Signal)
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Metformin is a widely used biguanide antidiabetic agent, though this specific evidence pack does not capture its original indication or mechanism (drug not currently marketed in this jurisdiction). The TxGNN model surfaces five candidate indications — led by **Focal Stiff Limb Syndrome** and **Classic Stiff Person Syndrome** — but **none are supported by any clinical trials or literature**, and the accompanying mechanistic rationales are explicitly flagged as weak or absent. This is a pure model-signal (L5) candidate set requiring full evidence build-out before any clinical consideration.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not captured in this evidence pack (drug not marketed locally; `original_indications` field empty) |
-| Predicted New Indication | Focal Stiff Limb Syndrome (top rank; 4 additional candidates below) |
-| TxGNN Prediction Score | 99.45% (rank 1); range 99.06%–99.45% across all 5 candidates |
-| Evidence Level | L5 (model prediction only — no trials, no literature, for all 5 candidates) |
-| Germany Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
-
-### All Predicted Indications
-
-| Rank | Disease | TxGNN Score | Model Rank | Evidence Level | Recommendation |
-|------|---------|-------------|-----------|-----------------|-----------------|
-| 1 | Focal Stiff Limb Syndrome | 99.45% | 6338 | L5 | Hold |
-| 2 | Classic Stiff Person Syndrome | 99.45% | 6339 | L5 | Hold |
-| 3 | Opsismodysplasia | 99.40% | 6707 | L5 | Hold |
-| 4 | Thiamine-Responsive Dysfunction Syndrome | 99.40% | 6765 | L5 | Hold |
-| 5 | Drug-Induced Localized Lipodystrophy | 99.06% | 9580 | L5 | Hold |
+Metformin ist ein weit verbreitetes Biguanid-Antidiabetikum, obwohl dieses spezifische Evidenzpaket seine ursprüngliche Indikation oder seinen Wirkmechanismus nicht erfasst (das Medikament wird in dieser Gerichtsbarkeit derzeit nicht vermarktet). Das TxGNN-Modell identifiziert fünf Kandidaten-Indikationen – angeführt durch **Focal Stiff Limb Syndrome** und **Classic Stiff Person Syndrome** – aber **keine wird durch klinische Studien oder Literatur gestützt**, und die begleitenden mechanistischen Begründungen sind explizit als schwach oder nicht vorhanden gekennzeichnet. Dies ist ein reines Modellsignal (L5) mit Kandidaten, die einen vollständigen Evidenzaufbau vor jeder klinischen Berücksichtigung benötigen.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Detailed mechanism-of-action data is not available in this evidence pack. Metformin is generally known as a biguanide that activates AMPK and suppresses hepatic gluconeogenesis, an action commonly associated with type 2 diabetes management — but this evidence pack does not itself document an original indication, so this context should be treated as background rather than verified source data.
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | In diesem Evidenzpaket nicht erfasst (Medikament wird lokal nicht vermarktet; Feld `original_indications` ist leer) |
+| Vorhergesagte neue Indikation | Focal Stiff Limb Syndrome (Spitzenrang; 4 weitere Kandidaten darunter) |
+| TxGNN-Vorhersage-Score | 99.45% (Rang 1); Bereich 99.06%–99.45% über alle 5 Kandidaten |
+| Evidenzstufe | L5 (nur Modellvorhersage – keine Studien, keine Literatur, für alle 5 Kandidaten) |
+| Marktstatus in Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | **Halten** |
 
-Across all five predicted indications, the model's rationale acknowledges only tenuous or absent biological links:
+### Alle vorhergesagten Indikationen
 
-- **Stiff Limb / Stiff Person Syndrome** (ranks 1–2): autoimmune, anti-GAD65-mediated GABAergic disorders. No known mechanistic overlap with AMPK/glucose metabolism pathways — the rationale explicitly states there is "no known intersection" and attributes the score to graph-based association only.
-- **Opsismodysplasia** (rank 3): caused by *INPPL1 (SHIP2)* mutations, a protein in the insulin-signaling pathway that has a distant topological relationship to metformin's target pathway — but no animal or human evidence supports any effect on skeletal phenotype.
-- **Thiamine-Responsive Dysfunction Syndrome** (rank 4): the only plausible link is symptomatic glycemic management in TRMA-associated diabetes, not correction of the underlying thiamine-transport defect.
-- **Drug-Induced Localized Lipodystrophy** (rank 5): metformin's AMPK-mediated effects on adipocyte metabolism offer a theoretical but directionally ambiguous connection; no evidence indicates it prevents or reverses lipodystrophic lesions.
-
-In summary, all five signals originate from graph-embedding similarity in TxGNN rather than an identifiable, evidence-backed biological hypothesis.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for any of the five predicted indications (Focal Stiff Limb Syndrome, Classic Stiff Person Syndrome, Opsismodysplasia, Thiamine-Responsive Dysfunction Syndrome, Drug-Induced Localized Lipodystrophy).
-
----
-
-## Literature Evidence
-
-Currently no related literature available for any of the five predicted indications.
+| Rang | Krankheit | TxGNN-Score | Modell-Rang | Evidenzstufe | Empfehlung |
+|------|-----------|------------|------------|--------------|------------|
+| 1 | Focal Stiff Limb Syndrome | 99.45% | 6338 | L5 | Halten |
+| 2 | Classic Stiff Person Syndrome | 99.45% | 6339 | L5 | Halten |
+| 3 | Opsismodysplasia | 99.40% | 6707 | L5 | Halten |
+| 4 | Thiamine-Responsive Dysfunction Syndrome | 99.40% | 6765 | L5 | Halten |
+| 5 | Drug-Induced Localized Lipodystrophy | 99.06% | 9580 | L5 | Halten |
 
 ---
 
-## Germany Market Information
+## Warum ist diese Vorhersage vernünftig?
 
-Metformin holds no current market authorizations in this jurisdiction (`market_status`: not marketed; `total_licenses`: 0). No product listings are available for review.
+Detaillierte Wirkmechanismus-Daten sind in diesem Evidenzpaket nicht verfügbar. Metformin ist allgemein als ein Biguanid bekannt, das AMPK aktiviert und die hepatische Glukoneogenese unterdrückt – eine Wirkung, die üblicherweise mit der Behandlung von Diabetes mellitus Typ 2 verbunden ist – aber dieses Evidenzpaket dokumentiert selbst keine ursprüngliche Indikation, daher sollte dieser Kontext als Hintergrund angesehen werden, nicht als verifizierte Quelldaten.
+
+Bei allen fünf vorhergesagten Indikationen bestätigt die Begründung des Modells nur schwache oder fehlende biologische Verbindungen:
+
+- **Stiff Limb / Stiff Person Syndrome** (Ränge 1–2): Autoimmune, anti-GAD65-vermittelte GABAerge Störungen. Keine bekannte mechanistische Überlappung mit AMPK/Glukosestoffwechsel-Signalwegen – die Begründung besagt explizit, dass es „keine bekannte Schnittmenge" gibt, und führt den Score nur auf graphbasierte Assoziation zurück.
+- **Opsismodysplasia** (Rang 3): Verursacht durch *INPPL1 (SHIP2)*-Mutationen, ein Protein in der Insulin-Signalisierungsbahn, das eine entfernte topologische Beziehung zum Zielweg von Metformin hat – aber es gibt keine Tier- oder Humanversuche, die eine Auswirkung auf den Skelettphenotyp stützen.
+- **Thiamine-Responsive Dysfunction Syndrome** (Rang 4): Der einzige plausible Zusammenhang ist die symptomatische Glykämie-Kontrolle bei mit TRMA assoziiertem Diabetes, nicht die Korrektur des zugrunde liegenden Thiamin-Transportdefekts.
+- **Drug-Induced Localized Lipodystrophy** (Rang 5): Metformins AMPK-vermittelte Auswirkungen auf den Adipozyten-Stoffwechsel bieten einen theoretischen, aber direktional mehrdeutigen Zusammenhang; es gibt keinen Beweis, dass es lipodystrophische Läsionen verhindert oder rückgängig macht.
+
+Zusammenfassend stammen alle fünf Signale aus der Grapheinbettungs-Ähnlichkeit in TxGNN, nicht von einer identifizierbaren, evidenzgestützten biologischen Hypothese.
 
 ---
 
-## Safety Considerations
+## Klinische Studienevidenz
 
-Please refer to the package insert for safety information. Note: this evidence pack could not retrieve label warnings, contraindications, or drug–drug interaction data (source: TFDA/BfArM label PDF), which is flagged as a **Blocking** gap preventing preliminary safety screening (S1) for any of these candidates.
+Derzeit sind keine verwandten klinischen Studien für eine der fünf vorhergesagten Indikationen registriert (Focal Stiff Limb Syndrome, Classic Stiff Person Syndrome, Opsismodysplasia, Thiamine-Responsive Dysfunction Syndrome, Drug-Induced Localized Lipodystrophy).
 
 ---
 
-## Conclusion and Next Steps
+## Literaturevidenz
 
-**Decision: Hold**
+Derzeit ist keine verwandte Literatur für eine der fünf vorhergesagten Indikationen verfügbar.
 
-**Rationale:**
-All five predicted indications rest solely on TxGNN model output (L5) with zero supporting clinical trials or literature, and the model's own mechanistic rationales describe the biological links as weak, indirect, or entirely absent. Combined with missing MOA and safety label data, there is no basis to advance any candidate beyond model-signal stage.
+---
 
-**To proceed, the following is needed:**
-- Retrieve and parse TFDA/BfArM label (warnings, contraindications, DDI) — currently Blocking (DG001)
-- Confirm metformin's mechanism of action via DrugBank API — currently High priority gap (DG002)
-- Targeted literature and clinical trial searches for each of the five candidate indications (autoimmune neurology, skeletal dysplasia, thiamine metabolism disorders, lipodystrophy) to establish whether any move beyond L5
-- Independent mechanistic/pharmacological review before any candidate is considered for S1 entry
+## Marktstatus in Deutschland
+
+Metformin hält derzeit keine Marktzulassungen in dieser Gerichtsbarkeit (`market_status`: nicht vermarktet; `total_licenses`: 0). Es sind keine Produkteinträge zur Überprüfung verfügbar.
+
+---
+
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. Hinweis: Dieses Evidenzpaket konnte Warnhinweise der Kennzeichnung, Kontraindikationen oder Arzneimittel-Wechselwirkungsdaten nicht abrufen (Quelle: TFDA/BfArM-Kennzeichnung PDF), was als **Blockierend** gekennzeichnet ist und eine vorläufige Sicherheitsüberprüfung (S1) für eine dieser Kandidaten verhindert.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Halten**
+
+**Begründung:**
+Alle fünf vorhergesagten Indikationen beruhen ausschließlich auf TxGNN-Modellleistung (L5) ohne klinische Studien oder Literaturstütze, und die eigenen mechanistischen Begründungen des Modells beschreiben die biologischen Verbindungen als schwach, indirekt oder vollständig fehlend. In Kombination mit fehlenden MOA- und Sicherheitskennzeichnungsdaten gibt es keine Grundlage, einen Kandidaten über das Modellsignalstadium hinaus zu fördern.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+- TFDA/BfArM-Kennzeichnung abrufen und analysieren (Warnhinweise, Kontraindikationen, Arzneimittel-Wechselwirkungen) – derzeit Blockierend (DG001)
+- Metformins Wirkmechanismus über DrugBank-API bestätigen – derzeit hochpriorige Lücke (DG002)
+- Gezielte Literatur- und klinische Studiensuche für jede der fünf Kandidaten-Indikationen (Autoimmun-Neurologie, Skeletale Dysplasie, Thiamin-Stoffwechsel-Störungen, Lipodystrophie), um festzustellen, ob einer über L5 hinausgeht
+- Unabhängige mechanistische/pharmakologische Überprüfung vor Berücksichtigung einer Kandidatin für S1-Eintrag
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

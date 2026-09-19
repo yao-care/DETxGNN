@@ -29,101 +29,102 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0**
 
 </div>
 
-# Acalabrutinib: Drug Repurposing Evaluation Report
+# Acalabrutinib: Evaluierungsbericht zur Umwidmung von Arzneimitteln
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Acalabrutinib (Calquence®) is a second-generation selective Bruton's tyrosine kinase (BTK) inhibitor, approved internationally for chronic lymphocytic leukaemia (CLL)/small lymphocytic lymphoma (SLL) and mantle cell lymphoma (MCL). The TxGNN model has **not generated any predicted new indications** for this drug at this time. The drug is **not marketed in Taiwan** and has **no TFDA authorizations** on record.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | CLL/SLL, Mantle Cell Lymphoma (not listed in TFDA; based on international approvals) |
-| Predicted New Indication | — (No TxGNN predictions available) |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | L5 — Model prediction not available |
-| Taiwan Market Status | ✗ Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+Acalabrutinib (Calquence®) ist ein hochselektiver Inhibitor der Bruton-Tyrosinkinase (BTK) der zweiten Generation, der international für chronische lymphatische Leukämie (CLL)/Small-Lymphocytic-Lymphom (SLL) und Mantzelzell-Lymphom (MCL) zugelassen ist. Das TxGNN-Modell hat **derzeit keine vorhergesagten neuen Indikationen** für dieses Arzneimittel generiert. Das Arzneimittel ist **nicht in Taiwan vermarktet** und hat **keine TFDA-Zulassungen** in den Aufzeichnungen.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Currently, no TxGNN predicted indications have been generated for acalabrutinib. Therefore, a mechanistic plausibility assessment cannot be performed at this time.
-
-For reference, acalabrutinib is a highly selective, covalent inhibitor of Bruton's tyrosine kinase (BTK), a key signalling molecule in the B-cell antigen receptor pathway. BTK inhibition disrupts B-cell proliferation, trafficking, chemotaxis, and adhesion — mechanisms central to B-cell malignancies. It was designed as a more selective successor to ibrutinib, with reduced off-target kinase inhibition (e.g., EGFR, ITK, TEC), resulting in a potentially improved safety profile.
-
-Given its targeted mechanism on the BTK pathway, potential repurposing opportunities could theoretically extend to other BTK-dependent conditions, including certain autoimmune diseases (e.g., rheumatoid arthritis, lupus) and other B-cell-driven malignancies. However, without TxGNN model output, no specific assessment can be made.
-
----
-
-## Clinical Trial Evidence
-
-No TxGNN-predicted indications are available; therefore, no indication-specific clinical trial search was performed.
-
-> Currently no related clinical trials registered for a predicted new indication.
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | CLL/SLL, Mantzelzell-Lymphom (nicht in TFDA aufgelistet; basierend auf internationalen Zulassungen) |
+| Vorhergesagte neue Indikation | — (Keine TxGNN-Vorhersagen verfügbar) |
+| TxGNN-Vorhersage-Score | N/A |
+| Evidenzstufe | L5 — Modellvorhersage nicht verfügbar |
+| Marktstatus Taiwan | ✗ Nicht vermarktet (Not marketed) |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | **Aussetzen** |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage angemessen?
 
-No TxGNN-predicted indications are available; therefore, no indication-specific literature search was performed.
+Derzeit wurden keine TxGNN-Vorhersagungen für acalabrutinib generiert. Daher kann derzeit keine mechanistische Plausibilitätsbewertung durchgeführt werden.
 
-> Currently no related literature available for a predicted new indication.
+Zur Information: Acalabrutinib ist ein hochselektiver, kovalenter Inhibitor der Bruton-Tyrosinkinase (BTK), ein Schlüsselsignalmolekül im B-Zell-Antigenrezeptor-Signalweg. Die BTK-Hemmung unterbricht die B-Zell-Proliferation, den Zelltransport, die Chemotaxis und die Zelladhäsion — Mechanismen, die für B-Zell-Malignome zentral sind. Es wurde als selektiverer Nachfolger von ibrutinib entwickelt, mit reduzierter Hemmung von Zielkinasen außerhalb der Zielstruktur (z. B. EGFR, ITK, TEC), was zu einem potenziell verbesserten Sicherheitsprofil führt.
 
----
-
-## Taiwan Market Information
-
-Acalabrutinib currently holds **no TFDA authorizations** and is **not marketed in Taiwan (Not marketed)**.
-
-> No Taiwan authorization records available.
+Angesichts seines gezielten Mechanismus auf dem BTK-Signalweg könnten potenzielle Umwidmungschancen theoretisch auf andere BTK-abhängige Erkrankungen ausgeweitet werden, einschließlich bestimmter Autoimmunerkrankungen (z. B. rheumatoide Arthritis, Lupus) und anderer B-Zell-gesteuerter Malignome. Ohne TxGNN-Modellausgabe kann jedoch keine spezifische Bewertung durchgeführt werden.
 
 ---
 
-## Cytotoxicity
+## Evidenz aus klinischen Studien
 
-Acalabrutinib is an antineoplastic agent (BTK inhibitor for haematological malignancies) and therefore requires cytotoxicity consideration.
+Keine TxGNN-Vorhersagungen sind verfügbar; daher wurde keine indikationsspezifische Suche in klinischen Studien durchgeführt.
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (Small-molecule kinase inhibitor — BTK selective) |
-| Myelosuppression Risk | Moderate — neutropenia, anaemia, and thrombocytopenia reported; Grade ≥3 neutropenia occurs in ~10–15% of patients |
-| Emetogenicity Classification | Low (oral targeted agent) |
-| Monitoring Items | CBC with differential (regularly), liver function tests (ALT/AST/bilirubin), signs of infection, bleeding events, atrial fibrillation/flutter monitoring, second primary malignancies screening |
-| Handling Protection | Standard oral targeted therapy handling; no special cytotoxic drug handling precautions required (non-cytotoxic mechanism — does not directly damage DNA) |
+> Derzeit sind keine verwandten klinischen Studien für eine vorhergesagte neue Indikation registriert.
 
 ---
 
-## Safety Considerations
+## Literaturnachweis
 
-The Evidence Pack contains no TFDA package insert data for acalabrutinib (drug not marketed in Taiwan). Based on internationally available prescribing information:
+Keine TxGNN-Vorhersagungen sind verfügbar; daher wurde keine indikationsspezifische Literatursuche durchgeführt.
 
-- **Key Warnings**: Serious haemorrhagic events (including fatal events) have been reported. Atrial fibrillation/flutter has been observed; monitor patients with cardiac risk factors. Serious infections (including opportunistic infections) may occur. Second primary malignancies have been reported.
-- **Contraindications**: Please refer to the originator's package insert (AstraZeneca — Calquence®) for complete contraindications, as TFDA labelling is not available.
-- **Drug Interactions**: Acalabrutinib is a CYP3A substrate. Strong CYP3A inhibitors (e.g., ketoconazole, clarithromycin) increase acalabrutinib exposure — dose adjustment required. Strong CYP3A inducers (e.g., rifampicin, phenytoin) decrease exposure — avoid concomitant use. Proton pump inhibitors reduce absorption — avoid co-administration; use H₂-receptor antagonists or antacids with staggered dosing. Anticoagulants/antiplatelets increase bleeding risk.
-
-> ⚠️ TFDA-specific labelling is unavailable (DG001 — Blocking data gap). The above is based on international prescribing information and must be verified against local labelling before any clinical decision.
+> Derzeit ist keine verwandte Literatur für eine vorhergesagte neue Indikation verfügbar.
 
 ---
 
-## Conclusion and Next Steps
+## Taiwan-Marktinformationen
 
-**Decision: Hold**
+Acalabrutinib hat derzeit **keine TFDA-Zulassungen** und ist **nicht in Taiwan vermarktet (Not marketed)**.
 
-**Rationale:**
-No TxGNN-predicted indications have been generated for acalabrutinib. Additionally, the drug is not marketed in Taiwan, and critical data gaps exist (TFDA package insert, formal MOA data in the evidence pack). Without a predicted target indication, no repurposing evaluation can proceed.
+> Keine Taiwan-Zulassungsaufzeichnungen verfügbar.
 
-**To proceed, the following is needed:**
-1. **TxGNN prediction output** — Re-run the TxGNN model to generate predicted indications for acalabrutinib (DB11703)
-2. **MOA data gap closure (DG002)** — Query DrugBank API to populate the mechanism of action field formally in the evidence pack
-3. **TFDA labelling (DG001 — Blocking)** — If acalabrutinib obtains TFDA authorization in the future, download and parse the package insert for local safety data
-4. **International label reference** — In the interim, integrate FDA/EMA prescribing information as a proxy for safety assessment
-5. **Taiwan market access assessment** — Evaluate whether named-patient import or clinical trial access pathways exist for potential repurposing studies
+---
+
+## Zytotoxizität
+
+Acalabrutinib ist ein antineoplastisches Mittel (BTK-Inhibitor für hämatologische Malignome) und erfordert daher eine Zytotoxizitätsbetrachtung.
+
+| Element | Inhalt |
+|---------|--------|
+| Zytotoxizitäts-Klassifizierung | Gezielte Therapie (Kleinmolekül-Kinase-Inhibitor — BTK-selektiv) |
+| Myelosuppressionsrisiko | Moderat — Neutropenie, Anämie und Thrombozytopenie berichtet; Grad ≥3-Neutropenie tritt bei etwa 10–15% der Patienten auf |
+| Emetogenitäts-Klassifizierung | Gering (orales Zieltherapeutikum) |
+| Überwachungselemente | Blutbild mit Differentialzählung (regelmäßig), Leberfunktionstests (ALT/AST/Bilirubin), Anzeichen von Infektionen, Blutungsereignisse, Vorhofflimmern-/Flattern-Überwachung, Screening auf sekundäre Malignome |
+| Schutzausrüstung für Handhabung | Standardisierte Handhabung für orales Zieltherapeutikum; keine speziellen Schutzmaßnahmen für zytotoxische Arzneistoffe erforderlich (nicht-zytotoxischer Mechanismus — beschädigt nicht direkt die DNA) |
+
+---
+
+## Sicherheitsaspekte
+
+Das Evidence Pack enthält keine TFDA-Packungsbeilage-Daten für acalabrutinib (Arzneimittel nicht in Taiwan vermarktet). Basierend auf international verfügbaren Verschreibungsinformationen:
+
+- **Wichtige Warnhinweise**: Schwerwiegende Blutungsereignisse (einschließlich tödlicher Ereignisse) wurden berichtet. Vorhofflimmern/Flattern wurde beobachtet; überwachen Sie Patienten mit kardialen Risikofaktoren. Schwerwiegende Infektionen (einschließlich opportunistischer Infektionen) können auftreten. Sekundäre Malignome wurden berichtet.
+- **Kontraindikationen**: Bitte beachten Sie die Packungsbeilage des Originalherstellers (AstraZeneca — Calquence®) für vollständige Kontraindikationen, da TFDA-Kennzeichnung nicht verfügbar ist.
+- **Arzneimittelwechselwirkungen**: Acalabrutinib ist ein CYP3A-Substrat. Starke CYP3A-Inhibitoren (z. B. ketoconazole, clarithromycin) erhöhen die acalabrutinib-Exposition — Dosisanpassung erforderlich. Starke CYP3A-Induktoren (z. B. rifampicin, phenytoin) verringern die Exposition — Gleichzeitige Anwendung vermeiden. Protonenpumpen-Inhibitoren verringern die Resorption — Gleichzeitige Gabe vermeiden; Verwendung von H₂-Rezeptor-Antagonisten oder Antazida mit gestaffelter Dosierung. Antikoagulantien/Antiplättchen erhöhen das Blutungsrisiko.
+
+> ⚠️ TFDA-spezifische Kennzeichnung ist nicht verfügbar (DG001 — Datenlücke). Das oben Genannte basiert auf internationalen Verschreibungsinformationen und muss vor einer klinischen Entscheidung gegen lokale Kennzeichnung überprüft werden.
+
+---
+
+## Fazit und Nächste Schritte
+
+**Entscheidung: Aussetzen**
+
+**Begründung:**
+Keine TxGNN-Vorhersagungen wurden für acalabrutinib generiert. Darüber hinaus ist das Arzneimittel nicht in Taiwan vermarktet, und es existieren kritische Datenlücken (TFDA-Packungsbeilage, formale MOA-Daten im Evidence Pack). Ohne eine vorhergesagte Zielindikation kann keine Umwidmungsbewertung durchgeführt werden.
+
+**Um fortzufahren, wird das Folgende benötigt:**
+1. **TxGNN-Vorhersage-Ausgabe** — Führen Sie das TxGNN-Modell erneut aus, um vorhergesagte Indikationen für acalabrutinib (DB11703) zu generieren
+2. **Datenlücke MOA schließen (DG002)** — Befragen Sie die DrugBank-API, um das Wirkmechanismus-Feld formal im Evidence Pack zu füllen
+3. **TFDA-Kennzeichnung (DG001 — Blockierung)** — Falls acalabrutinib in Zukunft eine TFDA-Zulassung erhält, laden Sie die Packungsbeilage herunter und analysieren Sie sie für lokale Sicherheitsdaten
+4. **Referenzmaterial für internationale Kennzeichnung** — In der Zwischenzeit integrieren Sie FDA/EMA-Verschreibungsinformationen als Ersatz für die Sicherheitsbewertung
+5. **Bewertung des Taiwan-Marktzugangs** — Bewerten Sie, ob Zugangsoptionen für benannte Patienten oder klinische Studienzugangsoptionen für potenzielle Umwidmungsstudien verfügbar sind
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

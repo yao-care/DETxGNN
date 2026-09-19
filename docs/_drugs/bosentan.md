@@ -29,78 +29,79 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9**
 
 </div>
 
-# Bosentan：藥物再利用評估 — 資料不足，無法完整評估
+# Bosentan: Arzneimittelrepositioning-Bewertung — Unzureichende Daten für eine vollständige Bewertung
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Bosentan（DrugBank ID：DB00559）為本次老藥新用候選藥物，但目前 Evidence Pack 中**無 TxGNN 預測新適應症**、**無原始適應症記錄**、**無安全性資料**，且在臺灣尚Not marketed，現階段無法執行標準再利用評估流程。在補齊關鍵資料缺口之前，建議暫緩本候選案的評估推進。
-
----
-
-## Quick Overview
-
-| 項目 | 內容 |
-|------|------|
-| Original Indication | 現有資料中無記錄 |
-| Predicted New Indication | 無（TxGNN 未產生預測結果） |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | L5（僅有模型層級，無任何實際研究） |
-| Taiwan Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+Bosentan (DrugBank ID: DB00559) ist ein Kandidat für die Arzneimittelrepositioning dieser Runde. Derzeit sind in der Evidence Pack jedoch **keine neuen durch TxGNN vorhergesagten Indikationen**, **keine Aufzeichnungen ursprünglicher Indikationen**, **keine Sicherheitsdaten** vorhanden, und das Arzneimittel ist in Taiwan noch nicht vermarktet, daher kann der Standard-Arzneimittelrepositioning-Bewertungsprozess in der gegenwärtigen Phase nicht durchgeführt werden. Es wird empfohlen, die Bewertung dieses Kandidaten auszusetzen, bis wichtige Datenlücken gefüllt sind.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-目前詳細的作用機轉資料無法取得。根據現有資料，Bosentan（DB00559）已透過 DrugBank 成功查詢到基本藥物記錄，但機轉欄位（MOA）仍為資料缺口，尚待透過 DrugBank API 補齊。
-
-原始核准適應症亦未記錄於本次 Evidence Pack 中（`original_indications` 為空陣列），TFDA 藥品查詢回傳結果數為 0，顯示此藥物在臺灣並無核准上市紀錄可供參照。
-
-由於 TxGNN 未產生任何預測適應症（`predicted_indications` 為空陣列），機轉關聯性分析與新適應症合理性評估均無法在現階段執行。
-
----
-
-## Clinical Trial Evidence
-
-目前無相關臨床試驗登錄資料。
+| Eintrag | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Keine Aufzeichnung in vorliegenden Daten |
+| Vorhergesagte neue Indikation | Keine (TxGNN erzeugte keine Vorhersageergebnisse) |
+| TxGNN-Vorhersage-Bewertung | n. z. |
+| Evidenzstufe | L5 (nur Modellebene, keine tatsächlichen Untersuchungen) |
+| Taiwan-Marktstatus | ✗ Nicht vermarktet |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | **Halten** |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage angemessen?
 
-目前無相關文獻資料。
+Derzeit können detaillierte Daten zum Wirkungsmechanismus nicht beschafft werden. Basierend auf vorliegenden Daten wurde Bosentan (DB00559) erfolgreich über die DrugBank-Abfrage aufgezeichnet, aber die Wirkungsmechanismus-Felder (MOA) sind weiterhin eine Datenlücke, die über die DrugBank-API nachgezogen werden müssen.
 
----
+Ursprüngliche Zulassungsindikationen sind ebenfalls nicht in dieser Evidence Pack aufgezeichnet (`original_indications` ist ein leeres Array), die TFDA-Datenbankabfrage ergab 0 Ergebnisse, was darauf hinweist, dass dieses Arzneimittel in Taiwan keine zugelassenen Markteinträge enthält, auf die verwiesen werden kann.
 
-## Taiwan Market Information
-
-Bosentan 目前在臺灣**Not marketed**，TFDA 查詢結果顯示無任何藥品許可證記錄（查詢日期：2026-03-29，查詢結果數：0）。
+Da TxGNN keine Vorhersageindikationen erzeugt hat (`predicted_indications` ist ein leeres Array), können weder die Wirkungsmechanismus-Assoziationsanalyse noch die Bewertung der Angemessenheit neuer Indikationen in der gegenwärtigen Phase durchgeführt werden.
 
 ---
 
-## Safety Considerations
+## Klinische Studienevidenz
 
-請參閱藥品仿單之警語與禁忌事項。
-
-> **注意**：TFDA 仿單查詢雖回傳成功（`result_count: 1`），但安全性欄位（警語、禁忌）尚未解析入 Evidence Pack。此為 **Blocking 級資料缺口（DG001）**，在補齊前無法進行 S1 安全性初評。
+Derzeit sind keine zugehörigen klinischen Studiendaten vorhanden.
 
 ---
 
-## Conclusion and Next Steps
+## Literaturevidenz
 
-**Decision: Hold**
+Derzeit sind keine zugehörigen Literaturdaten vorhanden.
 
-**Rationale:**
-本 Evidence Pack 缺少 TxGNN 預測適應症、原始適應症、MOA 及安全性資料等核心欄位，現階段無法對 Bosentan 的再利用潛力進行有效評估；在主要資料缺口填補完畢前，建議暫緩推進。
+---
 
-**To proceed, the following is needed:**
+## Taiwan-Marktinformationen
 
-- **\[DG001 — Blocking\]** 解析 TFDA 仿單 PDF，提取警語（key warnings）與禁忌（contraindications），以解除 S1 安全性初評封鎖
-- **\[DG002 — High\]** 透過 DrugBank API 補齊作用機轉（MOA）資料，以支援機轉關聯性分析
-- 重新執行 TxGNN 預測流程，確認是否產生 Bosentan 的新適應症預測結果；若仍為空，需釐清原因（節點未收錄、分數過低或已被過濾）
-- 補齊原始核准適應症（`original_indications`），可從 DrugBank、EMA 或 FDA 標籤取得
-- 重新查詢 DDI 資料庫（目前查詢狀態為 `not_found`），確認是否有藥物交互作用資料
+Bosentan ist derzeit in Taiwan **nicht vermarktet**, die TFDA-Datenbankabfrage zeigt keine Arzneimittelzulassungsaufzeichnungen (Abfragedatum: 2026-03-29, Anzahl der Abfrageergebnisse: 0).
+
+---
+
+## Sicherheitsaspekte
+
+Bitte konsultieren Sie die Warnhinweise und Kontraindikationen in der Produktmonographie.
+
+> **Hinweis**: Obwohl die TFDA-Monographie-Abfrage erfolgreich zurückgegeben wurde (`result_count: 1`), wurden die Sicherheitsfelder (Warnhinweise, Kontraindikationen) noch nicht in die Evidence Pack geparst. Dies ist eine **Datenlücke auf Blocking-Ebene (DG001)**, die die S1-Sicherheitsbewertung blockiert und kann nicht durchgeführt werden, bis dies behoben ist.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Halten**
+
+**Begründung:**
+Diese Evidence Pack weist wichtige fehlende Felder auf, einschließlich TxGNN-Vorhersageindikationen, ursprünglicher Indikationen, MOA und Sicherheitsdaten, daher kann die Repositioning-Eignung von Bosentan in der gegenwärtigen Phase nicht wirksam bewertet werden; es wird empfohlen, bis zur Füllung wichtiger Datenlücken zu warten.
+
+**Zum Fortfahren wird Folgendes benötigt:**
+
+- **\[DG001 — Kritisch\]** TFDA-Monographie-PDF parsen, um Warnhinweise (key warnings) und Kontraindikationen (contraindications) zu extrahieren, um die S1-Sicherheitsbewertungssperre aufzuheben
+- **\[DG002 — Hoch\]** Wirkungsmechanismus-Daten (MOA) über DrugBank API nachziehen, um die Wirkungsmechanismus-Assoziationsanalyse zu unterstützen
+- Führen Sie den TxGNN-Vorhersageprozess erneut aus, um zu bestätigen, ob neue Indikationsvorhersageergebnisse für Bosentan erzeugt werden; falls weiterhin leer, müssen die Gründe geklärt werden (Knoten nicht erfasst, Bewertung zu niedrig oder bereits gefiltert)
+- Ursprüngliche Zulassungsindikationen (`original_indications`) nachziehen, abrufbar von DrugBank, EMA oder FDA-Etiketten
+- DDI-Datenbank erneut abfragen (aktueller Abfragestatus: `not_found`), um zu bestätigen, ob Arzneimittelwechselwirkungsdaten vorhanden sind
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -29,67 +29,64 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-Using the TxGNN drug-repurposing report template to generate a structured evaluation for insulin glargine. No skill invocation needed — this is direct content generation per the provided prompt spec, and the source data is limited (title uses `predicted_indications[0]`, which happens to be the weakest-evidence candidate).
+# Insulin Glargin: Von Diabetes mellitus zu Autoimmun-Oophoritis
 
----
+## Zusammenfassung in einem Satz
 
-# Insulin Glargine: From Diabetes Mellitus to Autoimmune Oophoritis
+> Insulin Glargin ist ein lang wirksames Basalinsulin-Analogon, das in der Diabetesbehandlung etabliert ist.
+> Die Top-Vorhersage des TxGNN-Modells ist **Autoimmun-Oophoritis**,
+> aber dieser Kandidat hat derzeit **keine unterstützenden klinischen Studien** und **keine unterstützende Literatur** — die Assoziation wird im Evidence Pack selbst als indirekt (durch Komorbiditäten bedingt) und nicht mechanistisch gekennzeichnet.
 
-## One-Sentence Summary
+## Schnellübersicht
 
-> Insulin glargine is a long-acting basal insulin analogue established for glycaemic control in diabetes mellitus.
-> The TxGNN model's top-ranked prediction is **Autoimmune Oophoritis**,
-> but this candidate currently has **no supporting clinical trials** and **no supporting literature** — the association is flagged in the evidence pack itself as indirect (comorbidity-driven) rather than mechanistic.
-
-## Quick Overview
-
-| Item | Content |
+| Posten | Inhalt |
 |------|------|
-| Original Indication | Diabetes mellitus (established clinical use; not itemized as regulatory license text in this evidence pack) |
-| Predicted New Indication | Autoimmune Oophoritis |
-| TxGNN Prediction Score | 99.88% (rank 1986 of model output) |
+| Ursprüngliche Indikation | Diabetes mellitus (etablierte klinische Anwendung; nicht als regulatorischer Lizenztext in diesem Evidence Pack aufgeführt) |
+| Vorhergesagte neue Indikation | Autoimmun-Oophoritis |
+| TxGNN-Vorhersage-Punktzahl | 99.88% (Rang 1986 der Modellausgabe) |
 | Evidence Level | L5 |
-| Germany Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Marktstatus Deutschland | Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Abwarten |
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage begründet?
 
-Currently, detailed mechanism of action data is not available for insulin glargine in this evidence pack. Based on known information, insulin glargine is a long-acting basal insulin analogue used for glycaemic control in diabetes mellitus; its efficacy for that use is well established, but no MOA record was returned here to support a mechanistic case for autoimmune oophoritis.
+Derzeit sind detaillierte Wirkmechanismus-Daten für Insulin Glargin in diesem Evidence Pack nicht verfügbar. Basierend auf bekannten Informationen ist Insulin Glargin ein lang wirksames Basalinsulin-Analogon, das zur glykämischen Kontrolle bei Diabetes mellitus verwendet wird; seine Wirksamkeit für diese Anwendung ist gut etabliert, aber es wurde hier keine MOA-Aufzeichnung zurückgegeben, um einen mechanistischen Fall für Autoimmun-Oophoritis zu unterstützen.
 
-The evidence pack's own rationale for this candidate states the link is likely mediated through **autoimmune polyglandular syndrome (APS)**, where type 1 diabetes and autoimmune oophoritis can co-occur in the same patient as separate autoimmune conditions — not because insulin glargine treats the ovarian autoimmune process itself. In other words, the model may be picking up a *comorbidity signal* (patients who have both conditions) rather than a *causal treatment relationship*.
+Die Begründung des Evidence Packs selbst für diesen Kandidaten besagt, dass die Verbindung wahrscheinlich durch das **Autoimmune Polyendokrine Syndrom (APS)** vermittelt wird, bei dem Typ-1-Diabetes und Autoimmun-Oophoritis beim selben Patienten als separate Autoimmunerkrankungen auftreten können — nicht, weil Insulin Glargin den ovarialen Autoimmunprozess selbst behandelt. Mit anderen Worten: Das Modell könnte ein *Komorbiditätssignal* (Patienten, die beide Zustände aufweisen) erfassen statt einer *kausalen Behandlungsbeziehung*.
 
-Given this, the mechanism is explicitly labeled as indirect with no direct evidence, and no clinical trials or literature currently exist to corroborate it. This is a textbook case where a high TxGNN score should not be read as a validated pharmacological hypothesis without further mechanistic or clinical investigation.
+Vor diesem Hintergrund wird der Mechanismus explizit als indirekt ohne direkte Nachweise gekennzeichnet, und derzeit existieren keine klinischen Studien oder Literatur, um dies zu bestätigen. Dies ist ein Lehrbuchbeispiel dafür, dass eine hohe TxGNN-Punktzahl nicht als validierte pharmakologische Hypothese ohne weitere mechanistische oder klinische Untersuchung interpretiert werden sollte.
 
-## Clinical Trial Evidence
+## Evidenz aus klinischen Studien
 
-Currently no related clinical trials registered
+Derzeit keine verwandten klinischen Studien registriert
 
-## Literature Evidence
+## Literaturbeweise
 
-Currently no related literature available
+Derzeit keine verwandte Literatur verfügbar
 
-## Germany Market Information
+## Marktinformationen Deutschland
 
-No marketing authorizations are on record in this evidence pack (market status: Not marketed; total licenses: 0).
+In diesem Evidence Pack sind keine Marktgenehmigungen erfasst (Marktstatus: Nicht vermarktet; Gesamtzahl der Lizenzen: 0).
 
-## Safety Considerations
+## Sicherheitsaspekte
 
-Please refer to the package insert for safety information.
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
 
-## Conclusion and Next Steps
+## Schlussfolgerung und nächste Schritte
 
-**Decision: Hold**
+**Entscheidung: Abwarten**
 
-**Rationale:**
-- The top-ranked candidate (autoimmune oophoritis) is an L5 prediction — model output only, with zero clinical trials and zero literature support, and the evidence pack itself flags the mechanistic link as comorbidity-confounded rather than causal.
-- Among the other 9 candidates reviewed, only **pancreatic agenesis** (rank 6) reaches L3 evidence, but its literature is largely general insulin-therapy background rather than disease-specific studies, and the "repurposing" is really standard replacement therapy for insulin-deficient states — not a novel mechanistic use. Two other candidates (drug-induced localized lipodystrophy, pressure-induced localized lipoatrophy) carry an explicit reversed-causality warning: insulin injection is a *known cause* of localized lipodystrophy, not a treatment for it, and should be treated as likely false positives rather than pursued.
+**Begründung:**
+- Der Top-Kandidat (Autoimmun-Oophoritis) ist eine L5-Vorhersage — nur Modellausgabe, ohne klinische Studien und ohne Literaturunterstützung, und das Evidence Pack selbst kennzeichnet die mechanistische Verbindung als durch Komorbiditäten konfundiert statt kausal.
+- Unter den anderen 9 überprüften Kandidaten erreicht nur **Bauchspeicheldrüsenagenese** (Rang 6) L3-Evidenz, aber die Literatur ist größtenteils allgemeiner Insulintherapie-Hintergrund statt krankheitsspezifischer Studien, und die „Repurposing" ist wirklich Standardersatztherapie für insulindefiziente Zustände — nicht eine neuartige mechanistische Anwendung. Zwei weitere Kandidaten (medikamenteninduzierte lokalisierte Lipodystrophie, druckinduzierte lokalisierte Lipoatrophie) tragen eine explizite Warnung zur umgekehrten Kausalität: Insulininjektion ist eine *bekannte Ursache* für lokalisierte Lipodystrophie, nicht eine Behandlung dafür, und sollten als wahrscheinlich falsch-positive Ergebnisse behandelt werden, statt verfolgt zu werden.
 
-**To proceed, the following is needed:**
-- Insulin glargine's original MOA record (DG002, High severity — currently a data gap)
-- TFDA/regulatory label warnings and contraindications (DG001, Blocking severity — currently a data gap)
-- A targeted literature/trial search specifically on insulin glargine and autoimmune oophoritis (or APS-related ovarian autoimmunity) to test the comorbidity-vs-causation hypothesis
-- Clarification of insulin glargine's original indication text and any regulatory licensing status, which are both currently empty in this evidence pack
+**Um fortzufahren, wird Folgendes benötigt:**
+- Insulin Glargines ursprüngliche MOA-Aufzeichnung (DG002, Hoher Schweregrad — derzeit eine Datenlücke)
+- TFDA/behördliche Etikettwarnungen und Kontraindikationen (DG001, Blockierungsschweregrad — derzeit eine Datenlücke)
+- Eine gezielte Literatur-/Studiensuche speziell zu Insulin Glargin und Autoimmun-Oophoritis (oder APS-bezogene ovariale Autoimmunität), um die Hypothese Komorbidität vs. Kausalität zu testen
+- Klarstellung von Insulin Glargines ursprünglichem Indikationstext und allen regulatorischen Lizenzierungsstatus, die beide derzeit in diesem Evidence Pack leer sind
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

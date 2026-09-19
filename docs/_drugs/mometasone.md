@@ -29,77 +29,78 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Mometasone: From Topical Corticosteroid Therapy to Primary Cutaneous T-Cell Lymphoma
+# Mometason: Von der topischen Kortikosteroidtherapie zum primären kutanen T-Zell-Lymphom
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Mometasone is a corticosteroid; its specific original indication is not detailed in the current evidence pack (regulatory license data unavailable). The TxGNN model predicts potential effectiveness for **Primary Cutaneous T-Cell Lymphoma**, but this direction is currently supported only by **0 clinical trials** and **2 case-report-level publications**, neither of which directly evaluates mometasone in this disease.
+> Mometason ist ein Kortikosteroid; seine spezifische ursprüngliche Indikation wird im aktuellen Evidence Package nicht ausführlich dargelegt (Daten zur behördlichen Zulassung nicht verfügbar). Das TxGNN-Modell sagt potenzielle Wirksamkeit gegen **primäres kutanes T-Zell-Lymphom** voraus, aber diese Richtung wird derzeit nur durch **0 klinische Studien** und **2 Publikationen auf Fall-Bericht-Ebene** unterstützt, von denen keine die Wirksamkeit von Mometason in dieser Erkrankung direkt bewertet.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Punkt | Angabe |
 |------|------|
-| Original Indication | Not available in evidence pack (no license/indication records) |
-| Predicted New Indication | Primary Cutaneous T-Cell Lymphoma |
-| TxGNN Prediction Score | 99.36% |
-| Evidence Level | L5 |
-| Germany Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | Nicht im Evidence Package verfügbar (keine Zulassungs-/Indikationsdaten vorhanden) |
+| Vorhergesagte neue Indikation | Primäres kutanes T-Zell-Lymphom |
+| TxGNN-Vorhersage-Score | 99.36% |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Abwartend |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage sinnvoll?
 
-Currently, detailed mechanism of action data is not available. Based on known pharmacology, mometasone is a **topical corticosteroid**; its efficacy relies on general anti-inflammatory and immunosuppressive activity rather than a disease-specific target.
+Derzeit sind detaillierte Daten zum Wirkmechanismus nicht verfügbar. Basierend auf bekannter Pharmakologie ist Mometason ein **topisches Kortikosteroid**; seine Wirksamkeit beruht auf allgemeiner entzündungshemmender und immunsuppressiver Aktivität statt auf einem krankheitsspezifischen Ziel.
 
-The repurposing rationale here is mechanistic, not evidentiary: topical corticosteroids are listed in some clinical guidelines (e.g., NCCN) as a skin-directed supportive option for early-stage cutaneous T-cell lymphoma/mycosis fungoides, based on their general anti-inflammatory effect and ability to induce T-cell apoptosis. However, this biological plausibility is **not confirmed by the literature actually retrieved for this candidate** — one publication concerns a different drug (tapinarof, not mometasone) treating a different, non-malignant condition (cutaneous pseudolymphoma), and the other is a pediatric mycosis fungoides case report that does not evaluate mometasone as treatment at all.
+Die Begründung für die Neuindikation hier ist mechanistisch, nicht auf Evidenz basiert: Topische Kortikosteroide sind in einigen klinischen Leitlinien (z.B. NCCN) als hautgerichtete unterstützende Option für frühes kutanes T-Zell-Lymphom/Mykosis fungoides aufgeführt, basierend auf ihrer allgemeinen entzündungshemmenden Wirkung und Fähigkeit, T-Zell-Apoptose auszulösen. Diese biologische Plausibilität wird jedoch durch die tatsächlich für diesen Kandidaten abgerufene Literatur nicht bestätigt — eine Veröffentlichung befasst sich mit einem anderen Arzneimittel (Tapinarof, nicht Mometason), das eine andere, nicht-maligne Erkrankung behandelt (kutanes Pseudolymphom), und die andere ist ein pädiatrischer Mykosis-fungoides-Fallbericht, der Mometason als Behandlung überhaupt nicht bewertet.
 
-In short, the prediction rests on class-level plausibility (corticosteroids as supportive skin-directed therapy in CTCL) rather than on direct clinical or trial evidence for mometasone in this indication.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Kurz gesagt, die Vorhersage beruht auf Plausibilität auf Klassenbasis (Kortikosteroide als unterstützende hautgerichtete Therapie bei CTCL) anstatt auf direkter klinischer oder Studien-Evidenz für Mometason in dieser Indikation.
 
 ---
 
-## Literature Evidence
+## Evidenz aus klinischen Studien
 
-| PMID | Year | Type | Journal | Key Findings |
+Derzeit keine damit verbundenen klinischen Studien registriert.
+
+---
+
+## Literatur-Evidenz
+
+| PMID | Jahr | Typ | Journal | Wichtigste Erkenntnisse |
 |------|-----|------|------|---------|
-| [40821495](https://pubmed.ncbi.nlm.nih.gov/40821495/) | 2025 | Case Report | Proceedings (Baylor University Medical Center) | Cutaneous pseudolymphoma (not true CTCL) unresponsive to mometasone and tacrolimus; drug used but for a mimicking, non-malignant condition |
-| [25442255](https://pubmed.ncbi.nlm.nih.gov/25442255/) | 2015 | Case Report | Journal of Cutaneous Pathology | Pediatric CD8+CD56+ mycosis fungoides case describing immunophenotype; does not evaluate mometasone treatment |
+| [40821495](https://pubmed.ncbi.nlm.nih.gov/40821495/) | 2025 | Fallbericht | Proceedings (Baylor University Medical Center) | Kutanes Pseudolymphom (nicht echtes CTCL) unempfindlich gegenüber Mometason und Tacrolimus; Arzneimittel verwendet, aber für eine nachahmende, nicht-maligne Erkrankung |
+| [25442255](https://pubmed.ncbi.nlm.nih.gov/25442255/) | 2015 | Fallbericht | Journal of Cutaneous Pathology | Pädiatrischer CD8+CD56+ Mykosis-fungoides-Fall, der den Immunphänotyp beschreibt; bewertet nicht die Mometason-Behandlung |
 
 ---
 
-## Germany Market Information
+## Marktinformationen für Deutschland
 
-Currently no marketing authorization records available (market status: not marketed; 0 licenses on file).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+Derzeit keine Zulassungsunterlagen verfügbar (Marktstatus: nicht vermarktet; 0 Lizenzen in den Unterlagen).
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsaspekte
 
-**Decision: Hold**
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
 
-**Rationale:**
-Evidence is limited to model prediction (L5) with no clinical trials and only two case reports, neither of which provides direct evidence of mometasone use in primary cutaneous T-cell lymphoma. The mechanistic argument (corticosteroids as skin-directed supportive therapy in CTCL guidelines) is plausible but unconfirmed by the retrieved literature.
+---
 
-**To proceed, the following is needed:**
-- Original indication and approved-label data for mometasone (currently missing — DG001)
-- Detailed mechanism of action data from DrugBank (currently missing — DG002)
-- TFDA/German (BfArM) label warnings and contraindications for S1 safety screening
-- Literature or trial evidence directly evaluating mometasone (not other corticosteroids/agents) in confirmed CTCL/mycosis fungoides patients
+## Fazit und Nächste Schritte
+
+**Entscheidung: Abwartend**
+
+**Begründung:**
+Die Evidenz ist auf Modellvorhersage (L5) begrenzt, ohne klinische Studien und nur zwei Fallberichte, von denen keiner direkte Evidenz für die Anwendung von Mometason beim primären kutanen T-Zell-Lymphom liefert. Das mechanistische Argument (Kortikosteroide als hautgerichtete unterstützende Therapie in CTCL-Leitlinien) ist plausibel, aber durch die abgerufene Literatur nicht bestätigt.
+
+**Um fortzufahren, wird Folgendes benötigt:**
+- Ursprüngliche Indikation und zugelassene Etikettendaten für Mometason (derzeit fehlen — DG001)
+- Detaillierte Wirkmechanismus-Daten aus DrugBank (derzeit fehlen — DG002)
+- TFDA/Deutsche (BfArM) Etikettenwarnungen und Kontraindikationen für S1-Sicherheitsscreening
+- Literatur- oder Studien-Evidenz, die direkt Mometason (nicht andere Kortikosteroide/Wirkstoffe) bei bestätigten CTCL-/Mykosis-fungoides-Patienten bewertet
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

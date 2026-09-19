@@ -29,96 +29,97 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Vismodegib: From Basal Cell Carcinoma to Medulloblastoma with Extensive Nodularity
+# Vismodegib: Vom Basalzellkarzinom zum Medulloblastom mit ausgedehnter Nodularität
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Vismodegib is a first-in-class Hedgehog (Hh) pathway inhibitor originally developed for **basal cell carcinoma (BCC)**. The TxGNN model predicts it may also be effective for **medulloblastoma with extensive nodularity** (a SHH-activated pediatric brain tumour subtype), with a very high model confidence of **99.93%**. However, this evidence pack currently contains **0 clinical trials and 0 publications** specifically linked to this predicted indication — the model's own rationale flags this as a likely **data collection gap** rather than a true absence of evidence, since vismodegib has been studied in SHH-driven medulloblastoma in the real world.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Basal Cell Carcinoma (BCC) — confirmed via literature in this evidence pack (PMID 22653209, PMID 24756807); not captured in `taiwan_regulatory.licenses` because the drug is not marketed in Germany |
-| Predicted New Indication | Medulloblastoma with Extensive Nodularity |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L5 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Vismodegib ist ein First-in-Class-Inhibitor des Hedgehog- (Hh-) Signalwegs, der ursprünglich für das **Basalzellkarzinom (BZK)** entwickelt wurde. Das TxGNN-Modell sagt voraus, dass es auch wirksam sein könnte für das **Medulloblastom mit ausgedehnter Nodularität** (ein SHH-aktiviertes pädiatrisches Hirntumor-Subtyp), mit sehr hohem Modellvertrauen von **99.93%**. Allerdings enthält dieses Evidenzbündel derzeit **0 klinische Studien und 0 Veröffentlichungen**, die spezifisch mit dieser vorhergesagten Indikation verknüpft sind – die Rationale des Modells selbst kennzeichnet dies als wahrscheinliche **Datenlücke** statt als wahre Evidenzabsenz, da Vismodegib in der realen Welt bei SHH-getriebenen Medulloblastomen untersucht wurde.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-`drug.original_moa` is marked as a data gap in DrugBank (DG002). However, literature within this evidence pack (PMID 22653209, *Nature Reviews Drug Discovery*; PMID 24756807) independently confirms the mechanism: vismodegib is an orally bioavailable small-molecule antagonist of **Smoothened (SMO)**, a key transmembrane component of the Hedgehog signalling pathway. By blocking SMO, it prevents downstream activation of GLI transcription factors, suppressing pathway-driven proliferation.
-
-Basal cell carcinoma and SHH-activated medulloblastoma are mechanistically closely related: both are canonically driven by loss-of-function mutations in **PTCH1** or gain-of-function mutations in **SMO**, leading to constitutive Hedgehog pathway activation. In fact, PMID 24756807 explicitly states that "dysregulated Hh signalling results in uncontrolled proliferation in basal cell carcinoma and has also been found present in medulloblastoma," directly supporting the biological plausibility of this prediction even though it is attached to a different disease entry in this dataset (rank 9, "skin cancer").
-
-Given this shared driver mutation biology, SMO inhibition is mechanistically a rational treatment strategy for the SHH-activated subtype of medulloblastoma. The absence of trial/literature records specifically indexed to "medulloblastoma with extensive nodularity" in this evidence pack is most plausibly a **data collection gap** — a hypothesis the TxGNN rationale itself raises — rather than a true absence of scientific interest, and should be manually verified against ClinicalTrials.gov and PubMed before any decision is finalized.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-*Note: This applies specifically to the "medulloblastoma with extensive nodularity" entry in this evidence pack. The evidence pack's own rationale flags this as a likely data gap given known real-world investigation of vismodegib in SHH-driven medulloblastoma.*
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Basalzellkarzinom (BZK) – bestätigt durch Literatur in diesem Evidenzbündel (PMID 22653209, PMID 24756807); nicht erfasst in `taiwan_regulatory.licenses`, da das Arzneimittel in Deutschland nicht zugelassen ist |
+| Vorhergesagte neue Indikation | Medulloblastom mit ausgedehnter Nodularität |
+| TxGNN-Vorhersage-Score | 99.93% |
+| Evidenz-Level | L5 |
+| Marktstatus Deutschland | ✗ Nicht zugelassen |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Abwarten |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage angemessen?
 
-Currently no related literature available.
+`drug.original_moa` ist als Datenlücke in DrugBank gekennzeichnet (DG002). Allerdings bestätigt die Literatur in diesem Evidenzbündel (PMID 22653209, *Nature Reviews Drug Discovery*; PMID 24756807) unabhängig den Wirkmechanismus: Vismodegib ist ein oral bioverfügbarer niedermolekularer Antagonist von **Smoothened (SMO)**, einer Schlüsselkomponente der transmembranalen Hedgehog-Signalisierung. Durch die Blockierung von SMO verhindert es die nachgelagerte Aktivierung von GLI-Transkriptionsfaktoren und unterdrückt die signalweggesteuerte Proliferation.
 
----
+Das Basalzellkarzinom und das SHH-aktivierte Medulloblastom sind mechanistisch eng verwandt: beide sind kanonisch getrieben durch Funktionsverlustmutationen in **PTCH1** oder Funktionsgewinnmutationen in **SMO**, was zu konstitutiver Hedgehog-Signalisierung führt. In der Tat erklärt PMID 24756807 explizit, dass „dysregulierte Hh-Signalisierung zu unkontrollierter Proliferation beim Basalzellkarzinom führt und auch beim Medulloblastom nachgewiesen wurde", was die biologische Plausibilität dieser Vorhersage direkt unterstützt, auch wenn sie an einen anderen Krankheitseintrag in diesem Datensatz gebunden ist (Rang 9, „Hautkrebs").
 
-## Germany Market Information
-
-Vismodegib is **not currently marketed in Germany** (0 authorizations on record; `market_status: Not marketed`). No BfArM licenses or approved indication texts are available in this evidence pack.
+Angesichts dieser gemeinsamen Treibermutations-Biologie ist SMO-Hemmung eine mechanistisch rationale Behandlungsstrategie für den SHH-aktivierten Subtyp des Medulloblastoms. Die Abwesenheit von Studien-/Literatureinträgen, die speziell dem „Medulloblastom mit ausgedehnter Nodularität" in diesem Evidenzbündel zugeordnet sind, ist höchstwahrscheinlich eine **Datenlücke** – eine Hypothese, die die TxGNN-Rationale selbst aufwirft – statt einer echten Evidenzabsenz, und sollte vor jeder endgültigen Entscheidung manuell anhand von ClinicalTrials.gov und PubMed überprüft werden.
 
 ---
 
-## Cytotoxicity
+## Evidenz aus klinischen Studien
 
-Vismodegib is an antineoplastic agent (original indication: basal cell carcinoma; MOA: Hedgehog/SMO pathway inhibitor).
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (Hedgehog pathway / Smoothened [SMO] inhibitor) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
-
-*No toxicity/safety data is available in this evidence pack; the TFDA label (warnings/contraindications) is flagged as a Blocking data gap (DG001) preventing formal S1 safety assessment.*
+*Anmerkung: Dies bezieht sich speziell auf den Eintrag „Medulloblastom mit ausgedehnter Nodularität" in diesem Evidenzbündel. Die Rationale des Evidenzbündels selbst kennzeichnet dies als wahrscheinliche Datenlücke, da eine bekannte Untersuchung von Vismodegib bei SHH-getriebenen Medulloblastomen erfolgte.*
 
 ---
 
-## Safety Considerations
+## Literaturische Evidenz
 
-Please refer to the package insert for safety information.
-
-*Key warnings, contraindications, and drug-drug interaction data are all recorded as data gaps in this evidence pack. DG001 (TFDA label warnings/contraindications) is classified as a **Blocking** severity gap — it must be resolved before this candidate can proceed to formal safety evaluation (S1).*
+Derzeit ist keine zugehörige Literatur verfügbar.
 
 ---
 
-## Conclusion and Next Steps
+## Marktinformation für Deutschland
 
-**Decision: Hold**
+Vismodegib ist derzeit **nicht in Deutschland zugelassen** (0 Zulassungen auf Rekordbasis; `market_status: Not marketed`). Keine BfArM-Lizenzen oder genehmigten Indikationstexte stehen in diesem Evidenzbündel zur Verfügung.
+
+---
+
+## Zytotoxizität
+
+Vismodegib ist ein antineoplastisches Arzneimittel (ursprüngliche Indikation: Basalzellkarzinom; Wirkmechanismus: Hedgehog-/SMO-Signalweg-Inhibitor).
+
+| Element | Inhalt |
+|---------|--------|
+| Zytotoxizitäts-Klassifizierung | Zielgerichtete Therapie (Hedgehog-Signalweg / Smoothened [SMO] Inhibitor) |
+| Risiko für Knochenmarksuppression | Bitte beachten Sie die Warnungen und Vorsichtsmaßnahmen der Packungsbeilage |
+| Emetogenitäts-Klassifizierung | Bitte beachten Sie die Warnungen und Vorsichtsmaßnahmen der Packungsbeilage |
+| Überwachungspunkte | Bitte beachten Sie die Warnungen und Vorsichtsmaßnahmen der Packungsbeilage |
+| Handhabungsschutz | Bitte beachten Sie die Warnungen und Vorsichtsmaßnahmen der Packungsbeilage |
+
+*Keine Toxizitäts-/Sicherheitsdaten stehen in diesem Evidenzbündel zur Verfügung; das TFDA-Etikett (Warnungen/Kontraindikationen) ist als blockierende Datenlücke (DG001) gekennzeichnet, die eine formale S1-Sicherheitsbewertung verhindert.*
+
+---
+
+## Sicherheitsüberlegungen
+
+Bitte beachten Sie die Warnungen und Vorsichtsmaßnahmen der Packungsbeilage.
+
+*Schlüsselwarnungen, Kontraindikationen und Arzneimittelwechselwirkungsdaten sind alle als Datenlücken in diesem Evidenzbündel verzeichnet. DG001 (TFDA-Etikett Warnungen/Kontraindikationen) ist als **blockierende** Datenlücke klassifiziert – sie muss vor der formalen Sicherheitsbewertung (S1) dieses Kandidaten behoben werden.*
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Abwarten**
 
 **Rationale:**
-Although the TxGNN prediction score is very high (99.93%) and the mechanistic rationale (shared PTCH1/SMO pathway biology between BCC and SHH-activated medulloblastoma) is scientifically sound, this evidence pack currently has **zero clinical trials and zero literature** directly supporting the "medulloblastoma with extensive nodularity" prediction, and a **Blocking** safety data gap (DG001) prevents any S1 assessment. Evidence level is L5 (model prediction only).
+Obwohl die TxGNN-Vorhersage-Score sehr hoch ist (99.93%) und die mechanistische Rationale (gemeinsame PTCH1/SMO-Signalweg-Biologie zwischen BZK und SHH-aktiviertem Medulloblastom) wissenschaftlich stichhaltig ist, enthält dieses Evidenzbündel derzeit **null klinische Studien und null Literatur**, die direkt die Vorhersage „Medulloblastom mit ausgedehnter Nodularität" unterstützen, und eine **blockierende** Sicherheitsdatenlücke (DG001) verhindert jede S1-Bewertung. Evidenz-Level ist L5 (reine Modellvorhersage).
 
-**To proceed, the following is needed:**
-- Manual search of ClinicalTrials.gov and PubMed for "vismodegib" + "SHH medulloblastoma" / "SHH-activated medulloblastoma" to close the suspected data collection gap
-- TFDA/EU label PDF for warnings, contraindications, and dosing (remediation for DG001)
-- DrugBank MOA data confirmation (remediation for DG002)
-- Confirmation of vismodegib's actual German/EU regulatory status, since it is recorded as unmarketed with 0 authorizations here despite being an approved product (Erivedge®) elsewhere
+**Um fortzufahren, ist Folgendes erforderlich:**
+- Manuelle Suche in ClinicalTrials.gov und PubMed nach „vismodegib" + „SHH medulloblastoma" / „SHH-aktiviertes Medulloblastom", um die vermutete Datenlücke zu schließen
+- TFDA/EU-Etikett-PDF für Warnungen, Kontraindikationen und Dosierung (Behebung von DG001)
+- DrugBank-MOA-Datenbestätigung (Behebung von DG002)
+- Bestätigung des tatsächlichen deutschen/EU-Regulierungsstatus von Vismodegib, da es hier als nicht zugelassen mit 0 Zulassungen verzeichnet ist, obwohl es ein zugelassenes Produkt (Erivedge®) anderswo ist
 
-**Note for reviewers:** the same evidence pack contains a separate, much better-evidenced entry — "skin cancer" (rank 9, 23 clinical trials incl. multiple completed Phase 2 BCC trials, 20 publications) — which appears to correspond to vismodegib's already-known original indication (BCC) rather than a novel repurposing candidate. This should be excluded from repurposing consideration but confirms the drug/evidence linkage in this dataset is functioning correctly for indications with real coverage.
+**Anmerkung für Bewerter:** Das gleiche Evidenzbündel enthält einen separaten, viel besser belegten Eintrag – „Hautkrebs" (Rang 9, 23 klinische Studien inkl. mehrerer abgeschlossener Phase-2-BZK-Studien, 20 Veröffentlichungen) – der der bereits bekannten ursprünglichen Indikation von Vismodegib (BZK) statt eines neuartigen Repurposing-Kandidaten zu entsprechen scheint. Dieser sollte von der Repurposing-Überlegung ausgeschlossen werden, bestätigt aber, dass die Arzneimittel-/Evidenzbindung in diesem Datensatz für Indikationen mit echter Abdeckung korrekt funktioniert.
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -29,89 +29,90 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Risperidone: Evaluation Pending — No Repurposing Prediction Available
+# Risperidon: Bewertung ausstehend — Keine Umwidmungsprognose verfügbar
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Risperidone (DB00734) is a well-known atypical antipsychotic commonly used for schizophrenia and related conditions. However, the current Evidence Pack contains **no TxGNN-predicted repurposing indications**, no mechanism of action data, and no safety records — making a substantive repurposing evaluation impossible at this stage. **Immediate data remediation is required before this candidate can advance.**
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not recorded in this Evidence Pack |
-| Predicted New Indication | N/A — No predictions available |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | L5 (model prediction only — currently not even reached) |
-| Taiwan Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+Risperidon (DB00734) ist ein bekanntes atypisches Antipsychotikum, das häufig bei Schizophrenie und verwandten Erkrankungen eingesetzt wird. Das aktuelle Evidence Pack enthält jedoch **keine von TxGNN vorhergesagten Umwidmungsindikationen**, keine Wirkmechanismus-Daten und keine Sicherheitsdatensätze – was eine aussagekräftige Umwidmungsbewertung in diesem Stadium unmöglich macht. **Sofortige Datenkorrekturen sind erforderlich, bevor dieser Kandidat voranschreiten kann.**
 
 ---
 
-## Why No Evaluation Can Be Performed
+## Schnellübersicht
 
-The TxGNN prediction pipeline returned **zero predicted indications** for Risperidone in this Evidence Pack version (v4, data cutoff 2026-04-20). This is an upstream pipeline issue rather than a reflection of Risperidone's clinical potential.
-
-Two blocking data gaps have been formally identified:
-
-| Gap ID | Category | Missing Item | Severity | Impact |
-|--------|----------|--------------|----------|--------|
-| DG001 | Drug Level | Package insert warnings / contraindications | **Blocking** | Cannot perform S1 safety screening |
-| DG002 | Drug Level | Mechanism of action (MOA) | High | Cannot perform mechanistic relevance analysis |
-
-Until the TxGNN pipeline produces at least one predicted indication, and until DG001 is resolved, no downstream evaluation (mechanism analysis, clinical trial mapping, or safety profiling) can proceed.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for this candidate.
-
-*(Prerequisite: TxGNN predicted indication must be available before trial mapping is performed.)*
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | In diesem Evidence Pack nicht dokumentiert |
+| Vorhergesagte neue Indikation | K.A. — Keine Vorhersagen verfügbar |
+| TxGNN-Prognosescore | K.A. |
+| Evidenzstufe | L5 (nur Modellvorhersage — derzeit nicht einmal erreicht) |
+| Status auf taiwanesischem Markt | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | **Halten** |
 
 ---
 
-## Literature Evidence
+## Warum keine Bewertung durchgeführt werden kann
 
-Currently no related literature available.
+Die TxGNN-Prognosepipeline hat **null vorhergesagte Indikationen** für Risperidon in dieser Evidence-Pack-Version (v4, Datenstand 2026-04-20) zurückgegeben. Dies ist ein Problem in der vorgelagerten Pipeline und kein Ausdruck des klinischen Potenzials von Risperidon.
 
-*(Prerequisite: TxGNN predicted indication must be available before literature search is performed.)*
+Zwei kritische Datenlücken wurden formal identifiziert:
 
----
+| Lücken-ID | Kategorie | Fehlendes Element | Schweregrad | Auswirkung |
+|-----------|-----------|-------------------|-------------|-----------|
+| DG001 | Arzneimitteleben | Packungsbeilage-Warnungen / Kontraindikationen | **Blockierend** | S1-Sicherheitsscreening kann nicht durchgeführt werden |
+| DG002 | Arzneimitteleben | Wirkmechanismus (MOA) | Hoch | Analyse der mechanistischen Relevanz kann nicht durchgeführt werden |
 
-## Taiwan Market Information
-
-Risperidone has **no registered licenses** in the Taiwan market according to the current TFDA query (queried 2026-03-29, result count: 0).
-
-> Note: The TFDA package insert query (query ID 4) returned 1 result — this may indicate a package insert exists for reference purposes even without an active marketing authorization. The package insert should be retrieved and parsed to resolve DG001.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(All safety fields — key warnings, contraindications, and drug-drug interactions — returned no data in the current Evidence Pack. DDI query status: not found.)*
+Bis die TxGNN-Pipeline mindestens eine vorhergesagte Indikation erzeugt und bis DG001 gelöst ist, können keine nachgelagerten Bewertungen (Mechanismus-Analyse, Zuordnung klinischer Studien oder Sicherheitsprofilerstellung) voranschreiten.
 
 ---
 
-## Conclusion and Next Steps
+## Evidence aus klinischen Studien
 
-**Decision: Hold**
+Derzeit sind keine verwandten klinischen Studien für diesen Kandidaten registriert.
 
-**Rationale:**
-The Evidence Pack for Risperidone (v4) is structurally incomplete — no TxGNN repurposing predictions were generated, and two high-severity data gaps (DG001, DG002) block safety screening and mechanistic analysis. There is no evaluable repurposing hypothesis at this time.
+*(Voraussetzung: Eine von TxGNN vorhergesagte Indikation muss verfügbar sein, bevor die Studien-Zuordnung durchgeführt wird.)*
 
-**To proceed, the following is needed:**
+---
 
-1. **Re-run TxGNN prediction pipeline** for DB00734 and confirm at least one predicted indication is returned
-2. **Resolve DG001** — Download and parse the TFDA package insert PDF (1 document found in query log) to extract warnings and contraindications
-3. **Resolve DG002** — Query DrugBank API for Risperidone's full mechanism of action, pharmacological class, and targets
-4. **Re-run DDI query** — Current status is `not_found`; verify query parameters and retry
-5. **Re-generate Evidence Pack** (v5+) once the above data is available, then re-submit for evaluation
+## Literatur-Evidence
+
+Derzeit ist keine verwandte Literatur verfügbar.
+
+*(Voraussetzung: Eine von TxGNN vorhergesagte Indikation muss verfügbar sein, bevor die Literatursuche durchgeführt wird.)*
+
+---
+
+## Marktsituation in Taiwan
+
+Risperidon hat nach der aktuellen TFDA-Abfrage **keine registrierten Lizenzen** auf dem taiwanesischen Markt (abgefragt 2026-03-29, Ergebnisanzahl: 0).
+
+> Anmerkung: Die TFDA-Packungsbeilage-Abfrage (Abfrage-ID 4) hat 1 Ergebnis zurückgegeben – dies könnte darauf hindeuten, dass eine Packungsbeilage für Referenzzwecke vorhanden ist, auch ohne aktive Vermarktungsgenehmigung. Die Packungsbeilage sollte abgerufen und analysiert werden, um DG001 zu beheben.
+
+---
+
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+*(Alle Sicherheitsfelder – Hauptwarnungen, Kontraindikationen und Arzneimittel-Wechselwirkungen – haben im aktuellen Evidence Pack keine Daten zurückgegeben. DDI-Abfragestatus: nicht gefunden.)*
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Halten**
+
+**Begründung:**
+Das Evidence Pack für Risperidon (v4) ist strukturell unvollständig – es wurden keine TxGNN-Umwidmungsprognosen erstellt, und zwei kritische Datenlücken (DG001, DG002) blockieren das Sicherheitsscreening und die mechanistische Analyse. Es gibt derzeit keine bewertbare Umwidmungshypothese.
+
+**Zum Fortfahren ist Folgendes erforderlich:**
+
+1. **TxGNN-Prognosepipeline neu ausführen** für DB00734 und bestätigen, dass mindestens eine vorhergesagte Indikation zurückgegeben wird
+2. **DG001 beheben** — Die TFDA-Packungsbeilage-PDF (1 Dokument im Abfragelog gefunden) herunterladen und analysieren, um Warnungen und Kontraindikationen zu extrahieren
+3. **DG002 beheben** — DrugBank-API für den vollständigen Wirkmechanismus, die pharmakologische Klasse und die Ziele von Risperidon abfragen
+4. **DDI-Abfrage neu ausführen** — Der aktuelle Status ist `not_found`; Abfrageparameter überprüfen und erneut versuchen
+5. **Evidence Pack neu generieren** (v5+) sobald die obigen Daten verfügbar sind, dann erneut zur Bewertung einreichen
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -29,75 +29,76 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# DIROXIMEL FUMARATE: From Unknown Original Indication to Diabetic Cataract
+# DIROXIMEL FUMARATE: Von unbekannter Originalindikation zu Diabetischer Katarakt
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Diroximel fumarate is a fumarate ester prodrug whose original indication and mechanism of action are currently undocumented in this Evidence Pack (data gap). TxGNN predicts a possible association with **Diabetic Cataract**, but this prediction is supported by **0 clinical trials** and **0 publications**, making it a model-only signal at this stage.
+Diroximel fumarate ist ein Fumarsäureester-Prodrug, dessen Originalindikation und Wirkmechanismus derzeit in diesem Evidence Pack nicht dokumentiert sind (Datenlücke). TxGNN sagt eine mögliche Assoziation mit **Diabetischer Katarakt** voraus, aber diese Vorhersage wird durch **0 klinische Studien** und **0 Publikationen** gestützt, was sie derzeit zu einem reinen Modellsignal macht.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Element | Inhalt |
 |------|------|
-| Original Indication | Not available (no licensed indication on record) |
-| Predicted New Indication | Diabetic cataract |
-| TxGNN Prediction Score | 99.9993% |
-| Evidence Level | L5 |
-| Germany Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Originalindikation | Nicht verfügbar (keine zugelassene Indikation dokumentiert) |
+| Vorhergesagte neue Indikation | Diabetische Katarakt |
+| TxGNN-Vorhersage-Score | 99.9993% |
+| Evidenzstufe | L5 |
+| Markt-Status in Deutschland | Nicht vermarktet (Not marketed) |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Pausieren |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage angemessen?
 
-Currently, detailed mechanism of action data is not available. Based on known information, diroximel fumarate belongs to the fumarate ester class of prodrugs, but its original indication and pharmacological rationale are not recorded in this Evidence Pack, so no mechanistic link to diabetic cataract can be established.
+Derzeit sind detaillierte Wirkmechanismus-Daten nicht verfügbar. Basierend auf bekannten Informationen gehört diroximel fumarate zur Fumarsäureester-Klasse von Prodrugs, aber seine Originalindikation und pharmakologische Begründung sind in diesem Evidence Pack nicht dokumentiert, daher kann keine mechanistische Verbindung zur diabetischen Katarakt hergestellt werden.
 
-Notably, the top 10 predicted indications for this drug are all diabetes-related ocular conditions (diabetic cataract, diabetic retinopathy, various cataract subtypes) with nearly identical TxGNN scores (0.999990–0.999992). This pattern of homogeneous, non-differentiated scores across an entire disease cluster is a known signature of models linking predictions through a shared node (e.g., "diabetes" or "cataract") rather than producing drug-specific signals. Absent any independent clinical or literature evidence, this pattern should be treated as a flag for potential model over-generalization rather than a genuine repurposing hypothesis.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+Bemerkenswert ist, dass die top 10 vorhergesagten Indikationen für dieses Arzneimittel alle diabetes-bezogene okulare Erkrankungen sind (diabetische Katarakt, diabetische Retinopathie, verschiedene Katarakttypen) mit nahezu identischen TxGNN-Werten (0.999990–0.999992). Dieses Muster homogener, nicht differenzierter Werte über eine ganze Krankheitsgruppe ist eine bekannte Signatur von Modellen, die Vorhersagen durch einen gemeinsamen Knoten verknüpfen (z. B. „Diabetes" oder „Katarakt"), anstatt arzneimittelspezifische Signale zu erzeugen. Ohne unabhängige klinische oder Literaturbelege sollte dieses Muster als Flagge für potenzielle Modellüber-Generalisierung anstelle einer echten Umwidmungshypothese behandelt werden.
 
 ---
 
-## Literature Evidence
+## Evidenz klinischer Studien
 
-Currently no related literature available
-
----
-
-## Germany Market Information
-
-Diroximel fumarate is not currently marketed in Germany (Not marketed), and no authorization records are available.
+Derzeit keine zugehörigen klinischen Studien registriert
 
 ---
 
-## Safety Considerations
+## Literaturbeweise
 
-Please refer to the package insert for safety information.
-
-*(Note: Key warnings, contraindications, and drug interaction data are all marked as data gaps in the current Evidence Pack. Per DG001, TFDA/BfArM label warnings and contraindications must be obtained before any safety pre-assessment (S1) can proceed.)*
+Derzeit keine zugehörige Literatur verfügbar
 
 ---
 
-## Conclusion and Next Steps
+## Marktinformationen für Deutschland
 
-**Decision: Hold**
+Diroximel fumarate wird derzeit nicht in Deutschland vermarktet (Not marketed), und keine Zulassungsunterlagen sind verfügbar.
 
-**Rationale:**
-This candidate has zero clinical trials, zero literature support, and no mechanism-of-action data — combined with a suspicious pattern of near-identical TxGNN scores across all 10 predicted diabetes/ocular indications, suggesting the prediction may reflect shared-node clustering rather than a specific drug-disease signal. There is no evidentiary basis to advance past S0.
+---
 
-**To proceed, the following is needed:**
-- Resolve DG001 (Blocking): obtain TFDA/official label warnings and contraindications before any safety evaluation can begin
-- Resolve DG002 (High): retrieve MOA from DrugBank to enable mechanistic plausibility assessment
-- Confirm original approved indication(s) for diroximel fumarate, since none are currently on record
-- Independent literature/clinical trial search specific to diabetic cataract and diroximel fumarate (or its parent compound monomethyl fumarate) to distinguish genuine signal from model artifact
-- Manual review of TxGNN's disease-embedding structure for this drug to assess whether the diabetes/cataract cluster reflects a training-data or overfitting issue, before any indication in this cluster is progressed further
+## Sicherheitsüberlegungen
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+*(Hinweis: Wichtige Warnhinweise, Kontraindikationen und Arzneimittelwechselwirkungsdaten sind alle als Datenlücken im aktuellen Evidence Pack gekennzeichnet. Gemäß DG001 müssen TFDA/BfArM-Etikettenwarnungen und Kontraindikationen vor jeder Sicherheits-Vorbewertung (S1) eingeholt werden.)*
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Pausieren**
+
+**Begründung:**
+Dieser Kandidat hat null klinische Studien, null Literaturunterstützung und keine Wirkmechanismus-Daten — kombiniert mit einem verdächtigen Muster von nahezu identischen TxGNN-Werten über alle 10 vorhergesagten Diabetes-/Augen-Indikationen hinweg, was darauf hindeutet, dass die Vorhersage eher das Shared-Node-Clustering widerspiegelt als ein spezifisches Arzneimittel-Krankheits-Signal. Es gibt keine Evidenzbasis, um über S0 hinaus voranzugehen.
+
+**Um voranzugehen, ist Folgendes erforderlich:**
+- DG001 (Blockierend) lösen: TFDA/offizielle Etikettenwarnungen und Kontraindikationen vor jeder Sicherheitsbewertung einholen
+- DG002 (Hoch) lösen: MOA von DrugBank abrufen, um Bewertung der mechanistischen Plausibilität zu ermöglichen
+- Bestätigung der ursprünglich zugelassenen Indikation(en) für diroximel fumarate, da derzeit keine dokumentiert sind
+- Unabhängige Literatur-/klinische Studiensuche speziell zu diabetischer Katarakt und diroximel fumarate (oder ihrer Mutterverbindung Monomethylfumarat), um echtes Signal von Modell-Artefakt zu unterscheiden
+- Manuelle Überprüfung der Krankheits-Embedding-Struktur von TxGNN für dieses Arzneimittel, um zu bewerten, ob das Diabetes-/Kataraktcluster eine Trainings-Daten- oder Überanpassungsproblematik widerspiegelt, bevor eine Indikation in diesem Cluster weiter vorangetrieben wird
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

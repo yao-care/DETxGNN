@@ -29,62 +29,63 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0**
 
 </div>
 
-# Brexpiprazole: Evaluation Incomplete — No Repurposing Predictions Available
+# Brexpiprazole: Bewertung unvollständig – Keine Repurposing-Vorhersagen verfügbar
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Brexpiprazole is an atypical antipsychotic (serotonin-dopamine activity modulator) approved in multiple jurisdictions for schizophrenia and adjunctive treatment of major depressive disorder.
-The current Evidence Pack (v4) contains **no TxGNN repurposing predictions**, and two critical data gaps — MOA detail and package-insert safety information — have been flagged as Blocking/High severity, preventing a complete repurposing assessment.
-A Hold decision is recommended until the data gaps are remediated.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Schizophrenia; Major Depressive Disorder (adjunctive) |
-| Predicted New Indication | Not available — no TxGNN predictions in this Evidence Pack |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | N/A |
-| Germany Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+Brexpiprazole ist ein atypisches Antipsychotikum (Serotonin-Dopamin-Aktivitätsmodulator), das in mehreren Jurisdiktionen für Schizophrenie und die adjuvante Behandlung einer Major Depression zugelassen ist.
+Das aktuelle Evidence Pack (v4) enthält **keine TxGNN-Repurposing-Vorhersagen**, und zwei kritische Datenlücken – MOA-Details und Informationen zur Packungsbeilage-Sicherheit – wurden als Blocking/High-Schweregrad gekennzeichnet, was eine vollständige Repurposing-Bewertung verhindert.
+Eine Hold-Entscheidung wird empfohlen, bis die Datenlücken behoben sind.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-No predicted new indication is present in this Evidence Pack, so a mechanistic repurposing rationale cannot be generated at this stage.
-
-Detailed MOA data is not available in the Evidence Pack (DG002, High severity). Based on publicly available information, brexpiprazole is classified as a serotonin-dopamine activity modulator (SDAM). It acts as a partial agonist at dopamine D2/D3 and serotonin 5-HT1A receptors, and as an antagonist at 5-HT2A, adrenergic α1B, and α2C receptors — a receptor profile that distinguishes it from first-generation antipsychotics and underlies its lower extrapyramidal side-effect burden. Its efficacy in schizophrenia and MDD has been established in Phase 3 trials, and it received FDA approval for agitation associated with Alzheimer's dementia in 2023, suggesting emerging evidence for neurodegenerative indications.
-
-To produce a meaningful repurposing rationale, TxGNN predictions must first be generated, after which mechanistic links between the confirmed MOA and candidate indications can be evaluated.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Package-insert warnings and contraindications could not be extracted — flagged as DG001, Blocking severity. DDI query returned no results.)*
+| Artikel | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Schizophrenie; Major Depression (adjuvant) |
+| Vorhergesagte neue Indikation | Nicht verfügbar – keine TxGNN-Vorhersagen in diesem Evidence Pack |
+| TxGNN-Vorhersage-Score | N/A |
+| Evidenzstufe | N/A |
+| Marktstatus Deutschland | Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | **Hold** |
 
 ---
 
-## Conclusion and Next Steps
+## Warum ist diese Vorhersage angemessen?
 
-**Decision: Hold**
+Es gibt keine vorhergesagte neue Indikation in diesem Evidence Pack, daher kann eine mechanistische Repurposing-Rationale in diesem Stadium nicht generiert werden.
 
-**Rationale:**
-The Evidence Pack contains no TxGNN predictions and two unresolved data gaps of Blocking/High severity; a repurposing assessment cannot be completed without remediating these gaps first.
+Detaillierte MOA-Daten sind nicht im Evidence Pack verfügbar (DG002, High-Schweregrad). Basierend auf öffentlich verfügbaren Informationen wird Brexpiprazole als Serotonin-Dopamin-Aktivitätsmodulator (SDAM) klassifiziert. Es wirkt als partieller Agonist an Dopamin D2/D3- und Serotonin 5-HT1A-Rezeptoren und als Antagonist an 5-HT2A-, adrenergischen α1B- und α2C-Rezeptoren – ein Rezeptorprofil, das es von Antipsychotika der ersten Generation unterscheidet und seine geringere extrapyramidale Nebenwirkungslast erklärt. Seine Wirksamkeit bei Schizophrenie und MDD wurde in Phase-3-Studien nachgewiesen, und es erhielt 2023 die FDA-Zulassung für Agitiertheit im Zusammenhang mit Alzheimer-Demenz, was auf zunehmende Evidenz für neurodegenerative Indikationen hindeutet.
 
-**To proceed, the following is needed:**
+Um eine aussagekräftige Repurposing-Rationale zu erstellen, müssen zunächst TxGNN-Vorhersagen generiert werden, wonach mechanistische Zusammenhänge zwischen der bestätigten MOA und Kandidaten-Indikationen bewertet werden können.
 
-- **[DG001 — Blocking]** Download and parse the TFDA (or EMA/BfArM) package insert to extract warnings and contraindications; this must be resolved before any safety screening can begin.
-- **[DG002 — High]** Query the DrugBank API to retrieve the full MOA, pharmacodynamics, and toxicity data for DB09128.
-- **TxGNN inference** Run the TxGNN pipeline for brexpiprazole to generate predicted indication candidates; without predictions, the repurposing evaluation cannot proceed past this stage.
-- **DDI data** Re-query a drug–drug interaction database (e.g., DrugBank DDI, CREDIBLEMEDS) with the correct search parameters; the current query returned zero results.
-- **Germany (BfArM) authorization** Confirm current EMA/BfArM approval status directly, as the regulatory field reflects zero licenses.
+---
+
+## Sicherheitsaspekte
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+*(Warnhinweise und Kontraindikationen aus der Packungsbeilage konnten nicht extrahiert werden – markiert als DG001, Blocking-Schweregrad. DDI-Abfrage ergab keine Ergebnisse.)*
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Hold**
+
+**Begründung:**
+Das Evidence Pack enthält keine TxGNN-Vorhersagen und zwei ungeklärte Datenlücken mit Blocking/High-Schweregrad; eine Repurposing-Bewertung kann nicht abgeschlossen werden, ohne diese Lücken zunächst zu beheben.
+
+**Zum Fortfahren ist Folgendes erforderlich:**
+
+- **[DG001 – Blocking]** Laden Sie die Packungsbeilage der TFDA (oder EMA/BfArM) herunter und analysieren Sie diese, um Warnhinweise und Kontraindikationen zu extrahieren; dies muss behoben werden, bevor ein Sicherheits-Screening eingeleitet werden kann.
+- **[DG002 – High]** Fragen Sie die DrugBank API ab, um die vollständigen MOA-, Pharmakodynamik- und Toxizitätsdaten für DB09128 abzurufen.
+- **TxGNN-Inferenz** Führen Sie die TxGNN-Pipeline für Brexpiprazole aus, um vorhergesagte Indikationskandidaten zu generieren; ohne Vorhersagen kann die Repurposing-Bewertung in diesem Stadium nicht voranschreiten.
+- **DDI-Daten** Fragen Sie eine Datenbank für Arzneimittel-Wechselwirkungen erneut ab (z. B. DrugBank DDI, CREDIBLEMEDS) mit den korrekten Suchparametern; die aktuelle Abfrage ergab keine Ergebnisse.
+- **Deutschland (BfArM) Zulassung** Bestätigen Sie den aktuellen EMA/BfArM-Zulassungsstatus direkt, da das regulatorische Feld keine Lizenzen aufweist.
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

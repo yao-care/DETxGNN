@@ -29,56 +29,57 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# RIMEGEPANT: Repurposing Evaluation — Insufficient Data to Complete Assessment
+# RIMEGEPANT: Umwidmungsbewertung — Unzureichende Daten zum Abschluss der Bewertung
 
-## Summary
+## Zusammenfassung
 
-RIMEGEPANT (DrugBank: DB12457) is a small-molecule drug queried through the TxGNN repurposing pipeline on 2026-03-29.
-The current Evidence Pack contains **no TxGNN predicted indications**, no confirmed original indication, and no mechanism of action data.
-A full repurposing evaluation cannot be completed at this stage; this report documents the current data state and defines the minimum requirements to proceed.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not available in current Evidence Pack |
-| Predicted New Indication | No predictions returned |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | N/A — No predictions to evaluate |
-| Taiwan Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold — Critical data missing** |
+RIMEGEPANT (DrugBank: DB12457) ist ein Kleinmolekül-Wirkstoff, der am 2026-03-29 durch die TxGNN-Umwidmungs-Pipeline abgefragt wurde.
+Das aktuelle Evidence Pack enthält **keine von TxGNN vorhergesagten Indikationen**, keine bestätigte Ursprungsindikation und keine Wirkmechanismus-Daten.
+Eine vollständige Umwidmungsbewertung kann in dieser Phase nicht durchgeführt werden; dieser Bericht dokumentiert den aktuellen Datenzustand und definiert die Mindestanforderungen zum Fortfahren.
 
 ---
 
-## Taiwan Market Information
+## Kurzübersicht
 
-RIMEGEPANT currently has **no drug licenses registered in Taiwan**. There are no approved products, dosage forms, or indications on record with the TFDA as of the data cutoff (2026-04-20).
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Im aktuellen Evidence Pack nicht verfügbar |
+| Vorhergesagte neue Indikation | Keine Vorhersagen zurückgegeben |
+| TxGNN-Vorhersage-Score | N/A |
+| Evidenzstufe | N/A — Keine Vorhersagen zur Bewertung |
+| Taiwan-Marktstatus | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | **Halten — Kritische Daten fehlen** |
 
 ---
 
-## Safety Considerations
+## Taiwan-Marktinformationen
 
-Please refer to the package insert for safety information.
+RIMEGEPANT hat derzeit **keine Arzneimittellizenzen, die in Taiwan registriert sind**. Es gibt keine zugelassenen Produkte, Darreichungsformen oder Indikationen im Datensatz der TFDA zum Stichtag (2026-04-20).
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsaspekte
 
-**Decision: Hold**
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
 
-**Rationale:**
-The Evidence Pack returned zero TxGNN predictions and is missing both original indication data and mechanism of action information, making it impossible to assess repurposing rationale, evidence strength, or safety relevance at this time.
+---
 
-**To proceed, the following is needed:**
+## Schlussfolgerung und nächste Schritte
 
-- **TxGNN predictions** — Re-run the TxGNN pipeline for DB12457 and confirm that `predicted_indications` is populated before generating a full report
-- **Original indication** — Retrieve approved indication(s) from DrugBank or the FDA/EMA label (RIMEGEPANT is commercially available outside Taiwan under brand names including Nurtec ODT and Vydura)
-- **Mechanism of action** — Query DrugBank API for MOA; RIMEGEPANT is a CGRP receptor antagonist — this should be confirmable from the public DrugBank record
-- **Safety data** — Download and parse the TFDA package insert PDF to extract key warnings and contraindications (Data Gap DG001, severity: Blocking)
-- **DDI profile** — Re-query the DDI database; the current query returned `not_found`, which may reflect a data source gap rather than an absence of interactions
+**Entscheidung: Halten**
+
+**Begründung:**
+Das Evidence Pack hat keine TxGNN-Vorhersagen zurückgegeben und es fehlen sowohl die Daten zur ursprünglichen Indikation als auch die Wirkmechanismus-Informationen, was es unmöglich macht, die Umwidmungs-Begründung, die Evidenzstärke oder die Sicherheitsrelevanz zu diesem Zeitpunkt zu bewerten.
+
+**Um fortzufahren, wird folgendes benötigt:**
+
+- **TxGNN-Vorhersagen** — Führen Sie die TxGNN-Pipeline für DB12457 erneut aus und bestätigen Sie, dass `predicted_indications` mit Daten gefüllt ist, bevor Sie einen vollständigen Bericht generieren
+- **Ursprüngliche Indikation** — Rufen Sie zugelassene Indikation(en) von DrugBank oder dem FDA/EMA-Label ab (RIMEGEPANT ist außerhalb Taiwans unter Markennamen wie Nurtec ODT und Vydura im Handel erhältlich)
+- **Wirkmechanismus** — Fragen Sie die DrugBank-API nach MOA ab; RIMEGEPANT ist ein CGRP-Rezeptor-Antagonist – dies sollte aus dem öffentlichen DrugBank-Datensatz bestätigt werden können
+- **Sicherheitsdaten** — Laden Sie die TFDA-Packungsbeilage als PDF herunter und analysieren Sie sie, um wichtige Warnhinweise und Gegenanzeigen zu extrahieren (Datenlücke DG001, Schweregrad: Blockierend)
+- **DDI-Profil** — Führen Sie die DDI-Datenbank erneut ab; die aktuelle Abfrage hat `not_found` zurückgegeben, was eine Datenbeschaffungslücke widerspiegeln kann, anstatt eines Fehlens von Wechselwirkungen
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

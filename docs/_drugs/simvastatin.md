@@ -29,98 +29,97 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **8**
 
 </div>
 
-# Simvastatin: From Hypercholesterolemia to Familial Hypercholesterolemia
+# Simvastatin: Von Hypercholesterinämie zu Familiärer Hypercholesterinämie
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-> Simvastatin is an HMG-CoA reductase inhibitor from the statin class, established globally for treating hypercholesterolemia and dyslipidemia.
-> The TxGNN model predicts it may be effective for **Familial Hypercholesterolemia**,
-> with **18 clinical trials** and **18 publications** currently supporting this direction.
+> Simvastatin ist ein HMG-CoA-Reduktase-Hemmer aus der Statin-Klasse, der weltweit zur Behandlung von Hypercholesterinämie und Dyslipidämie etabliert ist. Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam für **Familiäre Hypercholesterinämie** sein könnte, wobei derzeit **18 klinische Studien** und **18 Publikationen** diese Richtung unterstützen.
 
 ---
 
-## Quick Overview
+## Schnelle Übersicht
 
-| Item | Content |
+| Element | Inhalt |
 |------|------|
-| Original Indication | Hypercholesterolemia (general/primary) — not documented in local license registry for this market |
-| Predicted New Indication | Familial Hypercholesterolemia |
-| TxGNN Prediction Score | 99.63% |
-| Evidence Level | L1 |
-| Germany Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Ursprüngliche Indikation | Hypercholesterinämie (allgemein/primär) — nicht im lokalen Lizenzregister für diesen Markt dokumentiert |
+| Vorhergesagte neue Indikation | Familiäre Hypercholesterinämie |
+| TxGNN-Vorhersagepunktzahl | 99,63% |
+| Evidenzstufe | L1 |
+| Marktstatus in Deutschland | ✗ Nicht auf dem Markt |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Mit Vorkehrungen fortfahren |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage vernünftig?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known pharmacological classification, simvastatin is a member of the statin (HMG-CoA reductase inhibitor) class, its efficacy in lowering LDL-cholesterol for general hypercholesterolemia has been well established, and mechanistically this class of drug directly targets the same pathway implicated in familial hypercholesterolemia.
+Derzeit sind detaillierte Daten zum Wirkmechanismus in diesem Evidenzpaket nicht verfügbar. Basierend auf der bekannten pharmakologischen Klassifizierung ist Simvastatin ein Mitglied der Statin-(HMG-CoA-Reduktase-Hemmer-)Klasse, seine Wirksamkeit bei der Senkung des LDL-Cholesterins bei allgemeiner Hypercholesterinämie ist gut etabliert, und mechanistisch zielt diese Wirkstoffklasse direkt auf denselben Weg ab, der in der familiären Hypercholesterinämie beteiligt ist.
 
-Familial hypercholesterolemia (FH) is caused by mutations in the LDL receptor pathway (LDLR/APOB/PCSK9) that impair hepatic clearance of LDL-cholesterol. Simvastatin's core mechanism — blocking hepatic cholesterol synthesis and upregulating LDL receptor expression — directly addresses this pathology, making it a mechanistically direct rather than speculative therapeutic target. This is corroborated by the fact that simvastatin, alone or combined with ezetimibe/PCSK9 inhibitors, has been extensively studied as background or comparator therapy across the FH clinical trial literature (e.g. the ENHANCE trial, NCT00552097).
+Familiäre Hypercholesterinämie (FH) wird durch Mutationen im LDL-Rezeptor-Signalweg (LDLR/APOB/PCSK9) verursacht, die die hepatische Clearance von LDL-Cholesterin beeinträchtigen. Simvastatins Kernmechanismus — Blockierung der hepatischen Cholesterin-Synthese und Hochregulation der LDL-Rezeptor-Expression — adressiert diese Pathologie direkt, was es zu einem mechanistisch direkten statt spekulativen therapeutischen Ziel macht. Dies wird durch die Tatsache bekräftigt, dass Simvastatin allein oder in Kombination mit Ezetimib/PCSK9-Inhibitoren in der FH-Klinik-Fachliteratur umfassend untersucht wurde (z. B. die ENHANCE-Studie, NCT00552097).
 
-Autosomal dominant hypercholesterolemia (rank 4 in the prediction list, score 99.36%) shares essentially the same LDLR-pathway biology as classic FH, and the two conditions largely share treatment evidence, further reinforcing the biological plausibility of this repurposing signal.
+Autosomal-dominante Hypercholesterinämie (Rang 4 in der Vorhersageliste, Punktzahl 99,36%) teilt im Wesentlichen dieselbe LDLR-Signalweg-Biologie wie klassische FH, und die beiden Zustände teilen sich weitgehend Behandlungsevidenzen, was die biologische Plausibilität dieses Umwidmungssignals weiter verstärkt.
 
 ---
 
-## Clinical Trial Evidence
+## Klinische Studienevidenz
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Studiennummer | Phase | Status | Einschluss | Wichtigste Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT01070966](https://clinicaltrials.gov/study/NCT01070966) | N/A | Completed | 2089 | Large real-world re-examination study confirming clinical usefulness of Vytorin (ezetimibe/simvastatin) |
-| [NCT00552097](https://clinicaltrials.gov/study/NCT00552097) | Phase 3 | Completed | 720 | ENHANCE trial: ezetimibe + high-dose simvastatin vs. simvastatin alone on carotid atherosclerosis progression in heterozygous FH |
-| [NCT03884452](https://clinicaltrials.gov/study/NCT03884452) | Phase 3 | Completed | 50 | Ezetimibe added to atorvastatin or simvastatin in homozygous FH |
-| [NCT00654446](https://clinicaltrials.gov/study/NCT00654446) | Phase 3 | Completed | 442 | Renal effects of rosuvastatin vs. simvastatin in Fredrickson Type IIa/IIb dyslipidemia including heterozygous FH |
-| [NCT02107898](https://clinicaltrials.gov/study/NCT02107898) | Phase 3 | Completed | 216 | Alirocumab add-on to stable statin therapy (incl. simvastatin) in HeFH/high CV-risk patients |
-| [NCT01623115](https://clinicaltrials.gov/study/NCT01623115) | Phase 3 | Completed | 486 | Alirocumab vs. placebo in heterozygous FH not adequately controlled on lipid-modifying therapy |
-| [NCT03510884](https://clinicaltrials.gov/study/NCT03510884) | Phase 3 | Completed | 153 | Alirocumab in children/adolescents with HeFH on background statin therapy |
-| [NCT00129402](https://clinicaltrials.gov/study/NCT00129402) | Phase 3 | Completed | 248 | Ezetimibe + simvastatin efficacy/safety in adolescents with HeFH |
-| [NCT01890967](https://clinicaltrials.gov/study/NCT01890967) | Phase 2 | Completed | 527 | Dose-ranging study of LY3015014 in patients continuing statin (incl. simvastatin) therapy |
-| [NCT01954394](https://clinicaltrials.gov/study/NCT01954394) | Phase 3 | Completed | 986 | Long-term extension study of alirocumab safety/efficacy in HeFH |
+| [NCT01070966](https://clinicaltrials.gov/study/NCT01070966) | N/A | Abgeschlossen | 2089 | Große Real-World-Nachuntersuchungsstudie zur Bestätigung der klinischen Nützlichkeit von Vytorin (Ezetimib/Simvastatin) |
+| [NCT00552097](https://clinicaltrials.gov/study/NCT00552097) | Phase 3 | Abgeschlossen | 720 | ENHANCE-Studie: Ezetimib + hochdosiertes Simvastatin vs. Simvastatin allein auf Karotis-Atherosklerose-Progression bei heterozygöter FH |
+| [NCT03884452](https://clinicaltrials.gov/study/NCT03884452) | Phase 3 | Abgeschlossen | 50 | Ezetimib hinzugefügt zu Atorvastatin oder Simvastatin bei homozygöter FH |
+| [NCT00654446](https://clinicaltrials.gov/study/NCT00654446) | Phase 3 | Abgeschlossen | 442 | Renale Effekte von Rosuvastatin vs. Simvastatin bei Fredrickson-Typ IIa/IIb-Dyslipidämie einschließlich heterozygöter FH |
+| [NCT02107898](https://clinicaltrials.gov/study/NCT02107898) | Phase 3 | Abgeschlossen | 216 | Alirocumab-Zusatz zu stabiler Statin-Therapie (inkl. Simvastatin) bei HeFH/hochrisiko-kardiovaskulären Patienten |
+| [NCT01623115](https://clinicaltrials.gov/study/NCT01623115) | Phase 3 | Abgeschlossen | 486 | Alirocumab vs. Placebo bei heterozygöter FH, nicht adäquat kontrolliert mit lipidmodifizierender Therapie |
+| [NCT03510884](https://clinicaltrials.gov/study/NCT03510884) | Phase 3 | Abgeschlossen | 153 | Alirocumab bei Kindern/Jugendlichen mit HeFH unter Hintergrund-Statin-Therapie |
+| [NCT00129402](https://clinicaltrials.gov/study/NCT00129402) | Phase 3 | Abgeschlossen | 248 | Ezetimib + Simvastatin Wirksamkeit/Sicherheit bei Jugendlichen mit HeFH |
+| [NCT01890967](https://clinicaltrials.gov/study/NCT01890967) | Phase 2 | Abgeschlossen | 527 | Dosisfindungsstudie von LY3015014 bei Patienten, die Statin-Therapie (inkl. Simvastatin) fortsetzen |
+| [NCT01954394](https://clinicaltrials.gov/study/NCT01954394) | Phase 3 | Abgeschlossen | 986 | Langzeit-Extensionsstudie zur Sicherheit/Wirksamkeit von Alirocumab bei HeFH |
 
 ---
 
-## Literature Evidence
+## Literaturevidenz
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Journal | Wichtigste Ergebnisse |
 |------|-----|------|------|---------|
-| [18376000](https://pubmed.ncbi.nlm.nih.gov/18376000/) | 2008 | RCT | New England Journal of Medicine | ENHANCE trial primary publication: simvastatin with or without ezetimibe in FH |
-| [27417002](https://pubmed.ncbi.nlm.nih.gov/27417002/) | 2016 | Cohort | Journal of the American College of Cardiology | Statin treatment in FH reduces coronary artery disease events and all-cause mortality |
-| [31696945](https://pubmed.ncbi.nlm.nih.gov/31696945/) | 2019 | Systematic Review | Cochrane Database of Systematic Reviews | Statins (including simvastatin) for children with familial hypercholesterolemia |
-| [15794711](https://pubmed.ncbi.nlm.nih.gov/15794711/) | 2005 | Review | Expert Opinion on Drug Safety | Benefits and risks assessment of simvastatin in familial hypercholesterolaemia |
-| [28437620](https://pubmed.ncbi.nlm.nih.gov/28437620/) | 2017 | Guideline | Endocrine Practice (AACE/ACE) | Guidelines for management of dyslipidemia and CVD prevention, statin-based |
-| [41824552](https://pubmed.ncbi.nlm.nih.gov/41824552/) | 2026 | Guideline | Circulation (ACC/AHA) | 2026 guideline on management of dyslipidemia, replacing 2018 cholesterol guideline |
-| [12908847](https://pubmed.ncbi.nlm.nih.gov/12908847/) | 2003 | Review | Drug Safety | Benefits and risks of simvastatin in patients with familial hypercholesterolaemia |
-| [21173733](https://pubmed.ncbi.nlm.nih.gov/21173733/) | 2010 | Cohort | International Angiology | Efficacy and safety of long-term ezetimibe/simvastatin treatment in FH |
-| [35629051](https://pubmed.ncbi.nlm.nih.gov/35629051/) | 2022 | Cohort | Journal of Clinical Medicine | Cellular immunity in children with FH treated with simvastatin |
-| [11383320](https://pubmed.ncbi.nlm.nih.gov/11383320/) | 2001 | Comparative Study | Nutrition, Metabolism and Cardiovascular Diseases | Atorvastatin vs. simvastatin in heterozygous FH: LDL-C and coagulation effects |
+| [18376000](https://pubmed.ncbi.nlm.nih.gov/18376000/) | 2008 | RCT | New England Journal of Medicine | ENHANCE-Studie: Primärveröffentlichung: Simvastatin mit oder ohne Ezetimib bei FH |
+| [27417002](https://pubmed.ncbi.nlm.nih.gov/27417002/) | 2016 | Kohorte | Journal of the American College of Cardiology | Statin-Behandlung bei FH reduziert koronare Herzerkrankung und Gesamtsterblichkeit |
+| [31696945](https://pubmed.ncbi.nlm.nih.gov/31696945/) | 2019 | Systematische Übersicht | Cochrane Database of Systematic Reviews | Statine (einschließlich Simvastatin) für Kinder mit familiärer Hypercholesterinämie |
+| [15794711](https://pubmed.ncbi.nlm.nih.gov/15794711/) | 2005 | Übersichtsarbeit | Expert Opinion on Drug Safety | Nutzen- und Risikobewertung von Simvastatin bei familiärer Hypercholesterinämie |
+| [28437620](https://pubmed.ncbi.nlm.nih.gov/28437620/) | 2017 | Leitlinie | Endocrine Practice (AACE/ACE) | Richtlinien zur Behandlung von Dyslipidämie und kardiovaskulärer Prävention, Statin-basiert |
+| [41824552](https://pubmed.ncbi.nlm.nih.gov/41824552/) | 2026 | Leitlinie | Circulation (ACC/AHA) | 2026 Leitlinie zur Behandlung von Dyslipidämie, ersetzt die 2018 Cholesterin-Leitlinie |
+| [12908847](https://pubmed.ncbi.nlm.nih.gov/12908847/) | 2003 | Übersichtsarbeit | Drug Safety | Nutzen und Risiken von Simvastatin bei Patienten mit familiärer Hypercholesterinämie |
+| [21173733](https://pubmed.ncbi.nlm.nih.gov/21173733/) | 2010 | Kohorte | International Angiology | Wirksamkeit und Sicherheit der Langzeitbehandlung mit Ezetimib/Simvastatin bei FH |
+| [35629051](https://pubmed.ncbi.nlm.nih.gov/35629051/) | 2022 | Kohorte | Journal of Clinical Medicine | Zelluläre Immunität bei Kindern mit FH behandelt mit Simvastatin |
+| [11383320](https://pubmed.ncbi.nlm.nih.gov/11383320/) | 2001 | Vergleichende Studie | Nutrition, Metabolism and Cardiovascular Diseases | Atorvastatin vs. Simvastatin bei heterozygöter FH: LDL-C und Gerinnungseffekte |
 
 ---
 
-## Germany Market Information
+## Marktinformation Deutschland
 
-No authorization records found — simvastatin is currently **not marketed** in this jurisdiction (0 licenses on file), so no product/dosage-form/indication table can be produced from the available registry data.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-interaction data were not available in this evidence pack; note that the underlying data gap for TFDA-equivalent label warnings is flagged as **Blocking** in the source evidence pack, meaning a formal S1 safety review cannot proceed without it.)
+Es wurden keine Zulassungsunterlagen gefunden — Simvastatin ist derzeit **nicht auf dem Markt** in dieser Jurisdiktion (0 Lizenzen in der Datei), sodass keine Produkt-/Darreichungsform-/Indikationstabelle aus den verfügbaren Registerdaten produziert werden kann.
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsaspekte
 
-**Decision: Proceed with Guardrails**
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. (Wichtige Warnungen, Kontraindikationen und Arzneimittel-Wechselwirkungs-Daten waren in diesem Evidenzpaket nicht verfügbar; beachten Sie, dass die zugrundeliegende Datenlücke zu TFDA-äquivalenten Kennzeichnungswarnungen im Quellevidenzpaket als **Blockierend** gekennzeichnet ist, was bedeutet, dass eine formelle S1-Sicherheitsüberprüfung ohne diese nicht fortfahren kann.)
 
-**Rationale:**
-The mechanistic link between simvastatin (HMG-CoA reductase inhibition, LDL receptor upregulation) and familial hypercholesterolemia is direct and well established, and is backed by L1-level evidence — multiple completed Phase 3 RCTs (e.g. ENHANCE/NCT00552097, and the alirocumab HeFH program) using simvastatin as active/background comparator therapy. However, the drug is not currently marketed in this jurisdiction and key safety/label data are missing, so guardrails are required before any market or clinical action.
+---
 
-**To proceed, the following is needed:**
-- TFDA-equivalent package insert (warnings/contraindications) — currently a **Blocking** data gap (DG001)
-- Confirmed mechanism-of-action documentation from DrugBank — currently a **High**-severity data gap (DG002)
-- Local regulatory/licensing status confirmation, since 0 authorizations are currently on file despite simvastatin's established global use
-- Drug-drug interaction data (DDI query currently returned "not_found")
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Mit Vorkehrungen fortfahren**
+
+**Begründung:**
+Der mechanistische Link zwischen Simvastatin (HMG-CoA-Reduktasehemmung, LDL-Rezeptor-Hochregulation) und familiärer Hypercholesterinämie ist direkt und gut etabliert und wird durch L1-Level-Evidenz gestützt — mehrere abgeschlossene Phase-3-RCTs (z. B. ENHANCE/NCT00552097 und das Alirocumab-HeFH-Programm) verwenden Simvastatin als aktive/Hintergrund-Vergleichstherapie. Der Wirkstoff ist jedoch derzeit in dieser Jurisdiktion nicht auf dem Markt und wichtige Sicherheits-/Kennzeichnungsdaten fehlen, daher sind Vorkehrungen erforderlich, bevor eine Markt- oder klinische Maßnahme erfolgt.
+
+**Um fortzufahren, wird Folgendes benötigt:**
+- TFDA-äquivalente Packungsbeilage (Warnungen/Kontraindikationen) — derzeit eine **blockierende** Datenlücke (DG001)
+- Bestätigte Wirkmechanismus-Dokumentation aus DrugBank — derzeit eine **hochschwere** Datenlücke (DG002)
+- Bestätigung des lokalen Regulierungs-/Zulassungsstatus, da derzeit 0 Zulassungen in der Datei vorhanden sind, obwohl Simvastatin weltweit etabliert ist
+- Arzneimittel-Wechselwirkungs-Daten (DDI-Abfrage liefert derzeit "not_found")
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

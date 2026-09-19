@@ -29,91 +29,92 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Perampanel: From Focal Epilepsy to Visual Epilepsy
+# Perampanel: Von fokaler Epilepsie zu visueller Epilepsie
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Perampanel is a selective AMPA-receptor antagonist originally used as adjunctive therapy for partial-onset (focal) seizures in epilepsy. The TxGNN model predicts it may also be effective for **Visual Epilepsy** (a photosensitive reflex-epilepsy subtype), with **3 clinical trials** and **20 publications** identified — though none of them studies this specific seizure trigger directly.
+Perampanel ist ein selektiver AMPA-Rezeptor-Antagonist, der ursprünglich als Zusatztherapie bei Partial-Onset-(fokalen) Anfällen in der Epilepsie angewendet wird. Das TxGNN-Modell sagt voraus, dass es auch wirksam bei **visueller Epilepsie** (einem photosensitiven Reflex-Epilepsie-Subtyp) sein könnte, mit **3 klinischen Studien** und **20 Publikationen**, die identifiziert wurden – obwohl keine dieser Studien/Publikationen diesen spezifischen Anfallsauslöser direkt untersucht.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Punkt | Inhalt |
 |------|------|
-| Original Indication | Partial-onset (focal) seizures in epilepsy (derived from literature evidence; official TFDA/BfArM label text is a data gap) |
-| Predicted New Indication | Visual epilepsy |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L4 |
-| Germany Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Ursprüngliche Indikation | Partial-Onset-(fokale) Anfälle in der Epilepsie (abgeleitet aus Literaturbelegen; offizieller TFDA/BfArM-Labeltext ist eine Datenlücke) |
+| Vorhergesagte neue Indikation | Visuelle Epilepsie |
+| TxGNN-Vorhersage-Punktzahl | 99.92% |
+| Evidenzstufe | L4 |
+| Marktstatus Deutschland | ✗ Nicht auf dem Markt |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | Halten |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage vernünftig?
 
-Detailed mechanism of action data for this candidate is not available in the evidence pack (data gap). Based on the literature collected, perampanel is described as a selective, non-competitive AMPA (α-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid) receptor antagonist — the first approved antiepileptic drug with this mechanism, reducing glutamate-mediated postsynaptic excitation and showing broad-spectrum anticonvulsant activity across several seizure models (PMID 21635236, 24559052).
+Detaillierte Wirkmechanismus-Daten für diesen Kandidaten sind im Evidenzpaket nicht verfügbar (Datenlücke). Basierend auf der gesammelten Literatur wird Perampanel als selektiver, nicht-kompetitiver AMPA-(α-Amino-3-hydroxy-5-methyl-4-isoxazolpropionsäure)-Rezeptor-Antagonist beschrieben – das erste zugelassene Antiepileptikum mit diesem Wirkmechanismus, das die Glutamat-vermittelte postsynaptische Erregung reduziert und eine breite antikonvulsive Aktivität über mehrere Anfallsmodelle hinweg zeigt (PMID 21635236, 24559052).
 
-Visual (photosensitive) epilepsy is a reflex epilepsy in which seizures are triggered by visual stimuli such as flickering light, and it shares the same underlying cortical hyperexcitability and glutamatergic overactivation seen in focal and generalized epilepsy. Because AMPA-receptor antagonism dampens cortical excitability broadly rather than acting on a specific trigger pathway, it is mechanistically plausible that perampanel could also suppress visually-triggered seizure activity — one trial in the evidence set (NCT03653741) even specifically measured visual evoked potentials (VEP) as an outcome.
+Visuelle (photosensitive) Epilepsie ist eine Reflex-Epilepsie, bei der Anfälle durch visuelle Reize wie flackerndes Licht ausgelöst werden, und sie teilt die gleiche zugrunde liegende kortikale Hyperexzitabilität und glutamaterge Überaktivation, die bei fokalen und generalisierten Epilepsien beobachtet wird. Da AMPA-Rezeptor-Antagonismus die kortikale Erregbarkeit allgemein dämpft, anstatt auf einen spezifischen Auslösepfad einzuwirken, ist es mechanistisch plausibel, dass Perampanel auch visuell ausgelöste Anfallsaktivität unterdrücken könnte – eine Studie im Evidenzpaket (NCT03653741) maß sogar spezifisch visuell evozierte Potenziale (VEP) als Ergebnis.
 
-That said, none of the 3 clinical trials or 20 publications identified for this candidate specifically studies visual/photosensitive epilepsy as a treatment indication. The trials cover general partial/generalized seizure tolerability, cognition, and EEG/neurophysiology effects, and the literature is dominated by systematic reviews and guidelines on perampanel's general antiepileptic use. Mechanistic plausibility here currently exceeds the directness of the supporting clinical evidence.
+Dies gesagt, untersuchen keine der 3 klinischen Studien oder 20 Publikationen, die für diesen Kandidaten identifiziert wurden, spezifisch visuelle/photosensitive Epilepsie als Behandlungsindikation. Die Studien behandeln allgemeine Partial-/generalisierte Anfalls-Verträglichkeit, Kognition und EEG-/Neurophysiologie-Effekte, und die Literatur wird von systematischen Reviews und Richtlinien zur allgemeinen antiepileptischen Anwendung von Perampanel beherrscht. Die mechanistische Plausibilität überschreitet hier derzeit die Direktheit der unterstützenden klinischen Evidenz.
 
 ---
 
-## Clinical Trial Evidence
+## Evidenz aus klinischen Studien
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Studiennummer | Phase | Status | Einschluss | Wichtigste Erkenntnisse |
 |---------|------|------|------|---------|
-| [NCT03780907](https://clinicaltrials.gov/study/NCT03780907) | Phase 2 | Completed | 18 | Randomised, double-blind, placebo-controlled study assessing tolerability, safety and PK of perampanel (E2007) in patients with refractory partial or generalised seizures on concomitant AEDs |
-| [NCT02900755](https://clinicaltrials.gov/study/NCT02900755) | Phase 4 | Completed | 30 | Evaluated perampanel's effects on cognition and EEG in patients with epilepsy; general safety/tolerability focus, not visual-trigger specific |
-| [NCT03653741](https://clinicaltrials.gov/study/NCT03653741) | Phase 4 | Completed | 12 | Evaluated perampanel's effects on neurophysiology tests including EEG, SEP, BAEP and visual evoked potential (VEP) in healthy volunteers |
+| [NCT03780907](https://clinicaltrials.gov/study/NCT03780907) | Phase 2 | Abgeschlossen | 18 | Randomisierte, doppelblinde, placebokontrollierte Studie zur Bewertung der Verträglichkeit, Sicherheit und PK von Perampanel (E2007) bei Patienten mit refraktären Partial- oder generalisierten Anfällen unter begleitenden AED |
+| [NCT02900755](https://clinicaltrials.gov/study/NCT02900755) | Phase 4 | Abgeschlossen | 30 | Bewertung der Auswirkungen von Perampanel auf Kognition und EEG bei Patienten mit Epilepsie; allgemeiner Sicherheits-/Verträglichkeitsfokus, nicht spezifisch für visuelle Auslöser |
+| [NCT03653741](https://clinicaltrials.gov/study/NCT03653741) | Phase 4 | Abgeschlossen | 12 | Bewertung der Auswirkungen von Perampanel auf Neurophysiologie-Tests einschließlich EEG, SEP, BAEP und visuell evozierte Potenziale (VEP) bei gesunden Freiwilligen |
 
 ---
 
-## Literature Evidence
+## Evidenz aus der Literatur
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Jahr | Typ | Zeitschrift | Wichtigste Erkenntnisse |
 |------|-----|------|------|---------|
-| [37059702](https://pubmed.ncbi.nlm.nih.gov/37059702/) | 2023 | Systematic Review (Cochrane) | Cochrane Database Syst Rev | Perampanel add-on for drug-resistant focal epilepsy — general efficacy/safety evidence |
-| [36206645](https://pubmed.ncbi.nlm.nih.gov/36206645/) | 2022 | Systematic Review / Meta-analysis | Seizure | Efficacy and safety of perampanel across RCTs in epilepsy |
-| [35061214](https://pubmed.ncbi.nlm.nih.gov/35061214/) | 2022 | Systematic Review / Network Meta-analysis | Drugs | Comparison of third-generation ASMs (including perampanel) for adjunctive focal-seizure treatment |
-| [37378757](https://pubmed.ncbi.nlm.nih.gov/37378757/) | 2023 | Systematic Review / Network Meta-analysis | J Neurol | ASMs for idiopathic generalized epilepsies |
-| [36878742](https://pubmed.ncbi.nlm.nih.gov/36878742/) | 2023 | Systematic Review / Meta-analysis | Brain Dev | Efficacy, tolerability and safety of perampanel in children/adolescents |
-| [29898971](https://pubmed.ncbi.nlm.nih.gov/29898971/) | 2018 | Practice Guideline | Neurology | AAN/AES guideline update on new-onset epilepsy treatment with newer AEDs |
-| [36150304](https://pubmed.ncbi.nlm.nih.gov/36150304/) | 2022 | Review (trial + real-world evidence) | Epilepsy Behav | Perampanel monotherapy for FOS/GTCS — clinical trial and real-world data |
-| [24559052](https://pubmed.ncbi.nlm.nih.gov/24559052/) | 2014 | Review | Expert Opin Drug Discov | Discovery and development of perampanel as first-in-class AMPA antagonist |
-| [26111428](https://pubmed.ncbi.nlm.nih.gov/26111428/) | 2015 | Review | Expert Opin Drug Metab Toxicol | PK/PD evaluation of perampanel for partial-onset seizures |
-| [41043235](https://pubmed.ncbi.nlm.nih.gov/41043235/) | 2025 | Prospective Multicenter Study | Epilepsy Behav | Perampanel effects on seizures and sleep quality — general epilepsy population |
+| [37059702](https://pubmed.ncbi.nlm.nih.gov/37059702/) | 2023 | Systematische Übersichtsarbeit (Cochrane) | Cochrane Database Syst Rev | Perampanel als Zusatz bei therapieresistenter fokaler Epilepsie – allgemeine Effektivitäts-/Sicherheitsevidenz |
+| [36206645](https://pubmed.ncbi.nlm.nih.gov/36206645/) | 2022 | Systematische Übersichtsarbeit / Meta-Analyse | Seizure | Effektivität und Sicherheit von Perampanel über RCTs in der Epilepsie |
+| [35061214](https://pubmed.ncbi.nlm.nih.gov/35061214/) | 2022 | Systematische Übersichtsarbeit / Netzwerk-Meta-Analyse | Drugs | Vergleich von ASMs der dritten Generation (einschließlich Perampanel) zur adjuvanten Behandlung fokaler Anfälle |
+| [37378757](https://pubmed.ncbi.nlm.nih.gov/37378757/) | 2023 | Systematische Übersichtsarbeit / Netzwerk-Meta-Analyse | J Neurol | ASMs für idiopathische generalisierte Epilepsien |
+| [36878742](https://pubmed.ncbi.nlm.nih.gov/36878742/) | 2023 | Systematische Übersichtsarbeit / Meta-Analyse | Brain Dev | Effektivität, Verträglichkeit und Sicherheit von Perampanel bei Kindern/Jugendlichen |
+| [29898971](https://pubmed.ncbi.nlm.nih.gov/29898971/) | 2018 | Praxis-Richtlinie | Neurology | AAN/AES-Richtlinien-Update zur Behandlung neu aufgetretener Epilepsie mit neueren AED |
+| [36150304](https://pubmed.ncbi.nlm.nih.gov/36150304/) | 2022 | Review (Studien- + Real-World-Evidenz) | Epilepsy Behav | Perampanel-Monotherapie für FOS/GTCS – klinische Studien- und Real-World-Daten |
+| [24559052](https://pubmed.ncbi.nlm.nih.gov/24559052/) | 2014 | Review | Expert Opin Drug Discov | Entdeckung und Entwicklung von Perampanel als erster AMPA-Antagonist |
+| [26111428](https://pubmed.ncbi.nlm.nih.gov/26111428/) | 2015 | Review | Expert Opin Drug Metab Toxicol | PK/PD-Bewertung von Perampanel bei Partial-Onset-Anfällen |
+| [41043235](https://pubmed.ncbi.nlm.nih.gov/41043235/) | 2025 | Prospektive multizentrische Studie | Epilepsy Behav | Auswirkungen von Perampanel auf Anfälle und Schlafqualität – allgemeine Epilepsie-Population |
 
-None of the above directly evaluates visual/photosensitive reflex epilepsy as a distinct treatment indication.
-
----
-
-## Germany Market Information
-
-Perampanel is currently **not marketed** in Germany (market status: Not marketed). No marketing authorizations are on record in this evidence pack (total licenses: 0).
+Keine der oben genannten Arbeiten bewertet direkt visuelle/photosensitive Reflex-Epilepsie als separate Behandlungsindikation.
 
 ---
 
-## Safety Considerations
+## Marktinformationen Deutschland
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and DDI data are all marked as data gaps in this evidence pack — see DG001, a blocking gap for S1 safety review.)
+Perampanel ist derzeit **nicht auf dem Markt** in Deutschland (Marktstatus: Nicht auf dem Markt). Keine Marktzulassungen sind in diesem Evidenzpaket verzeichnet (insgesamt Lizenzen: 0).
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsaspekte
 
-**Decision: Hold**
+Bitte beziehen Sie sich auf das Arzneimittel-Informationsblatt für Sicherheitsinformationen. (Wichtige Warnungen, Kontraindikationen und DDI-Daten sind alle als Datenlücken in diesem Evidenzpaket gekennzeichnet – siehe DG001, eine blockierende Lücke für die S1-Sicherheitsüberprüfung.)
 
-**Rationale:**
-Perampanel's AMPA-receptor antagonist mechanism is mechanistically plausible for visual/photosensitive epilepsy, but no clinical trial or publication in the current evidence set specifically evaluates this seizure subtype — all trials and literature concern general focal/generalized epilepsy use. Combined with the drug being unmarketed in Germany and lacking basic label/safety data, the evidence does not yet support proceeding.
+---
 
-**To proceed, the following is needed:**
-- Disease-specific evidence for visual/photosensitive epilepsy (e.g., photoparoxysmal-response EEG studies, provocation trials)
-- Official TFDA/BfArM label data — warnings, contraindications, DDI (blocking gap DG001)
-- Confirmed mechanism of action documentation from DrugBank (DG002)
-- Clarification of regulatory/market pathway before any development decision, given current unmarketed status in Germany
+## Fazit und nächste Schritte
+
+**Entscheidung: Halten**
+
+**Begründung:**
+Der AMPA-Rezeptor-Antagonist-Wirkmechanismus von Perampanel ist mechanistisch plausibel für visuelle/photosensitive Epilepsie, aber keine klinische Studie oder Publikation im aktuellen Evidenzpaket bewertet diesen Anfallssubtyp spezifisch – alle Studien und Literatur behandeln die allgemeine fokale/generalisierte Epilepsie-Anwendung. Kombiniert mit der Tatsache, dass das Medikament in Deutschland nicht auf dem Markt ist und grundlegende Label-/Sicherheitsdaten fehlen, unterstützt die Evidenz derzeit nicht das Fortfahren.
+
+**Für das Fortfahren wird Folgendes benötigt:**
+- Krankheitsspezifische Evidenz für visuelle/photosensitive Epilepsie (z. B. Photoparoxysmal-Reaktions-EEG-Studien, Provokationstests)
+- Offizielle TFDA/BfArM-Labeldaten – Warnungen, Kontraindikationen, DDI (blockierende Lücke DG001)
+- Bestätigte Wirkmechanismus-Dokumentation von DrugBank (DG002)
+- Klärung des regulatorischen/Marktweges vor jeder Entwicklungsentscheidung angesichts des derzeitigen Status „Nicht auf dem Markt" in Deutschland
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -29,102 +29,101 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Bevacizumab (DB00112): Evidence Pack Incomplete — Repurposing Analysis Unavailable
+# Bevacizumab (DB00112): Evidence Pack Unvollständig — Umwidmungsanalyse Nicht Verfügbar
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Bevacizumab (DrugBank: DB00112) is an antineoplastic biologic agent whose original approved indications and mechanism of action are not captured in the current Evidence Pack.
-The TxGNN model has **not yet generated any predicted indications** for this compound, meaning the repurposing analysis pipeline has not completed.
-This report documents the current data state and outlines the information required before a full evaluation can proceed.
+Bevacizumab (DrugBank: DB00112) ist ein antineoplastisches biologisches Agens, dessen ursprüngliche zugelassene Indikationen und Wirkmechanismus nicht im aktuellen Evidence Pack erfasst sind. Das TxGNN-Modell hat **noch keine vorhergesagten Indikationen** für diese Verbindung generiert, was bedeutet, dass die Umwidmungsanalysepipeline nicht abgeschlossen wurde. Dieser Bericht dokumentiert den aktuellen Datenzustand und beschreibt die erforderlichen Informationen, bevor eine vollständige Bewertung fortgesetzt werden kann.
 
 ---
 
-## Quick Overview
+## Schnelle Übersicht
 
-| Item | Content |
+| Punkt | Inhalt |
 |------|---------|
-| Original Indication | Not available in current Evidence Pack |
-| Predicted New Indication | None — TxGNN prediction output is absent |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | L5 (model prediction not yet completed) |
-| Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** — critical data gaps must be resolved first |
+| Ursprüngliche Indikation | Nicht verfügbar im aktuellen Evidence Pack |
+| Vorhergesagte neue Indikation | Keine — TxGNN-Vorhersageausgabe fehlt |
+| TxGNN-Vorhersage-Score | N/A |
+| Evidenzstufe | L5 (Modellvorhersage noch nicht abgeschlossen) |
+| Marktstatus | Nicht auf dem Markt (Nicht auf dem Markt) |
+| Anzahl der Zulassungen | 0 |
+| Empfehlung | **Halten** — kritische Datenlücken müssen zunächst behoben werden |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## Warum ist diese Vorhersage angemessen?
 
-This section cannot be completed because the `predicted_indications` array in the Evidence Pack is empty. No TxGNN prediction output has been received for Bevacizumab (DB00112), so there is no predicted indication to evaluate for mechanistic plausibility.
+Dieser Abschnitt kann nicht abgeschlossen werden, da das `predicted_indications`-Array im Evidence Pack leer ist. Es wurde keine TxGNN-Vorhersageausgabe für Bevacizumab (DB00112) erhalten, daher gibt es keine vorhergesagte Indikation, um eine mechanistische Plausibilität zu bewerten.
 
-Additionally, the mechanism of action (MOA) field is currently unavailable (Data Gap DG002). Without MOA data, even a manual bridging analysis between the original and any candidate new indication is not possible.
+Darüber hinaus ist das Feld Wirkmechanismus (MOA) derzeit nicht verfügbar (Data Gap DG002). Ohne MOA-Daten ist nicht einmal eine manuelle Überbrückungsanalyse zwischen der ursprünglichen Indikation und einer beliebigen kandidatischen neuen Indikation möglich.
 
-Once the TxGNN pipeline generates predictions and the MOA is retrieved from DrugBank, this section will describe the anti-VEGF pathway and its applicability to the candidate indication.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials are associated with a TxGNN-predicted repurposing indication, because no prediction has been generated.
+Sobald die TxGNN-Pipeline Vorhersagen generiert und die MOA aus DrugBank abgerufen wird, wird dieser Abschnitt den Anti-VEGF-Weg und seine Anwendbarkeit auf die kandidatische Indikation beschreiben.
 
 ---
 
-## Literature Evidence
+## Klinische Studienevidenz
 
-Currently no related literature is available for a TxGNN-predicted repurposing indication, because no prediction has been generated.
+Derzeit sind keine verwandten klinischen Studien mit einer TxGNN-vorhergesagten Umwidmungsindikation verbunden, da keine Vorhersage generiert wurde.
 
 ---
 
-## Market Information
+## Literaturbeweise
 
-| Item | Status |
+Derzeit ist keine verwandte Literatur für eine TxGNN-vorhergesagte Umwidmungsindikation verfügbar, da keine Vorhersage generiert wurde.
+
+---
+
+## Marktinformation
+
+| Punkt | Status |
 |------|--------|
-| Market Status | Not marketed (Not marketed) |
-| Total Authorizations | 0 |
-| Licenses on Record | None |
+| Marktstatus | Nicht auf dem Markt (Nicht auf dem Markt) |
+| Gesamtzulassungen | 0 |
+| Eingetragene Lizenzen | Keine |
 
-No authorization records are available. The regulatory query returned zero results.
+Es sind keine Autorisierungsunterlagen verfügbar. Die behördliche Anfrage gab null Ergebnisse zurück.
 
 ---
 
-## Cytotoxicity
+## Zytotoxizität
 
-Bevacizumab (DB00112) is an antineoplastic biologic agent (anti-VEGF monoclonal antibody). Although the DrugBank category fields are not present in this Evidence Pack, the drug is known to belong to the targeted therapy class.
+Bevacizumab (DB00112) ist ein antineoplastisches biologisches Agens (Anti-VEGF-monoklonaler Antikörper). Obwohl die DrugBank-Kategorifelder nicht in diesem Evidence Pack vorhanden sind, ist bekannt, dass das Arzneimittel zur Klasse der zielgerichteten Therapie gehört.
 
-| Item | Content |
+| Punkt | Inhalt |
 |------|---------|
-| Cytotoxicity Classification | Targeted therapy — anti-VEGF monoclonal antibody (not conventional cytotoxic) |
-| Myelosuppression Risk | Low (mechanism does not directly target haematopoietic cells; thrombocytopenia is not a primary toxicity) |
-| Emetogenicity Classification | Minimal to low |
-| Monitoring Items | Blood pressure (hypertension is a class effect), CBC, urine protein, wound healing status, thromboembolic event surveillance |
-| Handling Protection | Standard biologic handling; not classified as conventional cytotoxic — no closed-system drug transfer device required, but follow institutional biologic handling SOPs |
+| Zytotoxizität-Klassifizierung | Zielgerichtete Therapie — Anti-VEGF-monoklonaler Antikörper (keine konventionelle Zytotoxizität) |
+| Myelosuppression-Risiko | Niedrig (der Mechanismus zielt nicht direkt auf hämatopoetische Zellen ab; Thrombozytopenie ist keine primäre Toxizität) |
+| Emetogenität-Klassifizierung | Minimal bis niedrig |
+| Überwachungselemente | Blutdruck (Hypertonie ist ein Klasseneffekt), CBC, Urinprotein, Wundheilungsstatus, Überwachung thromboembolischer Ereignisse |
+| Handhabungsschutz | Standardbehandlung für biologische Arzneimittel; nicht als konventionelle Zytotoxin klassifiziert — keine geschlossene Arzneimittelübertragungseinrichtung erforderlich, aber Befolgung institutioneller biologischer Handhabungs-SOPs |
 
-> **Note:** Full cytotoxicity characterisation should reference the package insert. The warnings and contraindications fields (Data Gap DG001) are currently absent from this Evidence Pack.
-
----
-
-## Safety Considerations
-
-All key warnings and contraindication fields returned no data in the current Evidence Pack. No drug–drug interaction records were found (DDI query status: not found).
-
-> Please refer to the package insert for complete safety information.
+> **Anmerkung:** Die vollständige Zytotoxizitätscharakterisierung sollte auf die Packungsbeilage verweisen. Die Felder Warnungen und Kontraindikationen (Data Gap DG001) fehlen derzeit in diesem Evidence Pack.
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitserwägungen
 
-**Decision: Hold**
+Alle wichtigen Warnungen und Kontraindikationsfelder gaben keine Daten im aktuellen Evidence Pack zurück. Es wurden keine Arzneimittel-Wechselwirkungsaufzeichnungen gefunden (DDI-Abfragestatus: nicht gefunden).
 
-**Rationale:**
-The Evidence Pack for Bevacizumab (DB00112) is critically incomplete: the TxGNN model has produced no predicted indications, both the mechanism of action and the regulatory safety data are absent, and the drug has zero authorization records in the target market. There is no evidence base on which to build a repurposing recommendation at this time.
+> Bitte beziehen Sie sich auf die Packungsbeilage für vollständige Sicherheitsinformationen.
 
-**To proceed, the following is needed:**
+---
 
-- **[DG001 — Blocking]** Retrieve package insert (仿單) from the regulatory authority website; extract warnings, contraindications, and approved indication text
-- **[DG002 — High]** Query DrugBank API for DB00112 to populate MOA, drug categories, and toxicity data
-- **Re-run TxGNN pipeline** — confirm that Bevacizumab is included in the prediction run and that `predicted_indications` output is correctly written to the Evidence Pack
-- **Verify market scope** — confirm whether the target regulatory jurisdiction for this candidate is Taiwan (TFDA) or Germany (BfArM), as the Evidence Pack field names and the Chinese-language status text are currently inconsistent
-- **DDI retrieval** — retry DDI database query once the drug profile is more completely populated
+## Schlussfolgerung und Nächste Schritte
+
+**Entscheidung: Halten**
+
+**Begründung:**
+Das Evidence Pack für Bevacizumab (DB00112) ist kritisch unvollständig: Das TxGNN-Modell hat keine vorhergesagten Indikationen erzeugt, sowohl der Wirkmechanismus als auch die behördlichen Sicherheitsdaten fehlen, und das Arzneimittel hat null Autorisierungsaufzeichnungen auf dem Zielmarkt. Es gibt derzeit keine Evidenzbasis, auf der eine Umwidmungsempfehlung aufgebaut werden kann.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+
+- **[DG001 — Blockierend]** Packungsbeilage (仿單) von der Website der Regulierungsbehörde abrufen; Warnungen, Kontraindikationen und zugelassene Indikationstexte extrahieren
+- **[DG002 — Hoch]** Abfrage der DrugBank-API für DB00112, um MOA, Arzneimittelkategorien und Toxizitätsdaten zu erfassen
+- **TxGNN-Pipeline erneut ausführen** — bestätigen, dass Bevacizumab in der Vorhersage enthalten ist und dass die `predicted_indications`-Ausgabe korrekt in das Evidence Pack geschrieben wird
+- **Marktbereich überprüfen** — bestätigen, ob die Zielaufsichtszuständigkeit für diesen Kandidaten Taiwan (TFDA) oder Deutschland (BfArM) ist, da die Evidence Pack-Feldnamen und der chinesischsprachige Statustext derzeit inkonsistent sind
+- **DDI-Abruf** — Wiederholung der DDI-Datenbankabfrage, sobald das Arzneimittelprofil vollständiger gefüllt ist
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

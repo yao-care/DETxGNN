@@ -29,76 +29,77 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Atosiban: From Preterm Labor (Tocolysis) to Primary Hereditary Glaucoma
+# Atosiban: Von drohender Frühgeburt (Tokolyse) zum primären hereditären Glaukom
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Atosiban is a competitive oxytocin/vasopressin V1A receptor antagonist used clinically for tocolysis in threatened preterm labor. The TxGNN model's top prediction is **Primary Hereditary Glaucoma**, but this direction is currently supported by **zero clinical trials** and **zero publications**, and the evidence pack's own rationale flags it as a likely knowledge-graph artifact rather than a biologically grounded hypothesis.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Preterm labor / tocolysis (per drug rationale text; no formal indication record or MOA field is available in this data set) |
-| Predicted New Indication | Primary Hereditary Glaucoma |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L5 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Atosiban ist ein kompetitiver Oxytocin-/Vasopressin-V1A-Rezeptorantagonist, der klinisch zur Tokolyse bei drohender Frühgeburt eingesetzt wird. Die Top-Vorhersage des TxGNN-Modells ist **Primäres hereditäres Glaukom**, aber diese Richtung wird derzeit durch **keine** klinischen Studien und **keine** Publikationen gestützt, und das Rationale des Evidenzpakets selbst kennzeichnet es als ein wahrscheinliches Wissensgraph-Assoziations-Artefakt statt einer biologisch fundierten Hypothese.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Schnellübersicht
 
-Currently, detailed mechanism of action data is not available in this evidence pack (`original_moa: [Data Gap]`). Based on what can be inferred from the drug-level rationale text, atosiban acts as a competitive oxytocin/vasopressin V1A receptor antagonist and is clinically used for tocolysis (delaying preterm labor).
-
-There is no known or plausible mechanistic link between oxytocin/V1A receptor antagonism and the pathophysiology of primary hereditary glaucoma, which is governed by aqueous humor dynamics and intraocular pressure regulation. The evidence pack's own repurposing rationale explicitly states this connection is judged to be a **TxGNN graph-association artifact with no biological basis**, and no clinical trial or literature evidence was found to support it.
-
-For context, among the 10 TxGNN-predicted indications provided, only one (rank 6, "vascular disease") has any supporting literature — and even there, the cited studies concern oxytocin **agonism** producing cardioprotective/vasoconstrictive effects, which is mechanistically the *opposite* direction of atosiban's antagonist action. No candidate in this list currently has a coherent, evidence-backed repurposing rationale.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Element | Inhalt |
+|---------|--------|
+| Ursprüngliche Indikation | Drohende Frühgeburt / Tokolyse (gemäß Arzneimittel-Rationale-Text; es ist kein formales Indikations-Datensatz oder MOA-Feld in diesem Datensatz verfügbar) |
+| Vorhergesagte neue Indikation | Primäres hereditäres Glaukom |
+| TxGNN-Vorhersage-Score | 99.92% |
+| Evidenzstufe | L5 |
+| Marktstatus Deutschland | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Aussetzen |
 
 ---
 
-## Literature Evidence
+## Warum ist diese Vorhersage angemessen?
 
-Currently no related literature available.
+Derzeit sind detaillierte Daten zum Wirkungsmechanismus in diesem Evidenzpaket nicht verfügbar (`original_moa: [Data Gap]`). Basierend auf dem, was aus dem Arzneimittel-Rationale-Text hergeleitet werden kann, wirkt Atosiban als kompetitiver Oxytocin-/Vasopressin-V1A-Rezeptorantagonist und wird klinisch zur Tokolyse eingesetzt (Verzögerung der Frühgeburt).
 
----
+Es gibt keine bekannte oder plausible mechanistische Verbindung zwischen Oxytocin-/V1A-Rezeptor-Antagonismus und der Pathophysiologie des primären hereditären Glaukoms, die durch Kammerwasser-Dynamik und Intraokulardruck-Regulation bestimmt wird. Das Rationale des Evidenzpakets selbst besagt explizit, dass diese Verbindung als ein **TxGNN-Wissensgraph-Assoziations-Artefakt ohne biologische Grundlage** beurteilt wird, und es wurden keine klinischen Studien oder Literaturbelege gefunden, die dies unterstützen.
 
-## Germany Market Information
-
-Atosiban is not currently marketed in Germany, and no authorization records are available in this data set.
+Zum Kontext: Von den 10 TxGNN-vorhergesagten Indikationen, die bereitgestellt wurden, hat nur eine (Rang 6, „Gefäßerkrankung") unterstützende Literatur — und selbst dort befassen sich die zitierten Studien mit Oxytocin-**Agonismus**, der kardioprotektive/vasokonstriktive Effekte erzeugt, was mechanistisch die *entgegengesetzte Richtung* der antagonistischen Wirkung von Atosiban ist. Derzeit hat kein Kandidat in dieser Liste eine kohärente, evidenzgestützte Umwidmungs-Begründung.
 
 ---
 
-## Safety Considerations
+## Klinische Studienevidenzen
 
-Please refer to the package insert for safety information.
-
-> Note: TFDA package insert warnings/contraindications are flagged as a **Blocking** data gap (DG001) — safety pre-assessment (S1) cannot proceed without this data.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Conclusion and Next Steps
+## Literaturbelege
 
-**Decision: Hold**
+Derzeit ist keine zugehörige Literatur verfügbar.
 
-**Rationale:**
-The top-ranked prediction (Primary Hereditary Glaucoma) has no supporting clinical trials or literature (L5, decision stage S0), and its own mechanistic rationale identifies it as a likely model artifact rather than a genuine biological hypothesis. Combined with the absence of core safety data, there is no basis to advance this candidate at this time.
+---
 
-**To proceed, the following is needed:**
-- TFDA/package insert warnings and contraindications (DG001, Blocking — required before any S1 safety assessment)
-- Detailed mechanism of action data from DrugBank (DG002)
-- Independent biological or preclinical evidence directly linking V1A receptor antagonism to intraocular pressure or aqueous humor regulation (none currently exists)
-- If exploring alternative candidates from this prediction set, note that "vascular disease" (rank 6) has the most literature support (L4) but requires resolving the agonist-vs-antagonist mechanistic contradiction before further investment
+## Marktstatus in Deutschland
+
+Atosiban wird derzeit nicht in Deutschland vermarktet, und es sind keine Zulassungsdaten in diesem Datensatz verfügbar.
+
+---
+
+## Sicherheitsüberlegungen
+
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+
+> Anmerkung: TFDA-Packungsbeilage-Warnungen/Gegenanzeigen werden als **blockierende** Datenlücke (DG001) gekennzeichnet — Sicherheits-Vorabprüfung (S1) kann ohne diese Daten nicht fortgesetzt werden.
+
+---
+
+## Schlussfolgerung und nächste Schritte
+
+**Entscheidung: Aussetzen**
+
+**Begründung:**
+Die höchstrangige Vorhersage (Primäres hereditäres Glaukom) hat keine unterstützenden klinischen Studien oder Literatur (L5, Entscheidungsstufe S0), und sein eigenes mechanistisches Rationale kennzeichnet es als ein wahrscheinliches Modell-Artefakt statt einer echten biologischen Hypothese. In Kombination mit dem Fehlen von Kern-Sicherheitsdaten gibt es derzeit keine Grundlage, diesen Kandidaten voranzutreiben.
+
+**Um fortzufahren, wird Folgendes benötigt:**
+- TFDA/Packungsbeilage-Warnungen und Gegenanzeigen (DG001, Blockierend — erforderlich vor jeder S1-Sicherheitsprüfung)
+- Detaillierte Wirkungsmechanismus-Daten aus DrugBank (DG002)
+- Unabhängige biologische oder präklinische Belege, die V1A-Rezeptor-Antagonismus direkt mit Intraokulardruck oder Kammerwasser-Regulation verbinden (derzeit keine vorhanden)
+- Falls alternative Kandidaten aus diesem Vorhersage-Set erkundet werden, beachten Sie, dass „Gefäßerkrankung" (Rang 6) die meiste Literatur-Unterstützung (L4) hat, aber die Auflösung des Agonist-vs-Antagonist-Mechanismus-Widerspruchs vor weiterer Investition erforderlich ist
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -29,76 +29,77 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Upadacitinib: From Autoimmune/Inflammatory Disease to Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome
+# Upadacitinib: Von Autoimmun-/Entzündungserkrankungen zum Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-Upadacitinib is a selective JAK1 inhibitor originally developed for autoimmune and inflammatory conditions; its detailed original indication and mechanism-of-action data are not yet available in this evidence pack. The TxGNN model assigns a high similarity score to **Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome**, a rare congenital skeletal-ocular malformation syndrome, but this prediction is currently supported by **zero clinical trials** and **zero publications**, and the evidence pack's own mechanistic analysis flags it as likely model noise rather than a biologically plausible hypothesis.
+Upadacitinib ist ein selektiver JAK1-Inhibitor, der ursprünglich für autoimmun- und entzündliche Erkrankungen entwickelt wurde; seine detaillierte ursprüngliche Indikation und Wirkmechanismus-Daten sind in diesem Evidenzpaket noch nicht verfügbar. Das TxGNN-Modell weist einen hohen Ähnlichkeitsscore dem **Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome**, einem seltenen angeborenen Skelett-Augen-Malformationssyndrom, zu, aber diese Vorhersage wird derzeit durch **null klinische Studien** und **null Publikationen** gestützt, und die mechanistische Analyse des Evidenzpakets selbst kennzeichnet dies als wahrscheinlich Modellrauschen anstelle einer biologisch plausiblen Hypothese.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Punkt | Inhalt |
 |------|------|
-| Original Indication | Not specified in evidence pack (JAK1 inhibitor class, typically autoimmune/inflammatory disease) |
-| Predicted New Indication | Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome |
-| TxGNN Prediction Score | 99.61% |
-| Evidence Level | L5 |
-| Germany Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+| Ursprüngliche Indikation | Im Evidenzpaket nicht angegeben (JAK1-Inhibitor-Klasse, typischerweise autoimmun-/Entzündungserkrankungen) |
+| Vorhergesagte neue Indikation | Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome |
+| TxGNN-Vorhersagescore | 99.61% |
+| Evidenzgrad | L5 |
+| Markt-Status Deutschland | ✗ Nicht im Handel |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | **Hold** |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage angemessen?
 
-Currently, detailed mechanism of action data is not available in this evidence pack (`original_moa` is unpopulated). Based on the repurposing rationale provided, upadacitinib is a selective JAK1 inhibitor that modulates cytokine signaling (IL-6, IFN, IL-2 family, etc.), consistent with its known use in autoimmune/inflammatory disease.
+Derzeit sind detaillierte Wirkmechanismus-Daten in diesem Evidenzpaket nicht verfügbar (`original_moa` ist nicht gefüllt). Basierend auf der bereitgestellten Umwidmungsrationale ist Upadacitinib ein selektiver JAK1-Inhibitor, der die Zytokin-Signalisierung moduliert (IL-6, IFN, IL-2-Familie, etc.), in Einklang mit seiner bekannten Verwendung bei autoimmun-/Entzündungserkrankungen.
 
-The predicted indication — colobomatous microphthalmia-rhizomelic dysplasia syndrome — is a rare congenital disorder driven by embryonic developmental gene defects, not by chronic inflammatory or JAK-STAT-mediated pathology. The evidence pack's own mechanistic assessment states there is **no known biological link** between JAK1 inhibition and this structural developmental syndrome, and attributes the high TxGNN score to graph-embedding similarity artifacts rather than a genuine pharmacological hypothesis.
+Die vorhergesagte Indikation — Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome — ist eine seltene angeborene Störung, die durch embryonale Gendefekte verursacht wird, nicht durch chronische Entzündungen oder JAK-STAT-vermittelte Pathologie. Die mechanistische Bewertung des Evidenzpakets selbst besagt, dass es **keine bekannte biologische Verbindung** zwischen JAK1-Inhibition und diesem strukturellen Entwicklungssyndrom gibt, und führt den hohen TxGNN-Score auf Graph-Embedding-Ähnlichkeitsartefakte zurück anstelle einer echten pharmakologischen Hypothese.
 
-A second candidate, brachydactyly-syndactyly syndrome (score 99.58%, rank 5278), shows the same pattern: a limb-development disorder (typically HOX gene / BMP-Hedgehog pathway related) with no plausible connection to JAK1 inhibition, and no supporting trials or literature. Both top-ranked predictions in this batch should be treated as low-confidence model artifacts rather than actionable repurposing candidates.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Ein zweiter Kandidat, Brachydaktylie-Syndaktylie-Syndrom (Score 99,58%, Rang 5278), zeigt das gleiche Muster: eine Gliedmaßen-Entwicklungsstörung (typischerweise mit HOX-Gen/BMP-Hedgehog-Weg verknüpft) ohne plausible Verbindung zur JAK1-Inhibition und ohne unterstützende Studien oder Literatur. Beide höher bewerteten Vorhersagen in diesem Batch sollten als Modell-Artefakte mit niedriger Konfidenz und nicht als umsetzbare Umwidmungskandidaten behandelt werden.
 
 ---
 
-## Literature Evidence
+## Evidenz aus klinischen Studien
 
-Currently no related literature available.
-
----
-
-## Germany Market Information
-
-Upadacitinib currently holds **no marketing authorization** on record in this jurisdiction (market status: Not Marketed, 0 authorizations). No product/license data available.
+Derzeit sind keine verwandten klinischen Studien registriert.
 
 ---
 
-## Safety Considerations
+## Evidenz aus der Literatur
 
-Please refer to the package insert for safety information.
-
-*(Note: TFDA label warnings/contraindications and DDI data are currently missing — see `DG001`, a Blocking-severity gap that prevents S1 safety pre-assessment.)*
+Derzeit ist keine verwandte Literatur verfügbar.
 
 ---
 
-## Conclusion and Next Steps
+## Marktinformationen Deutschland
 
-**Decision: Hold**
+Upadacitinib hält derzeit **keine Marktgenehmigung** in diesem Rechtsraum (Markt-Status: Nicht im Handel, 0 Zulassungen). Keine Produkt-/Lizenzdaten verfügbar.
+
+---
+
+## Sicherheitserwägungen
+
+Bitte beziehen Sie sich auf die Fachinformation für Sicherheitsinformationen.
+
+*(Hinweis: TFDA-Etikett-Warnungen/Kontraindikationen und DDI-Daten fehlen derzeit — siehe `DG001`, eine Sicherheitsdaten-Lücke von Blockierendem Schweregrad, die eine S1-Sicherheitsvorab-Bewertung verhindert.)*
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Hold**
 
 **Rationale:**
-The predicted indication has no supporting clinical trials or literature (Evidence Level L5), and the evidence pack's own mechanistic analysis assesses the drug-disease link as biologically implausible, likely reflecting embedding-similarity noise rather than a genuine signal. Combined with a Blocking-severity safety data gap (TFDA label unavailable) and missing MOA/original-indication data, there is insufficient basis to advance this candidate.
+Die vorhergesagte Indikation weist keine unterstützenden klinischen Studien oder Literatur auf (Evidenzgrad L5), und die mechanistische Analyse des Evidenzpakets selbst bewertet die Wirkstoff-Krankheits-Verbindung als biologisch implausibel, wahrscheinlich Embedding-Ähnlichkeitsrauschen widerspiegelnd anstelle eines echten Signals. Kombiniert mit einer Sicherheitsdaten-Lücke von Blockierendem Schweregrad (TFDA-Etikett nicht verfügbar) und fehlenden MOA-/ursprünglichen-Indikations-Daten gibt es unzureichende Grundlage, um diesen Kandidaten voranzutreiben.
 
-**To proceed, the following is needed:**
-- TFDA label (warnings, contraindications) to resolve DG001 (Blocking)
-- Confirmed original MOA and approved indication(s) via DrugBank/regulatory source (DG002)
-- Independent mechanistic or preclinical rationale linking JAK1 inhibition to this syndrome before allocating further review resources
-- If no such rationale emerges, deprioritize both rank-1 and rank-2 candidates as low-value predictions
+**Um fortzufahren, wird Folgendes benötigt:**
+- TFDA-Etikett (Warnungen, Kontraindikationen) zur Auflösung von `DG001` (Blockierend)
+- Bestätigte ursprüngliche MOA und genehmigte Indikation(en) via DrugBank/behördliche Quelle (`DG002`)
+- Unabhängige mechanistische oder präklinische Rationale, die JAK1-Inhibition mit diesem Syndrom verknüpft, bevor weitere Überprüfungsressourcen zugewiesen werden
+- Falls keine solche Rationale auftaucht, deprioritisieren Sie sowohl Rang-1- als auch Rang-2-Kandidaten als Vorhersagen mit niedrigem Wert
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

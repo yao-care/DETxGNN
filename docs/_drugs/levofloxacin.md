@@ -29,70 +29,69 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-Using the evidence pack as-is, here's the report:
+# Levofloxacin: Von Bakterieninfektionen zur punktförmigen epithelialen Keratokonjunktivitis
 
----
+## Zusammenfassung in einem Satz
 
-# Levofloxacin: From Bacterial Infections to Punctate Epithelial Keratoconjunctivitis
+> Levofloxacin ist ein Breitspektrum-Fluorchinolon-Antibiotikum, das bereits zur Behandlung von Bakterieninfektionen etabliert ist.
+> Das TxGNN-Modell prognostiziert, dass es möglicherweise wirksam gegen **punktförmige epitheliale Keratokonjunktivitis** sein könnte,
+> aber derzeit unterstützen nur **1 Publikation** diese Richtung – und dieser Bericht beschreibt tatsächlich einen *mikrosporidialen* (nicht-bakteriellen) Erreger, eine mechanistische Nichtübereinstimmung, die die Stärke dieses spezifischen Signals begrenzt.
 
-## One-Sentence Summary
-
-> Levofloxacin is a broad-spectrum fluoroquinolone antibiotic already established for treating bacterial infections.
-> The TxGNN model predicts it may be effective for **Punctate Epithelial Keratoconjunctivitis**,
-> but currently only **1 publication** supports this direction — and that report actually describes a *microsporidial* (non-bacterial) pathogen, a mechanistic mismatch that limits the strength of this specific signal.
-
-## Quick Overview
+## Schnellübersicht
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial infections (fluoroquinolone antibiotic class; no formal approved-indication text on file) |
-| Predicted New Indication | Punctate Epithelial Keratoconjunctivitis |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L4 |
-| Taiwan Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold (Research Question) |
+| Ursprüngliche Indikation | Bakterieninfektionen (Fluorchinolon-Antibiotika-Klasse; kein formaler genehmigter Indikationstext in der Datei) |
+| Vorhergesagte neue Indikation | Punktförmige epitheliale Keratokonjunktivitis |
+| TxGNN-Vorhersage-Score | 99.92% |
+| Evidenzgrad | L4 |
+| Status auf dem taiwanischen Markt | ✗ Nicht vermarktet |
+| Anzahl der Zulassungen | 0 |
+| Empfohlene Entscheidung | Halten (Forschungsfrage) |
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage sinnvoll?
 
-Currently, detailed mechanism of action data is not available. Based on known information, levofloxacin is a fluoroquinolone-class antibacterial agent, and its efficacy against bacterial infections is well established; mechanistically it could be applicable to *bacterial* forms of keratoconjunctivitis, where topical fluoroquinolones are already a common clinical choice.
+Derzeit sind detaillierte Daten zum Wirkmechanismus nicht verfügbar. Basierend auf bekannten Informationen ist Levofloxacin ein Antibakterielles Mittel der Fluorchinolon-Klasse, und seine Wirksamkeit gegen Bakterieninfektionen ist gut etabliert; mechanistisch könnte es auf *bakterielle* Formen der Keratokonjunktivitis anwendbar sein, wo topische Fluorchinolone bereits eine häufige klinische Wahl sind.
 
-However, the single piece of supporting literature in this evidence pack (PMID 30055152) does not actually describe a bacterial etiology — it reports an outbreak of **microsporidial** keratoconjunctivitis linked to contaminated swimming pool water in Taiwan. Microsporidia are eukaryotic pathogens outside levofloxacin's antibacterial spectrum, so this particular evidence does not mechanistically support the TxGNN prediction, even though the general drug class is plausible for bacterial keratoconjunctivitis.
+Allerdings beschreibt die einzige unterstützende Literatur in diesem Evidenzpaket (PMID 30055152) tatsächlich keine bakterielle Ätiologie – sie berichtet über einen Ausbruch von **mikrosporidialer** Keratokonjunktivitis, der mit kontaminiertem Wasser aus Schwimmbädern in Taiwan verbunden ist. Mikrosporidia sind eukaryotische Erreger außerhalb des antibakteriellen Spektrums von Levofloxacin, daher unterstützt diese besondere Evidenz die TxGNN-Vorhersage mechanistisch nicht, obwohl die allgemeine Arzneimittelklasse für bakterielle Keratokonjunktivitis plausibel ist.
 
-It is also worth noting that among the 10 TxGNN-predicted indications in this evidence pack, two other candidates show substantially stronger evidence: **monoclonal gammopathy** (rank 6, evidence level L1, supported by a Phase 3 RCT — the TEAMM trial — for infection prophylaxis) and **septicemic plague** (rank 9, evidence level L2, an indication levofloxacin is already FDA-approved for via the Animal Rule). These may be more productive directions for further repurposing evaluation than the rank-1 candidate discussed here.
+Es ist auch erwähnenswert, dass unter den 10 TxGNN-prognostizierten Indikationen in diesem Evidenzpaket zwei weitere Kandidaten wesentlich stärkere Evidenzen zeigen: **monoklonale Gammopathie** (Rang 6, Evidenzgrad L1, unterstützt durch eine Phase-3-RCT – die TEAMM-Studie – zur Infektionsprophylaxe) und **septikämische Pest** (Rang 9, Evidenzgrad L2, eine Indikation, für die Levofloxacin bereits via Tierregel FDA-genehmigt wurde). Diese könnten produktivere Richtungen für weitere Umwidmungsbewertungen darstellen als der hier besprochene Kandidat mit Rang 1.
 
-## Clinical Trial Evidence
+## Evidenz aus klinischen Studien
 
-Currently no related clinical trials registered.
+Derzeit sind keine entsprechenden klinischen Studien registriert.
 
-## Literature Evidence
+## Literatur-Evidenz
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Year | Type | Journal | Wichtigste Erkenntnisse |
 |------|-----|------|------|---------|
-| [30055152](https://pubmed.ncbi.nlm.nih.gov/30055152/) | 2018 | Outbreak Report | American Journal of Ophthalmology | Describes an outbreak of **microsporidial** (non-bacterial) keratoconjunctivitis from contaminated swimming pools in Taiwan; pathogen type does not match levofloxacin's antibacterial mechanism |
+| [30055152](https://pubmed.ncbi.nlm.nih.gov/30055152/) | 2018 | Ausbruchsbericht | American Journal of Ophthalmology | Beschreibt einen Ausbruch von **mikrosporidialer** (nicht-bakterieller) Keratokonjunktivitis von kontaminierten Schwimmbädern in Taiwan; der Erregertyp passt nicht zum antibakteriellen Wirkmechanismus von Levofloxacin |
 
-## Taiwan Market Information
+## Informationen zum taiwanischen Markt
 
-Levofloxacin currently has no TFDA marketing authorization on file (0 licenses) and is not marketed in Taiwan according to this dataset.
+Levofloxacin hat derzeit keine TFDA-Marktgenehmigung in dieser Datei (0 Lizenzen) und wird nach diesem Datensatz nicht in Taiwan vermarktet.
 
-## Safety Considerations
+## Sicherheitsüberlegungen
 
-Please refer to the package insert for safety information.
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
 
-Note: Regulatory-grade labeling (warnings, contraindications) is flagged in this evidence pack as a **Blocking** data gap (DG001) — it must be resolved before this candidate can advance to any formal safety review (S1).
+Hinweis: Die regulatorische Kennzeichnung (Warnhinweise, Kontraindikationen) wird in diesem Evidenzpaket als **blockierende** Datenlücke gekennzeichnet (DG001) – sie muss behoben werden, bevor dieser Kandidat in eine formelle Sicherheitsbewertung (S1) voranschreiten kann.
 
-## Conclusion and Next Steps
+## Schlussfolgerung und nächste Schritte
 
-**Decision: Hold**
+**Entscheidung: Halten**
 
-**Rationale:**
-The only literature evidence for punctate epithelial keratoconjunctivitis describes a mechanistically mismatched pathogen (microsporidial, not bacterial), and evidence level L4 with no clinical trials does not support advancing this specific indication beyond a research question at this stage.
+**Begründung:**
 
-**To proceed, the following is needed:**
-- TFDA-approved labeling (warnings/contraindications) — currently a Blocking gap (DG001)
-- Formal mechanism of action documentation (DG002)
-- Literature specifically evaluating levofloxacin against *bacterial* (not microsporidial) keratoconjunctivitis pathogens
-- Consider redirecting repurposing evaluation toward the two higher-evidence candidates in this same pack: monoclonal gammopathy/plasma cell dyscrasia infection prophylaxis (L1, Phase 3 RCT) and septicemic plague (L2, FDA Animal Rule-approved)
+Die einzige literarische Evidenz für punktförmige epitheliale Keratokonjunktivitis beschreibt einen mechanistisch nicht passenden Erreger (mikrosporidat, nicht bakteriell), und der Evidenzgrad L4 ohne klinische Studien rechtfertigt nicht, diese spezifische Indikation in diesem Stadium über eine Forschungsfrage hinaus voranzubringen.
+
+**Um fortzufahren, wird folgendes benötigt:**
+
+- TFDA-genehmigte Kennzeichnung (Warnhinweise/Kontraindikationen) – derzeit eine blockierende Lücke (DG001)
+- Formale Wirkmechanismus-Dokumentation (DG002)
+- Literatur, die speziell Levofloxacin gegen *bakterielle* (nicht mikrosporidiale) Keratokonjunktivitis-Erreger evaluiert
+- Erwägen Sie, die Umwidmungsbewertung auf die beiden höher-evidenten Kandidaten in diesem Paket umzuleiten: monoklonale Gammopathie/Plasmazelldyskrasie-Infektionsprophylaxe (L1, Phase-3-RCT) und septikämische Pest (L2, via Tierregel FDA-genehmigt)
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

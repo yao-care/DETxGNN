@@ -29,62 +29,63 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# BRENTUXIMAB VEDOTIN: Drug Repurposing Evaluation — No TxGNN Predictions Available
+# BRENTUXIMAB VEDOTIN: Bewertung der Arzneimittelneuverwertung — Keine TxGNN-Vorhersagen verfügbar
 
-## One-Sentence Summary
+## Zusammenfassung in einem Satz
 
-BRENTUXIMAB VEDOTIN (DrugBank ID: DB08870) is currently not marketed in Taiwan and has no registered indications recorded in this Evidence Pack.
-The TxGNN model has not generated any repurposing predictions for this drug in the current data pipeline run.
-This evaluation **cannot be completed** until two critical data gaps — mechanism of action and package insert safety data — are resolved and the prediction pipeline is re-executed.
+BRENTUXIMAB VEDOTIN (DrugBank ID: DB08870) ist derzeit nicht in Taiwan vermarktet und hat keine registrierten Indikationen in diesem Evidence Pack aufgezeichnet.
+Das TxGNN-Modell hat in der aktuellen Pipeline-Ausführung keine Neuverwertungsvorhersagen für dieses Arzneimittel generiert.
+Diese Bewertung **kann nicht abgeschlossen werden**, bis zwei kritische Datenlücken — Wirkmechanismus und Packungsbeilage-Sicherheitsdaten — behoben und die Vorhersage-Pipeline erneut ausgeführt werden.
 
 ---
 
-## Quick Overview
+## Schnellübersicht
 
-| Item | Content |
+| Punkt | Inhalt |
 |------|---------|
-| Original Indication | Not available in current dataset |
-| Predicted New Indication | No predictions generated |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | N/A |
-| Taiwan Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+| Original-Indikation | In aktuellem Datensatz nicht verfügbar |
+| Vorhergesagte neue Indikation | Keine Vorhersagen generiert |
+| TxGNN-Vorhersagewert | Nicht zutreffend |
+| Evidenzstufe | Nicht zutreffend |
+| Taiwan-Marktstatus | Nicht vermarktet |
+| Anzahl der Genehmigungen | 0 |
+| Empfohlene Entscheidung | **Halten** |
 
 ---
 
-## Data Gaps Blocking This Evaluation
+## Datenlücken, die diese Bewertung blockieren
 
-Two unresolved data gaps are preventing a complete report:
+Zwei ungelöste Datenlücken verhindern einen vollständigen Bericht:
 
-| Gap ID | Severity | Missing Item | Impact | Remediation |
+| Lückennummer | Schweregrad | Fehlendes Element | Auswirkungen | Behebung |
 |--------|----------|-------------|--------|-------------|
-| DG001 | 🔴 Blocking | TFDA package insert warnings & contraindications | Cannot proceed to safety screening (S1) | Download package insert PDF from TFDA website and parse |
-| DG002 | 🟠 High | Mechanism of Action (MOA) | Cannot perform mechanistic plausibility analysis | Query DrugBank API for DB08870 |
+| DG001 | 🔴 Blockierend | TFDA-Packungsbeilage Warnungen & Kontraindikationen | Kann nicht mit Sicherheitsuntersuchung (S1) fortfahren | PDF-Packungsbeilage von TFDA-Website herunterladen und auswerten |
+| DG002 | 🟠 Hoch | Wirkmechanismus (MOA) | Kann keine mechanistische Plausibilitätsanalyse durchführen | DrugBank-API für DB08870 abfragen |
 
-Because `predicted_indications` is an empty array, none of the following standard sections — *Why is This Prediction Reasonable*, *Clinical Trial Evidence*, *Literature Evidence* — can be populated. They are omitted per report rules.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+Da `predicted_indications` ein leeres Array ist, können keine der folgenden Standard-Abschnitte — *Warum ist diese Vorhersage vernünftig*, *Evidenz klinischer Studien*, *Literaturevidenz* — aufgefüllt werden. Sie sind gemäß Berichtsregeln weggelassen.
 
 ---
 
-## Conclusion and Next Steps
+## Sicherheitsüberlegungen
 
-**Decision: Hold**
+Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
 
-**Rationale:**
-The TxGNN pipeline returned zero predictions for BRENTUXIMAB VEDOTIN in this run, and one Blocking data gap (DG001: missing package insert safety data) prevents even a preliminary safety screen. No meaningful repurposing assessment can be issued without resolving these gaps first.
+---
 
-**To proceed, the following is needed:**
+## Schlussfolgerung und nächste Schritte
 
-1. **Resolve DG001 (Blocking)** — Retrieve the TFDA package insert PDF for BRENTUXIMAB VEDOTIN and extract key warnings and contraindications; this is required before any safety evaluation can begin.
-2. **Resolve DG002 (High)** — Query the DrugBank API (DB08870) to obtain the full mechanism of action, drug categories, and toxicity data; this enables mechanistic plausibility analysis and cytotoxicity assessment.
-3. **Re-run TxGNN prediction pipeline** — Once drug-level data is complete, resubmit to the prediction model to generate candidate repurposing indications with confidence scores.
-4. **Confirm original approved indications** — The `original_indications` array is currently empty; cross-reference with DrugBank or EMA/FDA label to populate this field before the next pipeline run.
+**Entscheidung: Halten**
+
+**Begründung:**
+Die TxGNN-Pipeline gab in dieser Ausführung null Vorhersagen für BRENTUXIMAB VEDOTIN zurück, und eine Blockierende Datenlücke (DG001: fehlende Packungsbeilage-Sicherheitsdaten) verhindert sogar eine vorläufige Sicherheitsuntersuchung. Ohne Behebung dieser Lücken kann keine aussagekräftige Neuverwertungsbewertung ausgestellt werden.
+
+**Um fortzufahren, ist Folgendes erforderlich:**
+
+1. **DG001 beheben (Blockierend)** — Abrufen der TFDA-Packungsbeilage PDF für BRENTUXIMAB VEDOTIN und Extrahieren von Schlüsselwarnungen und Kontraindikationen; dies ist erforderlich, bevor eine Sicherheitsbewertung beginnen kann.
+2. **DG002 beheben (Hoch)** — Abfragen der DrugBank-API (DB08870), um den vollständigen Wirkmechanismus, Arzneimittelkategorien und Toxizitätsdaten zu erhalten; dies ermöglicht die Analyse der mechanistischen Plausibilität und Zytotoxizitätsbewertung.
+3. **TxGNN-Vorhersage-Pipeline erneut ausführen** — Sobald die Arzneimitteldaten vollständig sind, erneut an das Vorhersagemodell einreichen, um Kandidaten-Neuverwertungsindikationen mit Konfidenzwerten zu generieren.
+4. **Ursprüngliche genehmigte Indikationen bestätigen** — Das Array `original_indications` ist derzeit leer; Vergleich mit DrugBank oder EMA/FDA-Label durchführen, um dieses Feld vor der nächsten Pipeline-Ausführung auszufüllen.
+
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
