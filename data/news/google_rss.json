@@ -1,15 +1,15 @@
 {
-  "fetched_at": "2026-09-26T19:34:07.960557+00:00",
+  "fetched_at": "2026-09-26T22:26:59.031058+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
     {
-      "id": "f10801a95e40",
-      "title": "Zuzahlung für Medikamente: Warum Online-Apotheken und Apotheken streiten - mdr.de",
+      "id": "0b8e953ff69e",
+      "title": "Zuzahlung für Medikamente: Warum Online-Apotheken und Apotheken streiten - MDR.de",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONTJMT2tHcUkwNHMyUHFuTjFHWTZCYW0yWC10X3REb3Zya1JDQ2JvOHJsRXNjTk1tNl90MjF1cUFYYmtza0d5VUY3bWtiUTV0T05PeWVyZjZWbXE4M1JuZGlJdzR2c0N6WjcyS0VxaDFHMzg2cDRyaDk4QTNJNGhUXzdoUGliWklpZHc?oc=5",
       "published": "2026-09-26T18:19:00+00:00",
       "source": {
-        "name": "mdr.de",
+        "name": "MDR.de",
         "url": "https://www.mdr.de"
       }
     },
@@ -64,16 +64,6 @@
       }
     },
     {
-      "id": "22400e63c393",
-      "title": "Selbstmedikation ist Verantwortung, nicht Selbstbedienung: Apotheke bleibt Vertrauensort Nummer eins - Presseportal",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1aSUtySnV1cmRSV3h0TnR4QTlpNEROVDZxeUI5Z3RtcERzLXRTaFc0eEpsQzRWVGJUczhjZXNxQ0E1cU5KYUs4aHM5ZjVERzhwcERzS2VMbw?oc=5",
-      "published": "2026-09-23T08:26:09+00:00",
-      "source": {
-        "name": "Presseportal",
-        "url": "https://www.presseportal.de"
-      }
-    },
-    {
       "id": "5de7f5f9a046",
       "title": "Arzneimittelinnovationen: Gesundheit lohnt sich - Pharma Fakten",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOeUYyY3VPbmUwNDhySlJRZGhLSV9CUDRaUlVxek44dHRjQ0JhQ25lcFNwaW5YaVpCbFI2MVJCU1lUZVZkNHBrQVpPQm9iTGlQWlRYMXdIazdCSmhHU0lpd3JMaWtaaEoxcUNScGZQckY2VTVJcklHZWxfb015TVM2bzE5bw?oc=5",
@@ -81,6 +71,16 @@
       "source": {
         "name": "Pharma Fakten",
         "url": "https://pharma-fakten.de"
+      }
+    },
+    {
+      "id": "22400e63c393",
+      "title": "Selbstmedikation ist Verantwortung, nicht Selbstbedienung: Apotheke bleibt Vertrauensort Nummer eins - Presseportal",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1aSUtySnV1cmRSV3h0TnR4QTlpNEROVDZxeUI5Z3RtcERzLXRTaFc0eEpsQzRWVGJUczhjZXNxQ0E1cU5KYUs4aHM5ZjVERzhwcERzS2VMbw?oc=5",
+      "published": "2026-09-23T08:26:09+00:00",
+      "source": {
+        "name": "Presseportal",
+        "url": "https://www.presseportal.de"
       }
     },
     {
@@ -114,16 +114,6 @@
       }
     },
     {
-      "id": "d9fda55414fd",
-      "title": "Vitamin-D-Mangel: Für wen ist das Risiko besonders hoch? - Augsburger Allgemeine",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdmV6U3NmUnNCMmlabW12NWhiTE9EUll1X1g1d3djVmIxNTJpWmxPbnN5Y0dPVGU2WjE1Z0llRDE1Qk1qT1l0bWE5SWxiRlBZVVk3MWhpS0N2REU0bDZ1TW5fcHBqcjB4R29LZWVmQngxTlRBeWRYcllQek1KMjhoRW1CM0Nyd1lxMnNpWEZIYkt4SXQtQW1BZVQ3am94eVpiOXNtVkdHWWRhQVREdzVlWXFvQk9jM0E?oc=5",
-      "published": "2026-09-26T03:12:21+00:00",
-      "source": {
-        "name": "Augsburger Allgemeine",
-        "url": "https://www.augsburger-allgemeine.de"
-      }
-    },
-    {
       "id": "52fd48031a7b",
       "title": "Prozess um Online-Apotheke der Drogeriemarktkette DM - Badische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNanpUU081RUVrZ0tRcTlYcWJ6UVotNFBMYXQxTjg4S2F3bFFQLWU5SFVDY1VacEdPdE9jMU5pTC1jcHppdzZiSE1Ram43STZnYXh2SmltWWtaU0pmZVpMcjVhcW5CZ1lFX0ZYdWpsVkhtNENIQzdfR1VHVTBIblpCTi14cU9adHdZdmpqWA?oc=5",
@@ -144,13 +134,23 @@
       }
     },
     {
-      "id": "f08328cd6ce9",
-      "title": "Mounjaro zum Abnehmen: Expertin warnt vor Risiken für Gesundheit, Haut und Haare - fr.de",
+      "id": "238d627fd5b2",
+      "title": "Mounjaro zum Abnehmen: Expertin warnt vor Risiken für Gesundheit, Haut und Haare - Frankfurter Rundschau",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPekhkdTRkanJIdWVpUWJha2UtdnE1SzFSMGVVeXR2YXBzcVNRMEFVWkdWQm1rWVVNSXZLQVZ3c3VYMjhJdmV4bGtDUklPZlZ1Rno4X1hhbXhUdDFWdHVTcUw0bUxtZTl4UzFKM1FUdGFpNGZVYjBfZklpU2xZTFluUXRXZXhLVU43cXRxUkdTaHJUcFJKVXFwTXdRYW4zWE1KaUMwUU82dkFtODJuLTBnZVJIWGJSZXZtbWwxTS1B?oc=5",
       "published": "2026-09-17T07:00:00+00:00",
       "source": {
-        "name": "fr.de",
+        "name": "Frankfurter Rundschau",
         "url": "https://www.fr.de"
+      }
+    },
+    {
+      "id": "d9fda55414fd",
+      "title": "Vitamin-D-Mangel: Für wen ist das Risiko besonders hoch? - Augsburger Allgemeine",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdmV6U3NmUnNCMmlabW12NWhiTE9EUll1X1g1d3djVmIxNTJpWmxPbnN5Y0dPVGU2WjE1Z0llRDE1Qk1qT1l0bWE5SWxiRlBZVVk3MWhpS0N2REU0bDZ1TW5fcHBqcjB4R29LZWVmQngxTlRBeWRYcllQek1KMjhoRW1CM0Nyd1lxMnNpWEZIYkt4SXQtQW1BZVQ3am94eVpiOXNtVkdHWWRhQVREdzVlWXFvQk9jM0E?oc=5",
+      "published": "2026-09-26T03:12:21+00:00",
+      "source": {
+        "name": "Augsburger Allgemeine",
+        "url": "https://www.augsburger-allgemeine.de"
       }
     },
     {
@@ -214,16 +214,6 @@
       }
     },
     {
-      "id": "c4f037fc938f",
-      "title": "Öko-Test: 17 von 17 Nahrungsergänzungsmitteln für die Wechseljahre fallen durch - Utopia.de",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdmNDZ2x4UGpqemZMN29xVFAyck9iTHNURDdmR0JkUFhhN1J5MnZuX0pkZW9iVHE0cEhRQWVPVUdQb0ExWmdtWF9ZcExhMXh4bGJVNTVtZXV5Y19rWUU1SFZENHdrM250LTJzcHhYMGNfZ05lNUJJaXRQNERJSk5FaE1tMXFKOU85dndIWGtrT3BzY28tMFVmdEdTWXNkWXdMMEVvd0VYMkhrZHZXSWkyd1RyLTlteTQ?oc=5",
-      "published": "2026-09-24T07:09:26+00:00",
-      "source": {
-        "name": "Utopia.de",
-        "url": "https://utopia.de"
-      }
-    },
-    {
       "id": "2a4cd6eb6d1d",
       "title": "Arzneimittelengpässe in Europa – so reagiert die EU - European Parliament",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYUFLam5JQVMtSlNuNWlqSTJrRUNDN215RDlRU2hOMEE0Rkp3cHBodVhSbXRsSUhvTTRhMTVLWEE5QmM0dXJRNGlPSkwyZ2doMHhlaEpHbW5DZl8tazhQc3lPcEN4SmtLaEdGMk9IZjF5MGZvNEd3a2tXSnJXT1ItanFsV2gtRGpMYjlUbHV2OURrMkM5OXA3emh5OERlMlpXc1J1UlNVYUp1UlBUd1gzREtLUkZRZw?oc=5",
@@ -234,6 +224,16 @@
       }
     },
     {
+      "id": "1ff44344120b",
+      "title": "Öko-Test: 17 von 17 Nahrungsergänzungsmitteln für die Wechseljahre fallen durch - utopia.de",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdmNDZ2x4UGpqemZMN29xVFAyck9iTHNURDdmR0JkUFhhN1J5MnZuX0pkZW9iVHE0cEhRQWVPVUdQb0ExWmdtWF9ZcExhMXh4bGJVNTVtZXV5Y19rWUU1SFZENHdrM250LTJzcHhYMGNfZ05lNUJJaXRQNERJSk5FaE1tMXFKOU85dndIWGtrT3BzY28tMFVmdEdTWXNkWXdMMEVvd0VYMkhrZHZXSWkyd1RyLTlteTQ?oc=5",
+      "published": "2026-09-24T07:09:26+00:00",
+      "source": {
+        "name": "utopia.de",
+        "url": "https://utopia.de"
+      }
+    },
+    {
       "id": "38b8b0aa9188",
       "title": "Vom Wissen zum Handeln: Verbesserung der Bezahlbarkeit von Arzneimitteln in den Ländern des Westbalkans - World Health Organization (WHO)",
       "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOZlNmcEdYcXZxdDBYazhiVjRCWHVtbms0ZG5JUWlXb0lJWXVFYjV1ak1MR05oZW5FbHFMTGpyNjJxS1ZuQWk4Nl9Wc2NHdHE3YnhrQzc1VHJNbm1QRFdMVF9WVGw2NHdVeDBHajRYX1hfZkFEMTU2Z09kcU04T1c1V3dKZ09nUUlMc3dnLVdvQ3RTYUZqSDA3d1djVXpxbU9fSFUtSGlHbHNOdFJRb29RQlpTRHEzd2pCQzd5Y3VRNmcza2dzTVVlYUp5Y1U5b01kMGpQUzZvNGctWE0tSmJRSEk5TQ?oc=5",
@@ -241,16 +241,6 @@
       "source": {
         "name": "World Health Organization (WHO)",
         "url": "https://www.who.int"
-      }
-    },
-    {
-      "id": "92037bc9199d",
-      "title": "Statine morgens oder abends? Arzt erklärt den besten Zeitpunkt - morgenpost.de",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTkk3WEdaSDRhWlRqZGZZNXF0UVVXZFNyLWVXMVFjT2tPdXBVS0dDU1duLTF2dFpnYklsQ2NiQnNwRUxzTXljcHRJZExCN1A3RjVrOURSNVdwTjA4ZGJkV1hBWmU4VW1oZkRtQTBfenh0ZzVxVTBwOWVGWndLaVNKNmpocDRBbjhCX2JlOUx2Yy10VTk2Z3FEZElnM3RFS0JKNEpWZzBDSy1iQQ?oc=5",
-      "published": "2026-09-25T10:24:00+00:00",
-      "source": {
-        "name": "morgenpost.de",
-        "url": "https://www.morgenpost.de"
       }
     },
     {
@@ -284,16 +274,6 @@
       }
     },
     {
-      "id": "71836b7b68f7",
-      "title": "Medikament online bestellen: Was (nicht) gespart werden kann - mdr.de",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQzh1VE1KZllWYkVqdlVTdVZJY0xBcGdDZUR1NGhOOXNlS3VPcktlR00tbUJPdWlHNUhCajJ4RGthVUhQUnEwaXl2T2p6Um90NXdlMTdIblB0X0lPR0pfUTZ2LTBkRWgydWRPRllnYUJGV24xaktzY1MwQmJJM0JxUlFKMnJpLV9Qd1lz?oc=5",
-      "published": "2026-07-30T07:00:00+00:00",
-      "source": {
-        "name": "mdr.de",
-        "url": "https://www.mdr.de"
-      }
-    },
-    {
       "id": "b72b17004edd",
       "title": "\"Europa als führende Kraft des Gesundheitswesens etablieren\" - DIE ZEIT",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWUFSVWl5WkNqWlhQaFBsaW01cEtydmdyejBaWTZhTE1wbHNXVWJpd2FiVENidldkRGRBTm5sT1NrNm5FME4xWVlTN0Y0N3AyLVY2RDVscWRHN0tLY3Q2d2EtY2YtdHBpOXVSRkhfNHB1MUd3TWVlYTh0RUpsWEpLWkdhUDdPc2Z6UlBEWXl0S01nV0lDYXJGZTF5YUQxNHZsaXJhNQ?oc=5",
@@ -301,6 +281,16 @@
       "source": {
         "name": "DIE ZEIT",
         "url": "https://www.zeit.de"
+      }
+    },
+    {
+      "id": "1d15f3b6b9c3",
+      "title": "Medikament online bestellen: Was (nicht) gespart werden kann - MDR.de",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQzh1VE1KZllWYkVqdlVTdVZJY0xBcGdDZUR1NGhOOXNlS3VPcktlR00tbUJPdWlHNUhCajJ4RGthVUhQUnEwaXl2T2p6Um90NXdlMTdIblB0X0lPR0pfUTZ2LTBkRWgydWRPRllnYUJGV24xaktzY1MwQmJJM0JxUlFKMnJpLV9Qd1lz?oc=5",
+      "published": "2026-07-30T07:00:00+00:00",
+      "source": {
+        "name": "MDR.de",
+        "url": "https://www.mdr.de"
       }
     },
     {
@@ -324,12 +314,12 @@
       }
     },
     {
-      "id": "da466c1870e6",
-      "title": "Es gibt Pläne, Krebsmedikamente der neuen Generation in den Versicherungsschutz der Krankenversicherung aufzunehmen. - Vietnam.vn",
+      "id": "549e5c65856e",
+      "title": "Es gibt Pläne, Krebsmedikamente der neuen Generation in den Versicherungsschutz der Krankenversicherung aufzunehmen. - vietnam.vn",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTVh2cEFfRGFCTjF6MHdYTkNoVnQ5M2JZdmdScmdBRVBVdmR3LXROQzc1RzVHRWVXYUdyM0JJVWczU3ltYm1xaklkNEdUZnZZSjEzQVMtalJmcnVoNTl1SHhRcEwweTdYYk9uUEgzV0lJd3paN3UySGZfTEFFZVpSUTZET19TZDlUUjFnSDFtYzlzQQ?oc=5",
       "published": "2026-09-23T05:05:17+00:00",
       "source": {
-        "name": "Vietnam.vn",
+        "name": "vietnam.vn",
         "url": "https://www.vietnam.vn"
       }
     },
@@ -424,12 +414,12 @@
       }
     },
     {
-      "id": "542a9e986ac7",
-      "title": "Apotheker rücken näher an die Patienten heran und tragen so zu einer sicheren Medikamentenanwendung bei. - Vietnam.vn",
+      "id": "027179d26a51",
+      "title": "Apotheker rücken näher an die Patienten heran und tragen so zu einer sicheren Medikamentenanwendung bei. - vietnam.vn",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTXIweE0xSTFvQXk5QXB4YlNNaG1yQ0dWTG01aHlIRWdTcHg4d0k1UFFycGpxTUxsUlUtTjhZSUkzYWV3SVhNZ2NaU19qbjBKZVVTaWMxd1N3SXZRRy1hdVJWaHlTUFZ1bHZfMzNhR0pwWHlTZU1HNjEtVW5Jd0pOSVNRa0hIZXJNa0hsNE9PcVFET21MTmlCalRFblp5Zw?oc=5",
       "published": "2026-09-25T15:09:47+00:00",
       "source": {
-        "name": "Vietnam.vn",
+        "name": "vietnam.vn",
         "url": "https://www.vietnam.vn"
       }
     },
@@ -524,12 +514,12 @@
       }
     },
     {
-      "id": "e01f4b6ac873",
-      "title": "Patente und Profitorientierung blockieren Arzneimittel: Warum Millionen keinen Zugang haben - fr.de",
+      "id": "5431265615fd",
+      "title": "Patente und Profitorientierung blockieren Arzneimittel: Warum Millionen keinen Zugang haben - Frankfurter Rundschau",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPb0JSbmVWcVk1ajdydzIzRF9PM2hHQWFaYWNuSjhZbmZBbXplUGFBNklQVFptakVZdGN5UVA4VW9fS3VoRmluVzd5OHV1MXJMM3NudGpTdHR5MEI4dExjSmIzM0VoVUtCeHU2VnFfWGNTSVZYWFBsOEhValduakNSd1Z1TTZEM20zTFF0R3RLYy1NWHYza196cEkwM1ljMEtKdDdCdU1TN0J2LVU0Sk9UckdzRXpJNHVMdzZvaG9Ya2FxNEk?oc=5",
       "published": "2026-07-31T07:00:00+00:00",
       "source": {
-        "name": "fr.de",
+        "name": "Frankfurter Rundschau",
         "url": "https://www.fr.de"
       }
     },
@@ -554,12 +544,12 @@
       }
     },
     {
-      "id": "600c09be124c",
-      "title": "Gesundheit: Medikamente mit Wechselwirkung? Vor diesen Fehlern schützt die ePA - morgenpost.de",
+      "id": "566dd4d9d4e6",
+      "title": "Gesundheit: Medikamente mit Wechselwirkung? Vor diesen Fehlern schützt die ePA - Berliner Morgenpost",
       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPQnJXQjdvZFhaOHdKUjFfTHRXcU9oTF9vc21mN2U2bmNqOXF3M2o3RWIxU2R1bkx5eGRIYWJIWnF5Ty1yM0pMcW1DcG5LR2JiYlRPdFBXbUdFYmhaeVh5enZDdmY2YWlFdkQtNjVRalZKdzV0alNFbGlLWmM1c1BpcTlXcC01blFGM0dMVV83ZlpQN19kVGx3WVVKNTlXS0t0R1U2dmY0R1MwdGNzOC12MUJzcEh2M2lWendsZFphd1JxanR6elNEalAwSlRBSlczTk5jLVpvYjVQN0kyaGd3Ug?oc=5",
       "published": "2026-04-28T07:00:00+00:00",
       "source": {
-        "name": "morgenpost.de",
+        "name": "Berliner Morgenpost",
         "url": "https://www.morgenpost.de"
       }
     },
@@ -604,16 +594,6 @@
       }
     },
     {
-      "id": "11684b2eb466",
-      "title": "Gesundheitsversorgung: Volles Potenzial der Apotheken endlich nutzen - fpoe.at",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNQTN2dVo4M21xVkdqTEpXUHFtcGQ0aFRFSE96Q2tHdmNRLXI1aDJUTncwOUw1ZF9IQndZeGNKZU1XME9kODNYUmw0d19fSVlrT3poaFVKeE9XR1BzVXRxRk9CZnUtSXBwODFvM2V6V2xwZVVYcHZQNHI2dXFFMndyUDFBR2sxV2llWUZIT1Qxb0lfSHB3aDdITDdhOENoQVBCc2xVWWgtYUNWN19GUzJucF9aY2JFeFNL?oc=5",
-      "published": "2026-09-25T10:28:12+00:00",
-      "source": {
-        "name": "fpoe.at",
-        "url": "https://www.fpoe.at"
-      }
-    },
-    {
       "id": "d04f77528724",
       "title": "Arzneimittel: Apothekerverband registriert deutlich gestiegene Ausgaben für Arzneien - DIE ZEIT",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQnNYX0ZIOXRaeWxnUDA2UTMwRG5DVmhTUmNKWlNTRTJQLVNWbDAzaXpIY2FEQ0dzaTRFYzNPSE9zUEVfU2F1WkZoZmt3NWhMMkI2VkhwbU9maWFPdnBnRXdKOU8taHRHakljeUstTHlNRUxGbVNQQ3dQckcwSlhIZnZYLVFmblBWeVhVWC1NTmE3ZjhaY0x5Z092VC1Rd2tZa20wUlBxU2tpMlRrWkpnNFJYb3Jpdw?oc=5",
@@ -624,13 +604,13 @@
       }
     },
     {
-      "id": "6198aa3a8ccd",
-      "title": "Der stille „Torwächter“ und die Geschichte des sicheren und rationalen Medikamentengebrauchs. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWDYwRWoxcGFpaGpxSXJKcmExbWZKOGEtYTBMSjdmeUlxcktsWDlod0dZMHE1aE8zc3dGQWR2MG1lZjcyTndEdWxyalYxRXRfN2czZDhQOXpDRlAyQWZnMFBpcGJBdUstQTVMOEllQWkwY0kzT1lMUjlHb21XSlA2cUYwaWE1MXM5S0NkRVhCQmR0RG1k?oc=5",
-      "published": "2026-09-25T10:12:58+00:00",
+      "id": "11684b2eb466",
+      "title": "Gesundheitsversorgung: Volles Potenzial der Apotheken endlich nutzen - fpoe.at",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNQTN2dVo4M21xVkdqTEpXUHFtcGQ0aFRFSE96Q2tHdmNRLXI1aDJUTncwOUw1ZF9IQndZeGNKZU1XME9kODNYUmw0d19fSVlrT3poaFVKeE9XR1BzVXRxRk9CZnUtSXBwODFvM2V6V2xwZVVYcHZQNHI2dXFFMndyUDFBR2sxV2llWUZIT1Qxb0lfSHB3aDdITDdhOENoQVBCc2xVWWgtYUNWN19GUzJucF9aY2JFeFNL?oc=5",
+      "published": "2026-09-25T10:28:12+00:00",
       "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
+        "name": "fpoe.at",
+        "url": "https://www.fpoe.at"
       }
     },
     {
@@ -641,6 +621,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "cffd454adf6a",
+      "title": "Der stille „Torwächter“ und die Geschichte des sicheren und rationalen Medikamentengebrauchs. - vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWDYwRWoxcGFpaGpxSXJKcmExbWZKOGEtYTBMSjdmeUlxcktsWDlod0dZMHE1aE8zc3dGQWR2MG1lZjcyTndEdWxyalYxRXRfN2czZDhQOXpDRlAyQWZnMFBpcGJBdUstQTVMOEllQWkwY0kzT1lMUjlHb21XSlA2cUYwaWE1MXM5S0NkRVhCQmR0RG1k?oc=5",
+      "published": "2026-09-25T10:12:58+00:00",
+      "source": {
+        "name": "vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -734,26 +724,6 @@
       }
     },
     {
-      "id": "f5ce1a42ac54",
-      "title": "Steigende Arzneimittelkosten: Gesundheitsministerin Warken will Zugang zu neuen Medikamenten für alle erhalten - mdr.de",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPenF3ckVCSXl3ZmNka21FSTVtdkdoeGRZaEQ4Nnc4ZktKZk16U0ZUd19vYWRsZDdQUDZZLVFCd2k2anZScnRpSnJtXzRCbEozRm9fMEpkcVhjZ3dwT21zQVZPX2MybWdSUHBNeTZ3TmtESDFOWFNfM0lPV1Z4M3BmUTNkLTRfVGgxRUh4OWNOblh5ZGdCaUs5WXZmR2VVaVV5d1VHR1BHUFhubGtCWlFyZWk3VnhWZjdpWE9jNE5B?oc=5",
-      "published": "2025-12-09T08:00:00+00:00",
-      "source": {
-        "name": "mdr.de",
-        "url": "https://www.mdr.de"
-      }
-    },
-    {
-      "id": "ac0d6ecd1d51",
-      "title": "Medikamente im Urlaub: So schützen Sie sich vor Fälschungen - mt.de",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVmFuWXBXcV9mM2x0cUItRFVsbl9ONUdXMVcwemo1cWVtaV8yeHktdFZaMW5BSURRRmxTMjA0OGx3eUZvVGQzOUpNSmpTODRvUFU0VXF0SkRyaVV0eWFIanJ2NHJoQWFEeDMtSVp3SUVfYnJPTHBXM3RvRzE2aEEyejdtR0dQaUltczRkRk1nVnFjM2ViMnM0aWdJNV8ycWZHYUllZGVWM0hGelpWZ2hzanp3?oc=5",
-      "published": "2026-07-08T07:00:00+00:00",
-      "source": {
-        "name": "mt.de",
-        "url": "https://www.mt.de"
-      }
-    },
-    {
       "id": "8308fd9ff3ea",
       "title": "»Ge­ra­de in der Apo­the­ke wird Ge­sund­heit ge­lebt« - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWGI5Ni1Wb1RMSGlZbElwcDdtVjF5TzJBTVpUd0xoblBOUHl5UG8tcXlNY1FPTHBPbU5tT2J2S2VTRkFlZlVxejM2S3V6Ty14bHlXVmEtRmRPUnNoeEd0U3pWZlQ5SlZjNGF3bnhWWGF0M2h5MHVSaFZRZjBZZy1KOEZva1l2N1dzbkF0Q2dvRUc1SVN3OVVF?oc=5",
@@ -761,6 +731,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "e89bb6a1a7a1",
+      "title": "Medikamente im Urlaub: So schützen Sie sich vor Fälschungen - Mindener Tageblatt",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVmFuWXBXcV9mM2x0cUItRFVsbl9ONUdXMVcwemo1cWVtaV8yeHktdFZaMW5BSURRRmxTMjA0OGx3eUZvVGQzOUpNSmpTODRvUFU0VXF0SkRyaVV0eWFIanJ2NHJoQWFEeDMtSVp3SUVfYnJPTHBXM3RvRzE2aEEyejdtR0dQaUltczRkRk1nVnFjM2ViMnM0aWdJNV8ycWZHYUllZGVWM0hGelpWZ2hzanp3?oc=5",
+      "published": "2026-07-08T07:00:00+00:00",
+      "source": {
+        "name": "Mindener Tageblatt",
+        "url": "https://www.mt.de"
       }
     },
     {
@@ -834,32 +814,32 @@
       }
     },
     {
-      "id": "31f941c898ac",
-      "title": "Zoll: 3,9 Millionen gefälschte Arzneimittel im Umlauf - Rechtsdepesche | Für das Gesundheitswesen",
+      "id": "27c7521ef13c",
+      "title": "Zoll: 3,9 Millionen gefälschte Arzneimittel im Umlauf - rechtsdepesche.de",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBpa0dEb3VsQ1BBQUJ5UXlRQkxGLWE1aDBabTA1Q2pGc2s1RUQ1bUNXbGlvUGpuVEZEcklpb2lRWjZxekkyQlpET2hvMmRJaElTdDlMbkliN0xpb1JWR3J0MmRFOFRPeTVGMGplOWFfMnlkSGw2V0t4YTE2MDRXZw?oc=5",
       "published": "2026-02-17T08:00:00+00:00",
       "source": {
-        "name": "Rechtsdepesche | Für das Gesundheitswesen",
+        "name": "rechtsdepesche.de",
         "url": "https://www.rechtsdepesche.de"
       }
     },
     {
-      "id": "4bf4db7a6b88",
-      "title": "App \"MedAssist sicher für zwei\" - saarland.de",
+      "id": "b9ad4c3ee28b",
+      "title": "App \"MedAssist sicher für zwei\" - Saarland.de",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMllLZjQwdVNkTzE5YndaZHJjUmlUeGsta0QtUXllM3YzUEY0NnN2endjZTBmblJydVIzZUdwb2tTTGxIMUZkYlpHckVsV2YzNFh5X3BiZDBpT0tJMFRzajBNbjdXY3d1Zzl4SDNkb01lWEhSTmMxemVVNjdJRTJ4WGFZbGM5TGhiSlBTZjJMR2FfZlpRVFBtVi1jbGszcWEzRmF6Z3RmcHJ6N2s5VzVIVXBNZVNEVllwOURZVTJvNA?oc=5",
       "published": "2025-12-04T08:00:00+00:00",
       "source": {
-        "name": "saarland.de",
+        "name": "Saarland.de",
         "url": "https://www.saarland.de"
       }
     },
     {
-      "id": "b35e16b362c0",
-      "title": "Medikamente für Senioren: Studie warnt vor riskanten Wirkstoffen - morgenpost.de",
+      "id": "20a64d917dfc",
+      "title": "Medikamente für Senioren: Studie warnt vor riskanten Wirkstoffen - Berliner Morgenpost",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZ29BeW1jeXNBMHJfUWNHT1RfQWNhcG9TUzJwbE11cl9XN1VvWElYUmJORUxoclg3R08xa3VsaXhSMlBnSlE2ZkhOdWF2Z0lVempDdE9XMnBZcEVQUm5KVDBaM0I0ZWpxdzBYbkxYOWtjOGN1ZGxCUkh5TDUzeUxJc0F1dm55XzdHMEwyNUZheFRiaFdKUGtUR1JmYXRGelY0UlM3OFh4SkExRGFTVWZFamxqYXFQOHRCZjFTQThnbjRWU1JMcEM0?oc=5",
       "published": "2026-03-22T07:00:00+00:00",
       "source": {
-        "name": "morgenpost.de",
+        "name": "Berliner Morgenpost",
         "url": "https://www.morgenpost.de"
       }
     },
@@ -884,13 +864,13 @@
       }
     },
     {
-      "id": "cb759c517901",
-      "title": "Arzneimittelrisiken: Apotheken senden 11.000 Verdachtsmeldungen - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUEp3aW42WGtadEhHTmFUVDIwN3RXbEhtVWh5ZVktdDRyN0Q1azB0N0NHbG5hSGViU2lDVG5VZ0xtbzRiTGZackpzdnlfUk1IZjQwZ0ticS1uV2xLcjJMbHZrTTdzUkFuSmh4c19BTkFFODJadGhlVjk0VUVDaXB6T0hJWERDMnRuX3R6ajA2OVVJZWZTT2k3WDk4TjJXdw?oc=5",
-      "published": "2026-03-03T08:00:00+00:00",
+      "id": "03505c881614",
+      "title": "EU-Generalanwalt: Versandverbot nein, aber ... - Apotheke Adhoc",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaGRRUFJ5MDV6WGZaTE84UlB3SU83OElpQ2dBVXJTMFRLWWFlSmN0alJ0eS1ZdF9zN09MZUhESFJDd2J1TVNQeHZRQ1ZLMVNtMC1OSm9DV01oVXhWVzRtOENHbUpnRE10akgwUnRyRmkzckZ1UFhIb05aM1ZLcVN1WkFKRUVRd3VaaWpZVUdraVRVdUtER2tIc1FjTWFqS3VIY0IzeERfWnJ4UQ?oc=5",
+      "published": "2026-01-13T08:00:00+00:00",
       "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
+        "name": "Apotheke Adhoc",
+        "url": "https://www.apotheke-adhoc.de"
       }
     },
     {
@@ -904,22 +884,12 @@
       }
     },
     {
-      "id": "b027289bf54f",
-      "title": "EU-Generalanwalt: Versandverbot nein, aber ... - apotheke adhoc",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaGRRUFJ5MDV6WGZaTE84UlB3SU83OElpQ2dBVXJTMFRLWWFlSmN0alJ0eS1ZdF9zN09MZUhESFJDd2J1TVNQeHZRQ1ZLMVNtMC1OSm9DV01oVXhWVzRtOENHbUpnRE10akgwUnRyRmkzckZ1UFhIb05aM1ZLcVN1WkFKRUVRd3VaaWpZVUdraVRVdUtER2tIc1FjTWFqS3VIY0IzeERfWnJ4UQ?oc=5",
-      "published": "2026-01-13T08:00:00+00:00",
-      "source": {
-        "name": "apotheke adhoc",
-        "url": "https://www.apotheke-adhoc.de"
-      }
-    },
-    {
-      "id": "770d335601a9",
-      "title": "Aktuelle Meldungen - Per App mehr Schutz für ungeborene Kinder - saarland.de",
+      "id": "06da2e132638",
+      "title": "Aktuelle Meldungen - Per App mehr Schutz für ungeborene Kinder - Saarland.de",
       "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQSlB2RHNPd3RCZDFZaXIwbGFmMXhRQW9DTWNBNEY1Mk5WV0pxY2h4X2t0QmEtaHJ1Z3pVV0p3ZXNpSmEtVl9XdTY1MUdlbU90M2trWXduX3VjQk9MbmVpa2hsalBTa21yWkZzZFJkdklqLXllZjNzVE1DUmoyTVZydTc2Z0RSQXlVbnNpdXNSN2VlVWZ6WEM4bEN6cXFWVjJSbEFuaGJIUXZNWUIyM09ackpiV1h0cC1GM05DalBndWNUa1VJc1NhbWd3VlFWbnc1ZUg2YTZlWlR3RVdQQW9lRjhqQ2c5Zl9MQkJrTElWTFk?oc=5",
       "published": "2025-12-04T08:00:00+00:00",
       "source": {
-        "name": "saarland.de",
+        "name": "Saarland.de",
         "url": "https://www.saarland.de"
       }
     },
@@ -944,12 +914,12 @@
       }
     },
     {
-      "id": "fd0abc78a0e7",
-      "title": "Gesundheitsökonom Kugler: \"Wir bezahlen nur wirklich nützliche Medikamente\" - mdr.de",
+      "id": "5d8c89f1b6f0",
+      "title": "Gesundheitsökonom Kugler: \"Wir bezahlen nur wirklich nützliche Medikamente\" - MDR.de",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWDlDNjhEYjgwOHl4R3NZUWFqaEo4Qkd4OUZISDllZG9TcVJubHF1MnUwRVRPY2pZLWZFdlQzdktxelU5SktXdlBaSkIxcFJjN2dJUXJTYklvSFpOckcxSjdvRkxRM0RjRy0yUEtIRWVPWF9JZmNMc1d1NXFMWHFVajJ0LWY1cDh6Ql9aYmFUQnE4LVlGNUFIZW5IR0E5TU5nak5ESlB0d2hSU2U0UWJQeWRfZllHVkcyeGdMVi1uRlFFU25OV0dv?oc=5",
       "published": "2026-04-26T07:00:00+00:00",
       "source": {
-        "name": "mdr.de",
+        "name": "MDR.de",
         "url": "https://www.mdr.de"
       }
     },
@@ -964,12 +934,12 @@
       }
     },
     {
-      "id": "bbe937af0188",
-      "title": "Amazon dominiert den Markt mit Gesundheitsprodukten - deutsche-apotheker-zeitung.de",
+      "id": "705974bba917",
+      "title": "Amazon dominiert den Markt mit Gesundheitsprodukten - Deutsche Apotheker Zeitung, DAZ",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbHlZQTZWYmlGbVU5cjNqYjFlak5yVlpqT2xSenpLbFN2bDBBbE5wbTVpNDNtTmVFeUNfVlpqaHJBbUNIVVVxcVl4WThULXJaTEp3YjVQbmRfZkc5MEdCXzRKMV92aGc3UGQ4dWNVa05BM1lqcUVKZ1Z6X25rdGRNcUpha0V2a2p0N3A4LXZEdVpHTURXTVVhU1FkTkt2dUVKcWdkOTRRX25pN0JLbTQ5UXVMUjBlRmhH?oc=5",
       "published": "2026-05-11T07:00:00+00:00",
       "source": {
-        "name": "deutsche-apotheker-zeitung.de",
+        "name": "Deutsche Apotheker Zeitung, DAZ",
         "url": "https://www.deutsche-apotheker-zeitung.de"
       }
     },
@@ -1001,6 +971,36 @@
       "source": {
         "name": "WiWo",
         "url": "https://www.wiwo.de"
+      }
+    },
+    {
+      "id": "e7fc237accfb",
+      "title": "Medikamente im DM-Drogeriemarkt – Apotheken laufen Sturm - STERN.de",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMG5SMnM4aXU5czJ1S2dnUzdMeFBmb3IxQVBKWGVvcVB0eUJQUjkxRU00RHEtQlRjVU1EM0Z2WF95SG85WDJPSjVNcjRTWFM1OHVXNm5pdVAxZGtDcHJTSXFpSDAtdUstM0JISWRKcEI5OXRXZ2hXSzQ3cFJqb0g5N0ZRajJtY21JUmRNNmZweXg1bEpuOXc0Rk9CNENaMHNOYTc4OGtjZw?oc=5",
+      "published": "2025-12-16T08:00:00+00:00",
+      "source": {
+        "name": "STERN.de",
+        "url": "https://www.stern.de"
+      }
+    },
+    {
+      "id": "d9f5e9db7987",
+      "title": "Statt Hormone: Was ist das beste Mittel für die Wechseljahre? - oekotest.de",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSUhHRkkybkY5M0R3ZW4wWEphbDd3Z2tDYy1tN3UxTXN4UFYyamR6OVdXVmhjOFRCRXk4WGY2eXlBQ1A2aFBOalYzR0hCb0xiRExaZ3AxdGMwcDdvY3M0TDhzZ01VRk4tTC1xMGp3VG1RYkk2a1FiOVh4R1dTMGl2eDN2enliNHVLbFlrS2JYRXJhNTB2aTBkRGxaSEhKZUo2S3R0OE5UMFpkQzU2RjNzWWdtWDhkYWRfWFVMMnFB?oc=5",
+      "published": "2026-09-24T00:12:29+00:00",
+      "source": {
+        "name": "oekotest.de",
+        "url": "https://www.oekotest.de"
+      }
+    },
+    {
+      "id": "c5d8b7d25cb7",
+      "title": "Wie schütze ich mich gut vor Hitze? Tipps und Warnsignale - RiffReporter",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQa0dCOUVKTlFyRkxNeGVUOWJOX2Iyc19EVkx3aldKemFRVU5WOFBxWWJ4VWhzUkN0ZkJNdDFLcEtER0tCai1Sb2FpVmEyTFBqVnNZSmw1Wi1YR05jOWxSZnhkVGVkdnFHcnBRMHFaaFg1Z2JFa3RpOWd3WWxLa29rMGRTU2hDM2RWTTEtY3lfaG9tdHNlOGo5Vg?oc=5",
+      "published": "2026-06-19T07:00:00+00:00",
+      "source": {
+        "name": "RiffReporter",
+        "url": "https://www.riffreporter.de"
       }
     }
   ]
