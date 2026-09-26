@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-26T12:43:51.009978+00:00",
+  "fetched_at": "2026-09-26T16:54:04.195140+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -34,16 +34,6 @@
       }
     },
     {
-      "id": "22a9659e6285",
-      "title": "Arzneimittel: Ausgaben für Volkskrankheiten seit 2014 stark gestiegen - AerzteZeitung.de",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSmZlbW9YZ09NWnVjTFN2VVVXdkVuMjk1Q29taUhmTzVWU3ZLb3YxNGQwS2prRTVWbzEwQ2ZqRmd1N0prWGhjTk1oOTB3Y2sxaDd6UXNvcmtqMkZhbDRaNE9ocUhaR3dKU3NwanhmeGVHQmJvdTVtSlRhMEprbW1KSGFneVA2YmhGdkxFelNJQXUxcFlDRHBnOEhHR2pnc2FNenZZeXpGdXRKaFBESkZLb1d3Q1J3T045TXc?oc=5",
-      "published": "2026-09-23T09:30:00+00:00",
-      "source": {
-        "name": "AerzteZeitung.de",
-        "url": "https://www.aerztezeitung.de"
-      }
-    },
-    {
       "id": "df686f757357",
       "title": "Wechseljahre: Sind frei verkäufliche Mittel sinnvoll? - Lippische Landes-Zeitung",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMDY1WjZ1ODZpbUZOdkpfZ2NxX3lmd1BVd2k2WFNsdEN2MWEzbEYzekQxamQ4aEkta0plc1J4bUZwNkNZUVY0V3B3WVptenFsbG5vZEN2Z0hrb1IzbUVRSGxBZ2FNWTgwblJ0NHkyYThqdmJtVHlRb2JQQy1DQ3dSM2dHd3puc0Q4YU1DQ0IxRW9GZk5ncTlOSGM3elZ1MkVTcWRBQmItSQ?oc=5",
@@ -51,6 +41,16 @@
       "source": {
         "name": "Lippische Landes-Zeitung",
         "url": "https://www.lz.de"
+      }
+    },
+    {
+      "id": "22a9659e6285",
+      "title": "Arzneimittel: Ausgaben für Volkskrankheiten seit 2014 stark gestiegen - AerzteZeitung.de",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSmZlbW9YZ09NWnVjTFN2VVVXdkVuMjk1Q29taUhmTzVWU3ZLb3YxNGQwS2prRTVWbzEwQ2ZqRmd1N0prWGhjTk1oOTB3Y2sxaDd6UXNvcmtqMkZhbDRaNE9ocUhaR3dKU3NwanhmeGVHQmJvdTVtSlRhMEprbW1KSGFneVA2YmhGdkxFelNJQXUxcFlDRHBnOEhHR2pnc2FNenZZeXpGdXRKaFBESkZLb1d3Q1J3T045TXc?oc=5",
+      "published": "2026-09-23T09:30:00+00:00",
+      "source": {
+        "name": "AerzteZeitung.de",
+        "url": "https://www.aerztezeitung.de"
       }
     },
     {
@@ -94,13 +94,13 @@
       }
     },
     {
-      "id": "c631485721a4",
-      "title": "Nicht mehr Kranke – aber mehr Kosten: Krankenkasse enthüllt den wahren Preistreiber - T-Online",
-      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPam83bVBqRE45RTN3QVJKZGVqVEd0cDVZVjk0aEI5Sk5Pc2hGQVkyT0ZXOE85STEzQjlPMU55VGh5OEo1Y1A2UVZoSnV3WGM0OVc5Q05BNGIxWTlGOUx2RzA3XzF6alRrbVBGUm5GQUp0SjJQZ3diQU9Bb0hLeUhQSHpqVW5yWnlsYUdhZHYwNEpVc1o2YzNyQ1E3QTNEWE5EM0RqVU11UkNqRVZjdXNDMFQwTjNacl9qYzlzWHJ3bmRKd3ZuSHRZRXE5OHBEZFZWUlpHUnBRSUtqVXl5eUdGR3dwR0hRYTRZSDNWbEctZTc0ZVZldXc?oc=5",
-      "published": "2026-09-23T09:42:51+00:00",
+      "id": "d9fda55414fd",
+      "title": "Vitamin-D-Mangel: Für wen ist das Risiko besonders hoch? - Augsburger Allgemeine",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdmV6U3NmUnNCMmlabW12NWhiTE9EUll1X1g1d3djVmIxNTJpWmxPbnN5Y0dPVGU2WjE1Z0llRDE1Qk1qT1l0bWE5SWxiRlBZVVk3MWhpS0N2REU0bDZ1TW5fcHBqcjB4R29LZWVmQngxTlRBeWRYcllQek1KMjhoRW1CM0Nyd1lxMnNpWEZIYkt4SXQtQW1BZVQ3am94eVpiOXNtVkdHWWRhQVREdzVlWXFvQk9jM0E?oc=5",
+      "published": "2026-09-26T03:12:21+00:00",
       "source": {
-        "name": "T-Online",
-        "url": "https://www.t-online.de"
+        "name": "Augsburger Allgemeine",
+        "url": "https://www.augsburger-allgemeine.de"
       }
     },
     {
@@ -114,12 +114,12 @@
       }
     },
     {
-      "id": "bf52e4bbfe33",
-      "title": "Prozess um Online-Apotheke der Drogeriemarktkette DM - badische-zeitung.de",
+      "id": "52fd48031a7b",
+      "title": "Prozess um Online-Apotheke der Drogeriemarktkette DM - Badische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNanpUU081RUVrZ0tRcTlYcWJ6UVotNFBMYXQxTjg4S2F3bFFQLWU5SFVDY1VacEdPdE9jMU5pTC1jcHppdzZiSE1Ram43STZnYXh2SmltWWtaU0pmZVpMcjVhcW5CZ1lFX0ZYdWpsVkhtNENIQzdfR1VHVTBIblpCTi14cU9adHdZdmpqWA?oc=5",
       "published": "2026-09-23T17:00:00+00:00",
       "source": {
-        "name": "badische-zeitung.de",
+        "name": "Badische Zeitung",
         "url": "https://www.badische-zeitung.de"
       }
     },
@@ -214,12 +214,12 @@
       }
     },
     {
-      "id": "648abb27e764",
-      "title": "Arzneimittelengpässe in Europa – so reagiert die EU - europarl.europa.eu",
+      "id": "2a4cd6eb6d1d",
+      "title": "Arzneimittelengpässe in Europa – so reagiert die EU - European Parliament",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYUFLam5JQVMtSlNuNWlqSTJrRUNDN215RDlRU2hOMEE0Rkp3cHBodVhSbXRsSUhvTTRhMTVLWEE5QmM0dXJRNGlPSkwyZ2doMHhlaEpHbW5DZl8tazhQc3lPcEN4SmtLaEdGMk9IZjF5MGZvNEd3a2tXSnJXT1ItanFsV2gtRGpMYjlUbHV2OURrMkM5OXA3emh5OERlMlpXc1J1UlNVYUp1UlBUd1gzREtLUkZRZw?oc=5",
       "published": "2026-03-31T07:00:00+00:00",
       "source": {
-        "name": "europarl.europa.eu",
+        "name": "European Parliament",
         "url": "https://www.europarl.europa.eu"
       }
     },
@@ -284,16 +284,6 @@
       }
     },
     {
-      "id": "b72b17004edd",
-      "title": "\"Europa als führende Kraft des Gesundheitswesens etablieren\" - DIE ZEIT",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWUFSVWl5WkNqWlhQaFBsaW01cEtydmdyejBaWTZhTE1wbHNXVWJpd2FiVENidldkRGRBTm5sT1NrNm5FME4xWVlTN0Y0N3AyLVY2RDVscWRHN0tLY3Q2d2EtY2YtdHBpOXVSRkhfNHB1MUd3TWVlYTh0RUpsWEpLWkdhUDdPc2Z6UlBEWXl0S01nV0lDYXJGZTF5YUQxNHZsaXJhNQ?oc=5",
-      "published": "2026-03-18T07:00:00+00:00",
-      "source": {
-        "name": "DIE ZEIT",
-        "url": "https://www.zeit.de"
-      }
-    },
-    {
       "id": "1d15f3b6b9c3",
       "title": "Medikament online bestellen: Was (nicht) gespart werden kann - MDR.de",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQzh1VE1KZllWYkVqdlVTdVZJY0xBcGdDZUR1NGhOOXNlS3VPcktlR00tbUJPdWlHNUhCajJ4RGthVUhQUnEwaXl2T2p6Um90NXdlMTdIblB0X0lPR0pfUTZ2LTBkRWgydWRPRllnYUJGV24xaktzY1MwQmJJM0JxUlFKMnJpLV9Qd1lz?oc=5",
@@ -301,6 +291,16 @@
       "source": {
         "name": "MDR.de",
         "url": "https://www.mdr.de"
+      }
+    },
+    {
+      "id": "b72b17004edd",
+      "title": "\"Europa als führende Kraft des Gesundheitswesens etablieren\" - DIE ZEIT",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWUFSVWl5WkNqWlhQaFBsaW01cEtydmdyejBaWTZhTE1wbHNXVWJpd2FiVENidldkRGRBTm5sT1NrNm5FME4xWVlTN0Y0N3AyLVY2RDVscWRHN0tLY3Q2d2EtY2YtdHBpOXVSRkhfNHB1MUd3TWVlYTh0RUpsWEpLWkdhUDdPc2Z6UlBEWXl0S01nV0lDYXJGZTF5YUQxNHZsaXJhNQ?oc=5",
+      "published": "2026-03-18T07:00:00+00:00",
+      "source": {
+        "name": "DIE ZEIT",
+        "url": "https://www.zeit.de"
       }
     },
     {
@@ -314,16 +314,6 @@
       }
     },
     {
-      "id": "da466c1870e6",
-      "title": "Es gibt Pläne, Krebsmedikamente der neuen Generation in den Versicherungsschutz der Krankenversicherung aufzunehmen. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTVh2cEFfRGFCTjF6MHdYTkNoVnQ5M2JZdmdScmdBRVBVdmR3LXROQzc1RzVHRWVXYUdyM0JJVWczU3ltYm1xaklkNEdUZnZZSjEzQVMtalJmcnVoNTl1SHhRcEwweTdYYk9uUEgzV0lJd3paN3UySGZfTEFFZVpSUTZET19TZDlUUjFnSDFtYzlzQQ?oc=5",
-      "published": "2026-09-23T05:05:17+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "1c94a76f4831",
       "title": "Verbrauchsmengenerfassung antimikrobiell wirksamer Arzneimittel - berlin.de",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQeTFadmdRU1k2N2ktUFNpMkJqOHM4VWJ6Y3Z0QkU4cVdOcWFTb1owT0dVZ29pVlgzR0ljMnVqbUFtWm4tSnUwb2otTHNTd3J3c0pXVmppV084dktoLWRVNU9pVmtIQTVNR2hvTmdzdWNOZzlFZ1l4RVNrc0hIc3Y1anVYWEhMemVPWFd6eE1BQS15SzZUVDFJSzZGMmhmVFNka1RNSUNB?oc=5",
@@ -331,6 +321,16 @@
       "source": {
         "name": "berlin.de",
         "url": "https://www.berlin.de"
+      }
+    },
+    {
+      "id": "da466c1870e6",
+      "title": "Es gibt Pläne, Krebsmedikamente der neuen Generation in den Versicherungsschutz der Krankenversicherung aufzunehmen. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTVh2cEFfRGFCTjF6MHdYTkNoVnQ5M2JZdmdScmdBRVBVdmR3LXROQzc1RzVHRWVXYUdyM0JJVWczU3ltYm1xaklkNEdUZnZZSjEzQVMtalJmcnVoNTl1SHhRcEwweTdYYk9uUEgzV0lJd3paN3UySGZfTEFFZVpSUTZET19TZDlUUjFnSDFtYzlzQQ?oc=5",
+      "published": "2026-09-23T05:05:17+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -444,12 +444,12 @@
       }
     },
     {
-      "id": "984c19132c59",
-      "title": "Der Herstellerabschlag im Reformstress - vdek.com",
+      "id": "b224df61319b",
+      "title": "Der Herstellerabschlag im Reformstress - Verband der Ersatzkassen e. V.",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeXdkMXpjQVBJRzhyd1dCOVloSFpjc1cyNkczZjlHYl9QMlR4aFUwN1JLc3laQ0JWd0cwTWY4cmRnMGhDbE1vTzl3ODBNR2pQR0VLM0pJa2luTURVNGZOOXJlWlFGNG5ybFZkamI2WTlpOEZ1WjNTd19lcWJDdy1vU3V1RVI0TnRUSmNJVEphZkJYbnc?oc=5",
       "published": "2026-06-12T07:00:00+00:00",
       "source": {
-        "name": "vdek.com",
+        "name": "Verband der Ersatzkassen e. V.",
         "url": "https://www.vdek.com"
       }
     },
@@ -474,12 +474,12 @@
       }
     },
     {
-      "id": "50e574837ee5",
-      "title": "Medikamentenversand bei Hitze: Risiken für Arzneimittel - Apotheken Umschau",
+      "id": "b6760f575042",
+      "title": "Medikamentenversand bei Hitze: Risiken für Arzneimittel - apotheken-umschau.de",
       "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPREY3YjJLY0JhYUEzX3FnRFlGRDJ1Vm9JamNNVTNoR3NOX0tOMTIzWUMweTJ2ekYzbktzUTZha0djdWpuN09lNHVZUWw4bVJxYXhWeWtxWUVxM0tXS2xGcGtMd29yWmdTSlFpUkxpdmRvMV9ZaEJhT3czaTY3a2VhOUVJU2p0VWZWMU9PNHZDQWt2b0FpdFhOQlNESFdTV0l0M3R4SDFVMTBOTmZMVVo5ZV9KSmZremN6cTNzOXR0a3RjT2Y0MGZjQkNMUVdFY0xZejBFanY4aDRNOEdpZzdTMVowbkZHUVNtU1htclVWeE50OUwzaWlXSG44akg3S05Odlh2MUxlYXAxbkZVbDB4eWRhZF9YZw?oc=5",
       "published": "2026-07-31T07:00:00+00:00",
       "source": {
-        "name": "Apotheken Umschau",
+        "name": "apotheken-umschau.de",
         "url": "https://www.apotheken-umschau.de"
       }
     },
@@ -544,6 +544,16 @@
       }
     },
     {
+      "id": "542a9e986ac7",
+      "title": "Apotheker rücken näher an die Patienten heran und tragen so zu einer sicheren Medikamentenanwendung bei. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTXIweE0xSTFvQXk5QXB4YlNNaG1yQ0dWTG01aHlIRWdTcHg4d0k1UFFycGpxTUxsUlUtTjhZSUkzYWV3SVhNZ2NaU19qbjBKZVVTaWMxd1N3SXZRRy1hdVJWaHlTUFZ1bHZfMzNhR0pwWHlTZU1HNjEtVW5Jd0pOSVNRa0hIZXJNa0hsNE9PcVFET21MTmlCalRFblp5Zw?oc=5",
+      "published": "2026-09-25T15:09:47+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
       "id": "e4d74f6ebf64",
       "title": "Patienten und die Generikabranche fordern die EU auf, auf Trumps Drohungen bezüglich der Arzneimittelpreise zu reagieren - euractiv.com",
       "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOSm0tcngyMXZvMXBmQW9MbjlzWEp1d0JKLVdvV2g4NDkyQ2FxMzhhQTFHUEtyX25Tb0VTdGVPUkt0WXJEeV9QNl84MTZ3MTU0QjgtN3VWeFc3dDVuMWNjb3ZIQ2JyemdRVXJhSHFCQ21yazg4RGU5djlTSkEzdVlsdWNnOUxvWXRyRjVVNUg5N1pRSW1aX2FlOWQ4S0pYXzNkYlJmSE9GNWRmcmNBMWIwOXc0aFJybUJYLU9xUlVVLWplN3ZkNmNvQnQ3ME55TGpVcng0TkxPd2M4MDdBc3hXNVBHNA?oc=5",
@@ -554,13 +564,13 @@
       }
     },
     {
-      "id": "11684b2eb466",
-      "title": "Gesundheitsversorgung: Volles Potenzial der Apotheken endlich nutzen - fpoe.at",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNQTN2dVo4M21xVkdqTEpXUHFtcGQ0aFRFSE96Q2tHdmNRLXI1aDJUTncwOUw1ZF9IQndZeGNKZU1XME9kODNYUmw0d19fSVlrT3poaFVKeE9XR1BzVXRxRk9CZnUtSXBwODFvM2V6V2xwZVVYcHZQNHI2dXFFMndyUDFBR2sxV2llWUZIT1Qxb0lfSHB3aDdITDdhOENoQVBCc2xVWWgtYUNWN19GUzJucF9aY2JFeFNL?oc=5",
-      "published": "2026-09-25T10:28:12+00:00",
+      "id": "350484887174",
+      "title": "Neue Aufgaben für Apotheken: Blutabnahme, mehr Impfungen und Medikamente ohne Rezept - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPX1BMQ0ZNejZNUWhrblhMcERDVWg3VVNyNFBEZFBfdVlqbjdIeHBRR2wxQ3N2ZHMwc1ItOVlTNm5EbDd0R0g0b3E3RDRNX1FrQjRxX2ZaOUZMZXV0SEVnSEtvT1B2SGtNaEh5ek94TGlmRUJfVHJ1S3FwcW9HUDFZa1RDWDVXTG1fSkdpTUxpT3dzUmVneXo3eV96RVlLX3V0bk9uZm1kTG1SbGJHZUdWbkUzVEp1eFhXbUFR?oc=5",
+      "published": "2026-07-02T07:00:00+00:00",
       "source": {
-        "name": "fpoe.at",
-        "url": "https://www.fpoe.at"
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
       }
     },
     {
@@ -571,6 +581,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "11684b2eb466",
+      "title": "Gesundheitsversorgung: Volles Potenzial der Apotheken endlich nutzen - fpoe.at",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNQTN2dVo4M21xVkdqTEpXUHFtcGQ0aFRFSE96Q2tHdmNRLXI1aDJUTncwOUw1ZF9IQndZeGNKZU1XME9kODNYUmw0d19fSVlrT3poaFVKeE9XR1BzVXRxRk9CZnUtSXBwODFvM2V6V2xwZVVYcHZQNHI2dXFFMndyUDFBR2sxV2llWUZIT1Qxb0lfSHB3aDdITDdhOENoQVBCc2xVWWgtYUNWN19GUzJucF9aY2JFeFNL?oc=5",
+      "published": "2026-09-25T10:28:12+00:00",
+      "source": {
+        "name": "fpoe.at",
+        "url": "https://www.fpoe.at"
       }
     },
     {
@@ -644,16 +664,6 @@
       }
     },
     {
-      "id": "432315fa2251",
-      "title": "Erstmals Medikament gegen Fettleber zugelassen - tagesschau.de",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPQnhCQmdtRXhCd0ZKc1FDYzViaTZEblZ5TjJNWDBvZ3ptX2g0OENQemNDUk1sWGh5T1FrOEtvaGtSSDItcXlieVd0cDVfdDF0a2U3clFWSGlvd21wUWtwVzI4UEZIZ1BBUlVJSC16SExXaWFDTlF6YlNjMk96a2pEYnpVRm1rQQ?oc=5",
-      "published": "2025-11-20T08:00:00+00:00",
-      "source": {
-        "name": "tagesschau.de",
-        "url": "https://www.tagesschau.de"
-      }
-    },
-    {
       "id": "fd737b63d383",
       "title": "Medikamente im Urlaub: So schützen Sie sich vor Fälschungen - Lippische Landes-Zeitung",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbFVmWjFzNklsOVpqcTZZdXpJa1ZtbXY2NVA2cjNJQVI2NVR1UHI1NmJTQXZfd19WNnFqQlVnVGIwRW9xV1F2Mkd3NVo3M29qZ1o5ZGxVOG56cktiYXg2LTlqa2Q5VmpNY2JkMEx5Z1Nqb29aM1ZoTUw0T2xESEdBR3NSN1I5Mi03a1VvYTFUaFpodXJJSkxDbDZhZGJPb0lOU0Z0MUhVblE0RkJHal9mR3dR?oc=5",
@@ -661,6 +671,16 @@
       "source": {
         "name": "Lippische Landes-Zeitung",
         "url": "https://www.lz.de"
+      }
+    },
+    {
+      "id": "432315fa2251",
+      "title": "Erstmals Medikament gegen Fettleber zugelassen - tagesschau.de",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPQnhCQmdtRXhCd0ZKc1FDYzViaTZEblZ5TjJNWDBvZ3ptX2g0OENQemNDUk1sWGh5T1FrOEtvaGtSSDItcXlieVd0cDVfdDF0a2U3clFWSGlvd21wUWtwVzI4UEZIZ1BBUlVJSC16SExXaWFDTlF6YlNjMk96a2pEYnpVRm1rQQ?oc=5",
+      "published": "2025-11-20T08:00:00+00:00",
+      "source": {
+        "name": "tagesschau.de",
+        "url": "https://www.tagesschau.de"
       }
     },
     {
@@ -734,12 +754,12 @@
       }
     },
     {
-      "id": "acc089fd1260",
-      "title": "SPD macht Arzneimittelversorgung zur Sicherheitsfrage - gesundheit-adhoc.de",
+      "id": "ca3fbb8f0e20",
+      "title": "SPD macht Arzneimittelversorgung zur Sicherheitsfrage - gesundheit adhoc",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaUx0Nm5DX2dXSFptbnJSOFlNVzVxaHpReWZiSVVVb0JMSnFzR3dVOHdiYzVEOGRaczRySGhxSVI3TlJOa3BJdzRyejl3bEhObFE0WWxKTVJ4NFd4MVJ2eW43RFF5dUFrNFNlTnZnZWZaVXRoMk14VlZPVi0yREtsa2ZIOURjQUpvNVZSMlV5cw?oc=5",
       "published": "2026-07-09T07:00:00+00:00",
       "source": {
-        "name": "gesundheit-adhoc.de",
+        "name": "gesundheit adhoc",
         "url": "https://www.gesundheit-adhoc.de"
       }
     },
@@ -791,16 +811,6 @@
       "source": {
         "name": "Spiegel",
         "url": "https://www.spiegel.de"
-      }
-    },
-    {
-      "id": "09e9d0a2ff53",
-      "title": "Krebsmedikament: Meistverkauftes Krebsmittel wird offenbar viel zu teuer verkauft - DIE ZEIT",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZUdKR1hQcHVBS3JEX3dma19JcW5GTmlCcmxGRmpKbHFwZzduVkpReEh1RnFiOUM2amRvRGl4Z0tDellhTUc1bzU1cl82T3J0N1hnYnVDZF9ERlpxU3JobkphRmRjVk55cjRUZ0tkTlFTZmRSYm0tQVpYSzBtb2xNclVkelpWaTJ5UXQ4TVNoUVFoeVd5RkpqanJqMWpmdw?oc=5",
-      "published": "2026-04-13T07:00:00+00:00",
-      "source": {
-        "name": "DIE ZEIT",
-        "url": "https://www.zeit.de"
       }
     },
     {
@@ -874,6 +884,16 @@
       }
     },
     {
+      "id": "b13c8155e55d",
+      "title": "Kinder mit starkem Übergewicht: Neue Leitlinie empfiehlt Einsatz moderner Medikamente - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcWR0VTNuakdTNGtzUGhhb3NyTl9hdXRYb0FCVTE0Y2FqWDlIY1BiT3d3eklHc2tqaDc5dXBDVHhzUUdqUGRrSkliS2xEM1JqdlRPMnlJQmF2czFpVTVFbEVnaTBhQTZScUN4MU1rT1Vkc1EyRGN2UlNTenBLSFhGNC16NXJ6eko2b0lMR3JpTzB5b1MtbDJ1R3Y1cGdJRVlId2dQanB2RlgtM1MtbjFDRkM0TEwwUnRhZVFSMzVn?oc=5",
+      "published": "2026-05-15T07:00:00+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
+      }
+    },
+    {
       "id": "03505c881614",
       "title": "EU-Generalanwalt: Versandverbot nein, aber ... - Apotheke Adhoc",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaGRRUFJ5MDV6WGZaTE84UlB3SU83OElpQ2dBVXJTMFRLWWFlSmN0alJ0eS1ZdF9zN09MZUhESFJDd2J1TVNQeHZRQ1ZLMVNtMC1OSm9DV01oVXhWVzRtOENHbUpnRE10akgwUnRyRmkzckZ1UFhIb05aM1ZLcVN1WkFKRUVRd3VaaWpZVUdraVRVdUtER2tIc1FjTWFqS3VIY0IzeERfWnJ4UQ?oc=5",
@@ -894,16 +914,6 @@
       }
     },
     {
-      "id": "b13c8155e55d",
-      "title": "Kinder mit starkem Übergewicht: Neue Leitlinie empfiehlt Einsatz moderner Medikamente - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcWR0VTNuakdTNGtzUGhhb3NyTl9hdXRYb0FCVTE0Y2FqWDlIY1BiT3d3eklHc2tqaDc5dXBDVHhzUUdqUGRrSkliS2xEM1JqdlRPMnlJQmF2czFpVTVFbEVnaTBhQTZScUN4MU1rT1Vkc1EyRGN2UlNTenBLSFhGNC16NXJ6eko2b0lMR3JpTzB5b1MtbDJ1R3Y1cGdJRVlId2dQanB2RlgtM1MtbjFDRkM0TEwwUnRhZVFSMzVn?oc=5",
-      "published": "2026-05-15T07:00:00+00:00",
-      "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
-      }
-    },
-    {
       "id": "8dce1ff85348",
       "title": "Erstattung: Gericht sieht Abnehmspritze als Lifestyle-Medikament - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdThMaUs3T0FfWmlEYnNHWkw3VHVTX3R4MUptMEUySkkwZk1OY19nU0xZcF9KT0IweUNoTzhzV2RkUUJhRl9Jdk8zTTgxeHlTbmV6a1R3NUx2ZDc1c0RMSVcyLU9NazE5aURIaW1FTzZhUTQ3U2JmQkhydXRHUEZXR1pGX0ZUODFRaWh0S3RDdzIxQ2hOMkZMc0VaZWdsTVlw?oc=5",
@@ -911,6 +921,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "09e9d0a2ff53",
+      "title": "Krebsmedikament: Meistverkauftes Krebsmittel wird offenbar viel zu teuer verkauft - DIE ZEIT",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZUdKR1hQcHVBS3JEX3dma19JcW5GTmlCcmxGRmpKbHFwZzduVkpReEh1RnFiOUM2amRvRGl4Z0tDellhTUc1bzU1cl82T3J0N1hnYnVDZF9ERlpxU3JobkphRmRjVk55cjRUZ0tkTlFTZmRSYm0tQVpYSzBtb2xNclVkelpWaTJ5UXQ4TVNoUVFoeVd5RkpqanJqMWpmdw?oc=5",
+      "published": "2026-04-13T07:00:00+00:00",
+      "source": {
+        "name": "DIE ZEIT",
+        "url": "https://www.zeit.de"
       }
     },
     {
@@ -974,16 +994,6 @@
       }
     },
     {
-      "id": "7443430a1921",
-      "title": "Nahrungsergänzungsmittel: 15 von 17 Präparaten fehlt ein Warnhinweis - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQakhzc0NJTldaYmtiSU9IZjJiTXNBRngzeERKNGJzSE12Vk44ZHRmeDQ4aDVnOEFnT3RXd0F5cnowMHJWYUtnbDRfQjJkLU13TUg5VmZvcHMzeGdMamRoUnI0dndVZ092ekZLdHh3cmRHemJtakFEWk5hcHRhRmp2MmlLREdIZ2xNYkhsSTZBWkRwbWtMUm5BYjAzdS1tMmFEZDVSZEp2N0syZURhRWwtQVBBQVB4Q3ZZNHc?oc=5",
-      "published": "2026-09-26T03:48:29+00:00",
-      "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "e7fc237accfb",
       "title": "Medikamente im DM-Drogeriemarkt – Apotheken laufen Sturm - STERN.de",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMG5SMnM4aXU5czJ1S2dnUzdMeFBmb3IxQVBKWGVvcVB0eUJQUjkxRU00RHEtQlRjVU1EM0Z2WF95SG85WDJPSjVNcjRTWFM1OHVXNm5pdVAxZGtDcHJTSXFpSDAtdUstM0JISWRKcEI5OXRXZ2hXSzQ3cFJqb0g5N0ZRajJtY21JUmRNNmZweXg1bEpuOXc0Rk9CNENaMHNOYTc4OGtjZw?oc=5",
@@ -991,16 +1001,6 @@
       "source": {
         "name": "STERN.de",
         "url": "https://www.stern.de"
-      }
-    },
-    {
-      "id": "3db23b3d0377",
-      "title": "BARMER-Report: Ausgaben für Herzinsuffizienz-Medikamente steigen um 121 Prozent - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZU5oQWVHT0tjdW91Nl9ZZUhzS25tMDF2SGxPUWh3OWg1Q0Z0cmljQjVlWWY5bE9helBpc2E3QzJhWFRfcks5VFQ3M1J4TkFfRXN1Z19MZGdGNlZxRC1WZUY3Z2ptZ1RWNGtkaHJxS0NkN21vTlMwZGdmcGE0V3ZHc21JUEFUSml3bnVhZXVIUERHamlrQTFzUG5FNmlxeTg0dGRrZTlKWDB1UUhqZlVzRUlIdlZhZi1najVEZw?oc=5",
-      "published": "2026-09-23T18:01:34+00:00",
-      "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
       }
     }
   ]
