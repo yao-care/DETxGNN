@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-28T00:21:26.553040+00:00",
+  "fetched_at": "2026-09-28T06:23:35.584130+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -44,12 +44,12 @@
       }
     },
     {
-      "id": "77ad406daa51",
-      "title": "Wech­sel­jah­re: Sind frei ver­käuf­li­che Mit­tel sinn­voll? - rheinpfalz.de",
+      "id": "a111087c9165",
+      "title": "Wech­sel­jah­re: Sind frei ver­käuf­li­che Mit­tel sinn­voll? - Die Rheinpfalz",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUzJtTHVfUDl0Qm9vRVhiRElLRG9vSDVUN0ZNOEJXb3BuMGRRSUVjUkYyVUNtRG0tWnlqV3BPVzR3akNkalFidVdGT013SzRheklnQVNZY2l6VUZib2lhX21Xai05VDBSajl4c0dVc0NjNF9yUnRCeV9rakNNVVBGTk05MHdFTE82Qm9pVGc4SU9DZ3RBNHNVVzh5Z2NZV3luZ3FzUG9ZU3A5bVk1cUdpQnlSMzlPMEEyMTJncFRBNDNNNFY3Vkp4YUJB?oc=5",
       "published": "2026-09-24T05:02:00+00:00",
       "source": {
-        "name": "rheinpfalz.de",
+        "name": "Die Rheinpfalz",
         "url": "https://www.rheinpfalz.de"
       }
     },
@@ -74,12 +74,12 @@
       }
     },
     {
-      "id": "908a38ac8448",
-      "title": "Statine morgens oder abends? Arzt erklärt den besten Zeitpunkt - Berliner Morgenpost",
+      "id": "92037bc9199d",
+      "title": "Statine morgens oder abends? Arzt erklärt den besten Zeitpunkt - morgenpost.de",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTkk3WEdaSDRhWlRqZGZZNXF0UVVXZFNyLWVXMVFjT2tPdXBVS0dDU1duLTF2dFpnYklsQ2NiQnNwRUxzTXljcHRJZExCN1A3RjVrOURSNVdwTjA4ZGJkV1hBWmU4VW1oZkRtQTBfenh0ZzVxVTBwOWVGWndLaVNKNmpocDRBbjhCX2JlOUx2Yy10VTk2Z3FEZElnM3RFS0JKNEpWZzBDSy1iQQ?oc=5",
       "published": "2026-09-25T10:24:00+00:00",
       "source": {
-        "name": "Berliner Morgenpost",
+        "name": "morgenpost.de",
         "url": "https://www.morgenpost.de"
       }
     },
@@ -124,6 +124,16 @@
       }
     },
     {
+      "id": "8666593cd1fe",
+      "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesgesundheitsministerium",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT3NRWE1tbWNRMllaUC1GUGtRV3YxaWhZZ21nQThUT3NGbS1DbkFfRzdSd3RvUUVsTkVJdUpYRFp0ekFHV1JtTEJZZ0I5dWJvajgzZzdZZDk5S3FROHRoeVJzS3VBRTBuTldDWW52dG5kLWxpUTlMZmpLdUZZekxaOEJQYTlUbTdLRTBsR1k4TlE1ajIxYTFiZ041eFppZktLWjJZYVQyRlNOVEd1RGdIVmpBRDMteG1xdHdyUmVn?oc=5",
+      "published": "2026-05-22T07:00:00+00:00",
+      "source": {
+        "name": "Bundesgesundheitsministerium",
+        "url": "https://www.bundesgesundheitsministerium.de"
+      }
+    },
+    {
       "id": "4258d57ab229",
       "title": "Wechseljahre: Nahrungsergänzungsmittel fallen bei Öko-Test durch - aponet.de",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOT2RtWF9Sc3lUWXo2dEtKX3gzZjZsY1FCU19PS09aQlJhdjBIc1htcnIzR19DOURxZ3UxMUdFUDgyRkpGTEU3RkVPSkFFRHNHYXR3NG5FcVUzQWhUSkZPclJNSWI3Mkxqb1JnOFFxUWEzTF8xMkgyR2xWYWNiWExxR05uSkFqQjZBeVFsYUVPcnNkdXRETW9PUzF5dVNJaUR0Nzdr?oc=5",
@@ -134,33 +144,23 @@
       }
     },
     {
-      "id": "4e6d48112005",
-      "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesministerium für Gesundheit (BMG)",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT3NRWE1tbWNRMllaUC1GUGtRV3YxaWhZZ21nQThUT3NGbS1DbkFfRzdSd3RvUUVsTkVJdUpYRFp0ekFHV1JtTEJZZ0I5dWJvajgzZzdZZDk5S3FROHRoeVJzS3VBRTBuTldDWW52dG5kLWxpUTlMZmpLdUZZekxaOEJQYTlUbTdLRTBsR1k4TlE1ajIxYTFiZ041eFppZktLWjJZYVQyRlNOVEd1RGdIVmpBRDMteG1xdHdyUmVn?oc=5",
-      "published": "2026-05-22T07:00:00+00:00",
-      "source": {
-        "name": "Bundesministerium für Gesundheit (BMG)",
-        "url": "https://www.bundesgesundheitsministerium.de"
-      }
-    },
-    {
-      "id": "f51ef365f945",
-      "title": "Wichtige Initiative: Landesklinikum Amstetten setzt Fokus auf sichere Arzneimittel – warum das zählt - MeinBezirk.at",
+      "id": "57a6978ed9d2",
+      "title": "Wichtige Initiative: Landesklinikum Amstetten setzt Fokus auf sichere Arzneimittel – warum das zählt - meinbezirk.at",
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNRXJoa05ZV1JDSENVc1RqM1BuMF9nMUJkLUdJWUxZOU41djlqZzh0bmhyQms3X0VxeHNocWVrXzJrREROelV2UDlVN2JCRVpxUlY5TFdJdFhxWHY0cUxhRkt5cVhYcmc4aVR3a3JFcmhzTkozQktDVGxmR1Y3Sk1rb0xfMVc0SkZPR0p4M1BzbFZYXzJxbGh0djhWYTREMUI3dk9RemFLM2tIV1RJNW8zWWtYYUItV2FxdWhQVG9OeGVsMHRBQWh5T21qTWdPQTB6Nnc?oc=5",
       "published": "2026-09-24T06:21:12+00:00",
       "source": {
-        "name": "MeinBezirk.at",
+        "name": "meinbezirk.at",
         "url": "https://www.meinbezirk.at"
       }
     },
     {
-      "id": "8bfa4020b515",
-      "title": "Schlaganfallprävention mit An Cung: Was sagen die Ärzte? - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1qYWVDTm1sVHoyRzlBX2J6MkEtTG5QdTgtT1lsQnZ1aWJiUmFDQU1RQk9leG9JS1FKTHRRVTJBUno3SGpEeHlpVWh6SFZmNDU5UVFYQkUwYVBKLXpHU0dfaGEzMGdQc2YtQUg3ZzVYUEZkZ1V5cjlQUk5rdw?oc=5",
-      "published": "2026-09-27T14:23:42+00:00",
+      "id": "be459665a3bc",
+      "title": "Zuzahlungserlass: BMG fordert Durchgreifen gegen Versender - Apotheke Adhoc",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeE8wUkJsUjYtY0xya2wzM1F0NE1sanFzQTItcXQ1UkZuRFRBTmR3N1FidGlQLVFRYTRnUk5PMUFnTzRnTkI3WnJHdGlyeDI4T3FUSUxNQ09fcWh4VEw1c1VTZXQxYnJlejVEZm9IUVM3MDgtZHJSc2hwWWI2Ym1oTTJXdU1XNV9rQ0VDUkxYd1lHUU1hbjNJMlN1ejZxUkN5dHNsVm5ndGJtUQ?oc=5",
+      "published": "2026-07-31T07:00:00+00:00",
       "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
+        "name": "Apotheke Adhoc",
+        "url": "https://www.apotheke-adhoc.de"
       }
     },
     {
@@ -174,12 +174,12 @@
       }
     },
     {
-      "id": "3905d7cc0293",
-      "title": "Statine trotz Nebenwirkungen nehmen? Ärztin gibt eindeutige Einschätzung - Berliner Morgenpost",
+      "id": "39fd91f2740d",
+      "title": "Statine trotz Nebenwirkungen nehmen? Ärztin gibt eindeutige Einschätzung - morgenpost.de",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTDhfWFBTUC1aMWowQWlKR2xkcFFKSXZndGdOblplWnFnTDdWQ0JfUkFVVmRTcFhpSmp6bUEzcGd2V2xhcnJqSndSNWZfZjNsXy1pMkc0VnY4azZ2TGVCUF9UdEN0MDl3a3lGU3E1Vm53UTFSdmJjSG8xc1V3SFB0SGR3ckQtTkQ5Xy1qM3lqQVpoXzN4M0dtNEw0MkZYRktwRkU2cQ?oc=5",
       "published": "2026-09-25T13:24:00+00:00",
       "source": {
-        "name": "Berliner Morgenpost",
+        "name": "morgenpost.de",
         "url": "https://www.morgenpost.de"
       }
     },
@@ -224,6 +224,16 @@
       }
     },
     {
+      "id": "5fdce3584289",
+      "title": "Schlaganfallprävention mit An Cung: Was sagen die Ärzte? - vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1qYWVDTm1sVHoyRzlBX2J6MkEtTG5QdTgtT1lsQnZ1aWJiUmFDQU1RQk9leG9JS1FKTHRRVTJBUno3SGpEeHlpVWh6SFZmNDU5UVFYQkUwYVBKLXpHU0dfaGEzMGdQc2YtQUg3ZzVYUEZkZ1V5cjlQUk5rdw?oc=5",
+      "published": "2026-09-27T14:23:42+00:00",
+      "source": {
+        "name": "vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
       "id": "9f7c377ed6d2",
       "title": "MFN-Modell USA: Wie US-Arzneimittelpolitik Innovationen in Europa ausbremst - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWkw5ZTd1QUxfTlBDNjVEc0paTWpvTFpfTE9lOFM3YnhiWnBBREVhRzlMQnRmWDdkREJzVlg3UnZCN2RsTC1aTkhtN19oX2dEYmVLdXk4MXFBUnVGakk3YzVfbjZVQ0E0MUtPN2JZZ08wQ05yaTFLNER1dVYzZEo5UldOVldfQ0lCbGNRWEJZbUg0R3JBaGp6Mm1DTGd2eTYzWE9GV1hvenRGWHhOZXBxMHJMY09GUQ?oc=5",
@@ -234,12 +244,12 @@
       }
     },
     {
-      "id": "d9cb7465e8c6",
-      "title": "Ärzte vs. Apotheker – Der Verteilungskampf um die Gesundheit eskaliert - WELT",
+      "id": "a3fe36c8de24",
+      "title": "Ärzte vs. Apotheker – Der Verteilungskampf um die Gesundheit eskaliert - welt.de",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNRWwtS2t0RWtxOWhiY3Bpcl9oaG9YUGFZeXRJZ3ZXcFMzRU9EbTBISDdZa1pYQXZCZjZ3Z19Kd18wei11cWluU3lDQ3RSVURjN05wdVU1WTBDWGFrV0lCbnJmR3FieGVDNUlMXzhyMDV2UkhCZy00M2t1Tk5rT1lrY0VFZ0tUREZTVkhkdmYxaDZLQXgzRTlRZEJveDJQZVdYWHNNM1I1U3FQZktfWElRZDV0VlBQN0gzX2NvVURQWDNUSnA0M1JNZk9pQWNwQQ?oc=5",
       "published": "2026-07-13T07:00:00+00:00",
       "source": {
-        "name": "WELT",
+        "name": "welt.de",
         "url": "https://www.welt.de"
       }
     },
@@ -294,12 +304,12 @@
       }
     },
     {
-      "id": "f87200eb9eb8",
-      "title": "Opioide: Israel führt weltweit beim Pro-Kopf-Konsum - juedische-allgemeine.de",
+      "id": "a48a34dcb337",
+      "title": "Opioide: Israel führt weltweit beim Pro-Kopf-Konsum - Jüdische Allgemeine",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1MZVF2WFVHNi01ZVZ4STRQeWMxTW9FN1lFYS1jdy0tRXhzcGRCazhCMWdWLWVpcHZzcEVNYUpqNE40OVgzYU1TazBoOXBEdkZtVEE3R3ZST0Y4WHJXcHNzWVdFdGx6aUJ6eWNIN3pEeFg0SnU0RWc?oc=5",
       "published": "2026-07-05T07:00:00+00:00",
       "source": {
-        "name": "juedische-allgemeine.de",
+        "name": "Jüdische Allgemeine",
         "url": "https://www.juedische-allgemeine.de"
       }
     },
@@ -334,22 +344,12 @@
       }
     },
     {
-      "id": "02e9917bea66",
-      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - DW.com",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGxHSlhmSS0tbUNKdG15NEVzRzYzYllEUnAzUEU3ak53czRHVWlKdTZrRGFDMk1MUThPUjdPTnBGVENqd3d2Q1VSdWhJVXppWDF4NWh0aEJJaXJlVTlnV0VoZVFkRHNSM3p6NVZXNjNwWHk5YkxSUWR2RGZKcmp3Y2U5REY0U3dRZFJLeHFtQk9wb2Y3RUVOaVBlMlJhZ29Rck000gGjAUFVX3lxTE1rTW00WXFBajZxbTJOS1NLckhVbXFBSzh1NE96QTEydTN1YjZnaFFNcV8xblZGM29hdTZQUHc4V3YzQ1pwcTlaVVBhZDVqMExLMTlYVzZ6TmM4ZUdsUm5TLXpPNmk1R3V4UktvaV93cWttNFpVX0VEZlZnUllSQkhyUlZmeTBJcU0zUEVSZTgxdzFWUnFNRk9CYVljN0Jhd0ZXUFk?oc=5",
-      "published": "2026-05-12T07:00:00+00:00",
-      "source": {
-        "name": "DW.com",
-        "url": "https://www.dw.com"
-      }
-    },
-    {
-      "id": "984c19132c59",
-      "title": "Der Herstellerabschlag im Reformstress - vdek.com",
+      "id": "b224df61319b",
+      "title": "Der Herstellerabschlag im Reformstress - Verband der Ersatzkassen e. V.",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeXdkMXpjQVBJRzhyd1dCOVloSFpjc1cyNkczZjlHYl9QMlR4aFUwN1JLc3laQ0JWd0cwTWY4cmRnMGhDbE1vTzl3ODBNR2pQR0VLM0pJa2luTURVNGZOOXJlWlFGNG5ybFZkamI2WTlpOEZ1WjNTd19lcWJDdy1vU3V1RVI0TnRUSmNJVEphZkJYbnc?oc=5",
       "published": "2026-06-12T07:00:00+00:00",
       "source": {
-        "name": "vdek.com",
+        "name": "Verband der Ersatzkassen e. V.",
         "url": "https://www.vdek.com"
       }
     },
@@ -364,13 +364,13 @@
       }
     },
     {
-      "id": "43fd9dbb69f0",
-      "title": "Herzinsuffizienz: Arzneimittelkosten stiegen um 94% in zehn Jahren - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPRHNraEhmeVpLN3BoaDBweWhJVmVmX0ZmLXl6Vlp0djFPbTRsU3dScEhid0xOTVFKc3llcEpsbjF1cGZPT0hWbDhQR3ozVWJfVFl3SVFqVkozTVpTUVZRbGtlRUdhcHBuX0ZDNWVSVWVGOVNJZDRQU3VSSWpNekw0S1NONXZFcWloaUMwSElxVWNfV3JSM1ptYTBSMzZmdTJNOENzOWtQR0laQmp2b0VoV0ttME4tc2NWRGpxVDhB?oc=5",
-      "published": "2026-09-23T10:09:38+00:00",
+      "id": "02e9917bea66",
+      "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - DW.com",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGxHSlhmSS0tbUNKdG15NEVzRzYzYllEUnAzUEU3ak53czRHVWlKdTZrRGFDMk1MUThPUjdPTnBGVENqd3d2Q1VSdWhJVXppWDF4NWh0aEJJaXJlVTlnV0VoZVFkRHNSM3p6NVZXNjNwWHk5YkxSUWR2RGZKcmp3Y2U5REY0U3dRZFJLeHFtQk9wb2Y3RUVOaVBlMlJhZ29Rck000gGjAUFVX3lxTE1rTW00WXFBajZxbTJOS1NLckhVbXFBSzh1NE96QTEydTN1YjZnaFFNcV8xblZGM29hdTZQUHc4V3YzQ1pwcTlaVVBhZDVqMExLMTlYVzZ6TmM4ZUdsUm5TLXpPNmk1R3V4UktvaV93cWttNFpVX0VEZlZnUllSQkhyUlZmeTBJcU0zUEVSZTgxdzFWUnFNRk9CYVljN0Jhd0ZXUFk?oc=5",
+      "published": "2026-05-12T07:00:00+00:00",
       "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
+        "name": "DW.com",
+        "url": "https://www.dw.com"
       }
     },
     {
@@ -384,13 +384,13 @@
       }
     },
     {
-      "id": "bb553491699c",
-      "title": "Abschaffung der Mehrwertsteuer auf Arzneimittel - openPetition",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQR2ZyOGpub3o3YjR6WktVOXowVW5aMmNRcUZnRHQteUNLdVdiWFpMSHpndXJ0ajFhSmNTQXk1LVptMF9BUHlMeGRSb2dJalBRVjkxbGE4eWhObTFsT1gzVUtGblkxNDhVMlR2b2JYb1NWSGJqd2k1bGwxODhLVFh3aVdwY3pNNV81VDk0ZkxEbmVlSXdZY2c?oc=5",
-      "published": "2026-04-27T15:29:32+00:00",
+      "id": "43fd9dbb69f0",
+      "title": "Herzinsuffizienz: Arzneimittelkosten stiegen um 94% in zehn Jahren - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPRHNraEhmeVpLN3BoaDBweWhJVmVmX0ZmLXl6Vlp0djFPbTRsU3dScEhid0xOTVFKc3llcEpsbjF1cGZPT0hWbDhQR3ozVWJfVFl3SVFqVkozTVpTUVZRbGtlRUdhcHBuX0ZDNWVSVWVGOVNJZDRQU3VSSWpNekw0S1NONXZFcWloaUMwSElxVWNfV3JSM1ptYTBSMzZmdTJNOENzOWtQR0laQmp2b0VoV0ttME4tc2NWRGpxVDhB?oc=5",
+      "published": "2026-09-23T10:09:38+00:00",
       "source": {
-        "name": "openPetition",
-        "url": "https://www.openpetition.de"
+        "name": "AD HOC NEWS",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -434,12 +434,12 @@
       }
     },
     {
-      "id": "198b0da65ee5",
-      "title": "HIV-Schutz mit Tabletten: Wie sicher ist PrEP im Alltag? - NDR.de",
+      "id": "6a3a426544ab",
+      "title": "HIV-Schutz mit Tabletten: Wie sicher ist PrEP im Alltag? - ndr.de",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTWhsNWk1Tkc5MzNycUQ5RzhaaXhPTGlCcHJ1Yl9wajZ0VkV3akIxR255SUd6clB5aU5fZmNlUGZIcTVNanZlTmctSDJqUFB5Zk5XempaWnhrbDBlVWZuOE9xWDRSREhKRm5sa0lrbGVnVjl0TE5NNWtTY25CUzRmdG5jQlBZc1pFakFyT0hITHU5NmpfaUE?oc=5",
       "published": "2026-07-18T07:00:00+00:00",
       "source": {
-        "name": "NDR.de",
+        "name": "ndr.de",
         "url": "https://www.ndr.de"
       }
     },
@@ -554,16 +554,6 @@
       }
     },
     {
-      "id": "829639537db1",
-      "title": "Studie: PFAS bei vielen Medikamenten verzichtbar - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOOXR2b0g0aUQyTEM1RHV3aWcwbWgzeXgwZ0NjRHEwZUZtSVp2djRlQjAyV21vQWRSTldVOFZkT0ZoejZlRlpCc3h4VlVDaldIOW1KZHB4RUVnTDh4V3RMTmx5aDV1QWFKdWxhRzk4S1hRUERxdFpoZUdPNHdpR29yOGFrd0lmUUR0VmxPa0lGX2w?oc=5",
-      "published": "2026-06-04T07:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "6bfae08588af",
       "title": "Neue Medikamente: Hoffnung für Menschen mit Bluthochdruck, Übergewicht und Krebs - aponet.de",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPOEpJR3ZTVm5menNfVm41UEo5R3BMZEtYUjg2ZmQyeXNIRVB4Y2VaVEl4amk4XzBjSmVKVk5pYTdyb2tJNWpMbU94Ung0ZjBMR3dpMk1EYV9KSmdpbkNaN3cwa1lGanl6ZktNVExDY09kOHNvU2dTQkh2ZTBfLUtwLWttRV9jV1FPMWQ0cUJzaklrMlczaXVsdDhsLWlibFJGSzllMGN2YzRTRjhMWVVzSjRJXzhSQWM?oc=5",
@@ -581,6 +571,16 @@
       "source": {
         "name": "Lippische Landes-Zeitung",
         "url": "https://www.lz.de"
+      }
+    },
+    {
+      "id": "829639537db1",
+      "title": "Studie: PFAS bei vielen Medikamenten verzichtbar - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOOXR2b0g0aUQyTEM1RHV3aWcwbWgzeXgwZ0NjRHEwZUZtSVp2djRlQjAyV21vQWRSTldVOFZkT0ZoejZlRlpCc3h4VlVDaldIOW1KZHB4RUVnTDh4V3RMTmx5aDV1QWFKdWxhRzk4S1hRUERxdFpoZUdPNHdpR29yOGFrd0lmUUR0VmxPa0lGX2w?oc=5",
+      "published": "2026-06-04T07:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -604,12 +604,12 @@
       }
     },
     {
-      "id": "566dd4d9d4e6",
-      "title": "Gesundheit: Medikamente mit Wechselwirkung? Vor diesen Fehlern schützt die ePA - Berliner Morgenpost",
+      "id": "600c09be124c",
+      "title": "Gesundheit: Medikamente mit Wechselwirkung? Vor diesen Fehlern schützt die ePA - morgenpost.de",
       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPQnJXQjdvZFhaOHdKUjFfTHRXcU9oTF9vc21mN2U2bmNqOXF3M2o3RWIxU2R1bkx5eGRIYWJIWnF5Ty1yM0pMcW1DcG5LR2JiYlRPdFBXbUdFYmhaeVh5enZDdmY2YWlFdkQtNjVRalZKdzV0alNFbGlLWmM1c1BpcTlXcC01blFGM0dMVV83ZlpQN19kVGx3WVVKNTlXS0t0R1U2dmY0R1MwdGNzOC12MUJzcEh2M2lWendsZFphd1JxanR6elNEalAwSlRBSlczTk5jLVpvYjVQN0kyaGd3Ug?oc=5",
       "published": "2026-04-28T07:00:00+00:00",
       "source": {
-        "name": "Berliner Morgenpost",
+        "name": "morgenpost.de",
         "url": "https://www.morgenpost.de"
       }
     },
@@ -734,12 +734,12 @@
       }
     },
     {
-      "id": "8c241dbc3ada",
-      "title": "Pflanzliche Arzneimittel – im Licht der Wissenschaft - GESUNDHEITHEUTE - SRF",
+      "id": "160e170938c2",
+      "title": "Pflanzliche Arzneimittel – im Licht der Wissenschaft - GESUNDHEITHEUTE - srf.ch",
       "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQUHVQVzFrZzVhLUljRzk2bktXazYwVEkwS2c1c09Ud1BkR0NSVDVETzJCcjlXU1E2TEVRelJuc3UyYUlzY19zSEU4U2Ntd1VneFZOcDhpT3FOc3Y2VGNtclN2bS14VTJ1RXdTbFJYYXlYS0RLejRRVkdqeVhxX1VpYjMzNmdNZmY4TS1EaTdpWk1SVEowc1NFeFhxLWtDdVNWbEh5RU9pX2hwc0lwbTRzUDVrSzFwMXQ1NjliU044bnJUdXgwNk9iWWdTMUhYdVMwRzgyeXB1NERiMWZvTE93NXJFdXVLNU54Nzg4NA?oc=5",
       "published": "2026-05-30T07:00:00+00:00",
       "source": {
-        "name": "SRF",
+        "name": "srf.ch",
         "url": "https://www.srf.ch"
       }
     },
@@ -804,12 +804,12 @@
       }
     },
     {
-      "id": "91d9d479bbed",
-      "title": "Gesundheitsgefahr durch gefälschte Arzneimittel - gesundheit.gv.at",
+      "id": "51e8c4b74840",
+      "title": "Gesundheitsgefahr durch gefälschte Arzneimittel - Gesundheit.gv.at",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYlhNa1drQ3UydVU1Ti1QZWxOelZ2UDNkQTBsczZ4SzVIZGhQS3psTVQ5Zmw2Ujh2RGpDYzZ5TDdIbG5mYkFjRl9CX3JkS0FHQ2dlSGVZMlpRTmpva0xOX3hoTWhTM3VoZlB6bjJYbjRRcGp2NERXZmhoaEtyeGJhUDlSU0k0cURLRzNIc1FR?oc=5",
       "published": "2026-03-09T07:00:00+00:00",
       "source": {
-        "name": "gesundheit.gv.at",
+        "name": "Gesundheit.gv.at",
         "url": "https://www.gesundheit.gv.at"
       }
     },
@@ -924,16 +924,6 @@
       }
     },
     {
-      "id": "5874c2ed91f1",
-      "title": "Pharma-Paket: EU erzielt Einigung zur Reform des 20 Jahre alten Arzneimittelrechts - euractiv.com",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYTZvc24ycS13bDZMeGVVbkUydlp4ZW1RN1NPVmhEVUpwMUpONWo0VXVmVlRXeTFYN2p5R0YxRnRBaTRSb2V3UmI4bXhIWUl2dUg0V2I4ekFPbEZPUVROUnJBdXpDMWN2bVpnUTNjeXFnVm51a1JnQ1RXXzJlVlUyc3UxNEFnQmd5dEtJWFVSZ2RQTkJZRU1oWkJ0Vk9uUThPSVZDeEdUdG9TRkRzVGhKUA?oc=5",
-      "published": "2025-12-11T08:00:00+00:00",
-      "source": {
-        "name": "euractiv.com",
-        "url": "https://euractiv.com"
-      }
-    },
-    {
       "id": "8308fd9ff3ea",
       "title": "»Ge­ra­de in der Apo­the­ke wird Ge­sund­heit ge­lebt« - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWGI5Ni1Wb1RMSGlZbElwcDdtVjF5TzJBTVpUd0xoblBOUHl5UG8tcXlNY1FPTHBPbU5tT2J2S2VTRkFlZlVxejM2S3V6Ty14bHlXVmEtRmRPUnNoeEd0U3pWZlQ5SlZjNGF3bnhWWGF0M2h5MHVSaFZRZjBZZy1KOEZva1l2N1dzbkF0Q2dvRUc1SVN3OVVF?oc=5",
@@ -941,6 +931,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "5874c2ed91f1",
+      "title": "Pharma-Paket: EU erzielt Einigung zur Reform des 20 Jahre alten Arzneimittelrechts - euractiv.com",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYTZvc24ycS13bDZMeGVVbkUydlp4ZW1RN1NPVmhEVUpwMUpONWo0VXVmVlRXeTFYN2p5R0YxRnRBaTRSb2V3UmI4bXhIWUl2dUg0V2I4ekFPbEZPUVROUnJBdXpDMWN2bVpnUTNjeXFnVm51a1JnQ1RXXzJlVlUyc3UxNEFnQmd5dEtJWFVSZ2RQTkJZRU1oWkJ0Vk9uUThPSVZDeEdUdG9TRkRzVGhKUA?oc=5",
+      "published": "2025-12-11T08:00:00+00:00",
+      "source": {
+        "name": "euractiv.com",
+        "url": "https://euractiv.com"
       }
     },
     {
@@ -984,12 +984,12 @@
       }
     },
     {
-      "id": "20a64d917dfc",
-      "title": "Medikamente für Senioren: Studie warnt vor riskanten Wirkstoffen - Berliner Morgenpost",
+      "id": "b35e16b362c0",
+      "title": "Medikamente für Senioren: Studie warnt vor riskanten Wirkstoffen - morgenpost.de",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZ29BeW1jeXNBMHJfUWNHT1RfQWNhcG9TUzJwbE11cl9XN1VvWElYUmJORUxoclg3R08xa3VsaXhSMlBnSlE2ZkhOdWF2Z0lVempDdE9XMnBZcEVQUm5KVDBaM0I0ZWpxdzBYbkxYOWtjOGN1ZGxCUkh5TDUzeUxJc0F1dm55XzdHMEwyNUZheFRiaFdKUGtUR1JmYXRGelY0UlM3OFh4SkExRGFTVWZFamxqYXFQOHRCZjFTQThnbjRWU1JMcEM0?oc=5",
       "published": "2026-03-22T07:00:00+00:00",
       "source": {
-        "name": "Berliner Morgenpost",
+        "name": "morgenpost.de",
         "url": "https://www.morgenpost.de"
       }
     },
