@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-04T19:16:50.001408+00:00",
+  "fetched_at": "2026-10-04T22:50:31.148297+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -21,6 +21,16 @@
       "source": {
         "name": "T-Online",
         "url": "https://www.t-online.de"
+      }
+    },
+    {
+      "id": "67f28536e306",
+      "title": "Arzneimittel: Betreibt die deutsche Pharmabranche Dumping bei Medikamenten? - WiWo",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPMm96anNhSXJOM0M2OGgzdWhaUE1rMkRIMVFvU2hlRVA3aE8xUlE0Y3J1VE5TYUJmaVM5R3ZuTVlrTGxaeWJJWUdTMHQzbnpaVF9yWUZ6b3VKLTREenlBOU5GNWxlWER6ZXVmRVRNTHNFYkpGaEFuaEdSNTNxcmlLWUJPSF9DTWhLUnYzUkwxMGxHM05NMjZaU2NHZGtTNVQ2SmNlQlJxMThFN0hGS1FaRnV3S3NSeU9nUFd6VFloTUFxcnA0d2JfX1JR?oc=5",
+      "published": "2026-09-29T03:55:47+00:00",
+      "source": {
+        "name": "WiWo",
+        "url": "https://www.wiwo.de"
       }
     },
     {
@@ -54,13 +64,13 @@
       }
     },
     {
-      "id": "f9a65cd2a21c",
-      "title": "Hilft Heilwasser wirklich bei Osteoporose? Das sagt eine Expertin - Berliner Morgenpost",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPb3BMX1RBdEFqOHozZVp2U3pxVGRyNTVHd2RPTWhQU1RYUzlmaEpSWnF2Z1FsbmM3UjRiWjJXZ2dCcVdMakZtYXNwa3V4b2xRSC1DQkJhRTNFcFYydkpfZHBqcG1YcGh5ZDl4Q0E2amVWd2M0a0sxa29xS0JqMlB5R1N2aEoxSlEwejFySU9zcDA2YmNuNndzblZ2a2ktenVEeVFTeTNtZk5GczA?oc=5",
-      "published": "2026-10-01T14:40:00+00:00",
+      "id": "bd546db18586",
+      "title": "Pharma - Bis zu 750 Millionen: Fresenius kauft Biopharma-Tochter ganz - Gesundheit - SZ.de - SZ.de",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQQVlxQkhtdExBTlhXMmZHbEVhSnB3bGJzeFp3bGVlQy14c2JLNXFPMmtZcVJ5REFURkRVUXNuRzBGTmx3akxSNWN1VDhVRmVydkhDaXdMNkxOaFZWVGRMQXpiZlBLSlhYLWFrMzQyd3JLYjlCZnEyRUlmUTlRQWZiRzl5TTJQYlhCUlZKYVhlMjdDQjFsN3BTTzMyYW4weXZQRFJoNV82SVRjVEZvTHlzc0tqZlZ0MmZuYzZEc09DMHg2bFJzVW9OU1FpRm5DWUhsUURDU3dFOXBESmxVMExnSTlBUUlSNEVQekVN?oc=5",
+      "published": "2026-10-01T07:44:58+00:00",
       "source": {
-        "name": "Berliner Morgenpost",
-        "url": "https://www.morgenpost.de"
+        "name": "SZ.de",
+        "url": "https://www.sueddeutsche.de"
       }
     },
     {
@@ -74,16 +84,6 @@
       }
     },
     {
-      "id": "bd546db18586",
-      "title": "Pharma - Bis zu 750 Millionen: Fresenius kauft Biopharma-Tochter ganz - Gesundheit - SZ.de - SZ.de",
-      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQQVlxQkhtdExBTlhXMmZHbEVhSnB3bGJzeFp3bGVlQy14c2JLNXFPMmtZcVJ5REFURkRVUXNuRzBGTmx3akxSNWN1VDhVRmVydkhDaXdMNkxOaFZWVGRMQXpiZlBLSlhYLWFrMzQyd3JLYjlCZnEyRUlmUTlRQWZiRzl5TTJQYlhCUlZKYVhlMjdDQjFsN3BTTzMyYW4weXZQRFJoNV82SVRjVEZvTHlzc0tqZlZ0MmZuYzZEc09DMHg2bFJzVW9OU1FpRm5DWUhsUURDU3dFOXBESmxVMExnSTlBUUlSNEVQekVN?oc=5",
-      "published": "2026-10-01T07:44:58+00:00",
-      "source": {
-        "name": "SZ.de",
-        "url": "https://www.sueddeutsche.de"
-      }
-    },
-    {
       "id": "18e43bd86c69",
       "title": "Wahlen Mecklenburg-Vorpommern: Linke will Versandhandel von Medikamenten unterbinden - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZmVfS05qQ0xQeGNrajNHX2RLQWtVZlVqVlFPdG9NMmp0U2pyWE1PWTdnLXBDV2loMDJKR2MwZzdEWlY4bnlCMHQxeXp4SlFTN0hiMDhxR0dqYU1ZcDBOZ2Nrczd0ZVVXanBKcmlfRmZxOVpMalRJWlJ1SG5RODU0dFlmYm1vdkJoakVpRU0wcVg1Mk1OYWdleV9Sc1U5VW53a1E?oc=5",
@@ -91,16 +91,6 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
-      "id": "ea2f735fd483",
-      "title": "Aktualisierung der Rechtsvorschriften und Verbesserung der Effizienz des Arzneimittelmanagements und -gebrauchs. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcktRdFhWbk9XUnpJdG96Ql9reHFTRks3b1lFeXN0czhacUtZOGVpQklyOGZVNXl1YmJ1b1ZqWVgwbkZTb24zOHRMT29OaTJNUlpIOWNVak9lcWtmUlBsX0dHdmwxOG02RDJPNGdTS05rN0prY25TS1drTGc4REdRcDR4Q1VnRm5iM2dyNVI4SU1RclowMzBoSmlBOTE?oc=5",
-      "published": "2026-10-04T01:26:04+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -124,12 +114,22 @@
       }
     },
     {
-      "id": "f08328cd6ce9",
-      "title": "Mounjaro zum Abnehmen: Expertin warnt vor Risiken für Gesundheit, Haut und Haare - fr.de",
+      "id": "ea2f735fd483",
+      "title": "Aktualisierung der Rechtsvorschriften und Verbesserung der Effizienz des Arzneimittelmanagements und -gebrauchs. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcktRdFhWbk9XUnpJdG96Ql9reHFTRks3b1lFeXN0czhacUtZOGVpQklyOGZVNXl1YmJ1b1ZqWVgwbkZTb24zOHRMT29OaTJNUlpIOWNVak9lcWtmUlBsX0dHdmwxOG02RDJPNGdTS05rN0prY25TS1drTGc4REdRcDR4Q1VnRm5iM2dyNVI4SU1RclowMzBoSmlBOTE?oc=5",
+      "published": "2026-10-04T01:26:04+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
+      "id": "238d627fd5b2",
+      "title": "Mounjaro zum Abnehmen: Expertin warnt vor Risiken für Gesundheit, Haut und Haare - Frankfurter Rundschau",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPekhkdTRkanJIdWVpUWJha2UtdnE1SzFSMGVVeXR2YXBzcVNRMEFVWkdWQm1rWVVNSXZLQVZ3c3VYMjhJdmV4bGtDUklPZlZ1Rno4X1hhbXhUdDFWdHVTcUw0bUxtZTl4UzFKM1FUdGFpNGZVYjBfZklpU2xZTFluUXRXZXhLVU43cXRxUkdTaHJUcFJKVXFwTXdRYW4zWE1KaUMwUU82dkFtODJuLTBnZVJIWGJSZXZtbWwxTS1B?oc=5",
       "published": "2026-09-17T07:00:00+00:00",
       "source": {
-        "name": "fr.de",
+        "name": "Frankfurter Rundschau",
         "url": "https://www.fr.de"
       }
     },
@@ -161,6 +161,16 @@
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
+      }
+    },
+    {
+      "id": "cdb79a5d6ca5",
+      "title": "Statine: Ärztin macht klare Ansage zu Nebenwirkungen - Berliner Morgenpost",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOU0xRWm9vdmt0MG9aRjBSeU9reWNoMjkyekZuRGZsTDJWZmo5UXhuZDBMN0hnU29ZUkxQNDc0QmJ6c1hvSkRoQXRRc0tyeVc1N2RYcDA4VGVyc212bHZROXBCWXg2OWNBNThqcFo4cWlQd3lESEdTenl4Y0hCLTJ1MnJ5N0FWeHdMakNTN05PdEVGbEJGUUMxdUFMdkZTMmU1LTMyTGM5ZkQ3SWFwaTVnS2xnWlVSZ28?oc=5",
+      "published": "2026-10-01T08:53:00+00:00",
+      "source": {
+        "name": "Berliner Morgenpost",
+        "url": "https://www.morgenpost.de"
       }
     },
     {
@@ -204,16 +214,6 @@
       }
     },
     {
-      "id": "cdb79a5d6ca5",
-      "title": "Statine: Ärztin macht klare Ansage zu Nebenwirkungen - Berliner Morgenpost",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOU0xRWm9vdmt0MG9aRjBSeU9reWNoMjkyekZuRGZsTDJWZmo5UXhuZDBMN0hnU29ZUkxQNDc0QmJ6c1hvSkRoQXRRc0tyeVc1N2RYcDA4VGVyc212bHZROXBCWXg2OWNBNThqcFo4cWlQd3lESEdTenl4Y0hCLTJ1MnJ5N0FWeHdMakNTN05PdEVGbEJGUUMxdUFMdkZTMmU1LTMyTGM5ZkQ3SWFwaTVnS2xnWlVSZ28?oc=5",
-      "published": "2026-10-01T08:53:00+00:00",
-      "source": {
-        "name": "Berliner Morgenpost",
-        "url": "https://www.morgenpost.de"
-      }
-    },
-    {
       "id": "0f06b40fedaa",
       "title": "Blutdrucksenker im hohen Alter reduzieren? Bei diesen Patienten könnte das möglich sein - aponet.de",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNYXdJQzdpN1hxUGhkSkg0c05VcGh6bXNPZWtOeE02dlAxMlk0bjN5MGpOMXlxdm5lZk84MzRQdWJTLWh4ZFJkY0Rya2RtWVBEWm5TWXZsYl9qRko5RkUxYVdPOXkwTzA5SUZvXzAyX1dYLUpfTjFrYXFnNHZ3UTdBWm9IWTBzMTg4emN3V3ZMOTRwU1Jrd1FJQWVDeDM5QmQ4SWRSS3FrdXJWZk91NEc4Qk5KTDdsOC1FU0VvVkplQ0lBdw?oc=5",
@@ -254,12 +254,12 @@
       }
     },
     {
-      "id": "054c2beef78c",
-      "title": "Marktgröße, Marktanteil für natürliche Gesundheitsmedikamente | Prognose [2034] - Fortune Business Insights",
+      "id": "6a1bab83b637",
+      "title": "Marktgröße, Marktanteil für natürliche Gesundheitsmedikamente | Prognose [2034] - fortunebusinessinsights.com",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcm9jWnMyZy1ubkhPQXFmQ1dzUmtCU0V4X0dTMlEzZnpVeEVnVmxNU0VweEJsR2hNakhlN0JxRk9kMVVhVFZFNWhpXzhtR2g3cTdRQVM5d1lON25zT1FXV3hJNlJ1dDY5R2JUUld0UGRadUs4aFM5elJ6Z0RqX3BFS1ZEcERJUUh0MldhbVRybzN6anhOZnRHMw?oc=5",
       "published": "2026-09-07T07:00:00+00:00",
       "source": {
-        "name": "Fortune Business Insights",
+        "name": "fortunebusinessinsights.com",
         "url": "https://www.fortunebusinessinsights.com"
       }
     },
@@ -284,12 +284,12 @@
       }
     },
     {
-      "id": "e01f4b6ac873",
-      "title": "Patente und Profitorientierung blockieren Arzneimittel: Warum Millionen keinen Zugang haben - fr.de",
+      "id": "5431265615fd",
+      "title": "Patente und Profitorientierung blockieren Arzneimittel: Warum Millionen keinen Zugang haben - Frankfurter Rundschau",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPb0JSbmVWcVk1ajdydzIzRF9PM2hHQWFaYWNuSjhZbmZBbXplUGFBNklQVFptakVZdGN5UVA4VW9fS3VoRmluVzd5OHV1MXJMM3NudGpTdHR5MEI4dExjSmIzM0VoVUtCeHU2VnFfWGNTSVZYWFBsOEhValduakNSd1Z1TTZEM20zTFF0R3RLYy1NWHYza196cEkwM1ljMEtKdDdCdU1TN0J2LVU0Sk9UckdzRXpJNHVMdzZvaG9Ya2FxNEk?oc=5",
       "published": "2026-07-31T07:00:00+00:00",
       "source": {
-        "name": "fr.de",
+        "name": "Frankfurter Rundschau",
         "url": "https://www.fr.de"
       }
     },
@@ -304,12 +304,12 @@
       }
     },
     {
-      "id": "b6760f575042",
-      "title": "Medikamentenversand bei Hitze: Risiken für Arzneimittel - apotheken-umschau.de",
+      "id": "50e574837ee5",
+      "title": "Medikamentenversand bei Hitze: Risiken für Arzneimittel - Apotheken Umschau",
       "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPREY3YjJLY0JhYUEzX3FnRFlGRDJ1Vm9JamNNVTNoR3NOX0tOMTIzWUMweTJ2ekYzbktzUTZha0djdWpuN09lNHVZUWw4bVJxYXhWeWtxWUVxM0tXS2xGcGtMd29yWmdTSlFpUkxpdmRvMV9ZaEJhT3czaTY3a2VhOUVJU2p0VWZWMU9PNHZDQWt2b0FpdFhOQlNESFdTV0l0M3R4SDFVMTBOTmZMVVo5ZV9KSmZremN6cTNzOXR0a3RjT2Y0MGZjQkNMUVdFY0xZejBFanY4aDRNOEdpZzdTMVowbkZHUVNtU1htclVWeE50OUwzaWlXSG44akg3S05Odlh2MUxlYXAxbkZVbDB4eWRhZF9YZw?oc=5",
       "published": "2026-07-31T07:00:00+00:00",
       "source": {
-        "name": "apotheken-umschau.de",
+        "name": "Apotheken Umschau",
         "url": "https://www.apotheken-umschau.de"
       }
     },
@@ -324,12 +324,12 @@
       }
     },
     {
-      "id": "bab8b3b3adf3",
-      "title": "Medikamente mögen keine Hitze - Ihre Vorsorge",
+      "id": "fcf99d323a26",
+      "title": "Medikamente mögen keine Hitze - ihre-vorsorge.de",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORjNQbHBlSERZOEZTSDAxdGVWUndXLVFTRmtPQ1J0djlReV9xQkdqUGFjdklRSjlsc2dxSnBBSnpzTEl6ZW53LXFGOWlXSVAxWnZ4NWk3UGw2OTRiNjlMSGN2VFg3XzlsczhsdEdDX0dfSjY1aDlvSXE5cXQ3Q3hDOF9zRW9xWEEweXc?oc=5",
       "published": "2026-07-21T07:00:00+00:00",
       "source": {
-        "name": "Ihre Vorsorge",
+        "name": "ihre-vorsorge.de",
         "url": "https://www.ihre-vorsorge.de"
       }
     },
@@ -434,12 +434,12 @@
       }
     },
     {
-      "id": "6a3a426544ab",
-      "title": "HIV-Schutz mit Tabletten: Wie sicher ist PrEP im Alltag? - ndr.de",
+      "id": "198b0da65ee5",
+      "title": "HIV-Schutz mit Tabletten: Wie sicher ist PrEP im Alltag? - NDR.de",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTWhsNWk1Tkc5MzNycUQ5RzhaaXhPTGlCcHJ1Yl9wajZ0VkV3akIxR255SUd6clB5aU5fZmNlUGZIcTVNanZlTmctSDJqUFB5Zk5XempaWnhrbDBlVWZuOE9xWDRSREhKRm5sa0lrbGVnVjl0TE5NNWtTY25CUzRmdG5jQlBZc1pFakFyT0hITHU5NmpfaUE?oc=5",
       "published": "2026-07-18T07:00:00+00:00",
       "source": {
-        "name": "ndr.de",
+        "name": "NDR.de",
         "url": "https://www.ndr.de"
       }
     },
@@ -454,12 +454,12 @@
       }
     },
     {
-      "id": "2697bed6b5ef",
-      "title": "EU-Gesundheitskommissar prüft Folgen von Trumps Arzneipreispolitik - Euronews",
+      "id": "543333542e6e",
+      "title": "EU-Gesundheitskommissar prüft Folgen von Trumps Arzneipreispolitik - Euronews.com",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcFliSVZSNlg1cVdjU1p0WVFhUkM4b0FGR1ZaNTJINFFpRUNRV2pkTWVVQXBrUUt0QTNqQmpXTFNhRDB4eEE5dXpaaXR6MmMzZm52RjhlVW1rc200dGMyWjBnVnFkcUVfV042VmFmdHRyNXItOUItWDlWZHJFR3hGd0NQZC1HdE1NOC1IT0d4eEhqY3F4czVGRVRscElSb01pakMzLWZfQXdrOHVLZkE?oc=5",
       "published": "2026-06-16T07:00:00+00:00",
       "source": {
-        "name": "Euronews",
+        "name": "Euronews.com",
         "url": "https://de.euronews.com"
       }
     },
@@ -564,22 +564,22 @@
       }
     },
     {
-      "id": "9a1b5bc05823",
-      "title": "Sommerhitze: Achtung, manche Medikamente wirken anders - Ihre Vorsorge",
+      "id": "5f4bfdb07efc",
+      "title": "Sommerhitze: Achtung, manche Medikamente wirken anders - ihre-vorsorge.de",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWW1icWFIbGQyaUMxVWU3T29QcUd1RUhxN0N4VF9vbVBnNHJySEV0d3Y2V2dYcEFQRVJGMjlQOHotSVcxNzBhVE45QnZVdnhEckF4Y3BuUkJfTVVPcXRtR19HWlBVMndWZWgwTzZ0RXlRaHNpRk5UUmdnTVdXeEZpTEdtd0dPNnZrQWNOZFAxTDJyTnBibUFsRXoxOWtYYm5iZVF1Q2dfSQ?oc=5",
       "published": "2026-06-19T07:00:00+00:00",
       "source": {
-        "name": "Ihre Vorsorge",
+        "name": "ihre-vorsorge.de",
         "url": "https://www.ihre-vorsorge.de"
       }
     },
     {
-      "id": "7a99adaec5c0",
-      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - Geo.de",
+      "id": "47afc2884d76",
+      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - geo.de",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
       "published": "2026-06-19T07:00:00+00:00",
       "source": {
-        "name": "Geo.de",
+        "name": "geo.de",
         "url": "https://www.geo.de"
       }
     },
@@ -654,6 +654,16 @@
       }
     },
     {
+      "id": "8c241dbc3ada",
+      "title": "Pflanzliche Arzneimittel – im Licht der Wissenschaft - GESUNDHEITHEUTE - SRF",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQUHVQVzFrZzVhLUljRzk2bktXazYwVEkwS2c1c09Ud1BkR0NSVDVETzJCcjlXU1E2TEVRelJuc3UyYUlzY19zSEU4U2Ntd1VneFZOcDhpT3FOc3Y2VGNtclN2bS14VTJ1RXdTbFJYYXlYS0RLejRRVkdqeVhxX1VpYjMzNmdNZmY4TS1EaTdpWk1SVEowc1NFeFhxLWtDdVNWbEh5RU9pX2hwc0lwbTRzUDVrSzFwMXQ1NjliU044bnJUdXgwNk9iWWdTMUhYdVMwRzgyeXB1NERiMWZvTE93NXJFdXVLNU54Nzg4NA?oc=5",
+      "published": "2026-05-30T07:00:00+00:00",
+      "source": {
+        "name": "SRF",
+        "url": "https://www.srf.ch"
+      }
+    },
+    {
       "id": "2a88ab722e68",
       "title": "Wie viel darf Gesundheit kosten? Streit um Medikamentenpreise eskaliert - WiWo",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMEkzamFzeFFHZEk3NjFIbFJmYjZvajlGOVMtcHo3aUZsWFlvdkcyMzFTODZXZFM1dWhNWU1lT3FVVDk4dlduRjBqV2paSEFVbkE2YWktMVJIanA4U3J2QW1rMnFtOUljc0pXb2hEbVNSWkxYdGlkRHRMRGE3aGpSYjlrU0FzN0RjN1dhWkJWZldkUmVpbm9xbXpSZmR3b0xGR2ZXQmdvVVZ4bWh5bmVNbkdOOU1rNEdiZElEc0NEeDE3LXpqVkE?oc=5",
@@ -661,16 +671,6 @@
       "source": {
         "name": "WiWo",
         "url": "https://www.wiwo.de"
-      }
-    },
-    {
-      "id": "160e170938c2",
-      "title": "Pflanzliche Arzneimittel – im Licht der Wissenschaft - GESUNDHEITHEUTE - srf.ch",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQUHVQVzFrZzVhLUljRzk2bktXazYwVEkwS2c1c09Ud1BkR0NSVDVETzJCcjlXU1E2TEVRelJuc3UyYUlzY19zSEU4U2Ntd1VneFZOcDhpT3FOc3Y2VGNtclN2bS14VTJ1RXdTbFJYYXlYS0RLejRRVkdqeVhxX1VpYjMzNmdNZmY4TS1EaTdpWk1SVEowc1NFeFhxLWtDdVNWbEh5RU9pX2hwc0lwbTRzUDVrSzFwMXQ1NjliU044bnJUdXgwNk9iWWdTMUhYdVMwRzgyeXB1NERiMWZvTE93NXJFdXVLNU54Nzg4NA?oc=5",
-      "published": "2026-05-30T07:00:00+00:00",
-      "source": {
-        "name": "srf.ch",
-        "url": "https://www.srf.ch"
       }
     },
     {
@@ -744,22 +744,22 @@
       }
     },
     {
-      "id": "648abb27e764",
-      "title": "Arzneimittelengpässe in Europa – so reagiert die EU - europarl.europa.eu",
+      "id": "2a4cd6eb6d1d",
+      "title": "Arzneimittelengpässe in Europa – so reagiert die EU - European Parliament",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYUFLam5JQVMtSlNuNWlqSTJrRUNDN215RDlRU2hOMEE0Rkp3cHBodVhSbXRsSUhvTTRhMTVLWEE5QmM0dXJRNGlPSkwyZ2doMHhlaEpHbW5DZl8tazhQc3lPcEN4SmtLaEdGMk9IZjF5MGZvNEd3a2tXSnJXT1ItanFsV2gtRGpMYjlUbHV2OURrMkM5OXA3emh5OERlMlpXc1J1UlNVYUp1UlBUd1gzREtLUkZRZw?oc=5",
       "published": "2026-03-31T07:00:00+00:00",
       "source": {
-        "name": "europarl.europa.eu",
+        "name": "European Parliament",
         "url": "https://www.europarl.europa.eu"
       }
     },
     {
-      "id": "7a4b0d24029c",
-      "title": "Vom Wissen zum Handeln: Verbesserung der Bezahlbarkeit von Arzneimitteln in den Ländern des Westbalkans - who.int",
+      "id": "38b8b0aa9188",
+      "title": "Vom Wissen zum Handeln: Verbesserung der Bezahlbarkeit von Arzneimitteln in den Ländern des Westbalkans - World Health Organization (WHO)",
       "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOZlNmcEdYcXZxdDBYazhiVjRCWHVtbms0ZG5JUWlXb0lJWXVFYjV1ak1MR05oZW5FbHFMTGpyNjJxS1ZuQWk4Nl9Wc2NHdHE3YnhrQzc1VHJNbm1QRFdMVF9WVGw2NHdVeDBHajRYX1hfZkFEMTU2Z09kcU04T1c1V3dKZ09nUUlMc3dnLVdvQ3RTYUZqSDA3d1djVXpxbU9fSFUtSGlHbHNOdFJRb29RQlpTRHEzd2pCQzd5Y3VRNmcza2dzTVVlYUp5Y1U5b01kMGpQUzZvNGctWE0tSmJRSEk5TQ?oc=5",
       "published": "2026-03-30T07:00:00+00:00",
       "source": {
-        "name": "who.int",
+        "name": "World Health Organization (WHO)",
         "url": "https://www.who.int"
       }
     },
@@ -784,12 +784,12 @@
       }
     },
     {
-      "id": "91d9d479bbed",
-      "title": "Gesundheitsgefahr durch gefälschte Arzneimittel - gesundheit.gv.at",
+      "id": "51e8c4b74840",
+      "title": "Gesundheitsgefahr durch gefälschte Arzneimittel - Gesundheit.gv.at",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYlhNa1drQ3UydVU1Ti1QZWxOelZ2UDNkQTBsczZ4SzVIZGhQS3psTVQ5Zmw2Ujh2RGpDYzZ5TDdIbG5mYkFjRl9CX3JkS0FHQ2dlSGVZMlpRTmpva0xOX3hoTWhTM3VoZlB6bjJYbjRRcGp2NERXZmhoaEtyeGJhUDlSU0k0cURLRzNIc1FR?oc=5",
       "published": "2026-03-09T07:00:00+00:00",
       "source": {
-        "name": "gesundheit.gv.at",
+        "name": "Gesundheit.gv.at",
         "url": "https://www.gesundheit.gv.at"
       }
     },
@@ -874,12 +874,12 @@
       }
     },
     {
-      "id": "9f80a29099b2",
-      "title": "Haushaltspläne: Mehr Geld für Produktion kritischer Arzneimittel, keine Mittel für Gesundheit und Pflege - aerzteblatt.de",
+      "id": "618351e249d1",
+      "title": "Haushaltspläne: Mehr Geld für Produktion kritischer Arzneimittel, keine Mittel für Gesundheit und Pflege - Deutsches Ärzteblatt",
       "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNa19XTmtzLWdGTUNhcTkyNVVMZnhDVnlNVkxETGwwVDZ1X3dFVExwZEpDZU0wREhkUk91WEgwV0lJSXEwNTJydG1TbjVRV0FVRy1rUDhwYWtBeVdkYVJuSXo2SmhPUHJ1cWRZYWc3YW5pN21mc18wZUp4Y2FSZG53QnJQZk1RZ2FFeXBxN2VkUDRFYy16ZjgxQkNSc3ppZ1ZPWGdNdG9SanVveHNHc2ZUQU5qV2JDQXpINnVVd2x5eXplUnBDZjJCdGJLRk9QemRtaEpvYlNrTjM0anBWaDRDbHBYY1d2NUtZY1N2Zmx1SWU?oc=5",
       "published": "2025-11-11T08:00:00+00:00",
       "source": {
-        "name": "aerzteblatt.de",
+        "name": "Deutsches Ärzteblatt",
         "url": "https://www.aerzteblatt.de"
       }
     },
@@ -984,12 +984,12 @@
       }
     },
     {
-      "id": "e7fc237accfb",
-      "title": "Medikamente im DM-Drogeriemarkt – Apotheken laufen Sturm - STERN.de",
+      "id": "27daef187974",
+      "title": "Medikamente im DM-Drogeriemarkt – Apotheken laufen Sturm - stern.de",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMG5SMnM4aXU5czJ1S2dnUzdMeFBmb3IxQVBKWGVvcVB0eUJQUjkxRU00RHEtQlRjVU1EM0Z2WF95SG85WDJPSjVNcjRTWFM1OHVXNm5pdVAxZGtDcHJTSXFpSDAtdUstM0JISWRKcEI5OXRXZ2hXSzQ3cFJqb0g5N0ZRajJtY21JUmRNNmZweXg1bEpuOXc0Rk9CNENaMHNOYTc4OGtjZw?oc=5",
       "published": "2025-12-16T08:00:00+00:00",
       "source": {
-        "name": "STERN.de",
+        "name": "stern.de",
         "url": "https://www.stern.de"
       }
     },
