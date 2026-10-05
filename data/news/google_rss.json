@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-04T22:50:31.148297+00:00",
+  "fetched_at": "2026-10-05T01:41:56.929172+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -24,12 +24,12 @@
       }
     },
     {
-      "id": "67f28536e306",
-      "title": "Arzneimittel: Betreibt die deutsche Pharmabranche Dumping bei Medikamenten? - WiWo",
+      "id": "ac7d2ec6e63c",
+      "title": "Arzneimittel: Betreibt die deutsche Pharmabranche Dumping bei Medikamenten? - wiwo.de",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPMm96anNhSXJOM0M2OGgzdWhaUE1rMkRIMVFvU2hlRVA3aE8xUlE0Y3J1VE5TYUJmaVM5R3ZuTVlrTGxaeWJJWUdTMHQzbnpaVF9yWUZ6b3VKLTREenlBOU5GNWxlWER6ZXVmRVRNTHNFYkpGaEFuaEdSNTNxcmlLWUJPSF9DTWhLUnYzUkwxMGxHM05NMjZaU2NHZGtTNVQ2SmNlQlJxMThFN0hGS1FaRnV3S3NSeU9nUFd6VFloTUFxcnA0d2JfX1JR?oc=5",
       "published": "2026-09-29T03:55:47+00:00",
       "source": {
-        "name": "WiWo",
+        "name": "wiwo.de",
         "url": "https://www.wiwo.de"
       }
     },
@@ -74,16 +74,6 @@
       }
     },
     {
-      "id": "7c593e8fdb7d",
-      "title": "Clozapin bei Schizophrenie: Warum das wirksamste Medikament nicht oft genug verschrieben wird - FAZ",
-      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOR3VMVHpVdkpyODNwWWYySWpYTzRNd1BmQUFQQTJHWjZvd0JWSUNzM3V6Zm9FUV94WFdRTzNZUDd1YUwzN0gxY2k0aFhWbUNaeWN2a01vVTV4Sm1sSnVJek9hTHM3eGJVRC14cjQ5VGJXMnk1c1lCLXVGYlpqbzc1QWdxS3JScThFWERSVm45endTMU40VHVQbkhKd1hwYWVrUWQ1cktZNWJBcGxaN0FNTGNoNlUwajJwZUhoSjVrX3o5bU5kLVo4bGhrbzAzY2J2bU94MFZma1NEandGMkV0R2Fnb2x6ZUxIeUozZTZFbUJvR1gzbTZN?oc=5",
-      "published": "2026-09-29T07:36:54+00:00",
-      "source": {
-        "name": "FAZ",
-        "url": "https://www.faz.net"
-      }
-    },
-    {
       "id": "18e43bd86c69",
       "title": "Wahlen Mecklenburg-Vorpommern: Linke will Versandhandel von Medikamenten unterbinden - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZmVfS05qQ0xQeGNrajNHX2RLQWtVZlVqVlFPdG9NMmp0U2pyWE1PWTdnLXBDV2loMDJKR2MwZzdEWlY4bnlCMHQxeXp4SlFTN0hiMDhxR0dqYU1ZcDBOZ2Nrczd0ZVVXanBKcmlfRmZxOVpMalRJWlJ1SG5RODU0dFlmYm1vdkJoakVpRU0wcVg1Mk1OYWdleV9Sc1U5VW53a1E?oc=5",
@@ -91,6 +81,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "7c593e8fdb7d",
+      "title": "Clozapin bei Schizophrenie: Warum das wirksamste Medikament nicht oft genug verschrieben wird - FAZ",
+      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOR3VMVHpVdkpyODNwWWYySWpYTzRNd1BmQUFQQTJHWjZvd0JWSUNzM3V6Zm9FUV94WFdRTzNZUDd1YUwzN0gxY2k0aFhWbUNaeWN2a01vVTV4Sm1sSnVJek9hTHM3eGJVRC14cjQ5VGJXMnk1c1lCLXVGYlpqbzc1QWdxS3JScThFWERSVm45endTMU40VHVQbkhKd1hwYWVrUWQ1cktZNWJBcGxaN0FNTGNoNlUwajJwZUhoSjVrX3o5bU5kLVo4bGhrbzAzY2J2bU94MFZma1NEandGMkV0R2Fnb2x6ZUxIeUozZTZFbUJvR1gzbTZN?oc=5",
+      "published": "2026-09-29T07:36:54+00:00",
+      "source": {
+        "name": "FAZ",
+        "url": "https://www.faz.net"
       }
     },
     {
@@ -114,16 +114,6 @@
       }
     },
     {
-      "id": "ea2f735fd483",
-      "title": "Aktualisierung der Rechtsvorschriften und Verbesserung der Effizienz des Arzneimittelmanagements und -gebrauchs. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcktRdFhWbk9XUnpJdG96Ql9reHFTRks3b1lFeXN0czhacUtZOGVpQklyOGZVNXl1YmJ1b1ZqWVgwbkZTb24zOHRMT29OaTJNUlpIOWNVak9lcWtmUlBsX0dHdmwxOG02RDJPNGdTS05rN0prY25TS1drTGc4REdRcDR4Q1VnRm5iM2dyNVI4SU1RclowMzBoSmlBOTE?oc=5",
-      "published": "2026-10-04T01:26:04+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "238d627fd5b2",
       "title": "Mounjaro zum Abnehmen: Expertin warnt vor Risiken für Gesundheit, Haut und Haare - Frankfurter Rundschau",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPekhkdTRkanJIdWVpUWJha2UtdnE1SzFSMGVVeXR2YXBzcVNRMEFVWkdWQm1rWVVNSXZLQVZ3c3VYMjhJdmV4bGtDUklPZlZ1Rno4X1hhbXhUdDFWdHVTcUw0bUxtZTl4UzFKM1FUdGFpNGZVYjBfZklpU2xZTFluUXRXZXhLVU43cXRxUkdTaHJUcFJKVXFwTXdRYW4zWE1KaUMwUU82dkFtODJuLTBnZVJIWGJSZXZtbWwxTS1B?oc=5",
@@ -131,6 +121,16 @@
       "source": {
         "name": "Frankfurter Rundschau",
         "url": "https://www.fr.de"
+      }
+    },
+    {
+      "id": "ea2f735fd483",
+      "title": "Aktualisierung der Rechtsvorschriften und Verbesserung der Effizienz des Arzneimittelmanagements und -gebrauchs. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcktRdFhWbk9XUnpJdG96Ql9reHFTRks3b1lFeXN0czhacUtZOGVpQklyOGZVNXl1YmJ1b1ZqWVgwbkZTb24zOHRMT29OaTJNUlpIOWNVak9lcWtmUlBsX0dHdmwxOG02RDJPNGdTS05rN0prY25TS1drTGc4REdRcDR4Q1VnRm5iM2dyNVI4SU1RclowMzBoSmlBOTE?oc=5",
+      "published": "2026-10-04T01:26:04+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -184,13 +184,13 @@
       }
     },
     {
-      "id": "36d437f6119a",
-      "title": "Genschere Crispr: Charité behandelt erstmals Patient in Deutschland - FAZ",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQZ1NoR2FEMmRocmY0ZXAxejU4OE9jWURfVGY2dkZwcWpNdW5wUnlHLWh6cVNURjdPZDJZcGtha1ZWSDhINUdjMl9FZWl1TDNaQ1ZlbExHNHJaRlpQSnFpdUtWcE5VbkZLc2UwQzVQcWUwRGlDYkJKMk1EUDdyUXM4Z1lXcW9UME9oS1NlcldHQm9UMGt0TFNlRDFJV1owbUxST1ItUS1fYTJCaTZwekdwWTZaWmwxWE5ock5FS0FocHIwNHdZZzhzeFo0TDVxUQ?oc=5",
-      "published": "2026-10-01T15:24:16+00:00",
+      "id": "c51e49198a0a",
+      "title": "Kostenlose medizinische Untersuchungen und Medikamente für Frauen in schwierigen Lebenslagen. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPOGRTNjNCTk5qV0FHOWR4SXpZUURidW5QR0hpbnd1dzI2WjVDU2NYcnVnSHV1NTc1Z2FmZEgxRE1MYzJ3LU9pdUdmd1N5SE4wNEZsWGQzcDVmeDNHUHoxb1VVNUNDekg1Z0RBb2JiYWxCMHZrV3RIR0xYcDZZZlItQ1EySVdjNTBJSkZyT0dnSjJsbzRJSHc?oc=5",
+      "published": "2026-10-03T06:06:32+00:00",
       "source": {
-        "name": "FAZ",
-        "url": "https://www.faz.net"
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -204,20 +204,20 @@
       }
     },
     {
-      "id": "fe06e02ca806",
-      "title": "Vitamin D: Ab 5.000 IE zeigten sich bessere kognitive Testwerte - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOLVRJUHMwTlRrd0x3M0x3QmhmeTdEbjlIUkF0ZDVVT2hJRFlZMzh4WjA4eHprRGE0WFZOYnlWSWpXUzBCNTNPZ0lxOGhFbjRaR3k0ZjBLdEtKalFNaGRZQWxtZ2U5LVFiakRLX0RKV25mZXlFbkk0czBTOTh3MFVudjgxUVhzM3FmeHdPdFVrME1lc0JBWWRDQVJiemd1UQ?oc=5",
-      "published": "2026-09-28T07:00:00+00:00",
+      "id": "0f06b40fedaa",
+      "title": "Blutdrucksenker im hohen Alter reduzieren? Bei diesen Patienten könnte das möglich sein - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNYXdJQzdpN1hxUGhkSkg0c05VcGh6bXNPZWtOeE02dlAxMlk0bjN5MGpOMXlxdm5lZk84MzRQdWJTLWh4ZFJkY0Rya2RtWVBEWm5TWXZsYl9qRko5RkUxYVdPOXkwTzA5SUZvXzAyX1dYLUpfTjFrYXFnNHZ3UTdBWm9IWTBzMTg4emN3V3ZMOTRwU1Jrd1FJQWVDeDM5QmQ4SWRSS3FrdXJWZk91NEc4Qk5KTDdsOC1FU0VvVkplQ0lBdw?oc=5",
+      "published": "2026-09-09T07:00:00+00:00",
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
       }
     },
     {
-      "id": "0f06b40fedaa",
-      "title": "Blutdrucksenker im hohen Alter reduzieren? Bei diesen Patienten könnte das möglich sein - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNYXdJQzdpN1hxUGhkSkg0c05VcGh6bXNPZWtOeE02dlAxMlk0bjN5MGpOMXlxdm5lZk84MzRQdWJTLWh4ZFJkY0Rya2RtWVBEWm5TWXZsYl9qRko5RkUxYVdPOXkwTzA5SUZvXzAyX1dYLUpfTjFrYXFnNHZ3UTdBWm9IWTBzMTg4emN3V3ZMOTRwU1Jrd1FJQWVDeDM5QmQ4SWRSS3FrdXJWZk91NEc4Qk5KTDdsOC1FU0VvVkplQ0lBdw?oc=5",
-      "published": "2026-09-09T07:00:00+00:00",
+      "id": "fe06e02ca806",
+      "title": "Vitamin D: Ab 5.000 IE zeigten sich bessere kognitive Testwerte - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOLVRJUHMwTlRrd0x3M0x3QmhmeTdEbjlIUkF0ZDVVT2hJRFlZMzh4WjA4eHprRGE0WFZOYnlWSWpXUzBCNTNPZ0lxOGhFbjRaR3k0ZjBLdEtKalFNaGRZQWxtZ2U5LVFiakRLX0RKV25mZXlFbkk0czBTOTh3MFVudjgxUVhzM3FmeHdPdFVrME1lc0JBWWRDQVJiemd1UQ?oc=5",
+      "published": "2026-09-28T07:00:00+00:00",
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
@@ -244,23 +244,13 @@
       }
     },
     {
-      "id": "be459665a3bc",
-      "title": "Zuzahlungserlass: BMG fordert Durchgreifen gegen Versender - Apotheke Adhoc",
+      "id": "f57bd504f639",
+      "title": "Zuzahlungserlass: BMG fordert Durchgreifen gegen Versender - apotheke-adhoc.de",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeE8wUkJsUjYtY0xya2wzM1F0NE1sanFzQTItcXQ1UkZuRFRBTmR3N1FidGlQLVFRYTRnUk5PMUFnTzRnTkI3WnJHdGlyeDI4T3FUSUxNQ09fcWh4VEw1c1VTZXQxYnJlejVEZm9IUVM3MDgtZHJSc2hwWWI2Ym1oTTJXdU1XNV9rQ0VDUkxYd1lHUU1hbjNJMlN1ejZxUkN5dHNsVm5ndGJtUQ?oc=5",
       "published": "2026-07-31T07:00:00+00:00",
       "source": {
-        "name": "Apotheke Adhoc",
+        "name": "apotheke-adhoc.de",
         "url": "https://www.apotheke-adhoc.de"
-      }
-    },
-    {
-      "id": "6a1bab83b637",
-      "title": "Marktgröße, Marktanteil für natürliche Gesundheitsmedikamente | Prognose [2034] - fortunebusinessinsights.com",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcm9jWnMyZy1ubkhPQXFmQ1dzUmtCU0V4X0dTMlEzZnpVeEVnVmxNU0VweEJsR2hNakhlN0JxRk9kMVVhVFZFNWhpXzhtR2g3cTdRQVM5d1lON25zT1FXV3hJNlJ1dDY5R2JUUld0UGRadUs4aFM5elJ6Z0RqX3BFS1ZEcERJUUh0MldhbVRybzN6anhOZnRHMw?oc=5",
-      "published": "2026-09-07T07:00:00+00:00",
-      "source": {
-        "name": "fortunebusinessinsights.com",
-        "url": "https://www.fortunebusinessinsights.com"
       }
     },
     {
@@ -274,12 +264,22 @@
       }
     },
     {
-      "id": "a3fe36c8de24",
-      "title": "Ärzte vs. Apotheker – Der Verteilungskampf um die Gesundheit eskaliert - welt.de",
+      "id": "054c2beef78c",
+      "title": "Marktgröße, Marktanteil für natürliche Gesundheitsmedikamente | Prognose [2034] - Fortune Business Insights",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcm9jWnMyZy1ubkhPQXFmQ1dzUmtCU0V4X0dTMlEzZnpVeEVnVmxNU0VweEJsR2hNakhlN0JxRk9kMVVhVFZFNWhpXzhtR2g3cTdRQVM5d1lON25zT1FXV3hJNlJ1dDY5R2JUUld0UGRadUs4aFM5elJ6Z0RqX3BFS1ZEcERJUUh0MldhbVRybzN6anhOZnRHMw?oc=5",
+      "published": "2026-09-07T07:00:00+00:00",
+      "source": {
+        "name": "Fortune Business Insights",
+        "url": "https://www.fortunebusinessinsights.com"
+      }
+    },
+    {
+      "id": "d9cb7465e8c6",
+      "title": "Ärzte vs. Apotheker – Der Verteilungskampf um die Gesundheit eskaliert - WELT",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNRWwtS2t0RWtxOWhiY3Bpcl9oaG9YUGFZeXRJZ3ZXcFMzRU9EbTBISDdZa1pYQXZCZjZ3Z19Kd18wei11cWluU3lDQ3RSVURjN05wdVU1WTBDWGFrV0lCbnJmR3FieGVDNUlMXzhyMDV2UkhCZy00M2t1Tk5rT1lrY0VFZ0tUREZTVkhkdmYxaDZLQXgzRTlRZEJveDJQZVdYWHNNM1I1U3FQZktfWElRZDV0VlBQN0gzX2NvVURQWDNUSnA0M1JNZk9pQWNwQQ?oc=5",
       "published": "2026-07-13T07:00:00+00:00",
       "source": {
-        "name": "welt.de",
+        "name": "WELT",
         "url": "https://www.welt.de"
       }
     },
@@ -324,12 +324,12 @@
       }
     },
     {
-      "id": "fcf99d323a26",
-      "title": "Medikamente mögen keine Hitze - ihre-vorsorge.de",
+      "id": "bab8b3b3adf3",
+      "title": "Medikamente mögen keine Hitze - Ihre Vorsorge",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORjNQbHBlSERZOEZTSDAxdGVWUndXLVFTRmtPQ1J0djlReV9xQkdqUGFjdklRSjlsc2dxSnBBSnpzTEl6ZW53LXFGOWlXSVAxWnZ4NWk3UGw2OTRiNjlMSGN2VFg3XzlsczhsdEdDX0dfSjY1aDlvSXE5cXQ3Q3hDOF9zRW9xWEEweXc?oc=5",
       "published": "2026-07-21T07:00:00+00:00",
       "source": {
-        "name": "ihre-vorsorge.de",
+        "name": "Ihre Vorsorge",
         "url": "https://www.ihre-vorsorge.de"
       }
     },
@@ -494,22 +494,22 @@
       }
     },
     {
-      "id": "e55e30521cda",
-      "title": "Vorschläge der FinanzKommission Gesundheit für eine Reform der GKV - Taylor Wessing",
+      "id": "e4a1f4d609dd",
+      "title": "Vorschläge der FinanzKommission Gesundheit für eine Reform der GKV - taylorwessing.com",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQVJuN0Fwenp0QU9hM01mSTRlR1ZxUzBfaExuWkRPSVIxQTBmb21HMGJ3Umd1b2Q5NjlpTkZWdnlsWU5RdG4tYmV2YWlldnhEREpzVmdLaURVbVpCR2pFRDY5Z1d6VW53bGtvaGgwTkRMeFMzeWI5WDJNd2ZXdTl4WkJTRURfbEstNXlJaXdzNGlwQTF5dHJ2Mjg1bFlJTW1SajFpM3VpMEtDdXZuNWplY3NnTQ?oc=5",
       "published": "2026-05-04T07:00:00+00:00",
       "source": {
-        "name": "Taylor Wessing",
+        "name": "taylorwessing.com",
         "url": "https://www.taylorwessing.com"
       }
     },
     {
-      "id": "44a936f3300e",
-      "title": "Abschaffung der Mehrwertsteuer auf Arzneimittel - openpetition.de",
+      "id": "bb553491699c",
+      "title": "Abschaffung der Mehrwertsteuer auf Arzneimittel - openPetition",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQR2ZyOGpub3o3YjR6WktVOXowVW5aMmNRcUZnRHQteUNLdVdiWFpMSHpndXJ0ajFhSmNTQXk1LVptMF9BUHlMeGRSb2dJalBRVjkxbGE4eWhObTFsT1gzVUtGblkxNDhVMlR2b2JYb1NWSGJqd2k1bGwxODhLVFh3aVdwY3pNNV81VDk0ZkxEbmVlSXdZY2c?oc=5",
       "published": "2026-04-27T15:29:32+00:00",
       "source": {
-        "name": "openpetition.de",
+        "name": "openPetition",
         "url": "https://www.openpetition.de"
       }
     },
@@ -564,22 +564,22 @@
       }
     },
     {
-      "id": "5f4bfdb07efc",
-      "title": "Sommerhitze: Achtung, manche Medikamente wirken anders - ihre-vorsorge.de",
+      "id": "9a1b5bc05823",
+      "title": "Sommerhitze: Achtung, manche Medikamente wirken anders - Ihre Vorsorge",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWW1icWFIbGQyaUMxVWU3T29QcUd1RUhxN0N4VF9vbVBnNHJySEV0d3Y2V2dYcEFQRVJGMjlQOHotSVcxNzBhVE45QnZVdnhEckF4Y3BuUkJfTVVPcXRtR19HWlBVMndWZWgwTzZ0RXlRaHNpRk5UUmdnTVdXeEZpTEdtd0dPNnZrQWNOZFAxTDJyTnBibUFsRXoxOWtYYm5iZVF1Q2dfSQ?oc=5",
       "published": "2026-06-19T07:00:00+00:00",
       "source": {
-        "name": "ihre-vorsorge.de",
+        "name": "Ihre Vorsorge",
         "url": "https://www.ihre-vorsorge.de"
       }
     },
     {
-      "id": "47afc2884d76",
-      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - geo.de",
+      "id": "7a99adaec5c0",
+      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - Geo.de",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
       "published": "2026-06-19T07:00:00+00:00",
       "source": {
-        "name": "geo.de",
+        "name": "Geo.de",
         "url": "https://www.geo.de"
       }
     },
@@ -634,12 +634,12 @@
       }
     },
     {
-      "id": "8c6176b8d248",
-      "title": "Gesundheit: Zahl der Apotheken auf niedrigstem Stand seit fast 50 Jahren - WiWo",
+      "id": "4caf97f61420",
+      "title": "Gesundheit: Zahl der Apotheken auf niedrigstem Stand seit fast 50 Jahren - wiwo.de",
       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOeHJGQWl1Uy1VZmpEb0ItN0xnZzZBQkFRQjU1WDBEdjBrcHZOaVZyc2V6SXJCSE5zNW1tUlZPLWtvVVpTZmF0eExibVdZYS0xcExpU0pPV1dIVDhhdGk1RXNBT0E0cGlZZkJjUGw3ZElOU1pRRndSZGlYeG8yYUZRYW1kQ1dOMDVHS21qRzFsUHBoUVJPRHdFNlRfM1ZEQjYwSDZRWmNhNEFIT2JWcWZRbVhrUUVBMFFCMXdkMUVyY2tDejNIUGt5eXJBS0s?oc=5",
       "published": "2026-05-05T07:00:00+00:00",
       "source": {
-        "name": "WiWo",
+        "name": "wiwo.de",
         "url": "https://www.wiwo.de"
       }
     },
@@ -664,12 +664,12 @@
       }
     },
     {
-      "id": "2a88ab722e68",
-      "title": "Wie viel darf Gesundheit kosten? Streit um Medikamentenpreise eskaliert - WiWo",
+      "id": "6e4d3cdd90b2",
+      "title": "Wie viel darf Gesundheit kosten? Streit um Medikamentenpreise eskaliert - wiwo.de",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMEkzamFzeFFHZEk3NjFIbFJmYjZvajlGOVMtcHo3aUZsWFlvdkcyMzFTODZXZFM1dWhNWU1lT3FVVDk4dlduRjBqV2paSEFVbkE2YWktMVJIanA4U3J2QW1rMnFtOUljc0pXb2hEbVNSWkxYdGlkRHRMRGE3aGpSYjlrU0FzN0RjN1dhWkJWZldkUmVpbm9xbXpSZmR3b0xGR2ZXQmdvVVZ4bWh5bmVNbkdOOU1rNEdiZElEc0NEeDE3LXpqVkE?oc=5",
       "published": "2026-04-16T07:00:00+00:00",
       "source": {
-        "name": "WiWo",
+        "name": "wiwo.de",
         "url": "https://www.wiwo.de"
       }
     },
