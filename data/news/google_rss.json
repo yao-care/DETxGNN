@@ -1,18 +1,8 @@
 {
-  "fetched_at": "2026-10-10T00:31:32.126512+00:00",
+  "fetched_at": "2026-10-10T06:44:40.351674+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
-    {
-      "id": "6e423e65ce7f",
-      "title": "Kniearthrose: Diese 3 natürlichen Therapien helfen ohne Medikamente - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPc2VQUDJqbDZlUHEydW15VkdXWFhZV1BTaTdIQXhTaFIwM1ZkamdvcnpCb21tR3FVdElpSi0xTmlwUTJXbUd2S3VzWmxGUzJWczdRbzd2YkxZYWx6a3FORFNzZ1ZKQndYNmh4ajZScHpvdXY1WTRmQWlXbXhjRnp3dGdVVXFZS21EMDZxN1haV2t4YmxDa1Q1SkJtWWlERkxmSnV3bXN3?oc=5",
-      "published": "2026-10-09T21:50:54+00:00",
-      "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
-      }
-    },
     {
       "id": "c17eefd70dd9",
       "title": "German Health Report 2026: Deutsche sehen sichere Arzneimittelversorgung als zentrale Zukunftsaufgabe - Sandoz",
@@ -21,6 +11,16 @@
       "source": {
         "name": "Sandoz",
         "url": "https://www.sandoz.com"
+      }
+    },
+    {
+      "id": "6e423e65ce7f",
+      "title": "Kniearthrose: Diese 3 natürlichen Therapien helfen ohne Medikamente - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPc2VQUDJqbDZlUHEydW15VkdXWFhZV1BTaTdIQXhTaFIwM1ZkamdvcnpCb21tR3FVdElpSi0xTmlwUTJXbUd2S3VzWmxGUzJWczdRbzd2YkxZYWx6a3FORFNzZ1ZKQndYNmh4ajZScHpvdXY1WTRmQWlXbXhjRnp3dGdVVXFZS21EMDZxN1haV2t4YmxDa1Q1SkJtWWlERkxmSnV3bXN3?oc=5",
+      "published": "2026-10-10T03:11:10+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
       }
     },
     {
@@ -54,16 +54,6 @@
       }
     },
     {
-      "id": "f836f0db70f5",
-      "title": "Gesunde Haut durch Nahrungsergänzungsmittel: Möglich oder Unsinn? - oekotest.de",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNY3VhTGl0QU1mRXNZcTZWc3VObWZIWlpuWEhfZTBWU3k0LTNCTW85SFdrMTJ4MmhHZGZqOEpiaWJMRzNVREc2Uk9kNVlDSllLNW9sOVYzUTBoYnR0OUJYV1ozdld6aXlzOEltdUVrV3J3MXZEbHBVSUJ2UUpfSzRMNUk4SW5nNGVpNzRDZDVGa18xc2loSG44MG9sS0ZQWVdGVVVwX3dDU0JtU2ZzOFltb1BHc1pSNmd3bG9JSWgydno4UnJq?oc=5",
-      "published": "2026-10-08T06:24:43+00:00",
-      "source": {
-        "name": "oekotest.de",
-        "url": "https://www.oekotest.de"
-      }
-    },
-    {
       "id": "4e6d48112005",
       "title": "Warken: Apotheken feste Säule für Gesundheitsversorgung in unserem Land - Bundesministerium für Gesundheit (BMG)",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT3NRWE1tbWNRMllaUC1GUGtRV3YxaWhZZ21nQThUT3NGbS1DbkFfRzdSd3RvUUVsTkVJdUpYRFp0ekFHV1JtTEJZZ0I5dWJvajgzZzdZZDk5S3FROHRoeVJzS3VBRTBuTldDWW52dG5kLWxpUTlMZmpLdUZZekxaOEJQYTlUbTdLRTBsR1k4TlE1ajIxYTFiZ041eFppZktLWjJZYVQyRlNOVEd1RGdIVmpBRDMteG1xdHdyUmVn?oc=5",
@@ -71,6 +61,16 @@
       "source": {
         "name": "Bundesministerium für Gesundheit (BMG)",
         "url": "https://www.bundesgesundheitsministerium.de"
+      }
+    },
+    {
+      "id": "4867123b2ce4",
+      "title": "Feinstaub und Lärm: Warum beides zusammen besonders schlecht fürs Herz ist - oekotest.de",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOa3VJZ0o3cFpwVU01TDBaRnNhWHZUOEJKc3lORS1iM1Ewak9IVTdidnBCcnR5ZWVKYkNzbVNiaFFhSDhSNGVzSFd4TUxpVWtzNU9MUmd1WERQMUZ2OXkyRVNESXBQUFdLV2kzd1pOZnBaYXdSdm5pZWFZWGJ2RVpNU0NaenFiQWZyYmkzNFZGTmhHM3NNaldOV1oyaVRmSnN4YWMtSlJIcDNsT1lOOTk5cEFFeURfdlkyem5zUVVFWlN4LWFPbHRxRTlHTmpPMlBMWFE?oc=5",
+      "published": "2026-10-08T10:31:36+00:00",
+      "source": {
+        "name": "oekotest.de",
+        "url": "https://www.oekotest.de"
       }
     },
     {
@@ -104,13 +104,13 @@
       }
     },
     {
-      "id": "c11650ef349e",
-      "title": "Cholesterinsenker könnten vor Grünem Star schützen - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZDVucXJYaEY5aDAwSl9YbXV5M1dodGVhWVdadTNPTUxvNWdMUkRzMHBLcE1adWhOQUZYVU5aeXBVNmNHOGJ1dzVfUlFWV3lUc1p5MW9vbDNnZjFRT0l5R1lhZG5zbWc3WFprTFIybnVUNldfR0NSQjN3OEo3dElwa3ZDTGxEZkwxVS1laUNFUFB2dTdZVWk5YjRn?oc=5",
-      "published": "2026-10-09T07:16:32+00:00",
+      "id": "6afa4b653374",
+      "title": "Antidepressiva-Entwöhnung: Diesen Fehler machen viele - Business Insider Deutschland",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOczFxZXZKeks3S1NSa3R0VFM3ZGZzMlhrX0ltcFZ2RENyb2VBSU5uVTM4S0dOMjRVUzVqS0pTQVZENWRfVzM1UllibzJYYmVSYmNTekZJbTR4R2R3aDVkOWp0MDB6U2ItOVhtT1hBT2lOaF9KQ2NtVDJ0eTE0TElGWmVpakJ0dTBOYkJMZ29meGVhNDZQTkM0SW9ZdGNwaDg?oc=5",
+      "published": "2026-10-08T14:35:46+00:00",
       "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
+        "name": "Business Insider Deutschland",
+        "url": "https://www.businessinsider.de"
       }
     },
     {
@@ -124,13 +124,13 @@
       }
     },
     {
-      "id": "4867123b2ce4",
-      "title": "Feinstaub und Lärm: Warum beides zusammen besonders schlecht fürs Herz ist - oekotest.de",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOa3VJZ0o3cFpwVU01TDBaRnNhWHZUOEJKc3lORS1iM1Ewak9IVTdidnBCcnR5ZWVKYkNzbVNiaFFhSDhSNGVzSFd4TUxpVWtzNU9MUmd1WERQMUZ2OXkyRVNESXBQUFdLV2kzd1pOZnBaYXdSdm5pZWFZWGJ2RVpNU0NaenFiQWZyYmkzNFZGTmhHM3NNaldOV1oyaVRmSnN4YWMtSlJIcDNsT1lOOTk5cEFFeURfdlkyem5zUVVFWlN4LWFPbHRxRTlHTmpPMlBMWFE?oc=5",
-      "published": "2026-10-08T10:31:36+00:00",
+      "id": "c11650ef349e",
+      "title": "Cholesterinsenker könnten vor Grünem Star schützen - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZDVucXJYaEY5aDAwSl9YbXV5M1dodGVhWVdadTNPTUxvNWdMUkRzMHBLcE1adWhOQUZYVU5aeXBVNmNHOGJ1dzVfUlFWV3lUc1p5MW9vbDNnZjFRT0l5R1lhZG5zbWc3WFprTFIybnVUNldfR0NSQjN3OEo3dElwa3ZDTGxEZkwxVS1laUNFUFB2dTdZVWk5YjRn?oc=5",
+      "published": "2026-10-09T07:16:32+00:00",
       "source": {
-        "name": "oekotest.de",
-        "url": "https://www.oekotest.de"
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
       }
     },
     {
@@ -204,16 +204,6 @@
       }
     },
     {
-      "id": "6afa4b653374",
-      "title": "Antidepressiva-Entwöhnung: Diesen Fehler machen viele - Business Insider Deutschland",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOczFxZXZKeks3S1NSa3R0VFM3ZGZzMlhrX0ltcFZ2RENyb2VBSU5uVTM4S0dOMjRVUzVqS0pTQVZENWRfVzM1UllibzJYYmVSYmNTekZJbTR4R2R3aDVkOWp0MDB6U2ItOVhtT1hBT2lOaF9KQ2NtVDJ0eTE0TElGWmVpakJ0dTBOYkJMZ29meGVhNDZQTkM0SW9ZdGNwaDg?oc=5",
-      "published": "2026-10-08T14:35:46+00:00",
-      "source": {
-        "name": "Business Insider Deutschland",
-        "url": "https://www.businessinsider.de"
-      }
-    },
-    {
       "id": "6cd80f5bf56e",
       "title": "Wegovy-Tablette: Apotheken melden bisher wenig Nachfrage nach Abnehmtablette - DIE ZEIT",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVTc3b2tWMGhneUliWXdlQkRTcktpSFkyRWpINXBDVndnRUgzSkVKNG81cW9YS1RpMWg3dVdmQlNuWHN4bmhEWlp0WDRkMmlUWUZhS1ozSVI3X3BGTHpHcjh3SVVfXzVyV0l5LXFacFRPYUpvU1NCbGhLM21SWXhjQjF0VlpwODFDY2FGaTI5OUZhZw?oc=5",
@@ -224,20 +214,20 @@
       }
     },
     {
+      "id": "5cf9d3bf1cbf",
+      "title": "Supplement-Mythen im Faktencheck - geo.de",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQV0JXTjU4OVkzM3hQajY2U01RWVktZmlOckJBZDJTcnRDMFoxNU5keFNCYmdybExFdEM0NjlCLXlPMUx1UXRST2cycENrWEg0YVZyX212OHJZd3Uyc1JEei1kWVZPSng5ZGF3bjQ1SkJLeDZLMjRkOGtpYXFWWDdZdzhqR0lUOFNUcFRqNkd3?oc=5",
+      "published": "2026-10-06T10:27:00+00:00",
+      "source": {
+        "name": "geo.de",
+        "url": "https://www.geo.de"
+      }
+    },
+    {
       "id": "e7ff081dd4a6",
       "title": "Häusliche Pflege: Jeder Zweite berichtet von Problemen mit Medikamenten - Presseportal",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE44X3pwQXBJN0JORzF4LVJ6WE4xd1IyZDFGMDBTNFN3ZWFHZnh1ZVI3UGlFb0JCMl9xWnF6eWJDelJ5bkJKRU41bjJZTXY5VGYxQTVCemttVQ?oc=5",
       "published": "2026-10-06T07:35:32+00:00",
-      "source": {
-        "name": "Presseportal",
-        "url": "https://www.presseportal.de"
-      }
-    },
-    {
-      "id": "c6f92bd99ead",
-      "title": "Versorgung sichern, Wettbewerb fördern, Standort stärken: Bundesgesundheitsminister ... - Presseportal",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE55ckx6LWQxQlhSNFhNUDdnUXIxMGRnbG15SWswWXAzTy1TOXpYRHMyNXVHQnVoMi1XVkRETk9NelhBY05WM3RTWms0dGo4YlJZaU9SR0ctVQ?oc=5",
-      "published": "2026-10-06T12:57:09+00:00",
       "source": {
         "name": "Presseportal",
         "url": "https://www.presseportal.de"
@@ -261,6 +251,16 @@
       "source": {
         "name": "Fuldaer Zeitung",
         "url": "https://www.fuldaerzeitung.de"
+      }
+    },
+    {
+      "id": "c6f92bd99ead",
+      "title": "Versorgung sichern, Wettbewerb fördern, Standort stärken: Bundesgesundheitsminister ... - Presseportal",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE55ckx6LWQxQlhSNFhNUDdnUXIxMGRnbG15SWswWXAzTy1TOXpYRHMyNXVHQnVoMi1XVkRETk9NelhBY05WM3RTWms0dGo4YlJZaU9SR0ctVQ?oc=5",
+      "published": "2026-10-06T12:57:09+00:00",
+      "source": {
+        "name": "Presseportal",
+        "url": "https://www.presseportal.de"
       }
     },
     {
@@ -294,16 +294,6 @@
       }
     },
     {
-      "id": "907554c3827d",
-      "title": "Gesundheits-Sparpaket: Das alles ändert sich für Rentner ab 2027 - Heilpraxis",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaHZjOTd4VlJ6TVNiN3Y3aWxQVEdVUVpTc3lOZkpPX093QVBxdF85SHc3UTdRMUdxWEtwT1EzV1gyTWZGejBoTjhLVTByLUc2Z2k4YjNUX09Fb0tQa25Kak9xZWVsYlNZRTZjc3ZLSlRmYVpoMUlkMEY0V1p6SXZ0ZVE1dVI4WFVyMWlWTWF5ZEFNUnFHTGNGdEJldXM3eHhYcENkcGFKRXBQVGE3Zk44NE5DWkYxUGFOSW1DUF9ISXg1Nkh4?oc=5",
-      "published": "2026-10-08T07:57:54+00:00",
-      "source": {
-        "name": "Heilpraxis",
-        "url": "https://www.heilpraxisnet.de"
-      }
-    },
-    {
       "id": "be459665a3bc",
       "title": "Zuzahlungserlass: BMG fordert Durchgreifen gegen Versender - Apotheke Adhoc",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeE8wUkJsUjYtY0xya2wzM1F0NE1sanFzQTItcXQ1UkZuRFRBTmR3N1FidGlQLVFRYTRnUk5PMUFnTzRnTkI3WnJHdGlyeDI4T3FUSUxNQ09fcWh4VEw1c1VTZXQxYnJlejVEZm9IUVM3MDgtZHJSc2hwWWI2Ym1oTTJXdU1XNV9rQ0VDUkxYd1lHUU1hbjNJMlN1ejZxUkN5dHNsVm5ndGJtUQ?oc=5",
@@ -311,6 +301,16 @@
       "source": {
         "name": "Apotheke Adhoc",
         "url": "https://www.apotheke-adhoc.de"
+      }
+    },
+    {
+      "id": "907554c3827d",
+      "title": "Gesundheits-Sparpaket: Das alles ändert sich für Rentner ab 2027 - Heilpraxis",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaHZjOTd4VlJ6TVNiN3Y3aWxQVEdVUVpTc3lOZkpPX093QVBxdF85SHc3UTdRMUdxWEtwT1EzV1gyTWZGejBoTjhLVTByLUc2Z2k4YjNUX09Fb0tQa25Kak9xZWVsYlNZRTZjc3ZLSlRmYVpoMUlkMEY0V1p6SXZ0ZVE1dVI4WFVyMWlWTWF5ZEFNUnFHTGNGdEJldXM3eHhYcENkcGFKRXBQVGE3Zk44NE5DWkYxUGFOSW1DUF9ISXg1Nkh4?oc=5",
+      "published": "2026-10-08T07:57:54+00:00",
+      "source": {
+        "name": "Heilpraxis",
+        "url": "https://www.heilpraxisnet.de"
       }
     },
     {
@@ -354,16 +354,6 @@
       }
     },
     {
-      "id": "238d627fd5b2",
-      "title": "Mounjaro zum Abnehmen: Expertin warnt vor Risiken für Gesundheit, Haut und Haare - Frankfurter Rundschau",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPekhkdTRkanJIdWVpUWJha2UtdnE1SzFSMGVVeXR2YXBzcVNRMEFVWkdWQm1rWVVNSXZLQVZ3c3VYMjhJdmV4bGtDUklPZlZ1Rno4X1hhbXhUdDFWdHVTcUw0bUxtZTl4UzFKM1FUdGFpNGZVYjBfZklpU2xZTFluUXRXZXhLVU43cXRxUkdTaHJUcFJKVXFwTXdRYW4zWE1KaUMwUU82dkFtODJuLTBnZVJIWGJSZXZtbWwxTS1B?oc=5",
-      "published": "2026-09-17T07:00:00+00:00",
-      "source": {
-        "name": "Frankfurter Rundschau",
-        "url": "https://www.fr.de"
-      }
-    },
-    {
       "id": "888d7d553972",
       "title": "Gesundheit: Tabletten aus dem 3D-Drucker - Wie funktioniert das? - DIE ZEIT",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQUU0aE82REdQd1J5MTdaX2xoUVRCYllLMVRaWFY4YXVQR1FMdWp0YVBSUW1BSlFxN1pnb29TeEQyNUdKZWtCdWFoZEgtNTZEREh6QklCd1lrZHFKVXRyR0tEV3BTWWExOW1lMEFqUlBXaDVwS0FKYmFhOHZfdWg3R0EwZzdnTlVQY2x3Mlp3?oc=5",
@@ -381,6 +371,16 @@
       "source": {
         "name": "Gesundheit.gv.at",
         "url": "https://www.gesundheit.gv.at"
+      }
+    },
+    {
+      "id": "238d627fd5b2",
+      "title": "Mounjaro zum Abnehmen: Expertin warnt vor Risiken für Gesundheit, Haut und Haare - Frankfurter Rundschau",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPekhkdTRkanJIdWVpUWJha2UtdnE1SzFSMGVVeXR2YXBzcVNRMEFVWkdWQm1rWVVNSXZLQVZ3c3VYMjhJdmV4bGtDUklPZlZ1Rno4X1hhbXhUdDFWdHVTcUw0bUxtZTl4UzFKM1FUdGFpNGZVYjBfZklpU2xZTFluUXRXZXhLVU43cXRxUkdTaHJUcFJKVXFwTXdRYW4zWE1KaUMwUU82dkFtODJuLTBnZVJIWGJSZXZtbWwxTS1B?oc=5",
+      "published": "2026-09-17T07:00:00+00:00",
+      "source": {
+        "name": "Frankfurter Rundschau",
+        "url": "https://www.fr.de"
       }
     },
     {
@@ -464,16 +464,6 @@
       }
     },
     {
-      "id": "4df31a9b9a60",
-      "title": "Wann Statine einnehmen? Häufiger Fehler kann Wirkung beeinträchtigen - Berliner Morgenpost",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQOGNHV2FjcXFqZFltMi1Yel90WmhrRjdTalVwUlp0WWhaSHNuczlRNTBEMW1BbTJoTmRwRVZOckNUamhEYkdzTG1vcGRzTHFBVEVkRVNpdnNvX2xWNDlrd0ZacWdOZlVMbml4SXM1SkVremNRVkJiaEg5MGpoR3prSnRRT1dPeXc4SGdQTmRrNEpoRlNkWkpCZ2tQc0FSUGVxWW9R?oc=5",
-      "published": "2026-10-07T12:22:00+00:00",
-      "source": {
-        "name": "Berliner Morgenpost",
-        "url": "https://www.morgenpost.de"
-      }
-    },
-    {
       "id": "d9edf968b2d7",
       "title": "»Spar­po­li­tik bei Arz­nei­mit­teln ist ein Irr­weg« - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZ3BYbThQLUVqMndzcmZ2RzJRTW5vb1o4dGhibU52alc0SUtlbFkxMkhCS1puYnNnelNOcnVtSl9iejVRNU1sNGxvZ0lZZVZkaWNnRGhWVWsxT1JobThfRzFVdnh6Q25Idzl3aGZZaThYdHBRYTUzNHRpX2VNZ0dGWHBjd3VEbDdERlhjOHhubnhHLXB2OWc?oc=5",
@@ -484,13 +474,13 @@
       }
     },
     {
-      "id": "e3239e061b44",
-      "title": "Arzneimittel-Versorgung: Mehr als 4 Millionen Menschen haben weite Wege zur nächsten Apotheke - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQWW1RQnJQVDNJc3lBczlKM19KMVdqRlNLbFFuTjJQZmNEbjh6MnBhM3Q2TThJclVYaEJ0Y1h5a1dvVU9ZVFk3RDJaV0JrSnFydmx6OVJkZlRicWkwYWtRQ3EzcGtGUXU5YlBMYVdzZXRBbjNKNTFKeDA2eGdpbU1tc2RTOHlIMF9yNEVJY0hpNG5WWk04V3lTQnBpWWNmMV9tN1hBdm5JYmU4WE5lRXNNUXVoMzJWV3J0WjNpaDFkaWNZVHZWOTVpYg?oc=5",
-      "published": "2026-06-09T07:00:00+00:00",
+      "id": "4df31a9b9a60",
+      "title": "Wann Statine einnehmen? Häufiger Fehler kann Wirkung beeinträchtigen - Berliner Morgenpost",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQOGNHV2FjcXFqZFltMi1Yel90WmhrRjdTalVwUlp0WWhaSHNuczlRNTBEMW1BbTJoTmRwRVZOckNUamhEYkdzTG1vcGRzTHFBVEVkRVNpdnNvX2xWNDlrd0ZacWdOZlVMbml4SXM1SkVremNRVkJiaEg5MGpoR3prSnRRT1dPeXc4SGdQTmRrNEpoRlNkWkpCZ2tQc0FSUGVxWW9R?oc=5",
+      "published": "2026-10-07T12:22:00+00:00",
       "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
+        "name": "Berliner Morgenpost",
+        "url": "https://www.morgenpost.de"
       }
     },
     {
@@ -501,6 +491,16 @@
       "source": {
         "name": "Taylor Wessing",
         "url": "https://www.taylorwessing.com"
+      }
+    },
+    {
+      "id": "e3239e061b44",
+      "title": "Arzneimittel-Versorgung: Mehr als 4 Millionen Menschen haben weite Wege zur nächsten Apotheke - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQWW1RQnJQVDNJc3lBczlKM19KMVdqRlNLbFFuTjJQZmNEbjh6MnBhM3Q2TThJclVYaEJ0Y1h5a1dvVU9ZVFk3RDJaV0JrSnFydmx6OVJkZlRicWkwYWtRQ3EzcGtGUXU5YlBMYVdzZXRBbjNKNTFKeDA2eGdpbU1tc2RTOHlIMF9yNEVJY0hpNG5WWk04V3lTQnBpWWNmMV9tN1hBdm5JYmU4WE5lRXNNUXVoMzJWV3J0WjNpaDFkaWNZVHZWOTVpYg?oc=5",
+      "published": "2026-06-09T07:00:00+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
       }
     },
     {
@@ -544,16 +544,6 @@
       }
     },
     {
-      "id": "ba43a8cc1472",
-      "title": "Sturzrisiko ab 80: Deutsche Studie zeigt Zusammenhang mit Medikamenten - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNakUxUzRQRldkY3J6WnFNTElyR20xcWx3TWpUZGtjT0lzcVNxNEYwRUk5d2J5WXE3MVNFekoxTU4ydzdGRzJPbHVjUnJRQXNBdkoydnMtUTlNZGh5VDRmNEtidEFLOWUzQ2NYUTQ2ckhZVDJSaGo5WWxfY3BFS1I5M0Z5dVZ6ZHVqOFA3WV8xdi1tOFFFcHkteDNYdUE1Q1JORG5tMDZLd0dtM3FzQWpBVmV4VlR6Tm15TGc?oc=5",
-      "published": "2026-10-05T16:18:24+00:00",
-      "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "bab8b3b3adf3",
       "title": "Medikamente mögen keine Hitze - Ihre Vorsorge",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORjNQbHBlSERZOEZTSDAxdGVWUndXLVFTRmtPQ1J0djlReV9xQkdqUGFjdklRSjlsc2dxSnBBSnpzTEl6ZW53LXFGOWlXSVAxWnZ4NWk3UGw2OTRiNjlMSGN2VFg3XzlsczhsdEdDX0dfSjY1aDlvSXE5cXQ3Q3hDOF9zRW9xWEEweXc?oc=5",
@@ -564,20 +554,10 @@
       }
     },
     {
-      "id": "fe07492e928a",
-      "title": "Apotheken: Bisher wenig Nachfrage nach Abnehmtablette - Vodafone live",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMlEwa0lMYlFNOEJYTXNTb01jZUtjMjA4UGhCaHhicHhITE5FaXJSWTd6ZTFBNnBfVWt5VV9lT3lBcTNoUkJmbjlZT2N6aklsTUdMWnVMZXBvcmU0LUpiUWx1SDFvWVd5bDdJTkp6dWo1Ui1vUHFOZVNNVHFjVDRJUm5hUUtteDJaMm13NDJCaUJLaTRobTJMcEE2N19lTy1XTUVkYXo1czFnelhQVkdmNi1kd0s?oc=5",
-      "published": "2026-10-05T01:03:00+00:00",
-      "source": {
-        "name": "Vodafone live",
-        "url": "https://live.vodafone.de"
-      }
-    },
-    {
-      "id": "88adb61be787",
-      "title": "Sturzrisiko ab 80: Fast jede zweite Person stürzt im Laufe eines Jahres - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTWtBTVpFdjVPRS1ZTDUycWxwVmZPbDdKMzJhUExmUGRCRmRLVVdxc0RUVk5KeXpxM3hQUGp2b0ZlUENDdDMtZEpaTzktSkJobkxiTGkzR1oxTUpoZ3ZsZEEwdjF1cEZUQld0Z2dReWlmOW16VW1HaDR6Rlp6UWR3Sk1WVlVVWkdTWERMdC00cnJ0YmpNbVJQU1Boc0NJUnhNMExjRHprazdXM0h3U19Udm5iMkoyTDVRV3VYdQ?oc=5",
-      "published": "2026-10-07T11:44:01+00:00",
+      "id": "ba43a8cc1472",
+      "title": "Sturzrisiko ab 80: Deutsche Studie zeigt Zusammenhang mit Medikamenten - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNakUxUzRQRldkY3J6WnFNTElyR20xcWx3TWpUZGtjT0lzcVNxNEYwRUk5d2J5WXE3MVNFekoxTU4ydzdGRzJPbHVjUnJRQXNBdkoydnMtUTlNZGh5VDRmNEtidEFLOWUzQ2NYUTQ2ckhZVDJSaGo5WWxfY3BFS1I5M0Z5dVZ6ZHVqOFA3WV8xdi1tOFFFcHkteDNYdUE1Q1JORG5tMDZLd0dtM3FzQWpBVmV4VlR6Tm15TGc?oc=5",
+      "published": "2026-10-05T16:18:24+00:00",
       "source": {
         "name": "AD HOC NEWS",
         "url": "https://www.ad-hoc-news.de"
@@ -601,6 +581,16 @@
       "source": {
         "name": "Apotheken Umschau",
         "url": "https://www.apotheken-umschau.de"
+      }
+    },
+    {
+      "id": "88adb61be787",
+      "title": "Sturzrisiko ab 80: Fast jede zweite Person stürzt im Laufe eines Jahres - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTWtBTVpFdjVPRS1ZTDUycWxwVmZPbDdKMzJhUExmUGRCRmRLVVdxc0RUVk5KeXpxM3hQUGp2b0ZlUENDdDMtZEpaTzktSkJobkxiTGkzR1oxTUpoZ3ZsZEEwdjF1cEZUQld0Z2dReWlmOW16VW1HaDR6Rlp6UWR3Sk1WVlVVWkdTWERMdC00cnJ0YmpNbVJQU1Boc0NJUnhNMExjRHprazdXM0h3U19Udm5iMkoyTDVRV3VYdQ?oc=5",
+      "published": "2026-10-07T11:44:01+00:00",
+      "source": {
+        "name": "AD HOC NEWS",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -791,16 +781,6 @@
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
-      }
-    },
-    {
-      "id": "e0d89b994681",
-      "title": "Tuyen Quang fördert den Wert der traditionellen Medizin in der Gesundheitsversorgung der Bevölkerung. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZF9sVXE4N1Z1U191cUJfcGhzdWNTTUtXdFBiN1ViWTNZQ2dKWUtSRnVzY2VNRHB0ZHRVaTV6NTZQZHFFUFhjdHdxM0VQaG12U2doNzFQNVdmeUxqTG1Ta0t0M04tNER1NzBpaG0zbU5hb1RoQXAwRmN4bnpWZUlxcUpIN3RtVjRiTjJScVNpWmdYRDBnREVBTndydU0waXZLN3NBR1ZnTQ?oc=5",
-      "published": "2026-10-09T11:53:08+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -1001,6 +981,26 @@
       "source": {
         "name": "geo.de",
         "url": "https://www.geo.de"
+      }
+    },
+    {
+      "id": "e7fc237accfb",
+      "title": "Medikamente im DM-Drogeriemarkt – Apotheken laufen Sturm - STERN.de",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMG5SMnM4aXU5czJ1S2dnUzdMeFBmb3IxQVBKWGVvcVB0eUJQUjkxRU00RHEtQlRjVU1EM0Z2WF95SG85WDJPSjVNcjRTWFM1OHVXNm5pdVAxZGtDcHJTSXFpSDAtdUstM0JISWRKcEI5OXRXZ2hXSzQ3cFJqb0g5N0ZRajJtY21JUmRNNmZweXg1bEpuOXc0Rk9CNENaMHNOYTc4OGtjZw?oc=5",
+      "published": "2025-12-16T08:00:00+00:00",
+      "source": {
+        "name": "STERN.de",
+        "url": "https://www.stern.de"
+      }
+    },
+    {
+      "id": "8facb188a23e",
+      "title": "Erfassung von Medikationsfehlern in Deutschland – ein Workshopbericht - Springer Nature Link",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5fWTFuNXg0ZS1CUjEteG1YbXJrLUI2TXRBR0djZ0VqUWZLRjdYUTJ0WFQ1Qy1DYzJRbHB1UXlvbzZTWWlKckRjcmZGRVp4MFJvdk5Wa1ZoWlVsXzF0WElONTFFbm9zUTZlQ1Q5TA?oc=5",
+      "published": "2025-12-17T08:00:00+00:00",
+      "source": {
+        "name": "Springer Nature Link",
+        "url": "https://link.springer.com"
       }
     }
   ]
