@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Deferiprone
-parent: Nur Modellvorhersage (L5)
-nav_order: 116
-evidence_level: L5
+parent: Mittlere Evidenz (L3-L4)
+nav_order: 137
+evidence_level: L4
 indication_count: 9
 ---
 
 # Deferiprone
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,78 +29,91 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9**
 
 </div>
 
-# Deferiprone: Von der Eisenchelationstherapie zur hepatischen Porphyrie
+# Deferipron: Von Eisenüberladung bei Beta-Thalassämie zu hepatischer Porphyrie
 
-## Ein-Satz-Zusammenfassung
+## Zusammenfassung
 
-Deferiprone ist ein orales Eisenchelator; basierend auf Daten in diesem Evidenzpaket besteht seine etablierte klinische Rolle in der Verwaltung von **Transfusioneller Eisenüberladung** (z. B. bei Beta-Thalassämie — siehe Rangplatz-8-Kandidat unten), obwohl die formale ursprüngliche Indikation und TFDA-Zulassung in diesem Paket nicht dokumentiert sind.
-Die Top-Vorhersage des TxGNN-Modells für dieses Arzneimittel ist **Hepatische Porphyrie** mit einer Vorhersage-Genauigkeit von 99,20% — aber **keine klinischen Studien und keine Fachliteratur** unterstützen derzeit diese spezifische Richtung, und die eigene mechanistische Rationale des Modells kennzeichnet den biologischen Zusammenhang als schwach.
+Deferipron ist ein oral einnehmbarer Eisenchelator, der ursprünglich zur Behandlung der Eisenüberladung bei Beta-Thalassämie eingesetzt wurde.
+Das TxGNN-Modell sagt voraus, dass er bei **hepatischer Porphyrie** wirksam sein könnte.
+Dafür liegen derzeit **keine klinischen Studien** und **2 Publikationen** (präklinisch bzw. Fallebene) vor.
 
 ---
 
-## Schnellübersicht
+## Kurzüberblick
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Nicht dokumentiert in diesem Evidenzpaket (`original_indications` leer; siehe DG001/DG002). Kontext der Arzneimittelklasse aus Paket: orales Eisenchelator, etablierte Anwendung bei Transfusioneller Eisenüberladung (siehe Beta-Thalassämie-Kandidat, Rang 8) |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Eisenüberladung; Beta-Thalassämie |
 | Vorhergesagte neue Indikation | Hepatische Porphyrie |
-| TxGNN-Vorhersage-Genauigkeit | 99,20% |
-| Evidenzstufe | L5 (nur Modellvorhersage, keine klinischen oder Fachliteratur-Belege) |
-| Markt-Status in Deutschland | Nicht vermarktet |
-| Anzahl der Genehmigungen | 0 |
-| Empfohlene Entscheidung | Abwarten |
+| TxGNN-Vorhersagewert | 99,20 % |
+| Evidenzlevel | L4 |
+| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
+| Anzahl der Zulassungen | 2 (beide erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Daten zum Wirkmechanismus nicht verfügbar (`original_moa: [Datenlücke]`, gekennzeichnet als DG002 in diesem Paket). Basierend auf anderswo in diesem Evidenzpaket vorhandenen Informationen (Begründung für Rang 8) ist Deferiprone ein orales Tris-Hydroxypyridion-Eisenchelator, das Zellmembranen durchdringt, freies Eisen(III) bindet und dessen urinäre Ausscheidung fördert — ein Wirkmechanismus, der direkt für Eisenüberladungszustände wie die bei chronisch transfundierten Patienten relevant ist.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Deferipron ein oraler Eisenchelator ist, dessen Wirksamkeit bei transfusionsbedingter Eisenüberladung belegt ist. Mechanistisch kann er daher auch bei Erkrankungen relevant sein, bei denen Eisen zur Pathologie beiträgt.
 
-Für **Hepatische Porphyrie** ist der biologische Zusammenhang jedoch, wie die eigene Umpositionierungs-Begründung des Modells ausdrücklich darlegt, schwach: Hepatische Porphyrie resultiert aus Enzymmängeln im Häm-Biosynthese-Weg, die zur Ansammlung giftiger Zwischenprodukte führen, nicht aus Gewebeeisen-Überladung. Die eisenchelatbildende Wirkung von Deferiprone hat keinen etablierten pathophysiologischen Zusammenhang mit diesem Krankheitsprozess. Dieser Top-Kandidat nach Rangplatz reflektiert daher ein **statistisches Ähnlichkeitssignal von TxGNN**, nicht eine Mechanismus- oder evidenzgestützte Hypothese.
+Bei Porphyrien spielt Eisen eine Rolle: In einem Mausmodell der Porphyria cutanea tarda senkten eine eisenarme Diät und die orale Eisenchelation die Uroporphyrin-Anreicherung in der Leber (PMID 17854053). Bei der kongenitalen erythropoetischen Porphyrie wurde berichtet, dass Eisenchelation die hämolytische Anämie und die Lichtempfindlichkeit der Haut verbesserte (PMID 32678895).
 
-**Anmerkung zu diesem Multi-Kandidaten-Paket:** Unter den 9 bewerteten vorhergesagten Indikationen für Deferiprone wird nur **Beta-Thalassämie mit anderen Manifestationen** (Rang 8) durch tatsächliche Fachliteratur unterstützt (2 Veröffentlichungen, Evidenzstufe L3) und trägt eine Empfehlung „Weiterverfolgen mit Schutzmechanismen" — konsistent mit der realen Verwendung von Deferiprone bei Transfusions-abhängiger Eisenüberladung. Der Top-Kandidat nach Genauigkeit (hepatische Porphyrie, Gegenstand dieses Berichts) hat weder Studien noch Fachliteratur und wird mit **Abwarten** empfohlen. Reviewer sollten Evidenzstärke, nicht Rangplatz-Score allein, bei der Priorisierung von Kandidaten aus diesem Paket berücksichtigen.
-
----
-
-## Klinische Studien-Evidenz
-
-Derzeit keine zugehörigen klinischen Studien registriert
+Diese Evidenz ist jedoch indirekt: Sie stammt aus Tiermodellen bzw. von der erythropoetischen Form und nicht aus Studien zur hepatischen Porphyrie beim Menschen. Klinisch geprüft wurde die Hypothese bislang nicht.
 
 ---
 
-## Fachliteratur-Evidenz
+## Evidenz aus klinischen Studien
 
-Derzeit keine zugehörige Fachliteratur verfügbar
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Markt-Information Deutschland
+## Evidenz aus der Literatur
 
-Für dieses Arzneimittel werden derzeit keine Marktzulassungen in Deutschland/Taiwan gehalten (`total_licenses: 0`).
+| PMID | Jahr | Typ | Journal | Wichtigste Erkenntnisse |
+|------|-----|------|------|---------|
+| [32678895](https://pubmed.ncbi.nlm.nih.gov/32678895/) | 2020 | Präklinisch/Fallbericht | Blood | Eisenchelation verbesserte hämolytische Anämie und Lichtempfindlichkeit der Haut bei kongenitaler erythropoetischer Porphyrie |
+| [17854053](https://pubmed.ncbi.nlm.nih.gov/17854053/) | 2007 | Tierstudie (Maus) | Hepatology | Deferipron bzw. eisenarme Diät verringerte die Uroporphyrin-Anreicherung im Mausmodell der Porphyria cutanea tarda |
+
+---
+
+## Marktinformationen Deutschland
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/004710 | Deferiprone Lipomed (Lipomed GmbH) | – | Eisenüberladung; Beta-Thalassämie (erloschen) |
+| EMEA/H/C/000236 | Ferriprox (Chiesi Farmaceutici S.p.A.) | – | Beta-Thalassämie; Eisenüberladung (erloschen) |
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+**Arzneimittelwechselwirkungen:** Insgesamt wurden 100 Wechselwirkungen erfasst. Die aufgeführten sind alle von mäßigem Schweregrad. Es handelt sich im Wesentlichen um mehrwertige Metallkationen, die Eisenchelatoren binden können, sowie um Antazida und Eisenpräparate:
+- Calciumsalze (Calciumphosphat, -acetat, -carbonat, -citrat, -gluconat, -lactat u. a.)
+- Magnesiumsalze (Magnesiumoxid, -carbonat, -chlorid, -citrat, -gluconat, -hydroxid, -sulfat)
+- Aluminiumhydroxid, Magaldrat, Attapulgit, Kaolin
+- Sucralfat
+- Eisen
 
-*(Anmerkung: `key_warnings`, `contraindications` und DDI-Daten sind alle als Datenlücken in diesem Paket gekennzeichnet. DG001 — fehlende TFDA-Packungsbeilage-Warnhinweise/Kontraindikationen — ist als eine **Blockierende** Schweregrad-Datenlücke gekennzeichnet, was bedeutet, dass sie derzeit eine formale S1-Sicherheitsprüfung für jede Indikation unter diesem Arzneimittel verhindert.)*
+Für Warnhinweise und Gegenanzeigen liegen keine Daten vor. Bitte die Fachinformation heranziehen.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Abwarten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage für hepatische Porphyrie hat keine unterstützenden klinischen Studien oder Fachliteratur, und die eigene mechanistische Rationale des Modells bewertet die biologische Plausibilität als schwach (L5, keine direkte Krankheitsmechanismus-Überlappung mit Eisenchelation). In Kombination mit einer Blockierenden-Schweregrad-TFDA-Sicherheitsdatenlücke für das Arzneimittel insgesamt kann dieser Kandidat nicht über das initiale Screening hinaus vorankommen.
+Für hepatische Porphyrie existieren nur indirekte präklinische Hinweise (Evidenzlevel L4) und keine klinischen Studien. Zudem sind beide deutschen Zulassungen erloschen, und die Sicherheitsdaten aus der Fachinformation fehlen.
 
-**Um fortzufahren, wird Folgendes benötigt:**
-- TFDA-Packungsbeilage (Warnhinweise, Kontraindikationen) — erforderlich, um die Blockierende Lücke (DG001) zu klären, bevor eine S1-Sicherheitsprüfung erfolgen kann
-- Dokumentierter Wirkmechanismus (DG002), um die mechanistische Plausibilität über alle Kandidaten-Indikationen hinweg ordnungsgemäß zu bewerten
-- Präklinische oder mechanistische Studien, die Eisenchelation spezifisch zu Störungen des Häm-Biosynthese-Weges verknüpfen, wenn diese Indikation weiterverfolgt werden soll
-- Alternativ sollten Sie erwägen, Evaluierungsressourcen auf den **Beta-Thalassämie-mit-anderen-Manifestationen-Kandidaten** (Rang 8) umzuleiten, der bereits Fachliteratur-Unterstützung und einen Status „Weiterverfolgen mit Schutzmechanismen" hat
+**Für ein Weiterkommen sind erforderlich:**
+- Sicherheitsdaten (Warnhinweise, Gegenanzeigen) aus der Fachinformation des BfArM
+- Detaillierte Wirkmechanismus-Daten (MOA)
+- Klinische Studien oder Fallserien zu Porphyria cutanea tarda bzw. hepatischer Porphyrie beim Menschen
+- Klärung des aktuellen Zulassungsstatus in Deutschland
 
+**Hinweis zu weiteren Vorhersagen:** Die übrigen Vorhersagen (z. B. hepatopulmonales Syndrom, hepatoportale Sklerose, Pyruvatkinase-Mangel) basieren allein auf dem Modellwert, ohne Studien oder Literatur. Bei „Beta-Thalassämie mit anderen Manifestationen" überschneidet sich die Vorhersage mit der bestehenden Indikation und stellt daher kein echtes Repurposing dar.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

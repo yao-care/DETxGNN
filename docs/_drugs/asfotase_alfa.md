@@ -2,7 +2,7 @@
 layout: default
 title: Asfotase Alfa
 parent: Nur Modellvorhersage (L5)
-nav_order: 36
+nav_order: 40
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,77 +29,78 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# ASFOTASE ALFA: Von Hypophosphathasie (HPP) zu mitochondrialem Oxidative-Phosphorylierungs-Defekt (verursacht durch Kern-DNA-Anomalien)
+# Asfotase alfa: Von Hypophosphatasie zu mitochondrialen Störungen der oxidativen Phosphorylierung (nukleäre DNA-Anomalien)
 
-## One-Sentence Summary
+## Zusammenfassung
 
-> Asfotase alfa ist eine Enzymersatztherapie mit rekombinanter humaner gewebsunspezifischer alkalischer Phosphatase (TNSALP), ursprünglich zur Behandlung der Hypophosphathasie (HPP) entwickelt.
-> Das TxGNN-Modell prognostiziert, dass es möglicherweise wirksam bei **mitochondrialen Oxidative-Phosphorylierungs-Störungen (verursacht durch Anomalien der Kern-DNA)** sein könnte,
-> jedoch gibt es derzeit **keine klinischen Studien und keine Literaturbelege**, die diesen Ansatz unterstützen, und die Mechanismus-Analyse im Evidenzpaket weist selbst darauf hin, dass zwischen den beiden Pathophysiologien keine bekannte Assoziation besteht.
+Asfotase alfa ist eine rekombinante Enzymersatztherapie, die ursprünglich zur Behandlung der **Hypophosphatasie** eingesetzt wird. Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei einer **mitochondrialen Störung der oxidativen Phosphorylierung durch Anomalien der nukleären DNA** voraus. Für diese Vorhersage liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor.
 
 ---
 
-## Quick Overview
+## Kurzüberblick
 
-| Eintrag | Inhalt |
-|---------|---------|
-| Ursprüngliche Indikation | Hypophosphathasie (HPP) ※nach der Mechanismus-Beschreibung im Evidenzpaket zusammengefasst, keine offizielle Indikationsliste (`original_indications` Feld ist leer) |
-| Vorhergesagte neue Indikation | Mitochondrialer Oxidative-Phosphorylierungs-Defekt verursacht durch Anomalien der Kern-DNA |
-| TxGNN-Prognosescore | 99.95% |
-| Evidenzstufe | L5 (nur Modellprognose, keine tatsächliche Forschung) |
-| Marktstatus Deutschland | Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Hypophosphatasie |
+| Vorhergesagte neue Indikation | Mitochondriale Störung der oxidativen Phosphorylierung durch Anomalien der nukleären DNA |
+| TxGNN-Vorhersagescore | 99,95 % |
+| Evidenzlevel | L5 |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
+| Anzahl der Zulassungen | 1 |
 | Empfohlene Entscheidung | Hold |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Warum ist diese Vorhersage (nicht) plausibel?
 
-Das Feld `drug.original_moa` ist als Datenlücke gekennzeichnet, aber `repurposing_rationale` der höchstbewerteten Kandidaten im Evidenzpaket bietet bereits eine Mechanismusbeschreibung: Asfotase alfa ist ein rekombinantes humanes gewebsunspezifisches alkalisches Phosphatase-Enzym (TNSALP) mit dem Wirkmechanismus der Hydrolyse von Pyrophosphat (PPi), um die Knochenmineralisierung zu fördern, hauptsächlich zur Behandlung der Hypophosphathasie (HPP) — einer Mineralisierungsstörung der extrazellulären Matrix — verwendet.
+Detaillierte Daten zum Wirkmechanismus sind in den für diesen Bericht zusammengestellten Daten nicht verfügbar. Bekannt ist, dass Asfotase alfa eine rekombinante gewebeunspezifische alkalische Phosphatase (TNAP) ist. Sie hydrolysiert anorganisches Pyrophosphat und andere Phosphatsubstrate und unterstützt so die Knochenmineralisierung. Dies ist bei Hypophosphatasie die Grundlage der Wirkung.
 
-Mitochondriale Oxidative-Phosphorylierungs-Störungen (verursacht durch Kern-DNA-Anomalien) gehören zu mitochondrialen Atmungskettendefekten, deren Pathophysiologie völlig unabhängig von Knochenmineralisierung und Phosphatstoffwechsel ist. Das Evidenzpaket selbst verweist explizit darauf: „Es gibt keine bekannte Mechanismus-Assoziation mit dem mitochondrialen Oxidative-Phosphorylierungs-Weg (Atmungskettendefekt verursacht durch Kern-DNA-Mutationen); die beiden Pathophysiologien folgen völlig unterschiedlichen pathologischen Achsen; dies ist eine statistische Assoziation im Wissensgraphen, der biologische Plausibilität fehlt."
+Mitochondriale Störungen der oxidativen Phosphorylierung durch nukleäre DNA-Anomalien beruhen dagegen auf einer gestörten Funktion der mitochondrialen Atmungskette. Ein extrazelluläres, auf den Knochen ausgerichtetes Enzym würde diesen Defekt voraussichtlich nicht beheben. Ein mechanistischer Zusammenhang ist daher nicht belegt. Der hohe Score von 0,9995 ist eine rein graphbasierte Modellvorhersage und wird durch keine Pathway-Evidenz gestützt.
 
-Mit anderen Worten: Diese Prognose basiert auf statistischen Assoziationen im TxGNN-Wissensgraphen, nicht auf mechanismusgesteuerten Hypothesen. Die Kandidaten auf Platz 2–10 (Steel-Syndrom, exokrine Pankreasinsuffizienz, MPS-I-Serie, Hurler/Scheie-Syndrom, familiärer ApoC-II-Mangel, Ösophagus-Varizen, Zystinose usw.) wurden ebenfalls vom Evidenzpaket selbst als „phänotypische Ebenen-Assoziationen" oder „biologisch implausibel" charakterisiert; nur wenige (wie Zystinose, Hurler/Scheie-Syndrom, lysosomale Speicherkrankheit mit begleitenden Skelettveränderungen) zeigen indirekte Ähnlichkeiten auf der Skelettphänotyp-Ebene, aber die molekularen Mechanismen überlappen sich nicht.
-
----
-
-## Clinical Trial Evidence
-
-Derzeit sind keine verwandten klinischen Studien registriert
+Auch die übrigen Vorhersagen unter den Top 10 (u. a. Steel-Syndrom, exokrine Pankreasinsuffizienz, Scheie- und Hurler-Syndrom, lysosomale Speicherkrankheit mit Skelettbeteiligung, familiärer ApoC-II-Mangel, Ösophagusvarizen mit und ohne Blutung, Zystinose) sind mechanistisch nicht begründet. Sie beruhen allein auf der Modellvorhersage, ohne Studien oder Literatur. Die identischen Scores bei den Ösophagusvarizen (0,9968) deuten auf ein Artefakt im Graphen hin.
 
 ---
 
-## Literature Evidence
+## Klinische Evidenz
 
-Derzeit ist keine verwandte Literatur verfügbar
-
----
-
-## Germany Market Information
-
-Derzeit sind keine Arzneimittelzulassungen vorhanden (`total_licenses = 0`; Marktstatus ist „Not marketed").
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Safety Considerations
+## Literaturevidenz
 
-Bitte beachten Sie die Fachinformation für Sicherheitsinformationen.
+Derzeit ist keine zugehörige Literatur verfügbar.
 
 ---
 
-## Conclusion and Next Steps
+## Informationen zum Markt in Deutschland
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/003794 | Strensiq | – | Hypophosphatasie |
+
+Hinweis: Diese Zulassung ist als erloschen/aufgehoben geführt.
+
+---
+
+## Sicherheitsaspekte
+
+Bitte die Packungsbeilage bzw. Fachinformation für Sicherheitsinformationen heranziehen. In den zusammengestellten Daten wurden keine Wechselwirkungen gefunden.
+
+---
+
+## Fazit und nächste Schritte
 
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Top-10-Vorhersagen für Indikationen sind alle L5-Stufe (nur TxGNN-Modellscore, keine klinischen Studien, keine Literaturunterstützung), und die Mechanismus-Analyse des Top-1-Kandidaten wurde bereits vom Evidenzpaket selbst als biologisch implausibel identifiziert; es handelt sich um statistische Assoziationen im Wissensgraphen, nicht um mechanismusgesteuerte Hypothesen; derzeit gibt es keine ausreichende Evidenzbasis für den Übergang zur nächsten Bewertungsphase.
+Die Vorhersage beruht ausschließlich auf einem Modellscore (Evidenzlevel L5), ohne Studien, Literatur oder plausiblen Wirkmechanismus. Zudem ist die einzige Zulassung in Deutschland als erloschen geführt.
 
-**Um fortzufahren, wird Folgendes benötigt:**
-- Vervollständigung der TFDA-Fachinformation Warnhinweise/Kontraindikationen-Daten (DG001, Blocking, derzeit kann keine S1-Sicherheitsprüfung durchgeführt werden)
-- Überprüfung des vollständigen Wirkmechanismus (MOA) von asfotase alfa in der DrugBank (DG002, High)
-- Literatur- und Studienrecherche für biologisch plausiblere Kandidaten durchführen (wie Zystinose, MPS-I-Serie und andere skelettphänotyp-assoziierte Erkrankungen), um zu bestätigen, ob über die Wissensgraph-Assoziation hinaus tatsächliche Evidenzen vorhanden sind
-- Falls biologische Plausibilität oder empirische Unterstützung nicht vervollständigt werden können, wird empfohlen, Hold beizubehalten und nicht in S1 oder später Phasen überzugehen
-
+**Für ein Weiterkommen sind folgende Punkte erforderlich:**
+- Daten zum Wirkmechanismus (MOA), z. B. aus DrugBank
+- Warnhinweise und Gegenanzeigen aus der Packungsbeilage (BfArM), da ohne sie keine Sicherheitsprüfung möglich ist
+- Präklinische Belege, die eine Rolle der TNAP-Aktivität bei mitochondrialen Störungen der oxidativen Phosphorylierung stützen
+- Klärung des aktuellen Zulassungs- und Marktstatus in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

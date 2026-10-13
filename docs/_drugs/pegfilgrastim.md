@@ -2,7 +2,7 @@
 layout: default
 title: Pegfilgrastim
 parent: Nur Modellvorhersage (L5)
-nav_order: 297
+nav_order: 347
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,79 +29,99 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Pegfilgrastim: Vom chemotherapie-induzierten Neutropenie zur schweren nicht-proliferativen diabetischen Retinopathie
+# Pegfilgrastim: Von Neutropenie bei Krebs zu schwerer nichtproliferativer diabetischer Retinopathie
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Pegfilgrastim ist ein G-CSF-(Granulozyten-Kolonie-stimulierender Faktor-)Analogon, das klinisch zur Stimulation der Knochenmarkgranulozytenproduktion und zur Prävention von chemotherapie-induziertem Neutropenie eingesetzt wird.
-> Das TxGNN-Modell prognostiziert, dass es möglicherweise wirksam gegen **schwere nicht-proliferative diabetische Retinopathie** ist,
-> aber derzeit gibt es **keine klinischen Studien** und **keine Publikationen**, die diese Richtung unterstützen — die Vorhersage basiert ausschließlich auf dem internen Wissensgraph des Modells.
+Pegfilgrastim ist ein lang wirksamer Wachstumsfaktor für Neutrophile (G-CSF-Analogon). Es wird ursprünglich eingesetzt, um Neutropenie und febrile Neutropenie unter Chemotherapie bei Krebspatienten zu behandeln bzw. zu verhindern.
+Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **schwerer nichtproliferativer diabetischer Retinopathie** voraus.
+Die Vorhersage stützt sich bislang **ausschließlich auf das Modell**: Es liegen **0 klinische Studien** und **0 Publikationen** vor.
 
 ---
 
-## Schnellübersicht
+## Kurzüberblick
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Chemotherapie-induzierter Neutropenie (basierend auf bekanntem Wirkmechanismus; formale Taiwan/Deutschland-Lizenzdaten nicht verfügbar) |
-| Vorhergesagte neue Indikation | Schwere nicht-proliferative diabetische Retinopathie |
-| TxGNN-Vorhersage-Score | 99.89% |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Neutropenie, febrile Neutropenie, chemotherapiebedingte febrile Neutropenie, Krebs |
+| Vorhergesagte neue Indikation | Schwere nichtproliferative diabetische Retinopathie |
+| TxGNN-Vorhersagewert | 99,89 % |
 | Evidenzstufe | L5 |
-| Marktstatus Deutschland | Nicht im Handel |
-| Anzahl der Genehmigungen | 0 |
-| Empfehlenswerte Entscheidung | Halten |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen (keine gültige Zulassung) |
+| Anzahl der Zulassungen | 11 (alle erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage sinnvoll?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Wirkmechanismus-Daten nicht verfügbar. Basierend auf bekannten Informationen ist Pegfilgrastim ein G-CSF-Analogon, dessen etablierte klinische Rolle die Stimulation der Knochenmarkgranulozytenproduktion zur Prävention von chemotherapie-induziertem Neutropenie ist. Es gibt derzeit keine veröffentlichten Daten, die einen direkten Zusammenhang zwischen diesem Mechanismus und der Pathologie der diabetischen Retinopathie beschreiben (z. B. VEGF-Signalisierung, retinale Mikrovaskularverletzung oder entzündliche Wege).
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Pegfilgrastim ein pegyliertes G-CSF-Analogon ist, das die Bildung und Freisetzung neutrophiler Granulozyten aus dem Knochenmark anregt. Seine Wirksamkeit bei Neutropenie unter Chemotherapie ist etabliert.
 
-Der hohe TxGNN-Score spiegelt möglicherweise eine indirekte Graphen-Assoziation zwischen G-CSF-vermittelter Knochenmark-Stammzellmobilisierung (CD34+-Zellen) und vaskulären Reparaturprozessen wider, die konzeptionell für ischämische Netzhauterkrankungen relevant sind. Dies ist jedoch eine Hypothese, die sich aus der Graphenstruktur ableitet, nicht aus experimentellen oder klinischen Daten. Bemerkenswert ist, dass G-CSF-Mittel ein theoretisches **bidirektionales Risiko** aufweisen: Während die Mobilisierung von endothelialen Vorläuferzellen theoretisch die ischämische Netzhautreparatur unterstützen könnte, wurde G-CSF auch als potenzieller Beitrag zu pathologischer Neovaskularisierung identifiziert, was bei proliferativer diabetischer Retinopathie unerwünscht wäre. Eine zweite, eng verwandte Vorhersage — „diabetische Retinopathie" (Score 99.73%, Rang 3759) — zeigt das gleiche Muster ungelöster mechanistischer Richtung und völlige Abwesenheit unterstützender Daten.
+Ein denkbarer Zusammenhang mit der diabetischen Retinopathie ist rein hypothetisch: G-CSF kann Vorläuferzellen aus dem Knochenmark (z. B. endotheliale Vorläuferzellen) mobilisieren und Immunzellen modulieren. Dies könnte die Gefäßreparatur in der ischämischen Netzhaut unterstützen.
 
-Angesichts der Tatsache, dass die Originalindikation und der Wirkmechanismus selbst in diesem Evidenzpaket als Datenlücken gekennzeichnet sind, kann diese mechanistische Begründung nicht unabhängig überprüft werden und sollte als spekulativ behandelt werden.
-
----
-
-## Klinische Studiendaten
-
-Derzeit sind keine verwandten klinischen Studien registriert.
+Dieselben Wege könnten jedoch auch Entzündung und pathologische Neovaskularisation fördern und die Erkrankung verschlimmern. Die Wirkrichtung ist daher unklar. Die Verbindung ist spekulativ und durch die vorliegenden Daten nicht belegt. Für die zweite Vorhersage, **diabetische Retinopathie** allgemein (Score 99,73 %), gilt dieselbe Einschätzung.
 
 ---
 
-## Literaturbelege
+## Klinische Evidenz
 
-Derzeit sind keine verwandten Literaturquellen verfügbar.
-
----
-
-## Informationen zum deutschen Markt
-
-Es sind derzeit keine Lizenzunterlagen verfügbar — Pegfilgrastim wird nach regulatorischen Datensätzen nicht in dieser Gerichtsbarkeit vermarktet (0 Genehmigungen vorhanden).
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Sicherheitsüberlegungen
+## Literaturevidenz
 
-Bitte beachten Sie die Fachinformation für Sicherheitsinformationen.
-
-Hinweis: Wichtige Warnungen, Gegenanzeigen und Arzneimittelwechselwirkungsdaten sind derzeit in diesem Evidenzpaket nicht verfügbar (gekennzeichnet als **blockierend**e Datenlücke — TFDA/Fachinformation Warnungen und Gegenanzeigen, DG001). Diese Lücke allein ist ausreichend, um den Fortschritt zum Sicherheits-Vor-Screening (S1) unabhängig von Wirksamkeitsnachweisen zu verhindern.
+Derzeit liegt keine zugehörige Literatur vor.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Informationen zum Markt in Deutschland
 
-**Entscheidung: Halten**
+Alle 11 erfassten Zulassungen sind erloschen. Für die meisten liegt kein Text zur zugelassenen Indikation vor; die Angaben zur Darreichungsform fehlen durchgängig.
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000420 | Neulasta | – | Krebs, Neutropenie, febrile Neutropenie, chemotherapiebedingte febrile Neutropenie |
+| EMEA/H/C/006739 | Vivlipeg | – | Neutropenie, febrile Neutropenie, chemotherapiebedingte febrile Neutropenie, Krebs |
+| EMEA/H/C/006407 | Dyrupeg | – | Neutropenie, Krebs |
+| EMEA/H/C/004780 | Stimufend | – | – |
+| EMEA/H/C/004802 | Ziextenzo | – | – |
+
+Weitere erloschene Zulassungen: Grasustek, Cegfila, Pelmeg, Fulphila, Nyvepria, Pelgraz.
+
+---
+
+## Zytotoxizität
+
+Pegfilgrastim ist kein zytotoxisches Antineoplastikum, sondern ein unterstützendes Mittel (Wachstumsfaktor) in der Onkologie. Dieser Abschnitt entfällt daher.
+
+---
+
+## Sicherheitsaspekte
+
+**Arzneimittelwechselwirkungen:** In der Interaktionsabfrage wurden insgesamt 100 Wechselwirkungen gefunden. Die ersten 20 Einträge sind alle als **moderat** eingestuft (Quelle: DDInter). Beispiele:
+- Zytostatika und Antineoplastika: Paclitaxel, Mercaptopurin, Azacitidin, Arsentrioxid, Trimetrexat, Altretamin, Asparaginase
+- Zielgerichtete Wirkstoffe und Antikörper: Abemaciclib, Acalabrutinib, Avapritinib, Alemtuzumab, Belantamab mafodotin
+- Radiopharmaka und Radioimmuntherapeutika: Iobenguan (I-131), Fludeoxyglucose (18F), Ibritumomab tiuxetan, Tositumomab (± I-131)
+- Weitere: Aldesleukin, Levamisol, Pegvaliase
+
+Zu Warnhinweisen und Gegenanzeigen liegen keine verwertbaren Daten vor. Bitte die Fachinformation zu den Sicherheitsangaben heranziehen.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Hold**
 
 **Begründung:**
-Diese Vorhersage wird nur durch den TxGNN-Modell-Score (L5-Evidenz) mit null klinischen Studien und null Publikationen gestützt. Der vorgeschlagene Mechanismus ist spekulativ und trägt ein ungelöstes, möglicherweise gegensätzliches Risiko (Netzhautgefäßreparatur vs. pathologische Neovaskularisierung). In Kombination mit einer blockierenden Datenlücke bei Sicherheits-/Fachinformationsdaten erfüllt dieser Kandidat derzeit nicht die Schwelle für weitere Bewertung.
+Die Vorhersage beruht allein auf einem hohen Modellwert (Evidenzstufe L5). Es gibt keine Studien oder Publikationen, der Wirkmechanismus ist nicht belegt, und G-CSF könnte bei Retinopathie sogar schaden. Zudem besitzt in Deutschland derzeit keine Pegfilgrastim-Zulassung Gültigkeit.
 
-**Um voranzukommen, ist folgendes erforderlich:**
-- Bestätigte Wirkmechanismus-Daten (MOA) für Pegfilgrastim (DG002)
-- TFDA/offizielle Fachinformation Warnungen und Gegenanzeigen (DG001, blockierend — erforderlich vor jedem S1 Sicherheits-Vor-Screening)
-- Präklinische oder Beobachtungsdaten, die speziell G-CSF-Mittel bei diabetischer Retinopathie bewerten, angesichts des theoretischen Risikos der Verschlimmerung pathologischer retinaler Neovaskularisierung
-- Formale regulatorische/Lizenzdaten, falls ein Markteintritt in Betracht gezogen wird
-
+**Für ein Weiterkommen sind folgende Schritte nötig:**
+- Systematische Literaturrecherche und Prüfung präklinischer Daten zu G-CSF bei diabetischer Retinopathie, insbesondere zur Frage von Nutzen versus Schaden (Neovaskularisation, Entzündung)
+- Vollständige Wirkmechanismus-Daten (z. B. aus DrugBank)
+- Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen), da die Sicherheitsprüfung derzeit nicht abgeschlossen werden kann
+- Klärung der Anwendungsroute (z. B. systemisch vs. intravitreal), da die Routenkompatibilität noch offen ist
+- Klärung des Zulassungsstatus in Deutschland und der Verfügbarkeit von Präparaten
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

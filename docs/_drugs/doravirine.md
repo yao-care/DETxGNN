@@ -2,7 +2,7 @@
 layout: default
 title: Doravirine
 parent: Nur Modellvorhersage (L5)
-nav_order: 128
+nav_order: 149
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,60 +29,90 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Doravirine: Von der HIV-1-Infektion zum erworbenen Immundefekt-Syndrom bei Katzen
+# Doravirin: Von HIV-Infektion zu felinem erworbenem Immundefizienzsyndrom
 
 ## Zusammenfassung in einem Satz
 
-Doravirine ist ein Inhibitor der nicht-nukleosidischen reversen Transkriptase (NNRTI), eine Substanzklasse zur Behandlung der HIV-1-Infektion beim Menschen. Die Top-Vorhersage von TxGNN ist das **erworbene Immundefekt-Syndrom bei Katzen (FIV)** – eine Veterinärerkrankung bei Katzen – mit derzeit **0 klinischen Studien** und **0 Publikationen**, die diese Richtung unterstützen. Diese Vorhersage sollte als schwaches rechnerisches Signal und nicht als umsetzbarer Kandidat für Umwidmung behandelt werden.
+Doravirin ist ein nicht-nukleosidischer Reverse-Transkriptase-Inhibitor (NNRTI), der ursprünglich zur Behandlung von HIV-Infektionen zugelassen wurde. Das TxGNN-Modell sagt voraus, dass er bei **felinem erworbenem Immundefizienzsyndrom** wirksam sein könnte. Für diese Vorhersage liegen jedoch **keine klinischen Studien** und **keine Publikationen** vor, die Doravirin direkt betreffen; die Evidenz beschränkt sich auf die Modellvorhersage.
+
+---
 
 ## Schnellübersicht
 
-| Eintrag | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | HIV-1-Infektion (basierend auf bekannter Arzneimittelklassifizierung; nicht in der Nachweissammlung vorhanden) |
-| Vorhergesagte neue Indikation | Erworbenes Immundefekt-Syndrom bei Katzen (FIV) |
-| TxGNN-Vorhersagepunktzahl | 99.93% |
-| Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nicht vermarktet (Nicht vermarktet) |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Halten |
+| Ursprüngliche Indikation | HIV-Infektionen |
+| Vorhergesagte neue Indikation | Felines erworbenes Immundefizienzsyndrom |
+| TxGNN-Vorhersagewert | 99,93 % |
+| Evidenzniveau | L5 |
+| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
+| Anzahl der Zulassungen | 2 (beide erloschen) |
+| Empfohlene Entscheidung | Hold |
 
-## Warum ist diese Vorhersage vernünftig?
+---
 
-Derzeit sind detaillierte Daten zum Wirkmechanismus nicht in der Nachweissammlung verfügbar. Basierend auf bekannter Pharmakologie ist Doravirine ein NNRTI, der für die HIV-1-Infektion beim Menschen zugelassen ist (vermarktet als Pifeltro und kombiniert mit Lamivudin/Tenofovirdisoproxilfumarat als Delstrigo). Es wirkt durch nicht-kompetitive Bindung an die HIV-1-Reverse-Transkriptase und blockiert die Umwandlung von viraler RNA zu DNA.
+## Warum ist diese Vorhersage plausibel?
 
-Das Katzen-Immundefekt-Virus (FIV) ist ein Lentivirus, das mit HIV-1 verwandt, aber strukturell unterschiedlich ist; es verursacht bei Katzen ein AIDS-ähnliches Syndrom. Obwohl beide Viren zur Lentivirus-Familie gehören und auf Reverse-Transkriptase angewiesen sind, sind NNRTIs wie Doravirine im Allgemeinen nicht kreuzreaktiv gegen die FIV-Reverse-Transkriptase, da es Unterschiede in Sequenz und Bindungstasche gibt. Der TxGNN-Score spiegelt wahrscheinlich eine breite Assoziation „Immundefekt-Virus / RT-Inhibitor" wider, die im Wissensgraph eingebettet ist, anstatt eines validierten pharmakologischen Mechanismus. Entscheidend ist, dass FIV eine Veterinärindikation bei Katzen ist, keine human-klinische Indikation – wodurch diese Vorhersage für die Umwidmung von Arzneimitteln beim Menschen nicht umsetzbar ist, unabhängig von mechanistischer Plausibilität.
+Zum Wirkmechanismus von Doravirin liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Doravirin ein NNRTI ist, der die Reverse Transkriptase von HIV-1 hemmt. Seine Wirksamkeit bei HIV-Infektionen ist belegt.
 
-Die beiden anderen Kandidaten in dieser Nachweissammlung waren bereits als niedrigwertig gekennzeichnet: Die Infektion mit Simian-Immundefekt-Virus (Rang 2) wird nur durch einen Übersichtsartikel über *Islatravir* gestützt – ein anderes Arzneimittel mit einem anderen Wirkmechanismus (NRTTI, nicht NNRTI) – daher stellt dies keinen Nachweis für Doravirine dar; und die seltene neurologische Entwicklungsstörung (Rang 3) hat keinen plausiblen mechanistischen Zusammenhang mit der Reverse-Transkriptase-Hemmung und ist wahrscheinlich ein Artefakt des Wissensgraphs.
+Das feline Immundefizienzvirus (FIV) ist ein Lentivirus und mit HIV verwandt. Daher besteht prinzipiell eine mechanistische Begründung. Allerdings wirken NNRTIs gegen FIV im Allgemeinen schlecht, weil sich die Reverse Transkriptase von FIV in der NNRTI-Bindungstasche von der von HIV-1 unterscheidet. Der hohe TxGNN-Wert spiegelt vermutlich die Nähe zum HIV-Krankheitsknoten im Netzwerk wider und nicht eine nachgewiesene Aktivität.
 
-## Klinische Studienevidenz
+Zwei weitere Vorhersagen mit gleichem oder ähnlichem Score sind ebenfalls wenig belastbar:
+- **Infektion mit dem Affen-Immundefizienzvirus (SIV):** SIV, insbesondere SIVmac, ist natürlicherweise gegen viele NNRTIs resistent. Die einzige verknüpfte Publikation betrifft Islatravir, nicht Doravirin. Zudem handelt es sich um einen Tiermodellkontext, nicht um ein humanes Therapieziel.
+- **Neuroentwicklungsstörung mit ataktischem Gang, fehlender Sprache und verminderter kortikaler weißer Substanz:** Es wurde kein plausibler mechanistischer Zusammenhang gefunden. Vermutlich handelt es sich um ein Artefakt der graphbasierten Vorhersage.
 
-Derzeit sind keine verwandten klinischen Studien registriert
+---
 
-## Literaturbeweise
+## Evidenz aus klinischen Studien
 
-Derzeit ist keine verwandte Literatur verfügbar
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
-## Marktinformation in Deutschland
+---
 
-Doravirine ist derzeit in Deutschland nicht vermarktet (0 Zulassungen im Datensatz); keine BfArM-Lizenzierungsdaten sind in dieser Nachweissammlung verfügbar.
+## Evidenz aus der Literatur
+
+Für die Top-Vorhersage (felines erworbenes Immundefizienzsyndrom) liegen derzeit keine zugehörigen Publikationen vor.
+
+Hinweis zur zweitplatzierten Vorhersage (SIV-Infektion): Die einzige verknüpfte Publikation ist ein Übersichtsartikel zu Islatravir, einem anderen Wirkstoff, und liefert keine Doravirin-spezifische Evidenz.
+
+| PMID | Jahr | Typ | Journal | Kernaussagen |
+|------|-----|------|------|---------|
+| [31658118](https://pubmed.ncbi.nlm.nih.gov/31658118/) | 2020 | Review | Current Opinion in HIV and AIDS | Übersicht zur Rolle von Islatravir (Reverse-Transkriptase-Translokationsinhibitor) bei Behandlung und Prävention von HIV-1; kein Bezug zu Doravirin |
+
+---
+
+## Marktinformationen Deutschland
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/004747 | Pifeltro | – | HIV-Infektionen (erloschen) |
+| EMEA/H/C/004746 | Delstrigo | – | HIV-Infektionen (erloschen) |
+
+---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+**Arzneimittelwechselwirkungen:** Insgesamt wurden 59 Wechselwirkungen erfasst. Die wichtigsten:
+- **Schwerwiegend (Major):** Dexamethason, Lumacaftor
+- **Mäßig (Moderate):** Glycerolphenylbutyrat, Metreleptin, Troglitazon, Deferasirox, Praziquantel, Griseofulvin
+- **Gering (Minor):** u. a. Aprepitant, Cimetidin, Clarithromycin, Clotrimazol, Miconazol, Cobicistat, Ticagrelor, Ivacaftor, Zafirlukast, Chloramphenicol, Erythromycin, Fluconazol
+
+Für weitere Sicherheitsinformationen siehe die Fachinformation.
+
+---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Halten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Keine klinischen Studien oder Literatur unterstützen eine der drei von TxGNN vorhergesagten Indikationen. Die Top-Vorhersage (FIV) ist eine Veterinärerkrankung ohne etablierte mechanistische Kreuzreaktivität zur NNRTI-Aktivität von Doravirine, und das Arzneimittel ist derzeit nicht in Deutschland vermarktet.
+Die Vorhersage beruht ausschließlich auf der Modellnähe zu HIV; es gibt weder klinische Studien noch Doravirin-spezifische Literatur. Zudem sprechen die bekannte NNRTI-Resistenz von FIV und SIV sowie der tiermedizinische Kontext gegen einen sinnvollen humanen Repurposing-Ansatz. Beide Zulassungen in Deutschland sind erloschen.
 
-**Um fortzufahren, sind folgende Informationen erforderlich:**
-- Offizielle Warnhinweise und Kontraindikationen von TFDA/BfArM (DG001, Blockierung, derzeit nicht für die Sicherheitsbewertung zugänglich)
-- Vollständiger Wirkmechanismus (Mechanism of Action, MOA) von Doravirine – offizielle Datenquelle (DG002)
-- Um praktikable Richtungen für die Umwidmung alter Arzneimittel beim Menschen zu bewerten, ist eine erneute Abfrage der TxGNN-Vorhersageergebnisse für relevante menschliche Erkrankungen erforderlich – derzeit sind alle drei Kandidaten keine praktikablen klinischen Ziele für Menschen
-
+**Für ein Weiterkommen sind folgende Schritte erforderlich:**
+- Daten zum Wirkmechanismus (MOA) von Doravirin ergänzen
+- Warnhinweise und Gegenanzeigen aus der Fachinformation (BfArM) beschaffen, da dies für das Sicherheits-Screening erforderlich ist
+- In-vitro-Daten zur Aktivität von Doravirin gegen FIV bzw. SIV erheben
+- Klären, ob eine veterinärmedizinische Entwicklung überhaupt angestrebt wird
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Neratinib
-parent: Mittlere Evidenz (L3-L4)
-nav_order: 266
-evidence_level: L3
+parent: Hohe Evidenz (L1-L2)
+nav_order: 311
+evidence_level: L2
 indication_count: 4
 ---
 
 # Neratinib
 {: .fs-9 }
 
-Evidenzniveau: **L3** | Vorhergesagte Indikationen: **4** 
+Evidenzniveau: **L2** | Vorhergesagte Indikationen: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,107 +29,111 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-# Neratinib: Vom HER2-positiven Brustkrebs zum Progesteronrezeptor-positiven Brustkrebs
+# Neratinib: Von Brustneoplasmen zu Progesteronrezeptor-positivem Brustkrebs
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Neratinib ist ein irreversibler pan-HER (HER1/HER2/HER4) Tyrosinkinase-Inhibitor, der ursprünglich für HER2-positiven Brustkrebs entwickelt wurde.
-> Das TxGNN-Modell prognostiziert, dass es auch wirksam sein könnte für **Progesteronrezeptor-positiven Brustkrebs**,
-> mit **5 klinischen Studien** und **9 Publikationen**, die diese Richtung derzeit unterstützen — obwohl die meisten dieser Belege aus überlappenden HER2-positiven/HR-positiven Populationen stammen, anstatt aus einer klar definierten PR-positiven Kohorte.
+Neratinib ist ein irreversibler Pan-HER-Tyrosinkinase-Inhibitor, der ursprünglich zur Behandlung von Brustneoplasmen eingesetzt wird. Das TxGNN-Modell sagt voraus, dass er bei **Progesteronrezeptor-positivem Brustkrebs** wirksam sein könnte. Dafür liegen derzeit **2 klinische Studien** (davon nur 1 mit Patienteneinschluss) sowie **11 Publikationen** vor. Es handelt sich weitgehend um einen Subtyp innerhalb der bestehenden Indikation und weniger um eine echte Neuausrichtung.
 
 ---
 
 ## Schnellübersicht
 
 | Punkt | Inhalt |
-|-------|--------|
-| Ursprüngliche Indikation | HER2-positiver Brustkrebs (gemäß bekannter Arzneimittelklasse; nicht in diesem Evidenzpaket erfasst — siehe Marktstatus Deutschland unten) |
-| Prognostizierte neue Indikation | Progesteronrezeptor-positiver Brustkrebs |
-| TxGNN-Vorhersage-Score | 99.68% |
-| Evidenzstufe | L3 |
-| Marktstatus Deutschland | ✗ Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Halten |
+|------|------|
+| Ursprüngliche Indikation | Brustneoplasmen |
+| Vorhergesagte neue Indikation | Progesteronrezeptor-positiver Brustkrebs |
+| TxGNN-Vorhersagewert | 99,68 % |
+| Evidenzniveau | L2 |
+| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
+| Anzahl der Zulassungen | 1 (0 gültig, 1 erloschen) |
+| Empfohlene Entscheidung | Proceed with Guardrails (Fortfahren mit Schutzmaßnahmen) |
 
 ---
 
-## Warum ist diese Vorhersage vernünftig?
+## Warum ist diese Vorhersage plausibel?
 
-Ein strukturiertes MOA-Feld war in diesem Evidenzpaket nicht verfügbar (Datenlücke DG002). Die in diesem Paket enthaltenen Literaturbelege (ExteNET-Studie, PMID 26874901) beschreiben jedoch Neratinib als einen **irreversiblen Tyrosinkinase-Inhibitor** von HER1, HER2 und HER4, der ursprünglich zur Verringerung des Rezidivrisikos bei HER2-positivem Brustkrebs nach trastuzumabbasierter adjuvanter Therapie eingesetzt wurde.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben aus der Arzneimitteldatenbank vor. Nach bekanntem Wissen ist Neratinib ein irreversibler Tyrosinkinase-Inhibitor, der HER1 (EGFR), HER2 und HER4 hemmt. Seine Wirksamkeit bei HER2-positivem Brustkrebs ist belegt.
 
-Der Progesteronrezeptor-(PR)-Status und der HER2-Status schließen sich bei Brustkrebs nicht gegenseitig aus — viele Patientinnen sind gleichzeitig HR-positiv (ER und/oder PR-positiv) **und** HER2-positiv. Mehrere der abgerufenen Studien rekrutieren direkt diese überlappende Population, z. B. NCT04886531 („ER-positiv, HER-2-positiv Karzinome") und NCT04901299 („HR-positiv, HER2-negativ metastasierender Brustkrebs"). Dies deutet darauf hin, dass das TxGNN-Modell wahrscheinlich eine echte biologische Beziehung erkennt — Neratinib-vermittelte HER-Weg-Blockade kombiniert mit endokriner Therapie bei Hormonrezeptor-getriebenen, HER2-alterierten Tumoren — statt eines völlig neuen Mechanismus.
+Bei Hormonrezeptor-positivem/HER2-positivem Brustkrebs besteht eine wechselseitige Signalverknüpfung zwischen HER2 und dem Östrogenrezeptor, die zu Endokrinresistenz beitragen kann. Die Kombination aus HER2-Blockade und endokriner Therapie ist daher mechanistisch sinnvoll. Auf dieser Überlegung beruht bereits die erweiterte adjuvante Anwendung von Neratinib (ExteNET-Studie, PMID 26874901) bei Hormonrezeptor-positiver Erkrankung.
 
-Allerdings definiert keine der identifizierten Studien oder Publikationen speziell „Progesteronrezeptor-positiven Brustkrebs" als isolierten primären Endpunkt unabhängig vom HER2-Status. Die Vorhersage sollte daher als eine Erweiterung im Rahmen eines bereits verwandten Krankheitsbereichs (Brustkrebs, HER-Weg-Biologie) eher als ein völlig neuer therapeutischer Bereich interpretiert werden.
+Da die ursprüngliche Indikation bereits Brustneoplasmen umfasst, ist die Vorhersage vor allem eine Eingrenzung auf einen Subtyp. Die Phase-3-Evidenz (ExteNET) liegt nur als Publikation vor, nicht als registrierter Studiendatensatz. Daher wurde das Evidenzniveau vorsichtig auf L2 festgelegt.
 
 ---
 
-## Klinische Studienevidenz
+## Evidenz aus klinischen Studien
 
-| Studiennummer | Phase | Status | Rekrutierung | Wichtigste Befunde |
+| Studiennummer | Phase | Status | Teilnehmerzahl | Wichtigste Erkenntnisse |
 |---------|------|------|------|---------|
-| [NCT06131424](https://clinicaltrials.gov/study/NCT06131424) | N/A | Abgeschlossen | 1151 | Retrospektive multizentrische Studie zur HER2-Low-Prävalenz, Behandlungsmuster und Ergebnisse bei HER2-negativem metastasiertem Brustkrebs |
-| [NCT04886531](https://clinicaltrials.gov/study/NCT04886531) | Phase 2 | Rekrutierung läuft | 30 | Präoperatives Neratinib + endokrine Therapie + Trastuzumab bei ER-positivem, HER2-positivem Brustkrebs |
-| [NCT04901299](https://clinicaltrials.gov/study/NCT04901299) | Phase 2 | Zurückgezogen | 0 | Neratinib + Fulvestrant bei zuvor behandeltem HR-positivem, HER2-negativem metastasiertem Brustkrebs |
-| [NCT05599334](https://clinicaltrials.gov/study/NCT05599334) | N/A | Abgeschlossen | 111 | Retrospektive Beobachtungsstudie von Neratinib als erweiterte adjuvante Therapie bei frühem HER2+-Brustkrebs (europäischer EAP) |
-| [NCT04460430](https://clinicaltrials.gov/study/NCT04460430) | Phase 2 | Beendet | 12 | Neratinib gegen EGFR/ERBB2 bei HR-positivem/HER2-negativem, HER2-angereichertem fortgeschrittenem/metastasiertem Brustkrebs |
+| [NCT04886531](https://clinicaltrials.gov/study/NCT04886531) | Phase 2 | Rekrutierend | 30 | Präoperatives Neratinib plus Aromatasehemmer und Trastuzumab über 24 Wochen bei ER-positivem/HER2-positivem Brustkrebs; testet die vorgeschlagene Kombination direkt in der Zielpopulation |
+| [NCT04901299](https://clinicaltrials.gov/study/NCT04901299) | Phase 2 | Zurückgezogen | 0 | Neratinib plus Fulvestrant bei vorbehandeltem HR-positivem/HER2-negativem metastasiertem Brustkrebs; ohne Einschluss, daher keine Daten, zudem andere Population |
 
 ---
 
-## Literaturbelege
+## Evidenz aus der Literatur
 
-| PMID | Jahr | Typ | Zeitschrift | Wichtigste Befunde |
+| PMID | Jahr | Typ | Journal | Wichtigste Erkenntnisse |
 |------|-----|------|------|---------|
-| [26874901](https://pubmed.ncbi.nlm.nih.gov/26874901/) | 2016 | Phase-3-RCT | Lancet Oncology | ExteNET-Studie: Neratinib nach trastuzumabbasierter adjuvanter Therapie verringert Rezidivrisiko bei frühem HER2+-Brustkrebs |
-| [27406346](https://pubmed.ncbi.nlm.nih.gov/27406346/) | 2016 | Adaptive Phase-2-Studie | NEJM | I-SPY-2-Studie: Neratinib zu neoadjuvanter Chemotherapie hinzugefügt bei hochriskantem Stadium-II/III-Brustkrebs |
-| [35640077](https://pubmed.ncbi.nlm.nih.gov/35640077/) | 2022 | Leitlinie | J Clin Oncol | ASCO-Leitlinien-Update zur systemischen Therapie für fortgeschrittenen HER2-positiven Brustkrebs |
-| [29784737](https://pubmed.ncbi.nlm.nih.gov/29784737/) | 2018 | Leitlinie | JNCCN | NCCN-Brustkrebs-Leitlinien-Update mit Behandlungssequenzierung für HER2/endokrine Therapie |
-| [39153126](https://pubmed.ncbi.nlm.nih.gov/39153126/) | 2024 | Beobachtungsstudie | Breast Cancer Res Treat | Realistische adjuvante Neratinib-Anwendung bei HR+/HER2+-frühem Brustkrebs; GI-Toxizität begrenzt Fortsetzung |
-| [32139271](https://pubmed.ncbi.nlm.nih.gov/32139271/) | 2020 | Experten-Roundtable/Review | Clin Breast Cancer | Klinische Hinweise zur HER2-positiven Brustkrebsbehandlung einschließlich Neratinib und Lapatinib |
-| [33726508](https://pubmed.ncbi.nlm.nih.gov/33726508/) | 2021 | Übersichtsarbeit | Future Oncology | Aktuelle Behandlungstrends bei HR+/HER2+-Brustkrebs |
-| [32782013](https://pubmed.ncbi.nlm.nih.gov/32782013/) | 2020 | Retrospektive In-silico-Analyse | Breast Cancer Res | ERBB2-Mutationsstatus als Prognosemarker bei ER+, ERBB2-nicht-amplifiziertem lobulärem Brustkrebs |
-| [35251981](https://pubmed.ncbi.nlm.nih.gov/35251981/) | 2022 | Fallbericht | Frontiers in Oncology | HER2+-Brustkrebs mit leptomeningealer Erkrankung behandelt mit Pyrotinib + Metronomic Vinorelbine |
-| [24892840](https://pubmed.ncbi.nlm.nih.gov/24892840/) | 2013 | Übersichtsarbeit | Clin Adv Hematol Oncol | Übersicht über Subtypen von metastasiertem Brustkrebs und integrative Behandlung |
+| [26874901](https://pubmed.ncbi.nlm.nih.gov/26874901/) | 2016 | RCT (Phase 3) | The Lancet Oncology | ExteNET: 12 Monate Neratinib nach trastuzumabbasierter adjuvanter Therapie bei frühem HER2-positivem Brustkrebs |
+| [27406346](https://pubmed.ncbi.nlm.nih.gov/27406346/) | 2016 | RCT (Phase 2) | N Engl J Med | I-SPY 2: adaptive Randomisierung von Neratinib in der neoadjuvanten Therapie bei Hochrisiko-Brustkrebs |
+| [35640077](https://pubmed.ncbi.nlm.nih.gov/35640077/) | 2022 | Leitlinie | J Clin Oncol | ASCO-Leitlinien-Update zur systemischen Therapie bei fortgeschrittenem HER2-positivem Brustkrebs |
+| [29784737](https://pubmed.ncbi.nlm.nih.gov/29784737/) | 2018 | Leitlinie | J Natl Compr Canc Netw | NCCN-Leitlinien-Update Brustkrebs, u. a. CDK4/6-Inhibitoren und erweiterte endokrine Therapie |
+| [39153126](https://pubmed.ncbi.nlm.nih.gov/39153126/) | 2024 | Kohortenstudie | Breast Cancer Res Treat | Anwendungsmuster und Verträglichkeit von adjuvantem Neratinib bei HR-positivem/HER2-positivem Brustkrebs; gastrointestinale Nebenwirkungen führen häufig zum Therapieabbruch |
+| [41499317](https://pubmed.ncbi.nlm.nih.gov/41499317/) | 2026 | Kohortenstudie | Oncology | Verschreibungstrends von adjuvantem Neratinib in der aktuellen Praxis |
+| [33726508](https://pubmed.ncbi.nlm.nih.gov/33726508/) | 2021 | Übersichtsarbeit | Future Oncology | Aktuelle Behandlungstrends bei HR+/HER2+ Brustkrebs; Kombination aus Hormon- und HER2-Therapie ohne Chemotherapie |
+| [32139271](https://pubmed.ncbi.nlm.nih.gov/32139271/) | 2020 | Übersichtsarbeit | Clin Breast Cancer | Expertenrunde zu Entwicklungen bei HER2-positivem Brustkrebs |
+| [24892840](https://pubmed.ncbi.nlm.nih.gov/24892840/) | 2013 | Übersichtsarbeit | Clin Adv Hematol Oncol | Neue Entwicklungen beim metastasierten Brustkrebs |
+| [41886605](https://pubmed.ncbi.nlm.nih.gov/41886605/) | 2026 | Grundlagenforschung | Cancer Research | BRD8/EP400 als Chromatinmodul für das Ansprechen auf Anti-HER2-Therapie bei HR+/HER2+ Brustkrebs |
 
 ---
 
-## Marktstatus Deutschland
+## Marktinformationen Deutschland
 
-Neratinib verfügt derzeit über **keine Marktzulassung in Deutschland** (Marktstatus: nicht vermarktet; 0 Zulassungen auf Rekord). Für diesen Markt sind weder Produktinformationen zur Darreichungsform noch zum zugelassenen Indikationstext verfügbar.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/004030 | Nerlynx (Pierre Fabre Medicament) | – | Brustneoplasmen (Status: erloschen) |
 
 ---
 
 ## Zytotoxizität
 
-Neratinib ist ein Antineoplastikum (pan-HER-Tyrosinkinase-Inhibitor zur Brustkrebsbehandlung), daher gilt dieser Abschnitt.
-
 | Punkt | Inhalt |
-|-------|--------|
-| Zytotoxizitätsklassifizierung | Zielgerichtete Therapie (irreversibler pan-HER1/HER2/HER4-Tyrosinkinase-Inhibitor) — kein konventionelles Zytotoxikum |
-| Myelosuppressions-Risiko | Nicht als primäre Toxizität in den abgerufenen Belegen berichtet; gemäß PMID 39153126 ist die Haupt-Dosis-limitierende Toxizität bei realistischer adjuvanter Anwendung signifikante gastrointestinale Symptome (Durchfall) statt hämatologisch |
-| Emetogenitätsklassifizierung | Bitte beachten Sie die Warnungen und Vorsichtsmaßnahmen der Fachinformation |
-| Überwachungspunkte | GI-Symptomüberwachung (Durchfall, oft Prophylaxe/Dosisreduktion erforderlich gemäß PMID 39153126); Leberfunktion; weitere Parameter gemäß Fachinformation |
-| Schutzmaßnahmen beim Umgang | Bitte beachten Sie institutionelle Richtlinien zur Handhabung oraler Antineoplastika/Zieltherapien |
+|------|------|
+| Klassifikation | Zielgerichtete Therapie (Tyrosinkinase-Inhibitor), kein klassisches Zytostatikum |
+| Myelosuppressionsrisiko | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Emetogenität | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Überwachungsparameter | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten; laut Literatur sind gastrointestinale Nebenwirkungen häufig behandlungslimitierend |
+| Handhabungsschutz | Bitte Fachinformation beachten |
 
 ---
 
-## Sicherheitsbedenken
+## Sicherheitsaspekte
 
-Bitte beachten Sie die Fachinformation für Sicherheitsinformationen.
+**Arzneimittelwechselwirkungen** (100 Wechselwirkungen in der Abfrage gefunden; Auswahl der ersten 20):
+
+- **Schwerwiegend (Major):** Famotidin, Ranitidin, Cimetidin, Rabeprazol, Omeprazol, Esomeprazol, Lansoprazol, Dexlansoprazol (Säureblocker bzw. Protonenpumpenhemmer), Aprepitant, Dexamethason, Clarithromycin, Clotrimazol
+- **Moderat:** Loperamid, Magnesiumoxid, Aluminiumhydroxid, Calciumcarbonat, Empagliflozin, Naldemedin
+- **Gering (Minor):** Naloxegol, Fidaxomicin
+
+Besonders relevant ist die gleichzeitige Gabe von Säureblockern, da diese häufig verordnet werden. Zudem ist Loperamid wegen der häufigen Durchfälle unter Neratinib praxisrelevant.
+
+Für Warnhinweise und Gegenanzeigen siehe die Fachinformation.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Halten**
+**Entscheidung: Proceed with Guardrails (Fortfahren mit Schutzmaßnahmen)**
 
 **Begründung:**
-Die Wirksamkeitsevidenz ist biologisch plausibel und mäßig substanziell — sie basiert auf überlappenden HER2-positiven/HR-positiven Brustkrebsstudien-Populationen, einschließlich einer abgeschlossenen Phase-3-RCT (ExteNET) — adressiert aber nicht direkt „Progesteronrezeptor-positiven Brustkrebs" als eigene Indikation. Kritischer ist, dass TFDA/BfArM-Sicherheitskennzeichnungsdaten eine **blockierende** Datenlücke darstellen (DG001), die verhindert, dass dieser Kandidat die S1-Sicherheitsprüfungsphase betritt, ungeachtet der Stärke der Wirksamkeitsevidenz.
+Neratinib ist bei HER2-positivem, Hormonrezeptor-positivem Brustkrebs durch die Phase-3-Studie ExteNET sowie eine laufende Phase-2-Studie gestützt. Die Vorhersage betrifft jedoch einen Subtyp der bestehenden Indikation. Die einzige deutsche bzw. europäische Zulassung ist erloschen, und spezifische Evidenz für den Progesteronrezeptor-Status ist nicht getrennt belegt.
 
-**Zum Fortschritt wird Folgendes benötigt:**
-- TFDA/BfArM-Fachinformation (Warnungen, Kontraindikationen, DDI) um S1-Sicherheitsprüfung freizuschalten
-- Bestätigte strukturierte MOA-Daten aus DrugBank (DG002)
-- Klarstellung, ob „Progesteronrezeptor-positiver Brustkrebs" als eigene Indikation oder in die bestehende HER2-positive Brustkrebs-Evidenzbasis integriert werden sollte, angesichts substanzieller Populationsüberlappung in den angeführten Studien
-
+**Für das weitere Vorgehen ist erforderlich:**
+- Fachinformation (Warnhinweise und Gegenanzeigen) beschaffen und auswerten; dies ist für die Sicherheitsprüfung zwingend
+- Detaillierte Daten zum Wirkmechanismus ergänzen
+- Klärung des Zulassungsstatus und der Verfügbarkeit in Deutschland
+- Ergebnisse der laufenden Studie NCT04886531 abwarten und die ExteNET-Daten als Studiendatensatz einbeziehen
+- Management der gastrointestinalen Nebenwirkungen (Durchfallprophylaxe) und Prüfung der Wechselwirkungen mit Säureblockern
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

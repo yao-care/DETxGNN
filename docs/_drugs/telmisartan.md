@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Telmisartan
-parent: Hohe Evidenz (L1-L2)
-nav_order: 383
-evidence_level: L2
+parent: Nur Modellvorhersage (L5)
+nav_order: 449
+evidence_level: L5
 indication_count: 10
 ---
 
 # Telmisartan
 {: .fs-9 }
 
-Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,96 +29,112 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Telmisartan: Von Hypertonie zu zerebraler Arterienokklusion
+# Telmisartan: Von Hypertonie zu Prinzmetal-Angina
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Telmisartan ist ein etablierter AT1-Rezeptorblocker (ARB-Klasse) zur Blutdruckkontrolle, wobei dieses Evidenzpaket keinen formal dokumentierten ursprünglichen Hinweis oder strukturierten MOA-Datensatz enthält.
-Unter den Top-10-Vorhersagen von TxGNN ist das höchste Ergebnis des Modells (**Prinzmetal-Angina**, 99.98%) ausdrücklich im Evidenzpaket selbst als fehlende mechanistische oder empirische Unterstützung gekennzeichnet und wird nicht übernommen.
-Der am besten evidenzgestützte Kandidat ist **zerebrale Arterienokklusion**, unterstützt durch **1 abgeschlossene Phase-4-RCT (n=1.228)**, **2 beendete Unterstudien mit minimaler Rekrutierung** und **17 präklinische/mechanistische Publikationen**.
+Telmisartan ist ein Angiotensin-Rezeptorblocker, der ursprünglich zur Behandlung von Bluthochdruck (Hypertonie) zugelassen wurde. Das TxGNN-Modell sagt voraus, dass er bei **Prinzmetal-Angina** wirksam sein könnte, allerdings liegen dazu **keine klinischen Studien und keine Publikationen** vor. Die Vorhersage beruht daher ausschließlich auf dem Modell (Evidenzstufe L5).
+
+Hinweis: Unter den weiteren vorhergesagten Indikationen hat **zerebrale Arterienokklusion** (Rang 4, L4) und **intrazerebrale Blutung** (Rang 9, L1, aber nur als Kombinationstherapie) deutlich mehr Evidenz. Sie werden unten ergänzend dargestellt.
 
 ---
 
 ## Schnellübersicht
 
-| Element | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Nicht verfügbar — keine Lizenzeinträge gefunden (siehe MOA-Hinweis unten) |
-| Vorhergesagte neue Indikation | Zerebrale Arterienokklusion |
-| TxGNN-Vorhersage-Punktzahl | 99.95% |
-| Evidenzstufe | L2 |
-| Status auf deutschem Markt | ✗ Nicht im Handel |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Hold |
+| Ursprüngliche Indikation | Hypertonie |
+| Vorhergesagte neue Indikation | Prinzmetal-Angina |
+| TxGNN-Vorhersagewert | 99,98 % |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Nur erloschene/gelöschte Zulassungen (keine aktuell gültige Zulassung) |
+| Anzahl der Zulassungen | 13 (alle erloschen) |
+| Empfohlene Entscheidung | Hold (Zurückstellen) |
 
 ---
 
-## Warum ist diese Vorhersage vernünftig?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Mechanismus-der-Wirkung-Daten nicht in strukturierter Form verfügbar (DrugBank-Abfragelücke, DG002). Basierend auf Informationen, die in den Rationale-Anmerkungen des Evidenzpakets selbst vorhanden sind, ist Telmisartan ein AT1-Rezeptorblocker, dessen etablierte blutdrucksenkende Aktivität seinem Profil der kardiovaskulären Risikoreduktion zugrunde liegt; jedoch wurden keine aktiven Marketingzulassungen oder genehmigten Indikationstexte für Deutschland gefunden (0 Lizenzen).
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Telmisartan den Angiotensin-II-Typ-1-Rezeptor (AT1) blockiert und zusätzlich als partieller Agonist des PPARγ-Rezeptors wirkt. Seine Wirksamkeit bei Hypertonie ist belegt.
 
-Die Blutdruckontrolle ist eine anerkannte Sekundärpräventionsstrategie gegen ischämische zerebrovaskuläre Ereignisse und bietet eine plausible pharmakologische Verbindung zwischen Telmisartans bekannter antihypertensiver/kardioprotektiver Anwendung und zerebraler Arterienokklusion. Über die Blutdrucksenkung hinaus hat AT1-Blockade in zahlreichen Nager-Transient-Middle-Cerebral-Artery-Occlusion-Modellen (tMCAO) gezeigt, dass das Infarktvolumen, oxidativer Stress und Neuroinflammation reduziert werden, teilweise über PPARγ-Agonismus — ein pleiotroper Mechanismus, der sich von klassischen ARBs unterscheidet (PMID 19604102, 32992165, 20498620).
-
-Klinisch wird diese mechanistische Plausibilität durch NCT01075698 unterstützt, eine abgeschlossene Phase-4-RCT (n=1.228), die die Auswirkung von Telmisartan auf kardiovaskuläre/Biomarker-Ergebnisse bei Hochrisiko-Hypertonie-Patienten evaluiert. Jedoch wurden die TRIDENT-bezogenen Unterstudien (NCT03783754, NCT03785067) nach Einschreibung von nur 4 bzw. 1 Teilnehmern beendet, was die klinische Evidenzbasis erheblich einschränkt. Angesichts der Diskrepanz zwischen der top-bewerteten (aber nicht unterstützten) Vorhersage des Modells und diesem besser-evidenzgestützten, aber weiterhin limitierten Kandidaten behandelt dieser Bericht den Befund als eine Forschungsfrage statt als ein ready-to-advance-Hinweis.
+Für die Prinzmetal-Angina, die durch Gefäßspasmen der Koronararterien ausgelöst wird, wäre ein Zusammenhang über die Modulation des Gefäßtonus (AT1-Blockade) und endotheliale PPARγ-Effekte denkbar. Dies ist jedoch **spekulativ** und durch die vorliegenden Daten nicht gestützt.
 
 ---
 
-## Klinische Studienevidenz
+## Evidenz aus klinischen Studien
 
-| Studiennummer | Phase | Status | Rekrutierung | Wichtigste Ergebnisse |
+Für Prinzmetal-Angina: Derzeit sind keine zugehörigen klinischen Studien registriert.
+
+**Ergänzend: Studien zu Indikationen mit mehr Evidenz**
+
+| Studiennummer | Phase | Status | Teilnehmerzahl | Kernaussagen |
 |---------|------|------|------|---------|
-| [NCT01075698](https://clinicaltrials.gov/study/NCT01075698) | Phase 4 | Abgeschlossen | 1.228 | PROBE-Design-Studie zum Vergleich von Telmisartan (ARB) vs. Standardtherapie bei kardiovaskulären Biomarkern und Ereignissen bei Hochrisiko-Hypertonie-Patienten |
-| [NCT03783754](https://clinicaltrials.gov/study/NCT03783754) | N/A | Beendet | 4 | TRIDENT-MRT-Unterstudie einer Fixdosis-Blutdrucksenkungspille (Triple Pill) bei Patienten mit vorheriger intrakranieller Hämorrhagie — beendet wegen unzureichender Rekrutierung |
-| [NCT03785067](https://clinicaltrials.gov/study/NCT03785067) | Phase 3 | Beendet | 1 | TRIDENT-Kognitiv-Unterstudie (CANTAB-Gedächtnisabnahme-Ergebnis) — beendet bei n=1, keine verwertbaren Daten |
+| [NCT02699645](https://clinicaltrials.gov/study/NCT02699645) | Phase 3 | Abgeschlossen | 1671 | TRIDENT: Einzelpille mit drei niedrig dosierten Blutdrucksenkern (inkl. Telmisartan) zur Sekundärprävention nach intrazerebraler Blutung; Effekt nicht auf Telmisartan allein zurückführbar |
+| [NCT01075698](https://clinicaltrials.gov/study/NCT01075698) | Phase 4 | Abgeschlossen | 1228 | Telmisartan zur Prävention kardiovaskulärer Erkrankungen bei Hochrisiko-Hypertonikern (offene PROBE-Studie) |
+| [NCT03783754](https://clinicaltrials.gov/study/NCT03783754) | Nicht zutreffend | Abgebrochen | 4 | TRIDENT-MRT-Teilstudie; zu klein für Wirksamkeitsaussagen |
+| [NCT03785067](https://clinicaltrials.gov/study/NCT03785067) | Phase 3 | Abgebrochen | 1 | TRIDENT-Kognitions-Teilstudie; keine verwertbaren Daten |
 
 ---
 
-## Literaturedvidenz
+## Evidenz aus der Literatur
 
-| PMID | Jahr | Typ | Journal | Wichtigste Ergebnisse |
+Für Prinzmetal-Angina: Derzeit ist keine zugehörige Literatur verfügbar.
+
+**Ergänzend: Auswahl zu zerebraler Arterienokklusion und intrazerebraler Blutung**
+
+| PMID | Jahr | Typ | Journal | Kernaussagen |
 |------|-----|------|------|---------|
-| [21901125](https://pubmed.ncbi.nlm.nih.gov/21901125/) | 2011 | Übersicht/Tier | PLoS ONE | Head-to-head-Vergleich von Telmisartan vs. ramipril zur Schlaganfallprävention und Neuroprotection in Ratten-Schlaganfall-Modellen |
-| [19604102](https://pubmed.ncbi.nlm.nih.gov/19604102/) | 2009 | Tierstudie | J Neurotrauma | Telmisartan reduziert das Hirninfarktvolumen und peri-Infarkt-cPLA2-Spiegel in experimentellem Schlaganfall |
-| [24780412](https://pubmed.ncbi.nlm.nih.gov/24780412/) | 2014 | Tierstudie | J Stroke Cerebrovasc Dis | Reduziert progressiven oxidativen Stress und phosphorylierte α-Synuclein-Ansammlung nach tMCAO |
-| [32992165](https://pubmed.ncbi.nlm.nih.gov/32992165/) | 2020 | Tierstudie | J Stroke Cerebrovasc Dis | PPARγ-vermittelte Egr-1-Hemmung hilft bei Hirnverletzungen im ischämischen Schlaganfall-Modell |
-| [25245484](https://pubmed.ncbi.nlm.nih.gov/25245484/) | 2014 | Tierstudie | J Stroke Cerebrovasc Dis | Bessert entzündliche Reaktionen (MCP-1, TNF-α, Iba1) nach tMCAO |
-| [25307428](https://pubmed.ncbi.nlm.nih.gov/25307428/) | 2014 | Tierstudie | J Stroke Cerebrovasc Dis | Langzeitbesserung von Stoffwechsel-Syndrom-assoziierten Molekülen (IR, PPAR-γ, AT1R) nach tMCAO |
-| [20498620](https://pubmed.ncbi.nlm.nih.gov/20498620/) | 2010 | Tierstudie | J Hypertension | Geringe Dosis Telmisartan verhindert ischämische Hirnschäden über PPAR-γ-Aktivierung in diabetischen Mäusen |
-| [29241675](https://pubmed.ncbi.nlm.nih.gov/29241675/) | 2018 | Tierstudie | J Stroke Cerebrovasc Dis | Verhindert Lern-/Gedächtnisdefizite über PPAR-γ in MCAO-induzierter vaskulärer Demenz-Ratten |
-| [18360031](https://pubmed.ncbi.nlm.nih.gov/18360031/) | 2008 | Tierstudie | Hypertens Res | Vermindert fokale Hirnischämie in atherosclerotischen ApoE-defizienten Mäusen |
-| [41341617](https://pubmed.ncbi.nlm.nih.gov/41341617/) | 2025 | Tier/In silico | Toxicology Reports | Vermindert zerebrale Ischämie-Reperfusions-Neurotoxizität über Nrf2/HO-1-Pfad-Modulation |
+| [42019018](https://pubmed.ncbi.nlm.nih.gov/42019018/) | 2026 | RCT | N Engl J Med | Dreifach-Einzelpille mit niedrig dosierten Blutdrucksenkern nach intrazerebraler Blutung (TRIDENT) |
+| [34994269](https://pubmed.ncbi.nlm.nih.gov/34994269/) | 2022 | Studienprotokoll | Int J Stroke | Rationale und Design von TRIDENT |
+| [19604102](https://pubmed.ncbi.nlm.nih.gov/19604102/) | 2009 | Tierstudie | J Neurotrauma | Telmisartan verringert Infarktvolumen im Schlaganfallmodell der Ratte |
+| [21901125](https://pubmed.ncbi.nlm.nih.gov/21901125/) | 2011 | Tierstudie | PLoS One | Telmisartan, Ramipril und Kombination in Schlaganfallmodellen der Ratte |
+| [32992165](https://pubmed.ncbi.nlm.nih.gov/32992165/) | 2020 | Tierstudie | J Stroke Cerebrovasc Dis | PPARγ-Aktivierung durch Telmisartan hemmt Egr-1 und schützt vor Hirnschäden |
+| [24650592](https://pubmed.ncbi.nlm.nih.gov/24650592/) | 2014 | Tierstudie | Pharmacol Biochem Behav | Synergistische neuroprotektive Wirkung von Telmisartan und Nimodipin |
+| [17538008](https://pubmed.ncbi.nlm.nih.gov/17538008/) | 2007 | Tierstudie | J Pharmacol Exp Ther | AT1-Blockade mit Telmisartan verringert Apoptose und Entzündung bei intrazerebraler Blutung |
+| [27078703](https://pubmed.ncbi.nlm.nih.gov/27078703/) | 2016 | Tierstudie | Neurol Res | Telmisartan mildert oxidativen Stress und Vasospasmus nach Subarachnoidalblutung |
+
+Die Literatur zur zerebralen Arterienokklusion besteht überwiegend aus Tierdaten und ist daher nur indirekt aussagekräftig.
 
 ---
 
-## Informationen zum deutschen Markt
+## Marktinformationen Deutschland
 
-Telmisartan ist derzeit **nicht auf dem deutschen Markt zugelassen** — keine aktiven Marketingzulassungseinträge wurden in diesem Evidenzpaket gefunden (`total_licenses = 0`).
+Alle 13 Zulassungen sind erloschen; aktuell gültige Zulassungen liegen nicht vor. Es handelt sich um zentrale EU-Zulassungen (EMEA). Auswahl:
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000209 | Micardis | – | Hypertonie |
+| EMEA/H/C/000210 | Pritor | – | Hypertonie |
+| EMEA/H/C/000211 | Kinzalmono | – | Hypertonie |
+| EMEA/H/C/001224 | Twynsta | – | Hypertonie |
+| EMEA/H/C/002676 | Actelsar HCT | – | Essentielle Hypertonie |
 
 ---
 
-## Sicherheitsüberlegungen
+## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+- **Kontraindikationen laut Wissensgraph (TxGNN/PrimeKG, kein Packungsbeilagentext):** Leberversagen, Nierenerkrankung, Anurie, Pankreatitis, Lebererkrankung, Gallenblasenerkrankung, Cholestase, systemischer Lupus erythematodes, Kaliummangel, Diabetes mellitus, diabetische Ketoazidose, Hypotonie, Hyperparathyreoidismus, Gicht, Hyperkalzämie, Nephrokalzinose, Verschluss der Nierenarterie, hepatische Enzephalopathie u. a.
+- **Arzneimittelwechselwirkungen (100 erfasst):** Als **schwerwiegend (Major)** eingestuft sind u. a. Kaliumcitrat und Kaliumbikarbonat (Risiko einer Hyperkaliämie). Als mäßig (Moderate) eingestuft sind u. a. Kortikosteroide (Hydrocortison, Dexamethason, Betamethason, Budesonid, Triamcinolon), Acetylsalicylsäure, Morphin, Bupropion, SGLT2-Hemmer (Canagliflozin, Dapagliflozin, Empagliflozin), Exenatid, Insuline, Dronabinol sowie Abführmittel/Darmspüllösungen.
+- Für die Vorhersage „maligne renovaskuläre Hypertonie" besteht zusätzlich ein Sicherheitsbedenken (ARB-Risiko bei beidseitiger Nierenarterienstenose).
 
-Hinweis: Wichtige Warnungen, Kontraindikationen und DDI-Daten konnten für dieses Arzneimittel nicht abgerufen werden (Datenlücke DG001, markiert als **Blocking**). Diese Lücke verhindert eine vollständige S1-Sicherheitsbewertung und muss vor einer finalen Entwicklungsentscheidung gelöst werden.
+Bitte die Packungsbeilage für vollständige Warnhinweise und Kontraindikationen heranziehen.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Hold**
+**Entscheidung: Hold (Zurückstellen)**
 
 **Begründung:**
-- Die einzeln höchst bewertete Vorhersage des TxGNN-Modells (Prinzmetal-Angina) hat keine mechanistische oder empirische Unterstützung und wurde aus der Betrachtung ausgeschlossen. Der am besten evidenzgestützte gefundene Kandidat (zerebrale Arterienokklusion, L2) beruht auf einer abgeschlossenen Phase-4-Studie mit unklar definierten Telmisartan-spezifischen Beitrag plus zwei stark unterpowerte beendete Unterstudien (n=1, n=4).
-- Eine **Blocking**-Datenlücke (fehlende Kennzeichnungswarnungen/Kontraindikationen, DG001) verhindert eine Sicherheitsbewertung, und Telmisartan hat keine aktive Marketingzulassung in Deutschland, daher existiert derzeit kein regulatorischer Pfad zum Aufbau.
+- Für Prinzmetal-Angina existiert ausschließlich eine Modellvorhersage ohne Studien oder Publikationen (L5). Zudem gibt es in Deutschland derzeit keine gültige Zulassung.
+- Die aussichtsreicheren Kandidaten sind zerebrale Arterienokklusion (L4, überwiegend präklinisch) und intrazerebrale Blutung (TRIDENT-Phase-3-Studie, aber Kombinationstherapie, Beitrag von Telmisartan nicht isolierbar).
 
-**Um voranzuschreiten, wird Folgendes benötigt:**
-- Abrufen und Analyse der deutschen/EU-Produktkennzeichnung (SmPC) für Warnungen, Kontraindikationen und DDI (DG001 lösen)
-- Strukturierte MOA- und ursprüngliche Indikationsdaten von DrugBank abrufen (DG002 lösen)
-- Telmisartans spezifische Rolle und Dosierung innerhalb der TRIDENT-Kombinationspillen-Studie (NCT02699645) versus die anderen Komponenten der Pille klären
-- Regulatorischen Weg/Machbarkeit zur Erlangung einer deutschen Marketingzulassung bewerten, angesichts null aktueller Lizenzen
-- Falls der sekundäre Kandidat (intrazerebrale Hämorrhagie, L3) verfolgt wird, ähnlich Telmisartans unabhängigen Beitrag vom Kombinationstherapie-Design unterscheiden
-
+**Für ein Fortschreiten sind erforderlich:**
+- Wirkmechanismus-Daten (MOA) aus DrugBank
+- Warnhinweise und Kontraindikationen aus der BfArM-Packungsbeilage (derzeit blockierende Datenlücke für das Sicherheits-Screening)
+- Für Prinzmetal-Angina: Literaturrecherche und ggf. präklinische oder kleine klinische Studien zu Koronarspasmen
+- Für intrazerebrale Blutung: Auswertung der TRIDENT-Ergebnisse hinsichtlich des Telmisartan-Beitrags
+- Klärung des Zulassungsstatus (erloschene Zulassungen) und der Darreichungsformen
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -2,7 +2,7 @@
 layout: default
 title: Metreleptin
 parent: Nur Modellvorhersage (L5)
-nav_order: 254
+nav_order: 298
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,77 +29,77 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Metreleptin: Fehlende Daten zu Originalindikationen → Familiale verallgemeinerte Lentiginose (familiär generalisierte linsenförmige Flecken)
+# Metreleptin: Von familiärer partieller Lipodystrophie zu familiärer generalisierter Lentiginose
 
-## Einzeilenzusammenfassung
+## Zusammenfassung in einem Satz
 
-Metreleptin (DrugBank ID: DB09046) ist ein Leptinrezeptor-Agonist, aber dieses Evidence Pack bietet keine Daten zu seinen ursprünglichen zugelassenen Indikationen und zum detaillierten Wirkmechanismus. Das TxGNN-Modell listet **familiale verallgemeinerte Lentiginose** als die am höchsten bewertete vorhergesagte neue Indikation auf (Punktzahl: 99.71%), aber **es gibt derzeit keine klinischen Studien oder Literaturbelege**, was auf eine reine Modellvorhersage auf dieser Ebene hindeutet.
+Metreleptin ist ein rekombinantes Leptin-Analogon, das ursprünglich zur Behandlung der familiären partiellen Lipodystrophie eingesetzt wurde. Das TxGNN-Modell sagt voraus, dass es bei **familiärer generalisierter Lentiginose** wirksam sein könnte. Diese Vorhersage beruht jedoch ausschließlich auf dem Modell: Es liegen **keine klinischen Studien** und **keine Publikationen** vor.
 
----
+## Schnellübersicht
 
-## Überblick
-
-| Merkmal | Inhalt |
-|---------|--------|
-| Originalindikation | Daten fehlend (Evidence Pack nicht bereitgestellt, Lizenzen leer) |
-| Vorhergesagte neue Indikation | Familiale verallgemeinerte Lentiginose (familiär generalisierte linsenförmige Flecken) |
-| TxGNN Vorhersage-Score | 99.71% (Rang 3992) |
-| Evidenzstufe | L5 (reine Modellvorhersage, keine tatsächliche Forschung) |
-| Zulassungsstatus in Taiwan | Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Familiäre partielle Lipodystrophie |
+| Vorhergesagte neue Indikation | Familiäre generalisierte Lentiginose |
+| TxGNN-Vorhersagewert | 99,71 % |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
+| Anzahl der Zulassungen | 1 |
 | Empfohlene Entscheidung | Hold |
-
----
 
 ## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind keine detaillierten Wirkmechanismus-Daten für metreleptin verfügbar (original_moa ist eine Datenlücke). Nach verfügbaren Informationen ist metreleptin ein rekombinantes humanes Leptinanalogon, das auf den Leptinrezeptor wirkt und hauptsächlich bei leptinmangelbedingter Lipodystrophie eingesetzt wird. Jedoch stellt dieses Evidence Pack keinen offiziellen Zulassungstext für diese ursprüngliche Indikation zur Verfügung, daher kann sie in diesem Bericht nicht bestätigt und aufgelistet werden.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Metreleptin ein rekombinantes Leptin-Analogon ist, das am Leptin-Rezeptor wirkt. Bei Lipodystrophie gleicht es den Leptinmangel aus und verbessert die metabolische Kontrolle, insbesondere die Insulinresistenz.
 
-Die am höchsten bewertete vorhergesagte Indikation, familiale verallgemeinerte Lentiginose, gehört zum LEOPARD-/Noonan-Syndrom-Spektrum (RASopathie, pigmentierungsassoziiertes genetisches Syndrom) und **zeigt keine bekannten mechanistischen Zusammenhänge** mit dem Leptinsignalweg. Das Repurposing-Rationale im Evidence Pack macht auch deutlich, dass diese Punktzahl möglicherweise artifizielle Assoziationen widerspiegelt, die durch mangelnde Verfügbarkeit von Daten bei seltenen Krankheitsknoten im Wissensgraph entstehen, und nicht eine biologisch plausible Vorhersage darstellt.
+Für die vorhergesagte Indikation lässt sich kein plausibler mechanistischer Zusammenhang herleiten. Die Lentiginose ist eine Pigmentstörung ohne bekannte Beteiligung des Leptin-Signalwegs. Der hohe Vorhersagewert (0,997) spiegelt vermutlich Ähnlichkeiten im Wissensgraphen wider, nicht aber eine biologische Relevanz für Metreleptin. Das gilt auch für die übrigen Kandidaten unter den Top 10, darunter gastrokutanes Syndrom, Moynahan-Syndrom, Rhabdoidtumor, Akromelanose und Schwannom. Für alle liegen weder Studien noch Literatur vor.
 
-Eine weitere Überprüfung der Kandidatenindikationen in den Rängen 2–10 (gastrokutane Syndrome, Moynahan-Syndrom, rhabdoides Tumor, OPD-Weißlock-Syndrom, CAL-SCE-Syndrom, Acromelanose, LAAN-Syndrom, benigne Nebennierentumoren, periphere Nervenscheidentumoren) zeigt, dass diese alle extrem seltene genetische Syndrome oder Tumoren ohne etablierte Verbindungen zur Leptinphysiologie sind, und **keine einzige wird durch klinische Studien oder Literatur gestützt**. Die Evidenzstufen sind alle L5 und die Empfehlungen sind alle Hold. Insgesamt hat diese Charge von Vorhersagen derzeit nur explorative Natur und entbehrt der Evidenzbasis für den Eintritt in eine klinische Bewertung.
+Ein schwacher, indirekter Bezug besteht nur beim Syndrom aus Leukonychia totalis, Acanthosis-nigricans-ähnlichen Läsionen und abnormalem Haar (Rang 8): Acanthosis nigricans hängt mit Insulinresistenz zusammen, dem Bereich, in dem Metreleptin bei Lipodystrophie wirkt. Belege für ein Ansprechen fehlen jedoch.
 
----
+## Evidenz aus klinischen Studien
 
-## Klinische Studienevidenz
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
-Derzeit sind keine relevanten klinischen Studien registriert.
+## Literaturevidenz
 
----
+Derzeit liegt keine zugehörige Literatur vor.
 
-## Literaturbelege
+## Marktinformationen Deutschland
 
-Es ist derzeit keine relevante Literatur verfügbar.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/004218 | Myalepta (Chiesi Farmaceutici S.p.A.) | – | Familiäre partielle Lipodystrophie |
 
----
+Diese Zulassung ist als erloschen/aufgehoben geführt. Es gibt keine gültige Zulassung.
 
-## Taiwan-Marktzulassungsinformationen
+## Sicherheitsaspekte
 
-Metreleptin ist derzeit nicht auf dem taiwanischen Markt zugelassen und es liegen keine Zulassungsdaten vor.
+**Arzneimittelwechselwirkungen:** Die Abfrage wurde abgeschlossen und ergab 100 Wechselwirkungen. Die ersten 20 sind überwiegend als **moderat** eingestuft, darunter:
 
----
+- Abemaciclib, Acalabrutinib, Alpelisib, Avapritinib, Brigatinib, Cabozantinib, Capmatinib, Ceritinib
+- Fentanyl, Alfentanil, Benzhydrocodone, Butorphanol
+- Ethinylestradiol, Norethisteron, Desogestrel
+- Bictegravir, Buspiron, Cariprazin, Chlorpropamid
 
-## Sicherheitserwägungen
+Bortezomib ist als **geringfügig** (minor) eingestuft. Die vollständige Liste sollte vor einer weiteren Bewertung geprüft werden.
 
-Bitte konsultieren Sie die Fachinformation für Sicherheitsaspekte.
+**Onkologischer Hinweis:** Leptin wird in der Literatur allgemein mit Tumorwachstum und Proliferation in Verbindung gebracht. Besonders bei der Vorhersage zum Rhabdoidtumor spricht dies ohne unterstützende Daten gegen eine Anwendung.
 
-(Hinweis: BfArM Fachinformation Warnungen/Kontraindikationen-Daten sind eine **Blocking**-Datenlücke DG001 und wurden noch nicht beschafft; dies ist eine notwendige Voraussetzung, die vor Eintritt in die S1-Sicherheitsinitialbewertung erfüllt werden muss.)
-
----
+Weitere Sicherheitsinformationen entnehmen Sie bitte der Fachinformation.
 
 ## Fazit und nächste Schritte
 
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Evidenzstufen der zehn am höchsten bewerteten vorhergesagten Indikationen sind alle L5 (nur Modellpunkte, ohne klinische Studien oder Literaturbelege), und dem Arzneimittel selbst fehlen Originalindikationen, Wirkmechanismus und taiwanische Fachinformation-Sicherheitsdaten (einschließlich 1 Blocking-Datenlücke). Derzeit kann keine Sicherheitsinitialbewertung durchgeführt werden, daher wird Hold empfohlen.
+Die Vorhersagen stützen sich ausschließlich auf das TxGNN-Modell (Evidenzstufe L5) ohne klinische Studien, Literatur oder plausiblen Mechanismus. Zudem ist die Zulassung in Deutschland erloschen, und die Sicherheitsdaten der Fachinformation fehlen.
 
-**Um voranzufahren, müssen folgende Lücken geschlossen werden:**
-- BfArM Fachinformation Warnungen/Kontraindikationen-Daten (DG001, Blocking, benötigt PDF-Download und -Analyse der Fachinformation)
-- DrugBank MOA Detaildaten (DG002, benötigt Query der DrugBank-API)
-- Offizieller Originaltext für die zugelassenen Originalindikationen von metreleptin, um eine Basis für den mechanistischen Vergleich mit vorhergesagten Indikationen zu etablieren
-- Durchführung von ergänzenden Suchen in PubMed/ClinicalTrials.gov/ICTRP für die Kandidatenindikationen in den Rängen 1–3, um zu bestätigen, ob indirekte Nachweise existieren, die in der aktuellen Datenbank nicht erfasst sind
-
+**Für ein Weiterkommen erforderlich:**
+- Fachinformation (Warnhinweise und Kontraindikationen) von der BfArM-Website beschaffen und auswerten; ohne sie ist keine Sicherheitsprüfung möglich
+- Daten zum Wirkmechanismus aus DrugBank ergänzen
+- Systematische Literatur- und Studiensuche zur Leptin-Signalgebung bei den vorhergesagten Erkrankungen
+- Klärung des Zulassungsstatus und der Gründe für das Erlöschen der Zulassung
+- Prüfung der Anwendungswege (Applikationsweg) für die vorhergesagten Indikationen
+- Bei onkologischen Kandidaten (z. B. Rhabdoidtumor) vorab eine Sicherheitsbewertung zum wachstumsfördernden Potenzial von Leptin
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

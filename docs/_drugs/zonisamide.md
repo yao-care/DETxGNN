@@ -2,7 +2,7 @@
 layout: default
 title: Zonisamide
 parent: Nur Modellvorhersage (L5)
-nav_order: 435
+nav_order: 508
 evidence_level: L5
 indication_count: 10
 ---
@@ -31,75 +31,96 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 # Zonisamid: Von Epilepsie zu Tourette-Syndrom
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Zonisamid ist ein Antiepileptikum, das als Zusatztherapie für therapieresistente partielle Anfälle eingesetzt wird und durch Natrium-/Calciumkanalmodulation wirkt.
-> Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam für **Tourette-Syndrom** ist,
-> aber diese spezifische Vorhersage wird derzeit durch **0 klinische Studien** und **0 Publikationen** unterstützt — es handelt sich nur um eine mechanistische Hypothese.
+Zonisamid ist ein Antiepileptikum, das ursprünglich zur Behandlung von Epilepsie bzw. partiellen Epilepsien zugelassen wurde. Das TxGNN-Modell sagt voraus, dass es bei **Tourette-Syndrom** wirksam sein könnte. Für diese Vorhersage liegen jedoch **keine klinischen Studien** und **keine Publikationen** vor; sie beruht ausschließlich auf der Modellberechnung.
 
 ---
 
-## Schnellübersicht
+## Kurzüberblick
 
-| Element | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Epilepsie — Zusatztherapie bei partiellen Anfällen (hergeleitet aus Literaturangaben in diesem Paket; kein formaler Lizenztext verfügbar) |
+| Ursprüngliche Indikation | Epilepsie |
 | Vorhergesagte neue Indikation | Tourette-Syndrom |
-| TxGNN-Vorhersage-Score | 99.85% |
-| Evidenzlevel | L5 |
-| Marktstatus Deutschland | ✗ Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Zurückstellen |
+| TxGNN-Vorhersagewert | 99,85 % |
+| Evidenzniveau | L5 |
+| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
+| Anzahl der Zulassungen | 2 (beide erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage sinnvoll?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Wirkmechanismus-Daten nicht verfügbar (Datenlücke, DrugBank-Abfrage läuft). Basierend auf Informationen aus der eigenen Literatur des Evidenzpakets (z. B. PMID 16341290, 8831258) ist Zonisamid ein Breitspektrum-Antiepileptikum (1,2-Benzisoxazol-3-methansulfonamid) mit mehreren vorgeschlagenen Wirkmechanismen — Natrium-/T-Typ-Calciumkanalblockade und Modulation der Dopamin-/Serotonin-Freisetzung — das hauptsächlich als Zusatztherapie für partielle und generalisierte Anfälle verwendet wird.
+Für diesen Wirkstoff liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben zum Wirkmechanismus vor. Nach allgemeinem pharmakologischem Wissen blockiert Zonisamid spannungsabhängige Natrium- und T-Typ-Calciumkanäle und moduliert die dopaminerge und serotonerge Übertragung. Dies könnte einen Bezug zur Pathophysiologie von Tics haben.
 
-Die Begründung für eine Verbindung zum Tourette-Syndrom ist rein mechanistisch: Die schwache antidopaminerge Aktivität von Zonisamid und ihre Auswirkung auf die Monoamin-Freisetzung könnten theoretisch die Tic-Häufigkeit reduzieren, da eine dopaminerge Dysregulation bei Tic-Störungen eine Rolle spielt. Allerdings wurde dieser Zusammenhang nicht untersucht — es gibt keine registrierten klinischen Studien und keine veröffentlichte Literatur, die Zonisamid speziell beim Tourette-Syndrom bewertet. Dies platziert die Vorhersage auf der frühestmöglichen Evidenzstufe (L5 — nur Modellvorhersage), und sie sollte eher als Forschungshypothese denn als Repurposing-Signal betrachtet werden, das zur klinischen Bewertung bereit ist.
+Die Verbindung zwischen der ursprünglichen Indikation (Epilepsie) und dem Tourette-Syndrom ist allerdings indirekt: Beide sind neurologische Erkrankungen mit gestörter neuronaler Erregbarkeit. Ein direkter Wirksamkeitsbeleg fehlt.
+
+Zur Vorsicht mahnt zudem, dass eine pragmatische Übersichtsarbeit beschreibt, dass Antiepileptika selbst Tic-Störungen und Zwangsstörungen auslösen können (PMID 36005856). Die Vorhersage sollte daher als Hypothese betrachtet werden.
 
 ---
 
 ## Evidenz aus klinischen Studien
 
-Aktuell keine verwandten klinischen Studien registriert.
+Derzeit sind keine einschlägigen klinischen Studien für Tourette-Syndrom registriert.
 
 ---
 
-## Literaturnachweise
+## Evidenz aus der Literatur
 
-Aktuell keine verwandte Literatur verfügbar.
-
----
-
-## Informationen zum Markt Deutschland
-
-Keine Zulassungsunterlagen sind verfügbar — Zonisamid ist innerhalb dieses Evidenzpakets derzeit als **nicht vermarktet** in Deutschland aufgeführt (0 Lizenzen vorhanden).
+Derzeit liegt keine einschlägige Literatur zu Zonisamid beim Tourette-Syndrom vor.
 
 ---
 
-## Sicherheitserwägungen
+## Marktinformationen Deutschland
 
-Weitere Sicherheitsinformationen finden Sie in der Fachinformation.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/004127 | Zonisamide Viatris (zuvor Zonisamide Mylan) | – | Epilepsie |
+| EMEA/H/C/000577 | Zonegran | – | Partielle Epilepsien |
 
-*(Hinweis: TFDA-Warnhinweise/-Kontraindikationen und Arzneimittelwechselwirkungs-Daten sind derzeit als blockierende Datenlücke (DG001) gekennzeichnet, die eine vollständige S1-Sicherheitsbewertung für diesen Kandidaten verhindert.)*
+Beide Zulassungen sind erloschen; aktuell besteht keine gültige Zulassung.
 
 ---
 
-## Schlussfolgerung und Nächste Schritte
+## Sicherheitsaspekte
 
-**Entscheidung: Zurückstellen**
+- **Wechselwirkungen:** Für Zonisamid wurden 100 Wechselwirkungen erfasst. Als **schwerwiegend (Major)** eingestuft sind u. a. Methscopolamin, Metformin, Hyoscyamin, Atropin, Scopolamin, Glycopyrronium, Clidinium, Dicyclomin, Trospium, Mepenzolat und Propanthelin (überwiegend Anticholinergika). Als **moderat** eingestuft sind u. a. Aprepitant, Morphin, Dexamethason, Cimetidin, Clarithromycin, Dronabinol, Nabilon, Metoclopramid und Miconazol.
+- **Kontraindikationen laut Wissensgraph (keine Angaben aus dem Beipackzettel):** Im Wissensgraphen sind Kontraindikationen u. a. bei folgenden Erkrankungen verzeichnet:
+  - psychiatrische Erkrankungen (Angststörung, psychotische Störungen, Schizophrenie-ähnliche Störungen, schizoaffektive Störung, dysthyme Störung)
+  - Nieren- und Lebererkrankungen sowie Nephrolithiasis
+  - Erkrankungen der Gallenblase
+  - metabolische Azidose
+  - Agranulozytose und Neutropenie (einschließlich angeborener Formen)
+  - Durchfallerkrankungen
+
+  Diese Einträge stammen aus Graphverbindungen und nicht aus dem Fachinformationstext; sie sind klinisch zu verifizieren.
+- **Psychiatrische Risiken (Literatur):** Es gibt einen Fallbericht über Zonisamid-induzierte Manie (PMID 2109869).
+
+Die Warnhinweise und Kontraindikationen aus der Fachinformation sind nicht verfügbar. Bitte Fachinformation konsultieren.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Hold**
 
 **Begründung:**
-Der TxGNN-Score für das Tourette-Syndrom ist hoch, wird aber durch keine klinische Studie oder Literaturnachweise gestützt — die mechanistische Verbindung (Dopamin-/Serotonin-Modulation) ist spekulativ. Kombiniert mit den fehlenden TFDA-Sicherheitsdaten (blockierende Lücke) und dem aktuellen Status des Arzneimittels als nicht vermarktet in Deutschland gibt es keine ausreichende Grundlage, um diese spezifische Indikation über eine Forschungshypothese hinaus voranzutreiben.
+Die Vorhersage für das Tourette-Syndrom beruht allein auf dem Modellwert (Evidenzniveau L5). Es gibt weder Studien noch Publikationen, und die Literatur deutet auf ein mögliches Risiko für Tic-Störungen unter Antiepileptika hin. Zudem besteht in Deutschland derzeit keine gültige Zulassung.
 
-**Um voranzukommen, ist Folgendes erforderlich:**
-- Formale Wirkmechanismus-Bestätigung durch DrugBank (DG002)
-- TFDA-Warnhinweise/-Kontraindikationen zur Freigabe des S1-Sicherheits-Gates (DG001)
-- Zumindest präklinische oder Fallserien-Nachweise, die Zonisamid direkt bei Tic-Störungen untersuchen
-- Erwägen Sie eine Neupriorisierung: Dasselbe Evidenzpaket enthält zwei Kandidaten mit erheblich stärkeren Nachweisen — **Absenceepilepsie** (Rang 8, Evidenzlevel L1, „Mit Schutzmaßnahmen fortfahren", unterstützt durch eine abgeschlossene Phase 3 RCT n=583 und mehrere Kohortenstudien) und **Manie/gemischte bipolare Störung** (Rang 7, Evidenzlevel L2, „Forschungsfrage", unterstützt durch eine Placebo-kontrollierte RCT). Diese könnten kurzfristig bessere Repurposing-Möglichkeiten darstellen als das Tourette-Syndrom.
+**Für ein Weiterkommen sind erforderlich:**
+- Daten zum Wirkmechanismus (MOA) aus DrugBank
+- Fachinformation (Warnhinweise, Kontraindikationen) aus der BfArM-Quelle für die Sicherheitsprüfung
+- Präklinische Daten oder Fallserien zu Zonisamid bei Tic-Störungen
+- Bewertung des Risikos Tic-/Zwangsstörungen und Manie
+- Klärung des Zulassungsstatus in Deutschland
 
+---
+
+## Hinweis zu weiteren Vorhersagen
+
+Weitere vorhergesagte Indikationen haben ebenfalls nur begrenzte Evidenz. Die Methämoglobinämie-Vorhersagen sind mechanistisch nicht plausibel und wahrscheinlich Artefakte des Wissensgraphen. Bei der **Absence-Epilepsie** (L4) liegt eine starke mechanistische Plausibilität vor, doch handelt es sich um eine Erweiterung innerhalb der Epilepsie-Indikation und nicht um echtes Repurposing. Bei der **manischen bipolaren Störung** (L4) ist die Evidenz indirekt und widersprüchlich. Bei **Fibromyalgie** wurde die einzige registrierte Studie (NCT00259636) ohne Teilnehmer zurückgezogen.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

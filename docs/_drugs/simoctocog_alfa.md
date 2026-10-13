@@ -2,7 +2,7 @@
 layout: default
 title: Simoctocog Alfa
 parent: Nur Modellvorhersage (L5)
-nav_order: 365
+nav_order: 429
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,79 +29,98 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Simoctocog Alfa: Von Hämophilie A zur Pseudo-von-Willebrand-Krankheit
+# Simoctocog alfa: Von Hämophilie A zu Pseudo-von-Willebrand-Erkrankung
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Simoctocog alfa ist ein Präparat mit rekombinanter humaner Gerinnungsfaktor VIII (rFVIII), dessen etablierte therapeutische Klasse Hämophilie A ist.
-> Die am höchsten bewertete Vorhersage des TxGNN-Modells deutet auf die **Pseudo-von-Willebrand-Krankheit** hin,
-> aber diese Richtung wird derzeit durch **0 klinische Studien** und **0 Publikationen** unterstützt, und die eigene mechanistische Bewertung des Evidenzpakets spricht gegen biologische Plausibilität.
+Simoctocog alfa ist ein rekombinanter humaner Faktor VIII (B-Domänen-deletiert, aus einer humanen Zelllinie), der ursprünglich zur Behandlung der Hämophilie A zugelassen wurde.
+Das TxGNN-Modell sagt voraus, dass er bei der **Pseudo-von-Willebrand-Erkrankung** wirksam sein könnte (Score 99,997 %).
+Für diese Vorhersage liegen jedoch **keine klinischen Studien** und **keine Publikationen** vor; sie beruht ausschließlich auf einer Modellberechnung.
 
 ---
 
-## Schnellübersicht
+## Kurzüberblick
 
-| Element | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Hämophilie A (rFVIII-Ersatztherapie) – keine deutschen Lizenzdaten verfügbar, um genaue genehmigte Formulierung zu bestätigen |
-| Vorhergesagte neue Indikation | Pseudo-von-Willebrand-Krankheit |
-| TxGNN-Vorhersagepunktzahl | 99.997% |
-| Evidenzstufe | L5 (nur Modellvorhersage, keine unterstützenden Studien oder Literatur) |
-| Deutschland-Marktstatus | Nicht vermarktet |
-| Anzahl der Genehmigungen | 0 |
-| Empfohlene Entscheidung | Zurückstellen |
+| Ursprüngliche Indikation | Hämophilie A |
+| Vorhergesagte neue Indikation | Pseudo-von-Willebrand-Erkrankung |
+| TxGNN-Vorhersagewert | 99,997 % |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassungen (kein aktiver Marktstatus) |
+| Anzahl der Zulassungen | 2 (beide erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind keine detaillierten Wirkmechanismus-Daten für simoctocog alfa verfügbar (`original_moa: [Data Gap]`). Basierend auf bekannten Informationen in diesem Evidenzpaket (siehe Begründung des Kandidaten Rang 9) ist simoctocog alfa ein Präparat mit rekombinanter humaner Gerinnungsfaktor VIII (rFVIII), dessen etablierte Anwendung die Ersatztherapie bei Hämophilie A ist – eine Erkrankung, die durch absoluten oder relativen Mangel an Gerinnungsfaktor VIII verursacht wird.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Simoctocog alfa ersetzt als rekombinanter Faktor VIII den fehlenden Gerinnungsfaktor bei Hämophilie A. Seine Wirksamkeit bei dieser Erkrankung ist belegt.
 
-Die Pseudo-von-Willebrand-Krankheit (Pseudo-VWD) ist dagegen überhaupt kein Gerinnungsfaktormangel. Sie resultiert aus einer Gain-of-Function-Mutation im Thrombozyten-Glykoprotein-Ib-(GPIb)-Rezeptor, die dazu führt, dass Thrombozyten den Plasma-von-Willebrand-Faktor mit abnorm hoher Affinität binden. Die eigene Analyse der mechanistischen Verbindung des Evidenzpakets merkt ausdrücklich an, dass die rFVIII-Supplementation für diese Erkrankung „keine klare mechanistische Grundlage" hat, und wirft sogar ein **theoretisches Risiko** aus veränderten vWF/FVIII-Komplexwechselwirkungen im Plasma auf.
+Die Pseudo-von-Willebrand-Erkrankung (plättchentypische vWD) beruht dagegen auf einer Gain-of-Function-Veränderung des Plättchenrezeptors GPIb-alpha. Dadurch bindet dieser verstärkt an den von-Willebrand-Faktor (VWF), und hochmolekulare VWF-Multimere werden abgebaut. Der Defekt liegt in der Interaktion zwischen Plättchen und VWF, nicht in einem FVIII-Mangel. Der Zusammenhang ist daher nur spekulativ und indirekt: FVIII wird durch VWF stabilisiert, und die FVIII-Spiegel können sekundär erniedrigt sein.
 
-Zusammengefasst spiegelt der sehr hohe TxGNN-Score sehr wahrscheinlich die Komorbiditäts-Clusterung auf Graph-Ebene unter Blutungsstörungen im Wissensgraph wider, anstatt ein echtes mechanismusgesteuertes Signal zu sein. Unter den zehn bereitgestellten Kandidaten ist **Rang 9 („Hämophilie A mit vaskulärer Abnormität")** der einzige mit einer inhärent plausiblen mechanistischen Begründung, da er in FVIIIs bekanntes mechanistisches Wirkungsgebiet fällt – aber er hat ebenfalls bis heute keine unterstützenden Studien oder Literatur.
+Der hohe TxGNN-Wert ist eine rein rechnerische Vorhersage. Er spiegelt vermutlich die Nähe im Wissensgraphen innerhalb der Hämostase wider und keine nachgewiesene therapeutische Plausibilität.
 
----
+### Weitere vorhergesagte Indikationen (Rang 2–10)
 
-## Klinische Studienevidenz
-
-Derzeit keine verknüpften klinischen Studien registriert
-
----
-
-## Literaturbelege
-
-Derzeit keine verknüpfte Literatur verfügbar
-
----
-
-## Deutschland-Marktinformationen
-
-Dieses Produkt wird derzeit nicht in Deutschland vermarktet (`market_status: Not marketed`, `total_licenses: 0`). Es sind keine Zulassungsunterlagen zur Überprüfung verfügbar.
+| Rang | Erkrankung | TxGNN-Score | Mechanistische Einschätzung | Empfehlung |
+|---|---|---|---|---|
+| 2 | Primäre Plättchen-Freisetzungsstörung | 99,997 % | FVIII korrigiert keine intrinsischen Defekte der Plättchensekretion | Hold |
+| 3 | Glanzmann-Thrombasthenie | 99,995 % | Defekt von GPIIb/IIIa; Standard sind Plättchentransfusion oder rFVIIa; schwache Begründung | Hold |
+| 4 | Scott-Syndrom | 99,969 % | Theoretischer Bezug über den Tenase-Komplex, limitierend ist jedoch die Membranoberfläche, nicht die FVIII-Menge | Hold |
+| 5 | Erworbener Gerinnungsfaktormangel | 99,952 % | Mechanistisch am kohärentesten (z. B. erworbene Hämophilie A), aber Inhibitoren neutralisieren FVIII; Subtyp muss präzisiert werden | Forschungsfrage |
+| 6 | Blutungsneigung durch Kollagenrezeptor-Defekt | 99,921 % | Plättchenadhäsion betroffen; FVIII wirkt nicht auf diesen Weg | Hold |
+| 7 | Hämorrhagische Störung bei konstitutioneller Thrombozytopenie | 99,917 % | Ursache ist Plättchenmangel, kein FVIII-Mangel | Hold |
+| 8 | Fetale/neonatale alloimmune Thrombozytopenie | 99,845 % | Immunvermittelte Plättchenzerstörung; FVIII ohne Angriffspunkt | Hold |
+| 9 | Hämophilie A mit Gefäßanomalie | 99,779 % | Eng mit der Originalindikation verwandt, vermutlich eher Subtyp als echtes Repurposing | Forschungsfrage |
+| 10 | Thrombotisch-thrombozytopenische Purpura (TTP) | 99,724 % | ADAMTS13-Mangel; FVIII-Gabe könnte das Thromboserisiko erhöhen; potenzielles Sicherheitsproblem | Hold |
 
 ---
 
-## Sicherheitsüberlegungen
+## Klinische Evidenz
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
-
-*(Hinweis: `safety.key_warnings` und `safety.contraindications` sind beide als Datenlücken in diesem Evidenzpaket gekennzeichnet, und es wurden keine Arzneimittel-Wechselwirkungsunterlagen gefunden – `ddi.query_status: not_found`.)*
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Literaturevidenz
 
-**Entscheidung: Zurückstellen**
+Derzeit liegt keine zugehörige Literatur vor.
+
+---
+
+## Marktinformationen Deutschland
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/004459 | Vihuma | – | Hämophilie A |
+| EMEA/H/C/002813 | Nuwiq | – | Hämophilie A |
+
+Beide Zulassungen (Octapharma AB) sind erloschen bzw. widerrufen; derzeit gibt es keine gültige Zulassung.
+
+---
+
+## Sicherheitshinweise
+
+Bitte die Fachinformation für Sicherheitsangaben heranziehen. Für diesen Bericht liegen keine Daten zu Warnhinweisen, Gegenanzeigen oder Wechselwirkungen vor.
+
+Hinweis aus der mechanistischen Bewertung: Bei der TTP könnte eine Erhöhung der FVIII-Spiegel das prothrombotische Risiko theoretisch verstärken.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Hold**
 
 **Begründung:**
-Alle zehn vom TxGNN vorhergesagten Indikationen für simoctocog alfa befinden sich auf Evidenzstufe L5 – nur Modellvorhersage, ohne unterstützende klinische Studien oder Literatur insgesamt. Für den am höchsten bewerteten Kandidaten beschreibt die eigene Umwidmungsrationale des Arzneimittels die mechanistische Verbindung als fehlend oder sogar richtungsmäßig widersprüchlich, und eine kritische Sicherheitsdatenlücke (DG001, fehlende Warnhinweise/Kontraindikationen, Schweregrad: Blocking) verhindert jede S1-Sicherheitsvorabprüfung.
+Die Vorhersage beruht ausschließlich auf einem Modellwert (Evidenzstufe L5) ohne Studien oder Publikationen. Der Defekt der Pseudo-von-Willebrand-Erkrankung liegt in der Plättchen-VWF-Interaktion und nicht im FVIII-Mangel, und das Präparat hat in Deutschland keine gültige Zulassung mehr.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- Beheben Sie DG001 (Blocking): Besorgen und analysieren Sie die offizielle Packungsbeilage auf Warnhinweise/Kontraindikationen, bevor weitere Sicherheitsüberprüfungen durchgeführt werden können
-- Beheben Sie DG002: Beschaffen Sie detaillierte MOA-Dokumentation von DrugBank oder Herstellerquellen
-- Durchsuchen Sie klinische Studienregister (ClinicalTrials.gov, ICTRP) und Literaturdatenbanken speziell auf rFVIII-Verwendung bei Thrombozyten-Funktionsstörungen (Pseudo-VWD, Glanzmann-Thrombasthenie, Scott-Syndrom), um zu testen, ob das TxGNN-Signal irgendein reales investigatives Interesse widerspiegelt
-- Falls Sie einen Umwidmungskandidaten überhaupt verfolgen, priorisieren Sie die Neubewertung oder manuelle Überprüfung von **Rang 9 (Hämophilie A mit vaskulärer Abnormität)**, das sich in FVIIIs bekanntem mechanistischen Wirkungsgebiet befindet und leichter zu rechtfertigen ist als der aktuelle am höchsten bewertete Kandidat, trotz derzeit fehlender Studien-/Literaturunterstützung
-
+**Für ein Weiterkommen sind folgende Schritte nötig:**
+- Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen), da die Sicherheitsprüfung derzeit blockiert ist
+- Daten zum Wirkmechanismus (z. B. aus DrugBank)
+- Systematische Literaturrecherche und Prüfung von Studienregistern zur Pseudo-von-Willebrand-Erkrankung
+- Präzisierung der Kandidaten „erworbener Gerinnungsfaktormangel" (Subtyp) und „Hämophilie A mit Gefäßanomalie" (On-Label-Subtyp oder neue Indikation)
+- Klärung der Verfügbarkeit des Präparats, da alle Zulassungen erloschen sind
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

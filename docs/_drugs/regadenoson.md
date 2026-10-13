@@ -2,7 +2,7 @@
 layout: default
 title: Regadenoson
 parent: Nur Modellvorhersage (L5)
-nav_order: 331
+nav_order: 387
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,94 +29,98 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-# Regadenoson: Pharmakologisches Stressmittel — Repurposing-Bewertung unvollständig
+# Regadenoson: Von der Myokardperfusionsbildgebung zur Anaphylaxie
 
-Der Skill „txgnn-pipeline" deckt die Pipeline-Verwaltung ab und ändert nichts an der Aufgabe der Berichterstellung. Es wird mit dem Bewertungsbericht fortgefahren.
+## Zusammenfassung
 
----
-
-**Analyse des Evidence Packs:**
-
-| Feld | Wert |
-|---|---|
-| `predicted_indications` | **Leer** — keine TxGNN-Ausgabe |
-| `original_indications` | Leer |
-| `original_moa` | [Datenlücke] |
-| `taiwan_regulatory.market_status` | Nicht im Handel (0 Zulassungen) |
-| `safety` | Alle [Datenlücke] |
+Regadenoson ist ein selektiver A2A-Adenosinrezeptor-Agonist und wird als diagnostisches Mittel für die Myokardperfusionsbildgebung (MPI) eingesetzt.
+Das TxGNN-Modell sagt voraus, dass es bei **Anaphylaxie** wirksam sein könnte.
+Für diese Richtung liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor, die Vorhersage beruht allein auf dem Modell.
 
 ---
 
-Da `predicted_indications` leer ist, kann der Standardbericht im Format „From X → Y" nicht erstellt werden. Der nachstehende Bericht spiegelt den tatsächlichen Zustand des Packs mit einer **Zurückstellen**-Entscheidung wider.
-
----
-
-```markdown
-# Regadenoson: Pharmakologisches Stressmittel — Repurposing-Bewertung unvollständig
-
-## Ein-Satz-Zusammenfassung
-
-Regadenoson (Lexiscan®) ist ein selektiver Adenosin-A2A-Rezeptor-Agonist, der in den
-Vereinigten Staaten als pharmakologisches Stressmittel für die Myokardperfusionsszintigraphie
-(MPI) mittels Radionuklid zugelassen ist.
-Dieses Evidence Pack **enthält keine TxGNN-Repurposing-Vorhersagen** für Regadenoson, und
-das Arzneimittel ist **derzeit nicht in Taiwan im Handel**.
-Die Bewertung kann erst zu einer vollständigen Repurposing-Analyse fortschreiten, wenn die
-unten dokumentierten kritischen Datenlücken geschlossen sind.
-
-## Kurzübersicht
+## Schnellübersicht
 
 | Punkt | Inhalt |
-|------|---------|
-| Ursprüngliche Indikation | Pharmakologisches Stressmittel für die Myokardperfusionsszintigraphie (USA; in Taiwan nicht zugelassen) |
-| Vorhergesagte neue Indikation | Keine Vorhersage verfügbar |
-| TxGNN-Vorhersage-Score | N/A |
-| Evidenzgrad | L5 — Modellvorhersage fehlt; keine unterstützenden Studien im Pack |
-| Marktstatus Taiwan | ✗ Nicht im Handel (0 Zulassungen) |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | **Zurückstellen** |
+|------|------|
+| Ursprüngliche Indikation | Myokardperfusionsbildgebung |
+| Vorhergesagte neue Indikation | Anaphylaxie |
+| TxGNN-Vorhersagewert | 99,85 % |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
+| Anzahl der Zulassungen | 1 (davon 0 gültig) |
+| Empfohlene Entscheidung | Hold |
+
+---
+
+## Warum ist diese Vorhersage plausibel?
+
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Nach allgemeinem pharmakologischem Wissen ist Regadenoson ein selektiver Agonist des A2A-Adenosinrezeptors. Die Pharmakologiedaten zeigen zudem Bindung an die Rezeptoren A1, A2B und A3.
+
+Ein theoretischer Zusammenhang mit der Anaphylaxie ergibt sich daraus, dass die A2A-Aktivierung auf Mastzellen und anderen Immunzellen die Freisetzung von Entzündungsmediatoren dämpfen kann. Die Adenosin-Signalwege sind jedoch komplex: A2B- und A3-Rezeptoren können die Mastzell-Degranulation sogar fördern. Außerdem tragen Regadenoson-Produkte selbst Warnhinweise zu Überempfindlichkeit und Anaphylaxie als Nebenwirkung. Der hohe Vorhersagewert könnte daher eher das Nebenwirkungsprofil als einen therapeutischen Effekt widerspiegeln.
+
+Regadenoson ist zudem eine kurz wirksame Einzeldosis-Diagnostik und eignet sich wenig zur Vorbeugung episodischer, auslöserabhängiger Ereignisse. Der Zusammenhang zur ursprünglichen Indikation (Bildgebung) ist rein pharmakologisch-hypothetisch.
+
+**Weitere vorhergesagte Indikationen** (alle L5, ohne Studien oder Literatur, Empfehlung jeweils Hold):
+
+| Rang | Erkrankung | TxGNN-Wert | Einschätzung |
+|------|------|------|------|
+| 2 | Nahrungsabhängige belastungsinduzierte Anaphylaxie | 99,74 % | Gleiche theoretische A2A-Mastzell-Hypothese. Der Wert ist vermutlich durch die Ähnlichkeit zum übergeordneten Begriff Anaphylaxie erhöht. |
+| 3 | Esotropie | 99,12 % | Kein plausibler Mechanismus erkennbar, vermutlich ein Artefakt des Wissensgraphen. |
+| 4 | Pseudoallergie | 99,12 % | Spekulativ, da die Richtung der Wirkung auf Mastzellen unsicher ist. |
+
+---
+
+## Evidenz aus klinischen Studien
+
+Derzeit sind keine zugehörigen klinischen Studien registriert.
+
+---
+
+## Evidenz aus der Literatur
+
+Derzeit liegt keine zugehörige Literatur vor.
+
+---
+
+## Informationen zum Markt in Deutschland
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/001176 | Rapiscan (GE Healthcare AS) | – | Myokardperfusionsbildgebung |
+
+Diese Zulassung hat den Status „erloschen/widerrufen". Derzeit ist in den Daten keine gültige Zulassung verzeichnet.
+
+---
 
 ## Sicherheitshinweise
 
-Bitte entnehmen Sie die Sicherheitsinformationen der Packungsbeilage.
-
-## Fazit und nächste Schritte
-
-**Entscheidung: Zurückstellen**
-
-**Begründung:**
-Dieses Evidence Pack enthält keine TxGNN-Repurposing-Vorhersagen für Regadenoson, und
-sämtliche arzneimittelbezogenen Sicherheitsdaten (Warnhinweise, Kontraindikationen,
-Arzneimittelinteraktionen) fehlen, wodurch eine Repurposing-Bewertung in diesem Stadium
-nicht möglich ist.
-
-**Für die Weiterbearbeitung wird Folgendes benötigt:**
-
-- **TxGNN-Vorhersageergebnis** — die TxGNN-Pipeline mit Regadenoson als Eingabe erneut
-  ausführen, um mögliche Repurposing-Indikationen und Konfidenzwerte zu erhalten
-- **Wirkmechanismus (MOA)** — über die DrugBank-API (DB06213) abrufen; im Pack als
-  Schweregrad Hoch gekennzeichnet
-- **Sicherheitsdaten aus der taiwanesischen Packungsbeilage** — die TFDA-Packungsbeilage
-  (PDF) herunterladen und auswerten, um Warnhinweise und Kontraindikationen zu extrahieren
-  (als Blockierend gekennzeichnet)
-- **Arzneimittel-Interaktionsprofil** — die DDI-Abfrage ergab `not_found`; eine gezielte
-  Literaturrecherche oder eine DrugBank-DDI-Abfrage wird empfohlen
-- **Bestätigung der ursprünglichen Indikation** — das Feld `original_indications` ist leer;
-  die zugelassene(n) Indikation(en) anhand der maßgeblichen Fachinformation (FDA:
-  MPI-Stresstest) bestätigen und das Evidence Pack vor erneuter Einreichung vervollständigen
-```
+- **Kontraindikationen laut Wissensgraph** (aus Arzneimittel-Krankheits-Beziehungen des TxGNN-Wissensgraphen, nicht aus Packungsbeilagen): Dazu zählen unter anderem
+  - Atemwegserkrankungen: Asthma (einschließlich allergisches und intrinsisches Asthma), COPD, Bronchialerkrankungen;
+  - Erregungsleitungsstörungen: AV-Block, Sick-Sinus-Syndrom;
+  - Herzklappen und Perikard: Aortenstenose, Mitralklappenstenose, Perikarditis, Perikarderguss;
+  - Gefäß- und Durchblutungsstörungen: koronare Herzkrankheit, Karotisstenose, transitorische ischämische Attacke, vertebrobasiläre Insuffizienz;
+  - Blutdruck: Hypertonie, Hypotonie;
+  - Weitere: Epilepsie, Erkrankungen des autonomen Nervensystems, Horner-Syndrom.
+- **Wechselwirkungen** (10 Einträge, davon 6 mit Schweregrad „mäßig"): Coffein, Dipyridamol, Dyphyllin, Theophyllin, Aminophyllin und Oxtriphyllin. Methylxanthine wie Coffein und Theophyllin sind Adenosinrezeptor-Antagonisten und können die Wirkung von Regadenoson abschwächen. Dipyridamol kann die Adenosinwirkung verstärken. Weitere Einträge betreffen die Bindung an die Adenosinrezeptoren A1, A2A, A2B und A3.
+- Für Anaphylaxie und Überempfindlichkeit als Nebenwirkung des Arzneimittels liegen Hinweise vor (siehe oben). Weitere Angaben zu Warnhinweisen und Kontraindikationen aus der Packungsbeilage sind nicht verfügbar. Bitte die Fachinformation heranziehen.
 
 ---
 
-**Anmerkung zum Bericht:**
+## Fazit und nächste Schritte
 
-Dieses Evidence Pack (`TW-DB06213-multi v4`) weist zwei zentrale Lücken auf:
+**Entscheidung: Hold**
 
-1. **`predicted_indications` ist ein leeres Array** — TxGNN hat noch keine Vorhersage für Regadenoson erzeugt, sodass das Standardformat „From X to Y" nicht angewendet werden kann.
-2. **Alle Sicherheitsfelder sind als [Datenlücke] markiert** — TFDA-Warnhinweise/Kontraindikationen (DG001, Blockierend) wurden noch nicht eingetragen.
+**Begründung:**
+Die Vorhersagen beruhen ausschließlich auf dem Modell (L5), ohne klinische Studien oder Publikationen. Der Wirkmechanismus ist bei Anaphylaxie widersprüchlich (A2A schützend, A2B/A3 fördernd), und das Arzneimittel selbst kann Anaphylaxie auslösen. Zudem besteht in Deutschland derzeit keine gültige Zulassung.
 
-Gemäß der Berichtsregel „Abschnitte nur bei vorhandenen Daten aufführen" wurden folgende Abschnitte weggelassen: klinische Studienevidenz, Literaturevidenz, Marktinformationen Taiwan (0 Zulassungen), Zytotoxizität (kein Onkologikum). Es wird empfohlen, die oben genannten Lücken zu schließen und das Evidence Pack erneut einzureichen, bevor die formale Bewertung durchgeführt wird.
-
+**Für ein Weiterkommen ist Folgendes erforderlich:**
+- Daten zum Wirkmechanismus (MOA) aus DrugBank
+- Warnhinweise und Kontraindikationen aus der Packungsbeilage von BfArM bzw. EMA (blockierend für die Sicherheitsprüfung)
+- Prüfung, ob die Vorhersage lediglich das Nebenwirkungsprofil abbildet
+- Präklinische Daten zur Wirkung von A2A-Agonisten auf Mastzellen und in Anaphylaxie-Modellen
+- Klärung der Eignung von Darreichungsweg und Einzeldosis-Anwendung für die vorgeschlagene Indikation
+- Klärung des Zulassungsstatus und der Verfügbarkeit in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

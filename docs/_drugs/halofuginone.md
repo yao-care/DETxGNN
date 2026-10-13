@@ -2,7 +2,7 @@
 layout: default
 title: Halofuginone
 parent: Nur Modellvorhersage (L5)
-nav_order: 187
+nav_order: 221
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,76 +29,78 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Halofuginon: Von unbekannter Indikation zur diabetischen Retinopathie
+# Halofuginon: Von einer nicht dokumentierten Indikation zur diabetischen Retinopathie
 
 ## Zusammenfassung in einem Satz
 
-Halofuginon ist ein Febrifugin-Derivat, für das derzeit keine Daten über zugelassene Indikationen vorliegen und das in Deutschland nicht auf dem Markt ist. Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam gegen **schwere nonproliferative diabetische Retinopathie** und **diabetische Retinopathie** sein könnte, aber diese Vorhersage wird derzeit durch **keine klinischen Studien und keine veröffentlichte Literatur** gestützt – sie beruht vollständig auf theoretischen mechanistischen Überlegungen.
+Für Halofuginon liegt in den für diesen Bericht zusammengestellten Daten keine dokumentierte ursprüngliche Indikation vor; die beiden Zulassungen sind in Deutschland erloschen bzw. storniert. Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **schwerer nichtproliferativer diabetischer Retinopathie** (Score 99,46 %) sowie bei **diabetischer Retinopathie** (Score 99,04 %) voraus. Es liegen jedoch **keine klinischen Studien** und **keine Publikationen** vor, die diese Richtung stützen.
 
 ---
 
-## Schnelläbersicht
+## Kurzüberblick
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Nicht verfügbar (keine zugelassenen Indikationen auf Akte) |
-| Vorhergesagte neue Indikation | Schwere nonproliferative diabetische Retinopathie |
-| TxGNN-Vorhersage-Score | 99.46% |
-| Evidenzstufe | L5 |
-| MarktStatus Deutschland | Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Halten |
-
----
-
-## Warum ist diese Vorhersage sinnvoll?
-
-Detaillierte Daten zum Wirkmechanismus sind derzeit nicht in strukturierter Form verfügbar (Datenlücke). Basierend auf bekannter Pharmakologie ist Halofuginon jedoch ein Febrifugin-Derivat, das bekanntermaßen (1) die Synthese von Typ-I-Kollagen inhibiert und die TGF-β/Smad3-Signalisierung blockiert, was ihm antifibrotische Aktivität verleiht, die historisch bei fibrotischen Erkrankungen wie Sklerodermie untersucht wurde; (2) antiangiogene Aktivität zeigt; und (3) die Prolyl-tRNA-Synthetase inhibiert, was eine Aminosäure-Mangelreaktion auslöst, die die Th17-Differenzierung und Entzündung moduliert.
-
-Die diabetische Retinopathie – besonders im Stadium der schweren nonproliferativen Retinopathie – beinhaltet die von TGF-β getriebene Ansammlung der extrazellulären Matrix, fibrovvaskuläre Proliferation und entzündliche Signalwege. Es gibt eine theoretische Überlappung zwischen diesen Krankheitsmechanismen und den bekannten antifibrotischen und antiangiogenen Eigenschaften von Halofuginon, was wahrscheinlich der Grund dafür ist, dass TxGNN einen hohen Vorhersage-Score zugewiesen hat.
-
-Diese mechanistische Überlappung bleibt rein theoretisch. Es liegt keine ursprüngliche Indikation vor, um eine Umwidmungsbegründung zu verankern, das Arzneimittel ist nirgendwo vermarktet, das in diesem Evidenzpaket genannt wird, und es gibt keine klinischen oder präklinischen Belege, die Halofuginon direkt mit diabetischer Retinopathie verbinden. Die Vorhersage sollte nur als hypothesengenerierendes Signal behandelt werden.
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Nicht verfügbar (in den Zulassungsdaten keine Indikationstexte hinterlegt) |
+| Vorhergesagte neue Indikation | Schwere nichtproliferative diabetische Retinopathie |
+| TxGNN-Vorhersagewert | 99,46 % |
+| Evidenzlevel | L5 |
+| Marktstatus in Deutschland | Nur erloschene/stornierte Zulassungen |
+| Anzahl der Zulassungen | 2 (beide storniert) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Klinische Studienbelege
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind keine verwandten klinischen Studien registriert.
+Zum Wirkmechanismus liegen in den zusammengestellten Daten keine Angaben vor. Aus allgemeinem Fachwissen (nicht durch die vorliegenden Daten belegt) gilt Halofuginon als Inhibitor der Prolyl-tRNA-Synthetase. Es unterdrückt die TGF-β/Smad3-Signalübertragung, die Kollagen-Typ-I-Synthese und die Th17-Differenzierung.
 
----
+Diese Eigenschaften könnten mechanistisch zu fibrovaskulärer Proliferation und Entzündungsprozessen bei diabetischer Retinopathie passen. Die schwere nichtproliferative Retinopathie ist ein Vorstadium der proliferativen Form, sodass ein antifibrotischer oder antiangiogener Ansatz denkbar wäre. Dies ist jedoch eine Hypothese und bedarf einer präklinischen Validierung.
 
-## Literaturbeweis
-
-Derzeit ist keine verwandte Literatur verfügbar.
+Die zweite Vorhersage (diabetische Retinopathie allgemein) überschneidet sich stark mit der ersten und geht wahrscheinlich auf dasselbe Modellsignal zurück. Sie ist daher keine unabhängige Bestätigung. Der hohe TxGNN-Wert ist eine rechnerische Vorhersage und kein Wirksamkeitsnachweis.
 
 ---
 
-## Marktinformationen für Deutschland
+## Klinische Evidenz
 
-Halofuginon hat keine Marktzulassungen auf Akte (0 Zulassungen, nicht vermarktet).
+Derzeit sind keine zugehörigen klinischen Studien registriert.
+
+---
+
+## Literaturevidenz
+
+Derzeit liegt keine zugehörige Literatur vor.
+
+---
+
+## Marktinformationen Deutschland
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/V/C/000040 | Halocur | – | – (storniert) |
+| EMEA/V/C/004868 | Kriptazen | – | – (storniert) |
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie den Packungszettel für Sicherheitsinformationen. Detaillierte Warnungen, Kontraindikationen und Arzneimittelwechselwirkungsdaten sind derzeit für diese Verbindung nicht verfügbar (als Datenlücke in der Quellevidenz gekennzeichnet, klassifiziert als Blocking-Schweregrad – dies muss behoben werden, bevor eine Sicherheitsbewertung durchgeführt werden kann).
+Informationen zur Sicherheit entnehmen Sie bitte der Packungsbeilage. Für Wechselwirkungen wurden in den zusammengestellten Daten keine Einträge gefunden. Daten zur retinalen Sicherheit oder zur okulären Applikation liegen nicht vor.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Halten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Diese Vorhersage basiert ausschließlich auf der Modellausgabe von TxGNN (L5, keine unterstützenden klinischen oder Literaturevidenzen) für ein Arzneimittel, das keine dokumentierte ursprüngliche Indikation, keine Marktpräsenz und keine verfügbaren Sicherheitsdaten hat – keine der Mindestanforderungen für auch nur eine vorläufige Sicherheitsbewertung sind erfüllt.
+Die Vorhersage beruht ausschließlich auf einem Computermodell, ohne klinische oder literaturbasierte Evidenz (Evidenzlevel L5). Zudem sind die Zulassungen storniert, und Mechanismus- sowie Sicherheitsdaten fehlen.
 
-**Um fortzufahren, wird folgendes benötigt:**
-- TFDA/Behördenetikettdaten – Warnungen, Kontraindikationen (derzeit Blocking-Datenlücke)
-- Bestätigter Wirkmechanismus aus DrugBank oder Primärliteratur
-- Bestätigung der ursprünglichen zugelassenen Indikation(en), falls solche in anderen Rechtsprechungen vorhanden sind
-- Präklinische oder klinische Belege, die Halofuginon spezifisch mit diabetischer Retinopathie oder verwandter fibrovvaskulärer/okulärer Pathologie verbinden
-- Grundlegende humane pharmakokinetische und Sicherheitsdaten, da das Arzneimittel derzeit nicht vermarktet wird
-
+**Für ein Fortschreiten sind folgende Schritte erforderlich:**
+- Systematische Literaturrecherche, um möglicherweise übersehene Evidenz auszuschließen
+- Präklinische Validierung in In-vitro- und In-vivo-Netzhautmodellen
+- Bewertung der okulären Sicherheit und der Applikationswege
+- Vollständige Mechanismusdaten (MOA), z. B. über DrugBank
+- Warnhinweise und Gegenanzeigen aus der Packungsbeilage (BfArM)
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

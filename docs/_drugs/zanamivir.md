@@ -2,7 +2,7 @@
 layout: default
 title: Zanamivir
 parent: Nur Modellvorhersage (L5)
-nav_order: 431
+nav_order: 504
 evidence_level: L5
 indication_count: 2
 ---
@@ -31,74 +31,87 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 # Zanamivir: Von Influenza zu Pyelonephritis
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Zanamivir ist ein Neuraminidase-Inhibitor, der ursprünglich zur Behandlung von Influenza A/B entwickelt wurde und durch Hemmung des viralen Oberflächenenzyms wirkt, das für die Virionfreisetzung erforderlich ist.
-> Das TxGNN-Modell sagt eine mögliche Wirksamkeit gegen **Pyelonephritis** voraus, aber derzeit unterstützen **0 klinische Studien** und **0 Publikationen** diese spezifische Verbindung, und die mechanistische Analyse des Evidenzpakets kennzeichnet die Vorhersage als wahrscheinlich falsch-positiv.
+Zanamivir ist ein Neuraminidase-Hemmer, der ursprünglich zur Behandlung der humanen Influenza eingesetzt wurde. Das TxGNN-Modell sagt voraus, dass es bei **Pyelonephritis** wirksam sein könnte. Dafür liegen jedoch **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage stützt sich allein auf den Modellscore.
 
 ---
 
-## Schnellübersicht
+## Kurzüberblick
 
-| Eintrag | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Influenza (Neuraminidase-Inhibitor; keine formale Lizensierungsdokumentation verfügbar – Arzneimittel nicht in Deutschland im Handel) |
+| Ursprüngliche Indikation | Influenza (humane Influenza) |
 | Vorhergesagte neue Indikation | Pyelonephritis |
-| TxGNN-Vorhersage-Score | 99.84% |
-| Evidenzstufe | L5 (nur Modellvorhersage, keine unterstützenden Studien) |
-| Marktstatus Deutschland | Nicht im Handel |
-| Zulassungsanzahl | 0 |
-| Empfohlene Entscheidung | Abwarten |
+| TxGNN-Vorhersagescore | 99,84 % |
+| Evidenzlevel | L5 |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
+| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 aufgehoben) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Warum ist diese Vorhersage (nicht) plausibel?
 
-Detaillierte Wirkmechanismus-Daten aus DrugBank sind für diesen Kandidaten nicht verfügbar (markiert als Datenlücke mit hohem Schweregrad). Die Begründung zur Arzneimittelumwidmung im Evidenzpaket bestätigt jedoch, dass Zanamivir ausschließlich als Neuraminidase-Inhibitor gegen das Oberflächenglykoprotein des Influenzavirus wirkt – es hat keinerlei antibakterielle Aktivität.
+Zu Zanamivir liegen in den für diesen Bericht zusammengestellten Daten derzeit keine detaillierten Angaben zum Wirkmechanismus vor. Bekannt ist, dass Zanamivir ein viraler Neuraminidase-Hemmer ist, dessen Wirksamkeit bei Influenza belegt ist.
 
-Pyelonephritis ist eine Infektion der oberen Harnwege durch Bakterien, verursacht am häufigsten durch gramnegative Organismen wie *E. coli*. Es gibt keine bekannte pharmakologische Überschneidung zwischen viraler Neuraminidase-Inhibition und der Pathogenese der bakteriellen Pyelonephritis. Das Evidenzpaket selbst besagt, dass der hohe TxGNN-Score wahrscheinlich ein **semantisches Nähe-Artefakt im Wissensgraph** widerspiegelt (beide Indikationen sind breit mit „Infektion" verknüpft), anstatt einer echten mechanistischen Beziehung.
+Pyelonephritis ist dagegen überwiegend eine bakterielle Infektion der Niere, meist durch *E. coli*. Ein plausibler Mechanismus, der beide Erkrankungen verbindet, ist nicht erkennbar. Bakterielle Neuraminidasen (Sialidasen) werden zwar gelegentlich als Virulenzfaktoren diskutiert, für Zanamivir ist aber keine etablierte Wirkung gegen sie bei Harnwegsinfektionen belegt.
 
-Eine zweite, niedriger eingestufte Vorhersage („Störung des Tyrosin-Stoffwechsels", Score 99.02%) zeigt das gleiche Muster: die einzige unterstützende Literatur erörtert die H274Y/H275Y-Neuraminidase-Resistenzmutation, bei der eine Histidin→Tyrosin-Aminosäure-Substitution vorliegt – eine zufällige Namensähnlichkeit, keine Verbindung zu vererbten Tyrosin-Stoffwechselstörungen (z.B. Tyrosinämie). Keine der beiden Vorhersagen hat derzeit eine glaubwürdige mechanistische oder klinische Grundlage.
-
----
-
-## Klinische Studienevidenz
-
-Derzeit sind keine entsprechenden klinischen Studien registriert.
+Die Vorhersage ist daher vermutlich ein Artefakt des Wissensgraphen, das auf der gemeinsamen Kategorie „Infektion“ beruht und nicht auf einem biologischen Zusammenhang.
 
 ---
 
-## Literaturevidenz
+## Evidenz aus klinischen Studien
 
-Derzeit ist keine entsprechende Literatur verfügbar.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Marktinformation Deutschland
+## Evidenz aus der Literatur
 
-Zanamivir ist derzeit **nicht im Handel** in Deutschland, und keine Zulassungsunterlagen (BfArM-Lizenznummern, Produktnamen oder genehmigte Indikationstexte) sind in der Datenbank verfügbar.
+Derzeit ist keine zugehörige Literatur verfügbar.
+
+---
+
+## Informationen zum Markt in Deutschland
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/004102 | Dectova | – | Influenza (humane Influenza) |
+
+Diese Zulassung ist aufgehoben (Status: cancelled), der Hersteller ist GlaxoSmithKline Trading Services Limited.
 
 ---
 
 ## Sicherheitsaspekte
 
-Für Sicherheitsinformationen wird auf die Fachinformation verwiesen.
+- **Kontraindikationen aus dem Wissensgraphen (kein Packungsbeilagentext):** Im TxGNN-Wissensgraphen (PrimeKG) sind Kontraindikationskanten zu folgenden Erkrankungen hinterlegt: Epilepsie, chronisch obstruktive Lungenerkrankung (COPD), schwere früh beginnende COPD, Bronchialerkrankungen und Delir.
+- **Arzneimittelwechselwirkungen:** Es wurden 8 Wechselwirkungen gefunden (Quelle: DDInter).
+  - Moderat: Insulin human (inhalativ, schnell wirksam)
+  - Schweregrad unbekannt: Clarithromycin, Loratadin, Montelukast, Ketotifen, Fexofenadin, Ibuprofen, Diclofenac
+
+Für weitere Sicherheitsinformationen, insbesondere Warnhinweise und Gegenanzeigen, ist die Packungsbeilage bzw. Fachinformation heranzuziehen.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Abwarten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die beste Vorhersage (Pyelonephritis) hat null unterstützende klinische Studien oder Literatur, und die mechanistische Analyse des Evidenzpakets bewertet die Arzneimittel-Krankheits-Verbindung als biologisch implausibel und wahrscheinlich ein Wissensgraph-Artefakt anstatt eines echten pharmakologischen Signals. Die Evidenzstufe ist L5, die niedrigste Stufe (nur Modellvorhersage).
+Die Vorhersage beruht ausschließlich auf einem hohen Modellscore (Evidenzlevel L5), ohne klinische Studien und ohne Literatur. Es gibt keinen plausiblen Wirkmechanismus zwischen einem viralen Neuraminidase-Hemmer und einer überwiegend bakteriellen Nierenentzündung. Zudem besteht in Deutschland derzeit keine gültige Zulassung.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- Behebung der blockierenden Datenlücke (DG001): TFDA/BfArM-Fachinformations-Warnungen und Kontraindikationen, erforderlich vor jeglicher S1-Sicherheitsvorabprüfung
-- Bestätigte Wirkmechanismus-Daten aus DrugBank (DG002)
-- Unabhängige pharmakologische oder präklinische Begründung, die Neuraminidase-Inhibition mit bakterieller Pyelonephritis verbindet, falls dieser Kandidat weiter verfolgt werden soll
-- Neubewertung der TxGNN-Scoring-Methodik, um potenzielle semantische-Nähe-Falsch-Positive bei infektionsbezogenen Indikationen zu adressieren
+**Für ein Weiterverfolgen sind folgende Punkte erforderlich:**
+- Belastbare Daten zum Wirkmechanismus (MOA) von Zanamivir
+- Präklinische Belege für eine Wirkung gegen Erreger der Pyelonephritis (z. B. bakterielle Sialidasen)
+- Auswertung der Warnhinweise und Gegenanzeigen aus der Fachinformation, da diese Daten fehlen und ein Sicherheits-Screening bislang nicht möglich ist
+- Klärung der Verfügbarkeit und Darreichungsform, da die einzige deutsche Zulassung aufgehoben ist
 
+---
+
+## Anhang: Zweite Vorhersage (kurz bewertet)
+
+Die zweitplatzierte Vorhersage, **Störung des Tyrosinstoffwechsels** (TxGNN-Score 99,02 %), ist ebenfalls nicht belegt (Evidenzlevel L5, Entscheidung: Hold). Die drei aufgefundenen Publikationen betreffen ausschließlich Neuraminidase-Hemmer bei Influenza (Oseltamivir-Resistenz, ein Messverfahren zur Neuraminidase-Hemmung, die N294S-Mutation) und nicht den Tyrosinstoffwechsel. Die Treffer dürften auf Stichwortüberschneidungen beruhen, etwa durch Aminosäurebegriffe. Es gibt keine bekannte Verbindung zwischen Tyrosinstoffwechselstörungen und der Neuraminidase-Hemmung.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

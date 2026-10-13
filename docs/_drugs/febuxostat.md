@@ -2,7 +2,7 @@
 layout: default
 title: Febuxostat
 parent: Mittlere Evidenz (L3-L4)
-nav_order: 163
+nav_order: 190
 evidence_level: L4
 indication_count: 3
 ---
@@ -29,80 +29,92 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Febuxostat: Von Hyperurikämie/Gicht zu Nierenhypourikämie-bezogener Nierenschädigung
+# Febuxostat: Von Gicht zu renaler Hypourikämie
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Febuxostat ist ein nicht-purinselektiver Xanthinoxidase-(XO-)Hemmer, klinisch etabliert zur Senkung der Harnsäure bei Hyperurikämie und Gicht (diese ursprüngliche Indikation ist nicht selbst im Evidenzpaket erfasst, aber in allgemeinen Arzneimittelreferenzen gut dokumentiert). Das TxGNN-Modell sagt eine neue Anwendung in **Nierenhypourikämie** voraus (eine genetische Uratransporter-Störung, die mit belastungsinduzierter akuter Nierenverletzung verbunden ist), mit der stärksten unterstützenden Evidenz von **1 klinischer Studie** und **2 Publikationen**, von denen eine direkt über die Febuxostat-Verwendung in diesem genauen Zustand berichtet.
+Febuxostat ist ein nicht-purinerger, selektiver Xanthinoxidase-Hemmer, der ursprünglich zur Behandlung von Gicht und Hyperurikämie zugelassen wurde. Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **renaler Hypourikämie** voraus. Dafür liegen jedoch nur **1 klinische Studie** (mit geringer Relevanz) und **2 Publikationen** vor. Die Vorhersage ist mechanistisch kaum plausibel (siehe unten).
 
 ---
 
 ## Schnellübersicht
 
-| Posten | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Im Evidenzpaket nicht vorgesehen. Febuxostat ist allgemein als Xanthinoxidase-Hemmer bekannt, der für Hyperurikämie/Gicht verwendet wird. |
-| Vorhergesagte neue Indikation | Nierenhypourikämie (Hypourikämie, renal) |
-| TxGNN-Vorhersage-Score | 99.99% |
-| Evidenzebene | L4 |
-| Marktstatus Deutschland | ✗ Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Halten |
+| Ursprüngliche Indikation | Gicht |
+| Vorhergesagte neue Indikation | Renale Hypourikämie |
+| TxGNN-Vorhersagewert | 99,99 % |
+| Evidenzstufe | L4 |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen |
+| Anzahl der Zulassungen | 3 (alle aufgehoben) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Warum ist diese Vorhersage (nicht) plausibel?
 
-Derzeit sind detaillierte Daten zum Wirkmechanismus nicht im Evidenzpaket verfügbar. Basierend auf bekannten Informationen ist Febuxostat ein nicht-purinselektiver Xanthinoxidase-Hemmer, ursprünglich entwickelt, um die Harnsäureproduktion bei Hyperurikämie und Gicht zu reduzieren, indem die Umwandlung von Hypoxanthin → Xanthin → Harnsäure blockiert wird.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Febuxostat hemmt selektiv die Xanthinoxidase und senkt dadurch die Harnsäurebildung. Seine Wirksamkeit bei Gicht und Hyperurikämie ist belegt.
 
-Nierenhypourikämie (RHUC) ist eine genetische Störung von Uratransportern (URAT1/GLUT9), die zu übermäßiger renaler Uratausscheidung und abnorm niedriger Serum-Harnsäure führt. Patienten mit RHUC sind anfällig für belastungsinduzierte akute Nierenverletzung (EIAKI), von der angenommen wird, dass sie durch oxidativen Stress resultiert, der durch Xanthinoxidase-Aktivität während des Purinabbaus zum Zeitpunkt intensiver Uratausscheidung erzeugt wird – nicht durch den niedrigen Harnsäurespiegel selbst. Da Febuxostat direkt die Xanthinoxidase hemmt, kann es diesen oxidativen Purinstoffwechsel-Weg unabhängig von der Erhöhung der Harnsäure reduzieren, was mechanistisch verschieden ist von der einfachen „Behandlung der Hypourikämie" und stattdessen den XO-gesteuerten Verletzungsweg anvisiert.
+Die renale Hypourikämie ist jedoch bereits durch **niedrige Serumharnsäure** gekennzeichnet, verursacht durch Funktionsverlust von Harnsäure-Rückresorptionstransportern (URAT1/SLC22A12 oder GLUT9/SLC2A9). Eine weitere Harnsäuresenkung ist mechanistisch **kontraproduktiv**. Der einzige denkbare Zusammenhang ist indirekt: Xanthinoxidoreduktase-Hemmer wurden als Hypothese zur Vorbeugung eines belastungsinduzierten akuten Nierenversagens (EIAKI), einer Komplikation der renalen Hypourikämie, diskutiert. Das ist keine Behandlung der Grunderkrankung.
 
-Diese mechanistische Verbindung wird dadurch verstärkt, dass die nächsten zwei Top-Vorhersagen von TxGNN für Febuxostat – HPRT-Partialdefizienz und Lesch-Nyhan-Syndrom (Rang 2–3) – beide Purinstoffwechsel-Störungen der gleichen biologischen Familie sind, für die XO-Hemmer bereits klinisch zur Behandlung von Hyperurikämie-assoziierter Gicht und Nephrolithiasis verwendet werden. Das Auftreten verwandter Purinstoffwechsel-Erkrankungen in TxGNNs Top-Vorhersagen unterstützt die biologische Plausibilität von Febuxostats Relevanz für diese Krankheitsfamilie, auch wenn die spezifische Top-Vorhersage (Nierenhypourikämie) eine unterschiedliche klinische Begründung beinhaltet (Prävention von oxidativer Schädigung statt Harnsäuresenkung).
+Der hohe TxGNN-Wert spiegelt vermutlich die Nähe im Netzwerk (Harnsäurestoffwechsel) wider und keine echte therapeutische Begründung.
 
 ---
 
-## Klinische Studienbelege
+## Klinische Evidenz
 
-| Studiennummer | Phase | Status | Einschluss | Wichtigste Ergebnisse |
+| Studiennummer | Phase | Status | Teilnehmerzahl | Kernaussagen |
 |---------|------|------|------|---------|
-| [NCT04398251](https://clinicaltrials.gov/study/NCT04398251) | Phase 4 | Unbekannt | 100 | Prospektive kontrollierte Studie, die die Auswirkungen der Harnsäurekontrolle auf die Steinrezidivrate und die Nierenfunktion bei Patienten mit Konkrementen aufgrund von Hyperurikämie untersucht (Shanghai Xu-hui Central Hospital, Abteilung für Urologie). Relevant für uratbezogene Nierenpathologie, aber nicht spezifisch für RHUC. |
+| [NCT04398251](https://clinicaltrials.gov/study/NCT04398251) | Phase 4 | Unbekannt | 100 | Untersucht den Effekt der Harnsäurekontrolle auf Steinrezidive und Nierenfunktion bei Patienten mit Harnsteinen und Hyperurikämie. Kein direkter Bezug zur renalen Hypourikämie (Relevanz: C). |
 
 ---
 
-## Literaturbelege
+## Literaturevidenz
 
-| PMID | Jahr | Typ | Journal | Wichtigste Ergebnisse |
+| PMID | Jahr | Typ | Journal | Kernaussagen |
 |------|-----|------|------|---------|
-| [36754409](https://pubmed.ncbi.nlm.nih.gov/36754409/) | 2023 | Fallbericht | Internal Medicine (Tokyo) | Berichtet über die Verwendung von Febuxostat zur Prävention von belastungsinduzierter akuter Nierenverletzung (EIAKI) bei einem 16-Jährigen mit familiärer Nierenhypourikämie (Compound-heterozygote URAT1-Mutationen), bei dem die Standard-Hydratationsprophylaxe fehlgeschlagen war. |
-| [31650389](https://pubmed.ncbi.nlm.nih.gov/31650389/) | 2020 | Übersicht | Clinical Rheumatology | Narrative Übersicht zur Hypourikämie-Ätiologie und zum klinischen Management für Rheumatologen; bietet eher Krankheitshintergrund als direkte Interventionsbelege. |
+| [31650389](https://pubmed.ncbi.nlm.nih.gov/31650389/) | 2020 | Review | Clinical Rheumatology | Aktueller Überblick zur Hypourikämie (Serumharnsäure < 2 mg/dl) für Rheumatologen, inkl. Ätiologie. |
+| [36754409](https://pubmed.ncbi.nlm.nih.gov/36754409/) | 2023 | Fallbericht (als Review klassifiziert) | Internal Medicine | 16-jähriger Fußballspieler mit familiärer renaler Hypourikämie (URAT1-Mutationen) und wiederkehrendem EIAKI; Febuxostat wurde als Prophylaxe eingesetzt, da Flüssigkeitszufuhr nicht ausreichte. |
 
 ---
 
-## Informationen zum deutschen Markt
+## Marktinformationen Deutschland
 
-Febuxostat wird derzeit **nicht vermarktet** in Deutschland unter diesem Evidenzpaket (0 Zulassungen erfasst); keine Lizenz- oder Produktinformationen sind verfügbar.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000777 | Adenuric | – | Gicht |
+| EMEA/H/C/004773 | Febuxostat Krka | – | Hyperurikämie; Gicht |
+| EMEA/H/C/004374 | Febuxostat Viatris (zuvor Febuxostat Mylan) | – | Hyperurikämie; Gichtarthritis; Gicht |
+
+Alle drei Zulassungen haben den Status „aufgehoben".
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+- **Kontraindikationen aus dem Wissensgraphen** (PrimeKG, keine Angaben aus dem Beipackzettel): Schlaganfall, zerebrovaskuläre Erkrankungen, Hirninfarkt, Myokardinfarkt, Koronarthrombose, Hämoglobinopathie.
+- **Arzneimittelwechselwirkungen**: 22 Wechselwirkungen erfasst, davon als **schwerwiegend (Major)**: Mercaptopurin, Azathioprin, Leflunomid, Teriflunomid. Moderate Wechselwirkungen u. a. mit Theophyllin, Aminophyllin, Dyphyllin, Methotrexat, Tioguanin, Epirubicin, Clofarabin, Trabectedin, Naltrexon, Interferon-beta-Präparaten und Asparaginase/Pegaspargase.
+
+Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Halten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die mechanistische Begründung ist plausibel und wird durch einen direkt relevanten Fallbericht unterstützt, aber die Gesamtevidenzgrundlage ist dünn (ein Fallbericht, eine Phase-4-Studie mit unbekanntem Status, keine abgeschlossenen vergleichenden Studien), und eine **blockierende** Datenlücke existiert – TFDA/BfArM-Warnungen und Kontraindikationen wurden noch nicht abgerufen, was sogar eine vorläufige Sicherheitsbewertung (S1) verhindert.
+Die Vorhersage ist mechanistisch nicht schlüssig, da bei renaler Hypourikämie die Harnsäure bereits niedrig ist. Die einzige Studie ist thematisch nicht passend, und die Literatur besteht aus einem Review und einem Einzelfallbericht. Zudem sind in Deutschland alle Zulassungen aufgehoben.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- Offizielle Warnungen/Kontraindikationen auf dem Etikett abrufen (Blockierende Lücke, DG001)
-- Detaillierten Wirkmechanismus von DrugBank bestätigen (Hochpriorität-Lücke, DG002)
-- Zusätzliche Fallserien oder eine kleine prospektive Studie bei RHUC/EIAKI-Patienten, um über die Einzelfallbericht-Evidenz hinauszugehen
-- Deutschen/EU-Regulierungsweg klären angesichts des aktuellen Status „nicht vermarktet", bevor eine Umwidmungsmaßnahme verfolgt wird
+**Für ein Weiterkommen erforderlich:**
+- Prüfung des Registereintrags von NCT04398251 (Bedingung, Intervention, Design)
+- Kontrollierte Daten zur Prävention von EIAKI bei renaler Hypourikämie
+- Daten zum Wirkmechanismus sowie Warnhinweise/Gegenanzeigen aus der Fachinformation
+- Klärung des Zulassungsstatus in Deutschland
 
+---
+
+*Hinweis zu weiteren Vorhersagen:* Plausibler sind die Kandidaten **partieller HPRT-Mangel** (Rang 2) und **Lesch-Nyhan-Syndrom** (Rang 3). Dort kann Febuxostat die Harnsäurelast senken (nicht die neurologischen Symptome), die Evidenz beschränkt sich jedoch auf Fallberichte, und es besteht das Risiko einer Xanthin-Nephropathie bzw. Urolithiasis. Beide sind als Forschungsfrage (L4) einzustufen.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

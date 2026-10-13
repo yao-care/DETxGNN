@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Prasugrel
-parent: Nur Modellvorhersage (L5)
-nav_order: 315
-evidence_level: L5
+parent: Mittlere Evidenz (L3-L4)
+nav_order: 367
+evidence_level: L3
 indication_count: 10
 ---
 
 # Prasugrel
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,15 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Prasugrel: Von Antitrombozytärer Therapie (AKS/PCI) zur Pulmonalen Hypertonie
+# Prasugrel: Von akutem Koronarsyndrom zu Migräne
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Prasugrel ist ein Thienpyridin-Klasse-P2Y12-Rezeptor-Inhibitor, ein Antitrombozytenmittel, das klinisch für das akute Koronarsyndrom (AKS) und die perkutane Koronarintervention (PCI) etabliert ist. Das TxGNN-Modell prognostiziert, dass es für **Pulmonale Hypertonie** wirksam sein könnte, aber derzeit sind nur **2 klinische Studien** und **2 Publikationen** verfügbar, und keine von ihnen untersucht Prasugrel direkt bei Patienten mit Pulmonaler Hypertonie.
+Prasugrel ist ein Thrombozytenaggregationshemmer, der ursprünglich zur Behandlung des akuten Koronarsyndroms, der instabilen Angina pectoris und des Myokardinfarkts zugelassen wurde.
+Das TxGNN-Modell sagt voraus, dass es bei **Migräne** (in Verbindung mit einem offenen Foramen ovale, PFO) wirksam sein könnte. Diese Indikation hat in den für diesen Bericht zusammengestellten Daten die stärkste Evidenz.
+Derzeit stützen **2 klinische Studien** (beide nur indirekt relevant) und **2 Publikationen** (beide zu verwandten Wirkstoffen bzw. Wirkstoffklassen) diese Richtung.
+
+**Hinweis zur Auswahl der Indikation:** Der Rang-1-Vorschlag des Modells ist *pulmonale Hypertonie* (Score 99,88 %). Dafür liegen jedoch keine klinischen Studien und keine thematisch passende Literatur vor (Evidenzlevel L5). Dieser Bericht konzentriert sich daher auf die am besten belegte Vorhersage, **Migräne** (Rang 2, Score 99,88 %).
 
 ---
 
@@ -41,69 +45,78 @@ Prasugrel ist ein Thienpyridin-Klasse-P2Y12-Rezeptor-Inhibitor, ein Antitrombozy
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | In diesem Evidence Pack nicht spezifiziert; klinisch bekannt als Antitrombozytenmittel für AKS/PCI (Thienpyridin-Klasse) |
-| Vorhergesagte neue Indikation | Pulmonale Hypertonie |
-| TxGNN-Vorhersagescore | 99.88% |
-| Evidenzgrad | L5 |
-| Marktstatus in Deutschland | ✗ Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Abwarten |
+| Ursprüngliche Indikation | Akutes Koronarsyndrom; instabile Angina pectoris; Myokardinfarkt |
+| Vorhergesagte neue Indikation | Migräne (Migraine disorder), v. a. mit PFO |
+| TxGNN-Vorhersagescore | 99,88 % |
+| Evidenzlevel | L3 |
+| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
+| Anzahl der Zulassungen | 1 (erloschen) |
+| Empfohlene Entscheidung | Hold (Forschungsfrage; Fortführung nur mit Schutzmaßnahmen) |
 
 ---
 
-## Warum ist diese Vorhersage berechtigt?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Wirkmechanismus-Daten in diesem Evidence Pack nicht verfügbar. Basierend auf bekannten Informationen gehört Prasugrel zur Thienpyridin-Klasse der P2Y12-Thrombozyten-Rezeptor-Inhibitoren, und seine Wirksamkeit bei der Verringerung thrombotischer Ereignisse nach AKS/PCI ist gut etabliert.
+Zum Wirkmechanismus von Prasugrel liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Nach bekanntem Wissen ist Prasugrel ein Thienopyridin und ein irreversibler P2Y12-Antagonist, der die Thrombozytenaggregation hemmt. Seine Wirksamkeit beim akuten Koronarsyndrom beruht auf der Verhinderung thrombotischer Ereignisse.
 
-Die theoretische Verbindung zur Pulmonalen Hypertonie beruht auf der Pathophysiologie der chronisch thromboembolischen Pulmonalen Hypertonie (CTEPH), einem Subtyp, bei dem wiederholte pulmonale Thrombusbildung zum Krankheitsverlauf beiträgt – ein Prozess, bei dem Antitrombozytenmechanismen plausibel eine Rolle spielen könnten. Allerdings ist diese Verbindung eher Schlussfolgerung als evidenzgestützt: Die beiden abgerufenen Studien befassen sich mit der Berechtigung für krebsassoziierte venöse Thromboembolien und der Verwendung von NOAK bei Vorhofflimmern, wobei weder Prasugrel noch Pulmonale Hypertonie direkt einbezogen sind (beide mit „C" Relevanz bewertet – nur thematische Überlappung im Hintergrund). Die beiden abgerufenen Publikationen diskutieren ebenfalls COVID-19-Komorbiditätstherapie und Clopidogrel-/Prasugrel-Adhärenz nach PCI, wiederum ohne die Pulmonale Hypertonie zu adressieren.
+Bei einem Teil der Migränepatienten liegt ein offenes Foramen ovale (PFO) vor. Hypothese: Mikroemboli oder vasoaktive Substanzen (z. B. aus Thrombozyten freigesetztes Serotonin) umgehen den Lungenfilter und können Migräne auslösen. Eine P2Y12-Hemmung könnte diese thrombozytär vermittelten Auslöser verringern.
 
-Angesichts des Fehlens jeglicher arzneistoff-spezifischer oder indikations-spezifischer Studie sollte diese Vorhersage als modellgenerierte Hypothese (L5) und nicht als evidenzgestützte Repurposing-Signal betrachtet werden.
+Gestützt wird das Signal durch eine retrospektive Auswertung von Thienopyridinen (Clopidogrel/Prasugrel) bei Migränepatienten mit PFO sowie durch eine offene Pilotstudie mit Ticagrelor, einem Wirkstoff derselben Klasse. Beides sind keine kontrollierten Studien, und die prasugrelspezifischen Daten sind begrenzt.
 
 ---
 
-## Evidenz aus klinischen Studien
+## Klinische Studienevidenz
 
-| Studiennummer | Phase | Status | Teilnehmerzahl | Wichtigste Ergebnisse |
+| Studiennummer | Phase | Status | Teilnehmerzahl | Zentrale Erkenntnisse |
 |---------|------|------|------|---------|
-| [NCT04846556](https://clinicaltrials.gov/study/NCT04846556) | N/A | Abgeschlossen | 300 | Retrospektive Studie zur Berechtigung von Patienten mit krebsassoziierter Thrombose für Studien wie CARAVAGGIO; betrifft weder Prasugrel noch Pulmonale Hypertonie (geringe Relevanz – nur Hintergrund-Thrombose-Feld). |
-| [NCT03993119](https://clinicaltrials.gov/study/NCT03993119) | N/A | Abgeschlossen | 500 | Beobachtungsstudie zur Behandlung mit NOAK (orales Antikoagulans, keine Antitrombozytenmittel) bei älteren Patienten mit Vorhofflimmern in Spanien; Arzneistoffklasse und Indikation sind beide nicht übereinstimmend (geringe Relevanz). |
+| [NCT07629635](https://clinicaltrials.gov/study/NCT07629635) | Phase 3 | Rekrutierend | 32 | COMFORT-PFO: Untersucht PFO-gerichtete Therapie bei Migräne; Prasugrel wird als thrombozytenhemmende Option erwähnt. Kleine Studie, liefert keine direkte Evidenz für den Wirkstoff. |
+| [NCT04100135](https://clinicaltrials.gov/study/NCT04100135) | Nicht zutreffend | Vorzeitig beendet | 7 | Verschlusssystem (GORE CARDIOFORM) zur PFO-Verschlusstherapie bei Migräne; kein Prasugrel, wegen Abbruchs keine verwertbaren Wirksamkeitsdaten. |
 
 ---
 
-## Evidenz aus der Literatur
+## Literaturevidenz
 
-| PMID | Jahr | Typ | Journal | Wichtigste Ergebnisse |
+| PMID | Jahr | Typ | Journal | Zentrale Erkenntnisse |
 |------|-----|------|------|---------|
-| [21241206](https://pubmed.ncbi.nlm.nih.gov/21241206/) | 2011 | Kohortenstudie | Curr Med Res Opin | Untersucht Verwendung und Adhärenz von Clopidogrel/Prasugrel nach PCI bei AKS-Patienten; relevant für die etablierte Antitrombozytenmittel-Anwendung von Prasugrel, nicht für Pulmonale Hypertonie. |
-| [34713782](https://pubmed.ncbi.nlm.nih.gov/34713782/) | 2021 | Kohortenstudie | Kardiologiia | ACTIV-COVID-19-Registeranalyse zum Einfluss von Hintergrund-Kardiovaskulärtherapie auf Infektionsergebnisse; keine direkte Verbindung zu Prasugrel oder Pulmonaler Hypertonie. |
+| [30478066](https://pubmed.ncbi.nlm.nih.gov/30478066/) | 2018 | Retrospektive Auswertung | Neurology | Off-Label-Einsatz von Thienopyridinen bei Migräne mit PFO; Hinweis auf Symptomlinderung bei einem Teil der Patienten. |
+| [30478067](https://pubmed.ncbi.nlm.nih.gov/30478067/) | 2018 | Offene Pilotstudie | Neurology | TRACTOR: Ticagrelor (nicht-thienopyridinischer P2Y12-Hemmer) bei refraktärer Migräne mit PFO; indirekte Evidenz aus derselben Wirkstoffklasse. |
 
 ---
 
-## Marktinformationen für Deutschland
+## Marktinformationen Deutschland
 
-Derzeit sind keine Zulassungsunterlagen für dieses Arzneimittel verfügbar (Marktstatus: nicht vermarktet, 0 Zulassungen).
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000984 | Efient (Substipharm) | – | Akutes Koronarsyndrom; instabile Angina pectoris; Myokardinfarkt (Status: erloschen) |
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Fachinformation bezüglich Sicherheitsinformationen.
+- **Kontraindikationen laut Wissensgraph (keine Packungsbeilage):** Der TxGNN-Wissensgraph (PrimeKG) enthält Kontraindikationen bei Leberversagen, hypotensiven Störungen, Blutgerinnungsstörungen, Schlaganfall und zerebrovaskulären Erkrankungen, zerebralem Infarkt, transitorischer ischämischer Attacke, intrakranieller Blutung, thrombozytopenischer Purpura, Verletzungen und vertebrobasilärer Insuffizienz.
+- **Arzneimittelwechselwirkungen (100 Einträge gefunden, Auswahl):**
+  - *Schwerwiegend (Major):* Deferasirox, Ibritumomab-Tiuxetan
+  - *Moderat:* Acetylsalicylsäure, Morphin, Opium, Fenfluramin, Dexfenfluramin, Sibutramin
+  - *Gering (Minor):* u. a. Protonenpumpenhemmer (Omeprazol, Pantoprazol, Esomeprazol u. a.) und H2-Blocker (Famotidin, Ranitidin, Cimetidin)
+- **Blutungsrisiko:** Bei Antiplättchentherapie besonders relevant, v. a. bei Kombination mit anderen blutungsfördernden Substanzen.
+
+Angaben zu Warnhinweisen und Kontraindikationen aus der Packungsbeilage liegen nicht vor; bitte die Fachinformation heranziehen.
 
 ---
 
-## Fazit und Nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Abwarten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die höchstrangige Vorhersage (Pulmonale Hypertonie) wird nur durch den TxGNN-Modellscore gestützt, ohne arzneistoff-spezifische oder indikations-spezifische klinische Studien oder Literatur (Evidenzgrad L5). Die abgerufenen Studien und Publikationen sind nur tangential mit Antitrombozytenmittel-/Antikoagulans-Therapie im allgemeinen kardiovaskulären Kontext verbunden und adressieren nicht die Anwendung von Prasugrel bei Pulmonaler Hypertonie.
+Für Migräne mit PFO gibt es ein plausibles mechanistisches Signal, aber nur schwache, überwiegend indirekte Evidenz (retrospektive Auswertung, offene Pilotstudie mit anderem Wirkstoff, kleine bzw. abgebrochene Studien ohne Prasugrel-Daten). Die Zulassung in Deutschland ist zudem erloschen, und die Sicherheitsdaten sind unvollständig.
 
-**Um fortzufahren, wird folgendes benötigt:**
-- BfArM/TFDA-Warnhinweise und Kontraindikationen (DG001, Blockierung) – erforderlich, bevor eine S1-Sicherheitsbewertung beginnen kann
-- Strukturierte Wirkmechanismus-Daten aus DrugBank (DG002)
-- Präklinische oder mechanistische Studien, die P2Y12-Hemmung spezifisch mit pulmonaler Gefäßumgestaltung oder CTEPH-Pathophysiologie verknüpfen
-- Erwägen Sie eine Neubewertung von **Migräne-Störung** (Rang 2 in diesem Evidence Pack, Evidenzgrad L3, Entscheidungsstufe S1 „Research Question") als Alternative, angesichts ihres vergleichsweise stärkeren Literatur-Signals (Thienpyridin-Klasse-Effekt bei PFO-assoziierter Migräne)
-
+**Um fortzufahren, sind folgende Schritte nötig:**
+- Beschaffung der Packungsbeilage/Fachinformation (Warnhinweise und Kontraindikationen), da dies derzeit eine blockierende Datenlücke ist
+- Abruf der Wirkmechanismus-Daten (MOA) aus DrugBank
+- Kontrollierte, prasugrelspezifische Studie bei Migräne mit PFO, ggf. nach Auswertung der Ergebnisse von NCT07629635
+- Klärung der Verfügbarkeit von Prasugrel in Deutschland (erloschene Zulassung des Originalpräparats Efient; Generika prüfen)
+- Bewertung des Blutungsrisikos bei dauerhafter Anwendung in einer Population ohne Herz-Kreislauf-Indikation
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

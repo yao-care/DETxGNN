@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ferric Maltol
-parent: Mittlere Evidenz (L3-L4)
-nav_order: 167
-evidence_level: L4
+parent: Nur Modellvorhersage (L5)
+nav_order: 195
+evidence_level: L5
 indication_count: 3
 ---
 
 # Ferric Maltol
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **3** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,88 +29,86 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Eisenmaltol: Von Eisenmangel zu Plummer-Vinson-Syndrom
+# Eisenmaltol: Von Eisenmangelanämie zum Plummer-Vinson-Syndrom
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Eisenmaltol ist ein neuartiges orales dreiwertiges Eisenkomplex, das der Behandlung von Eisenmangel dienen soll (Daten zur ursprünglichen Indikation sind in diesem Nachweispaket nicht enthalten).
-> Das TxGNN-Modell sagt voraus, dass es wirksam beim **Plummer-Vinson-Syndrom** sein könnte,
-> mit derzeit **0 klinischen Studien** und **0 Publikationen**, die diese Richtung unterstützen — die Argumentation stützt sich ausschließlich auf mechanistische Überlegungen.
+Eisenmaltol (Ferric Maltol) ist ein orales Eisenpräparat, das ursprünglich zur Behandlung der **Eisenmangelanämie** zugelassen wurde.
+Das TxGNN-Modell sagt voraus, dass es beim **Plummer-Vinson-Syndrom** wirksam sein könnte.
+Dafür liegen in den für diesen Bericht zusammengestellten Daten **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage beruht allein auf dem Modell.
 
 ---
 
-## Schnelle Übersicht
+## Schnellübersicht
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Nicht im Nachweispaket erfasst (`original_indications` ist leer) |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Eisenmangelanämie |
 | Vorhergesagte neue Indikation | Plummer-Vinson-Syndrom |
-| TxGNN-Vorhersage-Score | 99.98% |
-| Evidenzstufe | L4 |
-| Marktstatus in Deutschland | ✗ Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Abwarten |
+| TxGNN-Vorhersagewert | 99,98 % |
+| Evidenzgrad | L5 |
+| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
+| Anzahl der Zulassungen | 1 (erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage sinnvoll?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Wirkmechanismus-Daten im Nachweispaket nicht verfügbar (`original_moa`: Datenlücke), und es ist auch keine ursprüngliche Indikation erfasst. Basierend auf allgemein bekannten Arzneimittelinformationen ist Eisenmaltol eine nächstgenerationale orale Eisenersatztherapie (ein Eisenkomplex aus dreiwertigem Eisen und Maltol), die zur Korrektur von Eisenmangel bei Erwachsenen eingesetzt wird, auch bei Patienten, die konventionelle Eisensalze nicht vertragen.
+Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Nach bekanntem Stand ist Eisenmaltol ein oraler Eisenersatz, seine Wirksamkeit bei Eisenmangelanämie ist belegt, und mechanistisch könnte es beim Plummer-Vinson-Syndrom anwendbar sein.
 
-Die Kernpathologie des Plummer-Vinson-Syndroms (Paterson-Kelly) ist eine chronische Eisenmangelanämie, begleitet von Ösophagusnetzen und Dysphagie. Die Eisensubstitution ist die etablierte kausale Behandlung dieses Syndroms, daher ist die mechanistische Verbindung stark. Dies stellt jedoch eher eine Erweiterung einer bereits bekannten pharmakologischen Wirkung auf eine seltene klinische Manifestation dar, nicht eine wirklich neuartige Arzneimittel-Krankheits-Paarung.
+Das Plummer-Vinson-Syndrom ist durch Eisenmangelanämie, Dysphagie und Ösophagusmembranen (esophageal webs) gekennzeichnet. Da Eisenmaltol den zugrunde liegenden Eisenmangel ausgleichen kann, ist ein Nutzen biologisch nachvollziehbar. Ob die Eisenauffüllung auch die Ösophagusmembranen zurückbildet, ist durch die vorliegenden Daten jedoch nicht belegt.
 
-Zur Kontextualisierung illustrieren zwei niedriger bewertete Vorhersagen im selben Nachweispaket die Bandbreite der Plausibilität: Das **IRIDA-Syndrom** (TMPRSS6-gesteuerte Hepcidin-Dysregulation, die zu Resistenz gegen konventionelle orale Eisengaben führt) hat einen biologisch kohärenten Hintergrund – der unterschiedliche Absorptionsweg von Eisenmaltol könnte die Hepcidin-vermittelte Hemmung teilweise umgehen – aber noch keine bestätigende Evidenz existiert. Die **Vitamin-B12-/Folat-unabhängige konstitutionelle megaloblastische Anämie** hingegen beinhaltet einen DNA-Synthesedefekt, der unabhängig vom Eisenstatus ist; die mechanistische Verbindung ist schwach und spiegelt wahrscheinlich eher eine unspezifische „Anämie"-Assoziation im Wissensgraph wider als ein echtes Signal.
-
----
-
-## Klinische Studienevidenz
-
-Derzeit sind keine zugehörigen klinischen Studien registriert
+Zwei weitere Vorhersagen des Modells sind deutlich schwächer begründet:
+- **Vitamin-B12- und folatunabhängige konstitutionelle megaloblastäre Anämie** (Wert 99,98 %): Diese Anämie entsteht durch gestörte DNA-Synthese, nicht durch Eisenmangel. Die Vorhersage spiegelt vermutlich die Nähe zu anämiebezogenen Begriffen im Wissensgraphen wider und keinen echten mechanistischen Zusammenhang.
+- **IRIDA-Syndrom** (eisenrefraktäre Eisenmangelanämie, Wert 99,33 %): Sie ist per Definition gegenüber oralem Eisen refraktär (erhöhtes Hepcidin durch TMPRSS6-Mutationen), sodass ein relevantes Ansprechen unwahrscheinlich ist; üblich ist intravenöses Eisen.
 
 ---
 
-## Literatorevidenz
+## Evidenz aus klinischen Studien
 
-Derzeit ist keine zugehörige Literatur verfügbar
+Derzeit sind keine zugehörigen klinischen Studien registriert.
+
+---
+
+## Literaturevidenz
+
+Derzeit liegt keine zugehörige Literatur vor.
 
 ---
 
 ## Informationen zum deutschen Markt
 
-Es sind keine Einträge zur deutschen Marktzulassung verfügbar — das Arzneimittel ist nicht in Deutschland vermarktet (`total_licenses`: 0).
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/002733 | Feraccru (Norgine B.V.) | – | Eisenmangelanämie |
+
+Hinweis: Diese Zulassung ist erloschen bzw. widerrufen; es gibt derzeit keine gültige Zulassung.
 
 ---
 
-## Andere vorhergesagte Indikationen (niedrigere Priorität)
+## Sicherheitsaspekte
 
-| Rang | Krankheit | TxGNN-Score | Evidenzstufe | Entscheidungsphase | Empfehlung |
-|------|-----------|-------------|---|---|---|
-| 2 | Vitamin-B12-/Folat-unabhängige konstitutionelle megaloblastische Anämie | 99.98% | L5 | S0 | Abwarten (mechanistisch schwach) |
-| 3 | IRIDA-Syndrom | 99.33% | L4 | S1 | Forschungsfrage |
+- **Kontraindikationen aus dem Wissensgraphen** (keine Packungsbeilagen-Angaben, sondern Wirkstoff-Erkrankungs-Verknüpfungen aus PrimeKG): hereditäre Hämochromatose, Hämosiderose, Eisenstoffwechselstörungen, Morbus Wilson.
+- **Wechselwirkungen:** In der Abfrage wurden keine Wechselwirkungen gefunden.
 
----
-
-## Sicherheitserwägungen
-
-Weitere Sicherheitsinformationen finden Sie in der Gebrauchsinformation.
-
-*Hinweis: Eine blockierende Datenlücke (DG001 — TFDA-Warnhinweise/Kontraindikationen) verhindert derzeit, dass dieser Kandidat in die formale Sicherheitsbewertung der Phase S1 voranschreitet.*
+Für weitere Sicherheitsinformationen ist die Fachinformation heranzuziehen.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Abwarten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage für das Plummer-Vinson-Syndrom hat starke mechanistische Logik (Eisensubstitution für eisenmangelgetriebene Pathologie), aber null unterstützende klinische Studien oder Literatur, und das Arzneimittel ist nicht in Deutschland vermarktet. In Kombination mit einer blockierenden Datenlücke zu TFDA-Sicherheitskennzeichnungen kann der Fall derzeit nicht über eine Forschungsfrage hinausgehen.
+Alle drei Vorhersagen beruhen ausschließlich auf dem Modell (Evidenzgrad L5), ohne Studien oder Publikationen. Zudem besteht in Deutschland keine gültige Zulassung, und die für die Sicherheitsprüfung nötigen Daten fehlen.
 
-**Für die Fortsetzung ist Folgendes erforderlich:**
-- Klärung von DG001: Erhalten Sie TFDA/BfArM-Warnhinweise und Kontraindikationen für Eisenmaltol
-- Klärung von DG002: Rufen Sie bestätigte Wirkmechanismus und ursprüngliche genehmigte Indikation aus DrugBank ab
-- Gezielt durchgeführte Literatursuche nach Fallberichten/Fallserien zur Anwendung von Eisenmaltol beim Plummer-Vinson-Syndrom und IRIDA
-- Falls die Evidenz weiterhin abwesend ist, durch periodische Neubeurteilung überwachen statt aktive Investition
-
+**Für ein Weiterkommen sind erforderlich:**
+- Warnhinweise und Gegenanzeigen aus der Fachinformation (BfArM/EMA) – derzeit blockierend für die Sicherheitsprüfung
+- Daten zum Wirkmechanismus (z. B. aus DrugBank)
+- Literaturrecherche und Studienrecherche zu Eisentherapie beim Plummer-Vinson-Syndrom
+- Klärung des Zulassungs- und Marktstatus (erloschene Zulassung) sowie der Applikationswege
+- Für die Vorhersagen zu megaloblastärer Anämie und IRIDA: kritische Prüfung der Plausibilität, da die mechanistische Begründung schwach ist
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

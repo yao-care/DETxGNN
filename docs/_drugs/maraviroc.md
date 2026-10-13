@@ -2,7 +2,7 @@
 layout: default
 title: Maraviroc
 parent: Nur Modellvorhersage (L5)
-nav_order: 246
+nav_order: 285
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,76 +29,89 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Maraviroc: Von HIV-1-Infektion zu Multipler Endokriner Neoplasie
+# Maraviroc: Von HIV-Infektion zu multipler endokriner Neoplasie
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Maraviroc ist ein CCR5-Korezeptor-Antagonist, der ursprünglich für CCR5-tropische HIV-1-Infektion entwickelt wurde.
-> Die Top-Vorhersage des TxGNN-Modells deutet auf mögliche Relevanz für **Multiple Endokrine Neoplasie** hin,
-> diese wird aber derzeit durch **0 klinische Studien** und **0 Publikationen** gestützt — es handelt sich um eine reine Modell-Score-Vorhersage ohne unterstützende Evidenz.
+Maraviroc ist ein CCR5-Antagonist, der ursprünglich zur Behandlung von HIV-Infektionen zugelassen wurde. Das TxGNN-Modell sagt voraus, dass es bei **multipler endokriner Neoplasie** wirksam sein könnte. Für diese Vorhersage liegen jedoch **keine klinischen Studien** und **keine Publikationen** vor; sie beruht ausschließlich auf einer Modellberechnung.
 
----
+## Kurzübersicht
 
-## Schnellübersicht
-
-| Element | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | HIV-1-Infektion (CCR5-tropisch), verwendet als Teil einer kombinativen antiretroviralen Therapie — nicht dokumentiert in den `taiwan_regulatory` Daten dieses Evidenz-Pakets (Arzneimittel nicht in Deutschland vermarktet) |
-| Vorhergesagte neue Indikation | Multiple Endokrine Neoplasie |
-| TxGNN-Vorhersage-Score | 99.82% (Rang 2613) |
-| Evidenzlevel | L5 (reine Modellvorhersage, keine unterstützenden Studien) |
-| Status auf dem deutschen Markt | ✗ Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Halten |
+| Ursprüngliche Indikation | HIV-Infektionen |
+| Vorhergesagte neue Indikation | Multiple endokrine Neoplasie |
+| TxGNN-Vorhersagewert | 99,82 % |
+| Evidenzniveau | L5 |
+| Marktstatus in Deutschland | Nur erloschene/gelöschte Zulassung |
+| Anzahl der Zulassungen | 1 |
+| Empfohlene Entscheidung | Hold |
 
----
+## Warum ist diese Vorhersage plausibel?
 
-## Warum ist diese Vorhersage sinnvoll?
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Maraviroc den Chemokinrezeptor CCR5 blockiert, was seine Wirkung bei HIV erklärt. Für eine Rolle von CCR5 in der Pathogenese der multiplen endokrinen Neoplasie gibt es in den vorliegenden Daten keinen Beleg.
 
-Derzeit sind detaillierte Mechanismus-der-Wirkung-Daten in diesem Evidenz-Paket nicht verfügbar (gekennzeichnet als Datenlücke mit hohem Schweregrad). Basierend auf allgemeinem klinischem Wissen ist Maraviroc ein kleinmolekularer CCR5-Antagonist, der den viralen Eintritt blockiert, indem er verhindert, dass gp120 an den CCR5-Korezeptor bindet; seine Wirksamkeit bei CCR5-tropischer HIV-1-Infektion ist gut etabliert.
+Zwischen der ursprünglichen Indikation (Virusinfektion) und der vorhergesagten Indikation (hereditäre endokrine Tumorerkrankung) besteht keine erkennbare mechanistische Verbindung. Der sehr hohe Modellwert (0,998) ist daher mit Vorsicht zu interpretieren: Er ist ein rein rechnerisches Ergebnis ohne experimentelle oder klinische Bestätigung.
 
-Für die Top-Vorhersage ist jedoch die mechanistische Bewertung des Evidenz-Pakets selbst explizit und ungünstig: *"Es gibt keine bekannte Verbindung zwischen CCR5-Antagonismus und der Pathogenese von endokrinen Neoplasien; dies ist ein reiner TxGNN-Algorithmus-Score ohne unterstützende Literatur oder Studien."* Mit anderen Worten: TxGNN identifizierte eine statistische Assoziation in seinem Knowledge-Graph-Embedding-Raum, aber keine biologische Rationale verbindet derzeit CCR5-Blockade mit multipler endokriner Neoplasie.
+**Weitere vorhergesagte Indikationen (zur Einordnung):**
 
-Es ist erwähnenswert, dass mehrere der niedriger bewerteten Kandidaten unter den 10 Vorhersagen in diesem Paket kohärentere mechanistische Unterstützung haben — bemerkenswert ist **HER2-positives Mammakarzinom** (Rang 10), wo eine präklinische Studie zeigt, dass die CCL5–CCR5-autokrine Achse Trastuzumab-Resistenz über ERK-Aktivierung antreibt, wodurch eine konkrete Rationale für CCR5-Blockade als Resistenz-Umkehr-Strategie gegeben ist. Dieser Kandidat erreichte Entscheidungsstufe S1, im Gegensatz zur Top-Vorhersage, und könnte trotz seines niedrigeren TxGNN-Scores engere Nachverfolgung verdienen.
+| Rang | Erkrankung | TxGNN-Wert | Evidenz | Anmerkung |
+|---|---|---|---|---|
+| 2 | Akne | 99,76 % | L5 | Spekulativ (CCR5-vermittelte Entzündung), keine Belege |
+| 3 | Primäres kutanes T-Zell-Lymphom | 99,72 % | L5 | Plausible Rolle von Chemokinrezeptoren beim T-Zell-Homing; nur ein allgemeiner Übersichtsartikel |
+| 4 | Pädiatrischer systemischer Lupus erythematodes | 99,71 % | L5 | Nur Modellvorhersage |
+| 5 | Primäres kutanes T-Zell-Non-Hodgkin-Lymphom | 99,50 % | L5 | Gleiche Evidenz wie Rang 3 |
+| 6 | Primäres kutanes B-Zell-Lymphom | 99,38 % | L5 | Nur Modellvorhersage |
+| 7 | Candidiasis | 99,28 % | L5 | Kein antimykotischer Mechanismus erkennbar |
+| 8 | Komplement-C4A-Mangel | 99,24 % | L5 | Kein plausibler Mechanismus |
+| 9 | Zytomegalievirus-Infektion | 99,23 % | L4 | Nur indirekte Evidenz aus einer HIV-Kohortenstudie |
+| 10 | HER2-positives Mammakarzinom | 99,22 % | L4 | Präklinischer Hinweis: CCL5/CCR5 und Trastuzumab-Resistenz |
 
----
+Am plausibelsten erscheint mechanistisch das HER2-positive Mammakarzinom: Eine präklinische Studie zeigt, dass autokrines CCL5 über den ERK-Signalweg zur Trastuzumab-Resistenz beiträgt. Da CCL5 über CCR5 signalisiert, wäre eine CCR5-Blockade durch Maraviroc denkbar. Klinische Wirksamkeit ist damit nicht belegt.
 
-## Klinische Studien-Evidenz
+## Klinische Studien
 
-Derzeit sind keine verwandten klinischen Studien registriert.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
----
+## Literaturevidenz
 
-## Literatur-Evidenz
+Für die Hauptvorhersage (multiple endokrine Neoplasie) liegt keine Literatur vor. Für die weiteren Vorhersagen gibt es nur wenige, überwiegend indirekte Publikationen:
 
-Derzeit ist keine verwandte Literatur verfügbar.
+| PMID | Jahr | Typ | Journal | Kernaussagen |
+|------|-----|------|------|---------|
+| [32404410](https://pubmed.ncbi.nlm.nih.gov/32404410/) | 2020 | Präklinische/mechanistische Studie | Molecular Cancer Therapeutics | Autokrines CCL5 vermittelt Trastuzumab-Resistenz über ERK-Aktivierung beim HER2-positiven Mammakarzinom (relevant für Rang 10) |
+| [37006247](https://pubmed.ncbi.nlm.nih.gov/37006247/) | 2023 | Review | Frontiers in Immunology | Übersicht zur Zielstruktur ACKR1 bei Krebs und anderen Erkrankungen; kein maravirocspezifischer Beleg (Rang 3 und 5) |
+| [25397464](https://pubmed.ncbi.nlm.nih.gov/25397464/) | 2014 | Kohortenstudie | Journal of the International AIDS Society | Angeborene Immunität und lösliche Marker bei HIV-Patienten unter ART; nur indirekte Evidenz (Rang 9) |
+| [21671545](https://pubmed.ncbi.nlm.nih.gov/21671545/) | 2011 | Review | American Family Physician | Häufige Nebenwirkungen der antiretroviralen Therapie; keine Evidenz für Maraviroc bei Candidiasis (Rang 7) |
 
----
+## Informationen zum Markt in Deutschland
 
-## Informationen zum deutschen Markt
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000811 | Celsentri | – | HIV-Infektionen |
 
-Maraviroc wird **derzeit in Deutschland nicht vermarktet**, gemäß dieses Evidenz-Pakets (`market_status: Not marketed`, `total_licenses: 0`). Es sind keine Zulassungsunterlagen verfügbar.
+Die einzige Zulassung (ViiV Healthcare B.V.) ist erloschen bzw. gelöscht; es gibt derzeit keine gültige Zulassung.
 
----
+## Sicherheitsaspekte
 
-## Sicherheitsüberlegungen
+- **Kontraindikationen aus dem Wissensgraphen (nicht aus dem Beipackzettel):** Im TxGNN-Wissensgraphen (PrimeKG) sind unter anderem folgende Erkrankungen als Kontraindikationen hinterlegt: Multisystematrophie, posturales orthostatisches Tachykardiesyndrom, orthostatische Hypotonie, Nierenerkrankung (einschließlich chronischer Niereninsuffizienz und terminalem Nierenversagen), Lebererkrankung (einschließlich arzneimittelinduzierter Leberschädigung), Gallenblasenerkrankung, chronische Hepatitis-B- und Hepatitis-C-Infektion, koronare Herzkrankheit, Myokardinfarkt, Myokardischämie, Koronarthrombose, Hämoglobinopathie sowie Pyoureter und Infektionskrankheiten.
+- **Arzneimittelwechselwirkungen:** Insgesamt wurden 93 Wechselwirkungen identifiziert. Als **schwerwiegend (Major)** gilt die Kombination mit **Clarithromycin**. Beispiele für Wechselwirkungen mit **mittlerem (Moderate)** Schweregrad: Aprepitant, Dexamethason, Cimetidin, Eliglustat, Naltrexon, Mannitol, Clotrimazol, Miconazol, Papaverin, Rolapitant, Troglitazon, Cobicistat, Deferasirox, Diazoxid, Phentolamin, Promethazin, Amylnitrit, Epoprostenol und Fostamatinib.
 
-Bitte beachten Sie die Fachinformation für Sicherheitsinformationen. Derzeit sind keine wesentlichen Warnungen, Kontraindikationen oder Arzneimittelwechselwirkungs-Daten für diesen Kandidaten verfügbar; das Einholen der offiziellen Kennzeichnung ist als **sperrende** Datenlücke (DG001) gekennzeichnet, die vor einer S1-Sicherheits-Vorabbeurteilung aufgelöst werden muss.
-
----
+Angaben aus der Fachinformation zu Warnhinweisen und Gegenanzeigen liegen nicht vor. Bitte die Fachinformation ergänzend heranziehen.
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Halten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die Top-Vorhersage des TxGNN (multiple Endokrine Neoplasie) hat keine klinische Studien- oder Literaturunterstützung und das Evidenz-Paket erklärt ausdrücklich, dass es keine bekannte mechanistische Verbindung gibt — dies ist ein reines Modell-Artefakt (L5) und erfüllt nicht die Schwelle für weitere Bewertung.
+Die Vorhersage für die multiple endokrine Neoplasie beruht ausschließlich auf einem Modellwert (Evidenzniveau L5), ohne Studien, Literatur oder erkennbaren Mechanismus. Zudem ist in Deutschland keine gültige Zulassung vorhanden, und die Sicherheitsdaten der Fachinformation fehlen. Das HER2-positive Mammakarzinom könnte als Forschungsfrage weiterverfolgt werden (präklinische Hinweise, L4).
 
-**Um fortfahren zu können, ist folgendes erforderlich:**
-- DG001 (Sperrend) auflösen: offizielle TFDA/EMA-Verschreibungsinformationen einholen, um S1-Sicherheits-Vorabbeurteilung abzuschließen
-- DG002 (Hoch) auflösen: bestätigte MOA-Daten von DrugBank/Kennzeichnung einholen, um mechanistische Verknüpfungsansprüche zu unterstützen oder zu widerlegen
-- Falls Repurposing weiter verfolgt wird, erwägen Sie, den Fokus auf die stärkeren sekundären Signale des Pakets zu richten — besonders **HER2-positives Mammakarzinom** (S1-Stufe, in-vitro-mechanistische Evidenz zu CCL5-CCR5/ERK-vermittelter Trastuzumab-Resistenz) und in niedrigerer Priorität die Hypothesen zu kutanem T-Zell-Lymphom und CMV-Infektion (L4, Research-Question-Stufe) — statt der Top-Vorhersage, die mechanistisch nicht unterstützt ist und multiple endokrine Neoplasie betrifft
-
+**Für ein Weiterkommen sind folgende Schritte nötig:**
+- Fachinformation (Warnhinweise, Gegenanzeigen) beschaffen und auswerten, da die Sicherheitsprüfung sonst nicht fortgesetzt werden kann
+- Daten zum Wirkmechanismus ergänzen (z. B. aus DrugBank)
+- Prüfung einer mechanistischen Verbindung zwischen CCR5 und multipler endokriner Neoplasie in der Literatur
+- Für das HER2-positive Mammakarzinom: weitere präklinische Studien zur CCR5-Blockade bei Trastuzumab-Resistenz
+- Klärung der regulatorischen Situation, da die deutsche Zulassung erloschen ist
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

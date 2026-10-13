@@ -2,7 +2,7 @@
 layout: default
 title: Grazoprevir
 parent: Nur Modellvorhersage (L5)
-nav_order: 186
+nav_order: 219
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,92 +29,104 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Grazoprevir: Von Hepatitis C zu HIV-Infektionskrankheit
+# Grazoprevir: Von chronischer Hepatitis C zu HIV-Infektion
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Grazoprevir ist ein HCV-NS3/4A-Proteasehemmer, der als Bestandteil der Fixkombination Zepatier® (Grazoprevir + Elbasvir) vermarktet wird und zur Behandlung der chronischen Hepatitis-C-Virus(HCV)-Genotyp-1-, 4- und 6-Infektion eingesetzt wird. TxGNN prognostiziert einen Score von 99,73% für „HIV-Infektionskrankheit", aber bei der Überprüfung beschreiben alle unterstützenden klinischen Studien und Literaturquellen die Behandlung von HCV bei Patienten, die mit HIV koinfiziert sind – nicht die Behandlung von HIV selbst. Dies ist sehr wahrscheinlich ein Datenbankko-Vorkommen-Artefakt und keine echte pharmakologische Signatur, und das Evidenzpaket selbst kennzeichnet diese Begründung explizit.
+Grazoprevir ist ein NS3/4A-Proteasehemmer, der ursprünglich zur Behandlung der chronischen Hepatitis C eingesetzt wurde (in der Fixkombination mit Elbasvir, Zepatier). Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei einer **HIV-Infektion** voraus. Die Datenlage umfasst **10 klinische Studien** und **20 Publikationen**. Diese belegen jedoch fast ausschließlich die Behandlung der Hepatitis C bei HIV/HCV-Koinfizierten, nicht eine Wirkung gegen HIV selbst.
+
+---
 
 ## Schnellübersicht
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Chronische Hepatitis-C-Virus(HCV)-Infektion, Genotyp 1, 4, 6 – als Proteasehemmer-Komponente von Zepatier® (Grazoprevir + Elbasvir). (Nicht im strukturierten Feld `original_indications` vorhanden; abgeleitet aus konsistenten Evidenzen über Studien/Literatur in diesem Paket.) |
-| Prognostizierte neue Indikation | HIV-Infektionskrankheit |
-| TxGNN-Prognosescore | 99,73% |
-| Evidenzstufe | L5 (nur Modellvorhersage; keine Studie behandelt HIV mit Grazoprevir direkt) |
-| Taiwan-Marktstatus | Nicht vermarktet (Nicht vermarktet) |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | **Halten** |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Chronische Hepatitis C |
+| Vorhergesagte neue Indikation | HIV-Infektion |
+| TxGNN-Vorhersagewert | 99,73 % |
+| Evidenzstufe | L1 (formal; die Studien betreffen jedoch HCV, nicht HIV) |
+| Marktstatus in Deutschland | Nur erloschene Zulassung |
+| Anzahl der Zulassungen | 1 (0 gültig, 1 erloschen) |
+| Empfohlene Entscheidung | Proceed with Guardrails |
 
-## Warum ist diese Vorhersage angemessen?
+---
 
-Detaillierte formale MOA-Daten für Grazoprevir wurden als Datenlücke in diesem Evidenzpaket gekennzeichnet. Die Evidenz selbst (Studienbeschreibungen und Literaturabstrakte) identifiziert Grazoprevir jedoch konsistent als einen **HCV-NS3/4A-Proteasehemmer**, der mit dem NS5A-Hemmer Elbasvir unter der Marke Zepatier® kombiniert wird, um eine anhaltende virologische Ansprechrate (SVR) bei chronischer HCV-Infektion zu erreichen.
+## Warum ist diese Vorhersage plausibel?
 
-Entscheidend ist, dass **dieser Mechanismus keine bekannte Relevanz für HIV hat**. HIV erfordert die Hemmung seiner eigenen Protease-, Reverse-Transkriptase- oder Integrase-Enzyme – keine davon sind strukturell mit der HCV-NS3/4A-Protease verwandt. Jede einzelne klinische Studie und Literaturquelle, die für diesen Kandidaten gefunden wurde, beschreibt die Behandlung von **HCV** bei Patienten, die auch HIV tragen (HIV/HCV-Koinfektionspopulationen), die HCV-Heilungsraten (SVR12), Leberfibrose, kardiovaskuläres Risiko oder Arzneimittelwechselwirkungen mit Antiretroviralen bewerten. Keine bewertet Grazoprevir als Behandlung für HIV selbst, und keine Virus-Unterdrückung oder CD4/Viruslast-Endpunkt für HIV wird in diesem Evidenzsatz irgendwo gemeldet.
+Zum Wirkmechanismus liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Grazoprevir hemmt die NS3/4A-Protease des Hepatitis-C-Virus und ist Teil der Kombination mit dem NS5A-Hemmer Elbasvir. Bei Hepatitis C ist die Wirksamkeit gut belegt.
 
-**Schlussfolgerung dieses Abschnitts: Die Vorhersage wird weder mechanistisch noch klinisch unterstützt.** Sie spiegelt höchstwahrscheinlich ein Graphen-Embedding-Artefakt wider, das durch das häufige Co-Vorkommen von „Grazoprevir" und „HIV" in Studienmetadaten für HCV/HIV-koinfizierte Kohorten verursacht wird, anstatt eines echten Umpositionierungssignals.
+Ein direkter Wirkmechanismus gegen HIV ist nicht bekannt. HIV besitzt eine Aspartylprotease, die sich von der HCV-Serinprotease unterscheidet. Der hohe TxGNN-Wert spiegelt vermutlich die Nähe von Virusinfektionen im Wissensgraphen wider. Die vorliegende Evidenz bestätigt vor allem die ursprüngliche HCV-Indikation in der Population mit HIV-Koinfektion. Es handelt sich daher nicht um ein echtes Repurposing für HIV, sondern um eine Bestätigung der bestehenden Indikation in einer Koinfektionspopulation.
 
-## Klinische Studienevidenz
+---
 
-| Studiennummer | Phase | Status | Rekrutierung | Wichtigste Ergebnisse |
+## Klinische Evidenz
+
+| Studiennummer | Phase | Status | Teilnehmer | Kernaussagen |
 |---------|------|------|------|---------|
-| [NCT02105662](https://clinicaltrials.gov/study/NCT02105662) | Phase 3 | Abgeschlossen | 218 | C-EDGE CO-INFECTION: GZR+EBR für **HCV** GT1/4/6 bei HIV/HCV-koinfiziert, therapienaive Probanden – bewertet HCV-SVR12, nicht HIV-Ergebnisse. |
-| [NCT01717326](https://clinicaltrials.gov/study/NCT01717326) | Phase 2 | Abgeschlossen | 573 | C-WORTHY: GZR+EBR±RBV für **HCV**; Arm mit HIV/HCV-Koinfizierung eingeschlossen, primärer Endpunkt ist HCV-SVR12. |
-| [NCT02252016](https://clinicaltrials.gov/study/NCT02252016) | Phase 3 | Abgeschlossen | 159 | GZR+EBR für **HCV** GT1/4/6 bei Patienten mit angeborenen Blutungsstörungen, mit/ohne HIV-Koinfizierung. |
-| [NCT02785666](https://clinicaltrials.gov/study/NCT02785666) | Phase 3 | Abgeschlossen | 150 | Swiss HCVree Trial: „treat, counsel, cure" Strategie für **HCV** bei HIV-positiven MSM; HIV selbst ist kein Behandlungsziel. |
-| [NCT02057003](https://clinicaltrials.gov/study/NCT02057003) | N/A | Unbekannt | 1000 | HEPAVIR-Kohorte: Wirksamkeit/Verträglichkeit von DAA-Regimen für **HCV** bei HIV/HCV-koinfizierte Patienten in der Praxis. |
-| [NCT02600325](https://clinicaltrials.gov/study/NCT02600325) | Phase 3 | Abgeschlossen | 80 | DAHHS-2: GZR+EBR für **akute HCV** Genotyp 1/4 bei HIV-positiven Personen. |
-| [NCT02897596](https://clinicaltrials.gov/study/NCT02897596) | Phase 3 | Unbekannt | 62 | GZR/EBR für frühe chronische **HCV** GT1/4 bei HIV-koinfizierte Patienten (8 vs. 12 Wochen). |
-| [NCT03037151](https://clinicaltrials.gov/study/NCT03037151) | Phase 4 | Unbekannt | 100 | Sicherheit/Fibroseverbesserung mit GZR+EBR für **HCV** GT1/6, zirrhose, mit oder ohne HIV. |
-| [NCT03098121](https://clinicaltrials.gov/study/NCT03098121) | Phase 4 | Abgeschlossen | 40 | GZR+EBR für **HCV** GT1 bei PWID/MSM mit HIV-Koinfizierung, vorherige Peg-IFN/RBV-Erfahrung. |
-| [NCT03823911](https://clinicaltrials.gov/study/NCT03823911) | Phase 4 | Abgeschlossen | 87 | Kardiovaskuläre Ergebnisse nach **HCV**-Eradikation bei HIV/HCV-koinfiziert vs. HIV-monoinfinziert Kontrollen – keine HIV-Wirksamkeitsstudie. |
+| [NCT02105662](https://clinicaltrials.gov/study/NCT02105662) | Phase 3 | Abgeschlossen | 218 | Grazoprevir + Elbasvir bei therapienaiven HCV-Patienten mit HIV-Koinfektion (Ziel: SVR12) |
+| [NCT02252016](https://clinicaltrials.gov/study/NCT02252016) | Phase 3 | Abgeschlossen | 159 | Placebokontrollierte Studie bei HCV mit erblichen Blutkrankheiten, mit und ohne HIV-Koinfektion |
+| [NCT02600325](https://clinicaltrials.gov/study/NCT02600325) | Phase 3 | Abgeschlossen | 80 | Akute HCV-Infektion (Genotyp 1/4) bei HIV-Infizierten (DAHHS-2) |
+| [NCT02897596](https://clinicaltrials.gov/study/NCT02897596) | Phase 3 | Unbekannt | 62 | 8 oder 12 Wochen Therapie bei früher chronischer HCV mit HIV-Koinfektion |
+| [NCT02785666](https://clinicaltrials.gov/study/NCT02785666) | Phase 3 | Abgeschlossen | 150 | „Treat, Counsel and Cure"-Strategie bei HIV-positiven MSM mit HCV (Swiss HCVree) |
+| [NCT03098121](https://clinicaltrials.gov/study/NCT03098121) | Phase 4 | Abgeschlossen | 40 | Wirksamkeit und Verträglichkeit bei vorbehandelten Patienten mit HCV/HIV-Koinfektion |
+| [NCT03823911](https://clinicaltrials.gov/study/NCT03823911) | Phase 4 | Abgeschlossen | 87 | Kardiovaskuläre Risiken nach HCV-Eradikation bei HIV/HCV |
+| [NCT04048850](https://clinicaltrials.gov/study/NCT04048850) | k. A. | Abgeschlossen | 25 | Kohortenstudie bei HCV-Monoinfektion und HIV/HCV-Koinfektion mit Substanzgebrauch |
+| [NCT03407703](https://clinicaltrials.gov/study/NCT03407703) | k. A. | Unbekannt | 50 | Beobachtungsstudie zur Nierenfunktion nach HCV-Heilung, mit und ohne HIV |
+| [NCT02057003](https://clinicaltrials.gov/study/NCT02057003) | k. A. | Unbekannt | 1000 | Praxiskohorte (HEPAVIR) zu DAA-Therapien bei HIV/HCV-Koinfektion |
 
-**Jede oben genannte Studie behandelt HCV in einer HIV-positiven Population; keine behandelt HIV als Zielkrankheit.**
+Alle Studien sind auf die HCV-Behandlung ausgerichtet. Ein HIV-spezifisches Wirksamkeitssignal liegt nicht vor.
+
+---
 
 ## Literaturevidenz
 
-| PMID | Jahr | Typ | Journal | Wichtigste Ergebnisse |
+| PMID | Jahr | Typ | Journal | Kernaussagen |
 |------|-----|------|------|---------|
-| [26423374](https://pubmed.ncbi.nlm.nih.gov/26423374/) | 2015 | RCT | The Lancet HIV | C-EDGE CO-INFECTION: Wirksamkeit/Sicherheit von GZR+EBR für **HCV** bei HIV/HCV-koinfizierte Patienten. |
-| [25467560](https://pubmed.ncbi.nlm.nih.gov/25467560/) | 2015 | RCT (Phase 2) | Lancet | C-WORTHY: 8 vs. 12 Wochen GZR+EBR±RBV für **HCV** GT1 mono- und HIV/HCV-Koinfizierung. |
-| [28689442](https://pubmed.ncbi.nlm.nih.gov/28689442/) | 2017 | Übersicht | Expert Opin Drug Metab Toxicol | Überprüfung von Arzneimittelwechselwirkungen zwischen DAAs (einschl. Grazoprevir) und Antiretroviralen bei HIV-Patienten, die wegen HCV behandelt werden. |
-| [30745392](https://pubmed.ncbi.nlm.nih.gov/30745392/) | 2019 | PK-Studie | Antimicrob Agents Chemother | PK-Wechselwirkungen von Elbasvir/Grazoprevir mit HIV-Proteasehemmern (Ritonavir, Atazanavir, Lopinavir, Darunavir). |
-| [30541077](https://pubmed.ncbi.nlm.nih.gov/30541077/) | 2019 | DDI-Studie | J Antimicrob Chemother | Wechselwirkungsbewertung zwischen Elbasvir/Grazoprevir und HIV-Integrase-Hemmern (Raltegravir, Dolutegravir). |
-| [32246857](https://pubmed.ncbi.nlm.nih.gov/32246857/) | 2020 | Systematische Übersicht/Meta-Analyse | J Gastroenterol Hepatol | Netzwerk-Meta-Analyse der Wirksamkeit/Sicherheit von DAA-Regimen für **HCV** bei HIV/HCV-koinfizierte Patienten. |
-| [28417245](https://pubmed.ncbi.nlm.nih.gov/28417245/) | 2017 | Übersicht | Drugs | Umfassende Überprüfung von Elbasvir/Grazoprevir für chronische **HCV** GT1/4. |
-| [30233138](https://pubmed.ncbi.nlm.nih.gov/30233138/) | 2018 | Übersicht | Drug Des Devel Ther | Sicherheits- und Wirksamkeitsevidenz für Elbasvir/Grazoprevir bei **HCV**. |
-| [27603877](https://pubmed.ncbi.nlm.nih.gov/27603877/) | 2016 | Übersicht | Expert Rev Clin Pharmacol | MOA, PK/PD, Wirksamkeits- und Sicherheitsprüfung von Elbasvir/Grazoprevir für **HCV** GT1/4. |
-| [26849059](https://pubmed.ncbi.nlm.nih.gov/26849059/) | 2016 | Übersicht | Expert Opin Drug Metab Toxicol | Pharmakodynamik/Pharmakokinetik von Elbasvir und Grazoprevir bei **HCV**-Behandlung. |
+| [26423374](https://pubmed.ncbi.nlm.nih.gov/26423374/) | 2015 | Nicht randomisierte, offene Studie | The Lancet HIV | C-EDGE CO-INFECTION: Wirksamkeit und Sicherheit von Grazoprevir + Elbasvir bei HCV/HIV-Koinfektion |
+| [29344726](https://pubmed.ncbi.nlm.nih.gov/29344726/) | 2018 | RCT (integrierte Analyse) | Journal of Gastroenterology | Sicherheit und Wirksamkeit bei 1070 Teilnehmern mit HCV-Genotyp 1b |
+| [32246857](https://pubmed.ncbi.nlm.nih.gov/32246857/) | 2020 | Systematische Übersicht / Netzwerk-Metaanalyse | J Gastroenterol Hepatol | Wirksamkeit und Sicherheit von DAA-Regimen bei HCV/HIV-Koinfektion |
+| [28417245](https://pubmed.ncbi.nlm.nih.gov/28417245/) | 2017 | Review | Drugs | Elbasvir/Grazoprevir bei chronischer HCV Genotyp 1 und 4 |
+| [30233138](https://pubmed.ncbi.nlm.nih.gov/30233138/) | 2018 | Review | Drug Des Devel Ther | Aktuelle Evidenz zu Sicherheit und Wirksamkeit von Elbasvir/Grazoprevir |
+| [27603877](https://pubmed.ncbi.nlm.nih.gov/27603877/) | 2016 | Review | Expert Rev Clin Pharmacol | Elbasvir und Grazoprevir bei HCV-Genotyp 1 und 4 |
+| [28689442](https://pubmed.ncbi.nlm.nih.gov/28689442/) | 2017 | Review | Expert Opin Drug Metab Toxicol | Arzneimittelinteraktionen bei HIV-Infizierten unter HCV-Therapie |
+| [30541077](https://pubmed.ncbi.nlm.nih.gov/30541077/) | 2019 | Interaktionsstudie | J Antimicrob Chemother | Interaktionspotenzial mit den HIV-Integrasehemmern Raltegravir und Dolutegravir |
+| [32306039](https://pubmed.ncbi.nlm.nih.gov/32306039/) | 2020 | Kohorte | J Antimicrob Chemother | Sofortbehandlung kürzlich erworbener HCV-Infektion bei MSM mit Grazoprevir/Elbasvir |
+| [37731164](https://pubmed.ncbi.nlm.nih.gov/37731164/) | 2023 | Review | Clin Pharmacokinet | Pharmakokinetische Interaktionen der HCV-DAAs |
 
-**Keine der obigen Literaturquellen bewertet Grazoprevir als Anti-HIV-Mittel** – die DDI/PK-Papiere beschreiben, wie man Grazoprevir sicher mit Antiretroviralen kombiniert, wenn man HCV bei HIV-positiven Patienten behandelt, nicht die Anti-HIV-Wirksamkeit von Grazoprevir selbst.
+---
 
-## Taiwan-Marktinformationen
+## Marktinformationen Deutschland
 
-Grazoprevir (und die Zepatier®-Kombination) wird **derzeit nicht in Taiwan vermarktet** – 0 registrierte Zulassungen, keine Darreichungsformen aufgezeichnet. Dies bedeutet, dass keine lokalen behördlichen oder sicherheitsrelevanten Kennzeichnungsinformationen verfügbar sind zum Überprüfen.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/004126 | Zepatier | k. A. | Chronische Hepatitis C (Status: erloschen) |
 
-## Sicherheitserwägungen
+---
 
-Strukturierte Sicherheitsdaten (wichtige Warnhinweise, Kontraindikationen, DDI-Datenbank) waren für diesen Kandidaten nicht verfügbar. Das Literatur-Evidenzpaket enthält jedoch quellengestützte Pharmakokinetik-Interaktionsdaten, die für jede künftige HIV-bezogene Verwendung relevant sind:
+## Sicherheitshinweise
 
-- **Arzneimittelwechselwirkungen (aus Literatur, nicht aus strukturierten DDI-Daten):** Elbasvir/Grazoprevir zeigt klinisch signifikante pharmakokinetische Wechselwirkungen mit Ritonavir-geboosterten HIV-Proteasehemmern (Ritonavir, Atazanavir, Lopinavir, Darunavir) und mit HIV-Integrase-Hemmern (Raltegravir, Dolutegravir) (PMID [30745392](https://pubmed.ncbi.nlm.nih.gov/30745392/), [30541077](https://pubmed.ncbi.nlm.nih.gov/30541077/)). Diese Wechselwirkungen sind für HIV/HCV-koinfizierte Patienten, die beide Wirkstoffklassen gleichzeitig erhalten, wichtig, deuten aber nicht auf Anti-HIV-Aktivität von Grazoprevir hin.
+- **Arzneimittelinteraktionen:** Insgesamt wurden 53 Interaktionen erfasst. Als **schwerwiegend (Major)** eingestuft sind u. a. Clarithromycin, Dexamethason, Eluxadolin, Obeticholsäure, Rosuvastatin, Simvastatin, Cobicistat, Eltrombopag und Artesunat. Als **moderat** eingestuft sind u. a. Aprepitant, Cimetidin, Clotrimazol, Miconazol, Troglitazon, Deferasirox, Ticagrelor, Ivacaftor, Zafirlukast, Chloramphenicol und Erythromycin.
+- **Hinweis zu antiretroviralen Mitteln:** Bei gleichzeitiger HIV-Therapie sind Interaktionen über CYP3A4 und OATP1B1 (Hemmer und Induktoren) sorgfältig zu steuern.
 
-Für alle anderen Sicherheitsinformationen verweisen Sie bitte auf die Packungsbeilage, sobald sie von der TFDA formal überprüft wurde.
+Für Warnhinweise und Gegenanzeigen siehe Fachinformation.
+
+---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Halten**
+**Entscheidung: Proceed with Guardrails**
 
 **Begründung:**
-Der TxGNN-Score (99,73%) wird durch keine Studien- oder Literaturevidenz der direkten Behandlung von HIV mit Grazoprevir unterstützt. Alle 10+ Studien und 20 Literaturquellen, die identifiziert wurden, sind HCV-Behandlungsstudien, die in HIV/HCV-koinfizierte Populationen durchgeführt wurden – ein klassisches Co-Vorkommens-Artefakt in Wissensgraph-Modellen. Es gibt keinen bekannten oder plausiblen molekularen Mechanismus (Grazoprevir zielt auf HCV-NS3/4A-Protease; HIV ist abhängig von Protease/Reverse-Transkriptase/Integrase aus einer nicht verwandten Retrovirus-Familie), der die Anti-HIV-Aktivität unterstützt. Grazoprevir wird auch derzeit nicht in Taiwan vermarktet.
+Für die Population mit HIV/HCV-Koinfektion liegt starke Evidenz aus mehreren Phase-3-Studien vor. Diese bestätigt jedoch die ursprüngliche HCV-Indikation und keine Wirkung gegen HIV. Die Zulassung in Deutschland ist erloschen. Die Vorhersage ist daher nicht als echtes Repurposing für HIV zu werten.
 
-**Um fortzufahren, ist Folgendes erforderlich (bevor dies als etwas anderes als Halten betrachtet werden kann):**
-- In-vitro-Assay-Daten, die Grazoprevir-Aktivität gegen HIV-Protease, Reverse-Transkriptase oder Integrase bestätigen (oder widerlegen)
-- Formale DrugBank/TFDA-MOA und Kennzeichnungsdokumentation (derzeit eine Datenlücke)
-- Falls das In-vitro-Signal negativ ist (erwartet), sollte dieser Kandidat eher geschlossen als vorangebracht werden
+**Für das weitere Vorgehen sind erforderlich:**
+- Klärung, ob tatsächlich eine anti-HIV-Wirkung geprüft werden soll (präklinische und mechanistische Daten fehlen)
+- Daten zum Wirkmechanismus
+- Fachinformation des BfArM mit Warnhinweisen und Gegenanzeigen für das Sicherheits-Screening
+- Interaktionsmanagement mit antiretroviralen Therapien
+- Klärung des Zulassungsstatus (erloschene Zulassung)
 
-**Hinweis zu anderen bewerteten Vorhersagen in diesem Paket:** Ränge 2–10 (HBV, HEV, HAV, tierische Hepatitis, Omsk-Hämorrhagisches Fieber, SIV, FIV, eine seltene neurodevelopmentale Störung) wurden auch überprüft und zeigen das gleiche oder schwächere Muster – alle als „Halten" bewertet (L5, keine echte mechanistische oder klinische Unterstützung), außer Rang 7 (Kyasanur-Waldkrankheit), das als **Forschungsfrage** mit niedriger Priorität gekennzeichnet wurde, basierend auf einer In-silico-Docking-Studie (PMID 34662258), die die Konservierung der NS3-Protease der Flaviviridae-Familie über Gattungen hinweg ausnutzt – erfordert dennoch Validierung im Labor, bevor weitere Maßnahmen ergriffen werden.
-
+**Weitere Vorhersagen (zur Einordnung):** Hepatitis B, E und A, Omsk-Fieber, Kyasanur-Waldkrankheit, SIV, felines Immunschwächesyndrom und eine seltene neurologische Entwicklungsstörung wurden ebenfalls vorhergesagt. Für diese besteht jeweils keine belastbare Evidenz oder kein plausibler Mechanismus (Empfehlung: Hold). Bei der Kyasanur-Waldkrankheit gibt es lediglich eine In-silico-Studie, die als Forschungsfrage einzustufen ist.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

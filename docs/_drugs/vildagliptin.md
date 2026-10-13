@@ -2,7 +2,7 @@
 layout: default
 title: Vildagliptin
 parent: Nur Modellvorhersage (L5)
-nav_order: 427
+nav_order: 499
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,11 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Vildagliptin: Vom Typ-2-Diabetes mellitus zum fokalen Stiff-Limb-Syndrom
+# Vildagliptin: Von Diabetes mellitus Typ 2 zum fokalen Stiff-Limb-Syndrom
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Vildagliptin ist ein DPP-4-(Dipeptidyl-Peptidase-4-)Hemmer, ursprünglich für Typ-2-Diabetes mellitus (T2DM) entwickelt, der die Glukosekontrolle durch Verlängerung der endogenen GLP-1-/GIP-Aktivität verbessert.
-> Die Top-Vorhersage des TxGNN-Modells ist **Fokales Stiff-Limb-Syndrom** mit einer Vorhersagepunktzahl von **99.88%**,
-> aber dieser Kandidat hat derzeit **0 klinische Studien** und **0 unterstützende Publikationen**, und das Evidenzpaket selbst deutet auf keinen plausiblen mechanistischen Zusammenhang hin — dies ist ein reiner Modell-Score-Hit, keine substantiierte Repurposing-Hypothese.
+Vildagliptin ist ein oraler DPP-4-Hemmer, der ursprünglich zur Behandlung des **Diabetes mellitus Typ 2** zugelassen wurde. Das TxGNN-Modell sagt eine mögliche Wirksamkeit beim **fokalen Stiff-Limb-Syndrom** voraus. Dafür liegen bislang **keine klinischen Studien** und **keine Publikationen** vor. Die Vorhersage stützt sich ausschließlich auf das Modell.
 
 ---
 
@@ -43,67 +41,74 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Typ-2-Diabetes mellitus *(abgeleitet aus Literatur im Evidenzpaket; nicht formal in behördlichen Daten erfasst, da das Arzneimittel in Deutschland nicht zugelassen ist)* |
+| Ursprüngliche Indikation | Diabetes mellitus Typ 2 |
 | Vorhergesagte neue Indikation | Fokales Stiff-Limb-Syndrom |
-| TxGNN-Vorhersagepunktzahl | 99.88% |
-| Evidenzstufe | L5 |
-| Marktstatus Deutschland | Nicht zugelassen (Nicht zugelassen) |
-| Anzahl der Genehmigungen | 0 |
-| Empfehlung | Halten |
+| TxGNN-Vorhersagewert | 99,88 % |
+| Evidenzlevel | L5 |
+| Marktstatus in Deutschland | Nur erloschene bzw. widerrufene Zulassungen |
+| Anzahl Zulassungen | 7 (davon 0 gültig) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Warum ist diese Vorhersage (nicht) plausibel?
 
-Detaillierte Daten zum Wirkungsmechanismus sind offiziell als Datenlücke gekennzeichnet (DrugBank-Abfrage ausstehend). Basierend auf Informationen aus der begleitenden Literatur und Studienevidence ist bekannt, dass Vildagliptin DPP-4 hemmt, wodurch die Halbwertszeit des endogenen GLP-1 und GIP verlängert wird, die glukoseabhängige Insulinsekretion verbessert und die unangemessene Glukagonfreisetzung unterdrückt wird — seine Wirksamkeit bei T2DM ist in dieser Arzneistoffklasse gut belegt.
+Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Vildagliptin hemmt nach bekanntem Wissen die Dipeptidylpeptidase-4 (DPP-4) und damit den Abbau der Inkretine GLP-1 und GIP. Dadurch verbessert es die Insulinsekretion und unterdrückt eine unangemessen hohe Glukagonausschüttung. Die Wirksamkeit beim Typ-2-Diabetes ist gut belegt.
 
-Jedoch besteht für den Top-Kandidaten **Fokales Stiff-Limb-Syndrom** keine plausible mechanistische Verbindung. Das Stiff-Limb-/Stiff-Person-Syndrom ist eine autoimmune neurologische Erkrankung, die hauptsächlich durch anti-GAD65-Antikörper und gestörte GABAerge inhibitorische Neurotransmission angetrieben wird — eine Pathophysiologie, die völlig unabhängig von Inkretin-/Glukosesignalisierung ist. Die Begründung des Evidenzpakets erklärt explizit: *\"Kein erkennbarer mechanistischer Zusammenhang... Dies ist ein reines TxGNN-Vorhersagescore ohne biologische Unterstützung.\"* Die gleiche Situation gilt für TxGNNs weitere Top-5-Treffer (klassisches Stiff-Person-Syndrom, Thiamin-responsive Dysfunktionssyndrom, Opsismodysplasie) — alle sind seltene, strukturell oder genetisch bedingte Erkrankungen ohne bekannte DPP-4-Verbindung.
-
-Angesichts des sehr hohen Rohscores, aber völliger Abwesenheit von bestätigender Evidenz, sollte diese Vorhersage derzeit als statistisches Artefakt der Knowledge-Graph-Einbettung betrachtet werden und nicht als glaubwürdige Repurposing-Hypothese.
+Das fokale Stiff-Limb-Syndrom ist eine seltene, vermutlich autoimmune bzw. neurologische Erkrankung mit Muskelsteifigkeit. Ein belegter Zusammenhang mit der DPP-4-Hemmung ist nicht bekannt. Nach den für diesen Bericht zusammengestellten Daten ist keine mechanistische Verbindung gestützt. Der hohe Modellwert (Rang 1927) spiegelt vermutlich Nachbarschaftsbeziehungen im Wissensgraphen wider, etwa über Diabetes- und Autoimmunknoten, und keinen therapeutischen Mechanismus.
 
 ---
 
-## Klinische Studien-Evidenz
+## Klinische Studien
 
-Derzeit keine verwandten klinischen Studien registriert.
-
----
-
-## Literatur-Evidenz
-
-Derzeit keine verwandte Literatur verfügbar.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Marktstatus Deutschland
+## Literaturevidenz
 
-Vildagliptin ist in Deutschland derzeit **nicht zugelassen** (Nicht zugelassen) gemäß dieses Evidenzpakets, mit 0 registrierten Genehmigungen. Keine Produkt-/Lizenzunterlagen sind für diesen Kandidaten verfügbar.
-
----
-
-## Sicherheitsüberlegungen
-
-Bitte siehe Fachinformation für Sicherheitsinformationen. (Schlüsselwarnungen, Kontraindikationen und Wechselwirkungsdaten sind alle derzeit als Datenlücken gekennzeichnet — TFDA-Label-Abruf ist ein Blockierungsfaktor, siehe Schlussfolgerung.)
+Derzeit ist keine zugehörige Literatur verfügbar.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Marktinformationen Deutschland
 
-**Entscheidung: Halten**
+Alle sieben Zulassungen sind zentrale EU-Zulassungen (EMEA/H/C) und derzeit erloschen bzw. widerrufen. Es gibt keine gültige Zulassung.
+
+| Zulassungsnummer | Produktname | Zulassungsinhaber | Zugelassene Indikation | Status |
+|---------|------|------|-----------|------|
+| EMEA/H/C/001051 | Xiliarx | Novartis Europharm Limited | Diabetes mellitus Typ 2 | Erloschen |
+| EMEA/H/C/001048 | Jalra | Novartis Europharm Limited | Diabetes mellitus Typ 2 | Erloschen |
+| EMEA/H/C/000771 | Galvus | Novartis Europharm Limited | Diabetes mellitus Typ 2 | Erloschen |
+| EMEA/H/C/001049 | Zomarist | Novartis Europharm Limited | Diabetes mellitus Typ 2 | Erloschen |
+| EMEA/H/C/000807 | Eucreas | Novartis Europharm Limited | Diabetes mellitus Typ 2 | Erloschen |
+
+Weitere erloschene Zulassungen: Vildagliptin / Metformin hydrochloride Accord (EMEA/H/C/005738) und Icandra (EMEA/H/C/001050).
+
+---
+
+## Sicherheitsaspekte
+
+Die zusammengestellten Daten enthalten keine Warnhinweise und Gegenanzeigen aus der Fachinformation. Zu Wechselwirkungen liegen nur Informationen zu Zielstrukturen vor (DPP-4, DPP-8, DPP-9, TRPV4), aber keine klinisch bewerteten Arzneimittelwechselwirkungen.
+
+Aus der Literatur ist ein Sicherheitssignal bekannt: Ein Fallbericht aus dem Jahr 2026 beschreibt eine wahrscheinliche Vildagliptin-assoziierte akute Pankreatitis. Bitte beachten Sie die Fachinformation für die vollständigen Sicherheitsangaben.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Hold**
 
 **Begründung:**
-Die Top-Vorhersage (Fokales Stiff-Limb-Syndrom) hat Evidenzstufe L5 — einen Modell-Score mit Null klinischen Studien, Null Literatur und keinem erkennbaren mechanistischen Anlass. Kombiniert mit dem fehlenden Marktzugang des Arzneimittels in Deutschland und fehlenden MOA-/Label-Daten (DG001 blockiert, DG002 hoher Schweregrad), gibt es keine Grundlage, diese Indikation über die exploratorische Sichtung hinaus voranzutreiben.
+Die Vorhersage zum fokalen Stiff-Limb-Syndrom beruht allein auf dem Modellwert, ohne Studien, Literatur oder plausiblen Mechanismus (Evidenzlevel L5). Zudem besitzt Vildagliptin in Deutschland derzeit keine gültige Zulassung.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- TFDA/Abruf der offiziellen Fachinformation (Warnungen, Kontraindikationen) — derzeit blockiert S1-Sicherheits-Screening
-- Bestätigte DrugBank-MOA-Daten
-- Beliebige präklinische oder mechanistische Evidenz, die DPP-4-/Inkretin-Signalwege mit autoimmun vermittelten Stiff-Person-Spektrum-Erkrankungen verbindet, bevor weitere Evaluierung gerechtfertigt ist
+**Für ein Weiterverfolgen wären nötig:**
+- Eine nachvollziehbare mechanistische Hypothese zwischen DPP-4-Hemmung und dem Krankheitsbild
+- Präklinische oder klinische Daten zum fokalen Stiff-Limb-Syndrom
+- Die Fachinformation (Warnhinweise, Gegenanzeigen) und vollständige Mechanismusdaten
+- Klärung des Zulassungs- bzw. Verfügbarkeitsstatus
 
----
-
-**Zusätzliche Notiz — Alternative Signale, die verfolgt werden sollten:**
-Unter den 10 TxGNN-vorhergesagten Indikationen für dieses Arzneimittel sticht **Typ-1-Diabetes mellitus** (Rang 10, Score 99.37%) als der einzige Kandidat mit substantieller Evidenz hervor: Evidenzstufe **L2**, einschließlich einer abgeschlossenen Phase-2-RCT, die direkt Rapamycin + Vildagliptin zur Funktionswiederherstellung von β-Zellen bei langjährigem T1D testet (NCT02803892; entsprechende RCT-Publikation PMID 33124663), plus mechanistische RCT-Evidenz zur Glukagon-Gegenregulation bei T1D (PMID 22855332). Dies ist mechanistisch kohärent (Inkretin-vermittelte β-Zell-Erhaltung als Adjuvans, nicht als Insulinersatz) und ist ein besser zu rechtfertigender Kandidat für eine Evaluierung in der „Forschungsfrage"-Phase als der Top-Ranking-Stiff-Limb-Syndrom-Hit, obwohl die meisten seiner 40 und mehr aufgeführten Studien T2DM-Hintergrundrauschen sind und vor Gebrauch einzeln neu bewertet werden müssten.
-
+**Hinweis zu anderen Vorhersagen:** Unter den weiteren Vorhersagen im selben Datensatz hat **Diabetes mellitus Typ 1** die mit Abstand umfangreichste Evidenz. Dazu gehören sieben klinische Studien (u. a. eine abgeschlossene Phase-2-Studie mit Rapamycin und eine Phase-3-Studie mit unbekanntem Status) sowie mehrere Publikationen, darunter eine doppelblinde randomisierte Studie (PMID 33124663). Diese Indikation wäre als Forschungsfrage vorrangig zu prüfen. Die Studien sind jedoch klein, und es fehlen bestätigende Studien größeren Umfangs.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

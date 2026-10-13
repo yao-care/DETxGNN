@@ -2,7 +2,7 @@
 layout: default
 title: Insulin Glulisine
 parent: Hohe Evidenz (L1-L2)
-nav_order: 207
+nav_order: 243
 evidence_level: L1
 indication_count: 10
 ---
@@ -29,97 +29,124 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Insulin Glulisine: Von Diabetes mellitus zu Typ-1-Diabetes mellitus
+# Insulin glulisin: Von Diabetes mellitus zu Diabetes mellitus Typ 1
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Insulin glulisine ist ein schnellwirkendes Insulinanalogon, das bereits zur glykämischen Kontrolle bei Diabetes mellitus verwendet wird. Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam für **Typ-1-Diabetes mellitus** ist, gestützt durch **75+ klinische Studien** und **20 Publikationen** — aber diese Indikation überlappt sich wesentlich mit der bestehenden, gut etablierten klinischen Verwendung des Arzneimittels, anstatt eine echte Umwidmungsmöglichkeit zu darstellen.
+Insulin glulisin ist ein schnell wirksames Insulinanalogon, das ursprünglich zur Behandlung von Diabetes mellitus zugelassen wurde. Das TxGNN-Modell sagt eine Wirksamkeit bei **Diabetes mellitus Typ 1** voraus. Dabei handelt es sich jedoch um eine Anwendung innerhalb der bestehenden Zulassung und nicht um eine echte Neuausrichtung. Die Vorhersage wird durch **30 klinische Studien** und **20 Publikationen** gestützt.
 
 ---
 
-## Schnelle Übersicht
+## Kurzüberblick
 
-| Element | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Diabetes mellitus (glykämische Kontrolle) – detaillierte genehmigte Indikationstexte sind nicht vorhanden (Datenlücke) |
-| Vorhergesagte neue Indikation | Typ-1-Diabetes mellitus |
-| TxGNN-Vorhersage-Score | 99.55% |
-| Evidenzstufe | L1 |
-| Marktstatus in Deutschland | Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Mit Vorsichtsmaßnahmen fortfahren |
+| Ursprüngliche Indikation | Diabetes mellitus |
+| Vorhergesagte neue Indikation | Diabetes mellitus Typ 1 |
+| TxGNN-Vorhersagewert | 99,55 % |
+| Evidenzlevel | L1 |
+| Marktstatus in Deutschland | Nur erloschene Zulassung (kein aktiv zugelassenes Produkt) |
+| Anzahl der Zulassungen | 1 (erloschen) |
+| Empfohlene Entscheidung | Proceed with Guardrails (Fortfahren mit Schutzmaßnahmen) |
 
 ---
 
-## Warum ist diese Vorhersage sinnvoll?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Daten zum Wirkmechanismus nicht verfügbar (Datenlücke). Basierend auf bekannter Pharmakologie ist Insulin glulisine ein rekombinantes schnellwirkendes Humaninsulin-Analogon, das an den Insulinrezeptor bindet, um den Blutzucker zu senken, und wird bereits klinisch zur glykämischen Kontrolle zu den Mahlzeiten (Bolus-Gaben) bei Typ-1- und Typ-2-Diabetes verwendet.
+Zu den Daten, die für diesen Bericht zusammengestellt wurden, liegen derzeit keine detaillierten Angaben zum Wirkmechanismus vor. Nach bekanntem Stand ist Insulin glulisin ein schnell wirksames Analogon des Humaninsulins. Es aktiviert den Insulinrezeptor und senkt dadurch den Blutzucker. Es setzt schneller ein und wirkt kürzer als Normalinsulin.
 
-Da Typ-1-Diabetes mellitus durch einen absoluten Insulinmangel gekennzeichnet ist, ist der Insulinersatz – einschließlich schnellwirkender Analoga wie Glulisine – ein etablierter Therapiestandard und keine neue therapeutische Hypothese. Das Evidenzpaket selbst kennzeichnet dies deutlich: Der mechanistische Zusammenhang ist hier „die ursprüngliche Indikation des Arzneimittels selbst und nicht eine Umwidmungs-Schlussfolgerung", was bedeutet, dass die TxGNN-Vorhersage überwiegend bestehendes, gut dokumentiertes klinisches Wissen zurückgewinnt, anstatt eine neuartige Anwendung zu identifizieren.
+Diabetes mellitus Typ 1 ist der Kernbereich der zugelassenen Indikation „Diabetes mellitus". Die Vorhersage ist daher keine echte Neuausrichtung, sondern bestätigt vorhandene klinische Evidenz. Mechanistisch ist sie naheliegend, da bei Typ 1 ein absoluter Insulinmangel besteht, der durch Insulinersatz ausgeglichen wird.
 
-Es ist auch erwähnenswert, dass unter den zehn in diesem Evidenzpaket bereitgestellten TxGNN-Vorhersagen nur Rang 1 (Typ-1-Diabetes mellitus) durch direkte Studien-/Literaturbelege (L1) gestützt wird. Ränge 2–10 (z. B. Thiamin-responsive Dysfunktionssyndrom, Opsismodysplasie, Stiff-Person-Syndrom, Lipodystrophie-Varianten) erzielen alle L4–L5 ohne unterstützende Studien oder Literatur, und mehrere scheinen Wissensgraph-Artefakte zu widerspiegeln – einschließlich mindestens zwei Fälle, in denen die „vorhergesagte Indikation" tatsächlich eine bekannte Nebenwirkung der Insulininjektion ist (lokalisierte Lipodystrophie/Lipoatrophie) anstatt eines behandelbaren Ziels, d. h. ein mögliches Signal umgekehrter Kausalität. Diese sollten nicht ohne unabhängige mechanistische Bewertung vorangebracht werden.
+Zu beachten ist: Da nur eine erloschene Zulassung vorliegt, ist die Verfügbarkeit in Deutschland eingeschränkt.
 
 ---
 
-## Klinische Studien-Evidenz
+## Evidenz aus klinischen Studien
 
-| Studiennummer | Phase | Status | Teilnehmerzahl | Wichtigste Ergebnisse |
+Insgesamt wurden 30 Studien erfasst, darunter mehrere abgeschlossene Phase-3-Studien. Die folgende Tabelle zeigt eine Auswahl der 10 relevantesten.
+
+| Studiennummer | Phase | Status | Teilnehmerzahl | Kernaussagen |
 |---------|------|------|------|---------|
-| [NCT07070752](https://clinicaltrials.gov/study/NCT07070752) | Phase 3 | Abgeschlossen | 224 | Nicht unterlegene Immunogenität, Wirksamkeit und Sicherheit des Biosimilars GP40321 vs. Apidra® bei T1DM |
-| [NCT01194258](https://clinicaltrials.gov/study/NCT01194258) | Phase 2 | Abgeschlossen | 132 | Doppelblind-Überkreuzungsstudie zum Vergleich von rHuPH20-formulierten Mahlzeitinsulin mit Insulin lispro |
-| [NCT02509429](https://clinicaltrials.gov/study/NCT02509429) | Phase 2 | Abgeschlossen | 24 | Künstliche Bauchspeicheldrüse mit geschlossenem Regelkreis reduziert nächtliche Hypoglykämie bei Kindern mit T1DM |
-| [NCT00546702](https://clinicaltrials.gov/study/NCT00546702) | Phase 3 | Abgeschlossen | 142 | 26-wöchige Wirksamkeit/Sicherheit von Insulin glulisine + Glargin bei T1DM (HbA1c, Hypoglykämie) |
-| [NCT00467376](https://clinicaltrials.gov/study/NCT00467376) | Phase 3 | Abgeschlossen | 485 | Glulisine vs. Lispro (mit Glargin) bei T1/T2DM: Wirksamkeit, Sicherheit, Häufigkeit von Hypoglykämie |
-| [NCT01159353](https://clinicaltrials.gov/study/NCT01159353) | Phase 1 | Abgeschlossen | 37 | PK/PD-Vergleich von Glulisine vs. Aspart zur postprandialen Glukosekontrolle |
-| [NCT02871089](https://clinicaltrials.gov/study/NCT02871089) | N/A | Aktiv, keine Rekrutierung | 96 | Insulinabgabe mit geschlossenem Regelkreis ab T1D-Beginn; residuelle Betazellenfunktion |
-| [NCT02914886](https://clinicaltrials.gov/study/NCT02914886) | Phase 4 | Abgeschlossen | 14 | Auswirkung von zinkfreiem Insulin (Glulisine) auf Lipoatrophie bei T1D-Pumpennutzern |
-| [NCT03495908](https://clinicaltrials.gov/study/NCT03495908) | N/A | Abgeschlossen | 136 | Normalinsulin vs. schnellwirkendes Insulin über tragbares V-Go-Abgabegerät |
-| [NCT02814123](https://clinicaltrials.gov/study/NCT02814123) | Phase 2 | Abgeschlossen | 28 | Schnellwirkendes Insulin mit geschlossenem Regelkreis ± Pramlintid-Gabe in Kombination bei T1DM |
+| [NCT00115570](https://clinicaltrials.gov/study/NCT00115570) | Phase 3 | Abgeschlossen | 572 | Insulin glulisin vs. Insulin lispro bei Kindern und Jugendlichen mit Typ-1-Diabetes über 26 Wochen |
+| [NCT00290979](https://clinicaltrials.gov/study/NCT00290979) | Phase 3 | Abgeschlossen | 250 | Nichtunterlegenheitsstudie zu glulisin vs. lispro bei Typ-1-Diabetes (28 Wochen) |
+| [NCT00467376](https://clinicaltrials.gov/study/NCT00467376) | Phase 3 | Abgeschlossen | 485 | Wirksamkeit und Sicherheit von glulisin vs. lispro bei Typ 1 oder 2 mit Insulin glargin |
+| [NCT00397553](https://clinicaltrials.gov/study/NCT00397553) | Phase 3 | Abgeschlossen | 104 | Offene Studie zu Wirksamkeit und Sicherheit von glulisin bei Typ 1 mit glargin als Basalinsulin |
+| [NCT00046150](https://clinicaltrials.gov/study/NCT00046150) | Phase 3 | Abgeschlossen | 59 | Sicherheitsvergleich von glulisin und Insulin aspart in Insulinpumpen (CSII) |
+| [NCT07070752](https://clinicaltrials.gov/study/NCT07070752) | Phase 3 | Abgeschlossen | 224 | Immunogenität eines Nachahmerprodukts (GP40321) im Vergleich zu Apidra® SoloStar® |
+| [NCT00607087](https://clinicaltrials.gov/study/NCT00607087) | Phase 4 | Abgeschlossen | 289 | glulisin vs. aspart und lispro in der Insulinpumpe: ungeklärte Hyperglykämien und Katheterverschlüsse |
+| [NCT01204593](https://clinicaltrials.gov/study/NCT01204593) | Phase 4 | Abgeschlossen | 206 | Basal-Bolus-Therapie (glargin + glulisin) bei zuvor unzureichend eingestelltem Typ-1-Diabetes |
+| [NCT01621776](https://clinicaltrials.gov/study/NCT01621776) | Nicht zutreffend | Abgeschlossen | 107 | Vergleich glulisin vs. lispro bei postprandialer Hyperglykämie unter Alltagsbedingungen |
+| [NCT00964574](https://clinicaltrials.gov/study/NCT00964574) | Phase 4 | Abgeschlossen | 68 | Nicht randomisierte Studie zu Wirksamkeit und Sicherheit von glulisin bei Typ 1 mit glargin |
 
 ---
 
-## Literatur-Evidenz
+## Evidenz aus der Literatur
 
-| PMID | Jahr | Typ | Journal | Wichtigste Ergebnisse |
+| PMID | Jahr | Typ | Fachzeitschrift | Kernaussagen |
 |------|-----|------|------|---------|
-| [16308840](https://pubmed.ncbi.nlm.nih.gov/16308840/) | 2005 | RCT | Horm Metab Res | Multinationale RCT zum Vergleich der Wirksamkeit/Sicherheit von Glulisine vs. Lispro bei Erwachsenen mit T1DM |
-| [41366610](https://pubmed.ncbi.nlm.nih.gov/41366610/) | 2026 | RCT (Phase III) | Diabetes Obes Metab | Biosimilar Insulin glulisine (T-Glu) nicht unterlegen gegenüber Original (R-Glu) bei T1DM |
-| [21457066](https://pubmed.ncbi.nlm.nih.gov/21457066/) | 2011 | RCT | Diabetes Technol Ther | 3-fache Überkreuzung: Glulisine vs. Aspart vs. Lispro über CSII-Pumpe bei T1DM |
-| [21291333](https://pubmed.ncbi.nlm.nih.gov/21291333/) | 2011 | RCT | Diabetes Technol Ther | 26-wöchige Studie: vergleichbare Wirksamkeit/Sicherheit von Glulisine vs. Lispro bei pädiatrischem T1DM |
-| [19614947](https://pubmed.ncbi.nlm.nih.gov/19614947/) | 2009 | RCT | Diabetes Obes Metab | Wirksamkeit/Sicherheit von Glulisine vs. Lispro bei japanischen Patienten mit T1DM |
-| [35933650](https://pubmed.ncbi.nlm.nih.gov/35933650/) | 2022 | Kohorten-/Vergleichsstudie | Acta Diabetol | Reale Vergleichsstudie von Glulisine vs. Lispro/Aspart für CSII bei T1DM |
-| [28544684](https://pubmed.ncbi.nlm.nih.gov/28544684/) | 2017 | Kohortenstudie | Pediatr Int | Glulisine für CSII bei pädiatrischem T1DM: 1-Jahres-Wirksamkeits-/Sicherheitsdaten |
-| [16123473](https://pubmed.ncbi.nlm.nih.gov/16123473/) | 2005 | PK-Studie | Diabetes Care | Pharmakokinetik und postprandiale Glukosekontrolle von Glulisine bei Kindern/Jugendlichen mit T1DM |
-| [19496630](https://pubmed.ncbi.nlm.nih.gov/19496630/) | 2009 | Übersichtsartikel | Drugs | Übersicht über die Rolle von Insulin glulisine in der Diabetesbehandlung |
-| [35650058](https://pubmed.ncbi.nlm.nih.gov/35650058/) | 2022 | Fallbericht | Nihon Ronen Igakkai Zasshi | Umstellung von Degludec→Glulisine verbesserte nächtliche Hypoglykämie/Arrhythmie bei älteren T1DM-Patienten |
+| [16308840](https://pubmed.ncbi.nlm.nih.gov/16308840/) | 2005 | RCT | Horm Metab Res | Vergleich von glulisin und lispro bei erwachsenen Typ-1-Diabetikern (683 randomisierte Patienten) |
+| [19614947](https://pubmed.ncbi.nlm.nih.gov/19614947/) | 2009 | RCT | Diabetes Obes Metab | Wirksamkeit und Sicherheit von glulisin vs. lispro bei japanischen Typ-1-Patienten mit glargin als Basalinsulin |
+| [23243636](https://pubmed.ncbi.nlm.nih.gov/23243636/) | 2012 | Systematische Übersicht | Drugs Today | Insulinanaloga bei Typ-1-Diabetes im Kindes- und Jugendalter |
+| [20150026](https://pubmed.ncbi.nlm.nih.gov/20150026/) | 2010 | Systematische Übersicht | Endocr Pract | Schnell wirksame Analoga vs. Normalinsulin im Basal-Bolus-Schema bei Typ 1 (HbA1c, Hypoglykämie, Dosis) |
+| [35933650](https://pubmed.ncbi.nlm.nih.gov/35933650/) | 2022 | Übersicht | Acta Diabetol | glulisin vs. lispro und aspart in der Pumpentherapie bei Typ 1 |
+| [19496630](https://pubmed.ncbi.nlm.nih.gov/19496630/) | 2009 | Übersicht | Drugs | Übersicht zur Anwendung von glulisin; vergleichbare Glukosewirkung wie lispro |
+| [16706558](https://pubmed.ncbi.nlm.nih.gov/16706558/) | 2006 | Übersicht | Drugs | Schnellerer Wirkeintritt und kürzere Wirkdauer als Normalinsulin; ähnliche HbA1c-Kontrolle |
+| [28544684](https://pubmed.ncbi.nlm.nih.gov/28544684/) | 2017 | Studie | Pediatr Int | glulisin in der Pumpe bei 20 Kindern: verbesserte postprandiale Glukosewerte nach einem Jahr |
+| [18076215](https://pubmed.ncbi.nlm.nih.gov/18076215/) | 2008 | Übersicht | Clin Pharmacokinet | Pharmakokinetik und Pharmakodynamik von glulisin |
+| [25865292](https://pubmed.ncbi.nlm.nih.gov/25865292/) | 2016 | Übersicht | Diabetes Metab Res Rev | Kontinuierliche subkutane Insulininfusion: Patientengruppen, Sicherheit, Wirksamkeit |
 
 ---
 
-## Informationen zum Markt in Deutschland
+## Marktinformationen Deutschland
 
-Derzeit nicht vermarktet in Deutschland – es liegen keine Vermarktungsgenehmigungen für diesen Kandidaten vor (0 Lizenzen registriert).
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000557 | Apidra (sanofi-aventis Deutschland GmbH) | Nicht angegeben | Diabetes mellitus |
+
+Die Zulassung ist erloschen. Aktuell ist keine gültige Zulassung vorhanden.
 
 ---
 
-## Sicherheitsüberlegungen
+## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. (TFDA-Warnungen/Kontraindikationen und DDI-Daten sind derzeit nicht verfügbar – gekennzeichnet als eine blockierende Datenlücke, DG001.)
+- **Arzneimittelwechselwirkungen:** Für Insulin glulisin wurden 100 Wechselwirkungen erfasst. Die Stufen „mäßig" und „gering" sind vertreten. Auswahl:
+  - **Mäßig:** Phenylephrin, Acebutolol, Acetazolamid, Formoterol, Pseudoephedrin, Doxycyclin, Epinephrin, Ethinylestradiol, Hydrocortison, Albiglutid, Salbutamol, Ethanol, Hydrochlorothiazid, Alogliptin, Metformin, Pioglitazon, Estradiol, Alpelisib
+  - **Gering:** Hydrocortison (topisch), Alclometason (topisch)
+- **Hinweis zu den Vorhersagen mit Sicherheitsrelevanz:** Lokalisierte Lipodystrophie und Lipoatrophie an der Einstichstelle sind bekannte Nebenwirkungen von Insulin. Die entsprechenden Modellvorhersagen (Rang 8 und 10) spiegeln wahrscheinlich eine Verursachung wider und sind als Sicherheitssignal zu werten, nicht als Therapieoption.
+
+Für weitere Sicherheitsangaben (Warnhinweise, Gegenanzeigen) siehe die Fachinformation.
+
+---
+
+## Weitere Vorhersagen (Kurzbewertung)
+
+| Vorhergesagte Indikation | TxGNN-Wert | Evidenzlevel | Einschätzung |
+|------|------|------|------|
+| Thiamin-responsives Dysfunktionssyndrom | 99,47 % | L5 | Hold: Insulin würde nur die diabetische Komponente behandeln, nicht den Transportdefekt |
+| Opsismodysplasie | 99,46 % | L5 | Hold: nur spekulativer Zusammenhang über INPPL1 (SHIP2) |
+| Fokales Stiff-Limb-Syndrom | 99,46 % | L5 | Hold: Zusammenhang über Anti-GAD-Autoimmunität, keine Evidenz |
+| Klassisches Stiff-Person-Syndrom | 99,46 % | L5 | Hold: Insulin behandelt nur den komorbiden Diabetes |
+| Autoimmune Oophoritis | 99,37 % | L5 | Hold: Assoziation über polyglanduläre Autoimmunität |
+| Pankreasagenesie | 99,17 % | L4 | Forschungsfrage: Insulinersatz mechanistisch plausibel, glulisin-spezifische Daten fehlen |
+| Medikamentös bedingte lokalisierte Lipodystrophie | 99,15 % | L5 | Hold: Sicherheitssignal |
+| Zentrifugale Lipodystrophie | 99,11 % | L5 | Hold: kein therapeutischer Ansatz belegt |
+| Druckinduzierte lokalisierte Lipoatrophie | 99,10 % | L5 | Hold: Nebenwirkungsassoziation |
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Mit Vorsichtsmaßnahmen fortfahren**
+**Entscheidung: Proceed with Guardrails (Fortfahren mit Schutzmaßnahmen)**
 
 **Begründung:**
-Die Evidenz ist stark (L1: mehrere abgeschlossene Phase-2/3-RCTs, einschließlich einer 2026-Phase-III-Biosimilar-Studie) für die Wirksamkeit und Sicherheit von Insulin glulisine bei Typ-1-Diabetes mellitus. Es handelt sich jedoch um bestätigende Evidenz für eine bereits bekannte Anwendung und nicht um ein echtes Umwidmungs-Signal, und zwei blockierende/schwerwiegende Datenlücken (TFDA-Kennzeichnung, MOA-Dokumentation) bleiben ungelöst, bevor eine sicherheitsrelevante Entscheidung finalisiert werden kann.
+Für Diabetes mellitus Typ 1 liegen mehrere abgeschlossene Phase-3-Studien und randomisierte Studien vor (Evidenzlevel L1). Es handelt sich jedoch um eine Anwendung innerhalb der bestehenden Zulassung und nicht um eine neue Indikation. Da die deutsche Zulassung erloschen ist, bestätigt die Empfehlung vorhandene Evidenz und stellt keinen neuen Repurposing-Vorschlag dar.
 
-**Zum Fortfahren ist Folgendes erforderlich:**
-- TFDA-Packungsbeilage Warnungen und Kontraindikationen (DG001, blockierend – erforderlich vor S1-Sicherheitsbewertung)
-- Detaillierte Dokumentation des Wirkmechanismus aus DrugBank (DG002)
-- Klarstellung des aufsichtsrechtlichen/kommerziellen Status angesichts null aktueller Vermarktungsgenehmigungen
-- Neubewertung, ob die Rang-1-„Vorhersage" als Indikationsbestätigung anstelle von Umwidmung neu klassifiziert werden sollte, und unabhängige Überprüfung der Ränge 2–10 (alle L4/L5, einschließlich zwei wahrscheinlicher umgekehrter Kausalitätssignale) vor weiteren Maßnahmen
-
+**Zum Fortfahren sind folgende Punkte erforderlich:**
+- Klärung der Verfügbarkeit in Deutschland (erloschene Zulassung, ggf. Alternativpräparate oder Neuzulassung)
+- Auswertung der Fachinformation zu Warnhinweisen und Gegenanzeigen (derzeit nicht verfügbar)
+- Daten zum Wirkmechanismus aus DrugBank
+- Prüfung der Wechselwirkungen mit häufigen Begleitmedikamenten (z. B. Betablocker, Kortikosteroide, Sympathomimetika)
+- Für die übrigen Vorhersagen (Rang 2–10): keine Weiterverfolgung ohne klinische Evidenz; die Lipodystrophie-Einträge als Sicherheitssignal dokumentieren
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

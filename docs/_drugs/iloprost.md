@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Iloprost
-parent: Hohe Evidenz (L1-L2)
-nav_order: 196
-evidence_level: L1
+parent: Nur Modellvorhersage (L5)
+nav_order: 231
+evidence_level: L5
 indication_count: 9
 ---
 
 # Iloprost
 {: .fs-9 }
 
-Evidenzniveau: **L1** | Vorhergesagte Indikationen: **9** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,15 +29,13 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **9**
 
 </div>
 
-# Iloprost: Von Pulmonalarterieller Hypertonie zu PAH assoziiert mit HIV-Infektion
+# Iloprost: Von pulmonaler arterieller Hypertonie zu hypotrichosis simplex der Kopfhaut
 
 ## Zusammenfassung in einem Satz
 
-Iloprost ist ein etablierter synthetischer Prostazyklinanalog (PGI2) zur Behandlung der pulmonalarteriellen Hypertonie (PAH), der durch IP-Rezeptor-vermittelte Vasodilatation sowie antithrombozytäre und antiproliferative Effekte wirkt.
-Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam bei der **pulmonalarteriellen Hypertonie assoziiert mit HIV-Infektion** sein könnte,
-einem spezifischen ätiologischen Subtyp der PAH, unterstützt durch **1 abgeschlossene Phase-3-randomisierte kontrollierte Studie** und **4 unterstützende Publikationen**.
-
-> Anmerkung: Dieses Evidenzpaket bewertete 9 Kandidatenindikationen für Iloprost, die meisten innerhalb der breiteren PAH-Erkrankungsfamilie (angeborene Herzerkrankung-PAH, Bindegewebserkrankung-PAH, HIV-PAH, Schistosomiasis-PAH, hämolytische Anämie-PAH) zuzüglich zweier unrelated Hair-Disorder-Vorhersagen ohne unterstützende Evidenz. Von diesen trägt die HIV-PAH-Indikation bei Weitem die stärkste Evidenz (L1, Phase-3-RCT) und ist Gegenstand dieses Berichts.
+Iloprost ist ein stabiles Prostacyclin-Analogon, das ursprünglich zur Behandlung der pulmonalen Hypertonie zugelassen wurde.
+Das TxGNN-Modell sagt für die Kopfhaut-Erkrankung **Hypotrichosis simplex** (Rang 1) eine mögliche Wirksamkeit voraus, hierfür liegen jedoch **keine klinischen Studien und keine Publikationen** vor.
+Deutlich besser belegt sind die weiteren Vorhersagen aus dem PAH-Spektrum, z. B. die **PAH bei angeborenem Herzfehler** (19 Publikationen) und die **PAH bei Bindegewebserkrankung** (19 Publikationen).
 
 ---
 
@@ -45,72 +43,85 @@ einem spezifischen ätiologischen Subtyp der PAH, unterstützt durch **1 abgesch
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Nicht als strukturiertes Feld in diesem Evidenzpaket verfügbar (Datenlücke); mechanistisch ist Iloprost ein etablierter PGI2-Analog, der zur pulmonalarteriellen Hypertonie verwendet wird (nach mechanistischen Anmerkungen in den Quelldaten) |
-| Vorhergesagte neue Indikation | Pulmonalarterielle Hypertonie assoziiert mit HIV-Infektion |
-| TxGNN-Vorhersage-Score | 99.21% |
-| Evidenzlevel | L1 |
-| Marktstatus Deutschland | ✗ Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Weiterführung mit Schutzmaßnahmen |
+| Ursprüngliche Indikation | Pulmonale Hypertonie |
+| Vorhergesagte neue Indikation | Hypotrichosis simplex der Kopfhaut (Rang 1) |
+| TxGNN-Vorhersagewert | 99,45 % |
+| Evidenzniveau | L5 (für Rang 1); zum Vergleich L3 für PAH bei angeborenem Herzfehler und PAH bei Bindegewebserkrankung |
+| Marktstatus in Deutschland | Nur erloschene/gelöschte Zulassung |
+| Anzahl der Zulassungen | 1 |
+| Empfohlene Entscheidung | Hold (für Rang 1) |
 
 ---
 
-## Warum ist diese Vorhersage sinnvoll?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Daten zur ursprünglichen Indikation und zum Wirkmechanismus nicht als strukturierte Felder verfügbar (gekennzeichnet als Datenlücken DG001/DG002 in diesem Evidenzpaket). Basierend auf den mechanistischen Anmerkungen im Evidenzpaket ist Iloprost ein synthetischer Prostazyklinanalog (PGI2), der den IP-Rezeptor aktiviert und pulmonale Vasodilatation der glatten Gefäßmuskulatur, Hemmung der Blutplättchenaggregation und Unterdrückung der Proliferation glatter Muskulatur bewirkt – der Kernpharmakologie-Pfad, der der PAH-Behandlung zugrunde liegt.
+Detaillierte Daten zum Wirkmechanismus lagen für diesen Bericht nicht vor. Iloprost gehört jedoch zur Klasse der Prostacyclin-Analoga: Es aktiviert den IP-Rezeptor, erhöht cAMP, führt zu pulmonaler Vasodilatation, hemmt die Thrombozytenaggregation und kann die Proliferation glatter Gefäßmuskelzellen verringern.
 
-HIV-assoziierte PAH teilt die gleiche nachgelagerte Pathologie (Gefäßumstrukturierung und Endotheldysfunktion) wie andere PAH-Ätiologien, obwohl der vorgelagerte Auslöser (HIV-bedingte Endothelschädigung) unterschiedlich ist. Da Iloprosts therapeutische Wirkung auf dem gemeinsamen Gefäßumstrukturierungspfad statt auf dem krankheitsspezifischen Auslöser funktioniert, stellt dies eine **substanzklasseninterne, etikettennahe Indikationserweiterung** dar, statt einer mechanistisch neuen Repurposing-Hypothese – analog zur etablierten Verwendung eines anderen Prostazyklinanalogons, Epoprostenol, bei HIV-PAH.
+Für die Top-Vorhersage (Hypotrichosis simplex der Kopfhaut) ist der mechanistische Zusammenhang **spekulativ**. Theoretisch könnte eine Vasodilatation die Durchblutung der Kopfhaut oder den Haarfollikelzyklus beeinflussen. Die Hypotrichosis simplex ist jedoch eine genetische Erkrankung, die ein Vasodilatator voraussichtlich nicht an der Ursache angreift. Ähnliches gilt für die kongenitale Hypotrichosis mit Milien und die diffuse Alopecia areata (autoimmun): Hier fehlen belastbare Daten.
 
-Dies wird weiter unterstützt durch die Tatsache, dass eine abgeschlossene Phase-3-, doppelblinde, randomisierte, placebokontrollierte Crossover-Studie (PROWESS 15) explizit HIV-assoziierte PAH-Patienten neben idiopathischen/familiären PAH-Patienten eingeschlossen hat, was darauf hindeutet, dass diese Population bereits als Teil des standardmäßigen Iloprost-/Prostanoid-Behandlungsparadigmas in der klinischen Praxis betrachtet wird.
-
----
-
-## Klinische Studienevidenz
-
-| Studiennummer | Phase | Status | Teilnehmerzahl | Wichtige Befunde |
-|---------|------|------|------|---------|
-| [NCT00709956](https://clinicaltrials.gov/study/NCT00709956) | Phase 3 | Abgeschlossen | 64 | Doppelblinde, randomisierte, placebokontrollierte Crossover-Studie zur Wirkung einer Einzeldosis inhaliertem Iloprost Power 15 auf Belastungskapazität bei symptomatischen PAH-Patienten, einschließlich solcher mit HIV-assoziierter PAH, NYHA-Klasse II–IV, entweder ohne Vorbehandlung oder unter stabiler Begleittherapie mit Bosentan/Ambrisentan/Sildenafil |
+Deutlich plausibler sind die vorhergesagten PAH-Untergruppen (angeborener Herzfehler, Bindegewebserkrankung, HIV, Schistosomiasis, hämolytische Anämie). Sie teilen die pulmonale Gefäßerkrankung der zugelassenen Indikation, sodass es sich eher um eine Erweiterung auf Untergruppen als um ein echtes Repurposing handelt. Bei der PAH bei hämolytischer Anämie ist der Nutzen wegen der abweichenden Pathophysiologie (Scavenging von Stickstoffmonoxid, endotheliale Dysfunktion) unsicher. Bei der pulmonalen arteriovenösen Malformation besteht dagegen ein Sicherheitsrisiko, da ein pulmonaler Vasodilatator die Ventilations-Perfusions-Fehlanpassung oder den Shunt verschlechtern könnte.
 
 ---
 
-## Literaturevidenz
+## Evidenz aus klinischen Studien
 
-| PMID | Jahr | Typ | Journal | Wichtige Befunde |
+Derzeit sind keine zugehörigen klinischen Studien registriert (weder für die Top-Vorhersage noch für die übrigen vorhergesagten Indikationen).
+
+---
+
+## Evidenz aus der Literatur
+
+Für die Top-Vorhersage (Hypotrichosis simplex der Kopfhaut) liegt derzeit keine zugehörige Literatur vor. Die folgende Tabelle zeigt daher die Literatur zur best belegten Vorhersage, **PAH bei angeborenem Herzfehler** (Rang 3), ausgewählt nach Studientyp:
+
+| PMID | Jahr | Typ | Journal | Kernaussagen |
 |------|-----|------|------|---------|
-| [17195895](https://pubmed.ncbi.nlm.nih.gov/17195895/) | 2006 | Übersicht | The Mount Sinai Journal of Medicine | Übersicht über HIV-assoziierte Lungenhypertonie; geschätzte Inzidenz ~0.5% bei HIV-infizierten Personen, Pathogenese noch unklar |
-| [14720012](https://pubmed.ncbi.nlm.nih.gov/14720012/) | 2003 | Übersicht | American Journal of Respiratory Medicine | Überblick über Prostanoidtherapie bei verschiedenen PAH-Ätiologien, einschließlich HIV-Infektion, mit Hinweis auf gemeinsame obstruktive pulmonale mikrovaskuläre Pathologie |
-| [31090367](https://pubmed.ncbi.nlm.nih.gov/31090367/) | 2019 | Kohortenstudie (Registerstudie) | Terapevticheskii Arkhiv | Sechsjährige Analyse des Nationalen Registers zur PAH-Prävalenz, klinischem Verlauf, Therapie und Mortalität |
-| [18260882](https://pubmed.ncbi.nlm.nih.gov/18260882/) | 2007 | Übersicht | Kardiologiia | Überblick über kontrollierte Studien mit Prostazyklin und synthetischen Analogen bei verschiedenen PAH-Subtypen einschließlich HIV-Infektion |
+| [31371115](https://pubmed.ncbi.nlm.nih.gov/31371115/) | 2020 | Randomisierte, placebokontrollierte Doppelblind-Crossover-Pilotstudie | Int J Cardiol | Vernebeltes Iloprost bei Eisenmenger-Syndrom (schwerste Form der CHD-PAH) |
+| [28608969](https://pubmed.ncbi.nlm.nih.gov/28608969/) | 2017 | Kohorte | Clin Exp Pharmacol Physiol | Effekt von Iloprost auf Biomarker (NO, ET-1, ADMA, Gal-3, BNP, Harnsäure) bei CHD-PAH |
+| [29426959](https://pubmed.ncbi.nlm.nih.gov/29426959/) | 2018 | Kohorte | Pediatr Cardiol | Sicherheit und akute hämodynamische Wirkung von inhaliertem Iloprost bei Kindern mit PAH-CHD |
+| [24729548](https://pubmed.ncbi.nlm.nih.gov/24729548/) | 2015 | Kohorte | Pediatr Pulmonol | Langzeitwirkung von inhaliertem Iloprost bei Kindern mit pulmonaler Hypertonie |
+| [27492657](https://pubmed.ncbi.nlm.nih.gov/27492657/) | 2017 | Kohorte | J Cardiol | Langzeit-Iloprost und Funktion des rechten Ventrikels bei Eisenmenger-Syndrom |
+| [30719004](https://pubmed.ncbi.nlm.nih.gov/30719004/) | 2018 | Prospektive Studie | Front Pharmacol | Akute Iloprost-Inhalation verbessert die Funktion des rechten Ventrikels (kardiale MRT) bei PAH |
+| [36010107](https://pubmed.ncbi.nlm.nih.gov/36010107/) | 2022 | Fallserie | Children (Basel) | Add-on-Kombination aus Sildenafil, Bosentan und Iloprost bei 5 Eisenmenger-Patienten |
+| [19436672](https://pubmed.ncbi.nlm.nih.gov/19436672/) | 2009 | Übersichtsarbeit | Vasc Health Risk Manag | Inhaliertes Iloprost bei pulmonaler Hypertonie im Kindesalter |
+| [22621693](https://pubmed.ncbi.nlm.nih.gov/22621693/) | 2012 | Übersichtsarbeit | Drugs | Behandlung der PAH bei Bindegewebserkrankung |
+| [24753712](https://pubmed.ncbi.nlm.nih.gov/24753712/) | 2014 | Fallbericht | J Korean Med Sci | PAH bei kongenitalem extrahepatischem portokavalem Shunt |
+
+Für die **PAH bei Bindegewebserkrankung** (Rang 7) ist zusätzlich die Langzeitstudie zu intravenösem Iloprost im häuslichen Umfeld bei idiopathischer und CTD-assoziierter PAH relevant ([27651181](https://pubmed.ncbi.nlm.nih.gov/27651181/), 2017, Kohorte, Respirology).
 
 ---
 
-## Marktinformation Deutschland
+## Marktinformationen Deutschland
 
-Im aktuellen Datensatz wurden keine Zulassungen für Iloprost gefunden (0 Zulassungen, Marktstatus: nicht vermarktet).
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000474 | Ventavis (Bayer AG) | – | Pulmonale Hypertonie (Status: erloschen/gelöscht) |
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+**Kontraindikationen aus dem Wissensgraphen** (TxGNN/PrimeKG, keine Angaben aus dem Beipackzettel): Leberversagen, chronisch obstruktive Lungenerkrankung (COPD, auch schwere früh beginnende Form), hypotensive Erkrankung, Lungenödem, Bronchialerkrankung.
+
+**Arzneimittelwechselwirkungen:** Insgesamt wurden 100 Wechselwirkungen gefunden. Beispiele mit mäßigem Schweregrad: Acetylsalicylsäure, Epinephrin, Ephedrin, Papaverin, Mannitol, Glycerin, Sibutramin, Fenfluramin sowie die SGLT2-Hemmer Canagliflozin, Dapagliflozin, Empagliflozin und Ertugliflozin. Bei Acetylsalicylsäure ist wegen der thrombozytenhemmenden Wirkung auf additive Blutungsneigung zu achten. Für Calcitriol, Pantoprazol, Morphin, Metformin und Omeprazol ist der Schweregrad nicht eingestuft.
+
+Für Warnhinweise und Gegenanzeigen laut Fachinformation liegen keine Daten vor; bitte die Fachinformation heranziehen. Bei HIV-PAH sollte zusätzlich eine Interaktionsprüfung mit antiretroviralen Mitteln erfolgen.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Weiterführung mit Schutzmaßnahmen**
+**Entscheidung: Hold** (für die Top-Vorhersage Hypotrichosis simplex der Kopfhaut)
 
 **Begründung:**
-Eine abgeschlossene Phase-3-RCT schloss explizit HIV-assoziierte PAH-Patienten ein, und die mechanistische Begründung ist eine substanzklasseninterne, etikettennahe Erweiterung von Iloprosts etabliertem PGI2-Pfad statt eines neuartigen Mechanismus – dies ist der Kandidat mit der stärksten Evidenz unter den neun in diesem Paket bewerteten Indikationen (L1/S3, im Vergleich zu L2–L5 für die anderen).
+- Der hohe TxGNN-Wert ist eine reine Graph-Vorhersage ohne Studien oder Literatur und ohne plausiblen kausalen Mechanismus bei einer genetischen Haarerkrankung.
+- Für die PAH bei angeborenem Herzfehler und die PAH bei Bindegewebserkrankung (jeweils L3) ist eine Einstufung als **Proceed with Guardrails** vertretbar. Die Evidenz besteht jedoch überwiegend aus Beobachtungsstudien, Fallserien und Übersichten, nicht aus Phase-3-Studien. Hinzu kommt, dass die einzige deutsche Zulassung erloschen ist.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- Behebung der blockierenden Datenlücke DG001: TFDA/BfArM-Packungsbeilage-Warnhinweise und Gegenanzeigen, erforderlich vor jeder S1-Sicherheitsbewertung
-- Behebung der hochpriorären Datenlücke DG002: formale DrugBank-MOA-Bestätigung
-- Strukturierte Daten zur ursprünglichen Indikation (derzeit nicht im Arzneimitteleintrag vorhanden)
-- HIV-Antiretroviral-Arzneimittelwechselwirkungsdaten, angesichts der nahezu universellen gleichzeitigen ART-Anwendung in dieser Population
-- Bewertung eines deutschen Markteintritts- und Regulierungspfads, da Iloprost derzeit keine Zulassungen in den vorliegenden Unterlagen hat
-- Wirksamkeits- und Sicherheitsdaten auf Subgruppenebene speziell für den HIV-PAH-Arm von NCT00709956, statt der gepoolten Ergebnisse der gesamten PAH-Population
-
+**Für das weitere Vorgehen wird benötigt:**
+- Daten zum Wirkmechanismus aus DrugBank
+- Warnhinweise und Gegenanzeigen aus der Fachinformation (BfArM), die derzeit eine blockierende Datenlücke darstellen
+- Klärung des aktuellen Zulassungs- und Vermarktungsstatus in Deutschland
+- Bei Verfolgung der PAH-Untergruppen: kontrollierte Studien und ein Sicherheitsmonitoring (z. B. Blutdruck, Blutungsrisiko, Begleitmedikation)
+- Für die Haarerkrankungen: zunächst präklinische oder mechanistische Belege, bevor eine Weiterverfolgung erwogen wird
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

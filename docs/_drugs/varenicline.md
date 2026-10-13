@@ -2,7 +2,7 @@
 layout: default
 title: Varenicline
 parent: Nur Modellvorhersage (L5)
-nav_order: 421
+nav_order: 492
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,62 +29,99 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Vareniclin: Von der Raucherentwöhnung bis zur Migränestörung
+# Vareniclin: Von Tabakentwöhnung zu Migräne
 
 ## Zusammenfassung in einem Satz
 
-Vareniclin ist ein partieller Agonist von nikotinischen Acetylcholinrezeptoren (nAChR), der als Hilfsmittel zur Raucherentwöhnung eingesetzt wird. Das TxGNN-Modell prognostiziert, dass es bei **Migränestörung** wirksam sein könnte, aber diese Vorhersage wird derzeit durch **null klinische Studien** und **null Publikationen** gestützt — es ist ein reines Modelloutput ohne mechanistische oder klinische Validierung.
+Vareniclin ist ein Wirkstoff zur Raucherentwöhnung (Tabakentwöhnung). Das TxGNN-Modell sagt voraus, dass er bei **Migräne** wirksam sein könnte. Diese Vorhersage beruht jedoch ausschließlich auf einem Graphenmodell: Es liegen **0 klinische Studien** und **keine Publikation mit Wirksamkeitsdaten bei Migräne** vor. Die einzige verknüpfte Publikation ist ein Fallbericht zu einem Herzstillstand.
+
+---
 
 ## Schnellübersicht
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Hilfsmittel zur Raucherentwöhnung (aus Literatur abgeleitet; offizieller Text der behördlichen Zulassung nicht verfügbar) |
-| Prognostizierte neue Indikation | Migränestörung |
-| TxGNN-Vorhersage-Score | 99,92 % |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Tabakentwöhnung |
+| Vorhergesagte neue Indikation | Migräne (migraine disorder) |
+| TxGNN-Vorhersagewert | 99,92 % |
 | Evidenzstufe | L5 |
-| Status auf dem deutschen Markt | ✗ Nicht im Handel |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Zurückstellen |
+| Marktstatus in Deutschland | Nur erloschene Zulassung (keine gültige Zulassung) |
+| Anzahl der Zulassungen | 1 (erloschen) |
+| Empfohlene Entscheidung | Hold |
 
-## Warum ist diese Vorhersage vernünftig?
+---
 
-Derzeit sind detaillierte Daten zum Wirkmechanismus nicht verfügbar (Datenlücke). Auf der Grundlage der umgebenden Literatur in diesem Evidenzpaket wird Vareniclin als „ein partieller Agonist/Antagonist mit Affinität und Selektivität für alpha4-beta2-Nikotinrezeptoren des Acetylcholins" beschrieben und wird klinisch als First-Line-Therapie zur Raucherentwöhnung durch Verringerung von Nikotinverlangen und Entzugssymptomen eingesetzt.
+## Warum ist diese Vorhersage plausibel (oder nicht)?
 
-In diesem Evidenzpaket gibt es keine Literatur oder klinische Studie, die α4β2-nAChR-Partial-Agonismus mit der Pathophysiologie von Migräne verbindet. Die einzige migränebezogene Evidenz unter einer verwandten Kandidaten-Indikation („Kopfschmerzstörung", Rang 9) besteht ausschließlich aus Raucherentwöhnungsstudien, in denen Kopfschmerz als ein beiläufiger Nebenwirkungsterm auftritt — einschließlich eines Fallberichts („Bath-related headache induced by varenicline", PMID 23175211), der beschreibt, dass Vareniclin **Kopfschmerz verursacht**, d. h. Evidenz, die in die entgegengesetzte Richtung der Hypothese weist. Es gibt kein positives mechanistisches oder klinisches Signal für die Behandlung von Migräne in den verfügbaren Daten.
+Detaillierte Daten zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten nicht vor. Bekannt ist, dass Vareniclin ein partieller Agonist am α4β2- und ein voller Agonist am α7-nikotinischen Acetylcholinrezeptor ist. Seine Wirkung bei der Tabakentwöhnung ist belegt. Mechanistisch ist denkbar, dass nikotinerge cholinerge Signalwege an trigeminovaskulären Mechanismen und an der kortikalen Streudepolarisation (Cortical Spreading Depression) beteiligt sind. Dies ist jedoch nicht belegt.
 
-Angesichts des völligen Fehlens von krankheitsspezifischen Studien, Publikationen oder mechanistischen Begründungen sollte diese Vorhersage eher als nicht validierter Modelloutput denn als pharmakologisch fundierte Hypothese behandelt werden.
+Der hohe Score (0,999) spiegelt vermutlich die Graphentopologie wider und kein unabhängiges klinisches Signal. Kopfschmerz und Migräne sind zudem bekannte Nebenwirkungen von Vareniclin; das Sicherheitssignal weist also in die **entgegengesetzte Richtung** der vorhergesagten Wirkung. Der Bericht über einen durch Vareniclin ausgelösten Kopfschmerz beim Baden (PMID 23175211) unterstreicht dies.
 
-## Klinische Studienbeweise
+Weitere Vorhersagen mit geringerer Plausibilität (alle L5, Hold, ohne Studien): Migräne mit Hirnstammaura, mehrere Haarausfallerkrankungen (kongenitale Hypotrichose mit Milien, Hypotrichosis simplex der Kopfhaut, diffuse Alopecia areata, Alopezie), Offenwinkelglaukom, primäres hereditäres Glaukom, Kopfschmerzerkrankungen und pulmonale Hypertonie. Für diese gibt es keine belastbaren Hinweise auf einen Nutzen.
 
-Derzeit keine verwandten klinischen Studien registriert
+---
 
-## Literaturbeweise
+## Evidenz aus klinischen Studien
 
-Derzeit keine verwandte Literatur verfügbar
+Derzeit sind keine klinischen Studien zu Vareniclin bei Migräne registriert.
 
-## Marktinformationen für Deutschland
+---
 
-Vareniclin ist derzeit **nicht im Handel** in Deutschland (0 Zulassungen in den Unterlagen), daher ist keine Produkt-/Zulassungstabelle verfügbar.
+## Evidenz aus der Literatur
+
+Für Migräne ist nur eine Publikation verknüpft, die keinen Bezug zur Wirksamkeit hat:
+
+| PMID | Jahr | Typ | Journal | Kernaussage |
+|------|-----|------|------|---------|
+| [19585710](https://pubmed.ncbi.nlm.nih.gov/19585710/) | 2009 | Fallbericht | Therapie | Herzstillstand unter Vareniclin; Sicherheitsereignis, ohne Bezug zur Migräne-Wirksamkeit |
+
+Für das verwandte Thema „Kopfschmerzerkrankung" sind 13 Arbeiten verknüpft. Sie behandeln Vareniclin in der Tabak-, Vaping- und Rauchlos-Tabak-Entwöhnung sowie Sicherheitsübersichten. Kopfschmerz erscheint dort als häufige Nebenwirkung, nicht als Behandlungsziel. Beispiele:
+
+| PMID | Jahr | Typ | Journal | Kernaussage |
+|------|-----|------|------|---------|
+| [27116918](https://pubmed.ncbi.nlm.nih.gov/27116918/) | 2016 | RCT | Lancet | EAGLES: neuropsychiatrische Sicherheit und Wirksamkeit von Vareniclin, Bupropion und Nikotinpflaster bei Rauchern mit und ohne psychiatrische Erkrankungen |
+| [41991082](https://pubmed.ncbi.nlm.nih.gov/41991082/) | 2026 | Systematische Übersicht/Metaanalyse | J Subst Use Addict Treat | Vareniclin zur E-Zigaretten-Entwöhnung |
+| [21134997](https://pubmed.ncbi.nlm.nih.gov/21134997/) | 2010 | RCT | BMJ | Vareniclin zur Entwöhnung von rauchlosem Tabak |
+| [24911368](https://pubmed.ncbi.nlm.nih.gov/24911368/) | 2014 | RCT | Clin Pharmacol Ther | Erneute Behandlung mit Vareniclin bei Rauchern |
+| [27223809](https://pubmed.ncbi.nlm.nih.gov/27223809/) | 2017 | Gepoolte RCT-Analyse | J Diabetes Investig | Vareniclin bei Rauchern mit Diabetes |
+| [24393456](https://pubmed.ncbi.nlm.nih.gov/24393456/) | 2014 | RCT | Int J Neuropsychopharmacol | Vareniclin und subjektive Methamphetamin-Effekte |
+| [41189154](https://pubmed.ncbi.nlm.nih.gov/41189154/) | 2025 | Pharmakovigilanz-Analyse | Medicine | Postmarketing-Sicherheit von Tyrvaya (nasales Vareniclin) |
+| [23175211](https://pubmed.ncbi.nlm.nih.gov/23175211/) | 2012 | Fallbericht | Arq Neuropsiquiatr | Durch Vareniclin ausgelöster Kopfschmerz beim Baden |
+
+Keine dieser Arbeiten belegt eine Wirksamkeit bei Migräne oder einer anderen Kopfschmerzerkrankung.
+
+---
+
+## Marktinformationen Deutschland
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000699 | Champix (Pfizer Europe MA EEIG) | – | Tabakentwöhnung (Status: erloschen) |
+
+---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Fachinformation für Sicherheitsinformationen.
+- **Wechselwirkungen**: Die Abfrage ergab 100 Einträge. Die meisten sind nicht klassifiziert (Stufe „unbekannt"). Cimetidin ist als geringfügig (Minor) eingestuft. Weitere genannte Wirkstoffe sind u. a. Metformin, Omeprazol, Pantoprazol, Lansoprazol, Morphin, Simvastatin, Prednison, Doxycyclin, Phentermin, Epinephrin und Glimepirid.
+- **Kontraindikationen laut Wissensgraph** (keine Packungsbeilagen-Angaben): Angststörung, neurotische Störung, dysthyme Störung, bipolare Störung, schwere affektive Störung, Substanzmissbrauch/-abhängigkeit, akutes Koronarsyndrom, periphere Gefäßerkrankung, intermittierendes Hinken, periphere arterielle Verschlusskrankheit und Schizophrenie.
+
+Für Warnhinweise und Gegenanzeigen laut Fachinformation siehe bitte die Packungsbeilage; diese Angaben liegen den Daten nicht vor.
+
+---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Zurückstellen**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die Top-Vorhersage (Migränestörung) hat keine unterstützenden klinischen Studien oder Literatur, und die einzige tangential verwandte Evidenz in diesem Evidenzpaket (unter „Kopfschmerzstörung") deutet tatsächlich darauf hin, dass Vareniclin möglicherweise eher Kopfschmerz *induziert* als behandelt. In Kombination mit zwei blockierenden/hochgradigen Datenlücken — fehlende TFDA-Label-Daten (Warnhinweise/Kontraindikationen) und fehlende MOA-Bestätigung — erfüllt dieser Kandidat nicht die Mindestanforderungen, um die Phase S0 zu verlassen.
+- Die Vorhersage beruht nur auf dem Graphenmodell (L5). Es gibt keine Studien und keine Wirksamkeitsdaten bei Migräne, und Kopfschmerz ist eine bekannte Nebenwirkung von Vareniclin. Zudem besteht in Deutschland keine gültige Zulassung.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- TFDA-genehmigtes Label (Warnhinweise, Kontraindikationen), um das S1-Sicherheits-Screening freizuschalten (DG001, Blockierend)
-- Bestätigter Wirkmechanismus aus DrugBank/primären Pharmakologie-Quellen (DG002, Hoch)
-- Krankheitsspezifische präklinische oder klinische Evidenz, die Vareniclin bei Migräne direkt bewertet (nicht Raucherentwöhnungsstudien mit Kopfschmerz als beiläufiger Term)
-- Klarstellung der offiziellen ursprünglichen Indikation und des behördlichen Zulassungsstatus, da `original_indications` derzeit leer ist
-- Wenn niedrigerrangige Kandidaten verfolgt werden (z. B. Glaukom, Alopezie), muss zuerst entsprechende Studien-/Literatur-Evidenz ermittelt werden — derzeit existiert für keinen der 10 Kandidaten in diesem Paket solche Evidenz
-
+**Für ein Weiterkommen erforderlich:**
+- Präklinische Daten oder Mechanismusstudien zur Rolle nikotinerger Rezeptoren bei Migräne
+- Detaillierte Daten zum Wirkmechanismus (MOA)
+- Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) vom BfArM
+- Prüfung des Kopfschmerz-Sicherheitssignals sowie der kardiovaskulären und neuropsychiatrischen Risiken
+- Klärung des Zulassungsstatus in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

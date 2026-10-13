@@ -2,7 +2,7 @@
 layout: default
 title: Vestronidase Alfa
 parent: Nur Modellvorhersage (L5)
-nav_order: 425
+nav_order: 497
 evidence_level: L5
 indication_count: 9
 ---
@@ -29,81 +29,98 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9**
 
 </div>
 
-# Vestronidase Alfa: Von Mukopolysaccharidose Typ VII (Sly-Syndrom) zu Scheie-Syndrom
+# Vestronidase alfa: Von Mukopolysaccharidose VII zum Scheie-Syndrom
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Vestronidase alfa ist eine rekombinante humane β-Glucuronidase (GUS)-Enzymersatztherapie, die ursprünglich für **Mukopolysaccharidose Typ VII (Sly-Syndrom)** entwickelt wurde.
-> Das TxGNN-Modell sagt voraus, dass sie möglicherweise wirksam für **Scheie-Syndrom (MPS I)** sein könnte,
-> aber **es gibt derzeit keine klinischen Studien oder Literatur**, die diese spezifische Indikation direkt unterstützen, und die zugrundeliegende mechanistische Begründung deutet darauf hin, dass dies wahrscheinlich ein falsch-positives Ergebnis ist.
+Vestronidase alfa ist eine rekombinante humane Beta-Glucuronidase (Enzymersatztherapie) und wurde ursprünglich zur Behandlung der **Mukopolysaccharidose VII** (MPS VII) zugelassen.
+Das TxGNN-Modell sagt eine mögliche Wirksamkeit beim **Scheie-Syndrom** voraus, doch dafür liegen **keine klinischen Studien und keine Publikationen** vor. Die Vorhersage beruht allein auf dem Modell (Evidenzstufe L5).
 
 ---
 
 ## Schnellübersicht
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Mukopolysaccharidose Typ VII (Sly-Syndrom) *(nicht in deutschen Zulassungsdaten vorhanden — Arzneimittel nicht vermarktet; aus Sekundärliteratur gewonnen)* |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Mukopolysaccharidose VII |
 | Vorhergesagte neue Indikation | Scheie-Syndrom |
-| TxGNN-Vorhersage-Score | 99.90% |
-| Evidenzstufe | L5 (nur Modellvorhersage, keine unterstützenden Studien/Literatur) |
-| Marktstatus in Deutschland | Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Zurückstellung |
+| TxGNN-Vorhersagewert | 99,90 % |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Nur erloschene Zulassung (widerrufen/zurückgegeben) |
+| Anzahl der Zulassungen | 1 |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage plausibel?
+## Warum ist diese Vorhersage (nur eingeschränkt) plausibel?
 
-Vestronidase alfa ist eine rekombinante humane β-Glucuronidase (GUS)-Enzymersatztherapie. Sein einziger validierter Mechanismus besteht darin, die enzymatische Defizienz, die durch **GUSB**-Genmutationen in MPS VII (Sly-Syndrom) verursacht wird, zu korrigieren und den Abbau von Glykosaminoglykanen (GAGs) wiederherzustellen, die sich sonst in Lysosomen ansammeln würden.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Vestronidase alfa ist rekombinante humane Beta-Glucuronidase (GUSB), die Glykosaminoglykane (GAG) wie Dermatansulfat und Heparansulfat abbaut. Bei MPS VII ist die Wirksamkeit belegt.
 
-Das Scheie-Syndrom ist jedoch ein Subtyp von **MPS I**, der durch einen Mangel an **Alpha-L-Iduronidase (IDUA)** — einem anderen Enzym, das auf ein anderes (wenn auch verwandtes) Glykosaminoglykan-Substrat wirkt — verursacht wird. Es gibt keine bekannte biochemische Kreuzreaktivität oder Substituierbarkeit zwischen GUS und IDUA. Nach der mechanistischen Bewertung des Evidenzpakets selbst spiegelt dieser hohe TxGNN-Score höchstwahrscheinlich **ähnlichkeitsbasierte Einbettung im Wissensgraphen** zwischen phänotypisch verwandten lysosomalen Speicherkrankheiten wider, anstatt einen echten gemeinsamen Wirkstoff-Ziel-Mechanismus zu reflektieren.
+Das Scheie-Syndrom (abgeschwächte MPS I) wird durch einen Mangel an Alpha-L-Iduronidase (IDUA) verursacht, wodurch sich Dermatan- und Heparansulfat anreichern. Vestronidase alfa wirkt in einem anderen Schritt des Abbauwegs und **kann die fehlende IDUA-Aktivität nicht ersetzen**. Der mechanistische Zusammenhang ist daher schwach. Der hohe TxGNN-Wert spiegelt vermutlich nur die gemeinsame Biologie der GAG-Speicherung wider.
 
-Diese Besorgnis wird durch die breitere Vorhersageliste verstärkt: Acht der neun höchsten Kandidaten (Hurler-Syndrom, Sanfilippo-Syndrom und mehrere nicht verwandte angeborene Syndrome) zeigen das gleiche Muster — hohe Ähnlichkeitswerte, die durch die Clusterung von lysosomalen Speicherkrankheiten im Graphen getrieben werden, aber ohne Enzym-Level-Begründung und in mehreren Fällen mit Literatur, die bei genauerer Betrachtung tatsächlich auf die *ursprüngliche* zugelassene Indikation des Arzneimittels (MPS VII) anstelle der vorhergesagten Indikation verweist. Dies deutet auf ein mögliches Krankheitslabel-Mismatch-Problem in der zugrunde liegenden Evidenzdatenbank hin, das eine manuelle Überprüfung vor dem Voranbringen dieser Kandidaten rechtfertigt.
-
----
-
-## Evidenz aus klinischen Studien
-
-Derzeit sind keine zugehörigen klinischen Studien registriert.
+Weitere vorhergesagte Indikationen (nach Rang) stützen das Bild kaum:
+- **Lysosomale Speicherkrankheit mit Skelettbeteiligung** (99,59 %): zu unspezifische Kategorie; sie umfasst MPS VII, nur ein GUSB-Mangel wäre ein plausibles Ziel.
+- **Hurler-Syndrom** (99,43 %): ebenfalls IDUA-Mangel; Vestronidase alfa kann den Primärdefekt nicht korrigieren.
+- **Sanfilippo-Syndrom** (99,42 %): Heparansulfat-Speicherung durch andere Enzymdefekte, überwiegend ZNS-Erkrankung; intravenöse Enzymersatztherapie überwindet die Blut-Hirn-Schranke kaum.
+- **Ränge 5–9** (u. a. Ptosis-Syndrome, kongenitales Horner-Syndrom): kein erkennbarer mechanistischer Zusammenhang, rein rechnerische Vorhersagen.
 
 ---
 
-## Evidenz aus der Literatur
+## Klinische Studien
 
-Derzeit ist keine zugehörige Literatur verfügbar.
+Für das Scheie-Syndrom (Rang 1) sind derzeit keine relevanten klinischen Studien registriert.
+
+Zur Einordnung die einzige Studie unter den weiteren Vorhersagen (Hurler-Syndrom, Rang 3):
+
+| Studiennummer | Phase | Status | Teilnehmerzahl | Kernaussagen |
+|---------|------|------|------|---------|
+| [NCT04532047](https://clinicaltrials.gov/study/NCT04532047) | Phase 1 | Rekrutierend | 10 | PEARL: pränatale Enzymersatztherapie bei lysosomalen Speicherkrankheiten; Sicherheit und Machbarkeit für Mutter und Fötus. Vestronidase alfa als geprüfter Wirkstoff ist aus den Daten nicht belegt; keine Wirksamkeitsdaten. |
 
 ---
 
-## Informationen zum deutschen Markt
+## Literatur
 
-Vestronidase alfa ist **derzeit nicht in Deutschland vermarktet**; es gibt keine BfArM-Zulassungseinträge für diese Bewertung.
+Für das Scheie-Syndrom liegt derzeit keine relevante Literatur vor.
+
+Zur Einordnung die Publikationen zum Wirkstoff (abgerufen unter Sanfilippo-Syndrom, Rang 4). Sie betreffen **ausschließlich MPS VII**, nicht die vorhergesagte Indikation:
+
+| PMID | Jahr | Typ | Journal | Kernaussagen |
+|------|-----|------|------|---------|
+| [32063397](https://pubmed.ncbi.nlm.nih.gov/32063397/) | 2020 | Klinische Studie (Langzeit) | Mol Genet Metab | Phase-3-Studie (NCT02377921, randomisiert, placebokontrolliert, Blind Start) mit 12 Personen (8–25 Jahre) unter 4 mg/kg i. v.; deutliche Senkung der GAG im Urin; Langzeitdaten zu Sicherheit und Wirksamkeit bei MPS VII |
+| [30467742](https://pubmed.ncbi.nlm.nih.gov/30467742/) | 2019 | PK/PD-Modellierung | Clin Pharmacokinet | Dosisoptimierung von Vestronidase alfa bei MPS VII anhand dreier Studien |
+| [29478819](https://pubmed.ncbi.nlm.nih.gov/29478819/) | 2018 | Studiendesign | Mol Genet Metab | Neuartiges „Blind Start"-Design für die ultra-seltene Erkrankung MPS VII |
 
 ---
 
-## Sicherheitsüberlegungen
+## Marktinformationen Deutschland
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/004438 | Mepsevii | – | Mukopolysaccharidose VII |
 
-*(Hinweis: Eine blockierende Datenlücke besteht — das offizielle TFDA/BfArM-Label, Warnhinweise und Kontraindikationen wurden noch nicht abgerufen, was verhindert, dass dieser Kandidat die S1-Sicherheits-Vorbewertungsphase erreicht.)*
+Diese einzige Zulassung (Ultragenyx Germany GmbH) ist erloschen; derzeit ist kein gültiges Produkt am Markt.
+
+---
+
+## Sicherheitsaspekte
+
+Bitte die Fachinformation für Sicherheitsangaben heranziehen. Für diesen Bericht liegen weder Warnhinweise noch Gegenanzeigen noch Wechselwirkungsdaten vor.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Zurückstellung**
+**Entscheidung: Hold**
 
 **Begründung:**
-- Es gibt keine klinischen Studien oder Literatur, die vestronidase alfa's Verwendung bei Scheie-Syndrom direkt unterstützen; die Vorhersage wird nur durch einen rohen TxGNN-Ähnlichkeitsscore (L5-Evidenz) unterstützt.
-- Der vorgeschlagene Mechanismus (GUS-Ersatz) stimmt nicht mit dem enzymatischen Mangel überein, der dem Scheie-Syndrom zugrunde liegt (IDUA), was darauf hindeutet, dass dies wahrscheinlich ein falsch-positives Ergebnis ist, das durch strukturelle Ähnlichkeit zwischen lysosomalen Speicherkrankheiten im Wissensgraphen anstelle einer echten pharmakologischen Verbindung getrieben wird.
-- Eine blockierende Datenlücke (fehlende offizielle Kennzeichnung/Warnhinweise/Kontraindikationen) verhindert unabhängig den Fortschritt zur Sicherheits-Vorbewertung (S1).
+Für das Scheie-Syndrom gibt es weder klinische Studien noch Literatur, und der mechanistische Zusammenhang ist schwach, da Vestronidase alfa den IDUA-Mangel nicht ausgleichen kann. Zudem ist die deutsche Zulassung erloschen.
 
-**Um voranzukommen, ist Folgendes erforderlich:**
-- Abrufen der offiziellen TFDA/BfArM-Packungsbeilage (Warnhinweise, Kontraindikationen), um die blockierende Datenlücke zu schließen
-- Beschaffung von bestätigten Wirkungsmechanismen und ursprünglichen Indikationsdaten aus DrugBank, um den aktuellen „[Data Gap]"-Datensatz zu ersetzen
-- Manuelle Überprüfung der Literatur, die mit anderen Kandidaten in diesem Evidenzpaket verbunden ist (z. B. Sanfilippo-Syndrom), auf mögliche Krankheitslabel-Mismatches, bevor eine weitere Nutzung erfolgt
-- Falls die Verfolgung dieses Kandidaten weitergeht, eine gezielte Literatur-/Präklinische Suche speziell nach GUS/IDUA-Kreuzreaktivität oder Fallberichten über die Verwendung von vestronidase alfa bei MPS I-Patienten in Auftrag geben
-
+**Für ein Weiterkommen sind folgende Punkte nötig:**
+- Beschaffung der Fachinformation (Warnhinweise, Gegenanzeigen) für die Sicherheitsprüfung
+- Detaillierte Wirkmechanismus-Daten (MOA), z. B. aus DrugBank
+- Präklinische Daten (Enzymaktivität, Zell- oder Tiermodelle), die einen Effekt von GUSB bei IDUA-Mangel belegen
+- Klärung der Substratüberlappung (Dermatan-/Heparansulfat) und der Gewebeverteilung
+- Prüfung der Verfügbarkeit des Produkts, da die Zulassung erloschen ist
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

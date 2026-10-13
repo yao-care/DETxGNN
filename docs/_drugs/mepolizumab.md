@@ -2,7 +2,7 @@
 layout: default
 title: Mepolizumab
 parent: Mittlere Evidenz (L3-L4)
-nav_order: 250
+nav_order: 290
 evidence_level: L4
 indication_count: 5
 ---
@@ -29,73 +29,83 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-# Mepolizumab: Von ursprünglicher Indikation (nicht angegeben) zur Thrombozytopenie durch immunvermittelte Zerstörung
+# Mepolizumab: Von Asthma zu immunvermittelter Thrombozytopenie
 
 ## Zusammenfassung in einem Satz
 
-> Mepolizumab ist ein monoklonaler Antikörper gegen IL-5; seine ursprüngliche zugelassene Indikation ist in dieser Evidenzsammlung nicht dokumentiert (Datenlücke), obwohl die unterstützende Literatur wiederholt seine Verwendung beim hypereosinophilen Syndrom erwähnt.
-> Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam ist für **Thrombozytopenie durch immunvermittelte Zerstörung**,
-> aber derzeit wird dies nur durch **1 Fallbericht** unterstützt, wobei **keine klinischen Studien** registriert sind.
+Mepolizumab ist ein monoklonaler Anti-IL-5-Antikörper, der ursprünglich zur Behandlung von Asthma zugelassen wurde.
+Das TxGNN-Modell sagt voraus, dass er bei **Thrombozytopenie durch Immunzerstörung** wirksam sein könnte.
+Dafür liegen jedoch **keine klinischen Studien** und nur **1 Publikation** (ein Fallbericht) vor, sodass die Evidenz sehr schwach ist.
 
 ---
 
-## Schnellübersicht
+## Kurzüberblick
 
-| Element | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | In der Evidenzsammlung nicht verfügbar (Datenlücke) |
-| Vorhergesagte neue Indikation | Thrombozytopenie durch immunvermittelte Zerstörung |
-| TxGNN-Vorhersage-Score | 99.66% |
-| Evidenzstufe | L4 |
-| Marktstatus in Deutschland | ✗ Nicht im Handel (Nicht im Handel) |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Zurückhalten |
+| Ursprüngliche Indikation | Asthma |
+| Vorhergesagte neue Indikation | Thrombozytopenie durch Immunzerstörung |
+| TxGNN-Vorhersagewert | 99,66 % |
+| Evidenzgrad | L4 |
+| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
+| Anzahl der Zulassungen | 1 |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage sinnvoll?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Wirkmechanismus-Daten für Mepolizumab in dieser Evidenzsammlung nicht verfügbar (als Datenlücke gekennzeichnet). Basierend auf den mechanistischen Notizen, die diese Vorhersage begleiten, ist Mepolizumab ein monoklonaler Antikörper gegen IL-5, der die Eosinophilenproduktion und -aktivierung unterdrückt — ein Mechanismus, der keine etablierte, direkte molekulare Verbindung zur immunvermittelten Thrombozytenzerstörung (z. B. Fc-Rezeptor-vermittelte Makrophagen-Clearance oder Anti-Thrombozyten-Antikörper-Wege) aufweist.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Mepolizumab ein Anti-IL-5-Antikörper ist, der Eosinophile reduziert. Seine Wirksamkeit bei eosinophilem Asthma ist belegt, und mechanistisch könnte ein indirekter Bezug zu immunvermittelten Zytopenien bestehen, wenn diese teilweise eosinophilengetrieben sind.
 
-Die einzige unterstützende Literatur ist ein einzelner Fallbericht über einen Patienten mit kortikosteroid-resistentem hypereosinophilem Syndrom (HES) und begleitender thrombotischer Mikroangiopathie, bei dem die Thrombozytenzahl nach Mepolizumab-Behandlung anstieg. Diese Verbesserung wird am besten als **Sekundäreffekt** der Auflösung des zugrunde liegenden hypereosinophilen Prozesses interpretiert, nicht als Beweis dafür, dass Mepolizumab direkt auf immunvermittelte Thrombozytenzerstörungswege wirkt.
+Die einzige unterstützende Literatur ist ein Fallbericht, in dem ein steroidresistentes hypereosinophiles Immunsyndrom unter Mepolizumab (mit Begleittherapie) abklang und sich eine gemischte thrombotische Mikroangiopathie besserte. Daraus lässt sich ein plausibler, aber nur indirekter Zusammenhang ableiten.
 
-Angesichts dessen spiegelt die hohe TxGNN-Punktzahl wahrscheinlich eine gemeinsame Wissengraph-Nachbarschaft wider (HES und Thrombozytopenie treten häufig als Komorbiditäten auf), nicht echte mechanistische Spezifität. Diese Vorhersage sollte nur als hypothesengenerierend behandelt werden, nicht als Beweis therapeutischer Plausibilität.
-
----
-
-## Klinische Studien-Evidenz
-
-Derzeit sind keine verwandten klinischen Studien registriert.
+Es gibt jedoch keinen Beleg dafür, dass eine IL-5-Blockade die primäre Immunthrombozytopenie (ITP) behandelt. Diese beruht hauptsächlich auf Autoantikörper-vermittelter Plättchenzerstörung und gestörter Megakaryopoese. Der sehr hohe TxGNN-Wert ist eine rechnerische Vorhersage und ersetzt keine klinische Evidenz.
 
 ---
 
-## Literatur-Evidenz
+## Klinische Studien
 
-| PMID | Jahr | Typ | Zeitschrift | Wichtigste Erkenntnisse |
-|------|------|------|------|---------|
-| [28648630](https://pubmed.ncbi.nlm.nih.gov/28648630/) | 2018 | Fallbericht | Blood Cells, Molecules & Diseases | Auflösung des kortikosteroid-resistenten hypereosinophilen Immundiathese mit Mepolizumab, mit begleitender Verbesserung einer gemischten thrombotischen Mikroangiopathie; die Verbesserung der Thrombozytenzahl scheint ein Sekundäreffekt der Eosinophilen-Unterdrückung zu sein, nicht ein direkter Anti-Thrombozyten-Mechanismus. |
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Sicherheitsüberlegungen
+## Literaturevidenz
 
-Bitte beachten Sie die Fachinformation für Sicherheitsinformationen.
+| PMID | Jahr | Typ | Journal | Kernaussagen |
+|------|-----|------|------|---------|
+| [28648630](https://pubmed.ncbi.nlm.nih.gov/28648630/) | 2018 | Fallbericht | Blood Cells, Molecules & Diseases | Rückbildung eines steroidresistenten hypereosinophilen Immunsyndroms unter Mepolizumab mit gleichzeitiger Besserung einer gemischten thrombotischen Mikroangiopathie (bei atypischem hämolytisch-urämischem Syndrom) |
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Marktinformationen Deutschland
 
-**Entscheidung: Zurückhalten**
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/003860 | Nucala | – | Asthma |
+
+Diese Zulassung ist erloschen bzw. widerrufen; es besteht keine gültige Zulassung.
+
+---
+
+## Sicherheitsaspekte
+
+Bitte die Fachinformation für Sicherheitsinformationen heranziehen.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Hold**
 
 **Begründung:**
-Die mechanistische Verbindung zwischen Mepolizumabs IL-5-Hemmung und immunvermittelter Thrombozytenzerstörung ist schwach und indirekt, und die Evidenzbasis besteht aus einem einzelnen Fallbericht ohne unterstützende klinische Studien — unzureichend, um das vorläufige Screening zu überschreiten. Darüber hinaus verhindern die fehlenden TFDA-Label/Warnung-Daten (DG001, Blocking) unabhängig davon die Fortschreitung zur S1-Sicherheitsbewertungs-Phase, ungeachtet der Wirksamkeitsevidenz.
+Die Vorhersage stützt sich fast ausschließlich auf einen hohen Modellwert und einen einzelnen indirekten Fallbericht. Es gibt keine klinischen Studien, und ein plausibler Mechanismus für die ITP fehlt. Zudem besteht in Deutschland laut den Daten keine gültige Zulassung.
 
-**Zur Fortschreitung ist Folgendes erforderlich:**
-- TFDA-zugelassenes Label (Warnungen, Kontraindikationen) zur Schließung der Blocking-Datenlücke (DG001)
-- Bestätigte Wirkmechanismus-Daten von DrugBank (DG002)
-- Zielgerichtete präklinische oder mechanistische Studien, die IL-5/Eosinophilen-Wege bei immunvermittelter Thrombozytopenie direkt testen, anstelle von beiläufigen Fallberichts-Erkenntnissen
-- Falls weiter verfolgt, prospektive klinische Evidenz (auch kleine Pilotstudien) speziell in immunthrombozytopenischen Populationen
-
+**Für ein Weiterkommen sind folgende Punkte erforderlich:**
+- Daten zum Wirkmechanismus (MOA), z. B. aus DrugBank
+- Warnhinweise und Gegenanzeigen aus der Fachinformation (BfArM)
+- Präklinische oder mechanistische Studien zur Rolle von IL-5/Eosinophilen bei der ITP
+- Klärung des aktuellen Zulassungs- und Marktstatus in Deutschland
+- Prüfung der Weiterentwicklung in Studien, falls die Evidenz verbessert werden kann
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Insulin Detemir
-parent: Nur Modellvorhersage (L5)
-nav_order: 205
-evidence_level: L5
+parent: Hohe Evidenz (L1-L2)
+nav_order: 241
+evidence_level: L1
 indication_count: 10
 ---
 
 # Insulin Detemir
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,104 +29,101 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Insulin Detemir: Vom Diabetes mellitus (Originale Indikationsdaten fehlend) zur Signalbestätigung für Typ-1-Diabetes mellitus
+# Insulin detemir: Von Diabetes mellitus zu Typ-1-Diabetes mellitus
 
 ## Zusammenfassung in einem Satz
 
-> Insulin Detemir (Levemir®) ist ein langwirksames Basis-Insulinanalogon, dessen ursprüngliche Zulassungsindikation in diesem Datensatz nicht dokumentiert ist, aber bekanntermaßen als Basis-Insulintherapie für Typ-1- und Typ-2-Diabetes verwendet wird. TxGNN prognostiziert eine hohe Relevanz für **Typ-1-Diabetes mellitus** (Score 99,77%), unterstützt durch **über 60 abgeschlossene klinische Studien** und **20 Publikationen** — es ist jedoch zu beachten: Dies ist eine **Signalbestätigung einer bestehenden zugelassenen Indikation** des Arzneistoffs und keine echte „Repurposing".
+Insulin detemir ist ein lang wirksames Basalinsulin-Analogon, das ursprünglich zur Behandlung von Diabetes mellitus zugelassen wurde. Das TxGNN-Modell sagt eine Wirksamkeit bei **Typ-1-Diabetes mellitus** voraus. Dabei handelt es sich jedoch um die bereits etablierte Anwendung des Arzneimittels und nicht um eine echte Neuausrichtung. Die Vorhersage wird durch **40 klinische Studien** und **20 Publikationen** gestützt, darunter mehrere Phase-3-Studien.
 
 ---
 
 ## Schnellübersicht
 
-| Artikel | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Keine Daten vorhanden (taiwan_regulatory.licenses leer; Arzneistoff nicht auf deutschem Markt); bekannt als Basis-Insulin zur Blutzuckerkontrolle bei Diabetes |
-| Prognostizierte neue Indikation | Typ-1-Diabetes mellitus — **Anmerkung: Dies ist tatsächlich eine bereits genehmigte Marktindikation von Levemir®, kein echtes Repurposing** |
-| TxGNN-Prognosescore | 99,77% (Rang 3222) |
-| Evidenzgrad | L1 (≥2 abgeschlossene Phase-3-RCTs) |
-| Marktstatus Deutschland | ✗ Nicht vermarktet |
-| Lizenzanzahl | 0 |
-| Entscheidungsempfehlung | Proceed with Guardrails |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Diabetes mellitus |
+| Vorhergesagte neue Indikation | Typ-1-Diabetes mellitus |
+| TxGNN-Vorhersagewert | 99,77 % |
+| Evidenzgrad | L1 |
+| Marktstatus in Deutschland | Nur erloschene Zulassung (kein aktiv zugelassenes Produkt) |
+| Anzahl der Zulassungen | 1 (erloschen) |
+| Empfohlene Entscheidung | Proceed with Guardrails (Fortfahren mit Schutzmaßnahmen) |
 
 ---
 
-## Warum ist diese Prognose sinnvoll?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit liegen keine detaillierten Angaben zum Wirkmechanismus (MOA) vor. Nach verfügbaren Informationen ist Insulin Detemir ein langwirksames Basis-Insulinanalogon, das durch reversible Bindung einer 14-Kohlenstoff-Fettsäureseitenkette an Albumin eine verzögerte Absorption und Wirkungsdauer von etwa 24 Stunden erreicht. Pharmakodynamisch ist die Wirkung stabiler als NPH-Insulin und das Hypoglykämierisiko geringer.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Nach den bekannten Informationen ist Insulin detemir ein lösliches, lang wirksames Humaninsulin-Analogon. Es bindet an den Insulinrezeptor und senkt den Blutzucker. Die Literatur beschreibt zudem, dass das Molekül durch eine Fettsäure-Modifikation (Myristinsäure an Lysin B29) reversibel an Albumin bindet, wodurch die Resorption verlangsamt und die Wirkung auf bis zu 24 Stunden verlängert wird.
 
-Insulin Detemir ersetzt direkt die durch Autoimmunzerstörung von Pankreas-β-Zellen verlorene endogene Insulinsekretion bei Typ-1-Diabetes, wobei der Wirkmechanismus-Zusammenhang **direkt und klinisch validiert** ist und nicht auf indirekten Hypothesenketten (klassisches Repurposing) beruht.
-
-**Wichtiger Hinweis**: Das Feld `original_indications` in diesem Datensatz ist leer — dies ist eine Datenlücke. Insulin Detemir (Handelsname Levemir®) ist jedoch in vielen Ländern bereits für die Behandlung von Typ-1- und Typ-2-Diabetes zugelassen. Daher ist die TxGNN-Prognose mit Rang 1 für „Typ-1-Diabetes" praktisch eine **Bestätigung einer bereits etablierten Indikation** und nicht die Entdeckung einer neuen Anwendung. Der analytische und wissenschaftliche Wert liegt in der Validierung der Vorhersagegenauigkeit des TxGNN-Modells bei bekannten Arzneistoff-Krankheits-Beziehungen, was als positive Kontrolle für die Modellglaubwürdigkeit dient, aber kein kommerzielles „Repurposing"-Potenzial darstellt.
+Typ-1-Diabetes beruht auf einem Insulinmangel. Die Anwendung eines Basalinsulins ist daher mechanistisch naheliegend und entspricht der etablierten Standardtherapie. Die Vorhersage ist somit plausibel, stellt aber streng genommen kein Repurposing dar, sondern eine Bestätigung der bestehenden Indikation (Diabetes mellitus). Praktisch einschränkend ist, dass in Deutschland nur noch eine erloschene Zulassung verzeichnet ist.
 
 ---
 
-## Klinische Studienbelege
+## Evidenz aus klinischen Studien
 
-| Studienmummer | Phase | Status | Patientenzahl | Wichtigste Befunde |
-|--------|----------|--------|------------|----------|
-| [NCT00542399](https://clinicaltrials.gov/study/NCT00542399) | Phase 4 | Abgeschlossen | 50 | Vergleich täglich eine vs. zwei Injektionen Insulin Detemir bei Kindern und Jugendlichen mit T1DM hinsichtlich metabolischer Kontrolle |
-| [NCT01697657](https://clinicaltrials.gov/study/NCT01697657) | Phase 3 | Abgeschlossen | 131 | RCT Crossover-Vergleich, Detemir vs. NPH-Insulin bei T1DM-Patienten hinsichtlich Hypoglykämiehäufigkeit |
-| [NCT00537303](https://clinicaltrials.gov/study/NCT00537303) | Phase 4 | Abgeschlossen | 296 | Einmal täglich Detemir mit stufenweisem Zusatz von schnellwirksamem Aspart hinsichtlich Sicherheit und Wirksamkeit |
-| [NCT00184665](https://clinicaltrials.gov/study/NCT00184665) | Phase 3 | Abgeschlossen | 501 | 2-Jahres-Vergleich Detemir vs. NPH bei T1DM bezüglich Wirksamkeit (HbA1c) und Sicherheit (Hypoglykämie, Körpergewicht, Antikörper) |
-| [NCT00312156](https://clinicaltrials.gov/study/NCT00312156) | Phase 3 | Abgeschlossen | 347 | Kinder und Jugendliche mit T1DM, Detemir einmal oder zweimal täglich vs. NPH hinsichtlich Wirksamkeit und Sicherheit |
-| [NCT00474045](https://clinicaltrials.gov/study/NCT00474045) | Phase 3 | Abgeschlossen | 470 | Schwangere Frauen mit T1DM, Vergleich Detemir vs. NPH hinsichtlich Blutzuckerkontrolle und Sicherheit |
-| [NCT03220425](https://clinicaltrials.gov/study/NCT03220425) | Phase 3 | Abgeschlossen | 752 | 6-Monats-Studie, T1DM-Patienten unter Basis-Bolus-Therapie mit Detemir (2400 nmol/mL-Formulierung) vs. NPH hinsichtlich Wirksamkeit und Sicherheit |
-| [NCT00595374](https://clinicaltrials.gov/study/NCT00595374) | Phase 3 | Abgeschlossen | 114 | Erwachsene mit T1DM, Detemir + Aspart vs. NPH + Aspart hinsichtlich Wirksamkeit und Sicherheit |
-| [NCT02922179](https://clinicaltrials.gov/study/NCT02922179) | N/A | Abgeschlossen | 103,951 | Große deskriptive Analyse zur Charakterisierung von Erwachsenen mit Diabetes, die lang-/mittelfristig wirkendes Insulin verwenden (indirekt unterstützende epidemiologische Daten) |
-| [NCT01542463](https://clinicaltrials.gov/study/NCT01542463) | N/A | Abgeschlossen | 4,464 | Große postmarketing-Beobachtungsstudie zur Bewertung von Sicherheit, Blutzuckerkontrolle und Körpergewicht unter Levemir® bei T1DM/T2DM-Patienten |
+Die folgende Auswahl zeigt die relevantesten Studien (insgesamt liegen deutlich mehr Studien vor).
+
+| Studiennummer | Phase | Status | Teilnehmerzahl | Zentrale Ergebnisse |
+|---------|------|------|------|---------|
+| [NCT00595374](https://clinicaltrials.gov/study/NCT00595374) | Phase 3 | Abgeschlossen | 114 | Insulin detemir + Aspart vs. NPH-Insulin + Aspart bei Erwachsenen mit Typ-1-Diabetes: Wirksamkeit und Sicherheit der Blutzuckerkontrolle |
+| [NCT00447382](https://clinicaltrials.gov/study/NCT00447382) | Phase 3 | Abgeschlossen | 330 | 12-monatiger, doppelblinder Vergleich von Insulin detemir aus zwei Herstellungsverfahren (NN729 vs. NN304) bei Typ-1-Diabetes |
+| [NCT00312156](https://clinicaltrials.gov/study/NCT00312156) | Phase 3 | Abgeschlossen | 347 | Insulin detemir vs. NPH-Insulin bei Kindern und Jugendlichen mit Typ-1-Diabetes |
+| [NCT00184639](https://clinicaltrials.gov/study/NCT00184639) | Phase 3 | Abgeschlossen | 71 | 32-Wochen-Vergleich von Insulin detemir und Insulin Semilente MC bei Kindern, Jugendlichen und jungen Erwachsenen |
+| [NCT01835431](https://clinicaltrials.gov/study/NCT01835431) | Phase 3 | Abgeschlossen | 362 | Insulin degludec/aspart vs. Insulin detemir + Aspart bei Kindern und Jugendlichen |
+| [NCT00978627](https://clinicaltrials.gov/study/NCT00978627) | Phase 3 | Abgeschlossen | 548 | NN5401 (IDegAsp) vs. Basal-Bolus mit Insulin detemir + Aspart bei Typ-1-Diabetes |
+| [NCT01831765](https://clinicaltrials.gov/study/NCT01831765) | Phase 3 | Abgeschlossen | 1290 | Schnell wirksames Insulin aspart (FIAsp) vs. Insulin aspart, jeweils mit Insulin detemir als Basalinsulin |
+| [NCT00117780](https://clinicaltrials.gov/study/NCT00117780) | Phase 4 | Abgeschlossen | 520 | Insulin detemir einmal vs. zweimal täglich im Basal-Bolus-Schema mit Aspart bei Typ-1-Diabetes |
+| [NCT01542463](https://clinicaltrials.gov/study/NCT01542463) | N/A (Beobachtungsstudie) | Abgeschlossen | 4464 | Große Beobachtungsstudie zu Sicherheit, Blutzuckerkontrolle und Körpergewicht unter Levemir bei Typ-1- und Typ-2-Diabetes |
+| [NCT01709929](https://clinicaltrials.gov/study/NCT01709929) | Phase 3 | Abgeschlossen | 2287 | Offene, nicht randomisierte Sicherheitsstudie zu Insulin detemir bei insulinpflichtigem Typ-1- oder Typ-2-Diabetes |
 
 ---
 
-## Publikationsbelege
+## Literaturevidenz
 
-| PMID | Jahr | Typ | Journal | Wichtigste Befunde |
-|------|--------|--------|---------|----------|
-| [36623517](https://pubmed.ncbi.nlm.nih.gov/36623517/) | 2023 | RCT | Lancet Diabetes Endocrinol | EXPECT-Studie: Nicht-Unterlegenheitsvergleich Insulin Degludec vs. Detemir (beide mit Aspart) bei schwangeren Frauen mit T1DM |
-| [29477399](https://pubmed.ncbi.nlm.nih.gov/29477399/) | 2018 | Systematische Übersicht/Netzwerk-Meta-Analyse | Value in Health | Relative Wirksamkeit und Sicherheit von Basis-Insulintherapien bei erwachsenem T1DM im Netzwerk-Meta-Analyse-Vergleich |
-| [33662147](https://pubmed.ncbi.nlm.nih.gov/33662147/) | 2021 | Cochrane-Systematische Übersicht | Cochrane Database Syst Rev | Systematische Übersicht zu (Ultra-)langwirksamen Insulinanaloga bei T1DM-Patienten |
-| [21878861](https://pubmed.ncbi.nlm.nih.gov/21878861/) | 2011 | Systematische Übersicht/Meta-Analyse | Pol Arch Med Wewn | Systematische Übersicht und Meta-Analyse: Detemir vs. NPH bei T1DM |
-| [36763996](https://pubmed.ncbi.nlm.nih.gov/36763996/) | 2022 | Systematische Übersicht/Meta-Analyse | Clin Ther | Vergleich Insulin Degludec mit anderen langwirksamen Basis-Insulinen (einschließlich Detemir) bezüglich Wirksamkeit und Verträglichkeit bei T1DM/T2DM |
-| [37290466](https://pubmed.ncbi.nlm.nih.gov/37290466/) | 2023 | Review | Lancet Diabetes Endocrinol | Aktualisierung zur Behandlung von Typ-1-Diabetes in der Schwangerschaft: Lebensstil, Arzneimittel und neue Technologien |
-| [18454569](https://pubmed.ncbi.nlm.nih.gov/18454569/) | 2008 | Review | Paediatr Drugs | Überblick über die Anwendung von Insulinanaloga bei Kindern und Jugendlichen mit T1DM |
-| [15516157](https://pubmed.ncbi.nlm.nih.gov/15516157/) | 2004 | Review | Drugs | Überblick über Insulin Detemir bei der Behandlung von Typ-1- und Typ-2-Diabetes |
-| [17326333](https://pubmed.ncbi.nlm.nih.gov/17326333/) | 2006 | Review | Vasc Health Risk Manag | Überblick über Insulin Detemir in der Therapie von Typ-1- und Typ-2-Diabetes |
-| [15691219](https://pubmed.ncbi.nlm.nih.gov/15691219/) | 2005 | Review | BioDrugs | Fokussierte Übersicht über Insulin Detemir bei Typ-1- und Typ-2-Diabetes |
+| PMID | Jahr | Typ | Zeitschrift | Zentrale Ergebnisse |
+|------|-----|------|------|---------|
+| [36623517](https://pubmed.ncbi.nlm.nih.gov/36623517/) | 2023 | RCT | The Lancet Diabetes & Endocrinology | EXPECT-Studie: Insulin degludec vs. Insulin detemir (jeweils mit Aspart) bei schwangeren Frauen mit Typ-1-Diabetes, Nichtunterlegenheitsstudie |
+| [33662147](https://pubmed.ncbi.nlm.nih.gov/33662147/) | 2021 | Systematische Übersicht/Metaanalyse | Cochrane Database of Systematic Reviews | (Ultra-)lang wirksame Insulinanaloga bei Typ-1-Diabetes, mit Fokus auf Komplikationen und Hypoglykämien |
+| [21878861](https://pubmed.ncbi.nlm.nih.gov/21878861/) | 2011 | Systematische Übersicht/Metaanalyse | Polskie Archiwum Medycyny Wewnetrznej | Insulin detemir im Vergleich zu NPH-Insulin bei Typ-1-Diabetes |
+| [29477399](https://pubmed.ncbi.nlm.nih.gov/29477399/) | 2018 | Systematische Übersicht/Netzwerk-Metaanalyse | Value in Health | Relative Wirksamkeit und Sicherheit von Basalinsulin-Regimen bei Erwachsenen mit Typ-1-Diabetes |
+| [23243636](https://pubmed.ncbi.nlm.nih.gov/23243636/) | 2012 | Systematische Übersicht | Drugs of Today | Insulinanaloga bei Kindern und Jugendlichen mit Typ-1-Diabetes |
+| [36763996](https://pubmed.ncbi.nlm.nih.gov/36763996/) | 2022 | Systematische Übersicht/Metaanalyse | Clinical Therapeutics | Insulin degludec im Vergleich zu anderen Basalinsulin-Analoga (Glargin, Detemir) bei Typ-1- und Typ-2-Diabetes |
+| [17326333](https://pubmed.ncbi.nlm.nih.gov/17326333/) | 2006 | Übersichtsarbeit | Vascular Health and Risk Management | Insulin detemir bei Typ-1- und Typ-2-Diabetes: geringeres Hypoglykämierisiko, insbesondere nächtlich |
+| [15516157](https://pubmed.ncbi.nlm.nih.gov/15516157/) | 2004 | Übersichtsarbeit | Drugs | Anwendung von Insulin detemir mit vorhersagbarerer Wirkung als NPH-Insulin |
+| [20539842](https://pubmed.ncbi.nlm.nih.gov/20539842/) | 2010 | Übersichtsarbeit | Vascular Health and Risk Management | Aktueller Stand der Behandlung von Typ-1- und Typ-2-Diabetes mit Fokus auf Insulin detemir |
+| [17881328](https://pubmed.ncbi.nlm.nih.gov/17881328/) | 2007 | Pharmakologie-Übersicht | Endocrinology and Metabolism Clinics of North America | Molekulare Eigenschaften und Pharmakodynamik von Insulin detemir |
 
 ---
 
 ## Marktinformationen Deutschland
 
-Insulin Detemir ist derzeit **nicht auf dem deutschen Markt zugelassen** (`total_licenses = 0`); im Datensatz sind keine Lizenzeinträge vorhanden.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000528 | Levemir (Novo Nordisk A/S) | – | Diabetes mellitus (Status: erloschen) |
 
 ---
 
-## Sicherheitserwägungen
+## Sicherheitshinweise
 
-Bitte beachten Sie die vollständigen Sicherheitsinformationen in der Fachinformation.
+- **Arzneimittelwechselwirkungen**: Es wurden 100 Wechselwirkungen erfasst. Die meisten sind von mäßiger Schwere (Moderate), einige von geringer Schwere (Minor). Beispiele für mäßige Wechselwirkungen: Metformin, Pioglitazon, Alogliptin, Albiglutid (additive blutzuckersenkende Effekte), Acebutolol (Betablocker), Salbutamol, Formoterol, Epinephrin, Phenylephrin und Pseudoephedrin (Sympathomimetika), Hydrocortison, Ethinylestradiol, Estradiol, Hydrochlorothiazid, Acetazolamid, Doxycyclin, Alpelisib sowie Ethanol. Geringfügig sind unter anderem topisches Hydrocortison und topisches Alclometason.
+- **Hinweis zu Lipodystrophie**: Unter den weiteren TxGNN-Vorhersagen erscheinen lokalisierte Lipodystrophien. Diese sind eher als Sicherheitssignal (bekannte Reaktion an Injektionsstellen) denn als Indikation zu werten.
 
-(Im Datensatz stehen keine Daten zu kritischen Warnhinweisen, Kontraindikationen und Wechselwirkungen zur Verfügung; Fachinformations-Warnhinweise und Kontraindikationen wurden als Blocking-Level-Datenlücken klassifiziert und müssen vorrangig ergänzt werden.)
+Für weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) ist die Fachinformation heranzuziehen.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Proceed with Guardrails**
+**Entscheidung: Proceed with Guardrails (Fortfahren mit Schutzmaßnahmen)**
 
 **Begründung:**
-- Für Typ-1-Diabetes liegen mehrere abgeschlossene Phase-3-RCTs vor (wie NCT01697657, NCT00184665, NCT03220425 u.a.) sowie systematische Übersichten/Cochrane-Übersichten, mit Evidenzgrad L1; die Modellvorhersage ist in die richtige Richtung ausgerichtet.
-- Dies ist jedoch eine **bestehende zugelassene Indikation von Insulin Detemir**, nicht eine neu entdeckte Anwendung, daher stellt dies keine typische „Repurposing"-Geschäftsmöglichkeit dar; der Wert liegt in der Validierung der Modellzuverlässigkeit; die strategische Entscheidung sollte sich auf „Verfolgung der Markteinführung in Deutschland" konzentrieren, nicht auf „Entwicklung neuer Indikationen".
+Die Wirksamkeit und Sicherheit von Insulin detemir bei Typ-1-Diabetes ist durch mehrere abgeschlossene Phase-3-Studien und systematische Übersichtsarbeiten gut belegt (Evidenzgrad L1). Da es sich um die bestehende Indikation handelt, besteht kein Repurposing-Bedarf. Einschränkend wirkt, dass in Deutschland nur eine erloschene Zulassung vorliegt.
 
-**Vor dem Voranschreiten erforderliche Ergänzungen:**
-- TFDA/Fachinformations-Warnhinweise und Kontraindikationen (Blocking, DG001) — Voraussetzung für Eintritt in S1 Sicherheitsinitialbeurteilung
-- DrugBank-Wirkmechanismus (MOA) explizite Beschreibung (High, DG002)
-- Bei Erwägung einer deutschen Markteinführungsstrategie sind vollständige klinische Datenpakete und Arzneimittelwechselwirkungsinformationen erforderlich, wie für BfArM-Anträge notwendig
-
-**Empfohlene Behandlung der verbleibenden 9 Prognosen (Rang 2–10):**
-- Rang 4 (thiaminansprechende Dysfunktionssyndrom) und Rang 7 (Pankreasagenesie) sind mechanistisch plausibel, aber ohne direkte klinische Belege als Forschungsfragen (L4, Research Question) einzustufen; können als zukünftige Einzelfallforschungsrichtung dienen, gegenwärtig keine Ressourcenallokation erforderlich.
-- Rang 2, 3, 5, 6 (Autoimmun-Oophoritis, Opsismodysplasie, fokales/klassisches Stiff-Person-Syndrom-Spektrum): Evidenzgrad L5, keine mechanistischen oder klinischen Belege, Empfehlung: Hold.
-- Rang 8, 9, 10 (verschiedene Lipodystrophie/Lipoatrophie): Existieren **Richtungsbedenken** — diese sind höchstwahrscheinlich bekannte unerwünschte Ereignisse der Insulininjektionsstelle (Fettgewebsstoffwechseländerungen), die von TxGNN als therapeutische Verknüpfung fehlbewertet wurden; Empfehlung: Aus der Kandidatenliste entfernen oder zusätzlich als Sicherheitssignal kennzeichnen, nicht nach Indikationsprozess behandeln.
-
+**Für das weitere Vorgehen sind folgende Punkte erforderlich:**
+- Klärung der Verfügbarkeit in Deutschland (erloschene Zulassung, ggf. Alternativprodukte oder Wiedereinführung)
+- Beschaffung der Fachinformation mit Warnhinweisen und Gegenanzeigen
+- Daten zum detaillierten Wirkmechanismus (MOA)
+- Prüfung der Wechselwirkungen mit Begleitmedikation, insbesondere mit anderen Antidiabetika und Sympathomimetika
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

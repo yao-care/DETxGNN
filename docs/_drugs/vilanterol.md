@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Vilanterol
-parent: Nur Modellvorhersage (L5)
-nav_order: 426
-evidence_level: L5
+parent: Hohe Evidenz (L1-L2)
+nav_order: 498
+evidence_level: L1
 indication_count: 10
 ---
 
 # Vilanterol
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,101 +29,113 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Vilanterol: Datenlücken-gesteuerte Bestätigung der Verwendung bei obstruktiven Atemwegserkrankungen (COPD/Asthma)
+# Vilanterol: Von chronisch obstruktiver Lungenerkrankung (COPD) zu obstruktiver Lungenerkrankung
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Diese Evidenzbasis zeigt keine dokumentierte ursprüngliche Indikation oder keinen bekannten Wirkmechanismus für Vilanterol — beide sind als Datenlücken in der Quelldatenbank gekennzeichnet, und das Arzneimittel ist derzeit nicht auf dem taiwanesischen Markt zugelassen.
-> Das TxGNN-Modell prognostiziert die höchste Wahrscheinlichkeit für **obstruktive Atemwegserkrankungen**, und die unterstützenden Beweise — **über 80 klinische Studien (viele haben Phase 3 abgeschlossen) und 20 Veröffentlichungen**, einschließlich der wegweisenden IMPACT- und FULFIL-Studien — zeigen, dass dies kein neues Repurposing-Signal ist, sondern Vilanterols bereits gut etablierte, weltweit zugelassene Rolle als langwirksamer β2-Agonist (LABA) in COPD/Asthma-Kombinationsinhalatoren (z. B. Breo/Relvar Ellipta, Anoro Ellipta, Trelegy Ellipta).
-> Dieser Fall sollte als **Datenlücken-Sanierung und Bestätigung** gelesen werden, nicht als Entdeckung einer neuen Indikation.
+Vilanterol ist ein lang wirksamer Beta-2-Agonist, der ursprünglich zur Behandlung der chronisch obstruktiven Lungenerkrankung (COPD) zugelassen wurde. Das TxGNN-Modell sagt eine Wirksamkeit bei **obstruktiver Lungenerkrankung** voraus. Dabei handelt es sich im Kern um die bereits zugelassene Indikation und nicht um eine echte Neuzulassung. Die Vorhersage wird von **29 klinischen Studien** und **19 Publikationen** gestützt, darunter mehrere Phase-3-Studien mit Vilanterol-haltigen Fixkombinationen.
 
 ---
 
 ## Schnellübersicht
 
-| Element | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Nicht verfügbar — keine genehmigte Indikation dokumentiert (Arzneimittel nicht auf dem taiwanesischen Markt zugelassen; Feld original_indications in den Quelldaten leer) |
-| Vorhergesagte neue Indikation | Obstruktive Atemwegserkrankung (COPD / Asthma) |
-| TxGNN-Vorhersagepunktzahl | 99,97% |
-| Evidenzstufe | L1 (≥2 abgeschlossene Phase-3-RCTs) |
-| Status auf dem taiwanesischen Markt | Nicht zugelassen (Nicht zugelassen) |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Mit Schutzmaßnahmen fortfahren |
+| Ursprüngliche Indikation | Chronisch obstruktive Lungenerkrankung (COPD) |
+| Vorhergesagte neue Indikation | Obstruktive Lungenerkrankung |
+| TxGNN-Vorhersagewert | 99,97 % |
+| Evidenzniveau | L1 |
+| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
+| Anzahl der Zulassungen | 2 (beide erloschen) |
+| Empfohlene Entscheidung | Proceed with Guardrails (Fortführung mit Schutzmaßnahmen) |
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Warum ist diese Vorhersage plausibel?
 
-Das strukturierte Feld `original_moa` des Evidenzpakets ist eine Datenlücke, aber die zugrunde liegenden Studien- und Literaturbeweise beschreiben durchweg die Pharmakologie von Vilanterol: Es ist ein selektiver langwirksamer β2-adrenerger Rezeptor-Agonist (LABA), der β2-Rezeptoren auf der Bronchialmuskulatur aktiviert, den intrazellulären cAMP-Spiegel erhöht und eine anhaltende Bronchodilation (~24-Stunden-Dauer) bewirkt. Dies ist eine direkte, mechanismusbasierte pharmakologische Wirkung auf eine Atemwegsverengung — nicht eine spekulative netzwerkgestützte Assoziation.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Nach bekanntem Wissen ist Vilanterol ein lang wirksamer Beta-2-Adrenozeptor-Agonist (LABA), der die glatte Atemwegsmuskulatur entspannt und eine anhaltende Bronchodilatation bewirkt.
 
-Entscheidend ist, dass „obstruktive Atemwegserkrankung" keine neue therapeutische Richtung für Vilanterol ist — sie ist die Kern-, bereits zugelassene Indikation des Arzneimittels international, die als Bestandteil von Fixkombinations-Inhalatoren mit Fluticasonfuroat (Breo/Relvar Ellipta), Umeclidinium (Anoro Ellipta) oder beiden (Trelegy Ellipta, Triple-ICS/LAMA/LABA-Therapie) angeboten wird. Die leeren Felder `original_indications` und `original_moa: [Data Gap]` in dieser Evidenzbasis sollten als **Datenbankpopulations-Lücke** verstanden werden, nicht als Beweis, dass das Arzneimittel keine etablierte Indikation hat.
+Die vorhergesagte „obstruktive Lungenerkrankung" ist der Oberbegriff der bereits zugelassenen Indikation COPD. Es handelt sich daher nicht um ein klassisches Repurposing, sondern um eine Bestätigung der bestehenden Anwendung. Die Wirksamkeit stützt sich vor allem auf Phase-3-Studien mit Fixkombinationen, etwa Fluticasonfuroat/Vilanterol (FF/VI), Umeclidinium/Vilanterol (UMEC/VI) und die Dreifachkombination FF/UMEC/VI (z. B. IMPACT, FULFIL).
 
-Da der Wirkmechanismus-Erkrankung-Zusammenhang direkt und nicht abgeleitet ist, und da die Evidenzbasis große, hochwertige bestätigende Studien enthält (z. B. die 10,355-Patienten umfassende IMPACT-Studie und die FULFIL-Studie), wird dieser Kandidat mit der höchsten Evidenzstufe (L1) bewertet, trotz der zugrunde liegenden Datenlücken in den Arzneimittel-Metadaten.
+**Wichtige Einschränkung:** Die Evidenz bezieht sich auf Fixkombinationen und nicht auf Vilanterol als Monotherapie.
+
+Die weiteren Vorhersagen mit niedrigerer Priorität (z. B. Emphysemformen, Trachealstenose, Laryngotracheitis, Bronchialneoplasie) sind mechanistisch kaum nachvollziehbar und klinisch nicht belegt. Sie beruhen vermutlich auf Ähnlichkeiten in der Krankheitsontologie. Sie werden in diesem Bericht nicht weiter bewertet.
 
 ---
 
-## Klinische Studienevidenz
+## Evidenz aus klinischen Studien
 
-| Studiennummer | Phase | Status | Einschreibung | Wichtigste Ergebnisse |
+Die folgende Auswahl zeigt die relevantesten Studien (COPD-bezogene und große Phase-3-Studien mit Vilanterol-Kombinationen).
+
+| Studiennummer | Phase | Status | Teilnehmerzahl | Zentrale Aussagen |
 |---------|------|------|------|---------|
-| [NCT02164513](https://clinicaltrials.gov/study/NCT02164513) | Phase 3 | Abgeschlossen | 10,355 | IMPACT-Studie — FF/UMEC/VI-Triple-Therapie reduziert die jährliche Exazerbationsrate vs. FF/VI oder UMEC/VI Dual-Therapie bei COPD |
-| [NCT01706198](https://clinicaltrials.gov/study/NCT01706198) | Phase 3 | Abgeschlossen | 4,233 | 12-Monats-Wirksamkeit von FF/VI einmal täglich vs. übliche Asthma-Erhaltungstherapie |
-| [NCT01313650](https://clinicaltrials.gov/study/NCT01313650) | Phase 3 | Abgeschlossen | 1,538 | Zentrale 24-Wochen-Effektivitäts-/Sicherheitsstudie von UMEC/VI und einzelnen Komponenten vs. Placebo bei COPD |
-| [NCT02467452](https://clinicaltrials.gov/study/NCT02467452) | Phase 3 | Abgeschlossen | 1,479 | Nichtunterlegenheit von Triple-pMDI-Therapie vs. FF/VI plus Tiotropium bei COPD |
-| [NCT02729051](https://clinicaltrials.gov/study/NCT02729051) | Phase 3 | Abgeschlossen | 1,055 | Geschlossene Triple-Therapie (FF/UMEC/VI) vs. offene Triple (FF/VI + UMEC) — Lungenfunktionsvergleich bei COPD |
-| [NCT03248128](https://clinicaltrials.gov/study/NCT03248128) | Phase 3 | Abgeschlossen | 906 | FF/VI vs. FF allein bei pädiatrischen/jugendlichen Asthma (5–17 Jahre) unkontrolliert auf ICS |
-| [NCT01822899](https://clinicaltrials.gov/study/NCT01822899) | Phase 3 | Abgeschlossen | 717 | UMEC/VI vs. Fluticason/Salmeterol über 12 Wochen bei COPD (Relevanz Grad A) |
-| [NCT01817764](https://clinicaltrials.gov/study/NCT01817764) | Phase 3 | Abgeschlossen | 707 | UMEC/VI vs. Fluticason/Salmeterol über 12 Wochen bei COPD (Relevanz Grad A) |
-| [NCT05757102](https://clinicaltrials.gov/study/NCT05757102) | Phase 3 | Rekrutierung läuft | 292 | FF/UMEC/VI vs. FF/VI bei Jugendlichen (12–17 Jahre) mit unzureichend kontrolliertem Asthma; Bayessches dynamisches Borrowing-Design |
-| [NCT03378648](https://clinicaltrials.gov/study/NCT03378648) | Phase 1/2 | Abgeschlossen | 118 | First-in-human-Sicherheits-/PK/PD-Studie einer bifunktionalen muscarinergen Antagonisten-/β2-Agonisten-Verbindung (MABA) Bronchodilator-Verbindung |
+| [NCT03162055](https://clinicaltrials.gov/study/NCT03162055) | Phase 3 | Abgeschlossen | 1119 | Glycopyrronium/Formoterol vs. Umeclidinium/Vilanterol über 24 Wochen bei mittelschwerer bis sehr schwerer COPD (AERISTO) |
+| [NCT05062304](https://clinicaltrials.gov/study/NCT05062304) | k. A. | Abgeschlossen | 17.281 | Einmal täglich Einzelinhalator-Dreifachtherapie vs. Zweifachtherapie bei COPD (IMPACT, Replikation mit Real-World-Daten) |
+| [NCT01342913](https://clinicaltrials.gov/study/NCT01342913) | Phase 3 | Abgeschlossen | 528 | FF/VI einmal täglich vs. Salmeterol/Fluticasonpropionat zweimal täglich, 24-Stunden-Lungenfunktion bei COPD |
+| [NCT01323621](https://clinicaltrials.gov/study/NCT01323621) | Phase 3 | Abgeschlossen | 512 | FF/VI 100/25 µg vs. Fluticasonpropionat/Salmeterol, 24-Stunden-Spirometrie bei COPD |
+| [NCT01777334](https://clinicaltrials.gov/study/NCT01777334) | Phase 3 | Abgeschlossen | 905 | Umeclidinium/Vilanterol vs. Tiotropium über 24 Wochen bei COPD |
+| [NCT02487446](https://clinicaltrials.gov/study/NCT02487446) | Phase 3 | Abgeschlossen | 357 | Indacaterol/Glycopyrronium vs. Umeclidinium/Vilanterol bei mittelschwerer bis schwerer COPD |
+| [NCT01336608](https://clinicaltrials.gov/study/NCT01336608) | Phase 3 | Abgeschlossen | 446 | Wirkung von FF/VI auf die arterielle Steifigkeit bei COPD |
+| [NCT01716520](https://clinicaltrials.gov/study/NCT01716520) | Phase 3 | Abgeschlossen | 182 | Cross-over-Vergleich von Umeclidinium, Vilanterol und der Kombination bei COPD |
+| [NCT01957150](https://clinicaltrials.gov/study/NCT01957150) | Phase 4 | Abgeschlossen | 283 | Wirkung von FF/VI vs. Vilanterol auf die Knochendichte bei COPD über 156 Wochen |
+| [NCT05342558](https://clinicaltrials.gov/study/NCT05342558) | Phase 4 | Abgeschlossen | 133 | FF/VI vs. Umeclidinium/Vilanterol bei COPD-Asthma- vs. Emphysem-Phänotyp |
+
+Zusätzlich liegen mehrere Phase-3-Studien bei Asthma vor (z. B. NCT01134042, NCT01686633, NCT02301975), die für die COPD-Indikation nur indirekt relevant sind.
 
 ---
 
 ## Literaturevidenz
 
-| PMID | Jahr | Typ | Zeitschrift | Wichtigste Ergebnisse |
+| PMID | Jahr | Typ | Zeitschrift | Zentrale Aussagen |
 |------|-----|------|------|---------|
-| [29668352](https://pubmed.ncbi.nlm.nih.gov/29668352/) | 2018 | RCT | NEJM | IMPACT-Studie — Triple-ICS/LAMA/LABA-Therapie vs. Dual-Therapie bei COPD |
-| [32162970](https://pubmed.ncbi.nlm.nih.gov/32162970/) | 2020 | RCT (Mortalitätsanalyse) | Am J Respir Crit Care Med | FF/UMEC/VI reduziert signifikant die Gesamtmortalität vs. UMEC/VI bei COPD |
-| [28375647](https://pubmed.ncbi.nlm.nih.gov/28375647/) | 2017 | RCT | Am J Respir Crit Care Med | FULFIL-Studie — tägliche Triple-Therapie einmal täglich überlegen gegenüber ICS/LABA-Dual-Therapie bei COPD |
-| [32918892](https://pubmed.ncbi.nlm.nih.gov/32918892/) | 2021 | RCT (Phase 3A) | Lancet Respir Med | CAPTAIN-Studie — FF/UMEC/VI vs. FF/VI bei unzureichend kontrolliertem Asthma |
-| [32299860](https://pubmed.ncbi.nlm.nih.gov/32299860/) | 2020 | RCT-Subgruppenanalyse | Eur Respir J | IMPACT-Studie — Auswirkung der Exazerbationsvorgeschichte auf Behandlungsergebnisse |
-| [35849317](https://pubmed.ncbi.nlm.nih.gov/35849317/) | 2022 | Netzwerk-Metaanalyse | Adv Ther | FF/UMEC/VI vs. andere COPD-Therapien — comparative Wirksamkeit |
-| [39696097](https://pubmed.ncbi.nlm.nih.gov/39696097/) | 2024 | Systematische Übersicht & Metaanalyse | BMC Pulm Med | UMEC/VI vs. andere Bronchodilatatoren bei COPD-Management |
-| [31389190](https://pubmed.ncbi.nlm.nih.gov/31389190/) | 2019 | Systematische Übersicht | Clin Respir J | Fixdosis-UMEC/VI-Kombination für COPD — systematische Übersicht |
-| [30463451](https://pubmed.ncbi.nlm.nih.gov/30463451/) | 2018 | Übersicht | Expert Rev Respir Med | FF/UMEC/VI-Kombinationstherapie für COPD |
-| [28956463](https://pubmed.ncbi.nlm.nih.gov/28956463/) | 2017 | Übersicht | Expert Rev Respir Med | Fluticasonfuroat und Vilanterol für COPD-Behandlung |
+| [29668352](https://pubmed.ncbi.nlm.nih.gov/29668352/) | 2018 | RCT | N Engl J Med | Einmal täglich Einzelinhalator-Dreifachtherapie vs. Zweifachtherapie bei COPD (IMPACT) |
+| [28375647](https://pubmed.ncbi.nlm.nih.gov/28375647/) | 2017 | RCT | Am J Respir Crit Care Med | FULFIL: einmal tägliche Dreifachtherapie vs. ICS/LABA bei COPD |
+| [32162970](https://pubmed.ncbi.nlm.nih.gov/32162970/) | 2020 | RCT | Am J Respir Crit Care Med | Verringerung der Gesamtmortalität mit FF/UMEC/VI bei COPD |
+| [32918892](https://pubmed.ncbi.nlm.nih.gov/32918892/) | 2021 | RCT | Lancet Respir Med | CAPTAIN: Dreifachtherapie FF/UMEC/VI vs. FF/VI bei unzureichend kontrolliertem Asthma |
+| [35849317](https://pubmed.ncbi.nlm.nih.gov/35849317/) | 2022 | Netzwerk-Metaanalyse | Adv Ther | FF/UMEC/VI im Vergleich zu anderen Therapien bei COPD |
+| [39696097](https://pubmed.ncbi.nlm.nih.gov/39696097/) | 2024 | Systematische Übersicht/Metaanalyse | BMC Pulm Med | Wirksamkeit von Umeclidinium/Vilanterol im Vergleich zu anderen Bronchodilatatoren bei COPD |
+| [31389190](https://pubmed.ncbi.nlm.nih.gov/31389190/) | 2019 | Systematische Übersicht | Clin Respir J | Fixkombination Umeclidinium/Vilanterol bei COPD |
+| [28956463](https://pubmed.ncbi.nlm.nih.gov/28956463/) | 2017 | Übersichtsarbeit | Expert Rev Respir Med | Fluticasonfuroat und Vilanterol bei COPD |
+| [39797646](https://pubmed.ncbi.nlm.nih.gov/39797646/) | 2024 | Kohortenstudie | BMJ | Vergleich von Einzelinhalator-Dreifachtherapien bei COPD in der Routineversorgung |
+| [23232038](https://pubmed.ncbi.nlm.nih.gov/23232038/) | 2013 | RCT | Pulm Pharmacol Ther | Verträglichkeit von Vilanterol und anhaltende Bronchodilatation bei Asthma und COPD |
 
 ---
 
-## Informationen zum taiwanesischen Markt
+## Marktinformationen Deutschland
 
-Keine Zulassungen dokumentiert. Vilanterol-haltige Produkte sind derzeit nicht auf dem taiwanesischen Markt zugelassen, entsprechend dieser Evidenzbasis (`total_licenses: 0`, `licenses: []`).
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/003754 | Laventair Ellipta (zuvor Laventair) | k. A. | Chronisch obstruktive Lungenerkrankung (COPD) |
+| EMEA/H/C/002673 | Relvar Ellipta | k. A. | Chronisch obstruktive Lungenerkrankung (COPD) |
+
+Beide Zulassungen sind erloschen (Status: „Cancelled"). Ob Vilanterol-haltige Kombinationspräparate aktuell in Deutschland vermarktet werden, sollte gesondert geprüft werden.
 
 ---
 
-## Sicherheitsüberlegungen
+## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. Dieses Evidenzpaket enthält keine wesentlichen Warnungen, Kontraindikationen oder Arzneimittelwechselwirkungsdaten (alle sind als Datenlücken gekennzeichnet; die DDI-Abfrage gab keine Ergebnisse zurück), und dies ist als blockierende Datenlücke (DG001) aufgezeichnet, die eine formale Sicherheitsvorbewertung verhindert.
+**Arzneimittelwechselwirkungen:** Die Abfrage ergab 100 Wechselwirkungen. Beispiele aus den vorliegenden Daten:
+
+- **Mittelgradig (Moderate):** Antidiabetika wie Acarbose, Alogliptin, Canagliflozin, Dapagliflozin, Empagliflozin, Chlorpropamid sowie GLP-1-Agonisten (Albiglutid, Dulaglutid); außerdem Clarithromycin, Cisaprid, Dolasetron, Diethylpropion sowie Sympathomimetika wie Ephedrin und Epinephrin.
+- **Gering (Minor):** Kortikosteroide wie Beclometasondipropionat, Betamethason, Budesonid und Dexamethason.
+
+Für Warnhinweise und Gegenanzeigen liegen keine Daten vor. Bitte die Fachinformation zu Rate ziehen.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Mit Schutzmaßnahmen fortfahren**
+**Entscheidung: Proceed with Guardrails**
 
 **Begründung:**
-Der Zusammenhang zwischen Vilanterol und obstruktiver Atemwegserkrankung wird durch L1-Evidenz unterstützt — mehrere abgeschlossene Phase-3-RCTs einschließlich der großangelegten IMPACT- und FULFIL-Studien — und spiegelt einen direkten, etablierten pharmakologischen Wirkmechanismus (LABA-Bronchodilation) wider, keine spekulative Vorhersage. Jedoch fehlen in dieser Evidenzbasis die Arzneimittel-Metadaten (ursprüngliche Indikation, MOA) und alle Sicherheits-/Regulierungsdaten (TFDA-Kennzeichnung, Kontraindikationen, DDI), und das Arzneimittel ist derzeit nicht auf dem taiwanesischen Markt zugelassen, daher kann es noch nicht über das erste Sicherheits-Screening (S1/S3-Gate) hinausgehen.
+Mehrere große Phase-3-Studien und RCTs (u. a. IMPACT, FULFIL) belegen die Wirksamkeit Vilanterol-haltiger Fixkombinationen bei COPD. Die Evidenz gilt jedoch für Kombinationspräparate und nicht für Vilanterol allein. Zudem handelt es sich im Kern um die bereits bestehende Indikation, nicht um eine neue.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- Lösen Sie DG001 (blockierend): Beschaffen Sie TFDA-Kennzeichnungswarnungen/Kontraindikationen, oder bestätigen Sie dies über die ursprüngliche Herstellerkennzeichnung (Breo/Anoro/Trelegy Ellipta), falls Vilanterol als Kombinationsprodukt importiert wird
-- Lösen Sie DG002 (Hoch): Ergänzen Sie die MOA- und ursprünglichen Indikationsfelder mithilfe von DrugBank, um die scheinbare „Datenlücke" zu korrigieren, die diesen Kandidaten als neue Vorhersage statt einer bestätigten bestehenden Verwendung erscheinen lässt
-- Bestätigen Sie den Regulierungs-/Importstatus in Taiwan für Vilanterol-haltige Kombinationsprodukte
-- Klassifizieren Sie diesen Kandidaten intern als **Datenbestätigung**, nicht als Neuentdeckung einer Indikation, um zu vermeiden, dass eine bereits genehmigte globale Indikation fälschlicherweise als Repurposing-Befund präsentiert wird
-
-**Anmerkung zu anderen vorhergesagten Indikationen (Ränge 2–10):** Die verbleibenden Kandidaten in dieser Evidenzbasis (hyperluzente Lunge, interstitiales Emphysem, kompensatorisches Emphysem, Trachealstenose, Tracheale Verkalkung, Laryngotracheitis, kongenitales Lappemphysem, Bronchialneoplasma, Respiratorische Fehlbildung) sind entweder reine TxGNN-Modellpunkte ohne unterstützende klinische Studien- oder Literaturbeweise (L5, Hold), oder zeigen Evidenz-/Thema-Diskrepanzen, bei denen die zugrunde liegenden Studien und Arbeiten generische COPD/Asthma-Studien sind, die sich nicht auf die spezifische vorhergesagte Erkrankung beziehen (wahrscheinlich Ontologie-Label-Mismatch). Keiner dieser Kandidaten ist ohne zusätzliche gezielte Evidenzen zur weiteren Bewertung bereit.
-
+**Für das weitere Vorgehen sind erforderlich:**
+- Prüfung des aktuellen Marktstatus der Vilanterol-haltigen Kombinationspräparate in Deutschland, da die Einzelwirkstoff-Zulassungen erloschen sind
+- Beschaffung und Auswertung der Fachinformation des BfArM (Warnhinweise und Gegenanzeigen fehlen; blockierende Datenlücke für die Sicherheitsprüfung)
+- Ergänzung detaillierter Wirkmechanismusdaten (z. B. aus DrugBank)
+- Klarstellung, dass die Evidenz auf Fixkombinationen beschränkt ist
+- Die übrigen vorhergesagten Indikationen (z. B. Emphysemformen, Trachealstenose) nicht weiterverfolgen (Hold), da weder klinische Evidenz noch ein plausibler Mechanismus vorliegt; die Bronchialneoplasie ist lediglich eine Forschungsfrage
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

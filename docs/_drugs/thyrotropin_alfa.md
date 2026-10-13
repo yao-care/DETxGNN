@@ -2,7 +2,7 @@
 layout: default
 title: Thyrotropin Alfa
 parent: Nur Modellvorhersage (L5)
-nav_order: 394
+nav_order: 461
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,78 +29,101 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Thyrotropin alfa: Vom Schilddrüsenkrebs (diagnostisch/adjuvant) zur Migränestörung
+# Thyrotropin alfa: Vom Schilddrüsenkarzinom zur Migräne
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Thyrotropin alfa (rekombinantes humanes Thyreotropin) wird klinisch als diagnostisches und unterstützendes Mittel bei differenziertem Schilddrüsenkrebs eingesetzt — zur Unterstützung der Radiojod-Aufnahme-Bildgebung und Ablation nach Thyreoidektomie.
-> Die Top-Vorhersage des TxGNN-Modells deutet auf mögliche Relevanz für **Migränestörung** hin,
-> aber dies ist derzeit eine **reine algorithmische Vorhersage** — es gibt keine klinischen Studien und keine Literaturunterstützung für diese Richtung, und das Evidenzpaket selbst vermerkt keinen bekannten mechanistischen Zusammenhang.
+Thyrotropin alfa ist ein rekombinantes TSH (Thyreoidea-stimulierendes Hormon). Es wurde ursprünglich im Zusammenhang mit Schilddrüsenneoplasien eingesetzt. Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **Migräne** voraus. Dafür liegen **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage beruht allein auf dem Modell.
 
 ---
 
 ## Schnellübersicht
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Schilddrüsenkrebs — diagnostische Radiojod-Bildgebung / Ablationsvorbereitung (basierend auf in dem Evidenzpaket zitiertem Arzneimittelklassen-Wissen; nicht bestätigt über deutsche Marktlizenzen, die derzeit leer sind) |
-| Vorhergesagte neue Indikation | Migränestörung |
-| TxGNN-Vorhersage-Score | 99.98% |
-| Evidence Level | L5 |
-| Deutschland-Marktstatus | ✗ Nicht am Markt |
-| Anzahl der Genehmigungen | 0 |
-| Empfohlene Entscheidung | Zurückhalten |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Schilddrüsenneoplasien |
+| Vorhergesagte neue Indikation | Migräne (migraine disorder) |
+| TxGNN-Vorhersagewert | 99,98 % |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
+| Anzahl der Zulassungen | 1 (erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Warum ist diese Vorhersage (nicht) plausibel?
 
-Derzeit sind detaillierte Daten zum Wirkmechanismus von Thyrotropin alfa in DrugBank nicht verfügbar. Basierend auf allgemeinem, an anderer Stelle im Evidenzpaket zitiertem pharmakologischen Wissen ist Thyrotropin alfa eine rekombinante Form des menschlichen Thyreotropins (TSH), das als **TSH-Rezeptor-Agonist** wirkt und Schilddrüsen-Follikelzellen zur Aufnahme von Jod und Sekretion von Schilddrüsenhormonen stimuliert. Seine etablierte klinische Rolle ist diagnostisch/adjuvant — zur Unterstützung der Radiojod-Aufnahme-Bildgebung und Ablationstherapie nach Thyreoidektomie bei differenziertem Schilddrüsenkrebs.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Thyrotropin alfa ist ein rekombinantes TSH und wirkt am TSH-Rezeptor, vor allem an Schilddrüsenfollikelzellen. Seine Rolle bei Schilddrüsenneoplasien ist etabliert.
 
-Es gibt keinen bekannten pathophysiologischen Zusammenhang zwischen TSH-Rezeptor-Signalisierung in Schilddrüsen-Follikelzellen und den trigeminovaskulären / CGRP-Signalwegen, die bei Migräne impliziert sind. Das TxGNN-Modell wies der Migränestörung seinen höchsten Vorhersage-Score zu (99.98%), aber dies spiegelt Netzwerk-Ebenen-Mustererkennung wider und nicht eine validierte biologische Hypothese — das Evidenzpaket erklärt ausdrücklich, dass derzeit keine mechanistische Hypothese, klinische Studie oder Literatur diesen Arzneistoff-Erkrankungs-Bezug unterstützt.
+Ein mechanistischer Zusammenhang zur Migräne ist nicht belegt. Der sehr hohe Modellwert (0,9998) ist eine reine Vorhersage aus dem Wissensgraphen. Ein möglicher Bezug wäre allenfalls indirekt, etwa über schilddrüsenbezogene hormonelle oder vaskuläre Effekte, wofür es keine Hinweise gibt.
 
-Angesichts des Fehlens jeglicher mechanistischer Begründung sollte diese Vorhersage nur als Signal zur Hypothesengenerierung behandelt werden, nicht als Grundlage für klinische Überlegungen in diesem Stadium.
+Auch die übrigen Vorhersagen unter den Top 10 sind überwiegend nicht plausibel:
+
+| Rang | Vorhergesagte Indikation | TxGNN-Wert | Einschätzung |
+|---|---|---|---|
+| 1 | Migräne | 99,98 % | Kein belegter Mechanismus |
+| 2 | Migräne mit Hirnstamm-Aura | 99,98 % | Wahrscheinlich Nähe zum Migräne-Knoten im Graphen |
+| 3 | Raynaud-Krankheit | 99,96 % | Nur Assoziation mit Schilddrüsenautoimmunität, kein Therapieansatz |
+| 4 | Migräne (Suszeptibilität) | 99,91 % | Genetischer Phänotyp, vermutlich Graph-Artefakt |
+| 5 | Atrophoderma vermiculata | 99,86 % | Kein plausibler Mechanismus |
+| 6 | Ulerythema ophryogenes | 99,84 % | Kein bekannter Mechanismus |
+| 7 | Pulmonale Hypertonie | 99,84 % | Möglicherweise schädlich bei kardiopulmonaler Erkrankung |
+| 8 | Kyphoskoliotische Herzerkrankung | 99,81 % | Kein Mechanismus |
+| 9 | Posturales orthostatisches Tachykardiesyndrom | 99,69 % | Könnte durch Tachykardie verschlechtern |
+| 10 | Hyperthyreose | 99,65 % | Biologisch widersprüchlich, eher kontraindiziert |
 
 ---
 
-## Klinische Studienevidenz
+## Klinische Studien
 
-Derzeit keine verwandten klinischen Studien registriert
-
----
-
-## Literaturevidenz
-
-Derzeit keine verwandte Literatur verfügbar
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Deutschland-Marktinformationen
+## Literatur
 
-Thyrotropin alfa ist derzeit **nicht am Markt** in Deutschland, und es sind keine Genehmigungsvorgänge in diesem Evidenzpaket verfügbar (0 Lizenzen in den Akten).
+Derzeit liegt keine zugehörige Literatur vor.
+
+---
+
+## Informationen zum deutschen Markt
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000220 | Thyrogen (Sanofi B.V.) | – | Schilddrüsenneoplasien |
+
+Diese Zulassung ist erloschen (Status: cancelled); es besteht derzeit keine gültige Zulassung.
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte konsultieren Sie die Packungsbeilage für Sicherheitsinformationen.
+- **Arzneimittelwechselwirkungen**: Insgesamt wurden 45 Wechselwirkungen erfasst. Die aufgeführten Einträge sind durchweg von **mäßigem** Schweregrad und betreffen überwiegend Antidiabetika:
+  - Biguanide: Metformin
+  - Sulfonylharnstoffe: Chlorpropamid, Glimepirid, Glipizid, Glibenclamid (Glyburide), Acetohexamid
+  - SGLT2-Hemmer: Canagliflozin, Dapagliflozin, Empagliflozin, Ertugliflozin
+  - GLP-1-Rezeptoragonisten: Albiglutid, Dulaglutid, Semaglutid, Exenatid
+  - DPP-4-Hemmer: Alogliptin, Saxagliptin
+  - Alpha-Glucosidase-Hemmer: Acarbose
+  - Insuline: Humaninsulin, Insulin aspart (auch als Protaminform)
+- **Hinweise aus den Vorhersagen**: Thyrotropin alfa kann vorübergehend die Schilddrüsenhormone erhöhen und Tachykardie oder Palpitationen auslösen. Bei Hyperthyreose, pulmonaler Hypertonie und POTS ist daher eher mit einer Verschlechterung zu rechnen.
+
+Weitere Sicherheitsinformationen entnehmen Sie bitte der Fachinformation.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Zurückhalten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die höchstrangig vorhergesagte Indikation (Migränestörung) wird nur durch einen L5-Algorithmus-Score unterstützt, ohne klinische Studien, ohne Literatur und ohne plausiblen mechanistischen Zusammenhang — der bekannte TSH-Rezeptor-Agonismus des Arzneistoffs hat keine etablierte Verbindung zur Migräne-Pathophysiologie. Darüber hinaus verhindert eine blockierende Datenlücke (fehlende TFDA/Label-Warnhinweise und Kontraindikationen) sogar eine erste Sicherheitsüberprüfung (S1), und das Arzneimittel ist derzeit nicht in Deutschland am Markt.
+Die Vorhersage stützt sich ausschließlich auf ein Wissensgraphen-Modell (Evidenzstufe L5), es gibt weder Studien noch Publikationen, und ein plausibler Mechanismus fehlt. Zudem ist die einzige deutsche Zulassung erloschen.
 
-**Um fortzufahren, wird Folgendes benötigt:**
-- Analyse der Packungsbeilage / regulatorischen Kennzeichnung für Warnhinweise und Kontraindikationen (derzeit S1-Sicherheitsbewertung blockierend)
-- Bestätigte Wirkmechanismus-Daten aus DrugBank (derzeit nicht verfügbar)
-- Eine validierte mechanistische Hypothese, die TSH-Rezeptor-Signalisierung mit Migräne-Pathophysiologie verbindet, idealerweise durch präklinische Daten unterstützt
-- Jegliche prospektive klinische Evidenz oder Fallberichte, die Thyrotropin alfa direkt bei Migräne-Patienten evaluieren
-- Klärung des regulatorischen Weges, angesichts dessen, dass das Arzneimittel derzeit nicht in Deutschland am Markt ist
-
+**Für ein Weiterkommen erforderlich:**
+- Daten zum Wirkmechanismus (MOA)
+- Warnhinweise und Gegenanzeigen aus der Fachinformation (zugänglich über BfArM), da diese für die Sicherheitsprüfung fehlen
+- Eine systematische Literaturrecherche und präklinische Hinweise zu einem möglichen Zusammenhang zwischen TSH-Rezeptor-Signalweg und Migräne
+- Klärung der Darreichungswege und der Zulassungssituation, da das Produkt nur injizierbar bekannt ist und die Zulassung erloschen ist
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

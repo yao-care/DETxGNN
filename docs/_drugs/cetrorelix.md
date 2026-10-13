@@ -2,7 +2,7 @@
 layout: default
 title: Cetrorelix
 parent: Nur Modellvorhersage (L5)
-nav_order: 98
+nav_order: 110
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,78 +29,84 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Cetrorelix: Von undokumentierter ursprünglicher Indikation zu Hypertrichose
+# Cetrorelix: Von Ovulationsinduktion zu Hypertrichose
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Cetrorelix ist ein GnRH-Rezeptorantagonist (Gonadotropin-Releasing-Hormon-Rezeptorantagonist), der die hypophysäre LH-/FSH-Sekretion unterdrückt; seine ursprüngliche zugelassene Indikation ist im vorliegenden Beweispaket nicht dokumentiert.
-> Die höchstrangige Vorhersage des TxGNN-Modells ist **Hypertrichose (Erkrankung)**, mit einer Punktzahl von **99.98%**,
-> aber dieser Kandidat wird derzeit von **0 klinischen Studien** und **0 Publikationen** unterstützt, und die begleitende mechanistische Begründung selbst kennzeichnet die Vorhersage als wahrscheinlich ein Graphentopologie-Rauschen und nicht als eine echte pharmakologische Verbindung.
+Cetrorelix ist ein GnRH-Rezeptor-Antagonist, der ursprünglich im Rahmen der Fertilitätsbehandlung (kontrollierte ovarielle Stimulation, Ovulationsinduktion) eingesetzt wurde, um vorzeitige LH-Anstiege zu verhindern.
+Das TxGNN-Modell sagt für den Wirkstoff als bestbewertete Indikation **Hypertrichose** voraus.
+Dafür liegen **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage beruht ausschließlich auf dem Modell.
 
 ---
 
-## Schnellobersicht
+## Schnellübersicht
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Im Beweispaket nicht dokumentiert (keine `original_indications` auf Datei; Arzneimittel derzeit nicht in Deutschland vermarktet) |
-| Vorhergesagte neue Indikation | Hypertrichose (Erkrankung) |
-| TxGNN-Vorhersage-Punktzahl | 99.98% (Rang 545 unter allen Kandidaten) |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Ovulation; Ovulationsinduktion |
+| Vorhergesagte neue Indikation | Hypertrichose |
+| TxGNN-Vorhersagewert | 99,98 % |
 | Evidenzstufe | L5 |
-| Deutschland-Marktstatus | ✗ Nicht vermarktet (Nicht vermarktet) |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Abwarten |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
+| Anzahl der Zulassungen | 1 |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Warum ist diese Vorhersage (nicht) plausibel?
 
-Der detaillierte DrugBank-Text zum Wirkmechanismus ist derzeit nicht verfügbar (gekennzeichnet als **hochschwere Datenlücke, DG002**). Basierend auf der mechanistischen Beschreibung, die dieser Vorhersage beiliegt, ist bekannt, dass Cetrorelix als **GnRH-Rezeptorantagonist** wirkt und die hypophysäre Freisetzung von LH/FSH blockiert — die gleiche Achse, auf die GnRH-Agonisten/Antagonisten in der reproduktiven Endokrinologie abzielen.
+Für die vorliegende Analyse sind keine detaillierten Daten zum Wirkmechanismus verfügbar. Bekannt ist, dass Cetrorelix den GnRH-Rezeptor (GNRHR) blockiert und dadurch die Freisetzung von LH und FSH sowie nachgeschaltet der Sexualsteroide unterdrückt. Seine Wirksamkeit bei der Verhinderung vorzeitiger LH-Anstiege in der Fertilitätsbehandlung ist etabliert.
 
-Die für diesen Kandidaten explizit generierte Begründung besagt jedoch, dass Hypertrichose in erster Linie durch **lokale Haarfollikel-Wachstumszyklus-Regulierung** angetrieben wird, nicht durch die hypothalamisch-hypophysär-gonadale (HPG) Achse. Es gibt **keinen etablierten mechanistischen Weg**, der GnRH-Rezeptor-Blockade mit Haarfollikel-Biologie verbindet. Die eigene Bewertung des Beweispakets kommt zu dem Schluss, dass der hohe TxGNN-Score wahrscheinlich die **Nähe von Erkrankungsknoten im Wissensgraphen** widerspiegelt (z. B. gemeinsame Assoziation mit Reproduktions-/Endokrin-Krankheitsclustern) anstelle einer echten pharmakologischen Beziehung.
+Für Hypertrichose besteht jedoch kein klarer mechanistischer Zusammenhang. Hypertrichose ist typischerweise nicht androgenabhängig, sodass eine GnRH-Blockade kein etablierter Therapieansatz ist. Eine entfernte Verbindung besteht allenfalls zum androgenbedingten Hirsutismus, der jedoch eine andere Erkrankung darstellt. Der hohe TxGNN-Wert ist eine rein computergestützte Vorhersage ohne Rückhalt in Studien oder Literatur.
 
-Bemerkenswert ist, dass bei der Überprüfung der vollständigen Reihe von 10 TxGNN-Vorhersagen für dieses Arzneimittel ein niedriger platzierter Kandidat — **zentrale Pubertas praecox 1** (Rang 10, Punktzahl 99.29%) — eine wesentlich stärkere mechanistische Begründung hat: es ist eine GnRH-abhängige (zentrale) Erkrankung, die direkt durch GnRH-Rezeptor-Blockade behandelbar ist, mechanistisch parallel zur etablierten Anwendung von GnRH-Agonisten (z. B. leuprolide) in dieser Erkrankung. Dieser Kandidat wurde intern separat als „Forschungsfrage" (Entscheidungsstufe S1) gekennzeichnet, nicht als „Abwarten", obwohl derzeit keine klinischen Studien- oder Literaturbelege vorhanden sind. Es könnte eine unabhängige Bewertung außerhalb des Umfangs des Hauptkandidaten dieses Berichts rechtfertigen.
-
----
-
-## Evidenz aus klinischen Studien
-
-Derzeit sind keine verwandten klinischen Studien registriert.
+Auch bei den weiteren vorhergesagten Indikationen ist der Zusammenhang überwiegend schwach (z. B. angeborene Fehlbildungssyndrome, genetisch bedingte Haarschaftanomalien). Biologisch am ehesten nachvollziehbar sind:
+- **Zentrale Pubertas praecox** (Rang 10, Wert 99,29 %): Die Erkrankung wird durch eine frühe Aktivierung der Hypothalamus-Hypophysen-Gonaden-Achse getrieben. Standardtherapie sind GnRH-Agonisten; ein Antagonist wie Cetrorelix ist mechanistisch plausibel. Einschränkungen sind die kurze Wirkdauer, die notwendigen häufigen Injektionen, fehlende pädiatrische Daten und der Marktstatus.
+- **Familiäre männerlimitierte Pubertas praecox** (Rang 8, Wert 99,55 %): Die Ursache sind aktivierende LHCGR-Mutationen, die unabhängig von GnRH wirken. Eine GnRH-Blockade würde die autonome Leydig-Zell-Aktivität nicht direkt unterdrücken; allenfalls bei später auftretender sekundärer zentraler Aktivierung wäre ein Nutzen denkbar. Dies ist nur eine Hypothese.
 
 ---
 
-## Literaturbelege
+## Klinische Evidenz
 
-Derzeit sind keine verwandten Literaturbelege verfügbar.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Deutschland-Marktinformationen
+## Literaturevidenz
 
-Cetrorelix hält derzeit **0 Zulassungen** in Deutschland (Marktstatus: nicht vermarktet), daher sind keine Daten auf Zulassungsebene für diesen Bericht verfügbar.
+Derzeit liegt keine zugehörige Literatur vor.
+
+---
+
+## Marktinformationen Deutschland
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000233 | Cetrotide (Merck Europe B.V.) | – | Ovulation; Ovulationsinduktion |
+
+Hinweis: Diese Zulassung ist als erloschen/aufgehoben geführt.
 
 ---
 
 ## Sicherheitsaspekte
 
-Detaillierte TFDA-/Etikett-Warn- und Kontraindikationsdaten wurden noch nicht abgerufen und sind als **blockierende Datenlücke (DG001)** gekennzeichnet — dies muss vor einer Sicherheitsvorbewertung in Phase 1 (S1) gelöst werden. Daten zu Arzneimittelwechselwirkungen wurden abgefragt, aber es wurden keine Ergebnisse zurückgegeben.
+Bitte entnehmen Sie die Sicherheitsinformationen der Packungsbeilage bzw. Fachinformation.
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+Pharmakologisch relevant ist die Bindung an den GnRH-Rezeptor (GNRHR) als Zielstruktur; Wechselwirkungen mit anderen Arzneimitteln sind in den zusammengestellten Daten nicht aufgeführt.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Abwarten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die höchstrangige Vorhersage (Hypertrichose) hat keine unterstützenden klinischen Studien- oder Literaturbelege (L5) und ihre eigene mechanistische Begründung kennzeichnet sie als wahrscheinlich falsch positiv, angetrieben durch Wissensgraph-Nähe anstelle echter Pharmakologie. In Kombination mit einer **blockierenden** Datenlücke bei TFDA-/Etikett-Sicherheitsinformationen erfüllt dieser Kandidat derzeit nicht die Anforderungen zum Fortschreiten.
+Für Hypertrichose und die übrigen vorhergesagten Indikationen liegen weder klinische Studien noch Publikationen vor, und ein plausibler Wirkmechanismus fehlt weitgehend. Zudem ist die einzige deutsche bzw. europäische Zulassung erloschen. Als Forschungsfragen mit mechanistischer Begründung kommen allenfalls die zentrale Pubertas praecox und die familiäre männerlimitierte Pubertas praecox in Betracht.
 
-**Um fortzufahren, wird Folgendes benötigt:**
-- DG001 (Blockierend) lösen: Offizielles Etikett/Packungsbeilage abrufen und analysieren auf Warnungen und Kontraindikationen
-- DG002 (Hoch) lösen: Von DrugBank bestätigten Wirkmechanismus abrufen, um die mechanistische Plausibilität ordnungsgemäß zu bewerten
-- Falls die Umwidmung weiter verfolgt wird, lenken Sie Bewertungsressourcen auf **zentrale Pubertas praecox 1** (Rang 10), die eine stärkere mechanistische Grundlage hat, aber derzeit keine klinischen oder literarischen Belege hat — eine dedizierte Literatur-/Studiensuche für diese Indikation wird vor weiterer Bewertung empfohlen
-
+**Für ein Weiterverfolgen sind folgende Schritte nötig:**
+- Auswertung der Packungsbeilage/Fachinformation (Warnhinweise, Gegenanzeigen) als Voraussetzung für eine Sicherheitsbewertung
+- Ergänzung detaillierter Wirkmechanismus-Daten
+- Systematische Literaturrecherche und Prüfung von Studienregistern zur zentralen Pubertas praecox
+- Klärung der Eignung (Kurzwirksamkeit, Injektionshäufigkeit, pädiatrische Sicherheit) und der Verfügbarkeit des Produkts
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Imiquimod
-parent: Hohe Evidenz (L1-L2)
-nav_order: 200
-evidence_level: L1
+parent: Nur Modellvorhersage (L5)
+nav_order: 236
+evidence_level: L5
 indication_count: 10
 ---
 
 # Imiquimod
 {: .fs-9 }
 
-Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,96 +29,101 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Imiquimod: Von Aktinischer Keratose/Externe Genitalwarzen zu Prämaligner Neoplasie
+# Imiquimod: Von aktinischer Keratose zu prämalignen Neoplasien
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Imiquimod ist ein topischer Toll-like-Rezeptor-7-(TLR7)-Agonist, dessen genehmigte Anwendungen aktinische Keratose, externe Genitalwarzen und oberflächliches Basalzellkarzinom umfassen. Das TxGNN-Modell prognostiziert, dass es möglicherweise auch wirksam sein könnte für **Prämaligne Neoplasie** (allgemein epitheliale intraepitheliale Läsionen wie CIN/VIN/AIN und Lentigo maligna), mit **19 klinischen Studien** und **9 Publikationen**, die derzeit diese Richtung unterstützen.
-
----
-
-## Schneller Überblick
-
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Aktinische Keratose/externe Genitalwarzen (gemäß Text der mechanistischen Begründung im Evidenzpaket; **nicht durch strukturierte Licensdaten bestätigt – dieses Feld ist eine Datenlücke**) |
-| Vorhergesagte neue Indikation | Prämaligne Neoplasie |
-| TxGNN-Vorhersage-Score | 99.92% |
-| Evidenzstufe | L1 |
-| Marktstatus | Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Mit Schutzmaßnahmen fortfahren |
+Imiquimod ist ein topisch angewendeter Immunmodulator, der ursprünglich zur Behandlung von Feigwarzen (Condylomata acuminata), aktinischer Keratose und Basalzellkarzinom zugelassen war.
+Das TxGNN-Modell sagt voraus, dass er bei **prämalignen Neoplasien** wirksam sein könnte.
+Dafür liegen derzeit **2 klinische Studien** (beide klein bzw. vorzeitig beendet) und **9 Publikationen** vor, darunter zwei Cochrane-Reviews.
 
 ---
 
-## Warum ist diese Vorhersage sinnvoll?
+## Kurzüberblick
 
-Derzeit sind detaillierte Wirkmechanismus-Daten nicht verfügbar (DG002, Gap mit hohem Schweregrad). Basierend auf den Informationen im Evidenzpaket ist Imiquimod ein TLR7-Agonist, der bei topischer Anwendung die lokale Produktion von IFN-α, TNF-α und anderen Zytokinen durch Keratinozyten und ansässige Immunzellen induziert und sowohl angeborene als auch adaptive Immunität aktiviert, um virusinfizierte oder abnorm proliferierende Epithelzellen zu beseitigen.
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Condylomata acuminata, Keratose, aktinische Keratose, Basalzellkarzinom |
+| Vorhergesagte neue Indikation | Prämalignes Neoplasma (pre-malignant neoplasm) |
+| TxGNN-Vorhersagewert | 99,92 % |
+| Evidenzniveau | L1 (laut Bewertung der Datenzusammenstellung; siehe Hinweis unten) |
+| Marktstatus in Deutschland | Nur erloschene/gelöschte Zulassungen |
+| Anzahl der Zulassungen | 2 (beide erloschen) |
+| Empfohlene Entscheidung | Proceed with Guardrails |
 
-Dieser Mechanismus ist bereits die pharmakologische Grundlage für die bestehenden genehmigten Anwendungen von Imiquimod bei Hauterkrankungen wie aktinischer Keratose und externen Genitalwarzen. Eine Erweiterung auf andere epitheliale intraneoplastische Läsionen – zervikale, vulväre und anale intraepitheliale Neoplasien (CIN/VIN/AIN), Lentigo maligna und oberflächliches Basalzellkarzinom – ist mechanistisch gut unterstützt, da alle diese HPV-bezogene oder UV-bezogene prämaligne/oberflächliche Epithelläsionen sind, die für lokale immunvermittelte Beseitigung zugänglich sind.
-
-Bemerkenswert ist, dass diese biologische Plausibilität durch echte klinische Daten gestützt wird: zwei abgeschlossene Phase-3-Studien (neoadjuvante Behandlung von Lentigo maligna, n=259; Aktinische-Keratose-Creme-Regime) und eine Phase-3-RCT, die Imiquimod direkt bei hochgradiger CIN testet, was dieser Vorhersage bessere als durchschnittliche Unterstützung im Vergleich zu einem reinen Modell-Score-Kandidaten verleiht.
+**Hinweis zur Evidenzstufe:** Die Datenzusammenstellung ordnet L1 zu. Strikt nach den Regeln (≥2 abgeschlossene Phase-3-RCTs) ist L1 jedoch nicht erfüllt: Es gibt nur eine abgeschlossene, einarmige Phase-3-Studie (n = 20) und eine vorzeitig abgebrochene Phase-3-RCT (n = 9). Die Evidenz ist daher konservativ eher als L3 (Reviews, Fallberichte) einzustufen.
 
 ---
 
-## Klinische Studienevidenz
+## Warum ist diese Vorhersage plausibel?
 
-| Trialnummer | Phase | Status | Einschreibung | Wichtigste Erkenntnisse |
+Imiquimod ist ein Agonist des Toll-like-Rezeptors 7 (TLR7). Er löst lokal eine angeborene und adaptive Immunantwort gegen Tumorzellen aus (u. a. Interferon-alpha, TNF-alpha, IL-12). Die detaillierten Mechanismusdaten aus der Arzneimitteldatenbank lagen für diesen Bericht nicht vor; die Angaben stützen sich auf die mechanistische Bewertung der Datenzusammenstellung.
+
+Die aktinische Keratose, eine der ursprünglichen Indikationen, ist selbst eine prämaligne Hautläsion. Es ist daher naheliegend, dass dieselbe immunvermittelte Abräumung auch bei intraepithelialen Neoplasien von Zervix, Vulva, Anus und Penis wirkt. Diese sind häufig HPV-assoziiert, und Imiquimod ist bereits bei HPV-bedingten Läsionen (Feigwarzen) etabliert.
+
+---
+
+## Evidenz aus klinischen Studien
+
+| Studiennummer | Phase | Status | Teilnehmerzahl | Kernaussagen |
 |---------|------|------|------|---------|
-| [NCT01720407](https://clinicaltrials.gov/study/NCT01720407) | Phase 3 | Abgeschlossen | 259 | Neoadjuvantes Imiquimod zur Verringerung der Exzisionsgröße/des Risikos unvollständiger Exzision bei Lentigo maligna des Gesichts |
-| [NCT02329171](https://clinicaltrials.gov/study/NCT02329171) | Phase 3 | Beendet | 9 | RCT von topischem Imiquimod für hochgradige zervikale intraepitheliale Neoplasien (CIN 2-3) vs. LLETZ; vorzeitig beendet, überprüfen Sie Rekrutierungs-/Sicherheitsgründe vor Verwendung |
-| [NCT03233412](https://clinicaltrials.gov/study/NCT03233412) | Phase 2 | Abgeschlossen | 90 | RCT zur Bewertung der Wirksamkeit von topischem Imiquimod bei hochgradigen zervikalen intraepithelialen Läsionen |
-| [NCT00175643](https://clinicaltrials.gov/study/NCT00175643) | Phase 3 | Abgeschlossen | 20 | Offene Studie mit Imiquimod-5%-Creme (3x/Woche, 1–2 Zyklen) für aktinische Keratosen des Kopfes |
-| [NCT01229319](https://clinicaltrials.gov/study/NCT01229319) | Phase 4 | Unbekannt | 20 | Imiquimod-3.75%-Creme nach Kryotherapie für hypertrophe aktinische Keratosen an Händen/Unterarmen |
-| [NCT02242929](https://clinicaltrials.gov/study/NCT02242929) | Phase 3 | Unbekannt | 145 | Nicht-Unterlegenheits-RCT: chirurgische Exzision vs. Kürettage + Imiquimod für nodulares Basalzellkarzinom |
-| [NCT00941811](https://clinicaltrials.gov/study/NCT00941811) | Phase 2 | Abgeschlossen | 5 | Immun-Escape-Mechanismen und Imiquimod-Wirksamkeit bei HPV-assoziierten VIN 2/3 und anogenitalen Warzen |
-| [NCT04219358](https://clinicaltrials.gov/study/NCT04219358) | Phase 1 | Beendet | 49 | RCT zum Vergleich von 5%-Imiquimod, 0.05%-Imiquimod und 0.05% nanoverkapsultem Imiquimod-Gel für aktinische Cheilitis |
-| [NCT04883645](https://clinicaltrials.gov/study/NCT04883645) | Frühe Phase 1 | Abgeschlossen | 16 | Pilot-Studie zur neoadjuvanten topischen TLR7-Agonist-(Imiquimod-)Immuntherapie bei frühem Plattenepithelkarzinom der Mundhöhle |
+| [NCT00175643](https://clinicaltrials.gov/study/NCT00175643) | Phase 3 | Abgeschlossen | 20 | Offene Studie zu Imiquimod 5 % Creme (3×/Woche, 1–2 Zyklen) bei aktinischen Keratosen im Kopfbereich; untersucht die Wirkdauer. Klein und überlappt mit der bestehenden Indikation. |
+| [NCT02329171](https://clinicaltrials.gov/study/NCT02329171) | Phase 3 | Abgebrochen | 9 | Randomisierte Studie zu topischem Imiquimod bei hochgradiger zervikaler intraepithelialer Neoplasie (CIN 2–3) als nicht-invasive Alternative zur Schlingenexzision. Wegen sehr geringer Teilnehmerzahl nicht aussagekräftig. |
 
 ---
 
 ## Literaturevidenz
 
-| PMID | Jahr | Typ | Zeitschrift | Wichtigste Erkenntnisse |
+| PMID | Jahr | Typ | Journal | Kernaussagen |
 |------|-----|------|------|---------|
-| [23235673](https://pubmed.ncbi.nlm.nih.gov/23235673/) | 2012 | Cochrane-Übersicht | Cochrane Database Syst Rev | Systematische Übersicht von Interventionen (einschließlich Imiquimod) für anale intraepitheliale Neoplasien |
-| [21491403](https://pubmed.ncbi.nlm.nih.gov/21491403/) | 2011 | Cochrane-Übersicht | Cochrane Database Syst Rev | Systematische Übersicht von medizinischen Interventionen (einschließlich Imiquimod) für hochgradige vulväre intraepitheliale Neoplasien |
-| [26516853](https://pubmed.ncbi.nlm.nih.gov/26516853/) | 2015 | Übersichtsartikel | Int J Mol Sci | Kombinierte photodynamische Therapie-Behandlungen für nicht-melanomatischen Hautkrebs, einschließlich Imiquimod-basierter Regime |
-| [20505896](https://pubmed.ncbi.nlm.nih.gov/20505896/) | 2010 | Übersichtsartikel | Skin Therapy Lett | Aktuelle Behandlung von aktinischen Keratosen, einschließlich topischer Feldtherapien |
-| [15584683](https://pubmed.ncbi.nlm.nih.gov/15584683/) | 2004 | Übersichtsartikel | Semin Cutan Med Surg | Topische Behandlungsstrategien für nicht-melanomatischen Hautkrebs und Vorläuferläsionen |
-| [29500135](https://pubmed.ncbi.nlm.nih.gov/29500135/) | 2018 | Präklinische PK | Urol Oncol | PK/PD von TLR7-Agonisten (imiquimod-verwandte Verbindungen) im Rattenmodell, relevant für intravesikale Behandlung prämaligner Läsionen |
-| [30284955](https://pubmed.ncbi.nlm.nih.gov/30284955/) | 2019 | Fallbericht | Int J STD AIDS | Erfolgreiche Behandlung von hochgradiger VIN mit Imiquimod 5% bei einem Nierentransplantationsempfänger |
-| [18931984](https://pubmed.ncbi.nlm.nih.gov/18931984/) | 2008 | Fallbericht | Hautarzt | OCT-Abbildungsfall mit aktinischer Porokeratose und mehreren (prä-)malignen Hautläsionen |
-| [15601490](https://pubmed.ncbi.nlm.nih.gov/15601490/) | 2004 | Fallbericht | Int J STD AIDS | Bowenoid-Papulose des Penis erfolgreich mit topischer Imiquimod-5%-Creme behandelt |
+| [23235673](https://pubmed.ncbi.nlm.nih.gov/23235673/) | 2012 | Systematischer Review (Cochrane) | Cochrane Database Syst Rev | Interventionen bei analer intraepithelialer Neoplasie, einer prämalignen HPV-assoziierten Läsion |
+| [21491403](https://pubmed.ncbi.nlm.nih.gov/21491403/) | 2011 | Systematischer Review (Cochrane) | Cochrane Database Syst Rev | Medikamentöse Therapien bei hochgradiger vulvärer intraepithelialer Neoplasie |
+| [26516853](https://pubmed.ncbi.nlm.nih.gov/26516853/) | 2015 | Review | Int J Mol Sci | Kombinationstherapien mit photodynamischer Therapie bei nicht-melanozytärem Hautkrebs |
+| [15584683](https://pubmed.ncbi.nlm.nih.gov/15584683/) | 2004 | Review | Semin Cutan Med Surg | Topische Strategien (u. a. Imiquimod) bei nicht-melanozytärem Hautkrebs und Vorstufen |
+| [20505896](https://pubmed.ncbi.nlm.nih.gov/20505896/) | 2010 | Review | Skin Therapy Lett | Aktuelles Management aktinischer Keratosen als prämaligne Läsionen |
+| [30284955](https://pubmed.ncbi.nlm.nih.gov/30284955/) | 2019 | Fallbericht | Int J STD AIDS | Erfolgreiche Behandlung einer hochgradigen vulvären intraepithelialen Neoplasie mit Imiquimod 5 % bei einer Nierentransplantierten |
+| [15601490](https://pubmed.ncbi.nlm.nih.gov/15601490/) | 2004 | Fallbericht | Int J STD AIDS | Bowenoide Papulose des Penis erfolgreich mit Imiquimod 5 % behandelt |
+| [29500135](https://pubmed.ncbi.nlm.nih.gov/29500135/) | 2018 | Präklinisch | Urol Oncol | Pharmakokinetik von TLR7-Agonisten im Rattenmodell (Blasenkrebs-Forschung) |
 
 ---
 
-## Marktinformationen
+## Marktinformationen Deutschland
 
-Für dieses Evidenzpaket sind keine Zulassungsunterlagen verfügbar – das Produkt wird als **Nicht vermarktet** mit **0 Zulassungen** aufgezeichnet, daher kann keine Zulassungstabelle erstellt werden.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000179 | Aldara (erloschen) | – | Condylomata acuminata, Keratose, aktinische Keratose, Basalzellkarzinom |
+| EMEA/H/C/002387 | Zyclara (erloschen) | – | Keratose, aktinische Keratose |
+
+Beide Zulassungen (Inhaber: Viatris Healthcare Limited) sind erloschen; derzeit ist keine gültige Zulassung vorhanden.
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. Wichtige Warnungen, Gegenanzeigen und Arzneimittelwechselwirkungsdaten sind alle als Datenlücken in diesem Evidenzpaket gekennzeichnet (DG001, blockierender Schweregrad – TFDA/Packungsbeilage-Warnungen und Gegenanzeigen der gleichwertigen Behörde noch nicht abgerufen).
+- **Kontraindikationen aus dem Wissensgraphen (keine Packungsbeilagen-Angaben):** Photoparoxysmale Reaktion, Lichtüberempfindlichkeit, Autoimmunerkrankungen, Graft-versus-Host-Erkrankung, Sonnenbrand.
+- **Wechselwirkungen:** Es wurden 59 mögliche Wechselwirkungen erfasst, jeweils ohne Schweregradeinstufung. Beispiele: Warfarin, Clopidogrel, Acetylsalicylsäure, Prednison, Prednisolon, Budesonid, Simvastatin, Omeprazol, Morphin, Hydroxychloroquin.
+- **Hinweise aus der Literatur:** Fallberichte beschreiben unter Imiquimod eine maligne Konversion oraler Papillomatose, einen Lichen planopilaris sowie ein Erythema multiforme.
+
+Für Warnhinweise und Kontraindikationen siehe die Fachinformation.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Mit Schutzmaßnahmen fortfahren**
+**Entscheidung: Proceed with Guardrails**
 
 **Begründung:**
-Mehrere abgeschlossene Phase-2/3-Studien und zwei Cochrane-Übersichten unterstützen direkt die mechanistische und klinische Anwendbarkeit von Imiquimod auf epitheliale prämaligne Läsionen (CIN, VIN, AIN, Lentigo maligna, aktinische Keratose), was dies auf L1-Evidenzniveau ergibt. Eine wegweisende Phase-3-RCT (NCT02329171) wurde jedoch vorzeitig beendet und mehrere Unterstützungsstudien haben kleine Stichprobengrößen, daher sind Schutzmaßnahmen gerechtfertigt, anstatt eines bedingungslosen Go.
+Der Wirkmechanismus passt gut zu prämalignen Epithelläsionen, und es gibt Cochrane-Reviews sowie Fallberichte zu intraepithelialen Neoplasien. Die Studienlage ist jedoch dünn (eine kleine einarmige Studie, eine abgebrochene RCT mit 9 Teilnehmern), und es besteht derzeit keine gültige Zulassung in Deutschland.
 
-**Um fortzufahren, ist folgendes erforderlich:**
-- DG001 (blockierend) auflösen: Beschaffen Sie sich offizielle Packungsbeilage-Warnungen/Gegenanzeigen, bevor eine S1-Sicherheitsbewertung fortgesetzt werden kann
-- DG002 auflösen: Beschaffen Sie sich bestätigte Wirkmechanismus-Daten aus DrugBank
-- Ursprüngliche genehmigte Indikationen durch strukturierte Licensdaten klären (derzeit nicht vorhanden in `taiwan_regulatory.licenses`)
-- Grund für die vorzeitige Beendigung von NCT02329171 überprüfen, bevor Sie sich darauf als unterstützende Evidenz verlassen
-- Zielläsions-Subtyp definieren (z. B. CIN vs. Lentigo maligna vs. aktinische Keratose) angesichts der Heterogenität in der Studien-Evidenzbasis
+**Für das weitere Vorgehen erforderlich:**
+- Auswertung der Fachinformation (Warnhinweise, Kontraindikationen), da diese Daten fehlen und die Sicherheitsprüfung bislang blockieren
+- Detaillierte Mechanismusdaten aus der Arzneimitteldatenbank
+- Adäquat gepowerte, randomisierte Studien zu CIN, VIN oder AIN
+- Klärung des Zulassungsstatus und der verfügbaren Darreichungsformen
+- Prüfung der Wechselwirkungen mit klinischer Schweregradeinstufung
+- Sicherheitsüberwachung bei Photosensibilität, Autoimmunerkrankungen und Immunsuppression
 
+**Weitere Vorhersagen (Kurzüberblick):** Für „benign neoplasm of buccal mucosa" und „odontogenic cyst" (Evidenz L3) besteht lediglich Forschungsbedarf. Die Indikationen „cervical neuroblastoma", „nasopharyngeal teratoma", „neoplasm of major salivary gland", „schwannoma of jugular foramen", „benign neoplasm of tongue", „cystic neoplasm" und „inner ear neoplasm" werden mangels Evidenz mit Hold bewertet.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Paclitaxel
-parent: Hohe Evidenz (L1-L2)
-nav_order: 287
-evidence_level: L1
+parent: Nur Modellvorhersage (L5)
+nav_order: 336
+evidence_level: L5
 indication_count: 10
 ---
 
 # Paclitaxel
 {: .fs-9 }
 
-Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,116 +29,134 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Paclitaxel: Von ungeklärter Onkologie-Indikation zu Mammakarzinom der Frau
+# Paclitaxel: Von Brustneoplasmen, Pankreaskarzinom und nicht-kleinzelligem Lungenkarzinom zum Mammakarzinom der Frau
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Paclitaxel ist ein Taxan-Antineoplastikum; die spezifische ursprüngliche Indikation ist in diesem Evidenzpaket nicht dokumentiert (Datenlücke), obwohl Paclitaxel ein weltweit etabliertes zytotoxisches Chemotherapeutikum für solide Tumoren ist.
-Das TxGNN-Modell identifiziert **Mammakarzinom der Frau** als führenden Kandidaten für eine neue Indikation, mit **83 klinischen Studien** und **20 Publikationen** als unterstützende Evidenz.
-Wichtig ist, dass die zugrunde liegende mechanistische Begründung explizit anmerkt, dass dies die **bereits bestehende Standard-of-Care-Mechanik bei der Brustkrebs-Chemotherapie widerspiegelt, keine neuartige Umwidmungshypothese** — die Vorhersage ist daher eher als Bestätigung der Evidenzbasis zu lesen als als Entdeckung einer neuen Therapieanwendung.
+Paclitaxel ist ein zytotoxisches Taxan, das zugelassen ist bei Brustneoplasmen, Pankreaskarzinom und nicht-kleinzelligem Lungenkarzinom (bei Brustkrebs in Form der Albumin-gebundenen Nanopartikel-Formulierung).
+Das TxGNN-Modell sagt eine Wirksamkeit beim **Mammakarzinom der Frau** voraus. Dabei handelt es sich praktisch um eine bereits bestehende Indikation und nicht um eine echte Neuausrichtung.
+Dafür liegen **zahlreiche klinische Studien** vor, darunter mehrere abgeschlossene Phase-3-Studien. Hinzu kommen **20 Publikationen**, die überwiegend Übersichtsarbeiten und Phase-2-Studien sind.
 
 ---
 
-## Schnelübersicht
+## Schnellübersicht
 
-| Element | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Nicht angegeben im Evidenzpaket (Datenlücke – siehe DG001/DG002 unten) |
-| Vorhergesagte neue Indikation | Mammakarzinom der Frau |
-| TxGNN-Vorhersage-Score | 99.99% (Rang 93 im vorhergesagten Krankheitsspektrum) |
-| Evidenzstufe | L1 |
-| Marktstatus Deutschland | Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Weiterverfahren mit Schutzmechanismen |
+| Ursprüngliche Indikation | Brustneoplasmen; Pankreaskarzinom; nicht-kleinzelliges Lungenkarzinom |
+| Vorhergesagte neue Indikation | Mammakarzinom der Frau (female breast carcinoma) |
+| TxGNN-Vorhersagewert | 99,99 % |
+| Evidenzlevel | L1 (mehrere abgeschlossene Phase-3-Studien mit Paclitaxel als Therapiebestandteil, überwiegend als Kombinations- oder Vergleichsstudien) |
+| Marktstatus in Deutschland | Nur erloschene bzw. gelöschte Zulassungen |
+| Anzahl der Zulassungen | 4 (alle erloschen) |
+| Empfohlene Entscheidung | Proceed with Guardrails (Fortführung mit Auflagen) |
 
 ---
 
-## Warum ist diese Vorhersage sinnvoll?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Wirkungsmechanismus-Daten für Paclitaxel nicht aus diesem Evidenzpaket verfügbar (gekennzeichnet als Datenlücke DG002, hoher Schweregrad). Basierend auf der allgemeinen pharmakologischen Klassifikation ist Paclitaxel ein Taxan — ein Mikrotubuli-stabilisierendes Mittel, das die Auflösung der Mitose-Spindel blockiert und Apoptose in sich schnell teilenden Zellen induziert. Dieser Mechanismus ist die pharmakologische Grundlage seiner etablierten Rolle in mehreren Chemotherapie-Schemata für solide Tumoren.
+Paclitaxel stabilisiert die Mikrotubuli der Zelle und blockiert dadurch das Fortschreiten der Mitose. In sich schnell teilenden Tumorzellen löst das Apoptose aus. Ausführliche Mechanismusdaten (z. B. aus DrugBank) liegen für diesen Bericht nicht vor. Die beschriebene Wirkweise entspricht aber dem bekannten Wirkprinzip der Taxane.
 
-Für den Top-Kandidaten besagt die Umwidmungs-Begründung direkt: *„Paclitaxel stabilisiert Mikrotubuli und blockiert die Auflösung der Mitose-Spindel, induziert Apoptose in sich schnell teilenden Brustkrebszellen; dies ist ein bereits bestehender Standard-Chemotherapie-Mechanismus beim Brustkrebs, keine neuartige Umwidmungshypothese."* Mit anderen Worten: Die mechanistische Verbindung zwischen Paclitaxel und Brustkrebs ist gut etabliertes klinisches Wissen und nicht eine durch TxGNN entdeckte, neue Assoziation — das Modell hat effektiv eine bekannte, hoch sichere Indikation wiederhergestellt.
+Die ursprüngliche Zulassung umfasst bereits Brustneoplasmen. Die vorhergesagte Indikation ist daher eine Zulassung oder eine zulassungsnahe Anwendung und keine neuartige Repurposing-Idee. Der hohe Vorhersagewert spiegelt vor allem diese enge Verwandtschaft wider.
 
-Dies hat eine wichtige Auswirkung auf die Interpretation: Die sehr große und reife klinische Studien-/Literaturbasis (83 Studien, 20 Publikationen, einschließlich mehrerer abgeschlossener Phase-3-RCTs) spiegelt Jahrzehnte akkumulierter Brustkrebs-Chemotherapie-Forschung wider, nicht frühe Phasen der explorativen Signalschwäche. Die Evidenzkraft (L1) wird daher durch die Tiefe der bestehenden Standard-of-Care-Literatur getrieben, und die primäre offene Frage für diesen Kandidaten ist nicht „funktioniert es", sondern vielmehr regulatorisch/administrativ: Bestätigung der tatsächlichen genehmigten Indikationsgeschichte des Arzneimittels und des aktuellen Label-Status, die beide derzeit Datenlücken darstellen.
+Die zytotoxische Wirkung hängt nicht von einem bestimmten Rezeptorstatus ab. Das passt zu der breiten Anwendung von Taxanen beim Brustkrebs. Die vorliegenden Daten zeigen mehrere Phase-2-Studien und einige abgeschlossene Phase-3-Studien. Meist ist Paclitaxel dort Teil einer Kombination oder eines Schemavergleichs. Die Evidenz für Paclitaxel als Einzelsubstanz ist daher teilweise indirekt.
 
 ---
 
-## Klinische Studien-Evidenz
+## Evidenz aus klinischen Studien
 
-| Studiesnummer | Phase | Status | Rekrutierung | Wichtigste Ergebnisse |
+Die folgende Tabelle zeigt eine Auswahl der relevantesten Studien. In den Daten sind insgesamt mehr als 40 Studien zu dieser Indikation erfasst.
+
+| Studiennummer | Phase | Status | Teilnehmer | Kernaussagen |
 |---------|------|------|------|---------|
-| [NCT00016406](https://clinicaltrials.gov/study/NCT00016406) | Phase 3 | Abgeschlossen | 399 | AC ± Filgrastim gefolgt von wöchentlichem Paclitaxel als neoadjuvante Therapie für entzündlichen/lokal fortgeschrittenen Brustkrebs; direkte unterstützende Evidenz (Grad A) |
-| [NCT00014222](https://clinicaltrials.gov/study/NCT00014222) | Phase 3 | Abgeschlossen | 2104 | Große adjuvante Studie zum Vergleich EC+Filgrastim+Epoetin→Paclitaxel vs. AC→Paclitaxel vs. CEF bei lymphknotenpositivem/Hochrisiko-Brustkrebs |
-| [NCT02413320](https://clinicaltrials.gov/study/NCT02413320) | Phase 2 | Abgeschlossen | 101 | Neoadjuvantes Carboplatin+Docetaxel oder Carboplatin+Paclitaxel gefolgt von AC bei triplenegativen Stadium-I-III-Brustkrebsen (Grad B) |
-| [NCT00003612](https://clinicaltrials.gov/study/NCT00003612) | Phase 2 | Abgeschlossen | 92 | Paclitaxel+Carboplatin+Trastuzumab (Herceptin) als Erstlinientherapie bei HER2-überexprimierendem metastasierendem Brustkrebs (Grad B) |
-| [NCT01973660](https://clinicaltrials.gov/study/NCT01973660) | Phase 2 | Abgeschlossen | 151 | PAMELA-Studie: PAM50-HER2-angereicherter Phänotyp sagt Ansprechen auf neoadjuvante Lapatinib+Trastuzumab bei HER2+-Brustkrebs voraus |
-| [NCT00003539](https://clinicaltrials.gov/study/NCT00003539) | Phase 2 | Abgeschlossen | 50 | Wöchentliches 1-Stunden-Paclitaxel plus Trastuzumab bei metastasierendem Brustkrebs |
-| [NCT01307891](https://clinicaltrials.gov/study/NCT01307891) | Phase 2 | Abgeschlossen | 64 | Abraxane (nab-Paclitaxel) ± Tigatuzumab bei metastasierendem triplenegativen Brustkrebs |
-| [NCT00005649](https://clinicaltrials.gov/study/NCT00005649) | Phase 2 | Abgeschlossen | N/A | Capecitabin + Standard-Paclitaxel als Erst- oder Zweitlinientherapie bei metastasierentem Mammakarzinom |
-| [NCT04159142](https://clinicaltrials.gov/study/NCT04159142) | Phase 2 | Rekrutierend | 414 | Nab-Paclitaxel + Carboplatin vs. Nab-Paclitaxel + Capecitabin bei fortgeschrittenem triplenegativen Brustkrebs |
-| [NCT00003992](https://clinicaltrials.gov/study/NCT00003992) | Phase 2 | Abgeschlossen | 200 | Paclitaxel-Trastuzumab adjuvante Therapie-Pilotierung bei frühem HER2-überexprimierendem Brustkrebs |
+| [NCT00667251](https://clinicaltrials.gov/study/NCT00667251) | Phase 3 | Abgeschlossen | 652 | Taxan-basierte Chemotherapie mit Lapatinib vs. Trastuzumab als Erstlinientherapie bei HER2-positivem metastasiertem Brustkrebs |
+| [NCT01822314](https://clinicaltrials.gov/study/NCT01822314) | Phase 3 | Abgeschlossen | 632 | Neoadjuvantes nab-Paclitaxel vs. lösungsmittelbasiertes Paclitaxel (gefolgt von AC/EC/FEC) bei HER2-negativem Hochrisiko-Brustkrebs; Endpunkt: pathologische Komplettremission |
+| [NCT00553358](https://clinicaltrials.gov/study/NCT00553358) | Phase 3 | Abgeschlossen | 455 | Neo-ALTTO: neoadjuvantes Lapatinib, Trastuzumab oder beides, jeweils plus Paclitaxel, bei HER2-positivem Brustkrebs |
+| [NCT00075270](https://clinicaltrials.gov/study/NCT00075270) | Phase 3 | Abgeschlossen | 580 | Lapatinib plus Paclitaxel vs. Paclitaxel allein bei unbehandeltem fortgeschrittenem oder metastasiertem Brustkrebs |
+| [NCT00006459](https://clinicaltrials.gov/study/NCT00006459) | Phase 3 | Abgeschlossen | k. A. | Gemcitabin plus Paclitaxel vs. Paclitaxel allein bei lokal rezidiviertem oder metastasiertem Brustkrebs |
+| [NCT00513292](https://clinicaltrials.gov/study/NCT00513292) | Phase 3 | Abgeschlossen | 280 | Neoadjuvante Sequenz FEC gefolgt von Paclitaxel plus Trastuzumab vs. umgekehrte Reihenfolge bei HER2-positivem operablem Brustkrebs |
+| [NCT00431080](https://clinicaltrials.gov/study/NCT00431080) | Phase 3 | Abgeschlossen | 478 | Dosisdichte adjuvante Chemotherapie (FE75C), danach Docetaxel vs. Paclitaxel bei nodal-positivem Brustkrebs |
+| [NCT00003539](https://clinicaltrials.gov/study/NCT00003539) | Phase 2 | Abgeschlossen | 50 | Wöchentliches 1-Stunden-Paclitaxel plus Trastuzumab bei metastasiertem Brustkrebs |
+| [NCT00006120](https://clinicaltrials.gov/study/NCT00006120) | Phase 2 | Unbekannt | k. A. | Randomisierter Vergleich zweier Schemata von Docetaxel oder Paclitaxel bei metastasiertem Brustkrebs |
+| [NCT00002826](https://clinicaltrials.gov/study/NCT00002826) | Phase 2 | Abgeschlossen | 36 | Pilotstudie: PSC 833 zur Überwindung der Multidrug-Resistenz gegenüber Paclitaxel bei metastasiertem Brustkrebs |
 
 ---
 
-## Literatur-Evidenz
+## Literaturevidenz
 
-| PMID | Jahr | Typ | Journal | Wichtigste Ergebnisse |
+| PMID | Jahr | Typ | Journal | Kernaussagen |
 |------|-----|------|------|---------|
-| [11147586](https://pubmed.ncbi.nlm.nih.gov/11147586/) | 2000 | Klinische Studie (Tier 1) | Cancer | Phase-II-Studie zu Doxorubicin + Paclitaxel bei fortgeschrittenem/metastasierendem Mammakarzinom; Bedeutung vorheriger adjuvanter Anthrazyklin-Exposition |
-| [9282422](https://pubmed.ncbi.nlm.nih.gov/9282422/) | 1997 | Übersicht/Klinisch (Tier 1) | Drug and Therapeutics Bulletin | Grundlegende Übersicht der Zulassungserweiterung von Paclitaxel/Docetaxel auf Brust- und Eierstockkrebs |
-| [31783552](https://pubmed.ncbi.nlm.nih.gov/31783552/) | 2019 | Übersicht (Tier 1) | Biomolecules | Umfassende Übersicht der mechanistischen und klinischen Effekte von Paclitaxel und Resistenzmechanismen bei Brustkrebs |
-| [39317691](https://pubmed.ncbi.nlm.nih.gov/39317691/) | 2024 | Ausstehend | Chemical Biology & Drug Design | Paclitaxel-Kombinationstherapie-Potenzial und in-vivo-Biomarker bei Mammakarzinom |
-| [39009452](https://pubmed.ncbi.nlm.nih.gov/39009452/) | 2024 | Ausstehend | J Immunother Cancer | Paclitaxels Wirkung auf tumorassoziierte Makrophagen, die PD-1-Blockade-Wirksamkeit bei TNBC verstärken |
-| [32461977](https://pubmed.ncbi.nlm.nih.gov/32461977/) | 2020 | Ausstehend | BioMed Research International | Real-World-Wirksamkeit von Epirubicin/Cyclophosphamid + wöchentlichem Paclitaxel + Trastuzumab bei HER2+-Mammakarzinom |
-| [24823476](https://pubmed.ncbi.nlm.nih.gov/24823476/) | 2014 | Ausstehend | Nature Communications | TEKT4-Keimlinien-Varianten-Anreicherung assoziiert mit Brustkrebs-Resistenz gegen Paclitaxel |
-| [17272681](https://pubmed.ncbi.nlm.nih.gov/17272681/) | 2007 | Ausstehend | Molecular Pharmacology | Umkehrung der Stathmin-vermittelten Resistenz gegen Paclitaxel und Vinblastin in Brustkrebszellen |
-| [14508823](https://pubmed.ncbi.nlm.nih.gov/14508823/) | 2003 | Ausstehend | Cancer | Kombiniert Trastuzumab + Paclitaxel hemmt ErbB-2-vermittelte Angiogenese effektiver über Akt-Hemmung |
-| [15305399](https://pubmed.ncbi.nlm.nih.gov/15305399/) | 2004 | Ausstehend | Cancer | GONO-randomisierte Studie: gleichzeitiges vs. sequenzielles Epirubicin + Paclitaxel als Erstlinientherapie bei metastasierentem Mammakarzinom |
+| [11147586](https://pubmed.ncbi.nlm.nih.gov/11147586/) | 2000 | Klinische Studie (Phase 2) | Cancer | Doxorubicin plus Paclitaxel bei fortgeschrittenem Mammakarzinom; Bedeutung einer vorangegangenen adjuvanten Anthrazyklintherapie |
+| [10791395](https://pubmed.ncbi.nlm.nih.gov/10791395/) | 2000 | Übersichtsarbeit | Lancet | Taxane sind evidenzbasierte Bestandteile der Therapie bei fortgeschrittenem Brust-, Lungen- und Ovarialkarzinom |
+| [9282422](https://pubmed.ncbi.nlm.nih.gov/9282422/) | 1997 | Übersichtsarbeit | Drug and Therapeutics Bulletin | Paclitaxel und Docetaxel bei Brust- und Ovarialkarzinom |
+| [11745249](https://pubmed.ncbi.nlm.nih.gov/11745249/) | 2001 | Übersichtsarbeit | Cancer | Paclitaxel in der multimodalen Behandlung des inflammatorischen Mammakarzinoms |
+| [10898354](https://pubmed.ncbi.nlm.nih.gov/10898354/) | 2000 | Übersichtsarbeit/Fachartikel | Cancer | Entwicklungen in der Chemotherapie des Brustkrebses |
+| [9296218](https://pubmed.ncbi.nlm.nih.gov/9296218/) | 1997 | Dosisfindungsstudie | Annals of Oncology | Maximal verträgliche Dosis von Paclitaxel (3-Stunden-Infusion) plus Cyclophosphamid bei fortgeschrittenem Brustkrebs |
+| [7904376](https://pubmed.ncbi.nlm.nih.gov/7904376/) | 1993 | Übersichtsarbeit | Seminars in Oncology Nursing | Überblick über Entwicklung und Eigenschaften von Paclitaxel (Taxol) |
+| [39317691](https://pubmed.ncbi.nlm.nih.gov/39317691/) | 2024 | Experimentelle Studie | Chemical Biology & Drug Design | Paclitaxel-Kombinationen beim Mammakarzinom und Identifikation von In-vivo-Biomarkern |
+| [24823476](https://pubmed.ncbi.nlm.nih.gov/24823476/) | 2014 | Translationale Studie | Nature Communications | TEKT4-Varianten sind mit einer Paclitaxel-Resistenz beim Brustkrebs assoziiert |
+| [20665703](https://pubmed.ncbi.nlm.nih.gov/20665703/) | 2011 | Präklinisch | Journal of Cellular Physiology | ZD6474 verstärkt die antiproliferative und apoptotische Wirkung von Paclitaxel in Brustkrebszellen |
 
 ---
 
-## Deutschland-Marktinformation
+## Marktinformationen Deutschland
 
-Es wurden keine Zulassungen für Paclitaxel im regulatorischen Register gefunden, auf dem dieses Evidenzpaket basiert, bis zum Stichtag der Daten (2026-09-03). Der Marktstatus wird als **Nicht vermarktet** verzeichnet, mit **0 Gesamtlizenzen** auf Datei. Kein Produktname, Darreichungsform oder genehmigter Indikationstext ist derzeit für diese Gerichtsbarkeit verfügbar.
+Alle vier erfassten Zulassungen sind zentrale europäische Zulassungen (EMA-Nummern) und haben den Status „erloschen/gelöscht". Angaben zur Darreichungsform liegen nicht vor.
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000778 | Abraxane | k. A. | Brustneoplasmen; Pankreaskarzinom; nicht-kleinzelliges Lungenkarzinom |
+| EMEA/H/C/004441 | Pazenir | k. A. | Brustneoplasmen |
+| EMEA/H/C/005997 | Apexelsin | k. A. | Brustneoplasmen; Pankreaskarzinom; nicht-kleinzelliges Lungenkarzinom |
+| EMEA/H/C/006173 | Naveruclif | k. A. | Brustneoplasmen; Pankreaskarzinom; nicht-kleinzelliges Lungenkarzinom |
 
 ---
 
 ## Zytotoxizität
 
-Paclitaxel wird auf Basis seiner etablierten Taxan-/zytotoxischen Chemotherapie-Arzneimittelklasse und seiner Verwendung über mehrere Onkologie-Indikationen als Antineoplastikum klassifiziert, die sich in der Evidenz der vorhergesagten Indikation widerspiegeln (Brust-, Eierstock- und andere Karzinome).
-
-| Element | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Zytotoxizität-Klassifikation | Konventionelle Zytotoxika (Taxan-Klasse — Mikrotubuli-stabilisierendes Mittel) |
-| Myelosuppression-Risiko | Hoch — Neutropenie (einschließlich fieberhafter Neutropenie) ist eine gut erkannte dosislimitierende Toxizität von Paclitaxel-basierten Schemata |
-| Emetogenität-Klassifikation | Gering bis Moderat |
-| Überwachungspunkte | Blutbild mit Differenzial (absolute Neutrophilenzahl), Leberfunktion, Überwachung von Überempfindlichkeitsreaktionen während der Infusion, Bewertung peripherer Neuropathie |
-| Handhabungsschutz | Muss Regelungen zur Handhabung von Zytotoxika befolgen (PSA, geschlossene Übergabesysteme) |
-
-Spezifische quantitative Toxizitätsdaten (z. B. DrugBank-gestützte Myelosuppression-Einstufung) waren in diesem Evidenzpaket nicht verfügbar — bitte beziehen Sie sich auf die Packungsbeilage für detaillierte Dosierungs- und Toxizitätsüberwachungsleitlinien.
+| Zytotoxizitätsklassifikation | Klassisches Zytostatikum (Taxan, Mikrotubuli-Stabilisator) |
+| Myelosuppressionsrisiko | Hoch (Neutropenie häufig, auch Thrombozytopenie und Anämie möglich) |
+| Emetogenität | Niedrig |
+| Überwachungsparameter | Differenzialblutbild, Leber- und Nierenfunktion, neurologische Beurteilung (periphere Neuropathie), Zeichen von Überempfindlichkeitsreaktionen |
+| Schutzmaßnahmen bei Handhabung | Ja, Umgang nach den Vorschriften für zytotoxische Arzneimittel (Zubereitung unter geeigneten Schutzvorkehrungen) |
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beziehen Sie sich auf die Packungsbeilage für Sicherheitsinformationen. Wichtige Warnungen, Kontraindikationen und Arzneimittel-Wechselwirkungs-Daten waren in diesem Evidenzpaket nicht verfügbar (Abfragestatus: nicht gefunden; 0 Wechselwirkungen zurückgegeben).
+Für diesen Bericht liegen keine Angaben aus der Fachinformation zu Warnhinweisen und Gegenanzeigen vor. Bitte die aktuelle Fachinformation des jeweiligen Präparats konsultieren.
+
+**Kontraindikationen aus der Wissensdatenbank (nicht aus dem Packungsbeilagentext):**
+Das TxGNN-Wissensgraph-Modell (PrimeKG) verknüpft Paclitaxel mit den folgenden Erkrankungen als möglichen Kontraindikationen. Diese Verknüpfungen sind als Hinweise zu verstehen und ersetzen keine Fachinformation.
+- Blut und Knochenmark: Neutropenie, Agranulozytose, Thrombozytopenie, Anämie (einschließlich makrozytärer Anämie), Hämoglobinopathie
+- Leber und Galle: Lebererkrankung, Gallenblasenerkrankung, Hyperbilirubinämie (auch hereditär), Gilbert-Syndrom
+- Herz-Kreislauf: Myokardinfarkt, Koronarthrombose, plötzlicher Herzstillstand, Hypotonie
+- Nervensystem: periphere Nervenerkrankung, periphere Neuropathie
+- Weitere: Nierenerkrankung, Pyoureter, Asthma (auch allergisch und intrinsisch), Psoriasis, Parapsoriasis, Diabetes mellitus, diabetische Ketoazidose, Angststörung, neurotische Störung, dysthyme Störung
+
+**Arzneimittelwechselwirkungen:**
+Insgesamt sind 100 Wechselwirkungen erfasst. Davon wurden 20 für diesen Bericht ausgewertet. Die wichtigsten davon sind:
+- **Moderat:** Aprepitant, Cimetidin, Clarithromycin, Clotrimazol, Dexamethason, Eliglustat, Metronidazol, Miconazol, Rolapitant, Rosuvastatin, Simvastatin, Tinidazol, Troglitazon
+- **Gering:** Ascorbinsäure, Levofloxacin
+- **Schweregrad unbekannt:** Glimepirid, Doxycyclin, Morphin, Metformin, Omeprazol
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Weiterverfahren mit Schutzmechanismen**
+**Entscheidung: Proceed with Guardrails**
 
 **Begründung:**
-Die klinische/Literatur-Evidenzbasis für Paclitaxel bei Mammakarzinom der Frau ist umfangreich und gereift (L1, mehrere abgeschlossene Phase-3-RCTs), aber dies bestätigt weitgehend eine bereits gut etablierte Chemotherapieverwendung, anstatt eine echte neuartige Umwidmungshypothese zu validieren. Kritischer ist, dass eine **Blocking**-Datenlücke (DG001 — TFDA/regulatorisches Label, Warnungen und Kontraindikationen) derzeit die Fertigstellung der ersten Sicherheitsüberprüfung (S1) verhindert, und das Medikament zeigt keine aktuelle Marktgenehmigung in dieser Gerichtsbarkeit (0 Lizenzen, Nicht vermarktet).
+Paclitaxel ist beim Mammakarzinom ein etabliertes Zytostatikum. Es gibt mehrere abgeschlossene Phase-3-Studien, in denen Paclitaxel Bestandteil der Therapie ist. Die Studien sind jedoch überwiegend Kombinations- oder Vergleichsstudien, die Evidenz für Paclitaxel als Einzelsubstanz ist teilweise indirekt. Da es sich um eine Zulassung bzw. zulassungsnahe Anwendung handelt, besteht kein klassischer Repurposing-Bedarf. Zudem sind in Deutschland derzeit alle erfassten Zulassungen erloschen, und es liegen keine Daten aus der Fachinformation vor.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- Datenlücke DG001 (Blocking) auflösen: Beschaffung und Analyse des offiziellen Produktlabels/der PI (Warnungen, Kontraindikationen) aus der zuständigen Regulierungsstelle, bevor die Sicherheitsüberprüfung (S1) vorangetrieben wird
-- Datenlücke DG002 (Hoch) auflösen: Abruf bestätigter Wirkungsmechanismus-Daten über DrugBank-API, um die mechanistische Verknüpfung ordnungsgemäß zu dokumentieren
-- Klärung von Paclitaxels tatsächlich historischen/genehmigten ursprünglichen Indikationen, da `original_indications` in diesem Paket leer ist
-- Falls diese Indikation kommerziell verfolgt wird, Bestätigung des regulatorischen Wegs angesichts des aktuellen Status „Nicht vermarktet" (0 Zulassungen auf Datei)
-- Neubewertung der Kandidaten-Neuheit: Da die Begründung explizit anmerkt, dass dies Standard-of-Care ist und nicht eine neue Hypothese, Bestätigung, ob dieser Kandidat in eine echte Umwidmungs-Pipeline gehört oder eher ein Evidenz-Dokumentations-Projekt ist
-
+**Für das weitere Vorgehen sind folgende Punkte nötig:**
+- Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) über die BfArM-Website
+- Ergänzung der Mechanismusdaten (MOA) aus DrugBank
+- Klärung, welche paclitaxelhaltigen Präparate in Deutschland aktuell verfügbar sind, da alle erfassten Zulassungen erloschen sind
+- Sicherheitsüberwachungsplan (Blutbild, Neuropathie, Überempfindlichkeit, Wechselwirkungen mit CYP-Inhibitoren und -Induktoren)
+- Hinweis zu weiteren TxGNN-Vorhersagen: Das „Ehrlich-Tumorkarzinom" ist ein murines Tiermodell und keine gültige klinische Indikation. Für die beiden vorhergesagten Rhabdomyosarkom-Subtypen liegen keine Daten vor. Bei diesen Vorhersagen empfiehlt sich der Status „Hold".
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

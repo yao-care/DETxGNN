@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Darunavir
-parent: Mittlere Evidenz (L3-L4)
-nav_order: 112
-evidence_level: L3
+parent: Nur Modellvorhersage (L5)
+nav_order: 132
+evidence_level: L5
 indication_count: 4
 ---
 
 # Darunavir
 {: .fs-9 }
 
-Evidenzniveau: **L3** | Vorhergesagte Indikationen: **4** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,85 +29,105 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-# Darunavir: Von HIV-1-Infektion zu Simian-Immunodeficiency-Virus-Infektion
+# Darunavir: Von HIV-Infektion zu felinem erworbenem Immundefizienz-Syndrom
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Darunavir ist ein Proteasehemmer der zweiten Generation gegen HIV-1. Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam gegen **Simian-Immunodeficiency-Virus-Infektion (SIV-Infektion)** ist, eine Tiermodell-Indikation, die durch **0 klinische Studien** und **4 Publikationen** (alle Studien an nichtmenschlichen Primaten) gestützt wird. Dies ist eine Anwendung als Forschungswerkzeug, keine menschliche therapeutische Indikation, und es existiert keine Vermarktungsgenehmigung in Deutschland.
+Darunavir ist ein Proteaseinhibitor, der ursprünglich zur Behandlung von **HIV-Infektionen** zugelassen wurde.
+Das TxGNN-Modell sagt voraus, dass er bei **felinem erworbenem Immundefizienz-Syndrom** (einer Tierkrankheit) wirksam sein könnte.
+Dafür liegen **keine klinischen Studien** und **keine Publikationen** vor. Die Vorhersage beruht allein auf dem Modell (Evidenzlevel L5).
 
 ---
 
 ## Schnellübersicht
 
 | Punkt | Inhalt |
-|-------|--------|
-| Ursprüngliche Indikation | Nicht verfügbar (kein lizenzierter Indikationstext im Datensatz; Darunavir ist ein bekannter HIV-1-Proteasehemmer zur HIV-1-Infektionsbehandlung) |
-| Vorhergesagte neue Indikation | Simian-Immunodeficiency-Virus-Infektion |
-| TxGNN-Vorhersage-Score | 99,97 % |
-| Evidenzstufe | L3 |
-| Status auf dem deutschen Markt | Nicht im Handel (Not Marketed) |
-| Anzahl der Genehmigungen | 0 |
-| Empfohlene Entscheidung | Hold |
+|------|------|
+| Ursprüngliche Indikation | HIV-Infektionen |
+| Vorhergesagte neue Indikation | Felines erworbenes Immundefizienz-Syndrom (Veterinärindikation) |
+| TxGNN-Vorhersagewert | 99,97 % |
+| Evidenzlevel | L5 |
+| Marktstatus in Deutschland | Nur erloschene/gelöschte Zulassungen |
+| Anzahl der Zulassungen | 5 (alle erloschen) |
+| Empfohlene Entscheidung | Hold (zurückstellen) |
 
 ---
 
 ## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Daten zum Wirkmechanismus sind in diesem Evidenzpaket nicht verfügbar (gekennzeichnet als blockierender/hochgradiger Datenmangel). Basierend auf der bekannten Pharmakologie ist Darunavir ein Proteasehemmer der zweiten Generation gegen HIV-1, der die virale Polyproteinspaltung blockiert und so die Reifung infektiöser Viruspartikel verhindert.
+Zum Wirkmechanismus von Darunavir liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Darunavir ein HIV-1-Proteaseinhibitor ist, dessen Wirksamkeit bei HIV-Infektionen belegt ist. Mechanistisch könnte er auf verwandte Lentiviren übertragbar sein.
 
-SIV und HIV-1 sind beide Lentiviren mit hochgradig homologen Proteasestrukturen. Diese strukturelle Ähnlichkeit bietet eine plausible mechanistische Begründung für die Verwendung von Darunavir in SIV-infizierten Modellen mit nichtmenschlichen Primaten (NHP) — nicht als neuartiger menschlicher Therapeutikum, sondern als Komponente von kombinierter antiretroviraler Therapie (cART)-Regimen, die in HIV/AIDS-Heilungsforschung (Virenreservoir-Studien, Eradikationsstrategien) verwendet werden. Dies stimmt mit der bekannten Pharmakologie von Darunavir überein und erklärt, warum das Modell dieser „Indikation" einen hohen Vorhersage-Score zuweist.
+Das feline Immundefizienzvirus (FIV) ist ein mit HIV-1 verwandtes Lentivirus, daher ist ein Proteaseinhibitor biologisch denkbar. Allerdings unterscheidet sich die FIV-Protease von der HIV-1-Protease in Substratspezifität und Hemmbarkeit; HIV-1-Proteaseinhibitoren zeigen bekanntermaßen eine verminderte Aktivität gegen die FIV-Protease.
 
-Es sollte beachtet werden, dass drei weitere vom TxGNN vorhergesagte Indikationen in diesem Evidenzpaket als **nicht plausibel** bewertet wurden und auf S0/L4-L5 mit einer „Hold"-Empfehlung gehalten werden:
-- **Feline AIDS (FIV)**: wahrscheinlich eine Verwechslung von Wissensgraph-Entitäten (FIV ≠ HIV); die einzige verknüpfte Studie ist eigentlich eine menschliche HIV-Studie, nicht im Zusammenhang mit Katzen.
-- **Neurodevelopmental disorder (weiße Substanz/ataktischer Gang)**: kein mechanistischer Zusammenhang, keine Evidenz — reines Modellartefakt.
-- **Familiale gemischte Hyperlipidämie**: mechanistisch verkehrt — Proteasehemmer sind bekanntermaßen *verursacher* von Dyslipidämie, nicht deren Behandlung; die Krankheitsbezeichnung selbst ist auch veraltet.
+Der hohe Vorhersagewert spiegelt wahrscheinlich die Nähe zur HIV-Infektion im Wissensgraphen wider und stellt keinen unabhängigen Beleg dar. Zudem handelt es sich um eine Veterinärindikation, die für das Repurposing beim Menschen nicht direkt relevant ist.
+
+### Weitere vorhergesagte Indikationen (zur Einordnung)
+
+| Rang | Vorhergesagte Indikation | Score | Evidenzlevel | Einschätzung |
+|---|---|---|---|---|
+| 2 | Infektion mit dem Simianen Immundefizienzvirus (SIV) | 99,97 % | L4 | Nur präklinische Daten im Affenmodell; Beitrag von Darunavir nicht von Kombinationsregimen trennbar |
+| 3 | Neuroentwicklungsstörung mit ataktischem Gang, fehlender Sprache und verminderter kortikaler weißer Substanz | 99,97 % | L5 | Kein plausibler Mechanismus; vermutlich falsch positiv |
+| 4 | Obsolete familiäre kombinierte Hyperlipidämie | 99,19 % | L5 | Proteaseinhibitoren verursachen eher Dyslipidämie; Vorhersage nicht gestützt |
 
 ---
 
 ## Evidenz aus klinischen Studien
 
-Derzeit keine registrierten klinischen Studien im Zusammenhang mit Simian-Immunodeficiency-Virus-Infektion.
-
-*(Anmerkung: eine Phase-4-Studie, [NCT02770508](https://clinicaltrials.gov/study/NCT02770508), wurde mit der Vorhersage „feline AIDS" verknüpft, wurde aber als nicht relevant bewertet — sie untersucht HIV-1-Patienten, keine Katzen, und ist von dieser Indikation ausgeschlossen.)*
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Literaturgestützte Evidenz
+## Literaturevidenz
 
-| PMID | Jahr | Typ | Journal | Wichtigste Ergebnisse |
-|------|------|------|--------|--------|
-| [26150024](https://pubmed.ncbi.nlm.nih.gov/26150024/) | 2016 | Tierstudie (NHP) | AIDS Research and Human Retroviruses | Bewertung von koformulierten injizierbaren cART-Regimen (einschließlich Darunavir-Komponenten) in SIV-infizierten Rhesusaffen |
-| [25033210](https://pubmed.ncbi.nlm.nih.gov/25033210/) | 2014 | Tierstudie (NHP) | PLoS One | Kombinierte cART plus SAHA (HDAC-Inhibitor) in SIV-infizierten chinesischen Rhesusaffen; Virenreservoir-Forschung |
-| [22737073](https://pubmed.ncbi.nlm.nih.gov/22737073/) | 2012 | Tierstudie (NHP) | PLoS Pathogens | Hochintensives ART-Regime erzielte langfristige Virussuppression und Reservoireinschränkung in Simian-AIDS-Modell |
-| [21505294](https://pubmed.ncbi.nlm.nih.gov/21505294/) | 2011 | Tierstudie (NHP) | AIDS (London) | Auranofin in Kombination mit ART limitierte Virenreservoir in Primaten-AIDS-Modell |
+Für die Top-Vorhersage (felines Immundefizienz-Syndrom) liegt derzeit keine zugehörige Literatur vor.
 
----
+Für die zweitplatzierte Vorhersage (SIV-Infektion) wurden vier präklinische Arbeiten gefunden (Bewertung anhand von Titel und Abstract):
 
-## Marktinformationen für Deutschland
-
-Nicht im Handel in Deutschland — keine Genehmigungsunterlagen verfügbar (0 Lizenzen in der Datei).
+| PMID | Jahr | Typ | Journal | Kernaussage |
+|------|-----|------|------|---------|
+| [25033210](https://pubmed.ncbi.nlm.nih.gov/25033210/) | 2014 | Präklinisch (Nicht-Human-Primat) | PloS one | Kombinierte antiretrovirale Therapie plus HDAC-Inhibitor SAHA bei SIV-infizierten Rhesusaffen |
+| [26150024](https://pubmed.ncbi.nlm.nih.gov/26150024/) | 2016 | Präklinisch (Nicht-Human-Primat) | AIDS Res Hum Retroviruses | Vergleich koformulierter injizierbarer cART-Regime bei SIV-infizierten Rhesusaffen |
+| [22737073](https://pubmed.ncbi.nlm.nih.gov/22737073/) | 2012 | Präklinisch (Nicht-Human-Primat) | PLoS Pathogens | Hochintensivierte ART führt zu langfristiger Virussuppression und Reduktion des viralen Reservoirs im Affenmodell |
+| [21505294](https://pubmed.ncbi.nlm.nih.gov/21505294/) | 2011 | Präklinisch (Nicht-Human-Primat) | AIDS | Goldverbindung Auranofin begrenzt das virale Reservoir im Affen-AIDS-Modell |
 
 ---
 
-## Sicherheitserwägungen
+## Marktinformationen Deutschland
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/004273 | Darunavir Krka | – | HIV-Infektionen |
+| EMEA/H/C/004068 | Darunavir Viatris (zuvor Darunavir Mylan) | – | HIV-Infektionen |
+| EMEA/H/C/000707 | Prezista | – | HIV-Infektionen |
+| EMEA/H/C/002819 | Rezolsta | – | HIV-Infektionen |
+| EMEA/H/C/004391 | Symtuza | – | HIV-Infektionen |
+
+Alle fünf Zulassungen sind laut den vorliegenden Daten erloschen bzw. gelöscht.
+
+---
+
+## Sicherheitsaspekte
+
+- **Kontraindikationen/Risikokonstellationen aus dem Wissensgraphen** (keine Angaben aus dem Beipackzettel): Leberversagen, Lebererkrankung, Leberzirrhose, Gallenblasenerkrankung, Hyperglykämie, Diabetes mellitus, diabetische Ketoazidose, chronische Hepatitis-B- und Hepatitis-C-Virusinfektion, Hypertriglyceridämie, Hämophilie (einschließlich symptomatischer Form bei weiblichen Trägerinnen).
+- **Arzneimittelwechselwirkungen**: 100 Wechselwirkungen erfasst. Die wichtigste ist **Cisaprid (schwerwiegend)**. Mäßige Wechselwirkungen bestehen u. a. mit Antidiabetika (Acarbose, Metformin, Pioglitazon, Alogliptin, Saxagliptin, Canagliflozin, Dapagliflozin, Chlorpropamid, Acetohexamid, Albiglutid), Kortikosteroiden (Hydrocortison, Dexamethason, Betamethason, Budesonid, Triamcinolon), Aprepitant und Clarithromycin.
+
+Angaben zu Warnhinweisen und Gegenanzeigen aus der Fachinformation liegen nicht vor; bitte die Fachinformation konsultieren.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Hold**
+**Entscheidung: Hold (zurückstellen)**
 
 **Begründung:**
-Alle Evidenzen für die SIV-Indikation stammen aus Forschungsmodellen mit nichtmenschlichen Primaten (L3, keine RCTs, keine klinischen Studien beim Menschen), und dies ist grundlegend eine Laboranwendung/ein Tiermodellwerkzeug statt ein menschlicher therapeutischer Repurposing-Kandidat. In Kombination mit der fehlenden deutschen Vermarktungsgenehmigung und ungeklärten blockierenden Sicherheitsdatenlücken (TFDA-Etikett/Warnungen, MOA) erfüllt der Kandidat nicht die Schwelle für Weiterbearbeitung.
+Die Vorhersage für das feline Immundefizienz-Syndrom beruht allein auf dem Modell, ohne Studien oder Literatur, und betrifft eine Tierkrankheit. Zudem ist die FIV-Protease gegenüber HIV-1-Proteaseinhibitoren weniger empfindlich. Die übrigen Vorhersagen sind entweder bereits durch die HIV-Zulassung abgedeckt (SIV) oder mechanistisch nicht plausibel.
 
-**Um voranzukommen, ist folgendes erforderlich:**
-- Datenlücke DG001 (blockierend) beheben: offizielle Etikettwarnungen/Kontraindikationen vor jeder S1-Sicherheitsbewertung erhalten
-- Datenlücke DG002 (High) beheben: Wirkmechanismus über DrugBank-API bestätigen
-- Beabsichtigte Verwendung klären — dies ist eine NHP-Forschungsmodellentwicklung, keine menschliche Indikation; klären, ob der Repurposing-Umfang auch Tiermodell-/Forschungswerkzeugnutzungen einschließen sollte
-- Falls menschliche Anwendung beabsichtigt ist: primäre klinische Humanstudien ermitteln (es existieren derzeit keine für SIV, das per Definition Menschen nicht infiziert)
-
+**Für ein Weiterverfolgen wären erforderlich:**
+- Daten zum Wirkmechanismus (MOA) von Darunavir
+- Sicherheitsangaben aus der Fachinformation (Warnhinweise, Gegenanzeigen); diese Lücke blockiert derzeit das Sicherheits-Screening
+- Klärung des Zulassungsstatus in Deutschland, da alle fünf Zulassungen erloschen sind
+- Bei Interesse an einer Veterinärindikation: In-vitro-Daten zur Hemmung der FIV-Protease durch Darunavir
+- Bei Interesse an SIV: Studien, die den Beitrag von Darunavir getrennt von Kombinationsregimen zeigen
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

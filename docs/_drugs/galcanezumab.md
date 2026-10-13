@@ -2,7 +2,7 @@
 layout: default
 title: Galcanezumab
 parent: Nur Modellvorhersage (L5)
-nav_order: 175
+nav_order: 205
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,75 +29,87 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Galcanezumab: Von Migräneprophylaxe zu Heparin-Kofaktor-II-Mangel
+# Galcanezumab: Von Migräne zu Heparin-Cofaktor-2-Mangel
 
 ## Zusammenfassung in einem Satz
 
-Galcanezumab ist ein gegen CGRP (Calcitonin Gene-Related Peptide) gerichteter monoklonaler Antikörper; gemäß den mechanistischen Notizen in diesem Evidenzpaket wird es für die Migräneprophylaxe eingesetzt (dies wird durch deutsche/taiwanesische Regulierungsdaten nicht bestätigt, da das Produkt dort nicht vermarktet wird). TxGNN sagt eine mögliche Assoziation mit **Heparin-Kofaktor-II-Mangel** voraus, wobei die Vorhersage durch **0 klinische Studien** und **0 Veröffentlichungen** gestützt wird, und die Begründung des Modells selbst besagt, dass es keinen bekannten biologischen Mechanismus gibt, der die beiden Zustände verbindet.
+Galcanezumab ist ein monoklonaler Antikörper gegen das Calcitonin Gene-Related Peptide (CGRP) und wurde ursprünglich zur Behandlung von **Migräne** zugelassen. Das TxGNN-Modell sagt voraus, dass er bei **Heparin-Cofaktor-2-Mangel** wirksam sein könnte. Diese Vorhersage wird jedoch von **keiner klinischen Studie** und **keiner Publikation** gestützt und beruht ausschließlich auf einer Modellrechnung.
 
 ---
 
-## Schnelle Übersicht
+## Kurzüberblick
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Nicht in Regulierungsdaten dokumentiert (mechanistische Notizen beziehen sich auf Migräneprophylaxe, unbestätigt) |
-| Vorhergesagte neue Indikation | Heparin-Kofaktor-II-Mangel |
-| TxGNN-Vorhersage-Punktzahl | 99.50% |
-| Evidenzstufe | L5 |
-| Status auf dem deutschen Markt | ✗ Nicht vermarktet |
-| Anzahl der Genehmigungen | 0 |
-| Empfohlene Entscheidung | Aussetzen |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Migräne |
+| Vorhergesagte neue Indikation | Heparin-Cofaktor-2-Mangel |
+| TxGNN-Vorhersagewert | 99,50 % |
+| Evidenzlevel | L5 |
+| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
+| Anzahl der Zulassungen | 1 |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Warum ist diese Vorhersage (nicht) plausibel?
 
-Derzeit sind detaillierte Wirkmechanismus-Daten nicht in strukturierter Form verfügbar. Basierend auf den mechanistischen Notizen in diesem Evidenzpaket ist Galcanezumab ein gegen CGRP gerichteter monoklonaler Antikörper, der die Schmerzleitung im trigeminovaskulären System blockiert, und seine etablierte Verwendung ist die Migräneprophylaxe.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Galcanezumab CGRP neutralisiert und zur Migräneprophylaxe eingesetzt wird.
 
-Die drei von TxGNN vorhergesagten Indikationen in diesem Evidenzpaket – Heparin-Kofaktor-II-Mangel, Antithrombin-Mangel Typ 2 und Faktor-V-Überschuss mit spontaner Thrombose – sind alle seltene, genetisch bedingte Gerinnungs-/Thrombophilie-Störungen (SERPIN- oder Gerinnungsfaktor-Gendefekte). Keine dieser Störungen ist am CGRP-Signalweg beteiligt, und die Begründung des Evidenzpakets besagt explizit, dass es **keinen bekannten gemeinsamen Molekülpfad, keine gemeinsamen Rezeptoren und keine Überlappung in der nachgelagerten Signalisierung** zwischen der CGRP-Antikörper-Pharmakologie und der Regulierung der Gerinnungskaskade gibt.
+Der Heparin-Cofaktor-2-Mangel ist eine Störung der serpinvermittelten Hemmung von Thrombin (SERPIND1) und damit ein Defekt im Gerinnungssystem. Dieser Signalweg steht in keinem erkennbaren Zusammenhang mit der CGRP-Signalübertragung. Ein belastbarer mechanistischer Zusammenhang zwischen der ursprünglichen und der vorhergesagten Indikation ist daher nicht erkennbar.
 
-Mit anderen Worten: Dies ist ein Fall, in dem das TxGNN-Modell hohe Ähnlichkeitswerte (>99%) zugewiesen hat, ohne dass ein identifizierbarer biologischer Mechanismus diese unterstützt. Dieses Muster – hoher Wert, keine reale Evidenz und ein expliziter Mechanismus-Haftungsausschluss – sollte als ein Kandidat behandelt werden, der einer weiteren Überprüfung bedarf, statt als ein vielversprechender Repurposing-Lead.
+Der hohe TxGNN-Wert (0,995) ist eine reine Vorhersage des Wissensgraphen. Er wird weder durch eine biologische Begründung noch durch klinische oder publizierte Daten untermauert.
+
+**Weitere vorhergesagte Indikationen** (jeweils ebenfalls L5, Entscheidung Hold, ohne Studien und Publikationen):
+
+| Rang | Vorhergesagte Indikation | TxGNN-Wert | Einschätzung |
+|---|---|---|---|
+| 2 | Antithrombin-Mangel Typ 2 | 99,41 % | Kein glaubwürdiger mechanistischer Zusammenhang; Galcanezumab wirkt nicht auf Antithrombin, die Gerinnungskaskade oder die Heparinbindung. |
+| 3 | Faktor-V-Überschuss mit spontaner Thrombose | 99,41 % | Kein glaubwürdiger mechanistischer Zusammenhang; zudem ist CGRP ein Vasodilatator, sodass bei Patienten mit Thromboserisiko eine besondere Sicherheitsprüfung nötig wäre. |
 
 ---
 
 ## Evidenz aus klinischen Studien
 
-Derzeit keine verwandten klinischen Studien registriert.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
 ## Evidenz aus der Literatur
 
-Derzeit keine verwandte Literatur verfügbar.
+Derzeit liegt keine zugehörige Literatur vor.
 
 ---
 
-## Marktinformationen für Deutschland
+## Informationen zum deutschen Markt
 
-Galcanezumab wird derzeit in Deutschland nicht vermarktet (0 Genehmigungen in den Unterlagen in diesem Evidenzpaket).
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/004648 | Emgality | – | Migräne |
+
+Diese Zulassung ist als erloschen/widerrufen geführt; derzeit besteht keine gültige Zulassung.
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+Für Sicherheitsinformationen ziehen Sie bitte die Fachinformation heran.
+
+Hinweis: Bei Faktor-V-Überschuss mit spontaner Thrombose wäre aufgrund der vasodilatierenden Rolle von CGRP und der kardiovaskulären Überlegungen zu CGRP-Pathway-Wirkstoffen eine gesonderte Sicherheitsprüfung erforderlich.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Aussetzen**
+**Entscheidung: Hold**
 
 **Begründung:**
-Alle drei von TxGNN vorhergesagten Indikationen (Heparin-Kofaktor-II-Mangel, Antithrombin-Mangel Typ 2, Faktor-V-Überschuss mit spontaner Thrombose) weisen keine unterstützenden klinischen Studien oder Literatur auf, und die mechanistische Begründung des Modells selbst besagt, dass es keinen biologisch plausiblen Zusammenhang zwischen einer CGRP-gezielten Therapie und diesen Gerinnungsstörungen gibt. In Kombination mit der unbestätigten Ursprungsindikation des Arzneimittels und der fehlenden Marktpräsenz in Deutschland gibt es keine ausreichende Grundlage, um diese Kandidaten voranzutreiben.
+Die Vorhersage beruht ausschließlich auf einem Modellwert (Evidenzlevel L5) ohne klinische Studien, Publikationen oder plausiblen biologischen Mechanismus. Zudem besteht in Deutschland keine gültige Zulassung.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- Bestätigte Ursprungsindikation und MOA-Daten (aus DrugBank-API oder Herstellerkennzeichnung, gemäß DG002)
-- Warnhinweise/Gegenanzeigen in der Packungsbeilage (TFDA/BfArM-Label-Analyse, gemäß DG001 – derzeit wird die Sicherheitsbewertung blockiert)
-- Präklinische oder mechanistische Literatur, die speziell die Modulation des CGRP-Signalwegs mit der Regulierung von Gerinnungsfaktoren verbindet, bevor dieser Kandidat über S0 hinausgehen kann
-- Neubewertung, ob diese drei Vorhersagen ein systematisches TxGNN-Scoring-Anomalie (z. B. Seltene-Krankheits-Embedding-Artefakt) darstellen, statt echte Repurposing-Signale zu sein
-
+**Für ein Weiterkommen sind folgende Schritte erforderlich:**
+- Fachinformation (Warnhinweise und Gegenanzeigen) zur Sicherheitsbewertung beschaffen
+- Daten zum Wirkmechanismus ergänzen
+- Präklinische Hinweise auf einen biologischen Zusammenhang zwischen CGRP-Hemmung und den Gerinnungsfaktoren (SERPIND1, SERPINC1, Faktor V) prüfen
+- Klären, ob die Hold-Entscheidung angesichts fehlender Plausibilität überhaupt neu bewertet werden sollte
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

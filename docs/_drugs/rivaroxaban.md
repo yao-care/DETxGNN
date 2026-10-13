@@ -2,7 +2,7 @@
 layout: default
 title: Rivaroxaban
 parent: Nur Modellvorhersage (L5)
-nav_order: 350
+nav_order: 408
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,67 +29,105 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-# Rivaroxaban: Von der Antikoagulationstherapie zur Rheumatoiden Arthritis
+# Rivaroxaban: Von der Thromboembolie-Prophylaxe/-Therapie zu Rheumatoider Arthritis
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Rivaroxaban ist ein Faktor-Xa-Inhibitor mit gerinnungshemmender Wirkung, der im Evidenzdossier primär im Zusammenhang mit venöser Thromboembolie (TVT/LE) und Vorhofflimmern-assoziierter Antikoagulation aufgeführt wird.
-Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **Rheumatoider Arthritis** voraus, doch diese Vorhersage wird derzeit nur durch **0 direkt relevante klinische Studien** und **4 Publikationen gestützt, von denen keine die RA-Behandlung selbst betrifft** — die Literatur behandelt stattdessen VTE-Management, Thrombin-Generierungs-Assays, DOAC-Adhärenz und einen Fallbericht, in dem RA lediglich eine zufällige Patientencharakteristik war.
+Rivaroxaban ist ein oraler Gerinnungshemmer (direkter Faktor-Xa-Inhibitor), der ursprünglich zur Vorbeugung und Behandlung von Thromboembolien eingesetzt wird, etwa bei venösen Thromboembolien, Lungenembolie, Vorhofflimmern und akutem Koronarsyndrom.
+Das TxGNN-Modell sagt voraus, dass es bei **rheumatoider Arthritis** wirksam sein könnte.
+Dafür liegen jedoch **keine klinischen Studien** und lediglich **4 Publikationen** vor, die keinen direkten Wirksamkeitsnachweis liefern. Die Vorhersage beruht damit allein auf dem Modell.
 
-## Kurzübersicht
+---
+
+## Schnellübersicht
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Formal nicht erfasst (Datenlücke — siehe DG001/DG002); der im Evidenzdossier hinterlegte Wirkstoffklassen-Kontext deutet auf eine antikoagulatorische Anwendung hin (z. B. TVT/LE-Behandlung gemäß referenzierter Studie NCT00786422) |
+| Ursprüngliche Indikation | Akutes Koronarsyndrom, koronare Herzkrankheit, periphere arterielle Verschlusskrankheit, venöse Thromboembolie, Schlaganfall, Vorhofflimmern, Lungenembolie |
 | Vorhergesagte neue Indikation | Rheumatoide Arthritis |
-| TxGNN-Vorhersagewert | 99.57% |
+| TxGNN-Vorhersagewert | 99,57 % |
 | Evidenzgrad | L5 |
-| Marktstatus Deutschland | ✗ Nicht im Markt |
-| Anzahl Zulassungen | 0 |
-| Empfohlene Entscheidung | Zurückstellen |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen |
+| Anzahl der Zulassungen | 4 (alle aufgehoben) |
+| Empfohlene Entscheidung | Hold |
+
+---
 
 ## Warum ist diese Vorhersage plausibel?
 
-Derzeit liegen keine detaillierten Daten zum Wirkmechanismus vor (Datenlücke DG002). Basierend auf den im Evidenzdossier hinterlegten mechanistischen Anmerkungen ist Rivaroxaban ein direkter Faktor-Xa-Inhibitor zur Antikoagulation. Es besitzt keine bekannte entzündungshemmende oder immunmodulierende Aktivität, die plausibel in die Synovitis oder die autoimmune Pathologie eingreifen würde, die der rheumatoiden Arthritis zugrunde liegt.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Rivaroxaban ein direkter Faktor-Xa-Inhibitor ist und seine Wirksamkeit bei thromboembolischen Erkrankungen belegt ist.
 
-Die recherchierte Literatur stützt keine therapeutische Beziehung: Sie umfasst einen Übersichtsartikel zum VTE-Management, eine methodische Arbeit zu Thrombin-Generierungs-Assays bei Autoimmunerkrankungen, einen DOAC-Adhärenzvergleich bei Vorhofflimmern sowie einen perioperativen Fallbericht, in dem RA lediglich als Komorbidität bei einer Patientin unter oraler Kortikosteroidtherapie auftrat — keine dieser Arbeiten evaluiert Rivaroxaban als Therapie für RA selbst. Die wahrscheinlichste Erklärung für diese TxGNN-Vorhersage ist eine indirekte Netzwerkassoziation (RA-Patienten weisen ein erhöhtes thrombotisches Risiko auf und benötigen möglicherweise eine Antikoagulation) und kein tatsächlicher krankheitsmodifizierender Mechanismus.
+Bei rheumatoider Arthritis bestehen chronische Entzündung und ein prothrombotischer Zustand, und bei Autoimmunerkrankungen kann die Thrombinbildung verändert sein. Eine Beeinflussung des Gerinnungswegs ist daher biologisch denkbar.
 
-Angesichts des Fehlens eines plausiblen mechanistischen Zusammenhangs, zielrelevanter Studien oder unterstützender Literatur sollte diese Vorhersage nur als explorativ betrachtet und ohne neue mechanistische Evidenz nicht weiterverfolgt werden.
+Ein direkter mechanistischer Zusammenhang ist jedoch nicht belegt. Die gefundene Literatur betrifft Thromboembolien bzw. die Antikoagulation allgemein und zeigt nicht, dass Rivaroxaban die rheumatoide Arthritis selbst behandelt. Der hohe TxGNN-Wert ist eine rein rechnerische Vorhersage.
 
-## Klinische Studienevidenz
+---
 
-Derzeit keine relevanten klinischen Studien registriert
+## Klinische Studien
+
+Derzeit sind keine zugehörigen klinischen Studien registriert.
+
+---
 
 ## Literaturevidenz
 
-| PMID | Jahr | Typ | Journal | Wesentliche Erkenntnisse |
+| PMID | Jahr | Typ | Journal | Kernaussagen |
 |------|-----|------|------|---------|
-| [29621248](https://pubmed.ncbi.nlm.nih.gov/29621248/) | 2018 | Kohortenstudie | PloS one | Vergleich der Adhärenzraten zwischen Rivaroxaban und Apixaban bei Patienten mit nicht-valvulärem Vorhofflimmern; kein Bezug zur RA-Behandlung. |
-| [33141212](https://pubmed.ncbi.nlm.nih.gov/33141212/) | 2020 | Übersichtsarbeit | JAMA | Allgemeine Übersicht zu Diagnose und Behandlung von TVT/LE; keine RA-Inhalte. |
-| [34175144](https://pubmed.ncbi.nlm.nih.gov/34175144/) | 2021 | Übersichtsarbeit | La Revue de médecine interne | Behandelt den Thrombin-Generierungs-Assay als Instrument zur Beurteilung der Hyperkoagulabilität bei Autoimmunerkrankungen (z. B. Antiphospholipid-Syndrom); evaluiert Rivaroxaban nicht bei RA. |
-| [41918541](https://pubmed.ncbi.nlm.nih.gov/41918541/) | 2026 | Fallbericht | Cureus | Fall eines thromboembolischen Schlaganfalls bei einer 88-jährigen Patientin mit Vorhofflimmern und RA unter oraler Steroidtherapie; RA ist eine zufällige Komorbidität, kein Behandlungsziel. |
+| [33141212](https://pubmed.ncbi.nlm.nih.gov/33141212/) | 2020 | Review | JAMA | Diagnose und Behandlung venöser Thromboembolien der unteren Extremität; Inzidenz und Rezidivraten. Kein Bezug zu RA. |
+| [34175144](https://pubmed.ncbi.nlm.nih.gov/34175144/) | 2021 | Review | La Revue de médecine interne | Thrombin-Generierungstest bei Autoimmunerkrankungen zur Beurteilung der Hyperkoagulabilität. |
+| [29621248](https://pubmed.ncbi.nlm.nih.gov/29621248/) | 2018 | Kohorte | PloS one | Therapietreue unter Rivaroxaban vs. Apixaban bei nicht-valvulärem Vorhofflimmern. |
+| [41918541](https://pubmed.ncbi.nlm.nih.gov/41918541/) | 2026 | Fallbericht | Cureus | Wiederholte embolische Ereignisse trotz Antikoagulation bei einer Patientin mit Vorhofflimmern, chronischer Nierenerkrankung und RA unter oralen Steroiden. |
+
+---
 
 ## Marktinformationen Deutschland
 
-Für Rivaroxaban liegen in diesem Datensatz keine Zulassungsdatensätze vor (Marktstatus: Nicht im Markt, 0 dokumentierte Zulassungen).
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/005279 | Rivaroxaban Accord | – | Akutes Koronarsyndrom; koronare Herzkrankheit; periphere arterielle Verschlusskrankheit; venöse Thromboembolie; Schlaganfall; Vorhofflimmern; Lungenembolie |
+| EMEA/H/C/005600 | Rivaroxaban Viatris (zuvor Rivaroxaban Mylan) | – | Venöse Thromboembolie; Lungenembolie; akutes Koronarsyndrom; Schlaganfall; koronare Herzkrankheit; pAVK; Vorhofflimmern |
+| EMEA/H/C/000944 | Xarelto | – | Gelenkersatz (Arthroplastik); venöse Thromboembolie |
+| EMEA/H/C/006643 | Rivaroxaban Koanaa | – | Venöse Thromboembolie; Lungenembolie; Venenthrombose; Schlaganfall; Embolie |
 
-## Sicherheitshinweise
+---
 
-Bitte beachten Sie die Fachinformation für Sicherheitsangaben. (Zentrale Warnhinweise, Kontraindikationen und Daten zu Arzneimittelwechselwirkungen sind derzeit nicht verfügbar — siehe Datenlücke DG001, eingestuft als Blocking, die ein S1-Sicherheitsscreening verhindert.)
+## Sicherheitsaspekte
+
+- **Kontraindikationen laut Wissensgraph (PrimeKG, kein Packungsbeilagentext)**: Leberversagen, Nierenerkrankung, Pyoureter, Lebererkrankung, Gallenblasenerkrankung, Blutgerinnungsstörung.
+- **Arzneimittelwechselwirkungen**: Insgesamt wurden 100 Wechselwirkungen erfasst. Als **schwerwiegend (Major)** eingestuft sind unter anderem:
+  - Acetylsalicylsäure
+  - Cobicistat
+  - Deferasirox
+  - Ibritumomab tiuxetan
+  - Tositumomab (I-131)
+
+  Als **moderat** eingestuft sind unter anderem Aprepitant, Dexamethason, Cimetidin, Clarithromycin, Eliglustat, Miconazol, Clotrimazol, Fenfluramin, Rolapitant, Sibutramin und Troglitazon.
+
+Zu Warnhinweisen und Kontraindikationen aus der Packungsbeilage bitte die Fachinformation heranziehen.
+
+---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Zurückstellen**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die vorhergesagte RA-Indikation weist keine plausible mechanistische Grundlage, keine unterstützenden klinischen Studien und eine Literatur auf, die vollständig am Thema vorbeigeht; der Evidenzgrad ist L5 (nur Modellvorhersage). Dies steht im Einklang mit den drei weiteren TxGNN-vorhergesagten Indikationen für Rivaroxaban in diesem Evidenzdossier (Gicht, HIV-Infektionskrankheit, Brachydaktylie-Syndaktylie-Syndrom), die ebenfalls alle mit Zurückstellen und Evidenzgraden L4–L5 ohne mechanistisch relevante Unterstützung bewertet werden.
+Für rheumatoide Arthritis gibt es weder klinische Studien noch Literatur, die eine Wirkung von Rivaroxaban belegt. Die Vorhersage stützt sich ausschließlich auf das Modell (Evidenzgrad L5). Zudem sind alle deutschen Zulassungen aufgehoben.
 
-**Um fortzufahren, wird Folgendes benötigt:**
-- BfArM-Fachinformationsdaten (Warnhinweise, Kontraindikationen) zur Schließung der Blocking-Datenlücke (DG001), bevor ein S1-Sicherheitsscreening erfolgen kann
-- Aus DrugBank stammende Daten zum Wirkmechanismus (DG002), um die mechanistische Plausibilität angemessen bewerten zu können
-- Falls die RA-Hypothese weiterverfolgt werden soll: präklinische oder mechanistische Studien, die die Faktor-Xa-Hemmung direkt in RA-relevanten Signalwegen testen (z. B. Synovialentzündungsmodelle), da die aktuelle Literatur RA nur als zufällige Komorbidität berührt
-- Formale Daten zur ursprünglichen Indikation und Zulassung, die derzeit im Register fehlen, um die Repurposing-Begründung sachgerecht einzuordnen
+**Für ein Weiterkommen erforderlich:**
+- Detaillierte Wirkmechanismusdaten (MOA) und eine belastbare biologische Hypothese zur RA
+- Präklinische oder explorative klinische Daten zu Rivaroxaban bei RA
+- Auswertung der Packungsbeilage (Warnhinweise und Kontraindikationen), da die Sicherheitsprüfung sonst nicht möglich ist
+- Klärung des aktuellen Zulassungs- und Marktstatus in Deutschland
 
+---
+
+### Hinweis zu weiteren Vorhersagen
+
+Die weiteren Vorhersagen wurden ebenfalls als **Hold** bewertet:
+- **Gicht** (Score 99,51 %, L5): kein glaubwürdiger mechanistischer Zusammenhang; die Literaturtreffer sind offenbar zufällige Stichwortübereinstimmungen.
+- **HIV-Infektion** (Score 99,17 %, L4): Es handelt sich nicht um eine Behandlung von HIV, sondern um Sicherheits- und Wechselwirkungsinformationen für HIV-Patienten mit Antikoagulationsbedarf. Mit ritonavir- oder cobicistat-geboosterten antiretroviralen Therapien steigen Rivaroxaban-Exposition und Blutungsrisiko. Die einzige gefundene Studie (NCT00786422) ist eine Phase-2-Studie zu tiefer Venenthrombose und liefert keine Evidenz für HIV.
+- **Brachydaktylie-Syndaktylie-Syndrom** (Score 99,10 %, L5): weder Studien noch Literatur, keine plausible biologische Hypothese.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

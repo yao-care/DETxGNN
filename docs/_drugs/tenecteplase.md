@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Tenecteplase
-parent: Hohe Evidenz (L1-L2)
-nav_order: 387
-evidence_level: L2
+parent: Nur Modellvorhersage (L5)
+nav_order: 453
+evidence_level: L5
 indication_count: 10
 ---
 
 # Tenecteplase
 {: .fs-9 }
 
-Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,87 +29,94 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Tenecteplase: Von STEMI-Thrombolyse zu adjuvanter intrakoronarer Anwendung bei Koronarstenose
+# Tenecteplase: Vom Myokardinfarkt zum posterolateralen Myokardinfarkt
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Tenecteplase ist ein rekombinanter Tissue-Plasminogen-Aktivator der dritten Generation, etabliert als Standard-IV-Thrombolytikum für Myokardinfarkt mit ST-Strecken-Hebung (STEMI). Unter zehn durch TxGNN vorhergesagten Indikationen sind die meisten (Ränge 1–3, 6–10) entweder anatomische EKG-Subtypen des STEMI, die bereits in seinen bekannten Wirkungsmechanismus enthalten sind, oder Krankheits-Embedding-Falsch-Positive ohne biologische Plausibilität. Der einzige Kandidat mit echten unterstützenden Beweisen ist **Koronarstenose** — intrakoronare Tenecteplase in niedriger Dosis als Zusatztherapie während primärer PCI — gestützt durch **1 abgeschlossene Phase-2-RCT** und **12 unterstützende Publikationen**.
+Tenecteplase ist ein fibrinspezifischer Gewebeplasminogenaktivator (Thrombolytikum), der ursprünglich zur Behandlung des Myokardinfarkts zugelassen wurde.
+Das TxGNN-Modell sagt voraus, dass er bei **posterolateralem Myokardinfarkt** wirksam sein könnte. Hierfür liegen jedoch **keine klinischen Studien** und **keine spezifischen Publikationen** vor. Es handelt sich um einen Untertyp der bereits zugelassenen Indikation und nicht um ein echtes Repurposing-Signal.
 
 ---
 
-## Schnellübersicht
+## Kurzüberblick
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | STEMI-Thrombolyse (gemäß Umwidmungsrationale-Text; kein offizieller Packungsbeilage-Text verfügbar – Arzneimittel nicht in Deutschland vermarktet) |
-| Vorhergesagte neue Indikation | Koronarstenose (adjuvante intrakoronare Anwendung in niedriger Dosis während primärer PCI) |
-| TxGNN-Vorhersage-Score | 99.53% |
-| Evidenzstufe | L2 |
-| Marktstatus in Deutschland | Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Fortführung unter Schutzmaßnahmen |
+| Ursprüngliche Indikation | Myokardinfarkt |
+| Vorhergesagte neue Indikation | Posterolateraler Myokardinfarkt |
+| TxGNN-Vorhersagewert | 99,87 % |
+| Evidenzgrad | L5 |
+| Marktstatus in Deutschland | Nur erloschene Zulassung |
+| Anzahl der Zulassungen | 1 |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage sinnvoll?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Wirkmechanismus-Daten nicht verfügbar (Datenlücke, hoher Schweregrad). Basierend auf den in diesem Beweispaket vorhandenen Informationen ist Tenecteplase eine Fibrin-spezifische tPA-Variante, die Plasminogen→Plasmin aktiviert, um Thrombus aufzulösen; sie ist bereits das Standard-Thrombolytikum für STEMI. In diesem Kontext ist „Koronarstenose" keine völlig separate Krankheit, sondern eine Beschreibung der Läsionsstelle, die während primärer PCI behandelt wird – intrakoronare Tenecteplase in niedriger Dosis (anstatt systemisch IV), verabreicht zum Zeitpunkt der Ballondilatation, soll residualen Thrombus an der Läsionsstelle auflösen und die mikrovaskuläre Perfusion verbessern, um die distale Embolisierung zu reduzieren.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Tenecteplase ist ein fibrinspezifischer Plasminogenaktivator, der Koronarthromben auflöst. Seine Wirksamkeit beim Myokardinfarkt ist etabliert, und mechanistisch ist er auf thrombotische Koronarverschlüsse übertragbar.
 
-Es ist zu beachten, dass TxGNN drei weitere Kandidaten höher nach Rohscore eingestuft hat – posterolaterale, posteroinferior- und septale Myokardinfarkte (Ränge 1–3). Dies sind keine unabhängigen Krankheiten, sondern EKG-basierte anatomische Klassifikationen des STEMI selbst, daher fallen sie genau in Tenecteplases bereits etablierte Indikation anstatt echte Umwidmung zu vertreten. Keiner der drei hat direkt unterstützende klinische Studien, und nur septale MI hat tangentielle Literatur (ein falsch diagnostizierter PE-Fall und eine allgemeine PE-Wirksamkeitsstudie). Ränge 6–10 (chromosomale Deletions-Syndrome, Thalassämie, Enzymdefekte der roten Blutkörperchen, hereditäre Pyropoikilozytoze) haben keine bekannte Verbindung zum fibrinolytischen Weg und sind am besten als Wissens-Graphen-Embedding-Rauschen zu behandeln. Koronarstenose (Rang 5) ist daher der einzige Kandidat mit echten handlungsfähigen Beweisen, und dieser Bericht konzentriert sich darauf.
+Der posterolaterale Myokardinfarkt ist ein anatomischer Untertyp des bereits zugelassenen Myokardinfarkts. Der hohe TxGNN-Wert spiegelt vor allem die Nähe zur ursprünglichen Indikation wider und stellt kein eigenständiges Repurposing-Signal dar.
 
----
-
-## Klinische Studienevidenz
-
-| Studiennummer | Phase | Status | Zahl der Teilnehmer | Wichtigste Ergebnisse |
-|---------|------|------|------|---------|
-| [NCT00604695](https://clinicaltrials.gov/study/NCT00604695) | Phase 2 | Abgeschlossen | 40 | ICE-T-Studie: Bewertung von intrakoronarer Tenecteplase in niedriger Dosis als Zusatztherapie während Ballondilatation bei STEMI; Hypothese, dass intrakoronare Tenecteplase die Blutgerinnsel-Auflösung an der Läsionsstelle verbessert, um Myokardschäden zu reduzieren. |
+Auch die weiteren Vorhersagen (posteroinferiorer und septaler Infarkt) sind Untertypen der Zulassungsindikation. Für Krankheiten wie Chromosom-16-Deletion, Beta-Thalassämie, Pyruvatkinase-Mangel oder hereditäre Pyropoikilozytose besteht kein plausibler Mechanismus; diese Werte sind vermutlich Artefakte des Wissensgraphen. Beim Koronarstenosen-Kandidaten (Rang 5) ist die Evidenz auf Stufe L3 klein und heterogen. Hier ist am ehesten eine intrakoronare Anwendung bei PCI oder Stentthrombose denkbar, nicht aber bei fixierter Stenose.
 
 ---
 
-## Literaturbeweise
+## Klinische Studien
 
-| PMID | Jahr | Typ | Zeitschrift | Wichtigste Ergebnisse |
+Derzeit sind keine zugehörigen klinischen Studien registriert.
+
+---
+
+## Literatur
+
+Für den posterolateralen Myokardinfarkt liegen derzeit keine zugehörigen Publikationen vor.
+
+Zur Einordnung: Für den septalen Myokardinfarkt (Rang 3) und die Koronarstenose (Rang 5) wurden nur indirekte Arbeiten gefunden. Die relevantesten sind:
+
+| PMID | Jahr | Typ | Journal | Kernaussage |
 |------|-----|------|------|---------|
-| [17102829](https://pubmed.ncbi.nlm.nih.gov/17102829/) | 2006 | RCT | Canadian Journal of Cardiology | TRANSFER-AMI-Pilotstudie: Machbarkeit der dringenden PCI-Verlegung kurz nach Thrombolyse bei STEMI. |
-| [16053952](https://pubmed.ncbi.nlm.nih.gov/16053952/) | 2005 | RCT | Journal of the American College of Cardiology | CAPITAL-AMI-Studie: Tenecteplase-facilitierte Angioplastie vs. Tenecteplase allein bei hochriskanten STEMI. |
-| [31870492](https://pubmed.ncbi.nlm.nih.gov/31870492/) | 2020 | Kohorte/Machbarkeit | American Journal of Cardiology | ICE-T-TIMI-49: Machbarkeit und Sicherheit von intrakoronarer Tenecteplase in niedriger Dosis (4 mg) vs. Kochsalzlösung während primärer PCI, randomisiert 40 Patienten. |
-| [16139127](https://pubmed.ncbi.nlm.nih.gov/16139127/) | 2005 | Kohorte | Journal of the American College of Cardiology | Präprozedural-intrakoronare Fibrin-spezifische Lyse-Infusion erleichtert die Rekanalisation chronisch-verschlossener Koronararterien. |
-| [37199147](https://pubmed.ncbi.nlm.nih.gov/37199147/) | 2023 | Kohorte | Circulation | Kürzere Tür-zu-Nadel-Zeiten verbunden mit besseren Ergebnissen nach IV-Thrombolyse + endovaskulärer Thrombektomie bei akutem ischämischem Schlaganfall. |
-| [11994554](https://pubmed.ncbi.nlm.nih.gov/11994554/) | 2002 | Kohorte | Journal of Thrombosis and Thrombolysis | ST-Depression präkordial bei inferiorem MI verbunden mit langsamem Blutfluss in nicht-Läsions-LAD. |
-| [23615379](https://pubmed.ncbi.nlm.nih.gov/23615379/) | 2013 | Übersichtsartikel | Cerebrovascular Diseases | Historische Perspektive und zukünftige Möglichkeiten für Thrombolytika bei akutem ischämischem Schlaganfall. |
-| [37823944](https://pubmed.ncbi.nlm.nih.gov/37823944/) | 2023 | Fallbericht | Egyptian Heart Journal | Clopidogrel-Resistenz führend zu subakuter Stent-Thrombose in einer ressourcenbegrenzten Umgebung. |
-| [25733729](https://pubmed.ncbi.nlm.nih.gov/25733729/) | 2016 | Fallbericht | Human & Experimental Toxicology | Thrombolytische Therapie bei inferolateralem MI nach Kohlenmonoxid-Vergiftung. |
-| [31020237](https://pubmed.ncbi.nlm.nih.gov/31020237/) | 2019 | Fallbericht | European Heart Journal Case Reports | Erfolgreiche Stent-Retriever-Extraktion von refraktärer Thrombose aus einer ektasischen Koronararterie während primärer Angioplastie. |
+| [31870492](https://pubmed.ncbi.nlm.nih.gov/31870492/) | 2020 | Randomisierte Machbarkeitsstudie (n=40) | Am J Cardiol | Niedrig dosiertes intrakoronares Tenecteplase während primärer PCI bei STEMI: Machbarkeit und Sicherheit (ICE T-TIMI 49) |
+| [16053952](https://pubmed.ncbi.nlm.nih.gov/16053952/) | 2005 | Klinische Studie | J Am Coll Cardiol | CAPITAL AMI: Tenecteplase-gestützte Angioplastie vs. alleinige Thrombolyse bei Hochrisiko-STEMI |
+| [16139127](https://pubmed.ncbi.nlm.nih.gov/16139127/) | 2005 | Kleine klinische Studie | J Am Coll Cardiol | Intrakoronare fibrinspezifische Lyse zur Erleichterung der Rekanalisation chronischer Totalverschlüsse |
+| [23975441](https://pubmed.ncbi.nlm.nih.gov/23975441/) | 2014 | Fallserie | J Thromb Thrombolysis | Wirksamkeit und Sicherheit von Tenecteplase bei Lungenembolie (30 Patienten, indirekt) |
+| [42220791](https://pubmed.ncbi.nlm.nih.gov/42220791/) | 2026 | Fallbericht | Cureus | Ventrikelseptumruptur trotz früher pharmako-invasiver Reperfusion bei Vorderwand-STEMI (Sicherheitssignal) |
 
 ---
 
-## Informationen zum Marktstatus in Deutschland
+## Marktinformationen Deutschland
 
-Tenecteplase hat derzeit keine dokumentierte Zulassung auf dem deutschen Markt (0 Zulassungen; Marktstatus: Nicht vermarktet). Es sind keine Produktebenen-Lizenzierungsdaten für die Überprüfung verfügbar.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000306 | Metalyse | – | Myokardinfarkt |
+
+Die Zulassung ist erloschen (Status: cancelled). Hersteller: Boehringer Ingelheim International GmbH.
 
 ---
 
-## Sicherheitsüberlegungen
+## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. Es sind derzeit keine strukturierten Warnhinweise, Kontraindikationen oder Arzneimittelwechselwirkungsdaten in diesem Beweispaket verfügbar (wichtige Sicherheitsdaten und TFDA/BfArM-Packungsbeilage-Informationen sind als **Blockierender** Datenlücke für die S1-Sicherheitsüberprüfung gekennzeichnet).
+- **Arzneimittelwechselwirkungen**: In den Daten sind 100 Wechselwirkungen erfasst. Wichtige Beispiele:
+  - **Schwerwiegend (Major)**: Abciximab, Apixaban, Betrixaban, Acalabrutinib, Avapritinib, Deferasirox, Ibritumomab tiuxetan, Tositumomab. Meist handelt es sich um Substanzen mit erhöhtem Blutungsrisiko.
+  - **Moderat**: Acetylsalicylsäure, Ibuprofen, Ketorolac, Celecoxib, Aminocapronsäure, Omega-3-Fettsäuren, Fenfluramin, Dexfenfluramin, Sibutramin.
+- **Sicherheitssignal aus der Literatur**: Ein Fallbericht (2026) beschreibt eine mechanische Komplikation (Ventrikelseptumruptur) nach Reperfusion.
+
+Angaben zu Warnhinweisen und Gegenanzeigen aus der Fachinformation liegen nicht vor; bitte die Fachinformation konsultieren.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Fortführung unter Schutzmaßnahmen**
+**Entscheidung: Hold**
 
 **Begründung:**
-Koronarstenose (adjuvante intrakoronare Tenecteplase in niedriger Dosis während primärer PCI) ist der einzige Kandidat unter den zehn TxGNN-Vorhersagen mit tatsächlichen klinischen Beweisen – eine abgeschlossene Phase-2-RCT plus unterstützende Kohorten- und RCT-Literatur – die Evidenzstufe L2 erreicht. Jedoch handelt es sich um eine adjuvante prozedurale Anwendung mit enger Dosis-/Applikationsroute (intrakoronarer Bolus in niedriger Dosis) anstatt einer neuen systemischen Indikation, und es gibt noch keine direkte Vergleichs-Wirksamkeits-/Ergebnis-Daten für eine formale „Koronarstenose"-Kennzeichnung.
+Der posterolaterale Myokardinfarkt ist ein Untertyp der bereits zugelassenen Indikation. Es gibt weder Studien noch spezifische Literatur, und der hohe Vorhersagewert ist kein echtes Repurposing-Signal. Zudem ist die deutsche Zulassung erloschen. Die Evidenz beschränkt sich auf eine reine Modellvorhersage (L5).
 
-**Um vorwärts zu gehen, wird folgendes benötigt:**
-- Offizielle Kennzeichnungs-/Warnhinweise-Daten (TFDA oder BfArM) um die S1-Sicherheitsüberprüfung abzuschließen – derzeit blockierend
-- Detaillierte Wirkmechanismus-Dokumentation von DrugBank
-- Dosis-Wirkungs- und Blutungsrisiko-Sicherheitsdaten spezifisch für intrakoronare Gabe in niedriger Dosis
-- Arzneimittelwechselwirkungsdaten (derzeit nicht gefunden)
-- Formale Ausschließung von Rängen 1–3 (STEMI-EKG-Subtypen – mechanistisch nicht neu, keine direkten Beweise) und Rängen 6–10 (keine mechanistische Plausibilität, wahrscheinlich Embedding-Rauschen) aus weiterer Umwidmungs-Überlegung
-
+**Für ein Weiterkommen sind erforderlich:**
+- Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen), da dies derzeit die Sicherheitsprüfung blockiert
+- Daten zum Wirkmechanismus (z. B. aus DrugBank)
+- Klärung, ob der Fokus eher auf Kandidaten mit echtem Repurposing-Potenzial liegen sollte, etwa der intrakoronaren Anwendung bei Koronarverschluss durch Thrombus (Evidenzstufe L3), und gezielte Recherche dazu
+- Klärung des Zulassungs- und Marktstatus in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

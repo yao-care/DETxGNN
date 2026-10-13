@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Roxadustat
-parent: Mittlere Evidenz (L3-L4)
-nav_order: 355
-evidence_level: L4
+parent: Nur Modellvorhersage (L5)
+nav_order: 414
+evidence_level: L5
 indication_count: 4
 ---
 
 # Roxadustat
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **4** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,81 +29,88 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-# Roxadustat: Von renaler Anämie zum Trockenen Auge
+# Roxadustat: Von renaler Anämie zu Trockenem-Auge-Syndrom
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Roxadustat ist ein HIF-Prolyl-Hydroxylase-Inhibitor (HIF-PHI), der zur Behandlung der renalen Anämie bei Patienten mit chronischer Nierenerkrankung eingesetzt wird.
-> Das TxGNN-Modell prognostiziert, dass es möglicherweise wirksam gegen das **Trockene Auge** sein könnte,
-> doch wird dies derzeit nur durch **1 Beobachtungsstudie** und **keine Publikationen** gestützt, von denen keine die therapeutische Wirkung von Roxadustat auf das Trockene Auge direkt überprüft.
+Roxadustat ist ein HIF-Prolylhydroxylase-Inhibitor, der ursprünglich zur Behandlung der Anämie bei chronischer Niereninsuffizienz zugelassen wurde.
+Das TxGNN-Modell sagt voraus, dass er für das **Trockene-Auge-Syndrom** (dry eye syndrome) wirksam sein könnte.
+Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage beruht ausschließlich auf dem Modell.
 
 ---
 
-## Schnelle Übersicht
+## Schnellübersicht
 
-| Element | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Renale Anämie (mit chronischer Nierenerkrankung assoziierte Anämie) – aus dem Kontext der klinischen Studie abgeleitet; nicht als strukturiertes Feld in diesem Nachweispaket vorhanden |
-| Vorhergesagte neue Indikation | Trockenes Auge |
-| TxGNN-Vorhersagescore | 99.51% |
-| Evidenzstufe | L4 |
-| Marktstatus Deutschland | Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Zurückstellen |
+| Ursprüngliche Indikation | Anämie; chronische Niereninsuffizienz |
+| Vorhergesagte neue Indikation | Trockenes-Auge-Syndrom (dry eye syndrome) |
+| TxGNN-Vorhersagewert | 99,51 % |
+| Evidenzniveau | L5 |
+| Marktstatus in Deutschland | Nur erloschene Zulassung (Cancelled only) |
+| Anzahl der Zulassungen | 1 (davon 0 gültig) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage vernünftig?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit ist kein strukturierter Wirkmechanismus-Datensatz für dieses Arzneimittel verfügbar (`original_moa` ist als Datenlücke gekennzeichnet, DG002). Die Begründung des Nachweispakets für die Umwidmung identifiziert Roxadustat jedoch als einen **HIF-Prolyl-Hydroxylase-Inhibitor (HIF-PHI)**, der HIF-1α/2α stabilisiert, um die Produktion von endogenem Erythropoietin (EPO) hochzuregulieren – der Wirkmechanismus, der seiner Verwendung bei renaler Anämie zugrunde liegt.
+Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Bekannt ist, dass Roxadustat ein HIF-Prolylhydroxylase-Inhibitor ist: Es stabilisiert HIF-1α/2α und fördert dadurch unter anderem die Erythropoetin-Bildung, was seine Wirksamkeit bei Anämie bei chronischer Niereninsuffizienz erklärt. Die EMA hat Roxadustat im August 2021 für diese Indikation zugelassen.
 
-Die Verbindung zum Trockenen Auge ist schwach und indirekt. Die einzige unterstützende klinische Studie (NCT06287879) testet Roxadustat überhaupt nicht als Behandlung für das Trockene Auge – es ist eine **Beobachtungsstudie**, die die Funktion und Morphologie der Meibom-Drüsen bei Patienten mit renaler Anämie untersucht, die zufällig mit Symptomen des Trockenen Auges auftreten, wobei Roxadustat nur als eine der Hintergrund-Anämiebehandlungen erwähnt wird, die diese Patienten erhalten. Es gibt keinen mechanistischen oder empirischen Beweis dafür, dass HIF-Stabilisierung die Funktion der Meibom-Drüsen oder die Stabilität des Tränenfilms verbessert; das gleichzeitige Auftreten lässt sich plausibel durch gemeinsame Komorbiditäten (chronische Nierenerkrankung/Urämie) statt durch einen Arzneimitteleffekt erklären.
+Zwischen renaler Anämie und Trockenem Auge besteht keine unmittelbare klinische Verwandtschaft. Ein möglicher Zusammenhang ergibt sich nur über die HIF-Signalwege, die Entzündung der Augenoberfläche, die Epithelreparatur und die Angiogenese beeinflussen könnten. Die HIF-Aktivierung kann jedoch auch pathologische Neovaskularisation fördern. Die Verbindung ist daher spekulativ: Der TxGNN-Wert ist eine rein graphbasierte Vorhersage.
 
-Angesichts des Fehlens einer Interventionsstudie oder Literatur, die Roxadustat direkt für das Trockene Auge testet, sollte diese Vorhersage als ein hypothesengenerierendes Signal aus dem Wissensgraph betrachtet werden, anstatt als ein durch Evidenz gestützter Umwidmungskandidat.
+Weitere vom Modell genannte Kandidaten (alle ebenfalls nur Evidenzniveau L5, Empfehlung Hold):
 
----
-
-## Klinische Studienevidenzen
-
-| Studiennummer | Phase | Status | Einschreibung | Wichtigste Erkenntnisse |
-|---------|------|------|------|---------|
-| [NCT06287879](https://clinicaltrials.gov/study/NCT06287879) | NA | Unbekannt | 50 | Beobachtungsstudie zur Charakterisierung der Meibom-Drüsenfunktion und Morphologie bei Patienten mit renaler Anämie und Symptomen des Trockenen Auges; Roxadustat/EPO als Hintergrund-Anämiebehandlungen aufgeführt, nicht als Intervention bei Trockenem Auge bewertet (Relevanzgrad: C) |
+| Rang | Vorhergesagte Indikation | TxGNN-Wert | Einschätzung |
+|------|------|------|------|
+| 2 | Paget-Krankheit des Knochens | 99,12 % | Theoretischer Bezug über HIF und Knochenumbau; Wirkrichtung unklar |
+| 3 | Dentinogenesis imperfecta | 99,06 % | Mechanismus unklar; erbliche Strukturstörung kaum medikamentös korrigierbar |
+| 4 | Plattenepithelkarzinom | 99,02 % | HIF-Aktivierung ist eher mit Tumorprogression verbunden; eher Sicherheitsbedenken als Therapieansatz |
 
 ---
 
-## Literaturnachweise
+## Klinische Evidenz
 
-Derzeit keine verwandte Literatur verfügbar.
-
----
-
-## Marktinformationen Deutschland
-
-Roxadustat wird derzeit auf diesem Markt **nicht vermarktet** – 0 Zulassungen in den Unterlagen, und keine Lizenzeinträge sind im Nachweispaket verfügbar.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Sicherheitsaspekte
+## Literaturevidenz
 
-- **Wichtige Warnungen**: Für dieses Arzneimittel sind derzeit keine formalen Packungsbeilage-Warnungs-/Kontraindikationsdaten verfügbar (blockierende Datenlücke; TFDA-Etikett wurde noch nicht abgerufen und analysiert).
-- **Wichtiges mechanistisches Sicherheitssignal (aus Nachweispaket)**: Eine niedriger bewertete TxGNN-Vorhersage (Plattenepithelkarzinom, Rang 4) hebt eine entgegengesetzt gerichtete Besorgnis hervor – HIF-1α/2α-Stabilisierung ist ein etablierter Treiber von Tumorwachstum, Angiogenese und Metastasenbildung in vielen soliden Tumoren, einschließlich Plattenepithelkarzinom. Dies ist im Nachweispaket als eine **bekannte Sicherheitsüberlegung für die Verwendung von Roxadustat bei Patienten mit aktiver oder früherer Malignität** gekennzeichnet, nicht als eine therapeutische Gelegenheit, und sollte in jede Risikobewertung für dieses Arzneimittel einfließen.
+Derzeit liegt keine zugehörige Literatur vor.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Informationen zum deutschen Markt
 
-**Entscheidung: Zurückstellen**
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/004871 | Evrenzo (Astellas Pharma Europe B.V.) | – | Anämie; chronische Niereninsuffizienz (Status: erloschen) |
+
+---
+
+## Sicherheitshinweise
+
+- **Wechselwirkungen / pharmakologische Interaktion:** Roxadustat hemmt das Ziel EGLN2 (egl-9 family hypoxia inducible factor 2), eine HIF-Prolylhydroxylase. Dies ist der pharmakologische Wirkmechanismus; ein Schweregrad ist nicht angegeben.
+- **Theoretisches Risiko:** Da die HIF-Aktivierung Angiogenese und Tumorprogression fördern kann, ist bei Indikationen wie Plattenepithelkarzinom oder bei Erkrankungen mit pathologischer Neovaskularisation (z. B. am Auge) besondere Vorsicht geboten.
+
+Für weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) siehe die Fachinformation.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Hold**
 
 **Begründung:**
-Die einzige verfügbare Evidenz (eine nicht-interventionale Studie mit unbekanntem Status, bewertet mit Relevanzgrad C) testet nicht die Wirkung von Roxadustat auf das Trockene Auge, und keine Literatur unterstützt diese Indikation. Kombiniert mit einer blockierenden Datenlücke bei der TFDA-Sicherheitskennzeichnung und dem nicht vermarkteten Status des Arzneimittels gibt es unzureichende Evidenz, um diesen Kandidaten voranzubringen.
+Die Vorhersage für das Trockene-Auge-Syndrom stützt sich allein auf das TxGNN-Modell (Evidenzniveau L5), ohne klinische Studien oder Publikationen. Zudem ist die Zulassung in Deutschland erloschen, und die HIF-Aktivierung birgt theoretische Risiken (Neovaskularisation).
 
-**Um voranzuschreiten, wird Folgendes benötigt:**
-- TFDA-Kennzeichnung/Warnungen und Kontraindikationen (DG001, blockierend)
-- Bestätigte Wirkmechanismus-Daten von DrugBank (DG002)
-- Eine Interventionsstudie oder präklinische Studie, die direkt die Wirkung von Roxadustat auf das Trockene Auge/Tränenfilm-Ergebnisse testet
-- Literatursuche, die speziell HIF-PHI-Effekte auf Erkrankungen der Augenoberfläche adressiert
-- Eine formale Sicherheitsüberprüfung des Malignität-bezogenen mechanistischen Signals (HIF-Stabilisierung und Tumorförderung), bevor weitere Indikationserweiterung in Betracht gezogen wird
-
+**Für ein Weiterkommen sind folgende Schritte nötig:**
+- Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) als Voraussetzung für die Sicherheitsprüfung
+- Ergänzung der Wirkmechanismus-Daten (z. B. aus DrugBank)
+- Präklinische Daten zu HIF-Stabilisierung an der Augenoberfläche, einschließlich Abwägung gegen Neovaskularisationsrisiko
+- Prüfung der Anwendungswege (z. B. topische Darreichung), da bisher nur eine systemische Anwendung bekannt ist
+- Literatur- und Studienrecherche zu den vorhergesagten Indikationen
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

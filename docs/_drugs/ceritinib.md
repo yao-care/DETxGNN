@@ -2,7 +2,7 @@
 layout: default
 title: Ceritinib
 parent: Nur Modellvorhersage (L5)
-nav_order: 95
+nav_order: 107
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,90 +29,94 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Ceritinib: Von ALK-positivem NSCLC zur gingivalen Fibromatose
+# Ceritinib: Von nicht-kleinzelligem Lungenkarzinom zu gingivaler Fibromatose
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Ceritinib ist ein ALK-Tyrosinkinase-Inhibitor der zweiten Generation, dessen etablierter Einsatz – basierend auf der Literatur in diesem Evidenzpaket – das ALK-positive nicht-kleinzellige Lungenkarzinom (NSCLC) ist.
-> Die Top-Vorhersage des TxGNN-Modells ist **Gingivale Fibromatose**, mit einem Rohwert von **99.86%**,
-> wird jedoch derzeit durch **0 klinische Studien** und **0 Publikationen** gestützt – die eigene Rationale des Modells kennzeichnet dies als wahrscheinlich Nähe-Rauschen im Einbettungsraum statt als echtes mechanistisches Signal.
+Ceritinib ist ein ALK-Inhibitor, der ursprünglich zur Behandlung des nicht-kleinzelligen Lungenkarzinoms (NSCLC) zugelassen wurde.
+Das TxGNN-Modell sagt voraus, dass es bei **gingivaler Fibromatose** wirksam sein könnte.
+Für diese Vorhersage liegen jedoch **keine klinischen Studien** und **keine Publikationen** vor; sie beruht ausschließlich auf der Modellberechnung.
 
 ---
 
-## Schnelle Übersicht
+## Kurzüberblick
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Nicht verfügbar in deutschen Zulassungsdaten (Arzneimittel nicht vermarktet, 0 Lizenzen); gemäß Literaturevidenz in diesem Paket wurde Ceritinib für das ALK-positive nicht-kleinzellige Lungenkarzinom (NSCLC) entwickelt |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Nicht-kleinzelliges Lungenkarzinom (NSCLC) |
 | Vorhergesagte neue Indikation | Gingivale Fibromatose |
-| TxGNN-Vorhersage-Punktzahl | 99.86% |
-| Evidenzstufe | L5 (nur Modellvorhersage, keine klinischen Studien oder Literaturstütze) |
-| Deutschland-Marktstatus | ✗ Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Ausgesetzt |
+| TxGNN-Vorhersagewert | 99,86 % |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Nur erloschene Zulassung |
+| Anzahl der Zulassungen | 1 |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage sinnvoll?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Daten zum Wirkmechanismus für Ceritinib nicht verfügbar (gekennzeichnet als Datenlücke mit hohem Schweregrad in diesem Evidenzpaket). Basierend auf der Literaturevidenz, die an Vorhersagen mit niedrigerem Rang in diesem Paket angehängt ist, ist bekannt, dass Ceritinib ein orales, potentes ALK-(Anaplastisches-Lymphom-Kinase-)Inhibitor ist, und seine Wirksamkeit bei ALK-Rearrangement-NSCLC wurde durch Evidenz randomisierter Phase-III-Studien etabliert (z. B. ASCEND-4). Mechanistisch wäre zu erwarten, dass ALK-Inhibitoren therapeutische Relevanz nur bei Erkrankungen mit nachgewiesener ALK-getriebener Pathologie aufweisen (z. B. ALK+-NSCLC, ALK-mutiertes Neuroblastom, anaplastisches großzelliges Lymphom).
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Ceritinib ein oraler ALK-Inhibitor (Anaplastic Lymphoma Kinase) der zweiten Generation ist. Seine Wirksamkeit bei ALK-umgelagertem NSCLC ist belegt, u. a. durch die Phase-3-Studie ASCEND-4.
 
-Für den Top-Rang-Kandidaten in diesem Paket, **Gingivale Fibromatose**, wurde in der Literatur keine solche ALK-getriebene Pathologie berichtet. Das Umwidmungs-Rationale des Evidenzpakets besagt dies ausdrücklich: *"牙齦纖維瘤病無已知 ALK 通路涉入之報導，TxGNN 高分推測為 embedding 空間鄰近雜訊，無機轉支持"* (gingivale Fibromatose hat keine bekannte ALK-Weg-Beteiligung; der hohe TxGNN-Score ist wahrscheinlich auf Nähe-Rauschen im Einbettungsraum zurückzuführen, nicht auf mechanistische Unterstützung). Dies wird durch das völlige Fehlen von klinischen Studien und Literaturevidenz (0/0) für diese spezifische Indikation gestützt.
-
-Es ist erwähnenswert, dass innerhalb desselben Evidenzpakets andere niedriger gerankte Vorhersagen (z. B. Rang 5 „gutartige Lungenneoplasie", Rang 7 „Lungenkeimzelltumor") erheblich umfangreichere Literaturbestände aufweisen – obwohl diese ebenfalls Erkrankungs-Label-/Evidenz-Nichtübereinstimmungen zeigen, da die angehängten Studien ALK+ maligne NSCLC und ALK-getriebenes Neuroblastom betreffen, nicht die gutartigen und Keimzell-Entitäten, die nominell vorhergesagt werden. Keine der Top-10-Vorhersagen in diesem Paket hat derzeit Evidenz, die die gekennzeichnete Indikation direkt und spezifisch stützt.
+Für die gingivale Fibromatose ist dagegen kein ALK-getriebener Mechanismus bekannt. Der hohe TxGNN-Wert ist eine rein graphbasierte Vorhersage ohne unterstützende Studien oder Literatur. Eine mechanistische Verbindung zwischen der ursprünglichen und der neuen Indikation lässt sich derzeit nicht herleiten.
 
 ---
 
 ## Evidenz aus klinischen Studien
 
-Derzeit keine verwandten klinischen Studien registriert
+Derzeit sind keine relevanten klinischen Studien registriert.
 
 ---
 
-## Literaturevidenz
+## Evidenz aus der Literatur
 
-Derzeit keine verwandte Literatur verfügbar
+Derzeit liegt keine relevante Literatur vor.
 
 ---
 
-## Informationen zum Deutschland-Markt
+## Marktinformationen Deutschland
 
-Ceritinib ist derzeit **nicht auf dem deutschen Markt vermarktet** (Marktstatus: Nicht vermarktet) mit **0 registrierten Zulassungen**. Es sind keine Lizenzdatensätze verfügbar, um Produktnamen, Darreichungsform oder genehmigten Indikationstext zu extrahieren.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/003819 | Zykadia (Novartis Europharm Limited) | – | Nicht-kleinzelliges Lungenkarzinom |
+
+Die einzige Zulassung hat den Status „erloschen".
 
 ---
 
 ## Zytotoxizität
 
-Ceritinib ist ein Antineoplastikum (ALK-Tyrosinkinase-Inhibitor; gemäß Literatur in diesem Paket für ALK-positives NSCLC entwickelt und untersucht).
-
-| Element | Inhalt |
-|---------|--------|
-| Zytotoxizitäts-Klassifizierung | Zielgerichtete Therapie (ALK-Tyrosinkinase-Inhibitor) – kein konventionelles Zytostatikum |
-| Knochenmark-Unterdrückungsrisiko | Nicht spezifiziert in diesem Evidenzpaket; als zielgerichteter Kleinmolekül-TKI ist eine Knochenmark-Unterdrückung allgemein geringer als bei konventioneller Zytostatika-Chemotherapie zu erwarten – bitte beachten Sie die Fachinformation |
-| Emetogenitäts-Klassifizierung | Niedrig bis moderat – GI-Toxizität (Übelkeit, Erbrechen, Durchfall) ist ein anerkannter Klasseneffekt, auf den in der Literatur verwiesen wird (z. B. ASCEND-8-Subgruppen-Analyse zum Nahrungseffekt) |
-| Überwachungspunkte | Leberfunktionstests (Hepatotoxizität), QT-Intervall/EKG (QT-Verlängerung wird als Klasseneffekt für ALK-TKIs einschließlich Ceritinib berichtet), Blutzucker, CBC |
-| Handhabungsschutz | Orale zielgerichtete Therapie – Vorsichtsmaßnahmen zur Handhabung gefährlicher Arzneimittel gemäß Protokoll der Krankenhausapotheke für Onkologie werden weiterhin empfohlen, obwohl generell weniger streng als Anforderungen zur Handhabung von IV-Zytostatika-Chemotherapie |
+| Punkt | Inhalt |
+|------|------|
+| Klassifikation | Zielgerichtete Therapie (Tyrosinkinase-Inhibitor, ALK) |
+| Risiko einer Myelosuppression | Bitte Warnhinweise und Vorsichtsmaßnahmen der Packungsbeilage beachten |
+| Emetogenität | Bitte Warnhinweise und Vorsichtsmaßnahmen der Packungsbeilage beachten |
+| Überwachungsparameter | Bitte Warnhinweise und Vorsichtsmaßnahmen der Packungsbeilage beachten |
+| Schutzmaßnahmen beim Umgang | Bitte Warnhinweise und Vorsichtsmaßnahmen der Packungsbeilage beachten |
 
 ---
 
-## Sicherheitsüberlegungen
+## Sicherheitsaspekte
 
-Bitte beachten Sie die Fachinformation für Sicherheitsinformationen. (Wichtige Warnungen, Kontraindikationen und Arzneimittelwechselwirkungsdaten sind alle als Datenlücken in diesem Evidenzpaket gekennzeichnet; TFDA/BfArM-Fachinformation-Daten sind als Blockade-Schweregrad-Datenlücke gekennzeichnet, die den Eintritt in die S1-Sicherheitsvorbewertung verhindert.)
+- **Arzneimittelinteraktionen**: Die Abfrage ergab 100 Interaktionen. Als **schwerwiegend (Major)** eingestuft sind u. a. **Triamcinolon** und **Budesonid**. Als **moderat** eingestuft sind u. a. Acarbose, Famotidin, Ranitidin, Rabeprazol, Omeprazol, Hydrocortison, Dexamethason, Betamethason, Metformin, Pioglitazon, Alogliptin, Albiglutid, Canagliflozin, Loperamid, Aprepitant und Bisacodyl.
+- **Weitere Hinweise aus der Literatur**: Für Ceritinib und andere TKIs wurden QT-Verlängerung und Überempfindlichkeitsreaktionen beschrieben.
+
+Für weitere Sicherheitsinformationen (Warnhinweise, Kontraindikationen) siehe die Packungsbeilage.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Ausgesetzt**
+**Entscheidung: Hold**
 
-**Rationale:**
-Die Top-Vorhersage (Gingivale Fibromatose) hat null unterstützende klinische Studien oder Literatur, und die eigene Rationale des Evidenzpakets identifiziert den hohen TxGNN-Score als wahrscheinlich rechnerisches Rauschen statt als echtes biologisches Signal. Kombiniert mit der Blockade-Schweregrad-Datenlücke bei Sicherheit/Warnungen kann dieser Kandidat nicht über S0 hinausgehen.
+**Begründung:**
+Die Vorhersage beruht ausschließlich auf dem Modell (Evidenzstufe L5), ohne klinische Studien, Literatur oder bekannten ALK-Mechanismus bei gingivaler Fibromatose. Zudem besteht in Deutschland derzeit keine gültige Zulassung.
 
-**Um voranzuschreiten, ist Folgendes erforderlich:**
-- TFDA/BfArM-Fachinformation-Daten (Warnungen, Kontraindikationen) – derzeit eine Blockade-Datenlücke
-- DrugBank-basierte Wirkmechanismus-(MOA-)Daten – derzeit eine Datenlücke mit hohem Schweregrad
-- Sollte die Umwidmungsuntersuchung für dieses Arzneimittel fortgesetzt werden, priorisieren Sie die Neubewertung oder manuelle Kuratierung von Kandidaten mit niedrigerem Rang und reichhaltiger, derzeit aber nichtübereinstimmender Evidenz (z. B. Rang 7 „Lungenkeimzelltumor", wobei die Literatur tatsächlich ALK-getriebenes Neuroblastom und eine abgeschlossene ZNS-Penetrations-Studie betrifft) anstatt des hier präsentierten Rang-1-Kandidaten
-
+**Für ein Weiterkommen sind erforderlich:**
+- Nachweis eines biologischen Zusammenhangs zwischen ALK-Signalweg und gingivaler Fibromatose
+- Präklinische Daten oder Fallberichte zur Wirksamkeit
+- Detaillierte Daten zum Wirkmechanismus
+- Auswertung der Packungsbeilage (Warnhinweise, Kontraindikationen)
+- Klärung des Zulassungs- und Verfügbarkeitsstatus in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

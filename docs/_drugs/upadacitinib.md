@@ -2,7 +2,7 @@
 layout: default
 title: Upadacitinib
 parent: Nur Modellvorhersage (L5)
-nav_order: 417
+nav_order: 488
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,11 +29,13 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Upadacitinib: Von Autoimmun-/Entzündungserkrankungen zum Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome
+# Upadacitinib: Von rheumatoider Arthritis zum Kolobomatösen-Mikrophthalmie-rhizomelen-Dysplasie-Syndrom
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Upadacitinib ist ein selektiver JAK1-Inhibitor, der ursprünglich für autoimmun- und entzündliche Erkrankungen entwickelt wurde; seine detaillierte ursprüngliche Indikation und Wirkmechanismus-Daten sind in diesem Evidenzpaket noch nicht verfügbar. Das TxGNN-Modell weist einen hohen Ähnlichkeitsscore dem **Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome**, einem seltenen angeborenen Skelett-Augen-Malformationssyndrom, zu, aber diese Vorhersage wird derzeit durch **null klinische Studien** und **null Publikationen** gestützt, und die mechanistische Analyse des Evidenzpakets selbst kennzeichnet dies als wahrscheinlich Modellrauschen anstelle einer biologisch plausiblen Hypothese.
+Upadacitinib ist ein JAK-Inhibitor (überwiegend JAK1), der ursprünglich zur Behandlung der rheumatoiden Arthritis zugelassen wurde.
+Das TxGNN-Modell sagt voraus, dass er bei dem **kolobomatösen Mikrophthalmie-rhizomelen-Dysplasie-Syndrom** wirksam sein könnte.
+Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage beruht allein auf dem Modell.
 
 ---
 
@@ -41,49 +43,57 @@ Upadacitinib ist ein selektiver JAK1-Inhibitor, der ursprünglich für autoimmun
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Im Evidenzpaket nicht angegeben (JAK1-Inhibitor-Klasse, typischerweise autoimmun-/Entzündungserkrankungen) |
-| Vorhergesagte neue Indikation | Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome |
-| TxGNN-Vorhersagescore | 99.61% |
-| Evidenzgrad | L5 |
-| Markt-Status Deutschland | ✗ Nicht im Handel |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | **Hold** |
+| Ursprüngliche Indikation | Rheumatoide Arthritis |
+| Vorhergesagte neue Indikation | Kolobomatöses-Mikrophthalmie-rhizomeles-Dysplasie-Syndrom |
+| TxGNN-Vorhersagewert | 99,61 % |
+| Evidenzniveau | L5 |
+| Marktstatus in Deutschland | Nur gelöschte (cancelled) Zulassung |
+| Anzahl der Zulassungen | 1 |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Wirkmechanismus-Daten in diesem Evidenzpaket nicht verfügbar (`original_moa` ist nicht gefüllt). Basierend auf der bereitgestellten Umwidmungsrationale ist Upadacitinib ein selektiver JAK1-Inhibitor, der die Zytokin-Signalisierung moduliert (IL-6, IFN, IL-2-Familie, etc.), in Einklang mit seiner bekannten Verwendung bei autoimmun-/Entzündungserkrankungen.
+Derzeit liegen keine detaillierten Daten zum Wirkmechanismus vor. Bekannt ist, dass Upadacitinib ein JAK-Inhibitor (überwiegend JAK1) ist, der bei Autoimmun- und Entzündungserkrankungen eingesetzt wird. Seine Wirksamkeit bei rheumatoider Arthritis ist belegt.
 
-Die vorhergesagte Indikation — Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome — ist eine seltene angeborene Störung, die durch embryonale Gendefekte verursacht wird, nicht durch chronische Entzündungen oder JAK-STAT-vermittelte Pathologie. Die mechanistische Bewertung des Evidenzpakets selbst besagt, dass es **keine bekannte biologische Verbindung** zwischen JAK1-Inhibition und diesem strukturellen Entwicklungssyndrom gibt, und führt den hohen TxGNN-Score auf Graph-Embedding-Ähnlichkeitsartefakte zurück anstelle einer echten pharmakologischen Hypothese.
+Das vorhergesagte Syndrom ist eine seltene Entwicklungsstörung. Ein Zusammenhang mit dem JAK-STAT-Signalweg ist anhand der vorliegenden Daten nicht erkennbar und wäre spekulativ. Der hohe Vorhersagewert könnte auf Artefakte der Graphstruktur des Wissensgraphen zurückgehen statt auf biologische Zusammenhänge. Die Vorhersage ist daher als rein rechnerische Hypothese zu betrachten.
 
-Ein zweiter Kandidat, Brachydaktylie-Syndaktylie-Syndrom (Score 99,58%, Rang 5278), zeigt das gleiche Muster: eine Gliedmaßen-Entwicklungsstörung (typischerweise mit HOX-Gen/BMP-Hedgehog-Weg verknüpft) ohne plausible Verbindung zur JAK1-Inhibition und ohne unterstützende Studien oder Literatur. Beide höher bewerteten Vorhersagen in diesem Batch sollten als Modell-Artefakte mit niedriger Konfidenz und nicht als umsetzbare Umwidmungskandidaten behandelt werden.
-
----
-
-## Evidenz aus klinischen Studien
-
-Derzeit sind keine verwandten klinischen Studien registriert.
+Zur Einordnung: Für die zweitplatzierte Vorhersage, das **Brachydaktylie-Syndaktylie-Syndrom** (Score 99,58 %), gilt dasselbe. Es handelt sich um eine angeborene Fehlbildung der Gliedmaßen, für die weder Studien noch Literatur noch ein plausibler Mechanismus vorliegen.
 
 ---
 
-## Evidenz aus der Literatur
+## Klinische Studien
 
-Derzeit ist keine verwandte Literatur verfügbar.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
+
+---
+
+## Literaturevidenz
+
+Derzeit liegt keine zugehörige Literatur vor.
 
 ---
 
 ## Marktinformationen Deutschland
 
-Upadacitinib hält derzeit **keine Marktgenehmigung** in diesem Rechtsraum (Markt-Status: Nicht im Handel, 0 Zulassungen). Keine Produkt-/Lizenzdaten verfügbar.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/004760 | Rinvoq (AbbVie Deutschland GmbH & Co. KG) | – | Rheumatoide Arthritis |
+
+Diese Zulassung hat den Status „gelöscht“ (cancelled); eine gültige Einzel- oder Kombizulassung besteht laut den zusammengestellten Daten nicht.
 
 ---
 
-## Sicherheitserwägungen
+## Sicherheitsaspekte
 
-Bitte beziehen Sie sich auf die Fachinformation für Sicherheitsinformationen.
+**Arzneimittelwechselwirkungen:** Insgesamt wurden 100 Wechselwirkungen erfasst, die folgenden gehören zu den dargestellten Beispielen:
 
-*(Hinweis: TFDA-Etikett-Warnungen/Kontraindikationen und DDI-Daten fehlen derzeit — siehe `DG001`, eine Sicherheitsdaten-Lücke von Blockierendem Schweregrad, die eine S1-Sicherheitsvorab-Bewertung verhindert.)*
+- **Schwerwiegend (Major):** Hydrocortison, Triamcinolon, Dexamethason, Beclometasondipropionat, Betamethason, Budesonid, Prednison, Prednisolon (Kortikosteroide), Clarithromycin, Cobicistat, Deferipron, Iobenguan (I-131)
+- **Moderat:** Aprepitant, Cimetidin, Miconazol, Deferasirox
+- **Gering (Minor):** Zinksulfat, Zinkacetat, Zinkgluconat
+
+Hinweise zu Warnungen und Kontraindikationen finden Sie in der Fachinformation.
 
 ---
 
@@ -91,15 +101,14 @@ Bitte beziehen Sie sich auf die Fachinformation für Sicherheitsinformationen.
 
 **Entscheidung: Hold**
 
-**Rationale:**
-Die vorhergesagte Indikation weist keine unterstützenden klinischen Studien oder Literatur auf (Evidenzgrad L5), und die mechanistische Analyse des Evidenzpakets selbst bewertet die Wirkstoff-Krankheits-Verbindung als biologisch implausibel, wahrscheinlich Embedding-Ähnlichkeitsrauschen widerspiegelnd anstelle eines echten Signals. Kombiniert mit einer Sicherheitsdaten-Lücke von Blockierendem Schweregrad (TFDA-Etikett nicht verfügbar) und fehlenden MOA-/ursprünglichen-Indikations-Daten gibt es unzureichende Grundlage, um diesen Kandidaten voranzutreiben.
+**Begründung:**
+Die Vorhersage stützt sich ausschließlich auf einen hohen Modellwert (Evidenzniveau L5), ohne Studien, Literatur oder plausiblen Mechanismus. Zudem besteht in Deutschland nur eine gelöschte Zulassung.
 
-**Um fortzufahren, wird Folgendes benötigt:**
-- TFDA-Etikett (Warnungen, Kontraindikationen) zur Auflösung von `DG001` (Blockierend)
-- Bestätigte ursprüngliche MOA und genehmigte Indikation(en) via DrugBank/behördliche Quelle (`DG002`)
-- Unabhängige mechanistische oder präklinische Rationale, die JAK1-Inhibition mit diesem Syndrom verknüpft, bevor weitere Überprüfungsressourcen zugewiesen werden
-- Falls keine solche Rationale auftaucht, deprioritisieren Sie sowohl Rang-1- als auch Rang-2-Kandidaten als Vorhersagen mit niedrigem Wert
-
+**Für ein Weiterverfolgen sind erforderlich:**
+- Daten zum Wirkmechanismus (MOA) und eine biologische Begründung für einen Bezug von JAK1/JAK-STAT zum Syndrom
+- Auswertung der Fachinformation (Warnhinweise, Kontraindikationen), da die Sicherheitsprüfung sonst nicht fortgesetzt werden kann
+- Präklinische Studien oder Literaturrecherche zur Stützung der Hypothese
+- Klärung des aktuellen Zulassungs- und Marktstatus in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -2,7 +2,7 @@
 layout: default
 title: Riluzole
 parent: Nur Modellvorhersage (L5)
-nav_order: 342
+nav_order: 400
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,75 +29,77 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Riluzol: ALS-Behandlung — Keine TxGNN-Repurposing-Vorhersage verfügbar
+# Riluzol: Von Amyotropher Lateralsklerose zu bilateraler parasagittaler parieto-okzipitaler Polymikrogyrie
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Riluzol ist eine etablierte Behandlung für die Amyotrophe Lateralsklerose (ALS), die als Glutamat-Freisetzungshemmer mit neuroprotektiven Eigenschaften wirkt. Dieses Evidence Pack enthält jedoch **keine TxGNN-Vorhersagedaten** und **keine vorhergesagten Indikationen**, wodurch eine vollständige Repurposing-Evaluierung derzeit unmöglich ist. Mehrere blockierende Datenlücken – einschließlich fehlender ursprünglicher Indikationsdatensätze, MOA-Daten und Sicherheitsinformationen – müssen behoben werden, bevor diese Bewertung fortgesetzt werden kann.
+Riluzol ist ein Wirkstoff, der ursprünglich zur Behandlung der Amyotrophen Lateralsklerose (ALS) zugelassen wurde.
+Das TxGNN-Modell sagt voraus, dass er bei **bilateraler parasagittaler parieto-okzipitaler Polymikrogyrie** wirksam sein könnte.
+Dafür liegen jedoch **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage beruht ausschließlich auf dem Modell.
 
----
+## Schnellübersicht
 
-## Schnelübersicht
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Amyotrophe Lateralsklerose |
+| Vorhergesagte neue Indikation | Bilaterale parasagittale parieto-okzipitale Polymikrogyrie |
+| TxGNN-Vorhersagewert | 99,99 % |
+| Evidenzlevel | L5 |
+| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
+| Anzahl der Zulassungen | 2 (beide aufgehoben) |
+| Empfohlene Entscheidung | Hold |
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Nicht eingetragen in diesem Evidence Pack (allgemeines Wissen: ALS / Motoneuronerkrankung) |
-| Vorhergesagte neue Indikation | **Nicht verfügbar** — `predicted_indications`-Array ist leer |
-| TxGNN-Vorhersage-Score | N/A |
-| Evidenzstufe | Kann nicht bestimmt werden |
-| Marktstatus Deutschland | ✗ Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | **Aussetzen** |
+## Warum ist diese Vorhersage plausibel?
 
----
+Für diesen Wirkstoff liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben zum Wirkmechanismus vor. Aus der Literatur ist bekannt, dass Riluzol die glutamaterge Neurotransmission dämpft und damit exzitotoxische Schäden an Motoneuronen verringern soll. Seine Wirksamkeit bei ALS ist belegt, aber nur moderat (Überlebensverlängerung von etwa 2–3 Monaten laut den Übersichtsarbeiten).
 
-## Warum Vorhersagedaten nicht verfügbar sind
+Ob sich dieser Mechanismus auf die Polymikrogyrie übertragen lässt, ist spekulativ. Man könnte vermuten, dass eine Hyperexzitabilität im Zusammenhang mit kortikalen Malformationen eine Rolle spielt. Die vorliegenden Daten stützen diese Annahme jedoch nicht. Der sehr hohe Modellwert (0,9999) ist eine rein rechnerische Vorhersage ohne klinische oder literaturbasierte Absicherung.
 
-Das Evidence Pack für Riluzol (DrugBank: DB00740) wurde mit erheblichen Datenlücken generiert. Konkret:
+Auch die übrigen Top-10-Vorhersagen sind überwiegend reine Modellvorhersagen. Einige Motoneuron-Erkrankungen (z. B. spätadulte Erkrankung des unteren Motoneurons, monomelische Amyotrophie, genetische ALS-Subtypen) liegen mechanistisch näher an der ursprünglichen Indikation, sind aber ebenfalls ohne Studien- oder Literaturbelege.
 
-- `predicted_indications` ist ein **leeres Array** — die TxGNN-Pipeline wurde entweder nicht für diesen Kandidaten ausgeführt oder hat null Vorhersagen zurückgegeben.
-- `original_indications` ist ebenfalls ein **leeres Array** — die TFDA-Abfrage gab 0 Ergebnisse zurück, was konsistent mit dem Arzneistoff ist, der **nicht in Taiwan/Deutschland vermarktet ist**.
-- `original_moa` ist gekennzeichnet als `[Data Gap]` — die DrugBank-Abfrage protokollierte einen erfolgreichen Abruf (`result_count: 1`), aber es wurde kein MOA in das Ausgabeschema abgebildet.
+## Klinische Studien
 
-Aus allgemeinem pharmakologischen Wissen: Riluzol (Rilutek®) ist in der EU und in den USA für **ALS/MND** zugelassen. Sein Mechanismus beinhaltet die Hemmung der präsynaptischen Glutamat-Freisetzung und die Blockade von spannungsgesteuerten Natriumkanälen, wodurch die exzitotoxische Neuronenschädigung reduziert wird. Dieser Kontext wird nur zu Informationszwecken bereitgestellt und ersetzt **nicht** ein ordnungsgemäß ausgefülltes Evidence Pack.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
-Derzeit sind detaillierte Wirkmechanismus-Daten in diesem Pack nicht verfügbar. Basierend auf bekannten Informationen gehört Riluzol zur Benzothiazol-Klasse und seine Wirksamkeit bei ALS wurde klinisch nachgewiesen; ein ordnungsgemäß ausgefülltes MOA-Feld wäre erforderlich, um die mechanistische Anwendbarkeit auf jede neue Indikation zu bewerten.
+## Literaturevidenz
 
----
+Derzeit liegt keine zugehörige Literatur zur vorhergesagten Indikation (Rang 1) vor.
 
-## Informationen zum deutschen Markt
+Hinweis: Die umfangreichere Literatur im Datensatz betrifft den Vorhersageeintrag „ALS, Suszeptibilität", also die bereits zugelassene Indikation und keine echte Neuindikation. Sie besteht überwiegend aus Übersichtsarbeiten und mechanistischen Arbeiten, etwa zur Glutamat-Exzitotoxizität (PMID 9178165), sowie einer Assoziationsstudie zu CYP2D6-Varianten bei ALS (PMID 42161327, 2026).
 
-Es wurden keine Zulassungen gefunden. Riluzol hat **0 registrierte Lizenzen** auf dem abgefragten Markt. Dieser Abschnitt kann nicht ausgefüllt werden.
+## Marktinformationen Deutschland
 
----
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/002622 | Riluzole Zentiva | – | Amyotrophe Lateralsklerose |
+| EMEA/H/C/000109 | Rilutek | – | Amyotrophe Lateralsklerose |
+
+Beide Zulassungen sind aufgehoben; aktuell gibt es keine gültige Zulassung.
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+- **Kontraindikationen/Risikokonstellationen aus dem Wissensgraphen (PrimeKG, keine Packungsbeilagen-Angaben):** Neutropenie, Agranulozytose, Substanzmissbrauch/-abhängigkeit, Hyperbilirubinämie (auch hereditär), Gilbert-Syndrom, interstitielle Lungenerkrankung, arzneimittelbedingte Leberschädigung.
+- **Leberwerte:** Laut Literatur zeigen etwa 50 % der ALS-Patienten unter oralem Riluzol erhöhte ALT-Werte (ca. 8 % über dem Dreifachen, ca. 2 % über dem Fünffachen der Obergrenze).
+- **Arzneimittelwechselwirkungen:** Insgesamt 44 Wechselwirkungen erfasst. Auszug:
+  - Moderat: Obeticholsäure, Naltrexon, Deferasirox, Osilodrostat, Anagrelid, Asparaginase, Brentuximab vedotin, Clofarabin, Methotrexat, Epirubicin
+  - Gering: Omeprazol, Koffein, Theophyllin, Aminophyllin
+  - Einstufung unbekannt: Metformin, Simvastatin, Ranitidin, Cyanocobalamin, Salbutamol, Ibuprofen
 
-*(Alle Sicherheitsfelder – wichtige Warnungen, Kontraindikationen und DDI – führten zu `[Data Gap]` oder `not_found`. Die TFDA-Packungsbeilage-Abfrage protokollierte jedoch einen erfolgreichen Abruf (`result_count: 1`), was darauf hindeutet, dass Quelldaten existieren, aber nicht in das Evidence Pack-Schema geparst wurden.)*
-
----
+Für Warnhinweise und Kontraindikationen aus der Fachinformation liegen keine Daten vor; bitte die Packungsbeilage bzw. Fachinformation konsultieren.
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Aussetzen**
+**Entscheidung: Hold**
 
 **Begründung:**
-Das Evidence Pack ist strukturell unvollständig — keine TxGNN-vorhergesagten Indikationen, keine ursprünglichen Indikationsdatensätze, kein MOA und keine Sicherheitsdaten — weshalb jede Repurposing-Evaluierung verfrüht und möglicherweise irreführend ist.
+Die Vorhersage zur Polymikrogyrie beruht allein auf dem Modell (Evidenzlevel L5), ohne Studien, Literatur oder belegbaren mechanistischen Zusammenhang. Zudem besteht derzeit keine gültige Zulassung in Deutschland.
 
-**Um fortzufahren, wird Folgendes benötigt:**
-
-| Priorität | Lücken-ID | Element | Erforderliche Maßnahme |
-|-----------|-----------|--------|----------------------|
-| 🔴 Blockierend | DG001 | TFDA/BfArM Packungsbeilage-Warnungen & Kontraindikationen | Parsen Sie die bereits abgerufene PDF (Abfrage-ID 4, `result_count: 1`) in das Sicherheitsschema |
-| 🔴 Blockierend | — | `predicted_indications` ist leer | Führen Sie die TxGNN-Vorhersage-Pipeline für DB00740 erneut aus; überprüfen Sie die Input-Knoten-Zuordnung |
-| 🟠 Hoch | DG002 | MOA (Wirkmechanismus) | DrugBank gab ein Ergebnis zurück (Abfrage-ID 3, `result_count: 1`); extrahieren Sie das `mechanism_of_action`-Feld aus der API-Antwort |
-| 🟠 Hoch | — | `original_indications` | Riluzol ist nicht in Taiwan/Deutschland vermarktet — beschaffen Sie sich die EU-Fachinformation von der EMA oder das FDA-Label, um dieses Feld auszufüllen |
-| 🟡 Mittel | — | DDI-Daten | Erweitern Sie die DDI-Abfrage auf DrugBank oder glaubwürdige Interaktionsdatenbanken; das aktuelle Ergebnis ist `not_found` |
-
-Sobald diese Lücken geschlossen sind und TxGNN mindestens eine bewertete Indikation erzeugt, sollte dieser Bericht mit Evidence Pack v5+ neu generiert werden.
-
+**Für ein Weiterkommen sind erforderlich:**
+- Fachinformation (Warnhinweise, Kontraindikationen) aus BfArM bzw. EMA beschaffen, da die Sicherheitsprüfung sonst nicht fortgesetzt werden kann
+- Detaillierte Wirkmechanismus-Daten (z. B. aus DrugBank) ergänzen
+- Systematische Literatur- und Studienrecherche zu Riluzol bei kortikalen Malformationen
+- Prüfung, ob die näher an ALS liegenden Vorhersagen (z. B. Erkrankung des unteren Motoneurons, monomelische Amyotrophie) als Kandidaten sinnvoller sind
+- Prüfung der Schreibweise des Krankheitsnamens „amyotrohpic lateral sclerosis type 22" in der Krankheitszuordnung
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

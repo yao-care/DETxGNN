@@ -2,7 +2,7 @@
 layout: default
 title: Darolutamide
 parent: Nur Modellvorhersage (L5)
-nav_order: 111
+nav_order: 131
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,73 +29,105 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Darolutamid: Von Prostatakarzinom zur homozygoten familiären Hypercholesterinämie
+# Darolutamid: Vom kastrationsresistenten Prostatakarzinom zur homozygoten familiären Hypercholesterinämie
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Darolutamid ist ein Antagonist des Androgenrezeptors (AR) der zweiten Generation, der ursprünglich gegen Prostatakarzinom entwickelt wurde.
-> Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam bei der **homozygoten familiären Hypercholesterinämie (HoFH)** sein könnte,
-> aber diese Indikation wird derzeit durch **0 klinische Studien** und **0 Publikationen** gestützt, und die mechanistische Analyse des Evidenzpakets selbst findet keine bekannte pharmakologische Grundlage für diese Verbindung.
+Darolutamid ist ein nichtsteroidaler Androgenrezeptor-Antagonist, der ursprünglich zur Behandlung des kastrationsresistenten Prostatakarzinoms eingesetzt wird.
+Das TxGNN-Modell sagt voraus, dass er bei **homozygoter familiärer Hypercholesterinämie** wirksam sein könnte.
+Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage beruht allein auf dem Modell.
 
 ---
 
-## Schnellübersicht
+## Kurzüberblick
 
-| Element | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Prostatakarzinom (abgeleitet aus dem AR-Antagonisten-Mechanismus, der im Evidenzpaket beschrieben wird; nicht in strukturierter Form vorhanden — siehe Datenlücke DG002) |
+| Ursprüngliche Indikation | Kastrationsresistentes Prostatakarzinom |
 | Vorhergesagte neue Indikation | Homozygote familiäre Hypercholesterinämie |
-| TxGNN-Vorhersage-Punktzahl | 99.11% |
+| TxGNN-Vorhersagewert | 99,11 % |
 | Evidenzstufe | L5 |
-| Marktstatus Deutschland | ✗ Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Abwarten |
+| Marktstatus in Deutschland | Nur erloschene Zulassung |
+| Anzahl der Zulassungen | 1 |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage sinnvoll?
+## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Daten zum Wirkmechanismus von Darolutamid werden in diesem Evidenzpaket als Datenlücke (DG002) gekennzeichnet. Basierend auf dem mechanistischen Begründungstext, der zusammen mit den Vorhersagen bereitgestellt wird, wird Darolutamid als Antagonist des Androgenrezeptors (AR) der zweiten Generation beschrieben, der auf den AR-Signalweg bei Prostatakarzinom einwirkt.
+Zum Wirkmechanismus von Darolutamid liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Darolutamid ein nichtsteroidaler Androgenrezeptor-Antagonist ist, dessen Wirksamkeit beim kastrationsresistenten Prostatakarzinom belegt ist.
 
-Für die am höchsten bewertete Vorhersage, homozygote familiäre Hypercholesterinämie, ist die Kernpathologie ein Defekt im LDLR-Gen, der zu einer gestörten LDL-Clearance führt — ein Lipidstoffwechselweg ohne bekannte mechanistische Überschneidung mit dem AR-Signalweg. Das Evidenzpaket selbst besagt, dass dieser hohe TxGNN-Wert wahrscheinlich eine indirekte oder verrauschte Verbindung im Wissensgraph widerspiegelt (z. B. einen gemeinsamen metabolischen Enzym-Knoten) statt einer echten pharmakologischen Grundlage.
-
-Die beiden niedriger bewerteten Kandidaten zeigen ein ähnliches Muster: Multiple endokrine Neoplasie wird durch MEN1/RET-Mutationen verursacht, die nicht mit dem AR-Signalweg zusammenhängen, und das HIV-assoziierte Wasting-Syndrom ist stärker mit AR-*Agonisten* (z. B. Testosteron, Oxandrolon) verbunden als mit einem AR-Antagonisten wie Darolutamid, dessen pharmakologische Wirkrichtung dem therapeutischen Bedarf entgegenläuft. Keine der drei Vorhersagen hat derzeit eine verteidigbare mechanistische Grundlage.
+Die homozygote familiäre Hypercholesterinämie wird dagegen durch Defekte im LDL-Rezeptor-Signalweg verursacht (LDLR, APOB, PCSK9, LDLRAP1). Ein mechanistischer Zusammenhang mit der Androgenrezeptor-Blockade ist durch die vorliegenden Daten **nicht gestützt**. Der hohe TxGNN-Wert ist eine rein graphbasierte Vorhersage und sollte nicht als Hinweis auf Wirksamkeit gelesen werden.
 
 ---
 
-## Evidenz aus klinischen Studien
+## Klinische Evidenz
 
-Derzeit keine registrierten verwandten klinischen Studien.
-
----
-
-## Evidenz aus der Literatur
-
-Derzeit keine verwandte Literatur verfügbar.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Sicherheitsüberlegungen
+## Literaturevidenz
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
-
-*(Hinweis: TFDA/BfArM-Etikett-Warnungen und Kontraindikationen sind als blockierende Datenlücke gekennzeichnet — DG001 — was bedeutet, dass dieser Kandidat noch nicht zu einer formalen S1-Sicherheitsbewertung voranschreiten kann.)*
+Derzeit liegt keine zugehörige Literatur vor.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Informationen zum Markt in Deutschland
 
-**Entscheidung: Abwarten**
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/004790 | Nubeqa (Bayer AG) | – | Kastrationsresistentes Prostatakarzinom |
+
+Diese Zulassung ist als erloschen geführt.
+
+---
+
+## Zytotoxizität
+
+| Punkt | Inhalt |
+|------|------|
+| Zytotoxizitätsklassifikation | Zielgerichtete Hormontherapie (Androgenrezeptor-Antagonist), kein klassisches Zytostatikum |
+| Myelosuppressionsrisiko | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Emetogenität | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Überwachungsparameter | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Handhabungsschutz | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+
+---
+
+## Sicherheitsaspekte
+
+**Arzneimittelwechselwirkungen:** Insgesamt wurden 100 Wechselwirkungen erfasst. Ausgewählte Beispiele aus der Auswertung:
+
+- **Schwerwiegend (Major):** Dexamethason, Eluxadolin, Rosuvastatin
+- **Mäßig (Moderate):** u. a. Clarithromycin, Empagliflozin, Glibenclamid, Repaglinid, Simvastatin, Sulfasalazin, Cobicistat, Deferasirox, Eltrombopag
+- **Gering (Minor):** u. a. Aprepitant, Cimetidin, Miconazol
+
+Weitere Sicherheitsinformationen entnehmen Sie bitte der Fachinformation.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Hold**
 
 **Begründung:**
-Alle drei TxGNN-vorhergesagten Indikationen entbehren einer kohärenten mechanistischen Grundlage, und der am höchsten bewertete Kandidat (HoFH) verfügt über null unterstützende klinische Studien oder Literatur. In Kombination mit einer blockierenden Datenlücke bei den TFDA/BfArM-Etikett-Sicherheitsinformationen (DG001) gibt es derzeit keine Grundlage, diesen Kandidaten über die vorläufige Überprüfung hinaus voranzubringen.
+Für die vorhergesagte Indikation gibt es weder klinische Studien noch Literatur, und ein plausibler Wirkmechanismus ist nicht erkennbar. Zudem ist die einzige deutsche Zulassung erloschen.
 
-**Um fortfahren zu können, wird Folgendes benötigt:**
-- Bestätigter Wirkmechanismus von Darolutamid und DrugBank-Kategorisierung (Datenlücke DG002 beheben)
-- TFDA/BfArM-Etikett-Warnungen und Kontraindikationen (Datenlücke DG001 beheben, erforderlich vor jeder S1-Sicherheitsbewertung)
-- Unabhängige Literatur- oder Vorklinische Suche speziell nach AR-Weg-Beteiligung bei HoFH, MEN oder HIV-Wasting-Pathophysiologie zur Validierung oder Widerlegung des TxGNN-Signals
-- Falls keine unterstützende mechanistische oder klinische Evidenz auftaucht, behandeln Sie diese Vorhersagen als Wissensgraph-Rauschen und stufen Sie sie in der Priorität herab
+**Für ein Weiterkommen sind folgende Punkte nötig:**
+- Daten zum Wirkmechanismus (MOA) ergänzen und auf eine mögliche Verbindung zum LDL-Rezeptor-Signalweg prüfen
+- Warnhinweise und Gegenanzeigen aus der Fachinformation einholen und auswerten
+- Präklinische Belege für einen Effekt auf den Lipidstoffwechsel suchen
+- Klärung des Zulassungs- und Marktstatus in Deutschland
 
+---
+
+## Ergänzende Hinweise zu weiteren Vorhersagen
+
+Zwei weitere Vorhersagen mit ebenfalls hohen TxGNN-Werten wurden geprüft; beide erhalten die Empfehlung **Hold**:
+
+- **Multiple endokrine Neoplasie** (Wert 99,06 %, Evidenzstufe L4): Der Zusammenhang ist nur indirekt. Die Erkrankung wird durch Keimbahnmutationen (z. B. MEN1, RET) getrieben, eine Abhängigkeit vom Androgenrezeptor ist nicht etabliert. Die beiden zugeordneten Studien (NCT07795177, Phase 2, noch nicht rekrutierend, 40 Teilnehmende; NCT03878524, Phase 1, abgebrochen, 2 Teilnehmende) betreffen offenbar das Prostatakarzinom und liefern keine direkte Evidenz.
+- **HIV-Infektion** (Wert 99,04 %, Evidenzstufe L5): Es gibt keine bekannte antivirale Wirkung, keine Studien und keine Literatur. Die 100 erfassten Wechselwirkungen wären bei Patienten unter antiretroviraler Therapie besonders zu beachten.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

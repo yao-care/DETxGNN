@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Pregabalin
-parent: Mittlere Evidenz (L3-L4)
-nav_order: 318
-evidence_level: L4
+parent: Nur Modellvorhersage (L5)
+nav_order: 370
+evidence_level: L5
 indication_count: 6
 ---
 
 # Pregabalin
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **6** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,67 +29,102 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Pregabalin: Vom neuropathischen Schmerz zur Tendinitis
+# Pregabalin: Von Epilepsie, Angststörungen und Neuralgie zu Tendinitis
 
 ## Zusammenfassung in einem Satz
 
-Pregabalin ist ein Kalziumkanal-Modulator, der häufig zur Behandlung neuropathischer Schmerzen, Epilepsie und verwandter Erkrankungen eingesetzt wird. Das TxGNN-Modell sagt voraus, dass es sich bei Tendinitis als wirksam erweisen könnte, aber derzeit unterstützen **0 klinische Studien** und **6 Veröffentlichungen** diese spezifische Verbindung, und keine der vorhandenen Literatur untersucht Tendinitis direkt als Behandlungsziel.
+Pregabalin ist ein Gabapentinoid, das ursprünglich zur Behandlung von Epilepsie, generalisierten Angststörungen und neuropathischen Schmerzen zugelassen wurde.
+Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **Tendinitis** voraus, doch es liegen **keine klinischen Studien** und nur **6 Publikationen** mit indirektem Bezug vor, die die Vorhersage nicht belegen.
+Die Evidenz beschränkt sich im Wesentlichen auf die modellbasierte Vorhersage.
+
+---
 
 ## Schnellübersicht
 
-| Eintrag | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Im Evidenzpaket nicht angegeben (Pregabalin ist derzeit in dieser Gerichtsbarkeit nicht vermarktet; 0 Zulassungen auf Datei) |
+| Ursprüngliche Indikation | Angststörungen; Epilepsie (teilweise zusätzlich Neuralgie) |
 | Vorhergesagte neue Indikation | Tendinitis |
-| TxGNN-Vorhersagepunktzahl | 99.71% |
-| Evidenzstufe | L4 |
-| Marktstatus Deutschland | ✗ Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Zurückhalten |
+| TxGNN-Vorhersagewert | 99,71 % |
+| Evidenzniveau | L4 (laut Bewertung der compilierten Daten; nur indirekte Hinweise, keine Studien zu Tendinitis) |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen (keine gültige Zulassung) |
+| Anzahl der Zulassungen | 7 (alle erloschen) |
+| Empfohlene Entscheidung | Hold |
 
-## Warum ist diese Vorhersage sinnvoll?
+---
 
-Eine formale Dokumentation des Wirkmechanismus für Pregabalin war in diesem Evidenzpaket nicht verfügbar (gekennzeichnet als eine Datenlücke von hohem Schweregrad, DG002). Basierend auf der Umwidmungsrationale, die der Vorhersage beigefügt ist, bindet Pregabalin die α2δ-Untereinheit spannungsabhängiger Kalziumkanäle und reduziert die Freisetzung erregender Neurotransmitter – ein Mechanismus, der sich gut für neuropathische Schmerzen und perioperative Analgesie eignet.
+## Warum ist diese Vorhersage plausibel?
 
-Tendinitis ist jedoch hauptsächlich ein lokaler entzündlicher/mechanischer Verletzungsschmerz und kein neuropathischer Schmerzzustand, daher ist die mechanistische Überlappung mit der Kalziumkanal-Wirkung von Pregabalin schwach. Die unterstützende Literatur befasst sich hauptsächlich mit Pregabalin zur **perioperativen Schmerzbekämpfung nach orthopädischer Chirurgie** (z. B. arthroskopische Rotatorenmanschetten-Reparatur) oder bei **nicht damit zusammenhängenden peripheren Neuropathien** (Piriformis-Syndrom, chemotherapieinduzierte Neuropathie), nicht aber mit direktem Wirksamkeitsnachweis gegen die Tendinitis-Pathologie selbst. Dies steht im Einklang mit der Bewertung des Modells selbst, welche diesen Kandidaten auf Evidenzstufe L4 (nur mechanismus-/präklinisches Unterstützungsniveau) mit einer „Zurückhalten"-Empfehlung einstuft.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Pregabalin an die alpha-2-delta-Untereinheit spannungsabhängiger Calciumkanäle bindet und dadurch die Freisetzung erregender Neurotransmitter vermindert. Dies erklärt die Wirkung bei neuropathischen Schmerzen, Epilepsie und Angststörungen.
 
-## Klinische Studien
+Bei Tendinitis wäre ein Nutzen allenfalls **symptomorientiert**: Pregabalin könnte neuropathische oder nozizeptive Schmerzanteile lindern. Die vorhandene Literatur betrifft jedoch die postoperative Analgesie nach arthroskopischer Rotatorenmanschettenrekonstruktion sowie Nervenengpass-Syndrome (Piriformis-Syndrom, N. cutaneus femoris posterior), nicht die Behandlung der Tendinitis selbst. Eine krankheitsmodifizierende Wirkung ist mechanistisch nicht erkennbar; der Zusammenhang ist indirekt.
 
-Derzeit sind keine verwandten klinischen Studien registriert.
+---
 
-## Literarische Evidenz
+## Evidenz aus klinischen Studien
 
-| PMID | Jahr | Typ | Zeitschrift | Wichtigste Erkenntnisse |
+Derzeit sind keine relevanten klinischen Studien zu Pregabalin bei Tendinitis registriert.
+
+---
+
+## Evidenz aus der Literatur
+
+| PMID | Jahr | Typ | Journal | Wichtigste Erkenntnisse |
 |------|-----|------|------|---------|
-| [32839073](https://pubmed.ncbi.nlm.nih.gov/32839073/) | 2021 | RCT | J Orthop Sci | Retrospektive Kohortenstudie zur analgetischen Wirksamkeit und opioid-einsparenden Wirkung von Pregabalin nach arthroskopischer Rotatorenmanschetten-Reparatur – perioperative Schmerzbekämpfung, keine direkte Tendinitis-Behandlung |
-| [34052386](https://pubmed.ncbi.nlm.nih.gov/34052386/) | 2022 | RCT | Arthroscopy | Perioperatives orales Pregabalin führte zu Schmerzwerten vergleichbar mit interscalener Plexus-brachialis-Block nach Rotatorenmanschetten-Reparatur |
-| [40818536](https://pubmed.ncbi.nlm.nih.gov/40818536/) | 2025 | Übersicht/Kommentar | Arthroscopy | Redaktioneller Beitrag zur Diagnose des Piriformis-Syndroms und zur Neuiolyse des Ischiasnervs; Sehnenbeteiligung wird diskutiert, aber ohne Daten zur Pregabalin-Wirksamkeit |
-| [41017607](https://pubmed.ncbi.nlm.nih.gov/41017607/) | 2025 | Fallbericht | Praxis | Beschreibt Fluorchinolon-assoziierte Tendinopathie/Behinderung; Pregabalin wird nicht direkt bewertet |
-| [37051935](https://pubmed.ncbi.nlm.nih.gov/37051935/) | 2023 | Fallbericht | Pain Pract | Hintere femorale kutane Nerveneinklemmung durch laufen-bedingte Tendinitis; Nervenschmerzkontext, keine Tendinitis-Wirksamkeitsstudie |
-| [39703364](https://pubmed.ncbi.nlm.nih.gov/39703364/) | 2024 | Präklinisch | Adv Pharmacol Pharm Sci | Pflanzenextrakt (nicht Pregabalin) vermindert Vincristin-induzierte periphere Neuropathie bei Ratten |
+| [34052386](https://pubmed.ncbi.nlm.nih.gov/34052386/) | 2022 | RCT | Arthroscopy | Perioperatives orales Pregabalin erzielte nach arthroskopischer Rotatorenmanschettenrekonstruktion Schmerzwerte, die denen eines interskalenären Plexusblocks vergleichbar waren (postoperative Analgesie, nicht Tendinitis). |
+| [32839073](https://pubmed.ncbi.nlm.nih.gov/32839073/) | 2021 | Retrospektive Kohortenstudie | J Orthop Sci | Bewertung der analgetischen Wirkung und des opioidsparenden Effekts von Pregabalin nach Rotatorenmanschettenrekonstruktion; Vorbefunde widersprüchlich. |
+| [41017607](https://pubmed.ncbi.nlm.nih.gov/41017607/) | 2025 | Fallbericht/Übersicht | Praxis | Fluorchinolon-assoziierte Behinderung nach Ciprofloxacin (u. a. Tendinopathien); kein Bezug zu einer Pregabalin-Wirkung. |
+| [40818536](https://pubmed.ncbi.nlm.nih.gov/40818536/) | 2025 | Editorial | Arthroscopy | Piriformis-Syndrom als komplexes Krankheitsbild, behandelbar durch Neurolyse und Sehnenrelease; kein Pregabalin-Bezug. |
+| [37051935](https://pubmed.ncbi.nlm.nih.gov/37051935/) | 2023 | Fallbericht | Pain Pract | Einklemmung des N. cutaneus femoris posterior nach Marathon bei Hamstring-Tendinitis. |
+| [39703364](https://pubmed.ncbi.nlm.nih.gov/39703364/) | 2024 | Präklinisch | Adv Pharmacol Pharm Sci | Pflanzenextrakt gegen Vincristin-induzierte Neuropathie bei Ratten; kein Pregabalin-Wirkstoff, nur indirekt relevant. |
 
-## Marktinformationen für Deutschland
+---
 
-Pregabalin ist derzeit **nicht vermarktet** in diesem Zulassungsgebiet; keine Zulassungsunterlagen sind verfügbar (0 Gesamtzulassungen auf Datei).
+## Informationen zum Markt in Deutschland
 
-## Sicherheitsüberlegungen
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000546 | Lyrica | – | Epilepsie; Angststörungen; Neuralgie |
+| EMEA/H/C/004078 | Pregabalin Viatris (zuvor Pregabalin Mylan) | – | Angststörungen; Epilepsie |
+| EMEA/H/C/003880 | Pregabalin Viatris Pharma (zuvor Pregabalin Pfizer) | – | Angststörungen; Epilepsie |
+| EMEA/H/C/003900 | Pregabalin Zentiva | – | Angststörungen; Epilepsie |
+| EMEA/H/C/004010 | Pregabalin Sandoz | – | Angststörungen; Neuralgie; Epilepsie |
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. *(Hinweis: TFDA-Etikettwarnungen und Kontraindikationen für Pregabalin sind eine Datenlücke von blockierendem Schweregrad, DG001 – dies muss gelöst werden, bevor eine Sicherheitsbewertung durchgeführt werden kann.)*
+Alle sieben erfassten Zulassungen sind erloschen; weitere Einträge (Pregabalin Accord, Bonqat) wurden hier nicht aufgeführt.
 
-## Schlussfolgerung und nächste Schritte
+---
 
-**Entscheidung: Zurückhalten**
+## Sicherheitsaspekte
 
-**Rationale:**
-Die mechanistische Verbindung zwischen der Kalziumkanal-Modulation von Pregabalin und Tendinitis (ein lokaler entzündlicher/mechanischer Zustand) ist schwach, und keine klinischen Studien oder Literaturquellen untersuchen Pregabalin direkt auf Tendinitis – die vorhandene Evidenz behandelt nur perioperative Schmerzbekämpfung oder nicht damit zusammenhängende Neuropathien.
+- **Kontraindikationen/Risiken aus dem Wissensgraphen (PrimeKG, kein Packungsbeilagentext):** Angststörung, neurotische Störung, dysthyme Störung, Thrombozytopenie, Angioödem (einschließlich erworbener, hereditärer und ACE-/RAAS-Blocker-induzierter Formen), Myopathie und Muskelerkrankungen (u. a. Rhabdomyolyse, familiäre periodische Paralyse), noduläre Fasziitis, eingeschränkte Nierenfunktion, atrioventrikulärer Block.
+- **Arzneimittelwechselwirkungen:** Insgesamt wurden 100 Wechselwirkungen erfasst. Als **schwerwiegend (Major)** eingestuft: Morphin und liposomales Morphin (additive ZNS-/Atemdepression). Als **moderat** eingestuft: Pioglitazon, Rosiglitazon, Troglitazon, Difenoxin, Diphenoxylat, Dronabinol, Nabilon, Metoclopramid, Opium und Sibutramin.
+- **Nebenwirkungen aus der Literatur (Migräne-Kontext):** Sedation, sexuelle Funktionsstörungen, schlafbezogene Risiken.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- TFDA/BfArM-Etikettwarnungen und Kontraindikationen (DG001, blockierend)
-- Formale DrugBank-gestützte Dokumentation des Wirkmechanismus (DG002, hoch)
-- Eine Tendinitis-spezifische präklinische oder klinische Pilotstudie zur Etablierung direkter biologischer Plausibilität vor dem Studiendesign
+Für Warnhinweise und Gegenanzeigen laut Fachinformation siehe bitte die Packungsbeilage; diese Daten waren nicht verfügbar.
 
-**Zusätzlicher Hinweis:** Unter den sechs Kandidaten in diesem Evidenzpaket hat **Migräne-Störung** (Rang 5, TxGNN-Punktzahl 99.47%) deutlich stärkere Unterstützung – eine L2-Evidenzstufe mit mehreren pädiatrischen RCTs, einer Cochrane-Systematischen Übersicht und präklinischen Bildgebungsdaten, die zeigen, dass Pregabalin die kortikale Ausbreitungsdepression hemmt (die Kernpathologie der Migräne-Aura). Eine zurückgezogene Phase-3-Studie bei Erwachsenen (NCT00447369) deutet auf vorheriges Entwicklungsinteresse hin, aber keine abgeschlossenen Bestätigungsdaten. Dieser Kandidat könnte Priorität als „Forschungsfrage"-Spur vor Tendinitis verdienen.
+---
 
+## Fazit und nächste Schritte
+
+**Entscheidung: Hold**
+
+**Begründung:**
+Für Tendinitis gibt es keine klinischen Studien, und die Literatur betrifft ausschließlich postoperative Schmerzen oder Nervenengpass-Syndrome. Der Zusammenhang ist indirekt und symptomorientiert. Zudem besteht in Deutschland derzeit keine gültige Zulassung, und die Sicherheitsdaten der Fachinformation fehlen.
+
+**Für ein Weiterkommen sind erforderlich:**
+- Kontrollierte Studien zu Pregabalin speziell bei Tendinitis (Schmerzendpunkte)
+- Beschaffung der Fachinformation (Warnhinweise, Gegenanzeigen) von BfArM bzw. EMA
+- Detaillierte Mechanismusdaten (z. B. aus DrugBank)
+- Klärung des aktuellen Zulassungs- und Marktstatus in Deutschland
+
+---
+
+## Ergänzender Hinweis zu weiteren Vorhersagen
+
+Die weiteren vorhergesagten Indikationen sind schwächer oder haben einen anderen Schwerpunkt:
+- **Idiopathische granulomatöse Myositis, Myositis fibrosa, Einschlusskörpermyositis:** reine Modellvorhersagen (L5) ohne Studien oder plausible Mechanismen, Entscheidung Hold. Der identische Score der ersten beiden deutet auf ein Artefakt der Graphnachbarschaft hin.
+- **Migräne (Rang 5):** Evidenzniveau L2, eingestuft als Forschungsfrage. Die einzige Phase-3-Studie (NCT00447369) wurde zurückgezogen und lieferte keine Daten. Kleine, pädiatrische Einzelzentrum-RCTs (Pregabalin vs. Propranolol bzw. Natriumvalproat) und eine Netzwerk-Metaanalyse deuten auf einen möglichen prophylaktischen Nutzen hin. Präklinisch hemmt Pregabalin die kortikale Streudepolarisation. Dies ist die am besten belegte Richtung unter den Vorhersagen und könnte als Nächstes priorisiert werden.
+- **Migräne mit Hirnstammaura (Rang 6):** nur Tierstudien (L4), Hold.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

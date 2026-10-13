@@ -2,7 +2,7 @@
 layout: default
 title: Vismodegib
 parent: Nur Modellvorhersage (L5)
-nav_order: 428
+nav_order: 500
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,97 +29,96 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Vismodegib: Vom Basalzellkarzinom zum Medulloblastom mit ausgedehnter Nodularität
+# Vismodegib: Vom Basalzellkarzinom zum Medulloblastom mit ausgeprägter Nodularität
 
 ## Zusammenfassung in einem Satz
 
-Vismodegib ist ein First-in-Class-Inhibitor des Hedgehog- (Hh-) Signalwegs, der ursprünglich für das **Basalzellkarzinom (BZK)** entwickelt wurde. Das TxGNN-Modell sagt voraus, dass es auch wirksam sein könnte für das **Medulloblastom mit ausgedehnter Nodularität** (ein SHH-aktiviertes pädiatrisches Hirntumor-Subtyp), mit sehr hohem Modellvertrauen von **99.93%**. Allerdings enthält dieses Evidenzbündel derzeit **0 klinische Studien und 0 Veröffentlichungen**, die spezifisch mit dieser vorhergesagten Indikation verknüpft sind – die Rationale des Modells selbst kennzeichnet dies als wahrscheinliche **Datenlücke** statt als wahre Evidenzabsenz, da Vismodegib in der realen Welt bei SHH-getriebenen Medulloblastomen untersucht wurde.
+Vismodegib ist ein oral einzunehmender Hedgehog-Signalweg-Inhibitor, der ursprünglich zur Behandlung des **Basalzellkarzinoms** zugelassen wurde. Das TxGNN-Modell sagt voraus, dass er auch bei **Medulloblastom mit ausgeprägter Nodularität** wirksam sein könnte. Für diese konkrete Indikation liegen jedoch **keine klinischen Studien** und **keine Publikationen** vor, die Vorhersage beruht allein auf dem Modell.
 
 ---
 
 ## Schnellübersicht
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Basalzellkarzinom (BZK) – bestätigt durch Literatur in diesem Evidenzbündel (PMID 22653209, PMID 24756807); nicht erfasst in `taiwan_regulatory.licenses`, da das Arzneimittel in Deutschland nicht zugelassen ist |
-| Vorhergesagte neue Indikation | Medulloblastom mit ausgedehnter Nodularität |
-| TxGNN-Vorhersage-Score | 99.93% |
-| Evidenz-Level | L5 |
-| Marktstatus Deutschland | ✗ Nicht zugelassen |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Abwarten |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Basalzellkarzinom |
+| Vorhergesagte neue Indikation | Medulloblastom mit ausgeprägter Nodularität |
+| TxGNN-Vorhersagewert | 99,93 % |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Nur erloschene Zulassung (keine gültige Zulassung) |
+| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Warum ist diese Vorhersage plausibel?
 
-`drug.original_moa` ist als Datenlücke in DrugBank gekennzeichnet (DG002). Allerdings bestätigt die Literatur in diesem Evidenzbündel (PMID 22653209, *Nature Reviews Drug Discovery*; PMID 24756807) unabhängig den Wirkmechanismus: Vismodegib ist ein oral bioverfügbarer niedermolekularer Antagonist von **Smoothened (SMO)**, einer Schlüsselkomponente der transmembranalen Hedgehog-Signalisierung. Durch die Blockierung von SMO verhindert es die nachgelagerte Aktivierung von GLI-Transkriptionsfaktoren und unterdrückt die signalweggesteuerte Proliferation.
+Vismodegib hemmt das Protein Smoothened (SMO) im Hedgehog-Signalweg und unterdrückt so eine krankhaft überaktive Signalübertragung. Beim Basalzellkarzinom ist genau dieser Signalweg der zentrale Tumortreiber, was die ursprüngliche Zulassung begründet. Detaillierte Mechanismusdaten aus einer Arzneimitteldatenbank lagen für diesen Bericht nicht vor. Die hier genannte Wirkweise beruht auf der mechanistischen Einordnung der Vorhersage.
 
-Das Basalzellkarzinom und das SHH-aktivierte Medulloblastom sind mechanistisch eng verwandt: beide sind kanonisch getrieben durch Funktionsverlustmutationen in **PTCH1** oder Funktionsgewinnmutationen in **SMO**, was zu konstitutiver Hedgehog-Signalisierung führt. In der Tat erklärt PMID 24756807 explizit, dass „dysregulierte Hh-Signalisierung zu unkontrollierter Proliferation beim Basalzellkarzinom führt und auch beim Medulloblastom nachgewiesen wurde", was die biologische Plausibilität dieser Vorhersage direkt unterstützt, auch wenn sie an einen anderen Krankheitseintrag in diesem Datensatz gebunden ist (Rang 9, „Hautkrebs").
+Das Medulloblastom der SHH-Untergruppe wird ebenfalls durch Hedgehog-Signalwege getrieben, typischerweise durch Veränderungen in PTCH1, SMO oder SUFU. Das Medulloblastom mit ausgeprägter Nodularität ist überwiegend SHH-assoziiert. Damit besteht ein nachvollziehbarer mechanistischer Zusammenhang zwischen beiden Erkrankungen: ein gemeinsamer Treiber-Signalweg, der durch denselben Wirkstoff angegriffen wird.
 
-Angesichts dieser gemeinsamen Treibermutations-Biologie ist SMO-Hemmung eine mechanistisch rationale Behandlungsstrategie für den SHH-aktivierten Subtyp des Medulloblastoms. Die Abwesenheit von Studien-/Literatureinträgen, die speziell dem „Medulloblastom mit ausgedehnter Nodularität" in diesem Evidenzbündel zugeordnet sind, ist höchstwahrscheinlich eine **Datenlücke** – eine Hypothese, die die TxGNN-Rationale selbst aufwirft – statt einer echten Evidenzabsenz, und sollte vor jeder endgültigen Entscheidung manuell anhand von ClinicalTrials.gov und PubMed überprüft werden.
-
----
-
-## Evidenz aus klinischen Studien
-
-Derzeit sind keine zugehörigen klinischen Studien registriert.
-
-*Anmerkung: Dies bezieht sich speziell auf den Eintrag „Medulloblastom mit ausgedehnter Nodularität" in diesem Evidenzbündel. Die Rationale des Evidenzbündels selbst kennzeichnet dies als wahrscheinliche Datenlücke, da eine bekannte Untersuchung von Vismodegib bei SHH-getriebenen Medulloblastomen erfolgte.*
+Dieser Zusammenhang ist bislang jedoch rein theoretisch. Für genau diese Tumorentität liegen in den zusammengestellten Daten weder Studien noch Literatur vor. Der hohe Modellwert allein belegt keine Wirksamkeit.
 
 ---
 
-## Literaturische Evidenz
+## Klinische Studien
 
-Derzeit ist keine zugehörige Literatur verfügbar.
+Derzeit sind keine relevanten klinischen Studien für diese Indikation registriert.
 
 ---
 
-## Marktinformation für Deutschland
+## Literatur
 
-Vismodegib ist derzeit **nicht in Deutschland zugelassen** (0 Zulassungen auf Rekordbasis; `market_status: Not marketed`). Keine BfArM-Lizenzen oder genehmigten Indikationstexte stehen in diesem Evidenzbündel zur Verfügung.
+Derzeit ist keine relevante Literatur für diese Indikation verfügbar.
+
+---
+
+## Informationen zum deutschen Markt
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/002602 | Erivedge (Roche Registration GmbH) | – | Basalzellkarzinom |
+
+Diese Zulassung ist **erloschen**. Derzeit ist in Deutschland keine gültige Zulassung für Vismodegib vorhanden.
 
 ---
 
 ## Zytotoxizität
 
-Vismodegib ist ein antineoplastisches Arzneimittel (ursprüngliche Indikation: Basalzellkarzinom; Wirkmechanismus: Hedgehog-/SMO-Signalweg-Inhibitor).
-
-| Element | Inhalt |
-|---------|--------|
-| Zytotoxizitäts-Klassifizierung | Zielgerichtete Therapie (Hedgehog-Signalweg / Smoothened [SMO] Inhibitor) |
-| Risiko für Knochenmarksuppression | Bitte beachten Sie die Warnungen und Vorsichtsmaßnahmen der Packungsbeilage |
-| Emetogenitäts-Klassifizierung | Bitte beachten Sie die Warnungen und Vorsichtsmaßnahmen der Packungsbeilage |
-| Überwachungspunkte | Bitte beachten Sie die Warnungen und Vorsichtsmaßnahmen der Packungsbeilage |
-| Handhabungsschutz | Bitte beachten Sie die Warnungen und Vorsichtsmaßnahmen der Packungsbeilage |
-
-*Keine Toxizitäts-/Sicherheitsdaten stehen in diesem Evidenzbündel zur Verfügung; das TFDA-Etikett (Warnungen/Kontraindikationen) ist als blockierende Datenlücke (DG001) gekennzeichnet, die eine formale S1-Sicherheitsbewertung verhindert.*
+| Punkt | Inhalt |
+|------|------|
+| Zytotoxizitätsklassifikation | Zielgerichtete Therapie (SMO-Inhibitor, Hedgehog-Signalweg) |
+| Myelosuppressionsrisiko | Bitte Warnhinweise und Vorsichtsmaßnahmen in der Packungsbeilage beachten |
+| Emetogenitätsklassifikation | Bitte Warnhinweise und Vorsichtsmaßnahmen in der Packungsbeilage beachten |
+| Überwachungsparameter | Bitte Warnhinweise und Vorsichtsmaßnahmen in der Packungsbeilage beachten |
+| Schutzmaßnahmen im Umgang | Bitte Warnhinweise und Vorsichtsmaßnahmen in der Packungsbeilage beachten |
 
 ---
 
 ## Sicherheitsüberlegungen
 
-Bitte beachten Sie die Warnungen und Vorsichtsmaßnahmen der Packungsbeilage.
+Angaben zu Warnhinweisen und Gegenanzeigen aus der Packungsbeilage lagen für diesen Bericht nicht vor. Bitte Sicherheitsinformationen der Packungsbeilage entnehmen. Als klassentypische Toxizitäten der Substanz werden in den zusammengestellten Daten Teratogenität, Muskelkrämpfe, Haarausfall und Geschmacksstörungen genannt.
 
-*Schlüsselwarnungen, Kontraindikationen und Arzneimittelwechselwirkungsdaten sind alle als Datenlücken in diesem Evidenzbündel verzeichnet. DG001 (TFDA-Etikett Warnungen/Kontraindikationen) ist als **blockierende** Datenlücke klassifiziert – sie muss vor der formalen Sicherheitsbewertung (S1) dieses Kandidaten behoben werden.*
+**Arzneimittelwechselwirkungen:** Insgesamt wurden 56 Wechselwirkungen identifiziert. Davon sind folgende erwähnenswert:
+- **Moderate Wechselwirkung:** Clarithromycin
+- **Geringfügige Wechselwirkungen (Auswahl):** Säureblocker und Antazida, darunter H2-Blocker (Famotidin, Ranitidin, Cimetidin, Nizatidin), Protonenpumpenhemmer (Omeprazol, Esomeprazol, Pantoprazol, Lansoprazol, Rabeprazol, Dexlansoprazol) sowie Aluminium-, Magnesium- und Calciumpräparate, Natriumcitrat und Natriumbicarbonat
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Abwarten**
+**Entscheidung: Hold**
 
-**Rationale:**
-Obwohl die TxGNN-Vorhersage-Score sehr hoch ist (99.93%) und die mechanistische Rationale (gemeinsame PTCH1/SMO-Signalweg-Biologie zwischen BZK und SHH-aktiviertem Medulloblastom) wissenschaftlich stichhaltig ist, enthält dieses Evidenzbündel derzeit **null klinische Studien und null Literatur**, die direkt die Vorhersage „Medulloblastom mit ausgedehnter Nodularität" unterstützen, und eine **blockierende** Sicherheitsdatenlücke (DG001) verhindert jede S1-Bewertung. Evidenz-Level ist L5 (reine Modellvorhersage).
+**Begründung:**
+Für Medulloblastom mit ausgeprägter Nodularität gibt es weder klinische Studien noch Publikationen. Der mechanistische Bezug über den Hedgehog-Signalweg ist plausibel, aber unbestätigt. Hinzu kommt, dass in Deutschland keine gültige Zulassung besteht und die Sicherheitsangaben aus der Packungsbeilage fehlen.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- Manuelle Suche in ClinicalTrials.gov und PubMed nach „vismodegib" + „SHH medulloblastoma" / „SHH-aktiviertes Medulloblastom", um die vermutete Datenlücke zu schließen
-- TFDA/EU-Etikett-PDF für Warnungen, Kontraindikationen und Dosierung (Behebung von DG001)
-- DrugBank-MOA-Datenbestätigung (Behebung von DG002)
-- Bestätigung des tatsächlichen deutschen/EU-Regulierungsstatus von Vismodegib, da es hier als nicht zugelassen mit 0 Zulassungen verzeichnet ist, obwohl es ein zugelassenes Produkt (Erivedge®) anderswo ist
-
-**Anmerkung für Bewerter:** Das gleiche Evidenzbündel enthält einen separaten, viel besser belegten Eintrag – „Hautkrebs" (Rang 9, 23 klinische Studien inkl. mehrerer abgeschlossener Phase-2-BZK-Studien, 20 Veröffentlichungen) – der der bereits bekannten ursprünglichen Indikation von Vismodegib (BZK) statt eines neuartigen Repurposing-Kandidaten zu entsprechen scheint. Dieser sollte von der Repurposing-Überlegung ausgeschlossen werden, bestätigt aber, dass die Arzneimittel-/Evidenzbindung in diesem Datensatz für Indikationen mit echter Abdeckung korrekt funktioniert.
-
+**Für ein Weiterverfolgen sind folgende Schritte nötig:**
+- Auswertung von Daten zu SHH-Medulloblastom und Hedgehog-Inhibitoren, um die Hypothese durch präklinische oder klinische Evidenz zu stützen
+- Beschaffung und Auswertung der Packungsbeilage (Warnhinweise, Gegenanzeigen), da die Sicherheitsprüfung ohne diese Daten nicht fortgesetzt werden kann
+- Vollständige Mechanismusdaten (MOA) aus einer Arzneimitteldatenbank
+- Klärung des Zulassungs- und Versorgungsstatus in Deutschland
+- Bewertung der Teratogenität und besonderer Risiken in der pädiatrischen Population, da das Medulloblastom häufig Kinder betrifft
+- Ergänzend die weiteren Vorhersagen mit mehr Evidenz prüfen, insbesondere Xeroderma pigmentosum (zwei Fallberichte zu Vismodegib bei Basalzellkarzinomen, Evidenzstufe L4). Der Eintrag „Hautkrebs“ überschneidet sich weitgehend mit der bestehenden Basalzellkarzinom-Indikation und bietet daher wenig Neuigkeit für das Repurposing.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

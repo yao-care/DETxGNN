@@ -2,7 +2,7 @@
 layout: default
 title: Diroximel Fumarate
 parent: Nur Modellvorhersage (L5)
-nav_order: 125
+nav_order: 146
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,76 +29,89 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# DIROXIMEL FUMARATE: Von unbekannter Originalindikation zu Diabetischer Katarakt
+# Diroximelfumarat: Von schubförmig remittierender Multipler Sklerose zu diabetischer Katarakt
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Diroximel fumarate ist ein Fumarsäureester-Prodrug, dessen Originalindikation und Wirkmechanismus derzeit in diesem Evidence Pack nicht dokumentiert sind (Datenlücke). TxGNN sagt eine mögliche Assoziation mit **Diabetischer Katarakt** voraus, aber diese Vorhersage wird durch **0 klinische Studien** und **0 Publikationen** gestützt, was sie derzeit zu einem reinen Modellsignal macht.
+Diroximelfumarat ist ein Prodrug von Monomethylfumarat und wurde ursprünglich zur Behandlung der **schubförmig remittierenden Multiplen Sklerose** entwickelt.
+Das TxGNN-Modell sagt voraus, dass der Wirkstoff bei **diabetischer Katarakt** wirksam sein könnte.
+Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor. Die Vorhersage beruht allein auf dem Modell.
 
 ---
 
 ## Schnellübersicht
 
-| Element | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Originalindikation | Nicht verfügbar (keine zugelassene Indikation dokumentiert) |
+| Ursprüngliche Indikation | Multiple Sklerose, schubförmig remittierend |
 | Vorhergesagte neue Indikation | Diabetische Katarakt |
-| TxGNN-Vorhersage-Score | 99.9993% |
+| TxGNN-Vorhersagewert | 99,999 % |
 | Evidenzstufe | L5 |
-| Markt-Status in Deutschland | Nicht vermarktet (Not marketed) |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Pausieren |
+| Marktstatus in Deutschland | Nur erloschene Zulassung |
+| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Wirkmechanismus-Daten nicht verfügbar. Basierend auf bekannten Informationen gehört diroximel fumarate zur Fumarsäureester-Klasse von Prodrugs, aber seine Originalindikation und pharmakologische Begründung sind in diesem Evidence Pack nicht dokumentiert, daher kann keine mechanistische Verbindung zur diabetischen Katarakt hergestellt werden.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Auf Basis der bekannten Fumarat-Pharmakologie wird Diroximelfumarat im Körper zu Monomethylfumarat (MMF) umgewandelt. MMF aktiviert den antioxidativen Nrf2-Signalweg und wirkt entzündungshemmend. Diese Einordnung stammt aus allgemeinem Wissen und nicht aus den vorliegenden Daten.
 
-Bemerkenswert ist, dass die top 10 vorhergesagten Indikationen für dieses Arzneimittel alle diabetes-bezogene okulare Erkrankungen sind (diabetische Katarakt, diabetische Retinopathie, verschiedene Katarakttypen) mit nahezu identischen TxGNN-Werten (0.999990–0.999992). Dieses Muster homogener, nicht differenzierter Werte über eine ganze Krankheitsgruppe ist eine bekannte Signatur von Modellen, die Vorhersagen durch einen gemeinsamen Knoten verknüpfen (z. B. „Diabetes" oder „Katarakt"), anstatt arzneimittelspezifische Signale zu erzeugen. Ohne unabhängige klinische oder Literaturbelege sollte dieses Muster als Flagge für potenzielle Modellüber-Generalisierung anstelle einer echten Umwidmungshypothese behandelt werden.
+Bei diabetischer Katarakt tragen oxidativer Stress und Schäden durch den Polyolweg zur Trübung der Linse bei. Eine Aktivierung von Nrf2 könnte hier theoretisch schützend wirken. Dieser Zusammenhang ist plausibel, aber nicht getestet. Der sehr hohe Vorhersagewert ist eine reine Rechenvorhersage.
 
----
+Zu beachten ist, dass ein oral verabreichtes MS-Medikament die Linse möglicherweise nicht in ausreichender Konzentration erreicht. Die Frage ist ungeklärt, und die Verträglichkeit der Routen wurde bisher nicht geprüft.
 
-## Evidenz klinischer Studien
-
-Derzeit keine zugehörigen klinischen Studien registriert
+Weitere vorhergesagte Indikationen sind diabetische Retinopathie, schwere nichtproliferative diabetische Retinopathie sowie mehrere Katarakt-Unterformen (nukleare senile, kortikale, kraniostenotische, tetanische, reife und unreife Katarakt sowie Katarakt bei Typ-2-Diabetes). Fast alle Werte liegen bei etwa 99,999 %. Die identischen Werte über viele Katarakt-Subtypen deuten eher auf eine klassenbezogene Modellvorhersage als auf ein indikationsspezifisches Signal hin. Bei seltenen oder metabolisch bedingten Formen wie der tetanischen oder kraniostenotischen Katarakt ist kein plausibler Mechanismus erkennbar.
 
 ---
 
-## Literaturbeweise
+## Evidenz aus klinischen Studien
 
-Derzeit keine zugehörige Literatur verfügbar
-
----
-
-## Marktinformationen für Deutschland
-
-Diroximel fumarate wird derzeit nicht in Deutschland vermarktet (Not marketed), und keine Zulassungsunterlagen sind verfügbar.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Sicherheitsüberlegungen
+## Evidenz aus der Literatur
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
-
-*(Hinweis: Wichtige Warnhinweise, Kontraindikationen und Arzneimittelwechselwirkungsdaten sind alle als Datenlücken im aktuellen Evidence Pack gekennzeichnet. Gemäß DG001 müssen TFDA/BfArM-Etikettenwarnungen und Kontraindikationen vor jeder Sicherheits-Vorbewertung (S1) eingeholt werden.)*
+Derzeit liegt keine zugehörige Literatur vor.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Marktinformationen Deutschland
 
-**Entscheidung: Pausieren**
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/005437 | Vumerity | – | Multiple Sklerose, schubförmig remittierend |
+
+Die Zulassung ist erloschen. Aktuell ist keine gültige Zulassung in Deutschland vorhanden.
+
+---
+
+## Sicherheitsaspekte
+
+- **Arzneimittelwechselwirkungen**: Es wurden 100 Wechselwirkungen erfasst. In der vorliegenden Auswahl sind sie alle als **moderat** eingestuft. Wichtige Beispiele:
+  - Kortikosteroide: Hydrocortison, Triamcinolon, Dexamethason, Betamethason, Budesonid, Prednisolon, Prednison
+  - Naltrexon, Ethanol
+  - Zytostatika/Radiopharmazeutika: Dexrazoxan, Ibritumomab tiuxetan, Iobenguan (I-131), Tositumomab, Mercaptopurin, Trimetrexat
+  - Weitere: Levamisol, Roflumilast, Dupilumab
+
+Für weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) bitte die Fachinformation heranziehen.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Hold**
 
 **Begründung:**
-Dieser Kandidat hat null klinische Studien, null Literaturunterstützung und keine Wirkmechanismus-Daten — kombiniert mit einem verdächtigen Muster von nahezu identischen TxGNN-Werten über alle 10 vorhergesagten Diabetes-/Augen-Indikationen hinweg, was darauf hindeutet, dass die Vorhersage eher das Shared-Node-Clustering widerspiegelt als ein spezifisches Arzneimittel-Krankheits-Signal. Es gibt keine Evidenzbasis, um über S0 hinaus voranzugehen.
+Die Vorhersage stützt sich ausschließlich auf ein Rechenmodell (Evidenzstufe L5). Es gibt weder klinische Studien noch Publikationen, und die Zulassung in Deutschland ist erloschen. Zudem ist der Mechanismus nur aus allgemeiner Fumarat-Pharmakologie abgeleitet.
 
-**Um voranzugehen, ist Folgendes erforderlich:**
-- DG001 (Blockierend) lösen: TFDA/offizielle Etikettenwarnungen und Kontraindikationen vor jeder Sicherheitsbewertung einholen
-- DG002 (Hoch) lösen: MOA von DrugBank abrufen, um Bewertung der mechanistischen Plausibilität zu ermöglichen
-- Bestätigung der ursprünglich zugelassenen Indikation(en) für diroximel fumarate, da derzeit keine dokumentiert sind
-- Unabhängige Literatur-/klinische Studiensuche speziell zu diabetischer Katarakt und diroximel fumarate (oder ihrer Mutterverbindung Monomethylfumarat), um echtes Signal von Modell-Artefakt zu unterscheiden
-- Manuelle Überprüfung der Krankheits-Embedding-Struktur von TxGNN für dieses Arzneimittel, um zu bewerten, ob das Diabetes-/Kataraktcluster eine Trainings-Daten- oder Überanpassungsproblematik widerspiegelt, bevor eine Indikation in diesem Cluster weiter vorangetrieben wird
-
+**Für ein Weiterkommen sind folgende Punkte nötig:**
+- Daten zum Wirkmechanismus (MOA), z. B. über DrugBank
+- Fachinformation mit Warnhinweisen und Gegenanzeigen (derzeit blockierende Datenlücke für das Sicherheitsscreening)
+- Präklinische Belege zu Nrf2-Aktivierung bei diabetischer Katarakt bzw. Retinopathie
+- Klärung, ob die Substanz bei oraler Gabe die Linse oder Netzhaut erreicht, sowie der Routenkompatibilität
+- Priorisierung: Diabetische Retinopathie und diabetische Katarakt haben die plausibelste biologische Begründung, während seltene syndromische oder metabolische Katarakt-Formen nachrangig sind
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

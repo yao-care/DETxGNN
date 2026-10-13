@@ -2,7 +2,7 @@
 layout: default
 title: Insulin Lispro
 parent: Nur Modellvorhersage (L5)
-nav_order: 209
+nav_order: 245
 evidence_level: L5
 indication_count: 9
 ---
@@ -29,63 +29,111 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9**
 
 </div>
 
-# Insulin Lispro: Von Diabetes mellitus zu Autoimmun-Oophoritis
+# Insulin lispro: Von Diabetes mellitus zu autoimmuner Oophoritis
 
 ## Zusammenfassung in einem Satz
 
-Insulin lispro ist ein schnellwirkendes Insulinanalogon zur Blutglukosekontrolle bei Diabetes mellitus.
-Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam für **Autoimmun-Oophoritis** sein könnte,
-doch derzeit unterstützen **0 klinische Studien** und **0 Publikationen** diese Richtung, und die zugrunde liegende Rationale kennzeichnet diese Vorhersage als wahrscheinlich Rauschen auf Graphen-Ebene statt als echtes mechanistisches Signal.
+Insulin lispro ist ein schnell wirksames Insulinanalogon, das ursprünglich zur Behandlung von Diabetes mellitus eingesetzt wird.
+Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **autoimmuner Oophoritis** voraus,
+hierfür liegen jedoch **keine klinischen Studien** und **keine Publikationen** vor – die Vorhersage beruht ausschließlich auf der Modellrechnung.
 
-## Schnellübersicht
+---
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Diabetes mellitus (Blutglukosekontrolle; detaillierter regulatorischer Indikationstext nicht in diesem Evidence-Pack verfügbar) |
-| Vorhergesagte neue Indikation | Autoimmun-Oophoritis |
-| TxGNN-Vorhersage-Score | 99.78% |
-| Evidenzstufe | L5 |
-| Marktstatus Deutschland | ✗ Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Halten |
+## Kurzüberblick
 
-## Warum ist diese Vorhersage sinnvoll?
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Diabetes mellitus |
+| Vorhergesagte neue Indikation | Autoimmune Oophoritis |
+| TxGNN-Vorhersagewert | 99,78 % |
+| Evidenzniveau | L5 |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen |
+| Anzahl der Zulassungen | 5 (alle erloschen) |
+| Empfohlene Entscheidung | Hold |
 
-Derzeit sind detaillierte Wirkmechanismus-Daten nicht verfügbar (Data Gap DG002). Basierend auf allgemeinem pharmakologischem Wissen ist Insulin lispro ein schnellwirkendes Insulinanalogon, das an den Insulinrezeptor bindet, um die zelluläre Glukoseaufnahme zu fördern; seine Wirksamkeit bei Diabetes mellitus ist gut belegt.
+---
 
-Für die höchstrangig bewertete Vorhersage, Autoimmun-Oophoritis, fällt die mechanistische Bewertung des Evidence-Packs selbst explizit negativ aus: Es gibt **keine bekannte biologische Beziehung** zwischen Autoimmun-Oophoritis und dem Insulinrezeptor-/Glukosestoffwechsel-Signalweg. Der hohe TxGNN-Score entsteht höchstwahrscheinlich, weil beide Erkrankungen im Trainings-Wissensgraph als „Autoimmunerkrankung" getaggt sind und zusammen mit Typ-1-Diabetes auftreten – ein semantisches Co-Occurrenz-Artefakt statt ein echter mechanistischer Link. Das Evidence-Pack selbst klassifiziert dies als „Datenbank-Rauschen ohne mechanistische Unterstützung".
+## Warum ist diese Vorhersage plausibel?
 
-Mehrere niedriger bewertete Kandidaten in diesem Pack zeigen vergleichsweise plausiblere (wenn auch weiterhin schwache) Rationale – zum Beispiel Pankreasagenesie (Rang 7) und Thiamin-responsive Funktionsstörung (Rang 2) sind beide mit echten Diabetes-assoziierten Begleiterkrankungen verknüpft, bei denen Insulin als Supportivtherapie verwendet wird. Dies sind nach wie vor Erweiterungen der bekannten Diabetes-Indikation statt echte neue Indikationen, aber sie verdienen mehr Beachtung als der höchstrangig bewertete Kandidat. Mehrere andere Kandidaten (arzneimittelinduzierte lokalisierte Lipodystrophie, zentrifugale Lipodystrophie, druckinduzierte lokalisierte Lipoatrophie) werden als wahrscheinlich Darstellungen von Insulins bekannter **Nebenwirkung** (Injektionsstellen-Lipodystrophie), die fälschlicherweise als Behandlungsbeziehung kodiert wurden, gekennzeichnet und sollten als Sicherheitssignale behandelt werden, nicht als therapeutische Möglichkeiten.
+Detaillierte Daten zum Wirkmechanismus liegen für diesen Bericht derzeit nicht vor. Bekannt ist: Insulin lispro ist ein schnell wirksames Insulinanalogon, das am Insulinrezeptor wirkt und den Glukosestoffwechsel reguliert. Seine Wirksamkeit bei Diabetes mellitus ist gut belegt.
 
-## Klinische Studienevidenz
+Ein direkter mechanistischer Zusammenhang mit autoimmuner Oophoritis ist nicht erkennbar. Denkbar ist allenfalls eine indirekte Verbindung über die Überlappung autoimmuner polyendokriner Erkrankungen (z. B. gemeinsam mit Typ-1-Diabetes). Diese Verbindung ist spekulativ und stützt Insulin nicht als Therapie der ovariellen Autoimmunität. Der hohe TxGNN-Wert ist eine rein rechnerische Vorhersage.
 
-Derzeit keine verwandten klinischen Studien registriert
+**Weitere vom Modell vorhergesagte Indikationen (alle ohne belastbare Evidenz):**
+
+| Rang | Vorhergesagte Indikation | TxGNN-Wert | Evidenzniveau | Einordnung |
+|---|---|---|---|---|
+| 2 | Thiaminabhängiges Dysfunktionssyndrom | 99,37 % | L5 | Insulin kann nur die diabetische Komponente symptomatisch behandeln, nicht die Grunderkrankung |
+| 3 | Fokales Stiff-Limb-Syndrom | 99,36 % | L5 | Gemeinsame Anti-GAD65-Autoimmunität, Insulin wirkt nicht auf die Steifigkeit |
+| 4 | Klassisches Stiff-Person-Syndrom | 99,36 % | L5 | Behandlung der Begleiterkrankung Diabetes, nicht krankheitsmodifizierend |
+| 5 | Opsismodysplasie | 99,34 % | L5 | INPPL1 (SHIP2) reguliert den Insulin-/PI3K-Signalweg, Nutzen von Insulin unklar |
+| 6 | Arzneimittelinduzierte lokalisierte Lipodystrophie | 99,09 % | L5 | Insulin ist selbst eine bekannte Ursache, daher keine Therapieoption |
+| 7 | Pankreasagenesie | 99,09 % | L4 | Insulinersatz rational, entspricht aber der ursprünglichen Indikation (Diabetes) |
+| 8 | Zentrifugale Lipodystrophie | 99,04 % | L5 | Keine etablierte mechanistische Begründung |
+| 9 | Druckinduzierte lokalisierte Lipoatrophie | 99,03 % | L5 | Insulininjektionen können selbst Lipoatrophie verursachen, Sicherheitsbedenken |
+
+---
+
+## Klinische Evidenz
+
+Derzeit sind keine zugehörigen klinischen Studien registriert.
+
+---
 
 ## Literaturevidenz
 
-Derzeit keine verwandte Literatur verfügbar
+Für die Top-Vorhersage (autoimmune Oophoritis) ist derzeit keine zugehörige Literatur verfügbar.
 
-## Marktinformation Deutschland
+Für die weiter unten gelistete Vorhersage Pankreasagenesie liegt eine einzelne, nur indirekt relevante Referenz vor:
 
-Für Insulin lispro sind derzeit keine Vermarktungszulassungen im Evidence-Pack dokumentiert (Marktstatus: Nicht vermarktet; Gesamtzulassungen: 0).
+| PMID | Jahr | Typ | Journal | Kernaussagen |
+|------|-----|------|------|---------|
+| [12150359](https://pubmed.ncbi.nlm.nih.gov/12150359/) | 2002 | Review | Journal of the American Pharmaceutical Association | Übersicht zur zunehmenden Insulintherapie bei Typ-2-Diabetes und zum praktischen Therapiebeginn; betrifft nicht direkt die Pankreasagenesie |
+
+---
+
+## Marktinformationen Deutschland
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/005037 | Lyumjev (zuvor Liumjev) | – | Diabetes mellitus |
+| EMEA/H/C/000088 | Humalog | – | Diabetes mellitus |
+| EMEA/H/C/000393 | Liprolog | – | Diabetes mellitus |
+| EMEA/H/C/006158 | Bysumlog | – | Diabetes mellitus |
+| EMEA/H/C/004303 | Insulin lispro Sanofi | – | Diabetes mellitus |
+
+Alle fünf Zulassungen sind derzeit als erloschen/aufgehoben geführt; gültige Zulassungen liegen nicht vor.
+
+---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+- **Arzneimittelwechselwirkungen:** Die Abfrage ergab 100 Wechselwirkungen. Unter den ersten 20 Treffern sind überwiegend Wechselwirkungen mittleren Schweregrads (moderat), z. B. mit:
+  - Sympathomimetika/Beta-Agonisten: Phenylephrin, Pseudoephedrin, Epinephrin, Formoterol, Salbutamol
+  - Betablocker: Acebutolol
+  - Weitere Antidiabetika: Metformin, Alogliptin, Albiglutide
+  - Hormone: Estradiol, Ethinylestradiol, Levonorgestrel, Hydrocortisol (Hydrocortison)
+  - Sonstige: Acetazolamid, Doxycyclin, Hydrochlorothiazid, Alpelisib, Ethanol
+  - Geringfügige Wechselwirkungen (minor): topische Kortikosteroide (Hydrocortison topisch, Alclometason topisch)
+- **Weitere Hinweise:** Lokalisierte Lipodystrophie an der Injektionsstelle ist eine bekannte Nebenwirkung von Insulin einschließlich Insulinanaloga. Das ist relevant für die vorhergesagten Indikationen Lipodystrophie und Lipoatrophie.
+
+Für Warnhinweise und Gegenanzeigen siehe die Fachinformation.
+
+---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Halten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die höchstrangig vorhergesagte Indikation (Autoimmun-Oophoritis) hat L5-Evidenz mit null unterstützenden klinischen Studien oder Literatur, und die mechanistische Bewertung des Evidence-Packs selbst kommt zu dem Ergebnis, dass sie höchstwahrscheinlich ein semantisches Co-Occurrenz-Artefakt im Trainings-Graph statt eine echte biologische Assoziation ist. Kein anderer Kandidat in diesem Pack erreicht über L4/S1 „Forschungsfrage"-Status hinaus, und diejenigen (Pankreasagenesie, Thiamin-responsive Funktionsstörung) sind im Wesentlichen Reformulierungen der bestehenden Diabetes-Indikation in seltenen genetischen Subtypen, keine echten neuen Indikationen.
+Für die vorhergesagte Indikation autoimmune Oophoritis gibt es weder klinische Studien noch Literatur, und ein mechanistischer Zusammenhang ist nicht belegt (Evidenzniveau L5). Zudem sind alle deutschen/EU-Zulassungen derzeit erloschen. Auch die übrigen Vorhersagen sind entweder mechanistisch nicht plausibel, symptomatisch (Begleiterkrankung Diabetes) oder betreffen Zustände, die Insulin selbst verursachen kann.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- TFDA/BfArM Packungsbeilage (Warnhinweise, Kontraindikationen) – derzeit blockierend (DG001)
-- Detaillierte Wirkmechanismus-Daten aus DrugBank – derzeit hochpriorisierte Datenlücke (DG002)
-- Bei Verfolgung von Pankreasagenesie oder Thiamin-responsive Funktionsstörung als Forschungsfragen, Fallserien- oder Registerdaten zur Insulin-Verwendung in diesen seltenen genetischen Diabetes-Subtypen
-- TxGNN-Scoring erneut durchführen, wobei Lipodystrophie-verwandte Kandidaten als Nebenwirkungssignale statt als Kandidaten-Indikationen klassifiziert sind, um zukünftig falsch-positive Ergebnisse aus demselben Graph-Muster zu vermeiden
-
+**Für ein Weiterverfolgen ist Folgendes erforderlich:**
+- Fachinformation (Warnhinweise und Gegenanzeigen) zur Sicherheitsbewertung
+- Daten zum Wirkmechanismus (MOA)
+- Gezielte Literaturrecherche und Studienrecherche zu autoimmuner Oophoritis und Insulin bzw. Autoimmun-Polyendokrinopathie
+- Klärung des aktuellen Zulassungs- und Marktstatus in Deutschland
+- Prüfung der Anwendungswege und der Plausibilität einer Wirkung auf die ovarielle Autoimmunität
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

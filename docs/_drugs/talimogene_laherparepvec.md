@@ -2,7 +2,7 @@
 layout: default
 title: Talimogene Laherparepvec
 parent: Nur Modellvorhersage (L5)
-nav_order: 378
+nav_order: 443
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,104 +29,106 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **7**
 
 </div>
 
-# Talimogene laherparepvec: Vom Melanom zu CMM7 (Kutanes malignes Melanom, Anfälligkeitssubtyp)
+# Talimogen laherparepvec: Von Melanom zu CMM7
 
-## One-Sentence Summary (Zusammenfassung in einem Satz)
+## Zusammenfassung
 
-> Talimogene laherparepvec (T-VEC) ist eine genetisch modifizierte HSV-1-Onkolytika-Virusimmuntherapie, die bekanntermaßen für inoperable, injizierbare Melanomläsionen der Haut, des Unterhautgewebes und der Lymphknoten zugelassen ist (diese ursprüngliche Indikation ist nicht im aktuellen Nachweispaket enthalten und wird nur aus öffentlich bekanntem behördlichen Wissen zitiert).
-> Das TxGNN-Modell sagt voraus, dass es für **CMM7** (einen Anfälligkeitssubtyp des kutanen malignen Melanoms) relevant sein könnte, mit einer Vorhersagepunktzahl von **99.20%**, aber **keine klinischen Studien oder Literaturangaben** sind derzeit registriert, um diese spezifische Verbindung zu unterstützen, und die mechanistische Begründung für diese höchste Vorhersage wurde noch nicht im Nachweispaket abgeschlossen.
+Talimogen laherparepvec (T-VEC) ist ein onkolytisches Herpes-simplex-Virus, das ursprünglich zur Behandlung des Melanoms eingesetzt wurde. Das TxGNN-Modell sagt voraus, dass es bei **CMM7** wirksam sein könnte. Für diese Vorhersage liegen jedoch **keine klinischen Studien** und **keine Publikationen** vor; sie beruht ausschließlich auf der Modellvorhersage.
 
 ---
 
-## Schnelle Übersicht
+## Kurzüberblick
 
-| Element | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Nicht im aktuellen Nachweispaket erfasst (`original_indications` ist leer; Arzneimittel ist noch nicht in Taiwan vermarktet). Öffentlich bekannte Indikation: inoperable kutane/subkutane/nodale Melanomläsionen. |
-| Vorhergesagte neue Indikation | CMM7 (Kutanes malignes Melanom, Anfälligkeitssubtyp 7) |
-| TxGNN-Vorhersagewert | 99.20% |
-| Nachweisebene | L5 (keine klinischen Studien oder Literaturangaben identifiziert; nur Modellvorhersage) |
-| Marktstatus in Taiwan | ✗ Nicht vermarktet (Nicht vermarktet) |
-| Anzahl der Genehmigungen | 0 |
-| Empfohlene Entscheidung | Halten |
+| Ursprüngliche Indikation | Melanom |
+| Vorhergesagte neue Indikation | CMM7 (Bezeichnung nicht eindeutig definiert, vermutlich ein Subtyp bzw. Locus des kutanen malignen Melanoms) |
+| TxGNN-Vorhersagewert | 99,20 % |
+| Evidenzlevel | L5 |
+| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
+| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind keine detaillierten Daten zum Wirkungsmechanismus verfügbar (als Hochrisiko-Datenlücke gekennzeichnet, DG002). Basierend auf öffentlich bekannten Informationen ist Talimogene laherparepvec ein onkolytisches Herpes-Simplex-Virus Typ 1 (HSV-1), das so konstruiert wurde, dass es sich selektiv in Tumorzellen repliziert, diese lysiert und GM-CSF exprimiert, um lokale und systemische Anti-Tumor-Immunantworten zu stimulieren. Es wird ausschließlich durch direkte intralesionale Injektion verabreicht.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: T-VEC ist ein onkolytisches Herpes-simplex-Virus, das GM-CSF kodiert. Es ist für nicht resezierbare Melanomläsionen zugelassen. Mechanistisch kann es Tumorzellen direkt lysieren und zusätzlich eine lokale und systemische Immunantwort anregen.
 
-CMM7 ist keine eigenständige Krankheitsentität im üblichen Sinne – es bezieht sich auf einen kutanen malignen Melanom-Anfälligkeitslocus/Subtyp innerhalb der Melanom-Krankheitsfamilie, derselbe Tumorzelltyp wie die bekannte ursprüngliche Indikation von T-VEC. Mechanistisch ist diese Nähe plausibel (gleicher Tumorzelltyp, gleiche routengerechte Läsionsklasse), aber das Nachweispaket lässt `mechanistic_link` und `similarity_to_original` für diesen am höchsten bewerteten Kandidaten als **„ausstehend"** gekennzeichnet – das heißt, es wurde keine abgeschlossene Begründung aufgezeichnet, und es wurden keine unterstützenden klinischen Studien oder Literaturangaben abgerufen.
+CMM7 ist in den vorliegenden Daten nicht klar definiert. Vermutlich handelt es sich um einen Subtyp oder eine Locus-Bezeichnung des kutanen malignen Melanoms. Eine melanombezogene Entität ist daher biologisch plausibel, und der hohe Vorhersagewert spiegelt wahrscheinlich die Nähe zur ursprünglichen Melanom-Indikation wider. Die Identität der Erkrankung muss vor jeder weiteren Arbeit verifiziert werden.
 
-Im Gegensatz dazu wurden die sechs niedriger bewerteten Kandidaten (Ränge 2–7, siehe unten) bereits bewertet und durchgehend als **Halten** gekennzeichnet, hauptsächlich aufgrund von Inkompatibilität der Applikationsroute (tiefe/nicht erreichbare Läsionen, ZNS- oder intraokulare Erkrankung) oder mangelnder mechanistischer/histologischer Übereinstimmung mit Melanom. Da der am höchsten bewertete Kandidat (CMM7) selbst keine abgeschlossenen Nachweise und Begründungen hat und das Arzneimittel nicht in Taiwan mit einer blockierenden Sicherheitsdatenlücke (DG001) vermarktet wird, erfüllt derzeit kein Kandidat in diesem Paket die Schwelle für eine weitere Bewertung.
+Weitere vom Modell vorhergesagte Indikationen (jeweils nur Modellvorhersage, L5, Hold):
 
----
-
-## Klinische Studienevidenz
-
-Derzeit keine zugehörigen klinischen Studien registriert
-
-## Literaturnachweis
-
-Derzeit keine zugehörige Literatur verfügbar
-
----
-
-## Weitere vorhergesagte Indikationen (Ränge 2–7, bereits bewertet)
-
-| Rang | Krankheit | TxGNN-Wert | Nachweisebene | Empfehlung | Wichtigste Begründung |
-|------|------------|-------------|-----------------|----------------|-----------|
-| 2 | Pädiatrisches leptomeningeales Melanom | 99.15% | L5 | Halten | Intralesionale Route kann ZNS/leptomeningealen Raum nicht erreichen; keine pädiatrischen Sicherheitsdaten |
-| 3 | Epitheloider uveales Melanom | 99.13% | L5 | Halten | Unterschiedliche Mutationslandschaft (GNAQ/GNA11 vs BRAF/NRAS), immunologisch privilegierter intraokulärer Ort, schlechte Immuntherapie-Reaktionsgeschichte |
-| 4 | Glottisches Plattenepithelkarzinom | 99.07% | L5 | Halten | Unterschiedliche Histologie/Immunprofil; glottische Anatomie begrenzt die Durchführbarkeit intralesionaler Injektionen |
-| 5 | Okkultes Lungen-Plattenepithelkarzinom | 99.05% | L5 | Halten | „Okkulter" Tumor ist per Definition nicht lokalisierbar – grundlegend inkompatibel mit intralesionaler Abgabe |
-| 6 | Rektales kloacogenes Karzinom | 99.01% | L5 | Halten | Seltener histologischer Subtyp ohne gemeinsamen Mechanismus mit Melanom; keine unterstützenden Daten |
-| 7 | Adenoplattiges Gallenblasen-Karzinom | 99.01% | L5 | Halten | Tief gelegene Läsion, intralesionale Injektion nicht ohne invasiven Zugang durchführbar; keine unterstützenden Daten |
-
-Alle sechs Kandidaten wurden bereits als **Halten** im Nachweispaket bewertet, hauptsächlich aufgrund von Inkompatibilität der Applikationsroute mit T-VECs intralesionaler Applikation und dem Fehlen jeglicher unterstützenden klinischen Studien- oder Literaturnachweise.
+| Rang | Vorhergesagte Indikation | Score | Einschätzung |
+|------|------|------|------|
+| 2 | Pädiatrisches leptomeningeales Melanom | 99,15 % | Melanomvariante, aber diffuse ZNS-Erkrankung; Applikation, HSV-Neurovirulenz und Sicherheit bei Kindern ungeklärt |
+| 3 | Epitheloidzelliges Aderhautmelanom (uveal) | 99,13 % | Biologisch vom kutanen Melanom verschieden (GNAQ/GNA11, immunprivilegierter Ort); Verbindung nur über melanozytäre Herkunft |
+| 4 | Plattenepithelkarzinom der Glottis | 99,07 % | Onkolytische Viren plus Immuntherapie bei Kopf-Hals-Tumoren plausibel; Atemwegslage wirft Sicherheitsfragen auf (Schwellung) |
+| 5 | Okkultes Plattenepithelkarzinom der Lunge | 99,05 % | Intraläsionale Injektion nicht machbar, da bildgebend nicht sichtbar |
+| 6 | Kloakogenes Rektumkarzinom | 99,01 % | Lokale Injektion theoretisch möglich; Verbindung spekulativ, HPV-Biologie abweichend |
+| 7 | Adenosquamöses Gallenblasenkarzinom | 99,01 % | Keine spezifische mechanistische Begründung; tiefe viszerale Lage |
 
 ---
 
-## Taiwan-Marktinformationen
+## Klinische Evidenz
 
-Keine Vermarktungsgenehmigungen gefunden. `taiwan_regulatory.market_status` = Nicht vermarktet (Nicht vermarktet), `total_licenses` = 0, `licenses` = leer. Talimogene laherparepvec ist derzeit in dieser Rechtsordnung nicht zugelassen zum Verkauf.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
+
+---
+
+## Literaturevidenz
+
+Derzeit liegt keine zugehörige Literatur vor.
+
+---
+
+## Marktinformationen Deutschland
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/002771 | Imlygic (Amgen Europe B.V.) | – | Melanom (Status: erloschen) |
 
 ---
 
 ## Zytotoxizität
 
-Talimogene laherparepvec ist eine onkolytische Virusimmuntherapie für Melanom (eine maligne Neubildung), daher gilt dieser Abschnitt. Keine DrugBank-Toxizität oder MOA-Daten sind im Nachweispaket vorhanden; die folgende Tabelle spiegelt nur öffentlich bekannte Arzneimittelklassen-Informationen wider.
-
-| Element | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Zytotoxizitätsklassifizierung | Immuntherapie (Onkolytische Virustherapie) – kein konventionelles zytotoxisches Agens |
-| Knochenmarkssuppressionsrisiko | Gering (Mechanismus ist virale Lyse + Immunstimulation, keine DNA-schädigende Chemotherapie) |
-| Emetogenitätsklassifizierung | Gering |
-| Überwachungselemente | Injektionsstellenreaktionen, grippeähnliche Symptome (Fieber, Schüttelfrost, Müdigkeit), Zeichen herpetischer Infektion/Dissemination, immunvermittelte Nebenwirkungen |
-| Handhabungsschutz | Erfordert Biosicherheitshandhabung für lebende Viren (Vermeidung von Kontakt mit immungeschwächten Personen/schwangeren Mitarbeitern, Nadelstichvorsorgemaßnahmen) statt Standard-Handling-Protokollen für zytotoxische Arzneimittel |
+| Klassifikation | Onkolytische Virustherapie / Immuntherapie (keine konventionelle Zytostatika-Chemotherapie) |
+| Myelosuppressionsrisiko | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Emetogenität | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Monitoring | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Handhabungsschutz | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
 
 ---
 
-## Sicherheitsüberlegungen
+## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. (`key_warnings`, `contraindications` und `ddi` sind alle Datenlücken im aktuellen Nachweispaket; DG001 – TFDA-Kennzeichnungswarnungen/Kontraindikationen – ist als blockierend gekennzeichnet, was bedeutet, dass dieser Kandidat die S1-Sicherheitsvorabprüfung nicht bestehen kann, bis dies behoben ist.)
+Für Warnhinweise und Gegenanzeigen liegen in den zusammengestellten Daten keine Angaben vor; bitte die Fachinformation heranziehen.
+
+**Arzneimittelwechselwirkungen** (Abfrage abgeschlossen, insgesamt 100 Einträge; Auswahl der wichtigsten):
+
+- **Schwerwiegend (Major):** Kortikosteroide (Hydrocortison, Triamcinolon, Dexamethason, Betamethason, Budesonid, Prednison, Prednisolon), Dexrazoxan, Iobenguan (I-131), Ibritumomab tiuxetan, Tositumomab (inkl. I-131), Levamisol, Trimetrexat, Mercaptopurin, Dupilumab
+- **Moderat (Moderate):** Aciclovir (systemisch und topisch), Penciclovir (topisch)
+
+Die Wechselwirkungen mit Aciclovir und Penciclovir sind erwartbar, da antivirale Mittel gegen Herpesviren die Wirkung eines HSV-basierten Vektors beeinträchtigen können.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Halten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Der am höchsten bewertete Kandidat (CMM7) hat keine klinischen Studien- oder Literaturnachweise und seine mechanistische Begründung ist noch als „ausstehend" gekennzeichnet; die sechs nächsten Kandidaten wurden bereits formal als Halten bewertet aufgrund von Inkompatibilität der Applikationsroute oder mangelnder mechanistischer Übereinstimmung. Kombiniert mit einer blockierenden Sicherheitsdatenlücke (TFDA-Kennzeichnungsdaten nicht verfügbar) und null Vermarktungsgenehmigungen in Taiwan, unterstützt derzeit kein Kandidat in diesem Paket ein Fortschreiten.
+Die Vorhersage beruht ausschließlich auf einem Modell (L5), ohne klinische Studien oder Publikationen. Die vorhergesagte Erkrankung CMM7 ist nicht eindeutig definiert, und die einzige deutsche Zulassung ist erloschen.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- TFDA-zugelassene (oder gleichwertige) Packungsbeilage – Warnungen, Kontraindikationen und DDI-Daten (behebt DG001, derzeit blockierend)
-- Bestätigter Wirkmechanismus aus DrugBank oder Primärliteratur (behebt DG002)
-- Abschluss der `mechanistic_link` / `similarity_to_original` Begründung für den CMM7-Kandidaten (derzeit „ausstehend")
-- Gezielter Literatur-/Klinische Studiensuche spezifisch für CMM7 und Melanom-Anfälligkeitssubtypen
-- Bestätigung des Taiwan-Markt-/Registrierungsstatus vor jeder weiteren Bewertungsphase
-
+**Für ein Weiterkommen sind folgende Schritte nötig:**
+- Klärung der Identität und Definition von CMM7
+- Fachinformation (Warnhinweise, Gegenanzeigen) beschaffen und auswerten
+- Daten zum Wirkmechanismus (MOA) ergänzen
+- Prüfung der Applikationswege (intraläsionale Injektion) für die vorhergesagten Indikationen
+- Systematische Recherche zu klinischen Studien und Literatur
+- Klärung des Zulassungsstatus und der Verfügbarkeit in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

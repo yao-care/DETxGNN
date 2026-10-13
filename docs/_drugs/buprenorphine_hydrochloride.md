@@ -2,7 +2,7 @@
 layout: default
 title: Buprenorphine Hydrochloride
 parent: Nur Modellvorhersage (L5)
-nav_order: 74
+nav_order: 83
 evidence_level: L5
 indication_count: 0
 ---

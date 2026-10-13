@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Zidovudine
-parent: Hohe Evidenz (L1-L2)
-nav_order: 434
-evidence_level: L1
+parent: Nur Modellvorhersage (L5)
+nav_order: 507
+evidence_level: L5
 indication_count: 6
 ---
 
 # Zidovudine
 {: .fs-9 }
 
-Evidenzniveau: **L1** | Vorhergesagte Indikationen: **6** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,90 +29,91 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Zidovudine: Von HIV-Infektion zu AIDS-assoziiertem Komplex
+# Zidovudin: Von HIV-Infektion zu felinem erworbenem Immundefizienzsyndrom
 
 ## Zusammenfassung in einem Satz
 
-> Zidovudine (AZT) war das erste Antiretrovirus-Medikament, das jemals zugelassen wurde, ursprünglich entwickelt, um die HIV-Replikation bei Patienten mit symptomatischer HIV-Infektion zu unterdrücken.
-> Unter sechs Indikationen, die das TxGNN-Modell für dieses Medikament gekennzeichnet hat, ist **AIDS-assoziierter Komplex (ARC)** die einzige, die durch umfangreiche klinische Humanstudien belegt ist,
-> mit **50 klinischen Studien** und **10+ Publikationen** – einschließlich der wegweisenden placebokontrollierten Studie von 1987 in NEJM – die ihre Anwendung in diesem frühen symptomatischen Stadium der HIV-Erkrankung unterstützen.
+Zidovudin ist ein Nukleosid-Reverse-Transkriptase-Hemmer, der ursprünglich zur Behandlung der HIV-Infektion zugelassen wurde. Das TxGNN-Modell sagt voraus, dass er auch beim **felinen erworbenen Immundefizienzsyndrom** (Katzen-AIDS) wirksam sein könnte. Dafür liegen **keine klinischen Studien** am Menschen, aber **19 Publikationen** vor, überwiegend tierexperimentelle Arbeiten.
 
-## Schnellübersicht
+## Kurzüberblick
 
-| Artikel | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | HIV-Infektion / AIDS (ursprünglich genehmigte Indikation von Zidovudine; der aufsichtsrechtliche Genehmigungstext war in diesem Evidenzpaket nicht verfügbar) |
-| Vorhergesagte neue Indikation | AIDS-assoziierter Komplex (ARC) |
-| TxGNN-Vorhersage-Score | 99.19% |
-| Evidenzlevel | L1 |
-| Marktstatus Deutschland | Nicht vermarktet (Not Marketed) |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Mit schützenden Maßnahmen fortfahren |
+| Ursprüngliche Indikation | HIV-Infektion |
+| Vorhergesagte neue Indikation | Felines erworbenes Immundefizienzsyndrom (veterinärmedizinische Indikation) |
+| TxGNN-Vorhersagewert | 99,96 % |
+| Evidenzniveau | L3 (tierexperimentelle und veterinärklinische Studien, keine Humanstudien) |
+| Marktstatus in Deutschland | Nur erloschene Zulassungen |
+| Anzahl der Zulassungen | 2 (beide erloschen) |
+| Empfohlene Entscheidung | Hold (Forschungsfrage, keine Humanindikation) |
 
-## Warum ist diese Vorhersage angemessen?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind in diesem Evidenzpaket keine detaillierten strukturierten Mechanismus-Wirkungs-Daten verfügbar. Basierend auf etablierter Pharmakologie ist Zidovudine ein Thymidin-Analogon **Nukleosid-Reverse-Transkriptase-Inhibitor (NRTI)**: Nach intrazellulärer Phosphorylierung zu seiner Triphosphat-Form hemmt es kompetitiv die HIV-Reverse-Transkriptase und verursacht DNA-Kettentermination, wodurch die Virenreplikation blockiert wird.
+Zu den Wirkmechanismen liegen in den zusammengestellten Daten derzeit keine detaillierten Angaben vor. Bekannt ist: Zidovudin ist ein Nukleosid-Reverse-Transkriptase-Hemmer (NRTI), dessen Wirksamkeit bei HIV belegt ist. Das Feline Immundefizienzvirus (FIV) ist ein Lentivirus mit einer Reverse Transkriptase, die der von HIV-1 eng verwandt ist. Der Wirkmechanismus lässt sich daher plausibel übertragen.
 
-AIDS-assoziierter Komplex ist keine eigene Krankheit, getrennt von der HIV-Infektion – es ist der historische klinische Stagifizierungsbegriff (vor 1993 CDC-Klassifizierung) für symptomatische, aber nicht noch AIDS-definierende HIV-Erkrankung. Die ursprüngliche Genehmigung von Zidovudine deckte bereits dieses Krankheitsstadium ab; die TxGNN-„Vorhersage" hier identifiziert im Grunde die eigene ursprüngliche Indikation des Medikaments neu, anstatt ein echtes Umwidmungsziel zu sein. Dies wird in der Begründung des Evidenzpakets widergespiegelt: *„Dies ist keine strikte Umwidmung, sondern eine Fortsetzung der historisch genehmigten Indikation."*
+Veröffentlichte Arbeiten umfassen Studien an natürlich infizierten Katzen sowie an SCID-Katzen-Mäusen, in denen die Provirenlast sank. In einigen Studien senkte Zidovudin die Plasma-Viruslast und verhinderte frühe Virämie. Eine Infektion verhinderte es jedoch nicht. Zudem wurde eine Toxizität bei FeLV-infizierten Katzen beschrieben (PMID 2163339).
 
-Die mechanistische Anwendbarkeit ist daher selbstverständlich – der gleiche Reverse-Transkriptase-Hemm-Mechanismus, der Zidovudines genehmigte Anwendung in HIV/AIDS definiert, erstreckt sich direkt auf ARC, ein milderes Stadium derselben zugrunde liegenden Infektion.
+Wichtig: Es handelt sich um eine tiermedizinische Indikation. Sie ist eher ein präklinisches Modell für HIV als eine eigenständige Humanindikation.
 
-**Weitere TxGNN-Kandidaten gescreent und zurückgestellt:** Das Modell hat auch Felinen-Immundefizienz-Syndrom und Simian-Immundefizienz-Virus-Infektion gekennzeichnet (beide nicht-menschliche veterinär-/Primatenstudie-Krankheiten, die nur in translationaler AZT-Forschung verwendet werden, keine unabhängigen menschlichen Indikationen, L4–L5, Hold), eine nicht verwandte seltene neuronale Entwicklungsstörung und „veraltete familiale kombinierte Hyperlipidämie" (keine unterstützende Literatur; letztere widerlegt bekannte NRTI-assoziierte mitochondriale Toxizität/Lipodystrophie, als wahrscheinlich falsches Positiv eingestuft), und kongenitale HIV-Infektion (Evidenz-Klassifizierung ausstehend). Keine dieser erfüllte zu diesem Zeitpunkt die Anforderungen für weitere Maßnahmen.
+## Evidenz aus klinischen Studien
 
-## Klinische Studienevidenz
-
-| Versuchsnummer | Phase | Status | Einschreibung | Wichtigste Erkenntnisse |
-|---------|------|------|------|---------|
-| [NCT00001011](https://clinicaltrials.gov/study/NCT00001011) | Phase 3 | Abgeschlossen | 538 | Sicherheit und Nützlichkeit von AZT speziell bei Patienten mit früher symptomatischer HIV-Infektion/frühem ARC |
-| [NCT00002334](https://clinicaltrials.gov/study/NCT00002334) | Phase 3 | Abgeschlossen | 3000 | AZT allein vs. AZT+ddC vs. AZT+Saquinavir vs. Dreifach-Kombination bei AZT-naiven Patienten |
-| [NCT00000736](https://clinicaltrials.gov/study/NCT00000736) | Phase 3 | Abgeschlossen | 3200 | AZT verzögert den Ausbruch von AIDS/ARC bei asymptomatischen HIV-infizierten Personen; Dosisvergleich zur Toxizität |
-| [NCT00001022](https://clinicaltrials.gov/study/NCT00001022) | Phase 3 | Abgeschlossen | 1200 | AZT vs. AZT+ddI vs. AZT+ddC zur Verzögerung von AIDS-assoziierten Erkrankungen |
-| [NCT00000625](https://clinicaltrials.gov/study/NCT00000625) | Phase 2 | Abgeschlossen | 2100 | AZT-Monotherapie vs. Kombinationsnukleoside in Patienten mit CD4 200–500/mm³ |
-| [NCT00000751](https://clinicaltrials.gov/study/NCT00000751) | Phase 3 | Abgeschlossen | 1600 | HIVIG plus perinatales/Neugeborenen-AZT zur Prävention der Mutter-zu-Kind-HIV-Übertragung |
-| [NCT00000637](https://clinicaltrials.gov/study/NCT00000637) | Phase 3 | Abgeschlossen | 819 | AZT vs. ddI vs. AZT+ddI bei symptomatischen HIV-infizierten Kindern |
-| [NCT00002035](https://clinicaltrials.gov/study/NCT00002035) | RCT | Abgeschlossen | 300 | Doppelblind-Vergleich von fortgesetztem AZT vs. ddI bei Patienten, die nicht auf AZT ansprachen (Relevanz Grad A) |
-| [NCT00002290](https://clinicaltrials.gov/study/NCT00002290) | RCT | Abgeschlossen | N/A | Multi-Center-Doppelblindstudie von AZT + Aciclovir vs. AZT allein bei früher symptomatischer HIV-Infektion (Grad A) |
-| [NCT00001104](https://clinicaltrials.gov/study/NCT00001104) | Phase 3 | Abgeschlossen | 538 | Placebokontrollierte Studie von AZT bei HIV-infizierten Patienten mit Hämophilie |
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ## Literaturevidenz
 
-| PMID | Jahr | Typ | Journal | Wichtigste Erkenntnisse |
+| PMID | Jahr | Typ | Journal | Kernaussagen |
 |------|-----|------|------|---------|
-| [3299089](https://pubmed.ncbi.nlm.nih.gov/3299089/) | 1987 | RCT | New England Journal of Medicine | Wegweisende Doppelblindstudie, placebokontrolliert (N=282), die die Wirksamkeit von AZT bei AIDS/fortgeschrittenem ARC belegt |
-| [2677429](https://pubmed.ncbi.nlm.nih.gov/2677429/) | 1989 | RCT | JAMA | Langfrist-AZT-Therapie bei 229 AIDS/ARC-Patienten; Überlebensvorteil über ~21 Monate aufrechterhalten |
-| [1777174](https://pubmed.ncbi.nlm.nih.gov/1777174/) | 1991 | RCT | AIDS | Europäisch-australische Studie (N=199): AZT ± Aciclovir für ARC; kein zusätzlicher Nutzen durch Aciclovir |
-| [8096703](https://pubmed.ncbi.nlm.nih.gov/8096703/) | 1993 | RCT | AIDS | Doppelblindstudie, randomisiert, bestätigt Wirksamkeit/Sicherheit von AZT ± Aciclovir bei AIDS und ARC |
-| [2159707](https://pubmed.ncbi.nlm.nih.gov/2159707/) | 1990 | RCT | American Journal of Medicine | ACTG Phase I/II Kombination AZT + ddC bei AIDS/fortgeschrittenem ARC |
-| [2159705](https://pubmed.ncbi.nlm.nih.gov/2159705/) | 1990 | RCT | American Journal of Medicine | Alternierende/intermittierende Dosierungsschemata von AZT + ddC zur Toxizitätsreduktion bei AIDS/ARC |
-| [2191113](https://pubmed.ncbi.nlm.nih.gov/2191113/) | 1990 | RCT | J Acquir Immune Defic Syndr | Lebensqualitäts-Unterstudie der placebokontrollierten AZT-Studie; verbesserte Karnofsky-/QWB-Scores vs. Placebo |
-| [3059187](https://pubmed.ncbi.nlm.nih.gov/3059187/) | 1988 | RCT | New England Journal of Medicine | Doppelblindstudie, placebokontrolliert (N=281), bewertet neuropsychologische Ergebnisse von AZT bei AIDS/ARC |
-| [1894937](https://pubmed.ncbi.nlm.nih.gov/1894937/) | 1991 | Klinische Studie | Journal of Infectious Diseases | AZT-behandelte AIDS/ARC-Patienten zeigen verbesserte Antikörperantwort auf Pneumokokken-Impfstoff |
-| [2224694](https://pubmed.ncbi.nlm.nih.gov/2224694/) | 1990 | Übersicht | CMAJ | Umfassende Übersicht der AZT-Wirksamkeit über HIV-Krankheitsstadien hinweg, einschließlich ARC |
+| [22816032](https://pubmed.ncbi.nlm.nih.gov/22816032/) | 2012 | Veterinärklinische Studie | Viruses | Vergleich von Zidovudin allein und in Kombination (rHuIFN-α, Lamivudin, Valproat) bei natürlich FIV-infizierten Katzen über ein Jahr |
+| [7688949](https://pubmed.ncbi.nlm.nih.gov/7688949/) | 1993 | Tierstudie | Archives of Virology | Zidovudin senkte den Plasma-Virustiter nach 2 Wochen, verhinderte die Infektion aber nicht |
+| [8381867](https://pubmed.ncbi.nlm.nih.gov/8381867/) | 1993 | Tierstudie | J Acquir Immune Defic Syndr | Prophylaktisches Zidovudin verhinderte frühe Virämie und Lymphozytenabfall, aber keine Primärinfektion |
+| [7749786](https://pubmed.ncbi.nlm.nih.gov/7749786/) | 1995 | Tierstudie | J Acquir Immune Defic Syndr Hum Retrovirol | Frühe Virämie-Unterdrückung veränderte die Ausbreitung der FIV-Infektion nicht; CD4-Zellzahlen waren höher |
+| [7618256](https://pubmed.ncbi.nlm.nih.gov/7618256/) | 1995 | Tiermodell | Vet Immunol Immunopathol | Geringere Provirenlast und verbesserte humorale Immunfunktion bei AZT-behandelten SCID-Katzen-Mäusen |
+| [7495172](https://pubmed.ncbi.nlm.nih.gov/7495172/) | 1995 | Veterinärklinische Studie | Zentralbl Veterinarmed A | Langzeitbehandlung erkrankter FIV-seropositiver Katzen mit AZT |
+| [1363008](https://pubmed.ncbi.nlm.nih.gov/1363008/) | 1992 | Veterinärklinische Studie | Vet Immunol Immunopathol | AZT und PMEA bei natürlich FIV- und FeLV-infizierten Katzen: Wirksamkeit und Nebenwirkungen |
+| [10952586](https://pubmed.ncbi.nlm.nih.gov/10952586/) | 2000 | Tierstudie | Antimicrob Agents Chemother | Antivirale Therapie senkte die Viruslast, verhinderte aber keine Thymusinvolution bei jungen Katzen |
+| [25855689](https://pubmed.ncbi.nlm.nih.gov/25855689/) | 2016 | Verlaufsstudie | J Feline Med Surg | Langzeit-ART (5–6 Jahre) bei FIV-infizierten Katzen, beginnend mit AZT |
+| [2163339](https://pubmed.ncbi.nlm.nih.gov/2163339/) | 1990 | Tiertoxizitätsstudie | Fundam Appl Toxicol | Toxizität von Zidovudin bei FeLV-infizierten Katzen |
 
-## Marktstatus-Informationen Deutschland
+## Marktinformationen Deutschland
 
-Keine Vermarktungsgenehmigungen sind für Zidovudine in diesem Evidenzpaket dokumentiert – der Marktstatus ist **nicht vermarktet (Not Marketed)**, mit 0 registrierten Lizenzen. Keine Produkt-/Darreichungsform-/Indikationstextdaten sind verfügbar zur Tabellarisierung.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000190 | Combivir | nicht angegeben | HIV-Infektionen (erloschen) |
+| EMEA/H/C/000338 | Trizivir | nicht angegeben | HIV-Infektionen (erloschen) |
 
-## Sicherheitsbedenken
+## Sicherheitshinweise
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. (Strukturierte Schlüsselwarnungen, Kontraindikationen und Wechselwirkungsdaten waren in diesem Evidenzpaket nicht verfügbar; es ist jedoch zu beachten, dass die Literaturevidenz oben die bekannte hämatologische Toxizität von Zidovudine dokumentiert – siehe PMID 2224694 und damit verbundene Verträglichkeitsberichte – die bei der Planung eines Überwachungsplans berücksichtigt werden sollten.)
+Für die Packungsbeilage relevante Warnhinweise und Gegenanzeigen liegen in den zusammengestellten Daten nicht vor. Bitte die Fachinformation heranziehen.
+
+- **Kontraindikationen aus dem Wissensgraphen** (PrimeKG, kein Etikettentext): Leberversagen, Nierenerkrankung, Pankreatitis, Lebererkrankung, Myopathie, Neutropenie, Agranulozytose, Anämie, Fettleber, Laktatazidose, Hypertriglyzeridämie, Myositis und weitere.
+- **Arzneimittelwechselwirkungen**: 100 Wechselwirkungen erfasst. Beispiele (mittlere Relevanz): Amphotericin B, Kortikosteroide (Dexamethason, Prednison, Hydrocortison u. a.), Naltrexon, Rosuvastatin, Simvastatin, Orlistat. Geringe Relevanz: Cimetidin, Clarithromycin.
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Mit schützenden Maßnahmen fortfahren**
+**Entscheidung: Hold**
 
 **Begründung:**
-- ARC wird durch L1-Ebenen-Evidenz unterstützt – mehrere abgeschlossene Phase-3-RCTs, einschließlich der grundlegenden NEJM-Studie von 1987 – aber dies widerspiegelt die ursprünglich genehmigte Anwendung von Zidovudine eher als eine wirklich neuartige Umwidmungsmöglichkeit, und das Medikament ist derzeit in dieser Gerichtsbarkeit nicht vermarktet.
+Die Evidenz für felines AIDS stammt ausschließlich aus Tier- und Veterinärstudien. Es gibt keine Humanstudien, und die Indikation ist veterinärmedizinisch. Zudem sind in Deutschland nur erloschene Zulassungen vorhanden.
 
-**Für den Weitermachen sind folgende Maßnahmen erforderlich:**
-- Bestätigung, ob „neue Indikation" angemessen ist, da ARC ein historisches HIV-Krankheitsstadium ist, das bereits in der ursprünglichen Zulassung von Zidovudine enthalten ist
-- TFDA/BfArM-Packungsbeilage zur Vervollständigung der S1-Sicherheitsprüfung (derzeit eine blockierende Datenlücke gemäß `data_gaps` dieses Pakets)
-- Strukturierte DrugBank-MOA- und DDI-Daten (ebenfalls als Datenlücke gekennzeichnet)
-- Bewertung des regulatorischen/Zulassungswegs angesichts des aktuellen „Not Marketed"-Status und 0 Genehmigungen
-- Hämatologischer Überwachungsplan (CBC mit Differenzial) angesichts des bekannten myelosuppressiven Profils von AZT, da es nun nur noch als Bestandteil kombinierter ART verwendet würde, nicht als Monotherapie
+**Weitere Schritte:**
+- Klärung, ob eine veterinärmedizinische Indikation überhaupt im Projektrahmen liegt
+- Beschaffung der Fachinformation des BfArM (Warnhinweise, Gegenanzeigen)
+- Daten zum Wirkmechanismus (MOA) aus DrugBank
+- Bewertung der Toxizität (u. a. hämatologisch) im Zieltier
 
-**Zu diesem Zeitpunkt nicht weiter verfolgt (Hold):** Felinen-Immundefizienz-Syndrom, SIV-Infektion (nur nicht-menschliche Modelle), die nicht verwandte seltene neuronale Entwicklungsstörung, „veraltete familiale kombinierte Hyperlipidämie" (wahrscheinlich falsches Positiv, widerlegt bekannte NRTI-Lipid-/mitochondriale Toxizität), und kongenitale HIV-Infektion (Evidenzklassifizierung unvollständig).
+---
 
+## Weitere vorhergesagte Indikationen (Kurzübersicht)
+
+| Rang | Indikation | Score | Evidenz | Empfehlung |
+|---|---|---|---|---|
+| 2 | Infektion mit dem Simianen Immundefizienzvirus | 99,96 % | L3 (Primatenstudien, keine Humanstudien) | Forschungsfrage |
+| 3 | Neuroentwicklungsstörung mit ataktischem Gang, fehlender Sprache und verminderter kortikaler weißer Substanz | 99,96 % | L5 | Hold |
+| 4 | Veraltet: familiäre kombinierte Hyperlipidämie | 99,62 % | L5 | Hold (Zidovudin kann Lipidstörungen eher verschlechtern) |
+| 5 | AIDS-bezogener Symptomkomplex (ARC) | 99,19 % | L1 (u. a. Phase-3-Studie NCT00001011, n = 538) | Proceed with Guardrails (überschneidet sich mit der Originalindikation, keine echte Neuindikation) |
+| 6 | Kongenitale HIV-Infektion | 99,19 % | L1 (u. a. NCT00102960, NCT00001104) | Proceed with Guardrails (etablierte perinatale Prophylaxe, überschneidet sich mit der Originalindikation) |
+
+Bei den Rängen 5 und 6 sind Marktstatus (nur erloschene Zulassungen), Verdrängung durch moderne Kombinations-ART, hämatologische Toxizität und Wechselwirkungen als Leitplanken zu beachten.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

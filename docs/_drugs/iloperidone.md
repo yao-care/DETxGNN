@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Iloperidone
-parent: Hohe Evidenz (L1-L2)
-nav_order: 195
-evidence_level: L1
+parent: Nur Modellvorhersage (L5)
+nav_order: 230
+evidence_level: L5
 indication_count: 10
 ---
 
 # Iloperidone
 {: .fs-9 }
 
-Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,90 +29,106 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Iloperidone: Von Schizophrenie zu bipolarer Manie
+# Iloperidon: Von Schizophrenie und bipolarer Störung zu retinaler Dystrophie (mit oder ohne extraokuläre Anomalien)
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Iloperidone (Fanapt) ist ein D2/5-HT2A-Doppelantagonist, der ursprünglich für die Behandlung der Schizophrenie entwickelt und vermarktet wurde. Das glaubwürdigste Signal des TxGNN-Modells unter seinen Top-Vorhersagen weist auf **manische Episoden einer bipolaren Störung Typ I** hin, eine Indikation, die durch **1 abgeschlossene Phase-4-Studie**, **1 abgeschlossene Phase-3-RCT** und **19 verwandte Publikationen** unterstützt wird, einschließlich der Bestätigung, dass diese Indikation 2024 die formale behördliche Genehmigung erhielt. Neun weitere sehr hochwertige TxGNN-Vorhersagen für dieses Arzneimittel werden ebenfalls berichtet, aber keine von ihnen verfügt über unterstützende klinische Studien- oder Literaturbeweise und werden als wahrscheinlich falsch positive bewertet.
+Iloperidon ist ein atypisches Antipsychotikum, das ursprünglich zur Behandlung von Schizophrenie und bipolarer Störung zugelassen wurde. Das TxGNN-Modell sagt für die bestplatzierte Vorhersage **retinale Dystrophie mit oder ohne extraokuläre Anomalien** voraus. Dafür gibt es **keine klinischen Studien und keine Publikationen**, die Vorhersage beruht allein auf dem Modell.
 
 ---
 
-## Schneller Überblick
+## Schnellübersicht
 
-| Artikel | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Schizophrenie (gemäß Literaturbeweisen, z. B. PMID 22849428, 21446639) |
-| Vorhergesagte neue Indikation | Manische bipolare affektive Störung |
-| TxGNN-Vorhersage-Score | 99.98% |
-| Evidenzebene | L1 |
-| Marktstatus | ✗ Nicht vermarktet (0 Genehmigungen registriert) |
-| Anzahl der Genehmigungen | 0 |
-| Empfohlene Entscheidung | Fortfahren mit Vorsichtsmaßnahmen |
+| Ursprüngliche Indikation | Schizophrenie; bipolare Störung |
+| Vorhergesagte neue Indikation | Retinale Dystrophie mit oder ohne extraokuläre Anomalien |
+| TxGNN-Vorhersagewert | 99,9994 % (Modellrang 24) |
+| Evidenzlevel | L5 |
+| Marktstatus in Deutschland | Nur erloschene Zulassung |
+| Anzahl der Zulassungen | 1 (erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage sinnvoll?
+## Warum ist diese Vorhersage (nicht) plausibel?
 
-Iloperidone ist ein Serotonin-/Dopamin-Antagonist (5-HT2A/D2), dieselbe pharmakologische Klasse wie mehrere atypische Antipsychotika, die bereits für bipolare Manie zugelassen sind – Olanzapin, Risperidon, Quetiapin, Aripiprazol, Asenapin und Cariprazin. Dieses gemeinsame Rezeptorbindungsprofil bietet starke mechanistische Plausibilität für die Ausweitung der Verwendung von Iloperidone von Schizophrenie auf akute manische/gemischte Episoden einer bipolaren Störung Typ I.
+Für diesen Bericht liegen keine detaillierten Daten zum Wirkmechanismus vor. Iloperidon gehört zur Klasse der atypischen Antipsychotika. Deren Wirkung bei Schizophrenie und bipolarer Störung gilt als gesichert und wird klassischerweise mit einer Dopamin-D2- und Serotonin-5-HT2A-Antagonisierung erklärt.
 
-Dies ist keine rein modellgesteuerte Hypothese: PMID 39008105 (*The Medical Letter*, 2024) dokumentiert, dass Iloperidone 2024 eine **neue FDA-genehmigte Indikation für bipolare Störungen erhielt**, und PMID 38236020 berichtet von der pivotalen Phase-3-Studie, die randomisiert, doppelblind und placebokontrolliert war (27 Standorte, USA und international, 2021–2022), die eine signifikante Reduktion der Young Mania Rating Scale (YMRS)-Scores gegenüber Placebo zeigte. Eine abgeschlossene Phase-4-Studie (NCT02413918) untersuchte Iloperidone weiter als Zusatztherapie bei Bipolar-Störung mit gemischtem Zustand. Zusammengefasst stimmt die TxGNN-Vorhersage hier mit realen regulatorischen und klinischen Ergebnissen überein, anstatt ein unvalidiertes Modellartefakt zu sein.
+Ein mechanistischer Zusammenhang zwischen dieser Rezeptorpharmakologie und retinalen Dystrophien ist anhand der vorliegenden Daten nicht erkennbar. Der sehr hohe Vorhersagewert ist ein reines Rechenergebnis des Modells. Er wird weder durch Studien noch durch Literatur gestützt und ist daher mit Vorsicht zu interpretieren.
 
-### Andere TxGNN-Hochscore-Vorhersagen ohne unterstützende Beweise
-
-Das Beweispaket enthält auch neun weitere Kandidatenindikationen mit nahezu identischen, extrem hohen TxGNN-Scores (~99.999%, Ränge 24–39): Netzhautdystrophie, angeborene Glykosylierungsstörung mit fehlerhafter Fucosylierung, Hydranenzephalie, Charcot-Marie-Tooth-Krankheit Typ 1G, perisylvisches Polymikrogyrie-Syndrom, drei Formen von syndromischer/erblicher Myopie und atypische Glycin-Enzephalopathie. Keine davon ist mit klinischen Studien verbunden, und wenn Literatur abgerufen wurde (Netzhautdystrophie), sind die Arbeiten nicht zusammenhängende allgemeine Ophthalmologie-/Genetik-Themen ohne Erwähnung von Iloperidone oder Antipsychotika-Mechanismen. Diese werden als **wahrscheinlich falsch positive Ergebnisse aufgrund von Ähnlichkeit bei der Wissens-Graph-Einbettung anstelle einer echten biologischen Assoziation** beurteilt, und alle erhalten eine „Hold"-Empfehlung. Sie werden in diesem Bericht nicht weiter entwickelt.
+Auch die übrigen Top-Vorhersagen (z. B. angeborene Glykosylierungsstörung, Hydranenzephalie, Charcot-Marie-Tooth-Erkrankung Typ 1G, verschiedene Myopie-Formen) haben keine erkennbare pharmakologische Grundlage.
 
 ---
 
-## Klinische Studienevidenz
+## Klinische Studien
 
-| Trialnummer | Phase | Status | Enrollment | Wichtigste Ergebnisse |
-|---------|------|------|------|---------|
-| [NCT02413918](https://clinicaltrials.gov/study/NCT02413918) | Phase 4 | Abgeschlossen | 41 | Offene Studie von Iloperidone als Zusatzbehandlung (mit Lithium, Divalproex und/oder Lamotrigin) bei gemischten Zuständen einer bipolaren Störung; bewertete akute und langfristige bimodale Wirksamkeit und Prädiktoren des Behandlungsansprechens. |
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Literaturbeweise
+## Literaturevidenz
 
-| PMID | Jahr | Typ | Journal | Wichtigste Ergebnisse |
+Derzeit liegt keine zugehörige Literatur vor.
+
+---
+
+## Marktinformationen Deutschland
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/006561 | Iloperidone Vanda Pharmaceuticals (Vanda Pharmaceuticals Netherlands B.V.) | – | Schizophrenie; bipolare Störung (Status: erloschen) |
+
+---
+
+## Sicherheitsaspekte
+
+**Kontraindikationen aus dem Wissensgraphen (PrimeKG, keine Angaben aus der Fachinformation):**
+Die Einträge beruhen auf Beziehungen zwischen Wirkstoff und Erkrankung im Graphen. Sie sind kein Auszug aus einem Beipackzettel.
+
+- Herz-Kreislauf: Long-QT-Syndrom (auch familiär), Torsades de Pointes, Erregungsleitungsstörungen, plötzlicher Herzstillstand, Myokardinfarkt, Koronarthrombose, orthostatische Hypotonie, posturales orthostatisches Tachykardiesyndrom, Multisystematrophie
+- Stoffwechsel: Diabetes mellitus, Hyperglykämie, diabetische Ketoazidose, Adipositas (auch monogen), Kaliummangel
+- Blutbild: Neutropenie, Agranulozytose, Leukopenie, Hämoglobinopathie
+- Neurologie und Psychiatrie: Epilepsie, Alzheimer-Krankheit, malignes neuroleptisches Syndrom, Spätdyskinesie, linguofaziobukkale Dyskinesie
+- Sonstige: Lebererkrankung, Gallenblasenerkrankung, weibliches Mammakarzinom, Priapismus
+
+**Arzneimittelwechselwirkungen:** Insgesamt sind 100 Wechselwirkungen verzeichnet. Die Auswahl hier zeigt nur einen Teil.
+- **Schwerwiegend (Major):** Bupropion, Morphin, Clarithromycin
+- **Moderat (Auswahl):** Antidiabetika (Metformin, Pioglitazon, Alogliptin, Canagliflozin, Acarbose, Chlorpropamid, Albiglutid), Anticholinergika (Atropin, Hyoscyamin, Glycopyrronium), Epinephrin, Famotidin, Loperamid, Lorcaserin sowie Abführmittel (Bisacodyl, Picosulfat, Polyethylenglykol)
+
+Warnhinweise und Kontraindikationen aus der Fachinformation liegen nicht vor. Dafür bitte die Fachinformation heranziehen.
+
+---
+
+## Hinweis: Indikation mit der besten Evidenz in den Daten
+
+Die einzige vorhergesagte Indikation mit relevanter Evidenz ist **manische bipolare Störung** (Vorhersagewert 99,977 %, Modellrang 552). Sie ist keine Neuindikation im eigentlichen Sinn, da sie mit der ursprünglichen Indikation (bipolare Störung) überlappt. Sie entspricht eher einer Bestätigung als einer echten Umwidmung.
+
+| PMID | Jahr | Typ | Journal | Kernaussage |
 |------|-----|------|------|---------|
-| [38236020](https://pubmed.ncbi.nlm.nih.gov/38236020/) | 2024 | RCT (Phase 3) | J Clin Psychiatry | Randomisierte, doppelblinde, placebokontrollierte Studie (27 Standorte); Iloperidone bis 24 mg/Tag reduzierte YMRS-Scores nach 4 Wochen signifikant gegenüber Placebo bei Erwachsenen mit bipolarer Manie. |
-| [39008105](https://pubmed.ncbi.nlm.nih.gov/39008105/) | 2024 | Behördliche Aktualisierung | The Medical Letter | Berichtet über die FDA-Genehmigung einer neuen bipolaren Störungs-Indikation für Iloperidone (Fanapt). |
-| [39800949](https://pubmed.ncbi.nlm.nih.gov/39800949/) | 2025 | Übersicht | Ann Pharmacother | Bewertet die Wirksamkeit von Iloperidone bei bipolarer Manie Typ I und erörtert das Sicherheitsprofil (QTc-Verlängerung, orthostatische Hypotonie, metabolische Wirkungen). |
-| [28817490](https://pubmed.ncbi.nlm.nih.gov/28817490/) | 2017 | Offene Studie | J Clin Psychopharmacol | Offene Studie von Iloperidone bei gemischten Episoden einer bipolaren Störung; vermerkt die Schwierigkeit der Behandlung gemischter Zustände und Lücken in der Depressionsansprach-Berichterstattung für FDA-genehmigte Mittel. |
-| [22900950](https://pubmed.ncbi.nlm.nih.gov/22900950/) | 2012 | Systematische Übersicht/Metaanalyse | CNS Drugs | Vergleicht Körpergewicht und metabolische Nebenwirkungen von Asenapin, Iloperidone, Lurasidon und Paliperidon bei Schizophrenie und bipolarer Störung. |
-| [33177350](https://pubmed.ncbi.nlm.nih.gov/33177350/) | 2021 | Vergleichende Studie | J Clin Psychopharmacol | Vergleicht metabolische Charakteristika neuerer Antipsychotika der zweiten Generation (einschließlich Iloperidone) mit Olanzapin. |
-| [41826282](https://pubmed.ncbi.nlm.nih.gov/41826282/) | 2026 | Pharmakogenomische Analyse | Pharmacogenomics J | Sekundäranalyse der Phase-3-Bipolar-Manie-Studie; SLC2A9-Variante mit Iloperidone-bezogener Harnsäureerhöhung assoziiert. |
-| [39126643](https://pubmed.ncbi.nlm.nih.gov/39126643/) | 2024 | Übersicht (Sicherheit/QTc) | Expert Opin Drug Saf | Aktualisierte Sicherheitsübersicht atypischer Antipsychotika und QTc-/Torsades-de-Pointes-Risiko, relevant für das bekannte kardiale Signal von Iloperidone. |
-| [22849428](https://pubmed.ncbi.nlm.nih.gov/22849428/) | 2012 | Übersicht | Expert Opin Pharmacother | Einführung in Iloperidone, Asenapin und Lurasidon; bestätigt die ursprüngliche Schizophrenie-Indikation von Iloperidone und den gemeinsamen Rezeptormechanismus relevant für bipolare Störung. |
-| [18095919](https://pubmed.ncbi.nlm.nih.gov/18095919/) | 2008 | Übersicht | Expert Opin Investig Drugs | Frühes Profil von Iloperidone als 5-HT2A/D2-Antagonist in der Entwicklung für Schizophrenie und bipolare Störung. |
+| [38236020](https://pubmed.ncbi.nlm.nih.gov/38236020/) | 2024 | RCT | J Clin Psychiatry | Phase-3-Studie, doppelblind und placebokontrolliert: Iloperidon (bis 24 mg/Tag) bei bipolarer Manie über 4 Wochen |
+| [39800949](https://pubmed.ncbi.nlm.nih.gov/39800949/) | 2025 | Review | Ann Pharmacother | Wirksamkeit bei Manie bei bipolarer Störung Typ I; Sicherheit (QTc-Verlängerung, orthostatische Hypotonie, Stoffwechsel) |
+| [39008105](https://pubmed.ncbi.nlm.nih.gov/39008105/) | 2024 | Review | Med Lett Drugs Ther | Neue Indikation bipolare Störung (Fanapt) |
+| [39126643](https://pubmed.ncbi.nlm.nih.gov/39126643/) | 2024 | Review | Expert Opin Drug Saf | QTc-Intervall und Torsades-de-Pointes-Risiko atypischer Antipsychotika |
+| [28817490](https://pubmed.ncbi.nlm.nih.gov/28817490/) | 2017 | Offene Studie | J Clin Psychopharmacol | Iloperidon bei gemischten Episoden der bipolaren Störung |
+
+Die Einstufung dieser Evidenz stützt sich auf Titel und Kurzfassungen. Phase und Ergebnisse sollten anhand der Volltexte bestätigt werden. Zudem ist kein klinischer Studieneintrag verknüpft.
 
 ---
 
-## Marktinformationen
+## Fazit und nächste Schritte
 
-Das Arzneimittel ist derzeit **nicht vermarktet** und verfügt über **keine Vermarktungsgenehmigungen** registriert (0 Lizenzen registriert). Keine Darreichungsform oder genehmigte Indikationsdaten sind für die lokale Überprüfung verfügbar.
-
----
-
-## Sicherheitserwägungen
-
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
-
----
-
-## Schlussfolgerung und nächste Schritte
-
-**Entscheidung: Fortfahren mit Vorsichtsmaßnahmen**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die vorhergesagte bipolare Manie-Indikation wird durch eine abgeschlossene Phase-3-RCT, eine abgeschlossene Phase-4-Studie und bestätigte 2024 behördliche Genehmigung in mindestens einem Markt unterstützt, was ihr L1-Ebenen-Evidenz verleiht – wesentlich stärker als die neun anderen TxGNN-Vorhersagen von Iloperidone, denen jede klinische oder mechanistische Unterstützung fehlt und die angehalten werden sollten. Jedoch bedeutet die völlige Abwesenheit lokaler Vermarktungsgenehmigung, Packungsbeilage-Warnungen/Kontraindikationen und MOA-Dokumentation (beide gekennzeichnet als Blocking/Schweregrad Hohe Datenlücken), dass der Kandidat das anfängliche Sicherheits-Screening (S1) noch nicht bestehen kann.
+Für die bestplatzierte Vorhersage (retinale Dystrophie) gibt es weder Studien noch Literatur noch einen erkennbaren pharmakologischen Zusammenhang. Der hohe Modellwert allein genügt nicht. Zusätzlich ist die Zulassung in Deutschland erloschen.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- Abrufen der offiziellen Packungsbeilage (Warnungen, Kontraindikationen, DDI) von der zuständigen Behörde, um die Datenlücke DG001 (Blocking) zu schließen
-- Abrufen formaler Wirkmechanismus-Dokumentation von DrugBank, um die Datenlücke DG002 (Hoch) zu schließen
-- Bestätigung des lokalen Vermarktungsgenehmigungsstatus und Pathway, falls ein Umwidmungsantrag angestrebt wird
-- Überwachung bekannter klassenweiter Risiken, die in der Literatur identifiziert wurden (QTc-Verlängerung, orthostatische Hypotonie, metabolische/Gewichtswirkungen, Akathisie) als Teil eines Sicherheitsüberwachungsplans
-
+**Für ein Weiterkommen wird Folgendes benötigt:**
+- Daten zum Wirkmechanismus (aus DrugBank) und eine Analyse eines möglichen mechanistischen Zusammenhangs mit den vorhergesagten Erkrankungen
+- Warnhinweise und Kontraindikationen aus der Fachinformation, da dies derzeit die Sicherheitsprüfung blockiert
+- Präklinische Hinweise oder Literatur, die eine retinale Wirkung stützen könnten
+- Prüfung des regulatorischen Status und der Verfügbarkeit, da nur eine erloschene Zulassung vorliegt
+- Sollte stattdessen die Indikation manische bipolare Störung weiterverfolgt werden: Volltextprüfung der Phase-3-Studie sowie ein Sicherheitskonzept (QTc-Überwachung, metabolische Effekte, Somnolenz, Wechselwirkungen)
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

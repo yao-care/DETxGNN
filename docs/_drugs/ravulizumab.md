@@ -2,7 +2,7 @@
 layout: default
 title: Ravulizumab
 parent: Nur Modellvorhersage (L5)
-nav_order: 330
+nav_order: 386
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,75 +29,84 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Ravulizumab: Bewertung der Arzneimittel-Umwidmung — Evidenzpaket unvollständig
+# Ravulizumab: Von paroxysmaler nächtlicher Hämoglobinurie zu autosomal-rezessiver schwerer kongenitaler Neutropenie (G6PC3-Mangel)
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Ravulizumab (DrugBank-ID: DB11580) ist ein Arzneimittel, bei dem dieses Evidenzpaket unzureichende Daten für eine standardmäßige Bewertung der Arzneimittel-Umwidmung enthält. Das TxGNN-Modell hat **keine prognostizierten Indikationen** für diesen Kandidaten zurückgegeben, und sowohl die ursprünglichen Indikationsdaten als auch die Mechanismus-der-Wirkung-Informationen fehlen. Eine vollständige Bewertung kann erst durchgeführt werden, wenn die unten aufgeführten Datenlücken geschlossen werden.
-
----
-
-## Schnelle Übersicht
-
-| Artikel | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | In diesem Evidenzpaket nicht verfügbar |
-| Vorhergesagte neue Indikation | Keine TxGNN-Vorhersage zurückgegeben |
-| TxGNN-Vorhersage-Score | N/A |
-| Evidenz-Niveau | L5 — Modell hat keine Ausgabe zurückgegeben; keine unterstützenden Studien |
-| Status am taiwanesischen Markt | ✗ Nicht zugelassen |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | **Aussetzung** |
+Ravulizumab ist ein lang wirksamer Komplement-C5-Inhibitor und wurde ursprünglich für die Behandlung der paroxysmalen nächtlichen Hämoglobinurie (PNH) zugelassen.
+Das TxGNN-Modell sagt voraus, dass er bei der **autosomal-rezessiven schweren kongenitalen Neutropenie durch G6PC3-Mangel** wirksam sein könnte.
+Für diese Vorhersage liegen jedoch **keine klinischen Studien** und **keine Publikationen** vor. Sie beruht ausschließlich auf einer graphbasierten Modellvorhersage.
 
 ---
 
-## Warum die Bewertung nicht fortgesetzt werden kann
+## Kurzüberblick
 
-Dieses Evidenzpaket fehlen drei Komponenten, die jeweils eigenständig erforderlich sind, bevor eine Bewertung der Arzneimittel-Umwidmung geschrieben werden kann:
-
-**1. Keine prognostizierte Indikation.** Das Feld `predicted_indications` ist leer. Das TxGNN-Modell hat keine Kandidatenerkrankung für dieses Arzneimittel zurückgegeben. Ohne eine prognostizierte Zielindikation gibt es keine Umwidmungshypothese zu bewerten — die zentrale Frage „wirksam gegen welche neue Erkrankung?" hat keine Antwort.
-
-**2. Keine ursprüngliche Indikation aufgezeichnet.** Das Feld `original_indications` ist ebenfalls leer. Dies verhindert die Etablierung des mechanistischen Ausgangspunkts — das „von" in der standardmäßigen Umwidmungserzählung. Ohne zu wissen, für welche Erkrankung das Arzneimittel entwickelt wurde, kann die Verwandtschaft mit einer neuen Indikation nicht bewertet werden.
-
-**3. Wirkungsmechanismus nicht verfügbar.** Das Feld `original_moa` hat keine Daten zurückgegeben. Mechanistische Plausibilität — typischerweise das stärkste Argument dafür oder dagegen, eine Arzneimittel-Umwidmung durchzuführen — kann nicht bewertet werden.
-
-Derzeit sind detaillierte Daten zum Wirkungsmechanismus nicht verfügbar. Basierend auf bekannten Registerdaten wird Ravulizumab unter der DrugBank-ID DB11580 klassifiziert, aber die spezifischen Daten zum pharmakologischen Angriffspunkt und zum Signalweg, die für diese Bewertung erforderlich sind, wurden nicht abgerufen.
-
----
-
-## Informationen zum taiwanesischen Markt
-
-Ravulizumab ist derzeit in Taiwan **nicht zugelassen und nicht im Handel erhältlich**. Es gibt keine von der TFDA ausgegebenen Arzneimittellizenzen auf Rekordhöhe.
-
-| Artikel | Status |
-|---------|--------|
-| TFDA-Marktstatus | Nicht im Handel |
-| Anzahl der Lizenzen | 0 |
-| Genehmigte Darreichungsformen | Keine |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Paroxysmale nächtliche Hämoglobinurie |
+| Vorhergesagte neue Indikation | Autosomal-rezessive schwere kongenitale Neutropenie durch G6PC3-Mangel |
+| TxGNN-Vorhersagewert | 99,96 % |
+| Evidenzgrad | L5 |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
+| Anzahl der Zulassungen | 1 |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Sicherheitsüberlegungen
+## Warum ist diese Vorhersage plausibel?
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. In diesem Evidenzpaket waren keine Daten zu Warnungen, Kontraindikationen oder Arzneimittelwechselwirkungen verfügbar.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Ravulizumab ein lang wirksamer Anti-C5-Komplementinhibitor ist. Seine Wirksamkeit bei PNH, einer komplementvermittelten Hämolyse, ist belegt.
+
+Ein mechanistischer Zusammenhang mit der vorhergesagten Indikation wird durch die vorliegenden Daten **nicht gestützt**. Der G6PC3-Mangel ist ein metabolischer, durch ER-Stress getriebener Defekt des Neutrophilenüberlebens, für den keine komplementgetriebene Pathologie bekannt ist. Der hohe TxGNN-Wert (0,9996) ist eine rein graphbasierte Vorhersage.
+
+Auch die übrigen Vorhersagen im Ranking (u. a. zyklische Hämatopoese, primäre Hyperoxalurie, schwere kongenitale Neutropenie, CXCR2-Mangel, p14-Mangel, Pseudo-von-Willebrand-Erkrankung, megaloblastäre Anämie) weisen keine belegte Komplement-C5-Beteiligung auf. Bei der primären Hyperoxalurie ist allenfalls ein indirekter, spekulativer Zusammenhang über eine komplementvermittelte Entzündung bei oxalatbedingter Nierenschädigung denkbar. Die Überschneidung der megaloblastären Anämie mit PNH (Hämolyse, erhöhtes LDH) sollte nicht mit einem gemeinsamen Mechanismus verwechselt werden.
+
+---
+
+## Klinische Evidenz
+
+Derzeit sind keine zugehörigen klinischen Studien registriert.
+
+---
+
+## Literaturevidenz
+
+Derzeit liegt keine zugehörige Literatur vor.
+
+---
+
+## Informationen zum deutschen Markt
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/004954 | Ultomiris | – | Paroxysmale nächtliche Hämoglobinurie |
+
+Der Status dieser Zulassung ist „erloschen/aufgehoben“. Eine gültige Zulassung ist in den Daten nicht verzeichnet.
+
+---
+
+## Sicherheitsaspekte
+
+- **Kontraindikationen aus dem Wissensgraphen** (PrimeKG, keine Packungsbeilagen-Angabe): Meningokokken-Infektion. Dies passt zum bekannten Infektionsrisiko unter Komplementblockade, insbesondere bei bereits immundefizienten Patienten (z. B. bei p14-Mangel).
+- **Arzneimittelwechselwirkungen**: 4 Wechselwirkungen mit geringem Schweregrad (Minor) gefunden, jeweils mit humanem Immunglobulin G (intravenös, subkutan, intramuskulär sowie intravenös und subkutan kombiniert).
+
+Für weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) ist die Packungsbeilage heranzuziehen.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Aussetzung**
+**Entscheidung: Hold**
 
 **Begründung:**
-Das Evidenzpaket für Ravulizumab fehlen alle drei Elemente, die für eine Bewertung der Arzneimittel-Umwidmung erforderlich sind: eine prognostizierte Zielindikation, ein ursprünglicher Indikationsbasispunkt und Daten zum Wirkungsmechanismus. Eine Empfehlung unter diesen Bedingungen abzugeben wäre spekulativ.
+Für die vorhergesagte Indikation gibt es weder klinische Studien noch Literatur, und ein mechanistischer Zusammenhang mit der Komplement-C5-Hemmung ist nicht erkennbar. Die Vorhersage stützt sich allein auf den Modellwert (Evidenzgrad L5). Zudem besteht in Deutschland keine gültige Zulassung.
 
-**Um fortzufahren, wird Folgendes benötigt:**
-
-- **TxGNN-Vorhersage-Pipeline für DB11580 erneut ausführen** — bestätigen Sie, warum `predicted_indications` leer zurückgegeben wurde (Modelllücke in der Abdeckung, Fehler in der Datenpipeline oder echtes Ergebnis ohne Vorhersage)
-- **MOA aus DrugBank-API abrufen** (DG002, hoher Schweregrad) — Abfrage der DrugBank für pharmakologischen Angriffspunkt, Mechanismus und Arzneimittelkategorie von Ravulizumab
-- **TFDA-Packungsbeilage-PDF herunterladen und analysieren** (DG001, blockierender Schweregrad) — Extrahieren Sie genehmigte Indikationen, wichtige Warnungen und Kontraindikationen für das taiwanesische Etikett
-- **Ursprüngliche Indikation klären** — bestätigen Sie aus der DrugBank oder aus der EMA/FDA-Kennzeichnung, für welche Erkrankung Ravulizumab derzeit zur Behandlung zugelassen ist; dies verankert die Erzählung der Arzneimittel-Umwidmung
-- **Evidenzpaket erneut einreichen**, sobald die vier oben genannten Elemente gelöst sind; eine vollständige Bewertung auf L1–L5-Evidenzniveau kann dann generiert werden
-
+**Für ein Fortschreiten sind folgende Schritte erforderlich:**
+- Daten zum Wirkmechanismus (MOA) ergänzen
+- Warnhinweise und Gegenanzeigen aus der Packungsbeilage (BfArM) beschaffen, da dieser Punkt die Sicherheitsprüfung blockiert
+- Präklinische oder mechanistische Belege für eine Rolle des Komplements bei der Zielerkrankung prüfen
+- Den Zulassungsstatus in Deutschland klären
+- Das Meningokokken-Infektionsrisiko in einer neutropenischen bzw. immundefizienten Population bewerten
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

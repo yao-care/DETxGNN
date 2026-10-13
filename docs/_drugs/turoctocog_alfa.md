@@ -2,7 +2,7 @@
 layout: default
 title: Turoctocog Alfa
 parent: Nur Modellvorhersage (L5)
-nav_order: 415
+nav_order: 485
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,81 +29,82 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Turoctocog Alfa: Von der Gerinnungsfaktor-Substitutionstherapie zur Primary Release Disorder of Platelets
+# Turoctocog alfa: Von Hämophilie A zu primärer Thrombozyten-Freisetzungsstörung
 
 ## Zusammenfassung in einem Satz
 
-Turoctocog alfa ist ein rekombinantes Faktor-VIII-Präparat. In diesem Evidence Pack stellt DrugBank weder die genehmigten Indikationen noch detaillierte Wirkmechanismen bereit (Datenlücke). Aus der Modell-Rationale ist jedoch bekannt, dass die klinisch etablierte Anwendung die Gerinnungsfaktor-VIII-Substitutionstherapie ist. Das TxGNN-Modell prognostiziert eine mögliche Wirksamkeit bei **Primary Release Disorder of Platelets** (Primäre Blutplättchen-Sekretionsstörung). Derzeit gibt es jedoch **0 klinische Versuche** und **0 Publikationen** zur Unterstützung, und das Modell selbst hat bereits deutlich gemacht, dass dieser Zusammenhang biologisch unplausibel ist.
+Turoctocog alfa ist ein rekombinanter Faktor-VIII-Ersatz mit verkürzter B-Domäne und wurde ursprünglich zur Behandlung der Hämophilie A zugelassen.
+Das TxGNN-Modell sagt voraus, dass der Wirkstoff bei der **primären Thrombozyten-Freisetzungsstörung** wirksam sein könnte.
+Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage beruht allein auf dem Modell.
 
 ---
 
-## Schnellübersicht
+## Kurzüberblick
 
 | Punkt | Inhalt |
-|-------|--------|
-| Ursprüngliche Indikation | Datenlücke (DrugBank original_indications leer; in Taiwan nicht vermarktet, keine Zulassungsdaten; bekannte klinische Anwendung ist Faktor-VIII-Substitutionstherapie) |
-| Prognostizierte neue Indikation | Primary release disorder of platelets |
-| TxGNN-Prognose-Score | 99,99 % (ursprünglicher Score 0.9999269, Rang 141) |
-| Evidenzstufe | L5 (nur Modellprognose, keine klinischen Versuche oder Publikationen) |
-| Marktstatus in Taiwan | Nicht vermarktet |
-| Anzahl der Genehmigungen | 0 |
+|------|------|
+| Ursprüngliche Indikation | Hämophilie A |
+| Vorhergesagte neue Indikation | Primäre Thrombozyten-Freisetzungsstörung (primary release disorder of platelets) |
+| TxGNN-Vorhersagewert | 99,99 % |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Nur erloschene bzw. widerrufene Zulassung |
+| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
 | Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Prognose plausibel?
+## Warum ist diese Vorhersage (nicht) plausibel?
 
-Derzeit sind keine detaillierten Wirkmechanismus-Daten (MOA) verfügbar. Basierend auf verfügbaren öffentlichen Informationen gehört Turoctocog alfa zur Klasse der rekombinanten Faktor-VIII-Präparate, deren Wirksamkeit bei Faktor-VIII-Mangel (z. B. Hämophilie A) als Substitutionstherapie klinisch nachgewiesen ist. Der Wirkmechanismus besteht darin, das fehlende endogene Faktor-VIII-Protein zu ersetzen und so die Tenase-Komplexfunktion wiederherzustellen, um die Gerinnung zu fördern.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Turoctocog alfa ein rekombinanter Faktor VIII (FVIII) mit verkürzter B-Domäne ist und bei Hämophilie A den fehlenden Gerinnungsfaktor ersetzt.
 
-In diesem Evidence Pack hat das Modell selbst für diese Top-1-Prognose jedoch bereits klargestellt: Die Pathologie der Primary Release Disorder of Platelets liegt im Defekt der Blutplättchen-Granula-Sekretion, nicht in einer Störung der Gerinnungsfaktor-Pfade. Zwischen Faktor VIII und dem Blutplättchen-Sekretionsmechanismus besteht **keine direkte physiologische Verbindung**. Mit anderen Worten: Dieser hohe Prognose-Score ist das Ergebnis der Mustererkennung durch das TxGNN-Graphen-Neuronennetz, ohne mechanistische Begründung und ohne klinische oder Publikationsevidenz.
+Bei Störungen der Thrombozyten-Freisetzung liegt der Defekt dagegen in den Blutplättchen selbst (Granulainhalt oder Signalwege), nicht in einem FVIII-Mangel. Ein FVIII-Ersatz hat daher keine klare mechanistische Grundlage. Der hohe TxGNN-Wert spiegelt wahrscheinlich die Nähe der Erkrankungen im Wissensgraphen (Blutungsstörungen) wider und keinen echten mechanistischen Zusammenhang.
 
-Bemerkenswert ist, dass der in diesem Evidence Pack aufgeführte fünfte Kandidat – „Acquired coagulation factor deficiency" (erworbener Gerinnungsfaktor-Mangel) – eine offensichtlich stärkere mechanistische Assoziation aufweist. Falls dieser Erkrankungsbegriff den erworbenen Faktor-VIII-Mangel einschließt, würde er direkt der bekannten Pharmakologie von Turoctocog alfa entsprechen. Dies bleibt jedoch eine Extrapolation auf Arzneimittelklassen-Ebene der bekannten Anwendungen und keine evidenzgestützte Aussage für diesen spezifischen Wirkstoff. Die Evidenzstufe erreicht nur L4 (Research-Question-Phase) und ist nicht ausreichend, um eine aktive Verfolgung zu unterstützen.
+Auch die übrigen vorhergesagten Indikationen sind überwiegend plausibel nicht gestützt:
 
----
+| Rang | Vorhergesagte Indikation | TxGNN-Wert | Einschätzung |
+|---|---|---|---|
+| 1 | Primäre Thrombozyten-Freisetzungsstörung | 99,99 % | Thrombozytendefekt, FVIII ohne klare Grundlage |
+| 2 | Pseudo-von-Willebrand-Erkrankung | 99,99 % | Thrombozytärer GPIbα-Defekt; nur lose Verbindung über VWF |
+| 3 | Glanzmann-Thrombasthenie | 99,99 % | Defekt von αIIbβ3; Standard sind Thrombozytentransfusion und rFVIIa |
+| 4 | Scott-Syndrom | 99,95 % | Theoretischer Bezug über den Tenase-Komplex, Defekt liegt aber in der Membran |
+| 5 | Erworbener Gerinnungsfaktormangel | 99,95 % | Mechanistisch am plausibelsten, aber Forschungsfrage (z. B. erworbene Hämophilie A mit Inhibitoren) |
+| 6 | Blutungsneigung bei Kollagenrezeptor-Defekt | 99,91 % | Thrombozytärer Defekt, FVIII wirkt nicht |
+| 7 | Blutungsstörung bei konstitutioneller Thrombozytopenie | 99,91 % | FVIII normal, keine Rationale |
+| 8 | „Flood factor deficiency“ | 99,61 % | Entität unklar, vorab zu klären |
+| 9 | Thrombotisch-thrombozytopenische Purpura | 99,54 % | ADAMTS13-Mangel; FVIII könnte das Thromboserisiko erhöhen |
+| 10 | Hereditäre Thrombozytose mit transversem Gliedmaßendefekt | 99,52 % | Keine plausible Verbindung, mögliches Thromboserisiko |
 
-## Weitere prognostizierte Indikationen (Rang 2–10) – Schnellübersicht
-
-Um die Gesamtheit der TxGNN-Prognosen vollständig darzustellen, werden die übrigen 9 Kandidatenindikationen wie folgt zusammengefasst:
-
-| Rang | Erkrankungsname | Score | Evidenzstufe | Empfehlung | Anmerkungen |
-|------|-----------------|-------|--------------|------------|-----------|
-| 2 | Pseudo-von-Willebrand disease | 99,99 % | L5 | Hold | Blutplättchen-GPIb-Rezeptor-Defekt, Wirkmechanismus spekulativ, keine klinischen Daten |
-| 3 | Glanzmann thrombasthenia | 99,99 % | L5 | Hold | GPIIb/IIIa-Defekt; Faktor VIII beeinflusst Blutplättchen-Membran-Glykoprotein-Funktion nicht |
-| 4 | Scott syndrome | 99,95 % | L5 | Hold | Phospholipid-Externalisierungsdefekt; Faktor VIII kann den zugrunde liegenden Defekt nicht beheben |
-| 5 | Acquired coagulation factor deficiency | 99,95 % | L4 | Research Question | Einziger Kandidat mit direktem Wirkmechanismus-Match, aber ohne arzneimittelspezifische Evidenz |
-| 6 | Bleeding diathesis due to collagen receptor defect | 99,91 % | L5 | Hold | GPVI-Defekt und Gerinnungsfaktor-Pfade sind unabhängig |
-| 7 | Hemorrhagic disorder due to constitutional thrombocytopenia | 99,91 % | L5 | Hold | Thrombozytopenie; Faktor VIII kann die Blutplättchenzahl nicht erhöhen |
-| 8 | Flood factor deficiency | 99,61 % | L5 | Hold | Erkrankungsname ist kein standardisierter medizinischer Begriff; vermutlich Datentranslationsfehler |
-| 9 | Thrombotic thrombocytopenic purpura | 99,54 % | L5 | **Hold (Sicherheit ausgeschlossen)** | ⚠️ TTP ist eine thrombotische Erkrankung; die Gabe des pro-koagulierenden Faktor VIII könnte die Mikrothrombenbildung verschärfen; der Wirkmechanismus ist der Erkrankungspathologie **entgegengesetzt**. Sollte prioritär ausgeschlossen werden; keine weitere Bewertung empfohlen |
-| 10 | Hereditary thrombocytosis with transverse limb defect | 99,52 % | L5 | Hold | Seltenes entwicklungs-assoziiertes Syndrom ohne plausible physiologische Beziehung zu Faktor VIII |
-
-**Sicherheits-Flagge**: Rang 9, Thrombotic Thrombocytopenic Purpura (TTP), ist eine Gegenindikations-Kandidatin. Die Verabreichung von Gerinnungsfaktoren könnte die Mikrogefäß-Thrombose-Pathologie verschärfen. Sollte auf die Liste der nicht zu verfolgenden Kandidaten gesetzt werden, um Missbrauch in künftiger Forschung zu vermeiden.
+Am ehesten als Forschungsfrage eignet sich der **erworbene Gerinnungsfaktormangel**, sofern er nach Subtyp präzise definiert wird.
 
 ---
 
-## Klinische Versuchsevidenz
+## Klinische Evidenz
 
-Derzeit keine entsprechenden Versuchsregistrierungen vorhanden.
-
----
-
-## Publikationsevidenz
-
-Derzeit keine entsprechenden Publikationsdaten vorhanden.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Marktinformation Taiwan
+## Literaturevidenz
 
-Turoctocog alfa ist derzeit **in Taiwan nicht vermarktet** und hat keine Zulassungsdaten.
+Derzeit liegt keine zugehörige Literatur vor.
 
 ---
 
-## Sicherheitserwägungen
+## Informationen zum Markt in Deutschland
 
-Siehe Fachinformation (Warnhinweise und Vorsichtsmaßnahmen).
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/002719 | NovoEight (Novo Nordisk A/S) | – | Hämophilie A |
 
-Ergänzende Anmerkung: Dieses Evidence Pack kennzeichnet die BfArM-Fachinformationen-Warnhinweise und Kontraindikationen als **Blocking-Level-Datenlücke (DG001)**. Solange diese Lücke nicht geschlossen ist, kann dieser Wirkstoff die S1-Sicherheitsprüfungsphase nicht einleiten. Die Wirkmechanismus-Daten (DG002) sind ebenfalls eine High-Level-Lücke, die die Zuverlässigkeit der mechanistic-link-Analyse einschränkt.
+Diese Zulassung ist erloschen bzw. widerrufen; es gibt keine gültige Zulassung.
+
+---
+
+## Sicherheitshinweise
+
+Bitte entnehmen Sie die Sicherheitsinformationen der Packungsbeilage. Für den Wirkstoff liegen in den zusammengestellten Daten weder Warnhinweise noch Gegenanzeigen vor, und es wurden keine Arzneimittelwechselwirkungen gefunden.
+
+Zu beachten ist ein theoretisches Sicherheitsrisiko bei der **thrombotisch-thrombozytopenischen Purpura** und der **hereditären Thrombozytose**: Erhöhte FVIII-Spiegel wirken prothrombotisch und könnten das Thromboserisiko steigern.
 
 ---
 
@@ -112,15 +113,14 @@ Ergänzende Anmerkung: Dieses Evidence Pack kennzeichnet die BfArM-Fachinformati
 **Entscheidung: Hold**
 
 **Begründung:**
-- Die Top-1-Prognose (Primary release disorder of platelets) hat eine Evidenzstufe von L5 ohne klinische Versuchs- oder Publikationsevidenz, und das Modell selbst hat bereits klargestellt, dass die biologische Plausibilität schwach ist.
-- In Taiwan nicht vermarktet, keine Zulassungsdaten verfügbar, und BfArM-Sicherheitsdaten sind eine Blocking-Level-Lücke; eine Vollendung der S1-Sicherheitsprüfung ist noch nicht möglich.
+Für alle zehn vorhergesagten Indikationen liegen weder klinische Studien noch Publikationen vor (Evidenzstufe L5). Die Vorhersagen beruhen auf der Nähe im Wissensgraphen, und die zugrunde liegenden Defekte (meist thrombozytär) werden durch FVIII-Ersatz nicht behoben. Zudem besteht in Deutschland keine gültige Zulassung.
 
-**Für einen Fortschritt erforderlich:**
-- BfArM-Fachinformationen-Warnhinweise und Kontraindikationen (DG001, Blocking, erfordert PDF-Fachinformations-Download und -Analyse)
-- DrugBank-Wirkmechanismus (MOA)-Detaildaten (DG002, High, erfordert Abfrage der DrugBank-API)
-- Falls die Verfolgung von Rang-5-Kandidat (Acquired coagulation factor deficiency) in Betracht gezogen wird: arzneimittelspezifische klinische Versuchs- oder Publikationsevidenz für diese Indikation erforderlich, nicht nur Klassenextrapolation
-- Explizites Ausschließen von Rang-9-Kandidat (TTP) aus allen künftigen Entwicklungsprozessen, um Sicherheitsrisiko durch entgegengesetzte Wirkmechanismus-Richtung zu vermeiden
-
+**Für ein Weiterkommen ist Folgendes erforderlich:**
+- Packungsbeilage mit Warnhinweisen und Gegenanzeigen (Blockierende Datenlücke für das Sicherheits-Screening)
+- Daten zum Wirkmechanismus (MOA)
+- Klärung der unklaren Entität „flood factor deficiency“
+- Präzise Definition der Subtypen des erworbenen Gerinnungsfaktormangels (z. B. erworbene Hämophilie A) als einzig plausible Forschungsfrage
+- Systematische Literatur- und Studienrecherche zu den priorisierten Indikationen
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

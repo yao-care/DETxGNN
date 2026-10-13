@@ -2,7 +2,7 @@
 layout: default
 title: Tegafur
 parent: Hohe Evidenz (L1-L2)
-nav_order: 382
+nav_order: 448
 evidence_level: L1
 indication_count: 10
 ---
@@ -29,111 +29,119 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Tegafur: Von gastrointestinalen Krebserkrankungen zum Kolon-Neoplasma
+# Tegafur: Von Magenkarzinom zu Kolonneoplasie
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Tegafur ist ein Prodrug von 5-Fluorouracil (5-FU), traditionell verwendet als Komponente von Fluoropyrimidin-Kombinationsregimen (UFT, S-1) für gastrointestinale Malignome, einschließlich Magenkarzinom.
-> Das TxGNN-Modell sagt voraus, dass es wirksam sein könnte für **Kolon-Neoplasma**,
-> wobei derzeit **30 klinische Studien** und **20 Veröffentlichungen** diese Richtung unterstützen — obwohl die Evidenz weitgehend eine *bereits etablierte* Verwendung bestätigt statt eines neuen Umwidmungssignals.
+Tegafur ist ein orales Prodrug von 5-Fluorouracil (5-FU) und war ursprünglich für die Behandlung des Magenkarzinoms zugelassen. Das TxGNN-Modell sagt voraus, dass es bei **Kolonneoplasie (colonic neoplasm)** wirksam sein könnte. Diese Richtung wird derzeit durch **16 klinische Studien** und **20 Publikationen** gestützt, darunter mehrere abgeschlossene Phase-3-Studien mit tegafurhaltigen Regimen (überwiegend UFT, also Tegafur plus Uracil).
 
 ---
 
-## Schnelle Übersicht
+## Kurzüberblick
 
-| Posten | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Gastrointestinale Krebserkrankungen (z. B. Magenkarzinom), als Prodrug-Komponente von UFT (Tegafur+Uracil) und S-1 (Tegafur+Gimeracil+Oteracil) — kein formales Lizenzregistereintrag für Deutschland/Taiwan verfügbar |
-| Vorhergesagte neue Indikation | Kolon-Neoplasma |
-| TxGNN-Vorhersage-Score | 99.90% |
+| Ursprüngliche Indikation | Magenkarzinom (Stomach Neoplasms) |
+| Vorhergesagte neue Indikation | Kolonneoplasie (colonic neoplasm) |
+| TxGNN-Vorhersagewert | 99,90 % |
 | Evidenzstufe | L1 |
-| Marktstatus Deutschland | ✗ Nicht vermarktet |
-| Anzahl der Genehmigungen | 0 |
-| Empfohlene Entscheidung | Mit Schutzmaßnahmen fortfahren |
+| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
+| Anzahl der Zulassungen | 1 (davon 0 gültig) |
+| Empfohlene Entscheidung | Proceed with Guardrails (Fortführung mit Schutzmaßnahmen) |
 
 ---
 
-## Warum ist diese Vorhersage begründet?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit ist kein formales MOA-Datenfeld auf der Arzneistoffebene verfügbar, aber die mechanistische Begründung des Evidenzpakets ist klar: Tegafur ist ein Prodrug von 5-Fluorouracil, das metabolisch über das hepatische **CYP2A6** aktiviert wird. Nach der Umwandlung zu 5-FU hemmt es die Thymidulatsyntherase und blockiert die DNA-Synthese — ein klassischer Antimetaboliten-Chemotherapiemechanismus.
+Zu den Wirkmechanismus-Daten liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Nach bekanntem Wissen wird Tegafur überwiegend über das Leberenzym CYP2A6 zu 5-FU umgewandelt. 5-FU ist ein Fluoropyrimidin-Antimetabolit, der die Thymidylat-Synthase hemmt und damit die DNA-Synthese von Tumorzellen stört.
 
-Tegafur wird klinisch nie allein verwendet; es wird in Kombinationsprodukte formuliert — **UFT** (Tegafur + Uracil, wobei Uracil den 5-FU-Katabolismus über DPD blockiert) und **S-1** (Tegafur + Gimeracil + Oteracil, mit DPD-Inhibition und Reduktion der gastrointestinalen Toxizität). Beide Kombinationen sind bereits etablierte Standard-Adjuvans-/Palliativchemotherapie-Regimen für kolorektalen Krebs in mehreren Ländern (besonders Japan), wie in der großen Menge von Phase-3-Studien unten dargestellt.
+Das Magenkarzinom und das Kolonkarzinom sind beides gastrointestinale Adenokarzinome, die klassisch mit Fluoropyrimidinen behandelt werden. Der Wirkmechanismus von Tegafur ist daher direkt auf das Kolonkarzinom übertragbar. In UFT-Regimen hemmt zusätzlich Uracil den DPD-vermittelten Abbau von 5-FU, und Leucovorin verstärkt die Wirkung biochemisch.
 
-Dies bedeutet, dass die TxGNN-Vorhersage keine wirklich neuartige Indikation identifiziert, sondern vielmehr **eine bereits genehmigte Verwendung wiederherstellt** — der Mechanismus (Antimetaboliten-Störung der DNA-Synthese in schnell teilenden Epithelzellen) ist direkt auf das Kolon-Adenokarzinom anwendbar, und die klinische Evidenzbasis ist eher reif als explorativer Natur.
+Wichtig: Die unterstützenden Studien verwenden überwiegend UFT- oder S-1-Kombinationen, nicht Tegafur als Einzelsubstanz.
 
 ---
 
-## Klinische Studienevidenz
+## Klinische Evidenz
 
-| Studiennummer | Phase | Status | Teilnehmerzahl | Wichtigste Erkenntnisse |
+| Studiennummer | Phase | Status | Teilnehmerzahl | Zentrale Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT00378716](https://clinicaltrials.gov/study/NCT00378716) | Phase 3 | Abgeschlossen | 1608 | UFT+LV vs 5-FU+LV bei reseziertem Stadium II/III Kolonkrebs |
-| [NCT00392899](https://clinicaltrials.gov/study/NCT00392899) | Phase 3 | Abgeschlossen | 2025 | Adjuvante UFT vs Beobachtung bei kurativ reseziertem Stadium II Kolonkrebs |
-| [NCT00660894](https://clinicaltrials.gov/study/NCT00660894) | Phase 3 | Abgeschlossen | 1535 | UFT+LV vs S-1 als adjuvante Behandlung für Stadium III Kolonkrebs |
-| [NCT01918852](https://clinicaltrials.gov/study/NCT01918852) | Phase 3 | Abgeschlossen | 161 | SALTO-Studie: S-1 vs Capecitabin bei erstlinigem metastasiertem kolorektalen Krebs |
-| [NCT00905047](https://clinicaltrials.gov/study/NCT00905047) | Phase 3 | Abgeschlossen | 89 | Kreuzkontrollvergleich von Capecitabin vs UFT+Folinsäure bei fortgeschrittenem/metastasiertem kolorektalen Krebs |
-| [NCT00152230](https://clinicaltrials.gov/study/NCT00152230) | Phase 3 | Abgeschlossen | 900 | NSAS-CC: postoperative UFT vs Chirurgie allein bei Dukes-C-kolorektalen Krebs |
-| [NCT01225744](https://clinicaltrials.gov/study/NCT01225744) | Phase 2 | Abgeschlossen | 47 | Cetuximab + Irinotecan + Oxaliplatin + UFT bei erstlinigem metastasiertem kolorektalen Krebs |
-| [NCT00439517](https://clinicaltrials.gov/study/NCT00439517) | Phase 2 | Abgeschlossen | 302 | FOLFOX-4+Cetuximab vs UFOX+Cetuximab bei metastasiertem kolorektalen Krebs |
-| [NCT00385970](https://clinicaltrials.gov/study/NCT00385970) | Phase 3 | Unbekannt | 380 | UFT+PSK vs UFT+LV als adjuvante Therapie für Stadium IIB/III Kolonkrebs |
-| [NCT02887365](https://clinicaltrials.gov/study/NCT02887365) | Phase 4 | Unbekannt | 300 | Tegafur-Uracil als metronomische Erhaltungstherapie bei Stadium II MSI-L/MSS Kolonkrebs |
+| [NCT00378716](https://clinicaltrials.gov/study/NCT00378716) | Phase 3 | Abgeschlossen | 1608 | Orales UFT + Leucovorin vs. 5-FU + Leucovorin bei resezierten Kolonkarzinomen Stadium II/III |
+| [NCT00392899](https://clinicaltrials.gov/study/NCT00392899) | Phase 3 | Abgeschlossen | 2025 | Adjuvantes UFT vs. Beobachtung bei kurativ resezierten Kolonkarzinomen Stadium II |
+| [NCT00660894](https://clinicaltrials.gov/study/NCT00660894) | Phase 3 | Abgeschlossen | 1535 | UFT + Leucovorin vs. S-1 als adjuvante Therapie bei Kolonkarzinom Stadium III |
+| [NCT00152230](https://clinicaltrials.gov/study/NCT00152230) | Phase 3 | Abgeschlossen | 900 | Adjuvantes UFT vs. alleinige Operation bei Dukes-C-Kolorektalkarzinom (NSAS-CC) |
+| [NCT03448549](https://clinicaltrials.gov/study/NCT03448549) | Phase 3 | Unbekannt | 1191 | SOX (Oxaliplatin + S-1) vs. XELOX als adjuvante Therapie bei Kolorektalkarzinom Stadium III |
+| [NCT00385970](https://clinicaltrials.gov/study/NCT00385970) | Phase 3 | Unbekannt | 380 | UFT + PSK vs. UFT + Leucovorin bei Kolorektalkarzinom Stadium IIB/III |
+| [NCT00209742](https://clinicaltrials.gov/study/NCT00209742) | Phase 3 | Unbekannt | 340 | Postoperative UFT+LV-, UFT+LV/UFT- und UFT+LV+PSK/UFT+PSK-Therapien bei Stadium III |
+| [NCT00905047](https://clinicaltrials.gov/study/NCT00905047) | Phase 3 | Abgeschlossen | 89 | Cross-over-Präferenzstudie Xeloda vs. UFT + Folinsäure bei fortgeschrittenem/metastasiertem Kolorektalkarzinom |
+| [NCT02887365](https://clinicaltrials.gov/study/NCT02887365) | Phase 4 | Unbekannt | 300 | Tegafur-Uracil als metronomische Erhaltungstherapie bei MSS/MSI-L-Kolonkarzinom Stadium II |
+| [NCT00974389](https://clinicaltrials.gov/study/NCT00974389) | Phase 2 | Unbekannt | 40 | S-1 + Bevacizumab bei nicht resezierbarem/rezidiviertem Kolorektalkarzinom |
+
+Weitere Studien (Auswahl, hier nicht aufgeführt) betreffen unter anderem eine Phase-2-Studie zu UFT + Leucovorin bei älteren Patienten (NCT00004860), eine Phase-1-Studie mit Strahlentherapie bei Rektumkarzinom (NCT00002801) und eine Phase-2-Studie zu Fruquintinib + S-1 in der Drittlinie (NCT06255379).
 
 ---
 
 ## Literaturevidenz
 
-| PMID | Jahr | Typ | Zeitschrift | Wichtigste Erkenntnisse |
+| PMID | Jahr | Typ | Journal | Zentrale Ergebnisse |
 |------|-----|------|------|---------|
-| [33714860](https://pubmed.ncbi.nlm.nih.gov/33714860/) | 2021 | RCT | ESMO Open | ACTS-CC 02 5-Jahres-Update: S-1+Oxaliplatin nicht überlegen UFT/LV bei hochrisiko Stadium III Kolonkrebs |
-| [31917122](https://pubmed.ncbi.nlm.nih.gov/31917122/) | 2020 | RCT | Clin Colorectal Cancer | ACTS-CC 02 Phase-III-Studie, die UFT/LV als adjuvanten Vergleichsstandard etabliert |
-| [16648506](https://pubmed.ncbi.nlm.nih.gov/16648506/) | 2006 | RCT | J Clin Oncol | NSABP C-06: orales UFT+LV vs IV 5-FU+LV bei Stadium II/III Kolonkarzinom |
-| [26347106](https://pubmed.ncbi.nlm.nih.gov/26347106/) | 2015 | RCT | Ann Oncol | JFMC33-0502: optimale Dauer der UFT/LV-Adjuvantchemotherapie bei Stadium IIB/III Kolonkrebs |
-| [15108041](https://pubmed.ncbi.nlm.nih.gov/15108041/) | 2004 | RCT | Int J Clin Oncol | Adjuvante Immunochemotherapie vs Chemotherapie unter Verwendung von UFT-Kombinationen bei kolorektalen Krebs |
-| [6402917](https://pubmed.ncbi.nlm.nih.gov/6402917/) | 1983 | RCT | Am J Clin Oncol | Orales Tegafur vs IV 5-FU bei metastasiertem kolorektalen Krebs |
-| [33950962](https://pubmed.ncbi.nlm.nih.gov/33950962/) | 2021 | RCT/Kohortenstudie | Medicine | Taiwan NHIRD landesweite Kohortenstudie: UFT vs 5-FU als postoperative Adjuvantchemotherapie bei Stadium II/III Kolonkrebs |
-| [35168560](https://pubmed.ncbi.nlm.nih.gov/35168560/) | 2022 | Kohortenstudie | BMC Cancer | JFMC46-1201: UFT/LV-Wirksamkeit bei hochrisiko Stadium II Kolonkrebs (Propensity-Score-angepasst) |
-| [38833114](https://pubmed.ncbi.nlm.nih.gov/38833114/) | 2024 | Kohortenstudie | Int J Clin Oncol | JFMC46-1201 Endgültige Analyse: aktualisiertes 5-Jahres-Gesamtüberleben und Risikofaktoren |
-| [25209093](https://pubmed.ncbi.nlm.nih.gov/25209093/) | 2014 | Übersichtsarbeit | Clin Colorectal Cancer | Asiatische Konsensusleitlinie für die Verwaltung von metastasiertem kolorektalen Krebs |
+| [31917122](https://pubmed.ncbi.nlm.nih.gov/31917122/) | 2020 | RCT | Clin Colorectal Cancer | ACTS-CC 02: SOX vs. UFT/LV als adjuvante Therapie bei Hochrisiko-Kolonkarzinom Stadium III |
+| [33714860](https://pubmed.ncbi.nlm.nih.gov/33714860/) | 2021 | RCT | ESMO Open | 5-Jahres-Überleben von ACTS-CC 02: SOX war UFT/LV im krankheitsfreien Überleben nicht überlegen |
+| [33950962](https://pubmed.ncbi.nlm.nih.gov/33950962/) | 2021 | Kohortenstudie und Metaanalyse | Medicine | UFT vs. 5-FU als adjuvante Therapie bei Kolonkarzinom Stadium II/III (taiwanische Registerdaten) |
+| [27056996](https://pubmed.ncbi.nlm.nih.gov/27056996/) | 2016 | RCT (Phase 3) | Ann Oncol | ACTS-RC: S-1 vs. UFT als adjuvante Therapie bei Rektumkarzinom Stadium II/III |
+| [10089948](https://pubmed.ncbi.nlm.nih.gov/10089948/) | 1999 | Metaanalyse | Jpn J Clin Oncol | Individuelle Patientendaten: orale Fluoropyrimidine als adjuvante Therapie nach Resektion |
+| [17952521](https://pubmed.ncbi.nlm.nih.gov/17952521/) | 2007 | Review | Surg Today | UFT als adjuvante Chemotherapie: klinische Evidenz und Wirkmechanismus |
+| [16111469](https://pubmed.ncbi.nlm.nih.gov/16111469/) | 2005 | Review | Expert Rev Anticancer Ther | Stadienspezifische Chemotherapieoptionen beim Kolonkarzinom |
+| [25209093](https://pubmed.ncbi.nlm.nih.gov/25209093/) | 2014 | Konsensus/Leitlinie | Clin Colorectal Cancer | Asiatischer Konsens zur Behandlung des metastasierten Kolorektalkarzinoms |
+| [36676634](https://pubmed.ncbi.nlm.nih.gov/36676634/) | 2022 | Kohortenstudie | Medicina (Kaunas) | Nutzen von UFT als adjuvante Therapie bei Kolonkarzinom Stadium IIA |
+| [11320674](https://pubmed.ncbi.nlm.nih.gov/11320674/) | 2001 | Fallbericht (Nebenwirkung) | Cancer Chemother Pharmacol | UFT-induzierte hämolytische Anämie bei metastasiertem Kolonkarzinom |
 
 ---
 
 ## Marktinformationen Deutschland
 
-Keine Genehmigungsdatensätze verfügbar — Tegafur (oder seine Kombinationsprodukte UFT/S-1) ist derzeit unter diesem Evidenzpaket in Deutschland nicht vermarktet (0 Lizenzen in der Datei).
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/001242 | Teysuno | – | Magenkarzinom (Stomach Neoplasms) |
+
+Der Status dieser Zulassung lautet „erloschen/zurückgezogen" (cancelled). Derzeit gibt es keine gültige Zulassung, daher muss die regulatorische Verfügbarkeit je nach Region gesondert geprüft werden.
 
 ---
 
 ## Zytotoxizität
 
-| Posten | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Zytotoxizitätsklassifizierung | Konventionelle Zytotoxika (Fluoropyrimidin-Klasse, 5-FU-Prodrug) |
-| Myelosuppressions-Risiko | Moderat — konsistent mit Fluoropyrimidin-Klasseneffekten (Neutropenie, Thrombozytopenie); kein arzneistoffspezifischer Toxizitätsdatensatz bereitgestellt |
-| Klassifizierung der Emetogenität | Niedrig bis moderat |
-| Überwachungselemente | Vollständiges Blutbild mit Differentialzählung, Leber- und Nierenfunktion; **DPD/DPYD-Genotyp-Screening vor Initiierung empfohlen** (gemäß Fluoropyrimidin-Sicherheitsevidenz, z. B. NCT05266300) |
-| Schutzmaßnahmen bei der Handhabung | Muss Standard-Handhabungs- und Entsorgungsvorschriften für Zytotoxika befolgen |
+| Zytotoxizitätsklassifikation | Konventionelles Zytostatikum (Fluoropyrimidin-Antimetabolit, Prodrug von 5-FU) |
+| Myelosuppressionsrisiko | Mittel (typisch für Fluoropyrimidine; Hinweis: UFT gilt als vergleichsweise mild) |
+| Emetogenität | Niedrig bis mittel |
+| Überwachungsparameter | Blutbild mit Differenzialblutbild, Leber- und Nierenfunktion, Elektrolyte |
+| Handhabungsschutz | Vorgaben für den Umgang mit Zytostatika beachten |
+
+Genauere Angaben bitte den Warnhinweisen und Vorsichtsmaßnahmen der Fachinformation entnehmen.
 
 ---
 
-## Sicherheitsüberlegungen
+## Sicherheitsaspekte
 
-Bitte beachten Sie die Fachinformation für Sicherheitsinformationen.
+Für Warnhinweise, Gegenanzeigen und Wechselwirkungen liegen in den zusammengestellten Daten keine Angaben vor. Bitte die Fachinformation für Sicherheitsinformationen heranziehen.
+
+Ein Hinweis aus der Literatur: Berichtet wurde ein Fall einer hämolytischen Anämie unter UFT (PMID 11320674).
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Mit Schutzmaßnahmen fortfahren**
+**Entscheidung: Proceed with Guardrails (Fortführung mit Schutzmaßnahmen)**
 
 **Begründung:**
-Mehrere abgeschlossene Phase-3-RCTs (n bis 2025) unterstützen konsistent Tegafur-basierte Kombinationsregimen (UFT, S-1) als wirksame adjuvante/palliative Therapie für Kolonkrebs, und diese Verwendung ist bereits Standardpraxis in mehreren Märkten — dies ist eine Evidenzkonsolidierung einer bestehenden Indikation statt einer spekulativen neuen Verwendung. Die Substanz hat derzeit jedoch null Vermarktungsgenehmigungen in Deutschland und verfügt über keine formalen Sicherheits-/Labeldaten.
+Mehrere abgeschlossene Phase-3-Studien (u. a. NCT00378716, NCT00392899, NCT00152230, NCT00660894) belegen die Wirksamkeit tegafurhaltiger Regimen (UFT) bei Kolonkarzinom. Allerdings stammt die Evidenz überwiegend aus UFT- oder S-1-Kombinationen, nicht aus Tegafur als Einzelsubstanz, und die einzige deutsche/europäische Zulassung ist erloschen.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- Offizielle TFDA/BfArM-Fachinformation (Warnhinweise, Kontraindikationen) — derzeit eine blockierende Datenlücke
-- Bestätigte arzneistoffbezogene MOA-Dokumentation von DrugBank, um die Mechanismus-Datenlücke formell zu schließen
-- DPD/DPYD-Mangel-Screening-Protokoll vor Empfehlung der klinischen Anwendung angesichts des Toxizitätsrisikos der Fluoropyrimidin-Klasse
-- Bewertung des Regulierungspfads, da die Substanz derzeit in Deutschland nicht vermarktet wird
-
+**Für das weitere Vorgehen erforderlich:**
+- Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen), da die Sicherheitsdaten bislang fehlen und dies den Übergang zur Sicherheitsprüfung blockiert
+- Detaillierte Wirkmechanismus-Daten (z. B. aus DrugBank)
+- Klärung der regulatorischen Verfügbarkeit je Region (Zulassung in Deutschland erloschen)
+- Klärung, inwieweit sich die Evidenz aus UFT- und S-1-Regimen auf Tegafur übertragen lässt
+- Sicherheitsüberwachungsplan, u. a. zur DPD-Defizienz und zu Blutbildveränderungen
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

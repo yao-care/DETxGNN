@@ -2,7 +2,7 @@
 layout: default
 title: Ranolazine
 parent: Nur Modellvorhersage (L5)
-nav_order: 326
+nav_order: 382
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,69 +29,71 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Ranolazine: Bewertung der Arzneimittelumwidmung unvollständig — Unzureichende Evidenzpaketdaten
+# Ranolazin: Von Angina pectoris zum nephrogenen Syndrom der inadäquaten Antidiurese (NSIAD)
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Ranolazine (DrugBank-ID: DB00243) ist ein kardiovaskuläres Arzneimittel ohne aktuelle Zulassung durch taiwanische Behörden.
-Das TxGNN-Modell hat **keine Umwidmungsprognosen** für diesen Kandidaten generiert,
-und zwei kritische Datenlücken — einschließlich einer Abwesenheit von TFDA-Sicherheitsdaten mit **blockierendem Schweregrad** und einer Abwesenheit des Wirkmechanismus mit **hohem Schweregrad** — verhindern zum gegenwärtigen Zeitpunkt eine vollständige Bewertung.
-
----
+Ranolazin wurde ursprünglich zur Behandlung der **Angina pectoris** zugelassen. Das TxGNN-Modell sagt voraus, dass es bei dem **nephrogenen Syndrom der inadäquaten Antidiurese (NSIAD)** wirksam sein könnte. Für diese Vorhersage liegen derzeit **keine klinischen Studien und keine Publikationen** vor; sie beruht ausschließlich auf einer Modellberechnung.
 
 ## Schnellübersicht
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Nicht verfügbar (keine taiwanische Lizenz auf Rekord) |
-| Prognostizierte neue Indikation | Keine — TxGNN-Prognosen nicht generiert |
-| TxGNN-Prognosewert | Nicht verfügbar |
-| Evidenzstufe | L5 (keine Prognosen oder Studien verfügbar) |
-| Marktstatus Taiwan | ✗ Nicht vermarktet |
-| Anzahl der Genehmigungen | 0 |
-| Empfohlene Entscheidung | **Halten** |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Angina pectoris |
+| Vorhergesagte neue Indikation | Nephrogenes Syndrom der inadäquaten Antidiurese (NSIAD) |
+| TxGNN-Vorhersagewert | 99,65 % |
+| Evidenzlevel | L5 |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
+| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 aufgehoben) |
+| Empfohlene Entscheidung | Hold |
 
----
+## Warum ist diese Vorhersage plausibel?
 
-## Warum ist diese Prognose angemessen?
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Allgemein wird Ranolazin als Hemmer des späten Natriumstroms (und als partieller Hemmer der Fettsäureoxidation) beschrieben und bei Angina pectoris eingesetzt.
 
-Für Ranolazine wurde in diesem Evidenzpaket keine TxGNN-Umwidmungsprognose generiert. Ohne eine prognostizierte Indikation kann kein mechanistisches Rationale konstruiert werden.
+NSIAD wird durch aktivierende Mutationen des Vasopressin-V2-Rezeptors (AVPR2) verursacht. Diese führen zu einer konstitutiven Rezeptoraktivität und zu Wasserretention unabhängig von Vasopressin. Ein belastbarer mechanistischer Zusammenhang zwischen Ranolazin und dieser Erkrankung ist nicht belegt. Denkbar, aber rein spekulativ, wären Effekte auf die renale Natriumhandhabung oder auf die cAMP-/Aquaporin-2-Signalwege. Hierfür liegen keine unterstützenden Daten vor.
 
-Der Wirkmechanismus (MOA) ist als **hohes Datenlückenproblem (DG002)** gekennzeichnet. Ohne zu wissen, wie Ranolazine seine therapeutische Wirkung ausübt, ist es nicht möglich, Rückschlüsse darauf zu ziehen, welche anderen Krankheitswege es möglicherweise ansprechen könnte. Die DrugBank-API-Abfrage, die im Abfragelog aufgezeichnet ist (ID: 3), gab ein Ergebnis zurück, aber MOA-Inhalte wurden nicht in das Evidenzpaket eingefügt — dies sollte durch erneutes Parsen der DrugBank-Antwort behoben werden.
+Der sehr hohe TxGNN-Wert (0,996) ist lediglich eine rechnerische Vorhersage und ersetzt keine klinische oder mechanistische Evidenz. Zudem ist NSIAD eine extrem seltene Erkrankung, was die Validierung erschwert; die Vorhersage könnte auch auf Netzwerk- bzw. Graph-Artefakten beruhen.
 
-Die TFDA-Packungsbeilage-Abfrage (Abfragelog-ID: 4) gab ebenfalls ein Ergebnis zurück, doch es wurden keine genehmigten Indikationen, Warnungen oder Kontraindikationen in das Evidenzpaket extrahiert. Bis diese beiden Abhilfemaßnahmen abgeschlossen sind, ist die mechanistische Analyse blockiert.
+## Evidenz aus klinischen Studien
 
----
+Derzeit sind keine einschlägigen klinischen Studien registriert.
 
-## Markkinformationen Taiwan
+## Literaturevidenz
 
-Ranolazine hat keine genehmigten Arzneimittellizensen in Taiwan. Es sind keine Genehmigungsdatensätze zur Überprüfung verfügbar.
+Derzeit liegt keine einschlägige Literatur vor.
 
----
+## Marktinformationen Deutschland
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000805 | Ranexa (zuvor Latixa) | – | Angina pectoris |
+
+Hinweis: Diese Zulassung (Inhaber: Menarini International Operations Luxembourg S.A.) ist als aufgehoben geführt.
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+- **Kontraindikationen laut Wissensgraph (TxGNN/PrimeKG, kein Packungsbeilagentext):** Long-QT-Syndrom, familiäres Long-QT-Syndrom, Torsades de pointes, Nierenerkrankung, Pyoureter, Leberzirrhose.
+- **Arzneimittelwechselwirkungen:** 100 Wechselwirkungen erfasst (Quelle: DDInter). In der vorliegenden Auswahl von 20 Einträgen:
+  - **Schwerwiegend (Major):** Aprepitant, Dexamethason, Clarithromycin, Dolasetron, Eliglustat
+  - **Moderat:** u. a. Famotidin, Metformin, Loperamid, Bisacodyl, Budesonid (auch nasal), Canagliflozin, Dapagliflozin, Empagliflozin, Picosulfat, Polyethylenglykol (3350 mit Elektrolyten), Natriumsulfat
+  - **Gering (Minor):** Bupropion, Lorcaserin, Cimetidin
 
-> **Datenlücken-Hinweis:** Wichtige Warnungen, Kontraindikationen und Daten zu Arzneimittel-Wechselwirkungen sind alle in diesem Evidenzpaket nicht verfügbar. Insbesondere existiert eine **Datenlücke mit blockierendem Schweregrad (DG001)** für TFDA-Packungsbeilage-Warnungen und Kontraindikationen — dies verhindert den Eintritt in die S1-Phase der Sicherheits-Vorprüfung. Die DDI-Abfrage (Abfragelog-ID: 2) gab `not_found` zurück.
-
----
+Für weitere Sicherheitsinformationen (Warnhinweise, Kontraindikationen laut Fachinformation) ist die Packungsbeilage bzw. Fachinformation heranzuziehen.
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Halten**
+**Entscheidung: Hold**
 
-**Rationale:**
-Dieser Kandidat kann zum gegenwärtigen Zeitpunkt nicht für eine Arzneimittelumwidmung bewertet werden. Die Abwesenheit von TxGNN-Prognosen, der fehlende MOA und die ungeklärte Datenlücke mit blockierendem Schweregrad verhindern zusammen jede sinnvolle Bewertung von Nutzen, Risiko oder mechanistischer Plausibilität.
+**Begründung:**
+Die Vorhersage stützt sich ausschließlich auf das Modell (Evidenzlevel L5), ohne klinische Studien, Literatur oder validierten mechanistischen Zusammenhang. Zudem besteht in Deutschland derzeit keine gültige Zulassung, und die Kontraindikationen im Wissensgraphen (QT-Verlängerung, Nieren- und Lebererkrankungen) erfordern besondere Vorsicht.
 
-**Um fortzufahren, wird Folgendes benötigt:**
-
-- **[DG001 — Blockierend]** Erneutes Parsen des TFDA-Packungsbeilagen-PDF (Abfrage bereits erfolgreich; Extraktions-Pipeline muss überprüft werden) zum Ausfüllen von Warnungen und Kontraindikationen
-- **[DG002 — Hoch]** Erneute Abfrage der DrugBank-API und Extraktion von MOA, Arzneimittelkategorien und Toxizitätsfeldern für Ranolazine (DB00243)
-- **TxGNN-Pipeline erneut ausführen** nach dem Ausfüllen von MOA- und Indikationsdaten, um Umwidmungsprognosen zu generieren
-- **DDI-Abfrage erneut ausführen** gegen eine alternative Quelle (z. B. DrugBank-Interaktions-Endpunkt) zum Ausfüllen von Arzneimittel-Wechselwirkungsdaten
-- Nach Verfügbarkeit von Prognosen dieses Evidenzpaket bei v5+ für vollständige Bewertung erneut generieren
-
+**Zur Weiterverfolgung sind folgende Schritte nötig:**
+- Vollständige Daten zum Wirkmechanismus (z. B. aus DrugBank) und Prüfung eines plausiblen Zusammenhangs mit AVPR2-/Aquaporin-2-Signalwegen
+- Auswertung der Fachinformation/Packungsbeilage (Warnhinweise und Kontraindikationen) aus der BfArM-Quelle
+- Präklinische Untersuchungen oder Literaturrecherche zu Ranolazin bei NSIAD
+- Klärung des aktuellen Zulassungs- und Verfügbarkeitsstatus in Deutschland
+- Bewertung der Machbarkeit angesichts der extremen Seltenheit der Erkrankung sowie der Sicherheit (QT-Intervall, Nieren- und Leberfunktion, CYP3A-/P-gp-Wechselwirkungen)
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

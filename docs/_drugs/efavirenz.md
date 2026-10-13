@@ -2,15 +2,15 @@
 layout: default
 title: Efavirenz
 parent: Mittlere Evidenz (L3-L4)
-nav_order: 135
-evidence_level: L3
+nav_order: 157
+evidence_level: L4
 indication_count: 3
 ---
 
 # Efavirenz
 {: .fs-9 }
 
-Evidenzniveau: **L3** | Vorhergesagte Indikationen: **3** 
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,94 +29,109 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Efavirenz: Von der HIV-1-Infektion zur Simian-Immunodeficiency-Virus-Infektion
+# Efavirenz: Von HIV-Infektion zu Simian-Immundefizienzvirus-Infektion
 
 ## Zusammenfassung in einem Satz
 
-Efavirenz ist ein Nicht-Nukleosid-Reverse-Transkriptase-Hemmer (NNRTI), ursprünglich für die HIV-1-Infektion entwickelt (basierend auf allgemeinem pharmakologischen Wissen; keine verifizierte BfArM-Kennzeichnung liegt in diesem Evidence Pack vor).
-Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam für **Simian-Immunodeficiency-Virus-Infektion (SIV-Infektion)** ist,
-aber dieses Signal wird nur durch **1 klinische Studie (anderes Arzneimittel, zurückgezogen)** und **14 Publikationen, alle präklinische Makaken-Modellstudien** unterstützt – die Evidenz ist schwach und beschreibt größtenteils keine klinische Indikation beim Menschen.
+Efavirenz ist ein nicht-nukleosidischer Reverse-Transkriptase-Hemmer (NNRTI), der ursprünglich zur Behandlung von HIV-Infektionen zugelassen wurde.
+Das TxGNN-Modell sagt voraus, dass er bei der **Simian-Immundefizienzvirus-Infektion (SIV)** wirksam sein könnte.
+Dafür liegen **keine klinischen Studien** und **14 Publikationen** vor, die überwiegend präklinisch sind (Makakenmodelle).
 
 ---
 
-## Schnellübersicht
+## Kurzüberblick
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Nicht verfügbar in diesem Evidence Pack – keine BfArM-Zulassung dokumentiert (0 Lizenzen); Efavirenz ist allgemein als HIV-1-NNRTI bekannt, dies wird hier jedoch nicht durch regulatorische Daten bestätigt |
-| Vorhergesagte neue Indikation | Simian-Immunodeficiency-Virus-Infektion |
-| TxGNN-Vorhersage-Score | 99.80% |
-| Evidenzstufe | L3 |
-| Marktstatus Deutschland | ✗ Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Pausieren |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | HIV-Infektionen |
+| Vorhergesagte neue Indikation | Simian-Immundefizienzvirus-Infektion |
+| TxGNN-Vorhersagewert | 99,80 % |
+| Evidenzstufe | L4 |
+| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassungen |
+| Anzahl der Zulassungen | 5 (alle erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage sinnvoll?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Daten zum Wirkmechanismus nicht verfügbar (gekennzeichnet als Datenlücke DG002, hoher Schweregrad). Basierend auf allgemeinem pharmakologischen Wissen ist Efavirenz ein NNRTI, der die HIV-1-Reverse-Transkriptase blockiert; seine Wirksamkeit bei der HIV-1-Infektion ist in der Literatur gut belegt, konnte jedoch in diesem Pack nicht anhand strukturierter DrugBank-Daten verifiziert werden.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Efavirenz ist ein NNRTI, der die Reverse Transkriptase (RT) von HIV-1 hemmt. Seine Wirksamkeit bei HIV-Infektionen ist belegt.
 
-Die vorhergesagte „neue Indikation" – SIV-Infektion – ist keine natürlich auftretende menschliche Krankheit. Sie bezieht sich auf ein Labormodell: Forscher haben ein chimärisches Virus (RT-SHIV) entwickelt, indem sie das SIV-Reverse-Transkriptase-Gen durch das HIV-1-Reverse-Transkriptase-Gen ersetzt haben, wodurch es anfällig für NNRTIs wie Efavirenz in Rhesus-Makaken wird. Dies ermöglicht es Efavirenz, die Viruslast bei RT-SHIV-infizierten Makaken zu unterdrücken (z. B. PMID 15919889, 19889213), was fast sicher die Quelle der TxGNN-Assoziation ist. Natürliches, nicht-gentechnisch verändertes SIV ist von Natur aus resistent gegen Efavirenz, da sich die Wildtyp-SIV-Reverse-Transkriptase strukturell von der HIV-1-RT unterscheidet.
+Die Makakenstudien nutzen das chimäre Virus RT-SHIV, ein SIV, das die RT von HIV-1 trägt und deshalb auf Efavirenz anspricht. Die Daten zeigen somit, dass das Medikament in einem Tiermodell auf das HIV-1-RT-Ziel wirkt. Die native RT von SIV ist dagegen von Natur aus gegen NNRTIs resistent, die Ergebnisse belegen also keine Wirksamkeit gegen Wildtyp-SIV.
 
-Dies bedeutet, dass die mechanistische Verbindung real ist, aber eng gefasst: Sie gilt nur für ein gentechnisch verändertes Laborwerkzeug, das zur Untersuchung der HIV-Pharmakokinetik und Arzneimittelresistenz bei nichtmenschlichen Primaten verwendet wird, nicht für eine echte neue therapeutische Indikation beim Menschen (oder bei Tieren). Rang 2 (Feline-AIDS) hat eine ähnliche Einschränkung – die FIV-Reverse-Transkriptase unterscheidet sich wesentlich von der HIV-1-RT, und humane NNRTIs einschließlich Efavirenz zeigen schwache Aktivität gegen Wildtyp-FIV. Rang 3 (eine seltene neurodevelopmentale Störung im Kindesalter) hat keine mechanistische Begründung und keine unterstützenden Belege, während Efavirenz mit bekannten ZNS-bezogenen Risiken (Schwindel, abnorme Träume, Suizidgedanken) verbunden ist, die bei dieser Population Bedenken aufwerfen würden.
+Wichtig ist die Einordnung: SIV-Infektion ist ein veterinärmedizinisches bzw. Forschungsmodell von HIV und keine eigenständige humane Indikation. Die Vorhersage wiederholt im Kern die ursprüngliche HIV-Indikation und ist kein echtes Repurposing.
 
 ---
 
 ## Evidenz aus klinischen Studien
 
-| Studiennummer | Phase | Status | Teilnehmerzahl | Wichtigste Ergebnisse |
-|---------|------|------|------|---------|
-| [NCT00863668](https://clinicaltrials.gov/study/NCT00863668) | NA | Zurückgezogen | 0 | Untersuchte HIV-Virusdauer-Kinetik mit **Raltegravir** (ein Integrase-Hemmer), nicht Efavirenz; die Vergleichsgruppe verwies nur auf SIV-infizierte Makaken-Dauer-Kinetik als Hintergrund. Die Studie wurde zurückgezogen (Teilnehmerzahl 0) und wird bewertet mit **C (niedrige Relevanz)** – das Arzneimittel und die Studienpopulation entsprechen nicht diesem Kandidaten. |
-
-*Es wurden keine Studien gefunden, die Efavirenz bei SIV-Infektion direkt evaluieren.*
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
 ## Evidenz aus der Literatur
 
-| PMID | Jahr | Typ | Journal | Wichtigste Ergebnisse |
-|------|-----|------|------|---------|
-| [15328115](https://pubmed.ncbi.nlm.nih.gov/15328115/) | 2004 | Kohorte (präklinisch) | Antimicrob Agents Chemother | Erste Demonstration, dass Efavirenz die RT-SHIV-Replikation (chimäres SIV mit HIV-1-RT) in Rhesus-Makaken unterdrückt |
-| [15919889](https://pubmed.ncbi.nlm.nih.gov/15919889/) | 2005 | Kohorte (präklinisch) | J Virol | Efavirenz + Lamivudin + Tenofovir-Kombination unterdrückte RT-SHIV-Viruslast bei Makaken, modelliert humane HAART |
-| [19889213](https://pubmed.ncbi.nlm.nih.gov/19889213/) | 2009 | Kohorte (präklinisch) | Retrovirology | Efavirenz-Monotherapie mit kurzer Dauer gefolgt von Kombinationstherapie bei RT-SHIV-infizierten Makaken; Verfolgung der Dynamik viraler Subpopulationen |
-| [21084490](https://pubmed.ncbi.nlm.nih.gov/21084490/) | 2011 | Übersicht/Kohorte | J Virol | Efavirenz-Monotherapie bei Schweinehals-Makaken vor Kombinationstherapie; genetische Vielfalt von RT-SHIV blieb trotz Behandlung bestehen |
-| [24777106](https://pubmed.ncbi.nlm.nih.gov/24777106/) | 2014 | Kohorte (präklinisch) | Antimicrob Agents Chemother | Verbesserte 4–5-Wirkstoff-ART-Regime (im Kontext werden Efavirenz-basierte Modelle berücksichtigt) verbesserten die RT-SHIV-Dauer-Kinetik bei Makaken |
-| [20668516](https://pubmed.ncbi.nlm.nih.gov/20668516/) | 2010 | Präklinisch | PLoS One | Charakterisierte virale Dauer-Kinetik im mit HAART behandelten RT-SHIV-Makaken-Modell des AIDS |
-| [26559632](https://pubmed.ncbi.nlm.nih.gov/26559632/) | 2015 | Präklinisch | Retrovirology | Analyse der Plasma- und Gewebe-Viruspopulation bei RT-SHIV-Makaken unter ART deutet darauf hin, dass keine Residualreplikation im Gewebe auftritt |
-| [20032180](https://pubmed.ncbi.nlm.nih.gov/20032180/) | 2010 | Präklinisch | J Virol | Identifizierte virale Rückzugsorte, die während HAART im RT-SHIV-Nichtmenschliches-Primat-AIDS-Modell persistieren |
-| [22933296](https://pubmed.ncbi.nlm.nih.gov/22933296/) | 2012 | In vitro | J Virol | Ultrasensitive PCR detektierte seltene präexistierende arzneimittelresistente RT-SHIV-Varianten bei Makaken vor ART |
-| [35856680](https://pubmed.ncbi.nlm.nih.gov/35856680/) | 2022 | In vitro/Bildgebung | Antimicrob Agents Chemother | Massenspektrometrie-Bildgebung kartierte Antiretrovirale-Arzneimittelverteilung und Residual-RT-SHIV-RNA im Makaken-Milzgewebe |
+Die folgende Auswahl berücksichtigt die Studien mit dem engsten Bezug zu Efavirenz. Es handelt sich ausschließlich um präklinische Arbeiten oder Übersichten, es gibt keine RCTs.
 
-**Anmerkung:** Die gesamte identifizierte Literatur beschreibt das gentechnisch veränderte RT-SHIV-Makaken-Forschungsmodell, das zur Untersuchung der menschlichen HIV-1-Pharmakologie und Resistenz verwendet wird – keine beschreibt die Behandlung von natürlich auftretender SIV-Infektion als Krankheitsziel.
+| PMID | Jahr | Typ | Journal | Kernaussagen |
+|------|-----|------|------|---------|
+| [15328115](https://pubmed.ncbi.nlm.nih.gov/15328115/) | 2004 | Präklinisch (Rhesusaffe, RT-SHIV) | Antimicrob Agents Chemother | Antivirale Wirkung von Efavirenz bei Rhesusaffen, die mit RT-SHIV infiziert waren |
+| [15919889](https://pubmed.ncbi.nlm.nih.gov/15919889/) | 2005 | Präklinisch (Rhesusaffe, HAART) | J Virol | Efavirenz + Lamivudin + Tenofovir senkte die Viruslast bei RT-SHIV-infizierten Makaken |
+| [24777106](https://pubmed.ncbi.nlm.nih.gov/24777106/) | 2014 | Präklinisch (Rhesusaffe, erweiterte ART) | Antimicrob Agents Chemother | Erweiterte Vier- und Fünffachtherapien verbessern die Abfallkinetik von RT-SHIV |
+| [21084490](https://pubmed.ncbi.nlm.nih.gov/21084490/) | 2011 | Präklinisch (Makake) | J Virol | Genetische Vielfalt des Virus bleibt trotz ART bestehen; Teil der Tiere erhielt Efavirenz-Monotherapie |
+| [19889213](https://pubmed.ncbi.nlm.nih.gov/19889213/) | 2009 | Präklinisch (Makake) | Retrovirology | Dynamik viraler Subpopulationen nach kurzer Efavirenz-Monotherapie und anschließender ART |
+| [22933296](https://pubmed.ncbi.nlm.nih.gov/22933296/) | 2012 | Präklinisch (Makake) | J Virol | Seltene vorbestehende resistente Varianten und große replizierende Viruspopulation |
+| [26559632](https://pubmed.ncbi.nlm.nih.gov/26559632/) | 2015 | Präklinisch (Makake) | Retrovirology | Durchmischte Viruspopulationen in Plasma und Gewebe sprechen gegen Replikation im Gewebe unter ART |
+| [35856680](https://pubmed.ncbi.nlm.nih.gov/35856680/) | 2022 | Präklinisch (Bildgebung) | Antimicrob Agents Chemother | Räumliche Beziehung zwischen Virostatika, viraler RNA und Fibrose in der Milz von Primaten |
+| [15564466](https://pubmed.ncbi.nlm.nih.gov/15564466/) | 2004 | In vitro | J Virol | Charakterisierung des SIV-HIV-Chimärenvirus zur Untersuchung von NNRTI-Resistenz |
+| [17045247](https://pubmed.ncbi.nlm.nih.gov/17045247/) | 2007 | Übersichtsarbeit | Biochem Pharmacol | Acyclische Nukleosidphosphonate; nicht Efavirenz-spezifisch |
 
 ---
 
-## Informationen zum Markt Deutschland
+## Marktinformationen Deutschland
 
-Efavirenz besitzt derzeit **keine dokumentierte Marktgenehmigung** in diesem Evidence Pack (0 Lizenzen; Marktstatus: nicht vermarktet). Der BfArM-Labelinhalt (Warnhinweise, Kontraindikationen, zugelassene Indikationen) konnte nicht abgerufen werden und wird als **Datenlücke DG001 (blockierend)** dokumentiert.
+Alle fünf Zulassungen sind erloschen; derzeit ist keine gültige Zulassung vorhanden.
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000250 | Stocrin | – | HIV-Infektionen |
+| EMEA/H/C/002352 | Efavirenz Teva | – | HIV-Infektionen |
+| EMEA/H/C/004240 | Efavirenz/Emtricitabine/Tenofovir disoproxil Mylan | – | HIV-Infektionen |
+| EMEA/H/C/004274 | Efavirenz/Emtricitabine/Tenofovir disoproxil Krka | – | HIV-Infektionen |
+| EMEA/H/C/004250 | Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva | – | HIV-Infektionen |
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Fachinformation für Sicherheitsinformationen. Strukturierte Warnhinweise, Kontraindikations- und Arzneimittelwechselwirkungsdaten (TFDA/BfArM-Labeltext) sind derzeit für Efavirenz in diesem Evidence Pack nicht verfügbar – der Abruf der offiziellen Label-PDF ist als Datenlücke DG001 (blockierend) dokumentiert, was derzeit einen vollständigen S1-Sicherheitsreview verhindert.
+- **Mögliche Kontraindikationen aus dem Wissensgraphen (kein Packungsbeilagentext)**: Leberversagen, Lebererkrankungen, Fettleber/NASH, chronische Hepatitis B und C, Epilepsie, Angststörung, neurotische Störung, dysthyme Störung, wahnhafte Störung, paranoide Schizophrenie, Nierenerkrankung, Fanconi-Syndrom, Laktatazidose, Hypertriglyzeridämie, Adipositas, Hypophosphatämie, Osteomalazie, Rachitis, Gallenblasenerkrankung.
+- **Arzneimittelwechselwirkungen**: Insgesamt 100 Wechselwirkungen erfasst, darunter eine als **schwerwiegend (Major)** eingestufte mit **Dolasetron**. Weitere Beispiele mit moderater Einstufung: Clarithromycin, Bupropion, Aprepitant, Dexamethason, Hydrocortison, Betamethason, Triamcinolon, Pioglitazon, Saxagliptin, Famotidin, Rabeprazol, Loperamid, Minocyclin und Dronabinol.
+
+Für Warnhinweise und Gegenanzeigen aus der Fachinformation siehe die Packungsbeilage.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Pausieren**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die höchstrangige vorhergesagte Indikation (SIV-Infektion) spiegelt ein gentechnisch verändertes Laborforschungsmodell (RT-SHIV bei Makaken) wider, nicht ein echtes behandelbares Krankheitsziel; die einzige zugehörige klinische Studie ist unabhängig und zurückgezogen; und sowohl Regulierungssicherheitsdaten (DG001, blockierend) als auch Wirkmechanismus-Daten (DG002, hoch) fehlen, wodurch ein Fortschritt über S0 hinaus verhindert wird.
+Die Evidenz ist rein präklinisch (L4) und stützt sich auf das chimäre RT-SHIV-Modell, das HIV-1-RT enthält. Eine Wirksamkeit gegen Wildtyp-SIV ist nicht belegt, und SIV ist keine humane Indikation. Die Vorhersage stellt daher im Wesentlichen die bekannte HIV-Indikation dar. In Deutschland besteht zudem keine gültige Zulassung.
 
-**Für einen Fortschritt ist folgendes erforderlich:**
-- Abruf und Analyse der offiziellen TFDA/BfArM-Label-PDF für Warnhinweise und Kontraindikationen (DG001)
-- Abfrage von DrugBank (oder gleichwertig) zur Bestätigung und Dokumentation des Efavirenz-Wirkmechanismus (DG002)
-- Klärung mit der TxGNN/Evidence-Pipeline, ob „Simian-Immunodeficiency-Virus-Infektion" als nicht-menschlicher, nur Modell-relevanter Knoten ausgeschlossen werden sollte, da er kein verwertbares Repurposing-Ziel darstellt
-- Erneute Überprüfung der Ränge 2 (Feline-AIDS – Veterinärmedizin, nicht humanmedizinisch) und 3 (ultra-seltene neurodevelopmentale Störung im Kindesalter – keine Evidenz, potenzieller ZNS-Sicherheitskonflikt) vor Erwägung einer weiteren Evaluierung dieses Kandidatensatzes
+**Für ein Weiterkommen wären erforderlich:**
+- Klärung, ob überhaupt ein humaner oder therapeutisch relevanter Zusatznutzen jenseits der bekannten HIV-Indikation besteht
+- Detaillierte Wirkmechanismusdaten (MOA)
+- Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen), die derzeit fehlt und für eine Sicherheitsbewertung zwingend nötig ist
+- Prüfung des aktuellen Zulassungsstatus und der Verfügbarkeit in Deutschland
 
+---
+
+## Weitere vorhergesagte Indikationen (zur Information)
+
+| Rang | Vorhergesagte Indikation | TxGNN-Wert | Evidenzstufe | Empfehlung | Anmerkung |
+|---|---|---|---|---|---|
+| 2 | Felines erworbenes Immundefizienzsyndrom | 99,80 % | L4 | Hold | Nur eine In-vitro-Studie (2023); die RT von FIV unterscheidet sich von HIV-1-RT, veterinärmedizinische Indikation |
+| 3 | Neuroentwicklungsstörung mit ataktischem Gang, fehlender Sprache und verminderter kortikaler weißer Substanz | 99,77 % | L5 | Hold | Weder Studien noch Literatur; kein erkennbarer mechanistischer Zusammenhang; wegen neuropsychiatrischer Nebenwirkungen von Efavirenz ein zusätzliches Sicherheitsbedenken |
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

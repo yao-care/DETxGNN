@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Duloxetine
-parent: Hohe Evidenz (L1-L2)
-nav_order: 130
-evidence_level: L2
+parent: Nur Modellvorhersage (L5)
+nav_order: 152
+evidence_level: L5
 indication_count: 10
 ---
 
 # Duloxetine
 {: .fs-9 }
 
-Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,100 +29,118 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Duloxetin: Von genehmigten Antidepressiva-Indikationen zur Zwangsstörung
+# Duloxetin: Von Neuralgie/Depression zu Zwangsstörung
 
 ## Zusammenfassung in einem Satz
 
-Duloxetin (DB00476) ist ein Serotonin-Noradrenalin-Wiederaufnahmehemmer (SNRI), dessen formal zugelassene Indikationen in diesem Nachweispaket nicht verzeichnet sind. Die Literatur im Paket bestätigt jedoch, dass es sich um ein zugelassenes Antidepressivum handelt, das für Major-Depression, generalisierte Angststörung, diabetische periphere neuropathische Schmerzen, Fibromyalgie und chronische muskuloskelettale Schmerzen verwendet wird. Unter 10 TxGNN-vorhergesagten Indikationen ist **Zwangsstörung (OCD)** der einzige Kandidat mit substanziellen klinischen Belegen — **5 klinische Studien** (einschließlich einer abgeschlossenen Phase-4-Studie und einer doppelblinden RCT) und **19 Publikationen**, was ihm die stärkste Evidenzstufe (L2) aller gescreenten Kandidaten verleiht.
+Duloxetin ist ein Serotonin-Noradrenalin-Wiederaufnahmehemmer (SNRI), der ursprünglich zur Behandlung von Depression, Angststörungen, diabetischer Neuropathie/Nervenschmerzen und Belastungsinkontinenz zugelassen wurde.
+Das TxGNN-Modell sagt voraus, dass er bei **Zwangsstörung (Obsessive-Compulsive Disorder, OCD)** wirksam sein könnte. Diese Indikation hat von den zehn vorhergesagten Indikationen die beste Datenlage: **3 klinische Studien** und **19 Publikationen**, darunter eine doppelblinde kontrollierte Studie, jedoch mit kleinen Fallzahlen.
 
 ---
 
-## Schnellebersicht
+## Schnellübersicht
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Nicht in `taiwan_regulatory.licenses` eingetragen (leer). Gemäß Literatur in diesem Paket (PMID 31749717): Major-Depression, generalisierte Angststörung, diabetische periphere neuropathische Schmerzen, Fibromyalgie, chronische muskuloskelettale Schmerzen |
-| Vorhergesagte neue Indikation | Zwangsstörung (OCD) |
-| TxGNN-Vorhersage-Score | 99.84% |
-| Evidenzstufe | L2 |
-| Marktstatus in Deutschland | Nicht vermarktet (Nicht vermarktet) |
-| Anzahl der Autorisierungen | 0 |
-| Empfohlene Entscheidung | Mit Schutzmaßnahmen fortfahren |
+Hinweis: Die Hauptdarstellung bezieht sich auf die Indikation mit der besten Evidenz (Zwangsstörung, Rang 3). Die Indikation auf Rang 1 (benigne paroxysmale Torticollis des Säuglingsalters) hat keinerlei Evidenz und ist unten in der Übersicht der weiteren Vorhersagen aufgeführt.
 
----
-
-## Warum ist diese Vorhersage angemessen?
-
-Derzeit sind detaillierte Daten zum Wirkmechanismus nicht verfügbar (`original_moa`: [Datenlücke]). Basierend auf bekannten Informationen und der in diesem Nachweispaket erfassten Literatur ist Duloxetin ein Serotonin-Noradrenalin-Wiederaufnahmehemmer (SNRI), eine Wirkstoffklasse, deren serotonerge Komponente mit dem Mechanismus überlappt, von dem angenommen wird, dass er der Pathophysiologie der Zwangsstörung zugrunde liegt.
-
-Die Zwangsstörung wird derzeit in der Erstlinienbehandlung mit hochdosiertem SSRI und Clomipramin behandelt, beide wirken primär durch Serotonin-Wiederaufnahmehemmung. Da Duloxetin diesen serotonergen Mechanismus teilt (plus zusätzliche noradrenerge Aktivität), haben mehrere unabhängige Arbeitsgruppen es direkt bei Zwangsstörung getestet, einschließlich als Monotherapie und als Augmentationsstrategie in therapieresistenten Fällen. Zwei Übersichtsartikel in diesem Paket (PMID 16669725, PMID 21779536) diskutieren speziell SNRIs — einschließlich Duloxetin — als rationale pharmakologische Alternative zu SSRIs bei Zwangsstörung und verstärken die mechanistische Plausibilität der TxGNN-Vorhersage.
-
-Es ist erwähnenswert, dass dies der Kandidat mit der stärksten Evidenz unter den 10 bereitgestellten TxGNN-Vorhersagen ist (siehe „Andere vorhergesagte Indikationen" unten); die meisten anderen Kandidaten in diesem Nachweispaket sind explizit als wahrscheinliches Graphen-Rauschen ohne unterstützenden Mechanismus oder klinische Daten gekennzeichnet.
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Neuralgie; Major Depression; Angststörungen; Diabetes-assoziierte Neuropathie; Belastungsinkontinenz |
+| Vorhergesagte neue Indikation | Zwangsstörung (Rang 3 von 10; höchste Evidenz) |
+| TxGNN-Vorhersagewert | 99,84 % |
+| Evidenzstufe | L2 (eingeschränkt, siehe unten) |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen |
+| Anzahl der Zulassungen | 5 (alle aufgehoben) |
+| Empfohlene Entscheidung | Hold (Forschungsfrage; Sicherheitsdaten fehlen) |
 
 ---
 
-## Klinische Studienevidenzen
+## Warum ist diese Vorhersage plausibel?
 
-| Studienzahl | Phase | Status | Teilnehmerzahl | Wesentliche Erkenntnisse |
+Zum Wirkmechanismus von Duloxetin liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Duloxetin die Wiederaufnahme von Serotonin und Noradrenalin hemmt. Die Hemmung der Serotonin-Wiederaufnahme ist der Kernmechanismus der etablierten medikamentösen Therapie der Zwangsstörung (SSRI, Clomipramin).
+
+Die ursprünglichen Indikationen Depression und Angststörungen sind mit der Zwangsstörung pathophysiologisch verwandt, da serotonerge Schaltkreise bei allen drei Erkrankungen eine Rolle spielen. Die Evidenz umfasst eine offene Studie, eine Phase-4-Studie und eine doppelblinde kontrollierte Augmentationsstudie bei therapieresistenter Zwangsstörung sowie Übersichtsarbeiten zu SNRI bei Zwangsstörung.
+
+Einschränkend sind die Fallzahlen klein und die Ergebnisse im Vergleich zu SSRI uneinheitlich. Berichte über Dosierungen oberhalb des Therapiebereichs (supratherapeutisch) werfen zudem Fragen zu Verträglichkeit und Sicherheit auf.
+
+---
+
+## Klinische Studienevidenz
+
+| Studiennummer | Phase | Status | Teilnehmende | Kernaussagen |
 |---------|------|------|------|---------|
-| [NCT00464698](https://clinicaltrials.gov/study/NCT00464698) | Phase 4 | Abgeschlossen | 20 | Bewertet direkt die Wirksamkeit von Duloxetin bei der Behandlung von Zwangsstörung (Relevanzgrad A) |
-| [NCT01404871](https://clinicaltrials.gov/study/NCT01404871) | N/A | Abgeschlossen | 26 | Vorhergesagte Medikamentenreaktion bei Zwangsstörung; Duloxetin-Arm angeboten für Patienten, die bereits Clomipramin/Escitalopram versucht hatten (Relevanzgrad B) |
-| [NCT02476136](https://clinicaltrials.gov/study/NCT02476136) | N/A | Unbekannt | 8,800 | Meta-Analyse mit Einzelpatientendaten zur Antidepressiva-Wirksamkeit bei Angststörungen; nicht spezifisch für Zwangsstörung (Relevanzgrad C) |
-| [NCT05930912](https://clinicaltrials.gov/study/NCT05930912) | N/A | Unbekannt | 1 | Einzelfall-Psychoanalytische Behandlungsstudie bei ASD mit Zwangsstörungs-Komoridität; schwache Relevanz (Relevanzgrad C) |
-| [NCT01944657](https://clinicaltrials.gov/study/NCT01944657) | N/A | Zurückgezogen | 0 | TMS vs. Medikamenten-Monotherapie bei Depression; mit null Teilnehmerzahl zurückgezogen, kein Beweisergebnis (Relevanzgrad C) |
+| [NCT00464698](https://clinicaltrials.gov/study/NCT00464698) | Phase 4 | Abgeschlossen | 20 | Wirksamkeit von Duloxetin direkt bei Zwangsstörung; klein, vermutlich offen |
+| [NCT01404871](https://clinicaltrials.gov/study/NCT01404871) | N/A | Abgeschlossen | 26 | Vorhersage des Medikamentenansprechens bei Zwangsstörung (Clomipramin oder Escitalopram; Duloxetin für vorbehandelte Teilnehmende) |
+| [NCT02476136](https://clinicaltrials.gov/study/NCT02476136) | N/A | Unbekannt | 8800 | Metaanalyse individueller Patientendaten zu Ausgangsschwere und Antidepressiva-Wirksamkeit bei Angststörungen; nur indirekter Kontext |
 
 ---
 
-## Literaturevidenzen
+## Literaturevidenz
 
-| PMID | Jahr | Typ | Journal | Wesentliche Erkenntnisse |
+| PMID | Jahr | Typ | Journal | Kernaussagen |
 |------|-----|------|------|---------|
-| [27811556](https://pubmed.ncbi.nlm.nih.gov/27811556/) | 2016 | RCT (doppelblind) | Journal of Clinical Psychopharmacology | Augmentation mit Duloxetin bei therapieresistenter Zwangsstörung bewertet |
-| [25637377](https://pubmed.ncbi.nlm.nih.gov/25637377/) | 2015 | Offene Studie | Int J Neuropsychopharmacology | Wirksamkeit der Duloxetin-Monotherapie bei DSM-IV-Zwangsstörung |
-| [18208931](https://pubmed.ncbi.nlm.nih.gov/18208931/) | 2008 | Fallserie | J Psychopharmacology | Wechsel von SSRIs zu Duloxetin bei therapieresistenter Zwangsstörung |
-| [21779536](https://pubmed.ncbi.nlm.nih.gov/21779536/) | 2011 | Übersicht | Innovations in Clinical Neuroscience | SNRIs (einschließlich Duloxetin) als pharmakologische Alternativen bei Zwangsstörung |
-| [16669725](https://pubmed.ncbi.nlm.nih.gov/16669725/) | 2006 | Kritische Übersicht | J Clinical Psychiatry | Kritische Übersicht von SNRIs in der Behandlung von Zwangsstörung |
-| [24766145](https://pubmed.ncbi.nlm.nih.gov/24766145/) | 2014 | Übersicht | Expert Opinion on Pharmacotherapy | Aktualisierte Übersicht serotonerger Antidepressiva bei Zwangsstörung |
-| [31749717](https://pubmed.ncbi.nlm.nih.gov/31749717/) | 2019 | Systematische Übersicht | Frontiers in Psychiatry | Duloxetin-Einsatzerweiterungen über MDD/GAD hinaus, einschließlich Zwangsstörung |
-| [28477500](https://pubmed.ncbi.nlm.nih.gov/28477500/) | 2017 | Meta-Analyse | Journal of Affective Disorders | Zwangsstörung zeigt reduzierte Placebo-/Antidepressiva-Response im Vergleich zu anderen Angststörungen |
-| [19483491](https://pubmed.ncbi.nlm.nih.gov/19483491/) | 2009 | Fallbericht | Clinical Neuropharmacology | Hochdosiertes Duloxetin erzielte anhaltende vollständige Remission bei therapieresistenter Zwangsstörung |
-| [17632660](https://pubmed.ncbi.nlm.nih.gov/17632660/) | 2007 | Fallbericht | Primary Care Companion J Clin Psychiatry | Zwangsstörungs-Fall mit Ansprechen auf Duloxetin |
+| [27811556](https://pubmed.ncbi.nlm.nih.gov/27811556/) | 2016 | RCT (doppelblind) | J Clin Psychopharmacol | Duloxetin-Augmentation bei therapieresistenter Zwangsstörung |
+| [28477500](https://pubmed.ncbi.nlm.nih.gov/28477500/) | 2017 | Metaanalyse | J Affect Disord | Zwangsstörung zeigt geringeres Placebo- und Antidepressiva-Ansprechen als andere Angststörungen |
+| [16669725](https://pubmed.ncbi.nlm.nih.gov/16669725/) | 2006 | Übersichtsarbeit | J Clin Psychiatry | Kritische Übersicht zu SNRI bei Zwangsstörung |
+| [24766145](https://pubmed.ncbi.nlm.nih.gov/24766145/) | 2014 | Übersichtsarbeit | Expert Opin Pharmacother | Antidepressiva mit ausgeprägter serotonerger Wirkung bei Zwangsstörung |
+| [25637377](https://pubmed.ncbi.nlm.nih.gov/25637377/) | 2015 | Offene Studie | Int J Neuropsychopharmacol | Wirksamkeit von Duloxetin bei Zwangsstörung (DSM-IV) |
+| [31749717](https://pubmed.ncbi.nlm.nih.gov/31749717/) | 2019 | Systematische Übersicht | Front Psychiatry | Duloxetin bei psychiatrischen Störungen jenseits von Depression und generalisierter Angststörung |
+| [18208931](https://pubmed.ncbi.nlm.nih.gov/18208931/) | 2008 | Fallserie | J Psychopharmacol | Wechsel von SSRI auf Duloxetin bei resistenter Zwangsstörung |
+| [39735048](https://pubmed.ncbi.nlm.nih.gov/39735048/) | 2024 | Fallbericht | Cureus | Supratherapeutisches Duloxetin plus KVT bei schwerer therapieresistenter Zwangsstörung mit Depression |
+| [22567604](https://pubmed.ncbi.nlm.nih.gov/22567604/) | 2012 | Fallbericht | Innov Clin Neurosci | Supratherapeutisches Duloxetin bei therapieresistenter Depression, Anorexia nervosa und Zwangsstörung |
+| [21779536](https://pubmed.ncbi.nlm.nih.gov/21779536/) | 2011 | Übersichtsarbeit | Innov Clin Neurosci | SNRI als pharmakologische Alternativen bei Zwangsstörung |
 
 ---
 
-## Marktinformation für Deutschland
+## Marktinformationen Deutschland
 
-Nach diesem Nachweispaket ist Duloxetin derzeit nicht in Deutschland vermarktet (`taiwan_regulatory.market_status`: Nicht vermarktet, `total_licenses`: 0). Es sind keine Autorisierungsdaten verfügbar.
+Alle fünf Zulassungen sind aufgehoben bzw. erloschen. Die Zulassungsnummern sind europäische Zentralzulassungen (EMA).
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/003935 | Duloxetine Zentiva | – | Neuralgie; Major Depression; Angststörungen; Diabetes mellitus |
+| EMEA/H/C/003981 | Duloxetine Viatris (zuvor Duloxetine Mylan) | – | Neuralgie; diabetische Neuropathie; Major Depression; Angststörungen |
+| EMEA/H/C/000572 | Cymbalta | – | Angststörungen; diabetische Neuropathie; Major Depression |
+| EMEA/H/C/000545 | Yentreve | – | Belastungsinkontinenz |
+| EMEA/H/C/004000 | Duloxetine Lilly | – | Neuralgie; diabetische Neuropathie; Major Depression |
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. (`key_warnings`, `contraindications` und `ddi` sind alle nicht in diesem Nachweispaket ausgefüllt — gekennzeichnet als blockierende Datenlücke DG001.)
+- **Mögliche Kontraindikationen/Risikoerkrankungen (aus dem Wissensgraphen, nicht aus Fachinformationstexten):** Hypertonie, orthostatische Hypotonie, multiple Systematrophie, posturales orthostatisches Tachykardiesyndrom, Epilepsie, bipolare Störung, Lebererkrankungen (Leberzirrhose, Fettleber, Hepatitis), Gallenblasenerkrankung, Hyperglykämie, Substanzmissbrauch/-abhängigkeit, Blutgerinnungsstörungen, Engwinkelglaukom, malignes neuroleptisches Syndrom, Syndrom der inadäquaten ADH-Sekretion, Serotoninsyndrom.
+- **Arzneimittelwechselwirkungen:** Insgesamt wurden 100 Wechselwirkungen erfasst. Als **schwerwiegend (Major)** eingestuft sind u. a. Bupropion, Lorcaserin, Diethylpropion, Dolasetron und Dexfenfluramin. Mittelgradig (Moderate) sind u. a. Epinephrin, Morphin, Acetylsalicylsäure, Cimetidin und Dronabinol. Geringfügig (Minor) sind u. a. Famotidin, Ranitidin und Rabeprazol.
+- **Hinweis zu Dosierung und Alter:** Bei supratherapeutischen Dosen in der Zwangsstörung-Literatur sind Verträglichkeit und Sicherheit kritisch zu prüfen. Bei Kindern und Jugendlichen ist die Warnung vor Suizidalität unter Antidepressiva zu beachten.
+
+Für Warnhinweise und Gegenanzeigen aus der Fachinformation liegen keine Daten vor; bitte die Fachinformation heranziehen.
+
+---
+
+## Weitere vorhergesagte Indikationen (Übersicht)
+
+| Rang | Indikation | TxGNN-Wert | Evidenzstufe | Einschätzung |
+|---|---|---|---|---|
+| 1 | Benigne paroxysmale Torticollis des Säuglingsalters | 99,85 % | L5 | Hold; kein mechanistischer Zusammenhang, pädiatrische Sicherheitsbedenken |
+| 2 | Agoraphobie | 99,84 % | L3 | Forschungsfrage; nur indirekte Hinweise aus Studien zur Panikstörung (offene Studie, Fallserie) |
+| 3 | Zwangsstörung | 99,84 % | L2 | Forschungsfrage; siehe oben |
+| 4–7 | Schizotypische, paranoide, schizoide und histrionische Persönlichkeitsstörung | 99,78 % | L5 | Hold; nur Graphnähe, keine Evidenz |
+| 8, 10 | Ohdo-Syndrom und Varianten / Blepharophimose-Intelligenzminderungs-Syndrom Typ Ohdo | 99,69 % / 99,60 % | L5 | Hold; kein plausibler pharmakologischer Zusammenhang |
+| 9 | Ligneöse Konjunktivitis | 99,66 % | L5 | Hold; Plasminogenmangel, kein Zusammenhang |
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Mit Schutzmaßnahmen fortfahren**
+**Entscheidung: Hold (Forschungsfrage)**
 
 **Begründung:**
-Zwangsstörung ist die einzige vorhergesagte Indikation mit substanziellen unterstützenden Belegen — eine abgeschlossene Phase-4-Studie, eine doppelblinde RCT und mehrfache Übersichten, die speziell die SNRI-Anwendung bei Zwangsstörung behandeln — und erreicht Evidenzstufe L2. Die ursprüngliche Indikation des Arzneistoffs, der Wirkmechanismus und die Sicherheits-/Kennzeichnungsdaten sind jedoch alle Datenlücken in diesem Paket, und das Arzneimittel ist derzeit nicht in Deutschland vermarktet, daher kann dies noch nicht zu einer abschließenden Genehmigungsentscheidung führen.
+Für die Zwangsstörung liegen eine doppelblinde Augmentationsstudie, eine Phase-4-Studie und mehrere offene Studien bzw. Fallberichte vor. Die Stichproben sind jedoch klein, die Ergebnisse uneinheitlich gegenüber SSRI, und die Evidenzstufe L2 ist nur eingeschränkt belegt, da keine abgeschlossene Phase-2/3-RCT in den Daten vorliegt. Zudem sind in Deutschland derzeit alle Zulassungen aufgehoben, und Sicherheitsdaten aus der Fachinformation fehlen (als blockierende Datenlücke gekennzeichnet). Die übrigen Vorhersagen sind überwiegend reine Modellvorhersagen ohne Evidenz.
 
-**Um fortzufahren, wird Folgendes benötigt:**
-- TFDA/BfArM-Kennzeichnungswarnungen und Kontraindikationen (DG001, blockierend — erforderlich vor jedem S1-Sicherheits-Screening)
-- Bestätigter Wirkmechanismus aus DrugBank (DG002)
-- Bestätigung der ursprünglichen genehmigten Indikationen und eines möglichen Marktzugangswegs in Deutschland
-- Formale DDI-Überprüfung, da die aktuelle Abfrage keine Interaktionsdaten ergab
-
----
-
-## Weitere vorhergesagte Indikationen von TxGNN (Zusätzliche Kandidaten, nicht priorisiert)
-
-Zur Transparenz hatten die verbleibenden 8 von 10 TxGNN-vorhergesagten Indikationen in diesem Nachweispaket keine unterstützenden klinischen Studien oder Literatur und wurden als L5/Hold bewertet, wobei der Begründungstext mehrere explizit als wahrscheinliches **Graphen-Vorhersagerauschen** kennzeichnet (kein bekannter mechanistischer Zusammenhang mit SNRI-Pharmakologie): benigne paroxysmale Tortikollis des Säuglingsalters (Rang 1, höchste TxGNN-Punktzahl aber null Belege), schizotypale/paranoide/schizoide/histrionische Persönlichkeitsstörungen, Ohdo-Syndrom und Varianten, lignöse Konjunktivitis und Blepharophimose-Intellekt-Behinderungs-Syndrom (Ohdo-Typ).
-
-**Agoraphobie** (Rang 2, L3, Entscheidungsstufe S1, Empfehlung „Forschungsfrage") zeigte frühe Unterstützung — eine offene Studie und ein Biomarker-RCT-Kontext, obwohl die Überschneidung in den Störungsdefinitionen zwischen Panikstörung und eng definierter Agoraphobie vor weiteren Investitionen geklärt werden muss.
-
+**Für das weitere Vorgehen sind erforderlich:**
+- Fachinformation (Warnhinweise, Gegenanzeigen) beim BfArM bzw. der EMA beschaffen und auswerten, um das Sicherheitsscreening durchführen zu können
+- Detaillierte Daten zum Wirkmechanismus (MOA), z. B. aus DrugBank
+- Größere, kontrollierte Studien zu Duloxetin bei Zwangsstörung im Vergleich zu SSRI
+- Klärung des aktuellen Zulassungs- und Marktstatus in Deutschland
+- Sicherheitsplan zu Wechselwirkungen (insbesondere serotonerge Kombinationen und Bupropion) sowie zu Hochdosis-Anwendung
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

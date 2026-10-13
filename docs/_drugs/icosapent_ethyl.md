@@ -2,7 +2,7 @@
 layout: default
 title: Icosapent Ethyl
 parent: Nur Modellvorhersage (L5)
-nav_order: 192
+nav_order: 227
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,71 +29,81 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# ICOSAPENT ETHYL: Von Hypertriglyzeridämie zur Hämoglobinopathie
+# Icosapent-Ethyl: Von Dyslipidämie zu Hämoglobinopathie
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Icosapentethyl ist ein gereinigter Ethylester von EPA (Eicosapentaensäure), der allgemein für die Anwendung bei schwerer Hypertriglyzeridämie und zur Reduktion des kardiovaskulären Risikos bekannt ist; detaillierte Daten zur Originalindikation liegen im lokalen regulatorischen Evidenzpaket nicht vor.
-> Das TxGNN-Modell sagt voraus, dass es bei **Hämoglobinopathie** wirksam sein könnte,
-> derzeit stützt jedoch nur **1 präklinische Publikation** (zu einer verwandten, aber unterschiedlichen Verbindung) diese Richtung, bei **keinen registrierten klinischen Studien**.
+Icosapent-Ethyl ist ein gereinigter Ethylester der Eicosapentaensäure (EPA) und war ursprünglich zur Behandlung von Dyslipidämien zugelassen.
+Das TxGNN-Modell sagt voraus, dass der Wirkstoff bei **Hämoglobinopathie** wirksam sein könnte.
+Für diese Richtung liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage beruht allein auf dem Modell.
 
 ---
 
-## Kurzübersicht
+## Schnellübersicht
 
 | Punkt | Inhalt |
 |------|------|
-| Originalindikation | In lokalen regulatorischen Daten nicht verfügbar (Arzneimittel nicht im Markt); allgemein bekannt für schwere Hypertriglyzeridämie / Reduktion des kardiovaskulären Risikos |
+| Ursprüngliche Indikation | Dyslipidämien |
 | Vorhergesagte neue Indikation | Hämoglobinopathie |
-| TxGNN-Vorhersagewert | 99.09% |
+| TxGNN-Vorhersagewert | 99,09 % |
 | Evidenzgrad | L5 |
-| Marktstatus | Nicht im Markt |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Zurückstellen |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
+| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 aufgehoben) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
 ## Warum ist diese Vorhersage plausibel?
 
-Derzeit liegen keine detaillierten Daten zum Wirkmechanismus vor. Basierend auf bekannten Informationen ist Icosapentethyl ein hochgereinigter Ethylester von EPA (Omega-3-Fettsäure), dessen Wirksamkeit bei der Senkung von Triglyzeriden / des kardiovaskulären Risikos etabliert ist; mechanistisch könnte es auch bei Hämoglobinopathie anwendbar sein, durch entzündungshemmende, antioxidative und die Endothelfunktion verbessernde Eigenschaften, die für vasookklusive Ereignisse und Ischämie-Reperfusionsschäden relevant sind.
+Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Bekannt ist, dass Icosapent-Ethyl ein gereinigter EPA-Ethylester ist, der Triglyzeride senkt. Seine Wirksamkeit bei Dyslipidämien ist die Grundlage der bisherigen Zulassung.
 
-Die mechanistische Begründung in diesem Evidenzpaket ist jedoch indirekt abgeleitet: Die zugrunde liegende Literatur untersucht **Epeleuton**, eine strukturell verwandte, aber eigenständige synthetische Omega-3-Fettsäure, in einem Mausmodell der Sichelzellkrankheit — nicht Icosapentethyl selbst. Die Verbindung zwischen den beiden Substanzen beruht auf einer Ableitung auf Wirkstoffklassen-Ebene (Omega-3-Fettsäure) und nicht auf direkter pharmakologischer Evidenz für Icosapentethyl und sollte lediglich als Hypothesen generierend betrachtet werden.
+Mechanistisch ließe sich spekulieren, dass die entzündungshemmenden, antioxidativen und endothelschützenden Eigenschaften von EPA mit Merkmalen von Hämoglobinopathien, etwa der Sichelzellkrankheit, zusammenhängen könnten. Dazu gehören chronische Entzündung, oxidativer Stress, Vasookklusion und endotheliale Dysfunktion.
+
+Diese Verbindung ist jedoch **nicht anhand der vorliegenden Daten validierbar**. Die Vorhersage ist als reine Hypothese zu behandeln und erfordert Literaturrecherche sowie präklinische oder frühe klinische Validierung.
 
 ---
 
-## Evidenz aus klinischen Studien
+## Klinische Evidenz
 
-Derzeit sind keine relevanten klinischen Studien registriert
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
 ## Literaturevidenz
 
-| PMID | Jahr | Typ | Zeitschrift | Wichtigste Erkenntnisse |
-|------|-----|------|------|---------|
-| [38105727](https://pubmed.ncbi.nlm.nih.gov/38105727/) | 2024 | Präklinisch (Tiermodell) | Haematologica | Epeleuton, eine verwandte synthetische ω-3-Fettsäure, reduzierte die durch Hypoxie/Reperfusion induzierte entzündliche Vaskulopathie in einem Mausmodell der Sichelzellkrankheit |
+Derzeit liegt keine zugehörige Literatur vor.
 
 ---
 
-## Sicherheitshinweise
+## Marktinformationen Deutschland
 
-Bitte konsultieren Sie die Fachinformation für Sicherheitsinformationen.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/005398 | Vazkepa | – | Dyslipidämien |
+
+Hinweis: Diese Zulassung ist aufgehoben (Status: cancelled). Hersteller: Recordati Industria Chimica e Farmaceutica S.p.A.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Sicherheitsaspekte
 
-**Entscheidung: Zurückstellen**
+Bitte die Packungsbeilage für Sicherheitsinformationen heranziehen.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Hold**
 
 **Begründung:**
-Die Evidenz beschränkt sich auf eine einzelne präklinische Tierstudie zu einer verwandten, aber unterschiedlichen Verbindung (Epeleuton, nicht Icosapentethyl), ohne klinische Studien, ohne bestätigte MOA-Daten und ohne verfügbare lokale Markt-/Sicherheitsdaten — unzureichend, um über die Modellvorhersage hinaus (L5) fortzuschreiten.
+Die Vorhersage stützt sich ausschließlich auf einen hohen TxGNN-Wert (Evidenzgrad L5), ohne klinische Studien oder Publikationen. Zudem besteht in Deutschland derzeit keine gültige Zulassung, und die Sicherheitsdaten sind unvollständig.
 
-**Um fortzufahren, wird Folgendes benötigt:**
-- TFDA-Fachinformation (Warnhinweise/Gegenanzeigen) — derzeit eine blockierende Datenlücke für das Sicherheits-Pre-Screening
-- Bestätigter Wirkmechanismus (MOA) speziell für Icosapentethyl (derzeit eine schwerwiegende Datenlücke)
-- Direkte pharmakologische oder klinische Evidenz für Icosapentethyl (nicht das Analogon Epeleuton) bei Hämoglobinopathie/Sichelzellkrankheit
-- Mindestens präklinische oder frühe klinische Daten unter Verwendung von Icosapentethyl selbst, bevor über S0 hinaus fortgeschritten wird
-
+**Für ein Weiterkommen sind folgende Schritte erforderlich:**
+- Systematische Literaturrecherche zu EPA/Icosapent-Ethyl bei Hämoglobinopathien (z. B. Sichelzellkrankheit)
+- Präklinische Studien oder frühe klinische Studien zur Validierung der Hypothese
+- Ergänzung der Daten zum Wirkmechanismus (MOA)
+- Beschaffung und Auswertung der Packungsbeilage (Warnhinweise und Gegenanzeigen) als Voraussetzung für die Sicherheitsprüfung
+- Klärung des Zulassungsstatus und der Verfügbarkeit in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

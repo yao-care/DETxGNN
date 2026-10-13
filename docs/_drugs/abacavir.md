@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Abacavir
-parent: Nur Modellvorhersage (L5)
+parent: Mittlere Evidenz (L3-L4)
 nav_order: 11
-evidence_level: L5
+evidence_level: L4
 indication_count: 3
 ---
 
 # Abacavir
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3** 
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,91 +29,92 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# ABACAVIR: Evaluation zur Umwidmung von Arzneimitteln — Ausstehende Vorhersagedaten
+# Abacavir: Von HIV-Infektion zu felinem erworbenem Immunschwächesyndrom
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-ABACAVIR ist ein Nukleosid-Reverse-Transkriptase-Inhibitor (NRTI), der weit verbreitet zur Behandlung von HIV/AIDS eingesetzt wird.
-Das TxGNN-Modell hat **bisher keine vorhergesagten neuen Indikationen** für dieses Arzneimittel generiert,
-und das aktuelle Evidenzpaket enthält **keine Nachweise aus klinischen Studien oder Literatur** für Umwidmungskandidaten.
+Abacavir ist ein nukleosidischer Reverse-Transkriptase-Hemmer, der ursprünglich zur Behandlung von HIV-Infektionen zugelassen wurde.
+Das TxGNN-Modell sagt voraus, dass er bei **felinem erworbenem Immunschwächesyndrom** wirksam sein könnte.
+Dafür liegen bislang **keine klinischen Studien** und **1 Publikation** (präklinisch/veterinärmedizinisch) vor.
 
 ---
 
-## Schneller Überblick
+## Schnellübersicht
 
-| Element | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Nicht in den aktuellen Daten aufgeführt (bekannte Anwendung: HIV-1-Infektion) |
-| Vorhergesagte neue Indikation | — Keine vorhergesagt |
-| TxGNN-Vorhersage-Score | — Nicht verfügbar |
-| Evidenzstufe | L5 (Keine Vorhersage oder unterstützende Studien) |
-| Status auf dem Taiwan-Markt | ✗ Nicht vermarktet (Nicht vermarktet) |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | **Halten** |
+| Ursprüngliche Indikation | HIV-Infektionen |
+| Vorhergesagte neue Indikation | Felines erworbenes Immunschwächesyndrom |
+| TxGNN-Vorhersagewert | 99,79 % |
+| Evidenzniveau | L4 |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen |
+| Anzahl der Zulassungen | 4 (alle aufgehoben) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage vernünftig?
+## Warum ist diese Vorhersage plausibel?
 
-Es gibt derzeit **keine TxGNN-Vorhersage zur Evaluierung**. Das `predicted_indications`-Array im Evidenzpaket ist leer, was bedeutet, dass das Modell bisher keine Umwidmungskandidaten für ABACAVIR identifiziert hat.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist jedoch, dass Abacavir ein nukleosidischer Reverse-Transkriptase-Hemmer (NRTI) mit Wirkung gegen HIV-1 ist. Seine Wirksamkeit bei HIV-Infektionen ist belegt.
 
-ABACAVIR ist ein etablierter Nukleosid-Analogon-Reverse-Transkriptase-Inhibitor (NRTI). Er wird intrazellulär zu seinem aktiven Metaboliten Carbovir-Triphosphat phosphoryliert, der mit dem natürlichen Substrat dGTP konkurriert und sich in die virale DNA einlagert und einen Kettenabbruch verursacht. Detaillierte Daten zum Wirkungsmechanismus waren im Evidenzpaket nicht verfügbar (gekennzeichnet als Datenlücke DG002); der antivirale Mechanismus von ABACAVIR ist jedoch hochspezifisch für die HIV-1-Reverse-Transkriptase, was seine Anwendbarkeit auf nicht-virale Krankheitsindikationen ohne weitere rechnergestützte oder experimentelle Evidenz begrenzen kann.
+Das Feline Immundefizienzvirus (FIV) ist ein Lentivirus, das wie HIV auf die Reverse Transkriptase angewiesen ist. Deshalb besteht ein mechanistischer Ansatz. FIV-Infektionen bei Hauskatzen gelten zudem als Tiermodell für HIV.
 
-Bis das TxGNN-Modell eine bewertete Vorhersage für eine neue Indikation liefert, kann keine Bewertung der mechanistischen Plausibilität durchgeführt werden.
+Die Evidenz ist allerdings nur indirekt: Die einzige gefundene Publikation untersucht eine Kombination aus Zidovudin, Lamivudin und Abacavir, sodass die Wirkung von Abacavir allein nicht isoliert beurteilt werden kann. Der sehr hohe TxGNN-Wert spiegelt wahrscheinlich vor allem die Ähnlichkeit des lentiviralen Zielmoleküls zu HIV wider und keine unabhängige Bestätigung.
 
----
-
-## Nachweis aus klinischen Studien
-
-Derzeit keine Registrierungen verwandter klinischer Studien für eine vorhergesagte Umwidmungsindikation.
+Zwei weitere Vorhersagen (Simian-Immundefizienzvirus-Infektion sowie eine neuroentwicklungsbedingte Störung mit ataktischem Gang) sind schwächer belegt. Die SIV-Vorhersage stützt sich nur auf eine In-vitro-Studie (PMID 15040537). Für die neuroentwicklungsbedingte Störung gibt es keine Studien und keine erkennbare mechanistische Verbindung.
 
 ---
 
-## Literaturnachweis
+## Klinische Studien
 
-Derzeit ist keine verwandte Literatur für eine vorhergesagte Umwidmungsindikation verfügbar.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Informationen zum Taiwan-Markt
+## Literaturevidenz
 
-ABACAVIR verfügt derzeit über **keine TFDA-Marktzulassungen** in Taiwan. Es gibt keine zugelassenen Produkte zu berichten.
+| PMID | Jahr | Typ | Journal | Kernaussagen |
+|------|-----|------|------|---------|
+| [11684314](https://pubmed.ncbi.nlm.nih.gov/11684314/) | 2002 | Präklinische/veterinärmedizinische Kombinationsstudie (Design anhand des Titels eingeordnet) | Antiviral Research | Kombinierte Wirkung von Zidovudin, Lamivudin und Abacavir auf die Hemmung der FIV-Replikation in vitro; FIV-Infektion der Katze als Tiermodell für HIV |
+
+---
+
+## Marktinformationen Deutschland
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000252 | Ziagen | – | HIV-Infektionen |
+| EMEA/H/C/000581 | Kivexa | – | HIV-Infektionen |
+| EMEA/H/C/002754 | Triumeq | – | HIV-Infektionen |
+| EMEA/H/C/000338 | Trizivir | – | HIV-Infektionen |
+
+Alle vier Zulassungen sind aufgehoben (Status: cancelled).
 
 ---
 
 ## Sicherheitsaspekte
 
-> Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
->
-> Hinweis: Daten zu Warnungen/Kontraindikationen der Packungsbeilage konnten nicht abgerufen werden (Datenlücke DG001, Schweregrad: **Blockierend**). In den abgefragten Datenbanken wurden keine Arzneimittel-Arzneimittel-Wechselwirkungsdatensätze gefunden. Diese Datenlücke muss behoben werden, bevor eine Sicherheits-Erstbewertung (S1) durchgeführt werden kann.
+- **Mögliche Kontraindikationen laut Wissensgraph (PrimeKG, keine Packungsbeilagen-Angaben):** Leberversagen, Lebererkrankung, Fettleber/nichtalkoholische Steatohepatitis, Nierenerkrankung, Pankreatitis, Gallenblasenerkrankung, Myopathie/Myositis/Dermatomyositis, Neutropenie, Agranulozytose, Anämie, Hypertriglyzeridämie, Adipositas, Laktatazidose, familiäre periodische Paralyse, Pyoureter.
+- **Arzneimittelwechselwirkungen:** Insgesamt wurden 93 Wechselwirkungen erfasst. Als **moderat** eingestuft sind Naltrexon und Orlistat. Weitere (Einstufung unbekannt) sind u. a. Metformin, Morphin, Omeprazol, Pantoprazol, Vancomycin, Prednison und Amphotericin B.
+- Für die dritte Vorhersage ist zusätzlich Vorsicht geboten: Abacavir ist mit einer HLA-B*57:01-assoziierten Überempfindlichkeit und neurologischen Nebenwirkungen verbunden.
+
+Für weitere Sicherheitsinformationen ist die Packungsbeilage heranzuziehen.
 
 ---
 
-## Datenlücken, die behoben werden müssen
+## Fazit und nächste Schritte
 
-Die folgenden kritischen Datenlücken wurden in diesem Evidenzpaket identifiziert:
-
-| ID | Element | Schweregrad | Auswirkung | Abhilfe |
-|----|------|----------|--------|-------------|
-| DG001 | TFDA-Packungsbeilage Warnungen/Kontraindikationen | **Blockierend** | Kann S1-Sicherheits-Erstbewertung nicht durchführen | PDF-Packungsbeilage von der TFDA-Website herunterladen und analysieren |
-| DG002 | Wirkungsmechanismus (MOA) | **Hoch** | Beeinflusst die Analyse der Mechanismus-Relevanz | DrugBank-API abfragen |
-
----
-
-## Schlussfolgerung und nächste Schritte
-
-**Entscheidung: Halten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Das TxGNN-Modell hat keine vorhergesagten neuen Indikationen für ABACAVIR generiert. Darüber hinaus gibt es blockierende Datenlücken (TFDA-Packungsbeilage Warnungen/Kontraindikationen), die eine Sicherheitsbewertung verhindern. Ohne ein Vorhersage-Ziel und ohne Baseline-Sicherheitsdaten kann dieser Kandidat die Umwidmungs-Evaluierungspipeline nicht durchlaufen.
+Für die vorhergesagte Indikation liegen nur indirekte, präklinische Daten vor, ohne klinische Studien. Zudem sind alle deutschen/europäischen Zulassungen aufgehoben, und die Sicherheitsdaten der Packungsbeilage fehlen.
 
-**Um fortfahren zu können, wird Folgendes benötigt:**
-- Führen Sie die TxGNN-Vorhersage-Pipeline für ABACAVIR (DB01048) aus oder führen Sie sie erneut aus, um Kandidatenindikationen zu generieren
-- Beheben Sie DG001: Erhalten Sie TFDA-Packungsbeilage-Warnungen und Kontraindikationen (Blockierend)
-- Beheben Sie DG002: Rufen Sie detaillierte Wirkungsmechanismus-Daten von der DrugBank-API ab
-- Bestätigen Sie die Verfügbarkeit auf dem Taiwan-Markt oder identifizieren Sie internationale Beschaffungswege, da das Arzneimittel derzeit nicht in Taiwan vermarktet wird
-- Sobald eine vorhergesagte Indikation verfügbar ist, sammeln Sie klinische Studien- und Literaturnachweis für das spezifische Krankheitsziel
-
+**Für ein Weiterkommen sind folgende Schritte nötig:**
+- Beschaffung und Auswertung der Packungsbeilage (Warnhinweise, Kontraindikationen), da dies derzeit die Sicherheitsprüfung blockiert
+- Daten zum Wirkmechanismus (z. B. aus DrugBank)
+- Studien zur Wirkung von Abacavir als Einzelsubstanz gegen FIV
+- Klärung des Zulassungsstatus und der tatsächlichen Marktverfügbarkeit
+- Prüfung, ob eine veterinärmedizinische Anwendung überhaupt das Ziel der Repurposing-Strategie ist
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -2,7 +2,7 @@
 layout: default
 title: Orlistat
 parent: Nur Modellvorhersage (L5)
-nav_order: 284
+nav_order: 332
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,75 +29,83 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Orlistat: Von unspezifischer ursprünglicher Indikation zu Hypervitaminose
+# Orlistat: Von Adipositas zu Hypervitaminose
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Die ursprüngliche genehmigte Indikation von Orlistat ist im aktuellen Evidenzpaket nicht dokumentiert, und sein Wirkmechanismus (MOA) ist als Datenlücke hohen Schweregrades gekennzeichnet, die ausstehend zur DrugBank-Verifikation ist. Das TxGNN-Modell sagt eine mögliche Anwendung in **Hypervitaminose** voraus, aber diese Vorhersage wird derzeit durch **0 klinische Studien** und **0 Publikationen** unterstützt – sie beruht vollständig auf einer theoretischen, inversen Wirkmechanismus-Rationale.
+Orlistat ist ein Lipasehemmer, der ursprünglich zur Behandlung von **Adipositas** zugelassen wurde. Das TxGNN-Modell sagt voraus, dass der Wirkstoff bei **Hypervitaminose** wirksam sein könnte. Für diese Richtung liegen derzeit **keine klinischen Studien und keine Publikationen** vor; die Vorhersage beruht allein auf dem Modell.
 
 ---
 
 ## Schnellübersicht
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | **Nicht im Evidenzpaket dokumentiert (Datenlücke)** |
-| Vorhergesagte neue Indikation | **Hypervitaminose** |
-| TxGNN-Vorhersage-Score | 99.42% (Rang #6553) |
-| Evidenzstufe | L5 |
-| Marktstatus Deutschland | **Nicht vermarktet** |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | **Abwarten** |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Adipositas |
+| Vorhergesagte neue Indikation | Hypervitaminose |
+| TxGNN-Vorhersagewert | 99,42 % |
+| Evidenzgrad | L5 |
+| Marktstatus in Deutschland | Nur erloschene Zulassungen |
+| Anzahl der Zulassungen | 2 (beide erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage begründet?
+## Warum ist diese Vorhersage plausibel?
 
-Der formale Wirkmechanismus von Orlistat ist in diesem Evidenzpaket noch nicht bestätigt (gekennzeichnet als Datenlücke hohen Schweregrades, DG002, ausstehend DrugBank-API-Verifikation). Die dieser Vorhersage zugeordnete Umpositionierungsrationale beschreibt Orlistat jedoch als einen gastrointestinalen Lipase-Hemmer, der die Hydrolyse von Nahrungstriglyceriden blockiert und dadurch die Fettaufnahme im Darm verringert.
+Zu Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Orlistat ein Hemmer der gastrischen und pankreatischen Lipase ist und die Absorption von Nahrungsfett um etwa 30 % senkt. Die Wirksamkeit bei Adipositas ist belegt.
 
-Eine bekannte Folge dieses Wirkmechanismus – klinisch als Nebenwirkung behandelt, die Supplementierung erfordert – ist die verminderte Aufnahme fettlöslicher Vitamine (A, D, E, K). Die TxGNN-Vorhersage kehrt im Wesentlichen diesen bekannten Effekt um: Wenn Orlistat die Aufnahme fettlöslicher Vitamine verringert, könnte es theoretisch zur Senkung der übermäßigen Aufnahme bei Hypervitaminose A/D/E/K umpositioniert werden.
+Da durch die verminderte Fettresorption auch fettlösliche Vitamine (A, D, E, K) schlechter aufgenommen werden, ließe sich theoretisch ein Nutzen bei einer Hypervitaminose durch fettlösliche Vitamine ableiten. Diese Verbindung beruht jedoch auf einer bekannten Nebenwirkung (Vitaminmalabsorption) und nicht auf therapeutischen Belegen. Der hohe TxGNN-Wert spiegelt vermutlich den bekannten Einfluss auf Vitaminspiegel wider und nicht ein validiertes Therapiesignal.
 
-Dies ist eine wirkmechanistisch plausible Hypothese, keine evidenzgestützte therapeutische Anwendung. Sie wurde in keiner klinischen Studie geprüft und wird durch keine Literatur bis heute unterstützt, und die zugrunde liegenden MOA-Daten selbst erfordern noch formale Verifikation, bevor diese Rationale als zuverlässig angesehen werden kann.
+Hinzu kommt, dass eine Hypervitaminose in der Regel durch Absetzen des Präparats oder der Vitaminquelle behandelt wird. Der klinische Zusatznutzen eines weiteren Wirkstoffs mit gastrointestinalen Nebenwirkungen ist daher unklar.
 
 ---
 
-## Klinische Studienevidenz
+## Klinische Evidenz
 
-Derzeit keine verwandten klinischen Studien registriert
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
 ## Literaturevidenz
 
-Derzeit keine verwandte Literatur verfügbar
+Derzeit liegt keine zugehörige Literatur vor.
 
 ---
 
-## Deutschland-Marktinformationen
+## Informationen zum Markt in Deutschland
 
-Orlistat hat derzeit in Deutschland keine Marktzulassung – der Marktstatus ist **nicht vermarktet**, mit 0 registrierten Lizenzen. Keine Einträge für Produkte, Darreichungsformen oder genehmigte Indikationen sind verfügbar.
-
----
-
-## Sicherheitsüberlegungen
-
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation | Status |
+|---------|------|------|-----------|------|
+| EMEA/H/C/000154 | Xenical (CHEPLAPHARM Arzneimittel GmbH) | – | Adipositas | Erloschen |
+| EMEA/H/C/000854 | Alli (zuvor Orlistat GSK; Haleon Ireland Dungarvan Limited) | – | Adipositas | Erloschen |
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Sicherheitsaspekte
 
-**Entscheidung: Abwarten**
+- **Kontraindikationen laut Wissensgraph (TxGNN/PrimeKG, nicht aus dem Beipackzettel):** Leberversagen, primäre Hyperoxalurie, Anorexia nervosa, Bulimia nervosa, Vitaminmangelerkrankungen, Cholestase, benigne rekurrente intrahepatische Cholestase, familiäre intrahepatische Cholestase, arzneimittelinduzierte Leberschädigung.
+- **Arzneimittelwechselwirkungen:** Es wurden 100 Wechselwirkungen erfasst (Quelle: DDInter). Beispiele:
+  - *Moderat:* Abacavir, Lamivudine, Emtricitabine, Atazanavir, Acarbose, Albiglutide, Alogliptin, Metformin, Canagliflozin, Chlorpropamide, Amiodarone, Cannabidiol, Clofarabine, Brentuximab vedotin, Asparaginase (E. coli und Erwinia chrysanthemi), Calaspargase pegol
+  - *Gering:* Cholecalciferol, Calcifediol, Calcitriol
+
+Besonders relevant für die vorgeschlagene Indikation: Mit den Vitamin-D-Präparaten (Cholecalciferol, Calcifediol, Calcitriol) bestehen Wechselwirkungen, und die Kontraindikation bei Vitaminmangelerkrankungen betrifft genau den Wirkmechanismus. Weitere Sicherheitsinformationen entnehmen Sie bitte der Packungsbeilage.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Hold**
 
 **Begründung:**
-Diese Vorhersage wird nur durch eine theoretische Umkehrung des Wirkmechanismus unterstützt (L5, Entscheidungsstadium S0), ohne klinische Studien oder Literaturbelege. Eine blockierende Datenlücke bezüglich TFDA-Kennzeichnungshinweisen/Kontraindikationen (DG001) verhindert eine Vorab-Sicherheitsbewertung, und der Wirkmechanismus des Arzneimittels selbst (DG002) ist nicht verifiziert.
+Die Vorhersage stützt sich ausschließlich auf ein Modell (Evidenzgrad L5), ohne Studien oder Publikationen. Der postulierte Mechanismus leitet sich aus einer Nebenwirkung ab, und die Standardtherapie (Absetzen der Vitaminquelle) ist einfach und wirksam. Zudem sind in Deutschland keine gültigen Zulassungen vorhanden.
 
-**Um fortzufahren, wird Folgendes benötigt:**
-- Bestätigung des Wirkmechanismus von Orlistat über DrugBank-API (DG002 auflösen)
-- Erwerb und Analyse der TFDA-Kennzeichnungs-PDF auf Hinweise/Kontraindikationen (DG001 auflösen – blockierend)
-- Identifikation mindestens präklinischer oder beobachtender Evidenz, die Orlistat direkt mit der Hypervitaminose-Therapie verknüpft, bevor das Stadium S0 überschritten wird
-- Neubewertung des regulatorischen Weges in Deutschland, da das Arzneimittel derzeit dort nicht vermarktet ist
-
+**Für ein Weiterkommen sind folgende Schritte nötig:**
+- Vollständige Wirkmechanismus-Daten (MOA), z. B. aus DrugBank
+- Warnhinweise und Kontraindikationen aus der Fachinformation (z. B. über BfArM bzw. EMA), da die Sicherheitsprüfung sonst nicht fortgesetzt werden kann
+- Präklinische oder klinische Hinweise, dass Orlistat Vitaminspiegel bei Hypervitaminose sinnvoll senken kann
+- Bewertung der Nutzen-Risiko-Relation gegenüber dem Absetzen der Vitaminquelle sowie der Vereinbarkeit mit den Kontraindikationen
+- Klärung der Zulassungs- und Verfügbarkeitslage in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

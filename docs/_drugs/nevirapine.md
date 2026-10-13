@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Nevirapine
-parent: Nur Modellvorhersage (L5)
-nav_order: 268
-evidence_level: L5
+parent: Mittlere Evidenz (L3-L4)
+nav_order: 313
+evidence_level: L4
 indication_count: 3
 ---
 
 # Nevirapine
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3** 
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,81 +29,86 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Nevirapine: Von der HIV-1-Infektion zum erworbenen Immundefizienzsyndrom der Katzen
+# Nevirapin: Von HIV-Infektion zu felinem erworbenem Immundefizienz-Syndrom
 
 ## Zusammenfassung in einem Satz
 
-> Nevirapine (DB00238) ist ein Nicht-Nukleosid-Reverse-Transkriptase-Inhibitor (NNRTI), dessen etablierte klinische Anwendung die Behandlung der HIV-1-Infektion beim Menschen ist.
-> Die Top-Vorhersage des TxGNN-Modells deutet auf das **erworbene Immundefizienzsyndrom der Katzen** – eine tierärztliche Erkrankung bei Katzen, verursacht durch FIV, keine Humanerkrankung –
-> derzeit gestützt durch **0 klinische Studien** und nur **1 präklinische/mechanistische Publikation**.
+Nevirapin ist ein nicht-nukleosidischer Reverse-Transkriptase-Hemmer (NNRTI), der ursprünglich zur Behandlung der HIV-Infektion zugelassen wurde. Das TxGNN-Modell sagt voraus, dass er bei **felinem erworbenem Immundefizienz-Syndrom** wirksam sein könnte. Dafür liegen **keine klinischen Studien** und lediglich **1 präklinische Publikation** vor, die Evidenz ist daher sehr schwach.
 
 ---
 
 ## Schnellübersicht
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | HIV-1-Infektion (gemäß Literaturbelegen in diesem Paket; nicht bestätigt durch deutsche Zulassungsdaten – Arzneistoff ist nicht im Handel) |
-| Vorhergesagte neue Indikation | Erworbenes Immundefizienzsyndrom der Katzen (FIV-Infektion bei Katzen) |
-| TxGNN-Vorhersage-Score | 99.85% |
-| Evidenzlevel | L4 (einzelne präklinische/In-vitro-mechanistische Studie, keine klinischen Studien) |
-| Marktverfügbarkeit in Deutschland | ✗ Nicht im Handel |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Wartestellung |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | HIV-Infektionen |
+| Vorhergesagte neue Indikation | Felines erworbenes Immundefizienz-Syndrom (Katzen-Immundefizienz) |
+| TxGNN-Vorhersagewert | 99,85 % |
+| Evidenzstufe | L4 |
+| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
+| Anzahl der Zulassungen | 1 (davon 0 gültig) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage begründet?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Angaben zum Wirkmechanismus von Nevirapine in diesem Evidenzpaket nicht verfügbar (gekennzeichnet als hochgradig schwerwiegende Datenlücke). Basierend auf bekannten Informationen, die in der unterstützenden Literatur referenziert sind, ist Nevirapine ein NNRTI der ersten Generation, der direkt an die HIV-1-Reverse-Transkriptase bindet, und seine Wirksamkeit bei der HIV-1-Infektion ist in der klinischen Praxis gut etabliert.
+Für diesen Wirkstoff sind derzeit keine detaillierten Daten zum Wirkmechanismus verfügbar. Bekannt ist, dass Nevirapin ein NNRTI ist, der die Reverse Transkriptase von HIV-1 hemmt. Seine Wirksamkeit bei HIV ist belegt, und mechanistisch könnte er auf verwandte Lentiviren übertragbar sein.
 
-Die vorhergesagte Indikation, das erworbene Immundefizienzsyndrom der Katzen, wird durch das Feline-Immundefizienzvirus (FIV) verursacht – ein Lentivirus, der strukturell und funktionell dem HIV verwandt ist. Die Begründung für die TxGNN-Vorhersage liegt in der mechanistischen Nähe: Beide Viren sind auf ein Reverse-Transkriptase-Enzym für die Replikation angewiesen, und Forscher haben direkt untersucht, ob HIV-1-spezifische NNRTIs (Nevirapine, Efavirenz, Rilpivirin) die FIV-Reverse-Transkriptase hemmen könnten.
+Das Felines Immundefizienz-Virus (FIV) ist ein Lentivirus mit einer verwandten Reverse Transkriptase. Das dürfte den hohen TxGNN-Wert erklären. Allerdings zeigen NNRTIs gegen FIV im Allgemeinen nur geringe Aktivität, da sich die NNRTI-Bindungstasche strukturell unterscheidet. Die einzige verfügbare Publikation (2023) ist eine biochemische und strukturelle Vergleichsstudie und belegt keine Wirksamkeit von Nevirapin bei Katzen.
 
-Ein wichtiger Vorbehalt ist jedoch: Es handelt sich um eine **tierärztliche Indikation (Katzen), nicht um eine Humanerkrankung**. NNRTIs sind aufgrund von Unterschieden in der Reverse-Transkriptase-Bindungstasche zwischen Lentivirus-Arten hochspezifisch (eine Limitation, die auch für Nevirapine gegen SIV/HIV-2 in der Rang-2-Vorhersage dieses Pakets dokumentiert ist). Keine Daten in diesem Paket zeigen, dass Nevirapine die FIV-RT in vitro oder in vivo effektiv hemmt – die zitierte Studie untersuchte nur das *Potenzial* von NNRTIs für diesen Zweck. Diese Vorhersage sollte daher eher als schwaches Signal für eine nicht-humane Anwendung als als Kandidat für die Humanmedikation angesehen werden.
+Zu beachten: Es handelt sich um eine veterinärmedizinische Indikation ohne unmittelbare Relevanz für die Humanmedizin. Die weiteren Vorhersagen sind ähnlich schwach begründet:
 
----
-
-## Klinische Studienevidenz
-
-Derzeit sind keine damit verbundenen klinischen Studien registriert.
+- **Simian-Immundefizienz-Virus-Infektion** (Score 99,85 %): Die Reverse Transkriptase von SIV ist von Natur aus gegen NNRTIs resistent. Nevirapin ist nur in chimären SHIV-Modellen mit HIV-1-RT wirksam, die als Forschungsmodelle dienen, nicht als Therapie.
+- **Neuroentwicklungsstörung mit ataktischem Gang, fehlender Sprache und verminderter kortikaler weißer Substanz** (Score 99,82 %): Kein erkennbarer mechanistischer Zusammenhang, weder klinische Studien noch Literatur.
 
 ---
 
-## Literaturische Evidenz
+## Evidenz aus klinischen Studien
 
-| PMID | Jahr | Typ | Zeitschrift | Wichtigste Erkenntnisse |
-|------|------|-----|-------------|------------------------|
-| [38031646](https://pubmed.ncbi.nlm.nih.gov/38031646/) | 2023 | Präklinische / In-vitro-biochemisch-strukturelle Studie | Journal of Veterinary Science | Vergleich von Nevirapine, Efavirenz und Rilpivirin (HIV-NNRTIs) gegen Reverse-Transkriptase des felinen und humanen Immundefizienzvirus zur Beurteilung der möglichen Nützlichkeit von NNRTIs für die Behandlung von FIV-infizierten Katzen; es existiert derzeit keine wirksame FIV-Therapie. |
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Marktverfügbarkeit in Deutschland
+## Evidenz aus der Literatur
 
-Nevirapine ist derzeit nicht im Handel in Deutschland; keine Zulassungsunterlagen sind in diesem Evidenzpaket verfügbar.
+Für die erstrangige Vorhersage (felines Immundefizienz-Syndrom):
+
+| PMID | Jahr | Typ | Fachzeitschrift | Kernaussagen |
+|------|-----|------|------|---------|
+| [38031646](https://pubmed.ncbi.nlm.nih.gov/38031646/) | 2023 | Präklinische biochemische/strukturelle Studie | Journal of Veterinary Science | Vergleich der NNRTIs Nevirapin, Efavirenz und Rilpivirin gegen die Reverse Transkriptase von FIV und HIV, um das Potenzial für die Behandlung der FIV-Infektion zu prüfen |
+
+---
+
+## Informationen zum deutschen Markt
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000183 | Viramune | – | HIV-Infektionen (Status: erloschen) |
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte siehe Fachinformation für Sicherheitsinformationen.
+- **Kontraindikationen/Risikokonstellationen laut Wissensgraph (PrimeKG, keine Packungsbeilage):** Leberversagen, Lebererkrankung, Gallenblasenerkrankung, Exanthem, chronische Hepatitis-C-Virusinfektion, Hepatitis-C-Virusinfektion, chronische Hepatitis-B-Virusinfektion, Rhabdomyolyse, noduläre Fasziitis, arzneimittelinduzierte Leberschädigung, Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, Lyell-Syndrom
+- **Arzneimittelwechselwirkungen:** Insgesamt wurden 100 Wechselwirkungen erfasst. Die aufgeführten Beispiele sind sämtlich als moderat eingestuft: Rabeprazol, Bupropion, Aprepitant, Triamcinolon, Dexamethason, Betamethason, Budesonid, Clarithromycin, Saxagliptin, Eliglustat, Linagliptin, Naldemedin, Naloxegol, Naltrexon, Cisaprid, Granisetron, Nitisinon, Ondansetron, Orlistat und Prednisolon.
 
-> Hinweis: TFDA/BfArM-Kennzeichnungswarnungen und Kontraindikationen sind in diesem Evidenzpaket als eine **blockierende** Datenlücke (DG001) erfasst, was bedeutet, dass dieser Kandidat unabhängig von der Wirksamkeitsevidenz noch nicht zur S1-Sicherheits-Vorbewertung übergehen kann.
+Für Warnhinweise und Gegenanzeigen aus der Fachinformation bitte die Packungsbeilage bzw. Fachinformation heranziehen.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Wartestellung**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die Top-Vorhersage von TxGNN zielt auf eine tierärztliche Erkrankung (felines AIDS) ab und nicht auf eine Humanindikation, und wird durch nur eine einzelne präklinische/mechanistische Publikation ohne klinische Studien gestützt. Dies wird weiter durch eine blockierende Datenlücke bei TFDA/BfArM-Sicherheitsangaben verstärkt, die eine Sicherheits-Vorbewertung verhindert. Nevirapines weitere TxGNN-Vorhersagen in diesem Paket (Infektion mit dem Simian-Immundefizienzvirus – ein Tierforschungsmodell; und eine seltene Neurentwicklungsstörung ohne Belege überhaupt) sind gleichermaßen nicht umsetzbar für die Humanmedikation, was eine Wartestellung über die gesamte Kandidatengruppe hinweg verstärkt.
+Die Vorhersage beruht allein auf einem Modellwert und einer einzigen präklinischen Studie. Es gibt keine klinischen Studien, die Zielindikation ist veterinärmedizinisch bzw. ein Forschungsmodell, und die Zulassung in Deutschland ist erloschen. Zudem besteht ein erhebliches Sicherheitsprofil (Leber- und Hautreaktionen, viele Wechselwirkungen).
 
-**Um fortzufahren, ist das Folgende erforderlich:**
-- TFDA/BfArM-Fachinformationsdaten (Warnungen, Kontraindikationen) zur Beseitigung der blockierenden Datenlücke (DG001)
-- Bestätigter Wirkmechanismus (MOA) und ursprünglich genehmigte Humanindikation aus DrugBank (DG002)
-- Klarstellung der klinischen Relevanz – die aktuelle Top-Vorhersage ist eine nicht-humane/tierärztliche Erkrankung und erfordert eine Neubewertung gegen echte humane Erkrankungsziele
-- Falls die FIV-Signalverfolgung nur zu Translationszwecken/tierärztlichen Zwecken angestrebt wird, In-vitro-Wirksamkeitsdaten (IC50/Bindungsaffinität von Nevirapine gegen FIV-Reverse-Transkriptase) über die einzelne explorative Publikation hinaus
-
+**Für ein Weiterverfolgen sind folgende Schritte erforderlich:**
+- Daten zum Wirkmechanismus (MOA) ergänzen
+- Warnhinweise und Gegenanzeigen aus der Fachinformation (BfArM) beschaffen, da dies derzeit die Sicherheitsprüfung blockiert
+- Belastbare Wirksamkeitsdaten gegen FIV in vitro und in vivo erzeugen, da NNRTIs gegen FIV generell schwach wirken
+- Klären, ob eine veterinärmedizinische Entwicklung überhaupt angestrebt wird, und Prüfung von Alternativen mit besserem Mechanismus-Fit
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

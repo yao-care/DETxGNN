@@ -2,7 +2,7 @@
 layout: default
 title: Raloxifene Hydrochloride
 parent: Nur Modellvorhersage (L5)
-nav_order: 322
+nav_order: 378
 evidence_level: L5
 indication_count: 0
 ---

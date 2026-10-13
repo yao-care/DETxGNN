@@ -2,7 +2,7 @@
 layout: default
 title: Axitinib
 parent: Nur Modellvorhersage (L5)
-nav_order: 43
+nav_order: 49
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,93 +29,101 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Axitinib: Von metastatischem Nierenzellkarzinom zu TFE3/Xp11.2-Translokations-assoziiertem Nierenzellkarzinom
+# Axitinib: Vom Nierenzellkarzinom zum Nierenzellkarzinom mit Xp11.2-Translokation/TFE3-Genfusion
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Axitinib ist ein orales, potentes VEGFR-1/2/3-Tyrosinkinase-Inhibitor, das bereits als Second-Line-Therapie für fortgeschrittenes/metastatisches Nierenzellkarzinom (NZK) etabliert ist, basierend auf umfangreichen Literaturbeweisen in diesem Paket.
-Das TxGNN-Modell sagt voraus, dass es auch bei **Nierenzellkarzinom, das mit Xp11.2-Translokationen/TFE3-Genfusionen assoziiert ist**, wirksam sein könnte – ein seltener, molekular definierter NZK-Subtyp,
-mit **1 laufender klinischer Studie**, die diese spezifische Richtung derzeit unterstützt (noch keine gewidmete Literatur).
+Axitinib ist ein oraler Tyrosinkinase-Inhibitor, der ursprünglich zur Behandlung des Nierenzellkarzinoms zugelassen wurde. Das TxGNN-Modell sagt voraus, dass er auch beim **Nierenzellkarzinom mit Xp11.2-Translokation/TFE3-Genfusion** (tRCC) wirksam sein könnte. Die Evidenz ist bisher dünn: Es gibt **eine kleine laufende Phase-2-Studie (n=15)** und **keine direkte Publikation**.
 
 ---
 
 ## Schnellübersicht
 
-| Element | Inhalt |
-|---------|---------|
-| Ursprüngliche Indikation | Fortgeschrittenes/metastatisches Nierenzellkarzinom (Second-Line-TKI-Therapie) – abgeleitet aus Literaturbeweisen in diesem Paket (z. B. PMID 29033542, 20072829); keine BfArM-Lizenzdaten verfügbar zur Bestätigung des deutschen Label-Textes |
-| Vorhergesagte neue Indikation | Nierenzellkarzinom, das mit Xp11.2-Translokationen/TFE3-Genfusionen assoziiert ist |
-| TxGNN-Vorhersage-Score | 99,90% |
-| Evidenz-Level | L4 (eine laufende, nicht abgeschlossene Phase-2-RCT; keine abgeschlossenen Studien oder gewidmete Literatur) |
-| Status auf dem deutschen Markt | ✗ Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Halten |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Nierenzellkarzinom (Carcinoma, Renal Cell) |
+| Vorhergesagte neue Indikation | Nierenzellkarzinom mit Xp11.2-Translokation/TFE3-Genfusion |
+| TxGNN-Vorhersagewert | 99,90 % |
+| Evidenzstufe | L2 (eingeschränkt: Die einzige Studie ist noch nicht abgeschlossen und hat keine Ergebnisse) |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen (kein gültiger Eintrag) |
+| Anzahl der Zulassungen | 2 (beide erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Warum ist diese Vorhersage plausibel?
 
-Detaillierte strukturierte Wirkmechanismus-Daten (DrugBank MOA-Feld) stellen derzeit eine Datenlücke für diesen Kandidaten dar. Jedoch beschreiben die in diesem Paket enthaltenen Literaturbeweise axitinib durchgehend als einen potenten, selektiven Kleinmolekül-Inhibitor von VEGF-Rezeptoren 1, 2 und 3 (mit ungefähr 10-fach niedrigerem IC50 gegen die VEGFR-Familie als Sunitinib oder Sorafenib), der durch Anti-Angiogenese-Blockade der Tumorvaskulatur wirkt (PMID 29033542, 20072829).
+Zum detaillierten Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine Angaben vor. Bekannt ist, dass Axitinib ein selektiver Hemmer der VEGF-Rezeptoren 1–3 ist. Seine Wirksamkeit beim Nierenzellkarzinom ist durch große Phase-3-Studien belegt. Dazu gehören AXIS (Zweitlinie gegen Sorafenib), KEYNOTE-426 (Pembrolizumab plus Axitinib gegen Sunitinib) und JAVELIN Renal 101 (Avelumab plus Axitinib gegen Sunitinib).
 
-Die genehmigte Anwendung von axitinib besteht im klarzellig-dominanten fortgeschrittenen/metastatischen NZK, am robustesten etabliert durch die KEYNOTE-426-, JAVELIN Renal 101- und AXIS-Studien, die in den Literaturbeweisen dieses Pakets erfasst sind (PMIDs 30779529, 30779531, 37500340, 40750932, 33284113). TFE3/Xp11.2-Translokations-NZK ist ein seltener, molekular eigenständiger NZK-Subtyp, der ähnlich wie klarzellig-NZK eine VHL/HIF-Pathway-bezogene angiogenische Abhängigkeit aufweist, was eine mechanistische Plausibilität für VEGFR-TKI-Aktivität über diese verwandte Tumorklasse bietet. Dies wird durch die laufende Studie (NCT03595124) verstärkt, die direkt axitinib plus nivolumab bei TFE3/Translokations-NZK über alle Altersgruppen hinweg testet.
+Das Xp11.2/TFE3-Translokations-RCC ist ein seltener Subtyp des Nierenzellkarzinoms, bei dem der VEGF-Signalweg eine Rolle spielt. Die ursprüngliche und die vorhergesagte Indikation sind daher biologisch eng verwandt, und eine VEGFR-Hemmung ist mechanistisch plausibel.
 
-Bemerkenswert ist, dass mehrere andere vorhergesagte Indikationen in diesem Beweispaket (ungeklassifiziertes NZK, pädiatrisches/Kindheits-NZK, Sammelrohr-Karzinom und sogar myxoides Liposarkom) der gleichen Angiogenese-abhängigen Rationale folgen, wobei Liposarkom-Beweise durch eine gewidmete präklinische Studie (PMID 27822137) unterstützt werden, die zeigt, dass axitinib antiangiogene und antitumorale Aktivität in myxoiden Liposarkom-Zelllinien aufweist – was darauf hindeutet, dass der Anti-VEGFR-Mechanismus sich über Nierenkrebse hinaus auf andere vaskularisierte Weichteiltumore erstrecken könnte.
+Bei diesem seltenen Subtyp gibt es aber keine abgeschlossenen Studien und keine Publikationen. Die Evidenz aus den Zulassungsstudien stammt überwiegend vom klarzelligen Nierenzellkarzinom und lässt sich nur indirekt übertragen.
 
 ---
 
 ## Evidenz aus klinischen Studien
 
-| Studiennummer | Phase | Status | Einschluss | Wichtigste Ergebnisse |
+| Studiennummer | Phase | Status | Teilnehmerzahl | Zentrale Aussagen |
 |---------|------|------|------|---------|
-| [NCT03595124](https://clinicaltrials.gov/study/NCT03595124) | Phase 2 | Aktiv, keine Rekrutierung mehr | 15 | Randomisierte Studie von axitinib + nivolumab vs. Monotherapie mit nivolumab speziell bei TFE/Translokations-NZK über alle Altersgruppen; testet, ob die Anti-Angiogenese-Aktivität von axitinib kombiniert mit Checkpoint-Inhibition diesem molekularen Subtyp nutzt |
+| [NCT03595124](https://clinicaltrials.gov/study/NCT03595124) | Phase 2 | Aktiv, nicht mehr rekrutierend | 15 | Randomisierter Vergleich von Axitinib plus Nivolumab gegen Nivolumab allein bei nicht resezierbarem oder metastasiertem TFE/Translokations-RCC. Geplantes Studienende: 11/2026. Ergebnisse liegen nicht vor. |
 
 ---
 
-## Literaturbeweise
+## Literaturevidenz
 
-Derzeit keine spezifische Literatur zu Xp11.2-Translokations-/TFE3-Genfusions-assoziiertem Nierenzellkarzinom verfügbar. (Umfassendere Literatur zu NZK und pädiatrischem NZK existiert unter verwandten vorhergesagten Indikationen in diesem Paket, z. B. PMID 31012542 zu fortgeschrittenem pädiatrischem NZK und PMID 39326645 zu axitinib-Ergebnissen bei Kindern/jungen Erwachsenen mit NZK, aber keine ordnet sich direkt diesem spezifischen TFE3-definierten Subtyp zu.)
+Derzeit liegt keine spezifische Literatur zu dieser Indikation vor.
 
 ---
 
-## Informationen zum deutschen Markt
+## Marktinformationen Deutschland
 
-Axitinib hat derzeit keine BfArM-Zulassungsunterlagen in diesem Paket (0 Lizenzen; Marktstatus: Nicht vermarktet). Kein Darreichungsformtext oder genehmigter Indikationstext ist verfügbar für eine Zusammenfassung.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation | Status |
+|---------|------|------|-----------|------|
+| EMEA/H/C/006206 | Axitinib Accord | – | Nierenzellkarzinom | Erloschen |
+| EMEA/H/C/002406 | Inlyta | – | Nierenzellkarzinom | Erloschen |
+
+Beide Zulassungen (Accord Healthcare, Pfizer Europe MA EEIG) sind als erloschen geführt. Die aktuelle Verfügbarkeit in Deutschland sollte vor jeder weiteren Planung geprüft werden.
 
 ---
 
 ## Zytotoxizität
 
-Axitinib ist ein antineoplastisches Mittel (genehmigte onkologische Indikation: fortgeschrittenes/metastatisches Nierenzellkarzinom; Klasse: VEGFR-Tyrosinkinase-Inhibitor gemäß Literaturbeweisen in diesem Paket).
-
-| Element | Inhalt |
-|---------|---------|
-| Zytotoxizitätsklassifizierung | Zielgerichtete Therapie (VEGFR-1/2/3-Tyrosinkinase-Inhibitor / Anti-Angiogenese-Kleinmolekül) – keine konventionale zytotoxische Chemotherapie |
-| Myelosuppressions-Risiko | Siehe Packungsbeilage – Warnhinweise und Vorsichtsmaßnahmen |
-| Emetogenitätsklassifizierung | Siehe Packungsbeilage – Warnhinweise und Vorsichtsmaßnahmen |
-| Überwachungselemente | Siehe Packungsbeilage – Warnhinweise und Vorsichtsmaßnahmen |
-| Schutzmaßnahmen bei der Handhabung | Siehe Packungsbeilage – Warnhinweise und Vorsichtsmaßnahmen |
+| Punkt | Inhalt |
+|------|------|
+| Zytotoxizitätsklassifikation | Zielgerichtete Therapie (VEGFR-Tyrosinkinase-Inhibitor) |
+| Myelosuppressionsrisiko | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Packungsbeilage beachten |
+| Emetogenitätsklasse | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Packungsbeilage beachten |
+| Überwachungsparameter | Blutdruck, Blutungszeichen und Schilddrüsenfunktion; weitere Laborparameter gemäß Packungsbeilage |
+| Handhabungsschutz | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Packungsbeilage beachten |
 
 ---
 
 ## Sicherheitsaspekte
 
-Siehe Packungsbeilage für Sicherheitsinformationen.
+- **Arzneimittelwechselwirkungen**: Zu Axitinib wurden insgesamt 100 Wechselwirkungen erfasst. Die wichtigsten davon:
+  - **Schwerwiegend (Major)**: Clarithromycin, Dexamethasone
+  - **Mittelschwer (Moderate)**: Aprepitant, Clotrimazol, Miconazol, Naltrexon
+  - **Gering (Minor)**: unter anderem Säureblocker und Antazida (Famotidin, Ranitidin, Cimetidin, Nizatidin, Protonenpumpenhemmer wie Rabeprazol, Esomeprazol, Lansoprazol, Dexlansoprazol sowie Aluminiumhydroxid, Calciumcarbonat und Magnesiumsalze)
+- **Empfohlene Schutzmaßnahmen**: Auf Bluthochdruck, Blutungen und Schilddrüsenfunktionsstörungen achten. Wechselwirkungen über CYP3A4/5 sind zu prüfen.
+
+Zu Warnhinweisen und Gegenanzeigen bitte die Packungsbeilage heranziehen.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Halten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Axitinib ist derzeit nicht auf dem deutschen Markt zugelassen (0 Zulassungen), und TFDA/BfArM-Label-Warnhinweise und Gegenanzeigen sind eine **blockierende** Datenlücke (DG001), die eine S1-Sicherheits-Vorbeurteilung verhindert. Kombiniert mit einer frühen, nicht abgeschlossenen Einzelstudie als einzigem direktem Beweis für diese spezifische Indikation (Evidenz-Level L4), ist der Kandidat noch nicht bereit zum Fortschritt.
+- Der Vorhersagewert ist hoch und der Mechanismus (VEGFR-Hemmung) plausibel. Die Evidenz für diesen seltenen Subtyp beschränkt sich aber auf eine kleine, noch nicht ausgewertete Phase-2-Studie (n=15) ohne Publikationen.
+- Zudem gibt es in Deutschland aktuell keine gültige Zulassung.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- Abrufen von TFDA/BfArM-Packungsbeilage-Warnhinweisen, Gegenanzeigen und DDI-Daten (DG001, blockierend)
-- Strukturierte DrugBank MOA-Daten zur Formalisierung der mechanistischen Begründung abrufen (DG002)
-- Fertigstellung von NCT03595124 auf Ergebnisdaten bei TFE3/Translokations-NZK überwachen
-- Deutschen/EU-Markt und Zulassungsstatus vor weiterer Evaluierung bestätigen
-
+**Für ein Weiterkommen ist Folgendes nötig:**
+- Ergebnisse der Studie NCT03595124 abwarten und bewerten (geplantes Studienende 11/2026).
+- Packungsbeilage beschaffen und Warnhinweise sowie Gegenanzeigen auswerten.
+- Detaillierte Wirkmechanismus-Daten ergänzen.
+- Aktuellen Zulassungs- und Verfügbarkeitsstatus in Deutschland klären.
+- Ein Sicherheitsüberwachungsplan erstellen, der Blutdruck, Blutungen, Schilddrüse und die Wechselwirkungen berücksichtigt.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

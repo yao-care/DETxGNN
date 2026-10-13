@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Fluticasone Furoate
-parent: Mittlere Evidenz (L3-L4)
-nav_order: 171
-evidence_level: L3
+parent: Nur Modellvorhersage (L5)
+nav_order: 199
+evidence_level: L5
 indication_count: 8
 ---
 
 # Fluticasone Furoate
 {: .fs-9 }
 
-Evidenzniveau: **L3** | Vorhergesagte Indikationen: **8** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,89 +29,90 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **8**
 
 </div>
 
-# Flutikason-Fumarat: Von undokumentierter Ursprünglicher Indikation zu atopischem Ekzem
+# Fluticasonfuroat: Von allergischer Rhinitis, Asthma und COPD zu atopischem Ekzem
 
 ## Zusammenfassung in einem Satz
 
-Flutikason-Fumarat ist ein Kortikosteroid, dessen ursprüngliche zugelassene Indikation und Wirkmechanismus in der aktuellen Evidenzsammlung nicht dokumentiert sind, und es wird derzeit **nicht in Deutschland vermarktet** (0 Zulassungen registriert). Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam bei **atopischem Ekzem** ist, aber die unterstützende Evidenzbasis (**9 klinische Studien, 2 Publikationen**) testet die verwandte Substanz Flutikason-*Propionat* statt Fumarat selbst.
+Fluticasonfuroat ist ein inhalatives bzw. intranasales Kortikosteroid, das ursprünglich zur Behandlung der saisonalen und perennialen allergischen Rhinitis, von Asthma und der chronisch-obstruktiven Lungenerkrankung (COPD) eingesetzt wird.
+Das TxGNN-Modell sagt voraus, dass es bei **atopischem Ekzem** wirksam sein könnte, wobei für diese Indikation **keine klinischen Studien** und **2 indirekte Publikationen** vorliegen, die Fluticasonfuroat nicht direkt bei Ekzemen untersuchen.
 
 ---
 
-## Schnellübersicht
+## Kurzüberblick
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Nicht dokumentiert im aktuellen Datensatz (keine Zulassungsunterlagen verfügbar) |
+| Ursprüngliche Indikation | Saisonale und perenniale allergische Rhinitis (weitere Zulassungen: Asthma, COPD) |
 | Vorhergesagte neue Indikation | Atopisches Ekzem |
-| TxGNN-Vorhersage-Score | 99.98% |
-| Evidenzlevel | L3 |
-| Marktlage Deutschland | ✗ Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Abwarten |
+| TxGNN-Vorhersagewert | 99,98 % |
+| Evidenzniveau | L5 |
+| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
+| Anzahl der Zulassungen | 5 (alle erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage berechtigt?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Wirkmechanismus-Daten nicht in dieser Evidenzsammlung verfügbar (`original_moa`: Datenlücke). Basierend auf den verfügbaren Informationen gehört Flutikason-Fumarat zur Klasse der Kortikosteroide (Glukokortikoide) und wird als Kortikosteroid der zweiten Generation für die inhalative/intranasale Anwendung beschrieben, mechanistisch verwandt mit Flutikason-Propionat. Beide Substanzen wirken über die Aktivierung des Glukokortikoidrezeptors und unterdrücken Entzündungsmediatoren (IL-4, IL-13, TNF-α) — ein Wirkmechanismus, der für die Hautbarrieren-Entzündung bei atopischem Ekzem relevant sein könnte.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten derzeit keine detaillierten Angaben vor. Auf Grundlage des bekannten Wissens ist Fluticasonfuroat ein potenter Glukokortikoid-Rezeptor-Agonist mit entzündungshemmender und immunsuppressiver Wirkung. Seine Wirksamkeit bei allergisch-entzündlichen Atemwegserkrankungen ist belegt.
 
-Diese Sammlung dokumentiert weder die derzeit zugelassene Indikation von Flutikason-Fumarat noch dessen deutsche Markthistorie, daher kann kein direkter Vergleich „Original → neue Indikation" anhand der verfügbaren Daten vorgenommen werden. Entscheidend ist, dass im Prinzip alle unterstützenden klinischen Evidenzen unten topische **Flutikason-Propionat**-Cremes/Salben testen, nicht Fumarat. Fumarat ist derzeit nur in nasalen Sprays und Trockeninhaler-Formulierungen bekannt; es gibt keine topische dermatologische Fumarat-Formulierung in den bereitgestellten Evidenzen. Die Vorhersage ist daher am besten als **klassenabhängige (Propionat-abgeleitete) Schlussfolgerung** zu charakterisieren, nicht als molekülspezifische Evidenz — und würde zusätzlich eine Neuentwicklung von Formulierungen erfordern, bevor eine topische Anwendung bei Ekzem in Betracht gezogen werden könnte.
+Das atopische Ekzem ist ebenfalls eine allergisch-entzündliche Erkrankung und tritt häufig gemeinsam mit allergischer Rhinitis und Asthma auf. Topische Kortikosteroide sind eine Standardtherapie des atopischen Ekzems, weshalb die Vorhersage biologisch nachvollziehbar ist.
 
----
-
-## Klinische Studienevidenz
-
-| Studiennummer | Phase | Status | Rekrutierung | Wesentliche Ergebnisse |
-|---------|------|------|------|---------|
-| [NCT00616538](https://clinicaltrials.gov/study/NCT00616538) | Phase 4 | Abgeschlossen | 121 | Vergleich von EpiCeram (nicht-steroidale Barriere-Creme) vs. Flutikason-Propionat 0.05%-Creme bei pädiatrischer moderater bis schwerer AD |
-| [NCT01772056](https://clinicaltrials.gov/study/NCT01772056) | Phase 3 | Beendet | 54 | Zweimal wöchentliche Flutikason-Propionat 0.05%-Creme-Erhaltungstherapie zur Verringerung des AD-Rückfalls bei Kindern |
-| [NCT00546000](https://clinicaltrials.gov/study/NCT00546000) | Phase 4 | Abgeschlossen | 56 | Offene Studie über Cutivate (Flutikason-Propionat) Lotion 0.05% und deren Auswirkung auf die HPA-Achse bei pädiatrischer AD |
-| [NCT01915914](https://clinicaltrials.gov/study/NCT01915914) | Phase 4 | Abgeschlossen | 107 | Intermittierende Flutikason-Propionat 0.05%-Creme (2x/Woche) + Feuchtigkeitscreme vs. nur Feuchtigkeitscreme zur Verringerung des Rückfalls bei stabilisierter pädiatrischer AD |
-| [NCT00689832](https://clinicaltrials.gov/study/NCT00689832) | Phase 4 | Abgeschlossen | 487 | Tacrolimus 0.03% vs. Flutikason 0.005%-Salbe bei Kindern ≥2 Jahren mit moderater bis schwerer AD |
-| [NCT03742414](https://clinicaltrials.gov/study/NCT03742414) | Phase 2 | Aktiv, keine Rekrutierung | 398 | Proaktive Hautbarrieren-Pflege plus proaktive Flutikason-Propionat-Creme vs. reaktive Therapie zur Verhinderung der AD-Progression und Nahrungsmittelallergien |
-| [NCT07537751](https://clinicaltrials.gov/study/NCT07537751) | N/A | Abgeschlossen | 40 | Crisaborol 2% vs. Flutikason-Propionat 0.05% bei Kindern (1–12 Jahre) mit leichter bis moderater AD |
-| [NCT00690105](https://clinicaltrials.gov/study/NCT00690105) | Phase 4 | Abgeschlossen | 577 | Tacrolimus 0.1% vs. Flutikason 0.005%-Salbe bei Erwachsenen mit gesichtsbetonter („rotes Gesicht") AD |
-| [NCT00119158](https://clinicaltrials.gov/study/NCT00119158) | Phase 4 | Abgeschlossen | 90 | Pimecrolimus 1% + Flutikason (Cutivate) 0.05%-Kombination vs. Vehikel bei schweren AD-Läsionen |
-
-**Hinweis:** Alle obigen Studien verwenden Flutikason-**Propionat**-Formulierungen; keine testet direkt Flutikason-Fumarat bei atopischem Ekzem/Dermatitis.
+Allerdings ist der Beleg rein rechnerisch: Die beiden verknüpften Publikationen untersuchen Fluticasonfuroat nicht bei Ekzemen. Zudem handelt es sich bei den vorhandenen Darreichungsformen um inhalative und intranasale Zubereitungen, nicht um eine Hautanwendung; die Eignung des Applikationsweges ist noch nicht geprüft.
 
 ---
 
-## Literaturevidence
+## Klinische Evidenz
 
-| PMID | Jahr | Typ | Journal | Wesentliche Ergebnisse |
+Derzeit sind keine zugehörigen klinischen Studien registriert.
+
+---
+
+## Literaturevidenz
+
+| PMID | Jahr | Typ | Journal | Kernaussagen |
 |------|-----|------|------|---------|
-| [19571596](https://pubmed.ncbi.nlm.nih.gov/19571596/) | 2009 | Review/Kohorte | Neuroimmunomodulation | Behandelt HPA-Achsen-Suppression-Risiko durch intranasale Kortikosteroide bei allergischen Erkrankungen, wobei häufige Komorbiditäten mit atopischer Dermatitis erwähnt werden |
-| [40066386](https://pubmed.ncbi.nlm.nih.gov/40066386/) | 2025 | Fallbericht | Indian J Otolaryngol Head Neck Surg | Fallbericht über Allergen-Immuntherapie, erwähnt atopische Dermatitis als eine ihrer neuen Anwendungen (nur Kontexthintergrund) |
+| [19571596](https://pubmed.ncbi.nlm.nih.gov/19571596/) | 2009 | Review | Neuroimmunomodulation | Intranasale Kortikosteroide und Nebennierensuppression; Bewertung der HPA-Achse als Maß für systemische Effekte. Atopisches Ekzem wird nur als Begleiterkrankung erwähnt. |
+| [40066386](https://pubmed.ncbi.nlm.nih.gov/40066386/) | 2025 | Fallbericht | Indian J Otolaryngol Head Neck Surg | Allergen-Immuntherapie bei Autoimmunerkrankung; kein Bezug zu Fluticasonfuroat. |
 
 ---
 
-## Marktinformationen für Deutschland
+## Informationen zum deutschen Markt
 
-Für Flutikason-Fumarat ist derzeit keine Marktgenehmigung in Deutschland registriert (0 Lizenzen registriert; Marktlage: nicht vermarktet).
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000770 | Avamys | – | Saisonale und perenniale allergische Rhinitis |
+| EMEA/H/C/002745 | Revinty Ellipta | – | Asthma |
+| EMEA/H/C/002673 | Relvar Ellipta | – | COPD |
+| EMEA/H/C/004781 | Elebrato Ellipta | – | COPD |
+| EMEA/H/C/004363 | Trelegy Ellipta | – | COPD |
+
+Alle fünf Zulassungen sind erloschen; aktuell besteht kein gültiger Zulassungsstatus.
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. (Wichtige Warnhinweise, Kontraindikationen und Arzneimittelwechselwirkungsdaten sind derzeit nicht in dieser Evidenzsammlung verfügbar — markiert als **blockierende** Datenlücke, DG001.)
+- **Kontraindikationen/Risikokonstellationen aus dem Wissensgraphen** (keine Angaben aus dem Beipackzettel): Masern, Herpes-simplex-Keratitis, Nebenniereninsuffizienz, Morbus Addison, Varizella-Zoster-Infektion, Pilzinfektionen, Dermatophytose, Lungentuberkulose, okuläre Hypertension, Glaukom, parasitäre Infektionen, Infektionskrankheiten allgemein, Erkrankungen der unteren und oberen Atemwege, Nasennebenhöhlen- und Nasenhöhlenerkrankungen, Nebennierenüberfunktion, Cushing-Syndrom.
+- Die Literatur weist auf die Möglichkeit einer Nebennierensuppression unter intranasalen Kortikosteroiden hin.
+
+Für weitere Sicherheitsinformationen, insbesondere Warnhinweise und Wechselwirkungen, ist die Fachinformation heranzuziehen.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Abwarten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die Evidenz für die Vorhersage des atopischen Ekzems ist nur auf Klassenebene verfügbar (abgeleitet von Flutikason-Propionat-Studien, nicht Fumarat selbst), Fumarat hat keine bekannte topische dermatologische Formulierung, und das Arzneimittel wird derzeit nicht in Deutschland vermarktet. Zusammen mit einer blockierenden Lücke bei Sicherheits-/Kennzeichnungsdaten ist die Grundlage unzureichend, um derzeit über eine Forschungsfrage hinauszugehen.
+Die Vorhersage ist biologisch plausibel, stützt sich aber ausschließlich auf das Modell (Evidenzniveau L5): Es gibt keine klinischen Studien, und die beiden Publikationen sind indirekt. Hinzu kommt, dass alle deutschen Zulassungen erloschen sind. Ein Teil der weiteren Vorhersagen (z. B. Bronchitis) ist eher eine Erweiterung bestehender Atemwegsindikationen als echtes Repurposing, und der Eintrag „atopisches Ekzem" ist doppelt vorhanden (auch als „dermatitis, atopic"), sodass die Einträge zusammengeführt werden sollten.
 
-**Zum Fortfahren ist Folgendes erforderlich:**
-- Beheben Sie DG001 (Blockierend): Beschaffen Sie offizielle deutsche Kennzeichnungswarnhinweise/Kontraindikationen vor einer S1-Sicherheitsbewertung
-- Beheben Sie DG002: Beschaffen Sie dokumentierte Wirkmechanismen und bestätigte ursprüngliche zugelassene Indikation(en) für Flutikason-Fumarat
-- Fumarat-spezifische (nicht Propionat-) klinische Evidenz in einer Ekzem-/Dermatitis-Population
-- Bewertung der Formulierungsmachbarkeit — Fumarat existiert derzeit nur in nasalen Sprays und Inhalationsprodukten; eine topische Form müsste entwickelt werden
-- Erwägen Sie die Bewertung des Kandidaten mit höherer Evidenz, der an anderer Stelle in dieser Evidenzsammlung identifiziert wurde: **Bronchitis** (Rang 2, L2, „Fortfahren mit Schutzmaßnahmen"), der direkten Fumarat-Studiensupport hat (z. B. NCT02989935, RELVAR/Flutikason-Fumarat-Vilanterol bei COPD/Bronchitis)
-
+**Für ein Weiterkommen ist Folgendes nötig:**
+- Direkte klinische Daten zu Fluticasonfuroat bei atopischem Ekzem bzw. Kontaktdermatitis
+- Prüfung der Eignung des Applikationsweges (inhalativ/intranasal vs. kutan) und ggf. Formulierungsentwicklung
+- Detaillierte Wirkmechanismusdaten (MOA)
+- Sicherheitsdaten aus der Fachinformation (Warnhinweise, Kontraindikationen, Wechselwirkungen), die bislang fehlen und für das Sicherheits-Screening erforderlich sind
+- Klärung der regulatorischen Situation angesichts der erloschenen Zulassungen
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

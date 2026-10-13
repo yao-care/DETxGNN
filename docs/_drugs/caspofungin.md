@@ -2,7 +2,7 @@
 layout: default
 title: Caspofungin
 parent: Nur Modellvorhersage (L5)
-nav_order: 91
+nav_order: 102
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,33 +29,33 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Caspofungin: Von der Antimykotika-Therapie zur abnormalen Gastrinsekretion
+# Caspofungin: Von Candidiasis/Aspergillose zu Gastrin-Sekretionsstörung
 
 ## Zusammenfassung in einem Satz
 
-Caspofungin ist ein Antimykotikum der Echinocandin-Klasse; spezifische Daten zur ursprünglichen Indikation sind in diesem Evidenzpaket nicht verfügbar, obwohl Echinocandine allgemein für invasive Pilzinfektionen verwendet werden. Das TxGNN-Modell sagt eine mögliche Assoziation mit **abnormaler Gastrinsekretion** voraus, aber diese Vorhersage hat derzeit **keine unterstützenden klinischen Studien** und **keine unterstützende Literatur** — sie beruht ausschließlich auf einem Modellscore von 99.44%.
+Caspofungin ist ein Antimykotikum aus der Klasse der Echinocandine und wurde ursprünglich zur Behandlung von Candidiasis und Aspergillose zugelassen. Das TxGNN-Modell sagt voraus, dass es bei einer **Gastrin-Sekretionsstörung** wirksam sein könnte. Für diese Vorhersage liegen jedoch **keine klinischen Studien** und **keine Publikationen** vor, sie beruht allein auf dem Modell.
 
 ---
 
 ## Schnellübersicht
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Nicht verfügbar (Datenlücke; Arzneimittelklasse bekannt als Echinocandin-Antimykotikum) |
-| Vorhergesagte neue Indikation | Abnormale Gastrinsekretion |
-| TxGNN-Vorhersage-Score | 99.44% |
-| Evidenzlevel | L5 |
-| Marktstatus in Deutschland | Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Halten |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Candidiasis; Aspergillose |
+| Vorhergesagte neue Indikation | Gastrin-Sekretionsstörung |
+| TxGNN-Vorhersagewert | 99,44 % |
+| Evidenzgrad | L5 |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
+| Anzahl der Zulassungen | 1 |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage sinnvoll?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Daten zum Wirkmechanismus für Caspofungin in diesem Evidenzpaket nicht verfügbar. Basierend auf bekannten Informationen zur Arzneimittelklasse ist Caspofungin ein Echinocandin-Antimykotikum, das die β-(1,3)-D-Glucan-Synthase der Pilzzellwand hemmt — ein Mechanismus ohne etablierte pharmakologische Verbindung zur Regulation der Gastrinsekretion.
+Derzeit liegen keine detaillierten Daten zum Wirkmechanismus in den für diesen Bericht zusammengestellten Daten vor. Nach allgemeinem Wissen gehört Caspofungin zu den Echinocandinen und hemmt die β-(1,3)-D-Glucan-Synthase der Pilzzellwand. Seine Wirksamkeit bei Candidiasis und Aspergillose ist belegt.
 
-Die Repurposing-Begründung, die zusammen mit dieser Vorhersage bereitgestellt wird, vermerkt explizit, dass es **keine bekannte biologische Verbindung** zwischen der antimykotischen Aktivität von Echinocandinen und der Gastrinsekretion gibt. Das Fehlen ursprünglicher MOA-Daten schwächt das Vertrauen in jeden mechanistischen Zusammenhang weiter ab. Diese Vorhersage sollte als reiner Modelloutput (TxGNN-Score 0.994, Rang 6388) eher als eine mechanistisch fundierte Hypothese in dieser Phase betrachtet werden.
+Für die vorhergesagte Indikation besteht jedoch **kein bekannter mechanistischer Zusammenhang**. Der gastrinbildende Signalweg (G-Zellen, CCK2-Rezeptor, Regulation der Magensäure) besitzt kein bekanntes Glucan-Synthase-Ziel. Der sehr hohe Vorhersagewert (0,994) ist eine reine Vorhersage des Wissensgraphen. Er könnte auf indirekte Netzwerkassoziationen zurückgehen, etwa über die Wirkstoffklasse der Antimykotika oder über das Umfeld von Zollinger-Ellison und gastrinbezogenen Erkrankungen. Ohne verifizierten Mechanismus lässt sich die Vorhersage biologisch nicht interpretieren.
 
 ---
 
@@ -71,33 +71,41 @@ Derzeit ist keine zugehörige Literatur verfügbar.
 
 ---
 
-## Marktsituation in Deutschland
+## Marktinformationen Deutschland
 
-Caspofungin wird in Deutschland derzeit unter diesem Evidenzpaket nicht vermarktet, und es sind keine Zulassungsunterlagen verfügbar (Gesamtzahl der Zulassungen: 0).
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000379 | Cancidas (zuvor Caspofungin MSD) | – | Candidiasis; Aspergillose |
+
+Hinweis: Diese Zulassung hat den Status „erloschen/aufgehoben“. Es besteht derzeit keine gültige Zulassung in den zusammengestellten Daten.
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Fachinformation für Sicherheitsinformationen.
+- **Kontraindikationen aus dem Wissensgraphen** (Wirkstoff-Erkrankungs-Beziehungen aus PrimeKG, kein Packungsbeilagentext): Lebererkrankung, Gallenblasenerkrankung, Kaliummangel.
+- **Arzneimittelwechselwirkungen**: Insgesamt wurden 81 Wechselwirkungen erfasst. Die wichtigsten:
+  - **Schwerwiegend (Major)**: Dexamethason
+  - **Mittelschwer (Moderate)**: Naltrexon
+  - Weitere Wechselwirkungen mit nicht eingestuftem Schweregrad, u. a. Amphotericin B, Vancomycin, Prednison, Prednisolon, Hydrocortison, Simvastatin, Omeprazol, Pantoprazol, Lansoprazol und Kaliumchlorid.
 
-*(Anmerkung: TFDA-Warn-/Kontraindikationsdaten sind als blockierende Datenlücke gekennzeichnet — diese müssen behoben werden, bevor eine S1-Sicherheitsvorbewertung durchgeführt werden kann.)*
+Für Warnhinweise und Gegenanzeigen aus der Packungsbeilage wird auf die Fachinformation verwiesen.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Halten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Trotz eines hohen TxGNN-Modellscores hat dieser Kandidat null klinische Studien- oder Literaturunterstützung, und der vorgeschlagene mechanistische Zusammenhang zwischen der Hemmung der Pilzzellwand und der Regulation der Gastrinsekretion hat keine etablierte biologische Grundlage. Kombiniert mit fehlenden Daten zur ursprünglichen Indikation, zum Wirkmechanismus und zur Sicherheit bleibt dieser Kandidat auf Evidenzlevel L5 und ist nicht bereit zum Vorantreiben.
+Die Vorhersage beruht ausschließlich auf dem Modell (Evidenzgrad L5), ohne klinische Studien, ohne Literatur und ohne plausiblen Wirkmechanismus. Zudem besteht in Deutschland keine gültige Zulassung.
 
-**Um fortzufahren, wird folgendes benötigt:**
-- Blockierende Lücke beheben: TFDA-Etikett Warn-/Kontraindikationsdaten (Quelle: TFDA-Webseite, PDF-Analyse)
-- Hochpriorisierte Lücke beheben: vollständige MOA-Daten über DrugBank-API
-- Identifizierung von präklinischen oder mechanistischen Literaturquellen, die einen biologischen Hintergrund für diese Indikation unterstützen könnten
-- Falls keine plausible mechanistische Verbindung etabliert werden kann, wird empfohlen, diesen Kandidaten zu deprioritisieren, anstatt die Bewertung fortzusetzen
-
+**Für ein Weiterkommen sind erforderlich:**
+- Daten zum Wirkmechanismus (MOA) aus DrugBank
+- Warnhinweise und Gegenanzeigen aus der BfArM-Packungsbeilage (derzeit eine Lücke, die die Sicherheitsprüfung blockiert)
+- Eine Prüfung, ob ein biologisch begründeter Zusammenhang zwischen β-Glucan-Synthase-Hemmung und Gastrin-Regulation besteht, z. B. durch präklinische Studien
+- Klärung der Darreichungsformen und Applikationswege (derzeit offen)
+- Klärung des Zulassungs- bzw. Vermarktungsstatus in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

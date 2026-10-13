@@ -2,7 +2,7 @@
 layout: default
 title: Risdiplam
 parent: Nur Modellvorhersage (L5)
-nav_order: 347
+nav_order: 405
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,61 +29,83 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# RISDIPLAM: Bewertung ausstehend — Kritische Datenlücken verhindern vollständige Bewertung
+# Risdiplam: Von spinaler Muskelatrophie zu Akne
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Risdiplam (DrugBank ID: DB15305) ist derzeit nicht in Taiwan im Handel erhältlich, und das TxGNN-Modell hat in diesem Evidenzpaket **keine vorhergesagten Indikationen** zurückgegeben.
-Ursprüngliche Indikationen, Wirkmechanismus und Sicherheitsdaten fehlen vollständig, was eine aussagekräftige Umwidmungsbewertung in dieser Phase unmöglich macht.
-Dieser Bericht dokumentiert den aktuellen Zustand und gibt die erforderlichen Daten für die Fortsetzung an.
-
----
-
-## Schneller Überblick
-
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Nicht in diesem Evidenzpaket ausgefüllt |
-| Vorhergesagte neue Indikation | Keine TxGNN-Vorhersagen zurückgegeben |
-| TxGNN-Vorhersage-Score | N/A |
-| Evidenzstufe | L5 — Nur Modellvorhersage (keine verknüpften tatsächlichen Studien) |
-| Taiwan-Marktstatus | Nicht im Handel erhältlich |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | **Halten** |
+Risdiplam ist ein SMN2-Spleißmodulator und wird zur Behandlung der spinalen Muskelatrophie eingesetzt.
+Das TxGNN-Modell sagt voraus, dass er bei **Akne** wirksam sein könnte.
+Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage beruht allein auf dem Modell.
 
 ---
 
-## Warum keine Vorhersage verfügbar ist
+## Schnellübersicht
 
-Das `predicted_indications`-Array in diesem Evidenzpaket ist leer. Ohne eine TxGNN-vorhergesagte Zielindikation kann die standardmäßige Umwidmungs-Pipeline nicht fortgesetzt werden.
-
-Darüber hinaus ist auch das Feld `original_indications` leer und der Wirkmechanismus ist als Datenlücke gekennzeichnet. Bei der Erstellung des Evidenzpakets wurden zwei vorgelagerte Datenlücken (DG001: Packungsbeilage-Warnungen/Kontraindikationen; DG002: MOA) identifiziert, beide bewertet mit **Blocking**- oder **High**-Schweregrad. Diese Lücken müssen behoben werden, bevor eine mechanistische Ähnlichkeitsanalyse verfasst werden kann.
-
-Basierend auf allgemeinem Wissen ist Risdiplam ein gut charakterisierter oraler Kleinmolekül-SMN2-pre-mRNA-Splicing-Modulator, der in mehreren Märkten für Spinale Muskelatrophie (SMA) zugelassen ist. Diese Informationen sind jedoch **im eingereichten Evidenzpaket nicht vorhanden** und können daher nicht als Grundlage für eine Bewertungsempfehlung verwendet werden. Die Daten-Pipeline muss mit den folgenden Abhilfemaßnahmen erneut ausgeführt werden.
-
----
-
-## Sicherheitsüberlegungen
-
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Spinale Muskelatrophie |
+| Vorhergesagte neue Indikation | Akne |
+| TxGNN-Vorhersagewert | 99,45 % |
+| Evidenzgrad | L5 |
+| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
+| Anzahl der Zulassungen | 1 |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Warum ist diese Vorhersage plausibel?
 
-**Entscheidung: Halten**
+Risdiplam ist ein Spleißmodulator der prä-mRNA von SMN2 und für die spinale Muskelatrophie zugelassen. Detaillierte Daten zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten derzeit nicht vor. Ein mechanistischer Zusammenhang zwischen der SMN2-Spleißmodulation und der Pathophysiologie der Akne (Talgproduktion, Besiedlung mit *C. acnes*, follikuläre Hyperkeratose, Entzündung) lässt sich daher aus den vorhandenen Daten nicht herleiten.
+
+Der hohe Vorhersagewert könnte auf Nähe im Wissensgraphen zurückgehen und nicht auf einen biologisch begründeten Zusammenhang. Eine Hypothese müsste unabhängig geprüft werden, etwa ob die Spleißmodulation die Biologie von Talgdrüsenzellen oder Keratinozyten beeinflusst. Zudem sind unter Risdiplam dermatologische Nebenwirkungen beschrieben, was eher zur Vorsicht mahnt als einen Nutzen nahelegt.
+
+---
+
+## Evidenz aus klinischen Studien
+
+Derzeit sind keine einschlägigen klinischen Studien registriert.
+
+---
+
+## Evidenz aus der Literatur
+
+Derzeit liegt keine einschlägige Literatur vor.
+
+---
+
+## Marktinformationen Deutschland
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/005145 | Evrysdi | – | Spinale Muskelatrophie |
+
+Hinweis: Diese Zulassung ist als erloschen/zurückgezogen geführt (Status: cancelled).
+
+---
+
+## Sicherheitsaspekte
+
+**Arzneimittelwechselwirkungen** (beide mit Schweregrad „moderat“):
+- Metformin
+- Methylnaltrexon
+
+Weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) liegen nicht vor. Bitte die Fachinformation heranziehen.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Hold**
 
 **Begründung:**
-Die erforderlichen Mindestdaten zur Durchführung einer Umwidmungsbewertung fehlen — `predicted_indications` ist leer und die zwei vorgelagerten Datenlücken (DG001, DG002) wurden vor der Finalisierung dieses Evidenzpakets nicht behoben.
+Die Vorhersage stützt sich ausschließlich auf einen hohen Modellwert (Evidenzgrad L5), ohne klinische Studien, Literatur oder einen belegbaren Mechanismus. Hinzu kommen mögliche dermatologische Nebenwirkungen.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-
-- **[DG001 — Blocking]** TFDA-Packungsbeilage-PDF herunterladen und analysieren, um Schlüsselwarnungen und Kontraindikationen zu extrahieren; Sicherheitsmodul erneut ausführen
-- **[DG002 — High]** DrugBank-API für Risdiplam (DB15305) abfragen, um MOA-, Wirkstoffklassen- und Toxizitätsdaten abzurufen; `original_moa` ausfüllen
-- **TxGNN-Inferenz erneut ausführen** nachdem `original_indications` und `original_moa` ausgefüllt wurden, damit `predicted_indications` mindestens einen Kandidaten zurückgibt
-- **Ursprüngliche Indikationsliste überprüfen** — bestätigen, dass die genehmigte(n) Indikation(en) (z. B. SMA) korrekt in die Pipeline geladen sind, bevor die Neubewertung durchgeführt wird
-- Sobald das oben Genannte abgeschlossen ist, Evidenzpaket neu generieren und erneut für einen umfassenden Bewertungsbericht einreichen
-
+**Für ein Weiterkommen sind erforderlich:**
+- Daten zum Wirkmechanismus (MOA) und eine biologische Begründung für einen Zusammenhang mit Akne
+- Präklinische Untersuchungen zu Effekten auf Talgdrüsenzellen und Keratinozyten
+- Auswertung der Warnhinweise und Gegenanzeigen aus der Fachinformation (BfArM/EMA), insbesondere zu Hautnebenwirkungen
+- Klärung des Zulassungsstatus in Deutschland, da nur eine erloschene Zulassung geführt wird
+- Prüfung der Anwendungswege, da eine topische oder systemische Eignung für Akne noch offen ist
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

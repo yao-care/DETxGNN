@@ -2,7 +2,7 @@
 layout: default
 title: Palbociclib
 parent: Nur Modellvorhersage (L5)
-nav_order: 288
+nav_order: 337
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,140 +29,99 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-# Palbociclib: Von HR+/HER2- Brustkrebs zu vier Kandidatenindikationen (Screening-Phase)
+# Palbociclib: Von Brustkrebs zu Rheumatoider Arthritis
 
-## Zusammenfassung in einem Satz
+Hinweis: Die Vorhersage mit dem höchsten TxGNN-Score (Hyperthyreose) hat keinerlei Evidenz. Für diesen Bericht wurde daher die Indikation mit der stärksten Datenlage (Rang 2, rheumatoide Arthritis) als primäre Indikation gewählt. Die übrigen Vorhersagen werden am Ende kurz eingeordnet.
 
-> Palbociclib ist ein CDK4/6-Inhibitor, dessen ursprüngliche Indikation (HR+/HER2- metastasierender Brustkrebs) nicht in den strukturierten Feldern dieses Nachweispakets verzeichnet ist, aber in der unterstützenden Literatur wiederholt bestätigt wird.
-> Diese Screening-Runde führte zu **vier von TxGNN vorhergesagten Indikationen**, aber nur eine — **rheumatoide Arthritis** — hat irgendwelche mechanistischen oder Fall-Level-Belege beim Menschen (L4);
-> die anderen drei (Hyperthyreose, thrombotische Erkrankung, THRB-Mutanten-Thyroidhormonresistenz) haben entweder **keine stützenden Belege** oder Belege, die in die **falsche Richtung** weisen (erhöhtes thromboembolisches Risiko statt Nutzen).
+## Zusammenfassung
 
----
+Palbociclib ist ein CDK4/6-Inhibitor, der ursprünglich zur Behandlung von Brustkrebs (Brustneoplasmen) eingesetzt wird.
+Das TxGNN-Modell sagt voraus, dass er bei **rheumatoider Arthritis** wirksam sein könnte.
+Die Evidenz ist begrenzt: **0 klinische Studien** und **4 Publikationen** (präklinische Arbeiten, ein Fallbericht und eine Kohortenstudie).
 
-## Schnelleübersicht
+## Überblick
 
-| Eintrag | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Nicht in strukturierten Feldern verzeichnet (Datenlücke); Literatur in diesem Paket bestätigt wiederholt **HR+/HER2- metastasierender Brustkrebs** als zugelassene Anwendung von CDK4/6-Inhibitoren einschließlich Palbociclib |
-| Marktstatus Deutschland | Nicht im Handel |
-| Anzahl der Zulassungen | 0 |
-| Anzahl der gescreenten Kandidatenindikationen | 4 |
-| Blockierende Datenlücke | TFDA-Etikettwarnungen/Kontraindikationen noch nicht abgerufen (DG001) — **blockiert die Einführung in die S1-Sicherheitsüberprüfung für jeden Kandidaten** |
-| Empfohlene Gesamtentscheidung | **Zurückhalten** |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Brustneoplasmen (Brustkrebs) |
+| Vorhergesagte neue Indikation | Rheumatoide Arthritis |
+| TxGNN-Vorhersagewert | 99,36 % |
+| Evidenzgrad | L4 (präklinische Studien und Mechanismusstudien) |
+| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
+| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Empfohlene Entscheidung | Hold (als Forschungsfrage weiterverfolgen) |
 
-### Kandidatenindikationen auf einen Blick
+## Warum ist diese Vorhersage plausibel?
 
-| Rang | Vorhergesagte Indikation | TxGNN-Wert | Beweisebene | Entscheidungsphase | Empfehlung |
-|------|--------------------------|-----------|-------------|-------------------|-----------|
-| 1 | Hyperthyreose | 99,44% | L5 | S0 | Zurückhalten |
-| 2 | Rheumatoide Arthritis | 99,36% | L4 | S1 | Forschungsfrage |
-| 3 | Thrombotische Erkrankung | 99,32% | L4 | S0 | Zurückhalten |
-| 4 | Resistenz gegenüber Thyroidhormon (THRB-Mutation) | 99,30% | L5 | S0 | Zurückhalten |
+Für die für diesen Bericht zusammengestellten Daten liegen keine detaillierten Angaben zum Wirkmechanismus vor. Bekannt ist, dass Palbociclib ein dualer CDK4/6-Kinase-Inhibitor ist, der den Zellzyklus hemmt. Seine Wirksamkeit bei Brustkrebs ist belegt, und mechanistisch könnte er auch bei Erkrankungen mit übermäßiger Zellproliferation anwendbar sein.
 
----
+Bei rheumatoider Arthritis spielt die Proliferation synovialer Fibroblasten eine zentrale Rolle. Präklinische Arbeiten zeigen eine CDK6-abhängige Synovialhyperplasie bei Mäusen mit Arthritis sowie eine TNF-α-induzierte Proliferation synovialer Fibroblasten (PMID 39940918). Zudem verstärkte eine Zellzyklusregulation in Kombination mit Zytokinblockade die antiarthritische Wirkung im Tiermodell, ohne die Immunabwehr zusätzlich zu unterdrücken (PMID 25165034). Ein Fallbericht beschreibt eine Besserung der rheumatoiden Arthritis bei einer Brustkrebspatientin unter Palbociclib (PMID 33587021).
 
-## Warum ist diese Vorhersage sinnvoll?
+Diese Hinweise sind indirekt. Es handelt sich um Tiermodelle, Zellversuche und einen Einzelfall, nicht um kontrollierte Studien am Menschen.
 
-Detaillierte DrugBank-Wirkmechanismus-Daten werden in diesem Nachweispaket als Datenlücke gekennzeichnet (DG002). Basierend auf den in diesem Paket selbst gesammelten Literaturbelegen wird Palbociclib durchgehend als **CDK4/6 (Cyclin-abhängige Kinase 4/6)-Inhibitor** beschrieben, zugelassen für HR+/HER2- metastasierender Brustkrebs, wirkend durch Blockierung der Zellzyklus-Progression von der G1- zur S-Phase.
+## Evidenz aus klinischen Studien
 
-**Rheumatoide Arthritis (Rang 2)** ist der einzige Kandidat mit einer kohärenten mechanistischen Geschichte: Das Überwachsen von Synovialfibroplasten in RA ist zellzyklus-abhängig, und CDK6 wurde speziell gezeigt, dass es die synoviale Hyperplasie in arthritischen Maus-Modellen fördert (PMID 39940918). Eine präklinische Studie, die CDK-Hemmung mit Zytokin-Blockade kombinierte, zeigte einen verstärkten antiarthritischen Effekt ohne zusätzliche Immunsuppression (PMID 25165034), und ein einzelner Fallbericht beim Menschen beschreibt eine RA-Verbesserung bei einem Brustkrebspatienten, der mit Palbociclib behandelt wurde (PMID 33587021). Dies ist biologisch plausibel, beruht aber auf einem Fallbericht plus präklinischen Daten — es gibt keine prospektive Humanstudie.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
-**Thrombotische Erkrankung (Rang 3)** ist mechanistisch **nicht unterstützend für eine Repurposing**. Die der vorliegenden Kandidatin beigefügte Literatur wird von FAERS-Pharmakovigilanz-Disproportionalitätsanalysen und Real-World-Kohorten-/Falldaten dominiert, die zeigen, dass CDK4/6-Inhibitoren (einschließlich Palbociclib) mit **erhöhtem thromboembolischem Risiko** assoziiert sind, nicht mit therapeutischem Nutzen. Die zwei beigefügten klinischen Studien sind nicht mit Thrombose als Behandlungsziel verwandt (eine ist eine Onkologie-Kombinationsstudie, die andere eine zurückgezogene COVID-19-Sicherheitsstudie). Dieser Kandidat sollte als **Sicherheitssignal** gelesen werden, nicht als Repurposing-Gelegenheit.
+## Evidenz aus der Literatur
 
-**Hyperthyreose (Rang 1)** und **THRB-Mutanten-Thyroidhormonresistenz (Rang 4)** haben **null stützende Studien oder Literatur**. Beide werden im Nachweispaket selbst als wahrscheinliches Graph-Einbettungs-Rauschen mit keinem bekannten biologischen Zusammenhang zwischen CDK4/6-Hemmung und Schilddrüsen-Rezeptor-Wegen gekennzeichnet.
+| PMID | Jahr | Typ | Journal | Zentrale Ergebnisse |
+|------|-----|------|------|---------|
+| [33587021](https://pubmed.ncbi.nlm.nih.gov/33587021/) | 2021 | Fallbericht | Modern Rheumatology Case Reports | Besserung der rheumatoiden Arthritis bei einer 56-jährigen Brustkrebspatientin unter Palbociclib (zuvor mit Methotrexat behandelt) |
+| [40504547](https://pubmed.ncbi.nlm.nih.gov/40504547/) | 2025 | Kohortenstudie | The Oncologist | Untersuchung der Häufigkeit vorbestehender und neu auftretender Autoimmunerkrankungen bei HR+/HER2- Brustkrebs unter CDK4/6-Inhibitoren; Ergebnisse zur RA liegen im vorliegenden Auszug nicht vor |
+| [25165034](https://pubmed.ncbi.nlm.nih.gov/25165034/) | 2016 | Präklinisch (Tiermodell) | Annals of the Rheumatic Diseases | Zellzyklushemmung synovialer Fibroblasten mit CDK-Inhibitoren plus Zytokinblockade verstärkt antiarthritische Effekte ohne zusätzliche Immunsuppression |
+| [39940918](https://pubmed.ncbi.nlm.nih.gov/39940918/) | 2025 | Präklinisch (Tier-/Zellmodell) | Int J Mol Sci | CDK6-abhängige, CDK4-unabhängige Synovialhyperplasie bei arthritischen Mäusen und TNF-α-induzierte Fibroblastenproliferation |
 
----
+## Marktinformationen Deutschland
 
-## Evidenz klinischer Studien
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/003853 | Ibrance (Pfizer Europe MA EEIG) | nicht angegeben | Brustneoplasmen |
 
-### Rheumatoide Arthritis
-Derzeit sind keine verwandten klinischen Studien registriert.
-
-### Thrombotische Erkrankung
-
-| Studiennummer | Phase | Status | Patientenzahl | Wichtige Ergebnisse |
-|---|---|---|---|---|
-| [NCT05468697](https://clinicaltrials.gov/study/NCT05468697) | Phase 1/2 | Aktiv, keine Rekrutierung mehr | 60 | Belzutifan + Palbociclib gegen Belzutifan allein bei fortgeschrittenem Nierenzellkarzinom — eine Onkologie-Kombinationsdosierungs-Studie, keine Thrombose-Behandlungsstudie (Relevanzbewertung C) |
-| [NCT05371275](https://clinicaltrials.gov/study/NCT05371275) | Phase 2 | Zurückgezogen (0 eingeschrieben) | 0 | Geplante Sicherheitsstudie von Palbociclib bei hospitalisierten Patienten mit moderatem COVID-19 zur Vorbeugung von Thromboinflammation; vor der Einschreibung zurückgezogen (Relevanzbewertung C) |
-
-### Hyperthyreose / Resistenz gegenüber Thyroidhormon (THRB)
-Derzeit sind keine verwandten klinischen Studien registriert.
-
----
-
-## Literaturbelege
-
-### Rheumatoide Arthritis
-
-| PMID | Jahr | Typ | Journal | Wichtige Ergebnisse |
-|------|-----|-----|--------|----------|
-| [33587021](https://pubmed.ncbi.nlm.nih.gov/33587021/) | 2021 | Fallbericht | Mod Rheumatol Case Rep | RA-Symptomverbesserung bei einem Brustkrebspatienten, der mit Palbociclib behandelt wurde |
-| [40504547](https://pubmed.ncbi.nlm.nih.gov/40504547/) | 2025 | Übersicht | The Oncologist | CDK4/6-Inhibitoren können Immunfunktion beeinflussen und möglicherweise Autoimmunerkrankung bei HR+/HER2- Brustkrebspatienten auslösen oder modulieren |
-| [25165034](https://pubmed.ncbi.nlm.nih.gov/25165034/) | 2016 | Präklinisch (Tiermodell) | Ann Rheum Dis | CDK-Hemmung kombiniert mit Zytokin-Blockade verstärkte antiarthritischen Effekt in Tiermodellen ohne erhöhte Immunsuppression |
-| [39940918](https://pubmed.ncbi.nlm.nih.gov/39940918/) | 2025 | Präklinisch/Mechanistisch (Tiermodell) | Int J Mol Sci | CDK6-abhängige (CDK4-unabhängige) synoviale Hyperplasie in arthritischen Mäusen identifiziert; vermerkt Palbociclib-induzierte Myelosuppression in präklinischen Studien |
-
-### Thrombotische Erkrankung
-
-| PMID | Jahr | Typ | Journal | Wichtige Ergebnisse |
-|------|-----|-----|--------|----------|
-| [39123221](https://pubmed.ncbi.nlm.nih.gov/39123221/) | 2024 | Pharmakovigilanz (FAERS) | BMC Pharmacol Toxicol | Vergleichende Nebenwirkungsanalyse über CDK4/6-Inhibitoren (Palbociclib, Abemaciclib, Ribociclib) via FDA FAERS |
-| [39083396](https://pubmed.ncbi.nlm.nih.gov/39083396/) | 2025 | Pharmakovigilanz (FAERS) | Expert Opin Drug Saf | Disproportionalitätsanalyse von Nebenwirkungen von CDK4/6-Inhibitoren in FAERS |
-| [41496429](https://pubmed.ncbi.nlm.nih.gov/41496429/) | 2026 | Pharmakovigilanz (FAERS) | Breast | Altersgestaffelte Toxizitätsmuster von CDK4/6-Inhibitoren bei älteren Frauen, FAERS-Analyse |
-| [35300061](https://pubmed.ncbi.nlm.nih.gov/35300061/) | 2022 | Kohorte | Cancer Manag Res | Real-World-Daten zu thromboembolischen Ereignissen bei HR+/HER2- Brustkrebspatienten unter Ribociclib-basierten Regimen |
-| [36794339](https://pubmed.ncbi.nlm.nih.gov/36794339/) | 2023 | Pharmakovigilanz + Systematische Übersicht | Expert Opin Drug Saf | Thromboembolie-Profile assoziiert mit CDK4/6-Inhibitoren — Real-World-Pharmakovigilanz plus systematische Übersicht |
-| [38390439](https://pubmed.ncbi.nlm.nih.gov/38390439/) | 2024 | Fallbericht (Ribociclib) | SAGE Open Med Case Rep | Zerebrale Sinusvenenthrombose-Fall bei einem Patienten unter Ribociclib |
-| [37994878](https://pubmed.ncbi.nlm.nih.gov/37994878/) | 2023 | Übersicht | Expert Opin Drug Saf | Übersicht zu interstitieller Lungenerkrankung und anderen Nebenwirkungen mit CDK4/6-Inhibitoren |
-| [39302147](https://pubmed.ncbi.nlm.nih.gov/39302147/) | 2025 | Mechanistisch | Cardiovasc Res | dsDNA verstärkt Blutplättchen-Aktivierung und Thrombose via cGAS — allgemeine Blutplättchen-Biologie, nicht Palbociclib-spezifisch |
-| [27098250](https://pubmed.ncbi.nlm.nih.gov/27098250/) | 2016 | Präklinisch (Tiermodell) | Circ Cardiovasc Genet | CDKN2A-Defizienz und Megakaryopoiese/Blutplättchen-Aktivität in einem hypercholesterinämischen Mausmodell |
-| [40623899](https://pubmed.ncbi.nlm.nih.gov/40623899/) | 2025 | Leitlinien (größtenteils irrelevant) | Zhonghua Xue Ye Xue Za Zhi | Chinesische Hämophilie-B-Gentherapie-Leitlinien; Palbociclib nur nebenbei erwähnt bezüglich jüngster China-Marktzulassung |
-
-### Hyperthyreose / Resistenz gegenüber Thyroidhormon (THRB)
-Derzeit sind keine verwandten Literaturbelege verfügbar.
-
----
-
-## Informationen zum Marktstatus in Deutschland
-
-Palbociclib hat derzeit **keine Zulassung in Deutschland** (0 Lizenzen verzeichnet), daher ist keine Produkt-Level-Tabelle verfügbar.
-
----
+Die einzige Zulassung ist als erloschen geführt.
 
 ## Zytotoxizität
 
-Palbociclib ist ein antineoplastisches Mittel (zugelassene Anwendung bei HR+/HER2- metastasierendem Brustkrebs gemäß Literatur in diesem Paket; gezielte Kleinmolekül-CDK4/6-Inhibitor-Klasse).
-
-| Eintrag | Inhalt |
-|---------|--------|
-| Klassifizierung der Zytotoxizität | Gezielte Therapie (CDK4/6-Inhibitor) — kein herkömmliches zytotoxisches Mittel |
-| Myelosuppressions-Risiko | In präklinischer Literatur gemeldet (PMID 39940918); bitte beachten Sie die Gebrauchsinformation für Häufigkeitsdaten nach Einstufung (nicht in diesem Paket verfügbar) |
-| Klassifizierung der Emetogenität | Nicht in diesem Nachweispaket angegeben; bitte beachten Sie die Gebrauchsinformation |
-| Überwachungselemente | Blutbild mit Differenzial (Myelosuppression); angesichts des obigen Pharmakovigilanz-Signals wird auch die Überwachung auf thromboembolische Symptome empfohlen |
-| Umgang mit Schutzmaßnahmen | Vorsichtsmaßnahmen für die Behandlung von zytotoxischen/gefährlichen Arzneimitteln sollten gemäß Gebrauchsinformation befolgt werden |
-
----
+| Punkt | Inhalt |
+|------|------|
+| Zytotoxizitätsklassifikation | Zielgerichtete Therapie (CDK4/6-Inhibitor) |
+| Myelosuppressionsrisiko | Für diesen Wirkstoff ist Myelosuppression (v. a. Neutropenie) beschrieben; präklinisch wurde sie ebenfalls berichtet (PMID 39940918). Genaue Einstufung bitte der Fachinformation entnehmen. |
+| Emetogenitätsklassifikation | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Überwachungsparameter | Differenzialblutbild; Leber- und Nierenfunktion |
+| Handhabungsschutz | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
 
 ## Sicherheitsaspekte
 
-Formale Sicherheitsdaten (Schlüsselwarnungen, Kontraindikationen, DDI) sind in diesem Nachweispaket nicht verfügbar — bitte beachten Sie die Gebrauchsinformation für Sicherheitsinformationen.
+- **Arzneimittelwechselwirkungen**: Die Abfrage ergab 100 Wechselwirkungen; die ersten 20 liegen vor. Als **schwerwiegend (Major)** eingestuft sind:
+  - Clarithromycin
+  - Cobicistat
+  - Deferipron
+  - Samarium (153Sm) Lexidronam
 
-- **Evidenz-abgeleitetes Signal (nicht aus formalen Etikettendaten):** Mehrere unabhängige FAERS-Pharmakovigilanz-Analysen und eine Real-World-Kohortentudie innerhalb der Literaturbelege (PMID 39123221, 39083396, 41496429, 36794339, 35300061) assoziieren durchgehend CDK4/6-Inhibitoren, einschließlich Palbociclib, mit einem **erhöhten Thromboembolie-Risiko**. Dies sollte als Sicherheitssignal behandelt werden, das gegen das amtliche Etikett bestätigt werden muss, nicht als stützender Beleg für eine Thrombose-Erkrankungs-Indikation.
+  Die meisten übrigen sind **moderat**, z. B. Aprepitant, Dexamethason, Cimetidin, Simvastatin, Miconazol, Clotrimazol, Cilostazol und Cisaprid. Prucalopride ist als **gering (Minor)** eingestuft.
+- **Weitere Hinweise aus der Literatur**: Pharmakovigilanzstudien (FAERS) und Fallberichte beschreiben bei CDK4/6-Inhibitoren Thromboembolien und pulmonale Toxizität (interstitielle Lungenerkrankung).
 
----
+Zu Warnhinweisen und Gegenanzeigen bitte die Fachinformation heranziehen.
+
+## Einordnung der übrigen Vorhersagen
+
+- **Hyperthyreose** (Score 99,44 %): keine Studien, keine Literatur, Evidenzgrad L5. Der hohe Score spiegelt wahrscheinlich nur die Nähe im Wissensgraphen wider; eine biologische Begründung ist nicht belegt. Entscheidung: Hold.
+- **Thrombotische Erkrankung** (Score 99,32 %): Die Literatur beschreibt Thromboembolien als **Nebenwirkung** von CDK4/6-Inhibitoren, also ein Sicherheitsrisiko statt eines Nutzens. Mehrere gefundene Arbeiten sind thematisch nicht einschlägig. Die Vorhersage ist nicht gestützt. Entscheidung: Hold.
+- **Schilddrüsenhormonresistenz durch THRB-Mutation** (Score 99,30 %): keine Studien, keine Literatur, kein plausibler Mechanismus; wahrscheinlich ein rechnerisches Artefakt. Entscheidung: Hold.
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Zurückhalten**
+**Entscheidung: Hold (als Forschungsfrage weiterverfolgen)**
 
 **Begründung:**
-Von den vier von TxGNN vorhergesagten Indikationen fehlen drei (Hyperthyreose, thrombotische Erkrankung, THRB-Mutanten-Thyroidhormonresistenz) alle indikations-spezifischen stützenden Belege, und der thrombotische-Erkrankungs-Kandidat wird durch Pharmakovigilanz-Daten widersprochen, die auf erhöhtes Risiko statt Nutzen hindeuten. Der verbleibende Kandidat, rheumatoide Arthritis, hat nur präklinische und Fallbericht-Unterstützung auf Einzelfall-Ebene (L4) und ist nicht in die kontrollierte klinische Prüfung beim Menschen eingegangen. Darüber hinaus verhindert eine **blockierende Datenlücke** (DG001: TFDA-Etikettwarnungen/Kontraindikationen nicht abgerufen) dass einer der Kandidaten formal in die S1-Sicherheitsüberprüfung eintritt.
+Die Evidenz für rheumatoide Arthritis beschränkt sich auf präklinische Daten und einen einzelnen Fallbericht, es gibt keine klinischen Studien. Zudem ist die Zulassung in Deutschland erloschen, und die Sicherheitsdaten aus der Fachinformation fehlen, sodass eine Sicherheitsprüfung derzeit nicht abgeschlossen werden kann.
 
-**Für den Fortschritt ist folgendes erforderlich:**
-- Abruf von TFDA/EMA-Etikettwarnungen und Kontraindikationen (beseitigt blockierende Lücke DG001)
-- Bestätigung des DrugBank-Wirkmechanismus-Records (DG002)
-- Für die rheumatoide Arthritis-Hypothese: Identifizierung oder Konzeption einer prospektiven kontrollierten Humanstudie, bevor Fortschritt über die „Forschungsfrage"-Phase hinaus erfolgt
-- Formale Bewertung des Baseline-Thromboembolie-Risikos gegen das amtliche Etikett, bevor weitere Indikationsarbeit in Betracht gezogen wird, angesichts des identifizierten Pharmakovigilanz-Signals
-- Deprioritisierung von Hyperthyreose und THRB-Mutanten-Thyroidhormonresistenz ohne neue stützende Belege
-
+**Für das weitere Vorgehen sind erforderlich:**
+- Fachinformation (Warnhinweise und Gegenanzeigen) beschaffen und auswerten, da diese Lücke derzeit blockierend ist
+- Daten zum Wirkmechanismus ergänzen
+- Ergebnisse der Kohortenstudie PMID 40504547 zur RA im Volltext prüfen
+- Geklärte Nutzen-Risiko-Abwägung (Myelosuppression, Thromboembolien, Wechselwirkungen) für Patienten mit rheumatoider Arthritis
+- Eine kontrollierte klinische Studie (z. B. Phase 2) konzipieren, bevor eine Empfehlung für den klinischen Einsatz möglich ist
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

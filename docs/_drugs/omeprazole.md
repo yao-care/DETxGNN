@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Omeprazole
-parent: Nur Modellvorhersage (L5)
-nav_order: 281
-evidence_level: L5
+parent: Mittlere Evidenz (L3-L4)
+nav_order: 329
+evidence_level: L4
 indication_count: 2
 ---
 
 # Omeprazole
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2** 
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,79 +29,106 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Omeprazol: Von Säurestörungen zur duodenogastralen Reflux
+# Omeprazol: Von säurebedingten Magen-Darm-Erkrankungen zu duodenogastrischem Reflux
 
 ## Zusammenfassung in einem Satz
 
-> Omeprazol ist ein Protonenpumpenhemmer (PPI), der für säurebezogene gastrointestinale Erkrankungen wie Ulkuskrankheit, GERD und *H. pylori*-Eradikation etabliert ist.
-> Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam gegen **Duodenogastrale Reflux** ist,
-> wobei aktuell **1 klinische Studie** und **20 Publikationen** bezüglich dieser Richtung identifiziert wurden — die Evidenz ist jedoch gemischt, mit einigen Studien, die auch ein Sicherheitssignal zur Karzinogenese aufwerfen (siehe unten).
+Omeprazol ist ein Protonenpumpenhemmer, der ursprünglich zur Behandlung säurebedingter Erkrankungen des oberen Verdauungstrakts eingesetzt wird (z. B. Magen- und Zwölffingerdarmgeschwür, Refluxkrankheit, Zollinger-Ellison-Syndrom).
+Das TxGNN-Modell sagt voraus, dass der Wirkstoff bei **duodenogastrischem Reflux** wirksam sein könnte.
+Die Evidenz ist jedoch begrenzt: **1 klinische Studie** (ohne direkten Bezug zur Fragestellung) und **15 Publikationen**, davon nur wenige kleine klinische Studien, überwiegend Tierstudien und Überblicksarbeiten.
+
+---
 
 ## Schnellübersicht
 
-| Element | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Nicht dokumentiert in deutschen Zulassungsdaten (Arzneimittel nicht in Deutschland vermarktet). Gemäß etablierter PPI-Pharmakologie und unterstützender Literatur in diesem Paket (z. B. PMID 18679668) wird Omeprazol für Ulkuskrankheit, *H. pylori*-Infektion, GERD, NSAID-induzierte GI-Läsionen und Zollinger-Ellison-Syndrom verwendet |
-| Vorhergesagte neue Indikation | Duodenogastrale Reflux |
-| TxGNN-Vorhersage-Score | 99.64% |
-| Evidenzebene | L3 (beobachtende/klinische Studien, keine abgeschlossenen RCTs spezifisch für diese Indikation) |
-| Marktstatus Deutschland | ✗ Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Zurückgestellt |
+| Ursprüngliche Indikation | Magengeschwür, Zwölffingerdarmgeschwür, gastroösophageale Refluxkrankheit, Ösophagitis, Zollinger-Ellison-Syndrom u. a. (laut Wissensgraph; im Zulassungstext nicht hinterlegt) |
+| Vorhergesagte neue Indikation | Duodenogastrischer Reflux |
+| TxGNN-Vorhersagewert | 99,64 % |
+| Evidenzstufe | L4 |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
+| Anzahl der Zulassungen | 1 (aufgehoben) |
+| Empfohlene Entscheidung | Hold |
 
-## Warum ist diese Vorhersage sinnvoll?
+---
 
-Derzeit sind detaillierte Wirkmechanismus-Daten nicht verfügbar (DrugBank MOA-Feld ist eine Datenlücke). Basierend auf bekannter Pharmakologie ist Omeprazol ein Protonenpumpenhemmer, der die H+/K+-ATPase in gastrischen Parietalzellen irreversibel blockiert und die Säuresekretion unterdrückt — ein Mechanismus, der sich über Ulkuskrankheit, GERD und *H. pylori*-bezogene Erkrankungen hinweg bewährt hat.
+## Warum ist diese Vorhersage plausibel?
 
-Duodenogastrale Reflux (DGR) beinhaltet einen retrograden Fluss duodenaler Inhalte (Galle, Pankreasenzyme) in den Magen, oft koexistent mit säurebezogenen GI-Störungen und beitragend zu Mukosaläsionen bei Erkrankungen wie Barrett-Ösophagus. Mehrere klinische Studien in diesem Evidenzpaket (z. B. PMID 9824338, 10994616, 19491829) untersuchten direkt die Wirkung von Omeprazol auf DGR/DGOR in Reflux-Populationen und bieten eine plausible mechanistische Brücke von der ursprünglichen Säuresuppressions-Indikation zu diesem neuen Ziel.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Omeprazol ein Protonenpumpenhemmer ist, der die Magensäuresekretion unterdrückt und bei säurebedingten Erkrankungen des oberen Magen-Darm-Trakts etabliert ist. Mechanistisch könnte er daher auch bei Reflux-Beschwerden eine Rolle spielen.
 
-Das mechanistische Bild ist jedoch nicht durchweg günstig: Mehrere Tierstudien (PMID 10389684, 8943968, 33027361, 15052437) berichten, dass die Blockade der Magensäure mit Omeprazol (und anderen PPIs) die Mukosawachstumsstimulierung und Magenkarzinogenese potenzieren kann, wenn sie mit DGR kombiniert wird, da ein höherer intragastraler pH die Gallenzytotoxizität erhöhen kann. Diese Nuance sollte sorgfältig abgewogen werden, anstatt sie als ein unkompliziertes „Wirksamkeits"-Signal zu behandeln.
+Beim duodenogastrischen Reflux fließen Gallen- und Pankreassekrete in den Magen zurück. Die Säureunterdrückung kann Schleimhautbeschwerden lindern, behandelt aber nicht die eigentliche Ursache, den Gallenreflux. Der sehr hohe TxGNN-Wert spiegelt vor allem die große Ähnlichkeit zu den zugelassenen säurebedingten Indikationen wider und ist eine rechnerische Vorhersage, kein klinischer Beleg.
 
-## Evidenz aus klinischen Studien
+Kleine Studien bei Barrett-Ösophagus (PMID 10994616, 9824338) und eine pädiatrische prospektive Studie zum ösophagealen Gallenreflux (PMID 16641575) untersuchten den Effekt von Omeprazol auf Gallen- bzw. duodenogastrischen Reflux. Sie liefern indirekte und gemischte Hinweise. Tierstudien (PMID 33027361, 10389684, 8943968) geben zudem Anlass zur Vorsicht: Säureblockade in Kombination mit duodenogastrischem Reflux förderte bei Ratten das Wachstum der Magenschleimhaut und die Karzinogenese.
 
-| Trial-Nummer | Phase | Status | Einschreibungen | Wichtigste Ergebnisse |
+---
+
+## Klinische Studien
+
+| Studiennummer | Phase | Status | Teilnehmerzahl | Kernaussagen |
 |---------|------|------|------|---------|
-| [NCT02685150](https://clinicaltrials.gov/study/NCT02685150) | NA | Abgeschlossen | 157 | Untersuchte endoskopische Tri-Modal-Bildgebung (NBI/AFI/WLI) zur Unterscheidung von funktioneller Dyspepsie von Säure-/Gallenreflux-Erkrankung; keine Behandlungs-Wirksamkeitsstudie für Omeprazol selbst |
+| [NCT02685150](https://clinicaltrials.gov/study/NCT02685150) | Nicht zutreffend (Diagnostik) | Abgeschlossen | 157 | Endoskopische Tri-Modal-Bildgebung zur Unterscheidung von funktioneller Dyspepsie und Refluxkrankheit; Omeprazol wird nicht als Intervention geprüft, kein Wirksamkeitsbeleg |
 
-## Literaturbeweise
+---
 
-| PMID | Jahr | Typ | Zeitschrift | Wichtigste Ergebnisse |
+## Literaturevidenz
+
+| PMID | Jahr | Typ | Zeitschrift | Kernaussagen |
 |------|-----|------|------|---------|
-| [9824338](https://pubmed.ncbi.nlm.nih.gov/9824338/) | 1998 | Klinische Studie | Gut | Auswirkung von Omeprazol 20 mg 2×täglich auf duodenogastrale und duodenogastro-ösophageale Gallenreflux bei Barrett-Ösophagus |
-| [10994616](https://pubmed.ncbi.nlm.nih.gov/10994616/) | 2000 | Klinische Studie | Scand J Gastroenterol | Auswirkung von Omeprazol auf antrale duodenogastrale Reflux bei Barrett-Ösophagus |
-| [19491829](https://pubmed.ncbi.nlm.nih.gov/19491829/) | 2009 | Klinische Studie | Am J Gastroenterol | Vergleich des Ausmaßes von DGER/Säurereflux zwischen PPI-Respondern und Nicht-Respondern |
-| [16641575](https://pubmed.ncbi.nlm.nih.gov/16641575/) | 2006 | Klinische (prospektiv) | J Pediatr Gastroenterol Nutr | Prospektive Studie von Omeprazol für ösophageale Gallenreflux bei Kindern |
-| [12836018](https://pubmed.ncbi.nlm.nih.gov/12836018/) | 2003 | Fallserie | Eur J Pediatr | Beschreibung der primären duodenogastralen Reflux bei Kindern/Jugendlichen |
-| [18679668](https://pubmed.ncbi.nlm.nih.gov/18679668/) | 2008 | Übersichtsarbeit | Eur J Clin Pharmacol | Übersicht über klinische PPI-Verwendung und Pharmakokinetik (kontextualisiert ursprüngliche Indikationen) |
-| [33027361](https://pubmed.ncbi.nlm.nih.gov/33027361/) | 2020 | Präklinisch (Ratte) | Acta Cir Bras | Untersuchung, ob Omeprazol schützend gegen Magenkarzinom unter induzierter DGR wirkt |
-| [10389684](https://pubmed.ncbi.nlm.nih.gov/10389684/) | 1999 | Präklinisch (Ratte) | Dig Dis Sci | ⚠️ Blockade der Magensäure mit Omeprazol potenzierte durch DGR induzierte Magenkarzinogenese |
-| [8943968](https://pubmed.ncbi.nlm.nih.gov/8943968/) | 1996 | Präklinisch (Ratte) | Dig Dis Sci | ⚠️ Durch DGR induzierte Vorderdarm-Mukosawachstumsstimulierung potenziert durch Blockade der Magensäure (Omeprazol-Arm) |
-| [15052437](https://pubmed.ncbi.nlm.nih.gov/15052437/) | 2004 | Präklinisch (Ratte) | Gastric Cancer | ⚠️ Verwandter PPI (Lansoprazol) förderte Magenkarzinogenese bei Ratten mit DGR — Vorsicht vor Klassenwirkung |
+| [10994616](https://pubmed.ncbi.nlm.nih.gov/10994616/) | 2000 | Kleine klinische Studie | Scand J Gastroenterol | Effekt von Omeprazol auf antralen duodenogastrischen Reflux bei Barrett-Ösophagus |
+| [9824338](https://pubmed.ncbi.nlm.nih.gov/9824338/) | 1998 | Kleine klinische Studie | Gut | Omeprazol 20 mg zweimal täglich und duodenogastrischer bzw. gastroösophagealer Gallenreflux bei Barrett-Ösophagus |
+| [16641575](https://pubmed.ncbi.nlm.nih.gov/16641575/) | 2006 | Prospektive klinische Studie (Kinder) | J Pediatr Gastroenterol Nutr | Wirkung von Omeprazol auf ösophagealen Gallenreflux bei Kindern |
+| [18679668](https://pubmed.ncbi.nlm.nih.gov/18679668/) | 2008 | Übersichtsarbeit | Eur J Clin Pharmacol | Aktueller klinischer Einsatz und Pharmakokinetik von Protonenpumpenhemmern |
+| [12836018](https://pubmed.ncbi.nlm.nih.gov/12836018/) | 2003 | Klinische Beschreibung (Kinder) | Eur J Pediatr | Primärer duodenogastrischer Reflux bei sechs Kindern und Jugendlichen |
+| [10389684](https://pubmed.ncbi.nlm.nih.gov/10389684/) | 1999 | Tierstudie (Ratte) | Dig Dis Sci | Säureblockade mit Omeprazol fördert die durch duodenogastrischen Reflux induzierte Magenkarzinogenese |
+| [8943968](https://pubmed.ncbi.nlm.nih.gov/8943968/) | 1996 | Tierstudie (Ratte) | Dig Dis Sci | Duodenogastrischer Reflux stimuliert das Schleimhautwachstum, verstärkt durch Säureblockade |
+| [33027361](https://pubmed.ncbi.nlm.nih.gov/33027361/) | 2020 | Tierstudie (Ratte) | Acta Cir Bras | Omeprazol und Adenokarzinom im Magen von Ratten mit duodenogastrischem Reflux |
+| [8076761](https://pubmed.ncbi.nlm.nih.gov/8076761/) | 1994 | Beobachtungsstudie | Gastroenterology | Zusammenhang von pH-Wert, duodenogastroösophagealem Reflux und Barrett-Ösophagus |
 
-## Marktinformation für Deutschland
+---
 
-Omeprazol verfügt derzeit über keine Zulassungseinträge in dem bereitgestellten deutschen Zulassungsdatensatz (0 Lizenzen, Marktstatus: Nicht vermarktet).
+## Marktinformationen Deutschland
 
-## Sicherheitsüberlegungen
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/V/C/005345 | Omeprazole TriviumVet | Nicht angegeben | Nicht angegeben (Status: aufgehoben) |
 
-> Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+---
 
-**Wichtiger Vorbehalt:** Das Evidenzpaket kennzeichnet eine **Blockierend**-Datenlücke (DG001) — TFDA/behördliche Etikettwarnungen und Kontraindikationen wurden noch nicht abgerufen — die per Definition diese Kandidatin daran hindert, in das obligatorische S1-Sicherheits-Screening einzutreten. Darüber hinaus gab die DrugBank-DDI-Abfrage keine Ergebnisse zurück (`query_status: not_found`), daher konnten zu diesem Zeitpunkt keine Wechselwirkungsdaten ausgewertet werden.
+## Sicherheitsaspekte
 
-## Schlussfolgerung und nächste Schritte
+**Kontraindikationen bzw. Risikokonstellationen laut Wissensgraph** (keine Angaben aus dem Beipackzettel): Leberversagen, Lebererkrankung, Gallenblasenerkrankung, Herzinsuffizienz, Osteoporose, postmenopausale Osteoporose, Knochenbrüche, chronisch-atrophische Gastritis.
 
-**Entscheidung: Zurückgestellt**
+**Arzneimittelwechselwirkungen** (100 Einträge erfasst; Auswahl):
+- **Schwerwiegend (Major):** Acalabrutinib, Atazanavir
+- **Moderat:** u. a. Hydrochlorothiazid, Alprazolam, Amphotericin B, Amikacin, Amphetamin, Anagrelid, Fenofibrat, Apalutamid, Armodafinil, Atorvastatin
+- **Gering (Minor):** u. a. Lidocain, Nifedipin, Ambrisentan, Acetylsalicylsäure
+
+**Hinweis aus der Tierforschung:** Die Kombination aus Säureblockade und duodenogastrischem Reflux förderte bei Ratten die Karzinogenese. Die Übertragbarkeit auf den Menschen ist ungeklärt, sollte aber vor einer Anwendung bei dieser Indikation geprüft werden.
+
+Weitere Sicherheitsinformationen entnehmen Sie bitte der Fachinformation.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Hold**
 
 **Begründung:**
-Während der duodenogastrale Reflux plausible mechanistische Rationale und moderate (L3) beobachtende klinische Evidenz zeigt, hindert eine Datenlücke von **Blockierend**-Schweregrad bei behördlichen Sicherheitsetiketten (Warnungen/Kontraindikationen) die Vervollständigung des obligatorischen S1-Sicherheits-Screenings. Dies wird durch ein bemerkenswertes Sicherheitssignal in der präklinischen Literatur verstärkt, das nahelegt, dass Säuresuppression die Magenkarzinogenese in Gegenwart chronischer DGR potenzieren kann — ein Risiko, das vor dem Fortschreiten gelöst werden muss.
+Die Vorhersage beruht im Wesentlichen auf der Ähnlichkeit zu den bestehenden säurebedingten Indikationen. Direkte klinische Evidenz fehlt: Die einzige gelistete Studie ist eine Diagnostikstudie ohne Omeprazol-Bezug. Die klinischen Daten sind klein und indirekt, Tierstudien deuten auf ein mögliches Karzinogeneserisiko hin. Zudem ist die einzige erfasste Zulassung in Deutschland aufgehoben.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- TFDA (oder gleichwertiges) Produktetikett für Warnungen/Kontraindikationen abrufen (DG001, Blockierend)
-- DrugBank MOA-Daten abrufen zur Unterstützung der formalen mechanistischen Link-Bewertung (DG002, Hoch)
-- Vollständige DDI-Datenbankabfrage durchführen (aktueller Status: nicht gefunden)
-- Formal die widersprüchliche Evidenzbasis abstimmen — klinische Studien, die symptomatischen Nutzen nahelegen, versus Tierstudien, die ein langfristiges Karzinogenese-Risiko unter chronischer Säuresuppression mit DGR nahelegen
-- Anmerkung: die sekundäre vorhergesagte Indikation (Duodenale Obstruktion, Rang 2) wurde bereits intern als L4/S0/**Zurückgestellt** in diesem Evidenzpaket bewertet, konsistent mit der insgesamt konservativen Empfehlung für diesen Kandidaten
+**Für ein Weiterkommen sind erforderlich:**
+- Kontrollierte klinische Studien zu Omeprazol bei duodenogastrischem Reflux mit klaren Endpunkten (Symptome, Gallenreflux, Schleimhautbefund)
+- Bewertung des Karzinogeneserisikos unter Säureblockade bei Gallenreflux
+- Daten zum Wirkmechanismus
+- Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen), da diese Daten derzeit fehlen und die Sicherheitsprüfung blockieren
+- Klärung des aktuellen Zulassungs- und Marktstatus in Deutschland für humane Omeprazol-Präparate (die erfasste Zulassung betrifft ein Tierarzneimittel)
 
+---
+
+## Ergänzende Bewertung: Duodenalobstruktion (Rang 2)
+
+Für die zweite vorhergesagte Indikation, **Duodenalobstruktion** (TxGNN-Wert 99,64 %), liegt nur Evidenzstufe **L5** vor (Empfehlung: **Hold**). Die einzige gelistete Phase-3-Studie (NCT00557921, Clopidogrel plus Omeprazol zur Vermeidung gastrointestinaler Blutungen, vorzeitig beendet, 5.000 Teilnehmer) hat vermutlich keinen direkten Bezug zu dieser Indikation. Die Literatur besteht aus älteren Fallberichten und unspezifischen Übersichten (1992–1997) ohne omeprazolspezifische Ergebnisse. Eine fixierte mechanische Obstruktion lässt sich durch Säurehemmung nicht beheben; Omeprazol kann allenfalls die zugrunde liegende Ulkuskrankheit indirekt beeinflussen.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

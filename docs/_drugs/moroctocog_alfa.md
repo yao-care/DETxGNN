@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Moroctocog Alfa
-parent: Mittlere Evidenz (L3-L4)
-nav_order: 261
-evidence_level: L4
+parent: Nur Modellvorhersage (L5)
+nav_order: 306
+evidence_level: L5
 indication_count: 8
 ---
 
 # Moroctocog Alfa
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **8** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,88 +29,93 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **8**
 
 </div>
 
-# MOROCTOCOG ALFA: Von Hämophilie A zur primären Thrombozytensekreationsstörung
+# Moroctocog alfa: Von Hämophilie A zu primärer Thrombozyten-Freisetzungsstörung
 
 ## Zusammenfassung in einem Satz
 
-> Moroctocog alfa ist ein B-Domänen-deletiertes rekombinantes humanes Faktor-VIII-Ersatzprodukt (rFVIII), das zur Behandlung und Vorbeugung von Blutungen bei Hämophilie A (angeborener Faktor-VIII-Mangel) verwendet wird.
-> Die Top-Vorhersage des TxGNN-Modells deutet auf eine mögliche Wirksamkeit bei **primärer Thrombozytensekreationsstörung** hin,
-> aber dies wird derzeit nur durch **7 klinische Studien** gestützt – von denen keine tatsächlich Patienten mit dieser Erkrankung einschlossen – und **keine relevante Literatur**, was auf schwache und wahrscheinlich fragwürdige Evidenzbasis hindeutet.
+Moroctocog alfa ist ein rekombinanter Faktor VIII mit deletierter B-Domäne und wurde ursprünglich zur Behandlung der **Hämophilie A** eingesetzt.
+Das TxGNN-Modell sagt voraus, dass es bei der **primären Freisetzungsstörung der Thrombozyten** wirksam sein könnte.
+Dafür liegen derzeit **keine klinischen Studien und keine Publikationen** vor, die Vorhersage beruht allein auf dem Modell.
 
 ---
 
-## Schnellübersicht
+## Kurzüberblick
 
-| Item | Inhalt |
-|------|--------|
-| Ursprüngliche Indikation | Hämophilie A (angeborener Faktor-VIII-Mangel) – abgeleitet aus Arzneistoffklasse; keine deutschen Marktlizenzierungsdaten verfügbar zur Bestätigung |
-| Vorhergesagte neue Indikation | Primäre Thrombozytensekreationsstörung |
-| TxGNN-Vorhersagepunktzahl | 99.97% |
-| Evidenzstufe | L4 |
-| Status auf dem deutschen Markt | Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Halten |
-
----
-
-## Warum ist diese Vorhersage plausibel?
-
-Derzeit sind detaillierte Mechanismus-der-Wirkung-Daten nicht verfügbar (Datenlücke). Auf Basis verfügbarer Informationen ist moroctocog alfa ein B-Domänen-deletiertes rekombinantes humanes Faktor-VIII-Ersatzprodukt; seine Wirksamkeit bei Hämophilie A ist gut belegt, und mechanistisch wirkt es durch Wiederherstellung der FVIII-Gerinnungsaktivität bei Patienten, denen ausreichend endogener Faktor fehlt.
-
-Die primäre Thrombozytensekreationsstörung ist dagegen ein **Defekt der Thrombozytengranulensekretion** – Blutungen resultieren aus der Unfähigkeit von Thrombozyten, ihre Speichergranulainhalte bei Aktivierung freizusetzen, nicht aus einem Mangel an Plasma-Gerinnungsfaktor. FVIII-Supplementation adressiert diesen zugrunde liegenden Sekretionsdefekt nicht, daher ist die mechanistische Begründung für diese Vorhersage schwach.
-
-Dies wird durch die unterstützenden Evidenzen selbst bestätigt: alle 7 zitierten klinischen Studien wurden mit „C" für Relevanz bewertet, und keine dieser Studien untersuchte tatsächlich Patienten mit einer Thrombozytensekreationsstörung. Stattdessen umfassen sie Hämophilie-A-Studien mit nicht verwandten FVIII-Produkten (BIVV001, BAX855), künstliche Leberunterstützung bei akut-auf-chronischem Leberversagen, Portalvenenhämostase während TIPS-Verfahren, Post-COVID-19-Impf-Gerinnungsstudien und Gerinnungsprofile bei AML. Dieses Muster deutet darauf hin, dass die TxGNN-Assoziation wahrscheinlich eine breite semantische Nähe zwischen „Blutungsstörung"-Konzepten im Wissensgraph widerspiegelt, anstatt eines echten, arzneistoffspezifischen pharmakologischen Zusammenhangs – konsistent mit der Anmerkung des Reviewers, die auf einen möglichen Datenbankabgleich hinweist.
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Hämophilie A |
+| Vorhergesagte neue Indikation | Primäre Freisetzungsstörung der Thrombozyten |
+| TxGNN-Vorhersagewert | 99,97 % |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Nur erloschene/gelöschte Zulassung |
+| Anzahl der Zulassungen | 1 (davon 0 gültig) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Klinische Studienbelege
+## Warum ist diese Vorhersage plausibel (oder nicht)?
 
-| Studiennummer | Phase | Status | Einschreibung | Wesentliche Erkenntnisse |
-|---------|------|------|------|---------|
-| [NCT04161495](https://clinicaltrials.gov/study/NCT04161495) | Phase 3 | Abgeschlossen | 159 | BIVV001 (PEGyliertes rFVIIFc-VWF-XTEN) Prophylaxe bei schwerer Hämophilie A ≥12 Jahre – keine Thrombozytensekreationsstörungspopulation |
-| [NCT01913405](https://clinicaltrials.gov/study/NCT01913405) | Phase 3 | Abgeschlossen | 30 | PEGyliertes rFVIII (BAX 855) bei schwerer Hämophilie A mit Chirurgie – nicht verwandte Population |
-| [NCT07329036](https://clinicaltrials.gov/study/NCT07329036) | N/A | Rekrutierung läuft | 25 | Künstliches Leberunterstützungssystem (DPMAS+TPE) bei akut-auf-chronischem Leberversagen – kein direkter Zusammenhang |
-| [NCT07439939](https://clinicaltrials.gov/study/NCT07439939) | N/A | Rekrutierung läuft | 45 | Systemische/Portalvenenhämostase während TIPS-Platzierung – kein direkter Zusammenhang |
-| [NCT07400848](https://clinicaltrials.gov/study/NCT07400848) | N/A | Rekrutierung läuft | 200 | Post-COVID-19-Impf-Syndrom Symptom-/Laborauswertung – kein direkter Zusammenhang |
-| [NCT07343687](https://clinicaltrials.gov/study/NCT07343687) | N/A | Noch nicht rekrutierend | 80 | Gerinnungsprofile bei neu diagnostiziertem AML unter Induktionschemotherapie – kein direkter Zusammenhang |
+Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Bekannt ist, dass Moroctocog alfa ein rekombinanter Faktor VIII (FVIII) ohne B-Domäne ist. Seine Wirksamkeit bei Hämophilie A beruht auf dem Ersatz des fehlenden Gerinnungsfaktors.
 
-*(Alle 7 abgerufenen Studien wurden mit „C" für Relevanz bewertet; keine dieser Studien rekrutierte Patienten mit primärer Thrombozytensekreationsstörung.)*
+Bei der vorhergesagten Indikation liegt die Ursache dagegen in einem intrinsischen Defekt der Thrombozyten (Speicherpool bzw. Sekretion), nicht in einem FVIII-Mangel. Ein zusätzlicher FVIII-Ersatz dürfte diesen Defekt daher nicht beheben. Der hohe Vorhersagewert ist eine graphbasierte Modellaussage ohne klinische oder literaturbasierte Stütze. Die mechanistische Verbindung ist schwach.
+
+### Weitere vorhergesagte Indikationen
+
+Alle weiteren Vorhersagen liegen ebenfalls nur auf Evidenzstufe L5 (Empfehlung: Hold):
+
+| Rang | Vorhergesagte Indikation | TxGNN-Wert | Mechanistische Einschätzung |
+|----|------|------|------|
+| 2 | Pseudo-von-Willebrand-Erkrankung | 99,97 % | Gain-of-function-Defekt des thrombozytären GPIbα; FVIII korrigiert diesen nicht, Verbindung spekulativ |
+| 3 | Glanzmann-Thrombasthenie | 99,96 % | Defekt von Integrin αIIbβ3; Standard sind Thrombozytentransfusion oder rFVIIa, keine mechanistische Grundlage für FVIII |
+| 4 | Erworbener Gerinnungsfaktormangel | 99,88 % | Am ehesten plausibel (z. B. erworbene Hämophilie A), doch Inhibitoren neutralisieren den FVIII; Standard sind Bypass-Präparate oder porcines FVIII |
+| 5 | Scott-Syndrom | 99,86 % | Defekt der Phosphatidylserin-Exposition (TMEM16F/ANO6); lose Verbindung über den Tenase-Komplex, zusätzlicher FVIII ersetzt die fehlende Membranoberfläche nicht |
+| 6 | Blutungsneigung durch Kollagenrezeptor-Defekt | 99,73 % | Thrombozyten-intrinsisches Problem, durch FVIII nicht korrigierbar |
+| 7 | Hämorrhagische Störung durch konstitutionelle Thrombozytopenie | 99,72 % | FVIII beeinflusst die Thrombozytenzahl nicht |
+| 8 | „Flood factor deficiency" | 99,11 % | Bezeichnung unklar, möglicherweise ein Ontologie- oder Eingabefehler; Identität vorab prüfen |
 
 ---
 
-## Literaturbelege
+## Klinische Studien
 
-Derzeit keine einschlägige Literatur verfügbar.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
+
+---
+
+## Literaturevidenz
+
+Derzeit liegt keine zugehörige Literatur vor.
 
 ---
 
 ## Informationen zum deutschen Markt
 
-Keine deutschen Marktzulassungen gefunden. `taiwan_regulatory`-Daten zeigen, dass das Arzneimittel **nicht vermarktet** ist (0 Lizenzen in Datei), daher können keine Produktdetails/Darreichungsform/Indikationsdetails bereitgestellt werden.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000232 | ReFacto AF | – | Hämophilie A |
+
+Hinweis: Diese Zulassung (Pfizer Europe MA EEIG) ist als erloschen/gelöscht geführt.
 
 ---
 
-## Sicherheitserwägungen
+## Sicherheitsaspekte
 
-Bitte lesen Sie die Packungsbeilage für Sicherheitsinformationen.
-
-*(Hinweis: Deutsche Packungsbeilage-Warnungen/Kontraindikationen (DG001) und MOA-Detail (DG002) werden als Datenlücken in diesem Nachweispaket gekennzeichnet – DG001 ist eine **blockierende** Lücke, die eine vollständige S1-Sicherheitsüberprüfung verhindert.)*
+Für Sicherheitsinformationen beachten Sie bitte die Packungsbeilage. Zu Wechselwirkungen wurden in den für diesen Bericht zusammengestellten Daten keine Einträge gefunden.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Halten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die top-rangierte TxGNN-Vorhersage (primäre Thrombozytensekreationsstörung) entbehrt jeglicher mechanistisch relevanter klinischer oder Literaturbelege – alle zitierten Studien betreffen nicht verwandte Patientenpopulationen und verschiedene Prüfpräparate. Das Beweismuster ist konsistenter mit einem Wissensgraph-semantischen Artefakt als mit einem echten pharmakologischen Signal.
+Alle vorhergesagten Indikationen stützen sich ausschließlich auf Modellwerte (Evidenzstufe L5) ohne Studien oder Publikationen. Zudem sprechen die Pathomechanismen überwiegend gegen eine Wirksamkeit von FVIII-Ersatz, und die deutsche Zulassung ist erloschen.
 
-**Zur Fortschreitung ist Folgendes erforderlich:**
-- Blockierende Datenlücke DG001 (Deutsche Packungsbeilage-Warnungen/Kontraindikationen) auflösen, bevor eine S1-Sicherheitsüberprüfung fortgesetzt werden kann
-- Datenlücke mit hoher Schwere DG002 (bestätigter MOA) auflösen, um mechanistisch-Relevanzanalyse zu unterstützen
-- Falls diese Indikation weiter verfolgt wird, würde dedizierte präklinische/translationale Evidenz, die eine Rolle für FVIII jenseits der Gerinnung bei Thrombozytengranulensekretion nachweist, erforderlich sein
-- **Separat beachtenswert:** Unter den 8 TxGNN-vorhergesagten Indikationen, die in diesem Durchgang für moroctocog alfa überprüft wurden, ist *erworbener Gerinnungsfaktormangel* (Rang 4) mechanistisch viel plausabler (FVIII-Substitution ist direkt relevant für erworbene Hämophilie A) und erreichte Evidenzstufe L3 / Entscheidungsstufe S2 mit einer „Forschungsfrage"-Empfehlung. Die meisten seiner unterstützenden Studien verwendeten jedoch Schweine-FVIII (Obizur/susoctocog alfa) anstelle von moroctocog alfa selbst, daher bleibt direkte Evidenzübertragung unsicher – dieser Kandidat verdient eine separate, dedizierte Bewertung, anstatt unter der aktuellen top-rangierten Indikation verfolgt zu werden.
-
+**Für ein Weiterkommen sind erforderlich:**
+- Beschaffung und Auswertung der Packungsbeilage (Warnhinweise, Gegenanzeigen) als Voraussetzung für die Sicherheitsprüfung
+- Daten zum Wirkmechanismus (z. B. aus DrugBank)
+- Prüfung der Identität von „flood factor deficiency"
+- Gezielte Literatur- und Studienrecherche, insbesondere zum erworbenen Gerinnungsfaktormangel (erworbene Hämophilie A) als mechanistisch plausibelstem Kandidaten
+- Klärung der Applikationswege und der Übereinstimmung mit der ursprünglichen Indikation
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

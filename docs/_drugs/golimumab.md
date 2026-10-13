@@ -2,7 +2,7 @@
 layout: default
 title: Golimumab
 parent: Mittlere Evidenz (L3-L4)
-nav_order: 184
+nav_order: 217
 evidence_level: L4
 indication_count: 5
 ---
@@ -29,105 +29,101 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-# Golimumab: Von genehmigten Indikationen bei entzündlicher Arthritis zu rheumatoider Vaskulitis
+# Golimumab: Von rheumatoider Arthritis zu rheumatoider Vaskulitis
 
 ## Zusammenfassung in einem Satz
 
-Golimumab ist ein vollständig humaner Anti-TNF-α-Antikörper mit etablierten Indikationen bei entzündlicher Arthritis (rheumatoide Arthritis, Psoriasis-Arthritis, Spondylitis ankylosans und polyartikuläre juvenile idiopathische Arthritis gemäß Fachliteratur). Die Vorhersage des TxGNN-Modells deutet auf eine potenzielle Wirksamkeit bei **rheumatoider Vaskulitis** hin, aber die Beweise sind gemischt — **3 indirekt verwandte klinische Studien** und **6 Publikationen**, einschließlich Fallberichte, die beschreiben, dass Anti-TNF-Therapie sowohl Vaskulitis *behandelt* als auch *paradoxerweise induziert*. Dieses Evidenzpaket (`TW-DB06674-multi`) enthält vier weitere Kandidaten-Indikationen; zwei davon (Rang #3 und #5) sind erheblich besser unterstützt und werden am Ende dieses Berichts zusammengefasst.
+Golimumab ist ein TNF-alpha-Antikörper, der ursprünglich zur Behandlung entzündlicher rheumatischer Erkrankungen (u. a. rheumatoide Arthritis, Psoriasis-Arthritis, Colitis ulcerosa) zugelassen wurde. Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **rheumatoider Vaskulitis** voraus. Dafür liegen jedoch nur **1 klinische Studie ohne direkten Bezug** und **6 Publikationen** (überwiegend Fallberichte und Übersichtsarbeiten) vor, sodass die Vorhersage derzeit nicht durch direkte klinische Daten gestützt ist.
 
 ---
 
-## Kurzübersicht
+## Schnellübersicht
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Nicht verfügbar aus formalen Zulassungsdaten (Golimumab ist derzeit in dieser Jurisdiktion nicht vermarktet); Fachliteratur bestätigt genehmigte Anwendung für rheumatoide Arthritis, Psoriasis-Arthritis, Spondylitis ankylosans und polyartikuläre JIA anderswo |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Rheumatoide Arthritis, juvenile Arthritis, Psoriasis-Arthritis, axiale Spondyloarthritis, Colitis ulcerosa, nicht-röntgenologische axiale Spondyloarthritis |
 | Vorhergesagte neue Indikation | Rheumatoide Vaskulitis |
-| TxGNN-Vorhersagepunktzahl | 99,73% (Rang 3700 in Modellausgabe) |
-| Evidenzstufe | L4 |
-| Status auf dem Markt Deutschland | ✗ Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Halten |
+| TxGNN-Vorhersagewert | 99,73 % |
+| Evidenzniveau | L4 |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen (Status laut den Daten; Abgleich mit aktuellen Zulassungen empfohlen) |
+| Anzahl der Zulassungen | 3 (alle aufgehoben) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage sinnvoll?
+## Warum ist diese Vorhersage plausibel?
 
-Strukturierte Wirkmechanismus-Daten von DrugBank sind in diesem Evidenzpaket nicht verfügbar (`original_moa: [Data Gap]`). Basierend auf der abgerufenen Fachliteratur ist Golimumab ein vollständig humaner Anti-TNF-α-IgG1κ-Antikörper, der subkutan (oder intravenös) verabreicht wird und für rheumatoide Arthritis, Psoriasis-Arthritis und axiale Spondylarthritis zugelassen ist (PMID 28530020, 20065639).
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Golimumab ein TNF-alpha-Inhibitor ist, dessen Wirksamkeit bei rheumatoider Arthritis belegt ist. Mechanistisch könnte er auch bei der rheumatoiden Vaskulitis anwendbar sein, da TNF-getriebene Entzündung plausibel zur Gefäßentzündung beiträgt.
 
-Rheumatoide Vaskulitis ist eine schwerwiegende extraartikuläre Manifestation von langdauernder, seropositiver rheumatoider Arthritis, angetrieben durch Immunkomplexablagerung und TNF-vermittelte vaskuläre Entzündung. Mechanistisch könnte die Unterdrückung von TNF-α diesen vaskulitischen Prozess plausibel reduzieren, und ein Fallbericht vermerkt, dass die Inzidenz rheumatoider Vaskulitis seit der Einführung von Biologika-DMARDs (einschließlich Anti-TNF-Mitteln) abgenommen hat (PMID 29075910).
+Die rheumatoide Vaskulitis ist eine extraartikuläre Komplikation der rheumatoiden Arthritis und tritt vor allem bei seropositiven Patienten auf. Ihre Häufigkeit ging nach Einführung biologischer DMARDs, darunter Anti-TNF-Wirkstoffe, zurück. Die Verbindung zur ursprünglichen Indikation ist daher inhaltlich nachvollziehbar.
 
-Die Beweise sind jedoch nicht eindeutig. Ein Fallbericht von zwei Patienten, die **Takayasu-Arteritis unter Anti-TNF-Therapie entwickelten** (PMID 22999907), veranschaulicht ein anerkanntes Phänomen der „paradoxen Vaskulitis", das mit dieser Wirkstoffklasse assoziiert ist — Anti-TNF-Mittel können bei einigen Patienten vaskulitische Erkrankungen auslösen oder offenbaren, anstatt sie zu behandeln. Dieses richtungsmäßig inkonsistente Signal ist der Hauptgrund, warum die Evidenzstufe auf L4 (Wirkmechanismus-/Fallbericht-Ebene) begrenzt ist, trotz des sehr hohen TxGNN-Scores, und warum die aktuelle Empfehlung lautet, bis zur Sicherheitsklarifizierung zu halten.
+Die Evidenz ist allerdings indirekt. Ein Fallbericht beschreibt zudem zwei Fälle von Takayasu-Arteriitis, die unter Anti-TNF-Therapie auftraten. Das deutet eher auf ein Sicherheitssignal als auf Unterstützung hin. Der hohe TxGNN-Wert ist eine reine Modellvorhersage.
 
 ---
 
-## Klinische Studienevidenz
+## Klinische Studien
 
-| Studiennummer | Phase | Status | Einschreibung | Wichtigste Ergebnisse |
+| Studiennummer | Phase | Status | Teilnehmerzahl | Kernaussagen |
 |---------|------|------|------|---------|
-| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | Noch nicht rekrutierend | 80 | Bewertet perioperatives Immunsuppressiva-Management (einschließlich Anti-TNF) bei Rheumatologe-Patienten, die sich einer Schulterarthroplastie unterziehen; nur Populationsüberlappung, keine Vaskulitis-Spezifität |
-| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | N/A | Unbekannt | 750.000 | Große Real-World-Studie zum Risiko des Neuauftretens von immunvermittelter entzündlicher Erkrankung (IMID) nach Biologika-Behandlung einer einzelnen IMID; kann Vaskulitis als Ergebnis erfassen, aber nicht als primären Endpunkt |
-| [NCT01579006](https://clinicaltrials.gov/study/NCT01579006) | N/A | Abgeschlossen | 184 | Nicht-interventionelle Studie eines Biologikums (Tocilizumab, nicht Golimumab) bei RA-Patienten mit unzureichendem DMARD-Ansprechen; einbezogen wegen RA-Populationsüberlappung, nicht Golimumab- oder Vaskulitis-spezifisch |
+| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | Rekrutierend | 80 | Management von Immunsuppressiva bei Rheumapatienten vor einer elektiven Schulterendoprothese (Schübe, Schmerzen, Wundkomplikationen). Prüft Golimumab nicht gegen Vaskulitis und liefert keine Wirksamkeitsevidenz. |
 
 ---
 
-## Fachliteratur-Evidenz
+## Literaturevidenz
 
-| PMID | Jahr | Typ | Journal | Wichtigste Ergebnisse |
+| PMID | Jahr | Typ | Journal | Kernaussagen |
 |------|-----|------|------|---------|
-| [31491879](https://pubmed.ncbi.nlm.nih.gov/31491879/) | 2019 | Netzwerk-Metaanalyse | Int J Mol Sci | Vergleicht Golimumab und andere TNF-Inhibitoren über 36 RCTs zur radiographischen Gelenkdestruktion bei RA; starke vergleichende Effektivitätsdaten, aber kein Vaskulitis-Endpunkt |
-| [23557513](https://pubmed.ncbi.nlm.nih.gov/23557513/) | 2013 | Übersicht | BMC Medicine | Übersicht über Biologika-Therapien (einschließlich Anti-TNF-Mittel) für Autoimmunerkrankung/rheumatologische Erkrankungen, allgemeiner Effektivitäts-/Sicherheitskontext |
-| [27591827](https://pubmed.ncbi.nlm.nih.gov/27591827/) | 2017 | Kohorte | Semin Arthritis Rheum | Häufigkeit und Ursachen der Nierenerkrankung im Endstadium bei RA-Patienten; relevant für extraartikuläre RA-Last, aber nicht Vaskulitis-spezifisch |
-| [29075910](https://pubmed.ncbi.nlm.nih.gov/29075910/) | 2018 | Fallbericht | Rheumatol Int | Schwere Sepsis (Pyoderma gangrenosum/pyogene Arthritis) bei RA-Patienten auf Golimumab; merkt an, dass die Inzidenz rheumatoider Vaskulitis seit der Einführung von Anti-TNF-Mitteln abgenommen hat |
-| [22999907](https://pubmed.ncbi.nlm.nih.gov/22999907/) | 2013 | Fallbericht | Joint Bone Spine | Zwei Fälle von **Takayasu-Arteritis unter Anti-TNF-Therapie** — paradoxes Vaskulitis-Induktsions-Signal, das der therapeutischen Hypothese widerspricht |
-| [23252659](https://pubmed.ncbi.nlm.nih.gov/23252659/) | 2013 | Fallbericht | Ocul Immunol Inflamm | Behçet-Erkrankung-assoziierte Uveitis (eine vaskulitis-verwandte Erkrankung) erfolgreich mit Golimumab behandelt — ein positives Gegen-Signal |
+| [31491879](https://pubmed.ncbi.nlm.nih.gov/31491879/) | 2019 | Netzwerk-Metaanalyse (36 RCTs) | Int J Mol Sci | TNF-Inhibitoren, einschließlich Golimumab, reduzieren die Gelenkzerstörung bei rheumatoider Arthritis ähnlich stark. Kein Vaskulitis-Bezug. |
+| [23557513](https://pubmed.ncbi.nlm.nih.gov/23557513/) | 2013 | Übersichtsarbeit | BMC Med | Aktualisierung zu Biologika bei Autoimmunerkrankungen, einschließlich Nachteilen wie Kosten und Nebenwirkungen. |
+| [27591827](https://pubmed.ncbi.nlm.nih.gov/27591827/) | 2017 | Übersichtsarbeit | Semin Arthritis Rheum | Häufigkeit und Ursachen der terminalen Niereninsuffizienz bei rheumatoider Arthritis sowie deren Behandlung. |
+| [29075910](https://pubmed.ncbi.nlm.nih.gov/29075910/) | 2018 | Fallbericht | Rheumatol Int | Pyoderma gangraenosum und pyogene Arthritis mit schwerer Sepsis bei einer RA-Patientin unter Golimumab. Erwähnt rheumatoide Vaskulitis nur als Hintergrund. |
+| [23252659](https://pubmed.ncbi.nlm.nih.gov/23252659/) | 2013 | Fallbericht | Ocul Immunol Inflamm | Erfolgreiche Behandlung einer Behçet-assoziierten Uveitis mit Golimumab. |
+| [22999907](https://pubmed.ncbi.nlm.nih.gov/22999907/) | 2013 | Fallbericht | Joint Bone Spine | Zwei Fälle von Takayasu-Arteriitis, die unter Anti-TNF-Therapie auftraten, ein mögliches Sicherheitssignal. |
 
 ---
 
 ## Marktinformationen Deutschland
 
-Golimumab wird derzeit **nicht vermarktet** in dieser Jurisdiktion — es liegen keine Zulassungsunterlagen vor (`total_licenses: 0`).
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/006560 | Gobivaz | – | Rheumatoide Arthritis, juvenile Arthritis, Psoriasis-Arthritis, axiale Spondyloarthritis, Colitis ulcerosa, nicht-röntgenologische axiale Spondyloarthritis (aufgehoben) |
+| EMEA/H/C/000992 | Simponi | – | Psoriasis-Arthritis, Spondylitis ankylosans, Colitis ulcerosa, rheumatoide Arthritis (aufgehoben) |
+| EMEA/H/C/006621 | Gotenfia | – | Rheumatoide Arthritis, juvenile Arthritis, Psoriasis-Arthritis, axiale Spondyloarthritis, nicht-röntgenologische axiale Spondyloarthritis, Colitis ulcerosa (aufgehoben) |
 
 ---
 
-## Sicherheitserwägungen
+## Sicherheitsaspekte
 
-Strukturierte Sicherheitsdaten (Wichtigste Warnungen, Kontraindikationen, DDI) sind derzeit für diesen Wirkstoff in diesem Evidenzpaket nicht verfügbar.
+- **Arzneimittelwechselwirkungen**: Für die Abfrage wurden 100 Wechselwirkungen erfasst. Als **schwerwiegend (Major)** eingestuft sind u. a. systemische und lokale Kortikosteroide (Hydrocortison, Prednison, Prednisolon, Dexamethason, Betamethason, Triamcinolon, Budesonid) sowie Deferipron und radioaktive Antikörper-Präparate (Iobenguan I-131, Ibritumomab tiuxetan, Tositumomab). **Moderate** Wechselwirkungen bestehen u. a. mit Metronidazol, Tinidazol, Rosuvastatin und Simvastatin. **Geringfügig (Minor)** sind Zinkpräparate.
+- **Klassenhinweis**: Bei Anti-TNF-Wirkstoffen ist ein erhöhtes Infektionsrisiko bekannt (u. a. Metaanalyse PMID 27924643). Ein Fallbericht beschreibt zudem eine schwere Sepsis unter Golimumab.
 
-**Aus Fachliteratur abgeleitetes Sicherheitssignal (nicht aus strukturierten Sicherheitsdaten):** Die Literatur enthält einen Fallbericht über Anti-TNF-assoziierte **paradoxe Vaskulitis** (Takayasu-Arteritis-Auftreten unter Anti-TNF-Therapie, PMID 22999907). Dieses direkt relevante Sicherheitssignal sollte geklärt werden, bevor rheumatoide Vaskulitis als Indikation verfolgt wird.
-
-Bitte beachten Sie die Fachinformation für vollständige Sicherheitsinformationen, sobald diese verfügbar sind (siehe Datenlücke DG001 unten).
+Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Halten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die mechanistische Begründung für Anti-TNF-Therapie bei rheumatoider Vaskulitis ist plausibel, aber nicht einheitlich unterstützt — die Fachliteratur-Evidenz umfasst sowohl ein Schutz-Signal (abnehmende Vaskulitis-Inzidenz seit Anti-TNF-Einführung) als auch ein widersprehendes Signal (Anti-TNF-induzierte Vaskulitis-Fallberichte). Es gibt keine klinische Studie, die Golimumab direkt und angemessen für diese Indikation bewertet. Die Evidenzstufe ist L4 (nur Fallbericht/Wirkmechanismus).
+Die Vorhersage für rheumatoide Vaskulitis beruht allein auf dem Modellwert; es gibt keine Studie, die Golimumab bei Vaskulitis prüft, und die Literatur besteht aus indirekten Fallberichten und Übersichten. Ein Fallbericht deutet sogar auf ein mögliches Sicherheitssignal hin. Zudem sind alle drei deutschen Zulassungen laut den Daten aufgehoben.
 
-**Um fortzufahren, wird Folgendes benötigt:**
-- TFDA/BfArM-Fachinformation Warnungen und Kontraindikationen (Datenlücke DG001, Blockierend — erforderlich vor jeglichem S1-Sicherheits-Screening)
-- Strukturierte Wirkmechanismus-Daten von DrugBank (Datenlücke DG002, Hoch)
-- Eine dedizierte Literaturübersicht zur Versöhnung des therapeutisch-vs-paradoxen Vaskulitis-Signals für Anti-TNF-Mittel
-- Eine klinische Studie oder Registerstudie mit rheumatoider Vaskulitis als primärer oder expliziter sekundärer Endpunkt
+**Für ein Weiterkommen sind erforderlich:**
+- Direkte klinische Daten zu Golimumab bei rheumatoider Vaskulitis (z. B. Fallserien, Registerdaten, kontrollierte Studien)
+- Bewertung des Sicherheitssignals (Vaskulitis unter Anti-TNF-Therapie)
+- Daten zum Wirkmechanismus (MOA)
+- Warnhinweise und Gegenanzeigen aus der Fachinformation
+- Überprüfung des Zulassungsstatus gegenüber aktuellen Zulassungen in der EU/Deutschland
 
 ---
 
-## Andere Kandidaten-Indikationen in diesem Evidenzpaket
+### Hinweis zu weiteren Vorhersagen
 
-Dieses Evidenzpaket bewertete 5 Kandidaten-Indikationen für Golimumab. Die anderen vier, nach TxGNN gereiht, sind unten zusammengefasst — zwei sind erheblich besser unterstützt als die oben genannte Top-Vorhersage und rechtfertigen separate, dedizierte Bewertung.
+Weitere vorhergesagte Indikationen wurden im Rahmen dieser Datenzusammenstellung bewertet:
 
-| Rang | Indikation | TxGNN-Punktzahl | Evidenzstufe | Entscheidung | Anmerkung |
-|------|-----------|-------------|-----------------|----------|------|
-| 3 | **Entzündliche Spondylopathie** | 99,66% | **L1** | **Mit Vorsichtsmaßnahmen fortfahren** | Stärkster Kandidat — Golimumab ist bereits eine genehmigte Anti-TNF-Therapie für Spondylitis ankylosans, nr-axSpA und Psoriasis-Arthritis, unterstützt durch zahlreiche abgeschlossene Phase-3/4-RCTs (z. B. NCT00265083, NCT02186873, NCT03270501) und systematische Übersichten (PMID 36270657, 38503473). Dies ist weitgehend eine Erweiterung der bestehenden Indikation statt neuartige Umwidmung. |
-| 5 | **Polyartikuläre juvenile rheumatoide Arthritis** | 99,59% | **L1** | **Mit Vorsichtsmaßnahmen fortfahren** | Auch stark unterstützt — Golimumab (subkutan und intravenös) ist bereits FDA-zugelassen für polyartikuläre JIA, unterstützt durch abgeschlossene Phase-3-RCTs (NCT01230827, NCT02277444) und Langzeit-Sicherheitsdaten (PMID 33493312, 28507219, 39089836). Kontinuierliche Überwachung erforderlich für pädiatrisches Langzeit-Immunsuppressionsrisiko (Infektion, Malignität). |
-| 2 | Hypermobilität des Steißbeins | 99,67% | L5 | Halten | Keine klinischen Studien oder Fachliteratur; keine plausible biologische Verbindung zur TNF-α-Hemmung. Wahrscheinlich Knowledge-Graph-Rauschen. |
-| 4 | Kummell-Erkrankung | 99,61% | L5 | Halten | Keine klinischen Studien oder Fachliteratur; vertebraler ischämischer Kollaps hat keine mechanistische Verbindung zu Golimumab. Wahrscheinlich Knowledge-Graph-Rauschen. |
-
-**Empfehlung:** Priorisieren Sie separate, dedizierte Bewertungsberichte für **entzündliche Spondylopathie** und **polyartikuläre JIA** (Rang 3 und 5) — diese stellen die stärksten, am meisten handlungsfähigen Ergebnisse in diesem Evidenzpaket dar und sind viel entscheidungsbereiter als die Top-Vorhersage rheumatoider Vaskulitis. Ränge 2 und 4 können als niedrig-vertrauenswürdige Modellausgabe deprioritiert werden.
-
+- **Entzündliche Spondylopathie** (Evidenz L1, Proceed with Guardrails): Mehrere abgeschlossene Phase-3-RCTs (u. a. NCT02186873, NCT02181673, NCT01453725) belegen die Wirksamkeit. Diese Indikationen überlappen jedoch weitgehend mit den bereits zugelassenen Anwendungen und stellen eher eine Bestätigung als echtes Repurposing dar.
+- **Polyartikuläre juvenile rheumatoide Arthritis** (Evidenz L1, Proceed with Guardrails): Pädiatrische Phase-3-Studien (NCT01230827, NCT02277444) mit veröffentlichten Langzeitdaten. Auch hier handelt es sich um eine Bestätigung bestehender Indikationen; NCT01230827 wurde vorzeitig beendet, der Grund sollte geprüft werden.
+- **Hypermobilität des Steißbeins** und **Kümmell-Krankheit** (Evidenz L5, Hold): Keine Studien oder Literatur und kein erkennbarer mechanistischer Zusammenhang mit TNF-getriebener Entzündung.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -2,7 +2,7 @@
 layout: default
 title: Parathyroid Hormone
 parent: Mittlere Evidenz (L3-L4)
-nav_order: 294
+nav_order: 344
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,86 +29,95 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Parathyroid Hormone (Parathormon): Von einer unspezifizierten ursprünglichen Indikation zur Migränestörung
+# Parathyroid Hormone: Von Hypoparathyreoidismus zu Migränestörung
 
-## Kurzfassung
+## Zusammenfassung in einem Satz
 
-> Die ursprüngliche Indikation und der Wirkmechanismus von Parathyroid Hormone (DrugBank DB05829) sind im aktuellen Evidenzpaket nicht verfügbar.
-> Das TxGNN-Modell sagt potenzielle Wirksamkeit für **Migränestörung** mit einer Vorhersagescore von **99.98%** voraus,
-> aber die unterstützenden Belege — **1 klinische Studie** (nicht im Zusammenhang mit PTH) und **6 Veröffentlichungen** (hauptsächlich indirekt/assoziativ) — sind schwach und weitgehend nebensächlich.
+Parathormon (PTH) wurde ursprünglich zur Behandlung des Hypoparathyreoidismus eingesetzt. Das TxGNN-Modell sagt voraus, dass es bei **Migränestörung** wirksam sein könnte. Dafür liegen bislang **keine klinischen Studien** und **5 Publikationen** vor, die überwiegend indirekte Zusammenhänge (Genetik, Calcium-/Vitamin-D-Status) beschreiben, aber keinen therapeutischen Nutzen belegen.
 
 ---
 
 ## Schnellübersicht
 
-| Element | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Im Evidenzpaket nicht spezifiziert (kein Text zur zugelassenen Indikation oder Daten zu original_indications verfügbar) |
-| Vorhergesagte neue Indikation | Migränestörung |
-| TxGNN-Vorhersagescore | 99.98% (Rang 523) |
-| Evidenzstufe | L4 |
-| Marktstatus Deutschland | Nicht im Handel |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Halten |
+| Ursprüngliche Indikation | Hypoparathyreoidismus |
+| Vorhergesagte neue Indikation | Migränestörung (migraine disorder) |
+| TxGNN-Vorhersagewert | 99,98 % |
+| Evidenzniveau | L4 |
+| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
+| Anzahl der Zulassungen | 1 (erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage vertretbar?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Wirkmechanismus-Daten für Parathyroid Hormone nicht verfügbar (Datenlücke DG002, Schweregrad: Hoch). Basierend auf den bereitgestellten Belegen stützt sich das Umnutzungssignal für Migräne auf eine einzelne genetische Assoziationsstudie aus 2025, die PTHrP-Rezeptoren (Parathyroid-Hormon-verwandtes Peptid) als potenzielle genetische Treiber der Migräneanfälligkeit vorschlägt, plus eine mechanistische Tierstudie aus 1986 über zentrale Effekte von Calcitonin und Parathyroid Hormone.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Parathormon den PTH-1-Rezeptor aktiviert und damit den Calcium- und Phosphathaushalt reguliert. Seine Wirksamkeit beim Hypoparathyreoidismus ist belegt.
 
-Es ist wichtig, die Unterscheidung zwischen **PTHrP** (ein verwandtes aber unterschiedliches Peptid, das oft in genetischen/onkologischen Kontexten untersucht wird) und **PTH selbst** (die zu evaluierende Wirksubstanz) zu beachten — die zitierte Literatur befasst sich hauptsächlich mit PTHrP-Rezeptor-Genetik und nicht mit einem nachgewiesenen pharmakologischen Effekt von exogenem PTH auf die Migräne-Pathophysiologie. Die einzelne klinische Studie, die mit dieser Indikation verknüpft ist (Fuß-Reflexzonenmassage gegen Migräne), hat keine pharmakologische Verbindung zu PTH und wurde durch die zugrunde liegende Evidenzpipeline als ein unverwandtes Datenbank-Matching-Artefakt gekennzeichnet (Relevanzgrad C).
+Eine genetische Studie aus dem Jahr 2025 (PMID 40297711) bringt Rezeptoren des PTH-verwandten Peptids (PTHrP) mit der Migränedisposition in Verbindung. Das ist ein indirekter Hinweis: PTHrP-Signalwege sind nicht gleichbedeutend mit der Gabe von exogenem PTH. Zudem verbinden Beobachtungsstudien Migräne mit Auffälligkeiten bei Vitamin D, Calcium und Knochenstatus, die die PTH-Achse berühren.
 
-Insgesamt ist die mechanistische Grundlage indirekt und spekulativ: Eine genetische Assoziation zwischen einem verwandten Peptidrezeptor und Migräneanfälligkeit stellt keine Evidenz dar, dass die Verabreichung von PTH therapeutisch wirksam gegen Migräne wäre. Dies spiegelt sich in der Evidenzstufe L4 (nur präklinisch/mechanistisch) und der bereits zugewiesenen Empfehlung „Halten" wider.
+Diese Zusammenhänge zeigen nicht, dass eine PTH-Behandlung nützlich wäre; die Wirkrichtung ist unbekannt. Es besteht sogar ein Sicherheitsbedenken: Eine PTH1R-Agonisierung könnte vasodilatatorische oder CGRP-ähnliche Signalwege verstärken und Migräne verschlimmern.
 
 ---
 
 ## Evidenz aus klinischen Studien
 
-| Studiennummer | Phase | Status | Einschluss | Wichtigste Ergebnisse |
-|---------|------|------|------|---------|
-| [NCT07028684](https://clinicaltrials.gov/study/NCT07028684) | N/A | Abgeschlossen | 22 | Untersuchte Fuß-Reflexzonenmassage gegen Schmerz/Schlaf/Lebensqualität bei Frauen mit Migräne — **nicht im Zusammenhang mit PTH-Pharmakologie**; wurde nur als Datenbank-Co-Nennung einbezogen, nicht als mechanistische Unterstützung. |
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Literaturbelege
+## Evidenz aus der Literatur
 
-| PMID | Jahr | Typ | Zeitschrift | Wichtigste Ergebnisse |
+| PMID | Jahr | Typ | Journal | Kernaussagen |
 |------|-----|------|------|---------|
-| [40297711](https://pubmed.ncbi.nlm.nih.gov/40297711/) | 2025 | Genetik/Übersicht | Brain Communications | Schlägt PTHrP-Rezeptoren als potenzielle genetische Treiber der Migräneanfälligkeit in einer portugiesischen Kohorte vor. |
-| [29429076](https://pubmed.ncbi.nlm.nih.gov/29429076/) | 2018 | Übersicht | Neuromolecular Medicine | Überprüft kardiovaskuläre autonome Dysfunktion, die MS, Osteoporose und Neurodegeneration verbindet; PTH wird nur im Kontext des Knochenumbaus erwähnt, nicht migränespezifisch. |
-| [31261815](https://pubmed.ncbi.nlm.nih.gov/31261815/) | 2019 | Kohorte | Medicina (Kaunas) | Bewertet Vitamin-D-Spiegel und Therapieansprechen bei pädiatrischer Migräne; keine direkte PTH-Intervention. |
-| [24714817](https://pubmed.ncbi.nlm.nih.gov/24714817/) | 2014 | Kohorte | Braz J Med Biol Res | Vitamin-D-Add-on zu Amitriptylin bei pädiatrischen Migräneanfällen; PTH nicht als Behandlung verabreicht. |
-| [11425281](https://pubmed.ncbi.nlm.nih.gov/11425281/) | 2001 | Übersicht | Medical Hypotheses | Breite Übersicht über Magnesiummangel-Pathologie; PTH wird nur im Kontext des Mineralstoffwechsels erwähnt. |
-| [3739765](https://pubmed.ncbi.nlm.nih.gov/3739765/) | 1986 | Mechanistisch (Tier) | Acta Neurologica | Frühe Tierstudie über zentrale Effekte von Calcitonin und Parathyroid Hormone; keine Zusammenfassung verfügbar, nur historische mechanistische Daten. |
+| [40297711](https://pubmed.ncbi.nlm.nih.gov/40297711/) | 2025 | Genetische Assoziationsstudie | Brain Communications | PTHrP-Rezeptoren als genetische Einflussfaktoren der Migränedisposition |
+| [31261815](https://pubmed.ncbi.nlm.nih.gov/31261815/) | 2019 | Kohortenstudie | Medicina (Kaunas) | Vitamin-D-Spiegel und Therapieansprechen bei Migräne im Kindesalter |
+| [42340335](https://pubmed.ncbi.nlm.nih.gov/42340335/) | 2026 | Fall-Kontroll-Studie | Cephalalgia | Beeinträchtigter Knochenstatus (u. a. Vitamin D, Calcium, PTH) bei Frauen mit häufiger oder chronischer Migräne |
+| [11425281](https://pubmed.ncbi.nlm.nih.gov/11425281/) | 2001 | Übersichtsarbeit | Medical Hypotheses | Vielfältige Folgen eines Magnesiummangels |
+| [42626018](https://pubmed.ncbi.nlm.nih.gov/42626018/) | 2026 | Querschnittsstudie | Frontiers in Neurology | Zusammenhang zwischen Serumcalcium und neuropsychologischen Symptomen bei Migräne in der Frühschwangerschaft |
 
 ---
 
-## Marktinformation Deutschland
+## Marktinformationen Deutschland
 
-Derzeit nicht im Handel in Deutschland — es sind keine BfArM-Zulassungsunterlagen für dieses Arzneimittel verfügbar (`total_licenses: 0`).
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/003861 | Natpar (Takeda Pharmaceuticals International AG Ireland Branch) | – | Hypoparathyreoidismus (Status: erloschen) |
 
 ---
 
-## Sicherheitsbetrachtungen
+## Zytotoxizität
 
-Beachten Sie bitte die Packungsbeilage für Sicherheitsinformationen. Hinweis: TFDA/BfArM-Labelwarnungen und Gegenanzeigen sind in diesem Evidenzpaket als eine **blockierende** Datenlücke (DG001) eingetragen — die Sicherheitsüberprüfung (S1-Stufe) kann nicht fortgesetzt werden, bis dies gelöst ist.
+Nicht zutreffend (kein antineoplastisches Arzneimittel); Abschnitt entfällt.
+
+---
+
+## Sicherheitsaspekte
+
+- **Arzneimittelwechselwirkungen** (5 Einträge aus der Interaktionsdatenbank):
+  - **Schwerwiegend (Major):** Digoxin, Digitoxin
+  - **Moderat:** Calcitriol (topisch), Calcipotriol (topisch), Alendronsäure
+- **Theoretisches Risiko:** Eine PTH1R-Agonisierung könnte vasodilatatorische oder CGRP-ähnliche Signalwege verstärken und Migräne eventuell verschlechtern.
+
+Für Warnhinweise und Gegenanzeigen siehe die Fachinformation.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Halten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die vorhergesagte Indikation (Migränestörung) wird nur durch L4-Evidenzstufe unterstützt — eine einzelne genetische Assoziationsstudie zu einem verwandten Peptid (PTHrP, nicht PTH) und eine Jahrzehnte alte mechanistische Tierstudie — ohne dass eine klinische Studie PTH für Migräne tatsächlich getestet hat. Der mechanistische Zusammenhang ist spekulativ und erfüllt nicht die Schwelle zum Fortschreiten über S0 hinaus.
+Für Migräne gibt es keine klinischen Studien. Die Literatur beschränkt sich auf genetische und beobachtende Zusammenhänge, die keinen therapeutischen Nutzen belegen. Zudem besteht ein theoretisches Sicherheitsbedenken, und die einzige deutsche Zulassung ist erloschen. Das Thema ist derzeit eher eine Forschungsfrage als ein Kandidat für die Weiterentwicklung.
 
-**Um fortfahren zu können, ist Folgendes erforderlich:**
-- Daten zur ursprünglichen Indikation und bestätigter Wirkmechanismus (DG002, Schweregrad: Hoch)
-- TFDA/BfArM-Labelwarnungen und Gegenanzeigen, erforderlich um die S1-Sicherheitsüberprüfung freizuschalten (DG001, blockierender Schweregrad)
-- Eine klinische Studie oder Prüfung, die direkt die Verabreichung von exogenem PTH bei Migränepatienten testet, anstelle von Studien zu PTHrP-genetischen Assoziationen oder unverwandten nicht-pharmakologischen Studien
-- Verdeutlichung der Unterscheidung zwischen PTH vs. PTHrP Wirkmechanismus vor jeder weiteren Evidenzsynthese
+**Für ein Weiterkommen sind erforderlich:**
+- Daten zum Wirkmechanismus (MOA) sowie präklinische Untersuchungen zur Wirkrichtung von PTH/PTH1R-Agonismus bei Migräne
+- Beschaffung und Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen), da die Sicherheitsprüfung sonst blockiert ist
+- Bewertung des möglichen Migräne-Verschlechterungsrisikos (CGRP-/Vasodilatationsweg)
+- Klärung der Verfügbarkeit des Produkts in Deutschland, da die Zulassung erloschen ist
 
+**Hinweis zu weiteren Vorhersagen:** Die übrigen vorhergesagten Indikationen (u. a. Migräne mit Hirnstammaura, Amenorrhö, Raynaud-Krankheit, Speiseröhrenerkrankungen, erektile Dysfunktion) stützen sich auf noch schwächere Evidenz (L4–L5, ohne klinische Studien) und werden jeweils mit „Hold" bewertet.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

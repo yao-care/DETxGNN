@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Midazolam
-parent: Nur Modellvorhersage (L5)
-nav_order: 256
-evidence_level: L5
+parent: Mittlere Evidenz (L3-L4)
+nav_order: 301
+evidence_level: L3
 indication_count: 1
 ---
 
 # Midazolam
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1** 
+Evidenzniveau: **L3** | Vorhergesagte Indikationen: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,102 +29,93 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Midazolam: Hin zu einer vorhergesagten Indikation für Schlaflosigkeit
+# Midazolam: Von Epilepsie zu Insomnie
 
 ## Zusammenfassung in einem Satz
 
-Midazolam ist ein kurzwirksames Benzodiazepin; die ursprüngliche genehmigte Indikation ist im aktuellen Evidenzpaket nicht dokumentiert (behördliche Daten zeigen keine aktive Marktzulassung). Das TxGNN-Modell sagt eine Wirksamkeit für **Schlaflosigkeit** voraus, eine Anwendung, die bereits durch mehrere ältere klinische Studien gut unterstützt wird, anstatt ein echtes neues Repurposing-Signal zu sein, mit **31 klinischen Studien** und **11 Publikationen**, die in der Evidenzsuche zurückgegeben werden — obwohl die meisten Studien Midazolam nur als Vergleichsarm verwenden, anstatt als primäre Intervention bei Schlaflosigkeit.
+Midazolam ist ein kurzwirksames Benzodiazepin, das in Deutschland (als Buccolam) zur Behandlung von Epilepsie zugelassen war. Das TxGNN-Modell sagt voraus, dass es bei **Insomnie** wirksam sein könnte. Die Datenlage umfasst **2 klinische Studien** (beide nur indirekt relevant) und **10 Publikationen**, von denen einige ältere Studien zu Schlafstörungen direkt mit Midazolam durchgeführt wurden.
 
 ---
 
-## Schnellübersicht
+## Kurzüberblick
 
 | Punkt | Inhalt |
-|-------|--------|
-| Ursprüngliche Indikation | Nicht im Evidenzpaket dokumentiert — `taiwan_regulatory.licenses` ist leer und kein Text zur ursprünglichen Indikation wird bereitgestellt (Datenlücke) |
-| Vorhergesagte neue Indikation | Schlaflosigkeit (Erkrankung) |
-| TxGNN-Vorhersage-Score | 99.74 % |
-| Evidenzgrad | L2 (mehrere historische doppelblinde RCTs, die Midazolam direkt bei Schlaflosigkeit testen; keine modernen Phase-2/3-registrierten Studien für diese Indikation spezifisch) |
-| Status auf dem deutschen Markt | Nicht im Handel (Nicht im Handel) |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Zurückhalten |
+|------|------|
+| Ursprüngliche Indikation | Epilepsie |
+| Vorhergesagte neue Indikation | Insomnie |
+| TxGNN-Vorhersagewert | 99,74 % |
+| Evidenzstufe | L3 |
+| Marktstatus in Deutschland | Nur erloschene Zulassung (storniert) |
+| Anzahl der Zulassungen | 1 |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Daten zum Wirkmechanismus im Evidenzpaket nicht verfügbar. Basierend auf etabliertem pharmakologischem Wissen ist Midazolam ein kurzwirksames Benzodiazepin, das als positiver allosterischer Modulator an GABA-A-Rezeptoren wirkt und die hemmende GABAerge Neurotransmission verstärkt. Dieser Mechanismus liegt seinen etablierten klinischen Rollen in Sedation, Anxiolyse, Narkoseeinleitung und — direkt relevant hier — Schlafeinleitung zugrunde.
+Detaillierte Mechanismusdaten (MOA) liegen in den für diesen Bericht zusammengestellten Daten derzeit nicht vor. Nach bekanntem Klassenwissen moduliert Midazolam als Benzodiazepin den GABA-A-Rezeptor positiv und verstärkt so die inhibitorische Neurotransmission. Dieser Mechanismus erklärt sowohl die antikonvulsive Wirkung bei Epilepsie als auch sedativ-hypnotische Effekte.
 
-Da das Evidenzpaket keinen Text zur ursprünglichen Indikation enthält (Lizenz-Array ist leer; Marktstatus ist „Nicht im Handel"), können wir nicht mit Sicherheit sagen, was die ursprünglich genehmigte Indikation des Arzneistoffs in dieser Rechtsordnung war. Jedoch ist die sedativ-hypnotische Pharmakologie von Midazolam inhärent mit der Schlafeinleitung verbunden, was mit der TxGNN-vorhergesagten Indikation Schlaflosigkeit übereinstimmt.
-
-Es ist erwähnenswert, dass diese Vorhersage weitgehend eine bereits bekannte pharmakologische Anwendung von Benzodiazepinen (kurzfristige hypnotische Therapie) bestätigt, anstatt eine echte neue mechanistische Repurposing-Gelegenheit zu erkennen — mehrere der unterstützenden Publikationen stammen aus den 1980er–1990er Jahren und testeten Midazolam direkt als Schlafmittel. Die klinische Bedeutung liegt daher weniger in der wissenschaftlichen Neuheit und mehr in der Frage, ob eine lokale behördliche/Marktrückkehr für diese spezifische Indikation gerechtfertigt ist.
+Dieselbe Wirkung teilen zugelassene Benzodiazepin-Schlafmittel wie Flurazepam oder Triazolam. Eine schlaffördernde Wirkung ist daher biologisch plausibel. Orales Midazolam wurde zudem historisch in einigen Märkten als Hypnotikum untersucht und eingesetzt. Der hohe TxGNN-Wert ist eine rechnerische Vorhersage und kein klinischer Beleg.
 
 ---
 
-## Klinische Studienevidenz
+## Evidenz aus klinischen Studien
 
-Die meisten Studien in der rohen Evidenzbasis verwenden Midazolam nur als Sedations-Vergleich für unabhängige primäre Endpunkte (z. B. Delir-Prävention, Kopfschmerzen, Onkologie). Die folgenden sind die Studien, die am direktesten relevant für Midazolam und schlafbezogene/Schlaflosigkeits-Ergebnisse sind:
-
-| Studiinnummer | Phase | Status | Rekrutierung | Wichtige Ergebnisse |
+| Studiennummer | Phase | Status | Teilnehmerzahl | Zentrale Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT02142595](https://clinicaltrials.gov/study/NCT02142595) | Phase 4 | Abgeschlossen | 111 | Vergleich der postoperativen Schlafqualität von IV Dexmedetomidin vs. Midazolam kombiniert mit Spinalanästhesie bei TURP-Patienten |
-| [NCT06407518](https://clinicaltrials.gov/study/NCT06407518) | NA | Wird durchgeführt | 280 | Wirkung von präoperativem oralem Midazolam auf postoperative Schmerzen bei Patienten mit vorbestehender Schlafstörung/Angst, die sich einer laparoskopischen Kolorektalkrebsresektion unterziehen |
-| [NCT00744380](https://clinicaltrials.gov/study/NCT00744380) | NA | Abgeschlossen | 23 | Randomisierte doppelblinde Studie zum Übergang von Benzodiazepin-(Midazolam-)Sedation zu Dexmedetomidin zur Erleichterung der Entwöhnung von der Beatmung auf der Intensivstation |
-| [NCT01966315](https://clinicaltrials.gov/study/NCT01966315) | N/A | Beendet | 5 | 24-Stunden-Polysomnographie-Vergleich der Schlafqualität/-menge und Delir-Inzidenz: Dexmedetomidin vs. Midazolam bei mechanisch beatmeten Intensivstations-Patienten |
-| [NCT00826553](https://clinicaltrials.gov/study/NCT00826553) | Phase 1 | Beendet | 6 | Polysomnographischer Vergleich von α2-Agonisten vs. GABA-Agonisten (einschließlich Midazolam) auf Schlafstadien und Gesamtschlafzeit |
-| [NCT04082767](https://clinicaltrials.gov/study/NCT04082767) | Phase 3 | Unbekannt | 120 | Sedations-Wirksamkeit von Dexmedetomidin vs. Midazolam bei kritisch kranken beatmeten Kindern |
-| [NCT05606315](https://clinicaltrials.gov/study/NCT05606315) | Phase 4 | Unbekannt | 285 | Remimazolam (Benzodiazepin-Klasse) vs. Standard-Sedation für mechanische Beatmung auf der Intensivstation nach Mund-/Kieferchirurgie |
-| [NCT05466279](https://clinicaltrials.gov/study/NCT05466279) | NA | Abgeschlossen | 131 | RCT zum Vergleich von Remimazolam-Allgemeinnarkose vs. Propofol + Midazolam-Kontrollgruppe |
-| [NCT06480500](https://clinicaltrials.gov/study/NCT06480500) | Phase 2 | Wird durchgeführt | 110 | Midazolam-kontrollierte RCT von internetgestützter KVT + IV Ketamin bei Suizidalität in therapieresistenter Depression |
-| [NCT06498869](https://clinicaltrials.gov/study/NCT06498869) | NA | Abgeschlossen | 178 | Wirkung von Ketamin (zusätzlich zu Midazolam-basierter Sedation) auf Schlafqualität bei Koloskopie-Patienten |
-
-*Hinweis: Diese Studien sind indirekte Evidenz (Midazolam hauptsächlich als aktiver Vergleich/Sedations-Hintergrund verwendet), keine Studien zur Testung von Midazolam als primäre Behandlung für diagnostizierte Schlaflosigkeit.*
+| [NCT02142595](https://clinicaltrials.gov/study/NCT02142595) | Phase 4 | Abgeschlossen | 111 | Vergleich der postoperativen Schlafqualität nach Sedierung mit Dexmedetomidin vs. Midazolam bei transurethraler Prostataresektion; indirekte Evidenz (perioperative Sedierung, keine chronische Insomnie) |
+| [NCT00886314](https://clinicaltrials.gov/study/NCT00886314) | Nicht zutreffend | Unbekannt | 80 | Clown-Doktoren vs. sedierende Prämedikation bei Kindern vor Operationen; betrifft präoperative Angst, kaum Bezug zu Insomnie |
 
 ---
 
-## Literaturevidenz
+## Evidenz aus der Literatur
 
-| PMID | Jahr | Typ | Zeitschrift | Wichtige Ergebnisse |
+| PMID | Jahr | Typ | Journal | Zentrale Ergebnisse |
 |------|-----|------|------|---------|
-| [6138072](https://pubmed.ncbi.nlm.nih.gov/6138072/) | 1983 | RCT | Br J Clin Pharmacol | Doppelblinde Studie: Midazolam 15 mg vs. Vesparax bei sekundärer Schlaflosigkeit bei neuromuskulärer Erkrankung; beide wirksam, Midazolam besser verträglich ohne Hangover-Effekt |
-| [2121802](https://pubmed.ncbi.nlm.nih.gov/2121802/) | 1990 | RCT | J Clin Psychopharmacol | Multizentrische randomisierte doppelblinde Parallelgruppenstudie: 14-Tage-Midazolam vs. Flurazepam bei chronischer Schlaflosigkeit, Bewertung von Schlaf, Leistung und Plasmakonzentrationen |
-| [2229461](https://pubmed.ncbi.nlm.nih.gov/2229461/) | 1990 | RCT | J Clin Psychopharmacol | Zusammenfassung der oben genannten 14-Tage-multizentrischen Midazolam-vs.-Flurazepam-Studie bei chronischer Schlaflosigkeit |
-| [6120704](https://pubmed.ncbi.nlm.nih.gov/6120704/) | 1981 | RCT (Dosisfindung) | Arzneimittelforschung | Multizentrische Pilotstudie mit oralem Midazolam (10–30 mg) bei 75 Patienten mit leichter bis mittelschwerer Schlaflosigkeit, sekundär zu muskuloskelettalen/neurologischen/allergischen Erkrankungen |
-| [2883820](https://pubmed.ncbi.nlm.nih.gov/2883820/) | 1986 | Übersicht | Acta Psychiatr Scand Suppl | Übersicht der klinischen Anwendung von Schlafmitteln (einschließlich Benzodiazepine) bei verschiedenen Schlaflosigkeits-Subtypen |
-| [17988972](https://pubmed.ncbi.nlm.nih.gov/17988972/) | 2007 | Übersicht | Orvosi Hetilap | Übersicht der Pathogenese von Schlaflosigkeit, einschließlich Hyperarousal- und zerebraler Hypoperfusions-Mechanismen |
-| [36615100](https://pubmed.ncbi.nlm.nih.gov/36615100/) | 2022 | Pilotstudie | J Clin Med | Bewertung von Lemborexant bei Schlaflosigkeit zur Verringerung des Delir-Risikos bei Hochrisiko-Endoskopie-Patienten; beachten Sie, dass die traditionelle Benzodiazepin-Anwendung bei Schlaflosigkeit das Delir verschlimmern kann |
+| [2121802](https://pubmed.ncbi.nlm.nih.gov/2121802/) | 1990 | RCT | J Clin Psychopharmacol | Randomisierte Doppelblindstudie zu Schlaf, Leistung und Plasmaspiegeln bei chronischer Insomnie unter 14-tägiger Gabe von Flurazepam und Midazolam |
+| [2229461](https://pubmed.ncbi.nlm.nih.gov/2229461/) | 1990 | Multizentrische Studie | J Clin Psychopharmacol | Zusammenfassung der multizentrischen Studie bei chronischer Insomnie (Flurazepam vs. Midazolam) |
+| [6138072](https://pubmed.ncbi.nlm.nih.gov/6138072/) | 1983 | Klinische Studie (doppelblind) | Br J Clin Pharmacol | Midazolam 15 mg vs. Vesparax bei 30 Patientinnen mit Insomnie infolge neuromuskulärer Erkrankung; beide wirksam, Midazolam besser verträglich und ohne Überhang am Folgetag |
+| [6120704](https://pubmed.ncbi.nlm.nih.gov/6120704/) | 1981 | Dosisfindungsstudie | Arzneimittel-Forschung | Orales Midazolam 10–30 mg bei 75 stationären Patienten mit leichter bis mittelschwerer Insomnie |
+| [2883820](https://pubmed.ncbi.nlm.nih.gov/2883820/) | 1986 | Review | Acta Psychiatr Scand Suppl | Übersicht zum klinischen Einsatz von Hypnotika und zur Notwendigkeit verschiedener Präparate |
+| [17988972](https://pubmed.ncbi.nlm.nih.gov/17988972/) | 2007 | Review | Orv Hetil | Übersicht zu Insomnie und zerebraler Minderperfusion; kein direkter Midazolam-Bezug |
+| [36615100](https://pubmed.ncbi.nlm.nih.gov/36615100/) | 2022 | Klinische Pilotstudie | J Clin Med | Lemborexant bei Insomnie und Delir-Prävention nach Endoskopie unter Sedierung; Midazolam nicht im Fokus |
 
 ---
 
-## Informationen zum deutschen Markt
+## Marktinformationen Deutschland
 
-Midazolam verfügt derzeit über **keine aktive Marktzulassung** im vorliegenden Datensatz (`market_status`: Nicht im Handel / Nicht im Handel; `total_licenses`: 0). Es sind keine Produkt-/Lizenzaufzeichnungen verfügbar.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/002267 | Buccolam | – | Epilepsie |
+
+Die Zulassung ist erloschen; derzeit besteht keine gültige Zulassung.
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+- **Kontraindikationen aus dem Wissensgraphen (nicht aus dem Beipackzettel):** chronisch obstruktive Lungenerkrankung (COPD), Leberzirrhose, Engwinkelglaukom, chronische Nierenerkrankung bzw. Nierenversagen im Endstadium.
+- **Arzneimittelwechselwirkungen:** 100 Wechselwirkungen wurden erfasst; die ersten 20 liegen vor.
+  - Mäßig: u. a. Ranitidin, Bupropion, Aprepitant, Morphin, Omeprazol, Cimetidin, Clarithromycin, Dronabinol, Eluxadolin, Teduglutid, Nabilon, Metoclopramid, Miconazol, Clotrimazol, Glycerolphenylbutyrat
+  - Gering: Dexamethason, Betamethason, Magnesiumoxid, Aluminiumhydroxid, Calciumcarbonat
 
-*(Alle Felder in `safety.key_warnings`, `safety.contraindications` und `safety.ddi` sind als Datenlücken im Evidenzpaket gekennzeichnet. Beachten Sie auch, dass die Datenlücke DG001 — TFDA-Etikett-Warnhinweise/Kontraindikationen — als **Blockierender Schweregrad** klassifiziert ist, was bedeutet, dass die Sicherheitsbewertung (S1) derzeit nicht fortfahren kann.)*
+Für Warnhinweise und Gegenanzeigen laut Fachinformation siehe bitte den Beipackzettel.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Zurückhalten**
+**Entscheidung: Hold**
 
 **Begründung:**
-- Die vorhergesagte Indikation (Schlaflosigkeit) ist pharmakologisch plausibel und wird durch mehrere historische RCTs unterstützt, aber dieses Evidenzpaket weist eine **Blockierende**-Schweregrad-Datenlücke auf (fehlende TFDA-Etikett-/Sicherheitsdaten), die per Definition den Eintritt in die S1-Sicherheitsanfangsbewertung verhindert.
-- Das Arzneimittel verfügt über keine aktive Marktzulassung in dieser Rechtsordnung (0 Zulassungen), und es ist kein Text zur ursprünglichen Indikation verfügbar.
-- Die vorhergesagte „neue" Indikation überlappt sich erheblich mit der bereits bekannten hypnotischen Pharmakologie von Midazolam, anstatt einen neuartigen mechanistischen Fund darzustellen, was die Dringlichkeit/den Wert einer weiteren Repurposing-Investition im Vergleich zu den fehlenden Sicherheitsdaten verringert.
+Die Vorhersage ist biologisch plausibel, und ältere Studien (1980er–1990 Jahre) zeigen Wirksamkeit von Midazolam bei Schlafstörungen. Es fehlen jedoch aktuelle Phase-3-Studien, die klinischen Studien sind nur indirekt relevant, und es besteht in Deutschland keine gültige Zulassung. Zudem sind die Sicherheitsdaten aus der Fachinformation unvollständig.
 
-**Um fortzufahren, wird folgende Information benötigt:**
-- Beschaffung von TFDA-(oder relevanter behördlicher) Packungsbeilage-Daten — Warnhinweise, Kontraindikationen, Arzneimittelwechselwirkungen (DG001, Blockierend)
-- Bestätigung der aus DrugBank stammenden MOA und Arzneimittelkategorien direkt (DG002, Hoch)
-- Klärung der ursprünglichen/derzeit genehmigten Indikation(en) des Arzneistoffs, falls vorhanden, auf dem Zielmarkt
-- Falls weitere Verfolgung angestrebt wird, Ermittlung oder Beauftragung von klinischen Studien, die Midazolam als primäre Intervention bei diagnostizierter Schlaflosigkeit testen (aktuelle Studienevidenz ist indirekt/vergleichsbasiert)
-
+**Für ein Weiterkommen ist Folgendes erforderlich:**
+- Beschaffung und Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) von der BfArM-Website, da dies die Sicherheitsprüfung derzeit blockiert
+- Ergänzung der Mechanismusdaten (MOA) aus DrugBank
+- Prüfung, ob angesichts bereits zugelassener Alternativen (z. B. andere Benzodiazepine oder Z-Substanzen) ein Bedarf und eine regulatorische Perspektive bestehen
+- Bewertung der Kontraindikationen (COPD, Leberzirrhose, Glaukom, Niereninsuffizienz) und des Abhängigkeitsrisikos für eine Dauerbehandlung der Insomnie
+- Klärung der Darreichungsform und des Anwendungswegs (Datenlage zur Route-Kompatibilität steht aus)
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

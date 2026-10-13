@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Interferon Beta-1B
-parent: Mittlere Evidenz (L3-L4)
-nav_order: 210
-evidence_level: L3
+parent: Nur Modellvorhersage (L5)
+nav_order: 246
+evidence_level: L5
 indication_count: 2
 ---
 
 # Interferon Beta-1B
 {: .fs-9 }
 
-Evidenzniveau: **L3** | Vorhergesagte Indikationen: **2** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,82 +29,106 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Interferon Beta-1b: Von Multipler Sklerose zu Haarzellenleukämie
+# Interferon beta-1b: Von Multipler Sklerose zu Haarzellleukämie
 
 ## Zusammenfassung in einem Satz
 
-> Interferon beta-1b (in anderen Ländern unter den Namen Betaferon®/Betaseron® vermarktet) ist ein rekombinantes Interferon Typ I, das zur Behandlung von Formen der Multiplen Sklerose mit Schüben zugelassen ist.
-> Das TxGNN-Modell sagt voraus, dass es auch wirksam gegen **Haarzellenleukämie** sein könnte,
-> mit **0 registrierten klinischen Studien**, aber **4 historischen Publikationen** (1987–1990), die frühe explorative Aktivität in dieser Erkrankung unterstützen.
+Interferon beta-1b ist ein Immunmodulator, der ursprünglich zur Behandlung der **Multiplen Sklerose** zugelassen wurde.
+Das TxGNN-Modell sagt voraus, dass er bei **Haarzellleukämie** wirksam sein könnte (Score 99,2 %), doch dafür liegen **keine klinischen Studien und keine Publikationen** vor. Für die zweitplatzierte Vorhersage (autoimmune Erkrankung des zentralen Nervensystems) gibt es zwar **6 klinische Studien** und **18 Publikationen**, diese betreffen aber fast ausschließlich die bereits zugelassene Multiple Sklerose.
 
 ---
 
 ## Schnellübersicht
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Multiple Sklerose (aus Literatur/bekannte Anwendung abgeleitet; nicht bestätigt durch deutsche Zulassungsdaten — Datenlücke) |
-| Vorhergesagte neue Indikation | Haarzellenleukämie |
-| TxGNN-Vorhersagepunktzahl | 99.16% |
-| Evidenzgrad | L3 |
-| Marktstatus Deutschland | Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Aussetzen |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Multiple Sklerose |
+| Vorhergesagte neue Indikation | Haarzellleukämie |
+| TxGNN-Vorhersagewert | 99,16 % |
+| Evidenzlevel | L5 |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
+| Anzahl der Zulassungen | 1 (davon 0 gültig) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage sinnvoll?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Daten zum Wirkmechanismus von Interferon beta-1b in diesem Evidenzpaket nicht verfügbar. Basierend auf der bekannten Pharmakologie ist Interferon beta-1b ein rekombinantes, Cystein-zu-Serin-substituiertes Interferon Typ I mit starker antiproliferativer und immunmodulierender Aktivität, zugelassen für Formen der Multiplen Sklerose mit Schüben (eine Autoimmun-Demyelinisierungserkrankung des ZNS — siehe die zweite vorhergesagte Indikation in diesem Datensatz, die das Modell selbst als ursprüngliche zugelassene Verwendung des Arzneimittels kennzeichnet, anstatt eine neue Indikation zu sein).
+Für diesen Wirkstoff liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben zum Wirkmechanismus vor. Bekannt ist, dass Interferone eine antiproliferative und immunmodulatorische Klassenwirkung haben. Interferon beta-1b wird bei Multipler Sklerose eingesetzt, wo es die T-Zell-Aktivierung und proinflammatorische Zytokine reduziert.
 
-Interferon Typ I als Substanzklasse (einschließlich Interferon alfa) dient seit langem als wirksame, leitliniengestützte Therapie für Haarzellenleukämie, eine seltene lymphoproliferative B-Zell-Erkrankung, die auf Interferon-vermittelte antiproliferative und differenzierungsinduzierende Signalisierung sehr empfindlich reagiert. Da Interferon beta-1b an denselben Interferon-Typ-I-Rezeptor bindet und überlappende nachgelagerte Signalisierungswege wie Interferon alfa aktiviert, ist es mechanistisch plausibel, dass es eine ähnliche antileukämische Aktivität ausüben könnte — eine Hypothese, die tatsächlich Ende der 1980er Jahre prospektiv getestet wurde.
-
-Die Entwicklung von Interferon beta-1b bei Haarzellenleukämie wurde jedoch nicht weiter verfolgt: Interferon alfa wurde zum bevorzugten Interferon, und Purinanaloga (Cladribin, Pentostatin) verdängten Interferone später als Therapie der ersten Linie vollständig. Seit etwa 1990 wurden keine modernen klinischen Studien zu Interferon beta-1b in dieser Indikation durchgeführt, daher beruht die mechanistische Begründung, obwohl sie stichhaltig ist, auf veralteter und kleinflächiger klinischer Erfahrung statt auf zeitgenössischer Validierung.
+Interferon alfa wurde historisch bei Haarzellleukämie eingesetzt. Die hohe Vorhersage dürfte vor allem die Nähe zu Interferon-Wirkstoffen im Wissensnetzwerk widerspiegeln. Sie belegt nicht, dass Interferon beta-1b selbst wirksam ist. Zudem sind Purinanaloga (Cladribin, Pentostatin) und BRAF-Inhibitoren inzwischen der Therapiestandard, sodass der klinische Bedarf für eine Interferon-Option gering ist.
 
 ---
 
 ## Evidenz aus klinischen Studien
 
-Derzeit keine relevanten klinischen Studien registriert
+Für Haarzellleukämie sind derzeit keine relevanten klinischen Studien registriert.
+
+Zur Einordnung: Für die zweitplatzierte Vorhersage „autoimmune Erkrankung des zentralen Nervensystems“ liegen folgende Studien vor. Sie betreffen sämtlich Multiple Sklerose, also die bestehende Indikation:
+
+| Studiennummer | Phase | Status | Teilnehmerzahl | Kernaussagen |
+|---------|------|------|------|---------|
+| [NCT00185211](https://clinicaltrials.gov/study/NCT00185211) | Phase 3 | Abgeschlossen | 468 | Offene Verlängerung der BENEFIT-Studie: Langzeitwirksamkeit und -sicherheit bei früher MS |
+| [NCT01333501](https://clinicaltrials.gov/study/NCT01333501) | Phase 4 | Abgeschlossen | 151 | Fingolimod vs. Interferon beta-1b bei kognitiven Symptomen der schubförmigen MS |
+| [NCT00893217](https://clinicaltrials.gov/study/NCT00893217) | Phase 2 | Abgeschlossen | 71 | Sicherheit und Verträglichkeit von Betaseron 500 µg vs. 250 µg |
+| [NCT01111656](https://clinicaltrials.gov/study/NCT01111656) | Phase 2 | Abgeschlossen | 28 | Nachfolgestudie: Atorvastatin plus Interferon beta-1b bei schubförmiger MS |
+| [NCT01158183](https://clinicaltrials.gov/study/NCT01158183) | N/A | Abgeschlossen | 226 | Beobachtungsstudie unter Alltagsbedingungen (ROBUST) zu Betaseron bei schubförmiger MS |
+| [NCT01701856](https://clinicaltrials.gov/study/NCT01701856) | Phase 4 | Abgebrochen | 5 | Deeskalation von Natalizumab auf Interferon beta-1b; wegen sehr geringer Rekrutierung nicht aussagekräftig |
 
 ---
 
 ## Literaturevidenz
 
-| PMID | Jahr | Typ | Zeitschrift | Wichtigste Erkenntnisse |
-|------|------|-----|-----------|------------------------|
-| [3312839](https://pubmed.ncbi.nlm.nih.gov/3312839/) | 1987 | Kohorte | Leukemia | UCLA-Erfahrung: 51 Patienten über Interferon Typ I; ~71% hämatologisches Ansprechen in der initialen Beta-Serin-Interferon-Kohorte |
-| [2736487](https://pubmed.ncbi.nlm.nih.gov/2736487/) | 1989 | Kohorte | Cancer | 10 Patienten behandelt mit rIFN-beta ser (90×10⁶ U SC TIW); 63% normalisierte periphere Zellzahlen, 25% partielles hämatologisches Ansprechen |
-| [2082943](https://pubmed.ncbi.nlm.nih.gov/2082943/) | 1990 | Kohorte | American Journal of Hematology | 12 Patienten (10 zuvor behandelt) erhielten IV Beta-Ser-Interferon 90×10⁶ U TIW; Knochenmarkbeteiligung 90–100% Haarzellen zu Studienbeginn |
-| [2198792](https://pubmed.ncbi.nlm.nih.gov/2198792/) | 1990 | Fallbericht | American Journal of Clinical Oncology | Patient mit Versagen unter Beta-Ser-Interferon erreichte anschließend komplettes Ansprechen mit 2'-Desoxycoformycin (Pentostatin) |
+Für Haarzellleukämie liegen derzeit keine relevanten Publikationen vor.
+
+Die folgende Auswahl betrifft die zweitplatzierte Vorhersage (wiederum Multiple Sklerose):
+
+| PMID | Jahr | Typ | Journal | Kernaussagen |
+|------|-----|------|------|---------|
+| [38032059](https://pubmed.ncbi.nlm.nih.gov/38032059/) | 2023 | Netzwerk-Metaanalyse | Cochrane Database Syst Rev | Unerwünschte Wirkungen von Immuntherapien bei MS |
+| [8808634](https://pubmed.ncbi.nlm.nih.gov/8808634/) | 1996 | Review | Clin Immunol Immunopathol | Interferon beta-1b senkt Schubrate und MRT-Krankheitslast; immunmodulatorische Wirkung |
+| [9266420](https://pubmed.ncbi.nlm.nih.gov/9266420/) | 1997 | Review | J Neural Transm Suppl | Rolle der Interferone bei demyelinisierenden Erkrankungen; Zulassung von Betaseron 1993 |
+| [8069001](https://pubmed.ncbi.nlm.nih.gov/8069001/) | 1994 | Review | Ann Pharmacother | Pharmakologie, Wirksamkeit und Nebenwirkungen von Interferon beta-1b bei schubförmiger MS |
+| [25482255](https://pubmed.ncbi.nlm.nih.gov/25482255/) | 2014 | Review | Neurol Neurochir Pol | Einfluss der Interferon-beta-Therapie auf das Überleben bei MS (Langzeit-Nachbeobachtung) |
+| [27640189](https://pubmed.ncbi.nlm.nih.gov/27640189/) | 2016 | Review | Neurol Ther | Multiple Sklerose bei Kindern: Konzepte und Therapieoptionen |
+| [19794123](https://pubmed.ncbi.nlm.nih.gov/19794123/) | 2009 | Kohortenstudie | Neurology | Zusammenhang zwischen T2-Läsionslast und Behinderung bei MS |
+| [17439988](https://pubmed.ncbi.nlm.nih.gov/17439988/) | 2007 | Kohortenstudie | Brain | Heterogenität der Aquaporin-4-Autoimmunität bei japanischen MS-Patienten |
 
 ---
 
-## Informationen zum Marktstatus Deutschland
+## Marktinformationen Deutschland
 
-Für Interferon beta-1b sind in diesem Datensatz keine deutschen Zulassungsinformationen verfügbar — der Marktstatus des Arzneimittels ist als **Nicht vermarktet** mit **0 Lizenzen** dokumentiert.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000081 | Betaferon (Bayer AG) | – | Multiple Sklerose (Status: erloschen/aufgehoben) |
 
 ---
 
-## Sicherheitsüberlegungen
+## Sicherheitshinweise
 
-Bitte beachten Sie die Fachinformation für Sicherheitsinformationen.
+**Arzneimittelwechselwirkungen:** Die Abfrage ergab insgesamt 100 Wechselwirkungen. Davon ist eine als **schwerwiegend** eingestuft:
+- **Bupropion** (schwerwiegend)
+
+Weitere Beispiele mit **mittlerem** Schweregrad: Acarbose, Pioglitazon, Rosiglitazon, Clarithromycin, Levofloxacin, Minocyclin, Naltrexon, Simvastatin, Rosuvastatin, Orlistat sowie die anabolen Steroide Oxandrolon, Oxymetholon und Stanozolol.
+
+Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Aussetzen**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die Evidenz für Haarzellenleukämie beschränkt sich auf vier kleine, ältere (1987–1990) Kohorten-/Fallbericht-Studien (Evidenzgrad L3) ohne registrierte moderne klinische Studien, und das Arzneimittel hat derzeit keine Marktzulassung in Deutschland. Die mechanistische Begründung (gemeinsamer Interferon-Typ-I-Rezeptor-Signalweg mit Interferon alfa, eine historisch wirksame HCL-Therapie) ist plausibel, wurde aber nicht gegen aktuelle Standard-Therapien (Cladribin, Pentostatin) neu getestet.
+- Die Vorhersage zur Haarzellleukämie beruht allein auf dem Modell (L5) ohne Studien oder Publikationen; zudem existieren etablierte, wirksame Standardtherapien.
+- Die umfangreichere Evidenz zur zweiten Vorhersage betrifft die bereits zugelassene Multiple Sklerose und stellt kein echtes Repurposing dar. Interferon beta gilt bei AQP4-IgG-positiver NMOSD als unwirksam oder möglicherweise schädlich. Die Zulassung in Deutschland ist zudem erloschen.
 
-**Um fortzufahren, wird Folgendes benötigt:**
-- TFDA/BfArM-Fachinformationsdaten — Warnhinweise und Kontraindikationen (derzeit blockierend, DG001)
-- Bestätigte Wirkmechanismus-Dokumentation von DrugBank (DG002)
-- Eine moderne vergleichende oder translationsbezogene Studie von Interferon beta-1b gegen aktuelle HCL-Standard-Therapie (Purinanaloga), um erneutes klinisches Interesse zu rechtfertigen
-- Klarstellung der ursprünglichen Indikation/des Zulassungsstatus, da `original_indications` und deutsche Zulassungsunterlagen in diesem Datensatz beide leer sind
-
+**Für ein Weiterverfolgen sind erforderlich:**
+- Präklinische oder mechanistische Daten zu Interferon beta-1b bei Haarzellleukämie
+- Systematische Literaturrecherche zu Interferon beta (nicht nur Interferon alfa) bei Haarzellleukämie
+- Daten zum Wirkmechanismus (MOA)
+- Fachinformation mit Warnhinweisen und Gegenanzeigen für die Sicherheitsbewertung
+- Klärung des Zulassungsstatus und der Verfügbarkeit in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

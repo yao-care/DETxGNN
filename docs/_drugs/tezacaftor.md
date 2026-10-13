@@ -2,7 +2,7 @@
 layout: default
 title: Tezacaftor
 parent: Nur Modellvorhersage (L5)
-nav_order: 393
+nav_order: 459
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,79 +29,71 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Tezacaftor: Von Zystischer Fibrose zu HIV-Infektionskrankheit
+# Tezacaftor: Von Cystischer Fibrose zu HIV-Infektionskrankheit
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Tezacaftor ist ein CFTR-Korrektor, der ursprünglich für die Zystische Fibrose entwickelt wurde und zur Korrektur einer defekten CFTR-Proteinstrukturierung verwendet wird.
-> Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam bei **HIV-Infektionskrankheit** ist,
-> aber derzeit **gibt es keine klinischen Studien** und **keine Publikationen**, die diese Richtung unterstützen — dies ist ein Modellvorhersage-Signal ohne identifizierte mechanistische Begründung.
+Tezacaftor ist ein CFTR-Korrektor, der ursprünglich zur Behandlung der Cystischen Fibrose eingesetzt wird.
+Das TxGNN-Modell sagt voraus, dass der Wirkstoff bei **HIV-Infektionskrankheit** wirksam sein könnte.
+Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage beruht ausschließlich auf dem Modell.
 
----
+## Kurzübersicht
 
-## Schnellübersicht
-
-| Artikel | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Nicht verfügbar (keine Daten zu genehmigter Indikation in den Unterlagen) |
+| Ursprüngliche Indikation | Cystische Fibrose |
 | Vorhergesagte neue Indikation | HIV-Infektionskrankheit |
-| TxGNN-Vorhersage-Score | 99.24% |
+| TxGNN-Vorhersagewert | 99,24 % |
 | Evidenzlevel | L5 |
-| Status am deutschen Markt | Nicht in Verkehr gebracht (Nicht in Verkehr gebracht) |
-| Anzahl der Zulassungen | 0 |
-| Empfehlung für die Entscheidung | Halten |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen |
+| Anzahl der Zulassungen | 3 (alle aufgehoben) |
+| Empfohlene Entscheidung | Hold |
 
----
+## Warum ist diese Vorhersage plausibel?
 
-## Warum ist diese Vorhersage angemessen?
+Die für diesen Bericht zusammengestellten Daten enthalten keine detaillierte Beschreibung des Wirkmechanismus. Bekannt ist, dass Tezacaftor an CFTR (Cystic Fibrosis Transmembrane Conductance Regulator) bindet und als Korrektor die Faltung und den Transport des Proteins verbessert. Es ist Bestandteil von Kombinationstherapien (Symdeko, Trikafta/Kaftrio, Alyftrek), deren Wirksamkeit bei Cystischer Fibrose belegt ist.
 
-Derzeit sind keine detaillierten Daten zum Wirkmechanismus verfügbar. Basierend auf bekannten Informationen ist Tezacaftor ein CFTR-Korrektor-Wirkstoff, der verwendet wird, um fehlgefaltetes CFTR (Cystic Fibrosis Transmembrane Conductance Regulator) Protein zu korrigieren und die Chloridkanalfunktion an der Zelloberfläche wiederherzustellen — seine etablierte Rolle liegt in der Behandlung der Zystischen Fibrose.
+Ein mechanistischer Zusammenhang zwischen CFTR-Korrektur und HIV-Infektion ist durch die vorliegenden Daten **nicht belegt**. Denkbar wäre allenfalls ein Einfluss auf den Proteintransport in Wirtszellen, doch das ist rein spekulativ und nicht überprüft. Der hohe Modellwert (0,992) ist eine rechnerische Vorhersage ohne Bestätigung durch Studien oder Literatur.
 
-Es gibt keine bekannte mechanistische Verbindung zwischen CFTR-Kanalkorrektur und HIV-Virusreplikation oder Wirtsimmunantworten. Die Repurposing-Rationale, die zusammen mit dieser Vorhersage bereitgestellt wird, besagt explizit, dass keine plausible mechanistische Hypothese etabliert werden kann, und dies wird durch die vollständige Abwesenheit unterstützender klinischer Studien oder Literatur unterstrichen.
-
-Diese Vorhersage sollte als reines rechnerisches Signal aus dem TxGNN-Modell behandelt werden, nicht als biologisch fundierte Hypothese.
-
----
+Zwei weitere Vorhersagen des Modells liegen auf ähnlichem Niveau, ebenfalls ohne Evidenz: **Lepra** (99,14 %) und **multiple endokrine Neoplasie** (99,06 %). Auch hier ist kein mechanistischer Bezug zur CFTR-Korrektur belegt.
 
 ## Evidenz aus klinischen Studien
 
-Derzeit sind keine verwandten klinischen Studien registriert
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
----
+## Evidenz aus der Literatur
 
-## Literaturbeweise
+Derzeit ist keine zugehörige Literatur verfügbar.
 
-Derzeit ist keine verwandte Literatur verfügbar
+## Marktinformationen Deutschland
 
----
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/004682 | Symkevi | – | Cystische Fibrose |
+| EMEA/H/C/005269 | Kaftrio | – | Cystische Fibrose |
+| EMEA/H/C/006382 | Alyftrek | – | Cystische Fibrose |
 
-## Marktinformationen für Deutschland
+Alle drei Zulassungen (Inhaber: Vertex Pharmaceuticals (Ireland) Limited) haben laut den Daten den Status „aufgehoben".
 
-Dieses Arzneimittel ist derzeit nicht in Deutschland in den Verkehr gebracht und keine Zulassungsunterlagen sind verfügbar.
+## Sicherheitsaspekte
 
----
+**Arzneimittelwechselwirkungen:** Es wurde eine pharmakologische Beziehung erfasst: Zielstruktur CFTR (Mensch). Dabei handelt es sich um die Zielbindung, nicht um eine klinische Wechselwirkung mit einem anderen Arzneimittel. Ein Schweregrad ist nicht angegeben.
 
-## Sicherheitsüberlegungen
-
-Bitte beachten Sie die Fachinformation für Sicherheitsinformationen.
-
-*(Anmerkung: TFDA-Fachinformations-Warnhinweise und Gegenanzeigen sowie DDI-Daten sind derzeit nicht verfügbar — gekennzeichnet als eine blockierende Datenlücke, die eine S1-Sicherheitsvorbewertung verhindert.)*
-
----
+Weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) sind in den Daten nicht enthalten. Bitte die Fachinformation heranziehen.
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Halten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage wird nur durch einen TxGNN-Modell-Score gestützt (L5, keine klinischen Studien, keine Literatur, keine etablierte mechanistische Verbindung), und eine blockierende Datenlücke besteht für TFDA-Fachinformations-Sicherheitsdaten — diese Kombination erfüllt nicht den Schwellenwert zum Fortfahren.
+Die Vorhersage für HIV beruht allein auf einem Modellwert (L5), ohne Studien, Literatur oder belegten Wirkmechanismus. Zudem sind in Deutschland derzeit keine gültigen Zulassungen vorhanden.
 
-**Um fortfahren zu können, sind folgende Punkte erforderlich:**
-- TFDA-Fachinformations-Warnhinweise und Gegenanzeigen (blockierende Lücke — erforderlich vor jeder S1-Sicherheitsbewertung)
-- Bestätigte Wirkmechanismus (MOA) Daten von DrugBank oder Primärliteratur
-- Mindestens präklinische/mechanistische Evidenz, die CFTR-Korrektur mit HIV-Pathophysiologie verknüpft, bevor weitere Evidenzsammlung verfolgt wird
-- Ursprüngliche Zulassungsindikationsdaten, um das Basisprofil des Arzneimittels festzustellen
-
+**Um fortzufahren, wird Folgendes benötigt:**
+- Plausible mechanistische Hypothese für CFTR-Korrektur bei HIV, gestützt durch präklinische Daten (In-vitro-Studien)
+- Literaturrecherche und Prüfung registrierter Studien zu Tezacaftor bei HIV
+- Vollständige Daten zum Wirkmechanismus
+- Sicherheitsdaten aus der Fachinformation (BfArM), insbesondere Warnhinweise und Gegenanzeigen
+- Klärung des aktuellen Zulassungs- und Vermarktungsstatus in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

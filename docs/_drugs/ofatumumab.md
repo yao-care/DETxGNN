@@ -2,15 +2,15 @@
 layout: default
 title: Ofatumumab
 parent: Hohe Evidenz (L1-L2)
-nav_order: 277
-evidence_level: L2
+nav_order: 324
+evidence_level: L1
 indication_count: 8
 ---
 
 # Ofatumumab
 {: .fs-9 }
 
-Evidenzniveau: **L2** | Vorhergesagte Indikationen: **8** 
+Evidenzniveau: **L1** | Vorhergesagte Indikationen: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,113 +29,140 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **8**
 
 </div>
 
-# Ofatumumab: Von chronischer lymphatischer Leukämie zum follikulären Lymphom
+# Ofatumumab: Von Multipler Sklerose zu chronischer lymphatischer Leukämie/kleinzelligem lymphozytischem Lymphom
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Ofatumumab ist ein vollständig humanisierter anti-CD20-Antikörper, dessen etablierte Anwendung – gemäß der in diesem Evidenzpaket erfassten Literatur – die chronische lymphatische Leukämie/kleinzelliges lymphatisches Lymphom (CLL/SLL) ist. Die klinisch umsetzbarste neue Indikationsvorhersage des TxGNN-Modells ist **Follikuläres Lymphom (FL)**, ein verwandtes CD20-positives B-Zell-Lymphom, gestützt durch **15 klinische Studien** und **20 Publikationen**, einschließlich mindestens einer abgeschlossenen randomisierten Phase-2-Studie. Mehrere andere TxGNN-bewertete Vorhersagen (molekulare CLL/SLL-Subtypen, „metastatisches Neoplasma", malignes Spiradenom, Langerhans-Zell-Histiozytose) haben wenig bis keine unterstützenden Belege und werden derzeit nicht als tragfähige Kandidaten angesehen.
-
----
-
-## Schnellebersicht
-
-| Artikel | Inhalt |
-|--------|--------|
-| Ursprüngliche Indikation | Chronische lymphatische Leukämie/Kleinzelliges lymphatisches Lymphom (CLL/SLL) – aus der Literatur in diesem Evidenzpaket rekonstruiert (z. B. PMID 22830942, PMID 20068404); nicht separat im strukturierten Feld `drug.original_indications` bestätigt, das leer ist |
-| Vorhergesagte neue Indikation | Follikuläres Lymphom |
-| TxGNN-Vorhersage-Punktzahl | 99.70% (Rang #4073) |
-| Evidenzstufe | L2 |
-| Marktstatus Deutschland | ✗ Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Pausierung |
+Ofatumumab ist ein gegen CD20 gerichteter monoklonaler Antikörper, der ursprünglich zur Behandlung der schubförmig remittierenden Multiplen Sklerose zugelassen wurde.
+Das TxGNN-Modell sagt voraus, dass er bei **chronischer lymphatischer Leukämie/kleinzelligem lymphozytischem Lymphom (CLL/SLL)** wirksam sein könnte.
+Die Evidenz umfasst **20 klinische Studien** und **22 Publikationen**, darunter mehrere Phase-3-Studien, in denen Ofatumumab überwiegend als Vergleichssubstanz diente.
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Schnellübersicht
 
-Derzeit sind detaillierte Wirkmechanismus-Daten nicht im strukturierten Datensatz verfügbar (`original_moa`: Datenlücke). Auf Grundlage der in diesem Evidenzpaket ermittelten Literatur ist Ofatumumab ein Antikörper der zweiten Generation, vollständig humanisierter IgG1κ **anti-CD20-Monoklonaler Antikörper**. Er bindet ein charakteristisches, membrannahes Epitop einer Schleife auf dem CD20-Antigen (wodurch er sich von Rituximab unterscheidet) und eliminiert CD20-positive B-Zellen primär durch komplementabhängige Zytotoxizität (CDC) mit zusätzlicher antikörperabhängiger zellulärer Zytotoxizität (ADCC) und Induktion von Apoptose (PMID 20068404, PMID 23850806, PMID 32482755).
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Multiple Sklerose, schubförmig remittierend |
+| Vorhergesagte neue Indikation | CLL/SLL (Rang 5 der Vorhersagen; höher platzierte Einträge sind Molekularsubtypen ohne eigene Evidenz bzw. Evidenz in einer anderen Indikation, siehe unten) |
+| TxGNN-Vorhersagewert | 99,55 % |
+| Evidenzlevel | L1 |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
+| Anzahl der Zulassungen | 1 (0 gültig, 1 erloschen) |
+| Empfohlene Entscheidung | Proceed with Guardrails (Weiterverfolgen mit Auflagen) |
 
-CLL/SLL und follikuläres Lymphom sind beide reife B-Zell-Neoplasien, die das CD20-Antigen auf dem malignen Klon nahezu universell exprimieren. Anti-CD20-Antikörper (Rituximab, Ofatumumab, Obinutuzumab) sind bereits Standard-Therapie-Bausteine in dieser gesamten Krankheitsfamilie – CLL/SLL, FL, diffuses großzelliges B-Zell-Lymphom und andere indolente B-NHL-Subtypen werden häufig in denselben Studien und Übersichtsarbeiten gemeinsam untersucht (PMID 28983798, PMID 29934061, PMID 25736010). Mehrere Studien in diesem Evidenzpaket schlossen direkt kombinierte Populationen mit „indolentem B-Zell-Lymphom" ein, die sowohl CLL/SLL als auch FL umfassen (z. B. NCT01239394, NCT01294579), was unterstreicht, dass die mechanistische Rationale für die Ausweitung von Ofatumumab auf FL nicht spekulativ ist – sie entspricht der Art und Weise, wie die Arzneimittelklasse bereits klinisch angewendet wird.
+**Hinweis zur Auswahl:** Die Vorhersagen mit den Rängen 1 und 2 sind Molekularsubtypen der CLL/SLL ohne eigene Studien oder Literatur (Evidenzlevel L5). Rang 3, das follikuläre Lymphom, hat Evidenzlevel L2. Für diesen Bericht wurde die CLL/SLL gewählt, weil hier die stärkste Evidenz vorliegt (L1).
 
-Es ist erwähnenswert, dass die Vorhersage von TxGNN mit Rang #5453 („chronische lymphatische Leukämie/kleinzelliges lymphatisches Lymphom", L1, 34 Studien, einschließlich zweier abgeschlossener Phase-3-RCTs — RESONATE/NCT01578707 und DUO/NCT02004522) effektiv **die eigene etablierte Indikation des Arzneimittels erneut vorhersagt**, anstatt eine wirklich neue zu sein. Wir betrachten dies als positiven Plausibilitätscheck des Modells und nicht als einen Kandidaten für die Arzneimittelumwidmung. Ähnlich verhalten sich die zwei am höchsten bewerteten Vorhersagen (prä-Keimzentrum- und IGHV-mutierte CLL/SLL-Molekularsubtypen), die enge, durch Biomarker definierte Unterpopulationen der *gleichen* Krankheit mit null Studien- oder Literaturbefunden (L5) darstellen und nicht umsetzbar sind. Follikuläres Lymphom ist daher das stärkste echte Umwidmungssignal in diesem Paket: mechanistisch schlüssig, biologisch verwandt mit der ursprünglichen Indikation und – anders als der CLL/SLL-Eintrag – stellt tatsächlich eine unterschiedliche Krankheit dar.
+---
+
+## Warum ist diese Vorhersage plausibel?
+
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Ofatumumab ist ein vollständig humaner Anti-CD20-Antikörper. Er bindet an ein besonderes, membrannahes Epitop von CD20 und löst komplementabhängige Zytotoxizität (CDC) sowie antikörperabhängige zelluläre Zytotoxizität (ADCC) aus.
+
+Bei der Multiplen Sklerose wird die B-Zell-Depletion über CD20 genutzt. CLL/SLL-Zellen exprimieren ebenfalls CD20. Derselbe Angriffspunkt ist daher auch bei dieser B-Zell-Neoplasie plausibel. Ofatumumab war zudem zuvor (intravenös) bei CLL zugelassen, und die Literatur beschreibt ihn als etablierten Bestandteil von Chemoimmuntherapien.
+
+Hier handelt es sich also weniger um eine völlig neue Hypothese als um eine Indikation mit bereits vorhandener klinischer Erfahrung. Die Zulassungssituation in Deutschland ist jedoch zu prüfen (siehe unten).
 
 ---
 
 ## Evidenz aus klinischen Studien
 
-| Studiennummer | Phase | Status | Einschluss | Wichtigste Ergebnisse |
-|---------|------|------|------|---------|
-| [NCT01077518](https://clinicaltrials.gov/study/NCT01077518) | Phase 3 | Beendet | 346 | Randomisierte Ofatumumab + Bendamustin vs. Bendamustin allein bei indolentem B-Zell-NHL (einschließlich FL) refraktär gegen Rituximab; größte FL-relevante RCT im Paket, aber vor Abschluss gestoppt |
-| [NCT01286272](https://clinicaltrials.gov/study/NCT01286272) | Phase 2 | Abgeschlossen | 135 | Randomisierte Ofatumumab + Bendamustin ± Bortezomib bei unbehandeltem follikulärem Lymphom |
-| [NCT00394836](https://clinicaltrials.gov/study/NCT00394836) | Phase 2 | Abgeschlossen | 116 | Einarmige, internationale Studie mit Ofatumumab bei rituximab-refraktärem FL |
-| [NCT02710643](https://clinicaltrials.gov/study/NCT02710643) | Phase 2 | Abgeschlossen | 110 | Stadium-I/II-FL behandelt mit Strahlentherapie mit/ohne Ofatumumab, stratifiziert nach molekularem (Bcl-2)-Status |
-| [NCT00494780](https://clinicaltrials.gov/study/NCT00494780) | Phase 2 | Abgeschlossen | 59 | Randomisierte zwei-Dosis-Ofatumumab + CHOP bei zuvor unbehandeltem FL |
-| [NCT01190449](https://clinicaltrials.gov/study/NCT01190449) | Phase 2 | Abgeschlossen | 51 | CALGB-Studie mit Ofatumumab bei zuvor unbehandeltem Stadium-II–IV follikulärem NHL |
-| [NCT01294579](https://clinicaltrials.gov/study/NCT01294579) | Phase 2 | Abgeschlossen | 49 | Ofatumumab + Bendamustin, dann Ofatumumab-Erhaltung, bei indolentem B-NHL (einschließlich FL) rezidivierend nach Rituximab |
-| [NCT01239394](https://clinicaltrials.gov/study/NCT01239394) | Phase 2 | Abgeschlossen | 43 | Ofatumumab als initiale Systemtherapie für indolentes B-Zell-Lymphom (umfasst FL) |
-| [NCT00742144](https://clinicaltrials.gov/study/NCT00742144) | Phase 1 | Abgeschlossen | 6 | Japanische Sicherheits-/PK-Studie mit Ofatumumab-Monotherapie bei FL- und CLL-Patienten |
+Es sind bis zu 10 der relevantesten Studien aufgeführt (Studien mit Relevanzgrad A/B und Phase 3 bevorzugt).
 
-*Zusätzliche Phase-2-Studien (z. B. NCT01263418, NCT00092274, NCT01119794, NCT01397591) wurden zurückgezogen oder abgebrochen mit minimalem/keinem Patienteneinschluss und werden aus dieser Tabelle als Studien mit geringem Informationswert ausgelassen.*
+| Studiennummer | Phase | Status | Teilnehmer | Kernaussage |
+|---------|------|------|------|---------|
+| [NCT02004522](https://clinicaltrials.gov/study/NCT02004522) | Phase 3 | Abgeschlossen | 319 | Duvelisib vs. Ofatumumab bei rezidivierter/refraktärer CLL/SLL (DUO); Ofatumumab als Vergleichsarm |
+| [NCT01578707](https://clinicaltrials.gov/study/NCT01578707) | Phase 3 | Abgeschlossen | 391 | Ibrutinib vs. Ofatumumab bei rezidivierter/refraktärer CLL/SLL; Ofatumumab als Vergleichsarm |
+| [NCT02049515](https://clinicaltrials.gov/study/NCT02049515) | Phase 3 | Abgeschlossen | 99 | Extensionsstudie zu DUO (Duvelisib oder Ofatumumab nach Progression) |
+| [NCT01024010](https://clinicaltrials.gov/study/NCT01024010) | Phase 2 | Abgeschlossen | 82 | Pentostatin, Cyclophosphamid und Ofatumumab bei unbehandelter CLL/SLL |
+| [NCT01113632](https://clinicaltrials.gov/study/NCT01113632) | Phase 2 | Abgeschlossen | 77 | Ofatumumab bei älteren Patienten bzw. solchen, die Fludarabin ablehnen, unbehandelte CLL/SLL |
+| [NCT03280160](https://clinicaltrials.gov/study/NCT03280160) | Phase 2 | Unbekannt | 84 | Ibrutinib gefolgt von Konsolidierung mit Ofatumumab bei unbehandelter CLL/SLL |
+| [NCT01496976](https://clinicaltrials.gov/study/NCT01496976) | Phase 2 | Abgeschlossen | 45 | Ofatumumab mit hochdosiertem Methylprednisolon, dann Ofatumumab und Lenalidomid (unbehandelte CLL/SLL) |
+| [NCT01243190](https://clinicaltrials.gov/study/NCT01243190) | Phase 2 | Abgeschlossen | 44 | Frühe Behandlung mit Ofatumumab bei Hochrisiko-CLL/SLL im Frühstadium |
+| [NCT01217749](https://clinicaltrials.gov/study/NCT01217749) | Phase 1/2 | Abgeschlossen | 71 | Ibrutinib plus Ofatumumab bei rezidivierter/refraktärer CLL/SLL und Prolymphozytenleukämie |
+| [NCT01515176](https://clinicaltrials.gov/study/NCT01515176) | Phase 1/2 | Abgeschlossen | 36 | Dinaciclib plus Ofatumumab bei rezidivierter/refraktärer CLL/SLL/B-PLL |
+
+Insgesamt sind 20 Studien zu dieser Indikation erfasst, darunter mehrere abgebrochene oder zurückgezogene Studien mit sehr kleiner Teilnehmerzahl.
 
 ---
 
 ## Literaturevidenz
 
-| PMID | Jahr | Typ | Journal | Wichtigste Ergebnisse |
+| PMID | Jahr | Typ | Journal | Kernaussage |
 |------|-----|------|------|---------|
-| [31174236](https://pubmed.ncbi.nlm.nih.gov/31174236/) | 2019 | RCT | Cancer | CALGB 50904 (Alliance): randomisierte Phase 2 mit Ofatumumab+Bendamustin vs. Triplett mit Bortezomib bei unbehandeltem High-Risk-FL |
-| [38937025](https://pubmed.ncbi.nlm.nih.gov/38937025/) | 2024 | Kohort (Phase 2) | The Lancet Haematology | FIL-MIRO-Endergebnisse: MRD-gesteuerte Strahlentherapie ± Ofatumumab im frühen Stadium FL |
-| [30723894](https://pubmed.ncbi.nlm.nih.gov/30723894/) | 2019 | Phase 2 (einarmig) | British Journal of Haematology | CALGB 50901 (Alliance): Ofatumumab-Monotherapie bei unbehandeltem, niedrigem/intermediärem Risiko-FL |
-| [22409295](https://pubmed.ncbi.nlm.nih.gov/22409295/) | 2012 | Phase 1–2 | British Journal of Haematology | Ofatumumab + CHOP (O-CHOP) als Erstlinientherapie für FL; zwei Dosisstufen verglichen |
-| [22389254](https://pubmed.ncbi.nlm.nih.gov/22389254/) | 2012 | Kohort | Blood | Ofatumumab-Monotherapie bei rituximab-refraktärem FL; Gesamtansprechrate 13% |
-| [24443277](https://pubmed.ncbi.nlm.nih.gov/24443277/) | 2014 | PK-Studie | Journal of Clinical Pharmacology | Populationspharmakokinetik von Ofatumumab über CLL-, FL- und rheumatoide-Arthritis-Populationen |
-| [21083037](https://pubmed.ncbi.nlm.nih.gov/21083037/) | 2010 | Übersicht | Expert Review of Hematology | Entstehende therapeutische Strategien beim follikulären Lymphom, einschließlich anti-CD20-Agenzien |
-| [29934061](https://pubmed.ncbi.nlm.nih.gov/29934061/) | 2018 | Evidenzübersicht | Clinical Lymphoma, Myeloma & Leukemia | Evidenzgestützte Übersicht über anti-CD20-Antikörper-Therapieschemata über CLL, DLBCL und FL |
-| [28983798](https://pubmed.ncbi.nlm.nih.gov/28983798/) | 2017 | Übersicht | Advances in Therapy | 20 Jahre klinische Erfahrung mit anti-CD20-Therapie (Rituximab) bei B-Zell-Malignomen, unter Berücksichtigung der Rolle von Ofatumumab |
-| [18390837](https://pubmed.ncbi.nlm.nih.gov/18390837/) | 2008 | Phase 1/2 | Blood | Erste klinische Verwendung von Ofatumumab bei rezidiviertem/refraktärem FL |
+| [37138022](https://pubmed.ncbi.nlm.nih.gov/37138022/) | 2023 | Metaanalyse | Annals of Hematology | Gepoolte Bewertung der Wirksamkeit Ofatumumab-basierter Regime bei CLL im Vergleich zu Nicht-Ofatumumab-Regimen |
+| [28580841](https://pubmed.ncbi.nlm.nih.gov/28580841/) | 2017 | Systematische Übersicht/Metaanalyse | Hematology | Wirksamkeit und Sicherheit Ofatumumab-basierter Therapie anhand von 13 klinischen Studien |
+| [24925211](https://pubmed.ncbi.nlm.nih.gov/24925211/) | 2015 | Phase-2-Studie | Leukemia & Lymphoma | Ofatumumab plus Bendamustin bei vorbehandelter CLL/SLL |
+| [25736010](https://pubmed.ncbi.nlm.nih.gov/25736010/) | 2015 | Leitlinie | J Natl Compr Canc Netw | NCCN-Leitlinie: neue Anti-CD20-Antikörper (Ofatumumab, Obinutuzumab) ermöglichten wirksame Chemoimmuntherapien |
+| [38174814](https://pubmed.ncbi.nlm.nih.gov/38174814/) | 2024 | Systematische Übersicht | Cochrane Database Syst Rev | Erhaltungstherapie bei CLL |
+| [25828085](https://pubmed.ncbi.nlm.nih.gov/25828085/) | 2015 | Übersichtsarbeit | Haematologica | Rolle von Ofatumumab als Immuntherapie bei CLL |
+| [26566719](https://pubmed.ncbi.nlm.nih.gov/26566719/) | 2015 | Übersichtsarbeit | Expert Opin Drug Saf | Sicherheitsprofil von Ofatumumab bei CLL; günstiges Toxizitätsprofil bis 2000 mg |
+| [25249370](https://pubmed.ncbi.nlm.nih.gov/25249370/) | 2014 | Übersichtsarbeit | Expert Rev Hematol | Aktuelle und neue monoklonale Antikörper bei CLL |
+| [20481657](https://pubmed.ncbi.nlm.nih.gov/20481657/) | 2010 | Arzneimittelübersicht | Drugs | Ofatumumab induziert ADCC und CDC; pivotale unkontrollierte Studie bei Fludarabin-/Alemtuzumab-refraktärer CLL |
+| [25826029](https://pubmed.ncbi.nlm.nih.gov/25826029/) | 2015 | Übersichtsarbeit | Dtsch Med Wochenschr | Überblick zur chronischen lymphatischen Leukämie |
 
 ---
 
-## Informationen zum Markt Deutschland
+## Marktinformationen Deutschland
 
-Nach dem aktuellen Regulierungsdatensatz hat Ofatumumab **keine aktive Zulassung in Deutschland** (`total_licenses = 0`, `market_status = Not marketed`/Nicht vermarktet, `licenses = []`). Es sind keine Produktdatensätze zum Tabularisieren verfügbar. Dieser Status sollte direkt gegen das BfArM/EMA-Register überprüft werden, da die globale Regulierungsgeschichte für dieses Molekül von diesem Datensatz nicht erfasst wird.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/005410 | Kesimpta | – | Multiple Sklerose, schubförmig remittierend |
+
+Die einzige erfasste Zulassung (Novartis Europharm Limited) ist als erloschen/aufgehoben geführt. Aktuell gibt es keine gültige Zulassung in den erfassten Daten.
 
 ---
 
 ## Zytotoxizität
 
-Ofatumumab zielt auf CD20-exprimierende B-Zell-Malignome ab und wird in der Krebsbehandlung (CLL/SLL, FL) eingesetzt und erfüllt die antineoplastischen Kriterien für diesen Abschnitt.
-
-| Artikel | Inhalt |
-|--------|--------|
-| Zytotoxizitätsklassifizierung | Zielgerichtete Therapie / Immuntherapie (anti-CD20-Monoklonaler Antikörper; CDC/ADCC-vermittelte B-Zell-Depletion, kein konventionelles DNA-schädigendes zytotoxisches Mittel) |
-| Myelosuppressionsrisiko | Nicht in diesem Evidenzpaket verfügbar – bitte beachten Sie die Warnungen und Vorsichtsmaßnahmen in der Packungsbeilage (Neutropenie wurde bei anti-CD20-Antikörper-Klassen-Mitteln allgemein berichtet) |
-| Emetogenitätsklassifizierung | Niedrig (monoklonale Antikörper haben typischerweise minimales emetogenes Potenzial; infusionsbezogene Reaktionen, anstelle von Übelkeit/Erbrechen, sind das vorherrschende akute Verabreichungsrisiko) |
-| Überwachungspunkte | Vollständiges Blutbild mit Differentialzählung; Hepatitis-B-Serologie vor Therapie (anti-CD20-Klasse trägt Reaktivierungsrisiko); Immunglobulin-Level; Überwachung auf infusionsbezogene Reaktionen während der Verabreichung |
-| Handhabungsschutz | Nicht als konventionelles zytotoxisches Gefahrstoff klassifiziert; Standard-Biologic/Monoklonale-Antikörper-Infusionshandhabungs-Vorsichtsmaßnahmen gelten eher als zytotoxische Arzneimittelhandhabungsprotokolle – bitte gegen die institutionelle Richtlinie überprüfen |
+| Punkt | Inhalt |
+|------|------|
+| Klassifikation | Zielgerichtete Therapie / Immuntherapie (monoklonaler Anti-CD20-Antikörper), kein klassisches Zytostatikum |
+| Myelosuppressionsrisiko | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten (in Kombination mit Chemotherapie ist mit zusätzlicher Myelosuppression zu rechnen) |
+| Emetogenität | Niedrig (typisch für monoklonale Antikörper; in Kombination mit Chemotherapie abhängig vom Kombinationspartner) |
+| Überwachungsparameter | Differenzialblutbild, Leber- und Nierenfunktion, Immunglobuline sowie Hepatitis-B-Status |
+| Handhabungsschutz | Bitte Fachinformation beachten |
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. Dieses Evidenzpaket enthält keine ausgefüllten Schlüsselwarnungen, Kontraindikationen oder Arzneimittelwechselwirkungsdaten für Ofatumumab – dies wird als **Datenlücke mit Blockierungsschweregrad (DG001)** gekennzeichnet, was bedeutet, dass eine formale Sicherheits-Vorabprüfung (S1) nicht durchgeführt werden kann, bis TFDA/Packungsbeilage-Warnungen und Kontraindikationen vorliegen.
+Zu Warnhinweisen und Gegenanzeigen liegen in den zusammengestellten Daten keine Angaben vor. Bitte die Fachinformation zu Sicherheitsinformationen heranziehen.
+
+**Arzneimittelwechselwirkungen:** Es wurden 80 Wechselwirkungen erfasst. Als **schwerwiegend (Major)** eingestuft sind unter anderem:
+- Deferipron
+- Samarium-(153Sm)-Lexidronam
+- Adalimumab
+- Baricitinib
+- Certolizumab pegol
+- Cladribin
+- Clozapin
+
+Als **mäßig (Moderate)** eingestuft sind unter anderem Strontiumchlorid-Sr-89, Roflumilast, Chloramphenicol, Zidovudin, Alemtuzumab, Azathioprin, Anakinra, Canakinumab sowie mehrere Impfstoffe (z. B. Tetanustoxoid, Anthrax, Cholera-Lebendimpfstoff).
+
+Ein großer Teil der Wechselwirkungen betrifft immunsuppressive oder myelosuppressive Substanzen sowie Impfstoffe. Hier sind additive Immunsuppression und das Risiko von Lebendimpfstoffen zu beachten.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Pausierung**
+**Entscheidung: Proceed with Guardrails**
 
-**Rationale:**
-Follikuläres Lymphom hat eine mechanistisch schlüssige, mäßig gut unterstützte Evidenzbasis (L2: 15 Studien einschließlich einer abgeschlossenen randomisierten Phase 2 und einer beendeten Phase 3, plus 20 Publikationen), was es zum glaubwürdigsten echten Umwidmungssignal in diesem Paket macht. Eine Datenlücke mit Blockierungsschweregrad (fehlende Warnungen/Kontraindikationen) verhindert jedoch die Abschließung der anfänglichen Sicherheits-Screening-Phase, und das Arzneimittel hat derzeit keine Zulassung in Deutschland – beides muss gelöst werden, bevor über eine Forschungsfrage hinausgegangen wird.
+**Begründung:**
+Für CLL/SLL liegen zahlreiche Phase-2-Studien und mehrere abgeschlossene Phase-3-Studien vor, außerdem Metaanalysen. Allerdings diente Ofatumumab in den Phase-3-Studien überwiegend als Vergleichsarm, und die einzige erfasste deutsche Zulassung (Multiple Sklerose) ist erloschen. Zudem hat sich die CLL-Therapie seitdem stark zu zielgerichteten Substanzen (BTK-Inhibitoren, Venetoclax) verschoben.
 
-**Zum Fortfahren ist Folgendes erforderlich:**
-- TFDA/Packungsbeilage-Warnungen und Kontraindikationen (behebt DG001, Blockierung)
-- Bestätigter Wirkmechanismus und Regulierungsgeschichte der ursprünglichen Indikation von DrugBank (behebt DG002)
-- Arzneimittelwechselwirkungsdaten (derzeit `not_found`)
-- Direkte Bestätigung des aktuellen Zulassungsstatus mit BfArM/EMA
-- Falls vorangehend, priorisieren Sie die Abschließung oder Replikation einer Phase-3-RCT speziell für FL, da die beste aktuelle Evidenz Phase 2 ist (z. B. CALGB 50904) ergänzt durch eine beendete Phase-3-Studie (NCT01077518)
+**Für das weitere Vorgehen ist Folgendes nötig:**
+- Klärung des aktuellen Zulassungs- und Verfügbarkeitsstatus in Deutschland (BfArM)
+- Beschaffung der Fachinformation mit Warnhinweisen und Gegenanzeigen (derzeit eine blockierende Datenlücke für das Sicherheits-Screening)
+- Detaillierte Wirkmechanismusdaten (z. B. über DrugBank)
+- Vergleichende Bewertung gegenüber aktuellen Standardtherapien der CLL
+- Prüfung der Applikationsweg-Kompatibilität (Kesimpta ist ein subkutanes MS-Präparat, die CLL-Evidenz stammt überwiegend aus intravenöser Gabe)
+- Sicherheitsüberwachungsplan, insbesondere für Hepatitis-B-Reaktivierung, Infektionen und Impfstatus
 
+**Weitere Vorhersagen im Überblick:**
+- Follikuläres Lymphom (Evidenzlevel L2): mehrere abgeschlossene Phase-2-Studien, darunter eine randomisierte (PMID 31174236), also eine vielversprechende Forschungsfrage.
+- Metastasierte Neoplasie (L3): nur eine kleine Pilotstudie beim Melanom, Mechanismus spekulativ.
+- Übrige Vorhersagen (Subtypen der CLL/SLL, Suszeptibilität, malignes Spiradenom, Langerhans-Zell-Histiozytose): kaum oder keine eigene Evidenz, daher Hold.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

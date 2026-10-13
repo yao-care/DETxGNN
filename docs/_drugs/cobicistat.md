@@ -2,7 +2,7 @@
 layout: default
 title: Cobicistat
 parent: Nur Modellvorhersage (L5)
-nav_order: 106
+nav_order: 121
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,77 +29,94 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Cobicistat: Von fehlender ursprünglicher Indikation zum Feline Acquired Immunodeficiency Syndrome (Signal)
+# Cobicistat: Von HIV-Infektion zu felinem erworbenem Immundefizienz-Syndrom
 
 ## Zusammenfassung in einem Satz
 
-Das Evidenzpaket für Cobicistat (DB09065) enthält keine dokumentierte ursprüngliche Indikation oder keinen Wirkmechanismus, und das Arzneimittel ist derzeit **in Deutschland nicht vermarktet**. Die Top-Vorhersage des TxGNN-Modells ist **Feline Acquired Immunodeficiency Syndrome**, aber dieses Signal wird derzeit durch **0 klinische Studien** und **0 Publikationen** gestützt, was es zu einer reinen Modellvorhersage ohne externe Validierung macht.
+Cobicistat ist ein pharmakokinetischer Verstärker (Booster), der ursprünglich zur Behandlung von HIV-Infektionen eingesetzt wurde. Das TxGNN-Modell sagt voraus, dass es bei **felinem erworbenem Immundefizienz-Syndrom** wirksam sein könnte. Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor, die Vorhersage beruht allein auf dem Modell.
 
 ---
 
 ## Schnellübersicht
 
-| Element | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Nicht verfügbar – kein genehmigter Indikationstext im Evidenzpaket vorhanden |
-| Vorhergesagte neue Indikation | Feline Acquired Immunodeficiency Syndrome |
-| TxGNN-Vorhersage-Score | 99.92% |
-| Evidenzgrad | L5 |
-| Marktstatus Deutschland | ✗ Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Halten |
+| Ursprüngliche Indikation | HIV-Infektionen |
+| Vorhergesagte neue Indikation | Felines erworbenes Immundefizienz-Syndrom |
+| TxGNN-Vorhersagewert | 99,92 % |
+| Evidenzniveau | L5 |
+| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
+| Anzahl der Zulassungen | 6 (alle erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Wirkmechanismus-Daten für Cobicistat in diesem Evidenzpaket nicht verfügbar, und auch keine ursprüngliche Indikation dokumentiert. Dies macht es unmöglich, die mechanistische Plausibilität für die vorhergesagte Indikation zu diesem Zeitpunkt formal zu bewerten.
+Detaillierte Daten zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten nicht vor. Nach allgemeinem Wissen ist Cobicistat ein mechanismusbasierter Hemmer von CYP3A. Es wird als pharmakokinetischer Verstärker für HIV-1-Proteasehemmer und Integrasehemmer (z. B. Atazanavir, Darunavir, Elvitegravir) eingesetzt. Cobicistat besitzt keine eigene antivirale Aktivität.
 
-Trotzdem teilen die Top-zwei-Vorhersagen des TxGNN – Feline Acquired Immunodeficiency Syndrome (Rang 1) und Simian Immunodeficiency Virus-Infektion (Rang 2) – ein beachtenswertes Muster: beide sind Lentivirus-Immunmangelkrankheiten bei Tierarten, strukturell und pathophysiologisch analog zur menschlichen HIV/AIDS. Diese Häufung deutet darauf hin, dass das Modell möglicherweise ein echtes antivirales oder immunmangelassoziiertes Signal im Wissensgraph erfasst, anstelle von reinem Rauschen. Ohne MOA-Daten, ursprüngliche Indikationsdaten oder unterstützende Studien/Literatur bleibt dies jedoch eine unbestätigte Hypothese statt einer evidenzgestützten Begründung.
+Das feline Immundefizienzvirus (FIV) ist ein mit HIV verwandtes Lentivirus. Die hohe Vorhersage spiegelt wahrscheinlich die Nähe der Krankheiten in der Krankheitsontologie wider, nicht einen belegten pharmakologischen Zusammenhang. Ein Nutzen setzte die gleichzeitige Gabe eines gegen FIV wirksamen antiretroviralen Partners voraus. Die FIV-Protease unterscheidet sich von der HIV-1-Protease in Substratspezifität und Inhibitorempfindlichkeit, eine Kreuzaktivität geboosteter HIV-Proteasehemmer ist daher ungewiss.
 
-Eine dritte, niedriger bewertete Vorhersage im Paket (eine seltene neurodevelopmentale Störung, Evidenzgrad L5, Entscheidung S0/Halten) wurde explizit als keine identifizierbaren mechanistischen Verbindungen aufweisend gekennzeichnet und als wahrscheinlich Rauschen einbettend bewertet – was verstärkt, dass nicht alle TxGNN-Ausgaben für dieses Arzneimittel gleiche biologische Plausibilität tragen, und Rang 1/2 unabhängige Überprüfung verdienen statt automatisches Vertrauen.
+Zwei weitere Vorhersagen mit gleich hohem Score sind für die Einordnung relevant:
+- **Simian-Immundefizienzvirus-Infektion** (Score 99,92 %): Hier gilt dieselbe Logik. SIV ist ein Tiermodell für HIV, also eher ein präklinischer Kontext als eine humantherapeutische Indikation.
+- **Neuroentwicklungsstörung mit ataktischem Gang, fehlender Sprache und verminderter kortikaler weißer Substanz** (Score 99,91 %): Ein plausibler Mechanismus ist nicht erkennbar. Der hohe Score ist wahrscheinlich ein Artefakt des Wissensgraphen.
 
 ---
 
 ## Evidenz aus klinischen Studien
 
-Derzeit keine verwandten klinischen Studien registriert
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Literaturevidence
+## Evidenz aus der Literatur
 
-Derzeit keine verwandte Literatur verfügbar
+Derzeit liegt keine zugehörige Literatur vor.
 
 ---
 
-## Marktstatus Deutschland
+## Informationen zum Markt in Deutschland
 
-Cobicistat ist derzeit in Deutschland nicht vermarktet, und im Evidenzpaket sind keine Zulassungsunterlagen verfügbar.
+Alle sechs Zulassungen sind erloschen (Status: cancelled). Es besteht aktuell keine gültige Zulassung.
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/002572 | Tybost | – | HIV-Infektionen |
+| EMEA/H/C/003904 | Evotaz | – | HIV-Infektionen |
+| EMEA/H/C/002819 | Rezolsta | – | HIV-Infektionen |
+| EMEA/H/C/002574 | Stribild | – | HIV-Infektionen |
+| EMEA/H/C/004391 | Symtuza | – | HIV-Infektionen |
+
+Eine sechste Zulassung (Genvoya, EMEA/H/C/004042) ist ebenfalls erloschen und aus Platzgründen nicht aufgeführt.
 
 ---
 
 ## Sicherheitsaspekte
 
-Weitere Sicherheitsinformationen finden Sie in der Fachinformation.
+- **Arzneimittelwechselwirkungen:** Insgesamt wurden 100 Wechselwirkungen erfasst. Die folgenden Beispiele stammen aus den ersten 20 Einträgen:
+  - **Schwerwiegend (Major):** Loperamid, Triamcinolon, Cisaprid, Budesonid
+  - **Moderat:** Hydrocortison, Aprepitant, Betamethason, Clotrimazol, Dexamethason (auch nasal/ophthalmisch), Dexfenfluramin, Fenfluramin, Metoclopramid, Prednisolon (ophthalmisch), Repaglinid, Hydrocortison (ophthalmisch), Budesonid (nasal), Clarithromycin
+  - **Geringfügig (Minor):** Prucaloprid
 
-*Hinweis: Warnhinweise und Kontraindikationen in der Fachinformation für dieses Arzneimittel sind derzeit eine Blockierungsdatenlücke (DG001) – dies muss vor jeder Sicherheitsbewertung gelöst werden.*
+  Die große Zahl an Wechselwirkungen ergibt sich aus der CYP3A-Hemmung.
+
+Warnhinweise und Gegenanzeigen aus der Fachinformation liegen nicht vor. Bitte die Fachinformation konsultieren.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Halten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Es gibt keine klinischen Studien, Literatur, Wirkmechanismus- oder ursprünglichen Indikationsdaten, die diese Vorhersage stützen, und das Arzneimittel ist in Deutschland nicht vermarktet. Die Sicherheitsdaten der Fachinformation sind eine Blockierungslücke. Die Evidenz ist unzureichend, um über ein reines Modellsignal hinaus voranzukommen.
+Die Vorhersage stützt sich ausschließlich auf das Modell (L5), ohne Studien oder Publikationen. Cobicistat hat keine eigene antivirale Wirkung, der Nutzen hinge vom Kombinationspartner ab, und in Deutschland besteht keine gültige Zulassung. Die FIV- und SIV-Indikationen sind zudem tiermedizinische bzw. präklinische Kontexte. Die Vorhersage zur Neuroentwicklungsstörung ist mechanistisch nicht nachvollziehbar.
 
-**Erforderlich zum Fortschreiten:**
-- Ursprüngliche Indikations- und MOA-Daten (z. B. über DrugBank-API-Abfrage)
-- TFDA/BfArM-Fachinformation zu Warnhinweisen und Kontraindikationen (löst Blockierungslücke DG001)
-- Gezielte Literatur-/Studiensuche zu Cobicistat in Kontexten der HIV/Lentivirus-bezogenen Umnutzung, um die FIV/SIV-Mechanismusthese zu testen
-- Klarstellung darüber, warum eine felide-spezifische Veterinärerkrankung als die Top-bewertete Vorhersage erscheint, und ob eine menschlich-relevante analoge Indikation ersetzt werden sollte
-
+**Für ein Weiterkommen wären erforderlich:**
+- Daten zum Wirkmechanismus (MOA), z. B. aus DrugBank
+- Warnhinweise und Gegenanzeigen aus der Fachinformation (BfArM), da Voraussetzung für die Sicherheitsprüfung
+- Präklinische Daten zur Aktivität geboosteter Proteasehemmer gegen FIV bzw. SIV
+- Klärung, ob eine veterinärmedizinische Bewertung überhaupt im Rahmen dieser Prüfung liegt
+- Eine Bewertung des Wechselwirkungsrisikos für den vorgesehenen Anwendungskontext
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Atezolizumab
-parent: Hohe Evidenz (L1-L2)
-nav_order: 38
-evidence_level: L2
+parent: Mittlere Evidenz (L3-L4)
+nav_order: 43
+evidence_level: L3
 indication_count: 10
 ---
 
 # Atezolizumab
 {: .fs-9 }
 
-Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,96 +29,92 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Atezolizumab: Von Urothelkarzinom zum Urothelkarzinom der Prostaturethera
+# Atezolizumab: Von Urothelkarzinom (u. a.) zum prostatischen Urethra-Urothelkarzinom
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Atezolizumab ist ein Anti-PD-L1-Immuncheck-Point-Inhibitor, der ursprünglich zur Behandlung von Urothelkarzinom (Blasenkrebs) und anderen PD-L1-exprimierenden soliden Tumoren etabliert wurde.
-Das TxGNN-Modell sagt voraus, dass es auch wirksam sein kann für **Urothelkarzinom der Prostaturethera**, einen seltenen anatomischen Subtyp des Urothelkarzinoms,
-mit **2 klinischen Studien**, die diese Richtung derzeit unterstützen (keine gewidmeten Publikationen identifiziert).
+Atezolizumab ist ein gegen PD-L1 gerichteter Antikörper, der ursprünglich zur Behandlung des Urothelkarzinoms, des nicht-kleinzelligen und kleinzelligen Lungenkarzinoms sowie des Mammakarzinoms zugelassen wurde.
+Das TxGNN-Modell sagt voraus, dass er bei **prostatischem Urethra-Urothelkarzinom** wirksam sein könnte.
+Dafür liegt bislang **eine klinische Phase-1b-Studie** (Kombination mit Cabozantinib) und **keine Publikation** vor. Die Evidenz ist daher schwach.
 
 ---
 
 ## Schnellübersicht
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Urothelkarzinom (Blasenkrebs) — allgemeines Arzneimittelwissen; kein lokaler Zulassungseintrag in diesem Paket gefunden |
-| Vorhergesagte neue Indikation | Urothelkarzinom der Prostaturethera |
-| TxGNN-Vorhersage-Score | 99.98% |
-| Evidenzebene | L2 |
-| Marktstatus Deutschland | ✗ Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Mit Sicherheitsmaßnahmen fortfahren |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Urothelkarzinom (Übergangszellkarzinom), nicht-kleinzelliges Lungenkarzinom, urologische Neoplasien, Mammakarzinom, kleinzelliges Lungenkarzinom |
+| Vorhergesagte neue Indikation | Prostatisches Urethra-Urothelkarzinom |
+| TxGNN-Vorhersagewert | 99,98 % |
+| Evidenzstufe | L3 |
+| Marktstatus in Deutschland | Nur erloschene Zulassung (Zulassung widerrufen/beendet) |
+| Anzahl der Zulassungen | 1 |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit liegen keine detaillierten Daten zum Wirkmechanismus in diesem Evidenzpaket vor. Basierend auf gut etabliertem pharmakologischem Wissen ist Atezolizumab ein monoklonaler Antikörper, der PD-L1 blockiert und die T-Zell-vermittelte Antitumorimmunität wiederherstellt. Es ist ein klassendefinerender Anti-PD-L1-Agent, dessen Wirksamkeit bei Urothelkarzinom – einschließlich BCG-resistentem nichtmuskelinvasivem Blasenkrebs – klinisch validiert wurde.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Atezolizumab ist ein Anti-PD-L1-Antikörper, der die Immunevasion von Tumoren über die PD-L1/PD-1-Achse hemmen soll. Seine Wirksamkeit beim Urothelkarzinom gilt als belegt.
 
-Das Urothelkarzinom der Prostaturethera ist ein anatomischer Subtyp des Urothelkarzinoms, das vom Urothel der Prostaturethera ausgeht, und teilt die gleichen Histogenese- und Immunmikroumgebungscharakteristiken (PD-L1-Expression, tumorinfiltrierende Lymphozyten-Muster) wie das von der Blase stammende Urothelkarzinom. Da der Mechanismus der Immuncheck-Point-Blockade gewebeherkunftsabhängig und nicht anatomisch beschränkt ist, ist eine Erweiterung der Aktivität von Atezolizumab auf diesen selteneren Urothelsubtyp biologisch plausibel.
-
-Die stärkste unterstützende Evidenz stammt aus einer abgeschlossenen Phase-2-Studie (NCT02844816), die die Aktivität der Atezolizumab-Monotherapie bei BCG-resistentem NMIBC – einer eng verwandten Urothelkarzinompopulation – demonstriert, was indirekt aber mechanistisch konsistente Unterstützung für die Vorhersage bietet.
+Das prostatische Urethra-Urothelkarzinom ist histologisch ein Urothelkarzinom und teilt die PD-L1-Immunbiologie mit dem Blasenkarzinom. Der mechanistische Zusammenhang ist daher naheliegend. Einschränkend gilt: Die einzige verknüpfte Studie prüft Cabozantinib in Kombination mit Atezolizumab in einer gemischten Population solider Tumoren und isoliert diesen Subtyp nicht.
 
 ---
 
-## Klinische Studien-Evidenz
+## Evidenz aus klinischen Studien
 
-| Studiennummer | Phase | Status | Einschluss | Hauptergebnisse |
+| Studiennummer | Phase | Status | Teilnehmerzahl | Kernaussagen |
 |---------|------|------|------|---------|
-| [NCT02844816](https://clinicaltrials.gov/study/NCT02844816) | Phase 2 | Abgeschlossen | 172 | Einarmige Studie der Atezolizumab-Monotherapie bei BCG-resistentem rezidivierendem nichtmuskelinvasivem Blasenkrebs; bewertet mit „A"-Relevanz als direkte Urothelkarzinom-Evidenz, obwohl nicht randomisiert. |
-| [NCT03170960](https://clinicaltrials.gov/study/NCT03170960) | Phase 1 (1b) | Aktiv, nicht rekrutierend | 914 | Dosiseskalationsstudie von Cabozantinib ± Atezolizumab über mehrere solide Tumoren einschließlich fortgeschrittenem Urothelkarzinom (Blase, Nierenbecken, Ureter, Urethra); Atezolizumab ist ein Kombinationsarm, nicht das primäre Studienmedikament – bewertet mit „B"-Relevanz. |
+| [NCT03170960](https://clinicaltrials.gov/study/NCT03170960) | Phase 1 | Aktiv, nicht rekrutierend | 914 | Dosiseskalationsstudie mit Cabozantinib allein oder mit Atezolizumab bei lokal fortgeschrittenen oder metastasierten soliden Tumoren, u. a. Urothelkarzinom. Liefert Daten zu Sicherheit und vorläufiger Aktivität. |
 
 ---
 
-## Literatur-Evidenz
+## Evidenz aus der Literatur
 
-Derzeit ist keine verwandte Literatur für diese Indikation verfügbar.
-
----
-
-## Marktstatus Deutschland
-
-Keine Zulassungsunterlagen sind verfügbar – Atezolizumab wird derzeit in dieser Gerichtsbarkeit **nicht vermarktet** (0 Lizenzen in den Unterlagen). Zulassungsdokumentation (z. B. Etikettenwarnungen/Kontraindikationen) sollte direkt vom Hersteller oder der zuständigen Gesundheitsbehörde vor jeder nachgelagerten Verwendung bezogen werden.
+Derzeit liegt keine einschlägige Literatur vor.
 
 ---
 
-## Zytotoxizität
+## Informationen zum Markt in Deutschland
 
-Atezolizumab ist ein antineoplastisches Mittel (Anti-PD-L1-Immuntherapie), daher gilt dieser Abschnitt.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/004143 | Tecentriq | – | Übergangszellkarzinom, nicht-kleinzelliges Lungenkarzinom, urologische Neoplasien, Mammakarzinom, kleinzelliges Lungenkarzinom |
 
-| Element | Inhalt |
-|---------|--------|
-| Zytotoxizitätsklassifizierung | Immuntherapie (Immuncheck-Point-Inhibitor, Anti-PD-L1-Antikörper) — kein konventionelles zytotoxisches Mittel |
-| Myelosuppressionsrisiko | Niedrig – anders als bei konventioneller zytotoxischer Chemotherapie sind Check-Point-Inhibitoren nicht primär myelosuppressiv; das Risiko konzentriert sich stattdessen auf immunbedingte Nebenwirkungen (irAEs) |
-| Emetogenitätsklassifizierung | Niedrig (minimales emetogenes Potenzial im Vergleich zu zytotoxischer Chemotherapie) |
-| Überwachungselemente | Leberfunktionstests, Schilddrüsenfunktion, Nierenfunktion und klinische Überwachung auf immunbedingte Nebenwirkungen (Kolitis, Pneumonitis, Hepatitis, Endokrinopathien) |
-| Handhabungsschutz | Standard-Handhabungsvorsichtsmaßnahmen für IV-Biologika; spezielle Zytostatika-Handhabungsprotokolle (wie für konventionelle Chemotherapie erforderlich) sind im Allgemeinen nicht anwendbar |
-
-Bitte beachten Sie die Packungsbeilage für detaillierte Toxizitätsdaten, da in diesem Evidenzpaket kein arzneimittelspezifischer Toxizitätsdatensatz bereitgestellt wurde.
+Die Zulassung ist erloschen (Status: cancelled).
 
 ---
 
-## Sicherheitsüberlegungen
+## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+- **Arzneimittelwechselwirkungen:** Insgesamt wurden 75 Wechselwirkungen erfasst. Schwerwiegende (Major) Wechselwirkungen bestehen u. a. mit:
+  - Adalimumab
+  - Baricitinib
+  - Bacillus Calmette-Guérin (lebend, Stamm Tice)
+- Zahlreiche Wechselwirkungen mittleren Grades betreffen Kortikosteroide (z. B. Hydrocortison, Prednison, Dexamethason, Methylprednisolon, Budesonid), Immunsuppressiva und Impfstoffe (z. B. Tetanus-Toxoid, Anthrax-Impfstoff).
+
+Weitere Sicherheitsinformationen entnehmen Sie bitte der Fachinformation.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Mit Sicherheitsmaßnahmen fortfahren**
+**Entscheidung: Hold**
 
 **Begründung:**
-Eine abgeschlossene Phase-2-Studie bei einer eng verwandten Urothelkarzinompopulation (BCG-resistentes NMIBC) bietet mechanistisch konsistente, indirekte Unterstützung, aber keine Studie hat Patienten mit Urothelkarzinom der Prostaturethera speziell eingeschlossen – die Evidenz ist direktional unterstützend, aber nicht indikationsspezifisch.
+Der mechanistische Bezug zum zugelassenen Urothelkarzinom ist stark. Die Evidenz für den vorhergesagten Subtyp beschränkt sich jedoch auf eine Phase-1b-Kombinationsstudie ohne Subtyp-spezifische Auswertung. Hinzu kommt, dass die Zulassung in Deutschland erloschen ist.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- TFDA/lokale Zulassungsetikett-Daten zu Warnungen und Kontraindikationen (derzeit Blocker — DG001)
-- Bestätigte Wirkmechanismus-Dokumentation aus DrugBank (derzeit eine Lücke — DG002)
-- Gewidmete Studie oder Fallserie-Evidenz im Urothelkarzinom der Prostaturethera speziell, anstatt aus breiteren Urothelkarzinom-Daten abgeleitet
-- Ein definierter Sicherheitsüberwachungsplan für immunbedingte Nebenwirkungen in dieser Population vor jeder klinischen Anwendung
+**Für das weitere Vorgehen sind folgende Punkte erforderlich:**
+- Subtyp-spezifische Daten (z. B. Auswertung der Urothelkarzinom-Kohorten von NCT03170960 oder Studien mit Urethra-/Prostata-Beteiligung)
+- Angaben zum Wirkmechanismus (MOA)
+- Warnhinweise und Gegenanzeigen aus der Fachinformation
+- Klärung des Zulassungsstatus und der Verfügbarkeit in Deutschland
 
+---
+
+### Hinweis zu weiteren Vorhersagen
+
+Unter den weiteren Vorhersagen hat **Endozervikales Karzinom** die beste Evidenz (L2): Zwei abgeschlossene Studien liegen vor, nämlich eine Phase-2-Studie mit Atezolizumab plus Bevacizumab ([NCT02921269](https://clinicaltrials.gov/study/NCT02921269), n = 11) und eine Phase-1-Studie mit Chemoradiotherapie ([NCT03738228](https://clinicaltrials.gov/study/NCT03738228), n = 40). Beide Studien sind klein. Die übrigen Vorhersagen, darunter Urothelkarzinom-Varianten von Nierenbecken und Blase sowie seltene Zervix- und Uterus-Adenokarzinome, haben keine Studien- oder Literaturbelege (L5, Hold).
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

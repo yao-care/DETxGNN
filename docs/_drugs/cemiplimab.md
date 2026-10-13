@@ -2,7 +2,7 @@
 layout: default
 title: Cemiplimab
 parent: Nur Modellvorhersage (L5)
-nav_order: 94
+nav_order: 106
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,114 +29,86 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Cemiplimab: Von genehmigten Immuno-Onkologie-Indikationen zum Gallenblasen-Adenoplattenzellkarzinom
+# Cemiplimab: Vom Plattenepithelkarzinom zum adenosquamösen Gallenblasenkarzinom
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Cemiplimab ist ein anti-PD-1-Immuntoleranzpunkt-Inhibitor, dessen Evidence-Pack-Rationale auf vorherige Genehmigungen bei Plattenepithel- und immunogenen Haut-/Lungenkarzinomen verweist. Die Top-Vorhersage des TxGNN-Modells ist **Gallenblasen-Adenoplattenzellkarzinom**, wird derzeit aber durch **0 klinische Studien** und **0 Publikationen** gestützt, was es in die früheste, rein rechnergestützte Evidence-Stufe einordnet.
-
----
-
-## Schnellübersicht
-
-| Element | Inhalt |
-|---------|---------|
-| Ursprüngliche Indikation | Nicht im Evidence Pack verfügbar (keine Einträge zu genehmigten Indikationen; Arzneistoff nicht in diesem Datensatz zugelassen) |
-| Vorhergesagte neue Indikation | Gallenblasen-Adenoplattenzellkarzinom |
-| TxGNN-Vorhersage-Score | 99,99% |
-| Evidence Level | L5 |
-| Status auf dem deutschen Markt | ✗ Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Zurückstellen |
+Cemiplimab (Libtayo) ist ein PD-1-blockierender Antikörper, der ursprünglich zur Behandlung des Plattenepithelkarzinoms (kutanes Plattenepithelkarzinom) eingesetzt wird.
+Das TxGNN-Modell sagt voraus, dass er bei **adenosquamösem Gallenblasenkarzinom** wirksam sein könnte.
+Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor. Die Vorhersage beruht allein auf dem Modell.
 
 ---
 
-## Warum ist diese Vorhersage sinnvoll?
+## Kurzüberblick
 
-Detaillierte Mechanismus-der-Wirkung-Daten für Cemiplimab sind nicht im strukturierten DrugBank-Datensatz verfügbar, der für diese Evidence Pack verwendet wird (Datenlücke DG002, Schweregrad: Hoch). Allerdings beschreibt der in diese Evidence Pack eingebettete Repurposing-Rationale-Text durchgehend Cemiplimab als **monoklonalen anti-PD-1-Antikörper** und verweist auf seine vorherigen Genehmigungen bei kutanem Plattenepithelkarzinom, Basalzellkarzinom und metastasierendem NSCLC – was darauf hinweist, dass es durch Blockierung des PD-1/PD-L1-Kontrollpunkts wirkt, um die T-Zell-Antitumorreaktion wiederherzustellen.
-
-Für den Top-Kandidaten, Gallenblasen-Adenoplattenzellkarzinom, ist die Rationale explizit schwach: Dies ist ein **Tumor mit gemischter Histologie**, bei dem möglicherweise nur die Plattenepithelkomponente auf PD-1-Blockierung reagieren könnte, während die Reaktionsfähigkeit der Adenokarzinom-Komponente unbekannt ist. Es gibt keine klinischen oder Literaturbelege, die diesen spezifischen Zusammenhang unterstützen – die Vorhersage beruht vollständig auf dem TxGNN-Graph-Embedding-Score.
-
-Im Gegensatz dazu hat unter den anderen neun Kandidaten in dieser Evidence Pack **Basalzellkarzinom des äußeren Ohrs** (Rang 4) eine viel stärkere mechanistische Begründung: Es ist einfach eine anatomisch-lokale Variante des Basalzellkarzinoms, einen Tumortyp, den der Cemiplimab-Rationale als bereits genehmigte Indikation nach Hedgehog-Inhibitor-Versagen anführt, und es wird durch einen Real-World-Fallbericht unterstützt (siehe „Weitere vorhergesagte Indikationen" unten).
-
----
-
-## Evidenz aus klinischen Studien
-
-Derzeit keine zugehörigen klinischen Studien registriert.
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Plattenepithelkarzinom |
+| Vorhergesagte neue Indikation | Adenosquamöses Gallenblasenkarzinom |
+| TxGNN-Vorhersagewert | 99,99 % |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Nur aufgehobene Zulassung (Zulassung erloschen/widerrufen) |
+| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 aufgehoben) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Evidenz aus der Literatur
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit keine zugehörige Literatur verfügbar.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben aus der Arzneimitteldatenbank vor. Aus den pharmakologischen Daten ist jedoch bekannt: Cemiplimab ist ein Antikörper gegen den Rezeptor PD-1 (PDCD1, CD279) und blockiert die Interaktion zwischen PD-1 und PD-L1 (IC50 < 1 nM im ELISA). Dadurch wird die Hemmung der T-Zell-Antwort aufgehoben, was die körpereigene Immunabwehr gegen Tumorzellen stärken kann.
 
-*Anmerkung: Ein unterstützender Fallbericht (PMID 34157152) existiert für einen anderen Kandidaten in dieser Evidence Pack – Basalzellkarzinom des äußeren Ohrs (Rang 4) – siehe die Tabelle unten.*
+Die Wirksamkeit beim fortgeschrittenen kutanen Plattenepithelkarzinom ist belegt: In den Studien NCT02383212 und NCT02760498 sprachen etwa 50 % der Patienten an, bei 82 % der Responder mit metastasierter Erkrankung hielt das Ansprechen an. Die FDA hat Cemiplimab zudem für das nicht-kleinzellige Lungenkarzinom (NSCLC) mit hoher PD-L1-Expression zugelassen.
 
----
-
-## Informationen zum deutschen Markt
-
-Keine deutschen Marktgenehmigungen gefunden. Der Marktstatus von Cemiplimab in diesem Datensatz ist **Nicht vermarktet**, mit 0 erfassten Lizenzen.
+Das adenosquamöse Gallenblasenkarzinom enthält eine Plattenepithelkomponente, die möglicherweise auf eine PD-1-Blockade anspricht. Dies ist jedoch lediglich eine Hypothese: Der hohe Vorhersagewert spiegelt vermutlich die Nähe im Wissensgraphen zum Plattenepithelkarzinom wider und keine klinische Evidenz.
 
 ---
 
-## Weitere in dieser Evidence Pack berücksichtigte vorhergesagte Indikationen
+## Klinische Evidenz
 
-Dieses Kandidaten-Bundle (`TW-DB14707-multi`) enthält 10 TxGNN-vorhergesagte Indikationen. Aus Gründen der Transparenz sind alle unten aufgelistet:
-
-| Rang | Vorhergesagte Indikation | TxGNN-Score | Evidence Level | Entscheidungsstufe | Empfehlung |
-|------|--------------------------|-------------|-----------------|---------------------|------------|
-| 1 | Gallenblasen-Adenoplattenzellkarzinom | 99,99% | L5 | S0 | Zurückstellen |
-| 2 | Glottis-Plattenepithelkarzinom | 99,99% | L5 | S0 | Zurückstellen |
-| 3 | Rektales Kloakenkarzinom | 99,99% | L5 | S0 | Zurückstellen |
-| 4 | Basalzellkarzinom des äußeren Ohrs | 99,99% | L4 | S1 | Forschungsfrage |
-| 5 | Adenoplattenzellkarzinom der Prostata | 99,99% | L5 | S0 | Zurückstellen |
-| 6 | Urethrales verruköses Karzinom | 99,99% | L5 | S0 | Zurückstellen |
-| 7 | Okkultes Plattenepithelkarzinom der Lunge | 99,99% | L5 | S0 | Zurückstellen |
-| 8 | Pankreas-Adenoplattenzellkarzinom | 99,99% | L5 | S0 | Zurückstellen |
-| 9 | Nicht-verhorntes sinunasales Plattenepithelkarzinom | 99,99% | L5 | S0 | Zurückstellen |
-| 10 | Supraglottis-Plattenepithelkarzinom | 99,99% | L5 | S0 | Zurückstellen |
-
-Rang 4 (Äußeres Ohr BCC) ist der einzige Kandidat mit Belegen aus der Real-World-Praxis (ein Fallbericht, der eine anhaltende Reaktion nach Beendigung der Cemiplimab-Therapie bei fortgeschrittenem BCC beschreibt).
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Zytotoxizität
+## Literaturevidenz
 
-Cemiplimab ist ein onkologisches Therapeutikum (Immuntoleranzpunkt-Inhibitor); dieser Abschnitt ist anwendbar.
+Derzeit liegt keine zugehörige Literatur vor.
 
-| Element | Inhalt |
-|---------|---------|
-| Zytotoxizitäts-Klassifizierung | Immuntherapie (anti-PD-1-Immuntoleranzpunkt-Inhibitor), basierend auf Mechanismus-Beschreibungen in dieser Evidence Pack |
-| Myelosuppressions-Risiko | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Fachinformation |
-| Emetogenitäts-Klassifizierung | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Fachinformation |
-| Überwachungsitems | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Fachinformation |
-| Handhabungsschutz | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Fachinformation |
+---
+
+## Marktinformationen Deutschland
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/004844 | Libtayo | – | Plattenepithelkarzinom (Status: aufgehoben) |
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Fachinformation für Sicherheitsinformationen.
+**Wechselwirkungen:** Für die Kombination mit Kortikosteroiden sind Wechselwirkungen mittleren Schweregrades (Moderate) verzeichnet, und zwar mit Hydrocortison, Triamcinolon, Dexamethason, Betamethason, Budesonid, Prednisolon, Prednison, Methylprednisolon und Deflazacort. Kortikosteroide können die immunvermittelte Wirkung der PD-1-Blockade abschwächen.
 
-*Anmerkung: BfArM-/TFDA-Warnhinweise und Kontraindikationsdaten sind als Blocking-Datenlücke (DG001) in dieser Evidence Pack gekennzeichnet und konnten nicht abgerufen werden.*
+Weitere Sicherheitsinformationen entnehmen Sie bitte der Fachinformation.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Zurückstellen**
+**Entscheidung: Hold**
 
-**Rationale:**
-Die Top-Vorhersage (Gallenblasen-Adenoplattenzellkarzinom) hat keine unterstützenden klinischen Studien oder Literaturbelege und beruht ausschließlich auf einem L5-Model-Score mit einer anerkannten mechanistischen Lücke (gemischte Histologie, unsichere Reaktion). In Kombination mit der Blocking-Schweregrad-Abwesenheit offizieller Sicherheits-/Label-Daten (DG001) und der High-Schweregrad-Abwesenheit von MOA-Daten (DG002) ist die Evidenzbasis unzureichend, um bei diesem Kandidaten voranzukommen.
+**Begründung:**
+Die Vorhersage stützt sich ausschließlich auf das Modell (Evidenzstufe L5), ohne klinische Studien oder Publikationen. Hinzu kommt, dass die deutsche Zulassung aufgehoben ist und die Sicherheitsdaten der Fachinformation fehlen.
 
-**Zum Fortschreiten ist Folgendes erforderlich:**
-- BfArM-/TFDA-Fachinformationsdaten – Warnhinweise, Kontraindikationen (DG001, Blocking)
-- DrugBank-Mechanismus-der-Wirkung-Detail für Cemiplimab (DG002, High)
-- Alle präklinischen oder Fall-Level-Belege speziell zum Adenoplattenzellkarzinom der Gallenblase vor Fortschreiten über S0 hinaus
-- Erwägen Sie die Umleitung der Forschungspriorität auf **Basalzellkarzinom des äußeren Ohrs** (Rang 4), das bereits L4-Belege und eine „Forschungsfrage"-Entscheidungsstufe hat – dieser Kandidat verdient ein aktualisiertes Literatur-/Registersuche-Review, statt auf Zurückstellen gesetzt zu werden
+**Für ein Weiterkommen sind folgende Schritte nötig:**
+- Beschaffung und Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) vom BfArM, da diese Lücke den Sicherheitsabgleich blockiert
+- Ergänzung detaillierter Daten zum Wirkmechanismus
+- Systematische Literatur- und Studienrecherche zu adenosquamösen Karzinomen und PD-1-Blockade
+- Klärung des aktuellen Zulassungsstatus in Deutschland
 
+---
+
+## Hinweis zu weiteren vorhergesagten Indikationen
+
+Die weiteren Vorhersagen (Rang 2–10) haben ähnlich hohe Modellwerte (ca. 99,99 %). Für die meisten gibt es keine Evidenz (L5, Hold). Eine Ausnahme ist das **Basalzellkarzinom des äußeren Ohres** (Evidenzstufe L4, "Forschungsfrage"): Hierzu liegt ein Fallbericht (PMID [34157152](https://pubmed.ncbi.nlm.nih.gov/34157152/), 2021, Clinical and Experimental Dermatology) über ein anhaltendes Ansprechen nach Absetzen von Cemiplimab bei lokal fortgeschrittenem Basalzellkarzinom vor. Die Evidenz bleibt indirekt und anekdotisch.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

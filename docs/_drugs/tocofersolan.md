@@ -2,7 +2,7 @@
 layout: default
 title: Tocofersolan
 parent: Nur Modellvorhersage (L5)
-nav_order: 402
+nav_order: 470
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,80 +29,80 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Tocofersolan: Von unbekannter Ausgangsindikation zur Amenorrhoe
+# Tocofersolan: Von Cholestase/Vitamin-E-Mangel zu Amenorrhoe
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Tocofersolan (eine wasserlösliche Vitamin-E-/TPGS-Formulierung) hat derzeit keine dokumentierte Ausgangsindikation oder Wirkmechanismus-Daten in diesem Evidence-Paket.
-> Das TxGNN-Modell sagt voraus, dass es für **Amenorrhoe** wirksam sein könnte,
-> aber diese Vorhersage wird derzeit durch **0 klinische Studien** und **0 Publikationen** gestützt — nur Modellausgabe.
+Tocofersolan ist eine wasserlösliche Vitamin-E-Formulierung (d-alpha-Tocopherol-Polyethylenglykolsuccinat, TPGS) und wurde ursprünglich zur Behandlung von Vitamin-E-Mangel bei Cholestase zugelassen.
+Das TxGNN-Modell sagt voraus, dass es bei **Amenorrhoe** wirksam sein könnte (Vorhersagewert 99,3 %).
+Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage beruht ausschließlich auf dem Modell.
 
 ---
 
-## Kurzübersicht
+## Schnellübersicht
 
-| Element | Inhalt |
-|---------|--------|
-| Ausgangsindikation | Keine Daten verfügbar |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Cholestase; Vitamin-E-Mangel |
 | Vorhergesagte neue Indikation | Amenorrhoe |
-| TxGNN-Vorhersage-Score | 99.31% |
-| Evidence Level | L5 |
-| Marktstatus Deutschland | Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Abwarten |
+| TxGNN-Vorhersagewert | 99,31 % |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
+| Anzahl der Zulassungen | 1 (erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage sinnvoll?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Wirkmechanismus-Daten für Tocofersolan nicht verfügbar, und keine Ausgangsindikation ist in diesem Evidence-Paket dokumentiert. Basierend auf allgemeinem pharmazeutischem Wissen ist Tocofersolan eine wasserlösliche veresterte Form von Vitamin E (TPGS), typischerweise verwendet zur Unterstützung der Vitamin-E-Resorption/Supplementierung bei Bedingungen mit Fettmalabsorption — dies wird jedoch durch den aktuellen Datensatz nicht bestätigt und sollte nicht als etablierte Tatsache behandelt werden.
+Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Bekannt ist: Tocofersolan ist eine wasserlösliche Form von Vitamin E, deren Wirksamkeit bei Vitamin-E-Mangel infolge Cholestase belegt ist. Vitamin E wirkt antioxidativ.
 
-Für die höchst vorhergesagte Indikation (Amenorrhoe) merkt die modellgenerierte Begründung an: *"Es gibt keinen bekannten Wirkmechanismus, der Vitamin E/TPGS direkt mit Menstruationsstörungen oder Amenorrhoe verbindet. Der hohe TxGNN-Score spiegelt wahrscheinlich indirekte Assoziationen zwischen Vitamin E und endokrinen/reproduktiven Knoten innerhalb des Knowledge Graph wider, statt eines validierten biologischen Pfads."* Dieser Wirkmechanismus-Link ist daher spekulativ und wird nicht durch direkte Evidenz gestützt.
+Für Amenorrhoe wird diskutiert, dass Vitamin E die Prostaglandinsynthese und oxidativen Stress bei Menstruationsstörungen beeinflussen könnte. Die für diesen Bericht zusammengestellten Daten enthalten jedoch weder mechanistische noch klinische Belege, die Tocofersolan mit Amenorrhoe verbinden. Der hohe Vorhersagewert ist ein rein rechnerisches Signal.
 
-Angesichts des Fehlens von Wirkmechanismus-Daten, Ausgangsindikations-Daten und jeglicher unterstützenden klinischen Studien oder Literatur sollte diese Vorhersage als eine Hypothese behandelt werden, die rein aus graphbasierter Inferenz generiert wurde, und nicht als ein mechanistisch oder klinisch substantiierter Umwidmungs-Kandidat.
+Als zweite Vorhersage nennt das Modell **Akne** (Wert 99,0 %). Plausibel ist hier eine antioxidative und entzündungshemmende Wirkung auf die Lipidperoxidation der Haut; in einigen Akne-Kohorten wurden niedrige Vitamin-E-Spiegel berichtet. Auch hierfür liegen weder Studien noch Literatur vor.
 
 ---
 
 ## Evidenz aus klinischen Studien
 
-Derzeit keine zugehörigen klinischen Studien registriert.
+Derzeit sind keine relevanten klinischen Studien registriert.
 
 ---
 
 ## Literaturevidenz
 
-Derzeit keine zugehörige Literatur verfügbar.
+Derzeit ist keine relevante Literatur verfügbar.
 
 ---
 
-## Informationen zum deutschen Markt
+## Marktinformationen Deutschland
 
-Tocofersolan ist derzeit in Deutschland **nicht vermarktet**, und keine Zulassungsunterlagen sind in diesem Evidence-Paket verfügbar.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000920 | Vedrop | – | Cholestase; Vitamin-E-Mangel |
+
+Hinweis: Diese Zulassung (Recordati Rare Diseases) ist erloschen; es existiert keine gültige Zulassung.
 
 ---
 
-## Sicherheitsüberlegungen
+## Sicherheitsaspekte
 
-Bitte beachten Sie die Fachinformation für Sicherheitsinformationen.
-
-*Anmerkung: Eine blockierende Datenlücke wurde identifiziert — TFDA/BfArM-Warnhinweise und Kontraindikationen sind noch nicht verfügbar, was verhindert, dass dieser Kandidat die S1-Sicherheits-Vorbewertungsstufe betritt.*
+Zu Warnhinweisen, Gegenanzeigen und Wechselwirkungen liegen keine Daten vor. Bitte die Fachinformation beachten.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Abwarten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Dieser Kandidat wird nur durch einen TxGNN-Modell-Score (L5-Evidenz) mit keinen klinischen Studien, keiner Literatur, keinem bestätigten Wirkmechanismus und keiner Marktpräsenz gestützt. Eine blockierende Datenlücke bei Warnhinweisen/Kontraindikationen verhindert auch jede Sicherheits-Vorbewertung.
+Die Vorhersage stützt sich allein auf das Modell (L5), ohne klinische Studien oder Publikationen. Zudem ist keine gültige Zulassung in Deutschland vorhanden, und die Sicherheitsdaten sind unvollständig.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- TFDA/BfArM-Fachinformations-Daten (Warnhinweise, Kontraindikationen) — erforderlich zur Beseitigung der blockierenden Datenlücke
-- Bestätigter Wirkmechanismus (MOA) aus DrugBank oder Primärliteratur
-- Bestätigte Ausgangsindikation(en) für das Arzneimittel
-- Jegliche präklinische, beobachtende oder klinische Evidenz, die Tocofersolan spezifisch mit Amenorrhoe oder reproduktiven/endokrinen Pfaden verbindet
-- Neubewertung der sekundären Vorhersage (Akne), die ähnlich nicht gestützt wird (L5, 0 Studien, 0 Literatur)
-
+**Für ein Weiterkommen sind folgende Schritte erforderlich:**
+- Beschaffung und Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) als Voraussetzung für die Sicherheitsprüfung
+- Daten zum Wirkmechanismus (z. B. aus DrugBank)
+- Systematische Literatur- und Studienrecherche zu Tocofersolan/Vitamin E bei Amenorrhoe (und Akne)
+- Prüfung der Applikationswege und der Zulassungs- bzw. Verfügbarkeitssituation, da die bisherige Zulassung erloschen ist
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

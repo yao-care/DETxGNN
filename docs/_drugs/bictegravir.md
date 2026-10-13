@@ -2,7 +2,7 @@
 layout: default
 title: Bictegravir
 parent: Nur Modellvorhersage (L5)
-nav_order: 54
+nav_order: 63
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,87 +29,98 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Bictegravir: Von HIV-1-Infektion zum Felinen Immundefizienz-Syndrom (Felinen AIDS)
+# Bictegravir: Von HIV-Infektionen zu feliner erworbener Immunschwäche (FIV)
 
 ## Zusammenfassung in einem Satz
 
-Bictegravir ist ein HIV-1-Integrase-Strang-Transfer-Inhibitor (INSTI), der klinisch als Teil der antiretroviralen Therapie bei Menschen mit HIV eingesetzt wird. Das TxGNN-Modell sagt voraus, dass es möglicherweise gegen das **Feline Immundefizienz-Syndrom** wirksam sein könnte (eine Lentiviruserkrankung bei Katzen, verursacht durch FIV), mit einer sehr hohen Vorhersagepunktzahl, aber **derzeit ohne klinische Studien oder Fachliteratur, die diese spezifische Indikation unterstützen**. Eine eng verwandte, identisch bewertete Vorhersage — **Simian-Immundefizienz-Virus (SIV)-Infektion** — wird durch 3 mechanistische/präklinische Publikationen gestützt und wird unten als unterstützende Evidenz für die gleiche biologische Hypothese (Lentivirus-Integrase-Hemmung) diskutiert.
+Bictegravir ist ein HIV-1-Integrase-Strangtransfer-Inhibitor und war ursprünglich zur Behandlung von HIV-Infektionen zugelassen.
+Das TxGNN-Modell sagt voraus, dass es bei der **felinen erworbenen Immunschwäche (FIV)** wirksam sein könnte.
+Dafür liegen jedoch **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage beruht allein auf dem Modell.
 
 ---
 
 ## Schnellübersicht
 
 | Punkt | Inhalt |
-|-------|--------|
-| Ursprüngliche Indikation | HIV-1-Infektion (aus Fachliteratur in diesem Paket hergeleitet; noch nicht verfügbarer TFDA-genehmigter Indikationstext – siehe Datenlücke DG001) |
-| Vorhergesagte neue Indikation | Feline Immundefizienz-Syndrom (Felinen AIDS) |
-| TxGNN-Vorhersagepunktzahl | 99,82% |
-| Evidenzstufe | L5 (nur Modellvorhersage – keine klinischen Studien oder Fachliteratur spezifisch zu dieser Indikation) |
-| Marktstatus in Deutschland | Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Halten |
+|------|------|
+| Ursprüngliche Indikation | HIV-Infektionen |
+| Vorhergesagte neue Indikation | Feline erworbene Immunschwäche (FIV) |
+| TxGNN-Vorhersagewert | 99,82 % |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
+| Anzahl der Zulassungen | 1 |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
 ## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Daten zum Wirkungsmechanismus von Bictegravir sind in diesem Evidence Pack noch nicht verfügbar (Datenlücke DG002). Basierend auf der abgerufenen Fachliteratur ist Bictegravir ein Integrase-Strang-Transfer-Inhibitor (INSTI) der zweiten Generation, der in kombinierter antiretroviraler Therapie gegen HIV-1 eingesetzt wird, und er bietet eine höhere genetische Resistenzbarriere im Vergleich zu früheren INSTIs wie Raltegravir und Elvitegravir.
+Zum Wirkmechanismus von Bictegravir liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Bictegravir die Integrase von HIV-1 hemmt und damit den Einbau der viralen DNA in das Wirtsgenom blockiert. Seine Wirksamkeit bei HIV-Infektionen ist belegt.
 
-Felinen AIDS wird durch das **Feline-Immundefizienz-Virus (FIV)**, ein Lentivirus in der gleichen Retrovirus-Familie wie HIV mit homologem Integrase-Enzymmechanismus, verursacht. Dies bietet eine plausible mechanistische Begründung für die TxGNN-Vorhersage – ein Integrase-Inhibitor, der gegen ein Lentivirus wirksam ist, könnte möglicherweise auch die Integration eines verwandten Lentivirus hemmen. **Derzeit gibt es jedoch keine klinischen Studien, ICTRP-Studien oder veröffentlichte Fachliteratur, die Bictegravir gegen FIV/Felinen AIDS bewerten**, sodass dies weiterhin eine rein mechanismus-basierte Hypothese bleibt (Evidenzstufe L5).
+Das feline Immundefizienzvirus (FIV) ist ein Lentivirus und mit HIV verwandt. Seine Integrase weist strukturelle Ähnlichkeiten mit der HIV-1-Integrase auf, weshalb eine Aktivität von Bictegravir mechanistisch denkbar ist. Eine Empfindlichkeit der FIV-Integrase gegenüber diesem Hemmstoff wurde bisher jedoch nicht gezeigt.
 
-Bemerkenswert ist, dass TxGNN einer zweiten, eng verwandten Vorhersage die **identische Punktzahl (99,82%)** zugewiesen hat: **Simian-Immundefizienz-Virus (SIV)-Infektion**. Im Gegensatz zu Felinen AIDS wird diese Vorhersage durch 3 Publikationen gestützt, die die antivirale Aktivität von Bictegravir gegen SIV und die strukturelle Biologie von SIV/HIV-Intasom beschreiben, was die zugrunde liegende mechanistische Hypothese (Lentivirus-Integrase-Hemmung) wirksam unterstützt, auch wenn das Pack keine felinen-AIDS-spezifischen Daten liefert. Diese unterstützende Fachliteratur wird unten vorgestellt.
+Der hohe TxGNN-Wert wird vermutlich vor allem durch die bekannte antiretrovirale Wirkstoffklasse und die Verbindung zu HIV getrieben. Er ist eine reine Modellvorhersage.
 
----
-
-## Evidenz aus klinischen Studien
-
-Derzeit sind keine verwandten klinischen Studien für Felinen Immundefizienz-Syndrom registriert (oder für die verwandte SIV-Infektions-Vorhersage).
+**Weitere vorhergesagte Indikationen (zur Einordnung):**
+- **Infektion mit dem Simianen Immundefizienzvirus (SIV)** (Wert 99,82 %, Evidenzstufe L4): Hier gibt es präklinische Hinweise. Eine In-vitro-Studie (2017) berichtet antivirale Aktivität von Bictegravir gegen Integrase-Inhibitor-resistantes SIVmac239. Da SIV nichtmenschliche Primaten betrifft, liegt der Wert vor allem als Translationsmodell für HIV, die bereits zugelassene Indikation.
+- **Neuroentwicklungsstörung mit ataktischem Gang, fehlender Sprache und vermindeter kortikaler weißer Substanz** (Wert 99,76 %, Evidenzstufe L5): Es wurde kein plausibler mechanistischer Zusammenhang gefunden. Der Wert ist vermutlich ein Artefakt des Wissensgraphen.
 
 ---
 
-## Fachliteratur-Evidenz
+## Klinische Evidenz
 
-Keine Fachliteratur ist direkt gegen Felinen AIDS in diesem Pack indiziert. Die folgenden 3 Publikationen unterstützen die eng verwandte, identisch bewertete Vorhersage (SIV-Infektion) und sind hier als mechanistische Bekräftigung für die Hypothese der Lentivirus-Integrase-Hemmung enthalten:
-
-| PMID | Jahr | Typ | Journal | Wichtigste Erkenntnisse |
-|------|-----|------|---------|---------|
-| [28923862](https://pubmed.ncbi.nlm.nih.gov/28923862/) | 2017 | Präklinisch/Mechanismus | Antimicrobial Agents and Chemotherapy | Bictegravir zeigt antivirale Aktivität gegen Integrase-Inhibitor-resistente SIVmac239 und HIV-1 mit einer höheren genetischen Resistenzbarriere als Raltegravir/Elvitegravir |
-| [32506843](https://pubmed.ncbi.nlm.nih.gov/32506843/) | 2021 | Übersicht/Strukturelle Biologie | The FEBS Journal | Strukturelle Analyse von HIV/SIV-Intasom-Komplexen erklärt Bictegravir-Bindung und virale Fluchtmechanismen |
-| [39559349](https://pubmed.ncbi.nlm.nih.gov/39559349/) | 2024 | Präklinisch (Tiermodell) | Frontiers in Immunology | Humanisiertes Mausmodell, das für die Prüfung antiretroviraler Strategien gegen SIV und HIV entwickelt wurde |
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Marktstatus in Deutschland
+## Literaturevidenz
 
-Bictegravir hat derzeit **keine Marktzulassungen** dokumentiert (Marktstatus: Nicht vermarktet, 0 Lizenzen). Es kann keine Autorisierungstabelle generiert werden.
+Für die Hauptvorhersage (FIV) liegt derzeit keine zugehörige Literatur vor.
+
+Zur Einordnung die Literatur zur zweitplatzierten Vorhersage (SIV-Infektion):
+
+| PMID | Jahr | Typ | Journal | Kernaussagen |
+|------|-----|------|------|---------|
+| [28923862](https://pubmed.ncbi.nlm.nih.gov/28923862/) | 2017 | In-vitro-/präklinische Studie | Antimicrobial Agents and Chemotherapy | Antivirale Aktivität von Bictegravir und Cabotegravir gegen Integrase-Inhibitor-resistantes SIVmac239 und HIV-1 |
+| [32506843](https://pubmed.ncbi.nlm.nih.gov/32506843/) | 2021 | Review (Strukturbiologie) | The FEBS Journal | HIV/SIV-Intasomstrukturen geben Aufschluss über Bindung von Integrase-Inhibitoren und Resistenzmechanismen |
+| [39559349](https://pubmed.ncbi.nlm.nih.gov/39559349/) | 2024 | Präklinisches Tiermodell (humanisierte Maus) | Frontiers in Immunology | Duales humanisiertes Mausmodell zur Prüfung antiviraler Strategien gegen SIV und HIV |
+
+---
+
+## Informationen zum Markt in Deutschland
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/004449 | Biktarvy | – | HIV-Infektionen |
+
+Die einzige Zulassung (Gilead Sciences Ireland UC) ist erloschen bzw. zurückgezogen; es gibt keine gültige Zulassung.
 
 ---
 
 ## Sicherheitsaspekte
 
-Sicherheitsdaten (wichtige Warnungen, Kontraindikationen, Arzneimittelwechselwirkungen) sind für diesen Kandidaten noch nicht verfügbar. Dies ist als **blockierende** Datenlücke gekennzeichnet (DG001 – TFDA-Packungsbeilage-Warnungen/Kontraindikationen), die derzeit den Eintritt in die S1-Sicherheitsvorbewertung verhindert. Bitte konsultieren Sie die Packungsbeilage für Sicherheitsinformationen, sobald diese verfügbar sind.
+**Arzneimittelwechselwirkungen:** In den zusammengestellten Daten wurden 81 Wechselwirkungen erfasst. Die wichtigsten Beispiele:
 
----
+- **Schwerwiegend (Major):** Polyvalente Kationen, die die Aufnahme von Bictegravir verringern können, darunter Aluminiumhydroxid, Magaldrat, Kaolin, Attapulgit, Calciumsalze (Acetat, Carbonat, Citrat, Glubionat, Gluconat, Lactat, Phosphat), Magnesiumsalze (Carbonat, Chlorid, Citrat) sowie Eisen.
+- **Moderat (Moderate):** Aprepitant, Clarithromycin, Dexamethason, Eliglustat, Glycerolphenylbutyrat.
 
-## Hinweis: Ausgesonderte Vorhersage (nicht verfolgt)
-
-Eine dritte TxGNN-Vorhersage in diesem Pack – eine seltene neurodevelopmentale Störung (ataktischer Gang, fehlende Sprache, verringerte kortikale weiße Substanz) – wurde bereits von der Pipeline als **L5 / S0 / Halten** bewertet, mit der Begründung, dass diese genetische neurodevelopmentale Erkrankung keine bekannte pathologische Verbindung zur Hemmung viraler Integrase aufweist und keine unterstützenden Studien oder Fachliteratur vorliegen. Sie wird als wahrscheinlich falsch-positives TxGNN-Ergebnis behandelt und von der weiteren Betrachtung ausgeschlossen.
+Zu Warnhinweisen und Gegenanzeigen bitte die Fachinformation heranziehen.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Halten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage für Felinen AIDS ist mechanistisch plausibel (Lentivirus-Integrase-Homologie) und wird durch die Fachliteratur zur eng verwandten SIV-Vorhersage unterstützt, hat aber keine indikationsspezifische klinische oder Fachliteratur-Evidenz, keinen bestätigten Text der ursprünglichen genehmigten Indikation und keine deutsche Marktzulassung. Am kritischsten ist die **blockierende** Sicherheitsdaten-Lücke (DG001), die derzeit eine S1-Sicherheitsvorbewertung verhindert.
+Die Vorhersage für FIV stützt sich ausschließlich auf das Modell (L5), ohne Studien oder Literatur. Zudem besteht in Deutschland keine gültige Zulassung, und die Übertragbarkeit auf eine Tierart (Katze) ist unbelegt. Die Indikation hat zudem eher veterinärmedizinische Relevanz.
 
-**Zum Fortfahren ist Folgendes erforderlich:**
-- TFDA/BfArM-Packungsbeilage-Warnungen und Kontraindikationen (Datenlücke DG001 auflösen, derzeit blockierend)
-- Bestätigung der Wirkungsmechanismus-Dokumentation von DrugBank (Datenlücke DG002 auflösen)
-- Bestätigung des ursprünglichen genehmigten Indikationstextes (HIV-1-Infektion) aus einer behördlichen Quelle
-- Alle veterinären oder präklinischen Wirksamkeitsdaten spezifisch für FIV/Felinen AIDS, falls dieser Kandidat als Fall für veterinäre Umwidmung statt nur als rein humanmedizinische Hypothese verfolgt werden soll
-
+**Für ein Weiterkommen sind folgende Schritte nötig:**
+- In-vitro-Prüfung der Hemmung der FIV-Integrase durch Bictegravir
+- Daten zum Wirkmechanismus (MOA) von Bictegravir
+- Auswertung der Fachinformation (Warnhinweise und Gegenanzeigen), da die Sicherheitsprüfung sonst nicht fortgesetzt werden kann
+- Klärung des Zulassungsstatus und der Verfügbarkeit in Deutschland
+- Prüfung, ob die SIV-Indikation (L4) als Translationsmodell für weiterführende Forschung genutzt werden kann
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

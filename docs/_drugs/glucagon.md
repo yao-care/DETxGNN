@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Glucagon
-parent: Nur Modellvorhersage (L5)
-nav_order: 182
-evidence_level: L5
+parent: Mittlere Evidenz (L3-L4)
+nav_order: 213
+evidence_level: L4
 indication_count: 1
 ---
 
 # Glucagon
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1** 
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,107 +29,95 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Glucagon: Von schwerer Hypoglykämie zum Reizdarmsyndrom
+# Glucagon: Vom Diabetes mellitus zum Reizdarmsyndrom
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Glucagon ist ein endogenes Pankreashormon, das herkömmlich zur Behandlung schwerer Hypoglykämie durch Erhöhung des Blutglukosespiegels verwendet wird.
-> Das TxGNN-Modell sagt einen möglichen Zusammenhang mit dem **Reizdarmsyndrom (IBS)** mit einer **99.24%** Vorhersagequote voraus,
-> doch die zugrunde liegende Evidenz — **11 klinische Studien** und **20 Veröffentlichungen** — befasst sich fast ausschließlich mit **GLP-1-Rezeptor-Agonisten**
-> (ROSE-010, liraglutide, exendin-4), einer mechanistisch gegenteiligen Arzneistoffklasse, nicht mit Glucagon selbst. Dies ist sehr wahrscheinlich ein
-> **falsch-positives Signal, das durch Namenähnlichkeit** zwischen „Glucagon" und „Glucagon-Like Peptide-1 (GLP-1)" verursacht wird.
+Glucagon wurde ursprünglich zur Behandlung von Diabetes mellitus (insbesondere schwerer Hypoglykämie) zugelassen. Das TxGNN-Modell sagt voraus, dass es beim **Reizdarmsyndrom (Irritable Bowel Syndrome)** wirksam sein könnte. Die Datenlage ist jedoch dünn: Die **2 erfassten klinischen Studien** und die meisten der **20 Publikationen** betreffen GLP-1 bzw. GLP-1-Analoga (z. B. ROSE-010), nicht Glucagon selbst.
 
 ---
 
-## Schnellübersicht
+## Kurzüberblick
 
-| Element | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Im vorliegenden Datensatz nicht verfügbar (keine Lizenz oder Indikationstexte vorhanden; Glucagon ist klinisch für die Behandlung schwerer Hypoglykämie etabliert) |
-| Vorhergesagte neue Indikation | Reizdarmsyndrom |
-| TxGNN-Vorhersagequote | 99.24 % (Rang 8077 unter den modellweit bewerteten Kandidaten) |
-| Evidenzstufe | L5 – nur Modellvorhersage, keine tatsächlichen Studien zu Glucagon bei IBS |
-| Marktstatus Deutschland | ✗ Nicht vermarktet (Not marketed) |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | **Halten** |
+| Ursprüngliche Indikation | Diabetes mellitus |
+| Vorhergesagte neue Indikation | Reizdarmsyndrom (Irritable Bowel Syndrome) |
+| TxGNN-Vorhersagewert | 99,24 % |
+| Evidenzstufe | L4 |
+| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
+| Anzahl der Zulassungen | 2 (beide erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage vernünftig?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Wirkmechanismus-Daten für Glucagon in diesem Evidenzpaket nicht verfügbar. Der Wirkmechanismus von Glucagon ist jedoch in der Literatur gut etabliert: Es bindet den **Glucagon-Rezeptor** (ein anderer GPCR als der GLP-1-Rezeptor) und erhöht den Blutglukosespiegel durch Stimulation der hepatischen Glykogenolyse und Gluconeogenese — das physiologische Gegenteil von Insulin und von GLP-1.
+Zum Wirkmechanismus von Glucagon liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Glucagon ist ein Peptid, das vom Proglucagon abgeleitet ist und am Glucagon-Rezeptor wirkt. Es hemmt die glatte Muskulatur des Magen-Darm-Trakts und wird deshalb in der Radiologie als diagnostisches Hilfsmittel eingesetzt.
 
-**Diese Vorhersage hält sich mechanistisch nicht.** Jede klinische Studie und Veröffentlichung, die den IBS-Zusammenhang unterstützt, befasst sich mit **GLP-1 (Glucagon-Like Peptide-1) oder seinen Rezeptor-Agonisten** (ROSE-010, liraglutide, exendin-4, natives GLP-1) — nicht mit Glucagon. Während Glucagon und GLP-1 beide aus der Spaltung desselben Vorläufergens (Proglucagon) stammen, wirken sie auf verschiedene Rezeptoren und erzeugen entgegengesetzte physiologische Effekte (Glucagon erhöht den Blutglukosespiegel und beschleunigt die Magenentleerung; GLP-1 senkt den Blutglukosespiegel und *hemmt* die Magenentleerung/Motilität). Sie als pharmakologisch äquivalent zu behandeln ist wissenschaftlich nicht haltbar.
+Diese motilitätshemmende Wirkung liefert eine plausible, aber nur indirekte Begründung für eine Anwendung beim Reizdarmsyndrom, bei dem Krämpfe und Hypermotilität eine Rolle spielen können. Die Verbindung zwischen Diabetes und Reizdarmsyndrom besteht nicht in der Krankheit selbst, sondern in der gemeinsamen Proglucagon-Peptidfamilie und der Beteiligung an der Darmmotilität.
 
-Die eigene Begründung des Evidenzpakets für das Repurposing kommt zu demselben Ergebnis: Es wurde kein mechanistischer Zusammenhang zwischen Glucagon (DB00040) und IBS gefunden. Dieses Muster ist konsistent mit einem **falsch-positiven Abruf, der durch gemeinsame Teilzeichenfolgen-/Namenüberlappung** verursacht wird („glucagon" erscheint innerhalb von „glucagon-like peptide-1") und nicht mit einem echten Drug-Repurposing-Signal.
+Wichtig ist die Abgrenzung: Glucagon ist pharmakologisch von GLP-1 verschieden, obwohl beide aus demselben Vorläufer stammen. Die vorliegenden Studien und Publikationen betreffen überwiegend GLP-1 und dessen Analoga. Ergebnisse zum GLP-1-Signalweg lassen sich nicht ohne Weiteres auf Glucagon übertragen. Der sehr hohe TxGNN-Wert ist eine rechnerische Vorhersage und kein klinischer Beleg.
 
 ---
 
 ## Evidenz aus klinischen Studien
 
-⚠️ **Keine der nachfolgenden Studien untersucht Glucagon selbst.** Alle beinhalten GLP-1 oder GLP-1-Rezeptor-Agonisten, die hier der Transparenz halber aufgelistet sind, um deutlich zu machen, welche Evidenz tatsächlich vorhanden ist.
-
-| Studiennummer | Phase | Status | Teilnehmerzahl | Wichtigste Befunde |
+| Studiennummer | Phase | Status | Teilnehmerzahl | Zentrale Aussagen |
 |---------|------|------|------|---------|
-| [NCT01056107](https://clinicaltrials.gov/study/NCT01056107) | Phase 1/2 | Abgeschlossen | 52 | ROSE-010 (GLP-1-Rezeptor-Agonist, **nicht Glucagon**) Auswirkung auf die GI-Motorfunktion bei obstipationsdominanten IBS |
-| [NCT02731664](https://clinicaltrials.gov/study/NCT02731664) | Phase 1 | Abgeschlossen | 12 | Natives GLP-1 vs. ROSE-010 Hemmung der oberen GI-Motilität — kein Glucagon-Arm |
-| [NCT04763564](https://clinicaltrials.gov/study/NCT04763564) | Phase 2 | Beendet | 8 | liraglutide (GLP-1-RA) für Stuhlfrequenz nach IPAA — mechanistisch entgegengesetzt zu Glucagon |
-| [NCT06408610](https://clinicaltrials.gov/study/NCT06408610) | N/A | Abgeschlossen | 66 | Auswirkung von Sport auf GLP-1-Hormon und Dysbiose des Darms bei IBS — keine Arzneimittelintervention |
-| [NCT04230655](https://clinicaltrials.gov/study/NCT04230655) | N/A | Unbekannt | 110 | Kalorienarme Ernährung + intragastrales Ballonkatheter für Fettleibigkeit — keine getestete Glucagon- oder GLP-1-Arznei |
-| [NCT00802971](https://clinicaltrials.gov/study/NCT00802971) | N/A | Abgeschlossen | 12 | Fructo-Oligosaccharid-Auswirkung auf reaktive Hypoglykämie — keine Glucagon-Intervention |
-| [NCT05249023](https://clinicaltrials.gov/study/NCT05249023) | N/A | Abgeschlossen | 37 | Butyrat-Mechanismus in der Dickdarmgesundheit (IBS-verbunden) — nicht mit Glucagon verwandt |
-| [NCT06113146](https://clinicaltrials.gov/study/NCT06113146) | N/A | Abgeschlossen | 41 | Essensgeschwindigkeit von hochverarbeiteten Lebensmitteln auf metabolische Reaktion — nicht mit Glucagon verwandt |
-| [NCT06333717](https://clinicaltrials.gov/study/NCT06333717) | N/A | Abgeschlossen | 33 | Auswirkung von Vollkornroggen-Brot auf die Darm-Hirn-Achsen-Peptide — nicht mit Glucagon verwandt |
-| [NCT04111263](https://clinicaltrials.gov/study/NCT04111263) | N/A | Abgeschlossen | 33 | Ernährungsintervention der Darm-Mikrobiota in großer Höhe — nicht mit Glucagon verwandt |
-
-**Bewertung der Relevanz:** Alle als **C** (nicht direkt relevant) bewertet vom zugrunde liegenden Evidenzpaket — keine testete Glucagon als Studienarzneistoff.
+| [NCT02731664](https://clinicaltrials.gov/study/NCT02731664) | Phase 1 | Abgeschlossen | 12 | Hemmung der postprandialen Motilität von Magen, Duodenum und Jejunum durch natives GLP-1 im Vergleich zum Analogon ROSE-010. Kein Glucagon, keine Reizdarmpatienten; nur mechanistischer Kontext. |
+| [NCT01056107](https://clinicaltrials.gov/study/NCT01056107) | Phase 1/2 | Abgeschlossen | 52 | Wirkung von ROSE-010 (GLP-1-Analogon) auf die gastrointestinale Motorik bei Frauen mit obstipationsdominantem Reizdarmsyndrom. Passende Population, aber kein Glucagon; nur indirekter Hinweis. |
 
 ---
 
-## Literaturnachweis
+## Evidenz aus der Literatur
 
-⚠️ **Alle nachfolgenden Veröffentlichungen befassen sich mit der GLP-1-Physiologie oder GLP-1-Rezeptor-Agonisten, nicht mit Glucagon.**
-
-| PMID | Jahr | Typ | Zeitschrift | Wichtigste Befunde |
+| PMID | Jahr | Typ | Zeitschrift | Zentrale Aussagen |
 |------|-----|------|------|---------|
-| [35234561](https://pubmed.ncbi.nlm.nih.gov/35234561/) | 2022 | RCT | Scand J Gastroenterol | ROSE-010 (GLP-1-RA, **nicht Glucagon**) reduzierte Schmerzen während IBS-Anfällen |
-| [22517769](https://pubmed.ncbi.nlm.nih.gov/22517769/) | 2012 | RCT | Am J Physiol GI Liver Physiol | Randomisierte doppelblinde Studie von ROSE-010 (GLP-1-Analog) zur GI-Motorfunktion bei IBS-C |
-| [40134805](https://pubmed.ncbi.nlm.nih.gov/40134805/) | 2025 | Systematische Übersicht/Metaanalyse | Front Endocrinol | GLP-1-Rezeptor-Agonisten verbessern IBS-Symptome — Glucagon nicht bewertet |
-| [30444291](https://pubmed.ncbi.nlm.nih.gov/30444291/) | 2019 | Übersichtsartikel | Exp Physiol | Endokrine Rolle von GLP-1 (nicht Glucagon) in der IBS-Pathophysiologie |
-| [40697433](https://pubmed.ncbi.nlm.nih.gov/40697433/) | 2025 | Kohorte | Ann Gastroenterol | Verschreibungs-/Absetzungsmuster von GLP-1-RAs bei IBS-Patienten |
-| [26765585](https://pubmed.ncbi.nlm.nih.gov/26765585/) | 2016 | Übersichtsartikel | Expert Opin Investig Drugs | Übersicht über experimentelle IBS-C-Arzneimittel; Glucagon nicht unter diskutierten Kandidaten |
-| [31602785](https://pubmed.ncbi.nlm.nih.gov/31602785/) | 2020 | Präklinisch | Neurogastroenterol Motil | exendin-4 (GLP-1-RA) verbesserte GI-Dysfunktion im Rattenmodell für IBS |
-| [28215540](https://pubmed.ncbi.nlm.nih.gov/28215540/) | 2017 | Klinische Korrelation | Clin Res Hepatol Gastroenterol | Serum-GLP-1 (nicht Glucagon) umgekehrt korreliert mit Bauchschmerzen bei IBS-C |
-| [23338623](https://pubmed.ncbi.nlm.nih.gov/23338623/) | 2013 | Präklinisch | Int J Mol Med | Rolle von GLP-1 in Rattenmodellen der IBS-Pathogenese |
-| [25427821](https://pubmed.ncbi.nlm.nih.gov/25427821/) | 2015 | Übersichtsartikel | Adv Exp Med Biol | Aerosolisiertes GLP-1 (nicht Glucagon) für Diabetes und IBS |
+| [40134805](https://pubmed.ncbi.nlm.nih.gov/40134805/) | 2025 | Systematische Übersichtsarbeit/Metaanalyse | Front Endocrinol | GLP-1-Rezeptoragonisten beim Reizdarmsyndrom; GLP-1 und ROSE-010 hemmen die Motilität bei Reizdarmpatienten. |
+| [35234561](https://pubmed.ncbi.nlm.nih.gov/35234561/) | 2022 | Kreuzanalyse klinischer Studien | Scand J Gastroenterol | ROSE-010 verringerte Schmerzen bei Reizdarmattacken; Suche nach geeigneter Subpopulation. |
+| [38997662](https://pubmed.ncbi.nlm.nih.gov/38997662/) | 2024 | Systematische Übersichtsarbeit | J Headache Pain | GLP-1-Rezeptoragonisten bei Kopfschmerz- und Schmerzerkrankungen; nur indirekt relevant. |
+| [30444291](https://pubmed.ncbi.nlm.nih.gov/30444291/) | 2019 | Übersichtsarbeit | Exp Physiol | Mögliche Rolle von GLP-1 und L-Zellen in der Pathophysiologie des Reizdarmsyndroms. |
+| [40697433](https://pubmed.ncbi.nlm.nih.gov/40697433/) | 2025 | Kohortenstudie | Ann Gastroenterol | Verschreibungs- und Absetzmuster von GLP-1-RA bei Reizdarmpatienten. |
+| [25427821](https://pubmed.ncbi.nlm.nih.gov/25427821/) | 2015 | Übersichtsarbeit/Konzept | Adv Exp Med Biol | Aerosolisiertes GLP-1 bei Diabetes und Reizdarmsyndrom. |
+| [30023410](https://pubmed.ncbi.nlm.nih.gov/30023410/) | 2018 | Übersichtsarbeit | Cell Mol Gastroenterol Hepatol | Wechselwirkungen der Hirn-Darm-Mikrobiom-Achse. |
+| [41480755](https://pubmed.ncbi.nlm.nih.gov/41480755/) | 2026 | Übersichtsarbeit | J Clin Invest | Mechanismen der Darm-Hirn-Interaktion, u. a. Inkretin-Therapien. |
+| [26765585](https://pubmed.ncbi.nlm.nih.gov/26765585/) | 2016 | Übersichtsarbeit | Expert Opin Investig Drugs | Neue Wirkstoffe in der Entwicklung bei obstipationsdominantem Reizdarmsyndrom. |
+| [41974246](https://pubmed.ncbi.nlm.nih.gov/41974246/) | 2026 | Übersichtsarbeit | Clin Gastroenterol Hepatol | Versorgungslücken beim Reizdarmsyndrom und künftige Therapien über viszerale Afferenzen. |
+
+Keine der aufgeführten Arbeiten untersucht Glucagon selbst beim Reizdarmsyndrom.
 
 ---
 
-## Marktstatus Deutschland
+## Marktinformationen Deutschland
 
-Keine Zulassungsunterlagen sind im aktuellen Register verfügbar (Marktstatus: Nicht vermarktet; 0 Lizenzen vorhanden).
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/005391 | Ogluo | – | Diabetes mellitus (erloschen) |
+| EMEA/H/C/003848 | Baqsimi | – | Diabetes mellitus (erloschen) |
 
 ---
 
-## Sicherheitsüberlegungen
+## Sicherheitshinweise
 
-Bitte beachten Sie die Fachinformation für Sicherheitsinformationen. Wichtige Warnhinweise, Kontraindikationen und Arzneimittelwechselwirkungsdaten sind derzeit nicht in diesem Datensatz verfügbar (gekennzeichnet als Blocking-Datenlücke DG001 — TFDA-Kennzeichnung Warnungen/Kontraindikationen, ausstehende Abrufen).
+- **Arzneimittelwechselwirkungen:** In den zusammengestellten Daten sind 25 Wechselwirkungen verzeichnet. Die dargestellten Einträge sind durchweg als **geringfügig (Minor)** eingestuft. Es handelt sich um Warfarin sowie zahlreiche Betablocker (u. a. Acebutolol, Atenolol, Bisoprolol, Carvedilol, Metoprolol, Propranolol, Nadolol, Labetalol, Sotalol, Esmolol; auch Timolol, Betaxolol, Carteolol, Levobunolol und Metipranolol als Augentropfen).
+
+Für weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) bitte die Fachinformation heranziehen.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Halten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Dieser Kandidat ist sehr wahrscheinlich ein **falsch-positives Vorhersageergebnis, das durch Entitätsverwechslung** zwischen „Glucagon" und „Glucagon-Like Peptide-1 (GLP-1)" verursacht wird — zwei Hormone mit gegensätzlichen Rezeptoren und gegensätzlichen physiologischen Effekten. Jedes unterstützende Stück aus klinischen Studien und Literaturbelege befasst sich mit GLP-1 oder GLP-1-Rezeptor-Agonisten, keines befasst sich mit Glucagon selbst, und das Evidenzpaket ist unabhängig als L5 bewertet („nur Modellvorhersage, keine tatsächlichen Studien").
+Die Evidenz beschränkt sich auf Modellvorhersage und indirekte Hinweise aus dem GLP-1-Signalweg; für Glucagon selbst beim Reizdarmsyndrom gibt es keine direkten Studien (Evidenzstufe L4). Zudem sind alle deutschen Zulassungen erloschen, was die praktische Entwicklung erschwert.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- Überprüfung und Korrektur der Entitätsdisambiguierung im TxGNN-Wissensgraph (Glucagon vs. GLP-1 Knoten-/Kantentrennung) vor dieser neuen Bewertung des Kandidaten
-- Falls eine echte präklinische Begründung für Glucagon (nicht GLP-1) bei IBS existiert, Abruf tatsächlicher glucagonspezifischer Studiendaten
-- Lösung der Blocking-Datenlücke DG001 (TFDA-Kennzeichnung Warnungen/Kontraindikationen) und der hochpriorisierten Lücke DG002 (MOA über DrugBank) vor einer weiteren Sicherheitsbewertung
-- Da das Arzneimittel im Register nicht vermarktet ist, wäre eine Markterschließungsbewertung nur erforderlich, wenn die obigen mechanistischen Bedenken geklärt werden
-
+**Für ein Weiterkommen sind erforderlich:**
+- Direkte präklinische oder klinische Daten zu Glucagon (nicht GLP-1) beim Reizdarmsyndrom
+- Detaillierte Daten zum Wirkmechanismus (MOA)
+- Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) für die Sicherheitsbewertung
+- Klärung der Zulassungs- und Verfügbarkeitssituation sowie geeigneter Darreichungswege
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

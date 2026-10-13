@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ritonavir
-parent: Nur Modellvorhersage (L5)
-nav_order: 349
-evidence_level: L5
+parent: Mittlere Evidenz (L3-L4)
+nav_order: 407
+evidence_level: L4
 indication_count: 3
 ---
 
 # Ritonavir
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3** 
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,53 +29,100 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Ritonavir: Evaluierungsbericht — Unzureichende TxGNN-Vorhersagedaten
+# Ritonavir: Von HIV-Infektion zur Simianen Immundefizienzvirus-Infektion
 
 ## Zusammenfassung in einem Satz
 
-Ritonavir ist ein HIV-Proteaseinhibitor, der häufig als pharmakokinetischer Booster in kombinierten antiviralen Regimen verwendet wird (z. B. Paxlovid, Lopinavir/Ritonavir).
-Das aktuelle Evidence Pack enthält **keine TxGNN-vorhergesagten neuen Indikationen** und das Arzneimittel ist **nicht in Taiwan registriert**.
-Aufgrund kritischer Datenlücken in den Dimensionen Vorhersage, Regulierung, Wirkmechanismus und Sicherheit **kann eine vollständige Umwidmungsbewertung in diesem Stadium nicht abgeschlossen werden**.
+Ritonavir ist ein HIV-Proteaseinhibitor, der ursprünglich zur Behandlung von HIV-Infektionen und (als Bestandteil von Paxlovid) von COVID-19 zugelassen wurde.
+Das TxGNN-Modell sagt voraus, dass er bei der **Simianen Immundefizienzvirus-(SIV-)Infektion** wirksam sein könnte.
+Hierfür liegen **keine klinischen Studien** und **10 Publikationen** vor, überwiegend aus Tier- und In-vitro-Studien.
 
 ---
 
-## Schnellübersicht
+## Kurzüberblick
 
-| Eintrag | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | HIV-Infektion (allgemeines pharmazeutisches Wissen; nicht in behördlichen Daten vorhanden) |
-| Vorhergesagte neue Indikation | Nicht verfügbar |
-| TxGNN-Vorhersage-Score | Nicht verfügbar |
-| Evidenzstufe | Undefiniert – keine Vorhersagedaten vorhanden |
-| Taiwan-Marktstatus | ✗ Nicht vermarktet |
-| Anzahl der Genehmigungen | 0 |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | HIV-Infektion; COVID-19-Virusinfektion |
+| Vorhergesagte neue Indikation | Simiane Immundefizienzvirus-Infektion (SIV) |
+| TxGNN-Vorhersagewert | 99,92 % |
+| Evidenzlevel | L4 |
+| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassungen |
+| Anzahl der Zulassungen | 5 (alle erloschen) |
 | Empfohlene Entscheidung | Hold |
+
+---
+
+## Warum ist diese Vorhersage plausibel?
+
+Für diesen Bericht liegen derzeit keine detaillierten Daten zum Wirkmechanismus vor. Ritonavir gehört nach allgemeinem Wissen zur Klasse der HIV-Proteaseinhibitoren. Seine Wirksamkeit bei HIV ist belegt, und mechanistisch könnte es auch bei SIV anwendbar sein. Die Mechanismusangaben stammen aus allgemeinem Fachwissen, nicht aus den für diesen Bericht zusammengestellten Daten.
+
+SIV und HIV sind eng verwandte Lentiviren, und ihre Proteasen sind strukturell und funktionell ähnlich. In-vitro-Daten stützen dies: SIVmac239 wurde durch Ritonavir mit einer EC50 von etwa 13 nM gehemmt, HIV-1 mit etwa 25 nM (PMID 12709355).
+
+Wichtig ist die Einordnung: SIV-Infektion ist ein Tiermodell für HIV und keine eigenständige humane Indikation. Das Ergebnis spiegelt im Wesentlichen die bestehende HIV-Anwendung wider und ist keine echte neue Repurposing-Chance.
+
+---
+
+## Evidenz aus klinischen Studien
+
+Derzeit sind keine zugehörigen klinischen Studien registriert.
+
+---
+
+## Evidenz aus der Literatur
+
+| PMID | Jahr | Typ | Journal | Kernaussagen |
+|------|-----|------|------|---------|
+| [12709355](https://pubmed.ncbi.nlm.nih.gov/12709355/) | 2003 | In-vitro-Studie | Antimicrob Agents Chemother | SIVmac239 wird durch Ritonavir (EC50 ca. 13 nM) ähnlich wie HIV-1 (ca. 25 nM) gehemmt |
+| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | In-vitro-Studie | Antivir Ther | Empfindlichkeit von HIV-2, SIV und SHIV gegenüber verschiedenen Anti-HIV-1-Substanzen; Bedeutung für Therapie und Postexpositionsprophylaxe |
+| [16973590](https://pubmed.ncbi.nlm.nih.gov/16973590/) | 2006 | Tierstudie | J Virol | Rascher Viruszerfall bei SIV-infizierten Makaken unter antiretroviraler Vierfachtherapie |
+| [25033210](https://pubmed.ncbi.nlm.nih.gov/25033210/) | 2014 | Tierstudie | PLoS One | Kombinierte ART plus HDAC-Inhibitor SAHA bei SIV-infizierten Rhesusaffen |
+| [22737073](https://pubmed.ncbi.nlm.nih.gov/22737073/) | 2012 | Tierstudie | PLoS Pathog | Hochintensivierte ART führt zu langfristiger Virussuppression und Reservoirrestriktion im Affenmodell |
+| [12951220](https://pubmed.ncbi.nlm.nih.gov/12951220/) | 2003 | Tierstudie | J Virol Methods | Orale HAART inkl. Lopinavir/Ritonavir und Effekt auf CD8-Subpopulation bei SHIV-infizierten Affen |
+| [17350308](https://pubmed.ncbi.nlm.nih.gov/17350308/) | 2007 | Tierstudie | Microbes Infect | Neuartiges SHIV mit HIV-1-Protease als Modell für In-vivo-Tests von Proteaseinhibitoren |
+| [34903055](https://pubmed.ncbi.nlm.nih.gov/34903055/) | 2021 | Übersichtsarbeit | mBio | Lentivirale Infektionen persistieren im Gehirn trotz wirksamer ART |
+| [12186895](https://pubmed.ncbi.nlm.nih.gov/12186895/) | 2002 | In-vitro-Mechanismusstudie | J Virol | Verarbeitung des HIV-1-Vif-Proteins durch die virale Protease |
+| [9875393](https://pubmed.ncbi.nlm.nih.gov/9875393/) | 1998 | In-vitro-Studie | Antivir Chem Chemother | Breitspektrum-Antivirusaktivität eines Fluorchinolonderivats (andere Substanz, nur indirekter Bezug) |
+
+---
+
+## Marktinformationen Deutschland
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000127 | Norvir | – | HIV-Infektion |
+| EMEA/H/C/004549 | Ritonavir Viatris (zuvor Ritonavir Mylan) | – | HIV-Infektion |
+| EMEA/H/C/005973 | Paxlovid | – | COVID-19-Virusinfektion |
+| EMEA/H/C/004025 | Lopinavir/Ritonavir Viatris (zuvor Ritonavir Mylan) | – | HIV-Infektion |
+| EMEA/H/C/000368 | Kaletra | – | HIV-Infektion |
+
+Alle fünf Zulassungen haben den Status „erloschen/widerrufen“; derzeit ist keine gültige Zulassung verzeichnet.
 
 ---
 
 ## Sicherheitsaspekte
 
-Für dieses Evidence Pack sind keine Sicherheitsdaten verfügbar. Alle Felder für Warnungen, Kontraindikationen und Arzneimittelwechselwirkungen wurden als leer oder fehlend zurückgegeben.
+- **Kontraindikationen aus dem Wissensgraphen (PrimeKG, kein Packungsbeilagentext)**: Kardiale Erkrankungen (u. a. Long-QT-Syndrom, Torsade de pointes, plötzlicher Herzstillstand, Erregungsleitungsstörungen, AV-Block, Kardiomyopathie, koronare Herzkrankheit, myokardiale Ischämie); Leber- und Gallenerkrankungen (Lebererkrankung, Leberzirrhose, chronische Hepatitis B, Gallenblasenerkrankung, Hyperbilirubinämie, Gilbert-Syndrom); Stoffwechselstörungen (Diabetes mellitus, Hyperglykämie, diabetische Ketoazidose, Hypertriglyzeridämie, familiäre kombinierte Hyperlipidämie, Hyperurikämie, Gicht, Kaliummangel); Pankreatitis; Hämophilie.
+- **Arzneimittelwechselwirkungen** (100 Einträge insgesamt, Auswahl):
+  - Schwerwiegend (Major): Loperamid, Triamcinolon, Budesonid
+  - Moderat: Acarbose, Hydrocortison, Albiglutid, Alogliptin, Metformin, Alosetron, Bupropion, Aprepitant, Dexamethason, Lorcaserin, Betamethason, Metronidazol, Canagliflozin, Chlorpropamid, Clarithromycin
 
-> Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+Für weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen laut Fachinformation) siehe bitte die Packungsbeilage.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
 **Entscheidung: Hold**
 
 **Begründung:**
-Das Evidence Pack für Ritonavir ist in allen vier Evaluierungsdimensionen kritisch unvollständig – TxGNN-Vorhersage, behördlicher Status, Wirkmechanismus und Sicherheitsprofil. Ohne eine vorherzusagende Indikation zur Bewertung kann kein Umwidmungsfall konstruiert oder bewertet werden.
+Die Evidenz für die SIV-Infektion beschränkt sich auf präklinische Daten (In-vitro- und Affenstudien), und es gibt keine klinischen Studien. SIV ist ein Tiermodell für HIV, daher bietet die Vorhersage keine neue humane Repurposing-Chance. Zudem sind in Deutschland derzeit alle Zulassungen erloschen.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-
-- **TxGNN-Vorhersageergebnisse** — `predicted_indications` müssen mit mindestens einer Kandidatenindikation und zugehörigen Daten gefüllt werden (klinische Studien, Literatur)
-- **Wirkmechanismus (MOA)** — abrufen von DrugBank-API (DG002: Lücke mit hohem Schweregrad)
-- **Packungsbeilage Sicherheitsdaten** — Hauptwarnungen, Kontraindikationen und Arzneimittelwechselwirkungen aus TFDA oder gleichwertiger Quelle (DG001: Blockierende Lücke)
-- **Bestätigung der ursprünglichen Indikation** — Überprüfung genehmigter Indikationen aus Taiwan TFDA oder internationalen behördlichen Quellen (EMA/FDA)
-- **Arzneimittelwechselwirkungsprofil** — DDI-Abfrage gab `not_found` zurück; erneute Abfrage mit alternativen Quellen (z. B. DrugBank DDI, klinisch-pharmakologische Datenbanken)
-
+**Für ein Weiterkommen erforderlich:**
+- Daten zum Wirkmechanismus (MOA) ergänzen
+- Packungsbeilage (Warnhinweise und Gegenanzeigen) beim BfArM beschaffen und auswerten, da dies für das Sicherheits-Screening blockierend ist
+- Prüfen, ob die weiteren vorhergesagten Indikationen (felines erworbenes Immundefizienzsyndrom, neurologische Entwicklungsstörung mit ataktischem Gang) überhaupt sinnvoll sind; für beide liegen weder Studien noch Literatur vor, und die hohen Modellwerte sind vermutlich Artefakte des Graphen
+- Klären, ob eine humane Indikation mit klinischer Relevanz besteht, bevor weitere Ressourcen eingesetzt werden
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

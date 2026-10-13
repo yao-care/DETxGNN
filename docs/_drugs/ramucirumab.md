@@ -2,7 +2,7 @@
 layout: default
 title: Ramucirumab
 parent: Nur Modellvorhersage (L5)
-nav_order: 324
+nav_order: 380
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,73 +29,101 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Ramucirumab: Bewertung der Arzneistoffrepositionierung — Unzureichende Daten für vollständige Evaluierung
+# Ramucirumab: Vom Magenkarzinom zum Adenokarzinom des Lig. uteri
 
 ## Zusammenfassung in einem Satz
 
-Ramucirumab ist ein vollständig humaner IgG1-Monoklonalantikörper gegen VEGFR-2 und wurde als Antitumormittel für Magen-/GEJ-Adenokarzinom, NSCLC und kolorektales Karzinom entwickelt.
-Das aktuelle Evidence Pack enthält **keine TxGNN-vorhergesagten neuen Indikationen**, und Zulassungsunterlagen für den deutschen Markt wurden nicht abgerufen (0 Genehmigungen in der Datei).
-Eine vollständige Repositionierungs-Evaluierung kann zu diesem Zeitpunkt nicht durchgeführt werden; dieser Bericht dokumentiert verfügbare Ergebnisse und die Datenlücken, die behoben werden müssen, bevor die Bewertung fortgesetzt wird.
+Ramucirumab wurde ursprünglich zur Behandlung des Magenkarzinoms (Stomach Neoplasms) zugelassen. Das TxGNN-Modell sagt voraus, dass es bei **Adenokarzinom des Ligamentum uteri** wirksam sein könnte. Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage beruht allein auf dem Modell.
 
 ---
 
 ## Schnellübersicht
 
-| Element | Angaben |
-|---------|--------|
-| Ursprüngliche Indikation | Nicht angegeben im Evidence Pack |
-| Vorhergesagte neue Indikation | Keine — TxGNN-Vorhersagen nicht verfügbar |
-| TxGNN-Vorhersage-Score | Nicht verfügbar |
-| Evidenzgrad | Nicht bewertbar |
-| Marktstatus Deutschland | Nicht vermarktet (0 Genehmigungen in der Datei) |
-| Anzahl der Genehmigungen | 0 |
-| Empfohlene Entscheidung | Halten |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Stomach Neoplasms (Magenkarzinom) |
+| Vorhergesagte neue Indikation | Adenokarzinom des Ligamentum uteri (uterine ligament adenocarcinoma) |
+| TxGNN-Vorhersagewert | 99,95 % |
+| Evidenzgrad | L5 |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
+| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Wirkungsmechanismus
+## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Daten zum Wirkungsmechanismus sind derzeit nicht im Evidence Pack verfügbar. Basierend auf bekannten pharmakologischen Informationen ist Ramucirumab ein vollständig humaner IgG1-Monoklonalantikörper, der selektiv an die extrazelluläre Domäne von VEGFR-2 (Vaskulärer Endothelwachstumsfaktor-Rezeptor 2) bindet, die Bindung von VEGF-A-, VEGF-C- und VEGF-D-Liganden blockiert und ihre nachgelagerten pro-angiogenen Signalisierungskaskaden unterbricht.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Nach allgemeinem Wissen ist Ramucirumab ein VEGFR-2-Antagonist. Seine Wirksamkeit beim Magenkarzinom ist belegt, und mechanistisch könnte eine Hemmung der Angiogenese auch bei Adenokarzinomen des weiblichen Genitaltrakts relevant sein, sofern diese von VEGF-Signalwegen abhängen.
 
-Seine Antitumorwirksamkeit bei Magen- und GEJ-Adenokarzinomen wurde in pivotalen Phase-3-Studien etabliert (REGARD, RAINBOW). Durch die Ausrichtung auf Tumorvaskulatur statt auf Krebszellen direkt ist der Mechanismus theoretisch auf jeden soliden Tumor mit signifikanter VEGFR-2-abhängiger Angiogenese anwendbar — eine Begründung, die bereits Zulassungserweiterungen auf NSCLC, kolorektales Karzinom und hepatozelluläres Karzinom in mehreren Jurisdiktionen unterstützt hat.
+Magenkarzinom und das vorhergesagte Adenokarzinom sind beides Adenokarzinome. Für die gynäkologischen Tumoren gibt es jedoch keine ramucirumab-spezifischen Daten. Der hohe TxGNN-Wert spiegelt die Nähe im Wissensgraphen zu verwandten Tumoren wider und ist kein Wirksamkeitsnachweis. Die Erkrankung ist zudem sehr selten.
 
-Sobald TxGNN-Vorhersagedaten verfügbar werden, kann die Mechanismus-Krankheits-Übereinstimmung formal bewertet werden.
+Weitere vorhergesagte Indikationen in den Rängen 2 bis 10 betreffen überwiegend Zervix- und Lig.-uteri-Karzinome (z. B. endozervikales Karzinom, adenoidzystisches Karzinom der Cervix uteri). Auch sie sind ausschließlich modellbasiert. Beim endozervikalen Karzinom ist die Anti-VEGF-Therapie (Bevacizumab) bei persistierendem, rezidivierendem oder metastasiertem Zervixkarzinom etabliert; dies liefert einen indirekten Hinweis, aber keinen Beleg für Ramucirumab.
+
+---
+
+## Klinische Studien
+
+Derzeit sind keine zugehörigen klinischen Studien registriert.
+
+---
+
+## Literaturnachweise
+
+Derzeit liegt keine zugehörige Literatur vor.
+
+---
+
+## Marktinformationen Deutschland
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/002829 | Cyramza (Eli Lilly Nederland B.V.) | – | Stomach Neoplasms (Magenkarzinom); Status: erloschen |
 
 ---
 
 ## Zytotoxizität
 
-| Element | Angaben |
-|---------|--------|
-| Zytotoxizitäts-Klassifizierung | Gezielte Therapie — Anti-VEGFR-2-Monoklonalantikörper (antiangiogenetisch) |
-| Myelosuppressions-Risiko | Niedrig bis moderat (Neutropenie wurde berichtet; erheblich weniger schwerwiegend als konventionelle zytotoxische Chemotherapie) |
-| Emetogenitäts-Klassifizierung | Niedrig |
-| Überwachungselemente | Blutdruck (Hypertonie ist ein Klasseneffekt von Anti-VEGF-Wirkstoffen), Urinalyse auf Proteinurie, Blutbild mit Differenzial, Leberfunktion, Wundheilungsstatus |
-| Handhabungsschutz | Standard-Handhabungsprotokolle für Biologika gelten; nicht als konventioneller zytotoxischer Wirkstoff klassifiziert, der zytotoxische Verschüttungs-Kits oder HEPA-geschützte Zubereitungsbereiche erfordert |
+| Punkt | Inhalt |
+|------|------|
+| Klassifikation | Zielgerichtete Therapie (monoklonaler Antikörper gegen VEGFR-2), kein klassisches Zytostatikum |
+| Myelosuppressionsrisiko | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Emetogenität | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Überwachungsparameter | Bitte Fachinformation beachten |
+| Handhabungsschutz | Bitte Fachinformation beachten |
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+**Wechselwirkungen (Datenbankabfrage abgeschlossen, 100 Einträge insgesamt):**
+
+Die Abfrage zeigt zahlreiche Wechselwirkungen, darunter vor allem solche mit erhöhtem Blutungsrisiko durch Substanzen, die Gerinnung oder Thrombozytenfunktion beeinflussen. Beispiele der Einstufung **Schwerwiegend (Major)**:
+
+- Acetylsalicylsäure
+- Antikoagulanzien und Thrombolytika: Apixaban, Betrixaban, Dalteparin, Bivalirudin, Alteplase, Antithrombin III (human), Defibrotid
+- Thrombozytenaggregationshemmer: Clopidogrel, Cilostazol, Abciximab, Cangrelor, Caplacizumab
+- Deferasirox
+- Radiopharmaka/Antikörper: Ibritumomab tiuxetan, Tositumomab (auch I-131)
+
+Einstufung **Moderat**: Dexfenfluramin, Fenfluramin, Sibutramin.
+
+Angaben zu Warnhinweisen und Kontraindikationen aus der Fachinformation liegen nicht vor. Bitte die Fachinformation zu Rate ziehen.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Halten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Dem Evidence Pack fehlen alle drei Voraussetzungen für eine Repositionierungs-Evaluierung — TxGNN-Vorhersage-Ausgabe, Sicherheits-/Kontraindikationsdaten und Zulassungsunterlagen für den deutschen Markt — so dass es unmöglich ist, sowohl therapeutische Chancen als auch Risikoprofil zu diesem Zeitpunkt zu bewerten.
+Die Vorhersage stützt sich ausschließlich auf das TxGNN-Modell (Evidenzgrad L5). Es gibt weder klinische Studien noch Publikationen für die vorhergesagte Indikation, die Erkrankung ist sehr selten, und die einzige deutsche Zulassung ist erloschen.
 
-**Um fortzufahren, wird folgendes benötigt:**
-
-- **TxGNN-Vorhersagen** (`predicted_indications`) müssen für Ramucirumab generiert werden, bevor eine Indikationsbewertung durchgeführt werden kann
-- **Packungsbeilage-Warnungen und Kontraindikationen** — TFDA-PDF-Analyse wurde erfolgreich protokolliert (Abfrage 4), es wurden jedoch keine Daten zurückgegeben; dieses Problem muss behoben werden
-- **Arzneimittelwechselwirkungsdaten** — Die DDI-Abfrage gab `not_found` zurück; eine umfassendere Datenbanksuche (z. B. mit DrugBank, Lexicomp) wird empfohlen
-- **Deutschland BfArM/EMA-Genehmigungsprüfung** — Ramucirumab kann eine EMA-Marktgenehmigung besitzen, die in dieser Abfrage nicht erfasst wurde; eine direkte Suche in der EMA-Produktdatenbank wird empfohlen, um den tatsächlichen Marktstatus vor einer Klassifizierung als „nicht vermarktet" zu bestätigen
-- **MOA-Daten aus DrugBank** — Die DrugBank-Abfrage gab 1 Ergebnis zurück (Abfrage 3), aber `original_moa` wurde nicht ausgefüllt; der DrugBank-Datensatz sollte erneut analysiert werden, um Felder für Mechanismus, Kategorien und Toxizität zu extrahieren
-
+**Für ein Weiterverfolgen sind erforderlich:**
+- Fachinformation des BfArM mit Warnhinweisen und Kontraindikationen (Sicherheitsprüfung kann sonst nicht fortgesetzt werden)
+- Detaillierte Wirkmechanismus-Daten (MOA), z. B. aus DrugBank
+- Systematische Literatur- und Studienrecherche zu Ramucirumab bei gynäkologischen Adenokarzinomen, insbesondere Zervixkarzinom
+- Klärung des Zulassungsstatus und der Verfügbarkeit in Deutschland sowie der Applikationswege
+- Prüfung der Blutungsrisiken im Zusammenhang mit den gelisteten Wechselwirkungen
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

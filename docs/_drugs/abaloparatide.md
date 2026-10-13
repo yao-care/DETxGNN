@@ -29,77 +29,93 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-# ABALOPARATIDE: Bewertungsbericht zur Umwidmung von Arzneimitteln
+# Abaloparatid: Von postmenopausaler Osteoporose zu nicht-syndromischer Ösophagusfehlbildung
 
-## Einsätzige Zusammenfassung
+## Zusammenfassung
 
-Abaloparatide ist ein synthetisches Peptidanalog des Parathormon-bezogenen Proteins (PTHrP), das international zur Behandlung der postmenopausalen Osteoporose zugelassen ist (vermarktet als Tymlos® in den USA). Das TxGNN-Modell hat **keine vorhergesagten neuen Indikationen** für dieses Arzneimittel generiert, und das Evidenzpaket enthält erhebliche Datenlücken in regulatorischen, Sicherheits- und mechanistischen Bereichen.
+Abaloparatid ist ein PTHrP-Analogon (Parathormon-verwandtes Peptid), das ursprünglich zur Behandlung der postmenopausalen Osteoporose eingesetzt wird.
+Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **nicht-syndromischer Ösophagusfehlbildung** voraus.
+Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage beruht allein auf dem Modell.
 
 ---
 
-## Schneller Überblick
+## Schnellübersicht
 
 | Punkt | Inhalt |
-|-------|--------|
-| Ursprüngliche Indikation | Nicht in Taiwan aufgeführt (keine TFDA-Lizenzen); international zur Behandlung der postmenopausalen Osteoporose zugelassen |
-| Vorhergesagte neue Indikation | — (Keine TxGNN-Vorhersagen verfügbar) |
-| TxGNN-Vorhersagepunktzahl | — |
-| Evidenzgrad | Nicht zutreffend — Keine Vorhersagen zur Bewertung verfügbar |
-| Status auf dem Taiwan-Markt | ✗ Nicht vermarktet (Nicht vermarktet) |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | **Zurückstellen** |
+|------|------|
+| Ursprüngliche Indikation | Postmenopausale Osteoporose; Osteoporose |
+| Vorhergesagte neue Indikation | Nicht-syndromische Ösophagusfehlbildung |
+| TxGNN-Vorhersagewert | 99,84 % |
+| Evidenzgrad | L5 |
+| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
+| Anzahl der Zulassungen | 1 (0 gültig, 1 erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Warum ist diese Vorhersage plausibel?
 
-Es gibt derzeit **keine vorhergesagten Indikationen von TxGNN** für Abaloparatide, daher kann eine Bewertung der mechanistischen Plausibilität zu diesem Zeitpunkt nicht durchgeführt werden.
+Abaloparatid ist ein Analogon des Parathormon-verwandten Peptids (PTHrP) und wirkt als Agonist am PTH1-Rezeptor (PTH1R). Es wirkt knochenaufbauend (anabol). In der Phase-3-Studie NCT01343004 senkte es bei postmenopausalen Frauen das Risiko neuer Knochenbrüche gegenüber Placebo; Hyperkalzämien traten seltener auf als unter Teriparatid. Detaillierte Mechanismusdaten (MOA) liegen in den für diesen Bericht zusammengestellten Daten nicht vor.
 
-Zur Hintergrundinformation: Abaloparatide ist ein synthetisches 34-Aminosäure-Peptidanalog des humanen Parathormon-bezogenen Proteins (PTHrP). Es aktiviert selektiv den PTH1-Rezeptor in seiner RG-Konformation und fördert die osteoblastenvermittelte Knochenbildung, während es gleichzeitig eine transienterere Kalziumreaktion im Vergleich zu Teriparatid (PTH 1-34) erzeugt. Dieser anabole Mechanismus erhöht die Knochenmineraldichte und verringert das Frakturrisiko.
+Ein plausibler biologischer Zusammenhang zwischen der Osteoporose und einer angeborenen Ösophagusfehlbildung ist nicht erkennbar. Eine solche Fehlbildung ist ein entwicklungsbedingter Strukturdefekt, und für eine PTH1R-Signalwirkung bei Ösophaguserkrankungen gibt es keine etablierte therapeutische Rolle. Der hohe Vorhersagewert spiegelt vermutlich eher die Nähe im Wissensgraphen wider als eine biologische Begründung.
 
-Detaillierte Wirkmechanismus-Daten waren nicht in diesem Evidenzpaket verfügbar (aufgeführt als Datenlücke mit hohem Schweregrad). Sollten TxGNN-Vorhersagen in zukünftigen Iterationen verfügbar werden, könnte der PTHrP-Agonist-Mechanismus — mit seinen Auswirkungen auf die Kalziumhomöostase, das Knochenremodellieren und die mesenchymale Zellsignalisierung — möglicherweise für Indikationen über Osteoporose hinaus relevant sein.
+Weitere vom Modell vorhergesagte Indikationen sind gleichfalls rein spekulativ:
 
----
-
-## Evidenz aus klinischen Studien
-
-Es existieren derzeit keine vorhergesagten Indikationen von TxGNN; daher wurde keine indikationsspezifische Suche nach klinischen Studien durchgeführt.
-
----
-
-## Literaturgestützte Evidenz
-
-Es existieren derzeit keine vorhergesagten Indikationen von TxGNN; daher wurde keine indikationsspezifische Literatursuche durchgeführt.
+| Rang | Vorhergesagte Indikation | TxGNN-Wert | Einschätzung |
+|------|------|------|------|
+| 2 | Ösophaguserkrankung | 99,75 % | Zu unspezifisch; die Bezeichnung müsste vor einer Hypothesenprüfung auf eine konkrete Erkrankung eingegrenzt werden. |
+| 3 | Amenorrhoe | 99,72 % | Abaloparatid wirkt nicht auf die Hypothalamus-Hypophysen-Ovar-Achse. Möglich ist eine indirekte Assoziation über den gemeinsamen Östrogenmangel-Kontext. |
+| 4 | Ösophagusulkus | 99,02 % | Kein bekannter Mechanismus zwischen PTH1R-Agonismus und Schleimhautheilung; nur spekulativ. |
 
 ---
 
-## Taiwan-Marktinformationen
+## Klinische Evidenz
 
-Abaloparatide hat **keine von der TFDA zugelassenen Lizenzen** und wird **in Taiwan nicht vermarktet**. Es sind keine Zulassungsakten verfügbar.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
+
+---
+
+## Literaturevidenz
+
+Derzeit liegt keine zugehörige Literatur vor.
+
+---
+
+## Informationen zum Markt in Deutschland
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/005928 | Eladynos (Theramex Ireland Limited) | – | Postmenopausale Osteoporose; Osteoporose |
+
+Die einzige Zulassung ist erloschen (Status: cancelled). Das schränkt die praktische Entwicklung ein.
 
 ---
 
 ## Sicherheitsaspekte
 
-> Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
->
-> Hinweis: Warnhinweise/Kontraindikationen in der TFDA-Packungsbeilage wurden als Datenlücke mit **blockierendem Schweregrad** (DG001) identifiziert. Arzneimittelwechselwirkungsdaten wurden abgefragt, es wurden jedoch keine Ergebnisse zurückgegeben. Eine vollständige Sicherheitsbewertung kann nicht durchgeführt werden, bis Packungsbeilagen-Daten vorliegen.
+**Arzneimittelwechselwirkungen** (3 Einträge):
+- **Calcitriol (topisch)**: mittleres Interaktionsniveau (Moderate)
+- **Calcipotriol (topisch)**: mittleres Interaktionsniveau (Moderate)
+- **PTH1-Rezeptor**: pharmakologische Zielstruktur von Abaloparatid, keine klassische Wechselwirkung und ohne Schweregrad
+
+Für Warnhinweise und Gegenanzeigen bitte die Packungsbeilage beachten; die Daten der BfArM-Fachinformation konnten nicht ausgewertet werden.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Zurückstellen**
+**Entscheidung: Hold**
 
 **Begründung:**
-Es gibt derzeit keine vorhergesagten neuen Indikationen von TxGNN für Abaloparatide, und es existieren erhebliche Datenlücken in den Bereichen Wirkmechanismus, regulatorische Anforderungen und Sicherheit. Ohne eine vorhergesagte Indikation kann eine Bewertung der Arzneimittelumwidmung nicht durchgeführt werden.
+Es gibt weder klinische Studien noch Publikationen; die Vorhersage (Evidenzgrad L5) beruht allein auf Wissensgraph-Nähe. Ein biologisch plausibler Zusammenhang mit Ösophagusfehlbildungen fehlt, und die einzige deutsche Zulassung ist erloschen.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- **TxGNN-Vorhersageergebnisse**: Das TxGNN-Modell erneut ausführen oder überprüfen, um zu bestimmen, ob neue Indikationen für Abaloparatide (DB05084) vorhergesagt werden
-- **Wirkmechanismus-Daten (DG002)**: Die DrugBank-API für vollständige MOA, pharmakodynamische Ziele und Pfadinformationen abfragen
-- **TFDA-Packungsbeilage (DG001)**: Die Packungsbeilage für Warnhinweise, Kontraindikationen und Verschreibungsinformationen beschaffen und parsen (falls zutreffend aus dem Referenzland)
-- **Bewertung des Zulassungswegs**: Da das Arzneimittel nicht in Taiwan vermarktet wird, bewerten Sie, ob ein internationales Zulassungsdossier (z. B. von FDA oder EMA) für eine etwaige zukünftige Umwidmungsanwendung genutzt werden kann
-
+**Für ein Weiterkommen ist Folgendes erforderlich:**
+- Detaillierte Mechanismusdaten (MOA), z. B. über DrugBank
+- Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) der BfArM
+- Präklinische Daten oder mechanistische Hinweise, die eine Rolle des PTH1R-Signalwegs in der Ösophagusentwicklung oder -heilung belegen
+- Eingrenzung der unspezifischen Vorhersagen (z. B. „Ösophaguserkrankung") auf konkrete Krankheitsbilder
+- Klärung der Zulassungs- und Verfügbarkeitslage, einschließlich der Gründe für das Erlöschen der Zulassung
+- Prüfung der Anwendungswege (Applikationsrouten), die derzeit offen ist
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

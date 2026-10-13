@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Cabozantinib
-parent: Nur Modellvorhersage (L5)
-nav_order: 80
-evidence_level: L5
+parent: Mittlere Evidenz (L3-L4)
+nav_order: 90
+evidence_level: L3
 indication_count: 10
 ---
 
 # Cabozantinib
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,68 +29,104 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Cabozantinib: Kandidat für Arzneimittelneuzulassung — Ausstehende TxGNN-Bewertung
+# Cabozantinib: Vom Nierenzellkarzinom/Leberzellkarzinom zum Liposarkom
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Cabozantinib (DB08875) ist ein Kleinmolekül-Kinase-Inhibitor mit etablierter antineoplastischer Aktivität, derzeit **nicht auf dem taiwanischen Markt** und ohne eingetragene zugelassene Indikationen in diesem Nachweispaket. Das Feld der durch TxGNN vorhergesagten Indikationen ist im aktuellen Nachweispaket **leer**, was bedeutet, dass noch kein Neuzulassungsziel generiert wurde. Dieser Bericht kann keine vollständige Neuzulassungsbewertung durchführen, bis die fehlenden Daten – insbesondere TxGNN-Vorhersagen, ursprüngliche Indikationsdaten und MOA-Details – bereitgestellt werden.
+Cabozantinib ist ein Multikinase-Inhibitor, der ursprünglich zur Behandlung des Nierenzellkarzinoms, des hepatozellulären Karzinoms und von Schilddrüsentumoren zugelassen wurde. Das TxGNN-Modell sagt voraus, dass er beim **Liposarkom** wirksam sein könnte. Die Evidenz dafür ist bislang **dünn**: **1 Phase-2-Studie** (Weichteilsarkom allgemein) und **1 Publikation** (Phase-1-Studie bei Extremitätensarkomen) weisen in diese Richtung. Deutlich stärker ist die Datenlage für das **unklassifizierte Nierenzellkarzinom** (Rang 3) mit mehreren Phase-2-Studien und publizierten Ergebnissen.
 
 ---
 
-## Kurzübersicht
+## Schnellübersicht
 
 | Punkt | Inhalt |
-|-------|--------|
-| Ursprüngliche Indikation | Nicht in diesem Nachweispaket verfügbar |
-| Vorhergesagte neue Indikation | Nicht verfügbar — `predicted_indications` Array ist leer |
-| TxGNN-Vorhersage-Score | Nicht verfügbar |
-| Beweisniveau | L5 — Modellvorhersage noch nicht generiert |
-| Taiwan-Marktstatus | ✗ Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | **Halten** |
+|------|------|
+| Ursprüngliche Indikation | Nierenzellkarzinom; hepatozelluläres Karzinom |
+| Vorhergesagte neue Indikation | Liposarkom |
+| TxGNN-Vorhersagewert | 99,83 % |
+| Evidenzstufe | L3 |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen |
+| Anzahl der Zulassungen | 2 (beide aufgehoben) |
+| Empfohlene Entscheidung | Hold |
+
+Hinweis: Für das Liposarkom ist im Datensatz die Empfehlung „Research Question“ hinterlegt. Wegen der fehlenden liposarkomspezifischen Daten, der nicht verfügbaren Sicherheitsdaten aus der Fachinformation und des Zulassungsstatus wird hier **Hold** empfohlen.
+
+---
+
+## Warum ist diese Vorhersage plausibel?
+
+Für diesen Bericht liegen keine detaillierten Mechanismusdaten vor. Auf Basis der bekannten Informationen hemmt Cabozantinib die Kinasen VEGFR2, MET und AXL. Diese sind an Angiogenese und Tumorprogression bei Sarkomen beteiligt. Die Wirksamkeit bei Nierenzellkarzinom ist belegt, und mechanistisch könnte sie auf Sarkome übertragbar sein.
+
+Die Kombination mit Checkpoint-Inhibitoren (Ipilimumab, Nivolumab) könnte zusätzlich die Immunantwort im Tumormikroumfeld modulieren. Die vorliegenden Belege betreffen jedoch Weichteilsarkome insgesamt, nicht spezifisch das Liposarkom. Liposarkomspezifische Wirksamkeitsdaten fehlen.
+
+---
+
+## Evidenz aus klinischen Studien
+
+| Studiennummer | Phase | Status | Teilnehmerzahl | Zentrale Aussagen |
+|---------|------|------|------|---------|
+| [NCT05836571](https://clinicaltrials.gov/study/NCT05836571) | Phase 2 | Aktiv, Rekrutierung abgeschlossen | 66 | Randomisierter Vergleich von Ipilimumab + Nivolumab mit und ohne Cabozantinib bei fortgeschrittenem Weichteilsarkom; keine Ergebnisse verfügbar |
+
+---
+
+## Evidenz aus der Literatur
+
+| PMID | Jahr | Typ | Journal | Zentrale Aussagen |
+|------|-----|------|------|---------|
+| [41770651](https://pubmed.ncbi.nlm.nih.gov/41770651/) | 2026 | Phase-1-Studie | American Journal of Clinical Oncology | Sicherheit von neoadjuvantem Cabozantinib mit gleichzeitiger Strahlentherapie bei Extremitätensarkomen; Hintergrund ist die Sorge vor Fisteln und Perforationen |
+
+---
+
+## Informationen zum deutschen Markt
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/004163 | Cabometyx | – | Nierenzellkarzinom; hepatozelluläres Karzinom (aufgehoben) |
+| EMEA/H/C/002640 | Cometriq | – | Schilddrüsentumoren (aufgehoben) |
 
 ---
 
 ## Zytotoxizität
 
-Cabozantinib ist ein gut charakterisierter Multi-Kinase-Inhibitor (VEGFR2, MET, RET, AXL), der klinisch in der Onkologie eingesetzt wird und das antineoplastische Kriterium nach Arzneimittelklasse erfüllt. Obwohl das aktuelle Nachweispaket keine DrugBank-Kategorietags oder bestätigte MOA-Texte enthält, identifizieren der Arzneimittelname und die DrugBank-ID (DB08875) das Arzneimittel eindeutig als einen gezielten antineoplastischen Wirkstoff.
-
 | Punkt | Inhalt |
-|-------|--------|
-| Zytotoxizitätsklassifizierung | Zielgerichtete Therapie — Multi-Kinase-Inhibitor (kein konventionelles Zytotoxikum) |
-| Myelosuppressions-Risiko | Niedrig bis moderat (zielgerichtete Wirkstoffe führen zu einer geringeren hämatologischen Toxizität als konventionelle Zytotoxika; bitte mit der Gebrauchsinformation bestätigen) |
-| Emetogenitätsklassifizierung | Niedrig |
-| Überwachungselemente | CBC mit Differenzierung, Leberfunktion (AST/ALT), Nierenfunktion, Schilddrüsenfunktion, Blutdruck, Urinprotein |
-| Handhabungsschutz | Standardvorsichtsmaßnahmen für zielgerichtete Wirkstoffe; bitte die Anforderungen für die zytotoxische Handhabung gegen institutionelle Protokolle und genehmigte Kennzeichnung bestätigen |
-
-> Vollständige Toxizitätsdetails (Myelosuppressions-Inzidenz, spezifische Schwellenwerte) sind in diesem Nachweispaket nicht verfügbar. Bitte beachten Sie die genehmigten Warnhinweise und Vorsichtsmaßnahmen in der Gebrauchsinformation.
+|------|------|
+| Klassifikation | Zielgerichtete Therapie (Multikinase-Inhibitor) |
+| Myelosuppression-Risiko | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Emetogenität | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Überwachungsparameter | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Schutzmaßnahmen beim Umgang | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
 
 ---
 
-## Sicherheitsüberlegungen
+## Sicherheitsaspekte
 
-Bitte beachten Sie die Gebrauchsinformation für Sicherheitsinformationen.
+- **Arzneimittelwechselwirkungen**: Es wurden 100 Wechselwirkungen erfasst. Als **schwerwiegend (Major)** eingestuft sind u. a. Acetylsalicylsäure, Cisaprid, Clarithromycin, Dolasetron, Granisetron und Levofloxacin. Als **moderat** eingestuft sind u. a. Loperamid, Aprepitant, Dexamethason, Bisacodyl, Clotrimazol und Lactulose. Fidaxomicin ist als **gering (Minor)** eingestuft.
 
-> Wichtige Warnhinweise, Kontraindikationen und Arzneimittel-Wechselwirkungsdaten fehlen alle in diesem Nachweispaket (Datenlücke DG001). Die DDI-Abfrage hat null Ergebnisse zurückgegeben und kein TFDA-Kennzeichnungstext wurde analysiert. Es können keine Sicherheitsdaten hier ohne das Risiko von Ungenauigkeit gemeldet werden.
+Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Halten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Das Nachweispaket ist strukturell unvollständig – das `predicted_indications` Array ist leer und zwei blockierende/hochgradig schwere Datenlücken (DG001: TFDA-Kennzeichnungstext; DG002: MOA) bleiben ungelöst. Es gibt kein Neuzulassungsziel zu bewerten, und es steht keine Zusammenfassung von Sicherheitssignalen für die Risikobewertung zur Verfügung.
+Für das Liposarkom existieren nur indirekte Belege (eine laufende Phase-2-Studie bei Weichteilsarkomen ohne Ergebnisse und eine Phase-1-Studie). Zudem sind die Zulassungen in Deutschland aufgehoben und die Sicherheitsdaten aus der Fachinformation nicht verfügbar.
 
-**Um fortzufahren, wird Folgendes benötigt:**
+**Für ein Weiterkommen sind folgende Schritte nötig:**
+- Auswertung der Ergebnisse von NCT05836571 mit Subgruppenanalyse für das Liposarkom
+- Beschaffung und Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen)
+- Ergänzung detaillierter Mechanismusdaten (MOA)
+- Klärung der Produktverfügbarkeit in Deutschland
+- Prüfung des hohen Wechselwirkungsrisikos (100 erfasste Interaktionen)
 
-- **TxGNN-Vorhersagen** — führen Sie die TxGNN-Pipeline für DB08875 erneut aus und füllen Sie `predicted_indications` mit mindestens einer Kandidatenkrankheit
-- **Ursprüngliche Indikationsdaten** — rufen Sie den genehmigten Indikationstext aus der TFDA-Gebrauchsinformation ab (Abhilfe: TFDA-PDF herunterladen und analysieren)
-- **Wirkungsmechanismus (MOA)** — Abfrage der DrugBank-API für DB08875 Pharmakodynamik und Zielprofilierung (Abhilfe gemäß DG002)
-- **Sicherheitskennzeichnungstext** — analysieren Sie TFDA 仿單 auf wichtige Warnhinweise und Kontraindikationen (Abhilfe gemäß DG001)
-- **DDI-Daten** — erneute Abfrage der DDI-Datenbank; aktuelles Ergebnis ist `not_found` mit null Wechselwirkungen, was möglicherweise einen Abfragefehler widerspiegelt, anstatt eines echten Mangels an Wechselwirkungen
-- **Behördliche Quervalidierung** — obwohl Taiwan 0 Lizenzen aufweist, verfügt Cabozantinib über Genehmigungen in anderen Rechtsordnungen (EMA, FDA); eine länderübergreifende behördliche Recherche würde den behördlichen Kontext bereichern
+---
 
+## Ergänzender Hinweis: Weitere Vorhersagen
+
+- **Unklassifiziertes Nierenzellkarzinom** (Rang 3, Score 99,75 %, Evidenzstufe L2): mehrere Phase-2-Studien (u. a. NCT04413123, NCT03541902, NCT03635892) und publizierte Phase-2-Ergebnisse (PMID 35298296, 38782695). Empfehlung im Datensatz: *Proceed with Guardrails*. Es gibt keine Phase-3-Studie für diese spezifische Population, und die Studien sind klein (n = 32–98).
+- **Nierenzellkarzinom allgemein** (Rang 7): entspricht der ursprünglichen Indikation und ist kein echtes Repurposing. Mehrere Phase-3-Studien (u. a. CheckMate 9ER, METEOR, CONTACT-03, COSMIC-313) belegen den Nutzen.
+- **Weitere Vorhersagen** (ovariales myxoides Liposarkom, Nierenzellkarzinom bei Neuroblastom, ALS, Polymikrogyrie, Angiolipom): ausschließlich modellbasiert ohne Studien- oder Literaturbelege, daher *Hold*.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Deferasirox
-parent: Mittlere Evidenz (L3-L4)
-nav_order: 115
-evidence_level: L4
+parent: Nur Modellvorhersage (L5)
+nav_order: 136
+evidence_level: L5
 indication_count: 5
 ---
 
 # Deferasirox
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **5** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,80 +29,94 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-# Deferasirox: Vom chronischen Eisenüberfluss zur HIV-Infektionskrankheit
+# Deferasirox: Von Eisenüberladung/β-Thalassämie zu HIV-Infektion
 
 ## Zusammenfassung in einem Satz
 
-> Deferasirox ist ein orales Eisenchelator, klinisch zur Behandlung eines chronischen Eisenüberfluss etabliert (z. B. transfusionsbedingter Eisenüberfluss).
-> Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam ist bei **HIV-Infektionskrankheit**,
-> derzeit unterstützt nur durch **0 klinische Studien** und **2 Publikationen**, beide auf vorklinischer/mechanistischer Ebene.
+Deferasirox ist ein Eisenchelator, der ursprünglich zur Behandlung von Eisenüberladung bei β-Thalassämie eingesetzt wurde.
+Das TxGNN-Modell sagt voraus, dass er bei **HIV-Infektion** wirksam sein könnte,
+doch bislang gibt es **keine klinischen Studien** und nur **2 Publikationen** (davon nur eine mit indirektem, präklinischem Bezug).
 
 ---
 
-## Schnelübersicht
+## Kurzüberblick
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Chronischer Eisenüberfluss (Eisenchelationstherapie) — nicht im Beweispaket dokumentiert; basierend auf etabliertem klinischen Wissen über Deferasirox |
-| Vorhergesagte neue Indikation | HIV-Infektionskrankheit |
-| TxGNN-Vorhersage-Score | 99.40% |
-| Evidenzstufe | L4 |
-| Deutschland Marktstatus | Nicht vermarktet |
-| Anzahl der Genehmigungen | 0 |
-| Empfohlene Entscheidung | Abwarten |
-
----
-
-## Warum ist diese Vorhersage sinnvoll?
-
-Derzeit sind detaillierte Wirkmechanismus-Daten für Deferasirox nicht in diesem Beweispaket verfügbar. Basierend auf bekannten klinischen Informationen ist Deferasirox ein orales Eisenchelator, das zur Verringerung eines chronischen Eisenüberfluss verwendet wird (z. B. bei transfusionsabhängigen Zuständen), und mechanistisch könnte es für jeden Krankheitsprozess relevant sein, bei dem die Verfügbarkeit von intrazellulärem freiem Eisen eine regulatorische Rolle spielt.
-
-Die einzige mechanistische Studie, die diese Vorhersage unterstützt (PMID 34550543), zeigt, dass die Einschränkung von endolysosomalen Eisen die HIV-1-Tat-Oligomerisierung und β-Catenin-Expression erhöht, was wiederum die Tat-vermittelte Transaktivation des HIV-1-LTR-Promoters unterdrückt — ein in-vitro-Befund zu Eisenbiologie und HIV-Transkription. Diese Studie hat jedoch **nicht** Deferasirox selbst getestet, und die Auswirkung war nicht in infizierten Zellen, Tiermodellen oder Menschen validiert. Die Verbindung zwischen der Eisenchelierungs-Wirkung von Deferasirox und diesem Weg ist daher indirekt und nur hypothesegenerierend.
-
-Die zweite Referenz (PMID 16529348) ist ein allgemeiner „neue Medikamente"-Übersichtsartikel von 2006, der Deferasirox neben nicht verwandten Wirkstoffen nur kurz erwähnt, ohne HIV-spezifische Inhalte. Insgesamt ist die biologische Rationale im Prinzip plausibel (Eisenstoffwechsel schneidet sich mit mehreren Wegen der viralen Replikation), aber es gibt keine direkten experimentellen oder klinischen Belege dafür, dass Deferasirox antivirale Wirkung ausübt.
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Eisenüberladung; β-Thalassämie |
+| Vorhergesagte neue Indikation | HIV-Infektion |
+| TxGNN-Vorhersagewert | 99,40 % |
+| Evidenzgrad | L4 (nur präklinische/mechanistische Evidenz) |
+| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen (keine gültige Zulassung) |
+| Anzahl der Zulassungen | 3 (alle erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Evidenz aus klinischen Studien
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind keine zugehörigen klinischen Studien registriert
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Deferasirox ein Eisenchelator ist; seine Wirksamkeit bei Eisenüberladung ist belegt. Mechanistisch könnte der Eisenstoffwechsel auch bei HIV-1 eine Rolle spielen.
 
----
+Eine Studie von 2021 (PMID 34550543) berichtet, dass Eisen in Endolysosomen die Tat-vermittelte Transaktivierung des HIV-1-LTR einschränkt, indem es die Tat-Oligomerisierung und die β-Catenin-Expression erhöht. Das ergibt einen plausiblen, aber nur indirekten Zusammenhang zwischen Eisenhomöostase und HIV-1-Transkription.
 
-## Literaturevidence
-
-| PMID | Jahr | Typ | Journal | Wichtigste Erkenntnisse |
-|------|-----|-----|--------|------|
-| [34550543](https://pubmed.ncbi.nlm.nih.gov/34550543/) | 2021 | Mechanistisch/in vitro | Journal of NeuroVirology | Endolysosomale Eisenrestriktion erhöht die HIV-1-Tat-Oligomerisierung und β-Catenin-Expression, wodurch die Tat-vermittelte HIV-1-LTR-Transaktivation unterdrückt wird; Deferasirox selbst wurde nicht getestet |
-| [16529348](https://pubmed.ncbi.nlm.nih.gov/16529348/) | 2006 | Übersicht (allgemeiner Überblick über neue Arzneimittel, nicht HIV-spezifisch) | Journal of the American Pharmacists Association | Kurzer einleitender Überblick über neu zugelassene Arzneimittel einschließlich Deferasirox; kein HIV-bezogener Inhalt |
+Wichtig ist die Einschränkung: Ob eine Eisenchelierung die Virusreplikation bei Patienten beeinflusst, ist nicht belegt. Eisenentzug könnte sogar in beide Richtungen wirken, also die Transkription auch verstärken. Die zweite Publikation (PMID 16529348) ist ein allgemeiner Überblick über neue Arzneimittel und liefert keine Evidenz für HIV.
 
 ---
 
-## Marktinformation für Deutschland
+## Klinische Evidenz
 
-Deferasirox hat derzeit keine registrierten Marktzulassungen in Deutschland in diesem Beweispaket (Marktstatus: nicht vermarktet; Gesamtanzahl der Genehmigungen: 0).
+Derzeit sind keine zugehörigen klinischen Studien registriert.
+
+---
+
+## Literaturevidenz
+
+| PMID | Jahr | Typ | Zeitschrift | Zentrale Aussagen |
+|------|-----|------|------|---------|
+| [34550543](https://pubmed.ncbi.nlm.nih.gov/34550543/) | 2021 | Präklinisch/mechanistisch | Journal of Neurovirology | Endolysosomales Eisen schränkt die Tat-vermittelte HIV-1-LTR-Transaktivierung ein (erhöhte Tat-Oligomerisierung, mehr β-Catenin) |
+| [16529348](https://pubmed.ncbi.nlm.nih.gov/16529348/) | 2006 | Übersichtsarbeit | Journal of the American Pharmacists Association | Allgemeiner Überblick über neue Arzneimittel (u. a. Deferasirox); kein HIV-Bezug |
+
+---
+
+## Marktinformationen Deutschland
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/005014 | Deferasirox Mylan | – | Eisenüberladung; β-Thalassämie |
+| EMEA/H/C/005156 | Deferasirox Accord | – | Eisenüberladung; β-Thalassämie |
+| EMEA/H/C/000670 | Exjade | – | β-Thalassämie; Eisenüberladung |
+
+Alle drei Zulassungen sind erloschen.
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+- **Kontraindikationen aus dem Wissensgraphen (PrimeKG, nicht aus dem Beipackzettel):** Leberversagen, Lebererkrankung, Leberzirrhose, Nierenerkrankung, eingeschränkte Nierenfunktion, Thrombozytopenie, Neutropenie (einschließlich angeborener Formen), Agranulozytose, Anämie, Hyperbilirubinämie, Gilbert-Syndrom, Gallenblasenerkrankung, aktives Magengeschwür, okuläre Hypertension, Multiorganversagen und Krebserkrankungen.
+- **Arzneimittelwechselwirkungen:** Insgesamt wurden 100 Wechselwirkungen gefunden; Beispiele für **schwerwiegende (Major)** Wechselwirkungen:
+  - Kortikosteroide: Hydrocortison, Dexamethason, Betamethason, Triamcinolon
+  - Amphotericin B (konventionell, Lipidkomplex, Cholesterylsulfat, liposomal)
+  - Acetylsalicylsäure
+  - Mesalazin, Balsalazid
+- Beispiele für **moderate** Wechselwirkungen: Rabeprazol, Pioglitazon, Alosetron, Aprepitant, Clarithromycin, Saxagliptin, Aluminiumhydroxid, Cisaprid, Dexfenfluramin.
+
+Angaben zu Warnhinweisen und Kontraindikationen aus der Fachinformation liegen nicht vor; bitte die Fachinformation heranziehen.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Abwarten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die Evidenz für eine HIV-Indikation für Deferasirox ist auf eine einzelne in-vitro-mechanistische Studie beschränkt, die das Medikament nicht direkt getestet hat, ohne klinische Studien, ohne in-vivo-/Tiervalidation und ohne Marktzulassung in Deutschland. Dies reicht nicht aus, um zur klinischen Bewertung fortzuschreiten.
+Die Vorhersage stützt sich auf einen hohen Modellwert und eine einzelne indirekte präklinische Arbeit. Es gibt keine klinischen Studien, und die Wirkrichtung der Eisenchelierung bei HIV ist unklar. Zudem hat das Präparat in Deutschland keine gültige Zulassung, und die Fachinformation zur Sicherheit fehlt.
 
-**Um fortzufahren, werden folgende Punkte benötigt:**
-- Deferasirox-spezifische antivirale Wirksamkeitsdaten (in-vitro-HIV-Infektionsmodelle, dann in-vivo)
-- Bestätigte Wirkmechanismus-Dokumentation (MOA) von DrugBank oder Primärliteratur
-- TFDA/BfArM-Fachinformation — kritische Warnhinweise, Gegenanzeigen und Arzneimittelwechselwirkungen (derzeit alle Datenlücken)
-- Ursprüngliche Indikation und Zulassungsdetails zur angemessenen Bewertung der Umwidmungs-Begründung
-
+**Für das weitere Vorgehen wird Folgendes benötigt:**
+- Detaillierte Wirkmechanismus-Daten (MOA)
+- Fachinformation mit Warnhinweisen und Kontraindikationen (blockierend für die Sicherheitsprüfung)
+- Gezielte präklinische Untersuchungen (Zellkultur), ob Deferasirox die HIV-Replikation hemmt oder fördert
+- Prüfung der Sicherheit bei HIV-Patienten, insbesondere bei Leber- und Nierenfunktion sowie Blutbild, und der Wechselwirkungen mit antiretroviraler Therapie
+- Klärung des Zulassungsstatus bzw. der verfügbaren Präparate in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

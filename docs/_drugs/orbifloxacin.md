@@ -2,7 +2,7 @@
 layout: default
 title: Orbifloxacin
 parent: Nur Modellvorhersage (L5)
-nav_order: 282
+nav_order: 330
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,77 +29,90 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Orbifloxacin: Von veterinärmedizinischen Bakterieninfektionen zu Herzerkrankungen
+# Orbifloxacin: Von einem veterinärmedizinischen Antibiotikum zu Herzerkrankung (vorhergesagt)
 
 ## Zusammenfassung in einem Satz
 
-Orbifloxacin ist ein Fluorchinolon-Antibiotikum, das für die veterinärmedizinische Verwendung entwickelt wurde (keine bestätigte Indikation beim Menschen oder Wirkmechanismus-Daten in diesem Evidenzpaket). Die Top-Rangfolge-Vorhersage des TxGNN-Modells ist **Herzerkrankung**, aber dieser Kandidat hat **keine klinischen Studien** und **keine relevante Literatur**, und die mechanistische Überprüfung des Evidenzpakets kennzeichnet ihn als wahrscheinlich Modellrauschen – Fluorchinolone sind mechanistisch nicht mit Herzerkrankungen verbunden und sind stattdessen für kardiovaskuläre Sicherheitsrisiken bekannt (QT-Verlängerung).
+Orbifloxacin ist ein Fluorchinolon-Antibiotikum für die Tiermedizin, das gegen bakterielle Infektionen eingesetzt wird. Das TxGNN-Modell sagt einen möglichen Nutzen bei **Herzerkrankung** voraus, doch dafür gibt es **keine klinischen Studien** und **keine passende Literatur**. Die Vorhersage beruht allein auf dem Modell.
 
 ---
 
-## Schnellübersicht
+## Kurzüberblick
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Nicht dokumentiert im Evidenzpaket (veterinärmedizinisches Fluorchinolon-Antibiotikum gemäß Wirkstoffklasse) |
-| Prognostizierte neue Indikation | Herzerkrankung |
-| TxGNN-Vorhersage-Score | 99.94% |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | In den Daten nicht angegeben (laut Mechanismusbeschreibung: bakterielle Infektionen bei Tieren) |
+| Vorhergesagte neue Indikation | Herzerkrankung |
+| TxGNN-Vorhersagewert | 99,94 % |
 | Evidenzstufe | L5 |
-| Marktstatus Deutschland | ✗ Nicht vermarktet |
-| Anzahl der Genehmigungen | 0 |
-| Empfohlene Entscheidung | Aussetzen |
+| Marktstatus in Deutschland | Nur erloschene Zulassung |
+| Anzahl der Zulassungen | 1 |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Warum ist diese Vorhersage (nicht) plausibel?
 
-Detaillierte Daten zum Wirkmechanismus sind für Orbifloxacin in diesem Evidenzpaket nicht verfügbar. Basierend auf bekannten Wirkstoffklassen-Informationen ist Orbifloxacin ein Fluorchinolon-Antibiotikum, das bakterielle DNA-Gyrase und Topoisomerase IV hemmt – ein Mechanismus ohne etablierte biologische Verbindung zu Herzerkrankungen.
+Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Orbifloxacin gehört zu den Fluorchinolonen und hemmt als Antibiotikum die bakterielle DNA-Gyrase und die Topoisomerase IV. Dieser Mechanismus wirkt gegen Bakterien, nicht gegen Herzerkrankungen.
 
-Wichtiger ist, dass die mit diesem Kandidaten bereitgestellte Umpositionierungs-Rationale die Vorhersage selbst als wahrscheinlich **Modellrauschen** kennzeichnet: Fluorchinolone als Wirkstoffklasse sind mit einem bekannten kardiovaskulären Sicherheitssignal verbunden (QT-Intervall-Verlängerung und Kardiotoxizität), was das Gegenteil einer therapeutischen Begründung für Herzerkrankungen ist. Alle zehn der Top-bewerteten Vorhersagen von TxGNN für dieses Arzneimittel (Herzerkrankung, mehrere angeborene/chromosomale Syndrome, Herzklappenstörungen) weisen keine unterstützenden klinischen Studien oder Literatur-Evidenzen auf, und die Rationale für jede unabhängig voneinander kommt zu dem Schluss, dass es keine plausible mechanistische Verbindung gibt.
+Eine mechanistische Verbindung zwischen der antibakteriellen Wirkung und einer Herzerkrankung wurde nicht gefunden. Der hohe Vorhersagewert ist eine graphbasierte Modellvorhersage ohne klinische oder präklinische Belege.
 
-Angesichts dessen sollte die Vorhersage nicht als echtes Umpositionierungs-Signal interpretiert werden, sondern als ein Artefakt des Embedding-Raums, das zu diesem Zeitpunkt keine weitere mechanistische Rechtfertigung erfordert.
+Fluorchinolone sind außerdem mit Herzrisiken verbunden, etwa QT-Verlängerung und Warnhinweisen zu Aortenaneurysma und -dissektion. Das spricht gegen diese Indikation.
 
----
-
-## Klinische Studien-Evidenz
-
-Derzeit sind keine verwandten klinischen Studien registriert.
+Auch die übrigen neun vorhergesagten Erkrankungen zeigen keinen plausiblen Mechanismus. Dazu gehören das Laubry-Pezzi-Syndrom, verschiedene Formen des Pierre-Robin-Syndroms, die partielle Deletion des langen Arms von Chromosom 7, das orofaziale Spaltsyndrom, Erkrankungen der Pulmonal- und Mitralklappe, Störungen der Fucoglykan-Synthese und das Jeune-Syndrom mit Situs inversus. Alle sind Modellvorhersagen mit Evidenzstufe L5.
 
 ---
 
-## Literatur-Evidenz
+## Klinische Evidenz
 
-Derzeit ist keine verwandte Literatur verfügbar.
-
-*(Hinweis: eine nicht verwandte pharmakokinetische Studie, PMID [22029792](https://pubmed.ncbi.nlm.nih.gov/22029792/), wurde für eine niedriger bewertete, mechanistisch nicht verwandte Vorhersage – „Störung der Fukoglykoosan-Synthese" – zurückgegeben und unterstützt nicht die Herzerkrankungs-Indikation.)*
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Marktstatus Deutschland
+## Literaturevidenz
 
-Orbifloxacin hat keine Vermarktungsgenehmigungen in Deutschland (0 Lizenzen verzeichnet); das Arzneimittel ist derzeit nicht vermarktet.
+Für die Vorhersage „Herzerkrankung" liegt derzeit keine zugehörige Literatur vor.
+
+Für die Vorhersage auf Rang 8 (Störung der Fucoglykan-Synthese) wurden zwei Veröffentlichungen gefunden. Sie sind für diese Indikation nicht relevant:
+
+| PMID | Jahr | Typ | Journal | Kernaussagen |
+|------|-----|------|------|---------|
+| [22029792](https://pubmed.ncbi.nlm.nih.gov/22029792/) | 2011 | Präklinische veterinärmedizinische PK-Studie | British Poultry Science | Pharmakokinetik von Orbifloxacin bei gesunden und mit Pasteurella multocida infizierten Enten. Die Serumkonzentrationen waren bei erkrankten Tieren höher. |
+| [40883777](https://pubmed.ncbi.nlm.nih.gov/40883777/) | 2025 | Präklinische PK/PD-Studie (Tier) | BMC Veterinary Research | PK/PD-Kennzahlen von Orbifloxacin gegen Staphylococcus aureus im neutropenischen Maus-Oberschenkelinfektionsmodell. |
 
 ---
 
-## Sicherheitsüberlegungen
+## Informationen zum deutschen Markt
 
-Weitere Sicherheitsinformationen finden Sie in der Packungsbeilage. TFDA-Etikett-Warnungen/Kontraindikationen und DDI-Daten sind derzeit nicht verfügbar (gekennzeichnet als blockierender Datenlücke im Quell-Evidenzpaket), was selbst eine Sicherheits-Vor-Screening für diesen Kandidaten ausschließt.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/V/C/000122 | Posatex | nicht angegeben | nicht angegeben (Zulassung erloschen) |
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Sicherheitsaspekte
 
-**Entscheidung: Aussetzen**
+Zu Warnhinweisen und Gegenanzeigen liegen in den für diesen Bericht zusammengestellten Daten keine Angaben vor. Bitte die Fachinformation heranziehen.
 
-**Rationale:**
-Die Top-Vorhersage (Herzerkrankung, Score 99.94%) hat keine unterstützenden klinischen Studien oder Literatur, und die mechanistische Analyse des Evidenzpakets selbst kennzeichnet sie als wahrscheinlich Modellrauschen, widersprochen durch das bekannte Kardiotoxizitäts-Risiko von Fluorchinolonen. Alle anderen Top-10-Vorhersagen sind ähnlich nicht unterstützte angeborene/genetische Syndrome ohne plausible Verbindung zum antibakteriellen Mechanismus des Arzneimitels. Das Arzneimittel ist auch nicht in Deutschland vermarktet und hat keine bestätigte Indikation beim Menschen.
+Allgemein bekannt ist, dass Fluorchinolone mit QT-Verlängerung und Warnungen zu Aortenaneurysma und -dissektion verbunden sind. Das ist für eine kardiale Indikation besonders relevant. In der Schwangerschaft wird die Anwendung im Allgemeinen vermieden.
 
-**Folgendes ist erforderlich, um fortzufahren:**
-- TFDA/offizielle Etikett-Daten (Warnungen, Kontraindikationen) zur Behebung der blockierenden Datenlücke (DG001)
-- Bestätigter Wirkmechanismus über DrugBank (DG002)
-- Jegliche reale oder präklinische Evidenz, die Fluorchinolon-Pharmakologie spezifisch mit Herz-Kreislauf-Erkrankungen verbindet, bevor dieser Kandidat erneut berücksichtigt wird
-- Angesichts der aktuellen Ergebnisse wird empfohlen, diesen Kandidaten in der Umpositionierungs-Pipeline ohne neue Evidenz zu deprioritisieren
+Zu Arzneimittelwechselwirkungen wurden keine Einträge gefunden.
 
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Hold**
+
+**Begründung:**
+Die Vorhersage beruht ausschließlich auf einem Modell (L5). Es gibt keine klinischen Studien, keine relevante Literatur und keinen plausiblen Mechanismus. Zudem ist das Herzsicherheitsprofil der Fluorchinolone ungünstig. Die einzige Zulassung in Deutschland ist erloschen.
+
+**Für ein Weiterkommen wäre Folgendes nötig:**
+- Prüfung, ob die Vorhersage biologisch überhaupt plausibel ist (derzeit keine mechanistische Verbindung erkennbar)
+- Beschaffung der Fachinformation mit Warnhinweisen und Gegenanzeigen, die als blockierende Datenlücke gilt
+- Ergänzung der Daten zum Wirkmechanismus aus DrugBank
+- Klärung der ursprünglichen Indikation und der Darreichungsformen
+- Präklinische Evidenz, bevor überhaupt klinische Studien erwogen werden
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

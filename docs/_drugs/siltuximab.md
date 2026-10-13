@@ -2,7 +2,7 @@
 layout: default
 title: Siltuximab
 parent: Nur Modellvorhersage (L5)
-nav_order: 364
+nav_order: 428
 evidence_level: L5
 indication_count: 8
 ---
@@ -29,79 +29,99 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **8**
 
 </div>
 
-# Siltuximab: Von der multizentrische Castleman-Krankheit zum extrakutanen Mastozytom
+# Siltuximab: Vom Castleman-Syndrom (Riesenlymphknotenhyperplasie) zum extrakutanen Mastozytom
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Siltuximab ist ein monoklonaler Anti-IL-6-Antikörper, dessen etablierte Anwendung die multizentrische Castleman-Krankheit (MCK) ist, eine seltene lymphoproliferative Störung, die durch IL-6-Dysregulation angetrieben wird. Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam für **extrakutanes Mastozytom** ist, aber diese Einstufung basiert rein auf Netzwerk-Vorhersage — **keine klinischen Studien und keine Literatur** unterstützen derzeit diese spezifische Richtung.
+Siltuximab ist ein chimärer monoklonaler Antikörper gegen Interleukin-6 (IL-6) und wurde ursprünglich zur Behandlung der Riesenlymphknotenhyperplasie (Castleman-Krankheit) zugelassen.
+Das TxGNN-Modell sagt voraus, dass der Wirkstoff bei **extrakutanem Mastozytom** wirksam sein könnte.
+Dafür liegen jedoch **keine klinischen Studien und keine Publikationen** vor; die Vorhersage beruht allein auf dem Modell.
 
 ---
 
-## Schnellübersicht
+## Kurzüberblick
 
-| Merkmal | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Multizentrische Castleman-Krankheit (MCK) *(hergeleitet aus dem Begründungstext des Evidenzpakets; nicht separat bestätigt im strukturierten `original_indications`-Feld)* |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Riesenlymphknotenhyperplasie (Giant Lymph Node Hyperplasia) |
 | Vorhergesagte neue Indikation | Extrakutanes Mastozytom |
-| TxGNN-Vorhersage-Score | 99.64% |
-| Evidenzgrad | L5 (rein Modellvorhersage, keine unterstützenden Studien) |
-| Marktstatus Deutschland | ✗ Nicht vermarktet |
-| Anzahl der Genehmigungen | 0 |
-| Empfohlene Entscheidung | Zurückstellen |
+| TxGNN-Vorhersagewert | 99,64 % |
+| Evidenzgrad | L5 |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
+| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 aufgehoben) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage vernünftig?
+## Warum ist diese Vorhersage plausibel?
 
-Strukturierte Wirkmechanismus-Daten sind für dieses Arzneimittel nicht verfügbar (`original_moa` = Datenlücke). Basierend auf dem Begründungstext des Evidenzpakets ist Siltuximab ein rekombinanter chimärer monoklonaler Anti-IL-6-Antikörper, und seine etablierte Wirksamkeit liegt bei der IL-6-gesteuerten multizentrische Castleman-Krankheit.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Siltuximab ist ein gegen IL-6 gerichteter chimärer monoklonaler Antikörper. Seine Wirksamkeit bei der Castleman-Krankheit, einer IL-6-getriebenen lymphoproliferativen Erkrankung, ist belegt.
 
-Für die am höchsten bewertete Vorhersage, extrakutanes Mastozytom, ist der mechanistische Fall schwach. Einige Literatur hat hypothesiert, dass IL-6 die Mastzellproliferation und -aktivierung fördern kann, was eine vage biologische Begründung für die IL-6-Blockade bei Mastzellstörungen bietet. Es gibt jedoch **keine direkten Belege**, die Siltuximab speziell mit dieser seltenen Mastozytom-Variante verbinden — das Evidenzpaket stellt ausdrücklich fest, dass dies „rein eine TxGNN-Netzwerk-Vorhersage ist, der mechanistische Validierungsdaten fehlen."
+Die Verbindung zum Mastozytom stützt sich ausschließlich auf die Vorhersage des Wissensgraphen (Score 0,996). Weder klinische Studien noch Literatur belegen eine IL-6-Blockade bei dieser Erkrankung, und die mechanistische Begründung ist nicht etabliert. Der Zusammenhang zur ursprünglichen Indikation wurde bisher nicht bewertet.
 
-Da es keinerlei klinische Studien oder Literatur für diese Indikation gibt, sollte die mechanistische Verbindung nur als Forschungshypothese behandelt werden, nicht als validiertes Repurposing-Signal.
+### Weitere vorhergesagte Indikationen
 
----
-
-## Evidenz klinischer Studien
-
-Derzeit sind keine zugehörigen klinischen Studien registriert.
-
----
-
-## Literaturbelege
-
-Derzeit sind keine zugehörigen Literaturquellen verfügbar.
+| Rang | Erkrankung | Score | Evidenzgrad | Einschätzung |
+|------|------|------|------|------|
+| 2 | Leberinfarkt | 99,44 % | L5 | IL-6 hat hepatoprotektive Funktionen; eine Blockade könnte schädlich sein. |
+| 3 | Hepatische venookklusive Erkrankung | 99,40 % | L5 | Plausible, aber nicht validierte Hypothese (Endothelschaden, Zytokine nach Stammzelltransplantation). |
+| 4 | Peliosis hepatis | 99,29 % | L5 | Kein direkter mechanistischer oder klinischer Beleg. |
+| 5 | Kaposi-Sarkom | 99,28 % | L4 | Biologisch plausibler indirekter Link über KSHV/HHV-8 und virales sowie humanes IL-6. |
+| 6 | Familiäres Mittelmeerfieber (autosomal-rezessiv) | 99,22 % | L5 | Haupttreiber ist IL-1; IL-1-Blockade und Colchicin sind Standard. |
+| 7 | Aggressive systemische Mastozytose | 99,16 % | L5 | KIT-getrieben; IL-6 ist eher Biomarker als Therapieziel. |
+| 8 | Autosomal-dominantes familiäres periodisches Fieber | 99,05 % | L5 | IL-1-Blockade ist Standard; kein direkter Beleg für Siltuximab. |
 
 ---
 
-## Marktstatus Deutschland
+## Literaturevidenz
 
-Siltuximab wird derzeit nicht in Deutschland vermarktet (0 erfasste Genehmigungen); keine Produktlizenzinformationen sind in diesem Evidenzpaket verfügbar.
+Für die Hauptindikation (extrakutanes Mastozytom) liegt derzeit keine relevante Literatur vor.
+
+Für die Alternativindikation Kaposi-Sarkom wurde eine Publikation gefunden:
+
+| PMID | Jahr | Typ | Journal | Zentrale Aussage |
+|------|-----|------|------|---------|
+| [39970477](https://pubmed.ncbi.nlm.nih.gov/39970477/) | 2024 | Review | AIDS Reviews | Übersicht zu den Ursachen der Castleman-Krankheit (u. a. virale Infektionen) und ihren Subtypen; keine Wirksamkeitsstudie zum Kaposi-Sarkom. |
+
+---
+
+## Marktinformationen Deutschland
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/003708 | Sylvant (Recordati Netherlands B.V.) | – | Riesenlymphknotenhyperplasie |
+
+Die Zulassung ist aufgehoben (Status: cancelled).
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+**Arzneimittelwechselwirkungen:** Insgesamt wurden 100 Wechselwirkungen erfasst. Beispiele aus der Auswertung:
 
-*(Hinweis: `key_warnings`, `contraindications` und Arzneimittel-Wechselwirkungsdaten sind alle in diesem Evidenzpaket als Datenlücken gekennzeichnet. TFDA/BfArM-Etikettwarnungen — gekennzeichnet als `DG001`, Blocking-Schweregrad — müssen vor jeder S1-Sicherheitsbewertung eingeholt werden.)*
+- **Schwerwiegend (Major):** Deferipron
+- **Mäßig (Moderate):** Simvastatin, Apixaban, Warfarin, Rivaroxaban, Dicoumarol, Lidocain, Hydrocodon, Theophyllin, Roflumilast, Aminophyllin, Oxtriphyllin, Tacrolimus, Fentanyl, Nifedipin, Tetanus-Toxoid-Impfstoff
+- **Gering (Minor):** Zinksalze (Sulfat, Acetat, Gluconat, Chlorid)
+
+Viele dieser Wechselwirkungen betreffen Substrate von Cytochrom-P450-Enzymen. IL-6-Blockade kann die Enzymaktivität normalisieren, daher ist bei Wirkstoffen mit enger therapeutischer Breite (z. B. Warfarin, Theophyllin, Tacrolimus) eine Überwachung sinnvoll.
+
+Angaben zu Warnhinweisen und Gegenanzeigen aus der Fachinformation liegen nicht vor. Bitte die Fachinformation heranziehen.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Zurückstellen**
+**Entscheidung: Hold**
 
 **Begründung:**
-Diese Vorhersage wird nur durch den TxGNN-Modellscore (L5-Evidenzgrad) unterstützt, ohne klinische Studien und ohne Literatur. Der vorgeschlagene Mastzell-Wirkmechanismus ist spekulativ und wird im Evidenzpaket ausdrücklich als mangelnde mechanistische Validierungsdaten gekennzeichnet. Dies erfüllt derzeit nicht die Anforderungen für weitere Entwicklung.
+Die Vorhersage für extrakutanes Mastozytom beruht ausschließlich auf dem Modell (L5), ohne klinische Studien oder Literatur. Mastzellerkrankungen sind primär KIT-getrieben, und IL-6 gilt dort eher als Biomarker. Zudem ist die deutsche Zulassung aufgehoben.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- Detaillierte Wirkmechanismus-Daten (MOA) für Siltuximab (`DG002`)
-- TFDA/BfArM-Packungsbeilage — Warnhinweise und Kontraindikationen (`DG001`, Blocking — erforderlich vor jeder S1-Sicherheitsbewertung)
-- Gezielte Literatur- und klinische Studiensuche speziell für IL-6-Blockade bei Mastzellstörungen (aktuelles Paket hat null Treffer)
-- Bestätigung der ursprünglichen genehmigten Indikation(en) des Arzneimittels, da das strukturierte `original_indications`-Feld derzeit leer ist
-
-**Zusätzlicher Hinweis:** Unter den anderen Kandidaten in diesem Evidenzpaket hat **Kaposi-Sarkom** (Rang 5) eine stärkere evidenzielle Grundlage (L4, Entscheidungsstufe S1) über seine biologische Verbindung zur HHV-8-assoziierten multizentrische Castleman-Krankheit, und könnte eine separate, dedizierte Bewertung vor diesem Spitzenkandidat rechtfertigen.
-
+**Für ein Weiterkommen erforderlich:**
+- Mechanismusdaten (MOA) aus DrugBank ergänzen
+- Warnhinweise und Gegenanzeigen aus der Fachinformation einholen (derzeit blockierende Datenlücke für die Sicherheitsprüfung)
+- Präklinische Daten zu IL-6 bei Mastzellerkrankungen prüfen
+- Das Kaposi-Sarkom (L4, plausibler KSHV/IL-6-Link) als aussichtsreichere Forschungsfrage vertiefen
+- Klärung des Zulassungs- und Versorgungsstatus in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

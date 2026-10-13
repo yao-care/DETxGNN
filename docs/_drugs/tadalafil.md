@@ -2,7 +2,7 @@
 layout: default
 title: Tadalafil
 parent: Nur Modellvorhersage (L5)
-nav_order: 376
+nav_order: 441
 evidence_level: L5
 indication_count: 8
 ---
@@ -29,82 +29,96 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **8**
 
 </div>
 
-# Tadalafil: Von nicht aufgezeichneter ursprünglicher Indikation zu Ambras-Typ-Hypertrichosis universalis congenita
+# Tadalafil: Von Pulmonaler Hypertonie und erektiler Dysfunktion zu Ambras-Hypertrichosis (Hypertrichosis universalis congenita, Typ Ambras)
 
 ## Zusammenfassung in einem Satz
 
-> Das Evidenzpaket verzeichnet die ursprüngliche zugelassene Indikation oder den Wirkmechanismus von Tadalafil nicht (beide sind als Datenlücken gekennzeichnet), und das Arzneimittel wird derzeit **in Deutschland nicht vermarktet**.
-> Die Top-Vorhersage des TxGNN-Modells ist **Ambras-Typ-Hypertrichosis universalis congenita**, eine seltene angeborene Haarwuchsstörung,
-> aber diese wird durch **0 klinische Studien** und **0 Publikationen** gestützt — und die Begründung des Evidenzpakets selbst kennzeichnet sie als wahrscheinliches Netzwerkartefakt statt eines echten Signals.
+Tadalafil ist ein PDE5-Hemmer, der ursprünglich zur Behandlung der pulmonalen (arteriellen) Hypertonie und der erektilen Dysfunktion zugelassen wurde.
+Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei der **Ambras-Hypertrichosis (Hypertrichosis universalis congenita, Typ Ambras)** voraus,
+jedoch gibt es dafür **keine klinischen Studien** und **keine Publikationen**. Die Vorhersage beruht ausschließlich auf einem Graphmodell.
 
 ---
 
-## Schnellübersicht
+## Kurzüberblick
 
-| Element | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Nicht aufgezeichnet im Evidenzpaket (keine zugelassenen Indikationen oder Lizenzen in der Datei) |
-| Vorhergesagte neue Indikation | Ambras-Typ-Hypertrichosis universalis congenita |
-| TxGNN-Vorhersage-Score | 99.98% (rank 438) |
-| Evidenzebene | L5 |
-| Marktstatus in Deutschland | Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
+| Ursprüngliche Indikation | Pulmonale Hypertonie |
+| Vorhergesagte neue Indikation | Ambras-Hypertrichosis (Hypertrichosis universalis congenita, Typ Ambras) |
+| TxGNN-Vorhersagewert | 99,98 % |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
+| Anzahl der Zulassungen | 6 (alle erloschen) |
 | Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Warum ist diese Vorhersage (nicht) plausibel?
 
-Derzeit sind detaillierte Wirkmechanismus-Daten nicht verfügbar (original_moa: Data Gap). Auf Grundlage des pharmakolagischen Hintergrunds, der im Evidenzpaket selbst zitiert wird, ist Tadalafil ein Phosphodiesterase-Typ-5-(PDE5)-Hemmer, der über den cGMP/NO-Weg wirkt.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Tadalafil die Phosphodiesterase 5 (PDE5) hemmt, dadurch den cGMP-Spiegel erhöht und eine Gefäßerweiterung bewirkt. Dies erklärt die Wirkung bei pulmonaler Hypertonie und erektiler Dysfunktion.
 
-Es gibt jedoch **keine etablierte biologische Verbindung** zwischen PDE5/cGMP-Signalisierung und Ambras-Typ-Hypertrichosis universalis congenita, die eine seltene angeborene Störung des Haarfollikelwachstums mit unterschiedlicher genetischer Ätiologie ist. Die Begründung des Evidenzpakets selbst macht explizit deutlich, dass diese Vorhersage "keine Wirkmechanismus-Hypothese" hat und "verdächtigt ist, Netzwerklärm zu sein" — d.h. eine indirekte, fehlerhafte Graphenverbindung zwischen dem Arzneimittel-Knoten und einem seltenen Krankheits-Genotyp-Knoten, kein echtes pharmakologisches Signal.
+Ein plausibler Zusammenhang zur Ambras-Hypertrichosis ist nicht erkennbar. Diese Erkrankung wird durch eine Chromosomen-Umlagerung (8q22) verursacht, die die Regulation des Gens TRPS1 beeinflusst. Ein Einfluss der PDE5-Hemmung auf diese genetische Ursache ist nicht belegt. Die Vorhersage spiegelt vermutlich gemeinsame Nachbarknoten im Wissensgraphen (z. B. haarbezogene Phänotypen) wider und keine echte pharmakologische Beziehung.
 
-Angesichts der vollständigen Abwesenheit von Daten zur ursprünglichen Indikation, MOA-Daten, klinischen Studien und Fachliteratur sollte diese Top-Ranking-Vorhersage als ein hoher TxGNN-Score ohne unterstützende Evidenz behandelt werden, nicht als eine glaubwürdige Umpositionierungs-Hypothese.
+Auch die übrigen Vorhersagen der Rangliste stützen sich auf keine Evidenz. Mehrere betreffen Haarphänotypen (Hypertrichose, Trichomegalie, Haarschaftanomalien). Bei diesen wäre das therapeutische Ziel eine Verminderung des Haarwuchses, während ein spekulativer Effekt gefäßerweiternder Substanzen (wie bei Minoxidil) eher eine Förderung des Haarwuchses, also eine Nebenwirkung, wäre. Mechanistisch am ehesten nachvollziehbar, aber unvalidiert, ist die kyphoskoliotische Herzerkrankung (Rang 7): Hier könnte die Zulassung bei pulmonal-arterieller Hypertonie eine Rolle spielen. Allerdings unterscheidet sich die hypoxische Vasokonstriktion bei restriktiver Thoraxerkrankung von der PAH, und PDE5-Hemmer können das Ventilations-Perfusions-Verhältnis verschlechtern.
 
 ---
 
-## Evidenz aus klinischen Studien
+## Klinische Evidenz
 
-Derzeit sind keine relevanten klinischen Studien registriert
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
 ## Literaturevidenz
 
-Derzeit ist keine relevante Literatur verfügbar
+Zur führenden Vorhersage (Ambras-Hypertrichosis) liegt derzeit keine zugehörige Literatur vor.
+
+Zur Orientierung: Für die Vorhersage auf Rang 8 (Migräne mit Hirnstammaura) existiert ein einzelner Fallbericht:
+
+| PMID | Jahr | Typ | Journal | Kernaussage |
+|------|-----|------|------|---------|
+| [17059442](https://pubmed.ncbi.nlm.nih.gov/17059442/) | 2006 | Fallbericht | Cephalalgia | Tadalafil wurde mit einer typischen Migräneaura ohne Kopfschmerz in Verbindung gebracht. Die Richtung ist unerwünscht (Auslösung), nicht therapeutisch. |
 
 ---
 
-## Informationen zum Marktstatus in Deutschland
+## Informationen zum deutschen Markt
 
-Es sind derzeit keine Marktgenehmigungen in Deutschland aufgezeichnet (Marktstatus: Nicht vermarktet; total_licenses: 0).
+Alle sechs erfassten Zulassungen sind erloschen (zentrale EU-Zulassungen der EMA):
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/001021 | Adcirca (zuvor Tadalafil Lilly) | – | Pulmonale Hypertonie |
+| EMEA/H/C/004297 | Talmanco (zuvor Tadalafil Generics) | – | Pulmonale Hypertonie |
+| EMEA/H/C/000436 | Cialis | – | Erektile Dysfunktion |
+| EMEA/H/C/004666 | Tadalafil Lilly | – | Erektile Dysfunktion |
+| EMEA/H/C/003787 | Tadalafil Mylan | – | Erektile Dysfunktion |
+
+Eine weitere erloschene Zulassung (Yuvanci, EMEA/H/C/005001, pulmonale arterielle Hypertonie) ist in der Gesamtzahl von 6 enthalten.
 
 ---
 
-## Sicherheitsüberlegungen
+## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+- **Kontraindikationen/Risikokonstellationen aus dem Wissensgraphen** (keine Angaben aus dem Beipackzettel, sondern Verknüpfungen zwischen Wirkstoff und Erkrankung): u. a. Leberversagen, Epilepsie, Aortenstenose bzw. Aortenklappenerkrankung, Hypotonie, Gerinnungsstörungen, akutes Koronarsyndrom, Myokardinfarkt, Schlaganfall bzw. zerebrovaskuläre Erkrankungen, Sichelzellanämie und Hämoglobinopathien, multiples Myelom, Leukämie, Priapismus, Peyronie-Krankheit, Hörverlust sowie hypertrophe Kardiomyopathie.
+- **Arzneimittelwechselwirkungen**: Insgesamt wurden 100 Wechselwirkungen erfasst. Die meisten der aufgeführten sind von mittlerem Schweregrad, darunter Aprepitant, Dexamethason, Clarithromycin, Cimetidin, Miconazol, Clotrimazol, Lorcaserin sowie die SGLT2-Hemmer Canagliflozin, Dapagliflozin, Empagliflozin und Ertugliflozin. Papaverin ist als gering eingestuft.
+- **Hinweis zur Migräne-Vorhersage**: Kopfschmerz und Migräne sind bekannte Nebenwirkungen von PDE5-Hemmern. Die Evidenz spricht hier gegen einen therapeutischen Nutzen.
 
-**Wichtiger Hinweis:** Das Evidenzpaket kennzeichnet **TFDA-Kennzeichnungswarnungen/Kontraindikationen** als eine **Blockierend**-Datenlücke (DG001) — ohne diese Daten kann dieser Kandidat nicht zur Sicherheitsvorprüfung (S1) voranschreiten, unabhängig von der vorhergesagten Indikation. Wirkmechanismus-Daten werden auch als Datenlücke mit hohem Schweregrad (DG002) gekennzeichnet.
+Für Warnhinweise und Gegenanzeigen aus der Fachinformation siehe bitte die Packungsbeilage bzw. Fachinformation.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Top-Ranking-Vorhersage (Ambras-Typ-Hypertrichosis universalis congenita) hat keine unterstützenden klinischen Studien, Literatur oder mechanistische Plausibilität — das Evidenzpaket selbst identifiziert sie als wahrscheinlich Graphenlärm. Kombiniert mit fehlender ursprünglicher Indikation, MOA- und TFDA-Sicherheitsdaten erfüllt dieser Kandidat nicht die minimale Evidenzschwelle zum Voranschreiten.
+Die Vorhersage beruht ausschließlich auf einem Graphmodell (Evidenzstufe L5), ohne Studien oder Publikationen und ohne plausiblen pharmakologischen Zusammenhang zur genetischen Ursache der Ambras-Hypertrichosis. Zudem ist derzeit keine Zulassung in Deutschland aktiv.
 
-**Um voranzuschreiten, ist Folgendes erforderlich:**
-- TFDA-Kennzeichnungswarnungen und Kontraindikationen (DG001, blockierend — vor jeder S1-Sicherheitsvorprüfung erforderlich)
-- Wirkmechanismus von Tadalafil und ursprüngliche zugelassene Indikationen (DG002)
-- Unabhängige Überprüfung, ob der TxGNN-Score für diesen spezifischen Kandidaten ein echtes Signal oder ein Graphen-Artefakt widerspiegelt, da der Begründungstext selbst ein Rausch-Flag setzt
-
-**Hinweis zu anderen Kandidaten in diesem Paket:** Zwei Vorhersagen mit niedrigerem Rang verdienen separate Aufmerksamkeit statt Ablehnung zusammen mit Rank 1:
-- **Rank 7 — Kyphoskoliotische Herzerkrankung** (Forschungsfrage-Phase): PDE5-Hemmer sind eine etablierte Medikamentenklasse für pulmonale arterielle Hypertonie (PAH), und durch Kyphoskoliose bedingte restriktive Lungenerkrankung kann zu sekundärer PAH führen. Dies ist eine plausible Klasseneffekt-Hypothese, die es wert ist zu überprüfen, ob Tadalafils bekannte PAH-Indikation (z.B. Adcirca) einfach aus dem original_indications-Feld dieses Evidenzpakets weggelassen wurde.
-- **Rank 8 — Migräne mit Hirnstamm-Aura**: Die einzige unterstützende Zitierung ist ein Fallbericht von Tadalafil-*induzierter* Migräne-Aura (ein unerwünschtes Ereignis), nicht ein Behandlungseffizienz-Signal. Dies sollte als Sicherheitssignal gelesen werden, nicht als Umpositionierungs-Kandidat.
-
+**Für ein Weiterkommen sind folgende Schritte nötig:**
+- Auswertung der Fachinformation (Warnhinweise und Gegenanzeigen) als Voraussetzung für die Sicherheitsprüfung
+- Detaillierte Daten zum Wirkmechanismus (MOA), z. B. aus DrugBank
+- Systematische Literaturrecherche zu den Vorhersagen, insbesondere zur kyphoskoliotischen Herzerkrankung als mechanistisch plausibelster Kandidat
+- Klärung des aktuellen Zulassungs- und Marktstatus in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

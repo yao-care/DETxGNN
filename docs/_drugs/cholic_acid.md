@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Cholic Acid
-parent: Nur Modellvorhersage (L5)
-nav_order: 101
-evidence_level: L5
+parent: Mittlere Evidenz (L3-L4)
+nav_order: 114
+evidence_level: L4
 indication_count: 10
 ---
 
 # Cholic Acid
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,89 +29,87 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Cholsäure: Von der Gallensäure-Physiologie bis zur prognostizierten HIV-Infektionskrankheit
+# Cholsäure: Von angeborenen Gallensäuresynthesestörungen zu HIV-Infektion
 
 ## Zusammenfassung in einem Satz
 
-> Cholsäure ist eine natürlicherweise auftretende primäre Gallensäure; dieses Evidenzpaket dokumentiert keine formal etablierte ursprüngliche Indikation, obwohl Cholsäure außerhalb dieses Datensatzes für die Gallensäure-Ersatztherapie bekannt ist.
-> Die höchstbewertete Vorhersage des TxGNN-Modells ist **HIV-Infektionskrankheit**, aber die unterstützende Evidenz ist schwach und teilweise **widersprüchlich** – die zugehörige Literatur beschreibt spermizide/viruzide Anwendung in Verhütungsschwämmen und virale Inaktivierung von Blutprodukten, und eine Studie berichtet, dass Cholsäure-Derivate tatsächlich die HIV-1-Replikation *verstärken*.
-> Mit **0 klinischen Studien** und **9 Publikationen**, von denen keine eine antiretrovirale therapeutische Wirkung demonstrieren, unterstützt die Evidenz diese Vorhersage derzeit nicht.
+Cholsäure wurde ursprünglich zur Behandlung von Erkrankungen des Verdauungssystems und angeborenen Stoffwechselstörungen (insbesondere Gallensäuresynthesestörungen) eingesetzt.
+Das TxGNN-Modell sagt voraus, dass sie bei **HIV-Infektion** wirksam sein könnte,
+jedoch liegen dafür **keine klinischen Studien** und nur **5 Publikationen** vor, die überwiegend präklinischer oder übersichtsartiger Natur sind, darunter ein Hinweis auf ein möglicherweise ungünstiges Signal.
 
 ---
 
 ## Schnellübersicht
 
 | Punkt | Inhalt |
-|------|--------|
-| Ursprüngliche Indikation | Nicht in diesem Datensatz dokumentiert (`original_indications` ist leer; Cholsäure ist allgemein als natürliche primäre Gallensäure bekannt, die in der Gallensäure-Ersatztherapie verwendet wird, dies wird jedoch nicht in dem Evidenzpaket erfasst) |
-| Vorhergesagte neue Indikation | HIV-Infektionskrankheit |
-| TxGNN-Vorhersage-Score | 99.79% |
-| Evidenz-Level | L5 |
-| Marktstatus in Deutschland | ✗ Nicht vermarktet |
-| Anzahl der Genehmigungen | 0 |
-| Empfohlene Entscheidung | Aussetzen |
+|------|------|
+| Ursprüngliche Indikation | Erkrankungen des Verdauungssystems; angeborene Stoffwechselstörungen |
+| Vorhergesagte neue Indikation | HIV-Infektion |
+| TxGNN-Vorhersagewert | 99,79 % |
+| Evidenzstufe | L4 |
+| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
+| Anzahl der Zulassungen | 1 |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
 ## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Wirkungsmechanismus-Daten für Cholsäure in diesem Evidenzpaket nicht verfügbar (markiert als blockierende Datenlücke, DG002). Ohne diese Daten gibt es keine in diesem Paket bereitgestellte pharmakologische Grundlage, um Cholsäure mit antiretroviraler Aktivität zu verbinden.
+Zur Wirkungsweise liegen in den für diesen Bericht zusammengestellten Daten derzeit keine detaillierten Angaben vor. Bekannt ist: Cholsäure ist eine körpereigene Gallensäure und wirkt als Ligand an den Rezeptoren GPBA (GPBAR1/TGR5) und Farnesoid-X-Rezeptor (FXR). Ihre Wirksamkeit bei Gallensäuresynthesestörungen ist belegt (Zulassung durch EMA und FDA für seltene Gallensäuresynthesestörungen bei Kindern und Erwachsenen).
 
-Die für diese Vorhersage abgerufene Literatur beschreibt keinen Mechanismus, der mit der Behandlung von HIV-Infektionen vereinbar ist. Die meisten Arbeiten betreffen die Verwendung von Natriumcholat als **spermizides/viruzides Mittel in Vaginal-Verhütungsschwämmen** (z. B. Protectaid) oder als Mittel zur **viralen Inaktivierung von Blutprodukten** (Tri-n-butylphosphat/Natriumcholat-Behandlung von plasmaderivatisierten Faktorenkonzentraten) – dies sind Barriere-/Desinfektionskontexte, keine systemische antiretrovirale Therapie. Noch besorgniserregender ist, dass eine Studie (PMID 16610808) festgestellt hat, dass aminofunktionalisierte Cholsäure-Derivate **die HIV-1-Replikation und Synzytienbildung** in T-Zellen *induzierten*, d. h., das Gegenteil einer therapeutischen Wirkung.
-
-Angesichts des Fehlens von Wirkungsmechanismus-Daten, des Fehlens einer klinischen Studie und des Vorhandenseins eines direkt widerspruchsvollen In-vitro-Befunds fehlt dieser spezifischen TxGNN-vorhergesagten Assoziation derzeit mechanistische Plausibilität und sollte nicht ohne unabhängige bestätigende Pharmakologie vorangetrieben werden.
+Ein plausibler Zusammenhang mit HIV ist nur schwach. Frühe In-vitro-Arbeiten aus den 1990er-Jahren beschrieben spermizide und antivirale Eigenschaften von Natriumcholat (Hemmung der HIV-1-Reverse-Transkriptase) im Rahmen eines Vaginalschwamms. Dagegen berichtete eine Studie von 2006, dass aminofunktionalisierte Cholsäurederivate die HIV-1-Replikation und Syncytienbildung in T-Zellen **verstärkten**. Der hohe TxGNN-Wert wird daher durch klinische Evidenz nicht gestützt, und die Wirkrichtung ist unklar.
 
 ---
 
-## Evidenz aus klinischen Studien
+## Klinische Studien
 
-Derzeit sind keine damit verbundenen klinischen Studien registriert.
-
----
-
-## Literatur-Evidenz
-
-| PMID | Jahr | Typ | Journal | Wichtigste Erkenntnisse |
-|------|------|------|---------|----------|
-| [7688380](https://pubmed.ncbi.nlm.nih.gov/7688380/) | 1993 | Klinische/Microbicide-Studie | Human Reproduction | Natriumcholat (im Protectaid-Schwamm, F-5-Gel) zeigt dosisabhängige In-vitro-Spermizidität und anti-HIV-1-Reverse-Transkriptase-Inhibitor-Aktivität; eine Barriere-Verhütungs-/Microbicide-Wirkung, keine systemische antivirale Therapie |
-| [2870224](https://pubmed.ncbi.nlm.nih.gov/2870224/) | 1986 | In-vitro-Viruzid-Studie | Lancet | Tri(n-butyl)phosphat/Natriumcholat-Behandlung inaktiviert HBV und HTLV-III (HIV-Vorläufervirus) in der Blutprodukteherstellung; ein virales Inaktivierungs-/Desinfektionsprozess, kein therapeutischer Mechanismus |
-| [16610808](https://pubmed.ncbi.nlm.nih.gov/16610808/) | 2006 | In vitro (widerspruchsvoller Befund) | Journal of Medicinal Chemistry | Aminofunktionalisierte Cholsäure-Derivate **induzierten** HIV-1-Replikation und Synzytienbildung in T-Zellen – widerlegt direkt die Hypothese, dass Cholsäure schützend gegen HIV wirkt |
-| [32052857](https://pubmed.ncbi.nlm.nih.gov/32052857/) | 2020 | Übersicht | Hepatology | Diskutiert NASH-Arzneimittelentwicklung bei HIV-positiven Personen; Gallensäuren werden nur im Kontext von Bedenken bezüglich Arzneimittel-Wechselwirkungen mit Antiretroviren erwähnt, nicht als HIV-Therapie |
-| [9238301](https://pubmed.ncbi.nlm.nih.gov/9238301/) | 1997 | Verhütungsgerät-Studie | Ann NY Acad Sci | Diskutiert anti-STI-Vaginal-Verhütungsschwämme, die Cholsäure-Derivate als Barrieremethode enthalten |
-| [7848210](https://pubmed.ncbi.nlm.nih.gov/7848210/) | 1994 | Übersicht | Aust NZ J Obstet Gynaecol | Allgemeiner Überblick über zukünftige Verhütungsmethoden, die STI-/HIV-Schutz bieten; Cholsäure nicht speziell als Antiretroviral bewertet |
-| [8849197](https://pubmed.ncbi.nlm.nih.gov/8849197/) | 1995 | Übersicht | Ann Acad Med Singapore | Überprüft Barriere-Verhütungsmethoden (Kondome, Spermizide) für STI-/HIV-Prävention |
-| [20030469](https://pubmed.ncbi.nlm.nih.gov/20030469/) | 2010 | Beobachtungsstudie | Pharmacotherapy | Bewertet Plasma-Gallensäure-Konzentrationen bei HIV-Patienten unter Proteaseinhibitoren als Marker für Hepatotoxizitätsrisiko – eine Assoziations-/Überwachungsstudie, keine Behandlungsstudie |
-| [28745428](https://pubmed.ncbi.nlm.nih.gov/28745428/) | 2017 | In-vitro-Methodik | ChemMedChem | Methodisches Dokument zu Detergens-Assay-Artefakten, die HIV-1-Proteaseinhibitor-Bindungsassays beeinflussen; nicht mit der therapeutischen Wirkung von Cholsäure verbunden |
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Marktinformationen für Deutschland
+## Literaturevidenz
 
-Derzeit sind keine Vermarktungsgenehmigungen für Cholsäure in Deutschland registriert (`total_licenses: 0`, `market_status: Not marketed`).
+| PMID | Jahr | Typ | Journal | Kernaussagen |
+|------|-----|------|------|---------|
+| [7688380](https://pubmed.ncbi.nlm.nih.gov/7688380/) | 1993 | Präklinisch/frühe Klinik | Human Reproduction | Natriumcholat zeigt spermizide und anti-HIV-1-Aktivität in vitro; Vaginalschwamm (Protectaid) als Verhütungsmittel |
+| [16610808](https://pubmed.ncbi.nlm.nih.gov/16610808/) | 2006 | In vitro (Derivate) | J Med Chem | Aminofunktionalisierte Cholsäurederivate verstärken HIV-1-Replikation und Syncytienbildung (gegenläufiges Signal) |
+| [20030469](https://pubmed.ncbi.nlm.nih.gov/20030469/) | 2010 | Beobachtungsstudie | Pharmacotherapy | Plasma-Gallensäurespiegel bei HIV-Patienten unter Proteaseinhibitoren; Bezug zur Hepatotoxizität, kein Therapieeffekt |
+| [8849197](https://pubmed.ncbi.nlm.nih.gov/8849197/) | 1995 | Übersichtsarbeit | Ann Acad Med Singapore | Barrieremethoden zur Empfängnisverhütung und zum Schutz vor sexuell übertragbaren Krankheiten |
+| [7848210](https://pubmed.ncbi.nlm.nih.gov/7848210/) | 1994 | Übersichtsarbeit | Aust N Z J Obstet Gynaecol | Zukünftige Verhütungsmittel im Licht der HIV-Infektion |
+
+---
+
+## Marktinformationen Deutschland
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/001250 | Orphacol (Theravia) | k. A. | Erkrankungen des Verdauungssystems; angeborene Stoffwechselstörungen (Status: erloschen) |
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+- **Kontraindikationen laut Wissensgraph (nicht aus der Fachinformation):** Lebererkrankung, Gallenblasenerkrankung, Durchfallerkrankung, Cholestase, benigne rezidivierende intrahepatische Cholestase, familiäre intrahepatische Cholestase, Appendizitis, sklerosierende Cholangitis, primär biliäre Cholangitis, Reynolds-Syndrom.
+- **Arzneimittelwechselwirkungen:** 10 Wechselwirkungen mittleren Schweregrads, u. a. mit Gallensäurebindern (Cholestyramin, Colesevelam, Colestipol), Aluminiumhydroxid, Sucralfat, Ciclosporin, Phenobarbital, Ribociclib, Sorafenib und Tipranavir. Hinzu kommen pharmakologische Zielstrukturen (GPBA-Rezeptor, Farnesoid-X-Rezeptor).
 
-*(Hinweis: `safety.key_warnings`, `contraindications` und `ddi` sind alle als Datenlücken in diesem Paket gekennzeichnet; TFDA-Etikettenwarnungen/Kontraindikationen sind als blockierende Datenlücke (DG001) gekennzeichnet, die vor einer S1-Sicherheitsbewertung gelöst werden muss.)*
+Weitere Sicherheitsinformationen entnehmen Sie bitte der Fachinformation.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Aussetzen**
+**Entscheidung: Hold**
 
 **Begründung:**
-Keine klinischen Studien unterstützen Cholsäure für HIV-Infektionskrankheit, der Wirkungsmechanismus ist undokumentiert (blockierende Datenlücke), und eine In-vitro-Studie widerlegt direkt die vorhergesagte therapeutische Richtung. Evidenz-Level ist L5 – nur Modellvorhersage, ohne unterstützende tatsächliche Studien.
+Für HIV-Infektion existieren keine klinischen Studien; die präklinischen Daten sind alt und widersprüchlich (antivirale Signale beim Natriumcholat, aber verstärkte Replikation bei Derivaten). Der hohe TxGNN-Wert ist durch Evidenz nicht gedeckt. Zudem besteht in Deutschland keine gültige Zulassung mehr.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- Lösen Sie DG001 (TFDA/BfArM-Etikettenwarnungen und Kontraindikationen) – blockiert derzeit jede S1-Sicherheitsbewertung
-- Lösen Sie DG002 (Wirkungsmechanismus-Daten über DrugBank) – erforderlich für die Überprüfung der mechanistischen Plausibilität
-- Unabhängige pharmakologische Studien, die klären, warum das TxGNN-Modell Cholsäure mit HIV-Infektionskrankheit verbindet, angesichts des widerspruchsvollen In-vitro-Signals (PMID 16610808)
-- Erwägen Sie die Neubewertung von niedriger bewerteten Kandidaten in diesem Paket (z. B. „Vitaminmangelstörung", Rang 5), die stärkere, mechanistisch kohärente Evidenz zeigen (ein aktives Cholsäure-Patientenregister, NCT03115086, und mehrere Fallserien zu Gallensäuresynthesestörungen), die besser mit der bekannten Biologie von Cholsäure übereinstimmen
+**Für ein Weiterkommen ist erforderlich:**
+- Detaillierte Wirkmechanismus-Daten (MOA)
+- Beschaffung und Auswertung der Fachinformation (Warnhinweise/Kontraindikationen) über das BfArM
+- Aktuelle In-vitro-Daten zu nativer Cholsäure (nicht Derivaten) gegen HIV, einschließlich Klärung des widersprüchlichen Replikationssignals
+- Prüfung des Zulassungs- bzw. Vermarktungsstatus in Deutschland
 
+**Hinweis zu anderen Vorhersagen:** Unter den weiteren TxGNN-Vorhersagen ist „Vitamin-Mangelerkrankung" mit Evidenzstufe L3 (Fallberichte, Fallserien, retrospektive Kohorten) am besten belegt. Der Nutzen ergibt sich dort jedoch sekundär aus der Behandlung der zugrunde liegenden Gallensäuresynthesestörung und stellt keine eigenständige neue Indikation dar. Es ist als Forschungsfrage zu betrachten.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

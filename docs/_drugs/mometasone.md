@@ -2,7 +2,7 @@
 layout: default
 title: Mometasone
 parent: Nur Modellvorhersage (L5)
-nav_order: 260
+nav_order: 305
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,78 +29,87 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Mometason: Von der topischen Kortikosteroidtherapie zum primären kutanen T-Zell-Lymphom
+# Mometason: Von Asthma zum primären kutanen T-Zell-Lymphom
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Mometason ist ein Kortikosteroid; seine spezifische ursprüngliche Indikation wird im aktuellen Evidence Package nicht ausführlich dargelegt (Daten zur behördlichen Zulassung nicht verfügbar). Das TxGNN-Modell sagt potenzielle Wirksamkeit gegen **primäres kutanes T-Zell-Lymphom** voraus, aber diese Richtung wird derzeit nur durch **0 klinische Studien** und **2 Publikationen auf Fall-Bericht-Ebene** unterstützt, von denen keine die Wirksamkeit von Mometason in dieser Erkrankung direkt bewertet.
+Mometason ist ein Glukokortikoid, das ursprünglich zur Behandlung von Asthma zugelassen wurde (in der Dreifachkombination Enerzair Breezhaler).
+Das TxGNN-Modell sagt voraus, dass es bei **primärem kutanem T-Zell-Lymphom** wirksam sein könnte.
+Die Evidenz ist sehr dünn: **keine klinischen Studien** und **2 Fallberichte** (keine davon belegt die Wirkung von Mometason beim Lymphom).
 
 ---
 
 ## Schnellübersicht
 
-| Punkt | Angabe |
+| Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Nicht im Evidence Package verfügbar (keine Zulassungs-/Indikationsdaten vorhanden) |
+| Ursprüngliche Indikation | Asthma |
 | Vorhergesagte neue Indikation | Primäres kutanes T-Zell-Lymphom |
-| TxGNN-Vorhersage-Score | 99.36% |
-| Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Abwartend |
+| TxGNN-Vorhersagewert | 99,36 % |
+| Evidenzlevel | L5 |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
+| Anzahl der Zulassungen | 1 (0 gültig, 1 aufgehoben) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage sinnvoll?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Daten zum Wirkmechanismus nicht verfügbar. Basierend auf bekannter Pharmakologie ist Mometason ein **topisches Kortikosteroid**; seine Wirksamkeit beruht auf allgemeiner entzündungshemmender und immunsuppressiver Aktivität statt auf einem krankheitsspezifischen Ziel.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Mometason ist ein potentes Kortikosteroid, das am Glukokortikoid-Rezeptor (NR3C1) wirkt. Darüber vermittelt es entzündungshemmende und immunsuppressive Effekte, etwa die Hemmung der T-Zell-Aktivierung und der Zytokinfreisetzung sowie die Induktion der Lymphozyten-Apoptose.
 
-Die Begründung für die Neuindikation hier ist mechanistisch, nicht auf Evidenz basiert: Topische Kortikosteroide sind in einigen klinischen Leitlinien (z.B. NCCN) als hautgerichtete unterstützende Option für frühes kutanes T-Zell-Lymphom/Mykosis fungoides aufgeführt, basierend auf ihrer allgemeinen entzündungshemmenden Wirkung und Fähigkeit, T-Zell-Apoptose auszulösen. Diese biologische Plausibilität wird jedoch durch die tatsächlich für diesen Kandidaten abgerufene Literatur nicht bestätigt — eine Veröffentlichung befasst sich mit einem anderen Arzneimittel (Tapinarof, nicht Mometason), das eine andere, nicht-maligne Erkrankung behandelt (kutanes Pseudolymphom), und die andere ist ein pädiatrischer Mykosis-fungoides-Fallbericht, der Mometason als Behandlung überhaupt nicht bewertet.
+Topische Kortikosteroide sind eine etablierte hautgerichtete Therapie im Frühstadium der Mycosis fungoides (Patch-/Plaque-Stadium), der häufigsten Form des kutanen T-Zell-Lymphoms. Das erklärt biologisch, warum das Modell einen hohen Wert vergibt.
 
-Kurz gesagt, die Vorhersage beruht auf Plausibilität auf Klassenbasis (Kortikosteroide als unterstützende hautgerichtete Therapie bei CTCL) anstatt auf direkter klinischer oder Studien-Evidenz für Mometason in dieser Indikation.
+Wichtig: Diese Verbindung beruht auf dem allgemeinen Klasseneffekt der Kortikosteroide, nicht auf Mometason-spezifischen Belegen. Die Vorhersage ist rein rechnerisch und durch keine abgerufenen klinischen Daten gestützt. Zudem ist die Zulassung bei Asthma an eine inhalative Kombination gebunden, die Eignung der Applikationswege für die Haut wurde nicht geprüft.
 
 ---
 
 ## Evidenz aus klinischen Studien
 
-Derzeit keine damit verbundenen klinischen Studien registriert.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Literatur-Evidenz
+## Evidenz aus der Literatur
 
-| PMID | Jahr | Typ | Journal | Wichtigste Erkenntnisse |
+| PMID | Jahr | Typ | Journal | Kernaussagen |
 |------|-----|------|------|---------|
-| [40821495](https://pubmed.ncbi.nlm.nih.gov/40821495/) | 2025 | Fallbericht | Proceedings (Baylor University Medical Center) | Kutanes Pseudolymphom (nicht echtes CTCL) unempfindlich gegenüber Mometason und Tacrolimus; Arzneimittel verwendet, aber für eine nachahmende, nicht-maligne Erkrankung |
-| [25442255](https://pubmed.ncbi.nlm.nih.gov/25442255/) | 2015 | Fallbericht | Journal of Cutaneous Pathology | Pädiatrischer CD8+CD56+ Mykosis-fungoides-Fall, der den Immunphänotyp beschreibt; bewertet nicht die Mometason-Behandlung |
+| [40821495](https://pubmed.ncbi.nlm.nih.gov/40821495/) | 2025 | Fallbericht | Proceedings (Baylor Univ. Med. Center) | Kutane Pseudolymphom-Erkrankung (kein echtes Lymphom): Mometason und Tacrolimus waren erfolglos, danach Behandlung mit Tapinarof |
+| [25442255](https://pubmed.ncbi.nlm.nih.gov/25442255/) | 2015 | Fallbericht | Journal of Cutaneous Pathology | Mycosis fungoides im Kindesalter mit CD8+/CD56+ zytotoxischem Immunphänotyp; kein Bezug zu einer Mometason-Wirkung erkennbar |
+
+Beide Berichte liefern keinen Hinweis auf eine Wirksamkeit von Mometason beim kutanen T-Zell-Lymphom. Der erste beschreibt sogar ein Therapieversagen (bei einer Pseudolymphom-Erkrankung).
 
 ---
 
-## Marktinformationen für Deutschland
+## Marktinformationen Deutschland
 
-Derzeit keine Zulassungsunterlagen verfügbar (Marktstatus: nicht vermarktet; 0 Lizenzen in den Unterlagen).
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/005061 | Enerzair Breezhaler | – | Asthma |
+
+Diese Zulassung (Novartis Europharm Limited) ist aufgehoben. Aktuell gibt es keine gültige Zulassung.
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+Zu Warnhinweisen und Gegenanzeigen liegen keine Daten vor. Bitte die Fachinformation zu Sicherheitsangaben heranziehen.
+
+Zu Wechselwirkungen wurde lediglich ein pharmakologischer Eintrag gefunden: Mometason wirkt am Glukokortikoid-Rezeptor. Das ist ein Zielstruktur-Eintrag, keine klinisch bewertete Arzneimittelwechselwirkung.
 
 ---
 
-## Fazit und Nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Abwartend**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die Evidenz ist auf Modellvorhersage (L5) begrenzt, ohne klinische Studien und nur zwei Fallberichte, von denen keiner direkte Evidenz für die Anwendung von Mometason beim primären kutanen T-Zell-Lymphom liefert. Das mechanistische Argument (Kortikosteroide als hautgerichtete unterstützende Therapie in CTCL-Leitlinien) ist plausibel, aber durch die abgerufene Literatur nicht bestätigt.
+Die Vorhersage ist rein rechnerisch (Evidenzlevel L5), es gibt weder klinische Studien noch belastbare Literatur zu Mometason beim kutanen T-Zell-Lymphom. Hinzu kommen eine aufgehobene Zulassung in Deutschland und fehlende Sicherheitsdaten aus der Fachinformation.
 
-**Um fortzufahren, wird Folgendes benötigt:**
-- Ursprüngliche Indikation und zugelassene Etikettendaten für Mometason (derzeit fehlen — DG001)
-- Detaillierte Wirkmechanismus-Daten aus DrugBank (derzeit fehlen — DG002)
-- TFDA/Deutsche (BfArM) Etikettenwarnungen und Kontraindikationen für S1-Sicherheitsscreening
-- Literatur- oder Studien-Evidenz, die direkt Mometason (nicht andere Kortikosteroide/Wirkstoffe) bei bestätigten CTCL-/Mykosis-fungoides-Patienten bewertet
-
+**Für ein Weiterkommen sind folgende Schritte nötig:**
+- Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) vom BfArM, da die Sicherheitsprüfung sonst nicht fortgesetzt werden kann
+- Daten zum Wirkmechanismus aus DrugBank
+- Gezielte Literatur- und Studiensuche zu topischem Mometasonfuroat bei Mycosis fungoides im Frühstadium
+- Prüfung der Applikationswege (topische Formulierung) und der Marktverfügbarkeit in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

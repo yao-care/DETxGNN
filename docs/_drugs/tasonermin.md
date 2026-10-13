@@ -2,7 +2,7 @@
 layout: default
 title: Tasonermin
 parent: Nur Modellvorhersage (L5)
-nav_order: 380
+nav_order: 445
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,85 +29,105 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Tasonermin: Von unbekannter Originalindikation zu urothelialen Karzinom der Prostata-Urethra
+# Tasonermin: Von Sarkom zu Urothelkarzinom der prostatischen Harnröhre
 
 ## Zusammenfassung in einem Satz
 
-> Tasonermin ist ein rekombinantes TNF-alpha-Biologikum; seine ursprüngliche genehmigte Indikation ist in den aktuellen Daten nicht angegeben (nur DrugBank-Input, kein TFDA-/deutsches Zulassungsregister).
-> Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam gegen **urothelialen Karzinom der Prostata-Urethra** sein könnte,
-> aber derzeit gibt es **0 klinische Studien** und **0 Publikationen**, die diese Richtung unterstützen — die Vorhersage ist nur modellgeneriert.
+Tasonermin (rekombinantes TNF-alpha) wurde ursprünglich zur Behandlung von **Sarkomen** eingesetzt. Das TxGNN-Modell sagt voraus, dass es bei einem **Urothelkarzinom der prostatischen Harnröhre** wirksam sein könnte. Diese Vorhersage beruht jedoch **ausschließlich auf Modellberechnungen**: Es liegen **0 klinische Studien** und **0 Publikationen** vor.
 
 ---
 
-## Schnelübersicht
+## Kurzüberblick
 
-| Element | Inhalt |
-|---------|--------|
-| Originalindikation | Nicht verfügbar (kein Zulassungs-/Regulierungsregister; Arzneimittel ist nicht auf dem Markt) |
-| Vorhergesagte neue Indikation | Urothelialen Karzinom der Prostata-Urethra |
-| TxGNN-Vorhersage-Score | 99.81% |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Sarkom |
+| Vorhergesagte neue Indikation | Urothelkarzinom der prostatischen Harnröhre |
+| TxGNN-Vorhersagewert | 99,81 % |
 | Evidenzstufe | L5 |
-| Status auf dem deutschen Markt | ✗ Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Zurückstellen |
+| Marktstatus in Deutschland | Nur erloschene Zulassung |
+| Anzahl der Zulassungen | 1 (erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Warum ist diese Vorhersage plausibel (oder nicht)?
 
-Derzeit sind keine detaillierten Wirkungsmechanismus-Daten für Tasonermin verfügbar. Basierend auf den in diesem Evidenzpaket vorhandenen Informationen ist Tasonermin ein rekombinantes TNF-alpha-Biologikum (Tumornekrosefaktor-alpha). Mechanistisch kann TNF-alpha Tumorvaskulärendothelschaden induzieren, Tumornek­rose fördern und Infiltration von Immunzellen antreiben — ein breites antitumorales Wirkungsprinzip, das theoretisch auf mehrere solide Tumortypen anwendbar sein könnte.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten derzeit keine detaillierten Angaben vor. Bekannt ist, dass Tasonermin rekombinantes TNF-alpha ist und bei Weichteilsarkomen in der isolierten Extremitätenperfusion verwendet wurde. Allgemein wird TNF-alpha eine Schädigung der Tumorgefäße sowie eine verbesserte Penetration von Wirkstoffen im Perfusionsbereich zugeschrieben.
 
-Allerdings ist keine Originalindikation in diesem Paket dokumentiert, daher kann die Beziehung zwischen der etablierten Anwendung des Arzneimittels und der vorhergesagten neuen Indikation (urothelialen Karzinom der Prostata-Urethra) nicht bewertet werden. Die bereitgestellte mechanistische Rationale ist generisch für TNF-alpha-Biologie und nicht spezifisch für die Pathophysiologie von Urothelkarzinomen.
+Ein plausibler mechanistischer Zusammenhang zwischen dieser Perfusionstherapie und dem Urothelkarzinom der prostatischen Harnröhre ist nicht belegt. Der hohe TxGNN-Wert (0,998) ist eine rein graphbasierte Vorhersage. Zudem ist die Anwendung von Tasonermin an die regionale Perfusion gebunden, die anatomisch auf die Harnröhre nicht übertragbar ist. Eine systemische Gabe ist wegen der starken TNF-Toxizität (z. B. Hypotonie, Kapillarleck-Syndrom) stark limitiert.
 
-Kritischerweise gibt es **keine klinische Studien- oder Literaturevidence** — direkt oder indirekt — die Tasonermin mit Urothelkarzinom verbindet. Die Verbindung ist eine reine netzwerkbasierte TxGNN-Vorhersage (Evidenzstufe L5), und dieselbe Einschränkung gilt für alle neun anderen vorhergesagten Indikationen in diesem Paket (Nierenbeckenkarzinome, HER2+ Mammakarzinom und mehrere seltene gynäkologische Adenokarzinome), von denen keine Studien oder Publikationen unterstützen.
+### Weitere vorhergesagte Indikationen (alle ohne Evidenz)
+
+| Rang | Vorhergesagte Indikation | TxGNN-Wert | Evidenzstufe |
+|------|------|------|------|
+| 2 | Sarkomatoides Übergangszellkarzinom des Nierenbeckens | 99,80 % | L5 |
+| 3 | Infiltrierendes Urothelkarzinom der Harnblase, sarkomatoide Variante | 99,79 % | L5 |
+| 4 | Papilläres Urothelkarzinom des Nierenbeckens | 99,79 % | L5 |
+| 5 | HER2-positives Mammakarzinom | 99,70 % | L5 |
+| 6 | Adenokarzinom des Lig. uteri | 99,62 % | L5 |
+| 7 | Endozervikales Karzinom | 99,61 % | L5 |
+| 8 | Seröses Adenokarzinom des Lig. uteri | 99,61 % | L5 |
+| 9 | Adenoid-zystisches Karzinom der Cervix uteri | 99,60 % | L5 |
+| 10 | Klarzelliges Adenokarzinom des Lig. uteri | 99,59 % | L5 |
+
+Bei den sarkomatoiden Varianten (Ränge 2 und 3) besteht eine oberflächliche konzeptionelle Nähe zur ursprünglichen Sarkom-Indikation, die jedoch spekulativ ist. Beim HER2-positiven Mammakarzinom existieren bereits etablierte HER2-gerichtete Therapien, und die TNF-alpha-Signalwirkung kann dort kontextabhängig tumorfördernd sein; die Vorhersage ist mit Vorsicht zu betrachten.
 
 ---
 
-## Evidenz aus klinischen Studien
+## Klinische Studienevidenz
 
-Derzeit keine verwandten klinischen Studien registriert
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Literaturevidence
+## Literaturevidenz
 
-Derzeit keine verwandte Literatur verfügbar
+Derzeit liegt keine zugehörige Literatur vor.
+
+---
+
+## Marktinformationen Deutschland
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000206 | Beromun | – | Sarkom |
+
+Die Zulassung ist erloschen (Hersteller: Belpharma s.a.); derzeit ist kein gültig zugelassenes Präparat auf dem Markt.
 
 ---
 
 ## Zytotoxizität
 
-| Element | Inhalt |
-|---------|--------|
-| Klassifizierung der Zytotoxizität | Immuntherapie / Biologikum (zytokinbasiert, rekombinantes TNF-alpha) — kein herkömmliches zytotoxisches Chemotherapeutikum |
-| Risiko der Myelosuppression | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Packungsbeilage |
-| Klassifizierung der Emetogenität | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Packungsbeilage |
-| Überwachungselemente | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Packungsbeilage |
-| Handhabungsschutz | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Packungsbeilage |
+| Punkt | Inhalt |
+|------|------|
+| Zytotoxizitätsklassifikation | Immunmodulatorisch/zytokinbasiert (rekombinantes TNF-alpha); keine konventionelle Chemotherapie |
+| Myelosuppressionsrisiko | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Emetogenität | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Überwachungsparameter | Bitte Fachinformation beachten; aufgrund der bekannten systemischen TNF-Toxizität sind Kreislauf- und Organfunktionen engmaschig zu überwachen |
+| Handhabungsschutz | Bitte Fachinformation beachten |
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
-
-**Hinweis:** TFDA-Label-Warnhinweise/Kontraindikationen werden in diesem Evidenzpaket als Datenlücke mit **Sperrende-Priorität** (DG001) gekennzeichnet — allein dies verhindert eine S1-Sicherheitsvorabwertung, unabhängig von der vorhergesagten Indikation.
+Für Sicherheitsinformationen beachten Sie bitte die Fachinformation. Aus den zusammengestellten Daten lässt sich lediglich ableiten, dass die systemische Anwendung von TNF-alpha mit schwerer Toxizität (Hypotonie, Kapillarleck-Syndrom) verbunden sein kann. Arzneimittelwechselwirkungen wurden in den Daten nicht gefunden.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Zurückstellen**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die vorhergesagte Indikation wird nur durch einen TxGNN-Netzwerk-Score (L5, keine klinischen Studien, keine Literatur) gestützt, und es besteht eine Datenlücke mit Sperrende-Priorität für die TFDA-Sicherheitskennzeichnung — diese Kombination bedeutet, dass weder Wirksamkeitsplausibilität noch Sicherheit derzeit bewertet werden können.
+Die Vorhersage stützt sich allein auf einen Modellwert (Evidenzstufe L5) ohne Studien, Publikationen oder plausiblen Mechanismus. Die Zulassung in Deutschland ist erloschen, und die Perfusionsbindung sowie die systemische Toxizität sprechen gegen eine einfache Übertragung auf die vorhergesagten Indikationen.
 
-**Um fortfahren zu können, ist Folgendes erforderlich:**
-- TFDA-/EMA-Label-Daten — Warnhinweise, Kontraindikationen und Vorsichtsmaßnahmen (DG001, Sperrend)
-- Bestätigte Originalindikation(en) und vollständiger Wirkmechanismus (DG002, Hoch)
-- Erkrankungsspezifische präklinische oder klinische Evidenz, die TNF-alpha-Biologie mit urothelialen Karzinom verbindet (oder eine der anderen 9 Kandidatenindikationen)
-- Bewertung der Kompatibilität von Verabreichungsroute und Formulierung (derzeit für alle Kandidaten mit „ausstehend" gekennzeichnet)
-
+**Für ein Weiterverfolgen sind folgende Schritte nötig:**
+- Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) über die BfArM-Website, da diese Sicherheitslücke derzeit ein Blocker ist
+- Ergänzung der Daten zum Wirkmechanismus (z. B. über DrugBank)
+- Systematische Literatur- und Studienrecherche zu TNF-alpha bei Urothelkarzinomen
+- Prüfung einer geeigneten regionalen Applikationsform (Routenkompatibilität)
+- Präklinische Belege für eine Aktivität in den vorhergesagten Tumorentitäten
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

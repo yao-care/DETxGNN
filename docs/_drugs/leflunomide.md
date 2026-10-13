@@ -2,7 +2,7 @@
 layout: default
 title: Leflunomide
 parent: Nur Modellvorhersage (L5)
-nav_order: 226
+nav_order: 264
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,81 +29,91 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Leflunomide: Von Rheumatoider Arthritis zum Brachydaktylie-Syndaktylie-Syndrom
+# Leflunomid: Von rheumatoider Arthritis zum Brachydaktylie-Syndaktylie-Syndrom
 
 ## Zusammenfassung in einem Satz
 
-> Leflunomide ist ein DHODH-Inhibitor, der konventionell zur Behandlung von Rheumatoider Arthritis und anderen entzündlichen/Autoimmunerkrankungen verwendet wird.
-> Das TxGNN-Modell sagt eine mögliche Assoziation mit dem **Brachydaktylie-Syndaktylie-Syndrom**, einer seltenen angeborenen Skelettdeformation, voraus,
-> aber diese Vorhersage wird derzeit durch **keine klinischen Studien und keine veröffentlichte Literatur** gestützt — es ist ein reines Modell-Score-Signal.
+Leflunomid wurde ursprünglich zur Behandlung der rheumatoiden Arthritis und der Psoriasis-Arthritis zugelassen.
+Das TxGNN-Modell sagt voraus, dass es bei dem **Brachydaktylie-Syndaktylie-Syndrom** wirksam sein könnte.
+Dafür liegen jedoch **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage beruht allein auf dem Modell.
 
 ---
 
 ## Schnellübersicht
 
-| Item | Inhalt |
-|------|--------|
-| Ursprüngliche Indikation | Rheumatoide Arthritis / andere entzündliche Erkrankungen (basierend auf bekannter klinischer Anwendung; nicht aus strukturierten Lizenzdaten ableitbar — keine verfügbar) |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Rheumatoide Arthritis; Psoriasis-Arthritis |
 | Vorhergesagte neue Indikation | Brachydaktylie-Syndaktylie-Syndrom |
-| TxGNN-Vorhersage-Score | 99.93% |
+| TxGNN-Vorhersagewert | 99,93 % |
 | Evidenzstufe | L5 |
-| Marktstatus Deutschland | ✗ Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Zurückhalten |
+| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
+| Anzahl der Zulassungen | 4 (alle erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage vernünftig?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Wirkungsmechanismus-Daten für Leflunomide in diesem Evidence Pack nicht verfügbar (`[Data Gap]`). Basierend auf bekannten Informationen hemmt Leflunomide die Dihydroorotat-Dehydrogenase (DHODH) und blockiert die de novo Pyrimidinsynthese in aktivierten Lymphozyten, was einen immunomodulatorischen Effekt erzeugt, der klinisch bei entzündlichen Erkrankungen wie Rheumatoider Arthritis verwendet wird.
+Für die Wirkungsweise liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Nach allgemeinem Wissen hemmt Leflunomid das Enzym Dihydroorotat-Dehydrogenase (DHODH). Dadurch wird die de-novo-Pyrimidinsynthese blockiert und die Vermehrung aktivierter Lymphozyten unterdrückt. Dies erklärt die Wirkung bei rheumatoider Arthritis. Diese Einordnung stammt nicht aus den bereitgestellten Daten.
 
-Das Brachydaktylie-Syndaktylie-Syndrom ist jedoch eine angeborene Skelettdeformationsstörung, die typischerweise mit angeborenen Genmutationen verbunden ist (z. B. HOXD Gencluster), die durch embryonale Gliedmaßen-Musterungsfehler getrieben werden, nicht durch entzündliche oder Autoimmunprozesse. Es gibt keinen etablierten biologischen Weg, der DHODH-Hemmung oder Pyrimidinsynthese-Blockade mit der angeborenen Gliedmaßenentwicklung verbindet.
+Ein Zusammenhang mit dem Brachydaktylie-Syndaktylie-Syndrom ist **spekulativ**. DHODH spielt auch bei der Entwicklung von Neuralleiste und Extremitäten eine Rolle (z. B. beim Miller-Syndrom, einer DHODH-bedingten Erkrankung mit Extremitätenfehlbildungen). Die Modellvorhersage könnte daher eher auf einer gemeinsamen Biologie beruhen als auf einer therapeutischen Chance. Eine angeborene, strukturelle Fehlbildung dürfte auf ein Immunmodulans kaum ansprechen. Zudem sind Leflunomid und sein Metabolit Teriflunomid bekannte Teratogene.
 
-Die an diesem Kandidaten angehängte Umwidmungsrationale vermerkt ausdrücklich, dass **derzeit keine mechanistische Verbindung hergestellt werden kann**, und die fehlenden ursprünglichen MOA-Daten schwächen das Vertrauen in diese Verbindung weiter. Diese Vorhersage sollte nur als algorithmisches Signal behandelt werden (TxGNN-Score 0.9993, Rang 1209), nicht als mechanistisch begründete Hypothese.
-
-Ein zweiter, eng verwandter Kandidat — **kolobomatöse Mikrophtalmie-Rhizomelie-Dysplasie-Syndrom** (Score 0.9993, Rang 1235) — zeigt das gleiche Muster: eine seltene angeborene Augen-/Skelett-Entwicklungsstörung ohne plausible Verbindung zu Leflunomides bekanntem immunomodulatorischem Mechanismus und ohne unterstützende Studien oder Literatur.
+Der zweite vorhergesagte Kandidat, das *Colobomatöse-Mikrophthalmie-rhizomele-Dysplasie-Syndrom* (Score 99,93 %), weist dieselben Einschränkungen auf: keine Studien, keine Literatur, rein spekulative Verbindung über DHODH- bzw. Entwicklungssignalwege und ein erhebliches Teratogenitätsrisiko.
 
 ---
 
-## Klinische Studienevidenz
+## Evidenz aus klinischen Studien
 
-Derzeit keine registrierten relevanten klinischen Studien vorhanden
-
----
-
-## Literaturevadenz
-
-Derzeit keine relevante Literatur verfügbar
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Marktsituation in Deutschland
+## Evidenz aus der Literatur
 
-Leflunomide wird derzeit **nicht vermarktet** in Deutschland unter diesem Datensatz (`market_status: Not marketed`) und es sind keine Zulassungseinträge verfügbar (`total_licenses: 0`). Eine Produkt-/Lizenz-Tabelle kann nicht erstellt werden.
-
----
-
-## Sicherheitsüberlegungen
-
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
-
-*(Hinweis: TFDA/BfArM-Warnungen und Kontraindikationen werden als eine **blockierende** Datenlücke gekennzeichnet — DG001 — die den Eintritt in die S1-Sicherheits-Vor-Bewertungsphase verhindert.)*
+Derzeit liegt keine zugehörige Literatur vor.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Informationen zum deutschen Markt
 
-**Entscheidung: Zurückhalten**
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000235 | Arava | – | Rheumatoide Arthritis; Psoriasis-Arthritis |
+| EMEA/H/C/002035 | Leflunomide ratiopharm | – | Rheumatoide Arthritis |
+| EMEA/H/C/001129 | Leflunomide Zentiva (zuvor Leflunomide Winthrop) | – | Rheumatoide Arthritis; Psoriasis-Arthritis |
+| EMEA/H/C/001227 | Leflunomide medac | – | Rheumatoide Arthritis |
+
+Alle vier Zulassungen sind erloschen bzw. zurückgezogen.
+
+---
+
+## Sicherheitsaspekte
+
+- **Kontraindikationen aus dem Wissensgraphen (TxGNN/PrimeKG, kein Beipackzettel-Text):** Leber- und Gallenblasenerkrankungen (u. a. Leberversagen), Nierenerkrankung, Hepatitis-B- und -C-Infektionen, Blutbildveränderungen (Thrombozytopenie, Neutropenie, Agranulozytose, Anämie, Panzytopenie sowie mehrere angeborene Neutropenie-Formen), periphere Neuropathie bzw. Erkrankungen des peripheren Nervensystems, interstitielle Lungenerkrankung, Pneumozystose, Aspergillose und Pyoureter.
+- **Arzneimittelwechselwirkungen:** 100 Wechselwirkungen wurden gefunden; die folgenden sind Beispiele aus der vorliegenden Auswahl:
+  - *Schwerwiegend (Major):* Acarbose, Hydrocortison, Pioglitazon, Bupropion, Triamcinolon, Acetylsalicylsäure, Dexamethason, Betamethason, Budesonid, Chenodeoxycholsäure, Clarithromycin, Minocyclin, Oxandrolon, Oxymetholon, Naltrexon
+  - *Moderat:* Metronidazol, Chlorpropamid, Acetohexamid
+  - *Gering (Minor):* Zinksulfat, Zinkacetat
+- **Teratogenität (aus allgemeinem Wissen, nicht aus den Daten):** Leflunomid und Teriflunomid sind teratogen; die lange Halbwertszeit des aktiven Metaboliten (enterohepatischer Kreislauf) verstärkt das Risiko. Dies ist bei angeborenen Entwicklungsstörungen als Zielindikation besonders relevant.
+
+Die Warnhinweise und Gegenanzeigen der Fachinformation lagen nicht vor; bitte ergänzend die Fachinformation heranziehen.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Hold**
 
 **Begründung:**
-Dieser Kandidat wird nur durch ein rohes TxGNN-Vorhersageergebnis gestützt, ohne klinische Studien, ohne Literatur und ohne plausible mechanistische Verbindung zwischen Leflunomides bekanntem immunomodulatorischem Effekt und einem angeborenen Skelettdeformationssyndrom. In Kombination mit einer blockierenden Datenlücke (fehlende Warnungen/Kontraindikationen) kann dieser Kandidat nicht über S0 hinausgehen.
+Die Vorhersage stützt sich ausschließlich auf den Modellwert (Evidenzstufe L5). Es gibt weder Studien noch Publikationen, die biologische Verbindung ist spekulativ, und eine angeborene Fehlbildung ist durch ein Immunmodulans kaum behandelbar. Hinzu kommen die teratogenen Eigenschaften des Wirkstoffs und die Tatsache, dass in Deutschland aktuell keine gültige Zulassung besteht.
 
-**Um voranzukommen, wird Folgendes benötigt:**
-- Leflunomides ursprünglicher Wirkungsmechanismus und bestätigte ursprüngliche Indikation(en) aus DrugBank/autorisierten Labeln
-- TFDA/BfArM-Packungsbeilage Warnungen und Kontraindikationen (löst DG001 auf, blockiert derzeit)
-- Präklinische oder genetische Evidenz, die einen biologischen Weg zwischen Pyrimidinsynthese/DHODH-Hemmung und Skelett-/Gliedmaßen-Entwicklungsstörungen etabliert
-- Alle Fallberichte, Register oder mechanistische Studien für eine der vorhergesagten Indikationen vor Fortschritt über reinen Modell-Vorhersage-Status hinaus
-
+**Für ein Weiterkommen ist Folgendes nötig:**
+- Fachinformation mit Warnhinweisen und Gegenanzeigen (derzeit blockierende Datenlücke für die Sicherheitsprüfung)
+- Detaillierte Wirkmechanismus-Daten (DHODH-Inhibition) zur Prüfung der mechanistischen Verbindung
+- Präklinische oder Fallevidenz, die einen Zusammenhang zwischen DHODH-Hemmung und den vorhergesagten Syndromen stützt
+- Bewertung der Teratogenität und der Machbarkeit einer Anwendung in der betroffenen Population
+- Klärung des Zulassungs- und Verfügbarkeitsstatus in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

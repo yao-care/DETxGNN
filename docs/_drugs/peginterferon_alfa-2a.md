@@ -2,7 +2,7 @@
 layout: default
 title: Peginterferon Alfa-2A
 parent: Hohe Evidenz (L1-L2)
-nav_order: 298
+nav_order: 348
 evidence_level: L1
 indication_count: 10
 ---
@@ -29,104 +29,107 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Peginterferon Alfa-2a: Von chronischer viraler Hepatitis zur bestätigten Wirksamkeit bei Hepatitis-B-Virus-Infektion
+# Peginterferon alfa-2a: Von chronischer Hepatitis C und B zu Hepatitis-B-Virusinfektion
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Peginterferon Alfa-2a (ein pegyliertes Interferon, bekannt unter der Marke Pegasys) hat eine lange Geschichte der antiviralen/immunmodulatorischen Anwendung bei chronischer viraler Hepatitis, obwohl dieser Datensatz keine dokumentierte ursprüngliche Indikation enthält.
-> Die Topvorhersage des TxGNN-Modells — **Hepatitis-B-Virus-Infektion** — wird durch **50 klinische Studien** und **20 Publikationen** gestützt, einschließlich einer Landmark-Studie im NEJM mit Randomisierung.
-> Wichtig ist, dass die zugrunde liegende Begründung anmerkt, dass es sich hierbei weniger um eine "neue" Indikation als vielmehr um eine **Bestätigung einer bereits etablierten Anwendung** handelt, die in der strukturierten behördlichen Dokumentation einfach fehlt — eine Unterscheidung, die für die Priorisierung dieses Kandidaten von Bedeutung ist.
-
----
-
-## Schnellübersicht
-
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Nicht im aktuellen regulatorischen Datensatz dokumentiert (die Studienhistorie deutet stark auf eine etablierte Anwendung bei chronischer viraler Hepatitis B/C hin) |
-| Vorhergesagte neue Indikation | Hepatitis-B-Virus-Infektion |
-| TxGNN-Vorhersage-Score | 99.94% |
-| Evidenzebene | L1 |
-| Markterstatus Deutschland | ✗ Nicht vermarktet |
-| Anzahl der Genehmigungen | 0 |
-| Empfohlene Entscheidung | Mit Sicherheitsvorkehrungen fortfahren |
+Peginterferon alfa-2a wurde ursprünglich zur Behandlung der chronischen Hepatitis C, der chronischen Hepatitis B, der Polycythaemia vera und der essenziellen Thrombozythämie zugelassen.
+Das TxGNN-Modell sagt für den Wirkstoff eine Wirksamkeit bei **Hepatitis-B-Virusinfektion** voraus. Dabei handelt es sich allerdings nicht um eine echte Neuindikation, sondern um eine bereits zugelassene Indikation.
+Die Vorhersage stützt sich auf **20 klinische Studien** und **20 Publikationen**, darunter mehrere randomisierte Studien und Metaanalysen.
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Kurzüberblick
 
-Derzeit sind detaillierte Daten zum Wirkmechanismus nicht verfügbar (gekennzeichnet als Datenlücke mit hohem Schweregrad). Basierend auf bekannten Informationen zur Wirkstoffklasse ist Peginterferon Alfa-2a ein pegyliertes rekombinantes Interferon-Alfa — ein Wirkstoff der Zytokin-Klasse mit breiter antiviraler und immunmodulatorischer Aktivität. Die Wirksamkeit bei chronischer viraler Hepatitis ist durch Jahrzehnte klinischer Anwendung umfassend dokumentiert, und mechanistisch ist dieser gleiche immunaktivierende, antivirale Wirkmechanismus direkt auf die Hepatitis-B-Virus-Infektion anwendbar.
-
-Im Gegensatz zu einem typischen "Neuindikations"-Kandidaten besagt die im Evidence-Paket enthaltene Begründung für diese Vorhersage, dass Peginterferon Alfa-2a **bereits eine etablierte antivirale/immunmodulatorische Therapie für chronische Hepatitis B** darstellt (wird verwendet, um die HBeAg-Serokonversion zu bewirken), und dass dies "nicht im eigentlichen Sinne eine neue Indikation im Zusammenhang mit Neuindikationen darstellt" — vielmehr spiegelt dies eine Lücke in der Dokumentation der ursprünglichen Indikation dieses Datensatzes wider, anstatt ein echtes neues therapeutisches Signal zu entdecken. Diese Unterscheidung ist wichtig: Die Stärke der folgenden Evidenz *validiert* in erster Linie eine bestehende, gut charakterisierte Anwendung, anstatt eine neue zu entdecken.
-
-Dennoch macht die bloße Tiefe der Phase-3/4-randomisierten und Real-World-Evidenz — einschließlich Landmark-Studien, die die Rolle von PEG-IFN Alfa-2a sowohl bei HBeAg-positiver als auch bei HBeAg-negativer chronischer Hepatitis B etablieren — dies zu einem der am robustesten gestützten Einträge im Vorhersagesatz und zu einem nützlichen Maßstab für die Interpretation der anderen, echte explorativen hepatitis-bezogenen Vorhersagen des Modells in diesem Datensatz, wie beispielsweise die Hepatitis-E-Virus-Infektion (Rang 2, L3-Evidenz, weitgehend auf Fallberichten/systematischen Übersichten basierend).
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Chronische Hepatitis C, chronische Hepatitis B, Polycythaemia vera, essenzielle Thrombozythämie |
+| Vorhergesagte neue Indikation | Hepatitis-B-Virusinfektion |
+| TxGNN-Vorhersagewert | 99,94 % |
+| Evidenzlevel | L1 |
+| Marktstatus in Deutschland | Nur erloschene Zulassung (keine gültige Zulassung) |
+| Anzahl der Zulassungen | 1 (erloschen) |
+| Empfohlene Entscheidung | Proceed with Guardrails |
 
 ---
 
-## Klinische Studienevidenz
+## Warum ist diese Vorhersage plausibel?
 
-| Studiennummer | Phase | Status | Einschluss | Wichtigste Ergebnisse |
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Peginterferon alfa-2a ein Typ-I-Interferon ist. Es wirkt über den Interferonrezeptor (JAK-STAT-Signalweg) und induziert interferonstimulierte Gene. Dadurch hemmt es die Virusreplikation und verstärkt die HBV-spezifischen T-Zell- und NK-Zell-Antworten.
+
+Die Hepatitis-B-Infektion gehört bereits zu den ursprünglich zugelassenen Indikationen. Der hohe TxGNN-Wert spiegelt daher die vorhandene klinische Evidenz wider. Es handelt sich um eine Bestätigung einer bestehenden Indikation und nicht um ein klassisches Repurposing.
+
+Die weiteren Vorhersagen des Modells (Hepatitis E, Hepatitis A, Omsk-hämorrhagisches Fieber, Kyasanur-Waldkrankheit, kardiale Erkrankungen u. a.) haben keine oder nur indirekte Evidenz. Für sie wird die Entscheidung „Hold" bzw. „Research Question" empfohlen. Für Hepatitis E gibt es lediglich Hinweise aus Fallberichten bei immunsupprimierten Patienten. Die aufgeführten Studien betreffen jedoch HBV. Bei Herzerkrankungen besteht zudem die Sorge möglicher Schäden, da Interferone mit kardialen Nebenwirkungen in Verbindung gebracht werden.
+
+---
+
+## Evidenz aus klinischen Studien
+
+| Studiennummer | Phase | Status | Teilnehmerzahl | Kernaussagen |
 |---------|------|------|------|---------|
-| [NCT00291616](https://clinicaltrials.gov/study/NCT00291616) | Phase 4 | Abgeschlossen | 52 | RCT mit Thymosin Alpha 1 kombiniert mit PEG-IFN Alfa-2a vs. PEG-IFN allein bei HBeAg-positivem CHB; Bewertung der optimalen Behandlungsdauer |
-| [NCT01706575](https://clinicaltrials.gov/study/NCT01706575) | Phase 2 | Abgeschlossen | 76 | PEG-IFN als Zusatztherapie zu NA-Therapie bei HBeAg-negativem Genotyp-D-CHB mit stabiler DNA-Suppression; Bewertung des HBsAg-Rückgangs |
-| [NCT01237496](https://clinicaltrials.gov/study/NCT01237496) | Phase 3 | Abgeschlossen | 17 | Immunologie-Substudie zu HBV-spezifischen T-Zell-Reaktionen bei HBeAg-negativem CHB-Patienten, die mit Pegasys behandelt wurden |
-| [NCT02604823](https://clinicaltrials.gov/study/NCT02604823) | Phase 4 | Abgeschlossen | 307 | Wirksamkeit/Sicherheit von Pegasys bei treatment-naiven, Interferon- oder Lamivudin-vorbehandelten HBeAg-positiven CHB-Patienten |
-| [NCT02570191](https://clinicaltrials.gov/study/NCT02570191) | Phase 4 | Abgeschlossen | 60 | Wirksamkeit, Sicherheit, Verträglichkeit von PEGASYS bei HBeAg-negativem CHB-Patienten |
-| [NCT02598063](https://clinicaltrials.gov/study/NCT02598063) | Phase 4 | Abgeschlossen | 255 | PEG-IFN Alfa-2a vs. Adefovir Dipivoxil bei Lamivudin-resistentem HBeAg-positivem CHB |
-| [NCT01095835](https://clinicaltrials.gov/study/NCT01095835) | Phase 3 | Abgeschlossen | 131 | 48 vs. 96 Wochen PEG-IFN Alfa-2a, allein oder mit Lamivudin, bei HBeAg-negativem CHB |
-| [NCT00114361](https://clinicaltrials.gov/study/NCT00114361) | Phase 3 | Abgeschlossen | 138 | PARC-Studie — PEG-IFN + Ribavirin vs. PEG-IFN-Monotherapie bei HBeAg-negativem CHB |
-| [NCT01519921](https://clinicaltrials.gov/study/NCT01519921) | Phase 4 | Abgeschlossen | 150 | Wirksamkeit/Sicherheit von PEGASYS bei treatment-naiven und YMDD-Mutanten mit HBeAg-positivem CHB |
-| [NCT01373684](https://clinicaltrials.gov/study/NCT01373684) | Phase 4 | Abgeschlossen | 90 | PEG-IFN Alfa-2a als Zusatztherapie zu NA-Therapie zur Verbesserung des HBsAg-Rückgangs bei HBeAg-negativem CHB |
-
-*(50 klinische Studien insgesamt sind in dem Evidence-Paket für diese Indikation referenziert; die oben aufgeführten 10 stellen die größten, am direktesten HBV-relevanten abgeschlossenen Phase-3/4-Studien dar.)*
+| [NCT02604823](https://clinicaltrials.gov/study/NCT02604823) | Phase 4 | Abgeschlossen | 307 | Wirksamkeit und Sicherheit von Peginterferon alfa-2a bei HBeAg-positiver chronischer Hepatitis B (48 Wochen Behandlung, 24 Wochen Nachbeobachtung) |
+| [NCT00661076](https://clinicaltrials.gov/study/NCT00661076) | Phase 3 | Abgeschlossen | 10 | Peginterferon plus Adefovir vs. Peginterferon-Monotherapie bei HBeAg-negativer Hepatitis B; sehr kleine Stichprobe |
+| [NCT00614471](https://clinicaltrials.gov/study/NCT00614471) | Phase 4 | Abgeschlossen | 219 | Peginterferon plus Entecavir bei therapienaiver HBeAg-positiver Hepatitis B (drei randomisierte Arme) |
+| [NCT02474316](https://clinicaltrials.gov/study/NCT02474316) | Phase 4 | Unbekannt | 366 | Wechsel von Nukleos(t)idanalogon auf Kombination mit Peginterferon alfa-2a, Endpunkt HBeAg-Serokonversion |
+| [NCT02560649](https://clinicaltrials.gov/study/NCT02560649) | Phase 4 | Unbekannt | 324 | Responsegesteuerte Therapie (RGT) mit Peginterferon bei nukleosidvorbehandelten Patienten |
+| [NCT03181113](https://clinicaltrials.gov/study/NCT03181113) | k. A. | Abgeschlossen | 473 | Langzeitnutzen nach Peginterferon-Therapie bei HBeAg-positiver Hepatitis B (Kohorte) |
+| [NCT02097004](https://clinicaltrials.gov/study/NCT02097004) | Phase 4 | Abgeschlossen | 111 | Therapeutische Impfung plus Peginterferon zur HBsAg-Serokonversion nach Entecavir |
+| [NCT03084250](https://clinicaltrials.gov/study/NCT03084250) | Phase 4 | Unbekannt | 150 | Peginterferon alfa-2a plus Nukleosidanalogon bei Zirrhose mit hohem HCC-Risiko |
+| [NCT00436163](https://clinicaltrials.gov/study/NCT00436163) | Phase 4 | Abgeschlossen | 39 | Einarmiges Post-Marketing-Programm im Baltikum bei HBeAg-positiver Hepatitis B |
+| [NCT01237496](https://clinicaltrials.gov/study/NCT01237496) | Phase 3 | Abgeschlossen | 17 | Immunologische Substudie zu HBV-spezifischen T-Zell-Antworten; kleine Stichprobe |
 
 ---
 
-## Literaturübersicht
+## Literaturevidenz
 
-| PMID | Jahr | Typ | Journal | Wichtigste Ergebnisse |
+| PMID | Jahr | Typ | Journal | Kernaussagen |
 |------|-----|------|------|---------|
-| [15987917](https://pubmed.ncbi.nlm.nih.gov/15987917/) | 2005 | RCT | New England Journal of Medicine | Landmark-Studie: PEG-IFN Alfa-2a ± Lamivudin vs. Lamivudin allein bei HBeAg-positivem CHB — etablierte die Rolle von PEG-IFN in der modernen CHB-Therapie |
-| [30549279](https://pubmed.ncbi.nlm.nih.gov/30549279/) | 2019 | RCT | Hepatology | Entecavir + PEG-IFN Alfa-2a bei HBeAg-positiven immune-toleranten CHB-Erwachsenen |
-| [30865588](https://pubmed.ncbi.nlm.nih.gov/30865588/) | 2019 | Systematische Übersicht/Meta-Analyse | Antiviral Therapy | Individual-Patientendaten-Meta-Analyse zur Definition von PEG-IFN Alfa-2a-Abbruchregeln bei CHB |
-| [29715359](https://pubmed.ncbi.nlm.nih.gov/29715359/) | 2018 | Übersichtsartikel | JAMA | Umfassende Übersicht der chronischen HBV-Infektion, Behandlungslandschaft einschließlich PEG-IFN |
-| [21423260](https://pubmed.ncbi.nlm.nih.gov/21423260/) | 2011 | Übersichtsartikel | Nature Reviews Gastroenterology & Hepatology | Übersicht der Ziele der Hepatitis-B-Therapie und Überwachung des Behandlungserfolgs |
-| [30318613](https://pubmed.ncbi.nlm.nih.gov/30318613/) | 2019 | Klinische Studie | Hepatology | Entecavir/PEG-IFN Alfa-2a-Kombination bei Kindern mit HBeAg-positivem immune-tolerantem CHB |
-| [33339708](https://pubmed.ncbi.nlm.nih.gov/33339708/) | 2021 | Kohortenstudie | Journal of the Formosan Medical Association (Taiwan) | Virologische/immunologische Prädiktoren für Langzeitergebnisse einer PEG-IFN-Therapie bei HBeAg-negativem CHB |
-| [26700861](https://pubmed.ncbi.nlm.nih.gov/26700861/) | 2015 | RCT | Virology Journal | Langzeiteffekte von PEG-IFN Alfa-2a bei japanischen CHB-Patienten |
-| [18220290](https://pubmed.ncbi.nlm.nih.gov/18220290/) | 2008 | Klinische Studie (Phase-3-Registrierung) | Hepatology | HBeAg und HBV-DNA als Ergebnis-Prädiktoren während PEG-IFN Alfa-2a-Therapie |
-| [16013986](https://pubmed.ncbi.nlm.nih.gov/16013986/) | 2005 | Fachkommentar | Expert Opinion on Pharmacotherapy | Übersicht über PEG-IFN Alfa-2a-Zulassung und klinische Studienevidenz bei Hepatitis B |
+| [15987917](https://pubmed.ncbi.nlm.nih.gov/15987917/) | 2005 | RCT | N Engl J Med | Peginterferon alfa-2a allein oder mit Lamivudin vs. Lamivudin allein bei HBeAg-positiver chronischer Hepatitis B |
+| [30549279](https://pubmed.ncbi.nlm.nih.gov/30549279/) | 2019 | RCT | Hepatology | Entecavir plus Peginterferon alfa-2a bei Erwachsenen in der Immuntoleranzphase |
+| [26299874](https://pubmed.ncbi.nlm.nih.gov/26299874/) | 2016 | Systematische Übersicht/Metaanalyse | Clin Res Hepatol Gastroenterol | Verlängerte vs. Standarddauer (48 Wochen) der Peginterferon-alfa-2a-Therapie bei chronischer Hepatitis B |
+| [30865588](https://pubmed.ncbi.nlm.nih.gov/30865588/) | 2019 | Systematische Übersicht/Metaanalyse | Antivir Ther | Individuelle Patientendaten zu Abbruchregeln der Peginterferon-Therapie |
+| [33720089](https://pubmed.ncbi.nlm.nih.gov/33720089/) | 2021 | Randomisierte kontrollierte Studie | J Pediatr Gastroenterol Nutr | Peginterferon alfa-2a plus Lamivudin oder Entecavir bei Kindern mit immuntoleranter Hepatitis B |
+| [26700861](https://pubmed.ncbi.nlm.nih.gov/26700861/) | 2015 | Randomisierte Doppelblindstudie | Virol J | Langzeitwirkung bei japanischen Patienten mit chronischer Hepatitis B |
+| [32548156](https://pubmed.ncbi.nlm.nih.gov/32548156/) | 2020 | Kohortenstudie | World J Clin Cases | Zytokine als Prädiktoren des virologischen Ansprechens unter Peginterferon alfa-2a |
+| [41086952](https://pubmed.ncbi.nlm.nih.gov/41086952/) | 2025 | Kohortenstudie | Antiviral Res | Virale Quasispezies als Prädiktor der HBsAg-Serokonversion bei Kindern |
+| [18221137](https://pubmed.ncbi.nlm.nih.gov/18221137/) | 2006 | Review | Recent Pat Anti-infect Drug Discov | Pegylierte Interferone zur Behandlung der chronischen Hepatitis B |
+| [26188762](https://pubmed.ncbi.nlm.nih.gov/26188762/) | 2016 | Review | J Formos Med Assoc | Duale Hepatitis-B- und -C-Infektion in Taiwan |
 
 ---
 
-## Informationen zum Markt Deutschland
+## Marktinformationen Deutschland
 
-Für Peginterferon Alfa-2a sind derzeit keine Marktgenehmigungen im deutschen regulatorischen Datensatz verzeichnet (`market_status: Not marketed / Not Marketed`, 0 Gesamtlizenzen). Dies steht im Widerspruch zu der gut dokumentierten Studienhistorie des Arzneistoffs und spiegelt wahrscheinlich eher eine Unvollständigkeit der Daten in der regulatorischen Quelle wider als ein tatsächliches Fehlen auf dem deutschen Markt — dies sollte direkt gegen BfArM-Unterlagen überprüft werden, bevor eine endgültige Entscheidung getroffen wird.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000395 | Pegasys | k. A. | Chronische Hepatitis C, chronische Hepatitis B, Polycythaemia vera, essenzielle Thrombozythämie |
+
+Diese Zulassung ist erloschen (Status: cancelled). Derzeit besteht keine gültige Zulassung.
 
 ---
 
 ## Sicherheitsaspekte
 
-Formale Sicherheitsdaten (wichtige Warnhinweise, Kontraindikationen, Arzneimittelwechselwirkungen) sind derzeit nicht im Datensatz verfügbar. Bemerkenswert ist, dass dies als Datenlücke mit **blockierendem Schweregrad (DG001: Label-Warnhinweise und Kontraindikationen der TFDA/BfArM)** gekennzeichnet ist — das bedeutet, dass dieser Kandidat formal nicht die Stufe S1 der Sicherheits-Erstüberprüfung einleiten kann, bis Label-Daten verfügbar sind (z. B. durch Herunterladen und Verarbeitung des offiziellen Produktlabel-PDF).
+- **Wechselwirkungen**: In den zusammengestellten Daten sind 100 mögliche Wechselwirkungen erfasst. Als **schwerwiegend (Major)** eingestuft sind u. a. Bupropion, Deferipron, Iopamidol, Iohexol, Samarium-(153Sm)-Lexidronam und Eltrombopag. Als **mäßig (Moderate)** eingestuft sind u. a. Metronidazol, Tinidazol, Naltrexon, Rosuvastatin, Simvastatin, Warfarin, Dicumarol, Chloroquin, Pegvaliase, Palifermin und Strontiumchlorid-Sr-89 sowie einige Abführ- bzw. Darmreinigungsmittel (Picosulfat, Polyethylenglykol, Natriumsulfat).
+- **Kardiale Risiken**: Interferontherapien wurden mit kardialen Nebenwirkungen (Arrhythmie, Kardiomyopathie) in Verbindung gebracht.
+- **Neuropsychiatrische Effekte**: Interferon-alpha kann Depressionen und grippeähnliche Symptome auslösen (aus einer präklinischen Studie und allgemeiner Literatur).
 
-Bitte beachten Sie die offizielle Gebrauchsinformation für vollständige Sicherheitsinformationen in der Zwischenzeit.
+Warnhinweise und Gegenanzeigen aus der Fachinformation liegen nicht vor. Bitte die Fachinformation zu Rate ziehen.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Mit Sicherheitsvorkehrungen fortfahren**
+**Entscheidung: Proceed with Guardrails**
 
-**Rationale:**
-Die klinische Evidenzbasis für Peginterferon Alfa-2a bei Hepatitis-B-Virus-Infektion ist außergewöhnlich stark (L1, einschließlich einer Landmark-Phase-3-RCT im NEJM und Dutzenden abgeschlossener Phase-3/4-Studien), aber die Begründung selbst zeigt, dass dies weitgehend eine bereits etablierte Anwendung bestätigt, anstatt eine echte neue Neuindikationsgelegenheit zu bieten. Kombiniert mit einer blockierenden Sicherheitsdatenlücke und offenbar unvollständigem deutschem Marktdatensatz sollte der Kandidat nur mit Sicherheitsvorkehrungen fortfahren, bis grundlegende regulatorische Daten komplettiert sind.
+**Begründung:**
+Für Hepatitis B liegen mehrere Phase-3/4-Studien und randomisierte Studien sowie Metaanalysen vor (Evidenzlevel L1). Es handelt sich jedoch um eine bereits zugelassene Indikation, und die EU-Zulassung in Deutschland ist erloschen. Mehrere Studien sind klein oder haben einen unbekannten Status.
 
-**Für das Fortfahren ist Folgendes erforderlich:**
-- Auflösen von DG001 (blockierend): Herunterladen und Verarbeitung des offiziellen TFDA/BfArM-Produktlabels zur Erfassung von Warnhinweisen, Kontraindikationen und Wechselwirkungsdaten
-- Auflösen von DG002 (hoch): Bestätigung des Wirkmechanismus via DrugBank API-Abfrage
-- Überprüfung des tatsächlichen deutschen Marktstatus/Genehmigungsstatus gegen BfArM-Unterlagen (das aktuelle "0 Lizenzen" scheint eine Datenlücke zu sein, keine echte Abwesenheit)
-- Bestätigung und Dokumentation der tatsächlich ursprünglich genehmigten Indikation des Arzneistoffs, um dies korrekt als Label-Bestätigung vs. echte Neuindikation zu klassifizieren
-- Überlegung zur Hepatitis-E-Virus-Infektion (Rang 2, L3-Evidenz: humanisiertes-Mausmodell + Fallberichte + eine systematische Übersicht) als separate, genuinely explorative Forschungsfrage mit unabhängiger Verfolgung
-
+**Für das weitere Vorgehen erforderlich:**
+- Klärung des Zulassungs- bzw. Vermarktungsstatus (erloschene Zulassung; ggf. Verfügbarkeit anderer Peginterferon-Präparate)
+- Auswertung der Fachinformation zu Warnhinweisen und Gegenanzeigen (Sicherheitsprüfung ist derzeit blockiert)
+- Daten zum Wirkmechanismus (MOA) aus DrugBank ergänzen
+- Sicherheitsüberwachungsplan, insbesondere für kardiale und neuropsychiatrische Risiken sowie die Wechselwirkungen mit hohem Schweregrad
+- Die übrigen vorhergesagten Indikationen (Hepatitis E: „Research Question"; alle anderen: „Hold") nicht weiterverfolgen, solange keine direkte Evidenz vorliegt
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

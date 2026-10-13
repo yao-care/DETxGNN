@@ -2,7 +2,7 @@
 layout: default
 title: Idebenone
 parent: Nur Modellvorhersage (L5)
-nav_order: 193
+nav_order: 228
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,64 +29,77 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Idebenone: Investigative Neuanwendung auf Hepatische Porphyrie
+# Idebenon: Von der Leberschen hereditären Optikusneuropathie zur hepatischen Porphyrie
 
 ## Zusammenfassung in einem Satz
 
-> Das Evidenzpaket dokumentiert nicht Idebenones ursprüngliche zugelassene Indikation oder seinen Wirkmechanismus (beide werden als Datenlücken gekennzeichnet).
-> Das TxGNN-Modell sagt voraus, dass es möglicherweise für **Hepatische Porphyrie** wirksam sein könnte,
-> aber diese Vorhersage wird derzeit durch **0 klinische Studien** und **0 Publikationen** gestützt — sie beruht allein auf topologischer Modellsimilarität.
+Idebenon ist ein synthetisches, kurzkettiges Benzochinon-Analogon von Coenzym Q10 und wurde ursprünglich zur Behandlung der Leberschen hereditären Optikusneuropathie (LHON) eingesetzt. Das TxGNN-Modell sagt voraus, dass es bei **hepatischer Porphyrie** wirksam sein könnte, doch derzeit stützen **0 klinische Studien** und **0 Publikationen** diese Vorhersage. Sie beruht allein auf einer Modellberechnung.
 
-## Schnelle Übersicht
+---
+
+## Kurzüberblick
 
 | Punkt | Inhalt |
-|------|---------|
-| Ursprüngliche Indikation | Nicht im Evidenzpaket dokumentiert |
+|------|------|
+| Ursprüngliche Indikation | Hereditäre Optikusatrophie Leber (LHON) |
 | Vorhergesagte neue Indikation | Hepatische Porphyrie |
-| TxGNN-Vorhersage-Score | 99.92% |
-| Evidenzstufe | L5 (nur Modellvorhersage) |
-| Marktstatus Deutschland | Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Ausstehend |
+| TxGNN-Vorhersagewert | 99,92 % |
+| Evidenzgrad | L5 |
+| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
+| Anzahl der Zulassungen | 1 (0 gültig, 1 erloschen) |
+| Empfohlene Entscheidung | Hold |
 
-## Warum ist diese Vorhersage angemessen?
+---
 
-Derzeit sind detaillierte Wirkmechanismus-Daten für Idebenone nicht im strukturierten Evidenzpaket verfügbar (gekennzeichnet als Datenlücke mit hohem Schweregrad, DG002). Basierend auf den mechanistischen Notizen, die den TxGNN-Vorhersagen beigefügt sind, wird Idebenone als **Coenzym-Q10-Analog** mit mitochondrialer Elektronentransport- und antioxidativer Aktivität beschrieben — diese Charakterisierung stammt aus dem Begründungstext des Modells statt aus einem bestätigten Wirkmechanismus-Datensatz, daher sollte sie als vorläufig behandelt werden.
+## Warum ist diese Vorhersage nachvollziehbar?
 
-Die ursprüngliche zugelassene Indikation ist ebenfalls nicht dokumentiert (`original_indications` ist leer, und es gibt keine Deutschland-Marktzulassungen, um sie daraus abzuleiten). Ohne eine bestätigte ursprüngliche Indikation ist es nicht möglich, die mechanistische Kontinuität zwischen „ursprünglicher Verwendung" und „hepatischer Porphyrie" auf die Weise zu bewerten, wie dieser Bericht es normalerweise tun würde.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Idebenon ein synthetisches, kurzkettiges Analogon von Coenzym Q10 ist. Es wirkt als Elektronenüberträger in der mitochondrialen Atmungskette und als Antioxidans. Seine Wirksamkeit bei LHON, einer mitochondrialen Erkrankung, bildete die Grundlage der ursprünglichen Zulassung.
 
-Das Modell-Rationale selbst ist explizit über die Schwäche dieser Verbindung: Hepatische Porphyrie beinhaltet gestörte Häm-Biosynthese und mögliche sekundäre oxidative Belastung, und während Idebenones antioxidative/mitochondriale Unterstützungseigenschaften theoretisch mit der Verminderung oxidativer Schäden kompatibel sind, **es gibt keinen direkten Beweis, der Idebenone mit Porphyrin-Metabolismus oder ALA/PBG-Regulation verbindet**. Der hohe TxGNN-Score (99.92%) widerspiegelt Netzwerk-/topologische Ähnlichkeit im Wissensgraph des Modells, nicht bestätigte pharmakologische oder klinische Relevanz.
+Eine mögliche, rein spekulative Verbindung zur hepatischen Porphyrie besteht über oxidativen Stress und mitochondriale Dysfunktion, die bei porphyrinbedingten Leberzellschäden eine Rolle spielen könnten. Belege dafür liegen nicht vor. Der hohe Vorhersagewert ist ein Ergebnis des Wissensgraphen und ersetzt keine klinische Evidenz.
 
-## Klinische Studienevidenz
+Auch die übrigen Vorhersagen (Rang 2–10) stützen sich ausschließlich auf das Modell. Dazu zählen hepatopulmonales Syndrom, idiopathische kupferassoziierte Zirrhose, familiäre nichtzirrhotische portale Hypertonie, primäre Pfortaderthrombose, hepatoportale Sklerose sowie mehrere entzündliche Myopathien. Mehrere dieser Erkrankungen weisen identische Scores auf, was auf ein gemeinsames Signal im Graphen statt auf krankheitsspezifische Evidenz hindeutet.
 
-Derzeit sind keine verwandten klinischen Studien registriert.
+---
 
-## Literaturbeweise
+## Evidenz aus klinischen Studien
 
-Derzeit ist keine verwandte Literatur verfügbar.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
-## Informationen zum Deutschland-Markt
+---
 
-Für Idebenone liegen derzeit keine Marktzulassungen in Deutschland vor (0 Lizenzen vorhanden).
+## Evidenz aus der Literatur
+
+Derzeit liegt keine zugehörige Literatur vor.
+
+---
+
+## Marktinformationen Deutschland
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/003834 | Raxone | – | Hereditäre Optikusatrophie Leber (Status: erloschen) |
+
+---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+Zur Sicherheit verweisen wir auf die Packungsbeilage bzw. Fachinformation. Für Wechselwirkungen wurden in den zusammengestellten Daten keine Einträge gefunden.
+
+---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Ausstehend**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die Evidenzstufe ist L5 — die Vorhersage der hepatischen Porphyrie basiert ausschließlich auf TxGNN-Modell-Topologie, ohne klinische Studien oder Literaturstütze, und das Modell-Rationale selbst beschreibt die mechanistische Verbindung als indirekt/theoretisch. Daten zur ursprünglichen Indikation und zum Wirkmechanismus fehlen beide, und das Arzneimittel hat derzeit keine Marktpräsenz in Deutschland.
+Die Vorhersage beruht ausschließlich auf einem Wissensgraphen-Score (Evidenzgrad L5) ohne klinische Studien oder Publikationen. Zudem besteht in Deutschland nur eine erloschene Zulassung, und Sicherheits- sowie Wirkmechanismusdaten fehlen.
 
-**Um fortzufahren, ist folgendes erforderlich:**
-- TFDA/BfArM-Kennzeichnungsdaten (Warnungen, Kontraindikationen) — derzeit eine **blockierende** Datenlücke (DG001); erforderlich vor jeder S1-Sicherheitsbeurteilung
-- Bestätigter Wirkmechanismus aus DrugBank oder Primärliteratur (DG002)
-- Dokumentation von Idebenones ursprünglicher zugelassener Indikation(en), um eine mechanistische Kontinuitätsanalyse zu ermöglichen
-- Präklinische oder mechanistische Studien, die mitochondriale/antioxidative Aktivität speziell mit Porphyrin-Metabolismus oder Häm-Biosynthese-Regulation verbinden
-- Jegliche klinische oder fallbasierte Evidenz der Idebenone-Anwendung bei Porphyrie-Patienten, falls sie außerhalb registrierter Studien existiert
-
+**Für ein Weiterkommen sind erforderlich:**
+- Auswertung der Fach- und Gebrauchsinformation (Warnhinweise, Gegenanzeigen) beim BfArM bzw. der EMA
+- Detaillierte Wirkmechanismusdaten (MOA), z. B. aus DrugBank
+- Präklinische oder mechanistische Studien, die einen Zusammenhang zwischen Idebenon und hepatischer Porphyrie belegen
+- Klärung der Gründe für das Erlöschen der Zulassung von Raxone und der damit verbundenen Verfügbarkeit
+- Prüfung der Plausibilität gegenüber alternativen Kandidaten (z. B. Rang 7–10, bei denen Idebenon in verwandten Muskelerkrankungen untersucht wurde)
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

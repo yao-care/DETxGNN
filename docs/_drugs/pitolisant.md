@@ -2,7 +2,7 @@
 layout: default
 title: Pitolisant
 parent: Mittlere Evidenz (L3-L4)
-nav_order: 309
+nav_order: 361
 evidence_level: L4
 indication_count: 3
 ---
@@ -29,90 +29,93 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Pitolisant: Von Narkolepsie zu Insomnie (Signal erfordert Verifikation)
+# Pitolisant: Von Narkolepsie und obstruktiver Schlafapnoe zu Insomnie
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Pitolisant ist ein Histamin-H3-Rezeptor-inverser Agonist, der aus der Literatur für Narkolepsie und OSA-bezogene excessive Tagesschläfrigkeit bekannt ist — d. h. ein **Wach-förderndes** Medikament.
-> Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam für **Insomnie** ist, aber dies wird nur durch **1 zurückgezogene Studie** (für eine nicht verwandte Indikation) und **8 Publikationen** unterstützt, von denen die meisten tatsächlich den gegenteiligen klinischen Effekt beschreiben.
-> Diese Vorhersage zeigt einen direkten mechanistischen Widerspruch und sollte als Forschungsfrage behandelt werden, nicht als umsetzbares Signal.
+Pitolisant ist ein Histamin-H3-Rezeptor-Antagonist bzw. inverser Agonist, der ursprünglich zur Behandlung von Narkolepsie und obstruktiver Schlafapnoe (Tagesschläfrigkeit) eingesetzt wurde. Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **Insomnie** voraus. Dafür liegen jedoch **keine klinischen Studien** und **keine Publikation vor, die Pitolisant bei Insomnie prüft**; die vorhandene Literatur betrifft Narkolepsie, Schlafapnoe und Histamin-Pharmakologie.
 
 ---
 
-## Kurzübersicht
+## Kurzüberblick
 
-| Element | Inhalt |
-|--------|--------|
-| Ursprüngliche Indikation | Narkolepsie mit/ohne Kataplexie (nur nach Literaturbelegen; keine formale regulatorische Eintragung in diesem Datensatz) |
-| Vorhergesagte neue Indikation | Insomnie (Krankheit) |
-| TxGNN-Vorhersage-Score | 99.71% |
-| Evidenzstufe | L4 |
-| Marktstatus in Deutschland | ✗ Nicht im Handel |
-| Anzahl der Genehmigungen | 0 |
-| Empfohlene Entscheidung | Halten |
-
----
-
-## Warum ist diese Vorhersage sinnvoll?
-
-Formale DrugBank-MOA-Daten sind für dieses Medikament nicht verfügbar (Datenlücke). Basierend auf den in diesem Kandidaten beigefügten Literaturbelegen ist Pitolisant ein **selektiver Histamin-H3-Rezeptor-inverser Agonist/Antagonist**. Durch Blockade von H3-Autorezeptoren erhöht es histaminerge, noradrenerge und dopaminerge Signalgebung im Gehirn und erzeugt einen **Wach-fördernden** Effekt. Dieser Mechanismus ist die Grundlage für seine zugelassene Anwendung bei Narkolepsie (mit oder ohne Kataplexie) und seine Untersuchungsanwendung für residuale excessive Tagesschläfrigkeit (EDS) bei OSA-Patienten unter CPAP.
-
-Dies ist genau der Grund, warum die Vorhersage „Insomnie" mechanistisch kontraintuitiv ist: ein Medikament, das entwickelt wurde, um die Wachheit zu erhöhen, würde man erwarten, dass es Insomnie *verschlimmert*, nicht heilt. Sieben der acht an diese Indikation angehängten Literaturzitate beschreiben tatsächlich die Anwendung von Pitolisant für **Narkolepsie oder EDS in OSA** — das klinische Gegenteil von Insomnie — und die einzige zugehörige klinische Studie (ebenfalls zurückgezogen, null Einschlüsse) zielte auf Alkoholvergiftungsstörung ab, nicht auf Schlafeinschlaf-/Schlaferhaltungsprobleme.
-
-Die plausibelste Erklärung, konsistent mit der Begründung, die bereits in diesem Evidenzpaket gekennzeichnet ist, ist, dass der TxGNN-Wissensgraph-Knoten mit der Bezeichnung „Insomnie (Krankheit)" möglicherweise einbettungs-benachbart zu Narkolepsie-/Hypersomnie-/EDS-Krankheitsknoten ist und eine **falsch-positive Assoziation** erzeugt, anstatt eine echte therapeutische Hypothese. Dies muss vor weiterer Evaluierung manuell gegen die Krankheits-Ontologie des KG verifiziert werden.
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Narkolepsie; obstruktive Schlafapnoe |
+| Vorhergesagte neue Indikation | Insomnie |
+| TxGNN-Vorhersagewert | 99,71 % |
+| Evidenzniveau | L4 |
+| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassungen (Status „cancelled") |
+| Anzahl der Zulassungen | 2 (beide erloschen) |
+| Empfohlene Entscheidung | Hold (zurückstellen) |
 
 ---
 
-## Evidenz aus klinischen Studien
+## Warum ist diese Vorhersage (nicht) plausibel?
 
-| Studiennummer | Phase | Status | Einschlüsse | Wichtigste Befunde |
-|---------|------|--------|------|---------|
-| [NCT02800083](https://clinicaltrials.gov/study/NCT02800083) | Phase 2 | Zurückgezogen | 0 | Entwickelt zur Evaluierung von Pitolisant für **Alkoholvergiftungsstörung** (starke Trinkertage als primärer Endpunkt), nicht Insomnie. Zurückgezogen mit null Einschlüssen — es wurden keine Wirksamkeits- oder Sicherheitsdaten generiert, und die Zielindikation entspricht nicht der vorhergesagten. |
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Aus der Literatur ist bekannt: Pitolisant blockiert Histamin-H3-Autorezeptoren als inverser Agonist, steigert die Histaminfreisetzung im Gehirn und fördert so die Wachheit.
 
----
+Genau hier liegt das Problem: Insomnie ist eine Störung mit übermäßiger Erregung bzw. gestörtem Schlaf. Ein wachheitsförderndes Mittel steht dem Therapieziel mechanistisch entgegen und könnte die Beschwerden verschlimmern. Schlaflosigkeit ist zudem eine bekannte Nebenwirkung von Pitolisant. Der hohe TxGNN-Wert spiegelt vermutlich die Nähe im Netzwerk zu Schlaf-Wach-Pfaden (Narkolepsie, Schlafapnoe) wider und keine echte therapeutische Beziehung.
 
-## Literaturbeweise
-
-| PMID | Jahr | Typ | Journal | Wichtigste Befunde |
-|------|-----|-----|--------|---------|
-| [36931805](https://pubmed.ncbi.nlm.nih.gov/36931805/) | 2023 | RCT | Lancet Neurology | Phase-3-RCT von Pitolisant in pädiatrischer Narkolepsie mit/ohne Kataplexie — bestätigt Wach-fördernde Wirksamkeit, nicht eine Insomnie-Indikation. |
-| [33121980](https://pubmed.ncbi.nlm.nih.gov/33121980/) | 2021 | RCT | Chest | RCT bei OSA-Patienten mit residueller excessiver Tagesschläfrigkeit trotz CPAP — Pitolisant verwendet zur *Erhöhung* der Wachheit. |
-| [31917607](https://pubmed.ncbi.nlm.nih.gov/31917607/) | 2020 | RCT | Am J Respir Crit Care Med | RCT für Tagesschläfrigkeit bei OSA-Patienten mit CPAP-Verweigerung — erneut eine Wach-fördernde Anwendung, klinisch das Gegenteil von Insomnie-Behandlung. |
-| [36169322](https://pubmed.ncbi.nlm.nih.gov/36169322/) | 2022 | Kohorte | Revista de Neurología | Realwelt-Studie von Pitolisant in behandlungsresistenter Typ-1-Narkolepsie mit Kataplexie. |
-| [34225942](https://pubmed.ncbi.nlm.nih.gov/34225942/) | 2021 | Übersicht | Handbook of Clinical Neurology | Allgemeine Übersicht der Histamin-Rezeptor-Pharmakologie (H1–H4); nur mechanistischer Hintergrund, nicht indikationsspezifisch. |
-| [30214155](https://pubmed.ncbi.nlm.nih.gov/30214155/) | 2018 | Übersicht | Drug Design, Development and Therapy | Übersicht der Entwicklung und des therapeutischen Stellenwerts von Pitolisant bei Narkolepsie. |
-| [34521328](https://pubmed.ncbi.nlm.nih.gov/34521328/) | 2022 | Übersicht | Current Neuropharmacology | Bespricht Veränderungen des histaminergen Systems bei neuropsychiatrischen Erkrankungen; vermerkt, dass Pitolisant für EDS in Narkolepsie verwendet wird, im Gegensatz zu H1-Antagonist Doxepin, der eigentlich für Insomnie verwendet wird. |
-| [22356925](https://pubmed.ncbi.nlm.nih.gov/22356925/) | 2012 | Übersicht/Mechanistisch | Clinical Neuropharmacology | Frühe mechanistische Übersicht von Pitolisant als Stimulans für Narkolepsie-Kataplexie bei Jugendlichen. |
-
-**Anmerkung:** Keine Publikation in dieser Evidenzmenge untersucht tatsächlich Pitolisant zur Behandlung von Insomnie. Mehrere Quellen beschreiben ausdrücklich den gegenteiligen pharmakologischen Effekt (Wach-Förderung).
+Hinweis zu weiteren Vorhersagen: Für **ADHS** (Score 99,36 %, Evidenzniveau L4, Einstufung „Forschungsfrage") gibt es eine plausible, aber rein indirekte mechanistische Begründung (H3-Antagonismus erhöht Acetylcholin, Dopamin und Noradrenalin im präfrontalen Kortex); ADHS-spezifische Studien zu Pitolisant sind nicht registriert. Für das **faziodigitogenitale Syndrom** (Score 99,29 %, L5) wurde keine mechanistische Begründung gefunden.
 
 ---
 
-## Marktinformation zu Deutschland
+## Klinische Studien
 
-Pitolisant wird derzeit **nicht** in dieser Rechtsordnung vermarktet, und es sind keine Zulassungsrecords im Datensatz verfügbar.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
+
+---
+
+## Literaturevidenz
+
+Die folgenden Arbeiten betreffen die Pitolisant-Pharmakologie und die ursprünglichen Indikationen; **keine** untersucht Pitolisant bei Insomnie.
+
+| PMID | Jahr | Typ | Journal | Kernaussagen |
+|------|-----|------|------|---------|
+| [36931805](https://pubmed.ncbi.nlm.nih.gov/36931805/) | 2023 | RCT | The Lancet. Neurology | Phase-3-Studie zu Sicherheit und Wirksamkeit von Pitolisant bei Kindern ab 6 Jahren mit Narkolepsie |
+| [33121980](https://pubmed.ncbi.nlm.nih.gov/33121980/) | 2021 | RCT | Chest | Pitolisant bei persistierender Tagesschläfrigkeit trotz CPAP-Therapie bei Schlafapnoe |
+| [31917607](https://pubmed.ncbi.nlm.nih.gov/31917607/) | 2020 | RCT | Am J Respir Crit Care Med | Pitolisant bei Tagesschläfrigkeit von Schlafapnoe-Patienten, die CPAP ablehnen |
+| [30214155](https://pubmed.ncbi.nlm.nih.gov/30214155/) | 2018 | Review | Drug Des Devel Ther | Profil von Pitolisant in der Narkolepsie-Therapie |
+| [34521328](https://pubmed.ncbi.nlm.nih.gov/34521328/) | 2022 | Review | Curr Neuropharmacol | Veränderungen des histaminergen Systems bei neuropsychiatrischen Erkrankungen und Behandlungsfolgen |
+| [34225942](https://pubmed.ncbi.nlm.nih.gov/34225942/) | 2021 | Review | Handb Clin Neurol | Histaminrezeptoren, Agonisten und Antagonisten bei Gesundheit und Krankheit |
+| [42525367](https://pubmed.ncbi.nlm.nih.gov/42525367/) | 2026 | Review | Neurol Ther | Aktuelle und neue Therapien bei pädiatrischen Schlafstörungen |
+| [36169322](https://pubmed.ncbi.nlm.nih.gov/36169322/) | 2022 | Kohorte | Rev Neurol | Real-Life-Studie (WAKE) bei Narkolepsie mit Kataplexie und Therapieversagen |
+| [41588264](https://pubmed.ncbi.nlm.nih.gov/41588264/) | 2026 | Kohorte | Neurol Sci | Real-World-Studie bei pädiatrischer Narkolepsie in China (40 Patienten) |
+| [22356925](https://pubmed.ncbi.nlm.nih.gov/22356925/) | 2012 | Übersicht/Fallserie | Clin Neuropharmacol | Pitolisant bei Jugendlichen mit Narkolepsie-Kataplexie und therapierefraktärer Schläfrigkeit |
+
+---
+
+## Marktinformationen Deutschland
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/002616 | Wakix | – | Narkolepsie (erloschen) |
+| EMEA/H/C/005117 | Ozawade | – | Obstruktive Schlafapnoe (erloschen) |
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+- **Arzneimittelwechselwirkungen:** In den Daten sind 100 Wechselwirkungen verzeichnet. Als **schwerwiegend (Major)** eingestuft sind u. a. **Bupropion** und **Dolasetron**. Als **mäßig (Moderate)** eingestuft sind u. a. Famotidin, Cimetidin, Hydrocortison, Dexamethason, Betamethason, Budesonid, Triamcinolon, Metformin, Loperamid, Morphin, Acetylsalicylsäure, Clarithromycin, Eliglustat, Empagliflozin und Methylnaltrexon.
+- **Weitere Hinweise:** Schlaflosigkeit ist eine bekannte Nebenwirkung von Pitolisant, was für die vorhergesagte Indikation besonders relevant ist.
+
+Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Halten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die vorhergesagte Indikation (Insomnie) ist mechanistisch nicht plausibel angesichts der gut dokumentierten Wach-fördernden Pharmakologie von Pitolisant, und die einzige beigefügte klinische Studie ist nicht verwandt und zurückgezogen. Der Großteil der Literaturbeweise unterstützt tatsächlich die gegenteilige klinische Anwendung (EDS/Narkolepsie), was darauf hindeutet, dass das TxGNN-Signal eher ein Wissensgraph-Artefakt als eine echte Umwidmungsmöglichkeit ist.
+Die Vorhersage „Insomnie" widerspricht dem Wirkmechanismus (wachheitsfördernd), Schlaflosigkeit ist eine bekannte Nebenwirkung, und es gibt weder klinische Studien noch spezifische Literatur. Zudem sind beide deutschen bzw. europäischen Zulassungen erloschen.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- Manuelle Verifikation der Definition des Knotens „Insomnie (Krankheit)" und seiner Nachbarn im TxGNN-Wissensgraph, um Verwechslungen mit Narkolepsie-/Hypersomnie-/EDS-Knoten auszuschließen
-- Formale DrugBank-MOA-Bestätigung (derzeit eine Datenlücke, DG002)
-- TFDA/BfArM-Etikett-Warnungen und Kontraindikationen (derzeit eine blockierende Datenlücke, DG001), bevor eine sicherheitsrelevante Evaluierung stattfinden kann
-- Falls der KG-Knoten als echte Insomnie bestätigt wird (nicht ein falsch beschrifteter Hypersomnie-benachbarter Knoten), würden spezifische präklinische oder klinische Insomnie-Daten erforderlich sein, bevor dieser Kandidat erneut in Betracht gezogen werden könnte
-
+**Für ein Weiterkommen erforderlich:**
+- Fachinformation (Warnhinweise, Gegenanzeigen) vom BfArM beschaffen und auswerten
+- Detaillierte Wirkmechanismus-Daten (MOA) ergänzen
+- Klärung der Gründe für den Zulassungsstatus „erloschen"
+- Falls Interesse besteht: ADHS als aussichtsreichere Hypothese mit präklinischen bzw. explorativen klinischen Arbeiten prüfen
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

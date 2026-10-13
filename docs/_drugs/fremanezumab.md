@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Fremanezumab
-parent: Nur Modellvorhersage (L5)
-nav_order: 173
-evidence_level: L5
+parent: Mittlere Evidenz (L3-L4)
+nav_order: 203
+evidence_level: L4
 indication_count: 2
 ---
 
 # Fremanezumab
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2** 
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,41 +29,39 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Fremanezumab: Von der Migräneprophylaxe zur Migräne mit Hirnstammaura
+# Fremanezumab: Von Migräne zu Migräne mit Hirnstamm-Aura
 
-## Eine-Satz-Zusammenfassung
+## Zusammenfassung
 
-> Fremanezumab ist ein humanisierter anti-CGRP-Antikörper, der als etablierte Behandlung zur Vorbeugung von episodischer und chronischer Migräne eingesetzt wird.
-> Das TxGNN-Modell prognostiziert, dass es möglicherweise auch wirksam bei **Migräne mit Hirnstammaura** ist,
-> einem seltenen Migräne-Subtyp, der typischerweise aus Pivotstudien ausgeschlossen ist und derzeit nur durch präklinische mechanistische Studien, Fallberichte und Kohorten aus der klinischen Realpraxis unterstützt wird — **es existieren bislang keine gezielten klinischen Studien oder subtyp-spezifischen randomisierten kontrollierten Studien (RCTs)**
+Fremanezumab ist ein humanisierter monoklonaler Antikörper gegen CGRP (Calcitonin Gene-Related Peptide) und wurde ursprünglich zur Migräneprophylaxe zugelassen. Das TxGNN-Modell sagt voraus, dass er bei **Migräne mit Hirnstamm-Aura** wirksam sein könnte. Es liegen **keine registrierten klinischen Studien** vor, aber **20 Publikationen** zu Migräne allgemein, von denen keine spezifisch diesen Subtyp untersucht.
 
 ---
 
 ## Schnellübersicht
 
 | Punkt | Inhalt |
-|-------|--------|
-| Ursprüngliche Indikation | Migräneprophylaxe (episodisch/chronisch) — abgeleitet aus unterstützender Literatur; offizielle Taiwan-Zulassungstextangaben nicht verfügbar |
-| Vorhergesagte neue Indikation | Migräne mit Hirnstammaura |
-| TxGNN-Vorhersage-Score | 99.94% |
-| Evidenzstufe | L4 (präklinisch/mechanistisch + nicht-subtyp-spezifische Beobachtungsstudien) |
-| Marktstatus in Taiwan | Noch nicht auf dem Markt (Nicht auf dem Markt) |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Vorbehalten |
+|------|------|
+| Ursprüngliche Indikation | Migräne (Migraine Disorders) |
+| Vorhergesagte neue Indikation | Migräne mit Hirnstamm-Aura |
+| TxGNN-Vorhersagewert | 99,94 % |
+| Evidenzlevel | L4 |
+| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
+| Anzahl der Zulassungen | 1 (erloschen) |
+| Empfohlene Entscheidung | Hold (Forschungsfrage; Nachweis vor Fortführung erforderlich) |
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Warum ist diese Vorhersage plausibel?
 
-Detaillierte wirkstoffspezifische Wirkmechanismus-Daten sind für Fremanezumab derzeit nicht verfügbar (Datenlücke). Basierend auf veröffentlichter Literatur ist Fremanezumab ein vollständig humanisierter IgG2Δa-Monoklonalantikörper, der das Calcitonin Gene-Related Peptide (CGRP) selektiv bindet und neutralisiert, ein Neuropeptid, das in der Migränepathophysiologie durch trigeminale Gefäßaktivierung und Vasodilatation zentral ist.
+Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Nach bekanntem Stand bindet Fremanezumab den CGRP-Liganden. CGRP-Signalwege im trigeminovaskulären System spielen eine zentrale Rolle in der Pathophysiologie der Migräne.
 
-Migräne mit Hirnstammaura (früher als basilaris-Typ-Migräne bekannt) ist ein Subtyp der Migräne mit Aura, und CGRP ist übergreifend in Migräne-Subtypen impliziert. Dies liefert eine plausible Grundlage für die Erweiterung der Fremanezumab-Anwendung über typische episodische/chronische Migräne hinaus auf Aura-assoziierte Subtypen.
+Migräne mit Hirnstamm-Aura ist ein Subtyp der Migräne, daher ist der Mechanismus plausibel und eng mit der zugelassenen Indikation (Migräneprophylaxe) verwandt. Es handelt sich weitgehend um eine Erweiterung auf einen Subtyp innerhalb der bestehenden Migräneindikation und nicht um ein echtes Repurposing.
 
-Allerdings zeigen zwei präklinische Tierstudien (PMID 31127003, 31895266), dass Fremanezumab **nicht** den Beginn der kortikalen Ausbreitungsdepression (KAD) — das physiologische Korrelat der Aura — verhindert und nur dessen Ausbreitungs-/Erholungsparameter bescheiden beeinflusst. Dies deutet darauf hin, dass die mechanistische Verbindung eher zu nachgelagerten Kopfschmerzsymptomen als zum Auramechanismus selbst besteht, was die Verbindung eher moderat als direkt macht. Klinisch werden Patienten mit hemiplegischer und Hirnstamm-Migräne systematisch aus großen Anti-CGRP-RCTs ausgeschlossen, daher stammt die aktuelle unterstützende Evidenz aus Fallberichten, kleinen Fallserien und post-hoc/Beobachtungs-Subgruppenanalysen statt aus gezielten Studien.
+Die Evidenz ist indirekt: Die Literatur umfasst episodische und chronische Migräne, Real-World-Kohorten sowie präklinische Studien (trigeminovaskuläre Neurone, kortikale Streudepression). Einzelne Arbeiten betreffen Aura allgemein oder hemiplegische Migräne, nicht jedoch Hirnstamm-Aura. Der hohe TxGNN-Wert ist eine Modellvorhersage und kein klinischer Beleg.
 
 ---
 
-## Klinische Studienevidenz
+## Evidenz aus klinischen Studien
 
 Derzeit sind keine zugehörigen klinischen Studien registriert.
 
@@ -71,52 +69,55 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ## Literaturevidenz
 
-| PMID | Jahr | Typ | Journal | Wichtige Ergebnisse |
-|------|------|------|---------|----------|
-| [35302681](https://pubmed.ncbi.nlm.nih.gov/35302681/) | 2022 | RCT post-hoc-Subgruppenanalyse (Phase 3b FOCUS) | European Journal of Neurology | Fremanezumab zeigte Wirksamkeit und QoL-Verbesserung bei schwer zu behandelnden Migränepatienten mit/ohne Aura oder damit verbundenen neurologischen Dysfunktionen |
-| [35268319](https://pubmed.ncbi.nlm.nih.gov/35268319/) | 2022 | Fallbericht/Übersicht | Journal of Clinical Medicine | Untersucht Evidenz zu Anti-CGRP-Antikörpern (einschließlich Fremanezumab) für Migräne-Aura spezifisch; vermerkt mangelnde Daten zur Aura-Prävention trotz bewiesener Kopfschmerz-Wirksamkeit |
-| [41618146](https://pubmed.ncbi.nlm.nih.gov/41618146/) | 2026 | Einzelpatienten-quantitative Analyse | The Journal of Headache and Pain | Anti-CGRP-Antikörper zeigen Wirksam-/Sicherheitssignale bei hemiplegischer Migräne, einem verwandten Aura-Subtyp, der systematisch aus RCTs ausgeschlossen ist |
-| [40264646](https://pubmed.ncbi.nlm.nih.gov/40264646/) | 2025 | Fallbericht/Übersicht | Frontiers in Neurology | Fallbericht hemiplegischer Migräne ansprechend auf Anti-CGRP-Antikörper; Literaturübersicht begrenzter vorhandener Daten |
-| [38332541](https://pubmed.ncbi.nlm.nih.gov/38332541/) | 2024 | Beobachtungsfallserie | CNS Neuroscience & Therapeutics | Wirkung der CGRP-gerichteten Therapie auf Migräne-Aura untersucht; begrenzte klinische Evidenz vermerkt |
-| [35775208](https://pubmed.ncbi.nlm.nih.gov/35775208/) | 2022 | Beobachtungsanalyse | Cephalalgia | Bewertet Wirkung von Anti-CGRP-Antikörpern (einschließlich Fremanezumab) auf zentrale/prodromale Migränesymptome |
-| [37638190](https://pubmed.ncbi.nlm.nih.gov/37638190/) | 2023 | Kohorte (Realwelt) | Frontiers in Neurology | Bestätigt Realwelt-Wirksamkeit/Verträglichkeit von Fremanezumab bei chronischer Migräne (Gesamtbevölkerung, nicht Aura-spezifisch) |
-| [31127003](https://pubmed.ncbi.nlm.nih.gov/31127003/) | 2019 | Präklinisch/Tier | The Journal of Neuroscience | Fremanezumab blockiert nicht die durch KAD induzierte arterielle Dilatation/Plasmaaustritt, was die direkte CGRP-Rolle im Auramechanismus in Frage stellt |
-| [31895266](https://pubmed.ncbi.nlm.nih.gov/31895266/) | 2020 | Präklinisch/Tier | Pain | Fremanezumab verlangsamt KAD-Ausbreitung und verkürzt kortikale Erholung, verhindert aber nicht das Auftreten von KAD |
-| [30725283](https://pubmed.ncbi.nlm.nih.gov/30725283/) | 2019 | Übersicht | Handbook of Experimental Pharmacology | Grundlegende Übersicht der CGRP-Rolle übergreifend in Migräne-Subtypen, die die allgemeine mechanistische Grundlage unterstützt |
+| PMID | Jahr | Typ | Journal | Kernaussagen |
+|------|-----|------|------|---------|
+| [35302681](https://pubmed.ncbi.nlm.nih.gov/35302681/) | 2022 | Kohorte (Post-hoc-Analyse, Phase 3b FOCUS) | Eur J Neurol | Wirksamkeit und Lebensqualität unter Fremanezumab bei schwer behandelbarer Migräne, Subgruppen mit und ohne Aura/neurologische Symptome |
+| [41618146](https://pubmed.ncbi.nlm.nih.gov/41618146/) | 2026 | Systematische Übersicht | J Headache Pain | Anti-CGRP-Antikörper bei hemiplegischer Migräne (Aura-Subtyp), Analyse auf Einzelpatientenebene |
+| [38332541](https://pubmed.ncbi.nlm.nih.gov/38332541/) | 2024 | Fallserie | CNS Neurosci Ther | Effekt von Anti-CGRP-Therapie auf Migräneaura |
+| [38091211](https://pubmed.ncbi.nlm.nih.gov/38091211/) | 2024 | Prospektive Kohorte (Pilot) | Neurol Sci | Wirksamkeit von Anti-CGRP-Antikörpern bei Migräne mit Aura |
+| [41589756](https://pubmed.ncbi.nlm.nih.gov/41589756/) | 2026 | Fallbericht | Eur J Neurol | Reduzierte Häufigkeit verlängerter Attacken bei sporadischer hemiplegischer Migräne unter Fremanezumab |
+| [37638190](https://pubmed.ncbi.nlm.nih.gov/37638190/) | 2023 | Kohorte | Front Neurol | Real-World-Wirksamkeit und Verträglichkeit von Fremanezumab bei chronischer Migräne über 3 Monate |
+| [31127003](https://pubmed.ncbi.nlm.nih.gov/31127003/) | 2019 | Präklinisch | J Neurosci | Kortikale Streudepression und Gefäßdilatation durch Fremanezumab unbeeinflusst; Implikationen für die Rolle von CGRP bei Migräne mit Aura |
+| [28642283](https://pubmed.ncbi.nlm.nih.gov/28642283/) | 2017 | Präklinisch | J Neurosci | Selektive Hemmung trigeminovaskulärer Neurone durch Fremanezumab |
+| [42090640](https://pubmed.ncbi.nlm.nih.gov/42090640/) | 2026 | Kohorte | Neurology | Glaukomrisiko unter CGRP-Inhibitoren bei Migräne (Sicherheitssignal) |
+| [42390441](https://pubmed.ncbi.nlm.nih.gov/42390441/) | 2026 | Kohorte | Cephalalgia | Zerebrovaskuläres Risiko unter CGRP-Antikörpern im Vergleich zu OnabotulinumtoxinA |
 
 ---
 
-## Taiwan Marktinformationen
+## Marktinformationen Deutschland
 
-Fremanezumab ist **derzeit nicht auf dem taiwanesischen Markt** (0 Zulassungen in der Datenbank). Keine Lizenz-/Produktdaten sind zur Überprüfung verfügbar.
-
----
-
-## Sicherheitshinweise
-
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. (Wichtige Warnhinweise, Kontraindikationen und Arzneimittel-Wechselwirkungsdaten sind als Datenlücken im aktuellen Evidenzpaket markiert — siehe DG001 unten.)
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/004833 | Ajovy (Teva GmbH) | – | Migräne (Migraine Disorders); Status: erloschen |
 
 ---
 
-## Sekundäre Vorhersage (Nicht handlungsbar)
+## Sicherheitsaspekte
 
-Das Evidenzpaket enthält auch eine Rang-2-Vorhersage, **atrophoderma vermiculata** (eine seltene follikuläre keratotische Hauterkrankung), mit TxGNN-Score 99.04%, aber **null unterstützende klinische Studien oder Literatur**. Es gibt keine bekannte mechanistische Verbindung zwischen dem CGRP-Signalweg und dieser dermatologischen Erkrankung. Dies wird als wahrscheinlich falsch positiv aus dem Wissensgraph (Evidenzstufe L5) bewertet und ist **nicht zur weiteren Bewertung empfohlen**.
+Zu Warnhinweisen, Gegenanzeigen und Wechselwirkungen liegen keine Daten vor. Bitte die Fachinformation für Sicherheitsangaben heranziehen.
+
+Hinweis aus der Literatur: Zwei Kohortenstudien aus 2026 berichten über mögliche Sicherheitssignale von CGRP-Inhibitoren (Glaukomrisiko, zerebrovaskuläres Risiko). Dies ist besonders bei einem Aura-Subtyp mit vaskulärem Kontext relevant. Die Befunde sollten anhand der Volltexte geprüft werden, da die Zusammenfassungen verkürzt vorliegen.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Vorbehalten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die CGRP-Migräne-mechanistische Verbindung ist gut etabliert, und post-hoc/Beobachtungsdaten deuten auf Nutzen in Aura-assoziierten Migräne-Subgruppen hin. Allerdings existieren keine gezielten klinischen Studien spezifisch für Migräne mit Hirnstammaura, präklinische Daten deuten darauf hin, dass Fremanezumab den Kern-Auramechanismus (KAD) nicht blockiert, und diese Patientenpopulation ist systematisch aus Pivotstudien ausgeschlossen. Kombiniert mit fehlenden Taiwan-Zulassungssicherheitsdaten ist die Evidenz noch nicht ausreichend, um fortzufahren.
+Die Vorhersage beruht auf einem plausiblen Mechanismus und indirekter Evidenz aus der Migräne-Elternindikation. Es gibt jedoch keine registrierten Studien und keine Literatur speziell zur Hirnstamm-Aura. Zudem fehlen Sicherheitsdaten aus der Fachinformation, was eine Sicherheitsbewertung blockiert, und die deutsche Zulassung ist erloschen.
 
-**Um fortzufahren, ist folgendes erforderlich:**
-- **[Blockierend]** Taiwan (TFDA) Packungsbeilage-Daten — Warnhinweise, Kontraindikationen, Arzneimittel-Wechselwirkungen (DG001)
-- Bestätigte Wirkmechanismus-Dokumentation von DrugBank (DG002)
-- Eine gezielt durchgeführte prospektive Studie oder Registerstudie bei Patienten mit Migräne-mit-Hirnstammaura (derzeit aus RCTs ausgeschlossen)
-- Klarstellung des regulatorischen Wegs, da das Arzneimittel noch nicht auf dem taiwanesischen Markt ist
+**Für eine Weiterverfolgung sind erforderlich:**
+- Fachinformation (Warnhinweise, Gegenanzeigen) vom BfArM beschaffen und auswerten
+- Mechanismusdaten (MOA) aus DrugBank ergänzen
+- Gezielte Literaturrecherche und Prüfung der Volltexte zu Hirnstamm-Aura
+- Klärung des Zulassungsstatus in Deutschland (Zentralzulassung EMA vs. erloschener Eintrag)
+- Prüfung der Sicherheitssignale (Glaukom, zerebrovaskuläre Ereignisse)
 
+---
+
+**Weitere vorhergesagte Indikation (Rang 2): Atrophoderma vermiculata**
+TxGNN-Wert 99,04 %, Evidenzlevel L5. Es gibt weder klinische Studien noch Literatur und keine erkennbare mechanistische Verbindung zur CGRP-Hemmung. Der hohe Wert ist vermutlich ein graphbasiertes Artefakt. Empfehlung: **Hold**.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

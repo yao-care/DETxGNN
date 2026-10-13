@@ -2,7 +2,7 @@
 layout: default
 title: Inclisiran
 parent: Nur Modellvorhersage (L5)
-nav_order: 201
+nav_order: 237
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,80 +29,72 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Inclisiran: Ursprüngliche Indikation nicht dokumentiert → Vorhergesagte Anwendung bei Kaliummangelerkrankung
+# Inclisiran: Von Hypercholesterinämie zu Kaliummangelerkrankung
 
 ## Zusammenfassung in einem Satz
 
-> Die ursprüngliche zugelassene Indikation von Inclisiran und dessen Wirkmechanismus sind im vorliegenden Nachweispaket nicht verfügbar (gekennzeichnet als Datenlücken). Die höchstplatzierte Vorhersage des TxGNN-Modells für diesen Wirkstoff ist **Kaliummangelerkrankung**, aber diese Vorhersage wird derzeit durch **0 klinische Studien** und **0 Publikationen** gestützt — es handelt sich um einen reinen Modellscore ohne empirische Belege aus der Praxis.
+Inclisiran ist eine siRNA, die ursprünglich zur Behandlung von Hypercholesterinämie und Dyslipidämien zugelassen wurde. Das TxGNN-Modell sagt voraus, dass der Wirkstoff bei **Kaliummangelerkrankung** (potassium deficiency disease) wirksam sein könnte. Diese Vorhersage beruht ausschließlich auf dem Modell: Es liegen **keine klinischen Studien** und **keine Publikationen** zu dieser Indikation vor.
 
----
+## Kurzübersicht
 
-## Schnellübersicht
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Hypercholesterinämie; Dyslipidämien |
+| Vorhergesagte neue Indikation | Kaliummangelerkrankung (potassium deficiency disease) |
+| TxGNN-Vorhersagewert | 99,93 % |
+| Evidenzlevel | L5 |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
+| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 aufgehoben) |
+| Empfohlene Entscheidung | Hold |
 
-| Posten | Inhalt |
-|--------|--------|
-| Ursprüngliche Indikation | Nicht verfügbar (keine zugelassenen Indikationen dokumentiert; Regulatorische Zulassungsliste ist leer) |
-| Vorhergesagte neue Indikation | Kaliummangelerkrankung |
-| TxGNN-Vorhersagescore | 99.93% |
-| Evidenzstufe | L5 |
-| Marktstatus Deutschland | Nicht vermarktet (Nicht vermarktet) |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | **Zurückstellen** |
+## Warum ist diese Vorhersage plausibel?
 
----
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Inclisiran eine siRNA ist, die PCSK9 in der Leber hemmt und dadurch den LDL-Cholesterinspiegel senkt.
 
-## Warum ist diese Vorhersage angemessen?
+Ein plausibler mechanistischer Zusammenhang zwischen diesem Wirkprinzip und der Kaliumhomöostase ist nicht erkennbar. Die Analyse der Daten kommt zu dem Schluss, dass Inclisiran keine bekannte Rolle im Kaliumhaushalt spielt. Der hohe TxGNN-Wert ist daher als rein rechnerische Modellvorhersage zu werten, die weder durch Studien noch durch Literatur gestützt wird.
 
-Detaillierte Wirkmechanismus-Daten (MOA) für Inclisiran sind in diesem Nachweispaket nicht verfügbar — sie sind als **hochgradige Datenlücke** gekennzeichnet, die einen DrugBank-API-Abruf erfordert. Die ursprüngliche zugelassene Indikation ist auch in diesem Datensatz leer, und der Wirkstoff hat derzeit **null regulatorische Zulassungen** in Deutschland (Nicht vermarktet).
+Auch die übrigen Top-10-Vorhersagen (u. a. Ösophaguserkrankungen, Migräne-Formen, Aortenfehlbildungen, Raynaud-Krankheit) haben keinen belegbaren mechanistischen Bezug zur PCSK9-Hemmung. Sie sind ebenfalls auf Evidenzlevel L4 bzw. L5 und mit „Hold" eingestuft.
 
-Da sowohl die ursprüngliche Indikation als auch der Wirkmechanismus hier undokumentiert sind, kann die mechanistische Plausibilität nicht aus ersten Prinzipien bewertet werden. Das Feld „Rationale" des Nachweispakets für diesen spezifischen Kandidaten ist explizit und unmissverständlich:
+## Evidenz aus klinischen Studien
 
-> „Kein bekannter PCSK9/siRNA-Mechanismus bezieht sich auf Kalium-Ionen-Homöostase; dies ist rein ein hoher TxGNN-Score ohne unterstützende Belege."
+Derzeit sind keine klinischen Studien zu dieser Indikation registriert.
 
-Zum Kontext: Andere Einträge in demselben Nachweispaket beschreiben Inclisiran als eine **PCSK9-gerichtete siRNA**, die hauptsächlich zur Senkung des LDL-Cholesterins verwendet wird — aber diese Wirkstoffklasse hat keine etablierte oder hypothetische Verbindung zum Kaliumhaushalt. Mit anderen Worten: Das Embedding-Modell hat einen hohen Ähnlichkeitsscore erzeugt, aber es gibt keine biologische Hypothese, klinische Studie oder Literatur, die Inclisirans bekannte Pharmakologie mit dieser vorhergesagten Indikation verbindet.
+Hinweis zu den Vorhersagen auf den weiteren Rängen: Beim Rang-8-Begriff „Aortenfehlbildung" sind zwei Phase-3-Studien verknüpft. Diese untersuchen jedoch Inclisiran bei Kindern mit familiärer Hypercholesterinämie und betreffen die Aortenfehlbildung nicht direkt. Es handelt sich sehr wahrscheinlich um ein Zuordnungsartefakt.
 
-Angesichts des völligen Fehlens einer mechanistischen Begründung oder klinischen/literarischen Unterstützung sollte diese höchstplatzierte Vorhersage nur als **niedriges Konfidenz-Explorationssignal** behandelt werden.
+| Studiennummer | Phase | Status | Teilnehmerzahl | Kernaussagen |
+|---------|------|------|------|---------|
+| [NCT06597019](https://clinicaltrials.gov/study/NCT06597019) | Phase 3 | Rekrutierend | 60 | Inclisiran vs. Placebo, danach offen, bei Kindern (6 bis <12 Jahre) mit heterozygoter familiärer Hypercholesterinämie |
+| [NCT06597006](https://clinicaltrials.gov/study/NCT06597006) | Phase 3 | Rekrutierend | 9 | Inclisiran vs. Placebo, danach offen, bei Kindern (2 bis <12 Jahre) mit homozygoter familiärer Hypercholesterinämie |
 
----
+## Literaturevidenz
 
-## Klinische Studiennachweise
+Derzeit liegt keine einschlägige Literatur vor.
 
-Derzeit keine verwandten klinischen Studien registriert.
+## Marktinformationen Deutschland
 
----
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/005333 | Leqvio | – | Hypercholesterinämie; Dyslipidämien |
 
-## Literaturbelege
+Die einzige Zulassung (Novartis Europharm Limited) ist als aufgehoben geführt.
 
-Derzeit keine verwandte Literatur verfügbar.
+## Sicherheitshinweise
 
----
+Für Sicherheitsinformationen beachten Sie bitte die Packungsbeilage. Zu Wechselwirkungen wurden in den zusammengestellten Daten keine Einträge gefunden.
 
-## Marktinformation Deutschland
+## Fazit und nächste Schritte
 
-Inclisiran wird derzeit **nicht vermarktet** in Deutschland gemäß diesem Nachweispaket — es gibt 0 registrierte Zulassungen und keine Zulassungsunterlagen zur Zusammenfassung.
-
----
-
-## Sicherheitsaspekte
-
-Bitte beachten Sie die Gebrauchsinformation für Sicherheitsinformationen.
-
----
-
-## Schlussfolgerung und nächste Schritte
-
-**Entscheidung: Zurückstellen**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die höchstplatzierte vorhergesagte Indikation (Kaliummangelerkrankung) hat null klinische Studien und null Literaturunterstützung (L5 — nur Modellvorhersage), und der Wirkstoff selbst fehlen grundlegende Referenzdaten (ursprüngliche Indikation, Wirkmechanismus, Sicherheitskennzeichnung), die sogar eine mechanistische Plausibilitätsbewertung ermöglichen würden. Es gibt derzeit keine verwertbaren Belege, um diesen Kandidaten voranzubringen.
+Die Vorhersage zur Kaliummangelerkrankung beruht ausschließlich auf einem Modellwert (L5) ohne Studien, Literatur oder erkennbaren mechanistischen Zusammenhang. Zudem besteht in Deutschland laut den Daten keine gültige Zulassung, und die Sicherheitsdaten der Packungsbeilage fehlen.
 
-**Zur Fortführung ist Folgendes erforderlich:**
-- Abruf der TFDA/EMA-Gebrauchsinformation (Warnhinweise, Kontraindikationen) — derzeit eine **Blockierende** Datenlücke (DG001)
-- Abruf des bestätigten Wirkmechanismus über DrugBank-API — derzeit eine **hochgradige** Datenlücke (DG002)
-- Bestätigung der tatsächlichen zugelassenen Indikation(en) von Inclisiran, da dieses Nachweispaket keine dokumentiert hat
-- **Datenqualitäts-Flag für dieses Paket**: Ein separater Kandidat im gleichen Datensatz (Rang 8, „Aortenmissbildung", L2/S1) zitiert zwei Phase-3-Studien (NCT06597019, NCT06597006) — aber beide Studien untersuchen tatsächlich **pädiatrische familiäre Hypercholesterinämie**, nicht Aortenmissbildung. Dies deutet auf ein Indikations-Verknüpfungs-Missverständnis in der Evidence-Pipeline hin, das korrigiert werden sollte, bevor dieser Kandidat (oder ein anderer in diesem Paket) als „L2"-Unterstützung zitiert wird
-- Falls eine tatsächlich evidence-gestützte Neupositionierungsrichtung für Inclisiran benötigt wird, sind die oben erwähnten familiär-Hypercholesterinämie-bezogenen Studien ein vielversprechenderer Ausgangspunkt als die aktuelle höchstplatzierte, null-evidence-Vorhersage
-
+**Für ein Weiterkommen sind folgende Punkte erforderlich:**
+- Sicherheitsdaten (Warnhinweise, Gegenanzeigen) aus der Packungsbeilage des BfArM
+- Detaillierte Wirkmechanismus-Daten (MOA), z. B. aus DrugBank
+- Klärung des Zulassungsstatus von Leqvio in Deutschland
+- Biologische Begründung und präklinische Hinweise für einen Zusammenhang mit der Kaliumhomöostase
+- Manuelle Prüfung der verknüpften Studienbedingungen (Zuordnungsartefakt bei Aortenfehlbildung)
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Enzalutamide
-parent: Mittlere Evidenz (L3-L4)
-nav_order: 149
-evidence_level: L4
+parent: Nur Modellvorhersage (L5)
+nav_order: 172
+evidence_level: L5
 indication_count: 7
 ---
 
 # Enzalutamide
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **7** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,113 +29,111 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **7**
 
 </div>
 
-# Enzalutamide: Vom Prostatakarzinom zu benignen Neoplasien des Reproduktionstrakts
+# Enzalutamid: Von Prostatatumoren zu Prostatakrebs-/Hirntumor-Suszeptibilität
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Enzalutamide ist ein Androgen-Rezeptor (AR)-Antagonist der nächsten Generation, dessen zugelassene Anwendung – durchgehend im Rationale des Modells dieses Evidence Packs zitiert – (metastatisches/kastrationsresistentes) **Prostatakarzinom** ist.
-> Von den sieben neuen Indikationen, die das TxGNN-Modell für dieses Arzneimittel identifiziert hat, wird nur eine durch tatsächliche Studien- und Literaturbefunde gestützt: **Benigne Neoplasien des Reproduktionstrakts**,
-> mit **1 klinischer Studie** und **5 Publikationen** – allerdings stammen alle diese Befunde aus *malignen* Prostatakarzinom-Populationen und nicht aus der Zielgruppe der benignen Neoplasien selbst, somit ist die Evidenz indirekt.
+Enzalutamid ist ein Androgenrezeptor-Inhibitor und wurde ursprünglich zur Behandlung von Prostatatumoren zugelassen. Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **Prostatakrebs-/Hirntumor-Suszeptibilität** voraus. Dafür gibt es derzeit **keine klinischen Studien** und **keine Publikationen**; die Vorhersage beruht allein auf dem Modell.
 
 ---
 
 ## Schnellübersicht
 
-| Posten | Inhalt |
-|--------|--------|
-| Ursprüngliche Indikation | Prostatakarzinom *(aus dem Modellrationale dieses Packs selbst abgeleitet, das wiederholt auf „Enzalutamide 之核准適應症" verweist; offizielle Taiwan/BfArM-lizenzierte Angabentexte sind nicht verfügbar – siehe Datenlücke DG001/DG002)* |
-| Vorhergesagte neue Indikation | Benigne Neoplasien des Reproduktionstrakts |
-| TxGNN-Vorhersage-Score | 99.53% (globales Modell Rang #5656) |
-| Evidence-Level | L4 |
-| Status auf dem deutschen Markt | ✗ Nicht vermarktet |
-| Anzahl Zulassungen | 0 |
-| Empfohlene Entscheidung | Zurückhalten |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Prostatatumoren (Prostatakarzinom) |
+| Vorhergesagte neue Indikation | Prostatakrebs-/Hirntumor-Suszeptibilität |
+| TxGNN-Vorhersagewert | 99,71 % |
+| Evidenzlevel | L5 |
+| Marktstatus in Deutschland | ✗ Nur erloschene/aufgehobene Zulassungen |
+| Anzahl der Zulassungen | 3 (alle aufgehoben) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage sinnvoll?
+## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Wirkmechanismus-Daten sind als Datenlücke gekennzeichnet (`original_moa: [Data Gap]`), aber der Rationale-Text des Modells selbst beschreibt Enzalutamide durchgehend als **AR-Antagonist der nächsten Generation**, der die AR-Kernlokalisierung, DNA-Bindung und Co-Aktivator-Rekrutierung blockiert – der Kernmechanismus, durch den das Arzneimittel das androgen-gesteuerte Prostatakarzinom-Wachstum unterdrückt.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Enzalutamid ist ein Androgenrezeptor-(AR-)Inhibitor. Seine Wirksamkeit beim Prostatakarzinom ist etabliert, und der hohe Modellwert spiegelt vermutlich die enge Verbindung zu dieser Erkrankung wider.
 
-Prostatakarzinom (die zugelassene Anwendung des Arzneimittels) und „benigne Neoplasien des Reproduktionstrakts" fallen beide unter AR-beeinflusste Wachstumspfade innerhalb des Prostata-/Reproduktionsorgan-Systems. Mehrere der unterstützenden Publikationen (z. B. PMID 26926093, PMID 31266892) beschreiben AR-Signalisierung und Androgen-Biotransformation als aktiv in **sowohl benignem als auch malignem** Prostatagewebebereich, was die theoretische Grundlage für die Extrapolation von AR-Blockade auf nicht-maligne proliferative Läsionen bildet.
-
-Die Schlüsselbeschränkung ist, dass **keine der identifizierten Studien oder Publikationen tatsächlich eine benigne-Neoplasie-Population untersucht hat** – alle klinischen und mechanistischen Daten stammen aus malignen, metastatischen oder kastrationsresistenten Prostatakarzinom-Kohorten. Die Verbindung zu „benignen Neoplasien des Reproduktionstrakts" ist daher eine plausible mechanistische Extrapolation, nicht ein direkt nachgewiesener Effekt, weshalb die Evidence-Level auf L4 (präklinisch/mechanistisch) begrenzt ist und nicht höher.
+Die vorhergesagte „Indikation" ist jedoch ein Begriff für eine **genetische Veranlagung** und kein behandelbarer Krankheitszustand. Es gibt dafür kein klares therapeutisches Ziel, das ein Arzneimittel gezielt angehen könnte. Der hohe Score ist daher wahrscheinlich ein Artefakt der Nähe zum Prostatakarzinom im Wissensgraphen und kein belastbarer Hinweis auf einen neuen Nutzen. Es wurden weder Studien noch Literatur gefunden, die diese Vorhersage stützen.
 
 ---
 
-## Klinische Studien-Evidenz
+## Klinische Evidenz
 
-| Studiennummer | Phase | Status | Einschreibungen | Wichtigste Ergebnisse |
-|---------|------|------|------|---------|
-| [NCT05701007](https://clinicaltrials.gov/study/NCT05701007) | N/A (beobachtend) | Abgeschlossen | 1,083 | Epidemiologische Echtzeit-Studie und Behandlungsmuster-Analyse von **metastatischen (malignen)** Prostatakarzinom-Patienten in Finnland; bietet nur Hintergrund auf Populationsebene – Studienpopulation und Design entsprechen nicht einer Indikation mit benignen Neoplasien (Relevanzgrad C). |
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Literatur-Evidenz
+## Literaturevidenz
 
-| PMID | Jahr | Typ | Journal | Wichtigste Ergebnisse |
-|------|-----|------|------|---------|
-| [26926093](https://pubmed.ncbi.nlm.nih.gov/26926093/) | 2016 | Übersichtsarbeit | Pharmacological Research | Überblick über Androgen-Biotransformation und das AR/UGT-Netzwerk, das in **sowohl benignen als auch malignen** Prostatazellen aktiv ist und einen gemeinsamen hormonalen Wachstumskontrollpfad unterstützt. |
-| [35227084](https://pubmed.ncbi.nlm.nih.gov/35227084/) | 2022 | Translational/Biomarker-Kohorte | The Journal of Urology | Zeigt PSMA als Biomarker für Residualerkrankung nach neoadjuvanter Androgen-Deprivation und demonstriert die messbare Auswirkung der Androgen-Blockade auf die Histologie des Prostatagewebes. |
-| [33771918](https://pubmed.ncbi.nlm.nih.gov/33771918/) | 2021 | Präklinisch/Mechanistisch | PNAS | ERβ-Aktivierung hemmt die nukleare EGFR-Translokation in der Prostata und weist auf eine Östrogen-Rezeptor-gekoppelte Regulation des Prostataepitheluachstums hin, die für nicht-maligne Proliferation relevant ist. |
-| [31266892](https://pubmed.ncbi.nlm.nih.gov/31266892/) | 2019 | Präklinisch/Mechanistisch | PNAS | PARP-2-Inhibition disrupts FOXA1-abhängiges AR-Signaling und unterdrückt das Prostatawachstum – mechanistische Unterstützung für AR-Pfad-Targeting von Prostatagewebewachstum allgemein. |
-| [30864728](https://pubmed.ncbi.nlm.nih.gov/30864728/) | 2019 | Präklinisch/Mechanistisch | Oncology Reports | PLCε-Knockdown sensibilisiert kastrationsresistente Prostatakarzinom-Zellen gegenüber Enzalutamide durch Unterdrückung der AR-Signalisierung – ein Resistenz-Umkehr-Mechanismus, keine Daten zu benignem Gewebe. |
+Derzeit liegt keine zugehörige Literatur vor.
 
 ---
 
-## Weitere vorhergesagte Indikationen (Portfolio-Übersicht)
+## Marktinformationen Deutschland
 
-Da dieses Evidence Pack 7 modellvorhergesagte Indikationen für Enzalutamide enthält, werden sie hier zur Vollständigkeit zusammengefasst und nicht stillschweigend verworfen:
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation | Status |
+|---------|------|------|-----------|------|
+| EMEA/H/C/002639 | Xtandi (Astellas Pharma Europe B.V.) | nicht angegeben | Prostatatumoren | aufgehoben |
+| EMEA/H/C/006612 | Enzalutamide Accordpharma (Accord Healthcare) | nicht angegeben | Prostatatumoren | aufgehoben |
+| EMEA/H/C/006299 | Enzalutamide Viatris (Viatris Limited) | nicht angegeben | Prostatatumoren | aufgehoben |
 
-| Rang | Erkrankung | TxGNN-Score | Evidence-Level | Entscheidung | Anmerkung |
-|------|---------|-------------|-----------------|----------|------|
-| 1 | Prostatakarzinom/Gehirnkrebsanfälligkeit | 99.71% | L5 | Zurückhalten | Zusammengesetzte Ontologie-Begriff; kein ZNS-mechanistischer Link, keine Evidenz. Enzalutamide hat begrenzte Blut-Hirn-Schranken-Penetration und berichtete ZNS-Nebenwirkungen (Anfälle) – ein Sicherheitssignal, nicht begründet in Wirksamkeit. |
-| 2 | Prostataleomyom | 99.57% | L5 | Zurückhalten | Seltener benigner stromaler Tumor; Wachstumstreiber unklar und nicht als AR-abhängig etabliert. Keine Evidenz. |
-| 3 | Brenner-Tumor | 99.55% | L5 | Zurückhalten | Überwiegend ein Ovarialtumor; die Organgewebeverbindung zu Enzalutamides zugelassener Anwendung ist schwach. Keine Evidenz. |
-| 4 | Fibrom der Prostata | 99.53% | L5 | Zurückhalten | Seltener benigner stromaler Tumor; kein in der Literatur etablierter AR-Pfad-Beteiligung. Keine Evidenz. |
-| **5** | **Benigne Neoplasien des Reproduktionstrakts** | **99.53%** | **L4** | **Zurückhalten (Forschungsfrage)** | **Hauptkandidat oben – einziger Eintrag mit echter, wenn auch indirekter, Unterstützungsevidenz.** |
-| 6 | Krebs männlicher Fortpflanzungsorgane | 99.51% | L2 | *Ausgeschlossen* | Dies ist im Wesentlichen Enzalutamides **bereits zugelassene Indikation** (Prostatakarzinom) – 50 Studien und 20 Publikationen bestätigen dies, aber das Pack selbst flaggt es als positives Kontrollsignal, das die Modellgenauigkeit bestätigt, **nicht ein neuer Repurposing-Kandidat**, und empfiehlt, ihn aus der Kandidatenliste auszuschließen. |
-| 7 | Benigner Phyllodesumor der Prostata | 99.48% | L5 | Zurückhalten | Äußerst seltener diphasischer Tumor, typischerweise Brustherkunft; nahezu keine prostata-spezifischen Literaturangaben. Keine Evidenz. |
+Alle drei Zulassungen sind als aufgehoben geführt. Aktuell gültige Zulassungen liegen nicht vor.
 
 ---
 
 ## Zytotoxizität
 
-*(Einbezogen, da die zugelassene Indikation des Arzneimittels onkologisch ist – Prostatakarzinom – obwohl Enzalutamide kein klassisches Chemotherapeutikum ist.)*
-
-| Posten | Inhalt |
-|--------|--------|
-| Zytotoxizitäts-Klassifizierung | Zielgerichtete Therapie – Androgen-Rezeptor (AR)-Signalisierungs-Inhibitor der nächsten Generation; kein klassisches Zytotoxikum |
-| Knochenmarksuppression-Risiko | Bitte lesen Sie die Warnungen und Vorsichtsmaßnahmen in der Fachinformation (keine Toxizitätsdaten in diesem Evidence Pack vorhanden) |
-| Emetogenitäts-Klassifizierung | Bitte lesen Sie die Warnungen und Vorsichtsmaßnahmen in der Fachinformation (keine Daten vorhanden) |
-| Überwachungsgegenstände | Bitte lesen Sie die Warnungen und Vorsichtsmaßnahmen in der Fachinformation. Hinweis: Das Rationale des Packs selbst (Rang 1) flaggt ein berichtetes ZNS-Sicherheitssignal (Anfälle) im Zusammenhang mit Enzalutamide, was darauf hindeutet, dass neurologische Überwachung relevant ist, falls zutreffend. |
-| Schutzmaßnahmen bei Handhabung | Bitte lesen Sie die Warnungen und Vorsichtsmaßnahmen in der Fachinformation (keine Daten zur Handhabung zytotoxischer Mittel vorhanden; orale zielgerichtete Therapie, keine klassische intravenöse Zytotoxika-Chemotherapie) |
+| Punkt | Inhalt |
+|------|------|
+| Klassifikation | Zielgerichtete Hormontherapie (Androgenrezeptor-Inhibitor), kein konventionelles Zytostatikum |
+| Myelosuppressionsrisiko | Bitte Warnhinweise und Vorsichtsmaßnahmen in der Fachinformation beachten |
+| Emetogenität | Bitte Warnhinweise und Vorsichtsmaßnahmen in der Fachinformation beachten |
+| Überwachungsparameter | Bitte Warnhinweise und Vorsichtsmaßnahmen in der Fachinformation beachten |
+| Schutzmaßnahmen beim Umgang | Bitte Warnhinweise und Vorsichtsmaßnahmen in der Fachinformation beachten |
 
 ---
 
-## Sicherheitsüberlegungen
+## Sicherheitsaspekte
 
-Bitte beachten Sie die Sicherheitsinformationen in der Fachinformation.
+**Arzneimittelinteraktionen:** In den Daten sind 100 Wechselwirkungen verzeichnet. Als **schwerwiegend (Major)** eingestuft sind:
+- Bupropion
+- Dolasetron
+- Eliglustat
 
-*(Alle Warnungen, Kontraindikationen und Arzneimittelwechselwirkungen sind in diesem Pack als Datenlücken gekennzeichnet. Beachten Sie, dass DG001 – TFDA/BfArM-Fachinformation Warnungen und Kontraindikationen – als **Blocking-Schweregrad**-Lücke gekennzeichnet ist: Das Pack selbst besagt, dass diese Daten gelöst werden müssen, bevor der Kandidat die S1-Sicherheits-Vorprüfung durchlaufen kann.)*
+Als **mäßig (Moderate)** eingestuft sind unter anderem:
+- Famotidin
+- Rabeprazol
+- Omeprazol
+- Hydrocortison
+- Dexamethason
+- Clarithromycin
+- Aprepitant
+- Loperamid
+- Empagliflozin
+- Linagliptin
+- Saxagliptin
+
+Die Einstufungen stammen aus der Datenbank DDInter. Laut der Modellbewertung sind insbesondere Interaktionen über CYP3A4 und CYP2C8 zu prüfen.
+
+Zu Warnhinweisen und Gegenanzeigen liegen keine Daten vor. Bitte die Fachinformation heranziehen.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Zurückhalten**
+**Entscheidung: Hold**
 
 **Begründung:**
-- Der einzige neue, durch Evidenz gestützte Kandidat in diesem Pack (Benigne Neoplasien des Reproduktionstrakts, Rang 5) wird ausschließlich durch indirekte, mechanistische/präklinische Evidenz aus **malignen** Prostatakarzinom-Populationen (L4) gestützt – keine Studie oder Publikation untersucht die benigne-Neoplasie-Population direkt.
-- Das Arzneimittel ist derzeit in der relevanten Regulierungsjurisdiktion nicht vermarktet (0 Lizenzen), und eine Blocking-Schweregrad-Datenlücke (TFDA/BfArM-Fachinformation Warnungen und Kontraindikationen, DG001) verhindert sogar eine grundlegende Sicherheits-Vorprüfung.
-- Die übrigen fünf niedrig bewerteten Kandidaten (Ränge 1–4, 7) haben null unterstützende Studien oder Literatur; Rang 6 dupliziert die bereits zugelassene Indikation des Arzneimittels und sollte aus der Kandidatenliste ausgeschlossen werden, statt als „neu" verfolgt zu werden.
+Die Vorhersage bezieht sich auf einen Suszeptibilitätsbegriff ohne therapeutisch adressierbares Ziel. Es gibt weder Studien noch Publikationen (Evidenzlevel L5), und alle deutschen Zulassungen sind aufgehoben. Eine Weiterverfolgung dieser Indikation ist derzeit nicht gerechtfertigt.
 
-**Um fortzufahren, wird folgendes benötigt:**
-- TFDA/BfArM-Fachinformation (Warnungen, Kontraindikationen) – löst DG001 (Blocking) auf
-- Bestätigte Wirkmechanismus-Dokumentation aus DrugBank – löst DG002 auf
-- Eine direkte präklinische oder translationale Studie, die AR-Blockade in benignem (nicht-malignem) Reproduktionstrakts-Neoplasie-Gewebe evaluiert, um Rang 5 über mechanistische Extrapolation hinaus zu bewegen
-- Klärung des deutschen/taiwanesischen regulatorischen und Lizenzierungsstatus, da das Arzneimittel derzeit nicht vermarktet ist und 0 Zulassungen in der Akte vorhanden sind
-
+**Für ein Weiterkommen wären nötig:**
+- Klärung, ob der Begriff überhaupt eine behandelbare klinische Indikation abbildet
+- Daten zum Wirkmechanismus (MOA) aus DrugBank
+- Warnhinweise und Gegenanzeigen aus der Fachinformation (BfArM), da ohne sie keine Sicherheitsprüfung möglich ist
+- Prüfung des aktuellen Zulassungsstatus, da alle drei Zulassungen als aufgehoben geführt werden
+- Bewertung der übrigen Vorhersagen: Die Vorhersage „männlicher Reproduktionsorgankrebs" ist durch Phase-3-Studien wie ENZAMET gestützt (Evidenzlevel L1, Proceed with Guardrails). Sie entspricht aber im Kern der ursprünglichen Indikation Prostatakarzinom und ist daher keine echte Neuindikation.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

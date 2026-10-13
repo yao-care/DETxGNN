@@ -2,7 +2,7 @@
 layout: default
 title: Pirfenidone
 parent: Nur Modellvorhersage (L5)
-nav_order: 308
+nav_order: 360
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,88 +29,73 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Pirfenidone: Von idiopathischer Lungenfibrose zu extrakutanem Mastozytom
+# Pirfenidon: Von idiopathischer Lungenfibrose zu extrakutanem Mastozytom
 
-## Eine-Satz-Zusammenfassung
+## Zusammenfassung
 
-Pirfenidone ist ein antifibrotisches Mittel, dessen etablierte klinische Verwendung — gemäß Literaturzitat (PMID 29702057) — die idiopathische Lungenfibrose (IPF) ist; kein offizieller behördlicher Indikationstext ist in diesem Datensatz verfügbar. Die Top-Vorhersage des TxGNN-Modells ist **Extrakutanes Mastozytom**, aber dieser Kandidat wird derzeit durch **null klinische Studien und null Publikationen** gestützt — der Score spiegelt eine reine Knowledge-Graph-Vorhersage ohne externe Validierung wider.
+Pirfenidon ist ein Wirkstoff, der ursprünglich zur Behandlung der idiopathischen Lungenfibrose (IPF) zugelassen wurde.
+Das TxGNN-Modell sagt voraus, dass er bei **extrakutanem Mastozytom** wirksam sein könnte.
+Für diese Vorhersage liegen jedoch **keine klinischen Studien** und **keine Publikationen** vor; sie beruht ausschließlich auf einer Modellberechnung.
 
-> ⚠️ Hinweis: Alle 10 vorhergesagten Indikationen in dieser Evidenzsammlung sind mit **L5 (nur Modellvorhersage)** bewertet, mit Ausnahme von Rang 9 (Fibroblastisches Neoplasma), das L4 erreichte — angetrieben hauptsächlich durch **negative Sicherheitssignale** (Fallberichte über das Auftreten von Sarkom und Verschlimmerung von Dermatofibrom), nicht durch positive Wirksamkeitsevidenz.
+## Kurzübersicht
 
----
-
-## Schnelle Übersicht
-
-| Element | Inhalt |
-|---------|--------|
-| Originalindikation | Idiopathische Lungenfibrose (IPF) — *nur aus Literaturzitat entnommen; offizieller behördlicher Indikationstext nicht verfügbar (Datenlücke)* |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Idiopathische Lungenfibrose (IPF) |
 | Vorhergesagte neue Indikation | Extrakutanes Mastozytom |
-| TxGNN-Vorhersagescore | 99.71% |
-| Evidenzstufe | L5 |
-| Marktstatus in Deutschland | ✗ Nicht auf dem Markt (Not marketed) |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | **Zurückgestellt** |
+| TxGNN-Vorhersagewert | 99,71 % |
+| Evidenzniveau | L5 |
+| Marktstatus in Deutschland | ✗ Nur erloschene/zurückgezogene Zulassungen |
+| Anzahl der Zulassungen | 3 (alle erloschen) |
+| Empfohlene Entscheidung | Hold |
 
----
+## Warum ist diese Vorhersage plausibel?
 
-## Warum ist diese Vorhersage angemessen?
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Pirfenidon antifibrotisch und entzündungshemmend wirkt; beschrieben ist eine Beeinflussung von TGF-β und TNF-α sowie, laut den Literaturangaben, von PDGF, FGF und EGF.
 
-Derzeit sind detaillierte Wirkmechanismus-Daten nicht verfügbar (`original_moa: [Datenlücke]`). Basierend auf externer Literatur, die in dieser Evidenzsammlung eingebettet ist, ist bekannt, dass Pirfenidone die TGF-β1–vermittelte Signalisierung hemmt (einschließlich nicht-SMAD-Pfade), die Fibroblastproliferation reduziert und die Kollagenablagerung verringert — ein Wirkmechanismus, der für fibrotische Erkrankungen wie IPF und Morbus Dupuytren gut dokumentiert ist.
+Ein Zusammenhang mit dem Mastozytom, einer Neoplasie der Mastzellen, ist bislang nicht belegt. Die antifibrotische Wirkung auf Fibroblasten hat keine nachgewiesene Relevanz für die Mastzellneoplasie. Die hohe Modellbewertung ist daher als reine Hypothese zu verstehen.
 
-Für den Top-Kandidaten **Extrakutanes Mastozytom** wird dieser Wirkmechanismus nicht sauberer auf die Krankheitsbiologie abgebildet. Mastozytom wird durch Mastzellproliferation vorangetrieben (häufig KIT-Signalweg-bezogen), nicht durch Fibroblasten-/TGF-β–vermittelte Fibrose. Das Rationale der Evidenzsammlung selbst kennzeichnet dies explizit als „schwache, rein inferenzielle" Verbindung, die wahrscheinlich die Graph-Embedding-Nähe zwischen fibrosebezogenen und Mastzell-bezogenen Knoten widerspiegelt, anstatt einer echten pharmakologischen Beziehung.
+Weitere Vorhersagen des Modells mit ähnlich hohen Werten betreffen unter anderem Dermatofibrosarcoma protuberans (99,41 %), aggressive systemische Mastozytose (99,33 %), Fibrosarkome und das Familiäre Mittelmeerfieber. Für diese liegen ebenfalls keine klinischen Daten vor. Die einzige Vorhersage mit indirekter Literatur ist das fibroblastische Neoplasma (99,23 %, L4). Die Daten dort stammen jedoch überwiegend aus In-vitro-Studien an Fibroblasten der gutartigen Dupuytren-Kontraktur und belegen keine Wirksamkeit bei echten Tumoren.
 
-Bemerkenswert ist, dass sich die meisten der zehn Vorhersagen (Mastozytom, Fibrosarkom-Subtypen, Dermatofibrosarcoma protuberans) um eine „TGF-β/Anti-Fibroblasten"-Hypothese für Weichteilneoplasien konzentrieren. Die einzige Vorhersage mit tatsächlicher Literaturunterstützung (Rang 9, fibroblastisches Neoplasma) zeigt jedoch ein **Sicherheitsbedenken in der entgegengesetzten Richtung** — Fallberichte von Pirfenidone-assoziiertem pleomorphem undifferenziertem Sarkom und verschlimmertem Dermatofibrom — was die „Anti-Fibrose = Anti-Tumor"-Annahme, die mehreren dieser Vorhersagen zugrunde liegt, untergräbt.
+## Klinische Studien
 
----
-
-## Klinische Studienevidenz
-
-Derzeit keine registrierten klinischen Studien zu dieser Indikation.
-
----
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ## Literaturevidenz
 
-Derzeit keine Literaturbelege für die Top-Indikation (Extrakutanes Mastozytom) verfügbar.
+Zur Vorhersage „extrakutanes Mastozytom“ ist derzeit keine zugehörige Literatur verfügbar.
 
-*(Hinweis: Literaturbelege existieren nur für Rang 9 — Fibroblastisches Neoplasma — siehe Sicherheitsaspekte unten.)*
+## Informationen zum deutschen Markt
 
----
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/005862 | Pirfenidone Viatris | – | Idiopathische Lungenfibrose; Lungenerkrankungen; Atemwegserkrankungen |
+| EMEA/H/C/005873 | Pirfenidone axunio (zuvor Pirfenidone AET) | – | Idiopathische Lungenfibrose |
+| EMEA/H/C/002154 | Esbriet | – | Idiopathische Lungenfibrose; Lungenerkrankungen; Atemwegserkrankungen |
 
-## Marktinformationen zu Deutschland
-
-Pirfenidone hat derzeit **keine Marktzulassungen** auf Datensatzebene (total_licenses: 0). Es sind keine Produkt-/Darreichungsform-Informationen verfügbar.
-
----
+Alle drei Zulassungen haben den Status „erloschen“.
 
 ## Sicherheitsaspekte
 
-Alle primären Sicherheitsfelder (wichtige Warnungen, Kontraindikationen, Arzneimittelwechselwirkungen) sind in diesem Datensatz als Datenlücken gekennzeichnet:
+- **Arzneimittelwechselwirkungen**: Insgesamt wurden 100 Wechselwirkungen erfasst. Die aufgeführten Beispiele sind sämtlich von mittlerem Schweregrad (Moderate), darunter Bupropion, Omeprazol, Cimetidin, Eliglustat, Obeticholsäure, Oxandrolon, Naltrexon, Lansoprazol, Miconazol, Nitisinon, Esomeprazol, Ticlopidin, Disulfiram, Primaquin und Ivacaftor.
+- **Hinweise aus der Literatur** (im Zusammenhang mit dem fibroblastischen Neoplasma): Zwei Fallberichte weisen auf ein mögliches Sicherheits- bzw. Kausalitätssignal hin, nämlich ein undifferenziertes pleomorphes Sarkom nach Pirfenidon-Anwendung sowie eine Verschlechterung multipler eruptiver Dermatofibrome unter Pirfenidon und Mycophenolat-Mofetil. Ein ursächlicher Zusammenhang ist nicht gesichert, Vorsicht ist jedoch geboten.
 
-> Bitte beachten Sie die Fachinformation für Sicherheitsinformationen.
+Für Warnhinweise und Gegenanzeigen siehe die Fachinformation.
 
-**Beachtenswertes literaturgestütztes Sicherheitssignal** (aus Evidenz für eine niedriger bewertete Vorhersage, nicht aus formalen Sicherheitsdaten):
-- Ein Fallbericht beschreibt **pleomorphes undifferenziertes Sarkom**, das nach Pirfenidone-Anwendung auftrat (PMID 29702057).
-- Ein separater Fallbericht beschreibt **Verschlimmerung mehrerer eruptiver Dermatofibromen** bei einem Patienten unter Pirfenidone + Mycophenolat-Mofetil (PMID 32572469).
+## Fazit und nächste Schritte
 
-Dies sind isolierte Fallberichte, nicht kausal etabliert, aber sie erfordern Vorsicht, bevor eine Repurposing-Hypothese im Zusammenhang mit Fibroblasten-/Weichteilneoplasma für dieses Medikament verfolgt wird.
-
----
-
-## Schlussfolgerung und nächste Schritte
-
-**Entscheidung: Zurückgestellt**
+**Entscheidung: Hold**
 
 **Begründung:**
-Jede vorhergesagte Indikation in dieser Evidenzsammlung ist entweder durch keine klinische Studie oder Literatur gestützt (L5), oder wird nur durch Literatur gestützt, die ein Sicherheitsbedenken aufzeigt, anstatt Wirksamkeitsevidenz zu liefern (L4, Rang 9). In Kombination mit fehlenden MOA-Daten, fehlender behördlicher/Sicherheitsdokumentation und null Marktzulassungen gibt es derzeit keine Grundlage, um einen Kandidaten über die Modellvorhersage-Stufe hinaus voranzubringen.
+Die Vorhersage beruht ausschließlich auf einer Modellberechnung (L5) ohne klinische Studien oder Literatur, und ein plausibler Mechanismus für die Mastzellneoplasie ist nicht erkennbar. Zudem sind in Deutschland derzeit keine gültigen Zulassungen vorhanden.
 
-**Um fortzufahren, wird folgendes benötigt:**
-- TFDA/BfArM-Fachinformation (Warnungen, Kontraindikationen) — derzeit blockierend (DG001)
-- Bestätigter Wirkmechanismus aus DrugBank API — derzeit hochschwereige Lücke (DG002)
-- Bestätigte Originalindikation und behördlicher Genehmigungstext (derzeit fehlend in `taiwan_regulatory.licenses`)
-- Präklinische oder klinische Evidenz speziell für extrakutanes Mastozytom vor weiterer Bewertung
-- Klärung des Sicherheitssignals bezüglich Sarkomauftreten und Dermatofibrom-Verschlimmerung vor der Verfolgung von Indikationen aus der Familie fibroblastischer Neoplasien
-
+**Für ein Weiterkommen sind erforderlich:**
+- Daten zum Wirkmechanismus (MOA) von Pirfenidon
+- Präklinische Belege (z. B. Zelllinien- oder Tiermodelle) für eine Wirkung bei Mastzellneoplasien
+- Auswertung der Fachinformation (Warnhinweise und Gegenanzeigen), da die Sicherheitsprüfung sonst nicht fortgesetzt werden kann
+- Klärung des Zulassungsstatus in Deutschland und der verfügbaren Darreichungsformen
+- Bewertung der Sicherheitssignale (Sarkom- und Dermatofibrom-Fallberichte)
+- Vergleich mit bestehenden Standardtherapien (z. B. Imatinib bei DFSP, Colchicin bei Familiärem Mittelmeerfieber)
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Memantine
-parent: Hohe Evidenz (L1-L2)
-nav_order: 249
-evidence_level: L2
+parent: Nur Modellvorhersage (L5)
+nav_order: 289
+evidence_level: L5
 indication_count: 4
 ---
 
 # Memantine
 {: .fs-9 }
 
-Evidenzniveau: **L2** | Vorhergesagte Indikationen: **4** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,14 +29,11 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-# Memantin: Von der Alzheimer-Krankheit zur Migräne-Störung
+# Memantin: Von der Alzheimer-Krankheit zur Migräne
 
 ## Zusammenfassung in einem Satz
 
-> Memantin ist ein gut etablierter NMDA-Rezeptor-Antagonist, weltweit bekannt zur Behandlung der mittelschweren bis schweren Alzheimer-Krankheit (dieses Detail der genehmigten Indikation ist eine Datenlücke in der aktuellen Nachweissammlung).
-> Das TxGNN-Modell – zusammen mit unabhängiger Literatur – weist auf **Migräne-Störung (episodische Migräne-Prophylaxe)** als seine glaubwürdigste neue Anwendung hin,
-> mit **2 klinischen Studien** (einschließlich 1 abgeschlossener Phase-3-RCT) und **9+ relevanten Publikationen** (einschließlich Meta-Analyse, systematischer Übersichtsarbeit und Netzwerk-Meta-Analyse), die diese Richtung unterstützen.
-> Drei weitere von TxGNN vorhergesagte Indikationen (pulmonale Hypertonie, kyphoskoliotische Herzerkrankung, Migräne mit Hirnstamm-Aura) wurden ebenfalls überprüft, tragen aber weit schwächere oder keine unterstützenden Belege – siehe „Andere vorhergesagte Indikationen" unten.
+Memantin ist ein NMDA-Rezeptor-Antagonist und wurde ursprünglich zur Behandlung der Alzheimer-Krankheit zugelassen. Das TxGNN-Modell sagt voraus, dass es bei **Migräne** wirksam sein könnte, wobei **1 abgeschlossene Phase-3-Studie** und **19 Publikationen** diese Richtung stützen. Die Studienlage ist jedoch klein und die Aussagekraft begrenzt.
 
 ---
 
@@ -44,88 +41,91 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **4**
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Mittelschwere bis schwere Alzheimer-Krankheit (Demenz) – bei Memantin weit etabliert, wird aber in den strukturierten Feldern dieser Nachweissammlung nicht erfasst (gekennzeichnet als Datenlücke DG001/DG002) |
-| Vorhergesagte neue Indikation | Migräne-Störung (episodische Migräne, prophylaktische Behandlung) |
-| TxGNN-Vorhersagepunktzahl | 99.52% (Punktzahl 0.9952, Rang 5690) |
-| Evidenzstufe | L2 |
-| Marktstatus Deutschland | Nicht vermarktet |
-| Anzahl der Genehmigungen | 0 |
-| Empfohlene Entscheidung | Zurückhalten |
+| Ursprüngliche Indikation | Alzheimer-Krankheit |
+| Vorhergesagte neue Indikation | Migräne (der höchstbewertete Treffer, Lungenhochdruck, ist durch die Daten nicht gestützt; siehe unten) |
+| TxGNN-Vorhersagewert | 99,52 % (Migräne); zum Vergleich Lungenhochdruck 99,54 % |
+| Evidenzstufe | L1 (formale Einstufung nach den Datenvorgaben; siehe Hinweis im Abschnitt Klinische Studien) |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen |
+| Anzahl der Zulassungen | 8 (alle aufgehoben) |
+| Empfohlene Entscheidung | Hold |
+
+**Hinweis zur Auswahl:** Die Vorhersage mit dem höchsten Rang (Lungenhochdruck, Score 99,54 %) hat keine klinischen Studien und keine belastbare Literatur (Evidenzstufe L5). Dieser Bericht konzentriert sich daher auf die Vorhersage mit der besten Datenlage, **Migräne**. Weitere Vorhersagen: Kyphoskoliotische Herzerkrankung (99,43 %, keine Evidenz, L5) und Migräne mit Hirnstammaura (99,41 %, indirekte Evidenz, L4).
 
 ---
 
-## Warum ist diese Vorhersage vernünftig?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Wirkmechanismus-Daten in DrugBanks strukturiertem Feld nicht verfügbar (DG002, gekennzeichnet als hohes Risiko). Basierend auf der in dieser Nachweissammlung enthaltenen Literatur wird Memantin konsistent als NMDA-(N-Methyl-D-Aspartat)-Rezeptor-Antagonist mit moderater Affinität und unkompetitiver Wirkung beschrieben – derselbe glutamaterge Mechanismus, der seiner etablierten Wirksamkeit bei der Alzheimer-Krankheit zugrunde liegt, wo er die exzitotoxische Glutamat-Signalgebung reduziert.
+Zum Wirkmechanismus von Memantin liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Memantin ein NMDA-Rezeptor-Antagonist ist. Seine Wirksamkeit bei der Alzheimer-Krankheit ist belegt, und mechanistisch könnte es auch bei Migräne anwendbar sein.
 
-Mehrere unabhängige Übersichtsarbeiten in der Nachweissammlung (PMID 36869904, 29508147, 36983158) erläutern, dass erhöhte Glutamat-Spiegel und NMDA-Rezeptor-vermittelte **kortikale Ausbreitungsdepression** zentral für die Migräne-Pathophysiologie sind. Dies gibt Memantin eine mechanistisch kohärente Begründung als Migräne-Präventivum – dieselbe NMDA-blockierende Wirkung, die Neuronen bei der Alzheimer-Krankheit schützt, kann auch die kortikale Hyperexzitabilität dämpfen, die Migräne-Anfälle auslöst.
+Glutamat-Signalwege und die NMDA-Rezeptor-vermittelte zentrale Sensibilisierung sowie die kortikale Streudepression (Spreading Depression) gelten als wichtige Mechanismen der Migräne-Pathophysiologie. Als NMDA-Rezeptor-Antagonist kann Memantin hier ansetzen. Die Verbindung zwischen der ursprünglichen Indikation (neurodegenerative Erkrankung mit glutamaterger Exzitotoxizität) und Migräne liegt damit in der gemeinsamen Beteiligung der glutamatergen Übertragung.
 
-Wichtig ist, dass dies kein rein datengestütztes Signal ist: Es wird durch eine abgeschlossene Phase-3-Head-to-Head-RCT (Memantin vs. Natriumvalproat), eine placebokontrollierte RCT, eine Meta-Analyse von RCTs, eine systematische Übersichtsarbeit und eine Netzwerk-Meta-Analyse von 2025 oraler Migräne-Präventiva korroboriert – eine substanziell stärkere Evidenzbasis als die anderen drei von TxGNN gekennzeichneten Indikationen in dieser Sammlung.
+Die Datenlage ist allerdings zurückhaltend zu bewerten: Ein Übersichtsartikel trägt den Titel „Memantine for migraine – Big promise but little evidence“ und weist auf eine begrenzte Evidenzbasis hin. Große, ausreichend gepowerte Studien sind abzuwarten.
 
 ---
 
-## Evidenz aus klinischen Studien
+## Klinische Studien
 
-| Studiennummer | Phase | Status | Einschreibung | Wichtigste Ergebnisse |
+| Studiennummer | Phase | Status | Teilnehmerzahl | Kernaussagen |
 |---------|------|------|------|---------|
-| [NCT04698525](https://clinicaltrials.gov/study/NCT04698525) | Phase 3 | Abgeschlossen | 33 | Direkter Vergleich von Memantin vs. Natriumvalproat zur prophylaktischen Behandlung von episodischer Migräne; kleine Aktiv-Komparator-Studie (Relevanzgrad A, aber begrenzt durch Stichprobengröße) |
-| [NCT02670161](https://clinicaltrials.gov/study/NCT02670161) | Phase 4 | Registrierung auf Einladung | 3300 | Pragmatische EMR-basierte Praxisforschung über 10 häufige neurologische Störungen; keine Memantin-Wirksamkeitsstudie, nur indirekt relevant (Grad C) |
+| [NCT04698525](https://clinicaltrials.gov/study/NCT04698525) | Phase 3 | Abgeschlossen | 33 | Memantin im Vergleich zu Natriumvalproat zur Prophylaxe der episodischen Migräne; Ergebnisse lagen nicht vor, die kleine Stichprobe begrenzt die Aussagekraft |
+
+**Hinweis:** Die Evidenzstufe L1 ergibt sich aus der Einstufung in den Rohdaten. Streng nach den Regeln (mindestens zwei abgeschlossene Phase-3-RCTs) liegt hier nur eine kleine Studie vor, weshalb die Stufe eher vorsichtig zu interpretieren ist.
 
 ---
 
-## Literaturbelege
+## Literaturevidenz
 
-| PMID | Jahr | Typ | Journal | Wichtigste Ergebnisse |
+| PMID | Jahr | Typ | Journal | Kernaussagen |
 |------|-----|------|------|---------|
-| [33961371](https://pubmed.ncbi.nlm.nih.gov/33961371/) | 2021 | Meta-Analyse (RCTs) | Clinical Neuropharmacology | Gepoolte RCT-Daten zu Memantin vs. Placebo bei Migräne; Wirksignal vorhanden, aber als noch umstritten beschrieben |
-| [34352118](https://pubmed.ncbi.nlm.nih.gov/34352118/) | 2021 | Systematische Übersichtsarbeit | Headache | Bewertet Wirksamkeit und Sicherheit von Memantin zur prophylaktischen Behandlung von episodischer Migräne |
-| [40978493](https://pubmed.ncbi.nlm.nih.gov/40978493/) | 2025 | Netzwerk-Meta-Analyse | Frontiers in Pharmacology | Vergleicht orale Präventivmedikamente für Migräne bei Erwachsenen 18–65, einschließlich der relativen Wirksamkeit/Sicherheit von Memantin |
-| [26638119](https://pubmed.ncbi.nlm.nih.gov/26638119/) | 2016 | RCT (placebokontrolliert) | Headache | Randomisierte doppelblinde placebokontrollierte Studie zu Memantin zur Prophylaxe von Migräne ohne Aura |
-| [39467289](https://pubmed.ncbi.nlm.nih.gov/39467289/) | 2024 | Klinische Praxis-Richtlinie | Annals of Internal Medicine | 2023 VA/DoD-Richtlinie, die Empfehlungen für die Verwaltung von Migräne und Spannungskopfschmerzen überprüft |
-| [36869904](https://pubmed.ncbi.nlm.nih.gov/36869904/) | 2023 | Übersichtsarbeit | Naunyn-Schmiedeberg's Archives of Pharmacology | Präsentiert Memantin und Ketamin als NMDA-Rezeptor-Antagonisten-Kandidaten zur Migränebekämpfung |
-| [34510445](https://pubmed.ncbi.nlm.nih.gov/34510445/) | 2021 | Kommentar/Übersichtsarbeit | Headache | Warnt ausdrücklich vor „großem Versprechen, aber wenig Belegen" für Memantin bei Migräne – ein nützliches Gegengewicht |
-| [19280698](https://pubmed.ncbi.nlm.nih.gov/19280698/) | 2009 | Übersichtsarbeit | Headache | Frühe Übersichtsarbeit zu Memantin in der präventiven Behandlung von Migräne und therapieresistenter Migräne |
-| [17901918](https://pubmed.ncbi.nlm.nih.gov/17901918/) | 2007 | Retrospektive Kohortenstudie | The Journal of Headache and Pain | Retrospektive Serie von 60 Fällen, die die präventive Wirksamkeit von Memantin bei häufiger Migräne charakterisiert |
-| [19031499](https://pubmed.ncbi.nlm.nih.gov/19031499/) | 2008 | Klinische Studie | Headache | Bewertet Wirksamkeit und Verträglichkeit von Memantin in der präventiven Behandlung von therapieresistenter Migräne |
+| [33961371](https://pubmed.ncbi.nlm.nih.gov/33961371/) | 2021 | Metaanalyse randomisierter Studien | Clin Neuropharmacol | Wirksamkeit von Memantin gegenüber Placebo bei Migräne; Wirksamkeit bleibt umstritten |
+| [34352118](https://pubmed.ncbi.nlm.nih.gov/34352118/) | 2021 | Systematische Übersicht | Headache | Wirksamkeit und Sicherheit von Memantin zur Prophylaxe der episodischen Migräne |
+| [40978493](https://pubmed.ncbi.nlm.nih.gov/40978493/) | 2025 | Netzwerk-Metaanalyse | Front Pharmacol | Vergleich oraler Prophylaktika bei Migräne bei Erwachsenen (18–65 Jahre) |
+| [39467289](https://pubmed.ncbi.nlm.nih.gov/39467289/) | 2024 | Klinische Leitlinie | Ann Intern Med | VA/DoD-Leitlinie 2023 zur Behandlung und Prävention von Migräne und Spannungskopfschmerz |
+| [36869904](https://pubmed.ncbi.nlm.nih.gov/36869904/) | 2023 | Übersichtsarbeit | Naunyn Schmiedebergs Arch Pharmacol | NMDA-Antagonisten Memantin und Ketamin als mögliche Migränemittel |
+| [34510445](https://pubmed.ncbi.nlm.nih.gov/34510445/) | 2021 | Kommentar | Headache | „Große Hoffnung, wenig Evidenz“ für Memantin bei Migräne |
+| [25159002](https://pubmed.ncbi.nlm.nih.gov/25159002/) | 2014 | Übersichtsarbeit | Ann Pharmacother | Wirksamkeit und Sicherheit von Memantin zur Prävention primärer Kopfschmerzerkrankungen |
+| [29508147](https://pubmed.ncbi.nlm.nih.gov/29508147/) | 2018 | Übersichtsarbeit | Neurotherapeutics | Glutamat und seine Rezeptoren als therapeutische Ziele bei Migräne |
+| [17901918](https://pubmed.ncbi.nlm.nih.gov/17901918/) | 2007 | Retrospektive Studie | J Headache Pain | Retrospektive Auswertung von 60 Patienten mit Memantin zur Migräneprävention |
+| [26638119](https://pubmed.ncbi.nlm.nih.gov/26638119/) | 2016 | RCT | Headache | Randomisierte, doppelblinde, placebokontrollierte Studie zu Memantin bei Migräne ohne Aura (indirekte Evidenz; in den Daten der Vorhersage „Migräne mit Hirnstammaura“ zugeordnet) |
 
 ---
 
 ## Marktinformationen Deutschland
 
-Memantin wird derzeit **nicht vermarktet** gemäß dem regulatorischen Datensatz dieser Nachweissammlung (0 Genehmigungen, `market_status: Not marketed`), daher ist keine Produktlizenz-Tabelle verfügbar.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/002766 | Memantine Accord | – | Alzheimer-Krankheit |
+| EMEA/H/C/002658 | Marixino (zuvor Maruxa) | – | Alzheimer-Krankheit |
+| EMEA/H/C/002711 | Memantine Merz | – | Alzheimer-Krankheit |
+| EMEA/H/C/002680 | Nemdatine | – | Alzheimer-Krankheit |
+| EMEA/H/C/000378 | Axura | – | Alzheimer-Krankheit |
+
+Insgesamt sind 8 Zulassungen erfasst, alle mit dem Status „aufgehoben“. Weitere: Memantine ratiopharm, Memantine Mylan, Ebixa.
 
 ---
 
-## Sicherheitsüberlegungen
+## Sicherheitsaspekte
 
-Bitte siehe die Packungsbeilage für Sicherheitsinformationen. In dieser Nachweissammlung wurden keine Schlüsselmeldungen, Kontraindikationen oder Daten zu Arzneimittelwechselwirkungen zurückgegeben (Etikett-Daten werden als **Blockierende** Datenlücke gekennzeichnet, DG001 – TFDA/BfArM-Etikett-Warnungen/Kontraindikationen müssen beschafft und analysiert werden, bevor eine S1-Sicherheitsbewertung möglich ist).
+- **Mögliche Kontraindikationen (aus Wissensgraph-Verbindungen, nicht aus Packungsbeilagentexten):** Lebererkrankung, Gallenblasenerkrankung, eingeschränkte Nierenfunktion.
+- **Arzneimittelwechselwirkungen:** Insgesamt wurden 100 Wechselwirkungen erfasst. Als **moderat** eingestuft sind insbesondere Anticholinergika bzw. Antimuskarinika: Hyoscyamin, Atropin, Glycopyrronium, Clidinium, Dicyclomin, Methscopolamin, Propantheliun, Scopolamin, Trospium und Mepenzolat. **Gering** eingestuft sind u. a. Ranitidin, Metformin, Cimetidin und Kaliumcitrat. Für einige weitere (z. B. Glimepirid, Doxycyclin, Lansoprazol, Loperamid, Famotidin, Acetylsalicylsäure) ist der Schweregrad unbekannt.
 
----
-
-## Andere vorhergesagte Indikationen (niedrigere Priorität, nicht verfolgt)
-
-| Rang | Krankheit | TxGNN-Punktzahl | Evidenzstufe | Empfehlung | Grund |
-|---|---|---|---|---|---|
-| 1 | Pulmonale Hypertonie | 99.54% | L5 | Zurückhalten | Keine direkte mechanistische oder klinische Verbindung zwischen NMDA-Antagonismus und pulmonaler Gefäßumgestaltung; unterstützende Literatur ist entweder nicht einschlägig (Insulin/Lipidstoffwechsel) oder betrifft eine unabhängige Verbindung (MN-08) |
-| 3 | Kyphoskoliotische Herzerkrankung | 99.43% | L5 | Zurückhalten | Keine klinischen Studien, keine Literatur, keine plausible mechanistische Verbindung – ein rein datengestütztes TxGNN-Artefakt |
-| 4 | Migräne mit Hirnstamm-Aura | 99.41% | L3 | Forschungsfrage | Teilt NMDA/Glutamat-Begründung mit Migräne allgemein, aber die einzige relevante RCT (26638119) untersuchte „Migräne ohne Aura", nicht den Hirnstamm-Aura-Subtyp – nur mechanistische Extrapolation |
+Weitere Sicherheitsinformationen (Warnhinweise, Kontraindikationen) sind der Packungsbeilage zu entnehmen.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Zurückhalten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Unter den vier von TxGNN vorhergesagten Indikationen hat die Migräne-Störung bei weitem die stärkste Evidenzbasis (1 abgeschlossene Phase-3-RCT, eine placebokontrollierte RCT, eine Meta-Analyse, eine systematische Übersichtsarbeit und eine Netzwerk-Meta-Analyse von 2025), was ihr den Status „Forschungsfrage" (L2/S2) statt völliger Ablehnung einbringt. Allerdings bleiben die Stichprobengrößen klein, mindestens ein Kommentar kennzeichnet die Belege ausdrücklich als schwach („großes Versprechen, aber wenig Belege"), das Arzneimittel hat derzeit null Genehmigungen und wird in dieser Rechtsordnung nicht vermarktet, und eine Blockierende Sicherheits-Datenlücke (TFDA/BfArM-Etikett-Warnungen nicht verfügbar) verhindert eine S1-Sicherheitsbewertung. Diese kombinierten Faktoren bedeuten, dass der Kandidat noch nicht zum Weitermachen berechtigt ist.
+Der Mechanismus ist plausibel und es gibt eine abgeschlossene Phase-3-Studie sowie mehrere Übersichten und Metaanalysen. Die Studie ist jedoch klein (33 Teilnehmer), Ergebnisse liegen nicht vor, und die Literatur selbst beschreibt die Evidenz als begrenzt. Zudem gibt es in Deutschland derzeit keine gültige Zulassung für Memantin.
 
-**Um fortzufahren, wird Folgendes benötigt:**
-- Behebe DG001 (Blockierend): Beschaffe und analysiere die offizielle Packungsbeilage auf Warnungen/Kontraindikationen
-- Behebe DG002 (Hoch): Bestätige Memantins formalen MOA-Eintrag in DrugBank
-- Eine größere, angemessen aussagekräftige bestätigende Phase-3-RCT speziell zur Migräne-Prävention (aktuelle abgeschlossene Studie N=33)
-- Klärung des lokalen regulatorischen Weges, da Memantin derzeit nicht genehmigt/nicht vermarktet in dieser Rechtsordnung ist
-- Neubewertung der pulmonalen Hypertonie und kyphoskoliotischen Herzerkrankung nur, wenn neue mechanistische oder klinische Belege entstehen
-
+**Für das weitere Vorgehen sind erforderlich:**
+- Ergebnisse der Studie NCT04698525 sowie größere, ausreichend gepowerte randomisierte Studien
+- Detaillierte Daten zum Wirkmechanismus (MOA)
+- Packungsbeilagen-Informationen (Warnhinweise, Kontraindikationen) für die Sicherheitsbewertung
+- Klärung des aktuellen Zulassungs- und Marktstatus in Deutschland
+- Bewertung der Wechselwirkungen mit Anticholinergika sowie der Vorsicht bei Leber-, Gallen- und Nierenerkrankungen
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

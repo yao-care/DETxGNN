@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Amlodipine
-parent: Hohe Evidenz (L1-L2)
-nav_order: 28
-evidence_level: L1
+parent: Nur Modellvorhersage (L5)
+nav_order: 31
+evidence_level: L5
 indication_count: 10
 ---
 
 # Amlodipine
 {: .fs-9 }
 
-Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,13 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Amlodipine: Vom Bluthochdruck zur Prävention rezidivierender intrakranieller Blutung
+# Amlodipin: Von Hypertonie zu Hirnstamminfarkt
 
 ## Zusammenfassung in einem Satz
 
-> Amlodipine ist ein langwirksamer Dihydropyridin-Kalziumkanalblocker (CCB), der üblicherweise zur Blutdruckkontrolle eingesetzt wird. TxGNN hat 10 neue mögliche Indikationen für dieses Arzneimittel identifiziert; darunter zeichnet sich die **Sekundärprävention rezidivierender intrakranieller Blutung (ICH)** durch intensive dreifache Blutdruckregulation als einziger Kandidat aus, der durch echte klinische Evidenz gestützt wird – **6 klinische Studien** (einschließlich einer abgeschlossenen Phase-3-RCT, n=1.671) und **8 Veröffentlichungen**. Die anderen 9 vorhergesagten Indikationen reichen von schwach (Fallberichtsebene) bis praktisch nicht gestützt (nur TxGNN-Score, keine Studien oder Literatur) und werden derzeit nicht für weitere Maßnahmen empfohlen.
+Amlodipin ist ein Calciumkanalblocker, der ursprünglich zur Behandlung von Bluthochdruck eingesetzt wird.
+Das TxGNN-Modell sagt voraus, dass er bei **Hirnstamminfarkt** wirksam sein könnte (Rang 1 der Vorhersagen). Für diese Indikation liegen jedoch **keine klinischen Studien und keine Publikationen** vor.
+Die am besten belegte Richtung unter den Vorhersagen ist die **intrazerebrale Blutung** (Sekundärprävention) mit **4 klinischen Studien** und **8 Publikationen**, allerdings nur als Bestandteil einer Dreifachkombination.
 
 ---
 
@@ -41,101 +43,106 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Hypertonie (Verwendung der CCB-Klasse – kein formales TFDA-zugelassener Indikationstext ist in diesem Datensatz verfügbar) |
-| Vorhergesagte neue Indikation | Rezidivierende intrakranielle Blutung (Sekundärprävention, intensive Blutdruckregulation) |
-| TxGNN-Vorhersagescore | 99.79% (dieser Kandidat rangiert 10. von 10 nach Raw-TxGNN-Score, hat aber die stärkste tatsächliche Evidenz) |
-| Evidenzstufe | L1 |
-| Marktstatus in Deutschland | Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Mit Vorsichtsmaßnahmen fortfahren |
+| Ursprüngliche Indikation | Hypertonie |
+| Vorhergesagte neue Indikation | Hirnstamminfarkt |
+| TxGNN-Vorhersagewert | 99,94 % |
+| Evidenzgrad | L5 (nur Modellvorhersage) |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen |
+| Anzahl der Zulassungen | 8 (alle erloschen) |
+| Empfohlene Entscheidung | Hold |
+
+Hinweis: Weitere Vorhersagen weisen höhere Evidenzgrade auf, z. B. die intrazerebrale Blutung (L1, mit Einschränkungen, siehe unten) und der Verschluss zerebraler Arterien (L3, überwiegend präklinisch).
 
 ---
 
-## Warum ist diese Vorhersage sinnvoll?
+## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Wirkmechanismus-Daten für Amlodipine sind in diesem Evidenzpaket nicht verfügbar. Basierend auf Informationen, die in der Begründung der Studien und Literatur enthalten sind, ist Amlodipine ein Dihydropyridin-Kalziumkanalblocker, der den Blutdruck durch Reduzierung des peripheren Gefäßwiderstands und der kardialen Nachlast senkt. Dies ist ein etabliertes, nicht ein neuartiges blutdrucksenkend wirkendes Prinzip.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Amlodipin ist ein Calciumkanalblocker vom Dihydropyridin-Typ. Er erweitert die Gefäße und senkt den Blutdruck. Seine Wirksamkeit bei Hypertonie ist belegt.
 
-Die Verbindung zu ICH ist kein Wirkmechanismus-Sprung, sondern eine direkte Erweiterung der standardmäßigen Blutdruckbehandlung: Intensive Blutdruckregulation ist der primäre veränderbare Risikofaktor für ICH-Rezidiv. Die TRIDENT-Studie (NCT02699645, Phase 3, abgeschlossen, n=1.671) testete gezielt eine Fixdosis-"Dreifach-Pille" (einschließlich eines Kalziumkanalblockers der Amlodipine-Klasse) gegen Standardbehandlung bei Patienten mit vorangegangener ICH und bewertete die Zeit bis zum rezidivierenden Schlaganfall. Eine Folgestudie (NCT07458880, aktiv rekrutierend, n=140) testet jetzt eine TRICH-Score-gesteuerte dreifache antihypertensive Strategie in derselben Population.
+Der Blutdruck ist der wichtigste beeinflussbare Risikofaktor für Schlaganfälle. Mechanistisch ist daher denkbar, dass Amlodipin über Blutdrucksenkung und Gefäßwirkung das zerebrovaskuläre Risiko verringert. Für den Hirnstamminfarkt selbst wurden jedoch weder Studien noch Literatur gefunden, die Vorhersage beruht allein auf dem Modell.
 
-Dies wird am besten verstanden als eine **Umpositionierung innerhalb derselben pharmakologischen Klasse und desselben Wirkmechanismus** (Blutdrucksenkungs-Strategie) und nicht als ein mechanistisch neuartiger Einsatzbereich – die Rolle von Amlodipine besteht hier darin, eine Komponente der Kombinationstherapie zu sein, nicht ein eigenständiger neuer Einsatzbereich.
+Präklinische Daten stützen eine neuroprotektive Wirkung bei zerebraler Ischämie (verkleinerte Infarktgröße, antiapoptotische und antioxidative Effekte, additive Wirkung mit Atorvastatin in Tiermodellen). Die klinischen Belege stammen dagegen aus Kombinationsregimen, sodass ein amlodipinspezifischer Beitrag nicht abgrenzbar ist.
 
 ---
 
-## Klinische Studienevidenz
+## Evidenz aus klinischen Studien
 
-| Studiennummer | Phase | Status | Patienten | Hauptergebnisse |
+Für den Spitzenkandidaten **Hirnstamminfarkt** sind derzeit keine einschlägigen klinischen Studien registriert.
+
+Für die klinisch am besten belegte Vorhersage, **intrazerebrale Blutung** (TxGNN-Wert 99,79 %), liegen folgende Studien vor:
+
+| Studiennummer | Phase | Status | Teilnehmerzahl | Kernaussagen |
 |---------|------|------|------|---------|
-| [NCT02699645](https://clinicaltrials.gov/study/NCT02699645) | Phase 3 | Abgeschlossen | 1.671 | TRIDENT-Hauptstudie: Fixdosis-Dreifach-Pille-Blutdrucksenkungs-Strategie (inkl. Kalziumkanalblocker der Amlodipine-Klasse) vs. Standardbehandlung zur Verhinderung rezidivierender Schlaganfälle nach ICH – direkt relevant, größte und rigoroseste Studie dieses Satzes |
-| [NCT07458880](https://clinicaltrials.gov/study/NCT07458880) | N/A | Rekrutierend | 140 | TRICH-Score-gesteuerte dreifache antihypertensive Medikation zur Blutdruckregulation nach ICH |
-| [NCT03264352](https://clinicaltrials.gov/study/NCT03264352) | Phase 4 | Rekrutierend | 11.414 | Intervention bei erhöhtem, aber normalem Blutdruck bei Typ-2-Diabetes – kardiovaskuläre/zerebrovaskuläre Risikofaktor-Modifikation, nicht ICH-spezifisch |
-| [NCT00134160](https://clinicaltrials.gov/study/NCT00134160) | Phase 4 | Abgeschlossen | 1.000 | Hochdosis-ARB-Monotherapie vs. ARB+CCB-Kombinationstherapie bei älteren hypertensiven japanischen Patienten mit hohem kardiovaskulärem Risiko |
-| [NCT03785067](https://clinicaltrials.gov/study/NCT03785067) | Phase 3 | Beendet | 1 | TRIDENT-Kognitive-Substudie – beendet, vernachlässigbare Rekrutierung |
-| [NCT03783754](https://clinicaltrials.gov/study/NCT03783754) | N/A | Beendet | 4 | TRIDENT-MRT-Substudie – beendet, vernachlässigbare Rekrutierung |
+| [NCT02699645](https://clinicaltrials.gov/study/NCT02699645) | Phase 3 | Abgeschlossen | 1671 | TRIDENT: intensivere Blutdrucksenkung mit einer Dreifachkombinations-Pille (niedrig dosiert) zur Verhinderung eines erneuten Schlaganfalls nach intrazerebraler Blutung |
+| [NCT07458880](https://clinicaltrials.gov/study/NCT07458880) | Nicht zugeordnet | Rekrutierend | 140 | Dreifache antihypertensive Therapie nach intrazerebraler Blutung mit TRICH-Score; Ergebnisse noch nicht verfügbar |
+| [NCT03783754](https://clinicaltrials.gov/study/NCT03783754) | Nicht zugeordnet | Abgebrochen | 4 | MRT-Teilstudie von TRIDENT; Daten kaum verwertbar |
+| [NCT03785067](https://clinicaltrials.gov/study/NCT03785067) | Phase 3 | Abgebrochen | 1 | Kognitive Teilstudie von TRIDENT; Daten praktisch nicht verwertbar |
+
+Für **Verschluss zerebraler Arterien** sind drei Studien registriert (NCT03783754, NCT03785067 und die Phase-4-Studie [NCT00805311](https://clinicaltrials.gov/study/NCT00805311) zur Endarteriektomie versus optimale medikamentöse Therapie, 400 Teilnehmer); alle wurden abgebrochen, und Amlodipin ist nicht die geprüfte Einzelintervention.
 
 ---
 
 ## Literaturevidenz
 
-| PMID | Jahr | Typ | Journal | Hauptergebnisse |
+Zur intrazerebralen Blutung (Auswahl):
+
+| PMID | Jahr | Typ | Journal | Kernaussagen |
 |------|-----|------|------|---------|
-| [34994269](https://pubmed.ncbi.nlm.nih.gov/34994269/) | 2022 | RCT (Studiendesign/Protokoll) | Int J Stroke | Rationale und Design der TRIDENT-Studie, die eine Einpillen-Kombinationsblutdrucksenkungs-Strategie (inkl. Amlodipine) zur ICH-Sekundärprävention evaluiert |
-| [14717341](https://pubmed.ncbi.nlm.nih.gov/14717341/) | 2003 | RCT (CASE-J) | Hypertens Res | Rationale/Design einer großen RCT zum Vergleich ARB vs. CCB-basierte Regime zur Reduktion kardiovaskulärer Ereignisse bei Hochrisiko-Patienten mit Hypertonie |
-| [23053838](https://pubmed.ncbi.nlm.nih.gov/23053838/) | 2013 | Review | Neurol Sci | Rolle von β-Blockern im Vergleich zu anderen Antihypertensiva (Kontext für die Auswahl von Blutdruckmitteln) bei Ergebnissen akuter hypertensiver ICH |
-| [17077518](https://pubmed.ncbi.nlm.nih.gov/17077518/) | 2006 | Kohortenstudie | Biol Pharm Bull | Langwirksamer Dihydropyridin-Kalziumkanalblocker (Bendipin) verbessert die Gehirndurchblutungs-Autoregulation in hypertensiven Ratten – unterstützender Wirkmechanismus-Kontext |
-| [3154329](https://pubmed.ncbi.nlm.nih.gov/3154329/) | 1988 | Review | Cardiovasc Drugs Ther | Übersicht über das Kalziumkanalblocker-Blutdrucksenkungs-Prinzip und die Anwendung bei schwerer Hypertonie |
-| [19299323](https://pubmed.ncbi.nlm.nih.gov/19299323/) | 2009 | Fallbericht | Ann Pharmacother | Wahrscheinliches Amlodipine-induziertes Angioödem bei einem Patienten mit Schlaganfall mit Blutung – Sicherheitssignal |
-| [26698202](https://pubmed.ncbi.nlm.nih.gov/26698202/) | 2015 | Fallbericht | BMJ Case Rep | PRES nach rascher Antihypertensiva-Absetzung bei einem Patienten mit vorangegangener ICH |
-| [37489780](https://pubmed.ncbi.nlm.nih.gov/37489780/) | 2024 | Fallbericht | Curr Drug Saf | Tizanidin-induzierte Hypotonie bei Schlaganfallpatienten unter Antihypertensiva – allgemeine Polypharmakologie-Vorsicht, nicht amlodipine-spezifisch |
+| [42019018](https://pubmed.ncbi.nlm.nih.gov/42019018/) | 2026 | RCT | N Engl J Med | TRIDENT-Hauptergebnisse: Dreifach-Niedrigdosis-Pille nach intrazerebraler Blutung |
+| [34994269](https://pubmed.ncbi.nlm.nih.gov/34994269/) | 2022 | Studiendesign | Int J Stroke | TRIDENT: Begründung, Design und Fortschritt |
+| [14717341](https://pubmed.ncbi.nlm.nih.gov/14717341/) | 2003 | RCT (indirekt) | Hypertens Res | CASE-J: Candesartan versus Amlodipin bei Hypertonie |
+| [3154329](https://pubmed.ncbi.nlm.nih.gov/3154329/) | 1988 | Übersichtsarbeit | Cardiovasc Drugs Ther | Calciumantagonisten bei Hypertonie und Arrhythmien |
+| [19299323](https://pubmed.ncbi.nlm.nih.gov/19299323/) | 2009 | Fallbericht | Ann Pharmacother | Wahrscheinliches Amlodipin-induziertes Angioödem bei Thalamusblutung |
+
+Zum Verschluss zerebraler Arterien (präklinisch):
+
+| PMID | Jahr | Typ | Journal | Kernaussagen |
+|------|-----|------|------|---------|
+| [17070425](https://pubmed.ncbi.nlm.nih.gov/17070425/) | 2006 | Präklinisch | Am J Hypertens | Amlodipin verkleinert die Infarktgröße bei ApoE-defizienten Mäusen |
+| [17904110](https://pubmed.ncbi.nlm.nih.gov/17904110/) | 2007 | Präklinisch | Brain Res | Calciumkanalblocker mit antioxidativer Wirkung schützen Neuronen nach transienter Ischämie |
+| [21538457](https://pubmed.ncbi.nlm.nih.gov/21538457/) | 2011 | Präklinisch | J Neurosci Res | Amlodipin plus Atorvastatin: antiapoptotische und antiautophagische Schutzwirkung nach MCAO |
+| [20971084](https://pubmed.ncbi.nlm.nih.gov/20971084/) | 2011 | Präklinisch | Brain Res | Synergistischer Nutzen von Amlodipin plus Atorvastatin |
+| [21276424](https://pubmed.ncbi.nlm.nih.gov/21276424/) | 2011 | Präklinisch | Brain Res | Schutz vor ischämischem Schlaganfallschaden durch die Kombination |
 
 ---
 
-## Marktstatus in Deutschland
+## Marktinformationen Deutschland
 
-Amlodipine wird derzeit **nicht vermarktet** in Deutschland und es sind keine Marktzulassungen in diesem Datensatz aufgezeichnet (0 Lizenzen). Ein zugelassener Indikationstext ist daher nicht verfügbar.
+Alle acht Zulassungen sind erloschen. Es handelt sich um zentrale EU-Zulassungen (EMEA) von Kombinationspräparaten.
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/004037 | Amlodipine / Valsartan Mylan | – | Hypertonie |
+| EMEA/H/C/000776 | Dafiro | – | Hypertonie |
+| EMEA/H/C/001224 | Twynsta | – | Hypertonie |
+| EMEA/H/C/000716 | Exforge | – | Hypertonie |
+| EMEA/H/C/000774 | Copalia | – | Hypertonie |
 
 ---
 
 ## Sicherheitsaspekte
 
-Formale Sicherheitsfelder (Hauptwarnhinweise, Gegenanzeigen, Arzneimittelwechselwirkungsdatenbank) enthalten keine Daten in diesem Evidenzpaket.
+- **Kontraindikationen aus dem Wissensgraphen (keine Packungsbeilagen-Angaben):** Leberversagen, Nierenerkrankung, Pankreatitis, Lebererkrankung, Gallenblasenerkrankung, Hypothyreose, Angioödem (inkl. hereditäres), systemischer Lupus erythematodes, Myopathie, familiäre periodische Paralyse, Kaliummangel, Diabetes mellitus bzw. diabetische Ketoazidose, Neutropenie/Agranulozytose, hypotensive Störungen, Hyperparathyreoidismus.
+- **Arzneimittelwechselwirkungen:** 100 Wechselwirkungen erfasst; die aufgeführten sind überwiegend von mittlerem Schweregrad, z. B. mit Hydrocortison, Dexamethason, Betamethason, Budesonid, Aprepitant, Acetylsalicylsäure, Bupropion, Clarithromycin, Clotrimazol, Canagliflozin, Dapagliflozin sowie verschiedenen Calciumsalzen.
+- **Hinweise aus der Literatur:** Fallberichte zu Angioödem, Überdosierung mit nichtkardiogenem Lungenödem und Hypoxie während Einlungenventilation. Bei hypoxischer Lungenerkrankung können Vasodilatatoren das Ventilations-Perfusions-Verhältnis verschlechtern.
 
-- **Im Rahmen der Literaturübersicht identifiziertes Sicherheitssignal**: Ein Fallbericht ([PMID 19299323](https://pubmed.ncbi.nlm.nih.gov/19299323/)) beschreibt wahrscheinliches Amlodipine-induziertes Angioödem bei einem Patienten mit Schlaganfall mit Blutung – relevant angesichts der vorgeschlagenen Post-ICH-Population und erfordert Überwachung.
-- Darüber hinaus verweisen Sie bitte auf die Gebrauchsinformation für Sicherheitsinformationen, wenn verfügbar.
-
----
-
-## Zusätzliche TxGNN-Vorhersagen (niedrigere Evidenz – nicht priorisiert)
-
-Zur Vollständigkeit werden die anderen 9 Kandidaten aus diesem Evidenzpaket nachfolgend zusammengefasst. Keiner erfüllt derzeit den Standard für weitere Maßnahmen (Evidenzstufe L3–L5, überwiegend "Halten").
-
-| Rang | Vorhergesagte Indikation | TxGNN-Score | Evidenzstufe | Empfehlung | Anmerkung |
-|---|---|---|---|---|---|
-| 1 | Hirnstamminfarkt | 99.94% | L5 | Halten | Keine Studien oder Literatur; reine Modellvorhersage |
-| 2 | Pulmonale Hypertonie (Lungenerkrankung/Hypoxie) | 99.91% | L5 | Halten | Literatur ist allgemeine Hypoxie-Biologie, nicht amlodipine-spezifisch; Kalziumkanalblocker können theoretisch hypoxische Lungenvasokonstriktion verschlechtern |
-| 3 | Pulmonale Hypertonie (unklarer Wirkmechanismus) | 99.91% | L5 | Halten | Keine Evidenz überhaupt |
-| 4 | Bösartige renovaskuläre Hypertonie | 99.90% | L4 | Forschungsfrage | Nur 2 pädiatrische Fallberichte; mechanistisch plausibel (standardmäßige Kalziumkanalblocker-Anwendung bei schwerer Hypertonie) |
-| 5 | Bösartige hypertensive Nierenerkrankung | 99.90% | L5 | Halten | Keine Evidenz |
-| 6 | Verschluss einer Hirnarterie | 99.89% | L3 | Forschungsfrage | Präklinisch (Nager-MCAO) Neuroprotektions-Daten; menschliche Studien sind Blutdruckbehandlungs-Kontext, nicht krankheitsspezifisch |
-| 7 | Braddock-Syndrom | 99.88% | L5 | Halten | Kein bekannter Kalziumkanalblocker-bezogener Pathophysiologie; wahrscheinlich falsch positiv |
-| 8 | MRT-definierter Hirninfarkt | 99.86% | L4 | Halten | Einzelne Studie, Status unbekannt, nicht amlodipine-spezifisch |
-| 9 | ABri-Amyloidose | 99.84% | L5 | Halten | Kein bekannter mechanistischer Zusammenhang; wahrscheinlich falsch positiv |
+Für Warnhinweise und Gegenanzeigen aus der Packungsbeilage ist die Fachinformation heranzuziehen.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Mit Vorsichtsmaßnahmen fortfahren**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die Indikation rezidivierende intrakranielle Blutung wird durch eine abgeschlossene Phase-3-RCT (TRIDENT, n=1.671) gestützt, die gezielt ein Amlodipine-haltiges Dreifach-Pille-Regime testet, plus eine aktiv rekrutierende Bestätigungsstudie (NCT07458880). Dies ist echte, klassengerechte Evidenz – aber sie widerspiegelt die etablierte antihypertensive Rolle von Amlodipine innerhalb einer Kombinationsstrategie, nicht einen eigenständigen neuartigen Wirkmechanismus, und ein Sicherheitssignal (Angioödem bei Schlaganfallpatienten) bedarf Überwachung.
+Für den Spitzenkandidaten Hirnstamminfarkt gibt es ausschließlich eine Modellvorhersage ohne Studien oder Literatur (L5). Die stärkste klinische Evidenz (TRIDENT, intrazerebrale Blutung) betrifft eine Dreifachkombination; ein amlodipinspezifischer Effekt ist nicht abgrenzbar. Zudem besteht in Deutschland aktuell keine gültige Zulassung.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- TFDA/Deutsche Produktkennzeichnungs-Daten (Warnhinweise, Gegenanzeigen, Arzneimittelwechselwirkungen) – derzeit ein blockierender Daten-Engpass (DG001)
-- Formale Wirkmechanismus-Dokumentation (DG002)
-- Formale Bestätigung des ursprünglichen zugelassenen Indikationstextes für Amlodipine angesichts des Fehlens von Lizenzierungsdatensätzen in Deutschland
-- Überwachungsplan für Angioödem-Risiko bei Post-ICH-Patienten
-- Die 9 Kandidaten mit niedrigerer Evidenz sollten nicht ohne neue Studien- oder Literatur-Daten voranschreiten; regelmäßig auf Aktualisierungen hin überprüfen
-
+**Für ein Weiterkommen sind erforderlich:**
+- Detaillierte Mechanismusdaten (MOA), z. B. aus DrugBank
+- Warnhinweise und Gegenanzeigen aus der Packungsbeilage (BfArM); ohne diese ist ein Sicherheitsscreening nicht möglich
+- Auswertung der TRIDENT-Daten hinsichtlich des Beitrags einzelner Komponenten
+- Klinische oder zumindest gezielte Beobachtungsdaten zu Hirnstamminfarkt bzw. zerebralem Arterienverschluss
+- Klärung des Zulassungs- und Marktstatus in Deutschland (Einzelpräparate, Darreichungsformen)
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

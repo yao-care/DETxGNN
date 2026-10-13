@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Chenodeoxycholic Acid
-parent: Nur Modellvorhersage (L5)
-nav_order: 100
-evidence_level: L5
+parent: Mittlere Evidenz (L3-L4)
+nav_order: 112
+evidence_level: L4
 indication_count: 5
 ---
 
 # Chenodeoxycholic Acid
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5** 
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,77 +29,100 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-# Chenodeoxycholsäure: Vom Gallensäurestoffwechsel zur homozygoten familiären Hypercholesterinämie
+# Chenodeoxycholsäure: Von zerebrotendinöser Xanthomatose zu homozygoter familiärer Hypercholesterinämie
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Chenodeoxycholsäure (CDCA) ist eine natürlich vorkommende Gallensäure; das aktuelle Evidenzpaket dokumentiert keine bestätigte ursprüngliche Indikation oder Wirkmechanismus für diesen Kandidaten.
-> Das TxGNN-Modell sagt voraus, dass es wirksam sein kann für **Homozygote familiäre Hypercholesterinämie**,
-> aber diese Vorhersage wird derzeit nur durch die Modellpunktzahl gestützt, mit **0 klinischen Studien** und nur **1 indirekt verwandter Veröffentlichung**.
+Chenodeoxycholsäure (CDCA) wurde ursprünglich zur Behandlung der zerebrotendinösen Xanthomatose (CTX) und angeborener Stoffwechselstörungen zugelassen.
+Das TxGNN-Modell sagt voraus, dass sie bei **homozygoter familiärer Hypercholesterinämie** wirksam sein könnte.
+Die Evidenz ist jedoch dünn: Es liegen **keine klinischen Studien** und nur **1 Publikation** vor (ein Übersichtsartikel zu CTX, nicht zur vorhergesagten Indikation).
 
 ---
 
-## Schnelle Übersicht
+## Schnellübersicht
 
-| Element | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Nicht dokumentiert im aktuellen Evidenzpaket |
+| Ursprüngliche Indikation | Zerebrotendinöse Xanthomatose; angeborene Stoffwechselstörungen |
 | Vorhergesagte neue Indikation | Homozygote familiäre Hypercholesterinämie |
-| TxGNN-Vorhersagepunktzahl | 99.57% |
-| Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Halten |
+| TxGNN-Vorhersagewert | 99,57 % |
+| Evidenzstufe | L4 |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
+| Anzahl der Zulassungen | 1 (erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage vernünftig?
+## Warum ist diese Vorhersage plausibel (oder nicht)?
 
-Derzeit sind detaillierte Daten zum Wirkmechanismus für Chenodeoxycholsäure nicht verfügbar, und es ist keine ursprüngliche Indikation in diesem Evidenzpaket dokumentiert. Dies begrenzt unsere Fähigkeit, die mechanistische Plausibilität für die vorhergesagte neue Indikation direkt aus den Quelldaten zu bewerten.
+Die für diesen Bericht zusammengestellten Daten enthalten keine detaillierten Angaben zum Wirkmechanismus. Bekannt ist: CDCA unterdrückt die hepatische Gallensäuresynthese über die Aktivierung des Farnesoid-X-Rezeptors (FXR) und die Rückkopplungshemmung von CYP7A1. Bei der CTX, einer Störung des Cholesterin- und Gallensäurestoffwechsels, ist der Wirkstoff etabliert.
 
-Der eine Literaturbeleg, der für diesen Kandidaten abgerufen wurde, ist eine Übersicht über Cerebrotendinöse Xanthomatose (CTX), eine seltene Gallensäuresynthesestörung, die durch CYP27A1-Mutationen verursacht wird, die die Gallensäureproduktion beeinträchtigen und zu Cholestanolablagerung führen. Obwohl diese Veröffentlichung nicht direkt die homozygote familiäre Hypercholesterinämie behandelt, belegt sie, dass Störungen in Gallensäure-/Cholesterinstoffwechselpfaden – dem biologischen Raum, in dem CDCA als endogene Gallensäure wirkt – mechanistisch mit Lipidspeicher- und Cholesterin-Handhabungsstörungen verbunden sind. Dies bietet eine plausible, aber derzeit nicht bestätigte biologische Grundlage für die TxGNN-Vorhersage; sie sollte nicht als direkte klinische Evidenz behandelt werden.
+Zwischen CTX und Hypercholesterinämie besteht eine gewisse Nähe im Lipidstoffwechsel. Bei der homozygoten familiären Hypercholesterinämie liegt der Hauptdefekt jedoch in der Funktionsstörung des LDL-Rezeptors. Eine verminderte Gallensäuresynthese würde den hepatischen Cholesterinabbau eher senken und damit das LDL-C eher erhöhen als senken. Die mechanistische Begründung ist daher schwach oder möglicherweise kontraproduktiv.
+
+Der hohe TxGNN-Wert spiegelt vermutlich die Nähe im Netzwerk des Lipidstoffwechsels zur CTX wider und nicht einen belegten therapeutischen Nutzen.
 
 ---
 
-## Klinische Studienevidenz
+## Klinische Studien
 
-Derzeit keine verwandten klinischen Studien registriert
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
 ## Literaturevidenz
 
-| PMID | Jahr | Typ | Zeitschrift | Wichtigste Erkenntnisse |
+| PMID | Jahr | Typ | Journal | Kernaussagen |
 |------|-----|------|------|---------|
-| [25424010](https://pubmed.ncbi.nlm.nih.gov/25424010/) | 2014 | Übersicht | Orphanet Journal of Rare Diseases | Umfassende Übersicht über Cerebrotendinöse Xanthomatose (CTX), eine Gallensäuresynthesestörung, die durch CYP27A1-Mutationen verursacht wird, was zu verringerter Gallensäuresynthese und Cholestanolablagerung führt – relevanter Hintergrund zu Gallensäure-/Cholesterinstoffwechselpfaden, aber keine direkte Studie der vorhergesagten Indikation |
+| [25424010](https://pubmed.ncbi.nlm.nih.gov/25424010/) | 2014 | Review | Orphanet Journal of Rare Diseases | Umfassender Überblick über Pathogenese, klinische Manifestation, Diagnose und Behandlung der CTX (CYP27A1-Mutation, verminderte Gallensäuresynthese, Cholestanol-Akkumulation). Liefert nur indirekte Evidenz aus einer anderen Erkrankung; CDCA wurde nicht bei HoFH geprüft. |
 
 ---
 
-## Marktinformationen für Deutschland
+## Informationen zum deutschen Markt
 
-Chenodeoxycholsäure hat derzeit keine Zulassungen auf dem deutschen Markt (0 Zulassungen, Marktstatus: nicht vermarktet).
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/004061 | Chenodeoxycholic acid Leadiant (zuvor Chenodeoxycholic acid sigma-tau) | – | Zerebrotendinöse Xanthomatose; angeborene Stoffwechselstörungen |
 
----
-
-## Sicherheitsüberlegungen
-
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+Diese Zulassung ist erloschen bzw. aufgehoben; derzeit ist kein gültiges Präparat vermerkt.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Sicherheitsaspekte
 
-**Entscheidung: Halten**
+- **Kontraindikationen aus dem Wissensgraphen (kein Packungsbeilagentext):** Lebererkrankung, Gallenblasenerkrankung, Durchfallerkrankungen, Cholestase, benigne rekurrierende intrahepatische Cholestase, familiäre intrahepatische Cholestase, sklerosierende Cholangitis, primär biliäre Cholangitis, Reynolds-Syndrom.
+- **Arzneimittelwechselwirkungen:** 56 Wechselwirkungen verzeichnet; die ersten 20 sind mäßig (Moderate) eingestuft. Wichtige Beispiele:
+  - Östrogene: Ethinylestradiol, Estradiol, konjugierte Estrogene
+  - Lipidsenker: Gemfibrozil, Fenofibrat, Clofibrat, Ezetimib
+  - Gallensäurebinder: Cholestyramin, Colesevelam, Colestipol
+  - Asparaginase-Präparate, Brentuximab vedotin, Clofarabin, Cannabidiol, Aluminiumhydroxid, Anisindion, Bedaquilin
+
+Für weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) bitte die Packungsbeilage heranziehen.
+
+---
+
+## Weitere vorhergesagte Indikationen (zur Einordnung)
+
+| Rang | Erkrankung | TxGNN-Wert | Evidenzstufe | Einschätzung |
+|---|---|---|---|---|
+| 2 | Hirnkleingefäßerkrankung Typ 1 (COL4A1) | 99,43 % | L5 | Kein mechanistischer Zusammenhang erkennbar |
+| 3 | Autosomal-dominantes Syndrom mit Hämaturie, retinaler Arteriolentortuosität und Kontrakturen | 99,40 % | L5 | Kein mechanistischer Zusammenhang; rein rechnerische Assoziation |
+| 4 | Familiäre kombinierte Hyperlipidämie (veralteter Begriff) | 99,34 % | L5 | Theoretischer Lipid-Zusammenhang; CDCA wurde teils mit erhöhtem LDL-C assoziiert |
+| 5 | Hyperurikämie (veralteter Begriff) | 99,27 % | L5 | Kein etablierter Zusammenhang |
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Hold**
 
 **Begründung:**
-Es gibt keine dokumentierte ursprüngliche Indikation, keine Wirkmechanismus-Daten, keine klinische Studienevidenz und keine Zulassung auf dem deutschen Markt für diesen Kandidaten. Die einzige verfügbare Veröffentlichung behandelt eine verwandte, aber unterschiedliche Gallensäuresynthesestörung und nicht die vorhergesagte Indikation selbst, daher stützt sich die Vorhersage derzeit nur auf die TxGNN-Modellpunktzahl.
+Für die vorhergesagte Indikation gibt es keine klinischen Studien und keine direkte Literatur. Die mechanistische Begründung ist schwach und könnte sogar gegenläufig sein (mögliche Erhöhung des LDL-C). Zudem ist die einzige deutsche Zulassung erloschen.
 
-**Um fortzufahren, wird Folgendes benötigt:**
-- Bestätigte ursprüngliche Indikation und Wirkmechanismus (DrugBank-Abfrage)
-- TFDA/Hersteller-Packungsbeilage für Warnhinweise und Kontraindikationen
-- Dedizierte präklinische oder klinische Evidenz, die Chenodeoxycholsäure direkt mit Lipidstoffwechselstörungen wie homozygote familiäre Hypercholesterinämie verbindet
-- Sicherheits- und Arzneimittelwechselwirkungsprofil vor einer S1-Erstbewertung der Sicherheit
-
+**Für ein Weiterkommen sind folgende Schritte nötig:**
+- Prüfung der Packungsbeilage (Warnhinweise, Gegenanzeigen) über die BfArM-Website, da dies die Sicherheitsprüfung derzeit blockiert
+- Ergänzung der Daten zum Wirkmechanismus (z. B. über die DrugBank-Abfrage)
+- Präklinische oder klinische Daten zu CDCA bei homozygoter familiärer Hypercholesterinämie, insbesondere zur Wirkung auf LDL-C
+- Klärung, warum die Zulassung erloschen ist, und der Verfügbarkeit des Präparats in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

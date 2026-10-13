@@ -2,7 +2,7 @@
 layout: default
 title: Baricitinib
 parent: Nur Modellvorhersage (L5)
-nav_order: 47
+nav_order: 53
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,77 +29,73 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Baricitinib: Von keiner etablierten Indikation zum Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome
+# Baricitinib: Von rheumatoider Arthritis zum kolobomatösen Mikrophthalmie-rhizomelen-Dysplasie-Syndrom
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Baricitinib ist ein JAK1/JAK2-Inhibitor, dessen Originaldaten zur Indikation nicht in diesem Evidenzpaket verfügbar sind.
-Das TxGNN-Modell sagt eine mögliche Assoziation mit dem **Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome** voraus,
-aber diese Vorhersage wird durch **0 klinische Studien** und **0 Veröffentlichungen** gestützt, und kein biologisches Rationale verbindet den Wirkmechanismus mit dieser seltenen Entwicklungsstörung.
+Baricitinib wurde ursprünglich zur Behandlung der rheumatoiden Arthritis zugelassen. Das TxGNN-Modell sagt voraus, dass es bei dem **kolobomatösen Mikrophthalmie-rhizomelen-Dysplasie-Syndrom** wirksam sein könnte. Für diese Vorhersage liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor; sie beruht ausschließlich auf der Modellberechnung.
 
----
+## Kurzübersicht
 
-## Schnellübersicht
-
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Nicht verfügbar (keine genehmigten Indikationen im Evidenzpaket erfasst) |
-| Vorhergesagte neue Indikation | Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome |
-| TxGNN-Vorhersage-Score | 99.94% |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Rheumatoide Arthritis |
+| Vorhergesagte neue Indikation | Kolobomatöses Mikrophthalmie-rhizomeles-Dysplasie-Syndrom |
+| TxGNN-Vorhersagewert | 99,94 % |
 | Evidenzstufe | L5 |
-| Marktstatus Deutschland | Nicht im Handel (Nicht im Handel) |
-| Anzahl der Genehmigungen | 0 |
-| Empfohlene Entscheidung | Abwarten |
+| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
+| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Empfohlene Entscheidung | Hold |
 
----
+## Warum ist diese Vorhersage plausibel?
 
-## Warum ist diese Vorhersage vernünftig?
+Die für diesen Bericht zusammengestellten Daten enthalten keine detaillierten Angaben zum Wirkmechanismus. Bekannt ist, dass Baricitinib als JAK1/JAK2-Inhibitor in den JAK-STAT-Signalweg eingreift und bei der rheumatoiden Arthritis wirksam ist. Dieses Wissen stammt aus dem Hintergrundwissen, nicht aus den vorliegenden Daten.
 
-Derzeit sind detaillierte Daten zum Wirkmechanismus nicht verfügbar. Auf der Grundlage der bekannten allgemeinen Pharmakologie ist Baricitinib ein JAK1/JAK2-Inhibitor, der zur Modulation entzündlicher Signalisierungswege verwendet wird; jedoch enthält dieses Evidenzpaket keine bestätigte Originalindikation, keine MOA-Details und keine Sicherheitsdaten, um einen mechanistischen Vergleich zu unterstützen.
+Eine mechanistische Verbindung zur vorhergesagten Indikation ist nach derzeitiger Datenlage **nicht erkennbar**. Das Syndrom ist eine seltene, vermutlich genetisch bedingte Entwicklungsstörung mit Fehlbildungen. Es ist unklar, wie eine Hemmung des JAK-STAT-Signalwegs eine strukturelle Fehlbildung beeinflussen sollte.
 
-Das Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome ist eine seltene angeborene Störung, die typischerweise mit genetischen Mutationen verbunden ist, die die Augen- und Skelettentwicklung beeinflussen (z. B. Transkriptionsfaktor- oder ziliäre Gendefekte), nicht mit entzündlichen oder Autoimmunwegen. Es gibt keinen bekannten biologischen Signalweg, der JAK1/JAK2-Inhibition mit diesem Entwicklungs-Syndrom verbindet.
+Der sehr hohe Vorhersagewert spiegelt wahrscheinlich die Netzwerknähe im Wissensgraphen (z. B. gemeinsame Gennachbarn) wider und keine therapeutische Begründung. Auch die zweitplatzierte Vorhersage, das Brachydaktylie-Syndaktylie-Syndrom (Score 99,94 %), ist eine angeborene Gliedmaßenfehlbildung und weist dieselbe Schwäche auf: ebenfalls keine Studien, keine Literatur, kein erkennbarer Mechanismus.
 
-Angesichts des völligen Mangels an Unterstützung durch klinische Studien oder Literatur und der strukturellen/entwicklungsbedingten (eher als entzündlichen) Natur der vorhergesagten Erkrankung spiegelt dieser TxGNN-Score höchstwahrscheinlich eher die Nähe in der Graphen-Einbettung wider als ein echtes pharmakologisches Signal, und er sollte bis zur weiteren Validierung als wahrscheinlich falsches Positiv betrachtet werden.
+## Klinische Evidenz
 
----
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
-## Evidenz aus klinischen Studien
+## Literaturevidenz
 
-Derzeit keine zugehörigen klinischen Studien registriert
+Derzeit liegt keine zugehörige Literatur vor.
 
----
+## Marktinformationen Deutschland
 
-## Evidenz aus der Literatur
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/004085 | Olumiant (Eli Lilly Nederland B.V.) | – | Rheumatoide Arthritis |
 
-Derzeit keine zugehörige Literatur verfügbar
+Die Zulassung ist als erloschen/zurückgezogen geführt, es existiert keine gültige Zulassung.
 
----
+## Zytotoxizität
 
-## Marktinformation Deutschland
+Baricitinib ist kein antineoplastisches Arzneimittel, daher entfällt dieser Abschnitt.
 
-Keine Vermarktungsgenehmigungen erfasst — dieses Medikament wird derzeit in Deutschland nicht vermarktet (0 Lizenzen erfasst).
+## Sicherheitshinweise
 
----
+- **Arzneimittelwechselwirkungen**: Es wurden 100 Wechselwirkungen erfasst. Die Beispiele aus der Liste:
+  - **Schwerwiegend (Major)**: Kortikosteroide (Hydrocortison, Triamcinolon, Betamethason, Budesonid, Dexamethason, Prednisolon, Prednison), außerdem Deferipron, Ibritumomab tiuxetan, Iobenguan (I-131) und Tositumomab (I-131).
+  - **Mäßig (Moderate)**: Morphin (auch liposomal), Acetylsalicylsäure, Nitisinon, Opium.
+  - **Gering (Minor)**: Zinkacetat, Zinkgluconat, Zinksulfat.
 
-## Sicherheitsüberlegungen
+Zu Warnhinweisen und Gegenanzeigen bitte die Fachinformation heranziehen.
 
-Weitere Sicherheitsinformationen finden Sie in der Packungsbeilage.
+## Fazit und nächste Schritte
 
----
-
-## Schlussfolgerung und nächste Schritte
-
-**Entscheidung: Abwarten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Es gibt keine klinischen, literarischen oder mechanistischen Belege für diese Indikation — nur einen TxGNN-Ähnlichkeitsscore ohne biologische Plausibilität für ein angeborenes Entwicklungssyndrom. Die zentralen Arzneimitteldaten (Wirkmechanismus, Indikationen, Sicherheit) fehlen ebenfalls, was eine Repurposing-Bewertung zu diesem Zeitpunkt verfrüht macht.
+Die Vorhersage beruht allein auf einem Graphmodell (Evidenzstufe L5) ohne Studien, Literatur oder plausiblen Mechanismus. Zudem besteht in Deutschland keine gültige Zulassung.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- TFDA/BfArM-Packungsbeilage (Warnhinweise, Kontraindikationen) — derzeit blockierend (DG001)
-- Überprüfter ursprünglicher Wirkmechanismus (DrugBank-API-Abfrage) — derzeit hohe Priorität (DG002)
-- Bestätigte ursprüngliche zugelassene Indikation(en) für Baricitinib
-- Unabhängige Literatur- oder präklinische Belege, die JAK-Inhibition mit diesem Syndrom verbinden, vor jeder weiteren Bewertung
-
+**Für ein Weiterkommen sind erforderlich:**
+- Daten zum Wirkmechanismus (MOA) und eine biologische Begründung für den Zusammenhang mit dem Syndrom
+- Präklinische Evidenz oder Fallberichte zur vorhergesagten Indikation
+- Warnhinweise und Gegenanzeigen aus der Fachinformation (BfArM) für die Sicherheitsbewertung
+- Klärung des Zulassungsstatus in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

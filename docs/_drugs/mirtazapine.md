@@ -2,7 +2,7 @@
 layout: default
 title: Mirtazapine
 parent: Nur Modellvorhersage (L5)
-nav_order: 258
+nav_order: 303
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,77 +29,97 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Mirtazapin: Von Depression zum Ohdo-Syndrom und Varianten
+# Mirtazapin: Von Depression zu Ohdo-Syndrom und Varianten
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Mirtazapin ist ein Antidepressivum der NaSSA-Klasse (noradrenerg und spezifisch serotonerg wirksames Antidepressivum), das historisch zur Behandlung von Depressionen eingesetzt wird. Das TxGNN-Modell sagt eine mögliche Rolle beim **Ohdo-Syndrom und Varianten**, einer seltenen entwicklungsbedingten Chromatin-Remodeling-Störung, voraus – diese Vorhersage wird jedoch derzeit durch **0 klinische Studien** und **0 Publikationen** gestützt und stellt nur eine Modellvorhersage dar.
+Mirtazapin ist ein Antidepressivum, das ursprünglich zur Behandlung von Depressionen (unipolare und endogene Depression, Major Depression) sowie von Angststörungen eingesetzt wird.
+Das TxGNN-Modell sagt voraus, dass es bei **Ohdo-Syndrom und Varianten** wirksam sein könnte.
+Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage beruht ausschließlich auf dem Modell.
 
 ---
 
-## Schnellübersicht
+## Kurzüberblick
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Nicht im aktuellen Evidenzpaket angegeben. Bekannte klinische Klasse: NaSSA-Antidepressivum (Depression) – MOA- und Indikationsdaten sind eine bestätigte Lücke (DG002) |
+| Ursprüngliche Indikation | Unipolare Depression, endogene Depression, Major Depression, Angststörung (laut Wissensgraph; im deutschen Zulassungsdatensatz ist kein Indikationstext hinterlegt) |
 | Vorhergesagte neue Indikation | Ohdo-Syndrom und Varianten |
-| TxGNN-Vorhersage-Bewertung | 99.42% |
-| Evidenzebene | L5 (keine klinischen Studien oder Literatur; nur Modellvorhersage) |
-| Marktstatus in Deutschland | Nicht vermarktet |
-| Anzahl der Genehmigungen | 0 |
-| Empfohlene Entscheidung | Halten |
+| TxGNN-Vorhersagewert | 99,42 % |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
+| Anzahl der Zulassungen | 1 (0 gültig, 1 aufgehoben) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage sinnvoll?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Wirkmechanismus-Daten nicht verfügbar (DG002, hoher Schweregrad). Mirtazapin wirkt bekannterweise als NaSSA – durch Antagonisierung von α2-adrenergen Autorezeptoren/Heterorezeptoren zur Erhöhung der Noradrenalin- und Serotoninfreisetzung, zusammen mit 5-HT2/5-HT3-Antagonismus (Wirksamkeit bei Depression) und H1-Antagonismus (Sedation, Appetitanregung).
+Derzeit liegen keine detaillierten Daten zum Wirkmechanismus vor. Mirtazapin ist ein Antidepressivum, dessen Wirksamkeit bei Depression und Angststörungen bekannt ist. Ein mechanistischer Bezug zum Ohdo-Syndrom lässt sich aus den vorliegenden Daten jedoch nicht herleiten.
 
-Das Ohdo-Syndrom und seine Varianten (einschließlich des Blepharophimose-Intellektuelle-Behinderungs-Syndroms, Ohdo-Typ, Rang #2 in diesem Paket) sind seltene angeborene Störungen, die durch Mutationen in Genen wie *KAT6B* und *MED12* verursacht werden, mit einer Kernpathologie in Chromatin-Remodeling und transkriptionaler Regulation. Dies unterscheidet sich mechanistisch von der monoaminergen Pharmakologie von Mirtazapin – es gibt **keinen direkten ätiologischen Zusammenhang**. Jeder theoretische Nutzen wäre auf die symptomatische Behandlung von Schlafstörungen oder Verhaltensproblemen begrenzt, die das Syndrom begleiten können, nicht auf eine Krankheitsmodifizierung.
+Das Ohdo-Syndrom (einschließlich der KAT6B-assoziierten Varianten) ist eine seltene genetische neuroentwicklungsbedingte Erkrankung. Ein plausibler Signalweg zwischen der Pharmakologie von Mirtazapin und der Pathophysiologie dieser Erkrankung ist nicht belegt. Der hohe Vorhersagewert spiegelt vermutlich eher die Nähe im Wissensgraphen (z. B. gemeinsame Symptom- oder Phänotypknoten) wider als eine biologische Relevanz.
 
-Die drittrangigste Vorhersage, benigne paroxysmale Torticollis des Säuglingsalters, wird angenommen, Kanalopadie-bezogene Mechanismen (z. B. *CACNA1A*) statt Monoamin-Dysregulation zu beinhalten. Während Mirtazapin gelegentlich off-label in der Migräneprophylaxe über 5-HT2/3- und α2-Wege eingesetzt wird, betrifft diese Indikation eine Säuglingspopulation, für die hier keine pädiatrischen Sicherheitsdaten verfügbar sind.
-
-Insgesamt scheinen alle drei Vorhersagen in diesem Paket **Ähnlichkeiten der Krankheitsontologie innerhalb des TxGNN-Wissensgraphs** widerzuspiegeln (die beiden höchstrangigen sind Subtypen desselben Syndroms) statt einer begründeten pharmakologischen Rationale.
+Zwei weitere Vorhersagen betreffen eng verwandte oder unabhängig davon nur spekulative Erkrankungen:
+- **Blepharophimose-Intelligenzminderung-Syndrom, Ohdo-Typ** (Wert 99,11 %): überschneidet sich stark mit dem Ohdo-Eintrag oben; beide Vorhersagen sind vermutlich nicht unabhängig und gehen auf dasselbe Graphsignal zurück.
+- **Benigne paroxysmale Torticollis des Säuglingsalters** (Wert 99,11 %): eine selbstlimitierende episodische Erkrankung im Kindesalter aus dem Migräne-/Kanalopathie-Spektrum (CACNA1A). Ein Bezug zu Mirtazapin wäre spekulativ. Zudem ist die Sicherheit eines Antidepressivums bei Säuglingen nicht belegt, und die Erkrankung klingt spontan ab, sodass das Nutzen-Risiko-Verhältnis einer starken Begründung bedürfte.
 
 ---
 
-## Evidenz aus klinischen Studien
+## Klinische Studien
 
-Derzeit sind keine verwandten klinischen Studien registriert.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
 ## Literaturevidenz
 
-Derzeit ist keine verwandte Literatur verfügbar.
+Derzeit liegt keine zugehörige Literatur vor.
 
 ---
 
-## Marktinformationen für Deutschland
+## Informationen zum deutschen Markt
 
-Mirtazapin wird derzeit **nicht vermarktet** in Deutschland unter diesem Evidenzpaket (0 Genehmigungen erfasst, keine Lizenzunterlagen verfügbar).
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/V/C/004733 | Mirataz | – | – (Status: aufgehoben) |
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. (Wichtige Warnungen, Kontraindikationen und Arzneimittelwechselwirkungsdaten sind alle als Datenlücken in diesem Evidenzpaket gekennzeichnet – siehe DG001, blockierender Schweregrad.)
+**Kontraindikationen laut Wissensgraph** (aus Arzneimittel-Erkrankungs-Beziehungen des Graphen, nicht aus dem Packungsbeilagentext): Die folgenden Erkrankungen sind als Kontraindikation verzeichnet:
+- Kardiovaskulär/zerebrovaskulär: orthostatische Hypotonie, posturales orthostatisches Tachykardiesyndrom, Hypotonie, Schlaganfall, zerebrovaskuläre Erkrankung, Hirninfarkt, Myokardinfarkt, Koronarthrombose
+- Neurologisch/psychiatrisch: Multisystematrophie, Epilepsie, manische bipolare Störung, Serotoninsyndrom, medikamenteninduzierte Akathisie
+- Hepatisch/biliär/renal: Lebererkrankung, Gallenblasenerkrankung, eingeschränkte Nierenfunktion
+- Hämatologisch: Neutropenie, Agranulozytose, Hämoglobinopathie
+- Metabolisch: Hypertriglyzeridämie, Adipositas (einschließlich monogener Form)
+
+**Arzneimittelwechselwirkungen:** Insgesamt wurden 100 Wechselwirkungen erfasst; die ersten 20 liegen vor. Als **schwerwiegend (Major)** eingestuft sind:
+- Bupropion
+- Lorcaserin
+- Dolasetron
+- Palonosetron
+
+Mittelschwere (Moderate) Wechselwirkungen bestehen unter anderem mit Famotidin, Loperamid, Aprepitant, Morphin, Dexamethason, Cimetidin, Clarithromycin, Levofloxacin, Dronabinol, Nabilon und Eliglustat.
+
+Hinweis: Angaben aus der Packungsbeilage (Warnhinweise und Gegenanzeigen) liegen nicht vor; bitte die Fachinformation konsultieren.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Halten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Alle drei vorhergesagten Indikationen weisen L5-Evidenz auf (keine klinischen Studien, keine Literatur) mit einer schwachen oder fehlenden mechanistischen Verbindung zur bekannten Pharmakologie von Mirtazapin, und die beiden höchstrangigen Vorhersagen spiegeln wahrscheinlich eher Krankheitsontologie-Ähnlichkeiten wider statt wahre Arzneistoff-Indikations-Relevanz. Eine blockierende Sicherheitsdatenlücke (TFDA-Etikettwarnungen/Kontraindikationen) verhindert auch jede S1-Sicherheitsvorabprüfung.
+Die Vorhersage beruht ausschließlich auf einem Rechenmodell (Evidenzstufe L5) ohne klinische Studien, Publikationen oder belegten Wirkmechanismus. In Deutschland besteht zudem keine gültige Zulassung. Bei der dritten Vorhersage kommen die Zielgruppe (Säuglinge) und der spontane Verlauf der Erkrankung als zusätzliche Bedenken hinzu.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- TFDA-Etikett-PDF (Warnungen, Kontraindikationen) zum Schließen von DG001 (Blockierung)
-- Bestätigter Wirkmechanismus über DrugBank-API zum Schließen von DG002 (Hoch)
-- Ursprüngliche Indikation/Regulierungsgeschichte (derzeit nicht in `taiwan_regulatory.licenses` vorhanden)
-- Präklinische, Fallberichts- oder Wirkmechanismus-Literatur, die Mirtazapin speziell mit Chromatin-Remodeling-Störungen oder paroxysmalen Syndromen des Säuglingsalters verknüpft, angesichts des gegenwärtigen Mangels an stützenden Evidenzen
-
+**Für ein Weiterkommen ist Folgendes erforderlich:**
+- Daten zum Wirkmechanismus (MOA) von Mirtazapin
+- Belegbare biologische Verbindung zwischen Mirtazapin und der Pathophysiologie des Ohdo-Syndroms (z. B. KAT6B-Signalwege)
+- Präklinische Studien oder Fallberichte als erste Evidenz
+- Packungsbeilage mit Warnhinweisen und Gegenanzeigen für die Sicherheitsprüfung
+- Klärung des Zulassungsstatus in Deutschland und der Darreichungsformen
+- Sicherheitsbewertung für pädiatrische Patienten
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

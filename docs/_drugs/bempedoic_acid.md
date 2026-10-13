@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Bempedoic Acid
-parent: Nur Modellvorhersage (L5)
-nav_order: 49
-evidence_level: L5
+parent: Mittlere Evidenz (L3-L4)
+nav_order: 56
+evidence_level: L3
 indication_count: 10
 ---
 
 # Bempedoic Acid
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,93 +29,102 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Bempedoic acid: Von der LDL-Cholesterin-Senkung zur homozygoten familiären Hypercholesterinämie
+# Bempedoinsäure: Von Hypercholesterinämie zu homozygoter familiärer Hypercholesterinämie
 
 ## Zusammenfassung in einem Satz
 
-> Bempedoic acid ist ein ATP-Citrat-Lyase-Inhibitor (ACL), der zur Senkung des LDL-Cholesterins bei Patienten mit Hypercholesterinämie und erhöhtem kardiovaskulärem Risiko eingesetzt wird.
-> Bei den Top-10-Vorhersagen des TxGNN-Modells weisen die meisten (Hyperthyreose, veterinärmedizinische Infektionen, onkogene Syndrome usw.) **keine plausible mechanistische Verbindung** auf und werden als wahrscheinliches Wissensdiagramm-Rauschen annotiert.
-> Die einzige Vorhersage mit echtem biologischen Grund und realen Evidenzen ist **Homozygote familiäre Hypercholesterinämie (HoFH)**, unterstützt durch **1 Real-World-Kohortenstudie** und **17 weitere Publikationen**, obwohl **derzeit keine klinischen Studien** für diese spezifische Population registriert sind.
+Bempedoinsäure wurde ursprünglich zur Behandlung von Hypercholesterinämie und Dyslipidämien entwickelt.
+Das TxGNN-Modell sagt voraus, dass der Wirkstoff bei **homozygoter familiärer Hypercholesterinämie (HoFH)** wirksam sein könnte; diese Indikation wurde ausgewählt, weil nur sie durch Literatur gestützt ist (Rang 6 der Modellvorhersagen).
+Die Evidenzlage ist begrenzt: Es liegen **keine registrierten klinischen Studien**, aber **18 Publikationen** vor, darunter eine Real-World-Kohortenstudie, Übersichtsarbeiten und ein Expertenkonsens.
 
 ---
 
-## Schnellübersicht
+## Kurzübersicht
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Nicht in strukturierten Daten erfasst (`original_indications` leer). Basierend auf mechanistischen Evidenzen in diesem Paket wird Bempedoic acid zur LDL-C-Senkung / primären Hypercholesterinämie eingesetzt |
-| Vorhergesagte neue Indikation | Homozygote familiäre Hypercholesterinämie (HoFH) |
-| TxGNN-Vorhersage-Score | 99.48% (Rang 6040 im Krankheitsspektrum) |
-| Evidenzgrad | L3 (Real-World-Kohorte + Review-Literatur, keine RCTs) |
-| Marktstatus Deutschland | ✗ Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Fortfahren mit Schutzmaßnahmen |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Hypercholesterinämie; Dyslipidämien |
+| Vorhergesagte neue Indikation | Homozygote familiäre Hypercholesterinämie (Rang 6 von 10; die höher platzierten Vorhersagen sind ohne jede Evidenz) |
+| TxGNN-Vorhersagewert | 99,48 % |
+| Evidenzlevel | L3 |
+| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
+| Anzahl der Zulassungen | 2 (beide erloschen) |
+| Empfohlene Entscheidung | Hold (als Forschungsfrage weiterverfolgen) |
 
-**Anmerkung zur Rangliste:** Die höchstbewertete TxGNN-Vorhersage (#1, Hyperthyreose, Score 99.61%) und die meisten anderen Top-10-Vorhersagen wurden aus diesem Bericht ausgeschlossen – das Evidenzpaket selbst kennzeichnet sie als keine „plausiblen Mechanismen" aufweisend oder nicht zu nicht verwandten Arzneimitteln (z. B. Tiratricol) oder veterinärmedizinischen Krankheiten passsend. Dieser Bericht konzentriert sich auf Rang 6 (HoFH), den einzigen Kandidaten mit kohärentem Mechanismus und unterstützender Literatur.
-
----
-
-## Warum ist diese Vorhersage sinnvoll?
-
-Aktuell ist im Evidenzpaket kein strukturierter Datensatz zum Wirkmechanismus (MOA) für Bempedoic acid verfügbar (`original_moa: [Datenlücke]`). Die mit der HoFH-Vorhersage verbundene Rationale zur Arzneistoffumpositionierung bietet jedoch ausreichend mechanistische Details zur Bewertung der Plausibilität.
-
-Bempedoic acid ist ein ATP-Citrat-Lyase-Inhibitor (ACL), der upstream von HMG-CoA-Reduktase im Cholesterin-Biosynthesepfad wirkt. Es ist ein Prodrug, das selektiv in der Leber aktiviert wird (über VLACS1, ein Enzym, das nicht in Skelettmuskulatur exprimiert wird), was sein günstiges Nebenwirkungsprofil bezüglich muskulärer Probleme im Vergleich zu Statinen erklärt. Diese leberselektive Inhibition führt zu einer Upregulation der LDL-Rezeptor-Expression (LDLR), wodurch das zirkulierende LDL-Cholesterin gesenkt wird.
-
-HoFH-Patienten tragen in der Regel zusammengesetzte heterozygote oder homozygote *LDLR*-Mutationen, die die Rezeptorfunktion reduzieren – aber nicht immer vollständig aufheben. Da der Wirkmechanismus von Bempedoic acid von residueller LDLR-Aktivität abhängt, können Patienten mit Non-Null-*LDLR*-Genotypen eine teilweise pharmakologische Antwort bewahren. Dies macht Bempedoic acid mechanistisch plausibel als **Add-On-Therapie** für HoFH-Patienten, die trotz Statinen und PCSK9-Inhibitoren über den LDL-C-Zielwerten bleiben, anstatt als Monotherapie oder First-Line-Behandlung.
+Hinweis: Die Vorhersage mit dem höchsten Rang (Hyperthyreose, 99,61 %) hat weder Studien noch Literatur und keine erkennbare mechanistische Verbindung (Evidenzlevel L5). Daher wird hier die am besten belegte Vorhersage ausführlich bewertet.
 
 ---
 
-## Klinische Studienbelege
+## Warum ist diese Vorhersage plausibel?
 
-Aktuell sind keine verwandten klinischen Studien registriert.
+Zu den Daten, die für diesen Bericht zusammengestellt wurden, liegen keine detaillierten Angaben zum Wirkmechanismus vor. Nach dem bekannten Stand hemmt Bempedoinsäure die ATP-Citrat-Lyase (ACL) in der Leber. Diese wirkt oberhalb der HMG-CoA-Reduktase; die Hemmung senkt die hepatische Cholesterinsynthese und führt zu einer vermehrten Expression von LDL-Rezeptoren.
+
+Die HoFH ist eine seltene genetische Erkrankung mit extrem hohem LDL-Cholesterin, meist durch biallelische Varianten im LDL-Rezeptor-Gen. Die ursprüngliche Indikation (Hypercholesterinämie) und die HoFH teilen dasselbe Krankheitsprinzip, nämlich erhöhtes LDL-C. Es handelt sich daher eher um eine Erweiterung der bestehenden Indikation als um ein echtes Repurposing.
+
+Eine Einschränkung: Bei Patienten mit LDLR-Null-Varianten ist kaum Restaktivität des Rezeptors vorhanden, sodass der erwartbare Effekt geringer ausfallen könnte.
 
 ---
 
-## Literaturbelege
+## Evidenz aus klinischen Studien
 
-| PMID | Jahr | Typ | Zeitschrift | Wichtigste Erkenntnisse |
-|------|-----|------|-------------|----------|
-| [41274797](https://pubmed.ncbi.nlm.nih.gov/41274797/) | 2026 | Real-World-Kohorte | J Clin Lipidol | Direkte Real-World-Bewertung der Wirksamkeit und Verträglichkeit von Bempedoic acid speziell bei HoFH-Patienten |
-| [41741298](https://pubmed.ncbi.nlm.nih.gov/41741298/) | 2026 | Expertenkonsens | J Clin Lipidol | National Lipid Association-Update zur FH-Behandlung, das aktuelle LDL-C-Senkungsstrategien einschließlich Bempedoic acid widerspiegelt |
-| [35466160](https://pubmed.ncbi.nlm.nih.gov/35466160/) | 2022 | Übersichtsarbeit | J Atheroscler Thromb | Übersicht über Behandlungsfortschritte bei HoFH, Positionierung von Bempedoic acid unter Add-On-LDL-C-Senkungsoptionen |
-| [41106315](https://pubmed.ncbi.nlm.nih.gov/41106315/) | 2025 | Übersichtsarbeit | Exp Mol Pathol | Innovative Therapien für HoFH-Management, Abdeckung von LDLR-gezielten und adjuvanten Pharmakotherapien |
-| [41694628](https://pubmed.ncbi.nlm.nih.gov/41694628/) | 2026 | Fallbericht + Übersichtsarbeit | Clin Case Rep | Fall von katastrophaler HoFH-Progression nach unterbrochener Nachverfolgung; unterstreicht Notwendigkeit kontinuierlicher aggressiver LDL-C-Kontrolle |
-| [29449335](https://pubmed.ncbi.nlm.nih.gov/29449335/) | 2018 | Präklinisch | Arterioscler Thromb Vasc Biol | Bempedoic acid senkt LDL-C und mildert Atherosklerose in LDLR-defizienten (LDLR+/- und LDLR-/-) Miniaturschwein-Modellen, direkt relevant für HoFH-Pathophysiologie |
-| [37071085](https://pubmed.ncbi.nlm.nih.gov/37071085/) | 2024 | Übersichtsarbeit (Vergleichsmedikament) | Cardiol Rev | Erörtert Evinacumab zur HoFH-Behandlung, verweist auf Bempedoic acid unter adjuvanten Lipidsenkungsmitteln |
-| [33766264](https://pubmed.ncbi.nlm.nih.gov/33766264/) | 2021 | Übersichtsarbeit | J Am Coll Cardiol | JACC-Seminar zu aufstrebenden LDL-C/ApoB-Senkungstherapien, erörtert Wirkmechanismus und klinische Rolle von Bempedoic acid |
-| [35754818](https://pubmed.ncbi.nlm.nih.gov/35754818/) | 2022 | Übersichtsarbeit | Front Genet | Übersicht über Behandlungsfortschritte bei therapieresistenter Hypercholesterinämie einschließlich HoFH |
-| [34081216](https://pubmed.ncbi.nlm.nih.gov/34081216/) | 2021 | Übersichtsarbeit | Curr Cardiol Rep | Übersicht über Managementaktualisierungen über Statine/PCSK9i hinaus für familiäre und therapieresistente Hypercholesterinämie |
+Derzeit sind keine zugehörigen klinischen Studien registriert.
+
+---
+
+## Evidenz aus der Literatur
+
+Die folgende Auswahl ist nach Studientyp und Relevanz priorisiert (Kohorte > Konsens > Übersichtsarbeiten). Die Studientypen stammen aus der Klassifikation der Datenbasis; ein RCT liegt nicht vor.
+
+| PMID | Jahr | Typ | Journal | Kernaussagen |
+|------|-----|------|------|---------|
+| [41274797](https://pubmed.ncbi.nlm.nih.gov/41274797/) | 2026 | Kohorte (Real-World) | Journal of Clinical Lipidology | Bewertung von Wirksamkeit und Verträglichkeit von Bempedoinsäure bei HoFH-Patienten |
+| [41741298](https://pubmed.ncbi.nlm.nih.gov/41741298/) | 2026 | Expertenkonsens | Journal of Clinical Lipidology | Aktualisierte Leitlinie der National Lipid Association zur familiären Hypercholesterinämie |
+| [33766264](https://pubmed.ncbi.nlm.nih.gov/33766264/) | 2021 | Review | J Am Coll Cardiol | Neue LDL-C-senkende Therapien, u. a. Inclisiran und Bempedoinsäure |
+| [42761917](https://pubmed.ncbi.nlm.nih.gov/42761917/) | 2026 | Review | Methodist DeBakey Cardiovasc J | Überblick über familiäre Hypercholesterinämie, Genetik und Prävalenz (ca. 1:311 heterozygot) |
+| [38576462](https://pubmed.ncbi.nlm.nih.gov/38576462/) | 2024 | Review | Am J Prev Cardiol | Bedeutung einer langfristigen LDL-C-Senkung zur Prävention atherosklerotischer Erkrankungen |
+| [35466160](https://pubmed.ncbi.nlm.nih.gov/35466160/) | 2022 | Review | J Atheroscler Thromb | Fortschritte in der Behandlung der HoFH |
+| [41106315](https://pubmed.ncbi.nlm.nih.gov/41106315/) | 2025 | Review | Exp Mol Pathol | Innovative Therapien zur Behandlung der HoFH |
+| [37071085](https://pubmed.ncbi.nlm.nih.gov/37071085/) | 2024 | Review | Cardiology in Review | Evinacumab bei HoFH; Bempedoinsäure als weitere Option erwähnt |
+| [37979722](https://pubmed.ncbi.nlm.nih.gov/37979722/) | 2024 | Review | Indian Heart Journal | Traditionelle und neue Nicht-Statin-Lipidsenker |
+| [34081216](https://pubmed.ncbi.nlm.nih.gov/34081216/) | 2021 | Review | Curr Cardiol Rep | Neuerungen bei familiären und refraktären Hypercholesterinämien jenseits von Statinen und PCSK9-Hemmern |
 
 ---
 
 ## Marktinformationen Deutschland
 
-Bempedoic acid ist aktuell nicht in Deutschland gemäß diesem Evidenzpaket vermarktet (`market_status: Not marketed`, `total_licenses: 0`); keine Zulassungsdatensätze sind verfügbar.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation | Status |
+|---------|------|------|-----------|------|
+| EMEA/H/C/004958 | Nilemdo | – | Hypercholesterinämie; Dyslipidämien | Erloschen |
+| EMEA/H/C/004959 | Nustendi | – | Hypercholesterinämie; Dyslipidämien | Erloschen |
+
+Beide Zulassungen (Inhaber: Daiichi Sankyo Europe GmbH) sind als erloschen geführt; derzeit ist keine gültige Zulassung verzeichnet.
 
 ---
 
 ## Sicherheitsaspekte
 
-Strukturierte Sicherheitsdaten für dieses Arzneimittel sind aktuell eine **blockierende Datenlücke** (`DG001`, Schweregrad: Blocking) – TFDA/behördliche Packungsbeilage-Warnungen und Kontraindikationen wurden noch nicht abgerufen, und DDI-Screening ergab keine Ergebnisse (`query_status: not_found`). Diese Lücke muss vor dem Fortschreiten des Kandidaten über die anfängliche Sicherheitsüberprüfung (S1) geschlossen werden.
+- **Arzneimittelinteraktionen:** Insgesamt wurden 23 Wechselwirkungen erfasst, von denen 20 im Detail vorliegen.
+  - **Schwerwiegend (Major):** Kortikosteroide (Hydrocortison, Triamcinolon, Dexamethason, Betamethason, Budesonid, Prednisolon, Prednison, Methylprednisolon, Deflazacort, Fludrocortison), außerdem Levofloxacin und Simvastatin.
+  - **Moderat (Moderate):** Empagliflozin, Glyburid, Repaglinid, Rifaximin, Rosuvastatin, Selexipag, Fexofenacin (Fexofenadin), Revefenacin.
+- **Hinweis zu Schwangerschaft:** Bempedoinsäure wird in der Schwangerschaft nicht empfohlen.
 
-> Bitte konsultieren Sie die Packungsbeilage für Sicherheitsinformationen, sobald verfügbar.
+Warnhinweise und Gegenanzeigen aus der Fachinformation liegen nicht vor; bitte die Fachinformation heranziehen.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Fortfahren mit Schutzmaßnahmen** (speziell für die HoFH-Indikation; alle anderen TxGNN-Top-10-Vorhersagen für dieses Arzneimittel sind **Halt** aufgrund fehlender mechanistischer Rationale und fehlender unterstützender Evidenzen)
+**Entscheidung: Hold (als Forschungsfrage weiterverfolgen)**
 
 **Begründung:**
-Der leberselektive, LDLR-abhängige Wirkmechanismus von Bempedoic acid ist biologisch mit HoFH als Zusatztherapie kompatibel, und dies wird durch eine Real-World-Kohortenstudie plus konsistente Review-Level-Literatur unterstützt – aber keine dedizierte randomisierte, kontrollierte Studie existiert in dieser Population, was die Evidenz auf L3 begrenzt.
+Für die HoFH existieren nur Beobachtungs- und Übersichtsdaten (Evidenzlevel L3) und keine registrierten Studien. Zudem besteht derzeit keine gültige Zulassung in Deutschland. Die übrigen neun Vorhersagen (u. a. Schilddrüsen-, Virus- und Veterinärerkrankungen) haben keine Evidenz und keine plausible Mechanismusverbindung und gelten als Artefakte des Wissensgraphen.
 
-**Zum Fortfahren ist folgendes erforderlich:**
-- Blockierende Datenlücke DG001 lösen: TFDA/behördliche Packungsbeilage-Warnungen und Kontraindikationen erhalten, bevor eine Sicherheitsüberprüfung (S1) durchgeführt wird
-- Arzneimittel-Wechselwirkungsdaten (DDI) erhalten (aktuelle Abfrage ergab keine Ergebnisse)
-- Strukturierte Wirkmechanismus-Daten über DrugBank-API bestätigen (DG002)
-- Prospektive oder kontrollierte Studiendaten in HoFH-Populationen suchen (aktuell existieren nur Real-World/Beobachtungsdaten)
-- Da das Arzneimittel aktuell nicht in Deutschland vermarktet wird, Klarheit bezüglich regulatorischer Wege/Importstatus erhalten, bevor eine lokale Entwicklung angestrebt wird
-
+**Für ein Weiterkommen sind erforderlich:**
+- Fachinformation (Warnhinweise, Gegenanzeigen) zur Sicherheitsprüfung
+- Detaillierte Daten zum Wirkmechanismus
+- Auswertung der Real-World-Studie (PMID 41274797) zu Effektgröße und Verträglichkeit, insbesondere nach LDLR-Variantentyp (Null- vs. defekte Varianten)
+- Klärung des Zulassungsstatus und der Verfügbarkeit in Deutschland
+- Kontrollierte klinische Studien bei HoFH
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

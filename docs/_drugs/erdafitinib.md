@@ -2,7 +2,7 @@
 layout: default
 title: Erdafitinib
 parent: Nur Modellvorhersage (L5)
-nav_order: 153
+nav_order: 176
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,77 +29,117 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Erdafitinib: Von unspezifischer ursprünglicher Indikation zur Pulmonalen Hypertonie
+# Erdafitinib: Von urothelialen Neoplasien zu pulmonaler Hypertonie
 
 ## Zusammenfassung in einem Satz
 
-> Erdafitinib ist ein Pan-FGFR-(FGFR1-4-)Kinase-Inhibitor; seine ursprüngliche zugelassene Indikation ist jedoch nicht im aktuellen Evidence Pack erfasst (Datenlücke).
-> Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam gegen **Pulmonale Hypertonie** ist,
-> aber diese Vorhersage wird derzeit durch **0 klinische Studien** und **0 Publikationen** gestützt – es handelt sich um eine reine Modell-Ebenen-Hypothese.
+Erdafitinib ist ein FGFR-Kinase-Inhibitor (Pan-FGFR), der ursprünglich zur Behandlung urologischer Neoplasien (Urothelkarzinom) zugelassen wurde.
+Das TxGNN-Modell sagt voraus, dass er bei **pulmonaler Hypertonie** wirksam sein könnte.
+Dafür liegen jedoch derzeit **keine klinischen Studien** und **keine Publikationen** vor – die Vorhersage beruht allein auf dem Modell.
 
 ---
 
 ## Schnellübersicht
 
 | Punkt | Inhalt |
-|---|---|
-| Ursprüngliche Indikation | Nicht verfügbar – keine ursprünglichen Indikationen im Evidence Pack erfasst (siehe DG001/DG002) |
+|------|------|
+| Ursprüngliche Indikation | Urologische Neoplasien |
 | Vorhergesagte neue Indikation | Pulmonale Hypertonie |
-| TxGNN-Vorhersage-Score | 99.38% |
-| Evidence Level | L5 (reine Modellvorhersage, keine Studien oder Literatur) |
-| Marktstatus in Deutschland | Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Zurückstellung |
+| TxGNN-Vorhersagewert | 99,38 % |
+| Evidenzniveau | L5 |
+| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung (nicht vermarktet) |
+| Anzahl der Zulassungen | 1 (erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage vernünftig?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind strukturierte Wirkmechanismus-Daten für Erdafitinib nicht verfügbar (`original_moa`: Datenlücke), und es sind keine ursprünglichen Indikationen im Evidence Pack erfasst. Basierend auf der mechanistischen Rationale, die der TxGNN-Vorhersage beiliegt, wird Erdafitinib als **Pan-FGFR-(FGFR1-4-)Inhibitor** verstanden. FGF2/FGFR1-Signalisierung spielt eine bekannte Rolle bei der Proliferation glatter Muskelzellen der Lungengefäße und bei der vaskulären Remodellierung, was die biologische Grundlage bildet, auf die sich das Modell bei der Verknüpfung von Erdafitinib mit Pulmonaler Hypertonie stützt.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben aus der Arzneimitteldatenbank vor. Bekannt ist, dass Erdafitinib ein Pan-FGFR-Kinase-Inhibitor ist, dessen Wirksamkeit bei urothelialen Tumoren mit FGFR-Veränderungen belegt ist.
 
-Diese Verknüpfung wird jedoch durch die Quellrationale selbst ausdrücklich als aus **ausschließlich mechanistischen Überlegungen auf in-vitro- und Tiermodell-Ebene** abgeleitet gekennzeichnet – es gibt keine klinische Studie, keine Beobachtungsstudie und keine veröffentlichten Fallberichte, die Erdafitinib mit Pulmonaler Hypertonie beim Menschen verbinden. Der hohe TxGNN-Score spiegelt eine starke Embedding-Space-Ähnlichkeit im Wissensgraph des Modells wider, nicht validierte pharmakologische Evidenz.
+Die FGF/FGFR-Signalwege werden mit dem Umbau der Lungengefäße und der Proliferation glatter Muskelzellen der Pulmonalarterien in Verbindung gebracht. Daraus ergibt sich ein plausibler, aber bislang unbewiesener mechanistischer Ansatz. Zwischen einer Krebserkrankung und einer Gefäßerkrankung besteht ansonsten kaum eine direkte Verwandtschaft; die Verbindung läuft ausschließlich über den gemeinsamen Signalweg.
 
-Ohne bestätigte Daten zu Erdafitinib's ursprünglichen zugelassenen Indikationen ist es zudem nicht möglich, die mechanistische Kontinuität zwischen der ursprünglichen und der vorhergesagten Verwendung zu bewerten – dies bleibt eine echte Datenlücke, anstatt einer gestützten Hypothese.
+Zur Vorsicht mahnt, dass Kinase-Inhibitoren Flüssigkeitsretention sowie kardiovaskuläre, okuläre und metabolische Toxizitäten verursachen können. Die FGFR-Hemmung könnte in diesem Anwendungsgebiet zusätzliche Sicherheitsbedenken mit sich bringen.
 
----
+**Weitere Vorhersagen des Modells (alle Evidenzniveau L5, Entscheidung Hold):**
 
-## Klinische Studienevidenz
-
-Derzeit sind keine zugehörigen klinischen Studien registriert.
-
----
-
-## Literaturevidenz
-
-Derzeit ist keine zugehörige Literatur verfügbar.
+| Rang | Vorhergesagte Erkrankung | Score | Einschätzung |
+|---|---|---|---|
+| 2 | Kyphoskoliotische Herzkrankheit | 99,27 % | Kein erkennbarer mechanistischer Zusammenhang; hoher Score vermutlich durch Netzwerknähe zur pulmonalen Hypertonie |
+| 3 | Amenorrhö | 99,26 % | Kein plausibler Ansatz; FGFR-Hemmung würde FGFR1-abhängige Störungen der Reproduktionsachse eher verschlechtern |
+| 4 | Rheumatoide Arthritis | 99,25 % | Plausibel über Aktivierung synovialer Fibroblasten und Angiogenese, aber unbewiesen |
+| 5 | Amyotrophe Lateralsklerose | 99,06 % | Kein etablierter Ansatz; mögliche Beeinträchtigung der trophischen Unterstützung |
+| 6 | Brachydaktylie-Syndaktylie-Syndrom | 99,03 % | Angeborene Fehlbildung; postnatale Therapie kaum sinnvoll, embryofetales Toxizitätsrisiko |
 
 ---
 
-## Marktinformationen für Deutschland
+## Evidenz aus klinischen Studien
 
-Erdafitinib hält derzeit **keine Marktgenehmigung** in dieser Rechtsordnung (`market_status`: Nicht vermarktet, `total_licenses`: 0). Es sind keine Produkt-/Lizenzeinträge verfügbar, die zusammengefasst werden könnten.
+Derzeit sind keine einschlägigen klinischen Studien registriert.
+
+---
+
+## Evidenz aus der Literatur
+
+Für die Hauptvorhersage (pulmonale Hypertonie) liegt derzeit keine einschlägige Literatur vor.
+
+Für die vierte Vorhersage (rheumatoide Arthritis) wurde lediglich eine indirekte Veröffentlichung gefunden:
+
+| PMID | Jahr | Typ | Zeitschrift | Kernaussagen |
+|------|-----|------|------|---------|
+| [31862477](https://pubmed.ncbi.nlm.nih.gov/31862477/) | 2020 | Übersichtsarbeit | Pharmacological Research | Aktualisierung zu den von der FDA zugelassenen niedermolekularen Proteinkinase-Inhibitoren (u. a. Erdafitinib); keine erdafitinibspezifischen Daten zur rheumatoiden Arthritis |
+
+---
+
+## Marktinformationen Deutschland
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/006050 | Balversa (Janssen-Cilag International N.V.) | – | Urologische Neoplasien (Status: erloschen) |
+
+---
+
+## Zytotoxizität
+
+| Punkt | Inhalt |
+|------|------|
+| Zytotoxizitätsklassifikation | Zielgerichtete Therapie (Kinase-Inhibitor, FGFR) |
+| Myelosuppressionsrisiko | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Emetogenitätsklassifikation | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Überwachungsparameter | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Schutzmaßnahmen beim Umgang | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
 
 ---
 
 ## Sicherheitsaspekte
 
-Keine strukturierten Sicherheitsdaten (wichtige Warnungen, Kontraindikationen oder Arzneimittelwechselwirkungen) sind derzeit für Erdafitinib in diesem Evidence Pack verfügbar, und die entsprechenden lokalen Verschreibungsinformationen konnten nicht beschafft werden (DG001, blockierendem Schweregrad). Da das Arzneimittel noch nicht in dieser Rechtsordnung vermarktet wird, sollte die Sicherheitsbewertung auf international veröffentlichte Verschreibungsinformationen (z. B. FDA-Etikett) gestützt werden, bis die Bestätigung lokaler Regulierungsdaten erfolgt ist.
+- **Arzneimittelwechselwirkungen**: Es wurden 100 Wechselwirkungen erfasst (Auszug der zusammengestellten Daten). Als **schwerwiegend (Major)** eingestuft sind u. a.:
+  - Colecalciferol, Calcifediol, Calcitriol
+  - Dexamethason
+  - Clarithromycin
+  - Calciumphosphat, Calciumacetat
+  - Magnesiumoxid, -sulfat und -chlorid
+
+  Als **moderat** eingestuft sind u. a. Metformin, Loperamid, Saxagliptin, Linagliptin, Empagliflozin, Eliglustat, Naldemedin, Naloxegol, Prucaloprid und Rifaximin.
+- **Allgemeine Hinweise zur Substanzklasse**: Kinase-Inhibitoren können Flüssigkeitsretention sowie kardiovaskuläre und okuläre Toxizität verursachen. FGFR-Inhibitoren tragen ein embryofetales Toxizitätsrisiko.
+
+Angaben zu Warnhinweisen und Gegenanzeigen aus der Fachinformation lagen nicht vor; bitte die Fachinformation konsultieren.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Zurückstellung**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die vorhergesagte Indikation (Pulmonale Hypertonie) wird ausschließlich durch theoretische mechanistische Überlegungen gestützt, mit null klinischen Studien und null Literatur – dies ist eine L5, S0-stufige Vorhersage. In Kombination mit einer Lücke mit blockierendem Schweregrad bei lokalen Sicherheits-/Etiketten-Daten (DG001) und einer Lücke mit hohem Schweregrad bei MOA-Daten (DG002) kann der Kandidat nicht über das anfängliche Screening hinausgehen.
+Die Vorhersage zur pulmonalen Hypertonie beruht ausschließlich auf dem TxGNN-Modell (Evidenzniveau L5) ohne klinische Studien oder Literatur. Zudem ist die deutsche Zulassung erloschen, und die Sicherheitsdaten sind unvollständig.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- TFDA/BfArM-Etikettendaten – Packungsbeilage-Warnungen, Kontraindikationen und Wechselwirkungsprofil (behebt DG001)
-- Strukturierte MOA- und ursprüngliche Indikations-Referenzdaten (behebt DG002)
-- Präklinische (Tiermodell-) oder Beobachtungsevidenz, die Erdafitinib speziell mit der Remodellierung der Lungengefäße/Pulmonaler Hypertonie verknüpft
-- DrugBank-Kategorie-/Klassifizierungsdaten zur Bestimmung des antineoplastischen/Zytotoxizitäts-Risikoprofils, das derzeit aus verfügbaren Daten nicht bestimmbar ist
-
+**Für ein Fortschreiten sind folgende Schritte erforderlich:**
+- Beschaffung und Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) für die Sicherheitsprüfung
+- Ergänzung der detaillierten Wirkmechanismusdaten (MOA)
+- Präklinische Evidenz zur FGFR-Hemmung im Modell der pulmonalen Hypertonie
+- Bewertung des Sicherheitsprofils (Flüssigkeitsretention, kardiovaskuläre und okuläre Toxizität) im Kontext der pulmonalen Hypertonie
+- Klärung des Zulassungs- und Verfügbarkeitsstatus in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

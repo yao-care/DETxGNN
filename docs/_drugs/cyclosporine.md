@@ -1,0 +1,115 @@
+---
+layout: default
+title: Cyclosporine
+parent: Nur Modellvorhersage (L5)
+nav_order: 125
+evidence_level: L5
+indication_count: 7
+---
+
+# Cyclosporine
+{: .fs-9 }
+
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **7** 
+{: .fs-6 .fw-300 }
+
+---
+
+## Inhaltsverzeichnis
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+<div id="pharmacist">
+
+## Pharmazeutischer Bewertungsbericht
+
+</div>
+
+# Ciclosporin: Von Keratokonjunktivitis/Hornhauterkrankungen zu chronischer Granulomatose (autosomal-rezessiv)
+
+## Zusammenfassung
+
+Ciclosporin (Cyclosporine) ist ein Calcineurin-Inhibitor, der in Deutschland bzw. der EU in Augentropfen-Präparaten bei Bindehautentzündung/Keratitis, Hornhauterkrankungen und Keratoconjunctivitis sicca zugelassen war. Das TxGNN-Modell sagt als Top-Treffer eine Wirksamkeit bei **chronischer Granulomatose (autosomal-rezessiv)** voraus. Dafür liegen **keine klinischen Studien** und nur **1 Publikation** vor, die zudem keine Wirkung von Ciclosporin belegt.
+
+---
+
+## Schnellübersicht
+
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Bindehautentzündung; Keratitis (weitere: Hornhauterkrankungen, Keratoconjunctivitis sicca) |
+| Vorhergesagte neue Indikation | Chronische Granulomatose, autosomal-rezessiv |
+| TxGNN-Vorhersagewert | 99,68 % |
+| Evidenzstufe | L4 (laut Datenlage; faktisch kaum Evidenz, praktisch nahe L5) |
+| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
+| Anzahl Zulassungen | 3 (alle erloschen) |
+| Empfohlene Entscheidung | Hold |
+
+---
+
+## Warum ist diese Vorhersage plausibel (oder nicht)?
+
+Für den Wirkmechanismus liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Ciclosporin ein Calcineurin-Inhibitor ist, der die T-Zell-Aktivierung hemmt. Das erklärt den Einsatz bei entzündlichen Augenerkrankungen.
+
+Bei der chronischen Granulomatose (CGD) liegt der Grunddefekt in der NADPH-Oxidase der Phagozyten; sekundär kommt es zu Hyperinflammation und Granulombildung. Eine T-Zell-Hemmung korrigiert diesen Defekt nicht. Die einzige gefundene Arbeit betrifft Stammzelltransplantationen, bei denen Ciclosporin höchstens Teil der GvHD-Prophylaxe wäre. Das ist kein Beleg für einen therapeutischen Effekt bei CGD. Der hohe Modellwert wird durch keinen klaren Mechanismus gestützt.
+
+---
+
+## Klinische Studien
+
+Derzeit sind keine zugehörigen klinischen Studien registriert.
+
+---
+
+## Literaturevidenz
+
+| PMID | Jahr | Typ | Journal | Kernaussage |
+|------|-----|------|------|---------|
+| [22078471](https://pubmed.ncbi.nlm.nih.gov/22078471/) | 2012 | Kohortenstudie | J Allergy Clin Immunol | Überleben nach Stammzelltransplantation (Geschwister-/Fremdspender) bei CGD; kein Bezug zu einer Ciclosporin-Wirkung auf die Erkrankung selbst |
+
+---
+
+## Marktinformationen Deutschland
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation | Status |
+|---------|------|------|-----------|------|
+| EMEA/H/C/004411 | Verkazia | – | Bindehautentzündung; Keratitis | erloschen |
+| EMEA/H/C/002066 | Ikervis | – | Hornhauterkrankungen | erloschen |
+| EMEA/H/C/006250 | Vevizye | – | Keratoconjunctivitis sicca | erloschen |
+
+---
+
+## Sicherheitsaspekte
+
+Die Packungsbeilage mit Warnhinweisen und Gegenanzeigen lag für diesen Bericht nicht vor; bitte die Fachinformation konsultieren.
+
+- **Mögliche Kontraindikationen laut Wissensgraph (PrimeKG, kein Beipackzettel-Text):** Bluthochdruck, Epilepsie, Nierenerkrankung, Lebererkrankung, Gallenblasenerkrankung, Infektionskrankheiten (einschließlich Augeninfektionen), Hyperurikämie, Hypertriglyceridämie, Hyperbilirubinämie (einschließlich Gilbert-Syndrom), thrombozytopenische Purpura, Pseudotumor cerebri/intrakranielle Hypertension, Krebserkrankungen und Lymphome (einschließlich primärer ZNS-Lymphome), Hirnerkrankungen.
+- **Wechselwirkungen/Pharmakologie (7 Einträge):** Interaktion mit den Transportern bzw. Zielstrukturen FPR1, ABCG2, SLC10A1, OATP1B1, OATP1B3 sowie mit Peptidylprolyl-Isomerase A und D (Cyclophilin A/D). Eine Bewertung des Schweregrads liegt nicht vor.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Hold**
+
+**Begründung:**
+Die Vorhersage beruht praktisch nur auf dem Modell. Es gibt keine klinischen Studien, die einzige Publikation betrifft Stammzelltransplantation und nicht Ciclosporin, und ein plausibler Mechanismus fehlt. Hinzu kommt, dass in Deutschland aktuell keine gültige Zulassung besteht.
+
+**Für ein Weiterverfolgen wären nötig:**
+- Daten zum Wirkmechanismus (MOA) und eine mechanistische Begründung für CGD
+- Prüfung der Fachinformation (Warnhinweise, Gegenanzeigen)
+- Gezielte Literaturrecherche zu Ciclosporin bei CGD-assoziierter Hyperinflammation
+- Klärung der Zulassungs- und Darreichungsform (aktuell nur Augentropfen, systemische Anwendung wäre ein anderes Sicherheitsprofil)
+
+**Hinweis zu weiteren Vorhersagen:** Bei der zweitplatzierten Vorhersage, **Hirnaneurysma** (Evidenz L3, 99,50 %), gibt es kleine frühe Studien aus den 1990er-Jahren zu Vasospasmus nach Subarachnoidalblutung (PMID 9007860, 1763680). Eine Arbeit von 2017 (PMID 28437485) spricht jedoch gegen eine T-Zell-Beteiligung an der Aneurysmabildung. Dies bleibt eine Forschungsfrage. Die übrigen Vorhersagen (Rang 3–7) beruhen nur auf dem Modell und haben keine Evidenz.
+## Haftungsausschluss
+
+Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
+Vor jeder klinischen Anwendung ist eine klinische Validierung erforderlich.
+
+---
+

@@ -2,7 +2,7 @@
 layout: default
 title: Bimekizumab
 parent: Nur Modellvorhersage (L5)
-nav_order: 56
+nav_order: 65
 evidence_level: L5
 indication_count: 0
 ---

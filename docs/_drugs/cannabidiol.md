@@ -2,7 +2,7 @@
 layout: default
 title: Cannabidiol
 parent: Nur Modellvorhersage (L5)
-nav_order: 85
+nav_order: 96
 evidence_level: L5
 indication_count: 0
 ---

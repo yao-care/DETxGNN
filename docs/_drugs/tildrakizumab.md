@@ -2,7 +2,7 @@
 layout: default
 title: Tildrakizumab
 parent: Nur Modellvorhersage (L5)
-nav_order: 397
+nav_order: 464
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,91 +29,94 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-# Tildrakizumab: Von unbestätigter ursprünglicher Indikation zu schwerer nicht-proliferativer diabetischer Retinopathie
+# Tildrakizumab: Von Psoriasis zu schwerer nichtproliferativer diabetischer Retinopathie
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Die ursprüngliche Indikation für Tildrakizumab konnte anhand des aktuellen Evidenzpakets nicht bestätigt werden — das Arzneimittel ist in Deutschland noch nicht auf dem Markt und es gibt keine Zulassungsunterlagen.
-> Das TxGNN-Modell prognostiziert möglicherweise Wirksamkeit bei **schwerer nicht-proliferativer diabetischer Retinopathie**,
-> aber derzeit gibt es **0 klinische Studien** und **0 Veröffentlichungen**, die diese Richtung unterstützen — die Vorhersage basiert rein auf Knowledge-Graph-Inferenz.
-
----
-
-## Kurzüberblick
-
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Nicht verfügbar (keine Zulassungsunterlagen; das Feld `original_indications` ist leer) |
-| Vorhergesagte neue Indikation | Schwere nicht-proliferative diabetische Retinopathie |
-| TxGNN-Vorhersage-Score | 99.63% |
-| Evidenzgrad | L5 |
-| Marktstatus in Deutschland | Nicht auf dem Markt (Nicht auf dem Markt) |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Abwarten |
+Tildrakizumab ist ein monoklonaler Antikörper, der ursprünglich zur Behandlung der Psoriasis zugelassen wurde.
+Das TxGNN-Modell sagt voraus, dass er bei **schwerer nichtproliferativer diabetischer Retinopathie** wirksam sein könnte.
+Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage beruht allein auf dem Modell.
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Kurzübersicht
 
-Derzeit sind detaillierte Daten zum Wirkmechanismus nicht verfügbar (`original_moa` ist in diesem Evidenzpaket als Datenlücke gekennzeichnet). Basierend auf Informationen, die in der Umwidmungsrationale eingebettet sind, wird Tildrakizumab als **monoklonaler Antikörper gegen IL-23p19** identifiziert. Diese Mechanismus-Klasse ist in der Dermatologie gut etabliert (Hemmung des IL-23/Th17-Signalwegs), obwohl die bestätigte ursprüngliche Indikation selbst nicht in diesem Datenpaket dokumentiert ist.
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Psoriasis |
+| Vorhergesagte neue Indikation | Schwere nichtproliferative diabetische Retinopathie |
+| TxGNN-Vorhersagewert | 99,63 % |
+| Evidenzniveau | L5 |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
+| Anzahl der Zulassungen | 1 |
+| Empfohlene Entscheidung | Hold |
 
-Die theoretische Verbindung zur diabetischen Retinopathie beruht auf der Hypothese, dass die IL-23/Th17-Achse zu chronischer Netzhautentzündung und pathologischer Neovaskularisierung beiträgt, daher könnte die IL-23-Blockade theoretisch entzündungsbedingte Netzhautschäden reduzieren. Dies ist jedoch nur eine **mechanistische Hypothese** — es gibt keine Tier- oder Humanstudien in der aktuellen Datenbasis, die einen Zusammenhang zwischen IL-23-Hemmung und Ergebnissen bei diabetischer Augenerkrankung belegen.
+---
 
-Insgesamt spiegelt der hohe TxGNN-Score die strukturelle Ähnlichkeit innerhalb des Knowledge Graph wider, nicht validierte biologische oder klinische Evidenz. Dieser Kandidat sollte als frühe Hypothese behandelt werden, die vor jeder klinischen Berücksichtigung erhebliche zusätzliche Daten benötigt.
+## Warum ist diese Vorhersage plausibel?
 
-### Andere vorhergesagte Indikationen (noch nicht priorisiert)
+Zu Tildrakizumab liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben zum Wirkmechanismus vor. Bekannt ist, dass es sich um einen Antikörper gegen die p19-Untereinheit von Interleukin-23 (IL-23) handelt. Dadurch wird die IL-23/Th17-Achse blockiert, die bei der Psoriasis eine zentrale Rolle spielt.
 
-Das gleiche Evidenzpaket hat auch drei weitere Kandidaten gekennzeichnet, alle auf der gleichen Evidenzstufe:
+Mechanistisch wird vermutet, dass chronische, niedriggradige Entzündung und IL-17-vermittelte Signalwege zur Schädigung der Netzhautgefäße bei diabetischer Retinopathie beitragen. Dieser Zusammenhang ist **hypothetisch**. Der hohe TxGNN-Wert ist eine rein rechnerische Vorhersage.
 
-| Rang | Vorhergesagte Indikation | TxGNN-Score | Evidenzgrad | Empfehlung |
-|------|--------------------------|-------------|-------------|-----------|
-| 2 | Diabetische Retinopathie | 99.53% | L5 | Abwarten |
-| 3 | Diabetische Katarakt | 99.21% | L5 | Abwarten |
-| 4 | Arzneimittelinduzierte Osteoporose | 99.20% | L5 | Abwarten |
+Wichtige Einschränkungen: Für einen großen systemischen Antikörper ist weder eine okuläre Wirkstoffabgabe noch ein Wirksamkeitskonzept etabliert. Zudem sind Anti-VEGF-Therapien der Behandlungsstandard.
 
-Unter diesen hat arzneimittelinduzierte Osteoporose die relativ stärkste mechanistische Plausibilität (die IL-23/IL-17/Th17-Signalisierung reguliert bekanntermaßen die Osteoklasten-Aktivierung über RANKL), während diabetische Katarakt die schwächste mechanistische Verbindung hat, da ihre Pathologie primär durch hyperglykämie-induzierte Linsenprotein-Glykation angetrieben wird, nicht durch Entzündung. Alle vier Kandidaten haben derzeit null unterstützende klinische Studien oder Literatur.
+Weitere vom Modell vorhergesagte Indikationen (jeweils ebenfalls nur Evidenzniveau L5, Empfehlung Hold):
+
+| Vorhergesagte Indikation | TxGNN-Wert | Einschätzung |
+|------|------|------|
+| Diabetische Retinopathie | 99,53 % | Gleiche spekulative Begründung wie oben |
+| Diabetische Katarakt | 99,21 % | Kein klarer mechanistischer Zusammenhang; Katarakt wird v. a. durch Polyolweg, osmotischen und oxidativen Stress verursacht |
+| Medikamenteninduzierte Osteoporose | 99,20 % | Biologisch plausibel (IL-23/IL-17 beeinflussen den Knochenumbau über RANKL), Wirkrichtung jedoch unklar |
 
 ---
 
 ## Evidenz aus klinischen Studien
 
-Derzeit sind keine damit verbundenen klinischen Studien registriert.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Literaturische Evidenz
+## Evidenz aus der Literatur
 
-Derzeit ist keine damit verbundene Literatur verfügbar.
+Derzeit liegt keine zugehörige Literatur vor.
 
 ---
 
-## Marktinformationen für Deutschland
+## Informationen zum deutschen Markt
 
-Tildrakizumab ist derzeit nicht in Deutschland auf dem Markt, und es sind keine Zulassungsunterlagen in diesem Evidenzpaket verfügbar (`total_licenses: 0`).
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/004514 | Ilumetri (Almirall, S.A.) | – | Psoriasis |
+
+Die einzige Zulassung ist als erloschen/aufgehoben geführt, es besteht daher derzeit keine gültige Zulassung.
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+- **Arzneimittelwechselwirkungen**: Insgesamt wurden 78 Wechselwirkungen erfasst. Wichtige Beispiele:
+  - **Schwerwiegend (Major)**: Adalimumab, Baricitinib, Certolizumab pegol, Cladribin (jeweils vor allem additive Immunsuppression)
+  - **Moderat**: u. a. Roflumilast, Tacrolimus, Azathioprin, Ciclosporin, Anakinra, Canakinumab, Alemtuzumab, Denosumab sowie mehrere Impfstoffe (u. a. Tetanus-Toxoid, Milzbrand, Cholera-Lebendimpfstoff)
+  - **Gering (Minor)**: Zinksalze (Sulfat, Acetat, Gluconat, Chlorid)
 
-*(Hinweis: Wichtige Warnhinweise, Kontraindikationen und Arzneimittelwechselwirkungsdaten sind alle als Datenlücken in diesem Evidenzpaket gekennzeichnet. Besonders zu beachten ist, dass der meta-Abschnitt „TFDA-Etikett-Warnungen/Kontraindikationen" als eine **blockierende** Datenlücke kennzeichnet, was bedeutet, dass dieser Kandidat derzeit nicht in die Phase S1-Sicherheitsbewertung eintreten kann.)*
+Zu Warnhinweisen und Gegenanzeigen bitte die Fachinformation heranziehen.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Abwarten**
+**Entscheidung: Hold**
 
-**Rationale:**
-Alle vier vorhergesagten Indikationen werden nur durch TxGNN-Modell-Scores (L5, S0-Phase) mit null klinischen Studien oder literarischer Evidenz gestützt. Darüber hinaus verhindert derzeit eine blockierende Datenlücke (fehlende TFDA-Etikett-Warnungen/Kontraindikationen), dass dieser Kandidat zu einer Sicherheitsbewertungsphase übergeht.
+**Begründung:**
+Die Vorhersage stützt sich ausschließlich auf das Modell (L5), ohne klinische Studien oder Publikationen. Der mechanistische Zusammenhang ist spekulativ, ein okulärer Wirkansatz fehlt, und mit Anti-VEGF-Therapien existiert ein etablierter Standard. Zudem ist die deutsche Zulassung erloschen.
 
-**Um fortzufahren, ist folgendes erforderlich:**
-- Beheben Sie DG001 (Blockierung): Erhalten Sie TFDA/offizielle Etikett-Warnungen und Kontraindikationen
-- Beheben Sie DG002 (Hoch): Bestätigen Sie den Wirkmechanismus über die DrugBank-API-Abfrage
-- Bestätigen Sie die ursprünglichen zugelassenen Indikationen des Arzneimittels, die derzeit in diesem Paket nicht dokumentiert sind
-- Identifizieren Sie mindestens vorklinische oder Beobachtungsevidenz, die IL-23-Hemmung mit einer der vier Kandidatenindikationen verbindet, bevor Sie über S0 hinaus vorankommen
-
+**Für ein Weiterkommen sind folgende Punkte erforderlich:**
+- Präklinische oder mechanistische Studien zur Rolle der IL-23/IL-17-Achse bei diabetischer Retinopathie
+- Detaillierte Wirkmechanismusdaten (MOA)
+- Auswertung der Fachinformation (Warnhinweise und Gegenanzeigen), da diese Sicherheitsdaten derzeit fehlen
+- Klärung der Machbarkeit (Applikationsweg, okuläre Verfügbarkeit)
+- Klärung des regulatorischen Status in Deutschland/EU (erloschene Zulassung)
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

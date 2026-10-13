@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Fluoxetine
-parent: Mittlere Evidenz (L3-L4)
-nav_order: 170
-evidence_level: L4
+parent: Nur Modellvorhersage (L5)
+nav_order: 198
+evidence_level: L5
 indication_count: 10
 ---
 
 # Fluoxetine
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,86 +29,112 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Fluoxetin: Von der Major Depressive Störung zur Schizotypalen Persönlichkeitsstörung
+# Fluoxetin: Von Depression und Angststörungen zu Phobischen Störungen
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Fluoxetin ist ein klassischer SSRI, ursprünglich entwickelt und etabliert zur Behandlung der Major Depressive Störung. Die Spitzenplatzierung des TxGNN-Modells deutet auf mögliche Wirksamkeit bei **Schizotypaler Persönlichkeitsstörung** hin, wird aber derzeit nur durch **10 ältere Publikationen** (offene Studien, Fallberichte und Übersichtsarbeiten) gestützt und **keine registrierten klinischen Studien**.
+Fluoxetin ist ein selektiver Serotonin-Wiederaufnahmehemmer (SSRI), der ursprünglich zur Behandlung von Depressionen, Zwangsstörungen, Bulimia nervosa und weiteren psychischen Erkrankungen eingesetzt wird.
+Das TxGNN-Modell sagt voraus, dass er bei **phobischen Störungen** wirksam sein könnte (weitere hoch bewertete Kandidaten: Agoraphobie, manische bipolare Störung, Melancholie).
+Für die Hauptvorhersage liegen **2 klinische Studien** und **19 Publikationen** vor.
 
 ---
 
-## Schnellübersicht
+## Kurzüberblick
 
-| Element | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Major Depressive Störung (etablierte SSRI-Indikation; kein lizenzierter Indikationstext in diesem Evidence Pack verfügbar) |
-| Vorhergesagte neue Indikation | Schizotypale Persönlichkeitsstörung |
-| TxGNN-Vorhersage-Score | 99.92% |
-| Evidenzlevel | L4 |
-| Deutschland Marktstatus | ✗ Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Aussetzen |
+| Ursprüngliche Indikation | Angststörung, neurotische Störung, dysthyme Störung, bipolare Störung, unipolare Depression, endogene Depression, Major Depression, Bulimia nervosa, Zwangsstörung (laut Wissensgraph; keine Zulassungstexte verfügbar) |
+| Vorhergesagte neue Indikation | Phobische Störung (höchstbewertete Vorhersage im Datensatz: schizotype Persönlichkeitsstörung; dort jedoch nur L3-Evidenz – siehe unten) |
+| TxGNN-Vorhersagewert | 99,63 % (phobische Störung); 99,92 % (schizotype Persönlichkeitsstörung) |
+| Evidenzlevel | L1 (phobische Störung) |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
+| Anzahl der Zulassungen | 1 (aufgehoben) |
+| Empfohlene Entscheidung | Proceed with Guardrails (Mit Auflagen fortfahren) |
+
+**Hinweis zur Auswahl:** Die Rangfolge nach TxGNN-Score führt schizotype, paranoide, schizoide und histrionische Persönlichkeitsstörung an. Für diese ist die Evidenz jedoch schwach (L3–L5, keine Studien). Für diesen Bericht wird daher die Indikation mit der stärksten Evidenzlage, die **phobische Störung**, als Schwerpunkt herangezogen.
 
 ---
 
-## Warum ist diese Vorhersage sinnvoll?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Wirkungsmechanismus-Daten nicht verfügbar (Datenlücke, DrugBank-Abfrage läuft). Basierend auf allgemeinem pharmakologischen Wissen ist Fluoxetin ein selektiver Serotonin-Wiederaufnahmehemmer (SSRI) mit etablierter Wirksamkeit bei Major Depressive Störung und mehreren anderen serotonergen Zuständen (Panikstörung, Zwangsstörung, Bulimia nervosa).
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Fluoxetin als SSRI die Wiederaufnahme von Serotonin hemmt. Seine Wirksamkeit bei Depression, Zwangsstörung und Angststörungen ist belegt, und mechanistisch kann es auch bei phobischen Störungen anwendbar sein.
 
-Die schizotypale Persönlichkeitsstörung ist eine Cluster-A-Erkrankung, die durch kognitiv-perzeptive Verzerrungen, Sozialangst und komorbide Stimmungs-/Angststörungen gekennzeichnet ist. Die theoretische Begründung für die SSRI-Anwendung beruht auf der serotonergen Modulation dieser kognitiv-perzeptiven Merkmale und der Behandlung häufig komorbider Depression/Angst – nicht auf einem validierten, störungsspezifischen Mechanismus. Bemerkenswert ist, dass keine kontrollierte Studie Fluoxetin gegen schizotypale PS als primären Endpunkt direkt getestet hat; die unterstützende Literatur besteht hauptsächlich aus kleinen, nicht verblindeten Studien aus den frühen 1990er Jahren bei gemischten Borderline-/Schizotypal-Populationen, plus späteren narrativen Übersichtsarbeiten zur Cluster-A-Pharmakotherapie im Allgemeinen. Ein Fallbericht beschreibt zusätzlich einen schizotypalen Patienten, der vorübergehend Psychosen unter Fluoxetin entwickelt, was darauf hindeutet, dass die Evidenzbasis nicht einheitlich günstig ist.
+SSRI gelten als Erstlinientherapie bei sozialer Angststörung und verwandten phobischen Zuständen. Der vermutete Wirkweg ist die serotonerge Modulation der Amygdala-präfrontalen Furchtschaltkreise. Die ursprünglichen Indikationen (Angststörung, Zwangsstörung, Depression) und die phobische Störung teilen dabei ein gemeinsames serotonerges Krankheitsmodell. Teile der Evidenz sind allerdings auf Klassenebene (SSRI allgemein) und nicht fluoxetinspezifisch.
 
 ---
 
 ## Evidenz aus klinischen Studien
 
-Derzeit keine zugehörigen klinischen Studien registriert.
+| Studiennummer | Phase | Status | Teilnehmerzahl | Zentrale Ergebnisse |
+|---------|------|------|------|---------|
+| [NCT00043537](https://clinicaltrials.gov/study/NCT00043537) | Phase 3 | Abgeschlossen | 139 | Langzeitvergleich von Verhaltenstherapie, Fluoxetin und Placebo bei sozialer Phobie im Kindes- und Jugendalter |
+| [NCT02476136](https://clinicaltrials.gov/study/NCT02476136) | Nicht zutreffend | Unbekannt | 8.800 | Metaanalyse mit Einzelpatientendaten zur Wirksamkeit von Antidepressiva bei Angststörungen in Abhängigkeit vom Ausgangsschweregrad |
+
+Für weitere Kandidaten (Auswahl):
+| Studiennummer | Indikation | Phase | Status | Teilnehmerzahl | Zentrale Ergebnisse |
+|---|---|---|---|---|---|
+| [NCT00961961](https://clinicaltrials.gov/study/NCT00961961) | Bipolare Störung | Phase 4 | Abgeschlossen | 177 | Antidepressivum plus Stimmungsstabilisator vs. Stabilisator allein zur Rückfallprävention bei bipolarer Depression |
+| [NCT01916824](https://clinicaltrials.gov/study/NCT01916824) | Melancholie/Major Depression | Phase 4 | Abgeschlossen | 53 | Behandlungseffekte auf Entscheidungsverhalten bei Major Depression |
 
 ---
 
-## Literatureevidenz
+## Literaturevidenz (phobische Störung)
 
-| PMID | Jahr | Typ | Journal | Wichtigste Befunde |
-|------|-----|------|---------|--------------|
-| [9448667](https://pubmed.ncbi.nlm.nih.gov/9448667/) | 1998 | Retrospektive Kohortenstudie | J Clin Psychiatry | Übersicht der psychopharmakologischen Behandlung bei Borderline-/Schizotypal-PS; kein einzelnes Mittel der Wahl, Ansprechrate variiert je nach Symptomcluster |
-| [1853957](https://pubmed.ncbi.nlm.nih.gov/1853957/) | 1991 | Offene Studie | Am J Psychiatry | 12-Wochen-Studien-Phase (n=22, Borderline-/Schizotypal-PS); Fluoxetin reduzierte selbstverletzendes Verhalten und Symptomchecklisten-Werte unabhängig von der Diagnose |
-| [29955451](https://pubmed.ncbi.nlm.nih.gov/29955451/) | 2016 | Übersichtsarbeit | Ment Health Clin | Überprüft pharmakologische Behandlungsoptionen über Cluster-A-Persönlichkeitsstörungen (paranoid, schizoid, schizotypal) |
-| [8227492](https://pubmed.ncbi.nlm.nih.gov/8227492/) | 1993 | Übersichtsarbeit | J Clin Psychopharmacol | Konzeptioneller Rahmen für Pharmakotherapie von Persönlichkeitsstörungen; vorausgehende DSM-III-Evidenzbasis, schwer zu interpretieren |
-| [12214786](https://pubmed.ncbi.nlm.nih.gov/12214786/) | 2002 | Übersichtsarbeit | Psychol Med | Untersucht Stabilität von Persönlichkeitsstörungs-Diagnosen bei depressiven ambulanten Patienten vor/nach Fluoxetin-Behandlung |
-| [9664779](https://pubmed.ncbi.nlm.nih.gov/9664779/) | 1998 | Fallbericht | Psychosomatics | Vorübergehende Psychose mit psychogener Polydipsie bei einem schizotypalen Patienten unter Fluoxetin – ein spezifisches Sicherheitssignal in dieser Population |
-| [33634761](https://pubmed.ncbi.nlm.nih.gov/33634761/) | 2021 | Fallbericht | CNS Neurol Disord Drug Targets | Katatonie mit Asenapin behandelt (nicht Fluoxetin) bei einem Patienten mit schizotypaler PS, psychotischer Depression und COVID-19-Sepsis |
-| [15209835](https://pubmed.ncbi.nlm.nih.gov/15209835/) | 2004 | Kohortenstudie | Aust N Z J Psychiatry | Vergleicht Persönlichkeitsmerkmale/Ergebnisse zwischen bipolarer II und Major Depression; nicht spezifisch für die Behandlung von schizotypaler PS |
-| [7635854](https://pubmed.ncbi.nlm.nih.gov/7635854/) | 1995 | Kohortenstudie | J Clin Psychiatry | Untersucht Prädiktoren der Arzneimittelbehandlungsreaktion bei Zwangsstörung; nur am Rande verwandt mit schizotypaler PS |
-| [18805590](https://pubmed.ncbi.nlm.nih.gov/18805590/) | 2009 | Kohortenstudie | J Affect Disord | 18-Monats-Depressions-Behandlungsergebnis-Studie zu Rückfalls-/Genesungsprädiktoren; nicht spezifisch für schizotypale PS |
+| PMID | Jahr | Typ | Zeitschrift | Zentrale Ergebnisse |
+|------|-----|------|------|---------|
+| [15466674](https://pubmed.ncbi.nlm.nih.gov/15466674/) | 2004 | Kontrollierte Studie | Arch Gen Psychiatry | Fluoxetin, kognitive Verhaltenstherapie und Placebo bei generalisierter sozialer Phobie |
+| [9812120](https://pubmed.ncbi.nlm.nih.gov/9812120/) | 1998 | RCT | Am J Psychiatry | Fluoxetin vs. Placebo bei Panikstörung; Beitrag einzelner Symptome zur Gesamtbesserung |
+| [24845944](https://pubmed.ncbi.nlm.nih.gov/24845944/) | 2014 | Metaanalyse | Expert Opin Drug Saf | Wirksamkeit von Antidepressiva bei Angststörungen (ohne Zwang) im Kindes- und Jugendalter |
+| [16714326](https://pubmed.ncbi.nlm.nih.gov/16714326/) | 2007 | Metaanalyse | J Psychopharmacol | Wirksamkeit von SSRI bei sozialer Angststörung in doppelblinden, placebokontrollierten Studien |
+| [36519357](https://pubmed.ncbi.nlm.nih.gov/36519357/) | 2023 | Übersichtsarbeit | Expert Opin Pharmacother | Aktueller Überblick zur Pharmakotherapie der sozialen Angststörung; SSRI/SNRI als Erstlinie |
+| [17092192](https://pubmed.ncbi.nlm.nih.gov/17092192/) | 2006 | Übersichtsarbeit | J Clin Psychiatry | Evidenz zur Pharmakotherapie der sozialen Angststörung; Fluoxetin gehört zu den wirksamen SSRI |
+| [11588653](https://pubmed.ncbi.nlm.nih.gov/11588653/) | 2001 | Übersichtsarbeit | Arq Neuropsiquiatr | Antidepressiva bei sozialer Angststörung |
+| [11110016](https://pubmed.ncbi.nlm.nih.gov/11110016/) | 2000 | Übersichtsarbeit | Int Clin Psychopharmacol | SSRI (inkl. Fluoxetin) bei Panikstörung und Agoraphobie placebo-überlegen |
+| [9192539](https://pubmed.ncbi.nlm.nih.gov/9192539/) | 1997 | Offene Pilotstudie | J Child Adolesc Psychopharmacol | Fluoxetin bei gemischten Angststörungen bei Kindern und Jugendlichen |
+| [12502021](https://pubmed.ncbi.nlm.nih.gov/12502021/) | 2002 | Retrospektive Analyse | Prog Neuropsychopharmacol Biol Psychiatry | Hyperhidrose bei sozialer Angststörung in Studien u. a. mit Fluoxetin |
 
 ---
 
-## Deutschland-Marktinformationen
+## Marktinformationen Deutschland
 
-Fluoxetin hat derzeit **keine Marktgenehmigung** für den deutschen Markt (0 Lizenzen). Für dieses Evidence Pack ist keine Produkttabelle verfügbar.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/V/C/000133 | Reconcile | – | – (Status: aufgehoben) |
+
+Das Produkt ist eine zentral (EMA) registrierte Zulassung mit dem Status „aufgehoben". Aktuell gibt es in den zusammengestellten Daten keine gültige Zulassung in Deutschland.
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte konsultieren Sie die Packungsbeilage für Sicherheitsinformationen.
+- **Kontraindikationen/Risikokonstellationen (aus dem Wissensgraphen, nicht aus Fachinformationstexten):** u. a. Epilepsie, bipolare Störung, Leberinsuffizienz und Leberzirrhose, Diabetes mellitus und diabetische Ketoazidose, Neutropenie/Agranulozytose, Blutgerinnungsstörungen, benigne Prostatahyperplasie, orthostatische Hypotonie, Schlaganfall und zerebrovaskuläre Erkrankungen, Myokardinfarkt, Hyperlipidämie und Adipositas.
+- **Arzneimittelwechselwirkungen (100 Einträge insgesamt, Auswahl):**
+  - *Schwerwiegend (Major):* Bupropion, Lorcaserin, Diethylpropion, Dolasetron, Eliglustat, Palonosetron, Cisaprid
+  - *Moderat:* u. a. Acetylsalicylsäure, Morphin, Clarithromycin, Famotidin, Loperamid, Chlorpropamid
+- **Indikationsspezifische Warnhinweise:**
+  - Bipolare Störung: Risiko des Umschlagens in die Manie bei Antidepressiva-Monotherapie; Kombination mit Stimmungsstabilisator und Überwachung nötig.
+  - Kinder und Jugendliche: Überwachung auf Suizidalität.
+  - Schizotype Persönlichkeitsstörung: Fallbericht über transiente Psychose mit psychogener Polydipsie unter Fluoxetin.
+  - Weitere Literatur beschreibt Absetzsymptome, Überdosierung und Interaktion mit Imipramin.
 
-*(Hinweis: `safety.key_warnings`, `safety.contraindications` und DDI-Daten sind alle derzeit nicht verfügbar – gekennzeichnet als blockierende Datenlücke (DG001), was bedeutet, dass dieser Kandidat noch nicht in die S1-Sicherheits-Vorscreening-Phase eintreten kann. Separat enthält die Literatureevidenz für diese Indikation mindestens einen Fallbericht über vorübergehende Psychose bei einem schizotypalen Patienten unter Fluoxetin – siehe [9664779](https://pubmed.ncbi.nlm.nih.gov/9664779/) oben – das spezifische Aufmerksamkeit erfordert, wenn diese Indikation weiter verfolgt wird.)*
+Die vollständigen Warnhinweise und Gegenanzeigen der Fachinformation lagen nicht vor; bitte die Packungsbeilage bzw. Fachinformation konsultieren.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Aussetzen**
+**Entscheidung: Proceed with Guardrails (Mit Auflagen fortfahren)**
 
 **Begründung:**
-Die Evidenz für Fluoxetin bei schizotypaler Persönlichkeitsstörung ist auf kleine, Jahrzehnte alte offene Studien und allgemeine Übersichtsarbeiten (Evidenzlevel L4) begrenzt, ohne klinische Studien und ohne störungsspezifische mechanistische Validierung. Zusammen mit einer blockierenden Datenlücke zu TFDA/BfArM-Warnungen und Kontraindikationen (DG001) kann dieser Kandidat noch nicht zur S1-Sicherheits-Vorscreening-Bewertung übergehen.
+- Für phobische Störungen (Evidenzlevel L1) liegen eine abgeschlossene Phase-3-Studie sowie mehrere Metaanalysen und Übersichtsarbeiten zu SSRI vor; Fluoxetin ist zudem in der Nähe bereits etablierter Anwendungen (Angststörungen) angesiedelt. Ein Teil der Evidenz gilt aber nur auf SSRI-Klassenebene.
+- Einordnung der übrigen Kandidaten: Agoraphobie (L2, ebenfalls mit Auflagen), Melancholie (L1, im Wesentlichen bestehende Anwendung bei Major Depression), manische bipolare Störung (L2, Forschungsfrage – Fluoxetin wirkt auf die depressive Phase, nicht auf Manie). Die Persönlichkeitsstörungen (schizotyp L3; paranoid, schizoid L4; histrionisch L5) sowie benigner paroxysmaler Torticollis des Säuglingsalters und Ohdo-Syndrom (jeweils L5) sind zurückzustellen (Hold).
 
-**Um fortzufahren, ist folgendes erforderlich:**
-- TFDA/BfArM-Warnungen und Kontraindikationen (DG001, blockierend)
-- Bestätigte Wirkungsmechanismus-Daten von DrugBank (DG002, High)
-- Eine kontrollierte oder zumindest prospektive Studie, die speziell schizotypale PS als primären Endpunkt anstrebt
-- Klarstellung des Psychose-Signals bei schizotypalen Patienten unter Fluoxetin ([PMID 9664779](https://pubmed.ncbi.nlm.nih.gov/9664779/))
-
+**Für das weitere Vorgehen erforderlich:**
+- Detaillierte Wirkmechanismus-Daten (MOA)
+- Fachinformation von BfArM/EMA zu Warnhinweisen und Gegenanzeigen (derzeit blockierende Datenlücke für die Sicherheitsprüfung)
+- Fluoxetinspezifische Ergebnisse der Studien NCT00043537 und NCT02476136 (Studienarm, Endpunkte, Effektstärken)
+- Klärung der aktuellen Zulassungslage in Deutschland (derzeit nur erloschene Zulassung)
+- Sicherheitsüberwachungsplan (Suizidalität bei Jugendlichen, Umschlagrisiko bei bipolarer Störung, relevante Wechselwirkungen)
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

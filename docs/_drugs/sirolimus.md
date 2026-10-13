@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Sirolimus
-parent: Hohe Evidenz (L1-L2)
-nav_order: 367
-evidence_level: L2
+parent: Mittlere Evidenz (L3-L4)
+nav_order: 431
+evidence_level: L3
 indication_count: 10
 ---
 
 # Sirolimus
 {: .fs-9 }
 
-Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,94 +29,94 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Sirolimus: Von der Organtransplantatabstoßungsprophylaxe zu Liposarkom
+# Sirolimus: Von Angiofibrom bei Tuberöser Sklerose zu Liposarkom
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Sirolimus ist ein mTOR-Inhibitor, der vor allem als Immunsuppressivum zur Prävention von Abstoßungen nach Nierentransplantation bekannt ist.
-> Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam gegen **Liposarkom** ist (insbesondere die myxoiden und dedifferenzierten Subtypen),
-> wobei derzeit **5 klinische Studien** und **12 Publikationen** diese Richtung unterstützen.
+Sirolimus ist ein mTOR-Inhibitor. In Europa wurde er zur Verhinderung der Transplantatabstoßung nach Nierentransplantation sowie bei Angiofibromen im Rahmen der Tuberösen Sklerose zugelassen. Das TxGNN-Modell sagt voraus, dass er bei **Liposarkom** wirksam sein könnte. Dafür liegen bislang **1 klinische Studie** (einarmige Phase 2) und **7 Publikationen** vor, überwiegend Übersichtsarbeiten ohne direkten Wirksamkeitsnachweis.
 
 ---
 
-## Schnelle Übersicht
+## Schnellübersicht
 
 | Punkt | Inhalt |
-|-------|--------|
-| Ursprüngliche Indikation | Im aktuellen regulatorischen Datensatz Deutschlands nicht dokumentiert (0 Lizenzen vorhanden); Sirolimus ist historisch zur Prophylaxe der Abstoßung von Nierentransplantaten indiziert (Immunsuppressivum) |
-| Prognostizierte neue Indikation | Liposarkom |
-| TxGNN-Vorhersagepunktzahl | 99.89% |
-| Evidenzstufe | L2 |
-| Marktstatus Deutschland | ✗ Nicht auf dem Markt |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Mit Vorsichtsmaßnahmen fortfahren |
+|------|------|
+| Ursprüngliche Indikation | Angiofibrom bei Tuberöser Sklerose (weitere Zulassung: Transplantatabstoßung nach Nierentransplantation) |
+| Vorhergesagte neue Indikation | Liposarkom |
+| TxGNN-Vorhersagewert | 99,89 % |
+| Evidenzlevel | L3 |
+| Marktstatus in Deutschland | Nur erloschene Zulassungen (keine gültige Zulassung) |
+| Anzahl der Zulassungen | 2 (beide erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Daten zum Wirkmechanismus in diesem Evidenzpaket nicht verfügbar. Nach bekannten Informationen ist Sirolimus ein mTOR-(mammalian target of rapamycin)-Inhibitor, der ursprünglich als Immunsuppressivum zur Verhinderung der Abstoßung von Nierentransplantaten durch Blockierung der mTORC1-gesteuerten T-Zell-Proliferation entwickelt wurde. Seine Wirksamkeit bei dieser ursprünglichen Indikation ist gut etabliert, und derselbe mTORC1-blockierende Mechanismus ist mechanistisch auf die Onkologie übertragbar, da die mTOR-Signalisierung auch die Proliferation bei mehreren Tumortypen antreibt.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Sirolimus den mTOR-Signalweg hemmt. Seine Wirksamkeit bei Erkrankungen mit überaktivem mTOR-Signalweg, wie der Tuberösen Sklerose, ist belegt. Mechanistisch könnte er daher auch bei Tumoren mit ähnlicher Pathwayaktivierung wirken.
 
-Dedifferenziertes Liposarkom (DDLPS) zeigt häufig eine Aktivierung der Akt-mTOR- und MAPK-Signalwege (PMID 26518767), was eine direkte molekulare Begründung für die mTOR-Inhibition in diesem Tumor bietet. Mehrere Rapalog-Analoga von Sirolimus – Temsirolimus, Everolimus und Ridaforolimus – wurden bereits in Phase-2-Sarkomstudienerprobt, und eine dedizierte Phase-2-Studie von Sirolimus in Kombination mit Cyclophosphamid wurde bei metastatischem/nicht resezierbarem myxoidem Liposarkom und Chondrosarkom abgeschlossen (NCT02821507, n=70), was die biologische Plausibilität direkt unterstützt.
+Liposarkome zeigen häufig eine Aktivierung des PI3K/AKT/mTOR-Signalwegs. Eine mTOR-Hemmung ist deshalb biologisch nachvollziehbar, und Mausmodelle deuten darauf hin, dass sie das Tumorwachstum bremsen kann.
 
-Interessanterweise kommen einige der frühesten Signale, die Sirolimus mit reduziertem Tumorrisiko verbinden, aus seiner ursprünglichen Transplantationspopulation – Sirolimus-basierte Immunsuppression war mit niedrigeren Malignomraten im Vergleich zu Calcineurin-Inhibitoren verbunden (PMID 16434506, PMID 20534289) – und unterstreicht, dass die antiproliferative mTOR-blockierende Wirkung dieses Arzneistoffs nicht auf das Immunsystem beschränkt ist und sich auf Tumorzellen, einschließlich Liposarkom, erstrecken kann.
+Die klinische Evidenz ist jedoch dünn. Sie besteht aus einer einarmigen Phase-2-Studie mit einer Sirolimus-Kombination. Ohne Kontrollgruppe lässt sich der Beitrag von Sirolimus allein nicht abgrenzen. Die übrige Literatur besteht aus Übersichtsarbeiten zu zielgerichteten Sarkomtherapien und aus Studien zum Krebsrisiko bei Transplantierten.
 
 ---
 
-## Evidenz aus klinischen Studien
+## Klinische Studien
 
-| Studiennummer | Phase | Status | Patientenzahl | Wichtigste Erkenntnisse |
+| Studiennummer | Phase | Status | Teilnehmerzahl | Zentrale Erkenntnisse |
 |---------|------|------|------|---------|
-| [NCT02821507](https://clinicaltrials.gov/study/NCT02821507) | Phase 2 | Abgeschlossen | 70 | Sirolimus + Cyclophosphamid bei metastatischem/nicht resezierbarem myxoidem Liposarkom und Chondrosarkom; direkte Studie zur Testung der mTOR-Inhibition in dieser Tumorgruppe |
-| [NCT00093080](https://clinicaltrials.gov/study/NCT00093080) | Phase 2 | Abgeschlossen | 216 | Ridaforolimus (Rapalog-Analogon) einmal täglich × 5 alle 2 Wochen bei fortgeschrittenem Sarkom |
-| [NCT01614795](https://clinicaltrials.gov/study/NCT01614795) | Phase 2 | Abgeschlossen | 46 | Cixutumumab + Temsirolimus (Rapalog) bei pädiatrischem rezidivierendem/refraktärem Sarkom |
-| [NCT03114527](https://clinicaltrials.gov/study/NCT03114527) | Phase 2 | Aktiv, keine Rekrutierung mehr | 48 | Ribociclib + Everolimus (Rapalog) bei fortgeschrittenem dedifferenziertem Liposarkom und Leiomyosarkom |
-| [NCT00949325](https://clinicaltrials.gov/study/NCT00949325) | Phase 1/2 | Abgeschlossen | 24 | Temsirolimus (Rapalog) + liposomales Doxorubicin bei fortgeschrittenem Weichteil- und Knochensarkom |
+| [NCT02821507](https://clinicaltrials.gov/study/NCT02821507) | Phase 2 | Abgeschlossen | 70 | Einarmige, multizentrische Studie zu Sirolimus plus Cyclophosphamid bei metastasiertem oder inoperablem myxoidem Liposarkom und Chondrosarkom (2014–2021). Ergebnisdaten liegen hier nicht vor. Wegen des Kombinationsregimes und des einarmigen Designs ist der Beitrag von Sirolimus nicht abgrenzbar. |
 
 ---
 
-## Evidenz aus der Literatur
+## Literatur
 
-| PMID | Jahr | Typ | Journal | Wichtigste Erkenntnisse |
+| PMID | Jahr | Typ | Journal | Zentrale Erkenntnisse |
 |------|-----|------|------|---------|
-| [37967116](https://pubmed.ncbi.nlm.nih.gov/37967116/) | 2024 | Randomisierte kontrollierte Studie (Phase 2) | Clin Cancer Res | Ribociclib + Everolimus zeigte synergistische Wachstumshemmung in dedifferenzierten Liposarkom- und Leiomyosarkom-Modellen und klinische Aktivität |
-| [26518767](https://pubmed.ncbi.nlm.nih.gov/26518767/) | 2016 | Kohortenstudie/Mechanistische Analyse | Tumour Biology | Akt-mTOR- und MAPK-Signalwege sind in dedifferenzierten Liposarkom-Proben aktiviert und unterstützen die Rationale für mTOR-Inhibitoren |
-| [39796641](https://pubmed.ncbi.nlm.nih.gov/39796641/) | 2024 | Übersichtsarbeit | Cancers | Übersicht über neuartige FDA-zugelassene und entstehende zielgerichtete Therapeutika bei Weichteilsarkom |
-| [37222206](https://pubmed.ncbi.nlm.nih.gov/37222206/) | 2023 | Übersichtsarbeit | Curr Opin Oncol | Überprüfung molekularer Zielsubstanzen und aktuelle Rationale klinischer Studien bei fortgeschrittenen Sarkomen |
-| [37400145](https://pubmed.ncbi.nlm.nih.gov/37400145/) | 2023 | Präklinisch | Cancer Genomics Proteomics | Die Kombination Chloroquin + Rapamycin hemmt die Autophagie synergistisch und ist wirksam gegen differenziertes Liposarkom |
-| [36309387](https://pubmed.ncbi.nlm.nih.gov/36309387/) | 2022 | Präklinisch | In Vivo | Rapamycin + Chloroquin stoppt das Tumorwachstum in einem patientenabgeleiteten orthotopischen Xenograft-Modell dedifferenzierten Liposarkoms |
-| [25519700](https://pubmed.ncbi.nlm.nih.gov/25519700/) | 2015 | Präklinisch | Mol Cancer Ther | Der ATP-kompetitive mTOR-Kinase-Inhibitor MLN0128 zeigt potente antitumorale Aktivität bei Knochen-/Weichteilsarkom und adressiert die Rapalog-Resistenz |
-| [20497911](https://pubmed.ncbi.nlm.nih.gov/20497911/) | 2010 | Übersichtsarbeit | Bull Cancer | Zielgerichtete Behandlungsansätze für seltene Bindegewebs- und Sarkome, einschließlich mTOR-Signalweg-Wirkstoffe |
-| [16434506](https://pubmed.ncbi.nlm.nih.gov/16434506/) | 2006 | Randomisierte kontrollierte Studie | J Am Soc Nephrol | Randomisierte Studie: Sirolimus nach Ciclosporin-Entzug reduziert das Krebsrisiko bei erwachsenen Nierentransplantationsempfängern und unterstützt antitumorale Eigenschaften von Sirolimus über die Immunsuppression hinaus |
-| [20534289](https://pubmed.ncbi.nlm.nih.gov/20534289/) | 2010 | Fallserie | Transplant Proc | Umstellung auf Rapamycin-basierte Immunsuppression nach Malignitätsdiagnose bei Nierentransplantationsempfängern, was die antitumorale Rationale der mTOR-Inhibition veranschaulicht |
+| [16434506](https://pubmed.ncbi.nlm.nih.gov/16434506/) | 2006 | RCT | J Am Soc Nephrol | Bei Nierentransplantierten senkte Sirolimus nach frühem Ciclosporin-Entzug das Krebsrisiko. Der Befund betrifft das Krebsrisiko unter Immunsuppression, nicht die Behandlung von Liposarkomen. |
+| [39796641](https://pubmed.ncbi.nlm.nih.gov/39796641/) | 2024 | Review | Cancers | Überblick über neue Therapien bei Weichteilsarkomen |
+| [37222206](https://pubmed.ncbi.nlm.nih.gov/37222206/) | 2023 | Review | Curr Opin Oncol | Überblick über Studien zu zielgerichteten Substanzen bei fortgeschrittenen Sarkomen |
+| [20497911](https://pubmed.ncbi.nlm.nih.gov/20497911/) | 2010 | Review | Bull Cancer | Zielgerichtete Behandlung seltener Bindegewebstumoren und Sarkome |
+| [26093731](https://pubmed.ncbi.nlm.nih.gov/26093731/) | 2015 | Review | Transplant Proc | Einfluss von Immunsuppressiva auf die Entwicklung maligner Tumoren bei Nierentransplantierten |
+| [42753013](https://pubmed.ncbi.nlm.nih.gov/42753013/) | 2026 | Kohortenstudie | Familial Cancer | Klinisches Spektrum des PTEN-Hamartom-Tumor-Syndroms; nur indirekter Bezug |
+| [32711543](https://pubmed.ncbi.nlm.nih.gov/32711543/) | 2020 | Fallberichte | Diagn Pathol | Drei Fälle fibro-adipöser vaskulärer Anomalien mit Fokus auf den mTOR-Signalweg; nur indirekter Bezug |
 
 ---
 
-## Marktstatus in Deutschland
+## Marktinformationen Deutschland
 
-Sirolimus ist derzeit **nicht auf dem Markt** in Deutschland unter diesem Datensatz (0 Zulassungen vorhanden; keine Produkt-/Lizenzunterlagen verfügbar).
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/005896 | Hyftor (Plusultra pharma GmbH) | – | Angiofibrom, Tuberöse Sklerose (erloschen) |
+| EMEA/H/C/000273 | Rapamune (Pfizer Europe MA EEIG) | – | Transplantatabstoßung, Nierentransplantation (erloschen) |
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Gebrauchsinformation für Sicherheitsinformationen.
+Eine Fachinformation mit Warnhinweisen und Gegenanzeigen liegt in den zusammengestellten Daten nicht vor. Bitte die Fachinformation heranziehen.
+
+- **Mögliche Kontraindikationen laut Wissensgraph** (TxGNN/PrimeKG, keine Angaben aus einem Beipackzettel): Bluthochdruck, Nieren- und Lebererkrankungen, Gallenblasenerkrankungen, Hyperglykämie und Diabetes mellitus (einschließlich diabetischer Ketoazidose), Hyperlipidämie und Hypertriglyzeridämie, Schlaganfall und zerebrovaskuläre Erkrankungen, Hyperbilirubinämie (einschließlich Gilbert-Syndrom), interstitielle Lungenerkrankung, Infektionskrankheiten (u. a. Pneumocystose, Zytomegalievirus-Infektion), Krebserkrankungen (u. a. Hirntumor, embryonale Tumoren), Perikarderguss und progressive multifokale Leukoenzephalopathie.
+- **Arzneimittelwechselwirkungen:** Es wurden 100 Wechselwirkungen erfasst. Als **schwerwiegend (Major)** eingestuft sind unter anderem Amphotericin B (auch als Lipidkomplex), Mesalazin, Balsalazid und Clarithromycin. Als **moderat** eingestuft sind unter anderem Kortikosteroide (Hydrocortison, Dexamethason, Betamethason, Budesonid, Triamcinolon), Antidiabetika (Metformin, Pioglitazon, Acarbose, Alogliptin, Canagliflozin, Dapagliflozin, Chlorpropamid, Albiglutid), Aprepitant und Cimetidin.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Mit Vorsichtsmaßnahmen fortfahren**
+**Entscheidung: Hold**
 
-**Rationale:**
-Eine dedizierte, abgeschlossene Phase-2-Studie (NCT02821507) testete Sirolimus direkt bei myxoidem Liposarkom/Chondrosarkom, und dies wird durch eine breitere Sammlung von Phase-1/2-Studien und mechanistischer Literatur über Rapalog-Klasse-mTOR-Inhibitoren bei Sarkomen gestützt – erfüllt L2-Evidenz (eine abgeschlossene Phase-2/3-Studie) statt des stärkeren L1-Schwellwerts, daher ist ein vorsichtiges statt bedingungsloses Fortschreiten gerechtfertigt.
+**Begründung:**
+- Die biologische Plausibilität ist gegeben, die klinische Evidenz für Liposarkom beschränkt sich aber auf eine einarmige Phase-2-Kombinationsstudie ohne verfügbare Ergebnisse.
+- Aktuell existiert in Deutschland keine gültige Zulassung, und die Sicherheitsdaten aus der Fachinformation fehlen.
+- Zum Vergleich: Für **Lymphangioleiomyomatose (Lymphangiomyom)**, ebenfalls eine mTOR-getriebene Erkrankung, liegt deutlich stärkere Evidenz vor (Evidenzlevel L1, Phase-3-Studie MILES, NCT00414648, plus weitere Phase-2/3-Studien). Dieser Kandidat sollte vorrangig weiterverfolgt werden.
 
-**Um fortzufahren, wird Folgendes benötigt:**
-- TFDA/BfArM-äquivalente Kennzeichnungsdaten zu Warnungen, Kontraindikationen und Arzneimittelwechselwirkungen (derzeit eine Blockierende Datenlücke, DG001)
-- Bestätigte Dokumentation des Wirkmechanismus aus DrugBank (derzeit eine Datenlücke mit hohem Schweregrad, DG002)
-- Veröffentlichte Wirksamkeits-/Sicherheitsergebnisse von NCT02821507 nach vollständiger Berichterstattung
-- Bewertung der Verträglichkeit von Verabreichungsweg und Formulierung für die Onkologie-Dosierung gegenüber den bestehenden Immunsuppressiva-Formulierungen des Arzneistoffs
-
+**Für das weitere Vorgehen wird Folgendes benötigt:**
+- Ergebnisse der Studie NCT02821507, insbesondere eine Auswertung des Liposarkom-Anteils und eine Abschätzung des Sirolimus-Beitrags
+- Kontrollierte Studien zu Sirolimus bei Liposarkom
+- Fachinformation des BfArM mit Warnhinweisen und Gegenanzeigen
+- Daten zum Wirkmechanismus aus DrugBank
+- Klärung des Zulassungsstatus in Deutschland, da beide Zulassungen erloschen sind
+- Ein Sicherheits- und Interaktionsmonitoring-Konzept, da zahlreiche relevante Wechselwirkungen bestehen
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -2,7 +2,7 @@
 layout: default
 title: Ketorolac
 parent: Hohe Evidenz (L1-L2)
-nav_order: 218
+nav_order: 254
 evidence_level: L1
 indication_count: 3
 ---
@@ -29,93 +29,103 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Ketorolac: Von Akutschmerz zur Kopfschmerzstörung
+# Ketorolac: Von postoperativem Schmerz zu Kopfschmerzerkrankung (Headache Disorder)
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Ketorolac ist ein nichtsteroidales Antirheumatikum (NSAID), das ursprünglich für die Kurzzeitbehandlung von mäßig bis schwer ausgeprägtem Akutschmerz eingesetzt wird (z. B. postoperativer Schmerz).
-Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam gegen **Kopfschmerzstörung** (primär Migräne und Spannungskopfschmerz) ist,
-mit **37 klinischen Studien** und **19 Publikationen**, die diese Richtung derzeit unterstützen – obwohl das Arzneimittel derzeit nicht auf dem deutschen Markt vertrieben wird.
-
----
+Ketorolac ist ein nichtsteroidales Antirheumatikum (NSAR), das in Deutschland als Omidria zugelassen war, und zwar zur intraokularen Linsenimplantation und gegen postoperative Schmerzen. Das TxGNN-Modell sagt voraus, dass es bei **Kopfschmerzerkrankungen (Headache Disorder)** wirksam sein könnte. Dafür liegen **17 klinische Studien** und **19 Publikationen** vor, darunter mehrere Leitlinien, systematische Übersichtsarbeiten und Metaanalysen.
 
 ## Schnellübersicht
 
 | Punkt | Inhalt |
-|-------|--------|
-| Ursprüngliche Indikation | Akutschmerzbehandlung (NSAID; Kurzzeitbehandlung von mäßig schweren Schmerzen) |
-| Vorhergesagte neue Indikation | Kopfschmerzstörung (Migräne / Spannungskopfschmerz) |
-| TxGNN-Vorhersage-Score | 99.43% |
-| Evidenzebene | L1 |
-| Status auf dem deutschen Markt | ✗ Nicht im Handel |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Halten |
+|------|------|
+| Ursprüngliche Indikation | Intraokulare Linsenimplantation; postoperativer Schmerz |
+| Vorhergesagte neue Indikation | Kopfschmerzerkrankung (Headache Disorder) |
+| TxGNN-Vorhersagewert | 99,43 % |
+| Evidenzniveau | L1 |
+| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
+| Anzahl der Zulassungen | 1 (0 gültig, 1 erloschen) |
+| Empfohlene Entscheidung | Mit Schutzmaßnahmen fortfahren (Proceed with Guardrails) |
 
----
+*Hinweis zum Evidenzniveau:* Die Einstufung L1 folgt der in den Daten hinterlegten Bewertung. Die Studien sind überwiegend Phase-4- bzw. Phase-3-Studien mit kleinen Fallzahlen. Mehrere davon prüfen Kombinationen, bei denen die Wirkung nicht allein Ketorolac zugeschrieben werden kann.
 
 ## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Wirkmechanismus-Daten im Evidenz-Paket nicht verfügbar (Datenlücke DG002). Auf Grundlage bekannter Informationen ist Ketorolac ein Pyrrolicin-Carbonsäure-NSAID der Pyrrolicin-Klasse, das durch nicht-selektive COX-1/COX-2-Hemmung wirkt und die Prostaglandinsynthese reduziert. Seine Wirksamkeit bei Akutschmerz ist seit Jahrzehnten gut etabliert, und mechanistisch könnte dieselbe Anti-Prostaglandin-Wirkung sich auf Kopfschmerzstörungen erstrecken, da prostaglandi-vermittelte neurogenische Inflammation und trigeminovaskuläre Aktivierung anerkannte Faktoren für Migräne- und Spannungskopfschmerzschmerz sind.
+Zu den Wirkmechanismen liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Auf Grundlage der bekannten Pharmakologie ist Ketorolac ein nicht selektiver COX-1/COX-2-Hemmer, der die Prostaglandinsynthese blockiert.
 
-Akutschmerz und Kopfschmerzstörung sind pharmakologisch verwandt: beide beinhalten periphere und zentrale Sensibilisierung, die teilweise durch Prostaglandine getrieben werden, und NSAIDs sind bereits eine Firstline-Medikamentenklasse für beides. Diese mechanistische Überlappung erklärt wahrscheinlich, warum das TxGNN-Modell Ketorolacs ursprüngliches Akutschmerz-Profil mit Kopfschmerzstörung mit sehr hohem Score verbindet.
+Prostaglandine tragen bei Migräne und Spannungskopfschmerz zu neurogener Entzündung, trigeminovaskulärer Sensibilisierung und Schmerzweiterleitung bei. Die analgetische Wirkung bei akutem Kopfschmerz ist daher mechanistisch gut nachvollziehbar. Auch der ursprüngliche Einsatz gegen postoperative Schmerzen beruht auf demselben prostaglandinvermittelten Schmerzweg.
 
-Die Real-World-Klinische Praxis unterstützt diese Verbindung bereits – parenterales Ketorolac (IV/IM/intranasal) wird seit über 30 Jahren außerhalb der Zulassung als Standard-Notaufnahme-Behandlung für akute Migräne und Spannungskopfschmerz verwendet und ist ausdrücklich als Komparator/Standard-Therapie im Update der American Headache Society-Richtlinie 2025 für parenterale Migräne-Behandlung in der Notaufnahme eingeschlossen. In dieser Hinsicht formalisiert die TxGNN-Vorhersage großenteils ein bereits etabliertes Off-Label-Muster der klinischen Praxis, anstatt einen neuen Wirkmechanismus vorzuschlagen.
-
----
+Die Vorhersage wird zudem durch die klinische Praxis gestützt: Parenterales Ketorolac wird in Notaufnahmen bereits bei akuter Migräne und Spannungskopfschmerz eingesetzt.
 
 ## Evidenz aus klinischen Studien
 
-| Studiennummer | Phase | Status | Patientenzahl | Wichtigste Befunde |
+| Studiennummer | Phase | Status | Teilnehmerzahl | Kernaussagen |
 |---------|------|------|------|---------|
-| [NCT01267864](https://clinicaltrials.gov/study/NCT01267864) | Phase 4 | Abgeschlossen | 330 | IV Valproat vs. Metoclopramid vs. Ketorolac bei akuter Migräne |
-| [NCT01807234](https://clinicaltrials.gov/study/NCT01807234) | Phase 4 | Abgeschlossen | 72 | Ketorolac-Nasenspray vs. Sumatriptan-Nasenspray vs. Placebo bei akuter Migräne, einschließlich Übelkeits- und Allodynie-Outcomes |
-| [NCT02358681](https://clinicaltrials.gov/study/NCT02358681) | Phase 3 | Abgeschlossen | 59 | Intranasales vs. IV Ketorolac Non-Inferiority-Studie bei pädiatrischer Migräne |
-| [NCT03081416](https://clinicaltrials.gov/study/NCT03081416) | Phase 3 | Abgeschlossen | 80 | THINK-Studie: Intranasales Ketamin vs. Standard-Therapie (Ketorolac) bei Kopfschmerz in der Notaufnahme |
+| [NCT01807234](https://clinicaltrials.gov/study/NCT01807234) | Phase 4 | Abgeschlossen | 72 | Ketorolac-Nasenspray vs. Sumatriptan-Nasenspray vs. Placebo bei akuter Migräne |
+| [NCT01596166](https://clinicaltrials.gov/study/NCT01596166) | Phase 4 | Abgeschlossen | 56 | Intravenöses Ketorolac plus Metoclopramid bei pädiatrischer Migräne in der Notaufnahme |
 | [NCT01011673](https://clinicaltrials.gov/study/NCT01011673) | Phase 4 | Abgeschlossen | 123 | Metoclopramid/Diphenhydramin vs. Ketorolac allein bei Spannungskopfschmerz |
-| [NCT01596166](https://clinicaltrials.gov/study/NCT01596166) | Phase 4 | Abgeschlossen | 56 | IV Ketorolac + Metoclopramid-Kombination bei pädiatrischer Migräne in der Notaufnahme |
-| [NCT00483717](https://clinicaltrials.gov/study/NCT00483717) | Phase 2 | Abgeschlossen | 173 | Randomisierte, placebokontrollierte Studie von intranal verabreichtem Ketorolac bei akuter Migräne |
-| [NCT01138150](https://clinicaltrials.gov/study/NCT01138150) | Phase 4 | Abgeschlossen | 36 | Veränderungen von Entzündungsmarkern während akuter Migräneanfälle mit Ketorolac |
-| [NCT06083571](https://clinicaltrials.gov/study/NCT06083571) | Phase 2 | Beendet | 41 | Intranasales Ketorolac + orale Zusatzmittel vs. IV Ketorolac bei pädiatrischer Migräne |
-| [NCT02664116](https://clinicaltrials.gov/study/NCT02664116) | Phase 4 | Unbekannt | 40 | IM Ketorolac vs. orales Diclofenac-Kalium bei schwerer Migräne |
+| [NCT01267864](https://clinicaltrials.gov/study/NCT01267864) | Phase 4 | Abgeschlossen | 330 | Intravenöses Valproat vs. Metoclopramid vs. Ketorolac bei akuter Migräne |
+| [NCT00483717](https://clinicaltrials.gov/study/NCT00483717) | Phase 2 | Abgeschlossen | 173 | Doppelblinde, placebokontrollierte Studie zu intranasalem Ketorolac bei akuter Migräne |
+| [NCT02358681](https://clinicaltrials.gov/study/NCT02358681) | Phase 3 | Abgeschlossen | 59 | Intranasales vs. intravenöses Ketorolac bei Migräne von Kindern (Nichtunterlegenheit) |
+| [NCT05641363](https://clinicaltrials.gov/study/NCT05641363) | Phase 3 | Abgeschlossen | 171 | Vergleich dreier Ketorolac-Dosen bei akutem Schmerz im Kindesalter |
+| [NCT03081416](https://clinicaltrials.gov/study/NCT03081416) | Phase 3 | Abgeschlossen | 80 | Intranasales Ketamin vs. Standardtherapie bei primären Kopfschmerzen in der Notaufnahme |
+| [NCT03221569](https://clinicaltrials.gov/study/NCT03221569) | Phase 4 | Unbekannt | 60 | Ketamin vs. Ketorolac bei Spannungskopfschmerz |
+| [NCT06083571](https://clinicaltrials.gov/study/NCT06083571) | Phase 2 | Abgebrochen | 41 | Intranasaler Migräne-Cocktail mit Ketorolac in der pädiatrischen Notaufnahme |
 
----
+Weitere erfasste Studien (u. a. zurückgezogene Studien ohne Teilnehmer sowie Studien, in denen Ketorolac nur Begleittherapie ist) wurden wegen geringer Relevanz nicht aufgeführt.
 
-## Evidenz aus Literatur
+## Literaturevidenz
 
-| PMID | Jahr | Typ | Zeitschrift | Wichtigste Befunde |
+| PMID | Jahr | Typ | Fachzeitschrift | Kernaussagen |
 |------|-----|------|------|---------|
-| [9484382](https://pubmed.ncbi.nlm.nih.gov/9484382/) | 1998 | RCT | Neurology | IM Ketorolac 60 mg signifikant wirksamer als Meperidin+Promethazin oder Kochsalzlösung bei Spannungskopfschmerz über 6 Stunden |
-| [1514724](https://pubmed.ncbi.nlm.nih.gov/1514724/) | 1992 | RCT | Annals of Emergency Medicine | IM Ketorolac verglichen mit Meperidin+Hydroxyzin bei akuter Migräne |
-| [35670115](https://pubmed.ncbi.nlm.nih.gov/35670115/) | 2022 | RCT | Headache | IV Ketorolac zu Metoclopramid für pädiatrische Migräne in der Notaufnahme hinzufügen |
-| [30783794](https://pubmed.ncbi.nlm.nih.gov/30783794/) | 2019 | RCT | Neurological Sciences | Vergleich von Dexamethason, Metoclopramid, Ketorolac und Chlorpromazin zur Linderung von Migräneschmerzen und Rezidivprävention |
-| [41321235](https://pubmed.ncbi.nlm.nih.gov/41321235/) | 2026 | Richtlinie | Headache | Update der AHS-Richtlinie 2025 zur parenteralen Migräne-Pharmakotherapie in der Notaufnahme |
-| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | Richtlinie/Übersicht | Headache | AHS-Evidenzbewertung von Migräne-Pharmakotherapien |
-| [39674934](https://pubmed.ncbi.nlm.nih.gov/39674934/) | 2025 | Systematische Übersicht/Meta-Analyse | Annals of Emergency Medicine | Bayessches Netzwerk-Meta-Analyse von pharmakologischen Therapien der Notaufnahme für Migräne |
-| [35138658](https://pubmed.ncbi.nlm.nih.gov/35138658/) | 2022 | Systematische Übersicht/Meta-Analyse | Academic Emergency Medicine | Wirksamkeit von parenteralem Ketorolac bei akutem Migräneanfall |
-| [37849443](https://pubmed.ncbi.nlm.nih.gov/37849443/) | 2024 | Systematische Übersicht/Meta-Analyse | Adv Clin Exp Med | IV Ketorolac vs. Metoclopramid bei adulten Migränekopfschmerzen |
-| [8240554](https://pubmed.ncbi.nlm.nih.gov/8240554/) | 1993 | Beobachtungsstudie (patientenevaluiert) | American Journal of Emergency Medicine | Ketorolac reduzierte Migräneschmerz/Übelkeit schnell nach Patienteneigenbewertung bei 30/60/90 min |
+| [35138658](https://pubmed.ncbi.nlm.nih.gov/35138658/) | 2022 | Systematische Übersicht/Metaanalyse | Acad Emerg Med | Wirksamkeit von parenteralem Ketorolac bei akuter Migräneattacke |
+| [37849443](https://pubmed.ncbi.nlm.nih.gov/37849443/) | 2024 | Systematische Übersicht/Metaanalyse | Adv Clin Exp Med | Intravenöses Ketorolac vs. Metoclopramid bei erwachsenen Migränepatienten |
+| [23298250](https://pubmed.ncbi.nlm.nih.gov/23298250/) | 2013 | Systematische Übersicht | Headache | Wirksamkeit von parenteralem Ketorolac bei akuter Migräne; Evidenz teilweise widersprüchlich |
+| [41321235](https://pubmed.ncbi.nlm.nih.gov/41321235/) | 2026 | Leitlinie | Headache | Aktualisierung der AHS-Leitlinie 2025 zur parenteralen Akuttherapie der Migräne in der Notaufnahme |
+| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | Leitlinie/Evidenzbewertung | Headache | Evidenzbewertung der AHS zu Akuttherapien der Migräne |
+| [32464520](https://pubmed.ncbi.nlm.nih.gov/32464520/) | 2020 | Netzwerk-Metaanalyse | Clin Neurol Neurosurg | Medikamente bei akuter pädiatrischer Migräne im Vergleich |
+| [24433525](https://pubmed.ncbi.nlm.nih.gov/24433525/) | 2014 | Systematische Übersicht | Headache | Parenterale Behandlung des episodischen Spannungskopfschmerzes |
+| [35670115](https://pubmed.ncbi.nlm.nih.gov/35670115/) | 2022 | Randomisierte Studie | Headache | Metoclopramid allein vs. Kombination mit Ketorolac bei Migräne von Kindern in der Notaufnahme |
+| [30783794](https://pubmed.ncbi.nlm.nih.gov/30783794/) | 2019 | Randomisierte Studie | Neurol Sci | Intravenöses Dexamethason, Metoclopramid, Ketorolac und Chlorpromazin im Vergleich |
+| [1514724](https://pubmed.ncbi.nlm.nih.gov/1514724/) | 1992 | Randomisierte Studie | Ann Emerg Med | Intramuskuläres Ketorolac vs. Meperidin plus Hydroxyzin bei akuter Migräne |
 
----
+## Informationen zum deutschen Markt
 
-## Sicherheitsüberlegungen
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/003702 | Omidria | – | Intraokulare Linsenimplantation; postoperativer Schmerz (Status: erloschen) |
 
-Bitte beachten Sie die Gebrauchsinformation für Sicherheitsinformationen. Es konnten keine TFDA-Warnungen, Kontraindikationen oder Arzneimittelwechselwirkungsdaten für dieses Evidenz-Paket extrahiert werden (Datenlücke DG001, als **Blockierend** gekennzeichnet – diese muss behoben werden, bevor ein S1-Sicherheits-Vor-Screening durchgeführt werden kann).
+Es besteht derzeit keine gültige Zulassung in Deutschland.
 
----
+## Sicherheitsaspekte
+
+- **Kontraindikationen aus Wissensgraph (keine Packungsbeilagen-Angaben):** Im TxGNN-Wissensgraphen sind u. a. folgende Erkrankungen als Kontraindikationen hinterlegt: aktives Magen-/Zwölffingerdarmgeschwür, Lebererkrankung, eingeschränkte Nierenfunktion, Herz-Kreislauf-Erkrankungen (einschließlich Myokardinfarkt und Schlaganfall), Blutgerinnungsstörungen/Hämophilie, Asthma, chronisch-entzündliche Darmerkrankungen, Bluthochdruck, Diabetes mellitus, Anämie und Syndrom des trockenen Auges.
+- **Arzneimittelwechselwirkungen:** Für 100 Wechselwirkungen liegen Daten vor. Besonders relevant:
+  - **Schwerwiegend (Major):** Acetylsalicylsäure
+  - **Mäßig (Moderate):** Kortikosteroide (Dexamethason, Betamethason, Budesonid, Hydrocortison), Sulfonylharnstoffe (Glimepirid, Glipizid, Glyburid, Chlorpropamid, Acetohexamid), Exenatid, Kanamycin, Levofloxacin, Balsalazid, Fenfluramin/Dexfenfluramin
+  - **Gering (Minor):** Famotidin, Ranitidin, Cimetidin, Linaclotid
+- **Hinweis aus der Literatur:** Ein Fallbericht beschreibt eine Lithiumintoxikation bei gleichzeitiger Gabe von Ketorolac.
+
+Für Warnhinweise und Kontraindikationen gemäß Fachinformation: Bitte die Packungsbeilage bzw. Fachinformation beachten.
+
+## Weitere vorhergesagte Indikationen (zur Einordnung)
+
+- **Rosazea-Konjunktivitis** (TxGNN 99,40 %): Nur Modellvorhersage, keine Studien oder Literatur (L5) – Entscheidung: Hold.
+- **Trigeminoautonomer Kopfschmerz** (TxGNN 99,39 %): Nur indirekte Evidenz, eine zurückgezogene Studie ohne Teilnehmer (L4); Clusterkopfschmerz spricht allgemein schlecht auf Standard-NSAR an – Entscheidung: Hold.
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Halten**
+**Entscheidung: Mit Schutzmaßnahmen fortfahren (Proceed with Guardrails)**
 
 **Begründung:**
-Die Wirksamkeitsevidenz ist ungewöhnlich stark für einen Repurposing-Kandidaten – Dutzende abgeschlossener Phase-2–4-RCTs, mehrere systematische Übersichten/Meta-Analysen und Aufnahme in die AHS-Richtlinie 2025 zum ED-Migräne-Update (Evidenzebene L1). Das Arzneimittel hat jedoch derzeit **null Marktgenehmigungen in Deutschland**, und Sicherheitskennzeichnungsdaten (Warnungen, Kontraindikationen, Arzneimittelwechselwirkungen) sind völlig verfügbar – eine **blockierende** Datenlücke, die den Eintritt in die Phase S1-Sicherheits-Vor-Screening-Stufe unabhängig von der Wirksamkeitsstärke verhindert.
+Für Kopfschmerzerkrankungen, insbesondere akute Migräne, liegen mehrere abgeschlossene Studien der Phasen 2–4 sowie systematische Übersichten und Leitlinien vor. Das Sicherheitsprofil von Ketorolac (Magen-Darm-, Nieren- und kardiovaskuläre Risiken) erfordert jedoch klare Schutzmaßnahmen. Zudem fehlt in Deutschland derzeit eine gültige Zulassung.
 
-**Um fortzufahren, ist folgendes erforderlich:**
-- TFDA/Herstellergebrauchsinformation mit vollständigen Warnungen, Kontraindikationen und Vorsichtsmaßnahmen (DG001 lösen)
-- Detailliertes Wirkmechanismus-/Pharmakologieprofil von DrugBank oder Primärliteratur (DG002 lösen)
-- Bestätigung einer machbaren Verabreichungsroute (IV/IM/intranasal) in Übereinstimmung mit ED-Migräne-Behandlungsprotokollen
-- Bewertung des Regulierungswegs angesichts des aktuellen unmarktierten Status des Arzneimittels in Deutschland
-
+**Für das weitere Vorgehen sind erforderlich:**
+- Fachinformation (Warnhinweise und Kontraindikationen) aus BfArM-Quellen beschaffen; diese Sicherheitsprüfung ist derzeit blockiert
+- Daten zum Wirkmechanismus (MOA) aus DrugBank ergänzen
+- Klärung des Zulassungswegs, da die einzige Zulassung (Omidria) erloschen ist und sich auf eine ophthalmologische Anwendung bezieht
+- Prüfung der Applikationswege (parenteral/intranasal), da die Zulassungsdaten keine Darreichungsform enthalten
+- Sicherheitsüberwachungsplan für Risikogruppen (Magen-Darm-Geschwüre, Nieren-, Herz-Kreislauf- und Blutungsrisiko) sowie Beachtung der Wechselwirkungen, insbesondere mit Acetylsalicylsäure
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -2,7 +2,7 @@
 layout: default
 title: Posaconazole
 parent: Mittlere Evidenz (L3-L4)
-nav_order: 313
+nav_order: 365
 evidence_level: L4
 indication_count: 1
 ---
@@ -29,74 +29,100 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# POSACONAZOL: Von der antimykotischen Prophylaxe zur Pneumocystose
+# Posaconazol: Von Mykosen zu Pneumocystose
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Posaconazol ist ein Triazol-Antimykotikum, dessen etablierte Anwendung die Prophylaxe von invasiven Pilzerkrankungen ist (gemäß Literaturbelegen in diesem Datenpaket; im Quelldatenmaterial wurde kein formeller Indikationstext bereitgestellt). Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam bei **Pneumocystose** ist, aber dies wird derzeit nur durch indirekte Hintergundinformationen gestützt — **2 klinische Studien** (von denen keine Posaconazol direkt gegen Pneumocystose testet) und **5 Publikationen** (hauptsächlich Übersichtsartikel/Richtlinien, keine dedizierte RCT).
+Posaconazol ist ein Triazol-Antimykotikum, das ursprünglich zur Behandlung von Pilzinfektionen (Candidiasis, Kokzidioidomykose, Aspergillose und weiteren Mykosen) zugelassen wurde. Das TxGNN-Modell sagt voraus, dass es bei **Pneumocystose** wirksam sein könnte. Dafür liegen **1 klinische Studie** (ohne direkten Posaconazol-Bezug) und **5 Publikationen** (überwiegend Leitlinien und Übersichtsarbeiten) vor. Die Evidenz für diese Indikation ist daher sehr schwach.
 
-## Kurzübersicht
+---
+
+## Schnellübersicht
 
 | Punkt | Inhalt |
-|------|--------|
-| Ursprüngliche Indikation | Im Evidenzpaket nicht angegeben (drug-level `original_indications` ist leer); Literaturbelege beschreiben Posaconazol als „Schimmel-wirksames" Mittel für antimykotische Prophylaxe bei Hochrisiko-hämatoonkologischen Patienten |
+|------|------|
+| Ursprüngliche Indikation | Candidiasis; Mykosen; Kokzidioidomykose; Aspergillose |
 | Vorhergesagte neue Indikation | Pneumocystose |
-| TxGNN-Vorhersage-Score | 99.77% |
-| Evidenzstufe | L4 |
-| Marststatus Deutschland | Nicht zugelassen |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Zurückgestellt |
+| TxGNN-Vorhersagewert | 99,77 % |
+| Evidenzlevel | L4 |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen |
+| Anzahl der Zulassungen | 5 (alle erloschen) |
+| Empfohlene Entscheidung | Hold |
 
-## Warum ist diese Vorhersage nachvollziehbar?
+---
 
-Formale Wirkmechanismus-Daten (`original_moa`) werden in diesem Evidenzpaket als Datenlücke aufgeführt. Das bereitgestellte Feld zur Repurposing-Rationale beschreibt jedoch Posaconazols Wirkmechanismus: Es hemmt das fungale CYP51 (14α-Demethylase) und blockiert die Ergosterolsynthese — der klassische Wirkmechanismus für breitzuständige Triazol-Antimykotika.
+## Warum ist diese Vorhersage plausibel?
 
-Die vorgeschlagene Verbindung zur Pneumocystose ist mechanistisch schwach. *Pneumocystis jirovecii* ist taxonomisch ein Pilz, aber seine Zellmembran basiert auf Cholesterin statt Ergosterol, was bedeutet, dass der Azol-Ergosterol-Weg, der der Aktivität von Posaconazol zugrunde liegt, nicht unmittelbar anwendbar ist. Die verfügbare Literatur erwähnt Posaconazol nur im breiteren Kontext des Managements invasiver Pilzerkrankungen (einschließlich *Pneumocystis*-Pneumonie als eine von mehreren in Übersichtsartikeln erörterten Pilzerkrankungen) und als mögliche Alternative bei Patienten, die TMP-SMX nicht vertragen — dies ist eine indirekte Schlussfolgerung, keine mechanistisch oder klinisch validierte Aussage.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Posaconazol gehört zur Klasse der Triazol-Antimykotika und hemmt die fungale Lanosterol-14-alpha-Demethylase (CYP51). Dadurch wird die Ergosterol-Synthese blockiert. Seine Wirksamkeit bei invasiven Mykosen ist belegt, und Pneumocystis jirovecii wird taxonomisch zu den Pilzen gezählt. Daraus ergibt sich eine Plausibilität auf Klassenebene.
 
-Angesichts der atypischen Zielbiologie und des Fehlens von Studien, die Posaconazol direkt gegen Pneumocystose testen, sollte diese Vorhersage eher als Forschungshypothese als als klinisch verwertbares Signal in dieser Phase behandelt werden.
+Es gibt jedoch ein gewichtiges Gegenargument: Die Membran von Pneumocystis enthält kaum Ergosterol und verwendet stattdessen vor allem Cholesterin und andere Sterole. Azole wie Posaconazol gelten daher allgemein als wenig wirksam gegen diesen Erreger. Der hohe TxGNN-Wert (0,998) beruht vermutlich eher auf der breiten antimykotischen Annotation des Wirkstoffs als auf einem validierten Mechanismus. Die mechanistische Verbindung ist somit nicht bestätigt und eher skeptisch zu beurteilen.
 
-## Klinische Studienevidenz
+---
 
-| Studiennummer | Phase | Status | Enrollment | Wesentliche Ergebnisse |
+## Evidenz aus klinischen Studien
+
+| Studiennummer | Phase | Status | Teilnehmerzahl | Zentrale Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT04368559](https://clinicaltrials.gov/study/NCT04368559) | Phase 3 | Abgeschlossen | 602 | Testet **Rezafungin** (ein Echinocandin, nicht Posaconazol) vs. Standardantimikrobielles Schema zur Prävention invasiver Pilzerkrankung bei allogenen KMT-Patienten; kein Fokus auf Pneumocystose und keine Posaconazol-Studie — nur Hintergrundrelevanz (Grad C). |
-| [NCT06859424](https://clinicaltrials.gov/study/NCT06859424) | Phase 2 | Rekrutierung läuft | 358 | Plattformstudie, die GVHD-Prophylaxe-Regimen bei nicht übereinstimmenden Unverwandten-Spender-Transplantatempfängern vergleicht; kann Antimykotika-Prophylaxe-Arme einschließen (möglicherweise Posaconazol), aber primäre Endpunkte sind GVHD-bezogen, nicht Pneumocystose-Wirksamkeit/Sicherheit (Grad C). |
+| [NCT04368559](https://clinicaltrials.gov/study/NCT04368559) | Phase 3 | Abgeschlossen | 602 | Rezafungin i.v. versus Standardregime zur Prävention invasiver Pilzinfektionen nach allogener Blut- und Knochenmarktransplantation. Kein Posaconazol-Prüfarm erkennbar; nur als Hintergrund zum Design antimykotischer Prophylaxestudien relevant. |
 
-Keine Studie liefert direkte Wirksamkeits- oder Sicherheitsevidenz für Posaconazol bei Pneumocystose.
+---
 
 ## Literaturevidenz
 
-| PMID | Jahr | Typ | Journal | Wesentliche Ergebnisse |
+| PMID | Jahr | Typ | Journal | Zentrale Ergebnisse |
 |------|-----|------|------|---------|
-| [41232547](https://pubmed.ncbi.nlm.nih.gov/41232547/) | 2025 | Übersichtsartikel/Richtlinie | The Lancet. Infectious Diseases | UK-Update zu Best-Practice der Diagnostik schwerwiegender Pilzerkrankungen; allgemeine Diagnose-Landschaft, keine Posaconazol-spezifischen Therapiedaten. |
-| [26901377](https://pubmed.ncbi.nlm.nih.gov/26901377/) | 2016 | Übersichtsartikel | Swiss Medical Weekly | Übersicht über Candidiasis, Aspergilllose, Kryptokokkose und *Pneumocystis*-Pneumonie; vermerkt, dass Schimmel-wirksame Posaconazol-Prophylaxe invasive Candidiasis bei Hochrisiko-hämatoonkologischen Patienten reduzierte — der nächstliegende Evidenzverbindung in diesem Paket, aber immer noch ein allgemeiner Übersichtsartikel, keine Pneumocystose-spezifischen Studiendaten. |
-| [41362140](https://pubmed.ncbi.nlm.nih.gov/41362140/) | 2025 | Übersichtsartikel/Richtlinie | Chinese Journal of Tuberculosis and Respiratory Diseases | 2025 Chinese Clinical Practice Guideline für Diagnose/Management invasiver pulmonaler Pilzerkrankung; allgemeiner Richtlinienkontext. |
-| [21973267](https://pubmed.ncbi.nlm.nih.gov/21973267/) | 2011 | PK/PD-Studie | Clinical Pharmacokinetics | Überprüft die Penetration antimykotischer/antituberkulöser Wirkstoffe in die pulmonale Epithelflüssigkeit; nur pharmakokinetischer Hintergrund, keine Wirksamkeitsdaten für Pneumocystose. |
-| [35596686](https://pubmed.ncbi.nlm.nih.gov/35596686/) | 2022 | Kohortenstudie | Transplant Infectious Disease | Retrospektive Kohorte infektiöser Komplikationen bei akutem GVHD nach Lebertransplantation; beschreibt Antimikrobielle-Management-Muster, keine Posaconazol-Pneumocystose-Wirksamkeitsstudie. |
+| [41232547](https://pubmed.ncbi.nlm.nih.gov/41232547/) | 2026 | Leitlinie/Review | The Lancet Infectious Diseases | Aktualisierte Empfehlungen der British Society for Medical Mycology zur Diagnostik schwerer Pilzerkrankungen |
+| [41362140](https://pubmed.ncbi.nlm.nih.gov/41362140/) | 2025 | Leitlinie/Review | Zhonghua Jie He He Hu Xi Za Zhi | Chinesische Leitlinie zu Diagnose und Management invasiver pulmonaler Pilzerkrankungen |
+| [26901377](https://pubmed.ncbi.nlm.nih.gov/26901377/) | 2016 | Review | Swiss Medical Weekly | Überblick über Candidiasis, Aspergillose, Kryptokokkose und Pneumocystis-Pneumonie; Posaconazol-Prophylaxe senkte invasive Candidiasis und Aspergillose bei Hochrisiko-Patienten |
+| [21973267](https://pubmed.ncbi.nlm.nih.gov/21973267/) | 2011 | Review (Pharmakokinetik) | Clinical Pharmacokinetics | Penetration von Antiinfektiva, darunter Antimykotika, in die pulmonale Epithelflüssigkeit |
+| [35596686](https://pubmed.ncbi.nlm.nih.gov/35596686/) | 2022 | Kohorte/Beobachtungsstudie | Transplant Infectious Disease | Infektiöse Komplikationen bei akuter GVHD nach Lebertransplantation |
 
-Keine RCT oder dedizierte klinische Studie evaluiert direkt Posaconazol für Pneumocystose-Behandlung oder -Prophylaxe.
+Keine dieser Arbeiten liefert direkte Wirksamkeitsdaten für Posaconazol bei Pneumocystose.
 
-## Marktinformationen für Deutschland
+---
 
-Posaconazol hat derzeit **keine Marktgenehmigung** in diesem Evidenzpaket (`market_status`: Not marketed / Nicht zugelassen; `total_licenses`: 0; `licenses`: keine angegeben). Es kann keine Zulassungstabelle erstellt werden.
+## Marktinformationen Deutschland
+
+Alle Zulassungen sind erloschen (europäische Zentralzulassungen).
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000610 | Noxafil | – | Candidiasis; Mykosen; Kokzidioidomykose; Aspergillose |
+| EMEA/H/C/005028 | Posaconazole AHCL | – | Mykosen |
+| EMEA/H/C/005005 | Posaconazole Accord | – | Mykosen |
+| EMEA/V/C/004987 | Mometamax Ultra | – | – |
+| EMEA/V/C/000122 | Posatex | – | – |
+
+---
 
 ## Sicherheitsaspekte
 
-Bitte verweisen Sie auf die Packungsbeilage für Sicherheitsinformationen. Wesentliche Warnungen, Kontraindikationen und Arzneimittel-Wechselwirkungs-Daten werden alle in diesem Evidenzpaket als Datenlücken aufgeführt (DDI-Abfragestatus: nicht gefunden) und können derzeit nicht zusammengefasst werden.
+**Arzneimittelwechselwirkungen:** Die Abfrage ergab 100 Wechselwirkungen; ausgewertet wurden die ersten 20. Als **schwerwiegend (Major)** eingestuft sind:
+- Loperamid
+- Triamcinolon
+- Budesonid
+
+Als **moderat** eingestuft sind unter anderem:
+- Säureblocker/Protonenpumpenhemmer: Famotidin, Ranitidin, Cimetidin, Omeprazol, Rabeprazol
+- Kortikosteroide: Hydrocortison, Dexamethason, Betamethason
+- Weitere: Aprepitant, Clarithromycin, Saxagliptin, Bisacodyl, Picosulfat, Polyethylenglykol
+
+Zu Warnhinweisen und Gegenanzeigen liegen keine Daten vor. Bitte die Fachinformation zu Rate ziehen.
+
+---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Zurückgestellt**
+**Entscheidung: Hold**
 
-**Rationale:**
-Der mechanistische Zusammenhang zwischen Posaconazol und Pneumocystose ist biologisch schwach (atypisch, Zielzellmembran nicht auf Ergosterol-Basis) und wird durch keine direkte klinische Studie unterstützt; alle identifizierten Studien und Literaturstellen sind indirekte Hintergundinformationen (Evidenzstufe L4, Entscheidungsstufe S1 — „Forschungsfrage"). Darüber hinaus sind Sicherheitsdaten (TFDA/lokale Warnungen und Kontraindikationen) eine **blockierende** Datenlücke (DG001), die an sich die Weiterentwicklung zu einer formalen Sicherheitsevaluierung verhindert (S1).
+**Begründung:**
+Der hohe TxGNN-Wert wird durch keine direkte klinische Evidenz gestützt. Die einzige Studie prüft einen anderen Wirkstoff, die Literatur besteht aus allgemeinen Übersichten. Zudem spricht die Biologie von Pneumocystis (kaum Ergosterol) gegen eine Azol-Wirksamkeit. Alle deutschen Zulassungen sind erloschen.
 
-**Um fortzufahren, wird Folgendes benötigt:**
-- Behebung von DG001 (Blockierend): Beschaffung offizielle Produktkennzeichnungs-Warnungen/Kontraindikationen, bevor eine S1-Sicherheitsevaluierung begonnen werden kann
-- Behebung von DG002 (Hochpriorisiert): Bestätigung formaler Wirkmechanismus-Daten über DrugBank API, um mechanistische Plausibilität richtig zu bewerten
-- Identifizierung oder Durchführung einer Studie, die Posaconazol direkt bei Pneumocystose testet (Wirksamkeit und Sicherheit), da derzeit keine solche Studie existiert
-- Klarstellung der pharmakologischen Rationale angesichts der atypischen (Cholesterin-basierten) Membranbiologie von *Pneumocystis jirovecii* im Vergleich zum Ergosterol-Targeting-Mechanismus von Posaconazol
-
+**Für ein Weiterverfolgen sind erforderlich:**
+- Fachinformation mit Warnhinweisen und Gegenanzeigen (derzeit blockierende Datenlücke für die Sicherheitsbewertung)
+- Mechanistische Daten (MOA), insbesondere zur In-vitro-Aktivität von Posaconazol gegen Pneumocystis
+- Präklinische oder klinische Daten, die direkt Posaconazol bei Pneumocystose untersuchen
+- Klärung des aktuellen Zulassungs- und Vertriebsstatus in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -2,7 +2,7 @@
 layout: default
 title: Tipranavir
 parent: Nur Modellvorhersage (L5)
-nav_order: 398
+nav_order: 466
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,75 +29,76 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Tipranavir: Von der HIV-1-Infektion zum Felinen Immundefekt-Syndrom
+# Tipranavir: Von HIV-Infektion zu felinem erworbenem Immundefizienz-Syndrom
 
 ## Zusammenfassung in einem Satz
 
-Tipranavir ist ein nicht-peptidischer HIV-1-Proteasehemmer, der klinisch (in Kombination mit Ritonavir) zur Behandlung therapieerfahrener HIV-1-Infektionen eingesetzt wird. Die Top-Vorhersage des TxGNN-Modells ist das **Feline Immundefekt-Syndrom (FIV)**, eine veterinärmedizinische Retrovirus-Erkrankung bei Katzen – **ohne klinische Studien und ohne Literatur**, die dies derzeit als Gelegenheit zur Wiederverwendung beim Menschen stützt. Das Modell scheint eher strukturelle Homologien zwischen tierartübergreifenden Retroviralen Proteasen zu erfassen, als ein verwertbares klinisches Signal zu identifizieren.
+Tipranavir ist ein Proteaseinhibitor, der ursprünglich zur Behandlung von HIV-Infektionen zugelassen wurde.
+Das TxGNN-Modell sagt voraus, dass er bei **felinem erworbenem Immundefizienz-Syndrom** (einer Tierkrankheit) wirksam sein könnte.
+Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage beruht allein auf dem Modell.
 
----
+## Kurzübersicht
 
-## Schnellübersicht
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | HIV-Infektionen |
+| Vorhergesagte neue Indikation | Felines erworbenes Immundefizienz-Syndrom |
+| TxGNN-Vorhersagewert | 99,99 % |
+| Evidenzlevel | L5 |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
+| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 aufgehoben) |
+| Empfohlene Entscheidung | Hold |
 
-| Eintrag | Inhalt |
-|---------|---------|
-| Ursprüngliche Indikation | Nicht im Evidenzpaket angegeben (klinisch bekannt: HIV-1-Infektion, therapieerfahrene Erwachsene, verwendet mit Ritonavir-Verstärkung) |
-| Vorhergesagte neue Indikation | Felines Immundefekt-Syndrom (veterinärmedizinisch) |
-| TxGNN-Vorhersage-Score | 99.99% (Rang 215 von der vollständigen Krankheitsliste) |
-| Evidenzstufe | L5 (nur Modellvorhersage, keine stützenden Studien oder Literatur) |
-| Marktstatus Deutschland | ✗ Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Abwartend |
+## Warum ist diese Vorhersage nachvollziehbar?
 
----
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Tipranavir ein nicht-peptidischer Inhibitor der HIV-1-Protease ist. Seine Wirksamkeit bei HIV-Infektionen war Grundlage der Zulassung.
 
-## Warum ist diese Vorhersage plausibel?
+Das Feline Immundefizienzvirus (FIV) ist ein Lentivirus mit einer Protease, die der HIV-1-Protease strukturell verwandt ist. Ein mechanistischer Ansatz ist daher denkbar. Allerdings unterscheiden sich Substratspezifität und Inhibitor-Empfindlichkeit der FIV-Protease, und es liegen keine belegenden Daten vor. Der hohe TxGNN-Wert spiegelt sehr wahrscheinlich die Nähe zu HIV-bezogenen Knoten im Wissensgraphen wider.
 
-Derzeit sind detaillierte Wirkmechanismus-Daten nicht verfügbar (gekennzeichnet als Datenlücke mit hohem Schweregrad). Basierend auf bekannten Informationen ist Tipranavir ein nicht-peptidischer HIV-1-Proteasehemmer, der mit Ritonavir verabreicht wird; seine Wirksamkeit bei therapieerfahrenen HIV-1-Infektionen ist gut etabliert.
+Wichtig: Es handelt sich um eine veterinärmedizinische Indikation, die für die Arzneimittelneuausrichtung beim Menschen nicht relevant ist. Auch die weiteren Vorhersagen sind überwiegend wenig plausibel:
 
-Die Top-bewertete vorhergesagte Indikation, das Feline Immundefekt-Syndrom (FIV), ist eine **veterinärmedizinische Retrovirus-Erkrankung**, keine menschliche Erkrankung. Die Begründung des Modells vermerkt explizit, dass die hohe Punktzahl wahrscheinlich die strukturelle Homologie zwischen den FIV- und HIV-Proteasen (ein tierartübergreifender Retrovirus-Mechanismus) widerspiegelt, eher als eine tatsächliche therapeutische Gelegenheit beim Menschen – die Quelldaten selbst besagen, dass dies „keinen praktischen Wert für die Wiederverwendung von Arzneimitteln hat".
+- **Simian-Immundefizienzvirus-Infektion** (Rang 2): im Wesentlichen ein Tiermodell, nur als präklinisches Modell von Wert.
+- **Kongenitale HIV-Infektion** und **AIDS-related complex** (Rang 5 und 6): Varianten der bereits zugelassenen Indikation, daher keine echte Neuausrichtung.
+- **Obsolete familiäre kombinierte Hyperlipidämie** (Rang 4): Tipranavir/Ritonavir erhöht bekanntermaßen Triglyceride und Cholesterin. Die Vorhersage dürfte ein Nebenwirkungssignal statt eines Therapieeffekts abbilden.
+- **Neurologische Entwicklungsstörung, Prostatafibrom, Brenner-Tumor, gutartige Neoplasien des Reproduktionssystems, gutartiger Prostata-Phyllodes-Tumor** (Ränge 3 und 7–10): kein erkennbarer mechanistischer Zusammenhang, wahrscheinlich Artefakte des Graphen.
 
-Dasselbe Muster gilt für die meisten anderen Top-10-Vorhersagen: Simiane Immunodefekt-Virus-Infektion (Forschungstiermodell), eine seltene neuronale Entwicklungsstörung, familiäre Hyperlipidämie (wahrscheinlich eine bekannte Nebenwirkung des Proteasehemmers widerspiegelnd, eher als eine behandelbare Indikation), und mehrere nicht verwandte benigne Neoplasien (Prostatafibrom, Brenner-Tumor, Phyllodes-Tumor) – alle intern als Rauscheinbettung ohne biologische Plausibilität gekennzeichnet. Zwei Ausnahmen stechen hervor: **AIDS-assoziierter Komplex** (Rang 6, Evidenzstufe L4) ist mechanistisch kohärent, da er sich im gleichen HIV/AIDS-Krankheitsspektrum befindet, das Tipranavir bereits behandelt, obwohl keine Studien zu diesem älteren Begriff gefunden wurden; und **kongenitale HIV-Infektion** (Rang 5) ist mit 9 klinischen Studien verbunden, aber diese befassen sich alle mit anderen antiretroviralen Therapieschema (cabotegravir/rilpivirine, dolutegravir, Maraviroc-Klasse-CCR5-Antagonisten), eher als mit Tipranavir selbst, daher unterstützen sie nicht direkt eine neue Indikation für dieses Arzneimittel.
+## Evidenz aus klinischen Studien
 
----
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
-## Klinische Studienevidenz
+## Evidenz aus der Literatur
 
-Derzeit sind keine zugehörigen klinischen Studien für die vorhergesagte Indikation registriert (Felines Immundefekt-Syndrom).
+Derzeit ist keine zugehörige Literatur verfügbar.
 
----
+## Informationen zum Markt in Deutschland
 
-## Literaturenevidenz
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000631 | Aptivus | – | HIV-Infektionen |
 
-Derzeit ist keine zugehörige Literatur für die vorhergesagte Indikation verfügbar (Felines Immundefekt-Syndrom).
+Die einzige Zulassung (Boehringer Ingelheim International GmbH) ist aufgehoben.
 
----
+## Sicherheitsaspekte
 
-## Marktstatus Deutschland
+- **Kontraindikationen aus dem Wissensgraphen** (TxGNN/PrimeKG, nicht aus dem Beipackzettel): Leberversagen, Lebererkrankung, Gallenblasenerkrankung, Hyperglykämie, Diabetes mellitus, diabetische Ketoazidose, chronische Hepatitis C und B, Hepatitis C, Hepatitis, Blutgerinnungsstörungen, Hämophilie (einschließlich symptomatischer Form bei weiblichen Trägerinnen), Hypertriglyceridämie, Hyperbilirubinämie (auch hereditär), Gilbert-Syndrom, Verletzungen, Hirntumor/Hirnneoplasma und intrakranielle Blutungen.
+- **Arzneimittelwechselwirkungen** (100 Einträge gefunden, Auswahl):
+  - **Schwerwiegend:** Acetylsalicylsäure, Eluxadolin.
+  - **Moderat:** Antidiabetika (Acarbose, Albiglutid, Alogliptin, Metformin, Pioglitazon, Canagliflozin, Chlorpropamid, Dapagliflozin, Dulaglutid, Empagliflozin, Linagliptin), außerdem Loperamid, Dexamethason, Cholsäure, Clarithromycin, Magnesiumoxid, Eliglustat und topisches Metronidazol.
 
-Derzeit sind keine Marktgenehmigungen für Tipranavir registriert (0 Lizenzen erfasst; Marktstatus: nicht vermarktet).
+Warnhinweise und Gegenanzeigen aus der Fachinformation liegen nicht vor. Bitte hierzu die Fachinformation heranziehen.
 
----
+## Fazit und nächste Schritte
 
-## Sicherheitsüberlegungen
-
-Bitte konsultieren Sie die Gebrauchsinformation für Sicherheitsinformationen. *(Wichtige Warnhinweise, Kontraindikationen und Arzneimittelwechselwirkungsdaten sind derzeit nicht verfügbar – Das Abrufen des TFDA-Labels ist als Blockierungsdatenlücke gekennzeichnet.)*
-
----
-
-## Schlussfolgerung und nächste Schritte
-
-**Entscheidung: Abwartend**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die Top-bewertete vorhergesagte Indikation (Feliner AIDS) ist eine veterinärmedizinische Erkrankung ohne klinische Studien, ohne Literatur und mit einem ausdrücklichen mechanistischen Vorbehalt, dass sie keinen praktischen Wiederverwendungswert beim Menschen hat. Aus der aktuellen Vorhersage-Reihe geht keine klinisch verwertbare, ausreichend belegte menschliche Indikation hervor.
+Für die vorhergesagte Indikation gibt es weder klinische Studien noch Literatur (Evidenzlevel L5). Die Indikation ist veterinärmedizinisch, und die Zulassung in Deutschland ist aufgehoben. Die übrigen Vorhersagen sind entweder Varianten der bestehenden HIV-Indikation oder mechanistisch nicht plausibel.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- Abrufen des TFDA-genehmigten Labels (Warnhinweise/Kontraindikationen) – derzeit eine Blockierungslücke (DG001)
-- Bestätigung der Wirkmechanismus-Daten von DrugBank beschaffen – derzeit eine Datenlücke mit hohem Schweregrad (DG002)
-- Bei weiterer Verfolgung der Wiederverwendung sollte die Bewertung auf die mechanistisch kohärenteren Kandidaten im gleichen Krankheitsspektrum umgeleitet werden (z. B. „AIDS-assoziierter Komplex"), eher als die Top-TxGNN-bewerteten, aber biologisch implausiblen/tierartübergreifenden Vorhersagen
-- Unabhängig überprüfen, ob tipranavir-spezifische Studien für HIV-Spektrum-Subindikationen existieren, da die derzeit mit „kongenitaler HIV-Infektion" verknüpften Studien andere antiretrovirale Mittel betreffen, nicht Tipranavir selbst
-
+**Für ein Weiterkommen ist Folgendes erforderlich:**
+- Fachinformation (Warnhinweise und Gegenanzeigen) aus BfArM-Quellen, da dies derzeit ein blockierendes Datenelement für die Sicherheitsprüfung ist
+- Detaillierte Daten zum Wirkmechanismus
+- Präklinische Daten zur Aktivität gegen die FIV-/SIV-Protease, falls die Tiermodell-Richtung weiterverfolgt werden soll
+- Prüfung, ob eine Neuausrichtung beim Menschen überhaupt sinnvoll ist, auch angesichts der Stoffwechsel- und Leberrisiken sowie des Nebenwirkungssignals bei Blutfetten
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

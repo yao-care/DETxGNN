@@ -2,7 +2,7 @@
 layout: default
 title: Bortezomib
 parent: Nur Modellvorhersage (L5)
-nav_order: 59
+nav_order: 68
 evidence_level: L5
 indication_count: 0
 ---

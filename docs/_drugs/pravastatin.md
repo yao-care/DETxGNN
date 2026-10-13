@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Pravastatin
-parent: Hohe Evidenz (L1-L2)
-nav_order: 316
-evidence_level: L2
+parent: Mittlere Evidenz (L3-L4)
+nav_order: 368
+evidence_level: L4
 indication_count: 9
 ---
 
 # Pravastatin
 {: .fs-9 }
 
-Evidenzniveau: **L2** | Vorhergesagte Indikationen: **9** 
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,11 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **9**
 
 </div>
 
-# Pravastatin: Von Hypercholesterinämie zu HIV-assoziierter Dyslipidämie und kardiovaskulärem Risikomanagement
+# Pravastatin: Von Dyslipidämie zu homozygoter familiärer Hypercholesterinämie
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Pravastatin ist ein HMG-CoA-Reduktase-Hemmer (Statin); die Evidenzbasis beschreibt es durchgehend als Behandlung für Hypercholesterinämie/Dyslipidämie, obwohl formale Aufzeichnungen zu ursprünglicher Indikation und Wirkmechanismus in diesem Paket als Datenlücken gekennzeichnet sind.
-> Von **9 TxGNN-vorhergesagten Indikationen**, die für diesen Kandidaten gescreent wurden, **HIV-assoziierte Dyslipidämie / kardiovaskuläres Risikomanagement** erwies sich als die klinisch glaubwürdigste, unterstützt durch **16 klinische Studien** (einschließlich dedizierter Phase-2–4-RCTs von Pravastatin bei HIV-infizierten Patienten) und **20 Publikationen**.
-> Dies ist Risikofaktor-Management bei HIV-Patienten unter antiretroviraler Therapie, keine antivirale Wirkung.
+Pravastatin ist ein HMG-CoA-Reduktase-Hemmer (Statin) und war ursprünglich zur Behandlung von Dyslipidämien zugelassen. Das TxGNN-Modell sagt voraus, dass es bei **homozygoter familiärer Hypercholesterinämie** wirksam sein könnte. Dafür gibt es jedoch **keine direkten Belege**: Die einzige gelistete Studie prüft einen anderen Wirkstoff (Alirocumab), und die Literatur besteht überwiegend aus Übersichtsarbeiten zu anderen Substanzen.
 
 ---
 
@@ -43,105 +41,80 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **9**
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Nicht in Quelldaten verfügbar (`taiwan_regulatory.licenses` ist leer). Beschreibungen in Studien/Literatur in dieser Evidenzbasis identifizieren Pravastatin durchgehend als HMG-CoA-Reduktase-Hemmer bei Hypercholesterinämie/Dyslipidämie. |
-| Vorhergesagte neue Indikation | HIV-Infektionskrankheit (ART-assoziierte Dyslipidämie / kardiovaskuläres Risikomanagement) |
-| TxGNN-Vorhersagepunktzahl | 99,74% (Rang 3562) |
-| Evidenzstufe | L2 |
-| Marktstatus Deutschland | Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfehlung zur Entscheidung | Fortschreiten mit Schutzmaßnahmen |
-
-### Alle gescreenten vorhergesagten Indikationen (zur Transparenz)
-
-| Rang | Krankheit | TxGNN-Punktzahl | Evidenzstufe | Entscheidung | Bemerkung |
-|---|---|---|---|---|---|
-| 1 | Homozygote familiäre Hypercholesterinämie | 99,95% | L4 | Zurückhalten | Statin-Wirksamkeit begrenzt durch nicht funktionsfähiges LDLR in HoFH |
-| 2 | **HIV-Infektionskrankheit** | **99,74%** | **L2** | **Fortschreiten mit Schutzmaßnahmen** | Ausgewählt als primärer Kandidat (siehe unten) |
-| 3 | Neuronale Entwicklungsstörung (ataktischer Gang/Sprachlosigkeit) | 99,62% | L5 | Zurückhalten | Keine Studien, keine Literatur, keine mechanistische Begründung |
-| 4 | Erworbenes Immundefektsyndrom bei Katzen | 99,55% | L5 | Zurückhalten | Veterinärmedizinische Krankheit; Graph-Spillover via HIV-Homologie |
-| 5 | Simian Immunodeficiency Virus-Infektion | 99,55% | L5 | Zurückhalten | Primen-Modellvirus; keine humanmedizinische Evidenz |
-| 6 | Familiäre Hypercholesterinämie | 99,34% | L1 | Fortschreiten mit Schutzmaßnahmen | Bereits eine etablierte Statin-Indikation, keine Neurepurposing-Kandidatin |
-| 7 | Hypoalphalipoproteinämie | 99,21% | L4 | Zurückhalten | Keine dedizierten Studien; Statin-Effekt auf HDL ist bescheiden/off-target |
-| 8 | Hypercholesterinämie aufgrund von CYP7A1-Mangel | 99,07% | L5 | Zurückhalten | Ultraseltene Krankheit; nur mechanistische Spekulation |
-| 9 | Cholesterinester-Transferprotein-Mangel | 99,04% | L5 | Zurückhalten | Keine mechanistische oder klinische Verbindung zu Statin-Pathway |
+| Ursprüngliche Indikation | Dyslipidämien |
+| Vorhergesagte neue Indikation | Homozygote familiäre Hypercholesterinämie |
+| TxGNN-Vorhersagewert | 99,95 % |
+| Evidenzniveau | L4 |
+| Marktstatus in Deutschland | Nur erloschene Zulassung |
+| Anzahl der Zulassungen | 1 (erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage sinnvoll?
+## Warum ist diese Vorhersage plausibel?
 
-Das `original_moa`-Feld selbst ist als Datenlücke gekennzeichnet, aber die zugrundeliegende Evidenzbasis identifiziert Pravastatin wiederholt und durchgehend als kompetitiven HMG-CoA-Reduktase-Hemmer, der die hepatische Cholesterinsynthese senkt und die LDL-Rezeptor-Expression hochreguliert (z. B. PMID 1658544, NCT00227500). Dieser Mechanismus ist die pharmakologische Grundlage für seine Verwendung bei Hypercholesterinämie/Dyslipidämie.
+Für diesen Bericht liegen derzeit keine detaillierten Daten zum Wirkmechanismus vor. Bekannt ist: Pravastatin hemmt die HMG-CoA-Reduktase, senkt dadurch die Cholesterinsynthese in der Leber und fördert die Hochregulation von LDL-Rezeptoren. Seine Wirksamkeit bei Dyslipidämien ist etabliert.
 
-HIV-Infektionen und ihre antiretrovirale Therapie (ART), besonders PI-basierte Regime, sind in dieser Evidenzbasis gut dokumentiert, um Dyslipidämie, chronische Immunaktivierung und beschleunigte Atherosklerose zu verursachen und erheblich das kardiovaskuläre Risiko bei Menschen mit HIV zu erhöhen. Statine sind daher eine rationale Ergänzung in dieser Population — nicht als antivirale Mittel, sondern als lipidsenkende und möglicherweise anti-inflammatorische/immunmodulatorische Therapie, die eine wichtige ART-assoziierte Komorbidität adressiert.
+Bei der homozygoten familiären Hypercholesterinämie ist die LDL-Rezeptorfunktion jedoch stark eingeschränkt oder fehlt vollständig. Die Wirkung eines Statins, die über diese Rezeptoren vermittelt wird, dürfte daher begrenzt sein. Die Vorhersage ist somit krankheitsnah, aber mechanistisch nur eingeschränkt gestützt.
 
-Pravastatin sticht unter Statinen für diese Population besonders hervor, da es nicht umfangreich über CYP3A4 metabolisiert wird, im Gegensatz zu Atorvastatin oder Simvastatin, was das Risiko klinisch signifikanter Arzneimittelwechselwirkungen mit Proteaseinhibitoren und anderen ART-Mitteln, die starke CYP3A4-Inhibitoren sind, reduziert. Dieser DDI-Vorteil ist explizit die Begründung hinter mehreren dedizierten Studien in diesem Evidenzpaket (z. B. NCT00000941, NCT00630734, NCT00117494), die Pravastatin als bevorzugtes Statin für HIV-infizierte, PI-behandelte Patienten mit Dyslipidämie etabliert haben.
+Hinweis zu den weiteren Vorhersagen: Für **familiäre Hypercholesterinämie (heterozygot)** ist der Mechanismus direkt passend, und es liegen pädiatrische Daten vor (Evidenzniveau L3). Das ist aber eher eine Erweiterung innerhalb der bestehenden Lipidsenker-Indikation als echtes Repurposing. Für **HIV-Infektion** (L2) geht es um die Behandlung HIV-assoziierter Dyslipidämie und kardiovaskulären Risikos, nicht um antivirale Wirkung. Die übrigen Vorhersagen (u. a. seltene neurologische Entwicklungsstörung, felines und simianes Immundefizienzsyndrom, Hypoalphalipoproteinämie, Cholesterin-7α-Hydroxylase-Mangel, CETP-Mangel) haben keine oder kaum Evidenz.
 
 ---
 
-## Klinische Studienevidenz
+## Klinische Studien
 
-| Studiennummer | Phase | Status | Einschluss | Wichtigste Ergebnisse |
+| Studiennummer | Phase | Status | Teilnehmerzahl | Zentrale Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT00006412](https://clinicaltrials.gov/study/NCT00006412) | Phase 3 | Abgeschlossen | 630 | Fenofibrat vs. Pravastatin bei HIV-infizierten Probanden mit Lipidabnormalitäten |
-| [NCT00117494](https://clinicaltrials.gov/study/NCT00117494) | Phase 4 | Abgeschlossen | 86 | Rosuvastatin vs. Pravastatin bei ART-behandelten dyslipidämischen HIV-Patienten (ANRS 126) |
-| [NCT00221754](https://clinicaltrials.gov/study/NCT00221754) | Phase 2 | Abgeschlossen | 21 | RCT von Pravastatin bei hypercholesterinämischen HIV-Patienten auf Proteaseinhibitoren |
-| [NCT00147797](https://clinicaltrials.gov/study/NCT00147797) | N/A | Abgeschlossen | 84 | Pravastatin-Effekt auf Halsschlagader-Struktur/-funktion bei HIV-Patienten unter ART |
-| [NCT00227500](https://clinicaltrials.gov/study/NCT00227500) | Phase 4 | Abgeschlossen | 40 | Randomisierte, doppelblinde, placebokontrollierte Pravastatin-Studie bei HIV-Hyperlipidämie |
-| [NCT00000941](https://clinicaltrials.gov/study/NCT00000941) | Phase 1 | Abgeschlossen | 56 | PK-Wechselwirkungen zwischen Proteaseinhibitoren und Statinen (Pravastatin, Simvastatin, Atorvastatin) |
-| [NCT02841774](https://clinicaltrials.gov/study/NCT02841774) | Phase 2 | Abgeschlossen | 10 | HILLCLIMBER: mitteldosiertes Pravastatin vs. hochdosiertes Rosuvastatin bei HIV-Patienten mit KHK |
-| [NCT00630734](https://clinicaltrials.gov/study/NCT00630734) | Phase 4 | Abgeschlossen | 32 | SLCO1B1-genetische Prädiktoren von Darunavir/Ritonavir–Pravastatin-DDI |
-| [NCT00982189](https://clinicaltrials.gov/study/NCT00982189) | N/A | Abgeschlossen | 37 | Kardiovaskuläres Risiko-Reduktions-Polypill-Pilot bei HIV-infizierten Personen |
-| [NCT00843661](https://clinicaltrials.gov/study/NCT00843661) | Phase 4 | Unbekannt | 60 | Ezetimib+Fenofibrat vs. Pravastatin-Monotherapie bei HIV-Patienten auf Proteaseinhibitoren |
+| [NCT03510715](https://clinicaltrials.gov/study/NCT03510715) | Phase 3 | Abgeschlossen | 18 | Offene Studie zu Alirocumab (PCSK9-Hemmer) bei Kindern und Jugendlichen (8–17 Jahre) mit homozygoter FH; Pravastatin ist nicht der Prüfwirkstoff, kein direkter Beleg |
 
 ---
 
-## Literaturische Evidenz
+## Literatur
 
-| PMID | Jahr | Typ | Journal | Wichtigste Ergebnisse |
+| PMID | Jahr | Typ | Zeitschrift | Zentrale Ergebnisse |
 |------|-----|------|------|---------|
-| [28416195](https://pubmed.ncbi.nlm.nih.gov/28416195/) | 2017 | RCT (Phase 4) | The Lancet HIV | INTREPID-Studie: Pitavastatin vs. Pravastatin bei HIV-1-Patienten mit Dyslipidämie, Vermeidung von CYP450-abhängigem Metabolismus |
-| [25574964](https://pubmed.ncbi.nlm.nih.gov/25574964/) | 2014 | RCT | AIDS | Atorvastatin reduzierte T-Zell-Aktivierung; Pravastatin zeigte keinen signifikanten Effekt auf Immunaktivierung |
-| [26148680](https://pubmed.ncbi.nlm.nih.gov/26148680/) | 2015 | RCT, Cross-over | BMC Research Notes | Pravastatin, Phytosterole und Kombinationstherapie verglichen für Lipidsenkung bei HIV |
-| [28252528](https://pubmed.ncbi.nlm.nih.gov/28252528/) | 2017 | Kohortenstudie/RCT | AIDS | Pitavastatin und Pravastatin verglichen in Bezug auf Immunaktivierung und arterielle Entzündungsmarker bei HIV |
-| [16603852](https://pubmed.ncbi.nlm.nih.gov/16603852/) | 2006 | RCT (placebokontrolliert) | AIDS | Pravastatin-Effekt auf Körperzusammensetzung und kardiovaskuläre Marker bei HIV-infizierten Männern |
-| [17117030](https://pubmed.ncbi.nlm.nih.gov/17117030/) | 2006 | Kohorte | AIDS | Pravastatin hatte keinen signifikanten Einfluss auf Intima-Media-Dicke der Halsschlagader oder aortale Steifheit bei HIV-Patienten |
-| [16218799](https://pubmed.ncbi.nlm.nih.gov/16218799/) | 2005 | RCT | AIDS Research and Human Retroviruses | ACTG 5087: Fenofibrat vs. Pravastatin für kombinierte Dyslipidämie bei HIV |
-| [18991624](https://pubmed.ncbi.nlm.nih.gov/18991624/) | 2008 | Übersichtsarbeit | Current HIV Research | Vergleichende Übersicht von Rosuvastatin, Pravastatin und Atorvastatin für PI-assoziierte Hypercholesterinämie |
-| [28364370](https://pubmed.ncbi.nlm.nih.gov/28364370/) | 2017 | Übersichtsarbeit/Leitlinie | American Journal of Cardiovascular Drugs | Empfehlungen zur Verwaltung von Statin–HIV-Medikamenten-Wechselwirkungen |
-| [25907504](https://pubmed.ncbi.nlm.nih.gov/25907504/) | 2015 | Systematische Übersichtsarbeit | The American Journal of Cardiology | Systematische Übersichtsarbeit zur Nützlichkeit einer Statin-Therapie bei HIV-infizierten Patienten |
+| [31696945](https://pubmed.ncbi.nlm.nih.gov/31696945/) | 2019 | Review | Cochrane Database Syst Rev | Statine bei Kindern mit familiärer Hypercholesterinämie |
+| [28685504](https://pubmed.ncbi.nlm.nih.gov/28685504/) | 2017 | Review | Cochrane Database Syst Rev | Statine bei Kindern mit familiärer Hypercholesterinämie (frühere Fassung) |
+| [28416195](https://pubmed.ncbi.nlm.nih.gov/28416195/) | 2017 | RCT | Lancet HIV | INTREPID: Pitavastatin vs. Pravastatin bei HIV und Dyslipidämie (kein FH-Bezug) |
+| [28437620](https://pubmed.ncbi.nlm.nih.gov/28437620/) | 2017 | Leitlinie | Endocr Pract | AACE/ACE-Leitlinie zu Dyslipidämie und kardiovaskulärer Prävention |
+| [12269853](https://pubmed.ncbi.nlm.nih.gov/12269853/) | 2002 | Review | Drugs | Rosuvastatin; Vergleich unter anderem mit Pravastatin |
+| [15531000](https://pubmed.ncbi.nlm.nih.gov/15531000/) | 2004 | Review | Clin Ther | Rosuvastatin bei Hyperlipidämie, einschließlich homozygoter FH |
+| [14727947](https://pubmed.ncbi.nlm.nih.gov/14727947/) | 2003 | Review | Am J Cardiovasc Drugs | Ezetimib |
+
+Die Literatur enthält keine direkten Daten zu Pravastatin bei homozygoter FH.
 
 ---
 
-## Marktinformationen für Deutschland
+## Marktinformationen Deutschland
 
-Für diesen Kandidaten sind derzeit keine Marktgenehmigungen im Bestand (`total_licenses: 0`, Marktstatus: Nicht vermarktet). Es sind keine Produkt-/Darreichungsform-/Indikationsdetails verfügbar.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/001243 | Pravafenix | – | Dyslipidämien (Status: erloschen) |
 
 ---
 
 ## Sicherheitsaspekte
 
-Formale Sicherheitsfelder (wichtigste Warnungen, Kontraindikationen, DDI-Datenbank) sind alle leer oder Datenlücken in diesem Paket, und kein TFDA/BfArM-Etikett wurde bisher abgerufen (siehe DG001, Blockierend).
+- **Mögliche Kontraindikationen (aus dem Wissensgraphen, nicht aus Fachinformationen):** u. a. Lebererkrankung, Nierenerkrankung, Myopathie, Rhabdomyolyse, Thrombozytopenie, Gicht, Gallenblasenerkrankung. Diese Angaben stammen aus Beziehungen im TxGNN-Wissensgraphen (PrimeKG) und ersetzen keine Fachinformation.
+- **Arzneimittelwechselwirkungen:** Insgesamt wurden 100 Wechselwirkungen erfasst. Als moderat eingestuft sind u. a.: Metronidazol, Clarithromycin, Eluxadolin, Naltrexon, Pektin, Rosuvastatin, Simvastatin, Tinidazol.
+- Bei der HIV-bezogenen Anwendung sind Wechselwirkungen mit antiretroviralen Substanzen (insbesondere Proteasehemmern) zu beachten; Pravastatin wird nicht über CYP3A4 verstoffwechselt.
 
-**Arzneimittelwechselwirkungen in Studienevidenz vermerkt (nicht aus einer formalen DDI-Datenbank):**
-- Pravastatin wird wiederholt als Statin mit niedriger CYP3A4-Abhängigkeit in Probe-Substrat-DDI-Studien verwendet (NCT04425902, NCT02578277), und seine PK wird durch OATP1B1/SLCO1B1-Transporter-Varianten beeinflusst, wenn es mit Darunavir/Ritonavir co-verabreicht wird (NCT00630734) und Raltegravir (NCT00665717) — besonders relevant für die in dieser Bewertung betrachtete HIV-Indikation.
-
-> Für alle anderen Sicherheitsinformationen verweisen Sie bitte auf das Packungsetikett, wenn es verfügbar ist.
+Für Warnhinweise und Gegenanzeigen im Sinne der Fachinformation siehe die Packungsbeilage.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Fortschreiten mit Schutzmaßnahmen**
+**Entscheidung: Hold**
 
 **Begründung:**
-Mehrere dedizierte Phase-2–4-RCTs (einschließlich einer 630-Patienten-Phase-3-Studie) etablieren Pravastatin's Wirksamkeit und DDI-günstiges Profil für das Management von ART-assoziierter Dyslipidämie und kardiovaskulärem Risiko bei HIV-infizierten Patienten — ein genuines, evidenzgestütztes Repurposing-Signal, das sich von Pravastatin's bereits etablierten Statin-Indikationen unterscheidet (z. B. familiäre Hypercholesterinämie, Rang 6, was nicht neu ist). Die restlichen 7 von 9 TxGNN-Vorhersagen (L4–L5) ermangeln ausreichender klinischer oder mechanistischer Unterstützung und werden zurückgehalten.
+Für die homozygote familiäre Hypercholesterinämie gibt es keine direkte Evidenz für Pravastatin; die einzige Studie prüft Alirocumab. Zudem ist bei fehlender LDL-Rezeptorfunktion nur eine begrenzte Statinwirkung zu erwarten, und die deutsche Zulassung ist erloschen.
 
-**Um fortzufahren, wird Folgendes benötigt:**
-- Offizielles Produktetikett / Warnungen und Kontraindikationen (DG001, Blockierend — TFDA/BfArM-PDF-Abruf)
-- Bestätigte Dokumentation des Wirkmechanismus (DG002 — DrugBank-Abfrage)
-- Formale DDI-Datenbankabfrage speziell für ART-Regime (Proteaseinhibitoren, Integrase-Inhibitoren)
-- Klärung der Zielpopulation und des Endpunkts (ART-assoziierte Dyslipidämie/CV-Risikoreduktion, keine antivirale Wirkung)
-- Bewertung des deutschen/EU-Zulassungsweges in Anbetracht des derzeitigen Status „Nicht vermarktet"
-
+**Für ein Weiterverfolgen sind folgende Punkte nötig:**
+- Direkte klinische Daten zu Pravastatin bei homozygoter FH (bisher nicht vorhanden)
+- Daten zum Wirkmechanismus aus DrugBank
+- Auswertung der Fachinformation (Warnhinweise und Gegenanzeigen) über das BfArM
+- Prüfung der alternativen Kandidaten: heterozygote FH (L3) und HIV-assoziierte Dyslipidämie (L2) haben deutlich bessere Evidenz und könnten vorrangig als Forschungsfragen verfolgt werden
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

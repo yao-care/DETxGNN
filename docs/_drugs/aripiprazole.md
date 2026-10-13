@@ -2,7 +2,7 @@
 layout: default
 title: Aripiprazole
 parent: Hohe Evidenz (L1-L2)
-nav_order: 34
+nav_order: 37
 evidence_level: L1
 indication_count: 10
 ---
@@ -29,101 +29,120 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# ARIPIPRAZOL: Von antipsychotischer Anwendung zur Behandlung affektiver Störungen (Zusatztherapie)
+# Aripiprazol: Von Schizophrenie zu Major Affective Disorder (schwere affektive Störung)
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Aripiprazol ist ein Dopamin-D2/D3-Partialagonist-Antipsychotikum; diese Evidence-Sammlung dokumentiert seine ursprüngliche zugelassene Indikation nicht (Datenlücke), obwohl reale Fachinformationen Schizophrenie und bipolare Störung Typ I aufführen.
-> Das TxGNN-Modell prognostiziert, dass es möglicherweise wirksam für **Major Affektive Störung** (Zusatzbehandlung der Major Depression) sein könnte,
-> mit **60+ klinischen Studien** und **20 Publikationen**, die diese Richtung derzeit unterstützen, einschließlich einer abgeschlossenen Phase-3-Studie, die diese Anwendung bereits in der klinischen Praxis etabliert.
-
-> ⚠️ **Datenvermerk**: `drug.original_indications` und `taiwan_regulatory.licenses` sind beide in dieser Evidence-Sammlung leer, und `market_status` zeigt „Not marketed" (Nicht vermarktet). Dies steht im Widerspruch zur gut dokumentierten globalen Zulassungsgeschichte von Aripiprazol (Abilify®) und sollte vor der Verwendung dieses Berichts für regulatorische Entscheidungen gegen Quelldaten überprüft werden.
+Aripiprazol ist ein Antipsychotikum, das ursprünglich zur Behandlung der Schizophrenie und der bipolaren Störung zugelassen wurde.
+Das TxGNN-Modell sagt voraus, dass es bei der **schweren affektiven Störung (Major Affective Disorder)** wirksam sein könnte.
+Diese Richtung stützen derzeit **36 klinische Studien** und **19 Publikationen**, darunter mehrere abgeschlossene Phase-3-Studien.
 
 ---
 
 ## Schnellübersicht
 
-| Element | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | **[Datenlücke]** — nicht erfasst in der Evidence-Sammlung (`original_indications` leer) |
-| Prognostizierte neue Indikation | Major Affektive Störung (Zusatztherapie zu Antidepressiva bei MDD) |
-| TxGNN-Vorhersage-Score | 99.62% |
-| Evidence-Level | L1 |
-| Markt-Status (diesen Datensatz) | Nicht vermarktet / 0 Zulassungen erfasst |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Mit Schutzmaßnahmen fortfahren |
+| Ursprüngliche Indikation | Schizophrenie |
+| Vorhergesagte neue Indikation | Major Affective Disorder (schwere affektive Störung) |
+| TxGNN-Vorhersagewert | 99,62 % |
+| Evidenzstufe | L1 |
+| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassungen |
+| Anzahl der Zulassungen | 6 (alle erloschen) |
+| Empfohlene Entscheidung | Proceed with Guardrails (Fortführung mit Schutzmaßnahmen) |
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Wirkmechanismus-Daten nicht in dieser Evidence-Sammlung verfügbar (`original_moa` = [Datenlücke]). Basierend auf bekannter Pharmakologie, die in der Begründung für die Umwidmung angegeben ist, ist Aripiprazol ein **Dopamin-D2/D3-Partialagonist**, mit zusätzlicher **5-HT1A-Partialagonist**- und **5-HT2A-Antagonist**-Aktivität. Dieses Rezeptorprofil ist die etablierte pharmakologische Grundlage für seine Verwendung als Antidepressiva-Augmentations-Agent.
+Zu den Wirkmechanismus-Daten liegen in den für diesen Bericht zusammengestellten Daten keine Angaben vor. Aus der allgemeinen Pharmakologie ist bekannt: Aripiprazol ist ein partieller Agonist an Dopamin-D2/D3-Rezeptoren und am 5-HT1A-Rezeptor sowie ein Antagonist am 5-HT2A-Rezeptor. Dieses Profil moduliert den dopaminergen und serotonergen Tonus, was für die Zusatzbehandlung (Augmentation) einer Depression zusätzlich zu SSRI/SNRI relevant ist.
 
-Die prognostizierte neue Indikation — Major Affektive Störung / Major Depression (MDD) — ist mechanistisch kontinuierlich mit Aripiprazols bekannter antipsychotischer Aktivität: Partielle dopaminerge und serotonerge Modulation soll monoaminerge Dysregulation, die bei therapieresistenter Depression eine Rolle spielt, korrigieren. Tatsächlich hat die Augmentation von Antidepressiva mit Aripiprazol bereits regulatorische Zulassung und umfangreiche klinische Validierung außerhalb dieses Datensatzes erhalten (z. B. FDA-Zulassung als Zusatz bei MDD), was die TxGNN-Vorhersage bestätigt und wesentlich unterstützt.
-
-Die Evidence-Sammlung selbst kennzeichnet einen wichtigen Vorbehalt: Da `original_indications` und `licenses` leer sind, kann die interne Konsistenz zwischen „ursprünglicher Indikation" und „prognostizierter Indikation" aus diesem Datensatz allein nicht überprüft werden. Die mechanistische Begründung sollte daher als durch externes Wissen bestätigt gelesen werden, nicht durch die regulatorischen Felder dieser Evidence-Sammlung.
+Die bipolare Störung gehört bereits zu den zugelassenen Indikationen. Die Zusatzbehandlung der Major Depression bei unzureichendem Ansprechen auf Antidepressiva ist gut etabliert. Es handelt sich daher eher um eine Indikationserweiterung innerhalb des Spektrums affektiver Störungen als um ein völlig neues Repurposing.
 
 ---
 
-## Klinische Studienevidenz
+## Evidenz aus klinischen Studien
 
-| Studiennummer | Phase | Status | Einschreibung | Wichtigste Ergebnisse |
+Die folgende Auswahl zeigt die relevantesten der insgesamt 36 Studien (Schwerpunkt: Phase 3, abgeschlossen, große Fallzahl).
+
+| Studiennummer | Phase | Status | Teilnehmerzahl | Zentrale Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT00683852](https://clinicaltrials.gov/study/NCT00683852) | Phase 3 | Abgeschlossen | 225 | Pivotale doppelblinde, Plazebo-kontrollierte Studie von reduzierter Dosis Aripiprazol als Zusatz zu Antidepressiva bei MDD mit unzureichendem Ansprechen auf vorherige Behandlung |
-| [NCT00876343](https://clinicaltrials.gov/study/NCT00876343) | Phase 3 | Abgeschlossen | 586 | Plazebo-kontrollierte Parallelgruppen-Studie von Aripiprazol als Zusatz zu SSRI/SNRI bei MDD |
-| [NCT00105196](https://clinicaltrials.gov/study/NCT00105196) | Phase 3 | Abgeschlossen | 349 | 14-wöchige randomisierte, doppelblinde, Plazebo-kontrollierte Zusatz-Studie bei MDD mit unvollständigem Ansprechen auf offene antidepressive Therapie |
-| [NCT02046564](https://clinicaltrials.gov/study/NCT02046564) | Phase 3 | Abgeschlossen | 412 | ASC-01 (Aripiprazol/Sertralin-Kombination) vs. Sertralin-Monotherapie bei MDD mit unzureichendem Ansprechen |
-| [NCT01567527](https://clinicaltrials.gov/study/NCT01567527) | Phase 3 | Abgeschlossen | 731 | 52-wöchige Plazebo-kontrollierte Studie von IM-Depotaripiprazol als Erhaltungstherapie bei bipolarer Störung Typ I |
-| [NCT01284218](https://clinicaltrials.gov/study/NCT01284218) | N/A | Abgeschlossen | 23,514 | Retrospektive Real-World-Datenbankanalyse der Gesundheitsnutzung/Kosten mit Zusatz-Aripiprazol vs. anderen Augmentations-Therapien bei MDD |
-| [NCT01429831](https://clinicaltrials.gov/study/NCT01429831) | Phase 4 | Abgeschlossen | 300 | Taiwanesische Real-World-Beobachtungsstudie zur Wirksamkeit/Verträglichkeit der Aripiprazol-Augmentation bei MDD mit unzureichendem Ansprechen |
-| [NCT00953745](https://clinicaltrials.gov/study/NCT00953745) | N/A | Abgeschlossen | 43 | PET/fMRT-Mechanismus-Studie zur Prüfung der Dopamin-Pfad-Hypothese für Aripiprazol-Augmentation bei therapieresistenter Depression |
-| [NCT00873795](https://clinicaltrials.gov/study/NCT00873795) | N/A | Abgeschlossen | 41 | Kleine vergleichende Studie von niedrig-Dosis Aripiprazol + Sertralin vs. Sertralin allein bei neu aufgetretener MDD |
-| [NCT05473741](https://clinicaltrials.gov/study/NCT05473741) | N/A | Abgeschlossen | 51 | Longitudinale Kohorte zum Risiko von Durchbruch-Symptomen bei remittierten Patienten unter Langzeit-Antipsychotika-Erhaltungstherapie |
+| [NCT00095823](https://clinicaltrials.gov/study/NCT00095823) | Phase 3 | Abgeschlossen | 1200 | Randomisierte, doppelblinde, placebokontrollierte Studie zu Aripiprazol als Zusatztherapie bei Major Depression (14 Wochen) |
+| [NCT00095758](https://clinicaltrials.gov/study/NCT00095758) | Phase 3 | Abgeschlossen | 1151 | Doppelblinde, placebokontrollierte Studie zu Sicherheit und Wirksamkeit der Zusatztherapie (14 Wochen) |
+| [NCT01421342](https://clinicaltrials.gov/study/NCT01421342) | Phase 3 | Abgeschlossen | 1522 | VAST-D: Augmentation mit Aripiprazol oder Bupropion vs. Wechsel auf Bupropion bei therapieresistenter Depression |
+| [NCT00105196](https://clinicaltrials.gov/study/NCT00105196) | Phase 3 | Abgeschlossen | 349 | Placebokontrollierte Studie zu Aripiprazol als Zusatz zu einer Antidepressivatherapie (14 Wochen) |
+| [NCT00876343](https://clinicaltrials.gov/study/NCT00876343) | Phase 3 | Abgeschlossen | 586 | Placebokontrollierte Studie zu Aripiprazol als Zusatz zu SSRI/SNRI |
+| [NCT00683852](https://clinicaltrials.gov/study/NCT00683852) | Phase 3 | Abgeschlossen | 225 | Doppelblinde, placebokontrollierte Studie mit reduzierter Aripiprazol-Dosis als Zusatz zur Antidepressivatherapie |
+| [NCT00095745](https://clinicaltrials.gov/study/NCT00095745) | Phase 3 | Abgeschlossen | 1002 | 52-wöchige offene Langzeitstudie zu Sicherheit und Verträglichkeit der Zusatztherapie |
+| [NCT00882362](https://clinicaltrials.gov/study/NCT00882362) | Phase 3 | Abgeschlossen | 155 | Langzeitgabe von Aripiprazol als Zusatz zu SSRI/SNRI |
+| [NCT01111539](https://clinicaltrials.gov/study/NCT01111539) | Phase 3 | Abgebrochen | 211 | Aripiprazol/Escitalopram-Kombination, doppelblind; durch vorzeitigen Abbruch limitiert |
+| [NCT00080314](https://clinicaltrials.gov/study/NCT00080314) | Phase 3 | Abgeschlossen | 400 | Aripiprazol vs. Placebo bei bipolarer Depression |
 
 ---
 
-## Literatur-Evidenz
+## Literaturevidenz
 
-| PMID | Jahr | Typ | Zeitschrift | Wichtigste Ergebnisse |
+| PMID | Jahr | Typ | Journal | Zentrale Ergebnisse |
 |------|-----|------|------|---------|
-| [38669232](https://pubmed.ncbi.nlm.nih.gov/38669232/) | 2024 | RCT-Metaanalyse | PLoS One | Größte systematische Übersicht/Metaanalyse von RCTs zu Aripiprazol- oder Bupropion-Augmentation und -Wechsel bei therapieresistenter Depression/MDD |
-| [34986373](https://pubmed.ncbi.nlm.nih.gov/34986373/) | 2022 | Netzwerk-Metaanalyse | J Affect Disord | Vergleicht Wirksamkeit und Therapieabbruch bei Augmentations-Wirkstoffen (einschließlich Aripiprazol) bei therapieresistenter Depression |
-| [36961650](https://pubmed.ncbi.nlm.nih.gov/36961650/) | 2023 | RCT | CNS Drugs | Pivotale Sicherheits-/Verträglichkeits-/Pharmakokinetik-Studie von 2-monatlichem Depot-Aripiprazol bei Schizophrenie und bipolarer Störung Typ I |
-| [38219278](https://pubmed.ncbi.nlm.nih.gov/38219278/) | 2024 | Systematische Übersicht | Neuropsychopharmacol Rep | Netzwerk-Metaanalyse zum Vergleich von Brexpiprazol, Aripiprazol und Plazebo bei MDD bei japanischen Patienten |
-| [36239033](https://pubmed.ncbi.nlm.nih.gov/36239033/) | 2023 | RCT | J Psychopharmacol | Randomisierte, doppelblinde, Plazebo-kontrollierte Studie von Aripiprazol-Zusatztherapie bei MDD mit somatischen Symptomen (mit EEG-Befunden) |
-| [34167174](https://pubmed.ncbi.nlm.nih.gov/34167174/) | 2021 | Systematische Übersicht/Metaanalyse | Prim Care Companion CNS Disord | Langzeit-Wirksamkeit und Verträglichkeit von Zusatz-Aripiprazol bei MDD |
-| [35510505](https://pubmed.ncbi.nlm.nih.gov/35510505/) | 2023 | Systematische Übersicht/Metaanalyse | Psychol Med | Wirksamkeit und Sicherheit/Verträglichkeit von Antipsychotika (Monotherapie und Zusatz) bei MDD im Erwachsenenalter |
-| [37149344](https://pubmed.ncbi.nlm.nih.gov/37149344/) | 2023 | Übersicht | Psychiatr Clin North Am | Übersicht der Pharmakotherapie bei therapieresistenter Depression: Antidepressiva und atypische Antipsychotika, einschließlich Aripiprazol |
-| [36855876](https://pubmed.ncbi.nlm.nih.gov/36855876/) | 2023 | Übersicht | Am J Psychiatry | Übersicht von antipsychotischen Pharmakotherapien bei therapieresistenter Depression im sich entwickelnden therapeutischen Kontext |
-| [21254788](https://pubmed.ncbi.nlm.nih.gov/21254788/) | 2011 | Übersicht | CNS Drugs | Übersicht und Implikationen der Ergebnisse klinischer Studien für Aripiprazol als Zusatztherapie bei MDD |
+| [34986373](https://pubmed.ncbi.nlm.nih.gov/34986373/) | 2022 | Systematischer Review/Netzwerk-Metaanalyse | Journal of Affective Disorders | Vergleich von Augmentationsstrategien bei therapieresistenter Depression |
+| [42090141](https://pubmed.ncbi.nlm.nih.gov/42090141/) | 2026 | Systematischer Review/Netzwerk-Metaanalyse | JAMA Psychiatry | Zusatztherapie mit Antipsychotika bei Major Depression; fünf atypische Antipsychotika von der FDA zugelassen |
+| [35861202](https://pubmed.ncbi.nlm.nih.gov/35861202/) | 2023 | Systematischer Review/Metaanalyse | Journal of Psychopharmacology | Augmentations- und Kombinationsbehandlungen bei früher therapieresistenter Depression |
+| [34238049](https://pubmed.ncbi.nlm.nih.gov/34238049/) | 2021 | Systematischer Review/Metaanalyse | Journal of Psychopharmacology | Antidepressiva plus Antipsychotika der zweiten Generation vs. Esketamin vs. Lithium |
+| [39739012](https://pubmed.ncbi.nlm.nih.gov/39739012/) | 2025 | Systematischer Review/Netzwerk-Metaanalyse | Neuropsychopharmacology | Relative Wirksamkeit von Behandlungen bei therapieresistenter Depression |
+| [38454079](https://pubmed.ncbi.nlm.nih.gov/38454079/) | 2024 | RCT | Molecular Psychiatry | ASCERTAIN-TRD: Augmentation mit Aripiprazol oder rTMS vs. Wechsel auf Venlafaxin |
+| [37149344](https://pubmed.ncbi.nlm.nih.gov/37149344/) | 2023 | Review | Psychiatric Clinics of North America | Pharmakotherapie bei therapieresistenter Depression; atypische Antipsychotika als am besten untersuchte Augmentationsmittel |
+| [36855876](https://pubmed.ncbi.nlm.nih.gov/36855876/) | 2023 | Review | American Journal of Psychiatry | Stellenwert der Antipsychotika bei therapieresistenter Depression |
+| [25963405](https://pubmed.ncbi.nlm.nih.gov/25963405/) | 2016 | Review | Asia-Pacific Psychiatry | Antipsychotika als Antidepressiva; Wirksamkeit nur in subantipsychotischen Dosen |
+| [37815563](https://pubmed.ncbi.nlm.nih.gov/37815563/) | 2023 | Review | JAMA | Diagnose und Behandlung der bipolaren Störung |
+
+Hinweis: Eine in den Daten enthaltene Metaanalyse zu Aripiprazol bzw. Bupropion (PMID 38669232) wurde zurückgezogen und wird hier nicht berücksichtigt.
 
 ---
 
 ## Marktinformationen Deutschland
 
-In dieser Evidence-Sammlung wurden keine Vermarktungsgenehmigungen gefunden (`taiwan_regulatory.total_licenses = 0`, `licenses = []`, `market_status = "Not marketed"`). Dies steht im Widerspruch zur bekannten globalen Zulassungsgeschichte von Aripiprazol und sollte als Datenlücke behandelt werden, die einer Quellenüberprüfung bedarf, anstatt als faktische Aussage über die Abwesenheit auf dem Markt.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation | Status |
+|---------|------|------|-----------|------|
+| EMEA/H/C/002755 | Abilify Maintena | – | Schizophrenie | Erloschen |
+| EMEA/H/C/000471 | Abilify | – | Schizophrenie; bipolare Störung | Erloschen |
+| EMEA/H/C/004008 | Aripiprazole Sandoz | – | Schizophrenie; bipolare Störung | Erloschen |
+| EMEA/H/C/003803 | Aripiprazole Mylan Pharma | – | Schizophrenie; bipolare Störung | Erloschen |
+| EMEA/H/C/003899 | Aripiprazole Zentiva | – | Schizophrenie; bipolare Störung | Erloschen |
+
+Eine sechste Zulassung (Aripiprazole Accord, EMEA/H/C/004021) ist ebenfalls erloschen.
 
 ---
 
-## Sicherheitserwägungen
+## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. (`key_warnings`, `contraindications` und `ddi` sind alle nicht ausgefüllt / [Datenlücke] in dieser Evidence-Sammlung.)
+- **Kontraindikationen/Risikokonstellationen aus dem Wissensgraphen** (TxGNN/PrimeKG, keine Angaben aus Fachinformationen): u. a. orthostatische Hypotonie, Epilepsie, Hyperglykämie, Diabetes mellitus, diabetische Ketoazidose, Neutropenie, Agranulozytose, Leukopenie, Hyperlipidämie, Adipositas, Myokardinfarkt, koronare Herzkrankheit, Herzreizleitungsstörungen, plötzlicher Herzstillstand, malignes neuroleptisches Syndrom und zerebrovaskuläre Erkrankungen.
+- **Arzneimittelwechselwirkungen** (100 Einträge insgesamt, Auswahl):
+  - Schwerwiegend (Major): Bupropion
+  - Mittelschwer (Moderate): u. a. Acarbose, Famotidin, Epinephrin, Albiglutid, Alogliptin, Metformin, Pioglitazon, Hyoscyamin, Loperamid, Aprepitant, Atropin, Canagliflozin, Cimetidin, Cisaprid, Clarithromycin
+
+Für Warnhinweise und Kontraindikationen aus den Fachinformationen liegen keine Daten vor. Bitte die Fachinformation heranziehen.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Weitere vorhergesagte Indikationen (Kurzüberblick)
 
-**Entscheidung: Mit Schutzmaßnahmen fortfahren**
+Unter den übrigen Vorhersagen hat nur **Trichotillomanie** (Rang 7, Score 99,26 %) Evidenz: zwei Studien (eine offene Studie mit 12 Teilnehmern, eine geplante Phase-2-Studie), mehrere Fallberichte und eine offene Studie (PMID 21694623). Aripiprazol wurde allerdings auch als Auslöser impulsiv-zwanghafter Verhaltensweisen einschließlich Trichotillomanie berichtet, die Nutzen-Risiko-Richtung ist unklar (Evidenzstufe L3, Einstufung: Forschungsfrage). Für die Ränge 2–6 und 8–10 liegen weder Studien noch Literatur vor (L5, Hold).
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Proceed with Guardrails**
 
 **Begründung:**
-Die prognostizierte Indikation wird durch L1-Evidenz gestützt — eine abgeschlossene Phase-3-RCT (NCT00683852) sowie mehrere zusätzliche abgeschlossene Phase-3-Studien, eine große Real-World-Datenbankanalyse (n=23,514) und mehrere RCT-Metaanalysen — und ist richtungsmäßig konsistent mit Aripiprazols gut etablierter Real-World-Anwendung als Antidepressiva-Augmentation. Allerdings sind kritische Arzneimittel-Felder (MOA, Sicherheitswarnungen, Kontraindikationen, DDI, Marktgenehmigungen, ursprüngliche Indikation) alle Datenlücken in diesem Paket, was eine vollständige S1-Sicherheits-Vorbewertung blockiert.
+Mehrere große, abgeschlossene, placebokontrollierte Phase-3-Studien (u. a. NCT00095823, NCT00095758, NCT01421342) sowie aktuelle Netzwerk-Metaanalysen stützen die Zusatztherapie bei Major Depression. Da es sich um eine Erweiterung innerhalb des affektiven Spektrums handelt, ist die Evidenz ausreichend. Allerdings sind alle deutschen Zulassungen erloschen, und Sicherheitsdaten aus den Fachinformationen fehlen.
 
-**Zur Fortsetzung sind folgende Punkte erforderlich:**
-- TFDA/Zulassungs-Fachinformation (仿單) Warnungen und Kontraindikationen (aktuell blockierende Datenlücke, DG001)
-- Verifizierte Arzneimittel-MOA aus DrugBank (DG002)
-- Übereinkunft der `original_indications` / `market_status` / `licenses`-Felder mit dem bekannten Real-World-Zulassungsstatus von Aripiprazol
-- Arzneimittelwechselwirkungs- (DDI) -Profil, besonders für die Kombination von Antidepressiva/Antipsychotika bei MDD-Augmentation
-
+**Für das weitere Vorgehen erforderlich:**
+- Fachinformation (Warnhinweise, Kontraindikationen) von BfArM/EMA beschaffen und auswerten
+- Detaillierte Wirkmechanismus-Daten (MOA) aus DrugBank ergänzen
+- Klärung des aktuellen Zulassungs- und Marktstatus in Deutschland (alle sechs Einträge erloschen)
+- Sicherheitsüberwachungsplan, insbesondere für Stoffwechselparameter (Glukose, Lipide, Gewicht), Blutbild, kardiovaskuläre Risiken und Wechselwirkungen (z. B. Bupropion)
+- Die ausstehende Relevanzbewertung der übrigen Studien und Publikationen abschließen
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -2,7 +2,7 @@
 layout: default
 title: Letermovir
 parent: Nur Modellvorhersage (L5)
-nav_order: 228
+nav_order: 267
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,75 +29,85 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Letermovir: Von unspezifischer ursprünglicher Indikation zu vulvovaginaler Candidiasis
+# Letermovir: Von Cytomegalovirus-Infektionen zu vulvovaginaler Candidose
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Die ursprüngliche zugelassene Indikation von Letermovir ist im aktuellen Evidenzpaket nicht verfügbar. Das TxGNN-Modell sagt potenzielle Wirksamkeit bei **vulvovaginaler Candidiasis** voraus, diese Vorhersage wird jedoch derzeit durch **0 klinische Versuche** und **0 Publikationen** unterstützt, und die eigene mechanistische Rationale des Modells markiert die Verbindung als biologisch implausibel.
-
----
-
-## Schnelübersicht
-
-| Artikel | Inhalt |
-|---|---|
-| Ursprüngliche Indikation | Nicht verfügbar in aktuellen Daten (keine Lizenzdatensätze) |
-| Vorhergesagte neue Indikation | Vulvovaginale Candidiasis |
-| TxGNN-Vorhersagepunktzahl | 99.88% (Rang 1959) |
-| Evidenzebene | L5 |
-| Taiwan-Marktstatus | Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Zurückhaltung |
+Letermovir ist ein antiviraler Wirkstoff, der ursprünglich zur Behandlung von Cytomegalovirus-Infektionen zugelassen wurde.
+Das TxGNN-Modell sagt voraus, dass er bei **vulvovaginaler Candidose** wirksam sein könnte.
+Für diese Richtung liegen in den für diesen Bericht zusammengestellten Daten jedoch **keine klinischen Studien** und **keine Publikationen** vor.
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Kurzüberblick
 
-Derzeit sind detaillierte Wirkmechanismus-Daten für Letermovir in diesem Evidenzpaket nicht verfügbar (Datenlücke DG002, markiert als hoher Schweregrad – Behebung ausstehend über DrugBank-API-Abfrage).
-
-Die eigene Umwidmungsrationale des Modells bietet jedoch bereits eine mechanistische Bewertung, und diese ist negativ: Letermovir hemmt spezifisch den CMV-DNA-Terminase-Komplex (human herpesvirus 5) (pUL56/pUL89/pUL51-Untereinheiten), ein virusspezifisches Ziel ohne Entsprechung in Pilzpathogenen wie *Candida* spp. Vulvovaginale Candidiasis ist eine Pilzinfektion, die typischerweise durch Targeting der Ergosterolsynthese (z. B. Azole, die CYP51/Lanosterol-Demethylase hemmen) oder der Synthese der Pilzzellwand (Echinocandine) behandelt wird – Wege, die mit Letermovirs antiviraler Wirkungsweise nichts zu tun haben.
-
-Der hohe TxGNN-Score (99.88%) spiegelt höchstwahrscheinlich eine indirekte Knowledge-Graph-Assoziation wider – zum Beispiel treten beide Entitäten häufig zusammen mit immungeschwächten/Transplantations-Patientenpopulationen in den zugrunde liegenden Daten auf – eher als echte pharmakologische Ähnlichkeit. Diese Vorhersage sollte als Graph-Embedding-Artefakt behandelt werden, bis unabhängige mechanistische oder klinische Beweise entstehen.
-
----
-
-## Klinische Studienbelege
-
-Derzeit sind keine damit zusammenhängenden klinischen Studien registriert.
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Cytomegalovirus-Infektionen |
+| Vorhergesagte neue Indikation | Vulvovaginale Candidose |
+| TxGNN-Vorhersagewert | 99,88 % |
+| Evidenzlevel | L5 |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
+| Anzahl der Zulassungen | 1 (davon 0 gültig) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Literaturbelege
+## Warum ist diese Vorhersage plausibel (oder nicht)?
 
-Derzeit ist keine damit zusammenhängende Literatur verfügbar.
+Detaillierte Daten zum Wirkmechanismus sind derzeit nicht verfügbar. Bekannt ist, dass Letermovir ein CMV-spezifischer Virostatikum ist, das den viralen Terminase-Komplex (pUL56/pUL51/pUL89) hemmt. Seine Wirksamkeit bei Cytomegalovirus-Infektionen ist belegt.
+
+Für diesen Angriffspunkt ist in Candida-Arten (Pilzen) kein bekanntes Homolog beschrieben. Ein mechanistischer Zusammenhang zwischen der ursprünglichen und der vorhergesagten Indikation wird durch die vorliegenden Daten daher nicht gestützt. Der sehr hohe TxGNN-Wert (0,9988) beruht auf Assoziationen im Wissensgraphen und wird durch keine biologischen, präklinischen oder klinischen Belege bestätigt.
+
+Eine mögliche indirekte Erklärung wäre ein Artefakt der Graph-Nähe, etwa über gemeinsame Wechselwirkungs- oder CYP-bezogene Nachbarn (z. B. Azol-Antimykotika wie Voriconazol und Fluconazol, die mit Letermovir interagieren). Das ist spekulativ und keine therapeutische Begründung. Zudem stehen für diese Erkrankung bereits wirksame und kostengünstige Standardtherapien zur Verfügung (topische Azole, orales Fluconazol), was den Anlass für ein Repurposing weiter verringert.
 
 ---
 
-## Taiwan-Marktinformationen
+## Klinische Evidenz
 
-Letermovir wird derzeit in Taiwan **nicht vermarktet** (0 Lizenzen auf Datensatz), daher sind keine Zulassungsdetails verfügbar.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
+
+---
+
+## Literaturevidenz
+
+Derzeit liegt keine zugehörige Literatur vor.
+
+---
+
+## Informationen zum deutschen Markt
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/004536 | Prevymis | – | Cytomegalovirus-Infektionen |
+
+Hinweis: Diese Zulassung hat den Status „erloschen/aufgehoben“. Es besteht keine gültige Zulassung.
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Fachinformation für Sicherheitsinformationen.
+**Arzneimittelwechselwirkungen:** In den zusammengestellten Daten sind 100 Wechselwirkungen verzeichnet (Quelle: DDInter). Auszug:
+
+- **Schwerwiegend (Major):** Eliglustat, Naloxegol, Cisaprid
+- **Mäßig (Moderate):** u. a. Hydrocortison, Dexamethason, Betamethason, Triamcinolon, Budesonid, Omeprazol, Lansoprazol, Aprepitant, Clarithromycin, Pioglitazon, Saxagliptin, Glimepiride, Chlorpropamid, Acetohexamid, Naldemedin, Nitisinon
+
+Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Zurückhaltung**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage wird nur durch einen rohen TxGNN-Score (L5, S0) unterstützt, ohne klinische Studien, ohne Literatur und ohne vermarktetes Produkt in Taiwan, worauf man sich stützen könnte. Noch wichtiger ist, dass die eigene mechanistische Rationale des Modells explizit keine plausible pharmakologische Verbindung zwischen einem antiviralen DNA-Terminase-Inhibitor und einer antimykotischen Indikation findet – dies ist ein starkes Signal, dass die Assoziation spurios ist, anstatt ein echter Umwidmungsansatz zu sein.
+Die Vorhersage stützt sich ausschließlich auf das Modell (Evidenzlevel L5). Es gibt weder klinische Studien noch Publikationen, einen plausiblen Mechanismus gegen Candida gibt es nicht, und wirksame Standardtherapien existieren bereits. Zusätzlich besteht in Deutschland derzeit keine gültige Zulassung.
 
-**Zum Fortfahren ist Folgendes erforderlich:**
-- Lösen Sie DG001 (TFDA/Herstellerkennzeichnung – Warnungen und Kontraindikationen) auf, bevor eine Überprüfung in der Sicherheitsphase (S1) beginnen kann
-- Lösen Sie DG002 (bestätigter Wirkmechanismus über DrugBank) auf, um mechanistische Plausibilität angemessen zu bewerten oder auszuschließen
-- Unabhängige präklinische oder In-vitro-Antimykotika-Aktivitätsdaten für Letermovir, da derzeit keine biologische Rationale diese Indikation unterstützt
-- Bewerten Sie die Kandidatenpriorität neu – angesichts der mechanistischen Nichtübereinstimmung könnten Ressourcen besser auf andere vorhergesagte Indikationen mit stärkerer biologischer Plausibilität gerichtet werden
-
+**Für ein Weiterkommen sind folgende Schritte nötig:**
+- Auswertung der Fachinformation (Warnhinweise und Gegenanzeigen) für das Sicherheitsscreening
+- Daten zum Wirkmechanismus (MOA)
+- Präklinische In-vitro-Daten zur Aktivität gegen Candida-Arten
+- Klärung des Zulassungsstatus in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

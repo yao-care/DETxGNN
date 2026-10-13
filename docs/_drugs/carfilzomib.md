@@ -2,7 +2,7 @@
 layout: default
 title: Carfilzomib
 parent: Nur Modellvorhersage (L5)
-nav_order: 89
+nav_order: 100
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,108 +29,106 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-# Carfilzomib: Von [Ursprüngliche Indikation nicht bestätigt] zu CMM7
+# Carfilzomib: Von Multiplem Myelom zu CMM7
 
 ## Zusammenfassung in einem Satz
 
-> Die ursprüngliche Indikation von Carfilzomib ist in diesem Nachweispaket nicht dokumentiert (eine Datenlücke mit Blockierungsschweregrad – die TFDA-Kennzeichnung wurde noch nicht abgerufen); eine literaturgestützte Evidenz in diesem Paket identifiziert es nebenbei als „Frontline-Anti-Myelom-Medikament".
-> Die am höchsten bewertete Vorhersage des TxGNN-Modells ist **CMM7** (ein seltener kutaner Melanom-Malignität-Suszeptibilitäts-Subtyp 7), mit einem Vorhersage-Score von **99.37%**, aber **keine klinischen Studien und keine Literatur** unterstützen derzeit diese spezifische Vorhersage – das Evidenzniveau ist L5 (nur Modellvorhersage).
-> Bemerkenswert ist, dass eine niedriger bewertete Vorhersage in dieser selben Gruppe – allgemeines **Melanom** – durch 5 mechanistische/präklinische Veröffentlichungen gestützt wird, was es zu einem stärkeren Kandidaten als das am höchsten bewertete CMM7 für jede weitere Bewertung macht.
+Carfilzomib ist ein Proteasom-Inhibitor, der ursprünglich zur Behandlung des **Multiplen Myeloms** zugelassen wurde. Das TxGNN-Modell sagt voraus, dass er bei **CMM7** wirksam sein könnte (Score 99,37 %). Für diese Vorhersage liegen jedoch **keine klinischen Studien und keine Publikationen** vor; sie beruht ausschließlich auf der Modellberechnung.
 
 ---
 
-## Schneller Überblick
+## Schnellübersicht
 
-| Artikel | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Nicht im Nachweispaket vorhanden (`original_indications` leer; DG002 kennzeichnet fehlende MOA-Daten) |
-| Vorhergesagte neue Indikation | CMM7 (Kutanes malignes Melanom, Suszeptibilitätslokus 7) |
-| TxGNN-Vorhersage-Score | 99.37% |
-| Evidenzniveau | L5 (nur Modellvorhersage, keine Studien/Literatur) |
-| Taiwan-Marktstatus | Nicht vermarktet |
-| Anzahl der Genehmigungen | 0 |
-| Empfehlenswerte Entscheidung | Halten |
-
----
-
-## Warum ist diese Vorhersage angemessen?
-
-Derzeit sind detaillierte Wirkmechanismus-Daten für Carfilzomib auf Arzneistoffebene nicht verfügbar (DG002, hoher Schweregrad). Basierend auf Informationen, die an anderer Stelle in diesem Nachweispaket vorhanden sind (mechanistische Notizen, die an die Rang-5-Vorhersage „Melanom" angehängt sind), wird Carfilzomib als ein irreversibler Epoxyketone-Klasse-Proteasom-Inhibitor der zweiten Generation verstanden, der selektiv die Chymotrypsin-ähnliche Aktivität des 20S-Proteasoms blockiert, ER-Stress und Apoptose induziert. Ein Literatureintrag (PMID 27016342) bezeichnet Carfilzomib zusätzlich als „Frontline-Anti-Myelom-Medikament", konsistent mit seiner bekannten klinischen Anwendung, obwohl dies nicht formell in das Feld `original_indications` erfasst wurde.
-
-Für die **am höchsten bewertete Vorhersage, CMM7**, gibt es keine unabhängige Literatur- oder Studienevidence in diesem Paket. Die angegebene Begründung ist, dass TxGNN es hoch unter Melanom-Spektrum-Erkrankungen bewertet hat, und das mechanistische Argument ist durch Analogie vom allgemeinen Melanom (Proteasom-Hemmung → Apoptose-Induktion) geliehen, nicht aus CMM7-spezifischen Daten. Dies ist eine materiell schwächere Grundlage als eine direkt belegte Vorhersage.
-
-Im Gegensatz dazu wird Rang 5 in diesem selben Nachweispaket – **allgemeines Melanom** – durch In-vitro-Evidenz gestützt, dass Carfilzomib in Kombination mit Bortezomib die Apoptose in B16-F1-Melanom-Zellen verstärkt, sowie durch Computational-Docking-Studien und mechanistische Artikel zur Proteasom-Weg-Regulation in der Melanom-Zellüberlebensfähigkeit. Dies deutet darauf hin, dass, wenn eine Melanom-Spektrum-Indikation verfolgt werden soll, die Evidenz derzeit die allgemeine „Melanom"-Entität über den unbelegten CMM7-Subtyp begünstigt.
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Multiples Myelom |
+| Vorhergesagte neue Indikation | CMM7 |
+| TxGNN-Vorhersagewert | 99,37 % |
+| Evidenzlevel | L5 |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
+| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 aufgehoben) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Evidenz aus klinischen Studien
+## Warum ist diese Vorhersage nachvollziehbar?
 
-Derzeit keine damit verbundenen klinischen Studien registriert.
+Zum Wirkmechanismus von Carfilzomib liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Carfilzomib zur Klasse der Proteasom-Inhibitoren gehört und seine Wirksamkeit beim Multiplen Myelom belegt ist. Mechanistisch könnte eine Proteasom-Hemmung proteotoxischen Stress und Apoptose in Zellen melanomartiger Tumoren auslösen.
 
-*(Dies gilt für die am höchsten bewertete Vorhersage, CMM7. Für keine der 5 vorhergesagten Indikationen in diesem Paket, einschließlich Melanom, wurde klinische Studien- oder ICTRP-Evidenz gefunden.)*
+Für CMM7 ist dieser Zusammenhang durch keine Daten gestützt. Die Bezeichnung scheint ein seltener oder unzureichend definierter Melanom-Subtyp bzw. eine Genlocus-Bezeichnung zu sein; zunächst sollte geklärt werden, um welche Entität es sich genau handelt.
 
----
+Das Modell nennt außerdem weitere melanombezogene Vorhersagen mit ähnlich hohen Scores (je Evidenzlevel L5, sofern nicht anders angegeben):
 
-## Literaturbeweise
-
-Derzeit keine damit verbundene Literatur für CMM7 (Rang 1) verfügbar.
-
-**Hinweis – zusammenhängende, aber niedriger bewertete Vorhersage:** die allgemeine „Melanom"-Vorhersage (Rang 5, Score 99.03%) in diesem selben Paket hat Literaturunterstützung:
-
-| PMID | Jahr | Typ | Journal | Wichtigste Erkenntnisse |
-|------|-----|-----|--------|---------|
-| [33671902](https://pubmed.ncbi.nlm.nih.gov/33671902/) | 2021 | In vitro (präklinisch) | Biology | Carfilzomib + Bortezomib verstärkt apoptotischen Zelltod in B16-F1-Melanom-Zellen via Caspase 3/8/9/12-Aktivierung |
-| [36134605](https://pubmed.ncbi.nlm.nih.gov/36134605/) | 2023 | Computational (Docking/MD) | J Biomol Struct Dyn | Molekulares Docking/Dynamik unterstützen Carfilzomib-Bindung über mehrere Krebs-Kinase-Ziele, einschließlich Melanom |
-| [27016342](https://pubmed.ncbi.nlm.nih.gov/27016342/) | 2016 | Mechanistisch/in vitro | Matrix Biology | Carfilzomib (mit Bortezomib) aktiviert NF-κB-Weg, auslösend Heparanase-Expression, verknüpft mit aggressivem Tumor-Phänotyp |
-| [31540997](https://pubmed.ncbi.nlm.nih.gov/31540997/) | 2019 | Mechanistisch | Mol Cancer Res | ZFAND2A/cIAP2-Regulation der Melanom-Zellüberlebensfähigkeit, relevant für Proteasom-Weg-Medikamente |
-| [29581547](https://pubmed.ncbi.nlm.nih.gov/29581547/) | 2018 | Mechanistisch (PROTAC-Design) | Leukemia | Proteasomale-Degradations-zielende Chimäre Moleküle aktiv in präklinischen Myelom-Modellen |
-
-Keines davon sind RCTs oder klinische Studien; alle sind präklinisch/mechanistisch/rechnerisch (Tier 3), was das Evidenzniveau für die am besten unterstützten Vorhersagen in dieser Gruppe auf L4 begrenzt.
+| Vorhergesagte Indikation | TxGNN-Score | Evidenzlevel | Anmerkung |
+|------|------|------|------|
+| Pädiatrisches leptomeningeales Melanom | 99,30 % | L5 | Große Molekülstruktur, voraussichtlich geringe Penetration von Blut-Hirn-Schranke und Liquor; keine pädiatrischen Sicherheitsdaten |
+| Epitheloidzelliges Uveamelanom | 99,23 % | L5 | Nur theoretische Verbindung (NF-κB- und Unfolded-Protein-Response-Signalwege) |
+| Vulvamelanom | 99,19 % | L5 | Vermutlich aus allgemeinen Melanom-Assoziationen abgeleitet |
+| Melanom | 99,03 % | L4 | Nur präklinische, indirekte Evidenz |
 
 ---
 
-## Taiwan-Marktinformation
+## Klinische Evidenz
 
-Carfilzomib ist **nicht auf dem Taiwan-Markt verfügbar**. Keine Arzneimittellizenzen sind derzeit registriert (`total_licenses: 0`).
+Derzeit sind keine zugehörigen klinischen Studien registriert (weder für CMM7 noch für die weiteren oben genannten Melanom-Indikationen).
+
+---
+
+## Literaturevidenz
+
+Für CMM7 liegt derzeit keine zugehörige Literatur vor. Für die allgemeine Indikation **Melanom** (Rang 5) wurden folgende Arbeiten gefunden:
+
+| PMID | Jahr | Typ | Journal | Kernaussagen |
+|------|-----|------|------|---------|
+| [33671902](https://pubmed.ncbi.nlm.nih.gov/33671902/) | 2021 | In-vitro-Studie (präklinisch) | Biology | Carfilzomib in Kombination mit Bortezomib verstärkt den apoptotischen Zelltod in B16-F1-Melanomzellen der Maus (Aktivierung mehrerer Caspasen). |
+| [31540997](https://pubmed.ncbi.nlm.nih.gov/31540997/) | 2019 | Präklinische Mechanismusstudie (indirekt) | Molecular Cancer Research | Das Gen ZFAND2A reguliert das Zellüberleben bei humanem Melanom (Rolle der E3-Ligase cIAP2); nicht carfilzomibspezifisch. |
+| [27016342](https://pubmed.ncbi.nlm.nih.gov/27016342/) | 2016 | Präklinische Mechanismusstudie (indirekt) | Matrix Biology | Bortezomib und Carfilzomib aktivieren den NF-κB-Weg und steigern die Heparanase-Expression, was mit aggressiverem Tumorphänotyp einhergeht. |
+| [36134605](https://pubmed.ncbi.nlm.nih.gov/36134605/) | 2023 | Computergestützt (Docking/Simulation) | J Biomol Struct Dyn | Molekulares Docking zum Drug Repurposing gegen Kinase-Targets bei mehreren Krebsarten, u. a. Melanom; kein Wirksamkeitsnachweis für Carfilzomib. |
+
+---
+
+## Marktinformationen Deutschland
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/003790 | Kyprolis (Amgen Europe B.V.) | – | Multiples Myelom (Status: aufgehoben) |
 
 ---
 
 ## Zytotoxizität
 
-Carfilzomib ist ein antineoplastisches Mittel (Proteasom-Inhibitor-Klasse, etablierte Anti-Myelom-Verwendung pro Literaturkontext in diesem Paket).
-
-| Artikel | Inhalt |
-|---------|--------|
-| Zytotoxizitäts-Klassifizierung | Zielgerichtete Therapie (Proteasom-Inhibitor) |
-| Myelosuppression-Risiko | Bitte beachten Sie die Warnungen und Vorsichtsmaßnahmen in der Packungsbeilage |
-| Emetogenitäts-Klassifizierung | Bitte beachten Sie die Warnungen und Vorsichtsmaßnahmen in der Packungsbeilage |
-| Überwachungselemente | Bitte beachten Sie die Warnungen und Vorsichtsmaßnahmen in der Packungsbeilage |
-| Handhabungsschutz | Es wird erwartet, dass Standard-Hazard/Antineoplastikum-Handhabungsvorsichtsmaßnahmen gelten; offizielle Bestätigung steht unter der Auflösung von DG001 aus |
+| Punkt | Inhalt |
+|------|------|
+| Zytotoxizitätsklassifikation | Zielgerichtete Therapie (Proteasom-Inhibitor) bei einer antineoplastischen Substanz |
+| Myelosuppression-Risiko | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Emetogenitätsklassifikation | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Überwachungsparameter | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Schutzmaßnahmen bei der Handhabung | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
 
 ---
 
-## Sicherheitsüberlegungen
+## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+- **Arzneimittelwechselwirkungen:** Für Carfilzomib wurden insgesamt 100 Wechselwirkungen erfasst. Beispiele mit **schwerwiegender (Major)** Einstufung: Oxandrolon, Oxymetholon, Stanozolol, Deferipron, Samarium-(153Sm)-Lexidronam, Aminocapronsäure, Avatrombopag, rekombinanter humaner Antihämophiliefaktor, von-Willebrand-Faktor (human), humaner C1-Esterase-Inhibitor, rekombinanter humaner Gerinnungsfaktor VIIa, humaner Gerinnungsfaktor X und Conestat alfa. Beispiele mit **moderater** Einstufung: Metronidazol, Naltrexon, Rosuvastatin, Simvastatin, Tinidazol, Palifermin und Strontiumchlorid-Sr-89.
+- Für das Melanom-Szenario fehlen zudem pädiatrische Sicherheitsdaten; bei leptomeningealer Erkrankung ist die begrenzte Liquorgängigkeit ein praktisches Hindernis.
 
-TFDA-Kennzeichnungsdaten (Warnungen, Gegenanzeigen und Arzneimittelwechselwirkungen) sind derzeit nicht verfügbar und werden als Datenlücke mit **Blockierungsschweregrad** (DG001) gekennzeichnet, was verhindert, dass dieser Kandidat die S1-Sicherheits-Vorabbewertungsphase betritt.
+Weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) entnehmen Sie bitte der Fachinformation.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Halten**
+**Entscheidung: Hold**
 
 **Begründung:**
-- Die am höchsten bewertete Vorhersage (CMM7) hat keine klinische Studien- oder Literaturunterstützung (L5, nur Modellvorhersage), und ihre mechanistische Begründung ist indirekt, von einer anderen, niedriger bewerteten Vorhersage (allgemeines Melanom) entlehnt.
-- Sicherheits-Vorabbewertung (S1) kann nicht fortgesetzt werden, da TFDA-Kennzeichnungsdaten fehlen (DG001, Blockierungsschweregrad).
-- Das Arzneimittel ist derzeit nicht auf dem Taiwan-Markt verfügbar (0 Genehmigungen).
+Für CMM7 liegen weder klinische Studien noch Publikationen vor; der hohe TxGNN-Score von 99,37 % ist eine reine Modellvorhersage (L5). Auch für die übrigen Melanom-Vorhersagen existiert höchstens präklinische, indirekte Evidenz (L4 für Melanom allgemein). Zudem ist die Zulassung in Deutschland aufgehoben.
 
-**Um fortzufahren, wird das Folgende benötigt:**
-- Erhalten Sie TFDA-Packungsbeilage / Kennzeichnungsdaten, um DG001 zu beheben und S1-Sicherheitsbewertung freizugeben.
-- Erhalten Sie bestätigte MOA- und ursprüngliche Indikationsdaten von DrugBank, um DG002 zu beheben.
-- Wenn Sie dieses Medikament für Melanom-Spektrum-Umwidmung verfolgen, priorisieren Sie die allgemeine **Melanom**-Vorhersage (Rang 5, L4, „Research Question") über CMM7, da sie die einzige Entität in dieser Gruppe mit tatsächlicher (präklinischer) unterstützender Evidenz ist – und verfolgen Sie in vivo/klinische Validierung, angesichts der Tatsache, dass alle aktuelle Literatur Tier 3 ist (in vitro/rechnerisch).
-
+**Für ein Weiterkommen sind folgende Punkte erforderlich:**
+- Klärung der Identität und Definition von „CMM7“
+- Detaillierte Daten zum Wirkmechanismus (MOA)
+- Fachinformation mit Warnhinweisen und Gegenanzeigen (derzeit fehlend; blockiert die Sicherheitsprüfung)
+- Präklinische Validierung von Carfilzomib in relevanten Melanom-Modellen
+- Prüfung der Zulassungs- und Verfügbarkeitssituation in Deutschland sowie der Applikationswege
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

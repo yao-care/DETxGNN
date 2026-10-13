@@ -2,7 +2,7 @@
 layout: default
 title: Elafibranor
 parent: Nur Modellvorhersage (L5)
-nav_order: 139
+nav_order: 161
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,77 +29,85 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Elafibranor: Von investigativer Anwendung zur vorhergesagten Amenorrhö
+# Elafibranor: Von primärer biliärer Zirrhose zu Amenorrhoe
 
 ## Zusammenfassung in einem Satz
 
-> Elafibranor ist in dieser Gerichtsbarkeit noch nicht auf dem Markt erhältlich, und es ist derzeit keine formal dokumentierte Ursprungsindikation oder kein Wirkungsmechanismus aktenkundig.
-> Das TxGNN-Modell sagt eine mögliche Assoziation mit **Amenorrhö** voraus,
-> wobei derzeit **0 klinische Studien** und **0 Publikationen** diese Richtung unterstützen – diese Vorhersage basiert vollständig auf Modellausgaben.
+Elafibranor ist ein dualer PPARα/δ-Agonist, der ursprünglich zur Behandlung der biliären Leberzirrhose (primäre biliäre Cholangitis) eingesetzt wird.
+Das TxGNN-Modell sagt voraus, dass er bei **Amenorrhoe** wirksam sein könnte.
+Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage beruht allein auf dem Modell.
 
 ---
 
 ## Schnellübersicht
 
-| Element | Inhalt |
-|--------|--------|
-| Ursprüngliche Indikation | Nicht verfügbar — es ist keine zugelassene Indikation für dieses Arzneimittel aktenkundig |
-| Vorhergesagte neue Indikation | Amenorrhö |
-| TxGNN-Vorhersage-Score | 99.86% |
-| Evidenzstufe | L5 |
-| Marktstatus | Nicht auf dem Markt |
-| Anzahl der Genehmigungen | 0 |
-| Empfohlene Entscheidung | Abwarten |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Biliäre Leberzirrhose (Liver Cirrhosis, Biliary) |
+| Vorhergesagte neue Indikation | Amenorrhoe |
+| TxGNN-Vorhersagewert | 99,86 % |
+| Evidenzniveau | L5 |
+| Marktstatus in Deutschland | Nur erloschene/zurückgenommene Zulassung |
+| Anzahl der Zulassungen | 1 |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage sinnvoll?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Daten zum Wirkmechanismus von Elafibranor in diesem Evidenzpaket nicht verfügbar. Basierend auf öffentlich bekannten Informationen (nicht Teil der verifizierten Eingabedaten) ist Elafibranor ein PPAR-α/δ-Dualagonist, der sich in klinischer Entwicklung für primäre biliäre Cholangitis (PBC) und nicht-alkoholische Steatohepatitis (NASH) befindet — beides beziehsich auf den Lipidstoffwechsel und die Homöostase der Gallensäuren.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Aus den Pharmakologiedaten geht hervor, dass Elafibranor an die Rezeptoren PPARα (PPARA) und PPARβ/δ (PPARD) bindet. Präklinisch zeigte die Substanz eine Verringerung von Leberverfettung, Entzündung und Fibrose. In der Leber wird sie zum aktiven Hauptmetaboliten GFT-1007 umgewandelt. Die Entwicklung bei NASH wurde 2020 beendet; anschließend wurde der Wirkstoff für die primäre biliäre Cholangitis neu positioniert (FDA-Zulassung im Juni 2024, EMA-Zulassung im September 2024).
 
-Kein mechanistischer oder klinischer Weg verbindet derzeit PPAR-α/δ-Agonismus mit Amenorrhö, die eine Erkrankung mit heterogenen Ursachen darstellt (hypothalamisch, ovarial, uterinisch oder arzneimittelinduziert). Der TxGNN-Score von 99.86 % spiegelt graphenbasierte Knotennähe-/Koauftretens-Muster im Modell wider, nicht validierte pharmakologische oder klinische Evidenz — ein sehr hoher Score in diesem Kontext sollte nicht als mechanistische Unterstützung interpretiert werden.
+Ein möglicher indirekter Zusammenhang mit Amenorrhoe könnte über die PPAR-vermittelte Modulation von Fett- und Glukosestoffwechsel, Entzündung und eventuell der Hypothalamus-Hypophysen-Gonaden-Achse bestehen, wie sie bei PCOS-bedingten Zyklusstörungen diskutiert wird. Diese Verbindung ist spekulativ und wurde nicht überprüft.
 
-Angesichts des Fehlens von unterstützenden Studien, Literatur oder plausibler biologischer Begründung sollte diese Vorhersage derzeit nur als hypothesenbildend behandelt werden, nicht als ein umsetzbares Repurposing-Signal.
-
----
-
-## Evidenz aus klinischen Studien
-
-Derzeit sind keine damit verbundenen klinischen Studien registriert.
+Die ursprüngliche Indikation (Lebererkrankung) liegt mechanistisch nicht nahe an Amenorrhoe. Zudem ist Amenorrhoe ein unspezifisches Symptom mit sehr unterschiedlichen Ursachen (hypothalamisch, hypophysär, ovariell, uterin, Schwangerschaft). Ohne Festlegung des Subtyps wäre eine Indikation schlecht definiert. Der hohe Vorhersagewert könnte auch auf Artefakte in der Graphstruktur des Wissensgraphen zurückgehen.
 
 ---
 
-## Evidenz aus der Literatur
+## Klinische Evidenz
 
-Derzeit ist keine damit verbundene Literatur verfügbar.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Marktinformation
+## Literaturevidenz
 
-Derzeit sind keine Vermarktungsgenehmigungen für dieses Arzneimittel aktenkundig (0 Lizenzen registriert; Marktstatus: nicht auf dem Markt).
+Derzeit liegt keine zugehörige Literatur vor.
+
+---
+
+## Informationen zum deutschen Markt
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/006231 | Iqirvo (Ipsen Pharma) | – | Biliäre Leberzirrhose (Status: erloschen/zurückgenommen) |
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+Zu Warnhinweisen und Gegenanzeigen liegen keine Daten vor; bitte die Fachinformation heranziehen.
+
+**Pharmakologische Wechselwirkungen (Zielstrukturen):**
+- PPARα (PPARA)
+- PPARβ/δ (PPARD)
+
+Hierbei handelt es sich um Zielstrukturen der Substanz, nicht um klinisch bewertete Arzneimittelwechselwirkungen.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Abwarten**
+**Entscheidung: Hold**
 
 **Begründung:**
-- Dies ist eine reine Modellvorhersage (L5) ohne unterstützende klinische Studien, Literatur oder mechanistische Begründung; das Arzneimittel ist auch noch nicht auf dem Markt und hat keine dokumentierte Ursprungsindikation oder MOA, daher kann es derzeit nicht zum Sicherheits-Screening (S1) übergehen.
+Die Vorhersage stützt sich ausschließlich auf einen hohen Modellwert, ohne klinische Studien oder Publikationen (Evidenzniveau L5). Der Mechanismus ist nicht belegt, und Amenorrhoe ist als Indikation unspezifisch. Zudem besteht in Deutschland laut den Daten nur eine erloschene Zulassung.
 
-**Um fortzufahren, wird Folgendes benötigt:**
-- TFDA-Label-Extraktion (Warnungen/Kontraindikationen) — derzeit blockiert für Sicherheitsbewertung (DG001)
-- Bestätigter Wirkmechanismus über DrugBank-Abfrage (DG002)
-- Literatur-/klinische Studiensuche speziell für Elafibranor–Amenorrhö oder PPAR-Agonist–reproduktiver endokriner Signalweg-Assoziation
-- Neubewertung, sobald mechanistische Plausibilität oder irgendwelche Real-World/klinischen Evidenzen auftauchen
-
+**Für ein Weiterkommen sind folgende Schritte nötig:**
+- Vollständige Wirkmechanismus-Daten (MOA), z. B. über die DrugBank-API
+- Fachinformation (Warnhinweise, Gegenanzeigen) vom BfArM; die Sicherheitsprüfung ist ohne diese blockiert
+- Klärung des Amenorrhoe-Subtyps und einer biologisch begründeten Hypothese
+- Präklinische Belege und Literaturrecherche zu PPARα/δ und der Reproduktionsachse
+- Klärung des aktuellen Zulassungsstatus in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

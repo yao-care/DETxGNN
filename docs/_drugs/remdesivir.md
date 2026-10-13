@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Remdesivir
-parent: Nur Modellvorhersage (L5)
-nav_order: 335
-evidence_level: L5
+parent: Mittlere Evidenz (L3-L4)
+nav_order: 392
+evidence_level: L4
 indication_count: 6
 ---
 
 # Remdesivir
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6** 
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,49 +29,83 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Remdesivir: Evaluation der Arzneimittelumwidmung (Daten unzureichend)
+# Remdesivir: Von COVID-19 zu HIV-Infektionskrankheit
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Remdesivir (DB14761) ist ein international anerkanntes Breitspektrum-Antivirus-Mittel zur COVID-19-Behandlung. Dieses Evidence Pack enthält jedoch **keine von TxGNN vorhergesagten Indikationen** und entbehrt kritischer Dateneingaben — einschließlich Wirkungsmechanismus, Sicherheitswarnungen und taiwanesischer Regulierungsunterlagen. Eine vollständige Bewertung der Arzneimittelumwidmung **kann in dieser Phase nicht durchgeführt werden**; der nachstehende Bericht spiegelt nur das wider, was derzeit verfügbar ist.
+Remdesivir ist ein antivirales Nukleotid-Analogon, das ursprünglich zur Behandlung von COVID-19 eingesetzt wurde. Das TxGNN-Modell sagt voraus, dass es bei einer **HIV-Infektionskrankheit** wirksam sein könnte. Dafür liegen jedoch nur **1 klinische Studie** (eine Pharmakokinetik-Studie bei gesunden Probanden) und **keine Literatur mit direktem HIV-Bezug** vor. Die Evidenz ist daher sehr schwach.
+
+*Hinweis zur Auswahl:* Die Vorhersage mit dem höchsten TxGNN-Score (Rang 1, multiple endokrine Neoplasie, 99,50 %) hat weder Studien noch Literatur und keinen erkennbaren Wirkmechanismus. Dieser Bericht konzentriert sich deshalb auf die am besten belegte Vorhersage (Rang 2, HIV). Die übrigen Vorhersagen sind am Ende aufgeführt.
 
 ---
 
 ## Schnellübersicht
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Nicht erfasst in diesem Evidence Pack |
-| Vorhergesagte neue Indikation | Keine Vorhersagen generiert |
-| TxGNN-Vorhersage-Score | — |
-| Evidenzstufe | L5 (Modell-Vorhersage-Pipeline unvollständig) |
-| Status auf dem taiwanesischen Markt | ✗ Nicht zugelassen |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | **Hold** |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | COVID-19-Virusinfektion |
+| Vorhergesagte neue Indikation | HIV-Infektionskrankheit |
+| TxGNN-Vorhersagewert | 99,32 % |
+| Evidenzstufe | L4 |
+| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
+| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Warum ist diese Vorhersage plausibel?
 
-In `predicted_indications` sind keine TxGNN-Vorhersagen vorhanden. Ohne eine Zielindikation können keine mechanistischen Verbindungen oder Umwidmungsrationale konstruiert werden.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Remdesivir ist ein Nukleotid-Analogon-Prodrug, das die virale RNA-abhängige RNA-Polymerase hemmt. Seine Wirksamkeit bei COVID-19 ist belegt, und mechanistisch lässt sich ein breites antivirales Prinzip auf andere RNA-Viren übertragen.
 
-Das Wirkungsmechanismus-Feld ist als Datenlücke aufgeführt (DG002, hoher Schweregrad). Remdesivir wird allgemein als RNA-abhängige RNA-Polymerase (RdRp)-Inhibitor verstanden; dies wurde jedoch **durch die aktuellen Dateneingaben nicht bestätigt** und sollte für diesen Bericht nicht als verifiziert behandelt werden.
-
-Bis sowohl TxGNN-Vorhersagen als auch MOA-Daten verfügbar sind, kann die biologische Plausibilität einer potenziellen neuen Indikation nicht bewertet werden.
+Die Plausibilität bei HIV ist jedoch nur lose. HIV ist zwar ein RNA-Virus, repliziert sich aber über die reverse Transkriptase und die Integration von proviraler DNA. Remdesivir ist kein etabliertes Anti-HIV-Mittel. Die Vorhersage dürfte vor allem auf der Nähe im Wissensgraphen beruhen (Nukleotid-Analoga, Virusinfektionen) und nicht auf direkten Belegen.
 
 ---
 
-## Taiwan-Marktinformation
+## Evidenz aus klinischen Studien
 
-Remdesivir verfügt derzeit über **keine genehmigten Lizenzen in Taiwan** (TFDA-Abfrage ergab 0 Ergebnisse). Es gibt keine Dosierungsformen oder genehmigten Indikationen in den Unterlagen.
+| Studiennummer | Phase | Status | Teilnehmerzahl | Kernaussagen |
+|---------|------|------|------|---------|
+| [NCT04385719](https://clinicaltrials.gov/study/NCT04385719) | Phase 2 | Abgeschlossen | 24 | Offene, randomisierte Einmalgabe-Studie (i.v.) bei gesunden Probanden in Uganda zum Einfluss fixer Kombinationen aus Tenofovir/Lamivudin bzw. Atazanavir/Ritonavir auf die Pharmakokinetik von Remdesivir. Es handelt sich um eine Wechselwirkungs-/PK-Studie, nicht um eine Wirksamkeitsstudie bei HIV. |
+
+---
+
+## Literaturevidenz
+
+Die abgerufene Literatur betrifft überwiegend COVID-19 und liefert für HIV nur indirekte Hinweise.
+
+| PMID | Jahr | Typ | Fachzeitschrift | Kernaussagen |
+|------|-----|------|------|---------|
+| [33264556](https://pubmed.ncbi.nlm.nih.gov/33264556/) | 2021 | RCT | N Engl J Med | Zwischenergebnisse der WHO-Solidarity-Studie zu umgewidmeten Virostatika (u. a. Remdesivir) bei COVID-19 |
+| [38675889](https://pubmed.ncbi.nlm.nih.gov/38675889/) | 2024 | RCT | Viruses | Keine Remdesivir-Resistenz in den Phase-3-SIMPLE-Studien bei COVID-19 |
+| [35817072](https://pubmed.ncbi.nlm.nih.gov/35817072/) | 2022 | RCT | Lancet Respir Med | Tixagevimab-Cilgavimab bei hospitalisierten COVID-19-Patienten, die Remdesivir erhielten |
+| [34696838](https://pubmed.ncbi.nlm.nih.gov/34696838/) | 2021 | Übersichtsarbeit | The Enzymes | Hemmmechanismen der viralen RNA-Replikation durch Nukleotid-Analoga, im Vergleich zu HIV-Reverse-Transkriptase und HCV-RdRp |
+| [34859557](https://pubmed.ncbi.nlm.nih.gov/34859557/) | 2022 | Beobachtungsstudie | HIV Medicine | Hohe Häufigkeit potenzieller Wechselwirkungen zwischen antiretroviraler Therapie und COVID-19-Medikamenten bei HIV-positiven Patienten |
+| [35229634](https://pubmed.ncbi.nlm.nih.gov/35229634/) | 2022 | Präklinisch | mBio | Cobicistat wirkt in vitro synergistisch mit Remdesivir gegen SARS-CoV-2 und senkt Viruslast im Hamstermodell |
+| [33002954](https://pubmed.ncbi.nlm.nih.gov/33002954/) | 2020 | Übersichtsarbeit | Curr Opin HIV AIDS | Überblick über umgewidmete Arzneimittel gegen SARS-CoV-2 |
+| [32587649](https://pubmed.ncbi.nlm.nih.gov/32587649/) | 2020 | Übersichtsarbeit | J Clin Med Res | Medizinisches Management von COVID-19, einschließlich Notfallzulassung von Remdesivir |
+| [36097825](https://pubmed.ncbi.nlm.nih.gov/36097825/) | 2023 | Kohortenstudie | Clin Infect Dis | Subgenomische RNA zur Überwachung des Ansprechens auf Remdesivir bei COVID-19 |
+| [41136410](https://pubmed.ncbi.nlm.nih.gov/41136410/) | 2025 | Übersichtsarbeit | Nat Rev Dis Primers | Überblick über die akute SARS-CoV-2-Infektion |
+
+---
+
+## Marktinformationen Deutschland
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/005622 | Veklury (Gilead Sciences Ireland UC) | – | COVID-19-Virusinfektion (Status: erloschen) |
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Fachinformation für Sicherheitsinformationen.
+**Arzneimittelwechselwirkungen:** Für die Abfrage liegen 100 Einträge vor, die gelisteten sind alle als **mäßig** eingestuft (Quelle: DDInter). Beispiele:
 
-> **Hinweis:** Die TFDA-Fachinformations-Abfrage (query_log ID 4) lieferte ein Ergebnis, aber die Sicherheitsfelder — Warnungen, Kontraindikationen und Arzneimittelwechselwirkungen — bleiben in diesem Evidence Pack ungefüllt. Dies wird als Blocking-Datenlücke (DG001) identifiziert, die behoben werden muss, bevor eine Sicherheitsvor-Bewertung beginnen kann.
+- Antibiotika: Doxycyclin, Minocyclin, Tetracyclin, Clarithromycin, Levofloxacin, Vancomycin, Kanamycin, Neomycin
+- Antimykotika: Amphotericin B (einschließlich Lipidkomplex)
+- Antidiabetika: Acarbose, Pioglitazon
+- Weitere: Bupropion, Naltrexon, Mesalazin, Balsalazid, Olsalazin, Chenodesoxycholsäure, Oxandrolon, Oxymetholon
+
+Zu Warnhinweisen und Gegenanzeigen liegen keine Daten vor. Bitte die Fachinformation heranziehen.
 
 ---
 
@@ -80,16 +114,25 @@ Bitte beachten Sie die Fachinformation für Sicherheitsinformationen.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die TxGNN-Vorhersage-Pipeline hat keine Kandidaten-Indikationen für Remdesivir erzeugt, und zwei kritische Datenlücken (MOA und TFDA-Sicherheitsdaten) bleiben ungelöst. Es gibt derzeit kein Umwidmungssignal zu bewerten.
+Der hohe TxGNN-Wert wird durch keine direkte klinische Evidenz gestützt. Die einzige verknüpfte Studie ist eine PK-Studie bei Gesunden, die Literatur betrifft COVID-19, und Remdesivir ist kein etablierter Wirkstoff gegen HIV. Zudem besteht in Deutschland derzeit keine gültige Zulassung.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
+**Für ein Weiterkommen erforderlich:**
+- Daten zum Wirkmechanismus (MOA) aus DrugBank
+- Warnhinweise und Gegenanzeigen aus der Fachinformation (derzeit blockierende Datenlücke für das Sicherheits-Screening)
+- Präklinische In-vitro-Daten zur Aktivität gegen HIV
+- Klärung des aktuellen Zulassungsstatus in Deutschland
 
-- **[DG001 — Blocking]** TFDA-Fachinformations-PDF abrufen und Warnungen/Kontraindikationen analysieren, bevor die Sicherheitsvor-Bewertung beginnt
-- **[DG002 — High]** DrugBank-API abfragen, um bestätigte Wirkungsmechanismus-Daten zu erhalten; die aktuelle DrugBank-Abfrage (query_log ID 3) lieferte 1 Datensatz, aber befüllte das MOA-Feld nicht — Extraktionslogik untersuchen
-- **TxGNN-Vorhersage-Pipeline erneut ausführen**, um `predicted_indications` zu generieren; ohne Vorhersagen gibt es kein Umwidmungsziel
-- Sobald eine Zielindikation bestätigt ist, entsprechend klinische Studien- und Fachliteraturbelege sammeln
-- Drug Interaction Profiling durchführen (DDI-Abfrage ergab 0 Ergebnisse; überprüfen, ob dies ein echtes Fehlen oder ein Abfrage-Scope-Problem widerspiegelt)
+---
 
+## Übrige Vorhersagen (alle: Hold)
+
+| Rang | Vorhergesagte Indikation | TxGNN-Wert | Evidenzstufe | Einschätzung |
+|------|------|------|------|------|
+| 1 | Multiple endokrine Neoplasie | 99,50 % | L5 | Kein erkennbarer Mechanismus (erbliches Tumorsyndrom); keine Studien oder Literatur |
+| 3 | Infektion mit Simian-Immundefizienz-Virus | 99,07 % | L5 | Wahrscheinlich Übertragung aus der HIV-Assoziation; tierische Infektion, allenfalls präklinisches Modell |
+| 4 | Felines erworbenes Immundefizienzsyndrom | 99,07 % | L5 | Veterinärindikation, außerhalb des humanmedizinischen Repurposing-Rahmens |
+| 5 | Neuroentwicklungsstörung mit ataktischem Gang, fehlender Sprache und verminderter kortikaler weißer Substanz | 99,03 % | L5 | Kein plausibler Mechanismus; seltene genetische Erkrankung |
+| 6 | Homozygote familiäre Hypercholesterinämie | 99,03 % | L5 | Kein plausibler Mechanismus (Defekte des LDL-Rezeptor-Wegs); keine Evidenz |
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Itraconazole
-parent: Nur Modellvorhersage (L5)
-nav_order: 214
-evidence_level: L5
+parent: Mittlere Evidenz (L3-L4)
+nav_order: 250
+evidence_level: L4
 indication_count: 1
 ---
 
 # Itraconazole
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1** 
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,86 +29,97 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Itraconazol: Von der Antimykotika-Therapie zur Pneumozystose
+# Itraconazol: Von systemischen Pilzinfektionen zu Pneumocystose
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Itraconazol ist ein systemisch eingesetztes Triazol-Antimykotikum zur Behandlung und Prävention invasiver Pilzinfektionen. Das TxGNN-Modell sagt voraus, dass es bei **Pneumozystose** (Pneumocystis-jirovecii-Pneumonie) wirksam sein könnte, aber diese Vorhersage wird derzeit nur durch indirekte Literatur gestützt — **keine klinischen Studien** testen Itraconazol direkt für diese Indikation, und die zugrunde liegende mechanistische Begründung wird als schwach angesehen.
+Itraconazol ist ein Azol-Antimykotikum, das ursprünglich zur Behandlung systemischer Pilzinfektionen wie Candidose, Aspergillose, Histoplasmose, Blastomykose und Kokzidioidomykose eingesetzt wird.
+Das TxGNN-Modell sagt voraus, dass es bei **Pneumocystose** wirksam sein könnte, doch derzeit gibt es **keine registrierten klinischen Studien** und nur **20 Publikationen**, die überwiegend indirekten Bezug haben (Übersichtsarbeiten, Fallberichte, Prophylaxe-Kontext).
 
 ---
 
-## Schnelle Übersicht
+## Schnellübersicht
 
-| Element | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Nicht verfügbar — keine Taiwan/Deutschland-Zulassungsdaten (Arzneimittel ist nicht auf dem Markt); Itraconazol ist allgemein als systemisches Triazol-Antimykotikum bekannt |
-| Vorhergesagte neue Indikation | Pneumozystose (Pneumocystis-jirovecii-Pneumonie) |
-| TxGNN-Vorhersageergebnis | 99.34% (Rang 7232) |
-| Evidenzstufe | L5 |
-| Marktstatus Deutschland | ✗ Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Zurückhalten |
+| Ursprüngliche Indikation | Ösophageale Candidiasis, Candidämie, Histoplasmose, Aspergillose, Kokzidioidomykose, Sporotrichose, Blastomykose u. a. (laut Wissensgraph) |
+| Vorhergesagte neue Indikation | Pneumocystose |
+| TxGNN-Vorhersagewert | 99,34 % |
+| Evidenzstufe | L4 |
+| Marktstatus in Deutschland | Nur Zulassungen mit Status „erloschen/aufgehoben“ |
+| Anzahl der Zulassungen | 1 (davon 0 gültig) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage sinnvoll?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Daten zum Wirkungsmechanismus von Itraconazol in diesem Beweisstück nicht verfügbar (`original_moa: [Data Gap]`). Basierend auf bekannter Pharmakologie hemmt Itraconazol das pilzliche CYP51 und blockiert die Ergosterolsynthese — der klassische Wirkmechanismus für Triazol-Antimykotika, wirksam gegen dimorphe und Schimmelpilzerreger (z. B. Histoplasma, Aspergillus).
+Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht in den für diesen Bericht zusammengestellten Daten vor. Bekannt ist, dass Itraconazol als Azol-Antimykotikum die fungale Lanosterol-14-alpha-Demethylase (CYP51) hemmt und damit die Ergosterol-Synthese blockiert. Seine Wirksamkeit bei zahlreichen Pilzinfektionen ist etabliert.
 
-Jedoch hat *Pneumocystis jirovecii* einen atypischen Membransterolmetabolismus im Vergleich zu herkömmlichen Pilzen, und klinisch reagiert es schlecht auf Azol-Antimykotika. Standard-Erstlinientherapie für Pneumozystose (TMP-SMX, Pentamidin) umfasst kein Triazol-Agens. Die hier identifizierte Literaturübersicht spiegelt großteils die Rolle von Itraconazol als **Breitspektrum-Antimykotika-Prophylaxe in immungeschwächten Populationen** (HIV, Transplantationsempfänger) wider, bei der Pneumozystose eine von mehreren gleichzeitig auftretenden opportunistischen Infektionen ist — nicht direkte Evidenz einer Anti-Pneumocystis-Aktivität.
+Die mechanistische Begründung für Pneumocystose ist jedoch **schwach**. Pneumocystis jirovecii enthält in seiner Zellmembran nur wenig Ergosterol und nutzt überwiegend Cholesterin als Hauptsterol. Damit ist der Angriffspunkt der Azole bei diesem Erreger fraglich. Der hohe TxGNN-Wert spiegelt vermutlich eher die Nähe im Netzwerk zu anderen antimykotischen Indikationen wider als eine validierte Zielstruktur-Beziehung.
 
-Angesichts dessen sollte die mechanistische Grundlage der Vorhersage als **nicht validierte Hypothese** und nicht als etablierter pharmakologischer Link behandelt werden, und weitere präklinische oder *in vitro*-Aktivitätsdaten gegen *P. jirovecii* würden vor weiteren Investitionen benötigt.
-
----
-
-## Klinische Studienevidenz
-
-Derzeit sind keine verwandten klinischen Studien registriert.
+Die Literatur erwähnt Itraconazol vor allem im Zusammenhang mit antimikrobieller Prophylaxe bei immungeschwächten Patienten (HIV, Transplantation, Neutropenie). Die Pneumocystis-Prophylaxe erfolgt dort in der Regel mit anderen Wirkstoffen, vor allem Trimethoprim-Sulfamethoxazol.
 
 ---
 
-## Literaturübersicht
+## Literaturevidenz
 
-| PMID | Jahr | Typ | Journal | Wichtigste Erkenntnisse |
+Die Literatur ist überwiegend indirekt; keine Arbeit belegt die Wirksamkeit von Itraconazol bei Pneumocystose direkt.
+
+| PMID | Jahr | Typ | Journal | Kernaussagen |
 |------|-----|------|------|---------|
-| [11737382](https://pubmed.ncbi.nlm.nih.gov/11737382/) | 2001 | RCT (Phase 3) | HIV Medicine | Doppelblinde, placebokontrollierte Studie mit Itraconazol-Kapseln zur Prävention tiefgehender Pilzinfektionen bei HIV-infizierten Patienten — Prophylaxe-Kontext, nicht spezifisch für Pneumozystose |
-| [26036497](https://pubmed.ncbi.nlm.nih.gov/26036497/) | 2015 | Kohortenstudie | Transplantation Proceedings | Erfahrung eines einzelnen Zentrums mit invasiven Pilzinfektionen nach Nierentransplantation |
-| [17594870](https://pubmed.ncbi.nlm.nih.gov/17594870/) | 2007 | Kohortenstudie | Allergologia et Immunopathologia | 25-jährige Erfahrung mit chronischer Granulomatose bei pädiatrischen Patienten, einschließlich Pilzkomplikationen |
-| [30429396](https://pubmed.ncbi.nlm.nih.gov/30429396/) | 2018 | Kohortenstudie | Indian Journal of Medical Microbiology | Profil respiratorischer Pilzerreger in immunokompetenten vs immungeschwächten Wirten, korreliert mit CD4+-Zählungen |
-| [36891307](https://pubmed.ncbi.nlm.nih.gov/36891307/) | 2023 | Fallbericht | Frontiers in Immunology | Talaromyces-marneffei- und Pneumocystis-jirovecii-Koinfektion bei einem Kind mit STAT1-Mutation |
-| [2121456](https://pubmed.ncbi.nlm.nih.gov/2121456/) | 1990 | Übersichtsarbeit | Drugs | Übersicht der Therapie/Prophylaxe systemischer Protozoen- und Pneumocystis-carinii-Infektionen |
-| [8397916](https://pubmed.ncbi.nlm.nih.gov/8397916/) | 1993 | Übersichtsarbeit | Current Clinical Topics in Infectious Diseases | Prophylaxe und Behandlung von Infektionen bei Knochenmark-Transplantationsempfängern |
-| [21418688](https://pubmed.ncbi.nlm.nih.gov/21418688/) | 2010 | Übersichtsarbeit | BMJ Clinical Evidence | Primäre und sekundäre Prophylaxe gegen opportunistische Infektionen bei HIV |
-| [8016481](https://pubmed.ncbi.nlm.nih.gov/8016481/) | 1993 | Übersichtsarbeit | Seminars in Respiratory Infections | Infektionen (einschließlich Pilzinfektionen) nach Lungentransplantation |
-| [21973267](https://pubmed.ncbi.nlm.nih.gov/21973267/) | 2011 | Übersichtsarbeit | Clinical Pharmacokinetics | Eindringen von Antimykotika und anderen Anti-Infektiva in die Lungenepithel-Auskleidungsflüssigkeit |
+| [11737382](https://pubmed.ncbi.nlm.nih.gov/11737382/) | 2001 | Randomisierte, placebokontrollierte Phase-III-Studie | HIV Medicine | Itraconazol-Kapseln zur Prävention tiefer Pilzinfektionen bei immundefizienten HIV-Patienten |
+| [26036497](https://pubmed.ncbi.nlm.nih.gov/26036497/) | 2015 | Kohorte | Transplantation Proceedings | Invasive Pilzinfektionen nach Nierentransplantation (Einzelzentrum) |
+| [21973267](https://pubmed.ncbi.nlm.nih.gov/21973267/) | 2011 | Review | Clinical Pharmacokinetics | Penetration von Antimykotika in die pulmonale Epithelflüssigkeit |
+| [15250025](https://pubmed.ncbi.nlm.nih.gov/15250025/) | 2004 | Review | Clinical Infectious Diseases | Antimikrobielle Prophylaxe bei febriler Neutropenie; TMP-SMX schützt wirksam vor Pneumocystis-Pneumonie |
+| [21418688](https://pubmed.ncbi.nlm.nih.gov/21418688/) | 2010 | Review | BMJ Clinical Evidence | Primäre und sekundäre Prophylaxe opportunistischer Infektionen bei HIV |
+| [2121456](https://pubmed.ncbi.nlm.nih.gov/2121456/) | 1990 | Review | Drugs | Therapie und Prophylaxe systemischer Protozoeninfektionen, u. a. Pneumocystis |
+| [8016481](https://pubmed.ncbi.nlm.nih.gov/8016481/) | 1993 | Review | Seminars in Respiratory Infections | Infektionen nach Lungentransplantation |
+| [8397916](https://pubmed.ncbi.nlm.nih.gov/8397916/) | 1993 | Review | Current Clinical Topics in Infectious Diseases | Prophylaxe und Behandlung von Infektionen bei Knochenmarktransplantierten |
+| [2233233](https://pubmed.ncbi.nlm.nih.gov/2233233/) | 1990 | Fallserie | Medicine | Disseminierte Histoplasmose bei AIDS: Klinik, Diagnostik und Behandlung |
+| [8187612](https://pubmed.ncbi.nlm.nih.gov/8187612/) | 1994 | Fallbericht | Dtsch Med Wochenschr | Disseminierte Histoplasmose bei AIDS; zunächst Verdacht auf Pneumocystis-Pneumonie |
 
 ---
 
-## Marktinformationen für Deutschland
+## Marktinformationen Deutschland
 
-Itraconazol ist derzeit **nicht vermarktet** in Deutschland unter den verfügbaren behördlichen Daten (0 Zulassungen registriert). Es kann keine Produkt-/Lizenz-Tabelle generiert werden.
-
----
-
-## Sicherheitsüberlegungen
-
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. (Hinweis: TFDA-Etikettwarnungen/Gegenanzeigen sind als **blockierende** Datenlücke in diesem Beweisstück gekennzeichnet und müssen gelöst werden, bevor weitere Sicherheitsbewertungen durchgeführt werden können — siehe Schlussfolgerung.)
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/V/C/002722 | Fungitraxx | – | – (Status: erloschen) |
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Sicherheitsaspekte
 
-**Entscheidung: Zurückhalten**
+**Kontraindikationen laut Wissensgraph** (aus Arzneimittel-Krankheits-Beziehungen, nicht aus dem Beipackzettel): Es werden u. a. folgende Erkrankungen genannt:
+- Herz-Kreislauf: Long-QT-Syndrom (auch familiär), Torsades de pointes, Herzinsuffizienz, Kardiomyopathien, koronare Herzkrankheit, Myokardischämie, Herzklappenerkrankungen
+- Leber und Niere: Lebererkrankungen, arzneimittelinduzierte Leberschädigung, Nierenerkrankungen, eingeschränkte Nierenfunktion
+- Lunge: COPD
+- Nervensystem und Sinnesorgane: periphere Neuropathie, Sehstörungen, Hörverlust
+- Stoffwechsel: Kaliummangel, Hyperkalzämie, Störungen des Phosphorstoffwechsels
+
+**Arzneimittelwechselwirkungen** (insgesamt 100 erfasst, Auswahl):
+- **Schwerwiegend (Major):** Loperamid, Triamcinolon, Budesonid
+- **Moderat:** Famotidin, Ranitidin, Cimetidin, Rabeprazol, Omeprazol, Hydrocortison, Dexamethason, Betamethason, Alosetron, Aprepitant
+- **Gering (Minor):** Metformin, Pioglitazon, Chlorpropamid, Amphotericin B
+
+Weitere Sicherheitsinformationen (Warnhinweise, Kontraindikationen laut Fachinformation) entnehmen Sie bitte der Fachinformation.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage wird nur durch indirekte Prophylaxe-Literatur in immungeschwächten Populationen gestützt, nicht durch direkte Evidenz einer Anti-*Pneumocystis*-Aktivität, und der vorgeschlagene Mechanismus (Ergosterol/CYP51-Hemmung) ist pharmakologisch inkonsistent mit der atypischen Sterolbiologie von *P. jirovecii*. In Kombination mit L5-Evidenzstufe (nur Modellvorhersage) und einer blockierenden Datenlücke zur Sicherheitskennzeichnung ist die Grundlage für einen Fortschritt unzureichend.
+Es liegen keine klinischen Studien und keine direkte Evidenz für Itraconazol bei Pneumocystose vor. Zudem ist die mechanistische Grundlage fraglich, da der Erreger kaum Ergosterol besitzt, und etablierte Alternativen (Trimethoprim-Sulfamethoxazol) stehen zur Verfügung. Der hohe TxGNN-Wert allein reicht nicht aus.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- TFDA/Hersteller-Packungsbeilage (Warnhinweise, Gegenanzeigen) — derzeit eine blockierende Lücke
-- Bestätigte Wirkungsmechanismus (MOA)-Daten von DrugBank oder Primärliteratur
-- Präklinische oder *in vitro*-Evidenz der Itraconazol-Aktivität speziell gegen *Pneumocystis jirovecii*
-- Alle registrierten klinischen Studien zur Bewertung von Itraconazol bei Pneumozystose-Prävention/Behandlung, sofern diese entstehen
-
+**Für ein Weiterkommen sind folgende Schritte erforderlich:**
+- Daten zum Wirkmechanismus (MOA) ergänzen und prüfen, ob Itraconazol Pneumocystis-Zielstrukturen beeinflusst
+- Präklinische Daten (In-vitro-/Tiermodell) zur Aktivität gegen Pneumocystis jirovecii
+- Auswertung der Fachinformation zu Warnhinweisen und Kontraindikationen (derzeit eine kritische Datenlücke)
+- Klärung des Zulassungsstatus in Deutschland, da die einzige erfasste Zulassung erloschen ist
+- Prüfung der Routenkompatibilität und der Relevanz der Literatur (derzeit nicht bewertet)
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

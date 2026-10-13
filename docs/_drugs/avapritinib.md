@@ -2,7 +2,7 @@
 layout: default
 title: Avapritinib
 parent: Nur Modellvorhersage (L5)
-nav_order: 40
+nav_order: 45
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,81 +29,112 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Avapritinib: Von nicht dokumentierter ursprünglicher Indikation zur axialen Spondyloemetaphysealen Dysplasie (Signal mit niedriger Konfidenz)
+# Avapritinib: Von gastrointestinalen Stromatumoren zur axialen spondylometaphysären Dysplasie
 
-## Kurzzusammenfassung
+## Zusammenfassung
 
-> Das Evidenzpaket für Avapritinib enthält weder seine ursprüngliche zugelassene Indikation noch seinen Wirkmechanismus (beide sind als Datenlücken gekennzeichnet).
-> Die Topvorhersage des TxGNN-Modells ist **Axiale Spondyloemetaphysiale Dysplasie**, aber dies ist eine von 10 Topvorhersagen,
-> **keine davon wird durch klinische Studien oder Literatur gestützt** — alle 10 fallen in die Evidenzstufe L5 (nur Modellvorhersage).
+Avapritinib ist ein Kinaseinhibitor, der ursprünglich zur Behandlung gastrointestinaler Stromatumoren (GIST) zugelassen wurde. Das TxGNN-Modell sagt voraus, dass er bei der **axialen spondylometaphysären Dysplasie** wirksam sein könnte. Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage beruht allein auf dem Modell.
 
 ---
 
 ## Schnellübersicht
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Im aktuellen Evidenzpaket nicht verfügbar (DrugBank `original_indications` und `original_moa` sind beide leer/Datenlücke) |
-| Vorhergesagte neue Indikation | Axiale Spondyloemetaphysiale Dysplasie |
-| TxGNN-Vorhersage-Score | 99.92% |
-| Evidenzstufe | L5 |
-| Marktstatus Deutschland | ✗ Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Halten |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Gastrointestinale Stromatumoren |
+| Vorhergesagte neue Indikation | Axiale spondylometaphysäre Dysplasie |
+| TxGNN-Vorhersagewert | 99,92 % |
+| Evidenzgrad | L5 |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
+| Anzahl der Zulassungen | 1 (aufgehoben) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage vernünftig?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Wirkmechanismus-Daten für Avapritinib in diesem Evidenzpaket nicht verfügbar (Datenlücke DG002, Schweregrad Hoch). Basierend auf der zu jeder der 10 Vorhersagen beigefügten Rationale wird Avapritinib als **KIT/PDGFRA-Tyrosinkinase-Inhibitor** verstanden. Die Rationale für jede einzelne der 10 besten Vorhersagen besagt jedoch ausdrücklich, dass **keine bekannte mechanistische oder Signalweg-Verbindung** zwischen KIT/PDGFRA-Hemmung und der vorhergesagten Krankheit besteht.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten derzeit keine detaillierten Angaben vor. Bekannt ist, dass Avapritinib ein Inhibitor der Kinasen KIT und PDGFRA ist. Seine Wirksamkeit bei GIST beruht auf der Hemmung dieser onkogenen Signalwege.
 
-Betrachtet man alle 10 Vorhersagen, zeigt sich ein klares Muster: Sie gliedern sich in zwei Krankheitsgruppen — seltene Skelett-/neurodevelopmentale Syndrome (Ränge 1, 2, 4, 8) und Motoneuronen-Erkrankungen des ALS-Spektrums (Amyotrophe Lateralsklerose) (Ränge 3, 5, 6, 7, 9, 10). Die Rationale für Rang 10 vermerkt dieses Muster direkt und deutet darauf hin, dass das TxGNN-Modell diese Krankheiten nach **phänotypischer/Graph-topologischer Ähnlichkeit zueinander** gruppiert, nicht nach einer echten pharmakologischen Beziehung zu Avapritinib. Ohne Daten zur ursprünglichen Indikation oder zum Wirkmechanismus, um eine Wiederverwendungshypothese zu verankern, und ohne externe Bestätigungsnachweise sollten diese Vorhersagen nur als explorative Signale behandelt werden.
-
----
-
-## Evidenz aus klinischen Studien
-
-Derzeit sind keine zugehörigen klinischen Studien registriert
+Die axiale spondylometaphysäre Dysplasie ist eine seltene Skeletterkrankung, die mit CFAP410/C21orf2 in Verbindung gebracht wird. Auf Basis der vorliegenden Daten ist **keine mechanistische Verbindung** zwischen der KIT/PDGFRA-Hemmung und dieser Erkrankung erkennbar. Der sehr hohe TxGNN-Wert (0,999) ist eine rein rechnerische Vorhersage; ein Signalweg-Zusammenhang ist nicht belegt. Die Plausibilität ist daher als gering einzuschätzen.
 
 ---
 
-## Evidenz aus der Literatur
+## Klinische Evidenz
 
-Derzeit ist keine zugehörige Literatur verfügbar
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Marktinformationen für Deutschland
+## Literaturevidenz
 
-Avapritinib hält derzeit keine Genehmigung für das Inverkehrbringen in Deutschland (0 Lizenzen registriert); keine Angaben zu Darreichungsform oder zugelassener Indikation sind verfügbar.
+Derzeit liegt keine zugehörige Literatur vor.
+
+---
+
+## Informationen zum deutschen Markt
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/005208 | Ayvakyt | – | Gastrointestinale Stromatumoren |
+
+Die einzige Zulassung (Inhaber: Blueprint Medicines (Netherlands) B.V.) hat den Status „aufgehoben".
 
 ---
 
 ## Zytotoxizität
 
-Avapritinib wird als **KIT/PDGFRA-Tyrosinkinase-Inhibitor** verstanden, ein Wirkstoff aus der Klasse gezielter antineoplastischer Therapien, die in der Onkologie typischerweise eingesetzt werden. Detaillierte Daten zur Zytotoxizitäts-Klassifikation, zum Risiko der Knochenmarks-Suppression, zur Emetogenität und zur Überwachung sind im aktuellen Evidenzpaket nicht verfügbar. Bitte lesen Sie die Warnhinweise und Vorsichtsmaßnahmen in der Packungsbeilage.
+| Punkt | Inhalt |
+|------|------|
+| Zytotoxizitätsklassifikation | Zielgerichtete Therapie (Tyrosinkinase-Inhibitor, KIT/PDGFRA) |
+| Myelosuppressionsrisiko | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Emetogenitätsklassifikation | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Überwachungsparameter | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Handhabungsschutz | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte lesen Sie die Warnhinweise und Vorsichtsmaßnahmen in der Packungsbeilage.
+- **Arzneimittelwechselwirkungen**: Die Abfrage ergab insgesamt 100 Wechselwirkungen; die folgende Aufstellung zeigt eine Auswahl aus den zusammengestellten Daten.
+  - **Schwerwiegend (Major)**: Aprepitant, Acetylsalicylsäure, Clarithromycin, Dexamethason, Cobicistat, Deferasirox, Deferipron, Ibritumomab tiuxetan, Tositumomab (I-131), Samarium-(153Sm)-lexidronam
+  - **Moderat (Moderate)**: Cimetidin, Clotrimazol, Dexfenfluramin, Fenfluramin, Glycerolphenylbutyrat, Metreleptin, Miconazol, Sibutramin, Troglitazon, Strontiumchlorid Sr-89
+- Hinweis: Für ALS-bezogene Anwendungen wird zusätzlich auf mögliche kognitive Nebenwirkungen von Avapritinib hingewiesen, die bei neurologischen Erkrankungen problematisch sein könnten.
+
+Für weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) bitte die Fachinformation heranziehen.
+
+---
+
+## Weitere vorhergesagte Indikationen (zur Einordnung)
+
+Alle weiteren Vorhersagen sind ebenfalls L5 (reine Modellvorhersage, keine Studien, keine Literatur) mit der Empfehlung „Hold":
+
+| Rang | Erkrankung | TxGNN-Wert | Einschätzung |
+|---|---|---|---|
+| 2 | Bilaterale parasagittale parieto-okzipitale Polymikrogyrie | 99,92 % | Kein mechanistischer Zusammenhang erkennbar |
+| 3 | Amyotrophe Lateralsklerose | 99,92 % | Spekulativ über Tyrosinkinase-Signalwege und Neuroinflammation (vgl. Masitinib); ZNS-Gängigkeit und Sicherheit unbewertet |
+| 4 | Trichomegalie-Retinadegeneration-Zwergwuchs-Syndrom | 99,92 % | Kein mechanistischer Zusammenhang erkennbar |
+| 5 | ALS, Suszeptibilität | 99,91 % | Wahrscheinlich redundanter Ontologie-Eintrag zur ALS |
+| 6 | ALS Typ 22 | 99,91 % | Genetischer Subtyp (TUBA4A), kein erkennbarer Bezug |
+| 7 | Lower-Motor-Neuron-Syndrom mit spätem Beginn im Erwachsenenalter | 99,91 % | Extrapolation der ALS-Hypothese |
+| 8 | Letales Arthrogrypose-Vorderhornzell-Syndrom | 99,90 % | Repurposing nicht plausibel |
+| 9 | Monomele Amyotrophie | 99,89 % | Meist gutartiger Verlauf; Nutzen-Risiko-Verhältnis ungünstig |
+| 10 | Mills-Syndrom | 99,89 % | Wahrscheinlich Netzwerknähe zu ALS-Knoten |
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Halten**
+**Entscheidung: Hold**
 
-**Rationale:**
-Die 10 am höchsten bewerteten Vorhersagen haben alle Evidenzstufe L5 (nur Modellvorhersage) ohne jegliche Unterstützung durch klinische Studien oder Literatur, und die Wiederverwendungs-Rationale selbst deutet auf einen wahrscheinlichen Mangel an echter mechanistischer Relevanz hin. Darüber hinaus fehlen vollständig Sicherheitsdaten auf Arzneimittel-Ebene (Warnhinweise, Gegenanzeigen, Wirkmechanismus), einschließlich einer blockierenden Datenlücke (DG001), die sogar eine erste Sicherheitsbewertung der Stufe S1 verhindert.
+**Begründung:**
+Für die vorhergesagte Indikation gibt es weder klinische Studien noch Literatur, und ein mechanistischer Zusammenhang ist nicht erkennbar. Zudem ist die einzige deutsche Zulassung aufgehoben. Die Vorhersage bleibt eine reine Modellaussage (L5).
 
-**Um fortzufahren, wird Folgendes benötigt:**
-- Packungsbeilage von TFDA/BfArM mit Warnhinweisen und Gegenanzeigen (DG001, Blockierend — erforderlich vor jeder Sicherheits-Vorabprüfung)
-- Wirkmechanismus-Daten aus DrugBank (DG002)
-- Bestätigung der ursprüngliche(n) zugelassene(n) Indikation(en) von Avapritinib, um eine Wiederverwendungs-Basis zu etablieren
-- Unabhängige Literatur- und klinische Studiensuche für die Topvorhersagen mit höchster Rangierung, da das aktuelle Null-Treffer-Ergebnis entweder ein genuines neuartiges Signal oder eine Abdeckungslimitation des Evidenzpakets widerspiegeln kann
-
+**Für ein Weiterkommen sind folgende Punkte erforderlich:**
+- Daten zum Wirkmechanismus (MOA), z. B. aus DrugBank
+- Sicherheitsdaten aus der Fachinformation (Warnhinweise, Gegenanzeigen); derzeit fehlend und blockierend für das Sicherheitsscreening
+- Präklinische Belege für einen Zusammenhang zwischen KIT/PDGFRA-Hemmung und der vorhergesagten Erkrankung
+- Falls ein Folgeprojekt gewünscht ist: Priorisierung der ALS-bezogenen Hypothese (inklusive Bewertung von ZNS-Penetration und kognitiven Nebenwirkungen)
+- Klärung des Zulassungsstatus in Deutschland und der Verfügbarkeit des Präparats
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

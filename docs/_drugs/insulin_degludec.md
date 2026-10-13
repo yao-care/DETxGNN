@@ -2,7 +2,7 @@
 layout: default
 title: Insulin Degludec
 parent: Hohe Evidenz (L1-L2)
-nav_order: 204
+nav_order: 240
 evidence_level: L1
 indication_count: 6
 ---
@@ -29,105 +29,116 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Insulindeglutec: Von Diabetes mellitus zu Typ-1-Diabetes mellitus (Bestätigungssignal)
+# Insulin degludec: Von Diabetes mellitus zu Typ-1-Diabetes mellitus
 
 ## Zusammenfassung in einem Satz
 
-> Insulindeglutec ist ein ultralangsam wirkendes Basis-Insulinanalogon, das international für Typ-1- und Typ-2-Diabetes mellitus zugelassen ist, aber derzeit nicht in Taiwan vermarktet wird.
-> Die Topvorhersage des TxGNN-Modells — **Typ-1-Diabetes mellitus** — ist im Grunde die bereits etablierte, weltweit zugelassene Indikation des Arzneimittels und nicht ein neues Umwidmungsziel,
-> unterstützt durch **59 klinische Studien** und **20 Publikationen**, einschließlich großer Meilenstein-Phase-3-RCTs.
+Insulin degludec ist ein ultralang wirksames Basalinsulin-Analogon, das ursprünglich zur Behandlung von Diabetes mellitus (einschließlich Typ 2) zugelassen wurde.
+Das TxGNN-Modell sagt voraus, dass es bei **Typ-1-Diabetes mellitus** wirksam sein könnte,
+wobei derzeit **40 klinische Studien** und **19 Publikationen** diese Richtung stützen, darunter mehrere abgeschlossene Phase-3-Studien.
 
 ---
 
 ## Schnellübersicht
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Nicht in Taiwan registriert (nicht vermarktet); international zugelassen für Typ-1/2-Diabetes mellitus als Basis-Insulinersatztherapie |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Diabetes mellitus |
 | Vorhergesagte neue Indikation | Typ-1-Diabetes mellitus |
-| TxGNN-Vorhersage-Score | 99.44% |
+| TxGNN-Vorhersagewert | 99,44 % |
 | Evidenzgrad | L1 |
-| Taiwan-Marktstatus | ✗ Nicht vermarktet (nicht vermarktet) |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Mit Vorsichtsmaßnahmen fortfahren |
+| Marktstatus in Deutschland | Nur erloschene Zulassungen |
+| Anzahl der Zulassungen | 3 (alle erloschen) |
+| Empfohlene Entscheidung | Proceed with Guardrails (Fortfahren mit Schutzmaßnahmen) |
 
 ---
 
-## Warum ist diese Vorhersage vernünftig?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Daten zum Wirkmechanismus nicht verfügbar (gekennzeichnet als Datenlücke mit hohem Schweregrad). Basierend auf bekannter Pharmakologie ist Insulindeglutec ein ultralangsam wirkendes Basis-Insulinanalogon, das direkt am Insulinrezeptor wirkt und eine exogene Insulinersatztherapie bietet — seine Wirksamkeit bei Typ-1-Diabetes mellitus ist in der weltweiten klinischen Praxis umfassend bewiesen.
+Für die für diesen Bericht zusammengestellten Daten liegen keine detaillierten Angaben zum Wirkmechanismus vor. Nach bekanntem Wissen ist Insulin degludec ein ultralang wirksames Basalinsulin-Analogon, das an den Insulinrezeptor bindet und den Blutzucker senkt. Seine Wirksamkeit bei Diabetes mellitus ist belegt.
 
-**Wichtiger Vorbehalt:** Diese Topvorhersage ist kein neues Umwidmungssignal. Typ-1-Diabetes mellitus ist bereits die etablierte, weltweit zugelassene Indikation von Insulindeglutec (auf den meisten Märkten als Tresiba® vermarktet). Das TxGNN-Modell bestätigt hier eine bekannte Wirkstoff-Krankheits-Beziehung, anstatt eine neue therapeutische Gelegenheit zu entdecken. Der Status „nicht vermarktet", der unter den Taiwan-Regulierungsdaten erfasst ist, spiegelt eine **Marktzugangslücke** wider (das Produkt wurde in Taiwan nicht registriert/eingeführt), nicht eine klinische Wirksamkeits- oder Sicherheitslücke.
+Beim Typ-1-Diabetes besteht ein absoluter Insulinmangel, daher ist ein basaler Insulinersatz mechanistisch unmittelbar sinnvoll. Es handelt sich dabei weniger um ein echtes Repurposing als um eine Erweiterung innerhalb derselben Krankheitsklasse, da die ursprünglichen Indikationen bereits Diabetes mellitus umfassen.
 
-Angesichts dessen ist der praktische Wert dieses Nachweispakets weniger darauf ausgerichtet, eine neue Indikation zu validieren, sondern vielmehr, eine potenzielle **Taiwan-Markteintrittsentscheidung** für ein Arzneimittel mit bereits reifen globalen Evidenzgrundlagen zu unterstützen.
+Die Evidenz stammt aus direkten Vergleichsstudien und systematischen Übersichtsarbeiten, die Degludec mit anderen Basalinsulinen (Glargin, Detemir, Icodec, Efsitora) vergleichen. Zu beachten ist, dass in Deutschland nur erloschene Zulassungen vorliegen; vor einer Empfehlung sind daher regulatorische und Verfügbarkeitsprüfungen nötig.
 
 ---
 
-## Klinische Studienevidenz
+## Evidenz aus klinischen Studien
 
-| Studiennummer | Phase | Status | Patientenzahl | Wichtigste Ergebnisse |
+Es sind 40 Studien erfasst; nachfolgend die 10 relevantesten (direkter Degludec-Bezug, höhere Phase, größere Fallzahl).
+
+| Studiennummer | Phase | Status | Teilnehmer | Zentrale Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT02500706](https://clinicaltrials.gov/study/NCT02500706) | Phase 3 | Abgeschlossen | 1.108 | Schneller wirkendes Insulinaspart vs. NovoRapid®, beide kombiniert mit Insulindeglutec, bei Erwachsenen mit T1DM |
-| [NCT03214367](https://clinicaltrials.gov/study/NCT03214367) | Phase 3 | Abgeschlossen | 1.392 | PRONTO-T1D: LY900014 vs. Insulinlispro, beide mit Glargin oder Deglutec, bei T1DM |
-| [NCT05904743](https://clinicaltrials.gov/study/NCT05904743) | Phase 4 | Abgeschlossen | 141 | INHALE-3: inhaliertes Insulin + Deglutec vs. Standardbehandlung bei T1DM (Relevanzgrad B) |
-| [NCT02030600](https://clinicaltrials.gov/study/NCT02030600) | Phase 3 | Abgeschlossen | 721 | SWITCH 2: Deglutec vs. Glargin Sicherheits-/Wirksamkeitsvergleich, ± OADs (Relevanzgrad A) |
-| [NCT01959529](https://clinicaltrials.gov/study/NCT01959529) | Phase 3 | Abgeschlossen | 7.637 | DEVOTE: kardiovaskuläre Sicherheit von Deglutec vs. Glargin bei Diabetes mit hohem CV-Risiko — Meilenstein-Studienergebnis |
-| [NCT01984372](https://clinicaltrials.gov/study/NCT01984372) | N/A (PMS) | Abgeschlossen | 6.163 | Langfristige (3-jährige) Überwachung der Sicherheit/Wirksamkeit nach Markteinführung von Tresiba® |
-| [NCT02662114](https://clinicaltrials.gov/study/NCT02662114) | N/A | Abgeschlossen | 2.302 | EU-TREAT: reale Wirksamkeit von Deglutec nach Wechsel des Basis-Insulins, T1/T2DM |
-| [NCT04450394](https://clinicaltrials.gov/study/NCT04450394) | Phase 2 | Abgeschlossen | 278 | LY3209590 vs. Deglutec (aktive Vergleichssubstanz) bei insulinnaiven T2DM (Relevanzgrad B) |
-| [NCT03557892](https://clinicaltrials.gov/study/NCT03557892) | N/A | Abgeschlossen | 28 | CSII+CGM vs. MDI unter Verwendung von Deglutec als Basis-Insulin, Crossover-Studie bei T1DM (Relevanzgrad C) |
-| [NCT01046110](https://clinicaltrials.gov/study/NCT01046110) | Phase 3 | Abgeschlossen | 458 | BEGIN™ EARLY: Deglutec vs. Sitagliptin-Zusatz bei insulinnaiven T2DM (Relevanzgrad B) |
+| [NCT02034513](https://clinicaltrials.gov/study/NCT02034513) | Phase 3 | Abgeschlossen | 501 | SWITCH 1: Degludec vs. Glargin (jeweils mit Insulin aspart) bei Typ-1-Diabetes, Sicherheit und Wirksamkeit im Cross-over |
+| [NCT05463744](https://clinicaltrials.gov/study/NCT05463744) | Phase 3 | Abgeschlossen | 692 | Wöchentliches Basalinsulin Efsitora vs. Degludec bei Typ 1 mit Mehrfachinjektionstherapie |
+| [NCT02500706](https://clinicaltrials.gov/study/NCT02500706) | Phase 3 | Abgeschlossen | 1108 | Schnell wirksames Insulin aspart vs. NovoRapid, jeweils mit Degludec, bei Erwachsenen mit Typ 1 |
+| [NCT02670915](https://clinicaltrials.gov/study/NCT02670915) | Phase 3 | Abgeschlossen | 834 | Schnell wirksames Insulin aspart vs. NovoRapid, jeweils mit Degludec, bei Kindern und Jugendlichen |
+| [NCT00978627](https://clinicaltrials.gov/study/NCT00978627) | Phase 3 | Abgeschlossen | 548 | Degludec/Aspart (IDegAsp) einmal täglich vs. Detemir plus Aspart bei Typ 1 (BOOST T1) |
+| [NCT01835431](https://clinicaltrials.gov/study/NCT01835431) | Phase 3 | Abgeschlossen | 362 | IDegAsp einmal täglich vs. Detemir bei Kindern und Jugendlichen mit Typ 1 |
+| [NCT01569841](https://clinicaltrials.gov/study/NCT01569841) | Phase 3 | Abgeschlossen | 24 | Degludec vs. Glargin, glykämische Kontrolle mittels kontinuierlicher Glukosemessung |
+| [NCT04075513](https://clinicaltrials.gov/study/NCT04075513) | Phase 4 | Abgeschlossen | 343 | Glargin 300 E/ml (Toujeo) vs. Degludec (Tresiba): Zeit im Zielbereich und Variabilität |
+| [NCT02392117](https://clinicaltrials.gov/study/NCT02392117) | Nicht zutreffend (nicht-interventionell) | Abgeschlossen | 1262 | Anwendungsbeobachtung zu Sicherheit und Wirksamkeit von Degludec bei Typ 1 und Typ 2 im Praxisalltag |
+| [NCT05434559](https://clinicaltrials.gov/study/NCT05434559) | Nicht zutreffend (retrospektiv) | Abgeschlossen | 475 | Glykämische Kontrolle nach Umstellung auf Degludec bei Erwachsenen mit Typ 1 |
 
 ---
 
 ## Literaturevidenz
 
-| PMID | Jahr | Typ | Journal | Wichtigste Ergebnisse |
+| PMID | Jahr | Typ | Zeitschrift | Zentrale Ergebnisse |
 |------|-----|------|------|---------|
-| [36623517](https://pubmed.ncbi.nlm.nih.gov/36623517/) | 2023 | RCT | Lancet Diabetes Endocrinol | EXPECT-Studie: Deglutec vs. Detemir (beide + Aspart) bei schwangeren Frauen mit T1DM, Nicht-Unterlegenheit |
-| [34643020](https://pubmed.ncbi.nlm.nih.gov/34643020/) | 2022 | RCT | Diabetes Obes Metab | HypoDeg: Deglutec vs. Glargin U100 bei T1DM mit Anfälligkeit für nächtliche schwere Hypoglykämie |
-| [36610544](https://pubmed.ncbi.nlm.nih.gov/36610544/) | 2023 | RCT | Diabetes Res Clin Pract | INEOX: Deglutec 100 IU/mL vs. Glargin 300 IU/mL Wirksamkeit/Sicherheit bei T1DM |
-| [37863084](https://pubmed.ncbi.nlm.nih.gov/37863084/) | 2023 | Phase-3a-RCT | Lancet | ONWARDS 6: einmal wöchentlich Icodec vs. einmal täglich Deglutec bei T1DM Basis-Bolus-Regime |
-| [39270686](https://pubmed.ncbi.nlm.nih.gov/39270686/) | 2024 | Phase-3-RCT | Lancet | QWINT-5: einmal wöchentlich Efsitora alfa vs. Deglutec bei T1DM, Nicht-Unterlegenheit |
-| [36763996](https://pubmed.ncbi.nlm.nih.gov/36763996/) | 2022 | Systematische Übersichtsarbeit/Metaanalyse | Clin Ther | Wirksamkeit/Verträglichkeit von Deglutec vs. andere langwirksame Basis-Insuline bei T1D/T2D |
-| [35476308](https://pubmed.ncbi.nlm.nih.gov/35476308/) | 2022 | Systematische Übersichtsarbeit | Int J Clin Pharm | Indirekter Vergleich: Deglutec U100 vs. Glargin U300 bei T1D — Sicherheit, Wirksamkeit, Kosteneffektivität |
-| [29477399](https://pubmed.ncbi.nlm.nih.gov/29477399/) | 2018 | Netzwerk-Metaanalyse | Value Health | Basis-Insulinregime für Erwachsene mit T1DM: systematische Übersichtsarbeit und Netzwerk-Metaanalyse |
-| [31055056](https://pubmed.ncbi.nlm.nih.gov/31055056/) | 2020 | Übersichtsarbeit | Diabetes Metab | Aktueller Status von Deglutec bei T1D und T2D basierend auf randomisierten und Beobachtungsstudien |
-| [23890782](https://pubmed.ncbi.nlm.nih.gov/23890782/) | 2014 | Übersichtsarbeit | Endocrinol Nutr | Deglutec, ein neues ultralangsam wirkendes Basis-Insulin: Fortschritte in der klinischen Forschung |
+| [37863084](https://pubmed.ncbi.nlm.nih.gov/37863084/) | 2023 | RCT | Lancet | ONWARDS 6: wöchentliches Icodec vs. tägliches Degludec im Basis-Bolus-Regime bei Typ 1 |
+| [36623517](https://pubmed.ncbi.nlm.nih.gov/36623517/) | 2023 | RCT | Lancet Diabetes Endocrinol | EXPECT: Degludec vs. Detemir bei schwangeren Frauen mit Typ 1 (Nichtunterlegenheit) |
+| [39270686](https://pubmed.ncbi.nlm.nih.gov/39270686/) | 2024 | RCT | Lancet | QWINT-5: wöchentliches Efsitora vs. tägliches Degludec bei Erwachsenen mit Typ 1 |
+| [40903851](https://pubmed.ncbi.nlm.nih.gov/40903851/) | 2025 | RCT (als Kohorte klassifiziert) | Diabetes Obes Metab | Frühe Gabe von Degludec zusätzlich zur intravenösen Insulininfusion bei diabetischer Ketoazidose |
+| [36763996](https://pubmed.ncbi.nlm.nih.gov/36763996/) | 2022 | Systematische Übersicht/Metaanalyse | Clin Ther | Wirksamkeit und Verträglichkeit von Degludec vs. anderen langwirksamen Basalinsulinen bei Typ 1 und Typ 2 |
+| [40627908](https://pubmed.ncbi.nlm.nih.gov/40627908/) | 2025 | Systematische Übersicht/Metaanalyse | J Diabetes Complications | Degludec vs. Efsitora bei Typ 1 und Typ 2 |
+| [33662147](https://pubmed.ncbi.nlm.nih.gov/33662147/) | 2021 | Systematische Übersicht (Cochrane) | Cochrane Database Syst Rev | (Ultra-)langwirksame Insulinanaloga bei Typ-1-Diabetes |
+| [29477399](https://pubmed.ncbi.nlm.nih.gov/29477399/) | 2018 | Systematische Übersicht/Netzwerk-Metaanalyse | Value Health | Vergleich von Basalinsulin-Regimen bei Erwachsenen mit Typ 1 |
+| [23620200](https://pubmed.ncbi.nlm.nih.gov/23620200/) | 2013 | Übersichtsarbeit | Drugs | Einsatz von Degludec und Degludec/Aspart: flaches, stabiles Wirkprofil, Wirkdauer über 42 Stunden |
+| [35147781](https://pubmed.ncbi.nlm.nih.gov/35147781/) | 2022 | Real-World-Studie | Acta Diabetol | Schwangerschaftsausgänge bei Frauen mit Typ 1 unter Degludec |
 
 ---
 
-## Taiwan-Marktinformationen
+## Marktinformationen Deutschland
 
-Insulindeglutec verfügt derzeit über **keine Marktgenehmigung in Taiwan** (0 Lizenzen erfasst; Marktstatus: nicht vermarktet). Es sind keine Produkteinträge verfügbar zum Tabellieren.
+Alle drei Zulassungen sind erloschen; derzeit ist kein Präparat mit gültiger Zulassung gelistet.
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/002498 | Tresiba | – | Diabetes mellitus |
+| EMEA/H/C/002499 | Ryzodeg | – | Diabetes mellitus |
+| EMEA/H/C/002647 | Xultophy | – | Diabetes mellitus, Typ 2 |
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. Strukturierte Warnungen, Kontraindikationen oder Arzneimittelwechselwirkungsdaten sind derzeit in diesem Nachweispaket nicht verfügbar (TFDA-Etikett-Daten gekennzeichnet als Blocking-Datenlücke, DG001).
+- **Arzneimittelwechselwirkungen**: Insgesamt wurden 100 Wechselwirkungen erfasst, überwiegend mit mäßiger Einstufung (Beispiele):
+  - Sympathomimetika und Beta-Agonisten: Phenylephrin, Pseudoephedrin, Epinephrin, Salbutamol, Formoterol
+  - Betablocker: Acebutolol
+  - Andere Antidiabetika: Metformin, Pioglitazon, Alogliptin, Albiglutid
+  - Hormone und Kortikoide: Hydrocortison, Estradiol, Levonorgestrel, Norethisteron
+  - Weitere: Doxycyclin, Hydrochlorothiazid, Alpelisib, Ethanol
+  - Gering eingestuft: topisches Hydrocortison, topisches Alclometason
 
----
-
-## Weitere vorhergesagte Indikationen (nicht weiter verfolgt)
-
-Ränge 2–6 (autoimmune Oophoritis, Opsismodysplasie, Thiamin-responsive Dysfunktionssyndrom, klassisches Stiff-Person-Syndrom, fokales Stiff-Limb-Syndrom) tragen alle **L4–L5-Evidenz** mit **null unterstützenden klinischen Studien oder Literatur**. Diese spiegeln Wissensgraph-Ko-Auftritts-Muster wider (z.B. gemeinsame GAD65-Autoimmunität oder Diabetes-Komorbiditäten), anstelle direkter pharmakologischer Begründung. Alle werden **zurückgestellt** empfohlen.
+Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Mit Vorsichtsmaßnahmen fortfahren**
+**Entscheidung: Proceed with Guardrails (Fortfahren mit Schutzmaßnahmen)**
 
 **Begründung:**
-Die Topvorhersage (T1DM) wird durch eine umfangreiche, reife L1-Evidenzbasis auf globaler Ebene gestützt (mehrere große Phase-3/4-RCTs und Meilenstein-Studien), aber sie bestätigt eine bereits zugelassene Indikation anstelle einer neuen Umwidmungsmöglichkeit. Die praktische Entscheidung hier ist eine **Taiwan-Marktzugriffsfrage**, keine Umwidmungsvalidierungsfrage — und sie ist derzeit durch fehlende TFDA-spezifische Regulierungsdaten blockiert.
+Mehrere abgeschlossene Phase-3-Studien (u. a. SWITCH 1) und hochrangige RCTs sowie systematische Übersichten stützen den Einsatz von Degludec bei Typ-1-Diabetes, sodass der Evidenzgrad L1 erreicht wird. Allerdings handelt es sich um eine Erweiterung innerhalb der Diabetes-Klasse, und in Deutschland bestehen nur erloschene Zulassungen.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- Von der TFDA genehmigte Packungsbeilage (Warnungen, Kontraindikationen, DDI) — derzeit eine Blocking-Datenlücke (DG001)
-- Bestätigte Wirkmechanismus-Dokumentation von DrugBank (DG002)
-- Klärung des Taiwan-Registrierungs-/Importstatus und aller geplanten Markteintritts-Zeitpläne für Insulindeglutec (Tresiba®)
-- Sollte ein Markteintritt angestrebt werden, sind keine zusätzlichen Indikations-Validierungsstudien erforderlich, angesichts der vorhandenen globalen L1-Evidenzbasis
+**Für das weitere Vorgehen ist erforderlich:**
+- Klärung des regulatorischen Status und der Verfügbarkeit in Deutschland (erloschene Zulassungen)
+- Auswertung der Fachinformation (Warnhinweise und Gegenanzeigen) vom BfArM, da diese Daten derzeit fehlen
+- Detaillierte Wirkmechanismusdaten (z. B. aus DrugBank)
+- Prüfung der Wechselwirkungen, v. a. mit Sympathomimetika, Betablockern und anderen Antidiabetika
 
+**Hinweis zu weiteren Vorhersagen:** Die übrigen fünf vorhergesagten Indikationen (autoimmune Oophoritis, Opsismodysplasie, Thiamin-responsives Dysfunktionssyndrom, klassisches Stiff-Person-Syndrom, fokales Stiff-Limb-Syndrom) haben trotz hoher TxGNN-Werte (rund 99 %) weder klinische Studien noch Literatur, keinen plausiblen therapeutischen Mechanismus und Evidenzgrad L5. Empfehlung für diese: **Hold**.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

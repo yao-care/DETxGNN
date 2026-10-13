@@ -2,7 +2,7 @@
 layout: default
 title: Ocrelizumab
 parent: Nur Modellvorhersage (L5)
-nav_order: 276
+nav_order: 322
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,36 +29,35 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-# Ocrelizumab: Von Multiple Sklerose zum HER2-positiven Mammakarzinom
+# Ocrelizumab: Von Multipler Sklerose zu HER2-positivem Mammakarzinom
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Ocrelizumab ist ein Anti-CD20-Monoklonalantikörper, dessen etablierte Anwendung die B-Zell-Depletion bei Multipler Sklerose ist; formaler Indikationstext ist in diesem Evidenzpaket nicht verfügbar, da das Arzneimittel **derzeit nicht in Deutschland vermarktet wird**.
-> Das TxGNN-Modell prognostiziert, dass es für **HER2-positives Mammakarzinom** wirksam sein könnte, mit einem sehr hohen Rohergebnis (**99.89%**), aber diese Vorhersage wird derzeit durch **null klinische Studien** und **null Literaturverweise** gestützt, und die vom Reviewer verfasste mechanistische Begründung verweist explizit auf keine bekannte biologische Verbindung zwischen B-Zell-Depletion und HER2/ERBB2-getriebenem Tumorsignaling.
+Ocrelizumab ist ein humanisierter monoklonaler Anti-CD20-Antikörper, der ursprünglich zur Behandlung der **Multiplen Sklerose** eingesetzt wird. Das TxGNN-Modell sagt voraus, dass er bei **HER2-positivem Mammakarzinom** wirksam sein könnte. Hierfür liegen jedoch **keine klinischen Studien und keine Publikationen** vor; die Vorhersage beruht allein auf dem Modell.
 
 ---
 
 ## Schnellübersicht
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Multiple Sklerose (basierend auf bekannter Arzneimittelklasse/Hintergrund; kein formaler deutscher Regulierungsindikationstext liegt vor – Arzneimittel ist unvermarktet) |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Multiple Sklerose |
 | Vorhergesagte neue Indikation | HER2-positives Mammakarzinom |
-| TxGNN-Vorhersage-Score | 99.89% |
-| Evidenzstufe | L5 (nur Modellvorhersage, keine unterstützenden klinischen oder Literaturdaten) |
-| Marktstatus Deutschland | ✗ Nicht vermarktet |
-| Anzahl der Genehmigungen | 0 |
-| Empfohlene Entscheidung | **Zurückstellen** |
+| TxGNN-Vorhersagewert | 99,89 % |
+| Evidenzgrad | L5 |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
+| Anzahl der Zulassungen | 1 (aufgehoben) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage sinnvoll?
+## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Wirkmechanismus-Daten sind als Datenlücke in diesem Evidenzpaket gekennzeichnet (DG002). Basierend auf bekannten Hintergrundinformationen ist Ocrelizumab ein Anti-CD20-Monoklonalantikörper, der CD20-positive B-Lymphozyten abbaut, um eine Immunmodulation zu erreichen, und ist für Multiple Sklerose zugelassen. Dieser Wirkmechanismus ist grundsätzlich eine Immunzell-zielgerichtete Therapie, nicht eine Tumor-Signalweg-Therapie.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Ocrelizumab CD20-positive B-Zellen depletiert und bei Multipler Sklerose seine Wirksamkeit in großen Studien gezeigt hat.
 
-HER2-positives Mammakarzinom wird hingegen durch Überexpression/Amplifikation der HER2 (ERBB2) Rezeptor-Tyrosinkinase angetrieben, die nachgelagerte proliferative Signalisierung (PI3K/AKT, MAPK) unabhängig von B-Zell-Biologie aktiviert. Es gibt keine Überlappung zwischen dem CD20/B-Zell-Depletion-Weg und dem HER2/ERBB2-Signalweg, und keine veröffentlichten Beweise, dass eine B-Zell-depletive Therapie HER2-getriebenes Tumorwachstum verändert.
+Ein mechanistischer Zusammenhang zum HER2-positiven Mammakarzinom ist durch die Daten **nicht gestützt**. Dieser Tumortyp wird durch HER2-Amplifikation und -Signalwege getrieben, und Tumorzellen exprimieren CD20 üblicherweise nicht als therapeutisches Ziel. Der sehr hohe Modellwert (0,999) ist eine reine Modellvorhersage ohne klinische oder literaturbasierte Bestätigung.
 
-Angesichts des Fehlens einer mechanistischen Brücke, klinischer Studien oder Literaturunterstützung kommt die Reviewer-Bewertung in diesem Evidenzpaket zu dem Ergebnis, dass der hohe TxGNN-Score höchstwahrscheinlich **modellseitiges Vorhersage-Rauschen** widerspiegelt, anstelle eines biologisch begründeten Repurposing-Signals. Dies ist ein wichtiger Vorbehalt, der stark gegen das Handeln nach dem Score allein wiegen sollte.
+Weitere vom Modell vorhergesagte Indikationen sind ebenfalls Brustkrebsformen (normal-brustähnlicher Subtyp, progesteronrezeptor-positiv, progesteronrezeptor-negativ, Luminal A/B), ebenfalls ohne belegten mechanistischen Zusammenhang.
 
 ---
 
@@ -68,39 +67,47 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Literaturevidenz
+## Evidenz aus der Literatur
 
-Derzeit ist keine zugehörige Literatur verfügbar.
+Derzeit ist keine zugehörige Literatur verfügbar. Für die vorhergesagte Indikation HER2-positives Mammakarzinom wurden keine Publikationen gefunden.
 
-**Anmerkung zur Datenqualität (aus demselben Evidenzpaket, andere Kandidatenindikationen):** Ein verwandter Kandidat, *„Brusttumorluminal A oder B,"* erbrachte 19 PubMed-Treffer während der automatisierten Suche. Bei manueller Überprüfung sind alle 19 nicht mit Brustkrebs verwandt – sie betreffen B-Zell-Entwicklung/Reifung, Hepatitis-B-Impfstoffe und HLA-B-Allel-Typisierung. Dies deutet stark darauf hin, dass die Literatursuche auf dem eigenständigen Buchstaben „B" (von „luminal B") statt auf dem Krankheitskonzept abgestimmt war, und sollte als **falsch-positives Artefakt der Such-Pipeline** behandelt werden, nicht als unterstützender Beweis. Die übrigen drei Kandidatenindikationen (normaler brustähnlicher Subtyp, PR-positives Mammakarzinom, PR-negatives Mammakarzinom) erbrachten null Studien und null Literatur. Keine der fünf vorhergesagten Indikationen in diesem Paket haben derzeit echte unterstützende Beweise.
+Hinweis: Dem Rang-4-Kandidaten (Luminal A/B) wurden 18 Publikationen zugeordnet. Diese betreffen Ocrelizumab bei Multipler Sklerose, Anti-CD20-Therapien und Autoimmunerkrankungen; keine behandelt Brustkrebs. Sie stellen keine Evidenz für die vorhergesagte Indikation dar.
 
 ---
 
-## Marktinformationen für Deutschland
+## Marktinformationen Deutschland
 
-Ocrelizumab hat derzeit **keine Zulassung in der Akte in Deutschland** (0 Lizenzen registriert). Keine Produktbezeichnung, Darreichungsform oder genehmigter Indikationstext ist aus den Zulassungsdaten für dieses Arzneimittel in diesem Markt verfügbar.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/004043 | Ocrevus | – | Multiple Sklerose |
+
+Status: aufgehoben (Hersteller: Roche Registration GmbH).
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. (Wichtige Warnhinweise, Kontraindikationen und Arzneimittel-Arzneimittel-Wechselwirkungsdaten sind alle als Datenlücken in diesem Evidenzpaket gekennzeichnet – insbesondere DG001, eine *Blocking*-Schweregrad-Lücke für TFDA/Etikettenwarnungen und Kontraindikationen, die verhindert, dass dieser Kandidat das S1-Sicherheitspre-Screening besteht.)
+- **Arzneimittelwechselwirkungen:** In der Abfrage wurden insgesamt 100 Wechselwirkungen erfasst. Die ersten 20 Einträge sind:
+  - **Moderat:** Kortikosteroide (Hydrocortison, Triamcinolon, Dexamethason, Betamethason, Budesonid, Prednisolon, Prednison, Triamcinolon ophthalmisch), Iobenguan (I-131), Ibritumomab-Tiuxetan, Tositumomab (I-131) und Tositumomab, Samarium-(153Sm)-Lexidronam, Albendazol, Pentamidin, Levamisol
+  - **Gering:** Zinksulfat, Zinkacetat, Zinkgluconat, Zinkchlorid
+
+Für Warnhinweise und Gegenanzeigen siehe die Fachinformation.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Zurückstellen**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die Evidenzstufe ist L5 (nur Modellvorhersage) ohne klinische Studien und ohne echte Literaturunterstützung für HER2-positives Mammakarzinom oder eine der anderen vier vorhergesagten brustkrebsbezogenen Indikationen in diesem Paket. Der vorgeschlagene Wirkmechanismus (CD20-vermittelte B-Zell-Depletion) hat keine etablierte biologische Verbindung zu HER2/ERBB2-getriebenem Tumorsignaling, und die scheinbare Literaturunterstützung eines benachbarten Kandidaten stellte sich als falsch-positives Artefakt der Such-Pipeline heraus. In Kombination mit einer Blocking-Schweregrad-Sicherheitsdatenlücke (DG001) und einer High-Schweregrad-MOA-Datenlücke (DG002) kann dieser Kandidat derzeit nicht einmal das anfängliche Sicherheits- und Evidenz-Screening-Stadium bestehen.
+Die Vorhersage beruht ausschließlich auf dem TxGNN-Modellwert (Evidenzgrad L5). Es gibt weder klinische Studien noch relevante Publikationen, und ein biologisch plausibler Zusammenhang zwischen CD20-gerichteter B-Zell-Depletion und HER2-positivem Brustkrebs ist nicht erkennbar. Zudem ist die deutsche Zulassung aufgehoben.
 
-**Zur Fortsetzung ist Folgendes erforderlich:**
-- Bestätigte Wirkmechanismus-Daten für Ocrelizumab aus DrugBank/Primärliteratur (behebt DG002)
-- TFDA/BfArM Packungsbeilage-Warnhinweise und Kontraindikationen (behebt DG001, Blocking)
-- Eine korrigierte, indikationsspezifische Literatur- und klinische Studiensuche, die Einzelbuchstaben-/Schlüsselwort-Falschentsprechungen herausfiltert (z.B. erneute Ausführung der „luminal B"-Abfrage mit krankheitsspezifischen MeSH-Begriffen)
-- Falls weiter verfolgt: dedizierte präklinische oder mechanistische Studien, die einen plausiblen Zusammenhang zwischen B-Zell-Depletion und HER2-getriebener Tumorbiologie etablieren, bevor eine klinische Hypothese berücksichtigt wird
-
+**Für ein Weiterverfolgen sind folgende Schritte nötig:**
+- Daten zum Wirkmechanismus (MOA) ergänzen
+- Präklinische Belege für eine Rolle von CD20 oder B-Zellen beim HER2-positiven Mammakarzinom prüfen
+- Gezielte Literatur- und Studienrecherche zu Anti-CD20-Therapien bei Brustkrebs
+- Warnhinweise und Gegenanzeigen aus der Fachinformation beschaffen und auswerten (derzeit blockierende Datenlücke für das Sicherheitsscreening)
+- Klärung des regulatorischen Status in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

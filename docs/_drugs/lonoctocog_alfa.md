@@ -2,7 +2,7 @@
 layout: default
 title: Lonoctocog Alfa
 parent: Nur Modellvorhersage (L5)
-nav_order: 237
+nav_order: 276
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,71 +29,87 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-# Lonoctocog Alfa: Von Hämophilie A zu Pseudo-von-Willebrand-Erkrankung
+# Lonoctocog alfa: Von Hämophilie A zu Pseudo-von-Willebrand-Erkrankung
 
 ## Zusammenfassung in einem Satz
 
-> Lonoctocog alfa ist eine rekombinante Faktor-VIII-Ersatztherapie (rFVIII), die für die Behandlung von **Hämophilie A** eingesetzt wird.
-> Das TxGNN-Modell prognostiziert, dass es möglicherweise wirksam bei der **Pseudo-von-Willebrand-Erkrankung** sein könnte,
-> aber derzeit **keine klinischen Studien** und **keine Veröffentlichungen** unterstützen diese Richtung — die Vorhersage ist modellgestützt, und die mechanistische Überprüfung des Evidenzpakets selbst kennzeichnet sie als wahrscheinlich falsch-positiv.
+Lonoctocog alfa ist ein rekombinanter Einzelketten-Faktor-VIII (mit verkürzter B-Domäne), der ursprünglich zur Behandlung der **Hämophilie A** eingesetzt wurde. Das TxGNN-Modell sagt voraus, dass er bei der **Pseudo-von-Willebrand-Erkrankung** wirksam sein könnte. Dafür liegen bislang **keine klinischen Studien und keine Publikationen** vor; die Vorhersage beruht allein auf dem Modell.
+
+---
 
 ## Schnellübersicht
 
-| Element | Inhalt |
-|--------|--------|
-| Ursprüngliche Indikation | Hämophilie A (aus bekannter rFVIII-Pharmakologie hergeleitet; nicht im aktuellen Datensatz bestätigt — `original_indications` ist leer und TFDA-Labeldaten stellen eine blockierende Datenlücke dar) |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Hämophilie A |
 | Vorhergesagte neue Indikation | Pseudo-von-Willebrand-Erkrankung |
-| TxGNN-Vorhersageergebnis | 99.85% |
-| Evidenzlevel | L5 |
-| Marktstatus Taiwan | Nicht vermarktet (Nicht vermarktet) |
-| Anzahl der Genehmigungen | 0 |
-| Empfohlene Entscheidung | Abwarten |
+| TxGNN-Vorhersagewert | 99,85 % |
+| Evidenzgrad | L5 |
+| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
+| Anzahl der Zulassungen | 1 |
+| Empfohlene Entscheidung | Hold |
 
-## Warum ist diese Vorhersage angemessen?
+---
 
-Derzeit sind detaillierte Daten zum Wirkmechanismus nicht verfügbar (gekennzeichnet als Datenlücke mit hohem Schweregrad). Basierend auf bekannter Pharmakologie ist Lonoctocog alfa ein rekombinantes Faktor-VIII-Produkt, das defizientes oder dysfunktionales Koagulations-Faktor VIII ersetzt, und seine Wirksamkeit bei Hämophilie A ist gut etabliert.
+## Warum ist diese Vorhersage plausibel?
 
-Allerdings gehören die vier wichtigsten TxGNN-prognostizierten Indikationen — Pseudo-von-Willebrand-Erkrankung, primäre Thrombozytensekretionstörung, Glanzmann-Thrombasthenie und Scott-Syndrom — alle zu **Thrombozyten-Funktions- oder Thrombozyten-Rezeptor-Störungen**, nicht zu Koagulationsfaktor-Mängeln. Nach der eigenen mechanistischen Analyse des Evidenzpakets entstehen die hohen Ähnlichkeitsergebnisse des Modells wahrscheinlich aus einer indirekten Assoziation im Wissensgraph zwischen FVIII und von-Willebrand-Faktor (die beiden zirkulieren normalerweise als Komplex und werden oft zusammen diagnostisch gemessen), anstatt einen echten gemeinsamen therapeutischen Mechanismus widerzuspiegeln.
+Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Bekannt ist: Lonoctocog alfa ist ein rekombinantes Einzelketten-Faktor-VIII-Präparat mit verkürzter B-Domäne und gesteigerter Affinität zum von-Willebrand-Faktor (VWF). Seine Wirksamkeit bei Hämophilie A ist belegt, und mechanistisch könnte es bei Erkrankungen mit gestörter VWF-/Gerinnungsachse von Interesse sein.
 
-Keine der vier Kandidatenkrankheiten hat eine Pathophysiologie, die durch FVIII-Ersatz korrigiert werden würde (GPIbα-Funktionsgewinn, Speicherpool-Defekt von Thrombozyten, GPIIb/IIIa-Mangel und TMEM16F-Scramblase-Mangel). Das Evidenzpaket charakterisiert diese Assoziationen explizit als mechanistisch implausibel und nicht unterstützt durch klinische oder Literaturbeweise.
+Die Pseudo-von-Willebrand-Erkrankung (plättchentypische VWD) wird durch Gain-of-function-Varianten von GP1BA verursacht. Diese erhöhen die Bindung der Thrombozyten an VWF und führen zum Verlust hochmolekularer VWF-Multimere. Ein Faktor-VIII-Konzentrat hat daher eine denkbare, aber unbewiesene Verbindung. Die FVIII-Spiegel sind meist normal oder nur leicht erniedrigt, und der Primärdefekt liegt in den Thrombozyten.
+
+Der hohe TxGNN-Wert ist eine reine Modellvorhersage und wird durch keine klinische oder literaturbasierte Evidenz gestützt.
+
+**Weitere vorhergesagte Indikationen (alle Evidenzgrad L5, Empfehlung Hold):**
+
+| Rang | Erkrankung | TxGNN-Wert | Einschätzung des mechanistischen Zusammenhangs |
+|------|------|------|------|
+| 2 | Primäre Plättchen-Freisetzungsstörung | 99,84 % | Der Defekt betrifft Granula-Freisetzung bzw. Signalwege, nicht FVIII; allenfalls indirekter Nutzen über die Gerinnungskaskade |
+| 3 | Glanzmann-Thrombasthenie | 99,76 % | Defekt des Integrins αIIbβ3; FVIII korrigiert die Aggregationsstörung nicht, Rationale schwach |
+| 4 | Scott-Syndrom | 99,44 % | FVIII ist Kofaktor im Tenase-Komplex, ersetzt aber nicht die fehlende Phospholipid-Oberfläche; Nutzen spekulativ |
+
+---
 
 ## Evidenz aus klinischen Studien
 
-Derzeit sind keine damit verbundenen klinischen Studien registriert.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
-## Literaturbeweise
+---
 
-Derzeit ist keine verwandte Literatur verfügbar.
+## Evidenz aus der Literatur
 
-## Zusätzliche prognostizierte Kandidaten (nicht weiter bewertet)
+Derzeit liegt keine zugehörige Literatur vor.
 
-| Rang | Krankheit | TxGNN-Ergebnis | Evidenzlevel | Empfehlung | Wichtigste Bedenken |
-|------|-----------|----------------|--------------|------------|-------------------|
-| 2 | Primäre Sekretionstörung von Thrombozyten | 99.84% | L5 | Abwarten | Defekt der Thrombozyten-Granulensekretion; kein bekannter FVIII-Mechanismus, keine unterstützenden Beweise |
-| 3 | Glanzmann-Thrombasthenie | 99.76% | L5 | Abwarten | GPIIb/IIIa-Mangel; nicht mit dem FVIII-Pathway verwandt |
-| 4 | Scott-Syndrom | 99.44% | L5 | Abwarten | Membran-Scramblase (TMEM16F) Defekt; nicht durch FVIII-Ersatz korrigierbar |
+---
 
-## Marktinformationen für Deutschland
+## Informationen zum deutschen Markt
 
-Lonoctocog alfa ist **noch nicht auf dem taiwanesischen Markt eingeführt** — es gibt keine Genehmigungsakten (`total_licenses = 0`, `licenses = []`).
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/004075 | Afstyla (CSL Behring GmbH) | – | Hämophilie A |
 
-## Sicherheitsüberlegungen
+Diese Zulassung hat den Status „erloschen/widerrufen“; es besteht derzeit keine gültige Zulassung.
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+---
 
-## Schlussfolgerung und nächste Schritte
+## Sicherheitsaspekte
 
-**Entscheidung: Abwarten**
+Bitte entnehmen Sie die Sicherheitsinformationen der Fachinformation. Für Wechselwirkungen wurden in den für diesen Bericht zusammengestellten Daten keine Einträge gefunden.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Hold**
 
 **Begründung:**
-Alle vier TxGNN-prognostizierten Indikationen werden nur durch das Modell-Ergebnis unterstützt (Evidenzlevel L5), ohne klinische Studien und ohne Veröffentlichungen. Die eigene mechanistische Rationale des Evidenzpakets argumentiert, dass dies wahrscheinlich falsch-positive Assoziationen sind, die durch die FVIII–vWF-Diagnostik-Komplex-Beziehung anstatt einer echten Umdestinierungshypothese verursacht werden. In Kombination mit einer blockierenden Datenlücke zu TFDA-Label-Warnhinweisen/Kontraindikationen erfüllt dieser Kandidat nicht den Standard, um S0 zu verlassen.
+Die Vorhersage beruht ausschließlich auf einem Modellwert (Evidenzgrad L5) ohne Studien oder Publikationen. Der mechanistische Zusammenhang ist bei allen vier vorhergesagten Indikationen schwach bis spekulativ, da der Primärdefekt jeweils thrombozytär ist. Zudem besteht in Deutschland derzeit keine gültige Zulassung.
 
-**Um voranzukommen, ist Folgendes erforderlich:**
-- TFDA-Label (Warnhinweise/Kontraindikationen) — derzeit eine blockierende Datenlücke (DG001)
-- Bestätigter Wirkmechanismus aus DrugBank/maßgeblicher Quelle (DG002)
-- Bestätigte ursprüngliche Indikation und behördlicher Status (aktueller Datensatz hat leere `original_indications` und 0 Taiwan-Lizenzen)
-- Unabhängige mechanistische Überprüfung zur Bestätigung oder Widerlegung der Hypothese „falsch-positiv über vWF-FVIII-Komplex", bevor weitere Evidenzsammlung beauftragt wird
-
+**Für ein Weiterkommen sind folgende Schritte nötig:**
+- Auswertung der Fachinformation (Warnhinweise und Gegenanzeigen) als Voraussetzung für das Sicherheitsscreening
+- Ergänzung der Wirkmechanismus-Daten (z. B. über DrugBank)
+- Systematische Literatur- und Studienrecherche zur Pseudo-von-Willebrand-Erkrankung und FVIII-Substitution
+- Präklinische oder mechanistische Studien, die einen Nutzen von FVIII bei plättchenbedingten Störungen belegen
+- Klärung des Zulassungs- und Verfügbarkeitsstatus in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

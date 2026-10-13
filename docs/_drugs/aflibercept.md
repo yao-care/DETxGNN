@@ -29,76 +29,85 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Aflibercept: Von ophthalmologischer Gefäßerkrankung zu Esotropie
+# Aflibercept: Von neovaskulären Netzhauterkrankungen zu Esotropie
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Aflibercept ist ein VEGF-Trap-Fusionsprotein, dessen etablierte klinische Verwendung auf ophthalmologische Gefäßerkrankungen konzentriert ist (z. B. feuchte altersabhängige Makuladegeneration, diabetisches Makulaödem, Frühgeborenenretinopathie), wobei in diesem Evidence Pack kein formaler Lizenzen- oder Indicationstext vorhanden ist. Das TxGNN-Modell prognostiziert eine mögliche Assoziation mit **Esotropie**, aber diese Vorhersage wird derzeit durch **0 klinische Studien** und **0 Publikationen** unterstützt – sie beruht vollständig auf dem Modellscore.
-
----
-
-## Schneller Überblick
-
-| Element | Inhalt |
-|---------|--------|
-| Originäre Indikation | Nicht in strukturierten Lizenzdaten erfasst; gemäß bekannter Pharmakologie wird Aflibercept bei ophthalmologischen Gefäßerkrankungen verwendet (feuchte AMD, diabetisches Makulaödem, Frühgeborenenretinopathie) |
-| Prognostizierte neue Indikation | Esotropie |
-| TxGNN-Vorhersage-Score | 99.38% |
-| Evidenzebene | L5 |
-| Marktstatus in Deutschland | ✗ Nicht im Handel |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Zurückstellen |
+Aflibercept ist ein VEGF-Fänger (Trap), der ursprünglich zur Behandlung der feuchten altersbedingten Makuladegeneration, des Makulaödems, des diabetischen Makulaödems, des retinalen Venenverschlusses und der choroidalen Neovaskularisation eingesetzt wird (als Zaltrap auch bei Kolorektalkarzinom). Das TxGNN-Modell sagt voraus, dass es bei **Esotropie** (Einwärtsschielen) wirksam sein könnte. Für diese Richtung liegen jedoch **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage beruht allein auf dem Modell.
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Schnellübersicht
 
-Derzeit sind detaillierte Daten zum Wirkmechanismus nicht verfügbar (gekennzeichnet als eine Datenlücke mit hohem Schweregrad – DrugBank MOA-Abfrage erforderlich). Basierend auf bekanntem pharmakologischem Hintergrund ist Aflibercept ein VEGF-Trap-Fusionsprotein, das VEGF-A, VEGF-B und PlGF hemmt; seine klinische Verwendung hat sich auf angiogene/vaskulär-proliferative Augenerkrankungen wie feuchte AMD, diabetisches Makulaödem und Frühgeborenenretinopathie konzentriert.
-
-Esotropie ist dagegen eine neuromuskuläre/refraktive Augenausrichtungsstörung – ihre Pathophysiologie (Ungleichgewicht der äußeren Augenmuskeln, akkommodativer Refraktionsfehler, Hirnnervenläsion) hat keine etablierte Verbindung zum VEGF-Signalweg. Die einzige in diesem Evidence Pack vorgeschlagene Verbindung ist eine indirekte Hypothese: Die Behandlung von vaskulären Retinopathien wie der Frühgeborenenretinopathie könnte sekundär das Risiko eines daraus resultierenden Strabismus senken. Dies ist eine plausibel klingende, aber **ungeprüfte, spekulative Verbindung** – sie wird durch keine klinische Studie oder Literaturbelege gestützt und sollte in diesem Stadium nicht als mechanistische Unterstützung behandelt werden.
-
-Angesichts des Fehlens sowohl einer direkten mechanistischen Begründung als auch von bestätigenden Belegen sollte diese Vorhersage als ein hypothesengenerierendes Signal des Modells gelesen werden, nicht als ein klinisch fundierter Repurposing-Kandidat in diesem Stadium.
-
----
-
-## Belege aus klinischen Studien
-
-Derzeit sind keine zugehörigen klinischen Studien registriert.
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Feuchte Makuladegeneration, Makulaödem, diabetische Komplikationen, retinaler Venenverschluss, choroidale Neovaskularisation |
+| Vorhergesagte neue Indikation | Esotropie |
+| TxGNN-Vorhersagewert | 99,38 % |
+| Evidenzlevel | L5 |
+| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassungen |
+| Anzahl der Zulassungen | 14 (alle erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Belege aus der Literatur
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit ist keine zugehörige Literatur verfügbar.
+Aflibercept ist ein Fänger für VEGF-A, VEGF-B und den Plazenta-Wachstumsfaktor (PlGF). Es ist für Netzhauterkrankungen mit pathologischer Gefäßneubildung und erhöhter Gefäßpermeabilität zugelassen. Detaillierte Daten zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten nicht vor; die Einordnung beruht auf allgemeinem Wissen über den Wirkstoff.
+
+Der Zusammenhang zwischen der ursprünglichen und der neuen Indikation ist schwach. Esotropie ist eine Störung der Augenstellung, die vor allem durch neuromuskuläre, refraktive, akkommodative oder binokulare Faktoren bedingt ist und nicht primär durch VEGF getrieben wird. Ein direkter biologischer Weg von der VEGF-Hemmung zur Korrektur der Esotropie lässt sich aus den vorliegenden Daten nicht herleiten.
+
+Ein möglicher indirekter Zusammenhang besteht bei der Frühgeborenenretinopathie: Hier werden intravitreale Anti-VEGF-Wirkstoffe eingesetzt, und Strabismus ist eine bekannte Spätkomplikation. Ein Effekt würde jedoch die zugrunde liegende Netzhauterkrankung betreffen, nicht die Esotropie selbst. Dies ist rein hypothetisch und durch die vorliegende Evidenz nicht gestützt. Der hohe Modellwert sollte daher als computergestützter Hinweis, nicht als biologische Bestätigung verstanden werden.
 
 ---
 
-## Marktinformationen für Deutschland
+## Klinische Studienevidenz
 
-Für Aflibercept sind in diesem Datensatz keine Marktzulassungen dokumentiert (Marktstatus: nicht im Handel, 0 Zulassungen).
+Derzeit sind keine einschlägigen klinischen Studien registriert.
+
+---
+
+## Literaturevidenz
+
+Derzeit liegt keine einschlägige Literatur vor.
+
+---
+
+## Informationen zum deutschen Markt
+
+Alle 14 erfassten Zulassungen sind erloschen bzw. widerrufen. Die folgende Tabelle zeigt fünf davon.
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/002392 | Eylea (Bayer AG) | – | Feuchte Makuladegeneration, Makulaödem, diabetische Komplikationen, retinaler Venenverschluss... |
+| EMEA/H/C/002532 | Zaltrap (Sanofi Winthrop Industrie) | – | Kolorektalkarzinom |
+| EMEA/H/C/006056 | Opuviz (Samsung Bioepis NL B.V.) | – | Feuchte Makuladegeneration, Makulaödem, diabetische Komplikationen, retinaler Venenverschluss |
+| EMEA/H/C/005899 | Eydenzelt (Celltrion Healthcare Hungary Kft.) | – | Feuchte Makuladegeneration, Makulaödem, diabetische Komplikationen, retinaler Venenverschluss... |
+| EMEA/H/C/006761 | Afiveg (STADA Arzneimittel AG) | – | Feuchte Makuladegeneration, Makulaödem, diabetische Komplikationen, retinaler Venenverschluss... |
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beziehen Sie sich auf die Packungsbeilage für Sicherheitsinformationen. (Hinweis: Warnungen und Kontraindikationen der TFDA-Packungsbeilage werden in diesem Pack als eine **blockierende** Datenlücke gekennzeichnet – DG001 – und müssen aufgelöst werden, bevor eine Sicherheitsvorabschätzung durchgeführt werden kann.)
+- **Arzneimittelwechselwirkungen**: Insgesamt wurden 78 Wechselwirkungen erfasst. Als **schwerwiegend (Major)** eingestuft sind unter anderem: Deferipron, Samarium-(153Sm)-Lexidronam, Adalimumab, Baricitinib, Certolizumab pegol, Cladribin und Clozapin. Als **mäßig (Moderate)** eingestuft sind unter anderem: Strontiumchlorid Sr-89, Roflumilast, Chloramphenicol, Zidovudin, Alefacept, Alemtuzumab, Anakinra, Azathioprin und Canakinumab sowie mehrere Impfstoffe (u. a. Tetanus-Toxoid, Anthrax, Cholera-Lebendimpfstoff).
+
+Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 
 ---
 
-## Fazit und Nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Zurückstellen**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage wird nur durch den TxGNN-Modellscore unterstützt (Evidenzebene L5, Entscheidungsstufe S0) – es gibt null klinische Studien und null Publikationen, die Aflibercept mit Esotropie verbinden, und die vorgeschlagene mechanistische Verbindung ist explizit spekulativ ohne etablierte pharmakologische Grundlage, die den VEGF-Weg mit der Pathogenese der Esotropie (neuromuskulär/refraktiv) verbindet.
+Die Vorhersage für Esotropie beruht ausschließlich auf einem Computermodell (Evidenzlevel L5). Es gibt weder klinische Studien noch Publikationen, und ein plausibler biologischer Zusammenhang zwischen VEGF-Hemmung und Esotropie ist nicht erkennbar. Zudem sind in Deutschland derzeit alle erfassten Zulassungen erloschen.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- DG001 (blockierend) auflösen: Warnungen und Kontraindikationen der TFDA-Packungsbeilage, erforderlich vor jeder Sicherheitsvorabschätzung
-- DG002 (hoher Schweregrad) auflösen: bestätigter Wirkmechanismus von DrugBank zur angemessenen Beurteilung der mechanistischen Plausibilität
-- Bestätigte originäre Indikation / Lizenzdaten (derzeit in regulatorischen Unterlagen nicht vorhanden)
-- Präklinische, mechanistische oder observationale Literatur, die sich speziell mit der VEGF-Weg-Beteiligung bei Strabismus/Esotropie befasst
-- DDI-Daten (derzeit „nicht gefunden") vor jeder Beurteilung von Wechselwirkungsrisiken bei Co-Verschreibung
-
+**Für ein Weiterverfolgen sind erforderlich:**
+- Daten zum Wirkmechanismus (MOA) aus DrugBank
+- Warnhinweise und Gegenanzeigen aus der BfArM-Fachinformation (derzeit blockierende Datenlücke für das Sicherheitsscreening)
+- Systematische Literaturrecherche, z. B. zu Strabismus nach Anti-VEGF-Therapie bei Frühgeborenenretinopathie
+- Prüfung der Anwendungswege (Applikationsroute) für die neue Indikation
+- Klärung des aktuellen Zulassungs- und Marktstatus in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

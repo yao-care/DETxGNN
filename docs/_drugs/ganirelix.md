@@ -2,7 +2,7 @@
 layout: default
 title: Ganirelix
 parent: Nur Modellvorhersage (L5)
-nav_order: 176
+nav_order: 206
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,86 +29,91 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Ganirelix: Ursprüngliche Indikation nicht dokumentiert → Vorhergesagte Assoziation mit Hypertrichose (niedriges Vertrauen)
+# Ganirelix: Von assistierter Reproduktion zu Hypertrichose
 
-> **Hinweis:** Dieses Evidence Pack (`TW-DB06785-multi`) enthält 10 vom TxGNN-Modell vorhergesagte Indikationen für Ganirelix. Alle 10 sind bewertet mit **L5 / Stufe S0 / Empfehlung: Zurückhalten**, und keine haben unterstützende klinische Studien. Dieser Bericht konzentriert sich auf die am höchsten bewertete Vorhersage (Hypertrichose), aber die Schlussfolgerung gilt für den vollständigen Kandidatensatz.
+## Zusammenfassung
 
-## Zusammenfassung in einem Satz
-
-Die ursprüngliche zugelassene Indikation für Ganirelix ist in diesem Evidence Pack nicht dokumentiert, und sein Wirkmechanismus ist als Datenlücke gekennzeichnet.
-Die Top-Vorhersage des TxGNN-Modells ist **Hypertrichose (Erkrankung)**, mit einem Rohscore von **99,98 %**, aber die eigene Begründung des Modells besagt, dass es **keine bekannte mechanistische Verbindung** zwischen GnRH-Antagonismus und Haarwachstumsstörungen gibt — dies ist höchstwahrscheinlich ein Artefakt der Clusterbildung im Einbettungsraum und kein echtes pharmakologisches Signal.
-Es gibt **0 klinische Studien** und **0 Publikationen**, die dieses spezifische Arzneistoff-Krankheitspaar unterstützen.
+Ganirelix ist ein GnRH-Rezeptor-Antagonist, der ursprünglich in der assistierten Reproduktion eingesetzt wird, um bei der ovariellen Stimulation einen vorzeitigen Eisprung zu verhindern (Ovulationsinduktion, weibliche Infertilität).
+Das TxGNN-Modell sagt als höchstbewertete neue Indikation **Hypertrichose** voraus.
+Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage beruht allein auf dem Modell.
 
 ---
 
 ## Schnellübersicht
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Nicht dokumentiert in diesem Evidence Pack (Datenlücke) |
-| Vorhergesagte neue Indikation | Hypertrichose (Erkrankung) |
-| TxGNN-Vorhersage-Score | 99,98 % (Rang #461 unter allen Vorhersagen) |
-| Evidenzstufe | L5 (nur Modellvorhersage, keine klinische/Literaturevidenz) |
-| Marktstand Deutschland | ✗ Nicht vermarktet (Nicht vermarktet) |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | **Zurückhalten** |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Assistierte Reproduktionstechniken; Ovulationsinduktion; weibliche Infertilität |
+| Vorhergesagte neue Indikation | Hypertrichose |
+| TxGNN-Vorhersagewert | 99,98 % |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Nur erloschene Zulassungen (keine gültige Zulassung) |
+| Anzahl der Zulassungen | 2 (beide erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Wirkmechanismus-Daten für Ganirelix in diesem Evidence Pack nicht verfügbar, und keine ursprüngliche Indikation ist verzeichnet. Ohne diese Basisinformationen ist es nicht möglich, eine pharmakologisch fundierte Begründung zu konstruieren, die Ganirelix mit Hypertrichose verbindet.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Aus der Pharmakologie ist bekannt: Ganirelix ist ein Peptid-Antagonist am GnRH-Rezeptor (GNRHR). Er unterdrückt LH und FSH und damit die nachgeschaltete Bildung von Sexualsteroiden. In der Reproduktionsmedizin wird dies genutzt, um einen vorzeitigen LH-Anstieg zu verhindern.
 
-Noch wichtiger ist, dass die vom Evidence Pack selbst generierte Begründung für diese Paarung explizit besagt:
+Der Zusammenhang zur vorhergesagten Indikation ist **schwach**. Hypertrichose ist im Gegensatz zum Hirsutismus in der Regel nicht androgengetrieben. Ein Nutzen durch Unterdrückung der Hypophysen-Gonaden-Achse ist daher mechanistisch kaum zu begründen. Der hohe Modellwert ist vermutlich eher auf Nähe im Wissensgraphen (haarbezogene Phänotypen) als auf Pharmakologie zurückzuführen.
 
-> "多毛症與 GnRH 拮抗劑之生理機轉無已知關聯，可能為 TxGNN embedding 空間中因性腺軸相關疾病聚類產生的偽關聯。無機轉假說支持，無臨床證據。"
-> ("Es gibt keine bekannte physiologische Verbindung zwischen Hypertrichose und GnRH-Antagonisten; dies könnte eine spurious Association sein, die durch die Clusterbildung mit Gonaden-Achsen-bezogenen Erkrankungen im TxGNN-Einbettungsraum entsteht. Keine mechanistische Hypothese wird unterstützt, und es existiert keine klinische Evidenz.")
+Auch die weiteren Top-10-Vorhersagen sind überwiegend nicht plausibel (z. B. Ambras-Syndrom, Dandy-Walker-Syndrom, Haarschaftanomalien, persistierender fetaler Kreislauf). Mechanistisch nachvollziehbar, aber unbelegt sind nur wenige Kandidaten, die als Forschungsfragen gelten:
 
-Das gleiche Muster gilt für die verbleibenden 9 vorhergesagten Indikationen in diesem Evidence Pack — angeborene Hypertrichose-Syndrome, parodontale/odontogene Malformation, Dandy-Walker-Malformation, Haarschaftanomalien, Entwicklungsvarianten mit verfrühter Pubertät, persistierende fetale Zirkulation, Aromatase-Überschuss-Syndrom und Trichomegalie. Alle sind gekennzeichnet mit schwacher oder fehlender mechanistischer Plausibilität, und keine haben direkte klinische oder Literaturunterstützung speziell für Ganirelix. Dies ist ein Fall, in dem der hohe TxGNN-Score **nicht** biologischer oder klinischer Plausibilität entspricht.
+- **Zentrale Pubertas praecox:** Die Hemmung der GnRH-Achse ist kohärent. Standard sind jedoch GnRH-Agonisten; Ganirelix hat eine kurze Halbwertszeit, wird täglich injiziert, und es gibt keine pädiatrischen Daten.
+- **Familiäre männlich-limitierte Pubertas praecox:** Ursache sind aktivierende LHCGR-Mutationen, unabhängig von GnRH. Ein Effekt wäre allenfalls bei sekundärer zentraler Aktivierung zu erwarten.
+- **Aromatase-Exzess-Syndrom:** Ursache ist eine periphere Aromataseaktivität; Aromatasehemmer sind die direkte Therapie. Eine Rolle von Ganirelix ist spekulativ.
 
 ---
 
 ## Evidenz aus klinischen Studien
 
-Derzeit sind keine verwandten klinischen Studien registriert.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Literaturevidenz
+## Evidenz aus der Literatur
 
-Derzeit ist keine verwandte Literatur verfügbar.
-
-*(Hinweis: Rang #3 in diesem Kandidatensatz — „Malformationssyndrom mit odontalem/parodontalem Anteil" — hat 20 assoziierte PubMed-Artikel, aber alle betreffen allgemeine parodontale Erkrankungspathophysiologie und Behandlung; keiner verweist auf Ganirelix oder GnRH-Antagonisten. Dies widerspiegelt das Volumen der parodontalen Krankheitsforschung allgemein, nicht die Evidenz für dieses Arzneistoff-Krankheitspaar, und wird aus der oben stehenden Top-Ranking-Analyse ausgeschlossen.)*
+Derzeit liegt keine zugehörige Literatur vor.
 
 ---
 
-## Marktinformation für Deutschland
+## Marktinformationen Deutschland
 
-Ganirelix wird derzeit **nicht vermarktet** und hat **0 Zulassungen** im Datensatz dieses Evidence Packs. Es ist keine Lizenztabelle verfügbar.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation | Status |
+|---------|------|------|-----------|------|
+| EMEA/H/C/000274 | Orgalutran | – | Assistierte Reproduktionstechniken; Ovulationsinduktion; weibliche Infertilität | Erloschen |
+| EMEA/H/C/005641 | Ganirelix Gedeon Richter | – | Assistierte Reproduktionstechniken; Ovulationsinduktion; weibliche Infertilität | Erloschen |
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+**Arzneimittelwechselwirkungen** (mittlerer Schweregrad laut DDInter):
+- Gonadorelin
+- Choriongonadotropin (human)
+- Menotropin
+- Triptorelin
+- Follitropin
+- Urofollitropin
 
-*(Schlüsselwarnungen, Kontraindikationen und Arzneimittelwechselwirkungsdaten sind alle als Datenlücken in diesem Evidence Pack gekennzeichnet. Bemerkenswert ist, dass TFDA-Kennzeichnungsdaten (DG001) als **Sperrende** Lücke gekennzeichnet sind, was bedeutet, dass dieser Kandidat nicht zur Sicherheitsprüfung Phase 1 übergehen kann, bis diese gelöst ist.)*
+Für weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) ist die Fachinformation heranzuziehen.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Zurückhalten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Dieser Kandidat hat keine klinische Studien- oder Literaturevidenz, die das Arzneistoff-Krankheitspaar unterstützen, keine dokumentierte ursprüngliche Indikation, keine MOA-Daten, und wird derzeit nicht vermarktet. Die eigene mechanistische Begründung des Modells identifiziert die Top-Vorhersage explizit als wahrscheinliches Einbettungsraum-Artefakt statt als echtes Signal. Alle 10 vorhergesagten Indikationen in diesem Evidence Pack erhalten L5/S0/Hold, was auf eine Datenqualitäts- und Evidentzlücke hindeutet statt auf eine Umwidmungsmöglichkeit, die zur Bewertung bereit ist.
+Die Vorhersage für Hypertrichose beruht ausschließlich auf einem Modellwert (L5) ohne Studien oder Literatur, und der mechanistische Zusammenhang ist schwach. Zudem sind beide deutschen Zulassungen erloschen.
 
-**Um weiterzumachen, ist folgendes erforderlich:**
-- TFDA-Kennzeichnung (仿單) Warnungen und Kontraindikationen — **Sperrende Lücke (DG001)**, erforderlich vor Sicherheitsprüfung Phase 1
-- Wirkmechanismus (MOA) Daten aus DrugBank — **Hochpriorität-Lücke (DG002)**
-- Dokumentation der ursprünglichen genehmigten Indikation(en) von Ganirelix
-- Unabhängige mechanistische Hypothese und/oder präklinische Evidenz, die speziell GnRH-Antagonismus mit einer der vorhergesagten Indikationen verbindet, bevor eine weitere Suche nach klinischer/Literaturenevidenz angemessen ist
-
+**Für ein Weiterkommen sind folgende Schritte nötig:**
+- Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen), da die Sicherheitsdaten derzeit lückenhaft sind und eine Sicherheitsprüfung blockieren
+- Ergänzung detaillierter Wirkmechanismus-Daten (z. B. aus DrugBank)
+- Fachliche Prüfung, ob die mechanistisch plausibleren Kandidaten (insbesondere zentrale Pubertas praecox) als Forschungsfrage weiterverfolgt werden sollen, inklusive Klärung pädiatrischer Daten und Applikationsform
+- Klärung der Zulassungs- und Verfügbarkeitssituation in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

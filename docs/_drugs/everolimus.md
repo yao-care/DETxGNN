@@ -2,7 +2,7 @@
 layout: default
 title: Everolimus
 parent: Hohe Evidenz (L1-L2)
-nav_order: 160
+nav_order: 187
 evidence_level: L2
 indication_count: 10
 ---
@@ -29,160 +29,118 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Everolimus: Von Nierenzellkarzinom zu Liposarkom und anderen seltenen Sarkomen
+# Everolimus: Vom Nierenzellkarzinom, Mammakarzinom und Pankreastumor zum Liposarkom
 
 ## Zusammenfassung in einem Satz
 
-Everolimus ist ein mTOR-Pathway-Inhibitor mit etablierter onkologischer Anwendung (z. B. nicht-klarzellige Nierenzellkarzinome, gemäß der ASPEN- und CABOSUN-Ära-Vergleichsliteratur in diesem Evidenzpaket); seine detaillierte originale Indikationskennzeichnung und der Wirkmechanismus-Datensatz sind derzeit eine Datenlücke für diese Gerichtsbarkeit. TxGNN kennzeichnet 10 Kandidaten-Indikationen, wobei die höchste Rangfolge **Liposarkom** ist, aber die Stärke der unterstützenden Evidenz variiert stark zwischen den Kandidaten – von einer einzelnen konfundierten Phase-2-Kombinationsprobe (Liposarkom) bis hin zu einer reifen Multi-RCT-Evidenzbasis (nicht klassifiziert/nicht-klarzellige Nierenzellkarzinome). Insgesamt unterstützen **1 klinischer Versuch + 5 Publikationen** die höchstrangige Liposarkom-Vorhersage, während ein stärkerer sekundärer Kandidat (nicht klassifiziertes Nierenzellkarzinom) durch **1 Versuch + 9 Publikationen** unterstützt wird, einschließlich zwei randomisierter Phase-2-Versuche (ASPEN).
+Everolimus ist ein mTOR-Inhibitor, der ursprünglich zur Behandlung von Nierenzellkarzinom, Brustkrebs, Pankreastumoren und der Tuberösen Sklerose zugelassen wurde.
+Das TxGNN-Modell sagt voraus, dass er bei **Liposarkom** wirksam sein könnte.
+Dafür liegen derzeit **1 klinische Studie** und **4 Publikationen** vor, von denen jedoch nur eine direkt auf Everolimus bei dieser Erkrankung eingeht.
 
 ---
 
-## Schnellübersicht
+## Kurzüberblick
 
-| Element | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Nicht verfügbar aus lokalen behördlichen Lizenzen (Drogenstatus: Nicht vermarktet / nicht auf dem Markt in dieser Gerichtsbarkeit). Everolimus ist ein weltweit etablierter mTOR-Inhibitor, der in der Onkologie verwendet wird (z. B. fortgeschrittene/nicht-klarzellige Nierenzellkarzinome), wie in der folgenden Literaturevidence referenziert. |
-| Vorhergesagte neue Indikation | Liposarkom (dedifferenzierter Subtyp) |
-| TxGNN-Vorhersage-Score | 99.88% |
-| Evidenzebene | L2 |
-| Marktstatus Deutschland | Nicht vermarktet (Not Marketed) |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Abwarten (Datenpaket kennzeichnet dies als "Forschungsfrage"-Stadium – Evidenz vorhanden, aber durch Kombinationstherapie konfundiert) |
+| Ursprüngliche Indikation | Nierenzellkarzinom, Mammakarzinom, Pankreastumoren (Afinitor); Tuberöse Sklerose (Votubia) |
+| Vorhergesagte neue Indikation | Liposarkom |
+| TxGNN-Vorhersagewert | 99,88 % |
+| Evidenzgrad | L2 |
+| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
+| Anzahl der Zulassungen | 2 (beide erloschen) |
+| Empfohlene Entscheidung | Proceed with Guardrails |
 
-> **Hinweis:** Dieses Medikament hat 10 TxGNN-vorhergesagte Indikationen mit deutlich unterschiedlicher Evidenzzuverlässigkeit. Lesen Sie zunächst die Übersichtstabelle unten, bevor Sie die detaillierten Abschnitte lesen, die sich auf die drei Kandidaten mit tatsächlicher klinischer Evidenz konzentrieren.
-
-### Vorhergesagte Indikationen auf einen Blick (Alle 10 Kandidaten)
-
-| Rang | Erkrankung | TxGNN-Score | Versuche | Publikationen | Evidenzebene | Empfehlung |
-|------|---------|------|------|------|------|------|
-| 1 | Liposarkom | 99.88% | 1 | 5 | L2 | Forschungsfrage |
-| 2 | Ovales Myxoid-Liposarkom der Ovarium | 99.84% | 0 | 0 | L5 | Abwarten |
-| 3 | Dermatofibrosarkom protuberans | 99.82% | 0 | 2 (off-target, imatinib) | L5 | Abwarten |
-| 4 | Parameningeales embryonales Rhabdomyosarkom | 99.77% | 0 | 0 | L5 | Abwarten |
-| 5 | Botryoid-Typ embryonales Rhabdomyosarkom (Vagina) | 99.76% | 0 | 0 | L5 | Abwarten |
-| 6 | Embryonales Rhabdomyosarkom der extrahepatischen Gallengänge | 99.75% | 0 | 0 | L5 | Abwarten |
-| 7 | Rhabdomyosarkom (allgemein) | 99.74% | 3 | 3 | L2 | Forschungsfrage |
-| 8 | Embryonales Prostatarhabdomyosarkom | 99.74% | 0 | 0 | ausstehend | ausstehend |
-| 9 | Nierenzellkarzinom assoziiert mit Neuroblastom | 99.72% | 0 | 0 | L5 | Abwarten |
-| 10 | Nicht klassifiziertes Nierenzellkarzinom | 99.72% | 1 (off-target) | 9 | **L2** | **Mit Schutzmaßnahmen fortfahren** |
+Hinweis: Die Zulassungen wurden zentral über die EMA erteilt (Nummern EMEA/H/C/…) und sind laut den für diesen Bericht zusammengestellten Daten als erloschen gelistet.
 
 ---
 
-## Warum ist diese Vorhersage sinnvoll?
+## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Wirkmechanismus-Daten für Everolimus sind derzeit nicht in diesem Evidenzpaket verfügbar (Datenlücke DG002). Basierend auf bekannter Pharmakologie ist Everolimus ein mTOR (mechanistic target of rapamycin)-Inhibitor – ein Rapaloge-Klassen-Agens. Dies wird indirekt durch die Literatur des Paketes selbst bestätigt, die Everolimus wiederholt als "den mTOR-Inhibitor" in Kombinations- und Vergleichsstudien beschreibt (z. B. Lenvatinib + Everolimus, Ribociclib + Everolimus, Everolimus vs. Sunitinib).
+Zu den Wirkmechanismen liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Nach bekanntem Stand hemmt Everolimus mTORC1 im PI3K/AKT-Signalweg. Seine Wirksamkeit bei Nierenzell-, Brust- und Pankreastumoren ist belegt, und mechanistisch kann er auch bei weiteren Tumorarten anwendbar sein, in denen dieser Signalweg aktiv ist.
 
-Der gemeinsame Faden über fast alle top-rangierten TxGNN-Vorhersagen hinweg ist die aberrante Aktivierung des **PI3K–Akt–mTOR-Signalwegs**: Dedifferenziertes Liposarkom zeigt Akt-mTOR/MAPK-Pathway-Aktivierung (PMID 26518767); Spindelzell-Rhabdomyosarkom zeigt PI3KCA/PTEN-Mutationen, die auf denselben Pathway konvergieren (PMID 35012940); und nicht-klarzellige/nicht klassifizierte Nierenzellkarzinome haben eine etablierte, RCT-validierte mTOR-Inhibitor-Behandlungsgeschichte (ASPEN-Versuch). Diese mechanistische Konvergenz erklärt, warum TxGNN diese seltenen, schwer zu behandelnden Sarkome und RCC-Subtypen hoch einstuft für einen mTOR-Inhibitor, der bereits in der Onkologie aktiv ist.
+Beim dedifferenzierten Liposarkom (CDK4/MDM2-amplifiziert) ist die Kombination von Everolimus mit dem CDK4/6-Inhibitor Ribociclib ein rationaler Ansatz: Sie blockiert gleichzeitig den Zellzyklus (CDK4/6-Rb) und den Wachstums- und Überlebensweg (mTOR). Der hohe TxGNN-Wert passt zu dieser Überlegung.
 
-Die Evidenzzuverlässigkeit unterscheidet sich jedoch stark zwischen den Kandidaten. Die top-rangierte Liposarkom-Vorhersage beruht vollständig auf einem **Kombinations**-Versuch (Ribociclib + Everolimus) – der CDK4/6-Inhibitor verwirrt die Zuordnung der Wirksamkeit zu Everolimus selbst. Im Gegensatz dazu hat nicht klassifiziertes/nicht-klarzellige RCC (Rang 10) direkte, randomisierte, Everolimus-Monotherapie-Evidenz (ASPEN, PMID 26794930/26626617) und ein FDA-genehmigtes Kombinationsregimen (Lenvatinib + Everolimus, PMID 33867192), was es mechanistisch und klinisch zum verteidigungsfähigsten Kandidaten in diesem Satz macht, obwohl es auf dem Raw-TxGNN-Score niedriger rangiert.
+Die ursprünglichen Indikationen und das Liposarkom sind zwar unterschiedliche Tumorentitäten, haben aber die Aktivierung des mTOR-Signalwegs als gemeinsamen Anknüpfungspunkt.
 
 ---
 
-## Klinische Versuchsevidenz
+## Klinische Studien
 
-### Primärer Kandidat: Liposarkom (Rang 1)
-
-| Versuchsnummer | Phase | Status | Einschluss | Wichtigste Erkenntnisse |
+| Studiennummer | Phase | Status | Teilnehmerzahl | Kernaussagen |
 |---------|------|------|------|---------|
-| [NCT03114527](https://clinicaltrials.gov/study/NCT03114527) | Phase 2 | Aktiv, kein Einschluss mehr | 48 | Ribociclib + Everolimus bei fortgeschrittenem dedifferenziertem Liposarkom und Leiomyosarkom; bewertet die Anti-Tumor-Aktivität des Doublets, isoliert aber nicht den unabhängigen Beitrag von Everolimus. |
-
-### Zusätzlicher Hochevidence-Kandidat: Rhabdomyosarkom (Rang 7)
-
-| Versuchsnummer | Phase | Status | Einschluss | Wichtigste Erkenntnisse |
-|---------|------|------|------|---------|
-| [NCT03245151](https://clinicaltrials.gov/study/NCT03245151) | Phase 1/2 | Abgeschlossen | 64 | Lenvatinib + Everolimus in rezidivierenden/refraktären pädiatrischen Feststofftumoren einschließlich Rhabdomyosarkom; etabliert MTD/RP2D und Antitumor-Aktivität. |
-| [NCT01216839](https://clinicaltrials.gov/study/NCT01216839) | Phase 2 | Unbekannt | 20 | Everolimus-**Monotherapie** bei refraktärem/rezidivierendem pädiatrischem Rhabdomyosarkom und anderen Weichteiltumoren; kleine Stichprobe, Status ungeklärt. |
-| [NCT00187174](https://clinicaltrials.gov/study/NCT00187174) | Phase 1 | Abgeschlossen | 41 | Everolimus-Monotherapie bei pädiatrischen refraktären Feststoff-/Gehirntumoren (Basket-Versuch, geringe Spezifität der Erkrankung). |
-
-### Zusätzlicher Hochevidence-Kandidat: Nicht klassifiziertes Nierenzellkarzinom (Rang 10)
-
-| Versuchsnummer | Phase | Status | Einschluss | Wichtigste Erkenntnisse |
-|---------|------|------|------|---------|
-| [NCT04134390](https://clinicaltrials.gov/study/NCT04134390) | Phase 2 | Abgeschlossen | 25 | Cabozantinib (nicht Everolimus) bei älteren/gebrechlichen Patienten mit metastasierendem RCC; nur als Kontext zitiert – Everolimus wird als Checkmate-025-Vergleich erwähnt, nicht als Studienmedikament. |
-
-*(Hinweis: Die stärkste RCT-Evidenz für diesen Kandidaten – ASPEN – wird unten unter Literaturevidenz erfasst, anstatt im bereitgestellten Versuchsregister-Auszug.)*
+| [NCT03114527](https://clinicaltrials.gov/study/NCT03114527) | Phase 2 | Aktiv, nicht rekrutierend | 48 | Ribociclib plus Everolimus bei fortgeschrittenem dedifferenziertem Liposarkom und Leiomyosarkom nach mindestens einer Vortherapie; Ziel ist die Bestimmung der Antitumoraktivität. Einarmige Studie, nicht randomisiert. |
 
 ---
 
 ## Literaturevidenz
 
-### Primärer Kandidat: Liposarkom (Rang 1)
-
-| PMID | Jahr | Typ | Journal | Wichtigste Erkenntnisse |
+| PMID | Jahr | Typ | Fachzeitschrift | Kernaussagen |
 |------|-----|------|------|---------|
-| [37967116](https://pubmed.ncbi.nlm.nih.gov/37967116/) | 2024 | Klinischer Versuch (Phase-2-Bericht) | Clin Cancer Res | Vollständiger Bericht von Ribociclib + Everolimus bei fortgeschrittenem DDL/LMS; synergistische Wachstumshemmungs-Rationale (CDK4 + mTOR-Co-Hemmung). |
-| [36003796](https://pubmed.ncbi.nlm.nih.gov/36003796/) | 2022 | Übersicht | Frontiers in Oncology | PDOX-Mausmodelle unterstützen CDK-Inhibitor-Kombinationen (z. B. Palbociclib) bei Sarkom; unterstützend, aber nicht Everolimus-spezifisch. |
-| [26518767](https://pubmed.ncbi.nlm.nih.gov/26518767/) | 2016 | Mechanistisch/Präklinisch | Tumour Biology | Bestätigt Akt-mTOR- und MAPK-Pathway-Aktivierung bei dedifferenziertem Liposarkom – die mechanistische Grundlage für mTOR-Inhibitor-Targeting. |
-| [29848686](https://pubmed.ncbi.nlm.nih.gov/29848686/) | 2018 | Präklinische Kombinationsstudie | Anticancer Research | Eribulin-Kombinations-Screening in Liposarkom-Modellen; nebensächlich, nicht Everolimus-spezifisch. |
-| [41991999](https://pubmed.ncbi.nlm.nih.gov/41991999/) | 2026 | Mechanistisch/Präklinisch | Oncogene | XPO1-Inhibitor (Selinexor)-Mechanismus bei dedifferenziertem Liposarkom; nicht Everolimus-bezogen, nur zur Pathway-Kontextualisierung enthalten. |
-
-### Zusätzlicher Hochevidence-Kandidat: Rhabdomyosarkom (Rang 7)
-
-| PMID | Jahr | Typ | Journal | Wichtigste Erkenntnisse |
-|------|-----|------|------|---------|
-| [40313040](https://pubmed.ncbi.nlm.nih.gov/40313040/) | 2025 | Klinischer Versuch (Phase-1/2-Bericht) | Pediatr Blood Cancer | Vollständiger Bericht von Lenvatinib + Everolimus bei rezidivierenden/refraktären pädiatrischen/jungen erwachsenen Feststofftumoren; definiert RP2D und Antitumor-Aktivität. |
-| [35012940](https://pubmed.ncbi.nlm.nih.gov/35012940/) | 2022 | Funktionell/Präklinisch | Cold Spring Harb Mol Case Stud | PI3KCA/GNAS/PTEN-Mutationen in MYOD1-mutiertem Spindelzell-Rhabdomyosarkom – direkte mechanistische Rationale für mTOR-Pathway-Targeting. |
-| [34295326](https://pubmed.ncbi.nlm.nih.gov/34295326/) | 2021 | Klinischer Versuch (nicht Everolimus primär) | Front Immunol | PD-1-Antikörper ± Kombination bei pädiatrischer rezidivierter/refraktärer Krankheit; nebensächlich, geringe direkte Relevanz. |
-
-### Zusätzlicher Hochevidence-Kandidat: Nicht klassifiziertes Nierenzellkarzinom (Rang 10)
-
-| PMID | Jahr | Typ | Journal | Wichtigste Erkenntnisse |
-|------|-----|------|------|---------|
-| [26794930](https://pubmed.ncbi.nlm.nih.gov/26794930/) | 2016 | RCT (ASPEN, Phase 2) | Lancet Oncology | Everolimus vs. Sunitinib bei nicht-klarzelligem RCC, Multizentrum-randomisiert Phase 2 – primäre RCT-Evidenz für diese Indikation. |
-| [26626617](https://pubmed.ncbi.nlm.nih.gov/26626617/) | 2016 | RCT (Phase 2) | European Urology | Bestätigende randomisierte Phase 2 (ESPN) zum Vergleich von Everolimus und Sunitinib bei metastasierendem nicht-klarzelligem RCC. |
-| [23180114](https://pubmed.ncbi.nlm.nih.gov/23180114/) | 2013 | Klinischer Versuch (Phase 2, Monotherapie) | Ann Oncol | Everolimus-Monotherapie Phase 2 bei nicht-klarzelligem RCC. |
-| [27601542](https://pubmed.ncbi.nlm.nih.gov/27601542/) | 2016 | Klinischer Versuch (Phase 2) | J Clin Oncol | Everolimus + Bevacizumab bei fortgeschrittenem nicht-klarzelligem RCC mit korrelierender genomischer Analyse. |
-| [33867192](https://pubmed.ncbi.nlm.nih.gov/33867192/) | 2021 | Klinischer Versuch (Phase 2) | European Urology | Lenvatinib + Everolimus bei nicht-klarzelligem RCC – diese Kombination ist bereits ein genehmigtes Regime für fortgeschrittenes RCC nach vorheriger antiangiogener Therapie. |
-| [32975815](https://pubmed.ncbi.nlm.nih.gov/32975815/) | 2020 | Kohorten-/Klinische Studie | Cancer | Everolimus + Bevacizumab zeigt ermutigende First-Line-Aktivität bei papillärem/nicht klassifiziertem RCC. |
-| [24458473](https://pubmed.ncbi.nlm.nih.gov/24458473/) | 2014 | Retrospektive Kohorte | Ann Oncol | mTOR-Inhibitoren (Temsirolimus/Everolimus) wirksam bei nicht-klarzelligem und sarkomatoidedem RCC-Histotypen. |
-| [34765076](https://pubmed.ncbi.nlm.nih.gov/34765076/) | 2021 | Korrelative/Biomarker-Studie | Kidney Cancer J | ASPEN-Versuch Biomarker-Subanalyse bei papillärem/chromophobem/nicht klassifiziertem RCC. |
-| [33593885](https://pubmed.ncbi.nlm.nih.gov/33593885/) | 2021 | Kohorten-/Biomarker-Studie | Clin Cancer Res | Angiokine-Biomarker assoziiert mit Everolimus vs. Sunitinib-Ergebnissen bei nicht-klarzelligem RCC. |
+| [37967116](https://pubmed.ncbi.nlm.nih.gov/37967116/) | 2024 | Phase-2-Studienbericht | Clinical Cancer Research | Ergebnisse der Phase-2-Studie zu Ribociclib plus Everolimus bei dedifferenziertem Liposarkom und Leiomyosarkom |
+| [36003796](https://pubmed.ncbi.nlm.nih.gov/36003796/) | 2022 | Review | Frontiers in Oncology | Präklinische PDOX-Mausmodelle bei Sarkomen mit dem CDK-Inhibitor Palbociclib; nur indirekter Bezug |
+| [41991999](https://pubmed.ncbi.nlm.nih.gov/41991999/) | 2026 | Präklinisch | Oncogene | XPO1-Inhibitor KPT-330 bei dedifferenziertem Liposarkom; indirekt für Everolimus |
+| [29848686](https://pubmed.ncbi.nlm.nih.gov/29848686/) | 2018 | Präklinisch | Anticancer Research | Eribulin-Kombinationen in Xenograft-Modellen; indirekt |
 
 ---
 
 ## Marktinformationen Deutschland
 
-Es sind derzeit keine Zulassungsnachweise für Everolimus in dieser Gerichtsbarkeit verfügbar (`taiwan_regulatory.market_status`: Nicht vermarktet / Not Marketed; `total_licenses`: 0). Es kann keine Lizenztabelle aus diesem Evidenzpaket erstellt werden.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/001038 | Afinitor (erloschen) | – | Nierenzellkarzinom, Mammakarzinom, Pankreastumoren |
+| EMEA/H/C/002311 | Votubia (erloschen) | – | Tuberöse Sklerose |
 
 ---
 
 ## Zytotoxizität
 
-Everolimus ist ein Onkologie-Agens (mTOR-Inhibitor) und wird daher in diesem Abschnitt bewertet.
-
-| Element | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Zytotoxizitätsklassifizierung | Zielgerichtete Therapie (mTOR-Inhibitor / Rapaloge) – kein konventionelles zytotoxisches Chemotherapieagens |
-| Myelosuppression-Risiko | Nicht in diesem Evidenzpaket angegeben; bitte beachten Sie die Packungsbeilage-Warnungen und Vorsichtsmaßnahmen |
-| Emetogenitäts-Klassifizierung | Nicht in diesem Evidenzpaket angegeben; bitte beachten Sie die Packungsbeilage-Warnungen und Vorsichtsmaßnahmen |
-| Überwachungselemente | Standardmäßige onkologische Überwachung empfohlen (Differentialblutbild, Nieren- und Leberfunktion, Nüchternglukose/Lipide); Details gegen die Packungsbeilage bestätigen |
-| Umgang mit Schutzausrüstung | Nicht in diesem Evidenzpaket angegeben; befolgen Sie die institutionelle Politik zur Handhabung gefährlicher Arzneistoffe, bis die Packungsbeilage bestätigt wurde |
+| Zytotoxizitätsklassifikation | Zielgerichtete Therapie (mTOR-Inhibitor) |
+| Myelosuppressionsrisiko | Hinweise auf Thrombozytopenie, Neutropenie, Leukopenie und Anämie (aus Wissensgraph-Kontraindikationen); Details bitte der Fachinformation entnehmen |
+| Emetogenitätsklasse | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Überwachungsparameter | Blutbild, Leber- und Nierenfunktion, Blutzucker und Blutfette |
+| Handhabungsschutz | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. (Die wichtigsten Warnungen, Kontraindikationen und Arzneimittelwechselwirkungsdaten sind alle als Datenlücken in diesem Evidenzpaket erfasst – DG001, blockierende Schwere – und die DDI-Suche ergab keine Ergebnisse.)
+- **Kontraindikationen aus dem Wissensgraphen** (keine Fachinformationsangaben, sondern Beziehungen im TxGNN-Wissensgraphen): Leber- und Nierenerkrankungen, Leberversagen, Thrombozytopenie, Neutropenie, Leukopenie, Anämie, Hyperglykämie, Diabetes mellitus, Hyperlipidämie, Hypertriglyceridämie, interstitielle Lungenerkrankung, Stomatitis, Herzinsuffizienz, Perikarderguss, hämolytisch-urämisches Syndrom sowie weitere.
+- **Arzneimittelwechselwirkungen** (100 Einträge insgesamt; Auswahl):
+  - *Schwerwiegend (Major):* Amphotericin B (auch als Lipidkomplex), Aprepitant, Dexamethason, Clarithromycin
+  - *Moderat:* u. a. Metformin, Acarbose, Gliptine, Gliflozine, GLP-1-Agonisten, Glimepiride, Cimetidin
+  - *Gering (Minor):* Zinksulfat
+
+Die Fachinformation zu Warnhinweisen und Gegenanzeigen liegt nicht vor und muss ergänzt werden.
+
+---
+
+## Weitere vorhergesagte Indikationen (Kurzüberblick)
+
+| Erkrankung | TxGNN-Wert | Evidenzgrad | Einschätzung |
+|------|------|------|------|
+| Unklassifiziertes Nierenzellkarzinom | 99,72 % | L2 | Proceed with Guardrails; mehrere Phase-2-Studien (u. a. ASPEN, ESPN) mit Everolimus |
+| Rhabdomyosarkom | 99,74 % | L2 | Research Question; Phase-1- und Phase-1/2-Studien, überwiegend Kombinationen und gemischte pädiatrische Tumoren |
+| Dermatofibrosarcoma protuberans | 99,82 % | L4 | Hold; nur indirekte präklinische Literatur |
+| Übrige seltene Sarkom-Subtypen | 99,72–99,84 % | L5 | Hold; reine Modellvorhersage |
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Abwarten (Spitzenwert-Kandidat) / Mit Schutzmaßnahmen fortfahren (am besten unterstützter Kandidat – nicht klassifiziertes/nicht-klarzellige RCC)**
+**Entscheidung: Proceed with Guardrails**
 
 **Begründung:**
-- Die top-rangierte Vorhersage (Liposarkom) beruht auf einem einzelnen Kombinationsversuch, der Everolimus's unabhängigen Beitrag verwirrt – unzureichend, um allein fortzufahren.
-- Die stärkste Evidenz in diesem gesamten Vorhersage-Satz gehört zu **nicht klassifiziertem Nierenzellkarzinom** (Rang 10): zwei randomisierte Phase-2-Versuche (ASPEN, ESPN) plus ein FDA-genehmigtes Kombinationsregimen (Lenvatinib + Everolimus) rechtfertigen eine "Mit Schutzmaßnahmen fortfahren"-Haltung für diese spezifische Indikation.
-- Rhabdomyosarkom (Rang 7) hat eine plausible mechanistische Grundlage und einen abgeschlossenen Phase-1/2-Kombinationsversuch, aber der einzige Everolimus-Monotherapie-Versuch (NCT01216839) hat unbekannten Status und eine kleine Stichprobe – bleibt im "Forschungsfrage"-Stadium.
-- Die verbleibenden 6 Kandidaten (Ränge 2–6, 9) haben keine klinische Versuch- oder Literaturunterstützung (L5) und sollten nicht ohne neue primäre Evidenz verfolgt werden.
+Für das Liposarkom liegt eine prospektive Phase-2-Studie (n = 48) mit veröffentlichten Ergebnissen vor. Sie ist jedoch einarmig und untersucht eine Kombination, sodass der Beitrag von Everolimus allein nicht abgrenzbar ist. Der Evidenzgrad L2 stützt eine weitere Prüfung unter Auflagen, aber keine uneingeschränkte Freigabe. Zudem sind in Deutschland derzeit nur erloschene Zulassungen gelistet.
 
-**Um fortzufahren, wird folgendes benötigt:**
-- Datenlücke DG001 (TFDA/Etiketten-Warnungen und Kontraindikationen) beheben – derzeit eine blockierende Lücke für jede Sicherheitsbewertung.
-- Datenlücke DG002 (strukturierter MOA aus DrugBank) beheben, um die oben verwendete mechanistische Rationale formal zu validieren.
-- Für Liposarkom: einen Everolimus-Monotherapie- oder Attributions-Design-Versuch suchen, um das Ribociclib-Kombinationssignal zu entwirren.
-- Für nicht klassifiziertes/nicht-klarzellige RCC: lokale behördliche Machbarkeit des Weges bestätigen (derzeit nicht vermarktet), bevor eine geschützte Verwendung erfolgt, da derzeit keine lokale Lizenz oder Sicherheitskennzeichnung vorhanden ist.
-- Für Rhabdomyosarkom: Fertigstellung/Ergebnisse von NCT01216839 und NCT03245151 überwachen (bereits abgeschlossen – vollständige Versuchsergebnisse/Publikation abrufen, falls noch nicht erfasst).
-
+**Für das weitere Vorgehen wird Folgendes benötigt:**
+- Fachinformation (Warnhinweise und Gegenanzeigen), da diese Sicherheitsdaten fehlen und den Übergang zur Sicherheitsprüfung blockieren
+- Detaillierte Wirkmechanismus-Daten (z. B. aus DrugBank)
+- Auswertung der Ergebnisse von NCT03114527 (Ansprechrate, Verträglichkeit) speziell für das Liposarkom
+- Klärung des aktuellen Zulassungs- und Vermarktungsstatus in Deutschland
+- Sicherheitsüberwachungsplan, insbesondere für Blutbild, Stoffwechselparameter und Wechselwirkungen mit CYP3A4-Hemmern und -Induktoren
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ipilimumab
-parent: Hohe Evidenz (L1-L2)
-nav_order: 211
-evidence_level: L2
+parent: Nur Modellvorhersage (L5)
+nav_order: 247
+evidence_level: L5
 indication_count: 2
 ---
 
 # Ipilimumab
 {: .fs-9 }
 
-Evidenzniveau: **L2** | Vorhergesagte Indikationen: **2** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,115 +29,99 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Ipilimumab: Vom kutanen Melanom zum nicht-kutanen Melanom
+# Ipilimumab: Von Melanom und weiteren Tumorerkrankungen zu Choroideremie
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Ipilimumab ist ein monoklonaler Anti-CTLA-4-Antikörper, der zu einer Standardoption der Immuntherapie für fortgeschrittenes Melanom geworden ist. Das TxGNN-Modell sagt zusätzlich eine Aktivität bei **nicht-kutanem Melanom** (uveal, mukös, akral Subtypen) voraus, unterstützt durch **~60 registrierte klinische Studien und 5 Veröffentlichungen** im Evidence Pack. Ein zweites, wesentlich schwächeres Signal für **Choroideremie** wurde ebenfalls vom Modell generiert, zeigt aber keine biologische Plausibilität und ist für Hold gekennzeichnet.
-
----
-
-## Schnellübersicht
-
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Nicht in diesem Evidence Pack vorhanden (keine BfArM-/regulatorischen Lizenzierungsdaten verfügbar); öffentlich bekannte klinische Verwendung ist fortgeschrittenes/metastasiertes **kutanes Melanom** |
-| Vorhergesagte neue Indikation | Nicht-kutanes Melanom (uveal, mukös, akral Subtypen) |
-| TxGNN-Vorhersage-Score | 99.02% (Rang 9967) |
-| Evidence-Ebene | L2 |
-| Status auf dem deutschen Markt | ✗ Nicht vermarktet |
-| Anzahl der Genehmigungen | 0 |
-| Empfohlene Entscheidung | Mit Vorsichtsmaßnahmen fortfahren |
+Ipilimumab ist ein Immuncheckpoint-Inhibitor (CTLA-4-Antikörper). Er wurde ursprünglich zur Behandlung von Melanom, Nierenzellkarzinom, nichtkleinzelligem Lungenkarzinom, malignem Mesotheliom und kolorektalen Tumoren eingesetzt. Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **Choroideremie** voraus, einer erblichen Netzhautdegeneration. Diese Vorhersage ist rein rechnerisch: Für sie liegen **0 klinische Studien** und **0 Publikationen** vor.
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Kurzüberblick
 
-Derzeit sind detaillierte Wirkungsmechanismus-Daten nicht von DrugBank für diesen Kandidaten verfügbar (Datenlücke, Element DG002). Basierend auf bekannten Informationen ist Ipilimumab ein monoklonaler Anti-CTLA-4-Antikörper, der den inhibitorischen CTLA-4-Checkpoint auf T-Zellen blockiert und damit die Anti-Tumor-T-Zell-Aktivierung wiederherstellt und verstärkt. Seine Wirksamkeit bei kutanem Melanom wurde über mehrere Phase-3-Programme hinweg etabliert, und mechanistisch ist dieser Checkpoint-Blockade-Ansatz nicht auf einen bestimmten Melanom-Subtyp beschränkt — der zugrunde liegende Immun-Aktivierungsmechanismus sollte prinzipiell gleichermaßen auf nicht-kutane Melanome anwendbar sein.
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Melanom; Nierenzellkarzinom; nichtkleinzelliges Lungenkarzinom; malignes Mesotheliom; kolorektale Neoplasien |
+| Vorhergesagte neue Indikation | Choroideremie |
+| TxGNN-Vorhersagewert | 99,06 % |
+| Evidenzlevel | L5 |
+| Marktstatus in Deutschland | Nur erloschene Zulassung |
+| Anzahl der Zulassungen | 1 (davon 0 gültig) |
+| Empfohlene Entscheidung | Hold |
 
-Kutane und nicht-kutane Melanome (uveal, mukös, akral) teilen einen gemeinsamen Zellursprung (Melanozyten) und werden alle im gleichen immun-onkologischen Paradigma behandelt. Allerdings weisen nicht-kutane Subtypen typischerweise eine niedrigere Tumor-Mutationslast (TMB) auf als UV-getriebenes kutanes Melanom, was historisch mit reduzierten Ansprechquoten auf Checkpoint-Inhibitoren korreliert. Mehrere Studien im Evidence Pack (z. B. NCT03165422, NCT03369223) umfassen breitere Melanom-Populationen oder Echtweltanwendung nach anderen Checkpoint-Inhibitoren, was indirekte, aber relevante Unterstützung bietet, während dedizierte, nach nicht-kutanem Subtyp stratifizierte Daten begrenzt bleiben — dies wird in der L2-Evidence-Ebene und der Empfehlung „Mit Vorsichtsmaßnahmen fortfahren" widergespiegelt, anstatt eines kategorischen „Go".
+---
+
+## Warum ist diese Vorhersage (nur eingeschränkt) plausibel?
+
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Ipilimumab das Protein CTLA-4 blockiert. Dadurch wird die Hemmung der T-Zellen aufgehoben und die körpereigene Immunantwort gegen Tumoren verstärkt. Auf diesem Prinzip beruht auch die Wirksamkeit bei den zugelassenen Krebsindikationen.
+
+Choroideremie ist eine X-chromosomal vererbte Netzhautdegeneration. Sie wird durch den Funktionsverlust des CHM-Gens (REP1-Protein) verursacht. Ein plausibler mechanistischer Zusammenhang zur CTLA-4-Blockade ist nicht erkennbar. Eine Immuncheckpoint-Hemmung kann den zugrunde liegenden Gendefekt nicht korrigieren. Zwischen der ursprünglichen Krebsindikation und der vorhergesagten Erkrankung besteht keine erkennbare biologische Verwandtschaft.
+
+Immunvermittelte Augennebenwirkungen unter Ipilimumab, etwa eine Uveitis, wären bei Choroideremie eher ein Sicherheitsrisiko als ein Nutzen. Der hohe Vorhersagewert sollte daher als reines Modellergebnis ohne unterstützende Befunde gewertet werden.
 
 ---
 
 ## Evidenz aus klinischen Studien
 
-| Studiennummer | Phase | Status | Einschluss | Wesentliche Ergebnisse |
-|---------|------|------|------|---------|
-| [NCT02506153](https://clinicaltrials.gov/study/NCT02506153) | Phase 3 | Aktiv, nicht rekrutierend | 1301 | Große adjuvante Studie, die Interferon/Ipilimumab-Wahl vs. Pembrolizumab bei Hochrisiko-Melanom nach Resektion vergleicht; noch nicht abgeschlossen, nicht auf Subtyp beschränkt. |
-| [NCT03369223](https://clinicaltrials.gov/study/NCT03369223) | Phase 1/2 | Abgeschlossen | 356 | BMS-986249 ± Nivolumab bei fortgeschrittenen Tumoren einschließlich Melanom; bietet Sicherheits-/Wirksamkeitssignal für Checkpoint-Kombinationsansätze. |
-| [NCT03165422](https://clinicaltrials.gov/study/NCT03165422) | N/A (Echtwelt) | Abgeschlossen | 68 | Japanische Echtwelt-Krankengeschichten von Ipilimumab nach Nivolumab-Versagen bei Melanom; unterstützt klinische Machbarkeit über Melanom-Populationen hinweg. |
-| [NCT01621490](https://clinicaltrials.gov/study/NCT01621490) | Phase 1 | Abgeschlossen | 170 | Biomarker-/Pharmakodynamik-Studie von Nivolumab ± Ipilimumab bei fortgeschrittenem (irresektabel/metastasiert) Melanom. |
-| [NCT02115139](https://clinicaltrials.gov/study/NCT02115139) | Phase 2 | Abgeschlossen | 58 | Bestrahlung + Ipilimumab bei Melanom mit Hirnmetastasen; zeigte zusätzlichen klinischen Nutzen von Ipilimumab kombiniert mit Strahlentherapie. |
-| [NCT01689974](https://clinicaltrials.gov/study/NCT01689974) | Phase 2 | Beendet | 10 | Ipilimumab ± Strahlentherapie bei metastasiertem Melanom; früh beendet, unterpowert. |
-| [NCT06240143](https://clinicaltrials.gov/study/NCT06240143) | Phase 1/2 | Rekrutiert | 96 | Neoadjuvante intradermal Ipilimumab + Nivolumab bei Hochrisiko-Stadium-II-Melanom; noch keine Ergebnisse. |
-| [NCT02210104](https://clinicaltrials.gov/study/NCT02210104) | Phase 1 | Zurückgezogen | 0 | CD4+ NY-ESO-1-spezifische T-Zellen + Ipilimumab; zurückgezogen, keine Daten. |
-| [NCT04021420](https://clinicaltrials.gov/study/NCT04021420) | Phase 1/2 | Unbekannt | 21 | Blut-Hirn-Schranken-Öffnungsgerät + Nivolumab ± Ipilimumab bei Melanom-Hirnmetastasen; Status unbekannt. |
-| [NCT06880198](https://clinicaltrials.gov/study/NCT06880198) | N/A | Rekrutiert | 20 | Nicht-pharmakologische unterstützende Pflegemaßnahme neben Anti-PD-1 ± Ipilimumab-Regimen; keine direkte Wirksamkeitsstudie. |
-
-*Hinweis: Das Evidence Pack enthält insgesamt ~60 registrierte Studien; die obige Tabelle listet die 10 Studien mit zugewiesener Relevanzbewertung (Grad B/C) auf. Die meisten Studien bewerten Ipilimumab breit bei fortgeschrittenem/metastasiertem Melanom, anstatt nicht-kutane Subtypen spezifisch — diese Subtyp-Spezifitätslücke ist die Hauptlimitierung, die eine L2- (anstelle von L1-) Evidence-Ebene unterstützt.*
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Literatur-Evidenz
+## Evidenz aus der Literatur
 
-| PMID | Jahr | Typ | Journal | Wesentliche Ergebnisse |
-|------|-----|------|------|---------|
-| [24999899](https://pubmed.ncbi.nlm.nih.gov/24999899/) | 2014 | Kohorte/Retrospektiv | The Medical Journal of Australia | Evaluierte Ipilimumab-Wirksamkeit/Verträglichkeit bei vorbehandeltem **kutanen, uvealem und mukösem** Melanom; bewertete direkt die Assoziation zwischen Ansprechen und Melanom-Subtyp. |
-| [28183255](https://pubmed.ncbi.nlm.nih.gov/28183255/) | 2018 | Übersicht | Current Cancer Drug Targets | Systematische Übersicht der Melanom-Adjuvans-Behandlung (2000–2015 Studien); merkt an, dass nur ~5% der Melanome nicht-kutanen Ursprung sind, und überprüft adjuvante Optionen einschließlich Checkpoint-Inhibitoren. |
-| [37887546](https://pubmed.ncbi.nlm.nih.gov/37887546/) | 2023 | Kohorte | Current Oncology (Toronto) | Retrospektiver Mehrzentrums-Vergleich von Anti-PD-1-Monotherapie vs. Kombination mit Ipilimumab nach Altersgruppe bei fortgeschrittenem Melanom; unterstützt Kombinationswirksamkeit über breite Melanom-Populationen. |
-| [29466692](https://pubmed.ncbi.nlm.nih.gov/29466692/) | 2018 | Übersicht | Discovery Medicine | Klinische Aktualisierung zu Anti-PD-1-Antikörpern allein oder kombiniert mit Ipilimumab als Erstlinientherapie für fortgeschrittenes Melanom, einschließlich BRAF-Wildtyp- und BRAF-mutierter Erkrankung. |
-| [40236344](https://pubmed.ncbi.nlm.nih.gov/40236344/) | 2025 | Fallbericht | Cureus | Fall von Kolonmetastase aus Melanom, behandelt mit systemischer Immuntherapie einschließlich Ipilimumab-Klasse-Agentien; veranschaulicht Echtweltanwendung und GI-bezogenes irAE-Risiko. |
+Derzeit liegt keine zugehörige Literatur vor.
 
 ---
 
-## Informationen zum deutschen Markt
+## Informationen zum Markt in Deutschland
 
-Ipilimumab wird derzeit **nicht vermarktet** in Deutschland unter diesem Evidence Pack (`market_status: Not marketed`), mit **0 Genehmigungen** im Datensatz. Es waren keine Lizenzeinträge verfügbar, um Darreichungsform oder genehmigte Indikationstexte zu extrahieren.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/002213 (erloschen) | Yervoy | – | Melanom, Nierenzellkarzinom, nichtkleinzelliges Lungenkarzinom, malignes Mesotheliom, kolorektale N... |
+
+Hersteller ist Bristol-Myers Squibb Pharma EEIG. Die Zulassung ist als erloschen geführt, es besteht keine gültige Zulassung.
 
 ---
 
-## Zytotoxizität (Antineoplastische Arzneimittel)
+## Zytotoxizität
 
-Ipilimumab wird hier basierend auf seiner etablierten klinischen Verwendung bei fortgeschrittener/metastasierter Melanom-Behandlung und seinem Mechanismus als Immun-Checkpoint-Inhibitor als antineoplastisches Mittel klassifiziert.
+Ipilimumab ist ein Antineoplastikum. Zu seiner Toxizität liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Die Einträge in der Tabelle beruhen auf der Wirkstoffklasse, nicht auf Daten dieses Berichts.
 
-| Element | Inhalt |
-|---------|--------|
-| Zytotoxizitäts-Klassifizierung | Immuntherapie (Immun-Checkpoint-Inhibitor; monoklonaler Anti-CTLA-4-Antikörper) — kein konventionelles zytostatisches Chemotherapeutikum |
-| Myelosuppressions-Risiko | Niedrig — Checkpoint-Inhibitoren sind typischerweise nicht myelosuppressiv; die dominierende Toxizitätsproblematik sind immunvermittelte Nebenwirkungen (irAEs) anstelle von Knochenmarksuppression |
-| Emetogenitäts-Klassifizierung | Niedrig — Immuntherapien tragen generell minimales intrinsisches emetogenes Potenzial |
-| Überwachungselemente | Leberfunktionstests, Schilddrüsenfunktion, Nebennieren-/Cortisolfunktion, GI-Symptome (Kolitis-/Durchfall-Screening), Hautreaktionen und CBC als Teil der irAE-Überwachung |
-| Handlungsschutz | Als biologisches monoklonales Antikörper-Präparat erfordert Ipilimumab keine herkömmlichen Schutzmaßnahmen bei zytostatischen Arzneimitteln; institutionelle Handhabungsprotokolle für biologische Agentien sollten dennoch befolgt werden |
+| Punkt | Inhalt |
+|------|------|
+| Zytotoxizitätsklassifikation | Immuntherapie (monoklonaler CTLA-4-Antikörper), kein klassisches Zytostatikum |
+| Myelosuppressionsrisiko | Bitte Warnhinweise und Vorsichtsmaßnahmen der Packungsbeilage beachten |
+| Emetogenitätsklassifikation | Nach Wirkstoffklasse eher niedrig; Details laut Packungsbeilage |
+| Überwachungsparameter | Blutbild, Leber- und Nierenfunktion, Schilddrüsenwerte (wegen immunvermittelter Nebenwirkungen) |
+| Handhabungsschutz | Bitte Vorgaben der Packungsbeilage und der lokalen Richtlinien für die Handhabung von Antineoplastika beachten |
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Fachinformation für Sicherheitsinformationen. Im diesen Evidence Pack waren keine wichtigen Warnungen, Kontraindikationen oder Arzneimittelwechselwirkungsdaten verfügbar (Element DG001, gekennzeichnet als blockierend für S1-Sicherheitsbewertung).
+- **Arzneimittelwechselwirkungen:** Die Abfrage ergab 100 Wechselwirkungen. Die wichtigsten davon:
+  - **Schwerwiegend (Major):** Antikoagulanzien und Thrombin-Inhibitoren, nämlich Apixaban, Betrixaban, Edoxaban, Dalteparin, Danaparoid, Bivalirudin, Desirudin und Argatroban.
+  - **Moderat:** Kortikosteroide (Hydrocortison, Prednisolon, Prednison, Dexamethason, Betamethason, Triamcinolon, Budesonid), Metronidazol, Tinidazol, Naltrexon sowie die Statine Rosuvastatin und Simvastatin.
+- **Augenspezifisches Risiko:** Immunvermittelte Augentoxizitäten wie Uveitis sind unter Ipilimumab möglich. Für eine Netzhauterkrankung wie Choroideremie ist das besonders relevant.
 
----
-
-## Zusätzliche TxGNN-Vorhersage (mit niedrigem Vertrauen gekennzeichnet)
-
-Die top-bewertete Vorhersage des Modells (Score 99.06%) war **Choroideremie**, eine monogene retinale degenerative Erkrankung, die durch CHM-Genmutationen/REP1-Protein-Mangel verursacht wird. Dies hatte **keine klinischen Studien, keine Literatur und keinen bekannten mechanistischen Zusammenhang** mit CTLA-4-Blockade. Das Evidence Pack selbst kennzeichnet dies als ein wahrscheinlich Embedding-Proximität-Artefakt anstelle einer echten mechanistischen Assoziation (Evidence-Ebene L5, Entscheidungsstadium S0, Empfehlung **Hold**). Diese Vorhersage wird für die weitere Bewertung nicht berücksichtigt und wird hier nur aus Gründen der Transparenz erwähnt.
+Für weitere Warnhinweise und Gegenanzeigen bitte die Packungsbeilage heranziehen.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Mit Vorsichtsmaßnahmen fortfahren** (für nicht-kutane Melanom-Indikation)
+**Entscheidung: Hold**
 
 **Begründung:**
-Der Mechanismus von Ipilimumab und die breite Melanom-Studienbasis bieten plausible Unterstützung für die Verwendung bei nicht-kutanen Melanom-Subtypen, aber subtyp-spezifische stratifizierte Wirksamkeitsdaten sind begrenzt und das Arzneimittel ist derzeit auf dem deutschen Markt nicht vermarktet mit einer blockierenden Sicherheitsdatenlücke.
+Die Vorhersage für Choroideremie beruht ausschließlich auf dem Modellwert (Evidenzlevel L5). Es gibt weder klinische Studien noch Publikationen, und ein plausibler Wirkmechanismus fehlt. Hinzu kommt das Risiko immunvermittelter Augennebenwirkungen. Zudem besteht in Deutschland derzeit keine gültige Zulassung.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- TFDA/BfArM-Fachinformation (Warnungen, Kontraindikationen) — derzeit eine blockierende Lücke (DG001)
-- Detaillierte Wirkungsmechanismus-Daten von DrugBank (DG002)
-- Subtyp-stratifizierte (uveal/mukös/akral) Ansprech- und Überlebensdaten spezifisch für nicht-kutanes Melanom
-- Regulatorische Bewertung des Einsatzweges angesichts des aktuellen Status „nicht vermarktet" in Deutschland
-- irAE-spezifischer Sicherheitsüberwachungsplan angesichts des Fehlens aktueller Sicherheits-/Wechselwirkungsdaten
+**Für ein Weiterverfolgen wäre erforderlich:**
+- präklinische Belege, die einen Zusammenhang zwischen CTLA-4-Blockade und der CHM-bedingten Netzhautdegeneration stützen
+- eine Bewertung der okulären Sicherheit, insbesondere des Uveitisrisikos
+- die Packungsbeilage mit Warnhinweisen und Gegenanzeigen sowie detaillierte Wirkmechanismusdaten
+- eine Klärung des Zulassungsstatus in Deutschland
 
-Das Choroideremie-Signal erfordert keine weiteren Maßnahmen (Hold; keine biologische Begründung, keine unterstützende Evidenz).
-
+**Hinweis:** Für dasselbe Arzneimittel existiert in den Daten eine weitere Vorhersage, **nicht-kutanes Melanom**, mit Studien und Publikationen. Sie ist eher eine Ausweitung der bereits zugelassenen Wirkklasse auf einen verwandten Subtyp als ein echtes Repurposing. Das Evidenzlevel L1 gilt dort nur vorläufig, weil die einzige gelistete Phase-3-Studie (NCT02278887) eine Studie zur adoptiven Zelltherapie ist und die Rolle von Ipilimumab darin unbestätigt bleibt. Diese Vorhersage sollte gesondert bewertet werden.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

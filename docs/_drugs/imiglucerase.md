@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Imiglucerase
-parent: Nur Modellvorhersage (L5)
-nav_order: 199
-evidence_level: L5
+parent: Mittlere Evidenz (L3-L4)
+nav_order: 234
+evidence_level: L4
 indication_count: 5
 ---
 
 # Imiglucerase
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5** 
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,81 +29,88 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-# Imiglucerase: Von der Gaucher-Krankheit zum Hurler-Syndrom
+# Imiglucerase: Von Morbus Gaucher zu Hurler-Syndrom
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Imiglucerase ist eine rekombinante humane Glukozerebrosidasen, die als Enzymersatztherapie bei der Gaucher-Krankheit eingesetzt wird.
-> TxGNN sagt eine mögliche neue Indikation für **Hurler-Syndrom** (MPS I) mit einer Punktzahl von **99.52%** voraus,
-> aber dies wird derzeit nur durch **0 klinische Studien** und **2 allgemeine (nicht medikamentenspezifische) Übersichtsartikel** unterstützt – die eigene Begründung des Modells kennzeichnet dies als ein wahrscheinliches Falschpositiv, das durch semantisches Clustering von „lysosomale Speicherkrankheit" angetrieben wird, nicht durch echte mechanistische Überlappung.
+Imiglucerase ist eine rekombinante Glucocerebrosidase (Enzymersatztherapie), die ursprünglich zur Behandlung des Morbus Gaucher eingesetzt wurde.
+Das TxGNN-Modell sagt voraus, dass sie bei **Hurler-Syndrom (MPS I)** wirksam sein könnte.
+Dafür liegen **keine klinischen Studien** und nur **eine Übersichtsarbeit** zur Enzymersatztherapie bei lysosomalen Speicherkrankheiten vor, die lediglich indirekte Hinweise auf Klassenebene liefert.
 
 ---
 
 ## Schnellübersicht
 
-| Posten | Inhalt |
-|--------|--------|
-| Ursprüngliche Indikation | Gaucher-Krankheit (aus Literaturbelegen ermittelt; es existiert kein strukturiertes Taiwan-/deutsches Regulierungsregister) |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Morbus Gaucher |
 | Vorhergesagte neue Indikation | Hurler-Syndrom |
-| TxGNN-Vorhersage-Score | 99.52% |
-| Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nicht vermarktet (Nicht vermarktet) |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Aussetzen |
+| TxGNN-Vorhersagewert | 99,52 % |
+| Evidenzgrad | L4 |
+| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
+| Anzahl der Zulassungen | 1 (erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage sinnvoll?
+## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Daten zum Wirkmechanismus sind nicht im Evidence Pack vorhanden (gekennzeichnet als Datenlücke mit hohem Schweregrad). Basierend auf bekannter Pharmakologie ist Imiglucerase ein rekombinantes Analogon der humanen **Glukozerebrosidasen**, und seine etablierte Rolle ist die substratspezifische Enzymersatztherapie bei der Gaucher-Krankheit, die durch Glukozerebrosidasen-Mangel verursacht wird.
+Zur Wirkungsweise liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Imiglucerase ist eine rekombinante Glucocerebrosidase (Beta-Glucosidase), die Glucosylceramid hydrolysiert und beim Morbus Gaucher die Substratspeicherung in Makrophagen verringert.
 
-Das Hurler-Syndrom (Mukopolysaccharidose Typ I) wird durch Mangel eines **anderen Enzyms, Alpha-L-Iduronidase**, verursacht, das auf ein anderes Substrat wirkt (Glykosaminoglykane, nicht Glukocerebroside). Beide Erkrankungen gehören zur breiteren Kategorie der „lysosomalen Speicherkrankheiten", was fast sicherlich der Grund ist, warum TxGNN beide hoch zusammen bewertete – aber dies ist eine Ähnlichkeit auf Kategorien-Ebene (semantisch), keine mechanistische Verbindung auf Enzym-/Substrat-Ebene. Die zwei unterstützenden Literaturpunkte sind allgemeine Übersichten über Enzymersatztherapie bei mehreren lysosomalen Speicherkrankheiten; keiner berichtet, dass Imiglucerase speziell beim Hurler-Syndrom getestet oder wirksam ist.
+Das Hurler-Syndrom (MPS I) beruht auf einem Mangel an alpha-L-Iduronidase, wodurch sich Glykosaminoglykane (Dermatan- und Heparansulfat) anreichern. Beide Erkrankungen sind lysosomale Speicherkrankheiten, die grundsätzlich mit Enzymersatz behandelt werden. Die Enzyme und Substrate unterscheiden sich jedoch, sodass Imiglucerase keine direkte katalytische Wirkung auf das MPS-I-Substrat hat.
 
-**Gesamtbewertung: Die mechanistische Grundlage für diese Vorhersage ist schwach.** Im Gegensatz zu echten Repurposing-Kandidaten, bei denen ein gemeinsamer Signalweg plausibel die Wirksamkeit über mehrere Indikationen hinweg erklärt, unterscheiden sich hier die Zielenzyme und Substrate völlig, und Imiglucerase würde nicht von katalytischer Aktivität relevant für MPS I erwartet.
+Die Verbindung besteht daher nur auf Klassenebene (Konzept der Enzymersatztherapie). Der hohe TxGNN-Wert dürfte vor allem auf gemeinsamen Netzwerkmerkmalen lysosomaler Erkrankungen beruhen. Für MPS I ist mit Laronidase bereits eine gezielte Enzymersatztherapie zugelassen.
 
----
-
-## Klinische Studienbelege
-
-Derzeit keine verwandten klinischen Studien registriert.
-
----
-
-## Literaturbelege
-
-| PMID | Jahr | Typ | Zeitschrift | Wichtigste Erkenntnisse |
-|------|------|------|------|---------|
-| [20534487](https://pubmed.ncbi.nlm.nih.gov/20534487/) | 2010 | Übersicht (Bildgebungsmethodik) | PNAS | Allgemeine Übersicht der PET-Bildgebung für Enzymersatztherapie bei lysosomalen Speicherkrankheiten (Gaucher, Fabry, Hurler, Hunter, Maroteaux-Lamy, Pompe); nicht spezifisch für die Wirksamkeit von Imiglucerase beim Hurler-Syndrom |
-| [21211680](https://pubmed.ncbi.nlm.nih.gov/21211680/) | 2010 | Übersicht | La Revue de médecine interne | Allgemeine Übersicht der ERT-Geschichte (Alglucerase → Imiglucerase bei Gaucher-Krankheit) und deren Erweiterung auf andere LSDs; berichtet nicht über die Verwendung von Imiglucerase beim Hurler-Syndrom |
+Weitere Vorhersagen im Überblick (alle Hold):
+- **Scheie-Syndrom** (99,29 %, L4): abgeschwächte Form von MPS I, gleiche Einschränkung wie oben.
+- **Gutartige Neubildung der Nebenniere** (99,28 %, L5): kein erkennbarer mechanistischer Zusammenhang.
+- **Autosomale Ichthyose mit tödlichem Verlauf** (99,24 %, L5): plausibler, aber nicht belegter Bezug zur Ceramid-Barriere; Imiglucerase überwindet die Blut-Hirn-Schranke nur begrenzt.
+- **Cholesterinester-Speicherkrankheit** (99,12 %, L5): Imiglucerase spaltet keine Cholesterinester; spezifische Therapie ist Sebelipase alfa.
 
 ---
 
-## Marktstatus in Deutschland
+## Klinische Evidenz
 
-Imiglucerase hält derzeit keine Zulassung in Deutschland (0 Lizenzen auf Rekord).
+Derzeit sind keine zugehörigen klinischen Studien registriert.
+
+---
+
+## Literaturevidenz
+
+| PMID | Jahr | Typ | Journal | Kernaussagen |
+|------|-----|------|------|---------|
+| [21211680](https://pubmed.ncbi.nlm.nih.gov/21211680/) | 2010 | Review | La Revue de médecine interne | Übersicht zur Enzymersatztherapie lysosomaler Speicherkrankheiten, von Alglucerase zu rekombinanter Imiglucerase bei Morbus Gaucher; nur indirekter Klassenbezug, keine Daten zu MPS I |
+
+---
+
+## Marktinformationen Deutschland
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000157 | Cerezyme (Sanofi B.V.) | – | Morbus Gaucher (Status: erloschen) |
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+- **Arzneimittelwechselwirkungen**: Miglustat (Schweregrad: mittel; Quelle: DDInter).
+
+Für weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) ist die Fachinformation heranzuziehen.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Aussetzen**
+**Entscheidung: Hold**
 
 **Begründung:**
-- Die vorhergesagte Indikation (Hurler-Syndrom) und die anderen vier Kandidaten in diesem Evidence Pack (Scheie-Syndrom, benigne Neoplasie der Nebenniere, autosomal rezessive Ichthyose, Cholesterylester-Speicherkrankheit) sind alle mit L5 bewertet und mit einer „Aussetzen"-Empfehlung. Die medikamentenspezifische mechanistische Begründung für jeden kennzeichnet explizit Enzym-/Substrat-Nichtübereinstimmungen mit der bekannten Glukozerebrosidasen-Aktivität von Imiglucerase, was nahelegt, dass diese hohen TxGNN-Bewertungen Erkrankungs-Kategorien-Clustering („lysosomale Speicherkrankheit") widerspiegeln, eher als echte Zielüberlappung.
-- Grundlegende medikamentenspezifische Daten (MOA, TFDA/Deutsche Kennzeichnungs-Warnungen und Kontraindikationen) fehlen und blockieren (DG001, DG002), daher kann dieser Kandidat nicht einmal zu einem grundlegenden Sicherheitsscreening (S1) fortschreiten, unabhängig von der Repurposing-Hypothese.
+Die Vorhersage stützt sich allein auf ein Modellergebnis und eine allgemeine Übersichtsarbeit. Es gibt keine klinischen Studien, und Imiglucerase besitzt keine katalytische Aktivität gegenüber dem MPS-I-Substrat. Mit Laronidase existiert zudem eine spezifische zugelassene Therapie. Die Zulassung in Deutschland ist erloschen.
 
-**Um fortzufahren, wird Folgendes benötigt:**
-- Bestätigen Sie den vollständigen Wirkmechanismus über DrugBank (DG002 auflösen)
-- Besorgen Sie sich amtliche Kennzeichnungs-Warnungen/Kontraindikationen, z. B. von einem EU/FDA-zugelassenen Produkt (DG001 auflösen, blockierend)
-- Suchen Sie nach präklinischen oder biochemischen Belegen dafür, dass Imiglucerase katalytische oder Off-Target-Aktivität relevant für Alpha-L-Iduronidase-Mangel-Erkrankungen besitzt (derzeit existieren keine solchen Belege)
-- Falls keine medikamentenspezifischen mechanistischen oder präklinischen Belege auftauchen, sollte dieser Kandidat als wahrscheinliches Modell-Falschpositiv herabgestuft werden, anstatt weiter vorangetrieben zu werden
-
+**Für ein Weiterkommen ist Folgendes erforderlich:**
+- Fachinformation mit Warnhinweisen und Gegenanzeigen (derzeit blockierende Datenlücke für die Sicherheitsprüfung)
+- Detaillierte Daten zum Wirkmechanismus (z. B. aus DrugBank)
+- Präklinische Belege, dass Imiglucerase Glykosaminoglykane abbauen oder MPS-I-Phänotypen beeinflussen kann
+- Klärung des Zulassungs- und Verfügbarkeitsstatus in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

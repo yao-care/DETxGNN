@@ -2,15 +2,15 @@
 layout: default
 title: Epinephrine
 parent: Hohe Evidenz (L1-L2)
-nav_order: 150
-evidence_level: L2
+nav_order: 173
+evidence_level: L1
 indication_count: 4
 ---
 
 # Epinephrine
 {: .fs-9 }
 
-Evidenzniveau: **L2** | Vorhergesagte Indikationen: **4** 
+Evidenzniveau: **L1** | Vorhergesagte Indikationen: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,100 +29,111 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-# Epinephrin: Von Anaphylaxie bis zur obstruktiven Lungenerkrankung
+# Epinephrin: Von Anaphylaxie zu obstruktiver Lungenerkrankung
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Epinephrin (Adrenalin) ist ein natürlich vorkommendes Katecholamin, das klassischerweise als Erstlinien-Notfallbehandlung bei Anaphylaxie und Herzstillstand sowie historisch als Bronchodilatator bei Asthma eingesetzt wird (z. B. rezeptfreie Inhalatoren wie Primatene Mist).
-Das TxGNN-Modell prognostiziert, dass es möglicherweise auch wirksam bei **obstruktiver Lungenerkrankung** ist,
-mit **mehr als 10 direkt relevanten klinischen Studien** (von 50 abgerufenen) und **20 Veröffentlichungen**, einschließlich zweier Cochrane-Systematischer Übersichtsarbeiten, die diese Richtung derzeit unterstützen.
+Epinephrin (Adrenalin) wird ursprünglich zur Notfallbehandlung der Anaphylaxie eingesetzt. Das TxGNN-Modell sagt voraus, dass es bei einer **obstruktiven Lungenerkrankung** (z. B. Asthma, Bronchiolitis) wirksam sein könnte. Diese Richtung wird derzeit durch **16 klinische Studien** und **20 Publikationen** gestützt, darunter mehrere abgeschlossene Phase-3-Studien zu inhalativem Epinephrin bei Asthma.
 
 ---
 
 ## Schnellübersicht
 
-| Eintrag | Inhalt |
-|--------|--------|
-| Ursprüngliche Indikation | Anaphylaxie / Kardiopulmonale Reanimation (etablierte Notfall-Indikationen; keine formale regulatorische Lizenzaufzeichnung im vorliegenden Datensatz verfügbar) |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Anaphylaxie |
 | Vorhergesagte neue Indikation | Obstruktive Lungenerkrankung |
-| TxGNN-Vorhersage-Score | 99,71 % |
-| Evidenzgrad | L2 |
-| Marktstatus in Deutschland | ✗ Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Fortfahren mit Schutzmaßnahmen |
+| TxGNN-Vorhersagewert | 99,71 % |
+| Evidenzgrad | L1 |
+| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
+| Anzahl der Zulassungen | 1 (0 gültig, 1 erloschen) |
+| Empfohlene Entscheidung | Proceed with Guardrails (Fortführung mit Schutzmaßnahmen) |
 
 ---
 
-## Warum ist diese Vorhersage sinnvoll?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit ist kein formaler Eintrag zum Wirkmechanismus des Arzneimittels für Epinephrin im vorliegenden Datensatz verfügbar (`original_moa: [Datenlücke]`). Basierend auf der gut etablierten Pharmakologie, die in der Analyse zur Umwidmung zitiert wird, ist Epinephrin jedoch ein **nicht-selektiver adrenerger Rezeptoragonist**: Es aktiviert direkt β2-adrenerge Rezeptoren auf der Bronchialmuskulatur, um Bronchodilatation zu bewirken, und aktiviert gleichzeitig α1-Rezeptoren, um Schleimhautblutgefäße zu verengen und damit Schleimhautschwellungen zu reduzieren. Diese duale Wirkung ist die pharmakologische Grundlage für die lange etablierte Verwendung von (racemischem) Epinephrin bei Krupp und Bronchiolitis – Zustände, die unter den breiteren Regenschirm der „obstruktiven Lungenerkrankung" fallen.
+Zu dem Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Nach bekanntem Wissen ist Epinephrin ein nicht-selektiver adrenerger Agonist. Die Stimulation von Beta-2-Rezeptoren entspannt die glatte Bronchialmuskulatur und führt zur Bronchodilatation. Die Alpha-1-Stimulation verringert durch Vasokonstriktion das Schleimhautödem.
 
-Die ursprünglichen, gut etablierten Indikationen für Epinephrin (Anaphylaxie, Herzstillstand und historisch Asthma/Bronchospasmus über inhalierte Formulierungen) liegen bereits auf genau derselben Rezeptorpharmakologie, die für die neue Vorhersage verwendet wird – dies ist kein indirekter mechanistischer Sprung, sondern eine direkte Erweiterung derselben β2-/α1-Rezeptor-Aktivität auf einen verwandten Atemwegs-Obstruktions-Phänotyp.
+Die ursprüngliche Indikation (Anaphylaxie) und die vorhergesagte Indikation haben einen gemeinsamen pathophysiologischen Anteil: In beiden Fällen kommt es zu Bronchospasmus und Schwellung der Atemwege. Dieselben Rezeptorwirkungen, die bei der Anaphylaxie lebensrettend sind, wirken mechanistisch auch bei Asthma und Bronchiolitis.
 
-Da obstruktive Lungenerkrankung (Asthma, COPD, Bronchiolitis) die Grundpathophysiologie der reversiblen oder teilweise reversiblen Atemwegsverengung teilt, ist die gleiche rezeptor-vermittelte Bronchodilatations-/Entzündungshemmungs-Wirkung, die der genehmigten Notfallverwendung von Epinephrin zugrunde liegt, direkt anwendbar – und tatsächlich wurden bereits mehrere dedizierte inhalierte Epinephrin-Formulierungen (z. B. „E004", Epinephrin HFA/Primatene Mist) klinisch speziell bei Asthma und Bronchiolitis getestet, was unterstreicht, dass dies ein etablierter, nicht rein theoretischer, mechanistischer Zusammenhang ist.
+Die Anwendung wird durch systemische Beta-1-Effekte (Tachykardie, Arrhythmien) begrenzt. Zudem ist der Marktstatus „nur erloschen“ für inhalative Formulierungen regulatorisch zu klären.
 
 ---
 
-## Evidenz klinischer Studien
+## Klinische Studienevidenz
 
-| Studiennummer | Phase | Status | Enrollment | Hauptergebnisse |
+Die Tabelle zeigt die 10 relevantesten Studien (insgesamt 16 erfasst).
+
+| Studiennummer | Phase | Status | Teilnehmer | Kernaussagen |
 |---------|------|------|------|---------|
-| [NCT03614273](https://clinicaltrials.gov/study/NCT03614273) | NA | Abgeschlossen | 60 | Vergleich von vernebelter 3 %iger Natriumchloridlösung vs. vernebeltem Adrenalin bei Bronchiolitis; direkte Epinephrin-Interventionsstudie (Grad-A-Relevanz). |
-| [NCT00116584](https://clinicaltrials.gov/study/NCT00116584) | Phase 3 | Abgeschlossen | 72 | Heliox-getriebene racemische Epinephrin-Vernebelung vs. konventionelle Luft-Sauerstoff-Vernebelung bei moderater bis schwerer pädiatrischer Bronchiolitis. |
-| [NCT01834820](https://clinicaltrials.gov/study/NCT01834820) | Phase 4 | Abgeschlossen | 120 | Pilot-RCT mit Epinephrin, Dexamethason und hypertoner Salzlösung zur Reduzierung der Hospitalisierung bei Bronchiolitis. |
-| [NCT01300325](https://clinicaltrials.gov/study/NCT01300325) | Phase 4 | Abgeschlossen | 136 | Vernebelter hypertoner Salzlösung plus Epinephrin vs. Normalsaline plus Epinephrin bei hospitalisierten Säuglingen mit Bronchiolitis. |
-| [NCT01460511](https://clinicaltrials.gov/study/NCT01460511) | Phase 3 | Abgeschlossen | 70 | Multizentrische, doppelblinde, placebokontrollierte Studie mit Epinephrin-Inhalationsaerosol (E004) vs. Placebos bei 4–11-jährigen Kindern mit Asthma. |
-| [NCT01737905](https://clinicaltrials.gov/study/NCT01737905) | Phase 3 | Abgeschlossen | 28 | Single-Dose-, doppelblinde, placebokontrollierte Crossover-Studie mit E004 (Epinephrin-Inhalationsaerosol) bei pädiatrischem Asthma. |
-| [NCT05363670](https://clinicaltrials.gov/study/NCT05363670) | Phase 2 | Abgeschlossen | 18 | Crossover-Studie mit intranasalem Epinephrin (ARS-1, nadelfreier Weg) vs. Albuterol bei persistierendem Asthma. |
-| [NCT01255709](https://clinicaltrials.gov/study/NCT01255709) | Phase 2 | Abgeschlossen | 24 | Pharmakokinetische Studie mit Armstrong's Epinephrin-Inhalationsaerosol (HFA-MDI, E004) unter Verwendung von deuterium-markiertem Epinephrin bei gesunden Probanden. |
-| [NCT01143051](https://clinicaltrials.gov/study/NCT01143051) | Phase 1/2 | Abgeschlossen | 24 | Pharmakokinetische und Sicherheitsbewertung des Epinephrin-Inhalationsaerosols USP (HFA-MDI) unter verstärkten Dosierbedingungen. |
-| [NCT01025648](https://clinicaltrials.gov/study/NCT01025648) | Phase 1/2 | Beendet | 9 | Sechsarmige Crossover-Dosiesfindungsstudie mit Epinephrin HFA-MDI (E004) vs. Placebos und einem aktiven Epinephrin-CFC-MDI-Vergleichspräparat bei Asthma-Patienten; frühzeitig beendet. |
+| [NCT01357642](https://clinicaltrials.gov/study/NCT01357642) | Phase 3 | Abgeschlossen | 373 | Wirksamkeit und Sicherheit von Epinephrin-Inhalationsaerosol (HFA-MDI, E004) über 12 Wochen bei Asthma vs. Placebo und Primatene Mist |
+| [NCT01476904](https://clinicaltrials.gov/study/NCT01476904) | Phase 3 | Abgeschlossen | 208 | 3-monatige Sicherheitsverlängerung der E004-C-Studie bei Asthma |
+| [NCT01460511](https://clinicaltrials.gov/study/NCT01460511) | Phase 3 | Abgeschlossen | 70 | E004 vs. Placebo über 4 Wochen bei Kindern (4–11 Jahre) mit Asthma |
+| [NCT01737905](https://clinicaltrials.gov/study/NCT01737905) | Phase 3 | Abgeschlossen | 28 | Einzeldosis E004 bei Kindern mit Asthma (Crossover) |
+| [NCT01705964](https://clinicaltrials.gov/study/NCT01705964) | Phase 4 | Abgeschlossen | 49 | Intramuskuläres Epinephrin als Zusatztherapie bei schwerer kindlicher Asthmaexazerbation |
+| [NCT01834820](https://clinicaltrials.gov/study/NCT01834820) | Phase 4 | Abgeschlossen | 120 | Epinephrin, Dexamethason und hypertone Kochsalzlösung bei Bronchiolitis (Kombinationsdesign) |
+| [NCT00817466](https://clinicaltrials.gov/study/NCT00817466) | Phase 4 | Unbekannt | 500 | Vergleich inhalativer Therapien bei Säuglingen mit akuter Bronchiolitis |
+| [NCT00114478](https://clinicaltrials.gov/study/NCT00114478) | k. A. | Unbekannt | 600 | Epinephrin vs. Albuterol bei Bronchiolitis |
+| [NCT00622817](https://clinicaltrials.gov/study/NCT00622817) | k. A. | Abgeschlossen | 65 | Adrenalin-Inhalation vs. abschwellende Nasentropfen bei Bronchiolitis |
+| [NCT02585531](https://clinicaltrials.gov/study/NCT02585531) | Phase 2 | Unbekannt | 100 | Epinephrin, Dexamethason und hypertone Kochsalzlösung bei Bronchiolitis |
+
+Weitere erfasste Studien sind überwiegend pharmakokinetische Studien an gesunden Freiwilligen (z. B. NCT01255709, NCT04207840, NCT01737892, NCT01188577).
 
 ---
 
 ## Literaturevidenz
 
-| PMID | Jahr | Typ | Journal | Hauptergebnisse |
+| PMID | Jahr | Typ | Journal | Kernaussagen |
 |------|-----|------|------|---------|
-| [21678340](https://pubmed.ncbi.nlm.nih.gov/21678340/) | 2011 | Systematische Übersichtsarbeit (Cochrane) | Cochrane Database Syst Rev | Cochrane-Übersicht zu Epinephrin bei Bronchiolitis; weist darauf hin, dass Bronchodilatatoren häufig trotz unsicherer Gesamtwirksamkeit verwendet werden. |
-| [14974006](https://pubmed.ncbi.nlm.nih.gov/14974006/) | 2004 | Systematische Übersichtsarbeit (Cochrane, frühere Version) | Cochrane Database Syst Rev | Frühere Cochrane-Übersichts-Version; fand bescheidenen kurzfristigen Nutzen von Bronchodilatatoren (einschl. Epinephrin) bei mild bis moderat schwerer Bronchiolitis. |
-| [30488718](https://pubmed.ncbi.nlm.nih.gov/30488718/) | 2019 | Übersicht | Expert Rev Respir Med | Überprüfung der Rolle von racemischem Epinephrin, systemischen Korticosteroiden, hypertoner Salzlösung und hochleisendem Sauerstoff bei der Behandlung pädiatrischer Bronchiolitis. |
-| [21486501](https://pubmed.ncbi.nlm.nih.gov/21486501/) | 2011 | Übersicht | BMJ Clinical Evidence | Überblick über Bronchiolitis, die häufigste Atemwegsinfektionen der unteren Atemwege bei Säuglingen, einschließlich Behandlungsansätze. |
-| [19450362](https://pubmed.ncbi.nlm.nih.gov/19450362/) | 2007 | Übersicht | BMJ Clinical Evidence | Früherer Überblick über Epidemiologie und Management der Bronchiolitis. |
-| [4606289](https://pubmed.ncbi.nlm.nih.gov/4606289/) | 1974 | Pharmakologische Studie | Clin Pharmacol Ther | Direkter Vergleich der Bronchodilatations-Effekte von Terbutalin und Epinephrin bei Patienten mit obstruktiver Lungenerkrankung. |
-| [4551435](https://pubmed.ncbi.nlm.nih.gov/4551435/) | 1972 | Übersicht | Annals of Allergy | Diskussion über vernebelter Bronchodilatatoren (einschließlich Epinephrin) bei obstruktiver Lungenerkrankung. |
-| [19135584](https://pubmed.ncbi.nlm.nih.gov/19135584/) | 2009 | Übersicht | Pediatr Clin North Am | Überprüfung der akuten Bronchiolitis und des Krupps mit Hinweis auf symptomatischen Nutzen von vernebeltem Adrenalin bei Krupp. |
-| [6777857](https://pubmed.ncbi.nlm.nih.gov/6777857/) | 1980 | Kohort/Mechanistisch | Scand J Clin Lab Invest | Zeigte erhöhtes Plasma-Noradrenalin bei Patienten mit chronischer obstruktiver Lungenerkrankung, invers korreliert mit arterieller Sauerstoffsättigung. |
-| [6417212](https://pubmed.ncbi.nlm.nih.gov/6417212/) | 1983 | Übersicht (historisch) | J Allergy Clin Immunol | Beschreibt Asthma als obstruktive Atemwegserkrankung, die durch Bronchialmuskelkrämpfe, Schleimsekretion und Entzündung verursacht wird. |
+| [35093318](https://pubmed.ncbi.nlm.nih.gov/35093318/) | 2022 | RCT | J Pediatr | Kortikosteroide plus inhaliertes Epinephrin bei Bronchiolitis auf der Intensivstation |
+| [11015240](https://pubmed.ncbi.nlm.nih.gov/11015240/) | 2000 | RCT | Acad Emerg Med | Vernebeltes racemisches Epinephrin bei akutem Asthma im Kindesalter vs. Salbutamol |
+| [33893229](https://pubmed.ncbi.nlm.nih.gov/33893229/) | 2021 | Netzwerk-Metaanalyse | Pediatrics | Vergleichende Wirksamkeit von Bronchiolitis-Interventionen in der Akutversorgung |
+| [21678340](https://pubmed.ncbi.nlm.nih.gov/21678340/) | 2011 | Systematischer Review (Cochrane) | Cochrane Database Syst Rev | Epinephrin bei Bronchiolitis |
+| [14974006](https://pubmed.ncbi.nlm.nih.gov/14974006/) | 2004 | Systematischer Review (Cochrane) | Cochrane Database Syst Rev | Epinephrin bei Bronchiolitis (frühere Fassung) |
+| [35953216](https://pubmed.ncbi.nlm.nih.gov/35953216/) | 2022 | Review | Emerg Med Clin North Am | Management von Asthma- und COPD-Exazerbationen in der Notaufnahme |
+| [30488718](https://pubmed.ncbi.nlm.nih.gov/30488718/) | 2019 | Review | Expert Rev Respir Med | Therapiestrategien bei kindlicher Bronchiolitis, inkl. racemischem Epinephrin |
+| [33446622](https://pubmed.ncbi.nlm.nih.gov/33446622/) | 2020 | Review | Med Lett Drugs Ther | Arzneimittel bei Asthma |
+| [20876171](https://pubmed.ncbi.nlm.nih.gov/20876171/) | 2010 | Kosteneffektivitätsanalyse | Pediatrics | Kosteneffektivität von Epinephrin und Dexamethason bei Bronchiolitis |
+| [30856157](https://pubmed.ncbi.nlm.nih.gov/30856157/) | 2019 | Kurzmitteilung | Med Lett Drugs Ther | Rückkehr des rezeptfreien Primatene Mist |
 
 ---
 
-## Marktinformationen für Deutschland
+## Marktinformationen Deutschland
 
-Es sind keine Zulassungen für Epinephrin im aktuellen Zulassungsdatensatz aufgezeichnet (Marktstatus: **Nicht vermarktet**; Gesamtzulassungen: **0**). Infolgedessen stehen keine Produktname, Darreichungsform oder genehmigter Indikationstext zur Vergleichbarkeit in diesem Markt zur Verfügung.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/006139 | Eurneffy | k. A. | Anaphylaxie (Status: erloschen) |
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. (Wichtige Warnungen, Kontraindikationen und Daten zu Arzneimittel-Wechselwirkungen werden alle im aktuellen Evidence-Datenpaket als Datenlücken oder „nicht gefunden" gekennzeichnet.)
+- **Kontraindikationen laut Wissensgraph (PrimeKG, keine Angaben aus Fachinformation):** Bluthochdruck, Herz-Kreislauf-Erkrankungen (u. a. koronare Herzkrankheit, Myokardinfarkt, Vorhofflimmern, Erregungsleitungsstörungen, plötzlicher Herzstillstand), Hyperthyreose, Diabetes mellitus und diabetische Ketoazidose, Engwinkelglaukom, Epilepsie, Leber- und Nierenerkrankungen, Myasthenia gravis, benigne Prostatahyperplasie, Atemversagen sowie weitere Erkrankungen. Diese Angaben sind als Hinweise zu verstehen und ersetzen keine Fachinformation.
+- **Arzneimittelwechselwirkungen:** 100 Wechselwirkungen erfasst. Als **schwerwiegend (Major)** eingestuft sind u. a. Amitriptylin und Amoxapin. Als **moderat** eingestuft sind u. a. Beta-Blocker (Acebutolol, Atenolol, Betaxolol), Beta-2-Agonisten (Formoterol, Salbutamol, Arformoterol), Stimulanzien (Methylphenidat, Amphetamin, Atomoxetin), Antidiabetika (Acarbose, Acetohexamid, Albiglutid, Alogliptin) sowie Antipsychotika (Amisulprid, Aripiprazol, Asenapin).
+- Systemische Beta-1-Effekte (Tachykardie, Arrhythmien) begrenzen die Sicherheit.
+
+Für Warnhinweise und Gegenanzeigen aus der Fachinformation siehe die Packungsbeilage bzw. Fachinformation.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Fortfahren mit Schutzmaßnahmen**
+**Entscheidung: Proceed with Guardrails**
 
 **Begründung:**
-Der β2-/α1-adrenerge Bronchodilatations- und Entzündungseffekt des Epinephrins ist pharmakologisch gut etabliert, und mehrere abgeschlossene Studien (einschließlich dedizierter inhalierter Epinephrin-Formulierungsstudien wie E004/ARS-1 bei pädiatrischem und adultem Asthma sowie Epinephrin-basierte Vernebel-Studien bei Bronchiolitis) unterstützen direkt die Wirksamkeit bei obstruktiven Atemwegserkrankungen. Die beiden Cochrane-Systematischen Übersichtsarbeiten betonen jedoch explizit „unsichere Wirksamkeit", und die breite Bezeichnung „obstruktive Lungenerkrankung" umfasst verschiedene Zustände (Asthma, COPD, Bronchiolitis) mit unterschiedlicher Evidenzstärke – was Schutzmaßnahmen statt bedingungsloser Weiterführung rechtfertigt.
+Mehrere abgeschlossene Phase-3-Studien zu inhalativem Epinephrin bei Asthma stützen die Vorhersage; der Mechanismus ist plausibel. Die Einschränkungen betreffen die kardiovaskuläre Sicherheit, die hohe Zahl an Wechselwirkungen und den Marktstatus „nur erloschen“.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- Detaillierte, auf Arzneimitteldatensatzebene dokumentierte Wirkmechanismen (MOA) (derzeit eine Datenlücke)
-- TFDA/Zulassungspaket-Warntexte, Kontraindikationen und Arzneimittel-Wechselwirkungsdaten (derzeit alle Datenlücken oder nicht gefunden)
-- Klarstellung, welcher spezifische Subtyp der obstruktiven Lungenerkrankung (Asthma vs. COPD vs. Bronchiolitis) das Umwidmungsangebot anvisieren soll, da sich die Qualität der Trialenevidenz nach Subtyp unterscheidet
-- Zusätzliche Validierung mit dem Hinweis, dass dieses ein bekanntes, jahrzehntealtes Arzneimittel ist – Zulassungs-/Marktdaten scheinen im Quelldatensatz zu fehlen und sollten mit realen Etikettinginformationen abgestimmt werden
-- Kandidaten mit niedrigerer Sicherheit aus demselben Vorhersagesatz (z. B. nahrungsmittelabhängiges anstrengungsinduziertes Anaphylaxie, L3-Evidenz) können getrennt, niedrigere Priorität, weitere Verfolgung rechtfertigen, während „Rienhoff-Syndrom" (L5, null Evidenz) als wahrscheinliches Wissens-Graphen-Rauschen behandelt werden sollte, bis zur manuellen Überprüfung ausstehend
+**Für das weitere Vorgehen sind erforderlich:**
+- Auswertung der Fachinformation (Warnhinweise und Gegenanzeigen) des BfArM, da diese Sicherheitsdaten fehlen
+- Detaillierte Daten zum Wirkmechanismus aus DrugBank
+- Regulatorische Klärung der inhalativen Formulierungen in Deutschland (Zulassung erloschen)
+- Sicherheitsüberwachungsplan für Patienten mit Herz-Kreislauf-Erkrankungen und Begleitmedikation mit hohem Wechselwirkungsrisiko
 
+**Weitere vorhergesagte Indikationen (Kurzbewertung):**
+- *Nahrungsabhängige belastungsinduzierte Anaphylaxie* (Score 99,57 %): Evidenzgrad L4; Erweiterung der bestehenden Indikation, keine registrierten Studien, nur Übersichtsarbeiten. Einstufung: Forschungsfrage.
+- *Respiratorische Fehlbildung* (Score 99,56 %): Evidenzgrad L3; nur eine Phase-1-Studie zur transitorischen Tachypnoe des Neugeborenen, schwache Übereinstimmung mit der Zielbezeichnung. Einstufung: Forschungsfrage.
+- *Rienhoff-Syndrom* (Score 99,57 %): Evidenzgrad L5; weder Studien noch Literatur, vermutlich ein Artefakt des Graphmodells. Einstufung: Hold.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Desloratadine
-parent: Nur Modellvorhersage (L5)
-nav_order: 121
-evidence_level: L5
+parent: Hohe Evidenz (L1-L2)
+nav_order: 142
+evidence_level: L1
 indication_count: 6
 ---
 
 # Desloratadine
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6** 
+Evidenzniveau: **L1** | Vorhergesagte Indikationen: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,86 +29,106 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Desloratadin: Von allergischer Rhinitis/chronischer Urtikaria zur Kälteurtikaria
+# Desloratadin: Von allergischer Rhinitis und Urtikaria zu Kälteurtikaria
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Desloratadin ist ein Antihistaminikum der zweiten Generation (spezifische Angaben zur Originalindikation und zu Marktlizenzdaten für Deutschland sind in diesem Nachweispaket nicht verfügbar).
-> Das TxGNN-Modell prognostiziert, dass es bei **Kälteurtikaria** wirksam sein kann,
-> wobei derzeit **3 klinische Studien** und **7 Publikationen** diese Richtung unterstützen.
+Desloratadin ist ein Antihistaminikum der zweiten Generation und wurde ursprünglich zur Behandlung von allergischer Rhinitis (saisonal und ganzjährig) sowie Urtikaria zugelassen.
+Das TxGNN-Modell sagt voraus, dass es bei **Kälteurtikaria** wirksam sein könnte.
+Dafür liegen derzeit **2 klinische Studien** und **6 Publikationen** vor, darunter mehrere randomisierte kontrollierte Studien.
 
 ---
 
 ## Schnellübersicht
 
-| Element | Inhalt |
-|---------|--------|
-| Originalindikation | Im Nachweispaket nicht dokumentiert (keine Marktlizenzdaten für Deutschland verfügbar); Desloratadin wird allgemein als Antihistaminikum der zweiten Generation gegen allergische Rhinitis / chronische Urtikaria klassifiziert |
-| Prognostizierte neue Indikation | Kälteurtikaria |
-| TxGNN-Vorhersage-Score | 99.94% |
-| Evidenzebene | L1 (3 abgeschlossene Phase-4-RCTs + mehrere unterstützende RCT-Publikationen) |
-| Marktstatus in Deutschland | ✗ Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Zurückhalten |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Allergische Rhinitis (ganzjährig und saisonal), Urtikaria |
+| Vorhergesagte neue Indikation | Kälteurtikaria |
+| TxGNN-Vorhersagewert | 99,94 % |
+| Evidenzlevel | L1 |
+| Marktstatus in Deutschland | Nur erloschene Zulassungen (keine aktuell gültige Zulassung) |
+| Anzahl der Zulassungen | 8 (alle erloschen) |
+| Empfohlene Entscheidung | Proceed with Guardrails (Fortsetzung mit Schutzmaßnahmen) |
 
 ---
 
-## Warum ist diese Vorhersage vernünftig?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Wirkungsmechanismus-Daten in diesem Nachweispaket nicht verfügbar. Basierend auf bekannten Informationen ist Desloratadin ein nicht-sedierendes Antihistaminikum der zweiten Generation und H1-Rezeptor-Antagonist, das in der klinischen Praxis weit verbreitet für allergische Erkrankungen wie allergische Rhinitis und chronische idiopathische Urtikaria eingesetzt wird. Seine Wirksamkeit bei Histamin-vermittelten Haut- und Schleimhautreaktionen ist in der klinischen Praxis gut etabliert.
+Die Kälteurtikaria ist eine durch Mastzellen getriebene, histaminvermittelte Erkrankung. Desloratadin ist ein potenter, selektiver Inverse-Agonist am peripheren H1-Rezeptor und blockiert dadurch direkt die histaminvermittelte Quaddel- und Rötungsreaktion. Dies ist derselbe Mechanismus wie bei der bereits zugelassenen Anwendung bei Urtikaria.
 
-Kälteurtikaria ist ein physikalischer Subtyp der Urtikaria, bei dem die Kälteexposition Mastzell-Degranulation und Histamin-Freisetzung auslöst, wodurch Quaddeln entstehen, die mechanisch identisch mit anderen Histamin-getriebenen Urtikarien sind. Da Desloratadin bereits den H1-Rezeptor-Signalweg blockiert, der zentral für urtikariöse Reaktionen ist, ist seine mechanistische Erweiterung auf Kälteurtikaria biologisch plausibel und wird direkt dadurch widergespiegelt, dass mehrere prospektive, dosiseskalierungsorientierte Studien bereits speziell bei Patienten mit Kälteurtikaria durchgeführt wurden – einschließlich Studien mit Standard-(5 mg) vs. erhöhten (20 mg) Dosierungsschemen, konsistent mit internationalen Urtikarien-Behandlungsleitlinien, die eine Antihistaminikum-Dosiserhöhung für refraktäre Fälle empfehlen.
+Die ursprüngliche Indikation (Urtikaria und allergische Rhinitis) und die neue Indikation (Kälteurtikaria) beruhen auf demselben pathophysiologischen Prinzip, nämlich der Histaminfreisetzung. Zudem sehen Leitlinien für Patienten, die auf die Standarddosis unzureichend ansprechen, eine Dosiserhöhung von Antihistaminika der zweiten Generation vor. Diese wurde für Desloratadin bis zu 20 mg untersucht.
+
+Hinweis: Für diesen Bericht liegen keine detaillierten Daten zum Wirkmechanismus aus der Arzneimitteldatenbank vor. Die obige Mechanismusbeschreibung stützt sich auf die mechanistische Begründung der Vorhersage.
 
 ---
 
-## Evidenz aus klinischen Studien
+## Klinische Studienevidenz
 
-| Studiennummer | Phase | Status | Rekrutierung | Wichtigste Erkenntnisse |
+| Studiennummer | Phase | Status | Teilnehmer | Zentrale Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT01444196](https://clinicaltrials.gov/study/NCT01444196) | Phase 4 | Abgeschlossen | 30 | Dosiseskalationsstudie (5/10/20 mg) zur Bestimmung der ausreichenden Dosis zur Hemmung von Symptomen der erworbenen Kälteurtikaria |
-| [NCT00600847](https://clinicaltrials.gov/study/NCT00600847) | Phase 4 | Abgeschlossen | 33 | Doppelblind, placebokontrollierte Crossover-Studie zum Vergleich von 5 mg vs. 20 mg Desloratadin bei experimentell induzierter Kälteurtikaria (Thermographie/Volumetrie) |
-| [NCT01940393](https://clinicaltrials.gov/study/NCT01940393) | Phase 4 | Abgeschlossen | 150 | Bewertung der hemmenden Wirkung von 5 Antihistaminika (einschließlich Desloratadin) bei Urtikaria; pharmakokinet./pharmakodynamischer Vergleich |
+| [NCT01444196](https://clinicaltrials.gov/study/NCT01444196) | Phase 4 | Abgeschlossen | 30 | Multizentrische, doppelblinde Dosiseskalationsstudie (5 mg, 10 mg, 20 mg) zur Ermittlung der Dosis, die Symptome der erworbenen Kälteurtikaria ausreichend hemmt |
+| [NCT00600847](https://clinicaltrials.gov/study/NCT00600847) | Phase 4 | Abgeschlossen | 33 | Randomisierte, doppelblinde, placebokontrollierte Crossover-Studie: 5 mg vs. 20 mg Desloratadin bei experimentell ausgelösten Kälteurtikaria-Läsionen |
 
 ---
 
 ## Literaturevidenz
 
-| PMID | Jahr | Typ | Zeitschrift | Wichtigste Erkenntnisse |
+| PMID | Jahr | Typ | Journal | Zentrale Ergebnisse |
 |------|-----|------|------|---------|
-| [19201016](https://pubmed.ncbi.nlm.nih.gov/19201016/) | 2009 | RCT | J Allergy Clin Immunol | Randomisierte, placebokontrollierte Crossover-Studie: Hochdosis-Desloratadin verringerte das Quaddel-Volumen und verbesserte die Kälte-Provokationsschwelle vs. Standarddosis |
-| [22242678](https://pubmed.ncbi.nlm.nih.gov/22242678/) | 2012 | RCT | Br J Dermatol | Randomisierte kontrollierte Studie der Antihistaminikum-Dosiserhöhung mit kritischer Temperaturschwellen-Messung bei Kälteurtikaria |
-| [15516152](https://pubmed.ncbi.nlm.nih.gov/15516152/) | 2004 | Übersicht | Drugs | Übersicht der Ätiologie chronischer Urtikaria, Behandlung und aktuelle/zukünftige Antihistaminika-gestützte Behandlungsoptionen |
-| [19032340](https://pubmed.ncbi.nlm.nih.gov/19032340/) | 2008 | Übersicht | Allergy | Übersicht der Wirksamkeit von Antihistaminika der zweiten Generation bei allergischer Rhinitis und chronischer idiopathischer Urtikaria |
-| [14754651](https://pubmed.ncbi.nlm.nih.gov/14754651/) | 2004 | Klinische Studie | J Dermatolog Treat | Eis-Würfel-Provokationstest bei 12 Patienten mit Kälteurtikaria vor/nach 4-tägiger Behandlung mit 5 mg Desloratadin zeigte Symptomhemmung |
-| [29698807](https://pubmed.ncbi.nlm.nih.gov/29698807/) | 2018 | Fallserie | J Allergy Clin Immunol Pract | Beschreibung von lebensmittelabhängiger Kälteurtikaria als Variante der physikalischen Urtikaria |
-| [38025339](https://pubmed.ncbi.nlm.nih.gov/38025339/) | 2023 | Fallbericht | Qatar Med J | Erster berichteter Fall von kälteinduzierter Urtikaria nach durch schwarze Ameisen verursachter Anaphylaxie |
+| [19201016](https://pubmed.ncbi.nlm.nih.gov/19201016/) | 2009 | RCT | J Allergy Clin Immunol | Hochdosiertes Desloratadin verringert das Quaddelvolumen und verbessert die Kälteprovokationsschwellen im Vergleich zur Standarddosis (randomisiert, placebokontrolliert, Crossover) |
+| [22242678](https://pubmed.ncbi.nlm.nih.gov/22242678/) | 2012 | RCT | Br J Dermatol | Messung der kritischen Temperaturschwelle bei Kälteurtikaria unter H1-Antihistaminika-Dosiseskalation |
+| [14754651](https://pubmed.ncbi.nlm.nih.gov/14754651/) | 2004 | RCT | J Dermatolog Treat | 5 mg Desloratadin über 4 Tage hemmte die Reaktion auf Eiswürfeltests bei 12 Patienten mit Kälteurtikaria |
+| [15516152](https://pubmed.ncbi.nlm.nih.gov/15516152/) | 2004 | Review | Drugs | Übersicht zu Ätiologie, Management und Therapieoptionen der chronischen Urtikaria |
+| [38025339](https://pubmed.ncbi.nlm.nih.gov/38025339/) | 2023 | Fallbericht | Qatar Med J | Kälteinduzierte Urtikaria nach Anaphylaxie durch einen Ameisenbiss |
 
 ---
 
-## Marktinformation für Deutschland
+## Marktinformationen Deutschland
 
-Desloratadin ist nach diesem Nachweispaket derzeit **nicht vermarktet** in Deutschland und es sind keine Zulassungsunterlagen verfügbar.
+Alle acht Zulassungen sind erloschen. Es handelt sich um zentrale EU-Zulassungen (EMEA).
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000313 | Aerius | – | Allergische Rhinitis (ganzjährig, saisonal), Urtikaria |
+| EMEA/H/C/000314 | Neoclarityn | – | Allergische Rhinitis (ganzjährig, saisonal), Urtikaria |
+| EMEA/H/C/000310 | Azomyr | – | Allergische Rhinitis (ganzjährig, saisonal), Urtikaria |
+| EMEA/H/C/002310 | Dasselta | – | Allergische Rhinitis (ganzjährig, saisonal), Urtikaria |
+| EMEA/H/C/002419 | Desloratadine Teva | – | Allergische Rhinitis (ganzjährig, saisonal) |
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte konsultieren Sie die Packungsbeilage für Sicherheitsinformationen.
+**Kontraindikationen aus dem Wissensgraphen (nicht aus dem Beipackzettel):** Im TxGNN-Wissensgraphen (PrimeKG) sind für Desloratadin Kontraindikationskanten zu folgenden Erkrankungen hinterlegt:
+- Herz-Kreislauf: Bluthochdruck, koronare Herzkrankheit, Koronar-/Arteriosklerose, Atherosklerose
+- Stoffwechsel/Endokrinologie: Diabetes mellitus, diabetische Ketoazidose, Hyperthyreose, Morbus Basedow, Thyreotoxikose
+- Organe: Nierenerkrankung, Lebererkrankung, Gallenblasenerkrankung, Pyoureter
+- Sonstige: benigne Prostatahyperplasie, Engwinkelglaukom
+
+Diese Angaben stammen aus Graphdaten und nicht aus dem Produkttext. Sie sind daher nur als Hinweis zu verstehen und müssen anhand der Fachinformation überprüft werden.
+
+**Arzneimittelwechselwirkungen:** Die Abfrage ergab 100 Wechselwirkungen, die Einstufung des Schweregrads ist jedoch jeweils „unbekannt“. Beispiele: Cimetidin, Omeprazol, Pantoprazol, Metformin, Simvastatin, Morphin, Prednison, Epinephrin, Doxycyclin.
+
+Für Warnhinweise und Kontraindikationen laut Produktinformation siehe bitte die Fachinformation.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Zurückhalten**
+**Entscheidung: Proceed with Guardrails**
 
 **Begründung:**
-Die prognostizierte Indikation wird durch starke klinische und Literaturbeweise unterstützt (3 abgeschlossene Phase-4-RCTs und mehrere RCT-Publikationen speziell bei Kälteurtikaria), aber die **blockierende** Datenlücke bei TFDA-äquivalenten Warnhinweisen/Kontraindikationen des Etiketts (DG001) verhindert den Abschluss der erforderlichen S1-Sicherheits-Vorbewertung, und das Arzneimittel hat derzeit keine Marktzulassung in Deutschland.
+Für Kälteurtikaria liegen mehrere randomisierte, kontrollierte Untersuchungen und zwei abgeschlossene Phase-4-Studien vor, die Desloratadin einschließlich Dosiserhöhung direkt untersuchen. Die Studien sind jedoch klein (n = 30–33), und derzeit besteht in Deutschland keine gültige Zulassung. Da die Anwendung bei Urtikaria bereits zugelassen war, ist der Schritt mechanistisch klein.
 
-**Für den Fortschritt ist Folgendes erforderlich:**
-- Amtliche Produktkennzeichnung / Packungsbeilage-Warnhinweise und Kontraindikationen (DG001 – Blockierend)
-- Bestätigte Wirkungsmechanismus-(MOA)-Daten über DrugBank API (DG002 – Hoch)
-- Klarstellung des Zulassungs- und Markteintrittsstatus in Deutschland sowie des damit verbundenen Verfahrenswegs, angesichts von 0 aktuellen Zulassungen
+**Für das weitere Vorgehen ist erforderlich:**
+- Fachinformation (Warnhinweise, Kontraindikationen) beschaffen und auswerten, da dies für die Sicherheitsprüfung derzeit eine blockierende Datenlücke ist
+- Detaillierte Mechanismusdaten aus der Arzneimitteldatenbank ergänzen
+- Klärung des Zulassungs- und Vertriebsstatus (alle Zulassungen erloschen) sowie ggf. Prüfung der Off-Label-Anwendung bei Dosiserhöhung
+- Sicherheitsbewertung höherer Dosen (bis 20 mg) und Abgleich der Wissensgraph-Kontraindikationen mit der Fachinformation
+- Größere Studien zur Bestätigung von Wirksamkeit und Dosis
 
+**Weitere vorhergesagte Indikationen (nur Modellvorhersage, jeweils Hold):** Nasenhöhlenerkrankung (die Evidenz beschränkt sich auf Tiermodelle; die Vorhersage spiegelt weitgehend die bestehende Indikation allergische Rhinitis wider), akute Laryngopharyngitis, therapieresistente atopische Dermatitis, atopische IgE-Reaktivität und Rosazea-Konjunktivitis. Für diese liegen keine klinischen Studien vor, und die mechanistische Begründung ist schwach bis spekulativ.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

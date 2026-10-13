@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Micafungin
-parent: Nur Modellvorhersage (L5)
-nav_order: 255
-evidence_level: L5
+parent: Mittlere Evidenz (L3-L4)
+nav_order: 299
+evidence_level: L3
 indication_count: 1
 ---
 
 # Micafungin
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1** 
+Evidenzniveau: **L3** | Vorhergesagte Indikationen: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,68 +29,82 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Micafungin: Von invasiven Pilzinfektionen zur Harnwegsinfektion (Kandidurie)
+# Micafungin: Von Candidiasis zu Harnwegsinfektion
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Micafungin ist ein etabliertes Echinocandin-Antifungikum für die Behandlung invasiver Candidiasis und Aspergillose. Das TxGNN-Modell prognostiziert, dass es auch wirksam sein könnte für **Candida-Harnwegsinfektionen (Kandidurie)**, eine Richtung, die derzeit durch **13 Fallberichte/Fallserien** in der Literatur gestützt wird, aber **keine registrierten klinischen Studien** aufweist.
+Micafungin ist ein Antimykotikum aus der Klasse der Echinocandine und wurde ursprünglich zur Behandlung der Candidiasis zugelassen.
+Das TxGNN-Modell sagt voraus, dass es bei **Harnwegsinfektionen (Urinary tract infection)** wirksam sein könnte.
+Dafür liegen derzeit **keine registrierten klinischen Studien**, aber **12 Publikationen** vor, überwiegend Fallberichte und kleine Kohortenstudien.
 
 ---
 
 ## Schnellübersicht
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Nicht im Datenpaket verfügbar (Arzneimittel nicht in Deutschland vermarktet; keine Zulassungsdaten) |
-| Prognostizierte neue Indikation | Harnwegsinfektion (Kandidurie) |
-| TxGNN-Vorhersage-Score | 99,03 % |
-| Evidenzgrad | L3 (überwiegend Fallberichte/Fallserien; eine multizentrische retrospektive Studie; keine RCTs) |
-| Status auf dem deutschen Markt | Nicht vermarktet (Not marketed) |
-| Anzahl der Zulassungen | 0 |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Candidiasis |
+| Vorhergesagte neue Indikation | Harnwegsinfektion (urinary tract infection) |
+| TxGNN-Vorhersagewert | 99,03 % |
+| Evidenzstufe | L3 |
+| Marktstatus in Deutschland | Nur erloschene Zulassung (keine gültige Zulassung) |
+| Anzahl der Zulassungen | 1 (erloschen) |
 | Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage sinnvoll?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Daten zum Wirkmechanismus im Datenpaket nicht verfügbar. Basierend auf allgemeinem pharmakologischem Wissen gehört Micafungin zur **Echinocandin-Klasse** von Antifungika, die durch Hemmung der β-1,3-D-Glucan-Synthase wirken, einem Schlüsselenzym der Pilzzellwandsynthese. Dieser Wirkmechanismus verleiht Echinocandinen potente Aktivität gegen *Candida*-Arten, einschließlich fluconazolresistenter Stämme wie *C. krusei* und *C. glabrata*.
+Micafungin ist ein Echinocandin. Es hemmt die 1,3-β-D-Glucan-Synthase und stört dadurch den Aufbau der Pilzzellwand. Für die im Datensatz fehlenden Mechanismusangaben stützt sich diese Beschreibung auf allgemeines pharmakologisches Wissen und nicht auf die vorliegenden Daten.
 
-Micafungine wird etabliert eingesetzt bei invasiver Candidiasis, ösophagealer Candidiasis und antimykotischer Prophylaxe bei Hochrisikopatienten (z. B. HSCT-Empfänger). Kandidurie und Candida-Harnwegsinfektionen werden durch dieselbe Pathoginklasse verursacht, sodass die mechanistische Begründung für eine Ausdehnung auf die Harnwege kohärent ist. Historisch wurden Echinocandine für Harnwegsinfektionen als suboptimal angesehen, da sie gering renal ausgeschieden werden; die im Folgenden zusammengefasste Literatur deutet jedoch darauf hin, dass in der Praxis die mit Micafungin erreichten Urinkonzentrationen – besonders bei höheren Dosen – ausreichen können, um Kandidurie zu eradizieren, insbesondere bei Patienten mit azolresistenten oder schwer zu behandelnden *Candida*-Arten.
+Die Candida-Harnwegsinfektion (Candidurie) ist eine Pilzinfektion, sodass der Wirkmechanismus plausibel übertragbar ist. Die ursprüngliche Indikation Candidiasis betrifft dieselbe Erregerklasse. Es handelt sich daher eher um eine Erweiterung innerhalb derselben Krankheitsfamilie als um ein echtes Repurposing.
+
+Eine pharmakokinetische Einschränkung ist zu beachten: Echinocandine gelten wegen geringer renaler Ausscheidung der aktiven Substanz üblicherweise als wenig geeignet für Harnwegsinfektionen. Eine Studie (PMID 27424599) berichtet jedoch ausreichende Micafungin-Konzentrationen im Urin. Dies widerspricht der herkömmlichen Auffassung und muss bestätigt werden.
 
 ---
 
-## Klinische Studienevidenz
+## Evidenz aus klinischen Studien
 
 Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Literaturübersicht
+## Evidenz aus der Literatur
 
-| PMID | Jahr | Typ | Journal | Wichtigste Befunde |
-|------|-----|------|--------|---------|
-| [29109159](https://pubmed.ncbi.nlm.nih.gov/29109159/) | 2018 | Retrospektive Kohorte | Antimicrob Agents Chemother | Multizentrische Studie zur Charakterisierung von Kandidurie-Managementmustern, einschließlich Antimykotika-Übergebrauch bei asymptomatischen Fällen, bei hospitalisierten Patienten |
-| [27587066](https://pubmed.ncbi.nlm.nih.gov/27587066/) | 2016 | Fallserie | Int Urol Nephrol | Überprüfung der Eliminationsraten von Kandidurie bei mit Micafungin behandelten hospitalisierten Patienten |
-| [27424599](https://pubmed.ncbi.nlm.nih.gov/27424599/) | 2016 | Fallserie (6 Fälle) | Int J Antimicrob Agents | Urinkonzentrationen von Micafungin ausreichend zur Behandlung von Harnwegsinfektionen von fluconazolresistenten und hepatisch beeinträchtigten Patienten; unterstützt TDM-gesteuerte Dosierung |
-| [26937340](https://pubmed.ncbi.nlm.nih.gov/26937340/) | 2016 | Fallserie (5 Fälle) | Med Mycol Case Rep | Alle Patienten, die parenteral Micafungin ≥6 Tage erhielten, hatten eine Auflösung der Kandidurie innerhalb von 30 Tagen |
-| [35146837](https://pubmed.ncbi.nlm.nih.gov/35146837/) | 2022 | Fallserie (pädiatrisch) | Pediatr Int | Berichtete Behandlungserfolgsquoten von Micafungin bei nosokomialen Candida-Harnwegsinfektionen bei kritisch kranken PICU-Patienten |
-| [31111613](https://pubmed.ncbi.nlm.nih.gov/31111613/) | 2019 | Fallbericht | Transplant Infect Dis | Micafungin in erhöhter Dosis eradizierte erfolgreich chronische *C. krusei*-Harnwegsinfektion bei einem Leber-/Nieren-Transplantations-Empfänger |
-| [38827222](https://pubmed.ncbi.nlm.nih.gov/38827222/) | 2024 | Fallbericht | Front Pediatr | Micafungin wurde zur Behandlung von katheterbedingter *C. glabrata*-Harnwegsinfektion bei einem Frühgeborenen eingesetzt |
-| [40765059](https://pubmed.ncbi.nlm.nih.gov/40765059/) | 2025 | Fallbericht | J Pharm Health Care Sci | *C. glabrata*-Pyelonephritis und Bakteriämie bei einem SGLT2-Hemmer-Patienten erfolgreich mit Micafungin behandelt |
-| [33520520](https://pubmed.ncbi.nlm.nih.gov/33520520/) | 2020 | Fallbericht | Cureus | *Candida auris*-Harnwegsinfektion bei einem Patienten in einem Pflegeheim mit Mehrerkrankungen, unterstreicht die Relevanz aufstrebender multiresistenter Krankheitserreger |
-| [38681664](https://pubmed.ncbi.nlm.nih.gov/38681664/) | 2024 | Fallbericht | Med Mycol Case Rep | Unilateraler Nierenpilzball verursacht durch *C. glabrata*, bestätigte Empfindlichkeit gegenüber Micafungin, managiert mit Antimykotika-Therapie und endoskopischer Extraktion |
+| PMID | Jahr | Typ | Journal | Zentrale Ergebnisse |
+|------|-----|------|------|---------|
+| [35146837](https://pubmed.ncbi.nlm.nih.gov/35146837/) | 2022 | Kohorte | Pediatr Int | Behandlungserfolg von Micafungin bei nosokomialen Candida-Harnwegsinfektionen kritisch kranker Kinder auf der pädiatrischen Intensivstation |
+| [27587066](https://pubmed.ncbi.nlm.nih.gov/27587066/) | 2016 | Kohorte | Int Urol Nephrol | Eliminationsraten der Candidurie bei hospitalisierten Patienten unter Micafungin |
+| [27424599](https://pubmed.ncbi.nlm.nih.gov/27424599/) | 2016 | Pharmakokinetische Studie | Int J Antimicrob Agents | Sechs erfolgreich behandelte Harnwegsinfektionen; Urinkonzentrationen von Micafungin ausreichend |
+| [26937340](https://pubmed.ncbi.nlm.nih.gov/26937340/) | 2016 | Fallserie | Med Mycol Case Rep | Fünf Fälle von Candidurie; Auflösung des Pilznachweises innerhalb von 30 Tagen nach Therapieende |
+| [31111613](https://pubmed.ncbi.nlm.nih.gov/31111613/) | 2019 | Fallbericht | Transpl Infect Dis | Erfolgreiche Eradikation einer chronischen C.-krusei-Harnwegsinfektion mit erhöhter Micafungin-Dosis bei Leber-/Nierentransplantierter |
+| [38827222](https://pubmed.ncbi.nlm.nih.gov/38827222/) | 2024 | Fallbericht | Front Pediatr | C.-glabrata-Harnwegsinfektion bei einem Frühgeborenen mit Micafungin behandelt |
+| [38681664](https://pubmed.ncbi.nlm.nih.gov/38681664/) | 2024 | Fallbericht | Med Mycol Case Rep | Einseitiger renaler Pilzball durch C. glabrata, behandelt mit Antimykotikum, endoskopischer Extraktion und Ureterstent |
+| [40765059](https://pubmed.ncbi.nlm.nih.gov/40765059/) | 2025 | Fallbericht | J Pharm Health Care Sci | Pyelonephritis und Bakteriämie durch C. glabrata unter SGLT2-Hemmer, erfolgreich mit Micafungin behandelt |
+| [29109159](https://pubmed.ncbi.nlm.nih.gov/29109159/) | 2018 | Kohorte | Antimicrob Agents Chemother | Übertherapie der asymptomatischen Candidurie bei hospitalisierten Patienten; Leitlinien empfehlen hier keine Antimykotika |
+| [33520520](https://pubmed.ncbi.nlm.nih.gov/33520520/) | 2020 | Fallbericht | Cureus | Candida-auris-Harnwegsinfektion bei einem Pflegeheimpatienten mit Multimorbidität |
 
 ---
 
-## Informationen zum deutschen Markt
+## Marktinformationen Deutschland
 
-Micafungin wird derzeit in Deutschland nicht vermarktet, und es sind keine Arzneimittelzulassungsunterlagen im Datenpaket verfügbar.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000734 | Mycamine | – | Candidiasis (Status: erloschen) |
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte konsultieren Sie die Packungsbeilage für Sicherheitsinformationen.
+- **Kontraindikationen laut Wissensgraph** (aus Arzneimittel-Krankheits-Beziehungen des TxGNN-Wissensgraphen, nicht aus dem Beipackzettel): Nierenerkrankung, Pyoureter
+- **Arzneimittelwechselwirkungen** (5 Einträge, jeweils Schweregrad mäßig):
+  - Amphotericin B
+  - Nitisinon
+  - Everolimus
+  - Ribociclib
+  - Sirolimus
+
+Für Warnhinweise und Gegenanzeigen der Fachinformation liegen keine Daten vor; bitte die Fachinformation heranziehen. Die Nierenerkrankung als Kontraindikation im Wissensgraphen ist für die Zielindikation besonders relevant.
 
 ---
 
@@ -99,14 +113,15 @@ Bitte konsultieren Sie die Packungsbeilage für Sicherheitsinformationen.
 **Entscheidung: Hold**
 
 **Begründung:**
-Die Evidenz für Kandidurie ist derzeit auf Fallberichte, kleine Fallserien und eine retrospektive multizentrische Studie beschränkt – es gibt keine registrierten klinischen Studien oder RCTs. Zusammen mit einer **kritischen Datenlücke** bei TFDA/Fachinformations-Sicherheitswarnungen und Kontraindikationen sowie dem nicht vermarkteten Status des Arzneistoffs in Deutschland ist die Evidenzbasis noch nicht ausreichend, um über eine explorative Überwachung hinauszugehen.
+Die Evidenz besteht fast ausschließlich aus Fallberichten, Fallserien und kleinen Kohortenstudien (Stufe L3); es gibt keine registrierten klinischen Studien. Die pharmakokinetische Eignung bei Harnwegsinfektionen ist umstritten, und in Deutschland besteht keine gültige Zulassung. Zudem fehlen die Sicherheitsdaten aus der Fachinformation, sodass die Sicherheitsprüfung nicht abgeschlossen werden kann.
 
-**Um voranzugehen, wird Folgendes benötigt:**
-- TFDA/deutsche Fachinformations-Sicherheitswarnungen und Kontraindikationen (derzeit eine kritische Datenlücke)
-- Bestätigte Wirkmechanismus-Daten von DrugBank
-- Prospektive oder vergleichende klinische Daten zu Micafungin-Dosierung/Urinpharmakokinetik für Kandidurie, angesichts historischer Bedenken hinsichtlich niedriger renaler Ausscheidung
-- Bewertung des Regulierungswegs, da das Arzneimittel derzeit in Deutschland nicht vermarktet ist
-
+**Für das weitere Vorgehen sind erforderlich:**
+- Warnhinweise und Gegenanzeigen aus der Fachinformation (BfArM bzw. EMA) beschaffen und auswerten
+- Daten zum Wirkmechanismus aus DrugBank ergänzen
+- Pharmakokinetik von Micafungin im Urin prüfen und die Befunde aus PMID 27424599 bestätigen
+- Kontrollierte Studien oder systematische Auswertungen zur Wirksamkeit bei Candida-Harnwegsinfektionen identifizieren bzw. planen
+- Klärung des Zulassungsstatus in Deutschland (aktuell nur erloschene Zulassung)
+- Bewertung der Nierenfunktion als Risikofaktor und Kontraindikation in der Zielpopulation
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

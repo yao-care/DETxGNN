@@ -2,7 +2,7 @@
 layout: default
 title: Bezlotoxumab
 parent: Nur Modellvorhersage (L5)
-nav_order: 53
+nav_order: 62
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,60 +29,81 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Bezlotoxumab: Von Anti-*C. difficile*-Toxin-B-Therapie zur akuten weiblichen Beckenperitonitis (Vorhersage mit niedriger Konfidenz)
+# Bezlotoxumab: Von pseudomembranöser Enterokolitis zu akuter weiblicher Beckenperitonitis
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Bezlotoxumab ist ein monoklonaler Antikörper, der *Clostridioides difficile*-Toxin B neutralisiert; in diesem Evidenzpaket sind keine zugelassene Indikation oder detaillierte Wirkmechanismus-Daten erfasst, und das Arzneimittel ist nicht in Taiwan auf dem Markt. Die Top-Vorhersage des TxGNN-Modells ist **akute weibliche Beckenperitonitis**, aber dieser Kandidat wird durch **0 klinische Studien** und **0 Publikationen** gestützt, und die eigene mechanistische Begründung des Modells besagt, dass keine bekannte biologische Verbindung zwischen dem Ziel des Arzneimittels und dieser Krankheit besteht.
+Bezlotoxumab ist ein monoklonaler Antikörper, der ursprünglich zur Behandlung der pseudomembranösen Enterokolitis (Clostridioides-difficile-Infektion) zugelassen wurde. Das TxGNN-Modell sagt voraus, dass er bei **akuter weiblicher Beckenperitonitis** wirksam sein könnte. Für diese Vorhersage liegen jedoch **keine klinischen Studien und keine Publikationen** vor; sie beruht ausschließlich auf einer Modellberechnung.
 
-## Schnellübersicht
+---
+
+## Kurzüberblick
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Nicht erfasst in diesem Evidenzpaket (Arzneimittel nicht in Taiwan auf dem Markt) |
+| Ursprüngliche Indikation | Pseudomembranöse Enterokolitis |
 | Vorhergesagte neue Indikation | Akute weibliche Beckenperitonitis |
-| TxGNN-Vorhersage-Score | 99.89% |
-| Nachweisstufe | L5 |
-| Marktstatus in Taiwan | ✗ Nicht auf dem Markt |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Halten |
+| TxGNN-Vorhersagewert | 99,89 % |
+| Evidenzgrad | L5 |
+| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
+| Anzahl der Zulassungen | 1 |
+| Empfohlene Entscheidung | Hold |
 
-## Warum ist diese Vorhersage angemessen?
+---
 
-Derzeit sind detaillierte Wirkmechanismus-Daten in diesem Evidenzpaket nicht verfügbar (original_moa ist eine erfasste Datenlücke). Basierend auf der eigenen Umnutzungsrationale des Modells ist Bezlotoxumab ein monoklonaler Antikörper gegen *C. difficile*-Toxin B, der zur Neutralisierung dieses spezifischen Bakteriengifts verwendet wird.
+## Warum ist diese Vorhersage (nicht) plausibel?
 
-Der Begründungstext zu dieser Vorhersage besagt explizit, dass es **keine bekannte mechanistische Verbindung** zwischen der Toxin-B-Neutralisierung und der akuten weiblichen Beckenperitonitis gibt, die typischerweise eine polymikrobielle/gemischte Bakterieninfektion ist, die nicht mit der *C. difficile*-Toxin-Pathologie verbunden ist. Dieses Muster wiederholt sich bei allen zehn top-bewerteten Kandidaten in diesem Evidenzpaket (Eileiterschwangerschaft, tubale/uterine Pathologie, Spinalkanalstenose, vaskuläre und lymphatische Erkrankungen) – keine davon weisen eine angegebene biologische Rationale auf, und alle sind intern als Embedding-Ähnlichkeits-Ausgaben ohne mechanistische Unterstützung gekennzeichnet.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Bezlotoxumab ein monoklonaler Antikörper ist, der das Toxin B von *Clostridioides difficile* neutralisiert. Seine Wirksamkeit ist daher auf toxinvermittelte Erkrankungen dieses Erregers ausgerichtet.
 
-Angesichts dessen sollte die Vorhersage als reines Modell-Ähnlichkeitssignal (L5) und nicht als mechanistisch begründete Umnutzungshypothese behandelt werden.
+Die akute weibliche Beckenperitonitis ist dagegen typischerweise eine polymikrobielle Infektion (z. B. durch Chlamydien, Neisserien und Anaerobier) und nicht durch Toxin B vermittelt. Ein plausibler biologischer Zusammenhang zwischen der ursprünglichen und der vorhergesagten Indikation ist somit nicht erkennbar. Der hohe Vorhersagewert ist vermutlich ein Artefakt der Nähe im Wissensgraphen und keine belastbare pharmakologische Begründung.
 
-## Belege aus klinischen Studien
+Auch die übrigen Top-10-Vorhersagen (u. a. embryonale Zyste des Eileiters, Tubargravidität, Salpingitis isthmica nodosa, Erkrankung des Ligamentum latum uteri, lumbale Spinalstenose, Bauchhöhlenschwangerschaft, Zöliakus-Kompressionssyndrom, abdominales zystisches Lymphangiom, Beckenvarizen) weisen keinen erkennbaren mechanistischen Bezug auf und sind ebenfalls rein rechnerisch.
 
-Derzeit sind keine relevanten klinischen Studien registriert
+---
 
-## Belege aus der Fachliteratur
+## Evidenz aus klinischen Studien
 
-Derzeit ist keine relevante Fachliteratur verfügbar
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
-## Taiwan-Marktinformation
+---
 
-Bezlotoxumab ist derzeit nicht in Taiwan auf dem Markt; es liegen keine Produktzulassungen vor.
+## Evidenz aus der Literatur
 
-## Sicherheitsüberlegungen
+Derzeit ist keine zugehörige Literatur verfügbar.
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+---
 
-## Schlussfolgerung und nächste Schritte
+## Informationen zum deutschen Markt
 
-**Entscheidung: Halten**
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/004136 | Zinplava | – | Pseudomembranöse Enterokolitis |
+
+Hinweis: Diese Zulassung ist erloschen bzw. widerrufen (Status: cancelled); gültige Zulassungen bestehen derzeit nicht.
+
+---
+
+## Sicherheitsaspekte
+
+Bitte die Fachinformation zu Sicherheitsangaben heranziehen.
+
+Hinweis: Für die Anwendung eines gegen ein bakterielles Toxin gerichteten Antikörpers in der Schwangerschaft (relevant für einige vorhergesagte Indikationen) lägen ungeklärte Sicherheitsfragen vor.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Hold**
 
 **Begründung:**
-Die höchstbewertete Vorhersage (und die neun nächstbesten Kandidaten) hat keine Unterstützung durch klinische Studien oder Fachliteratur (L5, nur Modellvorhersage), und die eigene mechanistische Begründung des Pakets besagt explizit, dass keine bekannte biologische Verbindung zwischen dem Ziel von Bezlotoxumab und der akuten weiblichen Beckenperitonitis besteht.
+Die Vorhersage beruht ausschließlich auf einem Modellwert (Evidenzgrad L5) ohne klinische Studien, Literatur oder plausiblen Wirkmechanismus. Zudem besteht in Deutschland keine gültige Zulassung des Präparats.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- TFDA-Packungsbeilage (Warnhinweise/Kontraindikationen) – derzeit eine **blockierende** Lücke, die den Eintritt in das S1-Sicherheits-Vor-Screening verhindert
-- Detaillierte Wirkmechanismus-Daten (MOA) von DrugBank zur ordnungsgemäßen Bewertung der mechanistischen Plausibilität
-- Unabhängige Fachliteratur oder präklinische Evidenz, welche die Aktivität von Anti-Toxin-B-Antikörpern spezifisch mit der Pathologie gynäkologischer/Beckeninfektionen verbindet, bevor dieser Kandidat die S0-Phase überschreiten kann
-
+**Für ein Weiterkommen sind folgende Punkte erforderlich:**
+- Detaillierte Daten zum Wirkmechanismus (MOA)
+- Sicherheitsrelevante Angaben aus der Fachinformation (Warnhinweise und Gegenanzeigen) zur Sicherheitsprüfung
+- Ein belastbarer biologischer Nachweis, dass Toxin-B-Neutralisation bei der vorhergesagten Erkrankung relevant ist
+- Präklinische oder klinische Studien, die die Vorhersage stützen
+- Klärung des Zulassungs- und Verfügbarkeitsstatus des Präparats in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

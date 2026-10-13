@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Alirocumab
-parent: Hohe Evidenz (L1-L2)
-nav_order: 23
-evidence_level: L1
+parent: Nur Modellvorhersage (L5)
+nav_order: 25
+evidence_level: L5
 indication_count: 10
 ---
 
 # Alirocumab
 {: .fs-9 }
 
-Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,95 +29,93 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Alirocumab: Von Hypercholesterinämie zur Cholesterin-Katabolismuskrankheit
+# Alirocumab: Von Dyslipidämien zu X-chromosomaler Ichthyose (ohne Steroidsulfatase-Mangel)
 
 ## Zusammenfassung in einem Satz
 
-> Alirocumab ist ein monoklonaler Antikörper mit PCSK9-Inhibition, der ursprünglich zur Behandlung der Hypercholesterinämie und Reduktion des Herz-Kreislauf-Risikos entwickelt wurde. Von 10 durch TxGNN vorhergesagten Indikationen, die für dieses Medikament untersucht wurden, sticht **Cholesterin-Katabolismuskrankheit** als einziger Kandidat mit aussagekräftiger Evidenz hervor — die anderen 9 Kandidaten (z. B. X-gebundene Ichthyose, getupfte Diaphysendysplasie, neutrale Lipidspeicherkrankheit) hatten keine mechanistische Plausibilität und keine klinische oder Literaturevidenz und werden zurückgestellt. Dieser Kandidat wird durch **1 abgeschlossene Phase-3-Studie** und **19 relevante Publikationen** unterstützt, von denen mehrere Daten aus Alirocumabs eigenen pivotalen Studien berichten.
+Alirocumab ist ein PCSK9-hemmender monoklonaler Antikörper, der ursprünglich zur Behandlung von Dyslipidämien zugelassen wurde.
+Das TxGNN-Modell sagt für den ersten Rang eine mögliche Wirksamkeit bei **X-chromosomaler Ichthyose (ohne Steroidsulfatase-Mangel)** voraus,
+jedoch gibt es dafür **0 klinische Studien** und **0 Publikationen**. Die Vorhersage ist rein modellbasiert.
 
 ---
 
-## Schnelle Übersicht
+## Schnellübersicht
 
-| Element | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Hypercholesterinämie / Reduktion des Risikos atheroskleroischer Herz-Kreislauf-Erkrankungen (ASCVD) *(allgemeine Indikation der Wirkstoffklasse; deutschsprachige Texte der Zulassung nicht verfügbar — siehe Marktinformation weiter unten)* |
-| Vorhergesagte neue Indikation | Cholesterin-Katabolismuskrankheit |
-| TxGNN-Vorhersagescore | 99.36% |
-| Evidenzlevel | L1 |
-| Marktstatus Deutschland | ✗ Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Mit Schutzmaßnahmen fortfahren |
-
-*Anmerkung: Dieser Kandidat wurde aus 10 durch TxGNN vorhergesagten Indikationen als einziger ausgewählt, der die Entscheidungsstufe S3 erreicht. Die verbleibenden 9 Kandidaten (alle L5, Entscheidungsstufe S0) hatten keine klinischen Studien, keine Literatur und keinen plausiblen mechanistischen Zusammenhang mit dem PCSK9/LDL-Weg — sie werden im Folgenden ausgeschlossen und zur Zurückstellung empfohlen.*
+| Ursprüngliche Indikation | Dyslipidämien |
+| Vorhergesagte neue Indikation | X-chromosomale Ichthyose ohne Steroidsulfatase-Mangel |
+| TxGNN-Vorhersagewert | 99,43 % |
+| Evidenzgrad | L5 |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
+| Anzahl der Zulassungen | 1 |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage vernünftig?
+## Warum ist diese Vorhersage (nicht) plausibel?
 
-Derzeit sind in diesem Evidenzpaket detaillierte Daten zum Wirkmechanismus nicht verfügbar (gekennzeichnet als eine Datenlücke mit hohem Schweregrad, die eine DrugBank-API-Abfrage erfordert). Basierend auf allgemeinen pharmakologischen Erkenntnissen ist Alirocumab jedoch ein humanisierter monoklonaler Antikörper, der PCSK9 (Proproteinkonvertase Subtilisin/Kexin Typ 9) inhibiert und verhindert, dass PCSK9 an hepatische LDL-Rezeptoren bindet und diese abbaut. Dies erhöht das Recycling und die Verfügbarkeit von LDL-Rezeptoren auf der Hepatozytoberfläche und verbessert dadurch die Clearance von zirkulierendem LDL-Cholesterin.
+Alirocumab bindet PCSK9 und erhöht dadurch das Recycling der LDL-Rezeptoren, sodass mehr LDL-Cholesterin aus dem Blut aufgenommen wird. Detaillierte Daten zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten derzeit nicht vor; die Angaben beruhen auf dem bekannten Target PCSK9.
 
-„Cholesterin-Katabolismuskrankheit" entspricht grob Störungen der Cholesterinclearance und des Metabolismus — einschließlich familiärer Hypercholesterinämie (FH) und ASCVD-bezogener Dyslipidämie — eine Krankheitskategorie, die mechanistisch identisch mit der etablierten Kernindikation von Alirocumab ist. Dies ist keine weit entfernte Umwidmungshypothese; sie liegt im Zentrum der PCSK9-Inhibitor-Pharmakologie.
+Die X-chromosomale Ichthyose ist eine Störung des Cholesterinsulfat- und Hautbarrierestoffwechsels, die üblicherweise durch einen Steroidsulfatase-Mangel verursacht wird. Eine klinisch plausible Verbindung zur PCSK9-Hemmung ist nicht erkennbar. Der hohe TxGNN-Wert ist eine reine Modellvorhersage ohne unterstützende Studien oder Literatur.
 
-Der mechanistische Zusammenhang ist stark, da der LDL-Rezeptor-Hochregulations-Weg, der von Alirocumab angestrebt wird, direkt den Cholesterin-Katabolismus/die Clearance regelt. Dies wird dadurch verstärkt, dass Alirocumab bereits umfangreiche, großflächige Ergebnisevidenz (ODYSSEY OUTCOMES, N=18,924, und seine mehrfachen Post-hoc-Analysen) in Populationen mit gestörter Cholesterinclearance hat — auch wenn dieser spezifische Studienregistereintrag in dieser Packung nicht separat aufgeführt ist, wird er in der unterstützenden Literatur wiederholt referenziert (PMIDs 38658193, 39913634) und ist die Grundlage für die Zuordnung des Evidenzlevels L1.
-
----
-
-## Klinische Studienevidenz
-
-| Studiennummer | Phase | Status | Einschreibung | Wesentliche Ergebnisse |
-|---------|------|------|------|---------|
-| [NCT03207945](https://clinicaltrials.gov/study/NCT03207945) | Phase 3 | Abgeschlossen | 118 | EPIC-HIV: bewertet PCSK9-Inhibition (Alirocumab-Klasse) für Herz-Kreislauf-Risiko in behandelter HIV-Infektion unter Verwendung nichtinvasiver bildgebender Verfahren zur Bewertung von Plaque und vaskulärer Entzündung, relevant für die Cholesterinclearance |
-
-*Zusätzliche unterstützende Phase-3-Evidenz: Die kardiovaskuläre Ergebnisstudi ODYSSEY OUTCOMES (Alirocumab, abgeschlossen, N=18,924) ist in dieser Packung nicht unabhängig registriert, wird aber durch ihre Post-hoc-Publikationen unten mehrfach referenziert.*
+Weitere Vorhersagen: Unter den zehn bestplatzierten Vorhersagen ist **Xanthomatose** (Rang 3) biologisch plausibel, da eine LDL-C-Senkung die Xanthom-Last sekundär verringern könnte. Die zwei gefundenen Fallberichte (Evidenzgrad L4) belegen jedoch nur Plausibilität, keine Wirksamkeit von Alirocumab. Dies ist im Kern eine Erweiterung der bestehenden Dyslipidämie-Indikation und keine echte Neuzuordnung. Ebenso ist die **Erkrankung des Cholesterinabbaus** (Rang 5, 19 Publikationen) hauptsächlich durch Übersichtsarbeiten und Sicherheitsanalysen gestützt, die sich mit der zugelassenen Indikation überschneiden und keine unabhängige Evidenz für eine neue Indikation darstellen.
 
 ---
 
-## Literaturevidenz
+## Evidenz aus klinischen Studien
 
-| PMID | Jahr | Typ | Journal | Wesentliche Ergebnisse |
+Derzeit sind keine zugehörigen klinischen Studien registriert.
+
+---
+
+## Evidenz aus der Literatur
+
+Für die erstplatzierte Vorhersage (X-chromosomale Ichthyose) ist derzeit keine zugehörige Literatur verfügbar.
+
+Zur Einordnung die relevantesten Publikationen zu den Vorhersagen mit Literatur:
+
+| PMID | Jahr | Typ | Zeitschrift | Kernaussagen |
 |------|-----|------|------|---------|
-| [38658193](https://pubmed.ncbi.nlm.nih.gov/38658193/) | 2024 | Post-hoc-RCT-Analyse | Eur Heart J Cardiovasc Pharmacother | 47,296 Patientenjahre Sicherheitsdaten von Alirocumab aus ODYSSEY OUTCOMES; bestätigt anhaltende LDL-C-Senkung und reduzierte ischämische Ereignisse mit akzeptablem Langzeit-Sicherheitsprofil |
-| [39913634](https://pubmed.ncbi.nlm.nih.gov/39913634/) | 2025 | Post-hoc-RCT-Analyse | Diabetes Care | ODYSSEY OUTCOMES Post-hoc-Analyse: Die Senkung von Lp(a) und LDL-C mit Alirocumab war nicht mit erhöhtem Risiko für neu auftretenden Diabetes verbunden |
-| [29526502](https://pubmed.ncbi.nlm.nih.gov/29526502/) | 2018 | Klinische Studie | Kidney International | Alirocumab behielt LDL-C-Senkungswirksamkeit und akzeptables Sicherheitsprofil in Patienten mit chronischer Nierenerkrankung und eingeschränkter Nierenfunktion |
-| [39947256](https://pubmed.ncbi.nlm.nih.gov/39947256/) | 2025 | Übersichtsarbeit | Pharmacology & Therapeutics | Übersicht über Alirocumab und Evolocumab (extrazellulär PCSK9-bindende mAbs) versus intrazellulär wirkende Wirkstoffe wie Inclisiran, wobei mechanismusbasierte Unterschiede relevant für Cholesterin-Katabolismuskrankheiten sind |
-| [38185721](https://pubmed.ncbi.nlm.nih.gov/38185721/) | 2024 | Übersichtsarbeit | Signal Transduction and Targeted Therapy | Umfassende Übersicht der PCSK9-Biologie und therapeutischen Anwendung, erweitert über kardiovaskuläre Erkrankung auf breitere Lipidstoffwechselstörungen |
-| [38277255](https://pubmed.ncbi.nlm.nih.gov/38277255/) | 2024 | Übersichtsarbeit | Current Opinion in Lipidology | Aktualisierung der PCSK9-gerichteten Therapien, die bestätigt, dass Antikörper-Inhibition (Alirocumab) LDL-Cholesterin und Herz-Kreislauf-Risiko erheblich senkt |
-| [39751968](https://pubmed.ncbi.nlm.nih.gov/39751968/) | 2025 | Übersichtsarbeit | Current Atherosclerosis Reports | Übersicht über neuartige LDL-C-senkende Pharmakotherapien, einschließlich PCSK9-Inhibitoren, für homozygote familiäre Hypercholesterinämie — eine Kerncholesterin-Katabolismuskrankheit |
-| [36422206](https://pubmed.ncbi.nlm.nih.gov/36422206/) | 2022 | Übersichtsarbeit | Medicina (Kaunas) | Literaturanalyse der Diagnostik und Behandlung familiärer Hypercholesterinämie, einschließlich PCSK9-gerichteter Therapie als Schlüsselverwaltungsweg |
-| [36739653](https://pubmed.ncbi.nlm.nih.gov/36739653/) | 2023 | Übersichtsarbeit | Kardiologia Polska | Übersicht über Evidenz für die Auswirkung von PCSK9-Inhibitoren auf Lipidparameter und Reduktion kardiovaskulärer Ereignisse |
-| [37686091](https://pubmed.ncbi.nlm.nih.gov/37686091/) | 2023 | Übersichtsarbeit | International Journal of Molecular Sciences | Breite Übersicht der Dyslipidämie-Behandlungsansätze, die PCSK9-Inhibition in aktuelle LDL-C-Senkungsstrategie einordnet |
-
-*9 zusätzliche Publikationen im Evidenzpaket (allgemeine PCSK9-Inhibitor-Übersichten und Sicherheitsliteratur) wurden oben nicht aufgenommen, um die Tabelle auf die 10 relevantesten Einträge zu beschränken.*
+| [38658193](https://pubmed.ncbi.nlm.nih.gov/38658193/) | 2024 | Gepoolte Sicherheitsanalyse | Eur Heart J Cardiovasc Pharmacother | Sicherheit von Alirocumab aus 47.296 Patientenjahren (ODYSSEY OUTCOMES) |
+| [40841123](https://pubmed.ncbi.nlm.nih.gov/40841123/) | 2025 | Metaanalyse (23 RCTs) | Open Heart | Wirksamkeit und Sicherheit PCSK9-gerichteter Therapien bei familiärer Hypercholesterinämie |
+| [38277255](https://pubmed.ncbi.nlm.nih.gov/38277255/) | 2024 | Review | Curr Opin Lipidol | Aktueller Stand PCSK9-gerichteter Therapien |
+| [38185721](https://pubmed.ncbi.nlm.nih.gov/38185721/) | 2024 | Review | Signal Transduct Target Ther | PCSK9 als Zielstruktur, vom Labor zur Anwendung |
+| [39679827](https://pubmed.ncbi.nlm.nih.gov/39679827/) | 2025 | Review | Pharmacotherapy | Aktuelle und neue PCSK9-Therapien zur Senkung von LDL-C und ASCVD-Risiko |
+| [38191052](https://pubmed.ncbi.nlm.nih.gov/38191052/) | 2024 | Präklinisch | Metabolism | PCSK9-Hemmung verhindert und mildert Cholesterin-Gallensteine |
+| [32713907](https://pubmed.ncbi.nlm.nih.gov/32713907/) | 2020 | Fallbericht | Intern Med | Sitosterolämie mit Sehnenxanthomen, behandelt mit Ezetimib und Alirocumab |
+| [31538826](https://pubmed.ncbi.nlm.nih.gov/31538826/) | 2019 | Fallbericht | J Investig Med High Impact Case Rep | Schwere kombinierte Dyslipidämie mit komplexer genetischer Grundlage |
 
 ---
 
-## Marktinformation Deutschland
+## Marktinformationen Deutschland
 
-Alirocumab ist derzeit nicht auf dem deutschen Markt erhältlich — das Evidenzpaket listet 0 aktive Zulassungen und keine Lizenzeinträge zum Zusammenfassen auf.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/003882 | Praluent | – | Dyslipidämien (Zulassung erloschen) |
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Fachinformation für Sicherheitsinformationen. *(In diesem Evidenzpaket sind derzeit keine Schlüsselwarnungen, Gegenanzeigen oder Wechselwirkungsdaten verfügbar; DG001 — TFDA/BfArM-Fachinformation Warnungen und Gegenanzeigen — ist als Blocking-Datenlücke gekennzeichnet, die vor einer Sicherheitsbewertung gelöst werden muss.)*
+**Arzneimittelwechselwirkungen:** Für Alirocumab wurde lediglich die pharmakologische Zielstruktur PCSK9 (Antikörper-Bindung) verzeichnet; klinisch relevante Wechselwirkungen mit anderen Wirkstoffen sind in den Daten nicht aufgeführt.
+
+Zu Warnhinweisen und Gegenanzeigen liegen keine Daten vor. Bitte die Fachinformation zu Rate ziehen. Hinweis: Die Sicherheitsprüfung kann ohne die Packungsbeilage des BfArM nicht abgeschlossen werden.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Mit Schutzmaßnahmen fortfahren**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die vorhergesagte Indikation „Cholesterin-Katabolismuskrankheit" ist mechanistisch gut auf Alirocumabs etablierten PCSK9-Inhibition/LDL-Rezeptor-Weg abgestimmt und wird durch eine abgeschlossene Phase-3-Studie plus konsistente Literatur unterstützt — einschließlich Post-hoc-Daten aus Alirocumabs eigener großer Ergebnisstudi (ODYSSEY OUTCOMES). Jedoch ist die Krankheitsbezeichnung selbst breit und nicht standardisiert (keine präzise klinische Diagnose), und dieses Medikament ist noch nicht auf dem deutschen Markt erhältlich, daher ist ein vorsichtiger, evidenzsammelnder Weg angemessen statt einer bedingungslosen Freigabe. Die 9 anderen durch TxGNN vorhergesagten Kandidaten für dieses Medikament haben keine klinische oder mechanistische Unterstützung und sollten zurückgestellt bleiben.
+Die erstplatzierte Vorhersage beruht ausschließlich auf dem Modell (Evidenzgrad L5), ohne Studien, Literatur oder plausiblen Mechanismus. Auch die übrigen Top-10-Vorhersagen sind überwiegend rein modellbasiert; Xanthomatose und Cholesterinstoffwechselstörungen sind plausibel, aber im Wesentlichen eine Erweiterung der bestehenden Dyslipidämie-Indikation (als Forschungsfrage einzustufen).
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- DG001 (Blocking) auflösen: TFDA/BfArM-Fachinformation Warnungen, Vorsichtsmaßnahmen und Gegenanzeigen vor einer Sicherheitsvorbewertung (S1) erhalten
-- DG002 (High) auflösen: detaillierten Wirkmechanismus über DrugBank-API bestätigen, um die mechanistische Begründung zu stärken
-- Die präzise klinische/ICD-Zuordnung von „Cholesterin-Katabolismuskrankheit" gegen anerkannte diagnostische Kategorien (z. B. FH, ASCVD-Dyslipidämie) klären, um einen verwirklichbaren Indikationsumfang zu definieren
-- Bewerten, ob die ODYSSEY OUTCOMES-Studiendaten (in dieser Packung nur durch Literatur referenziert) formal als zweite abgeschlossene Phase-3-Studie in der Evidenzregistrierung eingebunden werden können
-- Bewertung des Marktzugangsweges Deutschland/EU angesichts des derzeitigen Status „nicht vermarktet"
-
+**Für ein Weiterkommen erforderlich:**
+- Fachinformation des BfArM mit Warnhinweisen und Gegenanzeigen (derzeit blockierende Datenlücke)
+- Daten zum Wirkmechanismus (z. B. über DrugBank)
+- Klärung des Marktstatus, da die deutsche Zulassung nur als erloschen geführt wird
+- Bei Interesse an Xanthomatose: gezielte Studien zur Wirkung von Alirocumab auf die Xanthom-Last
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

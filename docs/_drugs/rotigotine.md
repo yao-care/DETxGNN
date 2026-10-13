@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Rotigotine
-parent: Mittlere Evidenz (L3-L4)
-nav_order: 354
-evidence_level: L4
+parent: Nur Modellvorhersage (L5)
+nav_order: 413
+evidence_level: L5
 indication_count: 10
 ---
 
 # Rotigotine
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,77 +29,90 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Rotigotine: Von Morbus Parkinson/Restless-Legs-Syndrom zu Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung
+# Rotigotin: Von Restless-Legs-Syndrom und Parkinson-Krankheit zu Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung (ADHS)
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Rotigotine ist ein Dopamin-D1/D2/D3-Rezeptor-Agonist, der für **Morbus Parkinson** und **Restless-Legs-Syndrom (RLS)** etabliert ist.
-> Das TxGNN-Modell prognostiziert, dass es möglicherweise wirksam gegen **Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung (ADHS)** ist,
-> doch derzeit unterstützen **keine klinischen Studien** und nur **3 indirekte Publikationen** diese spezifische Richtung.
+Rotigotin ist ein Dopaminagonist, der ursprünglich zur Behandlung des Restless-Legs-Syndroms und der Parkinson-Krankheit zugelassen wurde.
+Das TxGNN-Modell sagt voraus, dass er bei **ADHS** wirksam sein könnte.
+Hierfür liegen derzeit **keine klinischen Studien** und **3 Publikationen** (2 Übersichtsarbeiten zum Restless-Legs-Syndrom, 1 präklinische Arbeit) vor, die nur indirekt auf diese Richtung hindeuten. Es existiert keine Studie, die Rotigotin bei ADHS untersucht.
 
 ---
 
-## Schnellübersicht
+## Kurzüberblick
 
 | Punkt | Inhalt |
-|------|--------|
-| Original-Indikation | Morbus Parkinson / Restless-Legs-Syndrom (vgl. PMID 37221270; nicht aus Taiwan/Deutschland-Lizenzdaten ableitbar, die leer sind) |
+|------|------|
+| Ursprüngliche Indikation | Restless-Legs-Syndrom; Parkinson-Krankheit |
 | Vorhergesagte neue Indikation | Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung (ADHS) |
-| TxGNN-Vorhersagepunktzahl | 99.99% |
-| Evidenzstufe | L4 |
-| Status auf dem deutschen Markt | Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Abwarten |
+| TxGNN-Vorhersagewert | 99,997 % |
+| Evidenzgrad | L4 (nur präklinische/mechanistische und indirekte Literatur) |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
+| Anzahl der Zulassungen | 1 (aufgehoben) |
+| Empfohlene Entscheidung | Hold (Forschungsfrage) |
 
 ---
 
-## Warum ist diese Vorhersage sinnvoll?
+## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Daten zum Wirkungsmechanismus aus DrugBank sind derzeit eine **[Hochschwere Datenlücke]** und standen für diese Bewertung nicht zur Verfügung (DG002). Basierend auf den Literaturunterlagen ist Rotigotine bekannt als ein nicht-ergot **D1/D2/D3-Dopamin-Rezeptor-Vollagonist**, klinisch angewendet bei Morbus Parkinson und RLS (PMID 37221270).
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Aus der ausgewerteten Literatur ergibt sich, dass Rotigotin ein Dopaminagonist mit breitem Rezeptorprofil ist: Er wirkt an den Dopaminrezeptoren D1 bis D5 (mit der höchsten Affinität zu D3) sowie zusätzlich an 5-HT1A- und Alpha-2B-Rezeptoren.
 
-Der mechanistische Bezug zu ADHS ist indirekt. Die Pathophysiologie von ADHS beinhaltet zwar eine dopaminerge Dysregulation, aber die Standard-Care-Medikamente (Methylphenidat, Amphetamin) wirken durch **Erhöhung der synaptischen Dopamin-/Norepinephrin-Konzentrationen**, nicht durch direkten Rezeptoragonismus. Die für diesen Kandidaten recherchierte Literatur befasst sich nicht direkt mit ADHS — ein Artikel behandelt RLS (eine Erkrankung mit bekannter ADHS-Komorbidität), und ein anderer befasst sich mit grundlegender Rezeptor-Pharmakologie der D4-Rezeptor-Heteromerisierung, die in der ADHS-Genetik impliziert ist, aber keine Rotigotine-Wirksamkeitsstudie ist.
+ADHS ist mit einer Dysregulation des dopaminergen und noradrenergen Systems verbunden. Eine Arbeit zu Heteromeren aus α2A-Adrenozeptoren und dem Dopamin-D4-Rezeptor liefert eine plausible, aber nur indirekte mechanistische Verbindung. Zudem ist das Restless-Legs-Syndrom eine bekannte Komorbidität von ADHS und teilt mit ihr eine dopaminerge Grundlage.
 
-Bemerkenswert ist, dass eine zweite vorhergesagte Indikation in dieser Evidenzübersicht — **Schizophrenie** (Rang 2, TxGNN-Punktzahl 99.996%) — vergleichsweise stärkere Unterstützung hat: eine systematische Übersichtsarbeit/Metaanalyse (PMID 31688399) über prodopaminerge Medikamente für Negativsymptome der Schizophrenie, plus ein Strukturbiologie-Artikel (PMID 37221270), der direkt zeigt, dass Rotigotine an alle fünf Dopamin-Rezeptor-Subtypen gebunden ist. Dies legt nahe, dass die Schizophrenie-Hypothese möglicherweise einer priorisierten Nachverfolgung vor ADHS verdient, obwohl keiner der beiden eine Rotigotine-spezifische klinische Studie hat.
-
----
-
-## Evidenz aus klinischen Studien
-
-Derzeit keine einschlägig registrierten klinischen Studien vorhanden.
+Wichtig: Keine der gefundenen Arbeiten untersucht Rotigotin bei ADHS. Direkter Dopaminagonismus ist keine etablierte ADHS-Strategie; Standard sind Stimulanzien und noradrenerge Substanzen. Der sehr hohe TxGNN-Wert ist daher nicht durch klinische Daten gestützt.
 
 ---
 
-## Literaturübersicht
+## Klinische Studien
 
-| PMID | Jahr | Typ | Zeitschrift | Wichtigste Ergebnisse |
+Derzeit sind keine relevanten klinischen Studien registriert.
+
+---
+
+## Literaturevidenz
+
+| PMID | Jahr | Typ | Journal | Kernaussagen |
 |------|-----|------|------|---------|
-| [21476956](https://pubmed.ncbi.nlm.nih.gov/21476956/) | 2011 | Übersichtsarbeit | Current Pharmaceutical Design | Überprüft pharmakologische Optionen für RLS bei Kindern; RLS und ADHS treten häufig gemeinsam auf, bewertet aber Rotigotine für ADHS nicht direkt |
-| [34182128](https://pubmed.ncbi.nlm.nih.gov/34182128/) | 2021 | Präklinisch/Rezeptor-Pharmakologie | Pharmacological Research | Zeigt, dass α2A-Adrenozeptor–D4-Rezeptor-Heteromerisierung die Pharmakologie der Impulskontrollstörungen beeinflusst; relevant für ADHS-Biologie, befasst sich aber nicht spezifisch mit Rotigotine |
-| [18656214](https://pubmed.ncbi.nlm.nih.gov/18656214/) | 2008 | Übersichtsarbeit | Revue Neurologique | Allgemeine Übersicht der RLS-Pathophysiologie und -Behandlung; keine ADHS-spezifischen Daten |
+| [18656214](https://pubmed.ncbi.nlm.nih.gov/18656214/) | 2008 | Übersichtsarbeit | Revue neurologique | Überblick über das Restless-Legs-Syndrom (Häufigkeit 2–3 % in westlichen Ländern, Diagnosekriterien); kein direkter ADHS-Bezug zu Rotigotin |
+| [21476956](https://pubmed.ncbi.nlm.nih.gov/21476956/) | 2011 | Übersichtsarbeit | Current Pharmaceutical Design | Pharmakologische Optionen beim Restless-Legs-Syndrom im Kindesalter |
+| [34182128](https://pubmed.ncbi.nlm.nih.gov/34182128/) | 2021 | Präklinisch/mechanistisch | Pharmacological Research | Heteromerisierung von α2A-Adrenozeptoren mit D4-Varianten; Bedeutung für Impulskontrollstörungen und ADHS |
+
+---
+
+## Marktinformationen Deutschland
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000626 | Neupro | – | Restless-Legs-Syndrom; Parkinson-Krankheit (Status: aufgehoben) |
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Fachinformation für Sicherheitsinformationen.
+- **Mögliche Kontraindikationen laut Wissensgraph (keine Angaben aus dem Beipackzettel):** Hypertonie bzw. hypertensive Erkrankung, Multisystematrophie, posturales orthostatisches Tachykardiesyndrom, orthostatische Hypotonie, medikamenteninduzierte Dyskinesie.
+- **Arzneimittelwechselwirkungen:** Insgesamt wurden 51 Wechselwirkungen identifiziert. Die ersten 20 sind alle von moderatem Schweregrad, u. a. mit:
+  - Opioiden bzw. opioidähnlichen Substanzen (Morphin, Codein, Opium, Difenoxin, Diphenoxylat)
+  - Cannabinoiden (Dronabinol, Nabilon)
+  - sedierenden Antihistaminika (Promethazin, Chlorphenamin, Cetirizin, Azelastin nasal, Brompheniramin, Carbinoxamin, Clemastin)
+  - Metoclopramid, Sibutramin, Dextromethorphan, Ethanol sowie Ioflupan (I-123)
 
-*(Wichtige Warnungen, Kontraindikationen und Arzneimittel-Arzneimittel-Wechselwirkungsdaten sind derzeit als blockierende/hochschwere Datenlücken gekennzeichnet — TFDA-Kennzeichnung noch nicht abgerufen, DDI-Anfrage ergab keine Ergebnisse.)*
+Weitere Sicherheitsangaben entnehmen Sie bitte der Fachinformation.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Abwarten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die ADHS-Indikation wird nur durch mechanistisches/präklinisches Schlussfolgern (L4) mit null klinischen Studien und ohne ADHS-spezifische Wirksamkeitsliteratur unterstützt — die recherchierten Arbeiten befassen sich mit RLS-Komorbiditäten und Rezeptorbiologie, nicht mit der klinischen Wirkung von Rotigotine bei ADHS. Kombiniert mit einer blockierenden Datenlücke zur TFDA-Sicherheitskennzeichnung ist dieser Kandidat nicht bereit, Stadium S0 zu verlassen.
+Für ADHS gibt es weder klinische Studien noch direkte Literatur zu Rotigotin; die Evidenz beschränkt sich auf indirekte mechanistische Hinweise. Zudem ist die deutsche Zulassung aufgehoben, und die Sicherheitsdaten aus der Fachinformation fehlen.
 
-**Um voranzukommen, ist Folgendes erforderlich:**
-- DrugBank-MOA-Bestätigung (DG002), um das Rezeptorbindungsprofil relevant für ADHS formal zu etablieren
-- Abruf der TFDA/deutschen Produktkennzeichnung für Sicherheits- und Kontraindikationsprüfung (DG001, derzeit blockierend)
-- Rotigotine-spezifische präklinische oder klinische Daten in ADHS-Populationen (aktuelle Literatur ist nur indirekt/komorbiditätsbasiert)
-- Erwägen Sie eine parallele Bewertung des Schizophrenie-Kandidaten (Rang 2, L3, Phase „Research Question"), der stärkere Evidenz auf Ebene systematischer Übersichtsarbeiten hat und möglicherweise ein effizienterer Weg nach vorne ist
-
+**Für ein Weiterkommen sind erforderlich:**
+- Fachinformation (Warnhinweise, Gegenanzeigen) vom BfArM beschaffen und auswerten
+- Detaillierte Wirkmechanismusdaten (z. B. aus DrugBank) ergänzen
+- Präklinische Daten oder Pilotstudien zu Rotigotin bei ADHS
+- Klärung der Zulassungs- und Verfügbarkeitssituation in Deutschland (aufgehobene Zulassung)
+- Bewertung von Risiko und Nutzen im Vergleich zu etablierten ADHS-Therapien
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

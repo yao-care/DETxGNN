@@ -2,7 +2,7 @@
 layout: default
 title: Linaclotide
 parent: Nur Modellvorhersage (L5)
-nav_order: 233
+nav_order: 272
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,85 +29,92 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Linaclotide: Von fehlend dokumentierter ursprünglicher Indikation zu vorhergesagtem Cauda-Equina-Syndrom
+# Linaclotid: Vom Reizdarmsyndrom zum Cauda-equina-Syndrom
 
 ## Zusammenfassung in einem Satz
 
-> Die ursprüngliche zugelassene Indikation von Linaclotide ist im aktuellen Datenpaket nicht dokumentiert, obwohl sein bekannter Wirkmechanismus (ein Guanylatcyclase-C-Agonist, der lokal auf das Darmepithel wirkt) eher auf einen gastrointestinalen sekretorischen als auf einen neurologischen Kontext hindeutet.
-> Das TxGNN-Modell sagt einen möglichen Zusammenhang mit dem **Cauda-Equina-Syndrom** mit einer sehr hohen Bewertung (**99.96%**) voraus,
-> doch diese Vorhersage wird durch **0 klinische Studien** und **0 Publikationen** gestützt, und die eigene Begründung des Modells kennzeichnet die Assoziation als wahrscheinlich ein Datenartefakt statt als ein echter Behandlungsmechanismus.
+Linaclotid ist ein lokal im Darm wirkender Guanylatcyclase-C-Agonist (GC-C), der ursprünglich zur Behandlung des Reizdarmsyndroms zugelassen wurde.
+Das TxGNN-Modell sagt voraus, dass er bei **Cauda-equina-Syndrom** wirksam sein könnte.
+Dafür liegen jedoch **keine klinischen Studien** und **keine Publikationen** vor. Die Vorhersage beruht allein auf dem Modell.
 
 ---
 
-## Schnellübersicht
+## Kurzüberblick
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Nicht im Datenpaket dokumentiert (Datenlücke — `original_indications` leer, `original_moa` = [Data Gap]) |
-| Vorhergesagte neue Indikation | Cauda-Equina-Syndrom |
-| TxGNN-Vorhersage-Bewertung | 99.96% (Rang 766) |
-| Evidenzstufe | L5 (nur Modellvorhersage, keine unterstützenden Studien) |
-| Marktststatus in Deutschland | Nicht vermarktet (Not marketed) |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | **Halten** |
-
----
-
-## Warum ist diese Vorhersage angemessen?
-
-Detaillierte Daten zum Wirkmechanismus sind in diesem Datenpaket formal als Datenlücke gekennzeichnet. Allerdings beschreibt die eigene Repurposing-Begründung des Modells Linaclotide als einen **Guanylatcyclase-C (GC-C)-Agonisten**, der ausschließlich auf Rezeptoren auf der intestinalen Epitheloberfläche wirkt, mit systemischer Absorption unter 0.1% und ohne Fähigkeit, die Blut-Hirn-Schranke zu durchqueren oder auf spinale/Cauda-equina-Nervenstrukturen zu wirken.
-
-Das Cauda-Equina-Syndrom ist ein chirurgischer Notfall, der durch mechanische Kompression der Cauda-equina-Nervenwurzeln verursacht wird und eine dringende Dekompression erfordert – es hat keine etablierte pharmakologische Beziehung zu intestinaler Sekretionsfunktion. Nach der eigenen Begründung des Datenpakets spiegelt die hohe TxGNN-Bewertung höchstwahrscheinlich **Störfaktoren durch Symptomüberlappung** im Wissensgraphen wider: „Verstopfung" als Symptomknoten ist häufig mit der Darm-/Blasendysfunktion assoziiert, die üblicherweise bei Cauda-equina-Syndrom-Patienten beobachtet wird, spiegelt aber keinen echten krankheitsmodifizierenden Wirkmechanismus wider.
-
-Kurz gesagt, der in diesem Datenpaket vorgestellte mechanistische Zusammenhang wird explizit als **nicht behandlungsrelevant** bewertet – er ist eine plausible Erklärung dafür, *warum das Modell diese Paarung hoch bewertet hat*, nicht ein Beweis dafür, dass die Paarung klinisch sinnvoll ist.
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Reizdarmsyndrom |
+| Vorhergesagte neue Indikation | Cauda-equina-Syndrom |
+| TxGNN-Vorhersagewert | 99,96 % |
+| Evidenzgrad | L5 |
+| Marktstatus in Deutschland | Nur erloschene Zulassung |
+| Anzahl der Zulassungen | 1 (erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Klinische Studienevidenz
+## Warum ist diese Vorhersage plausibel (oder nicht)?
 
-Derzeit sind keine verwandten klinischen Studien registriert.
+Detaillierte Wirkmechanismus-Daten liegen in den für diesen Bericht zusammengestellten Daten nicht vor. Nach allgemeinem Wissen ist Linaclotid ein GC-C-Agonist, der im Darmepithel den intrazellulären cGMP-Spiegel erhöht. Die systemische Resorption ist minimal, die Wirkung bleibt daher weitgehend auf den Darm beschränkt.
 
----
+Das Cauda-equina-Syndrom ist eine neurologische Kompressionsschädigung der lumbosakralen Nervenwurzeln. Ein plausibler Mechanismus, wie eine lokale GC-C-Agonisierung diese Erkrankung behandeln könnte, ist nicht erkennbar. Der sehr hohe TxGNN-Wert (0,9996) spiegelt vermutlich die Nähe im Netzwerk zu Darm- und Blasenfunktionsstörungen wider (Obstipation, neurogener Darm) und keinen krankheitsmodifizierenden Effekt.
 
-## Evidenz aus der Literatur
+Allenfalls ließe sich eine sekundäre Obstipation lindern. Das wäre Symptomkontrolle und keine Behandlung des Syndroms selbst.
 
-Derzeit ist keine verwandte Literatur verfügbar.
+**Weitere vorhergesagte Indikationen** (ebenfalls ohne Studien oder Literatur, jeweils L5 und Hold):
 
----
-
-## Marktinformationen für Deutschland
-
-Linaclotide wird in Deutschland nicht vermarktet (`market_status: Not marketed`), und es sind keine Zulassungsunterlagen im Datenpaket vorhanden (0 Lizenzen).
-
----
-
-## Sicherheitsüberlegungen
-
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
-
-Hinweis: Das Datenpaket kennzeichnet TFDA-Etikettenwarnungen/Kontraindikationen (DG001) als **blockierende** Datenlücke – dies verhindert jede Sicherheits-Vorabprüfung (S1-Stufe) für diesen Kandidaten unabhängig von der vorhergesagten Indikation.
+| Rang | Erkrankung | TxGNN-Wert | Einschätzung |
+|------|------|------|------|
+| 2 | Neurogene Blase (in der Ontologie als veraltet markiert) | 99,89 % | Kein belegter Mechanismus. Mögliche Verbindung über das gemeinsame Auftreten von neurogener Blase und neurogenem Darm. Der veraltete Begriff deutet zudem auf ein überholtes oder doppeltes Konzept hin. |
+| 3 | Insomnie | 99,51 % | Kein glaubwürdiger Mechanismus. Wegen der vernachlässigbaren systemischen Exposition sind keine zentralen Effekte zu erwarten. Ein indirekter Nutzen durch weniger Bauchbeschwerden wäre spekulativ. |
 
 ---
 
-## Zusätzlicher Kontext: Muster über alle vorhergesagten Indikationen hinweg
+## Klinische Evidenz
 
-Dieses Datenpaket enthält zwei weitere hochbewertete Vorhersagen für Linaclotide — **veraltete neurogene Blase** (99.89%, Rang 1766) und **Insomnie** (99.51%, Rang 5775) – beide zeigen das gleiche Profil: keine klinischen Studien, keine Literatur, Evidenzstufe L5, und der Begründungstext identifiziert die Bewertung explizit als wahrscheinlich angetrieben durch Symptom-Koexistenz im Wissensgraphen (z. B. neurogene Darm-/Blasenkomorbidität, IBS-C/Insomnie-Komorbidität) statt eines echten pharmakologischen Mechanismus. Dieses konsistente Muster über alle drei bewerteten Kandidaten hinweg bekräftigt, dass keine der aktuellen Vorhersagen für Linaclotide den Maßstab für weitere Evaluierung erfüllt.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Literaturevidenz
 
-**Entscheidung: Halten**
+Derzeit liegt keine zugehörige Literatur vor.
+
+---
+
+## Informationen zum deutschen Markt
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/002490 (erloschen) | Constella | – | Reizdarmsyndrom |
+
+Hersteller: AbbVie Deutschland GmbH & Co. KG. Es existiert keine gültige Zulassung in Deutschland.
+
+---
+
+## Sicherheitsaspekte
+
+**Arzneimittelwechselwirkungen:** In der Abfrage wurden insgesamt 56 Wechselwirkungen gefunden. Die Liste der übermittelten Daten enthält 20 davon.
+
+- **Moderat:** Levonorgestrel, Ethinylestradiol, Norethisteron, Levothyroxin, Schilddrüsenextrakt (Schwein)
+- **Gering:** u. a. Rabeprazol, Esomeprazol, Dexlansoprazol, Ketorolac, Ibuprofen, Diclofenac, Oxaprozin, Bromfenac, Bisacodyl, Picosulfat, Docusat, Macrogol (3350 mit Elektrolyten), Rizinusöl, Cascararinde, mikrokristalline Cellulose
+
+Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage hat keine unterstützende klinische Studien- oder Literaturevidenz (L5, nur Modell), und die mechanistische Begründung selbst identifiziert die Assoziation als wahrscheinlich ein Wissensgraph-Artefakt (Symptom-Koexistenz) statt eines plausiblen Behandlungsmechanismus. Eine blockierende Datenlücke bei TFDA-Sicherheitskennzeichnung verhindert auch den Eintritt in jede formelle Sicherheits-Vorabprüfung.
+Für alle drei vorhergesagten Indikationen gibt es ausschließlich Modellvorhersagen (L5) ohne Studien oder Literatur, und ein plausibler Wirkmechanismus fehlt. Hinzu kommt, dass in Deutschland keine gültige Zulassung besteht.
 
-**Zum Fortfahren ist Folgendes erforderlich:**
-- Bestätigte ursprüngliche Indikation und MOA-Daten für Linaclotide (derzeit fehlend im Datenpaket)
-- TFDA-Etikettenwarnungen/Kontraindikationen (DG001 — blockierend), um Sicherheits-Vorabprüfung S1 zu ermöglichen
-- Unabhängige mechanistische oder präklinische Evidenz, die GC-C-Agonismus direkt mit Cauda-equina-Pathophysiologie verknüpft, wenn diese Hypothese weiter verfolgt werden soll
-- Angesichts des völligen Mangels an biologischer Begründung wird dieser Kandidat nicht für weitere Entwicklung empfohlen, es sei denn, es liegt neue primäre Evidenz vor
-
+**Für ein Weiterkommen erforderlich:**
+- Fachinformation (Warnhinweise, Gegenanzeigen) beim BfArM beschaffen, da dies derzeit die Sicherheitsprüfung blockiert
+- Wirkmechanismus-Daten (MOA) aus DrugBank ergänzen
+- Prüfen, ob für die Vorhersagen präklinische oder klinische Hinweise existieren, etwa zu neurogener Obstipation als Symptomkontrolle
+- Den veralteten Ontologiebegriff „neurogene Blase" auf ein aktuelles Konzept abbilden und die Vorhersage neu bewerten
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

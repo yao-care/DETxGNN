@@ -2,7 +2,7 @@
 layout: default
 title: Brinzolamide
 parent: Nur Modellvorhersage (L5)
-nav_order: 67
+nav_order: 76
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,69 +29,85 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Brinzolamid: Bewertung unvollständig — Keine TxGNN-Vorhersagen verfügbar
+# Brinzolamid: Vom Glaukom (Offenwinkel) zum primären hereditären Glaukom
 
 ## Zusammenfassung in einem Satz
 
-Brinzolamid ist ein topischer Carboanhydrase-Inhibitor, der klinisch für Offenwinkelglaukom und okuläre Hypertonie eingesetzt wird.
-Das aktuelle Evidence Pack enthält **keine TxGNN-prognostizierten Indikationen**, und die behördlichen Daten für Taiwan zeigen keine genehmigten Lizenzen.
-Daher kann eine vollständige Repurposing-Bewertung in dieser Phase nicht durchgeführt werden.
+Brinzolamid ist ein Carboanhydrase-Hemmer, der ursprünglich zur Behandlung des Offenwinkelglaukoms und der okulären Hypertension zugelassen wurde.
+Das TxGNN-Modell sagt voraus, dass er auch bei **primärem hereditärem Glaukom** wirksam sein könnte.
+Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor, die Vorhersage beruht allein auf dem Modell.
 
 ---
 
 ## Schnellübersicht
 
-| Element | Inhalt |
-|---------|---------|
-| Ursprüngliche Indikation | Nicht in behördlichen Daten vorhanden (klinische Verwendung: Glaukom / okuläre Hypertonie) |
-| Prognostizierte neue Indikation | Keine — TxGNN hat keine Vorhersagen zurückgegeben |
-| TxGNN-Vorhersage-Score | K. A. |
-| Evidenzstufe | K. A. |
-| Marktstatus Taiwan | Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfehlung zur Entscheidung | **Abwarten** |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Offenwinkelglaukom; okuläre Hypertension |
+| Vorhergesagte neue Indikation | Primäres hereditäres Glaukom |
+| TxGNN-Vorhersagewert | 99,48 % |
+| Evidenzlevel | L5 |
+| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassungen |
+| Anzahl der Zulassungen | 3 (alle erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum die Bewertung nicht fortgesetzt werden kann
+## Warum ist diese Vorhersage plausibel?
 
-Das Evidence Pack für Brinzolamid (DrugBank: DB01194) enthält zwei Datenkategorien nicht, die für eine Repurposing-Bewertung entscheidend sind:
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Brinzolamid hemmt die Carboanhydrase II und senkt so den Augeninnendruck, indem es die Kammerwasserproduktion verringert.
 
-**Es sind keine TxGNN-Vorhersagen verfügbar.** Das Feld `predicted_indications` ist leer, was bedeutet, dass das Graphen-Neuronales-Netzwerk-Modell keine Kandidaten-Indikationen für dieses Arzneimittel ausgegeben hat. Ohne eine Zielindikation gibt es nichts zu bewerten.
+Das primäre hereditäre Glaukom (z. B. das primäre kongenitale Glaukom) wird wesentlich durch einen erhöhten Augeninnendruck getrieben, der den Sehnerv schädigt. Die zugelassene Indikation (Offenwinkelglaukom, okuläre Hypertension) betrifft dieselbe Pathophysiologie. Die Vorhersage ist daher mechanistisch stimmig.
 
-**Daten zum Wirkmechanismus (MOA) sind nicht vorhanden.** Das Feld `original_moa` ist als Datenlücke gekennzeichnet. Basierend auf veröffentlichter Pharmakologie hemmt Brinzolamid Carboanhydrase II (CA-II) in den Ziliarprozessen des Auges, reduziert die Produktion von Kammerwasser und senkt dadurch den Augeninnendruck. Dieser bekannte Mechanismus wird nicht im aktuellen Evidence Pack berücksichtigt und kann nicht zur Begründung der mechanistischen Plausibilität für irgendeine neue Indikation verwendet werden, bis TxGNN ein Ziel generiert.
-
-**Sicherheits- und behördliche Daten sind nicht verfügbar.** Es wurden keine Taiwan-Packungsbeilage-Warnungen, Kontraindikationen oder Arzneimittel-Wechselwirkungsaufzeichnungen abgerufen. Ohne grundlegende Sicherheitsbewertung kann nicht einmal ein vorläufiger Machbarkeitsprüfung durchgeführt werden.
+Es handelt sich allerdings eher um eine Erweiterung innerhalb derselben Krankheitsfamilie als um ein echtes Repurposing. Zudem gilt als Hintergrundwissen (nicht aus den vorliegenden Daten): Carboanhydrase-Hemmer sind beim pädiatrischen kongenitalen Glaukom nur begrenzt wirksam und mit Sicherheitsfragen verbunden; dort ist in der Regel die Operation die Primärtherapie.
 
 ---
 
-## Marktinformationen für Taiwan
+## Klinische Evidenz
 
-Es wurden keine Zulassungsunterlagen gefunden. Brinzolamid ist derzeit nicht auf dem Taiwan-Markt erhältlich.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
+
+---
+
+## Literaturevidenz
+
+Derzeit liegt keine zugehörige Literatur vor.
+
+---
+
+## Informationen zum deutschen Markt
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000267 | Azopt | – | Offenwinkelglaukom; okuläre Hypertension |
+| EMEA/H/C/000960 | Azarga | – | Offenwinkelglaukom; okuläre Hypertension |
+| EMEA/H/C/003698 | Simbrinza | – | Okuläre Hypertension; Offenwinkelglaukom |
+
+Alle drei Zulassungen (Novartis Europharm Limited) sind als erloschen/widerrufen geführt; derzeit ist keine gültige Zulassung vorhanden.
 
 ---
 
 ## Sicherheitsaspekte
 
-Weitere Sicherheitsinformationen finden Sie in der Packungsbeilage.
+**Arzneimittelwechselwirkungen:** Es wurden 32 Wechselwirkungseinträge gefunden, der Schweregrad ist jeweils nicht klassifiziert. Beispiele aus der Liste: Pantoprazol, Omeprazol, Lansoprazol, Prednison, Prednisolon, Dexamethason, Triamcinolon, Simvastatin, Rosuvastatin, Warfarin, Clopidogrel, Kaliumchlorid, Pioglitazon, Metoclopramid.
+
+Zu Warnhinweisen und Gegenanzeigen bitte die Fachinformation heranziehen.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Abwarten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Das Evidence Pack ist strukturell unvollständig — es gibt keine TxGNN-prognostizierten Indikationen und keine MOA-Daten — was es unmöglich macht, eine aussagekräftige Repurposing-Bewertung in dieser Phase durchzuführen.
+Die Vorhersage ist mechanistisch nachvollziehbar, stützt sich aber ausschließlich auf das Modell (L5) ohne Studien oder Publikationen. Zudem besteht kein gültiger Zulassungsstatus in Deutschland, und die Sicherheitsdaten aus der Fachinformation fehlen.
 
-**Folgende Maßnahmen sind erforderlich, um fortzufahren:**
-
-1. **TxGNN-Pipeline erneut ausführen** — Überprüfen Sie, ob Brinzolamid (DB01194) in der Knowledge-Graph-Einbettung enthalten war. Wenn der Knoten fehlt oder isoliert ist, gibt das Modell keine Vorhersagen zurück. Überprüfen Sie die Graph-Abdeckung und führen Sie eine Neuberechnung durch, falls nötig.
-2. **Datenlücke DG002 (MOA) beheben** — DrugBank-API für DB01194 abfragen, um Wirkmechanismus, Pharmakodynamik und Arzneimittelklassen abzurufen.
-3. **Datenlücke DG001 (Packungsbeilage) beheben** — Taiwan-TFDA-Packungsbeilage als PDF abrufen, um genehmigte Indikationen, Warnungen und Kontraindikationen zu extrahieren.
-4. **Arzneimittelklasse-Eignung bestätigen** — Brinzolamid ist ein topisch angewendetes ophthalmisches Agens. Bestätigen Sie, ob der TxGNN-Modellumfang nicht-systemische Arzneimittel einschließt; falls nicht, vermerken Sie dies als Modellgrenzen-Einschränkung.
-5. **Evidence Pack neu generieren** — Sobald die obigen Lücken behoben sind, das v5 Evidence Pack neu generieren und zur Bewertung erneut einreichen.
-
+**Für ein Weiterkommen sind folgende Schritte nötig:**
+- Fachinformation des BfArM beschaffen und auswerten (Warnhinweise, Gegenanzeigen) – Voraussetzung für das Sicherheits-Screening
+- Daten zum Wirkmechanismus (MOA) ergänzen, z. B. über DrugBank
+- Systematische Literatur- und Studienrecherche zu Carboanhydrase-Hemmern beim primären hereditären/kongenitalen Glaukom, insbesondere zu Wirksamkeit und Sicherheit bei Kindern
+- Klärung des Zulassungs- und Marktstatus (erloschene Zulassungen, ggf. nationale Präparate)
+- Klärung der Anwendungswege (Applikationsweg) und des Bezugs zur ursprünglichen Indikation
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

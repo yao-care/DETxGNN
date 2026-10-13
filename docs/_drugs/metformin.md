@@ -2,7 +2,7 @@
 layout: default
 title: Metformin
 parent: Nur Modellvorhersage (L5)
-nav_order: 251
+nav_order: 293
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,90 +29,109 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-# Metformin: Von Diabetes mellitus Typ 2 zu fünf Kandidaten seltener Erkrankungen (Nur-Modell-Signal)
+# Metformin: Vom Typ-2-Diabetes zum fokalen Stiff-Limb-Syndrom
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Metformin ist ein weit verbreitetes Biguanid-Antidiabetikum, obwohl dieses spezifische Evidenzpaket seine ursprüngliche Indikation oder seinen Wirkmechanismus nicht erfasst (das Medikament wird in dieser Gerichtsbarkeit derzeit nicht vermarktet). Das TxGNN-Modell identifiziert fünf Kandidaten-Indikationen – angeführt durch **Focal Stiff Limb Syndrome** und **Classic Stiff Person Syndrome** – aber **keine wird durch klinische Studien oder Literatur gestützt**, und die begleitenden mechanistischen Begründungen sind explizit als schwach oder nicht vorhanden gekennzeichnet. Dies ist ein reines Modellsignal (L5) mit Kandidaten, die einen vollständigen Evidenzaufbau vor jeder klinischen Berücksichtigung benötigen.
-
----
-
-## Schnellübersicht
-
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | In diesem Evidenzpaket nicht erfasst (Medikament wird lokal nicht vermarktet; Feld `original_indications` ist leer) |
-| Vorhergesagte neue Indikation | Focal Stiff Limb Syndrome (Spitzenrang; 4 weitere Kandidaten darunter) |
-| TxGNN-Vorhersage-Score | 99.45% (Rang 1); Bereich 99.06%–99.45% über alle 5 Kandidaten |
-| Evidenzstufe | L5 (nur Modellvorhersage – keine Studien, keine Literatur, für alle 5 Kandidaten) |
-| Marktstatus in Deutschland | ✗ Nicht vermarktet |
-| Anzahl der Genehmigungen | 0 |
-| Empfohlene Entscheidung | **Halten** |
-
-### Alle vorhergesagten Indikationen
-
-| Rang | Krankheit | TxGNN-Score | Modell-Rang | Evidenzstufe | Empfehlung |
-|------|-----------|------------|------------|--------------|------------|
-| 1 | Focal Stiff Limb Syndrome | 99.45% | 6338 | L5 | Halten |
-| 2 | Classic Stiff Person Syndrome | 99.45% | 6339 | L5 | Halten |
-| 3 | Opsismodysplasia | 99.40% | 6707 | L5 | Halten |
-| 4 | Thiamine-Responsive Dysfunction Syndrome | 99.40% | 6765 | L5 | Halten |
-| 5 | Drug-Induced Localized Lipodystrophy | 99.06% | 9580 | L5 | Halten |
+Metformin wird seit Langem zur Behandlung des **Diabetes mellitus Typ 2** eingesetzt. Das TxGNN-Modell sagt voraus, dass es bei dem **fokalen Stiff-Limb-Syndrom** wirksam sein könnte. Für diese Vorhersage liegen in den für diesen Bericht zusammengestellten Daten **keine klinischen Studien** und **keine Publikationen** vor; sie beruht ausschließlich auf der Modellvorhersage.
 
 ---
 
-## Warum ist diese Vorhersage vernünftig?
+## Kurzüberblick
 
-Detaillierte Wirkmechanismus-Daten sind in diesem Evidenzpaket nicht verfügbar. Metformin ist allgemein als ein Biguanid bekannt, das AMPK aktiviert und die hepatische Glukoneogenese unterdrückt – eine Wirkung, die üblicherweise mit der Behandlung von Diabetes mellitus Typ 2 verbunden ist – aber dieses Evidenzpaket dokumentiert selbst keine ursprüngliche Indikation, daher sollte dieser Kontext als Hintergrund angesehen werden, nicht als verifizierte Quelldaten.
-
-Bei allen fünf vorhergesagten Indikationen bestätigt die Begründung des Modells nur schwache oder fehlende biologische Verbindungen:
-
-- **Stiff Limb / Stiff Person Syndrome** (Ränge 1–2): Autoimmune, anti-GAD65-vermittelte GABAerge Störungen. Keine bekannte mechanistische Überlappung mit AMPK/Glukosestoffwechsel-Signalwegen – die Begründung besagt explizit, dass es „keine bekannte Schnittmenge" gibt, und führt den Score nur auf graphbasierte Assoziation zurück.
-- **Opsismodysplasia** (Rang 3): Verursacht durch *INPPL1 (SHIP2)*-Mutationen, ein Protein in der Insulin-Signalisierungsbahn, das eine entfernte topologische Beziehung zum Zielweg von Metformin hat – aber es gibt keine Tier- oder Humanversuche, die eine Auswirkung auf den Skelettphenotyp stützen.
-- **Thiamine-Responsive Dysfunction Syndrome** (Rang 4): Der einzige plausible Zusammenhang ist die symptomatische Glykämie-Kontrolle bei mit TRMA assoziiertem Diabetes, nicht die Korrektur des zugrunde liegenden Thiamin-Transportdefekts.
-- **Drug-Induced Localized Lipodystrophy** (Rang 5): Metformins AMPK-vermittelte Auswirkungen auf den Adipozyten-Stoffwechsel bieten einen theoretischen, aber direktional mehrdeutigen Zusammenhang; es gibt keinen Beweis, dass es lipodystrophische Läsionen verhindert oder rückgängig macht.
-
-Zusammenfassend stammen alle fünf Signale aus der Grapheinbettungs-Ähnlichkeit in TxGNN, nicht von einer identifizierbaren, evidenzgestützten biologischen Hypothese.
-
----
-
-## Klinische Studienevidenz
-
-Derzeit sind keine verwandten klinischen Studien für eine der fünf vorhergesagten Indikationen registriert (Focal Stiff Limb Syndrome, Classic Stiff Person Syndrome, Opsismodysplasia, Thiamine-Responsive Dysfunction Syndrome, Drug-Induced Localized Lipodystrophy).
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Diabetes mellitus Typ 2 |
+| Vorhergesagte neue Indikation | Fokales Stiff-Limb-Syndrom |
+| TxGNN-Vorhersagewert | 99,45 % |
+| Evidenzlevel | L5 |
+| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
+| Anzahl der Zulassungen | 19 (alle erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Literaturevidenz
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit ist keine verwandte Literatur für eine der fünf vorhergesagten Indikationen verfügbar.
+Zum Wirkmechanismus von Metformin liegen in den zusammengestellten Daten derzeit keine detaillierten Angaben vor. Bekannt ist, dass Metformin die AMPK aktiviert, die hepatische Glukoneogenese verringert und den mitochondrialen Komplex I moduliert. Seine Wirksamkeit bei Typ-2-Diabetes ist belegt.
+
+Das fokale Stiff-Limb-Syndrom gehört zum Spektrum des Stiff-Person-Syndroms, einer seltenen autoimmun-neurologischen Erkrankung mit gestörter GABAerger Hemmung. Ein belegter mechanistischer Zusammenhang mit Metformin besteht nicht. Denkbar, aber rein spekulativ, wären immunmodulatorische oder entzündungshemmende Effekte oder eine Verbindung über GAD-Antikörper, die auch bei autoimmunem Diabetes auftreten.
+
+Der Vorhersagewert ist identisch mit dem der klassischen Stiff-Person-Erkrankung (Rang 2). Das deutet darauf hin, dass das Modell beide Krankheitsknoten als nahezu gleichwertig behandelt und keine unabhängige Evidenz liefert.
+
+**Weitere vorhergesagte Indikationen (jeweils nur Modellvorhersage, L5, Hold):**
+
+| Rang | Erkrankung | Score | Anmerkung |
+|---|---|---|---|
+| 2 | Klassisches Stiff-Person-Syndrom | 99,45 % | Kein belegter Zusammenhang mit Metformin |
+| 3 | Opsismodysplasie | 99,40 % | Lose Verbindung über INPPL1/SHIP2 und PI3K/AKT-Signalweg; Hypothese |
+| 4 | Thiaminabhängiges Dysfunktionssyndrom | 99,40 % | Eher Sicherheitsaspekt (Transporter) als therapeutische Begründung |
+| 5 | Medikamenteninduzierte lokalisierte Lipodystrophie | 99,06 % | Systemische Insulinsensitivierung vermutlich wenig wirksam bei lokaler Gewebereaktion |
 
 ---
 
-## Marktstatus in Deutschland
+## Evidenz aus klinischen Studien
 
-Metformin hält derzeit keine Marktzulassungen in dieser Gerichtsbarkeit (`market_status`: nicht vermarktet; `total_licenses`: 0). Es sind keine Produkteinträge zur Überprüfung verfügbar.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
+
+---
+
+## Evidenz aus der Literatur
+
+Derzeit liegt keine zugehörige Literatur vor.
+
+---
+
+## Marktinformationen Deutschland
+
+Alle 19 Zulassungen sind erloschen; es besteht keine gültige Zulassung. Die folgende Tabelle zeigt fünf Beispiele (Zulassungen der Europäischen Arzneimittel-Agentur, jeweils Kombinationspräparate mit Metformin).
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/002654 | Vipdomet | – | Diabetes mellitus Typ 2 |
+| EMEA/H/C/001235 | Ristfor | – | Diabetes mellitus Typ 2 |
+| EMEA/H/C/003770 | Synjardy | – | Diabetes mellitus Typ 2 |
+| EMEA/H/C/002279 | Jentadueto | – | Diabetes mellitus Typ 2 |
+| EMEA/H/C/000861 | Janumet | – | Diabetes mellitus Typ 2 |
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. Hinweis: Dieses Evidenzpaket konnte Warnhinweise der Kennzeichnung, Kontraindikationen oder Arzneimittel-Wechselwirkungsdaten nicht abrufen (Quelle: TFDA/BfArM-Kennzeichnung PDF), was als **Blockierend** gekennzeichnet ist und eine vorläufige Sicherheitsüberprüfung (S1) für eine dieser Kandidaten verhindert.
+**Kontraindikationen laut Wissensgraph** (TxGNN/PrimeKG, Beziehungen zwischen Wirkstoff und Erkrankung, kein Packungsbeilagentext):
+- Leberversagen und Lebererkrankung
+- Nierenerkrankung
+- Pankreatitis
+- Gallenblasenerkrankung
+- Dekompensierte Herzinsuffizienz
+- Pyoureter
+- Hypopituitarismus und verschiedene Formen des Hypophysenhormonmangels (u. a. Sheehan-Syndrom, kongenitaler hypogonadotroper Hypogonadismus, Kallmann-Syndrom, isolierter Wachstumshormonmangel)
+- Erkrankung der Thymusdrüse
+- Nebennierenrindeninsuffizienz
+
+**Arzneimittelwechselwirkungen** (100 Einträge insgesamt, Auswahl der als schwerwiegend eingestuften):
+- **Schwerwiegend (Major):** Acetazolamid, Ethanol
+- **Moderat (Auswahl):** Dolutegravir, Abemaciclib, Phenylephrin, Ranitidin, Formoterol, Pseudoephedrin, Ketorolac, Nifedipin, Epinephrin, Ibuprofen, Ethinylestradiol, Hydrocortison, Salbutamol, Hydrochlorothiazid, Acetohexamid
+- **Gering (Minor):** Acarbose, topisches Hydrocortison, topisches Alclometason
+
+Für weitere Sicherheitsinformationen, insbesondere Warnhinweise, siehe die Packungsbeilage.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Halten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Alle fünf vorhergesagten Indikationen beruhen ausschließlich auf TxGNN-Modellleistung (L5) ohne klinische Studien oder Literaturstütze, und die eigenen mechanistischen Begründungen des Modells beschreiben die biologischen Verbindungen als schwach, indirekt oder vollständig fehlend. In Kombination mit fehlenden MOA- und Sicherheitskennzeichnungsdaten gibt es keine Grundlage, einen Kandidaten über das Modellsignalstadium hinaus zu fördern.
+Die Vorhersage beruht ausschließlich auf einem Modellwert (Evidenzlevel L5). Es gibt weder Studien noch Publikationen, und ein mechanistischer Zusammenhang mit dem Stiff-Person-Spektrum ist nicht belegt. Zudem existiert in Deutschland derzeit keine gültige Zulassung für Metformin-Präparate in den erfassten Daten.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- TFDA/BfArM-Kennzeichnung abrufen und analysieren (Warnhinweise, Kontraindikationen, Arzneimittel-Wechselwirkungen) – derzeit Blockierend (DG001)
-- Metformins Wirkmechanismus über DrugBank-API bestätigen – derzeit hochpriorige Lücke (DG002)
-- Gezielte Literatur- und klinische Studiensuche für jede der fünf Kandidaten-Indikationen (Autoimmun-Neurologie, Skeletale Dysplasie, Thiamin-Stoffwechsel-Störungen, Lipodystrophie), um festzustellen, ob einer über L5 hinausgeht
-- Unabhängige mechanistische/pharmakologische Überprüfung vor Berücksichtigung einer Kandidatin für S1-Eintrag
-
+**Für ein Weiterkommen sind erforderlich:**
+- Gezielte Literaturrecherche zu Metformin beim Stiff-Person-Syndrom bzw. Stiff-Limb-Syndrom
+- Daten zum Wirkmechanismus (MOA) von Metformin
+- Auswertung der Packungsbeilage (Warnhinweise und Gegenanzeigen) von BfArM
+- Prüfung des aktuellen Zulassungs- und Marktstatus in Deutschland
+- Klärung der Applikationswege und der Ähnlichkeit zur ursprünglichen Indikation
+- Präklinische oder mechanistische Studien, die eine Beteiligung von AMPK/mTOR oder immunmodulatorischen Effekten bei GABAerger Dysfunktion stützen
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -2,7 +2,7 @@
 layout: default
 title: Empagliflozin
 parent: Nur Modellvorhersage (L5)
-nav_order: 144
+nav_order: 166
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,89 +29,91 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Empagliflozin: Von Diabetes mellitus Typ 2 zum klassischen Stiff-Person-Syndrom
+# Empagliflozin: Von Diabetes mellitus Typ 2 zu klassischem Stiff-Person-Syndrom
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Empagliflozin ist ein bekannter SGLT2-Inhibitor (Natrium-Glukose-Kotransporter-2), dessen ursprüngliche Indikation (Diabetes mellitus Typ 2 und verwandte kardiorenale Anwendungen) nicht in diesem Bewertungspaket erfasst ist. Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **Klassischem Stiff-Person-Syndrom** voraus, aber die Vorhersage wird derzeit durch **0 klinische Studien** und **0 Publikationen** gestützt – dies ist ein reines Modellsignal (Evidenzstufe L5) mit einer Empfehlung „Halten".
+Empagliflozin ist ein SGLT2-Hemmer, der ursprünglich zur Behandlung von Diabetes mellitus Typ 2, Herzinsuffizienz und chronischer Niereninsuffizienz zugelassen wurde.
+Das TxGNN-Modell sagt voraus, dass er bei **klassischem Stiff-Person-Syndrom** wirksam sein könnte.
+Dafür liegen jedoch **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage beruht allein auf dem Modell.
 
 ---
 
 ## Schnellübersicht
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Nicht in diesem Bewertungspaket erfasst (Datenlücke — `original_indications` ist leer). Empagliflozin ist öffentlich bekannt als SGLT2-Inhibitor für Diabetes mellitus Typ 2. |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Diabetes mellitus Typ 2; Herzinsuffizienz; chronische Niereninsuffizienz |
 | Vorhergesagte neue Indikation | Klassisches Stiff-Person-Syndrom |
-| TxGNN-Vorhersage-Punktzahl | 99.06% |
-| Evidenzstufe | L5 (nur Modellvorhersage, keine unterstützenden Studien) |
-| Marktstatus in Taiwan | ✗ Nicht auf dem Markt (Not Marketed) |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Halten |
+| TxGNN-Vorhersagewert | 99,06 % |
+| Evidenzlevel | L5 |
+| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
+| Anzahl der Zulassungen | 3 (alle erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Wirkmechanismus-Daten nicht verfügbar (in diesem Bewertungspaket als Datenlücke **DG002** gekennzeichnet, Schweregrad: Hoch). Basierend auf bekannten Informationen wirkt Empagliflozin als SGLT2-Inhibitor und reduziert die renale Glukosereabsorption; seine etablierte Wirkung beschränkt sich auf die renale Glukose-Transportphysiologie und nachgelagerte metabolische/kardiorenale Effekte.
+Für diese Vorhersage ist derzeit keine detaillierte Beschreibung des Wirkmechanismus in den für diesen Bericht zusammengestellten Daten verfügbar. Bekannt ist, dass Empagliflozin den SGLT2-Transporter im proximalen Nierentubulus hemmt und so die renale Glukoserückresorption senkt.
 
-Klassisches Stiff-Person-Syndrom (SPS) ist eine autoimmunologische neurologische Störung, die primär durch Anti-GAD65-Antikörper getrieben wird, die die GABAerge Neurotransmission beeinträchtigen. Es gibt keine etablierte mechanistische Überlappung zwischen SGLT2-Inhibition und GABAerger Signalisierung oder autoimmunologischer Neuro-Modulation. Da `original_moa` eine Datenlücke ist, können wir nicht überprüfen, ob ein indirekter Weg (z. B. metabolisch–neuroimmunologisch) dieser Vorhersage zugrunde liegt.
+Das Stiff-Person-Syndrom ist eine autoimmune neurologische Erkrankung, die meist mit Anti-GAD65-Antikörpern einhergeht und die GABAerge Hemmung beeinträchtigt. Ein etablierter mechanistischer Zusammenhang mit der SGLT2-Hemmung besteht nicht. Die einzige denkbare Verbindung ist, dass Anti-GAD65-Autoimmunität auch bei Typ-1-Diabetes und anderen Autoimmunerkrankungen auftritt. Dies erklärt jedoch keine Wirkung einer SGLT2-Hemmung.
 
-Zwei Beobachtungen schwächen das Vertrauen in dieses spezifische Signal: (1) Die nahezu identischen TxGNN-Werte zwischen Rang 1 (klassisches Stiff-Person-Syndrom, 99.06%) und Rang 2 (fokal Stiff-Limb-Syndrom, 99.06%) deuten darauf hin, dass das Modell einen ganzen Krankheitscluster bewertet, anstatt ein indikationsspezifisches Signal zu erzeugen; und (2) es gibt keine klinischen Studien, Registereinträge oder Literatur, um die Vorhersage zu unterstützen. Der Wert spiegelt wahrscheinlich die topologische Nähe der Wissensgraph-Knoteneinbettung wider (z. B. topologische Nähe zu anderen neuromuskulären oder metabolisch-komorbiden Knoten) anstelle einer validierten pharmakologischen Begründung.
+Der hohe TxGNN-Wert (0,99) ist eine rein rechnerische Vorhersage. Er wird vermutlich durch gemeinsame Nachbarn im Wissensnetzwerk getrieben und ist durch keine Studien- oder Literaturdaten gestützt.
+
+Weitere vom Modell vorhergesagte Indikationen sind ebenfalls rein spekulativ:
+
+| Rang | Erkrankung | TxGNN-Wert | Evidenzlevel | Einschätzung |
+|------|------|------|------|------|
+| 2 | Fokales Stiff-Limb-Syndrom | 99,06 % | L5 | Seltene Variante des Stiff-Person-Spektrums; kein bekannter Einfluss der SGLT2-Hemmung auf GABAerge oder glycinerge Bahnen; vermutlich Effekt gemeinsamer Netzwerknachbarn |
+| 3 | Opsismodysplasie | 99,03 % | L5 | Seltene Skelettdysplasie durch INPPL1-(SHIP2-)Mutationen mit lockerer konzeptioneller Überlappung zum Insulinsignalweg; Empagliflozin moduliert SHIP2 oder die Skelettentwicklung nicht direkt; präklinische Validierung nötig |
 
 ---
 
 ## Evidenz aus klinischen Studien
 
-Derzeit sind keine verwandten klinischen Studien registriert.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Literaturbelege
+## Evidenz aus der Literatur
 
-Derzeit ist keine verwandte Literatur verfügbar.
+Derzeit liegt keine zugehörige Literatur vor.
 
 ---
 
-## Marktstatus in Taiwan
+## Informationen zum deutschen Markt
 
-Es sind derzeit keine Marktzulassungsdatensätze für Empagliflozin in diesem Bewertungspaket verfügbar (`total_licenses = 0`, Marktstatus: Nicht auf dem Markt / Not Marketed).
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation | Status |
+|---------|------|------|-----------|------|
+| EMEA/H/C/002677 | Jardiance | – | Diabetes mellitus Typ 2; Herzinsuffizienz; chronische Niereninsuffizienz | Erloschen |
+| EMEA/H/C/003770 | Synjardy | – | Diabetes mellitus Typ 2 | Erloschen |
+| EMEA/H/C/003833 | Glyxambi | – | Diabetes mellitus Typ 2 | Erloschen |
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+**Arzneimittelwechselwirkungen:** Für Empagliflozin wurden insgesamt 100 Wechselwirkungen erfasst (Quelle: DDInter). Die Mehrzahl der ausgewerteten Einträge ist von mittlerem Schweregrad (Moderate), einzelne sind gering (Minor). Beispiele:
+- **Mittlerer Schweregrad:** Phenylephrin, Acebutolol, Acetazolamid, Formoterol, Pseudoephedrin, Nifedipin, Epinephrin, Ethinylestradiol, Hydrocortison, Salbutamol, Ethanol, Fosinopril, Furosemid
+- **Geringer Schweregrad:** Hydrocortison (topisch), Alclometason (topisch)
 
-Hinweis: Dieses Bewertungspaket kennzeichnet **DG001** (Warnungen/Kontraindikationen der TFDA-Packungsbeilage — Schweregrad: **Blockierend**), was bedeutet, dass wichtige Warnungen, Kontraindikationen und Arzneimittelwechselwirkungsdaten nicht abgerufen werden konnten. Dies blockiert den Fortschritt zur Sicherheits-Vorbewertung S1 und muss vor weiterer Bewertung gelöst werden.
-
----
-
-## Weitere vorhergesagte Indikationen (Same Evidence Pack)
-
-Zwei weitere TxGNN-Vorhersagen wurden neben dem Hauptkandidaten zurückgegeben. Beide haben dasselbe evidentielle Profil — keine klinischen Studien, keine Literatur, Evidenzstufe L5, Entscheidungsstufe S0, Empfehlung Halten — und werden hier der Vollständigkeit halber vermerkt:
-
-| Rang | Krankheit | TxGNN-Wert | Hinweis |
-|------|-----------|-----------|--------|
-| 2 | Fokal Stiff-Limb-Syndrom | 99.06% | Nahezu identischer Wert zu Rang 1; wahrscheinlich das Ergebnis der gleichen Krankheitscluster-Einbettung, nicht eines unterschiedlichen Signals |
-| 3 | Opsismodysplasie | 99.03% | Seltene pädiatrische Skelettdysplasie (INPPL1/SHIP2-getrieben); jeder Zusammenhang mit SGLT2-Inhibition ist spekulativ und wird durch Daten nicht gestützt |
+Für Warnhinweise und Gegenanzeigen siehe die Fachinformation.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Halten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage basiert ausschließlich auf einem TxGNN-Modellwert (Evidenzstufe L5) ohne bestätigende klinische Studien oder Literatur, und die Wirkmechanismus-Daten des Arzneimittels selbst sind nicht verfügbar. Eine Datenlücke mit Sperrschweregrad (TFDA-Warnungen/Kontraindikationen) verhindert auch eine vorläufige Sicherheitsbewertung, sodass dieser Kandidat nicht über S0 hinaus voranschreiten kann.
+Die Vorhersage beruht ausschließlich auf einem Rechenmodell (L5), ohne klinische Studien, Literatur oder plausiblen Wirkmechanismus. Zudem sind alle drei deutschen Zulassungen erloschen.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- Beheben Sie DG001: Rufen Sie die TFDA-Packungsbeilage ab (Warnungen, Kontraindikationen, Arzneimittelwechselwirkungen), um die S1-Sicherheits-Vorbewertung zu ermöglichen
-- Beheben Sie DG002: Erhalten Sie bestätigte ursprüngliche MOA von DrugBank/Produktbeilage, um die mechanistische Plausibilität zu bewerten
-- Legen Sie ursprüngliche Indikation und Taiwan/internationale Zulassungsstatus fest, um den Vergleich „ursprüngliche vs. vorhergesagte Indikation" zu unterstützen
-- Führen Sie eine gezielte Literatur-/Präklinische-Suche durch nach einem SGLT2i–GABAergen oder SGLT2i–autoimmunologischen neurologischen Mechanismus, da derzeit keiner vorhanden ist
-- Angesichts des Clustering-Musters in den Rängen 1–2 sollten Sie in Betracht ziehen, zu überprüfen, ob die zugrunde liegende Wissensgraph-Knotenstruktur ein gemeinsames falsch positives Signal im gesamten Spektrum des Stiff-Person-Syndroms antreibt, bevor Sie weitere Evaluierungsressourcen einsetzen
-
+**Für ein Weiterkommen sind folgende Punkte nötig:**
+- Wirkmechanismus-Daten (MOA) und eine tragfähige mechanistische Hypothese für das Stiff-Person-Syndrom
+- Präklinische Validierung (z. B. in Modellen der GABAergen Hemmung bzw. Autoimmunität)
+- Beschaffung und Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen), da die Sicherheitsprüfung sonst nicht fortgesetzt werden kann
+- Klärung des aktuellen Zulassungs- und Marktstatus in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

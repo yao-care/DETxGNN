@@ -2,7 +2,7 @@
 layout: default
 title: Ropeginterferon Alfa-2B
 parent: Nur Modellvorhersage (L5)
-nav_order: 353
+nav_order: 411
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,65 +29,85 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Ropeginterferon Alfa-2b: Fehlende Daten zu ursprünglichen Indikationen → vermeintliches Falsches Positiv-Signal Laubry-Pezzi-Syndrom
+# Ropeginterferon alfa-2b: Von Polycythaemia vera zu Laubry-Pezzi-Syndrom
 
-## Eine Zeile Zusammenfassung
+## Zusammenfassung in einem Satz
 
-> Das vorliegende Arzneimittel (DrugBank ID: DB15119) verfügt derzeit über keine umfassenden Daten zu Originalindikationen und Wirkmechanismus und ist in Deutschland noch nicht zugelassen. Das TxGNN-Modell listet **Laubry-Pezzi-Syndrom** (Ventrikelseptumdefekt mit Aortenklappenvorfall) als primäre vorhergesagte Indikation auf, jedoch **ohne jegliche Unterstützung durch klinische Studien oder Literatur**, und die im Evidenzpaket enthaltene Wirkmechanismus-Analyse zeigt eindeutig auf, dass es sich um **ein falsches Positiv-Signal ohne biologische Plausibilität handelt**.
+Ropeginterferon alfa-2b ist ein monopegyliertes Interferon, das ursprünglich zur Behandlung der **Polycythaemia vera** zugelassen wurde. Das TxGNN-Modell sagt voraus, dass es bei **Laubry-Pezzi-Syndrom** wirksam sein könnte. Für diese Vorhersage liegen jedoch **keine klinischen Studien** und **keine Publikationen** vor; es handelt sich um eine reine Modellvorhersage.
 
 ---
 
 ## Schnellübersicht
 
-| Posten | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikationen | Daten fehlen (`original_indications` ist leer, `original_moa` wird nicht bereitgestellt) |
-| Vorhergesagte neue Indikationen | Laubry-Pezzi-Syndrom |
-| TxGNN-Vorhersage-Score | 99,93% |
-| Evidenzstufe | L5 (nur Modellvorhersage, keine tatsächliche Forschung) |
-| Marktstatus in Deutschland | ✗ Not marketed |
-| Anzahl der Zulassungsnummern | 0 |
+| Ursprüngliche Indikation | Polycythaemia vera |
+| Vorhergesagte neue Indikation | Laubry-Pezzi-Syndrom |
+| TxGNN-Vorhersagewert | 99,93 % |
+| Evidenzlevel | L5 |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
+| Anzahl der Zulassungen | 1 |
 | Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage begründet?
+## Warum ist diese Vorhersage (nicht) plausibel?
 
-Derzeit sind keine Wirkmechanismus-Daten (MOA) für dieses Arzneimittel verfügbar, und das Feld `original_indications` ist ebenfalls leer. Daher ist es nicht möglich, den Wirkmechanismus-Zusammenhang zwischen Originalindikationen und neuen Indikationen nach dem Standardverfahren zu vergleichen.
+Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Bekannt ist, dass Ropeginterferon alfa-2b ein monopegyliertes Interferon mit verbesserter Pharmakokinetik ist. Seine Wirksamkeit bei Polycythaemia vera ist belegt; es unterdrückt vermutlich JAK2-mutierte Klone bei myeloproliferativen Neoplasien.
 
-**Noch wichtiger ist, dass die in der Evidenzbeilage bereitgestellte Wirkmechanismus-Analyse diese Vorhersage bereits eindeutig ablehnt**: Das Laubry-Pezzi-Syndrom ist ein angeborener Herzfehler mit Ventrikelseptumdefekt und Aortenklappenvorfall, der eine strukturelle Anomalie darstellt und in keiner Verbindung zu den bekannten Wirkmechanismen von Interferonen (Immunmodulation, antivirale Wirkung, JAK-STAT-Pfad-Regulation) steht. Der hohe Score von TxGNN (99,93%) spiegelt nur die Ähnlichkeit der Knoten-Einbettungen im Wissensgraphen wider, nicht einen tatsächlichen Wirkmechanismus oder klinischen Zusammenhang, und sollte als **falsches Positiv-Signal** eingestuft werden.
+Das Laubry-Pezzi-Syndrom ist dagegen ein angeborener Ventrikelseptumdefekt mit Aortenklappeninsuffizienz, also eine strukturelle Herzfehlbildung. Ein plausibler Zusammenhang mit einem antiproliferativen bzw. immunmodulatorischen Interferon ist nicht erkennbar. Der hohe TxGNN-Wert ist eine rein graphbasierte Vorhersage und vermutlich ein Netzwerkartefakt.
 
-Die Kandidaten mit den Rängen 2–5, 7–10 (Ventrikelseptum-Aneurysma, Pierre-Robin-Syndrom, partielle Deletionen des Chromosoms 7q/22q, Jeune-Syndrom mit Situs inversus totalis, Lippen-Kiefer-Gaumenspalte, Pulmonalklappenkrankheit) sind ebenfalls angeborene strukturelle oder Entwicklungskrankheiten und weisen gleichermaßen keine mechanistische Plausibilität und keine empirische Unterstützung auf; ihre Natur ist identisch mit dem Rang 1.
-
-Besonders hervorzuheben ist **Rang 6 „Störung der Fucoglycosan-Synthese"**: Dies ist eine seltene Erkrankung des Glykosylstoffwechsels, aber die zugehörigen 4 Literaturzitate haben Themen, die **alle auf Polycythemia vera (PV) und IFN-α/JAK2V617F-Pfad-Forschung** beruhen, vollständig unangepasst an den beschrifteten Krankheitsnamen. Dies deutet stark darauf hin, dass im Wissensgraphen eine **Fehlanpassung der Krankheitsentität (Label Mismatch)** vorliegt — die wirklich empirisch gestützte Krankheit sollte PV sein (eine derzeit bekannte klinische Indikation dieses Arzneimittels), nicht dieses seltene Stoffwechselkrankheits-Label. Dieser Fund stellt kein wirksames „Drug Repurposing"-Signal dar, sollte aber als Datenkqualitätsproblem des Wissensgraphen gemeldet werden.
+Auch die übrigen neun hochbewerteten Vorhersagen sind überwiegend angeborene Fehlbildungen oder Chromosomenaberrationen. Dazu zählen interventrikuläres Septumaneurysma, Pierre-Robin-Syndrom (zwei Formen), Deletionen auf Chromosom 7q und 22q, Jeune-Syndrom mit Situs inversus, orofaziale Spaltbildung und Pulmonalklappenerkrankung. Für keine davon wurde ein Mechanismus identifiziert.
 
 ---
 
 ## Evidenz aus klinischen Studien
 
-Derzeit sind keine klinischen Studieneintragungen für Laubry-Pezzi-Syndrom vorhanden.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Literaturevidenz
+## Evidenz aus der Literatur
 
-Derzeit sind keine Literatur-Daten für Laubry-Pezzi-Syndrom vorhanden.
+Für Laubry-Pezzi-Syndrom liegt derzeit keine zugehörige Literatur vor.
 
-> Anmerkung: Der Kandidat mit Rang 6 (Störung der Fucoglycosan-Synthese) verfügt zwar über 4 Zitate (PMID 33476571, 32034662, 40770048, 32814349), aber nach Überprüfung beruhen alle Zitate auf PV/IFN-α-Behandlungsstudien und passen nicht zum beschrifteten Krankheitsnamen, daher wird eine Wissensgraph-Label-Fehlanpassung bestätigt und diese Zitate werden nicht als Unterstützungsevidenz für diese Indikation gezählt.
+Bei einer anderen Vorhersage (Störung der Fucoglykan-Synthese, Rang 6) wurden fünf Publikationen zugeordnet. Sie betreffen jedoch ausschließlich die Polycythaemia vera, also die ursprüngliche Indikation, und liefern keine Evidenz für die vorhergesagte Indikation. Sie werden hier nur zur Information genannt:
+
+| PMID | Jahr | Typ | Journal | Kernaussage |
+|------|-----|------|------|---------|
+| [33476571](https://pubmed.ncbi.nlm.nih.gov/33476571/) | 2021 | RCT | The Lancet. Haematology | Low-PV-Studie (Phase 2): Ropeginterferon alfa-2b zusätzlich zum Aderlass versus Aderlass allein bei Niedrigrisiko-Patienten mit Polycythaemia vera |
+| [32814349](https://pubmed.ncbi.nlm.nih.gov/32814349/) | 2021 | Kohorte | Blood | Keimbahn-Genvarianten beeinflussen das Ansprechen auf Interferon-α bei Polycythaemia vera (122 Patienten in PROUD-PV/CONTINUATION-PV) |
+| [42566639](https://pubmed.ncbi.nlm.nih.gov/42566639/) | 2026 | Systematische Übersicht/Meta-Analyse | Medicine | Wirksamkeit und Sicherheit von Ropeginterferon alfa-2b im Vergleich zu Standardtherapien bei Polycythaemia vera |
+| [40770048](https://pubmed.ncbi.nlm.nih.gov/40770048/) | 2025 | Kohorte | Blood Cancer Journal | Neutrophilen-Lymphozyten-Quotient als Surrogat für JAK2V617F-Suppression und ereignisfreies Überleben bei Polycythaemia vera |
+| [41999414](https://pubmed.ncbi.nlm.nih.gov/41999414/) | 2026 | Übersichtsarbeit | Annals of Hematology | Moderne multidisziplinäre Versorgung bei Polycythaemia vera |
 
 ---
 
 ## Marktinformationen Deutschland
 
-Dieses Arzneimittel ist in Deutschland derzeit **nicht zugelassen** (Not marketed) und es sind keine Zulassungsnummern oder zugelassenen Indikationsdaten verfügbar.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/004128 | Besremi | – | Polycythaemia vera |
+
+Diese Zulassung ist als erloschen/aufgehoben geführt. Es besteht keine gültige Zulassung.
 
 ---
 
-## Sicherheitsüberlegungen
+## Zytotoxizität
 
-Bitte konsultieren Sie die Arzneimittelgebrauchsinformation für Sicherheitsinformationen.
+| Punkt | Inhalt |
+|------|------|
+| Zytotoxizitätsklassifikation | Immuntherapie/Biologikum (Interferon); keine konventionelle Zytostatikum-Klasse |
+| Myelosuppressionsrisiko | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Emetogenität | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Überwachungsparameter | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Handhabungsschutz | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
 
-> Ergänzung: Diese Kandidatenakte verzeichnet BfArM-Gebrauchsinformation Warnhinweise/Kontraindikationen (DG001, Blocking) und Wirkmechanismus (DG002, High) als fehlend, wobei das erstere bereits den Eintritt in die Sicherheits-Vorbewertungsphase (S1) direkt blockiert.
+---
+
+## Sicherheitsaspekte
+
+Für Wechselwirkungen wurden in den zusammengestellten Daten keine Einträge gefunden. Bitte die Fachinformation für Sicherheitsangaben heranziehen.
 
 ---
 
@@ -96,17 +116,13 @@ Bitte konsultieren Sie die Arzneimittelgebrauchsinformation für Sicherheitsinfo
 **Entscheidung: Hold**
 
 **Begründung:**
-- Alle 10 vorhergesagten Indikationen der Ränge 1–10 haben eine Evidenzstufe von nur L5 (nur Modellvorhersage, keine tatsächliche Forschungsunterstützung), und die Wirkmechanismus-Analyse des Rangs 1 hat eindeutig ein falsches Positiv identifiziert.
-- Der einzige Kandidat mit Literaturzitaten (Rang 6) wurde nach Überprüfung als Wissensgraph-Krankheitslabel-Fehlanpassung bestätigt, wobei der tatsächliche Literaturinhalt der bekannten PV-Indikation dieses Arzneimittels entspricht, nicht einem echten neuen Indikations-Signal.
-- Fehlende MOA-, TFDA-Gebrauchsinformation-Warnhinweise und Kontraindikationen sowie weitere wichtige Arzneimittel-Ebene-Daten machen eine Wirkmechanismus-Zusammenhang- und Sicherheits-Vorbewertung unmöglich.
+Für das Laubry-Pezzi-Syndrom gibt es weder klinische Studien noch Literatur, und es ist kein plausibler Wirkmechanismus erkennbar. Der hohe TxGNN-Wert stützt sich allein auf Graphstrukturen; zudem besteht in Deutschland derzeit keine gültige Zulassung.
 
-**Sollte die Bearbeitung fortgesetzt werden, sind folgende Informationen erforderlich:**
-- Wirkmechanismus-Daten (MOA) (DrugBank-API-Abfrage)
-- BfArM-Gebrauchsinformation Warnhinweise/Kontraindikationen-Daten (PDF-Parsing)
-- Korrekte Liste ursprünglicher Indikationen (derzeit leer; praktisch gesehen wurde dieses Arzneimittel bereits für Polycythemia vera verwendet, muss mit offiziellen Quellen bestätigt und ergänzt werden)
-- Validierung der Krankheitsentitäts-Entsprechung des Wissensgraphen, mit Vorrang auf Korrektur der Label-Fehlanpassung bei Rang 6
-- Falls eine Neubewertung durchgeführt werden soll, wird empfohlen, diese 10 Kandidaten auszuschließen und auf die nächste Runde des Modells oder manuell überprüfte Ergebnisse mit biologisch plausibler Begründung zu warten
-
+**Für ein Weiterverfolgen wären erforderlich:**
+- Daten zum Wirkmechanismus (MOA) und eine belastbare biologische Begründung für einen Zusammenhang mit dem Laubry-Pezzi-Syndrom
+- Fachinformation (Warnhinweise, Gegenanzeigen) von BfArM bzw. EMA, da die Sicherheitsprüfung sonst nicht möglich ist
+- Prüfung des Zulassungsstatus in Deutschland
+- Gegebenenfalls Priorisierung anderer Vorhersagen oder eine Plausibilitätsprüfung der Modellausgabe, da alle zehn Top-Vorhersagen ohne Evidenz und ohne erkennbaren Mechanismus sind
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

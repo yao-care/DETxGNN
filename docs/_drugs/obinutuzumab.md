@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Obinutuzumab
-parent: Hohe Evidenz (L1-L2)
-nav_order: 275
-evidence_level: L1
+parent: Nur Modellvorhersage (L5)
+nav_order: 321
+evidence_level: L5
 indication_count: 3
 ---
 
 # Obinutuzumab
 {: .fs-9 }
 
-Evidenzniveau: **L1** | Vorhergesagte Indikationen: **3** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,113 +29,94 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Obinutuzumab: Von der Anti-CD20-Antikörpertherapie zum Follikulären Lymphom
+# Obinutuzumab: Von chronischer lymphatischer B-Zell-Leukämie zu CLL/SLL mit somatischer Hypermutation der IGHV-Gene
 
 ## Zusammenfassung in einem Satz
 
-Obinutuzumab ist ein glykotechnisch modifizierter Typ-II-Anti-CD20-Monoklonalantikörper; dieses Evidenzpaket enthält keinen bestätigten lokalen Originalindikationsdatensatz oder Markteintrag für das Arzneimittel (derzeit **nicht vermarktet** in dieser Gerichtsbarkeit). Das TxGNN-Modell sagt voraus, dass es wirksam für **Follikuläres Lymphom** sein könnte, mit **50 klinischen Studien** und **20 Publikationen**, die während der Evidenzsammlung identifiziert wurden — von denen die 10 relevantesten von jedem nachstehend zusammengefasst sind.
+Obinutuzumab ist ein gentechnisch optimierter Anti-CD20-Antikörper, der ursprünglich zur Behandlung der chronischen lymphatischen B-Zell-Leukämie (CLL) zugelassen wurde.
+Das TxGNN-Modell sagt eine Wirksamkeit bei **CLL/SLL mit somatischer Hypermutation der Immunglobulin-Schwerketten-Variabilitätsgene (IGHV)** voraus.
+Dafür liegen derzeit **0 klinische Studien** und **0 Publikationen** vor, die speziell diesen Subtyp betreffen. Es handelt sich zudem um einen Subtyp der bereits zugelassenen Indikation und nicht um eine echte neue Indikation.
 
 ---
 
-## Schnellüberblick
+## Schnellübersicht
 
 | Punkt | Inhalt |
-|-------|--------|
-| Originalindikation | Nicht verfügbar — keine zugelassene Indikation in den Unterlagen; das Arzneimittel ist derzeit in dieser Gerichtsbarkeit nicht vermarktet |
-| Vorhergesagte neue Indikation | Follikuläres Lymphom |
-| TxGNN-Vorhersage-Score | 99,18 % |
-| Evidenzebene | L1 |
-| Marktstatus Deutschland | ✗ Nicht vermarktet |
-| Anzahl Genehmigungen | 0 |
-| Empfohlene Entscheidung | Weitermachen mit Vorkehrungen |
-
-**Hinweis zur Datenqualität:** Das gleiche Evidenzpaket stuft auch „CLL/SLL mit IGHV-Keimbahn-Hypermutation" (Score 99,21 %) und „pregerminal-center CLL/SLL" (Score 99,21 %) als die zwei besten TxGNN-Vorhersagen ein, aber beide haben 0 übereinstimmende klinische Studien und 0 Literatureinträge (Evidenzebene L5, Entscheidung: Zurückhalten). Die Rationale des Evidenzpakets selbst vermerkt explizit, dass dies im Widerspruch zu der öffentlich bekannten Tatsache steht, dass Obinutuzumab in mehreren Ländern für CLL zugelassen ist, und empfiehlt, die Datenquelle zu überprüfen, bevor eine Entscheidung zu diesen zwei Indikationen getroffen wird. Sie werden in diesem Bericht nicht weiter analysiert und sollten erneut abgefragt werden, anstatt als echte negative Befunde behandelt zu werden.
+|------|------|
+| Ursprüngliche Indikation | Chronische lymphatische B-Zell-Leukämie |
+| Vorhergesagte neue Indikation | Chronische lymphatische Leukämie/kleinzelliges lymphozytisches Lymphom mit somatischer Hypermutation der IGHV-Gene |
+| TxGNN-Vorhersagewert | 99,21 % |
+| Evidenzniveau | L5 (nur Modellvorhersage, keine subtypspezifischen Studien) |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
+| Anzahl der Zulassungen | 1 |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage sinnvoll?
+## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Wirkungsmechanismus-Daten sind nicht im strukturierten Feld `original_moa` dieses Evidenzpakets vorhanden (als Datenlücke gekennzeichnet). Jedoch beschreibt die unterstützende Literatur, die in der Evidenzgrundlage erfasst wurde, Obinutuzumab durchgehend als einen rekombinanten, humanisierten, glykotechnisch optimierten Typ-II-Anti-CD20-Monoklonalantikörper (z. B. PMID 28324270, PMID 31360086), der antikörperabhängige zelluläre Zytotoxizität (ADCC), komplementabhängige Zytotoxizität (CDC) und direkte B-Zell-Abtötung stärker fördert als Erste-Generation-Anti-CD20-Antikörper wie Rituximab.
+Obinutuzumab ist ein glykoengineerter, humanisierter Typ-II-Anti-CD20-Antikörper. Er bindet an CD20 auf B-Zellen und verstärkt im Vergleich zu älteren Antikörpern den direkten Zelltod sowie die antikörperabhängige zelluläre Zytotoxizität und Phagozytose (ADCC/ADCP). Da CLL-Zellen CD20 tragen, ist der Wirkmechanismus bei dieser Erkrankung plausibel. Detaillierte Mechanismusdaten aus Arzneimitteldatenbanken liegen für diesen Bericht nicht vor.
 
-Follikuläres Lymphom ist ein indolentes Keimzentrum-B-Zell-Lymphom, dessen bösartige Zellen charakteristischerweise CD20 auf ihrer Oberfläche exprimieren — das gleiche Zielantigen, das Anti-CD20-Antikörper (Rituximab, Obinutuzumab, Ofatumumab) bereits in anderen B-Zell-Malignomen behandeln. Dies verleiht der TxGNN-Vorhersage schon vor der Berücksichtigung von Studiendaten starke biologische Plausibilität: Sie verbindet ein bekanntes Wirkziel (CD20) mit einer Krankheit, die durch die Expression dieses Ziels definiert wird.
-
-Kritisch ist, dass dies keine rein rechnerische Vorhersage ist — sie wird durch eine ungewöhnlich große und reife Sammlung von direkter klinischer Evidenz gestützt, einschließlich der pivotalen Phase-3-GALLIUM-Studie (PMID 28976863, 29856692, 37404773), die direkt eine obinutuzumab-basierte Immunchemotherapie gegen eine rituximab-basierte Immunchemotherapie in zuvor unbehandeltem follikulärem Lymphom verglich und eine überlegene progressionsfreie Überlebensdauer demonstrierte. Dies macht Follikuläres Lymphom zum am stärksten gestützten Repurposing-Kandidaten in diesem Evidenzpaket, im Gegensatz zu den zwei CLL/SLL-Vorhersagen oben, die derzeit keine abgeglichene Evidenz in diesem Datensatz haben.
+Der vorhergesagte Subtyp (CLL/SLL mit mutiertem IGHV-Status) gehört zur bereits zugelassenen Indikation CLL. Der hohe Vorhersagewert spiegelt vermutlich die enge Verwandtschaft in der Krankheitsontologie wider und kein unabhängiges Wirksamkeitssignal. Die Verbindung ist daher indirekt, und es handelt sich nicht um ein echtes Repurposing-Kandidatenprofil.
 
 ---
 
-## Klinische Studienevidenz
+## Klinische Evidenz
 
-| Studiennummer | Phase | Status | Einschluss | Wichtigste Ergebnisse |
-|---|---|---|---|---|
-| [NCT06191744](https://clinicaltrials.gov/study/NCT06191744) | Phase 3 | Rekrutierung läuft | 1095 | EPCORE™FL-2: Epcoritamab + Lenalidomid/Rituximab vs. Chemoimmunotherapie in zuvor unbehandeltem FL |
-| [NCT05929222](https://clinicaltrials.gov/study/NCT05929222) | Phase 3 | Rekrutierung läuft | 190 | GAZEBO-Studie: Radiotherapie allein vs. Radiotherapie + Obinutuzumab in frühen FL-Stadien |
-| [NCT05100862](https://clinicaltrials.gov/study/NCT05100862) | Phase 3 | Rekrutierung läuft | 780 | Zanubrutinib + Anti-CD20-Antikörper vs. Lenalidomid + Rituximab in rezidiviertem/refraktärem FL/MZL |
-| [NCT03332017](https://clinicaltrials.gov/study/NCT03332017) | Phase 2 | Abgeschlossen | 217 | Zanubrutinib + Obinutuzumab vs. Obinutuzumab-Monotherapie in rezidiviertem/refraktärem FL (ROSEWOOD) |
-| [NCT02871219](https://clinicaltrials.gov/study/NCT02871219) | Phase 2 | Abgeschlossen | 96 | Obinutuzumab + Lenalidomid in zuvor unbehandeltem FL (Grad 1-3a, Stadium II-IV) |
-| [NCT01582776](https://clinicaltrials.gov/study/NCT01582776) | Phase 1b/2 | Abgeschlossen | 317 | Obinutuzumab + Lenalidomid bei zuvor unbehandeltem und rezidiviertem/refraktärem FL und anderen B-Zell-Lymphomen |
-| [NCT04450173](https://clinicaltrials.gov/study/NCT04450173) | Phase 2 | Aktiv, keine Rekrutierung | 40 | Obinutuzumab + Ibrutinib + Venetoclax in zuvor unbehandeltem FL |
-| [NCT03817853](https://clinicaltrials.gov/study/NCT03817853) | Phase 4 | Abgeschlossen | 114 | Sicherheit von Obinutuzumab-Kurzinfusion bei zuvor unbehandeltem fortgeschrittenem FL |
-| [NCT05899621](https://clinicaltrials.gov/study/NCT05899621) | k. A. (Real-World) | Rekrutierung läuft | 332 | Real-World-Wirksamkeit/Sicherheit von Obinutuzumab-basierter Therapie in zuvor unbehandeltem FL |
-| [NCT06108232](https://clinicaltrials.gov/study/NCT06108232) | Phase 2 | Aktiv, keine Rekrutierung | 33 | Obinutuzumab + CC-99282 in zuvor unbehandeltem, hochgradig tumorbelastestem FL |
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Literaturbeweise
+## Literaturevidenz
 
-| PMID | Jahr | Typ | Journal | Wichtigste Ergebnisse |
-|---|---|---|---|---|
-| [28976863](https://pubmed.ncbi.nlm.nih.gov/28976863/) | 2017 | RCT | The New England Journal of Medicine | Pivotale GALLIUM-Studie: Obinutuzumab- vs. Rituximab-basierte Chemotherapie in zuvor unbehandeltem fortgeschrittenem FL |
-| [29856692](https://pubmed.ncbi.nlm.nih.gov/29856692/) | 2018 | RCT | Journal of Clinical Oncology | GALLIUM-Subanalyse: Einfluss des Chemotherapie-Backbones (CHOP/CVP/Bendamustin) auf Wirksamkeit und Sicherheit |
-| [37404773](https://pubmed.ncbi.nlm.nih.gov/37404773/) | 2023 | RCT | HemaSphere | GALLIUM-Finalanalyse: Dauerhafter PFS-Vorteil von Obinutuzumab vs. Rituximab-Immunchemotherapie in FL/MZL |
-| [37506346](https://pubmed.ncbi.nlm.nih.gov/37506346/) | 2023 | RCT | Journal of Clinical Oncology | ROSEWOOD: Zanubrutinib + Obinutuzumab vs. Obinutuzumab-Monotherapie in rezidiviertem/refraktärem FL |
-| [31296423](https://pubmed.ncbi.nlm.nih.gov/31296423/) | 2019 | RCT | The Lancet Haematology | GALEN-Studie: Obinutuzumab + Lenalidomid in rezidivierter/refraktärer follikulärer B-Zell-Lymphom |
-| [37767550](https://pubmed.ncbi.nlm.nih.gov/37767550/) | 2024 | RCT | Haematologica | Polatuzumab Vedotin + Bendamustin/Rituximab oder Obinutuzumab in rezidiviertem/refraktärem FL (Phase Ib/II) |
-| [31360086](https://pubmed.ncbi.nlm.nih.gov/31360086/) | 2017 | Übersicht | Blood and Lymphatic Cancer: Targets and Therapy | Übersicht über Obinutuzumab-Aktivität allein und in Kombination in FL |
-| [28324270](https://pubmed.ncbi.nlm.nih.gov/28324270/) | 2017 | Übersicht | Targeted Oncology | Übersicht über Obinutuzumab bei Rituximab-refraktärem/rezidiviertem FL, einschließlich GADOLIN-Studie |
-| [38660754](https://pubmed.ncbi.nlm.nih.gov/38660754/) | 2024 | Übersicht | Turkish Journal of Haematology | Umfassende Übersicht über Staging, Prognose und Behandlungsoptionen in FL |
-| [39830356](https://pubmed.ncbi.nlm.nih.gov/39830356/) | 2024 | Übersicht | Frontiers in Pharmacology | Schnellübersicht über Wirksamkeit, Sicherheit und Kosteneffektivität von Obinutuzumab in FL |
+Derzeit liegt keine zugehörige Literatur vor.
 
 ---
 
 ## Marktinformationen Deutschland
 
-Es sind keine Genehmigungsunterlagen verfügbar — `taiwan_regulatory.market_status` ist „Not marketed" mit 0 Lizenzen insgesamt in den Unterlagen. Obinutuzumab hat derzeit keinen registrierten Produkteintrag in dieser Gerichtsbarkeit der Regulierungsdatenbank.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/002799 | Gazyvaro (Roche Registration GmbH) | – | Chronische lymphatische B-Zell-Leukämie (Status: erloschen/aufgehoben) |
 
 ---
 
 ## Zytotoxizität
 
-Obinutuzumab ist ein antineoplastisches Arzneimittel (CD20-gerichteter Monoklonalantikörper, verwendet bei B-Zell-Malignomen, einschließlich Follikulärem Lymphom), daher gilt dieser Abschnitt.
-
 | Punkt | Inhalt |
-|-------|--------|
-| Zytotoxizitätsklassifizierung | Gezielte Therapie / Immuntherapie (Anti-CD20-Monoklonalantikörper) — keine konventionelle zytotoxische Chemotherapie |
-| Myelosuppressions-Risiko | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation |
-| Emetogenitäts-Klassifizierung | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation |
-| Überwachungselemente | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation |
-| Schutzausrüstung bei Handhabung | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation |
+|------|------|
+| Zytotoxizitätsklassifikation | Zielgerichtete Therapie / Immuntherapie (monoklonaler Anti-CD20-Antikörper), kein konventionelles Zytostatikum |
+| Myelosuppressionsrisiko | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Emetogenitätsklassifikation | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Überwachungsparameter | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Schutzmaßnahmen bei der Handhabung | Bitte Fachinformation beachten |
 
 ---
 
-## Sicherheitsüberlegungen
+## Sicherheitsaspekte
 
-Bitte lesen Sie die Fachinformation für Sicherheitsinformationen.
+**Arzneimittelwechselwirkungen:** Insgesamt wurden 81 Wechselwirkungen erfasst. Die wichtigsten sind:
+
+- **Schwerwiegend (Major):** Deferipron, Samarium-153-Lexidronam, Adalimumab, Baricitinib, Certolizumab pegol, Cladribin, Clozapin
+- **Moderat:** Alemtuzumab, Azathioprin, Anakinra, Canakinumab, Alefacept, Roflumilast, Chloramphenicol, Zidovudin, Strontiumchlorid-89 sowie mehrere Impfstoffe (z. B. Tetanustoxoid, Anthrax, Cholera-Lebendimpfstoff)
+
+Für Warnhinweise und Gegenanzeigen liegen keine Daten vor. Bitte die Fachinformation zu Rate ziehen.
 
 ---
 
-## Schlussfolgerung und Nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Weitermachen mit Vorkehrungen**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die vorhergesagte Assoziation zwischen Obinutuzumab und Follikulärem Lymphom wird durch eine starke CD20-gerichtete mechanistische Rationale und eine reife Evidenzbasis unterstützt, einschließlich einer pivotalen Phase-3-RCT (GALLIUM) sowie mehrerer abgeschlossener und laufender Phase-2/3-Studien — erfüllt den L1-Evidenzschwellenwert. Jedoch ist das Arzneimittel derzeit nicht registriert/nicht vermarktet in dieser Gerichtsbarkeit, und grundlegende Sicherheits-, MOA- und Regulierungsdaten bleiben unbestätigt, daher sollte eine Fortführung nur unter zusätzlichen Vorkehrungen erfolgen.
+Für den vorhergesagten Subtyp gibt es weder Studien noch Publikationen. Der hohe Modellwert beruht vermutlich auf der ontologischen Nähe zur bereits zugelassenen CLL-Indikation. Zudem ist die einzige erfasste Zulassung in Deutschland erloschen. Ein eigenständiger Repurposing-Mehrwert ist daher nicht erkennbar.
 
-**Zum Fortschreiten ist Folgendes erforderlich:**
-- Bestätigung der Wirkungsmechanismus- und DrugBank-Kategoriedaten (derzeit als Datenlücke gekennzeichnet, DG002)
-- Beschaffung und Analyse der lokalen Fachinformation für Warnhinweise, Kontraindikationen und Wechselwirkungsdaten (derzeit als blockierende Datenlücke gekennzeichnet, DG001)
-- Überprüfung des Status des lokalen Registrierungswegs, da derzeit 0 Genehmigungen in den Unterlagen eingetragen sind
-- Erneute Abfrage der Datenquelle für die zwei CLL/SLL-Vorhersagen (Ränge 1–2), um die oben gekennzeichnete scheinbare Evidenzsammlungslücke zu beheben, bevor eine Entscheidung zu diesen Indikationen getroffen wird
-
+**Für ein Weiterkommen ist Folgendes nötig:**
+- Prüfung des aktuellen Zulassungsstatus anhand der offiziellen Regulierungsdaten (EMA/BfArM)
+- Beschaffung und Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen)
+- Ergänzung detaillierter Mechanismusdaten (MOA)
+- Subtypspezifische Auswertung vorhandener CLL-Studien nach IGHV-Status
+- Alternativ: Fokus auf die in den Daten besser belegte Vorhersage **follikuläres Lymphom** (Rang 3, TxGNN-Wert 99,18 %). Dafür liegen unter anderem die Phase-3-Studie GALLIUM (PMID 29856692, 37404773), die randomisierte Phase-2-Studie ROSEWOOD (PMID 37506346) und die Phase-2-Studie GALEN (PMID 31296423) vor. Auch dort ist zu klären, ob die Indikation bereits zugelassen ist.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

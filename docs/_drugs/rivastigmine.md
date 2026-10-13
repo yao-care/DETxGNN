@@ -2,7 +2,7 @@
 layout: default
 title: Rivastigmine
 parent: Mittlere Evidenz (L3-L4)
-nav_order: 351
+nav_order: 409
 evidence_level: L4
 indication_count: 1
 ---
@@ -29,82 +29,92 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Rivastigmin: Vom unbekannten ursprünglichen Indikationsgebiet zum Glaukom (vorhergesagt)
+# Rivastigmin: Von Demenz bei Alzheimer- und Parkinson-Krankheit zu Glaukom
 
 ## Zusammenfassung in einem Satz
 
-> Die ursprüngliche Indikation von Rivastigmin und seine Zulassungsgeschichte sind in diesem Evidenzpaket nicht dokumentiert (das Arzneimittel ist derzeit **nicht auf dem deutschen Markt erhältlich**, es liegen keine BfArM-Lizenzbescheinigungen vor).
-> Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam gegen **Glaukom** ist,
-> mit **0 klinischen Studien** und **3 Publikationen** (alle präklinisch/mechanistisch), die diese Richtung derzeit unterstützen.
+Rivastigmin ist ein Cholinesterase-Hemmer, der ursprünglich zur Behandlung von Demenz bei Alzheimer- und Parkinson-Krankheit zugelassen wurde. Das TxGNN-Modell sagt voraus, dass er bei **Glaukom** wirksam sein könnte. Die Evidenz ist bislang schwach: Es gibt **keine klinischen Studien** und **3 Publikationen**, darunter eine präklinische Kaninchenstudie.
 
 ---
 
-## Schnellübersicht
+## Kurzübersicht
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Nicht verfügbar – keine TFDA/BfArM-Lizenzbescheinigungen in diesem Evidenzpaket |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Demenz; Alzheimer-Krankheit; Parkinson-Krankheit |
 | Vorhergesagte neue Indikation | Glaukom |
-| TxGNN-Vorhersage-Score | 99.27% |
-| Evidenzstufe | L4 |
-| Marktstatus Deutschland | Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Halten |
+| TxGNN-Vorhersagewert | 99,27 % |
+| Evidenzgrad | L4 |
+| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
+| Anzahl der Zulassungen | 6 (alle erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage nachvollziehbar?
+## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Angaben zum Wirkmechanismus für Rivastigmin sind in dem Standard-MOA-Feld dieses Evidenzpakets nicht verfügbar. Die bereitgestellte Begründung für die Umpositionierung beschreibt Rivastigmin jedoch als **dualen Acetylcholinesterase (AChE) / Butyrylcholinesterase (BuChE) -Inhibitor**. Durch die Inhibition dieser Enzyme erhöht Rivastigmin die lokale Acetylcholinkonzentration – mechanistisch ähnlich klassischen cholinergischen Miotika (z. B. Pilocarpin), die etablierte Glaukom-Therapien darstellen. Erhöhtes Acetylcholin kann die Ziliarmuskulatur kontrahieren und den Abfluss von Kammerwasser durch das Trabekelwerk erhöhen, wodurch der Augeninnendruck (IOP) gesenkt wird.
+Rivastigmin hemmt die Acetylcholinesterase und die Butyrylcholinesterase und erhöht dadurch die Acetylcholinkonzentration. Detaillierte Daten zum Wirkmechanismus liegen für diesen Bericht nicht vor; der Mechanismus wird daher aus der bekannten Wirkstoffklasse abgeleitet.
 
-Da die ursprüngliche Indikation von Rivastigmin hier nicht dokumentiert ist, kann die Beziehung zwischen seiner bekannten klinischen Verwendung und der vorgeschlagenen Glaukom-Indikation nicht direkt aus diesem Evidenzpaket bewertet werden. Der vorgeschlagene Zusammenhang ist rein mechanistisch – abgeleitet von Rivastigmins bekannter Pharmakologie als Cholinesterase-Inhibitor – und nicht auf etablierten Indikationsüberlappungen begründet.
+Beim Glaukom ist die Senkung des Augeninnendrucks (IOP) das zentrale Therapieziel. Cholinerge Wirkstoffe wie Pilocarpin steigern den Kammerwasserabfluss über das Trabekelwerk und erhöhen den Tonus des Ziliarmuskels. Eine Anreicherung von Acetylcholin am Auge könnte diesen Effekt nachahmen. Eine Studie aus dem Jahr 2000 zeigte, dass topisch angewendetes Rivastigmin den Augeninnendruck bei Kaninchen senkte. Das ist eine direkte, aber rein präklinische Stütze. Eine Analyse aus dem Jahr 2024 (Systemgenetik und molekulare Modellierung) liefert zusätzliche rechnerische und mechanistische Hinweise.
 
-Derzeit ist die Evidenz für die okulare Anwendung auf eine topische Tierstudie (Kaninchen) und zwei mechanistische/Review-Artikel begrenzt. Es gibt keine Human-Pharmakokinetik-, Wirksamkeits- oder Sicherheitsdaten für eine ophtalmologische Formulierung von Rivastigmin, und Hornhautdurchdringung sowie lokale Verträglichkeit bleiben unbestätigt.
-
----
-
-## Klinische Studienevidenz
-
-Derzeit keine verwandten klinischen Studien registriert.
+Der hohe TxGNN-Wert ist mit dieser Hypothese vereinbar, ist aber eine Modellvorhersage und kein klinischer Beleg. Zudem kann eine systemische Cholinesterase-Hemmung cholinerge Nebenwirkungen verursachen (z. B. gastrointestinale Effekte, Bradykardie). Für eine okuläre Anwendung wären eigene Arbeiten zu Formulierung und Sicherheit nötig.
 
 ---
 
-## Literaturevidenz
+## Evidenz aus klinischen Studien
 
-| PMID | Jahr | Typ | Journal | Wichtige Erkenntnisse |
-|------|-----|------|--------|---------|
-| [10673128](https://pubmed.ncbi.nlm.nih.gov/10673128/) | 2000 | Tierstudie (Kaninchen, topische PK/PD) | J Ocul Pharmacol Ther | Topisches Rivastigmin, ein selektiver AChE-Inhibitor, senkte den Augeninnendruck in normotensiven Kaninchen über einen 8-Stunden-Beobachtungszeitraum |
-| [39130374](https://pubmed.ncbi.nlm.nih.gov/39130374/) | 2024 | Präklinische/Systemgenetische & molekulare Studie | Front Mol Biosci | Überprüft cholinergische (M3-Muskarinrezeptor-)Signalwege, die den IOP über das Trabekelwerk regulieren; vermerkt, dass systemische Nebenwirkungen aktuelle cholinergische IOP-senkende Mittel einschränken |
-| [27967267](https://pubmed.ncbi.nlm.nih.gov/27967267/) | 2017 | Review (Patentliteratur) | Expert Opin Ther Pat | Überprüft AChE-Inhibitoren/Reaktivatoren und bemerkt, dass milde AChE-Inhibition therapeutische Relevanz bei Alzheimer-Erkrankung, Myasthenia gravis und Glaukom hat |
+Derzeit sind keine relevanten klinischen Studien registriert.
 
 ---
 
-## Informationen zum deutschen Markt
+## Evidenz aus der Literatur
 
-Rivastigmin ist gemäß diesem Evidenzpaket derzeit nicht auf dem deutschen Markt erhältlich, und es liegen keine BfArM-Zulassungsbescheinigungen vor.
+| PMID | Jahr | Typ | Journal | Kernaussagen |
+|------|-----|------|------|---------|
+| [10673128](https://pubmed.ncbi.nlm.nih.gov/10673128/) | 2000 | Präklinisch (Tierstudie, Kaninchen) | J Ocul Pharmacol Ther | Topisches Rivastigmin senkte den Augeninnendruck bei normotensiven Kaninchen. |
+| [39130374](https://pubmed.ncbi.nlm.nih.gov/39130374/) | 2024 | Review/Computational | Front Mol Biosci | Systemgenetische und molekulare Analyse cholinerger Wirkstoffe zur IOP-Senkung; systemische cholinerge Nebenwirkungen limitieren bestehende M3-Agonisten. |
+| [27967267](https://pubmed.ncbi.nlm.nih.gov/27967267/) | 2017 | Review | Expert Opin Ther Pat | Überblick über Acetylcholinesterase-Hemmer und -Reaktivatoren; milde AChE-Hemmung gilt u. a. bei Alzheimer, Myasthenia gravis und Glaukom als therapeutisch relevant. |
+
+---
+
+## Marktinformationen Deutschland
+
+Alle sechs Zulassungen sind erloschen; aktuell ist keine gültige Zulassung vorhanden.
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000169 | Exelon | – | Demenz; Alzheimer-Krankheit; Parkinson-Krankheit |
+| EMEA/H/C/000255 | Prometax | – | Alzheimer-Krankheit; Parkinson-Krankheit; Demenz |
+| EMEA/H/C/001029 | Nimvastid | – | Demenz; Alzheimer-Krankheit; Parkinson-Krankheit |
+| EMEA/H/C/001181 | Rivastigmine 1 A Pharma | – | Alzheimer-Krankheit; Demenz; Parkinson-Krankheit |
+| EMEA/H/C/001182 | Rivastigmine Hexal | – | Demenz; Alzheimer-Krankheit; Parkinson-Krankheit |
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+- **Kontraindikationen aus dem Wissensgraphen** (abgeleitet aus Arzneimittel-Krankheits-Beziehungen, nicht aus Packungsbeilagentexten): Epilepsie, Erkrankungen der Basalganglien, fokale Handdystonie, Blepharospasmus, COPD (inkl. schwerer früh beginnender Form), Asthma (inkl. intrinsischem und allergischem Asthma), Durchfallerkrankungen, plötzlicher Herzstillstand, Erregungsleitungsstörungen des Herzens, Sick-Sinus-Syndrom (auch familiär), AV-Block, Anorexia nervosa, aktives Magengeschwür, Harnwegsobstruktion sowie Parkinsonsyndrome/Parkinson-Krankheit.
+- **Arzneimittelwechselwirkungen** (insgesamt 100 erfasst; Auszug):
+  - **Schwerwiegend (Major):** Bupropion.
+  - **Moderat:** Anticholinergika bzw. Spasmolytika (Atropin, Hyoscyamin, Glycopyrronium, Clidinium, Dicyclomin, Trospium, Mepenzolat), H2-Blocker (Famotidin, Ranitidin, Cimetidin), Loperamid, Metronidazol, Clarithromycin, Levofloxacin, Dolasetron, Palonosetron sowie Abführ-/Darmreinigungsmittel (Picosulfat, Polyethylenglykol, Natriumsulfat).
+
+Hinweise aus der Packungsbeilage liegen nicht vor; bitte die Fachinformation für Warnhinweise konsultieren.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Halten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die Evidenz für die Glaukom-Indikation ist auf eine einzelne Tierstudie (Kaninchen) und zwei mechanistische/Review-Artikel (Evidenzstufe L4) begrenzt – es existieren keine klinischen Studien am Menschen. Dies wird durch eine **blockierende Datenlücke** in TFDA-Kennzeichnungswarnungen/Kontraindikationen verschärft, die selbst eine vorläufige (S1) Sicherheitsbewertung verhindert.
+Die Evidenz beschränkt sich auf eine Kaninchenstudie, Übersichtsarbeiten und die Modellvorhersage (L4); klinische Studien fehlen. Zudem sind in Deutschland alle Zulassungen erloschen, und die systemische cholinerge Verträglichkeit ist für eine okuläre Anwendung nicht geklärt.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- TFDA/BfArM-Packungsbeilage-Daten (Warnungen, Kontraindikationen) zur Behebung der blockierenden Datenlücke (DG001)
-- Bestätigte Wirkmechanismus-Dokumentation für die zugelassene (systemische) Indikation von Rivastigmin (DG002)
-- Human-Pharmakokinetische und Hornhautdurchdringungsdaten für eine topische/ophtalmologische Rivastigmin-Formulierung
-- Verabreichungsweg-Kompatibilitätsbewertung (systemische Formulierung vs. erforderliche topische/okulare Route)
-- Frühe klinische Studiendaten (Phase 1/2) zur IOP-senkenden Wirksamkeit und lokalen okularen Verträglichkeit
-
+**Zur Weiterverfolgung sind folgende Schritte nötig:**
+- Auswertung der Packungsbeilagen (Warnhinweise und Kontraindikationen) über das BfArM, da diese Sicherheitsdaten fehlen
+- Detaillierte Daten zum Wirkmechanismus (z. B. über DrugBank)
+- Bestätigung der IOP-Senkung in weiteren präklinischen Modellen, möglichst auch bei Glaukommodellen mit erhöhtem Druck
+- Entwicklung und Sicherheitsprüfung einer topischen/okulären Formulierung
+- Klärung des Zulassungs- und Marktstatus in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

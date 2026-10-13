@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Nintedanib
-parent: Nur Modellvorhersage (L5)
-nav_order: 270
-evidence_level: L5
+parent: Mittlere Evidenz (L3-L4)
+nav_order: 315
+evidence_level: L4
 indication_count: 3
 ---
 
 # Nintedanib
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3** 
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,67 +29,103 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Nintedanib: Von einer nicht dokumentierten Ursprungsindikation zur Dermatofibrosarkom Protuberans
+# Nintedanib: Von nicht-kleinzelligem Lungenkarzinom und idiopathischer Lungenfibrose zu Dermatofibrosarcoma protuberans
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Die ursprüngliche zugelassene Indikation von Nintedanib ist in diesem Evidenzpaket nicht dokumentiert (Datenlücke).
-> Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam sein könnte gegen **Dermatofibrosarkom Protuberans (DFSP)**,
-> wobei derzeit **0 klinische Studien** und **1 unterstützende Publikation** identifiziert wurden — die Evidenz bleibt auf mechanistischer/präklinischer Ebene.
+Nintedanib ist ein Multi-Tyrosinkinase-Inhibitor, der ursprünglich zur Behandlung des nicht-kleinzelligen Lungenkarzinoms und fibrosierender Lungenerkrankungen (u. a. idiopathische Lungenfibrose) zugelassen wurde.
+Das TxGNN-Modell sagt voraus, dass er bei **Dermatofibrosarcoma protuberans** wirksam sein könnte.
+Dafür liegen derzeit **keine klinischen Studien** und **eine Publikation** (ein Übersichtsartikel zu PDGFR-Inhibitoren) als indirekte Evidenz vor.
 
-## Schneller Überblick
+---
 
-| Element | Inhalt |
+## Kurzüberblick
+
+| Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Nicht verfügbar (Datenlücke — keine Aufzeichnungen im Evidenzpaket) |
-| Vorhergesagte neue Indikation | Dermatofibrosarkom Protuberans |
-| TxGNN-Vorhersage-Score | 99.15% |
-| Evidenzlevel | L4 (präklinisch / nur mechanistischer Ebene) |
-| Taiwan-Marktstatus | Nicht vermarktet (Nicht vermarktet) |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Zurückhalten |
+| Ursprüngliche Indikation | Nicht-kleinzelliges Lungenkarzinom (Vargatef); idiopathische Lungenfibrose und interstitielle Lungenerkrankungen (Ofev und Generika) |
+| Vorhergesagte neue Indikation | Dermatofibrosarcoma protuberans |
+| TxGNN-Vorhersagewert | 99,15 % |
+| Evidenzstufe | L4 |
+| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassungen (keine gültige Zulassung) |
+| Anzahl der Zulassungen | 4 (alle erloschen) |
+| Empfohlene Entscheidung | Hold |
 
-## Warum ist diese Vorhersage begründet?
+---
 
-Derzeit sind detaillierte Daten zum Wirkmechanismus von Nintedanib in diesem Evidenzpaket nicht verfügbar (DG002, hoher Schweregrad). Basierend auf dem verfügbaren mechanistischen Ansatz wird Nintedanib als PDGFR-α/β-Inhibitor unter seinen Zielen beschrieben.
+## Warum ist diese Vorhersage plausibel?
 
-DFSP-Tumoren werden durch eine COL1A1-PDGFB-Fusionsmutation angetrieben, die zur konstituktiven PDGFRB-Aktivierung führt. Dies überlappt mechanistisch mit Imatinib, der derzeitigen Standardbehandlung für DFSP. Die PDGFR-inhibitorische Aktivität von Nintedanib bietet eine plausible zielgerichtete Begründung für diese Vorhersage, und der sehr hohe TxGNN-Score (0.9915) spiegelt starke Unterstützung auf Netzwerkebene wider. Die einzige identifizierte unterstützende Literatur (PMID 29408302) ist jedoch eine allgemeine Übersicht über PDGFR-Inhibitoren als Arzneimittelklasse — sie berichtet nicht über Nintedanib-spezifische Daten bei DFSP, und es existieren derzeit keine klinischen Studien für diese Indikation.
+Nintedanib hemmt gleichzeitig mehrere Rezeptor-Tyrosinkinasen: PDGFR alpha/beta, VEGFR 1–3 und FGFR 1–3. Diese Signalwege sind an Tumorwachstum, Angiogenese und Fibrose beteiligt, was die Zulassung sowohl in der Onkologie als auch bei Lungenfibrose erklärt.
 
-Die anderen beiden vorhergesagten Indikationen (Liposarkom, ovarielles myxoides Liposarkom) sind erheblich schwächer: beide sind reine TxGNN-Score-basierte Extrapolationen aus der gleichen PDGFR/FGFR-Pfad-Logik, ohne unterstützende Literatur oder Studien überhaupt (Evidenzlevel L5, Empfehlung „Zurückhalten" für beide), und werden hier nicht weiter diskutiert.
+Das Dermatofibrosarcoma protuberans (DFSP) wird in der Regel durch die COL1A1-PDGFB-Fusion getrieben, die zu einer dauerhaften Aktivierung von PDGFR-beta führt. Eine PDGFR-Hemmung ist daher biologisch plausibel; Imatinib ist bereits eine etablierte PDGFR-gerichtete Therapie bei DFSP.
 
-## Evidenz aus klinischen Studien
+Es liegen jedoch keine nintedanibspezifischen klinischen Daten vor. Die einzige Referenz ist ein Übersichtsartikel zu niedermolekularen PDGFR-Inhibitoren, also indirekte Evidenz auf Klassenebene. Der hohe TxGNN-Wert ist eine rein computergestützte Vorhersage.
 
-Derzeit keine verwandten klinischen Studien registriert
+Die Plätze 2 und 3 der Vorhersageliste (Liposarkom, 99,13 %; ovarielles myxoides Liposarkom, 99,12 %) beruhen ausschließlich auf dem Modellwert, ohne Studien oder Literatur. Zudem sind Liposarkome häufig durch MDM2/CDK4-Amplifikationen getrieben, also durch Signalwege, die sich von den Nintedanib-Zielstrukturen weitgehend unterscheiden.
 
-## Literatur-Evidenz
+---
 
-| PMID | Jahr | Typ | Journal | Wesentliche Erkenntnisse |
+## Klinische Evidenz
+
+Derzeit sind keine zugehörigen klinischen Studien registriert.
+
+---
+
+## Literaturevidenz
+
+| PMID | Jahr | Typ | Journal | Kernaussagen |
 |------|-----|------|------|---------|
-| [29408302](https://pubmed.ncbi.nlm.nih.gov/29408302/) | 2018 | Übersicht | Pharmacological Research | Überprüft die Rolle von Kleinmolekül-PDGFR-Inhibitoren (als Arzneimittelklasse) bei der Behandlung von neoplastischen Erkrankungen; etabliert PDGFR-Signalisierung als therapeutisches Ziel, berichtet aber nicht über Nintedanib-spezifische DFSP-Daten. |
+| [29408302](https://pubmed.ncbi.nlm.nih.gov/29408302/) | 2018 | Übersichtsartikel | Pharmacological Research | Überblick über die Rolle niedermolekularer PDGFR-Inhibitoren bei neoplastischen Erkrankungen; indirekte Evidenz auf Klassenebene |
 
-## Taiwan-Marktinformationen
+---
 
-Nintedanib wird derzeit nicht in Taiwan vermarktet (0 Zulassungen in den Aufzeichnungen). Für dieses Evidenzpaket sind keine Lizenz- oder zugelassenen Indikationsdaten verfügbar.
+## Marktinformationen Deutschland
 
-## Sicherheitsüberlegungen
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/002569 | Vargatef | – | Nicht-kleinzelliges Lungenkarzinom (erloschen) |
+| EMEA/H/C/003821 | Ofev | – | Idiopathische Lungenfibrose, interstitielle Lungenerkrankungen, systemische Sklerose (erloschen) |
+| EMEA/H/C/006179 | Nintedanib Accord | – | Idiopathische Lungenfibrose, interstitielle Lungenerkrankungen, systemische Sklerose (erloschen) |
+| EMEA/H/C/006486 | Nintedanib Viatris | – | Idiopathische Lungenfibrose, interstitielle Lungenerkrankungen (erloschen) |
 
-Bitte lesen Sie die Packungsbeilage für Sicherheitsinformationen.
+---
 
-*Hinweis: TFDA-Etiketten-/Warnungsdaten (DG001) sind als eine **blockierende** Datenlücke gekennzeichnet — deren Fehlen verhindert direkt den Eintritt in die S1-Sicherheitsvorbewertungsphase.*
+## Zytotoxizität
+
+| Punkt | Inhalt |
+|------|------|
+| Zytotoxizitätsklassifikation | Zielgerichtete Therapie (Multi-Tyrosinkinase-Inhibitor) |
+| Myelosuppressionsrisiko | Bitte Warnhinweise und Vorsichtsmaßnahmen der Packungsbeilage beachten |
+| Emetogenitätsklassifikation | Bitte Warnhinweise und Vorsichtsmaßnahmen der Packungsbeilage beachten |
+| Überwachungsparameter | Bitte Warnhinweise und Vorsichtsmaßnahmen der Packungsbeilage beachten |
+| Handhabungsschutz | Bitte Warnhinweise und Vorsichtsmaßnahmen der Packungsbeilage beachten |
+
+---
+
+## Sicherheitsaspekte
+
+- **Arzneimittelwechselwirkungen** (in den zusammengestellten Daten 100 Einträge; Auswahl):
+  - **Schwerwiegend (Major):** Dexamethason
+  - **Moderat:** Acetylsalicylsäure, Clarithromycin, Naltrexon, Rolapitant, Cobicistat
+  - **Moderat, Gerinnungs- bzw. Thrombozytenfunktions-bezogene Substanzen:** Abciximab, Alteplase, Antithrombin III, Apixaban, Dipyridamol, Betrixaban, Bivalirudin, Cangrelor, Caplacizumab, Cilostazol, Clopidogrel, Dalteparin, Defibrotid, Desirudin
+
+Für Warnhinweise und Gegenanzeigen liegen keine Daten vor. Bitte die Packungsbeilage zu Rate ziehen.
+
+---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Zurückhalten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die DFSP-Vorhersage basiert auf einem plausiblen, aber indirekten mechanistischen Argument (PDGFR-Weg-Überlappung mit Imatinib), das durch eine einzelne Arzneimittelklassen-Übersichtspublikation unterstützt wird, ohne Nintedanib-spezifische Studien oder präklinische Daten, und ohne bestätigte ursprüngliche Indikation oder MOA auf der Akte. Eine blockierende Sicherheitsdatenlücke (TFDA-Etikett nicht verfügbar) verhindert auch eine formale S1-Sicherheitsbewertung.
+Für DFSP gibt es keine klinischen Studien und nur indirekte Klassenevidenz (ein Übersichtsartikel); der hohe TxGNN-Wert ist eine reine Modellvorhersage. Zudem besitzt Nintedanib in Deutschland derzeit keine gültige Zulassung, und die Sicherheitsdaten aus der Packungsbeilage fehlen.
 
-**Um fortzufahren, ist folgendes erforderlich:**
-- TFDA-/Packungsbeilage-Daten, um die blockierende Datenlücke DG001 zu beheben
-- Bestätigte MOA und ursprüngliche zugelassene Indikation(en) für Nintedanib aus DrugBank (DG002)
-- Nintedanib-spezifische präklinische (z. B. PDGFRB-Fusionszellinie/Xenotransplantat) oder fallbezogene klinische Daten bei DFSP
-- Neubewertung der Liposarkom- und ovariellen myxoiden Liposarkom-Vorhersagen, falls unterstützende Literatur auftaucht (derzeit keine Grundlage zum Fortfahren)
-
+**Für ein Weiterkommen sind folgende Punkte erforderlich:**
+- Präklinische Daten oder Fallserien zu Nintedanib bei DFSP (z. B. in vitro an COL1A1-PDGFB-positiven Zellen) sowie Vergleich mit Imatinib
+- Detaillierte Daten zum Wirkmechanismus (MOA) aus DrugBank
+- Beschaffung und Auswertung der Packungsbeilage (Warnhinweise, Gegenanzeigen) für ein Sicherheitsscreening
+- Klärung des Zulassungs- und Marktstatus in Deutschland
+- Bei Liposarkom und ovariellem myxoidem Liposarkom: zunächst keine weiteren Schritte ohne unterstützende Daten
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

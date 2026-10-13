@@ -2,7 +2,7 @@
 layout: default
 title: Spironolactone
 parent: Nur Modellvorhersage (L5)
-nav_order: 372
+nav_order: 437
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,79 +29,88 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Spironolakton: Von Aldosteron-assoziierter Flüssigkeitsretention bis Hypotrichosis simplex der Kopfhaut
+# Spironolacton: Von Ödemen und Herzinsuffizienz zu Hypotrichosis simplex der Kopfhaut
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Spironolakton ist ein Mineralokortikoid-(Aldosteron-)Rezeptor-Antagonist, der historisch für Zustände wie Ödeme und Hypertonie verwendet wird, und off-label für androgenische Alopezie wegen seiner antiandrogenen Aktivität.
-> Das TxGNN-Modell sagt voraus, dass es wirksam sein könnte für **Hypotrichosis simplex der Kopfhaut**, eine erbliche Haarausfallstörung,
-> aber diese Vorhersage wird derzeit durch **0 klinische Studien** und **0 Publikationen** gestützt — Beweisniveau L5 (nur Modellvorhersage).
+Spironolacton ist ein Mineralokortikoid-Rezeptor-Antagonist, der ursprünglich zur Behandlung von Ödemen, Herzinsuffizienz, Leberzirrhose, Aszites, nephrotischem Syndrom, Hyperaldosteronismus und essenzieller Hypertonie eingesetzt wird.
+Das TxGNN-Modell sagt voraus, dass der Wirkstoff bei **Hypotrichosis simplex der Kopfhaut** wirksam sein könnte.
+Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage beruht ausschließlich auf dem Modell.
 
 ---
 
 ## Schnellübersicht
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Nicht in Evidenzpaket dokumentiert (Datenlücke); Spironolakton ist allgemein bekannt als Aldosteron-Antagonist zur Behandlung von Ödemen/Flüssigkeitsretention und Hypertonie |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Ödeme, Herzinsuffizienz, Leberzirrhose, Aszites, nephrotisches Syndrom, Hyperaldosteronismus, essenzielle Hypertonie |
 | Vorhergesagte neue Indikation | Hypotrichosis simplex der Kopfhaut |
-| TxGNN-Vorhersage-Score | 99.26% |
-| Beweisniveau | L5 |
-| Marktstatus in Deutschland | Nicht im Handel |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Halten |
+| TxGNN-Vorhersagewert | 99,26 % |
+| Evidenzlevel | L5 |
+| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassungen (kein aktuell zugelassenes Präparat) |
+| Anzahl der Zulassungen | 3 (alle erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
 ## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind keine detaillierten Wirkmechanismus-Daten in diesem Evidenzpaket verfügbar. Auf der Grundlage allgemein bekannter Pharmakologie ist Spironolakton ein Mineralokortikoid-Rezeptor-Antagonist, der auch antiandrogene Aktivität aufweist, weshalb es off-label für androgenische Alopezie (eine hormon-/androgen-bedingte Haarausfallerkrankung) verwendet wird.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Spironolacton ein Mineralokortikoid-Rezeptor-Antagonist mit antiandrogener Aktivität ist: Es blockiert den Androgenrezeptor und vermindert die Androgensynthese. Aus diesem Grund wird es in der Praxis off-label bei androgenetischer Alopezie und weiblichem Haarausfall eingesetzt. Damit besteht grundsätzlich ein denkbarer Zusammenhang zu Haarausfallerkrankungen der Kopfhaut.
 
-Hypotrichosis simplex der Kopfhaut ist jedoch eine erbliche, autosomale Erkrankung, die am häufigsten mit **APCDD1**-Mutationen verbunden ist, die den für die normale Haarfollikelentwicklung erforderlichen **Wnt-Signalweg** stören. Dieser Mechanismus steht in keinem Zusammenhang mit Androgen- oder Mineralokortikoid-Signalwegen. Folglich gibt es keinen etablierten biologischen Weg, der die bekannte Pharmakologie von Spironolakton mit dieser spezifischen genetischen Störung verbindet — der hohe TxGNN-Score (0.99) spiegelt wahrscheinlich eher die Embedding-Ähnlichkeit zwischen „Haarausfall"-Phänotypen im Wissensgraph des Modells wider, als dass er einen echten kausalen oder mechanistischen Zusammenhang zeigt.
+Die Plausibilität ist jedoch begrenzt. Die Hypotrichosis simplex der Kopfhaut ist eine seltene erbliche Haarausfallerkrankung (z. B. im Zusammenhang mit Varianten in CDSN, APCDD1 oder RPL21), die nicht primär androgengetrieben ist. Der antiandrogene Ansatz lässt sich daher nicht klar auf diese genetische Ursache übertragen. Der hohe TxGNN-Wert (0,993) ist eine rein rechnerische Vorhersage.
 
-Ein zweiter Kandidat in diesem Evidenzpaket, **kongenitale Hypotrichose mit Milien** (Score 0.99, Rang 9732), zeigt das gleiche Muster: Es ist eine seltene ektodermale Dysplasie, die durch Gene der Keratinozyten-Differenzierung und Haarfollikelentwicklung bedingt ist, ohne bekannten Zusammenhang zu Mineralokortikoid- oder Androgen-Signalwegen. Beide Vorhersagen sollten nur als hypothesengenerierend behandelt werden, nicht als Beweis für therapeutische Plausibilität.
-
----
-
-## Evidenz aus klinischen Studien
-
-Derzeit keine verwandten klinischen Studien registriert
+Als zweite Vorhersage nennt das Modell die **kongenitale Hypotrichosis mit Milien** (Wert 99,04 %). Sie dürfte auf der Nähe zu anderen Hypotrichosis-Phänotypen im Wissensnetzwerk beruhen. Ein klarer Mechanismus, der die Rezeptorantagonisten-Wirkung mit der Pathologie dieser entwicklungsbedingten Erkrankung verbindet, ist nicht erkennbar; die Verbindung ist spekulativ. Auch hierzu liegen weder Studien noch Literatur vor.
 
 ---
 
-## Evidenz aus der Literatur
+## Klinische Evidenz
 
-Derzeit keine verwandte Literatur verfügbar
-
----
-
-## Marktsituation in Deutschland
-
-Spironolakton wird derzeit laut diesem Evidenzpaket nicht in Deutschland vermarktet (0 Zulassungen in der Akte), daher kann keine Lizenztabelle erstellt werden.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Sicherheitsüberlegungen
+## Literaturevidenz
 
-Bitte lesen Sie die Packungsbeilage für Sicherheitsinformationen.
-
-*(Hinweis: TFDA-/Etiketten-Warnungen, Gegenanzeigen und Arzneimittel-Wechselwirkungsdaten sind derzeit nicht verfügbar — dies ist eine blockierende Datenlücke (DG001), die vor jeder Sicherheitsbewertung (S1) behoben werden muss.)*
+Derzeit liegt keine zugehörige Literatur vor.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Marktinformationen Deutschland
 
-**Entscheidung: Halten**
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/005535 | Qaialdo | – | Ödeme, Herzinsuffizienz, Leberzirrhose, Aszites, nephrotisches Syndrom, Hyperaldosteronismus, essenzielle Hypertonie |
+| EMEA/V/C/006254 | Cepeloron | – | – |
+| EMEA/V/C/002524 | Cardalis | – | – |
+
+Alle drei Zulassungen sind erloschen bzw. widerrufen.
+
+---
+
+## Sicherheitsaspekte
+
+- **Kontraindikationen laut Wissensgraph** (aus Arzneimittel-Krankheits-Beziehungen des TxGNN-Wissensgraphen, nicht aus dem Beipackzettel): Nierenerkrankung, Anurie, Pyoureter, Pankreatitis, systemischer Lupus erythematodes (auch pädiatrisch), Kaliummangel, Diabetes mellitus, diabetische Ketoazidose, Hyperurikämie, Hyperparathyreoidismus, Osteitis fibrosa, hepatisches Koma, hepatische Enzephalopathie, Neugeborenenikterus, Gicht, Hyperkalzämie, Nephrokalzinose, Störungen des Phosphorstoffwechsels.
+- **Arzneimittelwechselwirkungen**: Insgesamt wurden 100 Wechselwirkungen erfasst, hier eine Auswahl der ersten 20:
+  - **Schwerwiegend (Major):** Loperamid
+  - **Moderat:** Hydrocortison, Metformin, Bupropion, Triamcinolon, Morphin, Dexamethason, Betamethason, Bisacodyl, Budesonid, Canagliflozin, Rizinusöl, Dapagliflozin, Dronabinol, Empagliflozin, Ertugliflozin, Exenatid
+  - **Gering (Minor):** Doxycyclin, Acetylsalicylsäure, Fidaxomicin
+
+Angaben aus der Fachinformation (Warnhinweise, Gegenanzeigen) liegen nicht vor; bitte die Fachinformation heranziehen.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Hold**
 
 **Begründung:**
-Die vorhergesagte Indikation hat keine Unterstützung durch klinische Studien oder Literatur (L5, Entscheidungsstufe S0), und der vorgeschlagene mechanistische Zusammenhang zwischen der bekannten Pharmakologie von Spironolakton und dieser erblichen Haarfollikelstörung des Wnt-Signalwegs ist biologisch nicht gestützt. Darüber hinaus fehlen Sicherheitsdaten (Warnungen/Gegenanzeigen), was eine vorläufige Sicherheitsbewertung blockiert.
+Die Vorhersage stützt sich allein auf das Modell (Evidenzlevel L5), ohne Studien oder Publikationen. Der antiandrogene Mechanismus passt zudem nicht klar zur genetischen Ursache der vorhergesagten Erkrankungen. In Deutschland ist derzeit kein Präparat mit gültiger Zulassung vorhanden.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- TFDA-/EMA-Etiketten-Warnungen und Gegenanzeigen (DG001, blockierend — erforderlich vor S1-Sicherheits-Screening)
-- Verifizierte ursprüngliche Indikation und Wirkmechanismus-Daten aus DrugBank (DG002)
-- Beliebige präklinische oder genetische Evidenz für eine Verbindung zwischen Mineralokortikoid-/antiandrogener Aktivität und APCDD1/Wnt-Signalweg-Haarfollikelstörungen
-- Falls keine solche mechanistische oder empirische Evidenz gefunden werden kann, sollte dieser Kandidat indefinit bei S0/Halten verbleiben, anstatt allein aufgrund des TxGNN-Scores voranzugehen
-
+**Für ein Weiterkommen sind folgende Schritte erforderlich:**
+- Literatur- und Studienrecherche zu Spironolacton bei hereditärer Hypotrichosis
+- Detaillierte Wirkmechanismus-Daten (z. B. aus DrugBank) zur Prüfung der mechanistischen Verbindung
+- Warnhinweise und Gegenanzeigen aus der Fachinformation (BfArM), da diese für das Sicherheitsscreening zwingend erforderlich sind
+- Klärung der Zulassungs- und Verfügbarkeitssituation in Deutschland sowie der geeigneten Darreichungsform (z. B. topisch oder oral)
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -2,7 +2,7 @@
 layout: default
 title: Palivizumab
 parent: Nur Modellvorhersage (L5)
-nav_order: 290
+nav_order: 339
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,77 +29,79 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Palivizumab: Von RSV-Prophylaxe zu benignem Zungenneoplasma
+# Palivizumab: Von RSV-Infektionen zu gutartiger Neubildung der Zunge
 
 ## Zusammenfassung in einem Satz
 
-> Palivizumab ist ein humanisierter monoklonaler Antikörper gegen das RSV-F-Glykoprotein und wird zur Vorbeugung von Atemwegsinfektionen durch das Respiratorische Synzytialvirus (RSV) bei gefährdeten Säuglingen verwendet.
-> Das TxGNN-Modell prognostiziert, dass es möglicherweise wirksam sein könnte für **Benigne Neoplasie der Zunge**,
-> aber **keine klinischen Studien** und **keine Literatur** unterstützen derzeit diese Richtung — die mechanistische Begründung des Modells selbst besagt explizit, dass es keine bekannte biologische Verbindung gibt.
+Palivizumab ist ein humanisierter monoklonaler Antikörper gegen das F-Protein des Respiratorischen Synzytial-Virus (RSV) und wurde ursprünglich zur Vorbeugung von RSV-Infektionen eingesetzt.
+Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **gutartiger Neubildung der Zunge** voraus,
+allerdings gibt es dafür **keine klinischen Studien** und **keine Publikationen**; die Vorhersage beruht ausschließlich auf dem Modell.
 
 ---
 
-## Schnelle Übersicht
+## Schnellübersicht
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Nicht dokumentiert im Evidenzpaket (Datenlücke — DG001/DG002). Basierend auf dem internen Begründungstext ist Palivizumab ein humanisierter monoklonaler Antikörper gegen das RSV-F-Glykoprotein und wird zur RSV-Prophylaxe verwendet. |
-| Prognostizierte neue Indikation | Benigne Neoplasie der Zunge |
-| TxGNN-Prognosewert | 99.94% |
-| Evidenzebene | L5 (nur Modellvorhersage, keine klinischen oder Literaturhinweise) |
-| Marktstatus in Deutschland | Nicht vermarktet |
-| Anzahl der Genehmigungen | 0 |
-| Empfehlenswerte Entscheidung | Zurückhalten |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | RSV-Infektionen (Respiratory Syncytial Virus Infections) |
+| Vorhergesagte neue Indikation | Gutartige Neubildung der Zunge |
+| TxGNN-Vorhersagewert | 99,94 % |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
+| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage begründet?
+## Warum ist diese Vorhersage (nicht) plausibel?
 
-Derzeit sind detaillierte Daten zum Wirkungsmechanismus nicht im Evidenzpaket verfügbar (original_moa = Data Gap; DG002). Nach den mechanistischen Anmerkungen, die jedem prognostizierten Einsatzgebiet beigefügt sind, wird Palivizumab konsistent als humanisierter monoklonaler Antikörper beschrieben, der das RSV-F-(Fusions-)Glykoprotein neutralisiert und so den viralen Eintritt in Atemwegsepithelzellen blockiert. Dies ist ein hochspezifischer antiviraler Mechanismus ohne bekannte Rolle bei Zellproliferation, Onkogenese oder Tumorbiologie.
+Für die vorliegende Auswertung sind derzeit keine detaillierten Daten zum Wirkmechanismus verfügbar. Bekannt ist, dass Palivizumab ein humanisierter monoklonaler Antikörper ist, der das F-Protein von RSV bindet und das Virus neutralisiert. Seine Wirksamkeit bei der Prävention schwerer RSV-Erkrankungen der unteren Atemwege ist die ursprüngliche Anwendung.
 
-Entscheidend ist, dass die für diesen Kandidaten angegebene Umnutzungsbegründung die Vorhersage **nicht** unterstützt — sie besagt explizit: *"Palivizumab為抗RSV F醣蛋白之人源化單株抗體，僅作用於RSV感染細胞表面抗原，與舌部良性腫瘤之增生／腫瘤生物學機轉無已知關聯。無腫瘤免疫或抗病毒交叉機轉支持此連結。"* (d. h., es gibt keine bekannten Tumor-Immunologie- oder antiviralen Kreuzwirkungsmechanismen, die Palivizumab mit der Biologie von Zungenneoplasien verbinden). Das gleiche Muster gilt für alle 10 bewerteten Vorhersagen für dieses Medikament — jede Begründung verneint unabhängig jede plausible mechanistische Verbindung zur gekoppelten Krankheit (Epiglottisneoplasie, zervikales Neuroblastom, Hodentumor, Schwannom usw.).
+Ein mechanistischer Zusammenhang zu gutartigen Zungentumoren ist nicht erkennbar. Das Zielprotein (RSV-F-Protein) spielt in der Biologie solcher Neubildungen keine bekannte Rolle, und Palivizumab hat keine bekannte tumorgerichtete Aktivität. Der hohe Vorhersagewert spiegelt vermutlich Ähnlichkeiten in der Nachbarschaftsstruktur des Wissensgraphen (z. B. Neubildungen im Kopf-Hals-Bereich) wider, nicht eine biologische Begründung.
 
-Dies ist also ein Fall, in dem ein hoher TxGNN-Ähnlichkeitswert **nicht** durch mechanistische, klinische oder Literaturhinweise korroboriert wird. Die Vorhersage sollte eher als Graph-Ähnlichkeitsartefakt denn als biologisch begründete Umnutzungshypothese behandelt werden.
+Auch die übrigen Top-10-Vorhersagen (u. a. Neubildung der Epiglottis, zervikales Neuroblastom, Schwannom des Foramen jugulare, Hodentumoren) zeigen durchgehend Werte um 99,93–99,94 %, jedoch ebenfalls ohne mechanistische Verbindung und ohne klinische oder literarische Evidenz.
 
 ---
 
 ## Evidenz aus klinischen Studien
 
-Derzeit sind keine verwandten klinischen Studien registriert.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
 ## Evidenz aus der Literatur
 
-Derzeit ist keine verwandte Literatur verfügbar.
+Derzeit sind keine zugehörigen Publikationen verfügbar.
 
 ---
 
-## Marktstatus in Deutschland
+## Marktinformationen Deutschland
 
-Palivizumab hat derzeit keine Marktgenehmigungen im überprüften Datensatz (total_licenses = 0; market_status = Not Marketed). Es sind keine Lizenzunterlagen vorhanden, die zusammengefasst werden könnten.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000257 | Synagis (AstraZeneca AB) – Status: erloschen | – | Respiratory Syncytial Virus Infections |
 
 ---
 
-## Sicherheitsaspekte
+## Sicherheitshinweise
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. (Hinweis: Warnhinweise und Kontraindikationen des TFDA/BfArM-Labels für Palivizumab sind eine **blockierende** Datenlücke — DG001 — und die Sicherheitsüberprüfung kann nicht zur Stufe-1-Bewertung übergehen, bis dies behoben ist.)
+Für Sicherheitsinformationen beachten Sie bitte die Fachinformation. Für die vorgeschlagene neue Indikation liegen keine Sicherheitsdaten vor, und Wechselwirkungsdaten wurden nicht gefunden.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Zurückhalten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage beruht nur auf einem TxGNN-Ähnlichkeitswert (L5, keine klinischen Studien, keine Literatur), und die beigefügte mechanistische Begründung lehnt jede biologische Plausibilität zwischen dem RSV-neutralisierenden Mechanismus von Palivizumab und der Pathophysiologie von Zungenneoplasien ab. Es gibt keine evidenzgestützte Grundlage, um diesen Kandidaten voranzubringen.
+Die Vorhersage beruht allein auf einem Computermodell (Evidenzstufe L5). Es gibt weder klinische Studien noch Publikationen, und ein plausibler Wirkmechanismus fehlt. Zudem besteht in Deutschland derzeit keine gültige Zulassung.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- Behebung von DG001 (TFDA/BfArM-Label-Warnhinweise und Kontraindikationen) vor jeder Sicherheitsstufen-Bewertung
-- Behebung von DG002 (bestätigter Wirkungsmechanismus aus DrugBank), um die mechanistische Verbindung formal zu unterstützen oder auszuschließen
-- Unabhängige Bestätigung der ursprünglichen Indikation und Genehmigungsgeschichte (original_indications ist derzeit leer)
-- Falls dieser Kandidat weiter verfolgt werden soll, würde eine neue mechanistische Hypothese unabhängig von der aktuellen TxGNN-Begründung erforderlich sein, da die bestehende Begründung gegen die Umnutzung argumentiert
-
+**Für ein Weiterkommen sind folgende Punkte erforderlich:**
+- Daten zum Wirkmechanismus (MOA), um eine mögliche biologische Verbindung zu prüfen
+- Auswertung der Fachinformation (Warnhinweise und Gegenanzeigen), da diese Sicherheitsdaten fehlen und die Sicherheitsprüfung sonst nicht fortgesetzt werden kann
+- Präklinische Hinweise, die eine tumorbezogene Aktivität stützen würden
+- Klärung der Anwendungswege (Verabreichungsroute) für die vorgeschlagene Indikation
+- Überprüfung, ob die hohe Vorhersage ein reines Graph-Artefakt ist
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

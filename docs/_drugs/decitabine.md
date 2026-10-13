@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Decitabine
-parent: Nur Modellvorhersage (L5)
-nav_order: 114
-evidence_level: L5
+parent: Mittlere Evidenz (L3-L4)
+nav_order: 135
+evidence_level: L4
 indication_count: 1
 ---
 
 # Decitabine
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1** 
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,87 +29,94 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Decitabin: Vom Myelodysplastischen Syndrom zur Refraktären Zytopenie der Kindheit
+# Decitabin: Von myeloischer Leukämie zu refraktärer Zytopenie des Kindesalters
 
 ## Zusammenfassung in einem Satz
 
-Decitabin ist ein DNS-Hypomethylierungsmittel, das ursprünglich für das Myelodysplastische Syndrom (MDS) bei Erwachsenen entwickelt wurde. Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam für **Refraktäre Zytopenie der Kindheit** ist — ein pädiatrisches MDS-Subtyp — mit einem Vorhersageergebnis von **99.03%**, obwohl es derzeit nur durch **1 Publikation** und **keine registrierten klinischen Studien** gestützt wird.
+Decitabin ist ein hypomethylierender Wirkstoff, der ursprünglich zur Behandlung der myeloischen Leukämie eingesetzt wurde. Das TxGNN-Modell sagt voraus, dass er bei der **refraktären Zytopenie des Kindesalters** (RCC, der wichtigsten pädiatrischen Unterform des myelodysplastischen Syndroms) wirksam sein könnte. Die Datenlage ist dünn: Es liegen **keine registrierten klinischen Studien** vor, aber **2 Publikationen** (eine retrospektive Kohortenstudie und ein Fallbericht).
 
 ---
 
-## Schnellübersicht
+## Kurzüberblick
 
-| Element | Inhalt |
-|--------|--------|
-| Originalindikation | Myelodysplastisches Syndrom (MDS) — basierend auf bekannter Wirkstoffklasse; kein deutscher Packungsbeilagetext verfügbar in diesem Nachweis-Paket (noch nicht vermarktet) |
-| Vorhergesagte neue Indikation | Refraktäre Zytopenie der Kindheit |
-| TxGNN-Vorhersageergebnis | 99.03% |
-| Evidenzstufe | L3 (Einzelzentrum-Rückblickstudie/Beobachtungsstudie; keine registrierten klinischen Studien) |
-| Marktstatus in Deutschland | Nicht vermarktet (Not marketed) |
-| Anzahl der Zulassungen | 0 |
-| Empfehlung zur Entscheidung | Halten |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Myeloische Leukämie |
+| Vorhergesagte neue Indikation | Refraktäre Zytopenie des Kindesalters |
+| TxGNN-Vorhersagewert | 99,03 % |
+| Evidenzstufe | L4 |
+| Marktstatus in Deutschland | Nur erloschene Zulassungen (keine gültige Zulassung) |
+| Anzahl der Zulassungen | 2 (beide erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage sinnvoll?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Daten zum Wirkmechanismus nicht verfügbar. Basierend auf bekannten Informationen gehört Decitabin zur Klasse der Hypomethylierungsmittel (HMA) — ein Nukleosid-Analog, das DNS-Methyltransferase hemmt und die normale Expression stiller Tumor-Suppressor- und Differenzierungsgene in dysplastischen hämatopoetischen Zellen wiederherstellt. Seine Wirksamkeit beim Myelodysplastischen Syndrom (MDS) ist nachgewiesen, und mechanistisch könnte es auf die refraktäre Zytopenie der Kindheit anwendbar sein.
+Zu Decitabin liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben zum Wirkmechanismus vor. Nach allgemeinem Wissen über die Wirkstoffklasse ist Decitabin ein hypomethylierender Wirkstoff (Inhibitor der DNA-Methyltransferase), der bereits bei myeloischen Neoplasien, einschließlich myelodysplastischer Syndrome (MDS), eingesetzt wird.
 
-Die refraktäre Zytopenie der Kindheit (RCC) wird im WHO-Spektrum des pädiatrischen MDS klassifiziert und teilt die Kernpathophysiologie mit dem adulten MDS — ineffektive Hämatopoese und Marksdysplasie, die zu peripheren Zytopenien führen. Angesichts der etablierten, krankheitsmodifizierenden Wirkung von Decitabin auf dysplastische Klone beim adulten MDS ist eine Erweiterung dieses Wirkmechanismus auf die pädiatrische RCC-Population biologisch plausibel, insbesondere als Überbrückungstherapie vor allogener hämatopoetischer Stammzelltransplantation (allo-HSCT), die bereits klinisch untersucht wird.
+Die refraktäre Zytopenie des Kindesalters ist die häufigste pädiatrische MDS-Unterform. Daher besteht ein plausibler biologischer Zusammenhang über die epigenetische Modulation abnormer hämatopoetischer Klone. Diese Verbindung beruht auf dem allgemeinen Wissen über die Wirkstoffklasse und nicht auf den vorliegenden Datensätzen. Der sehr hohe TxGNN-Wert ist eine reine Computervorhersage und kein klinischer Beleg.
 
 ---
 
 ## Evidenz aus klinischen Studien
 
-Derzeit sind keine verwandten klinischen Studien registriert.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Evidenz aus der Literatur
+## Literaturevidenz
 
-| PMID | Jahr | Typ | Zeitschrift | Wichtigste Erkenntnisse |
+| PMID | Jahr | Typ | Journal | Kernaussagen |
 |------|-----|------|------|---------|
-| [35624441](https://pubmed.ncbi.nlm.nih.gov/35624441/) | 2022 | Retrospektive Studie | BMC Pediatrics | Einzelzentrum-Erfahrung über 10 Jahre mit einem Decitabin-kombinierten, minimal myelosuppressiven Therapieschema (DAC+MMR) als Brücke zur allo-HSCT bei pädiatrischem MDS mit Ergebnisberichten für diesen Therapieansatz. |
+| [35624441](https://pubmed.ncbi.nlm.nih.gov/35624441/) | 2022 | Retrospektive Kohortenstudie | BMC Pediatrics | Erfahrungen eines einzelnen Zentrums über 10 Jahre: Decitabin kombiniert mit einem gering myelosuppressiven Regime als Überbrückung zur allogenen Stammzelltransplantation bei Kindern mit MDS |
+| [42125547](https://pubmed.ncbi.nlm.nih.gov/42125547/) | 2026 | Fallbericht | Experimental and Therapeutic Medicine | Decitabin-Monotherapie bei einem 8-jährigen Kind mit pädiatrischem MDS (RCC), das weder für eine Transplantation noch für eine Immunsuppression geeignet war |
 
 ---
 
-## Marktinformationen für Deutschland
+## Marktinformationen Deutschland
 
-Decitabin wird derzeit nicht in Deutschland vermarktet (nicht vermarktet); in diesem Nachweis-Paket sind keine Zulassungsunterlagen verfügbar.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/002221 | Dacogen | – | Myeloische Leukämie (erloschen) |
+| EMEA/H/C/005823 | Inaqovi | – | Myeloische Leukämie (erloschen) |
 
 ---
 
 ## Zytotoxizität
 
-| Element | Inhalt |
-|--------|--------|
-| Zytotoxizitätsklassifizierung | Hypomethylierungsmittel (zytotoxisches Nukleosid-Analog / epigenetisch wirksames Antineoplastikum) |
-| Myelosuppressionsrisiko | Bitte beachten Sie die Warnungen und Vorsichtsmaßnahmen in der Packungsbeilage |
-| Emetogenitätsklassifizierung | Bitte beachten Sie die Warnungen und Vorsichtsmaßnahmen in der Packungsbeilage |
-| Überwachungselemente | Bitte beachten Sie die Warnungen und Vorsichtsmaßnahmen in der Packungsbeilage |
-| Handhabungsschutz | Es gelten die Richtlinien zur Handhabung zytotoxischer Arzneimittel (Gefahrstoff) |
+| Punkt | Inhalt |
+|------|------|
+| Zytotoxizitätsklassifikation | Hypomethylierender Wirkstoff (Nukleosidanalogon, antineoplastisch) |
+| Myelosuppressionsrisiko | Hoch (aus den Wechselwirkungs- und Kontraindikationsdaten: Neutropenie, Thrombozytopenie, Agranulozytose als relevante Risiken) |
+| Emetogenität | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Überwachungsparameter | Großes Blutbild mit Differenzialblutbild, Leber- und Nierenfunktion |
+| Handhabungsschutz | Handhabung gemäß den Vorschriften für zytotoxische Arzneimittel |
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+- **Kontraindikationen/Risikokonstellationen (aus dem Wissensgraphen, nicht aus dem Beipackzettel):** Nierenerkrankung, Pyourether, Lebererkrankung, Gallenblasenerkrankung, Thrombozytopenie, Diabetes mellitus, diabetische Ketoazidose, Neutropenie, Agranulozytose
+- **Arzneimittelwechselwirkungen:** 100 Wechselwirkungen erfasst. Als **schwerwiegend (Major)** eingestuft sind u. a. Deferipron, Samarium-(153Sm)-Lexidronam, Adalimumab und Baricitinib. Als **mäßig (Moderate)** eingestuft sind u. a. Palifermin, Strontiumchlorid-Sr-89, Mercaptopurin, Roflumilast, Chloramphenicol, Zidovudin, Aldesleukin, Alemtuzumab, Ganciclovir, Gemcitabin, Anakinra, Azathioprin sowie einige Impfstoffe.
+
+Die Warnhinweise und Kontraindikationen der Fachinformation liegen nicht vor. Bitte die Fachinformation konsultieren.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Halten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die Evidenz für diese Indikation ist derzeit auf einen Rückblickstudienbericht eines Einzelzentrums aus der Literatur ohne registrierte klinische Studien beschränkt; das Arzneimittel ist auch noch nicht in Deutschland vermarktet, und wichtige MOA-/Sicherheitsdaten fehlen, was dies unzureichend macht, um den explorativen Status zu überschreiten.
+Die Vorhersage stützt sich auf einen hohen Modellwert und einen plausiblen Klassenmechanismus, jedoch nur auf eine retrospektive Einzelzentrum-Kohorte und einen Fallbericht, ohne registrierte klinische Studien (Evidenzstufe L4). Zudem sind alle deutschen Zulassungen erloschen, und die Sicherheitsdaten der Fachinformation fehlen.
 
-**Zum Voranschreiten ist Folgendes erforderlich:**
-- TFDA/BfArM-Packungsbeilage-Daten (Warnungen, Kontraindikationen, Arzneimittelwechselwirkungen)
-- DrugBank-bestätigter Wirkmechanismus (MOA)
-- Zusätzliche klinische Studien oder größere multizentrische Studien speziell bei pädiatrischem RCC/MDS
-- Bestätigung des Regulations- und Marktstatus von Decitabin in Deutschland/Taiwan
-
+**Für das weitere Vorgehen sind erforderlich:**
+- Fachinformation (Warnhinweise, Kontraindikationen) vom BfArM beschaffen und auswerten, da dies die Sicherheitsprüfung derzeit blockiert
+- Daten zum Wirkmechanismus aus DrugBank ergänzen
+- Klärung der Gründe für das Erlöschen der Zulassungen und des aktuellen Zulassungsstatus
+- Systematische Literaturrecherche und Prüfung prospektiver pädiatrischer Studien zu RCC/MDS
+- Sicherheits- und Dosierungskonzept für Kinder, einschließlich Überwachung der Myelosuppression
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -2,7 +2,7 @@
 layout: default
 title: Sacituzumab Govitecan
 parent: Nur Modellvorhersage (L5)
-nav_order: 357
+nav_order: 417
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,87 +29,101 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-# Sacituzumab Govitecan: Von nicht eingetragener ursprünglicher Indikation zu arzneimittelinduzierter Osteoporose
+# Sacituzumab Govitecan: Von Brustkrebs zu medikamenteninduzierter Osteoporose
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Die ursprüngliche Indikation und der Wirkmechanismus von Sacituzumab Govitecan sind im aktuellen Datensatz nicht verfügbar. Basierend auf der mit diesem Evidenzpaket bereitgestellten Umwidmungsrationale ist dieses Arzneimittel ein Trop-2-zielgerichtetes Antikörper-Wirkstoff-Konjugat (ADC), dessen Nutzlast SN-38, einen zytotoxischen Topoisomerase-I-Hemmer, freisetzt. Das TxGNN-Modell sagt eine mögliche Wirksamkeit für **arzneimittelinduzierte Osteoporose** voraus, jedoch mit **keinen klinischen Studien und keiner Literatur**, die diese Richtung derzeit unterstützen — dies ist ein Signal aus reiner Modellvorhersage (L5), das die Rationale selbst als biologisch implausibel kennzeichnet.
+Sacituzumab Govitecan ist ein Antikörper-Wirkstoff-Konjugat, das ursprünglich zur Behandlung von Brustneubildungen, einschließlich des triple-negativen Mammakarzinoms, eingesetzt wird. Das TxGNN-Modell sagt voraus, dass es bei **medikamenteninduzierter Osteoporose** wirksam sein könnte. Diese Vorhersage wird jedoch durch **keine klinische Studie** und **keine Publikation** gestützt; sie beruht allein auf dem Modell.
 
 ---
 
 ## Schnellübersicht
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Im aktuellen Datensatz nicht verfügbar (Arzneimittel noch nicht auf dem Markt; keine eingetragene Indikation vorhanden) |
-| Vorhergesagte neue Indikation | Arzneimittelinduzierte Osteoporose |
-| TxGNN-Vorhersage-Score | 99.78% |
-| Evidenzebene | L5 |
-| Marktstatus Deutschland | ✗ Nicht auf dem Markt |
-| Anzahl der Genehmigungen | 0 |
-| Empfohlene Entscheidung | Abwarten |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Brustneubildungen; triple-negatives Mammakarzinom |
+| Vorhergesagte neue Indikation | Medikamenteninduzierte Osteoporose |
+| TxGNN-Vorhersagewert | 99,78 % |
+| Evidenzgrad | L5 |
+| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
+| Anzahl der Zulassungen | 1 (davon 0 gültig) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Warum ist diese Vorhersage (nicht) plausibel?
 
-Detaillierte Wirkmechanismus-Daten sind für Sacituzumab Govitecan im Datensatz derzeit nicht verfügbar. Basierend auf der mit diesem Evidenzpaket bereitgestellten Umwidmungsrationale ist das Arzneimittel ein Trop-2-zielgerichtetes Antikörper-Wirkstoff-Konjugat, dessen Nutzlast SN-38 (der aktive zytotoxische Metabolit von Irinotecan) ein Topoisomerase-I-Hemmer — ein konventionelles zytotoxisches Chemotherapie-Arzneimittel — ist. Im Datensatz ist keine ursprüngliche Indikation eingetragen, daher kann ein direkter Vergleich zwischen der ursprünglichen und der vorhergesagten Indikation nicht durchgeführt werden.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Sacituzumab Govitecan ein gegen Trop-2 gerichtetes Antikörper-Wirkstoff-Konjugat ist, dessen Nutzlast SN-38 ein Topoisomerase-I-Inhibitor ist. Es wirkt gegen proliferierende Epithelzellen von Tumoren.
 
-Noch wichtiger: Die Rationale argumentiert **gegen** biologische Plausibilität für diese Vorhersage: Es gibt keine bekannte mechanistische Verbindung zwischen Trop-2/SN-38-Aktivität und Knochenumbaupfaden (RANKL/OPG-Signalisierung, Osteoklasten–Osteoblasten-Gleichgewicht). Der TxGNN-Score von 99.78% scheint eine Graph-Einbettungs-Assoziation widerzuspiegeln, anstatt einer mechanistisch begründeten Hypothese. Darüber hinaus repräsentiert das bekannte Nebenwirkungsprofil des Arzneimittels — Myelosuppression und schwerer Durchfall — ein unverhältnismäßiges Risiko für eine nicht lebensbedrohliche Erkrankung wie Osteoporose, was das Nutzen-Risiko-Verhältnis ungünstig macht, selbst wenn später ein mechanistischer Zusammenhang nachgewiesen würde.
+Ein mechanistischer Zusammenhang zwischen dieser Wirkung und der Behandlung der medikamenteninduzierten Osteoporose ist anhand der vorliegenden Daten nicht erkennbar. Zytotoxische Nutzlasten gelten eher als knochenschädigend denn als knochenschützend, und eine knochenprotektive Wirkung ist nicht bekannt. Der hohe TxGNN-Wert (0,998) ist wahrscheinlich ein Artefakt der Konnektivität im Wissensgraphen.
 
-Angesichts des Fehlens von unterstützenden klinischen Studien, Literatur und mechanistischer Rationale sollte diese Vorhersage nur als ein exploratives Signal mit niedrigem Vertrauen behandelt werden.
+Weitere vorhergesagte Indikationen (jeweils ebenfalls nur Modellvorhersage, Evidenzgrad L5, Empfehlung Hold):
 
----
-
-## Klinische Studien-Evidenz
-
-Derzeit sind keine damit verbundenen klinischen Studien registriert.
-
----
-
-## Evidenz aus der Literatur
-
-Derzeit ist keine damit verbundene Literatur verfügbar.
+| Rang | Vorhergesagte Indikation | TxGNN-Wert | Einschätzung |
+|---|---|---|---|
+| 2 | Schwere nichtproliferative diabetische Retinopathie | 99,69 % | Kein direkter mechanistischer Zusammenhang; ein myelosuppressives Zytostatikum wäre bei einer nicht-onkologischen Augenerkrankung ein ungünstiges Nutzen-Risiko-Verhältnis. |
+| 3 | Diabetische Retinopathie | 99,60 % | Stark mit Rang 2 korreliert, daher kein unabhängiges Signal; etablierte Therapien (Anti-VEGF, Laser, Kortikosteroide) sind deutlich besser belegt. |
+| 4 | Diabetische Katarakt | 99,12 % | Entsteht vor allem durch Polyolweg-Aktivität und oxidativen Stress in der Linse, ohne Bezug zu Trop-2 oder Topoisomerase I; Standard ist die Operation. |
 
 ---
 
-## Marktinformation Deutschland
+## Klinische Evidenz
 
-Dieses Arzneimittel ist derzeit nicht auf dem Markt in der von diesem Datensatz abgedeckten Rechtsprechung (0 Genehmigungen vorhanden). Keine Produktgenehmigungsunterlagen sind verfügbar.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
+
+---
+
+## Literaturevidenz
+
+Derzeit liegt keine zugehörige Literatur vor.
+
+---
+
+## Marktinformationen Deutschland
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/005182 | Trodelvy | – | Brustneubildungen; triple-negatives Mammakarzinom |
+
+Der Status dieser Zulassung lautet „erloschen/widerrufen“; es besteht derzeit keine gültige Zulassung.
 
 ---
 
 ## Zytotoxizität
 
-| Element | Inhalt |
-|---------|--------|
-| Zytotoxizitätsklassifizierung | Zielgerichtete Therapie (ADC) mit konventioneller zytotoxischer Nutzlast — SN-38, ein Topoisomerase-I-Hemmer (aktiver Metabolit von Irinotecan) |
-| Myelosuppressions-Risiko | Hoch — die Umwidmungsrationale zitiert explizit Myelosuppression als Teil des bekannten Nebenwirkungsprofils |
-| Emetogenitäts-Klassifizierung | Moderat (typisch für Irinotecan/SN-38-Klasse Topoisomerase-I-Hemmer) |
-| Überwachungselemente | Blutbild mit Differentialzählung (besonders Neutrophilenzahl), Überprüfung auf Durchfall/Dehydration, Nieren- und Leberfunktion |
-| Schutzmaßnahmen beim Umgang | Ja — als zytotoxisches ADC gelten institutionelle Protokolle für Umgang mit gefährlichen/zytotoxischen Arzneimitteln, Rekonstitution und Entsorgung |
+| Punkt | Inhalt |
+|------|------|
+| Zytotoxizitätsklassifikation | Antikörper-Wirkstoff-Konjugat mit zytotoxischer Nutzlast (Topoisomerase-I-Inhibitor SN-38) |
+| Myelosuppressionsrisiko | Hoch (Neutropenie wird für diese Wirkstoffklasse erwartet) |
+| Emetogenität | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Überwachungsparameter | Differenzialblutbild, Leber- und Nierenfunktion |
+| Handhabungsschutz | Vorschriften für den Umgang mit zytotoxischen Arzneimitteln beachten |
 
 ---
 
-## Sicherheitsüberlegungen
+## Sicherheitsaspekte
 
-Bitte beachten Sie die Fachinformation für Sicherheitsinformationen. TFDA-Warnungen und Kontraindikationen für diesen Kandidaten wurden noch nicht erfasst (eine kritische Datenlücke), und eine formale S1-Sicherheitsbewertung kann nicht durchgeführt werden, bis dies gelöst ist.
+**Arzneimittelwechselwirkungen:** Für diesen Bericht wurden 40 Wechselwirkungen erfasst. Die ausgewerteten Beispiele umfassen:
+
+- **Schwerwiegend (Major):** Deferipron, Fostamatinib, Adalimumab, Apalutamid, Certolizumab pegol, Cladribin, Dacomitinib, Irinotecan, Leflunomid, Natalizumab, Nilotinib, Ozanimod
+- **Moderat (Moderate):** Alefacept, Alemtuzumab, Anakinra, Canakinumab, Dimethylfumarat, Lorlatinib, Ocrelizumab, Omacetaxin-Mepesuccinat
+
+Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Abwarten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Alle vier am höchsten eingestuften TxGNN-Vorhersagen für dieses Arzneimittel (arzneimittelinduzierte Osteoporose, schwere nichtproliferative diabetische Retinopathie, diabetische Retinopathie, diabetischer Katarakt) sind L5 (rein auf Modellvorhersage gestützt), und jede ist in ihrer Umwidmungsrationale explizit als mechanistisch implausibel und ohne klinische/literarische Unterstützung gekennzeichnet. Das bekannte zytotoxische Nebenwirkungsprofil des Arzneimittels — Myelosuppression, schwerer Durchfall — schafft ein ungünstiges Nutzen-Risiko-Verhältnis für alle vier Kandidaten-Indikationen, von denen keine lebensbedrohlich ist.
+Die Vorhersagen beruhen ausschließlich auf dem Modell (Evidenzgrad L5), ohne Studien oder Literatur und ohne plausiblen Mechanismus. Zudem ist das Sicherheitsprofil eines myelosuppressiven Zytostatikums für nicht-onkologische Indikationen ungünstig, und in Deutschland besteht keine gültige Zulassung.
 
-**Zum Fortfahren wird folgendes benötigt:**
-- TFDA-Warnungen und Kontraindikationen (kritische Datenlücke) — erforderlich vor jeder S1-Sicherheitsbewertung
-- Bestätigter Wirkmechanismus und die ursprünglichen genehmigten Indikationen des Arzneimittels
-- Präklinische oder mechanistische Evidenz, die speziell Trop-2/SN-38-Aktivität mit Knochenstoffwechsel oder Retinal-/Linsen-Pathologie verknüpft, falls diese Umwidmungsrichtung weiter verfolgt werden soll
-- Angesichts der schlechten biologischen Plausibilität über alle vier eingestuften Vorhersagen hinweg sollte erwogen werden, diesen Kandidaten zu deprioritisieren, bis neue mechanistische Evidenz vorliegt
-
+**Für ein Weiterkommen ist Folgendes erforderlich:**
+- Fachinformation (Warnhinweise, Gegenanzeigen) von BfArM beschaffen und auswerten (blockierende Datenlücke)
+- Daten zum Wirkmechanismus ergänzen (z. B. über DrugBank)
+- Präklinische Belege für einen Zusammenhang mit Knochenstoffwechsel oder den anderen vorhergesagten Indikationen prüfen
+- Klärung des Zulassungsstatus in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

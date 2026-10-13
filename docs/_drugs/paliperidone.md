@@ -2,7 +2,7 @@
 layout: default
 title: Paliperidone
 parent: Nur Modellvorhersage (L5)
-nav_order: 289
+nav_order: 338
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,91 +29,109 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Paliperidon: Von Schizophrenie zu Netzhautdystrophie mit oder ohne extraokulären Anomalien
+# Paliperidon: Von Schizophrenie zu retinaler Dystrophie (mit oder ohne extraokulare Anomalien)
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Paliperidon ist ein D2/5-HT2A-Rezeptorantagonist, der klinisch zur Behandlung von Schizophrenie eingesetzt wird.
-> Die Top-Vorhersage des TxGNN-Modells ist **Netzhautdystrophie mit oder ohne extraokulären Anomalien**,
-> aber dieser Kandidat hat **0 klinische Studien** und **15 Publikationen**, von denen keine Paliperidon oder seine Pharmakologie erwähnen — das Evidenzpaket des Arzneimittels selbst kennzeichnet dies als wahrscheinlich ein Falsch-Positiv der Embedding-Ähnlichkeit statt eines echten mechanistischen Signals.
+Paliperidon wurde ursprünglich zur Behandlung von Schizophrenie und psychotischen Störungen zugelassen. Das TxGNN-Modell sagt für den Spitzenrang eine Wirksamkeit bei **retinaler Dystrophie mit oder ohne extraokulare Anomalien** voraus, jedoch gibt es dafür **keine klinischen Studien und keine Publikationen**. Die Vorhersage beruht ausschließlich auf dem Modell (Evidenzstufe L5).
 
 ---
 
 ## Schnellübersicht
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Nicht in BfArM/Regulierungsdaten dokumentiert (Produkt nicht in Deutschland zugelassen); bekannte klinische Anwendung ist Schizophrenie, hergeleitet aus Mechanismusnoten anderswo in diesem Evidenzpaket |
-| Vorhergesagte neue Indikation | Netzhautdystrophie mit oder ohne extraokulären Anomalien |
-| TxGNN-Vorhersage-Punktzahl | 99.92% |
-| Evidenzebene | L5 |
-| Marktstatus Deutschland | Nicht zugelassen |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Halten |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Schizophrenie; psychotische Störungen |
+| Vorhergesagte neue Indikation | Retinale Dystrophie mit oder ohne extraokulare Anomalien |
+| TxGNN-Vorhersagewert | 99,92 % |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
+| Anzahl der Zulassungen | 1 (erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Warum ist diese Vorhersage (nicht) plausibel?
 
-**Das ist sie nicht.** Detaillierte MOA-Daten werden als Datenlücke im Arzneimitteldatensatz gekennzeichnet, aber das Begründungsfeld des Evidenzpakets selbst (aus dem Kandidaten auf Rang #10 gezogen) bestätigt, dass Paliperidon ein D2/5-HT2A-Rezeptorantagonist ist — ein zentral wirkendes antipsychotisches Wirkprinzip ohne bekannte Verbindung zu retinalen Entwicklungsgenen oder ophthalmischen Strukturwegen.
+Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Bekannt ist, dass Paliperidon ein Antagonist an Dopamin-D2- und Serotonin-5-HT2A-Rezeptoren ist und als Antipsychotikum bei Schizophrenie eingesetzt wird.
 
-Die Netzhautdystrophie-Vorhersage rangiert #1329 aus der vollständigen Ausgabe des Modells und trägt einen sehr hohen Raw-Ähnlichkeitswert, aber die Magnitude des Scores allein begründet keine biologische Plausibilität. Die 15 unterstützenden Publikationen, die für diesen Kandidaten abgerufen wurden, behandeln unverwandte ophthalmologische Themen — Orbitalinfektionen, Diplopie, kongenitale Ptose, Kryptophthalmie, kongenitale kraniale Dysinnervationsstörungen — und **keine erwähnt Paliperidon, Antipsychotika oder D2/5-HT2A-Signalisierung**. Das Evidenzpaket selbst charakterisiert dies als wahrscheinlich ein Falsch-Positiv, das durch Embedding-Raum-Ähnlichkeit verursacht wird, statt einer echten mechanistischen Verbindung.
+Ein plausibler Wirkweg von dieser Rezeptorblockade zu erblich bedingter Netzhautdegeneration ist anhand der vorliegenden Daten nicht erkennbar. Der hohe Vorhersagewert (0,999) ist eine reine Modellvorhersage und kein Hinweis auf klinische Wirksamkeit. Die Ähnlichkeit zur ursprünglichen Indikation wurde bislang nicht bewertet.
 
-Kandidaten mit Rang #2–#9 (X-gebundene Myopie, Hydranenzephalie, angeborene Glykosylierungsstörungen, Charcot-Marie-Tooth-Krankheit Typ 1G usw.) teilen das gleiche Muster: hohe TxGNN-Punkte, null unterstützende Studien oder Literatur und keine plausible mechanistische Begründung angesichts der bekannten Pharmakologie des Arzneimittels. Im Gegensatz dazu ist der Kandidat mit Rang #10 — **therapieresistente Schizophrenie** — mechanistisch kohärent (er liegt innerhalb der bekannten therapeutischen Klasse von Paliperidon) und ist der einzige Kandidat in diesem Paket, der durch echte klinische Studien- und Literaturbelege gestützt wird (siehe Fazit).
+Auch die weiteren Top-Vorhersagen wirken mechanistisch wenig überzeugend: mehrere Myopie-Formen (X-chromosomal, syndromisch), strukturelle Hirnfehlbildungen (Hydranenzephalie, Polymikrogyrie), eine Glykosylierungsstörung, eine demyelinisierende Neuropathie (Charcot-Marie-Tooth Typ 1G) und die atypische Glycin-Enzephalopathie. Bei Myopie könnte eine D2-Blockade sogar nachteilig sein, da retinales Dopamin als schützend gegen das Fortschreiten der Myopie gilt.
 
----
-
-## Klinische Studienevidenz
-
-Derzeit keine registrierten verwandten klinischen Studien.
+Die einzige inhaltlich nahe Vorhersage ist die **therapierefraktäre Schizophrenie** (Rang 10, Score 99,80 %). Sie ist praktisch eine Erweiterung der zugelassenen Population und kein echtes Repurposing. Clozapin bleibt hier der Standard.
 
 ---
 
-## Literaturbelege
+## Klinische Evidenz
 
-| PMID | Jahr | Typ | Zeitschrift | Wichtige Erkenntnisse |
-|------|------|------|-------------|----------------------|
-| [9416661](https://pubmed.ncbi.nlm.nih.gov/9416661/) | 1997 | Übersicht/Fall | Semin Ultrasound CT MR | Orbitalinfektionen sekundär zur Sinusitis; nicht verwandt mit Paliperidon oder Netzhautdystrophie-Pathophysiologie |
-| [20127583](https://pubmed.ncbi.nlm.nih.gov/20127583/) | 2010 | Übersicht | Semin Neurol | Diagnostischer Zugang zu Diplopie; unverwandt mit Arzneimittelmechanismus |
-| [38321238](https://pubmed.ncbi.nlm.nih.gov/38321238/) | 2024 | Übersicht | Pediatr Radiol | Bildgebung pädiatrischer angeborener okularer Pathologien; keine Arzneimittelbedeutung |
-| [38249493](https://pubmed.ncbi.nlm.nih.gov/38249493/) | 2023 | Übersicht | Taiwan J Ophthalmol | Angeborene Linsenform-Anomalien; keine Arzneimittelbedeutung |
-| [22241537](https://pubmed.ncbi.nlm.nih.gov/22241537/) | 2012 | Übersicht | Klin Monbl Augenheilkd | Pathophysiologie der angeborenen Ptose; keine Arzneimittelbedeutung |
-| [109006](https://pubmed.ncbi.nlm.nih.gov/109006/) | 1979 | Fallbericht | Am J Ophthalmol | Fallserie unilaterale Kryptophthalmie; keine Arzneimittelbedeutung |
-| [7035111](https://pubmed.ncbi.nlm.nih.gov/7035111/) | 1981 | Übersicht | Doc Ophthalmol | Wagner-Stickler-Syndrom vitreoretinale Degeneration; keine Arzneimittelbedeutung |
-| [33806565](https://pubmed.ncbi.nlm.nih.gov/33806565/) | 2021 | Kohorte | Int J Mol Sci | Optikusnerv-/Netzhautbefunde bei angeborenem Fibrose der extraokulären Muskeln; keine Arzneimittelbedeutung |
-| [30196776](https://pubmed.ncbi.nlm.nih.gov/30196776/) | 2018 | Übersicht | J Binocul Vis Ocul Motil | Übersicht angeborener Hirnnervenstörungen; keine Arzneimittelbedeutung |
-| [24932988](https://pubmed.ncbi.nlm.nih.gov/24932988/) | 2014 | Übersicht | Am J Ophthalmol | Maculopathie aus kavitären Sehnervenscheiben-Anomalien; keine Arzneimittelbedeutung |
+Für die Hauptvorhersage (retinale Dystrophie) sind derzeit keine relevanten klinischen Studien registriert.
 
-Keine der abgerufenen Literatur erwähnt Paliperidon, Antipsychotika oder dopaminerge/serotoninerge Mechanismen — was bestätigt, dass dies thematische Co-Abruf-Übereinstimmungen sind statt mechanistischer Belege.
+Der Vollständigkeit halber die Studien zur naheliegendsten Vorhersage, therapierefraktäre Schizophrenie:
+
+| Studiennummer | Phase | Status | Teilnehmer | Kernaussagen |
+|---------|------|------|------|---------|
+| [NCT06060886](https://clinicaltrials.gov/study/NCT06060886) | Phase 4 | Unbekannt | 244 | Randomisierter, offener Vergleich von Aripiprazol vs. Paliperidon mit Multi-Omics-Daten bei Erstepisode-Psychose |
+| [NCT07047651](https://clinicaltrials.gov/study/NCT07047651) | Phase 4 | Aktiv, nicht rekrutierend | 84 | Pharmakotherapie plus zwei recovery-orientierte Programme bei therapieresistenter Schizophrenie bzw. bipolarer Störung; Beitrag von Paliperidon unklar |
+| [NCT05741502](https://clinicaltrials.gov/study/NCT05741502) | Phase 4 | Abgebrochen | 5 | Explorative Analyse von Immun- und Entzündungsreaktionen unter Clozapin vs. Nicht-Clozapin-Antipsychotika; wegen 5 Teilnehmern kaum aussagekräftig |
+
+Keine dieser Studien prüft Paliperidon als primäre Intervention in einer therapierefraktären Population.
 
 ---
 
-## Marktinformation Deutschland
+## Literaturevidenz
 
-Paliperidon ist **in Deutschland nicht zugelassen**; keine BfArM-Zulassungen sind in diesem Evidenzpaket dokumentiert.
+Für die Hauptvorhersage liegen derzeit keine relevanten Publikationen vor.
+
+Zur therapierefraktären Schizophrenie (indirekte Evidenz):
+
+| PMID | Jahr | Typ | Journal | Kernaussagen |
+|------|-----|------|------|---------|
+| [31648341](https://pubmed.ncbi.nlm.nih.gov/31648341/) | 2019 | Review | Actas Españolas de Psiquiatría | Übersicht zur Psychopharmakologie der schizoaffektiven Störung; Behandlung beruht hauptsächlich auf Antipsychotika, spezifische Leitlinien fehlen |
+| [23364281](https://pubmed.ncbi.nlm.nih.gov/23364281/) | 2013 | Review | Current Opinion in Psychiatry | Wirksamkeit und Verträglichkeit psychosozialer und psychopharmakologischer Interventionen bei früh beginnender Schizophrenie |
 
 ---
 
-## Sicherheitsüberlegungen
+## Marktinformationen Deutschland
 
-Bitte beachten Sie die Fachinformation für Sicherheitsinformationen.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000746 | Invega | – | Schizophrenie; psychotische Störungen (Status: erloschen) |
 
-**Hinweis:** TFDA/BfArM-Etikettendaten (Warnhinweise, Kontraindikationen) werden als **blockierende** Datenlücke in diesem Evidenzpaket gekennzeichnet (DG001) und konnten nicht abgerufen werden — dies muss behoben werden, bevor eine S1-Sicherheitsprüfung fortschreiten kann, unabhängig davon, welche Indikation verfolgt wird.
+Es besteht derzeit keine gültige Zulassung in Deutschland.
+
+---
+
+## Sicherheitsaspekte
+
+**Kontraindikationen/Risikokonstellationen aus der Wissensdatenbank** (Kontraindikationsbeziehungen im TxGNN-Wissensgraphen, nicht aus dem Beipackzettel):
+- Herz-Kreislauf: Long-QT-Syndrom (auch familiär), Torsades de pointes, Myokardinfarkt, Koronarthrombose, orthostatische Hypotonie, Hypotonie, posturales orthostatisches Tachykardiesyndrom, Multisystematrophie
+- Neurologisch: Epilepsie, Erkrankungen der Basalganglien, fokale Handdystonie, Blepharospasmus
+- Stoffwechsel: Diabetes mellitus, Hyperglykämie, diabetische Ketoazidose, Hyperlipidämie (auch familiär), Adipositas (auch monogen), Kaliummangel
+- Blut: Neutropenie, Agranulozytose, Hämoglobinopathie
+- Weitere: Morbus Crohn, chronisch-entzündliche Darmerkrankungen, Crohn-Kolitis, Nierenfunktionsstörung, Mammakarzinom bei Frauen
+
+**Arzneimittelwechselwirkungen** (100 Einträge insgesamt, Auswahl):
+- **Schwerwiegend (Major):** Bupropion, Morphin
+- **Moderat:** u. a. Acarbose, Metformin, Pioglitazon, Canagliflozin, Chlorpropamid, Albiglutid, Alogliptin (Antidiabetika); Famotidin; Epinephrin; Hydrocortison; Amphotericin B; Hyoscyamin, Atropin, Glycopyrronium (Anticholinergika); Loperamid; Bisacodyl; Lorcaserin
+
+Hinweise und Gegenanzeigen aus der Fachinformation liegen nicht vor; bitte die Fachinformation heranziehen.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Halten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Der Top-Kandidat (Netzhautdystrophie mit oder ohne extraokulären Anomalien) hat keine klinischen Studien, keine relevante Literatur und keine plausible mechanistische Verbindung zu Paliperidon D2/5-HT2A-Antagonismus — das Evidenzpaket selbst identifiziert es als wahrscheinlich Falsch-Positiv aus Embedding-Ähnlichkeit. Das gleiche gilt für Kandidaten mit Rang #2–#9.
+Die Vorhersage zur retinalen Dystrophie beruht allein auf einem Modellwert ohne Studien, Publikationen oder plausiblen Wirkmechanismus. Auch die übrigen Top-Vorhersagen sind mechanistisch kaum nachvollziehbar. Die einzige naheliegende Indikation (therapierefraktäre Schizophrenie) ist eine Erweiterung der Zulassungspopulation, für die keine Studie Paliperidon als Hauptprüfpräparat untersucht.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- Beheben Sie die blockierende Datenlücke: Beschaffen Sie sich TFDA/BfArM-Etikett (Warnhinweise, Kontraindikationen) vor jeder Sicherheitsprüfung
-- Erhalten Sie bestätigte MOA- und ursprüngliche Indikationsdokumentation für Paliperidon (derzeit als Datenlücken gekennzeichnet)
-- Falls eine Umwidmungsarbeit an diesem Arzneimittel verfolgt wird, leiten Sie die Bewertung zum **Kandidaten mit Rang #10 (therapieresistente Schizophrenie)** um, der der einzige Kandidat mit echten unterstützenden Belegen ist (L2, 4 klinische Studien einschließlich einer abgeschlossenen Phase-4-Studie, 2 Literaturübersichten) — beachten Sie, dass dies eine Indikationserweiterung innerhalb der bestehenden therapeutischen Klasse von Paliperidon darstellt und nicht ein neuartiges Umwidmungssignal, und würde trotzdem Kopf-an-Kopf-Vergleichsdaten gegen Clozapin (der aktuelle Standard für therapieresistente Schizophrenie) erfordern, bevor es über S2 hinaus fortschreitet
-
+**Für ein Weiterkommen wären erforderlich:**
+- Daten zum Wirkmechanismus (aktuell nicht verfügbar) sowie eine Prüfung der mechanistischen Verbindung zur Netzhaut
+- Präklinische Untersuchungen zur Plausibilität der Vorhersage
+- Fachinformation mit Warnhinweisen und Gegenanzeigen (derzeit blockierende Datenlücke für die Sicherheitsprüfung)
+- Für therapierefraktäre Schizophrenie: direkte Studien mit Paliperidon als Prüfpräparat im Vergleich zu Clozapin
+- Klärung des Zulassungsstatus in Deutschland, da die einzige Zulassung erloschen ist
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

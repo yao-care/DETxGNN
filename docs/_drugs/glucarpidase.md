@@ -2,7 +2,7 @@
 layout: default
 title: Glucarpidase
 parent: Nur Modellvorhersage (L5)
-nav_order: 183
+nav_order: 214
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,69 +29,112 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Glucarpidase: Von Methotrexat-Toxizität zu Diabetischem Katarakt
+# Glucarpidase: Von Stoffwechsel-Nebenwirkungen von Arzneimitteln zum diabetischen Katarakt
 
 ## Zusammenfassung in einem Satz
 
-Glucarpidase (DrugBank DB08898) ist ein rekombinantes bakterielles Enzym (Carboxypeptidase G2), das als Notfallantidot zur Inaktivierung toxischer Methotrexat-Spiegel verwendet wird. Das TxGNN-Modell sagt einen möglichen Effekt auf **Diabetischen Katarakt** und neun weitere Katarakt-/Retinopathie-bedingte Zustände voraus, aber **es gibt derzeit keine klinischen Studien oder Literatur, die diese Vorhersagen unterstützen**, und die bereitgestellte mechanistische Begründung wird explizit als biologisch implausibel bewertet.
+Glucarpidase ist ein rekombinantes Enzym, das laut der in Deutschland (BfArM) hinterlegten Zulassung bei Stoffwechsel-Nebenwirkungen von Arzneimitteln und Substanzen eingesetzt wird. Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **diabetischem Katarakt** voraus. Dafür liegen jedoch **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage beruht ausschließlich auf dem Modell.
 
 ---
 
 ## Schnellübersicht
 
 | Punkt | Inhalt |
-|------|---------|
-| Ursprüngliche Indikation | Methotrexat-(MTX-)Toxizität — Notfall-Entgiftung (abgeleitet vom Rationale des Evidenzpakets; kein formaler Indikationstext vorhanden) |
+|------|------|
+| Ursprüngliche Indikation | Stoffwechsel-Nebenwirkungen von Arzneimitteln und Substanzen |
 | Vorhergesagte neue Indikation | Diabetischer Katarakt |
-| TxGNN-Vorhersage-Score | 99.85% |
-| Evidenzstufe | L5 (nur Modellvorhersage, keine unterstützenden Studien) |
-| Marktstatus Deutschland | ✗ Nicht zugelassen |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Zurückhalten |
+| TxGNN-Vorhersagewert | 99,85 % |
+| Evidenzgrad | L5 |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
+| Anzahl der Zulassungen | 1 (aufgehoben) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Warum ist diese Vorhersage (nicht) plausibel?
 
-Derzeit sind detaillierte Wirkmechanismus-Daten nicht verfügbar (Datenlücke). Basierend auf den in diesem Evidenzpaket enthaltenen Informationen ist die einzige gut etablierte biologische Aktivität von Glucarpidase die Hydrolyse des terminalen Glutamat-Rests von Methotrexat, was das Medikament inaktiviert und klinisch zur Rettung bei MTX-Überdosierung verwendet wird. Dies ist eine hochspezifische Ein-Substrat-enzymatische Funktion ohne bekannte Beteiligung an Linsenmetabolismus, Akkumulation von Advanced-Glykationsendprodukten (AGE), oxidativem Stress, retinaler Mikrogefäßpathologie oder Kalzium-/Nebenschilddrüsen-Signalwegen — den Mechanismen, die typischerweise bei Katarakt und diabetischer Retinopathie impliziert sind.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Glucarpidase ist eine rekombinante bakterielle Carboxypeptidase G2 (ca. 83 kDa, Dimer), die Methotrexat und andere Antifolate in inaktive Metaboliten spaltet. Sie wird intravenös zur Methotrexat-Rescue bei toxischen Plasmaspiegeln und verzögerter Ausscheidung infolge Niereninsuffizienz eingesetzt.
 
-Die Begründung der Umpositionierung des Evidenzpakets für jede der Top-10-Vorhersagen (alle Katarakt-Subtypen und diabetische Retinopathie) besagt, dass es **keinen bekannten mechanistischen Link** zwischen Glucarpidase und diesen Zuständen gibt, und schreibt die hohen TxGNN-Scores spärlichen indirekten Graph-Verbindungen zu (z. B. gemeinsames Auftreten von „Enzym-Klasse-Medikament"- und „metabolische Augenkrankheit"-Knoten) statt auf echte pharmakologische Plausibilität.
+Ein glaubwürdiger mechanistischer Zusammenhang mit dem diabetischen Katarakt ist nicht erkennbar. Glucarpidase wirkt weder auf den Polyolweg, die Aldose-Reduktase, die Glykierung von Linsenproteinen noch auf oxidativen Stress in der Linse. Zudem ist es unwahrscheinlich, dass ein großes, intravenös verabreichtes Protein die Linse erreicht.
 
-Angesichts der Tatsache, dass die ursprüngliche Indikation (akute MTX-Toxizität, eine Einzel-Dosis-IV-Rettungstherapie) keine logische oder mechanistische Beziehung zu chronischen ophthalmologischen Zuständen wie Katarakt aufweist, sollte dieses Vorhersage-Cluster als Graph-Topologie-Artefakt mit niedriger Konfidenz behandelt werden, nicht als glaubwürdige Umpositionierungshypothese.
+Der hohe Score (0,9985) ist sehr wahrscheinlich ein Artefakt des Wissensgraphen, vermutlich bedingt durch die Zuordnung zu einer Kategorie „metabolische Nebenwirkungen“ und die Netzwerknähe zu diabetesbezogenen Knoten. Auffällig ist, dass zehn Katarakt- und Retinopathie-Vorhersagen nahezu identische Scores (0,998–0,9985) aufweisen; dies spricht für ein systematisches Graph-Artefakt und nicht für ein indikationsspezifisches Signal.
+
+Weitere vorhergesagte Indikationen (alle ohne Evidenz, alle L5, alle Hold):
+
+| Rang | Vorhergesagte Indikation | Score |
+|------|------|------|
+| 2 | Diabetische Retinopathie | 99,84 % |
+| 3 | Tetanischer Katarakt | 99,83 % |
+| 4 | Reifer Katarakt (Cataracta matura) | 99,83 % |
+| 5 | Kraniostenose-Katarakt | 99,83 % |
+| 6 | Unreifer Katarakt | 99,83 % |
+| 7 | Katarakt bei Diabetes mellitus Typ 2 | 99,83 % |
+| 8 | Kortikaler Katarakt | 99,83 % |
+| 9 | Nukleärer seniler Katarakt | 99,83 % |
+| 10 | Seniler Katarakt | 99,82 % |
+
+Für alle diese Indikationen wurde kein plausibler mechanistischer Bezug identifiziert.
 
 ---
 
-## Evidenz aus klinischen Studien
+## Klinische Evidenz
 
-Derzeit keine verwandten klinischen Studien registriert
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Literatur-Evidenz
+## Literaturevidenz
 
-Derzeit keine relevante Literatur verfügbar
+Derzeit liegt keine zugehörige Literatur vor.
+
+---
+
+## Informationen zum Markt in Deutschland
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/005467 | Voraxaze (SERB SAS) | – | Stoffwechsel-Nebenwirkungen von Arzneimitteln und Substanzen |
+
+Der Status dieser Zulassung ist „aufgehoben/erloschen“; es gibt keine gültige Zulassung.
+
+---
+
+## Zytotoxizität
+
+Glucarpidase ist kein antineoplastisches Arzneimittel, sondern ein Enzym zur Entgiftung von Methotrexat. Es wird daher keine zytotoxische Einstufung vorgenommen.
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+**Arzneimittelwechselwirkungen:** Es wurden 8 Wechselwirkungen mittleren (moderaten) Schweregrades identifiziert (Quelle: DDInter):
+
+- Proguanil
+- Trimethoprim
+- Levoleucovorin
+- Pemetrexed
+- Pralatrexat
+- Pyrimethamin
+- Leucovorin
+- Trimetrexat
+
+Zu Warnhinweisen und Gegenanzeigen liegen keine Daten vor. Bitte die Fachinformation für weitere Sicherheitsinformationen heranziehen.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Zurückhalten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Alle 10 vorhergesagten Indikationen (diabetischer Katarakt, diabetische Retinopathie und 8 weitere Katarakt-Subtypen) haben Evidenzstufe L5 mit null unterstützenden klinischen Studien oder Literatur, und die mechanistische Analyse des Evidenzpakets selbst kommt explizit zu dem Ergebnis, dass es keinen biologischen Plausibilitylink zwischen der bekannten enzymatischen Aktivität von Glucarpidase und einer dieser ophthalmologischen Zustände gibt.
+Die Vorhersage stützt sich ausschließlich auf einen hohen Modellscore (L5) ohne klinische Studien, Publikationen oder plausiblen Wirkmechanismus. Hinzu kommen die systemische Gabe eines großen Enzyms (geringe Wahrscheinlichkeit für Linsen-/Augenpenetration) und die aufgehobene Zulassung in Deutschland.
 
-**Um fortzufahren, wird Folgendes benötigt:**
-- Bestätigte Wirkmechanismus-Daten (MOA) für Glucarpidase (derzeit Datenlücke, DG002)
-- TFDA/Hersteller-Packungsbeilage-Warnungen und Kontraindikationen (derzeit Datenlücke, DG001 — Blockierend)
-- Unabhängige präklinische oder mechanistische Studien, die einen plausiblen Weg zwischen der Carboxypeptidase-G2-Aktivität und Linsen-/Retina-Pathologie etablieren, bevor eine weitere Bewertung gerechtfertigt ist
-- Eine Neubewertung sollte nur ausgelöst werden, wenn neue Literatur- oder Studiendaten auftauchen; derzeit wird keine aktive Investition empfohlen
-
+**Für ein Weiterverfolgen wären erforderlich:**
+- Belastbare mechanistische Hinweise (z. B. präklinische Daten zu Polyolweg, Glykierung oder Augengewebe-Penetration)
+- Vollständige Wirkmechanismus-Daten (MOA)
+- Sicherheitsdaten aus der Fachinformation (Warnhinweise, Gegenanzeigen), die für das weitere Sicherheitsscreening zwingend erforderlich sind
+- Klärung des Zulassungsstatus und der Verfügbarkeit in Deutschland
+- Prüfung der Applikationsweg-Kompatibilität (intravenöses Enzym gegenüber okulärer Zielstruktur)
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

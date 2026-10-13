@@ -2,7 +2,7 @@
 layout: default
 title: Mecasermin
 parent: Nur Modellvorhersage (L5)
-nav_order: 247
+nav_order: 286
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,80 +29,92 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-# Mecasermin: Von ungespezifierter Originalindikation zu Monosomie X (Turner-Syndrom)
+# Mecasermin: Vom Laron-Syndrom zu Monosomie X (Turner-Syndrom)
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Mecasermin ist ein rekombinantes humanes Insulin-ähnliches-Wachstumsfaktor-1-Analogon (IGF-1); das aktuelle Evidenzpaket enthält keine Daten über seine ursprüngliche zugelassene Indikation oder detaillierten Wirkmechanismus.
-> Das TxGNN-Modell prognostiziert potenzielle Relevanz für **Monosomie X (Turner-Syndrom)**,
-> dies ist derzeit jedoch ein **nur auf Modellvorhersagen beruhender** Fund mit **0 klinischen Studien** und **0 Publikationen**, die zur Unterstützung identifiziert wurden.
+Mecasermin ist rekombinanter humaner IGF-1 (insulinähnlicher Wachstumsfaktor 1) und wurde ursprünglich zur Behandlung des Laron-Syndroms eingesetzt. Das TxGNN-Modell sagt voraus, dass der Wirkstoff bei **Monosomie X (Turner-Syndrom)** wirksam sein könnte. Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor, die Vorhersage beruht allein auf dem Modell.
 
 ---
 
-## Schnellübersicht
+## Kurzüberblick
 
-| Position | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Originalindikation | Nicht verfügbar (keine Lizenz-/Indikationsdaten im Evidenzpaket) |
-| Vorhergesagte neue Indikation | Monosomie X (Turner-Syndrom) |
-| TxGNN-Vorhersage-Score | 99.59% |
-| Evidenzstufe | L5 |
-| Marktstatus Deutschland | ✗ Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Halten |
+| Ursprüngliche Indikation | Laron-Syndrom |
+| Vorhergesagte neue Indikation | Monosomie X |
+| TxGNN-Vorhersagewert | 99,59 % |
+| Evidenzgrad | L5 |
+| Marktstatus in Deutschland | Nur erloschene Zulassung |
+| Anzahl der Zulassungen | 1 |
+| Empfohlene Entscheidung | Hold (zurückstellen) |
 
 ---
 
-## Warum ist diese Vorhersage sinnvoll?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Daten zum Wirkmechanismus von Mecasermin in diesem Evidenzpaket nicht verfügbar. Basierend auf Informationen, die in der verwandten Prognosebegründung eingebettet sind (siehe Kandidat Rang 3, „Wachstumshormon-Unempfindlichkeitssyndrom"), ist Mecasermin ein rekombinantes humanes IGF-1-Produkt, und seine etablierte pharmakologische Rolle besteht darin, IGF-1 direkt stromabwärts des GH-Rezeptors bereitzustellen – was die mechanistische Grundlage für seine Verwendung in GH-resistenten/Unempfindlichkeitszuständen ist.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Mecasermin ersetzt IGF-1 direkt und wirkt unterhalb der Wachstumshormon-Achse (GH). Beim Laron-Syndrom, einer schweren primären IGF-1-Defizienz, ist diese Substitution der therapeutische Ansatz.
 
-Für den höchstbewerteten Kandidaten, Monosomie X (Turner-Syndrom), ist die Begründung indirekt: Patienten mit Turner-Syndrom präsentieren sich häufig mit Kleinwuchs und in einigen Fällen mit reduzierter Reagibilität der GH/IGF-1-Achse. Theoretisch könnte eine exogene IGF-1-Supplementierung das Wachstum in dieser Population unterstützen, aber dies ist eine inferenzielle Verbindung – es gibt keine direkte mechanistische oder klinische Evidenz im Paket, die die Wirksamkeit von Mecasermin spezifisch in Monosomie X bestätigt.
-
-Es ist erwähnenswert, dass das Evidenzpaket selbst diese Vorhersage als von niedriger Konfidenz kennzeichnet: Es wurden keine klinischen Studien oder Literatur für Monosomie X abgerufen, und die Begründung kennzeichnet die Verbindung explizit als indirekt. Im Gegensatz dazu fehlt dem mechanistisch stärkeren Kandidaten (Wachstumshormon-Unempfindlichkeitssyndrom, Rang 3) ebenfalls jegliche unterstützende Studien oder Publikationen, was darauf hindeutet, dass die aktuelle Evidenzbasis für alle fünf Kandidaten nur auf Modellvorhersagen beruht.
+Das Turner-Syndrom (Monosomie X) ist durch Kleinwuchs gekennzeichnet, und Wachstumshormon ist die etablierte Standardtherapie. Über die IGF-1-Achse besteht daher ein denkbarer Zusammenhang. Allerdings ist das Turner-Syndrom in der Regel nicht durch einen primären IGF-1-Mangel definiert, und GH bleibt der Behandlungsstandard. Die Verbindung ist eine reine Vorhersage. Der TxGNN-Wert (0,996) ist eine rechnerische Schätzung und kein klinischer Beleg.
 
 ---
 
-## Evidenz aus klinischen Studien
+## Klinische Studien
 
-Derzeit keine verwandten klinischen Studien registriert
-
----
-
-## Literatur-Evidenz
-
-Derzeit keine verwandte Literatur verfügbar
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Marktstatus Deutschland
+## Literaturevidenz
 
-Mecasermin ist derzeit nicht auf dem deutschen Markt verfügbar (Marktstatus: Nicht vermarktet; Gesamtzahl der Zulassungen: 0). Es sind keine Lizenzdatensätze im Evidenzpaket verfügbar.
-
----
-
-## Sicherheitsaspekte
-
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
-
-*Hinweis: Das Evidenzpaket kennzeichnet Warnungen und Kontraindikationen der TFDA/Packungsbeilage als eine **blockierende** Datenlücke (DG001), was bedeutet, dass dieser Kandidat noch nicht zu einer formalen Sicherheitsbewertung (S1) übergehen kann.*
+Derzeit liegt keine zugehörige Literatur vor.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Informationen zum deutschen Markt
 
-**Entscheidung: Halten**
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000704 | Increlex | – | Laron-Syndrom |
+
+Diese Zulassung ist erloschen; aktuell besteht keine gültige Zulassung in Deutschland.
+
+---
+
+## Sicherheitshinweise
+
+- **Arzneimittelwechselwirkungen:** Insgesamt wurden 24 Wechselwirkungen erfasst, die in der verfügbaren Datenbasis als **moderat** eingestuft sind. Sie betreffen blutzuckersenkende Wirkstoffe, da IGF-1 selbst blutzuckersenkend wirkt und das Hypoglykämierisiko steigen kann:
+  - **Sulfonylharnstoffe:** Chlorpropamid, Acetohexamid, Glimepirid, Glipizid, Glibenclamid
+  - **Glinid:** Nateglinid
+  - **Insuline:** Humaninsulin (u. a. Normal-, Isophan-, Zink- und Zink-Depot-Formen, inhalatives Humaninsulin), Insulin aspart (auch Protamin-Form), Insulin degludec, Insulin detemir, Insulin glargin, Insulin glulisin, Insulin lispro (auch Protamin-Form)
+
+Zu Warnhinweisen und Gegenanzeigen liegen keine Daten vor. Bitte die Fachinformation zu Rate ziehen.
+
+---
+
+## Weitere vorhergesagte Indikationen (zur Einordnung)
+
+| Rang | Indikation | TxGNN-Wert | Einschätzung |
+|---|---|---|---|
+| 2 | Wolman-Krankheit mit Hypolipoproteinämie und Akanthozytose | 99,09 % | Kein erkennbarer mechanistischer Zusammenhang; vermutlich Artefakt des Graphen. Hold |
+| 3 | Wachstumshormon-Insensitivitätssyndrom mit Immundysregulation 2, autosomal-dominant | 99,06 % | Biologisch plausibelster Kandidat (IGF-1-Mangel trotz normalem/hohem GH, analog zum Laron-Syndrom); adressiert jedoch nicht die Immundysregulation. Forschungsfrage |
+| 4 | Ösophagusvarizen mit Blutung | 99,03 % | Kein mechanistischer Zusammenhang; theoretisches Risiko durch mitogene Wirkung. Hold |
+| 5 | Ösophagusvarizen ohne Blutung | 99,03 % | Wie Rang 4; identischer Wert deutet auf gemeinsame Graph-Assoziation hin. Hold |
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Hold**
 
 **Begründung:**
-Alle fünf durch TxGNN vorhergesagten Indikationen für Mecasermin – einschließlich der höchstbewerteten Monosomie X – liegen auf Evidenzstufe L5 (nur Modellvorhersage), ohne dass unterstützende klinische Studien oder Literatur identifiziert wurden, und die Entscheidungsstufe bleibt S0. Darüber hinaus existiert eine blockierende Datenlücke für TFDA/Packungsbeilage-Sicherheitsinformationen, die eine vorläufige Sicherheitsbewertung verhindert.
+Für Monosomie X liegen weder klinische Studien noch Literatur vor (Evidenzgrad L5). Der Standard (Wachstumshormon) ist etabliert, und ein primärer IGF-1-Mangel ist beim Turner-Syndrom nicht typisch. Zudem besteht in Deutschland keine gültige Zulassung.
 
-**Um fortzufahren, ist folgendes erforderlich:**
-- Warnungen und Kontraindikationen der TFDA/Packungsbeilage (blockierende Lücke, DG001)
-- Detaillierte Wirkmechanismus-Daten (MOA) über DrugBank API (DG002)
-- Klinische Studien- oder Literaturbeweise, die Mecasermin spezifisch in Turner-Syndrom (Monosomie X) oder GH-Unempfindlichkeit/Laron-ähnlichen Syndromen bewerten
-- Bestätigung des Markt-/Regulierungsstatus in Deutschland, angesichts der Tatsache, dass das Arzneimittel derzeit nicht vermarktet wird
-- Verabreichungsroute und Kompatibilitätsdaten der Darreichungsform (derzeit als „ausstehend" für alle Kandidaten gekennzeichnet)
-
+**Für ein Fortschreiten sind folgende Schritte nötig:**
+- Gezielte Literaturrecherche zu IGF-1 beim Turner-Syndrom; vorrangig außerdem zur STAT5B-Defizienz bzw. zum GH-Insensitivitätssyndrom (Rang 3), da dieser Kandidat plausibler ist
+- Daten zum Wirkmechanismus (MOA) aus DrugBank
+- Warnhinweise und Gegenanzeigen aus der Fachinformation (BfArM); dies ist eine blockierende Datenlücke für das Sicherheits-Screening
+- Klärung des Zulassungsstatus und der Verfügbarkeit des Präparats in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

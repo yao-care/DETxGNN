@@ -2,7 +2,7 @@
 layout: default
 title: Canakinumab
 parent: Nur Modellvorhersage (L5)
-nav_order: 83
+nav_order: 94
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,62 +29,85 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Canakinumab: Bewertung unvollständig — Keine TxGNN-Vorhersage verfügbar
+# Canakinumab: Von Cryopyrin-assoziierten periodischen Syndromen zu Leberinfarkt (Hepatic Infarction)
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Canakinumab (DB06168, Handelsname: Ilaris) ist ein vollständig humanisierter monoklonaler Antikörper gegen Interleukin-1β (IL-1β), der weit verbreitet bei autoinflammatorischen Erkrankungen eingesetzt wird.
-Das aktuelle Evidence Pack enthält **keine von TxGNN vorhergesagten Indikationen** und mehrere blockierende Datenlücken, was eine umfassende Bewertung der Arzneimittelumpositionierung in diesem Stadium unmöglich macht.
-**Sofortige Datenbereinigung ist erforderlich, bevor dieser Kandidat voranschreitet.**
+Canakinumab wurde ursprünglich zur Behandlung von Cryopyrin-assoziierten periodischen Syndromen (CAPS), juveniler rheumatoider Arthritis und Gichtarthritis zugelassen. Das TxGNN-Modell sagt voraus, dass es bei **Leberinfarkt** wirksam sein könnte. Für diese Vorhersage gibt es bislang **0 klinische Studien** und **0 Publikationen**; sie beruht allein auf der Graphanalyse des Modells.
 
 ---
 
 ## Schnellübersicht
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Nicht im Evidence Pack verfügbar |
-| Vorhergesagte neue Indikation | Keine — TxGNN-Ergebnisse nicht geladen |
-| TxGNN-Vorhersage-Score | N/A |
-| Evidenzstufe | N/A — keine Vorhersagen verfügbar |
-| Taiwan-Marktstatus | Nicht vermarktet |
-| Anzahl der Genehmigungen | 0 |
-| Empfohlene Entscheidung | **Halten** |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Cryopyrin-assoziierte periodische Syndrome; juvenile rheumatoide Arthritis; Gichtarthritis |
+| Vorhergesagte neue Indikation | Leberinfarkt (hepatic infarction) |
+| TxGNN-Vorhersagewert | 99,86 % |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Nur erloschene Zulassung (keine gültige Zulassung) |
+| Anzahl der Zulassungen | 1 (erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum diese Bewertung nicht fortgesetzt werden kann
+## Warum ist diese Vorhersage plausibel?
 
-Das Evidence Pack für Canakinumab (DB06168) weist Eingaben auf zwei Ebenen auf:
+Für diesen Bericht liegen keine detaillierten Daten zum Wirkmechanismus vor. Canakinumab ist ein gegen Interleukin-1β (IL-1β) gerichteter Antikörper. Seine Wirksamkeit bei den ursprünglichen Indikationen, die mit IL-1-vermittelter Entzündung zusammenhängen, ist belegt.
 
-**1. Kein Umpositionierungsziel identifiziert**
-Das Array `predicted_indications` ist leer. Ohne eine von TxGNN vorhergesagte Indikation gibt es keine Umpositionierungshypothese zum Bewerten, und die Kernstruktur dieses Berichts — mechanistische Plausibilität, Evidenz aus klinischen Studien und Literaturunterstützung — kann nicht zusammengestellt werden.
-
-**2. Datenlücken auf Arzneimittelebene blockieren Sicherheits- und Mechanismusbewertung**
-
-| Lücken-ID | Element | Schweregrad | Auswirkung |
-|-----------|---------|-------------|-----------|
-| DG001 | TFDA-Packungsbeilage (Warnhinweise / Kontraindikationen) | **Blockierend** | Sicherheits-Vorprüfung (S1) kann nicht abgeschlossen werden |
-| DG002 | Wirkmechanismus (MOA) | Hoch | Analyse der mechanistischen Plausibilität blockiert |
-
-Derzeit sind detaillierte Wirkmechanismus-Daten nicht verfügbar. Basierend auf allgemeinem pharmakologischen Wissen ist Canakinumab ein Anti-IL-1β-Biologikum; seine Wirksamkeit bei autoinflammatorischen Erkrankungen wurde etabliert, und sein entzündungshemmender Mechanismus ist mechanistisch relevant für eine breite Palette von entzündlichen und metabolischen Erkrankungen. Allerdings kann eine formale MOA-zu-Indikations-Zuordnung ohne bestätigte DrugBank-Daten im Evidence Pack nicht generiert werden.
+Ein Zusammenhang mit dem Leberinfarkt ist denkbar, aber spekulativ. Eine IL-1-Blockade könnte die sterile Entzündung nach ischämischen Schädigungen dämpfen. Dafür gibt es in den vorliegenden Daten weder klinische noch literarische Belege. Der hohe Vorhersagewert spiegelt nur die Struktur des Wissensgraphen wider und kein bestätigtes biologisches Prinzip. Die Ähnlichkeit zur ursprünglichen Indikation ist nicht bewertet.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Klinische Evidenz
 
-**Entscheidung: Halten**
+Derzeit sind keine zugehörigen klinischen Studien registriert.
+
+---
+
+## Literaturevidenz
+
+Derzeit liegt keine zugehörige Literatur vor.
+
+---
+
+## Marktinformationen Deutschland
+
+| Zulassungsnummer | Produktname | Hersteller | Status | Zugelassene Indikation |
+|---------|------|------|------|-----------|
+| EMEA/H/C/001109 | Ilaris | Novartis Europharm Limited | Erloschen | Cryopyrin-assoziierte periodische Syndrome; juvenile rheumatoide Arthritis; Gichtarthritis |
+
+---
+
+## Sicherheitsaspekte
+
+Für Warnhinweise und Gegenanzeigen liegen in den für diesen Bericht zusammengestellten Daten keine Angaben vor. Bitte die Fachinformation heranziehen.
+
+**Arzneimittelwechselwirkungen** (Abfrage abgeschlossen, insgesamt 100 Wechselwirkungen erfasst; hier eine Auswahl):
+
+- **Moderat:**
+  - Kortikosteroide: Hydrocortison, Triamcinolon (auch ophthalmisch), Dexamethason, Betamethason, Budesonid, Prednisolon, Prednison
+  - Statin: Simvastatin
+  - Radiopharmaka und radiomarkierte Antikörper: Ibritumomab-Tiuxetan, Iobenguan (I-131), Tositumomab (auch I-131)
+  - Antikoagulanzien: Apixaban, Dicoumarol, Rivaroxaban, Warfarin
+- **Gering:** Zinkacetat, Zinkgluconat, Zinksulfat
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Hold**
 
 **Begründung:**
-Kein Umpositionierungskandidat wurde von TxGNN identifiziert, und zwei blockierende/schwerwiegende Datenlücken verhindern sowohl Sicherheits- als auch mechanistische Bewertung. Der Kandidat kann nicht voranschreiten, bis das Evidence Pack abgeschlossen und erneut ausgeführt wird.
+Für Leberinfarkt gibt es weder Studien noch Publikationen, die Vorhersage ist rein rechnerisch (Evidenzstufe L5). Zudem besteht in Deutschland derzeit keine gültige Zulassung für Canakinumab.
 
-**Um fortzufahren, ist folgendes erforderlich:**
+**Für ein Weiterkommen sind folgende Schritte nötig:**
+- Präklinische oder mechanistische Belege für eine IL-1β-Beteiligung bei hepatischer Ischämie
+- Detaillierte Daten zum Wirkmechanismus
+- Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) zur Sicherheitsbewertung
+- Klärung des Zulassungsstatus in Deutschland
 
-- **Führe die TxGNN-Vorhersage-Pipeline aus** für DB06168, um `predicted_indications`-Einträge mit Scores, klinischen Studien und Literatur zu generieren
-- **Rufe MOA von der DrugBank-API ab** (DG002-Behebung) — rufe `/drugs/DB06168` ab für `mechanism-of-action`, `pharmacodynamics` und `targets`
-- **Lade die TFDA-Packungsbeilage-PDF herunter und analysiere sie** (DG001-Behebung) — extrahiere Warnhinweise, Kontraindikationen und spezielle Populationsbeschränkungen
-- **Regeneriere das Evidence Pack** mit allen bestätigten Eingaben, bevor der nächste Bewertungszyklus eingeleitet wird
-
+**Hinweis zu weiteren Kandidaten:** Unter den übrigen vorhergesagten Indikationen ist die Evidenz für das **familiäre Mittelmeerfieber (FMF)** deutlich besser. Dazu liegen drei abgeschlossene Phase-3-Studien (überwiegend offen, klein, mit Fokus auf CAPS) sowie mehrere systematische Reviews vor (Evidenzstufe L1, Empfehlung „Proceed with Guardrails“). Eine gesonderte Bewertung dieser Indikation wird empfohlen. Für das Blau-Syndrom gibt es Fallberichte und kleine Serien (Evidenzstufe L3).
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -2,7 +2,7 @@
 layout: default
 title: Mogamulizumab
 parent: Nur Modellvorhersage (L5)
-nav_order: 259
+nav_order: 304
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,84 +29,107 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **7**
 
 </div>
 
-# Mogamulizumab: Von unbekannter ursprünglicher Indikation zu Urothelkarzinom der Prostataurethra
+# Mogamulizumab: Vom kutanen T-Zell-Lymphom zum Urothelkarzinom der prostatischen Harnröhre
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Die ursprüngliche zugelassene Indikation für mogamulizumab ist nicht in diesem Evidenzpaket erfasst (mogamulizumab ist öffentlich bekannt als anti-CCR4-Monoklonalantikörper, der bei T-Zell-Malignitäten verwendet wird, aber dies stammt nicht aus dem Paket selbst).
-Die Top-Vorhersage des TxGNN-Modells ist **Urothelkarzinom der Prostataurethra**, mit einer Punktzahl von **99.44%**,
-aber dieser Kandidat – und alle 6 anderen vorhergesagten Indikationen in diesem Paket – hat derzeit **null unterstützende klinische Studien und null veröffentlichte Literatur**.
+Mogamulizumab ist ein Antikörper, der ursprünglich zur Behandlung des Sézary-Syndroms und der Mycosis fungoides (kutane T-Zell-Lymphome) zugelassen wurde.
+Das TxGNN-Modell sagt voraus, dass er bei **Urothelkarzinom der prostatischen Harnröhre** wirksam sein könnte.
+Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage beruht ausschließlich auf dem Modell.
 
-## Schnellübersicht
+---
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Im Evidenzpaket nicht verfügbar |
-| Vorhergesagte neue Indikation | Urothelkarzinom der Prostataurethra |
-| TxGNN-Vorhersage-Punktzahl | 99.44% (Rang 6358) |
-| Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfehlung zur Entscheidung | Halten |
+## Kurzüberblick
 
-## Warum ist diese Vorhersage angemessen?
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Sézary-Syndrom; Mycosis fungoides |
+| Vorhergesagte neue Indikation | Urothelkarzinom der prostatischen Harnröhre |
+| TxGNN-Vorhersagewert | 99,44 % |
+| Evidenzniveau | L5 |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
+| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 aufgehoben) |
+| Empfohlene Entscheidung | Hold |
 
-Detaillierte Wirkmechanismus-Daten sind im strukturierten MOA-Feld dieses Pakets nicht verfügbar. Der in der Vorhersage selbst eingebettete Begründungstext beschreibt mogamulizumab jedoch als einen anti-CCR4-Monoklonalantikörper, der CCR4+-T-Zellen – einschließlich tumorinfiltrierende regulatorischer T-Zellen (Tregs) – durch ADCC (antikörperabhängige zelluläre Zytotoxizität) depletiert.
+---
 
-Alle sieben vorhergesagten Indikationen teilen einen gemeinsamen spekulativen Faden: Tumoren mit CCR4+-Treg-Infiltration oder T-Zell-vermittelter Immunevasion könnten theoretisch von der Treg-Depletion profitieren, wodurch die Antitumor-Immunität wiederhergestellt wird. Dies trifft am meisten auf die vier Varianten von Urothelkarzinom/Nierenbecken zu (Ränge 1–4) und HHV-8-assoziierte Tumoren (Rang 5), bei denen Immundysregulation ein anerkanntes Merkmal der Tumor-Mikroumgebung ist. Dies trifft viel weniger auf Ektomesenchymom (Rang 6) und malignes kutanes Granularzelltumor (Rang 7) zu, die keine bekannte Assoziation mit dem CCR4-Signalweg aufweisen.
+## Warum ist diese Vorhersage plausibel?
 
-Es ist wichtig zu beachten, dass die Modellränge (6358–8822) diese sieben Kandidaten im mittleren bis unteren Bereich des gesamten TxGNN-Vorhersage-Pools platzieren, nicht unter den Top-Kandidaten. Ohne klinische Studien- oder Literaturbestätigung sollten diese als rein computergestützte Hypothesen behandelt werden.
+Detaillierte Daten zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten nicht vor. Nach allgemeinem Wissen ist Mogamulizumab ein gegen CCR4 gerichteter monoklonaler Antikörper. Er depletiert CCR4-exprimierende Zellen, darunter regulatorische T-Zellen (Tregs), über verstärkte antikörperabhängige zelluläre Zytotoxizität (ADCC). Diese Angabe wurde nicht anhand der vorliegenden Daten verifiziert.
 
-## Klinische Studienevidenz
+Die hypothetische Verbindung zur neuen Indikation: Eine Treg-Depletion könnte die Immunsuppression im Tumormikromilieu des Urothelkarzinoms verringern und möglicherweise die Wirkung von Checkpoint-Inhibitoren ergänzen. Für eine CCR4-Expression oder Treg-Abhängigkeit bei diesem Tumortyp liegen in den Daten keine Belege vor. Der hohe TxGNN-Wert spiegelt Ähnlichkeiten im Wissensgraphen wider, keine klinische Validierung.
 
-Derzeit keine verwandten klinischen Studien registriert.
+Weitere vorhergesagte Indikationen (jeweils nur Modellvorhersage, L5, Hold):
 
-## Literaturevidenz
+| Rang | Indikation | TxGNN-Wert | Anmerkung |
+|---|---|---|---|
+| 2 | Sarkomatoides Übergangszellkarzinom des Nierenbeckens | 99,42 % | Aggressive Variante mit eigener Biologie; kein Beleg für CCR4-Bezug |
+| 3 | Infiltrierendes Urothelkarzinom der Blase, sarkomatoide Variante | 99,40 % | Mögliche Ergänzung zur Checkpoint-Hemmung, rein hypothetisch |
+| 4 | Papilläres Urothelkarzinom des Nierenbeckens | 99,37 % | Spekulativ; CCR4-Relevanz unbestätigt |
+| 5 | Humanes-Herpesvirus-8-assoziierter Tumor | 99,24 % | Biologisch etwas plausibler (Immundysregulation); Sicherheitsfragen bei immunsupprimierten Patienten |
+| 6 | Ektomesenchymom | 99,15 % | Kein mechanistischer Bezug erkennbar |
+| 7 | Maligner kutaner Granularzelltumor | 99,15 % | Nur Hautbezug gemeinsam, andere Zelllinie (Schwann-Zellen) |
 
-Derzeit keine verwandte Literatur verfügbar.
+---
 
-## Weitere TxGNN-vorhergesagte Indikationen (Ränge 2–7)
+## Evidenz aus klinischen Studien
 
-| Rang | Erkrankung | Punktzahl | Modellrang | Mechanistische Grundlage |
-|------|-----------|-----------|-----------|------------------------|
-| 2 | Sarkomatoides Übergangszellkarzinom des Nierenbeckens | 99.42% | 6569 | CCR4+-Treg-Depletion-Hypothese (spekulativ) |
-| 3 | Infiltrierendes Urothelkarzinom der Blase, sarkomatoide Variante | 99.40% | 6724 | CCR4+-Treg-Depletion-Hypothese (spekulativ) |
-| 4 | Papilläres Übergangszellkarzinom des Nierenbeckens | 99.37% | 6945 | CCR4+-Treg-Depletion-Hypothese (spekulativ) |
-| 5 | Mit Humanes Herpesvirus 8 assoziierter Tumor | 99.24% | 8121 | Treg-vermittelte Immunwiederherstellung (spekulativ) |
-| 6 | Ektomesenchymom | 99.15% | 8822 | Keine bekannte CCR4-Signalweg-Assoziation |
-| 7 | Malignes kutanes Granularzelltumor | 99.15% | 8825 | Keine bekannten CCR4-Expressionsnachweise |
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
-## Marktinformationen für Deutschland
+---
 
-Mogamulizumab ist derzeit in Deutschland nicht vermarktet, und es gibt keine Zulassungsunterlagen (0 Zulassungen).
+## Evidenz aus der Literatur
+
+Derzeit liegt keine zugehörige Literatur vor.
+
+---
+
+## Informationen zum deutschen Markt
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/004232 | Poteligeo | – | Sézary-Syndrom; Mycosis fungoides |
+
+Hinweis: Diese Zulassung ist aufgehoben (Status: cancelled).
+
+---
 
 ## Zytotoxizität
 
-| Element | Inhalt |
-|---------|--------|
-| Zytotoxizitäts-Klassifizierung | Immuntherapie (anti-CCR4-Monoklonalantikörper, ADCC-vermittelt), keine konventionelle zytotoxische Chemotherapie |
-| Knochenmarksuppression-Risiko | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Packungsbeilage |
-| Emetogenitäts-Klassifizierung | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Packungsbeilage |
-| Überwachungspunkte | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Packungsbeilage |
-| Handhabungsschutz | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Packungsbeilage |
+| Punkt | Inhalt |
+|------|------|
+| Klassifikation | Gezielte Therapie (monoklonaler Antikörper gegen CCR4), kein konventionelles Zytostatikum |
+| Myelosuppressionsrisiko | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Emetogenität | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Monitoring | Bitte Fachinformation beachten |
+| Handhabungsschutz | Bitte Fachinformation beachten |
+
+---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Sicherheitsinformationen in der Packungsbeilage.
+- **Arzneimittelwechselwirkungen:** Insgesamt wurden 83 Wechselwirkungen erfasst. Auswahl:
+  - **Schwerwiegend (Major):** Deferipron, Samarium-(153Sm)-Lexidronam, Adalimumab, Baricitinib
+  - **Moderat:** u. a. Strontiumchlorid Sr-89, Roflumilast, Chloramphenicol, Zidovudin, Alemtuzumab, Anakinra, Azathioprin, Canakinumab, Alefacept sowie Impfstoffe (Tetanustoxoid, Anthrax)
+  - **Gering (Minor):** Zinksalze (Sulfat, Acetat, Gluconat, Chlorid)
+
+Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
+
+---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Halten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Alle sieben vorhergesagten Indikationen sind Evidenzstufe L5 (nur Modellvorhersage), ohne unterstützende klinische Studien oder Literatur für irgendeinen Kandidaten identifiziert. Kritische Eingaben, die für eine vorläufige Sicherheitsbewertung erforderlich sind – TFDA-Warnhinweise/Kontraindikationen (blockierend) und bestätigter Wirkmechanismus (hoher Schweregrad) – sind als Datenlücken im Paket selbst gekennzeichnet.
+Die Vorhersage stützt sich allein auf das Modell (L5); es gibt weder Studien noch Publikationen, und der mechanistische Bezug ist unbestätigt. Zudem ist die einzige deutsche Zulassung aufgehoben.
 
-**Um fortfahren zu können, ist Folgendes erforderlich:**
-- TFDA/Packungsbeilage-Warnhinweise und Kontraindikationen (blockieren derzeit die Sicherheitsbewertung)
-- Bestätigter Wirkmechanismus von DrugBank
-- Bestätigte ursprüngliche zugelassene Indikation(en) für mogamulizumab (derzeit nicht in diesem Paket erfasst)
-- Gezielte Literatur- und klinische Studiensuche für CCR4/Treg-Biologie bei Urothelkarzinom und HHV-8-assoziierten Tumoren, da durch automatisierte Evidenzerfassung keine gefunden wurden
-
+**Für ein Weiterkommen sind folgende Schritte nötig:**
+- Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) zur Sicherheitsprüfung
+- Vollständige Wirkmechanismus-Daten (z. B. aus DrugBank)
+- Prüfung der CCR4-Expression und Treg-Abhängigkeit in Urothelkarzinomen (präklinisch oder aus der Literatur)
+- Literatur- und Studienrecherche zu CCR4-Antikörpern bei soliden Tumoren
+- Klärung des Zulassungs- und Verfügbarkeitsstatus in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

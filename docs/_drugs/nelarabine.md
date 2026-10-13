@@ -2,7 +2,7 @@
 layout: default
 title: Nelarabine
 parent: Nur Modellvorhersage (L5)
-nav_order: 264
+nav_order: 309
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,89 +29,97 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Nelarabine: Von T-Zell-Malignitäten zur rezidivierend-remittierenden Multiplen Sklerose
+# Nelarabin: Von der T-Zell-lymphoblastischen Leukämie/Lymphom zur schubförmig-remittierenden Multiplen Sklerose
 
 ## Zusammenfassung in einem Satz
 
-> Nelarabine ist ein Chemotherapeutikum aus der Klasse der Purin-Nukleosid-Analoga mit selektiver Toxizität gegenüber T-Lymphozyten.
-> Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam bei **rezidivierend-remittierender Multipler Sklerose (RRMS)** ist,
-> einer Indikation, die derzeit von **keinen registrierten klinischen Studien** und **keiner veröffentlichten Literatur** gestützt wird — dies ist derzeit eine reine durch das Modell generierte Hypothese.
+Nelarabin wurde ursprünglich zur Behandlung der Vorläufer-T-Zell-lymphoblastischen Leukämie/des Lymphoms zugelassen. Das TxGNN-Modell sagt voraus, dass es bei der **schubförmig-remittierenden Multiplen Sklerose** wirksam sein könnte. Für diese Vorhersage liegen in den für diesen Bericht zusammengestellten Daten jedoch **keine klinischen Studien** und **keine Publikationen** vor; sie beruht allein auf der Modellvorhersage.
 
 ---
 
-## Schnelle Übersicht
+## Kurzüberblick
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Nicht dokumentiert im aktuellen Evidenzpaket (kein Zulassungs-/Indikationstext verfügbar) |
-| Vorhergesagte neue Indikation | Rezidivierend-remittierende Multiple Sklerose |
-| TxGNN-Vorhersagescore | 99.43% |
-| Evidenzebene | L5 |
-| Status des deutschen Marktes | Nicht auf dem Markt |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Zurückgestellt |
+| Ursprüngliche Indikation | Vorläufer-T-Zell-lymphoblastische Leukämie/Lymphom |
+| Vorhergesagte neue Indikation | Schubförmig-remittierende Multiple Sklerose |
+| TxGNN-Vorhersagewert | 99,43 % |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
+| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage begründet?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Wirkmechanismus-Daten nicht im Evidenzpaket für diese Kandidatin verfügbar. Basierend auf allgemeinem pharmakologischen Wissen ist Nelarabine ein Prodrug von 9-β-D-Arabinofuranosylguanin (ara-G), einem Purin-Nukleosid-Analogon. Nach Umwandlung zum aktiven Triphosphat-Metaboliten (ara-GTP) wird es bevorzugt in DNA in T-Lymphozyten eingebaut — eine Selektivität, die durch hohe Desoxyguanosin-Kinase- und niedrige Deaminase-Aktivität in T-Zellen getrieben wird — was zu Kettenabbruch und Zelltod führt. Diese T-Zell-selektive Zytotoxizität ist die pharmakologische Grundlage für seine etablierte Verwendung als Chemotherapeutikum.
+Zum Wirkmechanismus liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Nelarabin ist bekanntermaßen ein Prodrug von ara-G, einem Desoxyguanosin-Analogon. Dieses wird zu ara-GTP umgewandelt und in die DNA eingebaut, was bevorzugt in T-Lymphoblasten zytotoxisch wirkt.
 
-RRMS ist eine Autoimmunerkrankung, bei der pathogene, aktivierte T-Lymphozyten Demyelinisierung im zentralen Nervensystem vorantreiben. Die mechanistische Hypothese, die Nelarabine mit RRMS verbindet, würde sich auf seine selektive Fähigkeit verlassen, pathogene T-Zell-Populationen abzubauen oder zu unterdrücken — konzeptionell analog dazu, wie andere T-Zellen-depletierend wirkende Mittel (z. B. Cladribin, ein anderes Purin-Analogon) für MS repurposiert wurden. Dies bleibt jedoch nur eine mechanistische Begründung; das Evidenzpaket enthält **keine bestätigenden klinischen Studien- oder Literaturnachweise**, daher sollte diese Verbindung als eine durch das TxGNN-Modell generierte Hypothese und nicht als etablierte oder aufstrebende klinische Richtung behandelt werden.
+Ein möglicher, rein spekulativer Zusammenhang mit der schubförmig-remittierenden MS besteht in der Depletion von Lymphozyten. Ähnlich wirkt Cladribin, ein weiteres Purinanalogon, das zur MS-Behandlung zugelassen ist. Direkte mechanistische Belege fehlen jedoch.
+
+Gegen diese Hypothese spricht die Neurotoxizität von Nelarabin. Dazu zählen Demyelinisierung, periphere Neuropathie und Guillain-Barré-ähnliche Syndrome. Sie ist bei einer demyelinisierenden Erkrankung wie der MS ein gravierendes Sicherheitsproblem. Der hohe TxGNN-Wert (0,994) ist eine reine Modellvorhersage und wird durch keine Studien- oder Literaturdaten gestützt.
 
 ---
 
-## Klinische Studienevidenz
+## Klinische Studien
 
-Derzeit sind keine damit verbundenen klinischen Studien registriert.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
 ## Literaturevidenz
 
-Derzeit ist keine damit verbundene Literatur verfügbar.
+Derzeit liegt keine zugehörige Literatur vor.
 
 ---
 
 ## Informationen zum deutschen Markt
 
-Nelarabine ist derzeit **nicht auf dem Markt** in Deutschland unter diesem Evidenzpaket, und keine Zulassungsunterlagen sind verfügbar (`total_licenses: 0`).
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000752 | Atriance (Sandoz Pharmaceuticals d.d.) | – | Vorläufer-T-Zell-lymphoblastische Leukämie/Lymphom |
+
+Diese Zulassung ist erloschen bzw. aufgehoben (Status: cancelled).
 
 ---
 
 ## Zytotoxizität
 
-Nelarabine gehört zu einer bekannten zytotoxischen Chemotherapieklasse (Purin-Nukleosid-Analogon / Antimetabolit), daher gilt dieser Abschnitt.
-
 | Punkt | Inhalt |
 |------|------|
-| Zytotoxizitätsklassifizierung | Konventionell zytotoxisch (Purin-Nukleosid-Analogon, Prodrug von ara-G) |
-| Myelosuppressions-Risiko | Bitte beachten Sie die Warnungen und Vorsichtsmaßnahmen in der Packungsbeilage |
-| Emetogenitätsklassifizierung | Bitte beachten Sie die Warnungen und Vorsichtsmaßnahmen in der Packungsbeilage |
-| Überwachungspunkte | Bitte beachten Sie die Warnungen und Vorsichtsmaßnahmen in der Packungsbeilage |
-| Handhabungsschutz | Handhabung gemäß Zytostatikarichtlinien wird angesichts der Arzneimittelklasse erwartet; überprüfen Sie dies gegen die offizielle Kennzeichnung |
+| Zytotoxizitätsklassifikation | Konventionelles Zytostatikum (Nukleosidanalogon, Purinanalogon) |
+| Myelosuppressionsrisiko | Hoch bis mittel (aus den Kontraindikationsverknüpfungen: Neutropenie, Thrombozytopenie, Anämie, Agranulozytose) |
+| Emetogenitätsklassifikation | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Überwachungsparameter | Großes Blutbild mit Differenzialblutbild, Leber- und Nierenfunktion, Bilirubin, neurologische Statuskontrollen |
+| Schutzmaßnahmen bei der Handhabung | Vorschriften für den Umgang mit zytotoxischen Arzneimitteln einhalten |
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+- **Kontraindikations-Verknüpfungen aus dem Wissensgraphen (TxGNN/PrimeKG, kein Fachinformationstext):** Leberversagen, Epilepsie, Thrombozytopenie, Neutropenie, Agranulozytose, Erkrankungen des peripheren Nervensystems, periphere Neuropathie, Anämie, makrozytäre Anämie, Hyperbilirubinämie, hereditäre Hyperbilirubinämie, Gilbert-Syndrom, eingeschränkte Nierenfunktion, Lernbehinderung, geistige Behinderung, demyelinisierende Erkrankungen, inflammatorische demyelinisierende Polyradikuloneuropathie.
+  Besonders relevant für die vorgeschlagene MS-Indikation sind die demyelinisierenden und neuropathischen Einträge.
+- **Arzneimittelwechselwirkungen:** Insgesamt wurden 100 Wechselwirkungen gefunden; die folgende Auswahl stammt aus der abgerufenen Liste.
+  - **Schwerwiegend (Major):** Bupropion, Deferipron, Iopamidol, Iohexol, Samarium-(153Sm)-Lexidronam
+  - **Moderat:** Picosulfat, Polyethylenglykol (3350 mit Elektrolyten), Natriumsulfat, Metronidazol, Rosuvastatin, Simvastatin, Tinidazol, Palifermin, Strontiumchlorid-89, Chloroquin, Disulfiram, Secnidazol, Benznidazol, Hydroxychloroquin, Lindan
+
+Für Warnhinweise und Gegenanzeigen im Wortlaut der Fachinformation sind die Packungsbeilage bzw. die Fachinformation heranzuziehen.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Zurückgestellt**
+**Entscheidung: Hold**
 
 **Begründung:**
-Es gibt derzeit keine klinischen Studien- oder Literaturnachweise für die RRMS-Indikation, und es existiert eine blockierende Datenlücke für TFDA/offizielle Kennzeichnungswarnungen und Kontraindikationen, die eine S1-Sicherheits-Vorbeurteilung verhindert. Der Vorhersagescore allein ist unzureichend, um diesen Kandidaten voranzutreiben.
+Die Vorhersage beruht ausschließlich auf einem Modellwert (Evidenzstufe L5) ohne Studien oder Publikationen. Die bekannte Neurotoxizität (Demyelinisierung, Neuropathie) spricht direkt gegen den Einsatz bei MS, und die einzige deutsche Zulassung ist erloschen.
 
-**Um fortzufahren, wird folgendes benötigt:**
-- Offizielle Kennzeichnungssicherheitsdaten (Warnungen, Kontraindikationen) — derzeit blockierend (DG001)
-- Bestätigte Wirkmechanismus (MOA)-Dokumentation (DG002)
-- Ursprünglich genehmigte Indikation(en) für dieses Arzneimittel, um eine Grundlage für das Umgestaltungsrationale zu schaffen
-- Mindestens präklinische oder mechanistische Literatur, die Nelarabine/T-Zell-Depletion mit autoimmun-demyelinisierender Erkrankung verbindet, bevor eine weitere Bewertungsstufe in Betracht gezogen wird
-
+**Für ein Weiterkommen sind folgende Schritte nötig:**
+- Auswertung der Fachinformation (Warnhinweise und Gegenanzeigen) vom BfArM, da dies die Sicherheitsprüfung derzeit blockiert
+- Daten zum Wirkmechanismus (MOA) aus DrugBank
+- Präklinische Evidenz zur Wirkung bei MS-Modellen und eine fundierte Nutzen-Risiko-Bewertung der Neurotoxizität
+- Vergleich mit zugelassenen Purinanalogon-Therapien bei MS (z. B. Cladribin)
+- Klärung der Verfügbarkeit, da keine gültige Zulassung in Deutschland besteht
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

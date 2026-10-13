@@ -2,7 +2,7 @@
 layout: default
 title: Imidacloprid
 parent: Nur Modellvorhersage (L5)
-nav_order: 198
+nav_order: 233
 evidence_level: L5
 indication_count: 9
 ---
@@ -29,79 +29,83 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9**
 
 </div>
 
-# Imidacloprid: Vom Insektizid zum Cauda-Equina-Syndrom
+# Imidacloprid: Von einem nicht ausgewiesenen Ursprungsanwendungsgebiet zu Cauda-equina-Syndrom
 
 ## Zusammenfassung in einem Satz
 
-> Imidacloprid ist ein Neonikotinoid-Insektizid ohne genehmigte medizinische Indikation; es ist kein zugelassenes Arzneimittel.
-> Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam bei **Cauda-Equina-Syndrom** ist,
-> aber diese Vorhersage wird durch **0 klinische Studien** und **0 Publikationen** gestützt, und der eigene Wirkmechanismus des Arzneistoffs (Insekten-selektive Nikotinacetylcholin-Rezeptor-(nAChR)-Agonisten mit minimaler Wirbeltier-Affinität) bietet keine biologische Grundlage für diese oder eine der anderen Kandidaten-Indikationen.
+Imidacloprid ist ein Neonicotinoid-Wirkstoff (nikotinischer Acetylcholinrezeptor-Agonist) mit Selektivität für Insektenrezeptoren. Die Zulassungen in den für diesen Bericht zusammengestellten Daten betreffen Tierarzneimittel. Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **Cauda-equina-Syndrom** voraus, doch es liegen **keine klinischen Studien** und **keine Publikationen** zu dieser Indikation vor. Die Vorhersage beruht allein auf dem Modellscore.
 
 ---
 
-## Schnellübersicht
+## Überblick
 
-| Element | Inhalt |
-|--------|--------|
-| Ursprüngliche Indikation | Nicht zutreffend — Imidacloprid ist ein Neonikotinoid-Insektizid, kein zugelassenes Arzneimittel für Menschen |
-| Vorhergesagte neue Indikation | Cauda-Equina-Syndrom |
-| TxGNN-Vorhersage-Score | 99.99% (Rang 208 von allen Kandidaten-Erkrankungen) |
-| Evidenzgrad | L5 (nur Modellvorhersage, keine unterstützenden Studien) |
-| Marktstatus in Deutschland | ✗ Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfehlung | **Halten** |
-
----
-
-## Warum ist diese Vorhersage sinnvoll?
-
-Das ist sie nicht. Imidacloprid ist ein Insekten-selektiver Nikotinacetylcholin-Rezeptor-(nAChR)-Agonist. Seine Selektivität für Insekten-Typ-nAChR-Untereinheiten gegenüber Wirbeltier-nAChR — kombiniert mit sehr niedriger Affinität zum Wirbeltier-Rezeptor — ist genau die pharmakologische Grundlage für sein Sicherheitsprofil als Insektizid. Dies ist das Gegenteil einer Eigenschaft, nach der man suchen würde, wenn man einen Wirkstoff für eine menschliche neurologische Erkrankung neu bewerten würde.
-
-Das Cauda-Equina-Syndrom ist ein mechanisch-kompressives neurologisches Notfall (Nervenwurzelkompression im lumbosakralen Spinalkanal), typischerweise verursacht durch Bandscheibenvorfall, Tumor, Trauma oder Infektion. Es gibt keinen plausiblen pharmakologischen Weg, auf dem ein Wirbeltier-nAChR-sparendes Insektizid Nervenwurzelkompression behandeln würde. Der TxGNN-Score spiegelt höchstwahrscheinlich Graphen-Topologie-Ähnlichkeit (gemeinsame Metadaten oder indirekte Netzwerkpfade) wider, anstatt eines zugrunde liegenden biologischen Signals — diese Interpretation ist konsistent mit der eigenen Bewertung des Evidenzpakets.
-
-Die gleiche Schlussfolgerung gilt für die anderen acht eingestuften Vorhersagen in diesem Evidenzpaket (veraltete neurogene Blasendysfunktion, Reizdarmsyndrom, Ösophaguserkrankungen, Mitralklappenprolapс und seine Subtypen, neurozirkulatorische Asthenie): alle werden mit L5 bewertet, alle haben Empfehlungen zum „Halten" und keine weist eine dokumentierte mechanistische Verbindung zur bekannten Pharmakologie von Imidacloprid auf. Wo klinische Studien oder Literatur für niedriger eingefärbte Kandidaten abgerufen wurden (z. B. Reizdarmsyndrom, Ösophaguserkrankung), bestätigen Anmerkungen des Bewerters, dass dies falsch-positive Treffer sind — die abgerufenen Studien betreffen nicht verwandte Interventionen (osteopathische Manipulationen, Strahlentherapie, Endoskopie-Techniken), die allein aufgrund von Krankheitsname-Überlappung eingezogen wurden, nicht weil sie Imidacloprid untersuchten. Der eine echte Imidacloprid-bezogene Datensatz (PMID 29506575) ist eine veterinärmedizinische Studie eines topischen Imidacloprid-Moxidectin-Antiparasitikums bei Hunden mit Ösophagus-Spirocercosis — eine parasitäre Infektion, keine menschliche Ösophaguserkrankung und nicht relevant für die Neuanwendung beim Menschen.
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Keine Angabe in den zusammengestellten Daten (die Zulassungstexte sind leer) |
+| Vorhergesagte neue Indikation | Cauda-equina-Syndrom |
+| TxGNN-Vorhersagescore | 99,99 % |
+| Evidenzlevel | L5 |
+| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
+| Anzahl der Zulassungen | 2 (beide erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Evidenzlage aus klinischen Studien
+## Warum ist diese Vorhersage (nicht) plausibel?
+
+Zum Wirkmechanismus liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Imidacloprid ein Neonicotinoid-Insektizid ist und als Agonist an nikotinischen Acetylcholinrezeptoren (nAChR) wirkt, mit deutlicher Selektivität für Insektenrezeptoren. Die Affinität zu nAChR von Säugetieren ist gering, und der Stoff ist kein Humantherapeutikum.
+
+Das Cauda-equina-Syndrom ist eine Kompression der lumbosakralen Nervenwurzeln. Eine biologisch plausible Verbindung zwischen einem Insekten-nAChR-Agonisten und dieser strukturellen, kompressiven Erkrankung ist nicht erkennbar. Der hohe Score dürfte eher auf Artefakten der Graphtopologie des Wissensgraphen beruhen als auf pharmakologischer Evidenz.
+
+Auch die weiteren Vorhersagen (u. a. obsolete neurogene Blase, Reizdarmsyndrom, Ösophaguserkrankung, Mitralklappenprolaps und verwandte Einträge) stützen sich ausschließlich auf Modellscores. Für sie gibt es keine belastbare mechanistische Begründung.
+
+---
+
+## Evidenz aus klinischen Studien
 
 Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Evidenzlage aus Literatur
+## Evidenz aus der Literatur
 
-Derzeit ist keine zugehörige Literatur verfügbar.
+Für das Cauda-equina-Syndrom liegt derzeit keine zugehörige Literatur vor.
+
+Zur Orientierung: Für die weiter hinten gereihte Vorhersage „Ösophaguserkrankung" gibt es einen Treffer:
+
+| PMID | Jahr | Typ | Journal | Kernaussagen |
+|------|-----|------|------|---------|
+| [29506575](https://pubmed.ncbi.nlm.nih.gov/29506575/) | 2018 | Veterinärmedizinische klinische Studie (doppelblind, placebokontrolliert) | Parasites & Vectors | Spot-on-Kombination aus Imidacloprid und Moxidectin (Advocate®) im Vergleich zu injizierbarem Doramectin bei Hunden mit ösophagealer Spirocercose. Die antiparasitäre Wirkung ist vor allem Moxidectin zuzuschreiben; kein Beleg für eine Wirksamkeit bei menschlichen Ösophaguserkrankungen. |
 
 ---
 
-## Marktinformationen für Deutschland
+## Marktinformationen Deutschland
 
-Imidacloprid besitzt keine Vermarktungszulassungen in Deutschland (0 Lizenzen registriert). Es ist registriert und wird ausschließlich als landwirtschaftliches/veterinärmedizinisches Insektizid verwendet (z. B. Floh-/Zeckenprodukte zum Auftragen, Pflanzenschutz), nicht als Arzneimittel für den Menschen.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/V/C/005597 | Imoxat | nicht angegeben | nicht angegeben (Status: erloschen) |
+| EMEA/V/C/000076 | Advocate | nicht angegeben | nicht angegeben (Status: erloschen) |
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Fachinformation für Sicherheitsinformationen.
-
-*(Hinweis: Das Evidenzpaket kennzeichnet TFDA-ähnliche Kennzeichnung/Warnhinweise und Kontraindikationsdaten als blockierenden Datenmangel — dies muss aus regulatorischen Quellen wie Fachinformationen für Veterinärprodukte und Pestizid-Sicherheitsdatenblättern behoben werden, bevor weitere Bewertungen durchgeführt werden, da keine Fachinformation für die Humanmedizin vorhanden ist.)*
+Zu Warnhinweisen, Gegenanzeigen und Wechselwirkungen liegen keine Daten vor (die Abfrage zu Wechselwirkungen ergab keine Treffer). Bitte die Fachinformation zu Sicherheitsaspekten heranziehen. Zu beachten ist zudem, dass Imidacloprid als neurotoxisches Pestizid eingestuft wird, was gegen eine Anwendung beim Menschen spricht.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Halten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Imidacloprid ist kein Arzneimittel für den Menschen, hat keine Vermarktungszulassung in Deutschland und keine der neun von TxGNN vorhergesagten Indikationen (einschließlich des am höchsten eingestuften Cauda-Equina-Syndroms) werden durch klinische Studien, Literatur oder eine plausible mechanistische Begründung unterstützt. Die Kern-Pharmakologie des Arzneistoffs — Sparing von Wirbeltier-nAChR — spricht gegen, nicht für die therapeutische Neuanwendung beim Menschen. Dieser Kandidat erfüllt nicht die minimale Evidenzschwelle, um über S0 hinaus voranzukommen.
+Die Vorhersage stützt sich ausschließlich auf einen Modellscore (Evidenzlevel L5) ohne klinische Studien, ohne relevante Literatur und ohne plausiblen Mechanismus. Hinzu kommen der Status „nur erloschene Zulassungen", die Einstufung als neurotoxisches Insektizid und ein Zulassungsbestand ausschließlich im Veterinärbereich.
 
-**Zur Fortsetzung ist Folgendes erforderlich:**
-- Bestätigung von Sicherheits-/Toxikologiedaten für Menschen (derzeit ein blockierender Datenmangel) — kritisch angesichts der Verwendung von Imidacloprid als Pestizid
-- Unabhängige mechanistische Validierung, die erklärt, warum ein Wirbeltier-nAChR-sparendes Insektizid irgendeine Aktivität bei den vorhergesagten Indikationen hätte
-- Neubewertung der TxGNN-Vorhersage selbst, angesichts der hohen Wahrscheinlichkeit, dass dies eher Graphen-Topologie-Artefakte als biologisch begründete Signale sind
-- Falls keine der oben genannten Punkte nachgewiesen werden kann, sollte dieser Kandidat deprioritisiert/geschlossen werden, anstatt ihn auf unbestimmte Zeit zu halten
-
+**Für ein Weiterverfolgen wären erforderlich:**
+- Beschaffung und Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen), da dies die Sicherheitsprüfung derzeit blockiert
+- Daten zum Wirkmechanismus (z. B. aus DrugBank)
+- Präklinische Belege für einen Zusammenhang mit dem Cauda-equina-Syndrom oder den anderen vorhergesagten Erkrankungen
+- Eine toxikologische Bewertung für die Anwendung beim Menschen
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

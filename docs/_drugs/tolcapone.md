@@ -2,7 +2,7 @@
 layout: default
 title: Tolcapone
 parent: Nur Modellvorhersage (L5)
-nav_order: 403
+nav_order: 471
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,79 +29,85 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Tolcapone: Von der Parkinson-Krankheit (COMT-Hemmung) zur Rasmussen-Subakuten-Enzephalitis
+# Tolcapon: Von Morbus Parkinson zu Rasmussen-Enzephalitis (subakute Rasmussen-Enzephalitis)
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Tolcapone ist ein COMT-(Catechol-O-Methyltransferase-)Hemmer; nach Angaben der Begründungsnotizen des Evidenzpakets bezieht sich seine etablierte Pharmakologie auf den Katecholamin-Stoffwechsel bei der Parkinson-Krankheit als Zusatztherapie zu Levodopa (kein formaler Taiwan-/Deutschland-Regulierungseintrag ist in diesem Datensatz verfügbar).
-Die Top-Vorhersage des TxGNN-Modells ist **Rasmussen-Subakute-Enzephalitis**, aber dies ist eine reine modellgesteuerte Assoziation mit **0 klinischen Studien** und **0 Publikationen**, und das Evidenzpaket erklärt ausdrücklich, dass es keine bekannte mechanistische Überschneidung zwischen der COMT-Hemmung und der T-Zellen-vermittelten neuronalen Schädigung dieser Krankheit gibt.
-Die Evidenzstärke für diese spezifische Vorhersage ist minimal (L5) und unterstützt derzeit keine weitere Entwicklung.
+Tolcapon ist ein COMT-Hemmer, der ursprünglich zur Behandlung der Parkinson-Krankheit eingesetzt wurde.
+Das TxGNN-Modell sagt voraus, dass er bei der **Rasmussen-Enzephalitis** (subakute Rasmussen-Enzephalitis) wirksam sein könnte.
+Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage beruht allein auf dem Modell.
 
 ---
 
-## Schnellübersicht
+## Kurzübersicht
 
-| Element | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Nicht im Taiwan-/Deutschland-Regulierungsdatensatz angegeben (nach den Begründungsnotizen des Evidenzpakets ist Tolcapone ein COMT-Hemmer, der klassischerweise als Zusatztherapie bei der Parkinson-Krankheit verwendet wird) |
-| Vorhergesagte neue Indikation | Rasmussen-Subakute-Enzephalitis |
-| TxGNN-Vorhersage-Score | 99.93% |
+| Ursprüngliche Indikation | Morbus Parkinson |
+| Vorhergesagte neue Indikation | Rasmussen-Enzephalitis (subakute Rasmussen-Enzephalitis) |
+| TxGNN-Vorhersagewert | 99,93 % |
 | Evidenzgrad | L5 |
-| Marktatus in Deutschland | Nicht auf dem Markt |
-| Anzahl der Genehmigungen | 0 |
-| Empfohlene Entscheidung | Zurückstellung |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
+| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage sinnvoll?
+## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Daten zum Wirkmechanismus werden in diesem Evidenzpaket als Datenlücke (DG002) gekennzeichnet. Basierend auf den mechanistischen Anmerkungen, die den Vorhersagen beigefügt sind, wirkt Tolcapone als COMT-Hemmer und verändert den Katecholamin-(Dopamin-)Stoffwechsel – ein Mechanismus, dessen etablierte klinische Relevanz in dopaminergen Störungen wie der Parkinson-Krankheit liegt.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Tolcapon ein COMT-Hemmer (Catechol-O-Methyltransferase) ist, dessen Wirksamkeit bei Morbus Parkinson belegt ist. Er verlängert dort die Wirkung von Levodopa.
 
-Rasmussen-Subakute-Enzephalitis ist dagegen ein Autoimmun-Epilepsie-Syndrom, dessen Kernpathologie die T-Zellen-vermittelte neuronale Zerstörung ist. Das Repurposing-Rationale des Evidenzpakets besagt, dass es **keine bekannte Schnittstelle** zwischen dem Dopamin-/Katecholamin-Stoffwechselweg und dem immunologischen Mechanismus dieser Krankheit gibt, und charakterisiert diese am höchsten bewertete Vorhersage als „datengesteuerte Assoziation eher als biologische Hypothese".
+Ein mechanistischer Zusammenhang zur Rasmussen-Enzephalitis, einer immunvermittelten chronischen Enzephalitis, ist aus den vorliegenden Daten nicht erkennbar. Der hohe Modellwert (0,999) ist eine reine Modellvorhersage ohne Unterstützung durch Studien oder Literatur. Der Weg über Signalwege lässt sich daher nicht überprüfen.
 
-Es ist bemerkenswert, dass niedriger bewertete Vorhersagen in demselben Evidenzpaket eine vergleichsweise stärkere (wenn auch immer noch begrenzte) mechanistische Plausibilität zeigen – zum Beispiel ist Lewy-Körper-Demenz (Rang 6, L4) über DOPAL/α-synuklein-Biochemie verbunden, und Juvenile Parkinsonismus (Rang 10, L4) ist über Tolcapones etablierte dopaminerge Pharmakologie verbunden. Diese könnten separate Bewertungen verdienen, aber gemäß dem Berichtsfokus hat der am höchsten bewertete Kandidat (Rasmussen-Subakute-Enzephalitis) derzeit keine vertretbare mechanistische Begründung.
-
----
-
-## Belege aus klinischen Studien
-
-Derzeit keine verwandten klinischen Studien registriert
+Auch die weiteren vom Modell vorhergesagten Indikationen (z. B. Myelitis, PLA2G6-assoziierte Neurodegeneration, Lewy-Körper-Demenz) sind überwiegend ohne Evidenz. Lediglich bei der Lewy-Körper-Demenz gibt es eine plausible, aber nur präklinisch gestützte Verbindung über die gemeinsame Alpha-Synuclein-Pathologie und dopaminerge Dysfunktion. Dies wäre bei einer Neubewertung eine Option mit vergleichsweise besserer Begründung.
 
 ---
 
-## Literaturbelege
+## Klinische Studien
 
-Derzeit keine verwandte Literatur verfügbar
+Derzeit sind keine zugehörigen klinischen Studien registriert.
+
+---
+
+## Literatur
+
+Derzeit ist keine zugehörige Literatur verfügbar.
 
 ---
 
 ## Marktinformationen Deutschland
 
-Keine deutschen Marktgenehmigungen in diesem Evidenzpaket gefunden (total_licenses = 0; market_status = Nicht vermarktet).
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000132 | Tasmar (Viatris Healthcare Limited) | – | Morbus Parkinson |
+
+Diese Zulassung ist erloschen bzw. aufgehoben; es besteht derzeit keine gültige Zulassung.
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+- **Kontraindikationen laut Wissensgraph (keine Angaben aus dem Beipackzettel):** Im TxGNN-Wissensgraphen (PrimeKG) sind folgende Erkrankungen als Kontraindikationen verzeichnet: Lebererkrankung, Gallenblasenerkrankung, Melanom, hypotensive Störung, Rhabdomyolyse, noduläre Fasziitis, Spätdyskinesie sowie linguo-fazio-bukkale Dyskinesie.
+- **Arzneimittelwechselwirkungen:** Insgesamt wurden 65 Wechselwirkungen erfasst. Als **schwerwiegend (Major)** gilt die Wechselwirkung mit **Methylenblau**. Mehrere Wechselwirkungen sind **mittelschwer (Moderate)**, u. a. mit Epinephrin (auch ophthalmisch/topisch), Morphin (auch liposomal), Opium, Codein, Dronabinol, Nabilon, Naltrexon, Metoclopramid, Ethanol, Promethazin, Chlorphenamin, Cetirizin und Dextromethorphan. Geringfügig (Minor) sind Warfarin und Dicoumarol; bei Omeprazol ist die Einstufung unbekannt.
+- **Hinweis zur Hepatotoxizität:** Tolcapon ist für Leberschäden bekannt. Dies ist besonders relevant bei Erkrankungen mit Leberbeteiligung und deckt sich mit der Kontraindikation „Lebererkrankung“ im Wissensgraphen.
 
-*(Anmerkung: Die TFDA/BfArM-Kennzeichnungswarnungen und Kontraindikationen werden in diesem Evidenzpaket als blockierende Datenlücke (DG001) gekennzeichnet – Sicherheitsdaten konnten für diesen Kandidaten nicht überprüft werden.)*
+Warnhinweise und Kontraindikationen aus der Fachinformation liegen nicht vor. Bitte die Fachinformation heranziehen.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Zurückstellung**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die Top-Vorhersage (Rasmussen-Subakute-Enzephalitis) hat keine unterstützenden klinischen Studien, keine Literatur und eine ausdrücklich angegebene Abwesenheit mechanistischer Plausibilität im Evidenzpaket selbst – dies ist eine reine Modell-Score-Assoziation (L5) und erfüllt die Mindestanforderungen für eine weitere Bewertung nicht.
+Die Vorhersage stützt sich ausschließlich auf das Modell (Evidenzgrad L5), ohne klinische Studien, Literatur oder erkennbaren mechanistischen Zusammenhang. Zudem besteht in Deutschland keine gültige Zulassung, und die bekannte Lebertoxizität erhöht die Anforderungen an eine neue Indikation.
 
-**Um fortzufahren, ist folgendes erforderlich:**
-- DG001 (Blockierung) auflösen: TFDA/BfArM-Kennzeichnungswarnungen und Kontraindikationen beschaffen, bevor eine Sicherheitsbewertung beginnen kann
-- DG002 (Hoch) auflösen: Bestätigte Wirkmechanismus-Daten des Arzneimittels aus DrugBank beschaffen, um die mechanistische Verbindung richtig bewerten zu können
-- Bestätigung der ursprünglichen Indikation und des Regulierungsverlaufs für Tolcapone (derzeit in diesem Evidenzpaket nicht vorhanden)
-- Bei Verfolgung von Repurposing-Signalen aus diesem Datensatz sollte der Bewertungsscope auf die höher plausiblen Kandidaten des Pakets (Lewy-Körper-Demenz, Juvenile Parkinsonismus) verlagert werden, anstatt den höchst bewerteten, aber mechanistisch nicht unterstützten TxGNN-Kandidaten zu verfolgen
-
+**Für ein Weiterkommen sind folgende Schritte nötig:**
+- Wirkmechanismus-Daten (MOA) ergänzen, z. B. über DrugBank
+- Warnhinweise und Kontraindikationen aus der Fachinformation (BfArM) beschaffen und auswerten (derzeit blockierende Datenlücke für das Sicherheitsscreening)
+- Gezielte Literaturrecherche und präklinische Prüfung eines möglichen Zusammenhangs mit Rasmussen-Enzephalitis
+- Alternativ die Lewy-Körper-Demenz (präklinisch gestützt, Evidenzgrad L4) als aussichtsreichere Indikation prüfen
+- Klärung des Zulassungsstatus und der Machbarkeit eines Wiedereinsatzes in Deutschland unter Berücksichtigung des Leberrisikos
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

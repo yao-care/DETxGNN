@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Lurasidone
-parent: Hohe Evidenz (L1-L2)
-nav_order: 242
-evidence_level: L1
+parent: Mittlere Evidenz (L3-L4)
+nav_order: 281
+evidence_level: L3
 indication_count: 10
 ---
 
 # Lurasidone
 {: .fs-9 }
 
-Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,97 +29,98 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Lurasidon: Von Schizophrenie zur manischen bipolaren affektiven Störung
+# Lurasidon: Von Schizophrenie zu manischer bipolarer affektiver Störung
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Lurasidon (Entwicklungscode SM-13496) ist ein atypisches Antipsychotikum der zweiten Generation, das ursprünglich zur Behandlung von Schizophrenie verwendet wurde.
-> Das TxGNN-Modell sagt voraus, dass es bei **manischer bipolarer affektiver Störung (bipolare Störung)** wirksam sein kann,
-> mit **15 klinischen Studien** und **19 Publikationen**, die diese Richtung derzeit unterstützen.
+Lurasidon ist ein atypisches Antipsychotikum, das ursprünglich zur Behandlung der Schizophrenie zugelassen wurde.
+Das TxGNN-Modell sagt voraus, dass es bei **manischer bipolarer affektiver Störung** wirksam sein könnte.
+Derzeit stützen diese Richtung **1 klinische Studie** (zurückgezogen, ohne Teilnehmende) und **20 Publikationen** (überwiegend Übersichtsarbeiten und Meta-Analysen, die meisten zur bipolaren Depression, nicht zur Manie).
 
 ---
 
-## Schnellübersicht
+## Kurzüberblick
 
-| Artikel | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Schizophrenie (laut Literaturevidenz; keine deutschen Marktzulassungsdaten verfügbar, um die genehmigte Etikettierungsindikation zu bestätigen) |
+| Ursprüngliche Indikation | Schizophrenie |
 | Vorhergesagte neue Indikation | Manische bipolare affektive Störung |
-| TxGNN-Vorhersage-Score | 99.98% |
-| Evidenzstufe | L1 |
-| Marktstatus Deutschland | Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Mit Schutzmaßnahmen fortfahren |
+| TxGNN-Vorhersagewert | 99,98 % |
+| Evidenzlevel | L3 |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
+| Anzahl der Zulassungen | 1 (aufgehoben) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage begründet?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind strukturierte Wirkmechanismus-Daten nicht in der behördlichen Dokumentation verfügbar (gekennzeichnet als Datenlücke). Die Rationale für die Umnutzung im Evidenzpaket bestätigt jedoch, dass Lurasidon (Entwicklungscode SM-13496) ein atypisches Antipsychotikum der zweiten Generation ist, das hauptsächlich D2- und 5-HT2A/5-HT7-Rezeptoren antagonisiert – ein Rezeptorprofil, das auch von anderen zur Behandlung der bipolaren Störung eingesetzten Wirkstoffen geteilt wird.
+Für die vorliegende Auswertung sind keine detaillierten Daten zum Wirkmechanismus verfügbar. Auf Basis der bekannten Pharmakologie der Wirkstoffklasse ist Lurasidon ein atypisches Antipsychotikum mit D2- und 5-HT2A-antagonistischer sowie 5-HT7-antagonistischer und 5-HT1A-partiell-agonistischer Wirkung. Dieses Rezeptorprofil überschneidet sich mit anderen Antipsychotika, die zur Stimmungsstabilisierung bei bipolaren Störungen eingesetzt werden.
 
-Schizophrenie und bipolare affektive Störung sind beide schwerwiegende psychiatrische Erkrankungen, die auf dopaminerge/serotoninerge Modulation reagieren, und atypische Antipsychotika werden als Wirkstoffklasse häufig zwischen diesen beiden Indikationen umgenutzt. Klinisch hat Lurasidon bereits behördliche Zulassung in mehreren Ländern (einschließlich der USA) für bipolare I-Depression erhalten, sowohl als Monotherapie als auch als Begleittherapie mit Lithium oder Divalproex – dies wird unabhängig in der Literaturevidenz bestätigt (z. B. PMID 31957501, PMID 24170243), nicht nur eine modellgenerierte Hypothese. Dieser reale Präzedenzfall unterstützt stark die Plausibilität der TxGNN-Vorhersage.
+Schizophrenie und bipolare Störung teilen mit Blick auf dopaminerge und serotonerge Signalwege pharmakologische Gemeinsamkeiten, weshalb die Übertragung plausibel erscheint.
+
+Wichtig ist jedoch die Einschränkung: Die stärkste publizierte Evidenz für Lurasidon betrifft die **bipolare Depression**, nicht die Manie. Dass sich diese Ergebnisse auf manische Episoden übertragen lassen, ist nicht belegt. Zudem ist in der Literatur ein Fallbericht zu Lurasidon-induzierter Manie enthalten (PMID 31298818).
 
 ---
 
-## Evidenz aus klinischen Studien
+## Klinische Evidenz
 
-| Studiennummer | Phase | Status | Teilnehmerzahl | Wichtigste Erkenntnisse |
+| Studiennummer | Phase | Status | Teilnehmende | Kernaussagen |
 |---------|------|------|------|---------|
-| [NCT01358357](https://clinicaltrials.gov/study/NCT01358357) | Phase 3 | Abgeschlossen | 965 | Lurasidon adjuvant zu Lithium/Divalproex zur Rezidivprävention bei bipolarer Störung Typ I |
-| [NCT01986101](https://clinicaltrials.gov/study/NCT01986101) | Phase 3 | Abgeschlossen | 525 | SM-13496 (Lurasidon) vs. Plazebo, Pivot-Studie bei bipolarer I-Depression |
-| [NCT01914393](https://clinicaltrials.gov/study/NCT01914393) | Phase 3 | Abgeschlossen | 702 | 104-Wochen-Verlängerungsstudie im offenen Design zur Bewertung der Langzeitsicherheit/Langzeitwirksamkeit bei pädiatrischen Patienten mit bipolarer Störung |
-| [NCT01986114](https://clinicaltrials.gov/study/NCT01986114) | Phase 3 | Abgeschlossen | 495 | Langzeitwirksamkeit und -sicherheit von SM-13496 (Lurasidon) bei bipolarer Störung Typ I |
-| [NCT01575561](https://clinicaltrials.gov/study/NCT01575561) | Phase 3 | Abgeschlossen | 377 | Offene Verlängerungsstudie von Lurasidon adjuvant zu Lithium/Divalproex bei bipolarer Störung Typ I |
-| [NCT02046369](https://clinicaltrials.gov/study/NCT02046369) | Phase 3 | Abgeschlossen | 350 | Randomisierte, doppelblinde, placebokontrollierte Studie von Lurasidon bei Kindern/Jugendlichen mit bipolarer I-Depression |
-| [NCT06433635](https://clinicaltrials.gov/study/NCT06433635) | Phase 4 | Aktiv, nicht rekrutierend | 2726 | Große SMART-Studie zum Vergleich von Lurasidon, Cariprazin, Quetiapin und Aripiprazol/Escitalopram bei bipolarer Depression |
-| [NCT04383691](https://clinicaltrials.gov/study/NCT04383691) | Phase 3 | Beendet | 124 | Randomisierte, placebokontrollierte Studie mit flexibler Dosierung von Lurasidon bei bipolarer I-Depression (vorzeitig beendet) |
-| [NCT02731612](https://clinicaltrials.gov/study/NCT02731612) | Phase 3 | Abgeschlossen | 100 | Lurasidon als Begleittherapie für kognitive Funktion bei euthymen bipolaren I/II-Patienten (ELICE-BD) |
-| [NCT02147379](https://clinicaltrials.gov/study/NCT02147379) | Phase 3 | Abgeschlossen | 53 | Lurasidon vs. Standardbehandlung für kognitive Funktion bei euthymen bipolaren Patienten |
+| [NCT01932541](https://clinicaltrials.gov/study/NCT01932541) | Phase 4 | Zurückgezogen | 0 | Offene 8-Wochen-Studie zu Lurasidon (Latuda) bei Manie bei Kindern und Jugendlichen (6–17 Jahre) mit Bipolar I, II und Spektrumstörungen; wegen fehlender Rekrutierung keine Daten |
 
 ---
 
-## Evidenz aus der Literatur
+## Literaturevidenz
 
-| PMID | Jahr | Typ | Zeitschrift | Wichtigste Erkenntnisse |
+| PMID | Jahr | Typ | Journal | Kernaussagen |
 |------|-----|------|------|---------|
-| [39557452](https://pubmed.ncbi.nlm.nih.gov/39557452/) | 2024 | Übersichtsarbeit (Metaanalyse) | BMJ Mental Health | Systematische Übersichtsarbeit und Dosis-Wirkungs-Metaanalyse zur Wirksamkeit/Verträglichkeit von Lurasidon bei bipolarer Depression |
-| [37595997](https://pubmed.ncbi.nlm.nih.gov/37595997/) | 2023 | Übersichtsarbeit (Netzwerk-Metaanalyse) | Lancet Psychiatry | Vergleichende Wirksamkeit/Verträglichkeit von pharmakologischen Interventionen (einschließlich Lurasidon) bei akuter bipolarer Depression |
-| [31957501](https://pubmed.ncbi.nlm.nih.gov/31957501/) | 2020 | Übersichtsarbeit | Expert Opinion on Pharmacotherapy | Bewertet Lurasidon als Behandlungsoption für bipolare I-Depression, Monotherapie und adjuvante Anwendung |
-| [29536616](https://pubmed.ncbi.nlm.nih.gov/29536616/) | 2018 | Übersichtsarbeit (Leitlinie) | Bipolar Disorders | CANMAT/ISBD-2018-Leitlinien für die Behandlung der bipolaren Störung |
-| [34599629](https://pubmed.ncbi.nlm.nih.gov/34599629/) | 2021 | Übersichtsarbeit (Leitlinie) | Bipolar Disorders | CANMAT/ISBD-Empfehlungen für bipolare Störung mit Mischpräsentationen |
-| [37815563](https://pubmed.ncbi.nlm.nih.gov/37815563/) | 2023 | Übersichtsarbeit | JAMA | Diagnose und Behandlung der bipolaren Störung |
-| [24170243](https://pubmed.ncbi.nlm.nih.gov/24170243/) | 2014 | Kommentar | American Journal of Psychiatry | Kommentar bestätigt die zugelassene Anwendung von Lurasidon bei der bipolaren Störung |
-| [25963405](https://pubmed.ncbi.nlm.nih.gov/25963405/) | 2016 | Übersichtsarbeit | Asia-Pacific Psychiatry | Bespricht Lurasidon (mit Quetiapin) als FDA-zugelassen für bipolare Depression |
-| [33177610](https://pubmed.ncbi.nlm.nih.gov/33177610/) | 2021 | Übersichtsarbeit (Netzwerk-Metaanalyse) | Molecular Psychiatry | Antipsychotika/Stimmungsstabilisatoren für bipolare Störung in der Erhaltungsphase |
-| [40808269](https://pubmed.ncbi.nlm.nih.gov/40808269/) | 2025 | Übersichtsarbeit (Konsens) | Bipolar Disorders | ISBD-Konsensus-Empfehlungen der Task Force zur Behandlung therapieresistenter bipolarer Depression |
+| [39557452](https://pubmed.ncbi.nlm.nih.gov/39557452/) | 2024 | Meta-Analyse | BMJ Mental Health | Dosis-Wirkungs-Meta-Analyse zu Wirksamkeit und Akzeptanz von Lurasidon bei bipolarer Depression |
+| [37595997](https://pubmed.ncbi.nlm.nih.gov/37595997/) | 2023 | Netzwerk-Meta-Analyse | Lancet Psychiatry | Vergleich pharmakologischer Interventionen bei akuter bipolarer Depression |
+| [38487836](https://pubmed.ncbi.nlm.nih.gov/38487836/) | 2024 | Netzwerk-Meta-Analyse | European Psychiatry | 16 RCTs (7234 Patienten) zu fünf atypischen Antipsychotika, darunter Lurasidon, bei bipolarer Depression |
+| [33177610](https://pubmed.ncbi.nlm.nih.gov/33177610/) | 2021 | Netzwerk-Meta-Analyse | Molecular Psychiatry | Antipsychotika und Stimmungsstabilisatoren in der Erhaltungsphase der bipolaren Störung |
+| [34599629](https://pubmed.ncbi.nlm.nih.gov/34599629/) | 2021 | Leitlinie/Review | Bipolar Disorders | CANMAT/ISBD-Empfehlungen für bipolare Störungen mit gemischter Präsentation |
+| [29536616](https://pubmed.ncbi.nlm.nih.gov/29536616/) | 2018 | Leitlinie/Review | Bipolar Disorders | CANMAT/ISBD-Leitlinien 2018 zur Behandlung der bipolaren Störung |
+| [37815563](https://pubmed.ncbi.nlm.nih.gov/37815563/) | 2023 | Review | JAMA | Übersicht zu Diagnose und Behandlung der bipolaren Störung |
+| [36472471](https://pubmed.ncbi.nlm.nih.gov/36472471/) | 2022 | Review | J Child Adolesc Psychopharmacol | Behandlungsalgorithmen für manische/gemischte und depressive Episoden bei pädiatrischer bipolarer Störung |
+| [38150810](https://pubmed.ncbi.nlm.nih.gov/38150810/) | 2024 | Meta-Analyse | Psychiatry Research | Wirksamkeit und Sicherheit von Antipsychotika der zweiten Generation bei anderen psychiatrischen Störungen als Schizophrenie |
+| [31298818](https://pubmed.ncbi.nlm.nih.gov/31298818/) | 2019 | Fallbericht | Prim Care Companion CNS Disord | Lurasidon-induzierte Manie |
 
 ---
 
 ## Marktinformationen Deutschland
 
-Lurasidon hat derzeit **keine dokumentierte Marktzulassung in Deutschland** (Marktstatus: Nicht vermarktet, 0 Zulassungen). Es sind keine BfArM-Lizenzeinträge in diesem Evidenzpaket verfügbar, um sie zusammenzufassen.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/002713 | Latuda | – | Schizophrenie (Status: aufgehoben) |
 
 ---
 
-## Sicherheitsaspekte
+## Sicherheitshinweise
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+**Kontraindikationen laut Wissensgraph (keine Angaben aus der Packungsbeilage, sondern aus Wissensgraph-Verknüpfungen):** orthostatische Hypotonie, Leberversagen/Lebererkrankung, Epilepsie, Diabetes mellitus/Hyperglykämie/diabetische Ketoazidose, Neutropenie/Agranulozytose/Leukopenie, Hyperlipidämie, Schlaganfall/zerebrovaskuläre Erkrankungen/transitorische ischämische Attacke, eingeschränkte Nierenfunktion, malignes neuroleptisches Syndrom, Spätdyskinesie, Hyperprolaktinämie, Gallenblasenerkrankung, multiple Systematrophie, posturales orthostatisches Tachykardiesyndrom.
+
+**Arzneimittelwechselwirkungen** (100 Einträge insgesamt, Auswahl):
+- **Schwerwiegend (Major):** Bupropion, Aprepitant, Morphin, Clarithromycin
+- **Moderat:** u. a. Metformin, Pioglitazon, Acarbose, Alogliptin, Canagliflozin, Chlorpropamid, Cimetidin, Dexamethason, Epinephrin, Atropin, Hyoscyamin, Glycopyrronium
+
+Für weitere Sicherheitsinformationen siehe Packungsbeilage; die Warnhinweise und Kontraindikationen aus der Fachinformation lagen nicht vor.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Mit Schutzmaßnahmen fortfahren**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die Evidenzbasis ist stark (L1) – mehrere abgeschlossene Phase-3-RCTs speziell zu Lurasidon bei bipolarer I-Depression (z. B. NCT01986101, n=525; NCT01358357, n=965; NCT02046369, n=350) plus konsistente Literaturunterstützung, und Lurasidon ist bereits auf anderen Märkten für bipolare Depression zugelassen. Das Arzneimittel wird jedoch derzeit nicht in Deutschland vermarktet, und wichtige Sicherheits-/Behördendaten (TFDA/BfArM-Etikettierungswarnungen, Kontraindikationen, MOA-Bestätigung) bleiben ungelöste Datenlücken, die eine vollständige Sicherheitsbewertung (S1) blockieren.
+Die einzige Studie zur Manie wurde zurückgezogen und liefert keine Daten. Die Literatur belegt vor allem die Wirksamkeit bei bipolarer Depression, nicht bei Manie; zudem existiert ein Fallbericht zu Lurasidon-induzierter Manie. Die Zulassung in Deutschland ist aufgehoben, und die Sicherheitsunterlagen der Fachinformation fehlen.
 
-**Zum Fortfahren sind folgende Punkte erforderlich:**
-- Amtliche deutsche (BfArM) Packungsbeilage – Warnungen, Kontraindikationen und Vorsichtsmaßnahmen (DG001, blockierend)
-- Bestätigte Wirkmechanismus-Dokumentation von DrugBank oder Hersteller (DG002)
-- Bewertung des deutschen Marktzulassungswegs, da das Arzneimittel derzeit nicht vermarktet wird
-- Arzneimittel-Wechselwirkungs-(DDI-)Daten, da derzeit keine verfügbar sind
-
+**Für ein Fortschreiten sind erforderlich:**
+- Fachinformation (Warnhinweise und Kontraindikationen) als Voraussetzung für die Sicherheitsprüfung
+- Daten zum Wirkmechanismus (MOA)
+- Randomisierte kontrollierte Studien zu Lurasidon speziell bei akuter Manie
+- Klärung des regulatorischen Status in Deutschland (aufgehobene Zulassung)
+- Bewertung des Risikos manie-auslösender Effekte und metabolischer Nebenwirkungen
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

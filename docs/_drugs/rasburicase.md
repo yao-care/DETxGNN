@@ -2,7 +2,7 @@
 layout: default
 title: Rasburicase
 parent: Nur Modellvorhersage (L5)
-nav_order: 329
+nav_order: 385
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,83 +29,99 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# RASBURICASE: Von Hyperurikämie bis — Keine TxGNN-Vorhersage verfügbar
+# Rasburicase: Von Hyperurikämie zu renaler Hypourikämie
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Rasburicase ist ein rekombinantes Uratoxidase-Enzym, das zur Vorbeugung und Behandlung von Hyperurikämie bei Patienten mit Tumorlysesyndrom eingesetzt wird, die sich einer Chemotherapie für hämatologische und Festkörper-Tumorerkrankungen unterziehen. Das TxGNN-Modell gab **keine vorhergesagten neuen Indikationen** für dieses Arzneimittel in der aktuellen Evidenzsammlung zurück, was eine standardmäßige Umnutzungsbewertung verhindert. Mit **null klinischen Studien** und **null Publikationen**, die mit einem Umnutzungsziel verknüpft sind, und dem nicht vermarkteten Arzneimittel in Taiwan erfordert dieser Kandidat erhebliche Datenremediation, bevor die Bewertung fortgesetzt werden kann.
-
----
-
-## Schnellübersicht
-
-| Element | Inhalt |
-|---------|--------|
-| Originalindikation | Hyperurikämie bei Krebspatienten, die sich einer Chemotherapie unterziehen (Prävention des Tumorlysessyndroms) |
-| Vorhergesagte neue Indikation | Keine — TxGNN gab keine Vorhersagen zurück |
-| TxGNN-Vorhersagepunktzahl | N/A |
-| Evidenzgrad | L5 (nur Modellvorhersage — keine Vorhersage generiert) |
-| Status auf taiwanischem Markt | ✗ Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | **Zurückstellen** |
+Rasburicase ist eine rekombinante Urat-Oxidase, die ursprünglich zur Behandlung der Hyperurikämie zugelassen wurde.
+Das TxGNN-Modell sagt voraus, dass sie bei **renaler Hypourikämie** wirksam sein könnte. Für diese Vorhersage liegen jedoch **keine klinischen Studien** und **keine Publikationen** vor, und die mechanistische Plausibilität ist sehr gering.
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Kurzüberblick
 
-Für die Bewertung ist derzeit keine Umnutzungsvorhersage verfügbar.
-
-Derzeit sind detaillierte Wirkmechanismus-Daten in der Evidenzsammlung nicht verfügbar. Basierend auf bekannten pharmakologischen Informationen ist Rasburicase eine rekombinante Form von Uratoxidase — einem Enzym, das natürlicherweise nicht beim Menschen vorkommt — das die Oxidation von Harnsäure zu Allantoin katalysiert, einem viel wasserlöslicheren und renalgängigeren Metaboliten. Dieser Mechanismus ist rein metabolisch, nicht zytotoxisch, was ihn deutlich von antineoplastischen Wirkstoffen unterscheidet.
-
-Da das Array der vorhergesagten Indikationen leer ist, ist es nicht möglich, die mechanistische Anwendbarkeit auf ein neues Krankheitsziel zu begründen. Das Fehlen einer TxGNN-Ausgabe kann auf fehlende Arzneimittel-Graph-Verknüpfungen, unzureichende Wissensgraph-Abdeckung für dieses Molekül oder Upstream-Daten-Pipeline-Probleme zurückzuführen sein, die verhinderten, dass das Modell Kandidaten generierte. Das Beheben der Grundursache der fehlenden Vorhersage ist der erste erforderliche Remediationsschritt.
-
----
-
-## Evidenz klinischer Studien
-
-Derzeit sind keine verwandten klinischen Studien für ein Umnutzungsziel registriert.
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Hyperurikämie |
+| Vorhergesagte neue Indikation | Renale Hypourikämie |
+| TxGNN-Vorhersagewert | 99,99 % |
+| Evidenzgrad | L5 |
+| Marktstatus in Deutschland | Nur erloschene Zulassung |
+| Anzahl der Zulassungen | 1 |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Evidenz aus der Literatur
+## Warum ist diese Vorhersage (nicht) plausibel?
 
-Derzeit ist keine verwandte Literatur für ein Umnutzungsziel verfügbar.
+Für diesen Bericht liegen derzeit keine detaillierten Daten zum Wirkmechanismus aus der Datenbank vor. Bekannt ist: Rasburicase wandelt Harnsäure in Allantoin um und senkt so den Serum-Harnsäurespiegel. Ihre Wirksamkeit bei Hyperurikämie ist belegt.
+
+Die renale Hypourikämie ist jedoch gerade durch einen **zu niedrigen** Serum-Harnsäurespiegel gekennzeichnet, verursacht durch eine gestörte renale Urat-Rückresorption (z. B. Varianten in SLC22A12/URAT1 oder SLC2A9). Eine weitere Harnsäuresenkung hat keine therapeutische Begründung und könnte sogar das Risiko erhöhen. Der hohe TxGNN-Wert ist daher sehr wahrscheinlich ein Artefakt der Nähe im Wissensgraphen (Harnsäure-Stoffwechselweg) und kein Hinweis auf einen echten Nutzen.
+
+### Weitere vorhergesagte Indikationen (Rang 2–10)
+
+Alle weiteren Vorhersagen haben ebenfalls Evidenzgrad L5 und die Empfehlung „Hold“:
+
+| Rang | Vorhergesagte Indikation | TxGNN-Wert | Einschätzung |
+|---|---|---|---|
+| 2 | Partieller HPRT-Mangel | 99,97 % | Indirekt plausibel (akute Harnsäuresenkung), korrigiert aber nicht den Enzymdefekt. Für die Langzeitanwendung wegen Immunogenität ungeeignet; Xanthinoxidase-Hemmer sind der Standard. |
+| 3 | Hepatische Porphyrie | 99,97 % | Kein erkennbarer Mechanismus, wahrscheinlich Graph-Artefakt |
+| 4 | Primäre Pfortaderthrombose | 99,97 % | Kein Mechanismus; Behandlung erfolgt durch Antikoagulation |
+| 5 | Idiopathische kupferassoziierte Zirrhose | 99,97 % | Kupferakkumulation, unabhängig vom Purinabbau |
+| 6 | Früh beginnende familiäre nichtzirrhotische portale Hypertonie | 99,97 % | Kein plausibler Mechanismus, gemeinsames Graph-Artefakt |
+| 7 | Hepatoportale Sklerose | 99,97 % | Kein mechanistischer Bezug, gleiches Artefakt |
+| 8 | Hepatopulmonales Syndrom | 99,97 % | Urat-Oxidase spielt hier keine bekannte Rolle |
+| 9 | Renale tubuläre Azidose | 99,85 % | Nur lose Verbindung über die renale Uratverarbeitung; zusätzlich Risiken (Hämolyse bei G6PD-Mangel, Methämoglobinämie, Überempfindlichkeit) |
+| 10 | Störung des Phenylalanin-Stoffwechsels | 99,83 % | Kein Bezug zur Urat-Oxidase-Aktivität |
 
 ---
 
-## Taiwan-Marktinformationen
+## Klinische Evidenz
 
-Rasburicase hat derzeit **keine Marktzulassungen** in Taiwan. Das Arzneimittel ist in anderen wichtigen Märkten unter den Markennamen **Fasturtec** (EU/EMA) und **Elitek** (US/FDA) zugelassen, in erster Linie zur Prophylaxe und Behandlung von Hyperurikämie bei Erwachsenen und pädiatrischen Onkologie-Patienten.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Sicherheitsüberlegungen
+## Literaturevidenz
 
-Alle Sicherheitsfelder in der aktuellen Evidenzsammlung (Hauptwarnungen, Gegenanzeigen, Arzneimittelwechselwirkungen) enthalten keine verwertbaren Daten. Basierend auf etablierter pharmakologischer Literatur sind die folgenden Sicherheitssignale bekannt, klinisch signifikant zu sein und **müssen** eingearbeitet werden, sobald formale Sicherheitsdaten verfügbar sind:
+Derzeit liegt keine zugehörige Literatur vor.
 
-- **Hämolyse / Methämoglobinämie**: Rasburicase ist bei Patienten mit Glucose-6-Phosphat-Dehydrogenase-Defizienz (G6PD-Defizienz) absolut kontraindiziert, da das während der Oxidation von Harnsäure entstehende Wasserstoffperoxid schwere hämolytische Anämie und Methämoglobinämie auslösen kann.
-- **Anaphylaxie**: Als Fremdprotein birgt Rasburicase ein Risiko für Überempfindlichkeitsreaktionen, einschließlich Anaphylaxie; Vortestung und Bereitschaft zur Notfallbehandlung sind erforderlich.
-- **Handhabung von Harnsäure-Proben**: Blutproben von Patienten, die Rasburicase erhalten, müssen sofort auf Eis gelegt werden, um eine ex-vivo-Degradation der Harnsäure zu verhindern, die zu falsch niedrigen gemessenen Werten führen würde.
+---
 
-> Bitte beachten Sie die Packungsbeilage (EU-Fachinformation / US-Verschreibungsinformationen) für vollständige Warnungen und Vorsichtsmaßnahmen bis zum Verfügbarwerden der TFDA-Packungsbeilage.
+## Marktinformationen Deutschland
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000331 | Fasturtec | – | Hyperurikämie |
+
+Die einzige Zulassung (Inhaber: Sanofi Winthrop Industrie) ist erloschen bzw. aufgehoben; derzeit gibt es keine gültige Zulassung.
+
+---
+
+## Sicherheitsaspekte
+
+- **Arzneimittelwechselwirkungen**: Insgesamt wurden 13 Wechselwirkungen identifiziert.
+  - **Schwerwiegend (Major)**: Prilocain, Salpetrige Säure (Nitrit)
+  - **Mäßig (Moderate)**: Lokalanästhetika wie Tetracain (ophthalmisch/topisch), Lidocain (topisch/ophthalmisch), Benzocain, Cocain (topisch/nasal), Proparacain, Oxybuprocain und Cinchocain sowie Idelalisib
+- **Hinweise aus dem Wissensgraphen**: Aus dem Wissensgraphen wurden keine Kontraindikationen für Krankheiten abgeleitet.
+- **Ergänzende Risiken laut Bewertung**: Bei Rasburicase sind Hämolyse bei G6PD-Mangel, Methämoglobinämie und Überempfindlichkeitsreaktionen zu beachten; die Immunogenität schränkt die chronische Anwendung ein.
+
+Für Warnhinweise und Gegenanzeigen aus der Fachinformation siehe die Packungsbeilage bzw. Fachinformation.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Zurückstellen**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die Evidenzsammlung für Rasburicase (DB00049) ist kritisch unvollständig — sie enthält keine Zuordnung der ursprünglichen Indikation, keine Wirkmechanismus-Daten, keine Sicherheitsdaten und am wichtigsten keine TxGNN-vorhergesagte neue Indikation — was es unmöglich macht, eine aussagekräftige Umnutzungsbewertung in diesem Stadium durchzuführen.
+Die Vorhersage beruht ausschließlich auf dem Modell (L5), ohne Studien oder Publikationen. Zudem spricht der Mechanismus gegen den Einsatz bei renaler Hypourikämie, da der Harnsäurespiegel dort bereits zu niedrig ist. Auch bei den übrigen neun Vorhersagen fehlen Evidenz und plausible Mechanismen. Hinzu kommt, dass in Deutschland keine gültige Zulassung besteht.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-
-- **[Blockierend — DG001]** TFDA-Packungsbeilage-PDF abrufen und genehmigte Indikationen, Hauptwarnungen und Gegenanzeigen extrahieren, um die Sicherheits-Screening-Phase (S1) freizuschalten
-- **[Hoch — DG002]** DrugBank-API für vollständigen Wirkmechanismus, Pharmakodynamik und Arzneimittelkategorien abfragen, um mechanismusbasierte Begründung zu ermöglichen
-- **[Kritisch]** Untersuchen Sie, warum `predicted_indications` leer ist — bestätigen Sie, ob der TxGNN-Wissensgraph den Rasburicase-Knoten (DB00049) enthält, und führen Sie die Vorhersage-Pipeline erneut aus; überprüfen Sie fehlende Arzneimittel-Krankheits-Verbindungen in der KG
-- **[Hoch]** G6PD-Defizienz-Wechselwirkungsprüfung als obligatorische Sicherheitsvorbedingung für jede potenzielle neue Indikation in Populationen mit erhöhter G6PD-Defizienz-Prävalenz durchführen
-- **[Mittel]** Bestätigen Sie EU/US-Zulassungsstatus und Indikationstext von Fasturtec/Elitek-Fachinformation als Referenzverankerung für das derzeit leere Original-Indikations-Feld
-
+**Für ein Weiterverfolgen wären erforderlich:**
+- Auswertung der Fachinformation (Warnhinweise und Gegenanzeigen) als Voraussetzung für eine Sicherheitsprüfung
+- Detaillierte Daten zum Wirkmechanismus
+- Prüfung der Zulassungs- und Verfügbarkeitssituation (erloschene Zulassung)
+- Mechanistische und klinische Belege für jede vorgeschlagene Indikation. Am ehesten kommt der partielle HPRT-Mangel in Frage, und dort nur für die akute Harnsäuresenkung.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

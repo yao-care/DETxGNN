@@ -2,7 +2,7 @@
 layout: default
 title: Eribulin
 parent: Nur Modellvorhersage (L5)
-nav_order: 155
+nav_order: 178
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,100 +29,97 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Eribulin: Von Weichgewebssarkom/Liposarkom zu Fibroblastischem Neoplasma (Solitary Fibrous Tumor / Fibrosarkom-Spektrum)
+# Eribulin: Von Brustkrebs und Liposarkom zum familiären Mittelmeerfieber (autosomal-rezessiv)
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Eribulin ist ein Inhibitor der Mikrotubuli-Dynamik, der bereits gegen Weichgewebssarkome, einschließlich Liposarkom, eingesetzt wird. Von 10 durch TxGNN vorhergesagten Indikationen zeigt das stärkste, evidenzgestützte Signal auf **Fibroblastisches Neoplasma** (umfassend Solitary Fibrous Tumor und Fibrosarkom/Myxofibrosarkom), unterstützt durch **1 abgeschlossene Phase-II-Studie** und **8 Veröffentlichungen** — der einzige Kandidat in dieser Gruppe mit Bestätigung aus der Praxis; die anderen 9 Vorhersagen bleiben nur modellbasiert (L5), mit mehreren, die in der Quellenrationale ausdrücklich als wahrscheinliche Graph-Verknüpfungsartefakte gekennzeichnet sind.
+Eribulin ist ein Mikrotubuli-Hemmstoff, der ursprünglich zur Behandlung von **Brustkrebs und Liposarkom** zugelassen wurde.
+Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **autosomal-rezessivem familiärem Mittelmeerfieber (FMF)** voraus.
+Dafür liegen derzeit **keine klinischen Studien und keine Publikationen** vor. Die Vorhersage beruht allein auf dem Modell.
 
 ---
 
 ## Schnellübersicht
 
-| Element | Inhalt |
-|---------|--------|
-| Original-Indikation | Nicht verfügbar aus deutschen Zulassungsdaten (Arzneimittel nicht vermarktet); das Evidenzpaket bestätigt, dass Eribulin bereits eine anerkannte Indikation in Weichgewebssarkom / Liposarkom durch Hemmung der Mikrotubuli-Dynamik hat |
-| Vorhergesagte neue Indikation | Fibroblastisches Neoplasma (Solitary Fibrous Tumor / Fibrosarkom-Spektrum) |
-| TxGNN-Vorhersage-Score | 99.36% |
-| Evidenzstufe | L3 (1 abgeschlossene, nicht randomisierte Phase-II-Studie + mehrere präklinische Studien) |
-| Status auf dem deutschen Markt | ✗ Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Fortfahren mit Schutzmaßnahmen |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Brustkrebs (Brustneoplasien); Liposarkom |
+| Vorhergesagte neue Indikation | Autosomal-rezessives familiäres Mittelmeerfieber |
+| TxGNN-Vorhersagewert | 99,82 % |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Nur erloschene bzw. aufgehobene Zulassungen |
+| Anzahl der Zulassungen | 3 (alle aufgehoben) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage sinnvoll?
+## Warum ist diese Vorhersage (nicht) plausibel?
 
-Detaillierte strukturierte MOA-Daten (DrugBank-Feld) sind derzeit eine Datenlücke. Allerdings beschreibt die in mehreren prognostizierten Indikationen in diesem Evidenzpaket eingebettete Umpositionierungsrationale Eribulin konsistent als **Inhibitor der Mikrotubuli-Dynamik / Anti-Mitose-Mittel**, mit bereits in Weichgewebssarkom nachgewiesener Wirksamkeit, einschließlich einer anerkannten Liposarkom-Indikation (ausdrücklich für die myxoides-Liposarkom-Vorhersage, Rang 5, erwähnt).
+Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Bekannt ist, dass Eribulin die Dynamik der Mikrotubuli hemmt. Seine Wirksamkeit bei Brustkrebs und Liposarkom ist belegt.
 
-Fibroblastische Neoplasien — Solitary Fibrous Tumor (SFT), Fibrosarkom und Myxofibrosarkom — gehören zur gleichen breiten Weichgewebssarkom-Familie wie Liposarkom. Sie weisen hochproliferative Biologie mesenchymalen Ursprungs auf, die mechanistisch von der Mikrotubuli-Funktion abhängt, was sie zu einer biologisch plausiblen Erweiterung von Eribulins bekannter Anti-Tumor-Aktivität macht, anstatt eines unverwandten Indikationsbereichs.
+Ein lockerer konzeptioneller Bezug zum FMF besteht darin, dass auch Colchicin, die Standardtherapie des FMF, auf Mikrotubuli wirkt. Ein belastbarer mechanistischer Zusammenhang lässt sich aus den vorliegenden Daten jedoch nicht ableiten.
 
-Diese mechanistische Plausibilität wird durch echte Daten gestärkt: Eine abgeschlossene Phase-II-Studie (ERASING, NCT03840772) testete speziell Eribulin bei fortgeschrittenem SFT, und mehrere unabhängige präklinische Studien (2021–2025) zeigen Eribulin-Aktivität — einschließlich Synergie mit rekombinanter Methioninase — in Fibrosarkom- und Myxofibrosarkom-Zelllinien und patientengestützten Xenotransplantaten. Diese Kombination aus einer abgeschlossenen klinischen Studie plus konsistenter präklinischer Literatur ist einzigartig unter den 10 Kandidaten in diesem Paket; neun andere Vorhersagen (z. B. Familiäres Mittelmeerfieber, Mesotheliom-Subtypen, Adenomatoid-Tumor) haben keine unterstützenden Studien oder Literatur und sind ausdrücklich in der Quellenrationale als niedrige mechanistische Plausibilität oder wahrscheinliches TxGNN-Graph-Artefakt annotiert.
-
----
-
-## Evidenz aus klinischen Studien
-
-| Studiennummer | Phase | Status | Teilnehmerzahl | Wichtigste Erkenntnisse |
-|---------|------|--------|------|---------|
-| [NCT03840772](https://clinicaltrials.gov/study/NCT03840772) | Phase 2 | Abgeschlossen | 16 | Italian Sarcoma Group-Studie (ERASING) zur Bewertung von Eribulin bei fortgeschrittenem Solitary Fibrous Tumor |
+Eribulin wirkt zytotoxisch und hat ein ausgeprägtes Nebenwirkungsprofil, vor allem Myelosuppression und Neuropathie. Für eine chronische autoinflammatorische Erkrankung wie das FMF ist es daher klinisch kaum vorstellbar. Der sehr hohe Vorhersagewert ist sehr wahrscheinlich ein Artefakt der Graphvorhersage.
 
 ---
 
-## Evidenz aus der Literatur
+## Klinische Studien
 
-| PMID | Jahr | Typ | Zeitschrift | Wichtigste Erkenntnisse |
-|------|-----|------|------|---------|
-| [38136399](https://pubmed.ncbi.nlm.nih.gov/38136399/) | 2023 | Übersichtsartikel | Cancers | Diagnostik und Behandlungslandschaft des extrameningealen SFT; diskutiert Chemotherapie einschließlich Mikrotubuli-targeting Mittel |
-| [28284173](https://pubmed.ncbi.nlm.nih.gov/28284173/) | 2017 | Präklinisch (PDX) | Eur J Cancer | Patientengestützte SFT-Xenotransplantate sagen Empfindlichkeit gegenüber Doxorubicin/Dacarbazin voraus und heben Eribulin/Trabectedin als möglicherweise wirksam hervor |
-| [38423656](https://pubmed.ncbi.nlm.nih.gov/38423656/) | 2024 | Präklinisch (in vitro) | Anticancer Research | Rekombinante Methioninase wirkt synergistisch mit Eribulin gegen Fibrosarkom-Zellen, verschont aber normale Fibroblasten |
-| [39197933](https://pubmed.ncbi.nlm.nih.gov/39197933/) | 2024 | Präklinisch (in vitro) | Anticancer Research | Rekombinante Methioninase erhöht die Eribulin-Wirksamkeit um das 16-fache in eribulin-resistenten HT1080-Fibrosarkom-Zellen |
-| [40295012](https://pubmed.ncbi.nlm.nih.gov/40295012/) | 2025 | Präklinisch (in vivo) | In Vivo | Super-eribulin-resistente Fibrosarkom-Zellen werden maligner, werden aber synergistisch durch Eribulin + Methionin-Restriktion bei Mäusen kontrolliert |
-| [39625530](https://pubmed.ncbi.nlm.nih.gov/39625530/) | 2024 | Präklinisch (Zellkultur) | Human Cell | Etablierung einer neuen Myxofibrosarkom-Zelllinie (SMU-MFS) für zukünftige Arzneimitteltests, einschließlich Mikrotubuli-targeting Mittel |
-| [34383271](https://pubmed.ncbi.nlm.nih.gov/34383271/) | 2021 | Präklinisch (Zellkultur) | Human Cell | Etablierung einer patientengestützten Myxofibrosarkom-Zelllinie (NCC-MFS4-C1) als Modell für die Behandlungsentwicklung |
-| [35906852](https://pubmed.ncbi.nlm.nih.gov/35906852/) | 2023 | Fallbericht | Genes Chromosomes Cancer | Ansprechen auf Entrectinib (nicht Eribulin) bei NTRK-Fusion malignem peripherem Nervenscheidentumor; einbezogen über Erkrankungsklassen-Verknüpfung, nicht Eribulin-spezifisch — schwache Relevanz |
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Marktinformation Deutschland
+## Literatur
 
-Eribulin hält derzeit **keine Zulassung in Deutschland** (0 Lizenzen in der Datei); keine Produkt-/Darreichungsformdaten sind in diesem Evidenzpaket verfügbar.
+Derzeit liegt keine zugehörige Literatur vor.
+
+---
+
+## Marktinformationen Deutschland
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation | Status |
+|---------|------|------|-----------|------|
+| EMEA/H/C/006134 | Mevlyq | – | Brustneoplasien; Liposarkom | Aufgehoben |
+| EMEA/H/C/006191 | Eribulin Baxter | – | Brustneoplasien; Liposarkom | Aufgehoben |
+| EMEA/H/C/002084 | Halaven | – | Brustneoplasien; Liposarkom | Aufgehoben |
 
 ---
 
 ## Zytotoxizität
 
-| Element | Inhalt |
-|--------|--------|
-| Zytotoxizitätsklassifizierung | Konventionelle Zytotoxika (Inhibitor der Mikrotubuli-Dynamik / Anti-Mitose-Mittel) |
-| Myelosuppression-Risiko | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Gebrauchsinformation (keine Toxizitätsdaten in diesem Datensatz) |
-| Emetogenitätsklassifizierung | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Gebrauchsinformation |
-| Überwachungselemente | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Gebrauchsinformation |
-| Schutzmaßnahmen beim Umgang | Antineoplastisches Mittel — Handhabungsvorsichtsmaßnahmen für zytotoxische Arzneimittel nach institutionellem Protokoll erforderlich |
+| Punkt | Inhalt |
+|------|------|
+| Zytotoxizitätsklassifikation | Konventionelles Zytostatikum (Mikrotubuli-Hemmstoff) |
+| Myelosuppressionsrisiko | Hoch. Im Wissensgraphen sind Neutropenie, Thrombozytopenie und Agranulozytose als Kontraindikationsbeziehungen hinterlegt. |
+| Emetogenitätsklassifikation | Niedrig bis mäßig (nach Wirkstoffklasse) |
+| Überwachungsparameter | Differenzialblutbild, Leber- und Nierenfunktion, Elektrolyte (insbesondere Kalium), EKG (QT-Zeit), neurologische Kontrolle auf periphere Neuropathie |
+| Schutzmaßnahmen bei der Handhabung | Die Vorschriften für den Umgang mit Zytostatika sind einzuhalten. |
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Gebrauchsinformation für Sicherheitsinformationen. Wichtige Warnhinweise, Kontraindikationen und Arzneimittelwechselwirkungsdaten sind in diesem Evidenzpaket nicht verfügbar (gekennzeichnet als blockierende Datenlücke, ausstehend: Beschaffung der TFDA-Kennzeichnung).
+- **Kontraindikationsbeziehungen aus dem Wissensgraphen** (keine Angaben aus dem Beipackzettel): Long-QT-Syndrom (auch familiär), Thrombozytopenie, Kaliummangel, Neutropenie, Agranulozytose, Erkrankungen des peripheren Nervensystems, periphere Neuropathie, Obstipation.
+- **Arzneimittelwechselwirkungen:** Es wurden 100 Wechselwirkungen erfasst. Als **schwerwiegend (Major)** eingestuft sind u. a. **Dolasetron** und **Cisaprid**, vermutlich wegen additiver QT-Verlängerung. Als **mäßig (Moderate)** eingestuft sind u. a. Ondansetron, Palonosetron, Clarithromycin, Levofloxacin, Metronidazol, Tinidazol, Famotidin, Loperamid, Rosuvastatin, Simvastatin sowie mehrere Abführmittel (z. B. Bisacodyl, Lactulose, Natriumsulfat, Polyethylenglykol).
+
+Für Warnhinweise und Gegenanzeigen laut Fachinformation bitte den Beipackzettel heranziehen. Diese Angaben lagen für den Bericht nicht vor.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Fortfahren mit Schutzmaßnahmen**
+**Entscheidung: Hold**
 
 **Begründung:**
-Fibroblastisches Neoplasma ist der einzige der 10 durch TxGNN vorhergesagten Indikationen, der durch eine abgeschlossene klinische Studie und konsistente präklinische Literatur gestützt wird; allerdings ist die Studie klein (n=16), nicht randomisiert, und weder Vergleichsgruppe noch Überlebensergebnisse sind in diesem Paket berichtet, daher bleibt die Evidenz vorläufig (L3).
+Die Vorhersage stützt sich ausschließlich auf das Modell (L5), ohne Studien oder Publikationen. Ein plausibler Mechanismus fehlt, und das Toxizitätsprofil von Eribulin spricht gegen den Einsatz bei einer chronischen autoinflammatorischen Erkrankung. Zudem sind in Deutschland derzeit alle Zulassungen aufgehoben.
 
-**Um fortzufahren, wird Folgendes benötigt:**
-- TFDA/Deutsche Kennzeichnungsdaten (Warnhinweise, Kontraindikationen) — derzeit eine blockierende Datenlücke, die eine vollständige S1-Sicherheitsprüfung verhindert
-- Strukturierte MOA-Daten von DrugBank zur formalen Bestätigung des Mikrotubuli-Inhibitions-Mechanismus
-- Wirksamkeits-/Sicherheitsergebnisse (nicht nur Studienregistrierung) aus NCT03840772
-- Eine größere, idealerweise randomisierte Studie in SFT/Fibrosarkom, um über L3 hinauszugehen
-- DDI- und Kontraindikationsprofil vor Fortgang über die aktuelle Überprüfungsphase hinaus
-- Bewertung des regulatorischen Zugangswegs angesichts der Tatsache, dass Eribulin derzeit nicht auf dem deutschen Markt vermarktet wird
+**Für ein Weiterverfolgen wären nötig:**
+- Daten zum Wirkmechanismus (z. B. über die DrugBank-API)
+- Warnhinweise und Gegenanzeigen aus dem Beipackzettel (Download und Auswertung über die BfArM-Website)
+- Präklinische Belege für eine Wirkung bei FMF
+- Eine Neubewertung des Nutzen-Risiko-Verhältnisses für eine chronische Erkrankung
 
+**Hinweis zu anderen Kandidaten:** Unter den weiteren Vorhersagen ist das **fibroblastische Neoplasma** (Rang 8) am besten belegt. Dort gibt es die abgeschlossene Phase-2-Studie [NCT03840772](https://clinicaltrials.gov/study/NCT03840772) zu Eribulin bei fortgeschrittenem solitärem fibrösem Tumor (n = 16), ergänzt durch präklinische Daten. Ergebnisse der Studie liegen allerdings nicht vor. Diese Indikation sollte vorrangig als Forschungsfrage geprüft werden.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -2,7 +2,7 @@
 layout: default
 title: Pegaspargase
 parent: Hohe Evidenz (L1-L2)
-nav_order: 296
+nav_order: 346
 evidence_level: L1
 indication_count: 10
 ---
@@ -29,140 +29,120 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Pegaspargase: Von der akuten lymphoblastischen Leukämie zum Precursor Lymphoblastischen Lymphom/Leukämie
+# Pegaspargase: Von akuter lymphoblastischer Leukämie zu Vorläuferzell-lymphoblastischem Lymphom/Leukämie
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Pegaspargase ist ein pegyliertes Asparaginase-Enzym, das lange als Basis-Agent in der Behandlung der akuten lymphoblastischen Leukämie (ALL) und des lymphoblastischen Lymphoms (LBL) verwendet wird.
-> Die beste von TxGNN vorhergesagte Indikation — **Precursor Lymphoblastisches Lymphom/Leukämie** — ist in Wirklichkeit eine Umformulierung der bereits etablierten Kernindikation des Arzneistoffs und keine genuinely neue Anwendung.
-> Dieses Signal wird durch **über 60 klinische Studien** (viele Phase 3) und **20 Publikationen** gestützt, aber die Evidenz bestätigt bekannte Pharmakologie und eröffnet keine neue therapeutische Richtung. Mehrere niedriger bewertete, genuinely „neue" Kandidaten (z. B. Hodgkin-Lymphom, Lymphoid-Neoplasma insgesamt) tragen viel schwächere und teilweise nicht übereinstimmende Evidenz und werden separat unten aufgeführt.
+Pegaspargase ist eine PEGylierte L-Asparaginase und wurde ursprünglich zur Behandlung der lymphoblastischen Vorläuferzell-Leukämie/-Lymphome zugelassen.
+Das TxGNN-Modell sagt eine Wirksamkeit bei **Vorläuferzell-lymphoblastischem Lymphom/Leukämie** voraus, mit **10 passenden klinischen Studien** (darunter mehrere abgeschlossene Phase-3-Studien) und **20 Publikationen** in den für diese Indikation zusammengestellten Daten.
+Wichtig: Die vorhergesagte Indikation entspricht im Wesentlichen der bereits zugelassenen Indikation. Es handelt sich also um eine Bestätigung des etablierten Einsatzes und nicht um ein echtes Repurposing.
 
 ---
 
 ## Schnellübersicht
 
 | Punkt | Inhalt |
-|-------|--------|
-| Ursprüngliche Indikation | Akute lymphoblastische Leukämie (ALL) / Lymphoblastisches Lymphom — international etablierte Anwendung; nicht in deutschen Zulassungsdaten dokumentiert (Arzneistoff nicht im Handel) |
-| Vorhergesagte neue Indikation | Precursor Lymphoblastisches Lymphom/Leukämie *(überschneidet sich im Wesentlichen mit der ursprünglichen genehmigten Anwendung — siehe Warnung unten)* |
-| TxGNN-Vorhersage-Score | 99,96% |
+|------|------|
+| Ursprüngliche Indikation | Vorläuferzell-lymphoblastische Leukämie/Lymphom |
+| Vorhergesagte neue Indikation | Vorläuferzell-lymphoblastisches Lymphom/Leukämie |
+| TxGNN-Vorhersagewert | 99,96 % |
 | Evidenzstufe | L1 |
-| Marktstatus Deutschland | ✗ Nicht im Handel |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Fortfahren mit Vorsichtsmaßnahmen |
-
-⚠️ **Wichtiger Hinweis**: „Precursor lymphoblastisches Lymphom/Leukämie" ist klinisch gleichbedeutend mit der bestehenden Hauptindikation des Arzneistoffs (ALL/LBL), nicht ein neuer Krankheitsbereich. Die Repurposing-Begründung im Evidenzpaket bestätigt ausdrücklich, dass dies „ein bestehendes genehmigtes Wirkprinzip ist, keine neue Anwendung." Vorsichtsmaßnahmen hier betreffen die Behandlung bekannter Toxizitäten (Überempfindlichkeit, Pankreatitis, Thrombose), nicht de-novo Indikations-Risiko.
+| Marktstatus in Deutschland | Nur erloschene Zulassung (Verfügbarkeit prüfen) |
+| Anzahl Zulassungen | 1 (erloschen) |
+| Empfohlene Entscheidung | Proceed with Guardrails |
 
 ---
 
-## Warum ist diese Vorhersage sinnvoll?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind keine detaillierten strukturierten Wirkungsweise-Daten aus DrugBank in diesem Evidenzpaket verfügbar (als Datenlücke gekennzeichnet). Basierend auf der beigefügten Repurposing-Begründung und bekannten Pharmakologie hydrolysiert Pegaspargase zirkulierendes Asparagin. Lymphoblasten in ALL/LBL zeigen charakteristischerweise eine niedrige oder fehlende Asparagin-Synthetase-Expression, sodass sie auf exogenes Asparagin angewiesen sind; ein Abbau davon führt zur Zellstarvation und Apoptose-Einleitung. Dies ist ein klassisches, Jahrzehnte-etabliertes Wirkprinzip — keine neu entdeckte Stoffwechselweg.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Nach bekanntem Wissen ist Pegaspargase eine PEGylierte L-Asparaginase, die zirkulierendes Asparagin abbaut. Lymphoblasten exprimieren kaum Asparagin-Synthetase und sind auf extrazelluläres Asparagin angewiesen. Der Entzug führt zum Stopp der Proteinsynthese und zur Apoptose.
 
-Da die beste TxGNN-Vorhersage (Precursor lymphoblastisches Lymphom/Leukämie) und die 5.-beste Vorhersage (akute lymphoblastische Leukämie) beide die eigene genehmigte Indikation des Arzneistoffs beschreiben, reproduziert das Modell im Wesentlichen bekannte Biologie statt eine Repurposing-Gelegenheit zu identifizieren. Dies ist ein nützlicher Plausibilitätscheck für die Modellgültigkeit, sollte aber nicht gegenüber Stakeholdern als „neue Indikation" berichtet werden.
+Ursprüngliche und vorhergesagte Indikation sind praktisch identisch. Pegaspargase ist ein Kernbestandteil moderner Mehrstoff-Chemotherapien bei ALL und lymphoblastischem Lymphom. Die Vorhersage bestätigt daher die etablierte Anwendung.
 
-Die interessanteren Signale sitzen weiter unten in der Rankings-Liste — Hodgkin-Lymphom (Rank 8) und die breitere Kategorie „Lymphoid-Neoplasma" (Rank 7) — wo die Evidenz schwächer ist und bei näherer Betrachtung weitgehend aus einer *anderen* Krankheitsentität (extranodales NK/T-Zell-Lymphom, ein Non-Hodgkin-Subtyp) statt aus klassischem Hodgkin-Lymphom stammt. Diese Nichtübereinstimmung wird im Begründungstext ausdrücklich hervorgehoben und sollte vor jeder weiteren Evaluierung geklärt werden.
+Andere Vorhersagen im Ranking (z. B. chronische lymphatische Leukämie, follikuläres Lymphom, Methylcobalamin-Mangel cblE, Hodgkin-Lymphom) haben nur Modellcharakter oder indirekte Evidenz. Sie werden hier nicht weiterverfolgt. Beim Hodgkin-Lymphom stammt das Aktivitätssignal tatsächlich aus NK/T-Zell-Lymphomen, einer anderen Erkrankung.
 
 ---
 
-## Evidenz aus klinischen Studien
+## Klinische Studien
 
-*(aus predicted_indications[0]: Precursor lymphoblastisches Lymphom/Leukämie)*
-
-| Studiennummer | Phase | Status | Einschluss | Schlüsselergebnisse |
+| Studiennummer | Phase | Status | Teilnehmerzahl | Kernaussagen |
 |---------|------|------|------|---------|
-| [NCT03020030](https://clinicaltrials.gov/study/NCT03020030) | Phase 3 | Aktiv, keine Rekrutierung mehr | 560 | Großes pädiatrisches/adoleszentes Neu-ALL-Protokoll mit Pegaspargase als Basis-Agent (Grad-A-Relevanz) |
-| [NCT02716233](https://clinicaltrials.gov/study/NCT02716233) | Phase 3 | Aktiv, keine Rekrutierung mehr | 2044 | Französisches nationales pädiatrisches ALL-Protokoll zur Optimierung der L-Asparaginase-(Pegaspargase-)Dosierung/Anwendung (Grad-A-Relevanz) |
-| [NCT04954326](https://clinicaltrials.gov/study/NCT04954326) | Phase 2 | Abgeschlossen | 89 | PK-Vergleich flüssiger vs. lyophilisierter Pegaspargase-(S95014-)Formulierungen bei neu diagnostiziertem pädiatrischem ALL |
-| [NCT06195735](https://clinicaltrials.gov/study/NCT06195735) | N/A | Abgeschlossen | 649 | Große Beobachtungsstudie zur Vorhersage der Überempfindlichkeit gegen PEG-Asparaginase zur Optimierung von ALL-Ergebnissen |
-| [NCT05602194](https://clinicaltrials.gov/study/NCT05602194) | Phase 3 | Rekrutiert | 440 | Randomisierte Studie zu Levocarnitin zur Verhinderung von asparaginase-assoziierter Hepatotoxizität bei AYA-ALL/LBL-Patienten |
-| [NCT00187083](https://clinicaltrials.gov/study/NCT00187083) | Phase 3 | Abgeschlossen | 40 | Vergleich native vs. PEG-Asparaginase während Induktion bei rückfälligem/refraktärem Kindheits-ALL |
-| [NCT00003437](https://clinicaltrials.gov/study/NCT00003437) | Phase 3 | Unbekannt | 1800 | UK-Nationales Kindheits-ALL-Studium mit Vergleich von Steroid-/Chemotherapie-Regimen |
-| [NCT01665001](https://clinicaltrials.gov/study/NCT01665001) | Phase 2 | Unbekannt | 200 | Individualisierte MRD-adaptive Therapie für Erwachsene mit Precursor-Lymphoid-Neoplasien (PALG) |
-| [NCT00905034](https://clinicaltrials.gov/study/NCT00905034) | Phase 2 | Abgeschlossen | 37 | Methotrexat/Vincristin/pegylierte-Asparaginase/Dexamethason-Salvage-Regime bei rückfälligem ALL |
-| [NCT00882206](https://clinicaltrials.gov/study/NCT00882206) | Phase 2 | Beendet | 15 | Decitabin + Vorinostat + VPLD-Chemo (inklusive PEG-Asparaginase) bei rückfälligem/refraktärem ALL/LBL |
+| [NCT00967057](https://clinicaltrials.gov/study/NCT00967057) | Phase 3 | Abgeschlossen | 470 | Internationale Studie ALLR3 bei rezidivierter/refraktärer ALL mit asparaginasehaltiger Re-Induktion |
+| [NCT00103285](https://clinicaltrials.gov/study/NCT00103285) | Phase 3 | Abgeschlossen | 5377 | Randomisierte Chemotherapieregime bei Standardrisiko-B-Vorläufer-ALL |
+| [NCT05602194](https://clinicaltrials.gov/study/NCT05602194) | Phase 3 | Aktiv, nicht rekrutierend | 440 | Levocarnitin zur Vorbeugung asparaginaseassoziierter Hepatotoxizität bei Jugendlichen/jungen Erwachsenen |
+| [NCT02003222](https://clinicaltrials.gov/study/NCT02003222) | Phase 3 | Aktiv, nicht rekrutierend | 488 | Blinatumomab bei neu diagnostizierter BCR-ABL-negativer B-ALL auf Chemotherapie-Basis mit Pegaspargase |
+| [NCT00905034](https://clinicaltrials.gov/study/NCT00905034) | Phase 2 | Abgeschlossen | 37 | MOAD-Regime (Methotrexat, Vincristin, pegyliertes Asparaginase, Dexamethason) bei rezidivierter ALL |
+| [NCT00890656](https://clinicaltrials.gov/study/NCT00890656) | Phase 2 | Abgeschlossen | 90 | Augmentiertes Hyper-CVAD bei ALL-Salvage |
+| [NCT01403415](https://clinicaltrials.gov/study/NCT01403415) | Phase 1 | Abgeschlossen | 13 | Temsirolimus plus Re-Induktion inkl. Pegaspargase bei Kindern mit rezidivierter ALL/NHL |
+| [NCT06554626](https://clinicaltrials.gov/study/NCT06554626) | Phase 2 | Rekrutierend | 20 | Blinatumomab, Venetoclax und Inotuzumab bei B-ALL; Rolle von Pegaspargase unklar |
+| [NCT02419469](https://clinicaltrials.gov/study/NCT02419469) | Phase 2 | Beendet | 1 | Augmentierte BFM-Therapie plus Ofatumumab; wegen n=1 nicht auswertbar |
+| [NCT01483690](https://clinicaltrials.gov/study/NCT01483690) | Phase 1/2 | Beendet | 23 | Decitabin und Vorinostat mit Chemotherapie inkl. Peg-Asparaginase bei rezidivierter pädiatrischer ALL |
+
+Bei den meisten Studien ist Pegaspargase Teil des Therapiegerüsts. Der spezifische Beitrag lässt sich aus den Studientiteln allein nicht isolieren.
 
 ---
 
-## Literaturevindenz
+## Literatur
 
-| PMID | Jahr | Typ | Journal | Schlüsselergebnisse |
+| PMID | Jahr | Typ | Journal | Kernaussagen |
 |------|-----|------|------|---------|
-| [37276451](https://pubmed.ncbi.nlm.nih.gov/37276451/) | 2023 | Kohort (Tier 1) | Blood Advances | GIMEMA LAL1913: pegaspargase-modifiziertes risiko-orientiertes Programm verbessert Ergebnisse in Erwachsenen-ALL/LBL |
-| [34228505](https://pubmed.ncbi.nlm.nih.gov/34228505/) | 2021 | Kohort (Tier 1) | J Clin Oncol | DFCI 11-001: Wirksamkeit/Toxizität von Pegaspargase vs. Calaspargase Pegol in Kindheits-ALL |
-| [40109190](https://pubmed.ncbi.nlm.nih.gov/40109190/) | 2025 | Review (Tier 2) | Haematologica | Expertenkonzens zur Erkennung/Prävention/Behandlung von asparaginase-assoziierter Nebenwirkungen bei Erwachsenen |
-| [40163215](https://pubmed.ncbi.nlm.nih.gov/40163215/) | 2025 | Kohort/Phase 2 | Int J Hematol | Phase-2-Multizenterstudie von Pegaspargase bei japanischen Patienten mit unbehandeltem ALL |
-| [35271306](https://pubmed.ncbi.nlm.nih.gov/35271306/) | 2022 | Phase-3-RCT | J Clin Oncol | COG AALL1231: Bortezomib in neu diagnostiziertem T-ALL/T-LL (Pegaspargase als Basis-Agent) |
-| [32813610](https://pubmed.ncbi.nlm.nih.gov/32813610/) | 2020 | Phase-3-RCT | J Clin Oncol | COG AALL0434: Nelarabin in neu diagnostiziertem T-ALL (Pegaspargase-haltige Basis-Therapie) |
-| [39322712](https://pubmed.ncbi.nlm.nih.gov/39322712/) | 2024 | Phase 2 (Langzeit-F/u) | Leukemia | Venetoclax + Hyper-CVAD/Nelarabin/pegylierte Asparaginase in T-ALL/LBL |
-| [35987855](https://pubmed.ncbi.nlm.nih.gov/35987855/) | 2022 | Konsens/Review | Bulletin du Cancer | Empfehlungen der Französischen Gesellschaft zur Prävention/Behandlung von Pegaspargase-Toxizitäten |
-| [31571395](https://pubmed.ncbi.nlm.nih.gov/31571395/) | 2020 | Fallserie | Pediatr Blood Cancer | Schnelle Desensibilisierungsprotokoll ermöglicht kontinuierliche Pegaspargase-Nutzung bei überempfindlichen pädiatrischen Patienten |
-| [17696798](https://pubmed.ncbi.nlm.nih.gov/17696798/) | 2007 | Review | Expert Opin Pharmacother | Grundlegende Pharmakologie-Review von PEG-Asparaginase in Leukämie-Behandlung |
+| [35271306](https://pubmed.ncbi.nlm.nih.gov/35271306/) | 2022 | RCT | J Clin Oncol | COG-Studie AALL1231: Bortezomib bei neu diagnostizierter T-ALL/T-LL |
+| [32813610](https://pubmed.ncbi.nlm.nih.gov/32813610/) | 2020 | RCT | J Clin Oncol | COG AALL0434: Nelarabin bei neu diagnostizierter T-ALL |
+| [27114587](https://pubmed.ncbi.nlm.nih.gov/27114587/) | 2016 | RCT | J Clin Oncol | AALL0232: Dexamethason und hochdosiertes Methotrexat verbessern das Outcome bei Hochrisiko-B-ALL |
+| [32628582](https://pubmed.ncbi.nlm.nih.gov/32628582/) | 2020 | RCT | JCO Glob Oncol | Bioäquivalenzstudie eines i.m. Pegaspargase-Generikums gegenüber Oncaspar |
+| [31030380](https://pubmed.ncbi.nlm.nih.gov/31030380/) | 2019 | Review | Drugs | Übersicht zu Pegaspargase bei ALL |
+| [40109190](https://pubmed.ncbi.nlm.nih.gov/40109190/) | 2025 | Review | Haematologica | Expertenkonsens zu Erkennung, Prävention und Management von Nebenwirkungen bei Erwachsenen |
+| [37276451](https://pubmed.ncbi.nlm.nih.gov/37276451/) | 2023 | Kohorte | Blood Adv | GIMEMA LAL1913: pegaspargase-modifiziertes Programm bei erwachsener ALL |
+| [40858769](https://pubmed.ncbi.nlm.nih.gov/40858769/) | 2025 | Kohorte | Ann Hematol | Verträglichkeit bei Patienten ≥55 Jahre im LAL1913-Programm |
+| [34228505](https://pubmed.ncbi.nlm.nih.gov/34228505/) | 2021 | Studie | J Clin Oncol | DFCI 11-001: Pegaspargase vs. Calaspargase pegol bei kindlicher ALL |
+| [27643446](https://pubmed.ncbi.nlm.nih.gov/27643446/) | 2017 | Review | Leuk Lymphoma | Überempfindlichkeitsreaktionen: intravenöse vs. intramuskuläre Gabe |
 
 ---
 
-## Andere von TxGNN vorhergesagte Indikationen (vollständige Kandidatenliste)
+## Informationen zum deutschen Markt
 
-Das Evidenzpaket bewertete 10 Kandidaten-Indikationen für Pegaspargase. Zur Transparenz wird angesichts des Multi-Kandidaten-Charakters dieses Pakets die vollständige Ranking unten zusammengefasst:
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/003789 | Oncaspar | – | Vorläuferzell-lymphoblastische Leukämie/Lymphom (Status: erloschen) |
 
-| Rank | Krankheit | Score | Evidenzstufe | Empfehlung | Anmerkung |
-|------|---------|-------|-----------------|-----------------|------|
-| 1 | Precursor lymphoblastisches Lymphom/Leukämie | 99,96% | L1 | Fortfahren mit Vorsichtsmaßnahmen | = bestehende genehmigte Indikation, nicht neu |
-| 2 | Prä-Keimzentrum CLL/SLL | 99,95% | L5 | Halten | Keine mechanistische Stützung; wahrscheinlich Graph-Struktur-Artefakt |
-| 3 | CLL/SLL mit IGHV-somatischer Hypermutation | 99,95% | L5 | Halten | Dasselbe wie oben |
-| 4 | Follikuläres Lymphom | 99,90% | L5 | Halten | Reife B-Zellen; nicht asparagin-abhängig; keine Evidenz |
-| 5 | Akute lymphoblastische Leukämie | 99,89% | L1 | Fortfahren mit Vorsichtsmaßnahmen | = bestehende genehmigte Indikation, nicht neu |
-| 6 | Methylcobalamin-Mangel (cblE) | 99,74% | L5 | Halten | Mechanistisch unabhängig; wahrscheinlich Daten-/Ontologie-Artefakt |
-| 7 | Lymphoid-Neoplasma (breite Kategorie) | 99,71% | L3 | Forschungsfrage | Evidenz ist ALL-spezifisch, nicht verallgemeinerbar auf alle lymphoiden Tumoren |
-| 8 | Hodgkin-Lymphom | 99,71% | L2 | Forschungsfrage | ⚠️ Die meisten zitierten Evidenzen sind tatsächlich für NK/T-Zell-Lymphom (ein anderer NHL-Subtyp), nicht klassisches Hodgkin-Lymphom — Etikett-Nichtübereinstimmung muss geklärt werden |
-| 9 | CLL/SLL | 99,68% | L5 | Halten | Keine mechanistische Stützung; keine Evidenz |
-| 10 | CML-Blastenphase, BCR-ABL1+ | 99,61% | L4 | Forschungsfrage | Plausibel nur für lymphoides Blastenkrise-Subtyp; nicht unterschieden von myeloider Blastenkrise in Evidenz |
-
-**Interpretation**: Nur Ranks 1 und 5 haben starke (L1) Evidenz, und beide formulieren einfach die bekannte Indikation um. Ranks 7, 8 und 10 sind genuine „Forschungsfrage"-Kandidaten, aber mit schwacher, teilweise nicht übereinstimmender Evidenz. Ranks 2, 3, 4, 6 und 9 sollten gehalten werden — kein plausibles Wirkprinzip und null unterstützende Studien/Literatur.
-
----
-
-## Marktinformationen Deutschland
-
-Pegaspargase hat derzeit **keine Zulassung in Deutschland** in diesem Datensatz (`market_status: Not marketed`, `total_licenses: 0`). Keine Produktlisten sind verfügbar zusammengefasst.
+Die einzige erfasste Zulassung ist erloschen. Die tatsächliche Produktverfügbarkeit sollte vor einer Weiterverfolgung geprüft werden.
 
 ---
 
 ## Zytotoxizität
 
-Pegaspargase ist ein antineoplastisches Mittel (asparagin-abbauendes Enzym), das als Kernkomponente von ALL/LBL-Chemotherapie-Regimen verwendet wird — es erfüllt die antineoplastischen Kriterien über die ursprüngliche Indikation und etablierte Arzneistoffklasse.
-
 | Punkt | Inhalt |
-|-------|--------|
-| Zytotoxizitäts-Klassifizierung | Konventionell zytotoxisch — enzym-basiert (asparagin-abbauend), unterschiedlich von DNA-schädigenden oder gezielten Wirkstoffen |
-| Myelosuppressions-Risiko | Niedrige direkte Myelosuppression durch Pegaspargase selbst; jedoch wird es fast immer mit myelosuppressiven Mitteln kombiniert (Vincristin, Anthrazykline, Corticosteroide), sodass Myelosuppressions-Risiko des Kombinationsregimes hoch ist |
-| Emetogenitäts-Klassifizierung | Niedrig bis moderat |
-| Überwachungspunkte | Gerinnungsanalytik (Fibrinogen, Antithrombin III), Leberfunktionsprüfung, Lipase/Amylase (Pankreatitis), Nüchtern-Glukose/Triglyceride, Zeichen von Überempfindlichkeit, CBC (Regimen-weit) |
-| Schutzmaßnahmen bei der Handhabung | Ja — Standard-Zytotoxisch/Antineoplastisch-Arzneistoff-Handhabungsvorsichtsmaßnahmen gelten während Vorbereitung und Verabreichung |
+|------|------|
+| Zytotoxizitätsklasse | Enzymatische Antineoplastika (Asparaginase), im Rahmen einer zytotoxischen Mehrstoff-Chemotherapie |
+| Myelosuppressionsrisiko | Gering als Einzelsubstanz (Asparaginase ist wenig hämatotoxisch); Gesamtrisiko durch Kombinationspartner |
+| Emetogenität | Gering |
+| Überwachungsparameter | Leber- und Pankreaswerte, Triglyceride, Gerinnung, Blutbild; auf Überempfindlichkeit achten |
+| Handhabungsschutz | Bitte Packungsbeilage und Vorgaben zum Umgang mit Zytostatika beachten |
 
 ---
 
-## Sicherheitsaspekte
+## Sicherheitsüberlegungen
 
-Bitte lesen Sie die Fachinformation für Sicherheitsinformationen. (Schlüsselwarnungen, Kontraindikationen und DDI-Daten sind alle als Datenlücken in diesem Evidenzpaket gekennzeichnet; keine DDI-Einträge wurden gefunden.)
+Für Warnhinweise und Gegenanzeigen liegen in den zusammengestellten Daten keine Angaben aus der Packungsbeilage vor. Bitte die Packungsbeilage konsultieren.
+
+- **Aus der Literatur bekannte Toxizitäten:** Hepatotoxizität, Pankreatitis, Hypertriglyzeridämie, Thrombosen und Überempfindlichkeitsreaktionen. Bei älteren Erwachsenen ist besondere Vorsicht geboten.
+- **Arzneimittelwechselwirkungen:** Es wurden 100 Wechselwirkungen erfasst, in der Übersicht alle mit moderater Einstufung. Beispiele: Acarbose, Metformin, Dexamethason, Hydrocortison, Triamcinolon, Betamethason, Budesonid, Acetylsalicylsäure, Doxycyclin, Tetracyclin, Clarithromycin, Bupropion sowie weitere Antidiabetika (Alogliptin, Canagliflozin, Dapagliflozin, Saxagliptin, Dulaglutid, Albiglutid).
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Fortfahren mit Vorsichtsmaßnahmen** *(für den Kandidaten mit der besten Bewertung — mit dem Hinweis, dass dies bestätigend ist, nicht eine neue Indikation)*
+**Entscheidung: Proceed with Guardrails**
 
 **Begründung:**
-- Die beste TxGNN-Vorhersage formuliert die bereits etablierte, leitlinienmäßige Anwendung von Pegaspargase in ALL/LBL um, gestützt durch mehrere Phase-3-Studien und konsistente Literatur — die Evidenz ist stark, aber es gibt keinen neuen Indikations-Wert zu erfassen.
-- Genuinely explorative Kandidaten (Hodgkin-Lymphom, Lymphoid-Neoplasma insgesamt, CML Lymphoide Blastenphase) bleiben im „Forschungsfrage"-Stadium mit dünner oder nicht übereinstimmender Evidenz und sollten nicht weitergehen, ohne zusätzliche Arbeit.
+Mehrere abgeschlossene Phase-3-Studien und eine breite Literaturbasis stützen den Einsatz von Pegaspargase bei lymphoblastischer Leukämie/Lymphom (Evidenzstufe L1). Da dies die bereits zugelassene Kernindikation ist, handelt es sich um eine Bestätigung. Die Zulassung ist jedoch als erloschen verzeichnet, und es fehlen Sicherheitsdaten aus der Packungsbeilage.
 
-**Zum Fortfahren ist Folgendes erforderlich:**
-- DG001 (Blockierend) auflösen: TFDA/BfArM-Fachinformation Warnungen und Kontraindikationen beschaffen, bevor S1-Sicherheits-Vorbewertung durchgeführt werden kann.
-- DG002 (Hoch) auflösen: strukturierte MOA-Daten aus DrugBank beschaffen, um formale mechanistische-Verbindungs-Bewertung zu unterstützen.
-- Für den Hodgkin-Lymphom-Kandidaten (Rank 8): klären, ob die zugrunde liegende Evidenz (NK/T-Zell-Lymphom-Studien) fehlerhaft dem Hodgkin-Lymphom zugeordnet wurde, bevor jede weitere Evaluierung durchgeführt wird.
-- Für „Lymphoid-Neoplasma" (Rank 7): Evidenzbasis auf Krankheits-Subtypen eingrenzen, die tatsächliche Asparagin-Synthetase-Mangel-Daten haben, anstatt es als einzelne breite Kategorie zu behandeln.
-- Angesichts dessen, dass das Arzneimittel in Deutschland nicht im Handel ist, Regulierungs-Pathway/Relevanz für diesen Markt bestätigen, bevor weitere Evaluierungs-Ressourcen diesem Markt zugeordnet werden.
-
+**Zur Weiterverfolgung ist Folgendes erforderlich:**
+- Prüfung der aktuellen Produktverfügbarkeit und des Zulassungsstatus in Deutschland
+- Packungsbeilage (Warnhinweise, Gegenanzeigen) beschaffen und auswerten
+- Detaillierte Mechanismusdaten (MOA) ergänzen
+- Überwachungsplan für Hepatotoxizität, Pankreatitis, Lipide, Gerinnung und Überempfindlichkeit, mit Dosisanpassung bei älteren Patienten
+- Empfehlung nur auf asparaginabhängige Subtypen beschränken; die übrigen vorhergesagten Indikationen (CLL/SLL, follikuläres Lymphom, cblE, Hodgkin-Lymphom, CML-Blastenphase) bleiben auf Hold
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

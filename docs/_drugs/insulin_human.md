@@ -2,7 +2,7 @@
 layout: default
 title: Insulin Human
 parent: Nur Modellvorhersage (L5)
-nav_order: 208
+nav_order: 244
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,78 +29,100 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# INSULIN HUMAN: Von Diabetes mellitus bis zur Autoimmun-Oophoritis
+# Humaninsulin: Von Diabetes mellitus zu autoimmuner Oophoritis
 
 ## Zusammenfassung in einem Satz
 
-Insulin human ist die Standard-Ersatztherapie für Diabetes mellitus (endogener Insulinmangel).
-Die vom TxGNN-Modell als ranghöchste neue Indikation vorhergesagte **Autoimmun-Oophoritis** (Score 99.84 %),
-verfügt jedoch über **keine klinischen Studien, keine unterstützende Literatur und keine mechanistische Begründung für therapeutischen Nutzen** –
-die Evidenzbewertung selbst kennzeichnet dies als wahrscheinliches Wissensgraph-Komorbiditätsartefakt anstelle eines echten Umwidmungssignals.
+Humaninsulin wurde ursprünglich zur Behandlung von Diabetes mellitus eingesetzt. Das TxGNN-Modell sagt voraus, dass es bei **autoimmuner Oophoritis** wirksam sein könnte. Dafür liegen jedoch **keine klinischen Studien** und **keine Publikationen** vor, die Vorhersage beruht allein auf dem Wissensgraphen.
 
 ---
 
 ## Schnellübersicht
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Diabetes mellitus (Insulinersatztherapie) – nicht einzeln in diesem Evidenzpaket aufgeführt; Daten zu Deutschland/Zulassungen nicht verfügbar |
-| Vorhergesagte neue Indikation | Autoimmun-Oophoritis |
-| TxGNN-Vorhersagescore | 99.84 % |
-| Evidenzebene | L5 (nur Modellvorhersage, keine unterstützenden Studien) |
-| Marktstatus Deutschland | ✗ Nicht im Handel (Nicht im Handel) |
-| Anzahl der Zulassungen | 0 |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Diabetes mellitus |
+| Vorhergesagte neue Indikation | Autoimmune Oophoritis |
+| TxGNN-Vorhersagewert | 99,84 % |
+| Evidenzlevel | L5 |
+| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
+| Anzahl der Zulassungen | 6 (alle erloschen) |
 | Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage vernünftig?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Daten zum Wirkmechanismus nicht verfügbar (gekennzeichnet als hochschwerwiegender Datenlücke in diesem Evidenzpaket). Nach allgemeinem pharmakologischen Wissen ersetzt oder ergänzt Insulin human das körpereigene Insulin zur Regulierung des Glucosestoffwechsels; seine Wirksamkeit bei Diabetes mellitus ist gut etabliert.
+Zum Wirkmechanismus von Humaninsulin liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Humaninsulin ein Hormonersatz ist, dessen Wirksamkeit bei Diabetes mellitus gesichert ist. Es senkt den Blutzucker und steuert die Insulin-Signalwege des Stoffwechsels.
 
-Der vorgeschlagene mechanistische Zusammenhang mit Autoimmun-Oophoritis besteht darin, dass beide Erkrankungen innerhalb eines autoimmunen polyglandulären Syndroms koexistieren können (Typ-1-Diabetes plus autoimmune Ovarialinsuffizienz teilen eine autoimmune Veranlagung). Dies ist jedoch eine **Komorbiditätsassoziation**, nicht ein Beweis dafür, dass Insulin eine direkte therapeutische Wirkung auf die autoimmune Zerstörung des Ovarialgewebes hat. Die Evidenzbewertung kennzeichnet diese Vorhersage explizit als „Relationsrauschen im Wissensgraphen" anstelle einer plausiblen pharmakologischen Hypothese – der Glucosesenkungsmechanismus von Insulin verfügt über keinen etablierten Wirkungsweg, der für die Beendigung oder Umkehrung einer Autoimmun-Oophoritis relevant ist.
+Ein möglicher Zusammenhang mit der autoimmunen Oophoritis ist spekulativ: Insulinsignale könnten die Funktion der Ovarialfollikel sowie die metabolische und immunologische Regulation beeinflussen. Autoimmune Oophoritis ist jedoch eine immunvermittelte Erkrankung der Eierstöcke, und es gibt keinen etablierten Mechanismus, der Insulin als Therapie stützt. Der hohe Vorhersagewert (0,998) ist daher ein reines Wissensgraph-Ergebnis und kein Beleg für Wirksamkeit.
 
-Die Überprüfung des vollständigen Satzes von 10 TxGNN-Vorhersagen für dieses Arzneimittel bestärkt diese Schlussfolgerung: Die meisten (Ränge 1, 2, 3, 5, 6, 7, 8, 10) werden von der Evidenzschicht explizit als Komorbiditätsartefakte oder sogar **richtungsumgekehrte Assoziationen** gekennzeichnet (z. B. ist Insulininjektion eine bekannte *Ursache* lokalisierter Lipodystrophie, nicht eine Behandlung dafür). Die zwei Ausnahmen – Thiamin-responsives Dysfunktionssyndrom (Rang 4) und Bauchspeicheldrüsenagenese (Rang 9) – spiegeln die gut etablierte Rolle von Insulin bei der Behandlung von *sekundärem Diabetes* wider, der aus diesen genetischen Syndromen entsteht, was bereits bestehende klinische Standardpraxis ist anstelle einer neuartigen Umwidmungsentdeckung.
+Auch die weiteren Top-10-Vorhersagen sind überwiegend Assoziationsartefakte oder bloße symptomatische Behandlung:
+
+| Rang | Vorhergesagte Indikation | Wert | Einschätzung |
+|---|---|---|---|
+| 2 | Klassisches Stiff-Person-Syndrom | 99,81 % | Wahrscheinlich Assoziation über Begleitdiabetes (Anti-GAD65); Insulin behandelt nur den Diabetes |
+| 3 | Fokales Stiff-Limb-Syndrom | 99,81 % | Gleiche Begründung wie Rang 2 |
+| 4 | Thiamin-responsives Dysfunktionssyndrom | 99,80 % | Insulin nur symptomatisch für die diabetische Komponente |
+| 5 | Opsismodysplasie | 99,79 % | Netzwerkbezug über INPPL1 (SHIP2), Wirkrichtung unklar |
+| 6 | Arzneimittelinduzierte lokalisierte Lipodystrophie | 99,72 % | Insulin ist hier eher Ursache als Therapie |
+| 7 | Zentrifugale Lipodystrophie | 99,70 % | Nur Graph-Nähe, keine Evidenz |
+| 8 | Druckinduzierte lokalisierte Lipoatrophie | 99,70 % | Nur Graph-Nähe, keine Evidenz |
+| 9 | Pankreasagenesie | 99,70 % | Insulinersatz ist Standardversorgung, aber keine neuartige Umwidmung |
+| 10 | Idiopathische lokalisierte Lipodystrophie | 99,68 % | Nur Graph-Nähe, keine Evidenz |
 
 ---
 
-## Klinische Studienevidenz
+## Klinische Evidenz
 
-Derzeit sind keine damit verbundenen klinischen Studien registriert.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
 ## Literaturevidenz
 
-Derzeit ist keine damit verbundene Literatur verfügbar.
+Derzeit liegt keine zugehörige Literatur vor.
 
 ---
 
-## Informationen zum deutschen Markt
+## Informationen zum Markt in Deutschland
 
-In diesem Evidenzpaket sind keine Zulassungsunterlagen verfügbar. Der Marktstatus wird als **Nicht im Handel (Nicht im Handel)** mit **0 Gesamtlizenzen** aufgezeichnet, daher kann keine Tabelle mit Produkten/Darreichungsformen erstellt werden.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000442 | Protaphane | – | Diabetes mellitus |
+| EMEA/H/C/000428 | Mixtard | – | Diabetes mellitus |
+| EMEA/H/C/000427 | Actraphane | – | Diabetes mellitus |
+| EMEA/H/C/000441 | Insulatard | – | Diabetes mellitus |
+| EMEA/H/C/000201 | Insuman | – | Diabetes mellitus |
+
+Alle genannten Zulassungen sind erloschen. Eine weitere erloschene Zulassung (ProZinc, EMEA/V/C/002634) enthält keine Angaben zur Indikation.
 
 ---
 
-## Sicherheitsüberlegungen
+## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. (Wichtige Warnungen, Kontraindikationen und Arzneimittelwechselwirkungsdaten sind alle in diesem Evidenzpaket nicht verfügbar; TFDA-Etikettenwarnungen/Kontraindikationen sind als **blockierende** Datenlücke gekennzeichnet, die eine formale S1-Sicherheitsbewertung verhindert.)
+**Arzneimittelwechselwirkungen:** Laut den zusammengestellten Daten wurden insgesamt 100 Wechselwirkungen erfasst. Auszug der Einträge, überwiegend mit mäßigem Schweregrad:
+
+- **Mäßig:** Phenylephrin, Acebutolol, Acetazolamid, Pseudoephedrin, Doxycyclin, Epinephrin, Ethinylestradiol, Hydrocortison, Albiglutid, Salbutamol, Ethanol, Hydrochlorothiazid, Alogliptin, Metformin, Pioglitazon, Estradiol, Alpelisib, Benazepril
+- **Gering:** Hydrocortison (topisch), Alclometason (topisch)
+
+Weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) entnehmen Sie bitte der Packungsbeilage.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
 **Entscheidung: Hold**
 
 **Begründung:**
-Die ranghöchste Vorhersage (Autoimmun-Oophoritis) verfügt über keine klinische, literaturgestützte oder mechanistische Unterstützung und wird von der Evidenzbewertung explizit als wahrscheinliches Wissensgraph-Artefakt identifiziert, das durch gemeinsame autoimmune Komorbiditäten angetrieben wird, anstelle eines echten pharmakologischen Signals. In Kombination mit einer blockierenden Datenlücke in der TFDA-Sicherheitskennzeichnung und einer hochschwerwiegenden Datenlücke in den Wirkmechanismus-Daten gibt es keine ausreichende Grundlage, um diesen Kandidaten voranzubringen.
+Für die Vorhersage gibt es weder klinische Studien noch Publikationen (Evidenzlevel L5). Der hohe TxGNN-Wert allein genügt nicht, zumal es keinen etablierten Mechanismus gibt und alle deutschen Zulassungen erloschen sind.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- TFDA/EMA-Packungsbeilagendaten (Warnungen, Kontraindikationen) zur Beseitigung der blockierenden Datenlücke und zur Ermöglichung der S1-Sicherheitsprüfung
-- Bestätigte Wirkmechanismus-Dokumentation für Insulin human (DrugBank-API-Abfrage)
-- Falls Autoimmun-Oophoritis weiterhin verfolgt wird: Dedizierte mechanistische oder präklinische Studien, die Insulin/Insulin-Signalgebungswege im autoimmunen Ovarialgewebe evaluieren – derzeit existieren keine
-- Neubewertung, ob die Ränge 4 (Thiamin-responsives Dysfunktionssyndrom) und 9 (Bauchspeicheldrüsenagenese) stattdessen als „bestehende klinische Standardpraxis" anstelle von neuartigen Umwidmungskandidaten neu klassifiziert werden sollten, da Insulin bereits klinisch für sekundären Diabetes in beiden Syndromen verwendet wird
-
+**Für ein Weiterkommen sind folgende Schritte nötig:**
+- Wirkmechanismus-Daten (MOA) aus DrugBank ergänzen
+- Warnhinweise und Gegenanzeigen aus der BfArM-Packungsbeilage beschaffen (derzeit blockierende Datenlücke für das Sicherheitsscreening)
+- Systematische Literatur- und Studienrecherche zu Insulin bei autoimmuner Oophoritis
+- Präklinische Belege für einen plausiblen Mechanismus erarbeiten
+- Prüfung von Applikationsweg und Zulassungsstatus (derzeit keine gültige Zulassung in Deutschland)
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

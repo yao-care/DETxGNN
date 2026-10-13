@@ -2,7 +2,7 @@
 layout: default
 title: Insulin Aspart
 parent: Hohe Evidenz (L1-L2)
-nav_order: 203
+nav_order: 239
 evidence_level: L1
 indication_count: 10
 ---
@@ -29,99 +29,107 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Insulin aspart: Von Diabetes mellitus zu Typ-1-Diabetes mellitus
+# Insulin Aspart: Vom Diabetes mellitus zum Typ-1-Diabetes mellitus
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Insulin aspart ist ein schnellwirksames Insulinanalogon, das ursprünglich zur glykämischen Kontrolle von Diabetes mellitus entwickelt wurde. Das TxGNN-Modell prognostiziert, dass es möglicherweise spezifisch für **Typ-1-Diabetes mellitus** wirksam sein könnte, wobei derzeit **60 klinische Studien** und **20 Publikationen** diese Richtung unterstützen – allerdings sollte dies eher als **bestätigendes Signal** und nicht als echte Neupositionierung gelesen werden, da Insulin aspart bereits ein etabliertes Mahlzeiteninsulin für Typ-1-Diabetes in mehreren Rechtsordnungen ist. Eine kritische Datenlücke bezüglich der Arzneimittelkennzeichnungssicherheit bedeutet, dass dieser Kandidat die vorläufige Sicherheitsüberprüfung noch nicht bestehen kann.
+Insulin aspart ist ein schnell wirksames Insulinanalogon, das ursprünglich zur Behandlung des Diabetes mellitus eingesetzt wird. Das TxGNN-Modell sagt eine Wirksamkeit bei **Typ-1-Diabetes mellitus** voraus. Dabei handelt es sich jedoch um eine bereits etablierte, zugelassene Anwendung und nicht um eine echte Neuausrichtung (Repurposing). Die Vorhersage wird durch **34 klinische Studien** und **20 Publikationen** gestützt.
 
 ---
 
-## Schnelle Übersicht
+## Schnellübersicht
 
-| Element | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Diabetes mellitus (schnellwirksames Mahlzeiteninsulin) – der genaue genehmigte Indikationstext ist in diesem Evidence Pack nicht verfügbar |
-| Prognostizierte neue Indikation | Typ-1-Diabetes mellitus |
-| TxGNN-Vorhersage-Score | 99.95% |
-| Evidence Level | L1 |
-| Markt-Status Deutschland | ✗ Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Halten |
+| Ursprüngliche Indikation | Diabetes mellitus |
+| Vorhergesagte neue Indikation | Typ-1-Diabetes mellitus |
+| TxGNN-Vorhersagewert | 99,95 % |
+| Evidenzgrad | L1 |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen (kein aktiv zugelassenes Produkt in den Daten) |
+| Anzahl der Zulassungen | 8 (alle aufgehoben) |
+| Empfohlene Entscheidung | Proceed with Guardrails (mit Auflagen fortfahren) |
 
 ---
 
-## Warum ist diese Vorhersage vernünftig?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Daten zum Wirkmechanismus nicht verfügbar (Datenlücke). Basierend auf bekannten klinischen Informationen ist Insulin aspart ein schnellwirksames rekombinantes Humaninsulinanalogon, das für einen schnelleren Eintritt und eine kürzere Wirkungsdauer als reguläres Humaninsulin entwickelt wurde, was es für Mahlzeiten (Bolus-) glykämische Kontrolle geeignet macht.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekanntermaßen ist Insulin aspart ein schnell wirksames Humaninsulin-Analogon, das bei subkutaner Gabe schneller resorbiert wird als normales Humaninsulin. Es ersetzt das fehlende körpereigene Insulin und senkt den Blutzucker.
 
-Die prognostizierte Indikation – Typ-1-Diabetes mellitus – fällt in denselben Kern-Pharmakologiefall wie die allgemeine Diabetesindikation von Insulin aspart: exogener Insulinersatz zur Glukoseregulierung. Bei Typ-1-Diabetes sind Patienten spezifisch aufgrund der autoimmunen Beta-Zell-Zerstörung absolut insulinmangelnd, und schnellwirksame Analoga wie Aspart sind eine Standardkomponente basal-bolus- und pumpengestützter Regime.
-
-Da dieser Kandidat weitgehend bereits gut etablierte klinische Verwendung bestätigt, anstatt eine mechanistisch weit entfernte neue Indikation zu identifizieren, sollte die „Vorhersage" als Validierung der Fähigkeit von TxGNN, bekannte Arzneimittel-Krankheits-Beziehungen wiederherzustellen, interpretiert werden, anstatt als echte Neupositionierungsmöglichkeit. Die sehr große Studien- und Literaturbasis (60 Studien, über Phase 1–4 verteilt, einschließlich mehrerer abgeschlossener Phase-3-RCTs) ist konsistent mit einer reifen, leitliniengestützten Verwendung anstatt einer explorativen.
+Beim Typ-1-Diabetes besteht ein absoluter Insulinmangel. Die Insulinsubstitution ist daher die Standardtherapie, und die Vorhersage ist mit der bekannten, zugelassenen Indikation „Diabetes mellitus“ vollständig vereinbar. Der sehr hohe TxGNN-Wert spiegelt diese bekannte Anwendung wider. Es handelt sich nicht um eine neue therapeutische Entdeckung.
 
 ---
 
-## Evidenz klinischer Studien
+## Evidenz aus klinischen Studien
 
-| Studiennummer | Phase | Status | Einschluss | Wesentliche Ergebnisse |
+Die Daten enthalten 34 Studien. Aufgeführt sind die zehn relevantesten (bevorzugt Phase 3 mit direktem Bezug zu Insulin aspart).
+
+| Studiennummer | Phase | Status | Teilnehmerzahl | Kernaussagen |
 |---------|------|------|------|---------|
-| [NCT00542399](https://clinicaltrials.gov/study/NCT00542399) | Phase 4 | Abgeschlossen | 50 | Einmal vs. zweimal täglich Detemir mit Aspart als Mahlzeiteninsulin bei Kindern/Jugendlichen mit T1D |
-| [NCT01697657](https://clinicaltrials.gov/study/NCT01697657) | Phase 3 | Abgeschlossen | 131 | Detemir+Aspart vs. NPH+Aspart: Hypoglykämiehäufigkeit bei basal-bolus-T1D-Regime |
-| [NCT01109316](https://clinicaltrials.gov/study/NCT01109316) | Phase 3 | Abgeschlossen | 132 | CSII-Pumpenvergleich: Insulin-Lispro vs. Insulin-Aspart bei T1D |
-| [NCT00097071](https://clinicaltrials.gov/study/NCT00097071) | Phase 3 | Abgeschlossen | 299 | Sicherheit/Wirksamkeit von Aspart vs. Lispro in Insulinpumpen bei Kindern und Jugendlichen mit T1D |
-| [NCT00322257](https://clinicaltrials.gov/study/NCT00322257) | Phase 3 | Beendet | 596 | Inhaliertes Mahlzeiteninsulin vs. subkutanes Aspart (+Detemir) bei T1D, 104-Wochen-RCT |
-| [NCT03143816](https://clinicaltrials.gov/study/NCT03143816) | Phase 4 | Abgeschlossen | 60 | Prandialer Insulin-Aspart vs. Technosphere-Inhalationsinsulin bei T1D mit mehrfacher täglicher Injektion |
-| [NCT00593255](https://clinicaltrials.gov/study/NCT00593255) | Phase 4 | Abgeschlossen | 220 | Aspart vs. menschliches lösliches Insulin als Mahlzeiteninsulin bei chinesischen T1D/T2D-Patienten |
-| [NCT03565666](https://clinicaltrials.gov/study/NCT03565666) | Phase 2/3 | Abgeschlossen | 36 | Insulinbasierte bionische Bauchspeicheldrüse (Aspart-basiert) Closed-Loop-Brückenstudie |
-| [NCT02871089](https://clinicaltrials.gov/study/NCT02871089) | NA | Aktiv, nicht rekrutierend | 96 | Closed-Loop-Insulinabgabe von T1D-Beginn bei Restfunktion von Beta-Zellen |
-| [NCT05653050](https://clinicaltrials.gov/study/NCT05653050) | NA | Abgeschlossen | 26 | Closed-Loop-Glukosekontrolle vs. Standard-Pumpe+CGM bei Jugendlichen mit T1D |
+| [NCT02825251](https://clinicaltrials.gov/study/NCT02825251) | Phase 3 | Abgeschlossen | 472 | Wirksamkeit und Sicherheit von schneller wirksamem Insulin aspart in der kontinuierlichen subkutanen Insulininfusion (CSII) im Vergleich zu NovoRapid bei Erwachsenen mit Typ-1-Diabetes |
+| [NCT00097071](https://clinicaltrials.gov/study/NCT00097071) | Phase 3 | Abgeschlossen | 299 | Insulin aspart vs. Insulin lispro in Insulinpumpen bei Kindern und Jugendlichen mit Typ-1-Diabetes |
+| [NCT00595374](https://clinicaltrials.gov/study/NCT00595374) | Phase 3 | Abgeschlossen | 114 | Insulin detemir plus aspart vs. NPH-Insulin plus aspart bei Erwachsenen mit Typ-1-Diabetes |
+| [NCT01520818](https://clinicaltrials.gov/study/NCT01520818) | Phase 3 | Abgeschlossen | 666 | Zweiphasiges Insulin aspart 50/70 (dreimal täglich) vs. zweiphasiges Humaninsulin 30 bei Typ-1- und Typ-2-Diabetes |
+| [NCT01467323](https://clinicaltrials.gov/study/NCT01467323) | Phase 3 | Abgeschlossen | 303 | Zweiphasiges Insulin aspart 30 vs. zweiphasiges Humaninsulin 30/70, zweimal täglich, bei Typ-1- und Typ-2-Diabetes |
+| [NCT00322257](https://clinicaltrials.gov/study/NCT00322257) | Phase 3 | Beendet (vorzeitig) | 596 | Inhaliertes Mahlzeiteninsulin vs. subkutanes Insulin aspart (jeweils mit Insulin detemir), Wirksamkeit und Lungensicherheit |
+| [NCT00725036](https://clinicaltrials.gov/study/NCT00725036) | Phase 3 | Abgeschlossen | 305 | Langzeitsicherheit von inhaliertem Humaninsulin vs. subkutanem Insulin aspart (jeweils mit NPH) |
+| [NCT00447382](https://clinicaltrials.gov/study/NCT00447382) | Phase 3 | Abgeschlossen | 330 | Sicherheitsvergleich zweier Herstellungsverfahren von Insulin detemir mit Insulin aspart als Bolusinsulin |
+| [NCT01848990](https://clinicaltrials.gov/study/NCT01848990) | Phase 4 | Abgeschlossen | 456 | Hyaluronidase vor der Insulininfusion bei CSII: HbA1c nach 6 Monaten und lokale Verträglichkeit |
+| [NCT01999322](https://clinicaltrials.gov/study/NCT01999322) | Phase 3 | Abgeschlossen | 37 | Kompatibilität und Sicherheit von FIAsp und Insulin aspart mit einem externen CSII-System |
 
 ---
 
-## Literatur-Evidenz
+## Literaturevidenz
 
-| PMID | Jahr | Typ | Journal | Wesentliche Ergebnisse |
+| PMID | Jahr | Typ | Zeitschrift | Kernaussagen |
 |------|-----|------|------|---------|
-| [41697686](https://pubmed.ncbi.nlm.nih.gov/41697686/) | 2026 | Übersicht | JAMA | Übersicht über T1D-Pathophysiologie, Epidemiologie und Komplikationen |
-| [37863084](https://pubmed.ncbi.nlm.nih.gov/37863084/) | 2023 | RCT (Phase 3a) | Lancet | ONWARDS 6: einmal wöchentlich Icodec vs. täglich Degludec, beide mit Aspart-Bolus, bei T1D |
-| [36623517](https://pubmed.ncbi.nlm.nih.gov/36623517/) | 2023 | RCT | Lancet Diabetes Endocrinol | EXPECT: Degludec vs. Detemir, beide + Aspart, bei schwangeren Frauen mit T1D |
-| [37804858](https://pubmed.ncbi.nlm.nih.gov/37804858/) | 2023 | RCT | Lancet Diabetes Endocrinol | CopenFast: schnelleres Aspart vs. Aspart bei fetalem Wachstum bei T1D/T2D-Schwangerschaft |
-| [40129237](https://pubmed.ncbi.nlm.nih.gov/40129237/) | 2025 | RCT (Crossover) | Diabetes Obes Metab | Schnelleres Aspart vs. Aspart mit nicht-automatisierter Pumpe + CGM bei Erwachsenen mit T1D |
-| [37404205](https://pubmed.ncbi.nlm.nih.gov/37404205/) | 2023 | RCT (Crossover) | Diabetes Technol Ther | Schnelleres vs. Standard-Aspart mit Hybrid-Closed-Loop bei aktiven Kindern/Jugendlichen mit T1D |
-| [21333580](https://pubmed.ncbi.nlm.nih.gov/21333580/) | 2011 | Systematische Übersicht | Diabetes Metab | Wirksamkeit/Sicherheit von Aspart vs. regulärem Humaninsulin bei T1D und T2D |
-| [35746893](https://pubmed.ncbi.nlm.nih.gov/35746893/) | 2023 | Meta-Analyse | Diabetes Metab J | FIAsp vs. Aspart mit Insulinpumpe bei T1D: gepoolte Wirksamkeit/Sicherheit |
-| [35933650](https://pubmed.ncbi.nlm.nih.gov/35933650/) | 2022 | Beobachtungsstudie | Acta Diabetol | Glulisine vs. Lispro vs. Aspart während CSII bei T1D: HbA1c, Hypo-/Hyperglykämie, DKA-Raten |
-| [15871555](https://pubmed.ncbi.nlm.nih.gov/15871555/) | 2003 | Übersicht | Treat Endocrinol | Spotlight-Übersicht zu Insulin aspart bei T1D- und T2D-Management |
+| [36623517](https://pubmed.ncbi.nlm.nih.gov/36623517/) | 2023 | RCT | Lancet Diabetes Endocrinol | Insulin degludec vs. detemir (jeweils mit aspart) bei schwangeren Frauen mit Typ-1-Diabetes (EXPECT), Nichtunterlegenheitsstudie |
+| [37863084](https://pubmed.ncbi.nlm.nih.gov/37863084/) | 2023 | RCT | Lancet | Einmal wöchentliches Insulin icodec vs. täglich Degludec im Basis-Bolus-Schema bei Typ-1-Diabetes (ONWARDS 6) |
+| [40445776](https://pubmed.ncbi.nlm.nih.gov/40445776/) | 2025 | RCT | Diabetes Technol Ther | Vollständig geschlossener Regelkreis mit schnellem Insulin aspart (Fiasp) bei Jugendlichen mit Typ-1-Diabetes verbessert die Glukosekontrolle |
+| [38379002](https://pubmed.ncbi.nlm.nih.gov/38379002/) | 2024 | RCT (PK/PD) | Diabetes Obes Metab | Pharmakokinetik und Pharmakodynamik von Insulin icodec bei Typ-1-Diabetes |
+| [27362975](https://pubmed.ncbi.nlm.nih.gov/27362975/) | 2016 | Systematische Übersicht (Cochrane) | Cochrane Database Syst Rev | Kurzwirksame Insulinanaloga vs. normales Humaninsulin bei Erwachsenen mit Typ-1-Diabetes |
+| [25644227](https://pubmed.ncbi.nlm.nih.gov/25644227/) | 2015 | Systematische Übersicht/Metaanalyse | Pol Arch Med Wewn | Wirksamkeit und Sicherheit von Insulin aspart vs. Humaninsulin bei Typ-1- und Typ-2-Diabetes |
+| [21333580](https://pubmed.ncbi.nlm.nih.gov/21333580/) | 2011 | Systematische Übersicht | Diabetes Metab | Vergleich von Insulin aspart und normalem Humaninsulin sowie von zweiphasigen Präparaten |
+| [12215068](https://pubmed.ncbi.nlm.nih.gov/12215068/) | 2002 | Übersichtsarbeit | Drugs | Insulin aspart führt vor den Mahlzeiten zu niedrigeren HbA1c-Werten als normales Humaninsulin |
+| [29978361](https://pubmed.ncbi.nlm.nih.gov/29978361/) | 2019 | Übersichtsarbeit | Clin Pharmacokinet | Schnelleres Insulin aspart (Fiasp) als neue Bolusoption |
+| [31902063](https://pubmed.ncbi.nlm.nih.gov/31902063/) | 2020 | Übersichtsarbeit | Diabetes Ther | Insulintherapie bei Erwachsenen mit Typ-1-Diabetes |
 
 ---
 
-## Deutschland Marktinformation
+## Marktinformationen Deutschland
 
-Insulin aspart verfügt derzeit über **keine Marktgenehmigung** in dieser Rechtsordnung (`market_status: Not marketed`, `total_licenses: 0`). Es sind keine Lizenzeinträge verfügbar, um sie zusammenzufassen.
+Alle in den Daten erfassten Zulassungen sind aufgehoben. Es sind keine Darreichungsformen angegeben.
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000258 | NovoRapid | – | Diabetes mellitus |
+| EMEA/H/C/004046 | Fiasp | – | Diabetes mellitus |
+| EMEA/H/C/000308 | NovoMix | – | Diabetes mellitus |
+| EMEA/H/C/005033 | Insulin aspart Sanofi | – | Diabetes mellitus |
+| EMEA/H/C/002499 | Ryzodeg | – | Diabetes mellitus |
+
+Drei weitere aufgehobene Zulassungen (Truvelog Mix 30, Dazparda, Kirsty) sind in der Gesamtzahl von 8 enthalten.
 
 ---
 
-## Sicherheitsaspekte
+## Sicherheitshinweise
 
-Bitte beziehen Sie sich auf die Gebrauchsinformation für Sicherheitsinformationen.
-
-*(Hinweis: Eine kritische Datenlücke – DG001, fehlende TFDA/regulatorische Beschriftungswarnungen und Kontraindikationen – verhindert derzeit den Abschluss der anfänglichen Sicherheitsüberprüfung (S1) für diesen Kandidaten.)*
+Zur Sicherheit siehe bitte die Fachinformation (Packungsbeilage). Für Wechselwirkungen wurden in den zusammengestellten Daten keine Einträge gefunden.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Halten**
+**Entscheidung: Proceed with Guardrails (mit Auflagen fortfahren)**
 
 **Begründung:**
-Die Wirksamkeitsevidenz ist stark und reif (L1, mehrere abgeschlossene Phase-3-RCTs plus 60 Studien und eine breite Literaturbasis), aber dies spiegelt weitgehend die bereits etablierte Rolle von Insulin aspart bei Typ-1-Diabetes wider, anstatt eine echte Neupositionierungsmöglichkeit zu identifizieren. Noch wichtiger ist, dass eine **kritische** Datenlücke bei der Arzneimittelkennzeichnungssicherheit (Warnungen/Kontraindikationen) bedeutet, dass der Kandidat die anfängliche Sicherheitsüberprüfung (S1) noch nicht bestehen kann, und es derzeit keine Marktgenehmigung in dieser Rechtsordnung gibt, um einen Regulierungspfad zu verankern.
+Die Evidenz für Typ-1-Diabetes ist stark (mehrere abgeschlossene Phase-3-Studien, Cochrane-Übersicht). Es handelt sich aber um eine bereits etablierte Indikation und nicht um echtes Repurposing. Zudem sind alle deutschen Zulassungen in den Daten als aufgehoben geführt, sodass der aktuelle Zulassungs- und Verfügbarkeitsstatus vor einer Empfehlung geprüft werden muss.
 
-**Zum Fortfahren ist Folgendes erforderlich:**
-- Abruf und Analyse der offiziellen Gebrauchsinformation (Warnungen, Kontraindikationen) zur Schließung von DG001 (Kritisch)
-- Erhalten Sie DrugBank/Wirkmechanismus-Details, um DG002 (Hoch) zu schließen und die formale Mechanismusbegründung zu unterstützen
-- Bestätigen Sie den tatsächlichen lokalen regulatorischen/Zulassungsstatus, da `market_status: Not marketed` mit dem Zulassungsstatus von Insulin aspart in den meisten anderen Märkten kollidiert
-- Klären Sie mit den Beteiligten, ob dieser Kandidat als „Bestätigungsvalidierung" anstatt als echte Neupositionierungsmöglichkeit verfolgt werden sollte, da sich die ursprüngliche und prognostizierte Indikation weitgehend überschneiden
+**Für das weitere Vorgehen sind erforderlich:**
+- Überprüfung des aktuellen Zulassungs- und Marktstatus in Deutschland (BfArM/EMA)
+- Beschaffung und Auswertung der Fachinformation zu Warnhinweisen und Gegenanzeigen
+- Daten zum Wirkmechanismus aus DrugBank
 
+**Hinweis zu weiteren vorhergesagten Indikationen:** Für permanenten neonatalen Diabetes mellitus und Pankreasagenesie ist Insulinersatz mechanistisch sinnvoll, die Evidenz ist aber nur indirekt (Forschungsfrage). Die übrigen Vorhersagen (z. B. autoimmune Oophoritis, Stiff-Person-Syndrom, lokalisierte Lipodystrophie) haben keine belastbare Evidenz bzw. keinen plausiblen Mechanismus. Bei der arzneimittelinduzierten Lipodystrophie ist Insulin sogar die Ursache und nicht die Therapie. Für diese gilt: Hold.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

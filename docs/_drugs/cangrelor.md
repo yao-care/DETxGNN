@@ -2,7 +2,7 @@
 layout: default
 title: Cangrelor
 parent: Nur Modellvorhersage (L5)
-nav_order: 84
+nav_order: 95
 evidence_level: L5
 indication_count: 0
 ---

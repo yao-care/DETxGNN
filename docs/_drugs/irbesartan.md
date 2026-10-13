@@ -2,7 +2,7 @@
 layout: default
 title: Irbesartan
 parent: Nur Modellvorhersage (L5)
-nav_order: 212
+nav_order: 248
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,76 +29,106 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-# Irbesartan: Vom Bluthochdruck zur malignen hypertensiven Nierenkrankheit
+# Irbesartan: Von Hypertonie zu malignem hypertensivem Nierenleiden
 
 ## Zusammenfassung in einem Satz
 
-Irbesartan ist ein Angiotensin-II-Rezeptorblocker (ARB), dessen etablierte Pharmakologie sich auf die Behandlung von Hypertonie durch Blockade des AT1-Rezeptors und Unterdrückung der RAAS-Aktivität konzentriert. Das TxGNN-Modell sagt eine mögliche neue Anwendung bei **maligner hypertensiver Nierenkrankheit** voraus, aber diese Vorhersage wird derzeit durch **0 klinische Studien** und **0 Publikationen** gestützt, was sie in diesem Stadium zu einer reinen modellgestützten Hypothese macht.
+Irbesartan ist ein Angiotensin-II-Rezeptorblocker (AT1-Antagonist), der ursprünglich zur Behandlung der **Hypertonie** zugelassen wurde.
+Das TxGNN-Modell sagt voraus, dass er bei **malignem hypertensivem Nierenleiden** wirksam sein könnte.
+Für diese Indikation liegen jedoch **keine klinischen Studien** und **keine Publikationen** vor – die Aussage beruht ausschließlich auf der Modellvorhersage.
 
 ---
 
 ## Schnellübersicht
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Hypertonie (basierend auf Irbesartans bekannter ARB-Klassifizierung; nicht explizit erfasst im Feld `original_indications` dieses Evidence-Pakets) |
-| Vorhergesagte neue Indikation | Maligne hypertensive Nierenkrankheit |
-| TxGNN-Vorhersage-Score | 99.31% |
-| Evidenzebene | L5 |
-| Taiwan-Marktstatus | Nicht zugelassen (Nicht zugelassen) |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Halten |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Hypertonie |
+| Vorhergesagte neue Indikation | Malignes hypertensives Nierenleiden |
+| TxGNN-Vorhersagewert | 99,31 % |
+| Evidenzgrad | L5 |
+| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassungen (keine gültige Zulassung) |
+| Anzahl der Zulassungen | 10 (alle erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage begründet?
+## Warum ist diese Vorhersage plausibel?
 
-Formale Daten zum Wirkmechanismus von DrugBank stellen derzeit eine Datenlücke (DG002) in diesem Evidence-Paket dar. Basierend auf der mechanistischen Begründung, die die Vorhersage begleitet, ist Irbesartan ein AT1-Rezeptor-Antagonist (ARB), der den intraglomerulären Druck senkt und die Proteinurie reduziert, indem die Angiotensin-II-Aktivität blockiert wird – ein Wirkmechanismus mit etablierter pharmakologischer Grundlage bei allgemeiner hypertensiver Nephropathie (z. B. diabetische Nephropathie).
+Detaillierte Daten zum Wirkmechanismus liegen für diesen Bericht derzeit nicht vor. Bekannt ist, dass Irbesartan zur Klasse der AT1-Rezeptorantagonisten gehört. Seine Wirksamkeit bei Hypertonie ist belegt, und die Blockade des Renin-Angiotensin-Systems kann den intraglomerulären Druck und Nierenschäden verringern.
 
-Die maligne hypertensive Nierenkrankheit ist jedoch eine akute Notfallerkrankung, die eine schnelle Blutdruckkontrolle neben oft steil abfallenden Nierenfunktion erfordert. ARBs haben einen relativ langsamen Wirkeintritt, und angesichts einer akut sich verschlechternden Nierenfunktion birgt die RAAS-Blockade das Risiko von Hyperkaliämie und weiterem GFR-Rückgang. Der TxGNN-Score scheint daher eher eine allgemeine RAAS-Pfad-Assoziation widerzuspiegeln als eine validierte klinische Möglichkeit, und – bemerkenswert – die begleitende Begründung für verwandte Vorhersagen (z. B. maligne renovaskuläre Hypertonie) kennzeichnet die ARB-Anwendung in diesem Kontext explizit als potentielle **Sicherheitsbedenken** statt als therapeutisches Signal, da die ARB/ACEi-Blockade der kompensatorischen efferenten arteriellen Konstriktion bei renovaskulärer Erkrankung akutes Nierenversagen auslösen kann.
+Die Vorhersage ist daher biologisch kohärent: Malignes hypertensives Nierenleiden ist eine Folge schwerer, anhaltender Blutdruckerhöhung mit Nierenbeteiligung, und das Renin-Angiotensin-System spielt dabei eine zentrale Rolle. Die Einschränkung: Die maligne Hypertonie ist überwiegend ein akutes Krankheitsbild, das mit schnell wirksamen Substanzen behandelt wird. Das begrenzt die praktische Eignung eines oralen ARB.
 
-Angesichts der völligen Abwesenheit von klinischen Studien oder Literatur, die speziell Irbesartan in dieser Indikation bewerten, sollte diese Vorhersage als eine vom Modell generierte Pathway-Hypothese interpretiert werden, nicht als Hinweis auf therapeutischen Nutzen.
-
----
-
-## Evidence aus klinischen Studien
-
-Derzeit keine verwandten klinischen Studien registriert.
+Weitere Vorhersagen des Modells (jeweils ohne klinische Evidenz):
+- **Maligne renovaskuläre Hypertonie** (Score 99,31 %, L5): Mechanistisch plausibel, aber ARB können bei beidseitiger Nierenarterienstenose oder Stenose bei Einzelniere ein akutes Nierenversagen auslösen – ein erhebliches Sicherheitsrisiko.
+- **Pulmonale Hypertonie mit unklarem multifaktoriellem Mechanismus** (Score 99,25 %, L5): Theoretisch über Angiotensin II und pulmonalvaskuläres Remodeling begründbar, Mechanismus aber schwer eingrenzbar.
+- **Pulmonale Hypertonie infolge Lungenerkrankung und/oder Hypoxie** (Score 99,25 %, L4): Präklinische Daten (siehe unten) deuten auf einen Schutz vor hypoxiebedingten Schäden hin.
 
 ---
 
-## Literaturgestützte Evidenz
+## Klinische Evidenz
 
-Derzeit keine verwandte Literatur verfügbar.
+Derzeit sind keine einschlägigen klinischen Studien registriert.
 
 ---
 
-## Taiwan-Marktinformation
+## Literaturevidenz
 
-Irbesartan ist derzeit **nicht zugelassen** in Taiwan (0 Zulassungen im Datensatz). Keine Lizenz- oder produktbezogenen Daten sind in diesem Evidence-Paket verfügbar.
+Für die vorrangige Vorhersage (malignes hypertensives Nierenleiden) liegt derzeit keine einschlägige Literatur vor.
+
+Zur Einordnung: Für die Vorhersage **pulmonale Hypertonie infolge Lungenerkrankung/Hypoxie** wurden ausschließlich indirekte, überwiegend präklinische Arbeiten gefunden:
+
+| PMID | Jahr | Typ | Journal | Kernaussagen |
+|------|-----|------|------|---------|
+| [35288835](https://pubmed.ncbi.nlm.nih.gov/35288835/) | 2022 | Review | Inflammopharmacology | Pleiotrope Effekte von AT1-Antagonisten bei Hypoxie durch kardiale Ischämie |
+| [34147903](https://pubmed.ncbi.nlm.nih.gov/34147903/) | 2021 | Präklinisch (Ratte) | Biomed Pharmacother | Irbesartan verbessert Lungenarterienläsionen bei chronischer Höhenkrankheit im Rattenmodell über den Cholesterinstoffwechsel |
+| [34286497](https://pubmed.ncbi.nlm.nih.gov/34286497/) | 2021 | Präklinisch (Ratte) | Eur Rev Med Pharmacol Sci | Irbesartan verbessert oxidativen Stress bei Höhenlungenhochdruck, vermittelt über die Darmflora |
+| [34626328](https://pubmed.ncbi.nlm.nih.gov/34626328/) | 2022 | Präklinisch (Tier/Zelle) | Sleep Breath | Irbesartan mindert schlafapnoeinduzierte kardiale Apoptose |
+| [30356256](https://pubmed.ncbi.nlm.nih.gov/30356256/) | 2018 | Präklinisch (in vitro) | PLoS One | Schutzwirkung von Irbesartan in Kardiomyozyten unter hypoxischem Stress |
+| [17142340](https://pubmed.ncbi.nlm.nih.gov/17142340/) | 2007 | Präklinisch (Tier) | Am J Physiol Heart Circ Physiol | Irbesartan hemmt die durch chronische intermittierende Hypoxie stimulierte Koronarangiogenese bei neugeborenen Ratten |
+| [15526904](https://pubmed.ncbi.nlm.nih.gov/15526904/) | 2004 | Präklinisch (Tier) | Renal Failure | Irbesartan mildert die Ciclosporin-Nephrotoxizität (nur indirekter Bezug) |
+
+Mehrere weitere gefundene Arbeiten sind nicht einschlägig (Kräuterextrakt-Studien, ein Roxadustat-Fallbericht) und wurden nicht berücksichtigt.
+
+---
+
+## Informationen zum deutschen Markt
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/001093 | Irbesartan Teva | – | Hypertonie |
+| EMEA/H/C/000785 | Irbesartan Zentiva (zuvor Irbesartan Winthrop) | – | Hypertonie |
+| EMEA/H/C/000141 | Aprovel | – | Hypertonie |
+| EMEA/H/C/000142 | Karvea | – | Hypertonie |
+| EMEA/H/C/000962 | Ifirmasta (zuvor Irbesartan Krka) | – | Hypertonie |
+
+Alle 10 erfassten Zulassungen sind erloschen; derzeit besteht keine gültige Zulassung.
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Fachinformation für Sicherheitsinformationen. Eine blockierende Datenlücke (DG001) wurde identifiziert: TFDA-Fachinformations-Warnungen/Kontraindikationen wurden noch nicht abgerufen, was den Eintritt in die S1-Sicherheits-Vorprüfungsphase verhindert. Es wurden keine Arzneimittel-Wechselwirkungs-Datensätze gefunden (`query_status: not_found`).
+- **Kontraindikationen aus dem Wissensgraphen** (TxGNN/PrimeKG, kein Packungsbeilagentext): Pankreatitis, Angioödem (auch hereditär und ARB-/RAAS-Blocker-induziert), systemischer Lupus erythematodes, Myopathie/Muskelerkrankungen, familiäre periodische Paralyse, Kaliummangel, Diabetes mellitus und diabetische Ketoazidose, Hypotonie, Hyperparathyreoidismus, hepatisches Koma/hepatische Enzephalopathie, Neugeborenenikterus, Anurie, Gicht, Hyperkalzämie, Nephrokalzinose, Störungen des Phosphorstoffwechsels, Nierenarterienverschluss, Rhabdomyolyse.
+- **Arzneimittelwechselwirkungen**: 100 Wechselwirkungen erfasst. Als **schwerwiegend (Major)** eingestuft sind u. a. **Kaliumcitrat** und **Kaliumbicarbonat** (Gefahr der Hyperkaliämie). Mäßig (Moderate) eingestuft sind u. a. Kortikosteroide (Hydrocortison, Dexamethason, Betamethason, Budesonid, Triamcinolon), Acetylsalicylsäure, Morphin, SGLT2-Hemmer (Canagliflozin, Dapagliflozin, Empagliflozin), Insuline (Aspart, Degludec), Bupropion, Aprepitant und Dronabinol.
+- **Indikationsspezifisch**: Bei renovaskulärer Hypertonie besteht bei beidseitiger Nierenarterienstenose bzw. Stenose bei Einzelniere das Risiko eines akuten Nierenversagens.
+
+Die Warnhinweise und Kontraindikationen der Packungsbeilage konnten nicht ausgewertet werden; bitte die Fachinformation heranziehen.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Halten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die vorhergesagte Indikation wird nur durch L5 (nur modellgestützte Vorhersage) mit null unterstützenden klinischen Studien oder Literatur gestützt, das Arzneimittel ist derzeit in Taiwan nicht zugelassen, und eine blockierende Sicherheits-Datenlücke (TFDA-Kennzeichnung) verhindert eine formale Sicherheits-Vorprüfung. Darüber hinaus wirft die mechanistische Begründung selbst eher Vorsicht als Zuversicht auf, angesichts bekannter Risiken der RAAS-Blockade bei akutem/renovaskulärem Nierenkompromiss.
+Die Vorhersage ist mechanistisch plausibel, stützt sich aber ausschließlich auf das Modell (Evidenzgrad L5) ohne klinische Studien oder Publikationen. Zudem besteht derzeit in Deutschland keine gültige Zulassung, und die maligne Hypertonie wird überwiegend akut mit schnell wirksamen Substanzen behandelt.
 
-**Um fortzufahren, ist folgendes erforderlich:**
-- TFDA-Fachinformation (Warnungen, Kontraindikationen) abrufen, um die blockierende Datenlücke DG001 zu beheben
-- Formalen DrugBank-MOA-Datensatz bestätigen, um die Datenlücke DG002 zu beheben
-- Gezielt Literatur-/klinische Studien-Suche speziell zu Irbesartan (oder ARB-Klasse) bei maligner hypertensiver Nierenkrankheit und renovaskulärer Hypertonie-Populationen
-- Nierenfunktions- und Kalium-Überwachungsprotokoll, angesichts des mechanistischen Risikos der RAAS-Blockade bei akutem Nierenkompromiss
-- Routenkompatibilitäts-Bewertung (derzeit als „pending" im Evidence-Paket markiert)
-
+**Für ein Weiterkommen sind erforderlich:**
+- Auswertung der Warnhinweise und Kontraindikationen aus der Fachinformation (BfArM) – derzeit blockierende Datenlücke für die Sicherheitsprüfung
+- Daten zum Wirkmechanismus (z. B. aus DrugBank)
+- Systematische Literatur- und Studiensuche speziell zu malignem hypertensivem Nierenleiden
+- Klärung des Zulassungs- und Marktstatus in Deutschland
+- Bei der Indikation pulmonale Hypertonie (Hypoxie): Überprüfung, ob sich aus den präklinischen Daten eine konkrete Forschungsfrage ableiten lässt (Evidenzgrad L4, Einstufung „Research Question")
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

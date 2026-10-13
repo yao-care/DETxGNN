@@ -2,7 +2,7 @@
 layout: default
 title: Ziconotide
 parent: Mittlere Evidenz (L3-L4)
-nav_order: 433
+nav_order: 506
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,84 +29,85 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Ziconotide: Vom unzureichend dokumentierten ursprünglichen Indikationsgebiet zur vorhergesagten Migräne
+# Ziconotid: Von Schmerz (intrathekale Anwendung) zu Migräne
 
 ## Zusammenfassung in einem Satz
 
-> Ziconotide (DrugBank DB06283) ist ein Blocker des N-Typ-(Cav2.2)-spannungsgesteuerten Calciumkanals; sein offiziell zugelassenes Indikationsgebiet und der Text zum Wirkmechanismus sind in diesem Evidenzpaket nicht verfügbar, und das Arzneimittel ist derzeit **nicht auf dem deutschen Markt erhältlich**.
-> Das TxGNN-Modell prognostiziert, dass es bei **Migränestörungen** wirksam sein könnte, mit einer Vorhersagequote von **99,92%**, aber dies wird derzeit nur durch **0 klinische Studien** und **1 Fallbericht** gestützt.
+Ziconotid ist ein selektiver N-Typ-Calciumkanal-Blocker, der ursprünglich als Injektion in den Spinalraum (intrathekal) zur Behandlung von Schmerzen zugelassen wurde.
+Das TxGNN-Modell sagt voraus, dass er bei **Migräne (migraine disorder)** wirksam sein könnte.
+Die Evidenz ist bislang dünn: **keine klinischen Studien** und **1 Fallbericht** zur chronischen Migräne (insgesamt 3 relevante Publikationen, wenn man die verwandte Migräne-Suszeptibilitäts-Indikation einbezieht).
 
 ---
 
 ## Schnellübersicht
 
-| Element | Inhalt |
-|--------|--------|
-| Ursprüngliches Indikationsgebiet | Keine Daten verfügbar – Arzneimittel nicht auf dem deutschen Markt, kein zugelassener Indikationstext dokumentiert (Datenlücke) |
-| Vorhergesagtes neues Indikationsgebiet | Migränestörungen |
-| TxGNN-Vorhersagequote | 99,92% |
-| Evidenzstufe | L4 |
-| Marktstatus Deutschland | ✗ Nicht erhältlich |
-| Anzahl der Genehmigungen | 0 |
-| Empfohlene Entscheidung | Halten |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Injektionen, spinal; Schmerz |
+| Vorhergesagte neue Indikation | Migräne (migraine disorder) |
+| TxGNN-Vorhersagewert | 99,92 % |
+| Evidenzgrad | L4 |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung (Cancelled only) |
+| Anzahl der Zulassungen | 1 (zentrale EU-Zulassung, aufgehoben) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage sinnvoll?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Wirkmechanismus-Daten in diesem Evidenzpaket nicht verfügbar (gekennzeichnet als Datenlücke DG002, Schweregrad Hoch). Basierend auf der für diesen Kandidaten erfassten Literatur wird Ziconotide als Blocker des N-Typ-(Cav2.2)-spannungsgesteuerten Calciumkanals beschrieben, verabreicht intrathekale für die Behandlung von schweren chronischen Schmerzen – diese Beschreibung stammt aus einem Fallbericht (PMID 26392785) und nicht aus einer offiziellen Marktzulassungsquelle und sollte nur als unterstützendes Kontext-Material behandelt werden, nicht als bestätigte Verschreibungsinformation.
+Ziconotid blockiert selektiv N-Typ-Calciumkanäle (Cav2.2). Dadurch wird die Freisetzung nozizeptiver Neurotransmitter wie Substanz P, CGRP und Glutamat im Hinterhorn des Rückenmarks und in den trigeminalen Bahnen gehemmt. Detaillierte Mechanismusdaten aus der Arzneimitteldatenbank liegen in den für diesen Bericht zusammengestellten Daten nicht vor; die obige Beschreibung stammt aus der mechanistischen Begründung der Vorhersage.
 
-Die vorgeschlagene Begründung für Migräne ist eher mechanistisch als klinisch: N-Typ-Calciumkanäle im Dorsalhorn regulieren die Freisetzung von Substanz P und CGRP, und CGRP-Signalisierung ist zentral für die Pathophysiologie der Migräne über das trigeminovaskuläre System. Theoretisch könnte eine intrathekale Calciumkanal-Blockade diesen Schmerzsignalisierungsweg abschwächen. Dies bleibt jedoch eine einzelne Fallbeobachtung mit Hypothesen-generierendem Charakter – es gibt eine erhebliche praktische Lücke zwischen Ziconotides einzig zugelassener Verabreichungsroute (implantierte intrathekale Pumpe) und der standardmäßigen Migränetherapie-Praxis (orale, injizierbare oder nasale Therapien), was die klinische Anwendbarkeit einschränkt, selbst wenn die mechanistische Hypothese in die richtige Richtung weist.
+Die ursprüngliche Indikation (schwere chronische Schmerzen) und Migräne teilen eine gemeinsame Schmerzbiologie: Trigeminovaskuläre Aktivierung und zentrale Sensibilisierung spielen bei der Migräne eine zentrale Rolle, und CGRP ist ein etablierter Migräne-Mediator. Ein Wirkstoff, der die Freisetzung dieser Mediatoren dämpft, ist daher mechanistisch denkbar.
 
----
-
-## Klinische Studien-Evidenz
-
-Derzeit keine damit verbundenen klinischen Studien registriert
+Wichtig: Die Unterstützung beschränkt sich auf einen einzelnen Fallbericht mit intrathekaler Gabe. Kontrollierte Daten fehlen vollständig.
 
 ---
 
-## Literatur-Evidenz
+## Evidenz aus klinischen Studien
 
-| PMID | Jahr | Publikationstyp | Fachzeitschrift | Wesentliche Ergebnisse |
-|-----|------|---------|---------|---------|
-| [26392785](https://pubmed.ncbi.nlm.nih.gov/26392785/) | 2015 | Fallbericht | Journal of Pain Research | Einzelner Fall der Remission von chronischen Migränekopfschmerzen nach intrathekaler Ziconotide-Gabe, dargestellt als Off-Label-Beobachtung bei einem Patienten mit chronischen schweren Schmerzen |
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Marktsituation Deutschland
+## Evidenz aus der Literatur
 
-Keine Genehmigungen dokumentiert. Ziconotide ist derzeit **nicht auf dem deutschen Markt erhältlich** (`market_status: Not marketed`, `total_licenses: 0`), daher kann keine Produkt-/Indikations-Tabelle aus diesem Evidenzpaket generiert werden.
+| PMID | Jahr | Typ | Journal | Kernaussagen |
+|------|-----|------|------|---------|
+| [26392785](https://pubmed.ncbi.nlm.nih.gov/26392785/) | 2015 | Fallbericht | Journal of Pain Research | Rückbildung chronischer Migränekopfschmerzen unter intrathekalem Ziconotid |
+| [35505713](https://pubmed.ncbi.nlm.nih.gov/35505713/) | 2022 | Review/fallbasierte Diskussion | Cureus | Intrathekales Ziconotid als mögliche Behandlung bei chronischer, therapierefraktärer Migräne |
+| [41628204](https://pubmed.ncbi.nlm.nih.gov/41628204/) | 2026 | Review | Pain Physician | Narrative Übersicht zur Auswahl von Neuromodulationsverfahren bei chronischen Schmerzen (indirekter Bezug) |
+
+---
+
+## Marktinformationen Deutschland
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000551 | Prialt | – | Injektionen, spinal; Schmerz (Status: aufgehoben) |
 
 ---
 
 ## Sicherheitsaspekte
 
-Weitere Informationen finden Sie in der Gebrauchsinformation.
-
-*Hinweis: Das Sicherheitsmodul in diesem Evidenzpaket (wichtige Warnhinweise, Kontraindikationen, Arzneimittel-Wechselwirkungen) ist vollständig leer und ist als **Blockierendes** Datenproblem gekennzeichnet (DG001 – Warnhinweise und Kontraindikationen der deutschen Zulassung). Dies bedeutet, dass eine formale Sicherheitsvorbewertung der Stufe S1 nicht durchgeführt werden kann, bis Angaben der Gebrauchsinformation eingegangen sind.*
-
----
-
-## Zusätzlicher Hinweis zu niedriger bewerteten Vorhersagen
-
-Neun weitere TxGNN-prognostizierte Indikationen (Migräne mit Hirnstammaurasymptomen, Cauda-equina-Syndrom, Adipositas, TIA, Glaukom-Subtypen, neurogene Blasenentleerungsstörung, Migräneanfälligkeit, Präeklampsie) wurden ebenfalls generiert, alle mit Evidenzstufe L5 (nur Modellvorhersage, keine klinischen Studien oder direkt relevante Literatur) und alle mit der Markierung **Halten** versehen. Eine davon – das **Cauda-equina-Syndrom** – verdient ausdrückliche Vorsicht: Diese Erkrankung ist eine bekannte unerwünschte Ereignisassoziation bei der intrathekalen Ziconotide-Pumpentherapie, kein therapeutisches Ziel. Sie sollte als Sicherheitssignal-Artefakt aus dem Wissensgraph behandelt werden und nicht als Kandidat für Umwidmung.
+- **Kontraindikationen laut Wissensgraph (keine Packungsbeilage):** Im TxGNN-Wissensgraphen sind Kontraindikationsbeziehungen zu folgenden Erkrankungen hinterlegt: psychotische Störung, schizophreniforme Störung, psychische Störung, schizoaffektive Störung sowie Blutgerinnungsstörung.
+- **Arzneimittelwechselwirkungen:** Es wurden 48 Wechselwirkungen erfasst, alle in der vorliegenden Auswahl mit Schweregrad „moderat". Zu den wichtigsten zählen Opioide (Morphin, Codein, Hydrocodon, Opium, Diphenoxylat, Difenoxin), Cannabinoide (Dronabinol, Nabilon), Metoclopramid, Sibutramin, Ethanol sowie sedierende Antihistaminika (Promethazin, Chlorphenamin, Cetirizin, Azelastin nasal, Brompheniramin, Carbinoxamin, Clemastin) und Dextromethorphan. Überwiegend ist eine additive zentralnervöse Dämpfung zu erwarten.
+- Angaben zu Warnhinweisen und Kontraindikationen aus der Fachinformation liegen nicht vor. Bitte die Fachinformation zu Rate ziehen.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Halten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die Top-Vorhersage (Migränestörungen) basiert auf einem einzelnen Fallbericht ohne unterstützende klinische Studien, und das ursprüngliche Indikationsgebiet, der Wirkmechanismus und die Sicherheitsdaten des Arzneimittels fehlen alle in diesem Evidenzpaket – einschließlich einer Datenlücke mit **Blockiertem** Schweregrad, die sogar eine vorläufige Sicherheitsbewertung (S1) verhindert. Die einzige zugelassene Verabreichungsroute (intrathekale Pumpe) ist auch schlecht mit der standardmäßigen Migränetherapie vereinbar.
+Die Vorhersage stützt sich auf einen hohen Modellwert und einen einzelnen Fallbericht sowie indirekte Übersichtsarbeiten; es gibt keine klinischen Studien. Zudem ist die Zulassung in Deutschland/EU aufgehoben, die intrathekale Gabe ist invasiv, und die Sicherheitsdaten aus der Fachinformation fehlen (Blockade für die Sicherheitsprüfung).
 
-**Um fortfahren zu können, ist Folgendes erforderlich:**
-- Abruf der offiziellen Gebrauchsinformation/Warnhinweise und Kontraindikationen von der zuständigen Zulassungsbehörde (Behebung von DG001) zur Freigabe der S1-Sicherheitsprüfung
-- Abruf des bestätigten ursprünglichen Indikationsgebiets und des Wirkmechanismus aus DrugBank oder der offiziellen Gebrauchsinformation (Behebung von DG002)
-- Identifizierung zusätzlicher Fallserien oder präklinischer mechanistischer Studien, die eine N-Typ-Calciumkanal-Blockade speziell mit der Migränepathophysiologie verknüpfen
-- Bewertung der Machbarkeit einer mit der Verabreichungsroute kompatiblen Formulierung (aktuelle Evidenz ist intrathekale-nur; Migränetherapie-Standards erfordern nicht-invasive Routen), bevor weitere Entwicklungsschritte in Betracht gezogen werden
-
+**Für das weitere Vorgehen ist Folgendes erforderlich:**
+- Fachinformation (Warnhinweise, Kontraindikationen) beschaffen und auswerten – derzeit blockierend
+- Detaillierte Mechanismusdaten (MOA) aus DrugBank ergänzen
+- Systematische Literaturrecherche und ggf. kontrollierte Studien zur Wirksamkeit bei chronischer Migräne planen
+- Nutzen-Risiko-Bewertung der invasiven intrathekalen Gabe (neuropsychiatrische Nebenwirkungen, Kontraindikation bei psychischen Störungen) gegenüber bestehenden Migränetherapien
+- Klärung der Zulassungs- und Verfügbarkeitssituation, da der Wirkstoff aktuell nur mit aufgehobener Zulassung geführt wird
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

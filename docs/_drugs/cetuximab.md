@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Cetuximab
-parent: Hohe Evidenz (L1-L2)
-nav_order: 99
-evidence_level: L2
+parent: Nur Modellvorhersage (L5)
+nav_order: 111
+evidence_level: L5
 indication_count: 10
 ---
 
 # Cetuximab
 {: .fs-9 }
 
-Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,131 +29,158 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Cetuximab: Von der EGFR-gezielten Krebstherapie zur zystischen Neoplasie (Speicheldrüsen-Adenoidzystisches Karzinom/Mukoepidermoidkarzinom)
+# Cetuximab: Von Kopf-Hals- und Kolorektalkarzinom zu Chondroid-Hamartom (Top-Vorhersage) – mit Schwerpunkt auf besser belegten Kandidaten
 
-## Zusammenfassung in einem Satz
+## Kurzzusammenfassung
 
-> Dieses Evidenzpaket bewertet **10 von TxGNN vorhergesagte Indikationen** für cetuximab, einen anti-EGFR-Monoklonalantikörper. Die Literatur des Evidenzpakets (PMID 39415301) bestätigt, dass die etablierte Anwendung von cetuximab "**Plattenepithelkarzinom des Kopf-Hals-Bereichs und metastasiertes kolorektales Karzinom**" ist.
-> Von den 10 Kandidaten sind die meisten (7/10) reine Modellvorhersagen ohne **unterstützende Studien oder Literatur** (Evidenzstufe L5, Zurückstellung). Der stärkste Kandidat ist **Zystische Neoplasie** — speziell adenoidzystisches Karzinom der Speicheldrüsen / Mukoepidermoidkarzinom — unterstützt durch **5 klinische Studien und 6+ relevante Publikationen**, erreicht Evidenzstufe **L2**.
-> Eine **blockierende Datenlücke** (fehlende TFDA/BfArM-Label-Sicherheitsdaten) verhindert jedoch, dass ein Kandidat in die formale Sicherheitsvorbewertung (S1) eintritt, daher lautet die Gesamtempfehlung **Zurückstellung** auf Arzneistoffebene.
+Cetuximab ist ein gegen den EGF-Rezeptor (EGFR) gerichteter Antikörper, der ursprünglich zur Behandlung von Kopf-Hals-Tumoren und kolorektalen Tumoren zugelassen wurde.
+Das TxGNN-Modell sagt für den Spitzenkandidaten **Chondroid-Hamartom** einen sehr hohen Score voraus, jedoch ohne jegliche klinische Studien oder Publikationen. Besser belegt sind die Kandidaten **zystische Neoplasie** (insbesondere adenoid-zystisches Karzinom, **4 Studien**, **20 Publikationen**) und **prämaligne Neoplasie** (**4 Studien**, **2 Publikationen**).
 
 ---
 
-## Schnellübersicht (Primärer Kandidat: Zystische Neoplasie)
+## Schnellübersicht
 
-| Element | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Im Datensatz nicht formal dokumentiert (`original_indications` leer; `original_moa` = Datenlücke). Nach der Literatur des Evidenzpakets (PMID 39415301) ist cetuximab dokumentiert als "zur Behandlung von Plattenepithelkarzinom des Kopf-Hals-Bereichs und metastasiertem kolorektalem Karzinom verwendet". |
-| Vorhergesagte neue Indikation | Zystische Neoplasie (Rang 9) — die unterstützenden Belege beziehen sich hauptsächlich auf adenoidzystisches Karzinom (ACC) und Mukoepidermoidkarzinom (MEC) der Speicheldrüsen |
-| TxGNN-Vorhersage-Score | 99,95% (Score 0.999487, Modellrang 921) |
-| Evidenzstufe | L2 |
-| Status auf dem deutschen Markt | ✗ Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | **Zurückstellung** (blockiert durch fehlende Sicherheits-/Label-Daten, siehe unten) |
+| Ursprüngliche Indikation | Kopf-Hals-Tumoren; kolorektale Tumoren |
+| Vorhergesagte neue Indikation (Rang 1) | Chondroid-Hamartom |
+| TxGNN-Vorhersagewert (Rang 1) | 99,95 % |
+| Evidenzniveau (Rang 1) | L5 |
+| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
+| Anzahl der Zulassungen | 1 (0 gültig, 1 erloschen) |
+| Empfohlene Entscheidung | Hold |
+
+Weitere Kandidaten im Überblick:
+
+| Rang | Indikation | TxGNN-Score | Evidenzniveau | Empfehlung |
+|------|------|------|------|------|
+| 3 | Duktale/duktuläre Proliferation (vermutlich Pankreas-Adenokarzinom) | 99,95 % | L4 | Hold |
+| 6 | Odontogene Zyste | 99,95 % | L4 | Hold |
+| 9 | Zystische Neoplasie | 99,95 % | L2 | Forschungsfrage |
+| 10 | Prämaligne Neoplasie | 99,95 % | L2 | Forschungsfrage |
+
+Die übrigen Kandidaten (Rang 2, 4, 5, 7, 8) stützen sich ausschließlich auf die Modellvorhersage (L5).
 
 ---
 
-## Alle 10 vorhergesagten Indikationen — Portfolioübersicht
+## Warum ist diese Vorhersage plausibel?
 
-Da dieses Evidenzpaket eine Multi-Kandidaten-Rangliste abdeckt (`TW-DB00002-multi`), wird die vollständige Landschaft zusammengefasst, bevor wir zum stärksten Kandidaten übergehen:
+Für diesen Bericht liegen derzeit keine detaillierten Daten zum Wirkmechanismus vor. Bekannt ist, dass Cetuximab ein Antikörper gegen den EGFR ist und bei EGFR-exprimierenden Kopf-Hals- und kolorektalen Tumoren eingesetzt wird. Mechanistisch kommt es daher vor allem für EGFR-abhängige Epithelumoren in Betracht.
 
-| Rang | Erkrankung | TxGNN-Score | Evidenzstufe | Entscheidungsphase | Empfehlung |
-|------|---------|-------------|-----------------|-----------------|-----------------|
-| 1 | Chondroides Hamartom | 99,95% | L5 | S0 | Zurückstellung |
-| 2 | Non-seminomatöse Läsion | 99,95% | L5 | S0 | Zurückstellung |
-| 3 | Duktale oder duktulare Proliferation | 99,95% | L5 | S0 | Zurückstellung (20 mechanistische Leberfibrose-Arbeiten, keine arzneimittelbezogenen) |
-| 4 | Bronchiale Adenome/Karzinoide (Kindesalter) | 99,95% | L5 | S0 | Zurückstellung |
-| 5 | Tumor des Hodens und der Paratestis | 99,95% | L5 | S0 | Zurückstellung |
-| 6 | Odontogene Zyste | 99,95% | L4 | S0 | Zurückstellung (2 indirekte Fallberichte) |
-| 7 | Ductus-thyreoglossus-Zyste | 99,95% | L5 | S0 | Zurückstellung |
-| 8 | Neoplasie der Epiglottis | 99,95% | L4 | S1 | Forschungsfrage (Klassen-Level-HNSCC-Extrapolation, kein direkter Beweis) |
-| **9** | **Zystische Neoplasie** | **99,95%** | **L2** | **S2** | **Forschungsfrage** (am besten unterstützter Kandidat) |
-| 10 | Prämaligne Neoplasie | 99,95% | L3 | S1 | Forschungsfrage (Chemoprävention-Rationale, Krankheits-Mapping-Mismatch in Studien) |
+Für den Spitzenkandidaten **Chondroid-Hamartom** ist keine EGFR-abhängige Biologie belegt; es handelt sich um eine gutartige Läsion. Dasselbe gilt für nicht-seminomatöse Läsionen, kindliche bronchiale Adenome/Karzinoide und die Thyreoglossus-Zyste. Die Vorhersage ist hier rein statistisch.
 
-**Interpretation:** 7 von 10 Kandidaten sind reine TxGNN-Score-Artefakte ohne stützende Belege und sollten nicht verfolgt werden. Nur die Ränge 8, 9 und 10 rechtfertigen weitere Forschungsaufmerksamkeit, und Rang 9 (Zystische Neoplasie) ist der einzige mit einer abgeschlossenen Phase-II-Studie, die direkt zum Mechanismus relevant ist.
+Plausibler sind zwei andere Kandidaten:
+
+- **Prämaligne Neoplasie:** EGFR ist in prämalignen Läsionen des oberen Aerodigestivtrakts überexprimiert, und die Literatur stützt EGFR-gerichtete Chemoprävention bei Kopf-Hals-Tumoren. Eine abgeschlossene Phase-II-Studie prüfte Cetuximab als Monotherapie bei Hochrisikoläsionen.
+- **Zystische Neoplasie:** Das stärkste Signal betrifft das adenoid-zystische Karzinom und Speicheldrüsenkarzinome, in denen EGFR exprimiert wird. Eine Phase-II-Studie zeigte allerdings nur begrenzte Aktivität.
+
+Beim Kandidaten **duktale Proliferation** (wahrscheinlich Pankreas-Adenokarzinom) sind EGFR- und KRAS-Signalwege relevant, doch KRAS-vermittelte Resistenz gegen Anti-EGFR-Antikörper schwächt die Rationale, und die Zuordnung der Erkrankung ist unklar.
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Klinische Studienevidenz
 
-Detaillierte Wirkmechanismus-Daten für cetuximab sind in diesem Evidenzpaket nicht verfügbar (`original_moa` = Datenlücke). Basierend auf den tatsächlich vorhandenen Inhalten der Studien und Literatur ist cetuximab ein chimärer anti-EGFR-Monoklonalantikörper: mehrere Studienzusammenfassungen in diesem Paket beschreiben ihn als blockierend für die EGFR-Signalisierung, um das Tumorwachstum und die Ausbreitung zu hemmen (z. B. NCT00397384, NCT01637194), und er ist als Behandlung für Plattenepithelkarzinom des Kopf-Hals-Bereichs und metastasiertes kolorektales Karzinom dokumentiert (PMID 39415301).
+**Rang 1 (Chondroid-Hamartom):** Derzeit sind keine zugehörigen klinischen Studien registriert.
 
-Speicheldrüsentumoren — einschließlich adenoidzystisches Karzinom (ACC) und Mukoepidermoidkarzinom (MEC), die beide in die von TxGNN vorhergesagte Kategorie „zystische Neoplasie" fallen — sind in der Evidenzpaket-Literatur bekannt dafür, häufig EGFR überexprimieren (PMID 18804410, PMID 18366287). Dies bietet eine direkte mechanistische Brücke von cetuximabs etablierter EGFR-blockierender Aktivität zu dieser neuen Indikation, unterschiedlich von den rein statistischen, keine-Beweis-Vorhersagen anderswo in diesem Paket (z. B. chondroides Hamartom, Ductus-thyreoglossus-Zyste).
+**Rang 9 – Zystische Neoplasie**
 
-Die unterstützenden Belege umfassen eine abgeschlossene Phase-II-Studie von cetuximab bei rezidivierenden/metastasierten Speicheldrüsen-Karzinomen (PMID 18804410), eine Phase-I/II-Machbarkeitsstudie, die cetuximab mit Partikeltherapie speziell beim adenoidzystischen Karzinom kombiniert (NCT01192087, Relevanzgrad A), und Fallberichte von klinischem Ansprechen bei ACC und MEC (PMID 22144378, PMID 32518035). Dies ist eine wesentlich stärkere Beweisgrundlage als die anderen 9 Kandidaten in diesem Paket.
-
----
-
-## Klinische Studiennachweise (Zystische Neoplasie)
-
-| Studiennummer | Phase | Status | Einschluss | Wichtigste Ergebnisse |
+| Studiennummer | Phase | Status | Teilnehmerzahl | Kernaussagen |
 |---------|------|------|------|---------|
-| [NCT01192087](https://clinicaltrials.gov/study/NCT01192087) | Phase 1/2 | Unbekannt | 49 | ACCEPT-Studie: cetuximab kombiniert mit IMRT plus Kohlenstoff-Ionen-Boost speziell beim adenoidzystischen Karzinom (ACC) — direkt relevant (Relevanzgrad A) |
-| [NCT00397384](https://clinicaltrials.gov/study/NCT00397384) | Phase 1 | Abgeschlossen | 43 | Kombinierte EGFR-Blockade mit Erlotinib und cetuximab bei fortgeschrittenem GI, Kopf & Hals, NSCLC und kolorektalem Karzinom (Relevanzgrad B) |
-| [NCT01637194](https://clinicaltrials.gov/study/NCT01637194) | Phase 1 | Abgeschlossen | 12 | Cetuximab plus Everolimus (RAD001) bei soliden Tumoren, einschließlich Kopf-Hals-Karzinom (Relevanzgrad B) |
-| [NCT00101348](https://clinicaltrials.gov/study/NCT00101348) | Phase 1/2 | Abgeschlossen | 66 | Erlotinib + cetuximab ± Bevacizumab bei Nieren-, Kolorektal-, Kopf-Hals-, Pankreas- und NSCLC (Relevanzgrad B) |
-| [NCT00896896](https://clinicaltrials.gov/study/NCT00896896) | N/A | Abgeschlossen | 538 | Immunreaktivität/Überempfindlichkeit gegen cetuximab bei Kopf-Hals- und kolorektalem Karzinom (Relevanzgrad C, Sicherheits-fokussiert) |
+| [NCT01192087](https://clinicaltrials.gov/study/NCT01192087) | Phase 1/2 | Unbekannt | 49 | Cetuximab mit IMRT und Kohlenstoffionen-Boost beim adenoid-zystischen Karzinom; direkt relevant |
+| [NCT00397384](https://clinicaltrials.gov/study/NCT00397384) | Phase 1 | Abgeschlossen | 43 | Erlotinib plus Cetuximab bei fortgeschrittenen Tumoren; nicht spezifisch |
+| [NCT00101348](https://clinicaltrials.gov/study/NCT00101348) | Phase 1/2 | Abgeschlossen | 66 | Erlotinib, Cetuximab und Bevacizumab bei soliden Tumoren; nur indirekt relevant |
+| [NCT01637194](https://clinicaltrials.gov/study/NCT01637194) | Phase 1 | Abgeschlossen | 12 | Cetuximab plus RAD001 (Everolimus) bei soliden Tumoren; klein, unspezifisch |
+
+**Rang 10 – Prämaligne Neoplasie**
+
+| Studiennummer | Phase | Status | Teilnehmerzahl | Kernaussagen |
+|---------|------|------|------|---------|
+| [NCT00524017](https://clinicaltrials.gov/study/NCT00524017) | Phase 2 | Abgeschlossen | 35 | Cetuximab als Monotherapie bei prämalignen Hochrisikoläsionen des oberen Aerodigestivtrakts; direkt relevant |
+| [NCT00482222](https://clinicaltrials.gov/study/NCT00482222) | Phase 3 | Unbekannt | 340 | Oxaliplatin/Fluoropyrimidin ± Cetuximab bei resektablen kolorektalen Lebermetastasen; Bezug zu prämalignen Läsionen unklar |
+| [NCT00719199](https://clinicaltrials.gov/study/NCT00719199) | Phase 1 | Abgebrochen | 21 | FOLFIRI plus Cetuximab plus IMO-2055 bei kolorektalem Karzinom; kein prämaligner Bezug |
+| [NCT00537823](https://clinicaltrials.gov/study/NCT00537823) | Phase 2 | Abgebrochen | 9 | Kurze neoadjuvante FOLFOX-Therapie vor Leberresektion; schwacher Bezug |
 
 ---
 
-## Literaturbelege (Zystische Neoplasie)
+## Literaturevidenz
 
-| PMID | Jahr | Typ | Zeitschrift | Wichtigste Ergebnisse |
+**Rang 9 – Zystische Neoplasie (Auswahl)**
+
+| PMID | Jahr | Typ | Journal | Kernaussagen |
 |------|-----|------|------|---------|
-| [18804410](https://pubmed.ncbi.nlm.nih.gov/18804410/) | 2009 | Phase-II-Studie | Oral oncology | Cetuximab bei 30 Patienten mit rezidiviertem/metastasiertem Speicheldrüsen-Karzinom (23 ACC, 7 Non-ACC); klinischer Nutzen bewertet basierend auf EGFR-Überexpressions-Rationale |
-| [22144378](https://pubmed.ncbi.nlm.nih.gov/22144378/) | 2013 | Fallbericht | Head & neck | Metastasiertes adenoidzystisches Karzinom der Speicheldrüse, das auf cetuximab plus wöchentliches Paclitaxel anspricht, nach Versagen von Paclitaxel allein |
-| [22246397](https://pubmed.ncbi.nlm.nih.gov/22246397/) | 2012 | Präklinisch | Oncology reports | Cetuximab hemmt das Wachstum von muzinösem Ovarialkarzinom (zystischer Tumor) Zelllinien ohne KRAS-Mutationen |
-| [32518035](https://pubmed.ncbi.nlm.nih.gov/32518035/) | 2020 | Fallbericht | Oral oncology | Cetuximab-Monotherapie bei rezidivierendem hochgradigem Mukoepidermoidkarzinom |
-| [18366287](https://pubmed.ncbi.nlm.nih.gov/18366287/) | 2008 | Übersichtsarbeit | Expert review of anticancer therapy | Systemische Therapien für rezidivierte/metastasierte Speicheldrüsen-Karzinome, einschließlich cetuximab bei ACC |
-| [39415301](https://pubmed.ncbi.nlm.nih.gov/39415301/) | 2024 | Fallbericht | Journal of medical case reports | Erfolgreiche cetuximab-Verabreichung via Dosiseskalation zur Behandlung von Infusionsreaktionen; bestätigt etablierte Anwendung bei HNSCC und metastasiertem kolorektalem Karzinom |
+| [18804410](https://pubmed.ncbi.nlm.nih.gov/18804410/) | 2009 | Phase-II-Studie | Oral Oncology | Cetuximab bei rezidivierenden/metastasierten Speicheldrüsenkarzinomen (30 Patienten, davon 23 adenoid-zystisch); Bewertung des klinischen Nutzens |
+| [30141310](https://pubmed.ncbi.nlm.nih.gov/30141310/) | 2018 | Kohorte | Asian Pac J Cancer Prev | Hautreaktionen und Tumorlokalisation als Prognosefaktoren beim metastasierten kolorektalen Karzinom unter Cetuximab |
+| [21234529](https://pubmed.ncbi.nlm.nih.gov/21234529/) | 2011 | Kohorte | Strahlenther Onkol | IMRT-Rebestrahlung mit Cetuximab bei rezidivierendem Kopf-Hals-Tumor |
+| [32518035](https://pubmed.ncbi.nlm.nih.gov/32518035/) | 2020 | Fallbericht | Oral Oncology | Cetuximab-Monotherapie bei rezidivierendem hochgradigem Mukoepidermoidkarzinom |
+| [39415301](https://pubmed.ncbi.nlm.nih.gov/39415301/) | 2024 | Fallbericht | J Med Case Rep | Erfolgreiche Cetuximab-Gabe per Dosissteigerung bei schweren Infusionsreaktionen |
+| [26245271](https://pubmed.ncbi.nlm.nih.gov/26245271/) | 2016 | Studie | Clin Oral Investig | Phosphorylierte EGFR-Expression und KRAS-Status bei Speicheldrüsenkarzinomen |
+
+**Rang 10 – Prämaligne Neoplasie**
+
+| PMID | Jahr | Typ | Journal | Kernaussagen |
+|------|-----|------|------|---------|
+| [24412287](https://pubmed.ncbi.nlm.nih.gov/24412287/) | 2014 | Review | Oral Oncology | EGFR als Ziel der Chemoprävention bei Kopf-Hals-Tumoren; EGFR-Überexpression in oralen prämalignen Läsionen |
+| [33243986](https://pubmed.ncbi.nlm.nih.gov/33243986/) | 2020 | Review | Nat Rev Dis Primers | Überblick über das Plattenepithelkarzinom im Kopf-Hals-Bereich |
+
+**Rang 3 – Duktale Proliferation (Auswahl)**
+
+| PMID | Jahr | Typ | Journal | Kernaussagen |
+|------|-----|------|------|---------|
+| [35300246](https://pubmed.ncbi.nlm.nih.gov/35300246/) | 2022 | Randomisierte Phase-II-Studie | Clin Transl Radiat Oncol | Langzeitergebnisse von Cetuximab, Gemcitabin und Strahlentherapie beim lokal fortgeschrittenen Pankreaskarzinom (PARC) |
+| [21552097](https://pubmed.ncbi.nlm.nih.gov/21552097/) | 2012 | Phase-II-Studie | Am J Clin Oncol | Gemcitabin, Oxaliplatin und Cetuximab beim fortgeschrittenen Pankreaskarzinom |
+| [22571859](https://pubmed.ncbi.nlm.nih.gov/22571859/) | 2012 | Studie | Ann Oncol | Neoadjuvantes Cetuximab, Gemcitabin und IMRT beim Pankreasadenokarzinom |
+| [27797376](https://pubmed.ncbi.nlm.nih.gov/27797376/) | 2017 | Präklinisch | Oncogene | Cetuximab-Resistenz beim PDAC über Integrin-β1/Src-Akt-Bypass |
+| [23992319](https://pubmed.ncbi.nlm.nih.gov/23992319/) | 2014 | Review | Curr Med Chem | Zielgerichtete Therapien beim Pankreaskarzinom |
+
+**Rang 6 – Odontogene Zyste:** Nur zwei Fallberichte (PMID [41546361](https://pubmed.ncbi.nlm.nih.gov/41546361/), 2025; [30576676](https://pubmed.ncbi.nlm.nih.gov/30576676/), 2019) zu primär intraossären Karzinomen, ohne direkten Cetuximab-Bezug.
+
+Für die übrigen Kandidaten (Rang 1, 2, 4, 5, 7, 8) liegt derzeit keine zugehörige Literatur vor.
 
 ---
 
-## Marktinformationen für Deutschland
+## Marktinformationen Deutschland
 
-Derzeit sind keine Marktzulassungen für cetuximab in diesem Datensatz dokumentiert (`market_status`: Not marketed / Nicht vermarktet; `total_licenses`: 0). Keine Produkt-, Darreichungsform- oder genehmigten Indikationsdaten sind verfügbar.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000558 | Erbitux (Merck Europe B.V.) | – | Kopf-Hals-Tumoren; kolorektale Tumoren (Status: erloschen) |
 
 ---
 
 ## Zytotoxizität
 
-Cetuximab ist ein antineoplatisches Agens (anti-EGFR-Chimärer Monoklonalantikörper, über mehrere Krebsindikationen hinweg verwendet, wie in den Studien- und Literaturbelegen dieses Pakets dokumentiert).
-
-| Element | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Zytotoxizitätsklassifizierung | Zielgerichtete Therapie — anti-EGFR-Monoklonalantikörper (nicht konventionelle zytotoxische Chemotherapie) |
-| Risiko für Knochenmarkssuppression | Im Evidenzpaket nicht direkt dokumentiert; als antikörper-basiertes Zieltherapie-Agens ist Knochenmarkssuppression nicht das Klassensignal für Toxizität (anders als bei zytotoxischer Chemotherapie). Bitte die Fachinformation konsultieren. |
-| Emetogenitätsklassifizierung | Bitte die Fachinformation konsultieren (keine Daten im Evidenzpaket) |
-| Überwachungselemente | Basierend auf der Evidenzpaket-Literatur: Infusions-assoziierte Überempfindlichkeitsreaktionen (NCT00896896), dermatologische/Hauttoxizität (PMID 30141310); allgemeine CBC- und Leber-/Nieren-Funktionsüberwachung empfohlen, wenn kombiniert mit zytotoxischen Chemotherapie-Regimen |
-| Handhabungsschutz | Monoklonalantikörper IV-Infusion — Standard-Infusions-Sicherheitsprotokolle anwendbar (Premedikation gegen Überempfindlichkeit); nicht als gefährliches zytotoxisches Medikament nach konventionellen Chemotherapie-Handhabungsrichtlinien klassifiziert |
+| Zytotoxizitätsklassifikation | Zielgerichtete Therapie (monoklonaler Anti-EGFR-Antikörper), kein klassisches Zytostatikum |
+| Myelosuppressionsrisiko | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Emetogenität | Bitte Fachinformation beachten |
+| Monitoring | Hautreaktionen, Infusionsreaktionen, Elektrolyte; bei Kombinationen Blutbild sowie Leber- und Nierenfunktion |
+| Handhabungsschutz | Bitte Fachinformation und lokale Vorgaben zum Umgang mit Zytostatika/Onkologika beachten |
 
 ---
 
-## Sicherheitsüberlegungen
+## Sicherheitsaspekte
 
-Formale Sicherheitsdaten (`key_warnings`, `contraindications`, DDI) sind in diesem Evidenzpaket nicht verfügbar — bitte die Fachinformation für Sicherheitsinformationen konsultieren.
+- **Arzneimittelinteraktionen:** Insgesamt wurden 20 Einträge erfasst. Als **schwerwiegend (Major)** eingestuft sind **Aminolävulinsäure** und **Thalidomid**. Als **moderat** eingestuft sind u. a. Protonenpumpenhemmer (Rabeprazol, Omeprazol, Dexlansoprazol, Esomeprazol, Lansoprazol, Pantoprazol), Capecitabin, Carboplatin, Cisplatin, Fluorouracil, Oxaliplatin, Idelalisib, Methoxsalen, Omacetaxin-Mepesuccinat, Verteporfin sowie topische Aminolävulinsäure-Derivate.
+- **Pharmakologisches Ziel:** Der Epidermale Wachstumsfaktor-Rezeptor (EGFR).
+- **Aus der Literatur:** Haut- und Infusionsreaktionen sind relevant; bei Chemoprävention in gesunden oder Niedrigrisikopopulationen ist ein starker Sicherheitsspielraum erforderlich.
 
-Zusätzliche in der Literatur/Studienbelegen identifizierte Signale (nicht verifiziert gegen ein offizielles Label):
-- Infusions-assoziierte Überempfindlichkeitsreaktionen (NCT00896896, PMID 39415301)
-- Dermatologische Toxizität/Hauterkrankungen, assoziiert mit Prognose bei Patienten mit kolorektalem Karzinom (PMID 30141310)
+Weitere Sicherheitsinformationen entnehmen Sie bitte der Fachinformation.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Zurückstellung**
+**Entscheidung: Hold** (für den Spitzenkandidaten Chondroid-Hamartom und die übrigen rein modellbasierten Kandidaten); **Forschungsfrage** für prämaligne Neoplasie und zystische Neoplasie (adenoid-zystisches Karzinom).
 
 **Begründung:**
-- Datenlücke **DG001** (TFDA/BfArM-Label-Warnungen und Kontraindikationen) ist als **blockierend** klassifiziert und verhindert explizit den Eintritt in die S1-Sicherheitsvorbewertungsphase — kein Kandidat in diesem Paket kann unabhängig vom wissenschaftlichen Verdienst voranschreiten, bis dies behoben ist.
-- Von 10 vorhergesagten Indikationen haben 7 null unterstützende Belege (reine Modell-Score, L5) und sollten deprioritiert werden. Nur Zystische Neoplasie (L2, S2) zeigt echte Phase-II/Fallbericht-Unterstützung und verdient fortgesetzte Überwachung als Forschungsfrage, nicht unmittelbare Aktion.
-- Cetuximab ist derzeit nicht auf dem deutschen Markt (0 Zulassungen), was eine regulatorische Barriere unabhängig von wissenschaftlichen Belegen darstellt.
+- Der Spitzenkandidat stützt sich nur auf einen Modellwert ohne Studien, Publikationen oder plausible EGFR-Biologie.
+- Die am besten belegten Signale (prämaligne Läsionen des oberen Aerodigestivtrakts, Speicheldrüsen- bzw. adenoid-zystische Karzinome) bleiben auf kleine Phase-1/2-Studien beschränkt; die Phase-3-Studie NCT00482222 testet Cetuximab nicht in prämalignen Läsionen. Ein höheres Evidenzniveau (L1) ist daher nicht gerechtfertigt. Zudem besteht für Cetuximab in Deutschland derzeit nur eine erloschene Zulassung.
 
-**Um voranzukommen, ist folgende Maßnahme erforderlich:**
-- TFDA/BfArM-Label-PDF abrufen und Warnungen/Kontraindikationen analysieren (DG001-Behebung)
-- DrugBank auf bestätigte MOA-Daten abfragen (DG002-Behebung)
-- Wenn die Zystische-Neoplasie-Kandidaten verfolgt werden, eine fokussierte Literatur-/Studienbewertung speziell auf ACC/MEC der Speicheldrüsen in Auftrag geben (anstelle von „zystischer Neoplasie" in Breite, was nicht verwandte ovarian/pankreatische zystische Entitäten zog)
-- Deutschlands/EU-Marktzugangsweg angesichts des aktuellen nicht vermarkteten Status neu bewerten
-
+**Für das weitere Vorgehen sind erforderlich:**
+- Detaillierte Mechanismusdaten (MOA) aus DrugBank
+- Fachinformation (Warnhinweise, Gegenanzeigen) des BfArM zur Sicherheitsbewertung
+- Auswertung der Ergebnisse von NCT00524017 (prämaligne Läsionen) und NCT01192087 (adenoid-zystisches Karzinom)
+- Klärung der Erkrankungszuordnung bei „duktaler Proliferation" sowie der Zulassungs- und Verfügbarkeitslage in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

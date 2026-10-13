@@ -2,7 +2,7 @@
 layout: default
 title: Lipegfilgrastim
 parent: Nur Modellvorhersage (L5)
-nav_order: 234
+nav_order: 273
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,66 +29,84 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-# Lipegfilgrastim: Von der Unterstützung der Neutrophilenproduktion zur primären Blutplättchen-Freisetzungsstörung
+# Lipegfilgrastim: Von der (nicht dokumentierten) Ursprungsindikation zu primären Thrombozyten-Freisetzungsstörungen
 
 ## Zusammenfassung in einem Satz
 
-> Lipegfilgrastim ist ein pegylierter G-CSF-Analogstoff, dessen etablierte biologische Rolle die Stimulation der Neutrophilenproduktion (Granulozyten) ist; ein formales Originalindikations-Datensatz ist nicht in diesem Nachweispaket vorhanden.
-> Das TxGNN-Modell prognostiziert, dass es möglicherweise wirksam sein kann für **primäre Freisetzungsstörung von Blutplättchen**,
-> aber **0 klinische Versuche** und **0 Publikationen** unterstützen diese Richtung derzeit – die Prognose ist nur Modellausgabe.
+Lipegfilgrastim ist ein pegyliertes G-CSF-Analogon (Wachstumsfaktor für neutrophile Granulozyten). Die in den für diesen Bericht zusammengestellten Daten hinterlegte Ursprungsindikation ist jedoch nicht angegeben. Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **primären Thrombozyten-Freisetzungsstörungen** voraus, doch es liegen **0 klinische Studien** und **0 Publikationen** vor, die diese Richtung stützen.
+
+---
 
 ## Schnellübersicht
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Nicht formal dokumentiert (kein `original_indications`-Datensatz); mechanistisch wird das Arzneimittel als G-CSF-Rezeptor-Agonist beschrieben, der die Neutrophilen-Proliferation/Differenzierung unterstützt |
-| Prognostizierte neue Indikation | Primäre Freisetzungsstörung von Blutplättchen |
-| TxGNN-Prognosewert | 99.93% |
-| Evidenzstufe | L5 |
-| Marktstatus Deutschland | ✗ Nicht auf dem Markt |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Aussetzen |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Nicht angegeben (Zulassungstext in den Daten leer) |
+| Vorhergesagte neue Indikation | Primäre Thrombozyten-Freisetzungsstörung (primary release disorder of platelets) |
+| TxGNN-Vorhersagewert | 99,93 % |
+| Evidenzgrad | L5 |
+| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
+| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Empfohlene Entscheidung | Hold |
 
-## Warum ist diese Prognose sinnvoll?
+---
 
-Derzeit sind detaillierte Wirkmechanismus-Daten nicht verfügbar (`original_moa` ist eine Datenlücke). Basierend auf den in diesem Nachweispaket vorliegenden Informationen ist Lipegfilgrastim ein pegylierter G-CSF-Analogstoff, der am G-CSF-Rezeptor wirkt, um die Granulozyten-(Neutrophilen-)Proliferation und -Differenzierung zu fördern. Dies ist ein gut definierter Effekt auf die myeloide Reihe, kein Effekt auf die Blutplättchen-Reihe.
+## Warum ist diese Vorhersage plausibel?
 
-Kritisch ist, dass das Nachweispaket selbst besagt, dass es **keine bekannte mechanistische Verbindung** zwischen G-CSF-Rezeptor-Signalisierung und Blutplättchen-Freisetzung/Granula-Defekten gibt – die prognostizierte Indikation „primäre Freisetzungsstörung von Blutplättchen" beinhaltet eine unterschiedliche Pathophysiologie (Defekte bei der Freisetzung dichter/Alpha-Granula in Blutplättchen), die sich nicht mit der Granulozyten-Kolonien-Stimulation überlappt. Der Prognosewert wird daher rein durch das TxGNN-Graphenmodell angetrieben, ohne unterstützende Nachweise aus klinischen Versuchen, Fachliteratur oder biologischer Rationale.
+Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Nach bekanntem Stand ist Lipegfilgrastim ein pegyliertes G-CSF-Analogon, das die Proliferation und Differenzierung der neutrophilen Granulozyten-Linie stimuliert. Ein belastbarer Zusammenhang zur Thrombozytengranula-Freisetzung oder zu Thrombozytenfunktionsstörungen ist nicht etabliert.
 
-Angesichts des Fehlens einer plausiblen mechanistischen Verbindung und fehlender unterstützender Nachweise sollte dieser Kandidat nur als exploratives Signal behandelt werden, nicht als Arzneimittel-Umpositionierungs-Hypothese, die für weitere Verfolgung bereit ist.
+Der hohe TxGNN-Wert (0,9993) ist ausschließlich eine Vorhersage des Wissensgraphen. Er wird weder durch Studien noch durch Publikationen gestützt und spiegelt vermutlich eher die Nähe zu hämatologischen Erkrankungen im Graphen wider als eine biologische Begründung. Die Plausibilität ist daher als gering einzustufen.
 
-## Evidenz aus klinischen Versuchen
+### Weitere vorhergesagte Indikationen (alle ebenfalls L5, Hold)
 
-Derzeit sind keine zugehörigen klinischen Versuche registriert
+| Rang | Vorhergesagte Indikation | TxGNN-Wert | Einschätzung |
+|------|------|------|------|
+| 2 | Schwere nichtproliferative diabetische Retinopathie | 99,91 % | Spekulativ: Mobilisierung endothelialer Vorläuferzellen; könnte auch pathologische Angiogenese oder Entzündung fördern |
+| 3 | Pseudo-von-Willebrand-Syndrom (Thrombozytentyp) | 99,91 % | Gain-of-function-Defekt von GPIbα; kein bekannter Mechanismus von G-CSF zur Korrektur |
+| 4 | Glanzmann-Thrombasthenie | 99,91 % | Defekt von Integrin αIIbβ3; ein auf Neutrophile gerichteter Wachstumsfaktor würde diesen nicht beheben |
+| 5 | Diabetische Retinopathie | 99,75 % | Nur indirekter, unbewiesener Zusammenhang; Wirkung auf retinale Neovaskularisation könnte nützlich oder schädlich sein |
 
-## Evidenz aus der Fachliteratur
+---
 
-Derzeit ist keine zugehörige Fachliteratur verfügbar
+## Klinische Evidenz
 
-## Marktinformationen für Deutschland
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
-Lipegfilgrastim hält derzeit keine Marktzulassungen in diesem Datensatz (`total_licenses: 0`); der Marktstatus wird als nicht auf dem Markt dokumentiert. Es sind keine Zulassungsunterlagen verfügbar, die zusammengefasst werden können.
+---
+
+## Literaturevidenz
+
+Derzeit liegt keine zugehörige Literatur vor.
+
+---
+
+## Informationen zum deutschen Markt
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/002556 | Lonquex (Teva B.V.) | Nicht angegeben | Nicht angegeben (Status: erloschen) |
+
+---
 
 ## Sicherheitsaspekte
 
-Bitte entnehmen Sie Sicherheitsinformationen der Packungsbeilage.
+Für Sicherheitsinformationen beachten Sie bitte die Packungsbeilage. Zu Wechselwirkungen wurden keine Einträge gefunden.
 
-*(Hinweis: TFDA/BfArM-Etikett-Warnungen und Kontraindikationen werden in diesem Nachweispaket als **blockierende** Datenlücke (DG001) gekennzeichnet – dies muss behoben werden, bevor eine S1-Sicherheitsprüfung durchgeführt werden kann.)*
+---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Aussetzen**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die Evidenzstufe ist L5 (nur Modellprognose), mit null klinischen Versuchen oder Fachliteratur, und das Nachweispaket selbst erklärt ausdrücklich, dass es keine bekannte mechanistische Beziehung zwischen der G-CSF-Wirkung des Arzneimittels und der prognostizierten Blutplättchen-Freisetzungsstörung gibt. Es gibt derzeit keine Grundlage, diesen Kandidaten voranzutreiben.
+Die Vorhersage beruht allein auf dem Modellwert (Evidenzgrad L5), ohne Studien oder Publikationen und ohne plausiblen Wirkmechanismus. Zudem ist die einzige deutsche/europäische Zulassung erloschen, was das praktische Entwicklungsinteresse weiter einschränkt.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- Formale Wirkmechanismus-Daten (MOA) von DrugBank (DG002 – hoher Schweregrad)
-- TFDA/BfArM-Etikett-Warnungen und Kontraindikationen (DG001 – blockierender Schweregrad)
-- Eine biologisch plausible Rationale, die G-CSF-/Granulozyten-Pfade mit Blutplättchen-Freisetzungsstörungen verbindet, idealerweise unterstützt durch präklinische Daten
-- Mindestens Fallberichte oder Beobachtungsdaten, bevor weitere Bewertung in Betracht gezogen wird
-- Bestätigung der tatsächlich ursprünglichen zugelassenen Indikationen des Arzneimittels, die derzeit in den Quelldaten fehlen
-
+**Für ein Weiterkommen sind folgende Punkte erforderlich:**
+- Abruf und Auswertung der Packungsbeilage (Warnhinweise und Gegenanzeigen) – derzeit blockierend für die Sicherheitsprüfung
+- Daten zum Wirkmechanismus (MOA) zur Prüfung eines mechanistischen Zusammenhangs
+- Klärung der ursprünglichen Zulassungsindikation und der Gründe für das Erlöschen der Zulassung
+- Präklinische Belege oder mechanistische Studien, die einen Bezug zu den vorhergesagten Indikationen herstellen
+- Prüfung der Applikationswege (Routenkompatibilität), derzeit offen
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

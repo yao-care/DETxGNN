@@ -2,7 +2,7 @@
 layout: default
 title: Olanzapine
 parent: Nur Modellvorhersage (L5)
-nav_order: 278
+nav_order: 325
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,102 +29,124 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Olanzapin: Von der Antipsychotika-Therapie zur Augmentation bei Angststörungen und Stimmungsstörungen
+# Olanzapin: Von Schizophrenie und bipolarer Störung zu benigner paroxysmaler Tortikollis des Säuglingsalters
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Der formale Originaltext der Indikation und der Wirkmechanismus von Olanzapin sind in diesem Evidence Pack nicht enthalten (gekennzeichnet als Datenlücken DG001/DG002); die unterstützende Literatur identifiziert es als ein Antipsychotikum der zweiten Generation (atypisch), das bei Schizophrenie, bipolarer Störung und augmentativer Therapie bei therapieresistenten Stimmungs-/Angststörungen verwendet wird. TxGNN prognostiziert drei neue Indikationen — **Agoraphobie**, **Dysthymische Störung** und **Benigne paroxysmale Tortikollis des Säuglingsalters** —, aber nur die ersten beiden werden durch tatsächliche Literatur gestützt (7 bzw. 5 Publikationen, keine randomisierten kontrollierten Studien); die dritte hat einen sehr hohen TxGNN-Score, aber keine unterstützenden Erkenntnisse und einen unwahrscheinlichen mechanistischen Zusammenhang, und wird zur **Zurückhaltung** empfohlen.
+Olanzapin ist ein Antipsychotikum, das ursprünglich zur Behandlung von Schizophrenie und bipolarer Störung zugelassen wurde. Das TxGNN-Modell sagt für den Spitzenkandidaten **benigne paroxysmale Tortikollis des Säuglingsalters** eine mögliche Wirksamkeit voraus, doch hierfür liegen **keine klinischen Studien und keine Publikationen** vor. Die Vorhersage beruht allein auf dem Modell. Als Alternativen mit etwas besserer Datenlage erscheinen **Agoraphobie** (6 Publikationen) und **dysthyme Störung** (5 Publikationen).
 
 ---
 
-## Schnellübersicht
+## Kurzüberblick
 
 | Punkt | Inhalt |
-|-------|--------|
-| Ursprüngliche Indikation | Nicht im Evidence Pack spezifiziert (Datenlücke DG001/DG002). Der Literaturkontext weist darauf hin, dass es sich um ein Antipsychotikum der zweiten Generation (atypisch) handelt, das bei Schizophrenie/bipolarer Störung und als Augmentationstherapie verwendet wird |
-| Prognostizierte neue Indikationen | 1) Agoraphobie (Score 99.47%, Rang 6078) — L3, Forschungsfrage<br/>2) Dysthymische Störung (Score 99.28%, Rang 7787) — L3, Forschungsfrage<br/>3) Benigne paroxysmale Tortikollis des Säuglingsalters (Score 99.54%, Rang 5562) — L5, Zurückhaltung |
-| Evidenzlevel (gesamt) | L3 für Agoraphobie / Dysthymische Störung; L5 für Säuglings-Tortikollis |
-| Status auf dem deutschen Markt | ✗ Nicht im Handel |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | **Zurückhaltung** (Sicherheitsdatenlücke ist blockierend) |
+|------|------|
+| Ursprüngliche Indikation | Schizophrenie; bipolare Störung |
+| Vorhergesagte neue Indikation | Benigne paroxysmale Tortikollis des Säuglingsalters |
+| TxGNN-Vorhersagewert | 99,54 % |
+| Evidenzniveau | L5 |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen |
+| Anzahl der Zulassungen | 9 (alle erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage berechtigt?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Wirkmechanismus-Daten für Olanzapin in diesem Evidence Pack nicht verfügbar (Datenlücke DG002). Basierend auf der unterstützenden Literatur, die für die zwei glaubwürdigen prognostizierten Indikationen abgerufen wurde, wird Olanzapin klinisch als Antipsychotikum der zweiten Generation (atypisch) mit 5-HT2A-Antagonismus und bescheidener H1-vermittelter Sedation verwendet, Eigenschaften, die als Augmentationstherapie bei Stimmungs- und Angststörungen untersucht wurden.
+Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Olanzapin ist ein Antagonist an Dopamin- und Serotoninrezeptoren (D2, 5-HT2A/2C) sowie am Histamin-H1-Rezeptor; seine Wirksamkeit bei Schizophrenie und bipolarer Störung ist belegt.
 
-**Agoraphobie** ist am häufigsten als Komorbidität bei Panikstörungen vorhanden. Die Literatur zeigt, dass Olanzapin untersucht wurde — und in Fallberichten verwendet wurde — als SSRI-Augmentationsmittel bei therapieresistenter Panikstörung (mit oder ohne Agoraphobie), einschließlich einer 12-wöchigen offenen Studie mit fester Dosis (5 mg/Tag), die Wirksamkeit bei Panik- und Erwartungsangst-Skalen zeigte (PMID 16415705). Die Evidenz konzentriert sich jedoch auf „therapieresistente Panikstörung" statt auf Agoraphobie als eigenständige Diagnose, weshalb dies eine indirekte Erweiterung darstellt und nicht zu einer störungsspezifischen Studienpopulation führt.
+Für die benigne paroxysmale Tortikollis des Säuglingsalters ist **kein plausibler mechanistischer Zusammenhang** erkennbar. Die Erkrankung ist eine seltene, selbstlimitierende paroxysmale Bewegungsstörung im Säuglingsalter, häufig mit CACNA1A-Varianten und dem Migränespektrum assoziiert. Für den Einsatz von Olanzapin bei Säuglingen gibt es keine Begründung. Zudem können Antipsychotika extrapyramidale Wirkungen wie akute Dystonie und Torticollis auslösen, was die Vorhersage zusätzlich fragwürdig macht. Der hohe Score ist daher als rein rechnerisches Ergebnis zu verstehen.
 
-**Dysthymische Störung** (persistierende depressive Störung) teilt neurobiologische Überschneidungen mit Major Depressive Disorder, wo Antipsychotika der zweiten Generation — einschließlich Olanzapin — eine dokumentierte Augmentationsanwendung haben (Cochrane-Übersicht, PMID 21154393). Fallbasierte und offene Evidenz existiert in Populationen mit komorbider Borderline-Persönlichkeitsstörung und Dysthymie (PMID 10578457) und bei bipolarer Störung mit komorbider Angststörung/Zwangsstörung (PMID 25012437), aber keine Studie zielt auf Dysthymie als isolierte primäre Indikation.
+**Weitere Kandidaten mit besserer Evidenz:**
 
-**Benigne paroxysmale Tortikollis des Säuglingsalters** hat dagegen einen TxGNN-Score, der höher ist als die anderen beiden Vorhersagen, aber keinerlei klinische Studien oder Literaturbelege, und die vorgeschlagene Begründung (CACNA1A/Migräne-Variante/vestibuläre Pathophysiologie) hat keine etablierte biologische Verbindung zum D2/5-HT2A-Antagonismus von Olanzapin. Dies ist sehr wahrscheinlich ein Knowledge-Graph-Artefakt (sedative/antipsychotische Knoten, die indirekt mit einer ungeklärten pädiatrischen Bewegungsstörung verbunden sind), statt eines echten pharmakologischen Signals, und pädiatrische/säuglings-Sicherheitsdaten für Olanzapin sind im Wesentlichen nicht vorhanden — die mechanistische Plausibilität ist hier sehr gering.
+- **Agoraphobie (Score 99,47 %, L3):** Die Rezeptorblockade könnte Angst- und Erregungsschaltkreise bei der Panikstörung modulieren, die häufig mit Agoraphobie einhergeht. Die Evidenz stammt aus einer 12-wöchigen offenen Augmentationsstudie bei therapieresistenter Panikstörung und aus Fallberichten. Sie betrifft die Panikstörung, nicht spezifisch die Agoraphobie, und ist unkontrolliert. Metabolische Nebenwirkungen sprechen gegen den Einsatz, da SSRI und kognitive Verhaltenstherapie wirksame Erstlinienoptionen sind.
+- **Dysthyme Störung (Score 99,28 %, L3):** Olanzapin, vor allem in Kombination mit Fluoxetin, wirkt über 5-HT2C-Antagonismus augmentierend antidepressiv. Direkte Evidenz ist begrenzt; eine RCT speziell zur Dysthymie wurde nicht identifiziert. Die Verträglichkeit bei chronischer Anwendung bei einer eher milden, chronischen Erkrankung ist ein Bedenken.
 
 ---
 
 ## Evidenz aus klinischen Studien
 
-Derzeit sind keine verwandten klinischen Studien für eine der drei prognostizierten Indikationen registriert (Agoraphobie, Dysthymische Störung oder Benigne paroxysmale Tortikollis des Säuglingsalters).
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Literaturbelege
+## Evidenz aus der Literatur
 
-### Agoraphobie
+Für die Spitzenvorhersage (benigne paroxysmale Tortikollis des Säuglingsalters) liegt derzeit keine zugehörige Literatur vor. Die folgende Literatur betrifft die nachrangigen Kandidaten. Die Einschätzungen beruhen teilweise nur auf Titeln und Kurzfassungen.
 
-| PMID | Jahr | Typ | Zeitschrift | Wichtigste Erkenntnisse |
+**Agoraphobie**
+
+| PMID | Jahr | Typ | Fachzeitschrift | Kernaussagen |
 |------|-----|------|------|---------|
-| [16415705](https://pubmed.ncbi.nlm.nih.gov/16415705/) | 2006 | Offene Studie (12-wöchig, feste Dosis) | Journal of Clinical Psychopharmacology | Olanzapin 5 mg/Tag als SSRI-Augmentation bei 31 Patienten mit therapieresistenter Panikstörung (mit/ohne Agoraphobie); verbesserte Panik- und Erwartungsangst-Skalen |
-| [40946318](https://pubmed.ncbi.nlm.nih.gov/40946318/) | 2025 | Übersicht | Psychotherapy and Psychosomatics | Integratives Review pharmakologischer, psychotherapeutischer und neurostimulatorischer Optionen für therapieresistente Angststörungen |
-| [26635099](https://pubmed.ncbi.nlm.nih.gov/26635099/) | 2016 | Übersicht | Expert Opinion on Pharmacotherapy | Systematisches Review der therapieresistenten Panikstörung, wobei festgestellt wird, dass ~1/3 der Patienten nach Standardbehandlung anhaltende Symptome aufweisen |
-| [25012437](https://pubmed.ncbi.nlm.nih.gov/25012437/) | 2014 | Kohorte | Journal of Affective Disorders | 24-Monats-Ergebnisse: Auswirkung von komorbider Agoraphobie/Panikstörung/SAD/GAD/OCD auf den Verlauf der bipolaren Störung Typ I |
-| [15470803](https://pubmed.ncbi.nlm.nih.gov/15470803/) | 2004 | Fallbericht | Pharmacopsychiatry | Remission der chronischen Panikstörung mit Olanzapin + Paroxetin-Kombination |
-| [17099612](https://pubmed.ncbi.nlm.nih.gov/17099612/) | 2006 | Fallbericht | Psychiatria Danubina | KVT-Fall von Panikstörung mit Agoraphobie komorbid mit Psychose |
-| [10739446](https://pubmed.ncbi.nlm.nih.gov/10739446/) | 2000 | Fallbericht | American Journal of Psychiatry | Früher Fallbericht über Olanzapin und Panikattacken |
+| [16415705](https://pubmed.ncbi.nlm.nih.gov/16415705/) | 2006 | Offene Studie | J Clin Psychopharmacol | 12-wöchige Augmentation mit 5 mg/Tag Olanzapin zu SSRI bei 31 Patienten mit therapieresistenter Panikstörung (mit oder ohne Agoraphobie) |
+| [26635099](https://pubmed.ncbi.nlm.nih.gov/26635099/) | 2016 | Systematische Übersicht | Expert Opin Pharmacother | Therapieresistente Panikstörung; Unterstützung für Olanzapin nicht bestätigt |
+| [40946318](https://pubmed.ncbi.nlm.nih.gov/40946318/) | 2026 | Systematische Übersicht | Psychother Psychosom | Integrative Übersicht zu therapieresistenten Angststörungen; Unterstützung für Olanzapin nicht bestätigt |
+| [10739446](https://pubmed.ncbi.nlm.nih.gov/10739446/) | 2000 | Fallbericht | Am J Psychiatry | Olanzapin und Panikattacken |
+| [15470803](https://pubmed.ncbi.nlm.nih.gov/15470803/) | 2004 | Fallbericht | Pharmacopsychiatry | Vollständige Remission einer Panikstörung unter Olanzapin plus Paroxetin |
+| [25012437](https://pubmed.ncbi.nlm.nih.gov/25012437/) | 2014 | Kohortenstudie | J Affect Disord | Einfluss komorbider Angststörungen und Zwangsstörung auf den 24-Monats-Verlauf der Bipolar-I-Störung (indirekt) |
 
-### Dysthymische Störung
+**Dysthyme Störung**
 
-| PMID | Jahr | Typ | Zeitschrift | Wichtigste Erkenntnisse |
+| PMID | Jahr | Typ | Fachzeitschrift | Kernaussagen |
 |------|-----|------|------|---------|
-| [21154393](https://pubmed.ncbi.nlm.nih.gov/21154393/) | 2010 | Übersicht (Cochrane) | Cochrane Database of Systematic Reviews | Antipsychotika der zweiten Generation, einschließlich Olanzapin, als Augmentation bei Major Depressive Disorder und Dysthymie |
-| [10578457](https://pubmed.ncbi.nlm.nih.gov/10578457/) | 1999 | Offene Studie | Biological Psychiatry | Sicherheit/Wirksamkeit von Olanzapin bei Borderline-Persönlichkeitsstörung mit komorbider Dysthymie |
-| [22938165](https://pubmed.ncbi.nlm.nih.gov/22938165/) | 2012 | Übersicht | Bipolar Disorders | Evidenzbasierte Optionen für therapieresistente bipolare Störung, einschließlich antipsychotischer Augmentation |
-| [11920152](https://pubmed.ncbi.nlm.nih.gov/11920152/) | 2002 | Übersicht | Molecular Psychiatry | Mechanistisches Review von substituierten Benzamiden bei Dysthymie und negativen Symptomen der Schizophrenie (nicht Olanzapin-spezifisch) |
-| [34727399](https://pubmed.ncbi.nlm.nih.gov/34727399/) | 2021 | Systematisches Review / Meta-Analyse | Human Psychopharmacology | Wirksamkeit von Amisulprid (ein anderes Antipsychotikum der zweiten Generation) bei depressiven Symptomen — indirekte Vergleicherbelege, nicht Olanzapin-spezifisch |
-
-### Benigne paroxysmale Tortikollis des Säuglingsalters
-
-Derzeit keine verwandte Literatur verfügbar.
+| [21154393](https://pubmed.ncbi.nlm.nih.gov/21154393/) | 2010 | Systematische Übersicht (Cochrane) | Cochrane Database Syst Rev | Zweitgenerations-Antipsychotika bei Major Depression und Dysthymie |
+| [10578457](https://pubmed.ncbi.nlm.nih.gov/10578457/) | 1999 | Offene klinische Studie | Biol Psychiatry | Sicherheit und Wirksamkeit von Olanzapin bei Borderline-Persönlichkeitsstörung mit komorbider Dysthymie |
+| [22938165](https://pubmed.ncbi.nlm.nih.gov/22938165/) | 2012 | Übersichtsarbeit | Bipolar Disord | Evidenzbasierte Optionen bei therapieresistenter bipolarer Störung (indirekt) |
+| [11920152](https://pubmed.ncbi.nlm.nih.gov/11920152/) | 2002 | Übersichtsarbeit | Mol Psychiatry | Substituierte Benzamide bei Dysthymie und Negativsymptomatik (Amisulprid, indirekt) |
+| [34727399](https://pubmed.ncbi.nlm.nih.gov/34727399/) | 2021 | Systematische Übersicht/Metaanalyse | Hum Psychopharmacol | Amisulprid bei depressiven Symptomen (indirekt) |
 
 ---
 
-## Informationen zum deutschen Markt
+## Marktinformationen Deutschland
 
-Olanzapin wird derzeit **nicht auf dem deutschen Markt** vermarktet gemäß diesem Evidence Pack (0 Zulassungen auf Rekord). Es sind keine Produktzulassungseinträge verfügbar, die zusammengefasst werden können.
+Alle neun Zulassungen sind erloschen; derzeit ist kein gültiges Olanzapin-Präparat in den Daten verzeichnet.
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000810 | Olanzapine Teva | – | Schizophrenie; bipolare Störung |
+| EMEA/H/C/000115 | Zyprexa | – | Schizophrenie; bipolare Störung |
+| EMEA/H/C/001086 | Olanzapine Glenmark Europe | – | Schizophrenie; bipolare Störung |
+| EMEA/H/C/000287 | Zyprexa Velotab | – | Schizophrenie; bipolare Störung |
+| EMEA/H/C/001087 | Olazax | – | Schizophrenie; bipolare Störung |
 
 ---
 
-## Sicherheitsüberlegungen
+## Sicherheitsaspekte
 
-Bitte konsultieren Sie die Packungsbeilage für Sicherheitsinformationen. Dieses Evidence Pack kennzeichnet die TFDA-Packungsbeilage-Warnhinweise/Kontraindikationen (DG001) als **blockierende** Datenlücke — ihre angegebene Auswirkung ist, dass der Kandidat **bis zur Erlangung dieser Daten nicht ins S1-Sicherheits-Vorprüfungsstadium übergehen kann**. Es wurden keine Arzneimittelwechselwirkungs-Datensätze in der aktuellen DDI-Abfrage gefunden (`not_found`).
+**Kontraindikationen laut Wissensgraph (kein Packungsbeilagentext):** Das TxGNN-Wissensgraph-Netzwerk (PrimeKG) verzeichnet Kontraindikationen bei u. a. folgenden Erkrankungen:
+
+- Stoffwechsel: Diabetes mellitus, diabetische Ketoazidose, Hyperglykämie, Hypertriglyceridämie, Hyperlipidämie, familiäre Hyperlipidämie, Adipositas, monogene Adipositas
+- Leber und Galle: Leberversagen, Lebererkrankung, Leberzirrhose, Gallenblasenerkrankung
+- Herz-Kreislauf: orthostatische Hypotonie, posturales orthostatisches Tachykardiesyndrom, Hypotonie, Schlaganfall, zerebrovaskuläre Erkrankung, Hirninfarkt, Myokardinfarkt, Koronarthrombose
+- Blut: Neutropenie, Agranulozytose, Blutgerinnungsstörung
+- Neurologie/Psychiatrie: Multisystematrophie, Epilepsie, bipolare Störung, schwere affektive Störung
+- Sonstige: benigne Prostatahyperplasie, Mammakarzinom der Frau
+
+**Arzneimittelwechselwirkungen:** Insgesamt wurden 100 Wechselwirkungen erfasst. Als **schwerwiegend (Major)** eingestuft sind u. a.:
+
+- Bupropion
+- Morphin
+- Kaliumcitrat
+
+Als **moderat** eingestuft sind u. a. Acarbose, Famotidin, Epinephrin, Albiglutid, Alogliptin, Metformin, Hyoscyamin, Loperamid, Atropin, Lorcaserin, Glycopyrronium, Canagliflozin, Chlorpropamid, Clarithromycin, Picosulfat, Polyethylenglykol (mit Elektrolyten) und Dapagliflozin.
+
+Für Warnhinweise und Kontraindikationen der Fachinformation siehe die Packungsbeilage.
 
 ---
 
-## Fazit und Nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Zurückhaltung**
+**Entscheidung: Hold**
 
 **Begründung:**
-- Der Kandidat kann nicht über das Initialscreening hinausgehen, da die Datenlücke der TFDA-Packungsbeilage (Warnhinweise/Kontraindikationen) ausdrücklich als **blockierend** gekennzeichnet ist — der Wirkmechanismus ist auch nicht verifiziert (Hochschwere-Lücke). Ohne dies ist keine verantwortungsvolle S1-Sicherheits-Vorprüfung für eine der drei prognostizierten Indikationen möglich.
-- Von den drei TxGNN-Vorhersagen haben nur Agoraphobie und Dysthymische Störung echte (wenn auch indirekte, niedrigstufige: offene Studien/Fallberichte/Review-Ebene) unterstützende Literatur und rechtfertigen eine Verfolgung als **Forschungsfragen**; Benigne paroxysmale Tortikollis des Säuglingsalters hat keine unterstützenden Erkenntnisse, einen unwahrscheinlichen mechanistischen Zusammenhang und betrifft eine Säuglingspopulation ohne pädiatrische Sicherheitsdaten — sie sollte deprioritiert/fallengelassen werden, statt voranzutreiben.
+Die Spitzenvorhersage (benigne paroxysmale Tortikollis des Säuglingsalters) beruht ausschließlich auf dem Modell (L5), ohne Studien oder Literatur und ohne plausiblen Mechanismus. Antipsychotika können zudem Tortikollis und Dystonie auslösen. Agoraphobie und dysthyme Störung (jeweils L3) sind als Forschungsfragen interessanter, stützen sich aber nur auf unkontrollierte Studien, Fallberichte und indirekte Evidenz; hinzu kommen metabolische Risiken.
 
-**Um voranzuschreiten, wird folgendes benötigt:**
-- TFDA-Packungsbeilage (Warnhinweise/Kontraindikationen) — erforderlich, um die blockierende Lücke (DG001) vor einer Sicherheitsbewertung zu klären
-- Bestätigter Wirkmechanismus aus DrugBank oder einer gleichwertigen Primärquelle (DG002)
-- Für Agoraphobie / Dysthymische Störung: prospektive oder kontrollierte Studiendaten speziell zu diesen Diagnosen (aktuelle Evidenz ist Komorbidität-benachbart, nicht störungsspezifisch)
-- Formale Originalindikations- und Dokumentation der Marktgeschichte für Deutschland, falls dieser Kandidat weiter verfolgt werden soll
-- Neubewertung (oder Entfernung) des Signals der Benignen paroxysmalen Tortikollis des Säuglingsalters angesichts seiner mangelnden biologischen Plausibilität und fehlenden Evidenzbasis
-
+**Für ein Weiterkommen sind folgende Schritte nötig:**
+- Auswertung der Fachinformation (Warnhinweise, Kontraindikationen) über BfArM, da dieser Punkt derzeit blockierend ist
+- Mechanismusdaten (MOA) aus DrugBank ergänzen
+- Klärung des Zulassungsstatus in Deutschland, da alle gelisteten Zulassungen erloschen sind
+- Volltextprüfung der Übersichtsarbeiten zu Agoraphobie/Panikstörung und Dysthymie auf tatsächliche Aussagen zu Olanzapin
+- Für die Alternativen: kontrollierte Studien (RCT) und eine Nutzen-Risiko-Bewertung gegenüber Erstlinientherapien (SSRI, Psychotherapie)
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

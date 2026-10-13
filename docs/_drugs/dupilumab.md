@@ -2,7 +2,7 @@
 layout: default
 title: Dupilumab
 parent: Mittlere Evidenz (L3-L4)
-nav_order: 131
+nav_order: 153
 evidence_level: L3
 indication_count: 10
 ---
@@ -29,92 +29,98 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Dupilumab: Th2-getriebene Entzündungserkrankung zu Bronchitis
+# Dupilumab: Von atopischer Dermatitis, Prurigo, Ösophaguserkrankungen, Asthma und Sinusitis zu Bronchitis
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Dupilumab ist ein Biologikum, das IL-4Rα-Signalisierung blockiert, um Th2-getriebene (eosinophile) Entzündung zu unterdrücken; seine etablierten ursprünglichen Indikationsdaten sind in diesem Evidenzpaket nicht verfügbar (Arzneimittel noch nicht in Taiwan vermarktet).
-> Das TxGNN-Modell prognostiziert, dass es möglicherweise wirksam für **Bronchitis** ist,
-> mit derzeit **1 klinischer Studie** und **6 Publikationen** identifiziert, obwohl sich die meisten dieser Evidenzen eher auf Asthma als auf Bronchitis beziehen.
+Dupilumab ist ein monoklonaler Antikörper gegen den IL-4-Rezeptor-α. Er ist ursprünglich zugelassen für atopische Dermatitis, Prurigo, Ösophaguserkrankungen, Asthma und Sinusitis.
+Das TxGNN-Modell sagt voraus, dass er bei **Bronchitis** wirksam sein könnte. Dafür liegen **1 klinische Studie** (nur indirekt relevant) und **11 Publikationen** vor, überwiegend indirekte oder beobachtende Evidenz.
 
 ---
 
 ## Schnellübersicht
 
-| Artikel | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Nicht verfügbar — es existiert kein Taiwan-Lizenzbestand für dieses Arzneimittel (`taiwan_regulatory.licenses` ist leer) |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Atopische Dermatitis, Prurigo, Ösophaguserkrankungen, Asthma, Sinusitis |
 | Vorhergesagte neue Indikation | Bronchitis |
-| TxGNN-Prognosescore | 99,92 % |
+| TxGNN-Vorhersagewert | 99,92 % |
 | Evidenzstufe | L3 |
-| Taiwan-Marktstatus | ✗ Nicht vermarktet |
-| Anzahl der Genehmigungen | 0 |
-| Empfohlene Entscheidung | Halten |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung (Cancelled only) |
+| Anzahl Zulassungen | 1 |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage sinnvoll?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Wirkungsmechanismus-Daten (`original_moa`) als eine Datenlücke gekennzeichnet und Taiwan-spezifische ursprüngliche Indikationsdaten sind nicht verfügbar, da kein Lizenzbestand für dieses Arzneimittel existiert. Jedoch beschreibt die Rationalisierung des Evidenzpakets selbst Dupilumab als einen **IL-4Rα-Antagonisten**, der IL-4/IL-13-Signalisierung blockiert, wodurch Th2-Typ-eosinophile Entzündung unterdrückt wird — ein Mechanismus mit starker, gut dokumentierter Unterstützung in eosinophilem Asthma (siehe Literaturbelege unten).
+Zu den Wirkmechanismen liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Nach dem bekannten Wissensstand blockiert Dupilumab die gemeinsame α-Untereinheit des IL-4-Rezeptors und hemmt damit die Signalwege von IL-4 und IL-13, zentrale Treiber der Typ-2-Entzündung.
 
-Die Verbindung zu „Bronchitis" ist mechanistisch plausibel, aber indirekt: Bronchitis ist eine breite diagnostische Kategorie, und die stärksten unterstützenden Evidenzen in diesem Paket (z.B. die TRAVERSE-Langzeitasthma-Erweiterungsstudie und die Asthma-Metaanalyse) befassen sich tatsächlich mit **mittelschwerem bis schwerem Asthma**, nicht mit Bronchitis per se. Die einzige direkt relevante klinische Studie (NCT04362501) zielt auf chronische Rhinosinusitis ohne Nasenpolypen (CRSsNP) ab, nicht auf Bronchitis, und wurde selbst als „C"-Relevanz vom internen Reasoning-Engine bewertet — was nur indirekte Th2-Weg-Unterstützung bietet.
+Dieser Mechanismus bildet die Grundlage für die Anwendung bei Asthma und chronischer Rhinosinusitis. Bei Bronchitis, insbesondere beim Chronische-Bronchitis-Phänotyp der COPD mit Typ-2-Entzündung, ist eine Übertragung plausibel. Dazu passen Real-World-Berichte zu Dupilumab bei Typ-2-COPD sowie ein Übersichtsartikel zur eosinophilen plastischen Bronchitis bei Kindern.
 
-Da eosinophile/Th2-getriebene Atemwegsentzündung sowohl Asthma als auch bestimmte Bronchitis-Phänotypen zugrunde liegt (z.B. eosinophile oder Asthma-COPD-Überlapps-Bronchitis), ist die mechanistische Erweiterung auf Bronchitis biologisch als Forschungshypothese sinnvoll, aber direkte klinische Evidenzen spezifisch für Bronchitis bleiben zu diesem Zeitpunkt begrenzt.
+Eine bronchitisspezifische randomisierte Studie fehlt jedoch in den vorliegenden Daten. Die Evidenz bleibt daher überwiegend indirekt.
 
 ---
 
-## Belege aus klinischen Studien
+## Klinische Studienevidenz
 
-| Trialnummer | Phase | Status | Einschluss | Wichtigste Erkenntnisse |
+| Studiennummer | Phase | Status | Teilnehmerzahl | Zentrale Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT04362501](https://clinicaltrials.gov/study/NCT04362501) | Phase 2 | Abgeschlossen | 33 | Randomisierte, doppelblinde, placebokontrollierte Studie zu Dupilumab bei chronischer Rhinosinusitis ohne Nasenpolypen (CRSsNP); bietet indirekte Th2-Weg-Evidenz, aber untersucht nicht direkt Bronchitis (Relevanz als „C" bewertet). |
+| [NCT04362501](https://clinicaltrials.gov/study/NCT04362501) | Phase 2 | Abgeschlossen | 33 | Randomisierte, doppelblinde, placebokontrollierte Studie zu Dupilumab bei chronischer Rhinosinusitis ohne Nasenpolypen; verwandte Typ-2-Erkrankung der oberen Atemwege, nur indirekt relevant für Bronchitis |
 
 ---
 
-## Literaturbelege
+## Literaturevidenz
 
-| PMID | Jahr | Typ | Journal | Wichtigste Erkenntnisse |
+| PMID | Jahr | Typ | Journal | Zentrale Ergebnisse |
 |------|-----|------|------|---------|
-| [34597534](https://pubmed.ncbi.nlm.nih.gov/34597534/) | 2022 | RCT (offene Erweiterungsstudie) | Lancet Respir Med | Langzeitsicherheit/Wirksamkeit von Dupilumab bei mittelschwerem bis schwerem Asthma über einen Zeitraum von mehr als 1 Jahr (TRAVERSE-Studie). |
-| [30273510](https://pubmed.ncbi.nlm.nih.gov/30273510/) | 2019 | Systematisches Review/Metaanalyse | J Asthma | Gepoolte RCT-Daten zeigen, dass Dupilumab die Wirksamkeit und Sicherheitsergebnisse bei unkontrolliertem Asthma verbessert. |
-| [32428511](https://pubmed.ncbi.nlm.nih.gov/32428511/) | 2020 | Kohortenstudie/Bildgebungsstudie | Chest | MRT-basierte Belüftungsdefekte bei schwerem eosinophilem Asthma sprechen auf Anti-T2-(Dupilumab-Klasse-)Therapie an. |
-| [39904363](https://pubmed.ncbi.nlm.nih.gov/39904363/) | 2025 | Übersichtsarbeit | Tuberc Respir Dis | Umfassende Übersichtsarbeit der pharmakologischen Therapien, einschließlich Biologika, zur Prävention von COPD-Exazerbationen. |
-| [30196731](https://pubmed.ncbi.nlm.nih.gov/30196731/) | 2018 | Übersichtsarbeit | Expert Opin Pharmacother | Erörterung der Behandlungschallenges bei Rauchen-induzierter Atemwegserkrankung, einschließlich chronischer Bronchitis und Asthma-COPD-Überlapps. |
-| [38488768](https://pubmed.ncbi.nlm.nih.gov/38488768/) | 2024 | Übersichtsarbeit/Fallbasiert | Pediatric Pulmonology | Neuartige Therapien für eosinophile pädiatrische Kunststoffbronchitis. |
+| [30273510](https://pubmed.ncbi.nlm.nih.gov/30273510/) | 2019 | Systematische Übersicht/Metaanalyse | J Asthma | Wirksamkeit und Sicherheit von Dupilumab bei unkontrolliertem Asthma in RCTs |
+| [34597534](https://pubmed.ncbi.nlm.nih.gov/34597534/) | 2022 | RCT (Langzeit-Extension) | Lancet Respir Med | TRAVERSE: Langzeitsicherheit und -wirksamkeit bei mittelschwerem bis schwerem Asthma |
+| [42617837](https://pubmed.ncbi.nlm.nih.gov/42617837/) | 2026 | Kohorte (indirekter Vergleich) | Chest | Mepolizumab und Dupilumab ohne signifikanten Unterschied bei der Exazerbationsreduktion bei eosinophiler COPD |
+| [42839285](https://pubmed.ncbi.nlm.nih.gov/42839285/) | 2026 | Kohorte (Real-World) | Respir Res | Deutsche multizentrische Real-World-Analyse von Dupilumab bei COPD |
+| [42511891](https://pubmed.ncbi.nlm.nih.gov/42511891/) | 2026 | Kohorte (Fallserie, 12 Patienten) | Biomedicines | Compassionate-Use-Erfahrung bei Typ-2-COPD mit Chronische-Bronchitis-Phänotyp |
+| [39904363](https://pubmed.ncbi.nlm.nih.gov/39904363/) | 2025 | Review | Tuberc Respir Dis | Übersicht pharmakologischer Therapien zur Vermeidung von COPD-Exazerbationen |
+| [42773542](https://pubmed.ncbi.nlm.nih.gov/42773542/) | 2026 | Review | Eur J Clin Invest | Aktuelle Entwicklungen im COPD-Management, von Entzündungswegen zu gezielten Therapien |
+| [38488768](https://pubmed.ncbi.nlm.nih.gov/38488768/) | 2024 | Review | Pediatr Pulmonol | Neue Therapien bei eosinophiler plastischer Bronchitis im Kindesalter |
+| [30196731](https://pubmed.ncbi.nlm.nih.gov/30196731/) | 2018 | Review | Expert Opin Pharmacother | Herausforderungen bei Asthma im Zusammenhang mit rauchinduzierten Atemwegserkrankungen |
+| [32428511](https://pubmed.ncbi.nlm.nih.gov/32428511/) | 2020 | Kohorte | Chest | Wirkung von Anti-T2-Biologika auf die Lungenventilation im MRT bei Prednison-abhängigem Asthma |
 
 ---
 
-## Taiwan-Marktinformationen
+## Informationen zum deutschen Markt
 
-Dieses Arzneimittel ist derzeit **nicht in Taiwan vermarktet**, und es sind keine Lizenzbestandsaufzeichnungen in diesem Evidenzpaket verfügbar (`total_licenses = 0`). Kein genehmigter Indikationstext kann zu diesem Zeitpunkt extrahiert werden.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/004390 | Dupixent | – | Atopische Dermatitis, Prurigo, Ösophaguserkrankungen, Asthma, Sinusitis |
+
+Die einzige Zulassung (Hersteller: Sanofi Winthrop Industrie) ist als erloschen/aufgehoben geführt.
 
 ---
 
-## Sicherheitsüberlegungen
+## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+**Arzneimittelwechselwirkungen:** Es wurden 53 mögliche Wechselwirkungen erfasst. Auszug der wichtigsten:
 
-*(Hinweis: Alle wichtigen Warnungen, Kontraindikationen und Arzneimittelwechselwirkungen sind als Datenlücken gekennzeichnet (DG001 — TFDA-Packungsbeilage noch nicht abgerufen) oder „nicht gefunden" in diesem Evidenzpaket, und können hier nicht zusammengefasst werden.)*
+- **Schwerwiegend (Major):** Adalimumab, Baricitinib, Certolizumab pegol, Cladribin
+- **Moderat:** u. a. Warfarin, Roflumilast, Azathioprin, Ciclosporin, Denosumab, Dimethylfumarat, Anakinra, Alemtuzumab, Canakinumab
+- **Gering (Minor):** verschiedene Zinksalze (Acetat, Gluconat, Sulfat, Chlorid)
+
+Die Literatur nennt zudem Nebenwirkungen wie Kopf-Hals-Dermatitis, psoriasiforme oder pustulöse Hautreaktionen sowie Immunogenität. Weitere Sicherheitsangaben entnehmen Sie bitte der Fachinformation.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Halten**
+**Entscheidung: Hold**
 
-**Rationalisierung:**
-Evidenzen, die Dupilumab direkt für Bronchitis unterstützen, sind derzeit auf eine einzige Phase-2-Studie mit niedriger Relevanz begrenzt (Grad C, untersuchte eine andere Erkrankung — CRSsNP) plus mechanistische Extrapolation aus Asthma-Literatur. Dies entspricht Evidenzstufe L3 und der „Forschungsfrage"-Phase — noch nicht ausreichend zur Unterstützung des Fortschreitens in Richtung regulatorischer oder klinischer Entwicklung für diese spezifische Indikation.
+**Begründung:**
+Für Bronchitis gibt es keine direkte Studienevidenz; die einzige gelistete Studie betrifft die chronische Rhinosinusitis, und die Literatur zu COPD stützt sich auf Real-World-Daten und Reviews. Hinzu kommt, dass die deutsche Zulassung erloschen ist und Fachinformationsdaten fehlen.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- TFDA-Packungsbeilage (Warnungen/Kontraindikationen) — derzeit eine blockierende Datenlücke (DG001)
-- Bestätigte Wirkungsmechanismus-Dokumentation über DrugBank (DG002)
-- Gewidmete klinische Studien oder Real-World-Evidenzen in einer definierten Bronchitis-Population (z.B. eosinophile oder Asthma-COPD-Überlapps-Bronchitis) anstelle benachbarter Atemwegs-/Nasennebenhöhlen-Indikationen
-- Bestätigung des Taiwan-Regulierungs-/Lizenzierungsstatus, da das Arzneimittel derzeit hier nicht vermarktet ist
-
----
-
-**Hinweis:** Unter den 10 Kandidatenindikationen in diesem Evidenzpaket zeigt **Dermatitis (atopische Dermatitis)** — von TxGNN als #2 bewertet — erheblich stärkere Evidenzen (Evidenzstufe L1, mehrere abgeschlossene Phase-3-RCTs, Empfehlung „Mit Vorsichtsmaßnahmen fortfahren") und ist eine global anerkannte genehmigte Indikation für Dupilumab. Wenn das Ziel darin besteht, die stärkste Umnutzungs-/Registrierungsgelegenheit für diesen Arzneimittelkandidaten zu priorisieren, wird ein separater Bewertungsbericht zur Dermatitisenindikation empfohlen.
-
+**Für ein Weiterkommen sind erforderlich:**
+- Bronchitisspezifische oder COPD-Studien mit Chronische-Bronchitis-Phänotyp (idealerweise RCTs)
+- Detaillierte Mechanismusdaten (MOA)
+- Fachinformation (Warnhinweise, Gegenanzeigen) des BfArM
+- Klärung des aktuellen Zulassungsstatus in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -2,7 +2,7 @@
 layout: default
 title: Topotecan
 parent: Mittlere Evidenz (L3-L4)
-nav_order: 406
+nav_order: 474
 evidence_level: L3
 indication_count: 10
 ---
@@ -29,111 +29,113 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Topotecan: Von etablierter onkologischer Chemotherapie zum Mammakarzinom
+# Topotecan: Von Ovarialkarzinom, Gebärmutterhalskrebs und kleinzelligem Lungenkarzinom zum weiblichen Mammakarzinom
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Topotecan ist ein Topoisomerase-I-Inhibitor (Camptothecin-Derivat), der bereits als Chemotherapeutikum in der Onkologie verwendet wird — gemäß Studienangaben in diesem Evidenzpaket (z. B. NCT01931098) wird er als Arzneistoff „zur Behandlung von Lungenkrebs" beschrieben.
-> Das TxGNN-Modell prognostiziert, dass er möglicherweise auch wirksam bei **Mammakarzinom** sein könnte,
-> wobei **5 klinische Studien** und **20 Publikationen** als unterstützende Evidenz identifiziert wurden, obwohl es sich dabei größtenteils um kleine, historische oder präklinische Studien handelt und nicht um bestätigende Studien in dieser spezifischen Indikation.
+Topotecan ist ein Zytostatikum, das ursprünglich zur Behandlung von Eierstockkrebs, Gebärmutterhalskrebs und kleinzelligem Lungenkrebs zugelassen wurde.
+Das TxGNN-Modell sagt voraus, dass es bei **weiblichem Mammakarzinom** wirksam sein könnte.
+Die Evidenz ist begrenzt: **3 klinische Studien** (alle ohne Wirksamkeitsdaten, Phase 1 bis 2) und **20 Publikationen**, darunter eine Phase-2-Studie, die keine erhöhte Wirksamkeit zeigte.
 
 ---
 
 ## Schnellübersicht
 
-| Posten | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | In deutschen Zulassungsdaten nicht dokumentiert (keine BfArM-Zulassung vorhanden); gemäß Studienbeschreibungen in diesem Evidenzpaket ist Topotecan ein etabliertes Chemotherapeutikum für Lungenkrebs und andere solide Tumoren |
-| Vorhergesagte neue Indikation | Mammakarzinom |
-| TxGNN-Vorhersage-Score | 99,92 % |
+| Ursprüngliche Indikation | Ovarialkarzinom, Zervixkarzinom, kleinzelliges Lungenkarzinom |
+| Vorhergesagte neue Indikation | Weibliches Mammakarzinom |
+| TxGNN-Vorhersagewert | 99,92 % |
 | Evidenzstufe | L3 |
-| Marktstatus in Deutschland | ✗ Nicht im Handel |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Beibehalten |
+| Marktstatus in Deutschland | Nur erloschene Zulassungen (keine gültige Zulassung) |
+| Anzahl der Zulassungen | 3 (alle erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Daten zum Wirkmechanismus von DrugBank sind für diesen Kandidaten nicht verfügbar (gekennzeichnet als Datenlücke mit hohem Schweregrad, DG002). Die in diesem Evidenzpaket enthaltene Begründung für die Umnutzung identifiziert Topotecan jedoch als **Topoisomerase-I-Inhibitor**: Es führt zu DNA-Doppelstrangbrüchen, indem es den Topo-I–DNA-Spaltungskomplex blockiert, ein Mechanismus, der wiederholt in der Literatur bestätigt wird (z. B. beschreibt PMID 15836850 es als „ein Camptothecin-Derivat [das] ein großes Spektrum in der Antitumor-Aktivität zeigt... durch Hemmung der Topoisomerase-I-Aktivität, was zu Doppelstrangbrüchen führt").
+Zu Topotecan liegen für diesen Bericht keine detaillierten Angaben zum Wirkmechanismus aus der Datenbank vor. Nach bekanntem Wissen ist Topotecan ein Topoisomerase-I-Inhibitor, der in sich schnell teilenden Zellen DNA-Schäden verursacht. Seine Wirksamkeit bei Eierstock-, Gebärmutterhals- und kleinzelligem Lungenkrebs ist belegt, und mechanistisch könnte es auch bei Brustkrebs anwendbar sein.
 
-Mammakarzinomzellen – insbesondere triple-negative Subtypen (MCF-7, MDA-MB-231) – erwiesen sich in dieser Evidenzbasis als Topo-I-abhängig und empfindlich gegenüber diesem Mechanismus (PMID 40300683 identifiziert TFDP1 als ein topotecan-responsives Target in triple-negativem Brustkrebs). Mehrere ältere Phase-II-Studien und Pilotstudien (PMID 10362325, PMID 11455218, PMID 9413954) testeten Topotecan bereits direkt bei fortgeschrittenem/metastatischem Brustkrebs, einschließlich ZNS-metastasierter Erkrankung, was darauf hindeutet, dass das Arzneimittel in dieser Population über echte, wenn auch begrenzte, klinische Vorgänger verfügt – anstelle einer rein rechnergestützten Vorhersage.
+Präklinische Daten (PMID 37987734) deuten darauf hin, dass die Hemmung von TOP1 in MYC-getriebenen Tumoren eine synthetische Letalität auslösen kann. Das ist für eine Untergruppe aggressiver Mammakarzinome relevant.
 
-Allerdings ist Brustkrebs nicht die Hauptindikation des Arzneistoffs, die derzeit unterstützenden Studien für diese spezifische TxGNN-prognostizierte Verbindung sind größtenteils älter, klein, beendet oder von unsicherer Relevanz (mehrere Studien im Paket sind mit „C" gekennzeichnet – z. B. Ovarialkarzinom-Studien, bei denen die Rolle von Topotecan unklar ist), und es gibt keine abgeschlossene Phase-3-RCT, die die Wirksamkeit bei Brustkrebs eindeutig nachweist. Die mechanistische Plausibilität ist angemessen, aber die klinische Bestätigung ist dünn.
+Dagegen steht, dass Topotecan ein Substrat des Efflux-Transporters BCRP/ABCG2 ist (PMID 25236865), der in Brustkrebszellen exprimiert wird und Resistenz vermitteln kann. Die klinische Aktivität scheint begrenzt: Eine Studie mit kontinuierlicher Topotecan-Infusion bei fortgeschrittenem Brustkrebs und nichtkleinzelligem Lungenkarzinom ergab keinen Hinweis auf eine erhöhte Wirksamkeit (PMID 9413954).
 
 ---
 
-## Evidenz aus klinischen Studien
+## Klinische Studienevidenz
 
-| Studiennummer | Phase | Status | Einschluss | Wichtigste Erkenntnisse |
+| Studiennummer | Phase | Status | Teilnehmerzahl | Zentrale Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT00006032](https://clinicaltrials.gov/study/NCT00006032) | Phase 2 | Beendet | – | TIME-Schema (Topotecan + Ifosfamid/Mesna + Etoposid) gefolgt von autologem Stammzell-Rescue bei metastatischem Brustkrebs; Studie beendet |
-| [NCT04279509](https://clinicaltrials.gov/study/NCT04279509) | – | Unbekannt | 35 | Organooid-basierte hochdurchsatz-Arzneimittelscreening-Plattform für refraktäre solide Tumoren; keine direkte Wirksamkeitsstudie (Relevanzgrad C) |
-| [NCT04739800](https://clinicaltrials.gov/study/NCT04739800) | Phase 2 | Aktiv, keine Rekrutierung | 120 | Durvalumab/Olaparib/Cediranib-Tripletherapie bei platinresistentem Ovarialkarzinom; die Rolle von Topotecan in dieser Studie ist nicht explizit (Relevanzgrad C) |
-| [NCT02282020](https://clinicaltrials.gov/study/NCT02282020) | Phase 3 | Abgeschlossen | 266 | Olaparib vs. ärztliche Wahl eines Einzelarzneistoff-Chemotherapie bei gBRCA-mutiertem rezidivierendem Ovarialkarzinom; Topotecan kann ein Vergleichsarm sein, nicht bestätigt (Relevanzgrad C) |
-| [NCT02419495](https://clinicaltrials.gov/study/NCT02419495) | Phase 1 | Beendet | 221 | Selinexor kombiniert mit Standard-Chemo-/Immuntherapieschemata bei fortgeschrittenen Malignomen; die spezifische Relevanz für Topotecan ist unklar (Relevanzgrad C) |
-
-**Hinweis:** Nur eine Studie (NCT00006032) beinhaltet direkt und eindeutig Topotecan bei Brustkrebs; sie wurde beendet. Die restlichen vier werden mit niedriger Relevanz bewertet und erfordern eine Neuverifizierung, bevor sie als unterstützende Evidenz gezählt werden.
+| [NCT00006032](https://clinicaltrials.gov/study/NCT00006032) | Phase 2 | Abgebrochen | k. A. | Hochdosiertes Topotecan, Ifosfamid/Mesna und Etoposid (TIME) mit autologer Stammzelltransplantation bei metastasiertem Brustkrebs; keine Ergebnisse verfügbar |
+| [NCT02419495](https://clinicaltrials.gov/study/NCT02419495) | Phase 1 | Abgebrochen | 221 | Sicherheitsstudie zu Selinexor mit verschiedenen Standardchemotherapien bei fortgeschrittenen Malignomen; nicht spezifisch für Topotecan bei Brustkrebs |
+| [NCT06840886](https://clinicaltrials.gov/study/NCT06840886) | Phase 1 | Rekrutierend | 426 | Dosiseskalationsstudie zu PHST001 bei fortgeschrittenen Solid-Tumoren; keine Wirksamkeitsdaten |
 
 ---
 
-## Literaturevidence
+## Literaturevidenz
 
-| PMID | Jahr | Typ | Journal | Wichtigste Erkenntnisse |
+| PMID | Jahr | Typ | Journal | Zentrale Ergebnisse |
 |------|-----|------|------|---------|
-| [10362325](https://pubmed.ncbi.nlm.nih.gov/10362325/) | 1999 | Phase-II-Klinische Studie | American Journal of Clinical Oncology | CALGB Phase-II-Studie von Topotecan bei fortgeschrittenen/vorbehandelten Brustkrebspatienten (n=47 geeignet) |
-| [11455218](https://pubmed.ncbi.nlm.nih.gov/11455218/) | 2001 | Kohorte/Pilotstudie | Onkologie | Pilotstudie von Topotecan als Primärchemotherapie bei Brustkrebspatienten mit Hirnmetastasen |
-| [9413954](https://pubmed.ncbi.nlm.nih.gov/9413954/) | 1997 | Kohorte/Pilotstudie (Phase II) | British Journal of Cancer | Infusionales Topotecan bei fortgeschrittenem Brustkrebs und NSCLC; kein Hinweis auf erhöhte Wirksamkeit gegenüber Bolus-Dosierung |
-| [40300683](https://pubmed.ncbi.nlm.nih.gov/40300683/) | 2025 | Mechanistisch/Präklinisch | International Journal of Biological Macromolecules | TFDP1 identifiziert als therapeutisches Target für Topotecan bei triple-negativem Brustkrebs |
-| [26623560](https://pubmed.ncbi.nlm.nih.gov/26623560/) | 2015 | Präklinisch | Oncotarget | Metronomisches Topotecan + Pazopanib zeigt potente Wirksamkeit in präklinischen TNBC-Modellen |
-| [27444351](https://pubmed.ncbi.nlm.nih.gov/27444351/) | 2016 | Präklinisch | Phytomedicine | MHP-1 (Cordyceps-deriviert) stellt die Topotecan-Empfindlichkeit über EMT/TGF-β-Regulation in Brustkrebszellen wieder her |
-| [15836850](https://pubmed.ncbi.nlm.nih.gov/15836850/) | 2005 | In-vitro | Journal of Surgical Research | Quercetin kombiniert mit Topotecan erhöht die Zytotoxizität in MCF-7- und MDA-MB-231-Zellen |
-| [31408695](https://pubmed.ncbi.nlm.nih.gov/31408695/) | 2019 | In-vitro | Pharmacological Research | Daidzein verbessert die Topotecan-Wirksamkeit und kehrt die BCRP-vermittelte Arzneistoffresistenz bei Brustkrebs um |
-| [9445630](https://pubmed.ncbi.nlm.nih.gov/9445630/) | 1997 | Übersichtsarbeit | Gynäkologisch-Geburtshilfliche Rundschau | Übersichtsarbeit zu neuen zytotoxischen Arzneistoffen, einschließlich Topotecan, in der Brustkarzinomtherapie |
-| [7910993](https://pubmed.ncbi.nlm.nih.gov/7910993/) | 1994 | Übersichtsarbeit | World Journal of Surgery | Allgemeine Übersichtsarbeit zu systemischen Managementoptionen bei metastatischem Brustkrebs |
+| [9413954](https://pubmed.ncbi.nlm.nih.gov/9413954/) | 1997 | Klinische Studie (Phase 2) | Br J Cancer | Kontinuierlich infundiertes Topotecan bei fortgeschrittenem Brustkrebs und NSCLC: kein Hinweis auf erhöhte Wirksamkeit |
+| [11455218](https://pubmed.ncbi.nlm.nih.gov/11455218/) | 2001 | Pilotstudie | Onkologie | Topotecan als primäre Chemotherapie bei Hirnmetastasen von Brustkrebs |
+| [9425961](https://pubmed.ncbi.nlm.nih.gov/9425961/) | 1997 | Übersichtsarbeit | Semin Oncol | Mögliche Rolle von Topotecan beim fortgeschrittenen Brustkrebs |
+| [7910993](https://pubmed.ncbi.nlm.nih.gov/7910993/) | 1994 | Review | World J Surg | Management des metastasierten Brustkrebses |
+| [9445630](https://pubmed.ncbi.nlm.nih.gov/9445630/) | 1997 | Review | Gynakol Geburtshilfliche Rundsch | Neue Substanzen in der Therapie des Mammakarzinoms |
+| [27084985](https://pubmed.ncbi.nlm.nih.gov/27084985/) | 2016 | Review | Aging | Metronomische Chemotherapie bei dreifach-negativem Brustkrebs |
+| [25236865](https://pubmed.ncbi.nlm.nih.gov/25236865/) | 2015 | Review | AAPS J | Rolle von BCRP/ABCG2 beim Arzneimitteltransport; Topotecan als Substrat |
+| [37987734](https://pubmed.ncbi.nlm.nih.gov/37987734/) | 2023 | Präklinisch/mechanistisch | Cancer Res | TOP1-Hemmung in MYC-getriebenen Tumoren führt zu synthetischer Letalität |
+| [10472342](https://pubmed.ncbi.nlm.nih.gov/10472342/) | 1999 | Präklinisch (Xenograft) | Anticancer Res | Wirksamkeit von Doxorubicin, Cisplatin, Irinotecan und Topotecan bei Xenotransplantaten von Kolon-, Lungen- und Brustkarzinomen |
+| [10930538](https://pubmed.ncbi.nlm.nih.gov/10930538/) | 2000 | Präklinisch | Biochem Pharmacol | BCRP-Expression in Topotecan-resistenten Brustkrebszellen |
 
 ---
 
-## Marktinformationen zu Deutschland
+## Marktinformationen Deutschland
 
-Topotecan verfügt derzeit über **keine BfArM-Zulassungsrecords** in diesem Evidenzpaket — das Arzneimittel wird als nicht im Handel befindlich in Deutschland gekennzeichnet (0 Lizenzen vorhanden).
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000123 | Hycamtin | k. A. | Ovarialkarzinom, Zervixkarzinom, kleinzelliges Lungenkarzinom (erloschen) |
+| EMEA/H/C/001192 | Topotecan Hospira | k. A. | Zervixkarzinom, kleinzelliges Lungenkarzinom (erloschen) |
+| EMEA/H/C/002282 | Potactasol | k. A. | Zervixkarzinom, kleinzelliges Lungenkarzinom (erloschen) |
 
 ---
 
 ## Zytotoxizität
 
-Topotecan ist ein konventionelles zytotoxisches Chemotherapeutikum (Camptothecin-Derivat, Topoisomerase-I-Inhibitor), daher gilt dieser Abschnitt.
-
-| Posten | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Klassifizierung der Zytotoxizität | Konventionell zytotoxisch (Topoisomerase-I-Inhibitor, Camptothecin-Klasse) |
-| Risiko der Knochenmarksuppression | Hoch — Literatur in diesem Paket (PMID 8617580) berichtet Knochenmarksuppression als Haupttoxizität mit schweren Nadirwerten (Leukozyten, Neutrophile, Hämoglobin, Thrombozyten alle deutlich reduziert) |
-| Klassifizierung der Emetogenität | Nicht im Evidenzpaket angegeben — bitte beziehen Sie sich auf die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation |
-| Überwachungsparameter | Blutbild mit Differenzial (angesichts dokumentierter schwerer Knochenmarksuppression), plus standardisierte Organfunktionsüberwachung nach institutionellem Onkologieprotokoll |
-| Handhabungsschutz | Erfordert Schutzmaßnahmen für die Handhabung zytotoxischer Arzneistoffe gemäß standardisierter Chemotherapie-Handhabungsvorschriften |
+| Zytotoxizitätsklassifikation | Konventionelles Zytostatikum (Topoisomerase-I-Inhibitor, Camptothecin-Derivat) |
+| Myelosuppressionsrisiko | Hoch (laut Wissensgraph: Neutropenie, Thrombozytopenie, Agranulozytose, Anämie als Kontraindikationsbezug) |
+| Emetogenität | Niedrig bis mittel |
+| Überwachungsparameter | Großes Blutbild mit Differenzialblutbild, Leber- und Nierenfunktion |
+| Handhabungsschutz | Handhabung gemäß den Vorschriften für Zytostatika erforderlich |
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beziehen Sie sich auf die Fachinformation für Sicherheitsinformationen. Wichtige Warnhinweise, Kontraindikationen und Wechselwirkungsdaten für Topotecan sind in diesem Evidenzpaket nicht verfügbar (gekennzeichnet als Blocking-Datenlücke DG001 — TFDA/Deutsche Fachinformation Warnhinweise und Kontraindikationen).
+- **Kontraindikationsbezüge aus dem Wissensgraphen** (keine Packungsbeilagentexte): Thrombozytopenie, Neutropenie, Agranulozytose, Anämie (einschließlich makrozytärer Anämie), interstitielle Lungenerkrankung, Diarrhö, eingeschränkte Nierenfunktion, Lungenfibrose (einschließlich postinflammatorischer Lungenfibrose).
+- **Arzneimittelwechselwirkungen** (100 Einträge erfasst, Auswahl):
+  - **Schwerwiegend:** Deferipron, Samarium (153Sm) lexidronam
+  - **Mäßig:** Eliglustat, Rolapitant, Iobenguan (I-131), Palifermin, Strontiumchlorid Sr-89, Ibritumomab-Tiuxetan
+  - **Gering:** Levofloxacin, Koffein
+
+Weitere Sicherheitsinformationen entnehmen Sie bitte der Packungsbeilage.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Beibehalten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die Evidenzstufe ist L3 — unterstützende Daten bestehen hauptsächlich aus kleinen Pilot-/Phase-II-Studien, präklinischen/In-vitro-Arbeiten und Übersichtsarbeiten, ohne abgeschlossene Pivotal-Studie, die die Wirksamkeit von Topotecan speziell bei Brustkrebs bestätigt, und mehrere zitierte Studien tragen niedrige Relevanzgrade. Das Arzneimittel ist auch derzeit nicht in Deutschland im Handel, und eine Blocking-Datenlücke von hohem Schweregrad (keine Fachinformation Warnhinweise/Kontraindikationen) verhindert jede S1-Sicherheits-Vorbewertung.
+Die Vorhersage ist mechanistisch plausibel, doch die klinische Evidenz ist schwach: Die einzige Phase-2-Studie bei Brustkrebs zeigte keine erhöhte Wirksamkeit, die registrierten Studien sind abgebrochen, unspezifisch oder ohne Ergebnisse. Zudem besteht in Deutschland derzeit keine gültige Zulassung.
 
-**Um fortzufahren, wird folgendes benötigt:**
-- TFDA/Deutsche Fachinformation Sicherheitsdaten (Warnhinweise, Kontraindikationen) — Blocking-Lücke DG001
-- Bestätigte Wirkmechanismus-Dokumentation von DrugBank — Hochschweregradige Lücke DG002
-- Verifizierung der Studien mit niedriger Relevanz („Grad C"), um zu bestätigen, ob Topotecan tatsächlich in diesen Schemata verwendet wird
-- Abschluss der „ausstehenden" Literaturklassifizierungen (Studientyp/Tier), um die Stärke der Evidenz angemessen zu bewerten
-- Klärung der tatsächlichen ursprünglichen/genehmigten Indikation(en) von Topotecan, da regulatorische Lizenzdaten derzeit fehlen
-
+**Für ein Weiterkommen sind folgende Schritte nötig:**
+- Auswertung der Packungsbeilage (BfArM) zu Warnhinweisen und Kontraindikationen, da diese Sicherheitsdaten fehlen
+- Detaillierte Daten zum Wirkmechanismus aus DrugBank
+- Gezielte klinische Daten zu Topotecan bei Brustkrebs (z. B. Subgruppen mit MYC-Treiberveränderung, BCRP-Expression)
+- Klärung des Zulassungsstatus und der Verfügbarkeit in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

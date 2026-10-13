@@ -2,7 +2,7 @@
 layout: default
 title: Aprepitant
 parent: Nur Modellvorhersage (L5)
-nav_order: 33
+nav_order: 36
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,87 +29,97 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Aprepitant: Erkundung einer Neuindikation vom Antiemetikum zum nephrogenischen Syndrom der inadäquaten Antidiuretikumsekretion
+# Aprepitant: Von Erbrechen und Übelkeit zum nephrogenen Syndrom der inadäquaten Antidiurese (NSIAD)
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Aprepitant (DB00673) ist ein Antiemetikum der Klasse der NK1-Rezeptor-Antagonisten (derzeit nicht in Taiwan zugelassen).
-> Das TxGNN-Modell sagt voraus, dass es möglicherweise gegen das **nephrogenische Syndrom der inadäquaten Antidiuretikumsekretion (nephrogenic syndrome of inappropriate antidiuresis)** wirksam sein könnte,
-> aber es gibt derzeit **keine klinischen Studien oder Literaturbelege**, nur einen reinen Modellvorhersage-Score mit Evidenzgrad L5.
+Aprepitant wurde ursprünglich zur Behandlung von Erbrechen, postoperativer Übelkeit und Erbrechen sowie in Verbindung mit Krebserkrankungen (Chemotherapie-induzierte Übelkeit) eingesetzt. Das TxGNN-Modell sagt voraus, dass es bei dem **nephrogenen Syndrom der inadäquaten Antidiurese (NSIAD)** wirksam sein könnte. Für diese Vorhersage liegen jedoch **keine klinischen Studien und keine Publikationen** vor; sie beruht ausschließlich auf der Modellvorhersage.
 
 ---
 
 ## Schnellübersicht
 
-| Kategorie | Inhalt |
-|-----------|--------|
-| Ursprüngliche Indikationen | Nicht in diesem Evidence Pack enthalten (`original_indications` ist leer) |
-| Vorhergesagte neue Indikation | Nephrogenisches Syndrom der inadäquaten Antidiuretikumsekretion |
-| TxGNN-Vorhersage-Score | 99.97% (Rang 616) |
-| Evidenzgrad | L5 (nur Modellvorhersage, keine klinischen Studien, keine Literatur) |
-| Zulassungsstatus in Taiwan | Nicht zugelassen |
-| Anzahl Genehmigungen | 0 |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Erbrechen; postoperative Übelkeit und Erbrechen; Krebs |
+| Vorhergesagte neue Indikation | Nephrogenes Syndrom der inadäquaten Antidiurese (NSIAD) |
+| TxGNN-Vorhersagewert | 99,97 % |
+| Evidenzlevel | L5 |
+| Marktstatus in Deutschland | Nur gelöschte/erloschene Zulassung |
+| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
 | Empfohlene Entscheidung | Hold |
 
 ---
 
 ## Warum ist diese Vorhersage plausibel?
 
-Derzeit liegen keine Daten zum Wirkmechanismus vor (`original_moa: [Data Gap]`); dies ist ein Datengap mit hohem Schweregrad (DG002) für diesen Fall, der durch separate Abfrage der DrugBank ergänzt werden muss. Ohne Wirkmechanismus-Daten und Aufzeichnungen über ursprüngliche Indikationen ist eine aussagekräftige Bewertung der pharmakologischen Verbindung zwischen „Antiemetikum" und „nephrogenisches Syndrom der inadäquaten Antidiuretikumsekretion" nicht möglich.
+Aktuell liegen keine detaillierten Daten zum Wirkmechanismus vor. Bekannt ist, dass Aprepitant ein Neurokinin-1-(NK1)-Rezeptorantagonist ist und seine Wirksamkeit bei Erbrechen und Übelkeit belegt ist.
 
-Die `repurposing_rationale.mechanistic_link` ist eindeutig gekennzeichnet: „Keine bekannten mechanistischen Verknüpfungen, auch keine klinischen Studien oder Literaturbelege vorhanden, nur Modellvorhersage-Score." Dies bedeutet, dass diese Vorhersage derzeit vollständig auf der Ähnlichkeitsinferenz des TxGNN-Wissensgraphen beruht und noch keine biologische oder klinische Evidenz aufweist.
+Die mechanistische Verbindung zum NSIAD ist **spekulativ**. Denkbar wäre ein Zusammenhang über die Substanz-P-Signalübertragung und die zentrale Regulation von Vasopressin. NSIAD wird jedoch durch aktivierende Mutationen des Vasopressin-V2-Rezeptors (AVPR2) verursacht, und genau dieser Mechanismus wird durch eine NK1-Blockade nicht direkt beeinflusst. Die Vorhersage sollte daher als reine Modellvorhersage betrachtet werden.
 
-**Beobachtungen zu anderen Kandidatenindikationen (zur Information, nicht Hauptfokus dieser Bewertung):**
-
-| Rang | Indikation | TxGNN-Score | Bemerkung |
-|-----|-----------|----------|----------|
-| 3 | Pulmonale Hypertonie | 99.90% | Die einzige begleitende Literatur ist eine Phase-I-Studie mit Pazopanib+Cisplatin zur Behandlung von Nierenzellkarzinom, die mit Aprepitant oder pulmonaler Hypertonie in keiner Beziehung steht; wird als Suchstörung bewertet |
-| 6 | Malformationssyndrom mit odontalen/parodontalen Komponenten | 99.86% | Alle 20 begleitenden Literaturangaben beziehen sich auf parodontale Erkrankungen, haben keine mechanistische Verbindung zu Aprepitant, wird ebenfalls als Suchstörung bewertet |
-| 9 | Subarachnoidale Blutung | 99.85% | Der Substanz P/NK1-Rezeptor-Weg ist bekannt als an der Störung der Blut-Hirn-Schranke und dem Hirnödem nach SAH beteiligt (hauptsächlich Tierstudien); mechanistisch theoretisch möglich, aber bei dieser Suche wurden keine tatsächlichen klinischen Studien oder Literaturangaben gefunden; bleibt somit ein reiner Modellscore |
-
-Oben wird gezeigt: Ein hoher Score bedeutet nicht starke Evidenz. Literaturangaben bei Rang 3 und 6 werden nach Überprüfung als nicht relevante Störsignale identifiziert, Rang 9 hat theoretische mechanistische Möglichkeiten, aber gleichzeitig mangelnde empirische Unterstützung; muss als Priorität für zukünftige Literaturabfragen aufgelistet werden.
+Auch die weiteren vom Modell vorhergesagten Indikationen (u. a. Hypertrichose, pulmonale Hypertonie, Lepra, subarachnoidale Blutung) haben ähnlich hohe Werte (jeweils über 99,8 %), jedoch ebenfalls keine belastbare Evidenz. Bei der pulmonalen Hypertonie und der subarachnoidalen Blutung gibt es lediglich schwache, präklinische Hinweise auf eine Beteiligung der Substanz-P/NK1-Signalübertragung.
 
 ---
 
-## Klinische Studienevidenz
+## Klinische Studien
 
-Derzeit keine relevanten registrierten klinischen Studien verfügbar.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
+
+---
 
 ## Literaturevidenz
 
-Derzeit keine relevanten Literaturdaten zur Bewertung verfügbar.
-
-## Marktinformationen für Taiwan
-
-Aprepitant ist derzeit **nicht in Taiwan zugelassen**, es liegen keine Arzneimittelgenehmigungen vor (`total_licenses: 0`), es liegen auch keine Darreichungsform- oder Verabreichungsrouteninformationen vor.
+Derzeit ist keine zugehörige Literatur verfügbar.
 
 ---
 
-## Sicherheitsüberlegungen
+## Informationen zum deutschen Markt
 
-- **Fachinformationen Warnhinweise/Kontraindikationen**: Fachinformationen der TFDA wurden noch nicht beschafft (DG001, Blocking-Level-Gap), eine vollständige S1-Sicherheitsbewertung ist erforderlich, bis offizielle Fachinformation-PDFs heruntergeladen und analysiert wurden.
-- **Arzneimittelwechselwirkungen**: Abfrageergebnis ist `not_found`, derzeit keine Daten verfügbar.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000527 | Emend | – | Erbrechen; postoperative Übelkeit und Erbrechen; Krebs |
 
-> Hinweis: Da fehlende Fachinformationsdaten ein Blocking-Level-Gap darstellen, kann in diesem Fall **keine vollständige Sicherheitsbewertung** durchgeführt werden. Derzeit wird „Bitte beachten Sie die in der Arzneimittelfahninformation angegebenen Sicherheitsinformationen" als Prinzip angewendet. Nach Ergänzung sollte eine Neubewertung durchgeführt werden.
+Diese Zulassung (Merck Sharp & Dohme B.V.) ist erloschen bzw. gelöscht; es existiert keine gültige Zulassung.
 
 ---
 
-## Schlussfolgerung und Folgemaßnahmen
+## Zytotoxizität
+
+| Punkt | Inhalt |
+|------|------|
+| Zytotoxizitätsklassifikation | Kein Zytostatikum; Supportivtherapie (Antiemetikum, NK1-Rezeptorantagonist) |
+| Myelosuppressionsrisiko | Nicht zutreffend; bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Emetogenitätsklassifikation | Nicht zutreffend (Aprepitant wirkt antiemetisch) |
+| Überwachungsparameter | Leberfunktion (siehe Hinweis zu Leberversagen unten) |
+| Handhabungsschutz | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+
+---
+
+## Sicherheitsaspekte
+
+- **Kontraindikationen (aus Wissensgraph, nicht aus der Fachinformation):** Im TxGNN-Wissensgraphen (PrimeKG) ist **Leberversagen** als Kontraindikation hinterlegt.
+- **Arzneimittelwechselwirkungen:** Die Abfrage ergab insgesamt 100 Wechselwirkungen. Beispiele aus den vorliegenden Daten:
+  - **Schwerwiegend (Major):** Fentanyl, Alfentanil, Acalabrutinib
+  - **Moderat:** u. a. Paclitaxel, Abemaciclib, Nifedipin, Ibuprofen, Levonorgestrel, Hydrocortison, Lidocain, Dihydrocodein, Rabeprazol, Albendazol, Fluvoxamin, Fosamprenavir, Fosphenytoin, Fostamatinib, Gefitinib, Abametapir (topisch)
+  - **Gering (Minor):** Dolutegravir
+
+Für weitere Sicherheitsinformationen (Warnhinweise, Kontraindikationen laut Label) bitte die Fachinformation heranziehen.
+
+---
+
+## Fazit und nächste Schritte
 
 **Entscheidung: Hold**
 
 **Begründung:**
-- Die Vorhersage für eine neue Indikation wird nur durch den TxGNN-Modellscore unterstützt (L5), es gibt keine klinischen Studien oder Literaturbelege;
-- Ursprüngliche Indikation und Wirkmechanismus-Daten fehlen, eine Argumentation zur mechanistischen Verknüpfung kann nicht aufgestellt werden;
-- Die TFDA-Fachinformationen zur Sicherheit sind ein Blocking-Level-Gap, eine grundlegende Sicherheitsbewertung kann noch nicht abgeschlossen werden;
-- Das Arzneimittel ist derzeit nicht in Taiwan zugelassen, es liegen keine Genehmigungen und Darreichungsform-Informationen vor.
+Der hohe TxGNN-Wert (99,97 %) wird weder durch klinische Studien noch durch Literatur gestützt, und der Zusammenhang zwischen NK1-Antagonismus und der AVPR2-vermittelten Pathologie des NSIAD ist mechanistisch nicht überzeugend. Zudem besteht in Deutschland keine gültige Zulassung.
 
-**Wenn weitere Fortschritte erforderlich sind, müssen folgende Punkte ergänzt werden:**
-- Download und Analyse der offiziellen TFDA-Fachinformation, um Warnhinweise, Kontraindikationen und Darreichungsforminformationen zu erhalten (DG001)
-- Abfrage der DrugBank-API, um die vollständigen Aprepitant-Wirkmechanismus-Daten zu erhalten (DG002)
-- Spezifische Literatursuche der Substanz P/NK1-Rezeptor-Weg-Hypothese bei Rang 9 (subarachnoidale Blutung), um zu bestätigen, ob verwertbare Evidenz vorhanden ist
-- Ausschluss von Störsignal-Literatur bei Rang 3 und 6, um Fehlbewertung als unterstützende Evidenz zu vermeiden
-
+**Für ein Weiterkommen sind folgende Schritte erforderlich:**
+- Daten zum Wirkmechanismus (MOA) ergänzen (z. B. über die DrugBank-API)
+- Warnhinweise und Kontraindikationen aus der Fachinformation der Zulassungsbehörde beschaffen und auswerten (sicherheitsrelevante Voraussetzung)
+- Präklinische Studien (Zellmodelle oder Tiermodelle mit AVPR2-Aktivierung) zur Prüfung der biologischen Plausibilität
+- Systematische Literaturrecherche zu NK1-Antagonisten und Wasserhaushalt/Vasopressin-Regulation
+- Prüfung des Zulassungsstatus und der Verfügbarkeit in Deutschland, da die einzige Zulassung erloschen ist
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

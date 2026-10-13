@@ -2,7 +2,7 @@
 layout: default
 title: Enfortumab Vedotin
 parent: Nur Modellvorhersage (L5)
-nav_order: 146
+nav_order: 168
 evidence_level: L5
 indication_count: 9
 ---
@@ -29,112 +29,102 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9**
 
 </div>
 
-# Enfortumab vedotin: Von Urothelkarzinom (Blasenkrebs) zu Lepra
+# Enfortumab Vedotin: Vom Urothelkarzinom zur Lepra (rein rechnerische Vorhersage)
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Enfortumab vedotin ist ein Antikörper-Wirkstoff-Konjugat (ADC), dessen etablierter klinischer Anwendungskontext in diesem Nachweispaket **fortgeschrittener/metastasierter Blasenkrebs (Urotheltumoren)** ist.
-> Die Top-Vorhersage des TxGNN-Modells für dieses Arzneimittel ist **Lepra**, mit einem Rohwert von 99.53%,
-> aber **null klinische Studien und null Veröffentlichungen** unterstützen derzeit diese spezifische Arzneimittel-Erkrankungs-Paarung, und die eigene mechanistische Begründung des Modells stellt ausdrücklich fest, dass **keine plausible biologische Verbindung** vorhanden ist.
+Enfortumab Vedotin ist ein gegen Nectin-4 gerichtetes Antikörper-Wirkstoff-Konjugat und wurde ursprünglich zur Behandlung des Übergangszellkarzinoms (Urothelkarzinom) bzw. urologischer Neoplasien entwickelt.
+Das TxGNN-Modell sagt voraus, dass es bei **Lepra** wirksam sein könnte, mit einem sehr hohen Modellscore.
+Dafür liegen jedoch **keine klinischen Studien** und **keine Publikationen** vor – die Vorhersage ist rein rechnerisch (Evidenzstufe L5).
 
 ---
 
-## Schnelle Übersicht
+## Schnellübersicht
 
-| Element | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Nicht in strukturierten `original_indications`/Zulassungsdaten vorhanden (Datenlücke). Kontextuelle Literaturbelege in diesem Paket (PMID 41341429) identifizieren Enfortumab vedotin als ein ADC, das bei **Patienten mit fortgeschrittenem Blasenkrebs** verwendet wird — dies ist der einzige verfügbare Indikationskontext. |
+| Ursprüngliche Indikation | Übergangszellkarzinom; urologische Neoplasien |
 | Vorhergesagte neue Indikation | Lepra |
-| TxGNN-Vorhersage-Score | 99.53% (Rohwert 0.9953; globale Kandidatenrang 5.642) |
-| Evidenzstufe | L5 — nur Modellvorhersage, keine unterstützenden klinischen Studien oder Literatur |
-| Marktstatus Deutschland | ✗ Nicht vermarktet (Nicht vermarktet) |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | **Zurückhalten** |
+| TxGNN-Vorhersagescore | 99,53 % |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
+| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage sinnvoll?
+## Warum ist diese Vorhersage (nicht) plausibel?
 
-Derzeit ist das strukturierte Feld für den Wirkmechanismus von Enfortumab vedotin eine dokumentierte Datenlücke (DG002, hoher Schweregrad). Jedoch beschreibt die Begründung für die Arzneimittelrepositonierung des Modells das Arzneimittel konsistent und unabhängig über mehrere Kandidateneintragungen hinweg als **anti-Nectin-4-Antikörper-Wirkstoff-Konjugat (ADC)**: Ein Antikörper, der auf das Tumor-Oberflächenantigen Nectin-4 abzielt, liefert ein Mikrotubuli-störendes Zytotoxin (MMAE, Monomethyl-Auristatin E) in antigenexprimierende Zellen, wodurch direkte Zytotoxizität erzeugt wird.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Enfortumab Vedotin ist ein gegen Nectin-4 gerichtetes Antikörper-Wirkstoff-Konjugat, das MMAE (Monomethylauristatin E), einen Mikrotubuli-Hemmstoff, in Tumorzellen transportiert. Seine Wirksamkeit beim Urothelkarzinom beruht auf der Nectin-4-Expression der Tumorzellen.
 
-Lepra hingegen ist eine Infektionskrankheit, die durch *Mycobacterium leprae* verursacht wird und durch antimykobakterielle Chemotherapie behandelt wird (z. B. Multidrug-Therapie mit Dapson, Rifampicin, Clofazimin), nicht durch gezielte zytotoxische Freisetzung. Es gibt keine bekannte Nectin-4-Beteiligung an der Pathophysiologie von *M. leprae*, und es gibt keine Rezeptor- oder Signalweg-Überschneidung zwischen einem antimykobakteriellen Mechanismus und einer Tumor-Antigen-gerichteten zytotoxischen Fracht.
+Ein mechanistischer Zusammenhang zwischen dieser zytotoxischen Krebstherapie und Lepra, einer bakteriellen Infektionskrankheit (Mycobacterium leprae), ist nicht erkennbar. Der hohe TxGNN-Score ist ein reines Rechenergebnis und stützt sich weder auf Studien noch auf Literatur. Ein Einsatz eines zytotoxischen Antikörper-Wirkstoff-Konjugats bei einer Infektionskrankheit erscheint wenig plausibel.
 
-**Dies wird direkt im Begründungstext für die Arzneimittelrepositonierung des Nachweispakets angegeben**: „Enfortumab vedotin ... zeigt keine bekannte Assoziation mit antimykobakteriellen Infektionsmechanismen, und es existiert kein Rezeptor-/Signalweg-Überlapungsnachweis." Mit anderen Worten: Die Quelldaten selbst schlussfolgern, dass die mechanistische Hypothese nicht unterstützt wird — dies ist reine Ähnlichkeits-basierte Modellausgabe (TxGNN-Rang 5.642, weit außerhalb des typischen hochzuverlässigen Vorhersage-Bereichs) ohne korroborierende klinische, präklinische oder Literatur-Signale. Diese Vorhersage sollte als explorativ/Rausch-Ebene behandelt werden, nicht als echter Arzneimittel-Repositionierungs-Kandidat.
-
----
-
-## Belege aus klinischen Studien
-
-Derzeit sind keine verwandten klinischen Studien registriert.
+Auch die übrigen vorhergesagten Indikationen (u. a. multiple endokrine Neoplasie, Zytomegalievirus-Infektion, Candidiasis, Hirninfarkt, HIV-Infektion, homozygote familiäre Hypercholesterinämie) haben keine belastbare Evidenz. Für Zytomegalievirus-Infektion und Candidiasis wurden lediglich Publikationen zu Nebenwirkungen gefunden, die keinen therapeutischen Nutzen belegen. Die Einträge „maligne Katarrh“ und „infektiöse bovine Rhinotracheitis“ sind Tierkrankheiten und vermutlich Artefakte des Wissensgraphen.
 
 ---
 
-## Literaturbelege
+## Klinische Studien
 
-Derzeit ist keine verwandte Literatur verfügbar.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Marktstatus Deutschland
+## Literatur
 
-Enfortumab vedotin hält derzeit **keine Marktzulassungen** für diesen Markt auf Datensatz (0 Lizenzen; Marktstatus: Nicht vermarktet). Eine Zulassungstabelle kann nicht erstellt werden.
+Derzeit ist keine zugehörige Literatur zur Indikation Lepra verfügbar.
+
+Hinweis zu anderen vorhergesagten Indikationen (keine Wirksamkeitsevidenz, nur Sicherheitssignale):
+
+| PMID | Jahr | Typ | Journal | Kernaussage |
+|------|-----|------|------|---------|
+| [42647281](https://pubmed.ncbi.nlm.nih.gov/42647281/) | 2026 | Fallbericht | Reports (MDPI) | Schwere ulzerative Ösophagitis nach Enfortumab Vedotin plus Pembrolizumab bei metastasiertem Urothelkarzinom (Nebenwirkung) |
+| [41341429](https://pubmed.ncbi.nlm.nih.gov/41341429/) | 2025 | Pharmakovigilanz-Analyse (FAERS) | Clinical Epidemiology | Risikosignale von Antikörper-Wirkstoff-Konjugaten beim Blasenkrebs in der Praxis |
+
+---
+
+## Informationen zum deutschen Markt
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/005392 | Padcev | – | Übergangszellkarzinom; urologische Neoplasien |
+
+Diese Zulassung ist als erloschen geführt.
 
 ---
 
 ## Zytotoxizität
 
-Die zugrunde liegende Arzneimittelklasse von Enfortumab vedotin (gemäß Text der Repositionierungs-Begründung, eingebettet in dieses Nachweispaket) ist ein Antikörper-Wirkstoff-Konjugat, das eine Mikrotubuli-Inhibitor-Fracht liefert, d. h. ein zytotoxisches Antikrebsmittel, daher ist dieser Abschnitt enthalten.
-
-| Element | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Klassifizierung der Zytotoxizität | Zielgerichtete Therapie — Antikörper-Wirkstoff-Konjugat (anti-Nectin-4-Antikörper + MMAE-Mikrotubuli-Inhibitor-Fracht) |
-| Myelosuppressionsrisiko | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Packungsbeilage |
-| Emetogenitätsklassifizierung | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Packungsbeilage |
-| Überwachungselemente | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Packungsbeilage |
-| Handhabungsschutz | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Packungsbeilage |
-
-*(Detaillierte Toxizitäts-/Warnungsdaten konnten nicht abgerufen werden — dies ist eine dokumentierte blockierende Datenlücke, DG001: TFDA/Packungsbeilage-Warnhinweise und Kontraindikationen, erforderlich vor einer Sicherheitsbewertung in Phase 1.)*
+| Zytotoxizitätsklassifikation | Antikörper-Wirkstoff-Konjugat (Nectin-4-gerichtet) mit zytotoxischer MMAE-Nutzlast (Mikrotubuli-Hemmstoff) |
+| Myelosuppressionsrisiko | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Emetogenitätsklassifikation | Bitte Fachinformation beachten |
+| Überwachungsparameter | Bitte Fachinformation beachten (üblich: Blutbild, Leber- und Nierenfunktion, Blutzucker) |
+| Handhabungsschutz | Handhabung gemäß den Vorschriften für zytotoxische Arzneimittel |
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte lesen Sie die Packungsbeilage für Sicherheitsinformationen.
+- **Arzneimittelwechselwirkungen:** Für 100 Wechselwirkungen liegen Daten vor (Quelle: DDInter). Als **schwerwiegend** eingestuft ist **Clarithromycin**. Die übrigen angezeigten Wechselwirkungen sind **mittelschwer**, vor allem mit Antidiabetika, darunter Acarbose, Albiglutid, Alogliptin, Metformin, Pioglitazon, Canagliflozin, Chlorpropamid, Dapagliflozin, Saxagliptin, Dulaglutid, Empagliflozin, Linagliptin, Acetohexamid, Ertugliflozin, Exenatid, Glimepirid, Glipizid und Glibenclamid, sowie mit Aprepitant.
+- **Hinweis aus der Literatur:** Fallberichte und Pharmakovigilanzdaten weisen auf Nebenwirkungen hin (z. B. schwere Ösophagitis in Kombination mit Pembrolizumab).
+
+Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Zurückhalten**
+**Entscheidung: Hold**
 
 **Begründung:**
-- Die Vorhersage hat keine klinische, präklinische oder Literaturunterstützung (0 Studien, 0 Veröffentlichungen), liegt auf Evidenzstufe L5, und die eigene mechanistische Begründung des Modells stellt ausdrücklich fest, dass es keine bekannte biologische Verbindung zwischen dem zytotoxischen Mechanismus eines anti-Nectin-4-ADC und dem Infektions-/antimykobakteriellen Behandlungsparadigma der Lepra gibt. Es gibt keine Grundlage, diesen Kandidaten über die erste Sichtung hinaus vorzubringen.
+Die Vorhersage für Lepra beruht ausschließlich auf einem Modellscore (L5) ohne klinische Studien, Literatur oder plausiblen Wirkmechanismus. Zudem ist die Zulassung in Deutschland nur noch als erloschen geführt.
 
-**Zum Fortfahren ist folgendes erforderlich:**
-- Formale DrugBank/regulatorische Wirkmechanismus (WM) -Daten (DG002)
-- TFDA/Packungsbeilage-Warnhinweise, Kontraindikationen und Arzneimittelwechselwirkungsdaten (DG001, blockierend — erforderlich vor jeder Sicherheitsbewertung, für dieses Arzneimittel allgemein, unabhängig von der Indikation)
-- Unabhängige biologische Begründung (z. B. Nectin-4-Expression oder relevante Zielexpression in von Lepra betroffenen Geweben, oder beliebige veröffentlichte Fallberichte) vor dieser Paarung, die weitere Investitionsbemühungen wert ist
-- Angesichts des völligen Mangels an unterstützenden Belegen wird dieser Kandidat derzeit nicht zur weiteren Bewertung empfohlen
-
----
-
-### Anhang: Andere vom Modell vorhergesagte Indikationen, die überprüft wurden (Ränge 2–9)
-
-Zur Vollständigkeit wurden die verbleibenden Top-9-TxGNN-Vorhersagen in diesem Nachweispaket ebenfalls überprüft und zeigen das gleiche Muster — keine unterstützenden Studien, und mechanistische Begründungen, die konsequent *gegen* biologische Plausibilität argumentieren:
-
-| Rang | Vorhergesagte Erkrankung | Score | Anmerkung |
-|------|------|------|------|
-| 2 | Multiple endokrine Neoplasie | 99.43% | Genetisches (MEN1/RET) endokrines Tumorsyndroms; kein Nachweis von Nectin-4-Expressions-Relevanz |
-| 3 | Cytomegalovirus-Infektion | 99.36% | Virale Infektion; zytotoxischer ADC-Mechanismus hat keine antivirale Begründung und könnte theoretisch das Infektionsrisiko durch Myelosuppression verschlimmern |
-| 4 | Candidiasis | 99.30% | Einziger Literatur-Hit (PMID 41341429) ist ein FAERS-Pharmakovigilanz-Signal, das Candidiasis als **Nebenwirkung** bei ADC-behandelten Blasenkrebspatienten beschreibt — d. h. Nachweis von Schaden, nicht Wirksamkeit; dies sollte nicht als unterstützend interpretiert werden |
-| 5 | Zerebraler Infarkt | 99.23% | Ischämische Gefäßerkrankung; keine mechanistische Überschneidung, und ADC-bezogene Toxizitäten (Myelosuppression, Neuropathie) sprechen gegen diese Indikation |
-| 6 | HIV-Infektionskrankheit | 99.19% | Antiretroviraler Mechanismus unabhängig von ADC-Zytotoxizität |
-| 7 | Homozygote familäre Hypercholesterinämie | 99.18% | Lipidstoffwechsel-/LDL-Rezeptor-Störung; keine pharmakologische Überschneidung |
-| 8 | Bösartiger Katarrh (Bösartiges Katarrhalfieber) | 99.13% | **Veterinärkrankheit** (bovines/Rinderherpesvirus) — wahrscheinlich ein Ontologie-Mapping-Artefakt zwischen Arten, kein zulässiger Indikation beim Menschen |
-| 9 | Infektiöse bovine Rhinotracheitis | 99.13% | **Veterinärkrankheit** (Rinderherpesvirus-1) — selbes wahrscheinliches Ontologie-Artefakt wie Rang 8 |
-
-**Empfehlung:** Keiner der Top-9-Kandidaten in diesem Batch erfüllt auch nur vorläufige Plausibilitätsschwellen. Besonders die Ränge 8–9 deuten auf ein Datenqualitäts-/Ontologie-Mapping-Problem hin (Veterinär- vs. menschliche Krankheitsbegriffe), das möglicherweise ein Wissens-Graphen-Datenbereinigungs-Review garantiert, anstatt klinische Nachfolgearbeit.
-
+**Für ein Weiterkommen wären erforderlich:**
+- Detaillierte Wirkmechanismus-Daten (MOA)
+- Fachinformation (Warnhinweise, Gegenanzeigen) als Grundlage für die Sicherheitsbewertung
+- Präklinische Belege für einen biologischen Zusammenhang zwischen Nectin-4/MMAE und Lepra
+- Klärung des aktuellen Zulassungs- und Marktstatus in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -2,7 +2,7 @@
 layout: default
 title: Sevoflurane
 parent: Nur Modellvorhersage (L5)
-nav_order: 362
+nav_order: 426
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,89 +29,86 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Sevoflurane: Von der Allgemeinanästhesie zur Prinzmetal-Angina
+# Sevofluran: Von der Allgemeinanästhesie zu Prinzmetal-Angina
 
 ## Zusammenfassung in einem Satz
 
-Sevoflurane ist ein in der klinischen Praxis weit verbreitetes inhalatives Allgemeinanästhetikum zur Anästhesieeinleitung und -aufrechterhaltung.
-Das TxGNN-Modell sagt voraus, dass es möglicherweise therapeutisches Potenzial für **Prinzmetal-Angina (vasospastische Angina)** besitzt,
-aber derzeit existieren **keine klinischen Studien und keine Literaturbelege**, die diese Richtung unterstützen – es handelt sich um ein reines Netzwerk-Extrapolationsergebnis des Modells.
+Sevofluran ist ein inhalatives Narkosemittel (volatiles Anästhetikum), das für die Allgemeinanästhesie eingesetzt wird. Das TxGNN-Modell sagt voraus, dass es bei **Prinzmetal-Angina** wirksam sein könnte. Für diese Vorhersage liegen jedoch **keine klinischen Studien** und **keine Publikationen** vor, sie beruht ausschließlich auf der Modellvorhersage.
 
 ---
 
-## Schnellübersicht
+## Kurzüberblick
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Anästhesieeinleitung und -aufrechterhaltung (inhalatives Anästhetikum; dieser Evidence Pack enthält keine formalen Fachinformationstexte zur ursprünglichen Indikation) |
-| Vorhergesagte neue Indikation | Prinzmetal Angina (vasospastische Angina) |
-| TxGNN-Vorhersagepunktzahl | 99.78% |
-| Evidenzebene | L5 (nur Modellvorhersage, keine tatsächliche Forschung) |
-| Status auf dem taiwanesischen Markt | Nicht vermarktet |
-| Anzahl der Lizenzen | 0 |
-| Empfohlene Entscheidung | **Hold** |
-
----
-
-## Warum wirkt diese Vorhersage plausibel?
-
-Derzeit liegen für Sevoflurane noch keine strukturierten Daten zu den detaillierten Wirkmechanismen (MOA) vor (DrugBank-Abfrage steht noch aus),
-aber basierend auf bekannter klinischer Pharmakologie kann Sevoflurane als inhalatives Anästhetikum nachweislich durch Aktivierung von **ATP-sensitiven Kaliumkanälen (K_ATP-Kanal)**
-die „anästhetische Präkonditionierung (anesthetic preconditioning)" induzieren, die einen gewissen Schutzeffekt vor myokardialer Ischämie bietet – dies ist ein bekannter unterstützender Effekt in der Herzanästhesie.
-
-Der pathophysiologische Kern der Prinzmetal-Angina liegt jedoch bei der **Koronararterienspasmus**, wobei therapeutische Mechanismen auf die Regulierung von Kalziumionenkanälen der vaskulären glatten Muskulatur ausgerichtet sind (wie Kalziumkanalblocker).
-Dies stellt eine andere Ebene des Wirkmechanismus dar als die durch anästhetische Präkonditionierung vermittelte „myokardiale Ischämietoleranz". Zwischen beiden existiert nur eine indirekte Verbindung durch das Konzept des „myokardialen Schutzes",
-und es gibt keinen direkten Beweis dafür, dass Sevoflurane selbst Koronararterienspasmus lindern oder verhindern kann. Diese Vorhersage sollte als statistische Extrapolation des TxGNN-Wissensgraphen betrachtet werden,
-nicht als evidence-basierte Wirkmechanismus-Hypothese.
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | In den für diesen Bericht zusammengestellten Daten nicht hinterlegt (die Zulassungstexte sind leer); bekannt ist die Anwendung als Inhalationsanästhetikum |
+| Vorhergesagte neue Indikation | Prinzmetal-Angina |
+| TxGNN-Vorhersagewert | 99,78 % |
+| Evidenzlevel | L5 |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen |
+| Anzahl der Zulassungen | 2 (beide erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Belege aus klinischen Studien
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind keine registrierten klinischen Studien zu diesem Thema vorhanden.
+Zum Wirkmechanismus von Sevofluran liegen in den zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Sevofluran als volatiles Anästhetikum unter anderem GABA-A- und NMDA-Rezeptoren moduliert und gewisse gefäßerweiternde sowie calciumkanalmodulierende Effekte besitzt.
 
----
+Theoretisch könnten diese vasodilatierenden Eigenschaften mit dem Koronarspasmus bei Prinzmetal-Angina zusammenhängen. Dieser Zusammenhang ist jedoch rein spekulativ und durch keine Studie oder Publikation belegt. Zudem ist ein inhalatives Narkosemittel für die Dauerbehandlung einer vasospastischen Erkrankung nicht geeignet. Die hohe Modellbewertung ist daher mit Vorsicht zu interpretieren.
 
-## Literaturbelege
-
-Derzeit sind keine Literaturbelege verfügbar.
+Weitere Vorhersagen des Modells (jeweils mit Evidenzlevel L4–L5 und Empfehlung „Hold“) betreffen unter anderem das Tourette-Syndrom, Fibromyalgie, Tendinitis, Migräne und die Einschlusskörperchenmyositis. Bei den Vorhersagen mit Literatur handelt es sich ausschließlich um Berichte zur Anästhesieführung, nicht um Therapiestudien.
 
 ---
 
-## Informationen zum taiwanesischen Markt
+## Klinische Studien
 
-Sevoflurane wurde in diesem Datensatz **bislang noch nicht auf dem taiwanesischen Markt zugelassen**, daher können keine Lizenzierungsdaten aufgeführt werden (`total_licenses = 0`).
-
----
-
-## Sicherheitsüberlegungen
-
-Die wesentlichen Sicherheitsdaten für dieses Kandidatenarzneimittel (TFDA-Fachinformationen Warnhinweise, Kontraindikationen, Arzneimittelwechselwirkungen) sind **derzeit noch nicht verfügbar**,
-und diese Lücke wurde als **Blocking (DG001)** gekennzeichnet – bis diese geschlossen werden, ist ein Übergang zur nächsten Phase der Sicherheitsinitialbeurteilung (S1) nicht möglich.
-Es wird empfohlen, zunächst die offiziellen Fachinformationen von der BfArM-Website herunterzuladen und die Warnhinweise und Kontraindikationen zu analysieren.
-
-Bis die Daten ergänzt sind, sollten Sie bitte die Warnhinweise und Vorsichtsmaßnahmen aus der Originalfachinformation (package insert) als Grundlage heranziehen.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Literaturevidenz
+
+Zur Prinzmetal-Angina liegen derzeit keine zugehörigen Publikationen vor.
+
+---
+
+## Marktinformationen Deutschland
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/V/C/000072 | SevoFlo | – | – (erloschen) |
+| EMEA/V/C/004199 | Sevohale (früher Sevocalm) | – | – (erloschen) |
+
+---
+
+## Sicherheitsaspekte
+
+**Kontraindikationen laut Wissensgraph (PrimeKG, nicht aus dem Beipackzettel):** Epilepsie, Nierenerkrankung, Pyoureter, Lebererkrankung, Gallenblasenerkrankung, hypotensive Störung, maligne Hyperthermie bei Anästhesie, belastungsinduzierte maligne Hyperthermie, Pseudotumor cerebri, intrakranielle Hypertonie, Duchenne-Muskeldystrophie, Muskeldystrophie, Becker-Muskeldystrophie, Proteinurie.
+
+**Arzneimittelwechselwirkungen:** Es wurden 100 Wechselwirkungen erfasst. Als **schwerwiegend (Major)** eingestuft sind:
+- Epinephrin
+- Dolasetron
+- Cisaprid
+
+Zahlreiche weitere Wechselwirkungen sind als moderat eingestuft (z. B. Morphin, Ondansetron, Palonosetron, Clarithromycin, Levofloxacin, Famotidin, Exenatid, Loperamid sowie verschiedene Abführmittel), Metronidazol als geringfügig.
+
+Warnhinweise und Kontraindikationen aus der Fachinformation liegen nicht vor. Bitte die Fachinformation zu den Sicherheitsangaben heranziehen.
+
+---
+
+## Fazit und nächste Schritte
 
 **Entscheidung: Hold**
 
 **Begründung:**
-Die höchstbewertete vorhergesagte Indikation (Prinzmetal angina) verfügt über völlig mangelnde Belege aus klinischen Studien oder Literatur zur Unterstützung, der Wirkmechanismus-Zusammenhang ist schwach und basiert auf indirekten Rückschlüssen;
-gleichzeitig fehlen dem Kandidatenarzneimittel TFDA-Fachinformationen zu Sicherheitsaspekten (Blocking-Level-Lücke), weshalb es nicht in die Sicherheitsinitialbeurteilung eingehen kann.
-Zur Verdeutlichung: Die übrigen 9 vorhergesagten Indikationen in diesem Evidence Pack (Tourette-Syndrom, Fibromyalgie, Tendinitis,
-idiopathische granulomatöse Myositis, Myositis fibrosa, nephrogenes SIAD, Trichotillomanie,
-Migräne-Störung, Myositis mit Einschlüssen) sind ebenfalls alle Hold, und die bestehende Literatur besteht überwiegend aus „Patientenfall- und Folgeberichten über Operationen unter Anästhesie aufgrund der ursprünglichen Erkrankung" oder
-Vergleichsstudien von Anästhesieverfahren, die durch Verwechslung von Arzneimittelnamen und Krankheitsnamen entstehen (confounding), und stellen keine therapeutischen Belege dar.
-Nephrogenes SIAD könnte sogar durch die bei der Sevoflurane-Metabolisierung entstehenden anorganischen Fluorid-Ionen verursachte Nierentoxizität zu einer potenziellen Kontraindikationsrichtung führen.
+Die Vorhersage zur Prinzmetal-Angina beruht allein auf dem Modell (L5) ohne Studien oder Literatur. Zudem ist ein inhalatives Narkosemittel für eine chronische vasospastische Erkrankung pharmakologisch und praktisch kaum geeignet. In Deutschland sind zudem keine gültigen Zulassungen vorhanden.
 
-**Falls fortgefahren werden soll, müssen folgende Daten ergänzt werden:**
-- TFDA-Fachinformationen PDF-Analyse zur Beschaffung von Warnhinweisen und Kontraindikationen (DG001, Blocking)
-- DrugBank-API-Abfrage für vollständige Wirkmechanismus-Daten (DG002, High)
-- Falls die Prinzmetal-Angina-Hypothese validiert werden soll, müssen Mechanismus-Forschungen auf in-vitro-/Tier-Ebene zur Koronararterien-Glattmuskulatur ergänzt werden, als Voraussetzung für die Einleitung prospektiver klinischer Beobachtungen
-
+**Für ein Weiterkommen erforderlich:**
+- Fachinformation (Warnhinweise, Kontraindikationen) der Zulassungsbehörde auswerten; diese Lücke blockiert die Sicherheitsprüfung
+- Detaillierte Wirkmechanismus-Daten (MOA) ergänzen
+- Präklinische Belege zu einem Effekt auf Koronarspasmen
+- Prüfung der Anwendbarkeit des Applikationswegs (Inhalation) für die Zielindikation
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

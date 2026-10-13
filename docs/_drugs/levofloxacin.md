@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Levofloxacin
-parent: Mittlere Evidenz (L3-L4)
-nav_order: 231
-evidence_level: L4
+parent: Nur Modellvorhersage (L5)
+nav_order: 270
+evidence_level: L5
 indication_count: 10
 ---
 
 # Levofloxacin
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,69 +29,98 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Levofloxacin: Von Bakterieninfektionen zur punktförmigen epithelialen Keratokonjunktivitis
+# Levofloxacin: Von Mukoviszidose und Atemwegsinfektionen zu punktförmiger epithelialer Keratokonjunktivitis
 
 ## Zusammenfassung in einem Satz
 
-> Levofloxacin ist ein Breitspektrum-Fluorchinolon-Antibiotikum, das bereits zur Behandlung von Bakterieninfektionen etabliert ist.
-> Das TxGNN-Modell prognostiziert, dass es möglicherweise wirksam gegen **punktförmige epitheliale Keratokonjunktivitis** sein könnte,
-> aber derzeit unterstützen nur **1 Publikation** diese Richtung – und dieser Bericht beschreibt tatsächlich einen *mikrosporidialen* (nicht-bakteriellen) Erreger, eine mechanistische Nichtübereinstimmung, die die Stärke dieses spezifischen Signals begrenzt.
+Levofloxacin ist ein Fluorchinolon-Antibiotikum, das ursprünglich zur Behandlung von Mukoviszidose und Atemwegsinfektionen zugelassen wurde (Handelsname Quinsair). Das TxGNN-Modell sagt voraus, dass es bei **punktförmiger epithelialer Keratokonjunktivitis** wirksam sein könnte. Dafür gibt es jedoch **keine klinischen Studien** und nur **1 Publikation** (ein Ausbruchsbericht ohne Bezug zur Wirksamkeit von Levofloxacin), sodass die Vorhersage klinisch nicht gestützt ist.
 
-## Schnellübersicht
+---
 
-| Item | Content |
+## Kurzübersicht
+
+| Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Bakterieninfektionen (Fluorchinolon-Antibiotika-Klasse; kein formaler genehmigter Indikationstext in der Datei) |
+| Ursprüngliche Indikation | Mukoviszidose; Atemwegsinfektionen |
 | Vorhergesagte neue Indikation | Punktförmige epitheliale Keratokonjunktivitis |
-| TxGNN-Vorhersage-Score | 99.92% |
-| Evidenzgrad | L4 |
-| Status auf dem taiwanischen Markt | ✗ Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Halten (Forschungsfrage) |
+| TxGNN-Vorhersagewert | 99,92 % |
+| Evidenzniveau | L5 |
+| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung (Cancelled only) |
+| Anzahl der Zulassungen | 1 (davon 0 gültig) |
+| Empfohlene Entscheidung | Hold |
 
-## Warum ist diese Vorhersage sinnvoll?
+---
 
-Derzeit sind detaillierte Daten zum Wirkmechanismus nicht verfügbar. Basierend auf bekannten Informationen ist Levofloxacin ein Antibakterielles Mittel der Fluorchinolon-Klasse, und seine Wirksamkeit gegen Bakterieninfektionen ist gut etabliert; mechanistisch könnte es auf *bakterielle* Formen der Keratokonjunktivitis anwendbar sein, wo topische Fluorchinolone bereits eine häufige klinische Wahl sind.
+## Warum ist diese Vorhersage plausibel?
 
-Allerdings beschreibt die einzige unterstützende Literatur in diesem Evidenzpaket (PMID 30055152) tatsächlich keine bakterielle Ätiologie – sie berichtet über einen Ausbruch von **mikrosporidialer** Keratokonjunktivitis, der mit kontaminiertem Wasser aus Schwimmbädern in Taiwan verbunden ist. Mikrosporidia sind eukaryotische Erreger außerhalb des antibakteriellen Spektrums von Levofloxacin, daher unterstützt diese besondere Evidenz die TxGNN-Vorhersage mechanistisch nicht, obwohl die allgemeine Arzneimittelklasse für bakterielle Keratokonjunktivitis plausibel ist.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Levofloxacin gehört zu den Fluorchinolonen und hemmt bakterielle DNA-Gyrase und Topoisomerase IV. Seine Wirksamkeit bei bakteriellen Atemwegsinfektionen ist belegt.
 
-Es ist auch erwähnenswert, dass unter den 10 TxGNN-prognostizierten Indikationen in diesem Evidenzpaket zwei weitere Kandidaten wesentlich stärkere Evidenzen zeigen: **monoklonale Gammopathie** (Rang 6, Evidenzgrad L1, unterstützt durch eine Phase-3-RCT – die TEAMM-Studie – zur Infektionsprophylaxe) und **septikämische Pest** (Rang 9, Evidenzgrad L2, eine Indikation, für die Levofloxacin bereits via Tierregel FDA-genehmigt wurde). Diese könnten produktivere Richtungen für weitere Umwidmungsbewertungen darstellen als der hier besprochene Kandidat mit Rang 1.
+Die vorhergesagte Indikation ist mechanistisch jedoch kaum nachvollziehbar. Die einzige gefundene Publikation beschreibt einen Ausbruch mikrosporidialer Keratokonjunktivitis, ausgelöst durch kontaminiertes Schwimmbadwasser. Mikrosporidien sind keine typischen Ziele eines Breitspektrum-Antibakteriums wie Levofloxacin. Der sehr hohe TxGNN-Wert ist daher durch die klinische Evidenz nicht gedeckt und sollte als reine Modellvorhersage betrachtet werden.
+
+---
 
 ## Evidenz aus klinischen Studien
 
-Derzeit sind keine entsprechenden klinischen Studien registriert.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
-## Literatur-Evidenz
+---
 
-| PMID | Year | Type | Journal | Wichtigste Erkenntnisse |
+## Evidenz aus der Literatur
+
+| PMID | Jahr | Typ | Fachzeitschrift | Zentrale Aussagen |
 |------|-----|------|------|---------|
-| [30055152](https://pubmed.ncbi.nlm.nih.gov/30055152/) | 2018 | Ausbruchsbericht | American Journal of Ophthalmology | Beschreibt einen Ausbruch von **mikrosporidialer** (nicht-bakterieller) Keratokonjunktivitis von kontaminierten Schwimmbädern in Taiwan; der Erregertyp passt nicht zum antibakteriellen Wirkmechanismus von Levofloxacin |
+| [30055152](https://pubmed.ncbi.nlm.nih.gov/30055152/) | 2018 | Ausbruchsbericht | American Journal of Ophthalmology | Ausbruch mikrosporidialer Keratokonjunktivitis durch Wasserkontamination in Schwimmbädern in Taiwan; kein Wirksamkeitsnachweis für Levofloxacin |
 
-## Informationen zum taiwanischen Markt
+---
 
-Levofloxacin hat derzeit keine TFDA-Marktgenehmigung in dieser Datei (0 Lizenzen) und wird nach diesem Datensatz nicht in Taiwan vermarktet.
+## Marktinformationen Deutschland
 
-## Sicherheitsüberlegungen
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/002789 | Quinsair | – | Mukoviszidose; Atemwegsinfektionen |
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+Diese Zulassung (Inhaber: Chiesi Farmaceutici S.p.A) ist erloschen bzw. widerrufen; es besteht keine gültige Zulassung.
 
-Hinweis: Die regulatorische Kennzeichnung (Warnhinweise, Kontraindikationen) wird in diesem Evidenzpaket als **blockierende** Datenlücke gekennzeichnet (DG001) – sie muss behoben werden, bevor dieser Kandidat in eine formelle Sicherheitsbewertung (S1) voranschreiten kann.
+---
 
-## Schlussfolgerung und nächste Schritte
+## Sicherheitsaspekte
 
-**Entscheidung: Halten**
+- **Kontraindikationen bzw. Risikokonstellationen (aus dem Wissensgraphen, nicht aus dem Beipackzettel):** Die folgenden Erkrankungen sind im Wissensgraphen als Kontraindikationen hinterlegt:
+  - Herz und Rhythmus: Long-QT-Syndrom (auch familiär), Torsades de pointes, Myokardischämie, koronare Herzkrankheit
+  - Nervensystem und Muskulatur: Epilepsie, periphere Neuropathie bzw. Erkrankungen des peripheren Nervensystems, Myasthenia gravis (auch Erwachsenenform), Erkrankungen der neuromuskulären Endplatte, Rhabdomyolyse
+  - Sehnen und Bewegungsapparat: Tendinitis, Periarthritis, Exostose, noduläre Fasziitis
+  - Leber, Niere, Stoffwechsel: Lebererkrankung, medikamentös bedingte Leberschädigung, Gallenblasenerkrankung, eingeschränkte Nierenfunktion, Diabetes mellitus, diabetische Ketoazidose, Kaliummangel
+  - Blutbild: Thrombozytopenie, Leukopenie, Anämie (auch makrozytär), Panzytopenie
+  - Magen-Darm: Clostridium-difficile-Kolitis, nekrotisierende Enterokolitis des Neugeborenen
+- **Arzneimittelinteraktionen:** In der Abfrage wurden 100 Wechselwirkungen gefunden. Beispiele für Wechselwirkungen mit hohem Schweregrad (Major): **Tramadol** und **Hydrocortison**. Mäßige (Moderate) Wechselwirkungen bestehen u. a. mit Abirateron, Acarbose, Famotidin, Formoterol, Ketorolac, Adenosin, Ibuprofen, Ethinylestradiol, Albiglutid, Salbutamol, Alfuzosin, Alogliptin, Metformin, Pioglitazon und Amifampridin. Geringfügige (Minor) Wechselwirkungen bestehen mit Paclitaxel, Aldesleukin und Altretamin.
+
+Angaben aus dem Beipackzettel (Warnhinweise, Kontraindikationen) liegen nicht vor; bitte den Beipackzettel zu Rate ziehen.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Hold**
 
 **Begründung:**
+Für die vorhergesagte Indikation gibt es weder klinische Studien noch eine mechanistisch plausible Verbindung; die einzige Publikation ist ein Ausbruchsbericht ohne Bezug zu einer Levofloxacin-Behandlung. Zudem besteht in Deutschland keine gültige Zulassung, und die Sicherheitsdaten aus dem Beipackzettel fehlen.
 
-Die einzige literarische Evidenz für punktförmige epitheliale Keratokonjunktivitis beschreibt einen mechanistisch nicht passenden Erreger (mikrosporidat, nicht bakteriell), und der Evidenzgrad L4 ohne klinische Studien rechtfertigt nicht, diese spezifische Indikation in diesem Stadium über eine Forschungsfrage hinaus voranzubringen.
+**Für ein Weiterverfolgen wären erforderlich:**
+- Beipackzettel-Informationen (Warnhinweise, Kontraindikationen) von der BfArM-Website, da dieser Punkt als blockierende Datenlücke für die Sicherheitsprüfung gilt
+- Daten zum Wirkmechanismus aus DrugBank
+- Präklinische oder klinische Belege für eine Wirkung auf die auslösenden Erreger der punktförmigen Keratokonjunktivitis (z. B. Mikrosporidien oder virale Ursachen)
+- Prüfung der Darreichungsform (z. B. ophthalmische Anwendung) und der Verfügbarkeit in Deutschland
 
-**Um fortzufahren, wird folgendes benötigt:**
+---
 
-- TFDA-genehmigte Kennzeichnung (Warnhinweise/Kontraindikationen) – derzeit eine blockierende Lücke (DG001)
-- Formale Wirkmechanismus-Dokumentation (DG002)
-- Literatur, die speziell Levofloxacin gegen *bakterielle* (nicht mikrosporidiale) Keratokonjunktivitis-Erreger evaluiert
-- Erwägen Sie, die Umwidmungsbewertung auf die beiden höher-evidenten Kandidaten in diesem Paket umzuleiten: monoklonale Gammopathie/Plasmazelldyskrasie-Infektionsprophylaxe (L1, Phase-3-RCT) und septikämische Pest (L2, via Tierregel FDA-genehmigt)
+## Hinweis zu weiteren vorhergesagten Indikationen
 
+Unter den weiteren Vorhersagen sind zwei erwähnenswert:
+
+- **Monoklonale Gammopathie (Rang 7, Evidenzniveau L1):** Die Phase-3-Studie TEAMM (PMID [31668592](https://pubmed.ncbi.nlm.nih.gov/31668592/)) zeigte den Nutzen einer Levofloxacin-Prophylaxe gegen Infektionen bei neu diagnostiziertem Myelom. Dies ist eine unterstützende Infektionsprophylaxe und keine Behandlung der Gammopathie selbst; eine Übertragung auf die prämaligne MGUS ist nicht belegt. Empfehlung: als Forschungsfrage mit Schutzmaßnahmen (Resistenz, C.-difficile-Risiko, Tendinopathie, QT-Verlängerung, Interaktionen).
+- **Septikämische Pest (Rang 9, Evidenzniveau L4):** Starke präklinische Evidenz aus Tiermodellen (Afrikanische Grünmeerkatze, PMIDs [21347450](https://pubmed.ncbi.nlm.nih.gov/21347450/), [32435805](https://pubmed.ncbi.nlm.nih.gov/32435805/)), die die Zulassung nach der FDA-Animal-Rule stützte; Humandaten fehlen, und die Daten betreffen v. a. die Lungenpest. Empfehlung: Forschungsfrage.
+
+Die übrigen Vorhersagen (z. B. polyklonales Hyperviskositätssyndrom, Hyperamylasämie, kongenitale Analbuminämie) haben keine plausible mechanistische Grundlage und keine klinische Evidenz.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

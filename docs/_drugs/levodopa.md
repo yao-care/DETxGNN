@@ -2,7 +2,7 @@
 layout: default
 title: Levodopa
 parent: Nur Modellvorhersage (L5)
-nav_order: 230
+nav_order: 269
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,37 +29,35 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Levodopa: Von Morbus Parkinson bis zur subakuten Rasmussen-Enzephalitis
+# Levodopa: Von Morbus Parkinson zu Rasmussen-Enzephalitis
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Levodopa ist ein Dopaminpräkursor, der in erster Linie zur Behandlung des Morbus Parkinson durch Dopaminvermehrung im Striatum bekannt ist.
-> Das TxGNN-Modell prognostiziert, dass es möglicherweise wirksam ist für **subakute Rasmussen-Enzephalitis**,
-> diese Prognose wird jedoch derzeit durch **keine klinischen Studien** und **keine veröffentlichte Literatur** gestützt — sie basiert ausschließlich auf der Ähnlichkeitsbewertung des Wissensgraphen.
+Levodopa ist eine Vorstufe von Dopamin und wird ursprünglich zur Behandlung der Parkinson-Krankheit eingesetzt. Das TxGNN-Modell sagt voraus, dass es bei der **Rasmussen-Enzephalitis** (subakute Enzephalitis) wirksam sein könnte. Hierfür liegen jedoch **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage beruht allein auf dem Modell.
 
 ---
 
 ## Schnellübersicht
 
-| Element | Inhalt |
-|---------|---------|
-| Ursprüngliche Indikation | Morbus Parkinson (basierend auf gut etablierter Pharmakologie; nicht in strukturierten regulatorischen Daten vorhanden) |
-| Prognostizierte neue Indikation | Subakute Rasmussen-Enzephalitis |
-| TxGNN-Prognosescore | 99.06% |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Morbus Parkinson |
+| Vorhergesagte neue Indikation | Rasmussen-Enzephalitis (Rasmussen subacute encephalitis) |
+| TxGNN-Vorhersagewert | 99,06 % |
 | Evidenzstufe | L5 |
-| Marktstatus in Deutschland | ✗ Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Zurückstellen |
+| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
+| Anzahl der Zulassungen | 5 (alle erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Prognose sinnvoll?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Daten zum Wirkmechanismus nicht verfügbar. Basierend auf bekannter klinischer Anwendung ist Levodopa ein Dopaminpräkursor, dessen Wirksamkeit beim Morbus Parkinson durch Dopaminvermehrung im Striatum gut etabliert ist.
+Zum Wirkmechanismus von Levodopa liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Levodopa ist ein Dopamin-Vorläufer, der im nigrostriatalen Signalweg wirkt. Seine Wirksamkeit bei Morbus Parkinson ist gut belegt.
 
-Die subakute Rasmussen-Enzephalitis ist jedoch eine seltene, einseitige, chronische pädiatrische neuroentzündliche/autoimmune Erkrankung, die primär durch T-Zell-vermittelte neuronale Zerstörung und Mikroglia-Aktivierung angetrieben wird. Es gibt keine etablierte pathophysiologische Verbindung zwischen diesem Krankheitsprozess und dopaminerger Signalgebung.
+Die Rasmussen-Enzephalitis ist eine seltene, chronische, meist einseitige entzündliche Hirnerkrankung. Sie ist gekennzeichnet durch T-Zell-vermittelte Neuroinflammation, fortschreitende Atrophie einer Hirnhälfte und schwer behandelbare fokale Krampfanfälle. Ein mechanistischer Zusammenhang mit der ursprünglichen Indikation ist nicht belegt. Eine Modulation der Neuroimmunaktivität durch Dopamin ist bestenfalls eine theoretische Verbindung. Es gibt keinen Hinweis darauf, dass Levodopa die immunvermittelte Pathologie oder die Anfallskontrolle beeinflusst.
 
-Diese Prognose spiegelt daher eher eine Wissensgraphen-Ähnlichkeitsinferenz von TxGNN (Score 0.99) wider als eine validierte mechanistische Brücke zwischen Neuroinflammation und Dopaminstoffwechsel. Sie sollte ausschließlich als spekulativ und hypothesengenerierend betrachtet werden, nicht als mechanismusgestützt.
+Der hohe TxGNN-Wert (0,99) ist eine reine Modellvorhersage ohne Rückhalt in Studien oder Literatur. Zudem können dopaminerge Substanzen in manchen Situationen die Krampfschwelle senken, sodass ein Sicherheitsrisiko nicht auszuschließen ist.
 
 ---
 
@@ -71,35 +69,52 @@ Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ## Evidenz aus der Literatur
 
-Derzeit ist keine zugehörige Literatur verfügbar.
+Derzeit liegt keine zugehörige Literatur vor.
 
 ---
 
-## Marktinformation Deutschland
+## Marktinformationen Deutschland
 
-Derzeit sind keine Marketingzulassungen in Deutschland registriert (0 Lizenzen auf Datei).
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/004786 | Inbrija | – | Morbus Parkinson |
+| EMEA/H/C/006429 | Onerji | – | Morbus Parkinson |
+| EMEA/H/C/000511 | Stalevo | – | Morbus Parkinson |
+| EMEA/H/C/002785 | Corbilta (zuvor Levodopa/Carbidopa/Entacapone Sandoz) | – | Morbus Parkinson |
+| EMEA/H/C/002441 | Levodopa/Carbidopa/Entacapone Orion | – | Morbus Parkinson |
+
+Alle fünf Zulassungen sind erloschen bzw. zurückgezogen; derzeit gibt es keine gültige Zulassung.
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte lesen Sie die Packungsbeilage für Sicherheitsinformationen.
+- **Kontraindikationen laut Wissensgraph (PrimeKG, keine Packungsbeilagen-Angaben):** Im Wissensgraphen sind u. a. folgende Erkrankungen als Kontraindikationen hinterlegt:
+  - Neurologisch/psychiatrisch: Multisystematrophie, medikamenteninduzierte Dyskinesie, Epilepsie, Angststörung, neurotische Störung, dysthyme Störung, psychotische Störung, schizophreniforme Störung, schizoaffektive Störung, psychische Störung
+  - Kardiovaskulär: orthostatische Hypotonie, posturales orthostatisches Tachykardiesyndrom (POTS), Myokardinfarkt, Koronarthrombose, plötzlicher Herzstillstand, Erregungsleitungsstörung des Herzens
+  - Augen: Offenwinkelglaukom, Engwinkelglaukom
+  - Magen-Darm/Leber/Niere: Magengeschwür, Ulkuskrankheit, Nierenerkrankung, Pyoureter, Lebererkrankung, Gallenblasenerkrankung, Durchfallerkrankung
+  - Stoffwechsel/Sonstige: Diabetes mellitus, diabetische Ketoazidose, Melanom, Hämoglobinopathie
+- **Arzneimittelwechselwirkungen:** Die Abfrage ergab 100 Wechselwirkungen. Folgende Beispiele sind aufgeführt:
+  - Moderat: Epinephrin, Ephedrin, Methscopolamin, Hyoscyamin, Atropin, Glycopyrronium, Clidinium, Dicyclomin, Mepenzolat, Bupropion, Metronidazol, Pyridoxin, Eisen, Metoclopramid
+  - Gering: Aluminiumhydroxid, Calciumcarbonat, Magaldrat, Magnesiumcarbonat, Magnesiumhydroxid, Magnesiumoxid
+- Warnhinweise und Gegenanzeigen aus der Packungsbeilage liegen nicht vor und müssen ergänzt werden.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Zurückstellen**
+**Entscheidung: Hold**
 
 **Begründung:**
-Derzeit gibt es keine klinischen Studien oder veröffentlichte Literatur, die diese Prognose stützen, und es gibt keine etablierte mechanistische Verbindung zwischen dopaminergen Wegen und der neuroentzündlichen Pathologie der Rasmussen-Enzephalitis. Das Arzneimittel ist auch nicht auf dem deutschen Markt zugelassen.
+Die Vorhersage stützt sich ausschließlich auf das Modell (Evidenzstufe L5); es gibt weder Studien noch Publikationen, und ein plausibler mechanistischer Zusammenhang fehlt. Hinzu kommen eine mögliche Senkung der Krampfschwelle, die fehlende gültige Zulassung in Deutschland sowie fehlende Daten zu Warnhinweisen und Gegenanzeigen.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- Bestätigte Wirkmechanismus-Daten (MOA)
-- TFDA/BfArM-Packungsbeilage mit Warnhinweisen, Kontraindikationen und Arzneimittelinteraktionsdaten
-- Präklinische oder mechanistische Studien, die eine plausible Verbindung zwischen dopaminerger Signalgebung und Neuroinflammation/autoimmun vermittelter neuronaler Verletzung herstellen
-- Strukturierte Bestätigung der ursprünglichen zugelassenen Indikation(en)
-
+**Für ein Fortschreiten ist Folgendes erforderlich:**
+- Packungsbeilage des BfArM mit Warnhinweisen und Gegenanzeigen (blockierende Datenlücke für die Sicherheitsprüfung)
+- Daten zum Wirkmechanismus von Levodopa (z. B. aus DrugBank)
+- Präklinische oder mechanistische Belege für einen Nutzen bei der Rasmussen-Enzephalitis (Neuroimmunmodulation, Anfallskontrolle)
+- Bewertung des Anfallsrisikos dopaminerger Therapie bei dieser Erkrankung
+- Prüfung der Darreichungsformen/Applikationswege und der Zulassungssituation in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

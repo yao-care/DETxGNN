@@ -2,7 +2,7 @@
 layout: default
 title: Ustekinumab
 parent: Hohe Evidenz (L1-L2)
-nav_order: 418
+nav_order: 489
 evidence_level: L2
 indication_count: 10
 ---
@@ -29,99 +29,110 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Ustekinumab: Von Psoriasis zu Dermatitis (Atopische Dermatitis)
+# Ustekinumab: Von Psoriasis, Psoriasis-Arthritis und Morbus Crohn zu Dermatitis
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Ustekinumab ist ein monoklonaler Antikörper gegen IL-12/IL-23-p40; gemäß der in diesem Paket enthaltenen Literaturbelege ist es bereits für Psoriasis, Psoriasis-Arthritis, Morbus Crohn und Colitis ulcerosa zugelassen, obwohl in diesem Evidenzpaket keine formalen deutschen (BfArM-) Zulassungsdaten verfügbar sind.
-Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam gegen **Dermatitis (Atopische Dermatitis)** ist, unterstützt durch **7 klinische Studien** (einschließlich 2 abgeschlossener Phase-2-RCTs) und **20 Publikationen**.
-Allerdings bedeutet eine **Blocking**-Datenlücke bei der TFDA/BfArM-Sicherheitskennzeichnung, dass dieser Kandidat noch keine Sicherheitsvorabprüfung abschließen kann.
-
----
-
-## Kurzübersicht
-
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Nicht dokumentiert in den bereitgestellten deutschen Zulassungsdaten (0 Lizenzen vorhanden). Gemäß Literaturbelegen (PMID 36208443) ist Ustekinumab an anderer Stelle für Psoriasis, Psoriasis-Arthritis, Morbus Crohn und Colitis ulcerosa zugelassen |
-| Vorhergesagte neue Indikation | Dermatitis (Atopische Dermatitis) |
-| TxGNN-Vorhersage-Score | 99.99% |
-| Evidenzgrad | L2 |
-| Marktstatus Deutschland | ✗ Nicht auf dem Markt |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Halten |
+Ustekinumab ist ein Antikörper gegen die Interleukine IL-12 und IL-23. Er wird bei Psoriasis, Psoriasis-Arthritis, Morbus Crohn und Colitis ulcerosa eingesetzt.
+Das TxGNN-Modell sagt voraus, dass er bei **Dermatitis** (insbesondere atopischer Dermatitis) wirksam sein könnte.
+Die Evidenz besteht aus **6 klinischen Studien** (davon 2 direkt relevante Phase-2-Studien) und **20 Publikationen**. Sie zeigt bisher nur einen begrenzten oder uneinheitlichen Nutzen.
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Schnellübersicht
 
-Detaillierte Wirkmechanismus-Daten aus DrugBank sind in diesem Evidenzpaket nicht verfügbar (Datenlücke). Allerdings beschreibt die hier zusammengestellte Literaturbelege Ustekinumab konsistent als vollständig humanisierten IgG1-Antikörper, der an die gemeinsame p40-Untereinheit von Interleukin (IL)-12 und IL-23 bindet und dadurch die Aktivierung von Th1-, Th17- und Th22-Signalwegen unterdrückt (PMID 27304428, PMID 36208443). Diese Klasse von Biologika wird bereits zur Behandlung von Entzündungserkrankungen mit einer starken Th17/Th22-Signatur eingesetzt, insbesondere Psoriasis und Psoriasis-Arthritis.
-
-Die atopische Dermatitis teilt mit der Psoriasis eine überlappende Th17/Th22-getriebene Entzündungspathologie, obwohl die beiden Erkrankungen klinisch unterschiedlich sind (Th2-dominant bei AD vs. Th17-dominant bei Psoriasis). Mehrere Gruppen haben daher getestet, ob die Blockade von IL-12/23 mit Ustekinumab auch AD-Patienten nutzt, unter der Annahme, dass die Unterdrückung von Th22 insbesondere die bei chronischen AD-Läsionen beobachtete epidermale Hyperplasie und Barrierendysfunktion reduzieren könnte (PMID 27745907 zeigte eine messbare Herunterregulation von Th2/Th22-Markern mit Ustekinumab bei schwerer AD).
-
-Die Ergebnisse in den identifizierten Studien sind gemischt – einige placebokontrollierte Studien (z. B. die japanische Phase-2-Studie, PMID 28338223) zeigten nur eine bescheidene Trennung von Placebo, und systematische Übersichtsarbeiten/Metaanalysen (PMID 33074565, PMID 29098604) schlussfolgern, dass die Evidenz für Biologika, die IL-12/23 in AD anvisieren, im Vergleich zu IL-4/IL-13-gezielten Wirkstoffen noch inkonsistent ist. Dies mindert, eliminiert aber nicht, die mechanistische Plausibilität der TxGNN-Vorhersage.
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Psoriasis, Psoriasis-Arthritis, Morbus Crohn |
+| Vorhergesagte neue Indikation | Dermatitis |
+| TxGNN-Vorhersagewert | 99,99 % |
+| Evidenzstufe | L2 |
+| Marktstatus in Deutschland | Nur erloschene Zulassungen (alle widerrufen/beendet) |
+| Anzahl der Zulassungen | 13 (davon 0 gültig, 13 erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Klinische Studienevidenz
+## Warum ist diese Vorhersage plausibel?
 
-| Studiennummer | Phase | Status | Teilnehmerzahl | Wichtigste Erkenntnisse |
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist jedoch: Ustekinumab blockiert die gemeinsame p40-Untereinheit von IL-12 und IL-23 und hemmt damit die Th1- und Th17-Signalwege. Diese Signalwege tragen zu entzündlichen Hauterkrankungen bei.
+
+Seine Wirksamkeit bei Psoriasis, einer Th1/Th17-getriebenen Hauterkrankung, stützt die biologische Plausibilität für andere Dermatitis-Formen. Die atopische Dermatitis ist allerdings überwiegend Th2-dominiert, wobei Th1-, Th17- und IL-23-Anteile ebenfalls beteiligt sind.
+
+Die Phase-2-Daten bei atopischer Dermatitis zeigen nur einen moderaten oder uneinheitlichen klinischen Nutzen. Die mechanistische Verbindung ist daher nur teilweise tragfähig.
+
+---
+
+## Klinische Studien
+
+| Studiennummer | Phase | Status | Teilnehmerzahl | Zentrale Erkenntnisse |
 |---------|------|------|------|---------|
-| [NCT01806662](https://clinicaltrials.gov/study/NCT01806662) | Phase 2 | Abgeschlossen | 32 | Randomisierte Pilotstudie zu Ustekinumab bei Patienten mit chronischer atopischer Dermatitis und suboptimaler Reaktion auf vorherige Therapie |
-| [NCT01945086](https://clinicaltrials.gov/study/NCT01945086) | Phase 2 | Abgeschlossen | 79 | Randomisierte, doppelblinde, placebokontrollierte Studie zu zwei Ustekinumab-Dosen bei japanischen Erwachsenen mit schwerer atopischer Dermatitis |
-| [NCT02074982](https://clinicaltrials.gov/study/NCT02074982) | Phase 3 | Abgeschlossen | 676 | CLEAR-Studie – Secukinumab vs. Ustekinumab bei mittelschwerer bis schwerer Plaque-Psoriasis (ursprüngliche Indikations-Vergleichsstudie, nicht AD) |
-| [NCT01356758](https://clinicaltrials.gov/study/NCT01356758) | N/A | Abgeschlossen | 126 | Bewertung des Herz-Kreislauf-Risikos bei Patienten mit schwerer Psoriasis, die mit biologischen Wirkstoffen einschließlich Ustekinumab behandelt werden |
-| [NCT07041112](https://clinicaltrials.gov/study/NCT07041112) | N/A | Abgeschlossen | 1000 | Retrospektive pharmakogenetische Kohortenstudie zum 10-Jahres-Überleben biologischer Therapien (einschließlich Ustekinumab) bei kutaner Psoriasis/PsA |
-| [NCT05535738](https://clinicaltrials.gov/study/NCT05535738) | Phase 2/3 | Wird rekrutiert | 45 | Saugbläschen-Kontaktdermatitis-Modell zur Untersuchung, wie Biologika Hautentzündungen modulieren |
-| [NCT07352566](https://clinicaltrials.gov/study/NCT07352566) | Phase 4 | Noch nicht in Rekrutierung | 10 | Mikrogerät zur Abgabe von FDA-zugelassenen AD-/Psoriasis-Arzneimitteln (einschließlich Ustekinumab) direkt in die Haut für vergleichende Wirksamkeitsprüfung |
+| [NCT01945086](https://clinicaltrials.gov/study/NCT01945086) | Phase 2 | Abgeschlossen | 79 | Randomisierte, doppelblinde, placebokontrollierte Studie zu Ustekinumab bei erwachsenen japanischen Patienten mit schwerer atopischer Dermatitis |
+| [NCT01806662](https://clinicaltrials.gov/study/NCT01806662) | Phase 2 | Abgeschlossen | 32 | Randomisierte Pilotstudie zu Ustekinumab bei chronischer atopischer Dermatitis mit unzureichendem Ansprechen auf Vortherapien |
+| [NCT05535738](https://clinicaltrials.gov/study/NCT05535738) | Phase 2/3 | Aktiv, keine Rekrutierung | 45 | Kontaktdermatitis-Modell mit Biologika zur Untersuchung von Hautentzündung (Mechanismus-/Modellstudie, nicht spezifisch für Ustekinumab) |
+| [NCT02074982](https://clinicaltrials.gov/study/NCT02074982) | Phase 3 | Abgeschlossen | 676 | Secukinumab vs. Ustekinumab bei Plaque-Psoriasis (CLEAR); kein direkter Beleg für Dermatitis |
+| [NCT01356758](https://clinicaltrials.gov/study/NCT01356758) | k. A. | Abgeschlossen | 126 | Beobachtungsstudie zum kardiovaskulären Risiko bei schwerer Psoriasis unter Biologika |
+| [NCT07352566](https://clinicaltrials.gov/study/NCT07352566) | Phase 4 | Noch nicht rekrutierend | 10 | Methodische Studie zu einem Mikrogerät für lokale Arzneimitteltests in der Haut; keine Wirksamkeitsdaten |
 
 ---
 
-## Literaturbelege
+## Literatur
 
-| PMID | Jahr | Typ | Journal | Wichtigste Erkenntnisse |
+| PMID | Jahr | Typ | Journal | Zentrale Erkenntnisse |
 |------|-----|------|------|---------|
-| [27304428](https://pubmed.ncbi.nlm.nih.gov/27304428/) | 2017 | RCT (Phase 2) | Experimental Dermatology | Doppelblinde, placebokontrollierte Studie bei 33 Patienten mit mittelschwerer bis schwerer AD zur Bewertung der Wirksamkeit und Sicherheit von Ustekinumab |
-| [28338223](https://pubmed.ncbi.nlm.nih.gov/28338223/) | 2017 | RCT (Phase 2) | British Journal of Dermatology | Randomisierte, doppelblinde, placebokontrollierte Studie zu Ustekinumab bei japanischen Patienten mit schwerer AD |
-| [33074565](https://pubmed.ncbi.nlm.nih.gov/33074565/) | 2021 | Systematische Übersichtsarbeit/Metaanalyse | Allergy | EAACI-Evidenzbasis-Übersicht systematischer Behandlungen (einschließlich Ustekinumab) für mittelschwere bis schwere AD |
-| [29164954](https://pubmed.ncbi.nlm.nih.gov/29164954/) | 2018 | Systematische Übersichtsarbeit | J Dermatolog Treat | Systematische Übersichtsarbeit zur Wirksamkeit und Sicherheit von Ustekinumab speziell in der AD-Behandlung |
-| [29098604](https://pubmed.ncbi.nlm.nih.gov/29098604/) | 2018 | Systematische Übersichtsarbeit/Metaanalyse | Am J Clin Dermatol | Metaanalyse, die fragt, ob Biologika (inkl. Ustekinumab) bei AD wirksam sind |
-| [36208443](https://pubmed.ncbi.nlm.nih.gov/36208443/) | 2022 | Übersicht | Dermatologic Therapy | Übersicht der Off-Label-Verwendungen von Ustekinumab, beschreibt seinen IL-12/23-Mechanismus und zugelassene Indikationen |
-| [30850043](https://pubmed.ncbi.nlm.nih.gov/30850043/) | 2019 | Übersicht | Dermatologic Clinics | Übersicht der entstehenden AD-Behandlungen, Kontextualisierung von Ustekinumab unter neueren gezielten Wirkstoffen |
-| [33849369](https://pubmed.ncbi.nlm.nih.gov/33849369/) | 2022 | Real-World/Beobachtungsdaten | J Dermatolog Treat | Analyse der Real-World-Evidence zur Wirksamkeit von Ustekinumab bei AD-Patienten |
-| [39987634](https://pubmed.ncbi.nlm.nih.gov/39987634/) | 2025 | Real-World-Sicherheit (FAERS) | Int Immunopharmacology | FDA-Adverse-Event-Reporting-System-Analyse zur Sicherheit von Ustekinumab bei Psoriasis/PsA |
-| [27745907](https://pubmed.ncbi.nlm.nih.gov/27745907/) | 2017 | Klinische Studie | J Am Acad Dermatol | Ustekinumab bei schwerer AD assoziiert mit Herunterregulation der Th2/Th22-Genexpression |
+| [27304428](https://pubmed.ncbi.nlm.nih.gov/27304428/) | 2017 | RCT (Phase 2) | Experimental Dermatology | Wirksamkeit und Sicherheit von Ustekinumab bei mittelschwerer bis schwerer atopischer Dermatitis (33 Patienten, placebokontrolliert) |
+| [28338223](https://pubmed.ncbi.nlm.nih.gov/28338223/) | 2017 | RCT (Phase 2) | British Journal of Dermatology | Ustekinumab bei japanischen Patienten mit schwerer atopischer Dermatitis, doppelblind und placebokontrolliert |
+| [29164954](https://pubmed.ncbi.nlm.nih.gov/29164954/) | 2018 | Systematische Übersichtsarbeit | J Dermatol Treat | Bewertung von Wirksamkeit und Sicherheit von Ustekinumab bei atopischer Dermatitis |
+| [33849369](https://pubmed.ncbi.nlm.nih.gov/33849369/) | 2022 | Real-World-Analyse | J Dermatol Treat | Wirksamkeit von Ustekinumab bei atopischer Dermatitis; bisherige Berichte uneinheitlich |
+| [33074565](https://pubmed.ncbi.nlm.nih.gov/33074565/) | 2021 | Systematische Übersichtsarbeit/Metaanalyse | Allergy | Systemische Therapien bei atopischer Dermatitis als Grundlage für die EAACI-Leitlinie |
+| [29098604](https://pubmed.ncbi.nlm.nih.gov/29098604/) | 2018 | Systematische Übersichtsarbeit/Metaanalyse | Am J Clin Dermatol | Wirksamkeit von Biologika bei atopischer Dermatitis |
+| [36208443](https://pubmed.ncbi.nlm.nih.gov/36208443/) | 2022 | Review | Dermatologic Therapy | Übersicht über Off-Label-Anwendungen von Ustekinumab |
+| [32347968](https://pubmed.ncbi.nlm.nih.gov/32347968/) | 2020 | Review | Contact Dermatitis | Biologika bei allergischer Kontaktdermatitis |
+| [32172523](https://pubmed.ncbi.nlm.nih.gov/32172523/) | 2020 | Review | Clin Drug Investig | Therapien bei atopischer Dermatitis, die in klinischen Studien gescheitert sind |
+| [39201826](https://pubmed.ncbi.nlm.nih.gov/39201826/) | 2024 | Narrative Übersichtsarbeit | Children (Basel) | Biologika und zielgerichtete Therapien bei pädiatrischen Hauterkrankungen (u. a. Psoriasis, atopische Dermatitis) |
 
 ---
 
-## Marktinformation Deutschland
+## Marktinformationen Deutschland
 
-Ustekinumab ist gemäß diesem Evidenzpaket derzeit **nicht auf dem deutschen Markt** (0 Zulassungen vorhanden). Keine BfArM-Zulassungsunterlagen, Produktnamen, Darreichungsformen oder zugelassenen Indikationstexte sind zum Extrahieren verfügbar.
+Alle 13 Zulassungen (zentrale EU-Zulassungen, EMEA/H/C) sind erloschen. Es gibt derzeit keine gültige Zulassung.
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000958 | Stelara | k. A. | Psoriasis, Psoriasis-Arthritis, Morbus Crohn, Colitis ulcerosa |
+| EMEA/H/C/006132 | Wezenla | k. A. | Psoriasis, Psoriasis-Arthritis, Morbus Crohn |
+| EMEA/H/C/005805 | Fymskina | k. A. | Morbus Crohn, Psoriasis, Psoriasis-Arthritis |
+| EMEA/H/C/006667 | Usgena | k. A. | Morbus Crohn, Psoriasis, Psoriasis-Arthritis, Colitis ulcerosa |
+| EMEA/H/C/006101 | Uzpruvo | k. A. | Psoriasis, Psoriasis-Arthritis, Morbus Crohn, Colitis ulcerosa |
 
 ---
 
-## Sicherheitsüberlegungen
+## Sicherheitsaspekte
 
-Bitte beachten Sie die Fachinformation für Sicherheitsinformationen.
+- **Arzneimittelwechselwirkungen:** Insgesamt wurden 100 Wechselwirkungen erfasst. Die aufgeführten Beispiele sind überwiegend von mäßigem Schweregrad:
+  - Kortikosteroide (Hydrocortison, Prednisolon, Prednison, Dexamethason, Betamethason, Triamcinolon, Budesonid): mäßig
+  - Antikoagulanzien (Warfarin, Apixaban, Rivaroxaban, Dicoumarol): mäßig
+  - Simvastatin: mäßig
+  - Radiopharmazeutika/Antikörper (Iobenguan I-131, Ibritumomab-Tiuxetan, Tositumomab): mäßig
+  - Zinksalze (Sulfat, Acetat, Gluconat, Chlorid): gering
 
-**Anmerkung:** Wichtige Warnungen, Kontraindikationen und Arzneimittelwechselwirkungsdaten für Ustekinumab sind als eine **Blocking**-Datenlücke (DG001 – fehlende TFDA/BfArM-Kennzeichnung) in diesem Evidenzpaket gekennzeichnet, was bedeutet, dass noch keine formale Sicherheitsvorabprüfung (S1) durchgeführt werden kann.
+Zu Warnhinweisen und Gegenanzeigen liegen keine Daten vor. Bitte die Fachinformation zu Rate ziehen.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Halten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die Wirksamkeitsevidenz für Ustekinumab bei Dermatitis/atopischer Dermatitis ist moderat (L2: zwei abgeschlossene Phase-2-RCTs plus unterstützende systematische Übersichtsarbeiten), aber eine **Blocking**-Datenlücke bei der offiziellen Sicherheitskennzeichnung (DG001) verhindert die Fertigstellung der S1-Sicherheitsvorabprüfung, und das Arzneimittel hat derzeit keine Marktzulassung in Deutschland.
+Zwei randomisierte Phase-2-Studien (u. a. placebokontrolliert) bei atopischer Dermatitis liefern direkte, aber kleine und nur moderate bzw. uneinheitliche Ergebnisse. Es gibt keine Phase-3-Studie für diese Indikation. In Deutschland ist derzeit keine gültige Zulassung vorhanden, und die Sicherheitsangaben der Fachinformation fehlen.
 
-**Um fortzufahren, wird Folgendes benötigt:**
-- TFDA/BfArM-Fachinformation (Warnungen, Kontraindikationen) – erforderlich zum Schließen der Blocking-Lücke (DG001)
-- Bestätigter Wirkmechanismus aus DrugBank-API (DG002)
-- Formale Arzneimittelwechselwirkungsdaten (DDI)
-- Klärung des deutschen Zulassungswegs, da das Arzneimittel derzeit nicht auf dem Markt ist
-- Abwägung gemischter Wirksamkeitssignale in den AD-Studien/Übersichtsarbeiten (einige zeigen nur bescheidenen Vorteil gegenüber Placebo), bevor zu späteren Entscheidungsstadien übergegangen wird
-
+**Für ein Fortschreiten sind folgende Schritte nötig:**
+- Auswertung der Phase-2-Ergebnisse (NCT01945086, NCT01806662) im Detail, um Effektstärke und Subgruppen mit möglichem Nutzen zu klären
+- Beschaffung und Auswertung der Fachinformation zu Warnhinweisen und Gegenanzeigen
+- Daten zum Wirkmechanismus (MOA) ergänzen
+- Klärung des Zulassungs- und Marktstatus in Deutschland, da alle 13 Zulassungen als erloschen geführt werden
+- Prüfung, ob andere vorhergesagte Indikationen (z. B. Dermatomyositis, Pityriasis lichenoides) mehr Potenzial bieten; hierzu liegt bisher keine klinische Evidenz vor (Evidenzstufe L5)
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

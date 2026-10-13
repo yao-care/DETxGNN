@@ -2,7 +2,7 @@
 layout: default
 title: Degarelix
 parent: Nur Modellvorhersage (L5)
-nav_order: 118
+nav_order: 139
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,79 +29,96 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Degarelix: Von der GnRH-Antagonisten-Therapie zur Hypertrichose
+# Degarelix: Vom Prostatakarzinom zur Hypertrichose
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Degarelix ist ein GnRH-(Gonadotropin-Releasing-Hormon-)Antagonist. Dieses Evidenzpaket enthält jedoch keine formalen Quellen für ursprüngliche Indikationen und Wirkmechanismus (Datenlücken DG001, DG002).
-> Das TxGNN-Modell sagt voraus, dass es möglicherweise gegen **Hypertrichose (Hypertrichosis)** wirksam sein könnte,
-> aber derzeit gibt es **keine klinischen Studien** und **keine direkt relevanten Fachliteraturquellen**, die diese Richtung unterstützen, und die Wirkmechanismus-Verbindung selbst wird als „äußerst schwache Schlussfolgerung" gekennzeichnet.
+Degarelix ist ein GnRH-Rezeptor-Antagonist, der ursprünglich zur Behandlung des Prostatakarzinoms zugelassen wurde. Das TxGNN-Modell sagt voraus, dass der Wirkstoff bei **Hypertrichose** wirksam sein könnte. Für diese Vorhersage liegen jedoch **keine klinischen Studien** und **keine Publikationen** vor; sie beruht ausschließlich auf der Modellvorhersage.
 
 ---
 
-## Schnellübersicht
+## Kurzüberblick
 
 | Punkt | Inhalt |
-|------|--------|
-| Ursprüngliche Indikationen | Im Evidenzpaket nicht enthalten (`original_indications` ist ein leeres Array) |
-| Vorhergesagte neue Indikationen | Hypertrichose (mehrfaches Haarwachstum) |
-| TxGNN-Vorhersagescore | 99.99% (Rang 275) |
-| Evidenzebene | L5 (nur Modellvorhersage, keine klinischen Studien oder Fachliteraturstütze) |
-| Marktstatus | Nicht vermarktet |
-| Zulassungsanzahl | 0 |
-| Empfohlene Entscheidung | **Hold** |
+|------|------|
+| Ursprüngliche Indikation | Prostatakarzinom (Prostatic Neoplasms) |
+| Vorhergesagte neue Indikation | Hypertrichose |
+| TxGNN-Vorhersagewert | 99,99 % |
+| Evidenzlevel | L5 |
+| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
+| Anzahl der Zulassungen | 2 (beide erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum diese Vorhersage möglicherweise/nicht vernünftig sein könnte
+## Warum ist diese Vorhersage plausibel?
 
-Die Datenbank stellt derzeit keinen formalen Wirkmechanismus zur Verfügung (MOA ist als Datenlücke markiert, DG002, Schweregrad Hoch) und keine Quellen für ursprüngliche Indikationen von Degarelix. Nach der öffentlichen pharmakologischen Klassifizierung gehört Degarelix zur Klasse der GnRH-Rezeptor-Antagonisten, die durch Hemmung der hypophysären LH/FSH-Sekretion die Keimdrüsenhormonkonzentrationen (wie Testosteron) senken. Dieses Hintergrundwissen ist jedoch nicht Teil der diesem Evidenzpaket beiliegenden Quelldaten, sondern dient nur als Referenz zum Verständnis der Modellausgaben und **sollte nicht als Grundlage für Sicherheits- oder Indikationserweiterungsentscheidungen herangezogen werden**.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Degarelix blockiert den GnRH-Rezeptor, senkt dadurch LH und FSH und damit Testosteron sowie nachgeschaltete Androgene. Dies ist die Grundlage der Wirksamkeit beim hormonabhängigen Prostatakarzinom.
 
-Die an erster Stelle rangierte vorhergesagte Indikation Hypertrichose wird in ihrer `repurposing_rationale` klar erläutert: Falls es sich um androgen-getriebene erworbene Hypertrichose handelt, könnte theoretisch die Senkung des Testosterons möglicherweise das Haarwachstum verlangsamen, aber diese Schlussfolgerung ist „äußerst schwach" und die Ätiologie der Hypertrichose ist heterogen. **Es gibt keine direkte Fachliteratur oder Versuchsbelege**, die dies unterstützen. Dies bedeutet, dass diese Vorhersage derzeit nur auf der Ebene der Einbettungs-Ähnlichkeit (L5 / S0) steckenbleibt und noch keine überprüfbaren biologischen oder klinischen Belege für diese Indikation vorhanden sind.
+Die mechanistische Verbindung zur Hypertrichose ist **schwach**. Hypertrichose ist im Gegensatz zum Hirsutismus in der Regel nicht androgenabhängig. Die Vorhersage stützt sich daher allein auf das Modell, nicht auf klinische oder publizierte Belege.
 
-Bemerkenswert ist, dass die an vierter Stelle rangierte Kandidatenindikation (parodontale/zahnartige entwicklungsbezogene Syndrome) zwar 20 Fachliteraturquellen aufweist, aber nach Überprüfung zeigt sich, dass alle diese rein allgemeine Parodontologie-Forschung sind (z. B. Zusammenhang zwischen Diabetes und Parodontalerkrankung, Richtlinien zur Parodontalbehandlung usw.), **erwähnen Degarelix oder GnRH-Antagonisten überhaupt nicht**. Dies ist Rauschen, das durch Schlüsselwortabgleich entsteht, und nicht drogenspezifische Belege. Die Wirkmechanismus-Verbindungen der übrigen Kandidatenindikationen (Ambras-Syndrom, Dandy-Walker-Missbildung, Haarschaft-Gen-Anomalien, Urtikaria, Pubertitas praecox usw.) werden auch alle als ohne vernünftige biologische Grundlage bewertet oder die Wirkmechanismus-Richtung ist entgegengesetzt (z. B. familiale männerlimitierte Pubertitas praecox ist eine Gonadotropin-unabhängige Pathologie, GnRH-Antagonisten können theoretisch nicht wirken).
-
----
-
-## Klinische Studienbelege
-
-Derzeit sind keine relevanten Studieneintragungen vorhanden.
+Auch die weiteren vorhergesagten Indikationen sind überwiegend mechanistisch kaum nachvollziehbar (z. B. Ambras-Syndrom, Dandy-Walker-Syndrom, Haarschaftanomalien, Urtikaria). Sie sind wahrscheinlich Artefakte des Wissensgraphen. Biologisch am kohärentesten ist die **zentrale Pubertas praecox**, da hier die vom Wirkstoff direkt unterdrückte Hypothalamus-Hypophysen-Gonaden-Achse beteiligt ist. Allerdings sind GnRH-Agonisten hier der etablierte Standard, und für Degarelix fehlen pädiatrische Daten sowie Studien; die Depotformulierung ist nicht für Kinder konzipiert. Die familiäre männliche Pubertas praecox (Testotoxikose) wird durch aktivierende LHCGR-Mutationen verursacht und ist GnRH-unabhängig, sodass ein GnRH-Antagonist dort kaum wirken würde.
 
 ---
 
-## Fachliteraturbelege
+## Evidenz aus klinischen Studien
 
-Derzeit sind keine relevanten Fachliteraturdaten vorhanden.
-
----
-
-## Marktzulassungsinformationen
-
-Derzeit können keine Marktzulassungsdaten abgerufen werden (`total_licenses = 0`, Marktstatus: Nicht vermarktet).
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Sicherheitsüberlegungen
+## Evidenz aus der Literatur
 
-Bitte lesen Sie die Fachinformation für Sicherheitsinformationen.
-
-(Die in diesem Evidenzpaket enthaltenen wichtigsten Warnhinweise, Kontraindikationen und Abfrageergebnisse zu Arzneimittelwechselwirkungen sind alle Datenlücken; `DG001` wurde als Blocking-Ebene markiert. Das Fehlen dieser Daten bedeutet, dass **eine S1-Sicherheitsbewertung nicht abgeschlossen werden kann**.)
+Derzeit liegt keine zugehörige Literatur vor.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Informationen zum Markt in Deutschland
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/006048 | Degarelix Accord | – | Prostatic Neoplasms (Prostatakarzinom) |
+| EMEA/H/C/000986 | Firmagon | – | Prostatic Neoplasms (Prostatakarzinom) |
+
+Beide Zulassungen haben den Status „erloschen/zurückgezogen“.
+
+---
+
+## Zytotoxizität
+
+| Punkt | Inhalt |
+|------|------|
+| Klassifikation | Hormontherapie (GnRH-Antagonist), kein konventionelles Zytostatikum |
+| Myelosuppressionsrisiko | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Emetogenität | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Überwachungsparameter | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Schutzmaßnahmen beim Umgang | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+
+---
+
+## Sicherheitsaspekte
+
+- **Kontraindikationen laut Wissensgraph (keine Angaben aus dem Beipackzettel):** Long-QT-Syndrom (auch familiär), Torsades de Pointes, Lebererkrankungen, Gallenblasenerkrankungen, Kaliummangel.
+- **Wechselwirkungen:** Für 100 Wechselwirkungen liegen Daten vor. Besonders relevant sind die **schweren (Major)** Wechselwirkungen mit **Cisaprid** und **Dolasetron** (QT-Verlängerung). Mäßige Wechselwirkungen bestehen u. a. mit Clarithromycin, Levofloxacin, Ondansetron, Granisetron, Palonosetron, Famotidin, Loperamid sowie verschiedenen Abführmitteln (z. B. Bisacodyl, Lactulose, Magnesiumhydroxid, Polyethylenglykol). Eine geringfügige Wechselwirkung besteht mit Metronidazol.
+- **Weitere Hinweise:** Bei Degarelix sind Überempfindlichkeitsreaktionen und Reaktionen an der Injektionsstelle möglich; daher ist es bei Urtikaria eher als Auslöser denn als Therapie anzusehen.
+
+Für weitere Sicherheitsinformationen bitte die Fachinformation heranziehen.
+
+---
+
+## Fazit und nächste Schritte
 
 **Entscheidung: Hold**
 
 **Begründung:**
-Alle 10 vorhergesagten Indikationen dieses Kandidatenwirkstoffs sind L5-Ebene (reine Modellvorhersage, keine klinischen Studien oder vertrauenswürdigen Fachliteraturbelege). Die an erster Stelle rangierte Hypertrichose hat auch eine Wirkmechanismus-Verbindung, die selbst als „äußerst schwache Schlussfolgerung" bewertet wird. Gleichzeitig sind ursprüngliche Indikationen, MOA und Fachinformationen zur Sicherheit alle Datenlücken und reichen nicht aus, um irgendeine Indikation in die nächste Bewertungsphase voranzutreiben.
+Die Vorhersage beruht ausschließlich auf dem Modell (Evidenzlevel L5), ohne klinische Studien oder Publikationen, und die mechanistische Verbindung zur Hypertrichose ist schwach. Zudem sind in Deutschland derzeit nur erloschene Zulassungen vorhanden.
 
-**Zur Fortsetzung müssen folgende Daten ergänzt werden:**
-- TFDA (oder zuständige Behörden) offizielle Fachinformationen – Warnhinweise und Kontraindikationen (DG001, Blocking, erfordert Download und Analyse des offiziellen PDF)
-- Formale Degarelix-Wirkmechanismus-Quellen, wie Abfrageergebnisse aus DrugBank API (DG002, Hoch)
-- Direkte klinische Studien oder Wirkmechanismus-Forschungsliteratur für Hypertrichose oder andere Kandidatenindikationen (derzeit vollständig fehlend)
-- Überprüfung der Fachliteratur-Abgleich-Logik der an vierter Stelle rangiert Kandidatenindikation, um Schlüsselwort-Rauschen zu vermeiden, das die Ressourcenverteilung der nachfolgenden Evidenzsammlungsarbeiten irreleitet
-
+**Für ein Weiterverfolgen sind folgende Schritte erforderlich:**
+- Die Fachinformation (Warnhinweise und Kontraindikationen) beschaffen und auswerten; ohne sie ist ein Sicherheitsscreening nicht möglich
+- Detaillierte Wirkmechanismusdaten ergänzen (z. B. aus DrugBank)
+- Systematische Literaturrecherche und Prüfung auf Studien zu den vorhergesagten Indikationen
+- Als Forschungsfrage die zentrale Pubertas praecox gesondert prüfen (präklinische Daten, pädiatrische Eignung, Formulierung)
+- Klärung des Zulassungs- und Marktstatus in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

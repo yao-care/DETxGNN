@@ -2,7 +2,7 @@
 layout: default
 title: Delamanid
 parent: Nur Modellvorhersage (L5)
-nav_order: 119
+nav_order: 140
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,80 +29,99 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **7**
 
 </div>
 
-# Delamanid: Von Tuberkulose (MDR-TB) zu Rindertuberkulose
+# Delamanid: Von multiresistenter Tuberkulose zu Tuberkulose (inaktive Form)
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Delamanid ist ein Nitro-Dihydro-Imidazooxazol-Antimykobakterium, öffentlich bekannt als Behandlung für multiresistente Tuberkulose (MDR-TB), obwohl in diesem Evidenzpaket kein formaler Indikationstext vorhanden ist.
-> Das TxGNN-Modell sagt voraus, dass es auch wirksam für **Tuberkulose, Rinder (zoonotische *Mycobacterium bovis*-Infektion)** sein könnte,
-> aber derzeit unterstützen **keine klinischen Studien** und nur **1 indirekte Publikation** diese spezifische Richtung.
+Delamanid wurde ursprünglich zur Behandlung der multiresistenten Tuberkulose (MDR-TB) zugelassen. Das TxGNN-Modell sagt voraus, dass der Wirkstoff auch bei **tuberkulöser Erkrankung in weiteren Formen** wirksam sein könnte. Die höchste Evidenz besteht für **inaktive Tuberkulose** mit **1 klinischen Studie** und **20 Publikationen**, die jedoch überwiegend Übersichtsarbeiten sind.
 
 ---
 
-## Schnellübersicht
+## Kurzübersicht
 
 | Punkt | Inhalt |
-|------|--------|
-| Ursprüngliche Indikation | Nicht formal in diesem Evidenzpaket angegeben. Delamanid ist öffentlich bekannt als ein Antimykobakterium zur pulmonalen MDR-TB-Behandlung; die Felder `original_indications` und `original_moa` sind leer/Datenlücke in den Quelldaten. |
-| Vorhergesagte neue Indikation | Tuberkulose, Rinder |
-| TxGNN-Vorhersage-Score | 99,91% |
-| Evidenzstufe | L5 (nur Modellvorhersage — keine klinische Studie, und das einzige verfügbare Papier bewertet nicht die Wirksamkeit von Delamanid) |
-| Marktstatus in Deutschland | Nicht im Handel |
-| Anzahl der Genehmigungen | 0 |
-| Empfohlene Entscheidung | Abwarten |
+|------|------|
+| Ursprüngliche Indikation | Multiresistente Tuberkulose |
+| Vorhergesagte neue Indikation | Tuberkulose, bovine (Rang 1 der Vorhersage); die am besten belegte Indikation ist inaktive Tuberkulose (Rang 4) |
+| TxGNN-Vorhersagewert | 99,91 % (Rang 1); 99,91 % (Rang 4, inaktive Tuberkulose) |
+| Evidenzniveau | L4 (Rang 1); L2 für inaktive Tuberkulose |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
+| Anzahl der Zulassungen | 1 (aufgehoben) |
+| Empfohlene Entscheidung | Hold (Rang 1); für inaktive Tuberkulose: Forschungsfrage, weitere Prüfung erforderlich |
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Wirkmechanismus-Daten sind in diesem Evidenzpaket nicht verfügbar (`original_moa` = Datenlücke). Basierend auf allgemein bekannten Informationen ist Delamanid ein Nitro-Dihydro-Imidazooxazol-Derivat, das als Antimykobakterium entwickelt wurde und klinisch für multiresistente pulmonale Tuberkulose, verursacht durch *Mycobacterium tuberculosis*, verwendet wird.
+Zur Wirkungsweise liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Nach bekanntem Stand hemmt Delamanid die Mykolsäure-Synthese in *Mycobacterium tuberculosis*. Seine Wirksamkeit bei MDR-TB ist belegt, und mechanistisch könnte es auch bei verwandten Tuberkuloseformen anwendbar sein.
 
-Die vorhergesagte neue Indikation, „Tuberkulose, Rinder", wird durch *Mycobacterium bovis* verursacht, ein Mitglied des *Mycobacterium tuberculosis*-Komplexes, der eng mit *M. tuberculosis* verwandt ist und ähnliche Arzneistoff-Ziel-Biologie teilt. Dies macht die TxGNN-Vorhersage auf mechanistischer Ebene biologisch plausibel. Es ist jedoch zu beachten, dass dies nicht so sehr eine völlig neue Erkrankung *bereich* ist, sondern eher eine verwandte Pathogen-/Wirt-Variante der bereits etablierten Anti-Tuberkulose-Anwendung des Arzneistoffs — die Vorhersage spiegelt im Wesentlichen bekannte Pharmakologie wider, anstatt eine echte neue therapeutische Richtung zu sein.
+Die bovine Tuberkulose wird durch *M. bovis* verursacht, das zum selben Komplex wie *M. tuberculosis* gehört. Die Aktivität ist daher plausibel. Die Empfindlichkeit von *M. bovis* gegenüber Delamanid ist jedoch nicht belegt; die einzige verfügbare Studie ist eine Erhebung zu genetischer Vielfalt und Resistenz. Klinische Daten fehlen.
 
----
+Bei Tuberkulom (ZNS-Manifestation) und kutaner sowie abdominaler Tuberkulose ist der Mechanismus biologisch denkbar. Für das ZNS ist die Penetration von Delamanid begrenzt und kaum charakterisiert. Bei der aviären Tuberkulose (*M. avium*) ist die Aktivität von Delamanid wahrscheinlich eingeschränkt, da der Wirkmechanismus vom Ddn-Nitroreduktase-/F420-Weg abhängt, der in diesen Spezies weniger konserviert ist. Bei der allergischen Urtikaria besteht kein plausibler mechanistischer Zusammenhang, es handelt sich vermutlich um ein Modellartefakt.
 
-## Klinische Studienevidenz
-
-Derzeit keine zugehörigen klinischen Studien registriert.
+Die Studienlage zur inaktiven Tuberkulose bezieht sich auf die Behandlung der Lungentuberkulose allgemein. Ob sie auf die Präventivtherapie der latenten Infektion übertragbar ist, muss gesondert geprüft werden.
 
 ---
 
-## Literaturbeweise
+## Evidenz aus klinischen Studien
 
-| PMID | Jahr | Typ | Zeitschrift | Wichtigste Erkenntnisse |
-|------|-----|------|----------|---------|
-| [39487429](https://pubmed.ncbi.nlm.nih.gov/39487429/) | 2024 | Observational / Genomische (WGS) Studie | BMC Genomics | Whole-Genome-Sequencing-Studie, die genetische Vielfalt und Arzneimittelresistenzmuster von *M. bovis*-Isolaten bei zoonotischer TB charakterisiert; bewertet nicht direkt die Wirksamkeit von Delamanid, bietet aber Pathogen-Hintergrund, der für das Behandlungsziel relevant ist. |
+Für die Vorhersage mit der höchsten TxGNN-Platzierung (bovine Tuberkulose) sind derzeit keine klinischen Studien registriert. Für die am besten belegte Vorhersage (inaktive Tuberkulose) liegt folgende Studie vor:
 
----
-
-## Marktstatus in Deutschland
-
-Delamanid hält derzeit **0 Marktgenehmigungen** im Bestand und hat einen Marktstatus von **Nicht im Handel** — keine Genehmigungstabelle zum Anzeigen.
+| Studiennummer | Phase | Status | Teilnehmerzahl | Zentrale Erkenntnisse |
+|---------|------|------|------|---------|
+| [NCT05766267](https://clinicaltrials.gov/study/NCT05766267) | Phase 2/3 | Aktiv, nicht rekrutierend | 288 | CRUSH-TB: Zwei 17-Wochen-Regime (Bedaquilin, Moxifloxacin, Pyrazinamid plus Rifabutin oder Delamanid) im Vergleich zum Standardregime über sechs Monate bei Lungentuberkulose; Ergebnisse liegen noch nicht vor |
 
 ---
 
-## Sicherheitserwägungen
+## Literaturevidenz
 
-Bitte beachten Sie die Gebrauchsinformation zur Sicherheitsinformation.
+Auswahl der relevantesten Publikationen zur inaktiven Tuberkulose (überwiegend Übersichtsarbeiten, keine RCTs):
 
-*Hinweis: Formale Sicherheitsdaten (Warnhinweise, Kontraindikationen, Arzneimittelwechselwirkungen) sind derzeit in diesem Datensatz nicht verfügbar und werden als **Blocking**-Datenlücke gekennzeichnet (DG001), was eine vollständige S1-Sicherheits-Vorprüfung verhindert.*
+| PMID | Jahr | Typ | Fachzeitschrift | Zentrale Erkenntnisse |
+|------|-----|------|------|---------|
+| [38003836](https://pubmed.ncbi.nlm.nih.gov/38003836/) | 2023 | Review | Pathogens | Neue Wirkstoffe wie Bedaquilin und Delamanid erweitern die Therapieoptionen bei resistenter TB im Kindesalter |
+| [29580819](https://pubmed.ncbi.nlm.nih.gov/29580819/) | 2018 | Review | Lancet Infect Dis | Fortschritte bei neuen Wirkstoffen, Regimen und wirtsgerichteten Therapien |
+| [33837535](https://pubmed.ncbi.nlm.nih.gov/33837535/) | 2021 | Review | Clin Pharmacol Ther | Behandlung der Tuberkulose, Unterschiede zwischen latenter und aktiver Form |
+| [36982277](https://pubmed.ncbi.nlm.nih.gov/36982277/) | 2023 | Review | Int J Mol Sci | Pathogenese, aktuelle Therapieregime und neue Wirkstoffziele |
+| [36915977](https://pubmed.ncbi.nlm.nih.gov/36915977/) | 2022 | Übersichtsarbeit | Zhejiang Da Xue Xue Bao Yi Xue Ban | Fortschritte bei Diagnose und Behandlung der latenten Tuberkuloseinfektion |
+| [33319660](https://pubmed.ncbi.nlm.nih.gov/33319660/) | 2021 | Review | Curr Top Med Chem | Pathophysiologie, Resistenzmechanismen, neuere Anti-TB-Wirkstoffe |
+| [32372202](https://pubmed.ncbi.nlm.nih.gov/32372202/) | 2020 | Review | Appl Microbiol Biotechnol | Anti-TB-Substanzen mit Repurposing-Potenzial |
+| [41696339](https://pubmed.ncbi.nlm.nih.gov/41696339/) | 2026 | Präklinische Studie | ACS Omega | Neue achirale 4-Nitroimidazole mit antitubertulöser Aktivität; Delamanid und Pretomanid als Referenz |
+
+Zu den übrigen Vorhersagen: bovine Tuberkulose (eine Resistenzstudie mit Genomsequenzierung, [39487429](https://pubmed.ncbi.nlm.nih.gov/39487429/)), Tuberkulom (ein allgemeiner Review zur Neurotuberkulose, [33400226](https://pubmed.ncbi.nlm.nih.gov/33400226/)) und kutane Tuberkulose (zwei Arbeiten zu unerwünschten Hautreaktionen auf Erstlinien-TB-Medikamente, nur indirekt relevant). Zu tuberkulösem Aszites und aviärer Tuberkulose liegt keine Literatur vor.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Marktinformationen Deutschland
 
-**Entscheidung: Abwarten**
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/002552 | Deltyba (Otsuka Novel Products GmbH) | – | Multiresistente Tuberkulose (Status: aufgehoben) |
+
+---
+
+## Sicherheitshinweise
+
+Zu Warnhinweisen und Gegenanzeigen liegen keine Daten vor. Bitte die Fachinformation zu den Sicherheitsangaben heranziehen. Wechselwirkungsdaten wurden nicht gefunden.
+
+---
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Hold** (für die Vorhersage mit höchstem Rang, bovine Tuberkulose). Für inaktive Tuberkulose: Forschungsfrage.
 
 **Begründung:**
-Die vorhergesagte Indikation wird nur durch den TxGNN-Score und eine nebensächliche Publikation unterstützt, die Delamanids Wirksamkeit nicht testet; keine klinischen Studien befassen sich direkt mit Rinder-/zoonotischer TB mit diesem Arzneistoff. Eine **Blocking**-Sicherheitsdatenlücke (fehlende Gebrauchsinformations-Warnhinweise/Kontraindikationen) verhindert auch eine ordnungsgemäße Sicherheits-Vorprüfung.
+- Der hohe Vorhersagewert beruht überwiegend auf der Ähnlichkeit zur ursprünglichen TB-Indikation. Direkte klinische Evidenz für die neuen Indikationen fehlt weitgehend. Die einzige relevante Studie (CRUSH-TB) betrifft Lungentuberkulose und liefert noch keine Ergebnisse.
+- Die Zulassung in Deutschland ist erloschen.
 
-**Um fortzufahren, wird Folgendes benötigt:**
-- Gebrauchsinformations-/Fachinformationsdaten (Warnhinweise, Kontraindikationen) — DG001
-- Bestätigter Wirkmechanismus von DrugBank — DG002
-- Direkte Evidenz (in vitro/in vivo oder klinisch), die Delamanid speziell gegen *M. bovis* bewertet
-- Klärung der wahren Neuartigkeit: Bewertung, ob „Rindertuberkulose" eine distinkte regulatorische Indikation darstellt oder sich mit Delamanids bereits bestehender MDR-TB-Zulassung überschneidet
-- Bestätigung des regulatorischen/Marktstatus, bevor ein Repurposing-Pfad verfolgt wird
-
+**Für das weitere Vorgehen sind erforderlich:**
+- Abschluss und Auswertung von CRUSH-TB (voraussichtlich 2027)
+- Empfindlichkeitsdaten von *M. bovis* gegenüber Delamanid
+- Daten zur ZNS-Penetration für die Tuberkulom-Indikation
+- Klärung, ob die Evidenz auf die Präventivtherapie der latenten Infektion übertragbar ist
+- Auswertung der Fachinformation zu Warnhinweisen und Gegenanzeigen (derzeit blockierende Datenlücke)
+- Daten zum Wirkmechanismus aus DrugBank
+- Klärung des Zulassungsstatus in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

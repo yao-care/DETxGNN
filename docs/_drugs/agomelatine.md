@@ -29,114 +29,87 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Agomelatine: Von Major Depressive Disorder zu einem Multi-Indikations-Kandidaten-Portfolio
-
-## Anmerkung zum Umfang
-
-Dieses Evidence Pack (`TW-DB06594-multi`) ist eine **Multi-Indikations-Analyse** — TxGNN generierte 10 nach Rang geordnete Kandidaten-Indikationen für Agomelatine statt einer einzigen Top-Vorhersage. Die Anwendung der Standard-Single-Indikations-Vorlage nur auf Rang #1 (*benign paroxysmal torticollis of infancy*) wäre irreführend: Das Evidence Pack selbst klassifiziert diese Vorhersage als wahrscheinlich ein False-Positive des Knowledge-Graph. Dieser Bericht behandelt daher das gesamte Kandidaten-Portfolio, bohrt dann in die zwei Indikationen mit der stärksten Evidenzunterstützung.
-
----
+# Agomelatin: Von der Major Depression zur benignen paroxysmalen Torticollis des Säuglingsalters
 
 ## Zusammenfassung in einem Satz
 
-Agomelatine ist ein melatonerges (MT1/MT2-Agonist) und serotonerges (5-HT2C-Antagonist) Antidepressivum mit **Major Depressive Disorder (MDD)** als etablierte Anwendung der Literatur (kein formaler regulatorischer Indikationstext war abrufbar — siehe Datenlücken unten). TxGNN identifizierte **10 Kandidaten-Indikationen**, aber nur **2 der 10** (Melancholie, neurotische Depression) erreichen ein hohes Evidenzniveau (**L1**), und beide sind im Wesentlichen Umformulierungen von Agomelatines bekannter antidepressiver Aktivität statt echter neuer Indikationen; die verbleibenden Kandidaten sind entweder schwach unterstützte psychiatrische Spektrum-Störungen (**L4**) oder nicht unterstützte seltene genetische Syndrome (**L5**), die das Evidence Pack selbst als Modellrauschen klassifiziert.
+Agomelatin ist ein Antidepressivum, das ursprünglich zur Behandlung der Major Depression (depressive Episoden bei Erwachsenen) eingesetzt wurde. Das TxGNN-Modell sagt für den Spitzenkandidaten **benigne paroxysmale Torticollis des Säuglingsalters** eine mögliche Wirksamkeit voraus. Dafür liegen jedoch **keine klinischen Studien und keine Publikationen** vor; die Vorhersage beruht allein auf dem Modell.
+
+Hinweis: Dieser Kandidat hat keinen erkennbaren biologischen Bezug zu Agomelatin. Die Indikationen **Melancholie**, **neurotische Depression** und **dysthymische Störung** haben eine deutlich plausiblere Evidenzbasis (siehe unten).
 
 ---
 
-## Schnellübersicht
-
-**Arznei-Ebenen-Fakten**
+## Kurzüberblick
 
 | Punkt | Inhalt |
-|-------|--------|
-| Ursprüngliche Indikation | Major Depressive Disorder (abgeleitet aus Literaturkontext, z.B. EMA-Zulassungsbewertung PMID 19777735; nicht vorhanden in formalen regulatorischen Daten — siehe Datenlücken) |
-| Markt-Status in Deutschland | ✗ Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Gesamtempfehlung | **Halten** (Portfolio-Ebene; siehe Tabelle pro Indikation) |
-
-**Portfolio der vorhergesagten Indikationen (alle 10, nach TxGNN-Score geordnet)**
-
-| Rang | Vorhergesagte Indikation | TxGNN-Score | Evidenzniveau | Entscheidungsstufe | Empfehlung |
-|------|--------------------------|-------------|----------------|--------------------|------------|
-| 1 | Benign paroxysmal torticollis of infancy | 99,96 % | L5 | S0 | Halten |
-| 2 | Agoraphobia | 99,95 % | L4 | S1 | Forschungsfrage |
-| 3 | Neurotic disorder | 99,90 % | L4 | S1 | Forschungsfrage |
-| 4 | Melancholia | 99,88 % | L1 | S3 | Weitermachen mit Schutzmaßnahmen |
-| 5 | Neurotic depression | 99,88 % | L1 | S3 | Weitermachen mit Schutzmaßnahmen |
-| 6 | Ohdo syndrome and variants | 99,87 % | L5 | S0 | Halten |
-| 7 | Dysthymic disorder | 99,86 % | L4 | S1 | Forschungsfrage |
-| 8 | Ligneous conjunctivitis | 99,83 % | L5 | S0 | Halten |
-| 9 | Blepharophimosis–intellectual disability syndrome, Ohdo type | 99,82 % | L5 | S0 | Halten |
-| 10 | Keppen-Lubinsky syndrome | 99,81 % | L5 | S0 | Halten |
-
-Anmerkung: TxGNN-Scores clustern eng (99,81–99,96 %) und verfolgen hier **nicht** die Evidenzqualität — mehrere der höchstbewerteten Kandidaten (Rang 1, 6, 8, 9, 10) haben Null klinische Studien, Null Literatur und keinen plausiblen mechanistischen Zusammenhang laut der Begründungstextoptik des Evidence Pack selbst.
+|------|------|
+| Ursprüngliche Indikation | Major Depression |
+| Vorhergesagte neue Indikation | Benigne paroxysmale Torticollis des Säuglingsalters (Rang 1) |
+| TxGNN-Vorhersagewert | 99,96 % |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
+| Anzahl der Zulassungen | 1 (aufgehoben) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum sind diese Vorhersagen plausibel (oder nicht)?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Wirkmechanismus-Daten aus einer strukturierten Quelle (z.B. DrugBank-MOA-Feld) nicht verfügbar — dies wird als Datenlücke **DG002 (hohe Schwere)** protokolliert. Basierend auf der für dieses Pack überprüften Literatur wirkt Agomelatine als **MT1/MT2-melatonergischer Rezeptor-Agonist und 5-HT2C-serotonerger Rezeptor-Antagonist**, der gestörte zirkadiane Rhythmen resynchronisiert, langsames Schlafen verbessert und Dopamin-/Noradrenalin-Freisetzung im präfrontalen Kortex erhöht — Mechanismen, die durch seine genehmigte Anwendung bei Major Depressive Disorder etabliert sind.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Aus der Literatur und den Rezeptordaten ist bekannt: Agomelatin ist ein Agonist an den melatonergen Rezeptoren MT1 und MT2 sowie ein Antagonist am Serotonin-5-HT2C-Rezeptor. Dadurch kann es zirkadiane Rhythmen normalisieren und die Freisetzung von Dopamin und Noradrenalin im präfrontalen Kortex steigern. Die Bindung an 5-HT2A- und 5-HT2B-Rezeptoren ist ebenfalls beschrieben.
 
-Die 10 Kandidaten teilen sich in zwei eindeutig verschiedene Cluster:
+Für die benigne paroxysmale Torticollis des Säuglingsalters, eine episodische Erkrankung im Kindesalter (häufig mit CACNA1A-Varianten assoziiert), ist **kein mechanistischer Zusammenhang** erkennbar. Der hohe Modellwert ist wahrscheinlich ein Artefakt der Netzwerknähe im Wissensgraphen.
 
-- **Stimmungs-/Angst-Spektrum-Cluster** (Agoraphobia, Neurotic disorder, Melancholie, Neurotic depression, Dysthymic disorder): diese sind mechanistisch kohärent, da alle innerhalb oder angrenzend des depressiven/Angst-Spektrums fallen, wo Agomelatines monoaminerge und zirkadiane Mechanismen direkt anwendbar sind. Aber **Melancholie** und **Neurotic depression** sind klinische Subtypen/ältere nosologische Bezeichnungen für MDD selbst — die starke (L1) Evidenz dahinter spiegelt Agomelatines *bereits-etablierte* antidepressive Wirksamkeit wider, nicht ein echtes Repurposing-Signal. Die genuine unterschiedlichen Kandidaten in diesem Cluster — **Agoraphobia**, **Neurotic disorder**, **Dysthymic disorder** — erreichen nur L4, unterstützt durch indirekte, Klassen-Ebenen oder einzelne nicht-spezifische Studien statt agomelatine-spezifische Studien.
-- **Seltene-genetische-Syndrom-Cluster** (Ohdo syndrome und seine Varianten ×2, Keppen-Lubinsky syndrome, ligneous conjunctivitis): diese haben Null klinische Studien, Null Literatur und keinen plausiblen Rezeptor-Ebenen-Zusammenhang zur melatonergischen/serotonergen Pharmakologie. Die Begründung des Evidence Pack selbst schreibt diese explizit Nähe-Artefakten im Knowledge Graph zu statt echtem biologischem Signal. Sie sollten als Rauschen behandelt werden, nicht als Kandidaten für weitere Arbeit.
+Mechanistisch deutlich besser begründet sind andere Vorhersagen aus der Liste:
 
----
-
-## Klinische Studien-Evidenz
-
-Über alle 10 vorhergesagten Indikationen hinweg sind **keine klinischen Studien registriert** auf ClinicalTrials.gov oder ICTRP (bestätigt durch 30 separate Null-Ergebnis-Abfragen im Abfrage-Protokoll, IDs 5, 8, 11, 14, 17, 20, 23, 26, 29, 32).
+- **Melancholie** (Score 99,88 %): schwere Unterform der Major Depression, also im Wesentlichen eine Überschneidung mit der ursprünglichen Indikation.
+- **Neurotische Depression** (99,88 %) und **dysthymische Störung** (99,86 %): mildere bzw. chronische depressive Störungen, auf die sich der antidepressive Mechanismus plausibel übertragen lässt.
+- **Agoraphobie** (99,95 %) und **neurotische Störung** (99,90 %): indirekte Begründung über anxiolytische Effekte und gemeinsame serotonerge/zirkadiane Signalwege.
+- Seltene genetische Syndrome (Ohdo-Syndrom, Keppen-Lubinsky-Syndrom) und die Conjunctivitis lignosa zeigen keinen biologischen Bezug.
 
 ---
 
-## Literatur-Evidenz
+## Klinische Studien
 
-Literatur wurde pro Indikation abgefragt; Ergebnisse überlappen stark zwischen Melancholie und Neurotic depression (beide ordnen sich zur gleichen MDD-Literaturbasis). Unten sind die 10 relevantesten, deduplizierten Publikationen über das Portfolio hinweg, priorisiert nach Studien-Tier und Agomelatine-Spezifität.
-
-| PMID | Jahr | Typ | Zeitschrift | Zugehörige Indikation(en) | Wichtigste Erkenntnisse |
-|------|------|-----|-----------|-----------|----------|
-| [39684343](https://pubmed.ncbi.nlm.nih.gov/39684343/) | 2024 | Systematische Übersicht/Metaanalyse (agomelatine-spezifisch) | Int J Mol Sci | Melancholie, Neurotic depression | Wirksamkeit und Sicherheit von Agomelatine bei depressiven Patienten mit komorbidem Diabetes |
-| [29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/) | 2018 | Netzwerk-Metaanalyse (21 Antidepressiva inkl. Agomelatine) | Lancet | Melancholie, Neurotic depression | Vergleichende Wirksamkeits-/Akzeptanz-Rangliste von Antidepressiva zur akuten MDD-Behandlung |
-| [21527126](https://pubmed.ncbi.nlm.nih.gov/21527126/) | 2011 | Metaanalyse von placebokontrollierten RCTs | J Clin Psychiatry | Dysthymic disorder | Antidepressive Wirksamkeit bei Dysthymie vs. MDD, Klassen-Ebene (nicht agomelatine-spezifisch) |
-| [32568567](https://pubmed.ncbi.nlm.nih.gov/32568567/) | 2020 | Übersicht (agomelatine-spezifisch) | Expert Opin Drug Discov | Melancholie, Neurotic depression | Präklinische Entdeckung und Entwicklung von Agomelatine; erstes Antidepressivum, das über monoamine Wege hinausgeht |
-| [30759026](https://pubmed.ncbi.nlm.nih.gov/30759026/) | 2019 | Übersicht (agomelatine-spezifisch) | Expert Opin Pharmacother | Neurotic depression | Duale MT-Agonist-/5-HT2C-Antagonist-Wirkung von Agomelatine; Anwendung bei Depression komorbid mit somatischen Störungen |
-| [19777735](https://pubmed.ncbi.nlm.nih.gov/19777735/) | 2009 | Übersicht (agomelatine-spezifisch) | Med Monatsschr Pharm | Melancholie | Berichtet EMA-Zulassung von Agomelatine (Valdoxan) für Erwachsenen-MDD, Februar 2009 |
-| [26560173](https://pubmed.ncbi.nlm.nih.gov/26560173/) | 2015 | Cochrane Systematische Übersicht | Cochrane Database Syst Rev | Melancholie | Agomelatine und Melatonin bewertet für Prävention von Seasonal Affective Disorder |
-| [36253442](https://pubmed.ncbi.nlm.nih.gov/36253442/) | 2023 | Systematische Übersicht/Netzwerk-Metaanalyse | Mol Psychiatry | Melancholie, Neurotic depression | Antidepressive Wirksamkeit/Sicherheit in der Erhaltungsphase von MDD (Klassen-Ebene) |
-| [25911132](https://pubmed.ncbi.nlm.nih.gov/25911132/) | 2015 | Systematische Übersicht | J Affect Disord | Melancholie, Neurotic depression | Evidenz-basierte Antidepressiva-Dosisäquivalenz-Empfehlungen aus RCTs |
-| [21183900](https://pubmed.ncbi.nlm.nih.gov/21183900/) | 2010 | Kohorten-/Beobachtungsstudie | Zh Nevrol Psikhiatr Im S S Korsakova | Agoraphobia | Klinische Prädiktoren der therapeutischen Reaktion auf Agomelatine (Valdoxan) bei mittelschwerer bis schwerer Depression; nicht agoraphobia-spezifisch |
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Deutschland Markt-Informationen
+## Literaturevidenz
 
-Agomelatine wird derzeit **nicht vermarktet** in Deutschland laut verfügbarer regulatorischer Daten (`market_status: Not marketed`), mit **0 Zulassungen** auf Datensatz. Keine BfArM-Lizenzdetails waren für dieses Evidence Pack abrufbar.
+Derzeit liegt keine zugehörige Literatur vor.
+
+Zum Vergleich: Für die besser begründeten Alternativkandidaten wurde Literatur gefunden. Für **Melancholie** und **neurotische Depression** sind es überwiegend allgemeine Übersichten und Netzwerk-Metaanalysen zu Antidepressiva (z. B. Cipriani et al., Lancet 2018, [PMID 29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/)) sowie Übersichten zu Agomelatin (z. B. [PMID 24033095](https://pubmed.ncbi.nlm.nih.gov/24033095/)). Für die **dysthymische Störung** liegt eine Metaanalyse placebokontrollierter RCTs zu Antidepressiva vor ([PMID 21527126](https://pubmed.ncbi.nlm.nih.gov/21527126/), 2011), die Agomelatin nicht nachweislich einschließt. Keine dieser Arbeiten ist spezifisch für die jeweilige Diagnose.
 
 ---
 
-## Sicherheitsüberlegungen
+## Marktinformationen Deutschland
 
-Bitte sehen Sie in der Packungsbeilage nach Sicherheitsinformationen. Keine strukturierten Warnungen, Kontraindikationen oder Arzneimittelwechselwirkungs-Daten waren für dieses Evidence Pack abrufbar (DDI-Abfrage gab `not_found` zurück).
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000915 | Valdoxan | – | Major Depression (Status: aufgehoben) |
+
+---
+
+## Sicherheitsaspekte
+
+- **Pharmakologische Zielstrukturen** (aus der Wechselwirkungsabfrage): 5-HT2A-, 5-HT2B-, 5-HT2C-, MT1- und MT2-Rezeptor. Das sind Zielstrukturen des Wirkstoffs selbst, keine klassischen Arzneimittelwechselwirkungen mit anderen Wirkstoffen.
+
+Für Warnhinweise und Gegenanzeigen siehe die Packungsbeilage bzw. Fachinformation.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Halten** (Portfolio-Ebene)
+**Entscheidung: Hold**
 
 **Begründung:**
-- Die zwei höchstevidenz-Kandidaten (Melancholie, Neurotic depression; L1) sind keine echten Repurposing-Chancen — sie sind alternative klinische Labels für Agomelatines bereits-genehmigte Indikation (MDD), daher fügen sie begrenzte neue kommerzielle oder klinische Wertschöpfung hinzu.
-- Die drei Kandidaten mit plausiblem mechanistischem Neuheitswert (Agoraphobia, Neurotic disorder, Dysthymic disorder) erreichen nur L4, unterstützt durch indirekte, nicht-agomelatine-spezifische oder Klassen-Ebenen-Literatur — unzureichend zum Weitermachen ohne dedizierte Studien.
-- Fünf Kandidaten (benign paroxysmal torticollis of infancy, Ohdo syndrome und seine zwei Varianten, ligneous conjunctivitis, Keppen-Lubinsky syndrome) haben keine klinische, Literatur- oder mechanistische Unterstützung und sollten als wahrscheinlich Modell-Artefakte deprioritiert werden.
-- Eine **Blocking**-Schwere-Datenlücke (DG001) bedeutet, dass TFDA/BfArM-äquivalente Etikett-Warnungen und Kontraindikationen nicht verfügbar sind, was diesen Kandidaten von selbst davon abhält, die S1-Sicherheits-Vorprüfungs-Stufe unabhängig von der Indikation zu räumen.
+Für die benigne paroxysmale Torticollis des Säuglingsalters liegt ausschließlich eine Modellvorhersage ohne Studien, Literatur oder mechanistische Begründung vor (Evidenzstufe L5). Zudem ist die deutsche Zulassung aufgehoben.
 
-**Um Weitermachen zu können, ist folgendes erforderlich:**
-- Beheben Sie DG001 (Blocking): erhalten und parsen Sie die offizielle Packungsbeilage (Warnungen/Kontraindikationen) von der relevanten regulatorischen Quelle.
-- Beheben Sie DG002 (Hoch): erhalten Sie einen strukturierten Wirkmechanismus-Datensatz von der DrugBank API um Mechanismus-Link-Bewertung zu unterstützen.
-- Für Agoraphobia, Neurotic disorder und Dysthymic disorder: suchen Sie agomelatine-spezifische (nicht Klassen-Ebenen) klinische Evidenz — idealerweise eine registrierte Studie oder eine dedizierte Systematische Übersicht — bevor Sie die "Forschungsfrage"-Stufe vorantreiben.
-- Deprioritieren Sie weitere Evidenz-Sammlung zu den fünf L5-seltenen-Syndrom-Kandidaten, sofern eine zukünftige Modellversion keine glaubhafte mechanistische Begründung hervorgebracht hat.
-
+**Für ein Weiterkommen sind erforderlich:**
+- Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen); derzeit fehlt diese Information und blockiert die Sicherheitsprüfung.
+- Daten zum Wirkmechanismus aus einer verlässlichen Arzneimitteldatenbank.
+- Priorisierung der Kandidaten mit plausiblerem Bezug (Melancholie, neurotische Depression, dysthymische Störung) und gezielte Suche nach agomelatin-spezifischen Studien in diesen Subtypen. Diese tragen derzeit die Stufe L4 mit der Einstufung „Forschungsfrage".
+- Klärung des Zulassungsstatus in Deutschland, da nur eine aufgehobene Zulassung vorliegt.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

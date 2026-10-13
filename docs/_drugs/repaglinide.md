@@ -2,7 +2,7 @@
 layout: default
 title: Repaglinide
 parent: Nur Modellvorhersage (L5)
-nav_order: 336
+nav_order: 394
 evidence_level: L5
 indication_count: 0
 ---

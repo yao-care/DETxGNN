@@ -2,7 +2,7 @@
 layout: default
 title: Oritavancin
 parent: Nur Modellvorhersage (L5)
-nav_order: 283
+nav_order: 331
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,77 +29,90 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Oritavancin: Von nicht dokumentierter ursprünglicher Indikation zu Bacteroidaceae-Infektionskrankheiten
+# Oritavancin: Von Weichteilinfektionen zu Bacteroidaceae-Infektionen
 
 ## Zusammenfassung in einem Satz
 
-> Oritavancin ist ein Lipoglykopeptid-Antibiotikum; seine ursprüngliche Indikation ist in diesem Evidenzbericht nicht dokumentiert, und das Medikament ist derzeit in dieser Gerichtsbarkeit nicht im Handel.
-> Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam gegen **Bacteroidaceae-Infektionskrankheiten** ist,
-> aber **keine klinischen Studien** und **keine Literatur** unterstützen derzeit diese Richtung, und der eigene Wirkmechanismus des Medikaments spricht dagegen.
+Oritavancin ist ein Lipoglykopeptid-Antibiotikum, das ursprünglich zur Behandlung von Weichteilinfektionen und bakteriellen Hauterkrankungen zugelassen wurde.
+Das TxGNN-Modell sagt voraus, dass es bei **Bacteroidaceae-Infektionen** wirksam sein könnte.
+Dafür liegen jedoch derzeit **keine klinischen Studien** und **keine Publikationen** vor, die diese Richtung stützen.
 
 ---
 
-## Schnellerblick
+## Kurzüberblick
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Nicht verfügbar – keine Zulassungs-/Indikationsdaten vorhanden (nicht im Handel) |
-| Vorhergesagte neue Indikation | Bacteroidaceae-Infektionskrankheiten |
-| TxGNN-Vorhersage-Score | 99.48% |
-| Evidenzgrad | L5 (nur Modellvorhersage, keine Studien oder Literatur) |
-| Marktstatus Deutschland | ✗ Nicht im Handel |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Abwarten |
+| Ursprüngliche Indikation | Weichteilinfektionen; bakterielle Hauterkrankungen |
+| Vorhergesagte neue Indikation | Bacteroidaceae-Infektionen |
+| TxGNN-Vorhersagewert | 99,48 % |
+| Evidenzlevel | L5 |
+| Marktstatus in Deutschland | Nur erloschene/gelöschte Zulassung |
+| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage sinnvoll?
+## Warum ist diese Vorhersage plausibel (oder nicht)?
 
-Detaillierte Wirkmechanismus-Daten sind als Datenlücken gekennzeichnet, aber die eigene mechanistische Begründung dieses Berichts ist aussagekräftig: Oritavancin ist ein **Lipoglykopeptid**-Antibiotikum, das an das D-Ala-D-Ala-Ende von Peptidoglykan-Vorläufern bindet und die Synthese der bakteriellen Zellwand hemmt. Dieser Mechanismus wirkt nur gegen **grampositiv**e Organismen.
+Detaillierte Daten zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten nicht vor. Bekannt ist, dass Oritavancin ein Lipoglykopeptid ist, das die bakterielle Zellwandsynthese (Transglykosylierung und Transpeptidierung) hemmt und die Membranintegrität stört. Seine Wirkung richtet sich in erster Linie gegen grampositive Erreger, was die Zulassung bei Haut- und Weichteilinfektionen erklärt.
 
-**Bacteroidaceae** sind gramnegative Anaerobier, deren Außenmembran das Eindringen großer Glykopeptid-Moleküle blockiert – mechanistisch sollte Oritavancin gegen diese Pathogenfamilie nicht wirksam sein. Der Begründungstext kennzeichnet dies explizit als wahrscheinlich **TxGNN-Falsch-Positiv**, das dadurch entsteht, dass sich Medikament und Krankheit als graphisch benachbarte „Infektionskrankheit"-Knoten befinden, anstatt einen echten pharmakologischen Mechanismus zu teilen.
+Bacteroidaceae (z. B. *Bacteroides* spp.) sind gramnegative Anaerobier mit einer äußeren Membran, die Glykopeptide in der Regel nicht durchdringen können. Die mechanistische Begründung ist daher schwach. Der hohe TxGNN-Wert ist eine rein computergestützte Vorhersage und wird durch keine Studie oder Publikation gestützt.
 
-Die zwei anderen Kandidaten in diesem Bericht (ophthalmischer Herpes zoster – eine Virusinfektion – und *Mycoplasma pneumoniae*-Pneumonie – ein Zellwand-defizientes Bakterium) zeigen das gleiche Muster: hohe TxGNN-Werte gepaart mit mechanistischer Inkompatibilität und null klinischer/Literatur-Unterstützung. Dies ist kein Fall eines plausiblen Signals, das auf Evidenz wartet – der Mechanismus selbst spricht gegen die Vorhersage.
-
----
-
-## Evidenz aus klinischen Studien
-
-Derzeit sind keine verwandten klinischen Studien registriert.
+Auch die weiteren vorhergesagten Indikationen sind mechanistisch fragwürdig:
+- **Ophthalmischer Herpes zoster** (Wert 99,03 %): Der Erreger ist ein Virus, Oritavancin hat keinen antiviralen Mechanismus. Der hohe Wert ist vermutlich ein Artefakt des Graphen.
+- **Mycoplasma-pneumoniae-Pneumonie** (Wert 99,01 %): Mycoplasmen besitzen keine Zellwand, zellwandwirksame Substanzen sind daher voraussichtlich von Natur aus unwirksam.
 
 ---
 
-## Literaturbeweise
+## Klinische Evidenz
 
-Derzeit ist keine verwandte Literatur verfügbar.
-
----
-
-## Informationen zum deutschen Markt
-
-Oritavancin ist in dieser Gerichtsbarkeit nicht im Handel – es sind keine Zulassungsunterlagen verfügbar.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Sicherheitserwägungen
+## Literaturevidenz
 
-Bitte lesen Sie die Packungsbeilage für Sicherheitsinformationen.
+Derzeit ist keine zugehörige Literatur verfügbar.
+
+---
+
+## Marktinformationen Deutschland
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/003785 | Tenkasi (zuvor Orbactiv) | – | Weichteilinfektionen; bakterielle Hauterkrankungen |
+
+Hinweis: Diese Zulassung ist als erloschen/gelöscht geführt. Es besteht keine gültige Zulassung.
+
+---
+
+## Sicherheitsaspekte
+
+- **Arzneimittelwechselwirkungen**: Insgesamt wurden 38 Wechselwirkungen erfasst. Auszug aus den ausgewerteten Einträgen:
+  - **Schwerwiegend (Major)**: Heparin
+  - **Mäßig (Moderate)**: u. a. Warfarin, Ticagrelor, Cobicistat, Hydrocodon, Ethinylestradiol, Abemaciclib, Acalabrutinib, Alpelisib, Brigatinib, Cabozantinib, Crizotinib, Fostamatinib, Elagolix, Osilodrostat, Nitisinon, Praziquantel, Macimorelin, Natriumpicosulfat
+  - **Gering (Minor)**: Bortezomib
+
+  Besondere Vorsicht ist bei gleichzeitiger Gabe von Antikoagulanzien (Heparin, Warfarin) geboten.
+
+Zu Warnhinweisen und Gegenanzeigen bitte die Fachinformation heranziehen.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Abwarten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die am höchsten eingestufte Vorhersage (Bacteroidaceae-Infektionskrankheiten) ist mechanistisch mit dem reinen Grampositiv-Spektrum von Oritavancin unvereinbar, wird durch keinerlei klinische Studien oder Literatur gestützt und spiegelt die L5-Stufe (nur Vorhersage) von TxGNN wider. Die zwei anderen Kandidaten in diesem Bericht zeigen das gleiche Muster mechanistischer Implausibilität, was auf einen systematischen Falsch-Positiv-Cluster statt eines echten Repurposing-Signals hindeutet.
+Die Vorhersage beruht ausschließlich auf einem Modellwert (Evidenzlevel L5) ohne Studien oder Publikationen. Der Wirkmechanismus von Oritavancin (gegen grampositive Erreger, an der Zellwand angreifend) passt schlecht zu gramnegativen Bacteroidaceae. Zudem besteht in Deutschland keine gültige Zulassung.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- Bestätigte Wirkmechanismus- und ursprüngliche Indikationsdaten aus DrugBank/Regulierungsquellen (derzeit als Datenlücken gekennzeichnet)
-- TFDA-/Regulierungs-Etikett-Warnungen und Kontraindikationen (blockierende Lücke – erforderlich vor S1-Sicherheitsscreening)
-- Unabhängige mikrobiologische oder In-vitro-Evidenz für Aktivität gegen Bacteroidaceae, wenn dieser Kandidat weiterverfolgt werden soll
-- Angesichts der mechanistischen Warnsignale wird empfohlen, diesen Kandidaten zugunsten von Vorhersagen mit höherem Evidenzgrad an anderer Stelle in der Pipeline herabzustufen
-
+**Für ein Weiterkommen erforderlich:**
+- Vollständige Daten zum Wirkmechanismus (MOA)
+- Fachinformation mit Warnhinweisen und Gegenanzeigen (derzeit blockierende Datenlücke für das Sicherheits-Screening)
+- In-vitro-Empfindlichkeitsdaten (MHK) von Oritavancin gegen *Bacteroides* spp.
+- Präklinische oder klinische Belege für die Wirksamkeit bei Infektionen mit Bacteroidaceae
+- Klärung des Zulassungsstatus und der verfügbaren Applikationswege in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

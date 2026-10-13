@@ -2,7 +2,7 @@
 layout: default
 title: Ponatinib
 parent: Nur Modellvorhersage (L5)
-nav_order: 312
+nav_order: 364
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,78 +29,105 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# PONATINIB: Von nicht spezifizierter Indikation zu Fibromatose, Gingival
+# Ponatinib: Von Leukämie zu gingivaler Fibromatose
 
 ## Zusammenfassung in einem Satz
 
-> Für PONATINIB sind derzeit keine Daten zu zugelassener Indikation oder Wirkmechanismus in diesem Beweispaket verfügbar.
-> Das TxGNN-Modell prognostiziert eine potenzielle Wirksamkeit für **Fibromatose, Gingival**,
-> aber **keine klinischen Versuche und keine Veröffentlichungen** unterstützen diese Richtung derzeit.
+Ponatinib ist ein Tyrosinkinase-Inhibitor, der ursprünglich zur Behandlung myeloischer und lymphatischer Leukämien zugelassen wurde.
+Das TxGNN-Modell sagt voraus, dass er bei **gingivaler Fibromatose** wirksam sein könnte (Score 99,04 %).
+Dafür liegen **keine klinischen Studien** und **keine Publikationen** vor, die Vorhersage beruht allein auf dem Modell.
+Für die zweitplatzierte Vorhersage, **Liposarkom**, existiert immerhin **1 präklinische Publikation**.
 
 ---
 
-## Kurzübersicht
+## Kurzüberblick
 
-| Artikel | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Vorhergesagte neue Indikation | Fibromatose, Gingival |
-| TxGNN-Prognosewert | 99.04% |
-| Evidenzebene | L5 |
-| Marktstatus Deutschland | Nicht im Handel |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Abwarten |
-
-*Die ursprüngliche Indikation wird weggelassen – es sind keine `approved_indication_text`- oder `original_indications`-Daten in diesem Beweispaket vorhanden.*
-
----
-
-## Warum ist diese Prognose angemessen?
-
-Derzeit sind detaillierte Wirkmechanismus-Daten für PONATINIB nicht verfügbar, und in diesem Beweispaket ist keine ursprüngliche/zugelassene Indikation erfasst. Infolgedessen kann derzeit keine mechanistische Begründung konstruiert werden, die eine bekannte ursprüngliche Indikation mit der vorhergesagten neuen Indikation (Fibromatose, Gingival) verknüpft.
-
-Diese Prognose basiert ausschließlich auf dem Musterwert des TxGNN-Knowledge-Graph-Modells (99.04%, globale Rangfolge 9776), ohne bestätigende klinische Versuche oder Fachliteratur-Evidenz. Sie sollte nur als hypothesengenerierendes Signal behandelt werden, bis die mechanistische und regulatorische Datenbeschaffung vorliegt (siehe `data_gaps` DG001, DG002).
+| Ursprüngliche Indikation | Myeloische und lymphatische Leukämie |
+| Vorhergesagte neue Indikation | Gingivale Fibromatose |
+| TxGNN-Vorhersagewert | 99,04 % |
+| Evidenzlevel | L5 |
+| Marktstatus in Deutschland | Nur erloschene Zulassung (keine gültige Zulassung) |
+| Anzahl der Zulassungen | 1 (erloschen) |
+| Empfohlene Entscheidung | Hold (zurückstellen) |
 
 ---
 
-## Evidenz aus klinischen Versuchen
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind keine zugehörigen klinischen Versuche registriert
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Ponatinib ein Multi-Kinase-Inhibitor ist (u. a. BCR-ABL, FGFR, PDGFR, VEGFR, SRC). Seine Wirksamkeit bei Leukämien ist belegt, und mechanistisch könnte er theoretisch auch bei Erkrankungen wirken, in denen PDGFR- oder FGFR-Signalwege an fibrotischen oder proliferativen Prozessen beteiligt sind.
 
----
+Für die gingivale Fibromatose ist diese Verbindung jedoch rein spekulativ und durch keine Evidenz gestützt. Es handelt sich um eine seltene, gutartige Erkrankung. Das Sicherheitsprofil von Ponatinib (arterielle Verschlussereignisse, Gefäßverschlüsse, Hepatotoxizität, Pankreatitis) spräche gegen einen Einsatz bei einer solchen Indikation. Die erloschene Zulassung in Deutschland erschwert zudem den praktischen Zugang.
 
-## Evidenz aus der Fachliteratur
-
-Derzeit ist keine zugehörige Fachliteratur verfügbar
+Die zweite Vorhersage, **Liposarkom** (Score 99,00 %), ist mechanistisch plausibler: Die Multi-Kinase-Aktivität (FGFR, PDGFR, SRC, KIT, RET) passt zu einem Tumor, bei dem Kinasen als therapeutische Zielstrukturen gelten. Die Evidenz ist aber indirekt und präklinisch (Evidenzlevel L4).
 
 ---
 
-## Marktinformation für Deutschland
+## Evidenz aus klinischen Studien
 
-Derzeit sind keine Vermarktungszulassungen registriert (`market_status: Not marketed`, `total_licenses: 0`).
+Für gingivale Fibromatose sind derzeit keine relevanten klinischen Studien registriert.
+Auch für die zweitplatzierte Vorhersage Liposarkom wurden keine klinischen Studien gefunden.
+
+---
+
+## Evidenz aus der Literatur
+
+Für gingivale Fibromatose liegt derzeit keine relevante Literatur vor.
+
+Für die zweitplatzierte Vorhersage Liposarkom wurde eine Publikation identifiziert:
+
+| PMID | Jahr | Typ | Journal | Kernaussagen |
+|------|-----|------|------|---------|
+| [29132397](https://pubmed.ncbi.nlm.nih.gov/29132397/) | 2017 | Präklinisch (In-vitro-Kinaseprofilierung, RNAi- und Wirkstoff-Screening) | Journal of Hematology & Oncology | Kinaseprofilierung bei Liposarkomen zur Identifizierung therapeutisch angreifbarer Kinasen. Ob Ponatinib dabei konkret als wirksam identifiziert wurde, lässt sich aus den vorliegenden Daten nicht bestätigen. |
+
+---
+
+## Informationen zum deutschen Markt
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/002695 | Iclusig (Incyte Biosciences Distribution B.V.) | – | Myeloische und lymphatische Leukämie (Zulassung erloschen) |
+
+---
+
+## Zytotoxizität
+
+| Punkt | Inhalt |
+|------|------|
+| Klassifikation | Zielgerichtete Therapie (Multi-Tyrosinkinase-Inhibitor) |
+| Myelosuppressionsrisiko | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Emetogenität | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Monitoring | Bitte die Fachinformation beachten; üblich sind Blutbild sowie Leber- und Nierenfunktion |
+| Schutzmaßnahmen beim Umgang | Bitte die Fachinformation und die Vorgaben zum Umgang mit Zytostatika beachten |
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+**Arzneimittelwechselwirkungen** (100 Einträge insgesamt, Auswahl der Schweregrade):
 
-*Hinweis: TFDA/Etikettenwarnungen und Kontraindikationen werden als **blockierende** Datenlücke (DG001) gekennzeichnet – dieses Arzneimittel kann die anfängliche Sicherheitsprüfung (S1) nicht überschreiten, bis die Etikettendaten abgerufen werden.*
+- **Schwerwiegend (Major):** Acetylsalicylsäure, Clarithromycin
+- **Mäßig (Moderate):** Loperamid, Aprepitant, Dexamethason, Naldemedin, Naltrexon, Metronidazol, Miconazol
+- **Gering (Minor):** u. a. Famotidin, Ranitidin, Cimetidin, Nizatidin sowie Protonenpumpenhemmer (Omeprazol, Lansoprazol, Pantoprazol, Rabeprazol, Dexlansoprazol), Magnesiumoxid, Naloxegol
+
+Die Angaben zu Warnhinweisen und Gegenanzeigen aus der Fachinformation fehlen in den zusammengestellten Daten. Bitte die Fachinformation zu Sicherheitsinformationen heranziehen. Aus den allgemein bekannten Risiken von Ponatinib (arterielle Verschlussereignisse, Hepatotoxizität, Pankreatitis) ergibt sich bei einer gutartigen Erkrankung eine ungünstige Nutzen-Risiko-Abwägung.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Abwarten**
+**Entscheidung: Hold (zurückstellen)**
 
 **Begründung:**
-Die vorhergesagte Indikation wird durch keine klinischen Versuche oder Fachliteratur-Evidenz (L5) gestützt, und eine blockierende Datenlücke (fehlende TFDA-Warnungen/Kontraindikationen) verhindert jede Vorsicherheitsprüfung. Das Arzneimittel wird derzeit auch nicht in dieser Gerichtsbarkeit vermarktet.
+Die Vorhersage für gingivale Fibromatose stützt sich ausschließlich auf einen hohen Modellwert (Evidenzlevel L5), ohne klinische Studien oder Literatur. Bei einer gutartigen Erkrankung wiegt das Risikoprofil von Ponatinib schwer, und die Zulassung in Deutschland ist erloschen. Das Liposarkom wäre als eigene Forschungsfrage (L4) interessanter, ist aber ebenfalls nur präklinisch und indirekt belegt.
 
-**Um fortzufahren, wird Folgendes benötigt:**
-- Abruf von TFDA/Etikettenwarnungen und Kontraindikationen (DG001, Blockierend)
-- Abruf von Wirkmechanismus-Daten aus DrugBank (DG002, Hoch)
-- Abruf der ursprünglichen zugelassenen Indikation(en) für PONATINIB zur Etablierung einer mechanistischen Begründung
-- Suche nach präklinischen oder Einzelfallbeweisen, die PONATINIB speziell mit Fibromatose gingival verknüpfen
-
+**Für ein Weiterverfolgen sind folgende Schritte nötig:**
+- Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) zur Sicherheitsbewertung
+- Detaillierte Wirkmechanismusdaten (z. B. aus DrugBank)
+- Prüfung der Originalpublikation PMID 29132397, ob Ponatinib im Liposarkom-Screening aktiv war
+- Gezielte Literatur- und Studienrecherche zu PDGFR-/FGFR-Signalwegen bei gingivaler Fibromatose
+- Klärung der Zugänglichkeit des Arzneimittels in Deutschland angesichts der erloschenen Zulassung
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

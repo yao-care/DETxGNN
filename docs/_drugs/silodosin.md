@@ -2,7 +2,7 @@
 layout: default
 title: Silodosin
 parent: Nur Modellvorhersage (L5)
-nav_order: 363
+nav_order: 427
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,82 +29,88 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Silodosin: Von Benigner Prostatahyperplasie zu Ambras type Hypertrichosis universalis congenita
+# Silodosin: Von der benignen Prostatahyperplasie zur Ambras-Typ Hypertrichosis universalis congenita
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Silodosin ist ein hochselektiver α1A-adrenerger Rezeptorantagonist, pharmakologisch zur Behandlung der benignen Prostatahyperplasie (BPH)/Symptome der unteren Harnwege eingesetzt.
-> Die Top-Vorhersage des TxGNN-Modells ist **Ambras type hypertrichosis universalis congenita** (Score 99.99%),
-> aber diese Vorhersage wird derzeit durch **null klinische Studien** und **null Publikationen** gestützt, ohne bekannten Mechanismuspfad, der eine α1A-Blockade mit der Haarfollikel-Biologie verbindet.
+Silodosin ist ein Arzneistoff, der ursprünglich zur Behandlung der benignen Prostatahyperplasie zugelassen wurde.
+Das TxGNN-Modell sagt voraus, dass er bei der **Ambras-Typ Hypertrichosis universalis congenita** wirksam sein könnte.
+Dafür liegen jedoch **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage beruht allein auf dem Modell.
 
 ---
 
-## Schnellübersicht
+## Kurzüberblick
 
-| Element | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Benigne Prostatahyperplasie / Symptome der unteren Harnwege (abgeleitet aus Arzneimittelklasse und Umwidmungs-Rationale-Text; nicht im Paket vorhanden — `original_indications` ist leer) |
-| Vorhersagte neue Indikation | Ambras type hypertrichosis universalis congenita |
-| TxGNN-Vorhersage-Score | 99.99% (Modellrang 168) |
-| Evidenzstufe | L5 |
-| Deutschland Marktstatus | Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Zurückstellen |
+| Ursprüngliche Indikation | Benigne Prostatahyperplasie |
+| Vorhergesagte neue Indikation | Ambras-Typ Hypertrichosis universalis congenita |
+| TxGNN-Vorhersagewert | 99,99 % |
+| Evidenzlevel | L5 |
+| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
+| Anzahl der Zulassungen | 3 (alle erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Warum ist diese Vorhersage (nicht) plausibel?
 
-Detaillierte Wirkmechanismus-Daten sind nicht verfügbar (`original_moa: [Data Gap]`). Basierend auf der Arzneimittelklasse und dem im Vorhersagefeld eingebetteten Rationale-Text ist Silodosin ein hochselektiver α1A-adrenerger Rezeptorantagonist, der hauptsächlich auf die glatte Muskulatur der Prostata und der unteren Harnwege wirkt, und es wird angenommen, dass er für BPH eingesetzt wird.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Silodosin ein selektiver Alpha-1A-Adrenozeptor-Antagonist ist, der zur Behandlung der benignen Prostatahyperplasie eingesetzt wird. Seine Wirksamkeit bei dieser Erkrankung beruht auf der Entspannung der glatten Muskulatur in Prostata und Blasenhals.
 
-Ambras type hypertrichosis universalis congenita ist eine seltene angeborene Störung, die mit Chromosomenumlagerungen und Haarfollikel-Entwicklungsgenen verbunden ist. Es gibt keinen etablierten biologischen Pfad, der die periphere α1A-Rezeptorblockade mit der Regulation des Haarfollikelwachstums verbindet — arzneimittelinduzierte Hypertrichose ist üblicherweise eher mit Kaliumkanal-Öffnern (z. B. Minoxidil) assoziiert, nicht mit α-adrenerger Antagonismus. Das Rationale-Feld des Pakets selbst kennzeichnet dies ausdrücklich als Fall mit hohem Score und fehlendem Mechanismus, was bedeutet, dass die TxGNN-Assoziation wahrscheinlich eher Embedding-Space-Rauschen als ein biologisch fundiertes Signal widerspiegelt.
+Das Ambras-Syndrom ist eine seltene genetische Erkrankung mit übermäßigem Haarwuchs. Sie wird mit Chromosom-8q-Umlagerungen in Verbindung gebracht, die die Regulation von TRPS1 beeinflussen. Ein plausibler Zusammenhang zwischen der Alpha-1A-Blockade und diesem genetischen Mechanismus ist nicht erkennbar. Der sehr hohe TxGNN-Wert (0,9999) ist eine rein graphbasierte Vorhersage und spiegelt vermutlich die Nähe im Netzwerk zu haarbezogenen Phänotypen wider, nicht eine biologische Begründung.
 
-Alle fünf weiteren Kandidaten in diesem Paket (Hypertrichose, Malformationssyndrom mit odontaler/parodontaler Komponente, Dandy-Walker-Malformation, Haarschaftanomalie, familiäre Trichomegalie) folgen dem gleichen Muster: sehr hohe TxGNN-Scores kombiniert mit fehlenden klinischen Studienergebnissen und, wo Literatur existiert, abgestimmte Publikationen, die keinen Bezug zum Arzneimittel haben (siehe unten).
+Auch bei der zweitplatzierten Vorhersage, der Hypertrichose allgemein, ist die Wirkrichtung unklar: Einige gefäßerweiternde oder blutdrucksenkende Substanzen (z. B. Minoxidil) verursachen Hypertrichose, sodass ein Effekt eher als Nebenwirkung denn als Therapie zu erwarten wäre.
+
+Weitere vorhergesagte Indikationen (ebenfalls ohne Evidenz): Fehlbildungssyndrom mit Zahn- bzw. Parodontalbeteiligung, Syndrom mit Dandy-Walker-Malformation, isolierte genetische Haarschaftanomalie und familiäre isolierte Trichomegalie (Werte zwischen 0,992 und 0,9999).
 
 ---
 
-## Klinische Studienevidenz
+## Klinische Studien
 
-Derzeit sind keine verwandten klinischen Studien registriert.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
 ## Literaturevidenz
 
-Derzeit ist keine verwandte Literatur verfügbar.
-
-*(Anmerkung: Rang-3-Kandidat „Malformationssyndrom mit odontaler/parodontaler Komponente" lieferte 20 Parodontitis-bezogene Publikationen, aber keine erwähnt Silodosin oder α1-Antagonisten — diese werden als irrelevante Co-Auftritt-Treffer betrachtet, nicht als unterstützende Evidenz für die Top-Vorhersage.)*
+Derzeit liegt keine zugehörige Literatur vor.
 
 ---
 
-## Deutschland-Marktinformationen
+## Marktinformationen Deutschland
 
-Silodosin hat derzeit keine Marktzulassungsunterlagen in Deutschland (`total_licenses: 0`, `licenses: []`). Dieses Arzneimittel wird nicht im deutschen Datensatz, der von diesem Paket abgedeckt wird, vermarktet.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/001092 | Urorec | – | Benigne Prostatahyperplasie |
+| EMEA/H/C/001209 | Silodyx | – | Benigne Prostatahyperplasie |
+| EMEA/H/C/004964 | Silodosin Recordati | – | Benigne Prostatahyperplasie |
+
+Alle drei Zulassungen (Inhaber: Recordati Ireland Ltd) sind erloschen; es besteht keine gültige Zulassung.
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+- **Kontraindikationen aus dem Wissensgraphen** (aus Arzneimittel-Krankheits-Beziehungen des Modells, nicht aus Fachinformationstexten): Multisystematrophie, posturales orthostatisches Tachykardiesyndrom, orthostatische Hypotonie, Leberversagen, Nierenerkrankung, Pyoureter, intraoperatives Floppy-Iris-Syndrom.
+- **Arzneimittelwechselwirkungen**: Insgesamt wurden 99 Wechselwirkungen identifiziert. Eine als **schwerwiegend (Major)** eingestufte Wechselwirkung besteht mit **Clarithromycin**. Beispiele für **moderate** Wechselwirkungen: Bupropion, Aprepitant, Morphin, Dexamethason, Cimetidin, Miconazol, Clotrimazol, Canagliflozin, Dapagliflozin, Empagliflozin, Ertugliflozin, Dronabinol, Nabilon, Eliglustat, Rolapitant, Metreleptin, Glycerolphenylbutyrat und Opium.
 
-*(Anmerkung: `safety.key_warnings` und `safety.contraindications` sind beide in diesem Paket als Datenlücken gekennzeichnet — Element DG001, Schweregrad „Blocking", blockiert speziell die S1-Sicherheitsvorbewertung bis zur Abrufung des TFDA-Labels.)*
+Für Warnhinweise und Gegenanzeigen aus der Fachinformation siehe bitte die Packungsbeilage.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Zurückstellen**
+**Entscheidung: Hold**
 
-**Rationale:**
-Die Vorhersage trägt einen hohen TxGNN-Score, aber null klinische oder Literaturunterstützung, keinen plausiblen Mechanismuspfad, und das Arzneimittel wird derzeit nicht in Deutschland vermarktet. In Kombination mit einer Sicherheitsdatenlücke mit Blocking-Schweregrad (DG001) und fehlenden MOA-Daten (DG002) erfüllt dieser Kandidat nicht die Mindestanforderungen, um zur Sicherheitsvorbewertung (S1) zu gelangen.
+**Begründung:**
+Es gibt weder klinische Studien noch Publikationen, und ein biologischer Zusammenhang zwischen Alpha-1A-Blockade und dem Ambras-Syndrom ist nicht erkennbar. Zudem besteht in Deutschland keine gültige Zulassung. Die Vorhersage stützt sich ausschließlich auf den Modellwert.
 
-**Zum Fortfahren ist Folgendes erforderlich:**
-- TFDA-Label (Warnungen/Kontraindikationen) Abruf zur Behebung von DG001 (Blocking)
-- Bestätigter MOA aus DrugBank zur Behebung von DG002 und Ermöglichung der Mechanismus-Bewertung
-- Bestätigte ursprüngliche Indikation und Deutschland/Taiwan-Marktstatus (derzeit nicht in Quelldaten vorhanden)
-- Präklinische oder Fallbeispiel-Evidenz, die α1-adrenerge Antagonismus mit Haarfollikel- oder angeborener Hypertrichose-Pfaden verbindet — keine existiert derzeit
-- Falls keine solche Evidenz auftaucht, sollte dieser Kandidat zugunsten anderer TxGNN-Vorhersagen mit tatsächlicher Studien-/Literaturunterstützung deprioritiert werden
-
+**Für ein Weiterverfolgen sind erforderlich:**
+- Daten zum Wirkmechanismus (MOA) aus DrugBank
+- Warnhinweise und Gegenanzeigen aus der Fachinformation des BfArM (derzeit fehlend; blockierend für die Sicherheitsprüfung)
+- Präklinische Belege (z. B. Haarfollikel-Modelle) für einen plausiblen Wirkzusammenhang
+- Klärung der Wirkrichtung (therapeutischer Effekt versus unerwünschte Wirkung)
+- Prüfung der Darreichungsform und des Anwendungswegs im Hinblick auf die neue Indikation
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

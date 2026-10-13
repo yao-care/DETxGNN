@@ -2,7 +2,7 @@
 layout: default
 title: Natalizumab
 parent: Nur Modellvorhersage (L5)
-nav_order: 263
+nav_order: 308
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,78 +29,99 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-# Natalizumab: Von Multipler Sklerose / Morbus Crohn zu Bronchitis
+# Natalizumab: Von Multipler Sklerose zu Psoriasis
 
 ## Zusammenfassung in einem Satz
 
-> Natalizumab ist ein monoklonaler Antikörper, der bei Multipler Sklerose und Morbus Crohn eingesetzt wird und durch Blockierung der α4-Integrin-vermittelten Leukozytenmigration über die Blut-Hirn-Schranke und die Darmmukosa wirkt.
-> Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam bei **Bronchitis** ist, aber diese Vorhersage wird derzeit durch **0 klinische Studien** und **0 Publikationen** unterstützt, und der Mechanismus weist in die entgegengesetzte Richtung – eine Immunsuppression würde voraussichtlich das Risiko für Atemwegsinfektionen *erhöhen* und nicht behandeln.
+Natalizumab ist ein monoklonaler Antikörper, der ursprünglich zur Behandlung der **Multiplen Sklerose** (einschließlich schubförmig-remittierender Verlaufsform) eingesetzt wird. Das TxGNN-Modell sagt voraus, dass er bei **Psoriasis** wirksam sein könnte (Rang 3 der Vorhersagen, mit der umfangreichsten Literaturbasis aller Kandidaten). Die Evidenz besteht aus **0 klinischen Studien** und **16 Publikationen**, überwiegend Fallberichten und Übersichtsarbeiten mit widersprüchlichen Aussagen.
+
+> Hinweis zur Auswahl: Die Vorhersage mit dem höchsten TxGNN-Score ist Bronchitis (99,46 %), für die jedoch weder Studien noch Literatur vorliegen. Dieser Bericht stellt gemäß Vorgabe die Vorhersage Rang 1 (Bronchitis) in der Übersicht dar und vertieft zusätzlich Psoriasis, da nur dafür relevante Evidenz existiert.
 
 ---
 
-## Schnellübersicht
+## Kurzüberblick
 
-| Element | Inhalt |
-|---------|--------|
-| Original-Indikation | Multiple Sklerose / Morbus Crohn (in der mechanistischen Begründung erwähnt; nicht durch offizielle Etikettierung bestätigt – dieses Arzneimittel hat keinen Zulassungseintrag in diesem Evidenzpaket) |
-| Vorhergesagte neue Indikation | Bronchitis |
-| TxGNN-Vorhersagepunktzahl | 99.46% |
-| Evidenzstufe | L5 (nur Modellvorhersage) |
-| Marktstatus Deutschland | ✗ Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Halten |
-
----
-
-## Warum ist diese Vorhersage angemessen?
-
-Detaillierte Daten zum Wirkmechanismus sind in diesem Evidenzpaket nicht verfügbar (ursprüngliches Wirkmechanismus-Feld ist leer). Basierend auf den verfügbaren Informationen ist Natalizumab ein monoklonaler Antikörper gegen α4-Integrin, der den Leukozytentransport über die Blut-Hirn-Schranke und die Darmmukosa hemmt und bei Multipler Sklerose und Morbus Crohn eingesetzt wird – beide Erkrankungen, die durch pathologische Infiltration von Immunzellen in das Gewebe gekennzeichnet sind.
-
-Bronchitis hingegen ist typischerweise eine infektiöse oder reizbedingte Atemwegsentzündung. Es gibt keinen bekannten mechanistischen Zusammenhang zwischen α4-Integrin-Blockade und der Auflösung von Bronchitis. Wenn überhaupt, würde die immunsuppressive Wirkung von Natalizumab voraussichtlich die Clearance von Atemwegserregern *beeinträchtigen* und könnte plausibel die Anfälligkeit für Bronchitis erhöhen, anstatt sie zu behandeln.
-
-Diese Vorhersage scheint daher ein hochbewertetes Artefakt des TxGNN-Modells zu sein, ohne dass stützende mechanistische, präklinische oder klinische Belege vorhanden sind, und die verfügbare Evidenzrichtung für dieses Arzneimittel (siehe Literaturbelege für verwandte Hauterkrankungen, z. B. PMID 32470781, PMID 35646438) zeigt im Allgemeinen, dass Natalizumab entzündliche Erkrankungen **auslöst oder verschlimmert** und nicht behebt – was verstärkt, dass dieser Kandidat ohne weitere Untersuchung nicht als biologisch plausibel interpretiert werden sollte.
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Multiple Sklerose |
+| Vorhergesagte neue Indikation | Bronchitis (Rang 1); Psoriasis (Rang 3, mit Evidenz) wird nachfolgend vertieft |
+| TxGNN-Vorhersagewert | Bronchitis 99,46 %; Psoriasis 99,19 % |
+| Evidenzstufe | Bronchitis L5; Psoriasis L4 |
+| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen (Cancelled only) |
+| Anzahl der Zulassungen | 2 (beide erloschen) |
+| Empfohlene Entscheidung | Hold (Zurückstellen) |
 
 ---
 
-## Belege aus klinischen Studien
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind keine verwandten klinischen Studien registriert.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Natalizumab das α4-Integrin (VLA-4) blockiert und damit die Einwanderung von Leukozyten in entzündetes Gewebe hemmt. Bei Multipler Sklerose verhindert dies, dass autoreaktive Immunzellen ins zentrale Nervensystem gelangen.
 
----
+Bei Psoriasis, einer T-Zell-vermittelten chronisch-entzündlichen Hauterkrankung, ist ein ähnlicher Ansatz mechanistisch denkbar. Eine Kohorten-/Fallserie (PMID 33589543) berichtet über eine Besserung einer komorbiden Psoriasis bei 18 MS-Patienten unter Natalizumab. Dem stehen jedoch mehrere Fallberichte gegenüber, in denen Natalizumab eine Psoriasis **auslöste oder verschlechterte**, darunter pustulöse und arthritische Formen. Die Befunde sind somit widersprüchlich.
 
-## Literaturbelege
-
-Derzeit ist keine verwandte Literatur verfügbar.
+Bei Bronchitis, der Vorhersage mit dem höchsten Score, ist die Plausibilität gering: Die immunsuppressive Wirkung könnte das Risiko von Atemwegsinfektionen eher erhöhen. Es handelt sich um eine reine Modellvorhersage ohne klinische Belege.
 
 ---
 
-## Informationen zum deutschen Markt
+## Evidenz aus klinischen Studien
 
-Natalizumab hat derzeit keine Zulassung, die in diesem Evidenzpaket verzeichnet ist (0 Lizenzen; Marktstatus: nicht vermarktet). Für den deutschen Markt sind keine Informationen zu Darreichungsform, Produktname oder zugelassenen Indikationen verfügbar.
+Derzeit sind keine zugehörigen klinischen Studien registriert (weder für Bronchitis noch für Psoriasis, diabetische Retinopathie, Parapsoriasis oder akute lichenoide Pityriasis).
+
+---
+
+## Evidenz aus der Literatur (Psoriasis)
+
+| PMID | Jahr | Typ | Zeitschrift | Zentrale Aussage |
+|------|-----|------|------|---------|
+| [33589543](https://pubmed.ncbi.nlm.nih.gov/33589543/) | 2021 | Kohorte/Fallserie | Neurol Neuroimmunol Neuroinflamm | Besserung einer komorbiden Psoriasis bei 18 MS-Patienten unter Natalizumab |
+| [40526577](https://pubmed.ncbi.nlm.nih.gov/40526577/) | 2025 | Übersichtsarbeit | Dtsch Arztebl Int | Behandlungsoptionen bei MS mit komorbiden chronisch-entzündlichen Erkrankungen (u. a. Psoriasis) |
+| [35646438](https://pubmed.ncbi.nlm.nih.gov/35646438/) | 2022 | Fallbericht | Dermatol Pract Concept | Natalizumab-induzierte pustulöse Psoriasis an Handflächen und Fußsohlen |
+| [28905124](https://pubmed.ncbi.nlm.nih.gov/28905124/) | 2018 | Fallbericht mit Übersicht | Neurol Sci | Arthritische Psoriasis unter Natalizumab |
+| [30323758](https://pubmed.ncbi.nlm.nih.gov/30323758/) | 2018 | Fallbericht mit Übersicht | Case Rep Neurol | Plaque-Psoriasis unter Natalizumab; Hinweise auf Auslösung oder Verschlechterung |
+| [20298966](https://pubmed.ncbi.nlm.nih.gov/20298966/) | 2010 | Übersichtsarbeit | Lancet Neurol | Progressive multifokale Leukoenzephalopathie (PML) und JC-Virus-Erkrankungen, u. a. unter Natalizumab |
+| [24136456](https://pubmed.ncbi.nlm.nih.gov/24136456/) | 2013 | Übersichtsarbeit | Curr Neurol Neurosci Rep | PML bei Multipler Sklerose (Sicherheit) |
+| [25448040](https://pubmed.ncbi.nlm.nih.gov/25448040/) | 2015 | Übersichtsarbeit | Pharmacol Ther | Leukozyten-Integrine als therapeutische Ziele bei Entzündungskrankheiten |
+| [15955735](https://pubmed.ncbi.nlm.nih.gov/15955735/) | 2005 | Übersichtsarbeit | Curr Opin Pharmacol | Anti-Adhäsions-Therapien |
+| [19647202](https://pubmed.ncbi.nlm.nih.gov/19647202/) | 2009 | Übersichtsarbeit | Lancet Oncol | PML unter Rituximab, Natalizumab und Efalizumab (RADAR-Projekt) |
+
+Weitere Publikationen (z. B. PMID 32470781, ein Fallbericht zu unerwarteten dermatologischen Nebenwirkungen unter Fingolimod und Natalizumab) betreffen Nebenwirkungen und nicht einen therapeutischen Nutzen. Für Bronchitis und diabetische Retinopathie liegt keine Literatur vor.
+
+---
+
+## Marktinformationen Deutschland
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000603 | Tysabri (Biogen Netherlands B.V.) | – | Multiple Sklerose |
+| EMEA/H/C/005752 | Tyruko (Sandoz GmbH) | – | Multiple Sklerose, schubförmig-remittierende MS |
+
+Beide Zulassungen haben den Status „erloschen/zurückgezogen". Der Marktstatus sollte vor weiteren Arbeiten verifiziert werden.
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Gebrauchsinformation für Sicherheitsinformationen.
+- **Kontraindikationen aus dem Wissensgraphen (nicht aus dem Beipackzettel)**: Progressive multifokale Leukoenzephalopathie (PML).
+- **Arzneimittelwechselwirkungen**: 100 Wechselwirkungen erfasst. Als **schwerwiegend (Major)** eingestuft sind u. a. Kortikosteroide (Hydrocortison, Prednisolon, Prednison, Dexamethason, Betamethason, Budesonid, Triamcinolon), radioaktive Substanzen (Iobenguan I-131, Ibritumomab-Tiuxetan, Tositumomab) sowie Levamisol, Trimetrexat und Mercaptopurin. Moderate Wechselwirkung: Naltrexon. Geringfügig: Zinksalze.
+- **PML-Risiko**: In der Literatur umfassend dokumentiert und ein zentrales Argument gegen den Einsatz bei nicht lebensbedrohlichen Erkrankungen wie Psoriasis, für die viele zugelassene Alternativen existieren.
+- **Paradoxe Hautreaktionen**: Fallberichte zu induzierter oder verschlechterter Psoriasis.
 
-*(Anmerkung: Offizielle TFDA/BfArM-Etikettenwarnungen, Kontraindikationen und DDI-Daten sind als kritische Datenlücke gekennzeichnet – siehe Schlussfolgerung unten.)*
+Ergänzend wird auf die Fachinformation verwiesen; Warnhinweise und Gegenanzeigen daraus lagen für diesen Bericht nicht vor.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Halten**
+**Entscheidung: Hold (Zurückstellen)**
 
 **Begründung:**
-Die höchstbewertete Vorhersage (Bronchitis) hat keine unterstützenden klinischen Studien oder Literatur, und der vorgeschlagene Mechanismus widerspricht direkt der bekannten immunsuppressiven Pharmakologie von Natalizumab – es ist mechanistisch wahrscheinlicher, dass ein Immunsuppressivum Atemwegsinfektionen/Entzündungen *verursacht oder verschärft* als dass es sie behandelt. Dieser Kandidat erfüllt nicht einmal die Mindestschwelle (L4/S1), um das Stadium der reinen Modellvorhersage zu überschreiten.
+Die Vorhersagen beruhen auf hohen Modellwerten, aber ohne klinische Studien. Für Psoriasis ist die Evidenz widersprüchlich (eine Besserungsserie gegenüber mehreren Fallberichten zu Auslösung/Verschlechterung), und das PML-Risiko sowie die Verfügbarkeit etablierter Therapien sprechen gegen eine Weiterverfolgung. Für Bronchitis und diabetische Retinopathie gibt es keine Evidenz, für Parapsoriasis und akute lichenoide Pityriasis nur einen Nebenwirkungsbericht.
 
-**Zur Fortsetzung ist Folgendes erforderlich:**
-- Offizielle Arzneimittel-Etikettierung / TFDA-Warnungen und Kontraindikationen (derzeit eine kritische Datenlücke – DG001)
-- Bestätigter Wirkmechanismus aus DrugBank oder Primärliteratur (derzeit eine hochgradige Datenlücke – DG002)
-- Alle präklinischen oder mechanistischen Belege, die speziell die α4-Integrin-/VLA-4-Blockade mit der Auflösung von Atemwegsentzündungen verbinden, bevor dieser Kandidat über „Halten" hinaus voranschreiten kann
-- Hinweis: Unter den 5 bewerteten Vorhersagen hat **Psoriasis** (Rang 3) umfangreichere Literatur (18 Arbeiten), zeigt aber *richtungsmäßig widersprüchliche* Signale (hauptsächlich arzneimittelinduziert/verschärfte Psoriasis, eine Fallserie mit Verbesserung) – dies könnte eine separate, gezielte Sicherheits-Wirkmechanismus-Forschungsfrage rechtfertigen, ist aber keine Grundlage, um die obige Entscheidung zu Bronchitis zu ändern.
-
+**Für ein Weiterkommen erforderlich:**
+- Fachinformation (Warnhinweise, Gegenanzeigen) vom BfArM beschaffen, da die Sicherheitsprüfung sonst blockiert ist
+- Daten zum Wirkmechanismus (MOA) aus DrugBank ergänzen
+- Klärung des Marktstatus, da alle Zulassungen als erloschen geführt werden
+- Für Psoriasis: systematische Auswertung kontrollierter oder registerbasierter Daten, um den Nutzen gegen das Risiko paradoxer Auslösung abzuwägen
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -2,7 +2,7 @@
 layout: default
 title: Treosulfan
 parent: Nur Modellvorhersage (L5)
-nav_order: 414
+nav_order: 482
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,89 +29,91 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Treosulfan: Von der Konditionierung zur hämatopoetischen Stammzelltransplantation bis zum diabetischen Katarakt
+# Treosulfan: Von der Konditionierung vor hämatopoetischer Stammzelltransplantation zur diabetischen Katarakt
 
 ## Zusammenfassung in einem Satz
 
-> Treosulfan ist ein bifunktionelles Alkylierungsmittel, das klinisch als Konditionierungschemotherapie vor der hämatopoetischen Stammzelltransplantation eingesetzt wird.
-> Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam gegen **diabetischen Katarakt** sein könnte,
-> aber diese Richtung wird derzeit durch **0 klinische Studien** und **0 Publikationen** gestützt – die Vorhersage basiert allein auf dem Modellscore.
+Treosulfan wurde ursprünglich im Rahmen der Konditionierung vor einer hämatopoetischen Stammzelltransplantation eingesetzt. Das TxGNN-Modell sagt voraus, dass es bei **diabetischer Katarakt** wirksam sein könnte. Für diese Richtung liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor, die Vorhersage beruht also ausschließlich auf einer Modellberechnung.
 
 ---
 
 ## Schnellübersicht
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Nicht verfügbar aus deutschen Lizenzdaten (Arzneimittel wird nicht vermarktet); bekannte klinische Verwendung ist Konditionierungschemotherapie vor hämatopoetischer Stammzelltransplantation |
-| Vorhergesagte neue Indikation | Diabetischer Katarakt |
-| TxGNN-Vorhersagescore | 99.01% |
-| Evidenzebene | L5 |
-| Marktstatus in Deutschland | Nicht zugelassen |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Halten |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Hämatopoetische Stammzelltransplantation |
+| Vorhergesagte neue Indikation | Diabetische Katarakt |
+| TxGNN-Vorhersagewert | 99,01 % |
+| Evidenzlevel | L5 |
+| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
+| Anzahl der Zulassungen | 1 (davon 0 gültig) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage nachvollziehbar?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Wirkmechanismus-Daten nicht verfügbar. Auf Basis bekannter Informationen ist Treosulfan ein bifunktionelles Alkylierungsmittel vom Epoxid-Typ, dessen Aktivität an DNA-Vernetzung und zytotoxischen Zelltod gebunden ist – die Grundlage für seine Verwendung als Konditionierungschemotherapie vor hämatopoetischer Stammzelltransplantation.
+Detaillierte Daten zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten nicht vor. Bekannt ist, dass Treosulfan ein bifunktionelles Alkylans ist: Es wird als Prodrug in Epoxid-Zwischenprodukte umgewandelt, die DNA vernetzen. Es wird in Konditionierungsschemata vor einer Stammzelltransplantation verwendet.
 
-Es gibt keinen etablierten mechanistischen Zusammenhang zwischen dieser zytotoxischen/DNA-schädigenden Wirkung und der Pathologie des diabetischen Katarakts, die durch osmotischen Stress der Linse, oxidativen Stress und den Polyol-Weg verursacht wird. Kein gemeinsamer pharmakologischer Signalweg verbindet ein Alkylierungs-Konditionierungsmittel mit der Kataraktprävention oder -behandlung.
+Ein plausibler Zusammenhang zwischen DNA-Alkylierung und der Pathophysiologie der diabetischen Katarakt ist anhand der vorliegenden Daten **nicht erkennbar**. Typische Mechanismen der diabetischen Katarakt, etwa der Polyol-Weg (Aldosereduktase), oxidativer Stress oder die Glykierung von Linsenproteinen, haben keine erkennbare Verbindung zur Wirkung von Treosulfan.
 
-Bemerkenswerterweise zeigt diese Richtung ein plausibler mechanistisches **Warnsignal statt einer Unterstützung**: Alkylierungsmittel werden in der Literatur häufiger mit einer *Assoziation zu* Kataraktbildung (als Spättoxizität von Konditionierungsregimen) berichtet als zur Kataraktbehandlung. Angesichts der Tatsache, dass das Arzneimittel nicht vermarktet ist und die Vorhersage null Literatur- oder Studiennachweise hat, sollte dieser Kandidat als reines Modellausgabeergebnis behandelt werden, das eine unabhängige mechanistische und Sicherheitsvalidierung erfordert, bevor weitere Bewertungen erfolgen.
+Hinzu kommt: Ein zytotoxisches, myeloablatives Mittel hätte bei einer nicht malignen, chirurgisch behandelbaren Augenerkrankung ein ungünstiges Nutzen-Risiko-Profil. Katarakt ist zudem ein bekannter Spätfolgeeffekt von Konditionierungsschemata und Transplantationen (einschließlich Substanzen der Busulfan-Klasse und Strahlentherapie). Die Wirkrichtung könnte daher gegenteilig zur Vorhersage sein. Der hohe TxGNN-Wert ist als rein rechnerische Aussage zu verstehen.
 
 ---
 
-## Klinische Studienevidenz
+## Klinische Evidenz
 
-Derzeit sind keine verwandten klinischen Studien registriert.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
 ## Literaturevidenz
 
-Derzeit sind keine verwandten Literaturdaten verfügbar.
+Derzeit liegt keine zugehörige Literatur vor.
 
 ---
 
-## Marktsituation in Deutschland
+## Marktinformationen Deutschland
 
-Treosulfan wird derzeit nicht in Deutschland vermarktet; es sind keine Lizenzdaten verfügbar.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/004751 | Trecondi | – | Hämatopoetische Stammzelltransplantation |
+
+Die einzige Zulassung ist erloschen bzw. zurückgezogen (Status: cancelled). Es besteht derzeit keine gültige Zulassung.
 
 ---
 
 ## Zytotoxizität
 
-| Element | Inhalt |
-|---------|--------|
-| Zytotoxizitätsklassifizierung | Konventionelles Zytostatum (bifunktionelles Epoxid-Alkylierungsmittel) |
-| Myelosuppressions-Risiko | Hoch – Alkylierungs-Konditionierungsregime sind typischerweise mit tiefgreifender, dosisabhängiger Knochenmarksuppression verbunden |
-| Emetogenitätsklassifizierung | Moderat bis hoch, konsistent mit Alkylierungs-basierten Konditionierungsregimen |
-| Überwachungsparameter | Blutbild mit Differenzial, Nierenfunktion, Leberfunktion |
-| Handhabungsschutz | Standardisierte Vorsichtsmaßnahmen für die Handhabung von Zytostatika erforderlich |
+| Punkt | Inhalt |
+|------|------|
+| Zytotoxizitätsklassifikation | Konventionelles Zytostatikum (alkylierende Substanz) |
+| Myelosuppressionsrisiko | Hoch (myeloablative Wirkung, Einsatz in der Konditionierung) |
+| Emetogenitätsklasse | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Überwachungsparameter | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten (üblich: Blutbild, Leber- und Nierenfunktion) |
+| Handhabungsschutz | Vorschriften zum Umgang mit Zytostatika sind einzuhalten |
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Fachinformation für Sicherheitsinformationen.
+Für Sicherheitsinformationen beachten Sie bitte die Fachinformation. Zu Wechselwirkungen wurden in den zusammengestellten Daten keine Einträge gefunden.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Halten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Der TxGNN-Score ist hoch, aber es gibt keine klinische Studien- oder Literaturunterstützung (L5, nur Vorhersage), das Arzneimittel ist derzeit nicht in Deutschland zugelassen, und der vorgeschlagene Mechanismus steht im Widerspruch zu bekannter Alkylierungs-Toxizität (Katarakt als unerwünschte Wirkung, nicht als Behandlungsziel).
+Die Vorhersage stützt sich allein auf das Modell (L5), ohne klinische Studien oder Publikationen und ohne erkennbaren mechanistischen Zusammenhang. Das ungünstige Nutzen-Risiko-Profil eines zytotoxischen Alkylans bei diabetischer Katarakt sowie die bekannte Kataraktentstehung als Spätfolge der Konditionierung sprechen klar gegen eine Weiterverfolgung. Zudem besteht in Deutschland keine gültige Zulassung.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- TFDA/Hersteller-Fachinformation mit Warnhinweisen und Kontraindikationen (Datenlücke – erforderlich vor jeder S1-Sicherheitsbewertung)
-- Detaillierte Wirkmechanismus-Daten zur angemessenen Bewertung der mechanistischen Plausibilität
-- Präklinische oder mechanistische Daten, die speziell die Alkylierungs-Aktivität mit der diabetischen Kataraktpathologie verknüpfen, angesichts des oben notierten widersprüchlichen Signals
-- Klarstellung des deutschen/europäischen Marktstatus oder ein alternativer regulatorischer Weg, da das Arzneimittel derzeit nicht zugelassen ist
-
+**Für ein Weiterkommen wären erforderlich:**
+- Beschaffung und Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen), da dies die Sicherheitsprüfung derzeit blockiert
+- Daten zum Wirkmechanismus (z. B. aus DrugBank)
+- Präklinische Belege für einen plausiblen Wirkweg bei diabetischer Katarakt
+- Klärung des Zulassungsstatus und der Verfügbarkeit in Deutschland
+- Bewertung des Katarakt-Risikos als bekannter Spätfolge nach Treosulfan-haltiger Konditionierung
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

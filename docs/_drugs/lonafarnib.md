@@ -2,7 +2,7 @@
 layout: default
 title: Lonafarnib
 parent: Nur Modellvorhersage (L5)
-nav_order: 236
+nav_order: 275
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,59 +29,90 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Lonafarnib: Von Progerie bis Lepra
+# Lonafarnib: Von Progerie/Laminopathien zu Lepra
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Lonafarnib ist ein Farnesyltransferase-Inhibitor, der ursprünglich für das Hutchinson-Gilbert-Progerie-Syndrom (HGPS, eine seltene Frühvergreisungsstörung) entwickelt wurde, mit einer investigativen Anwendung auch bei Hepatitis-B/D-Infektion erforscht. Das TxGNN-Modell sagt eine mögliche Verbindung zu **Lepra** voraus, aber diese Vorhersage wird derzeit durch **0 klinische Studien** und **0 Publikationen** unterstützt und entbehrt jeglicher identifizierbarer mechanistischer Begründung.
+Lonafarnib ist ein Farnesyltransferase-Inhibitor, der in der EU für die Behandlung von Progerie und Laminopathien zugelassen wurde. Das TxGNN-Modell sagt voraus, dass er bei **Lepra** wirksam sein könnte. Für diese Vorhersage liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor, es handelt sich um eine reine Modellvorhersage.
 
-## Schnellübersicht
+---
+
+## Kurzüberblick
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Hutchinson-Gilbert-Progerie-Syndrom (Frühvergreisungssyndrom) – erwähnt im Begründungstext für die Zweitverwendung; kein formales Zulassungsverzeichnis Taiwan vorhanden |
+| Ursprüngliche Indikation | Progerie; Laminopathien |
 | Vorhergesagte neue Indikation | Lepra |
-| TxGNN-Vorhersagepunktzahl | 99,14% |
-| Evidenzstufe | L5 |
-| Status auf dem taiwanesischen Markt | Nicht auf dem Markt |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Zurückstellen |
+| TxGNN-Vorhersagewert | 99,14 % |
+| Evidenzniveau | L5 |
+| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
+| Anzahl der Zulassungen | 1 (erloschen) |
+| Empfohlene Entscheidung | Hold |
 
-## Warum ist diese Vorhersage vernünftig?
+---
 
-Detaillierte, verifizierte Daten zum Wirkmechanismus für Lonafarnib sind in diesem Evidenzpaket nicht verfügbar (das ursprüngliche MOA-Feld ist eine Datenlücke). Kontextinformationen deuten jedoch darauf hin, dass Lonafarnib als **Farnesyltransferase-Inhibitor** fungiert, der die Farnesylierung von Ras und anderen Wirtszellproteinen blockiert – ein Signalweg, der für seine zugelassene Anwendung bei HGPS und seine investigative Anwendung bei Hepatitis-Delta-Virus-Infektion relevant ist (die auf die Wirtszellfarnesylierung für die Virusreplikation angewiesen ist).
+## Warum ist diese Vorhersage plausibel?
 
-Lepra ist dagegen eine bakterielle Infektion, verursacht durch *Mycobacterium leprae*. Dieser Krankheitserreger ist nicht auf das eukaryotische Wirtszell-Farnesyltransferase-Substratsystem angewiesen, das Lonafarnib blockiert, und es gibt keinen etablierten biologischen Signalweg, der die Proteinfarnesylierungshemmung mit einer Anti-Lepra-Aktivität verbindet. Die Vorhersagepunktzahl von 99,14% scheint einen von der TxGNN erzeugten Wissengraph-Link widerzuspiegeln, anstatt eine mechanistisch begründete Hypothese zu sein, und wird derzeit durch keine präklinischen, klinischen oder Literaturbelege unterstützt.
+Zu Lonafarnib liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben zum Wirkmechanismus vor. Nach allgemeinem Wissen ist Lonafarnib ein Farnesyltransferase-Inhibitor. Er blockiert die Farnesylierung von Proteinen, die für die Membranlokalisierung prenylierter Proteine wie Progerin und Ras-Familien-GTPasen erforderlich ist. Darauf beruht die Wirksamkeit bei Progerie.
 
-## Klinische Studienevidenz
+Ein möglicher, aber unbewiesener Zusammenhang mit Lepra wäre die Beeinflussung prenylierungsabhängiger Signalwege des Wirts (z. B. Ras/Rho-GTPasen). Diese spielen eine Rolle bei der Makrophagenfunktion, beim Überleben intrazellulärer Erreger und bei der Reaktion von Schwann-Zellen auf *Mycobacterium leprae*. Für diesen Mechanismus gibt es bei Lepra keine direkten Belege.
 
-Derzeit sind keine zugehörigen klinischen Studien registriert.
+Der sehr hohe TxGNN-Wert (0,991) stammt aus Mustern im Wissensgraphen. Er ist eine rechnerische Vorhersage und wird durch keine klinischen oder Literaturdaten gestützt. Die ursprüngliche Indikation (Progerie) und Lepra sind inhaltlich weit voneinander entfernt, eine Ähnlichkeitsbewertung steht noch aus.
 
-## Literaturevidence
+---
 
-Derzeit ist keine relevante Literatur verfügbar.
+## Marktinformationen Deutschland
 
-## Informationen zum taiwanesischen Markt
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/005271 | Zokinvy | nicht angegeben | Progerie; Laminopathien |
 
-Lonafarnib wird derzeit nicht auf dem taiwanesischen Markt vermarktet, und es liegen keine Produktzulassungsunterlagen vor.
+Die einzige Zulassung (Inhaber: TMC Pharma (EU) Limited) hat den Status „erloschen".
+
+---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+**Arzneimittelwechselwirkungen:** In den Daten sind 100 Wechselwirkungen verzeichnet. Beispiele für Wechselwirkungen der Stufe **Major**:
+
+- Loperamid
+- Aprepitant
+- Triamcinolon
+- Dexamethason
+- Budesonid
+- Cimetidin
+- Clarithromycin
+- Eliglustat
+- Naloxegol
+
+Beispiele für Wechselwirkungen der Stufe **Moderate**:
+
+- Hydrocortison
+- Omeprazol
+- Betamethason
+- Chlorpropamid
+- Saxagliptin
+- Empagliflozin
+- Oxandrolon
+- Naldemedin
+
+Für Warnhinweise und Gegenanzeigen liegen keine Angaben vor. Bitte die Fachinformation heranziehen.
+
+---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Zurückstellen**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage wird nur durch eine TxGNN-Modellpunktzahl (Evidenzstufe L5) unterstützt, ohne klinische Studien, ohne Literatur und ohne einen plausiblen mechanistischen Zusammenhang zwischen Farnesyltransferase-Hemmung und *M. leprae*-Infektion. Es gibt derzeit keine ausreichende Grundlage, um diesen Kandidaten voranzutreiben.
+Die Vorhersage beruht ausschließlich auf einem Modellwert (Evidenzniveau L5). Es gibt weder klinische Studien noch Literatur zu Lepra, und die Zulassung in Deutschland ist erloschen. Zudem fehlen Sicherheitsdaten aus der Fachinformation, weshalb eine Sicherheitsprüfung nicht möglich ist.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- Verifizierte Wirkmechanismus-Daten für Lonafarnib (DrugBank/Primärliteratur)
-- Präklinische oder in-vitro-Studien, die die Relevanz des Farnesylierungssignalwegs für die *M. leprae*-Biologie bewerten
-- TFDA/behördliche Kennzeichnungsdaten (Warnungen, Kontraindikationen, Arzneimittelwechselwirkungen) zur Ermöglichung einer Basis-Sicherheitsbewertung
-- Alle neuen klinischen oder Fallberichte, bevor diese Indikation erneut in Betracht gezogen wird
-
+**Für ein Weiterkommen sind folgende Schritte erforderlich:**
+- Fachinformation (Warnhinweise, Gegenanzeigen) beschaffen und auswerten
+- Daten zum Wirkmechanismus ergänzen (DrugBank)
+- Präklinische Belege für einen Zusammenhang zwischen Farnesyltransferase-Hemmung und *M. leprae*-Infektion bzw. Wirtsreaktion recherchieren
+- Klärung des Zulassungsstatus und der Verfügbarkeit in Deutschland
+- Prüfung der Anwendungswege (Route-Kompatibilität)
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

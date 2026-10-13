@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Toremifene
-parent: Nur Modellvorhersage (L5)
-nav_order: 407
-evidence_level: L5
+parent: Mittlere Evidenz (L3-L4)
+nav_order: 475
+evidence_level: L4
 indication_count: 1
 ---
 
 # Toremifene
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1** 
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,71 +29,103 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Toremifene: Von nicht dokumentierter ursprünglicher Indikation zu HIV-Infektionskrankheit
+# Toremifen: Von Brustkrebs zu HIV-Infektionskrankheit
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Toremifene ist ein selektiver Estrogenrezeptor-Modulator (SERM), historisch mit Tamoxifen verwandt und bei der Brustkrebsbehandlung angewendet; seine ursprüngliche genehmigte Indikation ist im aktuellen Evidenzpaket nicht dokumentiert, und das Arzneimittel ist **in Deutschland nicht im Handel**. Das TxGNN-Modell prognostiziert, dass es möglicherweise wirksam bei **HIV-Infektionskrankheit** sein könnte, dies wird derzeit jedoch nur durch **1 in-vitro-mechanistische Publikation** und **keine klinischen Studien** gestützt — die Evidenzbasis ist sehr vorläufig.
+Toremifen ist ein selektiver Östrogenrezeptor-Modulator (SERM), der ursprünglich zur Behandlung von Brustkrebs (Mammakarzinom) zugelassen wurde. Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **HIV-Infektionskrankheit** voraus. Die Datenlage ist jedoch schwach: Es gibt **keine klinischen Studien** und **eine einzige präklinische Publikation**, die sich zudem nicht auf HIV selbst, sondern auf eine Pilzinfektion bezieht.
 
 ---
 
-## Schnellübersicht
+## Kurzübersicht
 
-| Element | Inhalt |
-|--------|--------|
-| Ursprüngliche Indikation | Nicht im Evidenzpaket dokumentiert |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Brustkrebs (Mammakarzinom) |
 | Vorhergesagte neue Indikation | HIV-Infektionskrankheit |
-| TxGNN-Vorhersagescore | 99.41% |
-| Evidenzstufe | L5 |
-| Marktstatus in Deutschland | ✗ Nicht im Handel |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Zurückhaltung |
+| TxGNN-Vorhersagewert | 99,41 % |
+| Evidenzstufe | L4 |
+| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
+| Anzahl der Zulassungen | 1 (davon 0 gültig) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Wirkmechanismus-Daten nicht verfügbar. Basierend auf der verfügbaren Literatur ist Toremifene ein selektiver Estrogenrezeptor-Modulator (SERM), der pharmakologisch mit dem Brustkrebsmittel Tamoxifen verwandt ist.
+Zum Wirkmechanismus von Toremifen liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Toremifen zur Klasse der Östrogenrezeptor-Antagonisten (SERM) gehört und bei Brustkrebs wirksam ist.
 
-Die einzige unterstützende Publikation (PMID 24520056) ist eine *in-vitro*-Mechanismus-Studie, die zeigt, dass Estrogenrezeptor-Antagonisten (einschließlich Tamoxifen und Toremifene) direkt an pilzliche EF-Hand-(Calcium-bindende) Proteine binden können, was ihnen fungizide Aktivität gegen *Cryptococcus neoformans* verleiht — eine häufige opportunistische Infektion bei HIV/AIDS-Patienten — und nicht auf einen direkten antiretroviralen Effekt auf das HIV selbst hindeutet.
+Der einzige unterstützende Befund stammt aus einer präklinischen Studie (2014). Sie zeigt, dass Östrogenrezeptor-Antagonisten wie Tamoxifen und Toremifen gegen den Pilz *Cryptococcus* wirken. Sie binden direkt an EF-Hand-Proteine wie Calmodulin und wirken fungizid. Zudem wirken sie in vitro synergistisch mit Fluconazol und Amphotericin B.
 
-Dies bedeutet, dass die Wirkmechanismus-Verknüpfung zwischen Toremifene und der vorhergesagten Indikation „HIV-Infektionskrankheit" **indirekt** ist: der Drogentitel und der Studieninhalt beziehen sich auf Anti-Pilz-Aktivität gegen einen HIV-assoziierten opportunistischen Erreger, nicht auf das HIV-Virus selbst. Der hohe TxGNN-Score (99.41%) spiegelt wahrscheinlich die Nähe im Wissensgraphen zwischen HIV und Kryptokokkose (eine bekannte Komorbidität) wider, eher als einen direkten antiviralen Mechanismus. Keine klinische Studien-Evidenz existiert, um diese Vorhersage zu unterstützen.
-
----
-
-## Evidenz aus klinischen Studien
-
-Derzeit sind keine verwandten klinischen Studien registriert.
+Die Verbindung zu HIV ist indirekt: Die Kryptokokkenmeningitis ist eine bedeutende opportunistische Infektion bei fortgeschrittenem HIV/AIDS. Das betrifft jedoch eine HIV-assoziierte Pilzinfektion und nicht die HIV-Infektion selbst. Für eine antivirale Wirkung gegen HIV gibt es keinen Beleg. Die mechanistische Brücke ist daher hypothetisch, und der hohe TxGNN-Wert ist ausschließlich eine rechnerische Vorhersage.
 
 ---
 
-## Literaturevidence
+## Klinische Evidenz
 
-| PMID | Jahr | Typ | Journal | Wichtigste Ergebnisse |
-|------|------|-----|--------|----------------------|
-| [24520056](https://pubmed.ncbi.nlm.nih.gov/24520056/) | 2014 | In-vitro-Mechanismus-Studie | mBio | Estrogenrezeptor-Antagonisten (Tamoxifen, Toremifene) zeigen fungizide Aktivität gegen *Cryptococcus neoformans* durch Bindung an pilzliche EF-Hand-Proteine; synergisiert mit Fluconazol und Amphotericin B in vitro — relevant für HIV-assoziierte Kryptokokkose, nicht HIV selbst |
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Sicherheitsüberlegungen
+## Literaturevidenz
 
-Bitte beachten Sie die Fachinformation für Sicherheitsinformationen.
+| PMID | Jahr | Typ | Journal | Kernaussagen |
+|------|-----|------|------|---------|
+| [24520056](https://pubmed.ncbi.nlm.nih.gov/24520056/) | 2014 | Präklinisch (in vitro / Tiermodell) | mBio | Östrogenrezeptor-Antagonisten (Tamoxifen, Toremifen) wirken fungizid gegen Cryptococcus, binden direkt an EF-Hand-Proteine und wirken synergistisch mit Fluconazol und Amphotericin B. |
+
+---
+
+## Informationen zum deutschen Markt
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000091 | Fareston (Orion Corporation) | – | Brustkrebs (Mammakarzinom) |
+
+Diese Zulassung ist erloschen bzw. widerrufen; es besteht derzeit keine gültige Zulassung.
+
+---
+
+## Zytotoxizität
+
+| Punkt | Inhalt |
+|------|------|
+| Zytotoxizitätsklassifikation | Hormontherapie (SERM), kein klassisches Zytostatikum |
+| Myelosuppressionsrisiko | Bitte Warnhinweise und Vorsichtsmaßnahmen der Packungsbeilage beachten |
+| Emetogenitätsklassifikation | Bitte Warnhinweise und Vorsichtsmaßnahmen der Packungsbeilage beachten |
+| Überwachungsparameter | Bitte Warnhinweise und Vorsichtsmaßnahmen der Packungsbeilage beachten (aufgrund der Kontraindikationen im Wissensgraphen u. a. EKG/QT-Intervall, Elektrolyte, Blutbild) |
+| Handhabungsschutz | Bitte Warnhinweise und Vorsichtsmaßnahmen der Packungsbeilage beachten |
+
+---
+
+## Sicherheitsaspekte
+
+**Kontraindikationen aus dem Wissensgraphen (PrimeKG, keine Packungsbeilagentexte):**
+Long-QT-Syndrom (auch familiär), Torsades de pointes, Thrombozytopenie, Kaliummangel, Hyperkalzämie, Nephrokalzinose, Störungen des Phosphorstoffwechsels, Leukopenie und Endometriumhyperplasie.
+
+**Arzneimittelwechselwirkungen:** Es wurden 100 Wechselwirkungen identifiziert. Beispiele:
+- **Schwerwiegend (Major):** Dexamethason, Clarithromycin, Levofloxacin, Dolasetron, Palonosetron, Pikosulfat, Polyethylenglykol (3350 mit Elektrolyten), Natriumsulfat
+- **Moderat:** u. a. Famotidin, Pioglitazon, Loperamid, Aprepitant, Cimetidin, Miconazol, Nateglinid, Lactulose
+- **Gering (Minor):** Metronidazol
+
+Die QT-Verlängerung ist besonders relevant, da sie sich mit vielen antiretroviralen Substanzen und Antimykotika addieren kann. Bei HIV-Patienten unter antiretroviraler Therapie würde die hohe Zahl an Wechselwirkungen den Einsatz zusätzlich erschweren.
+
+Für weitere Sicherheitsinformationen bitte die Packungsbeilage heranziehen.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Zurückhaltung**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die Evidenzstufe ist L5 — die einzige Unterstützung ist eine einzelne *in-vitro*-Mechanismus-Studie mit einer indirekten Verknüpfung (Anti-Pilz-Aktivität gegen eine HIV-assoziierte opportunistische Infektion, nicht ein direkter antiviraler Mechanismus), und es gibt null klinische Studien. Dies erfüllt nicht die Schwelle, um zur Sicherheitsprüfung (S1) voranzuschreiten.
+Die Vorhersage beruht allein auf einem Modellwert. Es gibt keine klinischen Studien, und die einzige Publikation ist präklinisch und betrifft eine opportunistische Pilzinfektion, nicht HIV selbst. Hinzu kommen ein erhebliches QT-Risiko, eine hohe Wechselwirkungslast und das Fehlen einer gültigen Zulassung in Deutschland.
 
-**Zum Weitermachen ist Folgendes erforderlich:**
-- TFDA/BfArM-Fachinformation mit Warnhinweisen und Kontraindikationen (derzeit blockierend — DG001)
-- Bestätigter Wirkmechanismus (DrugBank-Abfrage — DG002)
-- Direkte Evidenz für Anti-HIV- oder Anti-Cryptococcus-Aktivität in vivo/klinisch, nicht nur in vitro
-- Klärung von Toremifenes ursprünglich genehmigter Indikation zur vergleichenden mechanistischen Analyse
-
+**Für ein Weiterkommen sind folgende Schritte nötig:**
+- Präklinische Belege einer direkten Wirkung gegen HIV (z. B. In-vitro-Virologie) oder alternativ eine klare Neudefinition der Zielindikation (z. B. Kryptokokkose als adjuvante Therapie)
+- Angaben zum Wirkmechanismus (MOA)
+- Sicherheitsunterlagen aus der Packungsbeilage (Warnhinweise und Kontraindikationen), die derzeit fehlen und für ein Sicherheitsscreening zwingend erforderlich sind
+- Bewertung des QT-Risikos und der Wechselwirkungen mit antiretroviralen Therapien
+- Klärung des Zulassungs- und Verfügbarkeitsstatus in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

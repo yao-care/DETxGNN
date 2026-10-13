@@ -2,7 +2,7 @@
 layout: default
 title: Eftrenonacog Alfa
 parent: Nur Modellvorhersage (L5)
-nav_order: 138
+nav_order: 160
 evidence_level: L5
 indication_count: 3
 ---
@@ -31,61 +31,80 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 # Eftrenonacog alfa: Von Hämophilie B zu Pseudo-von-Willebrand-Erkrankung
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Eftrenonacog alfa (rekombinantes Faktor-IX-Fc-Fusionsprotein) wurde ursprünglich zur Blutgerinnungsfaktor-Ersatztherapie bei Patienten mit Hämophilie B verwendet. Das TxGNN-Modell prognostiziert eine mögliche Wirksamkeit bei der **Pseudo-von-Willebrand-Erkrankung**, es gibt jedoch derzeit **keine klinischen Studien und Literaturstellen**, die diese Richtung unterstützen, und die mechanistische Analyse zeigt, dass sich die pathophysiologischen Wege der beiden Erkrankungen nicht überschneiden.
+Eftrenonacog alfa ist ein rekombinantes Faktor-IX-Fc-Fusionsprotein, das ursprünglich zur Behandlung der Hämophilie B zugelassen wurde.
+Das TxGNN-Modell sagt voraus, dass es bei der **Pseudo-von-Willebrand-Erkrankung** wirksam sein könnte.
+Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage beruht allein auf dem Modell.
+
+---
 
 ## Schnellübersicht
 
 | Punkt | Inhalt |
-|-------|--------|
-| Ursprüngliche Indikation | Hämophilie B (Blutgerinnungsfaktor-IX-Mangel) |
+|------|------|
+| Ursprüngliche Indikation | Hämophilie B |
 | Vorhergesagte neue Indikation | Pseudo-von-Willebrand-Erkrankung |
-| TxGNN-Vorhersagescore | 99.48% (Rang 6035) |
-| Evidenzlevel | L5 (nur Modellvorhersage, keine aktuelle Forschung) |
-| Taiwan-Marktstatus | Nicht vermarktet |
-| Anzahl der Arzneimittelzulassungen | 0 |
-| Empfohlene Entscheidung | Aussetzen |
+| TxGNN-Vorhersagewert | 99,48 % |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Nur erloschene Zulassung |
+| Anzahl der Zulassungen | 1 |
+| Empfohlene Entscheidung | Hold |
 
-## Ist diese Vorhersage angemessen?
+---
 
-Eftrenonacog alfa ist ein rekombinantes Fusionsprotein aus Faktor IX und Fc-Fragment, dessen Wirkungsmechanismus die Ergänzung des endogenen Gerinnungsfaktors IX darstellt und die Aktivierung des nachgelagerten Faktors X in der Gerinnungskaskade fördert. Es wird zur Blutungsprävention und Blutungsbehandlung bei Hämophilie-B-Patienten eingesetzt. Da es sich um eine Ersatztherapie und nicht um ein modulierendes Arzneimittel handelt, ist sein Wirkungsspektrum stark auf den Gerinnungsfaktor-Weg selbst begrenzt.
+## Warum ist diese Vorhersage plausibel (oder nicht)?
 
-Die Pathophysiologie der Pseudo-von-Willebrand-Erkrankung beruht auf einer angeborenen Mutation des Blutplättchen-**GPIb-Rezeptors**, die zu einer anomal erhöhten Affinität gegenüber dem von-Willebrand-Faktor (vWF) führt und eine Funktionsstörung der Blutplättchen darstellt. Sie weist pathophysiologisch keine Überschneidung mit Faktor-IX-Mangel auf. Der hohe Score von TxGNN könnte eher den Effekt der semantischen Clusterbildung in der Wissensgrafik für „Blutungskrankheiten" widerspiegeln als eine echte mechanistische Verknüpfung.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten derzeit keine detaillierten Angaben vor. Bekannt ist: Eftrenonacog alfa ersetzt als rekombinantes Faktor-IX-Fc-Fusionsprotein den fehlenden Faktor IX im intrinsischen Gerinnungsweg. Seine Wirksamkeit bei Hämophilie B ist belegt.
 
-In diesem Evidence Pack sind zwei weitere Kandidaten-Indikationen (primary release disorder of platelets, Glanzmann-Thrombasthenie) ebenfalls Blutplättchenfunktionsstörungen und keine Gerinnungsfaktormängel. Die mechanistische Analyse in allen drei Fällen zeigt, dass eine Faktor-IX-Ergänzung die Blutplättchenaggregation oder Speicherfreisetzung nicht korrigieren kann. Alle drei Fälle zeigen übereinstimmend, dass die TxGNN-Vorhersagen in dieser Runde mechanistisch nicht hinreichend begründet sind.
+Die Pseudo-von-Willebrand-Erkrankung (Plättchentyp der von-Willebrand-Erkrankung) beruht dagegen auf einer Gain-of-Function-Veränderung des Plättchen-Glykoproteins GPIbα. Diese erhöht die Affinität zum von-Willebrand-Faktor, führt zur vermehrten Plättchenelimination und zum Verlust hochmolekularer VWF-Multimere. Die Pathologie betrifft Plättchen und VWF, nicht einen Faktor-IX-Mangel. Ein direkter mechanistischer Zusammenhang ist daher nicht belegt.
 
-## Klinische Prüfungsnachweise
+Der hohe TxGNN-Wert spiegelt vermutlich Assoziationen im Wissensgraphen zu Blutungsstörungen wider und nicht einen biologisch gestützten Mechanismus.
 
-Derzeit keine relevanten klinischen Studien registriert
+Auch die weiteren Vorhersagen (primäre Plättchen-Freisetzungsstörung, Rang 2, Wert 99,42 %; Glanzmann-Thrombasthenie, Rang 3, Wert 99,28 %) betreffen Plättchendefekte, die Faktor IX nicht korrigiert. Bei der Glanzmann-Thrombasthenie sind Plättchentransfusion, Antifibrinolytika und rekombinanter Faktor VIIa etablierte Optionen.
 
-## Literaturnachweis
+---
 
-Derzeit keine relevanten Literaturstellen verfügbar
+## Klinische Evidenz
 
-## Taiwan-Marktinformationen
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
-Eftrenonacog alfa hat in Taiwan noch keine Arzneimittelzulassung erhalten; es sind keine Zulassungsinformationen verfügbar.
+---
+
+## Literaturevidenz
+
+Derzeit liegt keine zugehörige Literatur vor.
+
+---
+
+## Informationen zum Markt in Deutschland
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/004142 | Alprolix | – | Hämophilie B |
+
+Die Zulassung ist erloschen; derzeit besteht keine gültige Zulassung.
+
+---
 
 ## Sicherheitsaspekte
 
-Bitte konsultieren Sie die Arzneimittel-Fachinformation für umfassende Sicherheitsinformationen.
+Bitte entnehmen Sie die Sicherheitsinformationen der Packungsbeilage. Für Wechselwirkungen wurden in den zusammengestellten Daten keine Einträge gefunden.
 
-> Hinweis: BfArM Packungsbeilage Warnungen/Kontraindikationen-Daten stellen derzeit einen blockierenden Mangel dar (Blocking), und bis dieser behoben ist, kann keine S1-Sicherheitsinitialbeurteilung durchgeführt werden.
+---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Aussetzen**
+**Entscheidung: Hold**
 
 **Begründung:**
-Alle drei Kandidaten-Indikationen weisen ein Evidenzlevel von L5 auf (nur Modellvorhersage, ohne Unterstützung durch klinische Studien oder Literaturstellen). Die mechanistische Analyse zeigt, dass sich die Pathophysiologie der Faktor-IX-Ersatztherapie und Blutplättchenfunktionsstörungen nicht überschneidet. Die mechanistische Plausibilität reicht nicht aus, um weitere Ressourcen einzusetzen.
+Die Vorhersage stützt sich ausschließlich auf das Modell (L5) ohne Studien oder Publikationen, und der pathophysiologische Mechanismus (Plättchen/VWF) steht in keinem direkten Zusammenhang mit einem Faktor-IX-Mangel. Zudem ist die einzige Zulassung erloschen.
 
-**Zur Fortführung erforderlich:**
-- TFDA Fachinformation Warnungen und Kontraindikationen-Daten (Blocking, derzeit keine S1-Sicherheitsinitialbeurteilung möglich)
-- Vollständige Wirkungsmechanismus-Daten (MOA) aus DrugBank zur Überprüfung, ob indirekte Mechanismen vorhanden sind, die von der aktuellen Analyse nicht erfasst wurden
-- Mindestens eine In-vitro- oder Tierstudienprobe, um zu überprüfen, ob die Faktor-IX-Ergänzung irgendeine Auswirkung auf die Blutplättchen-vWF-Wechselwirkung hat
-- Nach Beseitigung der oben genannten Lücken Neubewertung, ob eine Erhebung zu einer höheren Entscheidungsphase (S1 oder höher) gerechtfertigt ist
-
+**Für ein Weiterkommen sind folgende Schritte nötig:**
+- Wirkmechanismus-Daten (MOA) ergänzen, z. B. aus DrugBank
+- Warnhinweise und Gegenanzeigen aus der Packungsbeilage des BfArM beschaffen (Sicherheitsprüfung derzeit blockiert)
+- Präklinische oder mechanistische Belege für einen Nutzen bei Plättchen-/VWF-Störungen erarbeiten
+- Klärung der Verfügbarkeit des Produkts angesichts der erloschenen Zulassung
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

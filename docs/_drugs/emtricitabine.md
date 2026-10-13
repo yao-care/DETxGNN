@@ -2,7 +2,7 @@
 layout: default
 title: Emtricitabine
 parent: Mittlere Evidenz (L3-L4)
-nav_order: 145
+nav_order: 167
 evidence_level: L4
 indication_count: 3
 ---
@@ -29,84 +29,98 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Emtricitabin: Von der HIV-1-Infektion zum Feline Acquired Immunodeficiency Syndrome
+# Emtricitabin: Von HIV-Infektion zu felinem erworbenem Immundefizienzsyndrom
 
 ## Zusammenfassung in einem Satz
 
-Emtricitabin ist ein Nukleosid-Reverse-Transkriptase-Inhibitor (NRTI), ursprünglich für die HIV-1-Infektion als Bestandteil von Kombinationsantiretroviralregimen entwickelt (z. B. Truvada, Atripla). Das Top-Prediction des TxGNN-Modells deutet auf das **Feline Acquired Immunodeficiency Syndrome (FIV)** — eine veterinäre, keine menschliche Erkrankung — hin, aber die unterstützende Evidenz besteht aus **4 klinischen Studien** (alle bei HIV-1-Patienten, überwiegend mit Medikamenten außer Emtricitabin) und **1 Publikation** (eine kleine Kohortenstudie, die direkt eine Emtricitabin-haltige Therapie bei FIV-infizierten Katzen testet). Die Evidenz ist daher preklinisch/mechanistisch von Natur, nicht klinisch.
+Emtricitabin ist ein nukleosidischer Reverse-Transkriptase-Hemmer, der ursprünglich zur Behandlung von HIV-Infektionen zugelassen wurde.
+Das TxGNN-Modell sagt voraus, dass er bei **felinem erworbenem Immundefizienzsyndrom** (Katzen-Immunschwäche) wirksam sein könnte.
+Dafür liegen **keine klinischen Studien** und **1 Publikation** vor; die Evidenz beschränkt sich auf präklinische bzw. veterinärmedizinische Daten.
 
 ---
 
-## Schnellübersicht
+## Kurzüberblick
 
-| Element | Inhalt |
-|--------|--------|
-| Ursprüngliche Indikation | HIV-1-Infektion (Kombinationsantiretroviraltherapie) — kein BfArM-/deutsches Lizenzierungsdatensatz existiert in diesem Datensatz; hergeleitet aus den in der Trial-Evidenz referenzierten Kombinationsregimen (Atripla, Truvada) |
-| Vorhergesagte neue Indikation | Felines Acquired Immunodeficiency Syndrome (FIV) |
-| TxGNN-Vorhersagepunktzahl | 99.92% |
-| Evidenzstufe | L4 |
-| Deutscher Marktstatus | ✗ Nicht auf dem Markt |
-| Anzahl der Genehmigungen | 0 |
-| Empfohlene Entscheidung | Zurückgestellt |
-
----
-
-## Warum ist diese Vorhersage sinnvoll?
-
-Der detaillierte DrugBank-Text zum Wirkmechanismus ist in diesem Evidenzpaket für Emtricitabin nicht verfügbar (gekennzeichnet als Datenlücke mit hohem Schweregrad). Basierend auf dem bekannten Wissen ist Emtricitabin ein Cytidin-Analogon-NRTI und eine Kernkomponente von Fixdosis-Kombinationsantiretroviralregimen (z. B. Truvada [mit Tenofovir], Atripla [mit Efavirenz + Tenofovir]), wo es die HIV-1-Reverse-Transkriptase blockiert und die virale DNA-Synthese stoppt. Seine Effizienz bei der HIV-1-Infektion ist durch zahlreiche abgeschlossene Phase-3-Studien gut etabliert.
-
-Die mechanistische Begründung für die Erweiterung auf FIV ist, dass das Feline Immunodeficiency Virus, wie HIV, ein Lentivirus ist, das für die Replikation von der Reverse-Transkriptase abhängt, und die beiden Enzyme sind über die Arten hinweg strukturkonserviert. Grundsätzlich könnte ein NRTI, das gegen HIV-Reverse-Transkriptase wirksam ist, auch FIV-Reverse-Transkriptase hemmen.
-
-Diese Vorhersage muss jedoch mit einem wichtigen Vorbehalt gelesen werden: **drei der vier als „Evidenz" zurückgegebenen klinischen Studien beinhalten Emtricitabin überhaupt nicht** (sie testen Kombinationen von Dolutegravir, Darunavir oder Raltegravir) und **alle vier sind menschliche HIV-1-Studien, keine Katzenstudien** — das Evidenzpaket selbst kennzeichnet dies als wahrscheinliche Knowledge-Graph-Ontologie-Fehlanpassung, bei der Studien auf den generischen Begriff „Immundefizienz" statt auf echte Relevanz für FIV abgestimmt wurden. Der einzige wirklich relevante Datenpunkt ist eine 2023-Kohortenstudie, die direkt ein Kombinationsantiretroviralregimen mit Emtricitabin bei FIV-infizierten Hauskatzen evaluierte — eine echte, aber kleine, nicht-klinische (veterinärpharmakokinetische/Ergebnis-)Studie. Kontextlich wird eine eng verwandte TxGNN-Vorhersage in diesem Evidenzpaket (Rang 2, Simian Immunodeficiency Virus-Infektion) durch wesentlich stärkere Translationsevidenz unterstützt — 20 Publikationen, viele davon Makaken-Challenge-Studien, die Emtricitabin direkt verabreichen — und trägt eine höhere Evidenzstufe (L3, Mit Vorsichtsmaßnahmen fortfahren), obwohl SIV selbst eher ein Primaten-Forschungsmodell als eine zugelassene menschliche Indikation ist.
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | HIV-Infektionen |
+| Vorhergesagte neue Indikation | Felines erworbenes Immundefizienzsyndrom (FIV, Veterinärindikation) |
+| TxGNN-Vorhersagewert | 99,92 % |
+| Evidenzgrad | L4 |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen |
+| Anzahl der Zulassungen | 18 (alle erloschen bzw. aufgehoben) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Klinische Studienevidenz
+## Warum ist diese Vorhersage plausibel?
 
-| Studienshummer | Phase | Status | Einschreibung | Wichtigste Erkenntnisse |
-|---------|------|------|------|---------|
-| [NCT01263015](https://clinicaltrials.gov/study/NCT01263015) | Phase 3 | Abgeschlossen | 844 | Dolutegravir + Abacavir/Lamivudin vs. Atripla (Efavirenz/Emtricitabin/Tenofovir) bei ART-naiven HIV-1-Erwachsenen. Humane Studie; bewertet mit niedriger Relevanz (C) — keine FIV-Studie, Medikament nicht der primäre Vergleich. |
-| [NCT02770508](https://clinicaltrials.gov/study/NCT02770508) | Phase 4 | Abgeschlossen | 145 | Geboostertes Darunavir + Lamivudin vs. Darunavir + Emtricitabin/Tenofovir oder Lamivudin/Tenofovir bei naiven HIV-1-Patienten. Humane Studie; bewertet mit niedriger Relevanz (C). |
-| [NCT01227824](https://clinicaltrials.gov/study/NCT01227824) | Phase 3 | Abgeschlossen | 828 | Dolutegravir vs. Raltegravir, beide mit dualem NRTI-Rückgrat (ABC/3TC oder TDF/FTC), bei ART-naiven HIV-1-Erwachsenen. Humane Studie; bewertet mit niedriger Relevanz (C) — primärer Vergleich nicht Emtricitabin. |
-| [NCT00951015](https://clinicaltrials.gov/study/NCT00951015) | Phase 2 | Abgeschlossen | 208 | Dosierungsselektionsstudie von Dolutegravir mit Abacavir/Lamivudin oder Tenofovir/Emtricitabin bei ART-naiven HIV-1-Erwachsenen. Humane Studie; bewertet mit niedriger Relevanz (C). |
+Für diesen Wirkstoff liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben zum Wirkmechanismus vor. Nach bekanntem Wissen gehört Emtricitabin zur Klasse der nukleosidischen Reverse-Transkriptase-Hemmer (NRTI). Nach intrazellulärer Phosphorylierung hemmt die aktive Triphosphat-Form die Reverse Transkriptase von HIV-1.
 
-**Anmerkung:** Alle vier Studien sind mit „C" (niedrige Relevanz) bewertet — es sind humane HIV-1-Studien, keine FIV-Studien, und in den meisten Fällen ist Emtricitabin nicht das unter primärer Untersuchung stehende Medikament.
+Das Felines Immundefizienzvirus (FIV) ist ein Lentivirus, dessen Reverse Transkriptase derjenigen von HIV verwandt ist. Es verursacht bei Katzen eine fortschreitende Immunschwäche, die der HIV-Infektion beim Menschen ähnelt. Ein mechanistischer Ansatz für die NRTI-Wirkung ist daher plausibel.
+
+Die einzige unterstützende Publikation (2023) untersuchte eine antiretrovirale Kombinationstherapie (Dolutegravir, Tenofovir, Emtricitabin) bei FIV-infizierten Katzen. Ihr Design und ihre Ergebnisse konnten anhand der vorliegenden Angaben nicht überprüft werden. Der sehr hohe TxGNN-Wert spiegelt vor allem die Ähnlichkeit zu HIV wider und ist eine Vorhersage, kein klinischer Beleg. Es handelt sich zudem um eine Veterinärindikation ohne direkte humanmedizinische Relevanz.
+
+**Weitere vorhergesagte Indikationen (zur Einordnung):**
+- **Simian-Immundefizienzvirus-Infektion** (Wert 99,92 %, Evidenzgrad L4): Mehrere Makaken-Studien zeigen, dass Emtricitabin in Kombination mit Tenofovir (TDF oder TAF) vor SHIV-Infektion schützt (u. a. PMID 27465645, 26743846, 31362305). Diese Daten bestätigen vor allem die bereits etablierten HIV-Indikationen und stellen keinen neuen humantherapeutischen Anspruch dar.
+- **Neurodevelopmentale Störung mit ataktischem Gang, fehlender Sprache und verminderter kortikaler weißer Substanz** (Wert 99,92 %, Evidenzgrad L5): Es ließ sich kein mechanistischer Zusammenhang erkennen; der Wert ist vermutlich ein graphbasiertes Artefakt. Es gibt weder Studien noch Literatur.
 
 ---
 
-## Literaturbeweise
+## Klinische Evidenz
 
-| PMID | Jahr | Typ | Zeitschrift | Wichtigste Erkenntnisse |
+Derzeit sind keine zugehörigen klinischen Studien registriert.
+
+---
+
+## Literaturevidenz
+
+| PMID | Jahr | Typ | Fachzeitschrift | Kernaussagen |
 |------|-----|------|------|---------|
-| [37112803](https://pubmed.ncbi.nlm.nih.gov/37112803/) | 2023 | Kohorte (Tierimmunophänotypisierung) | Viruses | Evaluierte Kombinationsantiretroviraltherapie (Dolutegravir 2,5 mg/kg, Tenofovir 20 mg/kg, Emtricitabin 40 mg/kg) bei FIV-infizierten Hauskatzen — das einzige Evidenzelement, das Emtricitabin direkt in der vorhergesagten felinen Indikation testet. |
+| [37112803](https://pubmed.ncbi.nlm.nih.gov/37112803/) | 2023 | Präklinische/veterinärmedizinische Studie | Viruses | Untersuchung von Pharmakokinetik und klinischem Verlauf einer antiretroviralen Kombinationstherapie (Dolutegravir, Tenofovir, Emtricitabin) bei FIV-infizierten Katzen; Studiendesign und Ergebnisse nicht verifiziert |
 
 ---
 
-## Deutsche Marktinformation
+## Marktinformationen Deutschland
 
-Emtricitabin hat derzeit **keine BfArM-Marktzulassung im Datensatz** (0 Lizenzen, Marktstatus: Nicht auf dem Markt). Es kann nur als Teil von Fixdosis-Kombinationsprodukten (z. B. Truvada, Atripla) existieren, die unter dieser Drogeneinheit im Evidenzpaket nicht erfasst sind.
+Alle 18 erfassten Zulassungen sind erloschen bzw. aufgehoben; derzeit gibt es keine gültige Zulassung. Dargestellt sind die ersten 5 Einträge:
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000533 | Emtriva | – | HIV-Infektionen |
+| EMEA/H/C/006469 | Emtricitabine / Tenofovir alafenamide Viatris | – | HIV-Infektionen |
+| EMEA/H/C/004050 | Emtricitabine/Tenofovir disoproxil Mylan | – | HIV-Infektionen |
+| EMEA/H/C/000594 | Truvada | – | HIV-Infektionen |
+| EMEA/H/C/004215 | Emtricitabine/Tenofovir disoproxil Krka | – | HIV-Infektionen |
 
 ---
 
-## Sicherheitsüberlegungen
+## Sicherheitsaspekte
 
-Bitte konsultieren Sie die Packungsbeilage für Sicherheitsinformationen. (TFDA/BfArM-Warnungen, Kontraindikationen und Arzneimittelwechselwirkungsdaten konnten für dieses Arzneimittel nicht abgerufen werden — das Abrufen der offiziellen Packungsbeilage ist als **blockierende** Datenlücke gekennzeichnet, die vor jeder Phase-1-Sicherheitsbewertung gelöst werden muss.)
+**Arzneimittelwechselwirkungen** (20 Einträge erfasst), wichtigste:
+- **Schwerwiegend (Major):** Leflunomid, Teriflunomid
+- **Moderat:** u. a. Cobicistat, Methotrexat, Cladribin, Clofarabin, Epirubicin, Idelalisib, Cabozantinib, Brentuximab vedotin, Interferon beta-1a/-1b, Peginterferon beta-1a, Asparaginase, Pegaspargase, Tioguanin, Trabectedin, Orlistat, Naltrexon
+- **Gering (Minor):** Eribulin
+
+**Kontraindikationen aus dem Wissensgraphen** (Hinweis: stammen aus Wirkstoff-Krankheits-Beziehungen, nicht aus dem Beipackzettel): u. a. Leberversagen, Lebererkrankung, Nierenerkrankung, chronische Hepatitis B/C, Laktatazidose, Fanconi-Syndrom, Hypophosphatämie, Osteomalazie, Long-QT-Syndrom, Epilepsie sowie Fettleber/NASH.
+
+Für weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) bitte die Fachinformation heranziehen.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Zurückgestellt**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die top-bewertete Vorhersage (FIV) basiert auf einer einzigen kleinen Tier-Kohortenstudie und vier klinischen Studien, die sich bei genauer Prüfung als menschliche HIV-1-Studien erweisen, die weitgehend unabhängig von Emtricitabin oder der felinen Indikation sind — konsistent mit der eigenen Bewertung des Evidenzpakets, dass diese Übereinstimmung wahrscheinlich eine Knowledge-Graph-Ontologie-Überlappung („Immundefizienz") statt echter Translationsevidenz widerspiegelt. In Kombination mit der ungelösten blockierenden Lücke bei der TFDA/BfArM-Sicherheitskennzeichnung gibt es nicht genug Evidenz, um über S0 hinauszugehen.
+Die Vorhersage betrifft eine Veterinärindikation (Katzen) ohne klinische Studien und mit nur einer nicht verifizierten Publikation (Evidenzgrad L4). Der hohe TxGNN-Wert ist eine Modellvorhersage und kein Wirksamkeitsnachweis. Zudem hat der Wirkstoff in Deutschland derzeit keine gültige Zulassung.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- TFDA/BfArM-Packungsbeilagedaten (Warnungen, Kontraindikationen) — derzeit eine blockierende Datenlücke
-- Bestätigte DrugBank-Wirkmechanismus-Details für Emtricitabin
-- Zusätzliche präklinische oder klinische Daten, die Emtricitabin speziell (nicht andere NRTIs) bei FIV-infizierten Katzen evaluieren
-- Berücksichtigung der verwandten Rang-2-Vorhersage (Simian Immunodeficiency Virus-Infektion), die durch wesentlich mehr Literatur (20 Publikationen, einschließlich direkter Makaken-Dosierungsstudien) und eine höhere Evidenzstufe (L3) unterstützt wird, als möglicherweise defensiblere Forschungsrichtung — unter Beachtung, dass SIV selbst ein Tiermodus für die Forschung ist, keine zugelassene menschliche Indikation
-
+**Für ein Weiterverfolgen sind erforderlich:**
+- Prüfung von Design und Ergebnissen der FIV-Publikation (PMID 37112803)
+- Klärung, ob eine veterinärmedizinische Entwicklung überhaupt im Projektumfang liegt
+- Detaillierte Wirkmechanismus-Daten (MOA) aus DrugBank
+- Auswertung der Fachinformation (Warnhinweise und Gegenanzeigen), da diese Daten derzeit fehlen und ein Sicherheitsscreening blockieren
+- Klärung des Zulassungsstatus in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Azathioprine
-parent: Hohe Evidenz (L1-L2)
-nav_order: 44
-evidence_level: L1
+parent: Nur Modellvorhersage (L5)
+nav_order: 50
+evidence_level: L5
 indication_count: 10
 ---
 
 # Azathioprine
 {: .fs-9 }
 
-Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,103 +29,117 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# AZATHIOPRIN: Von der Immunsuppressiva-Therapie zur Entzündlichen Darmerkrankung
+# Azathioprin: Von der Transplantatabstoßung zur chronisch-entzündlichen Darmerkrankung
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Azathioprin ist ein Thiopurin-Immunsuppressivum; dieses Evidenzpaket dokumentiert nicht seine ursprüngliche zugelassene Indikation, gehört aber pharmakologisch zur Klasse der Purin-Analog-Immunsuppressiva.
-Unter den 10 von TxGNN prognostizierten Indikationen ist die einzige mit substanziellem Evidenzbeleg **Entzündliche Darmerkrankung (IBD)** — eine bereits gut etablierte Anwendung in der klinischen Praxis — gestützt durch **~47 klinische Studien** und **20 Publikationen**, darunter mehrere Cochrane-Systematische Übersichten.
-Die übrigen 9 Vorhersagen (hauptsächlich seltene angeborene/genetische Syndrome) haben sehr hohe TxGNN-Scores, aber **null unterstützende klinische Studien oder Literatur**, und werden vom Evidenzpaket selbst als wahrscheinliches Modellrauschen gekennzeichnet.
+Azathioprin ist ein Purin-Antimetabolit mit immunsuppressiver Wirkung und wurde ursprünglich zur Behandlung der Transplantatabstoßung zugelassen. Das TxGNN-Modell sagt für die Substanz mehrere neue Indikationen voraus. Der höchste Score entfällt formal auf seltene Entwicklungsstörungen ohne jede Evidenz. Die einzige klinisch belastbare Richtung ist die **chronisch-entzündliche Darmerkrankung (CED, einschließlich Colitis ulcerosa)**. Dafür liegen **mindestens 24 registrierte klinische Studien** und zahlreiche Publikationen vor, darunter mehrere Cochrane-Übersichten. Es handelt sich dabei aber überwiegend um etablierten Einsatz und nicht um ein neues Repurposing-Signal.
 
 ---
 
-## Schnelle Übersicht
+## Schnellübersicht
 
-| Artikel | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Nicht angegeben in diesem Evidenzpaket (Wirkstoffklasse: Thiopurin/Purin-Analog-Immunsuppressivum) |
-| Prognostizierte neue Indikation | Entzündliche Darmerkrankung (Morbus Crohn / Colitis ulcerosa) |
-| TxGNN-Vorhersage-Score | 99.52% (Gesamtmodell-Rang 5,720) |
-| Evidenzstufe | L1 |
-| Markt-Status Deutschland | ✗ Nicht vermarktet |
-| Anzahl der Genehmigungen | 0 |
-| Empfohlene Entscheidung | **Hold** (ausstehende Sicherheitsdaten) |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Transplantatabstoßung |
+| Vorhergesagte neue Indikation (Rang 1 laut Modell) | Colobomatöse Mikrophthalmie-rhizomele Dysplasie-Syndrom (kein plausibler Mechanismus, keine Evidenz) |
+| Klinisch relevanteste Kandidaten | Chronisch-entzündliche Darmerkrankung (Score 99,52 %) und Colitis ulcerosa (Score 99,33 %) |
+| TxGNN-Score (Rang 1) | 99,99 % |
+| Evidenzstufe | L5 für Rang 1; L1 für CED und Colitis ulcerosa |
+| Marktstatus in Deutschland | Nur erloschene Zulassung |
+| Anzahl der Zulassungen | 1 (erloschen) |
+| Empfohlene Entscheidung | Rang 1: Hold; CED / Colitis ulcerosa: Proceed with Guardrails |
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Wirkmechanismus-Daten für Azathioprin nicht in diesem Evidenzpaket verfügbar (gekennzeichnet als Datenlücke DG002). Basierend auf den pharmakologischen Informationen in den Evidenzeinträgen ist Azathioprin ein Purin-Analog-Prodrug, das zu 6-MP metabolisiert wird, welches die Purinsynthese hemmt und die Vermehrung von aktivierten T- und B-Lymphozyten unterdrückt. Dieser antiproliferative, immunsupprimierende Mechanismus bildet die Grundlage für Azatioprins lange etablierte, gut anerkannte Rolle als Steroid-sparende Erhaltungstherapie bei entzündlicher Darmerkrankung (sowohl Morbus Crohn als auch Colitis ulcerosa), wo die chronische T-Zell-vermittelte Schleimhautentzündung die Krankheitsaktivität antreibt.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben aus der Arzneistoffdatenbank vor. Aus der Literatur ist jedoch bekannt: Azathioprin wird zu 6-Thioguaninnukleotiden verstoffwechselt, die die Purinsynthese hemmen und die Apoptose von T-Zellen fördern (u. a. über die Hemmung von Rac1). Dadurch wird die Aktivierung des Immunsystems unterdrückt, die auch bei Transplantatabstoßung zentral ist.
 
-Da die IBD-Pathophysiologie grundlegend ein aberranter Immun-/Entzündungsprozess ist, ist der Wirkmechanismus von Azathioprin direkt und plausibel anwendbar — dies wird im Evidenzpaket durch Jahrzehnte von randomisierten kontrollierten Studien, Cochrane-Systematischen Übersichten und pharmakogenetischen Studien (TPMT/NUDT15-gesteuerte Dosierung) widergespiegelt, die Azathioprin speziell bei IBD evaluieren. Es sollte beachtet werden, dass dies weniger ein „neuartiges Repurposing-Signal" ist, sondern eher eine **Modell-validierte Bestätigung einer bereits anerkannten therapeutischen Anwendung** — TxGNN hat eine bekannte, klinisch etablierte Indikation für dieses Arzneimittel korrekt neu abgeleitet.
+Bei der CED und der Colitis ulcerosa spielt eine überschießende, T-Zell-getriebene Immunaktivierung der Darmschleimhaut eine zentrale Rolle. Der Wirkmechanismus passt daher gut. Die Substanz wird in der Praxis seit Jahrzehnten als steroidsparender Immunmodulator zur Remissionserhaltung eingesetzt.
 
-Im Gegensatz dazu haben die 8 anderen Top-bewerteten TxGNN-Vorhersagen in diesem Paket (z. B. kolobomatöse Mikrophtalmie-rhizomele-Dysplasie-Syndrom, Brachydaktylie-Syndaktylie-Syndrom, Arthrose-Anfälligkeit, WHIM-Syndrom, Varianten der chronischen Granulomatose, Acromesomele Dysplasie) seltene angeborene/genetische Störungen ohne **mechanistischen Link, keine klinischen Studien und keine Literaturstütze**. Mehrere (WHIM-Syndrom, chronische Granulomatose) sind primäre Immundefizienzsyndrome, bei denen das Hinzufügen eines Immunsuppressivums plausibel die *Infektionsgefährdung verschärfen* würde — das Gegenteil einer therapeutischen Begründung. Diese sind im Paket korrekt als L5/S0/Hold bewertet und sollten als Netzwerk-Vorhersage-Artefakte statt als echte Kandidaten behandelt werden.
+Bei den meisten übrigen vorhergesagten Erkrankungen (z. B. seltene Skelett- und Fehlbildungssyndrome, Osteoarthrose-Suszeptibilität) besteht dagegen kein erkennbarer mechanistischer Zusammenhang. Das WHIM-Syndrom ist sogar ungünstig, da die myelosuppressive und lymphozytensuppressive Wirkung die Zytopenien wahrscheinlich verschlechtern würde. Die hohen Scores dieser Kandidaten sind reine Graphvorhersagen.
 
 ---
 
 ## Evidenz aus klinischen Studien
 
-| Studiennummer | Phase | Status | Einschluss | Wichtigste Befunde |
+Dargestellt sind die relevantesten Studien für die CED, die Colitis ulcerosa wird dabei mitabgedeckt (Auswahl von 10).
+
+| Studiennummer | Phase | Status | Teilnehmer | Kernaussagen |
 |---------|------|------|------|---------|
-| [NCT03101800](https://clinicaltrials.gov/study/NCT03101800) | Phase 3 | Unbekannt | 84 | Randomisierte kontrollierte Studie zum Vergleich von niedriger Dosis Azathioprin + Allopurinol vs. Azathioprin-Monotherapie bei Colitis ulcerosa; prüft Strategie zur Reduktion von Therapieversagen/unerwünschten Ereignissen |
-| [NCT00094458](https://clinicaltrials.gov/study/NCT00094458) | Phase 3 | Abgeschlossen | 508 | Infliximab vs. Infliximab+Azathioprin vs. Azathioprin allein bei immunmodulatoren/biologika-naiven Morbus Crohn (SONIC-ähnliches Design) |
-| [NCT01015391](https://clinicaltrials.gov/study/NCT01015391) | N/A (randomisierte kontrollierte Studie) | Unbekannt | 100 | Offene randomisierte kontrollierte Studie: T2 vs. Azathioprin zur Remissionserhaltung nach chirurgischer Resektion bei Morbus Crohn |
-| [NCT03464136](https://clinicaltrials.gov/study/NCT03464136) | Phase 3b | Abgeschlossen | 386 | Ustekinumab vs. Adalimumab bei biologika-naiven Morbus Crohn; Azathioprin als vorherige/Hintergrund-Immunmodulatoren |
-| [NCT00577538](https://clinicaltrials.gov/study/NCT00577538) | N/A | Abgeschlossen | 7 | Sicherheitsstudie zum Risiko lymphoproliferativer Erkrankungen im Zusammenhang mit Azathioprin/6-MP bei IBD |
-| [NCT02929706](https://clinicaltrials.gov/study/NCT02929706) | N/A | Unbekannt | 400 | NUDT15 R139C-Genotyp-gesteuerte Thiopurin-Dosisoptimierung zur Reduktion von Azathioprin-induzierter Leukozytopenie bei IBD |
-| [NCT00113503](https://clinicaltrials.gov/study/NCT00113503) | Phase 2 | Beendet | 50 | Mehrstellenstudie zum Vergleich gewichtsbasierter vs. Metabolit-gesteuerter Azathioprin-Dosierung bei Morbus Crohn |
-| [NCT05584228](https://clinicaltrials.gov/study/NCT05584228) | N/A | Noch nicht rekrutierend | 150 | SMART-Studie: Azathioprin + subkutanes Infliximab vs. chirurgische Resektion bei symptomatischem Dünndarm-Morbus Crohn |
-| [NCT07235904](https://clinicaltrials.gov/study/NCT07235904) | Phase 4 | Rekrutierung läuft | 300 | MIRACLE-Studie: Top-down Mirikizumab vs. Standardtherapie Azathioprin bei neu diagnostizierter moderate-bis-schwerer Colitis ulcerosa |
-| [NCT00796250](https://clinicaltrials.gov/study/NCT00796250) | Phase 3 | Beendet | 9 | Infliximab als „Überbrückungstherapie" bei kortikoidabhängigem Morbus Crohn unter Standardbehandlung mit Azathioprin |
+| [NCT07235904](https://clinicaltrials.gov/study/NCT07235904) | Phase 4 | Rekrutierend | 300 | Mirikizumab (Top-down) vs. Azathioprin-Standardtherapie bei neu diagnostizierter mittelschwerer bis schwerer Colitis ulcerosa |
+| [NCT00537316](https://clinicaltrials.gov/study/NCT00537316) | Phase 3 | Abgebrochen | 242 | Infliximab als Monotherapie oder mit Azathioprin vs. Azathioprin-Monotherapie bei Colitis ulcerosa |
+| [NCT02177071](https://clinicaltrials.gov/study/NCT02177071) | Phase 4 | Abgeschlossen | 211 | Infliximab plus Antimetabolit vs. Monotherapien bei Morbus Crohn in steroidfreier Remission |
+| [NCT01235689](https://clinicaltrials.gov/study/NCT01235689) | Phase 3 | Abgeschlossen | 252 | Zwei Behandlungsalgorithmen bei mittelschwerem bis schwerem Morbus Crohn; Azathioprin indirekt beteiligt |
+| [NCT00976690](https://clinicaltrials.gov/study/NCT00976690) | Phase 3 | Abgeschlossen | 83 | Azathioprin vs. Mesalazin zur Prävention des postoperativen Rezidivs bei Morbus Crohn |
+| [NCT01564823](https://clinicaltrials.gov/study/NCT01564823) | Phase 3 | Abgeschlossen | 86 | Adalimumab vs. Azathioprin zur Prävention des postoperativen Rezidivs bei Morbus Crohn |
+| [NCT02425852](https://clinicaltrials.gov/study/NCT02425852) | Phase 4 | Abgeschlossen | 65 | Früh Azathioprin plus Infliximab vs. Kortikosteroide plus Azathioprin bei akuter schwerer Colitis |
+| [NCT00984568](https://clinicaltrials.gov/study/NCT00984568) | Phase 3 | Abgebrochen | 28 | Konventionelles Step-up (mit Azathioprin) vs. Infliximab-Monotherapie; wegen geringer Fallzahl wenig aussagekräftig |
+| [NCT00098111](https://clinicaltrials.gov/study/NCT00098111) | Phase 3 | Abgebrochen | 31 | Dosisfindung von Azathioprin (IMURAN) bei aktivem Morbus Crohn |
+| [NCT03101800](https://clinicaltrials.gov/study/NCT03101800) | Phase 3 | Unbekannt | 84 | Niedrig dosiertes Azathioprin plus Allopurinol vs. Azathioprin-Monotherapie bei Colitis ulcerosa |
+
+Für die übrigen vorhergesagten Erkrankungen (insbesondere die Rangplätze 1–4, 6, 8 und 10) sind derzeit keine relevanten klinischen Studien registriert.
 
 ---
 
-## Evidenz aus der Literatur
+## Literaturevidenz
 
-| PMID | Jahr | Typ | Journal | Wichtigste Befunde |
+| PMID | Jahr | Typ | Journal | Kernaussagen |
 |------|-----|------|------|---------|
-| [29293971](https://pubmed.ncbi.nlm.nih.gov/29293971/) | 2018 | Übersicht | J Crohn's Colitis | State-of-the-art klinische Übersicht über Thiopurin (Azathioprin/Mercaptopurin/Thioguanin)-Anwendung bei IBD |
-| [19072367](https://pubmed.ncbi.nlm.nih.gov/19072367/) | 2008 | Übersicht | Expert Rev Gastroenterol Hepatol | Verbesserter molekularer Einblick in den Wirkmechanismus von Azathioprin und klinische Implikationen bei IBD |
-| [33305616](https://pubmed.ncbi.nlm.nih.gov/33305616/) | 2021 | Übersicht | Pharmacogenomics | Pharmakogenetik der IBD mit Fokus auf Thiopurin-Behandlungsoptimierung |
-| [30954317](https://pubmed.ncbi.nlm.nih.gov/30954317/) | 2019 | Übersicht | Gastroenterol Hepatol | Evidenzübersicht zum Absetzen von Aminosalicylaten, Thiopurinen und Methotrexat bei IBD |
-| [36462311](https://pubmed.ncbi.nlm.nih.gov/36462311/) | 2023 | Kohorte/Pharmakogenetik | Biomed Pharmacother | TPMT-Genmethylierung und Azathioprin-Pharmakokinetik bei sehr früh manifestierender IBD bei Kindern |
-| [16048561](https://pubmed.ncbi.nlm.nih.gov/16048561/) | 2005 | Kohorte/Pharmakogenetik | J Gastroenterol Hepatol | Azathioprin/6-MP-Pharmakogenetik und Metabolit-Monitoring bei IBD |
-| [37586320](https://pubmed.ncbi.nlm.nih.gov/37586320/) | 2023 | Mechanismus-Studie | Cell Reports Medicine | Darmbakterien-Kommensalen (Blautia wexlerae) verbunden mit Azathioprin-Therapieversagen durch verringerte 6-MP-Bioverfügbarkeit |
-| [10499471](https://pubmed.ncbi.nlm.nih.gov/10499471/) | 1999 | Klinische Übersicht | Scand J Gastroenterol Suppl | Update zur klinischen Wirksamkeit und Sicherheit von Azathioprin bei IBD |
-| [40126153](https://pubmed.ncbi.nlm.nih.gov/40126153/) | 2025 | Epidemiologie | Scand J Gastroenterol | Zeitliche Trends in IBD-Merkmalen und Behandlungsmustern |
-| [27688654](https://pubmed.ncbi.nlm.nih.gov/27688654/) | 2016 | Übersicht | World J Gastroenterol | IBD in Indien — Vergangenheit, Gegenwart und Zukunft, einschließlich Thiopurin-Behandlungskontext |
+| [40013523](https://pubmed.ncbi.nlm.nih.gov/40013523/) | 2025 | Systematische Übersicht | Cochrane Database Syst Rev | Aktualisierte Bewertung von Azathioprin/6-MP zur Remissionserhaltung bei Colitis ulcerosa |
+| [39586616](https://pubmed.ncbi.nlm.nih.gov/39586616/) | 2025 | RCT | Gut | ACTIVE-Studie: Top-down Infliximab plus Azathioprin vs. Azathioprin allein bei akuter schwerer Colitis ulcerosa |
+| [27192092](https://pubmed.ncbi.nlm.nih.gov/27192092/) | 2016 | Systematische Übersicht | Cochrane Database Syst Rev | Wirksamkeit von Azathioprin/6-MP zur Remissionserhaltung bei Colitis ulcerosa |
+| [22972046](https://pubmed.ncbi.nlm.nih.gov/22972046/) | 2012 | Systematische Übersicht | Cochrane Database Syst Rev | Frühere Fassung der Cochrane-Analyse zur Remissionserhaltung |
+| [17253451](https://pubmed.ncbi.nlm.nih.gov/17253451/) | 2007 | Systematische Übersicht | Cochrane Database Syst Rev | Erste Fassung der Cochrane-Analyse zur Remissionserhaltung |
+| [29293971](https://pubmed.ncbi.nlm.nih.gov/29293971/) | 2018 | Review | J Crohns Colitis | Aktueller Überblick zu Thiopurinen bei CED |
+| [16048561](https://pubmed.ncbi.nlm.nih.gov/16048561/) | 2005 | Review | J Gastroenterol Hepatol | Pharmakogenetik und Metabolitenmonitoring von Azathioprin und 6-MP bei CED |
+| [34287682](https://pubmed.ncbi.nlm.nih.gov/34287682/) | 2021 | Review | J Gastroenterol | Thiopurin-Pharmakogenomik (NUDT15) und Schwangerschaft bei CED |
+| [37586320](https://pubmed.ncbi.nlm.nih.gov/37586320/) | 2023 | Mechanistische Studie | Cell Rep Med | Kommensale Bakterien fördern Therapieversagen von Azathioprin durch geringere 6-MP-Bioverfügbarkeit |
+| [32799195](https://pubmed.ncbi.nlm.nih.gov/32799195/) | 2020 | Review | Digestion | Malignome bei CED |
 
 ---
 
 ## Marktinformationen Deutschland
 
-Es sind keine Marktgenehmigungen für dieses Arzneimittel im aktuellen Datensatz verzeichnet. Der Markt-Status wird als **Nicht vermarktet** angegeben, mit **0 Gesamtlizenzen**.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/005055 | Jayempi (Lipomed GmbH) | – | Transplantatabstoßung (Zulassung erloschen) |
+
+---
+
+## Zytotoxizität
+
+Azathioprin ist kein klassisches Antineoplastikum, wirkt aber als Purin-Antimetabolit zytotoxisch auf proliferierende Lymphozyten. Zu Zytotoxizitätsklassifikation, Emetogenität und Handhabungsvorschriften liegen in den zusammengestellten Daten keine Angaben vor. Bitte die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten.
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+- **Kontraindikationen bzw. Risikoerkrankungen aus dem Wissensgraphen (kein Fachinformationstext):** Pankreatitis, Thrombozytopenie, Anämie (auch makrozytär), Niereninsuffizienz, Pilz- und andere Infektionskrankheiten (u. a. Dermatophytose), Lymphome (einschließlich primärem ZNS-Lymphom, Lymphosarkom und hepatosplenischem T-Zell-Lymphom), Lebervenenthrombose und Budd-Chiari-Syndrom.
+- **Wechselwirkungen (100 gemeldete):**
+  - Moderat: Mesalazin, Balsalazid, Olsalazin, Sulfasalazin.
+  - Gering: Zinkacetat, Zinkgluconat, Zinksulfat.
+  - Weitere Wechselwirkungen mit unbekanntem Schweregrad, u. a. Amphotericin B, Acetylsalicylsäure, Pantoprazol, Omeprazol, Metformin, Doxycyclin und Morphin.
+- **Leitplanken aus der Literatur:** TPMT-/NUDT15-Genotypisierung vor Therapiebeginn, Kontrolle von Blutbild und Leberenzymen sowie Überwachung auf Infektionen und Malignome (Lymphome, Hautkrebs).
 
-> **Hinweis:** Dieses Evidenzpaket kennzeichnet eine **kritische** Datenlücke (DG001) — TFDA/BfArM-Labelwarnungen und Kontraindikationen sind nicht verfügbar. Dies verhindert eine formale S1-Sicherheits-Vor-Bewertung für Azathioprin, unabhängig von den oben zusammengefassten Wirksamkeitsbeleuen.
+Ergänzend bitte die Fachinformation heranziehen.
 
 ---
 
-## Fazit und Nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Hold**
+**Entscheidung: Proceed with Guardrails (für CED / Colitis ulcerosa); Hold (für alle übrigen vorhergesagten Indikationen, einschließlich Rang 1)**
 
 **Begründung:**
-- Die Wirksamkeitsevidenz für Azathioprin bei IBD ist stark (L1: mehrere randomisierte kontrollierte Studien und Cochrane-Systematische Übersichten über Jahrzehnte), und die mechanistische Begründung ist solide — aber dies spiegelt eine bereits gut etablierte Anwendung wider, nicht eine neue Repurposing-Gelegenheit.
-- Eine **kritische**-Schweregrad-Datenlücke (fehlende Labelwarnungen/Kontraindikationen) verhindert eine Sicherheits-Vor-Bewertung (S1), und das Arzneimittel hat derzeit **keine Marktgenehmigung** in dieser Gerichtsbarkeit (0 Lizenzen, „Nicht vermarktet"), daher kann ein „Proceed with Guardrails"-Aufruf noch nicht verantwortungsvoll erfolgen.
-- Acht der zehn von TxGNN prognostizierten Indikationen in diesem Paket (seltene angeborene/genetische Syndrome) haben keine klinischen oder Literaturbelege und sollten nicht verfolgt werden.
+- Für CED und Colitis ulcerosa sprechen mehrere Phase-3- und Phase-4-Studien, Cochrane-Übersichten und ein publizierter RCT (ACTIVE) für die Wirksamkeit. Die Studien nutzen Azathioprin jedoch häufig als Vergleichs- oder Kombinationspartner, sodass dies etablierten Einsatz widerspiegelt und kein neues Repurposing-Signal darstellt.
+- Die höchstbewerteten Vorhersagen (Rang 1 und 2) sind seltene Entwicklungsstörungen ohne plausiblen Mechanismus und ohne Studien- oder Literaturbasis. Der Score ist dort rein graphbasiert.
 
-**Um fortzufahren, wird Folgendes benötigt:**
-- Besorgen Sie sich die TFDA/BfArM-Packungsbeilage (Warnungen, Kontraindikationen, Arzneimittelinteraktionen), um die S1-Sicherheits-Vor-Bewertung abzuschließen
-- Bestätigen Sie ursprüngliche/aktuelle zugelassene Indikationen und Wirkmechanismus über DrugBank oder regulatorische Quelle
-- Klären Sie den Zulassungsweg angesichts des aktuellen Status „Nicht vermarktet"
-- Falls Fortfahrt, implementieren Sie TPMT/NUDT15-Genotyp-gesteuerte Dosierung und regelmäßiges Blutbild/Leberfunktions-Monitoring gemäß der in den pharmakogenetischen Literaturellen oben identifizierten Befunde
-
+**Für das weitere Vorgehen erforderlich:**
+- Fachinformation (Warnhinweise, Kontraindikationen) aus der BfArM-Quelle beschaffen, da diese Daten fehlen und die Sicherheitsprüfung sonst nicht abgeschlossen werden kann.
+- Detaillierte Wirkmechanismusdaten aus der Arzneistoffdatenbank ergänzen.
+- Klären, dass in Deutschland nur eine erloschene Zulassung vorliegt, und den regulatorischen Status der Indikation CED prüfen.
+- Sicherheitsüberwachungsplan (TPMT/NUDT15-Testung, Blutbild, Leberwerte, Malignomrisiko) für die Zielpopulation festlegen.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

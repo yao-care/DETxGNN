@@ -2,7 +2,7 @@
 layout: default
 title: Belimumab
 parent: Nur Modellvorhersage (L5)
-nav_order: 48
+nav_order: 55
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,79 +29,98 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Belimumab: Von Systemischem Lupus Erythematodes zur Primären Sekretionstörung von Blutplättchen
+# Belimumab: Von systemischem Lupus erythematodes zu primärer Thrombozyten-Freisetzungsstörung
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Belimumab ist ein gegen BAFF/BLyS gerichteter monoklonaler Antikörper, der ursprünglich zur Behandlung des Systemischen Lupus Erythematodes (SLE) verwendet wird, um das Überleben von B-Zellen und die Produktion von Autoantikörpern zu unterdrücken.
-Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam gegen **primäre Sekretionstörung von Blutplättchen** sein könnte,
-aber diese Richtung wird derzeit durch nur **1 klinische Studie** (mechanistisch unabhängig) und **0 Veröffentlichungen** gestützt.
+Belimumab ist ein Antikörper, der ursprünglich zur Behandlung des **systemischen Lupus erythematodes** zugelassen wurde.
+Das TxGNN-Modell sagt voraus, dass er bei der **primären Thrombozyten-Freisetzungsstörung** wirksam sein könnte.
+Dafür liegen jedoch **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage beruht allein auf dem Modell.
 
 ---
 
 ## Schnellübersicht
 
-| Element | Inhalt |
-|--------|--------|
-| Ursprüngliche Indikation | Systemischer Lupus Erythematodes (SLE) |
-| Vorhergesagte neue Indikation | Primäre Sekretionstörung von Blutplättchen |
-| TxGNN-Vorhersage-Score | 99.96% |
-| Evidenzstufe | L5 |
-| Marktstatus Deutschland | Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Zurückhalten |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Systemischer Lupus erythematodes |
+| Vorhergesagte neue Indikation | Primäre Thrombozyten-Freisetzungsstörung |
+| TxGNN-Vorhersagewert | 99,96 % |
+| Evidenzniveau | L5 |
+| Marktstatus in Deutschland | Nur erloschene Zulassung |
+| Anzahl der Zulassungen | 1 (erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Warum ist diese Vorhersage plausibel?
 
-Detaillierte DrugBank-Wirkungsmechanismus-Daten sind für Belimumab in diesem Evidenzpaket nicht verfügbar. Basierend auf der mechanistischen Begründung, die die Vorhersagen begleitet, ist bekannt, dass Belimumab als gegen BAFF/BLyS gerichteter monoklonaler Antikörper wirkt, der das Überleben von B-Zellen hemmt und die Erzeugung von Autoantikörpern reduziert, und auf dieser Grundlage ist es für SLE zugelassen.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine Angaben vor. Nach allgemeinem Wissen neutralisiert Belimumab den B-Lymphozyten-Stimulator (BLyS bzw. BAFF), verringert dadurch das Überleben von B-Zellen und senkt die Autoantikörperbildung. Beim systemischen Lupus erythematodes, einer autoantikörpervermittelten Erkrankung, ist dieser Mechanismus nachvollziehbar.
 
-Primäre Sekretionstörung von Blutplättchen ist ein hereditärer Defekt in der Granulasekretion von Blutplättchen — eine strukturelle/funktionelle Blutplättchenanomalie, keine durch B-Zellen oder Antikörper vermittelte Erkrankung. Es gibt keinen etablierten biologischen Weg, der die BAFF/B-Zell-Hemmung mit der Freisetzung von Blutplättchengranula verbindet. Der hohe Score des TxGNN-Modells für diese Indikation ist daher am ehesten ein Wissensgraph-Assoziationsartefakt und nicht eine echte mechanismusgesteuerte Hypothese.
+Die primäre Thrombozyten-Freisetzungsstörung ist dagegen ein angeborener oder erworbener qualitativer Funktionsdefekt der Thrombozyten und in der Regel nicht durch B-Zellen oder Autoantikörper getrieben. Ein plausibler mechanistischer Zusammenhang ist derzeit nicht erkennbar. Der hohe Vorhersagewert ist eine rein graphbasierte Modellvorhersage und wird weder durch Studien noch durch Literatur gestützt.
 
-Erwähnenswert ist, dass unter den sechs für Belimumab vorhergesagten Indikationen **fetale und neonatale alloimmune Thrombozytopenie (Rang 4)** eine vergleichsweise plausiblere mechanistische Begründung hat, da es sich um eine antikörperbedingte Erkrankung handelt — aber sie hat ebenfalls keine unterstützenden klinischen oder Literaturbelege zu diesem Zeitpunkt. Alle sechs Vorhersagen bleiben auf Evidenzstufe L5.
+Auch die weiteren Vorhersagen sind überwiegend mechanistisch schwach begründet:
+
+| Rang | Vorhergesagte Indikation | TxGNN-Wert | Einschätzung |
+|---|---|---|---|
+| 2 | Pseudo-von-Willebrand-Erkrankung | 99,96 % | Genetischer Defekt des Thrombozytenrezeptors GPIbα; kein bekannter Bezug zur BAFF-Hemmung |
+| 3 | Glanzmann-Thrombasthenie | 99,88 % | Angeborener Defekt von αIIbβ3; allenfalls theoretischer Bezug über Alloantikörper nach Transfusionen |
+| 4 | Fetale und neonatale Alloimmunthrombozytopenie | 99,59 % | Antikörpervermittelt, daher konzeptionell denkbar; Sicherheitsbedenken in der Schwangerschaft |
+| 5 | Schwere nichtproliferative diabetische Retinopathie | 99,05 % | Kein etablierter Bezug von BAFF zur Pathogenese |
+| 6 | Autosomal-dominante Makrothrombozytopenie | 99,04 % | Angeborene Bildungsstörung, nicht immunvermittelt |
 
 ---
 
-## Klinische Studienevidenz
+## Evidenz aus klinischen Studien
 
-| Studiennummer | Phase | Status | Einschluss | Wichtigste Ergebnisse |
-|---------|------|------|------|---------|
-| [NCT01610492](https://clinicaltrials.gov/study/NCT01610492) | Phase 2 | Abgeschlossen | 14 | Studie von Belimumab bei PLA2R-Antikörper-positiver idiopathischer membranöser Glomerulonephritis — **nicht verwandt mit Blutplättchenstörungen**; Datenbankindikationsabweichung, bewertet mit C (nicht unterstützend) |
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Literaturbelege
+## Literaturevidenz
 
-Derzeit sind keine entsprechenden Literaturbelege verfügbar.
+Derzeit liegt keine zugehörige Literatur vor.
 
 ---
 
 ## Marktinformationen Deutschland
 
-Belimumab wird in Deutschland nach diesem Evidenzpaket nicht vermarktet (0 Zulassungen in der Akte).
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/002015 | Benlysta (GlaxoSmithKline Trading Services Limited) | – | Systemischer Lupus erythematodes |
+
+Diese Zulassung ist erloschen; es besteht aktuell keine gültige Zulassung.
 
 ---
 
-## Sicherheitsüberlegungen
+## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+- **Arzneimittelwechselwirkungen**: Insgesamt wurden 69 Wechselwirkungen erfasst. Davon eine Auswahl:
+  - **Schwerwiegend (Major)**: Adalimumab, Baricitinib, Certolizumab pegol, BCG-Lebendimpfstoff (Stamm Tice)
+  - **Mäßig (Moderate)**: Roflumilast, Azathioprin, Alemtuzumab, Anakinra, Canakinumab, Alefacept, Tetanus-Toxoid sowie weitere Impfstoffe
+  - **Gering (Minor)**: Zinkacetat, Zinkgluconat, Zinksulfat, Zinkchlorid
+
+  Die schwerwiegenden Wechselwirkungen betreffen vor allem andere Immunsuppressiva und Lebendimpfstoffe.
+
+- Für die vorhergesagte Indikation fetale und neonatale Alloimmunthrombozytopenie bestehen zusätzlich Bedenken zur Anwendung in der Schwangerschaft (begrenzte Datenlage, Plazentagängigkeit von IgG).
+
+Angaben zu Warnhinweisen und Gegenanzeigen liegen nicht vor. Bitte die Fachinformation heranziehen.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Zurückhalten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Trotz eines hohen TxGNN-Vorhersage-Scores befasst sich die einzige zugehörige klinische Studie mit einer unverwandten Indikation, es gibt keine unterstützende Literatur, und der vorgeschlagene Mechanismus (BAFF/B-Zell-Hemmung) hat keine etablierte Verbindung zu Sekretionstörungen von Blutplättchengranula. Die Evidenzbasis ist unzureichend, um weitere Bewertung zu rechtfertigen.
+Die Vorhersage stützt sich ausschließlich auf ein Graphmodell. Es gibt weder klinische Studien noch Publikationen, und ein plausibler Wirkmechanismus fehlt. Zudem besteht in Deutschland derzeit keine gültige Zulassung.
 
-**Um voranzuschreiten, wird Folgendes benötigt:**
-- Bestätigte MOA und DDI/Kontraindikationsdaten von DrugBank/Hersteller (aktuell als Blocking/High Datenlücken gekennzeichnet)
-- Präklinische oder mechanistische Studien, die direkt die BAFF/B-Zell-Wege mit Defekten der Blutplättchengranulasekretion verbinden
-- Echte krankheitsgerechte klinische Studien oder Fallberichte in Patientenpopulationen mit Blutplättchen-Sekretionstörungen
-- Falls ein alternativer Wirkstoffkandidat verfolgt wird, Priorisierung der Neubewertung von **fetaler und neonataler alloimmune Thrombozytopenie**, die eine kohärentere (allerdings noch unbewiesene) mechanistische Hypothese hat
-
+**Für ein Weiterverfolgen sind folgende Schritte nötig:**
+- Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen), da die Sicherheitsprüfung sonst nicht fortgesetzt werden kann
+- Ergänzung der Wirkmechanismus-Daten (MOA) aus DrugBank
+- Systematische Literatur- und Studienrecherche zu Belimumab bei Thrombozytenerkrankungen
+- Prüfung der Indikationen mit immunologischem Bezug (z. B. fetale und neonatale Alloimmunthrombozytopenie) auf mechanistische Plausibilität und Sicherheit
+- Klärung des Zulassungs- und Marktstatus in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

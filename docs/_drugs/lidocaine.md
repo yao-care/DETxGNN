@@ -2,7 +2,7 @@
 layout: default
 title: Lidocaine
 parent: Nur Modellvorhersage (L5)
-nav_order: 232
+nav_order: 271
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,61 +29,99 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Lidocain: Von der Lokalanästhesie zur punktförmigen epithelialen Keratokonjunktivitis
+# Lidocain: Von sexueller Funktionsstörung (Fortacin) zu punktförmiger epithelialer Keratokonjunktivitis
 
 ## Zusammenfassung in einem Satz
 
-Lidocain ist ein etabliertes Amid-Lokalanästhetikum, das klinisch zur Betäubung von Gewebe für die Schmerzbekämpfung bei chirurgischen/verfahrenstechnischen Eingriffen eingesetzt wird (und in bestimmten Formulierungen als Antiarrhythmikum der Klasse Ib). Das TxGNN-Modell sagt eine mögliche neue Indikation für **punktförmige epitheliale Keratokonjunktivitis** voraus, aber diese Vorhersage wird derzeit durch **0 klinische Studien** und **0 Publikationen** gestützt – es ist ein reines Modellscore-Signal ohne externe Validierung.
+Lidocain ist ein Natriumkanalblocker, der in Deutschland zuletzt als Bestandteil von Fortacin für physiologische sexuelle Funktionsstörungen zugelassen war. Das TxGNN-Modell sagt voraus, dass es bei **punktförmiger epithelialer Keratokonjunktivitis** wirksam sein könnte. Für diese Indikation liegen jedoch **keine klinischen Studien und keine Publikationen** vor; die Vorhersage beruht allein auf dem Modell.
 
-## Schneller Überblick
+---
 
-| Eintrag | Inhalt |
+## Schnellübersicht
+
+| Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Lokalanästhesie (amtlicher Indikationstext nicht verfügbar – keine Zulassungsunterlagen im Datensatz) |
+| Ursprüngliche Indikation | Sexuelle Funktionsstörung, physiologisch |
 | Vorhergesagte neue Indikation | Punktförmige epitheliale Keratokonjunktivitis |
-| TxGNN-Vorhersage-Score | 99.99% |
-| Evidence Level | L5 |
-| Marktstatus Deutschland | Nicht zugelassen |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Halten |
+| TxGNN-Vorhersagewert | 99,99 % |
+| Evidenzniveau | L5 |
+| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
+| Anzahl der Zulassungen | 1 (davon 0 gültig) |
+| Empfohlene Entscheidung | Hold |
 
-## Warum ist diese Vorhersage sinnvoll?
+---
 
-Detaillierte Wirkmechanismus-Daten für Lidocain sind in dem aktuellen DrugBank-Auszug nicht verfügbar (gekennzeichnet als Datenlücke DG002, hoher Schweregrad). Basierend auf allgemeinem pharmakologischen Wissen ist Lidocain ein Lokalanästhetikum der Amid-Klasse, das spannungsgesteuerte Natriumkanäle blockiert, um die Nervenleitung reversibel zu hemmen; es erzeugt Analgesie/Anästhesie, hat aber keine etablierte entzündungshemmende, antivirale oder immunmodulatorische Aktivität.
+## Warum ist diese Vorhersage plausibel?
 
-Punktförmige epitheliale Keratokonjunktivitis ist eine entzündliche/erosive Erkrankung des Kornea- und Bindehautepithels, typischerweise verursacht durch virale Infektion, chemische/UV-Verletzung oder immunvermittelte Prozesse. Eine Natriumkanal-Blockade kann Augenoberflächen-Schmerzen maskieren, behebt aber keinen dieser zugrunde liegenden Krankheitsmechanismen – es gibt keinen bekannten Weg, auf dem Lidocain den Verlauf dieser Erkrankung verändern würde.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Lidocain ein Natriumkanalblocker und ein etabliertes Lokalanästhetikum ist, auch für die Augenoberfläche. Die ursprüngliche Indikation (Fortacin, topische Anwendung bei sexueller Funktionsstörung) nutzt die lokale Nervenblockade; mechanistisch lässt sich dies auf eine symptomatische Linderung an der Augenoberfläche übertragen.
 
-Die vom Modell generierte Rationale für diese Vorhersage selbst kommt zu dem Ergebnis, dass der hohe TxGNN-Score höchstwahrscheinlich ein **semantisches Clustering-Artefakt** widerspiegelt: Lidocain erscheint häufig im Knowledge Graph neben Kontexten von „topischen ophthalmischen Arzneimitteln" (z. B. als Verfahrens-Anästhetikum bei Augenchirurgie und Injektionen), statt eine echte krankheitsmodifizierende mechanistische Beziehung widerzuspiegeln. Derzeit gibt es keine Literatur- oder Versuchsevidenz, um diese Hypothese zu testen.
+Der hohe TxGNN-Wert spiegelt vermutlich vor allem die Netzwerknähe zu anderen Erkrankungen der Augenoberfläche wider. Ein krankheitsmodifizierender Effekt ist biologisch zweifelhaft: Topische Anästhetika können die Heilung des Epithels beeinträchtigen, und ein Missbrauch gilt als anerkannte Ursache einer Keratopathie. Realistisch wäre allenfalls eine vorübergehende symptomatische Anästhesie.
 
-## Evidenz aus klinischen Studien
+Weitere hochgereihte Vorhersagen betreffen überwiegend Erkrankungen der Augenoberfläche (papilläre Konjunktivitis, Rosazea-Konjunktivitis, Expositionskeratitis, atopische Konjunktivitis, Konjunktivaerkrankung). Auch hier liegt keine belastbare klinische Evidenz für eine Wirkung auf die Grunderkrankung vor. Am ehesten eine Forschungsfrage ist die atopische Konjunktivitis (Evidenzniveau L4): Eine mechanistische Studie von 2023 beschreibt eine Verbindung zwischen Nerven und Becherzellen beim Allergentransport, was eine Modulation sensorischer Nerven als Hypothese stützt.
 
-Derzeit sind keine zugehörigen klinischen Studien registriert.
+---
 
-## Literaturevidence
+## Klinische Studien
 
-Derzeit ist keine zugehörige Literatur verfügbar.
+Für die Hauptvorhersage (punktförmige epitheliale Keratokonjunktivitis) sind derzeit keine relevanten klinischen Studien registriert.
 
-## Marktinformation Deutschland
+Zur Einordnung: Für die weiter unten gereihte Indikation „Konjunktivaerkrankung" liegen zwei abgeschlossene Studien vor, die jedoch die Anästhesie bei Eingriffen untersuchen und keine Krankheitsbehandlung:
 
-Im aktuellen Datensatz sind keine Zulassungen vorhanden – Lidocain ist als **nicht zugelassen** verzeichnet (0 Lizenzen in den Unterlagen). Zulassungsdetails können nicht zusammengefasst werden, bis Zulassungsunterlagen hinzugefügt werden.
+| Studiennummer | Phase | Status | Teilnehmerzahl | Zentrale Ergebnisse |
+|---------|------|------|------|---------|
+| [NCT05978687](https://clinicaltrials.gov/study/NCT05978687) | Phase 4 | Abgeschlossen | 41 | Lidocain-Gel versus subkonjunktivale Injektion bei Pterygium-Exzision (Verfahrensanästhesie) |
+| [NCT01350024](https://clinicaltrials.gov/study/NCT01350024) | Nicht zutreffend | Abgeschlossen | 34 | Vergleich zweier Lokalanästhesieverfahren bei Ptosis-Operation (postoperativer Schmerz) |
 
-## Sicherheitserwägungen
+---
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. (Wichtige Warnhinweise, Kontraindikationen und Wechselwirkungsdaten sind derzeit nicht verfügbar – Datenlücke DG001, blockierender Schweregrad, erfordert TFDA/BfArM-Etikett-Abruf, bevor eine Sicherheits-Vorprüfung abgeschlossen werden kann.)
+## Literatur
+
+Für die Hauptvorhersage sind derzeit keine relevanten Publikationen vorhanden.
+
+Zur Einordnung eine Auswahl aus den übrigen Vorhersagen (jeweils indirekt, ohne Wirksamkeitsbeleg für die Krankheitsbehandlung):
+
+| PMID | Jahr | Typ | Journal | Zentrale Ergebnisse |
+|------|-----|------|------|---------|
+| [37819721](https://pubmed.ncbi.nlm.nih.gov/37819721/) | 2023 | Präklinisch/mechanistisch | JCI Insight | Nerven-Becherzell-Verbindung fördert den schnellen Allergentransport bei allergischer Konjunktivitis |
+| [18989343](https://pubmed.ncbi.nlm.nih.gov/18989343/) | 2009 | RCT | Eye | Lidocain-Gel 2 % versus Tetracain-Tropfen als alleiniges Anästhetikum bei Pterygium-Operation |
+| [29135709](https://pubmed.ncbi.nlm.nih.gov/29135709/) | 2018 | Pilotstudie | Cornea | Subkonjunktivale Injektion versus Lidocain-Gel 2 % und 5 % bei Pterygium-Operation |
+| [15799734](https://pubmed.ncbi.nlm.nih.gov/15799734/) | 2005 | Klinische Studie | Acta Ophthalmol Scand | Wirksamkeit von Lidocain-Gel 2 % bei Pterygium-Chirurgie |
+| [19250287](https://pubmed.ncbi.nlm.nih.gov/19250287/) | 2009 | Review | Cephalalgia | Neuropsychiatrische Nebenwirkungen von Lidocain |
+| [8039024](https://pubmed.ncbi.nlm.nih.gov/8039024/) | 1994 | Experimentelle Humanstudie | Clin Exp Allergy | Nasale Anästhesie und Tränenfunktion nach Allergenprovokation |
+
+---
+
+## Marktinformationen Deutschland
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/002693 | Fortacin (Recordati Ireland Ltd.) | – | Sexuelle Funktionsstörung, physiologisch (Status: erloschen/widerrufen) |
+
+---
+
+## Sicherheitsaspekte
+
+- **Kontraindikationen laut Wissensgraph (TxGNN/PrimeKG, kein Packungsbeilagentext):** u. a. Bluthochdruck, Leberversagen und Lebererkrankungen, Leberzirrhose, Epilepsie, Nierenerkrankung, Nebenniereninsuffizienz (Morbus Addison), Hypothyreose, Offenwinkelglaukom, Osteoporose, psychotische Störungen (u. a. Schizophrenie-Spektrum), Pilzinfektionen, Gastritis sowie Virusinfektionen (Masern, Varizella-Zoster, Herpes-simplex-Keratitis).
+- **Arzneimittelwechselwirkungen:** 100 Wechselwirkungen erfasst. Als **schwerwiegend (Major)** eingestuft ist Bupropion. Mäßig (Moderate): u. a. Aprepitant, Cimetidin, liposomales Morphin, Obeticholsäure, Polyethylenglykol (3350 mit Elektrolyten), Natriumpicosulfat und Natriumsulfat. Gering (Minor): u. a. Dexamethason, Kanamycin, Neomycin, Streptomycin, Omeprazol, Troglitazon.
+- **Hinweise aus der Literatur:** Neuropsychiatrische und kardiale Nebenwirkungen bei intravenöser Anwendung (Review, 2009); Fallbericht zu Methämoglobinämie bei einem Kind mit nephrotischem Syndrom unter topischem Lidocain, Benzocain und Co-trimoxazol; veränderte Plasmaproteinbindung bei Nierenerkrankungen.
+
+Informationen aus der Packungsbeilage standen nicht zur Verfügung und müssen ergänzt werden.
+
+---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Halten**
+**Entscheidung: Hold**
 
-**Rationale:**
-Diese Vorhersage hat Evidence Level L5 – ein TxGNN-Score ohne unterstützende klinische Studien oder Literatur – und die eigene Rationale des Modells identifiziert es als wahrscheinlich falsch-positiv, verursacht durch semantisches Clustering statt durch eine echte mechanistische Verbindung. Darüber hinaus bedeutet die Datenlücke im Label mit blockierendem Schweregrad (DG001), dass der Kandidat noch nicht einmal in die Sicherheits-Vorprüfung S1 eintreten kann.
+**Begründung:**
+Die Vorhersage beruht ausschließlich auf dem Modell (L5), ohne klinische Studien oder Publikationen, und ein krankheitsmodifizierender Effekt ist biologisch zweifelhaft, da topische Anästhetika die Epithelheilung beeinträchtigen können. Zudem besteht in Deutschland keine gültige Zulassung.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- Offizielle TFDA/BfArM-Packungsbeilage (Warnhinweise, Kontraindikationen) abrufen, um DG001 zu beheben
-- Vollständige DrugBank-MOA-Daten abrufen, um DG002 zu beheben
-- Unabhängige Literatur-/mechanistische Suche speziell zu Lidocain und epithelialer Heilung der Hornhaut/Bindehaut, da derzeit keine vorhanden ist
-- Hinweis: Unter den top-10 vorhergesagten Indikationen dieses Kandidaten ist **atopische Konjunktivitis (Rang 5)** die einzige, die Entscheidungsstufe S1 mit einer „Forschungsfrage"-Empfehlung erreicht hat (L4, basierend auf einem plausiblen neuro-immunen Mechanismus – nasale/topische Anästhesie unterdrückt reflexvermittelte allergische Konjunktivitis-Reaktionen). Wenn weitere Arbeiten an diesem Arzneimittel durchgeführt werden, ist dieser Kandidat ein wesentlich stärkerer Ausgangspunkt als punktförmige epitheliale Keratokonjunktivitis.
-
+**Für ein Weiterverfolgen ist Folgendes nötig:**
+- Detaillierte Wirkmechanismus-Daten (MOA)
+- Sicherheitsrelevante Angaben aus der Packungsbeilage (Warnhinweise, Kontraindikationen)
+- Präklinische oder klinische Daten zur Wirkung auf Epithelheilung und Krankheitsverlauf bei Erkrankungen der Augenoberfläche
+- Prüfung der Anwendungsroute (bislang nicht bewertet) und Klärung, ob ein ophthalmologisches Präparat verfügbar wäre
+- Als alternative Forschungsfrage: gezielte Untersuchung der Nervenmodulation bei atopischer Konjunktivitis
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

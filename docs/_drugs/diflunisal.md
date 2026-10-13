@@ -2,7 +2,7 @@
 layout: default
 title: Diflunisal
 parent: Nur Modellvorhersage (L5)
-nav_order: 124
+nav_order: 145
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,70 +29,93 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Diflunisal: Von der NSAID-Analgetika-Anwendung zur Acromesomelie, Hunter-Thompson-Typ
+# Diflunisal: Von familiärer Amyloid-Neuropathie zu Spondylitis ankylosans
 
-## Zusammenfassung in einem Satz
+Hinweis zur Auswahl: Die Vorhersage mit der höchsten Rangposition (akromesomele Dysplasie, Typ Hunter-Thompson) hat keinerlei Evidenz und keine plausible Wirkungsbeziehung. Dieser Bericht konzentriert sich daher auf die am besten belegte Vorhersage, **Spondylitis ankylosans** (Rang 5), und ordnet die übrigen Vorhersagen kurz ein.
 
-> Diflunisal ist ein Salicylsäurederivat-NSAID; detaillierte Daten zur ursprünglichen Indikation und zum Wirkmechanismus sind in diesem Evidenzpaket noch nicht verfügbar.
-> Die Top-Vorhersage des TxGNN-Modells ist **Acromesomelie, Hunter-Thompson-Typ**, eine seltene genetische Skelettdysplasie,
-> aber diese Vorhersage wird derzeit durch **0 klinische Studien** und **0 Publikationen** gestützt, ohne einen plausiblen mechanistischen Zusammenhang.
+## Zusammenfassung
 
----
+Diflunisal ist ein von Salicylsäure abgeleitetes nichtsteroidales Antirheumatikum (NSAR). Es wurde in Europa für die Behandlung der familiären Amyloid-Neuropathie zugelassen. Das TxGNN-Modell sagt voraus, dass es bei **Spondylitis ankylosans** wirksam sein könnte. Dazu liegen **keine registrierten klinischen Studien** und **7 Publikationen** vor, von denen nur wenige Diflunisal direkt betreffen.
 
-## Schnelübersicht
+## Kurzübersicht
 
-| Eintrag | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Nicht in verfügbaren Daten angegeben (Diflunisal wird pharmakologisch als Salicylsäurederivat-NSAID klassifiziert) |
-| Vorhergesagte neue Indikation | Acromesomelie, Hunter-Thompson-Typ |
-| TxGNN-Vorhersagenscore | 99.99% |
-| Evidenzstufe | L5 |
-| Marktstatus Deutschland | Nicht auf dem Markt |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Abwarten |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Familiäre Amyloid-Neuropathie |
+| Vorhergesagte neue Indikation | Spondylitis ankylosans (Rang 5; Rang 1 der Liste: akromesomele Dysplasie, Typ Hunter-Thompson) |
+| TxGNN-Vorhersagewert | 99,98 % (Spondylitis ankylosans); 99,99 % (Rang 1) |
+| Evidenzlevel | L3 (Spondylitis ankylosans); L5 für Rang 1 |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
+| Anzahl der Zulassungen | 1 (erloschen) |
+| Empfohlene Entscheidung | Hold (Rückstellung) bzw. Forschungsfrage für Spondylitis ankylosans |
 
----
+## Warum ist diese Vorhersage plausibel?
 
-## Warum ist diese Vorhersage angemessen?
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Diflunisal ist ein salicylatabgeleitetes NSAR, das die Cyclooxygenasen (COX-1/COX-2) hemmt und so die prostaglandinvermittelte Entzündung und Schmerzen reduziert. Zudem stabilisiert es Transthyretin, was der Grund für den Einsatz bei der Amyloid-Neuropathie ist.
 
-Derzeit sind detaillierte Daten zum Wirkmechanismus für Diflunisal in diesem Evidenzpaket nicht verfügbar. Basierend auf der allgemeinen pharmakologischen Klassifizierung ist Diflunisal ein Salicylsäurederivat-NSAID, das Cyclooxygenase (COX-1/COX-2) hemmt und die Prostaglandinsynthese reduziert, um analgetische und entzündungshemmende Wirkungen zu erzeugen – eine Mechanismusklasse, die typischerweise bei muskuloskelettalen Schmerzen und entzündlichen Gelenkerkrankungen eingesetzt wird.
+Bei der Spondylitis ankylosans sind NSAR die etablierte Erstlinientherapie zur Linderung der Symptome. Der Mechanismus ist daher biologisch schlüssig. Die vorliegende Evidenz belegt jedoch nur eine symptomatische Wirkung eines älteren NSAR, keine krankheitsmodifizierende Wirkung.
 
-Die Top-Vorhersage-Indikation, Acromesomelie (Hunter-Thompson-Typ), ist eine strukturelle genetische Skeletterkrankung, die durch GDF5/CDMP1-Mutationen verursacht wird. Es gibt keine bekannte entzündliche oder Prostaglandin-vermittelte Pathophysiologie bei dieser Erkrankung, daher hat der entzündungshemmende Mechanismus eines NSAID hier keine plausible therapeutische Begründung. Die eigene Begründung für die Arzneimittelumwidmung des Evidenzpakets bestätigt dies: „strukturelle genetische Erkrankung, keine angemessene Behandlungsbasis für den entzündungshemmenden Mechanismus von NSAID, kein klinischer Beleg." Diese Vorhersage spiegelt wahrscheinlich ein TxGNN-Einbettungs-Ähnlichkeitsartefakt wider und nicht ein biologisch fundiertes Signal.
+Für die übrigen vorhergesagten Erkrankungen gilt:
+- **Genetische Skelettdysplasien** (akromesomele Dysplasie, Brachyolmie, Brachyolmie-Amelogenesis-imperfecta-Syndrom, kolobomatöse Mikrophthalmie-rhizomele Dysplasie): Kein plausibler Zusammenhang mit COX-Hemmung oder Transthyretin-Stabilisierung. Es handelt sich um reine Modellvorhersagen.
+- **Anfälligkeit für Spondyloarthropathie**: Indirekt plausibel, aber ein genetischer Anfälligkeitsbegriff und keine behandelbare klinische Entität.
+- **Myosklerose, Rheumatoide Vaskulitis**: Kein belegter Nutzen. Die rheumatoide Vaskulitis erfordert eine Immunsuppression, NSAR sind nicht wirksam.
+- **Hypermobilität des Steißbeins**: Schwache, indirekte Begründung (Schmerzlinderung), ohne Evidenz.
+- **Entzündliche Spondylopathie**: Überschneidet sich mit der Spondylitis ankylosans. Die Literatur ist identisch und daher keine unabhängige Evidenz.
 
-**Anmerkung:** Ein untergeordneter Kandidat in demselben Evidenzpaket – **Ankylosierende Spondylitis** (Rang 5) und seine breitere Kategorie **Entzündliche Spondylopathie** (Rang 10) – zeigt einen mechanistisch kohärenten Zusammenhang (NSAID-COX-Hemmung bei entzündlicher Spondyloarthropathie) und wird durch eine echte randomisierte kontrollierte Studie gestützt, die Diflunisal mit phenylbutazone bei AS-Patienten vergleicht (L2, „Mit Schutzmaßnahmen fortfahren"). Dies könnte ein klinisch aussagekräftigerer Arzneimittelumwidmungskandidat sein als die Top-TxGNN-bewertete Erkrankung und könnte eine separate Bewertung rechtfertigen.
+## Evidenz aus klinischen Studien
 
----
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
-## Klinische Studienevidenz
+## Literaturevidenz
 
-Derzeit sind keine verwandten klinischen Studien registriert
+Für die Spondylitis ankylosans wurden folgende Publikationen ermittelt (nur die Arbeiten mit direktem Diflunisal-Bezug sind für die Fragestellung unmittelbar relevant):
 
----
+| PMID | Jahr | Typ | Journal | Kernaussagen |
+|------|-----|------|------|---------|
+| [3524970](https://pubmed.ncbi.nlm.nih.gov/3524970/) | 1986 | Doppelblinde randomisierte Studie (12 Wochen + 36 Wochen offene Verlängerung) | Clinical Rheumatology | Diflunisal (500 mg zweimal täglich) vs. Phenylbutazon bei 38 Männern mit Spondylitis ankylosans: Beide Substanzen verbesserten die Symptome, der Effekt hielt über die Verlängerung an. Diflunisal wirkte anfangs analgetisch stärker und schneller. |
+| [3546687](https://pubmed.ncbi.nlm.nih.gov/3546687/) | 1986 | Kohortenstudie | The Journal of Rheumatology | Lungenfunktion bei 33 Männern mit aktiver Spondylitis ankylosans unter Diflunisal oder Phenylbutazon; Fokus auf Krankheitsaktivität, nicht auf Diflunisal-Wirksamkeit. |
+| [4062389](https://pubmed.ncbi.nlm.nih.gov/4062389/) | 1985 | Prospektive Kohortenstudie | Annals of the Rheumatic Diseases | Zusammenhang zwischen IgA-Serumspiegeln und Krankheitsaktivität bei 38 Patienten unter Phenylbutazon oder Diflunisal; nicht medikamentenspezifisch. |
+| [2670397](https://pubmed.ncbi.nlm.nih.gov/2670397/) | 1989 | Übersichtsarbeit | Clinical Pharmacy | Übersicht zu Diclofenac (nicht Diflunisal). |
+| [6772422](https://pubmed.ncbi.nlm.nih.gov/6772422/) | 1980 | Übersichtsarbeit | Drugs | Übersicht zu Diclofenac bei rheumatischen Erkrankungen (nicht Diflunisal). |
+| [387372](https://pubmed.ncbi.nlm.nih.gov/387372/) | 1979 | Übersichtsarbeit | Drugs | Übersicht zu Naproxen bei rheumatischen Erkrankungen (nicht Diflunisal). |
+| [3539573](https://pubmed.ncbi.nlm.nih.gov/3539573/) | 1986 | Übersichtsarbeit | Drugs | Übersicht zu Pirprofen (nicht Diflunisal). |
 
-## Literaturbeweise
+Für die übrigen Vorhersagen (mit Ausnahme der entzündlichen Spondylopathie, die dieselben Publikationen teilt) liegt keine Literatur vor.
 
-Derzeit sind keine verwandten Literaturbelege verfügbar
+## Marktinformationen Deutschland
 
----
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/006248 | Attrogy | – | Familiäre Amyloid-Neuropathie (Status: erloschen) |
 
-## Sicherheitsaspekte
+## Sicherheitshinweise
 
-Bitte beachten Sie die Fachinformation für Sicherheitsinformationen.
+Aus der Wissensgraph-Analyse (nicht aus dem Beipackzettel) sind für Diflunisal folgende Kontraindikationen im Zusammenhang mit Erkrankungen hinterlegt:
+- **Herz-Kreislauf**: Bluthochdruck, Myokardinfarkt, Koronarthrombose, Herzerkrankungen, kardiovaskuläre Erkrankungen
+- **Niere/Leber**: Nierenerkrankung, Lebererkrankung, Pyoureter, Gallenblasenerkrankung
+- **Magen-Darm**: Peptisches Ulkus, aktives peptisches Ulkus
+- **Blut**: Blutgerinnungsstörungen, Hämoglobinopathie
 
----
+**Arzneimittelwechselwirkungen:** 100 Wechselwirkungen wurden erfasst; die ersten 20 sind alle von mittlerer Schwere. Dazu zählen:
+- Kortikosteroide (Hydrocortison, Dexamethason, Betamethason, Triamcinolon, Budesonid)
+- Acetylsalicylsäure sowie Mesalazin und Balsalazid
+- Antidiabetika (Metformin, Chlorpropamid, Glimepirid, Insuline)
+- Kalium- und Abführmittelpräparate (Kaliumcitrat, Kaliumbicarbonat, Natriumpicosulfat, Natriumsulfat, Polyethylenglykol-Elektrolytlösung)
+
+Weitere Sicherheitsinformationen entnehmen Sie bitte der Fachinformation.
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Abwarten**
+**Entscheidung: Hold (Rückstellung); für Spondylitis ankylosans als Forschungsfrage weiterverfolgen**
 
 **Begründung:**
-Die Top-Vorhersage des TxGNN (Acromesomelie, Hunter-Thompson-Typ) ist eine seltene genetische Skeletterkrankung ohne einen plausiblen mechanistischen Zusammenhang zur NSAID-Pharmakologie, und es gibt keine klinischen Studien- oder Literaturbelege zur Unterstützung. Darüber hinaus fehlen derzeit Warnhinweise und Kontraindikationen in der TFDA/BfArM-Fachinformation (eine blockierende Datenlücke), daher kann dieser Kandidat nicht zur Sicherheitsbewertung übergehen.
+- Die Vorhersagen beruhen überwiegend allein auf dem Modell (L5), für die Skelettdysplasien fehlt jeder plausible Mechanismus. Bei Spondylitis ankylosans ist der Mechanismus kohärent, die Evidenz beschränkt sich jedoch auf eine kleine, ältere Vergleichsstudie zur Symptomlinderung (n = 38). Hinzu kommt, dass die einzige Zulassung erloschen ist und NSAR bei dieser Erkrankung bereits breit etabliert sind.
 
-**Um fortzufahren, sind folgende Punkte erforderlich:**
-- TFDA/BfArM-Fachinformation (Warnhinweise, Kontraindikationen) – derzeit eine blockierende Datenlücke
-- DrugBank-basierte Wirkmechanismus-Daten (MOA)
-- Neubeurteilung der Evaluierungspriorität: Die Kandidaten Ankylosierende Spondylitis / Entzündliche Spondylopathie in diesem Evidenzpaket zeigen stärkere mechanistische und klinische Studienbelege und könnten stattdessen einen dedizierten Bewertungsbericht rechtfertigen
-
+**Für ein Weiterkommen ist erforderlich:**
+- Fachinformation des BfArM (Warnhinweise, Gegenanzeigen) beschaffen. Diese Lücke blockiert derzeit die Sicherheitsprüfung.
+- Detaillierte Wirkmechanismus-Daten aus DrugBank ergänzen.
+- Prüfen, ob Diflunisal gegenüber den verfügbaren NSAR bei Spondylitis ankylosans einen Vorteil bietet, und ob neuere Studien existieren.
+- Kardiovaskuläre, renale und gastrointestinale Risiken für die Zielpopulation bewerten.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -2,7 +2,7 @@
 layout: default
 title: Glimepiride
 parent: Nur Modellvorhersage (L5)
-nav_order: 181
+nav_order: 212
 evidence_level: L5
 indication_count: 9
 ---
@@ -29,75 +29,119 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9**
 
 </div>
 
-# Glimepirid: Von Typ-2-Diabetes mellitus zu Focal Stiff Limb Syndrome
+# Glimepirid: Von Diabetes mellitus Typ 2 zum Stiff-Limb-Syndrom (fokal)
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Glimepirid ist ein Sulfonylurea der zweiten Generation, pharmakologisch als Insulinsekretagogum zur Behandlung des Typ-2-Diabetes mellitus eingestuft. Das TxGNN-Modell weist einen hohen Vorhersagescore für **Focal Stiff Limb Syndrome** zu, eine autoimmune, GABAerge neurologische Erkrankung, aber diese Richtung wird derzeit von **0 klinischen Studien** und **0 Publikationen** gestützt, und das Evidenzpaket kennzeichnet die mechanistische Verbindung ausdrücklich als nicht gestützt.
-
----
-
-## Schnellabriss
-
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Typ-2-Diabetes mellitus (basierend auf bekannter pharmakologischer Klassifizierung als Sulfonylurea; kein formaler regulatorischer Indikationstext in diesem Datensatz verfügbar) |
-| Vorhergesagte neue Indikation | Focal Stiff Limb Syndrome |
-| TxGNN-Vorhersagescore | 99.75% |
-| Evidenzstufe | L5 |
-| Marktstatus in Deutschland | ✗ Nicht auf dem Markt |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Halten |
+Glimepirid ist ein Sulfonylharnstoff, der ursprünglich zur Behandlung von Diabetes mellitus Typ 2 eingesetzt wird.
+Das TxGNN-Modell sagt voraus, dass es bei **fokalem Stiff-Limb-Syndrom** wirksam sein könnte.
+Dafür liegen jedoch **keine klinischen Studien** und **keine Publikationen** vor. Die Vorhersage beruht ausschließlich auf einer Modellberechnung.
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Kurzüberblick
 
-Detaillierte Wirkmechanismuskaten für Glimepirid waren im strukturierten Evidenzpaket nicht direkt verfügbar (`original_moa` = Datenlücke). Basierend auf bekannter pharmakologischer Klassifizierung ist Glimepirid jedoch ein Sulfonylurea der zweiten Generation, das an SUR1-Untereinheiten bindet, um ATP-sensitive K⁺-Kanäle auf pankreatischen β-Zellen zu schließen und Insulinsekretion zu fördern.
-
-Focal Stiff Limb Syndrome (eine lokalisierte Variante des Stiff Person Syndrome) ist eine autoimmune neurologische Erkrankung, die durch Anti-GAD65-Antikörper und beeinträchtigte GABAerge Neurotransmission getrieben wird. Obwohl ATP-sensitive K⁺-Kanäle auch in zentralen Neuronen exprimiert werden, gibt es derzeit keinen Hinweis darauf, dass Sulfonylurea-Klasse-Arzneistoffe die GABAerge Signalisierung oder die autoimmune GAD65-vermittelte Pathologie modulieren. Das Evidenzpaket selbst charakterisiert dies als „hohen TxGNN-Score ohne mechanistische Grundlage" – d. h. die vorhergesagte Verbindung scheint eher ein Graph-Embedding-Artefakt als eine biologisch fundierte Hypothese zu sein.
-
-Angesichts der fehlenden mechanistischen Plausibilität, klinischen Studiendaten und Literaturstützung sollte dieser Kandidat als eine Modellausgabe mit geringerem Vertrauen und nicht als ein wissenschaftlich gestütztes Umpositionierungssignal interpretiert werden.
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Diabetes mellitus Typ 2 |
+| Vorhergesagte neue Indikation | Fokales Stiff-Limb-Syndrom |
+| TxGNN-Vorhersagewert | 99,75 % |
+| Evidenzgrad | L5 |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
+| Anzahl der Zulassungen | 1 (erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Klinische Studienevidenz
+## Warum ist diese Vorhersage plausibel (oder nicht)?
+
+Zum Wirkmechanismus von Glimepirid liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Glimepirid zu den Sulfonylharnstoffen gehört: Es schließt die ATP-sensitiven Kaliumkanäle (KATP) der Betazellen der Bauchspeicheldrüse und fördert so die Insulinfreisetzung. Zusätzlich werden moderate extrapankreatische Effekte auf die Insulinempfindlichkeit beschrieben.
+
+Das Stiff-Limb-Syndrom gehört zum Spektrum der Stiff-Person-Erkrankungen. Diese sind häufig autoimmun bedingt (Anti-GAD65-Antikörper) und treten gehäuft gemeinsam mit Diabetes auf. Die hohe Vorhersage spiegelt vermutlich dieses Komorbiditätsnetzwerk wider und nicht einen therapeutischen Effekt.
+
+Ein mechanistischer Zusammenhang ist nicht erkennbar: Die Steifigkeit entsteht über GABAerge und glycinerge Signalwege, auf die Glimepirid nach bisherigem Wissen keinen Einfluss hat. Die Standardtherapie (Benzodiazepine, Baclofen, IVIG) setzt an diesen Mechanismen bzw. am Immunsystem an.
+
+**Weitere vorhergesagte Indikationen (alle Evidenzgrad L5, Entscheidung Hold):**
+
+| Rang | Erkrankung | Score | Einschätzung |
+|---|---|---|---|
+| 2 | Klassisches Stiff-Person-Syndrom | 99,75 % | Wahrscheinlich Artefakt der Diabetes-/GAD65-Assoziation; kein Mechanismus für Glimepirid |
+| 3 | Opsismodysplasie | 99,74 % | Spekulativer, indirekter Bezug über den PI3K-/Insulin-Signalweg (INPPL1/SHIP2); rein hypothetisch |
+| 4 | Thiamin-responsives Dysfunktionssyndrom | 99,73 % | Sulfonylharnstoffe könnten allenfalls den diabetischen Anteil symptomatisch behandeln; Thiamin bleibt Standardtherapie |
+| 5 | Arzneimittelinduzierte lokalisierte Lipodystrophie | 99,62 % | Kein bekanntes Ziel von Sulfonylharnstoffen; rein graphbasiert |
+| 6 | Zentrifugale Lipodystrophie | 99,60 % | Kein etablierter Mechanismus |
+| 7 | Druckinduzierte lokalisierte Lipoatrophie | 99,59 % | Kein direkter pharmakologischer Ansatz |
+| 8 | Idiopathische lokalisierte Lipodystrophie | 99,56 % | Ätiologie unbekannt, rein spekulativ |
+| 9 | Pankreasagenesie | 99,55 % | Mechanistisch unplausibel: Ohne funktionierende Betazellen ist ein Sekretagogum wirkungslos |
+
+---
+
+## Klinische Studien
 
 Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Literaturnachweis
+## Literaturevidenz
 
-Derzeit ist keine zugehörige Literatur verfügbar.
+Für die Hauptvorhersage (fokales Stiff-Limb-Syndrom) liegen derzeit keine zugehörigen Publikationen vor.
+
+Für die Vorhersage mit Rang 9 (Pankreasagenesie) wurde eine Arbeit gefunden, die jedoch nicht zum Thema passt:
+
+| PMID | Jahr | Typ | Journal | Kernaussage |
+|------|-----|------|------|---------|
+| [12720536](https://pubmed.ncbi.nlm.nih.gov/12720536/) | 2003 | Review | European Journal of Endocrinology | Fallstricke der endosonographischen Bildgebung bei vermuteten Insulinomen; weder Pankreasagenesie noch Glimepirid werden behandelt |
 
 ---
 
-## Marktinformationen für Deutschland
+## Marktinformationen Deutschland
 
-Glimepirid ist derzeit nicht in der durch diesen regulatorischen Datensatz abgedeckten Gerichtsbarkeit auf dem Markt (Marktstatus: Nicht auf dem Markt / Not Marketed; 0 Zulassungen in den Aufzeichnungen). Es sind keine Lizenz- oder Produktinformationen verfügbar.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000680 | Tandemact (CHEPLAPHARM Arzneimittel GmbH) | – | Diabetes mellitus Typ 2 |
+
+Diese Zulassung ist erloschen bzw. aufgehoben.
 
 ---
 
-## Sicherheitsaspekte
+## Sicherheitshinweise
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+**Kontraindikationen aus dem Wissensgraphen (PrimeKG, keine Packungsbeilagen-Angaben):**
+Im Wissensgraphen sind unter anderem folgende Erkrankungen als Gegenanzeigen verknüpft:
+- Nieren- und Lebererkrankungen
+- Gallenblasenerkrankungen
+- Herzinsuffizienz
+- Hypophysenunterfunktion (inkl. Wachstumshormonmangel, Kallmann-Syndrom, Sheehan-Syndrom, hypogonadotroper Hypogonadismus)
+- Thymuserkrankungen
+- Osteoporose (inkl. postmenopausale Osteoporose)
+- Infektionskrankheiten
+
+**Arzneimittelwechselwirkungen:** Es wurden 100 Wechselwirkungen erfasst, die meisten mit Schweregrad „moderat". Beispiele:
+- Beta-Agonisten bzw. Sympathomimetika: Salbutamol, Formoterol, Epinephrin, Phenylephrin, Pseudoephedrin
+- Betablocker: Acebutolol
+- Entzündungshemmer: Ibuprofen, Ketorolac, Hydrocortisone
+- Magensäureblocker: Famotidin, Ranitidin
+- Weitere: Acetazolamid, Acitretin, Ethinylestradiol, Hydrochlorothiazid, Nitazoxanid, Albiglutid, Ethanol
+
+Geringfügige Wechselwirkungen bestehen u. a. mit topischem Hydrocortison und topischem Alclometason.
+
+Angaben aus der Packungsbeilage (Warnhinweise, Gegenanzeigen) sind nicht verfügbar; bitte die Fachinformation heranziehen.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Halten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die am höchsten bewertete Vorhersage (Focal Stiff Limb Syndrome) trägt eine L5-Evidenzstufe – einen TxGNN-Score ohne unterstützende klinische Studien, Literatur oder plausible mechanistische Verbindung zu Glimeprids bekannter Sulfonylurea-Pharmakologie. In Kombination mit dem Nicht-Markt-Status des Arzneistoffs in dieser Gerichtsbarkeit und den blockierenden Sicherheitsdatenlücken gibt es derzeit keine Grundlage, diesen Kandidaten voranzutreiben.
+Die Vorhersage beruht allein auf einer Modellberechnung (Evidenzgrad L5). Es gibt weder Studien noch Literatur, und ein pharmakologischer Zusammenhang zwischen dem KATP-Kanal-Mechanismus von Glimepirid und der GABAergen/autoimmunen Pathophysiologie des Stiff-Limb-Syndroms ist nicht erkennbar. Zudem besteht in Deutschland derzeit keine gültige Zulassung.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- Bestätigte Arzneimitteletikette / Warnungen und Kontraindikationen von der zuständigen Behörde (derzeit eine blockierende Datenlücke – erforderlich vor jeder S1-Sicherheitsbewertung)
-- Verifizierten Wirkmechanismuskaten von DrugBank oder primärer Literatur (Datenlücke mit hoher Schwere)
-- Unabhängige mechanistische oder präklinische Hinweise, die die Sulfonylurea-Pharmakologie mit der GABAergen/autoimmunen neurologischen Pathologie verbinden, falls diese Indikation weiter verfolgt werden soll
-- Überwachung von niedriger bewerteten Kandidaten (z. B. Thiamin-responsive Dysfunktionssyndrom, Rang 4), die einen etwas plausibleren – obwohl immer noch unverifizierten – Link zu Insulinsekretion-Wegen zeigen, und eine Literaturrecherche mit niedrigerer Priorität rechtfertigen können
-
+**Für ein Weiterverfolgen wären erforderlich:**
+- Systematische Literaturrecherche zu Sulfonylharnstoffen bei Stiff-Person-Spektrum-Erkrankungen
+- Detaillierte Wirkmechanismus-Daten (MOA) aus DrugBank
+- Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) vom BfArM; derzeit blockiert die fehlende Sicherheitsgrundlage die weitere Sicherheitsprüfung
+- Klärung des Zulassungsstatus in Deutschland
+- Präklinische Belege für einen plausiblen Mechanismus, bevor klinische Studien erwogen werden
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

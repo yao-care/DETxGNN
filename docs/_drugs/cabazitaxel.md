@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Cabazitaxel
-parent: Nur Modellvorhersage (L5)
-nav_order: 78
-evidence_level: L5
+parent: Hohe Evidenz (L1-L2)
+nav_order: 88
+evidence_level: L2
 indication_count: 10
 ---
 
 # Cabazitaxel
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,97 +29,107 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Cabazitaxel: Von Prostatakrebs – Umwidmungsbewertung (Vorhersagen ausstehend)
+# Cabazitaxel: Von Prostatakarzinom zu Brustkrebs der Frau
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Cabazitaxel (Jevtana®) ist ein halbsynthetisches Taxan-Derivat, das international zur Behandlung von metastasiertem kastrationsresistentem Prostatakrebs (mCRPC) nach vorheriger Docetaxel-basierter Therapie zugelassen ist.
-Dieses Evidence-Paket **enthält noch keine TxGNN-Umwidmungsvorhersagen** – die Vorhersage-Pipeline wurde aufgrund ungeklärter Datenlücken (MOA und behördliches Fachinformationsblatt) nicht abgeschlossen.
-Ohne Vorhersageergebnisse kann derzeit keine neue Indication bewertet werden.
-
----
-
-## Schnellübersicht
-
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indication | Metastasierter kastrationsresistenter Prostatakrebs (mCRPC), Zweitlinienbehandlung nach Docetaxel |
-| Vorhergesagte neue Indication | Nicht verfügbar – TxGNN-Vorhersagen noch nicht erstellt |
-| TxGNN-Vorhersage-Score | Nicht verfügbar |
-| Evidence Level | L5 (Modellvorhersagen noch nicht durchgeführt) |
-| Marktstatus | In dieser Jurisdiktion nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | **Zurückhalten** – Datenpipeline vor Bewertung abschließen |
+Cabazitaxel ist ein semisynthetisches Taxan und wurde ursprünglich zur Behandlung des (kastrationsresistenten) Prostatakarzinoms eingesetzt.
+Das TxGNN-Modell sagt voraus, dass es bei **weiblichem Brustkarzinom** wirksam sein könnte.
+Derzeit stützen **0 registrierte klinische Studien** und **20 Publikationen** diese Richtung, darunter eine randomisierte Phase-II-Studie (GENEVIEVE) mit Langzeit-Nachbeobachtung.
 
 ---
 
-## Arzneimittel-Hintergrund
+## Kurzüberblick
 
-Cabazitaxel ist ein Mikrotubuli-stabilisierendes Mittel aus der Taxan-Klasse. Es wurde speziell entwickelt, um die Resistenz gegen Docetaxel zu überwinden, da es eine geringe Affinität für P-Glykoprotein aufweist – die Efflusspumpe, die für die Taxan-Resistenz in vielen Tumorzelllinien verantwortlich ist.
-
-Der primäre Wirkmechanismus beinhaltet die Bindung an Tubulin und die Hemmung der Mikrotubuli-Depolymerisierung, wodurch die Zellen in der G2/M-Phase arretiert werden. Dieser Mechanismus ist breit auf Tumortypen anwendbar, die auf schnelle Zellteilung angewiesen sind, was ihn zu einem interessanten Kandidaten für die Umwidmung über Prostatakrebs hinaus macht.
-
-Cabazitaxel ist von der FDA (2010) und der EMA (2011) unter dem Markennamen Jevtana® für mCRPC zugelassen. Es ist derzeit in dieser Jurisdiktion nicht vermarktet (0 lokale Zulassungen), was bedeutet, dass eine Einfuhr oder lokale Registrierung für jede klinische Anwendung erforderlich wäre.
-
-> **Anmerkung zur MOA-Datenlücke:** Das Evidence-Paket führt MOA als Datenlücke mit hohem Schweregrad auf (DG002). Der obige Hintergrund basiert auf etablierter pharmakologischer Literatur und sollte formal über die DrugBank API bestätigt werden, bevor eine vollständige Umwidmungsanalyse durchgeführt wird.
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Prostatakarzinom (Prostatic Neoplasms) |
+| Vorhergesagte neue Indikation | Weibliches Brustkarzinom |
+| TxGNN-Vorhersagewert | 99,92 % |
+| Evidenzstufe | L2 |
+| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
+| Anzahl der Zulassungen | 2 (beide erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum derzeit keine Umwidmungsbewertung möglich ist
+## Warum ist diese Vorhersage plausibel?
 
-Das Evidence-Paket ist unvollständig:
+Zu den Daten zur Wirkweise (MOA) liegen derzeit keine detaillierten Angaben aus der Arzneimitteldatenbank vor. Nach der Literatur ist Cabazitaxel ein semisynthetisches Taxan, das Mikrotubuli stabilisiert und die Dynamik der mitotischen Spindel hemmt. Es ist zudem ein schlechtes Substrat von P-Glykoprotein, wodurch es möglicherweise auch in Tumoren wirkt, die gegen Paclitaxel oder Docetaxel resistent sind.
 
-| Datenlücke | Schweregrad | Auswirkung |
-|------------|------------|-----------|
-| TFDA-Fachinformationsblatt (Warnhinweise/Gegenanzeigen) | **Blockierend** | Kann S1-Sicherheits-Screening nicht abgeschlossen werden |
-| Wirkmechanismus (MOA) | Hoch | Kann keine mechanistische Ähnlichkeitsanalyse durchführen |
-| TxGNN-Vorhersageergebnis | Kritisch | Keine neue Indication vorhergesagt – `predicted_indications: []` |
+Brustkrebs gilt als taxansensible Erkrankung; Paclitaxel und Docetaxel sind dort etablierte Substanzen. Die Wirksamkeit von Cabazitaxel beim Prostatakarzinom ist belegt, sodass eine mechanistische Übertragbarkeit auf Brustkrebs naheliegt.
 
-Das `predicted_indications`-Array ist leer, was bedeutet, dass entweder:
-1. Der TxGNN-Vorhersageschritt für dieses Arzneimittel noch nicht durchgeführt wurde, **oder**
-2. Die Vorhersage-Pipeline durch die obigen vorgelagerten Datenlücken blockiert wurde.
+Als klinischen Anhaltspunkt gibt es die randomisierte Phase-II-Studie GENEVIEVE (PMID 28768217; Langzeitdaten PMID 38663168), die Cabazitaxel mit wöchentlichem Paclitaxel in der neoadjuvanten Behandlung verglich. Aus den vorliegenden Angaben geht jedoch kein klarer Wirksamkeitsvorteil hervor. Daher bleibt die Evidenz auf Phase-2-Niveau.
 
-Bis TxGNN eine priorisierte Liste von Kandidaten-Indikationen produziert, gibt es kein Umwidmungsziel zu bewerten.
+---
+
+## Klinische Studien
+
+Derzeit sind keine zugehörigen klinischen Studien registriert.
+
+---
+
+## Literaturevidenz
+
+| PMID | Jahr | Typ | Journal | Wichtigste Erkenntnisse |
+|------|-----|------|------|---------|
+| [28768217](https://pubmed.ncbi.nlm.nih.gov/28768217/) | 2017 | RCT (Phase II) | Eur J Cancer | GENEVIEVE: Cabazitaxel vs. wöchentliches Paclitaxel als neoadjuvante Therapie bei HER2-negativem Brustkrebs (triple-negativ oder Luminal B); primärer Endpunkt pathologische Komplettremission |
+| [38663168](https://pubmed.ncbi.nlm.nih.gov/38663168/) | 2024 | RCT (Langzeitdaten) | ESMO Open | Langzeitergebnisse von GENEVIEVE; Auswirkungen auf das Langzeitoutcome zuvor unbekannt |
+| [21076710](https://pubmed.ncbi.nlm.nih.gov/21076710/) | 2010 | Review | Drugs Today | Cabazitaxel als neues Taxan mit günstigem pharmakokinetischem und Sicherheitsprofil, geringerer P-gp-vermittelter Resistenz; Neutropenie und Neuropathie als häufigste Nebenwirkungen |
+| [25416788](https://pubmed.ncbi.nlm.nih.gov/25416788/) | 2015 | Review | Mol Cancer Ther | Resistenzmechanismen gegen Cabazitaxel, u. a. in MCF-7-Brustkrebszellen; geringere Kreuzresistenz als bei Paclitaxel und Docetaxel |
+| [33247980](https://pubmed.ncbi.nlm.nih.gov/33247980/) | 2021 | Review | Br J Clin Pharmacol | Überblick über Pharmakologie der Taxane und TDM-basierte Dosisanpassung |
+| [26651178](https://pubmed.ncbi.nlm.nih.gov/26651178/) | 2016 | Review | Expert Opin Ther Pat | Patentperspektive auf Taxane, einschließlich Cabazitaxel |
+| [21339064](https://pubmed.ncbi.nlm.nih.gov/21339064/) | 2011 | Phase I/II | Eur J Cancer | Cabazitaxel plus Capecitabin bei metastasiertem Brustkrebs nach Anthrazyklin- und Taxanvorbehandlung; Dosisfindung, Sicherheit, Aktivität |
+| [33753567](https://pubmed.ncbi.nlm.nih.gov/33753567/) | 2021 | Präklinisch | J Immunother Cancer | Cabazitaxel wirkt auf Makrophagen und verbessert die CD47-gerichtete Immuntherapie bei triple-negativem Brustkrebs |
+| [30529259](https://pubmed.ncbi.nlm.nih.gov/30529259/) | 2019 | Präklinisch | J Control Release | Cabazitaxel-beladene Nanopartikel in einem patientenabgeleiteten Brustkrebs-Xenograft; bessere Wirksamkeit als freies Arzneimittel |
+| [30521787](https://pubmed.ncbi.nlm.nih.gov/30521787/) | 2019 | Präklinisch | Chem Phys Lipids | Mit Thymochinon ko-beladene Lipospheren als synergistische Kombination bei Brustkrebs |
+
+---
+
+## Marktinformationen Deutschland
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/002018 | Jevtana (erloschen) | – | Prostatakarzinom |
+| EMEA/H/C/005178 | Cabazitaxel Accord (erloschen) | – | Kastrationsresistentes Prostatakarzinom |
 
 ---
 
 ## Zytotoxizität
 
-Cabazitaxel ist ein zytotoxisches Chemotherapeutikum. Das Folgende gilt unabhängig vom Umwidmungsziel.
-
-| Element | Inhalt |
-|---------|--------|
-| Klassifizierung der Zytotoxizität | Konventionelles Zytotoxikum – Taxan-Klasse |
-| Myelosuppressionsrisiko | **Hoch** – Fieberhafte Neutropenie ist das häufigste schwerwiegende Nebenereignis; G-CSF-Prophylaxe ist Standard der Praxis |
-| Emetogenitäts-Klassifizierung | Niedrig bis moderat |
-| Überwachungspunkte | CBC mit Differenzierung (wöchentlich während des ersten Zyklus), Leberfunktion, Nierenfunktion, Elektrolyte |
-| Handhabungsschutz | Muss den Bestimmungen zur Handhabung zytotoxischer Arzneimittel entsprechen – Geschlossene Transfersysteme erforderlich |
+| Punkt | Inhalt |
+|------|------|
+| Zytotoxizitätsklassifikation | Konventionelles Zytostatikum (Taxan, Mikrotubuli-Stabilisator) |
+| Myelosuppressionsrisiko | Hoch (Neutropenie als häufige Nebenwirkung; Knowledge-Graph-Hinweise auf Leukopenie, Thrombozytopenie, Anämie) |
+| Emetogenitätsklassifikation | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Überwachungsparameter | Großes Blutbild mit Differenzialblutbild, Leber- und Nierenfunktion, Bilirubin |
+| Schutzmaßnahmen beim Umgang | Vorschriften für den Umgang mit zytotoxischen Arzneimitteln sind einzuhalten |
 
 ---
 
-## Sicherheitserwägungen
+## Sicherheitsaspekte
 
-Das Evidence-Paket enthält keine umsetzbaren Sicherheitsdaten für dieses Arzneimittel in dieser Jurisdiktion. Vor der Durchführung klinischer oder behördlicher Arbeiten:
+- **Kontraindikationen/Risikokonstellationen aus dem Wissensgraphen (kein Fachinformationstext):** Nierenerkrankung, Lebererkrankung, Gallenblasenerkrankung, Thrombozytopenie, Neutropenie, Agranulozytose, Anämie, Leukopenie, Hyperbilirubinämie, Gilbert-Syndrom.
+- **Arzneimittelwechselwirkungen:** Insgesamt wurden 100 Wechselwirkungen erfasst. Als **schwerwiegend (Major)** eingestuft sind Deferipron und Samarium-(153Sm)-Lexidronam. Beispiele für **moderate** Wechselwirkungen: Aprepitant, Clarithromycin, Clotrimazol, Metronidazol, Miconazol, Rosuvastatin, Simvastatin, Cobicistat, Deferasirox, Ticagrelor, Chloroquin und Disulfiram.
 
-> Bitte beachten Sie die EMA SmPC (Jevtana®) und das aktuelle TFDA-Fachinformationsblatt für vollständige Warnhinweise, Gegenanzeigen und Informationen zu Arzneimittelwechselwirkungen. Die kritischsten bekannten Risiken sind fieberhafte Neutropenie, schwere Überempfindlichkeitsreaktionen und Gastrointestinaltoxizität.
+Die Warnhinweise und Kontraindikationen der Fachinformation liegen nicht vor. Bitte die Fachinformation ergänzend heranziehen.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Zurückhalten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Das Evidence-Paket für Cabazitaxel fehlen sowohl die TxGNN-Umwidmungsvorhersagen als auch die blockierenden Sicherheitsdaten, die für das S1-Screening erforderlich sind. Es gibt keine neue Indication zu bewerten und keine Sicherheitsgrundlage für die Bewertung.
+Für Brustkrebs gibt es eine randomisierte Phase-II-Studie (GENEVIEVE) mit Langzeitdaten, aber keine registrierten Studien und keinen klar erkennbaren Wirksamkeitsvorteil gegenüber Paclitaxel. Zudem sind in Deutschland derzeit keine gültigen Zulassungen vorhanden, und die Sicherheitsdaten aus der Fachinformation fehlen.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
+**Für das weitere Vorgehen werden benötigt:**
+- Fachinformation (Warnhinweise, Kontraindikationen) zur Sicherheitsprüfung
+- Detaillierte Daten zur Wirkweise (MOA)
+- Auswertung der Wirksamkeitsergebnisse von GENEVIEVE (pCR, ereignisfreies und Gesamtüberleben) im Vergleich zu Paclitaxel
+- Klärung des Zulassungs- und Verfügbarkeitsstatus in Deutschland
 
-1. **DG001 auflösen (Blockierend):** Das TFDA-Fachinformationsblatt als PDF herunterladen und analysieren, um Warnhinweise und Gegenanzeigen zu extrahieren – erforderlich zum Freischalten des S1-Sicherheits-Tors.
-2. **DG002 auflösen (Hoch):** DrugBank API für formale MOA-Daten abfragen, um eine mechanistische Ähnlichkeitsanalyse zu ermöglichen.
-3. **TxGNN-Vorhersage-Pipeline erneut ausführen** für DB06772 – das `predicted_indications`-Array muss vor jeder Umwidmungsbewertung gefüllt werden.
-4. **EMA SmPC für Jevtana® überprüfen** als ergänzende Sicherheitsreferenz, da das Arzneimittel in Europa zugelassen ist, aber nicht in dieser Jurisdiktion.
-5. Sobald Vorhersagen verfügbar sind, die Bewertung des Evidence Level und die Entscheidungsempfehlung nach standardmäßigen L1–L5-Kriterien erneut durchführen.
-
+**Hinweis zu weiteren Vorhersagen:** Die übrigen Vorhersagen (Sichelzellerkrankungen, HIV, Hyperthyreose, Neuroblastom, rheumatoide Arthritis) haben Evidenzstufe L5 und keine Literatur- oder Studienbelege. Für die meisten ist kein plausibler Mechanismus erkennbar; sie sollten zurückgestellt werden (Hold).
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

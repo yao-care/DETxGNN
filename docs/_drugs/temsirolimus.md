@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Temsirolimus
-parent: Hohe Evidenz (L1-L2)
-nav_order: 386
-evidence_level: L2
+parent: Nur Modellvorhersage (L5)
+nav_order: 452
+evidence_level: L5
 indication_count: 3
 ---
 
 # Temsirolimus
 {: .fs-9 }
 
-Evidenzniveau: **L2** | Vorhergesagte Indikationen: **3** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,93 +29,116 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Temsirolimus: Von unspezifischer Onkologie-Indikation zum Liposarkom
+# Temsirolimus: Vom Nierenzellkarzinom und Mantelzell-Lymphom zum Liposarkom
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Temsirolimus (DrugBank-ID: DB06287) ist ein mTOR-Inhibitor (Rapalog); die ursprüngliche Zulassungsindikation ist jedoch im aktuellen Evidenzmaterial nicht dokumentiert und das Arzneimittel wird derzeit **nicht auf dem deutschen Markt vermarktet**. Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam bei **Liposarkom** sein könnte, unterstützt durch **5 klinische Studien** (2 mit direkter Verwendung von Temsirolimus) und **1 derzeit verfügbare Publikation**.
+Temsirolimus ist ein mTOR-Inhibitor, der ursprünglich zur Behandlung des Nierenzellkarzinoms und des Mantelzell-Lymphoms zugelassen wurde.
+Das TxGNN-Modell sagt voraus, dass er bei **Liposarkom** wirksam sein könnte.
+Dafür liegen derzeit **2 klinische Studien** (beide nicht liposarkomspezifisch) und **1 Publikation** (Übersichtsarbeit) vor.
 
 ---
 
-## Schnellübersicht
+## Kurzüberblick
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Nicht im aktuellen Datensatz dokumentiert (keine deutsche Lizenz/Indikationstextdokumentation verfügbar) |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Nierenzellkarzinom; Mantelzell-Lymphom |
 | Vorhergesagte neue Indikation | Liposarkom |
-| TxGNN-Vorhersagepunktzahl | 99.54% |
-| Evidenzstufe | L2 |
-| Marktlage Deutschland | ✗ Nicht auf dem Markt erhältlich |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Mit Vorsichtsmaßnahmen fortfahren |
+| TxGNN-Vorhersagewert | 99,54 % |
+| Evidenzstufe | L2 (laut Datenbasis; siehe Hinweis unten) |
+| Marktstatus in Deutschland | Nur erloschene Zulassung |
+| Anzahl der Zulassungen | 1 |
+| Empfohlene Entscheidung | Hold |
+
+*Hinweis zur Evidenzstufe:* In den für diesen Bericht zusammengestellten Daten ist L2 vergeben. Die beiden Studien sind jedoch nicht liposarkomspezifisch (Phase I/II bzw. Phase II, Kombinationstherapien, kleine Fallzahlen). Es gibt keine abgeschlossene, auf Liposarkom bezogene Phase-2/3-RCT. Streng nach den Regeln wäre die Evidenz für diese Indikation eher als schwach einzustufen (nahe L4/L5). Deshalb lautet die Empfehlung Hold.
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Daten zum Wirkmechanismus nicht verfügbar (gekennzeichnet als kritische Datenlücke, ausstehend DrugBank/TFDA-Verifikation). Basierend auf den Informationen in diesem Evidenzmaterial ist Temsirolimus ein **mTOR-Inhibitor (Rapalog)**. Liposarkom – insbesondere die dedifferenzierten und myxoiden Subtypen – zeigt häufig eine Aktivierung des PI3K/AKT/mTOR-Signalwegs, und die nachgelagerte MDM2/CDK4-Amplifikation wird häufig durch mTOR reguliert, was eine plausible mechanistische Grundlage für die Neu-Indikation bietet.
+Detaillierte Wirkmechanismusdaten (MOA) liegen derzeit nicht vor. Temsirolimus gehört jedoch zur Klasse der mTOR-Inhibitoren: Es bindet an FKBP12 und hemmt dadurch mTORC1. Dies ist eine Einordnung aus allgemeinem Wissen über die Wirkstoffklasse, nicht aus den kompilierten Daten.
 
-Da die ursprüngliche Zulassungsindikation von Temsirolimus in diesem Datensatz nicht dokumentiert ist, kann keine direkte Krankheits-zu-Krankheit-Beziehung hergestellt werden. Jedoch haben Wirkstoffe der gleichen Klasse (Sirolimus, Ridaforolimus, Everolimus) bereits mehrere abgeschlossene Phase-2-Studien in Sarkompatientengruppen angesammelt, was eine **Klasseneffekt-Begründung** für mTOR-Hemmung in diesem Tumortyp unterstützt. Zwei der aufgelisteten Studien verwenden Temsirolimus selbst direkt in Sarkompatientengruppen, was die Plausibilität über den reinen Klasseneffekt hinaus stärkt.
+Der PI3K/AKT/mTOR-Signalweg ist in Weichteilsarkomen häufig aktiviert, einschließlich des Liposarkoms. Besonders gut differenzierte und entdifferenzierte Subtypen mit MDM2/CDK4-Amplifikation zeigen eine Abhängigkeit von diesem Signalweg. Eine mTOR-Hemmung ist daher biologisch nachvollziehbar, und der hohe TxGNN-Wert passt dazu.
+
+Der Wert ist allerdings eine rechnerische Vorhersage und kein klinischer Beleg. Die ursprünglichen Indikationen (Nierenzellkarzinom, Mantelzell-Lymphom) betreffen andere Tumorentitäten. Die Übertragbarkeit beruht allein auf dem gemeinsamen Signalweg.
+
+Weitere vorhergesagte Indikationen sind das ovarielle myxoide Liposarkom (99,47 %) und das Vulvasarkom (99,09 %). Für beide gibt es keine Studien oder Publikationen. Beim myxoiden Liposarkom ist zudem die mTOR-Abhängigkeit weniger gut belegt, da es typischerweise durch die FUS-DDIT3-Fusion getrieben wird.
 
 ---
 
 ## Klinische Studienevidenz
 
-| Studienkennummer | Phase | Status | Rekrutierung | Wichtigste Ergebnisse |
+| Studiennummer | Phase | Status | Teilnehmerzahl | Zentrale Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT02821507](https://clinicaltrials.gov/study/NCT02821507) | Phase 2 | Abgeschlossen | 70 | Kombination von Sirolimus (mTOR-Inhibitor, klassengebunden) und Cyclophosphamid bei metastasiertem/nicht resezierbarem myxoidem Liposarkom und Chondrosarkom |
-| [NCT00093080](https://clinicaltrials.gov/study/NCT00093080) | Phase 2 | Abgeschlossen | 216 | Ridaforolimus (mTOR-Inhibitor, klassengebunden), ein strukturell von Temsirolimus unterschiedlicher mTOR-Inhibitor, getestet in fortgeschrittenem Sarkom |
-| [NCT01614795](https://clinicaltrials.gov/study/NCT01614795) | Phase 2 | Abgeschlossen | 46 | Temsirolimus kombiniert mit Cixutumumab bei pädiatrischen Patienten mit rezidivierendem/therapierefraktärem Sarkom – **direkte Temsirolimus-Evidenz** |
-| [NCT03114527](https://clinicaltrials.gov/study/NCT03114527) | Phase 2 | Aktiv, keine Rekrutierung | 48 | Ribociclib plus Everolimus (mTOR-Inhibitor, klassengebunden) in fortgeschrittenem dedifferenziertem Liposarkom und Leiomyosarkom |
-| [NCT00949325](https://clinicaltrials.gov/study/NCT00949325) | Phase 1/2 | Abgeschlossen | 24 | Torisel (Temsirolimus) plus liposomales Doxorubicin in fortgeschrittenem Weichteile- und Knochensarkom – **direkte Temsirolimus-Evidenz** |
+| [NCT00949325](https://clinicaltrials.gov/study/NCT00949325) | Phase 1/2 | Abgeschlossen | 24 | Temsirolimus plus liposomales Doxorubicin bei fortgeschrittenen Weichteil- und Knochensarkomen. Ziel war ein sicheres Dosierschema, sekundär die Wirksamkeit. Nicht liposarkomspezifisch, kleine Fallzahl. |
+| [NCT01614795](https://clinicaltrials.gov/study/NCT01614795) | Phase 2 | Abgeschlossen | 46 | Cixutumumab (IGF-1R-Antikörper) plus Temsirolimus bei pädiatrischen Patienten mit rezidivierten/refraktären Sarkomen bzw. soliden Tumoren. Übertragbarkeit auf erwachsene Liposarkom-Patienten indirekt, Beitrag von Temsirolimus nicht isolierbar. |
 
 ---
 
-## Literaturevidence
+## Literaturevidenz
 
-| PMID | Jahr | Typ | Journal | Wichtigste Ergebnisse |
+| PMID | Jahr | Typ | Zeitschrift | Zentrale Ergebnisse |
 |------|-----|------|------|---------|
-| [20497911](https://pubmed.ncbi.nlm.nih.gov/20497911/) | 2010 | Übersichtsarbeit | Bulletin du cancer | Überblick über Strategien der gezielten Behandlung seltener Bindegewebs- und Sarkomtumoren mit Klassifizierung von Molekulargruppen relevant für die Auswahl gezielter Therapie |
+| [20497911](https://pubmed.ncbi.nlm.nih.gov/20497911/) | 2010 | Übersichtsarbeit | Bulletin du cancer | Zielgerichtete Therapien bei seltenen Bindegewebstumoren und Sarkomen, gegliedert nach sechs molekularen Subgruppen. Keine spezifischen Daten zu Temsirolimus bei Liposarkom im vorliegenden Auszug. |
 
 ---
 
-## Informationen zum Markt Deutschland
+## Marktinformationen Deutschland
 
-Temsirolimus wird derzeit auf dem deutschen Markt nicht vermarktet; keine Zulassungs- oder Lizenzierungsdatensätze sind in diesem Datensatz verfügbar.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000799 | Torisel (Pfizer Europe MA EEIG) | – | Nierenzellkarzinom; Mantelzell-Lymphom |
+
+Diese Zulassung ist erloschen (Status: cancelled). Es gibt derzeit keine gültige Zulassung.
 
 ---
 
 ## Zytotoxizität
 
-| Element | Inhalt |
-|---------|--------|
-| Zytotoxizitätsklassifizierung | Gezielte Therapie (mTOR-Inhibitor / Rapalog) |
-| Myelosuppressions-Risiko | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Packungsbeilage |
-| Emetogenitätsklassifizierung | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Packungsbeilage |
-| Überwachungsmaßnahmen | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Packungsbeilage |
-| Handhabungsschutz | Bitte beachten Sie die Warnhinweise und Vorsichtsmaßnahmen in der Packungsbeilage |
+| Punkt | Inhalt |
+|------|------|
+| Zytotoxizitätsklassifikation | Zielgerichtete Therapie (mTOR-Inhibitor), kein klassisches Zytostatikum |
+| Myelosuppressionsrisiko | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Emetogenität | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Überwachungsparameter | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Schutzmaßnahmen beim Umgang | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+Die Fachinformation (Warnhinweise, Gegenanzeigen) konnte nicht ausgewertet werden. Bitte die Fachinformation zur Sicherheit konsultieren.
+
+**Hinweise aus dem Wissensgraphen (keine Etikettenangaben):** Im TxGNN-Wissensgraphen (PrimeKG) sind Kontraindikationsverbindungen zu folgenden Krankheitsgruppen hinterlegt:
+- Nieren- und Lebererkrankungen sowie Gallenblasenerkrankungen
+- Hyperglykämie, Diabetes mellitus, diabetische Ketoazidose
+- Hyperlipidämie (einschließlich familiärer Form)
+- Schlaganfall, zerebrovaskuläre Erkrankungen, Hirninfarkt
+- Hyperbilirubinämie (einschließlich Gilbert-Syndrom)
+- Interstitielle Lungenerkrankung
+- Hirntumoren (z. B. Astrozytome, Glioblastom, Oligodendrogliom)
+
+**Arzneimittelwechselwirkungen:** Die Abfrage ergab 100 Wechselwirkungen. Beispiele:
+- **Schwerwiegend (Major):** Amphotericin B (auch Lipidkomplex), Dexamethason, Clarithromycin
+- **Moderat:** u. a. Antidiabetika (Acarbose, Metformin, Pioglitazon, Alogliptin, Canagliflozin, Dapagliflozin, Chlorpropamid, Albiglutid), Kortikosteroide (Hydrocortison, Triamcinolon, Betamethason, Budesonid), Aprepitant, Cimetidin, Mesalazin, Balsalazid
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Mit Vorsichtsmaßnahmen fortfahren**
+**Entscheidung: Hold**
 
 **Begründung:**
-Zwei abgeschlossene Studien verwenden Temsirolimus direkt in Sarkompatientengruppen (eine Phase-2-Studie bei pädiatrischen Patienten, n=46; eine Phase-1/2-Studie, n=24), erreichen Evidenzstufe L2, während weitere Phase-2-Studien einen breiteren mTOR-Inhibitor-Klasseneffekt unterstützen. Jedoch sind die ursprüngliche Indikation, der Wirkmechanismus und die Sicherheits-/Kennzeichnungsdaten noch nicht in diesem Datensatz dokumentiert, sodass die Empfehlung nicht zu einem bedingungslosen „Go" voranschreiten kann.
+Der mTOR-Signalweg ist in Liposarkomen biologisch plausibel, und der TxGNN-Wert ist hoch. Die klinische Evidenz ist jedoch indirekt (nicht liposarkomspezifische Kombinationsstudien mit kleinen Fallzahlen), die Sicherheitsdaten der Fachinformation fehlen (blockierende Datenlücke), und in Deutschland besteht keine gültige Zulassung.
 
-**Zum Fortfahren ist Folgendes erforderlich:**
-- TFDA/BfArM-Kennzeichnungswarnhinweise und Kontraindikationen (derzeit eine blockierende Datenlücke)
-- Bestätigte Dokumentation des Wirkmechanismus von DrugBank (derzeit eine kritische Datenlücke)
-- Verifizierung der ursprünglichen Zulassungsindikation des Arzneimittels (nicht dokumentiert; Arzneimittel wird derzeit nicht auf dem deutschen Markt vermarktet)
-- Groß angelegte, Temsirolimus-spezifische (nicht Klasseneffekt) Phase-2/3-Studien in Liposarkom zur Stärkung direkter Evidenz
-
+**Für ein Weiterkommen sind folgende Schritte nötig:**
+- Fachinformation (Warnhinweise, Gegenanzeigen) vom BfArM beschaffen und auswerten, um das Sicherheits-Screening abzuschließen
+- Wirkmechanismusdaten (MOA) aus DrugBank ergänzen
+- Liposarkomspezifische Daten identifizieren (Subgruppenanalysen der Sarkomstudien, ggf. Phase-2-Studien nach Subtyp)
+- Prüfen der Kontraindikationen aus dem Wissensgraphen und der schwerwiegenden Wechselwirkungen (insbesondere CYP3A4-relevante Substanzen wie Clarithromycin) für die Zielpopulation
+- Klären, wie mit der erloschenen Zulassung und der Verfügbarkeit des Präparats in Deutschland umzugehen ist
+- Die Vorhersagen zum ovariellen myxoiden Liposarkom und zum Vulvasarkom nur als Hypothesen betrachten, solange keine Studien oder Publikationen vorliegen
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

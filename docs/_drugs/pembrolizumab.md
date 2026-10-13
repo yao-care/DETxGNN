@@ -2,7 +2,7 @@
 layout: default
 title: Pembrolizumab
 parent: Nur Modellvorhersage (L5)
-nav_order: 300
+nav_order: 350
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,88 +29,98 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Pembrolizumab: Von Onkologie-Indikationen zur Gingivalen Fibromatose
+# Pembrolizumab: Vom Melanom zur gingivalen Fibromatose
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Pembrolizumab ist ein Anti-PD-1-Immune-Checkpoint-Inhibitor, dessen etablierte Onkologie-Anwendungen (durchgehend in der Literatur des Nachweispakets dokumentiert, z. B. fortgeschrittenes nicht-kleinzelliges Lungenkarzinom, Melanom) gut dokumentiert sind, obwohl dieses Nachweispaket keinen formalen Zulassungstext oder genehmigte Indikation für die aktuelle Jurisdiktion enthält.
-> Die Spitzenvorhersage des TxGNN-Modells ist **Gingivale Fibromatose**, wird aber durch **0 klinische Studien** und **0 Publikationen** unterstützt, und die eigene Begründung des Modells identifiziert sie als wahrscheinliche Knowledge-Graph-Rauschverbindung statt einer mechanistisch fundierten Hypothese.
+Pembrolizumab ist ein gegen PD-1 gerichteter Antikörper (Immun-Checkpoint-Inhibitor). Er wird bei Melanom, Hodgkin-Lymphom, Nierenzellkarzinom, nicht-kleinzelligem Lungenkarzinom, Urothelkarzinom, Kopf-Hals-Plattenepithelkarzinom, urologischen Tumoren und Endometriumkarzinom eingesetzt.
+Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **gingivaler Fibromatose** voraus.
+Dafür gibt es **keine klinischen Studien und keine Publikationen**; die Vorhersage beruht allein auf dem Modell.
 
 ---
 
-## Schnelläbersicht
+## Schnellübersicht
 
 | Punkt | Inhalt |
-|------|--------|
-| Ursprüngliche Indikation | In diesem Nachweispaket nicht dokumentiert (keine lokalen Zulassungsunterlagen; `original_moa` als Datenlücke markiert). Literatur innerhalb des Pakets bezieht sich durchgehend auf etablierte Anwendung bei fortgeschrittenem NSCLC und Melanom über PD-1-Blockade. |
+|------|------|
+| Ursprüngliche Indikation | Melanom; Hodgkin-Lymphom; Nierenzellkarzinom; nicht-kleinzelliges Lungenkarzinom; Urothelkarzinom; Plattenepithelkarzinom im Kopf-Hals-Bereich; urologische Neoplasien; Endometriumkarzinom |
 | Vorhergesagte neue Indikation | Gingivale Fibromatose |
-| TxGNN-Vorhersage-Score | 99.40% |
+| TxGNN-Vorhersagewert | 99,40 % |
 | Evidenzstufe | L5 |
-| Marktstatus Deutschland | ✗ Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Ausgesetzt |
+| Marktstatus in Deutschland | Nur Zulassungen im Status „gelöscht/erloschen“ (Cancelled only) |
+| Anzahl der Zulassungen | 1 (gelöscht) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage begründet?
+## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Mechanismus-der-Wirkung-Daten werden als Datenlücke in diesem Nachweispaket markiert. Literatureinträge anderorts im Paket beschreiben Pembrolizumab jedoch durchgehend als humanisierten IgG4-Antikörper, der den PD-1-Rezeptor blockiert, PD-1/PD-L1-Ligierung verhindert und erschöpfte T-Zell-vermittelte Anti-Tumor-Immunität wiederherstellt – die Grundlage für seine etablierte Wirksamkeit bei Krebsarten wie NSCLC, Melanom und MSI-H/dMMR-Tumoren.
+Für diesen Bericht liegen derzeit keine detaillierten Daten zum Wirkmechanismus vor. Bekannt ist, dass Pembrolizumab den Rezeptor PD-1 (programmed cell death 1, CD279) auf T-Zellen blockiert. Dadurch wird die Hemmung der Immunantwort aufgehoben, und das Immunsystem kann Tumorzellen besser angreifen. Seine Wirksamkeit ist bei den oben genannten Krebserkrankungen belegt.
 
-Gingivale Fibromatose ist dagegen eine gutartige Erkrankung, die durch Fibroblastenproliferation und übermäßige Kollagen-/extrazelluläre-Matrix-Ablagerung im gingivalen Bindegewebe getrieben wird – ein fibrotischer, nicht-immuner, nicht-neoplastischer Prozess. Sie hat keine etablierte Verbindung zu Tumor-Immune-Evasion, PD-L1-Überexpression oder T-Zell-Erschöpfung – die biologischen Achsen, auf die Pembrolizumab wirkt.
-
-Die Begründung des Nachweispakets zur Umwidmung dieses Kandidaten schlussfolgert explizit, dass es „keine bekannte Schnittstelle" zwischen den beiden Mechanismen gibt, und dass trotz des hohen rohen TxGNN-Scores die völlige Abwesenheit von Nachweisen in einer klinischen Studie oder Literatur darauf hindeutet, dass dies ein indirektes oder verrauschtes Artefakt innerhalb des Knowledge-Graph statt eines echten biologischen Signals ist. Diese Bewertung wird dadurch unterstützt, dass keine Publikationen oder Studien – selbst lose verwandte – für diese Kombination abrufbar waren.
+Zwischen diesem Mechanismus und der gingivalen Fibromatose ist jedoch kein Zusammenhang erkennbar. Es handelt sich um eine gutartige, fibrotische Gewebewucherung des Zahnfleisches, für die keine Abhängigkeit vom PD-1-Signalweg bekannt ist. Die hohe Modellbewertung ist daher als rein rechnerische Vorhersage ohne belastbare biologische Begründung zu verstehen.
 
 ---
 
 ## Evidenz aus klinischen Studien
 
-Derzeit sind keine verwandten klinischen Studien registriert.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Literatur-Evidenz
+## Evidenz aus der Literatur
 
-Derzeit ist keine verwandte Literatur verfügbar.
+Derzeit liegt keine zugehörige Literatur vor.
 
 ---
 
-## Marktstatus Deutschland
+## Marktinformationen Deutschland
 
-Für dieses Arzneimittel wurden im aktuellen Datensatz keine Vermarktungszulassungen gefunden (Marktstatus: Nicht vermarktet, Gesamtzulassungen: 0).
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/003820 | Keytruda (Merck Sharp & Dohme B.V.) | – | Melanoma;Hodgkin Disease;Carcinoma, Renal Cell;Carcinoma, Non-Small-Cell Lung;Carcinoma, Transitional Cell;Squamous Cell Carcinoma of He... |
+
+Diese Zulassung hat den Status „gelöscht“; derzeit ist keine gültige Zulassung verzeichnet.
 
 ---
 
 ## Zytotoxizität
 
 | Punkt | Inhalt |
-|------|--------|
-| Zytotoxizitäts-Klassifizierung | Immuntherapie (Anti-PD-1-Immune-Checkpoint-Inhibitor, IgG4-Antikörper) – kein konventionelles zytostatisches Chemotherapie-Mittel |
-| Myelosuppressionsrisiko | Niedrig – als Checkpoint-Inhibitor statt klassisches zytostatisches Mittel ist direkte Knochenmarksuppression keine charakteristische Toxizität; das dominante Risikoprofil besteht in immunbezogenen unerwünschten Ereignissen (irAEs) statt Myelosuppression |
-| Emetogenitäts-Klassifizierung | Minimal – Immune-Checkpoint-Inhibitoren werden als Wirkstoffklasse generell als minimal emetogen klassifiziert |
-| Überwachungsposten | Bitte beachten Sie die Warnungen und Vorsichtsmaßnahmen der Fachinformation (keine arzneimittelspezifischen Überwachungsdaten in diesem Nachweispaket bereitgestellt) |
-| Handhabungsschutz | Bitte beachten Sie die Warnungen und Vorsichtsmaßnahmen der Fachinformation (keine arzneimittelspezifischen Handhabungsdaten in diesem Nachweispaket bereitgestellt) |
+|------|------|
+| Zytotoxizitätsklassifikation | Immuntherapie (PD-1-Checkpoint-Inhibitor), kein konventionelles Zytostatikum |
+| Myelosuppressionsrisiko | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Emetogenitätsklasse | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Überwachungsparameter | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Schutzmaßnahmen beim Umgang | Bitte die Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
 
 ---
 
-## Sicherheitsüberlegungen
+## Sicherheitsaspekte
 
-Bitte beachten Sie die Fachinformation für Sicherheitsinformationen.
+- **Arzneimittelwechselwirkungen** (13 Einträge in den für diesen Bericht zusammengestellten Daten):
+  - **Schwerwiegend (Major):** Lenalidomid, Pomalidomid, Thalidomid
+  - **Moderat:** Kortikosteroide, nämlich Hydrocortison, Triamcinolon, Dexamethason, Betamethason, Budesonid, Prednisolon, Prednison, Methylprednisolon und Deflazacort
+  - Zusätzlich ist die pharmakologische Zielstruktur PD-1 (PDCD1) verzeichnet.
+- **Hinweis zur Vorhersage:** Immunvermittelte Nebenwirkungen von Checkpoint-Inhibitoren (z. B. Myopathie, Endokrinopathien) sind bekannt. Bei einer gutartigen Erkrankung wie der gingivalen Fibromatose fällt die Nutzen-Risiko-Abwägung ungünstig aus.
+
+Für weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) bitte die Fachinformation heranziehen.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Ausgesetzt**
+**Entscheidung: Hold**
 
 **Begründung:**
-Der Spitzenkandidat trägt einen hohen rohen TxGNN-Score, aber null unterstützende klinische Studien oder Literatur, und die eigene mechanistische Begründung des Modells identifiziert ihn als wahrscheinliches Knowledge-Graph-Artefakt ohne biologische Plausibilität, das PD-1-Blockade mit einer gutartigen fibrotischen gingivalen Erkrankung verbindet.
+Für die gingivale Fibromatose gibt es weder klinische Studien noch Publikationen, und ein biologischer Zusammenhang mit der PD-1-Blockade ist nicht erkennbar. Die Vorhersage stützt sich ausschließlich auf das Modell (Evidenzstufe L5). Bei einer gutartigen Erkrankung ist zudem das Risiko immunvermittelter Nebenwirkungen schwer zu rechtfertigen.
 
-**Um voranzukommen, wird folgendes benötigt:**
-- Bestätigte Dokumentation des Wirkmechanismus (derzeit eine blockierende/High-Severity-Datenlücke)
-- TFDA/BfArM-Kennzeichnungswarnungen und Kontraindikationen (derzeit eine blockierende Datenlücke)
-- Unabhängige Literatur-/Pathologie-Überprüfung, um festzustellen, ob eine PD-L1- oder Immune-vermittelte Komponente bei refraktärer gingivaler Fibromatose existiert, bevor eine weitere Bewertung durchgeführt wird
-- Hinweis: Andere Kandidaten in diesem Nachweispaket – *Lungenhilus-Karzinom* (L4, S1, Research Question) und *Lungenkeimzelltumor* (L3, S1, Research Question) – tragen stärkere mechanistische und Literaturunterstützung und könnten vor diesem Spitzenkandidaten zur Bewertung in Betracht gezogen werden
+**Für ein Weiterkommen sind erforderlich:**
+- Fachinformation (Warnhinweise und Gegenanzeigen) aus der BfArM-Quelle, da die Sicherheitsprüfung sonst nicht fortgesetzt werden kann
+- Detaillierte Mechanismusdaten (MOA), z. B. aus DrugBank
+- Präklinische oder mechanistische Hinweise auf eine Rolle des PD-1-Signalwegs bei der gingivalen Fibromatose
+- Klärung des Zulassungsstatus in Deutschland, da nur eine gelöschte Zulassung vorliegt
 
+**Hinweis zu den übrigen Vorhersagen:** Auch die weiteren Kandidaten (Rang 2–10) bleiben auf „Hold“. Bei „Lungenhilus-Karzinom“ (L4) und „pulmonärem Sulcus-Tumor“ handelt es sich wahrscheinlich um Teilmengen der bereits zugelassenen NSCLC-Anwendung und nicht um echtes Repurposing. Die Treffer zu „gutartige Lungenneoplasie“ und „Lungen-Keimzelltumor“ betreffen überwiegend maligne Lungenkarzinome bzw. Pan-Tumor-Studien und sind nicht übertragbar.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

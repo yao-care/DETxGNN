@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Gimeracil
-parent: Nur Modellvorhersage (L5)
-nav_order: 178
-evidence_level: L5
+parent: Hohe Evidenz (L1-L2)
+nav_order: 209
+evidence_level: L1
 indication_count: 10
 ---
 
 # Gimeracil
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,108 +29,107 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Gimeracil: Von Komponente des S-1-Kombinationspräparats zur Dickdarmneoplasie (Colonic Neoplasm)
+# Gimeracil: Vom Magenkarzinom zur Kolonneoplasie
 
-## Ein-Satz-Zusammenfassung
+## Zusammenfassung
 
-Gimeracil ist selbst kein eigenständiges Zytostatikum, sondern die DPD-(Dihydropyrimidin-Dehydrogenase)-inhibitorische Komponente des S-1-Kombinationspräparats (Tegafur + Gimeracil + Oteracil). Es wirkt durch Blockierung des 5-FU-Metabolismus und verstärkt dadurch die therapeutische Wirksamkeit. Das TxGNN-Modell prognostiziert, dass es (als Komponente des S-1-Kombinationspräparats) möglicherweise bei **Dickdarmneoplasien (Colonic Neoplasm)** wirksam sein könnte. Derzeit werden diese Prognose durch **8 klinische Studien** und **16 Publikationen** gestützt, darunter 2 abgeschlossene Phase-III-randomisierte kontrollierte Studien. Besonders hervorzuheben ist: Die verfügbare Evidenz betrifft das „S-1-Kombinationspräparat als Ganzes" bei Kolorektalkarzinomen und nicht die Einzelkomponente Gimeracil.
-
----
-
-## Schnellübersicht
-
-| Merkmal | Inhalt |
-|--------|--------|
-| Ursprüngliche Indikationen | Keine eigenständigen zugelassenen Indikationen (Gimeracil als Komponente des S-1-Kombinationspräparats, kein direktes Zytostatikum) |
-| Prognostizierte neue Indikation | Dickdarmneoplasie (Colonic Neoplasm) |
-| TxGNN-Prognosescore | 99.88% |
-| Evidenzlevel | L1 (≥2 abgeschlossene Phase-III-RCT) |
-| Marktstadt Deutschland/Taiwan | Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Proceed with Guardrails (bedingte Weiterverfolgung) |
+Gimeracil ist ein Bestandteil der S-1-Kombination (Tegafur/Gimeracil/Oteracil) und wurde ursprünglich zur Behandlung von Magenkarzinomen eingesetzt. Das TxGNN-Modell sagt voraus, dass es bei **Kolonneoplasie (Kolonkarzinom)** wirksam sein könnte. Derzeit stützen **6 klinische Studien** und **12 Publikationen** diese Richtung, wobei die Publikationen überwiegend Fallberichte sind.
 
 ---
 
-## Warum ist diese Vorhersage rational?
+## Kurzüberblick
 
-DrugBank stellt derzeit keine offizielle Wirkmechanismus-(MOA)-Information für Gimeracil bereit. Basierend auf verfügbarer Literatur und Studiendaten lässt sich ableiten, dass Gimeracil selbst **keine direkte zytostatische Aktivität** besitzt. Seine pharmakologische Rolle besteht darin, das DPD-Enzym zu hemmen und dadurch die Umwandlung und Metabolisierung des aus Tegafur entstehenden 5-FU zu blockieren, wodurch die Plasmakonzentration und die Tumorexposition von 5-FU erhöht werden und die therapeutische Wirkung verstärkt wird. Die Arzneimittelwirkung von Gimeracil muss daher im Kontext des S-1-Kombinationspräparats (Tegafur + Gimeracil + Oteracil) verstanden werden, nicht als Einzelsubstanz.
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Magenneoplasien (Stomach Neoplasms) |
+| Vorhergesagte neue Indikation | Kolonneoplasie (colonic neoplasm) |
+| TxGNN-Vorhersagewert | 99,88 % |
+| Evidenzstufe | L1 |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
+| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 aufgehoben) |
+| Empfohlene Entscheidung | Proceed with Guardrails (Fortführung mit Schutzmaßnahmen) |
 
-Dickdarmneoplasien und S-1 gehören – wie die derzeit hauptsächlich zugelassenen Indikationen (z. B. Magenkarzinom) – beide zu Adenokarzinomen des Verdauungstrakts, deren Empfindlichkeit gegenüber 5-FU-haltigen Arzneimitteln auf ähnlichen Mechanismen beruht. Tatsächlich ist das S-1-Kombinationspräparat bereits in Japan und einigen europäischen Ländern (einschließlich Deutschland, wenn Capecitabin/5-FU aufgrund von Hand-Fuß-Syndrom oder kardiovaskulärer Toxizität abgesetzt werden musste) für die Behandlung von Kolorektalkarzinomen zugelassen. Dies ist der Hauptgrund, warum diese TxGNN-Prognose durch eine große Anzahl von klinischen Studien und Publikationen gestützt wird.
+---
 
-Eine wichtige Einschränkung sei betont: Fast alle in diesem Bericht zitierten Daten beziehen sich auf die Wirksamkeit und Sicherheit des „S-1-Kombinationspräparats insgesamt", nicht auf unabhängige pharmakologische Daten der Einzelkomponente Gimeracil. Vor einer abschließenden Entscheidung muss geklärt werden, ob Gimeracil eine klinische Stellung unabhängig vom S-1-Kombinationspräparat hat.
+## Warum ist diese Vorhersage plausibel?
+
+Gimeracil wird nicht als Einzelwirkstoff eingesetzt, sondern ist Teil von S-1. Es hemmt die Dihydropyrimidin-Dehydrogenase (DPD), das Enzym, das 5-Fluorouracil (5-FU) abbaut. Dadurch bleibt die aus Tegafur freigesetzte 5-FU-Exposition über längere Zeit hoch. Die Angabe zum Wirkmechanismus stammt aus der mechanistischen Begründung der Vorhersage; in den für diesen Bericht zusammengestellten Daten ist kein ausführlicher Wirkmechanismus-Eintrag vorhanden.
+
+Magenkarzinom und Kolonkarzinom sind beides gastrointestinale Tumoren, und das Kolonkarzinom gilt als klassischer 5-FU-sensitiver Tumor. Der Mechanismus ist daher direkt übertragbar. Präklinische und pharmakokinetische Arbeiten (z. B. PMID 20841935 und 20811661) stützen diese Überlegung. Wichtig: Die Evidenz bezieht sich auf die S-1-Kombination, nicht auf Gimeracil allein.
 
 ---
 
 ## Evidenz aus klinischen Studien
 
-| Studiennummer | Phase | Status | Fallzahl | Hauptergebnis |
-|---------------|-------|--------|----------|--------------|
-| [NCT00660894](https://clinicaltrials.gov/study/NCT00660894) | Phase 3 | Completed | 1535 | UFT+Leucovorin vs. S-1 zur adjuvanten Therapie des Stadium-III-Kolontumors mit Analyse von Genexpressionsmarkern; unterstützt direkt Wirksamkeit und Sicherheit von S-1 (enthält Gimeracil) bei dieser Indikation |
-| [NCT01918852](https://clinicaltrials.gov/study/NCT01918852) | Phase 3 | Completed | 161 | SALTO-Studie: S-1 vs. Capecitabin als First-Line-Therapie von metastasierten Kolorektalkarzinomen, auch mit Bevacizumab kombinierbar |
-| [NCT03448549](https://clinicaltrials.gov/study/NCT03448549) | Phase 3 | Unknown | 1191 | Große randomisierte kontrollierte Studie SOX vs. XELOX zur adjuvanten Therapie von Stadium-III-Kolontumoren; Status unklar, Veröffentlichung von Ergebnissen bedarf Überprüfung |
-| [NCT02618356](https://clinicaltrials.gov/study/NCT02618356) | Phase 2 | Unknown | 82 | S-1 + Raltitrexed bei metastasierten Kolorektalkarzinomen nach Standardchemotherapie, primärer Endpunkt: progressionsfreies Überleben |
-| [NCT00524706](https://clinicaltrials.gov/study/NCT00524706) | Phase 1/2 | Unknown | 42 | S-1 + orales Leucovorin + Oxaliplatin (SOL) bei unbehandelten metastasierten Kolorektalkarzinomen |
-| [NCT00974389](https://clinicaltrials.gov/study/NCT00974389) | Phase 2 | Unknown | 40 | S-1 + Bevacizumab bei nicht resezierbarem oder rezidivierendem Kolorektalkarzinom nach Versagen von Irinotecan- und Oxaliplatin-Therapie |
-| [NCT02216149](https://clinicaltrials.gov/study/NCT02216149) | Phase 2 | Terminated | 20 | Bewertung der Auswirkungen von S-1 und Capecitabin in Kombination mit Oxaliplatin auf koronaren Blutfluss (sicherheitsorientiert, keine Wirksamkeitsstudie; beendet) |
-| [NCT06255379](https://clinicaltrials.gov/study/NCT06255379) | Phase 2 | Not yet recruiting | 52 | Fuquinitinib kombiniert mit S-1 (enthält Gimeracil) zur Therapie von metastasierten Kolorektalkarzinomen in der dritten Linie; noch keine Rekrutierung, nur Zukunftsplan |
+| Studiennummer | Phase | Status | Teilnehmer | Kernaussagen |
+|---------|------|------|------|---------|
+| [NCT00660894](https://clinicaltrials.gov/study/NCT00660894) | Phase 3 | Abgeschlossen | 1535 | UFT+Leucovorin vs. TS-1 (S-1) als adjuvante Therapie bei Kolonkarzinom Stadium III |
+| [NCT03448549](https://clinicaltrials.gov/study/NCT03448549) | Phase 3 | Unbekannt | 1191 | SOX (Oxaliplatin + S-1) vs. XELOX als adjuvante Chemotherapie bei kolorektalem Karzinom Stadium III |
+| [NCT00974389](https://clinicaltrials.gov/study/NCT00974389) | Phase 2 | Unbekannt | 40 | S-1 + Bevacizumab bei nicht resezierbarem oder rezidiviertem kolorektalem Karzinom nach Vortherapie |
+| [NCT02618356](https://clinicaltrials.gov/study/NCT02618356) | Phase 2 | Unbekannt | 82 | Raltitrexed + S-1 bei metastasiertem kolorektalem Karzinom nach Versagen der Standardchemotherapie |
+| [NCT06255379](https://clinicaltrials.gov/study/NCT06255379) | Phase 2 | Noch nicht rekrutierend | 52 | Fruquintinib + Tegafur/Gimeracil/Oteracil in der Drittlinie bei metastasiertem kolorektalem Karzinom |
+| [NCT02216149](https://clinicaltrials.gov/study/NCT02216149) | Phase 2 | Abgebrochen | 20 | Wirkung von S-1 und Capecitabin mit Oxaliplatin auf die Koronardurchblutung (Sicherheitsendpunkt, nicht Wirksamkeit) |
 
 ---
 
-## Literaturbasierte Evidenz
+## Literaturevidenz
 
-| PMID | Jahr | Typ | Journal | Hauptergebnis |
-|------|------|------|---------|----------------|
-| [21875473](https://pubmed.ncbi.nlm.nih.gov/21875473/) | 2011 | Kohortenstudie/Review | Chinese Journal of Cancer | Oxaliplatin + S-1 zur Therapie postoperativer Kolorektalkarzinome; Beobachtung von Wirksamkeit und Nebenwirkungen |
-| [21084813](https://pubmed.ncbi.nlm.nih.gov/21084813/) | 2010 | Kohortenstudie | Gan to Kagaku Ryoho | S-1 + Irinotecan bei 87 Patienten mit fortgeschrittenem/rezidivierendem Kolorektalkarzinom; Grad-3-4-Hämatotoxizität in 16,1% der Fälle, Entwicklung eines Risiko-Stratifizierungsmodells |
-| [41724114](https://pubmed.ncbi.nlm.nih.gov/41724114/) | 2026 | Realwelt-Bevölkerungsstudie | Eur J Cancer | Sicherheit und Machbarkeit des Wechsels von Capecitabin zu S-1 bei adjuvanter Kolorektalkarzinom-Therapie aufgrund von Hand-Fuß-Syndrom oder kardiovaskulärer Toxizität |
-| [20841935](https://pubmed.ncbi.nlm.nih.gov/20841935/) | 2010 | PK-Studie | Gan to Kagaku Ryoho | Pharmakokinetik von S-1 bei peritonealer Metastasierung von Kolorektalkarzinom in Maus-Peritonitis-Modell |
-| [20811661](https://pubmed.ncbi.nlm.nih.gov/20811661/) | 2010 | Präklinisch | Oncology Reports | Irinotecan kombiniert mit oralem S-1 (enthält Gimeracil) überwindet 5-FU-Resistenz in humanen Kolorektalkarzinom-Xenotransplantaten |
-| [18630468](https://pubmed.ncbi.nlm.nih.gov/18630468/) | 2008 | Fallbericht | Anticancer Research | Fallbericht: S-1 + CPT-11 führte zu kompletter Remission und Erhaltung von Lebermetastasen bei Kolorektalkarzinom |
-| [35444144](https://pubmed.ncbi.nlm.nih.gov/35444144/) | 2022 | Fallbericht | Gan to Kagaku Ryoho | Kolorektalkarzinom-Peritonealrezidiv, mehrfache laparoskopische Resektion mit postoperativer adjuvanter Chemotherapie mit Tegafur-haltigen Substanzen |
-| [29483452](https://pubmed.ncbi.nlm.nih.gov/29483452/) | 2018 | Fallbericht | Gan to Kagaku Ryoho | Horizontales Kolontumor mit Lebermetastasen und portaler Tumorthrombose, effektive Kontrolle durch Chemotherapie (einschließlich S-1-basierte Chemotherapie-Umstellung) |
-| [29394831](https://pubmed.ncbi.nlm.nih.gov/29394831/) | 2017 | Fallbericht | Gan to Kagaku Ryoho | Zäkales Karzinom mit multiplen bilateralen Lebermetastasen; neoadjuvante Chemotherapie mit SOX (Tegafur-Gimeracil-Oteracil + Oxaliplatin) + Panitumumab gefolgt von gestaffelter Leberresektion |
-| [30692384](https://pubmed.ncbi.nlm.nih.gov/30692384/) | 2018 | Fallbericht | Gan to Kagaku Ryoho | Kolorektalkarzinom-Rezidiv mit Schmerzen; CT-gesteuerter Nervenblock des Plexus coeliacus mit kompletter Remission (adjuvante postoperative Chemotherapie mit UFT-haltigen Substanzen) |
+| PMID | Jahr | Typ | Journal | Kernaussagen |
+|------|-----|------|------|---------|
+| [20841935](https://pubmed.ncbi.nlm.nih.gov/20841935/) | 2010 | Pharmakokinetische Studie | Gan To Kagaku Ryoho | Pharmakokinetik von S-1 bei Peritonealmetastasen eines Kolonkarzinoms im Mausmodell |
+| [20811661](https://pubmed.ncbi.nlm.nih.gov/20811661/) | 2010 | Präklinisch (Xenograft) | Oncology Reports | Irinotecan überwindet die 5-FU-Resistenz bei Kolonkarzinom-Xenografts in Kombination mit S-1 durch Herunterregulierung der Thymidylatsynthase |
+| [21084813](https://pubmed.ncbi.nlm.nih.gov/21084813/) | 2010 | Klinische Analyse | Gan To Kagaku Ryoho | Risikofaktoren für schwere hämatologische Toxizität (Grad 3–4, 16,1 %) unter S-1/Irinotecan bei 87 Patienten mit fortgeschrittenem oder rezidiviertem Kolonkarzinom |
+| [32936722](https://pubmed.ncbi.nlm.nih.gov/32936722/) | 2021 | Fallbericht/Review | J Oncol Pharm Pract | S-1-induzierte Hypertriglyzeridämie; S-1 gilt als eines der wirksamsten Chemotherapeutika beim kolorektalen Karzinom |
+| [28414195](https://pubmed.ncbi.nlm.nih.gov/28414195/) | 2017 | Fallbericht | Eur J Dermatol | TS-1-induzierte Erythrodermie mit ausgedehntem Schleimhautbefall und Hand-Fuß-Syndrom |
+| [18630468](https://pubmed.ncbi.nlm.nih.gov/18630468/) | 2008 | Fallbericht | Anticancer Research | Komplettremission unter S-1 und CPT-11 bei Lebermetastasen eines Kolonkarzinoms |
+| [29394831](https://pubmed.ncbi.nlm.nih.gov/29394831/) | 2017 | Fallbericht | Gan To Kagaku Ryoho | SOX plus Panitumumab als Downstaging, anschließend zweizeitige Hepatektomie bei nicht resezierbaren kolorektalen Lebermetastasen |
+| [29483452](https://pubmed.ncbi.nlm.nih.gov/29483452/) | 2018 | Fallbericht | Gan To Kagaku Ryoho | Kolonkarzinom mit Lebermetastasen und Pfortadertumorthrombus, wirksam mit Chemotherapie behandelt (CapeOX, danach Regimewechsel) |
+| [35444144](https://pubmed.ncbi.nlm.nih.gov/35444144/) | 2022 | Fallbericht | Gan To Kagaku Ryoho | Laparoskopische Resektion peritonealer Rezidive nach kolorektaler Resektion |
+| [41253353](https://pubmed.ncbi.nlm.nih.gov/41253353/) | 2025 | Fallbericht | Gan To Kagaku Ryoho | Harnverhalt als oxaliplatininduzierte akute periphere Neuropathie; zuvor Behandlung mit Tegafur/Gimeracil/Oteracil |
 
 ---
 
-## Informationen zur Zytotoxizität
+## Marktinformationen Deutschland
 
-Gimeracil als Komponente des S-1-Kombinationspräparats (traditionelle Chemotherapie, Fluoropyrimidin-Kombinationen) ist selbst zwar kein direktes zytostatisches Arzneimittel, aber seine pharmakologische Funktion besteht darin, die zytostatische Wirkung von 5-FU zu verstärken. Daher muss es wie ein Chemotherapeutikum gehandhabt und überwacht werden.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/001242 | Teysuno | – | Magenneoplasien (Stomach Neoplasms) |
 
-| Merkmal | Inhalt |
-|--------|--------|
-| Zytotoxische Klassifizierung | Komponente des S-1-Kombinationspräparats (Fluoropyrimidin-Klasse); Gimeracil selbst ist ein DPD-Inhibitor und kein direkt zytostatisches Arzneimittel, wirkt durch Verstärkung der zytostatischen Wirkung von 5-FU |
-| Myelosuppressionsrisiko | Moderat (Grad-3-4-Hämatotoxizität bei S-1 + Irinotecan-Kombinationen ca. 16,1%, siehe PMID 21084813) |
-| Emetogenitätsklassifizierung | Niedrig bis moderat (vergleichbar mit anderen oralen Fluoropyrimidin-Arzneimitteln) |
-| Überwachungsparameter | Vollblutbild (einschließlich Differenzialzählung), Nierenfunktion (S-1/Gimeracil-Dosisanpassung je nach Nierenfunktion), Leberfunktion, Elektrolyte |
-| Handhabung und Schutz | Bestandteil eines Chemotherapie-Kombinationspräparats; muss nach Handhabungsrichtlinien für zytostatische Arzneimittel behandelt werden |
+Die Zulassung ist aufgehoben (Hersteller: Nordic Group B.V.).
+
+---
+
+## Zytotoxizität
+
+| Punkt | Inhalt |
+|------|------|
+| Zytotoxizitätsklassifikation | Konventionell zytotoxisch (Fluoropyrimidin-Kombination; Gimeracil selbst ist ein DPD-Hemmer und verstärkt die 5-FU-Wirkung) |
+| Myelosuppressionsrisiko | Mittel; in einer Analyse mit S-1/Irinotecan traten Grad-3–4-Hämatotoxizitäten bei 16,1 % der Patienten auf |
+| Emetogenität | Niedrig bis mittel (allgemeine Einordnung für orale Fluoropyrimidine) |
+| Monitoring | Großes Blutbild mit Differenzialblutbild, Leber- und Nierenfunktion, Elektrolyte |
+| Schutzmaßnahmen beim Umgang | Vorgaben für den Umgang mit zytotoxischen Arzneimitteln beachten |
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Gebrauchsinformation des Arzneimittels für Sicherheitsinformationen.
-
-(Derzeit sind die Warnhinweise in der Gebrauchsinformation, Kontraindikationen und Arzneimittelwechselwirkungen für TFDA/BfArM fehlende Daten, die als Blocking-Level-Datenlücke DG001 eingestuft sind und müssen daher prioritär ergänzt werden, bevor eine S1-Sicherheitsbewertung durchgeführt werden kann.)
+Für Warnhinweise und Gegenanzeigen liegen keine verwertbaren Daten vor; bitte die Fachinformation heranziehen. Aus der Literatur sind bei S-1-Regimen unter anderem Hand-Fuß-Syndrom, Erythrodermie, Hypertriglyzeridämie und hämatologische Toxizität berichtet. Zu Arzneimittelwechselwirkungen wurden keine Einträge gefunden.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Proceed with Guardrails (bedingte Weiterverfolgung)**
+**Entscheidung: Proceed with Guardrails**
 
 **Begründung:**
-- Es gibt 2 abgeschlossene Phase-III-randomisierte kontrollierte Studien (NCT00660894, n=1535; NCT01918852, n=161), die die Wirksamkeit von S-1 (enthält Gimeracil) bei Kolorektalkarzinomen unterstützen, mit Evidenzlevel L1.
-- Diese Evidenz bezieht sich jedoch auf das „S-1-Kombinationspräparat als Ganzes" und nicht auf die Einzelkomponente Gimeracil. Darüber hinaus fehlen derzeit sowohl die offizielle Wirkmechanismus-Information für Gimeracil als auch Sicherheitsdaten (Warnhinweise, Kontraindikationen, Arzneimittelwechselwirkungen) aus den TFDA/BfArM-Gebrauchsinformationen. Die Warnhinweise/Kontraindikationen sind auf Blocking-Level eingestuft (DG001), daher „Cannot proceed to S1 safety screening". Es wird daher nicht empfohlen, dies direkt als „Go" einzustufen.
+Zwei Phase-3-Studien (davon eine abgeschlossen, n = 1535) prüfen die gimeracilhaltige S-1-Kombination direkt beim Kolonkarzinom, und der Mechanismus (DPD-Hemmung, 5-FU-Sensitivität) ist plausibel. Einschränkend ist die Evidenz auf die Kombination bezogen, mehrere Studien haben unbekannten Status, die Literatur besteht überwiegend aus Fallberichten, und in Deutschland ist keine gültige Zulassung vorhanden.
 
-**Zur Weiterverfolgung erforderlich:**
-- TFDA/BfArM-Gebrauchsinformation (PDF) mit Analyse der Warnhinweise und Kontraindikationen (DG001, Blocking)
-- DrugBank-API-Abfrage des formalen Wirkmechanismus von Gimeracil (DG002, High)
-- Klärung, ob Gimeracil eine klinische Stellung unabhängig vom S-1-Kombinationspräparat hat und eigenständige Wirksamkeitsdaten vorliegen
-- Ergänzung der Ergebnisse zur Arzneimittelwechselwirkung (DDI) aus Datenbanken
-
-*Hinweis: TxGNN prognostiziert für dieses Arzneimittel weitere 9 kandidatische Indikationen (z. B. villöses Adenom des Zäkums, malignes Granularzelltumor des Magens), die jedoch keine Unterstützung durch klinische Studien oder Literatur haben (Evidenzlevel L5, nur Modellscore). Diese sollten als „Hold" gekennzeichnet werden und nicht weiter verfolgt werden.*
-
+**Für das weitere Vorgehen erforderlich:**
+- Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen) als Voraussetzung für die Sicherheitsprüfung
+- Detaillierte Wirkmechanismus-Daten (z. B. aus DrugBank)
+- Ergebnisse bzw. Statusklärung der Studien NCT00660894 und NCT03448549
+- Klärung des Zulassungs- und Verfügbarkeitswegs in Deutschland, da die Zulassung aufgehoben ist
+- Sicherheitsüberwachungsplan (Hämatologie, DPD-Status, Hautreaktionen)
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

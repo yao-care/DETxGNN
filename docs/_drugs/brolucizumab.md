@@ -2,7 +2,7 @@
 layout: default
 title: Brolucizumab
 parent: Nur Modellvorhersage (L5)
-nav_order: 70
+nav_order: 79
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,65 +29,96 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-# BROLUCIZUMAB: Bewertung unvollständig — Kritische Datenlücken identifiziert
+# Brolucizumab: Von feuchter Makuladegeneration zu mitochondrialer Störung der oxidativen Phosphorylierung (nukleäre DNA-Anomalien)
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-BROLUCIZUMAB (DrugBank ID: DB14864) ist ein Kandidat, der für eine Analyse zur Arzneimittelneubewertung gekennzeichnet wurde, aber das aktuelle Evidenzpaket enthält unzureichende Daten für eine vollständige Bewertung.
-**Keine durch TxGNN vorhergesagten Indikationen wurden zurückgegeben**, und kritische Arzneimittel-Daten — einschließlich ursprüngliche Indikation, Wirkmechanismus und Sicherheitswarnungen — sind alle nicht verfügbar.
-Eine formale Neubewertungsevaluierung kann in diesem Stadium nicht abgeschlossen werden.
+Brolucizumab ist ein gegen VEGF-A gerichtetes Antikörperfragment (scFv), das ins Auge injiziert wird und ursprünglich zur Behandlung der **feuchten Makuladegeneration** zugelassen wurde.
+Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei einer **mitochondrialen Störung der oxidativen Phosphorylierung durch nukleäre DNA-Anomalien** voraus.
+Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage beruht allein auf dem Modell.
 
 ---
 
 ## Schnellübersicht
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Nicht verfügbar im Evidenzpaket |
-| Vorhergesagte neue Indikation | Keine durch TxGNN zurückgegeben |
-| TxGNN-Vorhersage-Score | N/A |
-| Evidenzgrad | L5 (nur Vorhersage — keine Vorhersagen generiert) |
-| Taiwan-Marktstatus | Nicht vermarktet (nicht vermarktet) |
-| Anzahl der Genehmigungen | 0 |
-| Empfohlene Entscheidung | **Zurückgestellt** |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Feuchte Makuladegeneration |
+| Vorhergesagte neue Indikation | Mitochondriale Störung der oxidativen Phosphorylierung durch nukleäre DNA-Anomalien |
+| TxGNN-Vorhersagewert | 99,67 % |
+| Evidenzniveau | L5 |
+| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
+| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum diese Bewertung nicht abgeschlossen werden kann
+## Warum ist diese Vorhersage (nicht) plausibel?
 
-Das Evidenzpaket für BROLUCIZUMAB hat drei strukturelle Mängel, die die Evaluierungspipeline blockieren:
+Detaillierte Daten zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten nicht vor. Bekannt ist, dass Brolucizumab ein VEGF-A-Inhibitor in Form eines Einzelketten-Antikörperfragments ist, der für die intravitreale Anwendung mit sehr geringer systemischer Exposition vorgesehen ist.
 
-**1. Keine TxGNN-Vorhersagen generiert.** Das Array `predicted_indications` ist leer. Dies ist die Kernausgabe der Arzneimittel-Neubewertungspipeline — ohne diese gibt es keine Kandidaten-Indikation zu bewerten, keine Evidenz zu analysieren und keine mechanistische Hypothese zu testen. Der TxGNN-Lauf für DB14864 muss untersucht und neu ausgeführt werden.
+Primäre mitochondriale Störungen der oxidativen Phosphorylierung entstehen durch Defekte in nukleär kodierten Untereinheiten oder Assemblierungsfaktoren der Atmungskette. Die Hemmung von VEGF-A greift an dieser Ursache nicht an. Ein klarer mechanistischer Zusammenhang zur ursprünglichen Indikation ist daher nicht erkennbar.
 
-**2. Keine ursprüngliche Indikation erfasst.** Das Feld `original_indications` ist leer, weshalb es unmöglich ist, das grundlegende klinische Profil zu etablieren oder über die therapeutische Klassennähe zu einer neuen Indikation nachzudenken.
-
-**3. Wirkmechanismus nicht verfügbar.** MOA-Daten (Datenlücke DG002, Schweregrad: Hoch) wurden nicht abgerufen. Ohne zu wissen, wie das Arzneimittel wirkt, kann die mechanistische Plausibilität für einen Neubewertungskandidaten nicht beurteilt werden.
+Der sehr hohe TxGNN-Wert spiegelt lediglich eine Vorhersage aus dem Wissensgraphen wider und wird durch keine Studie gestützt. Zudem könnte eine systemische VEGF-Blockade bei metabolisch vulnerablen Patienten eher schaden als nützen.
 
 ---
 
-## Sicherheitsüberlegungen
+## Klinische Evidenz
 
-Bitte beachten Sie die Gebrauchsinformation für Sicherheitsinformationen.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
-> ⚠️ Datenlücke DG001 (Schweregrad: **Blockierend**): Die Warnungen und Kontraindikationen der TFDA-Gebrauchsinformation wurden nicht analysiert. Diese Lücke blockiert den Sicherheits-Screening-Schritt (S1 initiale Sicherheitsbewertung) vollständig.
+---
+
+## Literaturevidenz
+
+Derzeit liegt keine zugehörige Literatur vor.
+
+---
+
+## Marktinformationen Deutschland
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/004913 | Beovu (Novartis Europharm Limited) | – | Feuchte Makuladegeneration |
+
+Diese Zulassung ist erloschen (Status: Cancelled).
+
+---
+
+## Sicherheitsaspekte
+
+- **Kontraindikationen aus dem Wissensgraphen (PrimeKG, nicht aus der Fachinformation):** Uveitis, Iriserkrankung, Ziliarkörpererkrankung, Panuveitis, infektiöse Augenerkrankung, Konjunktivitis.
+- **Hinweis zur Klasse:** Anti-VEGF-Wirkstoffe sind mit Blutungs-, Thromboembolie- und Wundheilungsrisiken verbunden; bei einer systemischen Anwendung in einer metabolisch vulnerablen Population ist Vorsicht geboten.
+- **Arzneimittelwechselwirkungen:** Keine Einträge gefunden.
+
+Für weitere Sicherheitsinformationen ist die Fachinformation heranzuziehen.
+
+---
+
+## Weitere vorhergesagte Indikationen
+
+| Rang | Vorhergesagte Indikation | TxGNN-Wert | Evidenzniveau | Einschätzung |
+|---|---|---|---|---|
+| 2 | Ösophagusvarizen ohne Blutung | 99,12 % | L5 | Hold. Spekulativer Zusammenhang über VEGF-getriebene Angiogenese bei portaler Hypertonie; bei intravitrealer Anwendung ist keine relevante splanchnische Wirkung zu erwarten. Etablierte Standardtherapie vorhanden. |
+| 3 | Ösophagusvarizen mit Blutung | 99,12 % | L5 | Hold. Gleiche Überlegung, zusätzlich Sicherheitsbedenken (Blutungsrisiko unter Anti-VEGF) bei akuter Varizenblutung. |
+| 4 | Exokrine Pankreasinsuffizienz | 99,07 % | L5 | Hold. Kein plausibler mechanistischer Zusammenhang; Therapie erfolgt durch Enzymersatz. |
+
+Für alle drei Indikationen liegen weder Studien noch Literatur vor.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Zurückgestellt**
+**Entscheidung: Hold**
 
 **Begründung:**
-Das Evidenzpaket ist strukturell unvollständig. Keine Neubewertungskandidaten wurden durch TxGNN generiert, und zwei blockierende Datenlücken (DG001, DG002) verhindern sowohl die mechanistische Analyse als auch das Sicherheits-Screening. Das Fortfahren ohne diese Eingaben würde einen Bericht mit keinem bewertbaren Inhalt produzieren.
+Die Vorhersage beruht ausschließlich auf einem Modellwert (L5) ohne Studien oder Publikationen. Es gibt keinen plausiblen mechanistischen Zusammenhang, und die einzige deutsche Zulassung ist erloschen. Zudem könnte eine systemische VEGF-Blockade bei dieser Patientengruppe schädlich sein.
 
-**Um fortzufahren, ist folgendes erforderlich:**
-
-1. **TxGNN-Vorhersage für DB14864 neu ausführen** — Untersuchen Sie, warum `predicted_indications` leer ist. Prüfen Sie, ob BROLUCIZUMAB im Wissensgraph vorhanden ist und ob der Vorhersageauftrag erfolgreich abgeschlossen wurde. Regenerieren Sie Vorhersagen.
-2. **Ursprüngliche Indikationen abrufen** — Fragen Sie DrugBank- oder TFDA-Datensätze ab, um `original_indications` zu füllen.
-3. **MOA-Daten abrufen (DG002)** — Fragen Sie die DrugBank-API für den Wirkmechanismus von BROLUCIZUMAB ab.
-4. **Gebrauchsinformation für Sicherheitsdaten analysieren (DG001)** — Laden Sie das PDF der TFDA-Gebrauchsinformation herunter und extrahieren Sie Warnungen und Kontraindikationen, um das Sicherheits-Screening freizugeben.
-5. **Evidenzpaket erneut einreichen** — Nachdem die oben genannten vier Punkte gelöst sind, regenerieren Sie das Evidenzpaket (v5) und führen Sie diese Bewertung erneut aus.
-
+**Für ein Weiterverfolgen wären erforderlich:**
+- Daten zum Wirkmechanismus (MOA) aus DrugBank
+- Warnhinweise und Gegenanzeigen aus der Fachinformation (BfArM), da die Sicherheitsprüfung sonst nicht fortgesetzt werden kann
+- Präklinische Belege für einen Zusammenhang zwischen VEGF-A-Hemmung und mitochondrialen Erkrankungen
+- Bewertung der Applikationsroute (intravitreal vs. systemisch) und der Sicherheit bei systemischer Exposition
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

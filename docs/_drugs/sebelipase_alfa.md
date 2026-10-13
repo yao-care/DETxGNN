@@ -2,7 +2,7 @@
 layout: default
 title: Sebelipase Alfa
 parent: Nur Modellvorhersage (L5)
-nav_order: 359
+nav_order: 421
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,74 +29,80 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Sebelipase alfa: Von Lysosomaler Säurelipase-Mangel zum Scheie-Syndrom
+# Sebelipase alfa: Von angeborenen Störungen des Lipidstoffwechsels zum Scheie-Syndrom
 
-## Einzeilenzusammenfassung
+## Zusammenfassung
 
-> Sebelipase alfa (Kanuma®) ist eine Enzymersatztherapie mit rekombinantem humanem lysosomalen Säurelipase (rhLAL), die ursprünglich für **Lysosomalen Säurelipase (LAL)-Mangel** entwickelt wurde, einschließlich Wolman-Erkrankung und Cholesterylester-Speicherkrankheit (CESD).
-> Der nach dem TxGNN-Modell am höchsten bewertete neue Kandidat ist **Scheie-Syndrom** (eine milde Form von Mukopolysaccharidose Typ I),
-> aber diese spezifische Vorhersage wird derzeit von **0 klinischen Studien** und **0 Publikationen** unterstützt — es ist ein rein modellgestütztes Signal ohne mechanistische Bestätigung.
+Sebelipase alfa ist eine rekombinante humane lysosomale saure Lipase (LAL). Sie wurde ursprünglich als Enzymersatztherapie bei angeborenen Störungen des Lipidstoffwechsels (LAL-Mangel) zugelassen. Das TxGNN-Modell sagt eine mögliche Wirksamkeit beim **Scheie-Syndrom** voraus. Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor, die Vorhersage beruht allein auf dem Modell.
 
 ---
 
 ## Schnellübersicht
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation* | Lysosomaler Säurelipase (LAL)-Mangel (inkl. Wolman-Erkrankung, CESD) |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Angeborene Störungen des Lipidstoffwechsels (Lipid Metabolism, Inborn Errors) |
 | Vorhergesagte neue Indikation | Scheie-Syndrom |
-| TxGNN-Vorhersagepunktzahl | 99.80% |
-| Evidenzebene | L5 |
-| Marktstellung Deutschland | Nicht im Handel |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Aussetzen |
-
-\* Es existiert kein BfArM-Zulassungseintrag für dieses Produkt (Arzneimittel ist in Deutschland nicht im Handel, `total_licenses = 0`). Die oben angegebene ursprüngliche Indikation wird aus der Literaturreferenz rekonstruiert, die diesem Dossier beigefügt ist (z. B. PMID 26452566 „Sebelipase alfa: first global approval"), nicht aus einem formalen Zulassungstext.
+| TxGNN-Vorhersagewert | 99,80 % |
+| Evidenzlevel | L5 |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
+| Anzahl der Zulassungen | 1 (davon 0 gültig) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage berechtigt?
+## Warum ist diese Vorhersage (nicht) plausibel?
 
-Derzeit sind detaillierte Daten zum Wirkmechanismus (MOA) in der strukturierten Arzneimitteldatenbank nicht verfügbar (`original_moa: [Data Gap]`). Basierend auf den in diesem Dossier enthaltenen Literaturquellen ist Sebelipase alfa eine Enzymersatztherapie mit rekombinantem humanem lysosomalen Säurelipase (rhLAL). Seine Wirksamkeit beim LAL-Mangel — einschließlich des Wolman-Erkrankungs-Phänotyps mit Manifestation im Säuglingsalter und des später manifesten CESD-Phänotyps — ist durch abgeschlossene Phase-2/3-Studien (z. B. die ARISE-Studie, NCT01757184) gut dokumentiert und ist weltweit in der EU, den USA und Japan zugelassen.
+Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Bekannt ist: Sebelipase alfa ersetzt das fehlende Enzym lysosomale saure Lipase und baut so Cholesterinester und Triglyzeride in den Lysosomen ab. Die Wirksamkeit beim LAL-Mangel ist belegt.
 
-Das Scheie-Syndrom ist jedoch eine eigenständige lysosomale Speicherkrankheit, verursacht durch einen Mangel an **Alpha-L-Iduronidase**, einem Enzym, das für den Abbau von Glykosaminoglukanen (GAG) verantwortlich ist — ein völlig anderes lysosomales Enzymsystem als LAL, das Cholesterylester und Triglyceride hydrolysiert. Die beiden Erkrankungen weisen nur breite, für lysosomale Speicherkrankheiten gemeinsame phänotypische Merkmale auf (Organomegalie, multisystemische Ansammlung), was mit dem bereits an anderer Stelle in diesem Vorhersagesatz identifizierten Muster konsistent ist: andere Kandidaten wie Morbus Gaucher und Tay-Sachs-Erkrankung erhielten aus demselben Grund dieselbe **Aussetzen**-Empfehlung — TxGNN scheint seine Vorhersagen eher auf Phänotyp-Ähnlichkeiten bei lysosomalen Speicherkrankheiten zu stützen als auf echter Enzym-Substrat-Übereinstimmung.
-
-Mechanistisch ist die Enzymersatztherapie hochgradig enzymspezifisch: Sebelipase alfa kann nur das fehlende LAL-Enzym ersetzen und kann einen Alpha-L-Iduronidase-Mangel nicht kompensieren. Es gibt keine biochemische Grundlage, die die Wirksamkeit beim Scheie-Syndrom unterstützt, und dies spiegelt sich in der vollständigen Abwesenheit von klinischen oder Literaturquellen für diese spezifische Kombination wider.
+Das Scheie-Syndrom (abgeschwächte Form der Mukopolysaccharidose Typ I) wird dagegen durch einen Mangel an alpha-L-Iduronidase verursacht. Dieses Enzym baut Glykosaminoglykane ab und hat mit dem Substrat der LAL nichts zu tun. Eine direkte mechanistische Verbindung besteht daher nicht. Der hohe Vorhersagewert spiegelt vermutlich nur die Nähe beider Erkrankungen im Netzwerk der lysosomalen Speicherkrankheiten wider und keine Enzym- oder Substratbeziehung. Die Vorhersage ist deshalb als Modellartefakt einzustufen.
 
 ---
 
-## Klinische Studienhinweise
+## Klinische Studien
 
-Derzeit keine zugehörigen registrierten klinischen Studien
-
----
-
-## Literaturbeweise
-
-Derzeit keine einschlägige Literatur verfügbar
+Derzeit sind keine relevanten klinischen Studien zum Scheie-Syndrom registriert.
 
 ---
 
-## Sicherheitserwägungen
+## Literaturevidenz
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+Derzeit liegt keine relevante Literatur vor.
+
+---
+
+## Marktinformationen Deutschland
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/004004 | Kanuma (Alexion Europe SAS) | – | Angeborene Störungen des Lipidstoffwechsels (Status: erloschen) |
+
+---
+
+## Sicherheitsaspekte
+
+Für Sicherheitsinformationen beachten Sie bitte die Packungsbeilage. Die für diesen Bericht zusammengestellten Daten enthalten weder Warnhinweise und Gegenanzeigen noch dokumentierte Wechselwirkungen.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Aussetzen**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die am höchsten bewertete Vorhersage (Scheie-Syndrom) hat keine unterstützenden klinischen Studien oder Literaturquellen, und der zugrunde liegende Enzymmangelzustand (Alpha-L-Iduronidase) ist mechanistisch nicht mit dem LAL-Ersatzmechanismus von Sebelipase alfa verwandt. Dies ist ein reines Modellsignal (L5) ohne bestätigende biologische oder klinische Begründung.
+Für das Scheie-Syndrom gibt es weder Studien noch Publikationen, und ein Wirkmechanismus ist nicht erkennbar (Evidenzlevel L5). Hinzu kommt, dass die einzige deutsche bzw. europäische Zulassung von Kanuma erloschen ist.
 
-**Um fortzufahren, wird Folgendes benötigt:**
-- Präklinische oder biochemische Evidenz, dass rhLAL eine Kreuzreaktivität oder GAG-Weg-Relevanz in MPS I/Scheie-Syndrom hat (derzeit keine identifiziert)
-- TFDA/BfArM-Etikett und Sicherheitsdaten (derzeit `[Data Gap]` — blockiert für jeden S1-Sicherheits-Vorcheck)
-- Bestätigter DrugBank-MOA-Eintrag zum Ersetzen der aktuellen Datenlücke
+**Für ein Weiterverfolgen wäre Folgendes nötig:**
+- Präklinische Daten, die eine Wirkung von LAL-Ersatz bei MPS I belegen (derzeit nicht erkennbar)
+- Detaillierte Mechanismusdaten (MOA) und Sicherheitsdaten aus der Packungsbeilage
+- Klärung der Verfügbarkeit des Produkts, da keine gültige Zulassung besteht
 
-**Hinweis für Pipeline-Überprüfung:** Rang 4 in diesem Vorhersagesatz (Cholesterylester-Speicherkrankheit) hat bereits eine abgeschlossene Phase-3-RCT (ARISE, NCT01757184) und 9 registrierte Studien — dies ist kein neuer Umwidmungskandidat, sondern eine bereits bekannte und bereits zugelassene Indikation des Arzneimittels. Es wird empfohlen, dies als Triage-/Datenqualitätsproblem zu kennzeichnen, anstatt es als neues Signal zu präsentieren.
+**Hinweis zu anderen Vorhersagen:**
+Unter den weiteren Kandidaten des Modells ist die Evidenz deutlich besser, es handelt sich aber um bereits bekannte Indikationen des LAL-Mangels:
+- **Cholesterinester-Speicherkrankheit (CESD):** Evidenzlevel L1, mit der zulassungsrelevanten Phase-3-Studie NCT01757184 (n = 66) und der Publikation im NEJM (PMID 26352813). Empfehlung: Proceed with Guardrails.
+- **Morbus Wolman:** Evidenzlevel L2. Empfehlung: Proceed with Guardrails.
 
+Dabei handelt es sich um eine Wiederentdeckung zugelassener Indikationen und nicht um echtes Repurposing. Die übrigen Kandidaten (z. B. Hurler-Syndrom, Morbus Gaucher, Tay-Sachs-Krankheit) haben keine tragfähige Evidenz.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

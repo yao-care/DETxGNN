@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Carprofen
-parent: Hohe Evidenz (L1-L2)
-nav_order: 90
-evidence_level: L2
+parent: Mittlere Evidenz (L3-L4)
+nav_order: 101
+evidence_level: L3
 indication_count: 10
 ---
 
 # Carprofen
 {: .fs-9 }
 
-Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,85 +29,94 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Carprofen: Vom zurückgezogenen Human-NSAID zur rheumatoiden Arthritis (Neubewertung)
+# Carprofen: Vom Einsatz als nichtsteroidales Antirheumatikum zu rheumatoider Arthritis
 
 ## Zusammenfassung in einem Satz
 
-Carprofen ist ein NSAID vom Typ Propionsäure-Derivat, das ursprünglich in den 1980er Jahren als Humanarzneimittel gegen rheumatoide Arthritis und verwandte Entzündungserkrankungen entwickelt und vermarktet wurde, aber nach Hepatotoxizitätssignalen (einschließlich tödlicher fulminanter Hepatitis) vom Humanarzneimittelmarkt zurückgezogen wurde und heute nur noch als Tierarzneimittel (z. B. Rimadyl bei Hunden) kommerziell erhältlich ist. Die Top-Vorhersage des TxGNN-Modells – **Rheumatoide Arthritis** – ist im Wesentlichen eine Wiederidentifikation der historischen Humanindikation des Arzneistoffs, gestützt auf **0 registrierte klinische Studien** und **20 größtenteils historische Publikationen (1980–1990)**, einschließlich zwei doppelblinder RCTs. Angesichts des ungelösten Hepatotoxizitätssignals bei Menschen, das zu seinem Marktrückzug führte, ist die aktuelle Evidenz unzureichend, um die erneute Humanentwicklung zu unterstützen.
+Carprofen ist ein nichtsteroidales Antirheumatikum (NSAR), das vor allem in der Veterinärmedizin zur Linderung von Schmerzen und Entzündungen eingesetzt wird. Das TxGNN-Modell sagt voraus, dass es bei **rheumatoider Arthritis** wirksam sein könnte. Dafür liegen **keine registrierten klinischen Studien**, aber **15 Publikationen** (überwiegend aus den Jahren 1980–1988) vor.
 
 ---
 
-## Schnelle Übersicht
+## Kurzüberblick
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Nicht in strukturierten Registerdaten vorhanden (taiwan_regulatory.licenses / drug.original_indications sind leer). Gemäß Literatur-/Rationale-Evidenz: historisch als Human-NSAID für rheumatoide Arthritis und verwandte Entzündungserkrankungen in den 1980er–90er Jahren vermarktet. |
+| Ursprüngliche Indikation | In der deutschen Zulassung nicht angegeben (die Zulassung enthält keinen Indikationstext); laut Pharmakologiedaten Schmerz und Entzündung, auch bei Arthrose (veterinärmedizinisch) |
 | Vorhergesagte neue Indikation | Rheumatoide Arthritis |
-| TxGNN-Vorhersage-Score | 99.80% |
-| Evidenzstufe | L2 |
-| Marktstatus Deutschland | ✗ Nicht vermarktet |
-| Anzahl der Genehmigungen | 0 |
-| Empfohlene Entscheidung | Abwarten |
+| TxGNN-Vorhersagewert | 99,80 % |
+| Evidenzgrad | L3 |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
+| Anzahl der Zulassungen | 1 (0 gültig, 1 aufgehoben) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
 ## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Daten zum Wirkungsmechanismus im strukturierten Arzneistoffprofil (DG002) nicht verfügbar. Basierend auf Literaturevidenz in diesem Evidenzpaket ist Carprofen ein NSAID vom Typ Propionsäure-Derivat, das COX-1/COX-2 hemmt und die Prostaglandinsynthese senkt – ein Mechanismus, der mit Vergleichssubstanzen wie Indomethacin geteilt wird, gegen die es in mehreren Studien aus den 1980er Jahren direkt getestet wurde.
+Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Nach den vorliegenden Informationen zählt Carprofen zur Klasse der NSAR und hemmt Cyclooxygenase-Enzyme (in den Pharmakologiedaten ist COX-2 als Zielstruktur genannt). Dadurch wird die prostaglandinvermittelte Entzündung und Schmerzentstehung in den Gelenken verringert.
 
-Wichtig ist: Dies ist kein konventioneller "Repurposing"-Fall im Sinne der Entdeckung einer wirklich neuen Verwendung. Carprofen wurde ursprünglich als Humanarzneimittel gegen rheumatoide Arthritis und verwandte Entzündungs-/Schmerzerkrankungen entwickelt und vermarktet. Es wurde anschließend nach Berichten von Hepatotoxizität nach dem Inverkehrbringen vom Humanarzneimittelmarkt zurückgezogen, einschließlich tödlicher fulminanter Hepatitis, und existiert heute kommerziell nur noch als Veterinär-NSAID gegen Arthrose bei Hunden. Die Top-Vorhersage des TxGNN-Modells für rheumatoide Arthritis spiegelt daher wider, dass das Modell die eigene historische Humanindikation des Arzneistoffs wiederentdeckt hat, anstatt eine neue therapeutische Gelegenheit aufzudecken – die mechanistische Plausibilität ist hoch und historisch gut dokumentiert, aber die Humanentwicklung ist durch ein ungelöstes Sicherheitssignal blockiert, das nie formal geklärt wurde.
+Rheumatoide Arthritis ist eine chronisch-entzündliche Gelenkerkrankung, bei der Prostaglandine zu Schwellung und Schmerz beitragen. Mechanistisch ist ein symptomlindernder Effekt daher nachvollziehbar. Ein krankheitsmodifizierender Effekt ist durch die Daten nicht belegt.
+
+Zu beachten ist: Die Wirkung beruht auf dem allgemeinen NSAR-Klasseneffekt. Die Evidenz ist alt, die Neuheit der Umnutzung (Repurposing) daher begrenzt.
 
 ---
 
 ## Evidenz aus klinischen Studien
 
-Derzeit sind keine damit zusammenhängenden klinischen Studien registriert
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
 ## Evidenz aus der Literatur
 
-| PMID | Jahr | Typ | Journal | Wichtigste Erkenntnisse |
+| PMID | Jahr | Typ | Fachzeitschrift | Zentrale Ergebnisse |
 |------|-----|------|------|---------|
-| [7009441](https://pubmed.ncbi.nlm.nih.gov/7009441/) | 1980 | RCT (vergleichend) | Int J Clin Pharmacol Ther Toxicol | 6-Wochen-Doppelblindstudie bei 36 RA-Patienten; Carprofen (zwei Dosisspannen) vs. Indomethacin 100 mg/Tag, vergleichbare Wirksamkeit mit Toxizitätsüberwachung |
-| [6340183](https://pubmed.ncbi.nlm.nih.gov/6340183/) | 1983 | RCT (doppelblind, Crossover) | Scand J Rheumatol Suppl | 4-Monats-Crossover bei 28 RA-Patienten; Carprofen 300 mg/Tag vs. Indomethacin 75 mg/Tag, beide wirksam |
-| [3554157](https://pubmed.ncbi.nlm.nih.gov/3554157/) | 1987 | Übersichtsarbeit | Pharmacotherapy | Umfassende Übersicht der Carprofen-Pharmakologie, klinische Wirksamkeit bei RA/Arthrose und Nebenwirkungen; Potenz ungefähr 1/4 von Indomethacin |
-| [6431808](https://pubmed.ncbi.nlm.nih.gov/6431808/) | 1984 | Übersichtsarbeit (mechanistisch) | Am J Med | Überprüft NSAID-Wirkungsmechanismus bei RA über einfache COX-Hemmung hinaus, einschließlich immunmodulatorischer Prostaglandin-Effekte |
-| [6759135](https://pubmed.ncbi.nlm.nih.gov/6759135/) | 1982 | Übersichtsarbeit | Eur J Rheumatol Inflamm | Allgemeine Übersicht klinischer Studien bei rheumatoider Arthritis (Abstract nicht verfügbar) |
-| [6573017](https://pubmed.ncbi.nlm.nih.gov/6573017/) | 1983 | PK-Studie | Scand J Rheumatol Suppl | Serum-/Gelenkflüssigkeitskonzentrationen gemessen bei 13 RA-Patienten nach 100-mg-Einzeldosis oral |
-| [7037867](https://pubmed.ncbi.nlm.nih.gov/7037867/) | 1981 | Kohorte/vergleichend | J Clin Pharmacol | Auswirkungen von Carprofen vs. Indomethacin auf renale Salz-/Wasserhomöostase bei RA-Patienten und gesunden Kontrollen |
-| [3293874](https://pubmed.ncbi.nlm.nih.gov/3293874/) | 1988 | PK-/Dosis-Wirkungs-Studie | Clin Pharmacol Ther | Mehrfach-Crossover-Dosis-Wirkungs-Studie (100–800 mg/Tag) bei 38 RA-Patienten; lineare Dosis-Wirkungs-Beziehung für 6/9 Wirksamkeitsmaßnahmen demonstriert |
-| [2155476](https://pubmed.ncbi.nlm.nih.gov/2155476/) | 1990 | Mechanistisch/Laborstudie | Scand J Rheumatol | Effekte von Carprofen vs. anderen NSAIDs/Prednisolon auf Gelenkflüssigkeits-Leukozyten, PGE2, LTB4, cAMP bei 53 RA-Patienten |
-| [3864577](https://pubmed.ncbi.nlm.nih.gov/3864577/) | 1985 | Mechanistische Studie | Clin Rheumatol | Vergleicht Effekte von 9 NSAIDs auf Gelenkflüssigkeits-Prostanoid-Konzentrationen bei RA-Patienten; Carprofen reduzierte PGE2/TxB2 |
+| [6340183](https://pubmed.ncbi.nlm.nih.gov/6340183/) | 1983 | RCT (doppelblind, Crossover) | Scand J Rheumatol Suppl | Carprofen 300 mg/Tag vs. Indometacin 75 mg/Tag bei 28 Patienten mit RA über 4 Monate |
+| [7009441](https://pubmed.ncbi.nlm.nih.gov/7009441/) | 1980 | Vergleichende klinische Studie (doppelblind) | Int J Clin Pharmacol Ther Toxicol | 6-Wochen-Vergleich von Carprofen in zwei Dosisstufen und Indometacin bei 36 RA-Patienten |
+| [3293874](https://pubmed.ncbi.nlm.nih.gov/3293874/) | 1988 | Klinische Pharmakologie (Dosis-Wirkung) | Clin Pharmacol Ther | Lineare Dosis-Wirkungs-Beziehung bei 38 RA-Patienten (100–800 mg/Tag) |
+| [3554157](https://pubmed.ncbi.nlm.nih.gov/3554157/) | 1987 | Übersichtsarbeit | Pharmacotherapy | Pharmakologie, klinische Wirksamkeit und Nebenwirkungen; Wirkstärke im mittleren NSAR-Bereich |
+| [6573017](https://pubmed.ncbi.nlm.nih.gov/6573017/) | 1983 | Pharmakokinetische Studie | Scand J Rheumatol Suppl | Konzentrationen in Serum und Synovialflüssigkeit bei 13 RA-Patienten |
+| [7037867](https://pubmed.ncbi.nlm.nih.gov/7037867/) | 1981 | Klinisch-physiologische Studie | J Clin Pharmacol | Wirkung von Carprofen und Indometacin auf Salz- und Wasserhaushalt der Niere |
+| [2155476](https://pubmed.ncbi.nlm.nih.gov/2155476/) | 1990 | Klinische Mechanismusstudie | Scand J Rheumatol | Wirkung verschiedener NSAR auf Synovialflüssigkeit bei 53 RA-Patienten |
+| [6592146](https://pubmed.ncbi.nlm.nih.gov/6592146/) | 1984 | In-vitro-/Mechanismusstudie | Inflammation | NSAR hemmen die IgM-Rheumafaktor-Produktion |
+| [6120390](https://pubmed.ncbi.nlm.nih.gov/6120390/) | 1982 | In-vitro-Studie | Lancet | Hemmung der IgM-Rheumafaktor-Synthese um ca. 50 % |
+| [6697075](https://pubmed.ncbi.nlm.nih.gov/6697075/) | 1984 | Vergleichende Analgesiestudie | Br J Rheumatol | Vergleich von zehn NSAR bei 90 RA-Patienten; Diclofenac, Indometacin, Naproxen und Tolfenaminsäure schnitten am besten ab |
 
 ---
 
-## Marktinformationen Deutschland
+## Informationen zum deutschen Markt
 
-Es wurden keine aktuellen Vermarktungsgenehmigungen für Carprofen in diesem Datensatz gefunden (`total_licenses: 0`, `market_status: Not marketed`), was seinem Rückzug vom Humanarzneimittelmarkt entspricht. Es ist nur noch als Tierarzneimittel (z. B. Rimadyl für Hunde) außerhalb des Geltungsbereichs dieses Humanindikations-Regulierungsdatensatzes erhältlich.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/V/C/006249 | Carprofen Orion | – | – (Zulassung aufgehoben) |
 
 ---
 
 ## Sicherheitsaspekte
 
-- **Historisches Humansicherheitssignal**: Carprofen wurde in den 1980er–90er Jahren nach Berichten von Hepatotoxizität nach dem Inverkehrbringen vom Humanarzneimittelmarkt zurückgezogen, einschließlich tödlicher fulminanter Hepatitis (gemäß der in diesem Evidenzpaket dokumentierten Repurposing-Rationale). Dies ist der Hauptgrund, warum es nicht mehr für die menschliche Anwendung vermarktet wird.
-- Es sind derzeit keine strukturierten TFDA/deutsche Etikett-Daten (wichtige Warnhinweise, Kontraindikationen, Arzneimittelwechselwirkungen) verfügbar (DG001, Blockierungslücke) – eine formale Sicherheitsbewertung kann erst durchgeführt werden, wenn die Packungsbeilage / die regulatorischen Hepatotoxizitäts-Falldaten abgerufen werden.
+- **Wechselwirkungen**: In den Pharmakologiedaten ist COX-2 (PTGS2) als Zielstruktur genannt. Konkrete Wechselwirkungen mit anderen Arzneimitteln sind nicht aufgeführt.
+- **Weitere Hinweise aus der Literatur**: Carprofen kann phototoxische und photoallergische Reaktionen auslösen. In einem Photopatch-Test reagierten 24,4 % der getesteten Personen (21 von 86). Zudem wurden bei NSAR Effekte auf den renalen Salz- und Wasserhaushalt untersucht.
+
+Für weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) ist die Fachinformation heranzuziehen.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Abwarten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Carprofen hat starke historische mechanistische und klinische Studienunterstützung für rheumatoide Arthritis (zwei doppelblinde RCTs, mehrfache PK-/Dosis-Wirkungs-Studien), dies ist jedoch im Wesentlichen eine Bestätigung seiner eigenen ursprünglichen Humanindikation anstelle eines neuartigen Repurposing-Signals. Der bekannte Hepatotoxizitäts-bedingte Rückzug des Arzneistoffs vom Humanmarkt ist ein ungelöstes Sicherheitsproblem, das jede S1-Sicherheitsbewertung blockiert, und es gibt keine aktuellen klinischen Studien, regulatorischen Einreichungen oder strukturierten Sicherheitsdaten, die die erneute Humanentwicklung unterstützen. Niedriger bewertete Vorhersagen (z. B. Gicht L3, Sehnenentzündung L4) zeigen die gleiche COX-Hemm-Rationale, aber schwächere Evidenz und sind ebenfalls mit „Abwarten" gekennzeichnet.
+Die Evidenz für rheumatoide Arthritis stammt aus älteren Studien (1980–1988) und zeigt lediglich eine symptomatische Wirkung im Rahmen des NSAR-Klasseneffekts. Es gibt keine registrierten Studien, die Zulassung in Deutschland ist aufgehoben, und für RA stehen etablierte Therapien zur Verfügung. Der Neuheitswert der Umnutzung ist begrenzt.
 
-**Um fortzufahren, wird Folgendes benötigt:**
-- Abruf historischer Hepatotoxizitäts-Falldaten und aller TFDA/EMA-Rückzugsdokumentation (DG001, Blockierend)
-- Strukturierte Daten zum Wirkungsmechanismus aus DrugBank (DG002)
-- Eine formale Nutzen-Risiko-Neubewertung, die speziell das vorherige Hepatotoxizitätssignal bei Menschen adressiert, bevor eine erneute Humanentwicklung in Betracht gezogen wird
-- Bestätigung des aktuellen Regulierungs-/Vermarktungsstatus (Human- vs. nur Tierarzneimittel) in Zielländern
+**Für das weitere Vorgehen sind erforderlich:**
+- Sicherheitsdaten aus der Fachinformation (Warnhinweise und Gegenanzeigen) als Voraussetzung für die Sicherheitsprüfung
+- Detaillierte Daten zum Wirkmechanismus (MOA), z. B. aus DrugBank
+- Klärung, ob ein Mehrwert gegenüber etablierten NSAR und krankheitsmodifizierenden Therapien besteht
+- Prüfung der Verfügbarkeit einer für den Menschen geeigneten Darreichungsform, da das Produkt in Deutschland nur veterinärmedizinisch zugelassen war
 
+---
+
+**Weitere vorhergesagte Indikationen (Kurzhinweis):** Für Gicht (Wert 99,07 %, Evidenzgrad L3) liegen pharmakokinetische und klinische Studien aus den Jahren 1980 und 1982 vor, und für Tendinitis (Wert 99,18 %) eine Erfahrungsstudie von 1982; beide gelten als Forschungsfragen. Die übrigen Vorhersagen beruhen ausschließlich auf dem Modell und sind mit „Hold“ bewertet.
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

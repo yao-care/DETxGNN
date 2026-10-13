@@ -2,7 +2,7 @@
 layout: default
 title: Amifampridine
 parent: Nur Modellvorhersage (L5)
-nav_order: 27
+nav_order: 29
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,95 +29,87 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Amifampridine: Von ungeklärter Originalindikation zum Glaukom
+# Amifampridin: Vom Lambert-Eaton-Myasthenie-Syndrom zum Glaukom
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Amifampridine (DrugBank ID: DB11640) ist derzeit **nicht auf dem deutschen Markt zugelassen**, und dieses Datenpaket enthält noch keine verifizierten Daten zu ihrer ursprünglichen zugelassenen Indikation oder zum Wirkmechanismus (gekennzeichnet als blockierende/hochgradige Datenlücke).
-Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam gegen **Glaukom** ist, mit einem Vorhersage-Score von **99.71%**, aber derzeit gibt es **0 klinische Studien** und **0 Publikationen**, die diese Richtung unterstützen — das Evidenzlevel ist ausschließlich Modellvorhersage (L5).
-Ein zweites, niedrig priorisiertes Kandidaten-Indikationsgebiet, **Akute Intermittierende Porphyrie**, wurde ebenfalls vorhergesagt (Score 99.32%), ähnlich ohne unterstützende Studien oder Literatur.
+Amifampridin (3,4-Diaminopyridin) wurde ursprünglich zur Behandlung des Lambert-Eaton-Myasthenie-Syndroms (LEMS) eingesetzt.
+Das TxGNN-Modell sagt voraus, dass es bei **Glaukom** wirksam sein könnte (zweiter Vorhersagekandidat: akute intermittierende Porphyrie).
+Für diese Vorhersage liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor; es handelt sich um eine reine Modellvorhersage.
 
 ---
 
-## Schnellübersicht
+## Kurzübersicht
 
-| Element | Inhalt |
-|---------|--------|
-| Originalindikation | In aktuellen Datenquellen nicht verfügbar (siehe Datenlücken unten) |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Lambert-Eaton-Myasthenie-Syndrom |
 | Vorhergesagte neue Indikation | Glaukom |
-| TxGNN-Vorhersage-Score | 99.71% |
-| Evidenzlevel | L5 (nur Modellvorhersage, keine klinische oder Literaturunterstützung) |
-| Marktstatus Deutschland | ✗ Not Marketed (Not marketed) |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Zurückstellen |
+| TxGNN-Vorhersagewert | 99,71 % |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen (keine gültige Zulassung) |
+| Anzahl der Zulassungen | 2 (beide erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Wirkmechanismus-Daten (MOA) für Amifampridine in diesem Datenpaket nicht verfügbar (Datenlücke DG002, Schweregrad Hoch), und auch keine ursprüngliche Indikation wurde aufgezeichnet. Dies schränkt erheblich ein, wie zuverlässig die Rationale von ursprünglicher Indikation zu neuer Indikation bewertet werden kann.
+Detaillierte Daten zum Wirkmechanismus sind in den für diesen Bericht zusammengestellten Daten derzeit nicht verfügbar. Bekannt ist, dass Amifampridin ein Blocker spannungsabhängiger Kaliumkanäle ist. Dadurch wird die präsynaptische Depolarisation verlängert und die Freisetzung von Acetylcholin an der neuromuskulären Endplatte erhöht. Die Wirksamkeit bei LEMS ist belegt.
 
-Basierend auf der vom TxGNN-Modell selbst generierten Rationale wird Amifampridine als breit wirksamer Blocker von spannungsabhängigen Kalium-(Kv-)Kanälen verstanden, mit seiner etablierten Pharmakologie, die auf der Verbesserung der präsynaptischen Acetylcholin-Freisetzung an der neuromuskulären Verbindung zentriert ist. Die vorgeschlagene Verbindung zum Glaukom ist eine indirekte, systemübergreifende Extrapolation: Die Sekretion von Kammerwasser durch das Ziliarepithel und der Abfluss durch das Trabekelwerk beinhalten ebenfalls verschiedene K+-Kanäle (z.B. Kir, KCa), daher könnte ein Kalium-Kanal-Modulator theoretisch den Augeninnendruck (IOP) beeinflussen. Allerdings ist dies **keine** direkte mechanistische Verbindung zur Glaukom-Pathologie (z.B. Trabekelwerk-Degeneration, Apoptose retinaler Ganglienzellen), und die Wirkungsrichtung von K+-Kanal-Blockade vs. -Aktivierung auf den IOP ist in der Literatur inkonsistent. Es gibt keine Tiermodelle oder ex vivo Augengewebedaten, die diese Verbindung unterstützen — das Modell selbst charakterisiert dies als „stark spekulativ".
+Ein möglicher Zusammenhang mit dem Glaukom wäre eine Neuroprotektion retinaler Ganglienzellen oder eine Modulation der neuronalen Erregbarkeit. Dieser Zusammenhang ist jedoch **nicht belegt**. Eine Kaliumkanalblockade könnte zudem die Augenphysiologie in nicht vorhersagbarer Weise beeinflussen. Der hohe TxGNN-Wert ist eine rein rechnerische Vorhersage und wird durch keine klinischen oder Literaturdaten gestützt.
 
-Für den zweiten Kandidaten, Akute Intermittierende Porphyrie (AIP), leitet sich die Rationale von einer Analogie zu Amifampridines bekanntem Wirkmechanismus an der neuromuskulären Verbindung (verwendet bei Lambert-Eaton-Syndrom-ähnlichen Indikationen) ab: AIP kann autonome Dysfunktion und axonale Neuropathie mit assoziierter Muskelschwäche verursachen, und die Verbesserung der ACh-Freisetzung könnte theoretisch symptomatischen Nutzen bieten. Allerdings ist die Kernpathologie der AIP ein Defekt in der Hämbiosynthese (Porphobilinogen-Deaminase-Mangel) und axonale Degeneration — keine Störung der präsynaptischen Neurotransmitter-Freisetzung — daher ist dies wiederum eine spekulative mechanistische Analogie statt einer direkten pathologischen Übereinstimmung, ohne verfügbare präklinische oder klinische Daten.
-
-Da beide Kandidaten keine unterstützenden klinischen Studien- oder Literaturbelege haben und sich ausschließlich auf indirekte mechanistische Begründung verlassen, erhebt sich keiner der beiden Vorhersagen über das L5-Evidenzlevel (nur Modellvorhersage).
+**Zweiter Kandidat: akute intermittierende Porphyrie (TxGNN-Wert 99,32 %, Evidenzstufe L5, Hold).** Hier käme allenfalls ein symptomatischer Nutzen bei neuromuskulärer Schwäche in Betracht, der den zugrunde liegenden Enzymdefekt nicht adressiert. Das Krampfanfallsrisiko von Amifampridin ist besonders kritisch, da Krampfanfälle bei dieser Erkrankung eine bekannte Komplikation sind. Zudem muss die Exposition gegenüber porphyrinogenen Arzneimitteln vermieden werden, was angesichts der Zahl von 68 Wechselwirkungen relevant ist. Auch hierfür gibt es keine Studien oder Publikationen.
 
 ---
 
-## Evidenz aus klinischen Studien
+## Klinische Evidenz
 
-Derzeit keine verwandten klinischen Studien registriert
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Literaturbelege
+## Literaturevidenz
 
-Derzeit keine verwandte Literatur verfügbar
+Derzeit liegt keine zugehörige Literatur vor.
 
 ---
 
 ## Informationen zum deutschen Markt
 
-Amifampridine hält derzeit **keine Marktzulassungen in Deutschland** (Marktstatus: Not marketed / Not Marketed; Gesamtzulassungen: 0). Keine Produkt-, Darreichungsform- oder zugelassenen Indikationsdaten sind verfügbar zur Zusammenfassung.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/005839 (erloschen) | Amifampridine SERB | – | Lambert-Eaton-Myasthenie-Syndrom, paraneoplastische Syndrome des Nervensystems, Neoplasmen des Nervensystems, paraneop... |
+| EMEA/H/C/001032 (erloschen) | Firdapse (zuvor Zenas) | – | Lambert-Eaton-Myasthenie-Syndrom |
+
+Beide Zulassungen (Inhaber: SERB SA) sind als erloschen geführt; derzeit besteht keine gültige Zulassung.
 
 ---
 
-## Sicherheitsüberlegungen
+## Sicherheitsaspekte
 
-Bitte beziehen Sie sich auf die Fachinformation für Sicherheitsinformationen.
+- **Arzneimittelwechselwirkungen:** Insgesamt wurden 68 Wechselwirkungen erfasst. Auszug der geprüften Einträge:
+  - **Schwerwiegend (Major):** Bupropion
+  - **Moderat:** Hydrocortison, Betamethason, Dexamethason, Prednisolon, Prednison, Dexfenfluramin, Diethylpropion, Dronabinol, Ephedrin, Fenfluramin, Levofloxacin, Mazindol, Metoclopramid, Morphin (auch liposomal), Opium, Phentermin, Sibutramin, Polyethylenglykol (3350 mit Elektrolyten)
+- **Besondere Hinweise:** Das Krampfanfallsrisiko von Amifampridin ist insbesondere bei der Indikation akute intermittierende Porphyrie relevant.
 
-> **Hinweis:** Dieses Datenpaket markiert das Fehlen von TFDA-Fachinformations-Warnungen/Kontraindikations-Daten als eine **Blockierend**-Datenlücke (DG001), die verhindert, dass dieser Kandidat in die Standard-Sicherheits-Vorprüfungsphase (S1) eintritt. Keine DDI-Datensätze wurden gefunden (Abfragestatus: not_found).
-
----
-
-## Weitere vorhergesagte Indikation (nur als Referenz)
-
-| Element | Inhalt |
-|---------|--------|
-| Erkrankung | Akute Intermittierende Porphyrie |
-| TxGNN-Vorhersage-Score | 99.32% |
-| Evidenzlevel | L5 |
-| Klinische Studien / Literatur | Keine gefunden |
-| Empfehlung | Zurückstellen |
-
-Die mechanistische Rationale für diesen Kandidaten ist eine indirekte Analogie zwischen Amifampridines Pharmakologie an der neuromuskulären Verbindung und AIP-assoziierter neuropathischer Schwäche, statt einer Übereinstimmung mit der Kern-Hämbiosynthese-Pathologie der AIP. Keine klinischen, präklinischen oder Literaturbelege unterstützen derzeit diese Richtung.
+Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Zurückstellen**
+**Entscheidung: Hold**
 
 **Begründung:**
-Beide vorhergesagten Indikationen (Glaukom und Akute Intermittierende Porphyrie) werden nur durch TxGNN-Modell-Scores und spekulative mechanistische Begründung unterstützt, ohne identifizierte klinische Studien oder Literatur für beide. Darüber hinaus verhindert eine **Blockierend**-schweregrad-Datenlücke (fehlende TFDA-Bezeichnung/Warnungen, DG001), dass dieser Kandidat überhaupt die Standard-Sicherheits-Vorprüfungsphase (S1) erreicht, und das Arzneimittel ist derzeit nicht in Deutschland zugelassen.
+Für beide vorhergesagten Indikationen (Glaukom und akute intermittierende Porphyrie) existieren weder klinische Studien noch Publikationen; die Evidenz beschränkt sich auf die Modellvorhersage (L5). Zudem besteht in Deutschland keine gültige Zulassung, und Daten zu Warnhinweisen und Gegenanzeigen fehlen.
 
-**Um fortzufahren, wird Folgendes benötigt:**
-- TFDA/Regulierungs-Fachinformationen (Warnungen, Kontraindikationen), um den S1-Sicherheits-Vorprüfungsblocker zu beseitigen (DG001)
-- Verifizierte Wirkmechanismus- und ursprüngliche zugelassene Indikationsdaten von DrugBank oder einer anderen autoritativen Quelle (DG002)
-- Präklinische oder in-vitro-Belege, die Amifampridines K+-Kanal-Aktivität mit der IOP-Regulierung verbinden (für den Glaukom-Kandidaten)
-- Alle Fallberichte, Beobachtungsdaten oder mechanistische Studien, die Amifampridine mit AIP-bezogener Neuropathie verbinden (für den sekundären Kandidaten)
-
+**Für ein Fortschreiten sind folgende Schritte erforderlich:**
+- Beschaffung und Auswertung der Fachinformation (Warnhinweise und Gegenanzeigen) als Voraussetzung für die Sicherheitsprüfung
+- Ergänzung detaillierter Wirkmechanismus-Daten (z. B. über DrugBank)
+- Systematische Literaturrecherche und präklinische Studien zu einer möglichen Neuroprotektion bei Glaukom
+- Klärung der Zulassungs- und Verfügbarkeitssituation in Deutschland
+- Bewertung des Krampfanfallsrisikos und der Wechselwirkungen, insbesondere bei akuter intermittierender Porphyrie
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

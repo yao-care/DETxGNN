@@ -2,7 +2,7 @@
 layout: default
 title: Lumacaftor
 parent: Nur Modellvorhersage (L5)
-nav_order: 241
+nav_order: 280
 evidence_level: L5
 indication_count: 1
 ---
@@ -31,75 +31,86 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 # Lumacaftor: Von Mukoviszidose zu Lepra
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Lumacaftor ist ein CFTR-Korrektor, der ursprünglich zur Behandlung von Mukoviszidose durch Korrektur der F508del-CFTR-Protein-Fehlfaltung entwickelt wurde.
-Das TxGNN-Modell prognostiziert, dass es möglicherweise wirksam gegen **Lepra** sein könnte,
-aber derzeit gibt es **0 klinische Studien** und **0 Publikationen**, die diese Richtung unterstützen – die Vorhersage beruht allein auf Modellinferenz.
+Lumacaftor wurde ursprünglich zur Behandlung der **Mukoviszidose (Cystic Fibrosis)** eingesetzt. Das TxGNN-Modell sagt voraus, dass es möglicherweise auch bei **Lepra** wirksam sein könnte. Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage beruht ausschließlich auf dem Modell.
 
 ---
 
 ## Schnellübersicht
 
-| Element | Inhalt |
-|---------|---------|
-| Ursprüngliche Indikation | Mukoviszidose (F508del-CFTR) |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Mukoviszidose (Cystic Fibrosis) |
 | Vorhergesagte neue Indikation | Lepra |
-| TxGNN-Vorhersage-Score | 99.44% |
+| TxGNN-Vorhersagewert | 99,44 % |
 | Evidenzstufe | L5 |
-| Marktstatus Deutschland | Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Aufschub |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
+| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Daten zum Wirkmechanismus nicht verfügbar (Datenlücke). Basierend auf bekannten Informationen ist Lumacaftor ein CFTR-Korrektor, dessen etablierte Pharmakologie auf der Korrektur der F508del-CFTR-Protein-Fehlfaltung konzentriert ist, und seine Wirksamkeit bei Mukoviszidose ist gut belegt.
+Zum Wirkmechanismus von Lumacaftor liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Lumacaftor ein CFTR-Korrektor ist, der die Faltung und den Transport des F508del-CFTR-Proteins zur Zelloberfläche verbessert. Seine Wirksamkeit bei Mukoviszidose ist belegt.
 
-Der Zusammenhang zwischen Mukoviszidose und Lepra ist mechanistisch nicht etabliert. Lepra wird durch *Mycobacterium leprae*-Infektion verursacht, wobei die Pathogenese durch Immunevasion und Invasion peripherer Nerven vorangetrieben wird – Prozesse ohne bekannte direkte Verbindung zur CFTR-Korrektur. Einige Literatur spekuliert, dass die CFTR-Kanalfunktion die Makrophagen-Phagozytose und angeborene Immunantworten beeinflussen könnte, was theoretisch mit der Mykobakterien-Beseitigung verbunden sein könnte, aber dies bleibt eine spekulative Assoziation ohne experimentelle oder klinische Daten spezifisch für mykobakterielle Infektionen.
+Ein etablierter mechanistischer Zusammenhang zwischen diesem Wirkprinzip und Lepra wurde nicht gefunden. Lepra ist eine chronische mykobakterielle Infektion (Mycobacterium leprae), die Haut und periphere Nerven betrifft. Spekulativ denkbar wären Verbindungen über Wirt-Erreger-Interaktionen oder über Ionentransport und Proteinfaltung in Epithel- bzw. Schwann-Zellen. Die vorliegenden Daten stützen dies jedoch nicht.
 
-Das Fehlen ursprünglicher MOA-Daten erhöht die Unsicherheit dieser mechanistischen Bewertung weiter. Angesichts des Mangels an jeglichen unterstützenden klinischen oder Literaturbelegen sollte diese Vorhersage nur als hypothesengenerierendes Signal behandelt werden, nicht als Grundlage für klinische Maßnahmen.
+Der sehr hohe TxGNN-Wert (0,994) ist eine reine Modellvorhersage und wird weder durch Studien noch durch Publikationen bestätigt. Er sollte daher mit Vorsicht interpretiert werden.
 
 ---
 
 ## Evidenz aus klinischen Studien
 
-Derzeit sind keine damit zusammenhängenden klinischen Studien registriert
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Evidenz aus der Literatur
+## Literaturevidenz
 
-Derzeit ist keine damit zusammenhängende Literatur verfügbar
+Derzeit liegt keine zugehörige Literatur vor.
 
 ---
 
-## Marktstatus Deutschland
+## Informationen zum Markt in Deutschland
 
-Lumacaftor hat derzeit keine Marktzulassungen in der Dokumentation (`total_licenses = 0`); das Arzneimittel ist nicht unter dem überprüften regulatorischen Geltungsbereich vermarktet.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/003954 | Orkambi | – | Mukoviszidose (Cystic Fibrosis) |
+
+Hinweis: Diese Zulassung (Vertex Pharmaceuticals (Ireland) Limited) hat den Status „erloschen/aufgehoben“. Derzeit ist keine gültige Zulassung vorhanden.
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+**Arzneimittelwechselwirkungen:** Die Abfrage ergab insgesamt 100 Wechselwirkungen (Quelle: DDInter). Die folgende Liste zeigt die in den Daten ausgewiesenen Beispiele:
+
+- **Schwerwiegend (Major):** Eliglustat, Naldemedine, Naloxegol, Rolapitant
+- **Moderat (Moderate):**
+  - Antidiabetika: Acetohexamid, Glimepirid, Linagliptin, Pioglitazon, Repaglinid
+  - Protonenpumpenhemmer und H2-Blocker: Dexlansoprazol, Esomeprazol, Lansoprazol, Omeprazol, Pantoprazol, Rabeprazol, Ranitidin
+  - Kortikosteroide: Betamethason, Prednison
+  - Weitere: Bupropion, Nitisinon
+
+Für Warnhinweise und Gegenanzeigen liegen keine Daten vor. Bitte beachten Sie hierzu die Fachinformation.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Aufschub**
+**Entscheidung: Hold**
 
 **Begründung:**
-Diese Vorhersage wird nur durch TxGNN-Modellinferenz unterstützt (Evidenzstufe L5), mit null klinischen Studien und null Publikationen, und der vorgeschlagene mechanistische Zusammenhang zwischen CFTR-Korrektur und *M. leprae*-Pathogenese ist spekulativ und nicht validiert. Es gibt derzeit unzureichende Beweise, um diesen Kandidaten voranzutreiben.
+Die Vorhersage für Lepra beruht ausschließlich auf einem Modellwert (Evidenzstufe L5). Es gibt weder klinische Studien noch Publikationen, einen plausiblen mechanistischen Zusammenhang und eine gültige Zulassung in Deutschland. Zudem gibt es zahlreiche Wechselwirkungen, darunter vier als schwerwiegend eingestufte.
 
-**Um voranzufahren, ist Folgendes erforderlich:**
-- Vollständige ursprüngliche MOA-Daten über DrugBank-Abfrage (DG002)
-- Beschaffung von TFDA-Packungsbeilage-Warnungen/Kontraindikationen für Basis-Sicherheitsscreening (DG001, Blockierung)
-- Präklinische/in-vitro-Studien zur Untersuchung der CFTR-Modulation und Makrophagen-Reaktion auf *M. leprae* oder verwandte Mykobakterien
-- Aktualisierte Literatursuche gezielt ausgerichtet auf „CFTR-Modulatoren" + „mykobakterielle Infektion" oder „Lepra"
-
+**Für ein Weiterkommen sind folgende Schritte erforderlich:**
+- Ergänzung der Daten zum Wirkmechanismus (MOA), z. B. über DrugBank
+- Beschaffung und Auswertung der Fachinformation (Warnhinweise und Gegenanzeigen), die zur Sicherheitsprüfung zwingend erforderlich sind
+- Systematische Literaturrecherche und präklinische Studien zu einem möglichen Zusammenhang zwischen CFTR-Korrektur und Lepra (Wirt-Erreger-Interaktion, Schwann-Zellen)
+- Prüfung der Verabreichungswege und der Ähnlichkeit zur ursprünglichen Indikation (derzeit nicht bewertet)
+- Klärung des regulatorischen Status, da die einzige Zulassung erloschen ist
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

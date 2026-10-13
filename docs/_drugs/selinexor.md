@@ -2,7 +2,7 @@
 layout: default
 title: Selinexor
 parent: Nur Modellvorhersage (L5)
-nav_order: 360
+nav_order: 422
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,77 +29,98 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Selinexor: Von ursprünglicher Indikation (nicht dokumentiert) zu arzneimittelinduzierter Osteoporose
+# Selinexor: Von Multiplem Myelom zu Medikamenten-induzierter Osteoporose
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Die ursprüngliche Indikation und der Wirkmechanismus von Selinexor sind **nicht verfügbar** im aktuellen Datensatz (markiert als Datenlücke).
-> Das TxGNN-Modell sagt eine mögliche Assoziation mit **arzneimittelinduzierter Osteoporose** voraus, dies kommt jedoch mit **null unterstützenden klinischen Studien** und **null Literaturangaben**,
-> und die semantische Beziehung selbst ist mehrdeutig — es ist unklar, ob dies eine *therapeutische* Wirkung oder ein *Nebenwirkungsrisiko* anzeigt.
+Selinexor wurde ursprünglich zur Behandlung des Multiplen Myeloms eingesetzt. Das TxGNN-Modell sagt voraus, dass es bei **medikamenten-induzierter Osteoporose** wirksam sein könnte. Diese Vorhersage stützt sich bislang **ausschließlich auf den Modellscore**: Es liegen **keine klinischen Studien** und **keine Publikationen** vor.
 
 ---
 
 ## Schnellübersicht
 
-| Element | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Nicht verfügbar (Datenlücke) |
-| Vorhergesagte neue Indikation | Arzneimittelinduzierte Osteoporose |
-| TxGNN-Vorhersage-Punktzahl | 99.22% |
-| Evidenzstufe | L5 |
-| Marktstatus in Deutschland | Nicht vermarktet (Nicht vermarktet) |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Abwarten |
+| Ursprüngliche Indikation | Multiples Myelom |
+| Vorhergesagte neue Indikation | Medikamenten-induzierte Osteoporose |
+| TxGNN-Vorhersagescore | 99,22 % |
+| Evidenzniveau | L5 |
+| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
+| Anzahl der Zulassungen | 1 |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Daten zum Wirkmechanismus nicht verfügbar (in der Quellen-Evidenzsammlung als Datenlücke markiert). Auch die ursprüngliche Indikation ist nicht erfasst, was bedeutet, dass wir die bekannte Pharmakologie des Arzneimittels nicht gegen die vorhergesagte neue Indikation vergleichen können.
+Für diesen Bericht liegen derzeit keine detaillierten Daten zum Wirkmechanismus vor. Selinexor ist allgemein als Inhibitor von XPO1 (Exportin-1) bekannt, und seine Wirksamkeit beim Multiplen Myelom ist belegt. Mechanistisch könnte eine XPO1-Hemmung die Knochenumbauprozesse beeinflussen, etwa die Signalwege von Osteoklasten und Osteoblasten oder die myelombedingte Knochenerkrankung.
 
-Noch wichtiger ist, dass die vorhergesagte Indikation selbst — „arzneimittelinduzierte Osteoporose" — in diesem Kontext semantisch mehrdeutig ist. Es ist nicht klar, ob das TxGNN-Modell vorschlägt, dass Selinexor **zur Behandlung** von arzneimittelinduzierter Osteoporose **eingesetzt werden könnte**, oder ob es **darauf hinweist, dass** Selinexor **selbst Osteoporose als Nebenwirkung induzieren könnte**. Diese beiden Interpretationen führen zu gegensätzlichen klinischen Schlussfolgerungen (ein therapeutischer Kandidat vs. ein Sicherheitssignal), und die Evidenzsammlung vermerkt ausdrücklich, dass diese Mehrdeutigkeit nicht geklärt wurde.
-
-Angesichts des Fehlens von MOA-Daten, Daten zur ursprünglichen Indikation und etwaiger unterstützender Studien oder Literatur gibt es derzeit keine mechanistische oder klinische Grundlage, um die biologische Plausibilität dieser hohen Vorhersage-Punktzahl (0.992) zu bewerten. Die Punktzahl allein, ohne bestätigende Beweise, ist unzureichend, um das Voranbringen dieses Kandidaten zu rechtfertigen.
+Dieser Zusammenhang ist **spekulativ** und durch die vorliegenden Daten nicht belegt. Vor einer klinischen Betrachtung wäre eine präklinische Validierung nötig, zum Beispiel in Knochenzell- oder Tiermodellen. Zudem könnten bekannte Nebenwirkungen von Selinexor (Übelkeit, Appetitlosigkeit, Gewichtsverlust, Müdigkeit) die Knochengesundheit beeinträchtigen. Die Sicherheit in einer Osteoporose-Population ist daher nicht etabliert.
 
 ---
 
 ## Klinische Studienevidenz
 
-Derzeit sind keine damit verbundenen klinischen Studien registriert.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Literaturbeweise
+## Literaturevidenz
 
-Derzeit ist keine damit verbundene Literatur verfügbar.
-
----
-
-## Marktinformationen zu Deutschland
-
-Selinexor ist derzeit nicht auf dem deutschen Markt erhältlich (0 Zulassungen im Register); keine Lizenz- oder genehmigten Indikationsdaten sind verfügbar.
+Derzeit liegt keine zugehörige Literatur vor.
 
 ---
 
-## Sicherheitsüberlegungen
+## Informationen zum deutschen Markt
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/005127 | Nexpovio | – | Multiples Myelom |
+
+Die Zulassung ist als erloschen/widerrufen geführt; es besteht derzeit keine gültige Zulassung.
+
+---
+
+## Zytotoxizität
+
+| Punkt | Inhalt |
+|------|------|
+| Zytotoxizitätsklassifikation | Zielgerichtete Therapie (XPO1-Inhibitor) |
+| Myelosuppressionsrisiko | Bitte Warnhinweise und Vorsichtsmaßnahmen in der Fachinformation beachten |
+| Emetogenitätsklassifikation | Bitte Fachinformation beachten (Übelkeit ist eine bekannte Nebenwirkung) |
+| Überwachungsparameter | Bitte Fachinformation beachten |
+| Schutzmaßnahmen beim Umgang | Bitte Fachinformation beachten |
+
+---
+
+## Sicherheitsaspekte
+
+- **Arzneimittelwechselwirkungen**: Insgesamt wurden 81 Wechselwirkungen erfasst. Als **schwerwiegend (Major)** eingestuft sind u. a.:
+  - Deferipron
+  - Samarium (153Sm) Lexidronam
+  - Adalimumab
+  - Baricitinib
+  - Certolizumab pegol
+  - Cladribin
+  - Clozapin
+- **Mäßig (Moderate)** eingestuft sind u. a.: Strontiumchlorid Sr-89, Roflumilast, Chloramphenicol, Zidovudin, Azathioprin, Alemtuzumab, Anakinra, Canakinumab sowie mehrere Impfstoffe (u. a. Tetanus-Toxoid, Anthrax, Cholera-Lebendimpfstoff).
+- Weitere Warnhinweise und Gegenanzeigen entnehmen Sie bitte der Fachinformation.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Abwarten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die Evidenzstufe beträgt L5 (nur Modellvorhersage, keine klinischen Studien oder Literatur), und zwei blockierende/schweregrad-hohe Datenlücken bleiben bestehen — TFDA-Warnungen/Kontraindikationen und Wirkmechanismus — zusätzlich zu einer ungeklärten Mehrdeutigkeit darüber, ob die vorhergesagte Assoziation eine therapeutische Möglichkeit oder ein Risiko für Nebenwirkungen darstellt.
+Die Vorhersage beruht allein auf einem hohen TxGNN-Score (Evidenzniveau L5), ohne klinische Studien oder Literatur. Zudem ist die Zulassung in Deutschland erloschen, und die Sicherheitsdaten sind lückenhaft.
 
-**Um voranzukommen, ist Folgendes erforderlich:**
-- Daten zur ursprünglichen Indikation und zum Wirkmechanismus (MOA) aus DrugBank
-- TFDA/BfArM-Packungsbeilagendaten (Warnungen, Kontraindikationen) — derzeit blockierend für Sicherheitsüberprüfung
-- Klarstellung darüber, ob „arzneimittelinduzierte Osteoporose" ein Behandlungsziel oder eine Risikoassoziation für Selinexor widerspiegelt
-- Unabhängige Suche nach unterstützenden klinischen Studien oder Literatur, bevor dieser Kandidat über S0 hinaus vorangebracht werden kann
-
+**Für ein Weiterkommen sind folgende Schritte erforderlich:**
+- Fachinformation (Warnhinweise und Gegenanzeigen) beschaffen und auswerten, da dies für das Sicherheitsscreening zwingend nötig ist
+- Detaillierte Daten zum Wirkmechanismus (MOA) ergänzen
+- Präklinische Validierung der XPO1-Hemmung im Knochenstoffwechsel (Knochenzell- und Tiermodelle)
+- Sicherheitsbewertung für Osteoporose-Patienten, insbesondere im Hinblick auf Gewichtsverlust und Appetitlosigkeit
+- Klärung des Zulassungsstatus in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

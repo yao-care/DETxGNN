@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Sodium Oxybate
-parent: Nur Modellvorhersage (L5)
-nav_order: 368
-evidence_level: L5
+parent: Hohe Evidenz (L1-L2)
+nav_order: 432
+evidence_level: L2
 indication_count: 6
 ---
 
 # Sodium Oxybate
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6** 
+Evidenzniveau: **L2** | Vorhergesagte Indikationen: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,100 +29,105 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Natriumoxybat: Von Narkolepsie mit Kataplexie zur Insomnie
+# Natriumoxybat: Von Kataplexie/Narkolepsie zu Insomnie
 
 ## Zusammenfassung in einem Satz
 
-> Natriumoxybat (Xyrem) ist ein GABA-B/GHB-Rezeptor-Agonist, der ursprünglich für Narkolepsie mit Kataplexie entwickelt wurde, wo es die nächtliche Schlafkonsolidierung verbessert und Kataplexie-Anfälle reduziert.
-> Das TxGNN-Modell sagt voraus, dass es auch wirksam sein könnte für **Insomnie**,
-> mit **10 relevanten klinischen Studien** (einschließlich einer direkten Vergleichsstudie gegen Zolpidem) und **13 unterstützenden Veröffentlichungen**, die derzeit identifiziert wurden.
+Natriumoxybat (Xyrem) wurde ursprünglich zur Behandlung von Kataplexie und Narkolepsie eingesetzt. Das TxGNN-Modell sagt voraus, dass es bei **Insomnie** wirksam sein könnte. Dafür liegen **3 klinische Studien** (davon nur eine direkt relevante) und **12 Publikationen** vor, die überwiegend aus Übersichtsarbeiten und Studien in verwandten Patientengruppen bestehen.
 
 ---
 
-## Kurze Übersicht
+## Schnellübersicht
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Narkolepsie mit Kataplexie *(aus der Fachliteratur abgeleitet; TFDA-Lizenz/Indikationstext nicht verfügbar — siehe Datenlücke DG001)* |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Kataplexie; Narkolepsie |
 | Vorhergesagte neue Indikation | Insomnie |
-| TxGNN-Vorhersage-Score | 99,99 % |
-| Evidenzstufe | L2 (1 abgeschlossene Phase-2-RCT: NCT00383643) |
-| Marktstatus in Taiwan | ✗ Nicht auf dem Markt |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Zurückhalten |
+| TxGNN-Vorhersagewert | 99,997 % |
+| Evidenzgrad | L2 |
+| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
+| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
 ## Warum ist diese Vorhersage plausibel?
 
-Detaillierte DrugBank-Wirkmechanismus-Daten sind derzeit als Datenlücke gekennzeichnet (DG002). Basierend auf Informationen aus der abgerufenen Fachliteratur wird vorgeschlagen, dass Natriumoxybat (exogenes GHB) als **GABA-B- und GHB-Rezeptor-Agonist** wirkt und Tiefschlaf fördert, die Schlafkonsolidierung verbessert und die Einschlaflatenz verkürzt (PMID 21476957). Dies ist dieselbe pharmakologische Grundlage, auf der Natriumoxybat bei Narkolepsie eingesetzt wird, um fragmentierten nächtlichen Schlaf zu konsolidieren.
+Natriumoxybat (Gamma-Hydroxybutyrat, GHB) wirkt als Agonist an GABA-B- und GHB-Rezeptoren. Für die vorliegende Auswertung sind keine detaillierten Mechanismusdaten aus einer Arzneimitteldatenbank verfügbar. Die folgende Einordnung beruht daher auf der in den Daten beschriebenen Biologie.
 
-Narkolepsie selbst wird häufig von **Schlaferhaltungs-Insomnie** als Kernsymptom begleitet (PMID 18805301), was mechanistisch dasselbe Ziel darstellt wie primäre Insomnie — Schwierigkeiten bei der Aufrechterhaltung eines kontinuierlichen, erholsamen Schlafs. Diese Überschneidung bietet eine plausible biologische Brücke zwischen der zugelassenen Indikation (Narkolepsie mit Kataplexie) und der vorhergesagten neuen Indikation (Insomnie).
+Die Substanz steigert nachweislich den Tiefschlaf (Slow-Wave-Schlaf, N3) und festigt den Nachtschlaf. Bei Narkolepsie ist der fragmentierte Nachtschlaf ein Kernsymptom, das Natriumoxybat verbessert. Dieser Effekt ist auch für Ein- und Durchschlafstörungen relevant, was die hohe Vorhersage biologisch stützt. Gestützt wird das durch Polysomnographie-Daten bei Narkolepsie und bei Morbus Parkinson.
 
-Diese Begründung wird durch eine direkte, arzneistoffspezifische RCT weiter gestützt: NCT00383643 verglich Natriumoxybat im direkten Vergleich gegen Zolpidem (einen Standard-Hypnotikum für Insomnie) bei Patienten mit chronischer Insomnie, was zeigt, dass die Hypothese bereits in einer speziellen Insomnie-Population getestet wurde, anstatt nur aus Sekundäroutcomes von Narkolepsie-Studien abgeleitet zu werden.
+Dem stehen erhebliche Einschränkungen gegenüber: Missbrauchspotenzial, das Risiko einer Atemdepression und Wechselwirkungen mit anderen zentral dämpfenden Substanzen (48 bekannte Wechselwirkungen). Diese begrenzen einen Einsatz in der breiten Insomnie-Population.
 
 ---
 
-## Evidenz aus klinischen Studien
+## Klinische Evidenz
 
-| Studiennummer | Phase | Status | Einschluss | Wichtige Ergebnisse |
+| Studiennummer | Phase | Status | Teilnehmerzahl | Zentrale Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT00383643](https://clinicaltrials.gov/study/NCT00383643) | Phase 2 | Abgeschlossen | 48 | Randomisierte, doppelblinde, doppel-simulierte, placebokontrollierte Studie zum Vergleich von Natriumoxybat (Xyrem) mit Zolpidem (Ambien) bei chronischer Insomnie |
-| [NCT00641186](https://clinicaltrials.gov/study/NCT00641186) | Phase 2 | Abgeschlossen | 30 | Offene Studie von Xyrem bei übermäßiger Tagesschläfrigkeit und nächtlicher Schlafstörung bei leichter bis mittelschwerer Parkinson-Krankheit |
-| [NCT00594256](https://clinicaltrials.gov/study/NCT00594256) | Phase 2 | Abgeschlossen | 8 | Offene Pilotstudie von ergänzendem Xyrem bei Schizophrenie und assoziierten Schlafstörungen |
-| [NCT00330291](https://clinicaltrials.gov/study/NCT00330291) | Phase 2 | Zurückgezogen | 0 | Geplante Studie von Xyrem zur Behandlung von therapieresistenter Insomnie aufgrund von PTBS |
-| [NCT04508166](https://clinicaltrials.gov/study/NCT04508166) | k.A. | Abgeschlossen | 27 | Tiefschlafverstärkernde Wirkstoffkonditionen (einschließlich Natriumoxybat) getestet zur Prävention von posttraumatischen aufdringlichen Erinnerungen |
-| [NCT01584934](https://clinicaltrials.gov/study/NCT01584934) | Phase 4 | Zurückgezogen | 0 | Doppelblinde, placebokontrollierte Crossover-Studie von Natriumoxybat bei Müdigkeit/Schlafqualität beim Chronischen Erschöpfungssyndrom |
-| [NCT03626727](https://clinicaltrials.gov/study/NCT03626727) | Early Phase 1 | Zurückgezogen | 0 | Offene Studie von Natriumoxybat (Xyrem) bei posttraumatischer Narkolepsie und posttraumatischer Hypersomnie |
-| [NCT04803786](https://clinicaltrials.gov/study/NCT04803786) | k.A. | Abgeschlossen | 110 | Beobachtungsstudie in der Praxis (TENOR) zum Übergang von Narkolepsie-Patienten von Xyrem zu Xywav (Natriumoxybat mit niedrigem Natriumgehalt) |
-| [NCT06421532](https://clinicaltrials.gov/study/NCT06421532) | Phase 2 | Einschreibung nur auf Einladung | 60 | Natriumoxybat mit niedrigem Natriumgehalt (LXB) zur Vertiefung des Schlafs und Stimulation der glymphatischen Clearance von Aβ bei zerebraler Amyloid-Angiopathie |
-| [NCT02637648](https://clinicaltrials.gov/study/NCT02637648) | Phase 3 | Unbekannt | 60 | Randomisierte, placebokontrollierte Studie von oralem Natriumoxybat zur Prophylaxe von Kopfschmerzen und Schlafstörung beim Clusterkopfschmerz |
+| [NCT00383643](https://clinicaltrials.gov/study/NCT00383643) | Phase 2 | Abgeschlossen | 48 | Randomisierter, doppelblinder Vergleich von Natriumoxybat, Zolpidem und Placebo bei chronischer Insomnie; Ergebnisse liegen hier nicht vor |
+| [NCT00594256](https://clinicaltrials.gov/study/NCT00594256) | Phase 2 | Abgeschlossen | 8 | Offene Pilotstudie, Zusatztherapie bei Schizophrenie mit Schlafstörungen; indirekte Population, sehr kleine Stichprobe |
+| [NCT01584934](https://clinicaltrials.gov/study/NCT01584934) | Phase 4 | Zurückgezogen | 0 | Studie beim chronischen Erschöpfungssyndrom; ohne Teilnehmer, daher ohne Daten |
 
 ---
 
-## Evidenz aus der Fachliteratur
+## Literaturevidenz
 
-| PMID | Jahr | Typ | Zeitschrift | Wichtige Ergebnisse |
+Die Auswahl bezieht sich auf die Arbeiten mit dem engsten Bezug zu Natriumoxybat und Schlaf.
+
+| PMID | Jahr | Typ | Journal | Zentrale Ergebnisse |
 |------|-----|------|------|---------|
-| [40120323](https://pubmed.ncbi.nlm.nih.gov/40120323/) | 2025 | Kohortenstudie | J Clin Neurosci | Propensity-matched Kohortenstudie zur Charakterisierung von Behandlungsmustern bei Narkolepsie-Patienten mit sofort freisetzendem Natriumoxybat |
-| [26171909](https://pubmed.ncbi.nlm.nih.gov/26171909/) | 2015 | Systematische Übersicht (Cochrane) | Cochrane Database Syst Rev | Übersicht der Effekte von Hypnotika/Sedativa, einschließlich GHB-Klasse-Wirkstoffe, auf schlafbezogene Atemstörung |
-| [18852348](https://pubmed.ncbi.nlm.nih.gov/18852348/) | 2008 | Offene Studie | Arch Neurol | Natriumoxybat verbesserte übermäßige Tagesschläfrigkeit und polysomnographische Schlafmessungen bei Parkinson-Krankheit |
-| [20166851](https://pubmed.ncbi.nlm.nih.gov/20166851/) | 2010 | Übersicht | Expert Opin Emerg Drugs | Übersicht neu auftretender Narkolepsie-Behandlungen mit Identifizierung der Rolle von Natriumoxybat bei nächtlicher Schlafkonsolidierung |
-| [20082966](https://pubmed.ncbi.nlm.nih.gov/20082966/) | 2009 | Übersicht | Parkinsonism Relat Disord | Übersicht der Tagesschläfrigkeit bei Parkinson-Krankheit mit Diskussion der schlafkonsolidierenden Wirkung von Natriumoxybat |
-| [18805301](https://pubmed.ncbi.nlm.nih.gov/18805301/) | 2008 | Übersicht | Rev Neurol | Übersicht der Narkolepsie mit Kataplexie mit Identifizierung von Schlaferhaltungs-Insomnie als Kernsymptom, das mit Natriumoxybat behandelt wird |
-| [11174231](https://pubmed.ncbi.nlm.nih.gov/11174231/) | 2001 | Fallserie | Ann Emerg Med | Charakterisierung des GHB-Entzugssyndroms — relevantes Sicherheitssignal für chronische Dosierung |
-| [31526967](https://pubmed.ncbi.nlm.nih.gov/31526967/) | 2019 | Fallbericht | Sleep Med | Natriumoxybat zur Wiederherstellung der Schlafeinleitung bei einem Kind mit EBV-Enzephalitis-bedingter Schlaf-Wach-Regulations-Läsion |
-| [37590830](https://pubmed.ncbi.nlm.nih.gov/37590830/) | 2023 | Übersicht | Continuum (Minneap Minn) | Umfassende Übersicht von Schlafstörungen bei Kindern einschließlich Management von Insomnie und Narkolepsie |
-| [21815499](https://pubmed.ncbi.nlm.nih.gov/21815499/) | 2011 | Übersicht | Rev Med Suisse | Übersicht der bidirektionalen Beziehung zwischen chronischen Schmerzen und Schlafstörung einschließlich hypnotischer Strategien |
+| [18852348](https://pubmed.ncbi.nlm.nih.gov/18852348/) | 2008 | Offene Polysomnographie-Studie | Archives of Neurology | Natriumoxybat bei Tagesschläfrigkeit bei Morbus Parkinson |
+| [15586785](https://pubmed.ncbi.nlm.nih.gov/15586785/) | 2004 | Pilotstudie | Sleep | Einfluss auf Schlafarchitektur und Tagwachheit bei Narkolepsie |
+| [21476957](https://pubmed.ncbi.nlm.nih.gov/21476957/) | 2011 | Review | Current Pharmaceutical Design | Natriumoxybat und Baclofen bei Schlafstörungen: kürzere Einschlaflatenz, mehr Schlafkonsolidierung und Tiefschlaf |
+| [19698899](https://pubmed.ncbi.nlm.nih.gov/19698899/) | 2009 | Review | Clinical Therapeutics | Verträglichkeit und Missbrauchspotenzial von GHB bei Insomnie im Rahmen einer Schizophrenie |
+| [26171909](https://pubmed.ncbi.nlm.nih.gov/26171909/) | 2015 | Systematischer Review/Meta-Analyse | Cochrane Database of Systematic Reviews | Wirkung von Opioiden, Hypnotika und Sedativa auf schlafbezogene Atmungsstörungen bei obstruktiver Schlafapnoe |
+| [40120323](https://pubmed.ncbi.nlm.nih.gov/40120323/) | 2025 | Kohortenstudie | Journal of Clinical Neuroscience | Behandlungsmuster unter Natriumoxybat bei Narkolepsie |
+| [18805301](https://pubmed.ncbi.nlm.nih.gov/18805301/) | 2008 | Review | Revue Neurologique | Übersicht zu Narkolepsie mit Kataplexie |
+| [31526967](https://pubmed.ncbi.nlm.nih.gov/31526967/) | 2019 | Fallbericht | Sleep Medicine | Natriumoxybat bei einem Kind mit schwerem Schlafmangel nach Enzephalitis |
 
 ---
 
-## Marketinginformation Taiwan
+## Marktinformationen Deutschland
 
-Derzeit sind keine TFDA-Zulassungsaufzeichnungen für Natriumoxybat verfügbar (`total_licenses = 0`, Marktstatus: **Nicht auf dem Markt**). Es konnten keine Produkt-/Darreichungsformendaten extrahiert werden.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000593 | Xyrem (UCB Pharma Ltd) | nicht angegeben | Kataplexie; Narkolepsie |
+
+Diese einzige Zulassung ist erloschen. Aktuell besteht keine gültige Zulassung.
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Fachinformation für Sicherheitsinformationen. Wichtige Warnhinweise, Kontraindikationen und Arzneimittelwechselwirkungs-Daten (DDI) sind derzeit nicht in diesem Evidenzsatz verfügbar (DG001, kritischer Schweregrad — TFDA-Etikett-Daten wurden noch nicht abgerufen).
+- **Kontraindikationen/Risikokonstellationen aus dem Wissensgraphen (kein Packungsbeilagentext):** Bluthochdruck, Epilepsie, Angststörung, neurotische Störung, dysthyme Störung, Lebererkrankung, Gallenblasenerkrankung, Substanzmissbrauch/-abhängigkeit, obstruktives Schlafapnoe-Syndrom, Schlafapnoe-Syndrom, kongenitales zentrales Hypoventilationssyndrom, Haddad-Syndrom, Atemversagen, substanzbedingte Störungen, Succinat-Semialdehyd-Dehydrogenase-Mangel, Parasomnie.
+- **Wechselwirkungen:** 48 bekannte Wechselwirkungen. Als **schwerwiegend (Major)** eingestuft sind unter anderem:
+  - Opioide: Morphin (auch liposomal), Codein, Hydrocodon, Opium
+  - Alkohol (Ethanol)
+  - Sedierende Antihistaminika: Promethazin, Chlorphenamin, Acrivastin, Brompheniramin, Carbinoxamin
+  - Cannabinoide: Dronabinol, Nabilon
+  - Weitere: Bupropion, Fenfluramin, Metoclopramid, Sibutramin
+  
+  Als **moderat** eingestuft sind Diazoxid, Amylnitrit und Phentolamin.
+- **Weitere Hinweise aus der Literatur:** Fallberichte beschreiben schlafbezogene Essstörungen sowie ein Restless-Legs-Syndrom unter Natriumoxybat.
+
+Zu Warnhinweisen und Gegenanzeigen aus der Fachinformation liegen keine Daten vor. Bitte die Fachinformation zu Rate ziehen.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Zurückhalten**
+**Entscheidung: Hold**
 
 **Begründung:**
-- Die Wirksamkeitsevidenz ist moderat (L2: eine abgeschlossene Phase-2-RCT mit direktem Vergleich von Natriumoxybat zu Zolpidem bei chronischer Insomnie, plus mehrere unterstützende Phase-2-Studien in verwandten Schlafstörungspopulationen), was allein eine vorsichtige Progression unterstützen könnte.
-- Jedoch bedeutet eine **kritische** Datenlücke (DG001), dass TFDA-Warnhinweise/Kontraindikationen nicht verfügbar sind, sodass die verbindliche S1-Sicherheits-Vorprüfung für ein ZNS-Depressivum mit bekanntem Missbrauchs-/Abhängigkeits- und Entzugspotenzial (PMID 11174231) noch nicht abgeschlossen werden kann. Diese Lücke muss vor jeder „Go"- oder „Mit Schutzvorrichtungen fortfahren"-Entscheidung gelöst werden.
+Der Vorhersagewert ist sehr hoch, und die Wirkung auf den Tiefschlaf ist biologisch plausibel. Die direkte Evidenz beschränkt sich jedoch auf eine kleine Phase-2-Studie (n=48) ohne vorliegende Ergebnisse. Hinzu kommen erhebliche Sicherheitsbedenken (Missbrauchspotenzial, Atemdepression, zahlreiche Wechselwirkungen), und in Deutschland besteht keine gültige Zulassung. Der Fall ist derzeit eher eine Forschungsfrage als ein Kandidat für die Umsetzung.
 
-**Um fortzufahren, wird Folgendes benötigt:**
-- Rufen Sie die TFDA (oder gleichwertige) Fachinformation für Natriumoxybat ab und analysieren Sie sie, um die S1-Sicherheits-Vorprüfung abzuschließen (Warnhinweise, Kontraindikationen, DDI)
-- Bestätigen Sie detaillierte Wirkmechanismus-Daten über die DrugBank-API (DG002)
-- Bewerten Sie die Anforderungen zur Handhabung von kontrollierten Stoffen/REMS-Äquivalenten angesichts des Missbrauchs- und Abhängigkeitspotenzials von GHB
-- Falls Sicherheitsdaten S1 bestehen, priorisieren Sie NCT00383643-typische Evidenz für ein formales L2→L1-Evidenz-Upgrade durch zusätzliche Phase-3-Insomnie-spezifische Studien
-
+**Für das weitere Vorgehen sind folgende Schritte nötig:**
+- Ergebnisse der Studie NCT00383643 (Natriumoxybat vs. Zolpidem vs. Placebo) beschaffen und bewerten
+- Fachinformationen mit Warnhinweisen und Gegenanzeigen auswerten (derzeit ein blockierendes Datenlücke für das Sicherheits-Screening)
+- Daten zum Wirkmechanismus aus einer Arzneimitteldatenbank ergänzen
+- Nutzen-Risiko-Bewertung für definierte Insomnie-Subgruppen mit Fokus auf Missbrauch, Atemdepression und Wechselwirkungen erstellen
+- Klären, ob und unter welchen Bedingungen eine erneute Zulassung bzw. ein Verfügbarkeitsweg in Deutschland möglich wäre
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

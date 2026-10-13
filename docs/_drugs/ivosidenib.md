@@ -2,7 +2,7 @@
 layout: default
 title: Ivosidenib
 parent: Nur Modellvorhersage (L5)
-nav_order: 216
+nav_order: 252
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,87 +29,102 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Ivosidenib: Vom IDH1-mutierten AML zur bulbären Poliomyelitis
+# Ivosidenib: Von akuter myeloischer Leukämie und Cholangiokarzinom zu bulbärer Poliomyelitis
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Ivosidenib (DB14568) ist ein Inhibitor von mutiertem IDH1 (Isocitrat-Dehydrogenase 1), dessen etablierte globale Indikation IDH1-mutierte akute myeloische Leukämie (AML) ist; dieser spezifische Indikationsdatenpunkt ist noch nicht im lokalen Regulierungsdatensatz erfasst. Die Vorhersage des TxGNN-Modells mit dem höchsten Rang ist **bulbäre Poliomyelitis**, aber das Nachweispaket kennzeichnet dies selbst als wahrscheinlich falsch positiv ohne biologische Begründung. **Null klinische Studien und null Publikationen** unterstützen derzeit diese Richtung – die Einbettungsähnlichkeit des Modells setzt sich nicht in einen plausiblen Mechanismus um.
+Ivosidenib ist ein Hemmstoff der mutierten IDH1 und wurde ursprünglich zur Behandlung der akuten myeloischen Leukämie und des Cholangiokarzinoms zugelassen.
+Das TxGNN-Modell sagt für den Wirkstoff eine mögliche Wirksamkeit bei **bulbärer Poliomyelitis** voraus (Score 99,3 %).
+Für diese Vorhersage liegen jedoch **keine klinischen Studien** und **keine Publikationen** vor, sodass sie derzeit allein auf einer Modellvorhersage beruht.
 
 ---
 
-## Schnellebersicht
+## Schnellübersicht
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Nicht in lokalen Lizenzen registriert; bekannte globale Indikation ist IDH1-mutierte akute myeloische Leukämie (gemäß Arzneimittelklasse/Etiketteninformationen, nicht lokal verifiziert) |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Akute myeloische Leukämie; Cholangiokarzinom |
 | Vorhergesagte neue Indikation | Bulbäre Poliomyelitis |
-| TxGNN-Vorhersagepunktzahl | 99.31% |
+| TxGNN-Vorhersagewert | 99,31 % |
 | Evidenzstufe | L5 |
-| Status auf dem deutschen Markt | Nicht vermarktet (Nicht vermarktet) |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Zurückhalten |
+| Marktstatus in Deutschland | Nur erloschene Zulassung |
+| Anzahl der Zulassungen | 1 |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Wirkmechanismus-Daten nicht im Nachweispaket verfügbar (gekennzeichnet als Datenlücke mit hohem Schweregrad, DG002). Basierend auf der Umwidmungsrationale, die der Vorhersage beigefügt ist, ist Ivosidenib ein selektiver Inhibitor von mutiertem IDH1, der die Produktion des Onkometaboliten 2-Hydroxyglutarat (2-HG) blockiert – ein Stoffwechsel-/Epigenetik-Weg, der für hämatologische Malignität relevant ist, nicht für neurologische oder Infektionskrankheiten.
+Ein Wirkmechanismus ist in den für diesen Bericht zusammengestellten Daten derzeit nicht hinterlegt. Bekannt ist, dass Ivosidenib die mutierte Isocitrat-Dehydrogenase 1 (IDH1) hemmt und dadurch den Spiegel des Onkometaboliten 2-Hydroxyglutarat in IDH1-mutierten Tumoren senkt. Die Wirksamkeit bei akuter myeloischer Leukämie und Cholangiokarzinom beruht auf diesem tumorspezifischen Mechanismus.
 
-**Diese Vorhersage mit dem höchsten Rang ist mechanistisch nicht angemessen.** Bulbäre Poliomyelitis ist eine neurodegenerative Erkrankung, die durch Poliovirus-Infektion von Motoneuronen verursacht wird. Sie teilt keinen bekannten Weg, kein Ziel oder biologischen Prozess mit IDH1-mutierter Onkogenese. Das Nachweispaket selbst charakterisiert dies ausdrücklich als ein Artefakt der Einbettungsähnlichkeit („falsch positiv") ohne unterstützende Hypothese – dies ist ein Fall, in dem ein hoher TxGNN-Wert keine biologische Plausibilität anzeigt.
+Die bulbäre Poliomyelitis ist dagegen eine Virusinfektion der Motoneuronen, ausgelöst durch das Poliovirus. Ein IDH1-abhängiger Signalweg ist hierbei nicht bekannt. Ein glaubwürdiger mechanistischer Zusammenhang zwischen der ursprünglichen und der vorhergesagten Indikation besteht daher nicht.
 
-Zwei niedrig bewertete, aber glaubwürdigere Kandidaten existieren in diesem Nachweispaket: **AML/MDS im Zusammenhang mit vorheriger Strahlentherapie** und **AML/MDS im Zusammenhang mit vorheriger Alkylanzien-Therapie** (beide L4, „Forschungsfrage"-Stadium). Beide sind therapiebezogene sekundäre Leukämien, die in einer Genotyp-stratifizierten Untergruppe IDH1-R132-Mutationen tragen können, die der zugelassenen primären AML-Indikation von Ivosidenib ähnlich sind. Allerdings dominieren TP53-Mutation und komplexer Karyotyp – nicht IDH1-Mutation – diese sekundären Leukämie-Subtypen, und es gibt derzeit keine dedizierten Versuche oder Fallberichte für diese Population. Diese bleiben Hypothesen-generierende Extrapolationen aus der zugelassenen AML-Bezeichnung statt unabhängig unterstützte neue Indikationen.
+Der hohe TxGNN-Score ist sehr wahrscheinlich ein Artefakt des Wissensgraphen, etwa durch gemeinsame Nachbarknoten über allgemeine neurologische oder metabolische Konzepte. Er wird durch keine biologische Begründung gestützt.
 
----
-
-## Evidenz klinischer Studien
-
-Derzeit keine zugehörigen klinischen Studien registriert.
+Plausibler sind die weiteren Vorhersagen mit gleich hohem Score: **strahlungsassoziierte** sowie **durch Alkylanzien bedingte AML/MDS** (therapieassoziierte myeloische Neoplasien). Hier handelt es sich um Untergruppen einer bereits zugelassenen Krankheitsklasse. Ein möglicher Nutzen hinge vom IDH1-Mutationsstatus ab, nicht von der Ätiologie. Das ist eher eine biomarkerdefinierte Teilpopulation einer bestehenden Indikation als eine echte Neuindikation (Evidenzstufe L4, Einstufung „Forschungsfrage“).
 
 ---
 
-## Literaturbeweise
+## Klinische Studien
 
-Derzeit keine zugehörige Literatur verfügbar.
+Derzeit sind keine einschlägigen klinischen Studien registriert.
 
 ---
 
-## Informationen zum deutschen Markt
+## Literaturevidenz
 
-Im lokalen Datensatz sind derzeit keine Marketingzulassungen für dieses Arzneimittel registriert (Marktstatus: Nicht vermarktet / Nicht vermarktet; Gesamtzulassungen: 0).
+Derzeit liegt keine einschlägige Literatur vor.
+
+---
+
+## Marktinformationen Deutschland
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/005936 | Tibsovo (Les Laboratoires Servier) | – | Akute myeloische Leukämie; Cholangiokarzinom |
+
+Diese Zulassung ist erloschen; es existiert keine gültige Zulassung.
 
 ---
 
 ## Zytotoxizität
 
-| Element | Inhalt |
-|---------|--------|
-| Zytotoxizitätsklassifizierung | Zielgerichtete Therapie (mutanter IDH1-Enzym-Inhibitor) |
-| Myelosuppressions-Risiko | Bitte beachten Sie die Warnungen und Vorsichtsmaßnahmen der Packungsbeilage |
-| Emetogenitätsklassifizierung | Bitte beachten Sie die Warnungen und Vorsichtsmaßnahmen der Packungsbeilage |
-| Überwachungselemente | Bitte beachten Sie die Warnungen und Vorsichtsmaßnahmen der Packungsbeilage |
-| Handhabungsschutz | Bitte beachten Sie die Warnungen und Vorsichtsmaßnahmen der Packungsbeilage |
+| Punkt | Inhalt |
+|------|------|
+| Zytotoxizitätsklassifikation | Zielgerichtete Therapie (IDH1-Inhibitor) |
+| Myelosuppressionsrisiko | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Emetogenitätsklassifikation | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Überwachungsparameter | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Schutzmaßnahmen bei der Handhabung | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
 
 ---
 
-## Sicherheitsüberlegungen
+## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. (Derzeit sind keine Warnungen, Kontraindikationen oder Arzneimittelwechselwirkungsdaten verfügbar; TFDA-Etikett-Daten sind als blockierende Datenlücke gekennzeichnet, DG001.)
+**Arzneimittelwechselwirkungen:** Die Abfrage ergab 100 Wechselwirkungen (Datenbank DDInter). Die Auswahl der ersten 20 enthält folgende Einträge:
+
+- **Schwerwiegend (Major):** Aprepitant, Clarithromycin, Dolasetron, Palonosetron, Cisapride, Granisetron, Levofloxacin
+- **Moderat (Moderate):** Famotidin, Loperamid, Bisacodyl, Picosulfat, Polyethylenglykol (3350 mit Elektrolyten), Saxagliptin, Eliglustat, Linagliptin, Natriumsulfat, Rizinusöl, Glycerin, Lactitol, Lactulose
+
+Auffällig sind mehrere Substanzen, die die QT-Zeit beeinflussen können (u. a. 5-HT3-Antagonisten, Cisaprid, Levofloxacin, Clarithromycin). Eine Kombination erfordert besondere Vorsicht.
+
+Für Warnhinweise und Gegenanzeigen bitte die Fachinformation heranziehen.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Zurückhalten**
+**Entscheidung: Hold** (für bulbäre Poliomyelitis)
 
 **Begründung:**
-Die Vorhersage mit dem höchsten Rang (Bulbäre Poliomyelitis) hat keinen unterstützenden Mechanismus, Versuche oder Literatur, und wird innerhalb des Nachweispakets explizit als wahrscheinlich falsch positiv identifiziert. Die zwei mechanistisch plausiblen sekundären Kandidaten (therapiebezogene AML/MDS) bleiben im Stadium Forschungsfrage (L4) ohne direkte klinische Evidenz, daher rechtfertigt derzeit kein Kandidat in diesem Paket, über „Zurückhalten" hinauszugehen.
+- Für die vorhergesagte Indikation fehlen Studien und Literatur, und es gibt keinen plausiblen biologischen Zusammenhang. Der hohe Score ist sehr wahrscheinlich ein Artefakt des Wissensgraphen.
+- Die AML/MDS-Untergruppen (strahlungs- bzw. alkylanzienassoziiert) sind als biomarkerabhängige Forschungsfragen innerhalb der bereits zugelassenen AML-Indikation einzuordnen.
 
-**Um fortzufahren, wird Folgendes benötigt:**
-- TFDA/Herstelleretikett-Daten (Warnungen, Kontraindikationen) zur Schließung der blockierenden Datenlücke (DG001)
-- Bestätigte MOA-Daten von DrugBank (DG002) zur Unterstützung formaler mechanistischer Bewertungen
-- Falls die AML/MDS-bezogenen Kandidaten verfolgt werden: Genotyp-stratifizierte Fallserien oder Registerdaten, die die Prävalenz der IDH1-R132-Mutation in strahlungs- und alkylanzien-bezogenen sekundären AML/MDS bestätigen
-- Gezielte Literatursuche beschränkt auf therapiebezogene AML/MDS mit IDH1-Mutationsstatus, anstatt sich auf die Extrapolation der primären AML-Indikation zu verlassen
-
+**Für ein Weiterkommen erforderlich:**
+- Fachinformation (BfArM) mit Warnhinweisen und Gegenanzeigen beschaffen und auswerten (blockierende Datenlücke für die Sicherheitsprüfung)
+- Daten zum Wirkmechanismus aus DrugBank ergänzen
+- Für die AML/MDS-Untergruppen: Literatur- und Studienrecherche zu IDH1-mutierten therapieassoziierten myeloischen Neoplasien
+- Aktuellen Verfügbarkeitsstatus in Deutschland prüfen, da nur eine erloschene Zulassung vorliegt
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

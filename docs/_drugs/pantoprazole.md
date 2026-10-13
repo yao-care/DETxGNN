@@ -2,7 +2,7 @@
 layout: default
 title: Pantoprazole
 parent: Hohe Evidenz (L1-L2)
-nav_order: 293
+nav_order: 343
 evidence_level: L1
 indication_count: 6
 ---
@@ -29,93 +29,129 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Pantoprazole: Von etablierter PPI-Anwendung zum aktiven Magengeschwür
+# Pantoprazol: Von gastroösophagealer Refluxkrankheit zu aktivem Magengeschwür (Ulcus pepticum)
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Pantoprazole ist ein Protonenpumpenhemmer (PPI); für dieses Arzneimittel liegen keine formalen Angaben zur ursprünglichen Indikation oder zur Marktzulassung in der aktuellen Gerichtsbarkeit vor, das Präparat ist jedoch in der globalen Literatur (gemäß dem Evidenzpaket in diesem Bericht) als Behandlung für säurebedingte Störungen wie GERD, erosive Ösophagitis und H.-pylori-Eradikationsschemata anerkannt.
-Die Top-Vorhersage des TxGNN-Modells ist **Aktives Magengeschwür**, unterstützt durch **3 klinische Studien** und **19 Publikationen** — wichtig ist, dass dies eine Standard-, bereits etablierte Anwendung von PPIs und nicht eine neuartige mechanistische Erweiterung darstellt.
+Pantoprazol ist ein Protonenpumpenhemmer, der in Deutschland ursprünglich zur Behandlung der gastroösophagealen Refluxkrankheit zugelassen war.
+Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **aktivem peptischem Ulkus** voraus, mit **1 klinischen Studie (Phase 3)** und **19 Publikationen** für diese Indikation. Für die Rangfolge der Vorhersagen insgesamt stützen sich die Daten auf bis zu **15 Studien** und zahlreiche Publikationen (beim Zwölffingerdarmgeschwür).
+Wichtig: Diese Indikation liegt sehr nah an den bereits etablierten säurebezogenen Anwendungen und ist daher kein echtes Repurposing im engeren Sinn.
 
 ---
 
-## Schnelleübersicht
+## Schnellübersicht
 
 | Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Nicht in dieser Gerichtsbarkeit dokumentiert (keine Lizenzunterlagen); pharmakologisch eine etablierte PPI bei GERD/erosiver Ösophagitis/H.-pylori-Eradikation gemäß Literaturbeweise |
-| Vorhergesagte neue Indikation | Aktives Magengeschwür |
-| TxGNN-Vorhersagepunktzahl | 99.69% |
-| Evidenzstufe | L1 |
-| Marktstatus Deutschland | ✗ Nicht auf dem Markt |
-| Anzahl der Genehmigungen | 0 |
-| Empfohlene Entscheidung | Mit Vorsichtsmaßnahmen fortfahren |
+| Ursprüngliche Indikation | Gastroösophageale Refluxkrankheit |
+| Vorhergesagte neue Indikation | Aktives peptisches Ulkus (active peptic ulcer disease) |
+| TxGNN-Vorhersagewert | 99,69 % |
+| Evidenzlevel | L1 |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen (keine gültige Zulassung) |
+| Anzahl der Zulassungen | 3 (alle aufgehoben) |
+| Empfohlene Entscheidung | Proceed with Guardrails (Fortfahren mit Schutzmaßnahmen) |
 
 ---
 
-## Warum ist diese Vorhersage sinnvoll?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit ist kein strukturiertes DrugBank-MOA-Feld für dieses Arzneimittel verfügbar (als Datenlücke gekennzeichnet). Die mechanistische Begründung des Evidenzpakets und die unterstützende Literatur (z. B. PMID 19938880, PMID 9017763) beschreiben jedoch konsistent Pantoprazole als einen Protonenpumpenhemmer, der **irreversibel an das H+/K+-ATPase-Enzym in Parietalzellen des Magens bindet und es hemmt**, wodurch die Magensäuresekretion bei ihrem letzten gemeinsamen Schritt reduziert wird.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Aus der Literatur ist jedoch bekannt: Pantoprazol hemmt irreversibel die H⁺/K⁺-ATPase (Protonenpumpe) in den Belegzellen des Magens und senkt so die Säuresekretion. Dies ermöglicht die Abheilung von Geschwüren.
 
-Dieser Mechanismus ist die gut etablierte pharmakologische Grundlage für die Behandlung aller säurebedingten Störungen, einschließlich Magengeschwür. Wie die eigene Begründung des Modells direkt besagt: *„Pantoprazole hemmt irreversibel die H+/K+-ATPase in Parietalzellen und reduziert direkt die Magensäuresekretion — dies ist der Standard-, zugelassene Behandlungsmechanismus für aktives Magengeschwür, nicht eine neuartige mechanistische Erweiterung."*
+Refluxkrankheit und Magen-/Zwölffingerdarmgeschwür sind beides säurebedingte Erkrankungen. Der gleiche Mechanismus der Säuresuppression gilt daher für beide. Die Vorhersage ist mechanistisch nachvollziehbar, stellt aber eher eine Bestätigung einer bekannten Anwendung dar als eine neuartige Erkenntnis.
 
-Mit anderen Worten, diese Vorhersage bestätigt weitgehend **die bekannte PPI-Pharmakologie** und offenbart keinen genuinen neuen therapeutischen Weg. Die praktische Bedeutung liegt hier weniger in mechanistischer Neuheit als vielmehr in **regulatorischem/Marktstatus**: Dieses Arzneimittel hat null aufgezeichnete lokale Lizenzen, daher ist die relevante Frage die Markteintritt-/Einreichung für eine Indikation, die bereits weltweit pharmakologisch gut unterstützt ist, anstelle des Off-Label-Repurposing-Risikos.
+Weitere vorhergesagte Indikationen im Überblick:
+
+| Rang | Indikation | Score | Evidenzlevel | Einschätzung |
+|---|---|---|---|---|
+| 1 | Aktives peptisches Ulkus | 99,69 % | L1 | Proceed with Guardrails |
+| 2 | Gastrojejunales Ulkus | 99,63 % | L3 | Forschungsfrage |
+| 3 | Perforiertes peptisches Ulkus | 99,63 % | L3 | Forschungsfrage (nur Zusatztherapie zur Versorgung) |
+| 4 | Duodenogastraler Reflux | 99,27 % | L3 | Forschungsfrage (Effekt auf Gallenreflux unsicher) |
+| 5 | Duodenale Obstruktion | 99,21 % | L5 | Hold (kein plausibler Mechanismus; mechanische Ursache) |
+| 6 | Duodenalulkus | 99,18 % | L1 | Proceed with Guardrails |
 
 ---
 
-## Evidenz aus klinischen Studien
+## Klinische Studien
 
-| Studiennummer | Phase | Status | Teilnehmerzahl | Wichtigste Erkenntnisse |
+Studie für die Hauptvorhersage (aktives peptisches Ulkus):
+
+| Studiennummer | Phase | Status | Teilnehmer | Wichtigste Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT02084420](https://clinicaltrials.gov/study/NCT02084420) | Phase 3 | Abgeschlossen | 323 | Multizentrische, randomisierte, doppelblinde, aktiv kontrollierte Studie zum Vergleich von Ilaprazole vs. Pantoprazole-Dreifachtherapie zur H.-pylori-Eradikation bei Patienten mit Magen-/Duodenalgeschwür (Grad-A-Relevanz) |
-| [NCT02197039](https://clinicaltrials.gov/study/NCT02197039) | N/A | Abgeschlossen | 316 | Prospektive Studie zur Identifizierung von Risikofaktoren für schlechte SRH-Rückbildung/frühe Reblutung nach endoskopischer Blutstillung und hochdosierter PPI-Infusion, um Kriterien für die erneute Endoskopie zu leiten (Grad-B-Relevanz) |
-| [NCT00930670](https://clinicaltrials.gov/study/NCT00930670) | Phase 4 | Abgeschlossen | 320 | Bewertete den Einfluss von PPIs (und Statinen) auf den Antiplatelet-Effekt von Clopidogrel bei PCI-Patienten — DDI-fokussiert, nicht eine direkte Ulkus-Wirksamkeitsstudie (Grad-C-Relevanz) |
+| [NCT02084420](https://clinicaltrials.gov/study/NCT02084420) | Phase 3 | Abgeschlossen | 323 | Multizentrische, randomisierte, doppelblinde Studie: Ilaprazol vs. Pantoprazol in der 7-Tage-Tripeltherapie zur H.-pylori-Eradikation bei Magen- und/oder Zwölffingerdarmgeschwür |
+
+Ergänzend relevante Studien aus der Vorhersage zum Zwölffingerdarmgeschwür (Auswahl):
+
+| Studiennummer | Phase | Status | Teilnehmer | Wichtigste Ergebnisse |
+|---------|------|------|------|---------|
+| [NCT00374101](https://clinicaltrials.gov/study/NCT00374101) | Phase 3 | Abgeschlossen | 450 | Hochdosierte vs. Standarddosis-PPI nach endoskopischer Therapie bei blutenden Ulzera |
+| [NCT01182597](https://clinicaltrials.gov/study/NCT01182597) | Phase 3 | Unbekannt | 190 | Orale vs. intravenöse PPI-Therapie bei Hochrisiko-Ulkusblutung nach endoskopischer Blutstillung |
+| [NCT00261300](https://clinicaltrials.gov/study/NCT00261300) | Phase 3 | Abgeschlossen | 100 | Langzeit-Pantoprazol bei chronischen säurebedingten Beschwerden |
+| [NCT00161096](https://clinicaltrials.gov/study/NCT00161096) | Phase 3 | Unbekannt | 276 | Bedarfsweise vs. tägliche Gabe von Pantoprazol 20 mg nach Symptomkontrolle |
+| [NCT02467621](https://clinicaltrials.gov/study/NCT02467621) | Phase 4 | Abgeschlossen | 3350 | Stressulkusprophylaxe mit PPI auf der Intensivstation (SUP-ICU) |
+| [NCT00843063](https://clinicaltrials.gov/study/NCT00843063) | Phase 4 | Abgeschlossen | 161 | Famotidin vs. Pantoprazol zur Rezidivprophylaxe aspirinbedingter Ulzera |
+| [NCT02551744](https://clinicaltrials.gov/study/NCT02551744) | Nicht zutreffend | Abgeschlossen | 101 | Pantoprazol vs. Famotidin zur Rezidivprophylaxe bei Thienopyridin-Anwendern |
+| [NCT01167101](https://clinicaltrials.gov/study/NCT01167101) | Nicht zutreffend | Abgeschlossen | 290 | Rebamipid zusätzlich zu PPI bei Ulkusheilung nach endoskopischer Mukosaresektion |
+
+Hinweis: Bei NCT02084420 ist der Titel verkürzt; Vergleichssubstanz und Endpunkt sollten noch geprüft werden.
 
 ---
 
-## Evidenz aus der Literatur
+## Literaturevidenz
 
-| PMID | Jahr | Typ | Journal | Wichtigste Erkenntnisse |
+| PMID | Jahr | Typ | Zeitschrift | Wichtigste Ergebnisse |
 |------|-----|------|------|---------|
-| [18824852](https://pubmed.ncbi.nlm.nih.gov/18824852/) | 2008 | RCT | Digestion | Prospektive RCT zum Vergleich von intermittierender vs. kontinuierlicher Pantoprazole-Infusion für Magengeschwürblutung nach endoskopischer Therapie |
-| [12752349](https://pubmed.ncbi.nlm.nih.gov/12752349/) | 2003 | RCT | Aliment Pharmacol Ther | Verglich drei Pantoprazole-basierte Dreifachtherapie-Schemata zur H.-pylori-Eradikation und Magengeschwürheilung |
-| [16677158](https://pubmed.ncbi.nlm.nih.gov/16677158/) | 2006 | RCT | J Gastroenterol Hepatol | Prospektive RCT der Pantoprazole-Infusion als adjuvante Therapie zur endoskopischen Behandlung von Magengeschwürblutungen |
-| [11802510](https://pubmed.ncbi.nlm.nih.gov/11802510/) | 2001 | RCT | Wien Klin Wochenschr | RCT zum Vergleich von Amoxicillin/Clarithromycin plus Sucralfat oder Pantoprazole zur H.-pylori-Eradikation bei Duodenalgeschwür |
-| [15244210](https://pubmed.ncbi.nlm.nih.gov/15244210/) | 2003 | Vergleichsstudie | Hepatogastroenterology | Verglich die Wirksamkeit von Lansoprazole und Pantoprazole bei der Behandlung von aktivem Duodenalgeschwür und H.-pylori-Eradikation |
-| [10632647](https://pubmed.ncbi.nlm.nih.gov/10632647/) | 2000 | Klinische Studie | Aliment Pharmacol Ther | Pantoprazole mit Amoxicillin und Azithromycin/Clarithromycin zur H.-pylori-Eradikation bei Duodenalgeschwür |
-| [22919877](https://pubmed.ncbi.nlm.nih.gov/22919877/) | 2012 | Klinische Studie | Med Arch | Bewertete die PPI-Wirksamkeit nach endoskopischer Blutstillung bei Magengeschwürblutung und die Rolle von H. pylori |
-| [10228801](https://pubmed.ncbi.nlm.nih.gov/10228801/) | 1999 | Klinische Studie | Hepatogastroenterology | Schnelle Symptomverbesserung mit Pantoprazole + Amoxicillin + Metronidazol bei H.-pylori-positivem Duodenalgeschwür |
-| [9678814](https://pubmed.ncbi.nlm.nih.gov/9678814/) | 1998 | Klinische Studie | Aliment Pharmacol Ther | Zwei-Wochen-Pantoprazole mit Ein-Wochen-Amoxicillin/Clarithromycin wirksam zur H.-pylori-Eradikation und Duodenalgeschwürheilung |
-| [19938880](https://pubmed.ncbi.nlm.nih.gov/19938880/) | 2009 | Übersicht | Clin Drug Investig | Überblick über Pantoprazoles Mechanismus (irreversible H+/K+-ATPase-Bindung), lange Wirkdauer und DDI-Profil |
+| [38345252](https://pubmed.ncbi.nlm.nih.gov/38345252/) | 2024 | Systematische Übersicht/Netzwerk-Metaanalyse | Am J Gastroenterol | Vergleich von P-CAB und PPI bei schwerer Ösophagitis (Grad C/D) |
+| [38384180](https://pubmed.ncbi.nlm.nih.gov/38384180/) | 2024 | RCT | Gut Liver | Tegoprazan bei durch endoskopische Resektion induzierten Ulzera |
+| [19938880](https://pubmed.ncbi.nlm.nih.gov/19938880/) | 2009 | Übersichtsarbeit | Clin Drug Investig | Pantoprazol: irreversible Bindung an die Protonenpumpe, lange Wirkdauer, keine bekannten Wechselwirkungen in zahlreichen Studien |
+| [21534455](https://pubmed.ncbi.nlm.nih.gov/21534455/) | 2011 | Übersichtsarbeit | Med Arh | PPI beim Management der Refluxkrankheit |
+| [11060758](https://pubmed.ncbi.nlm.nih.gov/11060758/) | 2000 | Übersichtsarbeit | Expert Opin Investig Drugs | Neue Therapieansätze bei Magen- und Zwölffingerdarmgeschwüren |
+| [10638560](https://pubmed.ncbi.nlm.nih.gov/10638560/) | 2000 | Klinische Studie | Am J Gastroenterol | Pantoprazol vs. Ranitidin beim Zwölffingerdarmgeschwür (Brasilien) |
+| [15244210](https://pubmed.ncbi.nlm.nih.gov/15244210/) | 2003 | Klinische Studie | Hepatogastroenterology | Lansoprazol vs. Pantoprazol bei aktivem Duodenalulkus und H.-pylori-Eradikation |
+| [7569755](https://pubmed.ncbi.nlm.nih.gov/7569755/) | 1995 | RCT | Scand J Gastroenterol | Pantoprazol vs. Ranitidin beim akuten Duodenalulkus |
+| [7614102](https://pubmed.ncbi.nlm.nih.gov/7614102/) | 1995 | RCT | Eur J Gastroenterol Hepatol | Pantoprazol 40 mg vs. Omeprazol 20 mg beim akuten Duodenalulkus (Abheilungsraten) |
+| [8882382](https://pubmed.ncbi.nlm.nih.gov/8882382/) | 1996 | Übersichtsarbeit | Drugs | Pantoprazol 40 mg ist Ranitidin überlegen und Omeprazol 20 mg gleichwertig bei akutem Ulkus und Refluxösophagitis |
 
 ---
 
-## Marktinformationen für Deutschland
+## Marktinformationen Deutschland
 
-Pantoprazole hat derzeit **0 Genehmigungen** in dem Lizenzregister dieser Gerichtsbarkeit — der Marktstatus wird als **Nicht auf dem Markt** aufgezeichnet, wobei keine Lizenzeinträge verfügbar sind, um zusammenzufassen.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/001097 | Controloc Control | – | Gastroösophageale Refluxkrankheit |
+| EMEA/H/C/001098 | Somac Control | – | Gastroösophageale Refluxkrankheit |
+| EMEA/H/C/001013 | Pantozol Control | – | Gastroösophageale Refluxkrankheit |
+
+Alle drei Zulassungen (Inhaber: Takeda GmbH) sind aufgehoben bzw. erloschen; es besteht derzeit keine gültige Einzel- oder Kombinationszulassung in den erfassten Daten.
 
 ---
 
-## Sicherheitsüberlegungen
+## Sicherheitsaspekte
 
-⚠️ **Blocking-Datenlücke**: Packungsbeilage-Warnungen und Kontraindikationen für dieses Arzneimittel wurden noch nicht abgerufen (Schweregrad: Blockierend). Gemäß dem Evidenzpaket muss diese Lücke geschlossen werden, bevor der Kandidat formal in die S1-Sicherheits-Vorbewertungsstufe eintreten kann.
+- **Kontraindikationen aus dem Wissensgraphen** (Kontraindikationskanten des TxGNN-Wissensgraphen, kein Packungsbeilagentext): Osteoporose, postmenopausale Osteoporose, Knochenbruch, perniziöse Anämie. Diese Angaben sind als Hinweis auf zu prüfende Risiken (z. B. Knochengesundheit, Vitamin-B12-Mangel bei Langzeitanwendung) zu verstehen und müssen anhand der Fachinformation verifiziert werden.
+- **Arzneimittelwechselwirkungen**: Insgesamt wurden 100 Wechselwirkungen erfasst. Beispiele:
+  - **Schwerwiegend (Major):** Acalabrutinib, Atazanavir
+  - **Moderat:** u. a. Hydrochlorothiazid, Alpelisib, Amphotericin B, Amikacin, Amphetamin, Fenofibrat, Apalutamid, Armodafinil, Atorvastatin, Bosutinib, Bumetanid
+  - **Gering (Minor):** u. a. Acetylsalicylsäure, Axitinib, Bortezomib, Brivaracetam, Cyanocobalamin
 
-Bitte beachten Sie die Packungsbeilage für detaillierte Sicherheitsinformationen, sobald diese verfügbar ist.
+Für Warnhinweise und Kontraindikationen laut Label bitte die Packungsbeilage bzw. Fachinformation heranziehen.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Mit Vorsichtsmaßnahmen fortfahren**
+**Entscheidung: Proceed with Guardrails**
 
 **Begründung:**
-Die mechanistische und klinische Studien-/Literaturbeweise für die PPI-Wirksamkeit beim aktiven Magengeschwür sind umfangreich und gut etabliert (Evidenzstufe L1) — dies ist kein mechanistisch neuartiges Zweckentfremdungssignal, sondern eine pharmakologisch gut unterstützte Anwendung. Allerdings hat das Arzneimittel derzeit keine lokale Marktzulassung und eine **blockierende** Sicherheitsdatenlücke (fehlende Packungsbeilage-Warnungen/Kontraindikationen), daher sind Vorsichtsmaßnahmen vor dem Fortfahren angebracht.
+Für das aktive peptische Ulkus und das Duodenalulkus liegen Phase-3-Studien sowie mehrere randomisierte Vergleichsstudien vor (Pantoprazol vs. Ranitidin und vs. Omeprazol), und der Mechanismus ist etabliert. Es handelt sich jedoch um eine säurebedingte Kernindikation und nicht um ein neuartiges Repurposing. Die übrigen Vorhersagen (gastrojejunales Ulkus, Ulkusperforation, duodenogastraler Reflux) sind Forschungsfragen, die duodenale Obstruktion sollte zurückgestellt werden (Hold).
 
-**Zum Fortfahren ist Folgendes erforderlich:**
-- Abrufen und Auswertung der offiziellen Packungsbeilage (Warnungen, Kontraindikationen, DDI) zur Behebung der blockierenden Sicherheitsdatenlücke (DG001)
-- Beschaffung strukturierter DrugBank-MOA-Daten zur formalen Dokumentation des Mechanismus (DG002)
-- Bestätigung des regulatorischen Einreichungs- und Lizenzierungswegs, da derzeit 0 lokale Genehmigungen vorhanden sind, obwohl PPI-Zulassungen weltweit bestehen
-- In Anbetracht der mechanistischen Überlappung prüfen, ob die niedriger bewerteten Kandidaten (Duodenalgeschwür, L1; Gastrojejunalgeschwür, Magengeschwürperforation, L2) eine kombinierte Einreichungsstrategie anstelle von separaten Einzelindikations-Einreichungen rechtfertigen
-
+**Für das weitere Vorgehen ist Folgendes erforderlich:**
+- Packungsbeilagen und Fachinformationen des BfArM beschaffen und auswerten (Warnhinweise und Kontraindikationen fehlen derzeit; dies blockiert die Sicherheitsprüfung)
+- Detaillierte Wirkmechanismus-Daten aus DrugBank ergänzen
+- Klärung des Zulassungsstatus in Deutschland, da alle erfassten Zulassungen aufgehoben sind
+- Verifizierung von Vergleichssubstanz und Endpunkten bei NCT02084420
+- Prüfung der Kontraindikationssignale (Osteoporose, Knochenbruch, perniziöse Anämie) bei Langzeitanwendung
+- Beachtung der Wechselwirkungen mit schwerwiegender Einstufung (Acalabrutinib, Atazanavir)
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

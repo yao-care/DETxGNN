@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Bosentan
-parent: Nur Modellvorhersage (L5)
-nav_order: 60
-evidence_level: L5
+parent: Mittlere Evidenz (L3-L4)
+nav_order: 69
+evidence_level: L4
 indication_count: 9
 ---
 
 # Bosentan
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9** 
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,79 +29,102 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9**
 
 </div>
 
-# Bosentan: Arzneimittelrepositioning-Bewertung — Unzureichende Daten für eine vollständige Bewertung
+# Bosentan: Von pulmonaler Hypertonie und systemischer Sklerose zu rheumatoider Arthritis
 
 ## Zusammenfassung in einem Satz
 
-Bosentan (DrugBank ID: DB00559) ist ein Kandidat für die Arzneimittelrepositioning dieser Runde. Derzeit sind in der Evidence Pack jedoch **keine neuen durch TxGNN vorhergesagten Indikationen**, **keine Aufzeichnungen ursprünglicher Indikationen**, **keine Sicherheitsdaten** vorhanden, und das Arzneimittel ist in Taiwan noch nicht vermarktet, daher kann der Standard-Arzneimittelrepositioning-Bewertungsprozess in der gegenwärtigen Phase nicht durchgeführt werden. Es wird empfohlen, die Bewertung dieses Kandidaten auszusetzen, bis wichtige Datenlücken gefüllt sind.
+Bosentan ist ein dualer Endothelin-Rezeptor-Antagonist, der ursprünglich zur Behandlung der pulmonalen arteriellen Hypertonie und der systemischen Sklerose eingesetzt wird.
+Das TxGNN-Modell sagt voraus, dass er bei **rheumatoider Arthritis** wirksam sein könnte.
+Dafür liegen derzeit **keine klinischen Studien** und **15 Publikationen** vor, die überwiegend Übersichtsarbeiten, Fallberichte und Tiermodelle sind; die Evidenz ist daher schwach.
 
 ---
 
 ## Schnellübersicht
 
-| Eintrag | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Keine Aufzeichnung in vorliegenden Daten |
-| Vorhergesagte neue Indikation | Keine (TxGNN erzeugte keine Vorhersageergebnisse) |
-| TxGNN-Vorhersage-Bewertung | n. z. |
-| Evidenzstufe | L5 (nur Modellebene, keine tatsächlichen Untersuchungen) |
-| Taiwan-Marktstatus | ✗ Nicht vermarktet |
-| Anzahl der Genehmigungen | 0 |
-| Empfohlene Entscheidung | **Halten** |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Pulmonale Hypertonie; systemische Sklerose |
+| Vorhergesagte neue Indikation | Rheumatoide Arthritis |
+| TxGNN-Vorhersagewert | 99,80 % |
+| Evidenzstufe | L4 |
+| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassungen |
+| Anzahl der Zulassungen | 2 (beide erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit können detaillierte Daten zum Wirkungsmechanismus nicht beschafft werden. Basierend auf vorliegenden Daten wurde Bosentan (DB00559) erfolgreich über die DrugBank-Abfrage aufgezeichnet, aber die Wirkungsmechanismus-Felder (MOA) sind weiterhin eine Datenlücke, die über die DrugBank-API nachgezogen werden müssen.
+Für diesen Bericht liegen derzeit keine detaillierten Daten zum Wirkmechanismus vor. Bosentan ist bekanntermaßen ein dualer Endothelin-Rezeptor-Antagonist (ETA/ETB). Seine Wirksamkeit bei pulmonaler Hypertonie und systemischer Sklerose ist belegt.
 
-Ursprüngliche Zulassungsindikationen sind ebenfalls nicht in dieser Evidence Pack aufgezeichnet (`original_indications` ist ein leeres Array), die TFDA-Datenbankabfrage ergab 0 Ergebnisse, was darauf hinweist, dass dieses Arzneimittel in Taiwan keine zugelassenen Markteinträge enthält, auf die verwiesen werden kann.
+Endothelin-1 trägt in Arthritis-Modellen zu Entzündung, Gefäßveränderungen und Zytokinfreisetzung (TNF, IL-17, LTB4) bei. In einem Mausmodell der kollageninduzierten Arthritis verringerte Bosentan die Krankheitsaktivität, wobei ein TNF-abhängiger Mechanismus beschrieben wurde (PMID 22249931). Zudem sind die Endothelin-1-Spiegel in Plasma und Synovialmembran von RA-Patienten erhöht.
 
-Da TxGNN keine Vorhersageindikationen erzeugt hat (`predicted_indications` ist ein leeres Array), können weder die Wirkungsmechanismus-Assoziationsanalyse noch die Bewertung der Angemessenheit neuer Indikationen in der gegenwärtigen Phase durchgeführt werden.
-
----
-
-## Klinische Studienevidenz
-
-Derzeit sind keine zugehörigen klinischen Studiendaten vorhanden.
+Ein Großteil der humanen Literatur betrifft jedoch die mit Bindegewebserkrankungen assoziierte pulmonale arterielle Hypertonie, also den bereits zugelassenen Kontext und nicht die Gelenkerkrankung der RA. Die Plausibilität beruht derzeit auf präklinischen Daten und Modellvorhersagen.
 
 ---
 
-## Literaturevidenz
+## Evidenz aus klinischen Studien
 
-Derzeit sind keine zugehörigen Literaturdaten vorhanden.
+Derzeit sind keine relevanten klinischen Studien registriert.
 
 ---
 
-## Taiwan-Marktinformationen
+## Evidenz aus der Literatur
 
-Bosentan ist derzeit in Taiwan **nicht vermarktet**, die TFDA-Datenbankabfrage zeigt keine Arzneimittelzulassungsaufzeichnungen (Abfragedatum: 2026-03-29, Anzahl der Abfrageergebnisse: 0).
+Die folgende Auswahl berücksichtigt die für die Fragestellung relevantesten Arbeiten (Präklinik und Übersichten zu Bosentan).
+
+| PMID | Jahr | Typ | Journal | Wichtigste Erkenntnisse |
+|------|-----|------|------|---------|
+| [22249931](https://pubmed.ncbi.nlm.nih.gov/22249931/) | 2012 | Präklinisch (Tiermodell) | Inflammation Research | Bosentan lindert kollageninduzierte Arthritis bei Mäusen; TNF-α induziert Endothelin-System-Gene |
+| [18515326](https://pubmed.ncbi.nlm.nih.gov/18515326/) | 2008 | Präklinisch (Tiermodell) | Journal of Leukocyte Biology | Endotheline modulieren die Entzündungsreaktion bei zymosaninduzierter Arthritis (LTB4, TNF-α, CXCL-1) |
+| [16766656](https://pubmed.ncbi.nlm.nih.gov/16766656/) | 2006 | Präklinisch (Tiermodell) | PNAS | IL-15-induzierte Hypernozizeption wird durch duale Endothelin-Rezeptor-Blockade gehemmt |
+| [19969421](https://pubmed.ncbi.nlm.nih.gov/19969421/) | 2010 | Präklinisch (Tiermodell) | Pain | IL-17 vermittelt artikuläre Hypernozizeption bei antigeninduzierter Arthritis |
+| [24268012](https://pubmed.ncbi.nlm.nih.gov/24268012/) | 2014 | Übersichtsarbeit | Rheumatic Diseases Clinics of North America | PAH bei Bindegewebserkrankungen: hohe Morbidität, Mortalität bis 10–15 % im ersten Jahr |
+| [16218473](https://pubmed.ncbi.nlm.nih.gov/16218473/) | 2005 | Übersichtsarbeit | Lupus | PAH als Komplikation von Bindegewebserkrankungen, in geringerem Maß auch bei RA |
+| [19487226](https://pubmed.ncbi.nlm.nih.gov/19487226/) | 2009 | Übersichtsarbeit | Rheumatology (Oxford) | Vaskuläre Erkrankungen und PAH bei SLE und Sjögren-Syndrom |
+| [20054770](https://pubmed.ncbi.nlm.nih.gov/20054770/) | 2009 | Fallbericht | Kardiologia Polska | Kind mit Eisenmenger-Syndrom unter Bosentan und zusätzlich juveniler RA; kein Wirksamkeitsnachweis bei RA |
+| [21165350](https://pubmed.ncbi.nlm.nih.gov/21165350/) | 2010 | Übersichtsarbeit | Canadian Respiratory Journal | Behandlung der pulmonalen Hypertonie bei Bindegewebserkrankung mit interstitieller Lungenerkrankung |
+| [19851110](https://pubmed.ncbi.nlm.nih.gov/19851110/) | 2010 | Übersichtsarbeit | Current Opinion in Rheumatology | Rheumatische Hautmanifestationen; kein direkter Bezug zu Bosentan bei RA |
+
+---
+
+## Marktinformationen Deutschland
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/002644 | Stayveer | – | Pulmonale Hypertonie; systemische Sklerose (erloschen) |
+| EMEA/H/C/000401 | Tracleer | – | Systemische Sklerose; pulmonale Hypertonie (erloschen) |
+
+Beide Zulassungen (Janssen-Cilag) sind erloschen; es gibt keine gültige Zulassung.
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte konsultieren Sie die Warnhinweise und Kontraindikationen in der Produktmonographie.
-
-> **Hinweis**: Obwohl die TFDA-Monographie-Abfrage erfolgreich zurückgegeben wurde (`result_count: 1`), wurden die Sicherheitsfelder (Warnhinweise, Kontraindikationen) noch nicht in die Evidence Pack geparst. Dies ist eine **Datenlücke auf Blocking-Ebene (DG001)**, die die S1-Sicherheitsbewertung blockiert und kann nicht durchgeführt werden, bis dies behoben ist.
+- **Kontraindikationen laut Wissensgraph (nicht aus dem Beipackzettel):** Leberversagen, Lebererkrankung, medikamenteninduzierte Leberschädigung, Gallenblasenerkrankung, Thrombozytopenie, Anämie (einschließlich makrozytärer Anämie), Hyperbilirubinämie (einschließlich hereditärer Form), Gilbert-Syndrom, dekompensierte Herzinsuffizienz, Lungenödem, pulmonale venookklusive Erkrankung.
+- **Arzneimittelwechselwirkungen:** 100 Wechselwirkungen erfasst. Beispiele mit moderater Einstufung: Kortikosteroide (Hydrocortison, Dexamethason, Betamethason, Triamcinolon), Pioglitazon, Aprepitant, Metronidazol, Cimetidin, Clarithromycin, Cisaprid, Clotrimazol sowie mehrere Antidiabetika (Chlorpropamid, Acetohexamid, Canagliflozin, Dapagliflozin, Empagliflozin, Ertugliflozin).
+- Weitere Angaben zu Warnhinweisen und Kontraindikationen sind dem Beipackzettel zu entnehmen. Als Klasseneffekt der Endothelin-Rezeptor-Antagonisten sind Teratogenität und Hepatotoxizität zu beachten.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Halten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Diese Evidence Pack weist wichtige fehlende Felder auf, einschließlich TxGNN-Vorhersageindikationen, ursprünglicher Indikationen, MOA und Sicherheitsdaten, daher kann die Repositioning-Eignung von Bosentan in der gegenwärtigen Phase nicht wirksam bewertet werden; es wird empfohlen, bis zur Füllung wichtiger Datenlücken zu warten.
+Für rheumatoide Arthritis gibt es keine klinischen Studien; die Evidenz beschränkt sich auf Tiermodelle und Übersichten zur PAH bei Bindegewebserkrankungen. Hinzu kommen der erloschene Zulassungsstatus in Deutschland und ein relevantes Sicherheitsprofil (Leber, Teratogenität).
 
-**Zum Fortfahren wird Folgendes benötigt:**
+**Für ein Weiterkommen sind folgende Schritte erforderlich:**
+- Daten zum Wirkmechanismus (MOA) aus DrugBank ergänzen
+- Warnhinweise und Kontraindikationen aus dem BfArM-Beipackzettel einholen (aktuell blockierende Datenlücke für das Sicherheits-Screening)
+- Klärung des Zulassungsstatus und der Marktverfügbarkeit in Deutschland
+- Prüfung, ob translationale oder explorative klinische Studien bei RA sinnvoll sind
 
-- **\[DG001 — Kritisch\]** TFDA-Monographie-PDF parsen, um Warnhinweise (key warnings) und Kontraindikationen (contraindications) zu extrahieren, um die S1-Sicherheitsbewertungssperre aufzuheben
-- **\[DG002 — Hoch\]** Wirkungsmechanismus-Daten (MOA) über DrugBank API nachziehen, um die Wirkungsmechanismus-Assoziationsanalyse zu unterstützen
-- Führen Sie den TxGNN-Vorhersageprozess erneut aus, um zu bestätigen, ob neue Indikationsvorhersageergebnisse für Bosentan erzeugt werden; falls weiterhin leer, müssen die Gründe geklärt werden (Knoten nicht erfasst, Bewertung zu niedrig oder bereits gefiltert)
-- Ursprüngliche Zulassungsindikationen (`original_indications`) nachziehen, abrufbar von DrugBank, EMA oder FDA-Etiketten
-- DDI-Datenbank erneut abfragen (aktueller Abfragestatus: `not_found`), um zu bestätigen, ob Arzneimittelwechselwirkungsdaten vorhanden sind
+---
 
+### Hinweis zu weiteren Vorhersagen
+
+Der Vorhersage mit dem höchsten Rang (rheumatoide Arthritis) stehen weitere gegenüber. Bemerkenswert ist **limitierte systemische Sklerose** (Evidenzstufe L3, Empfehlung *Proceed with Guardrails*): Dort gibt es u. a. eine systematische Übersicht mit Metaanalyse von 2023 zu digitalen Ulzerationen (PMID 36974107) und präklinische Daten zur Hemmung der endothelial-mesenchymalen Transition (PMID 27716320). Diese Indikation überschneidet sich jedoch weitgehend mit der bereits zugelassenen Indikation und ist teilweise eine Label-Erweiterung statt einer echten Neupositionierung. Die übrigen Vorhersagen (z. B. Brachydaktylie-Syndaktylie-Syndrom, Gicht, Hypertrichose) haben keine tragfähige Evidenz (L5, Hold).
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

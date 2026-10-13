@@ -2,7 +2,7 @@
 layout: default
 title: Anagrelide
 parent: Nur Modellvorhersage (L5)
-nav_order: 29
+nav_order: 32
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,74 +29,87 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Anagrelide: Von Essentielle Thrombozythämie zur reaktiven Thrombozytose
+# Anagrelid: Von essentieller Thrombozythämie zu reaktiver Thrombozytose
 
-## Zusammenfassung
+## Zusammenfassung in einem Satz
 
-Anagrelide ist ein orales Medikament zur Behandlung von Essentielle Thrombozythämie (ET, ein klonales myeloproliferatives Neoplasma). Das TxGNN-Modell prognostiziert eine mögliche Wirksamkeit gegen **Reactive Thrombocytosis (reaktive Thrombozytose)**, derzeit unterstützt durch **0 klinische Studien** und **10 relevante Publikationen**, wobei die Evidenzqualität hauptsächlich indirekte Extrapolationen darstellt.
+Anagrelid wurde ursprünglich zur Behandlung der essentiellen Thrombozythämie zugelassen. Das TxGNN-Modell sagt voraus, dass es bei **reaktiver Thrombozytose** wirksam sein könnte. Dafür liegen **keine klinischen Studien** und **10 Publikationen** vor (überwiegend Übersichtsarbeiten und Fallberichte, keine davon belegt direkt einen Nutzen bei reaktiver Thrombozytose).
 
-## Übersicht
+## Kurzübersicht
 
-| Element | Inhalt |
-|---------|---------|
-| Ursprüngliche Indikation | Essentielle Thrombozythämie (ET) (international zugelassene Indikation; in Taiwan nicht im Handel, keine lokalen Produktinformationen verfügbar) |
-| Prognostizierte neue Indikation | Reaktive Thrombozytose |
-| TxGNN-Prognosewert | 99.83% |
-| Evidenzlevel | L4 (nur retrospektive Literatur/Mechanismus-Studien, keine direkten klinischen Studien zu dieser Indikation) |
-| Taiwan Marktstatus | Not marketed |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | **Hold (Zurückhaltung)** |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Essentielle Thrombozythämie |
+| Vorhergesagte neue Indikation | Reaktive Thrombozytose |
+| TxGNN-Vorhersagewert | 99,83 % |
+| Evidenzgrad | L4 (nur Übersichtsarbeiten, Fallberichte und mechanistische Überlegungen; keine kontrollierten Studien) |
+| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassungen |
+| Anzahl der Zulassungen | 2 (beide erloschen) |
+| Empfohlene Entscheidung | Hold (zurückstellen) |
 
-## Ist diese Vorhersage sinnvoll?
+## Warum ist diese Vorhersage plausibel?
 
-Das offizielle MOA-Feld ist eine Datenlücke, aber basierend auf der in der Literatur beschriebenen Mechanismus-Validierung wirkt Anagrelide durch Hemmung von PDE3 (Phosphodiesterase Typ 3) und stört die Reifung von Megakaryozyten sowie die Thrombozytenerzeugung, wodurch die Thrombozytenzahl gesenkt wird. Theoretisch könnte dieser Mechanismus unabhängig von der Ursache die Thrombozytenzahl senken und wäre daher pharmakologisch für sowohl klonale (ET) als auch reaktive Thrombozytose durchführbar.
+Zum Wirkmechanismus von Anagrelid liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist aus der Literatur, dass Anagrelid die Thrombozytenzahl senkt, indem es die Reifung und Differenzierung der Megakaryozyten hemmt. Dieser Effekt hängt nicht von der Ursache der Thrombozytose ab, woraus sich eine pharmakologisch plausible Verbindung zur reaktiven Thrombozytose ergibt.
 
-Allerdings konzentrieren sich die derzeit zugelassene Indikation und die meisten Literaturbelege auf ET und nicht auf reaktive Thrombozytose. Die beiden unterscheiden sich pathophysiologisch grundlegend: ET-Thrombozyten zeigen funktionelle Anomalien und hohes thromboembolisches Risiko; reaktive Thrombozytose zeigt normalerweise normale Thrombozytenfunktion und klingt mit der zugrunde liegenden Ursache (Infektion, Entzündung, Eisenmangel, Splenektomie etc.) ab. Internationale Behandlungsleitlinien empfehlen keine routinemäßige Gabe von Zellreduktionsmitteln bei reaktiver Thrombozytose, da das thromboembolische Risiko an sich niedrig ist und die medikamentöse Therapie eher Nebenwirkungen wie Herzrhythmusstörungen und Flüssigkeitsretention birgt. Daher gehören die 10 verfügbaren Publikationen überwiegend zu retrospektiven ET-Beschreibungen, wobei „reactive thrombocytosis" nur als konzeptuelles Differenzialdiagnose-Element erwähnt wird, ohne direkte Wirksamkeitsevidenzen für diese neue Indikation zu liefern.
+Klinisch ist die Übertragung jedoch fraglich. Die reaktive Thrombozytose ist sekundär, etwa durch Entzündung, Infektion, Eisenmangel oder Splenektomie, und meist vorübergehend. Sie geht in der Regel mit einem geringen Thromboserisiko einher und wird durch die Behandlung der Grunderkrankung gelöst. Eine zytoreduktive Therapie ist selten indiziert. Der hohe TxGNN-Wert spiegelt vermutlich vor allem die große Ähnlichkeit zur essentiellen Thrombozythämie wider und nicht unabhängige Evidenz.
+
+Die zweite Vorhersage (inverses Klippel-Trénaunay-Syndrom, Wert 99,59 %) hat keine Studien, keine Literatur und keine erkennbare mechanistische Verbindung (nur Evidenzgrad L5) und wird hier nicht weiter betrachtet.
 
 ## Evidenz aus klinischen Studien
 
-Derzeit gibt es keine registrierten klinischen Studien zu diesem Thema.
+Zurzeit sind keine relevanten klinischen Studien registriert.
 
-## Literaturevidenz
+## Evidenz aus der Literatur
 
-| PMID | Jahr | Typ | Journal | Wichtigste Befunde |
-|------|------|------|---------|-------------------|
-| [15270658](https://pubmed.ncbi.nlm.nih.gov/15270658/) | 2004 | Review | Expert Rev Anticancer Ther | Aktualisierung des Anagrelide-Wirkmechanismus und therapeutisches Potenzial, Fokus auf Therapieoptionen bei klonaler Thrombozytose |
-| [16019501](https://pubmed.ncbi.nlm.nih.gov/16019501/) | 2005 | Review | Leukemia & Lymphoma | Reaktive Thrombozytose benötigt üblicherweise keine Behandlung; klonale Thrombozytose erfordert Zellreduktionstherapie |
-| [10494240](https://pubmed.ncbi.nlm.nih.gov/10494240/) | 1999 | Review | Med J Australia | ET-Diagnose erfordert Ausschluss anderer myeloproliferativer Erkrankungen und reaktiver Thrombozytose |
-| [1994734](https://pubmed.ncbi.nlm.nih.gov/1994734/) | 1991 | Review | Am J Med Sci | Klinisches Spektrum von Thrombozytose und Thrombozytenvermehrung mit Überblick über reaktive und klonale Ursachen |
-| [28380402](https://pubmed.ncbi.nlm.nih.gov/28380402/) | 2017 | Review (fallbasiert) | Leukemia Research | Zeitgenössische Behandlung extremer Thrombozytose bei myeloproliferativen Neoplasien, medikamentöse Therapie als Standard |
-| [7783354](https://pubmed.ncbi.nlm.nih.gov/7783354/) | 1995 | Review | Jpn J Clin Hematol | Überblick über ET-Diagnose und Behandlung, Anagrelide als eines der Medikamente zur Hemmung der Megakaryozyten-Vermehrung |
-| [17171694](https://pubmed.ncbi.nlm.nih.gov/17171694/) | 2007 | Retrospektive Kohortenstudie | Pediatr Blood Cancer | Retrospektiver Vergleich von pädiatrischer ET und reaktiver Thrombozytose, 12 Fälle analysiert |
-| [27276864](https://pubmed.ncbi.nlm.nih.gov/27276864/) | 2016 | Fallbericht | Srp Arh Celok Lek | ET mit Ankylosierender Spondylitis, kombinierte Behandlung mit Anagrelide |
-| [38455691](https://pubmed.ncbi.nlm.nih.gov/38455691/) | 2024 | Fallbericht | Eur J Case Rep Intern Med | Akuter Myokardinfarkt bei ET-Patient während Anagrelide-Therapie |
-| [29851840](https://pubmed.ncbi.nlm.nih.gov/29851840/) | 2018 | Fallbericht | Medicine | Fingerverletzung und Replantation bei Patient mit postsplenektomischer Thrombozytose |
+| PMID | Jahr | Typ | Zeitschrift | Kernaussagen |
+|------|-----|------|------|---------|
+| [15270658](https://pubmed.ncbi.nlm.nih.gov/15270658/) | 2004 | Übersichtsarbeit | Expert Rev Anticancer Ther | Aktualisierung zu Wirkmechanismen und therapeutischem Potenzial von Anagrelid; reaktive Thrombozytose erfordert meist keine Therapie, klonale Formen ggf. schon |
+| [16019501](https://pubmed.ncbi.nlm.nih.gov/16019501/) | 2005 | Übersichtsarbeit | Leuk Lymphoma | Kritische Bewertung der Anagrelid-Therapie bei essentieller Thrombozythämie und verwandten Erkrankungen |
+| [10494240](https://pubmed.ncbi.nlm.nih.gov/10494240/) | 1999 | Übersichtsarbeit | Med J Aust | Essentielle Thrombozythämie: Abgrenzung von reaktiver Thrombozytose, Indikation zur plättchensenkenden Therapie bei >1000 x 10⁹/L |
+| [28380402](https://pubmed.ncbi.nlm.nih.gov/28380402/) | 2017 | Übersichtsarbeit (fallbasiert) | Leuk Res | Rolle der Thrombozytapherese bei extremer Thrombozytose bei myeloproliferativen Neoplasien |
+| [1994734](https://pubmed.ncbi.nlm.nih.gov/1994734/) | 1991 | Übersichtsarbeit | Am J Med Sci | Klinisches Spektrum von Thrombozytose und Thrombozythämie |
+| [7783354](https://pubmed.ncbi.nlm.nih.gov/7783354/) | 1995 | Übersichtsarbeit | Rinsho Ketsueki | Diagnose und Behandlung der essentiellen Thrombozythämie, Differenzialdiagnose zur reaktiven Thrombozytose |
+| [17171694](https://pubmed.ncbi.nlm.nih.gov/17171694/) | 2007 | Retrospektive Kohorte | Pediatr Blood Cancer | Essentielle versus reaktive Thrombozythämie bei Kindern (12 Fälle) |
+| [38455691](https://pubmed.ncbi.nlm.nih.gov/38455691/) | 2024 | Fallbericht | Eur J Case Rep Intern Med | Akuter Myokardinfarkt bei einem Patienten mit essentieller Thrombozythämie unter Anagrelid |
+| [27276864](https://pubmed.ncbi.nlm.nih.gov/27276864/) | 2016 | Fallbericht | Srp Arh Celok Lek | Essentielle Thrombozythämie und Spondylitis ankylosans, behandelt u. a. mit Anagrelid |
+| [29851840](https://pubmed.ncbi.nlm.nih.gov/29851840/) | 2018 | Fallbericht | Medicine | Replantation von 2 Fingern bei Thrombozytose nach Splenektomie |
 
-## Taiwan Marktinformationen
+## Marktinformationen Deutschland
 
-Anagrelide ist derzeit in Taiwan **Not marketed**, keine Zulassungsdaten verfügbar.
+Es bestehen keine gültigen Zulassungen. Beide Zulassungen sind erloschen und es handelt sich um zentrale EU-Zulassungen (EMEA).
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000480 | Xagrid (Takeda) | k. A. | Essentielle Thrombozythämie |
+| EMEA/H/C/004585 | Anagrelide Viatris (zuvor Anagrelide Mylan) | k. A. | Essentielle Thrombozythämie |
+
+## Zytotoxizität
+
+Anagrelid ist ein plättchensenkender Wirkstoff bei einer myeloproliferativen Neoplasie, wird aber nicht als konventionelles Zytostatikum eingestuft. Für diesen Bericht liegen keine Daten zu Myelosuppression, Emetogenität oder Handhabungsschutz vor. Bitte die Hinweise und Vorsichtsmaßnahmen der Fachinformation beachten.
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Produktinformation zur Sicherheitsübersicht (derzeit keine TFDA-Produktinformationen zu Warnhinweisen, Kontraindikationen und Arzneimittelwechselwirkungen verfügbar).
+**Kontraindikationen aus dem Wissensgraphen (PrimeKG, kein Label-Text):** Leberinsuffizienz und Lebererkrankung, Nierenerkrankung, Gallenblasenerkrankung, Thrombozytopenie, Blutgerinnungsstörung, Herz- und Herz-Kreislauf-Erkrankungen (einschließlich Herzinsuffizienz mit hohem Herzzeitvolumen), Anämie (einschließlich makrozytärer Anämie), interstitielle Lungenerkrankung, eosinophile Pneumonie und pulmonale Eosinophilie.
 
-## Schlussfolgerung und Empfehlungen für weiteres Vorgehen
+**Arzneimittelwechselwirkungen:** Insgesamt wurden 100 Wechselwirkungen gefunden (Quelle: DDInter). Die Liste unten zeigt eine Auswahl.
+- **Schwerwiegend (Major):** Cisaprid, Clarithromycin, Dolasetron, Granisetron, Levofloxacin
+- **Moderat:** u. a. Famotidin, Cimetidin, Alosetron, Aprepitant, Acetylsalicylsäure, Loperamid, Fenfluramin, Dexfenfluramin sowie mehrere Abführmittel (Bisacodyl, Rizinusöl, Glycerin, Lactitol, Lactulose, Magnesiumcitrat, Magnesiumhydroxid)
 
-**Entscheidung: Hold (Zurückhaltung)**
+Die Warnhinweise und Kontraindikationen aus der Fachinformation lagen nicht vor. Bitte die Fachinformation zusätzlich konsultieren.
+
+## Fazit und nächste Schritte
+
+**Entscheidung: Hold**
 
 **Begründung:**
-Alle 10 verfügbaren Publikationen sind nicht direkt auf Wirksamkeitsnachweise bei „reaktiver Thrombozytose" ausgerichtet, sondern hauptsächlich ET-bezogene Übersichtsarbeiten oder Fallberichte; außerdem empfehlen internationale Leitlinien nicht die routinemäßige Anwendung von Zellreduktionsmitteln bei reaktiver Thrombozytose. Die Evidenzstärke erreicht nur L4. Darüber hinaus sind Sicherheitsdaten (Produktinformations-Warnhinweise, Kontraindikationen) und offizielle MOA-Daten noch Lücken und können die S1-Sicherheitsbewertung nicht bestehen (DG001 ist vom Blocking-Typ).
+Für die reaktive Thrombozytose gibt es weder klinische Studien noch belastbare Literatur. Der hohe Modellwert beruht vermutlich auf der Ähnlichkeit zur zugelassenen Indikation. Zudem ist die reaktive Thrombozytose meist vorübergehend und niedrigrisikoreich, weshalb eine zytoreduktive Therapie selten angezeigt ist. In Deutschland besteht aktuell keine gültige Zulassung.
 
-**Zum Fortschritt erforderlich:**
-- TFDA-Produktinformations-PDF-Analyse zur Erstellung offizieller Warnhinweise und Kontraindikationen (DG001)
-- Offizielle DrugBank-MOA-Daten zur Stärkung der Mechanismus-Assoziationsanalyse (DG002)
-- Direkte klinische Evidenz für die Reaktive-Thrombozytose-Population (derzeit null registrierte Studien)
-- Klärung der klinischen Notwendigkeit dieser Indikation (ob sie der Behandlungsleitlinie entspricht, die Intervention empfiehlt)
-
----
-
-*Anmerkung: Die zweite Kandidatenindikation „inverse Klippel-Trenaunay syndrome" (TxGNN-Wert 99.59%) wird durch keine Publikationen oder Studien gestützt, Evidenzlevel L5, mechanistisch kein vernünftiger Bezug zur PDE3-Hemmwirkung von Anagrelide, empfohlene direkte Ausschließung aus weiterer Bewertung.*
-
+**Für ein Weiterkommen erforderlich:**
+- Fachinformation (Warnhinweise, Kontraindikationen) beschaffen und auswerten, da dies die Sicherheitsprüfung derzeit blockiert
+- Daten zum Wirkmechanismus aus DrugBank ergänzen
+- Klinische Begründung eines Bedarfs klären: Patientengruppen mit symptomatischer, therapierefraktärer reaktiver Thrombozytose und hohem Thromboserisiko
+- Klärung des Zulassungsstatus (Gründe für das Erlöschen der Zulassungen)
+- Prüfung der Sicherheit bei Herz-Kreislauf-Vorerkrankungen, da Kontraindikationen im Wissensgraphen auf kardiovaskuläre Risiken hinweisen
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

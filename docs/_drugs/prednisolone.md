@@ -2,7 +2,7 @@
 layout: default
 title: Prednisolone
 parent: Hohe Evidenz (L1-L2)
-nav_order: 317
+nav_order: 369
 evidence_level: L2
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Prednisolon: Von Originalindikation (im Evidenzpaket nicht angegeben) zu Alopecia Areata
+# Prednisolon: Von Autoimmunerkrankungen zu Alopecia areata
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Das Evidenzpaket dokumentiert nicht die ursprüngliche zugelassene Indikation für Prednisolon, und es existiert derzeit keine deutsche (BfArM) Marktzulassung für dieses Arzneimittel. Das TxGNN-Modell prognostiziert, dass es möglicherweise wirksam gegen Alopecia Areata ist, wobei 19 klinische Studien ermittelt wurden (mehrere unmittelbar relevant) und 20 Publikationen, einschließlich einer placebokontrollierten RCT, diese Richtung derzeit stützen.
+Prednisolon ist ein Glucocorticoid, das ursprünglich bei Autoimmunerkrankungen, entzündlichen Darmerkrankungen (z. B. Morbus Crohn), akuter lymphatischer Leukämie und Nebenniereninsuffizienz eingesetzt wird.
+Das TxGNN-Modell sagt voraus, dass es bei **Alopecia areata** (kreisrundem Haarausfall) wirksam sein könnte.
+Dafür liegen **keine registrierten klinischen Studien**, aber **20 Publikationen** vor, darunter ein Cochrane-Netzwerk-Metaanalyse, eine systematische Übersichtsarbeit und eine placebokontrollierte randomisierte Studie.
 
 ---
 
@@ -41,85 +43,90 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 | Punkt | Inhalt |
 |------|------|
-| Originalindikation | Nicht angegeben – keine `original_indications`-Daten im Evidenzpaket verfügbar |
-| Prognostizierte neue Indikation | Alopecia Areata |
-| TxGNN-Prognosescore | 99.99% |
-| Evidenzstufe | L2 |
-| Deutschland-Marktstatus | ✗ Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Mit Schutzmaßnahmen voranschreiten |
+| Ursprüngliche Indikation | Autoimmunerkrankungen (u. a. Morbus Crohn, chronisch-entzündliche Darmerkrankungen, akute lymphatische Leukämie, Nebenniereninsuffizienz, Morbus Addison, kongenitale adrenale Hyperplasie). Für die Zulassung in Deutschland liegt kein Indikationstext vor. |
+| Vorhergesagte neue Indikation | Alopecia areata |
+| TxGNN-Vorhersagewert | 99,99 % |
+| Evidenzgrad | L2 |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
+| Anzahl der Zulassungen | 1 (aufgehoben) |
+| Empfohlene Entscheidung | Proceed with Guardrails (Fortfahren mit Schutzmaßnahmen) |
 
 ---
 
 ## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Wirkmechanismus-Daten (MOA) für Prednisolon im Evidenzpaket nicht verfügbar, und keine Originalindikation ist in diesem Datensatz dokumentiert. Dies wird als Datenlücke mit hohem Schweregrad (DG002) gekennzeichnet, die eine formale mechanistische Verknüpfungsanalyse einschränkt.
+Zum genauen Wirkmechanismus von Prednisolon liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Prednisolon ein Glucocorticoid ist, dessen Wirksamkeit bei Autoimmunerkrankungen belegt ist und das mechanistisch auch bei Alopecia areata anwendbar sein könnte.
 
-Basierend auf der mit dieser Prognose verbundenen Neunutzungsrationale ist Prednisolon ein systemisches Kortikosteroid. Es wird angenommen, dass Alopecia Areata ein CD8⁺-T-Zellen-vermittelter autoimmuner Angriff auf den Haarfollikel ist, und systemische Kortikosteroide – besonders wenn als Pulstherapie gegeben – sind bereits eine etablierte Behandlungsoption für mittelschwere bis schwere oder therapieresistente AA in der klinischen Dermatologiepraxis. Dies gibt der Prognose eine plausible mechanistische Grundlage (Immunsuppression des autoimmunen Follikelangriffs), auch ohne dokumentierte Originalindikation.
+Alopecia areata ist ein T-Zell-vermittelter Autoimmunangriff auf den Haarfollikel, bei dem der Immunprivilegien-Schutz des Follikels verloren geht. Prednisolon unterdrückt die T-Zell-Aktivierung, die Zytokinproduktion und entzündliche Infiltrate um den Follikel. Das passt zum bestehenden Einsatz des Wirkstoffs bei Autoimmunerkrankungen.
 
-Dies wird unterstützt durch eine abgeschlossene Phase-4-Studie (NCT01167946), die direkt Methylprednisolon-Pulstherapie (ein eng verwandtes Glukokortikoid) bei schwerer therapieresistenter AA testete, und eine placebokontrollierte RCT (PMID 15692475), die spezifisch die Prednisolon-Pulstherapie bei AA evaluierte. Mehrere zusätzliche Kohortenstudien und Reviews zur Kortikosteroid-Pulstherapie bei AA bestätigen, dass diese Wirkstoffklasse bereits eine etablierte klinische Rolle in dieser Indikation hat, was konsistent mit – und unabhängig unterstützt – die TxGNN-Prognose.
-
----
-
-## Evidenz aus klinischen Studien
-
-| Studiennummer | Phase | Status | Einschreibung | Wichtigste Erkenntnisse |
-|---------|------|------|------|---------|
-| [NCT01167946](https://clinicaltrials.gov/study/NCT01167946) | Phase 4 | Abgeschlossen | 42 | Methylprednisolon-Mega-Pulstherapie (gleiche Kortikosteroidklasse) evaluiert bei schwerer therapieresistenter Alopecia Areata, einschließlich totalis/universalis/ophiasic-Typen; untersuchte, ob höhere/häufigere Pulsdosierung die Ansprechrate verbessert. |
-| [NCT07101471](https://clinicaltrials.gov/study/NCT07101471) | N/A | Abgeschlossen | 296 | Beobachtungsstudie zu Sicherheit/Wirksamkeit von Tofacitinib bei Alopecia, mit Studienteilnehmern, die Behandlung mit oder ohne adjuvante Prednisolon-Therapie erhielten. |
-| [NCT01017510](https://clinicaltrials.gov/study/NCT01017510) | N/A | Unbekannt | 20 | Verglich zwei Verabreichungsmethoden (DERMOJET vs. Standard-Spritze) für lokale/intraläsionale Steroid-Injektionen bei Alopecia Areata; konventionelle AA-Behandlung umfasst topische, intraläsionale oder orale Steroide. |
-| [NCT01972217](https://clinicaltrials.gov/study/NCT01972217) | Phase 2 | Abgeschlossen | 158 | Immunmodulierendes Kombinationstherapie-Experiment in einer autoimmunen/onkologischen Einstellung; als Hintergrund-Referenz eingestuft – keine direkte Prednisolon-AA-Studie. |
-| [NCT03616912](https://clinicaltrials.gov/study/NCT03616912) | Phase 3 | Beendet | 830 | Baricitinib-Studie (JAK-Inhibitor, nicht-Kortikosteroid-Wirkmechanismus) bei SLE; nur als Übersichtsreferenz für die Behandlung von Autoimmunerkrankungen eingebunden, keine direkte AA/Prednisolon-Evidenz. |
-
-*Hinweis: Der Evidenzpool lieferte auch zahlreiche Phase-2/3-SLE-Studien nicht verwandter Biologika (Efavaleukin alfa, Acazicolcept, Anifrolumab, Sirolimus, Enpatoran usw.). Diese wurden aus der obigen Tabelle ausgeschlossen, da sie nicht direkt relevant für Prednisolon oder Alopecia Areata sind.*
+Die Literatur beschreibt vor allem orale Pulstherapien mit Prednisolon sowie systemische Corticosteroid-Therapien. Einschränkend sind Rückfälle nach dem Absetzen und die kumulative Steroidtoxizität; für schwere Verläufe stehen inzwischen zudem JAK-Inhibitoren als Alternative zur Verfügung.
 
 ---
 
-## Evidenz aus der Literatur
+## Klinische Studien
 
-| PMID | Jahr | Typ | Zeitschrift | Wichtigste Erkenntnisse |
-|------|-----|------|------|---------|
-| [15692475](https://pubmed.ncbi.nlm.nih.gov/15692475/) | 2005 | RCT | J Am Acad Dermatol | Erste placebokontrollierte RCT der Prednisolon-Pulstherapie bei Alopecia Areata. |
-| [37870096](https://pubmed.ncbi.nlm.nih.gov/37870096/) | 2023 | Review (Netzwerk-Metaanalyse) | Cochrane Database Syst Rev | Vergleicht Immunsuppressiva, Haarwuchsförderer und Kontakt-Immuntherapie über AA-Behandlungen hinweg. |
-| [37992355](https://pubmed.ncbi.nlm.nih.gov/37992355/) | 2023 | Review | Dermatol Pract Concept | Überprüft Wirksamkeit, Rückfallquoten, Nebenwirkungen und prognostische Faktoren der Kortikosteroid-Pulstherapie bei AA. |
-| [30191561](https://pubmed.ncbi.nlm.nih.gov/30191561/) | 2019 | Systematischer Review | Australas J Dermatol | Systematischer Review systemischer Behandlungen (einschließlich Kortikosteroide) für AA, Totalis und Universalis. |
-| [35986630](https://pubmed.ncbi.nlm.nih.gov/35986630/) | 2022 | Kohorte (Retrospektiv) | Dermatol Ther | Methylprednisolon allein vs. Methylprednisolon + Methotrexat bei ausgedehnter AA. |
-| [21572877](https://pubmed.ncbi.nlm.nih.gov/21572877/) | 2009 | Klinische Studie | Dermato-endocrinology | Mitteldosis-Prednisolon-Pulstherapie bei AA evaluiert; vermerkt Wirksamkeit bei Erkrankung im Frühstadium mit potenziellen dosisbegrenzenden Nebenwirkungen. |
-| [36461625](https://pubmed.ncbi.nlm.nih.gov/36461625/) | 2023 | Kohorte | Pediatr Dermatol | Überprüft Pulsdosis-Kortikosteroid-Therapie-Dosierungs-/Verabreichungsschemata und Nebenwirkungen bei pädiatrischer AA. |
-| [28140540](https://pubmed.ncbi.nlm.nih.gov/28140540/) | 2017 | Kohorte | J Dtsch Dermatol Ges | Sequenzielle systemische Kortikosteroid-Therapie mit hohen und niedrigen Dosen bei schwerer AA im Kindesalter. |
-| [30294905](https://pubmed.ncbi.nlm.nih.gov/30294905/) | 2019 | Mechanistische Studie | J Cosmet Dermatol | TNF-α-Spiegeländerungen als vorgeschlagener Wirkmechanismus für orale Steroid-Pulstherapie bei AA. |
-| [36681881](https://pubmed.ncbi.nlm.nih.gov/36681881/) | 2023 | Kohorte (Retrospektiv) | J Eur Acad Dermatol Venereol | Langzeiterfahrung von Patienten mit Methylprednisolon-Pulstherapie (± Methotrexat) bei AA. |
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Deutschland-Marktinformationen
+## Literaturevidenz
 
-Es wurden keine deutschen (BfArM) Marktzulassungen für Prednisolon im Evidenzpaket gefunden (`total_licenses: 0`, Marktstatus: **Nicht vermarktet / Nicht vermarktet**). Es sind keine Produkt- oder Zulassungsdetails verfügbar, um diesen Abschnitt auszufüllen.
+| PMID | Jahr | Typ | Journal | Wichtigste Ergebnisse |
+|------|------|------|---------|---------|
+| [15692475](https://pubmed.ncbi.nlm.nih.gov/15692475/) | 2005 | RCT | J Am Acad Dermatol | Placebokontrollierte orale Pulstherapie mit Prednisolon bei Alopecia areata; erste randomisierte, placebokontrollierte Untersuchung dieser Art |
+| [37870096](https://pubmed.ncbi.nlm.nih.gov/37870096/) | 2023 | Netzwerk-Metaanalyse | Cochrane Database Syst Rev | Vergleich verschiedener Behandlungen (Immunsuppressiva, Haarwuchsstimulanzien, Kontaktimmuntherapie) bei Alopecia areata |
+| [30191561](https://pubmed.ncbi.nlm.nih.gov/30191561/) | 2019 | Systematische Übersicht | Australas J Dermatol | Bewertung der Evidenz systemischer Behandlungen bei Alopecia areata, totalis und universalis |
+| [37992355](https://pubmed.ncbi.nlm.nih.gov/37992355/) | 2023 | Review | Dermatol Pract Concept | Wirksamkeit, Rückfallraten und Nebenwirkungen der Corticosteroid-Pulstherapie |
+| [36461625](https://pubmed.ncbi.nlm.nih.gov/36461625/) | 2023 | Review | Pediatr Dermatol | Dosierung und Anwendung der Corticosteroid-Pulstherapie bei Kindern mit Alopecia areata |
+| [21572877](https://pubmed.ncbi.nlm.nih.gov/21572877/) | 2009 | Kohortenstudie | Dermato-endocrinology | Prednisolon-Pulstherapie mit mittlerer Dosis; wirksam in frühen Stadien, aber Nebenwirkungen führten teils zum Therapieabbruch |
+| [28140540](https://pubmed.ncbi.nlm.nih.gov/28140540/) | 2017 | Kohortenstudie | J Dtsch Dermatol Ges | Sequenzielle Hoch- und Niedrigdosis-Corticosteroidtherapie bei schwerer kindlicher Alopecia areata |
+| [26179196](https://pubmed.ncbi.nlm.nih.gov/26179196/) | 2015 | Follow-up-Studie | Dermatol Ther | Kombination aus oraler Pulstherapie und topischen Corticosteroiden bei Kindern, Langzeitverlauf |
+| [32779249](https://pubmed.ncbi.nlm.nih.gov/32779249/) | 2020 | Retrospektive Studie | J Eur Acad Dermatol Venereol | Azathioprin, Methotrexat und Ciclosporin als steroidsparende Substanzen bei chronischer Alopecia areata (138 Patienten) |
+| [30294905](https://pubmed.ncbi.nlm.nih.gov/30294905/) | 2019 | Mechanistische Studie | J Cosmet Dermatol | Veränderung der TNF-α-Spiegel in Serum und Gewebe als möglicher Wirkmechanismus oraler Steroid-Pulse |
 
 ---
 
-## Sicherheitsaspekte
+## Marktinformationen Deutschland
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. (Wichtige Warnhinweise, Kontraindikationen und Arzneimittelwechselwirkungsdaten waren im Evidenzpaket nicht verfügbar – DDI-Abfragestatus: nicht gefunden.)
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/V/C/002382 | Equisolon | – | – (Status: aufgehoben) |
+
+---
+
+## Sicherheitshinweise
+
+- **Aus dem Wissensgraphen abgeleitete Kontraindikationen** (keine Angaben aus dem Beipackzettel): u. a. Bluthochdruck, Epilepsie, Hyperglykämie, Herzinsuffizienz, Porphyrie, Masern, Herpes-simplex-Keratitis sowie verschiedene Hypophysen-Insuffizienzen und Formen des hypogonadotropen Hypogonadismus.
+- **Arzneimittelwechselwirkungen**: Insgesamt wurden 100 Wechselwirkungen erfasst. Als **schwerwiegend (Major)** ist **Adalimumab** eingestuft. Die meisten übrigen sind mäßig (Moderate), z. B. mit Ibuprofen, Ketorolac, Nifedipin, Ethinylestradiol, Isotretinoin, Acarbose, Aldesleukin, Alemtuzumab und Aliskiren. Geringfügig (Minor) sind u. a. Formoterol und Salbutamol.
+- Für Warnhinweise und Kontraindikationen aus der Fachinformation bitte den Beipackzettel heranziehen.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Mit Schutzmaßnahmen voranschreiten**
+**Entscheidung: Proceed with Guardrails**
 
-**Rationale:**
+**Begründung:**
+Für die Alopecia areata liegen eine randomisierte, placebokontrollierte Studie, eine systematische Übersicht und eine Cochrane-Netzwerk-Metaanalyse vor, die einen mechanistisch plausiblen Einsatz stützen. Es gibt jedoch keine registrierten Studien, die Rückfallrate nach dem Absetzen ist hoch, und die Steroidtoxizität begrenzt die Langzeitanwendung.
 
-Die Kortikosteroid-Pulstherapie hat bereits eine etablierte klinische Rolle bei Alopecia Areata, unterstützt durch eine placebokontrollierte RCT von Prednisolon selbst, eine abgeschlossene Phase-4-Studie des eng verwandten Methylprednisolons und mehrere Kohortenstudien/Reviews (Evidenzstufe L2). Jedoch fehlende formale Indikationsgenehmigung, MOA-Dokumentation und Sicherheits-/Labellingdaten bedeuten, dass dies noch nicht ohne zusätzliche Schutzmaßnahmen fortgesetzt werden kann.
+**Für das weitere Vorgehen wird Folgendes benötigt:**
+- Auswertung der Fachinformation (BfArM) zu Warnhinweisen und Kontraindikationen, da diese Daten derzeit fehlen und die Sicherheitsprüfung blockieren
+- Detaillierte Daten zum Wirkmechanismus (DrugBank)
+- Prüfung der Primärstudien (insbesondere der RCT von 2005) hinsichtlich Wirksamkeit, Dosierschema und Rückfallraten
+- Plan zur Sicherheitsüberwachung bei Langzeit- und Pulstherapie, besonders bei Kindern
+- Vergleich mit JAK-Inhibitoren als Alternative bei schwerer Erkrankung
 
-**Zum Fortfahren wird Folgendes benötigt:**
+---
 
-- TFDA/BfArM-Packungsbeilage mit Warnhinweisen und Kontraindikationen (DG001 – **Blockierend**: erforderlich, bevor die S1-Sicherheits-Vorabprüfung fortgesetzt werden kann)
-- Bestätigte Wirkmechanismus-Daten von DrugBank (DG002 – Hohe Priorität, benötigt für formale mechanistische Verknüpfungsanalyse)
-- Bestätigung der ursprünglichen genehmigten Indikation(en) für Prednisolon, derzeit im Evidenzpaket fehlend
-- Arzneimittelwechselwirkungsdaten (DDI), da die aktuelle Abfrage keine Ergebnisse ergab
-- Klärung der Dosisäquivalenz zwischen Prednisolon und Methylprednisolon (das Arzneimittel, das in den oben genannten AA-Versuchs-/RCT-Evidenzen am direktesten untersucht wurde)
+## Weitere vorhergesagte Indikationen (Kurzüberblick)
 
+| Rang | Indikation | Evidenzgrad | Empfehlung | Anmerkung |
+|---|---|---|---|---|
+| 2 | Alopecia mucinosa | L4 | Hold | Nur ein Fallbericht (Ciclosporin, nicht Prednisolon) |
+| 3 | Telogen effluvium | L5 | Hold | Keine Studien oder Literatur; kein klarer Mechanismus |
+| 4 | Folliculitis decalvans (Quinquaud) | L4 | Hold | Nur ein Fallbericht mit Dreifachtherapie; Beitrag von Prednisolon nicht abgrenzbar |
+| 5–9 | Seltene genetische bzw. strukturelle Erkrankungen (u. a. Alopezie-Antikörpermangel, hereditäre Hypotrichose, Atrichie mit papulösen Läsionen, Tränendrüsenprolaps) | L5 | Hold | Keine belastbare Evidenz oder plausibler Mechanismus |
+| 10 | Idiopathisches steroidsensibles nephrotisches Syndrom | L1 | Proceed with Guardrails | Entspricht bereits der etablierten Standardtherapie, keine neuartige Indikation; ein Teil der Literatur betrifft steroidresistente Patienten. Die zugrunde liegenden Phase-3-Studien sollten verifiziert werden |
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

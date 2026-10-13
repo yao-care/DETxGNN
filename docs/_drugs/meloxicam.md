@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Meloxicam
-parent: Mittlere Evidenz (L3-L4)
-nav_order: 248
-evidence_level: L3
+parent: Nur Modellvorhersage (L5)
+nav_order: 287
+evidence_level: L5
 indication_count: 10
 ---
 
 # Meloxicam
 {: .fs-9 }
 
-Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,99 +29,116 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Meloxikam: Von der NSAID-Entzündungshemmertherapie zur Juvenilen Idiopathischen Arthritis (RF-positiv polyartikulär)
+# Meloxicam: Von rheumatoider Arthritis zu Akromesomeler Dysplasie, Typ Hunter-Thompson
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Meloxikam ist ein COX-2-präferentielles NSAID, das üblicherweise zur Behandlung von Osteoarthritis, Rheumatoider Arthritis und verwandten entzündlichen Gelenkerkrankungen verwendet wird. Von den 10 von TxGNN vorhergesagten Kandidaten-Indikationen erreicht nur die Rheumafaktor-positive polyartikuläre Juvenile Idiopathische Arthritis aussagekräftige Evidenzunterstützung (1 Phase-4-Sicherheitsregister-Publikation, L3), während die Top-Vorhersage nach Rohscore — Akromesomele Dysplasie, Hunter-Thompson-Typ (99.92%) — und die meisten anderen seltene genetische/Skelett-Syndrome ohne mechanistische oder klinische Verbindung zur NSAID-Pharmakologie sind. Der Gesamtfortschritt wird derzeit durch einen fehlenden TFDA-Label-Sicherheitsdatensatz blockiert.
+Meloxicam ist ein nichtsteroidales Antirheumatikum (NSAR), das ursprünglich bei rheumatoider Arthritis, Arthrose und juveniler idiopathischer Arthritis eingesetzt wird.
+Das TxGNN-Modell sagt für **Akromesomele Dysplasie, Typ Hunter-Thompson** eine mögliche Wirksamkeit voraus.
+Dafür liegen jedoch **keine klinischen Studien** und **keine Publikationen** vor. Die Vorhersage beruht allein auf dem Modell.
 
 ---
 
-## Schnellübersicht
+## Kurzüberblick
 
-| Element | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Nicht aus Taiwan-Lizenzdaten verfügbar (0 Lizenzen auf Datei); nach allgemeiner Pharmakologie ist Meloxikam ein NSAID, das für Osteoarthritis, Rheumatoide Arthritis und Ankylosierende Spondylitis indiziert ist |
-| Meistunterstützte vorhergesagte Indikation | Rheumafaktor-positive polyartikuläre Juvenile Idiopathische Arthritis |
-| Top-TxGNN-Score (diese Indikation) | 99.44% (Rang 6423) |
-| Evidenzebene | L3 |
-| Taiwan-Marktstatus | Nicht vermarktet (Nicht vermarktet) |
-| Anzahl der Genehmigungen | 0 |
-| Empfohlene Entscheidung | **Halten** (Das Modell auf Indikations-Ebene empfiehlt „Mit Vorkehrungen fortfahren", aber der Gesamtworkflow wird durch eine blockierende Datenlücke gehindert) |
+| Ursprüngliche Indikation | Rheumatoide Arthritis, Arthrose, Arthropathie, juvenile idiopathische Arthritis, Spondyloarthropathie |
+| Vorhergesagte neue Indikation | Akromesomele Dysplasie, Typ Hunter-Thompson |
+| TxGNN-Vorhersagewert | 99,92 % |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassungen |
+| Anzahl der Zulassungen | 16 (alle aufgehoben) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Übersicht der vorhergesagten Indikationen (alle 10 bewerteten Kandidaten)
+## Warum ist diese Vorhersage plausibel (oder nicht)?
 
-| Rang | Krankheit | TxGNN-Score | Evidenzebene | Entscheidungsphase | Empfehlung |
-|---|---|---|---|---|---|
-| 1 | Akromesomele Dysplasie, Hunter-Thompson-Typ | 99.92% | L5 | S0 | Halten |
-| 2 | Brachyolmia-Amelogenesis-Imperfecta-Syndrom | 99.92% | L5 | S0 | Halten |
-| 3 | Myosklerose | 99.90% | L5 | S0 | Halten |
-| 4 | Brachyolmia | 99.89% | L5 | S0 | Halten |
-| 5 | Pseudoachondroplasie | 99.81% | L5 | S0 | Halten |
-| 6 | Spondyloarthropathie, Anfälligkeit dafür | 99.52% | L4 | S1 | Forschungsfrage |
-| 7 | Rheumatoide Nodulosis | 99.51% | L4 | S1 | Forschungsfrage |
-| **8** | **RF-positive polyartikuläre JIA** | **99.44%** | **L3** | **S2** | **Mit Vorkehrungen fortfahren** |
-| 9 | WHIM-Syndrom | 99.38% | L5 | S0 | Halten |
-| 10 | Kolobomatöse Mikrophthalmus-Rhizomelie-Dysplasie-Syndrom | 99.36% | L5 | S0 | Halten |
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Meloxicam ist bekanntermaßen ein NSAR mit bevorzugter COX-2-Hemmung, das prostaglandinvermittelte Entzündung und Schmerz reduziert. Seine Wirksamkeit bei entzündlichen Gelenkerkrankungen ist belegt.
 
-Sechs der zehn Kandidaten sind seltene monogenetische Skelett- oder Immundefekt-Syndrome ohne plausible pathophysiologische Verbindung zu COX-Hemmung — diese reflektieren wahrscheinlich eher Rauschen in der Wissensgraph-Einbettung als echte Umwidmungssignale und werden korrekt auf L5/Halten gehalten.
+Die vorhergesagte Erkrankung ist eine genetische Skelettdysplasie, die durch Funktionsverlustmutationen in CDMP1/GDF5 verursacht wird. Meloxicam wirkt nicht auf den zugrunde liegenden Defekt im BMP/GDF-Signalweg. Ein klarer mechanistischer Zusammenhang besteht daher nicht. Der hohe Vorhersagewert spiegelt vermutlich die Nähe zu muskuloskelettalen Begriffen im Wissensgraphen wider und keine biologische Begründung.
 
----
+**Weitere Vorhersagen im Überblick (Rang 2–10):**
 
-## Warum ist diese Vorhersage sinnvoll?
+| Rang | Erkrankung | Score | Evidenzstufe | Einschätzung |
+|---|---|---|---|---|
+| 2 | Brachyolmie-Amelogenesis-imperfecta-Syndrom | 99,92 % | L5 | Kein plausibler Mechanismus |
+| 3 | Myosklerose | 99,90 % | L5 | Schwach, spekulativ |
+| 4 | Brachyolmie | 99,89 % | L5 | Höchstens symptomatische Schmerzlinderung |
+| 5 | Pseudoachondroplasie | 99,81 % | L5 | Indirekt; nur Symptomlinderung bei Gelenkschmerz |
+| 6 | Spondyloarthropathie (Suszeptibilität) | 99,52 % | L4 | Überschneidung mit bestehender Indikation |
+| 7 | Rheumatoide Nodulose | 99,51 % | L4 | Indirekt, aus RA-Indikation extrapoliert |
+| 8 | RF-positive polyartikuläre juvenile idiopathische Arthritis | 99,44 % | L4 | Subtyp einer bestehenden Indikation |
+| 9 | WHIM-Syndrom | 99,38 % | L5 | Kein Zusammenhang (CXCR4) |
+| 10 | Kolobomatöse Mikrophthalmie-rhizomele Dysplasie | 99,36 % | L5 | Kein plausibler Zusammenhang |
 
-Derzeit sind detaillierte Wirkungsmechanismus-Daten nicht im Evidenzpaket verfügbar (original_moa: Datenlücke). Basierend auf allgemeinem pharmakologischen Wissen ist Meloxikam ein **COX-2-präferentielles NSAID**, das die Prostaglandinsynthese hemmt, um Entzündung, Schmerz und Schwellung zu verringern — ein Mechanismus, der bereits zentral für seine etablierte Verwendung bei Osteoarthritis und Rheumatoider Arthritis ist.
-
-Die Juvenile Idiopathische Arthritis (JIA), einschließlich des RF-positiven polyartikulären Subtyps, teilt dieselbe zugrunde liegende entzündliche Gelenkpathologie wie die Rheumatoide Arthritis im Erwachsenenalter. NSAIDs (einschließlich Meloxikam) sind bereits eine anerkannte First-Line-Therapie zur symptomatischen Behandlung aller JIA-Subtypen in der klinischen Praxis, daher stellt diese „neuartige Indikation" weitgehend eine Klassenerweiterung in die pädiatrische Population dar, nicht eine mechanistisch neuartige Entdeckung. Die unterstützende Literatur (ein Phase-4-Sicherheitsregister) bewertete nicht-selektive NSAIDs und Celecoxib als eine Klasse in JIA-Patienten, nicht speziell Meloxikam — daher ist die Evidenz hinweisend statt substanzspezifisch.
-
-Zwei weitere Kandidaten — Spondyloarthropathie (Anfälligkeit) und Rheumatoide Nodulosis — sitzen auf L4 aus einem ähnlichen Grund: NSAIDs sind standardmäßige symptomatische Behandlung für Spondyloarthropathien (z. B. Ankylosierende Spondylitis) und RA-assoziierte Knotenkrankheit, aber die KG-Einträge hier repräsentieren genetische *Anfälligkeit* oder *Subtyp*-Labels eher als direkte Behandlungsindikationen, und keine krankheitsspezifischen Studien- oder Literaturbelege wurden bisher erfasst.
+Die Ränge 6 bis 8 liegen nahe an den bereits bestehenden Indikationen und sind daher biologisch deutlich plausibler als die übrigen Vorhersagen.
 
 ---
 
-## Klinische Studienevidenz
+## Klinische Evidenz
 
-Derzeit keine entsprechenden klinischen Studien für Rheumafaktor-positive polyartikuläre JIA registriert (oder für irgendeine der anderen 9 Kandidaten).
-
----
-
-## Literaturbeweise
-
-| PMID | Jahr | Typ | Zeitschrift | Wichtigste Erkenntnisse |
-|------|-----|------|---------|------|
-| [25057265](https://pubmed.ncbi.nlm.nih.gov/25057265/) | 2014 | Kohortenstudie (Phase-4-Register) | Pediatric Rheumatology Online Journal | Langzeitsicherheit und Entwicklungsergebnisse von Celecoxib und nicht-selektiven NSAIDs (nsNSAIDs, Klasse einschließlich Meloxikam) in JIA-Patienten, die in der klinischen Routinepraxis behandelt werden |
-
-Für die verbleibenden 9 vorhergesagten Indikationen ist derzeit keine Literatur verfügbar, einschließlich der beiden L4-„Forschungsfrage"-Kandidaten.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Taiwan-Marktinformationen
+## Literaturevidenz
 
-Meloxikam hält derzeit 0 Genehmigungen auf Datei (Marktstatus: Nicht vermarktet / nicht vermarktet). Es sind keine Lizenzunterlagen verfügbar, um genehmigte Indikationen oder Darreichungsformen zusammenzufassen.
+Für die Top-Vorhersage liegt derzeit keine Literatur vor.
+
+Für Rang 8 (RF-positive polyartikuläre juvenile idiopathische Arthritis) wurde eine Publikation identifiziert:
+
+| PMID | Jahr | Typ | Journal | Kernaussage |
+|------|-----|------|------|---------|
+| [25057265](https://pubmed.ncbi.nlm.nih.gov/25057265/) | 2014 | Review/Sicherheitsanalyse (Studiendesign anhand des Titels nicht bestätigt) | Pediatric Rheumatology Online Journal | Sicherheit von Celecoxib und nichtselektiven NSAR bei juveniler idiopathischer Arthritis (Phase-4-Register). Betrifft nicht Meloxicam und keine Wirksamkeit bei diesem Subtyp. |
+
+---
+
+## Marktinformationen Deutschland
+
+Alle 16 erfassten Zulassungen sind aufgehoben. Es handelt sich um Zentralzulassungen der EMA (Nummern EMEA/V/C/…). Angaben zu Darreichungsform und zugelassener Indikation liegen nicht vor. Die Produktnamen deuten auf Tierarzneimittel hin; das ist aus den Daten jedoch nicht eindeutig belegt.
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/V/C/002497 | Inflacam | – | – |
+| EMEA/V/C/000115 | Meloxidyl | – | – |
+| EMEA/V/C/002001 | Melosus | – | – |
+| EMEA/V/C/002590 | Meloxidolor | – | – |
+| EMEA/V/C/000033 | Metacam | – | – |
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Gebrauchsinformation für Sicherheitsinformationen. Wichtige Warnhinweise, Gegenanzeigen und Arzneimittelwechselwirkungsdaten sind alle in diesem Evidenzpaket als Datenlücken gekennzeichnet und konnten nicht unabhängig überprüft werden.
+Die Fach- und Gebrauchsinformation konnte nicht ausgewertet werden. Bitte die Packungsbeilage zu Warnhinweisen und Gegenanzeigen konsultieren.
+
+- **Kontraindikationen laut Wissensgraph (nicht Packungsbeilage):** Bluthochdruck, Nierenerkrankung bzw. eingeschränkte Nierenfunktion, Herzinsuffizienz, Herz-Kreislauf-Erkrankungen, Herzinfarkt, Schlaganfall und zerebrovaskuläre Erkrankungen, Gastritis und aktives Magengeschwür, Blutgerinnungsstörungen, Diabetes mellitus, diabetische Ketoazidose, Hyperlipidämie, Anämie und Hämoglobinopathie, Substanzmissbrauch/-abhängigkeit.
+- **Arzneimittelwechselwirkungen:** Es wurden 100 Wechselwirkungen erfasst, in der Stichprobe überwiegend mit mäßigem Schweregrad. Wichtige Beispiele:
+  - Kortikosteroide (Hydrocortison, Dexamethason, Betamethason, Triamcinolon, Budesonid)
+  - Acetylsalicylsäure
+  - Metformin sowie Sulfonylharnstoffe (Glimepirid, Chlorpropamid)
+  - Mesalazin und Balsalazid
+  - Aprepitant
+  - Vancomycin und Kanamycin
+  - Kaliumcitrat und Kaliumbicarbonat
+  - Abführmittel bzw. Darmreinigungsmittel (Natriumsulfat, Picosulfat, Polyethylenglykol)
+  - Linaclotid (gering)
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Halten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Der meistunterstützte Kandidat (RF-positive polyartikuläre JIA, L3) hat eine plausible mechanistische Grundlage und erhält eine Indikations-Ebenen-Empfehlung „Mit Vorkehrungen fortfahren", aber die Evidenz ist Klassen-Level (nsNSAIDs) statt meloxikam-spezifisch, und eine **blockierende** Datenlücke (fehlende TFDA-Label-Warnhinweise/Gegenanzeigen, DG001) verhindert den Eintritt in die S1-Sicherheitsvorläufige Bewertung für jeden Kandidaten. Die verbleibenden 9 Vorhersagen fehlen klinische, mechanistische oder Literaturunterstützung und sollten auf Halten bleiben.
+Für die Top-Vorhersage gibt es weder Studien noch Literatur und keinen plausiblen Mechanismus (Evidenzstufe L5). Zudem sind alle Zulassungen in Deutschland aufgehoben, und die Sicherheitsdaten aus der Packungsbeilage fehlen.
 
-**Um voranzugehen, wird Folgendes benötigt:**
-- TFDA-Label-PDF für Meloxikam abrufen und parsen, um Warnhinweise/Gegenanzeigen zu erhalten (DG001, blockierend — erforderlich vor S1-Sicherheitsbewertung)
-- DrugBank-API abfragen, um den Wirkungsmechanismus zu bestätigen (DG002, Hoch)
-- Meloxikam-spezifische (nicht nur NSAID-Klassen-)klinische Daten für RF-positive polyartikuläre JIA suchen
-- Bestätigen, ob „Nicht vermarktet/0 Lizenzen" einen echten nicht registrierten Status in Taiwan oder eine Lücke bei der Datenerfassung widerspiegelt
-- Gezielte Literatursuche für die beiden L4-„Forschungsfrage"-Kandidaten (Spondyloarthropathie-Anfälligkeit, Rheumatoide Nodulosis) durchführen, bevor deren Entscheidungsphase vorangetrieben wird
-
+**Für ein Weiterkommen sind erforderlich:**
+- Packungsbeilage mit Warnhinweisen und Gegenanzeigen beschaffen (blockierende Datenlücke für das Sicherheits-Screening)
+- Detaillierte Wirkmechanismus-Daten ergänzen
+- Prüfung der näher an der bestehenden Indikation liegenden Kandidaten (Spondyloarthropathie, rheumatoide Nodulose, juvenile idiopathische Arthritis) als priorisierte Forschungsfragen
+- Klärung des aktuellen Zulassungs- und Marktstatus in Deutschland, einschließlich humanmedizinischer Präparate
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

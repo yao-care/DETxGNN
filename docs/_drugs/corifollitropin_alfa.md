@@ -2,7 +2,7 @@
 layout: default
 title: Corifollitropin Alfa
 parent: Nur Modellvorhersage (L5)
-nav_order: 107
+nav_order: 123
 evidence_level: L5
 indication_count: 8
 ---
@@ -29,94 +29,89 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **8**
 
 </div>
 
-# Corifollitropin Alfa: Von kontrollierter ovarieller Stimulation zu Gastroduodenitis
+# Corifollitropin alfa: Von assistierter Reproduktion/Ovulationsinduktion zu Gastroduodenitis
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Corifollitropin alfa ist ein langwirksamer FSH-Rezeptoragonist, der klinisch für die kontrollierte ovarielle Stimulation (COS) während IVF-Zyklen eingesetzt wird. Die Top-Vorhersage des TxGNN-Modells deutet auf mögliche Wirksamkeit bei **Gastroduodenitis** hin, wird aber durch **0 klinische Studien** und **0 Publikationen** gestützt, und das Arzneimittel ist derzeit in Taiwan nicht im Handel.
+Corifollitropin alfa ist ein lang wirksamer FSH-Agonist, der ursprünglich in der assistierten Reproduktion und zur Ovulationsinduktion eingesetzt wurde.
+Das TxGNN-Modell sagt voraus, dass er bei **Gastroduodenitis** wirksam sein könnte. Für diese Vorhersage liegen jedoch **keine klinischen Studien** und **keine Publikationen** vor – sie beruht ausschließlich auf einer Netzwerkvorhersage.
 
 ---
 
-## Schnellübersicht
+## Kurzüberblick
 
-| Eintrag | Inhalt |
-|--------|--------|
-| Ursprüngliche Indikation | Kontrollierte ovarielle Stimulation (COS) bei IVF *(abgeleitet aus Begründung; nicht in formalen Taiwan-Lizenzierungsdaten vorhanden — keine existieren)* |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Assistierte Reproduktionstechniken; Ovulationsinduktion; Untersuchungsverfahren |
 | Vorhergesagte neue Indikation | Gastroduodenitis |
-| TxGNN-Vorhersage-Score | 99.65% |
-| Evidenzstufe | L5 |
-| Status auf dem Taiwan-Markt | ✗ Nicht im Handel |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Aussetzen |
+| TxGNN-Vorhersagewert | 99,65 % |
+| Evidenzlevel | L5 |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
+| Anzahl der Zulassungen | 1 (0 gültig, 1 aufgehoben) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Warum ist diese Vorhersage (nicht) plausibel?
 
-Detaillierte Daten zum Wirkmechanismus sind derzeit nicht verfügbar (gekennzeichnet als Datenlücke mit hoher Priorität, DG002). Basierend auf der bereitgestellten Umpositionierungsbegründung ist Corifollitropin alfa ein langwirksamer FSH-Rezeptoragonist, der auf ovarielle Granulosazellen wirkt, um die Follikelentwicklung zu fördern, und wird für die kontrollierte ovarielle Stimulation bei IVF verwendet.
+Für diesen Wirkstoff liegen derzeit keine detaillierten Daten zum Wirkmechanismus vor. Bekannt ist: Corifollitropin alfa ist ein lang wirksamer FSH-Rezeptoragonist, der an den Gonaden wirkt und zur kontrollierten ovariellen Stimulation eingesetzt wird.
 
-Es gibt **keinen bekannten biologischen Signalweg, der FSH-Rezeptorsignalisierung mit Gastroduodenitis verbindet** (Schleimhautentzündung/-verletzung). Die eigene Begründung des Modells besagt explizit, dass der hohe TxGNN-Score wahrscheinlich einen indirekten Wissensgraph-Weg widerspiegelt (z. B. gemeinsame Komorbiditäten oder Protein-Knoten) und nicht direkte mechanistische Evidenz, und dass keine klinischen Studien oder Literatur dieses Paarung stützen. Diese Vorhersage sollte daher nur als Hypothesengenerierungssignal behandelt werden, nicht als mechanistisch validierte Umpositionierungsevidenz.
+Zwischen der ursprünglichen Indikation (Fertilitätsbehandlung) und der vorhergesagten Indikation (Entzündung von Magen und Zwölffingerdarm) besteht kein erkennbarer mechanistischer Zusammenhang. Eine Rolle der FSH-Rezeptoragonie im Magen-Darm-Trakt ist nicht belegt. Der hohe Vorhersagewert ist daher vermutlich ein Netzwerkartefakt und nicht durch biologische Evidenz gestützt.
+
+Weitere vorhergesagte Indikationen bestätigen dieses Bild. Sie sind alle nur modellbasiert (L5) und tragen die Empfehlung „Hold“:
+
+| Rang | Vorhergesagte Indikation | TxGNN-Wert | Einschätzung |
+|---|---|---|---|
+| 2 | Migräne | 99,63 % | Nur spekulativer Hormonbezug; eher Verschlechterung oder Auslösung als Behandlung zu erwarten |
+| 3 | Ulcus pepticum | 99,61 % | Keine Rolle von FSH bei Säuresekretion oder Mukosaschutz |
+| 4 | Migräne mit Hirnstammaura | 99,59 % | Kein Bezug zur Pathophysiologie (Kanalopathien) |
+| 5 | Raynaud-Krankheit | 99,59 % | Kein Beleg für gefäßerweiternde Wirkung |
+| 6 | Pulmonale Hypertonie | 99,44 % | Kein Mechanismus; thromboembolische Risiken und Flüssigkeitsverschiebungen könnten schädlich sein |
+| 7 | Kyphoskoliotische Herzkrankheit | 99,36 % | Kein plausibler Bezug; vermutlich Netzwerkartefakt |
+| 8 | Migräne mit/ohne Aura (Suszeptibilität) | 99,11 % | Genetischer Suszeptibilitätseintrag, keine behandelbare klinische Indikation |
 
 ---
 
-## Klinische Studien-Evidenz
+## Evidenz aus klinischen Studien
 
-Derzeit keine verwandten klinischen Studien registriert.
-
----
-
-## Literatur-Evidenz
-
-Derzeit keine verwandte Literatur verfügbar.
+Derzeit sind keine relevanten klinischen Studien registriert.
 
 ---
 
-## Taiwan-Marktinformationen
+## Evidenz aus der Literatur
 
-Corifollitropin alfa hält derzeit **0 Lizenzen** in Taiwan und ist **nicht im Handel**. Es sind keine Produktinformationen, Darreichungsformen oder genehmigten Indikationstexte verfügbar.
+Derzeit ist keine relevante Literatur verfügbar.
+
+---
+
+## Informationen zum deutschen Markt
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation | Status |
+|---------|------|------|-----------|------|
+| EMEA/H/C/001106 | Elonva | – | Assistierte Reproduktionstechniken; Ovulationsinduktion; Untersuchungsverfahren | Aufgehoben |
 
 ---
 
 ## Sicherheitsaspekte
 
-- **Datenlücke (blockierend):** TFDA-Packungsbeilage-Warnhinweise/Kontraindikationen sind derzeit nicht verfügbar. Dies wird als Datenlücke mit **blockierender** Priorität (DG001) gekennzeichnet — sie verhindert, dass dieser Kandidat die S1-Sicherheits-Vorabbeurteilungsphase betritt.
-- **Arzneimittelwechselwirkungen:** Abfrage ergab keine Ergebnisse (nicht in der aktuellen DDI-Datenbank gefunden).
+Für die Sicherheit liegen in den für diesen Bericht zusammengestellten Daten keine verwertbaren Angaben vor (keine Warnhinweise, Gegenanzeigen oder erfassten Wechselwirkungen). Bitte die Fachinformation heranziehen.
 
-Bitte beachten Sie das offizielle Packungsbeilage für Sicherheitsinformationen, sobald verfügbar; derzeit existieren in diesem Evidenzpaket keine wesentlichen Sicherheitsdaten.
-
----
-
-## Andere vorhergesagte Indikationen (gleiches Arzneimittel)
-
-Dieses Evidenzpaket enthielt 7 weitere TxGNN-Vorhersagen für Corifollitropin alfa, alle ähnlich nicht gestützt:
-
-| Rang | Erkrankung | Score | Evidenzstufe | Anmerkung |
-|------|-----------|-------|--------------|----------|
-| 2 | Migränestörung | 99.63% | L5 | Nur theoretischer hormonaler Entzugslink; keine direkte Studie |
-| 3 | Magen-Darm-Geschwür | 99.61% | L5 | Kein bekannter FSH-bezogener Mechanismus |
-| 4 | Migräne mit Hirnstammaura | 99.59% | L5 | Mechanismus-Nichtübereinstimmung (Ionenkanal/Hirnstammpathologie) |
-| 5 | Raynaud-Krankheit | 99.59% | L5 | Keine vaskulären/FSH-Mechanismus-Überschneidung |
-| 6 | Pulmonale Hypertonie | 99.44% | L5 | OHSS ist ein Nebenwirkung, nicht therapeutische Begründung |
-| 7 | Kyphoskoliotische Herzerkrankung | 99.36% | L5 | Strukturelle kardiopulmonale Erkrankung, nicht verwandter Mechanismus |
-| 8 | Migräne-Anfälligkeit | 99.11% | L4 | 20 Literatur-Treffer, alle zu Epilepsie-Genetik/Neuroinflammation — keine zu FSH oder Corifollitropin alfa |
-
-Alle 8 Vorhersagen tragen eine **Aussetzen**-Empfehlung in der Entscheidungsphase S0.
+Hinweis aus der Mechanismusbetrachtung: Eine ovarielle Stimulation birgt thromboembolische Risiken und Flüssigkeitsverschiebungen, die bei bestimmten Zielpopulationen (z. B. pulmonale Hypertonie) schädlich sein könnten.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Aussetzen**
+**Entscheidung: Hold**
 
 **Begründung:**
-Alle vorhergesagten Indikationen für Corifollitropin alfa werden nur durch TxGNN-Modell-Scores gestützt (L5 oder L4 mit irrelevanter Literatur) ohne klinische Studien und ohne arzneimittelspezifische Publikationen. Das Arzneimittel ist in Taiwan nicht im Handel, und kritische Sicherheitsdaten (TFDA-Warnhinweise/Kontraindikationen) sind eine blockierende Datenlücke, die jede S1-Sicherheits-Vorabbeurteilung verhindert.
+Die Vorhersage beruht ausschließlich auf einem Netzwerkmodell (L5), ohne klinische Studien, Literatur oder plausiblen Wirkmechanismus. Zudem ist die einzige deutsche Zulassung aufgehoben, und die Sicherheitsdaten sind unvollständig.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- Datenlücke DG001 (blockierend) beheben: TFDA/FDA/EMA-Packungsbeilage-Daten für Warnhinweise und Kontraindikationen abrufen
-- Datenlücke DG002 (hoch) beheben: bestätigten Wirkmechanismus von DrugBank oder Primärliteratur erhalten
-- Gezielt Literatur durchsuchen, die FSH-Rezeptorsignalisierung speziell mit Gastroduodenitis (oder einem der Top-Kandidaten) verbindet, bevor man über S0 hinausgeht
-- Sollte keine mechanistische oder empirische Unterstützung entstehen, diesen Kandidaten als Wissensgraph-Rauschen statt als echtes Umpositionierungssignal schließen
-
+**Für ein Weiterkommen sind erforderlich:**
+- Sicherheitsrelevante Angaben der Fachinformation (Warnhinweise, Gegenanzeigen), da die fehlenden Daten ein Blocker für das Sicherheitsscreening sind
+- Daten zum Wirkmechanismus (MOA) aus DrugBank
+- Präklinische Hinweise auf eine biologische Rolle von FSH-Rezeptoren bei der vorhergesagten Erkrankung
+- Klärung der Darreichungswege und der Kompatibilität mit der Zielindikation
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

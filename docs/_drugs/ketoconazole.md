@@ -2,7 +2,7 @@
 layout: default
 title: Ketoconazole
 parent: Mittlere Evidenz (L3-L4)
-nav_order: 217
+nav_order: 253
 evidence_level: L4
 indication_count: 1
 ---
@@ -29,91 +29,101 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Ketokonazol: Von Pilzinfektionen zu Akne (Disease)
+# Ketoconazol: Vom Cushing-Syndrom zur Akne
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Ketokonazol ist ein Imidazol-Antimykotikum, das ursprünglich zur Behandlung von Pilzinfektionen entwickelt wurde.
-> Das TxGNN-Modell prognostiziert, dass es auch wirksam gegen **Akne (Disease)** sein könnte,
-> mit **1 klinischer Studie** und **15 Publikationen**, die diese Richtung derzeit unterstützen, wobei die meisten davon präklinisch/mechanistisch sind.
+Ketoconazol wurde ursprünglich zur Behandlung des Cushing-Syndroms zugelassen. Das TxGNN-Modell sagt voraus, dass es bei **Akne** wirksam sein könnte. Die Datenlage ist dünn: Es liegt **1 klinische Studie** (topische Anwendung, Phase „NA") vor, dazu Literatur, die überwiegend aus Übersichtsarbeiten, Fallberichten und Laborstudien besteht.
 
 ---
 
 ## Kurzübersicht
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Pilzinfektionen (Imidazol-Antimykotika-Klasse) |
-| Prognostizierte neue Indikation | Akne (Disease) |
-| TxGNN-Prognosescore | 99.80% |
-| Evidenzstufe | L4 |
-| Marktstatus Deutschland | ✗ Nicht im Handel |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Halten |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Cushing-Syndrom |
+| Vorhergesagte neue Indikation | Akne |
+| TxGNN-Vorhersagewert | 99,80 % |
+| Evidenzniveau | L4 |
+| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
+| Anzahl der Zulassungen | 1 (davon 0 gültig) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
 ## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Wirkmechanismus (MOA)-Daten für Ketokonazol in diesem Evidenzpaket nicht verfügbar. Basierend auf bekannter Pharmakologie gehört Ketokonazol zur **Imidazol-Antimykotika-Klasse**, und seine Wirksamkeit bei der Behandlung von Pilzinfektionen ist gut belegt.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten, kuratierten Angaben vor. Die folgende Einordnung beruht daher auf allgemeiner Pharmakologie. Ketoconazol ist ein Azol-Antimykotikum. Es wirkt gegen Malassezia-(Pityrosporum-)Hefen, die an follikulären Entzündungen und akneähnlichen Hautveränderungen (z. B. Malassezia-Follikulitis) beteiligt sein können. Außerdem hemmt es die Steroidsynthese (u. a. CYP17A1) und senkt dadurch die Androgenbildung. Beim Cushing-Syndrom nutzt man diese Hemmung, um die Cortisolproduktion zu senken.
 
-Die Literaturevidenz weist jedoch auf eine plausible mechanistische Brücke zu Akne hin: Ketokonazol wurde *in vitro* gezeigt, die Lipase-Aktivität von *Propionibacterium (Cutibacterium) acnes* (PMID 28111792), dem Bakterium, das in der Akne-Pathogenese eine Rolle spielt, zu hemmen, und andere Azol-Antimykotika zeigen ähnliche Anti-*P. acnes*-Aktivität (PMID 20045949). Da die Sebum-metabolisierende Lipase-Aktivität die entzündliche Kaskade in Akne antreibt, könnte ein Agens, das dieses Enzym hemmt – unabhängig von seiner antimykotischen Wirkung – plausibel die Akne-Schwere reduzieren. Diese mechanistische Begründung ist konsistent mit dem Medikament, das nun klinisch als topische Alternative zu Retinoiden für leichte Akne getestet wird (NCT07237763).
+Der Zusammenhang zur Akne ergibt sich auf zwei Wegen. Erstens kann die antiandrogene Wirkung bei hyperandrogener Akne, etwa im Rahmen eines PCOS, relevant sein. Zweitens zeigen Laborstudien, dass Ketoconazol das Wachstum von *Cutibacterium (Propionibacterium) acnes* und dessen Lipaseaktivität hemmt. Das könnte bei zunehmenden Antibiotikaresistenzen interessant sein.
 
-Mehrere Literatureinträge in diesem Paket (z.B. neonatale *Malassezia*/*Pityrosporum*-Follikulitis, die fälschlicherweise als Akne diagnostiziert wurde) veranschaulichen weiter die etablierte Rolle von Ketokonazol bei der Behandlung von Pilz-bedingten pustulären Hauterkrankungen, die klinisch mit Akne-Präsentationen überlappen, und bieten indirekte Unterstützung für die Umnutzung.
+Am plausibelsten erscheint eine **topische Anwendung**. Der sehr hohe TxGNN-Wert ist eine rein rechnerische Vorhersage und ersetzt keine klinische Evidenz.
 
 ---
 
 ## Evidenz aus klinischen Studien
 
-| Trialnummer | Phase | Status | Einschreibung | Wichtigste Ergebnisse |
-|---------|-------|--------|------|---------|
-| [NCT07237763](https://clinicaltrials.gov/study/NCT07237763) | NA | Aktiv, nicht mehr rekrutierend | 52 | RCT vergleicht topisches Ketokonazol 2%-Creme mit topischem Adapalen 2%-Creme bei leichter komedonal/papulopustulöser Akne, bewertet, ob Ketokonazol eine tragfähige Alternative zu Retinoiden mit besserer Verträglichkeit ist |
+| Studiennummer | Phase | Status | Teilnehmerzahl | Zentrale Ergebnisse |
+|---------|------|------|------|---------|
+| [NCT07237763](https://clinicaltrials.gov/study/NCT07237763) | Keine Phase (NA) | Aktiv, nicht rekrutierend | 52 | Randomisierter Vergleich von 2 % Ketoconazol-Creme mit 2 % Adapalen-Creme bei leichter komedonaler und papulopustulöser Akne über 12 Wochen. Ziel ist zu prüfen, ob Ketoconazol eine verträglichere Alternative zu topischen Retinoiden sein kann. Ergebnisse liegen noch nicht vor. |
 
 ---
 
-## Literaturevidenz
+## Evidenz aus der Literatur
 
-| PMID | Jahr | Typ | Zeitschrift | Wichtigste Ergebnisse |
-|------|------|------|---------|---------|
-| [28111792](https://pubmed.ncbi.nlm.nih.gov/28111792/) | 2017 | *In vitro*-Studie | Microbiol Immunol | Ketokonazol hemmt die Lipase-Aktivität von *P. acnes*, was auf einen möglichen alternativen Wirkmechanismus zur Akne-Behandlung hindeutet, der über die antimykotische Wirkung hinausgeht |
-| [20045949](https://pubmed.ncbi.nlm.nih.gov/20045949/) | 2010 | *In vitro*-Studie | Biol Pharm Bull | Azol-Antimykotika, einschließlich Ketokonazol, zeigen *in vitro*-Aktivität gegen *P. acnes*, das von Patienten mit Akne vulgaris isoliert wurde |
-| [12566804](https://pubmed.ncbi.nlm.nih.gov/12566804/) | 2003 | Übersichtsarbeit | Dermatology (Basel) | Überblick über systemische Akne-Behandlungen; erörtert Antibiotikaresistenz-Probleme, die das Interesse an alternativen antibakteriellen Wirkstoffen antreiben |
-| [32872149](https://pubmed.ncbi.nlm.nih.gov/32872149/) | 2020 | Übersichtsarbeit | Pharmaceuticals (Basel) | Überprüft Adapalen (den Vergleichsstoff der Studie) als Akne-Erstlinien-Therapie und kontextualisiert die vorgeschlagene Rolle von Ketokonazol als Alternative |
-| [39622522](https://pubmed.ncbi.nlm.nih.gov/39622522/) | 2024 | Retrospektive Studie | South Med J | Analyse der Formularium-Nutzungsmuster in der Dermatologie, einschließlich Antimykotika/Akne-Wirkstoffe, in einer ambulanten Einrichtung |
-| [8629828](https://pubmed.ncbi.nlm.nih.gov/8629828/) | 1996 | Fallbericht | Arch Dermatol | Neonatale *Malassezia furfur*-Pustulosis, eine Erkrankung, die klinisch mit neonataler Akne überlappt, mit Pilz-Pathogenese verknüpft |
-| [23600337](https://pubmed.ncbi.nlm.nih.gov/23600337/) | 2013 | Übersichtsarbeit | FP Essentials | Überprüft häufige Säuglingsausschläge, einschließlich neonataler/infantiler Akne, und ihre Differentialdiagnose zu Pilz-Follikulitis |
-| [8593718](https://pubmed.ncbi.nlm.nih.gov/8593718/) | 1995 | Fallserie | Clin Exp Dermatol | *Pityrosporum*-Follikulitis häufig fälschlicherweise als Akne vulgaris diagnostiziert; spricht auf Antimykotika (Azol)-Therapie an |
-| [8255067](https://pubmed.ncbi.nlm.nih.gov/8255067/) | 1993 | Übersichtsarbeit | Keio J Med | *Pityrosporum ovale* in mehreren Hauterkrankungen mit klinischen Überlappungen zu akne-ähnlichen Eruptionen impliziert |
-| [19445767](https://pubmed.ncbi.nlm.nih.gov/19445767/) | 2009 | Übersichtsarbeit | BMJ Clin Evid | PCOS-Übersichtsarbeit bemerkt Akne als androgen-gesteuertes Symptom, relevant für die bekannten anti-androgenen Eigenschaften von Ketokonazol |
+| PMID | Jahr | Typ | Fachzeitschrift | Zentrale Ergebnisse |
+|------|-----|------|------|---------|
+| [12566804](https://pubmed.ncbi.nlm.nih.gov/12565804/) | 2003 | Übersichtsarbeit | Dermatology | Überblick über die systemische Aknetherapie, vor allem Antibiotika bei papulopustulöser Akne |
+| [28111792](https://pubmed.ncbi.nlm.nih.gov/28111792/) | 2017 | Laborstudie | Microbiol Immunol | Ketoconazol hemmt die Lipaseaktivität von *P. acnes* und dessen Wachstum; mögliche Alternative bei Antibiotikaresistenz |
+| [20045949](https://pubmed.ncbi.nlm.nih.gov/20045949/) | 2010 | Laborstudie | Biol Pharm Bull | In-vitro-Aktivität von Azol-Antimykotika gegen *P. acnes* aus Aknepatienten |
+| [8593718](https://pubmed.ncbi.nlm.nih.gov/8593718/) | 1995 | Klinische Studie | Clin Exp Dermatol | 62 Patienten mit Pityrosporum-Follikulitis, die oft als Akne fehldiagnostiziert wird; Diagnose und Therapieversuche |
+| [8255067](https://pubmed.ncbi.nlm.nih.gov/8255067/) | 1993 | Übersichtsarbeit | Keio J Med | Pityrosporum ovale und Hauterkrankungen, u. a. Follikulitis und seborrhoische Dermatitis |
+| [8629828](https://pubmed.ncbi.nlm.nih.gov/8629828/) | 1996 | Fallbericht | Arch Dermatol | Zusammenhang zwischen neonataler Pustulose und Malassezia-furfur-Infektion |
+| [19445767](https://pubmed.ncbi.nlm.nih.gov/19445767/) | 2009 | Übersichtsarbeit | BMJ Clin Evid | PCOS, assoziiert u. a. mit Hirsutismus und Akne |
+| [8090657](https://pubmed.ncbi.nlm.nih.gov/8090657/) | 1993 | Übersichtsarbeit | Pol Tyg Lek | Behandlung hyperandrogener Manifestationen bei PCOS |
 
----
-
-## Informationen zum Markt Deutschland
-
-Dieses Medikament hat derzeit **keine Zulassungen in Deutschland** registriert (Marktstatus: nicht im Handel, 0 Lizenzen vorhanden).
+Hinweis: Mehrere weitere gefundene Publikationen betreffen Adapalen, das Cushing-Syndrom oder andere Hauterkrankungen und stützen die Akne-Vorhersage nicht direkt. Sie sind hier nicht aufgeführt.
 
 ---
 
-## Sicherheitsüberlegungen
+## Marktinformationen Deutschland
 
-Bitte entnehmen Sie Sicherheitsinformationen der Fachinformation. Detaillierte TFDA/BfArM-Warnhinweise, Kontraindikationen und Wechselwirkungsdaten sind in diesem Evidenzpaket noch nicht verfügbar (gekennzeichnet als **blockierende** Datenlücke — DG001).
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/003906 | Ketoconazole Esteve (zuvor Ketoconazole HRA) | – | Cushing-Syndrom |
+
+Diese Zulassung (zentrale EU-Zulassung) ist als erloschen/zurückgezogen geführt. Gültige Zulassungen gibt es derzeit nicht.
+
+---
+
+## Sicherheitsaspekte
+
+Aus den kompilierten Daten liegen keine Warnhinweise oder Gegenanzeigen aus der Fachinformation vor. Bitte die Fachinformation zu Sicherheitsangaben heranziehen.
+
+- **Kontraindikationen laut Wissensgraph** (aus Arzneimittel-Krankheits-Beziehungen in PrimeKG, nicht aus Packungsbeilagen): Long-QT-Syndrom (auch familiär), Torsade de pointes, Lebererkrankungen, Gallenblasenerkrankungen, Nebenniereninsuffizienz, Morbus Addison, Hautatrophie, Teleangiektasien (inkl. hereditärer hämorrhagischer Teleangiektasie), Kapillarerkrankungen, periphere Gefäßerkrankungen (inkl. Claudicatio intermittens und pAVK) sowie Achlorhydrie.
+- **Arzneimittelwechselwirkungen**: Insgesamt wurden 100 Wechselwirkungen erfasst. Die schwerwiegendsten (Stufe „Major") betreffen:
+  - Loperamid
+  - Triamcinolon
+  - Budesonid
+
+  Viele weitere sind von mittlerem Schweregrad, z. B. Protonenpumpenhemmer und H2-Blocker (Omeprazol, Rabeprazol, Famotidin, Ranitidin), Kortikosteroide (Hydrocortison, Dexamethason, Betamethason), Anticholinergika (Atropin, Hyoscyamin, Methscopolamin), Aprepitant, Pioglitazon und Alosetron. Amphotericin B ist nur von geringem Schweregrad.
+- **Einordnung**: Orales Ketoconazol ist mit relevanten Risiken wie Leberschädigung und Nebenniereninsuffizienz sowie einer hohen Wechselwirkungslast verbunden. Eine systemische Anwendung bei Akne ist daher nicht vertretbar. Eine topische Anwendung wäre sicherheitstechnisch deutlich günstiger.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Halten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Es besteht eine blockierende Datenlücke — TFDA/BfArM-Warnhinweise und Kontraindikationen sind nicht verfügbar, was die Durchführung der S1-Sicherheitsvorbewertung verhindert. Die klinische Evidenz ist auch auf eine einzelne laufende Phase-NA-Studie beschränkt, wobei die meisten unterstützenden Literaturangaben *in vitro* oder mechanistisch sind, nicht bestätigende klinische Studien.
+Die Vorhersage ist mechanistisch nachvollziehbar (Malassezia, *C. acnes*, Androgensynthese), klinisch aber kaum belegt: Es gibt nur eine kleine, laufende Studie ohne Ergebnisse (Evidenzniveau L4). Hinzu kommt, dass in Deutschland keine gültige Zulassung besteht und die systemische Anwendung erhebliche Sicherheitsrisiken birgt.
 
-**Um fortzufahren, wird Folgendes benötigt:**
-- Offizielle Fachinformation/Etikettendaten (Warnhinweise, Kontraindikationen) von TFDA oder BfArM besorgen
-- DrugBank-MOA-Daten besorgen, um die mechanistische Begründung zu stärken
-- Auf Fertigstellung und Ergebnisse von NCT07237763 warten
-- Wechselwirkungsprofil klären, insbesondere angesichts der bekannten CYP3A4-Hemmung durch Ketokonazol
-- Status der deutschen/EU-Zulassung für diese Verbindung und Formulierung klären
-
+**Für ein Weiterkommen wird Folgendes benötigt:**
+- Ergebnisse der Studie NCT07237763 sowie weitere randomisierte, kontrollierte Studien (idealerweise placebokontrolliert) zu topischem Ketoconazol bei Akne
+- Klärung der Anwendungsart (topisch) und der Verfügbarkeit entsprechender Präparate in Deutschland
+- Auswertung der Fachinformation zu Warnhinweisen und Gegenanzeigen (derzeit nicht verfügbar; sicherheitsrelevante Lücke)
+- Kuratierte Daten zum Wirkmechanismus (Zielstrukturen)
+- Bewertung der systemischen Exposition und Verträglichkeit bei topischer Anwendung
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

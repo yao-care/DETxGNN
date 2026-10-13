@@ -2,7 +2,7 @@
 layout: default
 title: Trabectedin
 parent: Hohe Evidenz (L1-L2)
-nav_order: 408
+nav_order: 476
 evidence_level: L2
 indication_count: 1
 ---
@@ -29,103 +29,108 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Trabectedin: Von Weichgewebssarkom / Ovarialkarzinom zu weiblichem Mammakarzinom
+# Trabectedin: Von Sarkom und Ovarialkarzinom zu weiblichem Mammakarzinom
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Trabectedin (DrugBank DB05109) ist ein aus dem Meer stammender, DNA-bindender zytotoxischer Wirkstoff mit internationaler Zulassung für Weichgewebssarkome und in Kombination mit pegyliertem liposomalem Doxorubicin für platinempfindliche rezidivierte Ovarialkarzinome.
-> Das TxGNN-Modell sagt voraus, dass es möglicherweise auch wirksam gegen **Weibliches Mammakarzinom** sein könnte,
-> mit **2 klinischen Studien** und **20 Veröffentlichungen**, die diese Richtung derzeit unterstützen — obwohl der Wirkstoff in dieser Rechtsordnung noch nicht auf dem Markt zugelassen ist.
+Trabectedin ist ein aus einer Meeresseescheide gewonnenes Zytostatikum, das ursprünglich zur Behandlung von Weichteilsarkomen und Ovarialkarzinomen zugelassen wurde.
+Das TxGNN-Modell sagt voraus, dass es bei **weiblichem Mammakarzinom** wirksam sein könnte, wobei **1 klinische Studie** und **20 Publikationen** diese Richtung stützen (darunter mehrere Phase-2-Studien zum Mammakarzinom).
 
 ---
 
-## Schnellübersicht
+## Kurzübersicht
 
-| Eintrag | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Nicht lokal zugelassen; international zugelassen für Weichgewebssarkome und platinempfindliche rezidivierte Ovarialkarzinome (gemäß Literatur) |
+| Ursprüngliche Indikation | Sarkom; Ovarialkarzinom |
 | Vorhergesagte neue Indikation | Weibliches Mammakarzinom |
-| TxGNN-Vorhersage-Score | 99.73% |
-| Evidenzstufe | L2 |
-| Marktstatus in Deutschland | ✗ Nicht im Handel |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Halten |
+| TxGNN-Vorhersagewert | 99,73 % |
+| Evidenzgrad | L2 |
+| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassungen (kein aktiver Marktstatus) |
+| Anzahl der Zulassungen | 2 (beide erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Warum ist diese Vorhersage plausibel?
 
-Strukturierte Wirkmechanismus-Daten sind für diesen Wirkstoff nicht direkt verfügbar (DrugBank-MOA-Feld: Datenlücke). Basierend auf den mechanistischen Belegen aus dem Literaturpaket ist Trabectedin ein aus dem Meer stammender, alkylierender DNA-Minor-Groove-bindender Wirkstoff, der die transkriptionsabhängige Nucleotidexzisionsreparatur (TC-NER) beeinträchtigt und das Tumormikromilieu durch Erschöpfung tumorassoziierter Monozyten/Makrophagen moduliert. Dieser Wirkmechanismus bietet eine theoretische Rationale der synthetischen Lethalität in BRCA1/2-defizienten (homologe Rekombination-defizienten) Mammakarzinomen, und In-vitro-Studien zeigen, dass es Apoptose in HER2+/ER- und HER2-/ER+-Mammakarzinomzelllinien induzieren kann, mit zusätzlichen Belegen für Synergien mit IL-12-vermittelter Immunaktivierung in triple-negativem Brustkrebs (TNBC).
+Zum ursprünglichen Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine Angaben vor. Der folgende Mechanismus stammt aus der Fachliteratur: Trabectedin bindet an die kleine Furche der DNA und bildet Addukte. Dadurch entstehen über die transkriptionsgekoppelte Nukleotidexzisionsreparatur DNA-Doppelstrangbrüche. Zusätzlich beeinflusst es das Tumormikromilieu, etwa durch die Verringerung tumorassoziierter Makrophagen.
 
-Brustkrebs ist derzeit keine primär zugelassene Indikation für Trabectedin — seine etablierten Verwendungen sind Weichgewebssarkome und platinempfindliche Ovarialkarzinome, die beide eine durch DNA-Reparaturdefizienz getriebene Behandlungslogik mit einer Untergruppe von BRCA1/2-mutierten Mammakarzinomen teilen. Der mechanistische Zusammenhang mit Brustkrebs ist daher eine angemessene Extrapolation, die durch präklinische und frühe klinische Signale gestützt wird, anstelle einer direkt validierten Indikation.
+Tumoren mit Defekten der homologen Rekombination, zum Beispiel BRCA1/2-mutiertes Mammakarzinom, dürften besonders empfindlich reagieren. Die Wirksamkeit bei Sarkom und Ovarialkarzinom ist belegt, und beide Tumorarten sowie das Mammakarzinom teilen Reparaturdefekt-Biologie, die für Trabectedin relevant ist.
+
+Präklinisch gibt es Hinweise auf Synergie mit IL-12 beim triple-negativen Mammakarzinom. Klinisch wurden in Phase-2-Studien Aktivitäten bei Patientinnen mit Anthrazyklin- und Taxan-vorbehandeltem metastasiertem Mammakarzinom berichtet. Der hohe TxGNN-Wert passt zu dieser Biologie.
 
 ---
 
-## Klinische Studienbelege
+## Klinische Studien
 
-| Trialnummer | Phase | Status | Teilnehmerzahl | Wichtigste Erkenntnisse |
+| Studiennummer | Phase | Status | Teilnehmerzahl | Kernaussagen |
 |---------|------|------|------|---------|
-| [NCT00786838](https://clinicaltrials.gov/study/NCT00786838) | Phase 2 | Abgeschlossen | 76 | Single-blind, placebo-kontrollierte, sequenzielle QT/QTc-Intervall-Studie von Einzeldosis-Trabectedin bei fortgeschrittenen soliden Tumormalignitäten; bewertet direkt die kardiale Sicherheit von Trabectedin bei therapeutischer Dosis (Relevanzgrad A). |
-| [NCT03470805](https://clinicaltrials.gov/study/NCT03470805) | Phase 2 | Abgeschlossen | 9 | Olaparib-Erhaltungstherapie nach Ansprache auf Trabectedin + pegyliertes liposomales Doxorubicin (PLD) Induktionstherapie bei rezidiviertem BRCA-mutiertem Ovarialkarzinom; Trabectedin-PLD dient als Induktionsschema, nicht als primärer Studienarm (kleines n=9, Relevanzgrad B). |
+| [NCT00786838](https://clinicaltrials.gov/study/NCT00786838) | Phase 2 | Abgeschlossen | 76 | Untersuchung der Wirkung einer Einzeldosis Trabectedin auf das QT-Intervall im EKG bei fortgeschrittenen soliden Tumoren; liefert Sicherheitsdaten, keine direkten Wirksamkeitsdaten beim Mammakarzinom |
 
 ---
 
-## Literaturbelege
+## Literaturevidenz
 
-| PMID | Jahr | Typ | Journal | Wichtigste Erkenntnisse |
+| PMID | Jahr | Typ | Zeitschrift | Kernaussagen |
 |------|-----|------|------|---------|
-| [25239225](https://pubmed.ncbi.nlm.nih.gov/25239225/) | 2014 | RCT | Clinical Breast Cancer | Multizentrische, randomisierte Phase-2-Studie von Monotherapie-Trabectedin (2 Dosierungsschemata) bei fortgeschrittenem Brustkrebs nach vorheriger Anthracyclin- und Taxan-Behandlung. |
-| [27266804](https://pubmed.ncbi.nlm.nih.gov/27266804/) | 2016 | RCT | Clinical Breast Cancer | Phase-2-Studie von Trabectedin bei HR+/HER2- fortgeschrittenem Brustkrebs, Wirksamkeit bewertet durch XPG-mRNA-Expression als prädiktiver Biomarker. |
-| [24692579](https://pubmed.ncbi.nlm.nih.gov/24692579/) | 2014 | Phase-2-Studie | Annals of Oncology | Internationale Phase-2-Studie in erster Linie mit Trabectedin-Aktivität bei keimbahnmutiertem BRCA1/2-metastasierendem Brustkrebs. |
-| [19114300](https://pubmed.ncbi.nlm.nih.gov/19114300/) | 2009 | Phase-1-Studie | European Journal of Cancer | Phase-I/PK-Studie von Trabectedin + Doxorubicin-Kombination bei fortgeschrittenem Weichgewebssarkom und Brustkrebs, Machbarkeit und antitumorale Aktivität bewertet. |
-| [26592307](https://pubmed.ncbi.nlm.nih.gov/26592307/) | 2016 | Übersicht | Expert Opinion on Investigational Drugs | Bespricht Trabectedins Wirkmechanismus (Transkriptionsregulation, TAM-Reduktion) und sein Untersuchungspotential bei Brustkrebs. |
-| [27710871](https://pubmed.ncbi.nlm.nih.gov/27710871/) | 2016 | Übersicht | Cancer Treatment Reviews | Bespricht Trabectedin als Chemotherapie-Option bei Patienten mit BRCA-Defizienz, einschließlich Brustkrebs. |
-| [39777457](https://pubmed.ncbi.nlm.nih.gov/39777457/) | 2025 | Präklinisch | Cancer Immunology Research | Trabectedin erschöpft immunsuppressive myeloide Zellen und verstärkt IL-12-getriebene NK-Zell-Zytotoxizität in triple-negativen Brustkrebs-Modellen. |
-| [23792433](https://pubmed.ncbi.nlm.nih.gov/23792433/) | 2013 | Präklinisch | Toxicology Letters | Trabectedin induziert Apoptose über Todesrezeptor-Signalweg in MCF-7 (HER2-/ER+) und MDA-MB-453 (HER2+/ER-) Brustkrebs-Zelllinien. |
-| [24941346](https://pubmed.ncbi.nlm.nih.gov/24941346/) | 2014 | Präklinisch | European Cytokine Network | Demonstriert anti-angiogene Effekte von Trabectedin auf HUVECs und Brustkrebs-Zelllinien über angiogene Zytokin-Modulation. |
-| [18410797](https://pubmed.ncbi.nlm.nih.gov/18410797/) | 2008 | Übersicht | Seminars in Oncology | Bespricht neue Wirkstoffe, einschließlich Trabectedin, für anthracyclin- und taxan-refraktäre metastatische Brustkrebs. |
+| [25239225](https://pubmed.ncbi.nlm.nih.gov/25239225/) | 2014 | Phase-2-Studie (randomisiert) | Clin Breast Cancer | Trabectedin als Monotherapie bei fortgeschrittenem Mammakarzinom nach Anthrazyklin und Taxan; Vergleich zweier Applikationsschemata |
+| [24692579](https://pubmed.ncbi.nlm.nih.gov/24692579/) | 2014 | Phase-2-Studie | Ann Oncol | Aktivität bei Keimbahn-BRCA1/2-mutiertem metastasiertem Mammakarzinom |
+| [27266804](https://pubmed.ncbi.nlm.nih.gov/27266804/) | 2016 | Phase-2-Studie | Clin Breast Cancer | Trabectedin bei HR-positivem, HER2-negativem Mammakarzinom in Abhängigkeit von der XPG-Expression |
+| [26592307](https://pubmed.ncbi.nlm.nih.gov/26592307/) | 2016 | Übersichtsarbeit | Expert Opin Investig Drugs | Trabectedin beim Mammakarzinom; Wirkung auf Transkription und tumorassoziierte Makrophagen |
+| [27710871](https://pubmed.ncbi.nlm.nih.gov/27710871/) | 2016 | Übersichtsarbeit | Cancer Treat Rev | Trabectedin als Chemotherapieoption bei BRCA-Defizienz |
+| [19114300](https://pubmed.ncbi.nlm.nih.gov/19114300/) | 2009 | Phase-1-Studie | Eur J Cancer | Trabectedin plus Doxorubicin bei Weichteilsarkom und fortgeschrittenem Mammakarzinom (Verträglichkeit und Pharmakokinetik) |
+| [18410797](https://pubmed.ncbi.nlm.nih.gov/18410797/) | 2008 | Übersichtsarbeit | Semin Oncol | Neue Substanzen beim anthrazyklin- und taxanrefraktären metastasierten Mammakarzinom |
+| [39777457](https://pubmed.ncbi.nlm.nih.gov/39777457/) | 2025 | Präklinisch | Cancer Immunol Res | Trabectedin verstärkt die Antitumorwirkung von IL-12 beim triple-negativen Mammakarzinom |
+| [24941346](https://pubmed.ncbi.nlm.nih.gov/24941346/) | 2014 | Präklinisch | Eur Cytokine Netw | Antiangiogene Effekte auf Mammakarzinomzellen |
+| [23792433](https://pubmed.ncbi.nlm.nih.gov/23792433/) | 2013 | Präklinisch | Toxicol Lett | Unterschiedliche Apoptoseinduktion in MCF-7- und MDA-MB-453-Zellen |
 
 ---
 
-## Marktinformationen für Deutschland
+## Marktinformationen Deutschland
 
-Trabectedin hat derzeit keine Marktzulassung in dieser Rechtsordnung (0 Lizenzen dokumentiert); der Marktstatus ist **Nicht im Handel**.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/006433 | Trabectedin Accord | – | Sarkom; Ovarialkarzinom (erloschen) |
+| EMEA/H/C/000773 | Yondelis | – | Ovarialkarzinom; Sarkom (erloschen) |
 
 ---
 
 ## Zytotoxizität
 
-Trabectedin ist ein konventioneller zytotoxischer Chemotherapie-Wirkstoff (aus dem Meer stammend, DNA-Minor-Groove-bindend, alkylierender Wirkstoff), daher gilt dieser Abschnitt.
-
 | Punkt | Inhalt |
 |------|------|
-| Zytotoxizitätsklassifizierung | Konventionell zytotoxisch — DNA-Minor-Groove-Binder / transkriptionsabhängige-Reparatur-Inhibitor (aus dem Meer stammender alkylierender Wirkstoff) |
-| Myelosuppressionsrisiko | Hoch — Literatur berichtet von Grad-3–4-Neutropenie bei ~50 % und Grad-3–4-Thrombozytopenie bei ~20 % der Patienten (Boudou et al., 2009) |
-| Emetogenitätsklassifizierung | Moderat (basierend auf bekanntem klinischem Profil; spezifische formale Klassifizierung nicht in diesem Evidenzpaket bereitgestellt) |
-| Überwachungspunkte | Großes Blutbild mit Differenzialzählung, Leberfunktionstests (hepatotoxizitätsberichte), Kreatinkinase (Rhabdomyolyse-Risiko), Nierenfunktion und kardiale Überwachung (QT/QTc, gemäß NCT00786838) |
-| Handhabungsschutz | Erfordert Handhabung gemäß standardisierte zytotoxische/gefährliche Drogen-Handhabungsbestimmungen |
+| Zytotoxizitätsklassifikation | Klassisches Zytostatikum (DNA-bindende Substanz marinen Ursprungs) |
+| Myelosuppressionsrisiko | Hoch (laut Literatur Neutropenie Grad 3–4 bei etwa 50 % und Thrombozytopenie bei etwa 20 % der Patienten) |
+| Emetogenitätsklassifikation | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Überwachungsparameter | Blutbild mit Differenzialblutbild, Leberwerte (hepatische Toxizität laut Literatur), Nierenfunktion; QT-Intervall im Rahmen der Sicherheitsbewertung |
+| Schutzmaßnahmen bei der Handhabung | Vorschriften für den Umgang mit zytotoxischen Arzneimitteln einhalten |
 
 ---
 
-## Sicherheitsüberlegungen
+## Sicherheitsaspekte
 
-Bitte beachten Sie die Fachinformation für Sicherheitsinformationen. (Wichtige Warnungen, Kontraindikationen und Arzneimittelwechselwirkungsdaten sind derzeit nicht in diesem Evidenzpaket verfügbar — gekennzeichnet als blockierende Datenlücke, DG001.)
+- **Arzneimittelwechselwirkungen:** In den zusammengestellten Daten sind 100 Wechselwirkungen erfasst. Als schwerwiegend (Major) eingestuft ist **Clarithromycin**. Als moderat eingestuft sind u. a. Aprepitant, Dexamethasone, Cimetidin, Metronidazol, Levofloxacin, Miconazol, Simvastatin, Rosuvastatin, Pioglitazon, Rosiglitazon, Bupropion, Naltrexon und Minocyclin.
+- **QT-Intervall:** Eine abgeschlossene Studie (NCT00786838; PMID 21739119) hat die Wirkung auf das QT-Intervall untersucht.
+
+Zu Warnhinweisen und Gegenanzeigen bitte die Fachinformation heranziehen.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Halten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Der Wirkstoff ist derzeit in dieser Rechtsordnung nicht zugelassen/lizenziert, und Fachinformations-Sicherheitsdaten (Warnungen, Kontraindikationen) sind eine **blockierende Datenlücke (DG001)**, die eine vollständige S1-Sicherheits-Vorbewertung verhindert. Während die Evidenzstufe L2 (eine unterstützende vergleichende QT-Sicherheitsstudie plus mehrere frühe Phasen/präklinische Brustkrebs-Studien) mechanistisch plausibel und biomarker-gerichtet (BRCA1/2, XPG) ist, ist sie allein noch nicht stark genug, um ohne Sicherheitssubstantiierung einen Fortschritt zu rechtfertigen.
+Es gibt Phase-2-Daten beim Mammakarzinom (u. a. BRCA-mutierte und vorbehandelte Patientinnen) und ein plausibles Wirkprinzip. Es fehlen jedoch Phase-3-Belege, die in Deutschland eingetragenen Zulassungen sind erloschen, und die Sicherheitsprüfung anhand der Fachinformation ist noch nicht möglich.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-- Lokale Sicherheitskennzeichnungsdaten (TFDA/BfArM-Fachinformation: Warnungen, Kontraindikationen, DDI) zur Schließung von DG001
-- Bestätigte strukturierte MOA-Dokumentation von DrugBank zur Schließung von DG002 (teilweise durch obige Literatur-Wirkmechanismus-Begründung gestützt)
-- Zusätzliche größere Phase-2/3-Brustkrebs-spezifische RCT-Daten (aktuelle dedizierte Brustkrebs-Studien sind klein/frühe Phasen)
-- Formales Arzneimittelwechselwirkungsprofil (DDI), derzeit ohne Ergebnisse
-
+**Für ein Weiterkommen sind folgende Schritte nötig:**
+- Fachinformation (Warnhinweise und Gegenanzeigen) beim BfArM beschaffen und auswerten
+- Detaillierte Wirkmechanismus-Daten (z. B. aus DrugBank) ergänzen
+- Ergebnisse der Phase-2-Studien beim Mammakarzinom (insbesondere BRCA-mutierte Subgruppe) im Detail prüfen
+- Klären, warum die Zulassungen in Deutschland erloschen sind und ob eine Wiederzulassung oder ein anderer Zugangsweg möglich ist
+- Kontrollierte Studien in definierten Subgruppen (z. B. BRCA1/2-Mutation, HR-Defizienz) planen
+- Management der Myelosuppression und Lebertoxizität sowie Wechselwirkungsmanagement (insbesondere CYP3A4-Hemmer wie Clarithromycin) planen
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

@@ -2,7 +2,7 @@
 layout: default
 title: Mannitol
 parent: Nur Modellvorhersage (L5)
-nav_order: 245
+nav_order: 284
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,74 +29,94 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Mannitol: Von der Anwendung als osmotisches Diuretikum zum Nephrogenen Syndrom der unangemessenen Antidiurese
+# Mannitol: Von Mukoviszidose zu nephrogenem Syndrom der inadäquaten Antidiurese
 
 ## Zusammenfassung in einem Satz
 
-> Mannitol ist ein lange etabliertes osmotisches Diuretikum; formale Datensätze zur ursprünglichen Indikation und zum Wirkmechanismus sind derzeit nicht im Evidenzpaket verfügbar, obwohl es klinisch weithin für die Anwendung bei erhöhtem intrakraniellem/intraokularem Druck und oligurischen Zuständen bekannt ist.
-> Das TxGNN-Modell sagt voraus, dass es möglicherweise wirksam sein könnte bei der **Nephrogenen Syndrom der unangemessenen Antidiurese (NSIAD)**,
-> aber diese Vorhersage wird derzeit durch **0 klinische Studien** und nur **1 lose verwandte Publikation** gestützt, und sollte eher als ein hypothesengenerierendes Signal denn als verwertbare Evidenz betrachtet werden.
+Mannitol ist ein osmotisch wirksamer Wirkstoff, der in der EU (Bronchitol) ursprünglich zur Behandlung der **Mukoviszidose** zugelassen war. Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei **nephrogenem Syndrom der inadäquaten Antidiurese (NSIAD)** voraus. Dafür liegen **keine klinischen Studien** und nur **1 Publikation** (ein Übersichtsartikel ohne Bezug zu einem Mannitol-Nutzen) vor, die Vorhersage beruht daher faktisch allein auf dem Modell.
 
 ---
 
 ## Schnellübersicht
 
-| Eintrag | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Nicht verfügbar in behördlichen Daten (0 Lizenzen vorhanden); basierend auf bekannter Pharmakologie wird Mannitol historisch als osmotisches Diuretikum für zerebrales/okuläres Ödem und akute oligurische Zustände verwendet |
-| Vorhergesagte neue Indikation | Nephrogenes Syndrom der unangemessenen Antidiurese (NSIAD) |
-| TxGNN-Vorhersage-Score | 99.97% |
+| Ursprüngliche Indikation | Mukoviszidose |
+| Vorhergesagte neue Indikation | Nephrogenes Syndrom der inadäquaten Antidiurese (NSIAD) |
+| TxGNN-Vorhersagewert | 99,97 % |
 | Evidenzstufe | L5 |
-| Marktstatus Deutschland | ✗ Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Halten |
+| Marktstatus in Deutschland | Nur erloschene Zulassung |
+| Anzahl der Zulassungen | 1 (erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage vernünftig?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Wirkmechanismus-Daten für dieses Arzneimittel nicht im Evidenzpaket verfügbar (`original_moa: [Data Gap]`). Basierend auf bekannten pharmakologischen Informationen ist Mannitol ein Zuckeralkohol-Osmotikum, das freies Wasser in das vaskuläre Kompartiment zieht und die renale Ausscheidung von freiem Wasser fördert; es wird seit langem klinisch verwendet, um den intrakraniellen und intraokularen Druck zu senken und die Urinausscheidung in akuten oligurischen Zuständen aufrechtzuerhalten.
+Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Mannitol ist bekanntermaßen ein osmotisch wirksamer Stoff. Seine Wirksamkeit bei Mukoviszidose (inhalative Anwendung) ist belegt, und mechanistisch könnte ein osmotischer Effekt theoretisch die Ausscheidung freien Wassers fördern.
 
-Die für NSIAD vorgebrachte mechanistische Begründung besagt, dass ein osmotisches Diuretikum theoretisch die Clearance von freiem Wasser erhöhen und dadurch die für NSIAD charakteristische Verdünnungshyponatriämie korrigieren könnte. Der einzige für diese Kombination abgerufene Literaturartikel (PMID 26706473) ist jedoch eine allgemeine Übersichtsarbeit über Fallstricke bei der Beurteilung von Hyponatriämie – er **erwähnt nicht** Mannitol oder NSIAD spezifisch, und bietet keine direkte experimentelle oder klinische Unterstützung für diese Arzneimittel-Erkrankungs-Kombination.
+Die Plausibilität ist jedoch sehr gering. NSIAD beruht auf aktivierenden Mutationen des V2-Rezeptors (AVPR2). Eine osmotische Diurese ist keine etablierte Therapie dieser Erkrankung. Die einzige gefundene Publikation ist ein Übersichtsartikel zu Fallstricken bei der Abklärung einer Hyponatriämie und liefert keinerlei Hinweis auf einen Nutzen von Mannitol. Der hohe TxGNN-Wert ist ausschließlich eine Modellvorhersage.
 
-Es ist auch zu vermerken, dass eine niedriger bewertete Vorhersage in demselben Evidenzpaket (Rang 9, nephrogene Diabetes insipidus) Mannitol/Osmotika als Stoffe kennzeichnet, die zu einer **Diabetes-insipidus-ähnlichen übermäßigen Wasserausscheidung führen können**, anstatt sie zu behandeln – die entgegengesetzte physiologische Richtung. Dies wirft Fragen zur Plausibilität der NSIAD-Vorhersage auf, die vor weiteren Investitionen geklärt werden sollten.
+### Weitere vorhergesagte Indikationen (zur Einordnung)
+
+Die übrigen Top-10-Vorhersagen sind ebenfalls schwach belegt:
+
+| Rang | Vorhergesagte Indikation | Evidenzstufe | Einschätzung |
+|---|---|---|---|
+| 2 | Akutes Cor pulmonale | L4 | Nur indirekte Literatur; Mannitol kann das intravasale Volumen vorübergehend erhöhen und ein Lungenödem verschlechtern (Fallbericht) |
+| 3 | Belastungsinduzierte maligne Hyperthermie | L5 | Keine Evidenz; Mannitol dient nur als Hilfsstoff in Dantrolen-Formulierungen |
+| 4 | Maligne Hyperthermie (Disposition) | L4 | Wahrscheinlich Artefakt durch gemeinsames Vorkommen in Formulierungen |
+| 5–6 | Familiäre/hypokaliämische periodische Paralyse | L4 | Nur unterstützende Rolle als glukosefreies Trägermedium, keine krankheitsmodifizierende Wirkung |
+| 7, 8, 10 | RYR1-assoziierte Myopathien | L5 | Keine Evidenz, nur Nähe im Wissensgraphen |
+| 9 | Nephrogener Diabetes insipidus | L5 | Mechanistisch wahrscheinlich kontraindiziert (osmotische Diurese verstärkt Polyurie und Hypernatriämie) |
 
 ---
 
-## Evidenz aus klinischen Studien
+## Klinische Evidenz
 
-Derzeit sind keine verwandten klinischen Studien registriert
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Literaturbelege
+## Literaturevidenz
 
-| PMID | Jahr | Typ | Zeitschrift | Wichtigste Erkenntnisse |
-|------|------|------|------|---------|
-| [26706473](https://pubmed.ncbi.nlm.nih.gov/26706473/) | 2016 | Übersichtsartikel | European journal of internal medicine | Allgemeine Übersichtsarbeit über häufige diagnostische Fallstricke bei der Beurteilung hyponatriämischer Patienten; erwähnt Mannitol oder NSIAD nicht spezifisch |
+| PMID | Jahr | Typ | Journal | Kernaussagen |
+|------|-----|------|------|---------|
+| [26706473](https://pubmed.ncbi.nlm.nih.gov/26706473/) | 2016 | Review | European Journal of Internal Medicine | Häufige Fallstricke bei der Abklärung von Patienten mit Hyponatriämie; kein Hinweis auf einen Nutzen von Mannitol |
+
+---
+
+## Informationen zum deutschen Markt
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/001252 | Bronchitol | – | Mukoviszidose (Status: erloschen) |
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte konsultieren Sie die Packungsbeilage für Sicherheitsinformationen.
+- **Hinweise aus dem Wissensgraphen (keine Packungsbeilagen-Daten):** Im TxGNN-Wissensgraphen (PrimeKG) sind unter anderem folgende Kontraindikationen verknüpft: Leberversagen, Lebererkrankung, hepatische Enzephalopathie/hepatisches Koma, Anurie, eingeschränkte Nierenfunktion, Lungenödem, intrakranielle Blutung, Porphyrie, Thrombozytopenie, Neutropenie, Agranulozytose, Anämie, Schlafapnoe-Syndrome, Angst- und neurotische Störungen sowie Substanzabhängigkeit.
+- **Arzneimittelwechselwirkungen:** 100 Wechselwirkungen wurden gefunden, 20 davon sind aufgeführt. Wichtigste Beispiele:
+  - **Schwerwiegend (Major):** Amikacin
+  - **Moderat:** Lamivudin, Formoterol, Salbutamol, Arformoterol, Amifostin, Benazepril, Captopril, Bisacodyl, Picosulfat, Polyethylenglykol (3350 mit Elektrolyten), Iothalaminsäure, Diatrizoat, Canagliflozin, Dapagliflozin, Carbamazepin, Cisatracurium, Citalopram, Desvenlafaxin
+  - **Gering (Minor):** Doxycyclin
+- Für Warnhinweise und Kontraindikationen laut Fachinformation bitte die Packungsbeilage heranziehen.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Halten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage basiert ausschließlich auf dem algorithmischen Score von TxGNN (L5, keine Studien, ein lose verwandter Übersichtsartikel); es gibt keine direkte mechanistische oder klinische Evidenz, die Mannitol mit NSIAD verbindet, und es existiert ein plausibles gegensätzliches Sicherheitssignal (osmotisches Mittel-induzierter Wasserverlust) an anderer Stelle in diesem Evidenzpaket, das nicht geklärt wurde.
+Die Vorhersage stützt sich ausschließlich auf das Modell (L5). Es gibt keine klinischen Studien, die einzige Publikation ist nicht relevant, und der Mechanismus (osmotische Diurese bei einer V2-Rezeptor-bedingten Erkrankung) spricht eher dagegen. Zudem ist die deutsche Zulassung erloschen. Auch die übrigen Top-10-Vorhersagen weisen keine tragfähige Evidenz auf; teils bestehen Sicherheitsbedenken (Lungenödem, nephrogener Diabetes insipidus).
 
-**Um fortzufahren, wird Folgendes benötigt:**
-- Bestätigte ursprüngliche Indikation und MOA-Daten für Mannitol (derzeit als Blocking/High data gaps, DG001–DG002 gekennzeichnet)
-- TFDA/BfArM-Etikettenprüfung, um den offensichtlichen Widerspruch zwischen „behandelt NSIAD" und „kann Diabetes-insipidus-ähnliche Wasserausscheidung induzieren" zu klären
-- Präklinische oder fallbasierte Evidenz, die Mannitol direkt bei NSIAD/SIADH-assoziierter Hyponatriämie testet, bevor es über S0 hinausgeht
-
-**Zusätzliche Anmerkung:** Unter den 10 von TxGNN vorhergesagten Indikationen in diesem Paket sind die meisten (Ränge 1, 3, 5–10) L5/Halten mit geringer oder fehlender unterstützender Evidenz. Der einzige Kandidat mit einer dokumentierten, etablierten klinischen Begründung – Mannitols ergänzende Rolle bei osmotischer Diurese zur Verringerung rhabdomyolyse-bedingter Nierenschädigungen während Krisen maligner Hyperthermie (Rang 4, L4/S1, „Forschungsfrage") – könnte eine produktivere Linie sein, die verfolgt werden kann, wenn weitere Umnutzungsarbeiten an diesem Arzneimittel geplant sind.
-
+**Für ein Weiterverfolgen sind folgende Schritte nötig:**
+- Auswertung der Fachinformation (BfArM) zu Warnhinweisen und Kontraindikationen (Blockierende Datenlücke, ohne die kein Sicherheits-Screening möglich ist)
+- Beschaffung detaillierter Daten zum Wirkmechanismus (z. B. über DrugBank)
+- Prüfung auf mechanistisch nachvollziehbare und evidenzbasierte Alternativindikationen
+- Prüfung der Relevanz und Aktualität der Zulassungssituation, da die einzige Zulassung erloschen ist
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

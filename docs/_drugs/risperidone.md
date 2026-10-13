@@ -2,7 +2,7 @@
 layout: default
 title: Risperidone
 parent: Nur Modellvorhersage (L5)
-nav_order: 348
+nav_order: 406
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,90 +29,94 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Risperidon: Bewertung ausstehend — Keine Umwidmungsprognose verfügbar
+# Risperidon: Von Schizophrenie zu familiärer horizontaler Blickparese mit progressiver Skoliose
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Risperidon (DB00734) ist ein bekanntes atypisches Antipsychotikum, das häufig bei Schizophrenie und verwandten Erkrankungen eingesetzt wird. Das aktuelle Evidence Pack enthält jedoch **keine von TxGNN vorhergesagten Umwidmungsindikationen**, keine Wirkmechanismus-Daten und keine Sicherheitsdatensätze – was eine aussagekräftige Umwidmungsbewertung in diesem Stadium unmöglich macht. **Sofortige Datenkorrekturen sind erforderlich, bevor dieser Kandidat voranschreiten kann.**
+Risperidon ist ein atypisches Antipsychotikum, das ursprünglich zur Behandlung der Schizophrenie zugelassen wurde. Das TxGNN-Modell sagt eine mögliche Wirksamkeit bei der **familiären horizontalen Blickparese mit progressiver Skoliose** voraus. Dafür gibt es derzeit **keine klinischen Studien und keine Publikationen**, die Vorhersage beruht allein auf dem Modell.
 
 ---
 
 ## Schnellübersicht
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | In diesem Evidence Pack nicht dokumentiert |
-| Vorhergesagte neue Indikation | K.A. — Keine Vorhersagen verfügbar |
-| TxGNN-Prognosescore | K.A. |
-| Evidenzstufe | L5 (nur Modellvorhersage — derzeit nicht einmal erreicht) |
-| Status auf taiwanesischem Markt | ✗ Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | **Halten** |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Schizophrenie |
+| Vorhergesagte neue Indikation | Familiäre horizontale Blickparese mit progressiver Skoliose |
+| TxGNN-Vorhersagewert | 99,76 % |
+| Evidenzlevel | L5 |
+| Marktstatus in Deutschland | Nur erloschene Zulassung |
+| Anzahl der Zulassungen | 1 (erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum keine Bewertung durchgeführt werden kann
+## Warum ist diese Vorhersage (nicht) plausibel?
 
-Die TxGNN-Prognosepipeline hat **null vorhergesagte Indikationen** für Risperidon in dieser Evidence-Pack-Version (v4, Datenstand 2026-04-20) zurückgegeben. Dies ist ein Problem in der vorgelagerten Pipeline und kein Ausdruck des klinischen Potenzials von Risperidon.
+Für diese Indikation ist kein mechanistischer Zusammenhang erkennbar. Die Erkrankung ist eine seltene genetische Störung (ROBO3-assoziiert), bei der die Axonführung im Hirnstamm gestört ist. Risperidon wirkt vor allem als Antagonist an Dopamin-D2- und Serotonin-5-HT2A-Rezeptoren. Diese Wirkung hat keine erkennbare Beziehung zu dieser Pathophysiologie.
 
-Zwei kritische Datenlücken wurden formal identifiziert:
-
-| Lücken-ID | Kategorie | Fehlendes Element | Schweregrad | Auswirkung |
-|-----------|-----------|-------------------|-------------|-----------|
-| DG001 | Arzneimitteleben | Packungsbeilage-Warnungen / Kontraindikationen | **Blockierend** | S1-Sicherheitsscreening kann nicht durchgeführt werden |
-| DG002 | Arzneimitteleben | Wirkmechanismus (MOA) | Hoch | Analyse der mechanistischen Relevanz kann nicht durchgeführt werden |
-
-Bis die TxGNN-Pipeline mindestens eine vorhergesagte Indikation erzeugt und bis DG001 gelöst ist, können keine nachgelagerten Bewertungen (Mechanismus-Analyse, Zuordnung klinischer Studien oder Sicherheitsprofilerstellung) voranschreiten.
+Der hohe Modellwert (0,998) ist daher mit Vorsicht zu interpretieren. Er ist eine reine Modellvorhersage und wird weder durch Studien noch durch Literatur gestützt. Detaillierte Mechanismusdaten (MOA) liegen für diesen Bericht nicht vor.
 
 ---
 
-## Evidence aus klinischen Studien
+## Klinische Evidenz
 
-Derzeit sind keine verwandten klinischen Studien für diesen Kandidaten registriert.
-
-*(Voraussetzung: Eine von TxGNN vorhergesagte Indikation muss verfügbar sein, bevor die Studien-Zuordnung durchgeführt wird.)*
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Literatur-Evidence
+## Literaturevidenz
 
-Derzeit ist keine verwandte Literatur verfügbar.
-
-*(Voraussetzung: Eine von TxGNN vorhergesagte Indikation muss verfügbar sein, bevor die Literatursuche durchgeführt wird.)*
+Derzeit ist keine zugehörige Literatur verfügbar.
 
 ---
 
-## Marktsituation in Taiwan
+## Marktinformationen Deutschland
 
-Risperidon hat nach der aktuellen TFDA-Abfrage **keine registrierten Lizenzen** auf dem taiwanesischen Markt (abgefragt 2026-03-29, Ergebnisanzahl: 0).
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/005406 (erloschen) | Okedi | nicht angegeben | Schizophrenie |
 
-> Anmerkung: Die TFDA-Packungsbeilage-Abfrage (Abfrage-ID 4) hat 1 Ergebnis zurückgegeben – dies könnte darauf hindeuten, dass eine Packungsbeilage für Referenzzwecke vorhanden ist, auch ohne aktive Vermarktungsgenehmigung. Die Packungsbeilage sollte abgerufen und analysiert werden, um DG001 zu beheben.
+Es besteht keine gültige Zulassung. Die einzige erfasste Zulassung ist erloschen.
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+Die Packungsbeilage der Zulassungsbehörde konnte nicht ausgewertet werden. Bitte entnehmen Sie Warnhinweise und Gegenanzeigen der Fachinformation.
 
-*(Alle Sicherheitsfelder – Hauptwarnungen, Kontraindikationen und Arzneimittel-Wechselwirkungen – haben im aktuellen Evidence Pack keine Daten zurückgegeben. DDI-Abfragestatus: nicht gefunden.)*
+**Kontraindikationen laut Wissensgraph** (aus Wirkstoff-Erkrankungs-Beziehungen des Wissensgraphen, nicht aus dem Zulassungstext): Folgende Erkrankungen sind als problematisch markiert:
+- **Herz-Kreislauf:** Herzerkrankungen, Erregungsleitungsstörungen, plötzlicher Herzstillstand, Myokardinfarkt, Schlaganfall und zerebrovaskuläre Erkrankungen, orthostatische Hypotonie, Hypotonie, posturales orthostatisches Tachykardiesyndrom
+- **Stoffwechsel:** Diabetes mellitus, Hyperglykämie, diabetische Ketoazidose, Hyperlipidämie (auch familiär), Adipositas
+- **Blutbild:** Neutropenie, Agranulozytose, Hämoglobinopathie
+- **Leber und Galle:** Leberversagen, Lebererkrankung, Gallenblasenerkrankung
+- **Neurologie und Sonstiges:** Epilepsie, Multisystematrophie, weibliches Mammakarzinom
+
+**Arzneimittelwechselwirkungen:** Insgesamt wurden 100 Wechselwirkungen erfasst. Zu den wichtigsten zählen:
+- **Schwerwiegend (Major):** Bupropion, Morphin
+- **Moderat:** u. a. Metformin, Acarbose, Alogliptin, Albiglutid, Canagliflozin, Famotidin, Epinephrin, Hydrocortison, Amphotericin B, Atropin, Glycopyrronium, Hyoscyamin, Loperamid, Lorcaserin, Bisacodyl, Clidinium
+- **Gering (Minor):** Ranitidin
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Halten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Das Evidence Pack für Risperidon (v4) ist strukturell unvollständig – es wurden keine TxGNN-Umwidmungsprognosen erstellt, und zwei kritische Datenlücken (DG001, DG002) blockieren das Sicherheitsscreening und die mechanistische Analyse. Es gibt derzeit keine bewertbare Umwidmungshypothese.
+Die Vorhersage stützt sich ausschließlich auf das Modell (L5). Es gibt weder Studien noch Publikationen noch einen plausiblen Wirkmechanismus. Zudem besteht in Deutschland keine gültige Zulassung.
 
-**Zum Fortfahren ist Folgendes erforderlich:**
+**Für ein Weiterkommen wäre erforderlich:**
+- Ein belastbarer biologischer Mechanismus, der D2/5-HT2A-Antagonismus mit der ROBO3-assoziierten Pathophysiologie verknüpft
+- Präklinische Daten oder erste klinische Beobachtungen
+- Auswertung der Fachinformation zu Warnhinweisen und Gegenanzeigen
+- Klärung der regulatorischen Verfügbarkeit (derzeit nur erloschene Zulassung)
 
-1. **TxGNN-Prognosepipeline neu ausführen** für DB00734 und bestätigen, dass mindestens eine vorhergesagte Indikation zurückgegeben wird
-2. **DG001 beheben** — Die TFDA-Packungsbeilage-PDF (1 Dokument im Abfragelog gefunden) herunterladen und analysieren, um Warnungen und Kontraindikationen zu extrahieren
-3. **DG002 beheben** — DrugBank-API für den vollständigen Wirkmechanismus, die pharmakologische Klasse und die Ziele von Risperidon abfragen
-4. **DDI-Abfrage neu ausführen** — Der aktuelle Status ist `not_found`; Abfrageparameter überprüfen und erneut versuchen
-5. **Evidence Pack neu generieren** (v5+) sobald die obigen Daten verfügbar sind, dann erneut zur Bewertung einreichen
-
+**Hinweis zu weiteren Vorhersagen:**
+Für dieselbe Substanz liegen weitere Vorhersagen mit deutlich besserer Evidenz vor, die gesondert bewertet werden sollten:
+- **Major affective disorder (affektive Störung):** Evidenzlevel L1 mit Empfehlung „Proceed with Guardrails". Grundlage sind unter anderem die Phase-3-Studien NCT00095134 (n=630) und NCT00044681 (n=258) zur Zusatzbehandlung bei therapieresistenter Depression sowie mehrere Metaanalysen. Zu überwachen wären Gewichtszunahme, Stoffwechselwirkungen, Hyperprolaktinämie und extrapyramidale Symptome.
+- **Trichotillomanie:** Evidenzlevel L4 (Fallberichte und kleine Fallserien, keine kontrollierten Studien).
+- **Phelan-McDermid-Syndrom:** Evidenzlevel L4 (Übersichtsarbeit und Zebrafischstudie).
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

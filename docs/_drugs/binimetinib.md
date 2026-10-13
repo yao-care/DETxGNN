@@ -2,7 +2,7 @@
 layout: default
 title: Binimetinib
 parent: Nur Modellvorhersage (L5)
-nav_order: 57
+nav_order: 66
 evidence_level: L5
 indication_count: 0
 ---

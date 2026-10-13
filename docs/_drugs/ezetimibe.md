@@ -2,7 +2,7 @@
 layout: default
 title: Ezetimibe
 parent: Hohe Evidenz (L1-L2)
-nav_order: 162
+nav_order: 189
 evidence_level: L1
 indication_count: 4
 ---
@@ -29,100 +29,122 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-# Ezetimib: Von Hypercholesterinämie zur Hyperlipoproteinämie
+# Ezetimib: Von Hypercholesterinämie/Dyslipidämie zu Hyperlipoproteinämie
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Ezetimib ist ein Cholesterin-Absorptionshemmer, dessen etablierte klinische Anwendung die Senkung von LDL-Cholesterin bei Hypercholesterinämie und gemischter Dyslipidämie ist, typischerweise als Zusatztherapie zur Statin-Therapie.
-> Das TxGNN-Modell prognostiziert, dass es für **Hyperlipoproteinämie** wirksam sein könnte,
-> mit **50 klinischen Studien** und **19 Publikationen**, die diese Richtung derzeit unterstützen.
-> ⚠️ Hinweis: Dieses Evidenzpaket selbst kennzeichnet ein Datenqualitätsproblem — siehe „Warum ist diese Vorhersage angemessen?" unten.
+Ezetimib ist ein Hemmstoff der intestinalen Cholesterinaufnahme und wurde ursprünglich zur Behandlung von Hypercholesterinämie und Dyslipidämie eingesetzt.
+Das TxGNN-Modell sagt eine Wirksamkeit bei **Hyperlipoproteinämie** voraus, was der bestehenden Indikation sehr nahekommt (bestätigend statt neuartig).
+Die Datenlage ist mit **40 klinischen Studien** und **18 Publikationen** für diese Vorhersage umfangreich.
 
 ---
 
 ## Schnellübersicht
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Nicht dokumentiert in diesem Datensatz (Lizenzenliste ist leer) — klinisch bekannt als Hypercholesterinämie/Dyslipidämie; behandelt als Datenblockade (DG001), nicht als echte „keine ursprüngliche Indikation" |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Hypercholesterinämie; Dyslipidämie |
 | Vorhergesagte neue Indikation | Hyperlipoproteinämie |
-| TxGNN-Vorhersagepunktzahl | 99.63% |
-| Evidenzstufe | L1 |
-| Deutschland Marktstatus | ✗ Nicht vermarktet *(gemäß diesem Datensatz — siehe Datenqualitätsanmerkung unten)* |
-| Anzahl der Genehmigungen | 0 |
-| Empfohlene Entscheidung | Mit Vorsichtsmaßnahmen fortfahren |
+| TxGNN-Vorhersagewert | 99,63 % |
+| Evidenzgrad | L1 |
+| Marktstatus in Deutschland | Nur erloschene Zulassung (Cancelled only) |
+| Anzahl der Zulassungen | 1 (davon 0 gültig) |
+| Empfohlene Entscheidung | Proceed with Guardrails |
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Warum ist diese Vorhersage plausibel?
 
-Ezetimib hemmt den intestinalen Niemann-Pick C1-ähnlichen 1-(NPC1L1-)Transporter, wodurch die Aufnahme von Cholesterin aus der Nahrung und Galle im Dünndarm verringert wird. Dies senkt die Cholesterin-Zufuhr zur Leber, erhöht die Expression von hepatischen LDL-Rezeptoren und führt zu einer klinisch bedeutsamen Reduktion von LDL-Cholesterin, typischerweise in Kombination mit Statinen verwendet, um einen additiven Senkungseffekt zu erzielen.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben aus der Arzneimitteldatenbank vor. Nach der vorliegenden Begründung hemmt Ezetimib den NPC1L1-vermittelten Cholesterintransport im Darm und senkt dadurch LDL-Cholesterin und Apolipoprotein B.
 
-Hyperlipoproteinämie ist ein übergeordneter Begriff, der erhöhte LDL-C/gemischte Lipidstörungen umfasst — mechanistisch und klinisch überlappt dies direkt mit der bereits etablierten Verwendung von Ezetimib bei Hypercholesterinämie und gemischter Hyperlipidämie (wie sich in Dutzenden abgeschlossener Phase-3-Studien zeigt, einschließlich Kombinationen mit Fenofibrat, Statinen, Bempedoat und Obicetrapib).
+Die vorhergesagte Indikation Hyperlipoproteinämie überschneidet sich weitgehend mit der ursprünglichen Indikation (Hypercholesterinämie/Dyslipidämie). Es handelt sich daher eher um eine Bestätigung der bekannten Anwendung als um ein echtes Repurposing.
 
-**Datenqualitätsvorbehalt:** Die `repurposing_rationale` des Evidenzpakets kennzeichnet explizit eine interne Inkonsistenz: Dieser Datensatz verzeichnet `market_status = "Not marketed" (nicht vermarktet)` und eine leere `original_indications`-Liste, was dem bekannten Faktum widerspricht, dass Ezetimib (Zetia®/Ezetrol®) ein weltweit zugelassener Lipidsenker ist. Das Evidenzpaket selbst schlussfolgert, dass dies kein echtes Drug-Repurposing-Kandidat ist, sondern eher ein Fall von fehlenden/unvollständigen regulatorischen Quelldaten (BfArM-Kennzeichnung noch nicht aufgenommen — DG001, Blockade) kombiniert mit einem fehlenden MOA-Feld (DG002, Hoch). Die klinischen Studien und Literaturbeweise unten sind real und substanziell, aber sie unterstützen weitgehend eine bereits anerkannte Indikation anstatt einer echten innovativen Repositionierungshypothese. Dies muss gelöst werden, bevor eine nachgelagerte Entscheidung finalisiert wird.
+Weitere Vorhersagen des Modells:
+- **Familiäre Hypercholesterinämie** (Wert 99,38 %, L1, Proceed with Guardrails): Ezetimib senkt als Add-on zu Statinen zusätzlich das LDL-C, wenn die LDL-Rezeptorfunktion gestört ist. Leitlinien empfehlen diese Kombination. Bei homozygoter FH ist das Ansprechen wegen des rezeptornegativen Status begrenzt; Langzeitdaten bei Kindern sollten geprüft werden.
+- **Hypercholesterinämie durch Cholesterin-7α-Hydroxylase-Mangel** (99,25 %, L5, Hold): mechanistisch plausibel, aber nur eine präklinische Arbeit und keine klinische Evidenz bei dieser sehr seltenen Erkrankung.
+- **Cholesterinester-Transferprotein-Mangel** (99,09 %, L5, Hold): Dieser Zustand erhöht das HDL-C und erfordert in der Regel keine LDL-Senkung. Der hohe Wert spiegelt wahrscheinlich Netzwerknähe statt klinischer Begründung wider.
 
 ---
 
-## Evidenz aus klinischen Studien
+## Klinische Evidenz
 
-| Studiennummer | Phase | Status | Einschreibung | Wichtigste Erkenntnisse |
+Die folgende Auswahl zeigt die relevantesten Studien (Bewertung A/B) für die Hauptvorhersage.
+
+| Studiennummer | Phase | Status | Teilnehmer | Kernaussagen |
 |---------|------|------|------|---------|
-| [NCT03884452](https://clinicaltrials.gov/study/NCT03884452) | Phase 3 | Abgeschlossen | 50 | Ezetimib 10 mg + Atorvastatin/Simvastatin bei homozygöter familiärer Hypercholesterinämie |
-| [NCT00092573](https://clinicaltrials.gov/study/NCT00092573) | Phase 3 | Abgeschlossen | 576 | Fenofibrat + Ezetimib Coadministration bei gemischter Hyperlipidämie |
-| [NCT00652431](https://clinicaltrials.gov/study/NCT00652431) | Phase 1 | Abgeschlossen | 18 | PK-Interaktionsstudie: Vytorin (Ezetimib/Simvastatin) + Niaspan (Niacin ER) |
-| [NCT04929249](https://clinicaltrials.gov/study/NCT04929249) | Phase 3 | Abgeschlossen | 450 | „Inclisiran First"-Strategie vs. übliche Behandlung bei ASCVD mit erhöhtem LDL-C unter maximaler Statin ± Ezetimib |
-| [NCT05255094](https://clinicaltrials.gov/study/NCT05255094) | Phase 3 | Abgeschlossen | 464 | AK102 (PCSK9-Inhibitor) bei primärer Hypercholesterinämie/gemischter Hyperlipidämie; Überschneidung der Ezetimib-relevanten Population |
-| [NCT00552097 (ENHANCE)](https://clinicaltrials.gov/study/NCT00552097) | Phase 3 | Abgeschlossen | 720 | Ezetimib + hochdosiertes Simvastatin vs. Simvastatin allein bei Progression der Karotis-Atherosklerose bei heterozygötem FH |
-| [NCT03337308](https://clinicaltrials.gov/study/NCT03337308) | Phase 3 | Abgeschlossen | 382 | Bempedoat 180 mg + Ezetimib 10 mg FDK vs. Komponenten/Placebo zusätzlich zur maximalen Statin-Therapie |
-| [NCT06005597](https://clinicaltrials.gov/study/NCT06005597) | Phase 3 | Abgeschlossen | 407 | Obicetrapib 10 mg + Ezetimib 10 mg FDK bei HeFH und/oder ASCVD/Hochrisikopatienten |
-| [NCT02748057](https://clinicaltrials.gov/study/NCT02748057) | Phase 3 | Abgeschlossen | 135 | Langzeitsicherheit/Verträglichkeit von Ezetimib + Rosuvastatin FDK bei japanischen Patienten mit Hypercholesterinämie |
-| [NCT01043380 (PRECISE-IVUS)](https://clinicaltrials.gov/study/NCT01043380) | Phase 4 | Abgeschlossen | 245 | IVUS-gemessene koronare Plaques-Regression: Cholesterin-Absorptionshemmer (Ezetimib) vs. Synthesehemmer |
+| [NCT01984424](https://clinicaltrials.gov/study/NCT01984424) | Phase 3 | Abgeschlossen | 511 | Evolocumab vs. Ezetimib bei statinintoleranten Patienten mit Hypercholesterinämie (LDL-C nach 24 Wochen) |
+| [NCT00753883](https://clinicaltrials.gov/study/NCT00753883) | Phase 4 | Abgeschlossen | 40 | Ezetimib allein vs. Statin bei Hypercholesterinämie; Wirkung auf LDL-C |
+| [NCT03847506](https://clinicaltrials.gov/study/NCT03847506) | Phase 4 | Abgeschlossen | 127 | Ezetimib/Rosuvastatin plus Candesartan/Amlodipin bei Hypertonie und Hyperlipidämie |
+| [NCT00092833](https://clinicaltrials.gov/study/NCT00092833) | Phase 3 | Beendet (terminated) | 49 | Offene Anwendungsstudie mit Ezetimib 10 mg/Tag bei homozygoter FH oder Sitosterolämie |
+| [NCT00705211](https://clinicaltrials.gov/study/NCT00705211) | Beobachtungsstudie | Abgeschlossen | 1.794 | 52-Wochen-Langzeitanwendung von Zetia in Japan (Sicherheit und Wirksamkeit) |
+| [NCT02942602](https://clinicaltrials.gov/study/NCT02942602) | Nicht zutreffend | Abgeschlossen | 58 | Wirkung lipidsenkender Medikamente auf die HDL-Funktion |
+| [NCT00271817](https://clinicaltrials.gov/study/NCT00271817) | Phase 3 | Abgeschlossen | 1.220 | Ezetimib/Simvastatin plus Niacin bei Hyperlipidämie Typ IIa/IIb |
+| [NCT00092573](https://clinicaltrials.gov/study/NCT00092573) | Phase 3 | Abgeschlossen | 576 | Fenofibrat plus Ezetimib bei gemischter Hyperlipidämie |
+| [NCT00093899](https://clinicaltrials.gov/study/NCT00093899) | Phase 3 | Abgeschlossen | 611 | Ezetimib/Simvastatin plus Fenofibrat bei gemischter Hyperlipidämie |
+| [NCT06005597](https://clinicaltrials.gov/study/NCT06005597) | Phase 3 | Abgeschlossen | 407 | Obicetrapib/Ezetimib-Fixkombination bei HeFH und/oder ASCVD |
+
+Für die familiäre Hypercholesterinämie liegen zusätzlich Phase-3-Studien vor, darunter [NCT00867165](https://clinicaltrials.gov/study/NCT00867165) (placebokontrolliert, 138 Kinder von 6 bis 10 Jahren), [NCT03884452](https://clinicaltrials.gov/study/NCT03884452) (homozygote FH, 50 Teilnehmer) und [NCT03885921](https://clinicaltrials.gov/study/NCT03885921) (Langzeitsicherheit, 44 Teilnehmer).
 
 ---
 
-## Literaturbeweise
+## Literaturevidenz
 
-| PMID | Jahr | Typ | Zeitschrift | Wichtigste Erkenntnisse |
+| PMID | Jahr | Typ | Journal | Kernaussagen |
 |------|-----|------|------|---------|
-| [40347969](https://pubmed.ncbi.nlm.nih.gov/40347969/) | 2025 | RCT | Lancet | TANDEM-Studie: Obicetrapib + Ezetimib FDK reduziert LDL-C signifikant |
-| [41206969](https://pubmed.ncbi.nlm.nih.gov/41206969/) | 2026 | RCT | JAMA | Oraler PCSK9-Inhibitor Enlicitid bei HeFH-Patienten, die LDL-C-Ziele unter bestehender Therapie incl. Ezetimib nicht erreichen |
-| [18376001](https://pubmed.ncbi.nlm.nih.gov/18376001/) | 2008 | Editorial/Kommentar | N Engl J Med | Editorial zur Cholesterinsenkung und Ezetimib (ENHANCE-Studien-Kontroverse) |
-| [19654419](https://pubmed.ncbi.nlm.nih.gov/19654419/) | 2009 | Übersichtsartikel | Drug and Therapeutics Bulletin | Ezetimib-Update: Wirksamkeits-/Sicherheitsübersicht, kein bewiesener CV-Mortalitäts-/Morbiditätsvorteil zum Zeitpunkt des Schreibens |
-| [25939291](https://pubmed.ncbi.nlm.nih.gov/25939291/) | 2015 | Übersichtsartikel | Cardiology Clinics | Übersicht der familären Hypercholesterinämie-Behandlung einschließlich Statine, Ezetimib und anderer LDL-senkender Mittel |
-| [38599725](https://pubmed.ncbi.nlm.nih.gov/38599725/) | 2024 | Übersichtsartikel | Indian Heart Journal | FH-Epidemiologie, Unterdiagnose und Behandlungslandschaft |
-| [37762244](https://pubmed.ncbi.nlm.nih.gov/37762244/) | 2023 | Übersichtsartikel | Int J Mol Sci | Postprandiale Hyperlipidämie-Pathophysiologie, Diagnose und Behandlung |
-| [33766264](https://pubmed.ncbi.nlm.nih.gov/33766264/) | 2021 | Übersichtsartikel | J Am Coll Cardiol | Aufstrebende LDL-C/ApoB-senkende Therapien incl. Ezetimib-basierte Kombinationen |
-| [35593194](https://pubmed.ncbi.nlm.nih.gov/35593194/) | 2022 | Übersichtsartikel | J Cardiovasc Pharmacol Ther | Umfassende Übersicht der PCSK9-Inhibitoren, statin-intolerant/FH-Populationen |
-| [30702994](https://pubmed.ncbi.nlm.nih.gov/30702994/) | 2019 | Übersichtsartikel | Circulation Research | Übersicht der Cholesterin-senkenden Wirkstoffklassen einschließlich Ezetimib |
+| [40347969](https://pubmed.ncbi.nlm.nih.gov/40347969/) | 2025 | RCT (Phase 3) | Lancet | TANDEM: Fixkombination Obicetrapib/Ezetimib zur LDL-C-Senkung |
+| [41206969](https://pubmed.ncbi.nlm.nih.gov/41206969/) | 2026 | RCT | JAMA | Orales PCSK9-Inhibitor Enlicitide bei heterozygoter FH |
+| [25282519](https://pubmed.ncbi.nlm.nih.gov/25282519/) | 2015 | RCT | Lancet | RUTHERFORD-2: Evolocumab bei HeFH trotz intensiver Statintherapie ± Ezetimib |
+| [37850379](https://pubmed.ncbi.nlm.nih.gov/37850379/) | 2024 | RCT | Circulation | ORION-5: Inclisiran bei homozygoter FH |
+| [35101175](https://pubmed.ncbi.nlm.nih.gov/35101175/) | 2022 | Kohortenstudie | Lancet | Weltweite Erfahrungen bei homozygoter FH |
+| [40682836](https://pubmed.ncbi.nlm.nih.gov/40682836/) | 2025 | Review | Mol Med Rep | Fortschritte bei Medikamenten gegen Hyperlipidämie |
+| [33766264](https://pubmed.ncbi.nlm.nih.gov/33766264/) | 2021 | Review | J Am Coll Cardiol | Neue Therapien zur Senkung von LDL-C und ApoB; Ezetimib als Basis neben Statinen |
+| [19654419](https://pubmed.ncbi.nlm.nih.gov/19654419/) | 2009 | Review | Drug Ther Bull | Ezetimib-Update: senkt LDL-C allein oder mit Statin |
+| [29219151](https://pubmed.ncbi.nlm.nih.gov/29219151/) | 2017 | Review | Nat Rev Dis Primers | Familiäre Hypercholesterinämie: Ursachen und Management |
+| [23956253](https://pubmed.ncbi.nlm.nih.gov/23956253/) | 2013 | Konsensus-Statement | Eur Heart J | FH ist unterdiagnostiziert und untertherapiert; Leitfaden für Kliniker |
+
+Die meisten dieser Arbeiten befassen sich mit anderen Wirkstoffen (z. B. PCSK9-Hemmern), bei denen Ezetimib Hintergrund- oder Vergleichstherapie ist. Direkte Ezetimib-Evidenz liefern v. a. die Studien zur Kombination.
 
 ---
 
-## Informationen zum Deutschland-Markt
+## Marktinformationen Deutschland
 
-Es gibt keine BfArM-Genehmigungsdatensätze in diesem Evidenzpaket (`total_licenses = 0`, `licenses = []`). Dies widerspricht der bekannten langjährigen Marktpräsenz von Ezetimib in Deutschland/EU (z.B. Ezetrol®, Inegy®/Vytorin® Kombinationsprodukte) und wurde als Datenlücke **DG001 (Blockade)** erfasst — die regulatorischen Kennzeichnungs-/Genehmigungsdaten wurden noch nicht aus der BfArM-Quelle aufgenommen. Diese Lücke muss geschlossen werden, bevor Sicherheits- oder Genehmigungsaussagen über diesen Kandidaten gemacht werden können.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/004959 | Nustendi (Daiichi Sankyo Europe GmbH) | – | Hypercholesterinämie; Dyslipidämie |
+
+Die einzige erfasste Zulassung ist erloschen (Status: cancelled). Eine gültige Zulassung besteht laut den zusammengestellten Daten derzeit nicht.
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. *(Alle Sicherheitsfelder in diesem Datensatz — wichtigste Warnhinweise, Kontraindikationen und Arzneimittelwechselwirkungen — sind derzeit nicht verfügbar; DDI-Abfrage ergab keine Ergebnisse.)*
+**Kontraindikationen/Risikoerkrankungen (aus dem Wissensgraphen, nicht aus Fachinformation):** Pankreatitis, Lebererkrankung, Gallenblasenerkrankung, Myopathie, Muskelerkrankungen, Skelettmuskelerkrankung, familiäre periodische Paralyse, Substanzmissbrauch/-abhängigkeit, Rhabdomyolyse und noduläre Fasziitis. Diese Angaben stammen aus Beziehungen im Wissensgraphen und müssen mit der Fachinformation abgeglichen werden.
+
+**Arzneimittelwechselwirkungen:** Insgesamt wurden 100 Wechselwirkungen erfasst. Als moderat eingestuft sind:
+- Chenodesoxycholsäure
+- Eluxadolin
+- Rosuvastatin
+- Simvastatin
+
+Weitere (Schweregrad unbekannt) u. a.: Calcitriol, Pantoprazol, Glimepirid, Mesalazin, Doxycyclin, Clotrimazol, Acarbose, Morphin, Metformin, Omeprazol.
+
+Für weitere Sicherheitsinformationen bitte die Fachinformation heranziehen.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Mit Vorsichtsmaßnahmen fortfahren**
+**Entscheidung: Proceed with Guardrails**
 
 **Begründung:**
-Die Grundlage der klinischen Studien und Literatur für Ezetimib bei LDL-C/Hyperlipoproteinämie-typischen Indikationen ist umfangreich und hochwertig (L1-Evidenz, mehrere abgeschlossene Phase-3-RCTs einschließlich der pivotalen ENHANCE-Studie und moderner FDK-Studien). Allerdings sind die regulatorischen und MOA-Felder dieses Datensatzes unvollständig und intern inkonsistent mit dem bekannten realen Genehmigungsstatus von Ezetimib, daher sollte dies als Evidenzkonsolidierung für eine plausible/wahrscheinlich bereits zugelassene Verwendung behandelt werden, anstatt ein validiertes neues Repurposing-Signal, bis die Datenlücken gelöst sind.
+Für Hyperlipoproteinämie und familiäre Hypercholesterinämie liegen mehrere abgeschlossene Phase-3-Studien vor (Evidenzgrad L1). Da die Vorhersage der bestehenden Indikation entspricht, ist sie bestätigend. Die beiden seltenen Vorhersagen (CYP7A1- und CETP-Mangel) sind nur durch das Modell gestützt (L5) und sollten zurückgestellt werden (Hold).
 
-**Zum Fortfahren ist Folgendes erforderlich:**
-- Beheben Sie DG001 (Blockade): Rufen Sie die eigentliche BfArM/TFDA-Kennzeichnung PDF ab und analysieren Sie sie, um den tatsächlichen Marktstatus, Lizenzen und genehmigten Indikationstext zu bestätigen
-- Beheben Sie DG002 (Hoch): Fragen Sie die DrugBank-API für bestätigte MOA ab, um den aktuellen Platzhalter zu ersetzen
-- Gleichen Sie die `market_status = "Not marketed"`/leeren `original_indications`-Felder mit den bekannten genehmigten Indikationen von Ezetimib ab, um zu bestimmen, ob „Hyperlipoproteinämie" eine echte neue Kennzeichnungserweiterung oder eine bestehende zulassungskonforme Verwendung ist
-- Beschaffen Sie Sicherheits-/Kontraindikationsdaten (wichtigste Warnhinweise, DDI), sobald die Kennzeichnungsquelle verfügbar ist
-
+**Für das weitere Vorgehen sind erforderlich:**
+- Fachinformation (Warnhinweise, Kontraindikationen) aus dem BfArM beschaffen; diese Daten fehlen bislang und blockieren die Sicherheitsprüfung
+- Detaillierte Wirkmechanismus-Daten aus der Arzneimitteldatenbank ergänzen
+- Klärung des Marktstatus in Deutschland, da die einzige erfasste Zulassung erloschen ist
+- Prüfung der Wechselwirkungen mit Statinen (Rosuvastatin, Simvastatin) und Gallensäure-bezogenen Wirkstoffen
+- Bei FH: Langzeitdaten bei Kindern prüfen und das eingeschränkte Ansprechen bei homozygoter FH berücksichtigen
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

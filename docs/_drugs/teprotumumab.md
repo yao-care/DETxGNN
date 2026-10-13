@@ -2,7 +2,7 @@
 layout: default
 title: Teprotumumab
 parent: Nur Modellvorhersage (L5)
-nav_order: 390
+nav_order: 456
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,75 +29,90 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Teprotumumab: Von der endokrinen Orbitopathie zu Monosomie X
+# Teprotumumab: Von Graves-Ophthalmopathie zu Monosomie X
 
-## Einzeiliger Summary
+## Zusammenfassung
 
-teprotumumab ist ein IGF-1R-blockierender monoklonaler Antikörper, der zur **endokrinen Orbitopathie (EOO)** zugelassen ist. TxGNN ordnet seinen Top-Kandidaten für eine neue Indikation, **Monosomie X**, einen hohen Rohscore (99.79%) zu, aber dieses Paket enthält **null klinische Studien oder Fachliteratur**, und die mechanistische Begründung des Arzneimittels selbst kennzeichnet die Verbindung explizit als wahrscheinlich Graphenrauschen statt als echte pharmakologische Hypothese.
+Teprotumumab ist ein Antikörper gegen den IGF-1-Rezeptor und wurde ursprünglich zur Behandlung der Graves-Ophthalmopathie (endokrine Orbitopathie) zugelassen.
+Das TxGNN-Modell sagt voraus, dass er bei **Monosomie X** (Turner-Syndrom) wirksam sein könnte.
+Dafür liegen jedoch **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage beruht ausschließlich auf einem Wissensgraphen.
 
 ---
 
-## Schneller Überblick
+## Kurzüberblick
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Endokrine Orbitopathie (EOO) — abgeleitet aus mechanistischem Begründungstext; kein formales Indikationsdatenbank-Eintrag in diesem Paket |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Graves-Ophthalmopathie |
 | Vorhergesagte neue Indikation | Monosomie X |
-| TxGNN-Vorhersage-Score | 99.79% |
+| TxGNN-Vorhersagewert | 99,79 % |
 | Evidenzstufe | L5 |
-| Marktstatus Deutschland | Nicht vermarktet (Nicht vermarktet) |
-| Anzahl der Genehmigungen | 0 |
-| Empfohlene Entscheidung | **Hold** |
+| Marktstatus in Deutschland | Nur erloschene/gelöschte Zulassung |
+| Anzahl der Zulassungen | 1 (davon 0 gültig, 1 erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Warum ist diese Vorhersage plausibel (oder nicht)?
 
-Derzeit sind detaillierte Daten zum Wirkungsmechanismus nicht in strukturierter Form verfügbar (`original_moa`: [Data Gap]). Die Begründung zur Umwidmung bestätigt jedoch, dass teprotumumab ein **IGF-1R-Antagonist-Antikörper** ist, zugelassen für endokrine Orbitopathie durch die Blockade des IGF-1R/TSHR-Signalkomplexes auf orbitalen Fibroblasten.
+Zum detaillierten Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine Angaben vor. Bekannt ist, dass Teprotumumab den IGF-1-Rezeptor (IGF-1R) hemmt. Seine Wirksamkeit bei der Graves-Ophthalmopathie ist belegt, wo er die IGF-1R-vermittelte Gewebeentzündung und -vermehrung in der Orbita dämpft.
 
-Monosomie X (die zytogenetische Grundlage des Turner-Syndroms) ist eine **strukturelle Chromosomenaberration**, keine Signalweg-Erkrankung — es gibt keinen etablierten kausalen Zusammenhang zwischen IGF-1R-Blockade und Chromosomenverlust oder seinen nachgelagerten Phänotypen. Die wahrscheinlichste Erklärung für den hohen TxGNN-Score ist, dass das Turner-Syndrom eine erhöhte Prävalenz von Autoimmun-Schilddrüsenerkrankung (einschließlich Basedow/EOO) aufweist, und der Wissensgraph wahrscheinlich Monosomie X durch diese Komorbiditätsassoziation in die Nähe von EOO einordnet — **nicht** durch einen echten "teprotumumab behandelt Monosomie X"-Mechanismus. Bemerkenswert ist, dass die IGF-1R-Blockade theoretisch kontraproduktiv für wachstumsbezogene Ziele sein könnte, die für das Management des Turner-Syndroms relevant sind, was die Begründung weiter schwächt.
+Zwischen der ursprünglichen Indikation und Monosomie X besteht kein erkennbarer pathophysiologischer Zusammenhang. Monosomie X ist eine chromosomale Erkrankung. Die IGF-1-Achse spielt zwar beim Wachstum eine Rolle, eine Blockade des IGF-1R würde das Wachstum aber eher hemmen als fördern. Die Richtung des Mechanismus ist daher fraglich.
 
-Kurz gesagt: Dies ist ein **statistisches/Graph-Topologie-Artefakt**, keine pharmakologisch fundierte Hypothese. Das gleiche Muster gilt für die anderen 9 eingestuften Kandidaten in diesem Paket (Ösophagusvarizen, gemischte Gonadendysgenese, Mitochondrienerkrankung, Krampfadern usw.) — keiner hat eine identifizierte mechanistische Verbindung zu IGF-1R-Antagonismus, und alle werden mit L5/Hold bewertet.
-
----
-
-## Klinische Studienevidenz
-
-Derzeit sind keine verwandten klinischen Studien registriert.
+Der hohe Vorhersagewert ist eine rein graphbasierte Berechnung ohne klinische Stütze. Auch die übrigen Top-10-Vorhersagen (z. B. Ösophagusvarizen, gemischte Gonadendysgenesie, Varikose, mitochondriale Erkrankung) zeigen keinen plausiblen mechanistischen Bezug. Viele davon betreffen Chromosomenanomalien des X-Chromosoms und spiegeln vermutlich benachbarte Knoten im Graphen wider.
 
 ---
 
-## Fachliteratur-Evidenz
+## Klinische Evidenz
 
-Derzeit ist keine verwandte Fachliteratur verfügbar.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Informationen zum deutschen Marktstatus
+## Literaturevidenz
 
-Derzeit sind keine Marktzulassungen für teprotumumab in Deutschland registriert (Marktstatus: Nicht vermarktet, 0 Genehmigungen registriert).
+Derzeit ist keine zugehörige Literatur verfügbar.
+
+---
+
+## Informationen zum Markt in Deutschland
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/006396 | Tepezza | – | Graves-Ophthalmopathie |
+
+Diese Zulassung ist als erloschen/gelöscht geführt (Zulassungsinhaber: Amgen Europe B.V.).
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. (Wichtige Warnhinweise, Kontraindikationen und Arzneimittelwechselwirkungsdaten sind derzeit nicht in diesem Evidenzpaket verfügbar — gekennzeichnet als **Blocking**-Datenlücke DG001.)
+**Arzneimittelwechselwirkungen:** Insgesamt wurden 45 Wechselwirkungen erfasst. Die aufgeführten Einträge sind durchgehend von moderater Schwere und betreffen vor allem Antidiabetika, darunter:
+- Metformin, Pioglitazon, Insulin (human)
+- Sulfonylharnstoffe (Glimepirid, Glipizid, Glibenclamid, Chlorpropamid, Acetohexamid)
+- SGLT2-Hemmer (Canagliflozin, Dapagliflozin, Empagliflozin, Ertugliflozin)
+- DPP-4-Hemmer (Alogliptin, Saxagliptin, Linagliptin)
+- GLP-1-Rezeptoragonisten (Albiglutid, Dulaglutid, Exenatid, Semaglutid)
+- Acarbose
+
+Bei gleichzeitiger Anwendung ist daher auf die Blutzuckerkontrolle zu achten.
+
+Für weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) ist die Fachinformation heranzuziehen.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
 **Entscheidung: Hold**
 
 **Begründung:**
-Es gibt keine klinische Studien- oder Fachliteratur-Evidenz, die diese Indikation unterstützt, und die mechanistische Begründung des Arzneimittels selbst identifiziert die Assoziation als wahrscheinlich ein Wissensgraph-Artefakt statt eine plausible pharmakologische Hypothese. In Kombination mit einer Blocking-Datenlücke zur TFDA-/behördlichen Sicherheitskennzeichnung erfüllt dieser Kandidat nicht die Anforderungen, um über S0 hinauszugehen.
+Die Vorhersage stützt sich allein auf einen Wissensgraphen (Evidenzstufe L5), ohne Studien oder Publikationen. Zudem ist ein plausibler Mechanismus nicht erkennbar, und die IGF-1R-Blockade würde bei Turner-Syndrom eher dem Wachstum entgegenwirken. Hinzu kommt, dass die deutsche Zulassung erloschen ist.
 
-**Um fortzufahren, ist folgendes erforderlich:**
-- Beheben Sie DG001 (TFDA-Kennzeichnung / Warnhinweise & Kontraindikationen), bevor eine Sicherheitsvorkontrolle (S1) durchgeführt werden kann
-- Bestätigen Sie den formalen MOA-Eintrag von DrugBank (DG002), um die aktuelle aus der Begründung abgeleitete Zusammenfassung zu ersetzen
-- Überprüfen Sie unabhängig, ob die TxGNN-Assoziation ein echtes biologisches Signal widerspiegelt (z. B. Überprüfung von Embedding-Nachbarn/Erklärbarkeit) versus Komorbiditäts-getriebenes Graphclustering
-- Falls diese Kandidatenklasse überhaupt verfolgt wird, sollte ein erneutes Scoring/Ranking gegen Krankheiten mit plausiblem IGF-1R-Pfad-Beteiligung Vorrang haben, anstatt des aktuellen chromosomalen/vaskulären Kandidatensatzes, von denen keiner einen mechanistischen Fit aufweist
-
+**Für ein weiteres Vorgehen ist Folgendes erforderlich:**
+- Daten zum Wirkmechanismus (MOA) aus DrugBank
+- Warnhinweise und Gegenanzeigen aus der Fachinformation (BfArM), da diese derzeit fehlen und eine Sicherheitsbewertung blockieren
+- Präklinische oder mechanistische Belege, die einen Nutzen der IGF-1R-Hemmung bei Monosomie X begründen
+- Klärung des Zulassungsstatus und der Verfügbarkeit in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

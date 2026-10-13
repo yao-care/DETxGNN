@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Duvelisib
-parent: Mittlere Evidenz (L3-L4)
-nav_order: 133
-evidence_level: L4
+parent: Nur Modellvorhersage (L5)
+nav_order: 155
+evidence_level: L5
 indication_count: 10
 ---
 
 # Duvelisib
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,114 +29,130 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Duvelisib: Ein PI3K-δ,γ-Dualinhibitor — TxGNN-vorhergesagte Verbindung zum Hodgkin-Lymphom
+# Duvelisib: Von chronischer lymphatischer Leukämie und follikulärem Lymphom zum Hodgkin-Lymphom
 
 ## Zusammenfassung in einem Satz
 
-Duvelisib ist ein oraler PI3K-δ,γ-Dualinhibitor; diese Evidenzbewertung enthält keine ursprüngliche zugelassene Indikation für diesen Markt (das Arzneimittel ist derzeit hier nicht auf dem Markt). TxGNNs am höchsten eingestufter Vorhersage ist **Hodgkin-Lymphom**, jedoch betreffen alle **11 klinischen Studien** und **16 Publikationen**, die als unterstützende Evidenz herangezogen wurden, ausschließlich nicht-Hodgkin-Lymphom-Subtypen (CLL/SLL, follikuläres Lymphom, Mantelzell-Lymphom, peripheres T-Zell-Lymphom) — keine untersucht direkt klassisches Hodgkin-Lymphom, daher liegt das Evidenzniveau für dieses spezifische Label nur bei **L4** mit einer **Abwarten**-Empfehlung.
+Duvelisib ist ein oraler dualer PI3K-δ/γ-Inhibitor, der ursprünglich zur Behandlung der chronischen lymphatischen B-Zell-Leukämie und des follikulären Lymphoms zugelassen wurde.
+Das TxGNN-Modell sagt voraus, dass er beim **Hodgkin-Lymphom** wirksam sein könnte.
+Dafür gibt es bislang jedoch **keine Hodgkin-spezifische Studie**: Die 10 aufgeführten klinischen Studien und die Literatur betreffen überwiegend Non-Hodgkin-Lymphome, die Evidenz ist also extrapoliert.
 
 ---
 
-## Kurzübersicht
+## Kurzüberblick
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Nicht in diesem Datensatz verzeichnet — duvelisib ist derzeit nicht in dieser Gerichtsbarkeit zugelassen und kein zugelassener Indikationstext ist verfügbar |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Chronische lymphatische B-Zell-Leukämie; follikuläres Lymphom |
 | Vorhergesagte neue Indikation | Hodgkin-Lymphom |
-| TxGNN-Vorhersage-Score | 99.94% |
-| Evidenzniveau | L4 |
-| Marktstatus in Deutschland | ✗ Nicht auf dem Markt |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Abwarten |
+| TxGNN-Vorhersagewert | 99,94 % |
+| Evidenzstufe | L2 (nur indirekte Evidenz aus verwandten Lymphomen; kein Hodgkin-spezifischer RCT) |
+| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung (Cancelled only) |
+| Anzahl der Zulassungen | 1 (erloschen) |
+| Empfohlene Entscheidung | Hold (Forschungsfrage) |
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Warum ist diese Vorhersage plausibel?
 
-Das offizielle Wirkmechanismus-Feld für Duvelisib ist eine Datenlücke in dieser Evidenzbewertung. Die Literatur, die als unterstützende Evidenz herangezogen wurde, beschreibt Duvelisib jedoch konsistent und unabhängig als **oralen Dualinhibitor der Phosphoinositid-3-Kinase δ und γ (PI3K-δ,γ)**, das stromabwärts des B-Zell-Rezeptor-Signalwegs wirkt, um die Proliferation und das Überleben maligner B-Zellen zu unterdrücken, während die PI3K-γ-Inhibition zusätzlich die Tumor-Mikroumgebung moduliert (Makrophagen/T-Zellen).
+Für Duvelisib liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben zum Wirkmechanismus vor. Bekannt ist jedoch, dass Duvelisib die Phosphoinositid-3-Kinasen PI3K-δ und PI3K-γ hemmt. Diese Enzyme unterstützen die B-Zell-Rezeptor-Signalübertragung, das Überleben maligner Zellen und die Interaktion mit dem Tumormikromilieu bei lymphatischen Neoplasien.
 
-Die automatisierte Relevanzprüfung, die in diese Bewertung eingebettet ist, zeigt eine erhebliche Nichtübereinstimmung für diese Vorhersage mit Rang 1: **keine der 11 klinischen Studien oder 16 Publikationen**, die unter dem Label "Hodgkin-Lymphom" abgerufen wurden, haben tatsächlich klassisches Hodgkin-Lymphom (Reed-Sternberg-Zellbiologie) eingeschlossen oder untersucht. Jede Studie und jedes Papier betrifft stattdessen nicht-Hodgkin-Lymphom-Subtypen — CLL/SLL, follikuläres Lymphom, Mantelzell-Lymphom, peripheres/kutanes T-Zell-Lymphom — wo der Wirkmechanismus von Duvelisib gut etabliert ist. Dies deutet stark darauf hin, dass der TxGNN-Score "Hodgkin-Lymphom" ein Embedding-Ähnlichkeits-Artefakt zwischen Lymphom-Krankheitslabeln im Wissensgraph widerspiegelt, statt eines echten, spezifischen mechanistischen Signals für klassisches HL.
+Die ursprünglichen Indikationen (chronische lymphatische Leukämie, follikuläres Lymphom) und das Hodgkin-Lymphom sind lymphatische Erkrankungen, bei denen PI3K-Signalwege eine Rolle spielen können. Eine vorklinische Arbeit zu Epstein-Barr-Virus-assoziierten Lymphomzellen (u. a. Hodgkin- und Burkitt-Lymphom) weist auf antitumorale Effekte von Duvelisib hin.
 
-**Wichtiger Kontext:** dieselbe Evidenzbewertung enthält ein viel stärkeres, anders bezeichnetes Signal — "B-Zell-Neoplasma" (Rang 9) — verankert durch eine abgeschlossene pivotale Phase-3-Studie (DUO, NCT02004522, n=319, Duvelisib vs. Ofatumumab in rezidiviertem/refraktärem CLL/SLL) und bewertet L1/S3/"Mit Sicherheitsvorkehrungen fortfahren". Die Anmerkung der Bewertung für diesen Eintrag warnt jedoch davor, dass dies weitgehend duvelisibs **bereits etabliertem** therapeutischem Umfang (CLL/SLL/FL) entspricht, statt eines echten Umpositionierungssignals, und empfiehlt, die Datenlücken auf Wirkstoffebene (ursprüngliche Indikation, MOA) zu beheben, bevor dieses Programm als "Umpositionierung" versus "Bestätigung der primären Indikation" bewertet wird.
+Die klinischen Daten stammen jedoch fast ausschließlich aus Non-Hodgkin-Lymphomen (indolente NHL, follikuläres Lymphom, T-Zell-Lymphome). Die Übertragung auf das klassische Hodgkin-Lymphom ist daher eine Extrapolation und keine belegte Wirksamkeit.
 
 ---
 
 ## Evidenz aus klinischen Studien
 
-*Keine der folgenden Studien untersucht klassisches Hodgkin-Lymphom spezifisch; alle betreffen nicht-Hodgkin-Lymphom-Malignome, die unter dem Label "Hodgkin-Lymphom" abgerufen wurden.*
+Keine der Studien untersucht das Hodgkin-Lymphom. Die Tabelle zeigt die verfügbaren Studien zu verwandten Lymphomen.
 
-| Studiennummer | Phase | Status | Einschluss | Hauptergebnisse |
+| Studiennummer | Phase | Status | Teilnehmerzahl | Zentrale Ergebnisse |
 |---------|------|------|------|---------|
-| [NCT02576275](https://clinicaltrials.gov/study/NCT02576275) | Phase 3 | Zurückgezogen | 0 | Duvelisib+Bendamustin/Rituximab vs. Placebo in vorbehandeltem indolentem NHL — zurückgezogen, keine Daten |
-| [NCT04803201](https://clinicaltrials.gov/study/NCT04803201) | Phase 2 | Ausgesetzt | 170 | Duvelisib-CHOEP vs. Standardregimen in unbehandeltem CD30-negativem peripherem T-Zell-Lymphom |
-| [NCT04379167](https://clinicaltrials.gov/study/NCT04379167) | Phase 2 | Unbekannt | 140 | PI3K-Klasse-Wirkstoff (YY-20394) Monotherapie in rezidiviertem/refraktärem follikulärem NHL |
-| [NCT01882803](https://clinicaltrials.gov/study/NCT01882803) | Phase 2 | Abgeschlossen | 129 | Duvelisib-Monotherapie in Rituximab/Chemo-refraktärem indolentem NHL (FL, Marginalzone, SLL) |
-| [NCT04038359](https://clinicaltrials.gov/study/NCT04038359) | Phase 2 | Abgeschlossen | 103 | Intermittiertes vs. kontinuierliches Duvelisib-Dosierungsschema in indolentem NHL |
-| [NCT01871675](https://clinicaltrials.gov/study/NCT01871675) | Phase 1 | Abgeschlossen | 48 | Duvelisib + Rituximab oder Bendamustin/Rituximab in NHL/CLL |
-| [NCT05044039](https://clinicaltrials.gov/study/NCT05044039) | Phase 1 | Aktiv, nicht rekrutierend | 42 | Duvelisib nach CAR-T-Zell-Therapie, um CAR-T-Persistenz durch PI3K-Inhibition zu verbessern |
-| [NCT02640833](https://clinicaltrials.gov/study/NCT02640833) | Phase 1 | Zurückgezogen | 0 | Duvelisib + Venetoclax in R/R CLL/SLL/NHL — zurückgezogen |
-| [NCT04836832](https://clinicaltrials.gov/study/NCT04836832) | Phase 1 | Zurückgezogen | 0 | Duvelisib + Acalabrutinib in R/R indolentem NHL — zurückgezogen |
-| [NCT05065866](https://clinicaltrials.gov/study/NCT05065866) | Phase 1 | Abgeschlossen | 14 | Duvelisib + BMS-986345 Kombination in lymphoider Malignität, Dosisfindung |
+| [NCT01882803](https://clinicaltrials.gov/study/NCT01882803) | Phase 2 | Abgeschlossen | 129 | Duvelisib-Monotherapie bei refraktärem indolentem NHL (follikuläres Lymphom, Marginalzonenlymphom, SLL) |
+| [NCT04038359](https://clinicaltrials.gov/study/NCT04038359) | Phase 2 | Abgeschlossen | 103 | Vergleich zweier intermittierender Dosierungsschemata bei indolentem NHL; Verträglichkeit und Dosierung |
+| [NCT01871675](https://clinicaltrials.gov/study/NCT01871675) | Phase 1 | Abgeschlossen | 48 | Duvelisib mit Rituximab bzw. Bendamustin/Rituximab bei rezidivierten/refraktären hämatologischen Malignomen; Sicherheit und MTD |
+| [NCT05065866](https://clinicaltrials.gov/study/NCT05065866) | Phase 1 | Abgeschlossen | 14 | Duvelisib plus BMS-986345 bei lymphatischen Malignomen; Sicherheit und Dosisfindung |
+| [NCT04803201](https://clinicaltrials.gov/study/NCT04803201) | Phase 2 | Rekrutierend | 170 | Randomisiert: CHO(E)P vs. CC-486-CHO(E)P vs. Duvelisib-CHO(E)P bei unbehandeltem peripherem T-Zell-Lymphom |
+| [NCT05044039](https://clinicaltrials.gov/study/NCT05044039) | Phase 1 | Aktiv, nicht rekrutierend | 42 | Duvelisib nach CAR-T-Zelltherapie zur Verbesserung der CAR-T-Persistenz |
+| [NCT05923502](https://clinicaltrials.gov/study/NCT05923502) | k. A. | Noch nicht rekrutierend | 200 | Nicht-interventionelle Real-World-Studie bei NHL |
+| [NCT02576275](https://clinicaltrials.gov/study/NCT02576275) | Phase 3 | Zurückgezogen | 0 | Duvelisib + Bendamustin/Rituximab bei indolentem NHL; nie gestartet, keine Evidenz |
+| [NCT04836832](https://clinicaltrials.gov/study/NCT04836832) | Phase 1 | Zurückgezogen | 0 | Duvelisib + Acalabrutinib bei indolentem NHL; keine Evidenz |
+| [NCT02640833](https://clinicaltrials.gov/study/NCT02640833) | Phase 1 | Zurückgezogen | 0 | Duvelisib + Venetoclax bei CLL/SLL und NHL; keine Evidenz |
 
 ---
 
-## Evidenz aus der Literatur
+## Literaturevidenz
 
-| PMID | Jahr | Typ | Fachzeitschrift | Hauptergebnisse |
+| PMID | Jahr | Typ | Journal | Zentrale Ergebnisse |
 |------|-----|------|------|---------|
-| [36685572](https://pubmed.ncbi.nlm.nih.gov/36685572/) | 2022 | Systematische Übersicht/Metaanalyse | Frontiers in Immunology | Sicherheits-/Wirksamkeitsmeta-analyse von Duvelisib in verschiedenen rezidiv./refraktären lymphoiden Neoplasien |
-| [30799261](https://pubmed.ncbi.nlm.nih.gov/30799261/) | 2019 | Übersicht | The Lancet Oncology | Überblick über Duvelisib in indolentem nicht-Hodgkin-Lymphom |
-| [29191916](https://pubmed.ncbi.nlm.nih.gov/29191916/) | 2018 | Phase-1-Studie | Blood | Grundlegende Phase-1-Studie zur Festlegung der MTD (75 mg BID) und Aktivität von Duvelisib in fortgeschrittenen hämatologischen Malignomen |
-| [31490009](https://pubmed.ncbi.nlm.nih.gov/31490009/) | 2019 | Kohorte/Phase 1 | American Journal of Hematology | Duvelisib + Rituximab oder Bendamustin/Rituximab in NHL/CLL |
-| [32356174](https://pubmed.ncbi.nlm.nih.gov/32356174/) | 2020 | Übersicht | Current Treatment Options in Oncology | PI3K-Inhibitoren, einschließlich Duvelisib, als Zieltherapie in Lymphomen |
-| [33616890](https://pubmed.ncbi.nlm.nih.gov/33616890/) | 2021 | Übersicht | Drugs | Neue therapeutische Ansätze, einschließlich Duvelisib, im follikulären Lymphom |
-| [27872741](https://pubmed.ncbi.nlm.nih.gov/27872741/) | 2016 | Übersicht | Mediterranean Journal of Hematology and Infectious Diseases | Neue Arzneimittel, einschließlich Duvelisib, im follikulären Lymphom |
-| [32658557](https://pubmed.ncbi.nlm.nih.gov/32658557/) | 2020 | Übersicht | Future Oncology | PI3K-Inhibitor-Klassenübersicht in der Behandlungslandschaft nicht-Hodgkin-Lymphom |
-| [31580408](https://pubmed.ncbi.nlm.nih.gov/31580408/) | 2019 | Übersicht | American Journal of Health-System Pharmacy | Zusammenfassung regulatorisch zugelassener gezielter Therapien für B- und T-Zell-Lymphome |
-| [36882482](https://pubmed.ncbi.nlm.nih.gov/36882482/) | 2023 | Präklinisch | Scientific Reports | PI3Kγ/δ-Rollen in Mantelzell-Lymphom-Proliferation/Migration und Duvelisib-Wirksamkeit |
+| [36685572](https://pubmed.ncbi.nlm.nih.gov/36685572/) | 2022 | Systematische Übersicht/Metaanalyse | Frontiers in Immunology | Sicherheit und Wirksamkeit von Duvelisib bei rezidivierten/refraktären lymphatischen Neoplasien |
+| [29191916](https://pubmed.ncbi.nlm.nih.gov/29191916/) | 2018 | Phase-1-Studie | Blood | 210 Patienten mit fortgeschrittenen hämatologischen Malignomen; klinische Aktivität, MTD 75 mg zweimal täglich |
+| [31490009](https://pubmed.ncbi.nlm.nih.gov/31490009/) | 2019 | Phase-1-Studie | American Journal of Hematology | Duvelisib mit Rituximab bzw. Bendamustin/Rituximab bei NHL und CLL |
+| [29522278](https://pubmed.ncbi.nlm.nih.gov/29522278/) | 2018 | Vorklinisch | Cancer Medicine | Antitumorale Effekte von Duvelisib auf EBV-assoziierte Lymphomzellen (u. a. Hodgkin-Lymphom) |
+| [31554637](https://pubmed.ncbi.nlm.nih.gov/31554637/) | 2019 | Review | Blood | Duvelisib bei CLL/SLL und follikulärem NHL |
+| [30799261](https://pubmed.ncbi.nlm.nih.gov/30799261/) | 2019 | Review | The Lancet Oncology | Duvelisib bei indolentem NHL |
+| [33616890](https://pubmed.ncbi.nlm.nih.gov/33616890/) | 2021 | Review | Drugs | Neue Therapieansätze beim follikulären Lymphom |
+| [32356174](https://pubmed.ncbi.nlm.nih.gov/32356174/) | 2020 | Review | Current Treatment Options in Oncology | PI3K-Inhibitoren als gezielte Therapie bei Lymphomen |
+| [31580408](https://pubmed.ncbi.nlm.nih.gov/31580408/) | 2019 | Review | American Journal of Health-System Pharmacy | Zugelassene zielgerichtete Therapien bei B- und T-Zell-Lymphomen |
+| [36882482](https://pubmed.ncbi.nlm.nih.gov/36882482/) | 2023 | Vorklinisch | Scientific Reports | Rolle von PI3Kγ/δ beim Mantelzelllymphom und Wirksamkeit von Duvelisib |
 
 ---
 
-## Informationen zum deutschen Markt
+## Marktinformationen Deutschland
 
-Duvelisib ist derzeit **nicht in Deutschland auf dem Markt** — es existieren keine BfArM-Zulassungsdatensätze in dieser Evidenzbewertung (0 Lizenzen in der Akte).
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/005381 | Copiktra (Secura Bio Limited) | k. A. | Chronische lymphatische B-Zell-Leukämie; follikuläres Lymphom (Status: erloschen) |
 
 ---
 
 ## Zytotoxizität
 
-Duvelisib ist ein antineoplastisches Arzneimittel (oraler niedermolekularer Kinase-Inhibitor, entwickelt für hämatologische Malignomen).
-
-| Element | Inhalt |
-|---------|---------|
-| Zytotoxizitätsklassifizierung | Zielgerichtete Therapie (PI3K-δ,γ-Dualinhibitor) — basierend auf konsistenter Beschreibung in der abgerufenen Literatur; formale DrugBank-Kategoriedaten nicht in dieser Evidenzbewertung verfügbar |
-| Myelosuppressionsrisiko | Bitte beachten Sie die Gebrauchsinformationen zu Warnhinweisen und Vorsichtsmaßnahmen |
-| Emetogenitätsklassifizierung | Bitte beachten Sie die Gebrauchsinformationen zu Warnhinweisen und Vorsichtsmaßnahmen |
-| Überwachungselemente | Bitte beachten Sie die Gebrauchsinformationen zu Warnhinweisen und Vorsichtsmaßnahmen |
-| Schutzmaßnahmen bei der Handhabung | Bitte beachten Sie die Gebrauchsinformationen zu Warnhinweisen und Vorsichtsmaßnahmen |
+| Punkt | Inhalt |
+|------|------|
+| Zytotoxizitätsklassifikation | Zielgerichtete Therapie (oraler dualer PI3K-δ/γ-Inhibitor), kein klassisches Zytostatikum |
+| Myelosuppressionsrisiko | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Emetogenität | Bitte Warnhinweise und Vorsichtsmaßnahmen der Fachinformation beachten |
+| Überwachungsparameter | Blutbild, Leber- und Nierenfunktion (allgemeine Empfehlung); klassenspezifisch zusätzlich auf Infektionen, Durchfall/Kolitis, Pneumonitis, Hautreaktionen und Hepatotoxizität achten |
+| Handhabungsschutz | Bitte Fachinformation und lokale Vorschriften für den Umgang mit antineoplastischen Arzneimitteln beachten |
 
 ---
 
-## Sicherheitserwägungen
+## Sicherheitsaspekte
 
-Bitte beachten Sie die Gebrauchsinformationen für Sicherheitsinformationen.
+- **Arzneimittelwechselwirkungen:** Die Abfrage ergab 100 Wechselwirkungen. Als **schwerwiegend (Major)** eingestuft sind u. a. **Clarithromycin**, **Cisaprid** und **Eliglustat**. Als **mäßig (Moderate)** eingestuft sind u. a. Hydrocortison, Dexamethason, Betamethason, Triamcinolon, Budesonid, Omeprazol, Esomeprazol, Dexlansoprazol, Cimetidin, Aprepitant, Pioglitazon, Saxagliptin, Clotrimazol, Granisetron und Dolasetron.
+- **Klassenbezogene Risiken:** PI3K-Inhibitoren sind mit schweren Toxizitäten verbunden (Infektionen, Kolitis, Pneumonitis, Hautreaktionen, Hepatotoxizität).
+
+Warnhinweise und Gegenanzeigen aus der Fachinformation liegen nicht vor; hierzu bitte die Fachinformation heranziehen.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Abwarten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage mit Rang 1 (Hodgkin-Lymphom) wird nicht durch relevante Evidenz gestützt — jede abgerufene klinische Studie und Publikation betrifft nicht-Hodgkin-Lymphom, was auf ein wahrscheinliches Embedding-Ähnlichkeits-Artefakt zwischen Lymphom-Krankheitslabeln im Wissensgraph hindeutet, statt auf ein echtes Umpositionierungssignal für klassisches HL. Parallel verhindern die Datenlücken auf Wirkstoffebene dieses Kandidaten (fehlende BfArM-Etikettwarnungen/Kontraindikationen — Blockiert; fehlende MOA — Hoch), dass er die S1-Sicherheitsvorprüfungs-Phase unabhängig von der Indikation besteht.
+- Für das Hodgkin-Lymphom existiert keine spezifische klinische Studie; die Evidenz stammt aus verwandten Non-Hodgkin-Lymphomen und ist extrapoliert. Hinzu kommen der erloschene Zulassungsstatus in Deutschland und die bekannten Klassentoxizitäten der PI3K-Inhibitoren.
+- Die einzige stärkere Evidenz (Phase-3-Studie NCT02004522 bei CLL/SLL) betrifft die ursprünglichen Indikationen und ist kein Signal für eine Neuindikation.
 
-**Um fortfahren zu können, ist Folgendes erforderlich:**
-- Beheben Sie DG001: Besorgen Sie sich BfArM-/Produktetikett-Warnungen und Kontraindikationen
-- Beheben Sie DG002: Besorgen Sie sich bestätigte MOA von DrugBank
-- Etablieren und dokumentieren Sie duvelisibs ursprüngliche/zugelassene Indikation(en), derzeit nicht in diesem Datensatz verzeichnet
-- Spezifische Krankheitslabel-Neubewertung der Evidenz, um die Relevanz für klassisches Hodgkin-Lymphom zu bestätigen oder auszuschließen, bevor dieser spezifische Kandidat vorangetrieben wird
-- Wenn Sie zum stärkeren Signal "B-Zell-Neoplasma" (Rang 9, L1/S3) umleiten, klären Sie zunächst, ob dies echtes Umpositionierungspotenzial oder Überschneidung mit duvelisibs bereits etabliertem Indikationsumfang widerspiegelt, und führen Sie eine Neuprüfung angrenzender CLL/SLL-Subtyp-Einträge mit niedriger Evidenz (Ränge 5–6) durch, um das gleiche Embedding-Artefakt-Muster zu suchen, das bei Rang 1 zu sehen ist
+**Für ein Weiterkommen sind erforderlich:**
+- Präklinische und klinische Daten speziell zum klassischen Hodgkin-Lymphom
+- Daten zum Wirkmechanismus (MOA) und zur mechanistischen Verbindung zum Hodgkin-Lymphom
+- Auswertung der Fachinformation (Warnhinweise, Gegenanzeigen)
+- Sorgfältige Nutzen-Risiko-Bewertung, voraussichtlich beschränkt auf resistente Erkrankungen oder definierte Kombinationen
+- Klärung der Verfügbarkeit des Präparats in Deutschland
 
+---
+
+### Weitere vorhergesagte Indikationen (zur Einordnung)
+
+| Indikation | TxGNN-Wert | Evidenzstufe | Empfehlung |
+|---|---|---|---|
+| Myeloische Leukämie | 99,94 % | L3 | Forschungsfrage (nur vorklinisch; einzige Studie bei CLL/SLL, 3 Teilnehmer) |
+| Mantelzelllymphom | 99,84 % | L3 | Forschungsfrage (vorklinische Daten, Phase 1 mit nur 1 MCL-Patient) |
+| B-Zell-Neoplasie | 99,80 % | L1 | Überschneidet sich mit den Ursprungsindikationen, daher kein echtes Repurposing-Signal |
+| CML (BCR-ABL1-positiv), Ewing-Sarkom, CLL/SLL-Subtypen, Ganglioneuroblastom u. a. | 99,81–99,91 % | L5 | Hold (nur Modellvorhersage, keine Studien) |
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

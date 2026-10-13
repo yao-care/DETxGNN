@@ -2,7 +2,7 @@
 layout: default
 title: Rasagiline
 parent: Nur Modellvorhersage (L5)
-nav_order: 327
+nav_order: 383
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,57 +29,96 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Rasagiline (Rasagilin): Umwertungsbewertung — Unvollständiges Evidenzpaket
+# Rasagilin: Von Parkinson-Krankheit zu PLA2G6-assoziierter Neurodegeneration
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Rasagiline (DrugBank-ID: DB01367) ist ein Kandidat für eine Analyse zur Arzneistoffumwertung, jedoch enthält das aktuelle Evidenzpaket **keine vorhergesagten neuen Indikationen**, **keine Daten zur ursprünglichen Indikation** und **keine Informationen zum Wirkmechanismus**. Mit drei ungelösten Blockierungs- oder hochgradigen Datenlücken kann eine substanzielle Bewertung der Arzneistoffumwertung in dieser Phase nicht abgeschlossen werden.
+Rasagilin ist ein irreversibler MAO-B-Hemmer und wurde ursprünglich zur Behandlung der **Parkinson-Krankheit** zugelassen. Das TxGNN-Modell sagt voraus, dass der Wirkstoff bei der **PLA2G6-assoziierten Neurodegeneration** wirksam sein könnte (Score 99,71 %). Für diese Vorhersage liegen jedoch **keine klinischen Studien und keine Publikationen** vor; sie beruht ausschließlich auf einer Modellberechnung.
 
 ---
 
 ## Schnellübersicht
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Im aktuellen Evidenzpaket nicht verfügbar |
-| Vorhergesagte neue Indikation | Keine TxGNN-Vorhersagen verfügbar |
-| TxGNN-Vorhersagebewertung | N/A |
-| Evidenzstufe | L5 — Modellvorhersage noch nicht verfügbar; keine unterstützenden Studien |
-| Marktstatus in Deutschland | ✗ Nicht vermarktet (0 Zulassungen) |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | **Hold** |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Parkinson-Krankheit |
+| Vorhergesagte neue Indikation | PLA2G6-assoziierte Neurodegeneration |
+| TxGNN-Vorhersagewert | 99,71 % |
+| Evidenzgrad | L5 |
+| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassungen |
+| Anzahl der Zulassungen | 3 (alle erloschen) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Daten zum Wirkmechanismus nicht verfügbar. Nach dem erhaltenen Evidenzpaket hat Rasagiline (DB01367) keine aufgezeichnete ursprüngliche Indikation, und kein TxGNN-vorhergesagtes Umwertungsziel wurde generiert. Ohne eine vorhergesagte Indikation ist es derzeit nicht möglich, mechanistische Plausibilität, Überlappung von Krankheitswegen oder translationale Rationale zu bewerten.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Rasagilin ein irreversibler MAO-B-Hemmer ist, dessen Wirksamkeit bei der Parkinson-Krankheit belegt ist. Mechanistisch könnte er daher auch bei verwandten neurodegenerativen Erkrankungen relevant sein.
 
-Das Fehlen von vorhergesagten Indikationen ist höchstwahrscheinlich auf fehlende vorgelagerte Eingaben zurückzuführen: Das Feld `meta.inputs_received` erfasst nur `"drugbank"` als abgeschlossene Datenquelle, was darauf hindeutet, dass der Wissensgraph-Embedding- oder TxGNN-Inferenzschritt noch nicht mit einem vollständigen Eingabesatz ausgeführt wurde.
+Die PLA2G6-assoziierte Neurodegeneration (einschließlich infantiler neuroaxonaler Dystrophie und PLA2G6-bedingtem Dystonie-Parkinsonismus) geht mit Alpha-Synuklein-Pathologie und dem Verlust dopaminerger Neuronen einher. Dies liegt konzeptionell nahe am Anwendungsgebiet Parkinson. Der hohe TxGNN-Score spiegelt wahrscheinlich diese Nähe im Wissensgraphen wider.
+
+Einschränkend gilt: Frühe Verlaufsformen betreffen eine weit über das dopaminerge System hinausgehende Neurodegeneration. Eine rein symptomatische MAO-B-Hemmung dürfte den Krankheitsverlauf daher kaum verändern. Die Verbindung ist eine rein rechnerische Vorhersage.
+
+**Weitere vorhergesagte Indikationen (alle L5, Hold):**
+
+| Rang | Indikation | Score | Einschätzung |
+|---|---|---|---|
+| 2 | Rasmussen-Enzephalitis | 99,56 % | Immunvermittelte Erkrankung, kein plausibler Mechanismus über MAO-B-Hemmung |
+| 3 | Myelitis | 99,32 % | Zu heterogen; nur spekulative neuroprotektive Hypothese aus präklinischen Modellen |
+| 4 | Juveniler Parkinsonismus (Typ Hunt) | 99,25 % | Biologisch plausibel, aber wahrscheinlich nur eine Umbenennung der Ursprungsindikation; genetisch heterogen, keine pädiatrischen Daten |
+| 5 | Transaldolase-Mangel | 99,19 % | Kaum mechanistische Überschneidung; vermutlich Graph-Artefakt |
+| 6 | Polymikrogyrie, perisylvisch, mit Kleinhirnhypoplasie und Arthrogryposis | 99,01 % | Kein erkennbarer Mechanismus |
+
+---
+
+## Klinische Evidenz
+
+Derzeit sind keine zugehörigen klinischen Studien registriert.
+
+---
+
+## Literaturevidenz
+
+Derzeit liegt keine zugehörige Literatur vor.
+
+---
+
+## Informationen zum Markt in Deutschland
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000574 | Azilect | – | Parkinson-Krankheit |
+| EMEA/H/C/004064 | Rasagiline Viatris (zuvor Rasagiline Mylan) | – | Parkinson-Krankheit |
+| EMEA/H/C/003957 | Rasagiline ratiopharm | – | Parkinson-Krankheit |
+
+Alle drei Zulassungen sind erloschen; derzeit ist kein gültiges Einzelpräparat verzeichnet.
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie das Beipackzettel für Sicherheitsinformationen.
+- **Kontraindikationen laut Wissensgraph (PrimeKG, kein Beipackzettel-Text):** Hypertonie, Multisystematrophie, posturales orthostatisches Tachykardiesyndrom, orthostatische Hypotonie, medikamenteninduzierte Dyskinesie, Epilepsie, bipolare Störung, schwere affektive Störung, Lebererkrankung, Gallenblasenerkrankung, Melanom, Phäochromozytom, Dünndarm- und Zwölffingerdarmkrebs, Herzkrebs, Nebennierenkrebs, sympathisches Paragangliom.
+- **Arzneimittelwechselwirkungen** (100 Einträge, Auswahl):
+  - **Schwerwiegend (Major):** Bupropion, Morphin
+  - **Moderat:** Epinephrin, Chlorpropamid, Cimetidin, Diethylpropion, Difenoxin, Diphenoxylat, Dronabinol, Obeticholsäure, Phentermin, Glimepirid sowie verschiedene Insuline (Aspart, Degludec, Detemir, Glargin, Glulisin, Humaninsulin)
+
+Hinweise und Gegenanzeigen aus der Fachinformation liegen nicht vor; bitte die Fachinformation heranziehen.
 
 ---
 
-## Fazit und Nächste Schritte
+## Fazit und nächste Schritte
 
 **Entscheidung: Hold**
 
 **Begründung:**
-Das Evidenzpaket ist strukturell unvollständig – vorhergesagte Indikationen, Text der ursprünglichen Indikation und Wirkmechanismus sind alle nicht vorhanden, sodass keine Umwertungshypothese zur Bewertung verbleibt. Keine klinische Studie oder Literaturrecherche kann ohne Zielindikation sinnvoll eingegrenzt werden.
+Die Vorhersage beruht ausschließlich auf einem Modell (Evidenzgrad L5) ohne klinische Studien oder Literatur. Zudem gibt es in Deutschland derzeit keine gültige Zulassung, und die Sicherheitsdaten aus der Fachinformation fehlen.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-
-1. **Beheben Sie DG002 (Hoch) — Wirkmechanismus:** Fragen Sie die DrugBank-API für DB01367 ab, um `original_moa` auszufüllen. Dies ist erforderlich, bevor die mechanistische Plausibilität bewertet werden kann.
-2. **Beheben Sie DG001 (Blockierend) — Beipackzettel-Warnungen/Kontraindikationen:** Laden Sie das TFDA- oder BfArM-Beipackzettel-PDF herunter und analysieren Sie es, um Sicherheitsfelder auszufüllen. Dies blockiert den S1-Sicherheitsbildschirm.
-3. **TxGNN-Inferenz erneut ausführen:** Das Array `predicted_indications` ist leer. Überprüfen Sie, ob die KG-Embedding-, DL-Vorhersage- und Krankheitsmapping-Pipeline-Schritte (Phase 2 gemäß Projekt-SOP) für DB01367 ausgeführt wurden. Lösen Sie die Pipeline erneut mit einem vollständigen Eingabesatz aus.
-4. **Füllen Sie `original_indications` aus:** Bestätigen Sie die genehmigte(n) Indikation(en) aus der DrugBank-Aufzeichnung oder regulatorischen Quelle und füllen Sie das Feld aus, damit der Berichtstitel und die Schnellübersicht abgeschlossen werden können.
-5. **Regenerieren Sie diesen Bericht**, sobald die oben genannten Lücken behoben sind und `predicted_indications[0]` ausgefüllt ist.
-
+**Für ein Weiterkommen sind folgende Schritte nötig:**
+- Fachinformation (Warnhinweise, Gegenanzeigen) beschaffen und auswerten, da dies die Sicherheitsprüfung derzeit blockiert
+- Detaillierte Daten zum Wirkmechanismus ergänzen (z. B. über DrugBank)
+- Präklinische und klinische Evidenz zu PLA2G6-assoziierter Neurodegeneration recherchieren
+- Klären, ob die Marktverfügbarkeit in Deutschland gegeben ist (alle Zulassungen erloschen)
+- Für den juvenilen Parkinsonismus: Abgrenzung zur bestehenden Indikation sowie pädiatrische Sicherheits- und Dosierungsdaten prüfen
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

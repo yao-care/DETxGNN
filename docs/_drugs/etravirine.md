@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Etravirine
-parent: Hohe Evidenz (L1-L2)
-nav_order: 159
-evidence_level: L2
+parent: Nur Modellvorhersage (L5)
+nav_order: 186
+evidence_level: L5
 indication_count: 10
 ---
 
 # Etravirine
 {: .fs-9 }
 
-Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,94 +29,88 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Etravirine: Von HIV-1-Infektion (NNRTI-Klasse) zur kongenitalen HIV-Infektion (Prävention der perinatalen Übertragung)
+# Etravirin: Von HIV-Infektion zu felinem erworbenem Immundefizienz-Syndrom
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-> Etravirine ist ein Inhibitor der Reverse-Transkriptase der zweiten Generation aus der Nichtnukleosidklasse (NNRTI), das für die HIV-1-Infektion verwendet wird, insbesondere bei NNRTI-erfahrenen Erwachsenen. Unter den 10 von TxGNN vorhergesagten Indikationen in diesem Evidenzpaket zeigen die meisten (einschließlich der höchstgestuften „Feline Immunodeficiency Syndrome") keine glaubwürdige mechanistische Unterstützung und werden als wahrscheinliches Modellrauschen gekennzeichnet. Der einzige Kandidat mit echter Evidenzstärke — **Kongenitale HIV-Infektion/Prävention der perinatalen Übertragung** — wird durch **13 klinische Studien** (einschließlich Phase-3-Therapieschema-Studien und schwangerschaftsspezifischen pharmakokinetischen Studien) und **1 Publikation** unterstützt, was eine natürliche Lebenszyklus-Erweiterung der bestehenden HIV-1-Verwendung von Etravirine darstellt, anstatt eines wirklich neuartigen Mechanismus.
-
-> ⚠️ Hinweis: Die von TxGNN nach Rohmesswert höchstbewertete Vorhersage in diesem Evidenzpaket ist „Feline Acquired Immunodeficiency Syndrome" (eine veterinärmedizinische/artübergreifende Entität) und „Simian Immunodeficiency Virus Infection", beide mit L5/Hold bewertet und expliziter Begründung, dass es keine mechanistische Unterstützung gibt. Dieser Bericht konzentriert sich stattdessen auf den Kandidaten mit der höchsten Evidenzqualität (Rang 5, L2), um eine irreführende Überschrift zu vermeiden.
+Etravirin ist ein nicht-nukleosidischer Reverse-Transkriptase-Inhibitor (NNRTI), der ursprünglich zur Behandlung der HIV-Infektion zugelassen wurde.
+Das TxGNN-Modell sagt voraus, dass er bei **felinem erworbenem Immundefizienz-Syndrom** wirksam sein könnte. Hierfür liegen jedoch **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage beruht allein auf dem Modell.
 
 ---
 
-## Schnellübersicht
+## Kurzüberblick
 
-| Element | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | HIV-1-Infektion, NNRTI-Resistenz-Setting *(strukturiertes Feld ist eine Datenlücke; entnommen aus repurposing_rationale-Text)* |
-| Vorhergesagte neue Indikation | Kongenitale HIV-Infektion (perinatale/vertikale Übertragungsprävention) |
-| TxGNN-Vorhersageergebnis | 99,79% (Rang 3016 der Modellausgabe) |
-| Evidenzstufe | L2 |
-| Marktstatus in Deutschland | ✗ Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
+| Ursprüngliche Indikation | HIV-Infektionen |
+| Vorhergesagte neue Indikation | Felines erworbenes Immundefizienz-Syndrom |
+| TxGNN-Vorhersagewert | 99,98 % |
+| Evidenzstufe | L5 |
+| Marktstatus in Deutschland | Nur erloschene/zurückgezogene Zulassung |
+| Anzahl der Zulassungen | 1 (erloschen) |
 | Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Warum ist diese Vorhersage plausibel (oder nicht)?
 
-Derzeit sind detaillierte Wirkmechanismus-Daten (MOA) für Etravirine in diesem Evidenzpaket nicht verfügbar (Datenlücke DG002). Basierend auf den verfügbaren Informationen ist Etravirine ein Diarylpyrimidin-NNRTI, das für die HIV-1-Infektion zugelassen ist, und seine Kernindikation — Behandlung von HIV-1 bei Patienten mit dokumentierter NNRTI-Resistenz — ist gut etabliert. Kongenitale/perinatale HIV-Infektion ist kein eigenständiger Krankheitsmechanismus, sondern Teil des gleichen HIV-1-Krankheitsspektrums, das von Mutter zu Kind übertragen wird; ihre Prävention beruht auf der Unterdrückung der viralen Belastung der Mutter mit der gleichen Klasse von antiretroviralen Wirkstoffen, die in der Erwachsenenbehandlung verwendet werden.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist, dass Etravirin ein NNRTI der HIV-1-Reverse-Transkriptase ist und dass seine Wirksamkeit bei HIV-Infektionen belegt ist.
 
-Dies wird direkt in der Evidenz widergespiegelt: Mehrere Phase-3-Studien in diesem Paket (z. B. NCT00855335, NCT00042289) untersuchen speziell die Pharmakokinetik von Antiretroviren — einschließlich Etravirine — bei HIV-1-infizierten schwangeren Frauen, und eine Phase-1-Studie (NCT04630002) bewertet direkt Etravirine-Arzneimittelwechselwirkungen in Kombinationstherapie. Dies deutet darauf hin, dass die „neue Indikation" weniger ein mechanistischer Sprung ist und eher eine Ausweitung von Etravirines bekannter Verwendung auf die perinatale Population darstellt, weshalb sie die einzige Kandidatin in diesem Paket ist, die Evidenzstufe L2 erreicht.
+Das feline Immundefizienzvirus (FIV) ist ein mit HIV verwandtes Lentivirus. Seine Reverse Transkriptase ist jedoch in der Regel weniger empfindlich gegenüber NNRTIs, sodass eine artübergreifende Wirkung unsicher ist. Der hohe TxGNN-Wert spiegelt vermutlich die Nähe zu HIV-bezogenen Krankheitsknoten im Wissensgraphen wider und keine nachgewiesene Aktivität.
 
-Im Gegensatz dazu fehlen den drei am höchsten bewerteten Modellvorhersagen — Feline AIDS, Simian-Immunodeficiency-Virus-Infektion und eine seltene neurodevelopmentale Störung — jegliche plausible biologische Verbindung zum NNRTI-Mechanismus von Etravirine, wie in der Begründungstexte des Pakets selbst explizit dargelegt (artübergreifender/familien-übergreifender Enzym-Mismatch oder überhaupt keine bekannte Pfad-Überlappung). Diese werden als wahrscheinliche Modellartefakte anstelle echter Repurposing-Signale behandelt.
+**Weitere Vorhersagen im Überblick:**
 
----
+| Rang | Vorhergesagte Indikation | Wert | Evidenz | Einschätzung |
+|---|---|---|---|---|
+| 2 | Infektion mit dem Simianen Immundefizienzvirus | 99,98 % | L5 | SIV ist wie HIV-2 von Natur aus gegen viele NNRTIs resistent; die einzige Publikation ist indirekt und präklinisch. |
+| 3 | Neuroentwicklungsstörung mit ataktischem Gang, fehlender Sprache und verminderter kortikaler weißer Substanz | 99,97 % | L5 | Kein plausibler Mechanismus; vermutlich ein Artefakt des Graphen. |
+| 4 | AIDS-related Complex | 99,79 % | L4 | Überschneidet sich mit der zugelassenen HIV-Indikation, daher kein echtes Repurposing. |
+| 5 | Kongenitale HIV-Infektion | 99,79 % | L4 | Mechanistisch direkt relevant, aber ebenfalls überlappend mit der HIV-Indikation. |
+| 6–10 | Gutartige Tumoren (Prostatafibrom, Brenner-Tumor, gutartige Neoplasie des Reproduktionssystems, benigner Phylloides-Tumor der Prostata) sowie veraltete familiäre kombinierte Hyperlipidämie | 99,64–99,72 % | L5 | Weder Mechanismus noch Evidenz erkennbar. |
 
-## Evidenz aus klinischen Studien
-
-| Studiennummer | Phase | Status | Einschluss | Wichtigste Ergebnisse |
-|---------|------|------|------|---------|
-| [NCT00855335](https://clinicaltrials.gov/study/NCT00855335) | Phase 3 | Abgeschlossen | 77 | PK von Darunavir, Ritonavir, Etravirine und Rilpivirine speziell bei HIV-1-infizierten schwangeren Frauen |
-| [NCT00042289](https://clinicaltrials.gov/study/NCT00042289) | Phase 4 | Abgeschlossen | 1578 | IMPAACT P1026s — PK von Antiretroviren (einschließlich Etravirine-Klasse-Wirkstoffe) während Schwangerschaft/Postpartum |
-| [NCT04630002](https://clinicaltrials.gov/study/NCT04630002) | Phase 1 | Abgeschlossen | 54 | Arzneimittelwechselwirkungsstudie von Darunavir/Ritonavir und/oder Etravirine mit GSK3640254 |
-| [NCT01199731](https://clinicaltrials.gov/study/NCT01199731) | Phase 2b | Beendet | 30 | GSK2248761-Dosis-Selektionsstudie mit offener Etravirine 200 mg 2x täglich als Kontrollarm |
-| [NCT07412977](https://clinicaltrials.gov/study/NCT07412977) | K.A. | Noch nicht Rekrutierung | 5160 | VIROPREG — Französische Kohorte zu viralen Infektionen (einschließlich HIV) und Einfluss antiviraler Behandlung auf Schwangerschaft/Mutter-zu-Kind-Übertragung |
-| [NCT02951052](https://clinicaltrials.gov/study/NCT02951052) | Phase 3 | Aktiv, keine Rekrutierung | 618 | ATLAS — Umstieg von virologisch unterdrückten HIV-1-Erwachsenen auf lang wirkendes Cabotegravir + Rilpivirine |
-| [NCT02429791](https://clinicaltrials.gov/study/NCT02429791) | Phase 3 | Abgeschlossen | 510 | Umstieg auf Dolutegravir + Rilpivirine von INI-/NNRTI-/PI-basiertem Regime bei unterdrückten HIV-1-Patienten |
-| [NCT02422797](https://clinicaltrials.gov/study/NCT02422797) | Phase 3 | Abgeschlossen | 518 | Gleiches Design wie oben, zweite Kohorte |
-| [NCT03299049](https://clinicaltrials.gov/study/NCT03299049) | Phase 3b | Aktiv, keine Rekrutierung | 1049 | ATLAS-2M — lang wirkendes Cabotegravir + Rilpivirine in Q8W vs Q4W Dosierung |
-| [NCT02938520](https://clinicaltrials.gov/study/NCT02938520) | Phase 3 | Aktiv, keine Rekrutierung | 631 | FLAIR — lang wirkendes IM Cabotegravir/Rilpivirine-Erhaltung nach Umstieg von INI-Regime |
-
-*Ausgeschlossen aus dieser Tabelle: NCT04273165 (Friedreich-Ataxie-Studie — bestätigter Datenbank-Mismatch, nicht verwandt mit HIV) und NCT01458132 (GSK-Arzneimittelexpositionsregister, Etravirine-Beteiligung unbestätigt).*
+Insgesamt sind die Vorhersagen mit HIV-Bezug (Rang 4 und 5) mechanistisch am plausibelsten, stellen aber kaum neue Indikationen dar. Die übrigen Vorhersagen sind überwiegend modellbedingt.
 
 ---
 
-## Evidenz aus der Literatur
+## Klinische Evidenz
 
-| PMID | Jahr | Typ | Zeitschrift | Wichtigste Ergebnisse |
+Derzeit sind keine zugehörigen klinischen Studien registriert.
+
+---
+
+## Literaturevidenz
+
+Für die Hauptvorhersage (felines erworbenes Immundefizienz-Syndrom) liegt keine Literatur vor. Für die weiteren Vorhersagen wurden folgende Arbeiten gefunden, die jeweils nur indirekten Kontext liefern:
+
+| PMID | Jahr | Typ | Journal | Kernaussagen |
 |------|-----|------|------|---------|
-| [20587860](https://pubmed.ncbi.nlm.nih.gov/20587860/) | 2010 | Kohorte/Fallserie | Antiviral Therapy | Zwei Fallberichte zur Verwendung von Darunavir und Etravirine (± Raltegravir) in der Schwangerschaft für hochgradig behandlungserfahrene HIV-Patienten |
+| [26529558](https://pubmed.ncbi.nlm.nih.gov/26529558/) | 2015 | Präklinisch/In vitro | Molecular Pharmaceutics | Nanopartikelbasierte ARV-Kombinationen hemmen die zellfreie und zellvermittelte HIV-Übertragung synergistisch (Bezug zu SIV nur indirekt). |
+| [20587860](https://pubmed.ncbi.nlm.nih.gov/20587860/) | 2010 | Fallserie | Antiviral Therapy | Bericht über zwei Fälle mit Darunavir und Etravirin, mit oder ohne Raltegravir, in der Schwangerschaft. |
+| [19290032](https://pubmed.ncbi.nlm.nih.gov/19290032/) | 2009 | Kohortenstudie | AIDS Reviews | Risikofaktoren für gastrointestinale Nebenwirkungen bei behandelten und unbehandelten HIV-Patienten. |
+| [27067022](https://pubmed.ncbi.nlm.nih.gov/27067022/) | 2016 | Präklinisch/In vitro | AIDS Research and Human Retroviruses | Neue Mutationen L228I und Y232H in der Reversen Transkriptase führen in Kombination zu NNRTI-Resistenz. |
 
 ---
 
-## Weitere TxGNN-Vorhersagen (ausgeschlossen)
+## Marktinformationen Deutschland
 
-Aus Transparenzgründen werden die verbleibenden 9 vorhergesagten Indikationen in diesem Evidenzpaket unten zusammengefasst. Alle wurden als unzureichend unterstützt für weitere Maßnahmen bewertet:
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000900 | Intelence | – | HIV-Infektionen |
 
-| Rang | Erkrankung | Evidenzstufe | Entscheidung | Begründung |
-|------|---------|----------------|----------|--------|
-| 1 | Feline Acquired Immunodeficiency Syndrome | L5 | Hold | Artübergreifender Mismatch; FIV-Reverse-Transkriptase nicht als Ziel konzipiert |
-| 2 | Simian Immunodeficiency Virus Infection | L4 | Hold | Nur indirekte In-vitro-Nanopartikel-Literatur; keine direkten SIV-RT-Inhibitionsdaten |
-| 3 | Seltene neurodevelopmentale Störung (ataktischer Gang/fehlendes Sprechen) | L5 | Hold | Kein mechanistischer Link; wahrscheinlich Modellrauschen |
-| 4 | AIDS-related complex | L3 | Forschungsfrage | Innerhalb des Kern-HIV-1-Krankheitsspektrums; Evidenz indirekt (PROTEKT-Studienrelevanz unbestätigt) |
-| 6 | Fibrom der Prostata | L5 | Hold | Kein mechanistischer Link |
-| 7 | Brenner-Tumor | L5 | Hold | Kein mechanistischer Link |
-| 8 | Benignes Neoplasma des Reproduktionssystems | L5 | Hold | Nicht-spezifische Krankheitskategorie, keine biologische Hypothese |
-| 9 | Benignes Phyllodes-Tumor der Prostata | L5 | Hold | Kein mechanistischer Link |
-| 10 | Veraltetes familiäres kombiniertes Lipidstoffwechsel | L5 | Hold | Spiegelt eine bekannte NNRTI-Nebenwirkung (Dyslipidämie) wider, nicht einer therapeutischen Verwendung; Krankheitsklasse ist veraltet |
-
----
-
-## Marktinformationen für Deutschland
-
-Etravirine hat derzeit **keine Zulassungsaufzeichnungen** im deutschen Datensatz (`taiwan_regulatory.total_licenses = 0`). Keine Produktinformation, Darreichungsform oder genehmigter Indikationstext ist verfügbar.
+Diese einzige Zulassung (Janssen-Cilag International NV) ist erloschen; derzeit gibt es keine gültige Zulassung in den zusammengestellten Daten.
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. Wichtige Warnhinweise, Kontraindikationen und Arzneimittelwechselwirkungsdaten sind in diesem Evidenzpaket nicht verfügbar (gekennzeichnet als Blockierende Datenlücke DG001 — TFDA-Etikett Warnhinweise/Kontraindikationen).
+- **Kontraindikationen aus dem Wissensgraphen** (Krankheits-Wirkstoff-Beziehungen aus PrimeKG, kein Packungsbeilagentext): chronische Hepatitis-C-Virus-Infektion, Hepatitis-C-Virus-Infektion, chronische Hepatitis-B-Virus-Infektion, Erkrankung des peripheren Nervensystems, periphere Neuropathie.
+- **Arzneimittelwechselwirkungen**: Insgesamt wurden 100 Wechselwirkungen erfasst, 20 davon liegen vor. Davon ist eine leicht (Ranitidin), die übrigen sind mittelschwer. Zu den genannten Wirkstoffen zählen:
+  - Protonenpumpenhemmer und H2-Blocker: Rabeprazol, Omeprazol, Cimetidin
+  - Kortikosteroide: Hydrocortison, Dexamethason, Betamethason, Triamcinolon
+  - Antidiabetika: Pioglitazon, Saxagliptin, Linagliptin, Glimepirid, Chlorpropamid
+  - Weitere: Aprepitant, Clarithromycin, Metronidazol, Dronabinol, Eliglustat, Naldemedin, Naloxegol
+
+Für Warnhinweise und Gegenanzeigen der Fachinformation sind keine Daten verfügbar. Bitte die Packungsbeilage bzw. Fachinformation konsultieren.
 
 ---
 
@@ -125,15 +119,14 @@ Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. Wichtige W
 **Entscheidung: Hold**
 
 **Begründung:**
-Die glaubwürdigste vorhergesagte Indikation — kongenitale/perinatale HIV-Infektion — ist mechanistisch kohärent (gleiches Virus, gleiche Wirkstoffklasse, Ausweitung auf Schwangerschaft) und wird durch Phase-3- und schwangerschaftsspezifische PK-Studien unterstützt, wobei Evidenzstufe L2 erreicht wird. Der Wirkstoff hat jedoch derzeit null Zulassungen in Deutschland, und eine **Blockierende** Datenlücke (fehlende TFDA-Etikett-Warnhinweise/Kontraindikationen) verhindert die Fertigstellung des S1-Sicherheit-Screens. Die verbleibenden 9 vorhergesagten Indikationen fehlt glaubwürdige mechanistische oder klinische Unterstützung und sollten nicht verfolgt werden.
+Die Hauptvorhersage (felines Immundefizienz-Syndrom) beruht ausschließlich auf dem Modell (L5), ohne Studien oder Literatur, und die Empfindlichkeit von FIV gegenüber NNRTIs ist fraglich. Zudem besteht in Deutschland keine gültige Zulassung. Die HIV-nahen Vorhersagen (AIDS-related Complex, kongenitale HIV-Infektion) überschneiden sich mit der bereits zugelassenen Indikation, und die übrigen Vorhersagen entbehren jeder mechanistischen Grundlage.
 
-**Zum Fortfahren ist Folgendes erforderlich:**
-- TFDA-Produktetikett (Warnhinweise, Kontraindikationen) — derzeit eine Blockierende Lücke (DG001)
-- Ursprüngliche Wirkmechanismus-Dokumentation aus DrugBank — derzeit eine hochschwere Lücke (DG002)
-- Bestätigung von Etravirines ursprünglich zugelassener Indikation(en), die derzeit in diesem Datensatz nicht gefüllt sind
-- Falls die perinatale Übertragungsprävention-Indikation verfolgt wird: eine dedizierte Wirksamkeits-/Sicherheitsstudie von Etravirine speziell zur Prävention der vertikalen HIV-Übertragung, da bestehende Studien (PK-Studien, Therapieschema-Switch-Studien) diesen Endpunkt nicht direkt testen
-- Klarstellung des deutschen/EU-Marktzugangswegs, angesichts der Tatsache, dass das Arzneimittel derzeit nicht vermarktet ist
-
+**Für ein Weiterkommen ist Folgendes erforderlich:**
+- Daten zum Wirkmechanismus (MOA)
+- Warnhinweise und Gegenanzeigen aus der Fachinformation (BfArM), da dies die Sicherheitsprüfung derzeit blockiert
+- In-vitro-Studien zur Empfindlichkeit der FIV- und SIV-Reversen-Transkriptase gegenüber Etravirin
+- Klärung des aktuellen Zulassungsstatus in Deutschland und der verfügbaren Darreichungsformen
+- Bei Interesse an der kongenitalen HIV-Infektion: gezielte Daten zu Sicherheit und Pharmakokinetik in Schwangerschaft und Neugeborenen
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

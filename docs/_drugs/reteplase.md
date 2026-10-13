@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Reteplase
-parent: Nur Modellvorhersage (L5)
-nav_order: 338
-evidence_level: L5
+parent: Mittlere Evidenz (L3-L4)
+nav_order: 396
+evidence_level: L4
 indication_count: 10
 ---
 
 # Reteplase
 {: .fs-9 }
 
-Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10** 
+Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,67 +29,85 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Reteplase: Bewertung der Arzneimittelumwidmung — Unzureichende Evidenz für die Evaluierung
+# Reteplase: Von Myokardinfarkt zu posterolateralem Myokardinfarkt
 
-## Zusammenfassung in einem Satz
+## Zusammenfassung
 
-Reteplase (DB00015) ist ein rekombinanter Gewebetyp-Plasminogenaktivator (tPA), der in der Thrombolysetherapie eingesetzt wird. Das aktuelle Evidence Pack enthält **keine von TxGNN prognostizierten Indikationen**, kombiniert mit kritischen Datenlücken bei Sicherheitsinformationen und Wirkmechanismus, was bedeutet, dass eine aussagekräftige Arzneimittelumwidmungsbewertung **in dieser Phase nicht abgeschlossen werden kann**. Eine Zurückstellung ist gerechtfertigt, bis kritische Datenlücken behoben sind.
-
----
-
-## Kurzübersicht
-
-| Element | Inhalt |
-|------|---------|
-| Ursprüngliche Indikation | Nicht dokumentiert im aktuellen Evidence Pack |
-| Prognostizierte neue Indikation | Keine — TxGNN hat keine Vorhersagen zurückgegeben |
-| TxGNN-Prognosewert | N/A |
-| Evidenzstufe | L5 (keine Vorhersagen, keine unterstützenden Studien identifiziert) |
-| Marktstatus in Deutschland | Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | **Zurückstellung** |
+Reteplase ist ein rekombinanter Gewebeplasminogenaktivator (Thrombolytikum), der ursprünglich zur Behandlung des akuten Myokardinfarkts zugelassen wurde. Das TxGNN-Modell sagt voraus, dass er bei **posterolateralem Myokardinfarkt** wirksam sein könnte. Dabei handelt es sich jedoch um einen anatomischen Untertyp der bereits zugelassenen Indikation und nicht um eine echte neue Indikation. Die Evidenz ist gering: **0 klinische Studien** und **1 Publikation** (ein Fallbericht, der Reteplase nicht untersucht).
 
 ---
 
-## Warum keine Vorhersage verfügbar ist
+## Kurzüberblick
 
-Das TxGNN-Modell hat für Reteplase in diesem Evidence Pack null prognostizierte Indikationen zurückgegeben. Dies tritt typischerweise aus einem der folgenden Gründe auf:
-
-1. **Lücke in der Knowledge-Graph-Abdeckung**: Reteplase ist möglicherweise nicht ausreichend als Knoten im TxGNN-Wissensgraph repräsentiert, was die Fähigkeit des Modells einschränkt, Krankheitsassoziationen zu verbreiten.
-2. **Begrenztes Wirkprofil**: Da Reteplase als Thrombolytikum spezifisch auf Fibringerinnsel über Plasminogenaktivierung wirkt, kann sein pharmakologischer Fußabdruck bei der aktuellen Vorhersageschwelle möglicherweise nicht mit Knoten von nicht-kardiovaskulären Krankheiten im Diagramm überlappen.
-3. **Unvollständigkeit der Dateneingabe**: Das Evidence Pack listet `original_indications` als leer und `original_moa` als nicht verfügbar auf. Ohne diese Ankerpunkte kann das Modell die Assoziationsdurchquerung nicht initiieren.
-
-Derzeit sind detaillierte Wirkmechanismus-Daten nicht im Evidence Pack verfügbar. Basierend auf der bekannten pharmakologischen Klasse ist Reteplase eine rekombinante Deletionsmutante des menschlichen Gewebetyp-Plasminogenaktivators; seine thrombolytische Wirksamkeit beim akuten Myokardinfarkt ist klinisch etabliert, und jede mechanistische Anwendbarkeit auf neue Indikationen würde von der vorherigen Behebung der MOA-Datenlücke abhängen.
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Myokardinfarkt |
+| Vorhergesagte neue Indikation | Posterolateraler Myokardinfarkt |
+| TxGNN-Vorhersagewert | 99,90 % |
+| Evidenzgrad | L4 |
+| Marktstatus in Deutschland | Nur erloschene/widerrufene Zulassung |
+| Anzahl der Zulassungen | 1 |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Marktstatus in Deutschland
+## Warum ist diese Vorhersage plausibel?
 
-Reteplase hat zum Zeitpunkt dieses Berichts **keine Zulassungen für den Markt** in Deutschland. Es gibt keine lizenzierten Produkte, Darreichungsformen oder genehmigten Indikationen in den aktuellen Aufzeichnungen des Evidence Pack.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Reteplase ist ein rekombinanter Gewebeplasminogenaktivator. Er aktiviert Plasminogen zu Plasmin und löst dadurch Fibrinthromben (Thrombolyse) in verschlossenen Koronararterien auf. Seine Wirksamkeit beim akuten Myokardinfarkt ist etabliert.
+
+Der posterolaterale Myokardinfarkt ist ein anatomischer Untertyp des Myokardinfarkts. Der Mechanismus (Wiedereröffnung des thrombotisch verschlossenen Koronargefäßes) ist daher grundsätzlich übertragbar. Der sehr hohe TxGNN-Wert spiegelt wahrscheinlich die Nähe in der Krankheitsontologie zur ursprünglichen Indikation wider und nicht neue Evidenz. Es handelt sich somit nicht um einen echten Repurposing-Kandidaten.
+
+Weitere Vorhersagen mit hohen Werten sind teils ebenfalls Untertypen des Infarkts (posteroinferior, septal), teils mechanistisch kaum plausibel (z. B. Chromosomendeletion, Glukosephosphat-Isomerase-Mangel, wahrscheinlich Artefakte des Graphen).
+
+---
+
+## Klinische Studienevidenz
+
+Derzeit sind keine einschlägigen klinischen Studien registriert.
+
+---
+
+## Literaturevidenz
+
+| PMID | Jahr | Typ | Journal | Kernaussagen |
+|------|-----|------|------|---------|
+| [21351226](https://pubmed.ncbi.nlm.nih.gov/21351226/) | 2011 | Fallbericht | Catheterization and Cardiovascular Interventions | Primäre PCI mit Drug-Eluting-Stents bei ungeschütztem Hauptstamm in einem 37-jährigen Patienten mit posterolateralem Infarkt, unterstützt durch intrakoronares Reteplase. Einzelfall, keine Wirksamkeitsprüfung. |
+
+---
+
+## Marktinformationen Deutschland
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/000105 | Rapilysin | – | Myokardinfarkt |
+
+Diese Zulassung ist erloschen bzw. widerrufen (Status: cancelled). Zulassungsinhaber war Actavis Group PTC ehf.
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen. Im aktuellen Evidence Pack wurden keine Warnungen, Kontraindikationen oder Arzneimittelwechselwirkungsdaten zurückgegeben.
+- **Arzneimittelwechselwirkungen**: Die Abfrage ergab insgesamt 100 Wechselwirkungen (Quelle: DDInter). Beispiele:
+  - **Schwerwiegend (Major)**: Abciximab, Apixaban, Betrixaban, Acalabrutinib, Avapritinib, Deferasirox, Ibritumomab tiuxetan, Tositumomab. Meist handelt es sich um additive Blutungsrisiken.
+  - **Moderat**: Acetylsalicylsäure, Ibuprofen, Ketorolac, Celecoxib, Diclofenac (topisch), Aminocapronsäure, Omega-3-Fettsäuren, Fenfluramin, Dexfenfluramin, Sibutramin.
+
+Weitere Sicherheitsinformationen (Warnhinweise, Gegenanzeigen) entnehmen Sie bitte der Fachinformation.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Zurückstellung**
+**Entscheidung: Hold**
 
 **Begründung:**
-Das Evidence Pack für Reteplase ist kritisch unvollständig — TxGNN hat keine prognostizierten Indikationen hervorgebracht, Wirkmechanismus-Daten fehlen, alle Sicherheitsfelder sind leer, und das Arzneimittel hat keine Zulassung für den deutschen Markt. Es gibt derzeit kein bewertbares Arzneimittelumwidmungssignal.
+Die Vorhersage betrifft einen Untertyp der bereits zugelassenen Indikation Myokardinfarkt, keine neue Indikation. Es gibt keine klinischen Studien, und der einzige Literaturnachweis ist ein Fallbericht, der Reteplase nicht untersucht. Zudem ist die deutsche/europäische Zulassung erloschen.
 
-**Um fortzufahren, ist Folgendes erforderlich:**
-
-- **[Blocking]** Vollständige Packungsbeilage abrufen (TFDA / BfArM / SmPC), um Warnungen, Kontraindikationen und genehmigte Indikationen auszufüllen — dies ist eine Voraussetzung für jede Sicherheitsbewertung
-- **[High]** MOA-Daten von der DrugBank-API abrufen (Abfrage hat 1 Ergebnis zurückgegeben, aber MOA wurde nicht extrahiert) — erforderlich für die Analyse der mechanistischen Plausibilität
-- **[High]** TxGNN-Prognosepipeline erneut ausführen, nachdem bestätigt wurde, dass Reteplase korrekt als Knowledge-Graph-Knoten repräsentiert ist; Knoten-ID-Zuordnung zwischen DrugBank DB00015 und der KG-Entität überprüfen
-- **[Medium]** Bestätigen Sie, ob Reteplase behördliche Zulassungen außerhalb Deutschlands hat (z. B. EMA, FDA), die das Feld der ursprünglichen Indikation verankern und eine länderübergreifende Arzneimittelumwidmungsanalyse unterstützen könnten
-- **[Medium]** Überprüfen Sie die TxGNN-Prognoseschwellenwerteinstellungen — wenn der Score-Cutoff hoch gesetzt ist, kann dessen Senkung unterschwellige Kandidaten-Indikationen für explorative Überprüfung zu Tage fördern
-
+**Für ein Weiterkommen sind folgende Schritte erforderlich:**
+- Klärung, ob eine Bewertung als eigenständige Indikation überhaupt sinnvoll ist (da Untertyp der zugelassenen Indikation)
+- Daten zum Wirkmechanismus (MOA) aus DrugBank ergänzen
+- Warnhinweise und Gegenanzeigen aus der Fachinformation (BfArM/EMA) beschaffen, da dies derzeit ein blockierender Datenmangel für die Sicherheitsprüfung ist
+- Klärung der Gründe für das Erlöschen der Zulassung und der aktuellen Verfügbarkeit
+- Prüfung der Studien GUSTO-V und SPEED (PMID 15800019, 11079647) auf Design und Relevanz, sofern ein breiterer Koronarkontext verfolgt wird
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

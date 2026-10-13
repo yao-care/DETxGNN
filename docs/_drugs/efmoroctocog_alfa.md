@@ -2,7 +2,7 @@
 layout: default
 title: Efmoroctocog Alfa
 parent: Nur Modellvorhersage (L5)
-nav_order: 137
+nav_order: 159
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,80 +29,86 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Efmoroctocog Alfa: Von Hämophilie A zu Pseudo-von-Willebrand-Krankheit
+# Efmoroctocog alfa: Von Hämophilie A zu pseudo-von-Willebrand-Erkrankung
 
 ## Zusammenfassung in einem Satz
 
-> Efmoroctocog alfa ist ein rekombinantes Factor VIII-Fc-Fusionsprotein, dessen Kernanwendung Hämophilie A (Factor VIII-Ersatztherapie) ist.
-> Die höchste Vorhersage des TxGNN-Modells ist **Pseudo-von-Willebrand-Krankheit** mit einer Vorhersagesicherheit von **99.99%**,
-> aber dieser Kandidat hat derzeit **keine unterstützenden klinischen Studien oder Literatur**, und die zugrundeliegende mechanistische Begründung wird als schwach bewertet – wahrscheinlich ein Wissensgrafen-Koauftritt-Artefakt statt einer echten therapeutischen Beziehung.
+Efmoroctocog alfa (Handelsname Elocta) ist ein rekombinanter, Fc-fusionierter Faktor VIII und wurde ursprünglich zur Behandlung der **Hämophilie A** eingesetzt.
+Das TxGNN-Modell sagt voraus, dass der Wirkstoff bei der **pseudo-von-Willebrand-Erkrankung** wirksam sein könnte.
+Für diese Vorhersage liegen jedoch **keine klinischen Studien** und **keine Publikationen** vor, sie beruht ausschließlich auf der Modellvorhersage.
 
 ---
 
-## Schnelläberblick
+## Schnellübersicht
 
-| Element | Inhalt |
+| Punkt | Inhalt |
 |------|------|
-| Ursprüngliche Indikation | Hämophilie A (Factor VIII-Mangel) – in Evidenzbegründung erwähnt; nicht unabhängig über Taiwan-Lizenzdaten bestätigt |
-| Vorhergesagte neue Indikation | Pseudo-von-Willebrand-Krankheit |
-| TxGNN-Vorhersagesicherheit | 99.99% |
+| Ursprüngliche Indikation | Hämophilie A |
+| Vorhergesagte neue Indikation | Pseudo-von-Willebrand-Erkrankung |
+| TxGNN-Vorhersagewert | 99,997 % |
 | Evidenzstufe | L5 |
-| Taiwan-Marktstatus | Nicht vermarktet |
-| Anzahl der Genehmigungen | 0 |
-| Empfohlene Entscheidung | Halten |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
+| Anzahl der Zulassungen | 1 |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage angemessen?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Wirkmechanismus-Daten nicht verfügbar (DrugBank-MOA-Abfrage ausstehend – Datenlücke DG002). Basierend auf den in diesem Evidenzpaket verfügbaren Informationen ist efmoroctocog alfa ein rekombinantes Factor VIII-Fc-Fusionsprotein, und seine Kernrolle in der Klinik ist Factor VIII-Ersatz bei Hämophilie A.
+Die Plausibilität ist hier **gering**. Detaillierte Daten zum Wirkmechanismus liegen derzeit nicht vor. Bekannt ist, dass Efmoroctocog alfa ein rekombinanter Faktor VIII mit Fc-Fusion ist, dessen Wirksamkeit bei Hämophilie A belegt ist. Er ersetzt den fehlenden Gerinnungsfaktor VIII.
 
-Die höchste Vorhersage, Pseudo-von-Willebrand-Krankheit, ist mechanistisch **nicht gut unterstützt**. Dieser Zustand ergibt sich aus einem abnormalen Thrombozytenmembran-GPIb-Rezeptor, der eine übermäßige Bindung an von-Willebrand-Faktor (VWF) verursacht – es ist ein Thrombozytenfunktionsdefekt, keine Factor VIII-Defizienz. Eine Factor VIII-Supplementation korrigiert nicht die zugrunde liegende GPIb-VWF-Wechselwirkung. Die Begründung des Evidenzpakets selbst kennzeichnet dies als wahrscheinlich falsch-positives Ergebnis, das wahrscheinlich aus dem häufigen Koauftreten von VWF-Factor VIII im zugrunde liegenden Wissensgraf herrührt, statt eine echte pharmakologische Beziehung widerzuspiegeln.
+Die pseudo-von-Willebrand-Erkrankung ist dagegen eine Thrombozytenerkrankung. Ursache ist ein Gain-of-Function-Defekt des Thrombozytenrezeptors GPIbα, der die Bindung an den von-Willebrand-Faktor (VWF) verstärkt und hochmolekulare VWF-Multimere abbaut. Dieser Rezeptordefekt wird durch Faktor VIII nicht behoben. Der hohe Vorhersagewert spiegelt vermutlich die Nähe im Netzwerk der Blutungserkrankungen im Wissensgraphen wider, nicht einen validierten Mechanismus.
 
-Unter allen zehn vorhergesagten Indikationen ist diejenige mit der stärksten inhärenten mechanistischen Plausibilität eigentlich Rang 9, „Hämophilie A mit Gefäßabnormität" – dies ist im Wesentlichen eine Erweiterung des bekannten, zugelassenen Mechanismus des Arzneistoffs (Factor VIII-Ersatz) statt einer echten Repurposing-Hypothese. Sie hat jedoch auch derzeit null unterstützende klinische Studien oder Literatur. Die restlichen acht Kandidaten (Thrombozytensekretionstörungen, Glanzmann-Thrombastenie, Scott-Syndrom, TTP etc.) beinhalten alle Thrombozytenfunktions- oder Nicht-Factor-VIII-Gerinnungspathologien, bei denen eine Factor VIII-Supplementation keine etablierte mechanistische Grundlage hat, und im Fall der thrombotisch-thrombozytopenen Purpura verläuft der Mechanismus in die entgegengesetzte Richtung (prothrombotisches Risiko).
+Auch bei den übrigen neun vorhergesagten Indikationen (z. B. primäre Thrombozyten-Freisetzungsstörung, Glanzmann-Thrombasthenie, Scott-Syndrom, thrombotisch-thrombozytopenische Purpura) betrifft der Defekt meist die Thrombozyten oder andere Faktoren als Faktor VIII. Am ehesten nachvollziehbar sind:
+- **Erworbener Gerinnungsfaktormangel:** Hier ist der Faktor-VIII-Mangel das gemeinsame Kernproblem. Bei erworbener Hämophilie A neutralisieren jedoch Autoantikörper den Faktor VIII, sodass rekombinanter Fc-fusionierter FVIII kaum wirkt.
+- **Hämophilie A mit Gefäßanomalie:** Dies ist im Wesentlichen ein Subtyp der bereits zugelassenen Indikation und kein echtes Repurposing. Die Gefäßanomalie würde nicht behoben.
 
 ---
 
 ## Evidenz aus klinischen Studien
 
-Derzeit sind keine verwandten klinischen Studien registriert.
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Literaturevidenz
+## Evidenz aus der Literatur
 
-Derzeit ist keine verwandte Literatur verfügbar.
-
----
-
-## Taiwan-Marktinformation
-
-Efmoroctocog alfa hat derzeit **keine Marktzulassungseinträge in Taiwan** (0 Lizenzen; Marktstatus: nicht vermarktet). Keine Darreichungsform oder zugelassene Indikationsdaten sind verfügbar.
+Derzeit liegt keine zugehörige Literatur vor.
 
 ---
 
-## Sicherheitsüberlegungen
+## Marktinformationen Deutschland
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/003964 | Elocta | – | Hämophilie A |
 
-*(Hinweis: Der Abruf von TFDA-Kennzeichnungswarnungen/Kontraindikationen ist eine offene, blockierende Datenlücke – siehe Fazit und nächste Schritte unten.)*
+Hinweis: Diese Zulassung hat den Status „erloschen/aufgehoben“. Es besteht derzeit keine gültige Zulassung.
+
+---
+
+## Sicherheitsaspekte
+
+Zu den Packungsbeilage-Warnhinweisen und Gegenanzeigen liegen derzeit keine Daten vor. Für Sicherheitsinformationen siehe bitte die Packungsbeilage.
+
+Aus den vorliegenden Daten ergibt sich ein relevanter Sicherheitshinweis: Bei der **thrombotisch-thrombozytopenischen Purpura (TTP)** ist Faktor VIII nicht der fehlende Faktor. Zusätzlicher FVIII könnte theoretisch das Thromboserisiko erhöhen. Der hohe Vorhersagewert sollte hier keinesfalls als Unterstützung gewertet werden. Die Standardtherapie besteht aus Plasmaaustausch, Immunsuppression und Caplacizumab.
+
+Wechselwirkungen: In den vorliegenden Daten wurden keine Einträge gefunden.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Halten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Alle zehn vorhergesagten Indikationen sind nur TxGNN-Modellausgabe (Evidenzstufe L5), ohne unterstützende klinische Studien oder Literatur insgesamt. Die Begründung des höchsten Kandidaten ist ausdrücklich als schwach/wahrscheinlich Artefakt bewertet, und der Arzneistoff ist derzeit in Taiwan nicht vermarktet. Kombiniert mit einer blockierenden Sicherheitsdatenlücke ist die Evidenzgrundlage für die Weiterführung eines Kandidaten derzeit unzureichend.
+Die Vorhersage beruht ausschließlich auf einem Modell (Evidenzstufe L5), es gibt weder klinische Studien noch Publikationen. Zudem spricht der Mechanismus gegen einen Nutzen: Der Defekt liegt bei der pseudo-von-Willebrand-Erkrankung im Thrombozytenrezeptor und nicht im Faktor VIII. Die einzige deutsche Zulassung ist erloschen.
 
-**Folgende Punkte sind erforderlich, um fortzufahren:**
-- Abrufen der TFDA-Packungsbeilage (Warnungen, Kontraindikationen) – blockierende Lücke (DG001)
-- Abrufen von DrugBank-Wirkmechanismus-Daten – hochprioritäre Lücke (DG002)
-- Wenn Repurposing verfolgt wird, Rang 9 (Hämophilie A mit Gefäßabnormität) als mechanistisch am meisten verteidigbarer Kandidat priorisieren und eine gezielte Literatur-/Studienrecherche durchführen statt sich auf die rohe TxGNN-Rangfolge zu verlassen
-- Pseudo-von-Willebrand-Krankheit (Rang 1) vor weiterer Investition von Prüfaufwand als wahrscheinlich falsch-positiv neu bewerten
-- Status des Taiwan-Zulassungswegs klären, da der Arzneistoff derzeit nicht vermarktet ist
-
+**Für ein Weiterkommen sind folgende Schritte nötig:**
+- Auswertung der Packungsbeilage (Warnhinweise und Gegenanzeigen) über die BfArM-Website, da ohne diese Daten kein Sicherheitsscreening möglich ist
+- Daten zum Wirkmechanismus aus DrugBank
+- Systematische Literatur- und Studienrecherche zu den Indikationen mit noch am ehesten plausiblem Zusammenhang (erworbener Gerinnungsfaktormangel, Hämophilie A mit Gefäßanomalie)
+- Klärung des aktuellen Zulassungs- und Verfügbarkeitsstatus in Deutschland
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

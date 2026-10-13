@@ -2,7 +2,7 @@
 layout: default
 title: Turoctocog Alfa Pegol
 parent: Nur Modellvorhersage (L5)
-nav_order: 416
+nav_order: 486
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,75 +29,83 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Turoctocog Alfa Pegol: Von Hämophilie A (Faktor-VIII-Ersatz) zur primären Freisetzungsstörung von Blutplättchen
+# Turoctocog alfa pegol: Von Hämophilie A zu primärer Thrombozyten-Freisetzungsstörung
 
 ## Zusammenfassung in einem Satz
 
-Turoctocog alfa pegol ist ein PEGyliertes rekombinantes Faktor VIII (FVIII)-Ersatzmedikament, das zur Behandlung von Hämophilie A eingesetzt wird (abgeleitet aus Informationen zur Wirkstoffklasse im Evidenzpaket; nicht explizit als strukturiertes Feld dokumentiert). Das TxGNN-Modell prognostiziert, dass es möglicherweise wirksam bei der **primären Freisetzungsstörung von Blutplättchen** sein könnte, aber derzeit unterstützen **0 klinische Studien** und **0 Publikationen** diese Richtung, und das Evidenzpaket selbst kennzeichnet die mechanistische Verknüpfung als schwach.
+Turoctocog alfa pegol ist ein PEGyliertes rekombinantes Faktor-VIII-Präparat, das ursprünglich zur Behandlung der Hämophilie A zugelassen wurde.
+Das TxGNN-Modell sagt voraus, dass es bei der **primären Thrombozyten-Freisetzungsstörung** wirksam sein könnte.
+Dafür liegen derzeit **keine klinischen Studien** und **keine Publikationen** vor; die Vorhersage beruht allein auf dem Modell.
 
 ---
 
 ## Schnellübersicht
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Hämophilie A / Faktor-VIII-Mangel (abgeleitet aus Wirkstoffklasse; im Evidenzpaket nicht explizit dokumentiert) |
-| Prognostizierte neue Indikation | Primäre Freisetzungsstörung von Blutplättchen |
-| TxGNN-Vorhersage-Score | 99.9966% |
-| Evidenzstufe | L5 |
-| Marktstatus Deutschland | Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Halten |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Hämophilie A |
+| Vorhergesagte neue Indikation | Primäre Thrombozyten-Freisetzungsstörung |
+| TxGNN-Vorhersagewert | 99,997 % |
+| Evidenzgrad | L5 |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
+| Anzahl der Zulassungen | 1 |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
-## Warum ist diese Vorhersage begründet?
+## Warum ist diese Vorhersage plausibel?
 
-Derzeit sind detaillierte Daten zum Wirkmechanismus nicht als strukturiertes Feld verfügbar. Basierend auf kontextbezogenen Informationen im Evidenzpaket ist turoctocog alfa pegol ein PEGyliertes rekombinantes Faktor-VIII-Ersatzmedikament, das auf der Thrombingenerierungs-Gerinnungskaskade wirkt, und seine Wirksamkeit bei Faktor-VIII-Mangel (Hämophilie A) ist gut etabliert.
+Zum Wirkmechanismus liegen in den für diesen Bericht zusammengestellten Daten keine detaillierten Angaben vor. Bekannt ist: Turoctocog alfa pegol ist ein PEGylierter rekombinanter Faktor VIII (FVIII), der bei Hämophilie A den fehlenden Gerinnungsfaktor ersetzt.
 
-Allerdings wird die primäre Freisetzungsstörung von Blutplättchen durch einen Defekt bei der Granulumfreisetzung von Blutplättchen während der primären Hämostase verursacht – ein anderer biologischer Prozess als die Gerinnungskaskade, an der Faktor VIII beteiligt ist. Die mechanistische Begründung des Evidenzpakets selbst macht diesen Mismatch explizit deutlich: Der hohe TxGNN-Score wird wahrscheinlich durch gemeinsame „Blutungsneigungsknoten" im Wissensgraph angetrieben, anstatt einer echten pharmakologischen Verbindung zwischen FVIII-Ersatz und Blutplättchen-Granulumfunktion.
+Die primäre Thrombozyten-Freisetzungsstörung ist ein Defekt der Granula-Sekretion der Blutplättchen und kein FVIII-Mangel. FVIII-Ersatz kann den intrinsischen Thrombozytendefekt nicht korrigieren. Der hohe TxGNN-Wert spiegelt vermutlich vor allem die Nachbarschaft im Netzwerk von Gerinnungs- und Blutungsstörungen wider. Eine belastbare mechanistische Begründung besteht derzeit nicht.
 
-Bemerkenswert ist, dass unter den 10 prognostizierten Indikationen in diesem Evidenzpaket Rang 4 („erworbener Gerinnungsfaktormangel") die stärkste biologische Plausibilität zeigt – wenn diese Diagnose einen erworbenen FVIII-Mangel beinhaltet (z. B. erworbene Hämophilie A oder FVIII-Inhibitoren), fällt dies genau in den Kernnechanismus dieses Medikaments. Es rangiert jedoch niedriger im TxGNN-Score und hat wie alle anderen Kandidaten null unterstützende klinische Studien oder Literaturquellen.
-
----
-
-## Klinische Studienevidenz
-
-Derzeit sind keine verwandten klinischen Studien registriert
+Auch die weiteren neun vom Modell vorhergesagten Erkrankungen sind überwiegend Thrombozytenstörungen, für die FVIII-Ersatz mechanistisch nicht vorgesehen ist. Am ehesten nachvollziehbar ist der **erworbene Gerinnungsfaktormangel** (Rang 4, Score 99,97 %), etwa die erworbene Hämophilie A. Dort neutralisieren jedoch Autoantikörper den FVIII, weshalb Standardtherapien Bypass-Präparate oder rekombinanter Schweine-FVIII mit Immunsuppression sind. Auch dieser Zusammenhang bleibt hypothetisch.
 
 ---
 
-## Literaturevidenz
+## Evidenz aus klinischen Studien
 
-Derzeit ist keine verwandte Literatur verfügbar
+Derzeit sind keine zugehörigen klinischen Studien registriert.
 
 ---
 
-## Marktinformation Deutschland
+## Evidenz aus der Literatur
 
-Es liegen keine Zulassungsunterlagen vor – dieses Produkt ist derzeit in Deutschland nicht vermarktet.
+Derzeit liegt keine zugehörige Literatur vor.
+
+---
+
+## Informationen zum deutschen Markt
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/004883 | Esperoct | – | Hämophilie A |
+
+Diese Zulassung (Novo Nordisk A/S) ist als erloschen/aufgehoben geführt. Derzeit gibt es keine gültige Zulassung.
 
 ---
 
 ## Sicherheitsaspekte
 
-Bitte beachten Sie die Packungsbeilage für Sicherheitsinformationen.
+Bitte entnehmen Sie Sicherheitsinformationen der Packungsbeilage. Für Wechselwirkungen liegen keine Treffer vor.
+
+Zu beachten ist zudem: Bei der vorhergesagten Indikation „erbliche Thrombozytose mit transversalem Gliedmaßendefekt" könnte die Gabe eines prokoagulatorischen Faktors zusätzliche Thromboserisiken bedeuten.
 
 ---
 
 ## Fazit und nächste Schritte
 
-**Entscheidung: Halten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die Vorhersage basiert allein auf einem Modell-Score (L5, keine klinischen Studien oder Literatur), und die mechanistische Analyse des Evidenzpakets selbst zeigt, dass der biologische Wirkmechanismus des Medikaments (Faktor-VIII-Ersatz) keine plausible Wirksamkeit bei einer Blutplättchen-Granulumfreisetzungsstörung erklären kann – der hohe Score spiegelt wahrscheinlich Wissensgraph-Koauftritts-Rauschen wider, anstatt echter Pharmakologie.
+Die Vorhersage stützt sich ausschließlich auf ein Graphmodell, ohne klinische Studien oder Publikationen. Für die meisten vorhergesagten Erkrankungen ist FVIII-Ersatz mechanistisch nicht plausibel, und das Produkt besitzt in Deutschland keine gültige Zulassung.
 
-**Um fortzufahren ist folgendes erforderlich:**
-- Bestätigte ursprüngliche Indikation und MOA-Daten (derzeit als Datenlücken markiert, DG001/DG002)
-- TFDA/regulatorisch-taugliche Sicherheitsinformationen (Warnhinweise, Kontraindikationen, DDI) – derzeit blockiert S1-Sicherheitsüberprüfung
-- Falls eine weitere Verfolgung angestrebt wird, sollte der Neubewertung von „erworbener Gerinnungsfaktormangel" (Rang 4), der stärkere mechanistische Plausibilität aufweist, Vorrang vor dem toprangigen, aber mechanistisch schwachen Kandidaten gegeben werden
-- Präklinische oder kasuistische Evidenz, die einen biologischen Link zwischen FVIII-Ersatz und Blutplättchen-Granulumfreisetzungsfunktion belegt, bevor klinische Untersuchungen durchgeführt werden
-
+**Für ein weiteres Vorgehen sind erforderlich:**
+- Fachinformation und Packungsbeilage mit Warnhinweisen und Gegenanzeigen (Sicherheitsprüfung derzeit nicht möglich)
+- Daten zum Wirkmechanismus
+- Gezielte Literaturrecherche, insbesondere zum erworbenen Gerinnungsfaktormangel
+- Prüfung der Identität der Erkrankung „flood factor deficiency" (möglicher Zuordnungsfehler)
+- Klärung des Zulassungs- und Marktstatus des Präparats
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.

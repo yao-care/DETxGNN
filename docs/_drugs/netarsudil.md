@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Netarsudil
-parent: Mittlere Evidenz (L3-L4)
-nav_order: 267
-evidence_level: L4
+parent: Nur Modellvorhersage (L5)
+nav_order: 312
+evidence_level: L5
 indication_count: 2
 ---
 
 # Netarsudil
 {: .fs-9 }
 
-Evidenzniveau: **L4** | Vorhergesagte Indikationen: **2** 
+Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,69 +33,83 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **2**
 
 ## Zusammenfassung in einem Satz
 
-Netarsudil ist ein Rho-Kinase (ROCK)-Inhibitor, der international bereits zur Senkung des Augeninnendrucks beim Offenwinkelglaukom und bei okulärer Hypertension eingesetzt wird (im Ausland unter den Markennamen Rhopressa®/Rocklatan® vermarktet), im hiesigen Markt aber derzeit nicht registriert ist. Das TxGNN-Modell prognostiziert eine mögliche Wirksamkeit beim **primären hereditären Glaukom**, einem genetisch definierten Glaukom-Subtyp, allerdings wird dieser spezifische Zusammenhang derzeit nur durch **1 indirekt verbundene klinische Studie** und **keine speziellen Publikationen** gestützt.
+Netarsudil ist ein Augentropfen-Wirkstoff, der ursprünglich zur Behandlung des Offenwinkelglaukoms und der okulären Hypertension zugelassen wurde. Das TxGNN-Modell sagt voraus, dass er auch beim **primären hereditären Glaukom** wirksam sein könnte. Für diese konkrete Indikation liegen bislang **keine klinischen Studien** und **keine Publikationen** vor, die Vorhersage beruht allein auf dem Modell.
 
 ---
 
-## Schnelle Übersicht
+## Schnellübersicht
 
-| Element | Inhalt |
-|---------|--------|
-| Ursprüngliche Indikation | Offenwinkelglaukom / okuläre Hypertension (nach veröffentlichter Literatur; keine lokalen Zulassungsdaten verfügbar) |
+| Punkt | Inhalt |
+|------|------|
+| Ursprüngliche Indikation | Offenwinkelglaukom; okuläre Hypertension |
 | Vorhergesagte neue Indikation | Primäres hereditäres Glaukom |
-| TxGNN-Vorhersage-Score | 99.50% |
-| Evidenzstufe | L4 |
-| Marktstatus Deutschland | Nicht vermarktet |
-| Anzahl der Zulassungen | 0 |
-| Empfohlene Entscheidung | Abwarten |
+| TxGNN-Vorhersagewert | 99,50 % |
+| Evidenzgrad | L5 |
+| Marktstatus in Deutschland | Nur erloschene/aufgehobene Zulassung |
+| Anzahl der Zulassungen | 1 (davon 0 gültig) |
+| Empfohlene Entscheidung | Hold |
 
 ---
 
 ## Warum ist diese Vorhersage plausibel?
 
-Detaillierte Daten zum Wirkmechanismus waren in dem strukturierten Arzneimitteldatensatz nicht verfügbar. Die veröffentlichte Literatur im Evidenzpaket zeigt jedoch, dass Netarsudil ein Inhibitor der Rho-assoziierten Proteinkinase (ROCK) ist, der auch den Noradrenalin-Transporter hemmt. Das Medikament wirkt auf das Trabekelwerk, um den Kammerwasserabfluss zu erhöhen, und senkt den episkleral venösen Druck, wodurch beide Faktoren den Augeninnendruck (AID) senken – den Kernpathogenfaktor bei praktisch allen Glaukom-Subtypen.
+Netarsudil hemmt die Rho-Kinasen (ROCK1 und ROCK2) sowie den Noradrenalin-Transporter (NET). Dadurch verbessert es den Abfluss des Kammerwassers über das Trabekelwerk, senkt den episkleralen Venendruck und verringert vermutlich auch die Kammerwasserproduktion. Diese Wirkungen senken den Augeninnendruck. Der detaillierte Wirkmechanismus war in den für diesen Bericht zusammengestellten Daten nicht als eigenes Feld hinterlegt. Die Angaben stammen aus den pharmakologischen Daten und der mechanistischen Einordnung.
 
-Das primäre hereditäre Glaukom ist ein genetisch bestimmter Subtyp des Glaukoms, das die gleiche fundamentale Pathophysiologie wie das Offenwinkelglaukom aufweist: gestörter Kammerwasserabfluss, der zu erhöhtem AID führt. Da der Wirkmechanismus von Netarsudil auf diese gemeinsame Abflussbahn abzielt und nicht auf einen krankheitsspezifischen Prozess, ist es mechanistisch plausibel, dass das Medikament über Glaukom-Subtypen hinweg wirksam sein könnte, einschließlich der hereditären Form.
+Beim Offenwinkelglaukom ist der Abflusswiderstand im Trabekelwerk erhöht. Beim primären hereditären Glaukom ist der Kammerwasserabfluss ebenfalls gestört, daher ist ein Nutzen mechanistisch denkbar.
 
-Allerdings ist die mechanistische Plausibilität derzeit stärker als die direkte klinische Evidenz. Die einzige bei dieser spezifischen Indikation registrierte Studie (NCT06969586) zielt auf den Schutz des Hornhautendothels bei Patienten mit gleichzeitiger Fuchs-Endotheliopathie – nicht auf die AID-Kontrolle beim primären hereditären Glaukom – ab und wurde als „C" (indirekte Relevanz) eingestuft. Im Gegensatz dazu wird die breitere „Glaukom"-Indikation in diesem Evidenzpaket durch einen umfangreichen Evidenzkörper gestützt (30+ Studien einschließlich mehrerer abgeschlossener Phase-3-Pivotstudien und 20+ Publikationen, mehrere RCTs und eine Metaanalyse), der Netarsudils bestehende FDA-Zulassung untermauert. Dieser große Evidenzkörper für allgemeines Glaukom bietet indirekte mechanistische Unterstützung für die Vorhersage des hereditären Subtyps, ersetzt aber nicht subtyp-spezifische bestätigende Daten.
-
----
-
-## Klinische Studienevidenz
-
-| Studiennummer | Phase | Status | Einschreibungen | Wichtigste Befunde |
-|---------|------|------|------|---------|
-| [NCT06969586](https://clinicaltrials.gov/study/NCT06969586) | N/A | Rekrutierung durch Einladung | 50 | Bewertet, ob topische ROCK-Inhibitoren die Hornhautendothelzellen nach Kataraktchirurgie bei Patienten mit Glaukom und Fuchs-Endotheliopathie schützen. Konzipiert zur Beurteilung des Hornhautendothelzellverlusts, nicht zur IOP-Kontrolle spezifisch beim primären hereditären Glaukom; Relevanz als C (indirekt) eingestuft. |
+Es gibt jedoch wichtige Einschränkungen. Das primäre hereditäre (angeborene bzw. juvenile) Glaukom beruht oft auf Entwicklungsanomalien des Trabekelwerks, die anders auf ROCK-Hemmung ansprechen könnten als das Offenwinkelglaukom im Erwachsenenalter. Pädiatrische Sicherheitsdaten liegen nicht vor. Der hohe Vorhersagewert ist daher nur ein Hinweis und kein Wirksamkeitsnachweis.
 
 ---
 
-## Literaturevidenz
+## Evidenz aus klinischen Studien
 
-Derzeit keine spezialisierte Literatur verfügbar, die spezifisch zum primären hereditären Glaukom relevant ist.
+Derzeit sind keine klinischen Studien zu Netarsudil beim primären hereditären Glaukom registriert.
+
+---
+
+## Evidenz aus der Literatur
+
+Derzeit liegt keine Literatur zu dieser konkreten Indikation vor.
+
+---
+
+## Informationen zum deutschen Markt
+
+| Zulassungsnummer | Produktname | Darreichungsform | Zugelassene Indikation |
+|---------|------|------|-----------|
+| EMEA/H/C/004583 | Rhokiinsa (Santen Oy) | – | Offenwinkelglaukom; okuläre Hypertension |
+
+Diese Zulassung hat den Status „erloschen/aufgehoben". Aktuell besteht keine gültige Zulassung für Netarsudil als Einzelwirkstoff.
 
 ---
 
 ## Sicherheitsaspekte
 
-Strukturierte Sicherheitsdaten (wichtige Warnhinweise, Kontraindikationen, Wechselwirkungen) wurden für Netarsudil im Arzneimitteldatensatz dieses Marktes noch nicht erfasst. Bitte beachten Sie die offizielle Fachinformation, sobald diese verfügbar ist.
+Zu Warnhinweisen und Gegenanzeigen liegen keine Daten aus der Packungsbeilage vor. Bitte Packungsbeilage bzw. Fachinformation zur Sicherheit konsultieren.
 
-**Anmerkung aus der Literatur:** Veröffentlichte Studien zu Netarsudil (in seiner etablierten Glaukom-Indikation) berichten über klassengebundene okuläre Nebenwirkungen, einschließlich konjunktivaler Hyperämie, Tränenpunktstenosierung/-verschluss (PMID [36223296](https://pubmed.ncbi.nlm.nih.gov/36223296/)) und reticulärem epithelialem Hornhautödem (PMID [41438161](https://pubmed.ncbi.nlm.nih.gov/41438161/)). Diese sind in der Literatur berichtete Sicherheitssignale für die Wirkstoffklasse/ursprüngliche Indikation, keine bestätigten Verschreibungsinformationen für die Kandidaten-Indikation des hereditären Glaukoms.
+Aus der Literatur zur zugelassenen Anwendung sind folgende Augenreaktionen bekannt, die bei jeder Ausweitung zu überwachen wären:
+- Verticillata (Hornhautablagerungen)
+- Epitheliale Keratopathie und retikuläres Epithelödem
+- Konjunktivale Fragilität
+- Punktum-Stenose bzw. -Verschluss
+
+Für Kinder liegen keine Sicherheitsdaten vor.
 
 ---
 
-## Schlussfolgerung und nächste Schritte
+## Fazit und nächste Schritte
 
-**Entscheidung: Abwarten**
+**Entscheidung: Hold**
 
 **Begründung:**
-Die direkte Evidenz für das primäre hereditäre Glaukom beschränkt sich auf eine einzelne, indirekt verbundene, frühe Studie (Relevanzgrad C), die auf eine komorbide Hornhauterkrankung statt auf den hereditären Glaukom-Phänotyp abzielt. Während Netarsudils ROCK-Inhibitions-Wirkmechanismus und seine umfangreiche, gut etablierte Wirksamkeit beim allgemeinen Offenwinkelglaukom plausible mechanistische Unterstützung bieten, existieren keine bestätigenden Studien für den hereditären Subtyp spezifisch, und das Medikament ist im hiesigen Markt noch nicht registriert.
+Für das primäre hereditäre Glaukom gibt es ausschließlich eine Modellvorhersage (L5) ohne Studien oder Publikationen. Die Zulassung in Deutschland ist erloschen, und pädiatrische Sicherheitsdaten fehlen. Die für „Glaukom" allgemein vorhandene Evidenz (mehrere abgeschlossene Phase-3-RCTs) bestätigt im Wesentlichen die bereits zugelassene Indikation Offenwinkelglaukom/okuläre Hypertension und ist kein Beleg für eine echte Neuindikation.
 
-**Um voranzuschreiten ist Folgendes erforderlich:**
-- Spezialisierte klinische Studien zur Beurteilung der IOP-senkenden Wirksamkeit von Netarsudil spezifisch in Populationen mit primärem hereditärem Glaukom
-- Formale Wirkmechanismus-Dokumentation (MOA) und lokale aufsichtsbehördliche/Fachinformations-Sicherheitsdaten
-- Genetisch-subtyp-stratifizierte Ergebnisdaten, die die Anwendbarkeit des ROCK-Inhibitions-Wirkmechanismus über das allgemeine Offenwinkelglaukom hinaus bestätigen
-- Lokale Marktzulassungsdaten (Lizenzen, genehmigte Indikationstexte), um die Machbarkeit des Zulassungswegs festzustellen
-
+**Um fortzufahren, ist Folgendes nötig:**
+- Präklinische oder klinische Daten speziell zum primären hereditären Glaukom, auch zu kindlichen Patienten
+- Pädiatrische Sicherheits- und Verträglichkeitsdaten
+- Auswertung der Packungsbeilage (Warnhinweise, Gegenanzeigen), da diese Daten derzeit fehlen
+- Klärung der Verfügbarkeit im deutschen Markt (Zulassung erloschen)
+- Abgleich und Ergänzung der Mechanismusdaten (Wirkmechanismus-Feld)
 ## Haftungsausschluss
 
 Diese Inhalte dienen ausschließlich Forschungszwecken und stellen keine medizinische Beratung dar.
