@@ -1,6 +1,6 @@
 {
   "generated": "2026-10-16",
-  "total_count": 495,
+  "total_count": 468,
   "source": "DETxGNN",
   "drugs": [
     {
@@ -32,36 +32,6 @@
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/abatacept/"
-    },
-    {
-      "slug": "abemaciclib",
-      "name": "Abemaciclib",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/abemaciclib/"
-    },
-    {
-      "slug": "abiraterone-acetate",
-      "name": "Abiraterone Acetate",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/abiraterone-acetate/"
-    },
-    {
-      "slug": "acalabrutinib",
-      "name": "Acalabrutinib",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/acalabrutinib/"
     },
     {
       "slug": "acetylsalicylic-acid",
@@ -534,46 +504,6 @@
       "url": "/drugs/bimatoprost/"
     },
     {
-      "slug": "bimekizumab",
-      "name": "Bimekizumab",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/bimekizumab/"
-    },
-    {
-      "slug": "binimetinib",
-      "name": "Binimetinib",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/binimetinib/"
-    },
-    {
-      "slug": "blinatumomab",
-      "name": "Blinatumomab",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/blinatumomab/"
-    },
-    {
-      "slug": "bortezomib",
-      "name": "Bortezomib",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/bortezomib/"
-    },
-    {
       "slug": "bosentan",
       "name": "Bosentan",
       "evidence_level": "L4",
@@ -582,16 +512,6 @@
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/bosentan/"
-    },
-    {
-      "slug": "bosutinib",
-      "name": "Bosutinib",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/bosutinib/"
     },
     {
       "slug": "brentuximab-vedotin",
@@ -604,16 +524,6 @@
       "url": "/drugs/brentuximab-vedotin/"
     },
     {
-      "slug": "brexpiprazole",
-      "name": "Brexpiprazole",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/brexpiprazole/"
-    },
-    {
       "slug": "brigatinib",
       "name": "Brigatinib",
       "evidence_level": "L5",
@@ -622,16 +532,6 @@
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/brigatinib/"
-    },
-    {
-      "slug": "brimonidine-tartrate",
-      "name": "Brimonidine Tartrate",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/brimonidine-tartrate/"
     },
     {
       "slug": "brinzolamide",
@@ -704,16 +604,6 @@
       "url": "/drugs/buprenorphine/"
     },
     {
-      "slug": "buprenorphine-hydrochloride",
-      "name": "Buprenorphine Hydrochloride",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/buprenorphine-hydrochloride/"
-    },
-    {
       "slug": "bupropion",
       "name": "Bupropion",
       "evidence_level": "L5",
@@ -722,26 +612,6 @@
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/bupropion/"
-    },
-    {
-      "slug": "bupropion-hydrochloride",
-      "name": "Bupropion Hydrochloride",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/bupropion-hydrochloride/"
-    },
-    {
-      "slug": "burosumab",
-      "name": "Burosumab",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/burosumab/"
     },
     {
       "slug": "busulfan",
@@ -794,26 +664,6 @@
       "url": "/drugs/caffeine/"
     },
     {
-      "slug": "caffeine-citrate",
-      "name": "Caffeine Citrate",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/caffeine-citrate/"
-    },
-    {
-      "slug": "canagliflozin",
-      "name": "Canagliflozin",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/canagliflozin/"
-    },
-    {
       "slug": "canakinumab",
       "name": "Canakinumab",
       "evidence_level": "L5",
@@ -822,26 +672,6 @@
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/canakinumab/"
-    },
-    {
-      "slug": "cangrelor",
-      "name": "Cangrelor",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/cangrelor/"
-    },
-    {
-      "slug": "cannabidiol",
-      "name": "Cannabidiol",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/cannabidiol/"
     },
     {
       "slug": "capecitabine",
@@ -3624,16 +3454,6 @@
       "url": "/drugs/pseudoephedrine/"
     },
     {
-      "slug": "pyrantel",
-      "name": "Pyrantel",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/pyrantel/"
-    },
-    {
       "slug": "raloxifene",
       "name": "Raloxifene",
       "evidence_level": "L5",
@@ -3642,16 +3462,6 @@
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/raloxifene/"
-    },
-    {
-      "slug": "raloxifene-hydrochloride",
-      "name": "Raloxifene Hydrochloride",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/raloxifene-hydrochloride/"
     },
     {
       "slug": "raltegravir",
@@ -3704,16 +3514,6 @@
       "url": "/drugs/rasagiline/"
     },
     {
-      "slug": "rasagiline-tartrate",
-      "name": "Rasagiline Tartrate",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/rasagiline-tartrate/"
-    },
-    {
       "slug": "rasburicase",
       "name": "Rasburicase",
       "evidence_level": "L5",
@@ -3764,26 +3564,6 @@
       "url": "/drugs/relebactam/"
     },
     {
-      "slug": "relebactam-monohydrate",
-      "name": "Relebactam Monohydrate",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/relebactam-monohydrate/"
-    },
-    {
-      "slug": "relugolix",
-      "name": "Relugolix",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/relugolix/"
-    },
-    {
       "slug": "remdesivir",
       "name": "Remdesivir",
       "evidence_level": "L4",
@@ -3802,16 +3582,6 @@
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/remimazolam/"
-    },
-    {
-      "slug": "repaglinide",
-      "name": "Repaglinide",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/repaglinide/"
     },
     {
       "slug": "reslizumab",
@@ -3834,16 +3604,6 @@
       "url": "/drugs/reteplase/"
     },
     {
-      "slug": "ribociclib-succinate",
-      "name": "Ribociclib Succinate",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/ribociclib-succinate/"
-    },
-    {
       "slug": "rilpivirine",
       "name": "Rilpivirine",
       "evidence_level": "L4",
@@ -3852,16 +3612,6 @@
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/rilpivirine/"
-    },
-    {
-      "slug": "rilpivirine-hydrochloride",
-      "name": "Rilpivirine Hydrochloride",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/rilpivirine-hydrochloride/"
     },
     {
       "slug": "riluzole",
@@ -3882,26 +3632,6 @@
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/rimegepant/"
-    },
-    {
-      "slug": "riociguat",
-      "name": "Riociguat",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/riociguat/"
-    },
-    {
-      "slug": "ripretinib",
-      "name": "Ripretinib",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/ripretinib/"
     },
     {
       "slug": "risankizumab",
