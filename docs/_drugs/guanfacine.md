@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Guanfacine: vorhergesagte neue Indikation Faziodigitogenitales Syndrom (Aarskog-Scott-Syndrom) (Evidenzstufe L5). Ursprüngliche Indikation: Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung (ADHS)"
+monitor_inn: "Guanfacine"
+predicted_indications: ["faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "trichotillomania", "manic bipolar affective disorder", "restless legs syndrome", "Tourette syndrome"]
 ---
 
 # Guanfacine

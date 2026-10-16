@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Interferon Beta-1B: vorhergesagte neue Indikation Haarzellleukämie (Evidenzstufe L5). Ursprüngliche Indikation: Multiple Sklerose"
+monitor_inn: "INTERFERON BETA-1B"
+predicted_indications: ["hairy cell leukemia", "autoimmune disease of central nervous system"]
 ---
 
 # Interferon Beta-1B

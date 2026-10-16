@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Glucarpidase: vorhergesagte neue Indikation Diabetischer Katarakt (Evidenzstufe L5). Ursprüngliche Indikation: Stoffwechsel-Nebenwirkungen von Arzneimitteln und Substanzen"
+monitor_inn: "GLUCARPIDASE"
+predicted_indications: ["diabetic cataract", "diabetic retinopathy", "tetanic cataract", "mature cataract", "craniostenosis cataract", "immature cataract", "diabetes mellitus type 2 associated cataract", "cortical cataract", "nuclear senile cataract", "senile cataract"]
 ---
 
 # Glucarpidase

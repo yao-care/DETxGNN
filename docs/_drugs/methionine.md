@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Methionine: vorhergesagte neue Indikation Akne (Evidenzstufe L4). Ursprüngliche Indikation: Ahornsirupkrankheit (Maple Syrup Urine Disease)"
+monitor_inn: "methionine"
+predicted_indications: ["acne (disease)", "severe nonproliferative diabetic retinopathy", "craniostenosis cataract", "mature cataract", "diabetes mellitus type 2 associated cataract", "nuclear senile cataract", "cortical cataract", "tetanic cataract", "immature cataract", "diabetic cataract"]
 ---
 
 # Methionine

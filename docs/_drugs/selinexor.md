@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Selinexor: vorhergesagte neue Indikation Medikamenten-induzierte Osteoporose (Evidenzstufe L5). Ursprüngliche Indikation: Multiples Myelom"
+monitor_inn: "SELINEXOR"
+predicted_indications: ["drug-induced osteoporosis"]
 ---
 
 # Selinexor

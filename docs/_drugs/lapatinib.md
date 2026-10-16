@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Lapatinib: vorhergesagte neue Indikation Dermatofibrosarcoma protuberans (Evidenzstufe L5). Ursprüngliche Indikation: Brustkrebs (Breast Neoplasms)"
+monitor_inn: "LAPATINIB"
+predicted_indications: ["dermatofibrosarcoma protuberans"]
 ---
 
 # Lapatinib

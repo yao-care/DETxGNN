@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Trabectedin: vorhergesagte neue Indikation Weibliches Mammakarzinom (Evidenzstufe L2). Ursprüngliche Indikation: Sarkom"
+monitor_inn: "TRABECTEDIN"
+predicted_indications: ["female breast carcinoma"]
 ---
 
 # Trabectedin

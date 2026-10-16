@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Rasburicase: vorhergesagte neue Indikation Renale Hypourikämie (Evidenzstufe L5). Ursprüngliche Indikation: Hyperurikämie"
+monitor_inn: "RASBURICASE"
+predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "hepatic porphyria", "primitive portal vein thrombosis", "idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "hepatoportal sclerosis", "hepatopulmonary syndrome", "renal tubular acidosis", "disorder of phenylalanine metabolism"]
 ---
 
 # Rasburicase

@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Tolfenamic Acid: vorhergesagte neue Indikation Kopfschmerzerkrankung (headache disorder) (Evidenzstufe L2). Ursprüngliche Indikation: Im deutschen Zulassungsdatensatz nicht angegeben (Zulassung ohne …"
+monitor_inn: "TOLFENAMIC ACID"
+predicted_indications: ["headache disorder", "tendinitis", "rheumatoid arthritis", "trigeminal autonomic cephalalgia", "idiopathic granulomatous myositis", "myositis fibrosa", "fibromyalgia", "exostosis", "inclusion body myositis", "osteoarthritis susceptibility"]
 ---
 
 # Tolfenamic Acid

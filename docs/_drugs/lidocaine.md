@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Lidocaine: vorhergesagte neue Indikation Punktförmige epitheliale Keratokonjunktivitis (Evidenzstufe L5). Ursprüngliche Indikation: Sexuelle Funktionsstörung, physiologisch"
+monitor_inn: "LIDOCAINE"
+predicted_indications: ["punctate epithelial keratoconjunctivitis", "papillary conjunctivitis", "rosacea conjunctivitis", "exposure keratitis", "atopic conjunctivitis", "conjunctival disorder", "nephrotic syndrome", "non-human animal disease", "tinea corporis", "sporadic idiopathic steroid-resistant nephrotic syndrome"]
 ---
 
 # Lidocaine

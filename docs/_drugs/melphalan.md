@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Melphalan: vorhergesagte neue Indikation Keimzelltumor der Gonaden (gonadal germ cell tumor) (Evidenzstufe L2). Ursprüngliche Indikation: Multiples Myelom"
+monitor_inn: "Melphalan"
+predicted_indications: ["gonadal germ cell tumor", "ovarian primitive germ cell tumor", "choriocarcinoma of ovary", "female breast carcinoma", "malignant non-epithelial tumor of ovary", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma"]
 ---
 
 # Melphalan

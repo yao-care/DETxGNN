@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Cabazitaxel: vorhergesagte neue Indikation Weibliches Brustkarzinom (Evidenzstufe L2). Ursprüngliche Indikation: Prostatakarzinom (Prostatic Neoplasms)"
+monitor_inn: "CABAZITAXEL"
+predicted_indications: ["female breast carcinoma", "sickle cell-hemoglobin c disease syndrome", "sickle cell-hemoglobin E disease syndrome", "sickle cell-hemoglobin d disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-beta-thalassemia disease syndrome", "HIV infectious disease", "hyperthyroidism", "neuroblastoma", "rheumatoid arthritis"]
 ---
 
 # Cabazitaxel

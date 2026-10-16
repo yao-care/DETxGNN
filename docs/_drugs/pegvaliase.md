@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Pegvaliase: vorhergesagte neue Indikation Diabetische Retinopathie (Evidenzstufe L5). Ursprüngliche Indikation: Phenylketonurie"
+monitor_inn: "PEGVALIASE"
+predicted_indications: ["diabetic retinopathy", "severe nonproliferative diabetic retinopathy", "diabetic cataract"]
 ---
 
 # Pegvaliase

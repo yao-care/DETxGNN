@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Caspofungin: vorhergesagte neue Indikation Gastrin-Sekretionsstörung (Evidenzstufe L5). Ursprüngliche Indikation: Candidiasis"
+monitor_inn: "CASPOFUNGIN"
+predicted_indications: ["gastrin secretion abnormality"]
 ---
 
 # Caspofungin

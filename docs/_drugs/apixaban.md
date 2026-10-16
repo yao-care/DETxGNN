@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Apixaban: vorhergesagte neue Indikation Migräne (migraine disorder) (Evidenzstufe L4). Ursprüngliche Indikation: Venöse Thromboembolie, Schlaganfall, Arthroplastik"
+monitor_inn: "APIXABAN"
+predicted_indications: ["migraine disorder"]
 ---
 
 # Apixaban

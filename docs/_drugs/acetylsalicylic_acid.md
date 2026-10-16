@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 9
 last_modified_at: 2026-10-14
 description: "Acetylsalicylic Acid: vorhergesagte neue Indikation Migräne mit Hirnstammaura (Evidenzstufe L3). Ursprüngliche Indikation: Akutes Koronarsyndrom"
+monitor_inn: "ACETYLSALICYLIC ACID"
+predicted_indications: ["migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "trigeminal autonomic cephalalgia", "thrombotic disease", "thrombophilia"]
 ---
 
 # Acetylsalicylic Acid

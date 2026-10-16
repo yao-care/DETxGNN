@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Darolutamide: vorhergesagte neue Indikation Homozygote familiäre Hypercholesterinämie (Evidenzstufe L5). Ursprüngliche Indikation: Kastrationsresistentes Prostatakarzinom"
+monitor_inn: "DAROLUTAMIDE"
+predicted_indications: ["homozygous familial hypercholesterolemia", "multiple endocrine neoplasia", "HIV infectious disease"]
 ---
 
 # Darolutamide

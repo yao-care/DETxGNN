@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Aflibercept: vorhergesagte neue Indikation Esotropie (Evidenzstufe L5). Ursprüngliche Indikation: Feuchte Makuladegeneration, Makulaödem, diabetische Komplikationen…"
+monitor_inn: "AFLIBERCEPT"
+predicted_indications: ["esotropia"]
 ---
 
 # Aflibercept

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
 description: "Evolocumab: vorhergesagte neue Indikation Symptomatische Form der Hämophilie bei weiblichen Trägerinnen (Evidenzstufe L5). Ursprüngliche Indikation: Dyslipidämien"
+monitor_inn: "EVOLOCUMAB"
+predicted_indications: ["symptomatic form of hemophilia in female carriers", "familial apolipoprotein C-II deficiency", "thrombocytopenic purpura", "factor XI deficiency", "hemophilia A with vascular abnormality", "disease of catalytic activity"]
 ---
 
 # Evolocumab

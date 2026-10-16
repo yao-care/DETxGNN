@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Roxadustat: vorhergesagte neue Indikation Trockenes-Auge-Syndrom (dry eye syndrome) (Evidenzstufe L5). Ursprüngliche Indikation: Anämie"
+monitor_inn: "ROXADUSTAT"
+predicted_indications: ["dry eye syndrome", "bone Paget disease", "dentinogenesis imperfecta", "squamous cell carcinoma"]
 ---
 
 # Roxadustat

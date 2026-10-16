@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 6
 last_modified_at: 2026-10-14
 description: "Iron: vorhergesagte neue Indikation Plummer-Vinson-Syndrom (Rang 2 der TxGNN-Vorhersagen (Evidenzstufe L4). Ursprüngliche Indikation: Eisenmangelanämie (sowie Folsäuremangelanämie, Frühgeborenenanämi…"
+monitor_inn: "IRON"
+predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "Plummer-Vinson syndrome", "non-syndromic esophageal malformation", "biotin metabolic disease", "vitamin deficiency disorder", "esophageal disease"]
 ---
 
 # Iron

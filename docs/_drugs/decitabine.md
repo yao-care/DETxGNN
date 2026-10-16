@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Decitabine: vorhergesagte neue Indikation Refraktäre Zytopenie des Kindesalters (Evidenzstufe L4). Ursprüngliche Indikation: Myeloische Leukämie"
+monitor_inn: "DECITABINE"
+predicted_indications: ["refractory cytopenia of childhood"]
 ---
 
 # Decitabine

@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Topotecan: vorhergesagte neue Indikation Weibliches Mammakarzinom (Evidenzstufe L3). Ursprüngliche Indikation: Ovarialkarzinom, Zervixkarzinom, kleinzelliges Lungenkarzinom"
+monitor_inn: "TOPOTECAN"
+predicted_indications: ["female breast carcinoma", "adult germ cell tumor", "testicular yolk sac tumor, endodermal sinus pattern", "polyvesicular vitelline pattern testicular yolk sac tumor", "testicular yolk sac tumor, macrocystic pattern", "enteric pattern testicular yolk sac tumor", "testicular yolk sac tumor, hepatoid pattern", "testicular yolk sac tumor, papillary pattern", "reticular pattern testicular yolk sac tumor", "testicular yolk sac tumor, solid pattern"]
 ---
 
 # Topotecan

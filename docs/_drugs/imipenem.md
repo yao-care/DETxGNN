@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Imipenem: vorhergesagte neue Indikation Staphylococcus-aureus-Infektion (Rang 9 der TxGNN-Liste (Evidenzstufe L3). Ursprüngliche Indikation: Gramnegative bakterielle Infektionen"
+monitor_inn: "Imipenem"
+predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "sinusitis", "chronic rhinosinusitis", "typhoid fever", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "staphylococcus aureus infection", "eosinophilia-myalgia syndrome"]
 ---
 
 # Imipenem

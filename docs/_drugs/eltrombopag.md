@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Eltrombopag: vorhergesagte neue Indikation HIV-Infektionskrankheit (Evidenzstufe L3). Ursprüngliche Indikation: Idiopathische thrombozytopenische Purpura"
+monitor_inn: "ELTROMBOPAG"
+predicted_indications: ["HIV infectious disease"]
 ---
 
 # Eltrombopag

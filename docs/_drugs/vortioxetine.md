@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Vortioxetine: vorhergesagte neue Indikation Neurotische Störung (Evidenzstufe L5). Ursprüngliche Indikation: Major Depression"
+monitor_inn: "VORTIOXETINE"
+predicted_indications: ["neurotic disorder", "neurotic depression", "melancholia", "benign paroxysmal torticollis of infancy", "dysthymic disorder"]
 ---
 
 # Vortioxetine

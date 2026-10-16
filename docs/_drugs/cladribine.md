@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Cladribine: vorhergesagte neue Indikation Parameningeales embryonales Rhabdomyosarkom (Evidenzstufe L5). Ursprüngliche Indikation: Haarzell-Leukämie (Litak)"
+monitor_inn: "CLADRIBINE"
+predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "liver sarcoma"]
 ---
 
 # Cladribine

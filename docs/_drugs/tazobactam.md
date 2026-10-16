@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Tazobactam: vorhergesagte neue Indikation Pneumonie (Evidenzstufe L1). Ursprüngliche Indikation: Bakterielle Infektionen"
+monitor_inn: "Tazobactam"
+predicted_indications: ["pneumonia", "urinary tract infection (disease)"]
 ---
 
 # Tazobactam

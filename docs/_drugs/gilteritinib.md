@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Gilteritinib: vorhergesagte neue Indikation Bulbäre Poliomyelitis (Evidenzstufe L5). Ursprüngliche Indikation: Akute myeloische Leukämie"
+monitor_inn: "Gilteritinib"
+predicted_indications: ["bulbar polio"]
 ---
 
 # Gilteritinib

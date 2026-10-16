@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Lefamulin: vorhergesagte neue Indikation Diffuse kutane Leishmaniose (Evidenzstufe L5). Ursprüngliche Indikation: Bakterielle Pneumonie"
+monitor_inn: "Lefamulin"
+predicted_indications: ["leishmaniasis, diffuse cutaneous", "polyclonal hyperviscosity syndrome", "hyperamylasemia"]
 ---
 
 # Lefamulin

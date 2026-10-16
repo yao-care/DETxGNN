@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Brodalumab: vorhergesagte neue Indikation Strongyloidiasis (Evidenzstufe L5). Ursprüngliche Indikation: Psoriasis"
+monitor_inn: "BRODALUMAB"
+predicted_indications: ["strongyloidiasis", "eye disease", "vitamin deficiency disorder", "von Hippel anomaly", "isolated optic neuritis", "recurrent idiopathic neuroretinitis", "optic perineuritis", "chronic relapsing inflammatory optic neuropathy", "nodular episcleritis", "episcleritis periodica fugax"]
 ---
 
 # Brodalumab

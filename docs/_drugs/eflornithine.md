@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Eflornithine: vorhergesagte neue Indikation Esotropie (Evidenzstufe L5). Ursprüngliche Indikation: Hirsutismus"
+monitor_inn: "EFLORNITHINE"
+predicted_indications: ["esotropia", "neurotrophic keratopathy"]
 ---
 
 # Eflornithine

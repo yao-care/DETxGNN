@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Reslizumab: vorhergesagte neue Indikation Thrombozytopenie durch Immunzerstörung (immunvermittelte Thrombozytop… (Evidenzstufe L5). Ursprüngliche Indikation: Asthma"
+monitor_inn: "RESLIZUMAB"
+predicted_indications: ["thrombocytopenia due to immune destruction", "primary release disorder of platelets"]
 ---
 
 # Reslizumab

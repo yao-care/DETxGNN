@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Orbifloxacin: vorhergesagte neue Indikation Herzerkrankung (Evidenzstufe L5). Ursprüngliche Indikation: In den Daten nicht angegeben (laut Mechanismusbeschreibung: bakteriel…"
+monitor_inn: "ORBIFLOXACIN"
+predicted_indications: ["heart disease", "Laubry-Pezzi syndrome", "Pierre Robin syndrome associated with a chromosomal anomaly", "genetic syndromic Pierre Robin syndrome", "partial deletion of the long arm of chromosome 7", "orofacial clefting syndrome", "pulmonary valve disease", "disorder of fucoglycosan synthesis", "mitral valve disease", "Jeune syndrome situs inversus"]
 ---
 
 # Orbifloxacin

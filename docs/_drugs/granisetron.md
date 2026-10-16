@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Granisetron: vorhergesagte neue Indikation Manische bipolare affektive Störung (Evidenzstufe L5). Ursprüngliche Indikation: Erbrechen"
+monitor_inn: "GRANISETRON"
+predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "acute contagious conjunctivitis", "angioedema", "allergic urticaria", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "bronchitis", "cold urticaria", "conjunctivitis"]
 ---
 
 # Granisetron

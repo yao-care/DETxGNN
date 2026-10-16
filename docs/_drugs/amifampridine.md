@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Amifampridine: vorhergesagte neue Indikation Glaukom (Evidenzstufe L5). Ursprüngliche Indikation: Lambert-Eaton-Myasthenie-Syndrom"
+monitor_inn: "AMIFAMPRIDINE"
+predicted_indications: ["glaucoma", "acute intermittent porphyria"]
 ---
 
 # Amifampridine

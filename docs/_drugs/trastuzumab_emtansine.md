@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Trastuzumab Emtansine: vorhergesagte neue Indikation Progesteronrezeptor-positiver Brustkrebs (Evidenzstufe L4). Ursprüngliche Indikation: Brustkrebs (Breast Neoplasms)"
+monitor_inn: "TRASTUZUMAB EMTANSINE"
+predicted_indications: ["progesterone-receptor positive breast cancer", "normal breast-like subtype of breast carcinoma", "progesterone-receptor negative breast cancer", "breast tumor luminal A or B"]
 ---
 
 # Trastuzumab Emtansine

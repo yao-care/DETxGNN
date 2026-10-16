@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Trametinib: vorhergesagte neue Indikation Choroideremie (Evidenzstufe L5). Ursprüngliche Indikation: Melanom"
+monitor_inn: "TRAMETINIB"
+predicted_indications: ["choroideremia", "non-cutaneous melanoma", "epithelioid cell melanoma", "eyelid melanoma", "scrotum melanoma", "nodular malignant melanoma", "balloon cell malignant melanoma", "superficial spreading melanoma", "CDK4 linked melanoma", "amelanotic skin melanoma"]
 ---
 
 # Trametinib

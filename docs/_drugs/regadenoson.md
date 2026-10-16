@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Regadenoson: vorhergesagte neue Indikation Anaphylaxie (Evidenzstufe L5). Ursprüngliche Indikation: Myokardperfusionsbildgebung"
+monitor_inn: "REGADENOSON"
+predicted_indications: ["anaphylaxis", "food-dependent exercise-induced anaphylaxis", "esotropia", "pseudoallergy"]
 ---
 
 # Regadenoson

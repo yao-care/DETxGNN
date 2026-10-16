@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Oxybutynin: vorhergesagte neue Indikation Restless-Legs-Syndrom (Evidenzstufe L5). Ursprüngliche Indikation: Dranginkontinenz"
+monitor_inn: "OXYBUTYNIN"
+predicted_indications: ["restless legs syndrome", "gastroduodenitis", "peptic ulcer disease"]
 ---
 
 # Oxybutynin

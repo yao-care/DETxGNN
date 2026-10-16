@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Eptinezumab: vorhergesagte neue Indikation Migräne mit Hirnstammaura (Evidenzstufe L4). Ursprüngliche Indikation: Migräne (Migraine Disorders)"
+monitor_inn: "EPTINEZUMAB"
+predicted_indications: ["migraine with brainstem aura"]
 ---
 
 # Eptinezumab

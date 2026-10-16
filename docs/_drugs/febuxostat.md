@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Febuxostat: vorhergesagte neue Indikation Renale Hypourikämie (Evidenzstufe L4). Ursprüngliche Indikation: Gicht"
+monitor_inn: "FEBUXOSTAT"
+predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "Lesch-Nyhan syndrome"]
 ---
 
 # Febuxostat

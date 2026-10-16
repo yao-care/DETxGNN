@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-14
 description: "Regorafenib: vorhergesagte neue Indikation Liposarkom (Evidenzstufe L5). Ursprüngliche Indikation: Kolorektales Karzinom (Colorectal Neoplasms)"
+monitor_inn: "REGORAFENIB"
+predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "clear cell renal carcinoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal cell carcinoma associated with neuroblastoma", "unclassified renal cell carcinoma", "childhood kidney cell carcinoma", "vulva sarcoma"]
 ---
 
 # Regorafenib

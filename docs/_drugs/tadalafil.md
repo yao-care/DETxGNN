@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-14
 description: "Tadalafil: vorhergesagte neue Indikation Ambras-Hypertrichosis (Hypertrichosis universalis congenita… (Evidenzstufe L5). Ursprüngliche Indikation: Pulmonale Hypertonie"
+monitor_inn: "TADALAFIL"
+predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
 ---
 
 # Tadalafil

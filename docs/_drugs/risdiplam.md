@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Risdiplam: vorhergesagte neue Indikation Akne (Evidenzstufe L5). Ursprüngliche Indikation: Spinale Muskelatrophie"
+monitor_inn: "RISDIPLAM"
+predicted_indications: ["acne (disease)"]
 ---
 
 # Risdiplam

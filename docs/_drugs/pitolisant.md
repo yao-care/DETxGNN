@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Pitolisant: vorhergesagte neue Indikation Insomnie (Evidenzstufe L4). Ursprüngliche Indikation: Narkolepsie"
+monitor_inn: "PITOLISANT"
+predicted_indications: ["insomnia (disease)", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome"]
 ---
 
 # Pitolisant

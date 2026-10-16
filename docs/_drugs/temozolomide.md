@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Temozolomide: vorhergesagte neue Indikation Adulter astrozytärer Tumor (Evidenzstufe L1). Ursprüngliche Indikation: Gliom"
+monitor_inn: "TEMOZOLOMIDE"
+predicted_indications: ["adult astrocytic tumour", "cauda equina neoplasm"]
 ---
 
 # Temozolomide

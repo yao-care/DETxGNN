@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Nevirapine: vorhergesagte neue Indikation Felines erworbenes Immundefizienz-Syndrom (Katzen-Immundefizienz) (Evidenzstufe L4). Ursprüngliche Indikation: HIV-Infektionen"
+monitor_inn: "NEVIRAPINE"
+predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 ---
 
 # Nevirapine

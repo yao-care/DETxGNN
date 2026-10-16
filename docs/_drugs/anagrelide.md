@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Anagrelide: vorhergesagte neue Indikation Reaktive Thrombozytose (Evidenzstufe L5). Ursprüngliche Indikation: Essentielle Thrombozythämie"
+monitor_inn: "ANAGRELIDE"
+predicted_indications: ["reactive thrombocytosis", "inverse Klippel-Trenaunay syndrome"]
 ---
 
 # Anagrelide

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ranibizumab: vorhergesagte neue Indikation Schwere nichtproliferative diabetische Retinopathie (Evidenzstufe L5). Ursprüngliche Indikation: Feuchte Makuladegeneration, Makulaödem, diabetische Retinop…"
+monitor_inn: "RANIBIZUMAB"
+predicted_indications: ["severe nonproliferative diabetic retinopathy", "tetanic cataract", "diabetes mellitus type 2 associated cataract", "immature cataract", "mature cataract", "craniostenosis cataract", "cortical cataract", "nuclear senile cataract", "senile cataract", "hemorrhagic disease of newborn"]
 ---
 
 # Ranibizumab

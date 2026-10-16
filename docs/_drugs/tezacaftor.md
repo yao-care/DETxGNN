@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Tezacaftor: vorhergesagte neue Indikation HIV-Infektionskrankheit (Evidenzstufe L5). Ursprüngliche Indikation: Cystische Fibrose"
+monitor_inn: "TEZACAFTOR"
+predicted_indications: ["HIV infectious disease", "leprosy", "multiple endocrine neoplasia"]
 ---
 
 # Tezacaftor

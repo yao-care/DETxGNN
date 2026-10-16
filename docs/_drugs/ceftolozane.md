@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ceftolozane: vorhergesagte neue Indikation Ureaplasma-Urethritis (Evidenzstufe L5). Ursprüngliche Indikation: Bakterielle Infektionen"
+monitor_inn: "Ceftolozane"
+predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "urogenital tuberculosis", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease"]
 ---
 
 # Ceftolozane

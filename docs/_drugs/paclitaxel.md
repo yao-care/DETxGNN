@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Paclitaxel: vorhergesagte neue Indikation Mammakarzinom der Frau (female breast carcinoma) (Evidenzstufe L5). Ursprüngliche Indikation: Brustneoplasmen"
+monitor_inn: "PACLITAXEL"
+predicted_indications: ["female breast carcinoma", "estrogen-receptor negative breast cancer", "Ehrlich tumor carcinoma", "estrogen-receptor positive breast cancer", "hormone-resistant breast carcinoma", "bilateral breast carcinoma", "breast carcinoma by gene expression profile", "nipple carcinoma", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 ---
 
 # Paclitaxel

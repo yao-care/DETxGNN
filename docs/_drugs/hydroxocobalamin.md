@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Hydroxocobalamin: vorhergesagte neue Indikation Ösophagusvarizen mit Blutung (zusätzlich vorhergesagt: Ösophagusvariz… (Evidenzstufe L5). Ursprüngliche Indikation: Vergiftung"
+monitor_inn: "HYDROXOCOBALAMIN"
+predicted_indications: ["esophageal varices with bleeding", "esophageal varices without bleeding"]
 ---
 
 # Hydroxocobalamin

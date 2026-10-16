@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Aliskiren: vorhergesagte neue Indikation Pulmonale Hypertonie infolge von Lungenerkrankung und/oder Hypoxie (Evidenzstufe L4). Ursprüngliche Indikation: Hypertonie"
+monitor_inn: "ALISKIREN"
+predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "malignant renovascular hypertension", "Braddock syndrome", "chronic pulmonary heart disease", "cerebrovascular disorder"]
 ---
 
 # Aliskiren

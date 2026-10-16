@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Ranolazine: vorhergesagte neue Indikation Nephrogenes Syndrom der inadäquaten Antidiurese (NSIAD) (Evidenzstufe L5). Ursprüngliche Indikation: Angina pectoris"
+monitor_inn: "RANOLAZINE"
+predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
 ---
 
 # Ranolazine

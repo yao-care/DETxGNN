@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Nepafenac: vorhergesagte neue Indikation Augenerkrankung (eye disease) (Evidenzstufe L1). Ursprüngliche Indikation: Postoperative Schmerzen"
+monitor_inn: "NEPAFENAC"
+predicted_indications: ["eye disease", "optic papillitis", "hypotrichosis simplex of the scalp", "seborrheic keratosis", "von Hippel anomaly", "congenital hypotrichosis milia", "mcpherson robertson cammarano syndrome", "lagophthalmos", "vulvar inverted follicular keratosis", "vitreous detachment"]
 ---
 
 # Nepafenac

@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Micafungin: vorhergesagte neue Indikation Harnwegsinfektion (urinary tract infection) (Evidenzstufe L3). Ursprüngliche Indikation: Candidiasis"
+monitor_inn: "MICAFUNGIN"
+predicted_indications: ["urinary tract infection (disease)"]
 ---
 
 # Micafungin

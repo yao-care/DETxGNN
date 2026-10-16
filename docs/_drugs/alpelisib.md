@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Alpelisib: vorhergesagte neue Indikation Pulmonale Hypertonie (Evidenzstufe L5). Ursprüngliche Indikation: Brustneoplasmen (Brustkrebs)"
+monitor_inn: "ALPELISIB"
+predicted_indications: ["pulmonary hypertension"]
 ---
 
 # Alpelisib

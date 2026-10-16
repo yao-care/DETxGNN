@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ruxolitinib: vorhergesagte neue Indikation Uterines perivaskuläres Epitheloidzelltumor (PEComa des Uterus) (Evidenzstufe L5). Ursprüngliche Indikation: Vitiligo"
+monitor_inn: "Ruxolitinib"
+predicted_indications: ["uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lymphangioleiomyomatosis", "liposarcoma", "familial rhabdoid tumor", "lung PEComa", "ovarian myxoid liposarcoma", "acquired hemophagocytic lymphohistiocytosis associated with malignant disease", "hemophagocytic syndrome associated with an infection"]
 ---
 
 # Ruxolitinib

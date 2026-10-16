@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Insulin Aspart: vorhergesagte neue Indikation Typ-1-Diabetes mellitus (Evidenzstufe L1). Ursprüngliche Indikation: Diabetes mellitus"
+monitor_inn: "INSULIN ASPART"
+predicted_indications: ["type 1 diabetes mellitus", "autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "permanent neonatal diabetes mellitus", "focal stiff limb syndrome", "classic stiff person syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy"]
 ---
 
 # Insulin Aspart

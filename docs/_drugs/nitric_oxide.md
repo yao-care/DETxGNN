@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Nitric Oxide: vorhergesagte neue Indikation Fehlbildungssyndrom mit dentaler und/oder parodontaler Komponente (Evidenzstufe L5). Ursprüngliche Indikation: Pulmonale Hypertonie"
+monitor_inn: "NITRIC OXIDE"
+predicted_indications: ["malformation syndrome with odontal and/or periodontal component", "hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "pulmonary arteriovenous malformation (disease)", "pulmonary arterial hypertension", "pulmonary arterial hypertension associated with congenital heart disease", "pulmonary arterial hypertension associated with HIV infection", "pulmonary arterial hypertension associated with chronic hemolytic anemia"]
 ---
 
 # Nitric Oxide

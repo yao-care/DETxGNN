@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Obinutuzumab: vorhergesagte neue Indikation Chronische lymphatische Leukämie/kleinzelliges lymphozytisches Lympho… (Evidenzstufe L5). Ursprüngliche Indikation: Chronische lymphatische B-Zell-Leukämie"
+monitor_inn: "OBINUTUZUMAB"
+predicted_indications: ["chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "follicular lymphoma"]
 ---
 
 # Obinutuzumab

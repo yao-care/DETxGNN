@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Posaconazole: vorhergesagte neue Indikation Pneumocystose (Evidenzstufe L4). Ursprüngliche Indikation: Candidiasis"
+monitor_inn: "POSACONAZOLE"
+predicted_indications: ["pneumocystosis"]
 ---
 
 # Posaconazole

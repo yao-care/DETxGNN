@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ledipasvir: vorhergesagte neue Indikation Hepatitis-B-Virusinfektion (Evidenzstufe L2). Ursprüngliche Indikation: Chronische Hepatitis C"
+monitor_inn: "LEDIPASVIR"
+predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "chronic hepatitis B virus infection", "HIV infectious disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
 ---
 
 # Ledipasvir

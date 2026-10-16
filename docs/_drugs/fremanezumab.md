@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Fremanezumab: vorhergesagte neue Indikation Migräne mit Hirnstamm-Aura (Evidenzstufe L4). Ursprüngliche Indikation: Migräne (Migraine Disorders)"
+monitor_inn: "FREMANEZUMAB"
+predicted_indications: ["migraine with brainstem aura", "atrophoderma vermiculata"]
 ---
 
 # Fremanezumab

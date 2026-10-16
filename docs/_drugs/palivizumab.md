@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Palivizumab: vorhergesagte neue Indikation Gutartige Neubildung der Zunge (Evidenzstufe L5). Ursprüngliche Indikation: RSV-Infektionen (Respiratory Syncytial Virus Infections)"
+monitor_inn: "PALIVIZUMAB"
+predicted_indications: ["benign neoplasm of tongue", "epiglottis neoplasm", "cervical neuroblastoma", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "tumor of testis and paratestis", "cystic neoplasm", "schwannoma of jugular foramen", "mesenchymoma", "thyroglossal duct cyst"]
 ---
 
 # Palivizumab

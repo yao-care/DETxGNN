@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Tacrolimus: vorhergesagte neue Indikation Seborrhoische Dermatitis (Evidenzstufe L1). Ursprüngliche Indikation: Transplantatabstoßung (Graft Rejection)"
+monitor_inn: "TACROLIMUS"
+predicted_indications: ["seborrheic dermatitis", "parapsoriasis", "dermatitis"]
 ---
 
 # Tacrolimus
