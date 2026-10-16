@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 120
 evidence_level: L5
 indication_count: 8
+last_modified_at: 2026-10-14
+description: "Clopidogrel: vorhergesagte neue Indikation Migräne mit Hirnstammaura (Rang 1) (Evidenzstufe L5). Ursprüngliche Indikation: Periphere Gefäßerkrankungen, Schlaganfall, Myokardinfarkt…"
 ---
 
 # Clopidogrel

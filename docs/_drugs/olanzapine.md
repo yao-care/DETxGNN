@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 325
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Olanzapine: vorhergesagte neue Indikation Benigne paroxysmale Tortikollis des Säuglingsalters (Evidenzstufe L5). Ursprüngliche Indikation: Schizophrenie"
 ---
 
 # Olanzapine

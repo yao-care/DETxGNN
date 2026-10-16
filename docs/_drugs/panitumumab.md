@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 341
 evidence_level: L5
 indication_count: 2
+last_modified_at: 2026-10-14
+description: "Panitumumab: vorhergesagte neue Indikation Medikamenteninduzierte Osteoporose (Evidenzstufe L5). Ursprüngliche Indikation: Kolorektalkarzinom (Colorectal Neoplasms)"
 ---
 
 # Panitumumab

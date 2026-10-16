@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 444
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Tasimelteon: vorhergesagte neue Indikation Insomnie (Rang 2 der Vorhersagen (Evidenzstufe L5). Ursprüngliche Indikation: Schlafstörungen, zirkadiane Rhythmusstörungen"
 ---
 
 # Tasimelteon

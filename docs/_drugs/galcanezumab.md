@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 205
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Galcanezumab: vorhergesagte neue Indikation Heparin-Cofaktor-2-Mangel (Evidenzstufe L5). Ursprüngliche Indikation: Migräne"
 ---
 
 # Galcanezumab

@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 236
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Imiquimod: vorhergesagte neue Indikation Prämalignes Neoplasma (pre-malignant neoplasm) (Evidenzstufe L5). Ursprüngliche Indikation: Condylomata acuminata, Keratose, aktinische Keratose…"
 ---
 
 # Imiquimod

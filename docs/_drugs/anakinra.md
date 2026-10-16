@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 33
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Anakinra: vorhergesagte neue Indikation Familiäres Mittelmeerfieber (autosomal-rezessiv) – bestbelegte Vorher… (Evidenzstufe L5). Ursprüngliche Indikation: Rheumatoide Arthritis"
 ---
 
 # Anakinra

@@ -5,6 +5,8 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 412
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Ropinirole: vorhergesagte neue Indikation Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung (ADHS) (Evidenzstufe L3). Ursprüngliche Indikation: Restless-Legs-Syndrom, Parkinson-Krankheit"
 ---
 
 # Ropinirole

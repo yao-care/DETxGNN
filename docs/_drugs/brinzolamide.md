@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 76
 evidence_level: L5
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Brinzolamide: vorhergesagte neue Indikation Primäres hereditäres Glaukom (Evidenzstufe L5). Ursprüngliche Indikation: Offenwinkelglaukom"
 ---
 
 # Brinzolamide

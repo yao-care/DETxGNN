@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 225
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Ibuprofen: vorhergesagte neue Indikation Akromesomele Dysplasie, Typ Hunter-Thompson (Evidenzstufe L5). Ursprüngliche Indikation: Persistierender Ductus arteriosus (Ductus Arteriosus, Patent)"
 ---
 
 # Ibuprofen

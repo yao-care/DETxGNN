@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 82
 evidence_level: L5
 indication_count: 6
+last_modified_at: 2026-10-14
+description: "Buprenorphine: vorhergesagte neue Indikation Akute intermittierende Porphyrie (Evidenzstufe L5). Ursprüngliche Indikation: Opioid-bezogene Störungen (Opioidabhängigkeit)"
 ---
 
 # Buprenorphine

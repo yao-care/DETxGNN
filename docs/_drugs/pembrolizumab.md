@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 350
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Pembrolizumab: vorhergesagte neue Indikation Gingivale Fibromatose (Evidenzstufe L5). Ursprüngliche Indikation: Melanom"
 ---
 
 # Pembrolizumab

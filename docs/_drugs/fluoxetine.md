@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 198
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Fluoxetine: vorhergesagte neue Indikation Phobische Störung (höchstbewertete Vorhersage im Datensatz: schizotyp… (Evidenzstufe L5). Ursprüngliche Indikation: Angststörung, neurotische Störung, dysthy…"
 ---
 
 # Fluoxetine

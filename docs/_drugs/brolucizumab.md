@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 79
 evidence_level: L5
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Brolucizumab: vorhergesagte neue Indikation Mitochondriale Störung der oxidativen Phosphorylierung durch nukleäre… (Evidenzstufe L5). Ursprüngliche Indikation: Feuchte Makuladegeneration"
 ---
 
 # Brolucizumab

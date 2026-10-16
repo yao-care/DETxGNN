@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 439
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Susoctocog Alfa: vorhergesagte neue Indikation Primäre Thrombozyten-Freisetzungsstörung (Rang 1 des Modells… (Evidenzstufe L5). Ursprüngliche Indikation: Hämophilie A"
 ---
 
 # Susoctocog Alfa

@@ -5,6 +5,8 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 153
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Dupilumab: vorhergesagte neue Indikation Bronchitis (Evidenzstufe L3). Ursprüngliche Indikation: Atopische Dermatitis, Prurigo, Ösophaguserkrankungen, Asthma…"
 ---
 
 # Dupilumab

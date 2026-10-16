@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 295
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Methotrexate: vorhergesagte neue Indikation Primäres Lungenlymphom (Rang 2 (Evidenzstufe L5). Ursprüngliche Indikation: Psoriasis-Arthritis, Psoriasis, juvenile rheumatoide Arthritis…"
 ---
 
 # Methotrexate

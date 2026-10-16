@@ -5,6 +5,8 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 77
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Brivaracetam: vorhergesagte neue Indikation Status epilepticus (Rang 2 der Vorhersagen (Evidenzstufe L3). Ursprüngliche Indikation: Epilepsie"
 ---
 
 # Brivaracetam

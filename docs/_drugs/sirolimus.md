@@ -5,6 +5,8 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 431
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Sirolimus: vorhergesagte neue Indikation Liposarkom (Evidenzstufe L3). Ursprüngliche Indikation: Angiofibrom bei Tuberöser Sklerose (weitere Zulassung: Transplantatab…"
 ---
 
 # Sirolimus

@@ -5,6 +5,8 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 311
 evidence_level: L2
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Neratinib: vorhergesagte neue Indikation Progesteronrezeptor-positiver Brustkrebs (Evidenzstufe L2). Ursprüngliche Indikation: Brustneoplasmen"
 ---
 
 # Neratinib

@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 166
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Empagliflozin: vorhergesagte neue Indikation Klassisches Stiff-Person-Syndrom (Evidenzstufe L5). Ursprüngliche Indikation: Diabetes mellitus Typ 2"
 ---
 
 # Empagliflozin

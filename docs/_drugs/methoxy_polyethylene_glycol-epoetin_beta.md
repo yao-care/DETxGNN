@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 296
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Methoxy Polyethylene Glycol-Epoetin Beta: vorhergesagte neue Indikation Primäre Freisetzungsstörung der Thrombozyten (Evidenzstufe L5). Ursprüngliche Indikation: Anämie"
 ---
 
 # Methoxy Polyethylene Glycol-Epoetin Beta

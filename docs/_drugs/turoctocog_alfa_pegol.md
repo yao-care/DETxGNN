@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 486
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Turoctocog Alfa Pegol: vorhergesagte neue Indikation Primäre Thrombozyten-Freisetzungsstörung (Evidenzstufe L5). Ursprüngliche Indikation: Hämophilie A"
 ---
 
 # Turoctocog Alfa Pegol

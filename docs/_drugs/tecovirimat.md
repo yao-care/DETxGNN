@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 447
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Tecovirimat: vorhergesagte neue Indikation Hordeolum (Gerstenkorn) (Evidenzstufe L5). Ursprüngliche Indikation: Pockeninfektionen, Kuhpocken, Affenpocken (Mpox), Vakzinia, Pocken"
 ---
 
 # Tecovirimat

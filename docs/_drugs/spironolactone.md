@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 437
 evidence_level: L5
 indication_count: 2
+last_modified_at: 2026-10-14
+description: "Spironolactone: vorhergesagte neue Indikation Hypotrichosis simplex der Kopfhaut (Evidenzstufe L5). Ursprüngliche Indikation: Ödeme, Herzinsuffizienz, Leberzirrhose, Aszites…"
 ---
 
 # Spironolactone

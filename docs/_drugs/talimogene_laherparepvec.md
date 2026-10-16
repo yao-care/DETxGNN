@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 443
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Talimogene Laherparepvec: vorhergesagte neue Indikation CMM7 (Bezeichnung nicht eindeutig definiert… (Evidenzstufe L5). Ursprüngliche Indikation: Melanom"
 ---
 
 # Talimogene Laherparepvec

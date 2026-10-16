@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 199
 evidence_level: L5
 indication_count: 8
+last_modified_at: 2026-10-14
+description: "Fluticasone Furoate: vorhergesagte neue Indikation Atopisches Ekzem (Evidenzstufe L5). Ursprüngliche Indikation: Saisonale und perenniale allergische Rhinitis (weitere Zulassungen: A…"
 ---
 
 # Fluticasone Furoate

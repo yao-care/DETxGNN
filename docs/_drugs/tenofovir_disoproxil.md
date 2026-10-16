@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 455
 evidence_level: L5
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Tenofovir Disoproxil: vorhergesagte neue Indikation Simiane Immundefizienzvirus-Infektion (Evidenzstufe L5). Ursprüngliche Indikation: HIV-Infektion (zusätzlich chronische Hepatitis B bei Viread)"
 ---
 
 # Tenofovir Disoproxil

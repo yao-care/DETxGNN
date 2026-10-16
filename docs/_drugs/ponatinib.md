@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 364
 evidence_level: L5
 indication_count: 2
+last_modified_at: 2026-10-14
+description: "Ponatinib: vorhergesagte neue Indikation Gingivale Fibromatose (Evidenzstufe L5). Ursprüngliche Indikation: Myeloische und lymphatische Leukämie"
 ---
 
 # Ponatinib

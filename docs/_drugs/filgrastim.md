@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 197
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Filgrastim: vorhergesagte neue Indikation Primäre Thrombozyten-Freisetzungsstörung (primary release disorder of… (Evidenzstufe L5). Ursprüngliche Indikation: Hämatopoetische Stammzelltransplantation"
 ---
 
 # Filgrastim

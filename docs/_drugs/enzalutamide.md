@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 172
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Enzalutamide: vorhergesagte neue Indikation Prostatakrebs-/Hirntumor-Suszeptibilität (Evidenzstufe L5). Ursprüngliche Indikation: Prostatatumoren (Prostatakarzinom)"
 ---
 
 # Enzalutamide

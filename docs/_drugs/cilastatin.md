@@ -5,6 +5,8 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 116
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Cilastatin: vorhergesagte neue Indikation Staphylococcus-aureus-Infektion (Evidenzstufe L3). Ursprüngliche Indikation: Gramnegative bakterielle Infektionen"
 ---
 
 # Cilastatin

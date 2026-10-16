@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 149
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Doravirine: vorhergesagte neue Indikation Felines erworbenes Immundefizienzsyndrom (Evidenzstufe L5). Ursprüngliche Indikation: HIV-Infektionen"
 ---
 
 # Doravirine

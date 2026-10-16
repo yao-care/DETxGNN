@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 340
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Palonosetron: vorhergesagte neue Indikation Migräne (migraine disorder) (Evidenzstufe L5). Ursprüngliche Indikation: Erbrechen, Übelkeit, Krebs (Krebstherapie-assoziiert)"
 ---
 
 # Palonosetron

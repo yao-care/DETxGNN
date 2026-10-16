@@ -5,6 +5,8 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 344
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Parathyroid Hormone: vorhergesagte neue Indikation Migränestörung (migraine disorder) (Evidenzstufe L4). Ursprüngliche Indikation: Hypoparathyreoidismus"
 ---
 
 # Parathyroid Hormone

@@ -5,6 +5,8 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 345
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Pazopanib: vorhergesagte neue Indikation Nicht klassifiziertes Nierenzellkarzinom (Evidenzstufe L3). Ursprüngliche Indikation: Nierenzellkarzinom (Carcinoma, Renal Cell)"
 ---
 
 # Pazopanib

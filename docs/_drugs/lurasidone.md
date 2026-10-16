@@ -5,6 +5,8 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 281
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Lurasidone: vorhergesagte neue Indikation Manische bipolare affektive Störung (Evidenzstufe L3). Ursprüngliche Indikation: Schizophrenie"
 ---
 
 # Lurasidone

@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 433
 evidence_level: L5
 indication_count: 8
+last_modified_at: 2026-10-14
+description: "Sofosbuvir: vorhergesagte neue Indikation Hepatitis-B-Virusinfektion (Evidenzstufe L5). Ursprüngliche Indikation: Hepatitis C, chronisch"
 ---
 
 # Sofosbuvir

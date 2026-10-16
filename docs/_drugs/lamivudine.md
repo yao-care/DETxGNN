@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 256
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Lamivudine: vorhergesagte neue Indikation Felines erworbenes Immundefizienzsyndrom (FIV) (Evidenzstufe L5). Ursprüngliche Indikation: Chronische Hepatitis B"
 ---
 
 # Lamivudine

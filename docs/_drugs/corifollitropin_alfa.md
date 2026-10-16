@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 123
 evidence_level: L5
 indication_count: 8
+last_modified_at: 2026-10-14
+description: "Corifollitropin Alfa: vorhergesagte neue Indikation Gastroduodenitis (Evidenzstufe L5). Ursprüngliche Indikation: Assistierte Reproduktionstechniken"
 ---
 
 # Corifollitropin Alfa

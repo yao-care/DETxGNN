@@ -5,6 +5,8 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 324
 evidence_level: L1
 indication_count: 8
+last_modified_at: 2026-10-14
+description: "Ofatumumab: vorhergesagte neue Indikation CLL/SLL (Rang 5 der Vorhersagen (Evidenzstufe L1). Ursprüngliche Indikation: Multiple Sklerose, schubförmig remittierend"
 ---
 
 # Ofatumumab

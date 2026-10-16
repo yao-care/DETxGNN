@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 373
 evidence_level: L5
 indication_count: 6
+last_modified_at: 2026-10-14
+description: "Propranolol: vorhergesagte neue Indikation Distale Myopathie, Typ Tateyama (Evidenzstufe L5). Ursprüngliche Indikation: Hämangiom"
 ---
 
 # Propranolol

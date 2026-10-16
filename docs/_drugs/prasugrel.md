@@ -5,6 +5,8 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 367
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Prasugrel: vorhergesagte neue Indikation Migräne (Migraine disorder), v. a. mit PFO (Evidenzstufe L3). Ursprüngliche Indikation: Akutes Koronarsyndrom"
 ---
 
 # Prasugrel

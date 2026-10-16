@@ -5,6 +5,8 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 418
 evidence_level: L3
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Sacubitril: vorhergesagte neue Indikation Diabetische Nephropathie (Rang 3 der Vorhersagen (Evidenzstufe L3). Ursprüngliche Indikation: Herzinsuffizienz"
 ---
 
 # Sacubitril

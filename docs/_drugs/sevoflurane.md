@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 426
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Sevoflurane: vorhergesagte neue Indikation Prinzmetal-Angina (Evidenzstufe L5). Ursprüngliche Indikation: In den für diesen Bericht zusammengestellten Daten nicht hinterlegt (…"
 ---
 
 # Sevoflurane

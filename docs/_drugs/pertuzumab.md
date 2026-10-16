@@ -5,6 +5,8 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 355
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Pertuzumab: vorhergesagte neue Indikation Progesteronrezeptor-positives Mammakarzinom (Evidenzstufe L1). Ursprüngliche Indikation: Mammakarzinom"
 ---
 
 # Pertuzumab

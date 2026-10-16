@@ -5,6 +5,8 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 493
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Velpatasvir: vorhergesagte neue Indikation Hepatitis-B-Virusinfektion (Evidenzstufe L3). Ursprüngliche Indikation: Hepatitis C, chronisch"
 ---
 
 # Velpatasvir

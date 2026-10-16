@@ -5,6 +5,8 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 474
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Topotecan: vorhergesagte neue Indikation Weibliches Mammakarzinom (Evidenzstufe L3). Ursprüngliche Indikation: Ovarialkarzinom, Zervixkarzinom, kleinzelliges Lungenkarzinom"
 ---
 
 # Topotecan

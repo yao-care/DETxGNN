@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 212
 evidence_level: L5
 indication_count: 9
+last_modified_at: 2026-10-14
+description: "Glimepiride: vorhergesagte neue Indikation Fokales Stiff-Limb-Syndrom (Evidenzstufe L5). Ursprüngliche Indikation: Diabetes mellitus Typ 2"
 ---
 
 # Glimepiride

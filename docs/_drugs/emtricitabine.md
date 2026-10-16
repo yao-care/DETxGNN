@@ -5,6 +5,8 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 167
 evidence_level: L4
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Emtricitabine: vorhergesagte neue Indikation Felines erworbenes Immundefizienzsyndrom (FIV, Veterinärindikation) (Evidenzstufe L4). Ursprüngliche Indikation: HIV-Infektionen"
 ---
 
 # Emtricitabine

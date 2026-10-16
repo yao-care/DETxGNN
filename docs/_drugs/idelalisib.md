@@ -5,6 +5,8 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 229
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Idelalisib: vorhergesagte neue Indikation Mantelzell-Lymphom (Evidenzstufe L2). Ursprüngliche Indikation: Non-Hodgkin-Lymphom"
 ---
 
 # Idelalisib

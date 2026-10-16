@@ -5,6 +5,8 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 372
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Prilocaine: vorhergesagte neue Indikation Neuralgie (insbesondere postherpetische Neuralgie) (Evidenzstufe L3). Ursprüngliche Indikation: Physiologische sexuelle Funktionsstörung"
 ---
 
 # Prilocaine

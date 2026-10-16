@@ -5,6 +5,8 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 348
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Peginterferon Alfa-2A: vorhergesagte neue Indikation Hepatitis-B-Virusinfektion (Evidenzstufe L1). Ursprüngliche Indikation: Chronische Hepatitis C, chronische Hepatitis B, Polycythaemia vera…"
 ---
 
 # Peginterferon Alfa-2A

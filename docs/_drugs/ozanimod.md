@@ -5,6 +5,8 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 335
 evidence_level: L4
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Ozanimod: vorhergesagte neue Indikation Progredient-schubförmige Multiple Sklerose (Evidenzstufe L4). Ursprüngliche Indikation: Schubförmig remittierende Multiple Sklerose"
 ---
 
 # Ozanimod

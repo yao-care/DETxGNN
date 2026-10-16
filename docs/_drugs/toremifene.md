@@ -5,6 +5,8 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 475
 evidence_level: L4
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Toremifene: vorhergesagte neue Indikation HIV-Infektionskrankheit (Evidenzstufe L4). Ursprüngliche Indikation: Brustkrebs (Mammakarzinom)"
 ---
 
 # Toremifene

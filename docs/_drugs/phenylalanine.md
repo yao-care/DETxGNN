@@ -5,6 +5,8 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 356
 evidence_level: L4
 indication_count: 2
+last_modified_at: 2026-10-14
+description: "Phenylalanine: vorhergesagte neue Indikation Sklerosierende Cholangitis (Evidenzstufe L4). Ursprüngliche Indikation: Ahornsirupkrankheit (Maple Syrup Urine Disease)"
 ---
 
 # Phenylalanine

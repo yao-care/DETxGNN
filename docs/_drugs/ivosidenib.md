@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 252
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Ivosidenib: vorhergesagte neue Indikation Bulbäre Poliomyelitis (Evidenzstufe L5). Ursprüngliche Indikation: Akute myeloische Leukämie"
 ---
 
 # Ivosidenib

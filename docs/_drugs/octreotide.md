@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 323
 evidence_level: L5
 indication_count: 2
+last_modified_at: 2026-10-14
+description: "Octreotide: vorhergesagte neue Indikation Vulväre invertierte follikuläre Keratose (Evidenzstufe L5). Ursprüngliche Indikation: Akromegalie"
 ---
 
 # Octreotide

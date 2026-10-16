@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 274
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Lomitapide: vorhergesagte neue Indikation Makrothrombozytopenie mit Mitralklappeninsuffizienz (Evidenzstufe L5). Ursprüngliche Indikation: Hypercholesterinämie"
 ---
 
 # Lomitapide

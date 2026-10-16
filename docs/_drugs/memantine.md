@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 289
 evidence_level: L5
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Memantine: vorhergesagte neue Indikation Migräne (der höchstbewertete Treffer, Lungenhochdruck… (Evidenzstufe L5). Ursprüngliche Indikation: Alzheimer-Krankheit"
 ---
 
 # Memantine

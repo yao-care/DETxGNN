@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 22
 evidence_level: L5
 indication_count: 6
+last_modified_at: 2026-10-14
+description: "Albutrepenonacog Alfa: vorhergesagte neue Indikation Pseudo-von-Willebrand-Erkrankung (Evidenzstufe L5). Ursprüngliche Indikation: Hämophilie B"
 ---
 
 # Albutrepenonacog Alfa

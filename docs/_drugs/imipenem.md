@@ -5,6 +5,8 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 235
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Imipenem: vorhergesagte neue Indikation Staphylococcus-aureus-Infektion (Rang 9 der TxGNN-Liste (Evidenzstufe L3). Ursprüngliche Indikation: Gramnegative bakterielle Infektionen"
 ---
 
 # Imipenem

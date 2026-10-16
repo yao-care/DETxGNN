@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 160
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Eftrenonacog Alfa: vorhergesagte neue Indikation Pseudo-von-Willebrand-Erkrankung (Evidenzstufe L5). Ursprüngliche Indikation: Hämophilie B"
 ---
 
 # Eftrenonacog Alfa

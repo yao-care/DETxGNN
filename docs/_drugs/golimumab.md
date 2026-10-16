@@ -5,6 +5,8 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 217
 evidence_level: L4
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Golimumab: vorhergesagte neue Indikation Rheumatoide Vaskulitis (Evidenzstufe L4). Ursprüngliche Indikation: Rheumatoide Arthritis, juvenile Arthritis, Psoriasis-Arthritis…"
 ---
 
 # Golimumab

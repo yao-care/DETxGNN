@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 214
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Glucarpidase: vorhergesagte neue Indikation Diabetischer Katarakt (Evidenzstufe L5). Ursprüngliche Indikation: Stoffwechsel-Nebenwirkungen von Arzneimitteln und Substanzen"
 ---
 
 # Glucarpidase

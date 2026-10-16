@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 178
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Eribulin: vorhergesagte neue Indikation Autosomal-rezessives familiäres Mittelmeerfieber (Evidenzstufe L5). Ursprüngliche Indikation: Brustkrebs (Brustneoplasien)"
 ---
 
 # Eribulin

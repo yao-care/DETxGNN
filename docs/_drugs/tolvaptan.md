@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 473
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Tolvaptan: vorhergesagte neue Indikation Polyzystische Nierenerkrankung Typ 3 mit oder ohne polyzystische Lebe… (Evidenzstufe L5). Ursprüngliche Indikation: Inappropriate ADH Syndrome (SIADH)"
 ---
 
 # Tolvaptan

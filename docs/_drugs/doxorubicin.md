@@ -5,6 +5,8 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 150
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Doxorubicin: vorhergesagte neue Indikation Ewing-Sarkom (Evidenzstufe L1). Ursprüngliche Indikation: Kaposi-Sarkom, Multiples Myelom, Ovarialkarzinom, Mammakarzinom"
 ---
 
 # Doxorubicin

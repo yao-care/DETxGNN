@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 196
 evidence_level: L5
 indication_count: 9
+last_modified_at: 2026-10-14
+description: "Fidaxomicin: vorhergesagte neue Indikation Staphylococcal Scalded Skin Syndrome (Evidenzstufe L5). Ursprüngliche Indikation: Clostridien-Infektionen"
 ---
 
 # Fidaxomicin

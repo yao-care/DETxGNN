@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 107
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Ceritinib: vorhergesagte neue Indikation Gingivale Fibromatose (Evidenzstufe L5). Ursprüngliche Indikation: Nicht-kleinzelliges Lungenkarzinom (NSCLC)"
 ---
 
 # Ceritinib

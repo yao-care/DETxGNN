@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 176
 evidence_level: L5
 indication_count: 6
+last_modified_at: 2026-10-14
+description: "Erdafitinib: vorhergesagte neue Indikation Pulmonale Hypertonie (Evidenzstufe L5). Ursprüngliche Indikation: Urologische Neoplasien"
 ---
 
 # Erdafitinib

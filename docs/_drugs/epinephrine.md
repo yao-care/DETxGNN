@@ -5,6 +5,8 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 173
 evidence_level: L1
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Epinephrine: vorhergesagte neue Indikation Obstruktive Lungenerkrankung (Evidenzstufe L1). Ursprüngliche Indikation: Anaphylaxie"
 ---
 
 # Epinephrine

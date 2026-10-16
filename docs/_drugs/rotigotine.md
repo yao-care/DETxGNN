@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 413
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Rotigotine: vorhergesagte neue Indikation Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung (ADHS) (Evidenzstufe L5). Ursprüngliche Indikation: Restless-Legs-Syndrom"
 ---
 
 # Rotigotine

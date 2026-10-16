@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 233
 evidence_level: L5
 indication_count: 9
+last_modified_at: 2026-10-14
+description: "Imidacloprid: vorhergesagte neue Indikation Cauda-equina-Syndrom (Evidenzstufe L5). Ursprüngliche Indikation: Keine Angabe in den zusammengestellten Daten (die Zulassungstexte sin…"
 ---
 
 # Imidacloprid

@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 48
 evidence_level: L5
 indication_count: 6
+last_modified_at: 2026-10-14
+description: "Avibactam: vorhergesagte neue Indikation Streptokokken-Pneumonie (Evidenzstufe L5). Ursprüngliche Indikation: Infektionen durch gramnegative Bakterien, Harnwegsinfektionen…"
 ---
 
 # Avibactam

@@ -5,6 +5,8 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 43
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Atezolizumab: vorhergesagte neue Indikation Prostatisches Urethra-Urothelkarzinom (Evidenzstufe L3). Ursprüngliche Indikation: Urothelkarzinom (Übergangszellkarzinom)…"
 ---
 
 # Atezolizumab

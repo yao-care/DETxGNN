@@ -5,6 +5,8 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 147
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Docetaxel: vorhergesagte neue Indikation Mammakarzinom der Frau (female breast carcinoma) (Evidenzstufe L2). Ursprüngliche Indikation: Kopf-Hals-Tumoren"
 ---
 
 # Docetaxel

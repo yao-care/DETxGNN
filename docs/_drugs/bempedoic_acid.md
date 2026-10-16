@@ -5,6 +5,8 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 56
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Bempedoic Acid: vorhergesagte neue Indikation Homozygote familiäre Hypercholesterinämie (Rang 6 von 10 (Evidenzstufe L3). Ursprüngliche Indikation: Hypercholesterinämie"
 ---
 
 # Bempedoic Acid

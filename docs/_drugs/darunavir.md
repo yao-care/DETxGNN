@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 132
 evidence_level: L5
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Darunavir: vorhergesagte neue Indikation Felines erworbenes Immundefizienz-Syndrom (Veterinärindikation) (Evidenzstufe L5). Ursprüngliche Indikation: HIV-Infektionen"
 ---
 
 # Darunavir

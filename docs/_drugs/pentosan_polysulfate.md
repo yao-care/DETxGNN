@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 353
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Pentosan Polysulfate: vorhergesagte neue Indikation Primäre Thrombozyten-Freisetzungsstörung (Evidenzstufe L5). Ursprüngliche Indikation: Interstitielle Zystitis"
 ---
 
 # Pentosan Polysulfate

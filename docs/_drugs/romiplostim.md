@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 410
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Romiplostim: vorhergesagte neue Indikation Primäre Freisetzungsstörung der Thrombozyten (Evidenzstufe L5). Ursprüngliche Indikation: Idiopathische thrombozytopenische Purpura"
 ---
 
 # Romiplostim

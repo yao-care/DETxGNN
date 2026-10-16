@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 194
 evidence_level: L5
 indication_count: 2
+last_modified_at: 2026-10-14
+description: "Fentanyl: vorhergesagte neue Indikation Nephrogenes Syndrom der inadäquaten Antidiurese (Evidenzstufe L5). Ursprüngliche Indikation: Schmerz"
 ---
 
 # Fentanyl

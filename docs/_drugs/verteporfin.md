@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 496
 evidence_level: L5
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Verteporfin: vorhergesagte neue Indikation Mitochondriale Störung der oxidativen Phosphorylierung durch Kern-DNA… (Evidenzstufe L5). Ursprüngliche Indikation: Degenerative Myopie"
 ---
 
 # Verteporfin

@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 169
 evidence_level: L5
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Enoxaparin: vorhergesagte neue Indikation Thrombophilie durch Protein-C-Mangel, autosomal-rezessiv (Evidenzstufe L5). Ursprüngliche Indikation: Venöse Thromboembolie"
 ---
 
 # Enoxaparin

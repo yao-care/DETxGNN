@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 81
 evidence_level: L5
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Bupivacaine: vorhergesagte neue Indikation Acrodermatitis chronica atrophicans (Evidenzstufe L5). Ursprüngliche Indikation: Akuter Schmerz"
 ---
 
 # Bupivacaine

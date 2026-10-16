@@ -5,6 +5,8 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 109
 evidence_level: L4
 indication_count: 6
+last_modified_at: 2026-10-14
+description: "Certolizumab Pegol: vorhergesagte neue Indikation Rheumatoide Vaskulitis (Evidenzstufe L4). Ursprüngliche Indikation: Rheumatoide Arthritis"
 ---
 
 # Certolizumab Pegol

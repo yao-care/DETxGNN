@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 129
 evidence_level: L5
 indication_count: 9
+last_modified_at: 2026-10-14
+description: "Dantrolene: vorhergesagte neue Indikation Maligne Hyperthermie… (Evidenzstufe L5). Ursprüngliche Indikation: Maligne Hyperthermie"
 ---
 
 # Dantrolene

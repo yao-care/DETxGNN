@@ -5,6 +5,8 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 401
 evidence_level: L3
 indication_count: 6
+last_modified_at: 2026-10-14
+description: "Rimegepant: vorhergesagte neue Indikation Migräne mit Hirnstammaura (Evidenzstufe L3). Ursprüngliche Indikation: Migräne (Migraine Disorders)"
 ---
 
 # Rimegepant

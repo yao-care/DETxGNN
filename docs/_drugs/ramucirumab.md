@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 380
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Ramucirumab: vorhergesagte neue Indikation Adenokarzinom des Ligamentum uteri (uterine ligament adenocarcinoma) (Evidenzstufe L5). Ursprüngliche Indikation: Stomach Neoplasms (Magenkarzinom)"
 ---
 
 # Ramucirumab

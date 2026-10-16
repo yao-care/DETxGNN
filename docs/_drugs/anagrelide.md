@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 32
 evidence_level: L5
 indication_count: 2
+last_modified_at: 2026-10-14
+description: "Anagrelide: vorhergesagte neue Indikation Reaktive Thrombozytose (Evidenzstufe L5). Ursprüngliche Indikation: Essentielle Thrombozythämie"
 ---
 
 # Anagrelide

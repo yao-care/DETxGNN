@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 494
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Venetoclax: vorhergesagte neue Indikation Myeloische Leukämie (Rang 4 der Vorhersageliste) (Evidenzstufe L5). Ursprüngliche Indikation: Chronische lymphatische B-Zell-Leukämie"
 ---
 
 # Venetoclax

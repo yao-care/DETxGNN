@@ -5,6 +5,8 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 193
 evidence_level: L4
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Fenofibrate: vorhergesagte neue Indikation Homozygote familiäre Hypercholesterinämie (Evidenzstufe L4). Ursprüngliche Indikation: Dyslipidämien"
 ---
 
 # Fenofibrate

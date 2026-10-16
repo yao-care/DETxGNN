@@ -5,6 +5,8 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 484
 evidence_level: L3
 indication_count: 8
+last_modified_at: 2026-10-14
+description: "Tryptophan: vorhergesagte neue Indikation Restless-Legs-Syndrom (Evidenzstufe L3). Ursprüngliche Indikation: Ahornsirupkrankheit (Maple Syrup Urine Disease)"
 ---
 
 # Tryptophan

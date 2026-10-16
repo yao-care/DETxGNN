@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 24
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Alglucosidase Alfa: vorhergesagte neue Indikation Adulte Polyglucosan-Körper-Krankheit (adult polyglucosan body disease) (Evidenzstufe L5). Ursprüngliche Indikation: Glykogenspeicherkrankheit Typ II"
 ---
 
 # Alglucosidase Alfa

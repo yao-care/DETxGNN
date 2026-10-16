@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 58
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Benralizumab: vorhergesagte neue Indikation Dermatitis (Rang 2 der Vorhersagen (Evidenzstufe L5). Ursprüngliche Indikation: Asthma"
 ---
 
 # Benralizumab

@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 482
 evidence_level: L5
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Treosulfan: vorhergesagte neue Indikation Diabetische Katarakt (Evidenzstufe L5). Ursprüngliche Indikation: Hämatopoetische Stammzelltransplantation"
 ---
 
 # Treosulfan

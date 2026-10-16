@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 113
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Cholecalciferol: vorhergesagte neue Indikation Familiärer isolierter Hypoparathyreoidismus durch gestörte PTH-Sekret… (Evidenzstufe L5). Ursprüngliche Indikation: Postmenopausale Osteoporose"
 ---
 
 # Cholecalciferol

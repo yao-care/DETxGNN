@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 333
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Oteracil: vorhergesagte neue Indikation Kolonneoplasie (colonic neoplasm) (Evidenzstufe L5). Ursprüngliche Indikation: Magenkarzinom (Stomach Neoplasms)"
 ---
 
 # Oteracil

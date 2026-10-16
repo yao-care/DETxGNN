@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 195
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Ferric Maltol: vorhergesagte neue Indikation Plummer-Vinson-Syndrom (Evidenzstufe L5). Ursprüngliche Indikation: Eisenmangelanämie"
 ---
 
 # Ferric Maltol

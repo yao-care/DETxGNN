@@ -5,6 +5,8 @@ parent: Hohe Evidenz (L1-L2)
 nav_order: 38
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Arsenic Trioxide: vorhergesagte neue Indikation Myelodysplastisches Syndrom (Rang 6 der Vorhersagen (Evidenzstufe L2). Ursprüngliche Indikation: Akute Promyelozytenleukämie"
 ---
 
 # Arsenic Trioxide

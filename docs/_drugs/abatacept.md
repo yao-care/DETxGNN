@@ -5,6 +5,8 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 13
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Abatacept: vorhergesagte neue Indikation Rheumatoide Vaskulitis (Evidenzstufe L4). Ursprüngliche Indikation: Psoriasis-Arthritis, juvenile rheumatoide Arthritis…"
 ---
 
 # Abatacept

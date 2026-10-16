@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 386
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Ravulizumab: vorhergesagte neue Indikation Autosomal-rezessive schwere kongenitale Neutropenie durch G6PC3-Mangel (Evidenzstufe L5). Ursprüngliche Indikation: Paroxysmale nächtliche Hämoglobinurie"
 ---
 
 # Ravulizumab

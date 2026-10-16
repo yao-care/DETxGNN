@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 297
 evidence_level: L5
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Methylphenidate: vorhergesagte neue Indikation Faciodigitogenitales Syndrom (Evidenzstufe L5). Ursprüngliche Indikation: Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung (ADHS)"
 ---
 
 # Methylphenidate

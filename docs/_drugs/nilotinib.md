@@ -5,6 +5,8 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 314
 evidence_level: L4
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Nilotinib: vorhergesagte neue Indikation Dermatofibrosarcoma protuberans (Evidenzstufe L4). Ursprüngliche Indikation: Chronische myeloische Leukämie, BCR-ABL-positiv"
 ---
 
 # Nilotinib

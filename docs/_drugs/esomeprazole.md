@@ -5,6 +5,8 @@ parent: Mittlere Evidenz (L3-L4)
 nav_order: 181
 evidence_level: L4
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Esomeprazole: vorhergesagte neue Indikation Duodenogastraler Reflux (Evidenzstufe L4). Ursprüngliche Indikation: Gastroösophageale Refluxkrankheit"
 ---
 
 # Esomeprazole

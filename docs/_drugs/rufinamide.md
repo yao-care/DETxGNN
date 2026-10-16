@@ -5,6 +5,8 @@ parent: Nur Modellvorhersage (L5)
 nav_order: 415
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Rufinamide: vorhergesagte neue Indikation Febriles infektionsassoziiertes Epilepsiesyndrom (FIRES) (Evidenzstufe L5). Ursprüngliche Indikation: Epilepsie"
 ---
 
 # Rufinamide
