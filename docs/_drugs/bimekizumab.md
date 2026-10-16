@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Bimekizumab
 parent: Nur Modellvorhersage (L5)

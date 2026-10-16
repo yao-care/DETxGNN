@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Brimonidine Tartrate
 parent: Nur Modellvorhersage (L5)

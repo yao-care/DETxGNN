@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Rilpivirine Hydrochloride
 parent: Nur Modellvorhersage (L5)

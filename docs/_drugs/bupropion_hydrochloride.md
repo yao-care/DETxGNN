@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Bupropion Hydrochloride
 parent: Nur Modellvorhersage (L5)

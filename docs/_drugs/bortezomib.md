@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Bortezomib
 parent: Nur Modellvorhersage (L5)

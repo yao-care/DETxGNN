@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Riociguat
 parent: Nur Modellvorhersage (L5)
