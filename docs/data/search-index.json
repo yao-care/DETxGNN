@@ -1,6 +1,6 @@
 {
   "generated": "2026-10-16",
-  "drug_count": 495,
+  "drug_count": 468,
   "indication_count": 1403,
   "drugs": [
     {
@@ -109,30 +109,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Abemaciclib",
-      "slug": "abemaciclib",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "Abiraterone Acetate",
-      "slug": "abiraterone-acetate",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "Acalabrutinib",
-      "slug": "acalabrutinib",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Acetylsalicylic Acid",
@@ -1972,38 +1948,6 @@
       ]
     },
     {
-      "name": "Bimekizumab",
-      "slug": "bimekizumab",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "Binimetinib",
-      "slug": "binimetinib",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "Blinatumomab",
-      "slug": "blinatumomab",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "Bortezomib",
-      "slug": "bortezomib",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Bosentan",
       "slug": "bosentan",
       "brands": [],
@@ -2058,27 +2002,11 @@
       ]
     },
     {
-      "name": "Bosutinib",
-      "slug": "bosutinib",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Brentuximab Vedotin",
       "slug": "brentuximab-vedotin",
       "brands": [],
       "original": "",
       "level": "L3",
-      "indications": []
-    },
-    {
-      "name": "Brexpiprazole",
-      "slug": "brexpiprazole",
-      "brands": [],
-      "original": "",
-      "level": "L5",
       "indications": []
     },
     {
@@ -2139,14 +2067,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Brimonidine Tartrate",
-      "slug": "brimonidine-tartrate",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Brinzolamide",
@@ -2422,14 +2342,6 @@
       ]
     },
     {
-      "name": "Buprenorphine Hydrochloride",
-      "slug": "buprenorphine-hydrochloride",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Bupropion",
       "slug": "bupropion",
       "brands": [],
@@ -2487,22 +2399,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Bupropion Hydrochloride",
-      "slug": "bupropion-hydrochloride",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "Burosumab",
-      "slug": "burosumab",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Busulfan",
@@ -2770,22 +2666,6 @@
       ]
     },
     {
-      "name": "Caffeine Citrate",
-      "slug": "caffeine-citrate",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "Canagliflozin",
-      "slug": "canagliflozin",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Canakinumab",
       "slug": "canakinumab",
       "brands": [],
@@ -2843,22 +2723,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Cangrelor",
-      "slug": "cangrelor",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "Cannabidiol",
-      "slug": "cannabidiol",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Capecitabine",
@@ -13084,14 +12948,6 @@
       ]
     },
     {
-      "name": "Pyrantel",
-      "slug": "pyrantel",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Raloxifene",
       "slug": "raloxifene",
       "brands": [],
@@ -13114,14 +12970,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Raloxifene Hydrochloride",
-      "slug": "raloxifene-hydrochloride",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Raltegravir",
@@ -13312,14 +13160,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Rasagiline Tartrate",
-      "slug": "rasagiline-tartrate",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Rasburicase",
@@ -13532,22 +13372,6 @@
       ]
     },
     {
-      "name": "Relebactam Monohydrate",
-      "slug": "relebactam-monohydrate",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "Relugolix",
-      "slug": "relugolix",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Remdesivir",
       "slug": "remdesivir",
       "brands": [],
@@ -13599,14 +13423,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Repaglinide",
-      "slug": "repaglinide",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Reslizumab",
@@ -13687,14 +13503,6 @@
       ]
     },
     {
-      "name": "Ribociclib Succinate",
-      "slug": "ribociclib-succinate",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Rilpivirine",
       "slug": "rilpivirine",
       "brands": [],
@@ -13727,14 +13535,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Rilpivirine Hydrochloride",
-      "slug": "rilpivirine-hydrochloride",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Riluzole",
@@ -13833,22 +13633,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Riociguat",
-      "slug": "riociguat",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "Ripretinib",
-      "slug": "ripretinib",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Risankizumab",
