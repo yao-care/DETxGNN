@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Bedaquiline: vorhergesagte neue Indikation Inaktive Tuberkulose (Evidenzstufe L5). Ursprüngliche Indikation: Multiresistente Tuberkulose"
 monitor_inn: "Bedaquiline"
-predicted_indications: ["tuberculosis, bovine", "inactive tuberculosis", "tuberculous ascites", "tuberculosis, avian", "tuberculoma", "vulvovaginal candidiasis", "fascioliasis", "urea cycle disorder", "cutaneous tuberculosis", "esophageal candidiasis"]
+predicted_indications: ["vulvovaginal candidiasis", "fascioliasis", "urea cycle disorder", "esophageal candidiasis"]
 ---
 
 # Bedaquiline
@@ -27,7 +27,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmazeutischer Bewertungsbericht
 

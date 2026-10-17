@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-10-14
 description: "Pravastatin: vorhergesagte neue Indikation Homozygote familiäre Hypercholesterinämie (Evidenzstufe L4). Ursprüngliche Indikation: Dyslipidämien"
 monitor_inn: "PRAVASTATIN"
-predicted_indications: ["homozygous familial hypercholesterolemia", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "hypoalphalipoproteinemia", "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency", "cholesterol-ester transfer protein deficiency"]
+predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "hypoalphalipoproteinemia", "cholesterol-ester transfer protein deficiency"]
 ---
 
 # Pravastatin
@@ -27,7 +27,7 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **9**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmazeutischer Bewertungsbericht
 

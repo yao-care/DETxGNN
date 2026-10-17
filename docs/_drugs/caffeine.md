@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Caffeine: vorhergesagte neue Indikation Erkrankung der Nasenhöhle (nasal cavity disease) (Evidenzstufe L5). Ursprüngliche Indikation: Apnoe"
 monitor_inn: "Caffeine"
-predicted_indications: ["nasal cavity disease", "thrombotic disease", "papillary conjunctivitis", "neuralgia", "glossodynia", "coccygodynia", "vein disease"]
+predicted_indications: ["nasal cavity disease", "thrombotic disease", "acute laryngopharyngitis", "papillary conjunctivitis", "neuralgia", "glossodynia", "coccygodynia", "vein disease"]
 ---
 
 # Caffeine
@@ -27,7 +27,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmazeutischer Bewertungsbericht
 

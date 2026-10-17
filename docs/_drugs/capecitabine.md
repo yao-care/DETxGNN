@@ -7,8 +7,6 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Capecitabine: vorhergesagte neue Indikation Gastrisches Adenokarzinom und proximale Polyposis des Magens (Rang 1) (Evidenzstufe L5). Ursprüngliche Indikation: Kolonkarzinom, Brustkrebs, kolorektale T…"
-monitor_inn: "CAPECITABINE"
-predicted_indications: ["gastric adenocarcinoma and proximal polyposis of the stomach", "signet ring cell gastric adenocarcinoma", "gastric tubular adenocarcinoma", "gastric cardia adenocarcinoma"]
 ---
 
 # Capecitabine
@@ -27,7 +25,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmazeutischer Bewertungsbericht
 

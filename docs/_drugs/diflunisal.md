@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Diflunisal: vorhergesagte neue Indikation Spondylitis ankylosans (Rang 5 (Evidenzstufe L5). Ursprüngliche Indikation: Familiäre Amyloid-Neuropathie"
 monitor_inn: "DIFLUNISAL"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "hypermobility of coccyx", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "inflammatory spondylopathy"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "spondyloarthropathy, susceptibility to", "myosclerosis", "brachyolmia", "hypermobility of coccyx", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "inflammatory spondylopathy"]
 ---
 
 # Diflunisal
@@ -27,7 +27,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmazeutischer Bewertungsbericht
 

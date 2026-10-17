@@ -7,8 +7,6 @@ evidence_level: L1
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Olaparib: vorhergesagte neue Indikation Weibliches Mammakarzinom (Evidenzstufe L1). Ursprüngliche Indikation: Ovarialkarzinom"
-monitor_inn: "OLAPARIB"
-predicted_indications: ["female breast carcinoma"]
 ---
 
 # Olaparib
@@ -27,7 +25,7 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **1**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmazeutischer Bewertungsbericht
 

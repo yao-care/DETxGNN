@@ -7,8 +7,6 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Erenumab: vorhergesagte neue Indikation Migräne mit Hirnstamm-Aura (Evidenzstufe L4). Ursprüngliche Indikation: Migräne (Migraine Disorders)"
-monitor_inn: "ERENUMAB"
-predicted_indications: ["migraine with brainstem aura"]
 ---
 
 # Erenumab
@@ -27,7 +25,7 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **1**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmazeutischer Bewertungsbericht
 

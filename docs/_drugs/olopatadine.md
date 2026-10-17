@@ -7,8 +7,6 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Olopatadine: vorhergesagte neue Indikation Rosazea-Konjunktivitis (Evidenzstufe L5). Ursprüngliche Indikation: Allergische Konjunktivitis"
-monitor_inn: "Olopatadine"
-predicted_indications: ["rosacea conjunctivitis"]
 ---
 
 # Olopatadine
@@ -27,7 +25,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmazeutischer Bewertungsbericht
 

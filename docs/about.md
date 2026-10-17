@@ -80,7 +80,7 @@ Kliniker entworfen wurde.
 </p>
 
 <blockquote class="expert-quote">
-„TxGNN bindet einen Wissensgraphen mit 17.080 biomedizinischen Entitäten ein und nutzt Graph-Neuronale
+„TxGNN bindet einen Wissensgraphen mit 17.080 Krankheiten ein und nutzt Graph-Neuronale
 Netze, um komplexe Beziehungen zwischen Knoten zu lernen und die mögliche Wirksamkeit von
 Arzneimitteln gegen seltene Krankheiten vorherzusagen.“
 <cite>&mdash; Huang et al., Nature Medicine (2024)</cite>

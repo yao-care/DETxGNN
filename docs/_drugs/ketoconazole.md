@@ -7,8 +7,6 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Ketoconazole: vorhergesagte neue Indikation Akne (Evidenzstufe L4). Ursprüngliche Indikation: Cushing-Syndrom"
-monitor_inn: "KETOCONAZOLE"
-predicted_indications: ["acne (disease)"]
 ---
 
 # Ketoconazole
@@ -27,7 +25,7 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **1**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmazeutischer Bewertungsbericht
 

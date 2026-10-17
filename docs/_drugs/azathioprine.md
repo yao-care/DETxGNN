@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Azathioprine: vorhergesagte neue Indikation Colobomatöse Mikrophthalmie-rhizomele Dysplasie-Syndrom (kein plausib… (Evidenzstufe L5). Ursprüngliche Indikation: Transplantatabstoßung"
 monitor_inn: "AZATHIOPRINE"
-predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "osteoarthritis susceptibility", "WHIM syndrome", "inflammatory bowel disease", "granulomatous disease, chronic, autosomal recessive, 5", "osteoarthritis", "granulomatous disease with defect in neutrophil chemotaxis", "ulcerative colitis (disease)", "acromesomelic dysplasia, Hunter-Thompson type"]
+predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "osteoarthritis susceptibility", "WHIM syndrome", "granulomatous disease, chronic, autosomal recessive, 5", "osteoarthritis", "granulomatous disease with defect in neutrophil chemotaxis", "acromesomelic dysplasia, Hunter-Thompson type"]
 ---
 
 # Azathioprine
@@ -27,7 +27,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmazeutischer Bewertungsbericht
 

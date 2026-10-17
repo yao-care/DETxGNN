@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Lamivudine: vorhergesagte neue Indikation Felines erworbenes Immundefizienzsyndrom (FIV) (Evidenzstufe L5). Ursprüngliche Indikation: Chronische Hepatitis B"
 monitor_inn: "LAMIVUDINE"
-predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "chronic hepatitis C virus infection"]
+predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
 ---
 
 # Lamivudine
@@ -27,7 +27,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmazeutischer Bewertungsbericht
 

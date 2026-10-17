@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-14
 description: "Ketorolac: vorhergesagte neue Indikation Kopfschmerzerkrankung (Headache Disorder) (Evidenzstufe L1). Ursprüngliche Indikation: Intraokulare Linsenimplantation"
 monitor_inn: "KETOROLAC"
-predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigeminal autonomic cephalalgia"]
+predicted_indications: ["headache disorder", "trigeminal autonomic cephalalgia"]
 ---
 
 # Ketorolac
@@ -27,7 +27,7 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **3**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmazeutischer Bewertungsbericht
 

@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Rufinamide: vorhergesagte neue Indikation Febriles infektionsassoziiertes Epilepsiesyndrom (FIRES) (Evidenzstufe L5). Ursprüngliche Indikation: Epilepsie"
 monitor_inn: "RUFINAMIDE"
-predicted_indications: ["perioral myoclonia with absences", "cryptogenic late-onset epileptic spasms"]
+predicted_indications: ["perioral myoclonia with absences"]
 ---
 
 # Rufinamide
@@ -27,7 +27,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmazeutischer Bewertungsbericht
 

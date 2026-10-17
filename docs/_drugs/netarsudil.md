@@ -7,8 +7,6 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Netarsudil: vorhergesagte neue Indikation Primäres hereditäres Glaukom (Evidenzstufe L5). Ursprüngliche Indikation: Offenwinkelglaukom"
-monitor_inn: "NETARSUDIL"
-predicted_indications: ["primary hereditary glaucoma"]
 ---
 
 # Netarsudil
@@ -27,7 +25,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmazeutischer Bewertungsbericht
 

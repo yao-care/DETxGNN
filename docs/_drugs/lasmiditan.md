@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-14
 description: "Lasmiditan: vorhergesagte neue Indikation Migräne mit Hirnstammaura (Evidenzstufe L4). Ursprüngliche Indikation: Migräne (Migraine Disorders)"
 monitor_inn: "Lasmiditan"
-predicted_indications: ["migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
+predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
 ---
 
 # Lasmiditan
@@ -27,7 +27,7 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **3**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmazeutischer Bewertungsbericht
 

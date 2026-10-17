@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Levetiracetam: vorhergesagte neue Indikation Status epilepticus (Evidenzstufe L5). Ursprüngliche Indikation: Epilepsie"
 monitor_inn: "LEVETIRACETAM"
-predicted_indications: ["micturation-induced seizures", "audiogenic seizures", "thinking seizures", "orgasm-induced seizures", "eating seizures", "reading seizures", "beta-ketothiolase deficiency"]
+predicted_indications: ["beta-ketothiolase deficiency"]
 ---
 
 # Levetiracetam
@@ -27,7 +27,7 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmazeutischer Bewertungsbericht
 

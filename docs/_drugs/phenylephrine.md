@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-14
 description: "Phenylephrine: vorhergesagte neue Indikation Erkrankung der Nasenhöhle (nasal cavity disease) (Evidenzstufe L3). Ursprüngliche Indikation: Intraokulare Linsenimplantation"
 monitor_inn: "PHENYLEPHRINE"
-predicted_indications: ["trigeminal autonomic cephalalgia"]
+predicted_indications: ["acute laryngopharyngitis", "trigeminal autonomic cephalalgia"]
 ---
 
 # Phenylephrine
@@ -27,7 +27,7 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **3**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmazeutischer Bewertungsbericht
 
