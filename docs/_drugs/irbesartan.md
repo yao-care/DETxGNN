@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-14
 description: "Irbesartan: vorhergesagte neue Indikation Malignes hypertensives Nierenleiden (Evidenzstufe L5). Ursprüngliche Indikation: Hypertonie"
 monitor_inn: "IRBESARTAN"
-predicted_indications: ["malignant hypertensive renal disease", "malignant renovascular hypertension", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
+predicted_indications: ["malignant hypertensive renal disease"]
 ---
 
 # Irbesartan

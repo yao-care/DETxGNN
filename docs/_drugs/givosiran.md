@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Givosiran: vorhergesagte neue Indikation Primitive Pfortaderthrombose (Evidenzstufe L5). Ursprüngliche Indikation: Hepatische Porphyrien"
 monitor_inn: "GIVOSIRAN"
-predicted_indications: ["primitive portal vein thrombosis", "idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "hepatoportal sclerosis", "hepatopulmonary syndrome", "chronic hepatitis C virus infection", "glycogen storage disease due to hepatic glycogen synthase deficiency", "chronic hepatitis B virus infection", "porphyria due to ALA dehydratase deficiency", "disorder of phenylalanine metabolism"]
+predicted_indications: ["primitive portal vein thrombosis", "idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "hepatoportal sclerosis", "hepatopulmonary syndrome", "chronic hepatitis C virus infection", "glycogen storage disease due to hepatic glycogen synthase deficiency", "chronic hepatitis B virus infection", "disorder of phenylalanine metabolism"]
 ---
 
 # Givosiran

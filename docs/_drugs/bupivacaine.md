@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-14
 description: "Bupivacaine: vorhergesagte neue Indikation Acrodermatitis chronica atrophicans (Evidenzstufe L5). Ursprüngliche Indikation: Akuter Schmerz"
 monitor_inn: "BUPIVACAINE"
-predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis"]
+predicted_indications: ["neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis"]
 ---
 
 # Bupivacaine

@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-14
 description: "Valsartan: vorhergesagte neue Indikation Maligne hypertensive Nierenerkrankung (Evidenzstufe L4). Ursprüngliche Indikation: Hypertonie"
 monitor_inn: "VALSARTAN"
-predicted_indications: ["malignant hypertensive renal disease", "malignant renovascular hypertension", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
+predicted_indications: ["malignant hypertensive renal disease", "chronic pulmonary heart disease", "Prinzmetal angina"]
 ---
 
 # Valsartan

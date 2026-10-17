@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-14
 description: "Talimogene Laherparepvec: vorhergesagte neue Indikation CMM7 (Bezeichnung nicht eindeutig definiert… (Evidenzstufe L5). Ursprüngliche Indikation: Melanom"
 monitor_inn: "TALIMOGENE LAHERPAREPVEC"
-predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "glottis squamous cell carcinoma", "lung occult squamous cell carcinoma", "rectal cloacogenic carcinoma", "gallbladder adenosquamous carcinoma"]
+predicted_indications: ["CMM7", "glottis squamous cell carcinoma", "lung occult squamous cell carcinoma", "rectal cloacogenic carcinoma", "gallbladder adenosquamous carcinoma"]
 ---
 
 # Talimogene Laherparepvec

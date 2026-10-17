@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Capecitabine: vorhergesagte neue Indikation Gastrisches Adenokarzinom und proximale Polyposis des Magens (Rang 1) (Evidenzstufe L5). Ursprüngliche Indikation: Kolonkarzinom, Brustkrebs, kolorektale T…"
 monitor_inn: "CAPECITABINE"
-predicted_indications: ["gastric adenocarcinoma and proximal polyposis of the stomach", "signet ring cell gastric adenocarcinoma", "microinvasive gastric cancer", "gastric tubular adenocarcinoma", "gastric cardia adenocarcinoma", "gastric pylorus carcinoma", "carcinoma of stomach, salivary gland type", "gastric body carcinoma", "Epstein-Barr virus-associated gastric carcinoma", "malignant gastric granular cell tumor"]
+predicted_indications: ["gastric adenocarcinoma and proximal polyposis of the stomach", "signet ring cell gastric adenocarcinoma", "gastric tubular adenocarcinoma", "gastric cardia adenocarcinoma"]
 ---
 
 # Capecitabine

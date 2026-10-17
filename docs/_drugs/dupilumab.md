@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Dupilumab: vorhergesagte neue Indikation Bronchitis (Evidenzstufe L3). Ursprüngliche Indikation: Atopische Dermatitis, Prurigo, Ösophaguserkrankungen, Asthma…"
 monitor_inn: "DUPILUMAB"
-predicted_indications: ["bronchitis", "dermatitis", "acne keloid", "exanthem (disease)", "neonatal dermatomyositis", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy"]
+predicted_indications: ["bronchitis", "acne keloid", "exanthem (disease)", "neonatal dermatomyositis", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy"]
 ---
 
 # Dupilumab

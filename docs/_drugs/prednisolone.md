@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Prednisolone: vorhergesagte neue Indikation Alopecia areata (Evidenzstufe L2). Ursprüngliche Indikation: Autoimmunerkrankungen . Für die Zulassung in Deutschland liegt kein I…"
 monitor_inn: "PREDNISOLONE"
-predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland", "idiopathic steroid-sensitive nephrotic syndrome"]
+predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
 ---
 
 # Prednisolone

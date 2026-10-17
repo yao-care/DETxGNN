@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Insulin Glulisine: vorhergesagte neue Indikation Diabetes mellitus Typ 1 (Evidenzstufe L1). Ursprüngliche Indikation: Diabetes mellitus"
 monitor_inn: "INSULIN GLULISINE"
-predicted_indications: ["type 1 diabetes mellitus", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "focal stiff limb syndrome", "classic stiff person syndrome", "autoimmune oophoritis", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
+predicted_indications: ["thiamine-responsive dysfunction syndrome", "opsismodysplasia", "focal stiff limb syndrome", "classic stiff person syndrome", "autoimmune oophoritis", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
 ---
 
 # Insulin Glulisine

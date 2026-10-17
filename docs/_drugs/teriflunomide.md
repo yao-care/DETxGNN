@@ -7,8 +7,6 @@ evidence_level: L1
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Teriflunomide: vorhergesagte neue Indikation Relapsierend-remittierende Multiple Sklerose (Evidenzstufe L1). Ursprüngliche Indikation: Multiple Sklerose, relapsierend-remittierend"
-monitor_inn: "TERIFLUNOMIDE"
-predicted_indications: ["relapsing-remitting multiple sclerosis"]
 ---
 
 # Teriflunomide

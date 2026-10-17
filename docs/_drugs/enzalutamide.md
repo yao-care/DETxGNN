@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-14
 description: "Enzalutamide: vorhergesagte neue Indikation Prostatakrebs-/Hirntumor-Suszeptibilität (Evidenzstufe L5). Ursprüngliche Indikation: Prostatatumoren (Prostatakarzinom)"
 monitor_inn: "ENZALUTAMIDE"
-predicted_indications: ["prostate cancer/brain cancer susceptibility", "prostate leiomyoma", "Brenner tumor", "fibroma of prostate", "benign reproductive system neoplasm", "male reproductive organ cancer", "benign prostate phyllodes tumor"]
+predicted_indications: ["prostate leiomyoma", "Brenner tumor", "fibroma of prostate", "benign reproductive system neoplasm", "benign prostate phyllodes tumor"]
 ---
 
 # Enzalutamide

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Mercaptopurine: vorhergesagte neue Indikation Myeloische Leukämie (Evidenzstufe L2). Ursprüngliche Indikation: Lymphatische Leukämie"
 monitor_inn: "mercaptopurine"
-predicted_indications: ["myeloid leukemia", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pulmonary blastoma", "Hodgkins lymphoma", "primary pulmonary lymphoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung", "precursor lymphoblastic lymphoma/leukemia", "acute lymphoblastic leukemia"]
+predicted_indications: ["myeloid leukemia", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pulmonary blastoma", "Hodgkins lymphoma", "primary pulmonary lymphoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung"]
 ---
 
 # Mercaptopurine

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Sorafenib: vorhergesagte neue Indikation Liposarkom (Evidenzstufe L2). Ursprüngliche Indikation: Hepatozelluläres Karzinom"
 monitor_inn: "SORAFENIB"
-predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "unclassified renal cell carcinoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal cell carcinoma associated with neuroblastoma", "childhood kidney cell carcinoma", "female breast carcinoma", "renal pelvis carcinoma", "vulva sarcoma", "dermatofibrosarcoma protuberans"]
+predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "female breast carcinoma", "renal pelvis carcinoma", "vulva sarcoma", "dermatofibrosarcoma protuberans"]
 ---
 
 # Sorafenib

@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-10-14
 description: "Omeprazole: vorhergesagte neue Indikation Duodenogastrischer Reflux (Evidenzstufe L4). Ursprüngliche Indikation: Magengeschwür, Zwölffingerdarmgeschwür…"
 monitor_inn: "OMEPRAZOLE"
-predicted_indications: ["duodenogastric reflux", "duodenal obstruction"]
+predicted_indications: ["duodenal obstruction"]
 ---
 
 # Omeprazole

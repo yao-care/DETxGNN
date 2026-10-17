@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Fluoxetine: vorhergesagte neue Indikation Phobische Störung (höchstbewertete Vorhersage im Datensatz: schizotyp… (Evidenzstufe L5). Ursprüngliche Indikation: Angststörung, neurotische Störung, dysthy…"
 monitor_inn: "FLUOXETINE"
-predicted_indications: ["schizotypal personality disorder", "paranoid personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia", "manic bipolar affective disorder", "phobic disorder", "Ohdo syndrome and variants", "melancholia"]
+predicted_indications: ["schizotypal personality disorder", "paranoid personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia", "Ohdo syndrome and variants"]
 ---
 
 # Fluoxetine

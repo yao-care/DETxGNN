@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Pegaspargase: vorhergesagte neue Indikation Vorläuferzell-lymphoblastisches Lymphom/Leukämie (Evidenzstufe L1). Ursprüngliche Indikation: Vorläuferzell-lymphoblastische Leukämie/Lymphom"
 monitor_inn: "PEGASPARGASE"
-predicted_indications: ["precursor lymphoblastic lymphoma/leukemia", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "follicular lymphoma", "acute lymphoblastic leukemia", "methylcobalamin deficiency type cblE", "lymphoid neoplasm", "Hodgkins lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive"]
+predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "follicular lymphoma", "methylcobalamin deficiency type cblE", "lymphoid neoplasm", "Hodgkins lymphoma", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive"]
 ---
 
 # Pegaspargase
