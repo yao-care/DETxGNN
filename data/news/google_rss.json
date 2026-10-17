@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-16T22:37:38.234889+00:00",
+  "fetched_at": "2026-10-17T01:08:24.914890+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -24,16 +24,6 @@
       }
     },
     {
-      "id": "172094f2a1b6",
-      "title": "ADHS bei Frauen und Erwachsenen: Bessere Erkennung oder mehr Betroffene? - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQWtoZ25JYUF4WWV4N0IyVUJmeFFTd0NBQ2JBbDdrMnN1NGhSYTRBc2JiOFB5OFJpc2s4X3VvaExBV2Nzbk1DVnp4UTB0RERBMktFWGRoaTRtX0VEWV9jLXFzZGFQejdudDVjbWdlUkl3eXpkYXJ3SFF1UHRqQnFHcDZaWmE4Y0Rwb21QMUNuaFFPTGlZRzhUTlYzTG54RDI5V0tuaW1xN0xvdw?oc=5",
-      "published": "2026-10-16T06:51:01+00:00",
-      "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
-      }
-    },
-    {
       "id": "00b128a4f365",
       "title": "Revolutionäres Krebsmedikament bald in Europa verfügbar - Gesundheit - SZ.de - SZ.de",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVFNSU1BNSU55UFpTMy12ZmhUVFo4S3JoZTA1WmNrRXJMdlFhMzFrZ0dkMDZBS3pib05aOEpIamxlSUZvMlhDdVphNGdGRGk4dUU5SnlZV3hjQVZfOUotSV9YN1g1OFJOQjE4WjBKTFRqVVUtalJDbmhFamlWVXRLdGhURHg3ZnRlbmpqMmtMcXp0VDZ5UXU4aUZrN0U3SVJGQk1TY3FBV3JxNzhXSWJLdjBxUWdLdw?oc=5",
@@ -44,13 +34,13 @@
       }
     },
     {
-      "id": "ef0b37a3504a",
-      "title": "Ist das der Durchbruch gegen Bauchspeicheldrüsenkrebs? - WEB.DE",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSTB2RW1Yd3JGOXVneFFSRzQ2eElRQ0p4RmJGMTVhMzctWFlGUHFTeVdBTDYtMUJNWVdzZnhxNXdGT3A3dkFaczN2Y0RZZUYzcmNSeDk4dndGRGludGFhRmxiZFRhVmdjSGprcXRkNEtvRFNsMzhkZElsNVdDSC16QlVvQUhjNUU?oc=5",
-      "published": "2026-10-16T08:52:31+00:00",
+      "id": "172094f2a1b6",
+      "title": "ADHS bei Frauen und Erwachsenen: Bessere Erkennung oder mehr Betroffene? - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQWtoZ25JYUF4WWV4N0IyVUJmeFFTd0NBQ2JBbDdrMnN1NGhSYTRBc2JiOFB5OFJpc2s4X3VvaExBV2Nzbk1DVnp4UTB0RERBMktFWGRoaTRtX0VEWV9jLXFzZGFQejdudDVjbWdlUkl3eXpkYXJ3SFF1UHRqQnFHcDZaWmE4Y0Rwb21QMUNuaFFPTGlZRzhUTlYzTG54RDI5V0tuaW1xN0xvdw?oc=5",
+      "published": "2026-10-16T06:51:01+00:00",
       "source": {
-        "name": "WEB.DE",
-        "url": "https://web.de"
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
       }
     },
     {
@@ -61,6 +51,16 @@
       "source": {
         "name": "Sandoz",
         "url": "https://www.sandoz.com"
+      }
+    },
+    {
+      "id": "ef0b37a3504a",
+      "title": "Ist das der Durchbruch gegen Bauchspeicheldrüsenkrebs? - WEB.DE",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSTB2RW1Yd3JGOXVneFFSRzQ2eElRQ0p4RmJGMTVhMzctWFlGUHFTeVdBTDYtMUJNWVdzZnhxNXdGT3A3dkFaczN2Y0RZZUYzcmNSeDk4dndGRGludGFhRmxiZFRhVmdjSGprcXRkNEtvRFNsMzhkZElsNVdDSC16QlVvQUhjNUU?oc=5",
+      "published": "2026-10-16T08:52:31+00:00",
+      "source": {
+        "name": "WEB.DE",
+        "url": "https://web.de"
       }
     },
     {
@@ -114,6 +114,16 @@
       }
     },
     {
+      "id": "cc7e3fc238fe",
+      "title": "Höhepunkte der Sitzung des Ausschusses für Humanarzneimittel (CHMP) vom 12. bis 15. Oktober 2026 - The European Times",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPVG5TM2xFOHlreVhBMEV6MzBBOVZSQUxGaGNUU29YLVpBdmtWc0pjOW53YkgxcHBwYnk3UlVuNjhRbXRNUzJod21SZkJ0TjMwMWppLUcxQlFVbGdxU1BIU0M2UzVsYjNhVXNaWEZJb3pWcTVvMDFWSHNOcmE2Zkg1bFFXM3JfLW40Q3NZOTlYZllKV29TV3NwTEJobFNJclFhLUNQZGQ0bXhjSjNjTkRoVlItODZKRXE2VkdrNDdpT1ExaUJ6a3pCRG1VbS1RVDZPMmdjSFV0Tk41QQ?oc=5",
+      "published": "2026-10-16T10:00:00+00:00",
+      "source": {
+        "name": "The European Times",
+        "url": "https://www.europeantimes.news"
+      }
+    },
+    {
       "id": "2a4cd6eb6d1d",
       "title": "Arzneimittelengpässe in Europa – so reagiert die EU - European Parliament",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYUFLam5JQVMtSlNuNWlqSTJrRUNDN215RDlRU2hOMEE0Rkp3cHBodVhSbXRsSUhvTTRhMTVLWEE5QmM0dXJRNGlPSkwyZ2doMHhlaEpHbW5DZl8tazhQc3lPcEN4SmtLaEdGMk9IZjF5MGZvNEd3a2tXSnJXT1ItanFsV2gtRGpMYjlUbHV2OURrMkM5OXA3emh5OERlMlpXc1J1UlNVYUp1UlBUd1gzREtLUkZRZw?oc=5",
@@ -121,16 +131,6 @@
       "source": {
         "name": "European Parliament",
         "url": "https://www.europarl.europa.eu"
-      }
-    },
-    {
-      "id": "070847040a53",
-      "title": "BPI begrüßt Entscheidungen des Gesundheitsausschusses zu Zytostatika und Medizinalcannabis - verbaende.com",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNeWIyU0hPeG9lOEFPX3dPSVFYLXNRYnlIZS0zNk5XdzlpZGpwX09zeWtYLWowMWlTbHlURVRBc1I3SVQ5T3U4b1RKR0o5RHRBYnc3dF9qY1ZMTzFpc0lpbkFYNDUxUkx4emdkUkJVaHBaLXlWelJkX3lFelpSdmE0eExkMTJvQ2xlbVdJRU5Cd1FzUFVhNUtnTUlRU1h2S2JyM0xBakl6QnZIcFhsLTMyMm1VdXNKQXNhbGluZGxvSEtWbzc1UjdWRmhoTGRBOFJVby1UWl8zdWNXdXVwVGY5YzBB?oc=5",
-      "published": "2026-10-15T11:41:00+00:00",
-      "source": {
-        "name": "verbaende.com",
-        "url": "https://www.verbaende.com"
       }
     },
     {
@@ -204,6 +204,16 @@
       }
     },
     {
+      "id": "070847040a53",
+      "title": "BPI begrüßt Entscheidungen des Gesundheitsausschusses zu Zytostatika und Medizinalcannabis - verbaende.com",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNeWIyU0hPeG9lOEFPX3dPSVFYLXNRYnlIZS0zNk5XdzlpZGpwX09zeWtYLWowMWlTbHlURVRBc1I3SVQ5T3U4b1RKR0o5RHRBYnc3dF9qY1ZMTzFpc0lpbkFYNDUxUkx4emdkUkJVaHBaLXlWelJkX3lFelpSdmE0eExkMTJvQ2xlbVdJRU5Cd1FzUFVhNUtnTUlRU1h2S2JyM0xBakl6QnZIcFhsLTMyMm1VdXNKQXNhbGluZGxvSEtWbzc1UjdWRmhoTGRBOFJVby1UWl8zdWNXdXVwVGY5YzBB?oc=5",
+      "published": "2026-10-15T11:41:00+00:00",
+      "source": {
+        "name": "verbaende.com",
+        "url": "https://www.verbaende.com"
+      }
+    },
+    {
       "id": "38b8b0aa9188",
       "title": "Vom Wissen zum Handeln: Verbesserung der Bezahlbarkeit von Arzneimitteln in den Ländern des Westbalkans - World Health Organization (WHO)",
       "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOZlNmcEdYcXZxdDBYazhiVjRCWHVtbms0ZG5JUWlXb0lJWXVFYjV1ak1MR05oZW5FbHFMTGpyNjJxS1ZuQWk4Nl9Wc2NHdHE3YnhrQzc1VHJNbm1QRFdMVF9WVGw2NHdVeDBHajRYX1hfZkFEMTU2Z09kcU04T1c1V3dKZ09nUUlMc3dnLVdvQ3RTYUZqSDA3d1djVXpxbU9fSFUtSGlHbHNOdFJRb29RQlpTRHEzd2pCQzd5Y3VRNmcza2dzTVVlYUp5Y1U5b01kMGpQUzZvNGctWE0tSmJRSEk5TQ?oc=5",
@@ -234,16 +244,6 @@
       }
     },
     {
-      "id": "18e43bd86c69",
-      "title": "Wahlen Mecklenburg-Vorpommern: Linke will Versandhandel von Medikamenten unterbinden - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZmVfS05qQ0xQeGNrajNHX2RLQWtVZlVqVlFPdG9NMmp0U2pyWE1PWTdnLXBDV2loMDJKR2MwZzdEWlY4bnlCMHQxeXp4SlFTN0hiMDhxR0dqYU1ZcDBOZ2Nrczd0ZVVXanBKcmlfRmZxOVpMalRJWlJ1SG5RODU0dFlmYm1vdkJoakVpRU0wcVg1Mk1OYWdleV9Sc1U5VW53a1E?oc=5",
-      "published": "2026-09-18T07:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "bb553491699c",
       "title": "Abschaffung der Mehrwertsteuer auf Arzneimittel - openPetition",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQR2ZyOGpub3o3YjR6WktVOXowVW5aMmNRcUZnRHQteUNLdVdiWFpMSHpndXJ0ajFhSmNTQXk1LVptMF9BUHlMeGRSb2dJalBRVjkxbGE4eWhObTFsT1gzVUtGblkxNDhVMlR2b2JYb1NWSGJqd2k1bGwxODhLVFh3aVdwY3pNNV81VDk0ZkxEbmVlSXdZY2c?oc=5",
@@ -251,6 +251,16 @@
       "source": {
         "name": "openPetition",
         "url": "https://www.openpetition.de"
+      }
+    },
+    {
+      "id": "18e43bd86c69",
+      "title": "Wahlen Mecklenburg-Vorpommern: Linke will Versandhandel von Medikamenten unterbinden - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZmVfS05qQ0xQeGNrajNHX2RLQWtVZlVqVlFPdG9NMmp0U2pyWE1PWTdnLXBDV2loMDJKR2MwZzdEWlY4bnlCMHQxeXp4SlFTN0hiMDhxR0dqYU1ZcDBOZ2Nrczd0ZVVXanBKcmlfRmZxOVpMalRJWlJ1SG5RODU0dFlmYm1vdkJoakVpRU0wcVg1Mk1OYWdleV9Sc1U5VW53a1E?oc=5",
+      "published": "2026-09-18T07:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -614,16 +624,6 @@
       }
     },
     {
-      "id": "238d627fd5b2",
-      "title": "Mounjaro zum Abnehmen: Expertin warnt vor Risiken für Gesundheit, Haut und Haare - Frankfurter Rundschau",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPekhkdTRkanJIdWVpUWJha2UtdnE1SzFSMGVVeXR2YXBzcVNRMEFVWkdWQm1rWVVNSXZLQVZ3c3VYMjhJdmV4bGtDUklPZlZ1Rno4X1hhbXhUdDFWdHVTcUw0bUxtZTl4UzFKM1FUdGFpNGZVYjBfZklpU2xZTFluUXRXZXhLVU43cXRxUkdTaHJUcFJKVXFwTXdRYW4zWE1KaUMwUU82dkFtODJuLTBnZVJIWGJSZXZtbWwxTS1B?oc=5",
-      "published": "2026-09-17T07:00:00+00:00",
-      "source": {
-        "name": "Frankfurter Rundschau",
-        "url": "https://www.fr.de"
-      }
-    },
-    {
       "id": "198b0da65ee5",
       "title": "HIV-Schutz mit Tabletten: Wie sicher ist PrEP im Alltag? - NDR.de",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTWhsNWk1Tkc5MzNycUQ5RzhaaXhPTGlCcHJ1Yl9wajZ0VkV3akIxR255SUd6clB5aU5fZmNlUGZIcTVNanZlTmctSDJqUFB5Zk5XempaWnhrbDBlVWZuOE9xWDRSREhKRm5sa0lrbGVnVjl0TE5NNWtTY25CUzRmdG5jQlBZc1pFakFyT0hITHU5NmpfaUE?oc=5",
@@ -631,6 +631,16 @@
       "source": {
         "name": "NDR.de",
         "url": "https://www.ndr.de"
+      }
+    },
+    {
+      "id": "238d627fd5b2",
+      "title": "Mounjaro zum Abnehmen: Expertin warnt vor Risiken für Gesundheit, Haut und Haare - Frankfurter Rundschau",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPekhkdTRkanJIdWVpUWJha2UtdnE1SzFSMGVVeXR2YXBzcVNRMEFVWkdWQm1rWVVNSXZLQVZ3c3VYMjhJdmV4bGtDUklPZlZ1Rno4X1hhbXhUdDFWdHVTcUw0bUxtZTl4UzFKM1FUdGFpNGZVYjBfZklpU2xZTFluUXRXZXhLVU43cXRxUkdTaHJUcFJKVXFwTXdRYW4zWE1KaUMwUU82dkFtODJuLTBnZVJIWGJSZXZtbWwxTS1B?oc=5",
+      "published": "2026-09-17T07:00:00+00:00",
+      "source": {
+        "name": "Frankfurter Rundschau",
+        "url": "https://www.fr.de"
       }
     },
     {
@@ -874,16 +884,6 @@
       }
     },
     {
-      "id": "e7fc237accfb",
-      "title": "Medikamente im DM-Drogeriemarkt – Apotheken laufen Sturm - STERN.de",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMG5SMnM4aXU5czJ1S2dnUzdMeFBmb3IxQVBKWGVvcVB0eUJQUjkxRU00RHEtQlRjVU1EM0Z2WF95SG85WDJPSjVNcjRTWFM1OHVXNm5pdVAxZGtDcHJTSXFpSDAtdUstM0JISWRKcEI5OXRXZ2hXSzQ3cFJqb0g5N0ZRajJtY21JUmRNNmZweXg1bEpuOXc0Rk9CNENaMHNOYTc4OGtjZw?oc=5",
-      "published": "2025-12-16T08:00:00+00:00",
-      "source": {
-        "name": "STERN.de",
-        "url": "https://www.stern.de"
-      }
-    },
-    {
       "id": "132959ae824c",
       "title": "Prostatakrebs: Neues Medikament könnte zukünftig Rückfallrisiko senken - aponet.de",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbHA4UW9qc3JzMGNtWUlkSlFGWHZNVUZlWlBRellBckFvanZLUGdsTU9aVzMwMDVTT0hacktYZlBwUkRrZGs1eE1IYUtnRkJzM0tucHRqV05xaTJLVFY2bTlkS3JSTkZQZG9MRUFkYlVoeXBILXhXQ2oxa1U4Wnd0LVFoSUhaWXZiNGh5Y2drUHNtY3dGWjFSTXAtck5MZ056Y0lnX25LcFFqS0hY?oc=5",
@@ -891,6 +891,16 @@
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
+      }
+    },
+    {
+      "id": "e7fc237accfb",
+      "title": "Medikamente im DM-Drogeriemarkt – Apotheken laufen Sturm - STERN.de",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMG5SMnM4aXU5czJ1S2dnUzdMeFBmb3IxQVBKWGVvcVB0eUJQUjkxRU00RHEtQlRjVU1EM0Z2WF95SG85WDJPSjVNcjRTWFM1OHVXNm5pdVAxZGtDcHJTSXFpSDAtdUstM0JISWRKcEI5OXRXZ2hXSzQ3cFJqb0g5N0ZRajJtY21JUmRNNmZweXg1bEpuOXc0Rk9CNENaMHNOYTc4OGtjZw?oc=5",
+      "published": "2025-12-16T08:00:00+00:00",
+      "source": {
+        "name": "STERN.de",
+        "url": "https://www.stern.de"
       }
     },
     {
@@ -991,16 +1001,6 @@
       "source": {
         "name": "MDR.de",
         "url": "https://www.mdr.de"
-      }
-    },
-    {
-      "id": "705974bba917",
-      "title": "Amazon dominiert den Markt mit Gesundheitsprodukten - Deutsche Apotheker Zeitung, DAZ",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbHlZQTZWYmlGbVU5cjNqYjFlak5yVlpqT2xSenpLbFN2bDBBbE5wbTVpNDNtTmVFeUNfVlpqaHJBbUNIVVVxcVl4WThULXJaTEp3YjVQbmRfZkc5MEdCXzRKMV92aGc3UGQ4dWNVa05BM1lqcUVKZ1Z6X25rdGRNcUpha0V2a2p0N3A4LXZEdVpHTURXTVVhU1FkTkt2dUVKcWdkOTRRX25pN0JLbTQ5UXVMUjBlRmhH?oc=5",
-      "published": "2026-05-11T07:00:00+00:00",
-      "source": {
-        "name": "Deutsche Apotheker Zeitung, DAZ",
-        "url": "https://www.deutsche-apotheker-zeitung.de"
       }
     }
   ]
