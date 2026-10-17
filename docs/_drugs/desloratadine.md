@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-14
 description: "Desloratadine: vorhergesagte neue Indikation Kälteurtikaria (Evidenzstufe L1). Ursprüngliche Indikation: Allergische Rhinitis (ganzjährig und saisonal), Urtikaria"
 monitor_inn: "DESLORATADINE"
-predicted_indications: ["cold urticaria", "nasal cavity disease", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "rosacea conjunctivitis"]
+predicted_indications: ["nasal cavity disease", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "rosacea conjunctivitis"]
 ---
 
 # Desloratadine

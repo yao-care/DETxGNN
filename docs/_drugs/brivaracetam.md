@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Brivaracetam: vorhergesagte neue Indikation Status epilepticus (Rang 2 der Vorhersagen (Evidenzstufe L3). Ursprüngliche Indikation: Epilepsie"
 monitor_inn: "BRIVARACETAM"
-predicted_indications: ["visual epilepsy", "status epilepticus", "audiogenic seizures", "thinking seizures", "eating seizures", "startle epilepsy", "orgasm-induced seizures", "micturation-induced seizures", "beta-ketothiolase deficiency", "adolescent/adult onset autosomal dominant epilepsy with auditory features"]
+predicted_indications: ["audiogenic seizures", "thinking seizures", "eating seizures", "orgasm-induced seizures", "micturation-induced seizures", "beta-ketothiolase deficiency"]
 ---
 
 # Brivaracetam

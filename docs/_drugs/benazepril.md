@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Benazepril: vorhergesagte neue Indikation Maligne hypertensive Nierenerkrankung (Evidenzstufe L5). Ursprüngliche Indikation: Hypertonie (arterielle Hypertonie)"
 monitor_inn: "Benazepril"
-predicted_indications: ["malignant hypertensive renal disease"]
+predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
 ---
 
 # Benazepril
