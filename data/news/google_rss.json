@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-18T22:49:57.450344+00:00",
+  "fetched_at": "2026-10-19T00:53:14.597951+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -94,16 +94,6 @@
       }
     },
     {
-      "id": "20723974401d",
-      "title": "Magnesiumpräparate im Test: Oft überdosiert – und mit umstrittenen Zusatzstoffen - oekotest.de",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNR3pGdzhEa2lTRFRnZ18xSkRod3lpT0pwMHpzUFU0UGVmMGt6V0RWS0dvSFg0RG9PbGlMLWU3THAxMTVRcFZVZG9UcVRVeEFITWpRZXVpYnZzMDJIejZnUnVGVWN3OXFKWmhfY3dtLW1jbUJTWjVtVFVfVk13aUNuelp5MTRhbWs0dlMzZFZ3cFlaTHl4Yi0zSTZPUGJ0MjhZSkx3Q2NpVEdKVFZSOWR3V01PUXNjNDFlWEVsWEwzOGhPT2NuRmtPWE5Ndmlaa0JLMzN0azV0TUtmOU14bWdCVWFB?oc=5",
-      "published": "2026-10-13T07:00:00+00:00",
-      "source": {
-        "name": "oekotest.de",
-        "url": "https://www.oekotest.de"
-      }
-    },
-    {
       "id": "01fc38a2675c",
       "title": "Frauengesundheit: Zehn Wege zur besseren Versorgung - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOcElfVDFYYUJwVk1xUU16RG1XR2FOeWwtcTNkREdaZ2Zyb0ZNSktLR1B6bU16M1JwUTRONk95TWxsa2EzVVpiS01mSm51OEg0eEZpcXJDMWFRZHUyN2J5bm9rc1NRTGdIRFFjaTZGM09aMm5hVWhJcWZ4Z1JCRVhvTjVrdmMxZm8?oc=5",
@@ -111,6 +101,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "20723974401d",
+      "title": "Magnesiumpräparate im Test: Oft überdosiert – und mit umstrittenen Zusatzstoffen - oekotest.de",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNR3pGdzhEa2lTRFRnZ18xSkRod3lpT0pwMHpzUFU0UGVmMGt6V0RWS0dvSFg0RG9PbGlMLWU3THAxMTVRcFZVZG9UcVRVeEFITWpRZXVpYnZzMDJIejZnUnVGVWN3OXFKWmhfY3dtLW1jbUJTWjVtVFVfVk13aUNuelp5MTRhbWs0dlMzZFZ3cFlaTHl4Yi0zSTZPUGJ0MjhZSkx3Q2NpVEdKVFZSOWR3V01PUXNjNDFlWEVsWEwzOGhPT2NuRmtPWE5Ndmlaa0JLMzN0azV0TUtmOU14bWdCVWFB?oc=5",
+      "published": "2026-10-13T07:00:00+00:00",
+      "source": {
+        "name": "oekotest.de",
+        "url": "https://www.oekotest.de"
       }
     },
     {
@@ -314,16 +314,6 @@
       }
     },
     {
-      "id": "2dac895ca93c",
-      "title": "Das Gesundheitsministerium schlägt vor, die Beiträge zur Krankenversicherung zu erhöhen und die Leistungen für die Versicherten auszuweiten. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNamNvNDByTENQZUtnbjhNbGxKbXN0akFQcVpEbm9WSEYxTjE3VEVuSDZzU3huX0djSW9iZzJPRkhNNGYwd0paOVFDc1JvbV9YYU4zUGdMMTF1aTI4Y0cyR2M2c0w2YWRIRHoybE0zRl9nQ1dOcENaSmFsc0tDYnJPLU5RS3oyV01wMmc4TTV6VHF0dzhJdVJwNmthOFdMRW93N3JhaA?oc=5",
-      "published": "2026-10-14T08:06:24+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "e55e30521cda",
       "title": "Vorschläge der FinanzKommission Gesundheit für eine Reform der GKV - Taylor Wessing",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQVJuN0Fwenp0QU9hM01mSTRlR1ZxUzBfaExuWkRPSVIxQTBmb21HMGJ3Umd1b2Q5NjlpTkZWdnlsWU5RdG4tYmV2YWlldnhEREpzVmdLaURVbVpCR2pFRDY5Z1d6VW53bGtvaGgwTkRMeFMzeWI5WDJNd2ZXdTl4WkJTRURfbEstNXlJaXdzNGlwQTF5dHJ2Mjg1bFlJTW1SajFpM3VpMEtDdXZuNWplY3NnTQ?oc=5",
@@ -341,6 +331,16 @@
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
+      }
+    },
+    {
+      "id": "2dac895ca93c",
+      "title": "Das Gesundheitsministerium schlägt vor, die Beiträge zur Krankenversicherung zu erhöhen und die Leistungen für die Versicherten auszuweiten. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNamNvNDByTENQZUtnbjhNbGxKbXN0akFQcVpEbm9WSEYxTjE3VEVuSDZzU3huX0djSW9iZzJPRkhNNGYwd0paOVFDc1JvbV9YYU4zUGdMMTF1aTI4Y0cyR2M2c0w2YWRIRHoybE0zRl9nQ1dOcENaSmFsc0tDYnJPLU5RS3oyV01wMmc4TTV6VHF0dzhJdVJwNmthOFdMRW93N3JhaA?oc=5",
+      "published": "2026-10-14T08:06:24+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
