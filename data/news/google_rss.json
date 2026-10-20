@@ -1,16 +1,16 @@
 {
-  "fetched_at": "2026-10-20T03:53:04.942141+00:00",
+  "fetched_at": "2026-10-20T09:14:25.838165+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
     {
-      "id": "87a4c515be29",
-      "title": "Medikamente in der Winterzeit: Zeitumstellung: Was gilt bei Tabletten mit fester Uhrzeit? - Volksstimme",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNU2hueEowVFBHcm5GWTdXUjV0N3hkQ3VVa282bTBlX2tDTkhkNVFxR3JvVU9TaXBmdDIxNlhOd0E2Nl81N3ZIR1dheTI0c1ZYUDlabG1BRXhvb0ZtQWNQRk5VTUNXUm9BZVZ5ZzVvVXhXUWdjeE82TmpsYjdDaFl5TkVKbmlBZmdJQnJGOFJ2ZjBZZ2JoaTM4X3g5TWpYb1VISTBrYmk0eWc4NUJo?oc=5",
-      "published": "2026-10-20T03:32:00+00:00",
+      "id": "2189182e4d8f",
+      "title": "Medikamente in der Winterzeit: Zeitumstellung: Was gilt bei Tabletten mit fester Uhrzeit? - Handelsblatt",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNaUs4ZnVHRFdnSm9Qck5QUmhsWmE5QXFkRUczTnZ2NVM1bVhfRDRXOEp2RmZyYi15OHFZb1ZQaFFkcjRMZUdsTEUwOFhSTEhseXVDblB1THJYSzBGM2RRVEllVjhzRFFiUTVZT0FadGJBVklqREc5UWpnWlhqTGV0eENNWEZtVGR5UmdJTWZ1enYwaWFJZ0dRTmpKdGl4SGRkc1RiTE9RRGpwTWxhcUF4TTdZTTJlVnA3UlFudE5vNzZRQkdWbmg4dG9OZUpZYWNQQ21KY3FHN2V4MlhNUl93?oc=5",
+      "published": "2026-10-20T03:32:04+00:00",
       "source": {
-        "name": "Volksstimme",
-        "url": "https://www.volksstimme.de"
+        "name": "Handelsblatt",
+        "url": "https://www.handelsblatt.com"
       }
     },
     {
@@ -31,16 +31,6 @@
       "source": {
         "name": "SZ.de",
         "url": "https://www.sueddeutsche.de"
-      }
-    },
-    {
-      "id": "4dd44612c359",
-      "title": "Warum Arzneimittel bei Hitze anders wirken - apotheke adhoc",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMjhNeWJOSnV5c2JLV2k4V29MMjlJT0VFNWlqWXRWSjhTWU5DS3JyWFpCczdMUWw3RElSMXQ1OXhBZGNuVzZEZGh3RlFxWnZ4cy13QkNzUGIwTHBPM1UzNjdWemRWRGZwOVdkUHRQb0gydEpsaEloaFBFOWhUSHkwNXBlcU52b25CRXE4TDdqX0MxbHJSenpmRW10VThicW1fR2txX2NsQjhFVUE?oc=5",
-      "published": "2026-10-15T10:20:24+00:00",
-      "source": {
-        "name": "apotheke adhoc",
-        "url": "https://www.apotheke-adhoc.de"
       }
     },
     {
@@ -94,16 +84,6 @@
       }
     },
     {
-      "id": "ef0b37a3504a",
-      "title": "Ist das der Durchbruch gegen Bauchspeicheldrüsenkrebs? - WEB.DE",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSTB2RW1Yd3JGOXVneFFSRzQ2eElRQ0p4RmJGMTVhMzctWFlGUHFTeVdBTDYtMUJNWVdzZnhxNXdGT3A3dkFaczN2Y0RZZUYzcmNSeDk4dndGRGludGFhRmxiZFRhVmdjSGprcXRkNEtvRFNsMzhkZElsNVdDSC16QlVvQUhjNUU?oc=5",
-      "published": "2026-10-16T08:52:31+00:00",
-      "source": {
-        "name": "WEB.DE",
-        "url": "https://web.de"
-      }
-    },
-    {
       "id": "8890123f85d8",
       "title": "Studie bestätigt: Lieber wird Tablette eingenommen als der Lebensstil geändert - AerzteZeitung.de",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQWp6ZE5YZVVtSENDWW1pY2s0SzNkN0dMYnRNQ2J0MXFIRjhGMDMzLTFteW1waUJ1WkN6bk9WYlFRcWF1dUkwR3ZibVJUT09DQ2U4bUJoYk1ZeWtPOXpoVGxUWmw4WGt6UC1YLVpVc19USlQ1alZoT040RzcySFgyRUYybkxvUTJJQ0hBcEtBMVNyNkZIVW9oSTljamdKTEdFYVJfSQ?oc=5",
@@ -111,6 +91,16 @@
       "source": {
         "name": "AerzteZeitung.de",
         "url": "https://www.aerztezeitung.de"
+      }
+    },
+    {
+      "id": "ef0b37a3504a",
+      "title": "Ist das der Durchbruch gegen Bauchspeicheldrüsenkrebs? - WEB.DE",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSTB2RW1Yd3JGOXVneFFSRzQ2eElRQ0p4RmJGMTVhMzctWFlGUHFTeVdBTDYtMUJNWVdzZnhxNXdGT3A3dkFaczN2Y0RZZUYzcmNSeDk4dndGRGludGFhRmxiZFRhVmdjSGprcXRkNEtvRFNsMzhkZElsNVdDSC16QlVvQUhjNUU?oc=5",
+      "published": "2026-10-16T08:52:31+00:00",
+      "source": {
+        "name": "WEB.DE",
+        "url": "https://web.de"
       }
     },
     {
@@ -141,6 +131,16 @@
       "source": {
         "name": "World Health Organization (WHO)",
         "url": "https://www.who.int"
+      }
+    },
+    {
+      "id": "871e523fef7c",
+      "title": "Zuzahlungserlass: BMG fordert Durchgreifen gegen Versender - apotheke adhoc",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeE8wUkJsUjYtY0xya2wzM1F0NE1sanFzQTItcXQ1UkZuRFRBTmR3N1FidGlQLVFRYTRnUk5PMUFnTzRnTkI3WnJHdGlyeDI4T3FUSUxNQ09fcWh4VEw1c1VTZXQxYnJlejVEZm9IUVM3MDgtZHJSc2hwWWI2Ym1oTTJXdU1XNV9rQ0VDUkxYd1lHUU1hbjNJMlN1ejZxUkN5dHNsVm5ndGJtUQ?oc=5",
+      "published": "2026-07-31T07:00:00+00:00",
+      "source": {
+        "name": "apotheke adhoc",
+        "url": "https://www.apotheke-adhoc.de"
       }
     },
     {
@@ -184,16 +184,6 @@
       }
     },
     {
-      "id": "8e48de0518fd",
-      "title": "Calcium und Vitamin D: Für wen sich die Einnahme trotz neuer Studie lohnt - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQYms5UzM5UG8tRHkzZ0d1SEtJVWpPd0taRG9Vc3A2UlpSbVBSSndyUVFBTFJzLU13NDBPcHJjNndRcC1GUnRkTkZGLWtzQkFodmE2QmJ2Z1lTaHUtOWYwLUhGdUJCWF9Ra2N6NDFtUDZ0NUpkRnp3bGlOczB5cU1IdVdlS0NocERrRTdBWlh5Vm9uMlMwZjhmd0gzQUN4amJYYWFVR1A5WlFud2dKcGc?oc=5",
-      "published": "2026-10-14T07:00:00+00:00",
-      "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
-      }
-    },
-    {
       "id": "be8d03f8a4d0",
       "title": "Vollkorn: Wie viel am Tag Blutdruck und Cholesterin verbessern kann - aponet.de",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaGdGX0FjbEZsbWV3ZXhwS1R6NmR2Um80TWU3bVdPVVJhaVlhMlpQSElFM3JXcGlaVllHREJHMWc2UkFFVE8wc0lNRUlwWVdLTnJBN3otbWxvMERKN1g3b3NseVJHV2NyNkVVaEJBb3F5S2Y2aUJzTVhlQ2NSSXloeUpCY0ZoblNuNDE3UWhIeXVRSWZFU0d6WHltdEVjbkpHbU1rLQ?oc=5",
@@ -204,13 +194,13 @@
       }
     },
     {
-      "id": "871e523fef7c",
-      "title": "Zuzahlungserlass: BMG fordert Durchgreifen gegen Versender - apotheke adhoc",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeE8wUkJsUjYtY0xya2wzM1F0NE1sanFzQTItcXQ1UkZuRFRBTmR3N1FidGlQLVFRYTRnUk5PMUFnTzRnTkI3WnJHdGlyeDI4T3FUSUxNQ09fcWh4VEw1c1VTZXQxYnJlejVEZm9IUVM3MDgtZHJSc2hwWWI2Ym1oTTJXdU1XNV9rQ0VDUkxYd1lHUU1hbjNJMlN1ejZxUkN5dHNsVm5ndGJtUQ?oc=5",
-      "published": "2026-07-31T07:00:00+00:00",
+      "id": "8e48de0518fd",
+      "title": "Calcium und Vitamin D: Für wen sich die Einnahme trotz neuer Studie lohnt - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQYms5UzM5UG8tRHkzZ0d1SEtJVWpPd0taRG9Vc3A2UlpSbVBSSndyUVFBTFJzLU13NDBPcHJjNndRcC1GUnRkTkZGLWtzQkFodmE2QmJ2Z1lTaHUtOWYwLUhGdUJCWF9Ra2N6NDFtUDZ0NUpkRnp3bGlOczB5cU1IdVdlS0NocERrRTdBWlh5Vm9uMlMwZjhmd0gzQUN4amJYYWFVR1A5WlFud2dKcGc?oc=5",
+      "published": "2026-10-14T07:00:00+00:00",
       "source": {
-        "name": "apotheke adhoc",
-        "url": "https://www.apotheke-adhoc.de"
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
       }
     },
     {
@@ -221,16 +211,6 @@
       "source": {
         "name": "Gesundheit.gv.at",
         "url": "https://www.gesundheit.gv.at"
-      }
-    },
-    {
-      "id": "f7d19159d018",
-      "title": "Wechseljahre: 17 Nahrungsergänzungsmittel im Test – alle fallen durch - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOU25JUldkWU5lbkNRekl3emxmUkszbXZsMi03LTVwWFF1TGNiTEhzYkpkRkFFZmoteG1NUXJxcnNFandmZlRJY08yVUgxTHVJdXlmMUVPMWV2amhnVVVScUpmVXlXSDlsVU5NTm91UUtpbTg2dXNjR0hyUFc3bW1waFFFUTBkTDJEaGNpZ2pnTTB0Wng4Yjc3VWVkcW9taWNOZlA3aEpB?oc=5",
-      "published": "2026-10-13T07:00:00+00:00",
-      "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
       }
     },
     {
@@ -258,6 +238,16 @@
       "title": "Apotheken legen Fünf-Punkte-Plan für eine sichere Arzneimittelversorgung vor - aponet.de",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORnlkOGZudXJ0Ri10MmJYREtUMWsyTl92MGlzT050VU52cjVjZEkyMkdzRVUwMENMalRpaXVSQTlFWTNWY1pZVnR3Tk0tS2pNWm1YeFNBYkdzZWlIUE1rQWZRRFVRanpwdkJPdFlzNGkxcmlJQ0NYTi1jOEFpa2IxUjJ3MXZlWWhvQ2J3X2RMRHBaTnNYNl9BVW5FcXR0QVQtd0tLUFpoRmNHaFI3ZXZIWV9VWEY?oc=5",
       "published": "2026-09-15T07:00:00+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
+      }
+    },
+    {
+      "id": "f7d19159d018",
+      "title": "Wechseljahre: 17 Nahrungsergänzungsmittel im Test – alle fallen durch - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOU25JUldkWU5lbkNRekl3emxmUkszbXZsMi03LTVwWFF1TGNiTEhzYkpkRkFFZmoteG1NUXJxcnNFandmZlRJY08yVUgxTHVJdXlmMUVPMWV2amhnVVVScUpmVXlXSDlsVU5NTm91UUtpbTg2dXNjR0hyUFc3bW1waFFFUTBkTDJEaGNpZ2pnTTB0Wng4Yjc3VWVkcW9taWNOZlA3aEpB?oc=5",
+      "published": "2026-10-13T07:00:00+00:00",
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
@@ -314,16 +304,6 @@
       }
     },
     {
-      "id": "7cee44587079",
-      "title": "Klinische Studien mit Kindern: Warum sie unverzichtbar sind - Novartis",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWW9LSXhsRWJpVWVmOS1qaUVMby00UWZ5dzVmMXdickpVUEctWmlEVkRpRWNTVjlSX012RjJQclRyUWNBWEFxcGJvU1M4VGNzbzV5R2U2cUlvQThpcWRoVTVFVERaR1pRTkp0Y0FMQXBHbVN1OHNjNktjNHJOaERuQlVhMkxyVUFZbWNoYU1IVERtcUE5WklZc2tVSlZtOUF0cEpn?oc=5",
-      "published": "2026-04-07T07:00:00+00:00",
-      "source": {
-        "name": "Novartis",
-        "url": "https://www.novartis.com"
-      }
-    },
-    {
       "id": "a91bce131989",
       "title": "Nachhaltigkeit: Arzneimittel als wichtiger Hebel - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPUzd6V2JNTmp0Ry1iT3dJSURwNzBORGtyeldrUFdEVEhvNFNUZUh6VmtXZnYycFZCdDlzdEJWbzNlbnZha05majRVU3VqX1U2QkVlVFZTSE5FRkc5TDZoR1BRNmd6TzYwSjdOY3kyRS1HN3p1RTI4OWdrS09HVkgyc3lIZ0s1dw?oc=5",
@@ -334,13 +314,13 @@
       }
     },
     {
-      "id": "20723974401d",
-      "title": "Magnesiumpräparate im Test: Oft überdosiert – und mit umstrittenen Zusatzstoffen - oekotest.de",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNR3pGdzhEa2lTRFRnZ18xSkRod3lpT0pwMHpzUFU0UGVmMGt6V0RWS0dvSFg0RG9PbGlMLWU3THAxMTVRcFZVZG9UcVRVeEFITWpRZXVpYnZzMDJIejZnUnVGVWN3OXFKWmhfY3dtLW1jbUJTWjVtVFVfVk13aUNuelp5MTRhbWs0dlMzZFZ3cFlaTHl4Yi0zSTZPUGJ0MjhZSkx3Q2NpVEdKVFZSOWR3V01PUXNjNDFlWEVsWEwzOGhPT2NuRmtPWE5Ndmlaa0JLMzN0azV0TUtmOU14bWdCVWFB?oc=5",
-      "published": "2026-10-13T07:00:00+00:00",
+      "id": "3843ee8c2190",
+      "title": "Gesundheit - Beipackzettel von Medikamenten sollen digital werden - Ausdrucke in Apotheken sollen Option sein - Deutschlandfunk",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOclZxcXdzdDlfTXNBVkNkV1g0a1RMa05OWGcyX0RXaW5YMmpyUElhUnBJQU9QM3BzUG9iSFZnaWE0ek1iLTFQeE1wbkVhaDdrT3pVMERnT3l3VGhoOUtuS0EtT3pwazNMMGZmcmI1Z2puUHg1WWc5MzBXdHJma0l0dWNlNEhQdFdBUXF5X0V3OVRQWVA1RXFJNXJtbTVGMjNYQVlSWjNrdEttY0pQMXF0dWlwdGNUVWpFcF83a3RyX0oxSWpLaFVmc2NoVEhGNXc?oc=5",
+      "published": "2026-03-12T07:00:00+00:00",
       "source": {
-        "name": "oekotest.de",
-        "url": "https://www.oekotest.de"
+        "name": "Deutschlandfunk",
+        "url": "https://www.deutschlandfunk.de"
       }
     },
     {
@@ -351,16 +331,6 @@
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
-      }
-    },
-    {
-      "id": "3843ee8c2190",
-      "title": "Gesundheit - Beipackzettel von Medikamenten sollen digital werden - Ausdrucke in Apotheken sollen Option sein - Deutschlandfunk",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOclZxcXdzdDlfTXNBVkNkV1g0a1RMa05OWGcyX0RXaW5YMmpyUElhUnBJQU9QM3BzUG9iSFZnaWE0ek1iLTFQeE1wbkVhaDdrT3pVMERnT3l3VGhoOUtuS0EtT3pwazNMMGZmcmI1Z2puUHg1WWc5MzBXdHJma0l0dWNlNEhQdFdBUXF5X0V3OVRQWVA1RXFJNXJtbTVGMjNYQVlSWjNrdEttY0pQMXF0dWlwdGNUVWpFcF83a3RyX0oxSWpLaFVmc2NoVEhGNXc?oc=5",
-      "published": "2026-03-12T07:00:00+00:00",
-      "source": {
-        "name": "Deutschlandfunk",
-        "url": "https://www.deutschlandfunk.de"
       }
     },
     {
@@ -391,6 +361,16 @@
       "source": {
         "name": "Frankfurter Rundschau",
         "url": "https://www.fr.de"
+      }
+    },
+    {
+      "id": "20723974401d",
+      "title": "Magnesiumpräparate im Test: Oft überdosiert – und mit umstrittenen Zusatzstoffen - oekotest.de",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNR3pGdzhEa2lTRFRnZ18xSkRod3lpT0pwMHpzUFU0UGVmMGt6V0RWS0dvSFg0RG9PbGlMLWU3THAxMTVRcFZVZG9UcVRVeEFITWpRZXVpYnZzMDJIejZnUnVGVWN3OXFKWmhfY3dtLW1jbUJTWjVtVFVfVk13aUNuelp5MTRhbWs0dlMzZFZ3cFlaTHl4Yi0zSTZPUGJ0MjhZSkx3Q2NpVEdKVFZSOWR3V01PUXNjNDFlWEVsWEwzOGhPT2NuRmtPWE5Ndmlaa0JLMzN0azV0TUtmOU14bWdCVWFB?oc=5",
+      "published": "2026-10-13T07:00:00+00:00",
+      "source": {
+        "name": "oekotest.de",
+        "url": "https://www.oekotest.de"
       }
     },
     {
@@ -444,16 +424,6 @@
       }
     },
     {
-      "id": "7b0936fb78eb",
-      "title": "Apothekerverbände geben Entwarnung: Keine Engpässe bei Grippemitteln und Antibiotika in diesem Winter - Mittelstand Nachrichten",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQTEdfY2dzR3IwLUlmeGxXRlN3NUJoSXVpcm4wZU5BTXpjYTFTRVZuT19GU2NuMlBMSF9WRWF0djlIM0Fhb2hxZkE1cUhpWGZkNVR3bF9wbHhwVnlqS0RwQ05OMS1iQVlOcnB4VTdPOFFzbTh1b2xKR1VVTHNwS0pqNXV4WXMxeEg5UEdzNXA2SEhSMmYtVV9QM25TQ3RXX2I1V0ZoY0l2UU5zY3VRMmpxcDNtVmFmWkNselVnOFdlamdxRE5tamFPcmlTMld0QzhzTkhoZTd0aU4wS05lSWN6bTZMOFdLVlVi?oc=5",
-      "published": "2026-10-16T06:38:08+00:00",
-      "source": {
-        "name": "Mittelstand Nachrichten",
-        "url": "https://www.mittelstand-nachrichten.de"
-      }
-    },
-    {
       "id": "50e574837ee5",
       "title": "Medikamentenversand bei Hitze: Risiken für Arzneimittel - Apotheken Umschau",
       "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPREY3YjJLY0JhYUEzX3FnRFlGRDJ1Vm9JamNNVTNoR3NOX0tOMTIzWUMweTJ2ekYzbktzUTZha0djdWpuN09lNHVZUWw4bVJxYXhWeWtxWUVxM0tXS2xGcGtMd29yWmdTSlFpUkxpdmRvMV9ZaEJhT3czaTY3a2VhOUVJU2p0VWZWMU9PNHZDQWt2b0FpdFhOQlNESFdTV0l0M3R4SDFVMTBOTmZMVVo5ZV9KSmZremN6cTNzOXR0a3RjT2Y0MGZjQkNMUVdFY0xZejBFanY4aDRNOEdpZzdTMVowbkZHUVNtU1htclVWeE50OUwzaWlXSG44akg3S05Odlh2MUxlYXAxbkZVbDB4eWRhZF9YZw?oc=5",
@@ -474,13 +444,13 @@
       }
     },
     {
-      "id": "694d77df4a76",
-      "title": "Medikamente und Hitze: Für wen eine Beratung in der Apotheke wichtig ist - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUHhORjJULWVzYW5ZenJ1S1B3SzdBZTRHbzBwNmhBcmpNYkNoZFM5SUJRQXhhOUhCZFlMUDlTQ2JlQjZ3QXp6LXJMLUxyTGM0SVFhN3BhU2ZWMER4ejhmeGR1LVlyNEpiaGNaa0NucjlLMG5EYWpDRGVvYzg3QWh6OEhhRldwUU9NLUVHMmtITzVfYTc4WW9weQ?oc=5",
-      "published": "2026-06-18T07:00:00+00:00",
+      "id": "7b0936fb78eb",
+      "title": "Apothekerverbände geben Entwarnung: Keine Engpässe bei Grippemitteln und Antibiotika in diesem Winter - Mittelstand Nachrichten",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQTEdfY2dzR3IwLUlmeGxXRlN3NUJoSXVpcm4wZU5BTXpjYTFTRVZuT19GU2NuMlBMSF9WRWF0djlIM0Fhb2hxZkE1cUhpWGZkNVR3bF9wbHhwVnlqS0RwQ05OMS1iQVlOcnB4VTdPOFFzbTh1b2xKR1VVTHNwS0pqNXV4WXMxeEg5UEdzNXA2SEhSMmYtVV9QM25TQ3RXX2I1V0ZoY0l2UU5zY3VRMmpxcDNtVmFmWkNselVnOFdlamdxRE5tamFPcmlTMld0QzhzTkhoZTd0aU4wS05lSWN6bTZMOFdLVlVi?oc=5",
+      "published": "2026-10-16T06:38:08+00:00",
       "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
+        "name": "Mittelstand Nachrichten",
+        "url": "https://www.mittelstand-nachrichten.de"
       }
     },
     {
@@ -491,6 +461,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "694d77df4a76",
+      "title": "Medikamente und Hitze: Für wen eine Beratung in der Apotheke wichtig ist - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUHhORjJULWVzYW5ZenJ1S1B3SzdBZTRHbzBwNmhBcmpNYkNoZFM5SUJRQXhhOUhCZFlMUDlTQ2JlQjZ3QXp6LXJMLUxyTGM0SVFhN3BhU2ZWMER4ejhmeGR1LVlyNEpiaGNaa0NucjlLMG5EYWpDRGVvYzg3QWh6OEhhRldwUU9NLUVHMmtITzVfYTc4WW9weQ?oc=5",
+      "published": "2026-06-18T07:00:00+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
       }
     },
     {
@@ -694,16 +674,6 @@
       }
     },
     {
-      "id": "11cdd0be15c8",
-      "title": "Wie viel darf Gesundheit kosten? Streit um Medikamentenpreise eskaliert - WirtschaftsWoche",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMEkzamFzeFFHZEk3NjFIbFJmYjZvajlGOVMtcHo3aUZsWFlvdkcyMzFTODZXZFM1dWhNWU1lT3FVVDk4dlduRjBqV2paSEFVbkE2YWktMVJIanA4U3J2QW1rMnFtOUljc0pXb2hEbVNSWkxYdGlkRHRMRGE3aGpSYjlrU0FzN0RjN1dhWkJWZldkUmVpbm9xbXpSZmR3b0xGR2ZXQmdvVVZ4bWh5bmVNbkdOOU1rNEdiZElEc0NEeDE3LXpqVkE?oc=5",
-      "published": "2026-04-16T07:00:00+00:00",
-      "source": {
-        "name": "WirtschaftsWoche",
-        "url": "https://www.wiwo.de"
-      }
-    },
-    {
       "id": "1f4441bb42a2",
       "title": "Medizinprodukte: US-Arzneibehörde will Auflagen für neue Medikamente lockern - DIE ZEIT",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMDQ4aUF0OUVjbTB5LXZPc1JjcGo2U2RMUHdCNlpmQXV3RHFQeHJfRHlGcUZxVDRjZEVZV21TRmRTalZTdU9WN1RWeFREc212am9oREtTNjNBU0o5dW51RHM3US1WOXdFbWtnZ1RwM2diM21uTkVRN25HTVc1ZjNiM2Vhc0FjYXlBd1FadUM2RGd0UkEyalBmUWNpcmxMNTV3dUswMGlQSQ?oc=5",
@@ -714,13 +684,13 @@
       }
     },
     {
-      "id": "91e33a5d60fa",
-      "title": "Sichere Arzneimittel seit 80 Jahren: Die Arzneimitteluntersuchungsstelle (AUST) des LfGA NRW feiert runden Geburtstag - Informationsdienst Wissenschaft",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQdjNybUc0UktwZFlGcUFQYlFscU9UTmFvZHFIN3pqQ2xpTHF3U1NUSkNzYlVxQ0lRM01CUmNSVk9jbEVmbnZiZnExOHlhWkU4ZGZJTlFoZzhpVHZJaElGcUJRekVvSzU3bDlsVjFPSVdCcEVGMFhCSmtzdUk5RjJVT3R0Z1p6amxYSm9Na2NxMlE0WlFCSGFRalNHOWFsNmhpMjZjeHFIMDdJOUZCeW1yVnl2b1lQcl9DeV9kTVJtWS1vNW1QYnJtTTdrcEJpcjI0YjlLcGRLdXg1SUlOTnczZkVwTmctelFUOUxHamdEeFc?oc=5",
-      "published": "2026-03-12T07:00:00+00:00",
+      "id": "11cdd0be15c8",
+      "title": "Wie viel darf Gesundheit kosten? Streit um Medikamentenpreise eskaliert - WirtschaftsWoche",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMEkzamFzeFFHZEk3NjFIbFJmYjZvajlGOVMtcHo3aUZsWFlvdkcyMzFTODZXZFM1dWhNWU1lT3FVVDk4dlduRjBqV2paSEFVbkE2YWktMVJIanA4U3J2QW1rMnFtOUljc0pXb2hEbVNSWkxYdGlkRHRMRGE3aGpSYjlrU0FzN0RjN1dhWkJWZldkUmVpbm9xbXpSZmR3b0xGR2ZXQmdvVVZ4bWh5bmVNbkdOOU1rNEdiZElEc0NEeDE3LXpqVkE?oc=5",
+      "published": "2026-04-16T07:00:00+00:00",
       "source": {
-        "name": "Informationsdienst Wissenschaft",
-        "url": "https://nachrichten.idw-online.de"
+        "name": "WirtschaftsWoche",
+        "url": "https://www.wiwo.de"
       }
     },
     {
@@ -994,6 +964,16 @@
       }
     },
     {
+      "id": "c0386127edc4",
+      "title": "Diese Medikamente können Alzheimer vorbeugen - Euronews.com",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZGJMMS1SRkVfQ1ZHYVFhWmdvak5qNE5OQkFXeGFLd0RQMkZIeGhNUFpicmw2WUlTbU54b0plam43S3hVMVdXYUhtSTVISzVsN0l5d09lQ09KYVFxM2M3VlNLTV9JRWVCekFiM18zc2NFQ2NSamN0Qzl6WGRmUVBDZw?oc=5",
+      "published": "2026-02-08T08:00:00+00:00",
+      "source": {
+        "name": "Euronews.com",
+        "url": "https://de.euronews.com"
+      }
+    },
+    {
       "id": "94dbd56bb433",
       "title": "Medikamente, Zähne, Krankenhaus: Diese Mehrkosten könnten bald auf Patienten zukommen - CHIP",
       "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOcy1jSnhpbTFGMzQwRnV3X0c3cEw3OHl4MUpBd1poVXNwYllrTF9lRnJLVGkyS1F0TExBMzM0aG1tS2tCaGVRa2hYR05HV0R4cXJ6QmVPZ3hvX0ZvVVdLWGQzQWVLZ1pFRTdOZDY5TEY2Q3VtM0xoTjl5akRkVW5vQ1BXODVvbG1XaXF3WFRwSGRvejJzZXotSnNtLUZfaWhEbkRSTENaTk5id1JtUGlicXRWMW1raGJJX0lkbjRxYlNLZFpXTXIxZFJ4YjB4d2hLUzVhSl9jY09PLW1JZXZURnBJN0NEU0xqM3o0R2h0dGNjUU5QVFdEMmVDZEdPTXc?oc=5",
@@ -1001,6 +981,26 @@
       "source": {
         "name": "CHIP",
         "url": "https://www.chip.de"
+      }
+    },
+    {
+      "id": "5b3c21a9706f",
+      "title": "Hendrik Streeck hinterfragt teure Medikamente für alte Menschen - Spiegel",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPdklWd0VveEdNaGZxM3F3RmFVdXFOQi10dUZONzlqUjBCS1EyMERpajY5dm9UajBXQnNaaG1Kc2NYUl8tOHpBZFBTQjl4X2NUdXNmckMxdDllNEVmMnZkNVRvU2Y1d3R6WUswWVFLek9rWUhOb01pSjkwbFB1SVdWaTQyc25VWi1aUGxWUGpETWU1b0plSW5qQXNZNzNmbzRPUUg0dGRVOHpEQnI4SWpkZ2diak1XSWNmNFhzSXVUd1BDYktCSkxIVmt2ekpXdGJ3ZDdYRXdWa1FwNDVo?oc=5",
+      "published": "2025-11-12T08:00:00+00:00",
+      "source": {
+        "name": "Spiegel",
+        "url": "https://www.spiegel.de"
+      }
+    },
+    {
+      "id": "8d1fc40266cd",
+      "title": "2025: Höchster Stand von Aufnahmen neuer Medikamente in die Spezialitätenliste - Bundesamt für Gesundheit BAG",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1HMEFNZWpPYzRReWJNTkhGRk11RnNpblJQVjNEdE1ISllXWlNUWk4yZFpWclRTOUl0M3ZJTXhSNmpMdEtuVkVWVnV3aEJXdWxld0l3dUVkdGszYnVuNEFxbldsSXNJamc?oc=5",
+      "published": "2026-01-30T08:00:00+00:00",
+      "source": {
+        "name": "Bundesamt für Gesundheit BAG",
+        "url": "https://www.bag.admin.ch"
       }
     }
   ]
