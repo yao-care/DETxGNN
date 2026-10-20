@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Tocilizumab: vorhergesagte neue Indikation Ankylosierende Spondylitis (Evidenzstufe L4). Ursprüngliche Indikation: Rheumatoide Arthritis, Zytokinfreisetzungssyndrom…"
 monitor_inn: "TOCILIZUMAB"
-predicted_indications: ["inflammatory spondylopathy", "vertebral disease", "mendelian susceptibility to mycobacterial diseases due to complete IL12B deficiency"]
+predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "spondyloarthropathy, susceptibility to", "inflammatory spondylopathy", "Kummell disease", "vertebral disease", "mendelian susceptibility to mycobacterial diseases due to complete IL12B deficiency"]
 ---
 
 # Tocilizumab

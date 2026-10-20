@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-14
 description: "Pseudoephedrine: vorhergesagte neue Indikation Erkrankung der Nasenhöhle (nasal cavity disease) (Evidenzstufe L4). Ursprüngliche Indikation: Saisonale allergische Rhinitis"
 monitor_inn: "pseudoephedrine"
-predicted_indications: ["acute laryngopharyngitis", "allergic urticaria"]
+predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "allergic urticaria"]
 ---
 
 # Pseudoephedrine

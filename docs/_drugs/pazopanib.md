@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Pazopanib: vorhergesagte neue Indikation Nicht klassifiziertes Nierenzellkarzinom (Evidenzstufe L3). Ursprüngliche Indikation: Nierenzellkarzinom (Carcinoma, Renal Cell)"
 monitor_inn: "PAZOPANIB"
-predicted_indications: ["ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
+predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
 ---
 
 # Pazopanib

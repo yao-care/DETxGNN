@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Vilanterol: vorhergesagte neue Indikation Obstruktive Lungenerkrankung (Evidenzstufe L1). Ursprüngliche Indikation: Chronisch obstruktive Lungenerkrankung (COPD)"
 monitor_inn: "VILANTEROL"
-predicted_indications: ["tracheal stenosis", "bronchial neoplasm (disease)", "respiratory malformation", "tracheal calcification", "laryngotracheitis"]
+predicted_indications: ["hyperlucent lung", "tracheal stenosis", "bronchial neoplasm (disease)", "respiratory malformation", "tracheal calcification", "laryngotracheitis"]
 ---
 
 # Vilanterol

@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-14
 description: "Bexarotene: vorhergesagte neue Indikation Sézary-Syndrom (höchster TxGNN-Rang im Datensatz: primäres kutanes B-… (Evidenzstufe L5). Ursprüngliche Indikation: Kutanes T-Zell-Lymphom"
 monitor_inn: "BEXAROTENE"
-predicted_indications: ["primary cutaneous B-cell lymphoma", "lymphosarcoma"]
+predicted_indications: ["primary cutaneous B-cell lymphoma", "Sezary syndrome", "lymphosarcoma"]
 ---
 
 # Bexarotene
