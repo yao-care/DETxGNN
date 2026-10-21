@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-10-21T03:25:38.212430",
+  "last_check": "2026-10-21T16:41:57.538072",
   "seen_trials": {
     "Abatacept": [
       "NCT07388563",
@@ -282,7 +282,8 @@
     ],
     "Brentuximab Vedotin": [
       "NCT05675410",
-      "NCT05922904"
+      "NCT05922904",
+      "NCT04404283"
     ],
     "Brimonidine Tartrate": [
       "NCT05728944",
@@ -4898,7 +4899,8 @@
       "NCT07636564",
       "NCT06172296",
       "NCT05554393",
-      "NCT05656248"
+      "NCT05656248",
+      "NCT07097363"
     ],
     "Doxorubicin": [
       "NCT04847063",
