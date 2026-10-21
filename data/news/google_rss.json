@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-21T13:31:57.289547+00:00",
+  "fetched_at": "2026-10-21T18:27:02.769685+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -34,16 +34,6 @@
       }
     },
     {
-      "id": "4e2c0da9669c",
-      "title": "Verschärfung der Kontrolle über den Online-Arzneimittelverkauf: Schutz der Patienten von der Beratung bis zur Lieferung. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYlpVVTZ0a0JaREpaTkYzbnJodUZ2TE5MTmhRWk0xVkFOZllRdXhIM3V6dUFPY1ZYbnZkQWdhWG1IOE15c2w0Zm9TSEtacDY0bjl4dmF1Y1JRTzBHeDZwWDZDV3FQN1prUzN1Q2R0T2xFWER1TWpXYzFJRmJiREs2UF9xZENqRzc2U3NVMS1obW9sRXR6Q3M1M29EMFBzZw?oc=5",
-      "published": "2026-10-21T11:21:10+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "c17eefd70dd9",
       "title": "German Health Report 2026: Deutsche sehen sichere Arzneimittelversorgung als zentrale Zukunftsaufgabe - Sandoz",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeW5Zc3F2X2VVd2t1U0xjWFdZOVY3X1d0YXI1cVN3VzV1dGxmVVZ4am9xenZyZjlqX2x0WE1MWUR6OWUweGNjQTlCMFFfNnNZZTJTSmpUcGpZaVNmR0Q5N2FoVnA2OEpaX2hOU3ktcW5lcXRRdUpDQUJXdEZMWk1ac1VWeU9UbmktZ3NTOHpiWHJWc19aaW1JT2s4WE9SM0UxZExBWmR0SFhmNG1KcHc3Q0J6b3o?oc=5",
@@ -54,13 +44,13 @@
       }
     },
     {
-      "id": "19dcfe50c5d4",
-      "title": "Schützt auch das Herz: Für wen die Grippeimpfung besonders sinnvoll ist - oekotest.de",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNXlQcDYxbXRLYnVPZU1fNlVSenEyeXB6VUZaakVRN1dYVC1VNTEzZjN2Rzl5X18yZ3E4dFg5NFJ5eW5MY3gzWUpfcldTU2l6MmRUUmVNSVYxZjE4UlFnNnRPV0NVZC1qN0hZSk92Vi1jUVFjT2tTcUg0bktNUGJaNjdqbjBqLTZWSXdCZ0ZzNG4xdTQxZDVldDYxWEtKb2huekJKS0FJVlFNemJyWEh6NnFoaW80MWRxVVNNNUZFYmp6a0N6bFVmQmdRNmMxQQ?oc=5",
-      "published": "2026-10-20T20:17:56+00:00",
+      "id": "4e2c0da9669c",
+      "title": "Verschärfung der Kontrolle über den Online-Arzneimittelverkauf: Schutz der Patienten von der Beratung bis zur Lieferung. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYlpVVTZ0a0JaREpaTkYzbnJodUZ2TE5MTmhRWk0xVkFOZllRdXhIM3V6dUFPY1ZYbnZkQWdhWG1IOE15c2w0Zm9TSEtacDY0bjl4dmF1Y1JRTzBHeDZwWDZDV3FQN1prUzN1Q2R0T2xFWER1TWpXYzFJRmJiREs2UF9xZENqRzc2U3NVMS1obW9sRXR6Q3M1M29EMFBzZw?oc=5",
+      "published": "2026-10-21T11:21:10+00:00",
       "source": {
-        "name": "oekotest.de",
-        "url": "https://www.oekotest.de"
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -101,6 +91,16 @@
       "source": {
         "name": "SZ.de",
         "url": "https://www.sueddeutsche.de"
+      }
+    },
+    {
+      "id": "19dcfe50c5d4",
+      "title": "Schützt auch das Herz: Für wen die Grippeimpfung besonders sinnvoll ist - oekotest.de",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNXlQcDYxbXRLYnVPZU1fNlVSenEyeXB6VUZaakVRN1dYVC1VNTEzZjN2Rzl5X18yZ3E4dFg5NFJ5eW5MY3gzWUpfcldTU2l6MmRUUmVNSVYxZjE4UlFnNnRPV0NVZC1qN0hZSk92Vi1jUVFjT2tTcUg0bktNUGJaNjdqbjBqLTZWSXdCZ0ZzNG4xdTQxZDVldDYxWEtKb2huekJKS0FJVlFNemJyWEh6NnFoaW80MWRxVVNNNUZFYmp6a0N6bFVmQmdRNmMxQQ?oc=5",
+      "published": "2026-10-20T20:17:56+00:00",
+      "source": {
+        "name": "oekotest.de",
+        "url": "https://www.oekotest.de"
       }
     },
     {
@@ -174,6 +174,16 @@
       }
     },
     {
+      "id": "eefe658f5359",
+      "title": "Gewichtszunahme durch Antipsychotika: Studie zeigt kritisches Zeitfenster - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQN0xqaE5kQUF3TExuNkRCZmdhV1pMVHd0SEJIUTUyYWEya1NLUXo2eHJBM0IxRmxRS3VPVzhjTDJycEJ4bndLZnBjRzlXbmVQQXMtS3FYR083Qjg3dWNobWoxOTloaEJRbUpDNnVZYXotVFFvQ0JCWXBEM1Z1Unl1VFFxSG5fc09aY1hiV3FPYUt6aFg2M0hWeDdkZEtrbW1Cd2VoaEoyMllEaGw1?oc=5",
+      "published": "2026-10-20T09:53:10+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
+      }
+    },
+    {
       "id": "f6fb8bc1c8d6",
       "title": "Verhindern, dass Unternehmen sich absprechen, um die Preise für Medikamente und medizinische Geräte in die Höhe zu treiben. - Vietnam.vn",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOU1Z1UmZveGJHb19ncEthUWppRU9JSDR5bzRFbDNGYVRfSjZNbTdqRHZyWDY1bU9SdlI4aXZfV2hvaDR4SXRwYlpfTHQxbXc2M0N3Zlh6UkJMdGJyTmFzM0ZaZnlHdVg0NFkzdWJVcW5PTkU0WlhRSEZrM2VEaGhjNnJaX2NhOVB3RlZ2VzFHSldEaXlaR3haQm5zcWdBLUZY?oc=5",
@@ -188,36 +198,6 @@
       "title": "Umsetzung des Stadtentwicklungsgesetzes: Schaffung von Mechanismen, um Patienten den Zugang zu seltenen Arzneimitteln zu ermöglichen. - Vietnam.vn",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMWczb3luMkcwSjJjeEZNUGNWblhRWTZabXI2U09uUGpvMjNBak1JbnBWcDBLWXpJXzdEel9HUmNUaFlzelNmWEVDanltTUZNWFZpN3dtdlMzY2lmLTV3clJ4andIXzdheXFkTEhnaXBleFVCUUFqUTJUMDRmZ01zQkswdDZ4MjhTR0J1akQ3NWlDRDFKZWFka2swcXFtX3dFemlB?oc=5",
       "published": "2026-10-21T02:20:31+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
-      "id": "0803836132e5",
-      "title": "Die Arzneimittelpreiskontrolle muss verschärft und der Kreislaufhandel, der die Preise für medizinische Geräte in die Höhe treibt, unterbunden werden. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVWwtT2FOWlpCc3UzLUFYV0F2d1ExZ2hmSjNlSkJackQ0Q2ozMGpYRnBxOVRaZGpza2JKemVCSTZoVGtCazlxN0FULXVuaHhRdmRnSGRfcG1tQ05tWjlZNThyYXFMUWtWV04xX2FQMElxUG9yZ2dhWGkxLUVFaG5ubHBlSjROaUh1MHFUYVpGcjVJWnVpN3dWUkVsSllUc2Z2ZUk5R2JhY2x1RXVISHhzX0lLOA?oc=5",
-      "published": "2026-10-21T08:56:44+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
-      "id": "eefe658f5359",
-      "title": "Gewichtszunahme durch Antipsychotika: Studie zeigt kritisches Zeitfenster - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQN0xqaE5kQUF3TExuNkRCZmdhV1pMVHd0SEJIUTUyYWEya1NLUXo2eHJBM0IxRmxRS3VPVzhjTDJycEJ4bndLZnBjRzlXbmVQQXMtS3FYR083Qjg3dWNobWoxOTloaEJRbUpDNnVZYXotVFFvQ0JCWXBEM1Z1Unl1VFFxSG5fc09aY1hiV3FPYUt6aFg2M0hWeDdkZEtrbW1Cd2VoaEoyMllEaGw1?oc=5",
-      "published": "2026-10-20T09:53:10+00:00",
-      "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
-      }
-    },
-    {
-      "id": "14a0611cbac5",
-      "title": "Premierminister: Die Kosten für Medikamente und medizinische Geräte sind übermäßig und unangemessen gestiegen. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQLTNSSUJoMXhGd1NxZUs3ZlEyeXJ5MnRCeFhNakJoNWxwUS1JdFdmUFppbE5fRmtQOTVaVE1JekJPX2pMSUszLUw2RFdHVTNqZ0FHWDVXblh2bkFVU3ZEa0V5VU41enQyclJmdWVWQ2tVVjFLMDZmcEpvNkJfajkyVnB5VFZPUHo2QkhqaHBRMF9ocE03UXVVQg?oc=5",
-      "published": "2026-10-21T06:54:25+00:00",
       "source": {
         "name": "Vietnam.vn",
         "url": "https://www.vietnam.vn"
@@ -244,6 +224,16 @@
       }
     },
     {
+      "id": "14a0611cbac5",
+      "title": "Premierminister: Die Kosten für Medikamente und medizinische Geräte sind übermäßig und unangemessen gestiegen. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQLTNSSUJoMXhGd1NxZUs3ZlEyeXJ5MnRCeFhNakJoNWxwUS1JdFdmUFppbE5fRmtQOTVaVE1JekJPX2pMSUszLUw2RFdHVTNqZ0FHWDVXblh2bkFVU3ZEa0V5VU41enQyclJmdWVWQ2tVVjFLMDZmcEpvNkJfajkyVnB5VFZPUHo2QkhqaHBRMF9ocE03UXVVQg?oc=5",
+      "published": "2026-10-21T06:54:25+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
       "id": "172094f2a1b6",
       "title": "ADHS bei Frauen und Erwachsenen: Bessere Erkennung oder mehr Betroffene? - aponet.de",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQWtoZ25JYUF4WWV4N0IyVUJmeFFTd0NBQ2JBbDdrMnN1NGhSYTRBc2JiOFB5OFJpc2s4X3VvaExBV2Nzbk1DVnp4UTB0RERBMktFWGRoaTRtX0VEWV9jLXFzZGFQejdudDVjbWdlUkl3eXpkYXJ3SFF1UHRqQnFHcDZaWmE4Y0Rwb21QMUNuaFFPTGlZRzhUTlYzTG54RDI5V0tuaW1xN0xvdw?oc=5",
@@ -251,16 +241,6 @@
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
-      }
-    },
-    {
-      "id": "8890123f85d8",
-      "title": "Studie bestätigt: Lieber wird Tablette eingenommen als der Lebensstil geändert - AerzteZeitung.de",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQWp6ZE5YZVVtSENDWW1pY2s0SzNkN0dMYnRNQ2J0MXFIRjhGMDMzLTFteW1waUJ1WkN6bk9WYlFRcWF1dUkwR3ZibVJUT09DQ2U4bUJoYk1ZeWtPOXpoVGxUWmw4WGt6UC1YLVpVc19USlQ1alZoT040RzcySFgyRUYybkxvUTJJQ0hBcEtBMVNyNkZIVW9oSTljamdKTEdFYVJfSQ?oc=5",
-      "published": "2026-10-19T03:44:00+00:00",
-      "source": {
-        "name": "AerzteZeitung.de",
-        "url": "https://www.aerztezeitung.de"
       }
     },
     {
@@ -281,16 +261,6 @@
       "source": {
         "name": "ADAC",
         "url": "https://www.adac.de"
-      }
-    },
-    {
-      "id": "01fc38a2675c",
-      "title": "Frauengesundheit: Zehn Wege zur besseren Versorgung - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOcElfVDFYYUJwVk1xUU16RG1XR2FOeWwtcTNkREdaZ2Zyb0ZNSktLR1B6bU16M1JwUTRONk95TWxsa2EzVVpiS01mSm51OEg0eEZpcXJDMWFRZHUyN2J5bm9rc1NRTGdIRFFjaTZGM09aMm5hVWhJcWZ4Z1JCRVhvTjVrdmMxZm8?oc=5",
-      "published": "2026-10-02T07:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -354,16 +324,6 @@
       }
     },
     {
-      "id": "ce2882990a55",
-      "title": "Hitzewelle: Zu heiß für den Medikamentenversand? - Gesundheit - SZ.de - SZ.de",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZFpweWlmUW0xajBaR2VMSFI3NU5pam9SX2dCWGdBVEx0cm94Mkh2ZjhLYl9uNldzWDV2UDViclFJTExQWGJsWnpBSkxyQ3B5cGNGSktVSEx5Y2xsTExwMFBmU0E3T0tDRDVPTDFhNTBfRVlVWVpfZHlVdEdXMWtVVnFKT2o5c2FKbGVYc1N0ZHQ1bk1Ram5uQXBjN0VuNld0NzNVZFJBcmpwemNsanc?oc=5",
-      "published": "2026-08-31T07:00:00+00:00",
-      "source": {
-        "name": "SZ.de",
-        "url": "https://www.sueddeutsche.de"
-      }
-    },
-    {
       "id": "0d1c92b92378",
       "title": "Apotheken legen Fünf-Punkte-Plan für eine sichere Arzneimittelversorgung vor - aponet.de",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORnlkOGZudXJ0Ri10MmJYREtUMWsyTl92MGlzT050VU52cjVjZEkyMkdzRVUwMENMalRpaXVSQTlFWTNWY1pZVnR3Tk0tS2pNWm1YeFNBYkdzZWlIUE1rQWZRRFVRanpwdkJPdFlzNGkxcmlJQ0NYTi1jOEFpa2IxUjJ3MXZlWWhvQ2J3X2RMRHBaTnNYNl9BVW5FcXR0QVQtd0tLUFpoRmNHaFI3ZXZIWV9VWEY?oc=5",
@@ -371,6 +331,16 @@
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
+      }
+    },
+    {
+      "id": "ce2882990a55",
+      "title": "Hitzewelle: Zu heiß für den Medikamentenversand? - Gesundheit - SZ.de - SZ.de",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZFpweWlmUW0xajBaR2VMSFI3NU5pam9SX2dCWGdBVEx0cm94Mkh2ZjhLYl9uNldzWDV2UDViclFJTExQWGJsWnpBSkxyQ3B5cGNGSktVSEx5Y2xsTExwMFBmU0E3T0tDRDVPTDFhNTBfRVlVWVpfZHlVdEdXMWtVVnFKT2o5c2FKbGVYc1N0ZHQ1bk1Ram5uQXBjN0VuNld0NzNVZFJBcmpwemNsanc?oc=5",
+      "published": "2026-08-31T07:00:00+00:00",
+      "source": {
+        "name": "SZ.de",
+        "url": "https://www.sueddeutsche.de"
       }
     },
     {
@@ -524,6 +494,16 @@
       }
     },
     {
+      "id": "1b12ce5c1077",
+      "title": "Neue Cannabis-Regeln: Was Kassenpatienten bei Dronabinol jetzt beachten müssen - NDR.de",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObV8xUENNNjRxQjRTMl9ZU1B1YUxSZEpZLXppQTF3ZXV1QURiNnlVN3NtVGlfOEdQai1DYVBQYVdqOVlZNkZPNi12NjNtU3BmM005VEJ4ZmZtY2g2UElyblpGUG9kdk5oWWNraXQ2NlVMeXFSdElENmVJQkp6RklLUTh6Z054NzZkTUdpa2lUTUlnQ0dwWnl5YUoteTRBazNZVjdkT0pMNW1oUQ?oc=5",
+      "published": "2026-09-04T07:00:00+00:00",
+      "source": {
+        "name": "NDR.de",
+        "url": "https://www.ndr.de"
+      }
+    },
+    {
       "id": "50e574837ee5",
       "title": "Medikamentenversand bei Hitze: Risiken für Arzneimittel - Apotheken Umschau",
       "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPREY3YjJLY0JhYUEzX3FnRFlGRDJ1Vm9JamNNVTNoR3NOX0tOMTIzWUMweTJ2ekYzbktzUTZha0djdWpuN09lNHVZUWw4bVJxYXhWeWtxWUVxM0tXS2xGcGtMd29yWmdTSlFpUkxpdmRvMV9ZaEJhT3czaTY3a2VhOUVJU2p0VWZWMU9PNHZDQWt2b0FpdFhOQlNESFdTV0l0M3R4SDFVMTBOTmZMVVo5ZV9KSmZremN6cTNzOXR0a3RjT2Y0MGZjQkNMUVdFY0xZejBFanY4aDRNOEdpZzdTMVowbkZHUVNtU1htclVWeE50OUwzaWlXSG44akg3S05Odlh2MUxlYXAxbkZVbDB4eWRhZF9YZw?oc=5",
@@ -574,6 +554,16 @@
       }
     },
     {
+      "id": "350484887174",
+      "title": "Neue Aufgaben für Apotheken: Blutabnahme, mehr Impfungen und Medikamente ohne Rezept - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPX1BMQ0ZNejZNUWhrblhMcERDVWg3VVNyNFBEZFBfdVlqbjdIeHBRR2wxQ3N2ZHMwc1ItOVlTNm5EbDd0R0g0b3E3RDRNX1FrQjRxX2ZaOUZMZXV0SEVnSEtvT1B2SGtNaEh5ek94TGlmRUJfVHJ1S3FwcW9HUDFZa1RDWDVXTG1fSkdpTUxpT3dzUmVneXo3eV96RVlLX3V0bk9uZm1kTG1SbGJHZUdWbkUzVEp1eFhXbUFR?oc=5",
+      "published": "2026-07-02T07:00:00+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
+      }
+    },
+    {
       "id": "0f06b40fedaa",
       "title": "Blutdrucksenker im hohen Alter reduzieren? Bei diesen Patienten könnte das möglich sein - aponet.de",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNYXdJQzdpN1hxUGhkSkg0c05VcGh6bXNPZWtOeE02dlAxMlk0bjN5MGpOMXlxdm5lZk84MzRQdWJTLWh4ZFJkY0Rya2RtWVBEWm5TWXZsYl9qRko5RkUxYVdPOXkwTzA5SUZvXzAyX1dYLUpfTjFrYXFnNHZ3UTdBWm9IWTBzMTg4emN3V3ZMOTRwU1Jrd1FJQWVDeDM5QmQ4SWRSS3FrdXJWZk91NEc4Qk5KTDdsOC1FU0VvVkplQ0lBdw?oc=5",
@@ -591,16 +581,6 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
-      "id": "350484887174",
-      "title": "Neue Aufgaben für Apotheken: Blutabnahme, mehr Impfungen und Medikamente ohne Rezept - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPX1BMQ0ZNejZNUWhrblhMcERDVWg3VVNyNFBEZFBfdVlqbjdIeHBRR2wxQ3N2ZHMwc1ItOVlTNm5EbDd0R0g0b3E3RDRNX1FrQjRxX2ZaOUZMZXV0SEVnSEtvT1B2SGtNaEh5ek94TGlmRUJfVHJ1S3FwcW9HUDFZa1RDWDVXTG1fSkdpTUxpT3dzUmVneXo3eV96RVlLX3V0bk9uZm1kTG1SbGJHZUdWbkUzVEp1eFhXbUFR?oc=5",
-      "published": "2026-07-02T07:00:00+00:00",
-      "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
       }
     },
     {
@@ -644,16 +624,6 @@
       }
     },
     {
-      "id": "d04f77528724",
-      "title": "Arzneimittel: Apothekerverband registriert deutlich gestiegene Ausgaben für Arzneien - DIE ZEIT",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQnNYX0ZIOXRaeWxnUDA2UTMwRG5DVmhTUmNKWlNTRTJQLVNWbDAzaXpIY2FEQ0dzaTRFYzNPSE9zUEVfU2F1WkZoZmt3NWhMMkI2VkhwbU9maWFPdnBnRXdKOU8taHRHakljeUstTHlNRUxGbVNQQ3dQckcwSlhIZnZYLVFmblBWeVhVWC1NTmE3ZjhaY0x5Z092VC1Rd2tZa20wUlBxU2tpMlRrWkpnNFJYb3Jpdw?oc=5",
-      "published": "2026-02-05T08:00:00+00:00",
-      "source": {
-        "name": "DIE ZEIT",
-        "url": "https://www.zeit.de"
-      }
-    },
-    {
       "id": "198b0da65ee5",
       "title": "HIV-Schutz mit Tabletten: Wie sicher ist PrEP im Alltag? - NDR.de",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTWhsNWk1Tkc5MzNycUQ5RzhaaXhPTGlCcHJ1Yl9wajZ0VkV3akIxR255SUd6clB5aU5fZmNlUGZIcTVNanZlTmctSDJqUFB5Zk5XempaWnhrbDBlVWZuOE9xWDRSREhKRm5sa0lrbGVnVjl0TE5NNWtTY25CUzRmdG5jQlBZc1pFakFyT0hITHU5NmpfaUE?oc=5",
@@ -664,13 +634,13 @@
       }
     },
     {
-      "id": "238d627fd5b2",
-      "title": "Mounjaro zum Abnehmen: Expertin warnt vor Risiken für Gesundheit, Haut und Haare - Frankfurter Rundschau",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPekhkdTRkanJIdWVpUWJha2UtdnE1SzFSMGVVeXR2YXBzcVNRMEFVWkdWQm1rWVVNSXZLQVZ3c3VYMjhJdmV4bGtDUklPZlZ1Rno4X1hhbXhUdDFWdHVTcUw0bUxtZTl4UzFKM1FUdGFpNGZVYjBfZklpU2xZTFluUXRXZXhLVU43cXRxUkdTaHJUcFJKVXFwTXdRYW4zWE1KaUMwUU82dkFtODJuLTBnZVJIWGJSZXZtbWwxTS1B?oc=5",
-      "published": "2026-09-17T07:00:00+00:00",
+      "id": "d04f77528724",
+      "title": "Arzneimittel: Apothekerverband registriert deutlich gestiegene Ausgaben für Arzneien - DIE ZEIT",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQnNYX0ZIOXRaeWxnUDA2UTMwRG5DVmhTUmNKWlNTRTJQLVNWbDAzaXpIY2FEQ0dzaTRFYzNPSE9zUEVfU2F1WkZoZmt3NWhMMkI2VkhwbU9maWFPdnBnRXdKOU8taHRHakljeUstTHlNRUxGbVNQQ3dQckcwSlhIZnZYLVFmblBWeVhVWC1NTmE3ZjhaY0x5Z092VC1Rd2tZa20wUlBxU2tpMlRrWkpnNFJYb3Jpdw?oc=5",
+      "published": "2026-02-05T08:00:00+00:00",
       "source": {
-        "name": "Frankfurter Rundschau",
-        "url": "https://www.fr.de"
+        "name": "DIE ZEIT",
+        "url": "https://www.zeit.de"
       }
     },
     {
@@ -684,6 +654,16 @@
       }
     },
     {
+      "id": "238d627fd5b2",
+      "title": "Mounjaro zum Abnehmen: Expertin warnt vor Risiken für Gesundheit, Haut und Haare - Frankfurter Rundschau",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPekhkdTRkanJIdWVpUWJha2UtdnE1SzFSMGVVeXR2YXBzcVNRMEFVWkdWQm1rWVVNSXZLQVZ3c3VYMjhJdmV4bGtDUklPZlZ1Rno4X1hhbXhUdDFWdHVTcUw0bUxtZTl4UzFKM1FUdGFpNGZVYjBfZklpU2xZTFluUXRXZXhLVU43cXRxUkdTaHJUcFJKVXFwTXdRYW4zWE1KaUMwUU82dkFtODJuLTBnZVJIWGJSZXZtbWwxTS1B?oc=5",
+      "published": "2026-09-17T07:00:00+00:00",
+      "source": {
+        "name": "Frankfurter Rundschau",
+        "url": "https://www.fr.de"
+      }
+    },
+    {
       "id": "09e9d0a2ff53",
       "title": "Krebsmedikament: Meistverkauftes Krebsmittel wird offenbar viel zu teuer verkauft - DIE ZEIT",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZUdKR1hQcHVBS3JEX3dma19JcW5GTmlCcmxGRmpKbHFwZzduVkpReEh1RnFiOUM2amRvRGl4Z0tDellhTUc1bzU1cl82T3J0N1hnYnVDZF9ERlpxU3JobkphRmRjVk55cjRUZ0tkTlFTZmRSYm0tQVpYSzBtb2xNclVkelpWaTJ5UXQ4TVNoUVFoeVd5RkpqanJqMWpmdw?oc=5",
@@ -691,6 +671,16 @@
       "source": {
         "name": "DIE ZEIT",
         "url": "https://www.zeit.de"
+      }
+    },
+    {
+      "id": "8308fd9ff3ea",
+      "title": "»Ge­ra­de in der Apo­the­ke wird Ge­sund­heit ge­lebt« - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWGI5Ni1Wb1RMSGlZbElwcDdtVjF5TzJBTVpUd0xoblBOUHl5UG8tcXlNY1FPTHBPbU5tT2J2S2VTRkFlZlVxejM2S3V6Ty14bHlXVmEtRmRPUnNoeEd0U3pWZlQ5SlZjNGF3bnhWWGF0M2h5MHVSaFZRZjBZZy1KOEZva1l2N1dzbkF0Q2dvRUc1SVN3OVVF?oc=5",
+      "published": "2026-03-19T07:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -764,16 +754,6 @@
       }
     },
     {
-      "id": "a43852bf5366",
-      "title": "vfa zum Kommissionsbericht: Sparmaßnahmen für Pharmaindustrie im Faktencheck - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaGl6UGU2SlFIcnhfcTBza2E0aTZxOEEwd2xOWmxUT3hwYzYzSDRsSGJZa3g0U3BwTWpQdm01enFWcUVYeFhtR0d2SkJDQmVURmpFa0x0LXpYRTEzd1dtbmxyVWE2NVpZcE1DamxIT2kybUxscTV0QnZtTmVNRW1uLUxOeUw2cUlUZFRQUmdCYXZ4UEF4TFJuY092eU4tZw?oc=5",
-      "published": "2026-04-02T07:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "b13c8155e55d",
       "title": "Kinder mit starkem Übergewicht: Neue Leitlinie empfiehlt Einsatz moderner Medikamente - aponet.de",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcWR0VTNuakdTNGtzUGhhb3NyTl9hdXRYb0FCVTE0Y2FqWDlIY1BiT3d3eklHc2tqaDc5dXBDVHhzUUdqUGRrSkliS2xEM1JqdlRPMnlJQmF2czFpVTVFbEVnaTBhQTZScUN4MU1rT1Vkc1EyRGN2UlNTenBLSFhGNC16NXJ6eko2b0lMR3JpTzB5b1MtbDJ1R3Y1cGdJRVlId2dQanB2RlgtM1MtbjFDRkM0TEwwUnRhZVFSMzVn?oc=5",
@@ -781,6 +761,16 @@
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
+      }
+    },
+    {
+      "id": "a43852bf5366",
+      "title": "vfa zum Kommissionsbericht: Sparmaßnahmen für Pharmaindustrie im Faktencheck - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaGl6UGU2SlFIcnhfcTBza2E0aTZxOEEwd2xOWmxUT3hwYzYzSDRsSGJZa3g0U3BwTWpQdm01enFWcUVYeFhtR0d2SkJDQmVURmpFa0x0LXpYRTEzd1dtbmxyVWE2NVpZcE1DamxIT2kybUxscTV0QnZtTmVNRW1uLUxOeUw2cUlUZFRQUmdCYXZ4UEF4TFJuY092eU4tZw?oc=5",
+      "published": "2026-04-02T07:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -814,13 +804,13 @@
       }
     },
     {
-      "id": "641aede6fdfa",
-      "title": "Bluthochdruck: Große Studie zeigt die am besten verträglichen Medikamente - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOR3FVZ2xUVUtNUV9BNUp2NnpDam9FTHh1UjZhay1OUTByQ1BQOERaZWpyaWo1QjVNbFV5a3dWWWhYODdzLVdIa0NhOV9fU01vNWtXeDVHQW81MEt4M0NTTVNjelRCOElxVnlLcE0yMk95OFJfV19kN3djYVdFbHdvR1U2eWxZS0JKZlk0Rm5GV3o4Q3VxbXpUYnRIcHJMTnhyd3B1LTJYRF9rTmVvS3hr?oc=5",
-      "published": "2026-07-15T07:00:00+00:00",
+      "id": "0791514ec89d",
+      "title": "Steigende Arzneimittelkosten: Gesundheitsministerin Warken will Zugang zu neuen Medikamenten für alle erhalten - MDR.de",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPenF3ckVCSXl3ZmNka21FSTVtdkdoeGRZaEQ4Nnc4ZktKZk16U0ZUd19vYWRsZDdQUDZZLVFCd2k2anZScnRpSnJtXzRCbEozRm9fMEpkcVhjZ3dwT21zQVZPX2MybWdSUHBNeTZ3TmtESDFOWFNfM0lPV1Z4M3BmUTNkLTRfVGgxRUh4OWNOblh5ZGdCaUs5WXZmR2VVaVV5d1VHR1BHUFhubGtCWlFyZWk3VnhWZjdpWE9jNE5B?oc=5",
+      "published": "2025-12-09T08:00:00+00:00",
       "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
+        "name": "MDR.de",
+        "url": "https://www.mdr.de"
       }
     },
     {
@@ -854,6 +844,16 @@
       }
     },
     {
+      "id": "641aede6fdfa",
+      "title": "Bluthochdruck: Große Studie zeigt die am besten verträglichen Medikamente - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOR3FVZ2xUVUtNUV9BNUp2NnpDam9FTHh1UjZhay1OUTByQ1BQOERaZWpyaWo1QjVNbFV5a3dWWWhYODdzLVdIa0NhOV9fU01vNWtXeDVHQW81MEt4M0NTTVNjelRCOElxVnlLcE0yMk95OFJfV19kN3djYVdFbHdvR1U2eWxZS0JKZlk0Rm5GV3o4Q3VxbXpUYnRIcHJMTnhyd3B1LTJYRF9rTmVvS3hr?oc=5",
+      "published": "2026-07-15T07:00:00+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
+      }
+    },
+    {
       "id": "47afc2884d76",
       "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - geo.de",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
@@ -864,16 +864,6 @@
       }
     },
     {
-      "id": "618351e249d1",
-      "title": "Haushaltspläne: Mehr Geld für Produktion kritischer Arzneimittel, keine Mittel für Gesundheit und Pflege - Deutsches Ärzteblatt",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNa19XTmtzLWdGTUNhcTkyNVVMZnhDVnlNVkxETGwwVDZ1X3dFVExwZEpDZU0wREhkUk91WEgwV0lJSXEwNTJydG1TbjVRV0FVRy1rUDhwYWtBeVdkYVJuSXo2SmhPUHJ1cWRZYWc3YW5pN21mc18wZUp4Y2FSZG53QnJQZk1RZ2FFeXBxN2VkUDRFYy16ZjgxQkNSc3ppZ1ZPWGdNdG9SanVveHNHc2ZUQU5qV2JDQXpINnVVd2x5eXplUnBDZjJCdGJLRk9QemRtaEpvYlNrTjM0anBWaDRDbHBYY1d2NUtZY1N2Zmx1SWU?oc=5",
-      "published": "2025-11-11T08:00:00+00:00",
-      "source": {
-        "name": "Deutsches Ärzteblatt",
-        "url": "https://www.aerzteblatt.de"
-      }
-    },
-    {
       "id": "9b4ec0dc8566",
       "title": "Arzneimittel-Kompass der AOK: Ein Faktencheck - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcXNlN2NkNFZqd0ZfUHA2OE9YbG1zOGdGbGxhY0pDRENaX1RLYS1VNV9tRE1nN0tyTEhGOTZKQ21XTXhiQjdJb0FxTGI5V09qYXNWXy1GRkNLenBnVDRZbTA4NEhnX3gzcjZabTZBc1NOcTRtOVMtS1RIMU9GUkI0MjJsSUhVQk1BQVR0T2FnUW9ZYTI0clhjNGJMOEcwVnM?oc=5",
@@ -881,6 +871,16 @@
       "source": {
         "name": "vfa. Die forschenden Pharma-Unternehmen",
         "url": "https://www.vfa.de"
+      }
+    },
+    {
+      "id": "618351e249d1",
+      "title": "Haushaltspläne: Mehr Geld für Produktion kritischer Arzneimittel, keine Mittel für Gesundheit und Pflege - Deutsches Ärzteblatt",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNa19XTmtzLWdGTUNhcTkyNVVMZnhDVnlNVkxETGwwVDZ1X3dFVExwZEpDZU0wREhkUk91WEgwV0lJSXEwNTJydG1TbjVRV0FVRy1rUDhwYWtBeVdkYVJuSXo2SmhPUHJ1cWRZYWc3YW5pN21mc18wZUp4Y2FSZG53QnJQZk1RZ2FFeXBxN2VkUDRFYy16ZjgxQkNSc3ppZ1ZPWGdNdG9SanVveHNHc2ZUQU5qV2JDQXpINnVVd2x5eXplUnBDZjJCdGJLRk9QemRtaEpvYlNrTjM0anBWaDRDbHBYY1d2NUtZY1N2Zmx1SWU?oc=5",
+      "published": "2025-11-11T08:00:00+00:00",
+      "source": {
+        "name": "Deutsches Ärzteblatt",
+        "url": "https://www.aerzteblatt.de"
       }
     },
     {
@@ -944,6 +944,16 @@
       }
     },
     {
+      "id": "5f7ab9266350",
+      "title": "Blutdruckmedikamente: Warum 90 Prozent der Notfallpatienten ihre Therapie absetzten - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQLUQ2REVFMllSZFdVUDJYSy0xQU5fV09sakJRZHlrcXRRNTFVOXNjaVNWbER0Z0Vla240b1prWWtmXzE0VHFoQ3Y1ZzhCMHA5OHVVSEt2RmMyWDRTbG42b2c2YzFOTDdWTnhDcUVubW9yX1NLV3NJZDllUGpZeHhVUnByLWpQN2lYSXA3d1JHRDBIT19oY19vMXdUNW13N3RWTXV1NDhQaEpGelJlZWh1anlvU1o4OXBJbm5zU1ZqeHh6T3o4QWp0VmVOdw?oc=5",
+      "published": "2026-10-21T07:48:26+00:00",
+      "source": {
+        "name": "AD HOC NEWS",
+        "url": "https://www.ad-hoc-news.de"
+      }
+    },
+    {
       "id": "7d62906974b1",
       "title": "Bluthochdruck: Bringt ein neues Medikament den Durchbruch? - aponet.de",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPS054ZTZ6cUtoZFV5T3FVM1lpYlVUOHNvbUNNWXN0aUpWVlN5dkpYbkZqemhoZFM1eUZMeENZVFVxU3FjX1ktMTJZTWRiaWhLTUtfTHJzb0J4TDdrUzJwOXBPRkxyU1BKZS1ETFF4Ry0zWjNUY1BVUkVXemJuc1lSVFVJQWw0ZzZZZlB1bUs4bUJrZmJrU204?oc=5",
@@ -991,16 +1001,6 @@
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
-      }
-    },
-    {
-      "id": "08d257ba8207",
-      "title": "Hessisches Landesamt für Gesundheit u. Pflege / Zoll FFM - 1000 Pillen Zopiclon aus Indien - Freispruch statt Geldstrafe - Anwalt.de",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQZDlsbHlFWmE2ZHVlRGlObHE5ek82dWFyd2IxWDlObUdVTTlUZ0dVYWQwYjNpVzNlRHEwbTNxeHZlMUMzelpUWkRWQWhPaGhvSUNzRk82dkxHeG9FLS01a09DNFJHZW1oMXB4dnJvbjFhWkl0dzRvaGFtdkJUYk1XQS1wYnFLcnBEVWxlRUpXR1ZISGM5c1NkWGZ3Vk5jSUcxM255SjI5bllnMDFfeV8zNlZMeVJjZmw5eG4tRVJsOXVENktFelJtVnFsdFFGUjJ4eVF6clZtZC1jVHk1X1EwNWdhLXA0VmdyenNEcm9VUGtuZw?oc=5",
-      "published": "2026-01-12T08:00:00+00:00",
-      "source": {
-        "name": "Anwalt.de",
-        "url": "https://www.anwalt.de"
       }
     }
   ]
