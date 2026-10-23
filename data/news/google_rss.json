@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-22T22:10:05.823309+00:00",
+  "fetched_at": "2026-10-23T01:17:44.462008+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -224,16 +224,6 @@
       }
     },
     {
-      "id": "7560af4e45e3",
-      "title": "Arztpraxis in Wien-Favoriten versiegelt: Behörden decken massive Missstände auf - TARA24",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQX0lSMGs2aHp4bWdEcnR4RC1OWFIwXzVBLXQwMGVOdEFoRGpkR3FMV1lLMFNRMHhfU1ZfbVNhTzFMYmJPTDAyVFRyTkNrRHZINTFvMTBQMV9WR2tjdWlha2VaN2NTTENLa0ZyM08tRDY5ZEpTSnRLdGd1TmVZblU2NnZfRXphUmxybUZUel9HYXlrRXp0ZUFaMk1fbWtWclVDOFlXY3hGLUxvVU44b3c?oc=5",
-      "published": "2026-10-22T06:00:00+00:00",
-      "source": {
-        "name": "TARA24",
-        "url": "https://www.tara24.at"
-      }
-    },
-    {
       "id": "18e43bd86c69",
       "title": "Wahlen Mecklenburg-Vorpommern: Linke will Versandhandel von Medikamenten unterbinden - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZmVfS05qQ0xQeGNrajNHX2RLQWtVZlVqVlFPdG9NMmp0U2pyWE1PWTdnLXBDV2loMDJKR2MwZzdEWlY4bnlCMHQxeXp4SlFTN0hiMDhxR0dqYU1ZcDBOZ2Nrczd0ZVVXanBKcmlfRmZxOVpMalRJWlJ1SG5RODU0dFlmYm1vdkJoakVpRU0wcVg1Mk1OYWdleV9Sc1U5VW53a1E?oc=5",
@@ -264,16 +254,6 @@
       }
     },
     {
-      "id": "20e66d1165d1",
-      "title": "Leberschäden stark gestiegen: Paracetamol besonders häufig beteiligt - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNc01Jc3lndldQZGN6YW1pelRYRU5vQ1BiMW9MdExZOU5EQmFRYWk4ZUh1UHRON2tqTU1KQWV0TUNza01zWEhsczV3aFdyVHgzMTBVZnhBdzZxY2RCRUJXSk9tQWF4aDRqVXhwdmRHRFQ0OTlPcHlfMGJSY1JIR0tjbGhLMExoLUVKYjQ0OFh0Sk5RYU9mWHFnd2lTQkVJazJsdUIzWnlzT0w?oc=5",
-      "published": "2026-09-23T07:00:00+00:00",
-      "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
-      }
-    },
-    {
       "id": "ce2882990a55",
       "title": "Hitzewelle: Zu heiß für den Medikamentenversand? - Gesundheit - SZ.de - SZ.de",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZFpweWlmUW0xajBaR2VMSFI3NU5pam9SX2dCWGdBVEx0cm94Mkh2ZjhLYl9uNldzWDV2UDViclFJTExQWGJsWnpBSkxyQ3B5cGNGSktVSEx5Y2xsTExwMFBmU0E3T0tDRDVPTDFhNTBfRVlVWVpfZHlVdEdXMWtVVnFKT2o5c2FKbGVYc1N0ZHQ1bk1Ram5uQXBjN0VuNld0NzNVZFJBcmpwemNsanc?oc=5",
@@ -284,6 +264,16 @@
       }
     },
     {
+      "id": "20e66d1165d1",
+      "title": "Leberschäden stark gestiegen: Paracetamol besonders häufig beteiligt - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNc01Jc3lndldQZGN6YW1pelRYRU5vQ1BiMW9MdExZOU5EQmFRYWk4ZUh1UHRON2tqTU1KQWV0TUNza01zWEhsczV3aFdyVHgzMTBVZnhBdzZxY2RCRUJXSk9tQWF4aDRqVXhwdmRHRFQ0OTlPcHlfMGJSY1JIR0tjbGhLMExoLUVKYjQ0OFh0Sk5RYU9mWHFnd2lTQkVJazJsdUIzWnlzT0w?oc=5",
+      "published": "2026-09-23T07:00:00+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
+      }
+    },
+    {
       "id": "1d15f3b6b9c3",
       "title": "Medikament online bestellen: Was (nicht) gespart werden kann - MDR.de",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQzh1VE1KZllWYkVqdlVTdVZJY0xBcGdDZUR1NGhOOXNlS3VPcktlR00tbUJPdWlHNUhCajJ4RGthVUhQUnEwaXl2T2p6Um90NXdlMTdIblB0X0lPR0pfUTZ2LTBkRWgydWRPRllnYUJGV24xaktzY1MwQmJJM0JxUlFKMnJpLV9Qd1lz?oc=5",
@@ -291,6 +281,16 @@
       "source": {
         "name": "MDR.de",
         "url": "https://www.mdr.de"
+      }
+    },
+    {
+      "id": "7560af4e45e3",
+      "title": "Arztpraxis in Wien-Favoriten versiegelt: Behörden decken massive Missstände auf - TARA24",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQX0lSMGs2aHp4bWdEcnR4RC1OWFIwXzVBLXQwMGVOdEFoRGpkR3FMV1lLMFNRMHhfU1ZfbVNhTzFMYmJPTDAyVFRyTkNrRHZINTFvMTBQMV9WR2tjdWlha2VaN2NTTENLa0ZyM08tRDY5ZEpTSnRLdGd1TmVZblU2NnZfRXphUmxybUZUel9HYXlrRXp0ZUFaMk1fbWtWclVDOFlXY3hGLUxvVU44b3c?oc=5",
+      "published": "2026-10-22T06:00:00+00:00",
+      "source": {
+        "name": "TARA24",
+        "url": "https://www.tara24.at"
       }
     },
     {
@@ -834,16 +834,6 @@
       }
     },
     {
-      "id": "47413bbab1ef",
-      "title": "Arzneimittel im Alter: Bei 1,2 Millionen drohen mögliche Nierenschäden - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYWJhVU9iZ3NpcHhGX2xIQ21Rc0J1cmx6eVpESXhzdVh5em1wT1FBTlJzVTJsc2pua2pfU2VzTzZYZEFhMjJWc2NxV1luNmdEMVR3Mk5TcTNsbXpUOFZqZHBwZUpGNWh6cXJ6SjRtUGxOc0FHS0luMDl5blBhMkZGRUVmcTlhT2RGLUtsOXozQ2lGZE1QZ2pHTUd6X0Z0MEZpRWlQTFFicHMzZ1hMSEl6LUFOM0lTTXFDel94aw?oc=5",
-      "published": "2026-10-22T05:39:46+00:00",
-      "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "132959ae824c",
       "title": "Prostatakrebs: Neues Medikament könnte zukünftig Rückfallrisiko senken - aponet.de",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbHA4UW9qc3JzMGNtWUlkSlFGWHZNVUZlWlBRellBckFvanZLUGdsTU9aVzMwMDVTT0hacktYZlBwUkRrZGs1eE1IYUtnRkJzM0tucHRqV05xaTJLVFY2bTlkS3JSTkZQZG9MRUFkYlVoeXBILXhXQ2oxa1U4Wnd0LVFoSUhaWXZiNGh5Y2drUHNtY3dGWjFSTXAtck5MZ056Y0lnX25LcFFqS0hY?oc=5",
@@ -911,6 +901,16 @@
       "source": {
         "name": "MDR.de",
         "url": "https://www.mdr.de"
+      }
+    },
+    {
+      "id": "47413bbab1ef",
+      "title": "Arzneimittel im Alter: Bei 1,2 Millionen drohen mögliche Nierenschäden - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYWJhVU9iZ3NpcHhGX2xIQ21Rc0J1cmx6eVpESXhzdVh5em1wT1FBTlJzVTJsc2pua2pfU2VzTzZYZEFhMjJWc2NxV1luNmdEMVR3Mk5TcTNsbXpUOFZqZHBwZUpGNWh6cXJ6SjRtUGxOc0FHS0luMDl5blBhMkZGRUVmcTlhT2RGLUtsOXozQ2lGZE1QZ2pHTUd6X0Z0MEZpRWlQTFFicHMzZ1hMSEl6LUFOM0lTTXFDel94aw?oc=5",
+      "published": "2026-10-22T05:39:46+00:00",
+      "source": {
+        "name": "AD HOC NEWS",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
