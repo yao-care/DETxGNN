@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-23T18:08:33.094951+00:00",
+  "fetched_at": "2026-10-23T21:53:26.170857+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -74,16 +74,6 @@
       }
     },
     {
-      "id": "7556a34adb3d",
-      "title": "Zeitumstellung: Muss ich meine Medikamente dann wann anders nehmen? - WEB.DE",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNTko3bnVDNkNKQ1pHeDNyWTh0X3JBU1NIem9OZ1NNbmpQSWlYNlpZUThGUGhFZXhsLWZGZlRlQnRBQUZDS01ITGd4bVRLSmRLRU9QRTlZLWRCLXB2MTh2NXp5U185OFNtQ1hqYVhoZUl2ejdCSWtSTm1qZ01BS3BTWjNNQQ?oc=5",
-      "published": "2026-10-20T13:27:03+00:00",
-      "source": {
-        "name": "WEB.DE",
-        "url": "https://web.de"
-      }
-    },
-    {
       "id": "5de7f5f9a046",
       "title": "Arzneimittelinnovationen: Gesundheit lohnt sich - Pharma Fakten",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOeUYyY3VPbmUwNDhySlJRZGhLSV9CUDRaUlVxek44dHRjQ0JhQ25lcFNwaW5YaVpCbFI2MVJCU1lUZVZkNHBrQVpPQm9iTGlQWlRYMXdIazdCSmhHU0lpd3JMaWtaaEoxcUNScGZQckY2VTVJcklHZWxfb015TVM2bzE5bw?oc=5",
@@ -91,6 +81,16 @@
       "source": {
         "name": "Pharma Fakten",
         "url": "https://pharma-fakten.de"
+      }
+    },
+    {
+      "id": "7556a34adb3d",
+      "title": "Zeitumstellung: Muss ich meine Medikamente dann wann anders nehmen? - WEB.DE",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNTko3bnVDNkNKQ1pHeDNyWTh0X3JBU1NIem9OZ1NNbmpQSWlYNlpZUThGUGhFZXhsLWZGZlRlQnRBQUZDS01ITGd4bVRLSmRLRU9QRTlZLWRCLXB2MTh2NXp5U185OFNtQ1hqYVhoZUl2ejdCSWtSTm1qZ01BS3BTWjNNQQ?oc=5",
+      "published": "2026-10-20T13:27:03+00:00",
+      "source": {
+        "name": "WEB.DE",
+        "url": "https://web.de"
       }
     },
     {
@@ -114,16 +114,6 @@
       }
     },
     {
-      "id": "32ca44d822b4",
-      "title": "Pille und Schmerzmittel: Erhöhen sie das Risiko für Blutgerinnsel? - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQS0lQejhvV0w3enJQTGlFQXFTZnhDZjJUZDVaSjJQR0ZlSDNtdGR2SXhlLUZVdTdOb3dKbURaRUxRQnZqWUNMS2l1V2JhV09BX2FQcU50VEc1SmF2UnpyeGY2VGtmZU5XYWZTb195OEpXVHBGeWN6YWQwR01jalFlbVJCbVUta05pNVVSM24zQ2tKZGltb3l0U3Y5X1hBT0ZXNEhsNQ?oc=5",
-      "published": "2026-10-23T09:51:56+00:00",
-      "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
-      }
-    },
-    {
       "id": "00b128a4f365",
       "title": "Revolutionäres Krebsmedikament bald in Europa verfügbar - Gesundheit - SZ.de - SZ.de",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVFNSU1BNSU55UFpTMy12ZmhUVFo4S3JoZTA1WmNrRXJMdlFhMzFrZ0dkMDZBS3pib05aOEpIamxlSUZvMlhDdVphNGdGRGk4dUU5SnlZV3hjQVZfOUotSV9YN1g1OFJOQjE4WjBKTFRqVVUtalJDbmhFamlWVXRLdGhURHg3ZnRlbmpqMmtMcXp0VDZ5UXU4aUZrN0U3SVJGQk1TY3FBV3JxNzhXSWJLdjBxUWdLdw?oc=5",
@@ -131,6 +121,16 @@
       "source": {
         "name": "SZ.de",
         "url": "https://www.sueddeutsche.de"
+      }
+    },
+    {
+      "id": "32ca44d822b4",
+      "title": "Pille und Schmerzmittel: Erhöhen sie das Risiko für Blutgerinnsel? - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQS0lQejhvV0w3enJQTGlFQXFTZnhDZjJUZDVaSjJQR0ZlSDNtdGR2SXhlLUZVdTdOb3dKbURaRUxRQnZqWUNMS2l1V2JhV09BX2FQcU50VEc1SmF2UnpyeGY2VGtmZU5XYWZTb195OEpXVHBGeWN6YWQwR01jalFlbVJCbVUta05pNVVSM24zQ2tKZGltb3l0U3Y5X1hBT0ZXNEhsNQ?oc=5",
+      "published": "2026-10-23T09:51:56+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
       }
     },
     {
@@ -144,13 +144,13 @@
       }
     },
     {
-      "id": "dc27a716f57d",
-      "title": "Erstmals in Deutschland: Patient mit CRISPR-Medikament erfolgreich behandelt - SWR",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMWNjcmd2Yk5ydzF5bVFZVEVHZHZVOEZNbHotcHFldk94VUVWQjBZMXZfUXhIaVFSS0hmanpXMjlYaWJLVjAyR1IzU19LVzBvZ21rbEpaWGJ2SUdhLVpqajBGdnVJMTRsVzlSZE44WTk5TFJsVkVyeEJKakdodFl2OWVpX3ZKYlpyOGl0VnB1cjU2OFU4dTFfbXNJazhmNVR3SnE0VlFLTzV4VEJKSzdObVVBbXVYQzctT0ZJ?oc=5",
-      "published": "2026-10-02T07:00:00+00:00",
+      "id": "2a4cd6eb6d1d",
+      "title": "Arzneimittelengpässe in Europa – so reagiert die EU - European Parliament",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYUFLam5JQVMtSlNuNWlqSTJrRUNDN215RDlRU2hOMEE0Rkp3cHBodVhSbXRsSUhvTTRhMTVLWEE5QmM0dXJRNGlPSkwyZ2doMHhlaEpHbW5DZl8tazhQc3lPcEN4SmtLaEdGMk9IZjF5MGZvNEd3a2tXSnJXT1ItanFsV2gtRGpMYjlUbHV2OURrMkM5OXA3emh5OERlMlpXc1J1UlNVYUp1UlBUd1gzREtLUkZRZw?oc=5",
+      "published": "2026-03-31T07:00:00+00:00",
       "source": {
-        "name": "SWR",
-        "url": "https://www.swr.de"
+        "name": "European Parliament",
+        "url": "https://www.europarl.europa.eu"
       }
     },
     {
@@ -204,16 +204,6 @@
       }
     },
     {
-      "id": "2a4cd6eb6d1d",
-      "title": "Arzneimittelengpässe in Europa – so reagiert die EU - European Parliament",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYUFLam5JQVMtSlNuNWlqSTJrRUNDN215RDlRU2hOMEE0Rkp3cHBodVhSbXRsSUhvTTRhMTVLWEE5QmM0dXJRNGlPSkwyZ2doMHhlaEpHbW5DZl8tazhQc3lPcEN4SmtLaEdGMk9IZjF5MGZvNEd3a2tXSnJXT1ItanFsV2gtRGpMYjlUbHV2OURrMkM5OXA3emh5OERlMlpXc1J1UlNVYUp1UlBUd1gzREtLUkZRZw?oc=5",
-      "published": "2026-03-31T07:00:00+00:00",
-      "source": {
-        "name": "European Parliament",
-        "url": "https://www.europarl.europa.eu"
-      }
-    },
-    {
       "id": "51e8c4b74840",
       "title": "Gesundheitsgefahr durch gefälschte Arzneimittel - Gesundheit.gv.at",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYlhNa1drQ3UydVU1Ti1QZWxOelZ2UDNkQTBsczZ4SzVIZGhQS3psTVQ5Zmw2Ujh2RGpDYzZ5TDdIbG5mYkFjRl9CX3JkS0FHQ2dlSGVZMlpRTmpva0xOX3hoTWhTM3VoZlB6bjJYbjRRcGp2NERXZmhoaEtyeGJhUDlSU0k0cURLRzNIc1FR?oc=5",
@@ -224,16 +214,6 @@
       }
     },
     {
-      "id": "27e3605168d6",
-      "title": "EU-Notifizierungsverfahren: Regierung verteidigt neue Versandvorgaben - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQb1Jqa3hvckRiQ3MzTWF3RHRtd19DYl9aWTRMSmJrZDd4cGJOSjl6YkNxOFVQMDF1QW4tY3FKTnlZX3BZQUFVNzNLeGFxNDdfOTFGRkg3YUFERlo1TnV0MHd3UlNwdGtsRFVYSndiUHZfdXVXN2g1a0puQVFhNU1OQWh1MkNPb2FJbWFuLXN1N3FwTzdkc0I0THNGMkxlREtjWUtBSVFsa0t3ZWM5bjQ1bFgzLVdlVlRzNHkyT1BrQUtYMDZxcngzc3lSekRMckM1?oc=5",
-      "published": "2026-06-15T07:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "38b8b0aa9188",
       "title": "Vom Wissen zum Handeln: Verbesserung der Bezahlbarkeit von Arzneimitteln in den Ländern des Westbalkans - World Health Organization (WHO)",
       "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOZlNmcEdYcXZxdDBYazhiVjRCWHVtbms0ZG5JUWlXb0lJWXVFYjV1ak1MR05oZW5FbHFMTGpyNjJxS1ZuQWk4Nl9Wc2NHdHE3YnhrQzc1VHJNbm1QRFdMVF9WVGw2NHdVeDBHajRYX1hfZkFEMTU2Z09kcU04T1c1V3dKZ09nUUlMc3dnLVdvQ3RTYUZqSDA3d1djVXpxbU9fSFUtSGlHbHNOdFJRb29RQlpTRHEzd2pCQzd5Y3VRNmcza2dzTVVlYUp5Y1U5b01kMGpQUzZvNGctWE0tSmJRSEk5TQ?oc=5",
@@ -241,6 +221,16 @@
       "source": {
         "name": "World Health Organization (WHO)",
         "url": "https://www.who.int"
+      }
+    },
+    {
+      "id": "27e3605168d6",
+      "title": "EU-Notifizierungsverfahren: Regierung verteidigt neue Versandvorgaben - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQb1Jqa3hvckRiQ3MzTWF3RHRtd19DYl9aWTRMSmJrZDd4cGJOSjl6YkNxOFVQMDF1QW4tY3FKTnlZX3BZQUFVNzNLeGFxNDdfOTFGRkg3YUFERlo1TnV0MHd3UlNwdGtsRFVYSndiUHZfdXVXN2g1a0puQVFhNU1OQWh1MkNPb2FJbWFuLXN1N3FwTzdkc0I0THNGMkxlREtjWUtBSVFsa0t3ZWM5bjQ1bFgzLVdlVlRzNHkyT1BrQUtYMDZxcngzc3lSekRMckM1?oc=5",
+      "published": "2026-06-15T07:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -284,16 +274,6 @@
       }
     },
     {
-      "id": "785cae568e93",
-      "title": "Änderungen an 6 Gesundheitsgesetzen: Kontrolle der Arzneimittelpreise, Verhinderung von Kreislaufgeschäften zur Aufblähung der Gerätepreise. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPS1hrMmprZHc2eEV3S1NYRHFjeG4wX1lkdlhHandBZVB3QkJKWS1YMlpzLWdHTHVVM0NkTzEwMWFVcGl1LU9nSUY0amtVUDlGdWM1RmEtR3JoZjRaeHZ2WnJ4TUpiSW1IVVJtNXRRSEhWejhfV0R2c0lGQTVpWlE2M0l1SWtBanlwMk5PdzEzbDF1dEpXYlZNaUxzNDlBSlVMVloyMVd6cTU5al9LSEFpUDBn?oc=5",
-      "published": "2026-10-21T08:13:56+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "0d1c92b92378",
       "title": "Apotheken legen Fünf-Punkte-Plan für eine sichere Arzneimittelversorgung vor - aponet.de",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORnlkOGZudXJ0Ri10MmJYREtUMWsyTl92MGlzT050VU52cjVjZEkyMkdzRVUwMENMalRpaXVSQTlFWTNWY1pZVnR3Tk0tS2pNWm1YeFNBYkdzZWlIUE1rQWZRRFVRanpwdkJPdFlzNGkxcmlJQ0NYTi1jOEFpa2IxUjJ3MXZlWWhvQ2J3X2RMRHBaTnNYNl9BVW5FcXR0QVQtd0tLUFpoRmNHaFI3ZXZIWV9VWEY?oc=5",
@@ -301,6 +281,16 @@
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
+      }
+    },
+    {
+      "id": "785cae568e93",
+      "title": "Änderungen an 6 Gesundheitsgesetzen: Kontrolle der Arzneimittelpreise, Verhinderung von Kreislaufgeschäften zur Aufblähung der Gerätepreise. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPS1hrMmprZHc2eEV3S1NYRHFjeG4wX1lkdlhHandBZVB3QkJKWS1YMlpzLWdHTHVVM0NkTzEwMWFVcGl1LU9nSUY0amtVUDlGdWM1RmEtR3JoZjRaeHZ2WnJ4TUpiSW1IVVJtNXRRSEhWejhfV0R2c0lGQTVpWlE2M0l1SWtBanlwMk5PdzEzbDF1dEpXYlZNaUxzNDlBSlVMVloyMVd6cTU5al9LSEFpUDBn?oc=5",
+      "published": "2026-10-21T08:13:56+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -414,16 +404,6 @@
       }
     },
     {
-      "id": "e55e30521cda",
-      "title": "Vorschläge der FinanzKommission Gesundheit für eine Reform der GKV - Taylor Wessing",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQVJuN0Fwenp0QU9hM01mSTRlR1ZxUzBfaExuWkRPSVIxQTBmb21HMGJ3Umd1b2Q5NjlpTkZWdnlsWU5RdG4tYmV2YWlldnhEREpzVmdLaURVbVpCR2pFRDY5Z1d6VW53bGtvaGgwTkRMeFMzeWI5WDJNd2ZXdTl4WkJTRURfbEstNXlJaXdzNGlwQTF5dHJ2Mjg1bFlJTW1SajFpM3VpMEtDdXZuNWplY3NnTQ?oc=5",
-      "published": "2026-05-04T07:00:00+00:00",
-      "source": {
-        "name": "Taylor Wessing",
-        "url": "https://www.taylorwessing.com"
-      }
-    },
-    {
       "id": "5431265615fd",
       "title": "Patente und Profitorientierung blockieren Arzneimittel: Warum Millionen keinen Zugang haben - Frankfurter Rundschau",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPb0JSbmVWcVk1ajdydzIzRF9PM2hHQWFaYWNuSjhZbmZBbXplUGFBNklQVFptakVZdGN5UVA4VW9fS3VoRmluVzd5OHV1MXJMM3NudGpTdHR5MEI4dExjSmIzM0VoVUtCeHU2VnFfWGNTSVZYWFBsOEhValduakNSd1Z1TTZEM20zTFF0R3RLYy1NWHYza196cEkwM1ljMEtKdDdCdU1TN0J2LVU0Sk9UckdzRXpJNHVMdzZvaG9Ya2FxNEk?oc=5",
@@ -494,16 +474,6 @@
       }
     },
     {
-      "id": "14a0611cbac5",
-      "title": "Premierminister: Die Kosten für Medikamente und medizinische Geräte sind übermäßig und unangemessen gestiegen. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQLTNSSUJoMXhGd1NxZUs3ZlEyeXJ5MnRCeFhNakJoNWxwUS1JdFdmUFppbE5fRmtQOTVaVE1JekJPX2pMSUszLUw2RFdHVTNqZ0FHWDVXblh2bkFVU3ZEa0V5VU41enQyclJmdWVWQ2tVVjFLMDZmcEpvNkJfajkyVnB5VFZPUHo2QkhqaHBRMF9ocE03UXVVQg?oc=5",
-      "published": "2026-10-21T06:54:25+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "6b52f6eb74fd",
       "title": "GKV-Arzneimittelkosten: Umsatzabhängiger Herstellerabschlag könnte Milliardensumme einsparen - Deutsches Ärzteblatt",
       "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQajdSUmJ1c3JnaFdoMk9yQVJBcFFVaWdOZGwySHZ1MThHaWs3X0xuUGdvWDRnZW81UGFUQUJ5XzZzaENKVXhfSDh0MUNmdW5SX3VrazJNbi05MGs4M2syWE8zMnc2YzFsTndQMjNwam5Xc3V4ajhFYndoRjEyMVRJYldrZWU0cC0zd2hPS04wek4yX1Y2TEw0Rm96UFpOSTRHSnpOcXNiVWx1Z1VTLUx5Wk1XZnkyRGJQRlJjV05lTVJtUEJMZ0o1MlZFTFNDdzhTS2E4UTJ6bG5jNE1Fd1hmQlViZ2dodUxQX2NFSVVpMzBXdw?oc=5",
@@ -511,6 +481,16 @@
       "source": {
         "name": "Deutsches Ärzteblatt",
         "url": "https://www.aerzteblatt.de"
+      }
+    },
+    {
+      "id": "14a0611cbac5",
+      "title": "Premierminister: Die Kosten für Medikamente und medizinische Geräte sind übermäßig und unangemessen gestiegen. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQLTNSSUJoMXhGd1NxZUs3ZlEyeXJ5MnRCeFhNakJoNWxwUS1JdFdmUFppbE5fRmtQOTVaVE1JekJPX2pMSUszLUw2RFdHVTNqZ0FHWDVXblh2bkFVU3ZEa0V5VU41enQyclJmdWVWQ2tVVjFLMDZmcEpvNkJfajkyVnB5VFZPUHo2QkhqaHBRMF9ocE03UXVVQg?oc=5",
+      "published": "2026-10-21T06:54:25+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -554,16 +534,6 @@
       }
     },
     {
-      "id": "3ebb0c2080d6",
-      "title": "Betriebsfähigkeit: Lageso mahnt Apotheken zu Temperaturkontrollen - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSEM4X295eTdhRHlSR0k5S0MwMm1pSnZhamI1OWFaMGJnaURSLU5fdnB4aVJBNHRVd1RmMzdkM3ZUTk84ekFWUDhtT1pURUVMeFlnV3pRNTFfb0N2eFd6MHpPX1pQa0x4RnRneURZenNEQ0k0NDQxVWdEcW9XdkcwVTdFX3dvcU1zWEZCaFVsbjQ0V2cwVjRUbg?oc=5",
-      "published": "2026-07-02T07:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "694d77df4a76",
       "title": "Medikamente und Hitze: Für wen eine Beratung in der Apotheke wichtig ist - aponet.de",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUHhORjJULWVzYW5ZenJ1S1B3SzdBZTRHbzBwNmhBcmpNYkNoZFM5SUJRQXhhOUhCZFlMUDlTQ2JlQjZ3QXp6LXJMLUxyTGM0SVFhN3BhU2ZWMER4ejhmeGR1LVlyNEpiaGNaa0NucjlLMG5EYWpDRGVvYzg3QWh6OEhhRldwUU9NLUVHMmtITzVfYTc4WW9weQ?oc=5",
@@ -571,6 +541,16 @@
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
+      }
+    },
+    {
+      "id": "3ebb0c2080d6",
+      "title": "Betriebsfähigkeit: Lageso mahnt Apotheken zu Temperaturkontrollen - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSEM4X295eTdhRHlSR0k5S0MwMm1pSnZhamI1OWFaMGJnaURSLU5fdnB4aVJBNHRVd1RmMzdkM3ZUTk84ekFWUDhtT1pURUVMeFlnV3pRNTFfb0N2eFd6MHpPX1pQa0x4RnRneURZenNEQ0k0NDQxVWdEcW9XdkcwVTdFX3dvcU1zWEZCaFVsbjQ0V2cwVjRUbg?oc=5",
+      "published": "2026-07-02T07:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -634,26 +614,6 @@
       }
     },
     {
-      "id": "7560af4e45e3",
-      "title": "Arztpraxis in Wien-Favoriten versiegelt: Behörden decken massive Missstände auf - TARA24",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQX0lSMGs2aHp4bWdEcnR4RC1OWFIwXzVBLXQwMGVOdEFoRGpkR3FMV1lLMFNRMHhfU1ZfbVNhTzFMYmJPTDAyVFRyTkNrRHZINTFvMTBQMV9WR2tjdWlha2VaN2NTTENLa0ZyM08tRDY5ZEpTSnRLdGd1TmVZblU2NnZfRXphUmxybUZUel9HYXlrRXp0ZUFaMk1fbWtWclVDOFlXY3hGLUxvVU44b3c?oc=5",
-      "published": "2026-10-22T06:00:00+00:00",
-      "source": {
-        "name": "TARA24",
-        "url": "https://www.tara24.at"
-      }
-    },
-    {
-      "id": "111717f3fb98",
-      "title": "Die Arzneimittelpreise kontrollieren und den Kreislaufhandel verhindern, der die Preise für medizinische Geräte in die Höhe treibt. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRTlxQ0JsNkVKZGhyNUtOakJsdjFMRi1mRGZ5YWI4am1DYlIwSGdYdUdFR2ptRmFlQVdFSVVRSmQzWlNLamgxUWRnS0lfMC1UdVdaNXFVSkJjOG9mM0tqYVdvaWtRQmhwaUNUWG5pNFU5LXFSc29jWkFBamdTNHdFTGtUd0kwRWIyNkFmSlp6V3lVeXM?oc=5",
-      "published": "2026-10-21T08:25:12+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "d04f77528724",
       "title": "Arzneimittel: Apothekerverband registriert deutlich gestiegene Ausgaben für Arzneien - DIE ZEIT",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQnNYX0ZIOXRaeWxnUDA2UTMwRG5DVmhTUmNKWlNTRTJQLVNWbDAzaXpIY2FEQ0dzaTRFYzNPSE9zUEVfU2F1WkZoZmt3NWhMMkI2VkhwbU9maWFPdnBnRXdKOU8taHRHakljeUstTHlNRUxGbVNQQ3dQckcwSlhIZnZYLVFmblBWeVhVWC1NTmE3ZjhaY0x5Z092VC1Rd2tZa20wUlBxU2tpMlRrWkpnNFJYb3Jpdw?oc=5",
@@ -671,6 +631,26 @@
       "source": {
         "name": "Euronews.com",
         "url": "https://de.euronews.com"
+      }
+    },
+    {
+      "id": "7560af4e45e3",
+      "title": "Arztpraxis in Wien-Favoriten versiegelt: Behörden decken massive Missstände auf - TARA24",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQX0lSMGs2aHp4bWdEcnR4RC1OWFIwXzVBLXQwMGVOdEFoRGpkR3FMV1lLMFNRMHhfU1ZfbVNhTzFMYmJPTDAyVFRyTkNrRHZINTFvMTBQMV9WR2tjdWlha2VaN2NTTENLa0ZyM08tRDY5ZEpTSnRLdGd1TmVZblU2NnZfRXphUmxybUZUel9HYXlrRXp0ZUFaMk1fbWtWclVDOFlXY3hGLUxvVU44b3c?oc=5",
+      "published": "2026-10-22T06:00:00+00:00",
+      "source": {
+        "name": "TARA24",
+        "url": "https://www.tara24.at"
+      }
+    },
+    {
+      "id": "111717f3fb98",
+      "title": "Die Arzneimittelpreise kontrollieren und den Kreislaufhandel verhindern, der die Preise für medizinische Geräte in die Höhe treibt. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRTlxQ0JsNkVKZGhyNUtOakJsdjFMRi1mRGZ5YWI4am1DYlIwSGdYdUdFR2ptRmFlQVdFSVVRSmQzWlNLamgxUWRnS0lfMC1UdVdaNXFVSkJjOG9mM0tqYVdvaWtRQmhwaUNUWG5pNFU5LXFSc29jWkFBamdTNHdFTGtUd0kwRWIyNkFmSlp6V3lVeXM?oc=5",
+      "published": "2026-10-21T08:25:12+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -784,6 +764,16 @@
       }
     },
     {
+      "id": "1f4441bb42a2",
+      "title": "Medizinprodukte: US-Arzneibehörde will Auflagen für neue Medikamente lockern - DIE ZEIT",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMDQ4aUF0OUVjbTB5LXZPc1JjcGo2U2RMUHdCNlpmQXV3RHFQeHJfRHlGcUZxVDRjZEVZV21TRmRTalZTdU9WN1RWeFREc212am9oREtTNjNBU0o5dW51RHM3US1WOXdFbWtnZ1RwM2diM21uTkVRN25HTVc1ZjNiM2Vhc0FjYXlBd1FadUM2RGd0UkEyalBmUWNpcmxMNTV3dUswMGlQSQ?oc=5",
+      "published": "2026-02-19T08:00:00+00:00",
+      "source": {
+        "name": "DIE ZEIT",
+        "url": "https://www.zeit.de"
+      }
+    },
+    {
       "id": "cb759c517901",
       "title": "Arzneimittelrisiken: Apotheken senden 11.000 Verdachtsmeldungen - aponet.de",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUEp3aW42WGtadEhHTmFUVDIwN3RXbEhtVWh5ZVktdDRyN0Q1azB0N0NHbG5hSGViU2lDVG5VZ0xtbzRiTGZackpzdnlfUk1IZjQwZ0ticS1uV2xLcjJMbHZrTTdzUkFuSmh4c19BTkFFODJadGhlVjk0VUVDaXB6T0hJWERDMnRuX3R6ajA2OVVJZWZTT2k3WDk4TjJXdw?oc=5",
@@ -804,16 +794,6 @@
       }
     },
     {
-      "id": "1f4441bb42a2",
-      "title": "Medizinprodukte: US-Arzneibehörde will Auflagen für neue Medikamente lockern - DIE ZEIT",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMDQ4aUF0OUVjbTB5LXZPc1JjcGo2U2RMUHdCNlpmQXV3RHFQeHJfRHlGcUZxVDRjZEVZV21TRmRTalZTdU9WN1RWeFREc212am9oREtTNjNBU0o5dW51RHM3US1WOXdFbWtnZ1RwM2diM21uTkVRN25HTVc1ZjNiM2Vhc0FjYXlBd1FadUM2RGd0UkEyalBmUWNpcmxMNTV3dUswMGlQSQ?oc=5",
-      "published": "2026-02-19T08:00:00+00:00",
-      "source": {
-        "name": "DIE ZEIT",
-        "url": "https://www.zeit.de"
-      }
-    },
-    {
       "id": "a43852bf5366",
       "title": "vfa zum Kommissionsbericht: Sparmaßnahmen für Pharmaindustrie im Faktencheck - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaGl6UGU2SlFIcnhfcTBza2E0aTZxOEEwd2xOWmxUT3hwYzYzSDRsSGJZa3g0U3BwTWpQdm01enFWcUVYeFhtR0d2SkJDQmVURmpFa0x0LXpYRTEzd1dtbmxyVWE2NVpZcE1DamxIT2kybUxscTV0QnZtTmVNRW1uLUxOeUw2cUlUZFRQUmdCYXZ4UEF4TFJuY092eU4tZw?oc=5",
@@ -831,16 +811,6 @@
       "source": {
         "name": "Ihre Vorsorge",
         "url": "https://www.ihre-vorsorge.de"
-      }
-    },
-    {
-      "id": "e44c40577570",
-      "title": "\"Arztpraxis\" in Wien wegen massiver Missstände versiegelt - NÖN.at - Niederösterreichische Nachrichten",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQa1pfS0VqV1BUT3p3TmViWHJhUzNlRUpWdzhveHJIamcwZUVtUjlOQnRiRHFaQ1NaRm9WWTNkZ1NhOEdZMFdTY3RrMUZ5Vm54Ry1VYVpVQUQxZFp0TTh6cW9WQm1nSzlVb2RCbXFGVnc0NmNMY3dHX0hsNUFGU0tTbEN1QXVvNV9SUW1iS25CZG55QVFIeUtweWN3TjRpcDBPQ09kTHpFeGZLT092bVBDYndmTzBvTlhJR3B3TlJtZW1jWVVzWWJMLXAwbjRScDV3?oc=5",
-      "published": "2026-10-21T11:10:00+00:00",
-      "source": {
-        "name": "NÖN.at - Niederösterreichische Nachrichten",
-        "url": "https://www.noen.at"
       }
     },
     {
@@ -871,6 +841,16 @@
       "source": {
         "name": "Berliner Morgenpost",
         "url": "https://www.morgenpost.de"
+      }
+    },
+    {
+      "id": "e44c40577570",
+      "title": "\"Arztpraxis\" in Wien wegen massiver Missstände versiegelt - NÖN.at - Niederösterreichische Nachrichten",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQa1pfS0VqV1BUT3p3TmViWHJhUzNlRUpWdzhveHJIamcwZUVtUjlOQnRiRHFaQ1NaRm9WWTNkZ1NhOEdZMFdTY3RrMUZ5Vm54Ry1VYVpVQUQxZFp0TTh6cW9WQm1nSzlVb2RCbXFGVnc0NmNMY3dHX0hsNUFGU0tTbEN1QXVvNV9SUW1iS25CZG55QVFIeUtweWN3TjRpcDBPQ09kTHpFeGZLT092bVBDYndmTzBvTlhJR3B3TlJtZW1jWVVzWWJMLXAwbjRScDV3?oc=5",
+      "published": "2026-10-21T11:10:00+00:00",
+      "source": {
+        "name": "NÖN.at - Niederösterreichische Nachrichten",
+        "url": "https://www.noen.at"
       }
     },
     {
@@ -944,16 +924,6 @@
       }
     },
     {
-      "id": "618351e249d1",
-      "title": "Haushaltspläne: Mehr Geld für Produktion kritischer Arzneimittel, keine Mittel für Gesundheit und Pflege - Deutsches Ärzteblatt",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNa19XTmtzLWdGTUNhcTkyNVVMZnhDVnlNVkxETGwwVDZ1X3dFVExwZEpDZU0wREhkUk91WEgwV0lJSXEwNTJydG1TbjVRV0FVRy1rUDhwYWtBeVdkYVJuSXo2SmhPUHJ1cWRZYWc3YW5pN21mc18wZUp4Y2FSZG53QnJQZk1RZ2FFeXBxN2VkUDRFYy16ZjgxQkNSc3ppZ1ZPWGdNdG9SanVveHNHc2ZUQU5qV2JDQXpINnVVd2x5eXplUnBDZjJCdGJLRk9QemRtaEpvYlNrTjM0anBWaDRDbHBYY1d2NUtZY1N2Zmx1SWU?oc=5",
-      "published": "2025-11-11T08:00:00+00:00",
-      "source": {
-        "name": "Deutsches Ärzteblatt",
-        "url": "https://www.aerzteblatt.de"
-      }
-    },
-    {
       "id": "b027289bf54f",
       "title": "EU-Generalanwalt: Versandverbot nein, aber ... - apotheke adhoc",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaGRRUFJ5MDV6WGZaTE84UlB3SU83OElpQ2dBVXJTMFRLWWFlSmN0alJ0eS1ZdF9zN09MZUhESFJDd2J1TVNQeHZRQ1ZLMVNtMC1OSm9DV01oVXhWVzRtOENHbUpnRE10akgwUnRyRmkzckZ1UFhIb05aM1ZLcVN1WkFKRUVRd3VaaWpZVUdraVRVdUtER2tIc1FjTWFqS3VIY0IzeERfWnJ4UQ?oc=5",
@@ -1001,6 +971,36 @@
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
+      }
+    },
+    {
+      "id": "e5c9f6b52b1b",
+      "title": "Weil Gesundheit alles verändert - Handelsblatt Live",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9VQXU3d2J3REtJeXBaWlQ0UTVlRWJDR2U3cTBJRFNaVlBYenpnNmp1QXZJLXB1WFQxY1dOQjJhMGRwVVZTNEE2eWVMZVd0bVZTSzEyOHY2R0NVd2dKVllzVEM3NDRoNEZKUkthRDdSTHA?oc=5",
+      "published": "2025-12-02T08:00:00+00:00",
+      "source": {
+        "name": "Handelsblatt Live",
+        "url": "https://live.handelsblatt.com"
+      }
+    },
+    {
+      "id": "705974bba917",
+      "title": "Amazon dominiert den Markt mit Gesundheitsprodukten - Deutsche Apotheker Zeitung, DAZ",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbHlZQTZWYmlGbVU5cjNqYjFlak5yVlpqT2xSenpLbFN2bDBBbE5wbTVpNDNtTmVFeUNfVlpqaHJBbUNIVVVxcVl4WThULXJaTEp3YjVQbmRfZkc5MEdCXzRKMV92aGc3UGQ4dWNVa05BM1lqcUVKZ1Z6X25rdGRNcUpha0V2a2p0N3A4LXZEdVpHTURXTVVhU1FkTkt2dUVKcWdkOTRRX25pN0JLbTQ5UXVMUjBlRmhH?oc=5",
+      "published": "2026-05-11T07:00:00+00:00",
+      "source": {
+        "name": "Deutsche Apotheker Zeitung, DAZ",
+        "url": "https://www.deutsche-apotheker-zeitung.de"
+      }
+    },
+    {
+      "id": "59d03ee6896b",
+      "title": "Medikamente ohne Zuzahlung können ungesunde Nebenwirkungen haben - MDR.de",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOa1BRZ1RkZDlsQTQtUVVvek1KQlI2S2I5eUVpaHh0cGxseUJubDAxX01JeC1qRmczWTNSYWdhSnNMa3FGY2M3ZlcxVFo5UXpVMUt5RUw2T3VJMXZmdTlKOTYtaGtzY1EzZFpSVVM2UWY3YXpjM3lMOU8wMlJRbnlJY1FuTXcyMURpdHBsaVFvSDBmSm9NaGwtR3BWUEQ0c2FsTmpuZ3VnX2RkM05weXYtZkRxY2VZV3ZBWUp0OFk4RVd5MUFjZExvLXJKUjBXdWMzQzVud1RR?oc=5",
+      "published": "2026-02-12T08:00:00+00:00",
+      "source": {
+        "name": "MDR.de",
+        "url": "https://www.mdr.de"
       }
     }
   ]
