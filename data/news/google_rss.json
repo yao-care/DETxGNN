@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-24T14:18:20.710880+00:00",
+  "fetched_at": "2026-10-24T17:55:01.732659+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -274,16 +274,6 @@
       }
     },
     {
-      "id": "785cae568e93",
-      "title": "Änderungen an 6 Gesundheitsgesetzen: Kontrolle der Arzneimittelpreise, Verhinderung von Kreislaufgeschäften zur Aufblähung der Gerätepreise. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPS1hrMmprZHc2eEV3S1NYRHFjeG4wX1lkdlhHandBZVB3QkJKWS1YMlpzLWdHTHVVM0NkTzEwMWFVcGl1LU9nSUY0amtVUDlGdWM1RmEtR3JoZjRaeHZ2WnJ4TUpiSW1IVVJtNXRRSEhWejhfV0R2c0lGQTVpWlE2M0l1SWtBanlwMk5PdzEzbDF1dEpXYlZNaUxzNDlBSlVMVloyMVd6cTU5al9LSEFpUDBn?oc=5",
-      "published": "2026-10-21T08:13:56+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "20e66d1165d1",
       "title": "Leberschäden stark gestiegen: Paracetamol besonders häufig beteiligt - aponet.de",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNc01Jc3lndldQZGN6YW1pelRYRU5vQ1BiMW9MdExZOU5EQmFRYWk4ZUh1UHRON2tqTU1KQWV0TUNza01zWEhsczV3aFdyVHgzMTBVZnhBdzZxY2RCRUJXSk9tQWF4aDRqVXhwdmRHRFQ0OTlPcHlfMGJSY1JIR0tjbGhLMExoLUVKYjQ0OFh0Sk5RYU9mWHFnd2lTQkVJazJsdUIzWnlzT0w?oc=5",
@@ -291,6 +281,16 @@
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
+      }
+    },
+    {
+      "id": "785cae568e93",
+      "title": "Änderungen an 6 Gesundheitsgesetzen: Kontrolle der Arzneimittelpreise, Verhinderung von Kreislaufgeschäften zur Aufblähung der Gerätepreise. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPS1hrMmprZHc2eEV3S1NYRHFjeG4wX1lkdlhHandBZVB3QkJKWS1YMlpzLWdHTHVVM0NkTzEwMWFVcGl1LU9nSUY0amtVUDlGdWM1RmEtR3JoZjRaeHZ2WnJ4TUpiSW1IVVJtNXRRSEhWejhfV0R2c0lGQTVpWlE2M0l1SWtBanlwMk5PdzEzbDF1dEpXYlZNaUxzNDlBSlVMVloyMVd6cTU5al9LSEFpUDBn?oc=5",
+      "published": "2026-10-21T08:13:56+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -324,16 +324,6 @@
       }
     },
     {
-      "id": "f6fb8bc1c8d6",
-      "title": "Verhindern, dass Unternehmen sich absprechen, um die Preise für Medikamente und medizinische Geräte in die Höhe zu treiben. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOU1Z1UmZveGJHb19ncEthUWppRU9JSDR5bzRFbDNGYVRfSjZNbTdqRHZyWDY1bU9SdlI4aXZfV2hvaDR4SXRwYlpfTHQxbXc2M0N3Zlh6UkJMdGJyTmFzM0ZaZnlHdVg0NFkzdWJVcW5PTkU0WlhRSEZrM2VEaGhjNnJaX2NhOVB3RlZ2VzFHSldEaXlaR3haQm5zcWdBLUZY?oc=5",
-      "published": "2026-10-21T09:02:44+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "02e9917bea66",
       "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - DW.com",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGxHSlhmSS0tbUNKdG15NEVzRzYzYllEUnAzUEU3ak53czRHVWlKdTZrRGFDMk1MUThPUjdPTnBGVENqd3d2Q1VSdWhJVXppWDF4NWh0aEJJaXJlVTlnV0VoZVFkRHNSM3p6NVZXNjNwWHk5YkxSUWR2RGZKcmp3Y2U5REY0U3dRZFJLeHFtQk9wb2Y3RUVOaVBlMlJhZ29Rck000gGjAUFVX3lxTE1rTW00WXFBajZxbTJOS1NLckhVbXFBSzh1NE96QTEydTN1YjZnaFFNcV8xblZGM29hdTZQUHc4V3YzQ1pwcTlaVVBhZDVqMExLMTlYVzZ6TmM4ZUdsUm5TLXpPNmk1R3V4UktvaV93cWttNFpVX0VEZlZnUllSQkhyUlZmeTBJcU0zUEVSZTgxdzFWUnFNRk9CYVljN0Jhd0ZXUFk?oc=5",
@@ -341,6 +331,16 @@
       "source": {
         "name": "DW.com",
         "url": "https://www.dw.com"
+      }
+    },
+    {
+      "id": "f6fb8bc1c8d6",
+      "title": "Verhindern, dass Unternehmen sich absprechen, um die Preise für Medikamente und medizinische Geräte in die Höhe zu treiben. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOU1Z1UmZveGJHb19ncEthUWppRU9JSDR5bzRFbDNGYVRfSjZNbTdqRHZyWDY1bU9SdlI4aXZfV2hvaDR4SXRwYlpfTHQxbXc2M0N3Zlh6UkJMdGJyTmFzM0ZaZnlHdVg0NFkzdWJVcW5PTkU0WlhRSEZrM2VEaGhjNnJaX2NhOVB3RlZ2VzFHSldEaXlaR3haQm5zcWdBLUZY?oc=5",
+      "published": "2026-10-21T09:02:44+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -354,26 +354,6 @@
       }
     },
     {
-      "id": "23f1e3c8ec75",
-      "title": "Japan erleichtert Millionen Männern die Behandlung von Erektionsstörungen - Sumikai",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPUEg4VGgtTHYzb25VM1Noek1adTZKZkVHMkZjbUttSDY0MDVEc3BKRjVZSnVCRk1jU0o0NUs0R1JTMXdEMTRyN2xtVUR4MjQ0bFRZeVpPaXZNUUNUM3h5UnVnT3dOVkZXYldlRWprNEc1THllMFFsYmtOSktWaWk3SGp0NlVWUUVjM01sN2NWQUNrVEh5NEF0TFhYYThLMW5ndTVOVFpQSUVGbGh1NzB4ZUZnRVQtMGNPaWNydlJKVVZfZFlzQjBWLWN2NWRCTGE2d0c4cmI1YTMwYTFvVVctMm9kcw?oc=5",
-      "published": "2026-10-23T18:00:00+00:00",
-      "source": {
-        "name": "Sumikai",
-        "url": "https://sumikai.com"
-      }
-    },
-    {
-      "id": "e3239e061b44",
-      "title": "Arzneimittel-Versorgung: Mehr als 4 Millionen Menschen haben weite Wege zur nächsten Apotheke - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQWW1RQnJQVDNJc3lBczlKM19KMVdqRlNLbFFuTjJQZmNEbjh6MnBhM3Q2TThJclVYaEJ0Y1h5a1dvVU9ZVFk3RDJaV0JrSnFydmx6OVJkZlRicWkwYWtRQ3EzcGtGUXU5YlBMYVdzZXRBbjNKNTFKeDA2eGdpbU1tc2RTOHlIMF9yNEVJY0hpNG5WWk04V3lTQnBpWWNmMV9tN1hBdm5JYmU4WE5lRXNNUXVoMzJWV3J0WjNpaDFkaWNZVHZWOTVpYg?oc=5",
-      "published": "2026-06-09T07:00:00+00:00",
-      "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
-      }
-    },
-    {
       "id": "3843ee8c2190",
       "title": "Gesundheit - Beipackzettel von Medikamenten sollen digital werden - Ausdrucke in Apotheken sollen Option sein - Deutschlandfunk",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOclZxcXdzdDlfTXNBVkNkV1g0a1RMa05OWGcyX0RXaW5YMmpyUElhUnBJQU9QM3BzUG9iSFZnaWE0ek1iLTFQeE1wbkVhaDdrT3pVMERnT3l3VGhoOUtuS0EtT3pwazNMMGZmcmI1Z2puUHg1WWc5MzBXdHJma0l0dWNlNEhQdFdBUXF5X0V3OVRQWVA1RXFJNXJtbTVGMjNYQVlSWjNrdEttY0pQMXF0dWlwdGNUVWpFcF83a3RyX0oxSWpLaFVmc2NoVEhGNXc?oc=5",
@@ -384,13 +364,13 @@
       }
     },
     {
-      "id": "e55e30521cda",
-      "title": "Vorschläge der FinanzKommission Gesundheit für eine Reform der GKV - Taylor Wessing",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQVJuN0Fwenp0QU9hM01mSTRlR1ZxUzBfaExuWkRPSVIxQTBmb21HMGJ3Umd1b2Q5NjlpTkZWdnlsWU5RdG4tYmV2YWlldnhEREpzVmdLaURVbVpCR2pFRDY5Z1d6VW53bGtvaGgwTkRMeFMzeWI5WDJNd2ZXdTl4WkJTRURfbEstNXlJaXdzNGlwQTF5dHJ2Mjg1bFlJTW1SajFpM3VpMEtDdXZuNWplY3NnTQ?oc=5",
-      "published": "2026-05-04T07:00:00+00:00",
+      "id": "e3239e061b44",
+      "title": "Arzneimittel-Versorgung: Mehr als 4 Millionen Menschen haben weite Wege zur nächsten Apotheke - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQWW1RQnJQVDNJc3lBczlKM19KMVdqRlNLbFFuTjJQZmNEbjh6MnBhM3Q2TThJclVYaEJ0Y1h5a1dvVU9ZVFk3RDJaV0JrSnFydmx6OVJkZlRicWkwYWtRQ3EzcGtGUXU5YlBMYVdzZXRBbjNKNTFKeDA2eGdpbU1tc2RTOHlIMF9yNEVJY0hpNG5WWk04V3lTQnBpWWNmMV9tN1hBdm5JYmU4WE5lRXNNUXVoMzJWV3J0WjNpaDFkaWNZVHZWOTVpYg?oc=5",
+      "published": "2026-06-09T07:00:00+00:00",
       "source": {
-        "name": "Taylor Wessing",
-        "url": "https://www.taylorwessing.com"
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
       }
     },
     {
@@ -464,16 +444,6 @@
       }
     },
     {
-      "id": "0803836132e5",
-      "title": "Die Arzneimittelpreiskontrolle muss verschärft und der Kreislaufhandel, der die Preise für medizinische Geräte in die Höhe treibt, unterbunden werden. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVWwtT2FOWlpCc3UzLUFYV0F2d1ExZ2hmSjNlSkJackQ0Q2ozMGpYRnBxOVRaZGpza2JKemVCSTZoVGtCazlxN0FULXVuaHhRdmRnSGRfcG1tQ05tWjlZNThyYXFMUWtWV04xX2FQMElxUG9yZ2dhWGkxLUVFaG5ubHBlSjROaUh1MHFUYVpGcjVJWnVpN3dWUkVsSllUc2Z2ZUk5R2JhY2x1RXVISHhzX0lLOA?oc=5",
-      "published": "2026-10-21T08:56:44+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "1b12ce5c1077",
       "title": "Neue Cannabis-Regeln: Was Kassenpatienten bei Dronabinol jetzt beachten müssen - NDR.de",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObV8xUENNNjRxQjRTMl9ZU1B1YUxSZEpZLXppQTF3ZXV1QURiNnlVN3NtVGlfOEdQai1DYVBQYVdqOVlZNkZPNi12NjNtU3BmM005VEJ4ZmZtY2g2UElyblpGUG9kdk5oWWNraXQ2NlVMeXFSdElENmVJQkp6RklLUTh6Z054NzZkTUdpa2lUTUlnQ0dwWnl5YUoteTRBazNZVjdkT0pMNW1oUQ?oc=5",
@@ -481,6 +451,16 @@
       "source": {
         "name": "NDR.de",
         "url": "https://www.ndr.de"
+      }
+    },
+    {
+      "id": "0803836132e5",
+      "title": "Die Arzneimittelpreiskontrolle muss verschärft und der Kreislaufhandel, der die Preise für medizinische Geräte in die Höhe treibt, unterbunden werden. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVWwtT2FOWlpCc3UzLUFYV0F2d1ExZ2hmSjNlSkJackQ0Q2ozMGpYRnBxOVRaZGpza2JKemVCSTZoVGtCazlxN0FULXVuaHhRdmRnSGRfcG1tQ05tWjlZNThyYXFMUWtWV04xX2FQMElxUG9yZ2dhWGkxLUVFaG5ubHBlSjROaUh1MHFUYVpGcjVJWnVpN3dWUkVsSllUc2Z2ZUk5R2JhY2x1RXVISHhzX0lLOA?oc=5",
+      "published": "2026-10-21T08:56:44+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -524,16 +504,6 @@
       }
     },
     {
-      "id": "14a0611cbac5",
-      "title": "Premierminister: Die Kosten für Medikamente und medizinische Geräte sind übermäßig und unangemessen gestiegen. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQLTNSSUJoMXhGd1NxZUs3ZlEyeXJ5MnRCeFhNakJoNWxwUS1JdFdmUFppbE5fRmtQOTVaVE1JekJPX2pMSUszLUw2RFdHVTNqZ0FHWDVXblh2bkFVU3ZEa0V5VU41enQyclJmdWVWQ2tVVjFLMDZmcEpvNkJfajkyVnB5VFZPUHo2QkhqaHBRMF9ocE03UXVVQg?oc=5",
-      "published": "2026-10-21T06:54:25+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "a835b1a88368",
       "title": "Versorgungsmangel bei digitoxin- und digoxinhaltigen Arzneimitteln - Deutsche Apotheker Zeitung, DAZ",
       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQeFRScUFRbjltb2FZV2tpT013bXpHamEzcGNFanlJR2Rkc1JDOXpkdWJrZ29LZldnMGZDaEtmZUhNc3hrdG5nck5BWDByV1ByTnh5NmFxWXVjc3MzYmxPcUdOcThFWHpMQ1U1Z2pmaGFXN2lKblJCdl9BeWswakZKUjE4WFlBWWJpY1dXNlF0RE5aaHQ4ajBiWDRodklxWlhmNGw3MDZJTGtDVGhhUVlWdUJMZUpTVGZiNGtUYjNiWUVXVWcyOV9fNHFIY0c?oc=5",
@@ -541,6 +511,16 @@
       "source": {
         "name": "Deutsche Apotheker Zeitung, DAZ",
         "url": "https://www.deutsche-apotheker-zeitung.de"
+      }
+    },
+    {
+      "id": "14a0611cbac5",
+      "title": "Premierminister: Die Kosten für Medikamente und medizinische Geräte sind übermäßig und unangemessen gestiegen. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQLTNSSUJoMXhGd1NxZUs3ZlEyeXJ5MnRCeFhNakJoNWxwUS1JdFdmUFppbE5fRmtQOTVaVE1JekJPX2pMSUszLUw2RFdHVTNqZ0FHWDVXblh2bkFVU3ZEa0V5VU41enQyclJmdWVWQ2tVVjFLMDZmcEpvNkJfajkyVnB5VFZPUHo2QkhqaHBRMF9ocE03UXVVQg?oc=5",
+      "published": "2026-10-21T06:54:25+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -594,6 +574,16 @@
       }
     },
     {
+      "id": "23f1e3c8ec75",
+      "title": "Japan erleichtert Millionen Männern die Behandlung von Erektionsstörungen - Sumikai",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPUEg4VGgtTHYzb25VM1Noek1adTZKZkVHMkZjbUttSDY0MDVEc3BKRjVZSnVCRk1jU0o0NUs0R1JTMXdEMTRyN2xtVUR4MjQ0bFRZeVpPaXZNUUNUM3h5UnVnT3dOVkZXYldlRWprNEc1THllMFFsYmtOSktWaWk3SGp0NlVWUUVjM01sN2NWQUNrVEh5NEF0TFhYYThLMW5ndTVOVFpQSUVGbGh1NzB4ZUZnRVQtMGNPaWNydlJKVVZfZFlzQjBWLWN2NWRCTGE2d0c4cmI1YTMwYTFvVVctMm9kcw?oc=5",
+      "published": "2026-10-23T18:00:00+00:00",
+      "source": {
+        "name": "Sumikai",
+        "url": "https://sumikai.com"
+      }
+    },
+    {
       "id": "5fd73dc2932c",
       "title": "Menschen und Arzneimittel: Hitze gefährdet alle - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1SOVJuZkZFZTdsNFlWTmNONVQxN2ZFbnh0M045WmxqeGV6cHZ4Z1c4Z2xnYjkwUXNUcTJvWkptS0NHUUxocGIwZm04ejc3TFM2ZU5hNmtlZUtjQ2VTMWwtcEtRX0YxSXdCcE5UY252Z2dHWURtVGxn?oc=5",
@@ -601,16 +591,6 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
-      "id": "01a67b85e33b",
-      "title": "EU-Gesundheitskommissar prüft Folgen von Trumps Preisdruck auf Medikamente - Euronews.com",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcFliSVZSNlg1cVdjU1p0WVFhUkM4b0FGR1ZaNTJINFFpRUNRV2pkTWVVQXBrUUt0QTNqQmpXTFNhRDB4eEE5dXpaaXR6MmMzZm52RjhlVW1rc200dGMyWjBnVnFkcUVfV042VmFmdHRyNXItOUItWDlWZHJFR3hGd0NQZC1HdE1NOC1IT0d4eEhqY3F4czVGRVRscElSb01pakMzLWZfQXdrOHVLZkE?oc=5",
-      "published": "2026-06-16T07:00:00+00:00",
-      "source": {
-        "name": "Euronews.com",
-        "url": "https://de.euronews.com"
       }
     },
     {
@@ -624,13 +604,23 @@
       }
     },
     {
-      "id": "238d627fd5b2",
-      "title": "Mounjaro zum Abnehmen: Expertin warnt vor Risiken für Gesundheit, Haut und Haare - Frankfurter Rundschau",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPekhkdTRkanJIdWVpUWJha2UtdnE1SzFSMGVVeXR2YXBzcVNRMEFVWkdWQm1rWVVNSXZLQVZ3c3VYMjhJdmV4bGtDUklPZlZ1Rno4X1hhbXhUdDFWdHVTcUw0bUxtZTl4UzFKM1FUdGFpNGZVYjBfZklpU2xZTFluUXRXZXhLVU43cXRxUkdTaHJUcFJKVXFwTXdRYW4zWE1KaUMwUU82dkFtODJuLTBnZVJIWGJSZXZtbWwxTS1B?oc=5",
-      "published": "2026-09-17T07:00:00+00:00",
+      "id": "01a67b85e33b",
+      "title": "EU-Gesundheitskommissar prüft Folgen von Trumps Preisdruck auf Medikamente - Euronews.com",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcFliSVZSNlg1cVdjU1p0WVFhUkM4b0FGR1ZaNTJINFFpRUNRV2pkTWVVQXBrUUt0QTNqQmpXTFNhRDB4eEE5dXpaaXR6MmMzZm52RjhlVW1rc200dGMyWjBnVnFkcUVfV042VmFmdHRyNXItOUItWDlWZHJFR3hGd0NQZC1HdE1NOC1IT0d4eEhqY3F4czVGRVRscElSb01pakMzLWZfQXdrOHVLZkE?oc=5",
+      "published": "2026-06-16T07:00:00+00:00",
       "source": {
-        "name": "Frankfurter Rundschau",
-        "url": "https://www.fr.de"
+        "name": "Euronews.com",
+        "url": "https://de.euronews.com"
+      }
+    },
+    {
+      "id": "95bb40cf2428",
+      "title": "Reduzierung von Zwischenhändlern im Pharma- und Medizintechniksektor. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSmpDLXk5dWVUV3g1Szlwdk0xeVNORkFWSE95bmNNcHU4RHJ2YlRCWlFvdWdBQ25nSUVsdzB4eUZSQm1LSFF5YXBISmdPdHp3eUVDNHgzQTdkb09RQkh1bHprUnZDQkJEZ1dfUWpkUmJNTlpOLXhjYWx5NE9PazhiQWJRREU1cWRhRDNRXzd2YVUzWWhNcGc?oc=5",
+      "published": "2026-10-21T08:16:05+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -644,16 +634,6 @@
       }
     },
     {
-      "id": "c5e8dfb6e8ee",
-      "title": "Gesundheitswirtschaft: Sparplan ist für Warken »kurzfristige Operation am Herzen« - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPM2ZHWEhpckd3UktDNnQwSDMtZ09XX21zQk16ckN2dG12bWFSWGNDdXNfc0xpNlJqS3ZfajRSMFRzTlRPYVNxVHNlZlJnWjI4VGcwYjhnOGhwZG9md3k2eDVHUGJfazhIU1NGVUQ1MjFYLUF1VmpVQlUyQjJnUjdqSUNZUTdGWnd4Yi1LZnpWaG1iaW5GZHBTM3p1bk1yZHNnSFJKQmpUOA?oc=5",
-      "published": "2026-05-19T07:00:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "f626825233d2",
       "title": "Medikamenten-Lieferengpässe: Wo die Ursachen liegen und was Patienten tun können - aponet.de",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNN0xRSk5YQXRHbVdsaTVXdzc0UlFJS0lLNkMtOHhMUm5qX3kwQ0E2U3VORXY4NXllT2puSkYyWUFRaTF3Z2RLWDd0WXNsaGpMODg2c1h2cXYtdWtOdFdfRjc2R1hUV3NHTUNlZ0RNX3k0cjVlVnUwRUJ3VXhmbUVjQll3UVhtT3B5ZGhjc2QzckpYdTJzM25iMFYyeThnWmJaLXNMRUJzMzU0cXA3ZWtScmYwRjNjQjBM?oc=5",
@@ -664,6 +644,26 @@
       }
     },
     {
+      "id": "c5e8dfb6e8ee",
+      "title": "Gesundheitswirtschaft: Sparplan ist für Warken »kurzfristige Operation am Herzen« - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPM2ZHWEhpckd3UktDNnQwSDMtZ09XX21zQk16ckN2dG12bWFSWGNDdXNfc0xpNlJqS3ZfajRSMFRzTlRPYVNxVHNlZlJnWjI4VGcwYjhnOGhwZG9md3k2eDVHUGJfazhIU1NGVUQ1MjFYLUF1VmpVQlUyQjJnUjdqSUNZUTdGWnd4Yi1LZnpWaG1iaW5GZHBTM3p1bk1yZHNnSFJKQmpUOA?oc=5",
+      "published": "2026-05-19T07:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "238d627fd5b2",
+      "title": "Mounjaro zum Abnehmen: Expertin warnt vor Risiken für Gesundheit, Haut und Haare - Frankfurter Rundschau",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPekhkdTRkanJIdWVpUWJha2UtdnE1SzFSMGVVeXR2YXBzcVNRMEFVWkdWQm1rWVVNSXZLQVZ3c3VYMjhJdmV4bGtDUklPZlZ1Rno4X1hhbXhUdDFWdHVTcUw0bUxtZTl4UzFKM1FUdGFpNGZVYjBfZklpU2xZTFluUXRXZXhLVU43cXRxUkdTaHJUcFJKVXFwTXdRYW4zWE1KaUMwUU82dkFtODJuLTBnZVJIWGJSZXZtbWwxTS1B?oc=5",
+      "published": "2026-09-17T07:00:00+00:00",
+      "source": {
+        "name": "Frankfurter Rundschau",
+        "url": "https://www.fr.de"
+      }
+    },
+    {
       "id": "b9ca65e5a941",
       "title": "Marktbericht: dm steigt in den Gesundheitsmarkt ein - tagesschau.de",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNd0RWVjQ1MFJ3RDJCdFRnZ3Z1RUU4YThkS1F2bnowNnZBQWk1QlIxdWNtMFN6a19KWWlhTnFyVUNRSGNLanRyR01ZM0lxSG1HRFBqQ3l3QXBMR1F6UU43X29oLTZEODQ1TktKWmhOVVR4YW10YWY1Qm5JZlZoLU8tMlhDYw?oc=5",
@@ -671,16 +671,6 @@
       "source": {
         "name": "tagesschau.de",
         "url": "https://www.tagesschau.de"
-      }
-    },
-    {
-      "id": "111717f3fb98",
-      "title": "Die Arzneimittelpreise kontrollieren und den Kreislaufhandel verhindern, der die Preise für medizinische Geräte in die Höhe treibt. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRTlxQ0JsNkVKZGhyNUtOakJsdjFMRi1mRGZ5YWI4am1DYlIwSGdYdUdFR2ptRmFlQVdFSVVRSmQzWlNLamgxUWRnS0lfMC1UdVdaNXFVSkJjOG9mM0tqYVdvaWtRQmhwaUNUWG5pNFU5LXFSc29jWkFBamdTNHdFTGtUd0kwRWIyNkFmSlp6V3lVeXM?oc=5",
-      "published": "2026-10-21T08:25:12+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -701,6 +691,16 @@
       "source": {
         "name": "DIE ZEIT",
         "url": "https://www.zeit.de"
+      }
+    },
+    {
+      "id": "111717f3fb98",
+      "title": "Die Arzneimittelpreise kontrollieren und den Kreislaufhandel verhindern, der die Preise für medizinische Geräte in die Höhe treibt. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRTlxQ0JsNkVKZGhyNUtOakJsdjFMRi1mRGZ5YWI4am1DYlIwSGdYdUdFR2ptRmFlQVdFSVVRSmQzWlNLamgxUWRnS0lfMC1UdVdaNXFVSkJjOG9mM0tqYVdvaWtRQmhwaUNUWG5pNFU5LXFSc29jWkFBamdTNHdFTGtUd0kwRWIyNkFmSlp6V3lVeXM?oc=5",
+      "published": "2026-10-21T08:25:12+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -841,16 +841,6 @@
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
-      }
-    },
-    {
-      "id": "e44c40577570",
-      "title": "\"Arztpraxis\" in Wien wegen massiver Missstände versiegelt - NÖN.at - Niederösterreichische Nachrichten",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQa1pfS0VqV1BUT3p3TmViWHJhUzNlRUpWdzhveHJIamcwZUVtUjlOQnRiRHFaQ1NaRm9WWTNkZ1NhOEdZMFdTY3RrMUZ5Vm54Ry1VYVpVQUQxZFp0TTh6cW9WQm1nSzlVb2RCbXFGVnc0NmNMY3dHX0hsNUFGU0tTbEN1QXVvNV9SUW1iS25CZG55QVFIeUtweWN3TjRpcDBPQ09kTHpFeGZLT092bVBDYndmTzBvTlhJR3B3TlJtZW1jWVVzWWJMLXAwbjRScDV3?oc=5",
-      "published": "2026-10-21T11:10:00+00:00",
-      "source": {
-        "name": "NÖN.at - Niederösterreichische Nachrichten",
-        "url": "https://www.noen.at"
       }
     },
     {
@@ -1001,6 +991,16 @@
       "source": {
         "name": "Deutsche Apotheker Zeitung, DAZ",
         "url": "https://www.deutsche-apotheker-zeitung.de"
+      }
+    },
+    {
+      "id": "59d03ee6896b",
+      "title": "Medikamente ohne Zuzahlung können ungesunde Nebenwirkungen haben - MDR.de",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOa1BRZ1RkZDlsQTQtUVVvek1KQlI2S2I5eUVpaHh0cGxseUJubDAxX01JeC1qRmczWTNSYWdhSnNMa3FGY2M3ZlcxVFo5UXpVMUt5RUw2T3VJMXZmdTlKOTYtaGtzY1EzZFpSVVM2UWY3YXpjM3lMOU8wMlJRbnlJY1FuTXcyMURpdHBsaVFvSDBmSm9NaGwtR3BWUEQ0c2FsTmpuZ3VnX2RkM05weXYtZkRxY2VZV3ZBWUp0OFk4RVd5MUFjZExvLXJKUjBXdWMzQzVud1RR?oc=5",
+      "published": "2026-02-12T08:00:00+00:00",
+      "source": {
+        "name": "MDR.de",
+        "url": "https://www.mdr.de"
       }
     }
   ]
