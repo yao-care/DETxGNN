@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-25T23:53:59.028311+00:00",
+  "fetched_at": "2026-10-26T03:42:45.141819+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -24,16 +24,6 @@
       }
     },
     {
-      "id": "3e6fe287666c",
-      "title": "Zeitumstellung 2026: Wie muss ich meine Medikamente jetzt einnehmen? - CHIP",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQbVZaRGdaZkZReDFkZ3o3QThScTBvel9JRk5Ca1lkNnNsa2hpclJBM2h6VTJBNG1rTkE2X3RaVkxkdTlvbHRvYVRidjFBd0VFMEV6c25lN0txX3hEU0lNMGVBVlVKTldKQlppSUlvWDBPSWRzcDNuMVZfM1BEaXBydE54NXBhVlUtMzFmV1hKb21SUWQyWnJ4bm1ucElKRVFTTzE1ZlpDRnhHQmZwWlVqRmtablhlM0RlWnhDTENWazJkMzc1T2FIbl9DRUxRTVJtYXU2RFo3M2t3NGlta1hvZE8wUzRkUnM?oc=5",
-      "published": "2026-10-25T05:00:00+00:00",
-      "source": {
-        "name": "CHIP",
-        "url": "https://www.chip.de"
-      }
-    },
-    {
       "id": "05ccc139d8cd",
       "title": "Süßstoffe können Darmbakterien verändern: Medikamente verstärken den Effekt - aponet.de",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcE9PVDdjbURYU1JzeTltZm9zbm5tX2p4Z2JOMFNhRTZnMVQ4M1ZiVkxGLVhqcGUxTF9Yd1NWMXV6ekJhR09sSi04RHRpaGdaVUxQUkowOTBtclJwOXZlc01qM3h1TkZsM1NsRHkyN0JjR1RZWFViZjNzVzhOWm93T2ZlOXFwdXgtN1k5Yjd5ZmpYdzJOa0pwM2d5d1RGbnNNWUZGWnltcFJsVGg1c19Nc1RaY1hmdw?oc=5",
@@ -41,6 +31,16 @@
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
+      }
+    },
+    {
+      "id": "3e6fe287666c",
+      "title": "Zeitumstellung 2026: Wie muss ich meine Medikamente jetzt einnehmen? - CHIP",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQbVZaRGdaZkZReDFkZ3o3QThScTBvel9JRk5Ca1lkNnNsa2hpclJBM2h6VTJBNG1rTkE2X3RaVkxkdTlvbHRvYVRidjFBd0VFMEV6c25lN0txX3hEU0lNMGVBVlVKTldKQlppSUlvWDBPSWRzcDNuMVZfM1BEaXBydE54NXBhVlUtMzFmV1hKb21SUWQyWnJ4bm1ucElKRVFTTzE1ZlpDRnhHQmZwWlVqRmtablhlM0RlWnhDTENWazJkMzc1T2FIbl9DRUxRTVJtYXU2RFo3M2t3NGlta1hvZE8wUzRkUnM?oc=5",
+      "published": "2026-10-25T05:00:00+00:00",
+      "source": {
+        "name": "CHIP",
+        "url": "https://www.chip.de"
       }
     },
     {
@@ -74,16 +74,6 @@
       }
     },
     {
-      "id": "beee2c80d803",
-      "title": "Drogerien: Rossmann mit Versandapotheke im Zeitplan - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQUVRSzBENXdHd0I1RkFoMGVvTWRLSHJ2eDAzUnhrbWpvTm50Zk8tbXl3TW9QbFkxRTVNUEtvRTlNNGFIaVRLb1V4alBoS3ltNjBMRUhkZmlFSkEwd1RWOWd5ZnVZc3JGNzBod25jNndWeUNpZ3FWYkM5OTRSTmMwWm5RckpRci1Rc3lOdEZ5NHg?oc=5",
-      "published": "2026-10-21T07:30:00+00:00",
-      "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
-      }
-    },
-    {
       "id": "62359a83d4ac",
       "title": "Arzneimittelmarkt in Deutschland: Analyse der Arzneimittelausgaben - vfa. Die forschenden Pharma-Unternehmen",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQlhtenAxN1hGNE9LX3hMemlaSDRGcy1XN2xpVEt3cTlhcDl2akpxZWo4bjY1N0RNVGRlRG5pSnBFUVA0V1l4WWc3QmxNc2ExRVIxU3RZQldOcVZpbVJEak9tZFFQNFJQUUdJcmluYzY2YzV3M01qdjkxY3pvTVBGUWstMHJJVGtjR0JQcWhiTDNjejA?oc=5",
@@ -94,13 +84,13 @@
       }
     },
     {
-      "id": "2189182e4d8f",
-      "title": "Medikamente in der Winterzeit: Zeitumstellung: Was gilt bei Tabletten mit fester Uhrzeit? - Handelsblatt",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNaUs4ZnVHRFdnSm9Qck5QUmhsWmE5QXFkRUczTnZ2NVM1bVhfRDRXOEp2RmZyYi15OHFZb1ZQaFFkcjRMZUdsTEUwOFhSTEhseXVDblB1THJYSzBGM2RRVEllVjhzRFFiUTVZT0FadGJBVklqREc5UWpnWlhqTGV0eENNWEZtVGR5UmdJTWZ1enYwaWFJZ0dRTmpKdGl4SGRkc1RiTE9RRGpwTWxhcUF4TTdZTTJlVnA3UlFudE5vNzZRQkdWbmg4dG9OZUpZYWNQQ21KY3FHN2V4MlhNUl93?oc=5",
-      "published": "2026-10-20T03:32:04+00:00",
+      "id": "beee2c80d803",
+      "title": "Drogerien: Rossmann mit Versandapotheke im Zeitplan - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQUVRSzBENXdHd0I1RkFoMGVvTWRLSHJ2eDAzUnhrbWpvTm50Zk8tbXl3TW9QbFkxRTVNUEtvRTlNNGFIaVRLb1V4alBoS3ltNjBMRUhkZmlFSkEwd1RWOWd5ZnVZc3JGNzBod25jNndWeUNpZ3FWYkM5OTRSTmMwWm5RckpRci1Rc3lOdEZ5NHg?oc=5",
+      "published": "2026-10-21T07:30:00+00:00",
       "source": {
-        "name": "Handelsblatt",
-        "url": "https://www.handelsblatt.com"
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
       }
     },
     {
@@ -131,6 +121,16 @@
       "source": {
         "name": "Presseportal",
         "url": "https://www.presseportal.de"
+      }
+    },
+    {
+      "id": "87a4c515be29",
+      "title": "Medikamente in der Winterzeit: Zeitumstellung: Was gilt bei Tabletten mit fester Uhrzeit? - Volksstimme",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNU2hueEowVFBHcm5GWTdXUjV0N3hkQ3VVa282bTBlX2tDTkhkNVFxR3JvVU9TaXBmdDIxNlhOd0E2Nl81N3ZIR1dheTI0c1ZYUDlabG1BRXhvb0ZtQWNQRk5VTUNXUm9BZVZ5ZzVvVXhXUWdjeE82TmpsYjdDaFl5TkVKbmlBZmdJQnJGOFJ2ZjBZZ2JoaTM4X3g5TWpYb1VISTBrYmk0eWc4NUJo?oc=5",
+      "published": "2026-10-20T03:32:00+00:00",
+      "source": {
+        "name": "Volksstimme",
+        "url": "https://www.volksstimme.de"
       }
     },
     {
@@ -334,16 +334,6 @@
       }
     },
     {
-      "id": "238d627fd5b2",
-      "title": "Mounjaro zum Abnehmen: Expertin warnt vor Risiken für Gesundheit, Haut und Haare - Frankfurter Rundschau",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPekhkdTRkanJIdWVpUWJha2UtdnE1SzFSMGVVeXR2YXBzcVNRMEFVWkdWQm1rWVVNSXZLQVZ3c3VYMjhJdmV4bGtDUklPZlZ1Rno4X1hhbXhUdDFWdHVTcUw0bUxtZTl4UzFKM1FUdGFpNGZVYjBfZklpU2xZTFluUXRXZXhLVU43cXRxUkdTaHJUcFJKVXFwTXdRYW4zWE1KaUMwUU82dkFtODJuLTBnZVJIWGJSZXZtbWwxTS1B?oc=5",
-      "published": "2026-09-17T07:00:00+00:00",
-      "source": {
-        "name": "Frankfurter Rundschau",
-        "url": "https://www.fr.de"
-      }
-    },
-    {
       "id": "67e4e08a7431",
       "title": "Bundesverwaltungsgericht: Die feinen Unterschiede zwischen Fertig- und Rezepturarzneimitteln - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNeTl1Y01rWHNTMC14UVB3aVFNMmVGTkxHdHlpaHNSc3pmZE5SZjVTRlhhbjVCdC01T0wzMkRJbzBvU0pYY3o0eXlrNEJjaEFkZ3ZXa3BhV3pycGZMN1lOc1EzcFBUNkN0bVFuVWR2aUtHaThDb0hPR3NOMTVBVEZrNVdORXJmbzA0QUpMbFJDTTJ0bi16aDR3aFlQeFR4VUo3SDJXZEtHdGc3NWI3TElkV0dB?oc=5",
@@ -364,13 +354,13 @@
       }
     },
     {
-      "id": "3ebb0c2080d6",
-      "title": "Betriebsfähigkeit: Lageso mahnt Apotheken zu Temperaturkontrollen - Pharmazeutische Zeitung",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSEM4X295eTdhRHlSR0k5S0MwMm1pSnZhamI1OWFaMGJnaURSLU5fdnB4aVJBNHRVd1RmMzdkM3ZUTk84ekFWUDhtT1pURUVMeFlnV3pRNTFfb0N2eFd6MHpPX1pQa0x4RnRneURZenNEQ0k0NDQxVWdEcW9XdkcwVTdFX3dvcU1zWEZCaFVsbjQ0V2cwVjRUbg?oc=5",
-      "published": "2026-07-02T07:00:00+00:00",
+      "id": "238d627fd5b2",
+      "title": "Mounjaro zum Abnehmen: Expertin warnt vor Risiken für Gesundheit, Haut und Haare - Frankfurter Rundschau",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPekhkdTRkanJIdWVpUWJha2UtdnE1SzFSMGVVeXR2YXBzcVNRMEFVWkdWQm1rWVVNSXZLQVZ3c3VYMjhJdmV4bGtDUklPZlZ1Rno4X1hhbXhUdDFWdHVTcUw0bUxtZTl4UzFKM1FUdGFpNGZVYjBfZklpU2xZTFluUXRXZXhLVU43cXRxUkdTaHJUcFJKVXFwTXdRYW4zWE1KaUMwUU82dkFtODJuLTBnZVJIWGJSZXZtbWwxTS1B?oc=5",
+      "published": "2026-09-17T07:00:00+00:00",
       "source": {
-        "name": "Pharmazeutische Zeitung",
-        "url": "https://www.pharmazeutische-zeitung.de"
+        "name": "Frankfurter Rundschau",
+        "url": "https://www.fr.de"
       }
     },
     {
@@ -384,12 +374,22 @@
       }
     },
     {
-      "id": "d312475c4be0",
-      "title": "Der Herstellerabschlag im Reformstress - vdek - Verband der Ersatzkassen",
+      "id": "3ebb0c2080d6",
+      "title": "Betriebsfähigkeit: Lageso mahnt Apotheken zu Temperaturkontrollen - Pharmazeutische Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSEM4X295eTdhRHlSR0k5S0MwMm1pSnZhamI1OWFaMGJnaURSLU5fdnB4aVJBNHRVd1RmMzdkM3ZUTk84ekFWUDhtT1pURUVMeFlnV3pRNTFfb0N2eFd6MHpPX1pQa0x4RnRneURZenNEQ0k0NDQxVWdEcW9XdkcwVTdFX3dvcU1zWEZCaFVsbjQ0V2cwVjRUbg?oc=5",
+      "published": "2026-07-02T07:00:00+00:00",
+      "source": {
+        "name": "Pharmazeutische Zeitung",
+        "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "12a6f84e648a",
+      "title": "Der Herstellerabschlag im Reformstress - Verband der Ersatzkassen (vdek)",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeXdkMXpjQVBJRzhyd1dCOVloSFpjc1cyNkczZjlHYl9QMlR4aFUwN1JLc3laQ0JWd0cwTWY4cmRnMGhDbE1vTzl3ODBNR2pQR0VLM0pJa2luTURVNGZOOXJlWlFGNG5ybFZkamI2WTlpOEZ1WjNTd19lcWJDdy1vU3V1RVI0TnRUSmNJVEphZkJYbnc?oc=5",
       "published": "2026-06-12T07:00:00+00:00",
       "source": {
-        "name": "vdek - Verband der Ersatzkassen",
+        "name": "Verband der Ersatzkassen (vdek)",
         "url": "https://www.vdek.com"
       }
     },
@@ -444,16 +444,6 @@
       }
     },
     {
-      "id": "b3ee44385946",
-      "title": "Diabetes-Heilversprechen: Fünf Warnsignale unseriöser Online-Therapien - ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPektGV2ZfekZDNlpKeVBJRldTaXRJM3dLdTljVnVuUUxaQ3FnTFdITEVpQWs0RVM2ODFpVGRZUktyZ1BUQW1Pdk9TU0NHaXU1OWVtUURNNWliRHlidkpsblNoWjhJWWljcGNvRnpOOEFIb3hSNk9xQ3JMWUpEcFk2ajQxWmNfaF9RYVFia21TUTM1VVByOWF0V3kwdHNBOHVPQmNvQU5GNE5rd2NDemROaUxmYk1vU0NpS0pVOA?oc=5",
-      "published": "2026-10-25T13:30:26+00:00",
-      "source": {
-        "name": "ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "02e9917bea66",
       "title": "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen - DW.com",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGxHSlhmSS0tbUNKdG15NEVzRzYzYllEUnAzUEU3ak53czRHVWlKdTZrRGFDMk1MUThPUjdPTnBGVENqd3d2Q1VSdWhJVXppWDF4NWh0aEJJaXJlVTlnV0VoZVFkRHNSM3p6NVZXNjNwWHk5YkxSUWR2RGZKcmp3Y2U5REY0U3dRZFJLeHFtQk9wb2Y3RUVOaVBlMlJhZ29Rck000gGjAUFVX3lxTE1rTW00WXFBajZxbTJOS1NLckhVbXFBSzh1NE96QTEydTN1YjZnaFFNcV8xblZGM29hdTZQUHc4V3YzQ1pwcTlaVVBhZDVqMExLMTlYVzZ6TmM4ZUdsUm5TLXpPNmk1R3V4UktvaV93cWttNFpVX0VEZlZnUllSQkhyUlZmeTBJcU0zUEVSZTgxdzFWUnFNRk9CYVljN0Jhd0ZXUFk?oc=5",
@@ -461,6 +451,16 @@
       "source": {
         "name": "DW.com",
         "url": "https://www.dw.com"
+      }
+    },
+    {
+      "id": "b3ee44385946",
+      "title": "Diabetes-Heilversprechen: Fünf Warnsignale unseriöser Online-Therapien - ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPektGV2ZfekZDNlpKeVBJRldTaXRJM3dLdTljVnVuUUxaQ3FnTFdITEVpQWs0RVM2ODFpVGRZUktyZ1BUQW1Pdk9TU0NHaXU1OWVtUURNNWliRHlidkpsblNoWjhJWWljcGNvRnpOOEFIb3hSNk9xQ3JMWUpEcFk2ajQxWmNfaF9RYVFia21TUTM1VVByOWF0V3kwdHNBOHVPQmNvQU5GNE5rd2NDemROaUxmYk1vU0NpS0pVOA?oc=5",
+      "published": "2026-10-25T13:30:26+00:00",
+      "source": {
+        "name": "ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -511,16 +511,6 @@
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
-      }
-    },
-    {
-      "id": "f2c9b8ccbbfa",
-      "title": "„Die Pharmaindustrie verdient in Deutschland blendend“ - WirtschaftsWoche",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZHdseVUtc3dpNzJvYXNSc2FmWlpReTNlVFlrY1hyWEFjNUxVbWhWWjAzaXNINFV4NC1vdzIyY2YyME1MMnBHVGt2MmtrRTl3YWtMdDhlTE1uVTlOamRMRVA4Rk5IdHNKdnlQc21PTVFJa0ZBSlBtUFFmemdaUVNGOG1sY0dUdnRmTTlsYzR1cGFpRFR3cDdtR011LWFneWlScVhpTFY2X19rNF9Mc0dZb0VHd1IyZXkzQmM0U2EtUlgtckpLTERtdUZiaw?oc=5",
-      "published": "2026-06-11T07:00:00+00:00",
-      "source": {
-        "name": "WirtschaftsWoche",
-        "url": "https://www.wiwo.de"
       }
     },
     {
@@ -684,16 +674,6 @@
       }
     },
     {
-      "id": "6e56e1c99277",
-      "title": "Onkologische Arzneimittel: Analyse der Marktsituation - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMi1WQVZnaGJPSm9GcVAzRWlGSHRDRVg2MXhXMTJUenNuQUpRcElfbjBDZVp3Y3Z1UUNzNm5PSUY0eVdXMWcyQ3J0WkUxSjVSY0xxWFJ5X0lJc3Y1VExsallLS24xQUxyUVMyTDdsWUtnTThIZjc2TWZsdGpWMlMxUDVfXzVmeXZNdlhwZGNWb0VXbFZnVEVYOFVHSmxtUjBFVEU2alRzVlpCMlJ4?oc=5",
-      "published": "2026-03-25T12:43:53+00:00",
-      "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
-      }
-    },
-    {
       "id": "d9edf968b2d7",
       "title": "»Spar­po­li­tik bei Arz­nei­mit­teln ist ein Irr­weg« - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZ3BYbThQLUVqMndzcmZ2RzJRTW5vb1o4dGhibU52alc0SUtlbFkxMkhCS1puYnNnelNOcnVtSl9iejVRNU1sNGxvZ0lZZVZkaWNnRGhWVWsxT1JobThfRzFVdnh6Q25Idzl3aGZZaThYdHBRYTUzNHRpX2VNZ0dGWHBjd3VEbDdERlhjOHhubnhHLXB2OWc?oc=5",
@@ -704,6 +684,16 @@
       }
     },
     {
+      "id": "6e56e1c99277",
+      "title": "Onkologische Arzneimittel: Analyse der Marktsituation - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMi1WQVZnaGJPSm9GcVAzRWlGSHRDRVg2MXhXMTJUenNuQUpRcElfbjBDZVp3Y3Z1UUNzNm5PSUY0eVdXMWcyQ3J0WkUxSjVSY0xxWFJ5X0lJc3Y1VExsallLS24xQUxyUVMyTDdsWUtnTThIZjc2TWZsdGpWMlMxUDVfXzVmeXZNdlhwZGNWb0VXbFZnVEVYOFVHSmxtUjBFVEU2alRzVlpCMlJ4?oc=5",
+      "published": "2026-03-25T12:43:53+00:00",
+      "source": {
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
+      }
+    },
+    {
       "id": "566dd4d9d4e6",
       "title": "Gesundheit: Medikamente mit Wechselwirkung? Vor diesen Fehlern schützt die ePA - Berliner Morgenpost",
       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPQnJXQjdvZFhaOHdKUjFfTHRXcU9oTF9vc21mN2U2bmNqOXF3M2o3RWIxU2R1bkx5eGRIYWJIWnF5Ty1yM0pMcW1DcG5LR2JiYlRPdFBXbUdFYmhaeVh5enZDdmY2YWlFdkQtNjVRalZKdzV0alNFbGlLWmM1c1BpcTlXcC01blFGM0dMVV83ZlpQN19kVGx3WVVKNTlXS0t0R1U2dmY0R1MwdGNzOC12MUJzcEh2M2lWendsZFphd1JxanR6elNEalAwSlRBSlczTk5jLVpvYjVQN0kyaGd3Ug?oc=5",
@@ -711,16 +701,6 @@
       "source": {
         "name": "Berliner Morgenpost",
         "url": "https://www.morgenpost.de"
-      }
-    },
-    {
-      "id": "87638cdfc417",
-      "title": "Schwangerschaft: Studie gibt Hinweise auf erhöhtes Autismus-Risiko durch bestimmte Medikamente - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcG1raUF1aU1ZeFA1Mjk1UjhFWFNidE1nbHdvbXN6OWw3cXVIRU1nYmMyQXY5djR6LUdCeTd2NnVNWFYzSWZGWldyX3lwLW8yalh6WktoVWFoVmRBMGJ2US1uNHRfTUVwaFFvZHN4UjVJcUY3MWdvWVlIclJ1M3ozeWRpcHF0WVQ3b2FDcHl4VW1yQ1BNcU8yLU5TaFpGdHRhcUtzZHRmY1p6RlBnc0tXdXVjeUlvVTBUeTNfeEpiMkVxbVAyOVNyTTJB?oc=5",
-      "published": "2026-04-29T07:00:00+00:00",
-      "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
       }
     },
     {
@@ -828,6 +808,16 @@
       "title": "Long-COVID: Diese vier Medikamente können Ärzte jetzt verordnen - aponet.de",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQR2thN0RySWEzc0xJQjEtOXFJVExqVi1YeWd3M2JheDFINmxZekJSM2Ntb3p5eXdCYjc4THFxLUF1V1NQVGNMWnBrQVc4R0YyVkxPNzdlUldDNndUcEJOeGNzYUNxTUplQ19MSm5mM0RmdnpVcjZrbTdJNHVONWJpX2MxblJraXYzOTNpZTF6cFE5OWpsZVVZS1RjbG82RHVIc0E?oc=5",
       "published": "2026-04-13T07:00:00+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
+      }
+    },
+    {
+      "id": "87638cdfc417",
+      "title": "Schwangerschaft: Studie gibt Hinweise auf erhöhtes Autismus-Risiko durch bestimmte Medikamente - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcG1raUF1aU1ZeFA1Mjk1UjhFWFNidE1nbHdvbXN6OWw3cXVIRU1nYmMyQXY5djR6LUdCeTd2NnVNWFYzSWZGWldyX3lwLW8yalh6WktoVWFoVmRBMGJ2US1uNHRfTUVwaFFvZHN4UjVJcUY3MWdvWVlIclJ1M3ozeWRpcHF0WVQ3b2FDcHl4VW1yQ1BNcU8yLU5TaFpGdHRhcUtzZHRmY1p6RlBnc0tXdXVjeUlvVTBUeTNfeEpiMkVxbVAyOVNyTTJB?oc=5",
+      "published": "2026-04-29T07:00:00+00:00",
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
@@ -991,6 +981,16 @@
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
+      }
+    },
+    {
+      "id": "df18e205d41a",
+      "title": "Neue Arzneimittel bezahlbar halten - vdek - Verband der Ersatzkassen",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObzE3cHpIZEo2Q0VEc0xrTzlCRHFTbW1GZ1dpbXhiSk55cmZpVFZaN3dtSkhvc2dqYkx0ekRicVhHTHhWTzFsSFVKZlVJZG1EUXBxZGZCU0kycm5yaVczSThMRHA3YkRHN3dPYXl3UTNEU1RWamFXdDBrZ2tTWWhqNjBjQk43VGNhdEFhMXF6Nmx6WHdkXzhwY25kTzVCMmp5?oc=5",
+      "published": "2025-06-17T07:00:00+00:00",
+      "source": {
+        "name": "vdek - Verband der Ersatzkassen",
+        "url": "https://www.vdek.com"
       }
     },
     {
