@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-26T03:42:45.141819+00:00",
+  "fetched_at": "2026-10-26T09:50:40.914678+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -104,16 +104,6 @@
       }
     },
     {
-      "id": "67426aae16d3",
-      "title": "Extrastunde durch Zeitumstellung: Wann Sie dann Ihre Tabletten einnehmen sollten - T-Online",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPVWxCaVEtUXlLQzFXa1VNbVZuQzJwU3FRTGpoT3ZpcV8xR0hKMWdyd2Fnai1wV1FkbTh1YmY2STI1NF91M0hERTRiSnF1T1JFamc0c0FFVWVtYjd4UVdoUXFjSGtzWWd4ZVhJbW5lMVBOSkZ4aUl0dmJNVmpuQnJOODF2VGxrb3lpMjB6ZWhELTR6b2tjNHRYWmoyNUwxSi1PWmtpRFMwLVZwcFEtTmNLbG1lWU5hRnpReW91OTl2cF9BeEV2YjJ6WE12X2djVDViNGN2TA?oc=5",
-      "published": "2026-10-20T12:05:49+00:00",
-      "source": {
-        "name": "T-Online",
-        "url": "https://www.t-online.de"
-      }
-    },
-    {
       "id": "e0f4f4bd7a05",
       "title": "Standortklausel jetzt umsetzen: BPI fordert konkrete Schritte für die Pharmastrategie - Presseportal",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAtRHFPUGUxei1LTEVJaXB0djdnY1lzVVh4ekx4aDk3T3ZQd3ZOZGVuZlN6VFdjb2cyUWljeFM1aUs5RjdVTk0yX2l0dFhjVkJGRkdFTkpBSQ?oc=5",
@@ -134,16 +124,6 @@
       }
     },
     {
-      "id": "7183e8acba7e",
-      "title": "Häufig Antibiotika in jungen Jahren: Studie zeigt Zusammenhang mit Reizdarm - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQR2R1alY4VHYtbzEzZlk2RE4xSjZudGVNMl85cWRZWmFYYmVZdTFJa01SQUthdTFybW04ZFUteHRrQkdkV1poRzIyUXJtQzgyeWNYTC1NMDdZWTMtMU81NkJvNFVLQWpBOWhGSGpCSU5hM0JBUnFhdGVtMHM4NlF3MDBOcnlod1ZKV1BGaGJ2MTVxX29DY29mbkN6bUZERXhkQm5XRi1LQmRGSjNyVVBGdzMweXUzY1ZvVU1vQUpoTQ?oc=5",
-      "published": "2026-10-22T09:39:37+00:00",
-      "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
-      }
-    },
-    {
       "id": "b61485c2b236",
       "title": "Apotheken-Nachrichten von heute beleuchten digitale Gesundheitsdaten, Arzneimittelsicherheit verlangt Kontrolle, Prävention gewinnt Gewicht - PresseBox",
       "link": "https://news.google.com/rss/articles/CBMirgJBVV95cUxNamtrR0plUjFoMG1ybEtoYUQxWWRNbmMwME9qQjducHF4QUdZcWtveGxMdmdKdEVQelZyREg0TThzQ1hGeFBwUm9CaTY2c2M4LUhEelFsSDVDaEx6RGJNQ21EZHItaGkwelJzLUE4Qy1rMjJldE1sOFV2SEp3aWk4NzVfNjVmSDdfRktTVHB4UVF5c0RsOXdTSlJ0Z3JjWHg3OHVGWHRpb3ZFTEJJLVB6XzBrUHdSN3dnUV9CNlNycDNUdHRja1FXS3pENXVPMGhWQkM1ZjN2RUVoMjVZRkRwMlVvamRIWk5LeTJiNjhLWTNPS1liR0RhUlhaY09fakJnT1hEOEk5M0tESGFiSDJGSzJsaWVnd0pXVHU3ZERCUHRPTWZqMVpaTVVmdC1MQQ?oc=5",
@@ -151,6 +131,16 @@
       "source": {
         "name": "PresseBox",
         "url": "https://www.pressebox.de"
+      }
+    },
+    {
+      "id": "7183e8acba7e",
+      "title": "Häufig Antibiotika in jungen Jahren: Studie zeigt Zusammenhang mit Reizdarm - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQR2R1alY4VHYtbzEzZlk2RE4xSjZudGVNMl85cWRZWmFYYmVZdTFJa01SQUthdTFybW04ZFUteHRrQkdkV1poRzIyUXJtQzgyeWNYTC1NMDdZWTMtMU81NkJvNFVLQWpBOWhGSGpCSU5hM0JBUnFhdGVtMHM4NlF3MDBOcnlod1ZKV1BGaGJ2MTVxX29DY29mbkN6bUZERXhkQm5XRi1LQmRGSjNyVVBGdzMweXUzY1ZvVU1vQUpoTQ?oc=5",
+      "published": "2026-10-22T09:39:37+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
       }
     },
     {
@@ -174,6 +164,16 @@
       }
     },
     {
+      "id": "22a9659e6285",
+      "title": "Arzneimittel: Ausgaben für Volkskrankheiten seit 2014 stark gestiegen - AerzteZeitung.de",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSmZlbW9YZ09NWnVjTFN2VVVXdkVuMjk1Q29taUhmTzVWU3ZLb3YxNGQwS2prRTVWbzEwQ2ZqRmd1N0prWGhjTk1oOTB3Y2sxaDd6UXNvcmtqMkZhbDRaNE9ocUhaR3dKU3NwanhmeGVHQmJvdTVtSlRhMEprbW1KSGFneVA2YmhGdkxFelNJQXUxcFlDRHBnOEhHR2pnc2FNenZZeXpGdXRKaFBESkZLb1d3Q1J3T045TXc?oc=5",
+      "published": "2026-09-23T07:00:00+00:00",
+      "source": {
+        "name": "AerzteZeitung.de",
+        "url": "https://www.aerztezeitung.de"
+      }
+    },
+    {
       "id": "18e43bd86c69",
       "title": "Wahlen Mecklenburg-Vorpommern: Linke will Versandhandel von Medikamenten unterbinden - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZmVfS05qQ0xQeGNrajNHX2RLQWtVZlVqVlFPdG9NMmp0U2pyWE1PWTdnLXBDV2loMDJKR2MwZzdEWlY4bnlCMHQxeXp4SlFTN0hiMDhxR0dqYU1ZcDBOZ2Nrczd0ZVVXanBKcmlfRmZxOVpMalRJWlJ1SG5RODU0dFlmYm1vdkJoakVpRU0wcVg1Mk1OYWdleV9Sc1U5VW53a1E?oc=5",
@@ -184,13 +184,13 @@
       }
     },
     {
-      "id": "0d1c92b92378",
-      "title": "Apotheken legen Fünf-Punkte-Plan für eine sichere Arzneimittelversorgung vor - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORnlkOGZudXJ0Ri10MmJYREtUMWsyTl92MGlzT050VU52cjVjZEkyMkdzRVUwMENMalRpaXVSQTlFWTNWY1pZVnR3Tk0tS2pNWm1YeFNBYkdzZWlIUE1rQWZRRFVRanpwdkJPdFlzNGkxcmlJQ0NYTi1jOEFpa2IxUjJ3MXZlWWhvQ2J3X2RMRHBaTnNYNl9BVW5FcXR0QVQtd0tLUFpoRmNHaFI3ZXZIWV9VWEY?oc=5",
-      "published": "2026-09-15T07:00:00+00:00",
+      "id": "ce2882990a55",
+      "title": "Hitzewelle: Zu heiß für den Medikamentenversand? - Gesundheit - SZ.de - SZ.de",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZFpweWlmUW0xajBaR2VMSFI3NU5pam9SX2dCWGdBVEx0cm94Mkh2ZjhLYl9uNldzWDV2UDViclFJTExQWGJsWnpBSkxyQ3B5cGNGSktVSEx5Y2xsTExwMFBmU0E3T0tDRDVPTDFhNTBfRVlVWVpfZHlVdEdXMWtVVnFKT2o5c2FKbGVYc1N0ZHQ1bk1Ram5uQXBjN0VuNld0NzNVZFJBcmpwemNsanc?oc=5",
+      "published": "2026-08-31T07:00:00+00:00",
       "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
+        "name": "SZ.de",
+        "url": "https://www.sueddeutsche.de"
       }
     },
     {
@@ -201,16 +201,6 @@
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
-      }
-    },
-    {
-      "id": "ce2882990a55",
-      "title": "Hitzewelle: Zu heiß für den Medikamentenversand? - Gesundheit - SZ.de - SZ.de",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZFpweWlmUW0xajBaR2VMSFI3NU5pam9SX2dCWGdBVEx0cm94Mkh2ZjhLYl9uNldzWDV2UDViclFJTExQWGJsWnpBSkxyQ3B5cGNGSktVSEx5Y2xsTExwMFBmU0E3T0tDRDVPTDFhNTBfRVlVWVpfZHlVdEdXMWtVVnFKT2o5c2FKbGVYc1N0ZHQ1bk1Ram5uQXBjN0VuNld0NzNVZFJBcmpwemNsanc?oc=5",
-      "published": "2026-08-31T07:00:00+00:00",
-      "source": {
-        "name": "SZ.de",
-        "url": "https://www.sueddeutsche.de"
       }
     },
     {
@@ -304,16 +294,6 @@
       }
     },
     {
-      "id": "50e574837ee5",
-      "title": "Medikamentenversand bei Hitze: Risiken für Arzneimittel - Apotheken Umschau",
-      "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPREY3YjJLY0JhYUEzX3FnRFlGRDJ1Vm9JamNNVTNoR3NOX0tOMTIzWUMweTJ2ekYzbktzUTZha0djdWpuN09lNHVZUWw4bVJxYXhWeWtxWUVxM0tXS2xGcGtMd29yWmdTSlFpUkxpdmRvMV9ZaEJhT3czaTY3a2VhOUVJU2p0VWZWMU9PNHZDQWt2b0FpdFhOQlNESFdTV0l0M3R4SDFVMTBOTmZMVVo5ZV9KSmZremN6cTNzOXR0a3RjT2Y0MGZjQkNMUVdFY0xZejBFanY4aDRNOEdpZzdTMVowbkZHUVNtU1htclVWeE50OUwzaWlXSG44akg3S05Odlh2MUxlYXAxbkZVbDB4eWRhZF9YZw?oc=5",
-      "published": "2026-07-31T07:00:00+00:00",
-      "source": {
-        "name": "Apotheken Umschau",
-        "url": "https://www.apotheken-umschau.de"
-      }
-    },
-    {
       "id": "d50850f44495",
       "title": "Studie zeigt: Viele ältere Menschen haben Probleme bei der Einnahme ihrer Medikamente - aponet.de",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORXRObGctTUs4SkloQ3M4djlla1E5bWNZbGVVUldQYXY5TG8zZzVlVHRUanNRVWVJaU9yMnZNeF93Tkk1WmdmNGhmYWI5NWZQRVAzTlZ1RTlNeV9tOWNMVmRmY2h5T0MySkdSZTZlaWRRQzdXYU82VlZWOUxjMkU3Z1F6alRlUEZPRHpOSUtoVENYNGZjd0JVYnRUZ0QzUjBIa1VvZDFsdlJQZ0h4Y0xSMy1R?oc=5",
@@ -321,6 +301,16 @@
       "source": {
         "name": "aponet.de",
         "url": "https://www.aponet.de"
+      }
+    },
+    {
+      "id": "50e574837ee5",
+      "title": "Medikamentenversand bei Hitze: Risiken für Arzneimittel - Apotheken Umschau",
+      "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPREY3YjJLY0JhYUEzX3FnRFlGRDJ1Vm9JamNNVTNoR3NOX0tOMTIzWUMweTJ2ekYzbktzUTZha0djdWpuN09lNHVZUWw4bVJxYXhWeWtxWUVxM0tXS2xGcGtMd29yWmdTSlFpUkxpdmRvMV9ZaEJhT3czaTY3a2VhOUVJU2p0VWZWMU9PNHZDQWt2b0FpdFhOQlNESFdTV0l0M3R4SDFVMTBOTmZMVVo5ZV9KSmZremN6cTNzOXR0a3RjT2Y0MGZjQkNMUVdFY0xZejBFanY4aDRNOEdpZzdTMVowbkZHUVNtU1htclVWeE50OUwzaWlXSG44akg3S05Odlh2MUxlYXAxbkZVbDB4eWRhZF9YZw?oc=5",
+      "published": "2026-07-31T07:00:00+00:00",
+      "source": {
+        "name": "Apotheken Umschau",
+        "url": "https://www.apotheken-umschau.de"
       }
     },
     {
@@ -454,16 +444,6 @@
       }
     },
     {
-      "id": "b3ee44385946",
-      "title": "Diabetes-Heilversprechen: Fünf Warnsignale unseriöser Online-Therapien - ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPektGV2ZfekZDNlpKeVBJRldTaXRJM3dLdTljVnVuUUxaQ3FnTFdITEVpQWs0RVM2ODFpVGRZUktyZ1BUQW1Pdk9TU0NHaXU1OWVtUURNNWliRHlidkpsblNoWjhJWWljcGNvRnpOOEFIb3hSNk9xQ3JMWUpEcFk2ajQxWmNfaF9RYVFia21TUTM1VVByOWF0V3kwdHNBOHVPQmNvQU5GNE5rd2NDemROaUxmYk1vU0NpS0pVOA?oc=5",
-      "published": "2026-10-25T13:30:26+00:00",
-      "source": {
-        "name": "ad-hoc-news.de",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "5fd73dc2932c",
       "title": "Menschen und Arzneimittel: Hitze gefährdet alle - Pharmazeutische Zeitung",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1SOVJuZkZFZTdsNFlWTmNONVQxN2ZFbnh0M045WmxqeGV6cHZ4Z1c4Z2xnYjkwUXNUcTJvWkptS0NHUUxocGIwZm04ejc3TFM2ZU5hNmtlZUtjQ2VTMWwtcEtRX0YxSXdCcE5UY252Z2dHWURtVGxn?oc=5",
@@ -494,12 +474,12 @@
       }
     },
     {
-      "id": "47afc2884d76",
-      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - geo.de",
+      "id": "b6f8a06fd285",
+      "title": "Hitzewelle: Medikamente wie die Pille verlieren ihre Wirkung - GEO.de",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBGMHYwcEltMnpsU3BxSjY5LTdwcEVsQ2pSeDJNd3pwTS1OZ3JCWmpMYmVnaTg4R01KS2FGeWN3QmJwYzg2dEphb24yVlRKbnFKUGtlN2tMdkswbXRnQ1VqRUItTUtzaWhGNjgtNDE0YjlBTENHeG9acmFaRk84Q0hnamZXU2JRbkxLYmtnN1NWeVZjVFkxS09uRWFzVEI3WUtxbm5BbTdPLW1pcVdjYw?oc=5",
       "published": "2026-06-19T07:00:00+00:00",
       "source": {
-        "name": "geo.de",
+        "name": "GEO.de",
         "url": "https://www.geo.de"
       }
     },
@@ -531,6 +511,16 @@
       "source": {
         "name": "Pharmazeutische Zeitung",
         "url": "https://www.pharmazeutische-zeitung.de"
+      }
+    },
+    {
+      "id": "b3ee44385946",
+      "title": "Diabetes-Heilversprechen: Fünf Warnsignale unseriöser Online-Therapien - ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPektGV2ZfekZDNlpKeVBJRldTaXRJM3dLdTljVnVuUUxaQ3FnTFdITEVpQWs0RVM2ODFpVGRZUktyZ1BUQW1Pdk9TU0NHaXU1OWVtUURNNWliRHlidkpsblNoWjhJWWljcGNvRnpOOEFIb3hSNk9xQ3JMWUpEcFk2ajQxWmNfaF9RYVFia21TUTM1VVByOWF0V3kwdHNBOHVPQmNvQU5GNE5rd2NDemROaUxmYk1vU0NpS0pVOA?oc=5",
+      "published": "2026-10-25T13:30:26+00:00",
+      "source": {
+        "name": "ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -814,16 +804,6 @@
       }
     },
     {
-      "id": "87638cdfc417",
-      "title": "Schwangerschaft: Studie gibt Hinweise auf erhöhtes Autismus-Risiko durch bestimmte Medikamente - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcG1raUF1aU1ZeFA1Mjk1UjhFWFNidE1nbHdvbXN6OWw3cXVIRU1nYmMyQXY5djR6LUdCeTd2NnVNWFYzSWZGWldyX3lwLW8yalh6WktoVWFoVmRBMGJ2US1uNHRfTUVwaFFvZHN4UjVJcUY3MWdvWVlIclJ1M3ozeWRpcHF0WVQ3b2FDcHl4VW1yQ1BNcU8yLU5TaFpGdHRhcUtzZHRmY1p6RlBnc0tXdXVjeUlvVTBUeTNfeEpiMkVxbVAyOVNyTTJB?oc=5",
-      "published": "2026-04-29T07:00:00+00:00",
-      "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
-      }
-    },
-    {
       "id": "1f4441bb42a2",
       "title": "Medizinprodukte: US-Arzneibehörde will Auflagen für neue Medikamente lockern - DIE ZEIT",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMDQ4aUF0OUVjbTB5LXZPc1JjcGo2U2RMUHdCNlpmQXV3RHFQeHJfRHlGcUZxVDRjZEVZV21TRmRTalZTdU9WN1RWeFREc212am9oREtTNjNBU0o5dW51RHM3US1WOXdFbWtnZ1RwM2diM21uTkVRN25HTVc1ZjNiM2Vhc0FjYXlBd1FadUM2RGd0UkEyalBmUWNpcmxMNTV3dUswMGlQSQ?oc=5",
@@ -884,16 +864,6 @@
       }
     },
     {
-      "id": "9b4ec0dc8566",
-      "title": "Arzneimittel-Kompass der AOK: Ein Faktencheck - vfa. Die forschenden Pharma-Unternehmen",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcXNlN2NkNFZqd0ZfUHA2OE9YbG1zOGdGbGxhY0pDRENaX1RLYS1VNV9tRE1nN0tyTEhGOTZKQ21XTXhiQjdJb0FxTGI5V09qYXNWXy1GRkNLenBnVDRZbTA4NEhnX3gzcjZabTZBc1NOcTRtOVMtS1RIMU9GUkI0MjJsSUhVQk1BQVR0T2FnUW9ZYTI0clhjNGJMOEcwVnM?oc=5",
-      "published": "2025-12-10T08:00:00+00:00",
-      "source": {
-        "name": "vfa. Die forschenden Pharma-Unternehmen",
-        "url": "https://www.vfa.de"
-      }
-    },
-    {
       "id": "20a64d917dfc",
       "title": "Medikamente für Senioren: Studie warnt vor riskanten Wirkstoffen - Berliner Morgenpost",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZ29BeW1jeXNBMHJfUWNHT1RfQWNhcG9TUzJwbE11cl9XN1VvWElYUmJORUxoclg3R08xa3VsaXhSMlBnSlE2ZkhOdWF2Z0lVempDdE9XMnBZcEVQUm5KVDBaM0I0ZWpxdzBYbkxYOWtjOGN1ZGxCUkh5TDUzeUxJc0F1dm55XzdHMEwyNUZheFRiaFdKUGtUR1JmYXRGelY0UlM3OFh4SkExRGFTVWZFamxqYXFQOHRCZjFTQThnbjRWU1JMcEM0?oc=5",
@@ -904,6 +874,16 @@
       }
     },
     {
+      "id": "9b4ec0dc8566",
+      "title": "Arzneimittel-Kompass der AOK: Ein Faktencheck - vfa. Die forschenden Pharma-Unternehmen",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcXNlN2NkNFZqd0ZfUHA2OE9YbG1zOGdGbGxhY0pDRENaX1RLYS1VNV9tRE1nN0tyTEhGOTZKQ21XTXhiQjdJb0FxTGI5V09qYXNWXy1GRkNLenBnVDRZbTA4NEhnX3gzcjZabTZBc1NOcTRtOVMtS1RIMU9GUkI0MjJsSUhVQk1BQVR0T2FnUW9ZYTI0clhjNGJMOEcwVnM?oc=5",
+      "published": "2025-12-10T08:00:00+00:00",
+      "source": {
+        "name": "vfa. Die forschenden Pharma-Unternehmen",
+        "url": "https://www.vfa.de"
+      }
+    },
+    {
       "id": "8facb188a23e",
       "title": "Erfassung von Medikationsfehlern in Deutschland – ein Workshopbericht - Springer Nature Link",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5fWTFuNXg0ZS1CUjEteG1YbXJrLUI2TXRBR0djZ0VqUWZLRjdYUTJ0WFQ1Qy1DYzJRbHB1UXlvbzZTWWlKckRjcmZGRVp4MFJvdk5Wa1ZoWlVsXzF0WElONTFFbm9zUTZlQ1Q5TA?oc=5",
@@ -911,16 +891,6 @@
       "source": {
         "name": "Springer Nature Link",
         "url": "https://link.springer.com"
-      }
-    },
-    {
-      "id": "b027289bf54f",
-      "title": "EU-Generalanwalt: Versandverbot nein, aber ... - apotheke adhoc",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaGRRUFJ5MDV6WGZaTE84UlB3SU83OElpQ2dBVXJTMFRLWWFlSmN0alJ0eS1ZdF9zN09MZUhESFJDd2J1TVNQeHZRQ1ZLMVNtMC1OSm9DV01oVXhWVzRtOENHbUpnRE10akgwUnRyRmkzckZ1UFhIb05aM1ZLcVN1WkFKRUVRd3VaaWpZVUdraVRVdUtER2tIc1FjTWFqS3VIY0IzeERfWnJ4UQ?oc=5",
-      "published": "2026-01-13T08:00:00+00:00",
-      "source": {
-        "name": "apotheke adhoc",
-        "url": "https://www.apotheke-adhoc.de"
       }
     },
     {
@@ -964,6 +934,16 @@
       }
     },
     {
+      "id": "87638cdfc417",
+      "title": "Schwangerschaft: Studie gibt Hinweise auf erhöhtes Autismus-Risiko durch bestimmte Medikamente - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcG1raUF1aU1ZeFA1Mjk1UjhFWFNidE1nbHdvbXN6OWw3cXVIRU1nYmMyQXY5djR6LUdCeTd2NnVNWFYzSWZGWldyX3lwLW8yalh6WktoVWFoVmRBMGJ2US1uNHRfTUVwaFFvZHN4UjVJcUY3MWdvWVlIclJ1M3ozeWRpcHF0WVQ3b2FDcHl4VW1yQ1BNcU8yLU5TaFpGdHRhcUtzZHRmY1p6RlBnc0tXdXVjeUlvVTBUeTNfeEpiMkVxbVAyOVNyTTJB?oc=5",
+      "published": "2026-04-29T07:00:00+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
+      }
+    },
+    {
       "id": "cde9e5591f92",
       "title": "Arzneimittel: Der Preis der Preisregulierung - Pharma Fakten",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9EcVBGbjVzVWdMLTR4MHFfNEdzdEdrMTVpNFkwWERJVkJkYURGa1VpcWQ2aTJQaUJBSUdzRjN4dmNFbjRhRFNCU2JvT3lLWWxyWjlKWkhtVmo5T0JreF9LdE4yUHlwdU1peGlSSVFMeGxlXzJmb1ZTRWVmeGJMaDQ?oc=5",
@@ -971,16 +951,6 @@
       "source": {
         "name": "Pharma Fakten",
         "url": "https://pharma-fakten.de"
-      }
-    },
-    {
-      "id": "7d62906974b1",
-      "title": "Bluthochdruck: Bringt ein neues Medikament den Durchbruch? - aponet.de",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPS054ZTZ6cUtoZFV5T3FVM1lpYlVUOHNvbUNNWXN0aUpWVlN5dkpYbkZqemhoZFM1eUZMeENZVFVxU3FjX1ktMTJZTWRiaWhLTUtfTHJzb0J4TDdrUzJwOXBPRkxyU1BKZS1ETFF4Ry0zWjNUY1BVUkVXemJuc1lSVFVJQWw0ZzZZZlB1bUs4bUJrZmJrU204?oc=5",
-      "published": "2026-04-09T07:00:00+00:00",
-      "source": {
-        "name": "aponet.de",
-        "url": "https://www.aponet.de"
       }
     },
     {
@@ -994,6 +964,16 @@
       }
     },
     {
+      "id": "7d62906974b1",
+      "title": "Bluthochdruck: Bringt ein neues Medikament den Durchbruch? - aponet.de",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPS054ZTZ6cUtoZFV5T3FVM1lpYlVUOHNvbUNNWXN0aUpWVlN5dkpYbkZqemhoZFM1eUZMeENZVFVxU3FjX1ktMTJZTWRiaWhLTUtfTHJzb0J4TDdrUzJwOXBPRkxyU1BKZS1ETFF4Ry0zWjNUY1BVUkVXemJuc1lSVFVJQWw0ZzZZZlB1bUs4bUJrZmJrU204?oc=5",
+      "published": "2026-04-09T07:00:00+00:00",
+      "source": {
+        "name": "aponet.de",
+        "url": "https://www.aponet.de"
+      }
+    },
+    {
       "id": "553edb8a6037",
       "title": "Herzschwäche: Comeback für ein uraltes Medikament aus der Natur - tagesschau.de",
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNU04wMmZyUWVReTBxZ3plZWs1Q3NXVXNNSG1BemdiRy16NERXZTlBYldveFk4UDNEcGE5aE1QU1d4bjhlclVNdDM0dWdfNzdUXzk4TUFZdmZraklHUW5BcmMwTDdBRk9QTU1iajhxNVQ2RzRNWGN1UDR3N3hlV2hWNWZn?oc=5",
@@ -1001,6 +981,26 @@
       "source": {
         "name": "tagesschau.de",
         "url": "https://www.tagesschau.de"
+      }
+    },
+    {
+      "id": "62d3f46a88a8",
+      "title": "Maßnahmen der EU zur Verbesserung der öffentlichen Gesundheit - European Parliament",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVzhCNzVfWlJpeVRpVnRlZDB1VDB6WVBfYzJsbk1qSVVTMEo0OWVjWEhFQTdyWHV4Ym1GemQtUHBkU3ZxVmI1R0lPVzE3SVN0Qzd2OW5JSVRKUjkyX3dadEVIb2pGdzRxOU01QVRQMXEzaTJ3VjVPTTN3MmN4TVdlUlZKTTdUZGM1R3hwT19HWVRKckhyeWVKYmxYSjJMSWZSZVhWSWc5dnBXcjBQdlk2TG5WcV9hOGpXX29fWm1tdTFVcmJPU1Jr?oc=5",
+      "published": "2023-10-17T07:00:00+00:00",
+      "source": {
+        "name": "European Parliament",
+        "url": "https://www.europarl.europa.eu"
+      }
+    },
+    {
+      "id": "59d03ee6896b",
+      "title": "Medikamente ohne Zuzahlung können ungesunde Nebenwirkungen haben - MDR.de",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOa1BRZ1RkZDlsQTQtUVVvek1KQlI2S2I5eUVpaHh0cGxseUJubDAxX01JeC1qRmczWTNSYWdhSnNMa3FGY2M3ZlcxVFo5UXpVMUt5RUw2T3VJMXZmdTlKOTYtaGtzY1EzZFpSVVM2UWY3YXpjM3lMOU8wMlJRbnlJY1FuTXcyMURpdHBsaVFvSDBmSm9NaGwtR3BWUEQ0c2FsTmpuZ3VnX2RkM05weXYtZkRxY2VZV3ZBWUp0OFk4RVd5MUFjZExvLXJKUjBXdWMzQzVud1RR?oc=5",
+      "published": "2026-02-12T08:00:00+00:00",
+      "source": {
+        "name": "MDR.de",
+        "url": "https://www.mdr.de"
       }
     }
   ]
