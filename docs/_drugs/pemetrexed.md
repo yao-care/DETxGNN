@@ -33,7 +33,8 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Pemetrexed: Von Nicht-kleinzelligem Lungenkarzinom und Mesotheliom zum malignen peritonealen Mesotheliom
+## Pemetrexed: Von Nicht-kleinzelligem Lungenkarzinom und Mesotheliom zum malignen peritonealen Mesotheliom
+{: .text-alpha }
 
 ## Zusammenfassung
 

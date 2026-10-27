@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Apixaban: Von Venöser Thromboembolie zu Migräne
+## Apixaban: Von Venöser Thromboembolie zu Migräne
+{: .text-alpha }
 
 ## Zusammenfassung
 

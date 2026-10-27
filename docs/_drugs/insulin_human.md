@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Humaninsulin: Von Diabetes mellitus zu autoimmuner Oophoritis
+## Humaninsulin: Von Diabetes mellitus zu autoimmuner Oophoritis
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

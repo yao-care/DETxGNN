@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Atazanavir: Von HIV-Infektion zu felinem erworbenem Immundefizienz-Syndrom
+## Atazanavir: Von HIV-Infektion zu felinem erworbenem Immundefizienz-Syndrom
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

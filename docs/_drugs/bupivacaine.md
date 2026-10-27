@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-# Bupivacain: Von akutem Schmerz zu Acrodermatitis chronica atrophicans
+## Bupivacain: Von akutem Schmerz zu Acrodermatitis chronica atrophicans
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

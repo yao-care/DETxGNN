@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-# Mepolizumab: Von Asthma zu immunvermittelter Thrombozytopenie
+## Mepolizumab: Von Asthma zu immunvermittelter Thrombozytopenie
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

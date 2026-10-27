@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Letermovir: Von Cytomegalovirus-Infektionen zu vulvovaginaler Candidose
+## Letermovir: Von Cytomegalovirus-Infektionen zu vulvovaginaler Candidose
+{: .text-alpha }
 
 ## Zusammenfassung
 

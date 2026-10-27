@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Panobinostat: Vom Multiplen Myelom zur Myeloischen Leukämie
+## Panobinostat: Vom Multiplen Myelom zur Myeloischen Leukämie
+{: .text-alpha }
 
 ## Zusammenfassung
 

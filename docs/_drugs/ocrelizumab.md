@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-# Ocrelizumab: Von Multipler Sklerose zu HER2-positivem Mammakarzinom
+## Ocrelizumab: Von Multipler Sklerose zu HER2-positivem Mammakarzinom
+{: .text-alpha }
 
 ## Zusammenfassung
 

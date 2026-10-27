@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Dronedaron: Von Vorhofflimmern zu Schlaganfall (Stroke Disorder)
+## Dronedaron: Von Vorhofflimmern zu Schlaganfall (Stroke Disorder)
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

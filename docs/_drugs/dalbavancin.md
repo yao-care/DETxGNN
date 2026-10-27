@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Dalbavancin: Von Haut- und Weichteilinfektionen zu postinfektiöser Vaskulitis
+## Dalbavancin: Von Haut- und Weichteilinfektionen zu postinfektiöser Vaskulitis
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-# Palbociclib: Von Brustkrebs zu Rheumatoider Arthritis
+## Palbociclib: Von Brustkrebs zu Rheumatoider Arthritis
+{: .text-alpha }
 
 Hinweis: Die Vorhersage mit dem höchsten TxGNN-Score (Hyperthyreose) hat keinerlei Evidenz. Für diesen Bericht wurde daher die Indikation mit der stärksten Datenlage (Rang 2, rheumatoide Arthritis) als primäre Indikation gewählt. Die übrigen Vorhersagen werden am Ende kurz eingeordnet.
 

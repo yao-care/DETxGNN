@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Eflornithin: Von Hirsutismus zu Esotropie
+## Eflornithin: Von Hirsutismus zu Esotropie
+{: .text-alpha }
 
 ## Zusammenfassung
 

@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Laronidase: Von Mukopolysaccharidose I zu lysosomaler Speicherkrankheit mit Skelettbeteiligung
+## Laronidase: Von Mukopolysaccharidose I zu lysosomaler Speicherkrankheit mit Skelettbeteiligung
+{: .text-alpha }
 
 ## Zusammenfassung
 

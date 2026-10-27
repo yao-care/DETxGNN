@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Rotigotin: Von Restless-Legs-Syndrom und Parkinson-Krankheit zu Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung (ADHS)
+## Rotigotin: Von Restless-Legs-Syndrom und Parkinson-Krankheit zu Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung (ADHS)
+{: .text-alpha }
 
 ## Zusammenfassung
 

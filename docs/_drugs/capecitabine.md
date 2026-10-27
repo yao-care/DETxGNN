@@ -31,7 +31,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Capecitabin: Von Darmkrebs, Brustkrebs und Magenkrebs zu gastrischem Adenokarzinom (Vorhersage mit höchstem Rang)
+## Capecitabin: Von Darmkrebs, Brustkrebs und Magenkrebs zu gastrischem Adenokarzinom (Vorhersage mit höchstem Rang)
+{: .text-alpha }
 
 ## Zusammenfassung
 

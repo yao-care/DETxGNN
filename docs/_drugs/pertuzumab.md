@@ -33,7 +33,8 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Pertuzumab: Vom Mammakarzinom zum Progesteronrezeptor-positiven Mammakarzinom
+## Pertuzumab: Vom Mammakarzinom zum Progesteronrezeptor-positiven Mammakarzinom
+{: .text-alpha }
 
 ## Zusammenfassung
 

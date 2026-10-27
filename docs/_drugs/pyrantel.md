@@ -32,7 +32,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0**
 
 </div>
 
-# Pyrantel: Keine TxGNN-Vorhersagen verfügbar
+## Pyrantel: Keine TxGNN-Vorhersagen verfügbar
+{: .text-alpha }
 
 ## Ein-Satz-Zusammenfassung
 

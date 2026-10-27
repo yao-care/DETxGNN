@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Fenbendazol: Von einem Anthelminthikum (Tiermedizin) zu Harnblasenkarzinom
+## Fenbendazol: Von einem Anthelminthikum (Tiermedizin) zu Harnblasenkarzinom
+{: .text-alpha }
 
 ## Zusammenfassung
 

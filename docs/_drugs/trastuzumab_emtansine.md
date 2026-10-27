@@ -31,7 +31,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-# Trastuzumab Emtansin: Von Brustkrebs zu Progesteronrezeptor-positivem Brustkrebs
+## Trastuzumab Emtansin: Von Brustkrebs zu Progesteronrezeptor-positivem Brustkrebs
+{: .text-alpha }
 
 ## Zusammenfassung
 

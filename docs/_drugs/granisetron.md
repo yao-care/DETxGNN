@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Granisetron: Von Erbrechen bei Krebserkrankungen zu manischer bipolarer affektiver Störung
+## Granisetron: Von Erbrechen bei Krebserkrankungen zu manischer bipolarer affektiver Störung
+{: .text-alpha }
 
 ## Zusammenfassung
 

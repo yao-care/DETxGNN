@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Brodalumab: Von Psoriasis zu Strongyloidiasis
+## Brodalumab: Von Psoriasis zu Strongyloidiasis
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

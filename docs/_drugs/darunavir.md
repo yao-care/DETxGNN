@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-# Darunavir: Von HIV-Infektion zu felinem erworbenem Immundefizienz-Syndrom
+## Darunavir: Von HIV-Infektion zu felinem erworbenem Immundefizienz-Syndrom
+{: .text-alpha }
 
 ## Zusammenfassung
 

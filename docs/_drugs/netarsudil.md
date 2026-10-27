@@ -31,7 +31,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Netarsudil: Vom Offenwinkelglaukom zum primären hereditären Glaukom
+## Netarsudil: Vom Offenwinkelglaukom zum primären hereditären Glaukom
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

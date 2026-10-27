@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Cerliponase alfa: Von Neuronalen Ceroid-Lipofuszinosen zu Scheie-Syndrom
+## Cerliponase alfa: Von Neuronalen Ceroid-Lipofuszinosen zu Scheie-Syndrom
+{: .text-alpha }
 
 ## Zusammenfassung
 

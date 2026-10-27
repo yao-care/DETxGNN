@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Tenofoviralafenamid: Von Hepatitis B und HIV-Infektion zur Simian-Immundefizienzvirus-Infektion
+## Tenofoviralafenamid: Von Hepatitis B und HIV-Infektion zur Simian-Immundefizienzvirus-Infektion
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

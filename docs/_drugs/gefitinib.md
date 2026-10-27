@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Gefitinib: Vom nicht-kleinzelligen Lungenkarzinom zur gingivalen Fibromatose
+## Gefitinib: Vom nicht-kleinzelligen Lungenkarzinom zur gingivalen Fibromatose
+{: .text-alpha }
 
 ## Zusammenfassung
 

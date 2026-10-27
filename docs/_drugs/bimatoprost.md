@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Bimatoprost: Vom Offenwinkelglaukom zum Syndrom mit odontaler und/oder parodontaler Komponente (bestbelegte Alternative: Alopezie)
+## Bimatoprost: Vom Offenwinkelglaukom zum Syndrom mit odontaler und/oder parodontaler Komponente (bestbelegte Alternative: Alopezie)
+{: .text-alpha }
 
 ## Zusammenfassung
 

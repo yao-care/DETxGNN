@@ -33,7 +33,8 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Trastuzumab: Von Magen- und Brustkrebs zu progesteronrezeptor-positivem Brustkrebs
+## Trastuzumab: Von Magen- und Brustkrebs zu progesteronrezeptor-positivem Brustkrebs
+{: .text-alpha }
 
 ## Zusammenfassung
 

@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Levetiracetam: Von Epilepsie zu Status epilepticus
+## Levetiracetam: Von Epilepsie zu Status epilepticus
+{: .text-alpha }
 
 ## Zusammenfassung
 

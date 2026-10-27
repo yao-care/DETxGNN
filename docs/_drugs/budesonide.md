@@ -33,7 +33,8 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Budesonid: Von chronisch-obstruktiver Lungenerkrankung/Asthma zu Bronchitis
+## Budesonid: Von chronisch-obstruktiver Lungenerkrankung/Asthma zu Bronchitis
+{: .text-alpha }
 
 ## Zusammenfassung
 

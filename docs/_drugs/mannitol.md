@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Mannitol: Von Mukoviszidose zu nephrogenem Syndrom der inadäquaten Antidiurese
+## Mannitol: Von Mukoviszidose zu nephrogenem Syndrom der inadäquaten Antidiurese
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Buprenorphin: Von Opioidabhängigkeit zu akuter intermittierender Porphyrie
+## Buprenorphin: Von Opioidabhängigkeit zu akuter intermittierender Porphyrie
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

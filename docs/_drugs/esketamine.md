@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Esketamin: Von Depressiver Störung zu Agoraphobie
+## Esketamin: Von Depressiver Störung zu Agoraphobie
+{: .text-alpha }
 
 ## Zusammenfassung
 

@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Amifampridin: Vom Lambert-Eaton-Myasthenie-Syndrom zum Glaukom
+## Amifampridin: Vom Lambert-Eaton-Myasthenie-Syndrom zum Glaukom
+{: .text-alpha }
 
 ## Zusammenfassung
 

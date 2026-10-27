@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-# Benazepril: Von Hypertonie zu maligner hypertensiver Nierenerkrankung
+## Benazepril: Von Hypertonie zu maligner hypertensiver Nierenerkrankung
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

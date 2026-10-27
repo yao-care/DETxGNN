@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Pembrolizumab: Vom Melanom zur gingivalen Fibromatose
+## Pembrolizumab: Vom Melanom zur gingivalen Fibromatose
+{: .text-alpha }
 
 ## Zusammenfassung
 

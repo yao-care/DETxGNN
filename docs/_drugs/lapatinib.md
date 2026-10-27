@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Lapatinib: Von Brustkrebs zu Dermatofibrosarcoma protuberans
+## Lapatinib: Von Brustkrebs zu Dermatofibrosarcoma protuberans
+{: .text-alpha }
 
 ## Zusammenfassung
 

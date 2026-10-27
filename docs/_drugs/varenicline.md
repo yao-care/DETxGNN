@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Vareniclin: Von Tabakentwöhnung zu Migräne
+## Vareniclin: Von Tabakentwöhnung zu Migräne
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

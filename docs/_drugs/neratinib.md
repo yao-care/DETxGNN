@@ -31,7 +31,8 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-# Neratinib: Von Brustneoplasmen zu Progesteronrezeptor-positivem Brustkrebs
+## Neratinib: Von Brustneoplasmen zu Progesteronrezeptor-positivem Brustkrebs
+{: .text-alpha }
 
 ## Zusammenfassung
 

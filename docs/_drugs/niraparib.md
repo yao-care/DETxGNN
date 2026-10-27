@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Niraparib: Von Eierstockkrebs zu zystischer Neoplasie (Cystic Neoplasm)
+## Niraparib: Von Eierstockkrebs zu zystischer Neoplasie (Cystic Neoplasm)
+{: .text-alpha }
 
 ## Zusammenfassung
 

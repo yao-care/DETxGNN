@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Zonisamid: Von Epilepsie zu Tourette-Syndrom
+## Zonisamid: Von Epilepsie zu Tourette-Syndrom
+{: .text-alpha }
 
 ## Zusammenfassung
 

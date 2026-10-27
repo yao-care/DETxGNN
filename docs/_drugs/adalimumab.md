@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Adalimumab: Von Spondylitis ankylosans und weiteren entzündlichen Erkrankungen zu rheumatoider Vaskulitis
+## Adalimumab: Von Spondylitis ankylosans und weiteren entzündlichen Erkrankungen zu rheumatoider Vaskulitis
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

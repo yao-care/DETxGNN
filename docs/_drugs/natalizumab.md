@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-# Natalizumab: Von Multipler Sklerose zu Psoriasis
+## Natalizumab: Von Multipler Sklerose zu Psoriasis
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

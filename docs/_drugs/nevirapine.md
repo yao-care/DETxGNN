@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Nevirapin: Von HIV-Infektion zu felinem erworbenem Immundefizienz-Syndrom
+## Nevirapin: Von HIV-Infektion zu felinem erworbenem Immundefizienz-Syndrom
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

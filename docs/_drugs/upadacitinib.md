@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Upadacitinib: Von rheumatoider Arthritis zum Kolobomatösen-Mikrophthalmie-rhizomelen-Dysplasie-Syndrom
+## Upadacitinib: Von rheumatoider Arthritis zum Kolobomatösen-Mikrophthalmie-rhizomelen-Dysplasie-Syndrom
+{: .text-alpha }
 
 ## Zusammenfassung
 

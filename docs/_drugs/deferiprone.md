@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **9**
 
 </div>
 
-# Deferipron: Von Eisenüberladung bei Beta-Thalassämie zu hepatischer Porphyrie
+## Deferipron: Von Eisenüberladung bei Beta-Thalassämie zu hepatischer Porphyrie
+{: .text-alpha }
 
 ## Zusammenfassung
 

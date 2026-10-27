@@ -33,7 +33,8 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Trabectedin: Von Sarkom und Ovarialkarzinom zu weiblichem Mammakarzinom
+## Trabectedin: Von Sarkom und Ovarialkarzinom zu weiblichem Mammakarzinom
+{: .text-alpha }
 
 ## Zusammenfassung
 

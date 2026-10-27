@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Selinexor: Von Multiplem Myelom zu Medikamenten-induzierter Osteoporose
+## Selinexor: Von Multiplem Myelom zu Medikamenten-induzierter Osteoporose
+{: .text-alpha }
 
 ## Zusammenfassung
 

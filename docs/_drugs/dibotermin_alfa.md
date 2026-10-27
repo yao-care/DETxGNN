@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9**
 
 </div>
 
-# Dibotermin alfa: Von Tibiafrakturen zu Esotropie
+## Dibotermin alfa: Von Tibiafrakturen zu Esotropie
+{: .text-alpha }
 
 ## Zusammenfassung
 

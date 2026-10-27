@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **7**
 
 </div>
 
-# Enzalutamid: Von Prostatatumoren zu Prostatakrebs-/Hirntumor-Suszeptibilität
+## Enzalutamid: Von Prostatatumoren zu Prostatakrebs-/Hirntumor-Suszeptibilität
+{: .text-alpha }
 
 ## Zusammenfassung
 

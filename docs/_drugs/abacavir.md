@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Abacavir: Von HIV-Infektion zu felinem erworbenem Immunschwächesyndrom
+## Abacavir: Von HIV-Infektion zu felinem erworbenem Immunschwächesyndrom
+{: .text-alpha }
 
 ## Zusammenfassung
 

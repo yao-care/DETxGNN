@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-# Dabigatranetexilat: Von venöser Thromboembolie zu sklerosierender Cholangitis
+## Dabigatranetexilat: Von venöser Thromboembolie zu sklerosierender Cholangitis
+{: .text-alpha }
 
 ## Zusammenfassung
 

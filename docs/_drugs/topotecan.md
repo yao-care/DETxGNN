@@ -33,7 +33,8 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Topotecan: Von Ovarialkarzinom, Gebärmutterhalskrebs und kleinzelligem Lungenkarzinom zum weiblichen Mammakarzinom
+## Topotecan: Von Ovarialkarzinom, Gebärmutterhalskrebs und kleinzelligem Lungenkarzinom zum weiblichen Mammakarzinom
+{: .text-alpha }
 
 ## Zusammenfassung
 

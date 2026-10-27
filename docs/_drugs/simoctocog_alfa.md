@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Simoctocog alfa: Von Hämophilie A zu Pseudo-von-Willebrand-Erkrankung
+## Simoctocog alfa: Von Hämophilie A zu Pseudo-von-Willebrand-Erkrankung
+{: .text-alpha }
 
 ## Zusammenfassung
 

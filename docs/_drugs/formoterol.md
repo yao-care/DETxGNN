@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Formoterol: Von chronisch obstruktiver Lungenerkrankung (COPD) und Asthma zu respiratorischer Fehlbildung
+## Formoterol: Von chronisch obstruktiver Lungenerkrankung (COPD) und Asthma zu respiratorischer Fehlbildung
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

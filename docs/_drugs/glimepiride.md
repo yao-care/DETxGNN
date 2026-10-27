@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9**
 
 </div>
 
-# Glimepirid: Von Diabetes mellitus Typ 2 zum Stiff-Limb-Syndrom (fokal)
+## Glimepirid: Von Diabetes mellitus Typ 2 zum Stiff-Limb-Syndrom (fokal)
+{: .text-alpha }
 
 ## Zusammenfassung
 

@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Turoctocog alfa: Von Hämophilie A zu primärer Thrombozyten-Freisetzungsstörung
+## Turoctocog alfa: Von Hämophilie A zu primärer Thrombozyten-Freisetzungsstörung
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

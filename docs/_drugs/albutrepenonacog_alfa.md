@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Albutrepenonacog alfa: Von Hämophilie B zu Pseudo-von-Willebrand-Erkrankung
+## Albutrepenonacog alfa: Von Hämophilie B zu Pseudo-von-Willebrand-Erkrankung
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

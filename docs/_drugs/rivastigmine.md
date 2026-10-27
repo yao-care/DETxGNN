@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Rivastigmin: Von Demenz bei Alzheimer- und Parkinson-Krankheit zu Glaukom
+## Rivastigmin: Von Demenz bei Alzheimer- und Parkinson-Krankheit zu Glaukom
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

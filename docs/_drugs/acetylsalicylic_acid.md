@@ -33,7 +33,8 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **9**
 
 </div>
 
-# Acetylsalicylsäure: Von Akutem Koronarsyndrom/Myokardinfarkt zu Migräne mit Hirnstammaura
+## Acetylsalicylsäure: Von Akutem Koronarsyndrom/Myokardinfarkt zu Migräne mit Hirnstammaura
+{: .text-alpha }
 
 ## Zusammenfassung
 

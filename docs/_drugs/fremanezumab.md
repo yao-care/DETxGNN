@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Fremanezumab: Von Migräne zu Migräne mit Hirnstamm-Aura
+## Fremanezumab: Von Migräne zu Migräne mit Hirnstamm-Aura
+{: .text-alpha }
 
 ## Zusammenfassung
 

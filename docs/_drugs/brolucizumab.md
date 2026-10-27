@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-# Brolucizumab: Von feuchter Makuladegeneration zu mitochondrialer Störung der oxidativen Phosphorylierung (nukleäre DNA-Anomalien)
+## Brolucizumab: Von feuchter Makuladegeneration zu mitochondrialer Störung der oxidativen Phosphorylierung (nukleäre DNA-Anomalien)
+{: .text-alpha }
 
 ## Zusammenfassung
 

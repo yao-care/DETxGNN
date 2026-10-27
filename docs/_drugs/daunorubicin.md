@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Daunorubicin: Von akuter myeloischer Leukämie zu Morbus Hodgkin
+## Daunorubicin: Von akuter myeloischer Leukämie zu Morbus Hodgkin
+{: .text-alpha }
 
 ## Zusammenfassung
 

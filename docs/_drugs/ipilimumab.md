@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Ipilimumab: Von Melanom und weiteren Tumorerkrankungen zu Choroideremie
+## Ipilimumab: Von Melanom und weiteren Tumorerkrankungen zu Choroideremie
+{: .text-alpha }
 
 ## Zusammenfassung
 

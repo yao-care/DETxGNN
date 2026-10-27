@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Elbasvir: Von chronischer Hepatitis C zu Hepatitis-B-Virusinfektion
+## Elbasvir: Von chronischer Hepatitis C zu Hepatitis-B-Virusinfektion
+{: .text-alpha }
 
 ## Zusammenfassung
 

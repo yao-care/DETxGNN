@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Levofloxacin: Von Mukoviszidose und Atemwegsinfektionen zu punktförmiger epithelialer Keratokonjunktivitis
+## Levofloxacin: Von Mukoviszidose und Atemwegsinfektionen zu punktförmiger epithelialer Keratokonjunktivitis
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

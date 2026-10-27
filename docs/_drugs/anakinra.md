@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Anakinra: Von rheumatoider Arthritis zum familiären Mittelmeerfieber
+## Anakinra: Von rheumatoider Arthritis zum familiären Mittelmeerfieber
+{: .text-alpha }
 
 ## Zusammenfassung
 

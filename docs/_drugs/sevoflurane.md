@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Sevofluran: Von der Allgemeinanästhesie zu Prinzmetal-Angina
+## Sevofluran: Von der Allgemeinanästhesie zu Prinzmetal-Angina
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Loxapin: Von Schizophrenie und bipolarer Störung zu manischer bipolarer affektiver Störung
+## Loxapin: Von Schizophrenie und bipolarer Störung zu manischer bipolarer affektiver Störung
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

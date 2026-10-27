@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Venetoclax: Von chronischer lymphatischer Leukämie zu myeloischer Leukämie
+## Venetoclax: Von chronischer lymphatischer Leukämie zu myeloischer Leukämie
+{: .text-alpha }
 
 ## Zusammenfassung
 

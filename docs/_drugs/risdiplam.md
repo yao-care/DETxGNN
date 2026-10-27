@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Risdiplam: Von spinaler Muskelatrophie zu Akne
+## Risdiplam: Von spinaler Muskelatrophie zu Akne
+{: .text-alpha }
 
 ## Zusammenfassung
 

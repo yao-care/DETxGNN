@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Crizotinib: Von nicht-kleinzelligem Lungenkarzinom zu gingivaler Fibromatose
+## Crizotinib: Von nicht-kleinzelligem Lungenkarzinom zu gingivaler Fibromatose
+{: .text-alpha }
 
 ## Zusammenfassung
 

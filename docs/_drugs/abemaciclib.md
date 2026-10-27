@@ -32,7 +32,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0**
 
 </div>
 
-# ABEMACICLIB: Bewertungsbericht zur Arzneimittelumwidmung
+## ABEMACICLIB: Bewertungsbericht zur Arzneimittelumwidmung
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

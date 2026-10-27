@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Orlistat: Von Adipositas zu Hypervitaminose
+## Orlistat: Von Adipositas zu Hypervitaminose
+{: .text-alpha }
 
 ## Zusammenfassung
 

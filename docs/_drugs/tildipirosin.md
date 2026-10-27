@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Tildipirosin: Von einem veterinärmedizinischen Makrolid-Antibiotikum zu Lepra
+## Tildipirosin: Von einem veterinärmedizinischen Makrolid-Antibiotikum zu Lepra
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

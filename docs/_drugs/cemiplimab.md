@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Cemiplimab: Vom Plattenepithelkarzinom zum adenosquamösen Gallenblasenkarzinom
+## Cemiplimab: Vom Plattenepithelkarzinom zum adenosquamösen Gallenblasenkarzinom
+{: .text-alpha }
 
 ## Zusammenfassung
 

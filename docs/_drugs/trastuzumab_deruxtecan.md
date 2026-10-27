@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Trastuzumab Deruxtecan: Von Brustneoplasmen zu medikamenteninduzierter Osteoporose
+## Trastuzumab Deruxtecan: Von Brustneoplasmen zu medikamenteninduzierter Osteoporose
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

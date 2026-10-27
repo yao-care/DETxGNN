@@ -32,7 +32,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0**
 
 </div>
 
-# RASAGILINE TARTRATE: Bewertung unvollständig — Daten ausstehend
+## RASAGILINE TARTRATE: Bewertung unvollständig — Daten ausstehend
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

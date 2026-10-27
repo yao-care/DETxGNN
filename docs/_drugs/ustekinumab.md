@@ -33,7 +33,8 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Ustekinumab: Von Psoriasis, Psoriasis-Arthritis und Morbus Crohn zu Dermatitis
+## Ustekinumab: Von Psoriasis, Psoriasis-Arthritis und Morbus Crohn zu Dermatitis
+{: .text-alpha }
 
 ## Zusammenfassung
 

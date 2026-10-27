@@ -33,7 +33,8 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Arsenotrioxid: Von akuter Promyelozytenleukämie zum myelodysplastischen Syndrom
+## Arsenotrioxid: Von akuter Promyelozytenleukämie zum myelodysplastischen Syndrom
+{: .text-alpha }
 
 ## Zusammenfassung
 

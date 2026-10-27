@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Norethisteron: Von Leiomyom zu Amenorrhoe
+## Norethisteron: Von Leiomyom zu Amenorrhoe
+{: .text-alpha }
 
 ## Zusammenfassung
 

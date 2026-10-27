@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Meropenem: Von bakteriellen Infektionen zu bakterieller Arthritis
+## Meropenem: Von bakteriellen Infektionen zu bakterieller Arthritis
+{: .text-alpha }
 
 ## Zusammenfassung
 

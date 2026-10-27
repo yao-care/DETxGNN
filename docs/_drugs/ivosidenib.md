@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Ivosidenib: Von akuter myeloischer Leukämie und Cholangiokarzinom zu bulbärer Poliomyelitis
+## Ivosidenib: Von akuter myeloischer Leukämie und Cholangiokarzinom zu bulbärer Poliomyelitis
+{: .text-alpha }
 
 ## Zusammenfassung
 

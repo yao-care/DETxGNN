@@ -32,7 +32,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0**
 
 </div>
 
-# BOSUTINIB: Bewertung der Wiederverwendung von Arzneimitteln – Keine Vorhersagen verfügbar
+## BOSUTINIB: Bewertung der Wiederverwendung von Arzneimitteln – Keine Vorhersagen verfügbar
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

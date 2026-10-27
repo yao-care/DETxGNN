@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Ketoconazol: Vom Cushing-Syndrom zur Akne
+## Ketoconazol: Vom Cushing-Syndrom zur Akne
+{: .text-alpha }
 
 ## Zusammenfassung
 

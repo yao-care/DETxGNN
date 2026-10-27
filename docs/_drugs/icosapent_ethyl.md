@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Icosapent-Ethyl: Von Dyslipidämie zu Hämoglobinopathie
+## Icosapent-Ethyl: Von Dyslipidämie zu Hämoglobinopathie
+{: .text-alpha }
 
 ## Zusammenfassung
 

@@ -33,7 +33,8 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Omalizumab: Von Asthma/Urtikaria zu Bronchitis
+## Omalizumab: Von Asthma/Urtikaria zu Bronchitis
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

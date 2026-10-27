@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Relebactam: Von gramnegativen bakteriellen Infektionen zu Hyperamylasämie
+## Relebactam: Von gramnegativen bakteriellen Infektionen zu Hyperamylasämie
+{: .text-alpha }
 
 ## Zusammenfassung
 

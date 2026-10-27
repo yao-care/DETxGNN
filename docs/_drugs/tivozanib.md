@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Tivozanib: Vom Nierenzellkarzinom zum endozervikalen Karzinom
+## Tivozanib: Vom Nierenzellkarzinom zum endozervikalen Karzinom
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

@@ -33,7 +33,8 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Tolfenaminsäure: Von der Migräne-/Rheuma-Anwendung zur Kopfschmerzerkrankung
+## Tolfenaminsäure: Von der Migräne-/Rheuma-Anwendung zur Kopfschmerzerkrankung
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

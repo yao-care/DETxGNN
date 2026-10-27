@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Daptomycin: Von grampositiven bakteriellen Infektionen zu Osteoarthritis
+## Daptomycin: Von grampositiven bakteriellen Infektionen zu Osteoarthritis
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

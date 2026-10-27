@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Cetrorelix: Von Ovulationsinduktion zu Hypertrichose
+## Cetrorelix: Von Ovulationsinduktion zu Hypertrichose
+{: .text-alpha }
 
 ## Zusammenfassung
 

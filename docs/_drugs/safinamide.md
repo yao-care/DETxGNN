@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Safinamid: Von Parkinson-Krankheit zu Rasmussen-Enzephalitis
+## Safinamid: Von Parkinson-Krankheit zu Rasmussen-Enzephalitis
+{: .text-alpha }
 
 ## Zusammenfassung
 

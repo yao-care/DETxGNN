@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Orbifloxacin: Von einem veterinärmedizinischen Antibiotikum zu Herzerkrankung (vorhergesagt)
+## Orbifloxacin: Von einem veterinärmedizinischen Antibiotikum zu Herzerkrankung (vorhergesagt)
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

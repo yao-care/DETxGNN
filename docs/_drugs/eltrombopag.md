@@ -33,7 +33,8 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Eltrombopag: Von idiopathischer thrombozytopenischer Purpura und aplastischer Anämie zu HIV-Infektionskrankheit
+## Eltrombopag: Von idiopathischer thrombozytopenischer Purpura und aplastischer Anämie zu HIV-Infektionskrankheit
+{: .text-alpha }
 
 ## Zusammenfassung
 

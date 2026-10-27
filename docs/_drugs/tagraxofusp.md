@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Tagraxofusp: Von Lymphom zu Esotropie
+## Tagraxofusp: Von Lymphom zu Esotropie
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

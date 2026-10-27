@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Methionin: Von Ahornsirupkrankheit zu Akne
+## Methionin: Von Ahornsirupkrankheit zu Akne
+{: .text-alpha }
 
 ## Zusammenfassung
 

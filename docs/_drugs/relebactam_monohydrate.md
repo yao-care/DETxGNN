@@ -32,7 +32,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0**
 
 </div>
 
-# Relebactam-Monohydrat: β-Lactamase-Inhibitor — Repurposing-Analyse kann nicht fortgesetzt werden
+## Relebactam-Monohydrat: β-Lactamase-Inhibitor — Repurposing-Analyse kann nicht fortgesetzt werden
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

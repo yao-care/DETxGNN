@@ -33,7 +33,8 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Desloratadin: Von allergischer Rhinitis und Urtikaria zu Kälteurtikaria
+## Desloratadin: Von allergischer Rhinitis und Urtikaria zu Kälteurtikaria
+{: .text-alpha }
 
 ## Zusammenfassung
 

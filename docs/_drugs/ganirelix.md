@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Ganirelix: Von assistierter Reproduktion zu Hypertrichose
+## Ganirelix: Von assistierter Reproduktion zu Hypertrichose
+{: .text-alpha }
 
 ## Zusammenfassung
 

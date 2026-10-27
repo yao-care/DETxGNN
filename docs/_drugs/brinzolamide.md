@@ -31,7 +31,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Brinzolamid: Vom Glaukom (Offenwinkel) zum primären hereditären Glaukom
+## Brinzolamid: Vom Glaukom (Offenwinkel) zum primären hereditären Glaukom
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **7**
 
 </div>
 
-# Ibuprofen: Vom persistierenden Ductus arteriosus zur akromesomelen Dysplasie (Typ Hunter-Thompson)
+## Ibuprofen: Vom persistierenden Ductus arteriosus zur akromesomelen Dysplasie (Typ Hunter-Thompson)
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **7**
 
 </div>
 
-# Valsartan: Von Hypertonie und Herzinsuffizienz zu maligner hypertensiver Nierenerkrankung
+## Valsartan: Von Hypertonie und Herzinsuffizienz zu maligner hypertensiver Nierenerkrankung
+{: .text-alpha }
 
 ## Zusammenfassung
 

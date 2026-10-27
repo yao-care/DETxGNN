@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Ciclesonid: Von Asthma und allergischer Rhinitis zu atopischem Ekzem
+## Ciclesonid: Von Asthma und allergischer Rhinitis zu atopischem Ekzem
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

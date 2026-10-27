@@ -32,7 +32,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0**
 
 </div>
 
-# Canagliflozin: Evaluierung der Arzneimittelumwidmung — Keine TxGNN-Vorhersagedaten verfügbar
+## Canagliflozin: Evaluierung der Arzneimittelumwidmung — Keine TxGNN-Vorhersagedaten verfügbar
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

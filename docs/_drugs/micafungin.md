@@ -33,7 +33,8 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Micafungin: Von Candidiasis zu Harnwegsinfektion
+## Micafungin: Von Candidiasis zu Harnwegsinfektion
+{: .text-alpha }
 
 ## Zusammenfassung
 

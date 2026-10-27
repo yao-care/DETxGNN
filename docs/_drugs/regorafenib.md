@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **8**
 
 </div>
 
-# Regorafenib: Vom kolorektalen Karzinom zum Liposarkom
+## Regorafenib: Vom kolorektalen Karzinom zum Liposarkom
+{: .text-alpha }
 
 ## Zusammenfassung
 

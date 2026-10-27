@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Toremifen: Von Brustkrebs zu HIV-Infektionskrankheit
+## Toremifen: Von Brustkrebs zu HIV-Infektionskrankheit
+{: .text-alpha }
 
 ## Zusammenfassung
 

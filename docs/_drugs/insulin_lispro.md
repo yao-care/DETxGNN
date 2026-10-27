@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9**
 
 </div>
 
-# Insulin lispro: Von Diabetes mellitus zu autoimmuner Oophoritis
+## Insulin lispro: Von Diabetes mellitus zu autoimmuner Oophoritis
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

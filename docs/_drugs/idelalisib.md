@@ -33,7 +33,8 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Idelalisib: Von CLL und indolentem Non-Hodgkin-Lymphom zum Mantelzell-Lymphom
+## Idelalisib: Von CLL und indolentem Non-Hodgkin-Lymphom zum Mantelzell-Lymphom
+{: .text-alpha }
 
 ## Zusammenfassung
 

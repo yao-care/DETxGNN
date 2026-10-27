@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Nintedanib: Von nicht-kleinzelligem Lungenkarzinom und idiopathischer Lungenfibrose zu Dermatofibrosarcoma protuberans
+## Nintedanib: Von nicht-kleinzelligem Lungenkarzinom und idiopathischer Lungenfibrose zu Dermatofibrosarcoma protuberans
+{: .text-alpha }
 
 ## Zusammenfassung
 

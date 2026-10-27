@@ -33,7 +33,8 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Cabozantinib: Vom Nierenzellkarzinom/Leberzellkarzinom zum Liposarkom
+## Cabozantinib: Vom Nierenzellkarzinom/Leberzellkarzinom zum Liposarkom
+{: .text-alpha }
 
 ## Zusammenfassung
 

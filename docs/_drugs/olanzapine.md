@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Olanzapin: Von Schizophrenie und bipolarer Störung zu benigner paroxysmaler Tortikollis des Säuglingsalters
+## Olanzapin: Von Schizophrenie und bipolarer Störung zu benigner paroxysmaler Tortikollis des Säuglingsalters
+{: .text-alpha }
 
 ## Zusammenfassung
 

@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Asfotase alfa: Von Hypophosphatasie zu mitochondrialen Störungen der oxidativen Phosphorylierung (nukleäre DNA-Anomalien)
+## Asfotase alfa: Von Hypophosphatasie zu mitochondrialen Störungen der oxidativen Phosphorylierung (nukleäre DNA-Anomalien)
+{: .text-alpha }
 
 ## Zusammenfassung
 

@@ -33,7 +33,8 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Peginterferon alfa-2a: Von chronischer Hepatitis C und B zu Hepatitis-B-Virusinfektion
+## Peginterferon alfa-2a: Von chronischer Hepatitis C und B zu Hepatitis-B-Virusinfektion
+{: .text-alpha }
 
 ## Zusammenfassung
 

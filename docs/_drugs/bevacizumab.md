@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Bevacizumab: Von Darmkrebs und weiteren Tumorerkrankungen zu Epiglottis-Neoplasie
+## Bevacizumab: Von Darmkrebs und weiteren Tumorerkrankungen zu Epiglottis-Neoplasie
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

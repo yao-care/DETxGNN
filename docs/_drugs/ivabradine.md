@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Ivabradin: Von Angina pectoris und Herzinsuffizienz zu Hypertrichose
+## Ivabradin: Von Angina pectoris und Herzinsuffizienz zu Hypertrichose
+{: .text-alpha }
 
 ## Zusammenfassung
 

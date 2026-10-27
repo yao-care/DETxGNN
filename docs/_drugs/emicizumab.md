@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Emicizumab: Von Hämophilie A zu erworbenem Gerinnungsfaktormangel (erworbene Hämophilie A)
+## Emicizumab: Von Hämophilie A zu erworbenem Gerinnungsfaktormangel (erworbene Hämophilie A)
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

@@ -33,7 +33,8 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Everolimus: Vom Nierenzellkarzinom, Mammakarzinom und Pankreastumor zum Liposarkom
+## Everolimus: Vom Nierenzellkarzinom, Mammakarzinom und Pankreastumor zum Liposarkom
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

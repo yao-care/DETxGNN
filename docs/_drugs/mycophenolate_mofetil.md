@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Mycophenolat-Mofetil: Von der Transplantatabstoßung zur HIV-Infektion
+## Mycophenolat-Mofetil: Von der Transplantatabstoßung zur HIV-Infektion
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

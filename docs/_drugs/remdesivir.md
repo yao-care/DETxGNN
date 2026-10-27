@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Remdesivir: Von COVID-19 zu HIV-Infektionskrankheit
+## Remdesivir: Von COVID-19 zu HIV-Infektionskrankheit
+{: .text-alpha }
 
 ## Zusammenfassung
 

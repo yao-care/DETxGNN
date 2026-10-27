@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Ziconotid: Von Schmerz (intrathekale Anwendung) zu Migräne
+## Ziconotid: Von Schmerz (intrathekale Anwendung) zu Migräne
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

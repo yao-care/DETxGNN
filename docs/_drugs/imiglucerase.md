@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-# Imiglucerase: Von Morbus Gaucher zu Hurler-Syndrom
+## Imiglucerase: Von Morbus Gaucher zu Hurler-Syndrom
+{: .text-alpha }
 
 ## Zusammenfassung
 

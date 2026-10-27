@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Susoctocog alfa: Von Hämophilie A zu Hämophilie (erworbene Hämophilie A)
+## Susoctocog alfa: Von Hämophilie A zu Hämophilie (erworbene Hämophilie A)
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

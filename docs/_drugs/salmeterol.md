@@ -33,7 +33,8 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **7**
 
 </div>
 
-# Salmeterol: Von Asthma zu Bronchitis
+## Salmeterol: Von Asthma zu Bronchitis
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

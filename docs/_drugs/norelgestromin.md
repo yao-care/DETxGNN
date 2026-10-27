@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Norelgestromin: Von Kontrazeption zu Amenorrhoe
+## Norelgestromin: Von Kontrazeption zu Amenorrhoe
+{: .text-alpha }
 
 ## Zusammenfassung
 

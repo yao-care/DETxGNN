@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Lopinavir: Von HIV-Infektionen zur Simianen Immundefizienzvirus-Infektion
+## Lopinavir: Von HIV-Infektionen zur Simianen Immundefizienzvirus-Infektion
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

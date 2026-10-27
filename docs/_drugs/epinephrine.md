@@ -33,7 +33,8 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-# Epinephrin: Von Anaphylaxie zu obstruktiver Lungenerkrankung
+## Epinephrin: Von Anaphylaxie zu obstruktiver Lungenerkrankung
+{: .text-alpha }
 
 ## Zusammenfassung
 

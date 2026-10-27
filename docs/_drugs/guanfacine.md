@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **7**
 
 </div>
 
-# Guanfacin: Vom Aufmerksamkeitsdefizit-/Hyperaktivitätssyndrom (ADHS) zum Faziodigitogenitalen Syndrom
+## Guanfacin: Vom Aufmerksamkeitsdefizit-/Hyperaktivitätssyndrom (ADHS) zum Faziodigitogenitalen Syndrom
+{: .text-alpha }
 
 ## Zusammenfassung
 

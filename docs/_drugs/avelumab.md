@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Avelumab: Von Neuroendokrinen Tumoren zu humanem Herpesvirus-8-assoziiertem Tumor
+## Avelumab: Von Neuroendokrinen Tumoren zu humanem Herpesvirus-8-assoziiertem Tumor
+{: .text-alpha }
 
 ## Zusammenfassung
 

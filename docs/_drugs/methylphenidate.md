@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-# Methylphenidat: Von ADHS zu Faciodigitogenitalem Syndrom
+## Methylphenidat: Von ADHS zu Faciodigitogenitalem Syndrom
+{: .text-alpha }
 
 ## Zusammenfassung
 

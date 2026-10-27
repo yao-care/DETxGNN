@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-# Rivaroxaban: Von der Thromboembolie-Prophylaxe/-Therapie zu Rheumatoider Arthritis
+## Rivaroxaban: Von der Thromboembolie-Prophylaxe/-Therapie zu Rheumatoider Arthritis
+{: .text-alpha }
 
 ## Zusammenfassung
 

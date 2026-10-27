@@ -33,7 +33,8 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-# Sacubitril: Von Herzinsuffizienz zu diabetischer Nephropathie
+## Sacubitril: Von Herzinsuffizienz zu diabetischer Nephropathie
+{: .text-alpha }
 
 ## Zusammenfassung
 

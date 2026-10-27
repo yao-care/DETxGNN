@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Duloxetin: Von Neuralgie/Depression zu Zwangsstörung
+## Duloxetin: Von Neuralgie/Depression zu Zwangsstörung
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

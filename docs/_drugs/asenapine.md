@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Asenapin: Von bipolarer Störung zu retinaler Dystrophie
+## Asenapin: Von bipolarer Störung zu retinaler Dystrophie
+{: .text-alpha }
 
 ## Zusammenfassung
 

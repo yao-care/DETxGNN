@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Lorlatinib: Von nicht-kleinzelligem Lungenkarzinom zu Fibromatose der Gingiva
+## Lorlatinib: Von nicht-kleinzelligem Lungenkarzinom zu Fibromatose der Gingiva
+{: .text-alpha }
 
 ## Zusammenfassung
 

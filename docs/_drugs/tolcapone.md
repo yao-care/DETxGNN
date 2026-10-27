@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Tolcapon: Von Morbus Parkinson zu Rasmussen-Enzephalitis (subakute Rasmussen-Enzephalitis)
+## Tolcapon: Von Morbus Parkinson zu Rasmussen-Enzephalitis (subakute Rasmussen-Enzephalitis)
+{: .text-alpha }
 
 ## Zusammenfassung
 

@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Defibrotid: Von der hepatischen veno-okklusiven Erkrankung zur Pseudo-von-Willebrand-Erkrankung
+## Defibrotid: Von der hepatischen veno-okklusiven Erkrankung zur Pseudo-von-Willebrand-Erkrankung
+{: .text-alpha }
 
 ## Zusammenfassung
 

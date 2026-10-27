@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9**
 
 </div>
 
-# Vestronidase alfa: Von Mukopolysaccharidose VII zum Scheie-Syndrom
+## Vestronidase alfa: Von Mukopolysaccharidose VII zum Scheie-Syndrom
+{: .text-alpha }
 
 ## Zusammenfassung
 

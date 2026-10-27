@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Hydrocortison: Von Nebenniereninsuffizienz zu Alopecia areata
+## Hydrocortison: Von Nebenniereninsuffizienz zu Alopecia areata
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

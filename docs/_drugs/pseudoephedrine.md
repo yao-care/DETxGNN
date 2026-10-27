@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Pseudoephedrin: Von saisonaler allergischer Rhinitis zu Erkrankungen der Nasenhöhle
+## Pseudoephedrin: Von saisonaler allergischer Rhinitis zu Erkrankungen der Nasenhöhle
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

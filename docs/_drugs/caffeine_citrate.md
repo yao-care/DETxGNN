@@ -32,7 +32,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0**
 
 </div>
 
-# Koffein-Citrat: Evaluierung der Neubewertungskandidatur — Vorhersage noch nicht generiert
+## Koffein-Citrat: Evaluierung der Neubewertungskandidatur — Vorhersage noch nicht generiert
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

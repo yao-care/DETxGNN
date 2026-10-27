@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Nitisinon: Von Tyrosinämie zu renaler tubulärer Azidose
+## Nitisinon: Von Tyrosinämie zu renaler tubulärer Azidose
+{: .text-alpha }
 
 ## Zusammenfassung
 

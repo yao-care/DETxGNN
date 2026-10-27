@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Phenylalanin: Von der Ahornsirupkrankheit zur sklerosierenden Cholangitis
+## Phenylalanin: Von der Ahornsirupkrankheit zur sklerosierenden Cholangitis
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

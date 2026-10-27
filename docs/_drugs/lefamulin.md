@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Lefamulin: Von bakterieller ambulant erworbener Pneumonie zu diffuser kutaner Leishmaniose
+## Lefamulin: Von bakterieller ambulant erworbener Pneumonie zu diffuser kutaner Leishmaniose
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

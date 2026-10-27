@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Cetuximab: Von Kopf-Hals- und Kolorektalkarzinom zu Chondroid-Hamartom (Top-Vorhersage) – mit Schwerpunkt auf besser belegten Kandidaten
+## Cetuximab: Von Kopf-Hals- und Kolorektalkarzinom zu Chondroid-Hamartom (Top-Vorhersage) – mit Schwerpunkt auf besser belegten Kandidaten
+{: .text-alpha }
 
 ## Kurzzusammenfassung
 

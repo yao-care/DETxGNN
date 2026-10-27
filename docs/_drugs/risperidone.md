@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Risperidon: Von Schizophrenie zu familiärer horizontaler Blickparese mit progressiver Skoliose
+## Risperidon: Von Schizophrenie zu familiärer horizontaler Blickparese mit progressiver Skoliose
+{: .text-alpha }
 
 ## Zusammenfassung
 

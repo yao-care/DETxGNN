@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Glucagon: Vom Diabetes mellitus zum Reizdarmsyndrom
+## Glucagon: Vom Diabetes mellitus zum Reizdarmsyndrom
+{: .text-alpha }
 
 ## Zusammenfassung
 

@@ -33,7 +33,8 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Dexamethason: Von Makulaödem/Uveitis und Multiplem Myelom zu Alopecia areata
+## Dexamethason: Von Makulaödem/Uveitis und Multiplem Myelom zu Alopecia areata
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

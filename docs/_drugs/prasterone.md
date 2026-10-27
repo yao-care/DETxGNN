@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Prasteron: Von Postmenopause zu Heparin-Cofaktor-2-Mangel
+## Prasteron: Von Postmenopause zu Heparin-Cofaktor-2-Mangel
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

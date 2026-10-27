@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Empagliflozin: Von Diabetes mellitus Typ 2 zu klassischem Stiff-Person-Syndrom
+## Empagliflozin: Von Diabetes mellitus Typ 2 zu klassischem Stiff-Person-Syndrom
+{: .text-alpha }
 
 ## Zusammenfassung
 

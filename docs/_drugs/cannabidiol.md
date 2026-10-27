@@ -32,7 +32,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0**
 
 </div>
 
-# Cannabidiol: Vorläufige Bewertung — Keine TxGNN-Prognosedaten verfügbar
+## Cannabidiol: Vorläufige Bewertung — Keine TxGNN-Prognosedaten verfügbar
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

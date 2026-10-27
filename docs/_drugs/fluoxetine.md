@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Fluoxetin: Von Depression und Angststörungen zu Phobischen Störungen
+## Fluoxetin: Von Depression und Angststörungen zu Phobischen Störungen
+{: .text-alpha }
 
 ## Zusammenfassung
 

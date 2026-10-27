@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Filgrastim: Von Neutropenie/Stammzelltransplantation zu primärer Thrombozyten-Freisetzungsstörung
+## Filgrastim: Von Neutropenie/Stammzelltransplantation zu primärer Thrombozyten-Freisetzungsstörung
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

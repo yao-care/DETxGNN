@@ -32,7 +32,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0**
 
 </div>
 
-# Blinatumomab: Bewertung der Umdeutung von Arzneimitteln – Unzureichende Daten zur Beendigung der Bewertung
+## Blinatumomab: Bewertung der Umdeutung von Arzneimitteln – Unzureichende Daten zur Beendigung der Bewertung
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

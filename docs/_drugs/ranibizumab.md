@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Ranibizumab: Von feuchter Makuladegeneration zur schweren nichtproliferativen diabetischen Retinopathie
+## Ranibizumab: Von feuchter Makuladegeneration zur schweren nichtproliferativen diabetischen Retinopathie
+{: .text-alpha }
 
 ## Zusammenfassung
 

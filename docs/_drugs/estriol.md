@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Estriol: Von der postmenopausalen Hormontherapie zur Amenorrhoe
+## Estriol: Von der postmenopausalen Hormontherapie zur Amenorrhoe
+{: .text-alpha }
 
 ## Zusammenfassung
 

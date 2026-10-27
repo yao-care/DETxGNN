@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Esomeprazol: Von gastroösophagealer Refluxkrankheit zu duodenogastralem Reflux
+## Esomeprazol: Von gastroösophagealer Refluxkrankheit zu duodenogastralem Reflux
+{: .text-alpha }
 
 ## Zusammenfassung
 

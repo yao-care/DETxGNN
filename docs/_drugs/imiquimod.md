@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Imiquimod: Von aktinischer Keratose zu prämalignen Neoplasien
+## Imiquimod: Von aktinischer Keratose zu prämalignen Neoplasien
+{: .text-alpha }
 
 ## Zusammenfassung
 

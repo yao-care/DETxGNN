@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **7**
 
 </div>
 
-# Ciclosporin: Von Keratokonjunktivitis/Hornhauterkrankungen zu chronischer Granulomatose (autosomal-rezessiv)
+## Ciclosporin: Von Keratokonjunktivitis/Hornhauterkrankungen zu chronischer Granulomatose (autosomal-rezessiv)
+{: .text-alpha }
 
 ## Zusammenfassung
 

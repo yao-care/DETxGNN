@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Remimazolam: Von Sedierung zu Schlaflosigkeit (Insomnie)
+## Remimazolam: Von Sedierung zu Schlaflosigkeit (Insomnie)
+{: .text-alpha }
 
 ## Zusammenfassung
 

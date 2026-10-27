@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Lomitapid: Von Hypercholesterinämie zu Makrothrombozytopenie mit Mitralklappeninsuffizienz
+## Lomitapid: Von Hypercholesterinämie zu Makrothrombozytopenie mit Mitralklappeninsuffizienz
+{: .text-alpha }
 
 ## Zusammenfassung in Kürze
 

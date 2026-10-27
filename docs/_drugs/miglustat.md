@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Miglustat: Von Glykogenspeicherkrankheit Typ II (Morbus Pompe) zum autosomal-rezessiven ichthyotischen Syndrom mit letalem Verlauf
+## Miglustat: Von Glykogenspeicherkrankheit Typ II (Morbus Pompe) zum autosomal-rezessiven ichthyotischen Syndrom mit letalem Verlauf
+{: .text-alpha }
 
 ## Zusammenfassung
 

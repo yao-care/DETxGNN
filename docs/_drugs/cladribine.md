@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **7**
 
 </div>
 
-# Cladribin: Von Haarzell-Leukämie und Multipler Sklerose zu parameningealem embryonalem Rhabdomyosarkom
+## Cladribin: Von Haarzell-Leukämie und Multipler Sklerose zu parameningealem embryonalem Rhabdomyosarkom
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

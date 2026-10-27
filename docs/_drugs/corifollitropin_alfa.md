@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **8**
 
 </div>
 
-# Corifollitropin alfa: Von assistierter Reproduktion/Ovulationsinduktion zu Gastroduodenitis
+## Corifollitropin alfa: Von assistierter Reproduktion/Ovulationsinduktion zu Gastroduodenitis
+{: .text-alpha }
 
 ## Zusammenfassung
 

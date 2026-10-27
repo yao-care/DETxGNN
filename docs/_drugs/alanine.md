@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Alanin: Von der Ahornsirupkrankheit zur Gastroparese
+## Alanin: Von der Ahornsirupkrankheit zur Gastroparese
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

@@ -33,7 +33,8 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Busulfan: Von der Konditionierung vor Stammzelltransplantation zum Myelodysplastischen Syndrom
+## Busulfan: Von der Konditionierung vor Stammzelltransplantation zum Myelodysplastischen Syndrom
+{: .text-alpha }
 
 ## Zusammenfassung
 

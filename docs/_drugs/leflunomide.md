@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Leflunomid: Von rheumatoider Arthritis zum Brachydaktylie-Syndaktylie-Syndrom
+## Leflunomid: Von rheumatoider Arthritis zum Brachydaktylie-Syndaktylie-Syndrom
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Bexarotene: Vom kutanen T-Zell-Lymphom zum Sézary-Syndrom
+## Bexarotene: Vom kutanen T-Zell-Lymphom zum Sézary-Syndrom
+{: .text-alpha }
 
 ## Zusammenfassung
 

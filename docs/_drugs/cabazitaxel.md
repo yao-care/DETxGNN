@@ -33,7 +33,8 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Cabazitaxel: Von Prostatakarzinom zu Brustkrebs der Frau
+## Cabazitaxel: Von Prostatakarzinom zu Brustkrebs der Frau
+{: .text-alpha }
 
 ## Zusammenfassung
 

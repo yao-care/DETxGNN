@@ -33,7 +33,8 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Ticagrelor: Vom akuten Koronarsyndrom zur intrakraniellen Arteriosklerose
+## Ticagrelor: Vom akuten Koronarsyndrom zur intrakraniellen Arteriosklerose
+{: .text-alpha }
 
 ## Zusammenfassung
 

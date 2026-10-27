@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **7**
 
 </div>
 
-# Delamanid: Von multiresistenter Tuberkulose zu Tuberkulose (inaktive Form)
+## Delamanid: Von multiresistenter Tuberkulose zu Tuberkulose (inaktive Form)
+{: .text-alpha }
 
 ## Zusammenfassung
 

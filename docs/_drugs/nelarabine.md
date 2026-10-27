@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Nelarabin: Von der T-Zell-lymphoblastischen Leukämie/Lymphom zur schubförmig-remittierenden Multiplen Sklerose
+## Nelarabin: Von der T-Zell-lymphoblastischen Leukämie/Lymphom zur schubförmig-remittierenden Multiplen Sklerose
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

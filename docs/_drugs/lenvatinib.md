@@ -33,7 +33,8 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Lenvatinib: Vom Nierenzellkarzinom und Schilddrüsenkarzinom zum Liposarkom
+## Lenvatinib: Vom Nierenzellkarzinom und Schilddrüsenkarzinom zum Liposarkom
+{: .text-alpha }
 
 ## Zusammenfassung
 

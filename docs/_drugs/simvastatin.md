@@ -33,7 +33,8 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **8**
 
 </div>
 
-# Simvastatin: Von Dyslipidämien zu familiärer Hypercholesterinämie
+## Simvastatin: Von Dyslipidämien zu familiärer Hypercholesterinämie
+{: .text-alpha }
 
 ## Zusammenfassung
 

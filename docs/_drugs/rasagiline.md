@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Rasagilin: Von Parkinson-Krankheit zu PLA2G6-assoziierter Neurodegeneration
+## Rasagilin: Von Parkinson-Krankheit zu PLA2G6-assoziierter Neurodegeneration
+{: .text-alpha }
 
 ## Zusammenfassung
 

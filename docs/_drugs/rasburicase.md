@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Rasburicase: Von Hyperurikämie zu renaler Hypourikämie
+## Rasburicase: Von Hyperurikämie zu renaler Hypourikämie
+{: .text-alpha }
 
 ## Zusammenfassung
 

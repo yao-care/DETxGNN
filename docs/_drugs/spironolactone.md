@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Spironolacton: Von Ödemen und Herzinsuffizienz zu Hypotrichosis simplex der Kopfhaut
+## Spironolacton: Von Ödemen und Herzinsuffizienz zu Hypotrichosis simplex der Kopfhaut
+{: .text-alpha }
 
 ## Zusammenfassung
 

@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Avibactam: Von bakteriellen Infektionen zu Streptokokken-Pneumonie
+## Avibactam: Von bakteriellen Infektionen zu Streptokokken-Pneumonie
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

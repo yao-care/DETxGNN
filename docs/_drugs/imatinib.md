@@ -33,7 +33,8 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Imatinib: Von hämatologischen Neoplasien und GIST zu fibroblastischem Neoplasma
+## Imatinib: Von hämatologischen Neoplasien und GIST zu fibroblastischem Neoplasma
+{: .text-alpha }
 
 ## Zusammenfassung
 

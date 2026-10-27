@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Perampanel: Von fokalen Anfällen zu visueller Epilepsie
+## Perampanel: Von fokalen Anfällen zu visueller Epilepsie
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

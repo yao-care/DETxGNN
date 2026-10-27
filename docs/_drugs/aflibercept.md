@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Aflibercept: Von neovaskulären Netzhauterkrankungen zu Esotropie
+## Aflibercept: Von neovaskulären Netzhauterkrankungen zu Esotropie
+{: .text-alpha }
 
 ## Zusammenfassung
 

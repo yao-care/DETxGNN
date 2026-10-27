@@ -32,7 +32,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0**
 
 </div>
 
-# Bupropion Hydrochloride: Repositionierungsbewertung — Unzureichende Daten für eine vollständige Bewertung
+## Bupropion Hydrochloride: Repositionierungsbewertung — Unzureichende Daten für eine vollständige Bewertung
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

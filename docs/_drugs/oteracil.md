@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Oteracil: Von Magenkarzinom zu Kolonneoplasie
+## Oteracil: Von Magenkarzinom zu Kolonneoplasie
+{: .text-alpha }
 
 ## Zusammenfassung
 

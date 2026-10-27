@@ -32,7 +32,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0**
 
 </div>
 
-# Cangrelor: Unvollständiges Evidenzpaket — Vollständige Bewertung ausstehend
+## Cangrelor: Unvollständiges Evidenzpaket — Vollständige Bewertung ausstehend
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

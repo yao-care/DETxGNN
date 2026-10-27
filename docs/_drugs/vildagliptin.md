@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Vildagliptin: Von Diabetes mellitus Typ 2 zum fokalen Stiff-Limb-Syndrom
+## Vildagliptin: Von Diabetes mellitus Typ 2 zum fokalen Stiff-Limb-Syndrom
+{: .text-alpha }
 
 ## Zusammenfassung
 

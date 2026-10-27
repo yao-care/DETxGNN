@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Mometason: Von Asthma zum primären kutanen T-Zell-Lymphom
+## Mometason: Von Asthma zum primären kutanen T-Zell-Lymphom
+{: .text-alpha }
 
 ## Zusammenfassung
 

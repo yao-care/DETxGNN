@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Oxybutynin: Von dranginkontinenz zu Restless-Legs-Syndrom
+## Oxybutynin: Von dranginkontinenz zu Restless-Legs-Syndrom
+{: .text-alpha }
 
 ## Zusammenfassung
 

@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-# Raloxifen: Von postmenopausaler Osteoporose zu Zwölffingerdarmgeschwür (Ulcus duodeni)
+## Raloxifen: Von postmenopausaler Osteoporose zu Zwölffingerdarmgeschwür (Ulcus duodeni)
+{: .text-alpha }
 
 ## Zusammenfassung
 

@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9**
 
 </div>
 
-# Imidacloprid: Von einem nicht ausgewiesenen Ursprungsanwendungsgebiet zu Cauda-equina-Syndrom
+## Imidacloprid: Von einem nicht ausgewiesenen Ursprungsanwendungsgebiet zu Cauda-equina-Syndrom
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

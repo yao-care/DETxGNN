@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Zanubrutinib: Von Morbus Waldenström zu myeloischer Leukämie
+## Zanubrutinib: Von Morbus Waldenström zu myeloischer Leukämie
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

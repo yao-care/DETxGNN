@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9**
 
 </div>
 
-# Dantrolen: Von Malignem Hyperthermie zu Malignem Hyperthermie (Suszeptibilität)
+## Dantrolen: Von Malignem Hyperthermie zu Malignem Hyperthermie (Suszeptibilität)
+{: .text-alpha }
 
 ## Zusammenfassung
 

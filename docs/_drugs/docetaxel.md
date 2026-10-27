@@ -33,7 +33,8 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Docetaxel: Vom Mammakarzinom zum Mammakarzinom der Frau (kein echtes Repurposing)
+## Docetaxel: Vom Mammakarzinom zum Mammakarzinom der Frau (kein echtes Repurposing)
+{: .text-alpha }
 
 > Hinweis: Die vorhergesagte Indikation „female breast carcinoma“ entspricht bereits einer zugelassenen Indikation von Docetaxel. Es handelt sich daher nicht um ein echtes Repurposing, sondern um eine Bestätigung der bekannten Anwendung.
 

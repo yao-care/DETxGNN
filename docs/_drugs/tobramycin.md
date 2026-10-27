@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Tobramycin: Von Mukoviszidose und Atemwegsinfektionen zu Exposure-Keratitis
+## Tobramycin: Von Mukoviszidose und Atemwegsinfektionen zu Exposure-Keratitis
+{: .text-alpha }
 
 ## Zusammenfassung
 

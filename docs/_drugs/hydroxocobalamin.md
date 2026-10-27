@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Hydroxocobalamin: Von Vergiftung zu Ösophagusvarizen mit Blutung
+## Hydroxocobalamin: Von Vergiftung zu Ösophagusvarizen mit Blutung
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

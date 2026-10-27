@@ -33,7 +33,8 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-# Ezetimib: Von Hypercholesterinämie/Dyslipidämie zu Hyperlipoproteinämie
+## Ezetimib: Von Hypercholesterinämie/Dyslipidämie zu Hyperlipoproteinämie
+{: .text-alpha }
 
 ## Zusammenfassung
 

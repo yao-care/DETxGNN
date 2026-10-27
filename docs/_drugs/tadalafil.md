@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **8**
 
 </div>
 
-# Tadalafil: Von Pulmonaler Hypertonie und erektiler Dysfunktion zu Ambras-Hypertrichosis (Hypertrichosis universalis congenita, Typ Ambras)
+## Tadalafil: Von Pulmonaler Hypertonie und erektiler Dysfunktion zu Ambras-Hypertrichosis (Hypertrichosis universalis congenita, Typ Ambras)
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

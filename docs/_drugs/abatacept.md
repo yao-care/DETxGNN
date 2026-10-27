@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Abatacept: Von Psoriasis-Arthritis/juveniler/rheumatoider Arthritis zu rheumatoider Vaskulitis
+## Abatacept: Von Psoriasis-Arthritis/juveniler/rheumatoider Arthritis zu rheumatoider Vaskulitis
+{: .text-alpha }
 
 ## Zusammenfassung
 

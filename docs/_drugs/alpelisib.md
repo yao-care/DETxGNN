@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Alpelisib: Von Brustneoplasmen zu pulmonaler Hypertonie
+## Alpelisib: Von Brustneoplasmen zu pulmonaler Hypertonie
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

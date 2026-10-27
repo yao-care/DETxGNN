@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **8**
 
 </div>
 
-# Siltuximab: Vom Castleman-Syndrom (Riesenlymphknotenhyperplasie) zum extrakutanen Mastozytom
+## Siltuximab: Vom Castleman-Syndrom (Riesenlymphknotenhyperplasie) zum extrakutanen Mastozytom
+{: .text-alpha }
 
 ## Zusammenfassung
 

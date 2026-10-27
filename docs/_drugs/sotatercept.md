@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Sotatercept: Von pulmonaler Hypertonie zu akuter lymphoblastischer Leukämie
+## Sotatercept: Von pulmonaler Hypertonie zu akuter lymphoblastischer Leukämie
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

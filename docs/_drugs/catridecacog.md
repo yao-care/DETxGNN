@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Catridecacog: Von angeborenen Gerinnungsstörungen zu primärer Thrombozyten-Freisetzungsstörung
+## Catridecacog: Von angeborenen Gerinnungsstörungen zu primärer Thrombozyten-Freisetzungsstörung
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Belimumab: Von systemischem Lupus erythematodes zu primärer Thrombozyten-Freisetzungsstörung
+## Belimumab: Von systemischem Lupus erythematodes zu primärer Thrombozyten-Freisetzungsstörung
+{: .text-alpha }
 
 ## Zusammenfassung
 

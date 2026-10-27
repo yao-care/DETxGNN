@@ -31,7 +31,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Erenumab: Von Migräne zu Migräne mit Hirnstamm-Aura
+## Erenumab: Von Migräne zu Migräne mit Hirnstamm-Aura
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

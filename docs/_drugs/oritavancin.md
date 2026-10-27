@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Oritavancin: Von Weichteilinfektionen zu Bacteroidaceae-Infektionen
+## Oritavancin: Von Weichteilinfektionen zu Bacteroidaceae-Infektionen
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

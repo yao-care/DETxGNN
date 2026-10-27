@@ -33,7 +33,8 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Brivaracetam: Von Epilepsie zu Status epilepticus
+## Brivaracetam: Von Epilepsie zu Status epilepticus
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

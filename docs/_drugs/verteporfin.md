@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Verteporfin: Von degenerativer Myopie/Makuladegeneration zu mitochondrialer Störung der oxidativen Phosphorylierung (durch Kern-DNA-Anomalien)
+## Verteporfin: Von degenerativer Myopie/Makuladegeneration zu mitochondrialer Störung der oxidativen Phosphorylierung (durch Kern-DNA-Anomalien)
+{: .text-alpha }
 
 ## Zusammenfassung
 

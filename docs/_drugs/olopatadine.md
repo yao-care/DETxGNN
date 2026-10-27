@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Olopatadin: Von allergischer Konjunktivitis zu Rosazea-Konjunktivitis
+## Olopatadin: Von allergischer Konjunktivitis zu Rosazea-Konjunktivitis
+{: .text-alpha }
 
 ## Zusammenfassung
 

@@ -33,7 +33,8 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Bempedoinsäure: Von Hypercholesterinämie zu homozygoter familiärer Hypercholesterinämie
+## Bempedoinsäure: Von Hypercholesterinämie zu homozygoter familiärer Hypercholesterinämie
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

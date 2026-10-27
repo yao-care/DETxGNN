@@ -33,7 +33,8 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Aripiprazol: Von Schizophrenie zu Major Affective Disorder (schwere affektive Störung)
+## Aripiprazol: Von Schizophrenie zu Major Affective Disorder (schwere affektive Störung)
+{: .text-alpha }
 
 ## Zusammenfassung
 

@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Cobimetinib: Von Melanom zu Amyotropher Lateralsklerose
+## Cobimetinib: Von Melanom zu Amyotropher Lateralsklerose
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-# Cabotegravir: Von HIV-Infektionen zu rheumatoider Arthritis
+## Cabotegravir: Von HIV-Infektionen zu rheumatoider Arthritis
+{: .text-alpha }
 
 ## Zusammenfassung
 

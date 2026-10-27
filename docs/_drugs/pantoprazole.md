@@ -33,7 +33,8 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Pantoprazol: Von gastroösophagealer Refluxkrankheit zu aktivem Magengeschwür (Ulcus pepticum)
+## Pantoprazol: Von gastroösophagealer Refluxkrankheit zu aktivem Magengeschwür (Ulcus pepticum)
+{: .text-alpha }
 
 ## Zusammenfassung
 

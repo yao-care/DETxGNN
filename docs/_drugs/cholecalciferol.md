@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **7**
 
 </div>
 
-# Cholecalciferol: Von postmenopausaler Osteoporose zu familiärem isoliertem Hypoparathyreoidismus (gestörte PTH-Sekretion)
+## Cholecalciferol: Von postmenopausaler Osteoporose zu familiärem isoliertem Hypoparathyreoidismus (gestörte PTH-Sekretion)
+{: .text-alpha }
 
 ## Zusammenfassung
 

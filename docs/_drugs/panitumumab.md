@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Panitumumab: Von Kolorektalkarzinom zu medikamenteninduzierter Osteoporose
+## Panitumumab: Von Kolorektalkarzinom zu medikamenteninduzierter Osteoporose
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

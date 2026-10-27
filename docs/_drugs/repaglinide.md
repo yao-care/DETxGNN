@@ -32,7 +32,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0**
 
 </div>
 
-# Repaglinide: Evaluierung der Neuindikation — Unvollständiges Nachweispaket (Keine TxGNN-Vorhersagen verfügbar)
+## Repaglinide: Evaluierung der Neuindikation — Unvollständiges Nachweispaket (Keine TxGNN-Vorhersagen verfügbar)
+{: .text-alpha }
 
 ---
 

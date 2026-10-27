@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Paliperidon: Von Schizophrenie zu retinaler Dystrophie (mit oder ohne extraokulare Anomalien)
+## Paliperidon: Von Schizophrenie zu retinaler Dystrophie (mit oder ohne extraokulare Anomalien)
+{: .text-alpha }
 
 ## Zusammenfassung
 

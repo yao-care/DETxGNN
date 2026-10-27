@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-# Irbesartan: Von Hypertonie zu malignem hypertensivem Nierenleiden
+## Irbesartan: Von Hypertonie zu malignem hypertensivem Nierenleiden
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

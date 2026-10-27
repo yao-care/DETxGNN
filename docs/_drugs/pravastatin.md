@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **9**
 
 </div>
 
-# Pravastatin: Von Dyslipidämie zu homozygoter familiärer Hypercholesterinämie
+## Pravastatin: Von Dyslipidämie zu homozygoter familiärer Hypercholesterinämie
+{: .text-alpha }
 
 ## Zusammenfassung
 

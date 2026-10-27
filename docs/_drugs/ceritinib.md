@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Ceritinib: Von nicht-kleinzelligem Lungenkarzinom zu gingivaler Fibromatose
+## Ceritinib: Von nicht-kleinzelligem Lungenkarzinom zu gingivaler Fibromatose
+{: .text-alpha }
 
 ## Zusammenfassung
 

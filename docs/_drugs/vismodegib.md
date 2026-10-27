@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Vismodegib: Vom Basalzellkarzinom zum Medulloblastom mit ausgeprägter Nodularität
+## Vismodegib: Vom Basalzellkarzinom zum Medulloblastom mit ausgeprägter Nodularität
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

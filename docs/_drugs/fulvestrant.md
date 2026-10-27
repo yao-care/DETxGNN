@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Fulvestrant: Von Brustkrebs zu HIV-Infektionskrankheit
+## Fulvestrant: Von Brustkrebs zu HIV-Infektionskrankheit
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

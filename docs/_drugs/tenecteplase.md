@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Tenecteplase: Vom Myokardinfarkt zum posterolateralen Myokardinfarkt
+## Tenecteplase: Vom Myokardinfarkt zum posterolateralen Myokardinfarkt
+{: .text-alpha }
 
 ## Zusammenfassung
 

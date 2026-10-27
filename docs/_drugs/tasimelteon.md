@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Tasimelteon: Von zirkadianen Schlafstörungen zu Insomnie
+## Tasimelteon: Von zirkadianen Schlafstörungen zu Insomnie
+{: .text-alpha }
 
 ## Zusammenfassung
 

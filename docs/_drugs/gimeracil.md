@@ -33,7 +33,8 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Gimeracil: Vom Magenkarzinom zur Kolonneoplasie
+## Gimeracil: Vom Magenkarzinom zur Kolonneoplasie
+{: .text-alpha }
 
 ## Zusammenfassung
 

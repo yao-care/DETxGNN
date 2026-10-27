@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Teprotumumab: Von Graves-Ophthalmopathie zu Monosomie X
+## Teprotumumab: Von Graves-Ophthalmopathie zu Monosomie X
+{: .text-alpha }
 
 ## Zusammenfassung
 

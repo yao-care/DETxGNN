@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-# Sacituzumab Govitecan: Von Brustkrebs zu medikamenteninduzierter Osteoporose
+## Sacituzumab Govitecan: Von Brustkrebs zu medikamenteninduzierter Osteoporose
+{: .text-alpha }
 
 ## Zusammenfassung
 

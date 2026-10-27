@@ -33,7 +33,8 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Cilastatin: Von gramnegativen bakteriellen Infektionen zu Staphylococcus-aureus-Infektion
+## Cilastatin: Von gramnegativen bakteriellen Infektionen zu Staphylococcus-aureus-Infektion
+{: .text-alpha }
 
 ## Zusammenfassung in Kürze
 

@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Diflunisal: Von familiärer Amyloid-Neuropathie zu Spondylitis ankylosans
+## Diflunisal: Von familiärer Amyloid-Neuropathie zu Spondylitis ankylosans
+{: .text-alpha }
 
 Hinweis zur Auswahl: Die Vorhersage mit der höchsten Rangposition (akromesomele Dysplasie, Typ Hunter-Thompson) hat keinerlei Evidenz und keine plausible Wirkungsbeziehung. Dieser Bericht konzentriert sich daher auf die am besten belegte Vorhersage, **Spondylitis ankylosans** (Rang 5), und ordnet die übrigen Vorhersagen kurz ein.
 

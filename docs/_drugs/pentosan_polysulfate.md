@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Pentosanpolysulfat: Von interstitieller Zystitis zu primärer Thrombozyten-Freisetzungsstörung
+## Pentosanpolysulfat: Von interstitieller Zystitis zu primärer Thrombozyten-Freisetzungsstörung
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

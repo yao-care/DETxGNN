@@ -33,7 +33,8 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Insulin glulisin: Von Diabetes mellitus zu Diabetes mellitus Typ 1
+## Insulin glulisin: Von Diabetes mellitus zu Diabetes mellitus Typ 1
+{: .text-alpha }
 
 ## Zusammenfassung
 

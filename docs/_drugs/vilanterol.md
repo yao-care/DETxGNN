@@ -33,7 +33,8 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Vilanterol: Von chronisch obstruktiver Lungenerkrankung (COPD) zu obstruktiver Lungenerkrankung
+## Vilanterol: Von chronisch obstruktiver Lungenerkrankung (COPD) zu obstruktiver Lungenerkrankung
+{: .text-alpha }
 
 ## Zusammenfassung
 

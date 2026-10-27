@@ -33,7 +33,8 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Sunitinib: Von GIST, Nierenzellkarzinom und neuroendokrinen Tumoren zum Liposarkom
+## Sunitinib: Von GIST, Nierenzellkarzinom und neuroendokrinen Tumoren zum Liposarkom
+{: .text-alpha }
 
 ## Zusammenfassung
 

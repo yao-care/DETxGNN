@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Fosaprepitant: Von Erbrechen bei Krebserkrankungen zu nephrogenem Syndrom der inadäquaten Antidiurese
+## Fosaprepitant: Von Erbrechen bei Krebserkrankungen zu nephrogenem Syndrom der inadäquaten Antidiurese
+{: .text-alpha }
 
 ## Zusammenfassung
 

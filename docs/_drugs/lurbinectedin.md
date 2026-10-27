@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Lurbinectedin: Von kleinzelligem Lungenkarzinom zu multipler endokriner Neoplasie
+## Lurbinectedin: Von kleinzelligem Lungenkarzinom zu multipler endokriner Neoplasie
+{: .text-alpha }
 
 ## Zusammenfassung
 

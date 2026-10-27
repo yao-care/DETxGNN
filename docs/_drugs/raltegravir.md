@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Raltegravir: Von HIV-Infektion zu felinem erworbenem Immundefizienz-Syndrom
+## Raltegravir: Von HIV-Infektion zu felinem erworbenem Immundefizienz-Syndrom
+{: .text-alpha }
 
 ## Zusammenfassung
 

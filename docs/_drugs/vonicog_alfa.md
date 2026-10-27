@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Vonicog alfa: Von der von-Willebrand-Erkrankung zur primären Thrombozyten-Freisetzungsstörung
+## Vonicog alfa: Von der von-Willebrand-Erkrankung zur primären Thrombozyten-Freisetzungsstörung
+{: .text-alpha }
 
 ## Zusammenfassung
 

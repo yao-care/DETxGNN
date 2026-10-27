@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Etanercept: Von rheumatischen Gelenk- und Hauterkrankungen zur rheumatoiden Vaskulitis
+## Etanercept: Von rheumatischen Gelenk- und Hauterkrankungen zur rheumatoiden Vaskulitis
+{: .text-alpha }
 
 ## Zusammenfassung
 

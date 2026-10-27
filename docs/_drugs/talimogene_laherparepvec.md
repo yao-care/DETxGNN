@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **7**
 
 </div>
 
-# Talimogen laherparepvec: Von Melanom zu CMM7
+## Talimogen laherparepvec: Von Melanom zu CMM7
+{: .text-alpha }
 
 ## Zusammenfassung
 

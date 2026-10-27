@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Stickstoffmonoxid: Von pulmonaler Hypertonie zu Fehlbildungssyndrom mit dentaler und/oder parodontaler Komponente
+## Stickstoffmonoxid: Von pulmonaler Hypertonie zu Fehlbildungssyndrom mit dentaler und/oder parodontaler Komponente
+{: .text-alpha }
 
 ## Zusammenfassung
 

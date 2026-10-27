@@ -32,7 +32,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0**
 
 </div>
 
-# Buprenorphin-Hydrochlorid: Evaluierung der Arzneistoffneupositionierung — Unzureichende Daten für vollständige Bewertung
+## Buprenorphin-Hydrochlorid: Evaluierung der Arzneistoffneupositionierung — Unzureichende Daten für vollständige Bewertung
+{: .text-alpha }
 
 ---
 

@@ -33,7 +33,8 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Lenalidomid: Vom Multiplen Myelom zur Myeloischen Leukämie
+## Lenalidomid: Vom Multiplen Myelom zur Myeloischen Leukämie
+{: .text-alpha }
 
 ## Zusammenfassung
 

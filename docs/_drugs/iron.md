@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Eisen: Von Eisenmangelanämie zu Plummer-Vinson-Syndrom
+## Eisen: Von Eisenmangelanämie zu Plummer-Vinson-Syndrom
+{: .text-alpha }
 
 ## Zusammenfassung
 

@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Eptifibatid: Von instabiler Angina pectoris und Myokardinfarkt zu rheumatoider Arthritis
+## Eptifibatid: Von instabiler Angina pectoris und Myokardinfarkt zu rheumatoider Arthritis
+{: .text-alpha }
 
 ## Zusammenfassung in Kürze
 

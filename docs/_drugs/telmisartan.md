@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Telmisartan: Von Hypertonie zu Prinzmetal-Angina
+## Telmisartan: Von Hypertonie zu Prinzmetal-Angina
+{: .text-alpha }
 
 ## Zusammenfassung
 

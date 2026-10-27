@@ -33,7 +33,8 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Lanadelumab: Von hereditärem Angioödem zu C1-Inhibitor-Mangel
+## Lanadelumab: Von hereditärem Angioödem zu C1-Inhibitor-Mangel
+{: .text-alpha }
 
 ## Zusammenfassung
 

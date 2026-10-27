@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Pegfilgrastim: Von Neutropenie bei Krebs zu schwerer nichtproliferativer diabetischer Retinopathie
+## Pegfilgrastim: Von Neutropenie bei Krebs zu schwerer nichtproliferativer diabetischer Retinopathie
+{: .text-alpha }
 
 ## Zusammenfassung
 

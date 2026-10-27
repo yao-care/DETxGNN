@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Tocilizumab: Von rheumatoider Arthritis zu ankylosierender Spondylitis
+## Tocilizumab: Von rheumatoider Arthritis zu ankylosierender Spondylitis
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

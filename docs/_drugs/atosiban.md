@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Atosiban: Von vorzeitigen Wehen zu primärem hereditärem Glaukom
+## Atosiban: Von vorzeitigen Wehen zu primärem hereditärem Glaukom
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

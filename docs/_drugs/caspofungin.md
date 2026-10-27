@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Caspofungin: Von Candidiasis/Aspergillose zu Gastrin-Sekretionsstörung
+## Caspofungin: Von Candidiasis/Aspergillose zu Gastrin-Sekretionsstörung
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

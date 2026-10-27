@@ -33,7 +33,8 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Natriumoxybat: Von Kataplexie/Narkolepsie zu Insomnie
+## Natriumoxybat: Von Kataplexie/Narkolepsie zu Insomnie
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

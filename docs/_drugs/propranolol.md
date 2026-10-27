@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Propranolol: Von Hämangiom zu distaler Myopathie, Typ Tateyama
+## Propranolol: Von Hämangiom zu distaler Myopathie, Typ Tateyama
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

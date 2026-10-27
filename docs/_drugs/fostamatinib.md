@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Fostamatinib: Von Thrombozytopenie zu autosomaler Thrombozytopenie mit normalen Thrombozyten
+## Fostamatinib: Von Thrombozytopenie zu autosomaler Thrombozytopenie mit normalen Thrombozyten
+{: .text-alpha }
 
 ## Zusammenfassung
 

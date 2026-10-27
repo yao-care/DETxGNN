@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Ethinylestradiol: Von Kontrazeption zu erhöhtem Plasmazink
+## Ethinylestradiol: Von Kontrazeption zu erhöhtem Plasmazink
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Bezlotoxumab: Von pseudomembranöser Enterokolitis zu akuter weiblicher Beckenperitonitis
+## Bezlotoxumab: Von pseudomembranöser Enterokolitis zu akuter weiblicher Beckenperitonitis
+{: .text-alpha }
 
 ## Zusammenfassung
 

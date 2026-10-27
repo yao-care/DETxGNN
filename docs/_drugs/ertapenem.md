@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Ertapenem: Von bakteriellen Infektionen zu bakterieller Arthritis
+## Ertapenem: Von bakteriellen Infektionen zu bakterieller Arthritis
+{: .text-alpha }
 
 ## Zusammenfassung
 

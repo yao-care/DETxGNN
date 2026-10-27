@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **8**
 
 </div>
 
-# Fluticasonfuroat: Von allergischer Rhinitis, Asthma und COPD zu atopischem Ekzem
+## Fluticasonfuroat: Von allergischer Rhinitis, Asthma und COPD zu atopischem Ekzem
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

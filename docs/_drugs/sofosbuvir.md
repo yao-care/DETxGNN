@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **8**
 
 </div>
 
-# Sofosbuvir: Von chronischer Hepatitis C zu Hepatitis-B-Virusinfektion
+## Sofosbuvir: Von chronischer Hepatitis C zu Hepatitis-B-Virusinfektion
+{: .text-alpha }
 
 ## Zusammenfassung
 

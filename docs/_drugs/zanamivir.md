@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Zanamivir: Von Influenza zu Pyelonephritis
+## Zanamivir: Von Influenza zu Pyelonephritis
+{: .text-alpha }
 
 ## Zusammenfassung
 

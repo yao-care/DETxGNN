@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Tasonermin: Von Sarkom zu Urothelkarzinom der prostatischen Harnröhre
+## Tasonermin: Von Sarkom zu Urothelkarzinom der prostatischen Harnröhre
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

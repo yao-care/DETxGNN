@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Aprepitant: Von Erbrechen und Übelkeit zum nephrogenen Syndrom der inadäquaten Antidiurese (NSIAD)
+## Aprepitant: Von Erbrechen und Übelkeit zum nephrogenen Syndrom der inadäquaten Antidiurese (NSIAD)
+{: .text-alpha }
 
 ## Zusammenfassung
 

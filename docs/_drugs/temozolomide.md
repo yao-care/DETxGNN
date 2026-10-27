@@ -33,7 +33,8 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Temozolomid: Von Gliom zu adultem astrozytärem Tumor
+## Temozolomid: Von Gliom zu adultem astrozytärem Tumor
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

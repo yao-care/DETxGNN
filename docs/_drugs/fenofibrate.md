@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **7**
 
 </div>
 
-# Fenofibrat: Von Dyslipidämien zur homozygoten familiären Hypercholesterinämie
+## Fenofibrat: Von Dyslipidämien zur homozygoten familiären Hypercholesterinämie
+{: .text-alpha }
 
 ## Zusammenfassung
 

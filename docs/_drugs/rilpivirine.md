@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-# Rilpivirin: Von HIV-Infektion zu felinem erworbenem Immundefizienzsyndrom
+## Rilpivirin: Von HIV-Infektion zu felinem erworbenem Immundefizienzsyndrom
+{: .text-alpha }
 
 ## Zusammenfassung
 

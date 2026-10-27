@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Lusutrombopag: Von Thrombozytopenie zu hereditärer Thrombozytopenie mit normalen Thrombozyten
+## Lusutrombopag: Von Thrombozytopenie zu hereditärer Thrombozytopenie mit normalen Thrombozyten
+{: .text-alpha }
 
 ## Zusammenfassung
 

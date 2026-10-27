@@ -33,7 +33,8 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Ropinirol: Von Restless-Legs-Syndrom und Parkinson-Krankheit zu Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung (ADHS)
+## Ropinirol: Von Restless-Legs-Syndrom und Parkinson-Krankheit zu Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung (ADHS)
+{: .text-alpha }
 
 ## Zusammenfassung
 

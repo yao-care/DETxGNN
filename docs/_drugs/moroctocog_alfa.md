@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **8**
 
 </div>
 
-# Moroctocog alfa: Von Hämophilie A zu primärer Thrombozyten-Freisetzungsstörung
+## Moroctocog alfa: Von Hämophilie A zu primärer Thrombozyten-Freisetzungsstörung
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

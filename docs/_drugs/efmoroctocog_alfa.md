@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Efmoroctocog alfa: Von Hämophilie A zu pseudo-von-Willebrand-Erkrankung
+## Efmoroctocog alfa: Von Hämophilie A zu pseudo-von-Willebrand-Erkrankung
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

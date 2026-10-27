@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Koffein: Von Apnoe zu Erkrankungen der Nasenhöhle
+## Koffein: Von Apnoe zu Erkrankungen der Nasenhöhle
+{: .text-alpha }
 
 ## Zusammenfassung
 

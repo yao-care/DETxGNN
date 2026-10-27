@@ -33,7 +33,8 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-# Etelcalcetid: Von sekundärem Hyperparathyreoidismus zu Hyperphosphatämie
+## Etelcalcetid: Von sekundärem Hyperparathyreoidismus zu Hyperphosphatämie
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

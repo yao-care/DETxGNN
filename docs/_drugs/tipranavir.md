@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Tipranavir: Von HIV-Infektion zu felinem erworbenem Immundefizienz-Syndrom
+## Tipranavir: Von HIV-Infektion zu felinem erworbenem Immundefizienz-Syndrom
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

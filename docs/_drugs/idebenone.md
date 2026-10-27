@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Idebenon: Von der Leberschen hereditären Optikusneuropathie zur hepatischen Porphyrie
+## Idebenon: Von der Leberschen hereditären Optikusneuropathie zur hepatischen Porphyrie
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

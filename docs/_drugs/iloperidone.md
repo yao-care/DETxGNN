@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Iloperidon: Von Schizophrenie und bipolarer Störung zu retinaler Dystrophie (mit oder ohne extraokuläre Anomalien)
+## Iloperidon: Von Schizophrenie und bipolarer Störung zu retinaler Dystrophie (mit oder ohne extraokuläre Anomalien)
+{: .text-alpha }
 
 ## Zusammenfassung
 

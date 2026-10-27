@@ -32,7 +32,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0**
 
 </div>
 
-# Brimonidine Tartrate: Repurposing-Bewertung — TxGNN-Vorhersagedaten nicht verfügbar
+## Brimonidine Tartrate: Repurposing-Bewertung — TxGNN-Vorhersagedaten nicht verfügbar
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

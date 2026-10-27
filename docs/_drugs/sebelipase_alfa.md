@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Sebelipase alfa: Von angeborenen Störungen des Lipidstoffwechsels zum Scheie-Syndrom
+## Sebelipase alfa: Von angeborenen Störungen des Lipidstoffwechsels zum Scheie-Syndrom
+{: .text-alpha }
 
 ## Zusammenfassung
 

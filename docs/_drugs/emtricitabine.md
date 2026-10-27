@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Emtricitabin: Von HIV-Infektion zu felinem erworbenem Immundefizienzsyndrom
+## Emtricitabin: Von HIV-Infektion zu felinem erworbenem Immundefizienzsyndrom
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

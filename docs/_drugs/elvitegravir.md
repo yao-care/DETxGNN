@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Elvitegravir: Von HIV-Infektion zu felinem erworbenem Immunschwächesyndrom
+## Elvitegravir: Von HIV-Infektion zu felinem erworbenem Immunschwächesyndrom
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

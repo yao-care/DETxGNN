@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Alectinib: Vom nicht-kleinzelligen Lungenkarzinom zur gingivalen Fibromatose
+## Alectinib: Vom nicht-kleinzelligen Lungenkarzinom zur gingivalen Fibromatose
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

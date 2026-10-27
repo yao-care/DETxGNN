@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Inclisiran: Von Hypercholesterinämie zu Kaliummangelerkrankung
+## Inclisiran: Von Hypercholesterinämie zu Kaliummangelerkrankung
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

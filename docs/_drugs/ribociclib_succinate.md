@@ -32,7 +32,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0**
 
 </div>
 
-# Ribociclib succinate: Bewertung zur Arzneimittelumwidmung — Unzureichende Daten
+## Ribociclib succinate: Bewertung zur Arzneimittelumwidmung — Unzureichende Daten
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

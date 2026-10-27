@@ -33,7 +33,8 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Ambrisentan: Von pulmonaler arterieller Hypertonie zu PAH bei Bindegewebserkrankungen (pulmonale arterielle Hypertonie, assoziiert mit Bindegewebserkrankung)
+## Ambrisentan: Von pulmonaler arterieller Hypertonie zu PAH bei Bindegewebserkrankungen (pulmonale arterielle Hypertonie, assoziiert mit Bindegewebserkrankung)
+{: .text-alpha }
 
 > Hinweis zur Auswahl: Die Prognoseliste enthält als Rang 1 die pulmonale arteriovenöse Malformation (nur Modellvorhersage, Evidenzlevel L4, Empfehlung Hold). Dieser Bericht bewertet stattdessen die Indikation mit der stärksten Datenlage, die PAH bei Bindegewebserkrankung (Rang 5), und stellt die übrigen Vorhersagen im Überblick dar.
 

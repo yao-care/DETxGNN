@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Ponatinib: Von Leukämie zu gingivaler Fibromatose
+## Ponatinib: Von Leukämie zu gingivaler Fibromatose
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

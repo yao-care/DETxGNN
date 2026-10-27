@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-# Mecasermin: Vom Laron-Syndrom zu Monosomie X (Turner-Syndrom)
+## Mecasermin: Vom Laron-Syndrom zu Monosomie X (Turner-Syndrom)
+{: .text-alpha }
 
 ## Zusammenfassung
 

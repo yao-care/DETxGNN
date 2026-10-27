@@ -33,7 +33,8 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **8**
 
 </div>
 
-# Tryptophan: Von der Ahornsirupkrankheit zum Restless-Legs-Syndrom
+## Tryptophan: Von der Ahornsirupkrankheit zum Restless-Legs-Syndrom
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

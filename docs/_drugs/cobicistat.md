@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Cobicistat: Von HIV-Infektion zu felinem erworbenem Immundefizienz-Syndrom
+## Cobicistat: Von HIV-Infektion zu felinem erworbenem Immundefizienz-Syndrom
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

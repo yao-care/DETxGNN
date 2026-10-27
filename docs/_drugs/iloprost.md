@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9**
 
 </div>
 
-# Iloprost: Von pulmonaler arterieller Hypertonie zu hypotrichosis simplex der Kopfhaut
+## Iloprost: Von pulmonaler arterieller Hypertonie zu hypotrichosis simplex der Kopfhaut
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

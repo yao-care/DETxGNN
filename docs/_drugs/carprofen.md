@@ -33,7 +33,8 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Carprofen: Vom Einsatz als nichtsteroidales Antirheumatikum zu rheumatoider Arthritis
+## Carprofen: Vom Einsatz als nichtsteroidales Antirheumatikum zu rheumatoider Arthritis
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

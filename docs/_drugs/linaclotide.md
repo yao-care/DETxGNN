@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Linaclotid: Vom Reizdarmsyndrom zum Cauda-equina-Syndrom
+## Linaclotid: Vom Reizdarmsyndrom zum Cauda-equina-Syndrom
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

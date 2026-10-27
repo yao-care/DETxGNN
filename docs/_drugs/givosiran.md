@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Givosiran: Von hepatischen Porphyrien zu primitiver Pfortaderthrombose
+## Givosiran: Von hepatischen Porphyrien zu primitiver Pfortaderthrombose
+{: .text-alpha }
 
 ## Zusammenfassung
 

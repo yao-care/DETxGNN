@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-# Lipegfilgrastim: Von der (nicht dokumentierten) Ursprungsindikation zu primären Thrombozyten-Freisetzungsstörungen
+## Lipegfilgrastim: Von der (nicht dokumentierten) Ursprungsindikation zu primären Thrombozyten-Freisetzungsstörungen
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

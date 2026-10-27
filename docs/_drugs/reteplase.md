@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Reteplase: Von Myokardinfarkt zu posterolateralem Myokardinfarkt
+## Reteplase: Von Myokardinfarkt zu posterolateralem Myokardinfarkt
+{: .text-alpha }
 
 ## Zusammenfassung
 

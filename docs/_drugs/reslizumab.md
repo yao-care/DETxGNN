@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Reslizumab: Von Asthma zu immunvermittelter Thrombozytopenie
+## Reslizumab: Von Asthma zu immunvermittelter Thrombozytopenie
+{: .text-alpha }
 
 ## Zusammenfassung
 

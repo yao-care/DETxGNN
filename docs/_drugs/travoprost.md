@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Travoprost: Vom Glaukom zur viszeralen Kalziphylaxie
+## Travoprost: Vom Glaukom zur viszeralen Kalziphylaxie
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Fentanyl: Von Schmerz/Krebs zum nephrogenen Syndrom der inadäquaten Antidiurese
+## Fentanyl: Von Schmerz/Krebs zum nephrogenen Syndrom der inadäquaten Antidiurese
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

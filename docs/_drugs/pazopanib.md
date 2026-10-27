@@ -33,7 +33,8 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Pazopanib: Vom Nierenzellkarzinom zum nicht klassifizierten Nierenzellkarzinom
+## Pazopanib: Vom Nierenzellkarzinom zum nicht klassifizierten Nierenzellkarzinom
+{: .text-alpha }
 
 ## Zusammenfassung
 

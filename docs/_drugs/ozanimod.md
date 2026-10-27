@@ -31,7 +31,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Ozanimod: Von schubförmig remittierender Multipler Sklerose und Colitis ulcerosa zu progredient-schubförmiger Multipler Sklerose
+## Ozanimod: Von schubförmig remittierender Multipler Sklerose und Colitis ulcerosa zu progredient-schubförmiger Multipler Sklerose
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Interferon beta-1b: Von Multipler Sklerose zu Haarzellleukämie
+## Interferon beta-1b: Von Multipler Sklerose zu Haarzellleukämie
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

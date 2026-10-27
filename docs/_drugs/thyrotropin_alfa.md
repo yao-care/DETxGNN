@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Thyrotropin alfa: Vom Schilddrüsenkarzinom zur Migräne
+## Thyrotropin alfa: Vom Schilddrüsenkarzinom zur Migräne
+{: .text-alpha }
 
 ## Zusammenfassung
 

@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-# Tenofovir disoproxil: Von HIV-Infektion zur simianen Immundefizienzvirus-Infektion
+## Tenofovir disoproxil: Von HIV-Infektion zur simianen Immundefizienzvirus-Infektion
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

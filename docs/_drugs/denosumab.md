@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Denosumab: Von Riesenzelltumor des Knochens und Osteoporose zu schwerer nichtproliferativer diabetischer Retinopathie
+## Denosumab: Von Riesenzelltumor des Knochens und Osteoporose zu schwerer nichtproliferativer diabetischer Retinopathie
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

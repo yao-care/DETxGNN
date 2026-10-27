@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Enoxaparin: Von venöser Thromboembolie zu Thrombophilie durch Protein-C-Mangel (autosomal-rezessiv)
+## Enoxaparin: Von venöser Thromboembolie zu Thrombophilie durch Protein-C-Mangel (autosomal-rezessiv)
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

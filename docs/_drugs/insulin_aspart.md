@@ -33,7 +33,8 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Insulin Aspart: Vom Diabetes mellitus zum Typ-1-Diabetes mellitus
+## Insulin Aspart: Vom Diabetes mellitus zum Typ-1-Diabetes mellitus
+{: .text-alpha }
 
 ## Zusammenfassung
 

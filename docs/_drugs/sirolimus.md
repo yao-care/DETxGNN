@@ -33,7 +33,8 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Sirolimus: Von Angiofibrom bei Tuberöser Sklerose zu Liposarkom
+## Sirolimus: Von Angiofibrom bei Tuberöser Sklerose zu Liposarkom
+{: .text-alpha }
 
 ## Zusammenfassung
 

@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-# Metformin: Vom Typ-2-Diabetes zum fokalen Stiff-Limb-Syndrom
+## Metformin: Vom Typ-2-Diabetes zum fokalen Stiff-Limb-Syndrom
+{: .text-alpha }
 
 ## Zusammenfassung
 

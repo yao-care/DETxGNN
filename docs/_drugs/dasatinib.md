@@ -33,7 +33,8 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Dasatinib: Von chronischer myeloischer Leukämie / Ph+ ALL zum Ewing-Sarkom
+## Dasatinib: Von chronischer myeloischer Leukämie / Ph+ ALL zum Ewing-Sarkom
+{: .text-alpha }
 
 ## Zusammenfassung
 

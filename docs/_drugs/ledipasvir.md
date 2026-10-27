@@ -33,7 +33,8 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Ledipasvir: Von chronischer Hepatitis C zu Hepatitis-B-Virusinfektion
+## Ledipasvir: Von chronischer Hepatitis C zu Hepatitis-B-Virusinfektion
+{: .text-alpha }
 
 ## Zusammenfassung
 

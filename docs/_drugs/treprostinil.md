@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Treprostinil: Von pulmonaler Hypertonie zu pulmonaler arteriovenöser Malformation
+## Treprostinil: Von pulmonaler Hypertonie zu pulmonaler arteriovenöser Malformation
+{: .text-alpha }
 
 ## Zusammenfassung
 

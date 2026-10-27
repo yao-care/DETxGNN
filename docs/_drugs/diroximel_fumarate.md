@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Diroximelfumarat: Von schubförmig remittierender Multipler Sklerose zu diabetischer Katarakt
+## Diroximelfumarat: Von schubförmig remittierender Multipler Sklerose zu diabetischer Katarakt
+{: .text-alpha }
 
 ## Zusammenfassung
 

@@ -33,7 +33,8 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Solriamfetol: Vom Narkolepsie/obstruktiver Schlafapnoe zu ADHS (Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung)
+## Solriamfetol: Vom Narkolepsie/obstruktiver Schlafapnoe zu ADHS (Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung)
+{: .text-alpha }
 
 ## Zusammenfassung
 

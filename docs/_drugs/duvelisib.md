@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Duvelisib: Von chronischer lymphatischer Leukämie und follikulärem Lymphom zum Hodgkin-Lymphom
+## Duvelisib: Von chronischer lymphatischer Leukämie und follikulärem Lymphom zum Hodgkin-Lymphom
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

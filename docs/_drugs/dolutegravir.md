@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Dolutegravir: Von HIV-Infektion zu felinem erworbenem Immundefizienzsyndrom
+## Dolutegravir: Von HIV-Infektion zu felinem erworbenem Immundefizienzsyndrom
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Posaconazol: Von Mykosen zu Pneumocystose
+## Posaconazol: Von Mykosen zu Pneumocystose
+{: .text-alpha }
 
 ## Zusammenfassung
 

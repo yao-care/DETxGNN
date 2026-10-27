@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Pregabalin: Von Epilepsie, Angststörungen und Neuralgie zu Tendinitis
+## Pregabalin: Von Epilepsie, Angststörungen und Neuralgie zu Tendinitis
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Alirocumab: Von Dyslipidämien zu X-chromosomaler Ichthyose (ohne Steroidsulfatase-Mangel)
+## Alirocumab: Von Dyslipidämien zu X-chromosomaler Ichthyose (ohne Steroidsulfatase-Mangel)
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Tyrosin: Von der Ahornsirupkrankheit zum Cauda-equina-Syndrom
+## Tyrosin: Von der Ahornsirupkrankheit zum Cauda-equina-Syndrom
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

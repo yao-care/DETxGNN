@@ -33,7 +33,8 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **7**
 
 </div>
 
-# Icatibant: Von Hereditärem Angioödem zu C1-Inhibitor-Mangel
+## Icatibant: Von Hereditärem Angioödem zu C1-Inhibitor-Mangel
+{: .text-alpha }
 
 ## Zusammenfassung
 

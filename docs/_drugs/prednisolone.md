@@ -33,7 +33,8 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Prednisolon: Von Autoimmunerkrankungen zu Alopecia areata
+## Prednisolon: Von Autoimmunerkrankungen zu Alopecia areata
+{: .text-alpha }
 
 ## Zusammenfassung
 

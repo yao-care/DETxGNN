@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Darolutamid: Vom kastrationsresistenten Prostatakarzinom zur homozygoten familiären Hypercholesterinämie
+## Darolutamid: Vom kastrationsresistenten Prostatakarzinom zur homozygoten familiären Hypercholesterinämie
+{: .text-alpha }
 
 ## Zusammenfassung
 

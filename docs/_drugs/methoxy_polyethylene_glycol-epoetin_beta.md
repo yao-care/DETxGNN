@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **7**
 
 </div>
 
-# Methoxy-Polyethylenglykol-Epoetin beta: Von Anämie bei chronischer Niereninsuffizienz zu primärer Thrombozyten-Freisetzungsstörung
+## Methoxy-Polyethylenglykol-Epoetin beta: Von Anämie bei chronischer Niereninsuffizienz zu primärer Thrombozyten-Freisetzungsstörung
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

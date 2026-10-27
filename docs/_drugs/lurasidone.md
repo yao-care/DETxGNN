@@ -33,7 +33,8 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Lurasidon: Von Schizophrenie zu manischer bipolarer affektiver Störung
+## Lurasidon: Von Schizophrenie zu manischer bipolarer affektiver Störung
+{: .text-alpha }
 
 ## Zusammenfassung
 

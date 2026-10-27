@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Aztreonam: Von gramnegativen bakteriellen Infektionen zu Hyperamylasämie
+## Aztreonam: Von gramnegativen bakteriellen Infektionen zu Hyperamylasämie
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

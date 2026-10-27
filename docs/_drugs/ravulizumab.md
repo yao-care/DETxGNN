@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Ravulizumab: Von paroxysmaler nächtlicher Hämoglobinurie zu autosomal-rezessiver schwerer kongenitaler Neutropenie (G6PC3-Mangel)
+## Ravulizumab: Von paroxysmaler nächtlicher Hämoglobinurie zu autosomal-rezessiver schwerer kongenitaler Neutropenie (G6PC3-Mangel)
+{: .text-alpha }
 
 ## Zusammenfassung
 

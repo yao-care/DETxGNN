@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Methotrexat: Von rheumatoider Arthritis/Psoriasis zu primärem Lungenlymphom
+## Methotrexat: Von rheumatoider Arthritis/Psoriasis zu primärem Lungenlymphom
+{: .text-alpha }
 
 ## Zusammenfassung
 

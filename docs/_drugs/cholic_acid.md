@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Cholsäure: Von angeborenen Gallensäuresynthesestörungen zu HIV-Infektion
+## Cholsäure: Von angeborenen Gallensäuresynthesestörungen zu HIV-Infektion
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Efavirenz: Von HIV-Infektion zu Simian-Immundefizienzvirus-Infektion
+## Efavirenz: Von HIV-Infektion zu Simian-Immundefizienzvirus-Infektion
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

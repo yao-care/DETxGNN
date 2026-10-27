@@ -33,7 +33,8 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Prasugrel: Von akutem Koronarsyndrom zu Migräne
+## Prasugrel: Von akutem Koronarsyndrom zu Migräne
+{: .text-alpha }
 
 ## Zusammenfassung
 

@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **7**
 
 </div>
 
-# Mogamulizumab: Vom kutanen T-Zell-Lymphom zum Urothelkarzinom der prostatischen Harnröhre
+## Mogamulizumab: Vom kutanen T-Zell-Lymphom zum Urothelkarzinom der prostatischen Harnröhre
+{: .text-alpha }
 
 ## Zusammenfassung
 

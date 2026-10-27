@@ -33,7 +33,8 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Lacosamid: Von Epilepsie zu Migräne
+## Lacosamid: Von Epilepsie zu Migräne
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

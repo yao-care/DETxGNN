@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **9**
 
 </div>
 
-# Fidaxomicin: Von Clostridien-Infektionen zum Staphylococcal Scalded Skin Syndrome
+## Fidaxomicin: Von Clostridien-Infektionen zum Staphylococcal Scalded Skin Syndrome
+{: .text-alpha }
 
 ## Zusammenfassung
 

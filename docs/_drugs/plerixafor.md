@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **7**
 
 </div>
 
-# Plerixafor: Vom Multiplen Myelom zum indolenten Plasmazellmyelom
+## Plerixafor: Vom Multiplen Myelom zum indolenten Plasmazellmyelom
+{: .text-alpha }
 
 ## Zusammenfassung
 

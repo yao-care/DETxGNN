@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Tecovirimat: Von Pockeninfektionen zu Hordeolum
+## Tecovirimat: Von Pockeninfektionen zu Hordeolum
+{: .text-alpha }
 
 ## Zusammenfassung
 

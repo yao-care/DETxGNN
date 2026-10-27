@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-# Regadenoson: Von der Myokardperfusionsbildgebung zur Anaphylaxie
+## Regadenoson: Von der Myokardperfusionsbildgebung zur Anaphylaxie
+{: .text-alpha }
 
 ## Zusammenfassung
 

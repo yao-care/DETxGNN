@@ -31,7 +31,8 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Teriflunomid: Von relapsierend-remittierender Multipler Sklerose zu relapsierend-remittierender Multipler Sklerose (bereits zugelassene Indikation)
+## Teriflunomid: Von relapsierend-remittierender Multipler Sklerose zu relapsierend-remittierender Multipler Sklerose (bereits zugelassene Indikation)
+{: .text-alpha }
 
 ## Zusammenfassung
 

@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-# Roxadustat: Von renaler Anämie zu Trockenem-Auge-Syndrom
+## Roxadustat: Von renaler Anämie zu Trockenem-Auge-Syndrom
+{: .text-alpha }
 
 ## Zusammenfassung
 

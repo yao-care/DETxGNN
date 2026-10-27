@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Durvalumab: Von nicht-kleinzelligem Lungenkarzinom zu prostatischem Urethra-Urothelkarzinom
+## Durvalumab: Von nicht-kleinzelligem Lungenkarzinom zu prostatischem Urethra-Urothelkarzinom
+{: .text-alpha }
 
 ## Zusammenfassung
 

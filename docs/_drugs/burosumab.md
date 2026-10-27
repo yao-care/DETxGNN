@@ -32,7 +32,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0**
 
 </div>
 
-# BUROSUMAB: Kandidat zur Umwidmung — Keine TxGNN-Vorhersagen verfügbar
+## BUROSUMAB: Kandidat zur Umwidmung — Keine TxGNN-Vorhersagen verfügbar
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

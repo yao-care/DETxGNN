@@ -33,7 +33,8 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Imipenem: Von gramnegativen bakteriellen Infektionen zu Staphylococcus-aureus-Infektion
+## Imipenem: Von gramnegativen bakteriellen Infektionen zu Staphylococcus-aureus-Infektion
+{: .text-alpha }
 
 ## Zusammenfassung
 

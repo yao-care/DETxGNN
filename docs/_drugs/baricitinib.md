@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Baricitinib: Von rheumatoider Arthritis zum kolobomatösen Mikrophthalmie-rhizomelen-Dysplasie-Syndrom
+## Baricitinib: Von rheumatoider Arthritis zum kolobomatösen Mikrophthalmie-rhizomelen-Dysplasie-Syndrom
+{: .text-alpha }
 
 ## Zusammenfassung
 

@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Serin: Von Ahornsirupkrankheit zu familiärer viszeraler Myopathie
+## Serin: Von Ahornsirupkrankheit zu familiärer viszeraler Myopathie
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

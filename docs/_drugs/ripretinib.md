@@ -32,7 +32,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0**
 
 </div>
 
-# Ripretinib: Aus gastrointestinalem Stroma-Tumor – Repurposing-Bewertung ausstehend
+## Ripretinib: Aus gastrointestinalem Stroma-Tumor – Repurposing-Bewertung ausstehend
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

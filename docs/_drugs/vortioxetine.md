@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-# Vortioxetin: Von Major Depression zu Neurotischer Störung
+## Vortioxetin: Von Major Depression zu Neurotischer Störung
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Lidocain: Von sexueller Funktionsstörung (Fortacin) zu punktförmiger epithelialer Keratokonjunktivitis
+## Lidocain: Von sexueller Funktionsstörung (Fortacin) zu punktförmiger epithelialer Keratokonjunktivitis
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

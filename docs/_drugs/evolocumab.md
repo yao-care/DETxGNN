@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Evolocumab: Von Dyslipidämie/Hypercholesterinämie zu symptomatischer Hämophilie bei weiblichen Trägerinnen
+## Evolocumab: Von Dyslipidämie/Hypercholesterinämie zu symptomatischer Hämophilie bei weiblichen Trägerinnen
+{: .text-alpha }
 
 ## Zusammenfassung
 

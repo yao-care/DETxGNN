@@ -31,7 +31,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Obinutuzumab: Von chronischer lymphatischer B-Zell-Leukämie zu CLL/SLL mit somatischer Hypermutation der IGHV-Gene
+## Obinutuzumab: Von chronischer lymphatischer B-Zell-Leukämie zu CLL/SLL mit somatischer Hypermutation der IGHV-Gene
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

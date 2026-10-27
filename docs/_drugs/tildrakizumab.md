@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-# Tildrakizumab: Von Psoriasis zu schwerer nichtproliferativer diabetischer Retinopathie
+## Tildrakizumab: Von Psoriasis zu schwerer nichtproliferativer diabetischer Retinopathie
+{: .text-alpha }
 
 ## Zusammenfassung
 

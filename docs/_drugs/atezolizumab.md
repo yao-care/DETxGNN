@@ -33,7 +33,8 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Atezolizumab: Von Urothelkarzinom (u. a.) zum prostatischen Urethra-Urothelkarzinom
+## Atezolizumab: Von Urothelkarzinom (u. a.) zum prostatischen Urethra-Urothelkarzinom
+{: .text-alpha }
 
 ## Zusammenfassung
 

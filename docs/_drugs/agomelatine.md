@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Agomelatin: Von der Major Depression zur benignen paroxysmalen Torticollis des Säuglingsalters
+## Agomelatin: Von der Major Depression zur benignen paroxysmalen Torticollis des Säuglingsalters
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

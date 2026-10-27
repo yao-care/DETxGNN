@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Pirfenidon: Von idiopathischer Lungenfibrose zu extrakutanem Mastozytom
+## Pirfenidon: Von idiopathischer Lungenfibrose zu extrakutanem Mastozytom
+{: .text-alpha }
 
 ## Zusammenfassung
 

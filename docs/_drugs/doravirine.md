@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Doravirin: Von HIV-Infektion zu felinem erworbenem Immundefizienzsyndrom
+## Doravirin: Von HIV-Infektion zu felinem erworbenem Immundefizienzsyndrom
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

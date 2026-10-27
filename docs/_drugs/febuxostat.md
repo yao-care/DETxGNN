@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Febuxostat: Von Gicht zu renaler Hypourikämie
+## Febuxostat: Von Gicht zu renaler Hypourikämie
+{: .text-alpha }
 
 ## Zusammenfassung
 

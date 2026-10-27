@@ -31,7 +31,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Eptinezumab: Von Migräne zu Migräne mit Hirnstammaura
+## Eptinezumab: Von Migräne zu Migräne mit Hirnstammaura
+{: .text-alpha }
 
 ## Zusammenfassung
 

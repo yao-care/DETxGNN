@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Degarelix: Vom Prostatakarzinom zur Hypertrichose
+## Degarelix: Vom Prostatakarzinom zur Hypertrichose
+{: .text-alpha }
 
 ## Zusammenfassung
 

@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Amikacin: Von Atemwegsinfektionen zu Paratyphus
+## Amikacin: Von Atemwegsinfektionen zu Paratyphus
+{: .text-alpha }
 
 ## Zusammenfassung
 

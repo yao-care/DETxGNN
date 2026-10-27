@@ -32,7 +32,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0**
 
 </div>
 
-# Brexpiprazole: Bewertung unvollständig – Keine Repurposing-Vorhersagen verfügbar
+## Brexpiprazole: Bewertung unvollständig – Keine Repurposing-Vorhersagen verfügbar
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **7**
 
 </div>
 
-# Aliskiren: Von Hypertonie zu pulmonaler Hypertonie infolge von Lungenerkrankung und/oder Hypoxie
+## Aliskiren: Von Hypertonie zu pulmonaler Hypertonie infolge von Lungenerkrankung und/oder Hypoxie
+{: .text-alpha }
 
 ## Zusammenfassung
 

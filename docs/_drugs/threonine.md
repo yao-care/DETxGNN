@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Threonin: Von der Ahornsirupkrankheit zur Gastroparese
+## Threonin: Von der Ahornsirupkrankheit zur Gastroparese
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

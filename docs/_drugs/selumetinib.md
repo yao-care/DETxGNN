@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Selumetinib: Von Neurofibromatose Typ 1 zu familiärer generalisierter Lentiginose
+## Selumetinib: Von Neurofibromatose Typ 1 zu familiärer generalisierter Lentiginose
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

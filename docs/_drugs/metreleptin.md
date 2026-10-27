@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Metreleptin: Von familiärer partieller Lipodystrophie zu familiärer generalisierter Lentiginose
+## Metreleptin: Von familiärer partieller Lipodystrophie zu familiärer generalisierter Lentiginose
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

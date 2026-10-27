@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **9**
 
 </div>
 
-# Cytarabin: Von akuter myeloischer Leukämie zu kleinzelligem Lungenkarzinom
+## Cytarabin: Von akuter myeloischer Leukämie zu kleinzelligem Lungenkarzinom
+{: .text-alpha }
 
 ## Zusammenfassung
 

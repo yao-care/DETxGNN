@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Ruxolitinib: Von Vitiligo zu perivaskulärem Epitheloidzelltumor des Uterus (PEComa)
+## Ruxolitinib: Von Vitiligo zu perivaskulärem Epitheloidzelltumor des Uterus (PEComa)
+{: .text-alpha }
 
 ## Zusammenfassung
 

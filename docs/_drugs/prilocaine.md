@@ -33,7 +33,8 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Prilocain: Von sexueller Funktionsstörung zu Neuralgie
+## Prilocain: Von sexueller Funktionsstörung zu Neuralgie
+{: .text-alpha }
 
 ## Zusammenfassung
 

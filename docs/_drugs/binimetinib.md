@@ -32,7 +32,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0**
 
 </div>
 
-# Binimetinib: Bewertung der Umwidmung von Arzneimitteln — Unzureichende Daten für vollständige Bewertung
+## Binimetinib: Bewertung der Umwidmung von Arzneimitteln — Unzureichende Daten für vollständige Bewertung
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

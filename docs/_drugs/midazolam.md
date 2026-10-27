@@ -33,7 +33,8 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Midazolam: Von Epilepsie zu Insomnie
+## Midazolam: Von Epilepsie zu Insomnie
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

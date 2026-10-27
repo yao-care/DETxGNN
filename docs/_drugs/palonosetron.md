@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-# Palonosetron: Von Übelkeit und Erbrechen bei Krebstherapie zu Migräne
+## Palonosetron: Von Übelkeit und Erbrechen bei Krebstherapie zu Migräne
+{: .text-alpha }
 
 ## Zusammenfassung
 

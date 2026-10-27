@@ -33,7 +33,8 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Risankizumab: Von Psoriasis, psoriatischer Arthritis und chronisch-entzündlichen Darmerkrankungen zu Dermatitis
+## Risankizumab: Von Psoriasis, psoriatischer Arthritis und chronisch-entzündlichen Darmerkrankungen zu Dermatitis
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

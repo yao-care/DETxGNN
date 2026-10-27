@@ -32,7 +32,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0**
 
 </div>
 
-# Riociguat: Bewertung unvollständig — Unzureichende Daten für Umwidmungsanalyse
+## Riociguat: Bewertung unvollständig — Unzureichende Daten für Umwidmungsanalyse
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

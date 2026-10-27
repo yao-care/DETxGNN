@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-# Memantin: Von der Alzheimer-Krankheit zur Migräne
+## Memantin: Von der Alzheimer-Krankheit zur Migräne
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

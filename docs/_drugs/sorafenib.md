@@ -33,7 +33,8 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Sorafenib: Vom hepatozellulären Karzinom und Nierenzellkarzinom zum Liposarkom
+## Sorafenib: Vom hepatozellulären Karzinom und Nierenzellkarzinom zum Liposarkom
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

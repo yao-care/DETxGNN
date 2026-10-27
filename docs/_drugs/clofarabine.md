@@ -33,7 +33,8 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Clofarabin: Von der Vorläuferzell-lymphoblastischen Leukämie/Lymphom zur myeloischen Leukämie
+## Clofarabin: Von der Vorläuferzell-lymphoblastischen Leukämie/Lymphom zur myeloischen Leukämie
+{: .text-alpha }
 
 ## Zusammenfassung
 

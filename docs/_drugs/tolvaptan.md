@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Tolvaptan: Von Hyponatriämie bei SIADH / ADPKD zu polyzystischer Nierenerkrankung Typ 3 (mit oder ohne polyzystische Lebererkrankung)
+## Tolvaptan: Von Hyponatriämie bei SIADH / ADPKD zu polyzystischer Nierenerkrankung Typ 3 (mit oder ohne polyzystische Lebererkrankung)
+{: .text-alpha }
 
 ## Zusammenfassung
 

@@ -32,7 +32,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0**
 
 </div>
 
-# Raloxifenhydrochlorid: Unzureichende Daten für eine Bewertung der Umwidmung
+## Raloxifenhydrochlorid: Unzureichende Daten für eine Bewertung der Umwidmung
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

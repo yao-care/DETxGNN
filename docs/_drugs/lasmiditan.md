@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Lasmiditan: Von Migräne zu Migräne mit Hirnstammaura
+## Lasmiditan: Von Migräne zu Migräne mit Hirnstammaura
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

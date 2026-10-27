@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Bupropion: Von Adipositas/Übergewicht zu Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung (ADHS)
+## Bupropion: Von Adipositas/Übergewicht zu Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung (ADHS)
+{: .text-alpha }
 
 ## Zusammenfassung
 

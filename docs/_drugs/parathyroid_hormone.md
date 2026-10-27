@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Parathyroid Hormone: Von Hypoparathyreoidismus zu Migränestörung
+## Parathyroid Hormone: Von Hypoparathyreoidismus zu Migränestörung
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

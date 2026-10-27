@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Teriparatid: Von Osteoporose zu Duodenalulkus
+## Teriparatid: Von Osteoporose zu Duodenalulkus
+{: .text-alpha }
 
 ## Zusammenfassung
 

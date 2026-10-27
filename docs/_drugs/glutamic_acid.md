@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-# Glutaminsäure: Von der Ahornsirupkrankheit zur postmenopausalen Osteoporose
+## Glutaminsäure: Von der Ahornsirupkrankheit zur postmenopausalen Osteoporose
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Grazoprevir: Von chronischer Hepatitis C zu HIV-Infektion
+## Grazoprevir: Von chronischer Hepatitis C zu HIV-Infektion
+{: .text-alpha }
 
 ## Zusammenfassung
 

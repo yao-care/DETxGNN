@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **8**
 
 </div>
 
-# Clopidogrel: Von kardiovaskulären Erkrankungen zu Migräne mit Hirnstammaura
+## Clopidogrel: Von kardiovaskulären Erkrankungen zu Migräne mit Hirnstammaura
+{: .text-alpha }
 
 ## Zusammenfassung
 

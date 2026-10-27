@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Bictegravir: Von HIV-Infektionen zu feliner erworbener Immunschwäche (FIV)
+## Bictegravir: Von HIV-Infektionen zu feliner erworbener Immunschwäche (FIV)
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

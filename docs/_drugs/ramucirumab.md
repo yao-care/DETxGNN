@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Ramucirumab: Vom Magenkarzinom zum Adenokarzinom des Lig. uteri
+## Ramucirumab: Vom Magenkarzinom zum Adenokarzinom des Lig. uteri
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

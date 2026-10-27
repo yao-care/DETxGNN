@@ -32,7 +32,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0**
 
 </div>
 
-# Acalabrutinib: Evaluierungsbericht zur Umwidmung von Arzneimitteln
+## Acalabrutinib: Evaluierungsbericht zur Umwidmung von Arzneimitteln
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

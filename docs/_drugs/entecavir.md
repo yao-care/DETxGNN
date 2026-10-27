@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Entecavir: Von chronischer Hepatitis B zu chronischer Hepatitis-C-Virusinfektion
+## Entecavir: Von chronischer Hepatitis B zu chronischer Hepatitis-C-Virusinfektion
+{: .text-alpha }
 
 ## Zusammenfassung
 

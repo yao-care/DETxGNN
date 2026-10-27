@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Mirtazapin: Von Depression zu Ohdo-Syndrom und Varianten
+## Mirtazapin: Von Depression zu Ohdo-Syndrom und Varianten
+{: .text-alpha }
 
 ## Zusammenfassung
 

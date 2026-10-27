@@ -33,7 +33,8 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Miconazol: Von Pilzinfektionen der Haut zu Akne
+## Miconazol: Von Pilzinfektionen der Haut zu Akne
+{: .text-alpha }
 
 ## Zusammenfassung
 

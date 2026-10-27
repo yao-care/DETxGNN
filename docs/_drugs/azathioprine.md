@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Azathioprin: Von der Transplantatabstoßung zur chronisch-entzündlichen Darmerkrankung
+## Azathioprin: Von der Transplantatabstoßung zur chronisch-entzündlichen Darmerkrankung
+{: .text-alpha }
 
 ## Zusammenfassung
 

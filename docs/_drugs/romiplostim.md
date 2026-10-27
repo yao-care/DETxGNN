@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Romiplostim: Von idiopathischer thrombozytopenischer Purpura zu primärer Freisetzungsstörung der Thrombozyten
+## Romiplostim: Von idiopathischer thrombozytopenischer Purpura zu primärer Freisetzungsstörung der Thrombozyten
+{: .text-alpha }
 
 ## Zusammenfassung
 

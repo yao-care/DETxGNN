@@ -33,7 +33,8 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Dupilumab: Von atopischer Dermatitis, Prurigo, Ösophaguserkrankungen, Asthma und Sinusitis zu Bronchitis
+## Dupilumab: Von atopischer Dermatitis, Prurigo, Ösophaguserkrankungen, Asthma und Sinusitis zu Bronchitis
+{: .text-alpha }
 
 ## Zusammenfassung
 

@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Selpercatinib: Vom nicht-kleinzelligen Lungenkarzinom und Schilddrüsenkarzinom zur pulmonalen Hypertonie
+## Selpercatinib: Vom nicht-kleinzelligen Lungenkarzinom und Schilddrüsenkarzinom zur pulmonalen Hypertonie
+{: .text-alpha }
 
 ## Zusammenfassung
 

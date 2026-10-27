@@ -32,7 +32,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0**
 
 </div>
 
-# BIMEKIZUMAB (DB12917): Bewertung der Arzneimittelneupositionierung — Ausstehende kritische Daten
+## BIMEKIZUMAB (DB12917): Bewertung der Arzneimittelneupositionierung — Ausstehende kritische Daten
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

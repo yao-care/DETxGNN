@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Caplacizumab: Von der thrombotischen thrombozytopenischen Purpura zur thrombotischen thrombozytopenischen Purpura (Top-Vorhersage: primäre Plättchen-Freisetzungsstörung)
+## Caplacizumab: Von der thrombotischen thrombozytopenischen Purpura zur thrombotischen thrombozytopenischen Purpura (Top-Vorhersage: primäre Plättchen-Freisetzungsstörung)
+{: .text-alpha }
 
 ## Zusammenfassung
 

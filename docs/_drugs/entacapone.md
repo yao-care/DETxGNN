@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Entacapon: Von Morbus Parkinson zu PLA2G6-assoziierter Neurodegeneration
+## Entacapon: Von Morbus Parkinson zu PLA2G6-assoziierter Neurodegeneration
+{: .text-alpha }
 
 ## Zusammenfassung
 

@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Indacaterol: Von chronisch obstruktiver Lungenerkrankung (COPD) zum nephrogenen Syndrom der inadäquaten Antidiurese
+## Indacaterol: Von chronisch obstruktiver Lungenerkrankung (COPD) zum nephrogenen Syndrom der inadäquaten Antidiurese
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

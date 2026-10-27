@@ -33,7 +33,8 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Pegaspargase: Von akuter lymphoblastischer Leukämie zu Vorläuferzell-lymphoblastischem Lymphom/Leukämie
+## Pegaspargase: Von akuter lymphoblastischer Leukämie zu Vorläuferzell-lymphoblastischem Lymphom/Leukämie
+{: .text-alpha }
 
 ## Zusammenfassung
 

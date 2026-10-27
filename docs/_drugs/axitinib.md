@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Axitinib: Vom Nierenzellkarzinom zum Nierenzellkarzinom mit Xp11.2-Translokation/TFE3-Genfusion
+## Axitinib: Vom Nierenzellkarzinom zum Nierenzellkarzinom mit Xp11.2-Translokation/TFE3-Genfusion
+{: .text-alpha }
 
 ## Zusammenfassung
 

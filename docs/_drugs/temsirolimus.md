@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Temsirolimus: Vom Nierenzellkarzinom und Mantelzell-Lymphom zum Liposarkom
+## Temsirolimus: Vom Nierenzellkarzinom und Mantelzell-Lymphom zum Liposarkom
+{: .text-alpha }
 
 ## Zusammenfassung
 

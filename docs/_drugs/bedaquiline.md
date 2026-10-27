@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Bedaquilin: Von multiresistenter Tuberkulose zu inaktiver Tuberkulose
+## Bedaquilin: Von multiresistenter Tuberkulose zu inaktiver Tuberkulose
+{: .text-alpha }
 
 ## Zusammenfassung
 

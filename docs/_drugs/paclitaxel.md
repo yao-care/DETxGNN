@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Paclitaxel: Von Brustneoplasmen, Pankreaskarzinom und nicht-kleinzelligem Lungenkarzinom zum Mammakarzinom der Frau
+## Paclitaxel: Von Brustneoplasmen, Pankreaskarzinom und nicht-kleinzelligem Lungenkarzinom zum Mammakarzinom der Frau
+{: .text-alpha }
 
 ## Zusammenfassung
 

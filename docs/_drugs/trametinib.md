@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Trametinib: Vom Melanom zum Choroideremie
+## Trametinib: Vom Melanom zum Choroideremie
+{: .text-alpha }
 
 Hinweis: Die Vorhersage mit dem höchsten TxGNN-Score (Rang 1) ist Choroideremie. Für diese Indikation liegen jedoch weder klinische Studien noch Literatur vor. Die Bewertung dieser Indikation wird daher unten ausgewiesen. Die Rangfolgen 2 bis 10 sind überwiegend Melanom-Subtypen und werden am Ende ergänzend eingeordnet.
 

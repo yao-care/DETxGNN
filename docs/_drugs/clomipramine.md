@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Clomipramin: Von Zwangsstörung zu Angststörung
+## Clomipramin: Von Zwangsstörung zu Angststörung
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

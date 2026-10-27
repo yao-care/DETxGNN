@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-# Fenfluramin: Von myoklonischer Epilepsie zum 16p11.2-Mikrodeletionssyndrom (proximal)
+## Fenfluramin: Von myoklonischer Epilepsie zum 16p11.2-Mikrodeletionssyndrom (proximal)
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

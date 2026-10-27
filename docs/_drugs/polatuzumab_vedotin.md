@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Polatuzumab vedotin: Von B-Zell-Lymphom zu HER2-positivem Mammakarzinom
+## Polatuzumab vedotin: Von B-Zell-Lymphom zu HER2-positivem Mammakarzinom
+{: .text-alpha }
 
 ## Zusammenfassung
 

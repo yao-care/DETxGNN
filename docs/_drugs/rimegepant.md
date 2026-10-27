@@ -33,7 +33,8 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Rimegepant: Von Migräne zu Migräne mit Hirnstammaura
+## Rimegepant: Von Migräne zu Migräne mit Hirnstammaura
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

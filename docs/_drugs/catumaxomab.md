@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Catumaxomab: Von Aszites zu schwerer nicht-proliferativer diabetischer Retinopathie
+## Catumaxomab: Von Aszites zu schwerer nicht-proliferativer diabetischer Retinopathie
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

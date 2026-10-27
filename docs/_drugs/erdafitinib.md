@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Erdafitinib: Von urothelialen Neoplasien zu pulmonaler Hypertonie
+## Erdafitinib: Von urothelialen Neoplasien zu pulmonaler Hypertonie
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

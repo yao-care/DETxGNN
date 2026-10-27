@@ -31,7 +31,8 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Olaparib: Von Ovarial-, Brust-, Pankreas- und Prostatakarzinom zum weiblichen Mammakarzinom
+## Olaparib: Von Ovarial-, Brust-, Pankreas- und Prostatakarzinom zum weiblichen Mammakarzinom
+{: .text-alpha }
 
 ## Zusammenfassung
 

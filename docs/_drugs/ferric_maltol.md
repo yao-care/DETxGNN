@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Eisenmaltol: Von Eisenmangelanämie zum Plummer-Vinson-Syndrom
+## Eisenmaltol: Von Eisenmangelanämie zum Plummer-Vinson-Syndrom
+{: .text-alpha }
 
 ## Zusammenfassung
 

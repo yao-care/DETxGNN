@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Omeprazol: Von säurebedingten Magen-Darm-Erkrankungen zu duodenogastrischem Reflux
+## Omeprazol: Von säurebedingten Magen-Darm-Erkrankungen zu duodenogastrischem Reflux
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

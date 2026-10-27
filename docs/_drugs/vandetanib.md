@@ -33,7 +33,8 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Vandetanib: Vom Schilddrüsenkarzinom zum Nierenzellkarzinom
+## Vandetanib: Vom Schilddrüsenkarzinom zum Nierenzellkarzinom
+{: .text-alpha }
 
 ## Zusammenfassung
 

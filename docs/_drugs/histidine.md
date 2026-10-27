@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Histidin: Von der Ahornsirupkrankheit zur Gastroparese
+## Histidin: Von der Ahornsirupkrankheit zur Gastroparese
+{: .text-alpha }
 
 ## Zusammenfassung
 

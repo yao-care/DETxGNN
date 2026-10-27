@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Latanoprost: Von primärem Offenwinkelglaukom zu primärem hereditärem Glaukom
+## Latanoprost: Von primärem Offenwinkelglaukom zu primärem hereditärem Glaukom
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

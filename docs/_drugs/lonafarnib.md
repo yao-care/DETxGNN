@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Lonafarnib: Von Progerie/Laminopathien zu Lepra
+## Lonafarnib: Von Progerie/Laminopathien zu Lepra
+{: .text-alpha }
 
 ## Zusammenfassung
 

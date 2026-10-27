@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Amlodipin: Von Hypertonie zu Hirnstamminfarkt
+## Amlodipin: Von Hypertonie zu Hirnstamminfarkt
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

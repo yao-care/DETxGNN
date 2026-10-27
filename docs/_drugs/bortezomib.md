@@ -32,7 +32,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0**
 
 </div>
 
-# Bortezomib: Bewertung der Arzneimittelumpositionierung — Datenerfassung ausstehend
+## Bortezomib: Bewertung der Arzneimittelumpositionierung — Datenerfassung ausstehend
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

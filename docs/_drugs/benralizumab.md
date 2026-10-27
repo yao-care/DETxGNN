@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-# Benralizumab: Vom Asthma zur Dermatitis
+## Benralizumab: Vom Asthma zur Dermatitis
+{: .text-alpha }
 
 ## Zusammenfassung
 

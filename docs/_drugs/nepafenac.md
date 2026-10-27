@@ -33,7 +33,8 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Nepafenac: Vom Einsatz bei postoperativen Schmerzen nach Augenoperationen zur Indikation Augenerkrankung
+## Nepafenac: Vom Einsatz bei postoperativen Schmerzen nach Augenoperationen zur Indikation Augenerkrankung
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

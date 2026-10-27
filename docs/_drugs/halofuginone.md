@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Halofuginon: Von einer nicht dokumentierten Indikation zur diabetischen Retinopathie
+## Halofuginon: Von einer nicht dokumentierten Indikation zur diabetischen Retinopathie
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

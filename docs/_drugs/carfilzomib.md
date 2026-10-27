@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-# Carfilzomib: Von Multiplem Myelom zu CMM7
+## Carfilzomib: Von Multiplem Myelom zu CMM7
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

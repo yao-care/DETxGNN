@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Ranolazin: Von Angina pectoris zum nephrogenen Syndrom der inadäquaten Antidiurese (NSIAD)
+## Ranolazin: Von Angina pectoris zum nephrogenen Syndrom der inadäquaten Antidiurese (NSIAD)
+{: .text-alpha }
 
 ## Zusammenfassung
 

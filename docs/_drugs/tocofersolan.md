@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Tocofersolan: Von Cholestase/Vitamin-E-Mangel zu Amenorrhoe
+## Tocofersolan: Von Cholestase/Vitamin-E-Mangel zu Amenorrhoe
+{: .text-alpha }
 
 ## Zusammenfassung
 

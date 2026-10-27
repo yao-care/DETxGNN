@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Eculizumab: Von paroxysmaler nächtlicher Hämoglobinurie zu zyklischer Hämatopoese
+## Eculizumab: Von paroxysmaler nächtlicher Hämoglobinurie zu zyklischer Hämatopoese
+{: .text-alpha }
 
 ## Zusammenfassung
 

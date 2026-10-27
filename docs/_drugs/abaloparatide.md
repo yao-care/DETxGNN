@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-# Abaloparatid: Von postmenopausaler Osteoporose zu nicht-syndromischer Ösophagusfehlbildung
+## Abaloparatid: Von postmenopausaler Osteoporose zu nicht-syndromischer Ösophagusfehlbildung
+{: .text-alpha }
 
 ## Zusammenfassung
 

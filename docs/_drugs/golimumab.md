@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-# Golimumab: Von rheumatoider Arthritis zu rheumatoider Vaskulitis
+## Golimumab: Von rheumatoider Arthritis zu rheumatoider Vaskulitis
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

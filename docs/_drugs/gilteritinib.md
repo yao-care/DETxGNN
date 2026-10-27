@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Gilteritinib: Von akuter myeloischer Leukämie zu bulbärer Poliomyelitis
+## Gilteritinib: Von akuter myeloischer Leukämie zu bulbärer Poliomyelitis
+{: .text-alpha }
 
 ## Zusammenfassung
 

@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Palivizumab: Von RSV-Infektionen zu gutartiger Neubildung der Zunge
+## Palivizumab: Von RSV-Infektionen zu gutartiger Neubildung der Zunge
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

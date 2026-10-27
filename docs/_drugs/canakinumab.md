@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Canakinumab: Von Cryopyrin-assoziierten periodischen Syndromen zu Leberinfarkt (Hepatic Infarction)
+## Canakinumab: Von Cryopyrin-assoziierten periodischen Syndromen zu Leberinfarkt (Hepatic Infarction)
+{: .text-alpha }
 
 ## Zusammenfassung
 

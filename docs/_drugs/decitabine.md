@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Decitabin: Von myeloischer Leukämie zu refraktärer Zytopenie des Kindesalters
+## Decitabin: Von myeloischer Leukämie zu refraktärer Zytopenie des Kindesalters
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

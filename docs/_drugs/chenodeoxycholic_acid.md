@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-# Chenodeoxycholsäure: Von zerebrotendinöser Xanthomatose zu homozygoter familiärer Hypercholesterinämie
+## Chenodeoxycholsäure: Von zerebrotendinöser Xanthomatose zu homozygoter familiärer Hypercholesterinämie
+{: .text-alpha }
 
 ## Zusammenfassung
 

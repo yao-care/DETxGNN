@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-# Rufinamid: Von Epilepsie zum febrilen infektionsassoziierten Epilepsiesyndrom (FIRES)
+## Rufinamid: Von Epilepsie zum febrilen infektionsassoziierten Epilepsiesyndrom (FIRES)
+{: .text-alpha }
 
 ## Zusammenfassung
 

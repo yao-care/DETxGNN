@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **4**
 
 </div>
 
-# Andexanet alfa: Von arzneimittelbedingten Nebenwirkungen zu Glanzmann-Thrombasthenie
+## Andexanet alfa: Von arzneimittelbedingten Nebenwirkungen zu Glanzmann-Thrombasthenie
+{: .text-alpha }
 
 ## Zusammenfassung
 

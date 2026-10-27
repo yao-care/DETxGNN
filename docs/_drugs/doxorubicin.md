@@ -33,7 +33,8 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Doxorubicin: Von Brustkrebs, Kaposi-Sarkom, Multiplem Myelom und Ovarialkarzinom zum Ewing-Sarkom
+## Doxorubicin: Von Brustkrebs, Kaposi-Sarkom, Multiplem Myelom und Ovarialkarzinom zum Ewing-Sarkom
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

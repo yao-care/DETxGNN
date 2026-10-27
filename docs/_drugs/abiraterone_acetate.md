@@ -32,7 +32,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0**
 
 </div>
 
-# ABIRATERONE ACETATE: Arzneimittelrepurposing-Evaluierung — Erwartung von Vorhersagedaten
+## ABIRATERONE ACETATE: Arzneimittelrepurposing-Evaluierung — Erwartung von Vorhersagedaten
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

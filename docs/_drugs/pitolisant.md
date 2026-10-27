@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Pitolisant: Von Narkolepsie und obstruktiver Schlafapnoe zu Insomnie
+## Pitolisant: Von Narkolepsie und obstruktiver Schlafapnoe zu Insomnie
+{: .text-alpha }
 
 ## Zusammenfassung
 

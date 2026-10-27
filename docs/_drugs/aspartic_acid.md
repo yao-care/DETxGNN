@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Asparaginsäure: Von der Ahornsirupkrankheit zur renalen tubulären Azidose
+## Asparaginsäure: Von der Ahornsirupkrankheit zur renalen tubulären Azidose
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

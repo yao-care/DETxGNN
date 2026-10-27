@@ -33,7 +33,8 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Tegafur: Von Magenkarzinom zu Kolonneoplasie
+## Tegafur: Von Magenkarzinom zu Kolonneoplasie
+{: .text-alpha }
 
 ## Zusammenfassung
 

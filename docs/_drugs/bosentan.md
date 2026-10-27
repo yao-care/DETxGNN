@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **9**
 
 </div>
 
-# Bosentan: Von pulmonaler Hypertonie und systemischer Sklerose zu rheumatoider Arthritis
+## Bosentan: Von pulmonaler Hypertonie und systemischer Sklerose zu rheumatoider Arthritis
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

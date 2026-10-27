@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Glycin: Von der Ahornsirupkrankheit zur Erkrankung der Nasenhöhle
+## Glycin: Von der Ahornsirupkrankheit zur Erkrankung der Nasenhöhle
+{: .text-alpha }
 
 ## Zusammenfassung
 

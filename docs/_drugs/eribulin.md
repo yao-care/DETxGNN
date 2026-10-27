@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Eribulin: Von Brustkrebs und Liposarkom zum familiären Mittelmeerfieber (autosomal-rezessiv)
+## Eribulin: Von Brustkrebs und Liposarkom zum familiären Mittelmeerfieber (autosomal-rezessiv)
+{: .text-alpha }
 
 ## Zusammenfassung
 

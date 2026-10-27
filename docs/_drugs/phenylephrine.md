@@ -33,7 +33,8 @@ Evidenzniveau: **L3** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Phenylephrin: Von postoperativer Augenanwendung zu Erkrankungen der Nasenhöhle
+## Phenylephrin: Von postoperativer Augenanwendung zu Erkrankungen der Nasenhöhle
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

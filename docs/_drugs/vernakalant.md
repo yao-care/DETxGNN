@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Vernakalant: Vom Vorhofflimmern zur Schlaganfall-Erkrankung
+## Vernakalant: Vom Vorhofflimmern zur Schlaganfall-Erkrankung
+{: .text-alpha }
 
 ## Zusammenfassung
 

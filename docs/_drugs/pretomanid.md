@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-# Pretomanid: Von multiresistenter Tuberkulose zu Candidiasis
+## Pretomanid: Von multiresistenter Tuberkulose zu Candidiasis
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

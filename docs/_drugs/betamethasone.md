@@ -33,7 +33,8 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Betamethason: Von Autoimmun- und Entzündungserkrankungen zu Alopecia areata
+## Betamethason: Von Autoimmun- und Entzündungserkrankungen zu Alopecia areata
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

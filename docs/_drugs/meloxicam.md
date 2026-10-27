@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Meloxicam: Von rheumatoider Arthritis zu Akromesomeler Dysplasie, Typ Hunter-Thompson
+## Meloxicam: Von rheumatoider Arthritis zu Akromesomeler Dysplasie, Typ Hunter-Thompson
+{: .text-alpha }
 
 ## Zusammenfassung
 

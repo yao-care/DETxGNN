@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Itraconazol: Von systemischen Pilzinfektionen zu Pneumocystose
+## Itraconazol: Von systemischen Pilzinfektionen zu Pneumocystose
+{: .text-alpha }
 
 ## Zusammenfassung
 

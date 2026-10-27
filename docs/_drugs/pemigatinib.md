@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Pemigatinib: Von Cholangiokarzinom zu multipler endokriner Neoplasie
+## Pemigatinib: Von Cholangiokarzinom zu multipler endokriner Neoplasie
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

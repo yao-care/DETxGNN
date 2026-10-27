@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-# Lamivudin: Von HIV-Infektion und chronischer Hepatitis B zu felinem erworbenem Immundefizienzsyndrom
+## Lamivudin: Von HIV-Infektion und chronischer Hepatitis B zu felinem erworbenem Immundefizienzsyndrom
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

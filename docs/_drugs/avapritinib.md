@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Avapritinib: Von gastrointestinalen Stromatumoren zur axialen spondylometaphysären Dysplasie
+## Avapritinib: Von gastrointestinalen Stromatumoren zur axialen spondylometaphysären Dysplasie
+{: .text-alpha }
 
 ## Zusammenfassung
 

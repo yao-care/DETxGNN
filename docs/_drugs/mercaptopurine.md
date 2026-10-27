@@ -33,7 +33,8 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Mercaptopurin: Von lymphatischer Leukämie zu myeloischer Leukämie
+## Mercaptopurin: Von lymphatischer Leukämie zu myeloischer Leukämie
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

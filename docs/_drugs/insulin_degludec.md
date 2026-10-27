@@ -33,7 +33,8 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **6**
 
 </div>
 
-# Insulin degludec: Von Diabetes mellitus zu Typ-1-Diabetes mellitus
+## Insulin degludec: Von Diabetes mellitus zu Typ-1-Diabetes mellitus
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

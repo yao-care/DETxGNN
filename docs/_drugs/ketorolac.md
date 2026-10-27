@@ -33,7 +33,8 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Ketorolac: Von postoperativem Schmerz zu Kopfschmerzerkrankung (Headache Disorder)
+## Ketorolac: Von postoperativem Schmerz zu Kopfschmerzerkrankung (Headache Disorder)
+{: .text-alpha }
 
 ## Zusammenfassung
 

@@ -33,7 +33,8 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **8**
 
 </div>
 
-# Ofatumumab: Von Multipler Sklerose zu chronischer lymphatischer Leukämie/kleinzelligem lymphozytischem Lymphom
+## Ofatumumab: Von Multipler Sklerose zu chronischer lymphatischer Leukämie/kleinzelligem lymphozytischem Lymphom
+{: .text-alpha }
 
 ## Zusammenfassung
 

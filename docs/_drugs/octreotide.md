@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Octreotid: Von Akromegalie zu vulvärer invertierter follikulärer Keratose
+## Octreotid: Von Akromegalie zu vulvärer invertierter follikulärer Keratose
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

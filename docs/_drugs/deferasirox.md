@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **5**
 
 </div>
 
-# Deferasirox: Von Eisenüberladung/β-Thalassämie zu HIV-Infektion
+## Deferasirox: Von Eisenüberladung/β-Thalassämie zu HIV-Infektion
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

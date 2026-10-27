@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **2**
 
 </div>
 
-# Anagrelid: Von essentieller Thrombozythämie zu reaktiver Thrombozytose
+## Anagrelid: Von essentieller Thrombozythämie zu reaktiver Thrombozytose
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

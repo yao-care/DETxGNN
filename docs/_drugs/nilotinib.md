@@ -33,7 +33,8 @@ Evidenzniveau: **L4** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Nilotinib: Von chronischer myeloischer Leukämie zu Dermatofibrosarcoma protuberans
+## Nilotinib: Von chronischer myeloischer Leukämie zu Dermatofibrosarcoma protuberans
+{: .text-alpha }
 
 ## Zusammenfassung
 

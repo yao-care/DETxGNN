@@ -32,7 +32,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0**
 
 </div>
 
-# RELUGOLIX: Bewertung der Umwidmung — Ausstehende TxGNN-Vorhersagen
+## RELUGOLIX: Bewertung der Umwidmung — Ausstehende TxGNN-Vorhersagen
+{: .text-alpha }
 
 ## Zusammenfassung
 

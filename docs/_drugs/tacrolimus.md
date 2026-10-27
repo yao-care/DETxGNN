@@ -33,7 +33,8 @@ Evidenzniveau: **L1** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Tacrolimus: Von Transplantatabstoßung und atopischer Dermatitis zu seborrhoischer Dermatitis
+## Tacrolimus: Von Transplantatabstoßung und atopischer Dermatitis zu seborrhoischer Dermatitis
+{: .text-alpha }
 
 ## Zusammenfassung
 

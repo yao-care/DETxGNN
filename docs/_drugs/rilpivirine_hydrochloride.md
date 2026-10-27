@@ -32,7 +32,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **0**
 
 </div>
 
-# Rilpivirine Hydrochlorid: Bewertung der Arzneistoff-Neuindikation — Vorhersagen noch nicht verfügbar
+## Rilpivirine Hydrochlorid: Bewertung der Arzneistoff-Neuindikation — Vorhersagen noch nicht verfügbar
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

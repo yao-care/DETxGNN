@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Alglucosidase alfa: Von Glykogenspeicherkrankheit Typ II zur Adulten Polyglucosan-Körper-Krankheit
+## Alglucosidase alfa: Von Glykogenspeicherkrankheit Typ II zur Adulten Polyglucosan-Körper-Krankheit
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

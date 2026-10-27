@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Maraviroc: Von HIV-Infektion zu multipler endokriner Neoplasie
+## Maraviroc: Von HIV-Infektion zu multipler endokriner Neoplasie
+{: .text-alpha }
 
 ## Zusammenfassung
 

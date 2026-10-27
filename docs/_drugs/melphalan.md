@@ -33,7 +33,8 @@ Evidenzniveau: **L2** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Melphalan: Von multiplem Myelom zu Keimzelltumor der Gonaden
+## Melphalan: Von multiplem Myelom zu Keimzelltumor der Gonaden
+{: .text-alpha }
 
 ## Zusammenfassung
 

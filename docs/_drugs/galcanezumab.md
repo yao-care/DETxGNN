@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **3**
 
 </div>
 
-# Galcanezumab: Von Migräne zu Heparin-Cofaktor-2-Mangel
+## Galcanezumab: Von Migräne zu Heparin-Cofaktor-2-Mangel
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

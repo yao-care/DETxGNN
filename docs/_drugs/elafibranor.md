@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **1**
 
 </div>
 
-# Elafibranor: Von primärer biliärer Zirrhose zu Amenorrhoe
+## Elafibranor: Von primärer biliärer Zirrhose zu Amenorrhoe
+{: .text-alpha }
 
 ## Zusammenfassung in einem Satz
 

@@ -33,7 +33,8 @@ Evidenzniveau: **L5** | Vorhergesagte Indikationen: **10**
 
 </div>
 
-# Avatrombopag: Von Thrombozytopenie zu Makrothrombozytopenie mit Mitralklappeninsuffizienz
+## Avatrombopag: Von Thrombozytopenie zu Makrothrombozytopenie mit Mitralklappeninsuffizienz
+{: .text-alpha }
 
 ## Zusammenfassung
 
