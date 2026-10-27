@@ -19,7 +19,7 @@ Vorhersagen zur Arzneimittel-Repositionierung fuer Germany BfArM-zugelassene Arz
 
 | Element | Anzahl |
 |------|------|
-| **Arzneimittelberichte** | 488 |
+| **Arzneimittelberichte** | 468 |
 | **Gesamtvorhersagen** | 2,810,877 |
 | **Einzigartige Arzneimittel** | 691 |
 | **Einzigartige Indikationen** | 17,041 |
